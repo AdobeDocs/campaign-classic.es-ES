@@ -1,0 +1,280 @@
+---
+title: Integración en un servidor Web para Linux
+seo-title: Integración en un servidor Web para Linux
+description: Integración en un servidor Web para Linux
+seo-description: null
+page-status-flag: never-activated
+uuid: 7b18d176-4458-46a8-8da4-3621f90c6b13
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: installation
+content-type: reference
+topic-tags: installing-campaign-in-linux-
+discoiquuid: 752ba848-aee9-4bb0-b2c5-490f3124f74e
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: abddb3cdfcee9e41cab2e7e662d5bfd5d53d6f7e
+
+---
+
+
+# Integración en un servidor Web para Linux{#integration-into-a-web-server-for-linux}
+
+Adobe Campaign incluye Apache Tomcat que actúa como punto de entrada en el servidor de aplicaciones mediante HTTP (y SOAP).
+
+Puede utilizar este servidor Tomcat integrado para servir solicitudes HTTP.
+
+En este caso:
+
+* el puerto de escucha predeterminado es 8080. Para cambiarlo, consulte [Configuración de Tomcat](../../installation/using/configuring-campaign-server.md#configuring-tomcat).
+* Las consolas de cliente se conectan mediante una dirección URL como:
+
+   ```
+   http://<computer>:8080
+   ```
+
+Sin embargo, por motivos de seguridad y administración, recomendamos utilizar un servidor Web dedicado como punto de entrada principal para el tráfico HTTP cuando el equipo que ejecuta Adobe Campaign esté expuesto en Internet y desee abrir el acceso a la consola fuera de la red.
+
+Un servidor Web también permite garantizar la confidencialidad de los datos con el protocolo HTTP.
+
+Del mismo modo, debe utilizar un servidor Web cuando desee utilizar la funcionalidad de seguimiento, que sólo está disponible como módulo de extensión para un servidor Web.
+
+>[!NOTE]
+>
+>Si no utiliza la funcionalidad de seguimiento, puede realizar una instalación estándar de Apache o IIS con una redirección a Campaign. No se requiere el módulo de extensión del servidor Web de seguimiento.
+
+## Configuración del servidor Web Apache con Debian {#configuring-the-apache-web-server-with-debian}
+
+Este proceso se aplica si ha instalado Apache en una distribución basada en APT.
+
+Siga estos pasos:
+
+1. Deshabilite los módulos cargados de forma predeterminada mediante el siguiente comando:
+
+   ```
+   a2dismod auth_basic authn_file authz_default authz_user autoindex cgi dir env negotiation userdir
+   ```
+
+   Asegúrese de que los módulos **alias**, **authz_host** y **mime** siguen activados. Para ello, utilice el siguiente comando:
+
+   ```
+   a2enmod  alias authz_host mime
+   ```
+
+1. Cree el archivo **nlsrv.load** en **/etc/apache2/mods-available** e inserte el siguiente contenido:
+
+   En Debian 7:
+
+   ```
+   LoadModule requesthandler22_module /usr/local/[INSTALL]/nl6/lib/libnlsrvmod.so
+   ```
+
+   En Debian 8:
+
+   ```
+   LoadModule requesthandler24_module /usr/local/[INSTALL]/nl6/lib/libnlsrvmod.so
+   ```
+
+1. Cree el archivo **nlsrv.conf** en **/etc/apache2/mods-available** con el siguiente comando:
+
+   ```
+   ln -s /usr/local/[INSTALL]/nl6/tomcat-7/conf/apache_neolane.conf /etc/apache2/mods-available/nlsrv.conf
+   ```
+
+1. Active este módulo con el siguiente comando:
+
+   ```
+    a2enmod nlsrv
+   ```
+
+   Si utiliza el módulo **mod_rewrite** para las páginas de Adobe Campaign, debe cambiar el nombre de los archivos **nlsrv.load** y **nlsrv.conf** a **zz-nlsrv.load** y **zz-nlsrv.conf**. Para activar el módulo, ejecute el siguiente comando:
+
+   ```
+   a2enmod zz-nlsrv
+   ```
+
+1. Edite el archivo **/etc/apache2/envvars** y agregue las siguientes líneas:
+
+   ```
+   # Added Neolane
+   if [ "$LD_LIBRARY_PATH" != "" ]; then export LD_LIBRARY_PATH="/usr/local/neolane/nl6/lib:$LD_LIBRARY_PATH"; else export LD_LIBRARY_PATH=/usr/local/neolane/nl6/lib; fi
+   export USERPATH=/usr/local/neolane
+   ```
+
+   Guarde los cambios.
+
+1. A continuación, agregue usuarios de Adobe Campaign al grupo de usuarios Apache y viceversa mediante el siguiente tipo de comando:
+
+   ```
+   usermod neolane -G www-data
+   usermod www-data -G neolane
+   ```
+
+1. Reinicie Apache:
+
+   ```
+   invoke-rc.d apache2 restart
+   ```
+
+## Configuración del servidor web Apache en RHEL {#configuring-apache-web-server-in-rhel}
+
+Este procedimiento se aplica si ha instalado y asegurado Apache en un paquete basado en RPM (RHEL, CentOS y Suse).
+
+Siga estos pasos:
+
+1. En el `httpd.conf` archivo, active los siguientes módulos de Apache:
+
+   ```
+   alias
+   authz_host
+   mime
+   ```
+
+1. Desactive los siguientes módulos:
+
+   ```
+   auth_basic
+   authn_file
+   authz_default
+   authz_user
+   autoindex
+   cgi
+   dir
+   env
+   negotiation
+   userdir
+   ```
+
+Comente las funciones vinculadas a los módulos desactivados:
+
+    &quot;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    DirectoryIndexIndexOptionsAddIconByEncodingAddIconByTypeAddIconDefaultIconReadmeNameHeaderNameIndexIgnoreLanguagePriorityForceLanguagePriority
+    &quot;
+
+1. Cree un archivo de configuración específico de Adobe Campaign en la `/etc/httpd/conf.d/` carpeta.
+
+Por ejemplo `CampaignApache.conf`.
+
+1. Para **RHEL6**, agregue las siguientes instrucciones en el archivo:
+
+   ```
+   LoadModule requesthandler22_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
+   Include /usr/local/neolane/nl6/tomcat-7/conf/apache_neolane.conf
+   ```
+
+Para **RHEL7**, agregue las siguientes instrucciones en el archivo:
+
+LoadModule requestthandler24_module /usr/local/neolane/nl6/lib/libnlsrvmod.soInclude /usr/local/neolane/nl6/tomcat-7/conf/apache_neolane.conf
+
+1. Para **RHEL6**:
+
+Agregue las siguientes instrucciones en el `/etc/sysconfig/httpd` archivo:
+
+    &quot;
+    #Neolane/Adobe Campaign
+    Configurationsi [ &quot;$LD_LIBRARY_PATH&quot; != &quot;&quot; ]; luego exporte LD_LIBRARY_PATH=&quot;/usr/local/neolane/nl6/lib:$LD_LIBRARY_PATH&quot;; else export LD_LIBRARY_PATH=/usr/local/neolane/nl6/lib;
+    fiexport USERPATH=/usr/local/neolane
+    &quot;
+
+Para **RHEL7**:
+
+Agregue el `/etc/systemd/system/httpd.service` archivo con el siguiente contenido:
+
+    &quot;
+    .include /usr/lib/systemd/system/httpd.service
+    
+    [Service]
+    Environment=USERPATH=/usr/local/neolane LD_LIBRARY_PATH=/usr/local/neolane/nl6/lib
+    &quot;
+
+Actualice el módulo utilizado por el sistema:
+
+    &quot;
+    systemctl daemon-reload
+    &quot;
+
+1. A continuación, agregue los operadores de Adobe Campaign al grupo de operadores Apache y viceversa, ejecutando el comando:
+
+   ```
+   usermod -a -G neolane apache
+   usermod -a -G apache neolane
+   ```
+Los nombres de grupo que se van a utilizar dependen de la forma en que se configure Apache.
+
+1. Ejecute Apache y el servidor de Adobe Campaign.
+
+Para RHEL6:
+
+    &quot;
+    /etc/init.d/httpd start
+    /etc/init.d/nlserver start
+    &quot;
+
+Para RHEL7:
+
+    &quot;
+    systemctl start
+    httpdsystemctl start nlserver
+    &quot;
+
+## Inicio del servidor Web y prueba de la configuración{#launching-the-web-server-and-testing-the-configuration}
+
+Ahora puede probar la configuración iniciando Apache. El módulo Adobe Campaign debería mostrar ahora su pancarta en la consola (dos pancartas en determinados sistemas operativos):
+
+```
+ /etc/init.d/apache start
+```
+
+Se muestra la siguiente información:
+
+```
+12:26:28 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
+12:26:28 >   Web server start (pid=29698, tid=-1212463424)...
+12:26:28 >   Server started
+12:26:28 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
+12:26:28 >   Web server start (pid=29698, tid=-1212463424)...
+12:26:28 >   Server started
+```
+
+A continuación, compruebe que responde enviando una URL de prueba.
+
+Puede probar esto desde la línea de comandos ejecutando:
+
+```
+ telnet localhost 80  
+```
+
+Debe obtener:
+
+```
+Trying 127.0.0.1...
+Connected to localhost.localdomain.
+Escape character is '^]'.
+````
+
+A continuación, introduzca:
+
+```
+GET /r/test
+````
+
+Se muestra la siguiente información:
+
+```
+<redir status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='' localHost='XXXX'/>
+Connection closed by foreign host.
+````
+
+También puede solicitar la dirección URL [`http://<computer>`](http://machine/r/test) desde un explorador Web.
