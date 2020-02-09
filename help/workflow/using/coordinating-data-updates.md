@@ -1,0 +1,65 @@
+---
+title: Coordinación de actualizaciones de datos
+seo-title: Coordinación de actualizaciones de datos
+description: Coordinación de actualizaciones de datos
+seo-description: null
+page-status-flag: never-activated
+uuid: 003d63f8-3169-4190-882e-e360a83ccafb
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: workflow
+content-type: reference
+topic-tags: use-cases
+discoiquuid: efe09c66-b74b-48f0-9042-5da4342e014e
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: cfb1b02a6261c001392b5cc6430f00206e802bb8
+
+---
+
+
+# Coordinación de actualizaciones de datos{#coordinating-data-updates}
+
+Este caso de uso detalla la creación de un flujo de trabajo que permite administrar las actualizaciones integradas cuando se utilizan varias ejecuciones de un flujo de trabajo.
+
+El objetivo es comprobar que el proceso de actualización ha finalizado antes de ejecutar otra operación de actualización. Para ello, se configura una variable de instancia y se deja que el flujo de trabajo pruebe si la instancia se está ejecutando para decidir si continuar o no con la ejecución del flujo de trabajo y realizar la actualización.
+
+![](assets/uc_dataupdate_wkf.png)
+
+Este flujo de trabajo consta de:
+
+* una actividad **Planificador**, que ejecuta el flujo de trabajo en una frecuencia específica.
+* una actividad **Prueba** que comprueba si el flujo de trabajo ya se está ejecutando.
+* Las actividades **Consulta** y **Actualización de datos** en caso de que el flujo de trabajo no se esté ejecutando, seguidas de una actividad **Fin** que reinicia la variable de la instancia de flujo de trabajo en falso.
+* Una actividad **Fin** si el flujo de trabajo ya se está ejecutando.
+
+Para crear un flujo de trabajo, siga los pasos siguientes:
+
+1. Agregue una actividad **Planificador** y, a continuación, configure su frecuencia según sus necesidades.
+1. Agregue una actividad **Prueba** para comprobar si el flujo de trabajo ya se está ejecutando y, a continuación, configúrelo como se muestra a continuación.
+
+   >[!NOTE]
+   >
+   >“isRunning” es el nombre de la variable de instancia que se ha elegido para este ejemplo. Esta no es una variable integrada.
+
+   ![](assets/uc_dataupdate_test.png)
+
+1. Agregue una actividad **Fin** a la bifurcación **No.** De este modo, no se ejecuta nada si el flujo de trabajo ya se está ejecutando.
+1. Agregue las actividades deseadas a la bifurcación **Sí.** En este caso, las actividades **Consulta** y **Actualización de datos**
+1. Open the first activity, then add the **instance.vars.isRunning = true** command in the **[!UICONTROL Advanced]** tab. De este modo, la variable de instancia se establece como en ejecución.
+
+   ![](assets/uc_dataupdate_query.png)
+
+1. Add an **End** activity at the end of the **[!UICONTROL Yes]** fork, then add the **instance.vars.isRunning = false** command in the **[!UICONTROL Advanced]** tab.
+
+   De este modo, no se ejecutará ninguna acción mientras se esté ejecutando el flujo de trabajo.
+
+   ![](assets/uc_dataupdate_end.png)
+
+**Temas relacionados:**
+
+* [Prevención de las ejecuciones múltiples simultáneas](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)
+* [Actividad de actualización de datos](../../workflow/using/update-data.md)
+
