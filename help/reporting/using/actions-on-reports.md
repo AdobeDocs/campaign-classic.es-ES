@@ -1,0 +1,119 @@
+---
+title: Acciones sobre los informes
+seo-title: Acciones sobre los informes
+description: Acciones sobre los informes
+seo-description: null
+page-status-flag: never-activated
+uuid: 7f9d99ab-ce19-46dd-bbf0-79de348d38fb
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: reporting
+content-type: reference
+topic-tags: creating-new-reports
+discoiquuid: 3b9c138e-8f7f-4ee1-9baa-328848d01d3a
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: af768da6ee8cc0ca2ea1f24f297239b974c113a5
+
+---
+
+
+# Acciones sobre los informes{#actions-on-reports}
+
+Al visualizar un informe, la barra de herramientas permite realizar diversas acciones. A continuación se detallan dichas acciones.
+
+![](assets/s_ncs_advuser_report_wizard_2.png)
+
+Por ejemplo, la barra de herramientas permite exportar, imprimir, archivar o mostrar el informe en un navegador web.
+
+![](assets/s_ncs_advuser_report_wizard_04.png)
+
+## Exportación de un informe {#exporting-a-report}
+
+Seleccione el formato en el que desee exportar el informe desde la lista desplegable. (.xls, .pdf, .ods).
+
+![](assets/s_ncs_advuser_report_wizard_06.png)
+
+Cuando un informe contiene varias páginas, se debe repetir la operación con cada página.
+
+Se puede configurar el informe con el fin de exportarlo en formato PDF, Excel u OpenOffice. Abra el explorador de Adobe Campaign y seleccione el informe correspondiente.
+
+Export options are accessed via the **[!UICONTROL Page]** activities of the report, in the **[!UICONTROL Advanced]** tab.
+
+Cambie la configuración de **[!UICONTROL Paper]** y **[!UICONTROL Margins]** para adaptarla a sus necesidades. También se puede autorizar la exportación de una página solo en formato PDF. Para ello, desactive la **[!UICONTROL Activate OpenOffice/Microsoft Excel export]** opción.
+
+![](assets/s_ncs_advuser_report_wizard_021.png)
+
+### Exportación a Microsoft Excel {#exporting-into-microsoft-excel}
+
+For **[!UICONTROL List with group]** type reports destined to be exported into Excel, the following recommendations and limitations apply:
+
+* Estos informes no deben contener ninguna línea vacía.
+
+   ![](assets/export_limitations_remove_empty_line.png)
+
+* El pie de la lista debe estar oculto.
+
+   ![](assets/export_limitations_hide_label.png)
+
+* Los informes no deben utilizar un formato específico definido al nivel de celda. It is preferable to use **[!UICONTROL Form rendering]** to define the format of the cells in the table. Se **[!UICONTROL Form rendering]** puede acceder a la página a través de **[!UICONTROL Administration > Configuration > Form rendering]**.
+* No se recomienda insertar contenido HTML.
+* Si un informe contiene varios elementos de tipo tabla, gráfico, etc., se exportan uno debajo del otro.
+* Se puede forzar el retorno de carro en las celdas: esta configuración se conserva en Excel. Para obtener más información sobre esto, consulte esta sección sobre [definición de formato](../../reporting/using/creating-a-table.md#defining-cell-format)de celda.
+
+### Aplazamiento de la exportación {#postpone-the-export}
+
+Se puede aplazar la exportación de un informe, por ejemplo para esperar las llamadas asíncronas. Para ello, introduzca el siguiente parámetro en la secuencia de comandos de inicialización de la página:
+
+```
+document.nl_waitBeforeRender = true;
+```
+
+Para activar la exportación e iniciar la conversión en un archivo PDF, utilice la función **document.nl_renderToPdf()** sin ningún parámetro.
+
+### Asignación de memoria {#memory-allocation}
+
+Al exportar ciertos informes de gran tamaño, pueden producirse errores de asignación de memoria.
+
+En algunos casos, el valor predeterminado **maxMB** (**SKMS** para instancias alojadas) de JavaScript indicado en el archivo de configuración **serverConf.xml** se establece en 64 MB. Si se producen errores de memoria insuficiente al exportar un informe, se recomienda aumentar esta cifra a 512 MB:
+
+```
+<javaScript maxMB="512" stackSizeKB="8"/>
+```
+
+Para aplicar los cambios realizados en la configuración, es necesario reiniciar el servicio **nlserver**.
+
+Para obtener más información sobre el archivo **serverConf.xml**, consulte [esta sección](../../production/using/configuration-principle.md).
+
+Para obtener más información sobre el servicio **nlserver**, consulte [esta sección](../../production/using/administration.md).
+
+## Impresión de informes {#printing-a-report}
+
+Se puede imprimir el informe. Para ello, haga clic en el icono de impresora: esto abre el cuadro de diálogo correspondiente.
+
+For a better result, edit the Internet Explorer printing options and select **[!UICONTROL Print background colors and images]**.
+
+![](assets/s_ncs_advuser_report_print_options.png)
+
+## Creación de archivos de informes {#creating-report-archives}
+
+El archivado de un informe permite crear una vista del informe en varios períodos, por ejemplo para mostrar las estadísticas de un período de tiempo determinado.
+
+Para crear un archivo, abra el informe correspondiente y haga clic en el icono adecuado.
+
+![](assets/s_ncs_advuser_report_wizard_07.png)
+
+Para mostrar u ocultar los archivos existentes, haga clic en el icono mostrar/ocultar.
+
+![](assets/s_ncs_advuser_report_history_06.png)
+
+Las fechas de archivo se muestran bajo el icono mostrar/ocultar. Haga clic en el archivo para verlo.
+
+![](assets/s_ncs_advuser_report_history_04.png)
+
+Es posible eliminar un archivo de informes. Para ello, vaya al nodo de Adobe Campaign donde se almacenan los informes. Click the **[!UICONTROL Archives]** tab, select the one you want to delete and click **[!UICONTROL Delete]**.
+
+![](assets/s_ncs_advuser_report_history_01.png)
+
