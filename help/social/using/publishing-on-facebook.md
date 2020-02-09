@@ -1,0 +1,231 @@
+---
+title: Publicación en Facebook
+seo-title: Publicación en Facebook
+description: Publicación en Facebook
+seo-description: null
+page-status-flag: never-activated
+uuid: f15170fa-0e7d-4913-81d6-0072c1ece482
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: social
+content-type: reference
+topic-tags: publishing-on-facebook-twitter
+discoiquuid: 335cf2de-1874-4e48-9538-f0937641cf96
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 20174427735b90129cd4cbd9ee1ba5fd705fa302
+
+---
+
+
+# Publicación en Facebook{#publishing-on-facebook}
+
+Una vez completada la configuración, Social Marketing le permite publicar publicaciones en los muros de sus páginas de Facebook.
+
+## Limitaciones {#limitations}
+
+Las siguientes limitaciones son inherentes a Facebook.
+
+* Los mensajes no pueden exceder los 1000 caracteres.
+* No se admite HTML.
+
+## Creación del envío {#creating-the-delivery}
+
+Cree una nueva entrega con la plantilla de envío **[!UICONTROL Publish to a brand page]** .
+
+![](assets/social_facebook_delivery_001.png)
+
+## Selección del objetivo principal {#selecting-the-main-target}
+
+Debe seleccionar las páginas en las que desea publicar la publicación.
+
+1. Haga clic en el **[!UICONTROL To]** vínculo.
+
+   ![](assets/social_facebook_delivery_010.png)
+
+1. Haga clic en el botón **[!UICONTROL Add]**.
+
+   ![](assets/social_facebook_delivery_011.png)
+
+1. Select **[!UICONTROL A Facebook page]**.
+
+   ![](assets/social_facebook_delivery_012.png)
+
+1. En el **[!UICONTROL Folder]** campo, seleccione la carpeta de servicio que contiene la página de Facebook. De forma predeterminada, las páginas se almacenan en la raíz de la carpeta del **[!UICONTROL Facebook]** servicio. A continuación, seleccione la página de Facebook en la que desee publicar.
+
+   ![](assets/social_facebook_delivery_013.png)
+
+## Selección del destino de la prueba {#selecting-the-proof-target}
+
+La **[!UICONTROL Target of the proofs]** ficha permite definir la página de Facebook que desea utilizar para probar los envíos antes de enviarlos. Recomendamos crear una página privada de Facebook dedicada a este fin. Para obtener más información sobre la creación de una página privada de Facebook, consulte [Creación de una página](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page)de Facebook de prueba. Para seleccionar el objetivo de prueba, aplique los mismos pasos que para el objetivo principal: [Selección del destino](#selecting-the-main-target)principal.
+
+![](assets/social_facebook_delivery_004.png)
+
+>[!NOTE]
+>
+>Si utiliza la misma página de prueba de Facebook para todas las entregas, puede guardar el objetivo de prueba en la plantilla de envío, a la que se accede a través del **[!UICONTROL Publish to a brand page]** **[!UICONTROL Resources > Templates > Delivery templates]** nodo. El objetivo de prueba se especificará de forma predeterminada para cada nueva entrega.
+
+## Definición de la audiencia {#defining-the-audience}
+
+Si desea utilizar segmentos locales para reducir el tipo de público autorizado para ver la publicación, le recomendamos que cree una página de Facebook por segmento (por ejemplo: Adobe Campaign París, Adobe Campaign Londres, etc.).
+
+Sin embargo, también es posible utilizar los filtros de audiencia utilizados por Facebook. La **[!UICONTROL Audience]** ficha de la **[!UICONTROL Select target window]** ofrece cuatro filtros:
+
+* **[!UICONTROL Country]**
+* **[!UICONTROL Regions]**
+* **[!UICONTROL Cities]**
+* **[!UICONTROL Languages]**
+
+>[!CAUTION]
+>
+>Utilice esta función con cuidado. En los informes de envío, el **[!UICONTROL Number of fans]** indicador no tendrá en cuenta estos filtros de Facebook.
+>
+>Facebook puede cambiar la lista de filtros de audiencia así como sus valores.
+
+## Definición del contenido del mensaje {#defining-message-content}
+
+Seleccione el tipo de publicación mediante el menú **[!UICONTROL Content type]** desplegable.
+
+![](assets/social_facebook_delivery_006.png)
+
+Están disponibles los siguientes tipos de entregas:
+
+* a **[!UICONTROL Status]**
+* a **[!UICONTROL Status with a link]**
+* a **[!UICONTROL Status with a YouTube link]**
+* a **[!UICONTROL Photo album]**
+
+### Publicación de un estado {#publishing-a-status}
+
+Una entrega de tipo de estado sólo puede contener texto, como en el ejemplo siguiente:
+
+![](assets/social_create_facebook_wall_post_004.png)
+
+Introduzca el estado de la publicación en la zona de entrada.
+
+![](assets/social_facebook_delivery_015.png)
+
+### Publicación de un estado con un vínculo {#publishing-a-status-with-a-link}
+
+Una entrega de tipo de estado con un vínculo puede contener texto, imágenes y un vínculo. La siguiente sección detalla la simetría entre los campos de la pantalla de edición de la entrega y la publicación final en Facebook:
+
+![](assets/social_facebook_delivery_007.png)
+
+Introduzca los distintos campos:
+
+>[!CAUTION]
+>
+>Todas las direcciones URL deben comenzar con **&quot;http://&quot;** o **&quot;https://&quot;**.
+
+1. En el **[!UICONTROL Status]** campo, escriba el texto que se mostrará bajo el nombre de la página.
+1. En el **[!UICONTROL Name]** campo, introduzca el título de la publicación.
+1. En el **[!UICONTROL Link]** campo, introduzca la dirección URL a la que apunta la publicación.
+
+   >[!NOTE]
+   >
+   >Si desea agregar el **[!UICONTROL Link]** campo a la URL de una aplicación de Facebook para promocionarlo, le recomendamos que lo adapte a los criterios de visualización de smartphones:
+   >
+   >1. Seleccione la aplicación de Facebook [https://developers.facebook.com/apps](https://developers.facebook.com/apps)y seleccione la **[!UICONTROL Settings > Basic]** ficha.
+   >1. Introduzca el **[!UICONTROL Namespace]** campo.
+   >1. Introduzca el **[!UICONTROL Mobile Site URL]** campo: cuando un usuario hace clic en el vínculo de publicación en su smartphone, Facebook los redirigirá automáticamente a la URL definida en este campo.
+   >1. Cree su aplicación web para que la pantalla de Facebook se personalice como una función del dispositivo utilizado (smartphone o PC).
+   >1. Vaya al **[!UICONTROL Link]** campo de la publicación a través de la consola de Adobe Campaign, introduzca la dirección URL del **[!UICONTROL Canvas page]** campo.
+
+
+1. En el **[!UICONTROL Image]** campo, introduzca la dirección URL de la imagen que se mostrará a la izquierda de la publicación.
+
+   >[!CAUTION]
+   >
+   >La imagen debe estar alojada en un sitio público de internet para que Facebook pueda cargarla.
+
+1. En el **[!UICONTROL Caption]** campo, escriba el texto que aparecerá al final de la publicación.
+1. Vaya al **[!UICONTROL Description]** campo e introduzca el texto que se mostrará debajo del título.
+
+![](assets/social_facebook_delivery_005.png)
+
+### Publicación de un estado con un vínculo de YouTube {#publishing-a-status-with-a-youtube-link}
+
+Este tipo de contenido le permite publicar un vínculo a un vídeo de YouTube. Al igual que un estado con un vínculo normal, puede definir un estado, un nombre, un rótulo, una descripción y un vínculo adicional. Facebook agrega la imagen automáticamente. A continuación se detallan las simetrías entre los campos de la pantalla de edición de envíos y la publicación final en Facebook:
+
+![](assets/social_facebook_delivery_youtube_1.png)
+
+Introduzca los distintos campos:
+
+>[!CAUTION]
+>
+>Todas las direcciones URL deben comenzar con **&quot;http://&quot;** o **&quot;https://&quot;**.
+
+1. En el **[!UICONTROL Status]** campo, escriba el texto que se mostrará bajo el nombre de la página.
+1. En el **[!UICONTROL Name]** campo, introduzca el título de la publicación.
+1. En el **[!UICONTROL Video code]** campo, introduzca el código del vídeo de YouTube. Por ejemplo, para el vínculo &#39;http://www.youtube.com/watch?v=abc123456&#39;, el código de vídeo será &#39;abc123456&#39;.
+1. En el **[!UICONTROL Caption]** campo, escriba el texto que aparecerá al final de la publicación.
+1. Vaya al **[!UICONTROL Description]** campo e introduzca el texto que se mostrará debajo del título.
+
+![](assets/social_facebook_delivery_youtube.png)
+
+### Publicación de un álbum de fotos {#publishing-a-photo-album}
+
+Este tipo de contenido le permite publicar un álbum de fotos. Puede agregar un nombre y una descripción para el álbum, así como un rótulo para cada foto. A continuación se detallan las simetrías entre los campos de la pantalla de edición de envíos y la publicación final en Facebook:
+
+![](assets/social_facebook_delivery_photos_1.png)
+
+Introduzca los distintos campos:
+
+1. Comience por introducir el **[!UICONTROL Album name]**.
+1. A continuación, introduzca el **[!UICONTROL Description]** que se mostrará encima de las fotos.
+1. Para añadir una foto, haga clic en el **[!UICONTROL Add]** botón, seleccione la foto y haga clic en **[!UICONTROL Open]**.
+1. Se puede añadir un rótulo a cada foto.
+
+![](assets/social_facebook_delivery_photos.png)
+
+## Vista previa {#previewing}
+
+La **[!UICONTROL Preview]** ficha permite ver el procesamiento de la publicación.
+
+1.  Haga clic en la **[!UICONTROL Preview]** ficha.
+1. Haga clic en el menú **[!UICONTROL Test personalization]** desplegable y seleccione **[!UICONTROL Service]**.
+1. En el **[!UICONTROL Folder]** campo, seleccione la carpeta de servicio que contiene las páginas de Facebook. De forma predeterminada, las páginas se almacenan en la raíz de la carpeta del **[!UICONTROL Facebook]** servicio.
+1. Seleccione la página de Facebook en la que desee probar la vista previa.
+
+![](assets/social_facebook_delivery_008.png)
+
+>[!NOTE]
+>
+>La vista previa puede diferir ligeramente de la publicación final de Facebook. Recomendamos encarecidamente enviar una prueba antes de la entrega final para una representación exacta de la publicación. Consulte [Envío de la prueba](#sending-the-proof).
+
+## Configuración del seguimiento {#configuring-tracking}
+
+El seguimiento se puede ver en los informes de envío y en la **[!UICONTROL Edit > Tracking]** ficha del envío y el servicio.
+
+Adobe Campaign mide los clics en la dirección URL contenida en la entrega. El número de clics en el **[!UICONTROL Like]** botón, el número de comentarios y el número de seguidores medidos por Facebook.
+
+La configuración de seguimiento es la misma que para un envío de correo electrónico. Para obtener más información, consulte [esta sección](../../delivery/using/monitoring-a-delivery.md).
+
+>[!NOTE]
+>
+>En la plantilla de envío, el seguimiento está habilitado de forma predeterminada. **[!UICONTROL Publish to a brand page]**
+
+## Envío de la prueba {#sending-the-proof}
+
+Se recomienda encarecidamente enviar una prueba de la publicación antes de la entrega final para ver la representación exacta de la publicación en una página de prueba privada de Facebook. Para obtener más información sobre la creación de una página de prueba privada de Facebook, consulte [Creación de una página](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page)de prueba de Facebook. Los pasos para seleccionar la prueba de destino se detallan en [Selección del destino](#selecting-the-proof-target)de prueba.
+
+La entrega de la prueba es idéntica a las entregas por correo electrónico. Consulte [esta sección](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+
+## Envío del mensaje {#sending-the-message}
+
+1. Una vez aprobado el contenido, haga clic en el **[!UICONTROL Send]** botón .
+1. Seleccione **[!UICONTROL Deliver as soon as possible]** y haga clic en el **[!UICONTROL Analyze]** botón.
+
+   >[!NOTE]
+   >
+   >La **[!UICONTROL Postpone the delivery]** opción le permite posponer el envío a una fecha posterior.
+
+   ![](assets/social_facebook_delivery_009.png)
+
+1. Una vez completado el análisis, compruebe el resultado.
+1. Haga clic en **[!UICONTROL Confirm delivery]** y luego en **[!UICONTROL Yes]**.
+
+   ![](assets/social_facebook_delivery_016.png)
+
