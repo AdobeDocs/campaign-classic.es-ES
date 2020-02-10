@@ -1,0 +1,99 @@
+---
+title: Definición del diseño de los formularios web
+seo-title: Definición del diseño de los formularios web
+description: Definición del diseño de los formularios web
+seo-description: null
+page-status-flag: never-activated
+uuid: ae8659d0-3608-44dd-93ec-33c418a66ad0
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: web
+content-type: reference
+topic-tags: web-forms
+discoiquuid: 67d1d39b-3a5f-4ed6-8fcf-570891043b10
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+
+---
+
+
+# Definición del diseño de los formularios web{#defining-web-forms-layout}
+
+## Creación de contenedores {#creating-containers}
+
+Los contenedores permiten combinar los campos de una página y configurar su diseño para organizar los elementos de la página.
+
+For each page of the form, containers are created via the **[!UICONTROL Containers]** button of the toolbar.
+
+![](assets/s_ncs_admin_survey_containers_add.png)
+
+Utilice un contenedor para agrupar los elementos de la página sin añadir una etiqueta al procesamiento final. Los elementos se agrupan en el subdirectorio del contenedor. Los contenedores estándar permiten administrar el diseño.
+
+Por ejemplo:
+
+![](assets/s_ncs_admin_survey_containers_std_arbo.png)
+
+La posición de las etiquetas se aplica a los elementos situados bajo el contenedor en la jerarquía. Puede sobrecargarse para cada elemento si es necesario. Añada o quite columnas para cambiar el diseño. See [Positioning the fields on the page](#positioning-the-fields-on-the-page).
+
+En el ejemplo anterior, la renderización es la siguiente:
+
+![](assets/s_ncs_admin_survey_containers_std_ex.png)
+
+## Colocación de los campos en la página {#positioning-the-fields-on-the-page}
+
+El diseño del formulario web se define página por página en cada contenedor y se puede sobrecargar para cada comprobación.
+
+Las páginas se dividen en columnas: cada página contiene un determinado número de columnas. Cada campo de la página ocupa **n** celdas. Los contenedores también ocupan un determinado número de columnas y los campos que contienen ocupan un determinado número de celdas.
+
+De forma predeterminada, las páginas se crean en una única columna y cada elemento ocupa una celda. Esto significa que los campos se muestran uno debajo de otro, cada uno de los cuales ocupa una línea entera, como se muestra a continuación:
+
+![](assets/s_ncs_admin_survey_container_ex.png)
+
+En el siguiente ejemplo, se ha conservado la configuración predeterminada. La página ocupa una sola columna que incluye cuatro contenedores.
+
+![](assets/s_ncs_admin_survey_container_ex0.png)
+
+Cada contenedor ocupa una columna y cada elemento ocupa una celda:
+
+![](assets/s_ncs_admin_survey_container_ex0a.png)
+
+La renderización es la siguiente:
+
+![](assets/s_ncs_admin_survey_container_ex0_rend.png)
+
+Se pueden adaptar los parámetros de visualización para obtener la siguiente renderización:
+
+![](assets/s_ncs_admin_survey_container_ex1_rend.png)
+
+En el ejemplo de renderización anterior, cada campo de entrada, título e imagen ocupa una celda en las columnas de los contenedores.
+
+Se puede modificar el formato en cada contenedor. En este ejemplo, se puede extender el contenido del contenedor 4 en dos columnas y distribuir los elementos.
+
+![](assets/s_ncs_admin_survey_container_ex2_rend.png)
+
+El título y la lista ocupan una celda cada uno (y, por tanto, una línea completa del contenedor) y la casilla de verificación se extiende por dos celdas. The number of cells attributed to the input field is defined in the **[!UICONTROL General]** tab or the **[!UICONTROL Advanced]** tab, according to the type of field:
+
+![](assets/s_ncs_admin_survey_container_ex2.png)
+
+## Definición de la posición de etiquetas {#defining-the-position-of-labels}
+
+Puede definir la alineación de campos y etiquetas en el formulario.
+
+De forma predeterminada, los parámetros de visualización para campos y otro contenido de la página se heredan de la configuración general del formulario, la configuración de la página o la configuración del contenedor principal, si existe.
+
+Los parámetros de visualización globales para todo el formulario se especifican en el cuadro de propiedades del formulario. The **[!UICONTROL Rendering]** tab lets you select the position of labels.
+
+![](assets/s_ncs_admin_survey_label_position.png)
+
+This position can be overloaded for each page, each container, and each field, via the **[!UICONTROL Advanced]** tab.
+
+Se admiten las siguientes alineaciones:
+
+* Heredado: la alineación se hereda del elemento principal (valor predeterminado), es decir, el contenedor principal si existe, o de lo contrario, la página.
+* Izquierda/derecha: la etiqueta se coloca a la derecha o a la izquierda del campo,
+* Encima/debajo: la etiqueta se coloca encima o debajo del campo,
+* Oculta: la etiqueta no se muestra.
+
