@@ -1,0 +1,103 @@
+---
+title: Acerca de los perfiles
+seo-title: Acerca de los perfiles
+description: Acerca de los perfiles
+seo-description: null
+page-status-flag: never-activated
+uuid: 9a3fcb58-a356-4eee-bc26-c64825de5f99
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: platform
+content-type: reference
+topic-tags: profile-management
+discoiquuid: 5addada8-0185-488f-9825-83f60981c139
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 0ce6e5277c32bc18c20dca62e5b276f654d1ace5
+
+---
+
+
+# Acerca de los perfiles{#about-profiles}
+
+## Tipos de perfil {#profile-types}
+
+Adobe Campaign permite administrar perfiles en todo el ciclo de vida: creación, importación, definición de público objetivo, seguimiento de acciones, actualizaciones, etc.
+
+Cada perfil coincide con una entrada en la base de datos. Contienen toda la información necesaria para la definición de público objetivo, el cumplimiento y el seguimiento de personas.
+
+Los perfiles se pueden identificar en función del espacio de almacenamiento. Esto significa que un perfil puede coincidir con un destinatario, un visitante, un operador, un suscriptor, un cliente potencial, etc.
+
+## Perfiles de destinatario {#recipient-profiles}
+
+Los destinatarios de envíos se almacenan en la base de datos como perfiles que contienen información vinculada a ellos, como apellidos, nombre, dirección, suscripciones, envíos, etc. Al crear campañas, puede definir el objetivo de los envíos a una selección de los perfiles de la base de datos de acuerdo con criterios sencillos o avanzados.
+
+También puede crear campañas para destinatarios cuyos perfiles no estén almacenados en la base de datos, sino en los archivos. Estos se conocen como envíos &quot;externos&quot;. Para obtener más información sobre este tipo de envío, consulte [esta página](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
+
+Los métodos principales para crear perfiles de destinatario son los siguientes:
+
+* Entrada directa en las pantallas de la interfaz gráfica.
+* Importación de listas de destinatarios.
+* Captura en línea mediante formularios web.
+
+>[!NOTE]
+>
+>To find out how files and web forms are imported, refer to [Generic imports and exports](../../platform/using/generic-imports-and-exports.md).
+
+## Perfiles y público objetivo {#profiles-and-targets}
+
+The **[!UICONTROL Profiles and targets]** link lets you display recipients stored in Adobe Campaign database. Puede crear un destinatario nuevo, editar un destinatario existente y acceder a su perfil. Para obtener más información, consulte [esta página](../../platform/using/editing-a-profile.md).
+
+![](assets/d_ncs_user_interface_target_link.png)
+
+También le proporciona acceso a:
+
+* listas; consulte [Creación y gestión de listas](../../platform/using/creating-and-managing-lists.md),
+* servicios de suscripción; consulte [esta página](../../delivery/using/managing-subscriptions.md),
+* aplicaciones web; consulte [esta página](../../web/using/about-web-applications.md),
+* importaciones y exportaciones (puestos de trabajo); referirse a las importaciones y exportaciones [genéricas](../../platform/using/generic-imports-and-exports.md),
+* flujos de trabajo de destinatarios; consulte [esta página](../../workflow/using/building-a-workflow.md#implementation-steps-).
+
+La página de destinatarios permite realizar operaciones frecuentes en los perfiles, como ediciones, actualizaciones, adiciones, eliminaciones y operaciones de ordenación.
+
+Para realizar manipulaciones de perfiles más avanzadas, debe editar el árbol de Adobe Campaign. Para ello, haga clic en el vínculo **[!UICONTROL Explorer]** de la página principal de Adobe Campaign.
+
+By default, recipients are stored in the **[!UICONTROL Profiles and Targets > Recipients]** node of the tree. Puede crear destinatarios a partir de esta vista, así como:
+
+* sort and filter the profiles of the database; see [Filtering options](../../platform/using/filtering-options.md),
+* move, copy or delete profiles from the database; see [Managing profiles](../../platform/using/managing-profiles.md),
+* actualizar perfiles; consulte [Actualización de datos](../../platform/using/updating-data.md),
+* destinatarios de la exportación; consulte [Exportación e importación de perfiles](../../platform/using/exporting-and-importing-profiles.md),
+* crear grupos de destinatarios; consulte [Creación y gestión de listas](../../platform/using/creating-and-managing-lists.md).
+
+Para acceder a las funcionalidades y configuraciones avanzadas, debe hacer clic en el icono **[!UICONTROL Explorer]** .
+
+![](assets/d_ncs_user_interface01.png)
+
+El diseño general del explorador de Adobe Campaign se presenta en [Uso del explorador](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer)de Adobe Campaign.
+
+>[!NOTE]
+>
+>También puede mostrar una vista avanzada de esta lista del árbol de Adobe Campaign haciendo clic en el vínculo **[!UICONTROL Profiles and targets > Recipients]** . La visualización de la lista se puede configurar para adaptarla a sus necesidades. Puede agregar o eliminar columnas, definir el orden de las columnas, ordenar datos, etc. La configuración de visualización de lista se describe en [Uso del explorador](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer)de Adobe Campaign.
+>
+>También puede definir las vistas de los destinatarios. Para obtener más información sobre esta funcionalidad, consulte [Carpetas y vistas](../../platform/using/access-management.md#folders-and-views).
+
+## Perfiles activos {#active-profiles}
+
+Los perfiles activos son los perfiles que se toman en cuenta con fines de facturación.
+
+Un “**perfil**” es un registro de información (por ejemplo, un registro de la tabla nmsRecipient o una tabla externa que contiene una ID de cookie, ID de cliente, ID móvil u otra información relacionada con un canal determinado) que representa a un cliente final, a un cliente potencial o a un contacto.
+
+La facturación solo abarca los perfiles que están **activos**. Un perfil se considera activo si este se ha identificado o comunicado en los últimos 12 meses a través de cualquier canal.
+
+>[!NOTE]
+>
+>Los canales de Facebook y Twitter no se tienen en cuenta.
+
+You can have an overview of the **[!UICONTROL Number of active profiles]** from the **[!UICONTROL Administration > Campaign Management > Customer metrics]** menu.
+
+The actual count is performed by the **[!UICONTROL Number of active billing profiles]** (**[!UICONTROL billingActiveContactCount]**) [technical workflow](../../workflow/using/delivery.md), which runs every day and adds the new data to the existing report for the current period in the **[!UICONTROL Customer metrics]** menu. Cada período dura 12 meses.
+
+Los perfiles que se excluyen durante la preparación del envío (reglas de tipología, cuarentena) no se tienen en cuenta. Un perfil identificado por varios envíos solo se contará una vez.
