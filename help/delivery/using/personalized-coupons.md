@@ -1,0 +1,175 @@
+---
+title: Cupones personalizados
+seo-title: Cupones personalizados
+description: Cupones personalizados
+seo-description: null
+page-status-flag: never-activated
+uuid: c840e2de-f0ef-478b-af9f-82e1b6534933
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: delivery
+content-type: reference
+topic-tags: personalizing-deliveries
+discoiquuid: f324afa5-304c-470e-a592-290f76a11ccb
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+
+---
+
+
+# Cupones personalizados{#personalized-coupons}
+
+Añadir cupones a los envíos puede proporcionar aumentar el valor de los productos y servicios para sus destinatarios. Se puede utilizar el módulo de cupones de Campaign para crear un conjunto de cupones que pretenda añadir a las próximas ofertas de marketing. Cuando esté preparado para crear un envío, asigne los cupones aplicables. Dado que los cupones son válidos durante un periodo determinado, un cupón asignado se enlaza exclusivamente a su mensaje de envío. Además, Campaign confirma que hay suficientes cupones para la cantidad de mensajes antes de realizar el envío.
+
+>[!NOTE]
+>
+>La administración de cupones es un paquete que debe instalarse. To confirm that you have Coupon management, check **[!UICONTROL Administration > Configuration > Package management > Installed packages.]**
+>
+>Los datos de cupones se pueden importar y exportar en los formatos CSV y XML. Para obtener información sobre la importación y la exportación, consulte [esta sección](../../platform/using/generic-imports-and-exports.md).
+
+## Creación de un cupón {#creating-a-coupon}
+
+El módulo de cupones ofrece dos opciones al crear cupones:
+
+* **Anónimo**: Un cupón genérico para determinados destinatarios o listas de destinatarios.
+* **Individual**: Un cupón personalizado para determinados destinatarios.
+
+Antes de iniciar los pasos siguientes, asegúrese de saber el tipo de cupón que desea crear.
+
+1. In the Campaign tree, go to **[!UICONTROL Resources > Campaign management > Coupons]**.
+
+   ![](assets/deliv_coup_01.png)
+
+1. Haga clic en el botón **[!UICONTROL New]**.
+1. Enter the name of the coupon in **[!UICONTROL Label]** field. A unique code has been automatically entered in **[!UICONTROL Coupon code]**. Puede mantener el código o introducir uno nuevo.
+
+   ![](assets/deliv_coup_02.png)
+
+1. Choose **[!UICONTROL Start date]** and **[!UICONTROL End date]** to set the period in which the coupon is valid.
+1. In **[!UICONTROL Coupon type]**, choose Anonymous or Individual.
+
+   **[!UICONTROL Anonymous coupons]** : Un cupón anónimo es idéntico para todos los destinatarios. Confirme que ha seleccionado Anónimo en el menú **Coupon type** y haga clic en **Save** para generar el cupón.
+
+   **[!UICONTROL Individual coupons]** : Un cupón individual puede personalizarse aún más con códigos de cupones adicionales. Por ejemplo, se crea un cupón individual para una venta en un almacén de equipación deportiva. Sin embargo, la lista de destinatarios es larga y no comparten el mismo entusiasmo por un único deporte. Se puede añadir nombres de código para el cupón individual en función de un deporte (por ejemplo, fútbol, fútbol americano, béisbol, etc.) y enviar cada código a los destinatarios correspondientes.
+
+   1. Al elegir Individual, aparece una pestaña nueva, Cupones, en la esquina inferior izquierda. Go to the **[!UICONTROL Coupons]** tab and click **[!UICONTROL Add]**.
+   1. Introduzca un código único para el cupón individual cuando lo solicite la ventana emergente.
+   1. Click **[!UICONTROL Save]** to generate the coupon.
+   Para obtener más información sobre la ficha Cupones, consulte [Configuración de cupones](#configuring-individual-coupons)individuales.
+
+   >[!NOTE]
+   >
+   >Los cupones individuales se pueden importar de forma masiva. Para obtener información sobre la importación y la exportación, consulte [esta sección](../../platform/using/generic-imports-and-exports.md).
+
+### Configuración de cupones individuales {#configuring-individual-coupons}
+
+![](assets/deliv_coup_03.png)
+
+La pestaña Cupones solo está disponible con cupones individuales. Tras asociar un cupón a un envío, la pestaña Cupones proporciona los siguientes detalles:
+
+* **[!UICONTROL Status]** : Disponibilidad de cupones.
+* **[!UICONTROL Redeemed on]** : La fecha en la que se canjea el cupón.
+* **[!UICONTROL Channel]** : El canal utilizado para enviar el cupón.
+* **[!UICONTROL Address]** : Las direcciones de correo electrónico de los destinatarios.
+
+Los valores de **[!UICONTROL status]**, **[!UICONTROL channel]** y **[!UICONTROL address]** se completan automáticamente. However, the values for **[!UICONTROL redeemed on]** are not recovered by Campaign. Se pueden rellenar importando un archivo con los detalles de canje de cupones.
+
+## Inserción de un cupón en un envío de correo electrónico {#inserting-a-coupon-into-an-email-delivery}
+
+En el siguiente ejemplo, el envío se crea desde la página principal. Para obtener instrucciones detalladas sobre la creación de un envío, consulte [esta sección](../../delivery/using/about-email-channel.md). También puede añadir un cupón a un envío en un flujo de trabajo.
+
+1. Vaya a **[!UICONTROL Campaigns]** y elija **[!UICONTROL Deliveries]**.
+1. Haga clic **[!UICONTROL Create]**.
+
+   ![](assets/deliv_coup_04.png)
+
+1. Enter a name in **[!UICONTROL Label]** and click **[!UICONTROL Continue]**.
+1. Click **[!UICONTROL To]** to add recipients.
+1. Click **[!UICONTROL Add]** to choose recipients for the delivery. Once you have selected your recipients, click **[!UICONTROL Ok]** to return to the delivery.
+
+   ![](assets/deliv_coup_05.png)
+
+1. Introduzca un asunto y añada contenido al mensaje.
+
+   ![](assets/deliv_coup_06.png)
+
+1. In the toolbar, click **[!UICONTROL Properties]** and choose the **[!UICONTROL Advanced]** tab.
+1. Click the folder icon for **[!UICONTROL Coupon management]**.
+
+   ![](assets/deliv_coup_07.png)
+
+1. Choose the coupon and click **[!UICONTROL Ok]**. Haga clic de **[!UICONTROL Ok]** nuevo.
+
+   ![](assets/deliv_coup_08.png)
+
+1. Haga clic en el mensaje para elegir dónde desea colocar el cupón.
+
+   ![](assets/deliv_coup_09.png)
+
+1. Haga clic en el icono de personalización para elegir una de las siguientes opciones en función del tipo de cupón:
+
+   * Cupón anónimo: **[!UICONTROL Coupon > Coupon code]**
+
+      ![](assets/deliv_coup_10.png)
+
+   * Cupón individual: **[!UICONTROL Coupon value > Coupon code]**
+
+      ![](assets/deliv_coup_11.png)
+
+      El cupón se inserta en el mensaje como código en lugar de con el nombre asignado. El código se utiliza en el modelo de datos estándar de Campaign.
+   ![](assets/deliv_coup_12.png)
+
+1. Ejecute una prueba para confirmar el nombre asignado al cupón. Go to the **[!UICONTROL Preview]** tab and click **[!UICONTROL Test personalization]**. Seleccione un destinatario para la prueba.
+
+   ![](assets/deliv_coup_13.png)
+
+   Después de la prueba, el cupón debe aparecer con el nombre asignado en lugar de como código.
+
+   ![](assets/deliv_coup_14.png)
+
+1. In the toolbar, click **[!UICONTROL Send]** (upper left) and choose how you want to send the delivery.
+
+   ![](assets/deliv_coup_15.png)
+
+1. Haga clic **[!UICONTROL Analyze]**. If the analysis log confirms that there are enough coupons for all recipients, click **[!UICONTROL Confirm delivery]** to send it.
+
+   ![](assets/deliv_coup_16.png)
+
+>[!NOTE]
+>
+>For instructions on how to manage insufficient coupons for a delivery, see [Managing insufficient coupons](#managing-insufficient-coupons)
+
+Para confirmar que el envío se realizó correctamente:
+
+1. Vaya a **[!UICONTROL Explorer > Resources > Campaign management > Coupons]**.
+1.  Haga clic en la **[!UICONTROL Deliveries]** ficha.
+
+   ![](assets/deliv_coup_17.png)
+
+   The status reads as **[!UICONTROL Finished]** for a successful delivery.
+
+>[!NOTE]
+>
+>De forma predeterminada, el módulo de administración de cupones utiliza una tabla **nms:recipient**. Para obtener instrucciones sobre el uso de otras tablas, consulte [Edición de esquemas](../../configuration/using/data-schemas.md).
+
+## Administración de cupones insuficientes {#managing-insufficient-coupons}
+
+El análisis de envío se detiene si hay menos cupones que mensajes. En tal caso, puede importar más cupones o restringir la cantidad de mensajes. Siga las instrucciones que se indican a continuación si desea limitar la cantidad de mensajes.
+
+1. Vaya a la ventana de envío de correo electrónico.
+1. Haga clic **[!UICONTROL To]**.
+1. En **[!UICONTROL Select target]**, vaya a la **[!UICONTROL Exclusions]** ficha.
+
+   ![](assets/deliv_coup_18.png)
+
+1. In the exclusion settings section, click **[!UICONTROL Edit]**.
+1. Enter the number of messages you want to send in **[!UICONTROL Limit delivery to...messages]** and click **[!UICONTROL Ok]**. Puede realizar el envío.
+
+   ![](assets/deliv_coup_19.png)
+
+>[!NOTE]
+>
+>Al administrar un número limitado de cupones, un flujo de trabajo de envío permite dividir el envío en función de ciertos criterios. Es una buena opción si desea enviar cupones a una población determinada sin restringir el objetivo.
