@@ -1,0 +1,276 @@
+---
+title: Edición de contenido
+seo-title: Edición de contenido
+description: Edición de contenido
+seo-description: null
+page-status-flag: never-activated
+uuid: 2f51e848-1820-4bec-a0ea-63c9ddff05e0
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: web
+content-type: reference
+topic-tags: editing-html-content
+discoiquuid: da66d640-8504-4dc7-bc4e-1c0ac1d37c37
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+
+---
+
+
+# Edición de contenido{#editing-content}
+
+## Definición de una condición de visibilidad {#defining-a-visibility-condition}
+
+Puede especificar una condición de visibilidad en un elemento de la página web: este elemento solo se puede ver si se respeta la condición.
+
+To add a visibility condition, select a block and enter the condition in the **[!UICONTROL Visibility condition]** field using the expression editor.
+
+![](assets/dce_add_condition.png)
+
+>[!NOTE]
+>
+>La edición de expresiones avanzadas se muestra en [esta página](../../platform/using/defining-filter-conditions.md#list-of-functions).
+
+![](assets/dce_popup_visibilitycondition.png)
+
+These conditions adopt the XTK expression syntax (for example **ctx.recipient.@email != &quot;&quot;** o **ctx.Recipiente.@status==&quot;0&quot;**). De forma predeterminada, todos los campos son visibles.
+
+>[!NOTE]
+>
+>Los bloques dinámicos no visibles, como los menús desplegables, no se pueden editar.
+
+## Adición de un borde y un fondo {#adding-a-border-and-background}
+
+Se puede añadir un **borde** a un bloque seleccionado. Los bordes se definen con tres opciones: estilo, tamaño y color.
+
+![](assets/dce_popup_border.png)
+
+Asimismo, se puede definir un **color de fondo** seleccionando un color en la tabla de colores.
+
+![](assets/dce_popup_background.png)
+
+## Edición de formularios {#editing-forms}
+
+### Modificación de las propiedades de datos de un formulario {#changing-the-data-properties-for-a-form}
+
+Puede vincular campos de base de datos con la zona de entrada, el botón de opción o los bloques de tipo casilla de verificación.
+
+![](assets/dce_sidebar_field.png)
+
+>[!NOTE]
+>
+>Los campos predeterminados son los del esquema de almacenamiento de la aplicación web.
+
+La zona de entrada de **campo** permite seleccionar un campo de base de datos para vincularlo al campo de formulario.
+
+De forma predeterminada, los campos ofrecidos son los que se encuentran en la tabla **nms:recipient**.
+
+![](assets/dce_field_selection.png)
+
+La opción **Campo requerido** permite autorizar la aprobación de la página únicamente si el usuario ha rellenado el campo. Si no se rellena un campo obligatorio, aparece un mensaje de error.
+
+**Se requiere configuración adicional** para los botones de opción y las casillas de verificación.
+
+De hecho, si la plantilla utilizada no contiene un valor de forma predeterminada, debe completarla en el editor.
+
+Para ello:
+
+* Haga clic en el **[!UICONTROL Edit]** icono.
+
+   ![](assets/dce_sidebar_options.png)
+
+* Enter the itemized list value (defined by the selected field) into the **[!UICONTROL Value]** field.
+
+   ![](assets/dce_sidebar_completeoptionradio.png)
+
+### Modificación de campos del formulario {#modifying-form-fields}
+
+Los campos de formulario, como los botones de opción, las zonas de entrada, las listas desplegables, etc., se pueden modificar desde sus barras de herramientas.
+
+Esto significa que se puede:
+
+* Delete the block containing the form fields using the **[!UICONTROL Delete]** icon.
+* Duplicate the selected field by creating a new block using the **[!UICONTROL Duplicate]** icon.
+* Edit the **[!UICONTROL Form data]** window to link a database field to the form zone, using the **[!UICONTROL Edit]** icon.
+
+   ![](assets/dce_toolbar_formblock_edition.png)
+
+## Adición de una acción a un botón {#adding-an-action-to-a-button}
+
+Puede definir una acción asociada para cuando el usuario hace clic en un botón. Para ello, seleccione de la lista desplegable la acción que desea ejecutar.
+
+![](assets/dce_sidebar_button.png)
+
+Las acciones disponibles son las siguientes:
+
+* **[!UICONTROL Refresh]** :: actualiza la página actual.
+* **[!UICONTROL Next page]** :: crea un vínculo a la página siguiente en la aplicación Web.
+* **[!UICONTROL Previous page]** :: crea un vínculo a la página anterior en la aplicación Web.
+
+>[!NOTE]
+>
+>The **[!UICONTROL None]** value allows you to not activate the button.
+
+Se puede modificar la etiqueta vinculada al botón en el campo correspondiente.
+
+## Adición de un enlace {#adding-a-link}
+
+Puede insertar un enlace en cualquier elemento de página: imagen, palabra, grupo de palabras, bloque de texto, etc.
+
+Para ello, seleccione el elemento y utilice el primer icono del menú emergente.
+
+![](assets/dce_insertlink_icon.png)
+
+Este icono le permite acceder a todos los tipos de enlaces disponibles.
+
+![](assets/dce_insertlink_menu.png)
+
+Los bloques y campos de personalización solo se pueden insertar en bloques de tipo texto.
+
+>[!NOTE]
+>
+>Para cada tipo de enlace, se puede configurar el modo de apertura: seleccione la ventana de destino en la lista desplegable **Objetivo.** This value corresponds to the **`<target>`** HTML tag.
+>
+>La lista de **objetivos** disponibles es la siguiente:
+
+>* Otro (IFrame)
+>* Ventana superior (_top)
+* Ventana principal (_parent)
+* Nueva ventana (_blank)
+* Ventana actual (_self)
+* Comportamiento predeterminado del navegador
+
+
+
+### Enlace a una URL {#link-to-a-url}
+
+La opción **Enlace a una URL externa** permite abrir cualquier dirección URL del contenido de origen.
+
+![](assets/dce_toolbar_imgblock_externallink.png)
+
+Introduzca la dirección del enlace en cuestión en el campo **URL.** The URL field should be entered as: **https://www.myURL.com**.
+
+### Enlace a una aplicación web {#link-to-a-web-application}
+
+La opción **Enlace a una aplicación web** permite acceder a una aplicación web de Adobe Campaign.
+
+![](assets/dce_toolbar_imgblock_appweb.png)
+
+Seleccione la aplicación web en el campo correspondiente.
+
+The list of suggested Web applications corresponds to the available applications in the **[!UICONTROL Resources > Online > Web Applications]** node.
+
+### Enlace a una acción {#link-to-an-action}
+
+La opción **Enlace que define una acción** permite configurar una acción al hacer clic en un elemento de origen.
+
+![](assets/dce_toolbar_imgblock_action.png)
+
+>[!NOTE]
+Las acciones disponibles se detallan en la sección [Adición de una acción a un botón](#adding-an-action-to-a-button) .
+
+### Eliminación de un enlace {#delete-a-link}
+
+Cuando se inserta un vínculo, la barra de herramientas ofrece dos nuevos iconos: **Editar vínculo** y **romper el vínculo** que le permite interactuar con el vínculo creado.
+
+* **[!UICONTROL Edit link]** permite mostrar una ventana con todos los parámetros del vínculo.
+* **[!UICONTROL Break the link]** permite eliminar, después de la confirmación, el vínculo y todos los parámetros relacionados.
+
+>[!NOTE]
+Si se elimina el enlace, el contenido se mantiene.
+
+## Modificación de los atributos de fuente {#changing-font-attributes}
+
+Al seleccionar un elemento de texto, se puede modificar los atributos de fuente (estilo, formato).
+
+![](assets/dce_toolbar_txt.png)
+
+Las opciones disponibles son las siguientes:
+
+* **Icono de ampliación de fuente** : aumenta el tamaño del texto seleccionado (agregar `<span style="font size:">`)
+* **Icono de reducción de fuente** : reduce el tamaño del texto seleccionado (agregar `<span style="font size:">`)
+* **Icono Negrita** : convierte el texto seleccionado en negrita (ajuste de texto con la `<strong> </strong>` etiqueta)
+* **Icono de cursiva** : convierte el texto seleccionado en cursiva (ajuste de texto con la `<em> </em>` etiqueta)
+* **Icono de subrayado** : subraya el texto seleccionado (ajuste el texto con la `<span style="text-decoration: underline;">` etiqueta)
+* Icono **Alinear a la izquierda**: alinea el texto a la izquierda del bloque seleccionado (añadir estilo=&quot;text-align: left;&quot;)
+* Icono **Centrar**: centra el texto del bloque seleccionado (añadir estilo=&quot;text-align: center;&quot;)
+* Icono **Alinear a la derecha**: alinea el texto a la derecha del bloque seleccionado (añadir estilo=&quot;text-align: right;&quot;)
+* Icono **Cambiar el color del fondo**: permite cambiar el color de fondo del bloque seleccionado (añadir estilo=&quot;background-color: rgba(170, 86, 255, 0.87))
+* Icono **Cambiar el color del texto**: permite cambiar el color del texto del bloque seleccionado o solo el texto seleccionado (`<span style="color: #CODE">`)
+
+>[!NOTE]
+* Icono **Eliminar**: elimina el bloque y todo su contenido.
+
+* Icono **Duplicar**: duplica el bloque y todos los estilos relacionados con el bloque.
+
+
+## Administración de imágenes y animaciones {#managing-images-and-animations}
+
+El editor de contenido permite trabajar con **cualquier tipo de imagen** compatible con los navegadores.
+
+Para ser compatible con el DCE, **las animaciones de tipo “flash”** deben insertarse en una página HTML de la siguiente manera:
+
+```
+<object type="application/x-shockwave-flash" data="https://www.mydomain.com/flash/your_animation.swf" width="200" height="400">
+ <param name="movie" value="https://www.mydomain.com/flash/your_animation.swf" />
+ <param name="quality" value="high" />
+ <param name="play" value="true"/>
+ <param name="loop" value="true"/> 
+</object>
+```
+
+>[!CAUTION]
+You must not call up external files in a **script** tag of the HTML page. Estos archivos no se importan en el servidor de Adobe Campaign.
+
+### Adición, eliminación o duplicación de una imagen {#adding---deleting---duplicating-an-image}
+
+Para insertar una imagen, seleccione un bloque de tipo imagen y haga clic en el icono **Imagen**.
+
+![](assets/dce_insert_image.png)
+
+Seleccione un archivo de imagen guardado localmente.
+
+![](assets/dce_popup_imgupload.png)
+
+The **Delete** icon deletes the ![]() tag containing the image.
+
+The **Duplicate** icon duplicates the ![]() tag and its content.
+
+>[!CAUTION]
+Al duplicar una imagen, se eliminan los identificadores relacionados con la nueva imagen.
+
+### Edición de las propiedades de imagen {#editing-image-properties}
+
+Cuando se selecciona un bloque que contiene una imagen, puede acceder a las siguientes propiedades:
+
+* **Pie de ilustración**: permite definir el pie de ilustración vinculado a la imagen (corresponde al atributo HTML **alt**).
+* **Dimensiones**: permite especificar el tamaño de la imagen en píxeles.
+
+   ![](assets/dce_popup_imgsize.png)
+
+## Adición de contenido personalizado {#adding-personalization-content}
+
+### Inserción de un campo personalizado {#inserting-a-personalization-field}
+
+La opción **Campo personalizado** del icono de inserción permite añadir un campo de base de datos al contenido, como el nombre del destinatario. Esta opción solo está disponible para bloques de tipo texto.
+
+![](assets/dce_toolbar_textblock_persofield.png)
+
+By default, the fields offered are from the **[!UICONTROL Recipient]** table. Si es necesario, puede editar las propiedades de la aplicación web para seleccionar otra tabla.
+
+El nombre del campo aparece en el editor resaltado en amarillo. Se reemplaza por el perfil del destinatario objetivo cuando se genere la personalización (por ejemplo, al previsualizar una página de destino).
+
+Se presenta un ejemplo en la sección [Inserción de un campo](../../web/using/creating-a-landing-page.md#inserting-a-personalization-field) de personalización.
+
+### Inserción de bloques personalizados {#inserting-a-personalization-block}
+
+La opción **Bloque personalizado** permite insertar bloques dinámicos y personalizados en el contenido. Por ejemplo, se puede añadir un logotipo o un mensaje de saludo. No está disponible para bloques de tipo texto.
+
+![](assets/dce_toolbar_textblock_persoblock.png)
+
+Una vez insertado, el nombre del bloque personalizado aparece en el editor resaltado en amarillo. Se adapta automáticamente al perfil de destinatario cuando se genera la personalización.
+
+For more on built-in personalization blocks and how to define custom personalization blocks, refer to [this page](../../delivery/using/personalization-blocks.md).
