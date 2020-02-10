@@ -1,0 +1,57 @@
+---
+title: Informes sobre envíos
+seo-title: Informes sobre envíos
+description: Informes sobre envíos
+seo-description: null
+page-status-flag: never-activated
+uuid: 83ea834e-08f7-441b-8f15-a25ec07c4aab
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: reporting
+content-type: reference
+topic-tags: accessing-built-in-reports
+discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
+
+---
+
+
+# Acerca de los informes sobre los envíos{#reports-on-deliveries}
+
+Adobe Campaign ofrece varios tipos de informes, accesibles a través de la consola del cliente o el navegador de Internet.
+
+Están disponibles los siguientes tipos de informe:
+
+* Reports on the entire platform, see [Global reports](../../reporting/using/global-reports.md).
+* Informes de envío, consulte Informes [de envío](../../reporting/using/delivery-reports.md).
+* Informes acumulados, consulte [Informes](../../reporting/using/cumulative-reports.md)acumulados.
+
+Puede acceder a los informes desde la página principal de la consola del cliente, el panel de informes o la lista de envíos. El modo de visualización de un informe depende de su contexto. La lista de informes principales está disponible en la página principal y le permite acceder rápidamente a los datos de envío. La lista se puede modificar para adaptarla a las necesidades. Consulte [esta sección](../../reporting/using/about-reports-creation-in-campaign.md) para obtener más información.
+
+## Uso de los informes {#using-reports}
+
+Hay disponible un campo de búsqueda a través del panel de informes para acceder rápidamente a uno de los informes de la lista.
+
+![](assets/s_ncs_user_report_searchfield.png)
+
+Cuando se genera el informe, puede realizar varias acciones utilizando los iconos de la barra de herramientas a la derecha de la ventana del informe.
+
+![](assets/s_ncs_user_report_toolbar.png)
+
+Se puede:
+
+* Exportar el informe a Excel, PDF u OpenDocument,
+* Imprimir el informe,
+* Crear el historial de informes,
+* Visualizar diferentes historiales de informes,
+* Actualizar los datos en el informe.
+
+>[!NOTE]
+>
+>Algunos informes tienen gráficos (curvas, barras, embudos, etc.). Mueva el cursor sobre el gráfico para mostrar sus valores.
+
+Para obtener más información sobre estas opciones, consulte [esta sección](../../reporting/using/about-adobe-campaign-reporting-tools.md).
