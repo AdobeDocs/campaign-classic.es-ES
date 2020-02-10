@@ -1,0 +1,225 @@
+---
+title: '"Ejemplos de uso: formularios web"'
+seo-title: '"Ejemplos de uso: formularios web"'
+description: '"Ejemplos de uso: formularios web"'
+seo-description: null
+page-status-flag: never-activated
+uuid: b2c3f171-325e-4913-a188-a791bad0df2e
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: web
+content-type: reference
+topic-tags: web-forms
+discoiquuid: cfa22577-0b9e-4eee-900d-214b81256d81
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
+
+---
+
+
+# Ejemplos de uso: formularios web{#use-cases-web-forms}
+
+## Creación de un formulario de suscripción con doble adhesión {#create-a-subscription--form-with-double-opt-in}
+
+Al ofrecer servicios de información, es necesario que los destinatarios se suscriban para recibir todas las comunicaciones vinculadas. Para evitar comunicaciones incorrectas y asegurarse de que el destinatario se ha suscrito intencionadamente, se recomienda enviar una solicitud de confirmación de suscripción para crear una adhesión doble. Así, la suscripción solo es efectiva una vez que el usuario hace clic en el enlace incluido en el mensaje de confirmación.
+
+Este ejemplo se basa en el siguiente supuesto:
+
+1. Creación de un formulario de suscripción a un boletín informativo en un sitio web que contiene una casilla de verificación para suscribirse a un servicio temporal. Este servicio permite enviar mensajes de confirmación de suscripción.
+1. Creación del envío de confirmación de suscripción con una plantilla de envío vinculada al formulario web. Contiene el enlace de confirmación que llama al formulario para la suscripción al boletín informativo y muestra un mensaje de aprobación de la suscripción.
+
+### Paso 1: Creación de servicios de información {#step-1---creating-information-services}
+
+1. Cree el servicio de suscripción al boletín informativo que desea ofrecer a los destinatarios. Para obtener más información sobre la creación de boletines informativos, consulte [esta sección](../../delivery/using/about-services-and-subscriptions.md).
+
+   ![](assets/s_ncs_admin_survey_double-opt-in_sample_1.png)
+
+1. Cree un segundo servicio de información, un servicio temporal vinculado a una plantilla de envío que se encargue de enviar mensajes de confirmación de suscripción.
+
+   ![](assets/s_ncs_admin_survey_double-opt-in_sample_1c.png)
+
+### Paso 2: Creación de mensajes de confirmación {#step-2---creating-confirmation-messages}
+
+Los mensajes de confirmación se envían a través de una plantilla de envío dedicada a nivel de servicio temporal.
+
+1. En la **[!UICONTROL Explorer]** , seleccione **[!UICONTROL Resources > Templates > Delivery templates]**.
+1. Cree una plantilla de envío para enviar los mensajes de confirmación de suscripción.
+1. Click the **[!UICONTROL To]** button in the **[!UICONTROL Email parameters]** to associate the delivery template with the Subscriptions target mapping instead of Recipients.
+
+   ![](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
+
+1. Debido a que los destinatarios de este envío no han confirmado su aprobación, aún se encuentran en la lista negra de la base de datos. Para que reciban esta comunicación, debe dar a los envíos basados en esta plantilla la autorización para dirigirse a los destinatarios en lista negra.
+
+   To do this, click the **[!UICONTROL Exclusions]** tab.
+
+1. Haga clic en el **[!UICONTROL Edit...]** vínculo y desmarque la **[!UICONTROL Exclude recipients who no longer want to be contacted (blacklist)]** opción.
+
+   ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)
+
+   >[!CAUTION]
+   >
+   >Esta opción solo puede desactivarse en este tipo de contexto.
+
+1. Personalice el envío e inserte el enlace de confirmación en el contenido del mensaje. Este enlace permite acceder al formulario web para registrar la confirmación de suscripción.
+
+   ![](assets/s_ncs_admin_survey_double-opt-in_sample_1b.png)
+
+1. Con el DCE, vincule la dirección URL al formulario web. Dado que el formulario web aún no se ha creado, reemplace el valor en cuanto lo cree.
+
+   ![](assets/s_ncs_admin_survey_double-opt-in_sample_3.png)
+
+1. Por último, vincule esta plantilla al servicio temporal creado anteriormente.
+
+   ![](assets/s_ncs_admin_survey_double-opt-in_sample_3c.png)
+
+### Paso 3: Creación del formulario de suscripción {#step-3---creating-the-subscription-form}
+
+El formulario web permite la suscripción del destinatario y la confirmación de la suscripción.
+
+El flujo de trabajo del formulario web incluye las siguientes actividades:
+
+![](assets/s_ncs_admin_survey_double-opt-in_sample_4c.png)
+
+Para realizar esto, siga los pasos a continuación:
+
+1. Create a Web form and choose the template **[!UICONTROL Newsletter subscription (subNewsletter)]**.
+
+   ![](assets/s_ncs_admin_survey_double-opt-in_sample_5a.png)
+
+1. In the **[!UICONTROL Edit]** tab, we need to configure the existing workflow since we want to add a confirmation message to the recipients who want to subscribe.
+
+   To do so, double-click the **[!UICONTROL Preloading]** box and configure it as follows.
+
+   ![](assets/s_ncs_admin_survey_double-opt-in_sample_5b.png)
+
+   Esto significa que si el usuario accede a este formulario mediante el enlace del mensaje de confirmación, se carga su información de perfil. Si accede al formulario web a través de una página del sitio web, no se carga ninguna información.
+
+1. Add a **[!UICONTROL Test]** activity to your workflow.
+
+   ![](assets/s_ncs_admin_survey_double-opt-in_sample_6e.png)
+
+   The **[!UICONTROL Test]** activity can concern the recipient email. En este caso, configúrelo de la siguiente manera:
+
+   ![](assets/s_ncs_admin_survey_double-opt-in_sample_6d.png)
+
+1. Add two **[!UICONTROL Script]** activities to your workflow.
+
+   ![](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
+
+   The first **[!UICONTROL Script]** activity will blacklist recipients until they confirmed their subscription to the newsletter. El contenido debe ser el siguiente:
+
+   ```
+   ctx.recipient.@blackList=1
+   ```
+
+   ![](assets/s_ncs_admin_survey_double-opt-in_sample_6bbis.png)
+
+   The second **[!UICONTROL Script]** activity authorizes deliveries to be send to the users and subscribes them to the newsletter. Las dos últimas líneas de la secuencia de comandos permiten transferir los destinatarios de la carpeta temporal a otra carpeta y reconciliarlos con perfiles existentes justo tras confirmar la suscripción.
+
+   ```
+   ctx.recipient.@blackList=0
+   nms.subscription.Subscribe("INTERNAL_NAME_OF_THE_NEWSLETTER", ctx.recipient, false)
+   ctx.recipient.folder = <folder name="nmsRootRecipient"/>
+   nms.subscription.Unsubscribe("TEMP", ctx.recipient)
+   ```
+
+   >[!NOTE]
+   >
+   >The **[!UICONTROL Temp]** partition can also be purged on a regular basis using a workflow.
+
+   ![](assets/s_ncs_admin_survey_double-opt-in_sample_6b.png)
+
+1. Double-click the **[!UICONTROL Subscription]** activity to personalize the subscription form and link a checkbox with the temporary service previously created.
+
+   ![](assets/s_ncs_admin_survey_double-opt-in_sample_5c.png)
+
+1. Configure the **[!UICONTROL Storage]** activity to save the information entered in the form page.
+
+   Esta actividad permite crear perfiles de destinatario en una lista provisional específica para separarlos de los perfiles de la base de datos a los que se pueden enviar comunicaciones.
+
+   ![](assets/s_ncs_admin_survey_double-opt-in_sample_5g.png)
+
+   >[!NOTE]
+   >
+   >No se debe definir ninguna opción de reconciliación.
+
+1. Add two **[!UICONTROL End]** activities to display a message for the user.
+
+   The second **[!UICONTROL End]** box will display the confirmation message once the subscription is complete.
+
+   ![](assets/s_ncs_admin_survey_double-opt-in_sample_5h.png)
+
+1. Una vez creado y configurado el formulario web, se puede hacer referencia a él en la plantilla de envío para enviar mensajes de confirmación.
+
+   ![](assets/s_ncs_admin_survey_double-opt-in_sample_7b.png)
+
+### Paso 4: Publicación y prueba del formulario {#step-4---publishing-and-testing-the-form}
+
+Ahora se puede publicar el formulario para que los usuarios puedan acceder a él.
+
+![](assets/s_ncs_admin_survey_double-opt-in_sample_8b.png)
+
+La suscripción al boletín informativo implica los pasos siguientes:
+
+1. El usuario del sitio web inicia sesión en la página de suscripción y aprueba el formulario.
+
+   ![](assets/s_ncs_admin_survey_double-opt-in_sample_8c.png)
+
+   Reciben una notificación a través de un mensaje en el explorador en el que se ha tenido en cuenta su solicitud.
+
+   ![](assets/s_ncs_admin_survey_double-opt-in_sample_8d.png)
+
+   The user is added to the Adobe Campaign database in the **[!UICONTROL Temp]** folder, and their profile is blacklisted until they confirm their subscription with the email.
+
+   ![](assets/s_ncs_admin_survey_double-opt-in_sample_8f.png)
+
+1. Se les envía un mensaje de confirmación que incluye un enlace para aprobar su suscripción.
+
+   ![](assets/s_ncs_admin_survey_double-opt-in_sample_8e.png)
+
+1. Al hacer clic en este enlace, la página de aprobación se muestra en el explorador.
+
+   ![](assets/s_ncs_admin_survey_double-opt-in_sample_8.png)
+
+   En Adobe Campaign se actualiza el perfil de usuario:
+
+   * ya no se encuentran en la lista negra,
+   * están suscritos al servicio de información.
+
+      ![](assets/s_ncs_admin_survey_double-opt-in_sample_9.png)
+
+## Visualización de distintas opciones en función de los valores seleccionados {#displaying-different-options-depending-on-the-selected-values}
+
+En el ejemplo siguiente, se solicita al usuario que seleccione un tipo de vehículo. Puede mostrar las categorías de vehículo disponibles según el tipo seleccionado. Esto significa que los elementos que se muestran en la columna derecha dependen de la selección del usuario:
+
+![](assets/s_ncs_admin_survey_condition_sample0.png)
+
+* Cuando el usuario selecciona “vehículo privado”, se ofrecen las opciones “compacto” y “monovolumen”.
+
+   ![](assets/s_ncs_admin_survey_condition_sample2.png)
+
+* Cuando el usuario selecciona “vehículo comercial”, se muestra una selección en una lista desplegable:
+
+   ![](assets/s_ncs_admin_survey_condition_sample1.png)
+
+En este ejemplo, el tipo de vehículo no se almacena en la base de datos. La lista desplegable se configura de la siguiente manera:
+
+![](assets/s_ncs_admin_survey_condition_config1.png)
+
+Esta información se almacena en una variable local.
+
+La visualización condicional de la columna derecha se configura en los contenedores:
+
+![](assets/s_ncs_admin_survey_condition_config1bis.png)
+
+* Visibilidad condicional de campos para un vehículo privado:
+
+   ![](assets/s_ncs_admin_survey_condition_config2.png)
+
+* Visibilidad condicional de campos para un vehículo comercial:
+
+   ![](assets/s_ncs_admin_survey_condition_config3.png)
+
