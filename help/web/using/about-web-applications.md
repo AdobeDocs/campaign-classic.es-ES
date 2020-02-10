@@ -1,0 +1,104 @@
+---
+title: Acerca de las aplicaciones web
+seo-title: Acerca de las aplicaciones web
+description: Acerca de las aplicaciones web
+seo-description: null
+page-status-flag: never-activated
+uuid: acfa6e5e-b503-4a1a-871e-e70007874f57
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: web
+content-type: reference
+topic-tags: web-applications
+discoiquuid: 3af763ad-6b0d-4f4c-aed1-c5e12efd4760
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
+
+---
+
+
+# Acerca de las aplicaciones web{#about-web-applications}
+
+Adobe Campaign permite crear y publicar aplicaciones web dinámicas e interactivas con información de la base de datos y contenido adaptado a los derechos del usuario conectado. Puede crear páginas, como un formulario de edición en una extranet, o formularios de notificación en los que se incluya la información de la base de datos con tablas, gráficos, formularios de entrada, etc. Esta funcionalidad permite diseñar y enviar páginas web en las que los usuarios pueden buscar o introducir información.
+
+Puede ser un formulario de suscripción que contenga datos previamente cargados con información contenida en la base de datos de Adobe Campaign, como se muestra a continuación:
+
+![](assets/webapp_form_sample.png)
+
+En este capítulo se ofrece información general sobre cómo administrar aplicaciones web.
+
+>[!CAUTION]
+>
+>Por razones de privacidad, recomendamos utilizar HTTPS para todos los recursos externos.
+
+## Ámbito de aplicación web {#web-application-scope}
+
+Las aplicaciones web de Adobe Campaign ofrecen acceso a las siguientes funciones:
+
+* Creación de formularios de múltiples páginas,
+* Gestión de encuestas multilingües con una herramienta de traducción integrada,
+* Interfaz de administración de páginas gráficas, diseño de página de varias columnas,
+* Renderización de la personalización y la posición del campo,
+* Visualización condicional de los campos de encuesta según las respuestas,
+* Visualización aleatoria de preguntas,
+* Visualización condicional de la página,
+* La información se comprueba antes de la validación según el tipo de datos esperado (número, dirección de correo electrónico, fecha, etc.) y los campos obligatorios,
+* Invitaciones o notificaciones por correo electrónico,
+* Personalización de mensajes de error y de fin,
+* Uso de imágenes, vídeos, enlaces de hipertexto, captcha, etc.
+* Seguimiento de las respuestas en tiempo real.
+
+The optional **Survey** creation module offers the following additional functionalities:
+
+* Ampliación dinámica de la base de datos: creación de respuestas no incluidas en la plantilla de datos inicial,
+* Generación de informes específicos.
+
+En comparación con las aplicaciones web, las encuestas tienen una interfaz gráfica simplificada con un número reducido de controles de edición.
+
+>[!NOTE]
+>
+>Las encuestas se encuentran en [esta sección](../../web/using/about-surveys.md).
+>
+>Las funcionalidades generales de los formularios web en Adobe Campaign se especifican en [esta sección](../../web/using/about-web-forms.md).
+
+## Implementación de aplicaciones Web {#web-application-implementation}
+
+Para crear y publicar una aplicación web, debe:
+
+1. Crear el contenido (campos, listas, tablas, gráficos, etc.).
+
+   También puede ver la sección que muestra los campos disponibles para los formularios; todos estos campos también están disponibles para las aplicaciones web. Esta información está disponible en [esta página](../../web/using/adding-fields-to-a-web-form.md).
+
+1. Si es necesario, puede añadir pasos de precarga, pruebas y almacenamiento, además de configurar el sistema de control de acceso (principalmente en el marco de una publicación en extranet).
+1. Publicación de la aplicación web para que esté disponible en una extranet o en Adobe Campaign.
+
+## Configuración inicial de la aplicación Web {#web-application-initial-configuration}
+
+La aplicación Web se crea a través del **[!UICONTROL Web Applications]** vínculo en las fichas **[!UICONTROL Campaigns]** y **[!UICONTROL Profiles and targets]** .
+
+Web applications are stored in the **[!UICONTROL Resources > Online > Web Applications]** node of the Adobe Campaign tree. Las configuraciones se desglosan en las siguientes carpetas:
+
+* **[!UICONTROL Administration > Configuration > Form renderings]**:: contiene las plantillas de procesamiento para la presentación del formulario Web (aplicaciones y estudios). La plantilla permite generar el formulario. También se utiliza una hoja de estilos CSS. Esta hoja de estilos se puede cargar a nivel de la plantilla. Para obtener más información, consulte [esta página](../../web/using/form-rendering.md#selecting-the-form-rendering-template).
+* **[!UICONTROL Resources > Templates > Web application templates]**:: contiene plantillas de formulario. Para crear un formulario o una aplicación web, se debe comenzar desde una plantilla.
+
+## Plantillas de aplicaciones web {#web-application-templates}
+
+De manera predeterminada, Adobe Campaign proporciona una plantilla por cada aplicación web disponible.
+
+>[!NOTE]
+>
+>Puede convertir una aplicación web existente en una plantilla. Para ello, seleccione el formulario y haga clic en el botón derecho. Select **[!UICONTROL Actions > Save as template...]**.
+
+You can create new templates via the **[!UICONTROL Resources > Templates > Web Application templates]** node of the Adobe Campaign tree.
+
+El asistente de creación le permite seleccionar las opciones que desea activar, como se muestra a continuación.
+
+![](assets/webapp_create_template.png)
+
+>[!CAUTION]
+>
+>Las aplicaciones disponibles dependen de sus opciones y módulos. Compruebe el acuerdo de licencia.
+
