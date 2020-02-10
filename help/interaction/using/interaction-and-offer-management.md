@@ -1,0 +1,33 @@
+---
+title: Interacción y gestión de ofertas
+seo-title: Interacción y gestión de ofertas
+description: Interacción y gestión de ofertas
+seo-description: null
+page-status-flag: never-activated
+uuid: 70720baa-e64e-4fb6-8301-fe3920791f79
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: interaction
+content-type: reference
+topic-tags: interaction-overview
+discoiquuid: 9fe22450-057c-44b4-ab73-4027a2ddb20c
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: c1afd6ad61db2062ee804c8a2add56a21578ef19
+
+---
+
+
+# Interacción y gestión de ofertas{#interaction-and-offer-management}
+
+La interacción permite responder en tiempo real durante una interacción con un contacto determinado (un cliente o destinatario) mediante la realización de una o varias ofertas adaptadas. Por ejemplo, estas pueden ser mensajes de comunicación sencillos, ofertas especiales sobre uno o varios productos o un servicio.
+
+Las ofertas se envían a los contactos a través de un contacto de entrada (sitio web o centro de llamadas) o de salida (envío de correo electrónico, correo postal o SMS dentro de una campaña de marketing).
+
+Se puede crear un catálogo de ofertas que interactúe con los canales entrantes y salientes a fin de seleccionar la mejor oferta y enviarla a un contacto en un contexto determinado. La relevancia de la oferta para un destinatario se determina según las reglas de idoneidad. La selección de una oferta de entre un conjunto de ofertas relevantes se determina mediante reglas de prioridad. Las reglas de presentación de ofertas tienen en cuenta el historial de intercambio del contacto y ayudan a evitar que reciban la misma oferta varias veces.
+
+La interacción permite crear y gestionar un catálogo de ofertas y configurar las reglas de idoneidad y los temas de la aplicación vinculados a ellas. Según el canal elegido, el contenido de la oferta puede personalizarse gracias a las diversas funciones de renderización. Finalmente, puede utilizar el módulo de simulación para calcular el impacto de la presentación de una oferta.
+
+Para familiarizarse con la función de interacción y la terminología utilizada en la interacción de campañas, vea este vídeo: Información general sobre la interacción de [Adobe Campaign](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com).
