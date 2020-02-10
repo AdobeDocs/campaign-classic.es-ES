@@ -1,0 +1,129 @@
+---
+title: Deduplicación
+seo-title: Deduplicación
+description: Deduplicación
+seo-description: null
+page-status-flag: never-activated
+uuid: 90dee589-ac45-442e-89ef-1c14bb22200d
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: workflow
+content-type: reference
+topic-tags: targeting-activities
+discoiquuid: 83b915bd-7e23-41b5-9f9a-f7eb72026376
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+
+---
+
+
+# Deduplicación{#deduplication}
+
+La deduplicación elimina los duplicados de los resultados de las actividades entrantes. La deduplicación se puede realizar en la dirección de correo electrónico, el número de teléfono u otro campo.
+
+## Prácticas recomendadas {#best-practices}
+
+Durante la deduplicación, los flujos entrantes se procesan por separado. Si por ejemplo el destinatario A se encuentra en el resultado de la consulta 1 y en el resultado de la consulta 2, no se deduplican.
+
+Esta cuestión debe solucionarse de la siguiente manera:
+
+* Cree una actividad **Union** para unificar cada flujo entrante.
+* Cree una actividad **Deduplication** después de la actividad **Union**.
+
+![](assets/dedup_bonnepratique.png)
+
+## Configuración {#configuration}
+
+Para configurar una deduplicación, introduzca su etiqueta, el método, los criterios de deduplicación y las opciones relativas al resultado.
+
+Click the **[!UICONTROL Edit configuration...]** link to define the deduplication mode.
+
+![](assets/s_user_segmentation_dedup_param.png)
+
+1. Selección de objetivo
+
+   Seleccione el tipo de objetivo para esta actividad (de forma predeterminada, la deduplicación hace referencia a los destinatarios) y el criterio que se utilizará, es decir, el campo para el que los valores idénticos permiten identificar duplicados: direcciones de correo electrónico, número de teléfono o móvil, número de fax o dirección de correo directo.
+
+   ![](assets/s_user_segmentation_dedup_param2.png)
+
+   In the next step, the **[!UICONTROL Other]** option lets you select the criterion or criteria to be used:
+
+   ![](assets/s_user_segmentation_dedup_param3.png)
+
+1. Métodos de deduplicación
+
+   En la lista desplegable, seleccione el método de deduplicación que desea utilizar e introduzca el número de duplicados que desea conservar.
+
+   ![](assets/s_user_segmentation_dedup_param4.png)
+
+   Los métodos disponibles son:
+
+   * **[!UICONTROL Choose for me]**:: selecciona aleatoriamente el registro que se va a mantener fuera de los duplicados.
+   * **[!UICONTROL Following a list of values]**:: permite definir una prioridad de valor para uno o varios campos. Para definir los valores, seleccione un campo o cree una expresión y, a continuación, añada los valores a la tabla adecuada. To define a new field, click the **[!UICONTROL Add]** button located above the list of values.
+
+      ![](assets/s_user_segmentation_dedup_param5.png)
+
+   * **[!UICONTROL Non-empty value]**:: esto le permite mantener registros para los que el valor de la expresión seleccionada no está vacío como prioridad.
+
+      ![](assets/s_user_segmentation_dedup_param6.png)
+
+   * **[!UICONTROL Using an expression]**:: permite mantener registros con el valor más bajo (o más alto) de la expresión dada.
+
+      ![](assets/s_user_segmentation_dedup_param7.png)
+   Click **[!UICONTROL Finish]** to approve the selected deduplication method.
+
+   La sección de en medio de la ventana resume la configuración definida.
+
+   En la sección inferior de la ventana del editor de actividad, puede modificar la etiqueta para la transición de salida del objeto gráfico e introducir un código de segmento que se asociará al resultado de la actividad. Este código se puede utilizar posteriormente como criterio de establecimiento de objetivos.
+
+   ![](assets/s_user_segmentation_dedup_param8.png)
+
+   Check the **[!UICONTROL Generate complement]** option if you wish to exploit the remaining population. El complemento está formado por todos los duplicados. A continuación, se agregará una transición adicional a la actividad de la siguiente manera:
+
+   ![](assets/s_user_segmentation_dedup_param9.png)
+
+## Example: Identify the duplicates before a delivery {#example--identify-the-duplicates-before-a-delivery}
+
+En el ejemplo siguiente, la deduplicación se refiere a la unión de tres consultas.
+
+El objetivo del flujo de trabajo es definir el objetivo de un envío mediante la exclusión de los duplicados para evitar enviarlo al mismo destinatario varias veces.
+
+Los duplicados identificados también se incorporarán a una lista de duplicados que puede reutilizarse en caso necesario.
+
+![](assets/deduplication_example.png)
+
+1. Agregue y enlace las distintas actividades necesarias para que el flujo de trabajo funcione como se muestra arriba.
+
+   La actividad de unión se utiliza aquí para “unificar” las tres consultas en una sola transición. Por lo tanto, la deduplicación no funcionará para cada consulta por separado pero para toda la consulta. For more on this subject, refer to [Best practices](#best-practices).
+
+1. Open the deduplication activity then click the **[!UICONTROL Edit configuration...]** link to define the deduplication mode.
+1. En la nueva ventana, seleccione **[!UICONTROL Database schema]**.
+1. Seleccione **Recipients** como dimensiones de destino y filtrado.
+1. Select the ID field for the **[!UICONTROL Email]** duplicates, to send the delivery only once to every email address, then click **[!UICONTROL Next]**.
+
+   If you wish to base the duplicate IDs on a specific field, select **[!UICONTROL Other]** to access the list of available fields.
+
+1. Elija si desea conservar solo una entrada cuando se identifique la misma dirección de correo electrónico para varios destinatarios.
+1. Select the **[!UICONTROL Choose for me]** deduplication mode so that the records saved in case of identified duplicates are randomly chosen, then click **[!UICONTROL Finish]**.
+
+Al ejecutar el flujo de trabajo, todos los destinatarios identificados como duplicados se excluyen del resultado (y, por lo tanto, del envío) y se añaden a la lista de duplicados. Esta lista puede utilizarse de nuevo en lugar de tener que volver a identificar los duplicados.
+
+## Parámetros de entrada {#input-parameters}
+
+* tableName
+* esquema
+
+Cada evento entrante debe especificar un objetivo definido por estos parámetros.
+
+## Parámetros de salida {#output-parameters}
+
+* tableName
+* esquema
+* recCount
+
+Este conjunto de tres valores identifica el objetivo resultante de la deduplicación. **[!UICONTROL tableName]** es el nombre de la tabla que guarda los identificadores de objetivo, **[!UICONTROL schema]** es el esquema de la población (normalmente nms:Recipiente) y **[!UICONTROL recCount]** es el número de elementos de la tabla.
+
+La transición asociada al complemento tiene los mismos parámetros.
