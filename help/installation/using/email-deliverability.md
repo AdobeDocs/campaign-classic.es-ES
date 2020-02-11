@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ce2a1a55e244180a4e62d6f3b5a5ed5bb8aff6e
+source-git-commit: 0291f464c2b4db51e1e56cefe83aa9e751e680a9
 
 ---
 
@@ -28,10 +28,11 @@ En la sección siguiente se proporciona una descripción general de la configura
 
 >[!NOTE]
 >
->Todas las recomendaciones técnicas relativas al envío y recepción eficaces de mensajes por parte de una plataforma de Adobe Campaign están disponibles en la nota técnica de **entrega** .
->
->Algunas configuraciones solo pueden ser realizadas por Adobe para implementaciones alojadas por Adobe. Por ejemplo, para acceder a los archivos de configuración de instancia y servidor. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Hosting models](../../installation/using/hosting-models.md) o [este artículo](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).\
->Refer to the [getting started guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) that presents the concepts and best practices related to deliverability.
+>Algunas configuraciones solo pueden ser realizadas por Adobe para implementaciones alojadas por Adobe. Por ejemplo, para acceder a los archivos de configuración de instancia y servidor. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Hosting models](../../installation/using/hosting-models.md) o [este artículo](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+
+Para obtener más información sobre los conceptos y las optimizaciones relacionadas con la capacidad de entrega, consulte esta [sección](../../delivery/using/about-deliverability.md).
+
+Todas las recomendaciones técnicas relativas al envío y recepción eficaces de mensajes por parte de una plataforma de Adobe Campaign están disponibles en esta [sección](../../delivery/using/technical-recommendations.md).
 
 ## Principio de funcionamiento {#operating-principle}
 
@@ -139,7 +140,7 @@ De forma predeterminada, el servidor de estadísticas escucha en el puerto 7777.
 
 Las reglas MX (Mail eXchanger) son las reglas que administran la comunicación entre un servidor emisor y un servidor receptor.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >En el caso de instalaciones alojadas o híbridas, si se ha actualizado a la MTA mejorada, ya no se utilizan las reglas de rendimiento de entrega **[!UICONTROL MX management]** . El MTA mejorado utiliza sus propias reglas MX que le permiten personalizar el rendimiento por dominio en función de su propia reputación histórica de correo electrónico y de los comentarios en tiempo real procedentes de los dominios a los que envía correos electrónicos.
 >
