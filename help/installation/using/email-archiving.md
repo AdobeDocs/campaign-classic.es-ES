@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4869eb41f942a89c48bc213913c44b70ae777bfc
+source-git-commit: 5b9c57b3cba0e8c24300396c2abac613f6e1193a
 
 ---
 
@@ -31,9 +31,10 @@ Para ello, los archivos .eml correspondientes a los correos electrónicos enviad
 ## Recomendaciones y limitaciones {#recommendations-and-limitations}
 
 * La función de archivado de correo electrónico es opcional. Compruebe el acuerdo de licencia.
-* Para arquitecturas híbridas y alojadas, póngase en contacto con el ejecutivo de cuentas para activarlas. Para las instalaciones in situ, siga las directrices que se indican a continuación: consulte las secciones [Activating email archive (on situ)](#activating-email-archiving--on-premise-) y [Configuring the BCC email address (on premise)](#configuring-the-bcc-email-address--on-premise-) .
-* Una vez configurado el CCO de correo electrónico, asegúrese de que la función está habilitada en la plantilla de envío o en la entrega a través de la **[!UICONTROL Archive emails]** opción. For more on this, see [this section](../../delivery/using/sending-messages.md#archiving-emails).
+* Para arquitecturas **alojadas e híbridas**, póngase en contacto con el ejecutivo de cuentas para activarlas. La dirección de CCO que elija debe proporcionarse al equipo de Adobe que la configurará por usted.
+* Para las instalaciones **** in situ, siga las directrices que se indican a continuación para activarlas: consulte las secciones [Activating email archive (on situ)](#activating-email-archiving--on-premise-) y [Configuring the BCC email address (on premise)](#configuring-the-bcc-email-address--on-premise-) .
 * Solo puede usar una dirección de correo electrónico CCO.
+* Una vez configurado el CCO de correo electrónico, asegúrese de que la función está habilitada en la plantilla de envío o en la entrega a través de la **[!UICONTROL Archive emails]** opción. For more on this, see [this section](../../delivery/using/sending-messages.md#archiving-emails).
 * Solo se tienen en cuenta los mensajes de correo electrónico enviados correctamente; las devoluciones no.
 * El sistema de archivado de correo electrónico ha cambiado con Adobe Campaign 17.2 (compilación 8795). Si ya estaba utilizando el archivado de correo electrónico, debe actualizarse manualmente al nuevo sistema de archivado de correo electrónico (BCC). Para obtener más información sobre esto, consulte la sección [Actualización del sistema de archivado de correo electrónico (BCC)](#updated-email-archiving-system--bcc-) .
 
