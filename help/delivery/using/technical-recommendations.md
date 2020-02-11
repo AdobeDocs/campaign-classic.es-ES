@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3a4eb0cf49b81d720fa3925d48cd250e0c3fde32
+source-git-commit: 0291f464c2b4db51e1e56cefe83aa9e751e680a9
 
 ---
 
@@ -78,7 +78,7 @@ DKIM surge a partir de una combinación de los principios de autenticación de D
 
 DKIM sustituye la autenticación por **DomainKeys**.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Para instalaciones hospedadas o híbridas, si ha actualizado a MTA mejorado, la firma de autenticación de correo electrónico DKIM la realiza el MTA mejorado. La firma de DKIM por parte del MTA de campaña nativo se desactivará dentro de la **[!UICONTROL Domain management]** tabla como parte de la actualización de MTA mejorada.
 >
