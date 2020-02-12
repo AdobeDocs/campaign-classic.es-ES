@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e795cd352aed2f2fc51bf52342d611913265d590
+source-git-commit: 03cba38dc2c9e10396feddc38cca6a6073e932d5
 
 ---
 
@@ -41,7 +41,16 @@ source-git-commit: e795cd352aed2f2fc51bf52342d611913265d590
 
 Haga clic [aquí](../../rn/using/release--19-1.md#release-19-1-4-build-9032) para ver la **última compilación** estable (GA).
 
-## ![](assets/blue2.png) Versión 19.2: compilación 9080 {#release-19-2-build-9080}
+## ![](assets/orange2.png) Versión 19.2.2: compilación 9081 {#release-19-2-2-build-9081}
+
+07 de febrero de 2020_
+
+**Mejoras**
+
+* Se ha corregido un problema de regresión debido a la implementación de la certificación SSL que provocaba que la conexión del usuario fallara en el servidor de Windows. (NEO-20629)
+* Se ha corregido un problema que mostraba un número de etiqueta de versión incorrecto en el menú **Acerca de** .
+
+## ![](assets/orange2.png) Versión 19.2: compilación 9080 {#release-19-2-build-9080}
 
 _2 de diciembre de 2019_
 
