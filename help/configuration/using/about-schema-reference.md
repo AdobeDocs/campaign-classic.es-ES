@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5130802f3723311bcd09e21fc405d298923dd20e
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -79,7 +79,7 @@ Un esquema de datos se identifica por su nombre y su espacio de nombres.
 
 Un espacio de nombres permite agrupar un conjunto de esquemas por área de interés. Por ejemplo, el espacio de nombres **cus** se utiliza para la configuración específica del cliente (**clientes**).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Como estándar, el nombre del espacio de nombres debe ser conciso y contener sólo caracteres autorizados de acuerdo con las reglas de nomenclatura XML.
 >
