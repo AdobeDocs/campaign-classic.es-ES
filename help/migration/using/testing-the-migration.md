@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4f8a13e3788b99ff4214e00dec1f88fdef0cb964
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -49,7 +49,7 @@ Debe tener un entorno de prueba/desarrollo para realizar pruebas de migración. 
 
 1. Si la migración del entorno de desarrollo es correcta, puede migrar el entorno de producción.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Debido a los cambios realizados en la estructura de datos, no es posible importar y exportar paquetes de datos entre una plataforma v5 y una plataforma v7.
 
