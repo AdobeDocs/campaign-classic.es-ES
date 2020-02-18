@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dcefad5aade740c8f5e5a7a7f6602b4ee0bf5f8d
+source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
 
@@ -35,7 +35,7 @@ La aplicación **Administración de redes** sociales (Social Marketing) diseñad
 
    Adobe Campaign Social Marketing también facilita la adquisición de nuevos contactos a través de Facebook: póngase en contacto con los usuarios y pídale que compartan la información de su perfil. Si lo aceptan, Adobe Campaign recupera automáticamente los datos, lo que le permite llevar a cabo campañas de objetivo y, cuando sea posible, implementar estrategias multicanal.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Facebook y Twitter realizan cambios frecuentes en sus pantallas y procesos. Este documento se actualizará en consecuencia.
 >
