@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -26,11 +26,11 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 Para Windows, los pasos de migración son los siguientes:
 
-1. Detener servicios: consulte [Service stop](#service-stop),
-1. Realice una copia de seguridad de la base de datos: consulte [Realizar una copia de seguridad de la base de datos y de la instalación](#back-up-the-database-and-the-current-installation)actual,
-1. Migrar la plataforma: consulte [Implementación de Adobe Campaign v7](#deploying-adobe-campaign-v7),
-1. Migrar el servidor de redirección (IIS): consulte [Migración del servidor de redirección (IIS)](#migrating-the-redirection-server--iis-),
-1. Reiniciar servicio: consulte [Reinicio de los servicios](#re-starting-the-services),
+1. Detener servicios: consulte Detención [de servicio](#service-stop).
+1. Realice una copia de seguridad de la base de datos: consulte [Realizar una copia de seguridad de la base de datos y de la instalación](#back-up-the-database-and-the-current-installation)actual.
+1. Migrar la plataforma: consulte [Implementación de Adobe Campaign v7](#deploying-adobe-campaign-v7).
+1. Migrar el servidor de redirección (IIS): consulte [Migración del servidor de redirección (IIS)](#migrating-the-redirection-server--iis-).
+1. Reiniciar servicio: consulte [Reinicio de los servicios](#re-starting-the-services).
 1. Eliminar y limpiar la versión anterior de Adobe Campaign: consulte [Eliminación y limpieza de la versión](#deleting-and-cleansing-adobe-campaign-previous-version)anterior de Adobe Campaign.
 
 ## Detención del servicio {#service-stop}
@@ -101,7 +101,7 @@ El procedimiento depende de la versión anterior de Adobe Campaign.
    ren "Neolane v5" "Neolane v5.back"
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Como medida de precaución, le recomendamos que comprima la carpeta **Neolane v5.back** y la guarde en otra ubicación segura que no sea el servidor.
 
@@ -141,7 +141,7 @@ El procedimiento depende de la versión anterior de Adobe Campaign.
    ren "Neolane v6" "Neolane v6.back"
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Como medida de precaución, le recomendamos que comprima la carpeta **Neolane v6.back** y la guarde en otra ubicación segura que no sea el servidor.
 
@@ -181,7 +181,7 @@ El procedimiento depende de la versión anterior de Adobe Campaign.
    ren "Adobe Campaign v6" "Adobe Campaign v6.back"
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Como medida de precaución, le recomendamos que comprima la carpeta **Adobe Campaign v6.back** y la guarde en otra ubicación segura que no sea el servidor.
 
@@ -246,7 +246,7 @@ Para implementar Adobe Campaign, siga los pasos siguientes:
    copy "Adobe Campaign v6.back"/var/* "Adobe Campaign v7"/var/
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Para el primer comando anterior, no copie el archivo **config-default.xml** .
 
@@ -268,7 +268,7 @@ Para implementar Adobe Campaign, siga los pasos siguientes:
    nlserver config -postupgrade -instance:<instance name>
    ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >No inicie aún los servicios de Adobe Campaign: es necesario realizar algunos cambios en IIS.
 
