@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3946d97e786423bf831d17e486186660db403709
+source-git-commit: 63d0551c0c036cb54ebea4e6cc4dc1f6566cf976
 
 ---
 
@@ -103,7 +103,7 @@ Una vez que se ha creado el perfil del operador, puede agregar o actualizar su i
 
 >[!NOTE]
 >
->The **[!UICONTROL Session timeout]** field lets you adjust the delay before the FDA session timeout. Para obtener más información sobre este tema, consulte [Acerca del acceso](../../platform/using/accessing-an-external-database.md#about-federated-data-access)a datos federados.
+>The **[!UICONTROL Session timeout]** field lets you adjust the delay before the FDA session timeout. Para obtener más información sobre este tema, consulte [Acerca del acceso](../../platform/using/about-fda.md)a datos federados.
 
 ### Zona horaria del operador {#time-zone-of-the-operator}
 
