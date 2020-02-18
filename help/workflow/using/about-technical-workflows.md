@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e1bd878c45576932e085b579f91eb72f5d36d6fd
+source-git-commit: d2ffbd97a22839975293cc792d59f1ba73b7c877
 
 ---
 
@@ -47,6 +47,6 @@ Esta sección incluye información sobre los flujos de trabajo técnicos que imp
 * [Recurso de Marketing (MRM)](../../workflow/using/marketing-resources--mrm-.md)
 * [Social Marketing](../../workflow/using/social-marketing.md)
 * [Integración con las soluciones de Adobe Experience Cloud](../../workflow/using/integrations-with-adobe-experience-cloud-solutions.md)
-* [Reglamento general de protección de datos (GDPR)](../../workflow/using/general-data-protection-regulation--gdpr-.md)
+* [Reglamento de protección de datos de privacidad](../../workflow/using/general-data-protection-regulation--gdpr-.md)
 * [Transfer to Mid-sourcing](../../workflow/using/transfer-to-mid-sourcing.md)
 * [Mid-sourcing platform](../../workflow/using/mid-sourcing-platform.md)
