@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 681e6ec5fc9ed8c7e46af04f0ed62927b30e1b2e
+source-git-commit: d2ffbd97a22839975293cc792d59f1ba73b7c877
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 681e6ec5fc9ed8c7e46af04f0ed62927b30e1b2e
 Comience a utilizar Adobe Campaign consultando las instrucciones paso a paso.
 
 * [Editar el contenido de correos electrónicos con Adobe Experience Manager](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/aem.html): Obtenga información sobre los conceptos básicos para comenzar a utilizar la integración entre Adobe Campaign y Experience Manager.
-* [Reglamento General de Protección de Datos](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html): Descubra lo que Adobe Campaign Classic proporciona para ayudarle con el cumplimiento del GDPR al utilizar nuestro servicio.
+* [Administración](https://helpx.adobe.com/campaign/kb/acc-privacy.html)de privacidad: descubra lo que Adobe Campaign Classic proporciona para ayudarle a cumplir con la privacidad al utilizar nuestro servicio.
 * [Integración de contenido dinámico en un mensaje de correo electrónico](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/target.html): Descubra los conceptos básicos para comenzar a utilizar la integración entre Campaign Classic y Target Standard.
 * [Gestión de la tasa de entrega](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html): Aprenda sobre los conceptos y las prácticas recomendadas relacionadas con el envío, así como las herramientas que ofrece Adobe Campaign Classic para optimizar el envío de contenido.
 * [Prácticas de envío recomendadas](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html): Descubra cuáles son las mejores prácticas relacionadas con el diseño y envío de mensajes con Adobe Campaign Classic.
