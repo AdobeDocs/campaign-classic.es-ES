@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -304,7 +304,7 @@ Puede especificar en el esquema de origen el nombre de la secuencia que se utili
 
 Desde ACC 18.10, **XtkNewId** ya no es el valor predeterminado de la secuencia en los esquemas predeterminados. Ahora puede generar un esquema o ampliar el esquema existente con una secuencia dedicada.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Al crear un nuevo esquema o durante una ampliación de esquema, se debe mantener el mismo valor de secuencia de clave principal (@pkSequence) para todo el conjunto.
 
@@ -346,7 +346,7 @@ El esquema generado:
 
 Además de la definición de la clave y su índice, se ha agregado un campo numérico llamado &quot;id&quot; al esquema ampliado para contener la clave principal generada automáticamente.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Un registro con una clave principal establecida en 0 se inserta automáticamente al crear la tabla. Este registro se utiliza para evitar las uniones externas, que no son efectivas en las tablas de volumen. De forma predeterminada, todas las claves externas se inicializan con el valor 0 para que siempre se pueda devolver un resultado en la combinación cuando el elemento de datos no se rellene.
 
@@ -373,7 +373,7 @@ Para relaciones de unión con Acceso a base de datos federada:
 * ![](assets/join_fda_11.png) :: Cardinalidad 1-1
 * ![](assets/join_fda_1m.png) :: Cardinalidad 1-N
 
-Para obtener más información sobre las tablas de FDA, consulte [Acceso a una base de datos](../../platform/using/accessing-an-external-database.md)externa.
+Para obtener más información sobre las tablas de FDA, consulte [Acceso a una base de datos](../../platform/using/about-fda.md)externa.
 
 Se debe declarar un vínculo en el esquema que contenga la clave externa de la tabla vinculada mediante el elemento principal:
 
