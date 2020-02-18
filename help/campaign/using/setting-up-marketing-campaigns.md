@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
+source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
 
@@ -148,14 +148,14 @@ Puede utilizar el asistente para la creación de programaciones para rellenar to
 
 The configuration mode of the execution schedule coincides with the **[!UICONTROL Scheduler]** object of the Workflow. Para obtener más información, consulte [esta sección](../../workflow/using/executing-a-workflow.md#architecture).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >La configuración de la programación de ejecución debe realizarse cuidadosamente para evitar sobrecargar la base de datos. Las campañas recurrentes duplican los flujos de trabajo de su plantilla en función de la programación especificada. La implementación de la creación de flujos de trabajo con excesiva frecuencia puede dificultar el funcionamiento de la base de datos.
 
 1. Specify a value in the **[!UICONTROL Create in advance for]** field in order to create the corresponding workflows for the period indicated.
 1. Cree la plantilla de flujo de trabajo que desea utilizar en las campañas basadas en esta plantilla, con los parámetros de objetivo y uno o más envíos genéricos.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    >Este flujo de trabajo debe guardarse como plantilla de flujo de trabajo recurrente. To do this, edit the workflow properties and select the **[!UICONTROL Recurring workflow template]** option in the **[!UICONTROL Execution]** tab.
 
@@ -174,7 +174,7 @@ Para crear la campaña recurrente y ejecutar sus flujos de trabajo según la pro
 
    Para cada línea, puede añadir las siguientes opciones adicionales:
 
-   * **[!UICONTROL To be approved]** :: le permite forzar las solicitudes de aprobación de entrega en el flujo de trabajo
+   * **[!UICONTROL To be approved]** :: le permite forzar las solicitudes de aprobación de entrega en el flujo de trabajo.
    * **[!UICONTROL To be started]** :: le permite iniciar el flujo de trabajo cuando se ha alcanzado la fecha de inicio.
    The **[!UICONTROL Create in advance for]** field lets you create all the workflows covering the period entered.
 
@@ -211,7 +211,7 @@ Una campaña periódica es una campaña basada en una plantilla específica que 
 
 1. Introduzca las propiedades de la plantilla.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    >El operador al que se asigna la plantilla debe tener los derechos adecuados para crear campañas en el programa seleccionado.
 
@@ -227,7 +227,7 @@ Una campaña periódica es una campaña basada en una plantilla específica que 
 
    ![](assets/s_ncs_user_op_template_period_planning_add.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Las plantillas de campañas periódicas crean nuevas campañas según la programación definida anteriormente. Por lo tanto, debe completarse cuidadosamente para evitar sobrecargar la base de datos de Adobe Campaign.
 
