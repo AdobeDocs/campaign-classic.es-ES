@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -26,10 +26,10 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 Los pasos de migración en Linux son los siguientes:
 
-1. Detener servicios: consulte parada [de servicio](#service-stop),
-1. Guarde la base de datos: consulte [Copia de seguridad de la base de datos y la instalación](#back-up-the-database-and-the-existing-installation)existente,
-1. Desinstale los paquetes de versiones anteriores de Adobe Campaign: consulte [Desinstalación de paquetes](#uninstalling-adobe-campaign-previous-version-packages)de la versión anterior de Adobe Campaign,
-1. Migrar la plataforma: consulte [Implementación de Adobe Campaign v7](#deploying-adobe-campaign-v7),
+1. Detener servicios: consulte Detención [de servicio](#service-stop).
+1. Guarde la base de datos: consulte [Realizar una copia de seguridad de la base de datos y de la instalación](#back-up-the-database-and-the-existing-installation)existente.
+1. Desinstale los paquetes de versiones anteriores de Adobe Campaign: consulte [Desinstalación de paquetes](#uninstalling-adobe-campaign-previous-version-packages)de la versión anterior de Adobe Campaign.
+1. Migrar la plataforma: consulte [Implementación de Adobe Campaign v7](#deploying-adobe-campaign-v7).
 1. Reiniciar servicio: consulte [Reinicio de servicios](#re-starting-services).
 
 ## Detención del servicio {#service-stop}
@@ -90,7 +90,7 @@ El procedimiento depende de la versión anterior de Adobe Campaign.
    mv nl5 nl5.back
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Como medida de precaución, le recomendamos que comprima la carpeta **nl5.back** y la guarde en una ubicación segura que no sea el servidor.
 
@@ -125,7 +125,7 @@ El procedimiento depende de la versión anterior de Adobe Campaign.
    mv nl6 nl6.back
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Como medida de precaución, le recomendamos que comprima la carpeta **nl6.back** y la guarde en una ubicación segura que no sea el servidor.
 
@@ -160,7 +160,7 @@ El procedimiento depende de la versión anterior de Adobe Campaign.
    mv nl6 nl6.back
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Como medida de precaución, le recomendamos que comprima la carpeta **nl6.back** y la guarde en una ubicación segura que no sea el servidor.
 
@@ -264,15 +264,15 @@ Para implementar Adobe Campaign, siga los pasos siguientes:
    * En **Debian**:
 
       ```
-      dpkg -i nlserver6-v7-XXXX-linux-2.6-intel.deb
+      dpkg -i nlserver6-XXXX-linux-2.6-intel.deb
       ```
 
    * En **Red Hat**:
 
       ```
-      rpm -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
+      rpm -Uvh nlserver6-XXXX-0.x86_64.rpm
       ```
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Debe instalar los paquetes correctamente antes de continuar con el siguiente paso.
 
@@ -308,13 +308,13 @@ Para implementar Adobe Campaign, siga los pasos siguientes:
 1. Inicie sesión como **raíz** y prepare la instancia con los siguientes comandos:
 
    ```
-   /etc/init.d/nlserver6-v7 start   
-   Starting nlserver6-v7: [  OK  ]
+   /etc/init.d/nlserver6 start   
+   Starting nlserver6: [  OK  ]
    ```
 
    ```
-   /etc/init.d/nlserver6-v7 stop
-   Stopping nlserver6-v7: [  OK  ]
+   /etc/init.d/nlserver6 stop
+   Stopping nlserver6: [  OK  ]
    ```
 
    >[!NOTE]
@@ -323,7 +323,7 @@ Para implementar Adobe Campaign, siga los pasos siguientes:
 
 1. Vaya a la carpeta de copia de seguridad **nl5.back** y copie (sobrescriba) los archivos y subcarpetas de configuración de cada instancia. Inicie sesión como **neolane** y ejecute el siguiente comando:
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Para el primer comando siguiente, no copie el archivo **config-default.xml** .
 
@@ -348,7 +348,7 @@ Para implementar Adobe Campaign, siga los pasos siguientes:
    <trackinglogd autoStart="true"/>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Si el servicio **trackinglogd** no se inicia en el servidor de seguimiento, no se reenviará ninguna información de seguimiento.
 
@@ -365,7 +365,7 @@ Para implementar Adobe Campaign, siga los pasos siguientes:
    nlserver config -timezone:<time zone> -postupgrade -instance:<instance name>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Debe especificar qué zona horaria utilizar como referencia durante la posactualización (mediante la opción **-huso** horario). En este caso, utilizamos la zona horaria Europa/París **: &quot;Europa/París&quot;**.
 
@@ -373,7 +373,7 @@ Para implementar Adobe Campaign, siga los pasos siguientes:
    >
    >Le recomendamos encarecidamente que actualice su base a &quot;multi timezone&quot;. Para obtener más información sobre las opciones de huso horario, consulte la sección [Husos](../../migration/using/general-configurations.md#time-zones) horarios.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >No inicie aún los servicios de Adobe Campaign: aún es necesario realizar cambios en Apache.
 
@@ -391,15 +391,15 @@ Para implementar Adobe Campaign, siga los pasos siguientes:
    * En **Debian**:
 
       ```
-      dpkg -i nlserver6-v7-XXXX-amd64_debX.deb
+      dpkg -i nlserver6-XXXX-amd64_debX.deb
       ```
 
    * En **Red Hat**:
 
       ```
-      rpm -Uvh nlserver6-v7-XXXX-x86_64_rhX.rpm
+      rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
       ```
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Debe instalar los paquetes correctamente antes de continuar con el siguiente paso.
 
@@ -423,7 +423,7 @@ Para implementar Adobe Campaign, siga los pasos siguientes:
    <trackinglogd autoStart="true"/>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Si el servicio **trackinglogd** no se inicia en el servidor de seguimiento, no se reenviará ninguna información de seguimiento.
 
@@ -469,15 +469,15 @@ Para implementar Adobe Campaign, siga los pasos siguientes:
    * En **Debian**:
 
       ```
-      dpkg -i nlserver6-v7-XXXX-amd64_debX.deb
+      dpkg -i nlserver6-XXXX-amd64_debX.deb
       ```
 
    * En **Red Hat**:
 
       ```
-      rpm -Uvh nlserver6-v7-XXXX-x86_64_rhX.rpm
+      rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
       ```
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Debe instalar los paquetes correctamente antes de continuar con el siguiente paso.
 
@@ -563,13 +563,6 @@ En este momento, Apache necesita ser detenido. Consulte: Detención [del servici
    * En **Red Hat**:
 
       Vaya al directorio **/usr/local/apache2/conf** , edite el archivo **http.conf** y reemplace **nl5** por **nl6** en las líneas siguientes.
-
-      En **RHEL 6/Debian 7**:
-
-      ```
-      LoadModule requesthandler22_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
-      Include /usr/local/neolane/nl6/tomcat-6/conf/apache_neolane.conf
-      ```
 
       En **RHEL 7/Debian 8**:
 
