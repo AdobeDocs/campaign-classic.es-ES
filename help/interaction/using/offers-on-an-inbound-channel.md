@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: aa0eb7acfb5d3b622475544735aed37d6beea892
 
 ---
 
@@ -28,11 +28,11 @@ El sitio de Neobank desea mostrar una oferta en su sitio web destinado a visitan
 
 Para configurar esta interacción, vamos a:
 
-1. [Crear un entorno anónimo](#creating-an-anonymous-environment).
-1. [Crear espacios de oferta anónimos](#creating-anonymous-offer-spaces).
-1. [Crear una categoría de oferta y un tema.](#creating-an-offer-category-and-a-theme).
-1. [Crear ofertas anónimas.](#creating-anonymous-offers).
-1. [Configurar los espacios de ofertas en la web en el sitio web](#configure-the-web-offer-space-on-the-website).
+1. [Crear un entorno anónimo](#creating-an-anonymous-environment)
+1. [Crear espacios de oferta anónimos](#creating-anonymous-offer-spaces)
+1. [Crear una categoría de oferta y un tema](#creating-an-offer-category-and-a-theme)
+1. [Crear ofertas anónimas.](#creating-anonymous-offers)
+1. [Configurar los espacios de ofertas en la web en el sitio web](#configure-the-web-offer-space-on-the-website)
 
 ### Creación de un entorno anónimo {#creating-an-anonymous-environment}
 
@@ -64,7 +64,7 @@ Se obtiene una estructura de árbol que contiene el nuevo entorno:
    * Título
    * Contenido HTML
    * URL con imagen
-   * URL de destino
+   * Dirección URL de destino
    ![](assets/offer_inbound_anonymous_example_030.png)
 
 1. Edite la función de procesamiento HTML, por ejemplo:
