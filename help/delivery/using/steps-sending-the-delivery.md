@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 211556bbf023731ffeab2e90692410a852ab3555
+source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
 
@@ -42,7 +42,7 @@ Before sending the delivery, you can define the sending parameters in the delive
    >
    >Cuando se duplica el envío, se restablece el parámetro.
 
-* **[!UICONTROL Send using multiple waves]**:: Para obtener más información, consulte [Envío con varias ondas](#sending-using-multiple-waves).
+* **[!UICONTROL Send using multiple waves]**:: Para obtener más información sobre este tema, consulte [Envío con varias ondas](#sending-using-multiple-waves).
 
 * **[!UICONTROL Test SMTP delivery]**: Esta opción permite probar la realización de un envío a través de SMTP. El envío se procesa hasta la conexión con el servidor SMTP, pero no se envía.
 
