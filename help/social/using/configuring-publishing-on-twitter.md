@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
 
@@ -90,7 +90,7 @@ Este paso requiere acceso simultáneo a la consola de Adobe Campaign y a un expl
 
    ![](assets/social_twitter_service_009.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >El **[!UICONTROL Internal name]** del servicio debe ser idéntico al nombre de la cuenta de Twitter. Para asegurarse de que no hay errores de entrada, aplique los siguientes pasos a continuación.
 
@@ -124,7 +124,7 @@ El flujo de trabajo sincroniza las cuentas de Twitter en Adobe Campaign. **[!UIC
 
 ## Sincronización de cuentas de Twitter {#synchronizing-twitter-accounts}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Para que el flujo de trabajo recupere la lista de suscriptores de Twitter, la **[!UICONTROL Twitter account synchronization]** casilla debe activarse en la sección de edición del servicio vinculado a la cuenta. Para obtener más información sobre esto, consulte [Delegación de acceso de escritura a Adobe Campaign](#delegating-write-access-to-adobe-campaign).
 
