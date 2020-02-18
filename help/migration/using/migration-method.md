@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4437d2ea4e4044245a2b9a5a870267cd1f1c0bc9
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -30,7 +30,7 @@ Las bases de datos y los sistemas operativos de la versión de 32 bits siguen si
 
 En la versión 6.02, el modo &quot;multizona horaria&quot; solo estaba disponible para los motores de base de datos PostgreSQL. Ahora se ofrece sin importar el tipo de motor de base de datos que se utilice. Le recomendamos encarecidamente que transforme su base en una base &quot;multizona horaria&quot;. Para obtener más información sobre esto, consulte la sección [Husos](../../migration/using/general-configurations.md#time-zones) horarios.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Algunas versiones de software admitidas en Adobe Campaign 5.11 y 6.02 ya no son compatibles con Adobe Campaign v7.
 >
