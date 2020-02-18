@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34cd6e6cf5652c9e2163848c2b1ef32f53ee6ca4
+source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
 
 ---
 
@@ -57,7 +57,7 @@ A continuación se muestra una lista de artículos relacionados con las práctic
 
 * Procesos y memoria MTA y MTAChild: el **módulo mta** distribuye mensajes a sus módulos secundarios **integrados** . Cada **equipo** prepara mensajes antes de solicitar una autorización al servidor de estadísticas y enviarlos. Refer to this [page](../../installation/using/email-deliverability.md) for more information.
 * Configuración TLS: no se recomienda habilitar TLS de forma global porque puede reducir el rendimiento. En su lugar, la configuración de TLS por dominio, administrada por el equipo de entregabilidad, debe ajustarse según las necesidades. Refer to this [page](../../installation/using/email-deliverability.md#mx-configuration) for more information.
-* DKIM: para asegurar el nivel de seguridad del DKIM, 1024b es el tamaño de codificación recomendado de optimizaciones. La mayoría de los proveedores de acceso no consideran válidas las claves DKIM menores. Consulte esta [página](../../delivery/using/technical-recommendations.md#domainkeys-identified-mail--dkim-) y esta [nota técnica](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+* DKIM: para asegurar el nivel de seguridad del DKIM, 1024b es el tamaño de codificación recomendado de optimizaciones. La mayoría de los proveedores de acceso no consideran válidas las claves DKIM menores. Consulte esta [página](../../delivery/using/technical-recommendations.md#dkim) y esta [nota técnica](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
 
 ## Problemas de capacidad de entrega {#deliverability-issues}
 
@@ -66,7 +66,7 @@ A continuación se muestra una lista de prácticas recomendadas y artículos rel
 * Conocimiento de IP: si la reputación de IP no es lo suficientemente buena, habrá un impacto en el rendimiento. El módulo **de supervisión** de la entrega ofrece varias herramientas para rastrear el rendimiento de la entrega de su plataforma. Consulte [esta página](../../delivery/using/technical-monitoring.md).
 * calentamiento de IP: el equipo de entrega realiza el calentamiento de IP. Esto implica un aumento gradual del número de correos electrónicos a través de nuevas direcciones IP durante un período de pocas semanas.
 * Configuración de afinidad IP: una configuración de afinidad IP incorrecta puede detener los mensajes de correo electrónico por completo (nombre de operador/afinidad incorrecto en la configuración) o reducir el rendimiento (número reducido de IP en la afinidad). Consulte [esta página](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use).
-* Tamaño del correo electrónico: el tamaño del correo electrónico juega un papel importante en el rendimiento. El tamaño máximo recomendado de correo electrónico es de 60 KB. Consulte [esta página](https://helpx.adobe.com/legal/product-descriptions/campaign.html). En el informe Rendimiento [de](../../reporting/using/reports-on-deliveries.md#delivery-throughput) envío, compruebe el número de bytes transferidos por hora.
+* Tamaño del correo electrónico: el tamaño del correo electrónico juega un papel importante en el rendimiento. El tamaño máximo recomendado de correo electrónico es de 60 KB. Consulte [esta página](https://helpx.adobe.com/legal/product-descriptions/campaign.html). En el informe Rendimiento [de](../../reporting/using/delivery-reports.md#delivery-throughput) envío, compruebe el número de bytes transferidos por hora.
 * Gran número de destinatarios no válidos: cuando hay un gran número de destinatarios no válidos, puede afectar al rendimiento. El MTA sigue reintentando enviar correos electrónicos a destinatarios no válidos. Asegúrese de que la base de datos esté bien mantenida.
 * Cantidad de personalización: si una entrega permanece en &quot;Personalización en curso&quot;, compruebe el JavaScript utilizado en los bloques de personalización.
 
