@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: af768da6ee8cc0ca2ea1f24f297239b974c113a5
+source-git-commit: b2222b2997105801164f930428c7b05ae7d11336
 
 ---
 
@@ -86,7 +86,7 @@ Las propiedades de formulario web se detallan en [esta página](../../web/using/
 
 ## Definición de configuración adicional {#defining-additional-settings}
 
-The **[!UICONTROL Settings]** tab lets you create additional settings for the report: these settings will be passed into the URL during the call up.
+The **[!UICONTROL Parameters]** tab lets you create additional settings for the report: these settings will be passed into the URL during the call up.
 
 Las propiedades de formulario web se detallan en [esta página](../../web/using/about-web-forms.md).
 
@@ -110,6 +110,14 @@ Para crear una nueva configuración:
    Los datos se recuperan directamente a nivel de entidad: **ctx/Recipiente/@account**.
 
    The **[!UICONTROL Variable]** option lets you create or select a variable which will be passed as a parameter of the URL and can be used in the filters.
+
+El **[!UICONTROL Response HTTP headers]** permite evitar el rastreo de clics al incluir la página del informe en una página HTML mediante iframe. Para evitar el secuestro de clics, puede elegir el **[!UICONTROL X-Frame-options header]** comportamiento:
+
+* **[!UICONTROL None]**:: El informe no tendrá **[!UICONTROL X-Frame-options header]**.
+* **[!UICONTROL Same as origin]**:: Se configura de forma predeterminada para los informes nuevos y los informes republicados. El nombre de host será el mismo que la dirección URL del informe.
+* **[!UICONTROL Deny]**:: El informe no se puede incluir en una página HTML mediante iframe.
+
+![](assets/s_ncs_advuser_report_properties_09c.png)
 
 ## Adición de variables {#adding-variables}
 
