@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -33,8 +33,7 @@ A continuación, puede comprobar la estructura del esquema generado en las ficha
 >[!NOTE]
 >
 >Si necesita forzar la regeneración de todos los esquemas, por ejemplo para resolver determinados problemas de dependencia en los vínculos inversos, puede iniciar el siguiente comando desde el servidor de aplicaciones de Adobe Campaign:
-
+>
 >**nlserver config -postupgrade -instance:`&lt;nombre_instancia>&#39; -force**
-
+>
 >A continuación, debe reiniciar el servidor de aplicaciones de Adobe Campaign y desconectar/reconectar con la consola del cliente.
-
