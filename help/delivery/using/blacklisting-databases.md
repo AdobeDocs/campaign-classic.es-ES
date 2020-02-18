@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62553344f557206443fa2de0499df42d8b771e21
+source-git-commit: ac3a0ca00591943d79563e9fd4d85d71fa0ba81a
 
 ---
 
@@ -30,7 +30,7 @@ Estas bases de datos se denominan RBL (Listas de agujeros negros en tiempo real)
 * Dominio de remitente: enumera los dominios de remitente (dominio completo de la dirección de correo electrónico de rechazo) que envía el correo electrónico o se configura incorrectamente.
 * Por dominio Web: enumera los dominios (dominios de alto nivel registrados con los registradores) encontrados en las direcciones URL de los enlaces e imágenes incluidos en el contenido del correo no deseado. En Adobe Campaign, el dominio que se debe tener en cuenta suele ser la dirección que se utiliza para el seguimiento.
 
-A continuación se muestra una lista de los RBL más utilizados. Para obtener una lista más completa, puede consultar [https://www.declude.com/Articles.asp?ID=97](https://www.declude.com/Articles.asp?ID=97) o [https://www.dnsstuff.com/](https://www.dnsstuff.com/) (sección de “Herramientas de IP”, formulario “Búsqueda de bases de datos de spam”).
+A continuación se muestra una lista de los RBL más utilizados. Para obtener una lista más completa, consulte [https://www.dnsstuff.com/](https://tools.dnsstuff.com/) (&quot;Búsqueda de lista negra de spam&quot;).
 
 * **Spamhaus**
 
