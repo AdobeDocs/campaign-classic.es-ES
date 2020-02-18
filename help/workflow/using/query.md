@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ab2c133aaa2f754e56fe8fdfc76d10526d4d1ce2
+source-git-commit: f8cf2f72dcf2ab48a42faf7931ca831b6431548d
 
 ---
 
@@ -25,10 +25,11 @@ source-git-commit: ab2c133aaa2f754e56fe8fdfc76d10526d4d1ce2
 ## Creación de consultas {#creating-a-query}
 
 Una consulta le permite seleccionar un objetivo según los criterios. Puede asociar un código de segmento al resultado de la consulta e insertar datos adicionales en él.
+Para obtener más información sobre los ejemplos de consultas, consulte esta [sección](../../workflow/using/querying-recipient-table.md).
 
 >[!NOTE]
 >
->En [esta sección](../../workflow/using/querying-recipient-table.md) se presentan ejemplos de consultas.
+>Las actividades de consulta no son compatibles con los campos CLOB al utilizar Oracle.
 
 ![](assets/s_user_segmentation_wizard_9.png)
 
@@ -112,7 +113,7 @@ Para añadir una colección de información enlazada a una población de destino
 
    * If a single element of the collection coincides with the filtering conditions for this collection, select **[!UICONTROL Single row]** in the **[!UICONTROL Data collected]** field.
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >Este modo optimiza la consulta SQL generada gracias a una coyuntura directa en los elementos de la colección.
       >
