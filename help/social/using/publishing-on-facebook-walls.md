@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
 
@@ -59,7 +59,7 @@ Para que Adobe Campaign pueda publicar en los muros de sus páginas, debe crear 
 1. Inicie sesión en la cuenta de Facebook que utiliza para administrar páginas.
 1. Escriba la siguiente dirección en el explorador: [https://developers.facebook.com/apps](https://developers.facebook.com/apps).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Según el tipo de cuenta que tenga, puede que sea necesaria una o más autorizaciones.
    >
@@ -87,7 +87,7 @@ Para delegar el acceso de escritura a Adobe Campaign para publicarlo en los muro
 
 Este paso requiere acceso a la consola de Adobe Campaign y a un explorador de Internet que haya iniciado sesión en la cuenta de Facebook que utilice para la administración de páginas:
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >El operador de Adobe Campaign debe tener derechos de administración para llevar a cabo esta configuración.
 
@@ -107,7 +107,7 @@ Este paso requiere acceso a la consola de Adobe Campaign y a un explorador de In
 
    ![](assets/social_facebook_external_account_006.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >No debe utilizar la dirección URL no segura bajo ninguna circunstancia.
 
