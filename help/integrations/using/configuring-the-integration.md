@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 31f30db6eaf1fee43f9f757124e3fa8ed1d0075f
 
 ---
 
@@ -95,7 +95,7 @@ Para configurar la cuenta externa de AEM, siga los siguientes pasos:
 
 ### Configuración del filtrado de recursos de AEM {#configure-aem-resources-filtering}
 
-La opción **AEMResourceTypeFilter **se utiliza para filtrar los tipos de recursos de Experience Manager que se pueden usar en Adobe Campaign. Esto permite a Adobe Campaign recuperar los contenidos de Experience Manager específicamente diseñados para usarlos únicamente en Adobe Campaign.
+La opción **AEMResourceTypeFilter** se utiliza para filtrar tipos de recursos de Experience Manager que se pueden utilizar en Adobe Campaign. Esto permite a Adobe Campaign recuperar los contenidos de Experience Manager específicamente diseñados para usarlos únicamente en Adobe Campaign.
 
 To check if the **[!UICONTROL AEMResourceTypeFilter]** option is configured:
 
@@ -122,7 +122,7 @@ Siga los pasos a continuación para iniciar la configuración en Adobe Experienc
 
 1. Configure **duplicación** para que se duplique desde la instancia de creación de AEM a la instancia de publicación AEM.
 
-   Para aprender a configurar la duplicación, consulte la [documentación](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/replication.html) de Adobe Experience Manager.
+   Para aprender a configurar la duplicación, consulte la [documentación](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/replication.html) de Adobe Experience Manager.
 
 1. Instale la integración **FeaturePack** en la instancia de creación y luego duplique la instalación en la instancia de publicación (solo para las versiones de AEM 5.6.1 y 6.0).
 
@@ -130,9 +130,9 @@ Siga los pasos a continuación para iniciar la configuración en Adobe Experienc
 
 1. Para conectar Adobe Experience Manager a Adobe Campaign, configure un **Cloud Service** específico.
 
-   Para aprender a conectar ambas soluciones a través de los servicios de Cloud, consulte la [documentación](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignonpremise.html#ConfiguringAdobeExperienceManager) de Adobe Experience Manager .
+   Para aprender a conectar ambas soluciones a través de los servicios de Cloud, consulte la [documentación](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/campaignonpremise.html#ConfiguringAdobeExperienceManager) de Adobe Experience Manager .
 
 1. Configure el **servicio externalizador**.
 
-   Para aprender a configurarlo, consulte la [documentación](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/externalizer.html) de Adobe Experience Manager.
+   Para aprender a configurarlo, consulte la [documentación](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/externalizer.html) de Adobe Experience Manager.
 
