@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -103,7 +103,7 @@ De forma predeterminada, los esquemas integrados solo son accesibles con permiso
 * xtk:cadenas
 * xtk:xslt
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Los permisos de lectura y escritura para el esquema **xtk:sessionInfo** solo son accesibles desde la cuenta interna de una instancia de Adobe Campaign.
 
