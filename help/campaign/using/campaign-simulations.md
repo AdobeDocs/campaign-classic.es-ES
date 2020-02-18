@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
 
@@ -78,11 +78,11 @@ Para crear una simulación, aplique los pasos siguientes:
 
    ![](assets/simu_campaign_opti_edit_scope_save.png)
 
-   If necessary, you can use a dynamic condition via the **[!UICONTROL Edit the dynamic condition...]** link
+   If necessary, you can use a dynamic condition via the **[!UICONTROL Edit the dynamic condition...]** link.
 
    Haga clic **[!UICONTROL Save]** para aprobar esta configuración.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    >Al calcular las simulaciones, solo se tienen en cuenta las entregas cuyo objetivo se haya calculado (estados: **Target listo** o **listo para la entrega**).
 
@@ -215,13 +215,13 @@ En el siguiente ejemplo, deseamos crear un eje de informes adicional basado en e
 
    * **[!UICONTROL Generate target overlap statistics]** permite recuperar todas las estadísticas de superposición en el informe de simulación. Las superposiciones son destinatarios a quienes se han dirigido al menos dos envíos dentro de una simulación.
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >Si selecciona esta opción, el tiempo de ejecución de la simulación aumenta considerablemente.
 
    * **[!UICONTROL Keep the simulation work table]** permite mantener seguimientos de simulación.
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >El guardado automático de estas tablas requiere una capacidad de almacenamiento importante: asegúrese de que la base de datos es lo suficientemente grande.
 
