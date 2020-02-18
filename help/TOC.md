@@ -5,7 +5,7 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
+source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
 
 ---
 
@@ -17,6 +17,7 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
 + Notas de la versión {#release-notes}
    + [Última versión](rn/using/latest-release.md)
    + Versiones anteriores {#previous-releases}
+      + [Versión 19.2](rn/using/release--19-2.md)
       + [Versión 19.1](rn/using/release--19-1.md)
       + [Versión 18.10](rn/using/release--18-10.md)
       + [Versión 18.6](rn/using/release--18-6.md)
@@ -64,9 +65,17 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
       + [Trabajo con paquetes de datos](platform/using/working-with-data-packages.md)
       + [Administración de enumeraciones](platform/using/managing-enumerations.md)
       + [Cuentas externas](platform/using/external-accounts.md)
+   + Acceso a una base de datos externa (FDA){#accessing-external-database}
+      + [Acerca de FDA](platform/using/about-fda.md)
+      + [Configuraciones específicas por tipo de base de datos](platform/using/specific-configuration-database.md)
+      + [Derechos de acceso a bases de datos remotas](platform/using/remote-database-access-rights.md)
+      + [Conexión a la base de datos](platform/using/connecting-to-database.md)
+      + [Creación del esquema de datos](platform/using/creating-data-schema.md)
+      + [Definición de asignación de datos](platform/using/defining-data-mapping.md)
+      + [Opciones adicionales](platform/using/additional-options.md)
+      + [Uso de datos de una base de datos externa en un flujo de trabajo](platform/using/data-external-database-workflow.md)
    + Conectores {#connectors}
       + [Acerca de los conectores](platform/using/about-connectors.md)
-      + [Acceso a una base de datos externa](platform/using/accessing-an-external-database.md)
       + [Conectores CRM](platform/using/crm-connectors.md)
       + [Conectores de datos de Adobe Analytics](platform/using/adobe-analytics-data-connector.md)
 + Sending Messages {#sending-messages}
@@ -92,7 +101,8 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
       + [Canal LINE](delivery/using/line-channel.md)
    + Envío de notificaciones push {#sending-push-notifications}
       + [Acerca del canal de aplicaciones móviles](delivery/using/about-mobile-app-channel.md)
-      + [Configuración del canal de aplicaciones para dispositivos móviles](delivery/using/setting-up-mobile-app-channel.md)
+      + [Integración del SDK de Campaign en la aplicación móvil](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
+      + [Configuración de la aplicación móvil en Adobe Campaign](delivery/using/configuring-the-mobile-application.md)
       + [Creación de notificaciones](delivery/using/creating-notifications.md)
       + [Resolución de problemas](delivery/using/troubleshooting.md)
    + Envío de correo postal {#sending-direct-mail}
@@ -214,7 +224,7 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
    + Análisis de poblaciones {#analyzing-populations}
       + [Acerca del análisis descriptivo](reporting/using/about-descriptive-analysis.md)
       + [Uso del asistente de análisis descriptivo](reporting/using/using-the-descriptive-analysis-wizard.md)
-      + [Uso de un informe de análisis](reporting/using/processing-a-report.md)
+      + [Procesamiento de informes](reporting/using/processing-a-report.md)
       + [Ejemplos de uso](reporting/using/use-cases.md)
    + Creación de nuevos informes {#creating-new-reports}
       + [Acerca de la creación de informes en Campaign](reporting/using/about-reports-creation-in-campaign.md)
@@ -430,7 +440,7 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
       + [Recurso de Marketing (MRM)](workflow/using/marketing-resources--mrm-.md)
       + [Social Marketing](workflow/using/social-marketing.md)
       + [Integración con las soluciones de Adobe Experience Cloud](workflow/using/integrations-with-adobe-experience-cloud-solutions.md)
-      + [Reglamento general de protección de datos (GDPR)](workflow/using/general-data-protection-regulation--gdpr-.md)
+      + [Reglamento de protección de datos de privacidad](workflow/using/general-data-protection-regulation--gdpr-.md)
       + [Transfer to Mid-sourcing](workflow/using/transfer-to-mid-sourcing.md)
       + [Mid-sourcing platform](workflow/using/mid-sourcing-platform.md)
 + Administración de ofertas {#managing-offers}
