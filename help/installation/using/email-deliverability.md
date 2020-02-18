@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0291f464c2b4db51e1e56cefe83aa9e751e680a9
+source-git-commit: 21d808695bfde2fb3220964c066558ad30952443
 
 ---
 
@@ -28,7 +28,8 @@ En la sección siguiente se proporciona una descripción general de la configura
 
 >[!NOTE]
 >
->Algunas configuraciones solo pueden ser realizadas por Adobe para implementaciones alojadas por Adobe. Por ejemplo, para acceder a los archivos de configuración de instancia y servidor. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Hosting models](../../installation/using/hosting-models.md) o [este artículo](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+>Algunas configuraciones solo pueden ser realizadas por Adobe para implementaciones alojadas por Adobe. Por ejemplo, para acceder a los archivos de configuración de instancia y servidor. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Hosting models](../../installation/using/hosting-models.md) o [este artículo](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).\
+>Refer to the [getting started guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) that presents the concepts and best practices related to deliverability.
 
 Para obtener más información sobre los conceptos y las optimizaciones relacionadas con la capacidad de entrega, consulte esta [sección](../../delivery/using/about-deliverability.md).
 
@@ -379,19 +380,24 @@ Los parámetros son los siguientes:
 
 * **dirección**: es la dirección IP del equipo host MTA que se va a utilizar.
 * **heloHost**: este identificador representa la dirección IP tal como la verá el servidor SMTP.
+
 * **publicId**: esta información resulta útil cuando varios **mapas** de Adobe Campaign comparten una dirección IP tras un enrutador NAT. El servidor de estadísticas utiliza este identificador para memorizar la conexión y enviar estadísticas entre este punto de partida y el servidor de destino.
 * **peso**: permite definir la frecuencia relativa de uso de la dirección. De forma predeterminada, todas las direcciones tienen un peso igual a 1.
 
-   En el ejemplo anterior, con condiciones normales, las direcciones se distribuirán de la siguiente manera:
+>[!NOTE]
+>
+>En el archivo serverConf.xml, debe comprobar que una IP corresponde a un solo host con un identificador único (public_id). No se puede asignar a varios anfitriones, lo que podría provocar problemas de limitación de la entrega.
 
-   * &quot;1&quot;: 5 / (5+5+1) = 45%
-   * &quot;2&quot;: 5 / (5+5+1) = 45%
-   * &quot;3&quot;: 1 / (5+5+1) = 10%
-   Si, por ejemplo, la primera dirección no se puede utilizar para un MX determinado, los mensajes se enviarán de la siguiente manera:
+En el ejemplo anterior, con condiciones normales, las direcciones se distribuirán de la siguiente manera:
 
-   * &quot;2&quot;: 5 / (5+1) = 83%
-   * &quot;3&quot;: 1 / (5+1) = 17%
+    * &quot;1&quot;: 5 / (5+5+1) = 45%
+    * &quot;2&quot;: 5 / (5+5+1) = 45%
+    * &quot;3&quot;: 1 / (5+5+1) = 10%
 
+Si, por ejemplo, la primera dirección no se puede utilizar para un MX determinado, los mensajes se enviarán de la siguiente manera:
+
+    * &quot;2&quot;: 5 / (5+1) = 83%
+    * &quot;3&quot;: 1 / (5+1) = 17%
 
 * **includeDomains**: permite reservar esta dirección IP para los correos electrónicos que pertenecen a un dominio específico. Esta es una lista de máscaras que pueden contener uno o más comodines (&#39;*&#39;). Si no se especifica el atributo, todos los dominios pueden utilizar esta dirección IP.
 
