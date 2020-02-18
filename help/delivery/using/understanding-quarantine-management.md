@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 16e7266a101b4abea3271c32fcc403e7d7fbaa2d
 
 ---
 
@@ -116,15 +116,23 @@ Adobe Campaign administra la cuarentena según el tipo de error de entrega y el 
 
 * **Error ignorado**: los errores ignorados no envían una dirección a la cuarentena.
 * **Error grave:** la dirección de correo electrónico correspondiente se envía inmediatamente a la cuarentena.
-* **Error leve**: los errores leves no envían inmediatamente una dirección a la cuarentena, sino que se suman a un contador de errores. Cuando el contador de errores alcanza el umbral de límite, la dirección se pone en cuarentena. En la configuración predeterminada, el umbral se establece en cinco errores, de los cuales dos errores son importantes si se producen al menos con una diferencia de 24 horas. La dirección se envía a cuarentena en el sexto error. El umbral del contador de errores puede modificarse. Para obtener más información sobre esto, consulte [Reintentos después de un error](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)temporal de entrega.
-
-   Cuando un envío se realiza correctamente tras un reintento, el contador de errores de la dirección se reinicia al estado anterior a la cuarentena. El estado de la dirección cambia a **válido** y se elimina de la lista de cuarentena después de dos días mediante el flujo de trabajo de **Limpieza de la base de datos**.
+* **Error leve**: los errores leves no envían inmediatamente una dirección a la cuarentena, sino que se suman a un contador de errores. Para obtener más información sobre este tema, consulte Administración [de errores en](#soft-error-management)software.
 
 Si un usuario clasifica un correo electrónico como correo no deseado (**bucle de comentarios**), el mensaje se redirige automáticamente a un buzón de correo técnico administrado por Adobe. A continuación, la dirección de correo electrónico del usuario se envía automáticamente a la cuarentena.
 
 In the list of quarantined addresses, the **[!UICONTROL Error reason]** field indicates why the selected address was placed in quarantine. La cuarentena en Adobe Campaign distingue entre mayúsculas y minúsculas. Asegúrese de importar las direcciones de correo electrónico en minúsculas para que no se redireccionen más adelante.
 
 ![](assets/tech_quarant_error_reasons.png)
+
+### Administración de errores en software {#soft-error-management}
+
+A diferencia de los errores graves, los errores suaves no envían inmediatamente una dirección a la cuarentena, sino que incrementan un contador de errores.
+
+* Cuando el contador de errores alcanza el umbral límite, la dirección pasa a la cuarentena.
+* En la configuración predeterminada, el umbral se establece en cinco errores, de los cuales dos errores son importantes si se producen al menos con una diferencia de 24 horas. La dirección se envía a cuarentena en el sexto error.
+* El umbral del contador de errores puede modificarse. Para obtener más información sobre esto, consulte [Reintentos después de un error](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)temporal de entrega.
+
+El contador de errores se reinicializa si el último error significativo se produjo hace más de 10 días. The address status then changes to **Valid** and it is deleted from the list of quarantines by the **Database cleanup** workflow.
 
 ## Cuarentena de notificaciones push {#push-notification-quarantines}
 
