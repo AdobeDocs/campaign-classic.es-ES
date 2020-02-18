@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
+source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign ofrece los siguientes canales de envío:
 1. **Canal de correo electrónico**: los envíos de correo electrónico le permiten enviar correos electrónicos personalizados a la población objetivo. Consulte [Acerca del canal](../../delivery/using/about-email-channel.md)de correo electrónico.
 1. **Canal de correo postal**: los envíos de correo postal permiten generar un archivo de extracción que contenga datos sobre la población objetivo. Consulte [Acerca del canal](../../delivery/using/about-direct-mail-channel.md)de correo directo.
 1. **Canal móvil**: los envíos en canales móviles permiten enviar mensajes SMS o de LINE personalizados a la población objetivo. Consulte el canal [](../../delivery/using/sms-channel.md)SMS.
-1. **Canal de aplicación móvil**: los envíos de aplicaciones móviles permiten enviar notificaciones a sistemas iOS y Android. Consulte el capítulo [canal de aplicaciones móviles](../../delivery/using/about-mobile-app-channel.md).
+1. **Canal** de aplicaciones móviles: las entregas de aplicaciones móviles permiten enviar notificaciones a sistemas iOS y Android. Consulte el capítulo [canal de aplicaciones móviles](../../delivery/using/about-mobile-app-channel.md).
 
    En [esta página](../../delivery/using/other-channels.md) se describen otros canales.
 
