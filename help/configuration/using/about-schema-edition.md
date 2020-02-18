@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 58b69ae83d0ff2bece26cb3ff0604cd92e3c20f4
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -90,7 +90,7 @@ Ejemplos:
 
 El atributo **xpath** apunta al campo del esquema que desea indexar.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Es importante recordar que las ganancias de rendimiento de lectura de la consulta SQL proporcionadas por los índices también incluyen una visita de rendimiento al escribir registros. Por lo tanto, los índices deben utilizarse con precaución.
 
@@ -112,7 +112,7 @@ Ejemplo:
 
 En este ejemplo, en lugar de permitir que el atributo **@autopk** cree una clave principal predeterminada con el nombre &quot;id&quot;, especificamos nuestra propia clave principal &quot;homeId&quot;.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Al crear un nuevo esquema o durante una ampliación de esquema, se debe mantener el mismo valor de secuencia de clave principal (@pkSequence) para todo el conjunto.
 
@@ -171,7 +171,7 @@ Ejemplo de un campo XML también almacenado en un campo SQL y que tiene un atrib
 <attribute name="secondaryEmail" label="Secondary email address" length="100" xml="true" sql="true" dataPolicy="email" />
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Aunque la mayoría de los atributos están vinculados según una cardinalidad 1-1 a un campo físico de la base de datos, no es el caso de los campos XML o los campos calculados.\
 >Un campo XML se almacena en un campo memo (&quot;mData&quot;) de la tabla.\
