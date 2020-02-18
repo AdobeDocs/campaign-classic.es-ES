@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9d7cbe5f2407deb8fd2e00a60bf9e3789101e6ff
+source-git-commit: 09fa3751d94fd71a68470174dd0b4a48d94d3f44
 
 ---
 
@@ -1555,6 +1555,12 @@ Estos son los diferentes parámetros del **nodo mta** . Esta es la configuració
    <td> Si no está definida, se utiliza la versión más reciente. <br /> </td> 
   </tr> 
   <tr> 
+   <td> useMomentum<br /> </td> 
+   <td> Si se establece en "true", la instancia utiliza el MTA <a href="https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html" target="_blank"></a>mejorado.<br /> </td> 
+   <td> Booleano<br /> </td> 
+   <td> <br /> </td>b 
+  </tr>
+  <tr> 
    <td> verifyMode<br /> </td> 
    <td> Modo de verificación: activa el modo de verificación (sin transmisión física de mensajes; utilizado para simulación y pruebas).<br /> </td> 
    <td> Booleano<br /> </td> 
@@ -1571,7 +1577,7 @@ Estos son los diferentes parámetros del **nodo mta** . Esta es la configuració
    <td> Campo X-Mailer: valor del campo 'X-Mailer' en el encabezado de correo SMTP.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> 'nlserver, Build $(PRODUCT_VERSION)'<br /> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
