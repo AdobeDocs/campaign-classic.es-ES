@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 463d2d60e8776fc0414fdb8c91dbf257e119d823
+source-git-commit: afe286211c21f4fc178ffb5f9f30baed96ebfeab
 
 ---
 
@@ -45,7 +45,7 @@ Para crear un subconjunto:
 
    El proceso es el mismo que para una actividad de tipo **Query**.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    >Puede filtrar los datos en un máximo de dos bases de datos externas (FDA).
 
@@ -59,7 +59,7 @@ Para crear un subconjunto:
 
    ![](assets/s_user_segmentation_partage_add.png)
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    >If the **[!UICONTROL Enable overlapping of output populations]** option is not checked, subsets are created in the order of the tabs. Utilice las flechas de la sección superior derecha de esta ventana para moverlas. Si el primer subconjunto recupera el 70% de la población inicial, por ejemplo, el siguiente subconjunto aplicará sus criterios de selección solo al 30% restante, y así sucesivamente.
 
@@ -135,7 +135,7 @@ Para ver un ejemplo de la **[!UICONTROL Local approval]** actividad con una plan
 
 ![](assets/s_user_segmentation_partage_wz6.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Para utilizar esta función, es necesario adquirir el módulo Distributed Marketing, que es una opción de Campaign. Compruebe el acuerdo de licencia.
 
@@ -200,7 +200,7 @@ La plantilla de distribución de datos permite limitar el número de registros u
 
       In case of a simple limitation by data grouping without local approval, you do not need to enter the **[!UICONTROL Group or operator]** field.
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >Asegúrese de que se hayan asignado los derechos adecuados a los operadores.
 
