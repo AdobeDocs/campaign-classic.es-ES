@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 14690ab1435f291679e643ee4240ae9df7e86356
+source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 
 ---
 
@@ -111,7 +111,7 @@ source-git-commit: 14690ab1435f291679e643ee4240ae9df7e86356
     <ul> 
      <li> <p>Derecho de acceso: permite que el sujeto de datos reciba una copia de sus datos personales recopilados por los controladores de datos, incluso los datos almacenados en Adobe Campaign.</p> </li> 
      <li> <p>Derecho a borrado: autoriza al sujeto de datos a que sus datos personales recopilados por los controladores de datos se borren, lo que incluye datos almacenados en Adobe Campaign.</p> </li> 
-    </ul> Para obtener más información, consulte la <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html">documentación detallada</a>.<br /> </td> 
+    </ul> Para obtener más información, consulte la <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Perfiles activos<br /> </td> 
@@ -119,7 +119,7 @@ source-git-commit: 14690ab1435f291679e643ee4240ae9df7e86356
   </tr> 
   <tr> 
    <td> Mejora del conector de Android<br /> </td> 
-   <td> <p>El conector Android se ha mejorado para ofrecer un mayor rendimiento. </p> <p>Para obtener más información, consulte la <a href="../../delivery/using/setting-up-mobile-app-channel.md#android-connectors">documentación detallada</a>.</p> </td> 
+   <td> <p>El conector Android se ha mejorado para ofrecer un mayor rendimiento. </p> <p>Para obtener más información, consulte la <a href="../../delivery/using/configuring-the-mobile-application.md">documentación detallada</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -141,7 +141,7 @@ source-git-commit: 14690ab1435f291679e643ee4240ae9df7e86356
 * Hay disponible un nuevo modo para la importación de paquetes mediante la línea de comandos, lo que permite dependencias circulares (no recomendado para paquetes grandes). Consulte la sección “Evoluciones técnicas” para obtener más información. (NEO-8979)
 * Se mejoró el rendimiento para una gran cantidad de datos en Teradata y se corrigió un problema que impedía mostrar el valor correcto de datos procesados en el registro. (NEO-10429)
 * La importación de audiencias desde el Gestor de colaboradores ahora funciona con archivos divididos. Anteriormente, el último archivo del segmento se importó mediante el flujo de trabajo técnico Importar audiencia compartida. (NEO-10156)
-* En Windows, la ruta de instalación predeterminada del servidor Campaign ha cambiado. Al iniciar la configuración de la versión de 64 bits, la ruta de instalación predeterminada ahora es: **C:Archivos de programaAdobe Campaign Classic v7** en lugar de **C:Archivos de programa (x86)Adobe Campaign Classic v7**
+* En Windows, la ruta de instalación predeterminada del servidor Campaign ha cambiado. Al iniciar la configuración de la versión de 64 bits, la ruta de instalación predeterminada ahora es: **C:\Program Files\Adobe\Adobe Campaign Classic v7** en lugar de **C:\Program Files (x86)\Adobe\Adobe Campaign Classic v7**
 * Las reglas MX predeterminadas se han mejorado para incluir más dominios y optimizar el rendimiento.
 * Restricciones de acceso mejoradas en la llamada SOAP del asistente de implementación (xtk:serverOptions#SaveOptions).
 * La biblioteca obsoleta weka.jar se ha eliminado y la biblioteca OpenSSL se ha actualizado para la mejorar la seguridad.
