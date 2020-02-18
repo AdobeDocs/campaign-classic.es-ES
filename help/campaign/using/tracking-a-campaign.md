@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
 
@@ -51,7 +51,7 @@ This information is also offered in the **[!UICONTROL Campaign orders]** view wh
 
 El operador central puede editar la solicitud. Hay dos formas de hacerlo:
 
-1. El operador puede hacer clic en el nombre de la solicitud para editarla: esto muestra los detalles de las solicitudes.
+1. El operador puede hacer clic en el nombre del pedido para editarlo: esto muestra los detalles del pedido.
 
    ![](assets/mkg_dist_catalog_op_command_edit1.png)
 
