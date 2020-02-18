@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f3ceab5ee82587d9f1829792bdabf2209f793cd
+source-git-commit: 6b631f8456ad1f61cec1630334d76752f6af9866
 
 ---
 
@@ -178,6 +178,11 @@ Los pasos para instalar el primer servidor son:
    * Para Windows: Disponibilidad de la consola [del cliente para Windows](../../installation/using/client-console-availability-for-windows.md).
 
 1. Inicie el servidor de Adobe Campaign (**net start nlserver6** en Windows, **/etc/init.d/nlserver6 start** en Linux) y vuelva a ejecutar el comando **nlserver pdump** para comprobar la presencia de todos los módulos habilitados.
+
+   >[!NOTE]
+   >
+   >A partir de 20.1, se recomienda utilizar el siguiente comando en su lugar (para Linux): nlserver **systemctl start**
+
 
    ```
    12:09:54 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
