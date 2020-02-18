@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -46,7 +46,7 @@ Si ha modificado estas aplicaciones web y desea seguir usándolas en v7, debe ac
 
 ## Facilidad de uso: Página principal y navegación {#user-friendliness--home-page-and-navigation}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Si desea seguir utilizando aplicaciones web de tipo general v6.02, debe activar la opción **allowSQLInjection** en las diferentes zonas de seguridad antes de la actualización posterior. Consulte Aplicaciones [Web](#web-applications).
 
