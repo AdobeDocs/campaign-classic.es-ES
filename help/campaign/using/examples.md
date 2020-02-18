@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
 
@@ -29,8 +29,6 @@ La interfaz web **Por tipo de formulario** implica utilizar una **aplicación we
 >[!NOTE]
 >
 >Las API se detallan en un documento dedicado, cuyo acceso depende de su contrato. Consulte la [API](../../configuration/using/about-web-services.md).
-
->[!NOTE]
 >
 >La aplicación web utilizada en este ejemplo no es una aplicación web incluida con Adobe Campaign. Para utilizar un formulario en una campaña, debe crear la aplicación web dedicada.
 
