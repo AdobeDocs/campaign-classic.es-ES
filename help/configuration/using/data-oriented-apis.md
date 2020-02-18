@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f9b3508fee3b441752648258b1bc9d5d2b919791
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -392,7 +392,7 @@ Cuando se construye una consulta, los valores &quot;enlazados&quot; se reemplaza
 
 Para evitar enlazar un parámetro, el atributo &quot;noSqlBind&quot; debe rellenarse con el valor &#39;true&#39;.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Si la consulta incluye instrucciones de &quot;pedido por&quot; o &quot;grupo por&quot;, los motores de base de datos no podrán &quot;enlazar&quot; valores. Debe colocar el atributo @noSqlBind=&quot;true&quot; en las instrucciones &quot;select&quot; y/o &quot;where&quot; de la consulta.
 
