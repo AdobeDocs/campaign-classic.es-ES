@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -28,7 +28,7 @@ Sin embargo, puede configurar la plataforma de modo que recopile todas las visit
 
 Un usuario conocido por la plataforma es un destinatario que ya ha sido objetivo de una entrega y que ha hecho clic en un mensaje recibido al menos una vez. Se utiliza una cookie permanente para identificar a este destinatario.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >La plataforma de Adobe Campaign no está pensada para utilizarse como herramienta de seguimiento de sitios web más allá del contexto de visitar el sitio tras un clic en un mensaje. Cuando esta opción está habilitada, puede causar un uso muy alto de los recursos en los equipos que hospedan los servidores (redirección, aplicación y base de datos). Se recomienda asegurarse de que la arquitectura de hardware admita esta carga y evitar colocar etiquetas de seguimiento web en las páginas más visitadas, como la página principal.
 
