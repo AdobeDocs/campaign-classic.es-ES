@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b3ab02d1fd90c3f14314508a8fa7d99df82436c
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -105,7 +105,7 @@ Para ello, siga los siguientes pasos:
 
    ![](assets/mapping_diffusion_wizard_3.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Adobe Campaign no admite esquemas de varios destinatarios, conocidos como esquemas de objetivo, vinculados a los mismos esquemas de registro de inicio y/o seguimiento. De lo contrario, esto puede provocar anomalías en la reconciliación de datos posteriormente. Para obtener más información sobre esto, consulte la página [Recomendaciones y limitaciones](../../configuration/using/about-custom-recipient-table.md) .
 
