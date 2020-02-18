@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 30803bde7be6073895fcea4b6c70655a27111f55
+source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
 
@@ -64,7 +64,7 @@ Por ejemplo, en el mensaje anterior, el asunto del mensaje está personalizado p
 
 >[!CAUTION]
 >
->Por razones de privacidad, recomendamos utilizar HTTPS para todos los recursos externos.
+>Por motivos de privacidad, recomendamos utilizar HTTPS para todos los recursos externos.
 
 El contenido del mensaje se define en la sección inferior de la ventana de configuración de envío.
 
