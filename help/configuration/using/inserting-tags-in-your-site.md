@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 912507f25c5bc3c1ca7121b0df8182176900f4c0
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 912507f25c5bc3c1ca7121b0df8182176900f4c0
 
 Este método consiste en enviar una llamada HTTP al servidor de redirección mediante la inserción de una etiqueta **`<img>`** HTML en el código fuente HTML de la página web que desea rastrear.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Este método utiliza las cookies enviadas por el explorador Web para identificar al destinatario y no es 100% confiable.
 
