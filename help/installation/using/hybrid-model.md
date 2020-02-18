@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
+source-git-commit: 63d0551c0c036cb54ebea4e6cc4dc1f6566cf976
 
 ---
 
@@ -30,7 +30,7 @@ Estos son los pasos de instalación y configuración que se aplican a los modelo
 * Instalación de paquetes: consulte esta [sección](../../installation/using/installing-campaign-standard-packages.md).
 * Capacidad de entrega: configuración de reglas [](../../installation/using/email-deliverability.md#mx-configuration) MX y formatos [de](../../installation/using/email-deliverability.md#managing-email-formats)correo electrónico. Obtenga más información sobre las herramientas de entrega y las prácticas recomendadas leyendo la guía [de](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) introducción y la documentación [](../../delivery/using/about-deliverability.md)detallada.
 * Configuración de las opciones de campaña: consulte esta [sección](../../installation/using/configuring-campaign-options.md).
-* Configuración de una base de datos externa (FDA): consulte esta [sección](../../platform/using/accessing-an-external-database.md).
+* Configuración de una base de datos externa (FDA): consulte esta [sección](../../platform/using/about-fda.md).
 * Configuración de conectores CRM: consulte esta [sección](../../platform/using/crm-connectors.md).
 * Para obtener más información sobre los principios de implementación de fuentes intermedias, consulte esta [sección](../../installation/using/mid-sourcing-deployment.md).
 
