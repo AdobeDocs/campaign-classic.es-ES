@@ -5,14 +5,14 @@ solution: Campaign Classic
 title: Documentación del producto de Adobe Campaign Classic
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 1e8492d8e91d679ac13da875974e27d0f7791dc3
+source-git-commit: 08f697afc1630f275188dc86ca39d7841f922ed9
 
 ---
 
 
 # Centro de ayuda {#campaign-classic-documentation}
 
-![](platform/using/assets/banner_acc_doc.jpg)
+![](platform/using/assets/do-not-localize/banner_acc_doc.jpg)
 
 ## Novedades
 
