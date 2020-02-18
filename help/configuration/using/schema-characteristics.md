@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -28,7 +28,7 @@ Las características de un esquema que hace referencia a una tabla existente son
 * Los nombres de las tablas y las columnas deben especificarse explícitamente,
 * Se deben declarar los índices.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >No elimine los campos de la tabla de destinatarios estándar, aunque sean inútiles. Esto puede provocar errores de comportamiento en la base de datos de Adobe Campaign.
 
