@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
+source-git-commit: c4e6a9273c920c9d125ec3fb18a0628109475a4e
 
 ---
 
@@ -30,7 +30,7 @@ Para mostrar los informes, haga clic en el nombre de cada uno. Los siguientes in
 
 ![](assets/s_ncs_user_report_global_list.png)
 
->[!CAUTION]
+>[!NOTE]
 >
 >Esta sección muestra solamente los informes vinculados a los envíos.
 
@@ -104,7 +104,7 @@ Se utilizan los siguientes indicadores:
    >
    >Este indicador solo incluye los envíos de canales móviles. Para obtener más información, consulte [esta sección](../../delivery/using/sms-channel.md).
 
-   You can open up each line of the value table by clicking the [+] symbol. Para cada tipo de error, se puede mostrar el desglose de mensajes de error por dominio.
+   You can open up each line of the value table by clicking the `[+]` symbol. Para cada tipo de error, se puede mostrar el desglose de mensajes de error por dominio.
 
    ![](assets/s_ncs_user_errors_report_detail.png)
 
