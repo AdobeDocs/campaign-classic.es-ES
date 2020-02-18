@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
 
 ---
 
@@ -64,7 +64,7 @@ To add a hypertext link, go to **[!UICONTROL Static elements>Link]**.
 ![](assets/s_ncs_admin_survey_add_link.png)
 
 * The **[!UICONTROL Label]** is the content of the hypertext link as it will be displayed on the form page.
-* La dirección **[!UICONTROL URL]** es la dirección deseada, por ejemplo: [https://www.adobe.com](https://www.adobe.com) para un sitio web o [mailto:info@adobe.com](mailto:info@adobe.com) para enviar un mensaje.
+* La dirección **[!UICONTROL URL]** es la dirección deseada, por ejemplo: [https://www.adobe.com](https://www.adobe.com) para un sitio web o [info@adobe.com](mailto:info@adobe.com) para enviar un mensaje.
 * The **[!UICONTROL Window]** field lets you select the display mode for the link in the case of a site. Puede decidir abrir el enlace en una nueva ventana, en la ventana actual o en otra ventana.
 * Puede añadir una descripción emergente sobre herramientas, como se muestra a continuación:
 
