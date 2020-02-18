@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c581f22261af7e083f6bd47e603d17d2d71e7ce6
+source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
 
@@ -22,9 +22,11 @@ source-git-commit: c581f22261af7e083f6bd47e603d17d2d71e7ce6
 
 >[!CAUTION]
 >
->Este documento detalla el proceso para integrar su aplicación móvil con la plataforma Adobe Campaign. No proporciona información sobre cómo crear la aplicación móvil o cómo configurarla para gestionar notificaciones. Si desea obtener más información sobre este tema, consulte la documentación oficial de Apple ([https://developer.apple.com/](https://developer.apple.com/)) y Android ([https://developer.android.com/index.html](https://developer.android.com/index.html)).
+>Este documento detalla el proceso para integrar su aplicación móvil con la plataforma Adobe Campaign. No proporciona información sobre cómo crear la aplicación móvil o cómo configurarla para gestionar notificaciones. If you would like further information on this, refer to the official Apple [documentation](https://developer.apple.com/) and Android [documentation](https://developer.android.com/index.html).
 
-Las secciones a continuación proporcionan información específica sobre el canal de aplicaciones móviles. For global information on how to create a delivery, refer to [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
+Las secciones a continuación proporcionan información específica sobre el canal de aplicaciones móviles.
+
+For global information on how to create a delivery, refer to [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 El **Mobile App Channel** permite utilizar la plataforma de Adobe Campaign para enviar notificaciones personalizadas a los terminales iOS y Android a través de aplicaciones. Hay dos canales de envío disponibles:
 
@@ -51,10 +53,61 @@ Puede definir el comportamiento de la aplicación para las situaciones en las qu
 
 >[!CAUTION]
 >
->* Asegúrese de que las notificaciones enviadas a una aplicación móvil cumplen los requisitos previos y las condiciones especificadas por Apple (Servicio de notificaciones inmediatas de Apple) y Google (Google Cloud Messaging).
+>* Debe asegurarse de que las notificaciones enviadas a una aplicación móvil cumplen los requisitos y condiciones especificados por Apple (servicio de notificaciones push de Apple) y Google (mensajería en la nube de Firebase).
 >* Advertencia: en algunos países, la ley requiere informar a los usuarios de las aplicaciones del tipo de datos que se recopilan y del propósito de su procesamiento. Debe comprobar la ley.
 
 
 The **[!UICONTROL NMAC opt-out management]** (mobileAppOptOutMgt) workflow updates notification unsubscriptions on mobile devices. Para obtener más información sobre este flujo de trabajo, consulte la [guía sobre flujos de trabajo](../../workflow/using/mobile-app-channel.md).
 
-Adobe Campaign es compatible con APNS tanto de tipo binario como HTTP/2. For more details on the configuration steps, refer to the [Connectors](../../delivery/using/setting-up-mobile-app-channel.md#connectors) section.
+Adobe Campaign es compatible con APNS tanto de tipo binario como HTTP/2. Para obtener más información sobre los pasos de configuración, consulte la sección [Configuración de una aplicación móvil en Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md) .
+
+## Ruta de datos {#data-path}
+
+Los siguientes esquemas detallan los pasos que permiten a una aplicación móvil intercambiar datos con Adobe Campaign. Este proceso consta de tres entidades:
+
+* la aplicación móvil
+* el servicio de notificación: APNS (Servicio de notificaciones push de Apple) para Apple y FCM (Firebase Cloud Messaging) para Android
+* Espacio de trabajo de Adobe Campaign
+
+Los tres pasos principales del proceso de notificación son: registro de la aplicación en Adobe Campaign (recopilación de suscripciones), envíos y seguimiento.
+
+### Paso 1: Colección de suscripciones {#step-1--subscription-collection}
+
+El usuario descarga la aplicación móvil desde la App Store o desde Google Play. Esta aplicación contiene la configuración de conexión (certificado de iOS y clave de proyecto para Android) y la clave de integración. La primera vez que se abre la aplicación (según la configuración), se puede pedir al usuario que introduzca la información de registro (@userKey: correo electrónico o número de cuenta). Al mismo tiempo, la aplicación pregunta al servicio de notificaciones para recopilar una ID de notificación (ID de push). Toda esta información (configuración de conexión, clave de integración, identificador de notificación, userKey) se envía a Adobe Campaign.
+
+![](assets/nmac_register_view.png)
+
+### Paso 2: Entrega {#step-2--delivery}
+
+Los especialistas en marketing se dirigen a los suscriptores de la aplicación. El proceso de envío envía la configuración de conexión al servicio de notificaciones (certificado de iOS y clave de proyecto para Android), el ID de notificación (ID de push) y el contenido de la notificación. El servicio de notificaciones envía notificaciones a los terminales de destino.
+
+La siguiente información está disponible en Adobe Campaign:
+
+* Solo Android: número de dispositivos que muestran la notificación (impresiones)
+* Android y iOS: número de clics en la notificación
+
+![](assets/nmac_delivery_view.png)
+
+El servidor de Adobe Campaign debe poder comunicarse con el servidor APNS en los puertos siguientes:
+
+* 2195 (envío) y 2186 (servicio de comentarios) para el conector binario de iOS
+* 443 para el conector HTTP/2 de iOS
+
+Para comprobar si funciona correctamente, utilice los siguientes comandos:
+
+* Para pruebas:
+
+   ```
+   telnet gateway.sandbox.push.apple.com
+   ```
+
+* En producción:
+
+   ```
+   telnet gateway.push.apple.com
+   ```
+
+Si se utiliza un conector binario de iOS, el MTA y el servidor web deben poder comunicarse con el APNS en el puerto 2195 (envío) y el servidor de flujo de trabajo debe poder comunicarse con el APNS en el puerto 2196 (servicio de comentarios).
+
+Si se utiliza un conector HTTP/2 de iOS, el MTA, el servidor de flujo de trabajo y el servidor web deben poder comunicarse con el APNS en el puerto 443.
+
