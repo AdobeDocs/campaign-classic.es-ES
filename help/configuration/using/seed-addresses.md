@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 912507f25c5bc3c1ca7121b0df8182176900f4c0
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -77,7 +77,7 @@ Siga estos pasos:
    >
    >La extensión del esquema **nms:semillaMember** debe cumplir con las estructuras de una campaña y una entrega en Adobe Campaign.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >
    >    
