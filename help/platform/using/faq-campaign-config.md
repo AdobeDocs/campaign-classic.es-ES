@@ -14,7 +14,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ee1912e0de2841867d0ffb5420cc9810aa1083e
+source-git-commit: 7aa381654805798fcdd24f588160bed15e037a2b
 
 ---
 
@@ -59,7 +59,7 @@ Campaign permite configurar los procesos de aprobación para las etapas principa
 
 Adobe Campaign proporciona la opción Acceso de datos federados (FDA) para procesar la información almacenada en una o más bases de datos externas: puede acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign.
 
-[Haga clic aquí para obtener más información](../../platform/using/accessing-an-external-database.md).
+[Haga clic aquí para obtener más información](../../platform/using/connecting-to-database.md).
 
 ## Which external databases can I connect Campaign to? {#which-external-databases-can-i-connect-campaign-to-}
 
