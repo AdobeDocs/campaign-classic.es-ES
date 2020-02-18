@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 194d2263de0bf98afa0efc7e2e0b4ca433c95b6d
+source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
 
@@ -30,7 +30,7 @@ Un **envío** es un objeto de envío independiente que se ejecuta una vez. Puede
 
 Los envíos se pueden crear desde la lista de envíos o dentro de un flujo de trabajo mediante una actividad de [envío](../../workflow/using/delivery.md).
 
-Los flujos de trabajo también proporcionan actividades de envío específicas según el tipo de canal que desee utilizar. Para obtener más información sobre estas actividades, consulte [esta sección](../../workflow/using/cross-channel-deliveries.md).
+Los flujos de trabajo también proporcionan actividades de envío específicas según el tipo de canal que desee utilizar. For more on these activities, refer to [this section](../../workflow/using/cross-channel-deliveries.md).
 
 ## Envío recurrente {#recurring-delivery}
 
