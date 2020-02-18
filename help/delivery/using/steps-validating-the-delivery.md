@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62e6537ba306956cac3bf6e1dd18567bc1414917
+source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
 
 ---
 
@@ -82,7 +82,7 @@ Esta pestaña proporciona acceso a las siguientes opciones:
 
 * **[!UICONTROL Label and code of the delivery]** :: las opciones relativas a esta sección de la pantalla se utilizan para calcular los valores de estos campos durante la fase de análisis de envío. The **[!UICONTROL Calculate the execution folder during the delivery analysis]** field computes the name of the folder that will contain this delivery action during the analysis phase.
 * **[!UICONTROL Approval mode]** :: este campo permite seleccionar el tipo de aprobación de envío. Los modos de aprobación se presentan en el proceso [de validación con tipologías](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
-* **[!UICONTROL Prepare the personalization data with a workflow]** :: esta opción permite preparar los datos de personalización contenidos en la entrega en un flujo de trabajo automático. Permite mejorar el rendimiento del análisis de envío cuando se procesan muchos datos, especialmente si los datos de personalización proceden de una tabla externa a través de FDA. Consulte la sección [Acceso a una base de datos externa (FDA)](../../platform/using/accessing-an-external-database.md#optimizing-email-personalization-with-external-data).
+* **[!UICONTROL Prepare the personalization data with a workflow]** :: esta opción permite preparar los datos de personalización contenidos en la entrega en un flujo de trabajo automático. Permite mejorar el rendimiento del análisis de envío cuando se procesan muchos datos, especialmente si los datos de personalización proceden de una tabla externa a través de FDA. Consulte la sección [Acceso a una base de datos externa (FDA)](../../platform/using/additional-options.md#optimizing-email-personalization-with-external-data).
 * **[!UICONTROL Start job in a detached process]** : Esta opción le permite iniciar el análisis de envío en un proceso independiente. La función de análisis utiliza el proceso del servidor de aplicaciones de Adobe Campaign (web nlserver) de forma predeterminada. Al seleccionar esta opción, se asegura de que el análisis se complete incluso en caso de que falle el servidor de aplicaciones.
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]** :: esta opción agrega los registros de consulta SQL al diario de envío durante la fase de análisis.
 * **[!UICONTROL Ignore personalization scripts during sending]** :: esta opción le permite omitir la interpretación de las directivas JavaScript que se encuentran en el contenido HTML. Se visualizan tal y como están en los contenidos enviados. These directives are introduced with the **&lt;%=** tag).
