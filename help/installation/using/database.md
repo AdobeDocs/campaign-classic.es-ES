@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 28614a6b0c45deef17d9b3275a16e65bdff4538b
+source-git-commit: c25e2a4f2280cdcc61e0522f8235149410b5dacf
 
 ---
 
@@ -32,13 +32,12 @@ Compruebe también la sección Capas [de acceso a la](../../installation/using/p
 
 El cliente nativo debe estar instalado en los servidores de aplicaciones de Adobe Campaign.
 
-Puede buscar el cliente nativo en el servidor a través del panel de configuración del controlador ODBC, en el cliente **nativo de** SQL (para clientes de Microsoft SQL Server 2005) o en el cliente nativo de **SQL Server 10.0** (para clientes de Microsoft SQL Server 2008 y 2008 R2) o en el cliente nativo de **SQL Server 11.0** (para Microsoft SQL Server 2111.01.01.0111100002000 012 clientes).
+Puede buscar el cliente nativo en el servidor a través del panel de configuración del controlador ODBC, en el cliente nativo de **SQL Server 10.0** (para clientes de Microsoft SQL Server 2008 y 2008 R2) o en el cliente nativo de **SQL Server 11.0** (para Microsoft SQL Server 2012, 2014, 206 y 2 clientes 017).
 
 Deben estar presentes las siguientes DLL de acceso:
 
-* **sqlncli.dll** para cliente de Microsoft SQL Server 2005,
 * **sqlncli10.dll** para clientes de Microsoft SQL Server 2008 y 2008 R2,
-* **sqlncli11.dll** para el cliente de Microsoft SQL Server 2012.
+* **sqlncli11.dll** para clientes de Microsoft SQL Server 2012, 2014, 2016 y 2017.
 
    Las DLL de acceso se encuentran en el sitio web de Microsoft.
 
