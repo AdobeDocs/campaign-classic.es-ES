@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 Adobe Campaign permite vincular la información de seguimiento web recopilada a un destinatario cuando éste navega por el sitio de forma anónima. Cuando un usuario explora las páginas etiquetadas de su sitio web, esta información de navegación se recopila para que una vez que hace clic en un mensaje de correo electrónico enviado por Adobe Campaign, se identifique y la información se vincule automáticamente.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >La configuración del seguimiento anónimo en un sitio web puede desencadenar la recopilación de una cantidad significativa de registros de seguimiento, afectando así el funcionamiento de la base de datos. Configúrelo con cuidado.\
 >Los registros de seguimiento se guardan en la base de datos hasta que se purgan los datos de seguimiento. Utilice el asistente de implementación para configurar la frecuencia de purga. Para obtener más información, consulte [esta sección](../../installation/using/deploying-an-instance.md#purging-data).
