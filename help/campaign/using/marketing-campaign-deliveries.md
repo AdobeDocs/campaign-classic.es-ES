@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
+source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
 
@@ -72,7 +72,7 @@ El objetivo principal de un envío también se puede definir en el flujo de trab
 
 La guía [automatización con flujos de trabajo](../../workflow/using/executing-a-workflow.md#architecture) incluye una descripción detallada del funcionamiento del módulo de flujos de trabajo.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >En la misma campaña, no se pueden configurar más de 28 flujos de trabajo. Más allá de este límite, los flujos de trabajo adicionales no se ven en la interfaz y pueden dar lugar a errores.
 
@@ -233,7 +233,7 @@ De manera predeterminada, la configuración del grupo de control definida al niv
    ![](assets/s_ncs_user_edit_op_target_del.png)
 
 1. Haga clic en la **[!UICONTROL Control group]** ficha y, a continuación, seleccione **[!UICONTROL Enable and edit control group configuration]**.
-1. Haga clic **[!UICONTROL Edit...]** para configurar el grupo de control
+1. Haga clic en **[!UICONTROL Edit...]** para configurar el grupo de control.
 
 El procedimiento de configuración se presenta en [Extracción del grupo de control del destino](#extracting-the-control-group-from-the-main-target) principal y [Adición de una población](#adding-a-population).
 
@@ -353,7 +353,7 @@ La extracción de archivos inicia dos operaciones: cálculo de presupuesto y cá
 
 Puede asociar varios documentos a una campaña: informe, fotografía, página web, diagrama, etc. Estos documentos pueden tener cualquier formato (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc.). To link documents with a campaign, see [Adding documents](#adding-documents).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Este modo está reservado para documentos pequeños.
 
