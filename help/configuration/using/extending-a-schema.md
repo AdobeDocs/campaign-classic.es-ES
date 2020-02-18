@@ -15,14 +15,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
 
 # Ampliación de un esquema{#extending-a-schema}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Algunos esquemas integrados no deben ampliarse: principalmente aquellos para los que se definen los siguientes ajustes:\
 >**dataSource=&quot;file&quot;** y **mappingType=&quot;xmlFile&quot;**.\
@@ -38,7 +38,7 @@ Existen dos métodos para ampliar un esquema existente:
 
    Un esquema de extensión no tiene su propio esquema: el esquema generado a partir del esquema de origen se rellenará con los campos del esquema de extensión.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >No se le permite modificar los esquemas integrados de la aplicación, sino el mecanismo de extensión de esquema. De lo contrario, los esquemas modificados no se actualizarán en el momento de futuras actualizaciones de la aplicación. Esto puede provocar errores de funcionamiento en el uso de Adobe Campaign.
 
@@ -66,7 +66,7 @@ Existen dos métodos para ampliar un esquema existente:
 
    El atributo **perteneceA** del campo rellena el esquema donde se declara.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Para que las modificaciones se tengan en cuenta, es necesario volver a generar esquemas. For more on this, refer to the [Regenerating schemas](../../configuration/using/regenerating-schemas.md) section.\
 >Si las modificaciones afectan a la estructura de la base de datos, debe ejecutar una actualización. Para obtener más información sobre esto, consulte la sección [Actualización de la estructura](../../configuration/using/updating-the-database-structure.md) de la base de datos.
