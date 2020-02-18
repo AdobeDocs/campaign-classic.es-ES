@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f460c79a763c6a207656c54351a4c685f2a78a03
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -77,7 +77,7 @@ En v7, la conexión de operador **interno** y de **administrador** debe estar pr
 nlserver config -internalpassword
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >La contraseña **interna** debe ser idéntica para todos los servidores de seguimiento. Para obtener más información, consulte las secciones Identificador [](../../installation/using/campaign-server-configuration.md#internal-identifier) interno y [Acerca de los permisos](../../platform/using/access-management.md#about-permissions) .
 
