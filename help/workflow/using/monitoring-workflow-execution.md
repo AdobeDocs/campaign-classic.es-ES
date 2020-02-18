@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2e04eb83a7c2e29f8d3ea6458dd3f0e780dfb9c3
+source-git-commit: 202f571f5c348ca4ab617821cd1ec24cefa8c504
 
 ---
 
@@ -259,26 +259,23 @@ Se notifica a los supervisores del flujo de trabajo. También reciben una notifi
 
 ## Filtrado de flujos de trabajo según su estado{#filtering-workflows-status}
 
-La interfaz de Campaign Classic permite supervisar el estado de ejecución de todos los flujos de trabajo de la instancia mediante **vistas** predefinidas. Para acceder a estas vistas, abra el nodo **Administración**/**Auditoría**/ Estado **de flujos de trabajo**.
+La interfaz de Campaign Classic permite supervisar el estado de ejecución de todos los flujos de trabajo de la instancia mediante **vistas** predefinidas. Para acceder a estas vistas, abra el nodo **[!UICONTROL Administration]**/**[!UICONTROL Audit]**/**[!UICONTROL Workflows Status]**.
 
 Hay disponibles las siguientes vistas:
 
-* **Ejecución**: enumera todos los flujos de trabajo en ejecución.
-* **Pausado**: enumera todos los flujos de trabajo pausados.
-* **Error**: enumera todos los flujos de trabajo con errores.
-
-<!--Start Pending: lists all workflows that are waiting to be started by the operationMgt process.-->
+* **[!UICONTROL Running]**: enumera todos los flujos de trabajo en ejecución.
+* **[!UICONTROL Paused]**: enumera todos los flujos de trabajo en pausa.
+* **[!UICONTROL Failed]**: enumera todos los flujos de trabajo fallidos.
+* **[!UICONTROL Start Pending]**: enumera todos los flujos de trabajo que están esperando iniciarse en el proceso operationMgt. Esta vista solo está disponible con el paquete de campañas **de** marketing (consulte [Instalación de paquetes](../../installation/using/installing-campaign-standard-packages.md)estándar de campaña).
 
 ![](assets/workflow-monitoring-views.png)
 
-<!--The Start Pending view is available with the Marketing campaigns package only. See Installing Campaign standard packages../../installation/using/installing-campaign-standard-packages.md.-->
-
-De forma predeterminada, estas vistas están accesibles en la carpeta **Auditoría**. Sin embargo, puede volver a crearlas en la ubicación que elija en el árbol de carpetas. De esta manera, estarán disponibles para los usuarios estándar sin derecho de administración.
+De forma predeterminada, estas vistas son accesibles en la **[!UICONTROL Audit]** carpeta. Sin embargo, puede volver a crearlas en la ubicación que elija en el árbol de carpetas. De esta manera, estarán disponibles para los usuarios estándar sin derecho de administración.
 
 Para ello:
 
 1. Haga clic con el botón secundario en la carpeta donde desee agregar la vista.
-1. En **Agregar nueva carpeta**/**Administración**, seleccione la vista que desee agregar.
+1. En **[!UICONTROL Add new folder]**/**[!UICONTROL Administration]**, seleccione la vista que desee agregar.
 1. Una vez agregada la carpeta al árbol, asegúrese de configurarla como una vista para que muestre todos los flujos de trabajo, independientemente de la carpeta de origen.Para obtener más información sobre cómo configurar las vistas, consulte [esta sección](../../platform/using/access-management.md#adding-folders-and-creating-views).
 
 Además de estas vistas, puede configurar carpetas de filtros que le permitirán filtrar la lista de flujos de trabajo según su estado de ejecución. Para ello:
@@ -293,6 +290,3 @@ Para obtener más información, consulte estas secciones:
 
 * [Creación de filtros avanzados](../../platform/using/creating-filters.md#creating-an-advanced-filter)
 * [Guardar filtros](../../platform/using/creating-filters.md#saving-a-filter)
-
-<!-- need to check if pending status filter will be implemented or not in january release, note, Additionally to these views, a prefedefined filter is available in workflow-type folders. It allows you to display in the list workflows that are waiting to be started by the operationMgt process only.This filter is available with the Marketing campaigns package only. See Installing Campaign standard packages../../installation/using/installing-campaign-standard-packages.md.-->
-
