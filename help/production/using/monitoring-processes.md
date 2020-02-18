@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 954018e1016fc924064bd795066f80704499f6a7
 
 ---
 
@@ -417,7 +417,7 @@ El nombre de operador y el inicio de sesión deben configurarse previamente en l
 
 #### /nl/jsp/monitor.jsp {#nl-jsp-monitor-jsp}
 
-Se trata de una prueba para comprobar que un operador puede acceder al servidor de Adobe Campaign a través de una página web; la misma página web a la que se accede a través de los menús de la consola del cliente. Le recomendamos incluirlo en sus herramientas de vigilancia (Tivoli, Nagios, etc.).
+Se trata de una prueba para comprobar que un operador puede acceder al servidor de Adobe Campaign a través de una página web; la misma página web a la que se accede a través de los menús de la consola del cliente. Puede llamar a esta página desde sus herramientas de vigilancia (Tivoli, Nagios, etc.).
 
 ![](assets/ncs_monitoring_web.png)
 
