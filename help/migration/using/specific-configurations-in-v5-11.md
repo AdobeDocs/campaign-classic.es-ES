@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 703fa6e5d5e6f1c8c512bd65ebadad724f02ded3
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -59,7 +59,7 @@ Aunque no se recomienda, existen ciertas soluciones si desea mantener interfaces
 
 ## MySQL {#mysql}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >MySQL sólo se admite en v7 como motor de base de datos principal al migrar desde la versión 6.02 o 5.11 con este motor.
 
