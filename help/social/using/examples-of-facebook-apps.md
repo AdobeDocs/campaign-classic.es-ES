@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7f03e1fbb94bbd5b00fa0094a0b5e9be45629ec7
+source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
 
@@ -30,7 +30,7 @@ Cuando un usuario hace clic en la ficha de una aplicación de Facebook, se muest
 
 ![](assets/social_webapp_fb_000.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Siga los pasos de configuración descritos en [Creación de una aplicación](../../social/using/creating-a-facebook-application.md)de Facebook.
 
@@ -44,7 +44,7 @@ Los ejemplos de aplicaciones web de tipo Facebook detallados a continuación son
 * Cómo reenviar la configuración a una aplicación de Facebook. Consulte [¿Cómo reenviar la configuración a una aplicación de Facebook?](#how-to-forward-settings-to-a-facebook-application-).
 * Cómo adquirir datos de seguidores. Consulte [¿Cómo adquirir datos de seguidores?](#how-to-acquire-fan-data-).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Estos casos de uso sencillo se proporcionan como ejemplos para ilustrar las funcionalidades de las aplicaciones web de tipo Facebook.
 
@@ -97,7 +97,7 @@ Compruebe que la ficha de la aplicación **App01** aparece en la página de Face
 
 ## ¿Cómo reenviar la configuración a una aplicación de Facebook? {#how-to-forward-settings-to-a-facebook-application-}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Siga los pasos de configuración detallados en [Creación de una aplicación](../../social/using/creating-a-facebook-application.md)de Facebook.
 
