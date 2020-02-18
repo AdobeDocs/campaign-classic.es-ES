@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 779d9162b7296339a796512838612ede1186ddcc
+source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 
 ---
 
@@ -37,6 +37,10 @@ Los siguientes comandos se utilizan para iniciar y cerrar el servicio Adobe Camp
 
    * **/etc/init.d/nlserver6 start**
    * **/etc/init.d/nlserver6 stop**
+
+>[!NOTE]
+>
+>A partir de 20.1, se recomienda utilizar el siguiente comando en su lugar (para Linux): nlserver **/** systemctl stop nlserver **systemctl start**
 
 Esta es una lista de los comandos de administración habituales a los que se puede acceder en Linux (como **Adobe Campaign**):
 
@@ -76,24 +80,22 @@ Esta es una lista de los comandos de administración habituales a los que se pue
    **nlserver reinicie web**
 
    >[!NOTE]
-
-   >* Si no se especifica la instancia, se utilizará la instancia &quot;predeterminada&quot;.
-   >    
-   >    
+   > 
+   >    * Si no se especifica la instancia, se utilizará la instancia &quot;predeterminada&quot;.
    >    * En caso de emergencia, utilice la opción **-inmediata** para forzar una parada inmediata del proceso (equivalente al comando Unix **kill -9**).
-   * Utilice la opción **-noconsole** para asegurarse de que el módulo iniciado no se mostrará en la consola. Sus registros se escribirán en el disco a través del **módulo syslogd** .
-   * Utilice la opción **-verbose** para mostrar información adicional sobre las acciones de proceso.
-
-
+   >    * Utilice la opción **-noconsole** para asegurarse de que el módulo iniciado no se mostrará en la consola. Sus registros se escribirán en el disco a través del **módulo syslogd** .
+   >    * Utilice la opción **-verbose** para mostrar información adicional sobre las acciones de proceso.
+      >    
+      >      
       Ejemplo:
-
-
+      >    
+      >      
       **nlserver Restart web -verbose**
-
-
+      >    
+      >      
       **nlserver start mta@myinstance -verbose**
-
-
+      >    
+      >      
       Esta opción agrega registros adicionales. Recomendamos volver a iniciar los procesos sin la opción **-verbose** una vez que haya encontrado la información deseada, para evitar la sobrecarga de registros.
 
 
@@ -110,5 +112,6 @@ Esta es una lista de los comandos de administración habituales a los que se pue
    **nlserver config -reload**
 
    >[!NOTE]
-   Algunos cambios de configuración no se tienen en cuenta de forma dinámica; Adobe Campaign debe cerrarse y reiniciarse.
+   >
+   >Algunos cambios de configuración no se tienen en cuenta de forma dinámica; Adobe Campaign debe cerrarse y reiniciarse.
 
