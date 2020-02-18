@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 
 ---
 
@@ -34,6 +34,6 @@ No hay ningún impacto para los usuarios de Apache si utilizan el **apache_neola
 
 Para los usuarios de IIS (en Windows), aparecerán varios iconos en la consola después de la actualización de compilación. Se requieren pasos adicionales de actualización de IIS:
 
-1. Después de la actualización de la compilación, haga doble clic en **iis_neolane_setup.vbs** , que se encuentra en el directorio de instalación de Campaign. La ruta predeterminada es C:Archivos de programa (x86)Adobe Campaign v7tomcat-7conf
+1. Después de la actualización de la compilación, haga doble clic en **iis_neolane_setup.vbs** , que se encuentra en el directorio de instalación de Campaign. La ruta predeterminada es C:\Program Files (x86)\Adobe\Adobe Campaign v7\tomcat-7\conf
 1. Reinicie el sitio de IIS que se ha actualizado en el paso anterior.
 
