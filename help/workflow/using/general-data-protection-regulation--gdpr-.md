@@ -15,15 +15,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+source-git-commit: aa941e4f8803f65ce9d5f7567206b1fcc20a6dc6
 
 ---
 
 
-# Reglamento general de protección de datos (GDPR){#general-data-protection-regulation-gdpr}
+# Reglamento de protección de datos de privacidad{#general-data-protection-regulation-gdpr}
 
-Los flujos de trabajo detallados a continuación se instalan con el módulo
-				**Reglamento general de protección de datos (GDPR)** de forma predeterminada. Para obtener más información sobre este módulo, consulte esta [sección](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html).
+The workflows detailed below are installed with the **Privacy Data Protection Regulation** module by default. For more on this module, refer to this [article](https://helpx.adobe.com/campaign/kb/acc-privacy.html).
 
 <table> 
  <tbody> 
