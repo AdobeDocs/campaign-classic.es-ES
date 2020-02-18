@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 912507f25c5bc3c1ca7121b0df8182176900f4c0
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -30,7 +30,7 @@ Existen tres modos de seguimiento Web disponibles: **&quot;Seguimiento de sesió
 
 Cada modo tiene características específicas. El modo de seguimiento web &quot;permanente&quot; incluye las características del modo de seguimiento web &quot;sesión&quot;, mientras que el modo &quot;anónimo&quot; incluye las características de los modos &quot;permanente&quot; y &quot;sesión&quot;.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >El modo de seguimiento web &quot;anónimo&quot; está habilitado de forma predeterminada si el paquete &quot;Posibles clientes&quot; está habilitado. En todos los demás casos, el modo de seguimiento web &quot;sesión&quot; está habilitado de forma predeterminada.
 >
