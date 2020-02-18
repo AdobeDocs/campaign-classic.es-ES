@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
 
 ---
 
@@ -31,4 +31,4 @@ Múltiples actividades permiten interactuar con datos de una base de datos exter
 * Enriquecimiento
 * Carga de datos
 
-El uso de la opción FDA depende de la licencia de Adobe Campaign. La configuración de esta opción, así como las buenas prácticas y limitaciones vinculadas a ella, se detallan en esta [sección](../../platform/using/accessing-an-external-database.md).
+El uso de la opción FDA depende de la licencia de Adobe Campaign. La configuración de esta opción, así como las buenas prácticas y limitaciones vinculadas a ella, se detallan en esta [sección](../../platform/using/about-fda.md).
