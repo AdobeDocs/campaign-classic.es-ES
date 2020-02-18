@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5813af76e3cad16d9094a19509dcb855e36c01f
+source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
 
 ---
 
@@ -152,13 +152,13 @@ Esta tarea purga todos los envíos que se van a eliminar o reciclar.
 
       donde **$(l)** es el identificador de la entrega.
 
-   * En las tablas del registro de entregas (**NmsBroadlogXxx**), las eliminaciones masivas se ejecutan en lotes de 10.000 registros.
-   * En las tablas de propuesta de oferta (**NmsPropositionXxx**), las eliminaciones masivas se ejecutan en lotes de 10.000 registros.
-   * En las tablas de registro de seguimiento (**NmsTrackinglogXxx**), las eliminaciones masivas se ejecutan en lotes de 5.000 registros.
-   * En la tabla de fragmentos de entrega (**NmsDeliveryPart**), las eliminaciones masivas se ejecutan en lotes de 5000 registros. Esta tabla contiene información de personalización sobre los mensajes restantes que se van a entregar.
-   * En la tabla de fragmentos de datos de la página reflejada (**NmsMirrorPageInfo**), las eliminaciones masivas se ejecutan en lotes de 5000 registros. Esta tabla contiene información de personalización de todos los mensajes utilizados para generar páginas de reflejo.
-   * En la tabla de búsqueda de página reflejada (**NmsMirrorPageSearch**), las eliminaciones masivas se ejecutan en lotes de 5000 registros. Esta tabla es un índice de búsqueda que proporciona acceso a la información de personalización almacenada en la tabla **NmsMirrorPageInfo** .
-   * En la tabla de registro de procesos por lotes (**XtkJobLog**), las eliminaciones masivas se ejecutan en lotes de 5000 registros. Esta tabla contiene el registro de entregas que se van a eliminar.
+   * En las tablas del registro de entregas (**NmsBroadlogXxx**), las eliminaciones masivas se ejecutan en lotes de 20.000 registros.
+   * En las tablas de propuesta de oferta (**NmsPropositionXxx**), las eliminaciones masivas se ejecutan en lotes de 20.000 registros.
+   * En las tablas de registro de seguimiento (**NmsTrackinglogXxx**), las eliminaciones masivas se ejecutan en lotes de 20.000 registros.
+   * En la tabla de fragmentos de entrega (**NmsDeliveryPart**), las eliminaciones masivas se ejecutan en lotes de 500.000 registros. Esta tabla contiene información de personalización sobre los mensajes restantes que se van a entregar.
+   * En la tabla de fragmentos de datos de la página reflejada (**NmsMirrorPageInfo**), las eliminaciones masivas se ejecutan en lotes de 20.000 registros para las piezas de entrega caducadas y para las finalizadas o canceladas. Esta tabla contiene información de personalización de todos los mensajes utilizados para generar páginas de reflejo.
+   * En la tabla de búsqueda de página reflejada (**NmsMirrorPageSearch**), las eliminaciones masivas se ejecutan en lotes de 20.000 registros. Esta tabla es un índice de búsqueda que proporciona acceso a la información de personalización almacenada en la tabla **NmsMirrorPageInfo** .
+   * En la tabla de registro de procesos por lotes (**XtkJobLog**), las eliminaciones masivas se ejecutan en lotes de 20.000 registros. Esta tabla contiene el registro de entregas que se van a eliminar.
    * En la tabla de seguimiento de URL de entrega (**NmsTrackingUrl**), se utiliza la siguiente consulta:
 
       ```
@@ -576,6 +576,26 @@ Esta tarea limpia las tablas de simulación huérfanas (que ya no están vincula
    DROP TABLE wkSimu_456831_aggr
    ```
 
+### Limpieza de pista de auditoría {#cleanup-of-audit-trail}
+
+Se utiliza la siguiente consulta:
+
+```
+DELETE FROM XtkAudit WHERE tsChanged < $(tsDate)
+```
+
+donde **$(tsDate)** es la fecha del servidor actual desde la que se sustrae el período definido para la opción **XtkCleanup_AuditTrailPurgeDelay** .
+
+### Limpieza de Nmsaddress {#cleanup-of-nmsaddress}
+
+Se utiliza la siguiente consulta:
+
+```
+DELETE FROM NmsAddress WHERE iAddressId IN (SELECT iAddressId FROM NmsAddress WHERE iStatus=STATUS_QUARANTINE AND tsLastModified < $(NmsCleanup_AppSubscriptionRcpPurgeDelay + 5d) AND iType IN (MESSAGETYPE_IOS, MESSAGETYPE_ANDROID ) LIMIT 5000)
+```
+
+Esta consulta elimina todas las entradas relacionadas con iOS y Android.
+
 ### Actualización de estadísticas y optimización del almacenamiento {#statistics-update}
 
 La **opción XtkCleanup_NoStats** le permite controlar el comportamiento del paso de optimización del almacenamiento del flujo de trabajo de limpieza.
@@ -590,13 +610,15 @@ Si el valor de la opción es 2, se ejecutará el análisis de almacenamiento en 
 
 Esta tarea elimina las suscripciones relacionadas con servicios o aplicaciones móviles eliminados.
 
-1. Para recuperar la lista de esquemas de registro extenso, se utiliza la siguiente consulta:
+Para recuperar la lista de esquemas de registro extenso, se utiliza la siguiente consulta:
 
-   ```
-   SELECT distinct(sBroadLogSchema) FROM NmsDeliveryMapping WHERE sBroadLogSchema IS NOT NULL
-   ```
+```
+SELECT distinct(sBroadLogSchema) FROM NmsDeliveryMapping WHERE sBroadLogSchema IS NOT NULL
+```
 
-1. A continuación, la tarea recupera los nombres de las tablas vinculadas al vínculo **appSubscription** y elimina estas tablas.
+A continuación, la tarea recupera los nombres de las tablas vinculadas al vínculo **appSubscription** y elimina estas tablas.
+
+Este flujo de trabajo de limpieza también elimina todas las entradas donde inhabilitado = 1 que no se hayan actualizado desde la hora establecida en la opción **NmsCleanup_AppSubscriptionRcpPurgeDelay** .
 
 ### Información de sesión de limpieza {#cleansing-session-information}
 
@@ -613,13 +635,3 @@ Esta tarea limpia los eventos recibidos y almacenados en las instancias de ejecu
 ### Reacciones de limpieza {#cleansing-reactions}
 
 Esta tarea elimina las reacciones (tabla **NmsRemaMatchRcp**) en las que se han eliminado las hipótesis.
-
-### Limpieza de pista de auditoría {#cleanup-of-audit-trail}
-
-Se utiliza la siguiente consulta:
-
-```
-DELETE FROM XtkAudit WHERE tsChanged < $(tsDate)
-```
-
-donde **$(tsDate)** es la fecha del servidor actual desde la que se sustrae el período definido para la opción **XtkCleanup_AuditTrailPurgeDelay** .
