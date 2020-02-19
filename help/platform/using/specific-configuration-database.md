@@ -169,6 +169,7 @@ Como regla general, debe instalar la capa del cliente correspondiente en la base
    /etc/init.d/nlserver6 stop
    /etc/init.d/nlserver6 start
    ```
+
 1. En Campaign Classic, configure su cuenta externa de copo de nieve en Campaign Classic. En el **[!UICONTROL Explorer]**, despliegue el **[!UICONTROL Administration]** menú.
 
 1. Abra el **[!UICONTROL Platform]** menú y haga clic en **[!UICONTROL External accounts]**.
