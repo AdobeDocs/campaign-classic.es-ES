@@ -64,10 +64,10 @@ La primera pestaña de la actividad **Inbound Emails** permite introducir los pa
 
    El código de retorno debe tener uno de los valores siguientes:
 
-   * 1. Elimina el mensaje del servidor y activa la transición saliente.
-   * 2. Deja el mensaje en el servidor y activa la transición saliente.
-   * 3. Elimina el mensaje del servidor.
-   * 4. Deja el mensaje en el servidor.
+   * 1\. Elimina el mensaje del servidor y activa la transición saliente.
+   * 2\. Deja el mensaje en el servidor y activa la transición saliente.
+   * 3\. Elimina el mensaje del servidor.
+   * 4\. Deja el mensaje en el servidor.
    The content of the message is accessible from the global **[!UICONTROL mailMessage]** variable.
 
 1. **[!UICONTROL Schedule]**
