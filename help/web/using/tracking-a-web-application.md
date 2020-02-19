@@ -20,8 +20,7 @@ source-git-commit: 36beb1eca48c698634c7548e0f931ab3fe17c021
 ---
 
 
-# Seguimiento de una aplicación
-                        web{#tracking-a-web-application}
+# Seguimiento de una aplicación web{#tracking-a-web-application}
 
 Adobe Campaign permite rastrear y medir visitas en páginas de aplicaciones Web mediante la inserción de etiquetas de seguimiento. Esta funcionalidad se puede utilizar para todos los tipos de aplicaciones web (formularios, encuestas en línea, páginas web creadas con DCE, etc.).
 
