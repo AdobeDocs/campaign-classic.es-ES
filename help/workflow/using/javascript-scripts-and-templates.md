@@ -128,29 +128,29 @@ En este ejemplo, se utiliza una variable de instancia para calcular dinámicamen
 
 1. Utilice el flujo de trabajo del ejemplo anterior y sustituya la secuencia de comandos de la actividad **JavaScript code** por la siguiente secuencia de comandos:
 
-   ```
-   instance.vars.foo = "bar1"
-   vars.foo = "bar2"
-   task.vars.foo = "bar3"
-   ```
+    ```
+    instance.vars.foo = "bar1"
+    vars.foo = "bar2"
+    task.vars.foo = "bar3"
+    ```
 
 1. Añada la siguiente secuencia de comandos a la secuencia de comandos de inicialización de la actividad **final**:
 
-   ```
-   logInfo("instance.vars.foo = " + instance.vars.foo)
-   logInfo("vars.foo = " + vars.foo)
-   logInfo("task.vars.foo = " + task.vars.foo)
-   ```
+    ```
+    logInfo("instance.vars.foo = " + instance.vars.foo)
+    logInfo("vars.foo = " + vars.foo)
+    logInfo("task.vars.foo = " + task.vars.foo)
+    ```
 
 1. Inicie el flujo de trabajo y consulte el “log”.
 
-   ```
-   Workflow finished
-   task.vars.foo = undefined
-   vars.foo = bar2
-   instance.vars.foo = bar1
-   Starting workflow (operator 'admin')
-   ```
+    ```
+    Workflow finished
+    task.vars.foo = undefined
+    vars.foo = bar2
+    instance.vars.foo = bar1
+    Starting workflow (operator 'admin')
+    ```
 
 Este ejemplo muestra que la actividad siguiente a **JavaScript code** accede a las variables de instancia y a las variables de evento, pero no se puede acceder a las variables de tareas desde el exterior (“indefinido”).
 
