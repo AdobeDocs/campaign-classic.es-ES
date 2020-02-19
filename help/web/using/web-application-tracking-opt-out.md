@@ -20,8 +20,7 @@ source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 ---
 
 
-# Exclusión del seguimiento de aplicaciones
-                        web{#web-application-tracking-opt-out}
+# Exclusión del seguimiento de aplicaciones web{#web-application-tracking-opt-out}
 
 Adobe Campaign permite detener el seguimiento en la web de los comportamientos de los usuarios finales que optan por no participar en él mediante cookies o señalización web. Esta funcionalidad incluye la posibilidad de mostrar un banner para ofrecerle esta opción al usuario; se pueden añadir estos banners a las aplicaciones web o a las páginas de destino.
 
