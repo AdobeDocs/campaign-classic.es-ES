@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cc6f0f2989977c5a199dbfd413c6a2bac4628545
+source-git-commit: 230ff1a8453cf512b7da828cdcdd49edca59331c
 
 ---
 
@@ -25,6 +25,20 @@ Obtenga información sobre las últimas actualizaciones de la documentación de 
 Esta página enumera todas las nuevas funciones y actualizaciones de documentación de cada versión de Adobe Campaign Classic.
 
 También puede consultar las Notas de la versión de [Adobe Campaign Classic](../../rn/using/latest-release.md).
+
+## Febrero de 2020 {#february-2020}
+
+Ya está disponible una nueva sección que describe las prácticas recomendadas y las recomendaciones clave al diseñar el modelo de datos de Adobe Campaign. [Más información](../../configuration/using/data-model-best-practices.md)
+
+Se ha cambiado el nombre de la sección &quot;Entregabilidad por correo electrónico&quot; a &quot;Configuraciones técnicas de correo electrónico&quot;. [Más información](../../installation/using/email-deliverability.md)
+
+El documento de preguntas más frecuentes sobre la entrega se ha actualizado con más detalles sobre el mensaje de error &quot;Cuotas cumplidas&quot;. [Más información](https://helpx.adobe.com/campaign/kb/acc-deliverability-faq.html#FAQ)
+
+La AMP para correo electrónico ahora es compatible con tres proveedores de correo electrónico (Gmail, Outlook y Mail.ru), y se ha actualizado la sección que describe cómo definir contenido interactivo con AMP. [Más información](../../delivery/using/defining-interactive-content.md)
+
+Se ha aclarado la sección de archivado de correo electrónico. [Más información](../../installation/using/email-archiving.md#recommendations-and-limitations)
+
+
 
 ## 20.1 - 17/02/2020{#release-20-1}
 
@@ -67,12 +81,6 @@ Se ha agregado una limitación al usar una actividad de consulta en un flujo de 
 Se ha agregado una nueva sección para detallar las reglas de validación de direcciones de correo electrónico mejoradas a fin de enviar una dirección a cuarentena en caso de error suave. [Más información](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
 
 El parámetro del archivo de configuración que indica que una instancia está utilizando el MTA mejorado o no está documentado. [Más información](../../installation/using/the-server-configuration-file.md#mta)
-
-## Febrero de 2020 {#february-2020}
-
-La AMP para correo electrónico ahora es compatible con tres proveedores de correo electrónico (Gmail, Outlook y Mail.ru), y se ha actualizado la sección que describe cómo definir contenido interactivo con AMP. [Más información](../../delivery/using/defining-interactive-content.md)
-
-Se ha aclarado la sección de archivado de correo electrónico. [Más información](../../installation/using/email-archiving.md#recommendations-and-limitations)
 
 ## January 2020 {#january-2020}
 
