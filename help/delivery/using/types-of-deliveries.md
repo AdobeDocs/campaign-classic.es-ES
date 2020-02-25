@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
+source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 ---
 
@@ -38,7 +38,7 @@ Un **envío recurrente** le permite crear un nuevo envío cada vez que se ejecut
 
 Por ejemplo, si ejecuta este tipo de actividad una vez al mes, tras un año acaba teniendo 12 envíos.
 
-Los envíos recurrentes se crean en los flujos de trabajo a través de la actividad de [envío recurrente](../../workflow/using/recurring-delivery.md). En esta sección se muestra un ejemplo de esta actividad: [Creación de una entrega recurrente en un flujo de trabajo](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-recurring-delivery-in-a-targeting-workflow)de segmentación.
+Los envíos recurrentes se crean en los flujos de trabajo a través de la actividad de [envío recurrente](../../workflow/using/recurring-delivery.md). En esta sección se muestra un ejemplo de esta actividad: [Creación de una entrega recurrente en un flujo de trabajo](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow)de segmentación.
 
 ## Envío continuo {#continuous-delivery}
 
