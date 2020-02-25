@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0ce6e5277c32bc18c20dca62e5b276f654d1ace5
+source-git-commit: 3641e438784d40aa097f8c89ca19bdbb52f4bc7d
 
 ---
 
@@ -26,7 +26,7 @@ Las direcciones sembradas se utilizan para dirigirse a los destinatarios que no 
 
 Una de las razones principales para utilizarlas es **la protección de su lista de correo**. La inclusión de direcciones sembradas en la lista de correo permite comprobar si la está utilizando un tercero, ya que las direcciones que contiene reciben los envíos enviados a la misma.
 
-Moreover, seed addresses let you **preview and test the deliveries personalization and rendering** before their sending, by sending them proofs (see [Using seed addresses as proof](../../delivery/using/steps-validating-the-delivery.md#using-seed-addresses-as-proof)).
+Moreover, seed addresses let you **preview and test the deliveries personalization and rendering** before their sending, by sending them proofs (see [Using seed addresses as proof](../../delivery/using/steps-defining-the-target-population.md#using-seed-addresses-as-proof)).
 
 La función de direcciones sembradas tiene las siguientes ventajas:
 
