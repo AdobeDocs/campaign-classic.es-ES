@@ -16,7 +16,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 ---
 
@@ -29,7 +29,7 @@ La ventana de edición de DCE se desglosa en tres secciones diferentes. Permiten
 
 ![](assets/dce_decoupe_window_nb.png)
 
-1. La sección **superior** es un área de visualización para mensajes al usuario. Estos mensajes indican el estado de la aplicación web o del envío que se está creando, así como advertencias y mensajes de error relacionados con el contenido. Para obtener más información sobre esto, consulte los estados [de contenido](#html-content-statuses)HTML.
+1. La sección **superior** es un área de visualización para mensajes al usuario. Estos mensajes indican el estado de la aplicación web o del envío que se está creando, así como advertencias y mensajes de error relacionados con el contenido. Para obtener más información sobre esto, consulte los estados [de contenido](../../web/using/content-editing-best-practices.md#html-content-statuses)HTML.
 1. La sección a la **izquierda** de la ventana es el área para editar contenido. Desde esta área, el usuario puede interactuar directamente con el contenido mediante la barra de herramientas emergente: insertar un vínculo en una imagen, cambiar la fuente, eliminar un campo, etc. For more on this refer to [Editing forms](../../web/using/editing-content.md#editing-forms).
 1. La sección a la **derecha** de la ventana es el área del panel de control. Esta área agrupa las diferentes opciones para el editor, en particular las relacionadas con la configuración del encabezado de página y las opciones generales para un bloque: agregue un borde, vincule un campo de base de datos con una zona de entrada, acceda a las propiedades de la página Web, etc. Para obtener más información sobre esto, consulte las secciones Opciones [](#global-options) globales y [Edición de contenido](../../web/using/editing-content.md) .
 
