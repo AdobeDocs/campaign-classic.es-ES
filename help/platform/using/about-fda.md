@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a0698ad55afb391bdc652a00b43b20df6fb9851b
+source-git-commit: 47fd157e369ddf6c67f0b2b467799cecc6e5a822
 
 ---
 
@@ -35,11 +35,11 @@ La opción FDA permite ampliar el modelo de datos en una base de datos de tercer
 
 Para utilizar esta función, tiene que:
 
-1. Poseer una base de datos externa compatible con el módulo FDA de Adobe Campaign. La lista de sistemas de bases de datos y versiones compatibles se detalla en la [matriz de compatibilidad](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html). Los usuarios también deben tener los [permisos necesarios](#remote-database-access-rights) en Adobe Campaign y en la base de datos externa.
-1. [Instalar los controladores](#specific-configurations-by-database-type) correspondientes a su base de datos en el servidor de Adobe Campaign.
-1. [Crear y configurar una cuenta externa](#connecting-to-the-database) que permita establecer la conexión entre Adobe Campaign y la base de datos externa. Para obtener más información sobre las cuentas externas disponibles, consulte esta [página](../../platform/using/external-accounts.md).
-1. [Cree el esquema](#creating-the-data-schema) de la base de datos externa en Adobe Campaign. Esto permite reconocer la estructura de datos de la base de datos externa.
-1. Finalmente, [crear una nueva asignación de objetivo](#defining-data-mapping) desde el esquema creado anteriormente, en caso de que los destinatarios de los envíos provengan de la base de datos externa. Esto presenta ciertas limitaciones, especialmente en relación con la personalización de los envíos.
+1. Poseer una base de datos externa compatible con el módulo FDA de Adobe Campaign. La lista de sistemas de bases de datos y versiones compatibles se detalla en la [matriz de compatibilidad](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html). Los usuarios también deben tener los [permisos necesarios](../../platform/using/remote-database-access-rights.md) en Adobe Campaign y en la base de datos externa.
+1. [Instalar los controladores](../../platform/using/specific-configuration-database.md) correspondientes a su base de datos en el servidor de Adobe Campaign.
+1. [Crear y configurar una cuenta externa](../../platform/using/connecting-to-database.md) que permita establecer la conexión entre Adobe Campaign y la base de datos externa. Para obtener más información sobre las cuentas externas disponibles, consulte esta [página](../../platform/using/external-accounts.md).
+1. [Cree el esquema](../../platform/using/creating-data-schema.md) de la base de datos externa en Adobe Campaign. Esto permite reconocer la estructura de datos de la base de datos externa.
+1. Finalmente, [crear una nueva asignación de objetivo](../../platform/using/defining-data-mapping.md) desde el esquema creado anteriormente, en caso de que los destinatarios de los envíos provengan de la base de datos externa. Esto presenta ciertas limitaciones, especialmente en relación con la personalización de los envíos.
 
 Una vez creado el esquema de datos, los datos se pueden procesar en los flujos de trabajo de Adobe Campaign. Para obtener más información, consulte [esta sección](../../workflow/using/executing-a-workflow.md#architecture).
 
