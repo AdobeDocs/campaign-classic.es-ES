@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
+source-git-commit: a358da7c499b5ee780563b4aef0eb2f4463186cf
 
 ---
 
@@ -125,7 +125,7 @@ En el siguiente ejemplo, se agregan **mediaURl** y **mediaExt** para crear notif
 
 1. Haga clic en **[!UICONTROL Next]** para comenzar a configurar la aplicación de desarrollo.
 
-1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. Para obtener más información sobre esto, consulte: [Integración del SDK de Campaign en la aplicación](#integrating-campaign-sdk-into-the-mobile-application)móvil. Esta clave de integración, específica de cada aplicación, permite vincular la aplicación móvil con la plataforma de Adobe Campaign.
+1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. Para obtener más información sobre esto, consulte: [Integración del SDK de Campaign en la aplicación](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)móvil. Esta clave de integración, específica de cada aplicación, permite vincular la aplicación móvil con la plataforma de Adobe Campaign.
 
    >[!NOTE]
    >
@@ -256,7 +256,7 @@ Para elegir el conector que desea utilizar, siga estos pasos:
 
 1. Introduzca un **[!UICONTROL Label]**.
 
-1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. Para obtener más información sobre esto, consulte: [Integración del SDK de Campaign en la aplicación](#integrating-campaign-sdk-into-the-mobile-application)móvil.
+1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. Para obtener más información sobre esto, consulte: [Integración del SDK de Campaign en la aplicación](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)móvil.
 
    >[!NOTE]
    >
@@ -280,7 +280,7 @@ De forma predeterminada, Adobe Campaign guarda una clave en el campo **[!UICONTR
 1. Defina la asignación en la **[!UICONTROL Subscription parameters]** ficha.
    >[!CAUTION]
    >
-   >Make sure the configuration names in the **[!UICONTROL Subscription parameters]** tab are the same as those in the mobile application code. Consulte la sección [Integración del SDK de campaña en la aplicación](#integrating-campaign-sdk-into-the-mobile-application) móvil.
+   >Make sure the configuration names in the **[!UICONTROL Subscription parameters]** tab are the same as those in the mobile application code. Consulte la sección [Integración del SDK de campaña en la aplicación](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md) móvil.
 
 ### Paso 4: Creación de una notificación enriquecida de Android {#creating-android-delivery}
 
