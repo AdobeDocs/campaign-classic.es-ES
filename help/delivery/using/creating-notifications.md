@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fa2b6890d3c9eaf7b4b6521b2edfb494faa4798c
+source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
 
 ---
 
@@ -72,7 +72,7 @@ Comience creando un nuevo envío.
    >
    >**[!UICONTROL Badge]** y **[!UICONTROL Alert and badge]** las notificaciones de tipo le permiten modificar el valor del distintivo (el número encima del logotipo de la aplicación móvil). Para actualizar el distintivo, sencillamente debe introducir 0 como valor. Si el campo está vacío, el valor de la insignia no cambia.
 
-1. The **[!UICONTROL Action button]** allows you to define a label for the action button appearing on the alert notifications (**action_loc_key** field of the payload). Si la aplicación de iOS administra cadenas localizables (**Localizable.strings**), introduzca la clave correspondiente en este campo. Si la aplicación no administra texto localizable, introduzca la etiqueta que desea ver en el botón de acción. Para obtener más información sobre cadenas localizables, consulte la [documentación de Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.md#//apple_ref/doc/uid/TP40008194-CH10-SW1) .
+1. The **[!UICONTROL Action button]** allows you to define a label for the action button appearing on the alert notifications (**action_loc_key** field of the payload). Si la aplicación de iOS administra cadenas localizables (**Localizable.strings**), introduzca la clave correspondiente en este campo. Si la aplicación no administra texto localizable, introduzca la etiqueta que desea ver en el botón de acción. Para obtener más información sobre cadenas localizables, consulte la [documentación de Apple](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1) .
 1. In the **[!UICONTROL Play a sound]** field, select the sound to be played by the mobile terminal when the notification is received.
 
    >[!NOTE]
