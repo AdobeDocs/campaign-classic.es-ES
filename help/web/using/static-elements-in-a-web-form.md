@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -35,7 +35,7 @@ Están disponibles los siguientes tipos de campo:
 
    >[!NOTE]
    >
-   >En el lado del servidor, la secuencia de comandos puede utilizar las funciones definidas en [Campaign JSAPI documentation](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html).
+   >En el lado del servidor, la secuencia de comandos puede utilizar las funciones definidas en [Campaign JSAPI documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
 
 ## Inserción de contenido HTML {#inserting-html-content}
 
