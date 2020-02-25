@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4e6a9273c920c9d125ec3fb18a0628109475a4e
+source-git-commit: 18309c190c351cc57f7af24f48b2a772c1840319
 
 ---
 
@@ -39,12 +39,12 @@ Para mostrar los informes, haga clic en el nombre de cada uno. Los siguientes in
 * **[!UICONTROL Sharing to social networks]** :: consulte [Uso compartido en redes](#sharing-to-social-networks)sociales.
 * **[!UICONTROL Statistics on sharing activities]** :: consulte [Estadísticas sobre actividades](#statistics-on-sharing-activities)de uso compartido.
 * **[!UICONTROL Operating systems]** :: consulte Sistemas [operativos](#operating-systems).
-* **[!UICONTROL URLs and click streams]** :: consulte [Direcciones URL y flujos](#urls-and-click-streams)de clics.
-* **[!UICONTROL Tracking indicators]** :: consulte [Seguimiento de indicadores](#tracking-indicators).
+* **[!UICONTROL URLs and click streams]** :: consulte [Direcciones URL y flujos](../../reporting/using/delivery-reports.md#urls-and-click-streams)de clics.
+* **[!UICONTROL Tracking indicators]** :: consulte [Seguimiento de indicadores](../../reporting/using/delivery-reports.md#tracking-indicators).
 * **[!UICONTROL Non-deliverables and bounces]** :: consulte [No entregables y devoluciones](#non-deliverables-and-bounces).
 * **[!UICONTROL User activities]** :: consulte Actividades [de usuario](#user-activities).
 * **[!UICONTROL Subscription tracking]** :: consulte Seguimiento [de suscripciones](#subscription-tracking).
-* **[!UICONTROL Delivery summary]** :: consulte Resumen [de](#delivery-summary)envío.
+* **[!UICONTROL Delivery summary]** :: consulte Resumen [de](../../reporting/using/delivery-reports.md#delivery-summary)envío.
 * **[!UICONTROL Delivery statistics]** :: consulte las estadísticas [de envío](#delivery-statistics).
 * **[!UICONTROL Breakdown of opens]** :: consulte [Desglose de aperturas](#breakdown-of-opens).
 
@@ -64,7 +64,7 @@ Este informe muestra el desglose de aperturas, clics y transacciones por media h
 
 Estas son las opciones disponibles:
 
-* **[!UICONTROL Opens]** : Número total de mensajes abiertos. No se tienen en cuenta los correos electrónicos en formato de texto. For more information on tracking opens, refer to [Tracking opens](#tracking-opens-).
+* **[!UICONTROL Opens]** : Número total de mensajes abiertos. No se tienen en cuenta los correos electrónicos en formato de texto. For more information on tracking opens, refer to [Tracking opens](../../reporting/using/indicator-calculation.md#tracking-opens-).
 * **[!UICONTROL Clicks]** : Número total de clics en los vínculos de los envíos. No se tienen en cuenta los clics en los vínculos de baja de suscripción ni en las páginas espejo.
 * **[!UICONTROL Transactions]** : Número total de transacciones después de recibir un mensaje. Para que se pueda tener en cuenta una transacción, debe insertarse una etiqueta de seguimiento web de tipo de transacción en la página web correspondiente. La configuración de seguimiento web se muestra en [esta sección](../../configuration/using/about-web-tracking.md).
 
@@ -302,7 +302,7 @@ Se utilizan los siguientes indicadores:
 
 Este informe muestra el desglose de aperturas por sistema operativo, dispositivo y navegador durante el periodo correspondiente. Para cada categoría se utilizan dos gráficos. El primero muestra estadísticas relacionadas con las aperturas en un ordenador y en dispositivos móviles. El segundo muestra estadísticas relacionadas únicamente con las aperturas en dispositivos móviles.
 
-El número de aperturas corresponde al número total de mensajes abiertos. No se cuentan los correos electrónicos de formato de texto. For more information on Tracking opens, refer to the [Tracking opens](#tracking-opens-) section.
+El número de aperturas corresponde al número total de mensajes abiertos. No se cuentan los correos electrónicos de formato de texto. For more information on Tracking opens, refer to the [Tracking opens](../../reporting/using/indicator-calculation.md#tracking-opens-) section.
 
 ![](assets/dlv_useragent_report.png)
 
