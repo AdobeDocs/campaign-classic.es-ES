@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -159,7 +159,7 @@ Introduzca los distintos campos:
 
 1. En el **[!UICONTROL Status]** campo, escriba el texto que se mostrará bajo el nombre de la página.
 1. En el **[!UICONTROL Name]** campo, introduzca el título de la publicación.
-1. En el **[!UICONTROL Video code]** campo, introduzca el código del vídeo de YouTube. Por ejemplo, para el vínculo &#39;http://www.youtube.com/watch?v=abc123456&#39;, el código de vídeo será &#39;abc123456&#39;.
+1. En el **[!UICONTROL Video code]** campo, introduzca el código del vídeo de YouTube. Por ejemplo, para el vínculo &#39;https://www.youtube.com/watch?v=abc123456&#39;, el código de vídeo será &#39;abc123456&#39;.
 1. En el **[!UICONTROL Caption]** campo, escriba el texto que aparecerá al final de la publicación.
 1. Vaya al **[!UICONTROL Description]** campo e introduzca el texto que se mostrará debajo del título.
 
