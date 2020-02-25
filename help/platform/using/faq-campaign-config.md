@@ -14,7 +14,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7aa381654805798fcdd24f588160bed15e037a2b
+source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
 
 ---
 
@@ -45,7 +45,7 @@ Como usuario experto, puede configurar las funcionalidades de seguimiento en la 
 
 ## How to configure email deliverability? {#how-to-configure-email-deliverability-}
 
-Además de la [Guía de introducción al envío de correos](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html), lea la sección sobre la configuración de envío de correo electrónico para comprender cómo configurar su instancia para maximizar las funcionalidades de entrega de Campaign.
+Además de la [Guía de introducción al envío de correos](https://docs.adobe.com/content/help/en/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html), lea la sección sobre la configuración de envío de correo electrónico para comprender cómo configurar su instancia para maximizar las funcionalidades de entrega de Campaign.
 
 [Haga clic aquí para obtener más información](../../installation/using/email-deliverability.md).
 
