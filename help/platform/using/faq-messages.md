@@ -14,7 +14,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 994ec35e37a1c26e83a8dd2ae31f6594cadd4c45
+source-git-commit: 8ef56aa04a3ecc94e9e3dda24562760d6a93739d
 
 ---
 
@@ -106,7 +106,7 @@ Aprenda a realizar un seguimiento de los envíos y comprender el comportamiento 
 
 Adobe Campaign incluye un conjunto de informes para supervisar los envíos y realizar un seguimiento de los mensajes.
 
-[Haga clic aquí para obtener más información sobre los informes integrados](../../reporting/using/reports-on-deliveries.md#delivery-reports).
+[Haga clic aquí para obtener más información sobre los informes integrados](../../reporting/using/delivery-reports.md).
 
 ### How does Adobe Campaign qualify and manage quarantine addresses? {#how-does-adobe-campaign-qualify-and-manage-quarantine-addresses-}
 
