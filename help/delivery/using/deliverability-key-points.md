@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb1f5acabbd976a92219424c14813b7783b56f38
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -61,7 +61,7 @@ Los proveedores de servicios de Internet generalmente tienen un medio prominente
 
 ## Enviar a direcciones de honeypot {#honeypot-addresses}
 
-Los ISP y otras organizaciones (consulte http://www.projecthoneypot.org/) utilizan buzones de correo que no corresponden a personas físicas pero que se crean simplemente para engañar a los remitentes de spam. Estas llamadas &quot;ollas de miel&quot; se publican en la web para ser recogidas por los spambots y así atrapar a remitentes ilegítimos. El uso de un mecanismo de doble inclusión impide que este tipo de dirección se agregue a una lista. Al utilizar una lista de terceros, debe estar seguro de los métodos empleados por su mantenedor.
+Los ISP y otras organizaciones (consulte https://www.projecthoneypot.org/) utilizan buzones de correo que no corresponden a personas físicas pero que se crean simplemente para engañar a los remitentes de spam. Estas llamadas &quot;ollas de miel&quot; se publican en la web para ser recogidas por los spambots y así atrapar a remitentes ilegítimos. El uso de un mecanismo de doble inclusión impide que este tipo de dirección se agregue a una lista. Al utilizar una lista de terceros, debe estar seguro de los métodos empleados por su mantenedor.
 
 ## Adaptar el contenido del mensaje {#message-content}
 
