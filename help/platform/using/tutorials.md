@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d2ffbd97a22839975293cc792d59f1ba73b7c877
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -56,4 +56,4 @@ Descubra las principales funcionalidades de Adobe Campaign mediante nuestros ví
 * [Administración de pruebas y sembrado en un correo electrónico](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/managing-seed-and-proofs.html): Aprenda a añadir pruebas y semillas a un correo electrónico existente en Adobe Campaign.
 * [Integración de Adobe Campaign y Microsoft Dynamics 365](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/integrating/dynamics365-integration.html): Aprenda a vincular y sincronizar las funcionalidades de Adobe Campaign y Microsoft Dynamics a través de las funcionalidades de los conectores CRM.
 
-Además de estos vídeos cortos y detallados, también puede encontrar [cursos de formación](https://training.adobe.com/training/courses.html) y [vídeos de presentación](https://www.adobe.com/training/video.html) en nuestro sitio web.
+Además de estos vídeos cortos y detallados, también puede encontrar [cursos de formación](https://learning.adobe.com/catalog.html) y [vídeos de presentación](https://www.adobe.com/training/video.html) en nuestro sitio web.
