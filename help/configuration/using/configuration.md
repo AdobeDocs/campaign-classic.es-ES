@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 912507f25c5bc3c1ca7121b0df8182176900f4c0
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -96,7 +96,7 @@ Los comandos se muestran en el mismo orden en que se declaran en el documento XM
 
 Un separador de comandos permite mostrar una barra de separación entre comandos. Se identifica mediante el **&#39;-&#39;** valor contenido en la etiqueta de comando.
 
-La presencia opcional de la **`<soapcall>`** etiqueta con sus parámetros de entrada define la llamada de un método SOAP que se va a ejecutar. Para obtener más información sobre la API de SOAP, consulte la documentación [de JSAPI de](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html)campaña.
+La presencia opcional de la **`<soapcall>`** etiqueta con sus parámetros de entrada define la llamada de un método SOAP que se va a ejecutar. Para obtener más información sobre la API de SOAP, consulte la documentación [de JSAPI de](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)campaña.
 
 El contexto del formulario se puede actualizar al inicializarlo desde la **`<enter>`** etiqueta . Para obtener más información sobre esta etiqueta, consulte la documentación sobre los formularios de entrada.
 
@@ -269,7 +269,7 @@ Los comandos se muestran en el mismo orden en que se declaran en el documento XM
 
 Un separador de comandos permite mostrar una barra de separación entre comandos. Se identifica mediante el **&#39;-&#39;** valor contenido en la etiqueta de comando.
 
-La presencia opcional de la **`<soapcall>`** etiqueta con sus parámetros de entrada define la llamada de un método SOAP que se va a ejecutar. Para obtener más información sobre las API de SOAP, consulte la documentación [de JSAPI de](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html)campaña.
+La presencia opcional de la **`<soapcall>`** etiqueta con sus parámetros de entrada define la llamada de un método SOAP que se va a ejecutar. Para obtener más información sobre las API de SOAP, consulte la documentación [de JSAPI de](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)campaña.
 
 El contexto del formulario se puede actualizar al inicializarlo mediante la **`<enter>`** etiqueta . Para obtener más información sobre esta etiqueta, consulte la documentación del formulario de entrada.
 
