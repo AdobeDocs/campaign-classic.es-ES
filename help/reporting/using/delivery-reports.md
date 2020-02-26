@@ -20,8 +20,7 @@ source-git-commit: b74ea9a6b079bbe88ed17a79e532bd8ce6ce13ae
 ---
 
 
-# Informes
-                        de envío {#delivery-reports}
+# Informes de envío {#delivery-reports}
 
 Se puede realizar un seguimiento de la ejecución de los envíos a través de diversos informes accesibles desde la información general de envío. Para visualizar informes, siga el siguiente procedimiento:
 
