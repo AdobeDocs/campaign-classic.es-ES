@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
+source-git-commit: 4c4e2cfaa9603c42e5e97de1e13318f8541921ca
 
 ---
 
@@ -92,11 +92,11 @@ En el panel de envíos, se recomienda comprobar los mensajes procesados y los �
 Algunos indicadores o estados pueden ser incorrectos o no estar actualizados; esto puede resolverse con las soluciones siguientes:
 
 * If your delivery status is incorrect, check that all necessary approvals have been done for this delivery or that the **[!UICONTROL operationMgt]** and **[!UICONTROL deliveryMgt]** workflows are running without errors. Esto también se puede deber a que el envío mediante una afinidad no está configurado en la instancia del emisor.
-* If your delivery indicators are still at zero and if you are on a mid-sourcing configuration, check the **[!UICONTROL Mid-sourcing (delivery counters)]** technical workflow. Start it if its status is not **[!UICONTROL Started]**. You can then try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]**. Para obtener más información sobre los indicadores de seguimiento, consulte [esta sección](../../reporting/using/reports-on-deliveries.md#tracking-indicators).
-* If your delivery counter does not match your delivery, try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]** to resynchronize. Para obtener más información sobre los indicadores de seguimiento, consulte [esta sección](../../reporting/using/reports-on-deliveries.md#tracking-indicators).
+* If your delivery indicators are still at zero and if you are on a mid-sourcing configuration, check the **[!UICONTROL Mid-sourcing (delivery counters)]** technical workflow. Start it if its status is not **[!UICONTROL Started]**. You can then try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]**. Para obtener más información sobre los indicadores de seguimiento, consulte [esta sección](../../reporting/using/delivery-reports.md#tracking-indicators).
+* If your delivery counter does not match your delivery, try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]** to resynchronize. Para obtener más información sobre los indicadores de seguimiento, consulte [esta sección](../../reporting/using/delivery-reports.md#tracking-indicators).
 * If your delivery counter is not up-to-date for mid-sourcing deployments, check that the **[!UICONTROL Mid-Sourcing (Delivery counters)]** technical workflow is running. Para obtener más información, consulte [esta página](../../installation/using/mid-sourcing-deployment.md).
 
-También puede rastrear los envíos con diferentes informes a través del panel de envío. Para obtener más información, consulte [esta sección](../../reporting/using/reports-on-deliveries.md#accessing-existing-reports).
+También puede rastrear los envíos con diferentes informes a través del panel de envío. Para obtener más información, consulte [esta sección](../../reporting/using/delivery-reports.md).
 
 ## Problemas de rendimiento {#performance-issues}
 
@@ -118,7 +118,7 @@ After clicking the **[!UICONTROL Send]** button, your delivery seems to take lon
 * Su envío puede ser demasiado grande como para procesarlo rápidamente, como puede ser el caso de una alta personalización de JavaScript o si su envío pesa más de 60 kB. Consulte las [prácticas recomendadas relacionadas con los envíos](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html) de Adobe Campaign para obtener más información sobre las directrices de contenido.
 * Es posible que se haya activado una restricción dentro del MTA de Adobe Campaign. Esto se debe a:
 
-   * Messages pended (**[!UICONTROL quotas met]** message): quotas declared by the declarative MX rules defined in Campaign have been met. Para obtener más información sobre este mensaje, consulte [esta página](../../delivery/using/technical-recommendations.md#quota-met). Para obtener más información sobre las reglas MX, consulte [esta página](../../delivery/using/technical-recommendations.md#mx-rules).
+   * Messages pended (**[!UICONTROL quotas met]** message): quotas declared by the declarative MX rules defined in Campaign have been met. Para obtener más información sobre este mensaje, consulte [esta página](https://helpx.adobe.com/campaign/kb/acc-deliverability-faq.html#FAQ). Para obtener más información sobre las reglas MX, consulte [esta página](../../delivery/using/technical-recommendations.md#mx-rules).
    * Messages pended (**[!UICONTROL dynamic flow control]** message): Campaign MTA has encountered errors when trying to deliver messages for a given ISP which causes a slowdown to avoid too big of an error density and thus facing potential blacklisting.
 
 * Un problema del sistema puede impedir que los servidores interactúen: esto puede ralentizar todo el proceso de envío. Compruebe los servidores para asegurarse de que no hay problemas de memoria o recursos que puedan afectar a Campaign en el proceso de obtención de los datos personalizados, por ejemplo.
