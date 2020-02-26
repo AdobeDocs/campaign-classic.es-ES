@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -61,7 +61,7 @@ Si recibe un error **ORA 01805** durante la postactualización, significa que lo
 
 1. Asegúrese de que los archivos de zona horaria son idénticos en ambos servidores.
 
-Para obtener más información, visite: [https://download.oracle.com/docs/cd/E11882_01/server.112/e10729/ch4datetime.htm](http://download.oracle.com/docs/cd/E11882_01/server.112/e10729/ch4datetime.htm).
+Para obtener más información, visite: [https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004](https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004).
 
 Un desajuste del huso horario entre el cliente y el servidor también puede provocar algunos retrasos. Por este motivo, recomendamos utilizar la misma versión de la biblioteca Oracle en el lado del cliente y del servidor; ambos husos horarios deben ser los mismos.
 
