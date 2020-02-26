@@ -14,7 +14,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 994ec35e37a1c26e83a8dd2ae31f6594cadd4c45
+source-git-commit: 8ef56aa04a3ecc94e9e3dda24562760d6a93739d
 
 ---
 
@@ -106,7 +106,7 @@ Puede utilizar el editor de contenido digital de Adobe Campaign para diseñar un
 
 ## How can I track deliveries? {#how-can-i-track-deliveries-}
 
-Puede realizar un seguimiento de los envíos realizados con Campaign Classic a través de los [ informes de envío](../../reporting/using/reports-on-deliveries.md#delivery-reports) específicos y luego monitorizarlos.
+Puede realizar un seguimiento de los envíos realizados con Campaign Classic a través de los [ informes de envío](../../reporting/using/delivery-reports.md) específicos y luego monitorizarlos.
 
 Obtenga más información sobre la administración de seguimiento en Campaign en [esta página](https://helpx.adobe.com/campaign/kb/acc-tracking.html).
 
