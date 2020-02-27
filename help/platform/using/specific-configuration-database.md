@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 47fd157e369ddf6c67f0b2b467799cecc6e5a822
+source-git-commit: f081df28691acf45dcc62757466d15d39753fa85
 
 ---
 
@@ -165,10 +165,10 @@ Como regla general, debe instalar la capa del cliente correspondiente en la base
 
 1. Después de descargar e instalar los controladores ODBC, debe reiniciar Campaign Classic. Para ello, ejecute el siguiente comando:
 
-     ```
-    /etc/init.d/nlserver6 stop
-    /etc/init.d/nlserver6 start
-     ```
+   ```
+   /etc/init.d/nlserver6 stop
+   /etc/init.d/nlserver6 start
+   ```
 
 1. En Campaign Classic, configure su cuenta externa de copo de nieve en Campaign Classic. En el **[!UICONTROL Explorer]**, despliegue el **[!UICONTROL Administration]** menú.
 
