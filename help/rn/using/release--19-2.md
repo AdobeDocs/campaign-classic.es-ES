@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 410fd89cd030ac3d4644e6aa025ed5f03adb788f
+source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
 
 ---
 
@@ -33,17 +33,17 @@ source-git-commit: 410fd89cd030ac3d4644e6aa025ed5f03adb788f
    <td><img src="assets/red3.png"/><strong>Obsoleto</strong></td> 
   </tr> 
    <tr> 
-   <td>Última compilación estable disponible. <br>Compilación validada en producción. </td>
-   <td>Compilación validada por Adobe. <br>Esperando pruebas de producción. </td>
-   <td>Nueva compilación disponible con correcciones de errores. <br>Se requiere la actualización. </td>
-   <td>Contiene regresiones conocidas. <br>La actualización es obligatoria. </td>
+   <td>Última compilación estable disponible. Compilación validada en producción.<br> </td>
+   <td>Compilación validada por Adobe. Esperando pruebas de producción.<br> </td>
+   <td>Nueva compilación disponible con correcciones de errores. Se requiere la actualización.<br> </td>
+   <td>Contiene regresiones conocidas. La actualización es obligatoria.<br> </td>
   </tr> 
  </tbody> 
 </table>
 
-Haga clic [aquí](../../rn/using/release--19-1.md#release-19-1-4-build-9032) para ver la **última compilación** estable (GA).
+La **última compilación** estable es 9032 (205c981c3). Haga clic [aquí](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/blue-2.png) Versión 19.2.3: compilación 9081 {#release-19-2-3-build-9081}
+## ![](assets/blue_2.png) Versión 19.2.3: compilación 9081 {#release-19-2-3-build-9081}
 
 _7 de febrero de 2020_
 
@@ -52,7 +52,7 @@ _7 de febrero de 2020_
 * Se ha corregido un problema de regresión debido a la implementación de la certificación SSL que provocaba que la conexión del usuario fallara en el servidor de Windows. (NEO-20629)
 * Se ha corregido un problema que mostraba un número de etiqueta de versión incorrecto en el menú **Acerca de** .
 
-## ![](assets/orange-2.png) Versión 19.2: compilación 9080 {#release-19-2-build-9080}
+## ![](assets/orange_2.png) Versión 19.2: compilación 9080 {#release-19-2-build-9080}
 
 _2 de diciembre de 2019_
 
@@ -67,7 +67,7 @@ _2 de diciembre de 2019_
  <tbody> 
   <tr> 
    <td> <p>CCPA es la nueva ley de privacidad del Estado de California que armoniza y moderniza los requisitos de protección de datos que entrarán en vigor el 1 de enero de 2020. CCPA se aplica a los clientes de Adobe Campaign que tienen datos para los sujetos de datos que residen en California.</p>
-    <p> Además de las funciones de privacidad ya disponibles (incluida la administración de consentimiento, la configuración de retención de datos y las funciones de usuario), Adobe Campaign le ayuda a facilitar su preparación para el CCPA:</p>
+    <p>Además de las funciones de privacidad ya disponibles (incluida la administración de consentimiento, la configuración de retención de datos y las funciones de usuario), Adobe Campaign le ayuda a facilitar su preparación para el CCPA:</p>
     <ul>
       <li>Derecho de acceso y derecho de eliminación: estamos aprovechando las capacidades agregadas para el RGPD. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess">Más información</a></li>
       <li>Puede rastrear si un consumidor ha optado por la venta de Información Personal. Para ello, debe ampliar la tabla Perfiles y agregar un campo de <strong>exclusión para CCPA</strong> . <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa">Más información</a></li></td> 
@@ -99,7 +99,7 @@ _2 de diciembre de 2019_
  <tbody> 
   <tr> 
 <td> <p>Adobe Campaign le permite probar el nuevo formato <a href="https://amp.dev/about/email/">AMP interactivo para correo electrónico</a> , que permite a los especialistas en marketing incluir componentes de AMP dentro de los mensajes para mejorar la experiencia de correo electrónico con contenido enriquecido, dinámico e interactivo, directamente procesable en el propio mensaje.</p>
-   <p> Esta capacidad se presenta como una versión beta pública.</p>
+   <p>Esta capacidad se presenta como una versión beta pública.</p>
    <p>For more information, refer to the <a href="../../delivery/using/defining-interactive-content.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">tutorial video</a>.</p><br /></td> 
   </tr> 
  </tbody> 
