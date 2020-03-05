@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d94ded3b87244a7cd51a15c1ebe409c9fdfcd843
+source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
 
 ---
 
@@ -31,17 +31,17 @@ source-git-commit: d94ded3b87244a7cd51a15c1ebe409c9fdfcd843
    <td><img src="assets/red3.png"/><strong>Obsoleto</strong></td> 
   </tr> 
    <tr> 
-   <td>Última compilación estable disponible. <br>Compilación validada en producción. </td>
-   <td>Compilación validada por Adobe. <br>Esperando pruebas de producción. </td>
-   <td>Nueva compilación disponible con correcciones de errores. <br>Se requiere la actualización. </td>
-   <td>Contiene regresiones conocidas. <br>La actualización es obligatoria. </td>
+   <td>Última compilación estable disponible. Compilación validada en producción.<br> </td>
+   <td>Compilación validada por Adobe. Esperando pruebas de producción.<br> </td>
+   <td>Nueva compilación disponible con correcciones de errores. Se requiere la actualización.<br> </td>
+   <td>Contiene regresiones conocidas. La actualización es obligatoria.<br> </td>
   </tr> 
  </tbody> 
 </table>
 
-Haga clic [aquí](../../rn/using/release--19-1.md#release-19-1-4-build-9032) para ver la **última compilación** estable (GA).
+La **última compilación** estable es 9032 (205c981c3). Haga clic [aquí](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/blue-2.png) Versión 20.1 - Versión 9122 {#release-20-1-build-XXXX}
+## ![](assets/blue_2.png) Versión 20.1 - Versión 9122 {#release-20-1-build-9122}
 
 _17 de febrero de 2020_
 
