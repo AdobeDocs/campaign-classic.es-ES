@@ -15,20 +15,41 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ba5496a008a28a29fc8e2032f31355a7c34f3ef8
+source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
 
 ---
 
 
 # Versión 19.1{#release-19-1}
 
-## Versión 19.1.6: compilación 9035 {#release-19-1-6-build-9035}
+[Generar actualización](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | [Versiones](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) del Panel de control| Actualizaciones [de documentación](../../rn/using/documentation-updates.md) | Versiones [anteriores](../../rn/using/release--19-1.md) | Funciones [obsoletas](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td><img src="assets/green3.png"/><strong>Disponibilidad general</strong></td>
+   <td><img src="assets/blue3.png"/><strong>Liberar candidato</strong></td> 
+   <td><img src="assets/orange3.png"/><strong>Ya no está disponible</strong></td> 
+   <td><img src="assets/red3.png"/><strong>Obsoleto</strong></td> 
+  </tr> 
+   <tr> 
+   <td>Última compilación estable disponible. Compilación validada en producción.<br> </td>
+   <td>Compilación validada por Adobe. Esperando pruebas de producción.<br> </td>
+   <td>Nueva compilación disponible con correcciones de errores. Se requiere la actualización.<br> </td>
+   <td>Contiene regresiones conocidas. La actualización es obligatoria.<br> </td>
+  </tr> 
+ </tbody> 
+</table>
+
+La **última compilación** estable es 9032 (205c981c3). Haga clic [aquí](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+
+## ![](assets/orange_2.png) Versión 19.1.6: compilación 9035 {#release-19-1-6-build-9035}
 
 >[!CAUTION]
 >
 >Esta compilación es únicamente para instalaciones in situ. Para implementaciones híbridas, las instancias alojadas seguirán ejecutando la compilación 9032. No actualice la instancia de marketing a la compilación 9035, ya que no es compatible con 9032.
 
-3 de octubre de 2019
+_3 de octubre de 2019_
 
 **Mejoras**
 
@@ -38,13 +59,9 @@ source-git-commit: ba5496a008a28a29fc8e2032f31355a7c34f3ef8
 * Se ha corregido un problema que podía hacer que el servidor de Mid-Sourcing no procesara determinados mensajes. (NEO-12395)
 * Se ha corregido un problema que impedía el uso completo de la actividad de Administración de datos SQL (faltaba la &quot;Administración de datos SQL&quot; denominada right).
 
-## Versión 19.1.5: compilación 9033{#release-19-1-5-build-9033}
+## ![](assets/orange_2.png) Versión 19.1.5: compilación 9033{#release-19-1-5-build-9033}
 
-13 de agosto de 2019
-
->[!CAUTION]
->
->Se ha retirado esta compilación. [Actualice a la última versión](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) o contacte con el [soporte técnico](https://support.neolane.net/).
+_13 de agosto de 2019_
 
 **Mejoras**
 
@@ -57,43 +74,31 @@ source-git-commit: ba5496a008a28a29fc8e2032f31355a7c34f3ef8
 
 ## Versión 19.1.4: compilación 9032{#release-19-1-4-build-9032}
 
-**17 de diciembre de 2019**: nueva compilación (9032-9d34fb17e) que incluye la siguiente corrección:
+![](assets/green_2.png) 5 **de marzo de 2020**: nueva compilación (9032-...205c981c3) que incluye la siguiente corrección:
+
+* Se ha corregido un problema con las cuentas externas que usaban FTP sobre SSL. (NEO-20498)
+
+![](assets/orange_2.png) 17 **de diciembre de 2019**: nueva compilación (9032-...9d34fb17e) que incluye la siguiente corrección:
 
 * Se ha corregido un problema de seguimiento en los siguientes canales de comunicación: móvil (SMS, MMS), push (iOS, Android) y redes sociales (Facebook, Twitter).
 (NEO-19595)
 
-**11 de diciembre de 2019**: nueva compilación (9032-e28b428b7) que incluye la siguiente corrección:
-
->[!CAUTION]
->
->Se ha retirado esta compilación. [Actualice a la última versión](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) o contacte con el [soporte técnico](https://support.neolane.net/).
+![](assets/orange_2.png) 11 **de diciembre de 2019**: nueva compilación (9032-...e28b428b7) que incluye la siguiente corrección:
 
 * Se corrigió un problema de rendimiento al enviar mensajes con una base de datos MSSQL. (NEO-17558)
 
-**20 de noviembre de 2019**: nueva compilación (9032-3468c7bb5) que incluye las siguientes correcciones:
-
->[!CAUTION]
->
->Se ha retirado esta compilación. [Actualice a la última versión](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) o contacte con el [soporte técnico](https://support.neolane.net/).
+![](assets/orange_2.png) 20 **de noviembre de 2019**: nueva compilación (9032-...3468c7bb5) que incluye las siguientes correcciones:
 
 * Se ha corregido un problema de inicio de sesión mediante la autenticación IMS. (NEO-17312)
 * Se corrigió un problema al mostrar informes acumulativos en varias entregas. (NEO-18165)
 * Se ha corregido un problema que podía bloquear o bloquear el servidor web.
 
-**19 de septiembre de 2019**: nueva compilación (9032-cee805c93) que incluye las siguientes correcciones:
-
->[!CAUTION]
->
->Se ha retirado esta compilación. [Actualice a la última versión](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) o contacte con el [soporte técnico](https://support.neolane.net/).
+![](assets/orange_2.png) 19 **de septiembre de 2019**: nueva compilación (9032-...cee805c93) que incluye las siguientes correcciones:
 
 * Se ha corregido un problema al usar el conector CRM para Salesforce. (NEO-17712)
 * Se ha corregido un problema de índice que podía provocar problemas de rendimiento al enviar mensajes transaccionales.
 
-**13 de agosto de 2019**: compilación inicial 19.1.4 que incluye las siguientes correcciones:
-
->[!CAUTION]
->
->Se ha retirado esta compilación. [Actualice a la última versión](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) o contacte con el [soporte técnico](https://support.neolane.net/).
+![](assets/orange_2.png) 13 **de agosto de 2019**: compilación inicial 19.1.4 que incluye las siguientes correcciones:
 
 * Se ha corregido un problema con la actividad del programador que generaba mensajes de error no deseados durante la configuración del asistente. Revertir la actualización desde NEO-11662. (NEO-17097)
 * Se ha corregido una regresión causada por el NEO-12727 que hacía que los flujos de trabajo se detuvieran cuando se realizaba una actividad de prueba dos veces. (NEO-16835)
@@ -101,13 +106,9 @@ source-git-commit: ba5496a008a28a29fc8e2032f31355a7c34f3ef8
 * Se ha solucionado un problema con la clave DKIM que ya no se incrustaba en los mensajes de correo electrónico, lo que provocaba problemas a la hora de realizar envíos. (NEO-16804)
 * Se han corregido varios problemas con la programación de los flujos de trabajo. Los flujos de trabajo se programaban para ejecutarse una vez al día sin tener en cuenta la configuración del programador. (NEO-16619, NEO-16426)
 
-## Versión 19.1.2: compilación 9029{#release-19-1-2-build-9029}
+## ![](assets/orange_2.png) Versión 19.1.2: compilación 9029{#release-19-1-2-build-9029}
 
-21 de junio de 2019
-
->[!CAUTION]
->
->Se ha retirado esta compilación. [Actualice a la última versión](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) o contacte con el [soporte técnico](https://support.neolane.net/).
+_21 de junio de 2019_
 
 **Mejoras de seguridad**
 
@@ -121,13 +122,9 @@ source-git-commit: ba5496a008a28a29fc8e2032f31355a7c34f3ef8
 * Ahora prohibimos la eliminación de los registros de prueba creados en Microsoft Dynamics durante el flujo de trabajo de importación.
 * Se han mejorado los permisos para ejecutar el paquete de zona de seguridad cuando utilice una cuenta interna.
 
-## Versión 19.1: compilación 9026{#release-19-1-build-9026}
+## ![](assets/orange_2.png) Versión 19.1: compilación 9026{#release-19-1-build-9026}
 
-30 de mayo de 2019
-
->[!CAUTION]
->
->Se ha retirado esta compilación. [Actualice a la última versión](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) o contacte con el [soporte técnico](https://support.neolane.net/).
+_30 de mayo de 2019_
 
 **Novedades**
 
