@@ -586,7 +586,7 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [Instalación de paquetes estándar de Campaign Classic](installation/using/installing-campaign-standard-packages.md)
    + Configuraciones adicionales {#additional-configurations}
       + [Configuración del servidor de campañas](installation/using/configuring-campaign-server.md)
-      + [Conexión mediante LDAP](installation/using/connecting-through-ldap.md)
+      + [Conexión a través de LDAP](installation/using/connecting-through-ldap.md)
       + [Configuraciones técnicas de correo electrónico](installation/using/email-deliverability.md)
       + [Archiving de correo electrónico](installation/using/email-archiving.md)
       + [Administración de husos horarios](installation/using/time-zone-management.md)
