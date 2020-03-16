@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
+source-git-commit: 1d08730421c598873e272f305a819e3fb4509d90
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
 
 La **última compilación** estable es 9032 (205c981c3). Haga clic [aquí](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/blue_2.png) Versión 19.2.3: compilación 9081 {#release-19-2-3-build-9081}
+## ![](assets/orange_2.png) Versión 19.2.3: compilación 9081 {#release-19-2-3-build-9081}
 
 _7 de febrero de 2020_
 
