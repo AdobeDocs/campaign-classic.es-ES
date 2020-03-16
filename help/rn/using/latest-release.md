@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
+source-git-commit: defbe3793be531eeb5c7aab913607ff094a624c7
 
 ---
 
@@ -40,6 +40,10 @@ source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
 </table>
 
 La **última compilación** estable es 9032 (205c981c3). Haga clic [aquí](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+
+## Versión 20.1.2: compilación 9123 {#release-20-1-2-build-9123}
+
+* Se ha corregido un problema que impedía la implementación de versiones en el servidor de Red Hat 7. (NEO-23332)
 
 ## ![](assets/blue_2.png) Versión 20.1 - Versión 9122 {#release-20-1-build-9122}
 
