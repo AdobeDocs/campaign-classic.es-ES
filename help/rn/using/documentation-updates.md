@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7082ff9c8ce18f12734831bc4f00c9a1b71376b3
+source-git-commit: 2de7987a0e5089a9023c0cf3b4c6c61a758a5e5f
 
 ---
 
@@ -29,6 +29,8 @@ También puede consultar las Notas de la versión de [Adobe Campaign Classic](..
 ## Marzo de 2020 {#march-2020}
 
 La página de optimizaciones del modelo de datos se ha actualizado con nuevas secciones que incluyen [Secuencias](../../configuration/using/data-model-best-practices.md#sequences), [Rendimiento](../../configuration/using/data-model-best-practices.md#performance) y Tablas [](../../configuration/using/data-model-best-practices.md#large-tables)grandes, entre otras. [Más información](../../configuration/using/data-model-best-practices.md)
+
+Ya está disponible una nueva sección que describe el modelo de datos predefinido de Adobe Campaign y la interacción de tablas integradas. [Más información](../../configuration/using/data-model-description.md)
 
 ## Febrero de 2020 {#february-2020}
 
