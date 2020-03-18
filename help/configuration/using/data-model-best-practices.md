@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad3aedeb18cfce809f959ccb62cb27928877c9d2
+source-git-commit: 1336bf7ab9cce7f2ffe7d4ffa5e119851e946885
 
 ---
 
@@ -46,11 +46,11 @@ Este enfoque centrado en el cliente se muestra en el gráfico siguiente. La tabl
 
 Para acceder a la descripción de cada tabla, vaya a **[!UICONTROL Admin > Configuration > Data schemas]**, seleccione un recurso de la lista y haga clic en la **[!UICONTROL Documentation]** ficha.
 
-El modelo de datos predeterminado de Adobe Campaign se presenta en este [documento](https://final-docs.campaign.adobe.com/doc/AC/en/technicalResources/_Datamodel_Description_of_the_main_tables.html).
+El modelo de datos predeterminado de Adobe Campaign se presenta en este [documento](../../configuration/using/data-model-description.md).
 
 >[!NOTE]
 >
->Adobe Campaign Classic permite crear una tabla de cliente personalizada. Sin embargo, en la mayoría de los casos, se recomienda aprovechar la tabla [](../../configuration/using/default-recipient-table.md) Destinatario estándar que ya tiene tablas y funciones adicionales prediseñadas.
+>Adobe Campaign Classic permite crear una tabla de cliente personalizada. Sin embargo, en la mayoría de los casos, se recomienda aprovechar la tabla [](../../configuration/using/about-data-model.md#default-recipient-table) Destinatario estándar que ya tiene tablas y funciones adicionales prediseñadas.
 
 ### Datos de Adobe Campaign {#data-for-campaign}
 
@@ -285,7 +285,7 @@ Este es un ejemplo.
 ![](assets/transaction-table-example.png)
 
 En este ejemplo:
-* Las tablas *Transacciones* y Elemento ** de transacción son grandes: más de 10 millones.
+* Las tablas *Transacción* y Artículo ** de Transacción son grandes: más de 10 millones.
 * Las tablas *Producto* y *Tienda* son más pequeñas: menos de 10.000.
 * La etiqueta y la referencia del producto se han colocado en la tabla *Producto* .
 * La tabla *Elemento* de transacción solo tiene un vínculo a la tabla *Producto* , que es numérica.
