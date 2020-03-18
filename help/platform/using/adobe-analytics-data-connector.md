@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20174427735b90129cd4cbd9ee1ba5fd705fa302
+source-git-commit: becdffadaaaa40359b61a6ad786b9fd8ebecc6e9
 
 ---
 
@@ -72,6 +72,10 @@ Los pasos siguientes detallan la configuración del conector de datos mediante u
 
 1. En la **[!UICONTROL Admin]** ficha, seleccione **[!UICONTROL Data Connectors]**.
 
+   Debe tener los siguientes permisos de herramientas de Analytics para acceder al **[!UICONTROL Data Connectors]** menú. Para obtener más información, consulte [esta página](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/analytics-tools.html)
+   * Integraciones (Crear)
+   * Integraciones (actualización)
+   * Integraciones (Eliminar)
    ![](assets/adobe_genesis_install_002.png)
 
 1. En la lista de socios, seleccione **[!UICONTROL Neolane - Enterprise Marketing Platform]**.
@@ -90,6 +94,7 @@ Los pasos siguientes detallan la configuración del conector de datos mediante u
    ![](assets/adobe_genesis_install_005.png)
 
 1. Especifique los identificadores necesarios para medir el impacto de la campaña de email; es decir, el nombre de la campaña interna (cid) y la ID de tabla de iNmsBroadlog (bid). También debe especificar los indicadores para los eventos que se van a recopilar.
+Asegúrese de que **[!UICONTROL Events]** son de tipo numérico; de lo contrario, no aparecerán en el menú desplegable.
 
    ![](assets/adobe_genesis_install_006.png)
 
