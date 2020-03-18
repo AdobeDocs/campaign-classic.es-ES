@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 16e7266a101b4abea3271c32fcc403e7d7fbaa2d
+source-git-commit: 527d2dd2296d18c8ca26745b9f87d65c6fdf480a
 
 ---
 
@@ -129,7 +129,7 @@ In the list of quarantined addresses, the **[!UICONTROL Error reason]** field in
 A diferencia de los errores graves, los errores suaves no envían inmediatamente una dirección a la cuarentena, sino que incrementan un contador de errores.
 
 * Cuando el contador de errores alcanza el umbral límite, la dirección pasa a la cuarentena.
-* En la configuración predeterminada, el umbral se establece en cinco errores, de los cuales dos errores son importantes si se producen al menos con una diferencia de 24 horas. La dirección se envía a cuarentena en el sexto error.
+* En la configuración predeterminada, el umbral se establece en cinco errores, de los cuales dos errores son importantes si se producen al menos con una diferencia de 24 horas. La dirección se coloca en cuarentena en el quinto error.
 * El umbral del contador de errores puede modificarse. Para obtener más información sobre esto, consulte [Reintentos después de un error](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)temporal de entrega.
 
 El contador de errores se reinicializa si el último error significativo se produjo hace más de 10 días. The address status then changes to **Valid** and it is deleted from the list of quarantines by the **Database cleanup** workflow.
