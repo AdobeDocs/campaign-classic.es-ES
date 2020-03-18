@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 211556bbf023731ffeab2e90692410a852ab3555
+source-git-commit: bc227c2da2e8b1a78714748809ad40bbcefe0458
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 211556bbf023731ffeab2e90692410a852ab3555
 >
 >El MTA prioriza el procesamiento de los mensajes transaccionales sobre cualquier otro envío.
 
-En la instancia de ejecución, una vez que se hayan completado las etapas de enriquecimiento y se haya vinculado una plantilla de envío al evento, se realiza el envío. Todas las entregas se agrupan en la **[!UICONTROL Administration > Production > Message Center > Default > Deliveries]** carpeta.
+En la instancia de ejecución, una vez que la etapa de enriquecimiento ha finalizado y se ha vinculado una plantilla de entrega al evento, se envía la entrega. Todas las entregas se agrupan en la **[!UICONTROL Administration > Production > Message Center > Default > Deliveries]** carpeta.
 
 ![](assets/messagecenter_deliveries_execinstances_001.png)
 
