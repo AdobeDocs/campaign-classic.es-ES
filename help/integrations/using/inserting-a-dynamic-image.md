@@ -15,51 +15,150 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ac3a0ca00591943d79563e9fd4d85d71fa0ba81a
+source-git-commit: f4d5d8474099776f770e88fcaf3bf15256da1be2
 
 ---
 
 
-# Inserción de una imagen dinámica{#inserting-a-dynamic-image}
+# Inserción de contenido dinámico de Destinatario {#inserting-a-dynamic-image}
 
-Esta sección detalla los pasos necesarios en Adobe Campaign para integrar una imagen de Adobe Target en un mensaje de correo electrónico.
+En esta guía, se muestra cómo integrar una oferta dinámica desde Target en un mensaje de correo electrónico en Adobe Campaign.
 
-Debe llevar a cabo previamente las siguientes acciones en Adobe Target:
+Queremos crear un envío que incluya un bloque de imagen que cambie de manera dinámica según el país del destinatario. Los datos se envían con cada solicitud mbox y dependen de la dirección IP del visitante.
 
-* Cree una o varias [ofertas de redirección](https://docs.adobe.com/help/en/target/using/experiences/offers/offer-redirect.html), en las que debe especificar la URL de la imagen que desea utilizar.
-* Cree una o varias [audiencias](https://marketing.adobe.com/resources/help/en_US/target/target/t_create-audience.html) para definir el público objetivo de la actividad.
-* Cree una actividad de [Compositor de experiencias basadas en formularios](https://docs.adobe.com/content/help/en/target/using/activities/abtest/create/test-create-ab.html), en la que debe seleccionar un “rawbox” y especificar varias experiencias, dependiendo del número de ofertas de redirección creadas. Para cada experiencia, debe seleccionar una de las ofertas de redirección creadas.
+En este correo electrónico, queremos que una de las imágenes cambie de manera dinámica según las siguientes experiencias de los usuarios:
 
-   Para especificar estas experiencias, puede crear segmentos utilizando la información de Adobe Campaign. Para utilizar datos de Adobe Campaign en las reglas de selección de la oferta, debe especificar los datos en el “rawbox” en Adobe Target.
+* El correo electrónico se abre en Francia.
+* El correo electrónico se abre en Estados Unidos.
+* Si no se aplica ninguna de estas condiciones, se muestra una imagen predeterminada.
 
-Para insertar una imagen de Adobe Target en un envío de Adobe Campaign:
+![](assets/target_4.png)
 
-1. Creación de un envío de correo electrónico.
-1. En los campos de personalización disponibles, seleccione **[!UICONTROL Include > Dynamic image served by Adobe Target]**.
+Para que esto funcione, se deben realizar los dos pasos siguientes en Adobe Campaign y Target:
 
-   ![](assets/tar_insert_dynamic_image.png)
+1. [Inserción de la oferta dinámica en un mensaje de correo electrónico](../../integrations/using/inserting-a-dynamic-image.md#inserting-dynamic-offer)
+1. [Creación de ofertas personalizadas](../../integrations/using/inserting-a-dynamic-image.md#create-redirect-offers)
+1. [Creación de audiencias](../../integrations/using/inserting-a-dynamic-image.md#audiences-target)
+1. [Creación de una actividad de segmentación de experiencias](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
+1. [Diseño y envío del correo electrónico](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
 
-1. En la ventana que se abre, seleccione la imagen que aparece por defecto en el mensaje de correo electrónico. Puede especificar la dirección URL de la imagen o utilizar una [imagen compartida](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md).
-1. Introduzca el nombre del “rawbox” especificado en Adobe Target.
-1. Enter a URL in the **[!UICONTROL Landing Page]** field if you want the default image to redirect to a default landing page. Esta URL es opcional y solo para aquellos casos en que la imagen predeterminada se muestra en el mensaje de correo electrónico final.
-1. Si utiliza permisos de empresa en la configuración de Adobe Target, añada la propiedad correspondiente en este campo. Obtenga más información sobre los permisos de empresa de Target en [esta página](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html). Este campo es opcional y no es necesario si no se utilizan permisos de empresa en Target.
-1. In **[!UICONTROL Additional decision parameters]**, specify the mapping between the fields defined in the Adobe Target segments and the Adobe Campaign fields. Los campos de Adobe Campaign utilizados deben haberse especificado en el “rawbox”.
+## Inserción de la oferta dinámica en un mensaje de correo electrónico {#inserting-dynamic-offer}
 
-   ![](assets/tar_additional_decisionning_parameters.png)
+En Adobe Campaign, cuando haya terminado de definir el destino y el contenido de su correo electrónico, puede insertar una imagen dinámica desde Target.
 
-   La definición de un parámetro en Adobe Target se realiza mediante el “rawbox” creado al integrar la imagen de destino en Adobe Campaign y la opción **Refinamientos**.
+Para ello, especifique la URL de la imagen predeterminada, el nombre de la ubicación y los campos que desee transferir al destino.
 
-   ![](assets/tar_additional_decisionning_parameters_1.png)
+En Adobe Campaign, hay dos formas de insertar una imagen dinámica desde Target en un mensaje de correo electrónico:
 
-   Este ejemplo muestra cómo definir distintas experiencias para hombres y mujeres.
+* Si utiliza el editor de contenido digital, elija una imagen existente y seleccione **[!UICONTROL Insert]** > **[!UICONTROL Dynamic image served by Adobe Target]** en la barra de herramientas.
 
-También puede definir varios casos en función del dominio y la dirección de correo electrónico del usuario. Los datos se recuperan automáticamente del navegador del usuario cuando se abre el correo electrónico.
+   ![](assets/target_5.png)
 
-![](assets/tar_additional_decisionning_parameters_2.png)
+* If you are using the standard editor, place the cursor where you want to insert the image and select **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target...]** from the personalization drop-down menu.
 
-Al previsualizar el correo electrónico, puede ver, cuando selecciona diferentes perfiles, que la imagen insertada cambia según los parámetros especificados en la actividad de Adobe Target y en Adobe Campaign.
+   ![](assets/target_12.png)
 
-Puede medir los resultados de los envíos en Adobe Target.
+### Definición de los parámetros de la imagen {#defining-image-parameters}
 
-![](assets/tar_measure_results.png)
+* The **[!UICONTROL Default image]**&#39;s URL: The image that will be displayed when none of the conditions are fulfilled. También puede seleccionar una imagen de su biblioteca de activos.
+* The **[!UICONTROL Target location]**: Enter a name for your dynamic offer&#39;s location. Debe seleccionar esta ubicación en la actividad de Target.
+* El **[!UICONTROL Landing Page]**: Si desea que la imagen predeterminada se redirija a una página de aterrizaje predeterminada. Esta URL es opcional y solo para aquellos casos en que la imagen predeterminada se muestra en el mensaje de correo electrónico final.
+* The **[!UICONTROL Additional decision parameters]**: Specify the mapping between the fields defined in the Adobe Target segments and the Adobe Campaign fields. Los campos de Adobe Campaign utilizados deben haberse especificado en el “rawbox”. En nuestro ejemplo, agregamos el campo País.
 
+Si utiliza permisos de empresa en la configuración de Adobe Target, añada la propiedad correspondiente en este campo. Obtenga más información sobre los permisos de empresa de Target en [esta página](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html).
+
+![](assets/target_13.png)
+
+## Creación de ofertas personalizadas {#create-redirect-offers}
+
+En Destinatario, puede crear diferentes versiones de la oferta. Según cada experiencia de usuario, se puede crear una oferta de redireccionamiento y puede especificar la imagen que desee mostrar.
+
+En este caso, necesitamos dos ofertas de redirección, la tercera (la predeterminada) se define en Adobe Campaign.
+
+1. Para crear una nueva oferta de redireccionamiento en Destinatario Standard, en la **[!UICONTROL Content]** ficha, haga clic en **[!UICONTROL Code offers]**.
+
+1. Haga clic en **[!UICONTROL Create]** luego **[!UICONTROL Redirect Offer]**.
+
+   ![](assets/target_9.png)
+
+1. Introduzca un nombre para la oferta y la URL de su imagen.
+
+   ![](assets/target_6.png)
+
+1. Siga el mismo procedimiento para la oferta de redirección restante. Para obtener más información, consulte [esta página](https://docs.adobe.com/help/en/target/using/experiences/offers/offer-redirect.html).
+
+## Creación de audiencias {#audiences-target}
+
+En Destinatario, debe crear las dos audiencias en las que las personas que visiten su oferta se clasificarán para que se entreguen los distintos contenidos. Para cada audiencia, añada una regla para definir quién puede ver la oferta.
+
+1. Para crear una nueva audiencia en Destinatario, en la **[!UICONTROL Audiences]** ficha, haga clic en **[!UICONTROL Create Audience]**.
+
+   ![](assets/audiences_1.png)
+
+1. Añada un nombre a su audiencia.
+
+   ![](assets/audiences_2.png)
+
+1. Haga clic **[!UICONTROL Add a rule]** y seleccione una categoría. La regla utiliza criterios específicos para dirigirse a los visitantes. Puede restringir las reglas añadiendo condiciones o creando nuevas reglas en otras categorías.
+
+1. Siga el mismo procedimiento para las audiencias restantes.
+
+## Creación de una actividad de segmentación de experiencias {#creating-targeting-activity}
+
+En Destinatario, necesitamos crear una actividad de segmentación de experiencias, definir las diferentes experiencias y asociarlas a las ofertas correspondientes.
+
+### Definición de la audiencia {#defining-the-audience}
+
+1. Para crear una actividad de segmentación de experiencias, en la **[!UICONTROL Activities]** ficha, haga clic en **[!UICONTROL Create Activity]** y, a continuación, en **[!UICONTROL Experience Targeting]**.
+
+   ![](assets/target_10.png)
+
+1. Seleccione **[!UICONTROL Form]** como **[!UICONTROL Experience Composer]**.
+
+1. Haga clic en el **[!UICONTROL Change audience]** botón para elegir una audiencia.
+
+   ![](assets/target_10_2.png)
+
+1. Seleccione la audiencia que se creó en los pasos anteriores.
+
+   ![](assets/target_10_3.png)
+
+1. Para crear otra experiencia, haga clic en **[!UICONTROL Add Experience Targeting]**.
+
+### Definición de la ubicación y el contenido {#defining-location-content}
+
+Añada un contenido para cada audiencia:
+
+1. Seleccione el nombre de la ubicación que eligió al insertar la oferta dinámica en Adobe Campaign.
+
+   ![](assets/target_15.png)
+
+1. Haga clic en el botón desplegable y seleccione **[!UICONTROL Change Redirect Offer]**.
+
+   ![](assets/target_content.png)
+
+1. Seleccione la oferta de redirección que había creado anteriormente.
+
+   ![](assets/target_content_2.png)
+
+1. Siga los mismos pasos para la segunda experiencia.
+
+### Definición de la actividad {#defining-activity}
+
+The **[!UICONTROL Target]** window summarizes your activity. Si es necesario, puede añadir otras experiencias.
+
+![](assets/target_experience.png)
+
+The **[!UICONTROL Goal & Settings]** window allows you to personalize your activity by setting a priority, an objective, or a duration.
+
+The **[!UICONTROL Reporting Settings]** section lets you select an action and edit the parameters that will determine when your goal is achieved.
+
+![](assets/target_experience_2.png)
+
+## Vista previa y envío del correo electrónico en el Campaign Classic {#preview-send-email}
+
+En Adobe Campaign, ahora puede previsualizar el correo electrónico y probar su renderizado en distintos destinatarios. Observe que la imagen cambia según las diferentes experiencias creadas. To learn more on email creation, refer to this [page](../../delivery/using/defining-the-email-content.md).
+
+Ya está listo para enviar su correo electrónico, incluida una oferta dinámica de Target.
+
+![](assets/target_20.png)
