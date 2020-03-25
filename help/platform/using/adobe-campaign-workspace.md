@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00351a7a108f74741fa15546d9bd5cf68699e5c1
+source-git-commit: 443c119593e9ba4c3cdf6a6d2ee742a0a17830c5
 
 ---
 
@@ -52,6 +52,22 @@ Mientras que con el acceso web, las opciones permiten principalmente la visualiz
 
 ![](assets/operation_from_web.png)
 
+### Idiomas {#languages}
+
+El idioma se selecciona al instalar la instancia de Adobe Campaign Classic y no se puede cambiar posteriormente. For more information on how to create an instance, refer to this [page](../../installation/using/creating-an-instance-and-logging-on.md).
+
+![](assets/language.png)
+
+Puede elegir entre cinco idiomas diferentes:
+
+* Inglés (EE. UU.)
+* Inglés (RU)
+* Francés
+* Alemán
+* Japonés
+
+El idioma elegido para la instancia de Adobe Campaign Classic puede afectar a los formatos de fecha y hora. Para obtener más información, consulte [esta sección](../../platform/using/adobe-campaign-workspace.md#date-and-time).
+
 ## Conceptos básicos de navegación {#navigation-basics}
 
 ### Exploración de páginas {#browsing-pages}
@@ -82,7 +98,7 @@ The lists are available via the **[!UICONTROL Lists]** link in the left-hand sec
 
 Cada sección de la funcionalidad principal le permite navegar entre los elementos disponibles. Para ello, utilice los accesos directos de la sección **[!UICONTROL Browsing]** . El vínculo **[!UICONTROL Other choices]** le permite acceder a todas las demás páginas, independientemente del entorno.
 
-Puede crear un nuevo elemento (entrega, aplicación Web, flujo de trabajo, etc.) mediante los métodos abreviados de la sección de la izquierda de la pantalla **[!UICONTROL Create]** . Utilice el botón **[!UICONTROL Create]** situado encima de la lista para añadir nuevos elementos a la lista.
+Puede crear un nuevo elemento (envío, Aplicación web, flujo de trabajo, etc.) mediante los métodos abreviados de la sección de la izquierda de la pantalla **[!UICONTROL Create]** . Utilice el botón **[!UICONTROL Create]** situado encima de la lista para añadir nuevos elementos a la lista.
 
 Por ejemplo, en la página de entrega, utilice el botón **[!UICONTROL Create]** para crear un nuevo envío.
 
@@ -191,7 +207,7 @@ Otra forma de añadir columnas, por ejemplo, si desea mostrar datos que no se mu
    >
    >Utilice el campo **Search** para realizar una búsqueda en los campos disponibles. Para obtener más información, consulte [Clasificación de una lista](#sorting-a-list).
    >
-   >Los campos se identifican mediante iconos específicos: Campos SQL, tablas vinculadas, campos calculados, etc. Para cada campo seleccionado, la descripción se muestra en la lista de campos disponibles.
+   >Los campos se identifican mediante iconos específicos: Campos SQL, tablas vinculadas, campos calculados, etc. Para cada campo seleccionado, la descripción se muestra bajo la lista de campos disponibles.
    [Configuración de listas](#configuring-lists).
    >
    >También puede ordenar y filtrar datos. Consulte [Opciones](../../platform/using/filtering-options.md)de filtrado.
