@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 211556bbf023731ffeab2e90692410a852ab3555
+source-git-commit: ba750d51d31d7783a3fdc5ef6b0bcf4a863c69d4
 
 ---
 
@@ -42,10 +42,10 @@ Los mensajes también se pueden excluir durante la preparación del envío si un
 
 ## Tipos y motivos de errores de envío {#delivery-failure-types-and-reasons}
 
-Existen tres tipos de error cuando falla un mensaje. Cada tipo de error determina si una dirección se envía a cuarentena. Para obtener más información sobre esto, consulte [Condiciones para enviar una dirección a cuarentena](../../delivery/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine)
+Existen tres tipos de error cuando falla un mensaje. Cada tipo de error determina si una dirección se envía a cuarentena. Para obtener más información sobre esto, consulte [Condiciones para enviar una dirección a la cuarentena](../../delivery/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine)
 
 * **Duro**: Un error &quot;duro&quot; indica una dirección no válida. Esto implica un mensaje de error que indica explícitamente que la dirección no es válida, como: &quot;Usuario desconocido&quot;.
-* **Suave**: Podría tratarse de un error temporal o uno que no se pudiera categorizar, como: &quot;Dominio no válido&quot; o &quot;Buzón lleno&quot;.
+* **Suave**: Podría tratarse de un error temporal o uno que no se pudiera categorizar, como: &quot;Dominio inválido&quot; o &quot;Buzón lleno&quot;.
 * **Ignorado**: Se trata de un error que se sabe que es temporal, como &quot;Fuera de la oficina&quot;, o un error técnico, por ejemplo, si el tipo de remitente es &quot;maestro de correo&quot;.
 
 Los posibles motivos de un error de envío son:
@@ -226,7 +226,7 @@ Esta lista está disponible a través del **[!UICONTROL Administration > Campaig
 
 ![](assets/tech_quarant_rules_qualif_text.png)
 
-Adobe Campaign filtra este mensaje para eliminar el contenido de la variable (como ID, fechas, direcciones de correo electrónico, números de teléfono, etc.) y muestra el resultado filtrado en la **[!UICONTROL Text]** columna. The variables are replaced with **`#xxx#`**, except addresses that are replaced with **`*`**.
+Adobe Campaign filtros este mensaje para eliminar el contenido de la variable (como ID, fechas, direcciones de correo electrónico, números de teléfono, etc.) y muestra el resultado filtrado en la **[!UICONTROL Text]** columna. The variables are replaced with **`#xxx#`**, except addresses that are replaced with **`*`**.
 
 Este proceso permite reunir todos los errores del mismo tipo y evitar entradas múltiples para errores similares en la tabla de clasificación de “logs” de envíos.
 
@@ -242,11 +242,15 @@ Los correos electrónicos rechazados pueden tener el siguiente estado de clasifi
 
 ![](assets/deliverability_qualif_status.png)
 
->[!NOTE]
->
->En el caso de instalaciones alojadas o híbridas, si se ha actualizado a la MTA mejorada, ya no se utilizarán las cualificaciones de devolución de la **[!UICONTROL Delivery log qualification]** tabla. El MTA mejorado determinará el tipo de devolución y la calificación, y enviará esa información a Campaign.
->
->Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+Para instalaciones hospedadas o híbridas, si ha actualizado a MTA mejorado:
+
+* Las cualificaciones de devolución de la **[!UICONTROL Delivery log qualification]** tabla ya no se utilizan para los mensajes de error de error de envío sincrónico. El MTA mejorado determina el tipo de devolución y la calificación, y devuelve esa información a la Campaña.
+
+* Las devoluciones asincrónicas siguen siendo calificadas por el proceso enMail a través de las **[!UICONTROL Inbound email]** reglas. Para obtener más información sobre esto, consulte Reglas [de administración de](#email-management-rules)correo electrónico.
+
+* En el caso de instancias que utilicen el MTA mejorado sin **Webhooks/EFS**, las **[!UICONTROL Inbound email]** reglas también se utilizarán para procesar los correos electrónicos de devolución sincrónicos procedentes del MTA mejorado, utilizando la misma dirección de correo electrónico que para los correos electrónicos de devolución asincrónicos.
+
+Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 ### Reglas de gestión de correo electrónico {#email-management-rules}
 
@@ -264,42 +268,62 @@ Las reglas predeterminadas son las siguientes:
 
 * **Correo electrónico entrante**
 
-   Cuando un mensaje de correo electrónico falla, el servidor remoto devuelve un mensaje de rechazo a la dirección especificada en los parámetros de la plataforma. Adobe Campaign compara el contenido de cada mensaje de rechazo con las cadenas de la lista de reglas y, a continuación, lo asigna a uno de los tres tipos de error.
+   Cuando un mensaje de correo electrónico falla, el servidor remoto devuelve un mensaje de rechazo a la dirección especificada en los parámetros de la plataforma.
+
+   Adobe Campaign compara el contenido de cada mensaje de rechazo con las cadenas de la lista de reglas y, a continuación, lo asigna a uno de los tres tipos de error.
 
    El usuario puede crear sus propias reglas.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Al importar un paquete y al actualizar datos mediante el flujo de trabajo **Refresh for deliverability**, se sobrescriben las reglas creadas por el usuario.
 
+   Para obtener más información sobre la calificación de correo de devolución, consulte [esta sección](#bounce-mail-qualification).
+
+   >[!NOTE]
+   >
+   >En el caso de instalaciones hospedadas o híbridas, si ha actualizado a la MTA mejorada, las reglas ya no se utilizan para los mensajes de error de envío sincrónico. **[!UICONTROL Inbound email]** For more on this, see [this section](#bounce-mail-qualification).
+   >
+   >Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+
 * **Administración de dominios**
 
-   Las reglas de administración de dominios se utilizan para regular el flujo de correos electrónicos salientes para un dominio específico. Realizan muestras de los mensajes de rechazo y bloquean el envío a donde corresponda. El servidor de mensajería de Adobe Campaign aplica reglas específicas a los dominios y, a continuación, las reglas para el caso general representado por un asterisco en la lista de reglas. Las reglas para los dominios de Hotmail y MSN están disponibles de forma predeterminada en Adobe Campaign.
+   El servidor de mensajería de Adobe Campaign aplica reglas específicas a los dominios y, a continuación, las reglas para el caso general representado por un asterisco en la lista de reglas.
+
+   Las reglas para los dominios de Hotmail y MSN están disponibles de forma predeterminada en Adobe Campaign.
 
    Click the **[!UICONTROL Detail]** icon to access rule configuration.
 
    ![](assets/tech_quarant_domain_rules_02.png)
 
-   Para configurar las reglas de administración de dominios, simplemente configure un umbral y seleccione ciertos parámetros SMTP. Un **umbral** es un límite calculado como un porcentaje de error por encima del cual se bloquean todos los mensajes dirigidos a un dominio específico.
-
-   Por ejemplo, en el caso general, para un mínimo de 300 mensajes, el envío de correos electrónicos se bloquea durante tres horas si la tasa de error alcanza el 90 %.
-
    Los **parámetros SMTP** actúan como filtros aplicados a una regla de bloqueo.
 
    * Se puede elegir si activar o no determinadas normas de identificación y claves de cifrado para comprobar el nombre del dominio como, por ejemplo, **ID de remitente**, **DomainKeys**, **DKIM** y **S/MIME**.
-   * **SMTP relay**: permite configurar la dirección IP y el puerto de un servidor de transmisión para un dominio determinado.
+   * **SMTP relay**: permite configurar la dirección IP y el puerto de un servidor de transmisión para un dominio determinado. For more on this, see [this section](../../installation/using/configuring-campaign-server.md#smtp-relay).
+   Si los mensajes se muestran en Outlook como **[!UICONTROL on behalf of]** con un nombre de dominio diferente, asegúrese de que no firma los correos electrónicos con el ID **del** remitente, que es el estándar de autenticación de correo electrónico exclusivo de Microsoft que está obsoleto. Si la **[!UICONTROL Sender ID]** opción está activada, desmarque la casilla correspondiente y póngase en contacto con el servicio de soporte técnico de Adobe Campaign. La capacidad de entrega no se verá afectada.
+
+   >[!NOTE]
+   >
+   >En el caso de instalaciones hospedadas o híbridas, si ha actualizado a la MTA mejorada, las **[!UICONTROL Domain management]** reglas ya no se utilizan. **La firma de autenticación por correo electrónico de DKIM (DomainKeys Identified Mail)** se realiza mediante el MTA mejorado para todos los mensajes con todos los dominios. No se firma con **el ID** del remitente, **DomainKeys** o **S/MIME** a menos que se especifique lo contrario en el nivel de MTA mejorado.
+   >
+   >Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 * **Administración MX**
 
+   * Las reglas de administración MX se utilizan para regular el flujo de correos electrónicos salientes para un dominio específico. Realizan muestras de los mensajes de rechazo y bloquean el envío a donde corresponda.
+
+   * El servidor de mensajería de Adobe Campaign aplica reglas específicas a los dominios y, a continuación, las reglas para el caso general representado por un asterisco en la lista de reglas.
+
+   * Para configurar las reglas de administración MX, simplemente configure un umbral y seleccione ciertos parámetros SMTP. Un **umbral** es un límite calculado como un porcentaje de error por encima del cual se bloquean todos los mensajes dirigidos a un dominio específico. Por ejemplo, en el caso general, para un mínimo de 300 mensajes, el envío de correos electrónicos se bloquea durante tres horas si la tasa de error alcanza el 90 %.
    Para obtener más información sobre gestión MX, consulte [esta sección](../../installation/using/email-deliverability.md#mx-configuration).
 
    >[!NOTE]
    >
-   >En el caso de instalaciones alojadas o híbridas, si se ha actualizado a la MTA mejorada, ya no se utilizan las reglas de rendimiento de entrega **[!UICONTROL MX management]** . El MTA mejorado utiliza sus propias reglas MX que le permiten personalizar el rendimiento por dominio en función de su propia reputación histórica de correo electrónico y de los comentarios en tiempo real procedentes de los dominios a los que envía correos electrónicos.
+   >En el caso de instalaciones alojadas o híbridas, si se ha actualizado a la MTA mejorada, ya no se utilizan las reglas de rendimiento de **[!UICONTROL MX management]** envío. El MTA mejorado utiliza sus propias reglas MX que le permiten personalizar el rendimiento por dominio en función de su propia reputación histórica de correo electrónico y de los comentarios en tiempo real procedentes de los dominios a los que envía correos electrónicos.
    >
    >Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* El servidor de envío (MTA) debe reiniciarse si los parámetros se han modificado.
 >* La modificación o creación de reglas de administración solo es para usuarios expertos.
