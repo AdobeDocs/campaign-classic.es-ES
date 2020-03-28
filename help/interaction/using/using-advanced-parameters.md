@@ -14,7 +14,7 @@ discoiquuid: 2bb756a2-4aca-4195-9b7a-ec85028a8012
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -28,9 +28,9 @@ En este capítulo se detallan los distintos parámetros avanzados posibles de in
 >
 >El capítulo siguiente está diseñado para **administradores técnicos**.
 
-* Se pueden utilizar datos contextuales adicionales. Consulte la sección Datos [](../../interaction/using/additional-data.md) adicionales.
-* Se puede enriquecer los contextos de la aplicación de las ofertas sugeridas mediante un canal entrante. Para ello, se debe ampliar el esquema de interacción **nms:interaction.** Refer to the [Extension example](../../interaction/using/extension-example.md) section for the full procedure.
-* La creación de un entorno de prueba se detalla en la sección [Creación de un entorno](../../interaction/using/creating-a-test-environment.md) de prueba.
-* Se puede modificar el comportamiento del motor estándar mediante los enlaces. For more on this, refer to the [Hooks](../../interaction/using/hooks.md) section
-* Finally, using Interaction with a distributed architecture is detailed in the [Distributed architectures](../../interaction/using/distributed-architectures.md) section.
+* Se pueden utilizar datos contextuales adicionales. Consulte la sección [Datos adicionales](../../interaction/using/additional-data.md).
+* Se puede enriquecer los contextos de la aplicación de las ofertas sugeridas mediante un canal entrante. Para ello, se debe ampliar el esquema de interacción **nms:interaction.** Consulte la sección [Ejemplo de extensión](../../interaction/using/extension-example.md) para conocer el procedimiento completo.
+* La creación de un entorno de prueba se detalla en la sección [Creación de un entorno de prueba](../../interaction/using/creating-a-test-environment.md).
+* Se puede modificar el comportamiento del motor estándar mediante los enlaces. Para obtener más información, consulte la sección [Enlaces](../../interaction/using/hooks.md)
+* Por último, el uso de Interacción con una arquitectura distribuida se detalla en la sección [Arquitecturas distribuidas](../../interaction/using/distributed-architectures.md).
 
