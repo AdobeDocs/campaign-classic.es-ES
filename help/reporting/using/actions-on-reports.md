@@ -14,7 +14,7 @@ discoiquuid: 3b9c138e-8f7f-4ee1-9baa-328848d01d3a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: af768da6ee8cc0ca2ea1f24f297239b974c113a5
 
 ---
@@ -40,15 +40,15 @@ Cuando un informe contiene varias páginas, se debe repetir la operación con ca
 
 Se puede configurar el informe con el fin de exportarlo en formato PDF, Excel u OpenOffice. Abra el explorador de Adobe Campaign y seleccione el informe correspondiente.
 
-Export options are accessed via the **[!UICONTROL Page]** activities of the report, in the **[!UICONTROL Advanced]** tab.
+En la pestaña **[!UICONTROL Advanced]**, se accede a las opciones de exportación a través de las actividades **[!UICONTROL Page]** del informe.
 
-Cambie la configuración de **[!UICONTROL Paper]** y **[!UICONTROL Margins]** para adaptarla a sus necesidades. También se puede autorizar la exportación de una página solo en formato PDF. Para ello, desactive la **[!UICONTROL Activate OpenOffice/Microsoft Excel export]** opción.
+Cambie la configuración de **[!UICONTROL Paper]** y **[!UICONTROL Margins]** para adaptarla a sus necesidades. También se puede autorizar la exportación de una página solo en formato PDF. Para ello, desmarque la opción **[!UICONTROL Activate OpenOffice/Microsoft Excel export]**.
 
 ![](assets/s_ncs_advuser_report_wizard_021.png)
 
 ### Exportación a Microsoft Excel {#exporting-into-microsoft-excel}
 
-For **[!UICONTROL List with group]** type reports destined to be exported into Excel, the following recommendations and limitations apply:
+Para informes de tipo **[!UICONTROL List with group]** que se van a exportar a Excel, se aplican las siguientes recomendaciones y limitaciones:
 
 * Estos informes no deben contener ninguna línea vacía.
 
@@ -58,10 +58,10 @@ For **[!UICONTROL List with group]** type reports destined to be exported into E
 
    ![](assets/export_limitations_hide_label.png)
 
-* Los informes no deben utilizar un formato específico definido al nivel de celda. It is preferable to use **[!UICONTROL Form rendering]** to define the format of the cells in the table. Se **[!UICONTROL Form rendering]** puede acceder a la página a través de **[!UICONTROL Administration > Configuration > Form rendering]**.
+* Los informes no deben utilizar un formato específico definido al nivel de celda. Es preferible utilizar **[!UICONTROL Form rendering]** para definir el formato de las celdas de la tabla. Se puede acceder a **[!UICONTROL Form rendering]** mediante **[!UICONTROL Administration > Configuration > Form rendering]**.
 * No se recomienda insertar contenido HTML.
 * Si un informe contiene varios elementos de tipo tabla, gráfico, etc., se exportan uno debajo del otro.
-* Se puede forzar el retorno de carro en las celdas: esta configuración se conserva en Excel. Para obtener más información sobre esto, consulte esta sección sobre [definición de formato](../../reporting/using/creating-a-table.md#defining-cell-format)de celda.
+* Se puede forzar el retorno de carro en las celdas: esta configuración se conserva en Excel. Para obtener más información, consulte [Definición del formato de celdas](../../reporting/using/creating-a-table.md#defining-cell-format).
 
 ### Aplazamiento de la exportación {#postpone-the-export}
 
@@ -93,13 +93,13 @@ Para obtener más información sobre el servicio **nlserver**, consulte [esta se
 
 Se puede imprimir el informe. Para ello, haga clic en el icono de impresora: esto abre el cuadro de diálogo correspondiente.
 
-For a better result, edit the Internet Explorer printing options and select **[!UICONTROL Print background colors and images]**.
+Para obtener un mejor resultado, edite las opciones de impresión de Internet Explorer y seleccione **[!UICONTROL Print background colors and images]**.
 
 ![](assets/s_ncs_advuser_report_print_options.png)
 
 ## Creación de archivos de informes {#creating-report-archives}
 
-El archivado de un informe permite crear una vista del informe en varios períodos, por ejemplo para mostrar las estadísticas de un período de tiempo determinado.
+El archivado de un informe permite crear una vista del informe en varios periodos, por ejemplo para mostrar las estadísticas de un periodo determinado.
 
 Para crear un archivo, abra el informe correspondiente y haga clic en el icono adecuado.
 
@@ -113,7 +113,7 @@ Las fechas de archivo se muestran bajo el icono mostrar/ocultar. Haga clic en el
 
 ![](assets/s_ncs_advuser_report_history_04.png)
 
-Es posible eliminar un archivo de informes. Para ello, vaya al nodo de Adobe Campaign donde se almacenan los informes. Click the **[!UICONTROL Archives]** tab, select the one you want to delete and click **[!UICONTROL Delete]**.
+Es posible eliminar un archivo de informes. Para ello, vaya al nodo de Adobe Campaign donde se almacenan los informes. Haga clic en la pestaña **[!UICONTROL Archives]**, seleccione el que desee eliminar y haga clic en **[!UICONTROL Delete]**.
 
 ![](assets/s_ncs_advuser_report_history_01.png)
 
