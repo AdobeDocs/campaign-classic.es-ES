@@ -14,7 +14,7 @@ discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d60f47f03949177b97509166a8d9e640849e5fd7
 
 ---
@@ -24,11 +24,11 @@ source-git-commit: d60f47f03949177b97509166a8d9e640849e5fd7
 
 Es necesario supervisar los flujos de trabajo técnicos, y deben tomarse medidas cuando se producen errores.
 
-En [esta página](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)se presentan formas adicionales de monitorear los diferentes procesos de Campaña.
+En [esta página](https://helpx.adobe.com/es/campaign/kb/acc-maintenance.html) se presentan formas adicionales de monitorizar los diferentes procesos de Campaign.
 
 ## Panel de monitorización de instancias {#instance-monitoring-dashboard}
 
-The instance monitoring dashboard can be accessed via the **[!UICONTROL Monitoring]** universe.
+Se puede acceder al tablero de monitorización de instancias a través del entorno **[!UICONTROL Monitoring]**.
 
 ![](assets/monitoring_technical_workflows1.png)
 
@@ -40,7 +40,7 @@ En los indicadores del sistema y los archivos principales, compruebe que no hay 
 
 ## Flujos de trabajo técnicos {#technical-workflows}
 
-Los flujos de trabajo técnicos están disponibles en **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
+Los flujos de trabajo técnicos están disponibles en **[!UICONTROL Administration]**, **[!UICONTROL Production]**, **[!UICONTROL Technical workflows]**.
 
 Dependiendo del flujo de trabajo técnico, siga los pasos detallados a continuación para asegurarse de que todo funciona correctamente.
 
@@ -48,7 +48,7 @@ Para comprender mejor qué debe hacer cada flujo de trabajo técnico, consulte e
 
 Para **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
 
-1. Check that the **[!UICONTROL Database Cleanup]** workflow runs and finishes successfully every day. Para obtener más información, consulte [esta página](../../workflow/using/delivery.md).
+1. Compruebe que el flujo de trabajo **[!UICONTROL Database Cleanup]** se ejecuta y finaliza correctamente todos los días. Para obtener más información, consulte [esta página](../../workflow/using/delivery.md).
 1. Observe el historial para verificar que el tiempo transcurrido es relativamente constante en el tiempo y no interfiere con otros flujos de trabajo.
 1. Para obtener más información, consulte esta [página](../../production/using/database-cleanup-workflow.md).
 
@@ -58,17 +58,17 @@ Compruebe que el flujo de trabajo de seguimiento se ejecute como está planifica
 
 Para **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]**:
 
-1. Check that the **[!UICONTROL Deliverability update]** workflow runs and finishes successfully every day. Para obtener más información, consulte [esta página](../../workflow/using/delivery.md).
+1. Compruebe que el flujo de trabajo **[!UICONTROL Deliverability update]** se ejecuta y finaliza correctamente todos los días. Para obtener más información, consulte [esta página](../../workflow/using/delivery.md).
 1. Compruebe en el historial que las reglas se actualizan periódicamente.
 
-Para **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**:
+Para **[!UICONTROL Campaign process (&#39;operationMgt&#39;, &#39;deliveryMgt&#39;, ...)]**:
 
-1. Look at all the workflows located under the **[!UICONTROL Campaign process]** folder. Para obtener más información, consulte [esta página](../../workflow/using/campaign.md).
+1. Observe todos los flujos de trabajo ubicados en la carpeta **[!UICONTROL Campaign process]**. Para obtener más información, consulte [esta página](../../workflow/using/campaign.md).
 1. Compruebe que los flujos de trabajo se ejecutan como está planificado y que el historial no destaca errores recurrentes.
 
 ## Monitorización del flujo de trabajo {#workflow-supervision}
 
-The **[!UICONTROL Workflow supervisors]** group should contain operators that need to be kept informed of failures and who can take action in time.
+El grupo **[!UICONTROL Workflow supervisors]** debe contener operadores a los que hay que mantener informados sobre los fallos y que pueden actuar a tiempo.
 
 ![](assets/monitoring_technical_workflows3.png)
 
