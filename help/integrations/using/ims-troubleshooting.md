@@ -14,7 +14,7 @@ discoiquuid: e31db11a-ad8e-4fd0-bab7-0df1079231c9
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 ---
@@ -28,27 +28,27 @@ Las siguientes sugerencias para la solución de problemas ayudarán a los client
 
 Solo debe haber **una** cuenta externa con la siguiente configuración:
 
-* **Nombre** interno: Adobe_Marketing_Cloud
+* **Nombre interno**: Adobe_Marketing_Cloud
 * **Tipo**: Adobe Marketing Cloud
 
 Elimine cualquier cuenta externa duplicada que tenga la misma configuración.
 
 **Contexto del producto**
 
-If the external account has a **Product Context** field, check that its value is set to: **dma_campaign_classic**
+Si la cuenta externa tiene un campo **Product Context**, compruebe que su valor esté configurado como: **dma_campaign_classic**
 
 Asegúrese de que el contexto del producto sea el mismo para Campaign y Experience Cloud.
 
 Por ejemplo, si el **contexto del producto** no aparece, el contexto predeterminado del producto debe ser **dma_campaign** en Campaign y Experience Cloud. Si aparece el campo de **Contexto del producto**, el contexto predeterminado del producto debe ser **dma_campaign_classic** en Campaign y en Experience Cloud.
 
-**[!UICONTROL IMS Server URL]**
+**[!UICONTROL URL del servidor IMS]**
 
-In the Campaign **Adobe Marketing Cloud** external account, check that the **[!UICONTROL IMS Server URL]** is either [adobeid-na1.services.adobe.com](https://adobeid-na1.services.adobe.com/) or [ims-na1.adobelogin.com](http://ims-na1.adobelogin.com/). Asegúrese de que las instancias de ensayo y de producción indiquen el mismo punto final de producción IMS.
+En la cuenta externa de **Adobe Marketing Cloud** de Campaign, asegúrese de que **[!UICONTROL IMS Server URL]** sea [adobeid-na1.services.adobe.com](https://adobeid-na1.services.adobe.com/) o [ims-na1.adobelogin.com](http://ims-na1.adobelogin.com/). Asegúrese de que las instancias de ensayo y de producción indiquen el mismo punto final de producción IMS.
 
 **Máscara de asociación**
 
 * Compruebe que el usuario que intenta iniciar sesión forme parte de un grupo de operadores en Enterprise Dashboard.
-* Check that the **[!UICONTROL Association Mask]** is a prefix of the user&#39;s operator group name in the Enterprise Dashboard.
+* Compruebe que **[!UICONTROL Association Mask]** sea un prefijo del nombre del grupo de operadores del usuario en Enterprise Dashboard.
 * Compruebe que no haya espacios en blanco ni errores ortográficos.
 * Compruebe que los nombres de los grupos de operadores en Campaign no hayan cambiado y respete la siguiente sintaxis:
 
@@ -78,11 +78,11 @@ Reinicie el servidor si se realizan cambios en la configuración anterior en la 
 
 * Se redirige al usuario a la página de adobe.com:
 
-   There is a problem with the **[!UICONTROL Callback URL]**. Refer to the previous steps to check the **[!UICONTROL Callback URL]** configuration.
+   Hay algún problema con **[!UICONTROL Callback URL]**. Consulte los pasos anteriores para comprobar la configuración de **[!UICONTROL Callback URL]**.
 
 * Mensaje “Ningún derecho del inicio de sesión se corresponde con la expresión”:
 
-   Refer to the previous steps to check the **[!UICONTROL Association Mask]** and operator groups configuration.
+   Consulte los pasos anteriores para comprobar las configuraciones de **[!UICONTROL Association Mask]** y de los grupos de operadores.
 
 * El usuario no puede acceder a la página de inicio de sesión de Adobe ID:
 
