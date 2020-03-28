@@ -14,7 +14,7 @@ discoiquuid: 61583062-2349-4ab3-a3bf-310d21894f34
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 # Dimensión cambiante{#change-dimension}
 
-La actividad de dimensión cambiante permite cambiar la dimensión de segmentación durante el ciclo de construcción del objetivo. El desplazamiento de ejes depende de la plantilla de datos y de la dimensión de entrada. Esto permite, por ejemplo, cambiar de la dimensión “contratos” a la dimensión “clientes”.
+La actividad para cambiar dimensión permite cambiar la dimensión de segmentación durante el ciclo de construcción del mismo. El desplazamiento de ejes depende de la plantilla de datos y de la dimensión de entrada. Esto permite, por ejemplo, cambiar de la dimensión “contratos” a la dimensión “clientes”.
 
 También se puede utilizar esta actividad para definir las columnas adicionales del nuevo destino.
 
@@ -32,7 +32,7 @@ Es posible definir criterios de deduplicación de datos.
 
 Para configurar la actividad de la dimensión de cambio, siga los pasos siguientes:
 
-1. Select the new targeting dimension via the **[!UICONTROL Change dimension]** field.
+1. Seleccione la nueva dimensión de destino mediante el campo **[!UICONTROL Change dimension]**.
 
    ![](assets/s_user_change_dimension_param1.png)
 
@@ -40,9 +40,9 @@ Para configurar la actividad de la dimensión de cambio, siga los pasos siguient
 
    ![](assets/s_user_change_dimension_limit.png)
 
-   Cuando decide mantener un solo registro, se muestra una colección en el esquema de trabajo: Esta colección representa todos los registros que no serán objetivo en el resultado final (ya que solo se guarda un registro). Al igual que todas las demás colecciones, este permite calcular las agregaciones o recuperar información en columnas.
+   Cuando decide mantener un solo registro, se muestra una colección en el esquema de trabajo: Esta colección representa todos los registros que no van a ser objetivo en el resultado final (ya que solo se guarda un registro). Al igual que todas las demás colecciones, este permite calcular las agregaciones o recuperar información en columnas.
 
-   For example, if you change the **[!UICONTROL Customers]** dimension to the **[!UICONTROL Recipients]** dimension, it will be possible to target customers of a specific store, while adding the number of purchases made.
+   Por ejemplo: si se cambia la dimensión **[!UICONTROL Customers]** a la dimensión **[!UICONTROL Recipients]**, es posible dirigirse a los clientes de un almacén específico, al mismo tiempo que se añade el número de compras realizadas.
 
 1. Si elige no conservar toda esta información, puede configurar el modo de gestión del duplicado.
 
@@ -52,23 +52,23 @@ Para configurar la actividad de la dimensión de cambio, siga los pasos siguient
 
    En el ejemplo anterior, los destinatarios se deduplicarán en su dirección de correo electrónico primero, luego, si es necesario, en su número de cuenta.
 
-1. The **[!UICONTROL Result]** tab lets you add additional information.
+1. La pestaña **[!UICONTROL Result]** permite añadir información adicional.
 
-   For example, you can recover the county based on the zip code by using a **Substring** type function. Para ello:
+   Por ejemplo, se puede recuperar el municipio en función del código postal utilizando una función de tipo **Substring**. Para ello:
 
-   * Haga clic en el **[!UICONTROL Add data...]** vínculo y seleccione **[!UICONTROL Data linked to the filtering dimension]**.
+   * Haga clic en el vínculo **[!UICONTROL Add data...]** y seleccione **[!UICONTROL Data linked to the filtering dimension]**.
 
       ![](assets/wf_change-dimension_sample_01.png)
 
       >[!NOTE]
       >
-      >For information on creating and managing additional columns, refer to [Adding data](../../workflow/using/query.md#adding-data).
+      >Para obtener más información sobre la creación y administración de columnas adicionales, consulte [Adición de datos](../../workflow/using/query.md#adding-data).
 
-   * Seleccione la dimensión de objetivo anterior (antes del conmutador de eje) y seleccione la **[!UICONTROL Zip Code]** en el **[!UICONTROL Location]** subárbol del destinatario y, a continuación, haga clic en **[!UICONTROL Edit expression]**.
+   * Seleccione la dimensión de segmentación anterior (antes del cambio de eje) y, en el subárbol **[!UICONTROL Location]** del destinatario, seleccione **[!UICONTROL Zip Code]** y haga clic en **[!UICONTROL Edit expression]**.
 
       ![](assets/wf_change-dimension_sample_02.png)
 
-   * Haga clic **[!UICONTROL Advanced selection]** y elija **[!UICONTROL Edit the formula using an expression]**.
+   * Haga clic en **[!UICONTROL Advanced selection]** y elija **[!UICONTROL Edit the formula using an expression]**.
 
       ![](assets/wf_change-dimension_sample_03.png)
 
