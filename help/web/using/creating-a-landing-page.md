@@ -14,7 +14,7 @@ discoiquuid: 5f1e5886-628f-4c9e-80c1-d82feec23e8c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 36beb1eca48c698634c7548e0f931ab3fe17c021
 
 ---
@@ -34,21 +34,21 @@ El objetivo principal de este ejemplo de uso es hacer que los campos de formular
 
 Para crear una nueva aplicación web de tipo página de destino, siga estos pasos:
 
-1. Vaya a la **[!UICONTROL Campaigns]** ficha, haga clic en el **[!UICONTROL Web application]** vínculo y, a continuación, haga clic en el **[!UICONTROL Create]** botón.
-1. Seleccione la **[!UICONTROL New landing page]** plantilla, introduzca una etiqueta y haga clic en **[!UICONTROL Save]**.
+1. Vaya a la ficha **[!UICONTROL Campaigns]**, haga clic en el vínculo **[!UICONTROL Web application]** y, a continuación, haga clic en el botón **[!UICONTROL Create]**.
+1. Seleccione la plantilla **[!UICONTROL New landing page]**, introduzca una etiqueta y luego haga clic en **[!UICONTROL Save]**.
 
    ![](assets/dce_uc1_newlandingpage.png)
 
-1.  Haga clic en la **[!UICONTROL Edit]** ficha.
+1. Haga clic en la pestaña **[!UICONTROL Edit]**.
 1. Elimine la actividad **End**.
-1. Agregue una **[!UICONTROL Page]** actividad después de la **[!UICONTROL Storage]** actividad.
-1. Edite la actividad **Página 2** y, a continuación, desmarque la **[!UICONTROL Activate outbound transitions]** opción de la **[!UICONTROL Properties]** ficha.
+1. Añada una actividad **[!UICONTROL Page]** después de la actividad **[!UICONTROL Storage]**.
+1. Edite la actividad **Page 2** y, a continuación, en la pestaña **[!UICONTROL Properties]**, desactive la opción **[!UICONTROL Activate outbound transitions]**.
 
    ![](assets/dce_uc1_transition.png)
 
 1. Guarde los cambios.
 
-A continuación, obtendrá la siguiente secuencia:
+A continuación, se obtiene la siguiente secuencia:
 
 ![](assets/dce_uc1_edition_activity.png)
 
@@ -68,8 +68,8 @@ Una plantilla debe contener:
 
 Para cargar la plantilla en la primera página, realice los pasos siguientes:
 
-1. Open the first **[!UICONTROL Page]** activity of the Web application.
-1. Seleccione **[!UICONTROL From a file]** para recuperar la plantilla de contenido.
+1. Abra la primera actividad **[!UICONTROL Page]** de la aplicación web.
+1. Seleccione **[!UICONTROL From a file]** para buscar la plantilla de contenido.
 
    ![](assets/dce_uc1_selectmodel.png)
 
@@ -78,15 +78,15 @@ Para cargar la plantilla en la primera página, realice los pasos siguientes:
 
    Durante la carga se muestra la lista de archivos compartidos. El sistema de importación comprueba que todos los archivos relacionados con el HTML seleccionado estén presentes (CSS, imágenes, etc.).
 
-   Click the **[!UICONTROL Close]** button once the import has finished.
+   Haga clic en el botón **[!UICONTROL Close]** cuando haya finalizado la importación.
 
    ![](assets/dce_uc1_import.png)
 
    >[!CAUTION]
    >
-   >Debe esperar hasta que reciba el siguiente mensaje antes de cerrar: **[!UICONTROL The external resources have been successfully published]** .
+   >Debe esperar hasta que reciba el siguiente mensaje antes de cerrar: **[!UICONTROL The external resources have been successfully published]**.
 
-1.  Haga clic en la **[!UICONTROL Properties]** ficha.
+1. Haga clic en la pestaña **[!UICONTROL Properties]**.
 1. Escriba una **etiqueta** para cada página (por ejemplo: Página 1= Recopilar, Página 2=Gracias).
 
    ![](assets/dce_uc1_pagelabel.png)
@@ -107,7 +107,7 @@ En esta sección, se muestra cómo ajustar el contenido importado y relacionar l
 
 Comencemos por cambiar los colores de la página. Para ello:
 
-1. Abra la **[!UICONTROL Collection]** página.
+1. Abra la página **[!UICONTROL Collection]**.
 1. Haga clic en el fondo.
 1. Haga clic en **Color de fondo**, en el lado derecho.
 1. Seleccione un nuevo color de fondo.
@@ -124,24 +124,24 @@ Comencemos por cambiar los colores de la página. Para ello:
 Enlacemos los campos de la página a los de la base de datos para poder guardar la información proporcionada.
 
 1. Seleccione un campo del formulario.
-1. Edit the **[!UICONTROL Field]** section on right-hand side of the editor.
+1. Edite la sección **[!UICONTROL Field]** en el lado derecho del editor.
 1. Seleccione el campo de base de datos que desea vincular con el campo seleccionado.
 
    ![](assets/dce_uc1_mapping.png)
 
 1. Repita este proceso para cada campo de la página.
 
-You can make a field mandatory: for example, click the **[!UICONTROL Email]** field then enable the **Mandatory** option.
+Puede hacer que un campo sea obligatorio: por ejemplo, haga clic en el campo **[!UICONTROL Email]** y active la opción **Mandatory**.
 
 ![](assets/dce_uc1_fieldmandatory.png)
 
-### Creación de un enlace a la página siguiente {#creating-a-link-to-the-next-page}
+### Creación de un vínculo a la página siguiente {#creating-a-link-to-the-next-page}
 
-Este paso es obligatorio porque permitirá a la aplicación Web determinar la secuencia de los siguientes pasos: Guardar los datos recopilados en la base de datos y mostrar la página siguiente (página de **agradecimiento** ).
+Este paso es obligatorio porque permite a la aplicación web determinar la secuencia de los siguientes pasos: Guardar los datos recopilados en la base de datos y mostrar la página siguiente (página de **agradecimiento**).
 
-1. Seleccione el **[!UICONTROL Send it!]** botón de la **[!UICONTROL Collection]** página.
-1. Haga clic en el menú **[!UICONTROL Action]** desplegable.
-1. Seleccione la **[!UICONTROL Next page]** acción.
+1. Seleccione el botón **[!UICONTROL Send it!]** de la página **[!UICONTROL Collection]**.
+1. Haga clic en el menú desplegable **[!UICONTROL Action]**.
+1. Seleccione la acción **[!UICONTROL Next page]**.
 
    ![](assets/dce_uc1_actionbouton.png)
 
@@ -149,9 +149,9 @@ Este paso es obligatorio porque permitirá a la aplicación Web determinar la se
 
 Este paso le permite personalizar la página de agradecimiento. Para ello:
 
-1. Abra la **[!UICONTROL Thank you]** página.
+1. Abra la página de **[!UICONTROL agradecimiento]**.
 1. Coloque el cursor en un área de texto donde desee insertar el nombre del destinatario.
-1. Seleccione **[!UICONTROL Personalization field]** en el **[!UICONTROL Insert]** menú de la barra de herramientas.
+1. En el menú **[!UICONTROL Insert]** de la barra de herramientas, seleccione **[!UICONTROL Personalization field]**.
 1. Seleccione el nombre.
 
    ![](assets/dce_uc1_persochamp.png)
@@ -162,7 +162,7 @@ El campo de personalización aparece con fondo amarillo en el editor.
 
 ## Paso 3: Publicación de contenidos {#step-3---publishing-content}
 
-El contenido se publica desde el panel de aplicaciones web. Click the **[!UICONTROL Publish]** button to run it.
+El contenido se publica desde el panel de aplicaciones web. Haga clic en el botón **[!UICONTROL Publish]** para ejecutarlo.
 
 ![](assets/dce_uc1_pub_dashboard.png)
 
