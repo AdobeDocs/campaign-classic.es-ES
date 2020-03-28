@@ -14,7 +14,7 @@ discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 
 ---
@@ -22,12 +22,12 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 
 # Informes acumulados {#cumulative-reports}
 
-Se pueden mostrar informes acumulados sobre los envíos. Para ello, seleccione los envíos que desea comparar para obtener la lista de informes para estos envíos.
+Se pueden mostrar informes acumulados sobre las entregas. Para ello, seleccione las entregas que desea comparar para obtener la lista de informes para estas entregas.
 
 ![](assets/s_ncs_user_report_compare_tab.png)
 
-Para seleccionar envíos no adyacentes de la lista, mantenga pulsada la tecla CTRL mientras realiza la selección.
+Para seleccionar entregas no adyacentes de la lista, mantenga pulsada la tecla CTRL mientras realiza la selección.
 
-To select deliveries saved in a different folder click **[!UICONTROL Display sub-levels]** (accessible via the toolbar). A continuación, se muestran en la misma lista.
+Para seleccionar entregas guardadas en una carpeta diferente, haga clic en **[!UICONTROL Display sub-levels]** (accesible a través de la barra de herramientas). A continuación, se muestran en la misma lista.
 
 ![](assets/s_ncs_user_display_children_icon.png)
