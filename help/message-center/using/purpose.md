@@ -14,7 +14,7 @@ discoiquuid: 7b8ab9d6-e47e-46d8-99df-da793486654c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 # Objetivo{#purpose}
 
-El propósito de este caso de uso es añadir archivos adjuntos de los correos electrónicos sobre la marcha a los envíos salientes.
+El propósito de este caso de uso es añadir archivos adjuntos de los correos electrónicos sobre la marcha a las entregas salientes.
 
 En este escenario, veremos cómo enviar correos electrónicos de transacciones con archivos adjuntos individuales o personalizados. Los archivos adjuntos no se precargan en el servidor de mensajería transaccional sino que se generan sobre la marcha.
 
