@@ -14,7 +14,7 @@ discoiquuid: 22c92ddf-fbea-49d3-afd4-1ba427be399d
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 ---
@@ -117,12 +117,12 @@ También puede hacer clic con el botón derecho en el nodo en el que desee añad
 
 Una **[!UICONTROL Page]** puede incluir los siguientes elementos:
 
-* De barras, circular, curva **[!UICONTROL charts]**, etc.
+* Tipos de **[!UICONTROL charts]** de barras, circulares, de curvas, etc.
 * Tabla dinámica; Lista con grupo o **[!UICONTROL tables]** con desglose.
-* **[!UICONTROL Input controls]** de tipo texto o tipo de número.
+* **[!UICONTROL Input controls]** de tipo texto o número.
 * **[!UICONTROL Selection controls]** de tipo lista desplegable, casilla de verificación, botón de opción, opción múltiple, fecha o matriz.
 * **[!UICONTROL Advanced controls]** de tipo editor de vínculos, constante o selección de capeta.
-* Valor, Vínculo, HTML, Imagen, etc. **[!UICONTROL Static elements]**.
+* Valor, Vínculo, HTML, Imagen, etc. **[!UICONTROL Elementos estáticos]**.
 * **[!UICONTROL Containers]** que permiten controlar el diseño del componente.
 
 En [esta sección](../../web/using/about-web-forms.md) se detalla el modo de configuración de una página y sus componentes.
