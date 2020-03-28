@@ -14,7 +14,7 @@ discoiquuid: 97df4bd5-a8e3-48f4-87c8-fa090ea3f771
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 833907c7a7b84b94a00b131738c73ff54a744a40
 
 ---
@@ -26,7 +26,7 @@ La mensajería transaccional (Centro de Mensajes) es un módulo de Campaign dise
 
 >[!CAUTION]
 >
->La mensajería transaccional requiere una licencia específica. Verifique su contrato de licencia.
+>La mensajería transaccional requiere una licencia específica. Compruebe el acuerdo de licencia.
 
 El módulo del Centro de Mensajes de Adobe Campaign está integrado en un sistema de información que devuelve eventos que se deben modificar en mensajes transaccionales personalizados. Estos mensajes se pueden enviar por separado o en serie por correo electrónico, SMS o notificaciones push.
 
