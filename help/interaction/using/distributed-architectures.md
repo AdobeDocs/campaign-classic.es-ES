@@ -14,7 +14,7 @@ discoiquuid: 811a42a4-552c-49cb-bffd-7e124ef83735
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 ---
@@ -45,7 +45,7 @@ La sincronización de ofertas se lleva a cabo mediante paquetes. En instancias d
 
 Las ofertas se implementan automáticamente y se publican en instancias de ejecución y control.
 
-Las ofertas eliminadas en el entorno de diseño se desactivan en todas las instancias en línea. Las propuestas y ofertas obsoletas se eliminan automáticamente en todas las instancias después del período de depuración (especificado en el asistente de implementación de cada instancia) y de deslizamiento (especificado en las reglas de tipología de propuestas entrantes).
+Las ofertas eliminadas en el entorno de diseño se desactivan en todas las instancias en línea. Las propuestas y ofertas obsoletas se eliminan automáticamente en todas las instancias después del periodo de depuración (especificado en el asistente de implementación de cada instancia) y de deslizamiento (especificado en las reglas de tipología de propuestas entrantes).
 
 ![](assets/interaction_powerbooster_schema2.png)
 
@@ -55,7 +55,7 @@ Se crea un flujo de trabajo para cada entorno y cuenta externa para la sincroniz
 
 * Si se utiliza la función de reserva de un entorno anónimo a un entorno identificado, estos dos entornos deben estar en la misma instancia de ejecución.
 * La sincronización entre varias instancias de ejecución no se realiza en tiempo real. Las interacciones del mismo contacto deben enviarse a la misma instancia. La instancia de control debe estar dedicada al canal saliente (sin tiempo real).
-* La base de datos de mercadotecnia no se sincroniza automáticamente. Los datos de mercadotecnia utilizados en las ponderaciones y reglas de elegibilidad deben duplicarse en las instancias de ejecución. Este proceso no se considera estándar, se debe desarrollarlo durante el período de integración.
+* La base de datos de mercadotecnia no se sincroniza automáticamente. Los datos de mercadotecnia utilizados en las ponderaciones y reglas de elegibilidad deben duplicarse en las instancias de ejecución. Este proceso no se considera estándar, se debe desarrollarlo durante el periodo de integración.
 * La sincronización de propuestas se realiza exclusivamente mediante la conexión FDA.
 * Si se utiliza interacción y centro de mensajes en la misma instancia, la sincronización se va a producir mediante el protocolo FDA en ambos casos.
 
@@ -67,9 +67,9 @@ El paquete de interacción debe estar instalado en todas las instancias (control
 
 >[!NOTE]
 >
->Al instalar el paquete, los campos de tipo **long** de la tabla **nms:proposition** , como el ID de la propuesta, se convierten en campos de tipo **int64.** Esta tipo de datos se detalla en [esta sección](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data).
+>Al instalar el paquete, los campos de tipo **long** de la tabla **nms:proposition**, como el ID de la propuesta, se convierten en campos de tipo **int64.** Esta tipo de datos se detalla en [esta sección](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data).
 
-The data retention duration must be configured on each instance (via the **[!UICONTROL Data purge]** window in the deployment wizard). En instancias de ejecución, este periodo debe corresponder a la profundidad histórica necesaria para las reglas de tipología (punto de deslizamiento) y para las reglas de idoneidad que se van a calcular.
+La duración de la retención de datos debe configurarse en cada instancia (a través de la ventana **[!UICONTROL Data purge]** en el asistente de implementación). En instancias de ejecución, este periodo debe corresponder a la profundidad histórica necesaria para las reglas de tipología (punto de deslizamiento) y para las reglas de idoneidad que se van a calcular.
 
 En las instancias de control:
 
@@ -78,11 +78,11 @@ En las instancias de control:
    ![](assets/interaction_powerbooster1.png)
 
    * Complete la etiqueta y añada un nombre interno corto y explícito.
-   * Seleccione el **[!UICONTROL Execution instance]**.
-   * Marque la **[!UICONTROL Enabled]** opción.
+   * Seleccione **[!UICONTROL Execution instance]**.
+   * Marque la opción **[!UICONTROL Enabled]**.
    * Complete los parámetros de conexión para la instancia de ejecución.
-   * Cada instancia de ejecución debe estar vinculada a una ID. This ID is assigned when you click on the **[!UICONTROL Initialize connection]** button.
-   * Compruebe el tipo de aplicación utilizada: **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]** o ambos.
+   * Cada instancia de ejecución debe estar vinculada a una ID. Esta ID se asigna al hacer clic en el botón **[!UICONTROL Initialize connection]**.
+   * Compruebe el tipo de aplicación utilizada: **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]** o ambas.
    * Introduzca la cuenta de FDA utilizada. Se debe crear un operador en las instancias de ejecución y debe tener los siguientes derechos de lectura y escritura en la base de datos de la instancia en cuestión:
 
       ```
@@ -104,7 +104,7 @@ En las instancias de control:
       >
       >Si aparece un error, se puede consultar los flujos de trabajo de sincronización y ofrecer notificaciones. Se pueden encontrar en los flujos de trabajo técnicos de la aplicación.
 
-Si, por razones de optimización, solo parte de la base de datos de mercadotecnia se duplica en las instancias de ejecución, se puede especificar un esquema restringido vinculado al entorno para permitir que los usuarios solo utilicen los datos disponibles en las instancias de ejecución. Se puede crear una oferta mediante datos que no estén disponibles en instancias de ejecución. To do this, you must deactivate the rule on the other channels by limiting this rule on the outbound channel (**[!UICONTROL Taken into account if]** field).
+Si, por razones de optimización, solo parte de la base de datos de mercadotecnia se duplica en las instancias de ejecución, se puede especificar un esquema restringido vinculado al entorno para permitir que los usuarios solo utilicen los datos disponibles en las instancias de ejecución. Se puede crear una oferta mediante datos que no estén disponibles en instancias de ejecución. Para ello, se debe desactivar la regla en los demás canales limitando esta regla en el canal saliente (campo **[!UICONTROL Taken into account if]**).
 
 ![](assets/ita_filtering.png)
 
@@ -116,8 +116,8 @@ A continuación, se muestra una lista de opciones de mantenimiento disponibles e
 >
 >Estas opciones solo deben utilizarse para casos de mantenimiento específicos.
 
-* **`NmsInteraction_LastOfferEnvSynch_<offerEnvId>_<executionInstanceId>`**:: fecha de la última sincronización de un entorno en una instancia determinada.
-* **`NmsInteraction_LastPropositionSynch_<propositionSchema>_<executionInstanceIdSource>_<executionInstanceIdTarget>`**:: la última fecha en que las propuestas de un esquema determinado se sincronizaron de una instancia a otra.
+* **`NmsInteraction_LastOfferEnvSynch_<offerEnvId>_<executionInstanceId>`**: la última fecha en la que se sincronizó un entorno en una instancia determinada.
+* **`NmsInteraction_LastPropositionSynch_<propositionSchema>_<executionInstanceIdSource>_<executionInstanceIdTarget>`**: la última fecha en que se sincronizaron propuestas de un esquema determinado desde una instancia a otra.
 * **`NmsInteraction_MapWorkflowId`**: una opción que contiene la lista de todos los flujos de trabajo de sincronización generados.
 
 La siguiente opción está disponible en instancias de ejecución:
@@ -133,7 +133,7 @@ Si la instancia no ha tenido el paquete de interacción anteriormente, no es nec
 >En función del volumen de las propuestas existentes en la instancia, esta operación puede tardar unos minutos.
 
 * Si la instancia tiene pocas propuestas o ninguna, no es necesario realizar ninguna modificación manual de la tabla de propuestas. La modificación se realiza cuando se instalan los paquetes.
-* Si la instancia tiene muchas propuestas, es mejor cambiar la estructura de la tabla de propuestas antes de instalar los paquetes de control y ejecutarlos. Se recomienda ejecutar las consultas durante un período de baja actividad.
+* Si la instancia tiene muchas propuestas, es mejor cambiar la estructura de la tabla de propuestas antes de instalar los paquetes de control y ejecutarlos. Se recomienda ejecutar las consultas durante un periodo de baja actividad.
 
 >[!NOTE]
 >
