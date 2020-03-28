@@ -14,7 +14,7 @@ discoiquuid: 4113c3fe-a279-4fe1-be89-ea43c96edc34
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -22,69 +22,69 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 # Prueba A/B{#a-b-testing}
 
-Si se tiene varios contenidos para un envío de correo electrónico y se desea conocer qué versión tiene el mayor impacto en la población objetivo, se puede enviar las distintas versiones a algunos de los destinatarios y, a continuación, seleccionar la que tenga la tasa de éxito más alta y enviarla al resto de destinatarios.
+Si se tiene varios contenidos para una entrega de correo electrónico y se desea conocer qué versión tiene el mayor impacto en la población objetivo, se puede enviar las distintas versiones a algunos de los destinatarios y, a continuación, seleccionar la que tenga la tasa de éxito más alta y enviarla al resto de destinatarios.
 
-En este caso de uso, se desea comparar dos contenidos de envío por correo electrónico a través de un flujo de trabajo de objetivo. El mensaje y el texto son idénticos en ambos envíos: solo cambia el diseño.
+En este caso de uso, se desea comparar dos contenidos de entrega por correo electrónico a través de un flujo de trabajo de objetivo. El mensaje y el texto son idénticos en ambos envíos: solo cambia el diseño.
 
-La población objetivo se divide en tres: dos grupos de prueba y la población restante. Se envía una versión diferente a cada grupo de prueba. Después de la entrega, se configura un período de espera de 5 días antes de recolectar los resultados de las mejores tasas de apertura. El contenido del envío con la puntuación más alta se recupera mediante una secuencia de comandos y se envía a la población no utilizada como grupo de prueba.
+La población objetivo se divide en tres: dos grupos de prueba y la población restante. Se envía una versión diferente a cada grupo de prueba. Después de la entrega, se configura un periodo de espera de 5 días antes de recolectar los resultados de las mejores tasas de apertura. El contenido de la entrega con la puntuación más alta se recupera mediante una secuencia de comandos y se envía a la población no utilizada como grupo de prueba.
 
-Tenga en cuenta que los criterios que determinan cuál envío es el mejor se pueden alterar para satisfacer las necesidades. Puede ser la tasa de apertura, la tasa de pulsaciones, la tasa de suscripción, la reactividad, etc.
+Tenga en cuenta que los criterios que determinan cuál entrega es el mejor se pueden alterar para satisfacer las necesidades. Puede ser la tasa de apertura, la tasa de pulsaciones, la tasa de suscripción, la reactividad, etc.
 
 Además, la prueba detallada en este caso de uso implica solo dos entregas, pero se pueden probar tantas versiones como sea necesario. Simplemente, agregue actividades al flujo de trabajo.
 
 Para crear la prueba A/B, siga los siguientes pasos:
 
-* [Paso 1: Creación de un flujo de trabajo de objetivo](#step-1--creating-a-targeting-workflow)
+* [Paso 1: Creación de un flujo de trabajo de objetivos](#step-1--creating-a-targeting-workflow)
 * [Paso 2: Configuración de muestras de población](#step-2--configuring-population-samples)
 * [Paso 3: Creación de dos plantillas de entrega](#step-3--creating-two-delivery-templates)
 * [Paso 4: Configuración de los envíos en el flujo de trabajo](#step-4--configuring-the-deliveries-in-the-workflow)
-* [Paso 5: Creación de la secuencia de comandos](#step-5--creating-the-script)
+* [Paso 5: Creación del presupuesto](#step-5--creating-the-script)
 * [Paso 7: Inicio del flujo de trabajo](#step-7--starting-the-workflow)
 * [Paso 8: Analizando el resultado](#step-8--analyzing-the-result).
 
-## Step 1: Creating a targeting workflow {#step-1--creating-a-targeting-workflow}
+## Paso 1: Creación de un flujo de trabajo de objetivos {#step-1--creating-a-targeting-workflow}
 
-You need to create your workflow in the **[!UICONTROL Targeting and Workflows]** tab of a campaign. Se compone de una **[!UICONTROL Query]** actividad, una **[!UICONTROL Split]** actividad vinculada a dos **[!UICONTROL Email delivery]** actividades, una **[!UICONTROL Wait]** actividad, una **[!UICONTROL JavaScript code]** actividad y una **[!UICONTROL Delivery]** actividad.
+Se debe crear el flujo de trabajo en la pestaña **[!UICONTROL Targeting and Workflows]** de una campaña. Se compone de una actividad **[!UICONTROL Query]**, una actividad **[!UICONTROL Split]** vinculada a dos actividades **[!UICONTROL Email delivery]**, una actividad **[!UICONTROL Wait]**, una actividad **[!UICONTROL JavaScript code]** y una actividad **[!UICONTROL Delivery]**.
 
 1. Si aún no lo ha hecho, cree una campaña (para obtener más información, consulte esta [sección](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)).
 
    ![](assets/use_case_abtesting_targetwkfl_001.png)
 
-1. Vaya a la **[!UICONTROL Targeting and Workflows]** ficha.
+1. Vaya a la pestaña **[!UICONTROL Targeting and Workflows]**.
 
    ![](assets/use_case_abtesting_targetwkfl_002.png)
 
-1. Change the label of the existing workflow or click **[!UICONTROL Add]** to create a new one (for more on this, refer to this [section](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population)).
+1. Cambie la etiqueta del flujo de trabajo existente o haga clic en **[!UICONTROL Add]** para crear una nueva (para obtener más información, consulte esta [sección](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population)).
 
    ![](assets/use_case_abtesting_targetwkfl_003.png)
 
-1. Utilice el ratón para arrastrar y soltar actividades en el diagrama de flujo de trabajo, incluyendo una **[!UICONTROL Query]** (**[!UICONTROL Target]** ficha), una **[!UICONTROL Split]** (**[!UICONTROL Target]** ficha), dos **[!UICONTROL Email deliveries]** (**[!UICONTROL Deliveries]** ficha), una **[!UICONTROL Wait]** actividad (**[!UICONTROL Flow Control]** ficha), una **[!UICONTROL JavaScript code]** actividad (actividad) y una **[!UICONTROL Actions]** **[!UICONTROL Delivery]****[!UICONTROL Actions]** ficha de actividad (ficha).
+1. Utilice el ratón para arrastrar y colocar actividades en el diagrama de flujo de trabajo, incluido una actividad **[!UICONTROL Query]** (pestaña **[!UICONTROL Target]**), una actividad **[!UICONTROL Split]** (pestaña **[!UICONTROL Target]**), dos actividades **[!UICONTROL Email deliveries]** (pestaña **[!UICONTROL Deliveries]**), una actividad **[!UICONTROL Wait]** (pestaña **[!UICONTROL Flow Control]**), una actividad **[!UICONTROL JavaScript code]** (pestaña **[!UICONTROL Actions]**) y una actividad **[!UICONTROL Delivery]** (pestaña **[!UICONTROL Actions]**).
 
 ![](assets/use_case_abtesting_targetwkfl_004.png)
 
 ## Paso 2: Configuración de muestras de población {#step-2--configuring-population-samples}
 
-### Configuración de la actividad Consulta {#configuring-the-query-activity}
+### Configuración de la actividad de consulta {#configuring-the-query-activity}
 
-* Haga doble clic en la **[!UICONTROL Query]** actividad.
+* Haga doble clic en la actividad **[!UICONTROL Query]**.
 
    ![](assets/use_case_abtesting_createrecipients_001.png)
 
-* Click the **[!UICONTROL Edit query]** link and select the recipients you want to target.
+* Haga clic en el vínculo **[!UICONTROL Edit query]** y seleccione los destinatarios a quienes desee dirigirse.
 
    ![](assets/use_case_abtesting_createrecipients_002.png)
 
-* Vincule la **[!UICONTROL Query]** actividad a la **[!UICONTROL Split]** actividad.
+* Vincule la actividad **[!UICONTROL Query]** a la actividad **[!UICONTROL Split]**.
 
    ![](assets/use_case_abtesting_createrecipients_003.png)
 
 ### Configuración de la actividad Split {#configuring-the-split-activity}
 
-Esta actividad permite crear varias poblaciones: la que recibe el envío A, la que recibe el envío B y la población restante. El uso de la selección aleatoria permite seleccionar solo parte de la población de cada envío.
+Esta actividad permite crear varias poblaciones: la que recibe la entrega A, la que recibe la entrega B y la población restante. El uso de la selección aleatoria permite seleccionar solo parte de la población de cada entrega.
 
 1. Creación de la población A:
 
-   * Haga doble clic en la **[!UICONTROL Split]** actividad.
+   * Haga doble clic en la actividad **[!UICONTROL Split]**.
 
       ![](assets/use_case_abtesting_createrecipients_004.png)
 
@@ -92,21 +92,21 @@ Esta actividad permite crear varias poblaciones: la que recibe el envío A, la q
 
       ![](assets/use_case_abtesting_createrecipients_005.png)
 
-   * Seleccione la **[!UICONTROL Limit the selected records]** opción.
+   * Seleccione la opción **[!UICONTROL Limit the selected records]**.
 
       ![](assets/use_case_abtesting_createrecipients_006.png)
 
-   * Haga clic en el **[!UICONTROL Edit]** vínculo, selecciónelo **[!UICONTROL Activate random sampling]** y haga clic en **[!UICONTROL Next]**.
+   * Haga clic en el vínculo **[!UICONTROL Edit]**, seleccione **[!UICONTROL Activate random sampling]** y haga clic en **[!UICONTROL Next]**.
 
       ![](assets/use_case_abtesting_createrecipients_007.png)
 
-   * Set the threshold to 10%, then click **[!UICONTROL Finish]**.
+   * Defina el umbral en 10 % y haga clic en **[!UICONTROL Finish]**.
 
       ![](assets/use_case_abtesting_createrecipients_008.png)
 
 1. Creación de la población B:
 
-   * Click **[!UICONTROL Add]** to create a new tab for population B.
+   * Haga clic en **[!UICONTROL Add]** para crear una nueva pestaña para la población B.
 
       ![](assets/use_case_abtesting_createrecipients_009.png)
 
@@ -116,79 +116,79 @@ Esta actividad permite crear varias poblaciones: la que recibe el envío A, la q
 
 1. Creación de la población restante:
 
-   * Vaya a la **[!UICONTROL General]** ficha.
+   * Vaya a la pestaña **[!UICONTROL General]**.
 
       ![](assets/use_case_abtesting_createrecipients_011.png)
 
-   * Select **[!UICONTROL Generate complement]**.
+   * Seleccione **[!UICONTROL Generate complement]**.
 
       ![](assets/use_case_abtesting_createrecipients_012.png)
 
-   * Change the label to specify that this population includes neither A nor B, and click **[!UICONTROL OK]** to close the activity.
+   * Cambie la etiqueta para especificar que esta población no incluye A ni B y haga clic en **[!UICONTROL OK]** para cerrar la actividad.
 
       ![](assets/use_case_abtesting_createrecipients_013.png)
 
-## Step 3: Creating two delivery templates {#step-3--creating-two-delivery-templates}
+## Paso 3: Creación de dos plantillas de entrega {#step-3--creating-two-delivery-templates}
 
-Ahora, se desea crear dos plantillas de envío. Each template will be referenced in an **[!UICONTROL Email delivery]** activity linked to the **[!UICONTROL Split]** activity. Para obtener más información, consulte [esta sección](../../delivery/using/about-templates.md).
+Ahora, se desea crear dos plantillas de entrega. Se hará referencia a cada plantilla en una actividad **[!UICONTROL Email delivery]** vinculada a la actividad **[!UICONTROL Split]**. Para obtener más información, consulte [esta sección](../../delivery/using/about-templates.md).
 
-1. Vaya a la **[!UICONTROL Resources > Delivery template]** carpeta.
-1. Duplique la plantilla de envío **[!UICONTROL Email]** .
+1. Vaya a la carpeta **[!UICONTROL Resources > Delivery template]**.
+1. Duplique la plantilla de entrega **[!UICONTROL Email]**.
 
    ![](assets/use_case_abtesting_deliverymodel_001.png)
 
-1. Cree el contenido que desea utilizar para el envío A.
+1. Cree el contenido que desea utilizar para la entrega A.
 
    ![](assets/use_case_abtesting_deliverymodel_002.png)
 
-1. Repita este proceso para crear una plantilla para el envío B.
+1. Repita este proceso para crear una plantilla para la entrega B.
 
    ![](assets/use_case_abtesting_deliverymodel_003.png)
 
-## Step 4: Configuring the deliveries in the workflow {#step-4--configuring-the-deliveries-in-the-workflow}
+## Paso 4: Configuración de los envíos en el flujo de trabajo {#step-4--configuring-the-deliveries-in-the-workflow}
 
-El siguiente paso es configurar los envíos. Están destinados a las tres poblaciones creadas durante la etapa anterior: [Paso 2: Configuración de muestras](#step-2--configuring-population-samples)de población. Los dos primeros envíos permiten enviar contenido distinto a las poblaciones A y B. El tercer envío está destinado a la población que no ha recibido A ni B. Su contenido se calcula mediante una secuencia de comandos y es idéntico a A o B, dependiendo de cuál obtuvo la tasa de apertura más alta. We need to configure a wait period for the third delivery, to find out the outcome of deliveries A and B. This is why the third delivery includes a **[!UICONTROL Wait]** activity.
+El siguiente paso es configurar los envíos. Están destinados a las tres poblaciones creadas durante la etapa anterior: [Paso 2: Configuración de muestras de población](#step-2--configuring-population-samples). Los dos primeros envíos permiten enviar contenido distinto a las poblaciones A y B. La tercera entrega está destinada a la población que no ha recibido A ni B. Su contenido se calcula mediante una secuencia de comandos y es idéntico a A o B, dependiendo de cuál obtuvo la tasa de apertura más alta. Es necesario configurar un periodo de espera para la tercera entrega, para averiguar el resultado de los envíos A y B. Esta es la razón por la que la tercera entrega incluye una actividad **[!UICONTROL Wait]**.
 
-1. Go to the **[!UICONTROL Split]** activity and link the transition destined for population A to one of the email deliveries already in the workflow.
+1. Vaya a la actividad **[!UICONTROL Split]** y vincule la transición destinada a la población A a uno de los envíos de correo electrónico que ya se encuentran en el flujo de trabajo.
 
    ![](assets/use_case_abtesting_createdeliveries_001.png)
 
-1. Haga doble clic en el envío para abrirlo.
-1. En la lista desplegable, seleccione la plantilla para el envío A.
+1. Haga doble clic en la entrega para abrirlo.
+1. En la lista desplegable, seleccione la plantilla para la entrega A.
 
    ![](assets/use_case_abtesting_createdeliveries_003.png)
 
-1. Click **[!UICONTROL Continue]** to view the delivery, then save it.
+1. Haga clic en **[!UICONTROL Continue]** para ver la entrega y, a continuación, guárdelo.
 
    ![](assets/use_case_abtesting_createdeliveries_002.png)
 
-1. Link the transition of the **[!UICONTROL Split]** activity destined for population B to the second email delivery.
+1. Vincule la transición de la actividad **[!UICONTROL Split]** de la población B al segundo entrega de correo electrónico.
 
    ![](assets/use_case_abtesting_createdeliveries_004.png)
 
-1. Abra el envío, seleccione la plantilla en el envío B y, a continuación, guarde el envío.
+1. Abra la entrega, seleccione la plantilla en la entrega B y, a continuación, guarde la entrega.
 
    ![](assets/use_case_abtesting_createdeliveries_005.png)
 
-1. Link the transition destined for the remaining population to the **[!UICONTROL Wait]** activity.
+1. Vincule la transición destinada a la población restante a la actividad **[!UICONTROL Wait]**.
 
    ![](assets/use_case_abtesting_createdeliveries_006.png)
 
-1. Open the **[!UICONTROL Wait]** activity and configure a 5-day waiting period.
+1. Abra la actividad **[!UICONTROL Wait]** y configure un periodo de espera de 5 días.
 
    ![](assets/use_case_abtesting_createdeliveries_007.png)
 
-1. Vincule la **[!UICONTROL Wait]** actividad a la **[!UICONTROL JavaScript code]** actividad.
+1. Vincule la actividad de **[!UICONTROL Wait]** a la actividad **[!UICONTROL JavaScript code]**.
 
    ![](assets/use_case_abtesting_createdeliveries_008.png)
 
-## Paso 5: Creación de la secuencia de comandos {#step-5--creating-the-script}
+## Paso 5: Creación del presupuesto {#step-5--creating-the-script}
 
-La elección del contenido de envío destinado a la población restante se calcula mediante una secuencia de comandos. Esta secuencia de comandos recupera la información relativa al envío con la mayor tasa de apertura y copia el contenido en el envío final.
+La elección del contenido de entrega destinado a la población restante se calcula mediante una secuencia de comandos. Esta secuencia de comandos recupera la información relativa a la entrega con la mayor tasa de apertura y copia el contenido en la entrega final.
 
 ### Ejemplo de secuencia de comandos {#example-of-a-script}
 
-La siguiente secuencia de comandos se puede utilizar como se encuentra en el flujo de trabajo de objetivos. For more on this, refer to [Implementation](#implementation).
+La siguiente secuencia de comandos se puede utilizar como se encuentra en el flujo de trabajo de objetivos. Para obtener más información, consulte [Implementación](#implementation).
 
 ```
  // query the database to find the winner (best open rate)
@@ -238,12 +238,12 @@ Para obtener una explicación detallada del script, consulte [Detalles del scrip
 
 ### Implementación {#implementation}
 
-1. Abra la **[!UICONTROL JavaScript code]** actividad.
-1. Copie la secuencia de comandos ofrecida en [Ejemplo de una secuencia de comandos](#example-of-a-script) en la **[!UICONTROL JavaScript code]** ventana.
+1. Abra la actividad **[!UICONTROL JavaScript code]**.
+1. Copie la secuencia de comandos ofrecida en [Ejemplo de secuencia de comandos](#example-of-a-script) en la ventana **[!UICONTROL JavaScript code]**.
 
    ![](assets/use_case_abtesting_configscript_002.png)
 
-1. In the **[!UICONTROL Label]** field, enter the name of the script, i.e.
+1. En el campo **[!UICONTROL Label]**, introduzca el nombre de la secuencia de comandos, por ejemplo.
 
    ```
    <%= vars.deliveryId %>
@@ -251,14 +251,14 @@ Para obtener una explicación detallada del script, consulte [Detalles del scrip
 
    ![](assets/use_case_abtesting_configscript_003.png)
 
-1. Cierre la **[!UICONTROL JavaScript code]** actividad.
+1. Cierre la actividad **[!UICONTROL JavaScript code]**.
 1. Guarde el flujo de trabajo.
 
 ### Detalles de la secuencia de comandos {#details-of-the-script}
 
 En esta sección se detallan las distintas partes de la secuencia de comandos y su modo operativo.
 
-* La primera parte de la secuencia de comandos es una consulta. The **queryDef** command lets you recover from the **NmsDelivery** table the deliveries created by executing the targeting workflow and to sort them based on their estimated rate of opens, then the information from the delivery with the highest rate of opens is recovered.
+* La primera parte de la secuencia de comandos es una consulta. El comando **queryDef** permite recuperar desde la tabla **NmsDelivery** los envíos creados ejecutando el flujo de trabajo objetivo y ordenarlos en función de su tasa estimada de apertura. A continuación, se recupera la información de la entrega con la mayor tasa de apertura.
 
    ```
    // query the database to find the winner (best open rate)
@@ -278,7 +278,7 @@ En esta sección se detallan las distintas partes de la secuencia de comandos y 
         </queryDef>).ExecuteQuery()
    ```
 
-* Se duplica el envío con la mayor tasa de apertura.
+* Se duplica la entrega con la mayor tasa de apertura.
 
    ```
     // create a new delivery object and initialize it by doing a copy of
@@ -287,14 +287,14 @@ En esta sección se detallan las distintas partes de la secuencia de comandos y 
    delivery.Duplicate("nms:delivery|" + winner.@id)
    ```
 
-* La etiqueta del envío duplicado se modifica y la palabra **final** se añade a ella.
+* La etiqueta de la entrega duplicado se modifica y la palabra **final** se añade a ella.
 
    ```
    // append 'final' to the delivery label
    delivery.label = winner.@label + " final"
    ```
 
-* El envío se copia en el tablero de campañas.
+* La entrega se copia en el tablero de campañas.
 
    ```
    // link the delivery to the operation to make sure it will be displayed in
@@ -311,14 +311,14 @@ En esta sección se detallan las distintas partes de la secuencia de comandos y 
    delivery.scheduling.delayed = 0
    ```
 
-* El envío se guarda en la base de datos.
+* La entrega se guarda en la base de datos.
 
    ```
    // save the delivery in database
    delivery.save()
    ```
 
-* El identificador único del envío duplicado se almacena en la variable del flujo de trabajo.
+* El identificador único de la entrega duplicado se almacena en la variable del flujo de trabajo.
 
    ```
    // store the new delivery Id in event variables
@@ -327,62 +327,62 @@ En esta sección se detallan las distintas partes de la secuencia de comandos y 
 
 ### Otros criterios de selección {#other-selection-criteria}
 
-El ejemplo de arriba permite seleccionar el contenido de un envío según la tasa de apertura de los correos electrónicos. Se puede adaptar para que poder basarse en otros indicadores específicos de envío:
+El ejemplo de arriba permite seleccionar el contenido de una entrega según la tasa de apertura de los correos electrónicos. Se puede adaptar para que poder basarse en otros indicadores específicos de entrega:
 
 * Mejor rendimiento de los clics: `[indicators/@recipientClickRatio]`,
 * Tasa máxima de reacción (correo electrónico abierto y clics en el mensaje): `[indicators/@reactivity]`,
-* Tasa de quejas más baja: `[indicators/@refusedRatio]` (utilice el valor false para el atributo sortDesc),
+* Tasa de quejas más baja: `[indicators/@refusedRatio]` (utilice el valor falso para el atributo sortDesc),
 * Tasa máxima de conversión: `[indicators/@transactionRatio]`,
 * Número de páginas visitadas después de la recepción de un mensaje: `[indicators/@totalWebPage]`,
 * Tasa mínima de cancelación de suscripciones: `[indicators/@optOutRatio]`,
 * Cantidad de transacciones: `[indicators/@amount]`.
 
-## Step 6: Defining the final delivery {#step-6--defining-the-final-delivery}
+## Paso 6: Definición de la entrega final {#step-6--defining-the-final-delivery}
 
-Una vez que la secuencia de comandos se ha creado para seleccionar el ganador de la prueba A/B, se puede definir los parámetros del envío final.
+Una vez que la secuencia de comandos se ha creado para seleccionar el ganador de la prueba A/B, se puede definir los parámetros de la entrega final.
 
-1. Conecte la **[!UICONTROL JavaScript code]** actividad a la **[!UICONTROL Delivery]** actividad restante.
-1. Open the **[!UICONTROL Delivery]** activity.
-1. Uncheck the **[!UICONTROL Generate an outbound transition]** option to finish the workflow with this activity.
+1. Conecte la actividad **[!UICONTROL JavaScript code]** a la actividad restante **[!UICONTROL Delivery]**.
+1. Abra la actividad **[!UICONTROL Delivery]**.
+1. Anule la selección de la opción **[!UICONTROL Generate an outbound transition]** para finalizar el flujo de trabajo con esta actividad.
 1. Deje las demás opciones en sus valores predeterminados.
 
    ![](assets/ab_test_final_delivery.png)
 
-By preparing the delivery specified in the transition (defined via the **[!UICONTROL Javascript Code]** activity), you will be then able to approve it and to start the sending, as described in the next step.
+Al preparar la entrega especificada en la transición (definida a través de la actividad **[!UICONTROL Javascript Code]**), se puede aprobar dicha actividad y comenzar la entrega, tal y como se describe en el paso siguiente.
 
 ## Paso 7: Inicio del flujo de trabajo {#step-7--starting-the-workflow}
 
-1. Haga clic en **[!UICONTROL Start]** el flujo de trabajo.
+1. Haga clic en **[!UICONTROL Iniciar]** el flujo de trabajo.
 
    ![](assets/use_case_abtesting_startwkfl_001.png)
 
 1. Apruebe el objetivo y el contenido para los envíos A y B mediante el tablero de campañas.
-1. Confirme el envío.
-1. Espere hasta que finalice el período de 5 días para saber qué contenido se ha calculado tras los resultados de apertura de envíos.
+1. Confirme la entrega.
+1. Espere hasta que finalice el periodo de 5 días para saber qué contenido se ha calculado tras los resultados de apertura de envíos.
 
    ![](assets/use_case_abtesting_startwkfl_002.png)
 
    En este caso, se eligió la plantilla B.
 
-1. Una vez determinado el contenido del tercer envío, apruebe el objetivo y el contenido.
+1. Una vez determinado el contenido de la tercera entrega, apruebe el objetivo y el contenido.
 
 ## Paso 8: Análisis del resultado {#step-8--analyzing-the-result}
 
 Una vez remitidos los envíos de prueba, se puede comprobar los destinatarios a los que se han enviado y si se han abierto o no.
 
-* To find out which recipients have been targeted, open a delivery via the campaign dashboard and click the **[!UICONTROL Delivery]** tab.
+* Para saber cuáles fueron los destinatarios objetivo, abra una entrega a través del panel de campañas y haga clic en la pestaña **[!UICONTROL Delivery]**.
 
    ![](assets/use_case_abtesting_analysis_001.png)
 
-* To find out whether the delivery has been opened, go to the **[!UICONTROL Tracking]** tab.
+* Para averiguar si la entrega se ha abierto, vaya a la pestaña **[!UICONTROL Tracking]**.
 
    ![](assets/use_case_abtesting_analysis_002.png)
 
-* Compare con el otro envío.
+* Compare con el otro entrega.
 
    ![](assets/use_case_abtesting_analysis_003.png)
 
-En el ejemplo, el envío B ha obtenido la mayor tasa de apertura. Esto significa que el contenido B se utilizará para el envío final.
+En el ejemplo, la entrega B ha obtenido la mayor tasa de apertura. Esto significa que el contenido B se utilizará para la entrega final.
 
 ![](assets/use_case_abtesting_analysis_004.png)
 
