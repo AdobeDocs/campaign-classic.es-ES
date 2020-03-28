@@ -14,7 +14,7 @@ discoiquuid: 749a084e-69ee-46b4-b09b-cb91bb1da3cd
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 ---
@@ -28,7 +28,7 @@ Los objetivos complejos que impliquen datos adicionales no duplicados en Campaig
 
 Con Campaign Standard también puede compartir listas de destinatarios o datos procedentes de un conector como Microsoft Dynamics.
 
-Este ejemplo de uso muestra cómo preparar el objetivo de su envío en Campaign v7 y cómo reutilizar este objetivo y sus datos adicionales en un envío creado y realizado con Adobe Campaign Standard.
+Este ejemplo de uso muestra cómo preparar el objetivo de su entrega en Campaign v7 y cómo reutilizar este objetivo y sus datos adicionales en una entrega creada y realizada con Adobe Campaign Standard.
 
 >[!NOTE]
 >
@@ -38,10 +38,10 @@ Este ejemplo de uso muestra cómo preparar el objetivo de su envío en Campaign 
 
 Para lograr esto, es necesario lo siguiente:
 
-* Los destinatarios almacenados en la base de datos de Campaign v7 y sincronizarlos con Campaign Standard. Consulte la sección [Sincronización de perfiles](../../integrations/using/synchronizing-profiles.md) .
+* Los destinatarios almacenados en la base de datos de Campaign v7 y sincronizarlos con Campaign Standard. Consulte la sección [Sincronización de perfiles](../../integrations/using/synchronizing-profiles.md).
 * Datos adicionales, como suscripciones o transacciones, almacenados en las tablas relacionadas con nms:recipients en la base de datos de Campaign v7. Estos datos pueden proceder de esquemas OOB o tablas personalizadas de Campaign v7. De forma predeterminada no están disponibles en Campaign Standard, ya que no están sincronizados.
 * El derecho para ejecutar los flujos de trabajo en Campaign v7 y Campaign Standard.
-* El derecho para crear y ejecutar un envío en Campaign Standard.
+* El derecho para crear y ejecutar una entrega en Campaign Standard.
 
 ## Creación de un flujo de trabajo de objetivos con datos adicionales en Campaign v7 {#create-a-targeting-workflow-with-additional-data-in-campaign-v7}
 
@@ -55,8 +55,8 @@ Una vez definidos el objetivo y los datos adicionales, es posible guardarlo como
 
 Para obtener la audiencia final y sus datos adicionales:
 
-1. Cree un nuevo flujo de trabajo desde **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]**.
-1. Add a **[!UICONTROL Query]** activity and select the recipients that you want to send final email to. Por ejemplo, todos los destinatarios de entre 18 y 30 años que viven en Francia.
+1. Cree un nuevo flujo de trabajo desde **[!UICONTROL Perfiles y objetivos]**, **[!UICONTROL Trabajos]**, **[!UICONTROL Focalización de flujos de trabajo]**.
+1. Añada una actividad de **[!UICONTROL Query]** y seleccione los destinatarios a los que desea enviar el correo electrónico final. Por ejemplo, todos los destinatarios de entre 18 y 30 años que viven en Francia.
 
    ![](assets/acs_connect_query1.png)
 
@@ -64,47 +64,47 @@ Para obtener la audiencia final y sus datos adicionales:
 
    Este ejemplo muestra cómo añadir un acumulado para contar cuántos envíos recibió un destinatario en un año.
 
-   En el **[!UICONTROL Query]**, seleccione **[!UICONTROL Add data...]**.
+   **[!UICONTROL En la]** consulta **[!UICONTROL , seleccione]** Agregar datos...
 
    ![](assets/acs_connect_query2.png)
 
-1. Seleccione **[!UICONTROL Data linked to the filtering dimension]** y haga clic en **[!UICONTROL Next]**.
+1. Seleccione **[!UICONTROL Datos vinculados a la dimensión de filtrado]** y haga clic en **[!UICONTROL Siguiente]**.
 
    ![](assets/acs_connect_query3.png)
 
-1. Elija **[!UICONTROL Data linked to the filtering dimension]** y, a continuación, seleccione el **[!UICONTROL Recipient delivery logs]** nodo y haga clic en **[!UICONTROL Next]**.
+1. Seleccione **[!UICONTROL Datos vinculados a la dimensión de filtrado]** y, a continuación, seleccione el nodo **[!UICONTROL Registros de entrega de destinatarios]** y haga clic en **[!UICONTROL Next]**.
 
    ![](assets/acs_connect_query4.png)
 
-1. Seleccione **[!UICONTROL Aggregates]** en el **[!UICONTROL Data collected]** campo y haga clic en **[!UICONTROL Next]**.
+1. Seleccione **[!UICONTROL Totalizar]** en el campo **[!UICONTROL Datos recolectados]** y haga clic en **[!UICONTROL Next]**.
 
    ![](assets/acs_connect_query5.png)
 
-1. Añada una condición de filtrado para tener en cuenta solo los “logs” de cuentas creados durante los últimos 365 días y haga clic en **[!UICONTROL Next]**.
+1. Añada una condición de filtrado para tener en cuenta solo los registros creados durante los últimos 365 días y haga clic en **[!UICONTROL Next]**.
 
    ![](assets/acs_connect_query6.png)
 
 1. Defina las columnas de salida. En este caso, la única columna necesaria es la del número de envíos. Para ello:
 
-   * Select **[!UICONTROL Add]** on the right of the window.
-   * En la **[!UICONTROL Select field]** ventana, haga clic en **[!UICONTROL Advanced selection]**.
-   * Seleccione **[!UICONTROL Aggregate]** y luego **[!UICONTROL Count]**. Marque la **[!UICONTROL Distinct]** opción y haga clic en **[!UICONTROL Next]**.
-   * En la lista de campos, seleccione el campo utilizado para la función **Recuento.** Choose a field that will always be populated, for example the **[!UICONTROL Primary key]** field, and click **[!UICONTROL Finish]**.
-   * Change the expression in the **[!UICONTROL Alias]** column. Este alias le permite recuperar fácilmente la columna añadida en el envío final. Por ejemplo, **NBdeliveries**.
-   * Haga clic en **[!UICONTROL Finish]** y guarde la configuración de la **[!UICONTROL Query]** actividad.
+   * En la parte derecha de la ventana, seleccione **[!UICONTROL Add]**.
+   * En la ventana **[!UICONTROL Select field]**, haga clic en **[!UICONTROL Advanced selection]**.
+   * Seleccione **[!UICONTROL Aggregate]** y, luego, **[!UICONTROL Count]**. Seleccione la opción **[!UICONTROL Distinct]** y haga clic en **[!UICONTROL Next]**.
+   * En la lista de campos, seleccione el campo utilizado para la función **Recuento**. Seleccione un campo que se rellene siempre, por ejemplo, el campo **[!UICONTROL Primary key]**, y haga clic en **[!UICONTROL Finish]**.
+   * Cambie la expresión en la columna **[!UICONTROL Alias]**. Este alias le permite recuperar fácilmente la columna añadida en la entrega final. Por ejemplo, **NBdeliveries**.
+   * Haga clic en **[!UICONTROL Finish]** y guarde la configuración de la actividad **[!UICONTROL Query]**.
    ![](assets/acs_connect_query7.png)
 
 1. Guarde el flujo de trabajo. En la siguiente sección se muestra cómo compartir la población con ACS.
 
 ## Uso compartido del objetivo con Campaign Standard {#share-the-target-with-campaign-standard}
 
-Once the target population is defined, you can share it with ACS through a **[!UICONTROL List update]** activity.
+Una vez definido el público objetivo, puede compartirlo con ACS a través de una actividad de **[!UICONTROL List update]**.
 
-1. In the workflow created previously, add a **[!UICONTROL List update]** activity and specify the list you want to update or create.
+1. En el flujo de trabajo creado anteriormente, añada una actividad **[!UICONTROL List update]** y especifique la lista que desea actualizar o crear.
 
-   Especifique la carpeta en la que desea guardar la lista en Campaign v7. Las listas están sujetas a la asignación de carpetas definida durante la implementación, lo cual puede afectar a su visibilidad una vez compartidas en Campaign Standard. Consulte la sección Conversión [de](../../integrations/using/acs-connector-principles-and-data-cycle.md#rights-conversion) derechos.
+   Especifique la carpeta en la que desea guardar la lista en Campaign v7. Las listas están sujetas a la asignación de carpetas definida durante la implementación, lo cual puede afectar a su visibilidad una vez compartidas en Campaign Standard. Consulte la sección [Conversión de derechos](../../integrations/using/acs-connector-principles-and-data-cycle.md#rights-conversion).
 
-1. Make sure the **[!UICONTROL Share with ACS]** option is checked. Está activada de forma predeterminada.
+1. Asegúrese de que la opción **[!UICONTROL Share with ACS]** esté seleccionada. Está activada de forma predeterminada.
 
    ![](assets/acs_connect_listupdate1.png)
 
@@ -112,47 +112,47 @@ Once the target population is defined, you can share it with ACS through a **[!U
 
    El objetivo y sus datos adicionales se guardan en una lista de Campaign v7 y se comparten inmediatamente como una audiencia de lista en Campaign Standard. Solo los perfiles que se hayan duplicado se comparten con ACS.
 
-If an error occurs on the **[!UICONTROL List update]** activity, it means that the synchronization with Campaign Standard may have failed. To be able to see more details about what went wrong, go to **[!UICONTROL Administration]** > **[!UICONTROL ACS Connector]** > **[!UICONTROL Process]** > **[!UICONTROL Diagnosis]**. This folder contains synchronization workflows triggered by the **[!UICONTROL List update]** activity execution. Consulte la sección [Localización de averías del conector](../../integrations/using/troubleshooting-the-acs-connector.md) ACS.
+Si se produce un error en la actividad **[!UICONTROL List update]**, significa que la sincronización con Campaign Standard puede haber fallado. Para poder ver más detalles sobre qué ha fallado, vaya a **[!UICONTROL Administration]**, **[!UICONTROL ACS Connector]**, **[!UICONTROL Process]**, **[!UICONTROL Diagnosis]**. Esta carpeta contiene los flujos de trabajo de sincronización activados por la ejecución de la actividad **[!UICONTROL List update]**. Consulte la sección [Solución de problemas del conector ACS](../../integrations/using/troubleshooting-the-acs-connector.md).
 
-## Recuperación de los datos en Campaign Standard y uso en un envío {#retrieve-the-data-in-campaign-standard-and-use-it-in-a-delivery}
+## Recuperación de los datos en Campaign Standard y uso en una entrega {#retrieve-the-data-in-campaign-standard-and-use-it-in-a-delivery}
 
-Once the targeting workflow is executed in Campaign v7, you are able to find the list audience in read-only mode from the **[!UICONTROL Audiences]** menu of Campaign Standard.
+Una vez que el flujo de trabajo de objetivo se ejecuta en Campaign v7, puede encontrar la audiencia de lista en modo de solo lectura desde el menú **[!UICONTROL Audiences]** de Campaign Standard.
 
 ![](assets/acs_connect_deliveryworkflow_audience.png)
 
-Mediante la creación de un flujo de trabajo de envío en Campaign Standard, es posible utilizar esta audiencia, así como los datos adicionales que contiene, en un envío.
+Mediante la creación de un flujo de trabajo de entrega en Campaign Standard, es posible utilizar esta audiencia, así como los datos adicionales que contiene, en una entrega.
 
-1. Create a new workflow from the **[!UICONTROL Marketing activities]** menu.
-1. Add a **[!UICONTROL Read audience]** activity and select the audience you previously shared from Campaign v7.
+1. Cree un nuevo flujo de trabajo a través del menú **[!UICONTROL Marketing activities]**.
+1. Añada una actividad **[!UICONTROL Read audience]** y seleccione la audiencia que ha compartido previamente desde Campaign v7.
 
-   Esta actividad se utiliza para recuperar los datos de la audiencia seleccionada. You can also apply an additional **[!UICONTROL Source Filtering]** if needed by using the according tab of this activity.
+   Esta actividad se utiliza para recuperar los datos de la audiencia seleccionada. También puede aplicar un **[!UICONTROL Source Filtering]** adicional si lo necesita utilizando la pestaña correspondiente de esta actividad.
 
-1. Add an **[!UICONTROL Email delivery]** activity and configure it as any other [email delivery activity](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html).
-1. Abra el contenido del envío.
-1. Añada un campo personalizado. From the popup, locate the **[!UICONTROL Additional data (targetData)]** node. Este nodo contiene los datos adicionales de la audiencia que se calcularon en el flujo de trabajo inicial de objetivo. Puede utilizarlos como cualquier otro campo personalizado.
+1. Añada una actividad **[!UICONTROL Email delivery]** y configúrela como cualquier otra [actividad de entrega de correo electrónico](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html).
+1. Abra el contenido de la entrega.
+1. Añada un campo personalizado. En la ventana emergente, busque el nodo **[!UICONTROL Additional data (targetData)]**. Este nodo contiene los datos adicionales de la audiencia que se calcularon en el flujo de trabajo inicial de objetivo. Puede utilizarlos como cualquier otro campo personalizado.
 
    Para este ejemplo, el dato adicional proveniente del flujo de trabajo de objetivo original es el número de envíos a cada destinatario en los últimos 365 días. El alias de NBdeliveries especificado en el flujo de trabajo de objetivo se puede ver aquí.
 
    ![](assets/acs_connect_deliveryworkflow_targetdata.png)
 
-1. Guarde el envío y el flujo de trabajo.
+1. Guarde la entrega y el flujo de trabajo.
 
-   El flujo de trabajo está listo para ejecutarse. El envío se analiza y está listo para su envío.
+   El flujo de trabajo está listo para ejecutarse. La entrega se analiza y está listo para su entrega.
 
    ![](assets/acs_connect_deliveryworkflow_ready.png)
 
-## Realización y monitorización de su envío {#send-and-monitor-your-delivery}
+## Realización y monitorización de su entrega {#send-and-monitor-your-delivery}
 
-Una vez que el envío y el contenido estén listos, realice el envío tal y como se describe más detalladamente en [esta sección](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html):
+Una vez que la entrega y el contenido estén listos, realice la entrega tal y como se describe más detalladamente en [esta sección](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html):
 
-1. Ejecute el flujo de trabajo de envío. Este paso prepara el envío del correo electrónico.
-1. En el panel de envío, confirme manualmente que el envío se puede realizar.
-1. Monitorice los informes y “logs” de envío
+1. Ejecute el flujo de trabajo de entrega. Este paso prepara la entrega del correo electrónico.
+1. En el panel de entrega, confirme manualmente que la entrega se puede realizar.
+1. Monitorice los informes y “logs” de entrega
 
-   * **En Campaign Standard**: Acceda a [informes](https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html) y [registros](https://docs.adobe.com/content/help/en/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html) relacionados con la entrega como en cualquier entrega.
-   * **en Campaign v7 y Campaign Standard**: Las ID de envío, los registros generales de correo electrónico y los registros de seguimiento de correo electrónico se sincronizan con Campaign v7. A continuación, puede obtener una visualización a 360 grados de sus campañas de marketing desde Campaign v7.
+   * **En Campaign Standard**: Aceda a [informes](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html) y [registros](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html) relacionados a la entrega como para cualquier entrega.
+   * **en Campaign v7 y Campaign Standard**: Las ID de entrega, los registros generales de correo electrónico y los registros de seguimiento de correo electrónico se sincronizan con Campaign v7. A continuación, puede obtener una visualización a 360 grados de sus campañas de marketing desde Campaign v7.
 
       Las cuarentenas se sincronizan automáticamente con Campaign v7. Esto permite tener en cuenta la información que no se debe enviar de cara a la siguiente actividad de objetivos realizada en Campaign v7.
 
-      Puede encontrar más información sobre la administración de la cuarentena en Campaign Standard en [esta sección](https://docs.adobe.com/content/help/en/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
+      Puede encontrar más información sobre la administración de la cuarentena en Campaign Standard en [esta sección](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
 
