@@ -14,7 +14,7 @@ discoiquuid: 08161b4a-7196-41db-b3df-68012a9fc2f8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
 
 La herramienta de consulta de Adobe Campaign se encuentra en varios niveles del software: para crear una población objetivo, segmentar clientes, extraer y filtrar logs de seguimiento, crear filtros, etc.
 
-La herramienta de consulta de Adobe Campaign le permite consultar una base de datos utilizando un asistente dedicado: el editor de consultas genérico. It is accessed via the **[!UICONTROL Tools > Generic query editor...]** menu. Permite extraer información almacenada en una base de datos y organizar, agrupar, ordenar, etc. Por ejemplo, el usuario puede recuperar los destinatarios que han hecho clic un determinado número de veces en el enlace de un boletín durante un período de tiempo determinado. Esta herramienta le permite recopilar, ordenar y mostrar los resultados según sus necesidades.
+La herramienta de consulta de Adobe Campaign le permite consultar una base de datos utilizando un asistente dedicado: el editor de consultas genérico. Se accede a través del menú **[!UICONTROL Tools > Generic query editor...]** Permite extraer información almacenada en una base de datos y organizar, agrupar, ordenar, etc. Por ejemplo, el usuario puede recuperar los destinatarios que han hecho clic un determinado número de veces en el vínculo de un boletín durante un periodo determinado. Esta herramienta le permite recopilar, ordenar y mostrar los resultados según sus necesidades.
 
 Esta herramienta combina todas las posibilidades de consultas de Adobe Campaign. Por ejemplo, le permite crear y guardar filtros de restricción. Esto significa que un filtro de usuario creado en el editor de consultas genérico se puede utilizar en el cuadro de consulta de un flujo de trabajo de objetivos, etc.
 
