@@ -14,7 +14,7 @@ discoiquuid: 031f8d5d-940c-4a4c-97e7-ad4ef61983c1
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -22,17 +22,17 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 # Actualizar acumulado{#update-aggregate}
 
-Los agregados se especifican en el nivel de cubo para fines informativos. A **[!UICONTROL Workflow]** tab is available when configuring an aggregate.
+Los agregados se especifican en el nivel de cubo para fines informativos. Una pestaña **[!UICONTROL Workflow]** está disponible al configurar un acumulado.
 
 Para obtener más información sobre los cubos y el uso de los acumulados en Adobe Campaign, consulte la [sección](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).
 
-The **[!UICONTROL Update aggregate]** activity lets you select the update mode to apply: full or partial.
+La actividad **[!UICONTROL Update aggregate]** permite seleccionar el modo de actualización para aplicar: completo o parcial.
 
 De forma predeterminada, se lleva a cabo una actualización completa durante cada cálculo. Para activar una actualización parcial, seleccione la opción correspondiente y defina las condiciones de actualización.
 
 ![](assets/s_advuser_cube_agregate_05.png)
 
-**Buenas prácticas**: se puede usar una **[!UICONTROL Scheduler]** actividad para especificar la frecuencia de las actualizaciones de cálculo.
+**Good practice**: se puede utilizar una actividad **[!UICONTROL Scheduler]** para especificar la frecuencia de las actualizaciones de cálculo.
 
 ![](assets/s_advuser_cube_agregate_04.png)
 
