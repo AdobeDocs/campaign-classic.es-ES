@@ -14,7 +14,7 @@ discoiquuid: 4abce633-647f-4ae4-9419-859f6e2e8628
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ---
@@ -26,14 +26,14 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 La creación, edición y publicación de contenido puede automatizarse mediante un flujo de trabajo configurado a través de la interfaz de cliente de Adobe Campaign.
 
-The **Content management** activity is accessed via the **[!UICONTROL Tools]** toolbar of the workflow diagram.
+Se accede a la actividad de **Gestión de contenido** a través de la barra de herramientas **[!UICONTROL Tools]** del diagrama de flujo de trabajo.
 
 Las propiedades de actividad se dividen en cuatro pasos:
 
-* **[!UICONTROL Content]** :: permite introducir contenido existente o crear contenido,
-* **[!UICONTROL Update content]** :: le permite modificar el asunto del contenido o actualizar el contenido mediante un flujo de datos XML,
-* **[!UICONTROL Action to execute]** :: permite guardar o generar contenido,
-* **[!UICONTROL Transition]** :: le permite elegir si desea generar o no una transición de salida y darle un nombre.
+* **[!UICONTROL Contenido]**: permite introducir contenido existente o crear contenido,
+* **[!UICONTROL Actualizar contenido]**: permite modificar el asunto del contenido o actualizar el contenido a través de un flujo de datos XML,
+* **[!UICONTROL Acción a ejecutar]**: permite guardar o generar contenido,
+* **[!UICONTROL Transición]**: permite elegir si generar o no una transición de salida y asignarle un nombre.
 
 ![](assets/d_ncs_content_wf.png)
 
@@ -59,7 +59,7 @@ Las propiedades de actividad se dividen en cuatro pasos:
 
 * **Asunto**
 
-   Permite modificar el asunto de la acción de envío al publicar.
+   Permite modificar el asunto de la acción de entrega al publicar.
 
 * **Acceso a los datos desde una fuente XML**
 
@@ -79,13 +79,13 @@ Las propiedades de actividad se dividen en cuatro pasos:
 
 ### Transición {#transition}
 
-The **Generate an output transition** option lets you add an output transition to the **[!UICONTROL Content management]** activity to link a new activity to workflow execution. Tras comprobar esta opción, introduzca una etiqueta para la transición.
+La opción **Generar una transición de salida** le permite añadir una transición de salida a la actividad **[!UICONTROL Gestión de contenido]** para vincular una nueva actividad a la ejecución del flujo de trabajo. Tras comprobar esta opción, introduzca una etiqueta para la transición.
 
 ## Ejemplos {#examples}
 
-### Automatización de la creación y el envío de contenido {#automating-content-creation-and-delivery}
+### Automatización de la creación y la entrega de contenido {#automating-content-creation-and-delivery}
 
-El siguiente ejemplo automatiza la creación y el envío de un bloque de contenido.
+El siguiente ejemplo automatiza la creación y la entrega de un bloque de contenido.
 
 ![](assets/d_ncs_content_workflow2.png)
 
@@ -95,7 +95,7 @@ El contenido se configura mediante la actividad “Gestión de contenido”:
 
 Se crea una nueva instancia de contenido mediante el modelo de publicación y la carpeta de cadena de contenido.
 
-En nuestro ejemplo, hemos sobrecargado al asunto del envío. It will be taken into account instead of the one entered in the **[!UICONTROL Delivery]** template.
+En nuestro ejemplo, hemos sobrecargado al asunto de la entrega. Se tiene en cuenta en lugar del introducido en la plantilla **[!UICONTROL Entrega]**.
 
 El contenido se rellena automáticamente mediante una fuente XML procedente de la URL introducida:
 
@@ -108,7 +108,7 @@ El contenido se rellena automáticamente mediante una fuente XML procedente de l
 </book>
 ```
 
-The data format does not match the data schema entered in the publication template (**cus:book** in our example); the **`<section>`** element must be replaced with the **`<chapter>`** element. Necesitamos aplicar la hoja de estilo “cus:book-workflow.xsl” para realizar los cambios necesarios.
+El formato de datos no coincide con el esquema de datos introducido en la plantilla de publicación (**cus:book** en nuestro ejemplo); el elemento **`<section>`** debe reemplazarse con el elemento **`<chapter>`**. Necesitamos aplicar la hoja de estilo “cus:book-workflow.xsl” para realizar los cambios necesarios.
 
 Código fuente de la hoja de estilo XSLT utilizada:
 
@@ -149,21 +149,21 @@ La acción final de la actividad es guardar la instancia de contenido y continua
 
 El establecimiento de destinos se realiza mediante la actividad **Query**.
 
-Se ha añadido una actividad **AND-join** para asegurarse de que el envío solo se inicia una vez que se hayan completado la consulta de destino y las actualizaciones de contenido.
+Se ha añadido una actividad **AND-join** para asegurarse de que la entrega solo se inicia una vez que se hayan completado la consulta de destino y las actualizaciones de contenido.
 
-La acción de envío se configura mediante la actividad **Delivery**:
+La acción de entrega se configura mediante la actividad **Delivery**:
 
 ![](assets/d_ncs_content_workflow4.png)
 
-Se crea una nueva acción de envío basada en una plantilla.
+Se crea una nueva acción de entrega basada en una plantilla.
 
-La plantilla de envío de la actividad se utiliza para seleccionar las plantillas de transformación de la plantilla de publicación. La generación de contenido tiene en cuenta todas las plantillas HTML y plantillas de texto sin plantillas de envío o aquellas a las que se hace referencia con la misma plantilla que la actividad.
+La plantilla de entrega de la actividad se utiliza para seleccionar las plantillas de transformación de la plantilla de publicación. La generación de contenido tiene en cuenta todas las plantillas HTML y plantillas de texto sin plantillas de entrega o aquellas a las que se hace referencia con la misma plantilla que la actividad.
 
 El destino al que se envía se introduce a través del evento entrante.
 
-El contenido del envío se rellena mediante el evento entrante.
+El contenido de la entrega se rellena mediante el evento entrante.
 
-El último paso para completar la actividad son la preparación y el inicio del envío.
+El último paso para completar la actividad son la preparación y el inicio de la entrega.
 
 ### Creación de contenido y posterior publicación {#creating-content-and-publishing-it-later}
 
@@ -177,13 +177,13 @@ La primera tarea **Content management** crea un entorno de contenido.
 
 >[!NOTE]
 >
->The **[!UICONTROL Publication]** tab of the transformation templates window must be populated with the location of the target to be generated.
+>La pestaña **[!UICONTROL Publicación]** de la ventana de plantillas de transformación debe rellenarse con la ubicación del destino que se va a generar.
 
 Se añade una actividad de espera para pausar la siguiente transición durante una semana.
 
 ![](assets/d_ncs_content_workflow7.png)
 
-Durante este periodo de tiempo, el contenido se introduce manualmente.
+Durante este periodo, el contenido se introduce manualmente.
 
 La siguiente tarea inicia la generación de contenido.
 
@@ -197,35 +197,35 @@ La actividad **JavaScript Code** recupera el nombre completo de cada archivo gen
 
 ![](assets/d_ncs_content_workflow9.png)
 
-### Creación del envío y su contenido {#creating-the-delivery-and-its-content}
+### Creación de la entrega y su contenido {#creating-the-delivery-and-its-content}
 
-Este ejemplo utiliza el mismo concepto que el primero; solo genera la acción de envío en el primer paso.
+Este ejemplo utiliza el mismo concepto que el primero; solo genera la acción de entrega en el primer paso.
 
 ![](assets/d_ncs_content_workflow10.png)
 
-La primera tarea de **Create delivery** crea la acción de envío.
+La primera tarea de **Create delivery** crea la acción de entrega.
 
 La actividad de ramificación permite iniciar el cálculo de destino y la creación de la instancia de contenido al mismo tiempo.
 
-Una vez ejecutadas las tareas, el cuadro AND-join activa la tarea de **Delivery** para iniciar el envío creado previamente para el contenido y el destino.
+Una vez ejecutadas las tareas, el cuadro AND-join activa la tarea de **Delivery** para iniciar la entrega creada previamente para el contenido y el destino.
 
 ![](assets/d_ncs_content_workflow11.png)
 
-La acción de envío que se va a iniciar se rellena mediante la transición.
+La acción de entrega que se va a iniciar se rellena mediante la transición.
 
 El destino al que se envía se introduce a través del evento entrante.
 
-El contenido del envío se rellena mediante el evento entrante.
+El contenido de la entrega se rellena mediante el evento entrante.
 
-La acción final de la actividad es la preparación y el inicio del envío.
+La acción final de la actividad es la preparación y el inicio de la entrega.
 
 ### Importación de contenido desde FTP {#importing-content-from-ftp}
 
-Si el contenido de su envío está disponible en un archivo HTML ubicado en servidores FTP o SFTP, puede cargar fácilmente este contenido en los envíos de Adobe Campaign. Consulte [este ejemplo](../../workflow/using/loading-delivery-content.md).
+Si el contenido de su entrega está disponible en un archivo HTML ubicado en servidores FTP o SFTP, puede cargar fácilmente este contenido en los envíos de Adobe Campaign. Consulte [este ejemplo](../../workflow/using/loading-delivery-content.md).
 
 ### Importación de contenido desde el conector Amazon Simple Storage Service (S3){#importing-content-from-amazon-simple-storage-service--s3--connector}
 
-Si el contenido de su envío está ubicado en bloques de Amazon Simple Storage Service (S3), puede cargar fácilmente este contenido en los envíos de Adobe Campaign. Consulte [este ejemplo](../../workflow/using/loading-delivery-content.md).
+Si el contenido de su entrega está ubicado en bloques de Amazon Simple Storage Service (S3), puede cargar fácilmente este contenido en los envíos de Adobe Campaign. Consulte [este ejemplo](../../workflow/using/loading-delivery-content.md).
 
 ## Actualización semiautomática {#semi-automatic-update}
 
@@ -233,11 +233,11 @@ Los datos de contenido se pueden actualizar en modo “semiautomático”. Los d
 
 La activación de la recuperación de datos se realiza manualmente a través del formulario de entrada.
 
-The aim is to declare an **editBtn** type **`<input>`** field in the form. Este control consiste en un área de edición y un botón para iniciar el procesamiento.
+El objetivo es declarar un campo **de tipo** editBtn **`<input>`** en el formulario. Este control consiste en un área de edición y un botón para iniciar el procesamiento.
 
 El área de edición permite rellenar datos de variables que se utilizan para construir la dirección URL de la fuente XML de los datos que se van a recuperar.
 
-The button executes the **GetAndTransform** SOAP method populated under the **`<input>`** tag.
+El botón ejecuta el método SOAP **GetAndTransform** rellenado en la etiqueta **`<input>`**.
 
 La declaración de control del formulario es la siguiente:
 
@@ -253,11 +253,11 @@ La declaración de control del formulario es la siguiente:
 </input>
 ```
 
-The **GetAndTransform** method must be declared under the **`<enter>`** element of the **`<input>`** tag. Esta etiqueta toma como parámetro la URL de recuperación de datos XML desde una expresión creada dinámicamente. El segundo parámetro de la función es opcional y hace referencia a una hoja de estilo utilizada para una transformación intermedia cuando los datos XML entrantes no tienen el mismo formato que el contenido.
+El método **GetAndTransform** debe declararse en el elemento **`<enter>`** de la etiqueta **`<input>`**. Esta etiqueta toma como parámetro la URL de recuperación de datos XML desde una expresión creada dinámicamente. El segundo parámetro de la función es opcional y hace referencia a una hoja de estilo utilizada para una transformación intermedia cuando los datos XML entrantes no tienen el mismo formato que el contenido.
 
 La salida actualiza el contenido en función de la ruta introducida en el último parámetro.
 
-**Ejemplo**: Para ilustrar este ejemplo, empezamos con el esquema &quot;cus:book&quot;.
+**Para ilustrar este ejemplo, comenzamos desde el esquema “cus:book”**.
 
 Se añade un formulario semiautomático de entrada de control de edición de actualizaciones:
 
