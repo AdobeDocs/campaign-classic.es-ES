@@ -14,7 +14,7 @@ discoiquuid: 18ba04d9-7bab-4eea-8dbb-6c2c138c5293
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -26,15 +26,15 @@ Para crear un informe de análisis descriptivo, utilice el asistente dedicado. L
 
 ## Análisis de los datos de la base de datos {#analyzing-data-in-the-database}
 
-The descriptive analysis wizard can be launched via the **[!UICONTROL Tools > Descriptive analysis]** menu: in this case, the analysis concerns recipients by default (**nms:recipient**). Se aplica a todos los datos de la base de datos de Adobe Campaign.
+El asistente de análisis descriptivo se puede iniciar mediante el menú **[!UICONTROL Tools > Descriptive analysis]**: en este caso, el análisis corresponde a los destinatarios de forma predeterminada (**nms:recipient**). Se aplica a todos los datos de la base de datos de Adobe Campaign.
 
 ![](assets/reporting_descriptive_wz_launch.png)
 
-To analyze a table other than the standard recipients one (**nms:recipient**), click the **[!UICONTROL Advanced settings...]** link in the last stage of the wizard and select the table that matches your settings, in this case **cus:individual**:
+Para analizar una tabla que no sea la de los destinatarios estándar (**nms:recipient**), haga clic en el vínculo **[!UICONTROL Advanced settings...]** del último paso del asistente y seleccione la tabla que coincida con la configuración, en este caso **cus:individual**:
 
 ![](assets/reporting_descriptive_other_schema.png)
 
-If you want to produce statistics on part of the data, you can define a filter: to do this, click the **[!UICONTROL Advanced settings...]** link and define the filter to apply, as shown below:
+Si desea generar estadísticas sobre una parte de los datos, puede definir un filtro: para ello, haga clic en el vínculo **[!UICONTROL Advanced settings...]** y defina el filtro que desee aplicar, como se muestra a continuación:
 
 ![](assets/reporting_descriptive_wz_filter.png)
 
@@ -50,25 +50,25 @@ Abra el asistente de análisis descriptivo seleccionando elementos y haciendo cl
 
 ![](assets/reporting_descriptive_from_recipients.png)
 
-* For a set of **recipients**, select the recipients to be analyzed, then right-click and select **[!UICONTROL Actions > Explore...]**, as shown above. Si se aplica un filtro a la lista de destinatarios, solo se analiza el contenido resultante.
+* Para un conjunto de **destinatarios**, seleccione los destinatarios que se van a analizar, luego haga clic con el botón derecho y seleccione **[!UICONTROL Actions > Explore...]**, como se muestra arriba. Si se aplica un filtro a la lista de destinatarios, solo se analiza el contenido resultante.
 
    Para seleccionar todos los destinatarios de la carpeta o el filtro actual, utilice el atajo de teclado CTRL+A. Esto hace que se seleccionen incluso los destinatarios ocultos.
 
-   For an example of the descriptive analysis of recipients, refer to: [Qualitative data analysis](../../reporting/using/use-cases.md#qualitative-data-analysis).
+   Para ver un ejemplo del análisis descriptivo de los destinatarios, consulte [Análisis de datos cualitativos](../../reporting/using/use-cases.md#qualitative-data-analysis).
 
-* In the context of a **workflow**, place the cursor on a transition that points towards the recipients table, right-click and select **[!UICONTROL Analyze target]**. Para obtener más información sobre esto, consulte el ejemplo en [Análisis de un destino de transición en un flujo de trabajo](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow).
+* En el contexto de un **flujo de trabajo**, coloque el cursor sobre una transición que señale a la tabla de destinatarios, haga clic con el botón derecho y seleccione **[!UICONTROL Analyze target]**. Para obtener más información, consulte el ejemplo en [Análisis de un destino de transición en un flujo de trabajo](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow).
 * Para las **listas**, seleccione una o varias listas y aplique el mismo proceso que para los destinatarios.
-* In the context of a **delivery**, select the deliveries whose target you want to analyze, right-click and select **[!UICONTROL Actions > Explore the target]**, as shown below:
+* En el contexto de una **entrega**, seleccione los envíos cuyo destinatario desee analizar, haga clic con el botón derecho y seleccione **[!UICONTROL Actions > Explore the target]**, como se muestra a continuación:
 
    ![](assets/reporting_descriptive_from_deliveries.png)
 
-   A continuación se proporcionan ejemplos de análisis descriptivos de las entregas: [Analizando una población](../../reporting/using/use-cases.md#analyzing-a-population) y aquí: [Análisis de los registros](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs)de seguimiento de destinatarios.
+   A continuación se proporcionan ejemplos de análisis descriptivos de los envíos: [Análisis de una población](../../reporting/using/use-cases.md#analyzing-a-population) y : [Análisis de los registros de seguimiento de destinatarios](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs).
 
 ## Configuración de la plantilla de distribución cualitativa {#configuring-the-qualitative-distribution-template}
 
-The **[!UICONTROL Qualitative distribution]** template lets you create statistics on all types of data (e.g. company name, email domain).
+La plantilla de **[!UICONTROL Qualitative distribution]** permite crear estadísticas sobre todos los tipos de datos (por ejemplo: nombre de la empresa, dominio de correo electrónico).
 
-Las opciones de configuración disponibles para un informe creado mediante la **[!UICONTROL Qualitative distribution]** plantilla se detallan en [Visualización de datos en la tabla](#displaying-data-in-the-table). Un ejemplo completo se detalla en [Análisis de una población](../../reporting/using/use-cases.md#analyzing-a-population).
+Las opciones de configuración disponibles para un informe creado mediante la plantilla de distribución **[!UICONTROL Qualitative distribution]** se detallan en [Visualización de datos en la tabla](#displaying-data-in-the-table). Un ejemplo completo se detalla en [Análisis de una población](../../reporting/using/use-cases.md#analyzing-a-population).
 
 Cuando utiliza el asistente de análisis descriptivo para analizar los datos, las opciones disponibles dependen de la configuración elegida. A continuación se detallan dichas acciones.
 
@@ -80,20 +80,20 @@ Cuando se seleccionan las variables que se van a mostrar, puede definir el agrup
 
 >[!NOTE]
 >
->When the field concerned by the calculation is computed using an aggregate, check **[!UICONTROL The data is already aggregated]** to improve performances.
+>Cuando el cálculo del campo se computa mediante un acumulado, marque **[!UICONTROL The data is already aggregated]** para mejorar el rendimiento.
 
 Las opciones difieren según el contenido del campo:
 
-* **[!UICONTROL None]** :: esta opción le permite mostrar todos los valores disponibles para la variable, sin necesidad de enlazarla.
+* **[!UICONTROL None]**: esta opción permite mostrar todos los valores disponibles para la variable, sin agrupamiento.
 
    >[!CAUTION]
    >
    >Esta opción debe utilizarse con cuidado: puede tener un impacto importante sobre el informe y el rendimiento del equipo.
 
-* **[!UICONTROL Auto]** :: esta opción le permite mostrar los n valores representados con más frecuencia. Se calculan automáticamente y cada uno representa un porcentaje de las variables en comparación con el número de intervalos. En el caso de los valores numéricos, Adobe Campaign genera automáticamente “n” clases para ordenar los datos.
-* **[!UICONTROL Manual]** :: esta opción funciona como la **[!UICONTROL Auto]** opción, excepto que puede establecer estos valores manualmente. To do this, click the **[!UICONTROL Add]** button to the right of the value table.
+* **[!UICONTROL Auto]**: esta opción permite mostrar los “n” valores representados con más frecuencia. Se calculan automáticamente y cada uno representa un porcentaje de las variables en comparación con el número de intervalos. En el caso de los valores numéricos, Adobe Campaign genera automáticamente “n” clases para ordenar los datos.
+* **[!UICONTROL Manual]**: esta opción funciona como la opción **[!UICONTROL Auto]**, excepto que estos valores se pueden definir manualmente. Para ello, haga clic en el botón **[!UICONTROL Add]** a la derecha de la tabla de valores.
 
-   Values can be initialized automatically by Adobe Campaign before personalization: to do this, enter the number of bins you want to generate and click the **[!UICONTROL Initialize with]** link, as shown below:
+   Adobe Campaign puede inicializar los valores automáticamente antes de la personalización: para ello, introduzca el número de grupos que desee generar y haga clic en el vínculo **[!UICONTROL Initialize with]**, como se muestra a continuación:
 
    ![](assets/reporting_descriptive_initialize.png)
 
@@ -105,7 +105,7 @@ Las opciones difieren según el contenido del campo:
 
    ![](assets/reporting_descriptive_group_by_year.png)
 
-* **[!UICONTROL Modulo]** :: permite crear grupos de valores en caso de valores numéricos. Por ejemplo, un módulo con un valor de 10 le permite crear un intervalo de valores que cambian de diez en diez.
+* **[!UICONTROL Modulo]**: permite crear grupos de valores en el caso de valores numéricos. Por ejemplo, un módulo con un valor de 10 le permite crear un intervalo de valores que cambian de diez en diez.
 
    ![](assets/reporting_descriptive_initialize_modulo.png)
 
@@ -121,7 +121,7 @@ Utilice la barra de herramientas para personalizar la visualización de variable
 
 La sección superior de la ventana permite seleccionar la configuración de visualización.
 
-Puede mostrar u ocultar el nombre de las estadísticas y los subtotales y elegir la orientación de las estadísticas. Para obtener más información sobre esto, consulte Configuración [de visualización de informes de](../../reporting/using/processing-a-report.md#analysis-report-display-settings)análisis.
+Puede mostrar u ocultar el nombre de las estadísticas y los subtotales y elegir la orientación de las estadísticas. Para obtener más información, consulte [Configuración de la visualización del informe de análisis](../../reporting/using/processing-a-report.md#analysis-report-display-settings).
 
 ### Visualización de datos en el gráfico {#displaying-data-in-the-chart}
 
@@ -135,9 +135,9 @@ A continuación, seleccione el tipo de gráfico deseado.
 
 >[!NOTE]
 >
->Puede mostrar las variables en un gráfico y en una tabla al mismo tiempo. To do this, enter the variables in the **[!UICONTROL Table configuration]** window. Click **[!UICONTROL Next]** and select the type of chart in the chart configuration window. Si se definen las subdimensiones en la tabla, no se muestran en el gráfico.
+>Puede mostrar las variables en un gráfico y en una tabla al mismo tiempo. Para ello, introduzca las variables en la ventana **[!UICONTROL Table configuration]**. Haga clic en **[!UICONTROL Next]** y seleccione el tipo de gráfico en la ventana de configuración del gráfico. Si se definen las subdimensiones en la tabla, no se muestran en el gráfico.
 
-Click the **[!UICONTROL Variants]** link to modify the chart properties.
+Haga clic en el vínculo **[!UICONTROL Variants]** para modificar las propiedades del gráfico.
 
 ![](assets/reporting_descriptive_graphe_options.png)
 
@@ -147,27 +147,27 @@ Las opciones ofrecidas dependen del tipo de gráfico seleccionado. Para obtener 
 
 El asistente de análisis descriptivo le permite calcular varios tipos de estadísticas relacionadas con los datos. De forma predeterminada, solo se configura un recuento simple.
 
-Click **[!UICONTROL Add]** to create a new statistic.
+Haga clic en **[!UICONTROL Add]** para crear una estadística nueva.
 
 ![](assets/reporting_descriptive_create_stat.png)
 
 Las siguientes operaciones son posibles:
 
-* **[!UICONTROL Count]** para contar todos los valores no nulos del campo que se van a agregar, incluidos los valores duplicados (del campo agregado),
-* **[!UICONTROL Average]** calcular la media de los valores de un campo numérico,
-* **[!UICONTROL Minimum]** calcular el mínimo de los valores de un campo numérico,
-* **[!UICONTROL Maximum]** calcular el máximo de los valores de un campo numérico,
-* **[!UICONTROL Sum]** calcular la suma de los valores de un campo numérico,
-* **[!UICONTROL Standard deviation]** para calcular cómo se dispersan los valores devueltos alrededor de la media,
-* **[!UICONTROL Row percentage distribution]** para calcular la relación entre el valor de una columna y el valor de una fila (disponible solo para tablas),
-* **[!UICONTROL Column percentage distribution]** para calcular la relación entre el valor de una fila y el valor de una columna (disponible solo para tablas),
-* **[!UICONTROL Total percentage distribution]** calcular la distribución de los destinatarios afectados por los valores,
+* **[!UICONTROL Count]** para contar todos los valores no nulos del campo que se van a acumular, incluidos los valores duplicados (del campo acumulado).
+* **[!UICONTROL Average]** para calcular la media de los valores de un campo numérico.
+* **[!UICONTROL Minimum]** para calcular el mínimo de los valores en un campo numérico.
+* **[!UICONTROL Maximum]** para calcular el máximo de los valores en un campo numérico,
+* **[!UICONTROL Sum]** para calcular la suma de los valores en un campo numérico.
+* **[!UICONTROL Standard deviation]** para calcular cómo se distribuyen los valores devueltos en torno a la media.
+* **[!UICONTROL Row percentage distribution]** para calcular la proporción del valor en una columna y el valor de una fila (solo disponible para tablas).
+* **[!UICONTROL Column percentage distribution]** para calcular la proporción del valor en una fila respecto al valor de una columna (solo disponible para tablas).
+* **[!UICONTROL Total percentage distribution]** para calcular la distribución de los destinatarios correspondientes según los valores.
 
    ![](assets/s_ncs_user_report_wizard_026.png)
 
-* **[!UICONTROL Calculated field]** para crear un operador personalizado (disponible solo para tablas). The **[!UICONTROL User function]** field lets you enter the calculation to be applied to the data.
+* **[!UICONTROL Calculated field]** para crear un operador personalizado (disponible solo para tablas). El campo **[!UICONTROL User function]** permite introducir el cálculo que se debe aplica a los datos.
 
-   Ejemplo: Calcular el importe promedio de compra por cliente en función del país y el origen
+   Ejemplo: Cálculo del importe promedio de compra por cliente según el país y el origen.
 
    ![](assets/report_compute_data_sample1.png)
 
@@ -179,11 +179,11 @@ Las siguientes operaciones son posibles:
 
       ![](assets/report_compute_data_sample2.png)
 
-   1. Esta estadística no se muestra en la tabla. Debe desmarcar la **[!UICONTROL Display in the table]** opción de la **[!UICONTROL Advanced]** ficha.
+   1. Esta estadística no se muestra en la tabla. Debe desactivar la opción **[!UICONTROL Display in the table]** de la pestaña **[!UICONTROL Advanced]**.
 
       ![](assets/report_compute_data_sample3.png)
 
-   1. Cree una nueva estadística de **[!UICONTROL Calculated field]** tipo e introduzca la fórmula siguiente en el **[!UICONTROL User function]** campo: **@purchase/@count**.
+   1. Cree una nueva estadística de tipo **[!UICONTROL Calculated field]** e introduzca la fórmula siguiente en el campo **[!UICONTROL User function]**:**@purchases/@count**.
 
       ![](assets/report_compute_data_sample4.png)
 
@@ -207,9 +207,9 @@ Cuando el informe incluye un gráfico, las etiquetas del pie de ilustración per
 
 Para generar un análisis descriptivo, seleccione la opción **análisis descriptivo nuevo desde una plantilla** si no está seleccionada de forma predeterminada.
 
-The **[!UICONTROL Quantitative distribution]** template that lets you generate statistics on data which can be measured or counted (e.g. invoice amount, age of recipients).
+La plantilla de **[!UICONTROL Quantitative distribution]** que permite generar estadísticas de los datos que se pueden medir o contar (por ejemplo: importe de la factura, edad de los destinatarios).
 
-The configuration mode of an analysis report created via the **[!UICONTROL Quantitative distribution]** template is detailed in an implementation example [Quantitative data analysis](../../reporting/using/use-cases.md#quantitative-data-analysis).
+El modo de configuración de un informe de análisis creado mediante la plantilla **[!UICONTROL Quantitative distribution]** se detalla en el ejemplo de implementación ](../../reporting/using/use-cases.md#quantitative-data-analysis)Análisis de datos cuantitativos[.
 
 Las opciones disponibles al utilizar el asistente de análisis descriptivo para crear un informe cuantitativo se describen a continuación.
 
@@ -221,17 +221,17 @@ De forma predeterminada, Adobe Campaign ofrece una serie de estadísticas a calc
 
 Las siguientes operaciones son posibles:
 
-* **[!UICONTROL Count]** para contar todos los valores no nulos del campo que se van a agregar, incluidos los valores duplicados (del campo agregado),
-* **[!UICONTROL Average]** calcular la media de los valores de un campo numérico,
-* **[!UICONTROL Minimum]** calcular el mínimo de los valores de un campo numérico,
-* **[!UICONTROL Maximum]** para calcular el máximo de los valores de un campo numérico.
-* **[!UICONTROL Sum]** calcular la suma de los valores de un campo numérico,
-* **[!UICONTROL Standard deviation]** para calcular cómo se distribuyen los valores devueltos alrededor del promedio.
+* **[!UICONTROL Count]** para contar todos los valores no nulos del campo que se van a acumular, incluidos los valores duplicados (del campo acumulado).
+* **[!UICONTROL Average]** para calcular la media de los valores de un campo numérico.
+* **[!UICONTROL Minimum]** para calcular el mínimo de los valores en un campo numérico.
+* **[!UICONTROL Maximum]** para calcular el máximo de los valores en un campo numérico.
+* **[!UICONTROL Sum]** para calcular la suma de los valores en un campo numérico.
+* **[!UICONTROL Standard deviation]** para calcular cómo se distribuyen los valores devueltos en torno a la media.
 * **[!UICONTROL Number of missing values]** para calcular el número de campos numéricos sin valores definidos.
 * **[!UICONTROL Decile distribution]** para distribuir los valores devueltos de forma que cada uno represente 1/10 de los valores de un campo numérico.
-* **[!UICONTROL Custom distribution]** para distribuir los valores devueltos en función de los umbrales definidos por el usuario.
+* **[!UICONTROL Custom distribution]** para distribuir los valores devueltos según los umbrales definidos por el usuario.
 
-   The **[!UICONTROL Detail...]** button lets you edit a statistic and, if needed, personalize its calculation or its display:
+   El botón **[!UICONTROL Detail...]** permite editar una estadística y, si es necesario, personalizar su cálculo o su visualización:
 
    ![](assets/s_ncs_user_report_wizard_030.png)
 
