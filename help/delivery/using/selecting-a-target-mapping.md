@@ -14,7 +14,7 @@ discoiquuid: e2c6e273-1640-4f46-a80e-0cecb06e2769
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 # Selección de un destino de mapeo{#selecting-a-target-mapping}
 
-By default, delivery templates target **[!UICONTROL Recipients]**. El destino de mapeo utiliza los campos de la tabla **nms:recipient.** Adobe Campaign ofrece otros destinos de mapeo para los envíos, que puede usar según sus necesidades.
+De forma predeterminada, las plantillas de envío tienen como destino **[!UICONTROL Recipients]**. El destino de mapeo utiliza los campos de la tabla **nms:recipient.** Adobe Campaign ofrece otros destinos de mapeo para las entregas, que puede usar según sus necesidades.
 
 ![](assets/delivery_select_mapping.png)
 
@@ -36,7 +36,7 @@ Estos mapeos son los siguientes:
 | Suscripciones de visitantes | Envío a los visitantes que están suscritos a un servicio de información | nms:visitorSub |
 | Servicio | Publicación en una cuenta de Twitter o en una página de Facebook | nms:service |
 | Operadores | Envío a los operadores de Adobe Campaign | nms:operator |
-| Archivo externo | Envío a través de un archivo que contiene toda la información necesaria para el envío | No hay ningún esquema vinculado, no se ha introducido ningún destino |
+| Archivo externo | Envío a través de un archivo que contiene toda la información necesaria para la entrega | No hay ningún esquema vinculado, no se ha introducido ningún destino |
 
 >[!NOTE]
 >
