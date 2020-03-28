@@ -14,7 +14,7 @@ discoiquuid: 67d1d39b-3a5f-4ed6-8fcf-570891043b10
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 Los contenedores permiten combinar los campos de una página y configurar su diseño para organizar los elementos de la página.
 
-For each page of the form, containers are created via the **[!UICONTROL Containers]** button of the toolbar.
+Para cada página del formulario, los contenedores se crean mediante el botón **[!UICONTROL Containers]** de la barra de herramientas.
 
 ![](assets/s_ncs_admin_survey_containers_add.png)
 
@@ -36,7 +36,7 @@ Por ejemplo:
 
 ![](assets/s_ncs_admin_survey_containers_std_arbo.png)
 
-La posición de las etiquetas se aplica a los elementos situados bajo el contenedor en la jerarquía. Puede sobrecargarse para cada elemento si es necesario. Añada o quite columnas para cambiar el diseño. See [Positioning the fields on the page](#positioning-the-fields-on-the-page).
+La posición de las etiquetas se aplica a los elementos situados bajo el contenedor en la jerarquía. Puede sobrecargarse para cada elemento si es necesario. Añada o quite columnas para cambiar el diseño. Consulte [Colocación de los campos en la página](#positioning-the-fields-on-the-page).
 
 En el ejemplo anterior, la renderización es la siguiente:
 
@@ -74,7 +74,7 @@ Se puede modificar el formato en cada contenedor. En este ejemplo, se puede exte
 
 ![](assets/s_ncs_admin_survey_container_ex2_rend.png)
 
-El título y la lista ocupan una celda cada uno (y, por tanto, una línea completa del contenedor) y la casilla de verificación se extiende por dos celdas. The number of cells attributed to the input field is defined in the **[!UICONTROL General]** tab or the **[!UICONTROL Advanced]** tab, according to the type of field:
+El título y la lista ocupan una celda cada uno (y, por tanto, una línea completa del contenedor) y la casilla de verificación se extiende por dos celdas. El número de celdas atribuido al campo de entrada se define en la pestaña **[!UICONTROL General]** o en la pestaña **[!UICONTROL Advanced]**, según el tipo de campo:
 
 ![](assets/s_ncs_admin_survey_container_ex2.png)
 
@@ -84,11 +84,11 @@ Puede definir la alineación de campos y etiquetas en el formulario.
 
 De forma predeterminada, los parámetros de visualización para campos y otro contenido de la página se heredan de la configuración general del formulario, la configuración de la página o la configuración del contenedor principal, si existe.
 
-Los parámetros de visualización globales para todo el formulario se especifican en el cuadro de propiedades del formulario. The **[!UICONTROL Rendering]** tab lets you select the position of labels.
+Los parámetros de visualización globales para todo el formulario se especifican en el cuadro de propiedades del formulario. La pestaña **[!UICONTROL Rendering]** permite seleccionar la posición de las etiquetas.
 
 ![](assets/s_ncs_admin_survey_label_position.png)
 
-This position can be overloaded for each page, each container, and each field, via the **[!UICONTROL Advanced]** tab.
+Esta posición se puede sobrecargar para cada página, cada contenedor y cada campo, a través de la pestaña **[!UICONTROL Advanced]**.
 
 Se admiten las siguientes alineaciones:
 
