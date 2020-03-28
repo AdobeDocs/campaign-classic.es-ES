@@ -14,7 +14,7 @@ discoiquuid: 6850851d-1dbe-44f0-bbff-18dbac2cad9a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -26,13 +26,13 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 Este capítulo detalla el diseño de un formulario de tipo **Encuesta** utilizando Adobe Campaign, así como las opciones y configuraciones disponibles. Adobe Campaign le permite poner esta encuesta a disposición de los usuarios y recopilar y archivar respuestas en la base de datos.
 
-Web forms are accessed via the **[!UICONTROL Resources > Online > Web applications]** node of the tree. To create a survey, click the **[!UICONTROL New]** button above the list of applications, or right-click the list and choose **[!UICONTROL New]**.
+Se accede a los formularios web a través del nodo de árbol **[!UICONTROL Resources > Online > Web applications]**. Para crear una encuesta, haga clic en el botón **[!UICONTROL New]** situado encima de la lista de aplicaciones o haga clic con el botón derecho en la lista y seleccione **[!UICONTROL New]**.
 
-Select the survey template (**[!UICONTROL newSurvey]** by default).
+Seleccione la plantilla de encuesta (**[!UICONTROL newSurvey]** de forma predeterminada).
 
 ![](assets/s_ncs_admin_survey_select_template.png)
 
-Las páginas del formulario se crean utilizando un editor especial que permite definir y configurar campos de entrada (texto), campos de selección (listas, casillas de verificación, etc.) y elementos estáticos (imágenes, contenido HTML, etc.). They can be collected in &quot;containers&quot; and laid out according to requirements (see [Adding questions](#adding-questions)).
+Las páginas del formulario se crean utilizando un editor especial que permite definir y configurar campos de entrada (texto), campos de selección (listas, casillas de verificación, etc.) y elementos estáticos (imágenes, contenido HTML, etc.). Se pueden recopilar en “contenedores” y mostrar según los requisitos (consulte [Añadir preguntas](#adding-questions)).
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Las páginas del formulario se crean utilizando un editor especial que permite d
 
 ## Adición de campos {#adding-fields}
 
-Los campos de un formulario permiten a los usuarios introducir información y seleccionar opciones. For each page in the form, they are created via the first button in the toolbar using the **[!UICONTROL Add using the wizard]** menu.
+Los campos de un formulario permiten a los usuarios introducir información y seleccionar opciones. Se crean mediante el primer botón de la barra de herramientas de cada página del formulario, con el menú **[!UICONTROL Añadir usando el asistente]**.
 
 ![](assets/s_ncs_admin_survey_add_field_menu.png)
 
@@ -52,16 +52,16 @@ Los campos de un formulario permiten a los usuarios introducir información y se
 
 Cuando añada un campo a una encuesta, debe seleccionar su tipo. Estas son las opciones disponibles:
 
-1. **[!UICONTROL Answer a question]**:: esta opción permite declarar un nuevo campo (conocido como &quot;campo archivado&quot;) para almacenar respuestas. En este caso, se guardan todos los valores recopilados, incluso cuando un participante rellene el formulario más de una vez. Este modo de almacenamiento solo está disponible en **Encuestas**. Consulte [Almacenamiento de las respuestas](../../web/using/managing-answers.md#storing-collected-answers)recopiladas.
-1. **[!UICONTROL Edit a recipient]**:: esta opción permite seleccionar un campo en la base de datos. En este caso, las respuestas del usuario se almacenan en este campo. Para cada usuario, se conserva únicamente el último valor guardado y se añade a los datos del perfil.
-1. **[!UICONTROL Add a variable]**:: esta opción le permite crear una configuración para que la información no se almacene en la base de datos. Las variables locales se pueden declarar en sentido ascendente. También se puede añadirlos directamente al crear el campo.
-1. **[!UICONTROL Import an existing question]**:: esta opción le permite importar preguntas existentes creadas en otros estudios.
+1. **[!UICONTROL Answer a question]**: esta opción le permite declarar un nuevo campo (denominado “campo archivado”) para almacenar respuestas. En este caso, se guardan todos los valores recopilados, incluso cuando un participante rellene el formulario más de una vez. Este modo de almacenamiento solo está disponible en **Encuestas**. Consulte [Almacenamiento de las respuestas recopiladas](../../web/using/managing-answers.md#storing-collected-answers).
+1. **[!UICONTROL Edit a recipient]**: esta opción permite seleccionar un campo en la base de datos. En este caso, las respuestas del usuario se almacenan en este campo. Para cada usuario, se conserva únicamente el último valor guardado y se añade a los datos del perfil.
+1. **[!UICONTROL Add a variable]**: esta opción permite crear una configuración para que la información no se almacene en la base de datos. Las variables locales se pueden declarar en sentido ascendente. También se puede añadirlos directamente al crear el campo.
+1. **[!UICONTROL Import an existing question]**: esta opción permite importar los campos existentes creados en otras encuestas.
 
    >[!NOTE]
    >
-   >Los modos de almacenamiento y las importaciones de campo se detallan en [Almacenamiento de las respuestas](../../web/using/managing-answers.md#storing-collected-answers)recopiladas.
+   >Los modos de almacenamiento y las importaciones de campo se detallan en [Almacenamiento de las respuestas recopiladas](../../web/using/managing-answers.md#storing-collected-answers).
 
-La naturaleza del campo que desea añadir (lista desplegable, campo de texto, casillas de verificación, etc.) se adapta al modo de almacenamiento seleccionado. You can change it using the **[!UICONTROL Type]** field of the **[!UICONTROL General]** tab, but make sure to remain consistent with the data type.
+La naturaleza del campo que desea añadir (lista desplegable, campo de texto, casillas de verificación, etc.) se adapta al modo de almacenamiento seleccionado. Se puede cambiarlo con el campo **[!UICONTROL Tipo]** de la pestaña **[!UICONTROL General]**, pero asegúrese de mantener la coherencia con el tipo de datos.
 
 ![](assets/s_ncs_admin_survey_change_type.png)
 
@@ -73,7 +73,7 @@ Las encuestas en línea utilizan funcionalidades de las aplicaciones web. A cont
 
 ### Opción múltiple {#multiple-choice}
 
-For **[!UICONTROL Multiple choice]** type controls, you can define a minimum and maximum number of selections. Por ejemplo, esta opción le permite forzar la selección de al menos **2** valores y como máximo **4** valores de las opciones disponibles:
+Para los controles de tipo **[!UICONTROL Múltiples opciones]**, puede definir una cantidad mínima y máxima de selecciones. Por ejemplo, esta opción le permite forzar la selección de al menos **2** valores y como máximo **4** valores de las opciones disponibles:
 
 ![](assets/s_ncs_admin_survey_multichoice_ex1.png)
 
@@ -89,14 +89,14 @@ La configuración correspondiente es la siguiente:
 
 ![](assets/s_ncs_admin_survey_multichoice_ex3.png)
 
-In addition, the storage location for this input field must be a **[!UICONTROL Multiple values]** type **archived field**:
+Además, la ubicación de almacenamiento para este campo de entrada debe ser de **[!UICONTROL Múltiples valores]**, de tipo **campo archivado**:
 
 ![](assets/s_ncs_admin_survey_multiple_values_field.png)
 
 >[!CAUTION]
 >
->* Esta funcionalidad solo está disponible para los formularios de tipo **Encuesta** .
->* Esta opción no es compatible con la visualización de preguntas aleatorias. For more on this, refer to [Adding questions](#adding-questions).
+>* Esta funcionalidad solo está disponible para los formularios de tipo **Encuesta**.
+>* Esta opción no es compatible con la visualización de preguntas aleatorias. Para obtener más información, consulte [Añadir preguntas](#adding-questions).
 
 
 ### Adición de preguntas {#adding-questions}
@@ -111,7 +111,7 @@ Utilice un contenedor de **Pregunta** para añadir una pregunta a la página y p
 
 ![](assets/s_ncs_admin_question_label.png)
 
-La etiqueta de la pregunta se introduce en el campo de etiqueta. En este caso, se aplica el estilo de la hoja de estilo del formulario. Seleccione la **[!UICONTROL Enter the title in HTML format]** opción para personalizarla. Esto le proporciona acceso al editor HTML.
+La etiqueta de la pregunta se introduce en el campo de etiqueta. En este caso, se aplica el estilo de la hoja de estilo del formulario. Seleccione la opción **[!UICONTROL Enter the title in HTML format]** para personalizarla. Esto le proporciona acceso al editor HTML.
 
 >[!NOTE]
 >
@@ -141,5 +141,5 @@ Cuando se actualiza la página, las preguntas mostradas no son las mismas.
 
 >[!CAUTION]
 >
->When you display a question randomly (**[!UICONTROL Display randomly]** option checked on the page), be careful not to use multiple choice questions for which one or more selections are mandatory.
+>Cuando visualice una pregunta de forma aleatoria (opción **[!UICONTROL Display randomly]** activada en la página), asegúrese de no utilizar preguntas de opción múltiple para las que una o más selecciones sean obligatorias.
 
