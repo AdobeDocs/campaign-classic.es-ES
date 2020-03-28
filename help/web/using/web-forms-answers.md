@@ -14,7 +14,7 @@ discoiquuid: c89926b6-488e-4c72-8f67-b6af388bade3
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -24,29 +24,29 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ## Campos de almacenamiento de respuestas {#response-storage-fields}
 
-Las respuestas a los formularios se pueden guardar en un campo de la base de datos o temporalmente en una variable local. El modo de almacenamiento de las respuestas se elige durante la creación del campo. It can be edited via the **[!UICONTROL Edit storage...]** link.
+Las respuestas a los formularios se pueden guardar en un campo de la base de datos o temporalmente en una variable local. El modo de almacenamiento de las respuestas se elige durante la creación del campo. Se puede editar mediante el vínculo **[!UICONTROL Edit storage...]**.
 
 Para cada campo de entrada de un formulario, están disponibles las siguientes opciones de almacenamiento:
 
 ![](assets/s_ncs_admin_survey_select_storage.png)
 
-* **[!UICONTROL Edit a recipient]**
+* **[!UICONTROL Edición de un destinatario]**
 
-   Se puede seleccionar un campo de la base de datos: las respuestas de los usuarios se almacenan en este campo. Para cada usuario, solo se guarda el último valor introducido: se agrega a su perfil: Consulte [Almacenamiento de datos en la base de datos](#storing-data-in-the-database).
+   Se puede seleccionar un campo de la base de datos: las respuestas de los usuarios se almacenan en este campo. Para cada usuario, solo se guarda el último valor introducido: se añade a su perfil: Consulte [Almacenamiento de datos en la base de datos](#storing-data-in-the-database).
 
 * **[!UICONTROL Variable]**
 
-   Si no desea almacenar información en la base de datos, puede utilizar una variable. Las variables locales se pueden declarar en sentido ascendente. Consulte [Almacenamiento de datos en una variable](#storing-data-in-a-local-variable)local.
+   Si no desea almacenar información en la base de datos, puede utilizar una variable. Las variables locales se pueden declarar en sentido ascendente. Consulte [Almacenamiento de datos en una variable local ](#storing-data-in-a-local-variable).
 
-### Storing data in the database {#storing-data-in-the-database}
+### Almacenamiento de información en la base de datos {#storing-data-in-the-database}
 
-To save the data in an existing field of the database, click the **[!UICONTROL Edit expression]** icon and select it from the list of available fields.
+Para guardar la información en un campo existente de la base de datos, haga clic en el icono **[!UICONTROL Edit expression]** y selecciónela en la lista de campos disponibles.
 
 ![](assets/s_ncs_admin_survey_storage_type1.png)
 
 >[!NOTE]
 >
->El documento de referencia predeterminado es el esquema **nms:recipient.** To view it or to choose a new one, select the form from the list, and click the **[!UICONTROL Properties]** button.
+>El documento de referencia predeterminado es el esquema **nms:recipient.** Para verla o elegir una nuevo, seleccione el formulario en la lista y haga clic en el botón **[!UICONTROL Properties]**.
 
 ### Almacenamiento de datos en una variable local {#storing-data-in-a-local-variable}
 
@@ -56,11 +56,11 @@ Esto significa que se puede utilizar el valor de un campo sin guardar para autor
 
 ![](assets/s_ncs_admin_survey_no_storage_variable.png)
 
-It is stored in a variable which must be selected when the drop-down box is created, or via the **[!UICONTROL Edit storage...]** link.
+Se almacena en una variable que se debe seleccionar cuando se crea la casilla desplegable o a través del vínculo **[!UICONTROL Edit storage...]**.
 
 ![](assets/s_ncs_admin_survey_no_storage_variable2.png)
 
-You can display existing variables and create new ones via the **[!UICONTROL Edit variables...]** link. Click the **[!UICONTROL Add]** button to create a new variable.
+Puede mostrar las variables existentes y crear variables nuevas mediante el vínculo **[!UICONTROL Edit variables...]**. Haga clic en el botón **[!UICONTROL Add]** para crear una variable nueva.
 
 ![](assets/s_ncs_admin_survey_add_a_variable.png)
 
@@ -68,11 +68,11 @@ La variable añadida está disponible en la lista de variables locales cuando se
 
 >[!NOTE]
 >
->Para cada formulario, se pueden crear variables de subida. To do this, select the form and click the **[!UICONTROL Properties]** button. The **[!UICONTROL Variables]** tab contains the local variables for the form.
+>Para cada formulario, se pueden crear variables de subida. Para ello, seleccione el formulario y haga clic en el botón **[!UICONTROL Properties]**. La pestaña **[!UICONTROL Variables]** contiene las variables locales del formulario.
 
 **Ejemplo de almacenamiento local con condicionamiento**
 
-In the above example, the container that includes data concerning private vehicles is displayed only if the **[!UICONTROL Private]** option is selected from the drop-down list, as indicated in the visibility condition:
+En el ejemplo anterior, el contenedor que incluye los datos sobre los vehículos privados solo se muestra si la opción **[!UICONTROL Private]** está seleccionada en la lista desplegable, como se indica en la condición de visibilidad:
 
 ![](assets/s_ncs_admin_survey_add_a_condition.png)
 
@@ -112,7 +112,7 @@ Para cada formulario, las respuestas proporcionadas pueden reutilizarse en los c
 
    >[!NOTE]
    >
-   >Unlike the other fields for which `<%=` characters are replaced with escape characters, the HTML content is saved as is by using the `<%==` syntax.
+   >A diferencia de los demás campos para los que los caracteres `<%=` se sustituyen por caracteres de escape, el contenido HTML se guarda tal cual con la sintaxis `<%==`.
 
 ## Almacenamiento de respuestas de formularios web {#saving-web-forms-answers}
 
@@ -122,9 +122,9 @@ Para guardar la información recopilada en las páginas de un formulario, se deb
 
 Este cuadro se puede utilizar de dos formas:
 
-* If the Web form is accessed via a link sent in an email, and if the user accessing the application is already in the database, you can check the **[!UICONTROL Update the preloaded record]** option. Para obtener más información sobre esto, consulte [Envío de un formulario por correo electrónico](../../web/using/publishing-a-web-form.md#delivering-a-form-via-email).
+* Si se accede al formulario web a través de un vínculo enviado en un correo electrónico y si el usuario que accede a la aplicación ya está en la base de datos, se puede seleccionar la opción **[!UICONTROL Update the preloaded record]**. Para obtener más información, consulte [Envío de un formulario por correo electrónico](../../web/using/publishing-a-web-form.md#delivering-a-form-via-email).
 
-   En este caso, Adobe Campaign utiliza la clave principal encriptada del perfil de usuario, un identificador único asignado a cada perfil mediante Adobe Campaign. Se debe configurar la información para precargarla mediante el cuadro de precarga. Para obtener más información sobre esto, consulte [Carga previa de los datos](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data)del formulario.
+   En este caso, Adobe Campaign utiliza la clave principal encriptada del perfil de usuario, un identificador único asignado a cada perfil mediante Adobe Campaign. Se debe configurar la información para precargarla mediante el cuadro de precarga. Para obtener más información, consulte [Precarga de los datos del formulario](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data).
 
    >[!CAUTION]
    >
@@ -134,7 +134,7 @@ Este cuadro se puede utilizar de dos formas:
 
    ![](assets/s_ncs_admin_survey_save_box_edit.png)
 
-By default, the data is imported into the database by an **[!UICONTROL Update or insertion]** operation: if it exists in the database, the element is updated (for example, the selected newsletter or the e-mail address entered). Si no existe, se añade la información.
+De forma predeterminada, los datos se importan en la base de datos mediante una operación **[!UICONTROL Update or insertion]**: si existe en la base de datos, el elemento se actualiza (por ejemplo, el boletín informativo seleccionado o la dirección de correo electrónico ingresada). Si no existe, se añade la información.
 
 Sin embargo, se puede cambiar este comportamiento. Para ello, seleccione la raíz del elemento y la operación que desea ejecutar en la lista desplegable:
 
@@ -144,7 +144,7 @@ Puede seleccionar una carpeta de búsqueda para la reconciliación y una carpeta
 
 >[!NOTE]
 >
->Las operaciones posibles son: **[!UICONTROL Simple reconciliation]**, **[!UICONTROL Update or insertion]**, **[!UICONTROL Insertion]**, **[!UICONTROL Update]**, **[!UICONTROL Deletion]**.\
+>Las operaciones posible son: **[!UICONTROL Simple reconciliation]**, **[!UICONTROL Update or insertion]**, **[!UICONTROL Insertion]**, **[!UICONTROL Update]** y **[!UICONTROL Deletion]**.\
 >La carpeta predeterminada de un operador es la primera carpeta para la que el operador tiene permiso de escritura.\
 >Consulte [esta sección](../../platform/using/access-management.md).
 
