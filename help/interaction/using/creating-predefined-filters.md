@@ -14,7 +14,7 @@ discoiquuid: d47017a3-a342-4758-a700-b8e88aa724f2
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 28614a6b0c45deef17d9b3275a16e65bdff4538b
 
 ---
@@ -26,11 +26,11 @@ Los filtros predefinidos permiten crear reglas de idoneidad para la población d
 
 Para crear un filtro, siga los siguientes pasos:
 
-1. Vaya a la **[!UICONTROL Administration]** carpeta y seleccione **[!UICONTROL Pre-defined offer filters]**.
+1. Vaya a la carpeta **[!UICONTROL Administration]** y seleccione **[!UICONTROL Pre-defined offer filters]**.
 
    ![](assets/offer_filter_create_005.png)
 
-1. Haga clic **[!UICONTROL New]**.
+1. Haga clic en **[!UICONTROL New]**.
 
    ![](assets/offer_filter_create_001.png)
 
@@ -46,10 +46,10 @@ Para crear un filtro, siga los siguientes pasos:
 
    ![](assets/offer_filter_create_004.png)
 
-1. Click **[!UICONTROL Preview]** to view the result of the filter.
+1. Haga clic en **[!UICONTROL Preview]** para ver el resultado del filtro.
 
    ![](assets/offer_filter_create_006.png)
 
-**Tema relacionado**
+**Temas relacionados**
 
-* [Guardar consultas usadas con frecuencia como filtros editables predefinidos](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Savefrequentlyusedqueriesaseditablepredefinedfilters)
+* [Guardar consultas usadas con frecuencia como filtros editables predefinidos](https://helpx.adobe.com/es/campaign/kb/simplifying-campaign-management-acc.html#Savefrequentlyusedqueriesaseditablepredefinedfilters)
