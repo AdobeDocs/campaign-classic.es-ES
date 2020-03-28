@@ -14,7 +14,7 @@ discoiquuid: affecd87-00a3-4d50-92d3-31ac6228948b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -32,15 +32,15 @@ Además de los modos de almacenamiento estándar comunes a todos los formularios
 
 ### Almacenamiento en un campo archivado {#storing-in-an-archived-field}
 
-Es fácil ampliar la plantilla de datos mediante la adición de nuevos espacios de almacenamiento para guardar las respuestas que se proporcionan en las encuestas. To do this, select the **[!UICONTROL Store answers to a question]** option when creating the input field. Click the **[!UICONTROL New field...]** link and give its properties:
+Es fácil ampliar la plantilla de datos mediante la adición de nuevos espacios de almacenamiento para guardar las respuestas que se proporcionan en las encuestas. Para ello, seleccione la opción **[!UICONTROL Store answers to a question]** al crear el campo de entrada. Haga clic en el vínculo **[!UICONTROL New field...]** y proporcione sus propiedades:
 
 ![](assets/s_ncs_admin_survey_new_space.png)
 
 Introduzca la etiqueta y el nombre del campo y seleccione el tipo de campo: Texto, Booleano, Número entero o decimal, Fecha, etc.
 
-El tipo de campo seleccionado implica un control de los datos cuando los usuarios introducen respuestas. Para los campos de **texto** , puede agregar una restricción (mayúsculas y minúsculas, formato) o un vínculo a una enumeración existente para forzar la selección.
+El tipo de campo seleccionado implica un control de los datos cuando los usuarios introducen respuestas. Para los campos de **texto**, puede añadir una restricción (mayúsculas y minúsculas, formato) o un vínculo a una enumeración existente para forzar la selección.
 
-Para agregar una restricción, selecciónela en la lista desplegable. Hay dos tipos de restricciones:
+Para añadir una restricción, selecciónela en la lista desplegable. Hay dos tipos de restricciones:
 
 1. De caracteres
 
@@ -48,25 +48,25 @@ Para agregar una restricción, selecciónela en la lista desplegable. Hay dos ti
 
 1. Formato de datos
 
-If this field is used in a list, the values of the enumeration can be retrieved automatically in the table of values using the **[!UICONTROL Initialize the list of values from the database]** link above the list of values.
+Si este campo se utiliza en una lista, los valores de la enumeración pueden recuperarse automáticamente en la tabla de valores con el vínculo **[!UICONTROL Initialize the list of values from the database]** situado sobre la lista de valores.
 
 Por ejemplo, puede crear una lista desplegable para que el usuario seleccione su lengua materna. El campo archivado correspondiente se puede asociar a la enumeración **idioma** que contiene una lista de idiomas:
 
 ![](assets/s_ncs_admin_survey_database_values_2b.png)
 
-The **[!UICONTROL Edit link]** icon located to the right of the field lets you edit the content of this enumeration:
+El icono **[!UICONTROL Edit link]** situado a la derecha del campo permite editar el contenido de esta enumeración:
 
 ![](assets/s_ncs_admin_survey_database_values_2c.png)
 
-En la **[!UICONTROL General]** ficha del campo, el **[!UICONTROL Initialize the list of values from the database]** vínculo le permite introducir automáticamente la lista de etiquetas ofrecidas.
+En la pestaña **[!UICONTROL General]** del campo, el vínculo **[!UICONTROL Initialize the list of values from the database]** permite introducir automáticamente la lista de etiquetas ofrecidas.
 
 ![](assets/s_ncs_admin_survey_database_values_2.png)
 
 **Ejemplo**: almacene los contratos de un destinatario en un campo
 
-To store different types of contracts in one field, create a **[!UICONTROL Text]** input field and select the **[!UICONTROL Store answers to a question]** option.
+Para almacenar distintos tipos de contratos en un campo, cree un campo de entrada **[!UICONTROL Text]** y seleccione la opción **[!UICONTROL Store answers to a question]**.
 
-Click the **[!UICONTROL New field...]** link and enter the field properties. Select the **[!UICONTROL Multiple values]** option to enable several values to be stored.
+Haga clic en el vínculo **[!UICONTROL New field...]** para ingresar las propiedades del campo. Seleccione la opción **[!UICONTROL Multiple values]** para habilitar el almacenamiento de varios valores.
 
 ![](assets/s_ncs_admin_survey_storage_multi_ex1.png)
 
@@ -74,7 +74,7 @@ Cree campos de entrada para los demás contratos y almacene los datos en el mism
 
 ![](assets/s_ncs_admin_survey_storage_multi_ex2.png)
 
-When users approve the survey, their answers will be stored in the **[!UICONTROL Contracts]** field.
+Cuando los usuarios aprueban la encuesta, sus respuestas se almacenan en el campo **[!UICONTROL Contracts]**.
 
 En nuestro ejemplo, para las siguientes respuestas:
 
@@ -82,11 +82,11 @@ En nuestro ejemplo, para las siguientes respuestas:
 
 El perfil del encuestado contiene los cuatro contratos especificados.
 
-They can be viewed in the **[!UICONTROL Answers]** tab of the survey by displaying the relevant columns.
+Se pueden ver en la pestaña **[!UICONTROL Answers]** de la encuesta mostrando las columnas relevantes.
 
 ![](assets/s_ncs_admin_survey_storage_multi_ex4.png)
 
-También puede filtrar los destinatarios en función de las respuestas para mostrar solo los usuarios que le interesen. To do this, create a targeting workflow and use the **[!UICONTROL Survey responses]** box.
+También puede filtrar los destinatarios en función de las respuestas para mostrar solo los usuarios que le interesen. Para ello, cree un flujo de trabajo de objetivos y haga clic en la casilla **[!UICONTROL Survey responses]**.
 
 ![](assets/s_ncs_admin_survey_read_responses_wf.png)
 
@@ -106,7 +106,7 @@ Para cada formulario, las respuestas proporcionadas pueden utilizarse en campos 
 
 ### Ajustes de almacenamiento {#storage-settings}
 
-Es posible archivar las respuestas a las encuestas en formato XML. This lets you save a raw copy of the answers collected, which can be useful in case of excessive standardization of the data in an itemized list (for more on this, refer to [Standardizing data](../../web/using/publish--track-and-use-collected-data.md#standardizing-data)).
+Es posible archivar las respuestas a las encuestas en formato XML. Esto permite guardar una copia sin procesar de las respuestas recopiladas, lo que puede resultar útil en caso de una estandarización excesiva de los datos en una lista desglosada (para obtener más información, consulte [Estandarización de datos](../../web/using/publish--track-and-use-collected-data.md#standardizing-data)).
 
 >[!CAUTION]
 >
@@ -114,12 +114,12 @@ Es posible archivar las respuestas a las encuestas en formato XML. This lets you
 
 Para ello:
 
-* Edite las propiedades del estudio a través del **[!UICONTROL Properties]** botón de la **[!UICONTROL Edit]** ficha.
-* Haga clic en el **[!UICONTROL Advanced parameters]** vínculo y marque la **[!UICONTROL Save a copy of raw answers]** opción.
+* En la pestaña **[!UICONTROL Edit]**, edite las propiedades de la encuesta con el botón **[!UICONTROL Properties]**.
+* Haga clic en el vínculo **[!UICONTROL Advanced parameters]** y marque la opción **[!UICONTROL Save a copy of raw answers]**.
 
 ![](assets/s_ncs_admin_survey_xml_archive_option.png)
 
-Puede activarlo de manera predeterminada para todas las encuestas (esta opción se aplica cuando se publica la encuesta). To do this, create the **[!UICONTROL NmsWebApp_XmlBackup]** option and assign value **[!UICONTROL 1]** to it, as shown below:
+Puede activarlo de manera predeterminada para todas las encuestas (esta opción se aplica cuando se publica la encuesta). Para ello, cree la opción **[!UICONTROL NmsWebApp_XmlBackup]** y asígnele un valor **[!UICONTROL 1]**, como se muestra a continuación:
 
 ![](assets/s_ncs_admin_survey_xml_global_option.png)
 
@@ -133,7 +133,7 @@ Puede asignar una puntuación a las opciones ofrecidas en las páginas del formu
 
 ![](assets/s_ncs_admin_survey_score_create.png)
 
-The scores are accumulated and saved on the server side when the page is confirmed, i.e. when the user clicks the **[!UICONTROL Next]** or **[!UICONTROL Finish]** button.
+Las puntuaciones se acumulan y se guardan en el servidor cuando se confirma la página, es decir, cuando el usuario hace clic en el botón **[!UICONTROL Next]** o **[!UICONTROL Finish]**.
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ Las puntuaciones se pueden utilizar en pruebas o secuencias de comandos.
 >
 >Las puntuaciones no se pueden utilizar en las condiciones de visibilidad de los campos que se encuentran en la misma página. Sin embargo, se pueden utilizar en páginas posteriores.
 
-* To use scores in tests, use the **[!UICONTROL Score]** field in the test calculation formula, as shown below:
+* Para utilizar puntuaciones en pruebas, utilice el campo **[!UICONTROL Score]** de la fórmula de cálculo de prueba, como se muestra a continuación:
 
    ![](assets/s_ncs_admin_survey_score_in_a_test.png)
 
@@ -161,7 +161,7 @@ Las puntuaciones se pueden utilizar en pruebas o secuencias de comandos.
 
    ![](assets/s_ncs_admin_survey_score_exb.png)
 
-* When the user clicks the **[!UICONTROL Next]** button, the two values are added up.
+* Cuando el usuario hace clic en el botón **[!UICONTROL Next]**, se añaden dos valores.
 
    ![](assets/s_ncs_admin_survey_score_exe.png)
 
