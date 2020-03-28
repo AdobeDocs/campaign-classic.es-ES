@@ -14,7 +14,7 @@ discoiquuid: 2b799ad7-b729-4b3e-9adc-1df13259f2a9
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
@@ -22,32 +22,32 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 # Enlaces{#hooks}
 
-Los enlaces en interacción permiten modificar el **comportamiento del motor estándar**.
+Los vínculos en interacción permiten modificar el **comportamiento del motor estándar**.
 
-Los **[!UICONTROL Target loading]** y **[!UICONTROL Proposition post-processing]** ganchos se configuran, en Adobe Campaign, en el espacio de ofertas:
+Los vínculos **[!UICONTROL Target loading]** y **[!UICONTROL Proposition post-processing]** están configurados, en Adobe Campaign, en el espacio de oferta:
 
 ![](assets/interaction_hooks_1.png)
 
-The **[!UICONTROL Dynamic offer]** hook is configured with the offer weight in Adobe Campaign:
+El vínculo **[!UICONTROL Dynamic offer]** se configura con la ponderación de oferta en Adobe Campaign:
 
 ![](assets/interaction_hooks_2.png)
 
 ## Carga de objetivos {#target-loading}
 
-Este enlace permite enriquecer el perfil del contacto (que ha cargado la consulta predeterminada) con datos adicionales de un sistema externo.
+Este vínculo permite enriquecer el perfil del contacto (que ha cargado la consulta predeterminada) con datos adicionales de un sistema externo.
 
 Los datos recopilados deben insertarse en el nodo de datos de llamada (nodo interacción). El integrador debe haber ampliado el esquema de datos de llamada previamente para definir la estructura de los datos recopilados. El usuario puede acceder a estos datos del mismo modo que para los datos de llamadas estándar (a nivel de reglas de idoneidad y de personalización).
 
 **Parámetros de entrada:**
 
-* xmlInteraction (tipo xml): Nodo de interacción
+* xmlInteraction (tipo xml): nodo de interacción
 * aTargetId (tipo de tabla): identificador de destino
 * sUuid230 (tipo de cadena): valor de la cookie permanente uuid230
 * sNlid (tipo de cadena): valor de la cookie de sesión nlid
 
 **Parámetros de devolución:**
 
-* nodo de interacción enriquecido (primer parámetro de este enlace)
+* nodo de interacción enriquecido (primer parámetro de este vínculo)
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ Los datos recopilados deben insertarse en el nodo de datos de llamada (nodo inte
 
 ## Procesamiento posterior de la propuesta {#proposition-post-processing-}
 
-Este enlace permite comprobar la consistencia y la compatibilidad de las propuestas aptas en una interacción determinada. También permite definir una nueva funcionalidad de cálculo de puntuación o de probabilidad.
+Este vínculo permite comprobar la consistencia y la compatibilidad de las propuestas aptas en una interacción determinada. También permite definir una nueva funcionalidad de cálculo de puntuación o de probabilidad.
 
 Ejemplo de utilización de reglas de coherencia:
 
@@ -95,7 +95,7 @@ El procesamiento posterior se ejecuta después de la aplicación de reglas tipol
 
 **Parámetros de devolución:**
 
-* Lista de propuestas modificadas (primer parámetro del enlace)
+* Lista de propuestas modificadas (primer parámetro del vínculo)
 * nodo de interacción modificado
 
 **Ejemplo:**
@@ -122,9 +122,9 @@ return aReturnedProps;
 
 ## Oferta dinámica {#dynamic-offer}
 
-Este enlace permite realizar una llamada a un motor externo para seleccionar una lista de productos vinculados a una oferta. Se configura en la oferta después de las reglas de idoneidad y antes de la aplicación de reglas de tipología.
+Este vínculo permite realizar una llamada a un motor externo para seleccionar una lista de productos vinculados a una oferta. Se configura en la oferta después de las reglas de idoneidad y antes de la aplicación de reglas de tipología.
 
-Primero, el integrador debe ampliar el esquema **PropositionRcp** de propuestas con la información adicional del producto. To specify where this data will be stored, a **[!UICONTROL Proposition being processed]** link is available in the **[!UICONTROL Storage]** tab of the space
+Primero, el integrador debe ampliar el esquema **PropositionRcp** de propuestas con la información adicional del producto. Para especificar dónde se van a almacenar los datos, hay un vínculo **[!UICONTROL Propuesta en proceso]** disponible en la pestaña **[!UICONTROL Storage]** del espacio.
 
 ![](assets/interaction_hooks_3.png)
 
