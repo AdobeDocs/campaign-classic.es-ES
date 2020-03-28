@@ -14,7 +14,7 @@ discoiquuid: 2f643080-93b4-4c9f-80cf-b1770b149e6c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 Se puede utilizar el asistente de implementación para configurar cuánto tiempo se guardan los datos en la base de datos.
 
-Event purging is carried out automatically by the **[!UICONTROL Database cleanup]** workflow. Este flujo de trabajo depura los eventos recibidos y almacenados en las instancias de ejecución y los eventos archivados en una instancia de control.
+El flujo de trabajo **[!UICONTROL Database cleanup]** lleva a cabo la depuración de eventos automáticamente. Este flujo de trabajo depura los eventos recibidos y almacenados en las instancias de ejecución y los eventos archivados en una instancia de control.
 
 Utilice las flechas según corresponda para modificar la configuración de depuración.
 
