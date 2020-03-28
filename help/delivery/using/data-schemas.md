@@ -14,7 +14,7 @@ discoiquuid: aeaa9475-3715-40a4-8864-29d126883272
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ---
@@ -28,7 +28,7 @@ Para obtener más información sobre la creación y la configuración de esquema
 
 ## Estructura del esquema {#schema-structure}
 
-The XML document of a data schema must contain the **`<srcschema>`** root element with the **name** and **namespace** attributes to populate the schema name and its namespace.
+El documento XML de un esquema de datos debe contener **`<srcschema>`** el elemento raíz con los atributos **name** y **namespace** para rellenar el nombre del esquema y su área de nombres.
 
 ```
 <srcSchema name="schema_name" namespace="namespace">
@@ -78,7 +78,7 @@ A continuación, se muestra un ejemplo de esquema de gestión de contenido con l
 
 ## Propiedades {#properties}
 
-Various properties can be used to enrich the **`<element>`** and **`<attribute>`** elements of the data schema.
+Se pueden utilizar varias propiedades para enriquecer los elementos **`<element>`** y **`<attribute>`** del esquema de datos.
 
 Las propiedades principales utilizadas en la gestión de contenido son las siguientes:
 
@@ -115,7 +115,7 @@ A continuación, se muestra un ejemplo de esquema con las propiedades rellenadas
 
 Una colección es una lista de elementos con el mismo nombre y el mismo nivel jerárquico.
 
-In our example, the **`<chapter>`** and **`<page>`** elements are collection elements. Por lo tanto, el atributo **unbound** debe añadirse a la definición de estos elementos.
+En este ejemplo, los elementos **`<chapter>`** y **`<page>`** son elementos de colección. Por lo tanto, el atributo **unbound** debe añadirse a la definición de estos elementos.
 
 ```
 <element name="chapter" label="Chapter" unbound="true" ordered="true">
@@ -131,11 +131,11 @@ In our example, the **`<chapter>`** and **`<page>`** elements are collection ele
 
 ## Referencias a elementos {#element-referencing}
 
-Las referencias a elementos se utilizan en los esquemas de contenido. It enables you to factorize the definition of an **`<element>`** element so that it can be referenced on other elements with the same structure.
+Las referencias a elementos se utilizan en los esquemas de contenido. Permiten factorizar la definición de un elemento **`<element>`** para que otros elementos con la misma estructura puedan referirse a él.
 
 El atributo **ref** del elemento al que se hace referencia debe completarse con la ruta del elemento de referencia (XPath).
 
-**Ejemplo**: adición de una sección de **Apéndice** con la misma estructura que el **`<chapter>`** elemento de nuestro esquema de ejemplo.
+**Ejemplo**: añadir una sección **Appendix** con la misma estructura que el elemento **`<chapter>`** del esquema ejemplo.
 
 ```
 <srcSchema name="book" namespace="cus">
