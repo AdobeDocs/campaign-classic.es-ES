@@ -14,7 +14,7 @@ discoiquuid: 4ed23249-4ecf-4e57-91b3-6fae1387bd6a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
@@ -22,14 +22,14 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 # Seguimiento de pruebas{#testing-tracking}
 
-Puede probar el seguimiento en páginas espejo, “logs” de correo electrónico y enlaces. Para ello:
+Puede probar el seguimiento en páginas espejo, “logs” de correo electrónico y vínculos. Para ello:
 
 1. Cree un nuevo envío de correo electrónico que se utiliza para realizar pruebas.
-1. Especifique el usuario que debe recibir el correo electrónico. Dado que este usuario debe abrir el correo electrónico y hacer clic en los enlaces que contiene, asegúrese de seleccionar una dirección de destinatario de la prueba que usted controle.
+1. Especifique el usuario que debe recibir el correo electrónico. Dado que este usuario debe abrir el correo electrónico y hacer clic en los vínculos que contiene, asegúrese de seleccionar una dirección de destinatario de la prueba que usted controle.
 1. Añada un bloque de personalización de páginas espejo (MirrorPage) en el contenido del correo electrónico.
-1. Realice el envío que contiene un enlace a la página espejo.
-1. Una vez que haya recibido el correo electrónico, ábralo y haga clic en el enlace de la página espejo.
-1. After you are correctly redirected to the mirror page, access the **Administration > Technical workflows** folder and open the **Tracking** workflow.
+1. Realice la entrega que contiene un vínculo a la página espejo.
+1. Una vez que haya recibido el correo electrónico, ábralo y haga clic en el vínculo de la página espejo.
+1. Una vez que se le haya redirigido correctamente a la página espejo, acceda a la carpeta **Administration > Technical workflows** y abra el flujo de trabajo **Tracking**.
 1. Inicie el flujo de trabajo, haga clic con el botón derecho en la actividad **Programador** y seleccione **Ejecutar ahora tarea pendiente**.
 1. Espere unos 30 segundos y, a continuación, seleccione la pestaña **Auditoría.** Asegúrese de que se encuentre al menos un “log” de seguimiento.
 
@@ -39,9 +39,9 @@ Puede probar el seguimiento en páginas espejo, “logs” de correo electrónic
 
    >[!NOTE]
    >
-   >The recipient&#39;s profile page is located in the **Profiles and Targets > Recipients** folder by default.
+   >La página de perfil del destinatario se encuentra en la carpeta **Profiles and Targets > Recipients** de forma predeterminada.
 
-   To check the email log tracking, look for the values **Open** and **[!UICONTROL Email click]** in the **Type** column.
+   Para comprobar el seguimiento del registro de correo electrónico, busque los valores **Open** y **[!UICONTROL Email click]** en la columna **Type**.
 
-   If the open logs do not appear, go to the delivery and access its **Properties** to make sure that both **Activate tracking** and **[!UICONTROL Opens tracking]** options are checked.
+   Si no aparecen los registros de aperturas, vaya a la entrega y acceda a su **Properties** para asegurarse de que las opciones **Activate tracking** y **[!UICONTROL Opens tracking]** estén seleccionadas.
 
