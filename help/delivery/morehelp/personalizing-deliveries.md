@@ -1,6 +1,6 @@
 ---
-title: Personalización de envíos
-seo-title: Personalización de envíos
+title: Personalización de entregas
+seo-title: Personalización de entregas
 description: 'null'
 seo-description: 'null'
 page-status-flag: never-activated
@@ -11,11 +11,11 @@ iscontainer: true
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
 
 
-# Personalización de envíos{#personalizing-deliveries}
+# Personalización de entregas{#personalizing-deliveries}
 
