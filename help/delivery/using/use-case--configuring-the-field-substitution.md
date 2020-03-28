@@ -14,7 +14,7 @@ discoiquuid: a104fcab-75e6-4d73-bc3d-88570de6df7f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 003bac4c5d89290b9d3653d6ddfab7284b68642d
 
 ---
@@ -22,34 +22,34 @@ source-git-commit: 003bac4c5d89290b9d3653d6ddfab7284b68642d
 
 # Ejemplo de uso: Configuración de la sustitución de campos{#use-case-configuring-the-field-substitution}
 
-La sustitución aleatoria de campos permite atribuir un valor de la lista de distribución a las direcciones sembradas que están vacías cuando el usuario utiliza este valor en un envío (por ejemplo: nombre, ciudad, etc.).
+La sustitución aleatoria de campos permite atribuir un valor de la lista de distribución a las direcciones semilla que están vacías cuando el usuario utiliza este valor en una entrega (por ejemplo: nombre, ciudad, etc.).
 
-Esta sustitución le permite ahorrar tiempo al crear el envío: en lugar de añadir manualmente el valor deseado a las direcciones sembradas, la sustitución recupera aleatoriamente este valor en la lista de destinatarios del envío y la aplica a las direcciones sembradas.
+Esta sustitución le permite ahorrar tiempo al crear la entrega: en lugar de añadir manualmente el valor deseado a las direcciones semilla, la sustitución recupera aleatoriamente este valor en la lista de destinatarios de la entrega y la aplica a las direcciones semilla.
 
 ## Contexto {#context}
 
 En este ejemplo de uso, **My online library** quiere enviar un descuento a sus clientes en función de su género literario favorito.
 
-El administrador del envío ha integrado un campo personalizado vinculado con el género favorito en su correo electrónico. Le gustaría utilizar algunas direcciones sembradas. Estas direcciones sembradas tienen el campo personalizado en su tabla, pero no tiene guardado ningún valor en él.
+El administrador de la entrega ha integrado un campo personalizado vinculado con el género favorito en su correo electrónico. Le gustaría utilizar algunas direcciones semilla. Estas direcciones semilla tienen el campo personalizado en su tabla, pero no tiene guardado ningún valor en él.
 
 Para utilizar la sustitución de campos aleatoria debe tener:
 
-* un envío con uno o varios campos personalizados,
-* direcciones sembradas cuyo **esquema de datos** se modifique según los campos personalizados utilizados en el envío.
+* una entrega con uno o varios campos personalizados,
+* direcciones semilla cuyo **esquema de datos** se modifique según los campos personalizados utilizados en la entrega.
 
 ## Creación de envíos {#step-1---creating-a-delivery}
 
-Los pasos para crear una entrega se detallan en la sección [Creación de una entrega](../../delivery/using/creating-an-email-delivery.md) por correo electrónico.
+Los pasos para crear una entrega se detallan en la sección [Creación de una entrega por correo electrónico](../../delivery/using/creating-an-email-delivery.md).
 
 En este ejemplo, el administrador de envíos ha creado el boletín informativo.
 
 ![](assets/dlv_seeds_usecase_24.png)
 
-## Edición del esquema de datos de las direcciones sembradas {#editing-the-seed-addresses-data-schema}
+## Edición del esquema de datos de las direcciones semilla {#editing-the-seed-addresses-data-schema}
 
-Las instrucciones para la modificación de un esquema de datos se detallan en la sección .
+Las instrucciones para la modificación de un esquema de datos se detallan en la sección.
 
-En este ejemplo, el esquema de datos de las direcciones sembradas toma un valor creado a partir del esquema de datos de los destinatarios:
+En este ejemplo, el esquema de datos de las direcciones semilla toma un valor creado a partir del esquema de datos de los destinatarios:
 
 ```
  <attribute label="Favorite literary genre" length="80" name="favoriteLiteraryGenre"
@@ -58,42 +58,42 @@ En este ejemplo, el esquema de datos de las direcciones sembradas toma un valor 
 
 Esta enumeración permite al usuario especificar el género literario favorito de sus clientes.
 
-Para que esta modificación del esquema de datos pueda verse en el **formulario de entrada** de las direcciones sembradas, debe actualizarlo. Consulte la sección [Actualización del formulario](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form) de entrada.
+Para que esta modificación del esquema de datos pueda verse en el **formulario de entrada** de las direcciones semilla, debe actualizarlo. Consulte la sección [Actualización del formulario de entrada](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form).
 
 ## Configuración de personalización {#configuring-personalization}
 
-1. Abra un envío.
+1. Abra una entrega.
 
-   En este ejemplo, el envío tiene dos campos personalizados: **el nombre** y el **género literario favorito** del destinatario.
+   En este ejemplo, la entrega tiene dos campos personalizados: **el nombre** y el **género literario favorito** del destinatario.
 
    ![](assets/dlv_seeds_usecase_25.png)
 
-1. Configure la lista de envío y las direcciones sembradas. Consulte [Identificación de poblaciones](../../delivery/using/steps-defining-the-target-population.md)objetivo.
+1. Configure la lista de envío y las direcciones semilla. Consulte [Identificación de poblaciones objetivo](../../delivery/using/steps-defining-the-target-population.md).
 
    En este ejemplo, el usuario selecciona a los usuarios cuyo **género literario favorito** sea ciencia ficción como población objetivo principal.
 
    ![](assets/dlv_seeds_usecase_26.png)
 
-   El usuario añade las direcciones sembradas al envío.
+   El usuario añade las direcciones semilla a la entrega.
 
    ![](assets/dlv_seeds_usecase_27.png)
 
    >[!NOTE]
    >
-   >Para obtener más información sobre el **[!UICONTROL Edit the dynamic condition...]** vínculo, consulte Caso de [uso: seleccionar direcciones de raíz en los criterios](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md).
+   >Para obtener más información sobre el vínculo **[!UICONTROL Edit the dynamic condition...]**, consulte [Caso de uso: selección de direcciones semilla según ciertos criterios](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md).
 
-1. Click the **[!UICONTROL Preview]** tab then select a seed address to test the personalization.
+1. Haga clic en la pestaña **[!UICONTROL Preview]** y seleccione una dirección semilla para probar la personalización.
 
    ![](assets/dlv_seeds_usecase_28.png)
 
-   Se puede ver que uno de los campos personalizados está vacío. Ya que la dirección sembrada no tiene datos para este campo, la vista previa del contenido HTML no puede mostrar un valor.
+   Se puede ver que uno de los campos personalizados está vacío. Ya que la dirección semilla no tiene datos para este campo, la vista previa del contenido HTML no puede mostrar un valor.
 
-   La sustitución aleatoria de campos se realiza **en el momento del envío**.
+   La sustitución aleatoria de campos se realiza **en el momento de la entrega**.
 
 1. Haga clic en el botón **[!UICONTROL Send]**.
-1. Analice su envío y **confirme el envío**.
+1. Analice su envío y **confirme la entrega**.
 
-   Las direcciones sembradas reciben el envío en la bandeja de entrada.
+   Las direcciones semilla reciben la entrega en la bandeja de entrada.
 
    La personalización de campos ha funcionado correctamente.
 
