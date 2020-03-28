@@ -14,7 +14,7 @@ discoiquuid: cfa22577-0b9e-4eee-900d-214b81256d81
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 
 ---
@@ -24,12 +24,12 @@ source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 
 ## Creación de un formulario de suscripción con doble adhesión {#create-a-subscription--form-with-double-opt-in}
 
-Al ofrecer servicios de información, es necesario que los destinatarios se suscriban para recibir todas las comunicaciones vinculadas. Para evitar comunicaciones incorrectas y asegurarse de que el destinatario se ha suscrito intencionadamente, se recomienda enviar una solicitud de confirmación de suscripción para crear una adhesión doble. Así, la suscripción solo es efectiva una vez que el usuario hace clic en el enlace incluido en el mensaje de confirmación.
+Al ofrecer servicios de información, es necesario que los destinatarios se suscriban para recibir todas las comunicaciones vinculadas. Para evitar comunicaciones incorrectas y asegurarse de que el destinatario se ha suscrito intencionadamente, se recomienda enviar una solicitud de confirmación de suscripción para crear una adhesión doble. Así, la suscripción solo es efectiva una vez que el usuario hace clic en el vínculo incluido en el mensaje de confirmación.
 
 Este ejemplo se basa en el siguiente supuesto:
 
 1. Creación de un formulario de suscripción a un boletín informativo en un sitio web que contiene una casilla de verificación para suscribirse a un servicio temporal. Este servicio permite enviar mensajes de confirmación de suscripción.
-1. Creación del envío de confirmación de suscripción con una plantilla de envío vinculada al formulario web. Contiene el enlace de confirmación que llama al formulario para la suscripción al boletín informativo y muestra un mensaje de aprobación de la suscripción.
+1. Creación de la entrega de confirmación de suscripción con una plantilla de envío vinculada al formulario web. Contiene el vínculo de confirmación que llama al formulario para la suscripción al boletín informativo y muestra un mensaje de aprobación de la suscripción.
 
 ### Paso 1: Creación de servicios de información {#step-1---creating-information-services}
 
@@ -45,17 +45,17 @@ Este ejemplo se basa en el siguiente supuesto:
 
 Los mensajes de confirmación se envían a través de una plantilla de envío dedicada a nivel de servicio temporal.
 
-1. En la **[!UICONTROL Explorer]** , seleccione **[!UICONTROL Resources > Templates > Delivery templates]**.
+1. En **[!UICONTROL Explorer]**, seleccione **[!UICONTROL Resources > Templates > Delivery templates]**.
 1. Cree una plantilla de envío para enviar los mensajes de confirmación de suscripción.
-1. Click the **[!UICONTROL To]** button in the **[!UICONTROL Email parameters]** to associate the delivery template with the Subscriptions target mapping instead of Recipients.
+1. En **[!UICONTROL Email parameters]**, haga clic en el botón **[!UICONTROL To]** para asociar la plantilla de envío con la asignación de destino de suscripciones en lugar de con los destinatarios.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
 
-1. Debido a que los destinatarios de este envío no han confirmado su aprobación, aún se encuentran en la lista negra de la base de datos. Para que reciban esta comunicación, debe dar a los envíos basados en esta plantilla la autorización para dirigirse a los destinatarios en lista negra.
+1. Debido a que los destinatarios de este envío no han confirmado su aprobación, aún se encuentran en la lista negra de la base de datos. Para que reciban esta comunicación, debe dar a las entregas basados en esta plantilla la autorización para dirigirse a los destinatarios en lista negra.
 
-   To do this, click the **[!UICONTROL Exclusions]** tab.
+   Para ello, haga clic en la pestaña **[!UICONTROL Exclusions]**.
 
-1. Haga clic en el **[!UICONTROL Edit...]** vínculo y desmarque la **[!UICONTROL Exclude recipients who no longer want to be contacted (blacklist)]** opción.
+1. Haga clic en el vínculo **[!UICONTROL Edit...]** y desmarque la opción **[!UICONTROL Exclude recipients who no longer want to be contacted (blacklist)]**.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)
 
@@ -63,7 +63,7 @@ Los mensajes de confirmación se envían a través de una plantilla de envío de
    >
    >Esta opción solo puede desactivarse en este tipo de contexto.
 
-1. Personalice el envío e inserte el enlace de confirmación en el contenido del mensaje. Este enlace permite acceder al formulario web para registrar la confirmación de suscripción.
+1. Personalice la entrega e inserte el vínculo de confirmación en el contenido del mensaje. Este vínculo permite acceder al formulario web para registrar la confirmación de suscripción.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1b.png)
 
@@ -85,31 +85,31 @@ El flujo de trabajo del formulario web incluye las siguientes actividades:
 
 Para realizar esto, siga los pasos a continuación:
 
-1. Create a Web form and choose the template **[!UICONTROL Newsletter subscription (subNewsletter)]**.
+1. Cree un formulario web y seleccione la plantilla **[!UICONTROL Newsletter subscription (subNewsletter)]**.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_5a.png)
 
-1. In the **[!UICONTROL Edit]** tab, we need to configure the existing workflow since we want to add a confirmation message to the recipients who want to subscribe.
+1. En la pestaña **[!UICONTROL Edit]**, se debe configurar el flujo de trabajo existente, ya que el objetivo es añadir un mensaje de confirmación a los destinatarios que deseen suscribirse.
 
-   To do so, double-click the **[!UICONTROL Preloading]** box and configure it as follows.
+   Para ello, haga doble clic en la casilla **[!UICONTROL Preloading]** y configúrela de la siguiente manera:
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_5b.png)
 
-   Esto significa que si el usuario accede a este formulario mediante el enlace del mensaje de confirmación, se carga su información de perfil. Si accede al formulario web a través de una página del sitio web, no se carga ninguna información.
+   Esto significa que si el usuario accede a este formulario mediante el vínculo del mensaje de confirmación, se carga su información de perfil. Si accede al formulario web a través de una página del sitio web, no se carga ninguna información.
 
-1. Add a **[!UICONTROL Test]** activity to your workflow.
+1. Añada una actividad **[!UICONTROL Test]** al flujo de trabajo.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6e.png)
 
-   The **[!UICONTROL Test]** activity can concern the recipient email. En este caso, configúrelo de la siguiente manera:
+   La actividad **[!UICONTROL Test]** puede involucrar al correo electrónico del destinatario. En este caso, configúrelo de la siguiente manera:
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6d.png)
 
-1. Add two **[!UICONTROL Script]** activities to your workflow.
+1. Añada dos actividades **[!UICONTROL Script]** al flujo de trabajo.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
 
-   The first **[!UICONTROL Script]** activity will blacklist recipients until they confirmed their subscription to the newsletter. El contenido debe ser el siguiente:
+   La primera actividad **[!UICONTROL Script]** coloca en lista negra a los destinatarios hasta que confirmen su suscripción al boletín informativo. El contenido debe ser el siguiente:
 
    ```
    ctx.recipient.@blackList=1
@@ -117,7 +117,7 @@ Para realizar esto, siga los pasos a continuación:
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6bbis.png)
 
-   The second **[!UICONTROL Script]** activity authorizes deliveries to be send to the users and subscribes them to the newsletter. Las dos últimas líneas de la secuencia de comandos permiten transferir los destinatarios de la carpeta temporal a otra carpeta y reconciliarlos con perfiles existentes justo tras confirmar la suscripción.
+   La segunda actividad **[!UICONTROL Script]** autoriza las entregas a los usuarios y los suscribe al boletín informativo. Las dos últimas líneas de la secuencia de comandos permiten transferir los destinatarios de la carpeta temporal a otra carpeta y reconciliarlos con perfiles existentes justo tras confirmar la suscripción.
 
    ```
    ctx.recipient.@blackList=0
@@ -128,15 +128,15 @@ Para realizar esto, siga los pasos a continuación:
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Temp]** partition can also be purged on a regular basis using a workflow.
+   >La partición **[!UICONTROL Temp]** también se puede eliminar de forma regular mediante un flujo de trabajo.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6b.png)
 
-1. Double-click the **[!UICONTROL Subscription]** activity to personalize the subscription form and link a checkbox with the temporary service previously created.
+1. Haga doble clic en la actividad **[!UICONTROL Subscription]** para personalizar el formulario de suscripción y relacionar una casilla de verificación con el servicio temporal creado anteriormente.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_5c.png)
 
-1. Configure the **[!UICONTROL Storage]** activity to save the information entered in the form page.
+1. Configure la actividad **[!UICONTROL Storage]** para guardar la información introducida en la página del formulario.
 
    Esta actividad permite crear perfiles de destinatario en una lista provisional específica para separarlos de los perfiles de la base de datos a los que se pueden enviar comunicaciones.
 
@@ -146,9 +146,9 @@ Para realizar esto, siga los pasos a continuación:
    >
    >No se debe definir ninguna opción de reconciliación.
 
-1. Add two **[!UICONTROL End]** activities to display a message for the user.
+1. Añada dos actividades **[!UICONTROL End]** para mostrar un mensaje para el usuario.
 
-   The second **[!UICONTROL End]** box will display the confirmation message once the subscription is complete.
+   La segunda casilla **[!UICONTROL End]** muestra el mensaje de confirmación una vez que se haya completado la suscripción.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_5h.png)
 
@@ -172,15 +172,15 @@ La suscripción al boletín informativo implica los pasos siguientes:
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8d.png)
 
-   The user is added to the Adobe Campaign database in the **[!UICONTROL Temp]** folder, and their profile is blacklisted until they confirm their subscription with the email.
+   El usuario se añade a la base de datos de Adobe Campaign en la carpeta **[!UICONTROL Temp]** y su perfil se añade a la lista negra hasta que confirme su suscripción con el correo electrónico.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8f.png)
 
-1. Se les envía un mensaje de confirmación que incluye un enlace para aprobar su suscripción.
+1. Se les envía un mensaje de confirmación que incluye un vínculo para aprobar su suscripción.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8e.png)
 
-1. Al hacer clic en este enlace, la página de aprobación se muestra en el explorador.
+1. Al hacer clic en este vínculo, la página de aprobación se muestra en el explorador.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8.png)
 
