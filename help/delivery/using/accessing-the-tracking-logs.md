@@ -14,7 +14,7 @@ discoiquuid: ad1ce80d-8976-430d-9964-e50d548b2822
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ---
@@ -22,16 +22,16 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 # Acceso a los “logs” de seguimiento{#accessing-the-tracking-logs}
 
-When the delivery has been sent and tracking activated, the **[!UICONTROL Tracking]** technical workflow is in charge of retrieving the tracking data. Se ejecuta cada hora de forma predeterminada.
+Cuando se realiza el envío y el seguimiento está activado, el flujo de trabajo técnico **[!UICONTROL Tracking]** recopila los datos de seguimiento. Se ejecuta cada hora de forma predeterminada.
 
-This information appears in the **[!UICONTROL Tracking]** tab of the profile of recipients targeted by the delivery, as in the following example:
+Esta información aparece en la pestaña **[!UICONTROL Tracking]** del perfil de los destinatarios objetivo del envío, como en el siguiente ejemplo:
 
 ![](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
 
-It is also accessible via the **[!UICONTROL Tracking]** tab of the delivery.
+También se puede acceder a través de la pestaña **[!UICONTROL Tracking]** del envío.
 
 ![](assets/s_ncs_user_select_tracking_tab_from_del.png)
 
 >[!NOTE]
 >
->If you cannot see the **[!UICONTROL Tracking]** tab of a delivery, it means that tracking has not been activated. Consulte [esta sección](../../delivery/using/how-to-configure-tracked-links.md).
+>Si no ve la pestaña **[!UICONTROL Tracking]** de un envío, significa que el seguimiento no está activado. Consulte [esta sección](../../delivery/using/how-to-configure-tracked-links.md).
