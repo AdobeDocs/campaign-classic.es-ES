@@ -14,7 +14,7 @@ discoiquuid: 27cd51f6-b787-4703-a34d-ce23321f0dcf
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -22,19 +22,19 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 # Acerca de las actividades de control de flujo{#about-flow-control-activities}
 
-Las siguientes actividades son actividades de base de datos: Su principal tarea es coordinar las demás actividades.
+Las siguientes actividades son actividades de base de datos: su principal tarea es coordinar las demás actividades.
 
 * **Start and End**: permite mostrar los puntos iniciales y finales de un flujo de trabajo. Consulte [Inicio y final](../../workflow/using/start-and-end.md).
-* **Fork**: permite activar todas las transiciones salientes. Refer to the [Fork](../../workflow/using/fork.md) section.
-* **Appointment**: permite esperar a que se finalicen varias tareas a la vez antes de continuar. Refer to the [Fork](../../workflow/using/fork.md) section.
+* **Fork**: permite activar todas las transiciones salientes. Consulte la sección [Fork](../../workflow/using/fork.md).
+* **Appointment**: permite esperar a que se finalicen varias tareas a la vez antes de continuar. Consulte la sección [Fork](../../workflow/using/fork.md).
 * **Scheduler**: permite definir un programa de ejecución de flujo de trabajo. Consulte [Programador](../../workflow/using/scheduler.md).
 * **Test**: permite una transición basada en un resultado de prueba. Consulte [Prueba](../../workflow/using/test.md).
 * **Wait**: activa la transición saliente después de un límite de tiempo determinado. Consulte [Esperar](../../workflow/using/wait.md).
-* **Time constraint**: permite pausar una tarea durante un periodo de tiempo determinado. Consulte Restricción [de](../../workflow/using/time-constraint.md)tiempo.
+* **Time constraint**: permite pausar una tarea durante un periodo determinado. Consulte [Restricción de tiempo](../../workflow/using/time-constraint.md).
 * **Sub-workflow**: permite ejecutar otro flujo de trabajo. Consulte [Subworkflow](../../workflow/using/sub-workflow.md).
-* **Jumps**: permite implementar transiciones sin enlaces. Consulte [Salto (punto inicial y punto final)](../../workflow/using/jump--start-point-and-end-point-.md).
-* **External signal**: permite activar la transición saliente después de recibir una señal externa. Consulte la sección Señales [](../../workflow/using/external-signal.md) externas.
-* **Approval**: permite enviar un correo electrónico a un operador o a un grupo de operadores y esperar a que la aprobación continúe con la ejecución. Refer to the [Approval](../../workflow/using/approval.md) section.
-* **Alert**: permite enviar una advertencia a un operador o a un grupo de operadores. Refer to the [Alert](../../workflow/using/alert.md) section.
-* **Task**: permite configurar la ejecución de tareas. Refer to the [Task](../../workflow/using/task.md) section.
+* **Jumps**: permite implementar transiciones sin vínculos. Consulte [Saltos (puntos iniciales y finales)](../../workflow/using/jump--start-point-and-end-point-.md).
+* **External signal**: permite activar la transición saliente después de recibir una señal externa. Consulte la sección [Señales externas](../../workflow/using/external-signal.md).
+* **Approval**: permite enviar un correo electrónico a un operador o a un grupo de operadores y esperar a que la aprobación continúe con la ejecución. Consulte la sección [Aprobación](../../workflow/using/approval.md).
+* **Alert**: permite enviar una advertencia a un operador o a un grupo de operadores. Consulte la sección [Alerta](../../workflow/using/alert.md).
+* **Task**: permite configurar la ejecución de tareas. Consulte la sección [Tarea](../../workflow/using/task.md).
 
