@@ -1,7 +1,7 @@
 ---
-title: Prácticas recomendadas para la presentación de informes
-seo-title: Prácticas recomendadas para la presentación de informes
-description: Prácticas recomendadas para la presentación de informes
+title: Prácticas recomendadas para la creación de informes
+seo-title: Prácticas recomendadas para la creación de informes
+description: Prácticas recomendadas para la creación de informes
 seo-description: null
 page-status-flag: never-activated
 uuid: 09de6a17-b3a7-4543-b672-b0a21653aa75
@@ -14,13 +14,13 @@ discoiquuid: 904961e0-7dff-4350-8d5d-e4bdd368b3ff
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0c41cf2f35495a1514642e47f0b7146d8dd50946
 
 ---
 
 
-# Prácticas recomendadas para la presentación de informes{#best-practices-reporting}
+# Prácticas recomendadas para la creación de informes{#best-practices-reporting}
 
 ## Análisis de las necesidades{#analyzing-needs}
 
@@ -39,7 +39,7 @@ Para optimizar la creación, el uso y la duración de un informe, debe revisar l
    * Explorar los datos de la base de datos y definir las medidas (a través de [esta sección](../../reporting/using/about-cubes.md)).
    * Añadir indicadores a un informe existente (consulte [esta sección](../../reporting/using/about-reports-creation-in-campaign.md)).
    * Visualizar los datos en la base de datos (a través de [esta sección](../../reporting/using/about-descriptive-analysis.md)).
-   * Crear un informe de envío nuevo (consulte [esta sección](../../reporting/using/about-reports-creation-in-campaign.md)).
+   * Crear un informe de entrega nueva (consulte [esta sección](../../reporting/using/about-reports-creation-in-campaign.md)).
    * Exportar datos de la base de datos de Adobe Campaign (a través de un flujo de trabajo, consulte [esta sección](../../workflow/using/about-workflows.md)).
    * Crear una tabla dinámica (consulte [esta sección](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)).
    * Explorar los datos acumulados (a través de [esta sección](../../reporting/using/about-cubes.md)).
