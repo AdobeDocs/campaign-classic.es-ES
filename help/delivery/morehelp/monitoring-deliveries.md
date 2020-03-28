@@ -1,6 +1,6 @@
 ---
-title: Seguimiento de envíos
-seo-title: Seguimiento de envíos
+title: Seguimiento de entregas
+seo-title: Seguimiento de entregas
 description: 'null'
 seo-description: 'null'
 page-status-flag: never-activated
@@ -11,11 +11,11 @@ iscontainer: true
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
 
 
-# Seguimiento de envíos{#monitoring-deliveries}
+# Seguimiento de entregas{#monitoring-deliveries}
 
