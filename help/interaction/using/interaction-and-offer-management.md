@@ -14,7 +14,7 @@ discoiquuid: 9fe22450-057c-44b4-ab73-4027a2ddb20c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1afd6ad61db2062ee804c8a2add56a21578ef19
 
 ---
@@ -30,4 +30,4 @@ Se puede crear un catálogo de ofertas que interactúe con los canales entrantes
 
 La interacción permite crear y gestionar un catálogo de ofertas y configurar las reglas de idoneidad y los temas de la aplicación vinculados a ellas. Según el canal elegido, el contenido de la oferta puede personalizarse gracias a las diversas funciones de renderización. Finalmente, puede utilizar el módulo de simulación para calcular el impacto de la presentación de una oferta.
 
-Para familiarizarse con la función de interacción y la terminología utilizada en la interacción de campañas, vea este vídeo: Información general sobre la interacción de [Adobe Campaign](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com).
+Para familiarizarse con la función de interacción y la terminología utilizada en Campaign Interaction, vea este vídeo: [Información general sobre Adobe Campaign Interaction](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com).
