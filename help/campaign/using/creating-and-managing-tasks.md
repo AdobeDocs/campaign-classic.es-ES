@@ -14,7 +14,7 @@ discoiquuid: d71e5ff7-1e81-4c49-9673-c6fae890029b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -30,7 +30,7 @@ Se pueden crear, ver y monitorizar las tareas de la lista de tareas o del panel 
 
 Las tareas se adjuntan a la campaña y pueden tener dependencias, es decir, tareas asociadas. Cada tarea tiene un estado, prioridad, carga estimada y costes relacionados.
 
-Todas las tareas se agrupan en una lista accesible a través del entorno de **Campaign.** For more on this, refer to [Accessing tasks](#accessing-tasks).
+Todas las tareas se agrupan en una lista accesible a través del entorno de **Campaign.** Para obtener más información, consulte [Acceder a tareas](#accessing-tasks).
 
 Pueden mostrarse en la programación del programa al que pertenecen.
 
@@ -40,17 +40,17 @@ Pueden mostrarse en la programación del programa al que pertenecen.
 
 ### Visualización de tareas {#displaying-tasks}
 
-The tasks are displayed in the task list accessible via the **[!UICONTROL Campaigns]** universe.
+Las tareas se muestran en la lista de tareas a la que se puede acceder mediante el entorno **[!UICONTROL Campaigns]**.
 
 ![](assets/s_ncs_user_task_edit_view.png)
 
 Puede ver todas las tareas del operador conectado.
 
-Para obtener más información sobre esto, consulte el estado [Ejecución de una tarea](#execution-status-of-a-task) y el estado [Progreso de una tarea](#progress-status-of-a-task).
+Para obtener más información sobre esto, consulte [Ejecución del estado de una tarea](#execution-status-of-a-task) y [Progreso del estado de una tarea](#progress-status-of-a-task).
 
 ### Filtrado de tareas {#filtering-tasks}
 
-When you display this view, it is automatically filtered in order to display only **[!UICONTROL operator tasks]**. También puede filtrar las tareas utilizando los campos de la parte superior de la ventana.
+Al mostrar esta vista, se filtra automáticamente para mostrar solo **[!UICONTROL operator tasks]**. También puede filtrar las tareas utilizando los campos de la parte superior de la ventana.
 
 ![](assets/s_ncs_user_task_filter_from_view.png)
 
@@ -62,13 +62,13 @@ Haga clic en una tarea para editarla.
 
 ## Creación de una columna nueva {#creating-a-new-task}
 
-To create a task, click the **[!UICONTROL Tasks]** link in the Campaigns universe and select **[!UICONTROL Create]**.
+Para crear una tarea, haga clic en el enlace **[!UICONTROL Tasks]** del entorno de Campaigns y seleccione **[!UICONTROL Create]**.
 
 ![](assets/s_ncs_user_task_create_new.png)
 
 Introduzca al menos el nombre de la tarea y seleccione la campaña a la que está vinculada. También debe especificar las fechas de inicio y finalización. Estos tres datos son obligatorios.
 
-Haga clic **[!UICONTROL Save]** para crear la tarea.
+Haga clic en **[!UICONTROL Save]** para crear la tarea.
 
 ![](assets/s_ncs_user_task_create_simple.png)
 
@@ -76,25 +76,25 @@ También puede crear una tarea a través del panel de una campaña: en este caso
 
 ![](assets/s_ncs_user_task_create_new_from_op.png)
 
-Después de crear una tarea, esta se agrega a la programación de campañas y a la lista de tareas. To edit a task, select it from the schedule or click its name in the task overview, and click the **[!UICONTROL Open]** link.
+Después de crear una tarea, esta se agrega a la programación de campañas y a la lista de tareas. Para editar una tarea, selecciónela en la programación o haga clic en su nombre en la descripción general de la tarea y haga clic en el enlace **[!UICONTROL Open]**.
 
 ![](assets/s_ncs_user_task_edit_simple.png)
 
 Para configurarlo, debe indicar:
 
 * El administrador y los participantes: consulte [Administrador y participantes](#manager-and-participants).
-* La programación de creación: consulte la programación [de](#execution-schedule)ejecución.
+* La programación de creación: consulte [Programación de ejecución](#execution-schedule).
 * Costes comprometidos: consulte [Gastos e ingresos](#expenses-and-revenues).
 
-It is also possible to ad reviewers (refer to [Reviewers](#reviewers)) and referenced documents (refer to [Documents referenced](#documents-referenced)).
+También es posible añadir revisores (consulte [Revisores](#reviewers)) y documentos de referencia (consulte [Documentos de referencia](#documents-referenced)).
 
-Task life cycle is presented in [Life cycle](#life-cycle).
+El ciclo de vida de la tarea se presenta en [Ciclo de vida](#life-cycle).
 
 ### Administrador y participantes {#manager-and-participants}
 
 Solo el operador de cargo de una tarea está autorizado para cerrarla.
 
-De forma predeterminada, cuando un operador de Adobe Campaign crea una tarea, se le asigna automáticamente. To select a different operator, use the **[!UICONTROL Assigned to]** field.
+De forma predeterminada, cuando un operador de Adobe Campaign crea una tarea, se le asigna automáticamente. Para seleccionar un operador diferente, utilice el campo **[!UICONTROL Assigned to]**.
 
 ![](assets/s_ncs_user_task_edit_simple_general_tab.png)
 
@@ -104,11 +104,11 @@ De forma predeterminada, cuando un operador de Adobe Campaign crea una tarea, se
 
 Puede especificar los operadores implicados en la realización de la tarea. Estos operadores no están autorizados a cerrar la tarea. Solo pueden aprobar la tarea asignada.
 
-They are selected using the **[!UICONTROL Resources]** icon in the task toolbar. Click **[!UICONTROL Add]** and select the concerned operators.
+Se seleccionan utilizando el icono **[!UICONTROL Resources]** en la barra de herramientas de tareas. Haga clic en **[!UICONTROL Add]** y seleccione los operadores que le interesen.
 
 ![](assets/s_ncs_user_task_add_resources.png)
 
-Click **[!UICONTROL Ok]** and then input the usage rate: this represents the load assigned to the operator for the duration of task execution. Esta tasa es solo indicativa y se expresa como un porcentaje.
+Haga clic en **[!UICONTROL Ok]** y, a continuación, introduzca la tasa de uso: esto representa la carga asignada al operador durante la ejecución de la tarea. Esta tasa es solo indicativa y se expresa como un porcentaje.
 
 Por ejemplo, para una tarea cuya programación de ejecución esté configurada a 10 días, un operador cuya tasa de uso es del 50 % se moviliza en relación con esta tarea para la mitad de su jornada de trabajo durante los 10 días.
 
@@ -116,7 +116,7 @@ Para cada operador, puede introducir una carga de trabajo programada y una carga
 
 Se puede configurar un recordatorio, que se envía automáticamente a todos los operadores implicados en la tarea antes de su fecha de finalización.
 
-You can view the Adobe Campaign operator profile via the **[!UICONTROL Edit link]** icon.
+Puede ver el perfil del operador de Adobe Campaign a través del icono **[!UICONTROL Edit link]**.
 
 ![](assets/s_ncs_user_task_edit_resource_profile.png)
 
@@ -126,11 +126,11 @@ El panel del operador permite comprobar la carga de trabajo (otras tareas en cur
 
 ### Revisores {#reviewers}
 
-Además de los participantes, puede definir operadores que revisan la tarea una vez que la persona responsable la haya cerrado. To do this, click the **[!UICONTROL Enable task approval]** option in the lower left-hand section of the **[!UICONTROL Resources]** window. Puede ser un operador individual, un grupo de operadores o una lista de operadores.
+Además de los participantes, puede definir operadores que revisan la tarea una vez que la persona responsable la haya cerrado. Para ello, haga clic en la opción **[!UICONTROL Enable task approval]** de la sección inferior izquierda de la ventana **[!UICONTROL Resources]**. Puede ser un operador individual, un grupo de operadores o una lista de operadores.
 
 ![](assets/s_ncs_user_task_edit_resource_validation.png)
 
-To specify a list of operators, click the **[!UICONTROL Edit...]** link to the right of the first reviewer and add as many operators as necessary, as shown below:
+Para especificar una lista de operadores, haga clic en el enlace **[!UICONTROL Edit...]** a la derecha del primer revisor y añada tantos operadores como sea necesario, como se muestra a continuación:
 
 ![](assets/s_ncs_user_task_edit_resource_operators.png)
 
@@ -138,13 +138,13 @@ Puede definir una programación de aprobación para la tarea en la sección infe
 
 ![](assets/s_ncs_user_edit_op_valid_calendar.png)
 
-La persona responsable de la tarea puede asignarse la tarea de aprobarla, incluso si ya se han asignado otros operadores para hacerlo. Si no se ha definido ningún revisor, las notificaciones se envían a la persona responsable de la tarea. All other Adobe Campaign operators with **[!UICONTROL Administrator]** rights can also approve the task. Sin embargo, no reciben notificaciones.
+La persona responsable de la tarea puede asignarse la tarea de aprobarla, incluso si ya se han asignado otros operadores para hacerlo. Si no se ha definido ningún revisor, las notificaciones se envían a la persona responsable de la tarea. Todos los demás operadores de Adobe Campaign con derechos de **[!UICONTROL Administrator]** también pueden aprobar la tarea. Sin embargo, no reciben notificaciones.
 
 ### Documentos de referencia {#documents-referenced}
 
-It&#39;s possible to add documents and marketing resources to a task (for more on this, refer to [Managing marketing resources](../../campaign/using/managing-marketing-resources.md)). To do so, open the task and click the **[!UICONTROL Documents]** icon in the task toolbar.
+Es posible añadir documentos y recursos de marketing a una tarea (para obtener más información, consulte [Administrar recursos de marketing](../../campaign/using/managing-marketing-resources.md)). Para ello, abra la tarea y haga clic en el icono **[!UICONTROL Documents]** en la barra de herramientas de tareas.
 
-Click **[!UICONTROL Add]** and select the document to be added to your task. Aplique el mismo proceso para los recursos de marketing.
+Haga clic en **[!UICONTROL Add]** y seleccione el documento que desea añadir a la tarea. Aplique el mismo proceso para los recursos de marketing.
 
 ![](assets/s_ncs_user_task_edit_documents.png)
 
@@ -154,17 +154,17 @@ Los documentos de referencia aparecen en las notificaciones enviadas a los opera
 
 ### Programación de ejecución {#execution-schedule}
 
-The validity period of a task is indicated in the **[!UICONTROL Start]** and **[!UICONTROL End]** fields. La carga programada indica la carga de trabajo que se lleva a cabo durante el periodo. Se expresa en días o en horas.
+El periodo de validez de una tarea se indica en los campos **[!UICONTROL Start]** y **[!UICONTROL End]**. La carga programada indica la carga de trabajo que se lleva a cabo durante el periodo. Se expresa en días o en horas.
 
 >[!NOTE]
 >
->The life cycle of a task is presented in [Life cycle](#life-cycle).
+>El ciclo de vida de una tarea se presenta en [Life cycle](#life-cycle).
 
-The **[!UICONTROL Workload performed]** field also expressed in days and hours, lets you manually update the progress of the task with respect to the scheduled workload.
+El campo **[!UICONTROL Workload performed]** también se expresa en días y horas, lo que permite actualizar de forma manual el progreso de la tarea con respecto a la carga de trabajo programada.
 
 ![](assets/s_ncs_user_task_percentage_done_enter.png)
 
-The **[!UICONTROL Progress status]** of the task, expressed as a percentage, is updated automatically based on the tasks carried out by the operators involved. Se puede introducir de forma manual.
+El **[!UICONTROL Progress status]** de la tarea, expresado como porcentaje, se actualiza automáticamente en función de las tareas realizadas por los operadores implicados. Se puede introducir de forma manual.
 
 Esta información se puede ver en el panel de tareas.
 
@@ -174,15 +174,15 @@ También se puede ver en la pestaña de campaña.
 
 ![](assets/s_ncs_user_task_percentage_done_from_op.png)
 
-If the task execution schedule end date has been reached but the task is not completed, the task will be **[!UICONTROL Late]**. También se muestra un mensaje de advertencia a los operadores.
+Si se ha alcanzado la fecha de finalización de la programación de tareas, pero la tarea no se ha completado, el estado de la tarea pasa a ser **[!UICONTROL Late]**. También se muestra un mensaje de advertencia a los operadores.
 
-Para obtener más información sobre esto, consulte Estado de [progreso de una tarea](#progress-status-of-a-task).
+Para obtener más información sobre esto, consulte [Progreso del estado de una tarea](#progress-status-of-a-task).
 
 ### Gastos e ingresos {#expenses-and-revenues}
 
 Puede definir los gastos relacionados y prever los ingresos de cada tarea. Ambos se calculan y después se consolidan para la campaña a la que acompaña la tarea.
 
-To specify this information, click the **[!UICONTROL Expenses and revenue]** icon in the task toolbar.
+Para especificar esta información, haga clic en el icono **[!UICONTROL Expenses and revenue]** de la barra de tareas.
 
 ![](assets/s_ncs_user_task_edit_costs.png)
 
@@ -190,7 +190,7 @@ De manera predeterminada, el presupuesto cargado es el presupuesto de la campañ
 
 >[!NOTE]
 >
->Para obtener más información sobre gastos y presupuestos, consulte Compromiso de [costos, cálculo y cobro](../../campaign/using/controlling-costs.md#cost-commitment--calculation-and-charging).
+>Para obtener más información sobre gastos y presupuestos, consulte [Compromiso de costes, cálculo y cobro](../../campaign/using/controlling-costs.md#cost-commitment--calculation-and-charging).
 
 En esta ventana, también puede definir los objetivos que desea alcanzar. Los objetivos se expresan en términos de ingresos previstos para la tarea.
 
@@ -200,7 +200,7 @@ Un proveedor de servicios externos puede participar en la administración de una
 
 Para ello, edite las propiedades de la tarea y seleccione el proveedor de servicios que desee. Las categorías de costes asociadas al proveedor de servicios se enumeran automáticamente en la sección central de la ventana.
 
-Para obtener más información sobre esto, consulte [Creación de un proveedor de servicios y sus categorías](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories)de costes.
+Para obtener más información sobre esto, consulte [Crear un proveedor de servicios y sus categorías de costes](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 Seleccione las categorías de costes relacionadas con la ejecución de la tarea. Para ello, seleccione el tipo de costes y, si fuera necesario, añada una cantidad de recargo.
 
@@ -208,7 +208,7 @@ Seleccione las categorías de costes relacionadas con la ejecución de la tarea.
 
 >[!NOTE]
 >
->The method for managing budgets and costs is presented in [Controlling costs](../../campaign/using/controlling-costs.md).
+>El método para administrar presupuestos y costes se muestra en [Control de costes](../../campaign/using/controlling-costs.md).
 
 Al seleccionar un proveedor de servicios, este se muestra en el panel de tareas:
 
@@ -216,9 +216,9 @@ Al seleccionar un proveedor de servicios, este se muestra en el panel de tareas:
 
 ### Tareas atrasadas {#late-tasks}
 
-A task is late if it has reached its end date without its status changing to **[!UICONTROL Finished]**. De forma predeterminada, no se avisa a ningún operador cuando una tarea está atrasada. Puede configurar el envío de un correo electrónico de notificación: se puede notificar a todos los operadores aunque no estén implicados en la tarea.
+Una tarea está atrasada si ha alcanzado su fecha de finalización sin cambiar su estado a **[!UICONTROL Finished]**. De forma predeterminada, no se avisa a ningún operador cuando una tarea está atrasada. Puede configurar la entrega de un correo electrónico de notificación: se puede notificar a todos los operadores aunque no estén implicados en la tarea.
 
-Go to the **[!UICONTROL Resources]** box and add the operator to the **[!UICONTROL Assignation]** field. Para notificar a varias personas, seleccione un grupo de operadores.
+Vaya al cuadro **[!UICONTROL Resources]** y añada el operador al campo **[!UICONTROL Assignation]**. Para notificar a varias personas, seleccione un grupo de operadores.
 
 ![](assets/mrm_task_alert_if_late.png)
 
@@ -230,12 +230,12 @@ Cuando crea o modifica una tarea con una fecha de inicio futura, Adobe Campaign 
 
 Sin embargo, si queda mucho tiempo para la tarea que está creando, es preferible programar la notificación para que se envíe antes del inicio de la tarea. Por ejemplo, si la tarea se inicia dentro de un mes, puede notificar a la persona a cargo una semana antes de comenzar.
 
-To schedule a notification, go to the **[!UICONTROL Resources]** box and use the **[!UICONTROL Initial notification]** field.
+Para programar una notificación, vaya al cuadro **[!UICONTROL Resources]** y utilice el campo **[!UICONTROL Initial notification]**.
 
 ![](assets/mrm_task_alert_before.png)
 
 * Para las tareas dentro de las campañas, seleccione una fecha y una hora específicas.
-* For tasks within campaign templates, the notification time is expressed as the time remaining before the task starts (for instance, if you enter 2d in the **[!UICONTROL Initial notification]** field, the email will be sent 2 days before the task start date).
+* Para las tareas dentro de las plantillas de campaña, el tiempo de notificación se expresa como el tiempo restante antes de que se inicie la tarea (por ejemplo, si introduce 2d en el campo **[!UICONTROL Initial notification]**, el correo electrónico se envía 2 días antes de la fecha de inicio de la tarea).
 
 Si ha programado una notificación, al guardar la tarea, Adobe Campaign le ofrece igualmente la opción de enviar una notificación inmediata. Puede optar por enviarla, lo que no elimina la notificación programada.
 
@@ -245,26 +245,26 @@ Puede crear tareas directamente en un programa para administrar las acciones que
 
 Para crear una tarea vinculada directamente a un programa:
 
-1. Open the program schedule: on the home page, go to **[!UICONTROL Campaigns > Browse > Other choices > Programs]**. La programación general del programa se abre en la sección derecha de la ventana.
+1. Abra la programación: en la página principal, vaya a **[!UICONTROL Campaigns > Browse > Other choices > Programs]**. La programación general del programa se abre en la sección derecha de la ventana.
 1. En la programación, haga clic en el programa deseado: junto a él aparece una ventana.
 1. En esta ventana, haga clic en **[!UICONTROL Open]**. Esto abre la programación del programa.
-1. Haga clic en el **[!UICONTROL Add]** botón sobre la programación a la derecha y luego haga clic en **[!UICONTROL Add a task]**.
+1. Haga clic en el botón **[!UICONTROL Add]** situado encima de la programación a la derecha, luego haga clic en **[!UICONTROL Add a task]**.
 
 ![](assets/mrm_task_create_from_prg.png)
 
 ### Disponibilidad de operadores {#operator-availability}
 
-En el panel de tareas, un icono junto al nombre del operador indica que ya está trabajando en otra tarea o evento durante el periodo que abarca la tarea. (Task which the operator is in charge of or involved in: he appears in the **[!UICONTROL Assigned to]** field or in the task **[!UICONTROL Resources]** box).
+En el panel de tareas, un icono junto al nombre del operador indica que ya está trabajando en otra tarea o evento durante el periodo que abarca la tarea. (Tarea en la que participa el operador o de la que está a cargo: aparece en el campo **[!UICONTROL Assigned to]** o en el cuadro **[!UICONTROL Resources]** de la tarea).
 
 ![](assets/mrm_task_alert_operator_busy.png)
 
 ### Tarea en un flujo de trabajo {#task-in-a-workflow}
 
-Using a **[!UICONTROL Task]** element in a campaign workflow enables you to define two scenarios depending on whether or not the task is approved.
+El uso de un elemento **[!UICONTROL Task]** en un flujo de trabajo de campaña permite definir dos situaciones en función de si la tarea se aprueba o no.
 
 ![](assets/mrm_task_in_workflow.png)
 
-En los flujos de trabajo de campaña, la actividad se encuentra en la **[!UICONTROL Task]** ficha **[!UICONTROL Flow control]** .
+En los flujos de trabajo de campaña, la actividad **[!UICONTROL Task]** se encuentra en la pestaña **[!UICONTROL Flow control]**.
 
 ## Tipos de tarea {#types-of-task}
 
@@ -274,19 +274,19 @@ Al crear tareas a través de una campaña, puede crear tareas específicas. El t
 
 Se pueden programar las siguientes tareas:
 
-* **[!UICONTROL Control task]**, consulte las tareas [de control](#control-tasks),
-* **[!UICONTROL Marketing resource creation task]**, consulte la [tarea](#grouping-task)Agrupación,
-* **[!UICONTROL Grouping task]**, consulte la [tarea](#grouping-task)Agrupación,
-* **[!UICONTROL Notification task]**, consulte la tarea [](#notification-task)Notificación.
+* **[!UICONTROL Control task]**, consulte [Control de tareas](#control-tasks),
+* **[!UICONTROL Marketing resource creation task]**, consulte [Tarea de agrupación](#grouping-task),
+* **[!UICONTROL Grouping task]**, consulte [Tarea de agrupación](#grouping-task),
+* **[!UICONTROL Notification task]**, consulte [Notificación la tarea](#notification-task).
 
 >[!NOTE]
 >
->**[!UICONTROL Control task]** y **[!UICONTROL Grouping]** las tareas **solo** se pueden crear mediante el tablero de campañas.\
+>Las tareas **[!UICONTROL Control task]** y **[!UICONTROL Grouping]** se pueden crear **solo** a través del panel de campañas.\
 >Se muestran en el mapa de tareas del operador al que se asignan. Consulte [Acceso a tareas](#accessing-tasks).
 
 ### Tareas de control {#control-tasks}
 
-A **[!UICONTROL Control task]** is linked to delivery approval: approval of targeting, content, extraction file, budget or proof.
+Una **[!UICONTROL Control task]** está vinculada a una aprobación de entrega: aprobación de destinatario, contenido, extracción de archivo, presupuesto o prueba.
 
 ![](assets/s_ncs_user_task_new_control.png)
 
@@ -312,33 +312,33 @@ La tarea de creación de recursos de marketing interactúa con el recurso vincul
 
 * La programación de la creación de recursos y los costes vinculados se gestionan a través de la tarea.
 * Los operadores pueden trabajar en el recurso con normalidad (descarga o carga, bloqueo y desbloqueo): esto no afecta a la tarea.
-* Resource approval and publication can be carried out via the task: if the **[!UICONTROL Publish the marketing resource]** option is enabled, the resource is approved and published automatically once the task is finished. Si la opción no está activada, la tarea y el recurso no interactúan: la modificación de una no afecta al otro, y viceversa.
+* La aprobación y la publicación de recursos se pueden realizar mediante la tarea: si la opción **[!UICONTROL Publish the marketing resource]** está habilitada, el recurso se aprueba y se publica automáticamente una vez finalizada la tarea. Si la opción no está activada, la tarea y el recurso no interactúan: la modificación de una no afecta al otro, y viceversa.
 
-   Puede utilizar una serie de tareas vinculadas para definir un ciclo de aprobación completo. Check the **[!UICONTROL Publish the marketing resource]** option only for the last task: all tasks will need to be finished in order for the resource to be published. Además, al crear una tarea secundaria de recursos de marketing, el recurso se selecciona automáticamente en la tarea secundaria.
+   Puede utilizar una serie de tareas vinculadas para definir un ciclo de aprobación completo. Compruebe la opción **[!UICONTROL Publish the marketing resource]** solo para la última tarea: todas las tareas deben haber terminado para que se publique el recurso. Además, al crear una tarea secundaria de recursos de marketing, el recurso se selecciona automáticamente en la tarea secundaria.
 
    * **Mediante el recurso**: si envía el recurso para su aprobación o lo aprueba, eso no afecta a la tarea.
-   * **Mediante la tarea**: si la **[!UICONTROL Publish the marketing resource]** opción está marcada en la tarea, el recurso se aprueba y publica automáticamente una vez finalizada la tarea (véase más arriba). Si la opción no está activada, la tarea y el recurso no interactúan: la modificación de una no afecta al otro, y viceversa.
+   * **Via the task**: si la opción **[!UICONTROL Publish the marketing resource]** está activada, el recurso se aprueba y se publica automáticamente una vez se haya finalizado la tarea (consulte más arriba). Si la opción no está activada, la tarea y el recurso no interactúan: la modificación de una no afecta al otro, y viceversa.
 
 #### Configuración de una tarea de creación de recursos de marketing {#configuring-a-marketing-resource-creation-task}
 
-La persona que revisa la tarea no es necesariamente la misma persona que revisa el contenido definido en el recurso. However, if the **[!UICONTROL Publish the marketing resource]** option is checked (see below), the task reviewer is authorized to approve the resource content, as finishing the task automatically approves the resource (or, if no reviewer is defined, the task manager).
+La persona que revisa la tarea no es necesariamente la misma persona que revisa el contenido definido en el recurso. Sin embargo, si la opción **[!UICONTROL Publish the marketing resource]** está activada (consulte a continuación), el revisor de la tarea tiene autorización para aprobar el contenido del recurso, ya que la tarea aprueba automáticamente el recurso (o, si no se ha definido ningún revisor, el administrador de tareas).
 
 ![](assets/mrm_task_asset_creation.png)
 
-In the **[!UICONTROL Marketing resource]** field, define the resource you want to manage via this task. Se puede:
+En el campo **[!UICONTROL Marketing resource]**, defina el recurso que desea administrar mediante esta tarea. Se puede:
 
-* Select an existing resource: the drop-down list offers all resources with the status **[!UICONTROL Being edited]**.
-* Creación de un recurso: haga clic en el **[!UICONTROL Select the link]** icono y, a continuación, haga clic en el **[!UICONTROL Create]** icono.
+* Seleccione un recurso existente: la lista desplegable ofrece todos los recursos con el estado **[!UICONTROL Being edited]**.
+* Creación de un recurso: haga clic en el icono **[!UICONTROL Select the link]** y, a continuación, haga clic en el icono **[!UICONTROL Create]**.
 
-The **[!UICONTROL Publish the marketing resource]** option lets you automate resource publishing: once the task is **[!UICONTROL Finished]**, the status of the resource automatically switches to **[!UICONTROL Published]**, even if it was neither submitted for approval or approved, including if the reviewer who completes the task isn&#39;t the content reviewer defined in the resource.
+La opción **[!UICONTROL Publish the marketing resource]** permite automatizar la publicación de recursos: una vez que la tarea pasa a estar **[!UICONTROL Finished]**, el estado del recurso cambia automáticamente a **[!UICONTROL Published]**, aunque no se haya enviado para aprobación ni se haya aprobado, incluso si el revisor que completa la tarea no es el definido en el recurso.
 
-The **[!UICONTROL Publish the resource]** button is made available and the resource publishing reviewer receives a notification email to let him know that it is ready to be published. In the **[!UICONTROL Edit > Tracking]** tab, reviewing and publishing by the task reviewer become visible. Si se ha definido un flujo de trabajo de posprocesamiento de recursos, este se ejecuta en este momento.
+El botón **[!UICONTROL Publish the resource]** pasa a estar disponible y el revisor de publicación de recursos recibe un mensaje de correo electrónico de notificación para informarle de que está listo para publicarse. En la pestaña **[!UICONTROL Edit > Tracking]**, el revisor de tareas puede ver y publicar la tarea. Si se ha definido un flujo de trabajo de posprocesamiento de recursos, este se ejecuta en este momento.
 
 ![](assets/mrm_resource_audit_tab.png)
 
 ### Tarea de agrupamiento {#grouping-task}
 
-The **[!UICONTROL Grouping task]** type task lets you group several tasks and synchronize the management of their progress and their approval.
+La tarea de tipo **[!UICONTROL Grouping task]** le permite agrupar varias tareas y sincronizar la gestión de su progreso y su aprobación.
 
 Las tareas de agrupamiento no tienen costes ni recursos vinculados.
 
@@ -350,7 +350,7 @@ Para crear una tarea agrupada basada en una tarea de agrupación, vaya al panel 
 
 ![](assets/mrm_task_grouped_create.png)
 
-However, if you have already created a task that you want to link to a grouping task, you can do it via the **[!UICONTROL Linked to]** field of the **[!UICONTROL Properties]** box.
+Sin embargo, si ya ha creado una tarea que desea vincular con una tarea de agrupación, puede hacerlo mediante el campo **[!UICONTROL Linked to]** del cuadro **[!UICONTROL Properties]**.
 
 ![](assets/s_ncs_user_task_group_with.png)
 
@@ -366,9 +366,9 @@ Las tareas de notificación no requieren aprobación. Esto significa que su cicl
 
 Una tarea de notificación puede tener los siguientes estados:
 
-* **[!UICONTROL Scheduled]** hasta que se haya enviado el correo electrónico
-* **[!UICONTROL In progress]** una vez enviado el correo electrónico y hasta que se llegue a la fecha de finalización
-* **[!UICONTROL Finished]** una vez alcanzada la fecha de finalización.
+* **[!UICONTROL Scheduled]** hasta que se envíe el correo electrónico
+* **[!UICONTROL In progress]** una vez enviado el mensaje de correo electrónico y hasta que se alcance la fecha final
+* **[!UICONTROL Finished]** una vez que se alcanza la fecha de finalización.
 
 #### Configuración {#configuration}
 
@@ -376,24 +376,24 @@ Una tarea de notificación puede tener los siguientes estados:
 
 Durante la creación, se deben introducir los siguientes elementos en la tarea:
 
-* **[!UICONTROL Assigned to]** :: el operador o el grupo de operadores que recibirán el correo electrónico. Si asigna la tarea una vez enviado el correo electrónico, este no se envía al operador nuevo (para esto, debe volver a ejecutar la tarea y cambiar su fecha inicial).
+* **[!UICONTROL Assigned to]**: el operador o el grupo de operadores que recibe el correo electrónico. Si asigna la tarea una vez enviado el correo electrónico, este no se envía al operador nuevo (para esto, debe volver a ejecutar la tarea y cambiar su fecha inicial).
 * **Fecha de inicio de la tarea**: fecha en la que se envía el mensaje de correo electrónico de notificación. Esta fecha debe ser futura en el momento de la registrar la tarea.
-* **Fecha** de finalización de la tarea: fecha en la que cambia el estado de la tarea a **[!UICONTROL Finished]**. De forma predeterminada, la fecha de finalización es idéntica a la fecha de inicio. Sin embargo, la asignación de una duración a la tarea permite simbolizar la cantidad de tiempo que el operador debe invertir en la programación, si fuera necesario.
-* **[!UICONTROL Description]** :: el texto introducido aquí aparecerá en el cuerpo del correo electrónico de notificación.
+* **Task end date**: fecha en la que el estado de la tarea cambia a **[!UICONTROL Finished]**. De forma predeterminada, la fecha de finalización es idéntica a la fecha de inicio. Sin embargo, la asignación de una duración a la tarea permite simbolizar la cantidad de tiempo que el operador debe invertir en la programación, si fuera necesario.
+* **[!UICONTROL Description]**: el texto introducido aquí aparece en el cuerpo del mensaje de correo electrónico de notificación.
 
    ![](assets/mrm_task_notif_dashboard_msg.png)
 
-Puede agregar un archivo adjunto a la tarea y al correo electrónico de notificación. To do this, click the **[!UICONTROL Documents]** icon in the toolbar in the upper right-hand corner.
+Puede agregar un archivo adjunto a la tarea y al correo electrónico de notificación. Para ello, haga clic en el icono **[!UICONTROL Documents]** de la barra de herramientas en la esquina superior derecha.
 
 ## Ciclo de vida {#life-cycle-1}
 
 ### enlaces entre tareas {#links-between-tasks}
 
-The **[!UICONTROL Properties]** button in each task enables you to define the links between tasks in a campaign. You can split tasks into subtasks using a grouping task (see [Linked tasks](#linked-tasks)), or define dependencies between the tasks (see [Grouping tasks](#grouping-tasks)).
+El botón **[!UICONTROL Properties]** de cada tarea permite definir los enlaces entre las tareas de una campaña. Puede dividir tareas en subtareas utilizando una tarea de agrupación (consulte [Tareas vinculadas](#linked-tasks)) o definir dependencias entre las tareas (véase [Tareas de agrupamiento](#grouping-tasks)).
 
 #### Tareas vinculadas {#linked-tasks}
 
-Use the **[!UICONTROL Linked task]** field to associate tasks with a grouping task. Consulte [Tipos de tareas](#types-of-task).
+Utilice el campo **[!UICONTROL Linked task]** para asociar tareas con una tarea de agrupación. Consulte [Tipos de tareas](#types-of-task).
 
 En el ejemplo siguiente, la aprobación de destinatarios se divide en cuatro subtareas.
 
@@ -405,7 +405,7 @@ Cada subtarea es una tarea estándar vinculada a la tarea principal.
 
 #### Tareas de agrupamiento {#grouping-tasks}
 
-Use the **[!UICONTROL Grouped to]** field to make the execution of a task depend on the execution of another task.
+Utilice el campo **[!UICONTROL Grouped to]** para hacer que la ejecución de una tarea dependa de la ejecución de otra tarea.
 
 ![](assets/s_ncs_user_task_group_with.png)
 
@@ -415,7 +415,7 @@ La dependencia entre tareas se representa mediante flechas en el panel de campa�
 
 En el caso de las tareas agrupadas, Adobe Campaign asigna automáticamente la fecha de finalización de la tarea principal a la tarea secundaria como fecha de inicio. Por ejemplo, si una tarea de **creación de invitación** finaliza el 15 de octubre a las 3:30 p. m., la tarea secundaria **envío de correo electrónico de invitación** comienza el 15 de octubre a las 3:30 p. m.
 
-Moreover, if you postpone the end of a parent task, some of its child tasks may be affected: these are the child tasks whose status is **[!UICONTROL Scheduled]** and whose start date is earlier than the new end date of the parent task. La duración de la tarea sigue siendo la misma. Si la fecha de inicio de una tarea secundaria es posterior a la nueva fecha de finalización de la tarea principal, la tarea secundaria no se ve afectada.
+Además, si pospone el final de una tarea principal, algunas de sus tareas secundarias podrían verse afectadas: estas son las tareas secundarias cuyo estado es **[!UICONTROL Scheduled]** y cuya fecha de inicio es anterior a la nueva fecha final de la tarea principal. La duración de la tarea sigue siendo la misma. Si la fecha de inicio de una tarea secundaria es posterior a la nueva fecha de finalización de la tarea principal, la tarea secundaria no se ve afectada.
 
 **Ejemplo**
 
@@ -431,11 +431,11 @@ Los estados de tareas pueden verse en el mapa de tareas. El estado de ejecución
 
 Una tarea puede ser: **[!UICONTROL Scheduled]**, **[!UICONTROL In progress]**, **[!UICONTROL Finished]**, **[!UICONTROL Canceled]**, **[!UICONTROL Pending approval]** o **[!UICONTROL Rejected]**.
 
-* When a task is created, it is **[!UICONTROL Scheduled]** if its start date is in the future. Mantiene este estado hasta que se llega a su fecha de inicio.
-* Once it has been started, the task is **[!UICONTROL In progress]**. When the person in charge of the task closes it, it changes to **[!UICONTROL Finished]**.
-* If a reviewer has been defined, the task will be **[!UICONTROL Pending approval]** once the person in charge of it closes it and until the reviewer approves it. If the reviewer rejects it, the task will be **[!UICONTROL Rejected]**.
-* A task can be canceled by the person responsible for it via the dashboard or the **[!UICONTROL Task map]** by clicking the **[!UICONTROL Cancel]** button.
-* Para programar una tarea, escriba una fecha de inicio futura. A continuación, puede enviar una primera notificación a los operadores de Adobe Campaign implicados en realización de la tarea. See [Complete task life cycle](#complete-task-life-cycle).
+* Cuando se crea una tarea, aparece como **[!UICONTROL Scheduled]** si la fecha de inicio es futura. Mantiene este estado hasta que se llega a su fecha de inicio.
+* Una vez iniciada, la tarea está **[!UICONTROL In progress]**. Cuando la persona a cargo de la tarea cierra dicha tarea, esta cambia a **[!UICONTROL Finished]**.
+* Si se ha definido un revisor, la tarea pasa a estar **[!UICONTROL Pending approval]** una vez que la persona a cargo se encargue de cerrarla y hasta que el revisor la apruebe. Si el revisor la rechaza, la tarea pasa a estar **[!UICONTROL Rejected]**.
+* La persona responsable puede cancelar una tarea a través del panel o mediante el **[!UICONTROL Task map]** haciendo clic en el botón **[!UICONTROL Cancel]**.
+* Para programar una tarea, escriba una fecha de inicio futura. A continuación, puede enviar una primera notificación a los operadores de Adobe Campaign implicados en realización de la tarea. Consulte [Ciclo de vida completo de la tarea](#complete-task-life-cycle).
 
 >[!NOTE]
 >
@@ -447,25 +447,25 @@ Una tarea puede ser: **[!UICONTROL Scheduled]**, **[!UICONTROL In progress]**, *
 
 ### Estado de progreso de una tarea {#progress-status-of-a-task}
 
-In addition to its execution status, a task can be associated with a progress status: **[!UICONTROL Late]**, **[!UICONTROL To approve]**, **[!UICONTROL To do today]** or **[!UICONTROL To do this week]**. Esta información se introduce automáticamente según la programación de tareas.
+Además del estado de ejecución, una tarea puede asociarse con un estado de progreso: **[!UICONTROL Late]**, **[!UICONTROL To approve]**, **[!UICONTROL To do today]** o **[!UICONTROL To do this week]**. Esta información se introduce automáticamente según la programación de tareas.
 
 Puede filtrar la lista de tareas por estado de progreso o del proceso.
 
-For more on this, refer to [Accessing tasks](#accessing-tasks).
+Para obtener más información, consulte [Acceder a tareas](#accessing-tasks).
 
 ### Ciclo de vida completo de la tarea {#complete-task-life-cycle}
 
 A continuación, se muestran las fases del ciclo de vida completo de una tarea para el que la persona a cargo ha definido participantes y revisores.
 
-1. La persona a cargo crea la tarea e introduce los distintos campos. Para obtener más información sobre esto, consulte [Creación de una nueva tarea](#creating-a-new-task).
+1. La persona a cargo crea la tarea e introduce los distintos campos. Para más información, consulte [Crear un grupo de destinatarios](#creating-a-new-task).
 
    Al crear y editar una tarea **programada en el futuro** (siempre que no se alcance la fecha de inicio de la tarea), es posible enviar una notificación a los participantes y a los administradores para que sepan que se ha programado una nueva tarea.
 
    ![](assets/s_ncs_user_task_planed_send_message.png)
 
-   To send this first notification, click **[!UICONTROL Yes]**. Esta notificación le informa sobre la siguiente tarea e incluye detalles sobre el contenido y el número de días restantes hasta su fecha límite.
+   Para enviar esta primera notificación, haga clic en **[!UICONTROL Yes]**. Esta notificación le informa sobre la siguiente tarea e incluye detalles sobre el contenido y el número de días restantes hasta su fecha límite.
 
-   When a task is created and scheduled for the future, its status is **[!UICONTROL Scheduled]**.
+   Cuando se crea una tarea y se reserva para el futuro, su estado es **[!UICONTROL Scheduled]**.
 
 1. En la fecha de inicio de la tarea, la persona responsable y los participantes reciben una notificación que les informa de que la tarea se ha iniciado. Su estado cambia a **[!UICONTROL In progress]**.
 1. Después de completar la sección asignada a ellos, los participantes pueden aprobar la tarea, ya sea:
@@ -493,7 +493,7 @@ A continuación, se muestran las fases del ciclo de vida completo de una tarea p
    >
    >La persona a cargo de una tarea puede cerrarla en cualquier momento, incluso si faltan aprobaciones. El estado de progreso cambia a 100 % de forma automática.
 
-1. The task status changes to **[!UICONTROL To approve]**, and a notification is sent to the reviewer.
+1. El estado de la tarea cambia a **[!UICONTROL To approve]** y se envía una notificación al revisor.
 
    Este aprueba la tarea por medio del correo electrónico de notificación, la consola o la interfaz Web.
 
@@ -507,12 +507,12 @@ A continuación, se muestran las fases del ciclo de vida completo de una tarea p
 
    >[!NOTE]
    >
-   >The task status will only change to **[!UICONTROL To approve]** if you have enabled the **[!UICONTROL Enable task validation]** option in the **[!UICONTROL Resources]** window of the task.\
-   >If the reviewer rejects the task, its status changes to **[!UICONTROL Rejected]**, and the task life cycle starts again automatically.
+   >El estado de la tarea solo cambiará a **[!UICONTROL To approve]** si ha activado la opción **[!UICONTROL Enable task validation]** en la ventana **[!UICONTROL Resources]** de la tarea.\
+   >Si el revisor rechaza la tarea, su estado cambia a **[!UICONTROL Rejected]** y el ciclo de vida de la tarea se reinicia automáticamente.
 
-1. The task status changes to **[!UICONTROL Finished]**. Se envía una notificación a todos los implicados.
+1. El estado de la tarea cambia a **[!UICONTROL Finished]**. Se envía una notificación a todos los implicados.
 
    >[!NOTE]
    >
-   >Una vez finalizada la tarea, la persona a cargo puede reiniciar el ciclo de vida. To do this, open the task and click the **[!UICONTROL Reset task to execute it again...]** link at the bottom of the dashboard.
+   >Una vez finalizada la tarea, la persona a cargo puede reiniciar el ciclo de vida. Para ello, abra la tarea y haga clic en el enlace **[!UICONTROL Reset task to execute it again...]** en la parte inferior del panel.
 
