@@ -14,7 +14,7 @@ discoiquuid: 299f84e6-f6ff-4ca0-9799-b56d57e1752b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -26,6 +26,6 @@ En la mayoría de los casos, los perfiles [se importan a Campaign a través de u
 
 ![](assets/s_ncs_user_profile_add.png)
 
-Introduzca la información de este perfil. The tabs and fields to be completed are described in [Editing a profile](../../platform/using/editing-a-profile.md).
+Introduzca la información de este perfil. Las pestañas y los campos que se van a completar se describen en [Editar un perfil](../../platform/using/editing-a-profile.md).
 
 Haga clic en **[!UICONTROL Save]** para validar la creación de perfiles. A continuación, el perfil se añade en la base de datos de Adobe Campaign.
