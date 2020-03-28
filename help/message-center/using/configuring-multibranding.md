@@ -14,7 +14,7 @@ discoiquuid: 907d82c8-9262-4952-b8df-21144dd55824
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d5eac80743d4cc82cdf55aa9287e8bb4fcc84356
 
 ---
@@ -38,7 +38,7 @@ Para configurar marcas múltiples, es necesario configurar las instancias de eje
 
    >[!NOTE]
    >
-   >Creating an execution instance type external account is presented in the [Control instance](../../message-center/using/creating-a-shared-connection.md#control-instance) section.
+   >La creación de una cuenta externa de tipo instancia de ejecución se detalla en la sección [Instancia de control](../../message-center/using/creating-a-shared-connection.md#control-instance).
 
 1. Amplíe el esquema nms:extAccount para añadir la URL de seguimiento:
 
@@ -85,5 +85,5 @@ En la instancia de control, se deben vincular las plantillas de envío y las cue
 
 1. Crear una cuenta externa por marca con el mismo nombre interno que se define en el paso 1.
 1. Crear una plantilla de envío predeterminada por cada marca.
-1. In the delivery template&#39;s **[!UICONTROL Properties]** , set the routing to the external account of the brand.
+1. En **[!UICONTROL Properties]** de la plantilla de envío, configure el enrutamiento en la cuenta externa de la marca.
 
