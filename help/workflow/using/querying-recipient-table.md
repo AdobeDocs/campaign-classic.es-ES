@@ -1,6 +1,6 @@
 ---
 title: Consulta de la tabla de destinatarios
-description: Obtenga información sobre cómo consultar la tabla de destinatarios
+description: Obtenga información sobre cómo consultar la tabla de destinatarios.
 page-status-flag: never-activated
 uuid: 0556d53e-0fdf-47b3-b1e0-b52e85e0c662
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 7e5605c8-78f2-4011-b317-96a59c699848
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ab2c133aaa2f754e56fe8fdfc76d10526d4d1ce2
 
 ---
@@ -36,12 +36,12 @@ En este ejemplo, se desea recuperar los nombres y correos electrónicos de los d
 
 * ¿Se ha configurado una clasificación?
 
-   Sí, según **[!UICONTROL Account number]** y **[!UICONTROL Last name]**
+   Sí, en función de **[!UICONTROL Account number]** y **[!UICONTROL Last name]**.
 
 Para crear este ejemplo, aplique los pasos siguientes:
 
-1. Click **[!UICONTROL Tools > Generic query editor...]** and choose the **Recipients** (**nms:recipient**) table. A continuación, haga clic en **[!UICONTROL Next]**.
-1. Elija: **[!UICONTROL Last name]**, **[!UICONTROL First name]**, **[!UICONTROL Email]**, **[!UICONTROL City]** y **[!UICONTROL Account number]**. Estos campos se agregan a **[!UICONTROL Output columns]**. A continuación, haga clic en **[!UICONTROL Next]**.
+1. Haga clic en **[!UICONTROL Tools > Generic query editor...]** y seleccione la tabla **Recipients** (**nms:recipient**). A continuación, haga clic en **[!UICONTROL Next]**.
+1. Elija: **[!UICONTROL Last name]**, **[!UICONTROL First name]**, **[!UICONTROL Email]**, **[!UICONTROL City]** y **[!UICONTROL Account number]**. Estos campos se añaden a **[!UICONTROL Output columns]**. A continuación, haga clic en **[!UICONTROL Next]**.
 
    ![](assets/query_editor_03.png)
 
@@ -49,45 +49,45 @@ Para crear este ejemplo, aplique los pasos siguientes:
 
    ![](assets/query_editor_04.png)
 
-1. En la **[!UICONTROL Data filtering]** ventana, afine la búsqueda: elija **[!UICONTROL Filtering conditions]** y haga clic en **[!UICONTROL Next]**.
-1. The **[!UICONTROL Target element]** window lets you enter the filter settings.
+1. En la ventana **[!UICONTROL Data filtering]**, refina la búsqueda: elija **[!UICONTROL Filtering conditions]** y haga clic en **[!UICONTROL Next]**.
+1. La ventana **[!UICONTROL Target element]** permite introducir la configuración del filtro.
 
-   Defina la siguiente condición de filtro: destinatarios con un dominio de correo electrónico igual a “orange.co.uk”. To do this, choose **Email domain (@email)** in the **[!UICONTROL Expression]** column, choose **equal to** in the **[!UICONTROL Operator]** column and enter &quot;orange.co.uk&quot; in the **[!UICONTROL Value]** column.
+   Defina la siguiente condición de filtro: destinatarios con un dominio de correo electrónico igual a “orange.co.uk”. Para ello, elija **Email domain (@email)** en la columna **[!UICONTROL Expression]**, elija **equal to** en la columna **[!UICONTROL Operator]** y escriba “orange.co.uk” en la columna **[!UICONTROL Value]**.
 
    ![](assets/query_editor_05.png)
 
-1. If needed, click the **[!UICONTROL Distribution of values]** button to view a distribution based on the email domain of prospects. Hay un porcentaje disponible para cada dominio de correo electrónico de la base de datos. Los dominios que no sean “orange.co.uk” se muestran hasta que se aplique el filtro.
+1. Si es necesario, haga clic en el botón **[!UICONTROL Distribution of values]** para ver una distribución en función del dominio de correo electrónico de los posibles clientes. Hay un porcentaje disponible para cada dominio de correo electrónico de la base de datos. Los dominios que no sean “orange.co.uk” se muestran hasta que se aplique el filtro.
 
-   En la parte inferior de la ventana se muestra un resumen de la consulta: Dominio **de correo electrónico igual a &#39;orange.co.uk&#39;**.
+   En la parte inferior de la ventana se muestra un resumen de la consulta: **Email domain equal to “orange.co.uk”**.
 
-1. Click the **[!UICONTROL Preview]** to get an idea of the query result: only &quot;orange.co.uk&quot; email domains are displayed.
+1. Haga clic en **[!UICONTROL Preview]** para obtener una idea del resultado de la consulta: solo se muestran los dominios de correo electrónico “orange.co.uk”.
 
    ![](assets/query_editor_nveau_17.png)
 
 1. Ahora, se cambia la consulta para encontrar contactos que no residen en Londres.
 
-   Seleccione **[!UICONTROL City (location/@city)]** en la **[!UICONTROL Expression]** columna, **[!UICONTROL different from]** como operador e introduzca **[!UICONTROL London]** en la **[!UICONTROL Value]** columna.
+   En la columna **[!UICONTROL Expression]**, seleccione **[!UICONTROL City (location/@city)]**, **[!UICONTROL different from]** como operador y, en la columna **[!UICONTROL Value]**, escriba **[!UICONTROL London]**.
 
    ![](assets/query_editor_08.png)
 
-1. This will take you to the **[!UICONTROL Data formatting]** window. Compruebe el orden de las columnas. Desplace la columna “Ciudad” hacia arriba, debajo de la columna “Número de cuenta”.
+1. Esto lo lleva a la ventana **[!UICONTROL Data formatting]**. Compruebe el orden de las columnas. Desplace la columna “Ciudad” hacia arriba, debajo de la columna “Número de cuenta”.
 
    Anule la selección de la columna “Nombre” para quitarla de la lista.
 
    ![](assets/query_editor_nveau_15.png)
 
-1. En la **[!UICONTROL Data preview]** ventana, haga clic en **[!UICONTROL Start the preview of the data]**. Esta función calcula el resultado de la consulta.
+1. En la ventana **[!UICONTROL Data preview]**, haga clic en **[!UICONTROL Start the preview of the data]**. Esta función calcula el resultado de la consulta.
 
-   The **[!UICONTROL Column results]** tab shows the query result in columns.
+   La pestaña **[!UICONTROL Column results]** muestra el resultado de la consulta en columnas.
 
    El resultado muestra todos los destinatarios con un dominio de correo electrónico “orange.co.uk” que no residen en Londres. La columna “Nombre” no se muestra porque no se ha seleccionado durante la etapa anterior. Los números de cuenta se ordenan en orden descendente.
 
    ![](assets/query_editor_nveau_12.png)
 
-   The **[!UICONTROL XML result]** tab shows the result in XML format.
+   La pestaña **[!UICONTROL XML result]** muestra el resultado en formato XML.
 
    ![](assets/query_editor_nveau_13.png)
 
-   The **[!UICONTROL Generated QSL queries]** tab shows the query result in SQL format.
+   La pestaña **[!UICONTROL Generated QSL queries]** muestra el resultado de la consulta en formato SQL.
 
    ![](assets/query_editor_nveau_14.png)
