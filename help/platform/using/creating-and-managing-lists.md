@@ -14,7 +14,7 @@ discoiquuid: 9fc243b2-7b7b-4083-83f6-04c12336492d
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -28,19 +28,19 @@ Una lista es un conjunto estático de perfiles que puede centrarse en acciones d
 
 A continuación, se pueden configurar envíos (por correo electrónico, SMS u otros canales) destinados a estas listas en concordancia con la ética profesional de marketing autorizado.
 
-Lists are created and managed via the **[!UICONTROL Lists]** link in the **[!UICONTROL Profiles and targets]** tab.
+Las listas se crean y administran mediante el vínculo **[!UICONTROL Lists]** en la ficha **[!UICONTROL Profiles and targets]**.
 
 ![](assets/s_ncs_user_interface_group_link.png)
 
 En Adobe Campaign, hay disponibles dos tipos de listas:
 
-* **[!UICONTROL Group]** type: Las listas **[!UICONTROL Group]** de tipos pertenecen a una lista **estática** de personas seleccionadas según criterios específicos. La lista es como una instantánea de un conjunto de perfiles. Tenga en cuenta que no se actualiza automáticamente en caso de que los perfiles se añadan a la base de datos.
+* Tipo **[!UICONTROL Grupo]**: Las listas de tipo **[!UICONTROL Grupo]** pertenecen a una lista **estática** de personas seleccionadas según criterios específicos. La lista es como una instantánea de un conjunto de perfiles. Tenga en cuenta que no se actualiza automáticamente en caso de que los perfiles se añadan a la base de datos.
 
    Para obtener más información sobre cómo crear una lista de tipo **[!UICONTROL Group]**, consulte esta [página](#creating-a-profile-list-from-a-group).
 
-* **[!UICONTROL List]** type: Las listas de **[!UICONTROL List]** tipos le permiten utilizar flujos de trabajo para crear y administrar listas. Estas serán listas específicas que resultan de las importaciones de datos, las cuales pueden actualizarse a través de la actividad de flujo de trabajo de **[!UICONTROL List update]** dedicada.
+* Tipo **[!UICONTROL Lista]**: Las listas de tipo **[!UICONTROL Lista]** permiten utilizar flujos de trabajo para crear y administrar listas. Estas serán listas específicas que resultan de las importaciones de datos, las cuales pueden actualizarse a través de la actividad de flujo de trabajo de **[!UICONTROL List Update]** dedicada.
 
-   A diferencia de la lista de tipo **[!UICONTROL Group]**, esta lista de tipos se puede actualizar automáticamente con una actividad de **[!UICONTROL Scheduler]**. Tenga en cuenta que para ver un ejemplo sobre cómo crear listas de tipo **[!UICONTROL List]**, consulte [esta página](../../workflow/using/list-update.md).
+   A diferencia de la lista de tipo **[!UICONTROL Group]**, esta lista de tipos se puede actualizar automáticamente con una actividad de **[!UICONTROL Scheduler.]** Tenga en cuenta que para ver un ejemplo sobre cómo crear listas de tipo **[!UICONTROL List]**, consulte [esta página](../../workflow/using/list-update.md).
 
 ## Creación de una lista de perfiles a partir de un grupo {#creating-a-profile-list-from-a-group}
 
@@ -52,7 +52,7 @@ Las listas de tipo **[!UICONTROL Group]** creadas mediante el vínculo **[!UICON
 
 Para crear una nueva lista de tipo **[!UICONTROL Group]**, siga los siguientes pasos:
 
-1. Haga clic en el **[!UICONTROL Create]** botón y seleccione **[!UICONTROL New list]**.
+1. Haga clic en el botón **[!UICONTROL Create]** y seleccione **[!UICONTROL New list]**.
 
    ![](assets/s_ncs_user_new_group.png)
 
@@ -85,7 +85,7 @@ La lista de perfiles se puede configurar del mismo modo que otras listas. Consul
 Los perfiles de un conjunto de perfiles pueden filtrarse y vincularse a una lista. Las acciones de envío pueden enviarse a esta lista, para dirigirse a los perfiles. Para agrupar perfiles:
 
 1. Seleccione los perfiles y haga clic con el botón derecho.
-1. Select **[!UICONTROL Actions > Associate selection with a list...]**.
+1. Seleccione **[!UICONTROL Actions > Associate selection with a list...]**.
 
    ![](assets/s_ncs_user_add_selection_to_group.png)
 
@@ -97,9 +97,9 @@ Los perfiles de un conjunto de perfiles pueden filtrarse y vincularse a una list
 
    ![](assets/s_ncs_user_add_selection_to_group_3.png)
 
-The **[!UICONTROL Recreate the list]** option deletes the earlier content from the list. Este modo está optimizado, ya que no se necesitan consultas para verificar si los perfiles ya están vinculados a la lista.
+La opción **[!UICONTROL Recreate the list]** elimina el contenido anterior de la lista. Este modo está optimizado, ya que no se necesitan consultas para verificar si los perfiles ya están vinculados a la lista.
 
-If you uncheck the **[!UICONTROL No trace of this job is saved in the database]** option, you can select (or create) the execution folder where the information linked to this process will be stored.
+Si desactiva la opción **[!UICONTROL No trace of this job is saved in the database]**, puede seleccionar (o crear) la carpeta de ejecución en la que se almacenará la información vinculada a este proceso.
 
 La sección superior de la ventana permite controlar la ejecución. El botón **[!UICONTROL Stop]** permite detener el proceso. Los contactos que ya se han procesado se vincularán a la lista.
 
@@ -125,7 +125,7 @@ Para eliminar un perfil de una lista, puede:
 
 ## Eliminación de una lista de perfiles {#deleting-a-list-of-profiles}
 
-Puede eliminar una o varias listas de la lista de grupos del árbol de Adobe Campaign. Para ello, edite el árbol a través del vínculo **[!UICONTROL Advanced > Explorer]** en la página principal de Adobe Campaign. Seleccione el grupo respectivo y haga clic con el botón derecho. Select **[!UICONTROL Delete]**. Un mensaje de advertencia le pedirá que confirme la eliminación.
+Puede eliminar una o varias listas de la lista de grupos del árbol de Adobe Campaign. Para ello, edite el árbol a través del vínculo **[!UICONTROL Advanced > Explorer]** en la página principal de Adobe Campaign. Seleccione el grupo respectivo y haga clic con el botón derecho. Seleccione **[!UICONTROL Delete]**. Un mensaje de advertencia le pedirá que confirme la eliminación.
 
 >[!NOTE]
 >
