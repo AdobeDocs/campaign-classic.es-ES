@@ -12,7 +12,7 @@ discoiquuid: af7c0d1d-10ac-427b-8d12-b97eb91b30a1
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c01a16a19516da6598b2d32a9408460c48aabf7b
 
 ---
@@ -28,7 +28,7 @@ Esto significa que se puede:
 
 * Importar desde CRM (consulte [Importación desde CRM](#importing-from-the-crm)),
 * Exportar a CRM (consulte [Exportación a CRM](#exporting-to-the-crm)),
-* Importar objetos eliminados en la CRM (consulte [Importación de objetos eliminados en la CRM](#importing-objects-deleted-in-the-crm)),
+* Importar objetos eliminados en CRM (consulte [Importación de objetos eliminados en CRM](#importing-objects-deleted-in-the-crm)),
 * Eliminar objetos en CRM (consulte [Eliminación de objetos en CRM](#deleting-objects-in-the-crm)).
 
 ![](assets/crm_task_select_op.png)
@@ -47,15 +47,15 @@ Para importar datos a través de CRM en Adobe Campaign, debe crear el siguiente 
 
 Para una actividad de importación, los pasos de configuración de actividad del **conector CRM** son:
 
-1. Seleccione una **[!UICONTROL Import from the CRM]** operación.
-1. Go to the **[!UICONTROL Remote object]** drop-down list and select the object concerned by the process. Este objeto coincide con una de las tablas creadas en Adobe Campaign durante la configuración del conector.
-1. Go to the **[!UICONTROL Remote fields]** section and enter the fields to be imported.
+1. Seleccionar una operación de **[!UICONTROL Import desde el CRM]**.
+1. Ir a la lista desplegable **[!UICONTROL Remote object]** y seleccionar el objeto afectado en el proceso. Este objeto coincide con una de las tablas creadas en Adobe Campaign durante la configuración del conector.
+1. Vaya a la sección **[!UICONTROL Remote fields]** e introduzca los campos que desea importar.
 
-   To add a field, click the **[!UICONTROL Add]** button in the toolbar, then click the **[!UICONTROL Edit expression]** icon.
+   Para agregar un campo, haga clic en el botón **[!UICONTROL Add]** en la barra de herramientas y, a continuación, haga clic en el icono **[!UICONTROL Edit expression]**.
 
    ![](assets/crm_task_import_add_field.png)
 
-   If necessary, alter the data format via the drop-down list of the **[!UICONTROL Conversion]** columns. Los tipos de conversión posibles se encuentran detallados en esta [página](../../platform/using/crm-connectors.md#data-format).
+   Si es necesario, modifique el formato de los datos mediante la lista desplegable de las columnas de **[!UICONTROL Conversion]**. Los tipos de conversión posibles se encuentran detallados en esta [página](../../platform/using/crm-connectors.md#data-format).
 
    >[!CAUTION]
    >
@@ -63,21 +63,21 @@ Para una actividad de importación, los pasos de configuración de actividad del
    > 
    >La fecha de modificación del servidor CRM también es obligatoria para las importaciones de datos incrementales.
 
-1. También puede filtrar los datos para importarlos según sus necesidades. Para ello, haga clic en el **[!UICONTROL Edit the filter...]** vínculo.
+1. También puede filtrar los datos para importarlos según sus necesidades. Para ello, haga clic en el vínculo **[!UICONTROL Edit the filter...]**
 
    En el siguiente ejemplo, Adobe Campaign solo importa contactos para los que se haya registrado alguna actividad desde el 31 de julio de 2012.
 
    ![](assets/crm_task_import_filter.png)
 
-   The limitations linked to data filtering modes are detailed in [Filter on data](#filter-on-data) section.
+   Las limitaciones vinculadas a los modos de filtrado se describen en la sección [Filter datos](#filter-on-data).
 
-1. The **[!UICONTROL Use automatic index]** option enables you to automatically manage incremental object synchronization between the CRM and Adobe Campaign, depending on the date and their last modification.
+1. La opción **[!UICONTROL Use automatic index...]** permite administrar automáticamente la sincronización de objetos incrementales entre CRM y Adobe Campaign, en función de la fecha y la última modificación.
 
-   For more on this, refer to [Variable management](#variable-management).
+   Para obtener más información, consulte [Administración variable](#variable-management).
 
 ## Administración de variables {#variable-management}
 
-Enabling the **[!UICONTROL Automatic index]** option lets you collect only objects modified since the last import.
+La activación de la opción **[!UICONTROL Automatic index]** solo permite recopilar objetos modificados desde la última importación.
 
 ![](assets/crm_task_import_option.png)
 
@@ -92,10 +92,10 @@ Puede especificar el campo remoto CRM que desea tener en cuenta para identificar
 De forma predeterminada, se utilizan los campos siguientes (en el orden especificado):
 
 * Para Microsoft Dynamics: **modificado**,
-* Para Oracle On Demand: **ÚltimaActualización**, **FechaDeModificación**, **ÚltimoInicioDeSesión**,
+* Para Oracle a petición: **LastUpdated**, **ModifiedDate**, **LastLoggedIn**,
 * Para Salesforce.com: **LastModifiedDate**, **SystemModstamp**.
 
-Activating the **[!UICONTROL Automatic index]** option generates three variables that can be used in the synchronization workflow via a **[!UICONTROL JavaScript code]** type activity. Estas actividades son:
+La activación de la opción **[!UICONTROL Automatic index]** genera tres variables que se pueden utilizar en el flujo de trabajo de sincronización a través de una actividad de tipo **[!UICONTROL JavaScript code]**. Estas actividades son:
 
 * **varscrmOptionName**: representa el nombre de la opción que contiene la última fecha de importación.
 * **vars.crmStartImport**: representa la fecha de inicio (incluida) de la última recuperación de datos.
@@ -109,8 +109,8 @@ Para garantizar una operación eficaz con los distintos CRM, es necesario crear 
 
 * Cada nivel de filtrado solo puede utilizar un tipo de operador lógico.
 * No se admite el operador EXCEPT (AND NOT).
-* Las comparaciones solo pueden tener como resultado valores nulos (“está vacío”/“no está vacío”) o números. This means that once the **[!UICONTROL Value]** column (right-hand column) is assessed, the result of this assessment must be a number.
-* The data in the **[!UICONTROL Value]** column is assessed in JavaScript.
+* Las comparaciones solo pueden tener como resultado valores nulos (“está vacío”/“no está vacío”) o números. Esto significa que una vez que la columna derecha **[!UICONTROL Value]** se evalúa, el resultado de esta evaluación debe ser un número.
+* La información contenida en la columna **[!UICONTROL Value]** se evalúa en JavaScript.
 * No se admiten comparaciones JOIN.
 * La expresión de la columna de la izquierda debe ser un campo. No puede ser una combinación de varias expresiones, un número, etc.
 
@@ -125,7 +125,7 @@ Por ejemplo, la condición de filtrado que se muestra a continuación NO será v
 
 En Microsoft Dynamics y Salesforce.com, puede ordenar los campos remotos para que se importen en orden ascendente o descendente.
 
-To do this, click the **[!UICONTROL Order by]** link and add the columns to the list.
+Para ello, haga clic en el vínculo **[!UICONTROL Order by]** y añada las columnas a la lista.
 
 El orden de las columnas de la lista es el orden de clasificación:
 
@@ -135,7 +135,7 @@ El orden de las columnas de la lista es el orden de clasificación:
 
 En lugar de importar elementos incluidos (y posiblemente filtrados) en CRM, puede utilizar una población calculada con anterioridad en el flujo de trabajo.
 
-To do this, select the **[!UICONTROL Use the population calculated upstream]** option and specify the field that contains the remote identifier.
+Para ello, seleccione la opción **[!UICONTROL Use la población calculada arriba]** y especifique el campo que contiene el identificador remoto.
 
 A continuación, seleccione los campos de la población entrante que desea importar, como se muestra a continuación:
 
@@ -149,24 +149,24 @@ Para exportar datos a CRM, debe crear el siguiente tipo de flujo de trabajo:
 
 ![](assets/crm_export_diagram.png)
 
-Para una exportación, aplique la configuración siguiente en la actividad del **conector de CRM** :
+Para una exportación, aplique la configuración siguiente en la actividad del **conector de CRM**:
 
-1. Seleccione una **[!UICONTROL Export to CRM]** operación.
-1. Go to the **[!UICONTROL Remote object]** drop-down list and select the object concerned by the process. Este objeto coincide con una de las tablas creadas en Adobe Campaign durante la configuración del conector.
+1. Seleccione una operación **[!UICONTROL Export a CRM]**.
+1. Ir a la lista desplegable **[!UICONTROL Remote object]** y seleccionar el objeto afectado en el proceso. Este objeto coincide con una de las tablas creadas en Adobe Campaign durante la configuración del conector.
 
    >[!CAUTION]
    >
    >La función de exportación de la actividad de **conectores de CRM** puede insertar o actualizar campos en el lado del CRM. Para activar las actualizaciones de campo en el CRM, debe especificar la clave principal de la tabla remota. Si falta la clave, se insertan los datos (en lugar de actualizarse).
 
-1. In the **[!UICONTROL Mapping]** section, specify the fields to be exported and their mapping in the CRM.
+1. En la sección **[!UICONTROL Mapping]**, especifique los campos que se exportan y su asignación en CRM.
 
    ![](assets/crm_export_config.png)
 
-   To add a field, click the **[!UICONTROL Add]** button in the toolbar, then click the **[!UICONTROL Edit expression]** icon.
+   Para agregar un campo, haga clic en el botón **[!UICONTROL Add]** en la barra de herramientas y, a continuación, haga clic en el icono **[!UICONTROL Edit expression]**.
 
    En un campo determinado, si no hay ninguna coincidencia definida en el lado del CRM, los valores no se pueden actualizar: se insertan directamente en el CRM.
 
-   If necessary, alter the data format via the drop-down list of the **[!UICONTROL Conversion]** columns. Los tipos de conversión posibles se encuentran detallados en esta [sección](../../platform/using/crm-connectors.md#data-format).
+   Si es necesario, modifique el formato de los datos mediante la lista desplegable de las columnas de **[!UICONTROL Conversion]**. Los tipos de conversión posibles se encuentran detallados en esta [sección](../../platform/using/crm-connectors.md#data-format).
 
    La lista de registros que se van a exportar y el resultado de la exportación se guardan en un archivo temporal que permanece accesible hasta que el flujo de trabajo termina o se reinicia. Esto le permite volver a iniciar el proceso en caso de errores sin correr el riesgo de exportar el mismo registro varias veces o perder datos.
 
@@ -178,17 +178,17 @@ Para ello, seleccione la conversión que se aplica en la columna correspondiente
 
 ![](assets/crm_task_import.png)
 
-The **[!UICONTROL Default]** mode applies automatic data conversion, which in most cases equals a copy/paste of the data. Sin embargo, se aplica la administración de zona horaria.
+El modo **[!UICONTROL Default]** aplica la conversión automática de datos, que en la mayoría de los casos es igual a una copia o pegado de los datos. Sin embargo, se aplica la administración de zona horaria.
 
 Otras conversiones posibles son:
 
-* **[!UICONTROL Date only]**:: este modo elimina los campos de tipo Fecha + Hora.
-* **[!UICONTROL Without time offset]**:: este modo cancela la administración de huso horario aplicada en el modo predeterminado.
-* **[!UICONTROL Copy/Paste]**:: este modo utiliza datos sin procesar como cadenas (sin conversión).
+* **[!UICONTROL Solo fecha]**: este modo elimina los campos de tipo Fecha + Hora.
+* **[!UICONTROL Sin compensación de tiempo]**: este modo cancela la administración de zona horaria aplicada en el modo predeterminado.
+* **[!UICONTROL Copy/Paste]**: este modo utiliza datos sin procesar como cadenas (sin conversión).
 
 ![](assets/crm_export_options.png)
 
-Dentro del marco de las importaciones o exportaciones de datos, puede aplicar un proceso específico a errores y rechazos. Para ello, seleccione las opciones **[!UICONTROL Process rejects]** y **[!UICONTROL Process errors]** en la **[!UICONTROL Behavior]** ficha.
+Dentro del marco de las importaciones o exportaciones de datos, puede aplicar un proceso específico a errores y rechazos. Para ello, seleccione las opciones **[!UICONTROL Procesar rechazados]** y **[!UICONTROL Procesar errores]** en la pestaña **[!UICONTROL Funcionamiento]**.
 
 Estas opciones colocan las transiciones de salida coincidentes.
 
@@ -200,12 +200,12 @@ Por ejemplo, para procesar errores puede añadir una actividad de espera y plani
 
 Los rechazos se recopilan junto con el código de error y el mensaje relacionado, lo que significa que puede configurar el seguimiento de rechazos para optimizar el proceso de sincronización.
 
-Even when the **[!UICONTROL Process rejects]** option isn&#39;t enabled, a warning is generated for each rejected column with an error code and message.
+Incluso cuando la opción **[!UICONTROL Procesar rechazados]** no está activada, se genera una advertencia para cada columna rechazada con un código de error y un mensaje.
 
-The **[!UICONTROL Reject]** outbound transition lets you access the output schema that contains the specific columns relevant to error messages and codes. Estas columnas son:
+La transición de salida **[!UICONTROL Rechazar]** permite acceder al esquema de salida que contiene las columnas específicas relevantes a mensajes de error y códigos. Estas columnas son:
 
-* For Oracle On Demand: **errorLogFilename** (name of the log file on the Oracle side), **errorCode** (error code), **errorSymbol** (error symbol, different from the error code), **errorMessage** (description of the error context).
-* For Salesforce.com: **errorSymbol** (error symbol, different from the error code), **errorMessage** (description of the error context).
+* **errorLogFilename** (nombre del archivo de registro en Oracle), **errorCode** (código de error), **errorSymbol** (símbolo de error, distinto del código de error), **errorMessage** (descripción del contexto del error).
+* **errorSymbol** (símbolo de error, distinto del código de error), **errorMessage** (descripción del contexto del error).
 
 ## Importación de objetos eliminados en CRM {#importing-objects-deleted-in-the-crm}
 
@@ -213,15 +213,15 @@ Para habilitar la configuración de un proceso de sincronización de datos exten
 
 Para ello, siga los siguientes pasos:
 
-1. Seleccione una **[!UICONTROL Import objects deleted in the CRM]** operación.
-1. Go to the **[!UICONTROL Remote object]** drop-down list and select the object concerned by the process. Este objeto coincide con una de las tablas creadas en Adobe Campaign durante la configuración del conector.
-1. Specify the deletion period to be taken into account in the **[!UICONTROL Start date]** and the **[!UICONTROL End date]** fields. Estas fechas se incluyen en el período.
+1. Seleccionar un objeto **[!UICONTROL Import eliminado en la operación CRM]**.
+1. Ir a la lista desplegable **[!UICONTROL Remote object]** y seleccionar el objeto afectado en el proceso. Este objeto coincide con una de las tablas creadas en Adobe Campaign durante la configuración del conector.
+1. Especifique el periodo de eliminación para tener en cuenta en los campos **[!UICONTROL Fecha inicio]** y **[!UICONTROL Fecha fin]**. Estas fechas se incluyen en el periodo.
 
    ![](assets/crm_import_deleted_obj.png)
 
    >[!CAUTION]
    >
-   >El período de eliminación de elementos debe coincidir con las limitaciones específicas del CRM. Esto significa que para Salesforce.com, por ejemplo, los elementos eliminados hace más de 30 días no se pueden recuperar.
+   >El periodo de eliminación de elementos debe coincidir con las limitaciones específicas del CRM. Esto significa que para Salesforce.com, por ejemplo, los elementos eliminados hace más de 30 días no se pueden recuperar.
 
 ## Eliminación de objetos en CRM {#deleting-objects-in-the-crm}
 
@@ -229,9 +229,9 @@ Para eliminar objetos en CRM, debe especificar la clave principal de los element
 
 ![](assets/crm_delete_in_crm.png)
 
-The **[!UICONTROL Behavior]** tab lets you enable the processing of rejects. This option generates a second output transition for the **[!UICONTROL CRM connector]** activity. Para obtener más información, consulte [esta sección](../../platform/using/crm-connectors.md#error-processing).
+La pestaña **[!UICONTROL Funcionamiento]** permite activar el procesamiento de los rechazos. Esta opción genera una segunda transición de salida para la actividad **[!UICONTROL Conector de CRM]**. Para obtener más información, consulte [esta sección](../../platform/using/crm-connectors.md#error-processing).
 
-Even when the **[!UICONTROL Process rejects]** option is disabled, a warning is generated for each rejected column.
+Incluso cuando la opción **[!UICONTROL Procesar rechazados]** está desactivada, se genera una advertencia para cada columna rechazada.
 
 ## Ejemplo de configuración de una importación de contactos {#example-of-how-to-configure-a-contact-import}
 
