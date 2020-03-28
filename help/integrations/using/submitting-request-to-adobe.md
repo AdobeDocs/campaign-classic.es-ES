@@ -14,7 +14,7 @@ discoiquuid: 6d19a5a6-98e5-4b1a-a56a-67cfead152bd
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ee483a8ed8d04fec561f8d4e96b630890209793c
 
 ---
@@ -40,13 +40,11 @@ Una vez habilitado el IMS, se puede solicitar a Campaign la integración entre e
   </tr> 
   <tr> 
    <td> <strong>ID de organización IMS</strong><br /> </td> 
-   <td> Su ID de organización de IMS. <br> Puede encontrar la ID de la organización IMS en Experience Cloud, en el menú
-        Administration. También se proporciona al conectarse
-      por primera vez a Adobe Experience Cloud. </td> 
+   <td> Su ID de la organización IMS. <br> Puede encontrar la ID de la organización IMS en Experience Cloud, en el menú Administration. También se proporciona al conectarse por primera vez a Adobe Experience Cloud. </td> 
   </tr> 
   <tr> 
    <td> <strong>Entorno:</strong><br /> </td> 
-   <td> Ejemplo:Producción </td> 
+   <td> Ejemplo: Producción </td> 
   </tr> 
   <tr> 
    <td> <strong>AAM o servicio Personas</strong><br /> </td> 
