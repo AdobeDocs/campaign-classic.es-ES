@@ -12,20 +12,20 @@ discoiquuid: e2dd8161-fe38-48bf-a288-8ec328b2660e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7c800c20fff89b97f6fa38b3c659ca765765e157
 
 ---
 
 
-# Envío de un correo electrónico{#sending-an-email}
+# Envío de correos electrónicos{#sending-an-email}
 
-To approve your email and send it to the recipients of the delivery being created, click **[!UICONTROL Send]**.
+Para aprobar el mensaje y enviarlo a los destinatarios de la entrega que está creando, haga clic en **[!UICONTROL Send]**.
 
-El proceso detallado para validar y realizar un envío se presenta en las siguientes secciones:
+El proceso detallado para validar y realizar una entrega se presenta en las siguientes secciones:
 
-* [Validación del envío](../../delivery/using/steps-validating-the-delivery.md)
-* [Realización del envío](../../delivery/using/steps-sending-the-delivery.md)
+* [Validación de la entrega](../../delivery/using/steps-validating-the-delivery.md)
+* [Realización de la entrega](../../delivery/using/steps-sending-the-delivery.md)
 
 Las secciones siguientes detallan los parámetros específicos para enviar correos electrónicos.
 
@@ -44,66 +44,66 @@ Al crear un nuevo envío o plantilla de envío, el correo electrónico CCO no es
 Para realizar esto, siga los pasos a continuación:
 
 1. Vaya a **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** o **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
-1. Seleccione el envío que desee o duplique la plantilla de **envío de correo electrónico** preestablecida y, a continuación, seleccione la plantilla duplicada.
+1. Seleccione la entrega que desee o duplique la plantilla de **envío de correo electrónico** preestablecida y, a continuación, seleccione la plantilla duplicada.
 1. Haga clic en el botón **Propiedades**.
-1. Select the **[!UICONTROL Delivery]** tab.
+1. Seleccione la pestaña **[!UICONTROL Delivery]**.
 1. Marque la casilla **Archivar correos electrónicos** para mantener una copia de todos los mensajes enviados para este envío o para cada envío basado en esta plantilla.
 
    ![](assets/s_ncs_user_wizard_archiving.png)
 
    >[!NOTE]
    >
-   >If the emails sent to the BCC address are opened and clicked through, this will be taken into account in the **[!UICONTROL Total opens]** and **[!UICONTROL Clicks]** from the send analysis, which could cause some miscalculations.
+   >Si se abren y se hace clic en los correos electrónicos enviados a la dirección de CCO, esto se tiene en cuenta en el cálculo de **[!UICONTROL Total opens]** y **[!UICONTROL Clicks]** en el análisis de envío, lo cual podría provocar algunos cálculos erróneos.
 
 ## Generación de la página espejo {#generating-the-mirror-page}
 
 La página espejo es una página HTML accesible en línea mediante un navegador web. Su contenido es idéntico al del correo electrónico.
 
-De forma predeterminada, la página espejo se genera si el enlace se inserta en el contenido del correo. For more on personalization blocks insertion, refer to [Personalization blocks](../../delivery/using/personalization-blocks.md).
+De forma predeterminada, la página espejo se genera si el vínculo se inserta en el contenido del correo. Para obtener más información sobre cómo personalizar la inserción de bloques, consulte [Bloques de personalización](../../delivery/using/personalization-blocks.md).
 
-In the delivery properties, the **[!UICONTROL Mode]** field of the **[!UICONTROL Validity]** tab lets you modify the generation mode for this page.
+En las propiedades de la entrega, el campo **[!UICONTROL Mode]** de la pestaña **[!UICONTROL Validity]** permite modificar el modo de generación de esta página.
 
 ![](assets/s_ncs_user_wizard_miror_page_mode.png)
 
 >[!CAUTION]
 >
->Se debe definir un contenido HTML para el envío de la página espejo que se va a crear.
+>Se debe definir un contenido HTML para la entrega de la página espejo que se va a crear.
 
 Además del modo predeterminado, también están disponibles las siguientes opciones:
 
-* **[!UICONTROL Force the generation of the mirror page]** :: aunque no se inserte ningún vínculo a la página de reflejo en el envío, se creará la página de reflejo.
-* **[!UICONTROL Do not generate the mirror page]** :: no se genera ninguna página reflejada, incluso si el vínculo está presente en la entrega.
-* **[!UICONTROL Generates a mirror page accessible using only the message identifier]** :: esta opción le permite acceder al contenido de la página reflejada, con información de personalización, en la ventana del registro de entrega. To do this, after the end of the delivery, click the **[!UICONTROL Delivery]** tab and select the line of the recipient whose mirror page you wish to view. Haga clic en el **[!UICONTROL Display the mirror page for this message...]** vínculo.
+* **[!UICONTROL Force the generation of the mirror page]**: incluso si no se inserta ningún vínculo a la página espejo en la entrega, se creará la página espejo.
+* **[!UICONTROL Do not generate the mirror page]**: no se genera ninguna página espejo, aunque el vínculo esté presente en la entrega.
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: esta opción permite acceder al contenido de la página duplicada, con información de personalización, en la ventana del “log” de envío. Para ello, tras finalizar la entrega, haga clic en la pestaña **[!UICONTROL Delivery]** y seleccione la línea del destinatario cuya página duplicada desee ver. Haga clic en el vínculo **[!UICONTROL Display the mirror page for this message...]**.
 
    ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
 ## Gestión de correos electrónicos rechazados {#managing-bounce-emails}
 
-The **[!UICONTROL SMTP]** tab of the delivery parameters lets you configure the management of bounce mails.
+La pestaña **[!UICONTROL SMTP]** de los parámetros de envío permite configurar la gestión de los correos electrónicos rechazados.
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab.png)
 
-De forma predeterminada, los correos electrónicos rechazados se reciben en el cuadro de error predeterminado de la plataforma, pero se puede definir una dirección de error específica para un envío.
+De forma predeterminada, los correos electrónicos rechazados se reciben en el cuadro de error predeterminado de la plataforma, pero se puede definir una dirección de error específica para una entrega.
 
 Desde esta pantalla, también puede definir una dirección específica para investigar los motivos de rechazo de los correos electrónicos cuando la aplicación no pueda calificarlos automáticamente. Para cada uno de estos campos, el icono “Añadir campos personalizados” permite añadir parámetros de personalización.
 
 ## Codificación de caracteres {#character-encoding}
 
-En la **[!UICONTROL SMTP]** ficha de los parámetros de envío, la **[!UICONTROL Character encoding]** sección le permite establecer una codificación específica.
+En la ficha **[!UICONTROL SMTP]** de los parámetros de entrega, la sección **[!UICONTROL Codificación]** de caracteres le permite establecer una codificación específica.
 
 La codificación predeterminada es UTF-8. Si algunos de los proveedores de correo electrónico de los destinatarios no admiten la codificación estándar UTF-8, es posible que desee configurar una codificación específica para que muestre correctamente los caracteres especiales a los destinatarios de los mensajes de correo electrónico.
 
 Por ejemplo, desea enviar un correo electrónico que contenga caracteres japoneses. Para asegurarse de que todos los caracteres se mostrarán correctamente a los destinatarios en Japón, es posible que desee utilizar una codificación que admita los caracteres japoneses en lugar de la codificación UTF-8 estándar.
 
-Para ello, seleccione la **[!UICONTROL Force the encoding used for messages]** opción en la **[!UICONTROL Character encoding]** sección y elija una codificación en la lista desplegable que se muestra.
+Para ello, seleccione la opción **[!UICONTROL Force the encoding used for messages]** en la sección **[!UICONTROL Character encoding]** y elija una codificación en la lista desplegable que se muestra.
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab_encoding.png)
 
 ## Añadir encabezados SMTP {#adding-smtp-headers}
 
-Es posible añadir encabezados SMTP a los envíos. To do this, use the relevant section of the **[!UICONTROL SMTP]** tab in the delivery.
+Es posible añadir encabezados SMTP a las entregas. Para ello, utilice la sección correspondiente en la pestaña **[!UICONTROL SMTP]** de la entrega.
 
-The script entered in this window must reference one header per line in the following form: **name:value**.
+La secuencia de comandos introducida en esta ventana debe hacer referencia a un encabezado por línea en el siguiente formulario **name:value**.
 
 Los valores se codifican automáticamente si es necesario.
 
