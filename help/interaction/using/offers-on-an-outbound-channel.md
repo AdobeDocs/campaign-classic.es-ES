@@ -14,7 +14,7 @@ discoiquuid: 3bd113c3-da67-4f4f-aa40-f4c7860a8569
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 ---
@@ -30,7 +30,7 @@ En nuestra base de datos, existe una categoría de ofertas de viajes a África. 
 
    ![](assets/offer_delivery_example_001.png)
 
-1. Edit the email delivery and click the **[!UICONTROL Offers]** icon.
+1. Edite la entrega por correo electrónico y haga clic en el icono **[!UICONTROL Offers]**.
 
    ![](assets/offer_delivery_example_002.png)
 
@@ -42,7 +42,7 @@ En nuestra base de datos, existe una categoría de ofertas de viajes a África. 
 
    ![](assets/offer_delivery_example_004.png)
 
-1. Defina el número de ofertas en el envío a dos.
+1. Defina el número de ofertas en la entrega a dos.
 
    ![](assets/offer_delivery_example_005.png)
 
@@ -58,18 +58,18 @@ En nuestra base de datos, existe una categoría de ofertas de viajes a África. 
 
    ![](assets/offer_delivery_example_008.png)
 
-1. Click **[!UICONTROL Preview]** to preview your offers in the delivery then select a recipient to preview the offers as they will receive them.
+1. Haga clic en **[!UICONTROL Preview]** para previsualizar las ofertas de la entrega y, a continuación, seleccione un destinatario para previsualizar las ofertas a medida que las reciban.
 
    ![](assets/offer_delivery_example_009.png)
 
-1. Guarde el envío e inicie el flujo de trabajo de objetivos.
-1. Open your delivery and click the **[!UICONTROL Audit]** tab of your delivery: you can see that the offer engine has selected the propositions to be made from the various offers in the catalog.
+1. Guarde la entrega e inicie el flujo de trabajo de objetivos.
+1. Abra la entrega y haga clic en la pestaña **[!UICONTROL Audit]** de la entrega: puede ver que el motor de ofertas ha seleccionado las propuestas que se realicen desde las diferentes ofertas del catálogo.
 
    ![](assets/offer_delivery_example_010.png)
 
 ## Realizar una simulación de oferta {#perform-an-offer-simulation}
 
-1. En el **[!UICONTROL Profiles and Targets]** universo, haga clic en el **[!UICONTROL Simulations]** vínculo y, a continuación, haga clic en el **[!UICONTROL Create]** botón .
+1. En el entorno **[!UICONTROL Profiles and Targets]**, haga clic en el vínculo **[!UICONTROL Simulations]**, luego, haga clic en **[!UICONTROL Create]**.
 
    ![](assets/offer_simulation_001.png)
 
@@ -81,7 +81,7 @@ En nuestra base de datos, existe una categoría de ofertas de viajes a África. 
 
    ![](assets/offer_simulation_example_003.png)
 
-1. Haga clic en la **[!UICONTROL Edit]** ficha y, a continuación, **[!UICONTROL Scope]**.
+1. Haga clic en la pestaña **[!UICONTROL Edit]** y luego en **[!UICONTROL Scope]**.
 
    ![](assets/offer_simulation_example_004.png)
 
@@ -110,21 +110,21 @@ En nuestra base de datos, existe una categoría de ofertas de viajes a África. 
 
    ![](assets/offer_simulation_example_009.png)
 
-1. Save your settings, then click **[!UICONTROL Start]** in the **[!UICONTROL Dashboard]** tab to run the simulation.
+1. Guarde la configuración y, en la pestaña **[!UICONTROL Dashboard]**, haga clic en **[!UICONTROL Start]** para ejecutar la simulación.
 
    ![](assets/offer_simulation_example_010.png)
 
-1. Once the simulation is finished, consult the **[!UICONTROL Results]** for a detailed breakdown of propositions per offer.
+1. Una vez finalizada la simulación, consulte **[!UICONTROL Results]** para obtener un desglose detallado de las propuestas por oferta.
 
    En nuestro ejemplo, el motor de oferta basa el desglose de las ofertas en 3 propuestas.
 
    ![](assets/offer_simulation_example_011.png)
 
-1. Display the **[!UICONTROL Breakdown of offers by rank]** to view the list of offers selected by the offer engine.
+1. Despliegue **[!UICONTROL Breakdown of offers by rank]** para ver la lista de ofertas seleccionadas por el motor de ofertas.
 
    ![](assets/offer_simulation_example_012.png)
 
-1. If necessary, you can change the scope settings and run the simulation again by clicking **[!UICONTROL Start simulation]**.
+1. Si es necesario, puede cambiar la configuración del ámbito y ejecutar otra vez la simulación haciendo clic en **[!UICONTROL Start simulation]**.
 
    ![](assets/offer_simulation_example_010.png)
 
