@@ -14,7 +14,7 @@ discoiquuid: c988362b-432e-4f9f-8d36-00b3d0015756
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 ---
@@ -29,7 +29,7 @@ Los usuarios de la campaña pueden conectarse a la consola de Adobe Campaign con
 * Política de gestión segura de contraseñas.
 * Uso de cuentas de ID federadas (proveedor de ID externo).
 
-Para obtener más información sobre los distintos tipos de Adobe ID, consulte: [https://helpx.adobe.com/en/enterprise/help/identity.html](https://helpx.adobe.com/en/enterprise/help/identity.html)
+Para obtener más información sobre los distintos tipos de Adobe ID, consulte: [https://helpx.adobe.com/es/enterprise/help/identity.html](https://helpx.adobe.com/es/enterprise/help/identity.html)
 
 >[!CAUTION]
 >
