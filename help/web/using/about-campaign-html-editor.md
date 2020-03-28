@@ -14,7 +14,7 @@ discoiquuid: 1ffe9f58-7258-4794-a314-524065f8a33b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 
 ---
@@ -38,31 +38,31 @@ El editor de contenido permite insertar y dar formato a elementos de página y a
 
 ## Operación general del editor de contenido {#content-editor-general-operation}
 
-En esta sección se presentan los pasos principales para editar y cargar contenido editado con el DCE dentro del marco de una aplicación web y en el contexto de un envío.
+En esta sección se presentan los pasos principales para editar y cargar contenido editado con el DCE dentro del marco de una aplicación web y en el contexto de una entrega.
 
 La operación general funciona de la siguiente manera:
 
 ![](assets/dce_schema.png)
 
-Para crear una aplicación Web sencilla, siga estos pasos:
+Para crear una aplicación Web, los pasos son los siguientes:
 
-* Cree una aplicación Web, para obtener más información sobre esto, consulte [Creación de una página](../../web/using/creating-a-landing-page.md)de aterrizaje,
-* Select existing content or creating content from a standard template, for more on this, refer to [Template management](../../web/using/template-management.md),
+* Cree una aplicación Web, para obtener más información sobre esto, consulte [Creación de una página de destino](../../web/using/creating-a-landing-page.md),
+* Selección de contenido existente o creación de contenido desde una plantilla estándar; para obtener más información, consulte [Administración de plantillas](../../web/using/template-management.md),
 * Edite y configure contenido. Para obtener más información sobre esto, consulte [Edición de contenido](../../web/using/editing-content.md),
-* Publish the Web application, for more on this, refer to [Publishing content](../../web/using/creating-a-landing-page.md#step-3---publishing-content) and [this page](../../web/using/publishing-a-web-form.md#managing-web-forms-delivery-and-tracking).
+* Publicación de la aplicación Web; para obtener más información, consulte [Publicación de contenidos](../../web/using/creating-a-landing-page.md#step-3---publishing-content) y [esta página](../../web/using/publishing-a-web-form.md#managing-web-forms-delivery-and-tracking).
 
 >[!NOTE]
 >
->For a complete example detailing the implementation of the DCE within the framework of a Web application, refer to [Creating a landing page](../../web/using/creating-a-landing-page.md).
+>Para ver un ejemplo completo que detalle la implementación del DCE dentro del marco de una aplicación Web, consulte [Creación de una página de destino](../../web/using/creating-a-landing-page.md).
 
-Para crear un envío por correo electrónico, los pasos son los siguientes:
+Para crear una entrega por correo electrónico, los pasos son los siguientes:
 
-* Cree una entrega a partir de una plantilla de tipo de correo electrónico en la que el DCE esté activo.
-* Seleccione el contenido existente o cree contenido a partir de una plantilla estándar,
+* Cree una entrega a partir de una plantilla de tipo correo electrónico en la que el DCE esté activo,
+* Seleccione contenido existente o cree contenido desde una plantilla estándar,
 * Editar y configurar contenido en línea,
-* Send the delivery, for more on this refer to [this section](../../delivery/using/communication-channels.md).
+* Realice una entrega; para obtener más información, consulte [esta sección](../../delivery/using/communication-channels.md).
 
 >[!NOTE]
 >
->For a complete example detailing the implementation of the DCE within the framework of an email delivery, refer to [this use case](../../web/using/use-case--creating-an-email-delivery.md).
+>Para ver un ejemplo completo que detalle la implementación del DCE dentro del marco de una entrega por correo electrónico, consulte [este caso de uso](../../web/using/use-case--creating-an-email-delivery.md).
 
