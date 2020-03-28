@@ -14,7 +14,7 @@ discoiquuid: 568a9dec-5818-4666-b858-aa41fe827b92
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 Si falla el envío de un mensaje en un canal específico, Adobe Campaign puede reenviar el mensaje con un canal diferente. Por ejemplo, si un envío del canal SMS falla, el mensaje se reenvía mediante el canal de correo electrónico.
 
-To do this, you need to configure a workflow which recreates all events with the **Delivery error** status, and assigns a different channel to them.
+Para ello, es necesario configurar un flujo de trabajo que vuelva a crear todos los eventos con el estado **Error de entrega** y les asigne un canal diferente.
 
 >[!CAUTION]
 >
