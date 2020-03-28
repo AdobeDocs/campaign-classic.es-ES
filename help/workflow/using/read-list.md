@@ -14,7 +14,7 @@ discoiquuid: 96a7aea4-4799-4ac7-8dff-666b075a1c43
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
@@ -24,9 +24,9 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 Los datos procesados en un flujo de trabajo pueden proceder de listas en las que se han preparado o estructurado los datos (después de una segmentación previa o carga de archivo).
 
-The **[!UICONTROL Read list]** activity lets you copy the data from a list in the workflow worktable, like data from a query. Entonces es accesible a través del flujo de trabajo.
+La actividad **[!UICONTROL Read list]** permite copiar los datos de una lista en la tabla de trabajo del flujo de trabajo, como los datos de una consulta. Entonces es accesible a través del flujo de trabajo.
 
-The list to be processed can be specified explicitly, computed by a script or localized dynamically, according to options selected and parameters defined in a **[!UICONTROL Read list]** activity.
+La lista que se procese puede especificarse explícitamente, computarse mediante un lista de comandos o localizarse dinámicamente, de acuerdo con las opciones seleccionadas y los parámetros definidos en una actividad **[!UICONTROL Read list]**.
 
 ![](assets/list_edit_select_option_01.png)
 
@@ -34,7 +34,7 @@ Si la lista no se especifica explícitamente, debe proporcionar una lista que se
 
 ![](assets/s_advuser_list_template_select.png)
 
-Once the list selection has been configured, you can add a filter using the **[!UICONTROL Edit query]** option to keep one part of the population for the next workflow.
+Una vez que se ha configurado la selección de la lista, puede añadir un filtro utilizando la opción **[!UICONTROL Edit query]** para mantener una parte de la población para el siguiente flujo de trabajo.
 
 ![](assets/wf_readlist_1.png)
 
@@ -42,7 +42,7 @@ Once the list selection has been configured, you can add a filter using the **[!
 >
 >Para poder crear un filtro en una actividad de lista de lectura, la lista relevante debe ser un tipo de “archivo”.
 
-The lists can be created directly in Adobe Campaign via the **[!UICONTROL Profiles and Targets > Lists]** link of the home page. They can also be created in a workflow using the **[!UICONTROL List update]** activity.
+Las listas se pueden crear directamente en Adobe Campaign mediante el vínculo **[!UICONTROL Profiles and Targets > Lists]** de la página principal. También pueden crearse en un flujo de trabajo utilizando la actividad **[!UICONTROL List update]**.
 
 **Ejemplo: Excluir una lista de direcciones de envío**
 
@@ -64,13 +64,13 @@ Los perfiles contenidos en la carpeta **New contacts** deben ser dirigidos a una
 
    ![](assets/s_advuser_list_read_sample_3.png)
 
-   Las reglas de exclusión se configuran en la sección central de la herramienta de edición. Click the **[!UICONTROL Add]** button to define the type of exclusion to be applied.
+   Las reglas de exclusión se configuran en la sección central de la herramienta de edición. Haga clic en el botón **[!UICONTROL Add]** para definir el tipo de exclusión que se aplicará.
 
    Puede definir varias exclusiones en función del número de transiciones entrantes de la actividad.
 
-1. In the **[!UICONTROL Exclusion set]** field, select the **[!UICONTROL Read list]** activity: the data in this activity is to be excluded from the main set.
+1. En el campo **[!UICONTROL Exclusion set]**, seleccione la actividad **[!UICONTROL Read list]**: los datos de esta actividad se excluirán del conjunto principal.
 
-   En nuestro ejemplo, tenemos una exclusión en las combinaciones: los datos contenidos en la lista se reconciliarán con los datos del conjunto principal a través del campo que contiene la dirección de correo electrónico. Para configurar la unión, seleccione **[!UICONTROL Joins]** en el **[!UICONTROL Change dimension]** campo.
+   En nuestro ejemplo, tenemos una exclusión en las combinaciones: los datos contenidos en la lista se reconciliarán con los datos del conjunto principal a través del campo que contiene la dirección de correo electrónico. Para configurar la unión, seleccione **[!UICONTROL Joins]** en el campo **[!UICONTROL Change dimension]**.
 
    ![](assets/s_advuser_list_read_sample_4.png)
 
