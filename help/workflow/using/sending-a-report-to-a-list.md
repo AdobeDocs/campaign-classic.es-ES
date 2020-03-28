@@ -14,7 +14,7 @@ discoiquuid: 41b8a8a8-efac-4e8e-8aea-d4fd06c46e74
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -22,27 +22,27 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 # Envío de informes a una lista{#sending-a-report-to-a-list}
 
-This use case details how to generate a monthly out-of-the-box **[!UICONTROL Tracking indicators]** report in PDF format and how to send it to a list of recipients.
+Este caso de uso detalla cómo generar un informe mensual preestablecido de **[!UICONTROL Tracking indicators]** en formato PDF y cómo enviarlo a una lista de destinatarios.
 
 ![](assets/use_case_report_intro.png)
 
 Los pasos de implementación principales para este caso de uso son:
 
-* Creación de una lista de destinatarios que recibirán la entrega (consulte: [Paso 1: Creación de la lista](#step-1--creating-the-recipient-list)de destinatarios).
-* Creating a delivery template that will let you generate a new delivery each time the workflow is executed (refer to: [Step 2: Creating the delivery template](#step-2--creating-the-delivery-template)).
-* Creating a workflow that will let you generate the report in PDF format and send it to the list of recipients (refer to: [Step 3: Creating the workflow](#step-3--creating-the-workflow)).
+* Creación de una lista de destinatarios que recibirán la entrega (consulte: [Paso 1: Crear la lista de destinatarios](#step-1--creating-the-recipient-list)).
+* Creación de una plantilla de envío que permite generar un nuevo envío cada vez que se ejecute el flujo de trabajo (consulte [Paso 2: crear la plantilla de entrega](#step-2--creating-the-delivery-template)).
+* Creación de un flujo de trabajo que permite generar el informe en formato PDF y enviarlo a la lista de destinatarios (consulte [Paso 3: crear el flujo de trabajo](#step-3--creating-the-workflow)).
 
-## Step 1: Creating the recipient list {#step-1--creating-the-recipient-list}
+## Paso 1: Crear la lista de destinatarios {#step-1--creating-the-recipient-list}
 
-Vaya al **[!UICONTROL Profiles and targets]** universo, haga clic en el **[!UICONTROL Lists]** vínculo y luego en el **[!UICONTROL Create]** botón. Select **[!UICONTROL New list]** and create a new recipient list for the report to be sent to.
+Vaya a **[!UICONTROL Profiles and targets]**, haga clic en el vínculo **[!UICONTROL Lists]** y, a continuación, en el botón **[!UICONTROL Create]**. Seleccione **[!UICONTROL New list]** y cree una nueva lista de destinatarios a los que enviar el informe.
 
 ![](assets/use_case_report_1.png)
 
 Para obtener más información sobre la creación de listas, consulte [esta sección](../../platform/using/creating-and-managing-lists.md).
 
-## Step 2: Creating the delivery template {#step-2--creating-the-delivery-template}
+## Paso 2: Creación de la plantilla de publicación {#step-2--creating-the-delivery-template}
 
-1. Vaya al **[!UICONTROL Resources > Templates > Delivery templates]** nodo del explorador de Adobe Campaign y duplique la plantilla **[!UICONTROL Email delivery]** lista para usar.
+1. Vaya al nodo **[!UICONTROL Resources > Templates > Delivery templates]** del explorador de Adobe Campaign y duplique la plantilla predeterminada **[!UICONTROL Email delivery]**.
 
    ![](assets/use_case_report_2.png)
 
@@ -52,19 +52,19 @@ Para obtener más información sobre la creación de listas, consulte [esta secc
 
    ![](assets/use_case_report_3.png)
 
-1. Cada vez que se ejecuta el flujo de trabajo, se actualiza el **[!UICONTROL Tracking indicators]** informe (consulte el [paso 3: Creación del flujo de trabajo](#step-3--creating-the-workflow)). To include the latest version of the report in the delivery, you need to add a **[!UICONTROL Calculated attachment]**:
+1. Cada vez que se ejecuta el flujo de trabajo, se actualiza el informe **[!UICONTROL Tracking indicators]** (consulte el [Paso 3: Creación del flujo de trabajo](#step-3--creating-the-workflow)). Para incluir la versión más reciente del informe en la entrega, se debe añadir un **[!UICONTROL Calculated attachment]**:
 
    Para obtener más información sobre la creación de archivos adjuntos calculados, consulte [esta sección](../../delivery/using/attaching-files.md#creating-a-calculated-attachment).
 
-   * Haga clic en el **[!UICONTROL Attachments]** vínculo, haga clic en **[!UICONTROL Add]** y, a continuación, seleccione **[!UICONTROL Calculated attachment]**.
+   * Haga clic en el vínculo **[!UICONTROL Attachments]**, en **[!UICONTROL Add]** y, a continuación, en **[!UICONTROL Calculated attachment]**.
 
       ![](assets/use_case_report_4.png)
 
-   * Go to the **[!UICONTROL Type]** field and select the fourth option: **[!UICONTROL File name is computed during delivery of each message (it may then depend on the recipient profile)]**.
+   * Vaya al campo **[!UICONTROL Type]** y seleccione la cuarta opción: **[!UICONTROL El nombre de archivo se calcula durante la entrega de cada mensaje (puede depender del perfil del destinatario)]**.
 
       ![](assets/use_case_report_5.png)
 
-      The value entered in the **[!UICONTROL Label]** field will not appear in the final delivery.
+      El valor introducido en el campo **[!UICONTROL Label]** no aparece en la entrega final.
 
    * Vaya a la zona de edición e introduzca la ruta de acceso y el nombre del archivo.
 
@@ -72,33 +72,33 @@ Para obtener más información sobre la creación de listas, consulte [esta secc
 
       >[!CAUTION]
       >
-      >El archivo debe estar presente en el servidor. Su ruta y nombre deben ser idénticos a los especificados en la actividad de **[!UICONTROL JavaScript code]** tipo del flujo de trabajo (consulte: [Paso 3: Creación del flujo de trabajo](#step-3--creating-the-workflow)).
+      >El archivo debe estar presente en el servidor. Su ruta y nombre deben ser idénticos a los introducidos en la actividad **[!UICONTROL JavaScript code]** del flujo de trabajo (consulte [Paso 3: crear el flujo de trabajo](#step-3--creating-the-workflow)).
 
-   * Seleccione la **[!UICONTROL Advanced]** ficha y marque **[!UICONTROL Script the name of the file name displayed in the mails sent]**. Vaya a la zona de edición e introduzca el nombre que desea asignar al archivo adjunto en el envío final.
+   * Seleccione la pestaña **[!UICONTROL Advanced]** y marque **[!UICONTROL Script the name of the file name displayed in the mails sent]**. Vaya a la zona de edición e introduzca el nombre que desea asignar al archivo adjunto en la entrega final.
 
       ![](assets/use_case_report_6bis.png)
 
-## Paso 3: Creación del flujo de trabajo {#step-3--creating-the-workflow}
+## Paso 3: Crear el flujo de trabajo {#step-3--creating-the-workflow}
 
 El siguiente flujo de trabajo se creó para este caso de uso. Tiene tres actividades:
 
-* One **[!UICONTROL Scheduler]** type activity that lets you execute the workflow once a month,
-* One **[!UICONTROL JavaScript code]** type activity that lets you generate the report in PDF format,
-* one **[!UICONTROL Delivery]** type activity that uses the previously created delivery template.
+* Una actividad **[!UICONTROL Scheduler]** que permite ejecutar el flujo de trabajo una vez al mes,
+* Una actividad **[!UICONTROL JavaScript code]** que permite generar el informe en formato PDF,
+* una actividad **[!UICONTROL Delivery]** que utiliza la plantilla de envío creada anteriormente.
 
 ![](assets/use_case_report_8.png)
 
-1. Now go to the **[!UICONTROL Administration > Production > Technical workflows]** node and create a new workflow.
+1. Ahora, vaya al nodo **[!UICONTROL Administration > Production > Technical workflows]** y cree un nuevo flujo de trabajo.
 
    ![](assets/use_case_report_7.png)
 
-1. Start by adding a **[!UICONTROL Scheduler]** type activity and configure it so that the workflow executes on the first Monday of the month.
+1. Comience agregando una actividad **[!UICONTROL Scheduler]** y configúrela para que el flujo de trabajo se ejecute en el primer lunes del mes.
 
    ![](assets/use_case_report_9.png)
 
-   For more on configuring the scheduler, refer to [Scheduler](../../workflow/using/scheduler.md).
+   Para obtener más información sobre la configuración del planificador, consulte [planificador](../../workflow/using/scheduler.md).
 
-1. A continuación, agregue un **[!UICONTROL JavaScript code]** tipo de actividad.
+1. A continuación, añada una actividad **[!UICONTROL JavaScript code]**.
 
    ![](assets/use_case_report_10.png)
 
@@ -122,16 +122,16 @@ El siguiente flujo de trabajo se creó para este caso de uso. Tiene tres activid
 
       >[!CAUTION]
       >
-      >El archivo debe guardarse en el servidor. You must enter the same path and the same name in the **[!UICONTROL General]** tab of the edit window for the calculated attachment (refer to: [Step 2: Creating the delivery template](#step-2--creating-the-delivery-template)).
+      >El archivo debe guardarse en el servidor. Se debe introducir la misma ruta y el mismo nombre en la pestaña **[!UICONTROL General]** de la ventana de edición para el archivo adjunto calculado (consulte [Paso 2: crear la plantilla de entrega>](#step-2--creating-the-delivery-template)).
 
    * **var exportFormat**: introduzca el formato de exportación del archivo (“PDF”).
-   * **var_ctx** (contexto): en este caso, estamos utilizando el **[!UICONTROL Tracking indicators]** informe en su contexto mundial.
+   * **var _ctx** (contexto): en este caso, se utiliza el informe **[!UICONTROL Tracking indicators]** en su contexto global.
 
-1. Finish by adding a **[!UICONTROL Delivery]** type activity with the following options:
+1. Para terminar, añada una actividad **[!UICONTROL Delivery]** con las siguientes opciones:
 
-   * **[!UICONTROL Delivery]**:: seleccione **[!UICONTROL New, created from a template]** y seleccione la plantilla de envío creada anteriormente.
-   * Para los campos **[!UICONTROL Recipients]** y **[!UICONTROL Content]** , seleccione **[!UICONTROL Specified in the delivery]**.
-   * **[!UICONTROL Action to execute]**:: seleccione **[!UICONTROL Prepare and start]**.
-   * Desmarcar **[!UICONTROL Generate an outbound transition]** y **[!UICONTROL Process errors]**.
+   * **** Envío: seleccione **[!UICONTROL Nuevo, creado desde plantilla]** y seleccione la plantilla de envío creada previamente.
+   * Para los campos ******[!UICONTROL Destinatarios y Contenido]**, seleccione **[!UICONTROL Especificado en la entrega]**.
+   * **** Acción que quiere ejecutar: seleccione **[!UICONTROL Preparación e inicio]**.
+   * Anule la selección de **[!UICONTROL Generate an outbound transition]** y **[!UICONTROL Process errors]**.
    ![](assets/use_case_report_11.png)
 
