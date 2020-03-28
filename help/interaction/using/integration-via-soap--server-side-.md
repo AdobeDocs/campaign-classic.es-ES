@@ -14,7 +14,7 @@ discoiquuid: 477a2c31-0403-4db1-a372-c75dca58380d
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -30,8 +30,8 @@ Para una propuesta de oferta mediante SOAP, añada el comando **nms:proposition#
 
 * **targetId**: clave principal del destinatario (puede ser una clave compuesta).
 * **maxCount**: especifica el número de propuestas de ofertas para el contacto.
-* **context**: permite añadir información contextual en el esquema de espacio. If the schema used is **nms:interaction**, **`<empty>`** should be added.
-* **categories**: especifica las categoría a las que las ofertas deben pertenecer.
+* **context**: permite añadir información contextual en el esquema de espacio. Si el esquema utilizado es **nms:interaction**, se debe añadir **`<empty>`**.
+* **categories**: especifica las categorías a las que las ofertas deben pertenecer.
 * **themes**: especifica los tema a los que las ofertas deben pertenecer.
 * **uuid**: valor de la cookie permanente de Adobe Campaign (“uuid230”).
 * **nli**: valor de la cookie de sesión de Adobe Campaign (“nlid”).
@@ -43,16 +43,16 @@ Para una propuesta de oferta mediante SOAP, añada el comando **nms:proposition#
 
 Como respuesta a la consulta, el servicio SOAP devuelve los siguientes parámetros:
 
-* **interactiveId**: ID de la interacción.
-* **propuestas**: elemento XML, contiene la lista de propuestas, cada una con su propio ID y representación HTML.
+* **interactionld**: ID de la interacción.
+* **propositions**: el elemento XML, contiene la lista de propuestas, cada una con su propio ID y representación HTML.
 
 ## Actualización de oferta {#offer-update}
 
 Añada el comando **nms:interaction#UpdateStatus** a la dirección URL, seguido de estos parámetros:
 
-* **proposition**: cadena de caracteres, contiene el ID de la propuesta dado como salida durante una propuesta de oferta. Consulte la propuesta [de oferta](#offer-proposition).
+* **proposition**: cadena de caracteres, contiene el ID de la propuesta dado como salida durante una propuesta de oferta. Consulte la [Propuesta de oferta](#offer-proposition).
 * **status**: tipo cadena, especifica el nuevo estado de la oferta. Los valores posibles se mencionan en la enumeración **propositionStatus**, en el esquema **nms:common.** Por ejemplo, de forma predeterminada, el número 3 corresponde al estado **Accepted**.
-* **contexto**: elemento XML, le permite agregar información de contexto en el esquema de espacio. If the schema used is **nms:interaction**, **`<empty>`** should be added.
+* **context**: el elemento XML, permite añadir información contextual en el esquema de espacio. Si el esquema utilizado es **nms:interaction**, se debe añadir **`<empty>`**.
 
 ## Ejemplo de uso de una llamada a SOAP {#example-using-a-soap-call}
 
