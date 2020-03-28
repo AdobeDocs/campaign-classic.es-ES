@@ -14,7 +14,7 @@ discoiquuid: 72e974b8-415a-47ab-9804-b15957787198
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 30f313cecf1c3d7c65f6524a3f86a1c28b35f679
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: 30f313cecf1c3d7c65f6524a3f86a1c28b35f679
 
 ## Acerca de la renderización de la bandeja de entrada {#about-inbox-rendering}
 
-Antes de pulsar el botón **Enviar** , asegúrese de que su mensaje se mostrará a los destinatarios de una forma óptima en una gran variedad de clientes, correos Web y dispositivos web.
+Antes de pulsar el botón **Send**, asegúrese de que su mensaje se mostrará a los destinatarios de una forma óptima en una gran variedad de clientes, correos Web y dispositivos web.
 
 Para permitir esto, Adobe Campaign aprovecha la solución de prueba de correo electrónico basada en Web [Litmus](https://litmus.com/email-testing) para detectar las irregularidades y señalarlas en un informe dedicado. Esto le permite obtener una previsualización del mensaje enviado en los diferentes contextos en los que se puede recibir y comprobar la compatibilidad en las aplicaciones y los escritorios principales.
 
@@ -34,27 +34,27 @@ Los clientes móviles, de mensajería y de correo web disponibles para **Renderi
 
 >[!NOTE]
 >
->No es necesario renderizar la bandeja de entrada para probar la personalización en los envíos. Personalization can be checked with Adobe Campaign tools such as **[!UICONTROL Preview]** and [Proofs](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+>No es necesario renderizar la bandeja de entrada para probar la personalización en las entregas. La personalización puede comprobarse con las herramientas de Adobe Campaign como **[!UICONTROL Preview]** y [Proofs](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
-## Activación del procesamiento de la bandeja de entrada{#activating-inbox-rendering}
+## Activación de la renderización de la bandeja de entrada{#activating-inbox-rendering}
 
-Para los clientes alojados e híbridos, el servicio de asistencia técnica y consultores de Adobe configuran el procesamiento de la bandeja de entrada en su instancia. Para obtener más información, póngase en contacto con su administrador de cuentas de Adobe.
+Para los clientes alojados e híbridos, el servicio de asistencia técnica y consultores de Adobe configuran la renderización de la Bandeja de entrada en la instancia. Para obtener más información, póngase en contacto con su administrador de cuentas de Adobe.
 
-Para las instalaciones in situ, siga los pasos a continuación para configurar el procesamiento de la Bandeja de entrada.
+Para las instalaciones in situ, siga los pasos a continuación para configurar la renderización de la Bandeja de entrada.
 
-1. Instale el **[!UICONTROL Inbox rendering (IR)]** paquete mediante el menú **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** . Para obtener más información sobre esto, consulte [Instalación de paquetes](../../installation/using/installing-campaign-standard-packages.md)estándar de Campaign Classic.
-1. Configure una cuenta externa del tipo HTTP mediante el nodo **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** . Para obtener más información sobre esto, consulte [Creación de una cuenta](../../platform/using/external-accounts.md#creating-an-external-account)externa.
+1. Instale el paquete **[!UICONTROL Inbox rendering (IR)]** mediante el menú **[!UICONTROL Tools]** > **[!UICONTROL Advances]** > **[!UICONTROL Import package]**. Para obtener más información, consulte [Instalación de paquetes estándar de Campaign Classic](../../installation/using/installing-campaign-standard-packages.md).
+1. Configure una cuenta externa del tipo HTTP mediante el nodo **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]**. Para obtener más información, consulte [Creación de una cuenta externa](../../platform/using/external-accounts.md#creating-an-external-account).
 1. Defina los parámetros de cuenta externa de la siguiente manera:
-   * **[!UICONTROL Label]**:: Información del servidor de entrega
-   * **[!UICONTROL Internal name]**:: deliveryInstance
-   * **[!UICONTROL Type]**::HTTP
-   * **[!UICONTROL Server]**:: https://deliverability-app.neolane.net/deliverability
-   * **[!UICONTROL Encryption]**:: Ninguno
-   * Marque la **[!UICONTROL Enabled]** opción.
+   * **[!UICONTROL Etiqueta]**: Información del servidor de capacidad de envío
+   * **[!UICONTROL Nombre interno]**: deliverabilityInstance
+   * **[!UICONTROL Tipo]**: HTTP
+   * **[!UICONTROL Servidor]**: https://deliverability-app.neolane.net/deliverability
+   * **[!UICONTROL Cifrado]**: Ninguno
+   * Marque la opción **[!UICONTROL Enabled]**.
    ![](assets/s_tn_inbox_rendering_external-account.png)
 
-1. Vaya al nodo **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** . Busque la **[!UICONTROL DmRendering_cuid]** opción y póngase en contacto con el servicio de soporte técnico para obtener el identificador de los informes de envío que debe copiarse en el **[!UICONTROL Value (text)]** campo.
-1. Edite el **archivo serverConf.xml** para permitir una llamada al servidor Litmus. Agregue la siguiente línea a la `<urlPermission>` sección:
+1. Vaya al nodo **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. Busque la opción **[!UICONTROL DmRendering_cuid]** y póngase en contacto con el servicio de soporte técnico para obtener el identificador de los informes de envío que debe copiarse en el campo **[!UICONTROL Value (text)]**.
+1. Edite el archivo **serverConf.xml** para permitir una llamada al servidor Litmus. Añada la siguiente línea a la sección `<urlPermission>`:
 
    ```
    <url dnsSuffix="deliverability-app.neolane.net" urlRegEx="https://.*"/>
@@ -68,7 +68,7 @@ Para las instalaciones in situ, siga los pasos a continuación para configurar e
 
 >[!NOTE]
 >
->Es posible que tenga que cerrar la sesión desde la consola y volver a iniciarla para poder utilizar el procesamiento de la Bandeja de entrada.
+>Es posible que tenga que cerrar la sesión desde la consola y volver a iniciarla para poder utilizar la renderización de la Bandeja de entrada.
 
 ## Acerca de los tokens de Litmus {#about-litmus-tokens}
 
@@ -80,7 +80,7 @@ En Adobe Campaign, el crédito corresponde al número de representaciones dispon
 >
 >El número de tokens de Litmus disponibles depende de la licencia adquirida en Campaign. Compruebe el acuerdo de licencia.
 
-Each time you use the **[!UICONTROL Inbox rendering]** feature in a delivery, each rendering generated decreases your available tokens by one.
+Cada vez que se utiliza la función **[!UICONTROL Inbox rendering]** en una entrega, cada renderización generada reduce en uno los tokens disponibles.
 
 >[!IMPORTANT]
 >
@@ -92,7 +92,7 @@ Each time you use the **[!UICONTROL Inbox rendering]** feature in a delivery, ea
 
 
 
-El número de testigos disponibles restantes se muestra en la parte **[!UICONTROL General summary]** del informe [de procesamiento de la](#inbox-rendering-report)Bandeja de entrada.
+El número de tokens disponibles restantes se muestra en **[!UICONTROL General summary]** de [Inbox rendering report](#inbox-rendering-report).
 
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
@@ -108,14 +108,14 @@ Normalmente, la función de renderización de la bandeja de entrada se utiliza p
 
 Una vez que haya creado su envío de correo electrónico y definido su contenido, así como la población de destino, siga los pasos a continuación.
 
-Para obtener más información sobre la creación y configuración de los servicios de información, consulte [esta sección](../../delivery/using/about-email-channel.md).
+Para obtener más información sobre la creación, el diseño y la segmentación de los servicios de información, consulte [esta sección](../../delivery/using/about-email-channel.md).
 
-1. On the top bar of the delivery, click the **[!UICONTROL Inbox rendering]** button.
-1. Select **[!UICONTROL Analyze]** to start the capture process.
+1. En la barra superior de la entrega, haga clic en el botón **[!UICONTROL Inbox rendering]**.
+1. Seleccione **[!UICONTROL Analyze]** para iniciar el proceso de captura.
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
-   Se envía una prueba. Se puede acceder a las miniaturas de renderización de esa prueba unos minutos después de enviar los mensajes de correo electrónico. Para obtener más información el envío de pruebas, consulte [esta sección](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+   Se envía una prueba. Se puede acceder a las miniaturas de renderización de esa prueba unos minutos después de enviar los mensajes de correo electrónico. Para obtener más información la entrega de pruebas, consulte [esta sección](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
 1. Una vez enviada, la prueba aparece en la lista de envío. Haga doble clic en ella.
 
@@ -129,15 +129,15 @@ Para obtener más información sobre la creación y configuración de los servic
 
 ## Informe de renderización de la bandeja de entrada {#inbox-rendering-report}
 
-Este informe muestra las renderizaciones de la bandeja de entrada tal y como aparecen al destinatario. Las renderizaciones pueden variar en función del modo en que el destinatario abra el envío de correo electrónico: en un navegador, en un dispositivo móvil o a través de una aplicación de correo electrónico.
+Este informe muestra las renderizaciones de la bandeja de entrada tal y como aparecen al destinatario. Las renderizaciones pueden variar en función del modo en que el destinatario abra la entrega de correo electrónico: en un navegador, en un dispositivo móvil o a través de una aplicación de correo electrónico.
 
-The **[!UICONTROL General summary]** presents the number of messages received, unwanted (spam), not received, or pending reception, as a list and through a graphical color-coded representation.
+**[!UICONTROL General summary]** presenta el número de mensajes recibidos, no deseados (correo no deseado), no recibidos o cuya recepción está pendiente en formato lista y a través de una representación gráfica codificada por colores.
 
 ![](assets/s_tn_inbox_rendering_summary.png)
 
 Pase el ratón por encima del gráfico para ver los detalles de cada color.
 
-The body of the report is divided into three parts: **[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]**, and **[!UICONTROL Webmails]**. Desplácese hacia abajo por el informe para mostrar todas las representaciones agrupadas en estas tres categorías.
+El cuerpo del informe está dividido en tres partes: **[!UICONTROL Móvil]**, **[!UICONTROL Clientes de mensajería]** y **[!UICONTROL Correos web]**. Desplácese hacia abajo por el informe para mostrar todas las representaciones agrupadas en estas tres categorías.
 
 ![](assets/s_tn_inbox_rendering_report.png)
 
