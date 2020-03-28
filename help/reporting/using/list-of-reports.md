@@ -14,7 +14,7 @@ discoiquuid: 3e593527-5580-44ea-93dc-9084d862537e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 
 # Lista de informes{#list-of-reports}
 
-## Informes sobre envíos {#reports-on-deliveries}
+## Informes sobre entregas {#reports-on-deliveries}
 
 Los informes integrados proporcionados por Adobe Campaign se pueden encontrar en la siguiente tabla.
 
@@ -37,12 +37,12 @@ Para más información sobre el contenido de estos informes, consulte [esta secc
   </tr> 
   <tr> 
    <td> Actividades del usuario (recipientActivity)<br /> </td> 
-   <td> Desglose de aperturas, clics y transacciones por periodo de tiempo.<br /> </td> 
+   <td> Desglose de aperturas, clics y transacciones por periodo.<br /> </td> 
    <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
-   <td> Rendimiento de envío (throughput)<br /> </td> 
-   <td> Gráficos de rendimiento de envío, en mensajes por hora y Mbits/s.<br /> </td> 
+   <td> Rendimiento de entrega (throughput)<br /> </td> 
+   <td> Gráficos de rendimiento de entrega, en mensajes por hora y Mbits/s.<br /> </td> 
    <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ Para más información sobre el contenido de estos informes, consulte [esta secc
   </tr> 
   <tr> 
    <td> Indicadores de seguimiento (mobileAppDeliveryFeedback)<br /> </td> 
-   <td> Indicadores de seguimiento de un envío a una aplicación móvil.<br /> </td> 
+   <td> Indicadores de seguimiento de una entrega a una aplicación móvil.<br /> </td> 
    <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
@@ -77,17 +77,17 @@ Para más información sobre el contenido de estos informes, consulte [esta secc
   </tr> 
   <tr> 
    <td> Informe de hipótesis (deliveryHypothesis)<br /> </td> 
-   <td> Muestra el resumen de medidas sobre la hipótesis de envío.<br /> </td> 
+   <td> Muestra el resumen de medidas sobre la hipótesis de entrega.<br /> </td> 
    <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
-   <td> Estadísticas de envío (statisticsPerDelivery)<br /> </td> 
+   <td> Estadísticas de entrega (statisticsPerDelivery)<br /> </td> 
    <td> Estadísticas (mensajes procesados, mensajes enviados, rechazos graves, rechazos leves, clics, bajas de suscripción) por dominio del correo electrónico.<br /> </td> 
    <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
    <td> Estadísticas de actividad de difusión (forwardActivities)<br /> </td> 
-   <td> Análisis de actividades de difusión, aperturas y suscripciones por periodo de tiempo.<br /> </td> 
+   <td> Análisis de actividades de difusión, aperturas y suscripciones por periodo.<br /> </td> 
    <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
@@ -97,11 +97,11 @@ Para más información sobre el contenido de estos informes, consulte [esta secc
   </tr> 
   <tr> 
    <td> Resumen de envíos (deliverySending)<br /> </td> 
-   <td> Resumen de indicadores de envío: destino, exclusión y mensajes enviados.<br /> </td> 
+   <td> Resumen de indicadores de entrega: destino, exclusión y mensajes enviados.<br /> </td> 
    <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
-   <td> Resumen de envío (deliveryStatistics)<br /> </td> 
+   <td> Resumen de entrega (deliveryStatistics)<br /> </td> 
    <td> Tabla de resumen de los envíos seleccionados: Objetivos, exclusiones y mensajes enviados.<br /> </td> 
    <td> nms:delivery<br /> </td> 
   </tr> 
@@ -139,11 +139,11 @@ Para más información sobre el contenido de estos informes, consulte [esta secc
   </tr> 
   <tr> 
    <td> Actividades del usuario (operationRecipientActivity)<br /> </td> 
-   <td> Desglose de aperturas, clics y transacciones por un periodo de tiempo, depende de Campaign.<br /> </td> 
+   <td> Desglose de aperturas, clics y transacciones por un periodo, depende de Campaign.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Rendimiento de envío (operationThroughput)<br /> </td> 
-   <td> Gráficos de rendimiento de envío, en correos por hora y Mbits/s, dependen de Campaign.<br /> </td> 
+   <td> Rendimiento de entrega (operationThroughput)<br /> </td> 
+   <td> Gráficos de rendimiento de entrega, en correos por hora y Mbits/s, dependen de Campaign.<br /> </td> 
   </tr> 
   <tr> 
    <td> Gastos de campaña (budgetOperationExpenses)<br /> </td> 
@@ -171,10 +171,10 @@ Para más información sobre el contenido de estos informes, consulte [esta secc
   </tr> 
   <tr> 
    <td> Estadísticas de actividad de difusión (forwardActivityOpt)<br /> </td> 
-   <td> Análisis de actividades de difusión en redes, aperturas y suscripciones por periodo de tiempo, depende de Campaign.<br /> </td> 
+   <td> Análisis de actividades de difusión en redes, aperturas y suscripciones por periodo, depende de Campaign.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Resumen de envío (operationStatistics)<br /> </td> 
+   <td> Resumen de entrega (operationStatistics)<br /> </td> 
    <td> Gráfico de resumen de los envíos de la campaña: Objetivos, exclusiones y mensajes enviados.<br /> </td> 
   </tr> 
   <tr> 
@@ -246,7 +246,7 @@ Para más información sobre el contenido de estos informes, consulte [esta secc
   </tr> 
   <tr> 
    <td> Evolución acumulada del presupuesto (budgetCumulativeEvolution)<br /> </td> 
-   <td> Evolution of the cumulated budget costs broken down by commi<br /> tment level. </td> 
+   <td> Evolución de los costes presupuestarios acumulados desglosados por nivel.<br /> </td> 
    <td> nms:budget<br /> </td> 
   </tr> 
   <tr> 
@@ -305,7 +305,7 @@ Para obtener más información sobre el contenido de estos informes, consulte la
   </tr> 
   <tr> 
    <td> Estadísticas de coincidencia (dlvSimuOverlapping)<br /> </td> 
-   <td> Volúmenes de coincidencia de destino de envío.<br /> </td> 
+   <td> Volúmenes de coincidencia de destino de entrega.<br /> </td> 
   </tr> 
   <tr> 
    <td> Resumen de exclusiones debidas a la simulación (dlvSimuLossesSimu)<br /> </td> 
