@@ -14,7 +14,7 @@ discoiquuid: 8e7eb53c-bbe2-4bd4-8581-c2a63a3dc84e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
 ---
@@ -32,13 +32,13 @@ Una vez que se conecte a Adobe Campaign, verá la página principal.
 
 ![](assets/campaign_global_view.png)
 
-Haga clic en los enlaces de la barra de navegación para acceder a los distintos universos.
+Haga clic en los vínculos de la barra de navegación para acceder a los distintos universos.
 
-Campaign elements are found in the **[!UICONTROL Campaigns]** universe: here you can see an overview of the marketing programs and campaigns as well as their sub-sets. Un programa de marketing consta de campañas, que están formadas por envíos, tareas, recursos vinculados, etc. En el contexto de la administración de campañas de marketing mediante Campaign, la información sobre los envíos, los presupuestos, los revisores y los documentos vinculados se encuentran en las campañas.
+Los elementos de Campaign se encuentran en el entorno **[!UICONTROL Campaigns]**: aquí puede ver una descripción general de los programas y campañas de marketing, así como sus subconjuntos. Un programa de marketing consta de campañas, que están formadas por envíos, tareas, recursos vinculados, etc. En el contexto de la administración de campañas de marketing mediante Campaign, la información sobre los envíos, los presupuestos, los revisores y los documentos vinculados se encuentran en las campañas.
 
-The navigation block of the **[!UICONTROL Campaigns]** universe offers various entries, depending on modules installed on the instance. Por ejemplo, puede acceder a:
+El bloque de navegación del entorno **[!UICONTROL Campaigns]** ofrece varias entradas, según los módulos instalados en la instancia. Por ejemplo, puede acceder a:
 
-* **Campaign calendar** (calendario de campañas): calendario de planes, programas de marketing, envíos y campañas. Consulte el calendario [de](#campaign-calendar)campaña.
+* **Campaign calendar** (calendario de campañas): calendario de planes, programas de marketing, envíos y campañas. Consulte [Calendario de campañas](#campaign-calendar).
 * **Campaigns** (campañas): acceso a las campañas contenidas en todos los programas de marketing.
 * **Deliveries** (envíos): acceso a los envíos vinculados a las campañas.
 * **Web Applications** (aplicaciones web): acceso a aplicaciones web (formularios, encuestas, etc.).
@@ -51,13 +51,13 @@ The navigation block of the **[!UICONTROL Campaigns]** universe offers various e
 
 ### Calendario de campañas {#campaign-calendar}
 
-Cada campaña pertenece a un programa que, a su vez, pertenece a un plan. Plans, programs and campaigns are accessed via the **[!UICONTROL Campaign calendar]** menu in the **Campaigns** universe.
+Cada campaña pertenece a un programa que, a su vez, pertenece a un plan. Se accede a los planes, programas y campañas a través del menú **[!UICONTROL Campaign calendar]** del entorno de **Campaigns**.
 
-To edit a plan, program, campaign or delivery, click its name in the calendar and then click **[!UICONTROL Open...]**. A continuación se muestra en una nueva pestaña, como se muestra a continuación:
+Para editar un plan, programa, campaña o entrega, haga clic en su nombre en el calendario y luego haga clic en **[!UICONTROL Open...]** A continuación se muestra en una nueva pestaña, como se muestra a continuación:
 
 ![](assets/d_ncs_user_interface_hierar.png)
 
-Puede filtrar la información que se muestra en el calendario de campañas. To do this, click the **[!UICONTROL Filter]** link and select the filtering criteria.
+Puede filtrar la información que se muestra en el calendario de campañas. Para ello, haga clic en el vínculo **[!UICONTROL Filter]** y seleccione los criterios de filtrado.
 
 ![](assets/campaign_planning_filter.png)
 
@@ -65,7 +65,7 @@ Puede filtrar la información que se muestra en el calendario de campañas. To d
 >
 >Cuando filtra una fecha, se muestran todas las campañas con una fecha de inicio posterior a la fecha especificada o con una fecha de finalización anterior a la fecha especificada. Es necesario seleccionar las fechas utilizando los calendarios a la derecha de cada campo.
 
-You can also use the **[!UICONTROL Search]** field to filter the displayed items.
+También puede utilizar el campo **[!UICONTROL Search]** para filtrar los elementos mostrados.
 
 Los iconos vinculados a cada elemento permiten ver su estado: terminado, en curso, en edición, etc.
 
@@ -89,9 +89,9 @@ Al editar un programa, utilice las pestañas que se describen a continuación pa
 
 #### Exploración de campañas {#browsing-campaigns}
 
-Campaigns can be accessed via the campaign calendar, the **[!UICONTROL Schedule]** tab of the program, or the list of campaigns.
+Se puede acceder a las campañas a través del calendario de campañas, de la pestaña **[!UICONTROL Schedule]** del programa o de la lista de campañas.
 
-1. Via the campaign calendar, select the campaign you want to display, then click the **[!UICONTROL Open]** link.
+1. Mediante el calendario de campañas, seleccione la campaña que desee visualizar y luego haga clic en el vínculo **[!UICONTROL Open]**.
 
    ![](assets/campaign_planning_edit_op.png)
 
@@ -99,8 +99,8 @@ Campaigns can be accessed via the campaign calendar, the **[!UICONTROL Schedule]
 
    ![](assets/campaign_op_edit.png)
 
-1. Via the **[!UICONTROL Schedule]** tab of the program, the edit mode is the same as via the campaign calendar.
-1. Via the **[!UICONTROL Campaigns]** link of the **[!UICONTROL Campaigns]** universe, click the name of the campaign you want to edit.
+1. A través de la pestaña **[!UICONTROL Schedule]** del programa, la forma de editarlo es la misma que a través del calendario de campañas.
+1. Mediante el vínculo **[!UICONTROL Campaigns]** del entorno **[!UICONTROL Campaigns]**, haga clic en el nombre de la campaña que desee editar.
 
    ![](assets/campaign_edit_from_list.png)
 
@@ -120,7 +120,7 @@ Con Adobe Campaign, se pueden configurar procesos de colaboración para la creac
 
 >[!NOTE]
 >
->The configuration of campaign templates is presented in [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+>La configuración de las plantillas de campaña se presenta en [Plantillas de campañas](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
 #### Programación {#schedule}
 
@@ -132,11 +132,11 @@ Una campaña unifica un conjunto de envíos. Para cada campaña, la programació
 
 Para cada campaña, los operadores pueden intercambiar mensajes a través de un foro dedicado.
 
-For more on this, refer to [Discussion forums](../../campaign/using/discussion-forums.md).
+Para obtener más información, consulte [Foros de debate](../../campaign/using/discussion-forums.md).
 
 #### Informes {#reports}
 
-The **[!UICONTROL Reports]** link lets you access the campaign reports.
+El vínculo **[!UICONTROL Reports]** permite acceder a los informes de campaña.
 
 ![](assets/campaign_reporting_tab.png)
 
@@ -148,27 +148,27 @@ The **[!UICONTROL Reports]** link lets you access the campaign reports.
 
 Las campañas se crean mediante plantillas de campaña. Puede configurar plantillas reutilizables para las que algunas opciones están seleccionadas y otras configuraciones ya están guardadas. Para cada campaña, se ofrece la siguiente funcionalidad:
 
-* Referencia a documentos y recursos: puede asociar documentos con la campaña (resumen, informes, imágenes, etc.). Se admiten todos los formatos de documento. Consulte [Administración de documentos](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)asociados.
-* Definición de costes: para cada campaña, Adobe Campaign permite definir las entradas de coste y las estructuras de cálculo de costes que se pueden utilizar al crear la campaña de marketing. Por ejemplo: gastos de impresión, utilización de una agencia externa, alquiler de habitaciones, etc. Consulte [Definición de categorías](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories)de costes.
+* Referencia a documentos y recursos: puede asociar documentos con la campaña (resumen, informes, imágenes, etc.). Se admiten todos los formatos de documento. Consulte [Administración de documentos asociados](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents).
+* Definición de costes: para cada campaña, Adobe Campaign permite definir las entradas de coste y las estructuras de cálculo de costes que se pueden utilizar al crear la campaña de marketing. Por ejemplo: costes de impresión, uso de una agencia externa, alquiler de salas, etc. Consulte [Definición de categorías de costes](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories).
 * Definición de objetivos: puede definir objetivos cuantificables para una campaña, por ejemplo: número de suscriptores, volumen comercial, etc. Esta información se utiliza más tarde en los informes de campaña.
-* Managing seed addresses (for more on this, refer to [this section](../../delivery/using/about-seed-addresses.md)) and control groups (refer to [Defining a control group](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)).
-* Administrar aprobaciones: puede seleccionar los tratamientos que desea aprobar y, si es necesario, seleccionar los operadores o grupos de operadores revisores. See [Checking and approving deliveries](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
+* Administración de direcciones semilla (para obtener más información, consulte [esta sección](../../delivery/using/about-seed-addresses.md)) y grupos de control (consulte [Definición de un grupo de control](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)).
+* Administrar aprobaciones: puede seleccionar los tratamientos que desea aprobar y, si es necesario, seleccionar los operadores o grupos de operadores revisores. Consulte [Comprobación y aprobación de los envíos](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
 
 >[!NOTE]
 >
->To access the campaign configurations and make changes to them, click the **[!UICONTROL Advanced campaign parameters...]** link in the **[!UICONTROL Edit]** tab. Para obtener más información sobre la configuración de parámetros en el nivel de campaña para que los envíos hereden valores automáticamente, consulte [nuestra nota técnica](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Setparametersatthecampaignlevelsodeliveriesinheritvaluesautomatically).
+>Para acceder a las configuraciones de campaña y realizar cambios, en la pestaña **[!UICONTROL Edit]**, haga clic en el vínculo **[!UICONTROL Advanced campaign parameters...]**. Para obtener más información sobre la configuración de parámetros en el nivel de campaña para que los envíos hereden valores automáticamente, consulte [nuestra nota técnica](https://helpx.adobe.com/es/campaign/kb/simplifying-campaign-management-acc.html#Setparametersatthecampaignlevelsodeliveriesinheritvaluesautomatically).
 
 ## Uso de la interfaz web {#using-the-web-interface-}
 
-Puede acceder a las pantallas de la consola de Adobe Campaign a través de un explorador de internet para ver todas las campañas y envíos, así como informes e información sobre los perfiles de la base de datos. Este acceso no permite la creación de registros. Según los derechos de los operadores, puede ver o actuar en los datos de la base de datos. Por ejemplo: puede aprobar el contenido de las campañas y su segmentación, reiniciar o detener un envío, etc.
+Puede acceder a las pantallas de la consola de Adobe Campaign a través de un explorador de internet para ver todas las campañas y envíos, así como informes e información sobre los perfiles de la base de datos. Este acceso no permite la creación de registros. Según los derechos de los operadores, puede ver o actuar en los datos de la base de datos. Por ejemplo: puede aprobar el contenido de las campañas y su segmentación, reiniciar o detener una entrega, etc.
 
-1. Log on as usual via https://`<your instance>:<port>/view/home`.
+1. Inicie sesión a través de https://`<your instance>:<port>/view/home`.
 1. Utilice los menús para acceder a las descripciones generales.
 
    ![](assets/s_ncs_user_interface_web_campaign_01.png)
 
-Las aprobaciones (de un destino o contenido de envío, por ejemplo) se pueden llevar a cabo mediante el acceso a la Web.
+Las aprobaciones (de un destino o contenido de entrega, por ejemplo) se pueden llevar a cabo mediante el acceso a la Web.
 
 ![](assets/campaign_web_interface_validation.png)
 
-También puede utilizar el enlace incluido en los mensajes de notificación. Para obtener más información sobre esto, consulte [Comprobación y aprobación de envíos](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
+También puede utilizar el vínculo incluido en los mensajes de notificación. Para obtener más información, consulte [Comprobación y aprobación de envíos](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
