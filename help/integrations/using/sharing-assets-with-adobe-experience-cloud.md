@@ -14,7 +14,7 @@ discoiquuid: d10624ea-d961-4162-879b-1754f897d763
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 ---
@@ -29,11 +29,11 @@ Entre los servicios de activos se incluyen:
 * Almacenamiento de activos, interfaz de administración, interfaz de selección de incrustación (a través de las soluciones).
 * Integraciones con soluciones de Creative Cloud y Experience Cloud.
 
-Al editar un envío por correo electrónico o una página de destino en Adobe Campaign, puede colocar activos desde las bibliotecas de Adobe Experience Cloud. En función de las soluciones que utilice, estos recursos se pueden almacenar en el servicio principal de Assets o en Adobe Experience Manager Assets.
+Al editar una entrega por correo electrónico o una página de destino en Adobe Campaign, puede colocar activos desde las bibliotecas de Adobe Experience Cloud. En función de las soluciones que utilice, estos recursos se pueden almacenar en el servicio principal de Assets o en Adobe Experience Manager Assets.
 
-Las distintas bibliotecas disponibles aparecen detalladas en [este documento](https://marketing.adobe.com/resources/help/en_US/mcloud/experience-cloud-assets.html).
+Las distintas bibliotecas disponibles aparecen detalladas en [este documento](https://marketing.adobe.com/resources/help/es_ES/mcloud/experience-cloud-assets.html).
 
-Consult the [Configuring access to Assets](../../integrations/using/configuring-access-to-assets.md) section to find out more about the specifics linked to each library.
+Consulte la sección [Configurar el acceso a los activos para obtener más información sobre los aspectos específicos relacionados con cada biblioteca.](../../integrations/using/configuring-access-to-assets.md)
 
 >[!NOTE]
 >
