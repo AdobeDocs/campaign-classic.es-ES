@@ -14,7 +14,7 @@ discoiquuid: 98706258-0621-4aa9-bf14-f92f14946308
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -32,6 +32,6 @@ Los parámetros disponibles se explican en [esta sección](../../web/using/defin
 
 ## Almacenamiento de datos de encuestas {#survey-data-storage}
 
-De forma predeterminada, los campos de formulario web se almacenan en la tabla de destinatarios. To use another table, select it in the **[!UICONTROL Document type]** field. The **[!UICONTROL Zoom]** icon lets you view the content of the selected table.
+De forma predeterminada, los campos de formulario web se almacenan en la tabla de destinatarios. Para usar otra tabla, selecciónela en el campo **[!UICONTROL Document type]**. El icono **[!UICONTROL Zoom]** le permite ver el contenido de la tabla seleccionada.
 
-Las respuestas a las encuestas proporcionadas por los usuarios que no se almacenen en los campos (sino en las variables locales), se almacenan en los campos **Respuestas a las encuestas.** You can change the schema used based on the **[!UICONTROL Library]** field. Este campo solo está disponible para las **encuestas**.
+Las respuestas a las encuestas proporcionadas por los usuarios que no se almacenen en los campos (sino en las variables locales), se almacenan en los campos **Respuestas a las encuestas.** Puede cambiar el esquema utilizado basándose en el campo **[!UICONTROL Library]**. Este campo solo está disponible para las **encuestas**.
