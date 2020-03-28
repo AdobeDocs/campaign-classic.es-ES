@@ -14,7 +14,7 @@ discoiquuid: 0ca5e0f6-cc81-4da9-aecf-a095cc1a19f9
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 ---
@@ -24,9 +24,9 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 Se puede condicionar la visualización de elementos o páginas específicas del informe.
 
-Para que los elementos específicos sean condicionales, adapte su configuración de visibilidad. For more on this, refer to [Conditioning item display](#conditioning-item-display).
+Para que los elementos específicos sean condicionales, adapte su configuración de visibilidad. Para obtener más información, consulte [Condicionamiento de la visualización de elementos](#conditioning-item-display).
 
-To make the display of one or more pages conditional, use a **[!UICONTROL Test]** type activity. Para obtener más información, consulte [Determinación de la visualización de la página](#conditioning-page-display).
+Para que la visualización de una o más páginas sea condicional, utilice una actividad de tipo **[!UICONTROL Test]**. Para obtener más información, consulte [Determinación de la visualización de la página](#conditioning-page-display).
 
 ## Condicionamiento de la visualización de elementos {#conditioning-item-display}
 
@@ -42,21 +42,21 @@ En el ejemplo siguiente, la condición de visualización depende del idioma:
 
 ## Condiciones de visualización de la página {#conditioning-page-display}
 
-In the chart of a report, the **[!UICONTROL Test]** activity lets you change the sequence of pages depending on one or more conditions.
+En el gráfico de un informe, la actividad **[!UICONTROL Test]** permite cambiar la secuencia de las páginas en función de una o varias condiciones.
 
 Esta actividad se basa en el siguiente principio operativo:
 
-1. Place a **[!UICONTROL Test]** in a chart and edit it.
-1. Click the **[!UICONTROL Add]** button to create the various possible cases.
+1. Coloque una actividad **[!UICONTROL Test]** en un gráfico y edítela.
+1. Haga clic en el botón **[!UICONTROL Add]** para crear los distintos casos posibles.
 
    ![](assets/reporting_test_sample.png)
 
-   For each case, an output transition is added to the **[!UICONTROL Test]** activity.
+   Para cada caso, se añade una transición de salida a la actividad **[!UICONTROL Test]**.
 
    ![](assets/reporting_test_transitions.png)
 
-1. Select the **[!UICONTROL Enable default transition]** to add a transition, in case one of the configured conditions isn&#39;t met.
+1. Seleccione **[!UICONTROL Enable default transition]** para añadir una transición en caso de que no se cumpla una de las condiciones configuradas.
 
    Para obtener más información, consulte [esta sección](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display).
 
-A **[!UICONTROL Test]** activity can be placed at the start of the chart to condition the display depending on context or operator profile for instance.
+Se puede colocar una actividad **[!UICONTROL Test]** al principio del gráfico para condicionar la visualización en función del perfil del contexto o del operador, por ejemplo.
