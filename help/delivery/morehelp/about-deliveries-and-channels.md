@@ -1,6 +1,6 @@
 ---
-title: Acerca de los envíos y canales
-seo-title: Acerca de los envíos y canales
+title: Acerca de las entregas y los canales
+seo-title: Acerca de las entregas y los canales
 description: 'null'
 seo-description: 'null'
 page-status-flag: never-activated
@@ -11,11 +11,11 @@ iscontainer: true
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
 
 
-# Acerca de los envíos y canales{#about-deliveries-and-channels}
+# Acerca de las entregas y los canales{#about-deliveries-and-channels}
 
