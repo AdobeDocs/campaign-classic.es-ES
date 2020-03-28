@@ -14,7 +14,7 @@ discoiquuid: b22b3abb-6fe5-4f4d-93fc-0d00d426edb6
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ---
@@ -32,11 +32,11 @@ Al combinar el documento XML y las hojas de estilo de plantilla XSL o JavaScript
 
 Se requieren los siguientes recursos para la configuración del contenido:
 
-* Esquemas de datos: descripción de la estructura de contenido XML. For more on this, refer to [Data schemas](../../delivery/using/data-schemas.md).
-* Formularios de entrada de datos: construcción de pantallas de entrada de datos. For more on this, refer to [Input forms](../../delivery/using/input-forms.md).
-* Imágenes: imágenes utilizadas en los formularios de entrada de datos. For more on this, refer to [Image management](../../delivery/using/formatting.md#image-management).
-* Hojas de estilo: formato de documentos de salida con lenguaje XSLT. For more on this, refer to [Formatting](../../delivery/using/formatting.md).
-* Plantillas JavaScript: formato de documentos de salida con lenguaje JavaScript. For more on this, refer to [Publication templates](../../delivery/using/publication-templates.md).
-* Códigos JavaScript: Códigos JavaScript para la agregación de datos. For more on this, refer to [Aggregator](../../delivery/using/publication-templates.md#aggregator).
-* Plantillas de publicación: definición de plantillas de publicación. For more on this, refer to [Publication templates](../../delivery/using/publication-templates.md).
-* Contenido: ejemplos de contenido para crear y publicar. Para obtener más información sobre esto, consulte [Uso de una plantilla](../../delivery/using/using-a-content-template.md)de contenido.
+* Esquemas de datos: descripción de la estructura de contenido XML. Para obtener más información, consulte [Esquemas de datos](../../delivery/using/data-schemas.md).
+* Formularios de entrada de datos: construcción de pantallas de entrada de datos. Para obtener más información, consulte [Formularios de entrada](../../delivery/using/input-forms.md).
+* Imágenes: imágenes utilizadas en los formularios de entrada de datos. Para obtener más información, consulte [Administración de imágenes](../../delivery/using/formatting.md#image-management).
+* Hojas de estilo: formato de documentos de salida con lenguaje XSLT. Para obtener más información, consulte [Formato](../../delivery/using/formatting.md).
+* Plantillas JavaScript: formato de documentos de salida con lenguaje JavaScript. Para obtener más información, consulte [Plantillas de publicación](../../delivery/using/publication-templates.md).
+* Códigos JavaScript: Códigos JavaScript para la adición de datos. Para obtener más información, consulte [Acumulador](../../delivery/using/publication-templates.md#aggregator).
+* Plantillas de publicación: definición de plantillas de publicación. Para obtener más información, consulte [Plantillas de publicación](../../delivery/using/publication-templates.md).
+* Contenido: ejemplos de contenido para crear y publicar. Para más información, consulte [Uso de una plantilla de contenido](../../delivery/using/using-a-content-template.md).
