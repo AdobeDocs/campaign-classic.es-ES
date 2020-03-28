@@ -14,7 +14,7 @@ discoiquuid: 76922657-2c0d-467e-acee-c1a61677fb44
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 # Umbrales de monitorización{#monitoring-thresholds}
 
-You can configure the warning thresholds (orange) and alert thresholds (red) of the indicators that appear in the **Message Center service level** and **Message Center processing time** reports (refer to [About transactional messaging reports](../../message-center/using/about-transactional-messaging-reports.md)). To do this, open the deployment wizard of the execution instance, go to the **[!UICONTROL Message Center]** page and use the arrows to change the thresholds.
+Puede configurar los umbrales de advertencia (naranja) y los umbrales de alerta (rojo) de los indicadores que aparecen en los informes **Nivel de servicio del Centro de mensajes** y **Tiempo de procesamiento del Centro de mensajes** (consulte). [](../../message-center/using/about-transactional-messaging-reports.md) Para ello, abra el asistente de implementación de la instancia de ejecución, vaya a la página **[!UICONTROL Centro de mensajes]** y utilice las flechas para cambiar los umbrales.
 
 ![](assets/messagecenter_monitor_events_001.png)
 
