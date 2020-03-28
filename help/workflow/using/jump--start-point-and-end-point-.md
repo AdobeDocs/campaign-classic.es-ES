@@ -14,7 +14,7 @@ discoiquuid: f3cd5409-c301-4580-96e3-9349e18cf42a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 # Saltos (puntos iniciales y finales){#jump-start-point-and-end-point}
 
-**[!UICONTROL Jump]** Los objetos gráficos de tipo -se utilizan para mejorar la legibilidad de un diagrama complejo, especialmente uno con transiciones de cruce.
+Los objetos del tipo gráficos **[!UICONTROL Jump]** se utilizan para mejorar la legibilidad de un diagrama complejo, especialmente uno con transiciones de cruce.
 
 Los saltos son transiciones sin flechas: Van de una actividad a otra, como en el ejemplo siguiente.
 
@@ -34,4 +34,4 @@ Puede insertar varios saltos de punto iniciales y finales en el mismo flujo de t
 
 ![](assets/s_user_segmentation_jump_in.png)
 
-Para mejorar la legibilidad del diagrama, puede cambiar la imagen asociada a los saltos para mostrar el número relacionado. Consulte [Administración de imágenes](../../workflow/using/managing-activity-images.md)de actividad.
+Para mejorar la legibilidad del diagrama, puede cambiar la imagen asociada a los saltos para mostrar el número relacionado. Consulte [Gestión de imágenes de actividad](../../workflow/using/managing-activity-images.md).
