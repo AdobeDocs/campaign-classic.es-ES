@@ -14,7 +14,7 @@ discoiquuid: 3b8e4691-fcbc-48ef-b529-11c9a9a9d788
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -36,15 +36,15 @@ En este capítulo se detallan los pasos necesarios para diseñar un **formulario
 
 >[!CAUTION]
 >
->Al configurar aplicaciones web y formularios web, necesita una resolución vertical mínima de 900 píxeles (por ejemplo: 1600 x 900).
+>Al configurar aplicaciones y formularios web, necesita una resolución vertical de 900 píxeles como mínimo (por ejemplo: 1600 x 900).
 
-Web forms are accessed via the Web Applications menu of the **Campaigns** tab. In the Adobe Campaign tree, they are grouped under the **[!UICONTROL Resources > Online > Web Applications]** node.
+Se accede a los formularios web a través del menú Aplicaciones web del entorno de **Campañas**. En el directorio de Adobe Campaign, se agrupan dentro del nodo **[!UICONTROL Resources > Online > Web Applications]**.
 
-To create a Web form, click the **[!UICONTROL Create]** button above the list of Web applications.
+Para crear un formulario web, haga clic en el botón **[!UICONTROL Crear]** situado sobre la lista de aplicaciones web.
 
 ![](assets/webapp_create_new.png)
 
-Select the Web form template ( **[!UICONTROL newWebForm]** by default).
+Seleccione la plantilla de formulario web (**[!UICONTROL newWebForm]** de forma predeterminada).
 
 ![](assets/s_ncs_admin_survey_select_template.png)
 
@@ -52,7 +52,7 @@ Esto le lleva al panel del formulario.
 
 ![](assets/webapp_empty_dashboard.png)
 
-The **[!UICONTROL Edit]** tab lets you create your content.
+La pestaña **[!UICONTROL Editar]** permite crear su contenido.
 
 ![](assets/webapp_edit_tab.png)
 
@@ -64,15 +64,15 @@ Para definir la configuración y el contenido del formulario web, realice los si
 
 * Defina la secuenciación de la página y la condición de visualización.
 
-   Este paso se detalla en [Definición de la secuencia](../../web/using/defining-web-forms-page-sequencing.md)de páginas de formularios Web.
+   Este paso se detalla en [Definición de la secuencia de páginas de formularios Web](../../web/using/defining-web-forms-page-sequencing.md).
 
 * Si es necesario, traduzca el contenido.
 
-   Este paso se detalla en [Traducir un formulario](../../web/using/translating-a-web-form.md)web.
+   Este paso se detalla en [Traducir un formulario web](../../web/using/translating-a-web-form.md).
 
 ## Acerca del diseño de formularios web {#about-web-forms-designing}
 
-Las páginas del formulario se crean mediante un editor específico que permite definir y configurar zonas de entrada (texto), campos de selección (listas, casillas de verificación, etc.) y elementos estáticos (imágenes, contenido HTML, etc.). They can be grouped into containers and their layout altered to suit your needs (for more on this, refer to [Creating containers](../../web/using/defining-web-forms-layout.md#creating-containers)).
+Las páginas del formulario se crean mediante un editor específico que permite definir y configurar zonas de entrada (texto), campos de selección (listas, casillas de verificación, etc.) y elementos estáticos (imágenes, contenido HTML, etc.). Pueden agruparse en contenedores y el diseño puede modificarse para adaptarse a sus necesidades (para más información, consulte).[](../../web/using/defining-web-forms-layout.md#creating-containers)
 
 En las siguientes secciones se detalla cómo definir el contenido y el diseño de las pantallas del formulario:
 
@@ -83,8 +83,8 @@ En las siguientes secciones se detalla cómo definir el contenido y el diseño d
 
 >[!NOTE]
 >
->* During page design, you can view the final rendering in the **[!UICONTROL Preview]** tab. Para ver los cambios, guarde el formulario primero. Any errors are displayed in the **[!UICONTROL Log]** tab.
->* Para asegurarse de que la visualización de página y el almacenamiento de la información se produzcan en la secuencia adecuada, active el modo de depuración en el formulario web. To do this, go to the **[!UICONTROL Preview]** sub-tab and check the **[!UICONTROL Enable debug mode]** box: all collected information and possible execution errors will be displayed at the bottom of each page.
+>* Durante el diseño de la página, puede ver la renderización final en la pestaña **[!UICONTROL Vista previa]**. Para ver los cambios, guarde el formulario primero. Todos los errores se muestran en la pestaña **[!UICONTROL Log]**.
+>* Para asegurarse de que la visualización de página y el almacenamiento de la información se produzcan en la secuencia adecuada, active el modo de depuración en el formulario web. Para ello, vaya a la subpestaña **[!UICONTROL Vista previa]** y marque la casilla **[!UICONTROL Habilitar el modo de depuración]**: todos los datos recopilados y los posibles errores de ejecución se muestran en la parte inferior de cada página.
 >
 
 
