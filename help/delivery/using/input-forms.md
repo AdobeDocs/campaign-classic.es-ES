@@ -14,7 +14,7 @@ discoiquuid: abf097eb-ade5-479e-9e20-8bd6bc9d96aa
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ---
@@ -28,7 +28,7 @@ Los formularios se describen en [esta sección](../../configuration/using/identi
 
 ## Estructura del formulario {#form-structure}
 
-The XML document of an input form must contain the **`<form>`** root element with the **name** and **namespace** attributes to populate the form name and its namespace, respectively.
+El documento XML de un formulario de entrada debe contener el elemento raíz **`<form>`** con los atributos **name** y **namespace** para rellenar, respectivamente, el nombre del formulario y su área de nombres.
 
 ```
 <form name="form_name" namespace="name_space">
@@ -36,7 +36,7 @@ The XML document of an input form must contain the **`<form>`** root element wit
 </form>
 ```
 
-De forma predeterminada, un formulario está asociado al esquema de datos con el mismo nombre y área de nombres. To associate a form with a different name, enter the schema key in the **entity-schema** attribute of the **`<form>`** element.
+De forma predeterminada, un formulario está asociado al esquema de datos con el mismo nombre y área de nombres. Para asociar un formulario con otro nombre, introduzca la clave de esquema en el atributo **entity-schema** del elemento **`<form>`**.
 
 Para mostrar la estructura de un formulario de entrada, se describe una interfaz basada en el ejemplo de esquema “cus:book”:
 
@@ -52,9 +52,9 @@ Este es el formulario de entrada correspondiente:
 </form>
 ```
 
-The description of the edit elements begins with the **`<form>`** root element.
+La descripción de los elementos de edición comienza con el elemento raíz **`<form>`**.
 
-An edit control is entered in an **`<input>`** element with the **xpath** attribute containing the path of the field in its schema.
+Se introduce un control de edición en el elemento **`<input>`** con el atributo **xpath** que contiene la ruta de acceso al esquema.
 
 **Aviso sobre la sintaxis XPath:**
 
@@ -67,7 +67,7 @@ Los elementos se designan por su nombre y los atributos se designan por el nombr
 Ejemplos:
 
 * **@date**: selecciona el atributo con el nombre “date”.
-* **chapter/@title**: selecciona el atributo &quot;title&quot; en el `<chapter>` elemento
+* **/@title**`<chapter>`: selecciona el atributo “title” en el elemento
 * **../@date**: selecciona la fecha del elemento principal del elemento actual.
 
 El control de edición se adapta automáticamente al tipo de datos correspondiente y utiliza la etiqueta definida en el esquema.
@@ -76,7 +76,7 @@ De forma predeterminada, cada campo se muestra en una línea y ocupa todo el esp
 
 >[!CAUTION]
 >
->The input form must reference a **type=&quot;contentForm&quot;** attribute on the **`<form>`** element to automatically add the frame required for content to be input.
+>El formulario de entrada debe hacer referencia a un atributo **type=&quot;contentForm&quot;** en el elemento **`<form>`** para añadir automáticamente el marco necesario para introducir el contenido.
 
 ## Formato {#formatting}
 
@@ -103,7 +103,7 @@ Este control muestra una lista de columnas editable con una barra de herramienta
 
 El control de lista debe rellenarse con el atributo **type=&quot;list&quot;** y la ruta de la lista debe hacer referencia al elemento de colección.
 
-The columns are declared by the child **`<input>`** elements of the list.
+Las columnas se declaran mediante los elementos secundarios **`<input>`** de la lista.
 
 >[!NOTE]
 >
@@ -151,9 +151,9 @@ La edición de formularios dentro de listas se utiliza en los siguientes casos:
 </input>
 ```
 
-The definition of the edit form is specified via the **`<form>`** element under the list element. Su estructura es idéntica a la estructura de un formulario de entrada.
+La definición del formulario de edición se especifica mediante el elemento **`<form>`** debajo del elemento de lista. Su estructura es idéntica a la estructura de un formulario de entrada.
 
-A **[!UICONTROL Detail]** button is automatically added when the **zoom=&quot;true&quot;** attribute is entered in the list definition. Esto permite abrir el formulario de edición en la línea seleccionada.
+Se añade automáticamente un botón **[!UICONTROL Detalle]** cuando se introduce el atributo **zoom=&quot;true&quot;** en la definición de la lista. Esto permite abrir el formulario de edición en la línea seleccionada.
 
 >[!NOTE]
 >
@@ -179,7 +179,7 @@ El control de lista debe rellenarse con el atributo **type=&quot;notebooklist&qu
 
 El título de la pestaña contiene el valor de los datos introducidos mediante el atributo **xpath-label**.
 
-The edit controls must be declared under a **`<container>`** element that is a child of the list control.
+Los controles de edición deben declararse en un elemento **`<container>`** que sea un elemento secundario al control de lista.
 
 Utilice los botones de la barra de herramientas para añadir o eliminar elementos de la lista.
 
@@ -189,7 +189,7 @@ Utilice los botones de la barra de herramientas para añadir o eliminar elemento
 
 ## Contenedores {#containers}
 
-Los contenedores permiten agrupar un conjunto de controles. They exist via the **`<container>`** element. Ya se han utilizado para dar formato a los controles en varias columnas y para el control de la lista de pestañas.
+Los contenedores permiten agrupar un conjunto de controles. Se utilizan a través del elemento **`<container>`**. Ya se han utilizado para dar formato a los controles en varias columnas y para el control de la lista de pestañas.
 
 Para obtener más información sobre los contenedores y cómo utilizarlos en los formularios de entrada, consulte [esta sección](../../configuration/using/form-structure.md#containers).
 
@@ -199,6 +199,6 @@ La zona de edición permite introducir el contenido XML del formulario de entrad
 
 ![](assets/d_ncs_content_form12.png)
 
-The **[!UICONTROL Preview]** tab lets you view the input form:
+La pestaña **[!UICONTROL Vista previa]** te permite ver el formulario de entrada:
 
 ![](assets/d_ncs_content_form13.png)
