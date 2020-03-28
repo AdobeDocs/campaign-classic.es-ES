@@ -14,7 +14,7 @@ discoiquuid: 82e67697-5dc7-4013-a00d-be8cdad31354
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 ---
@@ -26,17 +26,17 @@ Una vez que se hayan realizado las propuestas de oferta, podrá visualizar el hi
 
 >[!NOTE]
 >
->Esta funcionalidad solo es visible en línea y solo para el gestor de envíos.
+>Esta funcionalidad solo es visible en línea y solo para el gestor de entregas.
 
-* En el nivel de oferta, en la **[!UICONTROL Edit]** ficha, haga clic en **[!UICONTROL Propositions]**.
+* En el nivel de oferta, en la pestaña **[!UICONTROL Edit]**, haga clic en **[!UICONTROL Propositions]**.
 
    ![](assets/offer_followup_006.png)
 
-* From a recipient&#39;s profile, click the **[!UICONTROL Propositions]** tab.
+* En el perfil de un destinatario, haga clic en la pestaña **[!UICONTROL Propositions]**.
 
    ![](assets/offer_followup_002.png)
 
-* At the offer space level, click the **[!UICONTROL Propositions]** tab.
+* En el nivel de espacio de oferta, haga clic en la pestaña **[!UICONTROL Propositions]**.
 
    ![](assets/offer_space_prop_001_b.png)
 
