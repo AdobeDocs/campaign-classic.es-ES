@@ -1,6 +1,6 @@
 ---
-title: Envío de una oferta
-seo-title: Envío de una oferta
+title: Entrega de una oferta
+seo-title: Entrega de una oferta
 description: 'null'
 seo-description: 'null'
 page-status-flag: never-activated
@@ -11,11 +11,11 @@ iscontainer: true
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
 
 
-# Envío de una oferta{#delivering-an-offer}
+# Entrega de una oferta{#delivering-an-offer}
 
