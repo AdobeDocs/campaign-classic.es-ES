@@ -14,7 +14,7 @@ discoiquuid: ed4afa5e-c184-4c8e-a086-41d87b863190
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d30de91002862b664249c5a704b7c0f521dd30f2
 
 ---
@@ -26,7 +26,7 @@ Esta sección está destinada a las personas responsables de configurar la gesti
 
 Esto le permite comprender cómo adaptar el modelo de datos estándar a la naturaleza específica de una tabla de transacciones externa a Adobe Campaign con una tabla simple. Esta tabla simple puede coincidir con tablas simples disponibles en Adobe Campaign o con otra tabla.
 
-The measurement hypothesis is launched by the operation process workflow ( **[!UICONTROL operationMgt]** ). Cada hipótesis representa un proceso independiente ejecutado de forma asíncrona con un estado de ejecución (que se está editando, pendiente, terminado, fallido, etc.) y controlado por un programador que administra restricciones de prioridad, la restricción de la cantidad de procesos simultáneos, la página de la actividad baja y la ejecución automática con la frecuencia.
+La hipótesis de medición se lanza desde el flujo de trabajo del proceso de operación (**[!UICONTROL operationMgt]**). Cada hipótesis representa un proceso independiente ejecutado de forma asíncrona con un estado de ejecución (que se está editando, pendiente, terminado, fallido, etc.) y controlado por un programador que administra restricciones de prioridad, la restricción de la cantidad de procesos simultáneos, la página de la actividad baja y la ejecución automática con la frecuencia.
 
 ## Configuración de esquemas {#configuring-schemas}
 
@@ -34,17 +34,17 @@ The measurement hypothesis is launched by the operation process workflow ( **[!U
 >
 >No modifique los esquemas estándar de la aplicación, sino que utilice el mecanismo de extensión de esquema. De lo contrario, los esquemas modificados no se actualizarán en el momento de futuras actualizaciones de la aplicación. Esto puede provocar un mal funcionamiento al utilizar Adobe Campaign.
 
-Se requiere la integración de la aplicación antes de utilizar el módulo de reacción para definir las distintas tablas (transacciones, detalles de transacción) que se deben medir así como su relación con los envíos, ofertas y personas.
+Se requiere la integración de la aplicación antes de utilizar el módulo de reacción para definir las distintas tablas (transacciones, detalles de transacción) que se deben medir así como su relación con las entregas, ofertas y personas.
 
 ### Esquemas estándar {#standard-schemas}
 
-The out-of-the-box **[!UICONTROL nms:remaMatch]** schema contains the reaction log table, i.e. the relation between individuals, hypothesis and transaction table. Este esquema se utilizará como esquema de herencia para la tabla de destino final de los registros de reacción.
+El esquema predeterminado **[!UICONTROL nms:remaMatch]** contiene la tabla de registro de reacción, es decir, la relación entre personas, hipótesis y tablas de transacciones. Este esquema se utilizará como esquema de herencia para la tabla de destino final de los registros de reacción.
 
-The **[!UICONTROL nms:remaMatchRcp]** schema also comes as a standard, it contains the storage of reaction logs for Adobe Campaign recipients ( **[!UICONTROL nms:recipient]** ). Para poder utilizarlo, se deberá extender para que se asigne a una tabla de transacción (que contenga compras, etc.).
+El esquema **[!UICONTROL nms:remaMatchRcp]** también se considera como estándar, contiene el almacenamiento de registros de reacción para los destinatarios de Adobe Campaign (**[!UICONTROL nms:recipient]**). Para poder utilizarlo, se deberá extender para que se asigne a una tabla de transacción (que contenga compras, etc.).
 
 ### Tablas de transacciones y detalles de transacciones {#transaction-tables-and-transaction-details}
 
-La tabla de transacciones debe incluir enlaces directos hacia las personas.
+La tabla de transacciones debe incluir vínculos directos hacia las personas.
 
 También puede agregar una tabla que contenga detalles de transacciones. Esto no se vincula directamente a las personas.
 
@@ -62,22 +62,22 @@ El esquema siguiente muestra las uniones entre las distintas tablas una vez comp
 
 ### El Gestor de respuestas con los destinatarios de Adobe Campaign {#response-management-with-adobe-campaign-recipients}
 
-In this example, we will integrate a table of purchases in our response management module using the Adobe Campaign recipient table ( **[!UICONTROL nms:recipient]** ).
+En este ejemplo, integramos una tabla de compras en nuestro módulo de gestión de respuestas mediante la tabla de destinatarios de Adobe Campaign (**[!UICONTROL nms:recipient]**).
 
-The table of response logs on a **[!UICONTROL nms:remaMatchRcp]** recipient is extended to add a link to the purchase table schema. In the following example, the purchase table is called **demo:purchase**.
+La tabla de registros de respuesta de un destinatario **[!UICONTROL nms:remaMatchRcp]** se amplía para agregar un vínculo al esquema de tabla de compras. En el ejemplo siguiente, la tabla de compra se llama **demo:purchase**.
 
-1. A través del explorador de Adobe Campaign, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Target mappings]**.
-1. Haga clic con el botón secundario en **Destinatario** y, a continuación, seleccione **[!UICONTROL Actions]** y **[!UICONTROL Modify the options of the targeting dimensions]**.
+1. Mediante el explorador de Adobe Campaign, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Target mappings]**.
+1. Haga clic con el botón derecho en **Recipient** y luego seleccione **[!UICONTROL Actions]** y **[!UICONTROL Modify the options of the targeting dimensions]**.
 
    ![](assets/delivery_mapping1.png)
 
-1. Puede personalizar el **[!UICONTROL Extension namespace]** en la siguiente ventana y, a continuación, hacer clic en **[!UICONTROL Next]**.
+1. Puede personalizar **[!UICONTROL Extension namespace]** en la siguiente ventana y, a continuación, haga clic en **[!UICONTROL Next]**.
 
    ![](assets/delivery_mapping2.png)
 
-1. En la **[!UICONTROL Response management]** categoría, asegúrese de que la **[!UICONTROL Generate a storage schema for reactions]** casilla está marcada.
+1. En la categoría **[!UICONTROL Response management]**, asegúrese de que la casilla **[!UICONTROL Generate a storage schema for reactions]** está seleccionada.
 
-   Then click **[!UICONTROL Define additional fields...]** to select the related transaction tables and add the desired fields to the extension of the nms:remaMatchRcp schema.
+   A continuación, haga clic en **[!UICONTROL Define additional fields...]** para seleccionar las tablas de transacción relacionadas y añada los campos deseados a la extensión del esquema nms:remaMatchRcp.
 
    ![](assets/delivery_mapping3.png)
 
@@ -109,11 +109,11 @@ name="remaMatchRcp" namespace="cus">
 
 En este ejemplo, integramos una tabla de compras en nuestro módulo de gestión de respuestas utilizando una tabla de individuos distinta a la tabla de destinatarios disponible en Adobe Campaign.
 
-* Creating a new response log schema derived from the **[!UICONTROL nms:remaMatch]** schema.
+* Crear un nuevo esquema de registro de respuestas derivado del esquema **[!UICONTROL nms:remaMatch]**.
 
-   Since the table of individuals is different from the table of Adobe Campaign recipients, it is necessary to create a new schema of the response logs based on the **[!UICONTROL nms:remaMatch]** schema. Luego complételo con enlaces hacia los registros de envío y la tabla de compras.
+   Dado que la tabla de personas es diferente de la de los destinatarios de Adobe Campaign, es necesario crear un nuevo esquema de registros de respuestas basado en el esquema **[!UICONTROL nms:remaMatch]**. Luego complételo con vínculos hacia los registros de envío y la tabla de compras.
 
-   In the following example, we will use the **demo:broadLogPers** schema and the **demo:purchase** transaction table:
+   En el siguiente ejemplo, utilizaremos el esquema **demo:broadLogPers** y la tabla de transacciones **demo:purchase**:
 
    ```
    <srcSchema desc="Linking of a recipient transaction to a hypothesis"    
@@ -132,7 +132,7 @@ En este ejemplo, integramos una tabla de compras en nuestro módulo de gestión 
    </srcSchema>
    ```
 
-* Modifying the hypothesis form in the **[!UICONTROL nms:remaHypothesis]** schema.
+* Modificar el formulario de hipótesis en el esquema **[!UICONTROL nms:remaHypothesis]**.
 
    De forma predeterminada, la lista de registros de respuestas se puede ver en los registros de destinatarios. Por lo tanto, deberá modificar el formulario de hipótesis para poder ver los nuevos registros de respuestas creados durante el paso anterior.
 
