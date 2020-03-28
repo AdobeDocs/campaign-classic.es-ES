@@ -14,7 +14,7 @@ discoiquuid: a21e9c9e-ffc5-40d1-8eac-f4f25da8f21d
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -30,10 +30,10 @@ Para generar estadísticas sobre los datos de la base de datos de Campaign, pued
 
 Para crear, publicar y enviar un informe de análisis sobre los datos, siga los siguientes pasos:
 
-1. Crear un nuevo informe: consulte [Creación de un nuevo informe](../../reporting/using/creating-a-new-report.md),
-1. Recopilar los datos para analizar: consulte [Recopilación de datos para analizar](../../reporting/using/collecting-data-to-analyze.md) y [utilizar el contexto](../../reporting/using/using-the-context.md),
-1. Defina el contenido del informe con las actividades y sus contenedores: consulte [Creación de una tabla](../../reporting/using/creating-a-table.md), [Creación de un gráfico](../../reporting/using/creating-a-chart.md) y [Diseño](../../reporting/using/element-layout.md)de elementos,
-1. Configure las opciones de visualización: tipo de visualización, informes compartidos: consulte [Informe de contexto](../../reporting/using/configuring-access-to-the-report.md#report-display-context)de visualización, [Definición de contenido](../../reporting/using/defining-a-conditional-content.md) condicional y [Configuración del acceso al informe](../../reporting/using/configuring-access-to-the-report.md),
-1. Publicar el informe (asistente de publicación): consulte [Publicación del informe](../../reporting/using/configuring-access-to-the-report.md#publishing-the-report),
-1. Convert the report: export, history, display in a browser: refer to [Actions on reports](../../reporting/using/actions-on-reports.md).
+1. Crear un nuevo informe: consulte [Creación de un nuevo informe](../../reporting/using/creating-a-new-report.md).
+1. Recopile los datos para analizar: consulte [Recopilación de datos para analizar](../../reporting/using/collecting-data-to-analyze.md) y [Uso del contexto](../../reporting/using/using-the-context.md).
+1. Defina el contenido del informe con las actividades y sus contenedores: consulte [Creación de una tabla](../../reporting/using/creating-a-table.md), [Creación de un gráfico](../../reporting/using/creating-a-chart.md) y [Diseño de elementos](../../reporting/using/element-layout.md).
+1. Configure las opciones de visualización: tipo de visualización, informes compartidos: consulte [Contexto de visualización de informes](../../reporting/using/configuring-access-to-the-report.md#report-display-context), [Definición de contenido condicional](../../reporting/using/defining-a-conditional-content.md) y [Configuración del acceso al informe](../../reporting/using/configuring-access-to-the-report.md).
+1. Publique el informe (asistente de publicación): consulte [Publicación del informe](../../reporting/using/configuring-access-to-the-report.md#publishing-the-report).
+1. Convierta el informe: exportación, historial, visualización en un navegador: consulte [Acciones sobre informes](../../reporting/using/actions-on-reports.md).
 
