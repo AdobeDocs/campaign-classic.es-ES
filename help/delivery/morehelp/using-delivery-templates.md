@@ -1,6 +1,6 @@
 ---
-title: Uso de plantillas de envío
-seo-title: Uso de plantillas de envío
+title: Uso de plantillas de entrega
+seo-title: Uso de plantillas de entrega
 description: 'null'
 seo-description: 'null'
 page-status-flag: never-activated
@@ -11,11 +11,11 @@ iscontainer: true
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
 
 
-# Uso de plantillas de envío{#using-delivery-templates}
+# Uso de plantillas de entrega{#using-delivery-templates}
 
