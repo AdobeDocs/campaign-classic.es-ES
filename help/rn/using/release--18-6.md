@@ -14,7 +14,7 @@ discoiquuid: 79a6d3cf-2425-49b9-9b92-b56be26438bf
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d046304657f04312d78176c49a650690b05e4c94
 
 ---
@@ -28,7 +28,7 @@ source-git-commit: d046304657f04312d78176c49a650690b05e4c94
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. [Actualice a la última versión](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) o contacte con el [soporte técnico](https://support.neolane.net/).
+>Se ha retirado esta compilación. [Actualice a la última versión](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) o contacte con el [soporte técnico](https://support.neolane.net/).
 
 **Novedades**
 
@@ -51,15 +51,15 @@ source-git-commit: d046304657f04312d78176c49a650690b05e4c94
 
 * Se han mejorado los registros de archivos de correo electrónico, lo que facilita la comprobación de los mensajes de correo electrónico que se han entregado o no se han enviado correctamente a través del archivo BCC. (NEO-10675)
 * Se corrigió un problema que provocaba la visualización de las direcciones IP del equilibrador de carga en lugar de las direcciones IP del cliente en los registros de seguimiento. (NEO-11295)
-* Se corrigió un problema aleatorio que ocasionaba que las propiedades de un envío se sobrescriban erróneamente. (NEO-11015)
+* Se corrigió un problema aleatorio que ocasionaba que las propiedades de una entrega se sobrescriban erróneamente. (NEO-11015)
 * Se corrigió un error de sintaxis al ordenar los resultados de las actividades de enriquecimiento. (NEO-11394)
-* Fixed an issue when using calculated fields in a **[!UICONTROL Survey answers]** workflow activity. (NEO-11382)
+* Se corrigió un problema que se producía al utilizar campos calculados en una actividad de flujo de trabajo **[!UICONTROL Survey answers]**. (NEO-11382)
 * Se ha actualizado Tomcat para evitar la explotación de vulnerabilidades. (NEO-11503)
 * Se corrigió un error con la codificación LATIN1 al utilizar una conexión de FDA con una base de datos PostgreSQL. (NEO-11299)
-* Fixed an issue that occured when using the **[!UICONTROL Prepare the personalization data with a workflow]** delivery option. (NEO-11047)
-* Se corrigió un problema posterior a la actualización que impedía el envío de SMS al utilizar un conector extendido.
+* Se corrigió un problema que se producía al utilizar la opción de entrega **[!UICONTROL Prepare the personalization data with a workflow]**. (NEO-11047)
+* Se corrigió un problema posterior a la actualización que impedía la entrega de SMS al utilizar un conector extendido.
 * Se mejoró la importación/exportación de paquetes (se han añadido registros y regiones en la interfaz).
-* Fixed an issue which displayed useless errors in the postupgrade log when a **[!UICONTROL Survey answers]** workflow activity was not fully configured.
+* Se corrigió un problema que mostraba errores no viables en el registro posterior de actualización cuando una actividad de flujo de trabajo **[!UICONTROL Survey answers]** no estaba completamente configurada.
 
 **Evoluciones técnicas**
 
@@ -67,15 +67,15 @@ Banda de consultas
 
 Se utiliza una clave específica (PROXYUSER o PROXYROLE) para asociar un usuario o función de Teradata a un usuario de Campaign. Se ha añadido un nuevo permiso para utilizar este usuario/función de proxy. Debe añadir el derecho al acceso de GRANT CONNECT THROUGH a la cuenta de la base de datos (la definida en la cuenta externa de Teradata).
 
-Se ha añadido una nueva pestaña en las cuentas externas de Teradata. The **[!UICONTROL Query banding]** tab includes the following options:
+Se ha añadido una nueva pestaña en las cuentas externas de Teradata. La pestaña **[!UICONTROL Query banding]** incluye las siguientes opciones:
 
-* **[!UICONTROL Active]**:: marque esta casilla para activar la función.
-* **[!UICONTROL Default]**: Introduzca una banda de consulta predeterminada que se utilizará si un usuario no tiene una banda de consulta asociada. Si no se ha definido una banda de consulta predeterminada, los usuarios que no tengan bandas de consulta asociadas no podrán utilizar Teradata.
-* **[!UICONTROL Users]**:: para cada usuario, especifique una banda de consulta. Puede añadir todos los pares de clave/valor que necesite. Por ejemplo: ‘priority=1;carga de trabajo=high;’
+* **[!UICONTROL Active]**: Marque esta casilla para activar la función.
+* **[!UICONTROL Default]**: introduzca una banda de consulta predeterminada que se debe utilizar si un usuario no tiene una banda de consulta asociada. Si no se ha definido una banda de consulta predeterminada, los usuarios que no tengan bandas de consulta asociadas no podrán utilizar Teradata.
+* **[!UICONTROL Users]**: para cada usuario, especifique una banda de consultas. Puede añadir todos los pares de clave/valor que necesite. Por ejemplo: ‘priority=1;carga de trabajo=high;’
 
 Para obtener más información sobre la banda de consultas, vea esta sección.
 
-* [https://docs.teradata.com/reader/cY5~BoeEUFWjgN2kBnH3Vw/a5G1~izve68yTMa24kVjVw](https://docs.teradata.com/reader/cY5B%7EoeEUFWjgN2kBnH3Vw/a5G1iz%7Eve68yTMa24kVjVw)
+* [https://docs.teradata.com/reader/cY5B~oeEUFWjgN2kBnH3Vw/a5G1iz~ve68yTMa24kVjVw](https://docs.teradata.com/reader/cY5B%7EoeEUFWjgN2kBnH3Vw/a5G1iz%7Eve68yTMa24kVjVw)
 * [https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/qVNfdszBssrZ7ttrE7AtmQ](https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/qVNfdszBssrZ7ttrE7AtmQ)
 
 ## Versión 18.6: compilación 8947{#release-18-6-build-8947}
@@ -84,7 +84,7 @@ Para obtener más información sobre la banda de consultas, vea esta sección.
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. [Actualice a la última versión](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) o contacte con el [soporte técnico](https://support.neolane.net/).
+>Se ha retirado esta compilación. [Actualice a la última versión](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) o contacte con el [soporte técnico](https://support.neolane.net/).
 
 **Novedades**
 
@@ -102,7 +102,7 @@ Para obtener más información sobre la banda de consultas, vea esta sección.
   </tr> 
   <tr> 
    <td> Compatibilidad con Windows Server 2016<br /> </td> 
-   <td> Adobe Campaign ahora es compatible con Windows Server 2016. Consulte la <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">Matriz de compatibilidades de Campaign Classic</a>.<br /> </td> 
+   <td> Adobe Campaign ahora es compatible con Windows Server 2016. Consulte la <a href="https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html">Matriz de compatibilidades de Campaign Classic</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -111,7 +111,7 @@ Para obtener más información sobre la banda de consultas, vea esta sección.
 
 decryptString
 
-La función **decryptString** ya no se utiliza. Consulte el artículo [Funciones obsoletas y eliminadas](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html).
+La función **decryptString** ya no se utiliza. Consulte el artículo [Funciones obsoletas y eliminadas](https://helpx.adobe.com/es/campaign/kb/deprecated-and-removed-features.html).
 
 Para nuevos clientes, esta función se utiliza ahora solamente para descifrar el ID cifrado del destinatario en las páginas de aterrizaje. Para descifrar contraseñas almacenadas en una cuenta externa, utilice la nueva función **decryptPassword**.
 
@@ -119,7 +119,7 @@ Para los clientes existentes, el comportamiento de esta función no cambia pero 
 
 decryptPassword
 
-Se ha añadido la función **decryptPassword.** Permite descifrar una contraseña almacenada en una cuenta externa. Consulte la documentación de [JSAPI](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) para obtener más información.
+Se ha añadido la función **decryptPassword.** Permite descifrar una contraseña almacenada en una cuenta externa. Consulte la documentación de [JSAPI](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html) para obtener más información.
 
 API de archivo
 
