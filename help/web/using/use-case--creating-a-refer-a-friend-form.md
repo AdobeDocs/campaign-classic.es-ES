@@ -1,7 +1,7 @@
 ---
-title: '"Caso de uso: creación de un formulario de referencia a un amigo"'
-seo-title: '"Caso de uso: creación de un formulario de referencia a un amigo"'
-description: '"Caso de uso: creación de un formulario de referencia a un amigo"'
+title: '“Ejemplo de uso: creación de un formulario de recomendar a un amigo”'
+seo-title: '“Ejemplo de uso: creación de un formulario de recomendar a un amigo”'
+description: '“Ejemplo de uso: creación de un formulario de recomendar a un amigo”'
 seo-description: null
 page-status-flag: never-activated
 uuid: ad8b9076-c551-420d-bb23-0b3c645ee943
@@ -14,7 +14,7 @@ discoiquuid: bbb1154f-2818-489c-9860-0e860596cbf7
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 36beb1eca48c698634c7548e0f931ab3fe17c021
 
 ---
@@ -34,7 +34,7 @@ Para configurar y crear el bloque de recomendación, siga estos pasos:
 
    ![](assets/s_ncs_admin_survey_viral_sample_2.png)
 
-   El campo **Su mensaje** le permite introducir un mensaje para el destinatario del reenvío. El remitente del envío debe también introducir su **Apellido**, **Nombre** y **Correo electrónico**.
+   El campo **Su mensaje** le permite introducir un mensaje para el destinatario del reenvío. El remitente de la entrega debe también introducir su **Apellido**, **Nombre** y **Correo electrónico**.
 
    La información introducida en los campos se almacena en una tabla específica conocida como tabla de visitante.
 
@@ -70,7 +70,7 @@ Para configurar y crear el bloque de recomendación, siga estos pasos:
 
    ![](assets/s_ncs_admin_survey_viral_sample_4b.png)
 
-1. A continuación, cree la plantilla de envío relacionada con el servicio de información creado durante el paso 1. It will be selected in the **[!UICONTROL Choose scenario]** field of the information service.
+1. A continuación, cree la plantilla de envío relacionada con el servicio de información creado durante el paso 1. Se selecciona en el campo **[!UICONTROL Choose scenario]** del servicio de información.
 
    La plantilla de envío utilizada para crear el mensaje de oferta de reenvío contiene la siguiente información:
 
@@ -82,13 +82,13 @@ Para configurar y crear el bloque de recomendación, siga estos pasos:
 
       ![](assets/s_ncs_admin_survey_viral_sample_7b.png)
 
-   * La información de contacto del destinatario del reenvío, así como la información sobre el remitente del reenvío, se toman de la tabla del visitante. Se inserta mediante el botón de personalización.
+   * La información de contacto del destinatario del reenvío, así como la información sobre el remitente del reenvío, se toma de la tabla del visitante. Se inserta mediante el botón de personalización.
 
       ![](assets/s_ncs_admin_survey_viral_sample_7a.png)
 
-   * Esta plantilla contiene un enlace al formulario de competencia y el enlace de suscripción para que el destinatario del reenvío se suscriba al boletín informativo.
+   * Esta plantilla contiene un vínculo al formulario de competencia y el vínculo de suscripción para que el destinatario del reenvío se suscriba al boletín informativo.
 
-      El enlace de suscripción se inserta mediante un bloque de personalización. De forma predeterminada, permite suscribir los perfiles al servicio del **boletín informativo.** Este bloque de personalización se puede cambiar para adaptarse a sus necesidades, por ejemplo para suscribirse a un servicio diferente.
+      El vínculo de suscripción se inserta mediante un bloque de personalización. De forma predeterminada, permite suscribir los perfiles al servicio del **boletín informativo.** Este bloque de personalización se puede cambiar para adaptarse a sus necesidades, por ejemplo para suscribirse a un servicio diferente.
 
    * El nombre interno (remitente del reenvío) se utiliza en la secuencia de comandos de envío de mensajes como se muestra a continuación.
    >[!NOTE]
@@ -122,11 +122,11 @@ Para configurar y crear el bloque de recomendación, siga estos pasos:
     </delivery>)
    ```
 
-1. Publique el formulario de competencia y envíe una invitación a los destinatarios del objetivo inicial. Cuando uno de ellos invita a un amigo, se crea un envío basado en la plantilla de **oferta de reenvío**.
+1. Publique el formulario de competencia y envíe una invitación a los destinatarios del objetivo inicial. Cuando uno de ellos invita a un amigo, se crea una entrega basado en la plantilla de **oferta de reenvío**.
 
    ![](assets/s_ncs_admin_survey_viral_sample_8.png)
 
-   The referee is added to the visitor folder in the **[!UICONTROL Administration > Visitors node]**:
+   El destinatario del reenvío se añade a la carpeta del visitante en el **[!UICONTROL Administration > Visitors node]**:
 
    ![](assets/s_ncs_admin_survey_viral_sample_9.png)
 
