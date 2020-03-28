@@ -14,7 +14,7 @@ discoiquuid: ac1c0a00-41ef-4cc2-bb51-2808ef400bb1
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -28,9 +28,9 @@ Aquí se muestra un diagrama con los diferentes pasos involucrados en este escen
 
 Primero, comience por diseñar el archivo adjunto. Consulte este [artículo](../../delivery/using/attaching-files.md#attach-a-personalized-file). Esto permite adjuntar archivos a un correo electrónico, incluso si no están hospedados en la instancia de ejecución.
 
-Puede enviar correos electrónicos a través de un activador de mensaje SOAP. For more information on SOAP requests, see [Event description](../../message-center/using/event-description.md). En la llamada SOAP, hay un parámetro de URL (attachmentURL).
+Puede enviar correos electrónicos a través de un activador de mensaje SOAP. Para obtener más información sobre las solicitudes SOAP, consulte [Descripción de eventos](../../message-center/using/event-description.md). En la llamada SOAP, hay un parámetro de URL (attachmentURL).
 
-When designing your email, click on **[!UICONTROL Attachment]** . In the **[!UICONTROL Attachment definition]** screen, enter the SOAP attachment parameter:
+Al diseñar el correo electrónico, haga clic en **[!UICONTROL Attachment]**. En la pantalla de **[!UICONTROL Attachment definition]** introduzca el parámetro de archivo adjunto SOAP:
 
 ```
 <%= rtEvent.ctx.attachementUrl %>
