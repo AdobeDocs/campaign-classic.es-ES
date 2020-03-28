@@ -14,7 +14,7 @@ discoiquuid: 8ef303b4-d9ce-40ee-a6c6-ed5012ab8eb8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 28614a6b0c45deef17d9b3275a16e65bdff4538b
 
 ---
@@ -28,8 +28,8 @@ En nuestra base de datos existen varias ofertas de viajes para Europa, África, 
 
 Vamos a configurar nuestra regla para que el viaje a Canadá se ofrezca solo una vez por destinatario y no se ofrezca nuevamente si se rechaza.
 
-1. En el árbol de Adobe Campaign, vaya al nodo **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typology rules]** .
-1. Cree una nueva regla **[!UICONTROL Offer presentation]** de tipo.
+1. En el árbol de Adobe Campaign, vaya al nodo **[!UICONTROL Administration]**> **[!UICONTROL Campaign management]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typology rules]**.
+1. Cree una nueva regla de tipo **[!UICONTROL Offer presentation]**.
 
    ![](assets/offer_typology_example_001.png)
 
@@ -37,23 +37,23 @@ Vamos a configurar nuestra regla para que el viaje a Canadá se ofrezca solo una
 
    ![](assets/offer_typology_example_002.png)
 
-1. Choose the **[!UICONTROL All channels]** option to extend the rule to all channels.
+1. Elija la opción **[!UICONTROL All channels]** para ampliar la regla a todos los canales.
 
    ![](assets/offer_typology_example_003.png)
 
-1. Haga clic en el **[!UICONTROL Edit expression]** vínculo y elija el **[!UICONTROL Category]** nodo como expresión.
+1. Haga clic en el vínculo **[!UICONTROL Edit expression]** y elija el nodo **[!UICONTROL Category]** como una expresión.
 
    ![](assets/offer_typology_example_004.png)
 
-1. Choose the category that matches your travel offer for Canada and click **[!UICONTROL OK]** to close the query window.
+1. Seleccione la categoría que coincida con la oferta de viajes para Canadá y haga clic en **[!UICONTROL OK]** para cerrar la ventana de consultas.
 
    ![](assets/offer_typology_example_005.png)
 
-1. In the **[!UICONTROL Offer presentation]** tab, choose the same dimensions as those configured in the environment.
+1. En la pestaña **[!UICONTROL Offer presentation]**, elija las mismas dimensiones que las configuradas en el entorno.
 
    ![](assets/offer_typology_example_006.png)
 
-1. Indique el período durante el que se aplica la regla.
+1. Indique el periodo durante el que se aplica la regla.
 
    ![](assets/offer_typology_example_007.png)
 
@@ -61,11 +61,11 @@ Vamos a configurar nuestra regla para que el viaje a Canadá se ofrezca solo una
 
    ![](assets/offer_typology_example_008.png)
 
-1. Select the **[!UICONTROL Offers for the same category]** filter to exclude all offers from the **Canada** category.
+1. Seleccione el filtro **[!UICONTROL Offers for the same category]** para excluir todas las ofertas de la categoría **Canada**.
 
    ![](assets/offer_typology_example_020.png)
 
-1. Select the **[!UICONTROL Rejected propositions]** filter to take into account only propositions rejected by the recipient.
+1. Seleccione el filtro **[!UICONTROL Rejected propositions]** que tendrá en cuenta solo propuestas que el destinatario rechace.
 
    ![](assets/offer_typology_example_021.png)
 
@@ -79,7 +79,7 @@ Vamos a configurar nuestra regla para que el viaje a Canadá se ofrezca solo una
 
    ![](assets/offer_typology_example_013.png)
 
-1. Go to the offer environment, (**Environment - Recipient** in this case) and reference the new typology just created using the drop-down list in the **[!UICONTROL Eligibility]** tab.
+1. Vaya al entorno de ofertas (**Environment - Recipient** en este caso) y cite la nueva tipología creada con la lista desplegable de la pestaña **[!UICONTROL Eligibility]**.
 
    ![](assets/offer_typology_example_014.png)
 
@@ -89,20 +89,20 @@ A continuación se muestra un ejemplo de aplicación de la regla de tipología c
 
 Queremos enviar una primera propuesta de oferta perteneciente a la categoría Canadá. Si la oferta se rechaza una vez por cualquiera de los destinatarios, no se ofrece de nuevo.
 
-1. In the **Frequent travelers** recipient folder, choose one of the profiles to check the offers for which they are eligible: click the **[!UICONTROL Propositions]** tab, then the **[!UICONTROL Preview]** tab.
+1. En la carpeta de destinatario **Frequent travelers**, elija uno de los perfiles para comprobar las ofertas para las que cumplen los requisitos: haga clic en la pestaña **[!UICONTROL Propositions]** y, a continuación, en la pestaña **[!UICONTROL Preview]**.
 
    En nuestro ejemplo, **Tim Ramsey** es apto para una oferta que forma parte de la categoría **América**.
 
    ![](assets/offer_typology_example_015.png)
 
-1. Comience creando un envío por correo electrónico dirigido a sus destinatarios **viajeros frecuentes** con ofertas.
+1. Comience creando una entrega por correo electrónico dirigido a sus destinatarios **viajeros frecuentes** con ofertas.
 1. Seleccione los parámetros para visualizar el motor de ofertas.
 
    En nuestro ejemplo, se elige la categoría **Viaje en América**, que contiene las subcategorías de **Canadá** y **Estados Unidos**.
 
    ![](assets/offer_typology_example_016.png)
 
-1. Inserte sus ofertas en el cuerpo del mensaje y mande el envío. For more on this, refer to [About outbound channels](../../interaction/using/about-outbound-channels.md).
+1. Inserte sus ofertas en el cuerpo del mensaje y mande la entrega. Para obtener más información, consulte [Sobre canales salientes](../../interaction/using/about-outbound-channels.md).
 
    El destinatario recibió la oferta para la cual es apto.
 
@@ -116,6 +116,6 @@ Queremos enviar una primera propuesta de oferta perteneciente a la categoría Ca
 
    ![](assets/offer_typology_example_019.png)
 
-**Tema relacionado**
+**Temas relacionados**
 
-* [Administre ofertas y controle la redundancia entre canales](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Manageoffersandcontrolredundancyacrosschannels)
+* [Administre ofertas y controle la redundancia entre canales](https://helpx.adobe.com/es/campaign/kb/simplifying-campaign-management-acc.html#Manageoffersandcontrolredundancyacrosschannels)
