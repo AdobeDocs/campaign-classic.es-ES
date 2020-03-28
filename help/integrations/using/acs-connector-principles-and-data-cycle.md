@@ -14,7 +14,7 @@ discoiquuid: 64d87bea-2376-4684-ac93-6ca56fe0f262
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 ---
@@ -40,12 +40,12 @@ Con el conector ACS, los especialistas en marketing digital siguen usando Campai
 
 Este documento presenta las funcionalidades del conector ACS. Las secciones siguientes proporcionan información sobre cómo la funcionalidad duplica datos, además de instrucciones sobre cómo trabajar con perfiles duplicados.
 
-* [Proceso](#process): Información general sobre ACS Connector y cómo se administra la replicación de datos.
-* [Implementación](#implementation): Información general sobre cómo empezar a usar ACS Connector, así como instrucciones sobre cómo replicar datos básicos y avanzados.
-* [Sincronizando perfiles](../../integrations/using/synchronizing-profiles.md): Instrucciones sobre cómo replicar perfiles y cómo crear entregas con ellos.
-* [Sincronizando audiencias](../../integrations/using/synchronizing-audiences.md): Instrucciones sobre cómo segmentar una lista de destinatarios en Campaign v7 y, a continuación, replicar la lista en Campaign Standard como audiencia.
-* [Sincronización de aplicaciones](../../integrations/using/synchronizing-web-applications.md)web: Instrucciones sobre cómo vincular aplicaciones web de Campaign v7 a Campaign Standard.
-* [Localización de averías del conector](../../integrations/using/troubleshooting-the-acs-connector.md)ACS: Revise las respuestas a problemas comunes.
+* [Process](#process): Información general sobre el conector ACS y cómo se administra la duplicación de datos.
+* [Implementation](#implementation): Información general sobre cómo empezar a utilizar el conector ACS, así como instrucciones para duplicar datos básicos y avanzados.
+* [Synchronizing profiles](../../integrations/using/synchronizing-profiles.md): Instrucciones sobre cómo duplicar perfiles y cómo crear entregas con ellos.
+* [Synchronizing audiences](../../integrations/using/synchronizing-audiences.md): Instrucciones sobre cómo dirigirse a una lista de destinatarios en Campaign v7 y luego duplicar la lista en Campaign Standard como audiencia.
+* [Synchronizing web applications](../../integrations/using/synchronizing-web-applications.md): Instrucciones sobre cómo vincular las aplicaciones web de Campaign v7 a Campaign Standard.
+* [Troubleshooting the ACS Connector](../../integrations/using/troubleshooting-the-acs-connector.md): Revise las respuestas a problemas comunes.
 
 >[!NOTE]
 >
@@ -74,11 +74,11 @@ La duplicación de datos de destinatarios, suscripciones, servicios y páginas d
 
 El conector ACS duplica los siguientes elementos de manera regular de Campaign Standard a Campaign v7:
 
-* **[!UICONTROL Delivery IDs]**
-* **[!UICONTROL Email broad logs]**
-* **[!UICONTROL Email tracking logs]**
+* **[!UICONTROL ID de entrega]**
+* **[!UICONTROL Registros generales de correo electrónico]**
+* **[!UICONTROL Registros de seguimiento de correo electrónico]**
 
-La duplicación de ID de envíos y “logs” de correo electrónico permite acceder al historial de envíos y realizar un seguimiento de los datos de los destinatarios de v7 desde Campaign v7.
+La duplicación de ID de entregas y “logs” de correo electrónico permite acceder al historial de entregas y realizar un seguimiento de los datos de los destinatarios de v7 desde Campaign v7.
 
 >[!CAUTION]
 >
@@ -90,28 +90,28 @@ La duplicación de ID de envíos y “logs” de correo electrónico permite acc
 
 El conector ACS sincroniza cuarentenas entre Campaign v7 y Campaign Standard.
 
-Por ejemplo, un perfil que se ha duplicado de Campaign v7 a Campaign Standard incluye una dirección de correo electrónico. Si la dirección de correo electrónico está en cuarentena en Campaign Standard, los datos se pasan a Campaign v7 durante la siguiente sincronización. Para obtener más información sobre las cuarentenas, consulte [Administración de cuarentenas](../../delivery/using/understanding-quarantine-management.md) y [Cuarentenas de Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
+Por ejemplo, un perfil que se ha duplicado de Campaign v7 a Campaign Standard incluye una dirección de correo electrónico. Si la dirección de correo electrónico está en cuarentena en Campaign Standard, los datos se pasan a Campaign v7 durante la siguiente sincronización. Para obtener más información sobre las cuarentenas, consulte [Administración de cuarentenas](../../delivery/using/understanding-quarantine-management.md) y [Cuarentenas de Campaign Standard](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
 
 ### Uso de perfiles duplicados {#using-replicated-profiles}
 
 Campaign Standard y Campaign v7 pueden utilizar perfiles duplicados para segmentar flujos de trabajo en las campañas de marketing.
 
-For instruction on how to send a delivery in Campaign Standard using replicated profiles, see [Synchronizing profiles](../../integrations/using/synchronizing-profiles.md). Se ofrecen instrucciones adicionales para compartir los datos de baja de suscripción entre Campaign v7 y Campaign Standard.
+Para obtener instrucciones sobre cómo realizar una entrega en Campaign Standard mediante perfiles duplicados, consulte [Sincronizar perfiles](../../integrations/using/synchronizing-profiles.md). Se ofrecen instrucciones adicionales para compartir los datos de baja de suscripción entre Campaign v7 y Campaign Standard.
 
 ### Limitaciones {#limitations}
 
-Se puede acceder fácilmente a los perfiles duplicados para los envíos, pero tienen ciertas limitaciones en Campaign Standard. Revise los siguientes elementos para descubrir la mejor manera de gestionarlos.
+Se puede acceder fácilmente a los perfiles duplicados para las entregas, pero tienen ciertas limitaciones en Campaign Standard. Revise los siguientes elementos para descubrir la mejor manera de gestionarlos.
 
-* **Perfiles de sólo lectura para Campaign Standard**: Los perfiles replicados son de solo lectura en Campaign Standard. Sin embargo, puede editar los destinatarios en Campaign v7 y las modificaciones se actualizan automáticamente en Campaign Standard gracias al conector ACS.
+* **Perfiles de solo lectura para Campaign Standard**: Los perfiles replicados son de solo lectura en Campaign Standard. Sin embargo, puede editar los destinatarios en Campaign v7 y las modificaciones se actualizan automáticamente en Campaign Standard gracias al conector ACS.
 * **Perfiles creados en Campaign Standard**: ACS Connector replica los datos de los destinatarios en una dirección, desde Campaign v7 hasta Campaign Standard. Por lo tanto, los perfiles que se crean en Campaign Standard no se duplican en Campaign v7.
 * **Datos básicos del destinatario para Campaign Standard**: ACS Connector replica los datos del destinatario que son adecuados para Campaign Standard. Incluye nombres de destinatarios, direcciones, direcciones de correo electrónico, números de teléfono móvil, números de teléfono fijo y otros datos de contacto relevantes. Si los campos de destinatario adicionales y tablas de objetivos personalizadas disponibles en Campaign v7 son esenciales para el flujo de trabajo, póngase en contacto con su consultor de Adobe.
-* **Importación de perfiles** en cuarentena: Las listas de perfiles con los que no se desea establecer contacto se pueden importar en Campaign v7 o Campaign Standard como perfiles en cuarentena. El estado de los perfiles se incluye en la sincronización de cuarentena entre las aplicaciones y no se utilizan en los envíos.
-* **Cancelación de la suscripción a un servicio en Campaign Standard**: La opción de cancelar la suscripción a una entrega no se sincroniza de Campaign Standard a Campaign v7. Sin embargo, se puede configurar un envío de Campaign Standard para dirigir su enlace de baja de suscripción a Campaign v7. El perfil de un destinatario que hace clic en el enlace de baja de suscripción se actualiza en Campaign v7 y los datos se duplican en Campaign Standard. See [Changing the unsubscription link](../../integrations/using/synchronizing-profiles.md#changing-the-unsubscription-link).
+* **Importing quarantined profiles**: Las listas de perfiles que no desean que se pongan en contacto con ellos se pueden importar en Campaign v7 o Campaign Standard como perfiles en cuarentena. El estado de los perfiles se incluye en la sincronización de cuarentena entre las aplicaciones y no se utilizan en las entregas.
+* **Unsubscribe to a service in Campaign Standard**: La opción de dar de baja la suscripción a una entrega no se sincroniza de Campaign Standard a Campaign v7. Sin embargo, se puede configurar una entrega de Campaign Standard para dirigir su vínculo de baja de suscripción a Campaign v7. El perfil de un destinatario que hace clic en el vínculo de baja de suscripción se actualiza en Campaign v7 y los datos se duplican en Campaign Standard. Consulte [Modificación del vínculo de baja de suscripción](../../integrations/using/synchronizing-profiles.md#changing-the-unsubscription-link).
 * Solo los “broadlogs” de correo electrónico y los “logs” de seguimiento se duplican desde Campaign Standard a Campaign v7.
 
 ### Facturación {#billing}
 
-La facturación no se ve afectada por su aplicación seleccionada para realizar envíos, Campaign v7 o Campaign Standard. La información de facturación se concilia entre Campaign v7 y Campaign Standard. Por lo tanto, si realiza envíos al mismo destinatario utilizando ambas aplicaciones, se cuenta como un perfil activo.
+La facturación no se ve afectada por su aplicación seleccionada para realizar entregas, Campaign v7 o Campaign Standard. La información de facturación se concilia entre Campaign v7 y Campaign Standard. Por lo tanto, si realiza entregas al mismo destinatario utilizando ambas aplicaciones, se cuenta como un perfil activo.
 
 ## Implementación {#implementation}
 
@@ -125,17 +125,17 @@ Existen dos tipos de implementación para ACS Connector. El equipo de consultor�
 
 La **implementación básica** permite duplicar destinatarios (campos predeterminados), servicios y suscripciones, aplicaciones web y audiencias. Se trata de una duplicación unidireccional de Campaign v7 a Campaign Standard.
 
-La **implementación avanzada** le permite realizar ejemplos de uso más complejos, por ejemplo, si tiene campos de destinatarios o tablas de destinatarios personalizadas adicionales (por ejemplo, una tabla de transacciones). Consulte Implementación [avanzada](#advanced-implementation).
+La **implementación avanzada** le permite realizar ejemplos de uso más complejos, por ejemplo, si tiene campos de destinatarios o tablas de destinatarios personalizadas adicionales (por ejemplo, una tabla de transacciones). Consulte [Implementación avanzada](#advanced-implementation).
 
 ### Instalación del paquete {#installing-the-package}
 
-To use the feature, the **[!UICONTROL ACS Connector]** package needs to be installed. Siempre realizan esta tarea el administrador técnico de Adobe o el consultor.
+Para utilizar la función, es necesario instalar el paquete **[!UICONTROL ACS Connector]**. Siempre realizan esta tarea el administrador técnico de Adobe o el consultor.
 
-All the technical elements related to ACS Connector are available in the **[!UICONTROL Administration > ACS Connector]** node of the explorer.
+Todos los elementos técnicos relacionados con ACS Connector están disponibles en el nodo **[!UICONTROL Administration > ACS Connector]** del explorador.
 
 ### Flujos de trabajo técnicos y de duplicación {#technical-and-replication-workflows}
 
-After the installation of the package, two technical workflows are available under **[!UICONTROL Administration > ACS Connector > Process]**.
+Después de la instalación del paquete hay dos flujos de trabajo técnicos disponibles en **[!UICONTROL Administration > ACS Connector > Process]**.
 
 >[!CAUTION]
 >
@@ -143,24 +143,24 @@ After the installation of the package, two technical workflows are available und
 
 ![](assets/acs_connect_implementation_3.png)
 
-* **[!UICONTROL `[ACS] Quarantine synchronization`]** (cuarentenaSincronización): este flujo de trabajo sincroniza toda la información de cuarentena. Toda la nueva información en cuarentena en Campaign v7 se duplica en Campaign Standard. Toda la nueva información en cuarentena de Campaign Standard se duplica en Campaign v7. Esto garantiza que todas las reglas de exclusión se sincronizan entre Campaign v7 y Campaign Standard.
-* **[!UICONTROL `[ACS] Security group synchronization`]** (securityGroupSync): este flujo de trabajo se utiliza para la conversión de derechos. Consulte Conversión [de](#rights-conversion)derechos.
+* **[!UICONTROL `[ACS] Quarantine synchronization`]** (quarantineSync): este flujo de trabajo sincroniza toda la información en cuarentena. Toda la nueva información en cuarentena en Campaign v7 se duplica en Campaign Standard. Toda la nueva información en cuarentena de Campaign Standard se duplica en Campaign v7. Esto garantiza que todas las reglas de exclusión se sincronizan entre Campaign v7 y Campaign Standard.
+* **[!UICONTROL `[ACS] Security group synchronization`]** (securityGroupSync): este flujo de trabajo se utiliza para la conversión de derechos. Consulte [Conversión de derechos](#rights-conversion).
 
 Los siguientes flujos de trabajo de duplicación están disponibles como plantillas “listas para usar”. El consultor de Adobe Campaign debe implementarlo.
 
 ![](assets/acs_connect_implementation_2.png)
 
-* **[!UICONTROL `[ACS] Profile replication`]** (newProfileReplication): este flujo de trabajo incremental replica los destinatarios en Campaign Standard. De forma predeterminada, duplica todos los campos de destinatario predeterminados. Consulte Campos [de destinatarios](#default-recipient-fields)predeterminados.
-* **[!UICONTROL `[ACS] Service replication`]** (newServiceReplication): este flujo de trabajo incremental replica los servicios elegidos en Campaign Standard. Consulte el caso de uso [Sincronización de aplicaciones](../../integrations/using/synchronizing-web-applications.md)Web.
-* **[!UICONTROL `[ACS] Landing pages replication`]** (newLandingPageReplication): este flujo de trabajo incremental replica las aplicaciones web elegidas en Campaign Standard. Las aplicaciones web de Campaign v7 aparecen como páginas de destino en Campaign Standard. Consulte el caso de uso [Sincronización de aplicaciones](../../integrations/using/synchronizing-web-applications.md)Web.
-* **[!UICONTROL `[ACS] New replication`]** (newReplication): este flujo de trabajo incremental es un ejemplo que se puede utilizar para replicar una tabla personalizada. Consulte Implementación [avanzada](#advanced-implementation).
-* **[!UICONTROL `[ACS] Delivery-mesage replication`]** (newDlvMsgQualification): este flujo de trabajo incremental replica los mensajes de envío de Campaign Standard a Campaign v7.
-* **[!UICONTROL `[ACS] Profile delivery log replication`]** (newRcpDeliveryLogReplication): este flujo de trabajo incremental replica los ID de envío, los registros generales de correo electrónico y los registros de seguimiento de correo electrónico desde Campaign Standard hasta Campaign v7. Solo tiene en cuenta los envíos de cuentas realizados desde Campaign Standard a los perfiles que forman parte de la tabla nms:recipients en Campaign v7.
-* **[!UICONTROL `[ACS] New delivery log replication`]** (newRcpDeliveryLogReplication): este flujo de trabajo incremental replica los ID de envío, los registros generales de correo electrónico y los registros de seguimiento de correo electrónico desde Campaign Standard hasta Campaign v7. Solo tiene en cuenta los envíos de cuentas realizados desde Campaign Standard hacia los perfiles que forman parte de una tabla específica (para definir, que no sea nms:recipients) de Campaign v7.
+* **[!UICONTROL `[ACS] Profile replication`]** (newProfileReplication): este flujo de trabajo incremental duplica los destinatarios a Campaign Standard. De forma predeterminada, duplica todos los campos de destinatario predeterminados. Consulte [Campos de destinatarios predeterminados](#default-recipient-fields).
+* **[!UICONTROL `[ACS] Service replication`]** (newServiceReplication): este flujo de trabajo incremental duplica los servicios seleccionados a Campaign Standard. Consulte el caso de uso [Sincronización de aplicaciones web](../../integrations/using/synchronizing-web-applications.md).
+* **[!UICONTROL `[ACS] Landing pages replication`]** (newLandingPageReplication): este flujo de trabajo incremental duplica las aplicaciones web seleccionadas en Campaign Standard. Las aplicaciones web de Campaign v7 aparecen como páginas de destino en Campaign Standard. Consulte el caso de uso [Sincronización de aplicaciones web](../../integrations/using/synchronizing-web-applications.md).
+* **[!UICONTROL `[ACS] New replication`]** (newReplication): este flujo de trabajo incremental es un ejemplo que puede utilizarse para duplicar una tabla personalizada. Consulte [Implementación avanzada](#advanced-implementation).
+* **[!UICONTROL `[ACS] Delivery-mesage replication`]** (newDlvMsgQualification): este flujo de trabajo incremental duplica los mensajes de entrega de Campaign Standard a Campaign v7.
+* **[!UICONTROL `[ACS] Profile delivery log replication`]** (newRcpDeliveryLogReplication): este flujo de trabajo incremental duplica las ID de entrega, los “broadlogs” de correo electrónico y los “logs” de seguimiento de correo electrónico desde Campaign Standard hasta Campaign v7. Solo tiene en cuenta las entregas de cuentas realizados desde Campaign Standard a los perfiles que forman parte de la tabla nms:recipients en Campaign v7.
+* **[!UICONTROL `[ACS] New delivery log replication`]** (newRcpDeliveryLogReplication): este flujo de trabajo incremental duplica las ID de entrega, los “broadlogs” de correo electrónico y los “logs” de seguimiento de correo electrónico desde Campaign Standard hasta Campaign v7. Solo tiene en cuenta las entregas de cuentas realizados desde Campaign Standard hacia los perfiles que forman parte de una tabla específica (para definir, que no sea nms:recipients) de Campaign v7.
 
 ### Campos de destinatario predeterminados {#default-recipient-fields}
 
-Si dispone de campos adicionales o tablas personalizadas (tabla de transacción, por ejemplo), estos no se duplican de forma predeterminada. Es necesario realizar una configuración avanzada. Consulte Implementación [avanzada](#advanced-implementation).
+Si dispone de campos adicionales o tablas personalizadas (tabla de transacción, por ejemplo), estos no se duplican de forma predeterminada. Es necesario realizar una configuración avanzada. Consulte [Implementación avanzada](#advanced-implementation).
 
 A continuación puede consultar la lista de campos de destinatario que se duplican con la implementación básica. Estos son los campos predeterminados:
 
@@ -168,8 +168,7 @@ A continuación puede consultar la lista de campos de destinatario que se duplic
  <tbody> 
   <tr> 
    <td> <strong>Etiqueta</strong><br /> </td> 
-   <td> <strong>Nombre
-								 interno</strong><br /> </td> 
+   <td> <strong>Nombre interno</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> ID de origen<br /> </td> 
@@ -274,11 +273,11 @@ A continuación puede consultar la lista de campos de destinatario que se duplic
 
 Los derechos se administran de manera diferente en Campaign v7 y en Campaign Standard. En Campaign v7, la administración de derechos se basa en carpetas, mientras que en Campaign Standard se basa en el acceso a la unidad (unidades organizativas/geográficas). Un usuario de Campaign Standard pertenece al grupo de seguridad que contiene el contexto de restricción. Por lo tanto, el sistema de derechos de Campaign v7 debe convertirse para que coincida con el de Campaign Standard. Existen varias maneras de realizar la conversión de los derechos. A continuación, se muestra un ejemplo de implementación.
 
-1. En **[!UICONTROL Administration > ACS Connector > Rights management > Security groups]**, utilice el **[!UICONTROL Synchronize]** botón para recuperar todos los grupos de seguridad de Campaign Standard. Se excluyen los grupos predeterminados de Campaign Standard.
+1. En **[!UICONTROL Administration > ACS Connector > Rights management > Security groups]**, utilice el botón **[!UICONTROL Synchronize]** para recuperar todos los grupos de seguridad de Campaign Standard. Se excluyen los grupos predeterminados de Campaign Standard.
 
    ![](assets/acs_connect_implementation_4.png)
 
-1. If your rights management is folder-base, go to **[!UICONTROL Administration > ACS Connector > Rights management > Folder mapping]** and map each needed folder with a security group.
+1. Si la administración de derechos se basa en carpetas, vaya a **[!UICONTROL Administration > ACS Connector > Rights management > Folder mapping]** y asigne cada carpeta necesaria con un grupo de seguridad.
 
    ![](assets/acs_connect_implementation_5.png)
 
@@ -294,7 +293,7 @@ En esta sección se describen algunas de las posibilidades relacionadas con la i
 
 La implementación avanzada añade flujos de trabajo de duplicación personalizados según las necesidades del cliente. A continuación se muestran algunos ejemplos:
 
-* duplicación de envío
+* duplicación de entrega
 * Duplicación de campaña
 * Duplicación del programa
 * Duplicación de miembros sembrados
@@ -305,15 +304,15 @@ La implementación avanzada añade flujos de trabajo de duplicación personaliza
 
 Con la implementación básica, se replican los campos de destinatarios predeterminados. Debe identificar los campos personalizados que añadió al esquema de destinatarios si desea replicarlos.
 
-1. En **[!UICONTROL Administration > ACS Connector > Data mapping]**, cree una asignación de objetivos en la **[!UICONTROL nms:recipient]** tabla.
+1. En **[!UICONTROL Administration > ACS Connector > Data mapping]**, cree una asignación objetivo en la tabla **[!UICONTROL nms:recipient]**.
 
    ![](assets/acs_connect_implementation_6.png)
 
-1. Seleccione los campos adicionales que desee duplicar y otros datos necesarios (índice, enlaces, claves de identificación).
+1. Seleccione los campos adicionales que desee duplicar y otros datos necesarios (índice, vínculos, claves de identificación).
 
    ![](assets/acs_connect_implementation_7.png)
 
-1. Abra el flujo de trabajo de duplicación de perfiles específico (no la plantilla, sino la propia instancia del flujo de trabajo). Modify the **[!UICONTROL Query]** and **[!UICONTROL Update data]** activities to include these fields. See [Technical and replication workflows](#technical-and-replication-workflows).
+1. Abra el flujo de trabajo de duplicación de perfiles específico (no la plantilla, sino la propia instancia del flujo de trabajo). Modifique las actividades **[!UICONTROL Query]** y **[!UICONTROL Update data]** para incluir estos campos. Consulte [Flujos de trabajo técnicos y de duplicación](#technical-and-replication-workflows).
 
    ![](assets/acs_connect_implementation_8.png)
 
@@ -323,14 +322,14 @@ Con la implementación básica, se replican los campos de destinatarios predeter
 
 Con la implementación básica, se duplica la tabla de destinatarios ya existente. Si ha añadido tablas de destinatarios personalizadas, así es como las identifica.
 
-1. Under **[!UICONTROL Administration > ACS Connector > Data mapping]**, create a targeting mapping on your custom profile table.
+1. En **[!UICONTROL Administration > ACS Connector > Data mapping]**, cree una asignación objetivo en la tabla de perfil personalizada.
 
    ![](assets/acs_connect_implementation_10.png)
 
-1. Defina los datos de identificación, el índice, los enlaces y los campos que desee duplicar.
+1. Defina los datos de identificación, el índice, los vínculos y los campos que desee duplicar.
 
    ![](assets/acs_connect_implementation_10.png)
 
-1. If your rights management is folder-based, go to **[!UICONTROL Administration > ACS Connector > Rights management > Folder mapping]**, and define a security group for the folders linked to your custom tables. Consulte Conversión [de](#rights-conversion)derechos.
-1. Use the **[!UICONTROL New replication]** workflow (not the template, but the workflow instance itself) to include the custom table and the fields to replicate. See [Technical and replication workflows](#technical-and-replication-workflows).
+1. Si la administración de derechos se basa en carpetas, vaya a **[!UICONTROL Administration > ACS Connector > Rights management > Folder mapping]** y defina un grupo de seguridad para las carpetas asociadas a las tablas personalizadas. Consulte [Conversión de derechos](#rights-conversion).
+1. Utilice el flujo de trabajo **[!UICONTROL New replication]** (no la plantilla, sino la propia instancia del flujo de trabajo) para incluir la tabla personalizada y los campos que desea duplicar. Consulte [Flujos de trabajo técnicos y de duplicación](#technical-and-replication-workflows).
 
