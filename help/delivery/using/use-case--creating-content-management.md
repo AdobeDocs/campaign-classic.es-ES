@@ -14,7 +14,7 @@ discoiquuid: a4c62580-664d-47fe-87f5-cfe608b05e6f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -41,7 +41,7 @@ Por ejemplo, para crear un boletín informativo en HTML con el siguiente tipo de
 
 Este boletín informativo contiene tres tipos de elementos:
 
-1. Elementos variables, cuyo contenido lo introduce o selecciona el usuario mediante un formulario de entrada durante la creación del envío.
+1. Elementos variables, cuyo contenido lo introduce o selecciona el usuario mediante un formulario de entrada durante la creación de la entrega.
 
    ![](assets/s_ncs_content_define_element_types.png)
 
@@ -65,15 +65,15 @@ Un esquema de datos es un documento XML asociado al contenido. Describe la estru
 >
 >Para obtener más información sobre la creación y configuración de esquemas de datos en Adobe Campaign, consulte [esta sección](../../configuration/using/about-schema-edition.md).
 >
->Configuration elements specific to content management are detailed in [Data schemas](../../delivery/using/data-schemas.md).
+>Los elementos de configuración específicos para la gestión de contenido se describen en [Esquemas de datos](../../delivery/using/data-schemas.md).
 
 Para crear un esquema de datos, aplique los pasos siguientes:
 
-1. Open the Adobe Campaign Explorer and select the **[!UICONTROL Administration > Configuration > Data schemas]** node.
+1. En el explorador de Adobe Campaign, seleccione el nodo **[!UICONTROL Administration > Configuration > Data schemas]**.
 
-   Click the **[!UICONTROL New]** icon located above the list of data schemas.
+   Haga clic en el icono **[!UICONTROL New]** situado encima de la lista de esquemas de datos.
 
-1. Seleccione la **[!UICONTROL Create a schema]** opción para la administración de contenido y haga clic en **[!UICONTROL Next]**.
+1. Seleccione la opción **[!UICONTROL Create a schema]** de la administración de contenido y haga clic en **[!UICONTROL Next]**.
 
    ![](assets/s_ncs_content_create_schema.png)
 
@@ -81,15 +81,15 @@ Para crear un esquema de datos, aplique los pasos siguientes:
 
    ![](assets/s_ncs_content_param_schema.png)
 
-   Click **[!UICONTROL Next]** to validate.
+   Haga clic en **[!UICONTROL Next]** para validar.
 
-1. Enter the content of the schema in the **[!UICONTROL Edit schema]** window.
+1. Introduzca el contenido del esquema en la ventana **[!UICONTROL Edit schema]**.
 
-   Use the **[!UICONTROL Insert]** button to create the schema content.
+   Utilice el botón **[!UICONTROL Insert]** para crear el contenido del esquema.
 
    ![](assets/s_ncs_content_param_schema_step2.png)
 
-   For more on this, refer to [Editing schemas](../../delivery/using/data-schemas.md#editing-schemas).
+   Para obtener más información, consulte [Edición de esquemas](../../delivery/using/data-schemas.md#editing-schemas).
 
    Para cada elemento al que se hace referencia en el contenido, se debe seleccionar un tipo que corresponda.
 
@@ -98,10 +98,10 @@ Para crear un esquema de datos, aplique los pasos siguientes:
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Contenido</strong><br /> </th> 
-   <th> <strong>Formato</strong><br /> </th> 
+   <th> <strong>Content</strong> <br /> </th> 
+   <th> <strong>Formato</strong> <br /> </th> 
    <th> <strong>Tipo</strong> <br /> </th> 
-   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Etiqueta</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -165,7 +165,7 @@ El esquema contiene la siguiente información:
   </element>
 ```
 
-1. Click **[!UICONTROL Save]** to create the data schema.
+1. Haga clic en **[!UICONTROL Save]** para crear el esquema de datos.
 
 ## Paso 3: Creación del formulario de entrada {#step-3---creating-the-input-form}
 
@@ -177,21 +177,21 @@ La descripción de un formulario es un documento XML estructurado que observa la
 >
 >Para obtener más información sobre la creación y configuración de formularios en Adobe Campaign, consulte [esta sección](../../configuration/using/identifying-a-form.md).
 >
->Configuration elements specific to content management are detailed in [Input forms](../../delivery/using/input-forms.md).
+>Los elementos de configuración específicos para la administración de contenido se describen en [Formularios de entrada](../../delivery/using/input-forms.md).
 
 Para crear un formulario de entrada de la gestión de contenido, siga estos pasos:
 
-1. Open the Adobe Campaign Explorer and select the **[!UICONTROL Administration > Configuration > Input forms]** node.
+1. En el explorador de Adobe Campaign, seleccione el nodo **[!UICONTROL Administration > Configuration > Input forms]**.
 
-   Click the **[!UICONTROL New]** icon above the list of forms.
+   Haga clic en el icono **[!UICONTROL New]** situado encima de la lista de formularios.
 
-1. Enter the name of the form and the label linked to the form, then select the **[!UICONTROL Content management]** type.
+1. Introduzca el nombre del formulario y la etiqueta relacionada con él. Luego, seleccione el tipo **[!UICONTROL Content management]**.
 
    ![](assets/s_ncs_content_param_form_edit.png)
 
    >[!NOTE]
    >
-   >Para que ambos elementos coincidan automáticamente, se recomienda utilizar el mismo nombre que con el esquema de datos vinculado. Use the **[!UICONTROL Insert]** button above the input zone to add fields from the schema linked to the form.
+   >Para que ambos elementos coincidan automáticamente, se recomienda utilizar el mismo nombre que con el esquema de datos vinculado. Utilice el botón **[!UICONTROL Insert]** situado encima de la zona de entrada para añadir campos del esquema relacionados con el formulario.
 
    ![](assets/s_ncs_content_param_form_edit_step2.png)
 
@@ -213,11 +213,11 @@ Para crear un formulario de entrada de la gestión de contenido, siga estos paso
      </input>
    ```
 
-   The **[!UICONTROL Preview]** tab lets you check the rendering of the form while you are editing it:
+   La pestaña **[!UICONTROL Preview]** permite comprobar la renderización del formulario mientras lo está editando:
 
    ![](assets/s_ncs_content_param_form_preview.png)
 
-1. Click **[!UICONTROL Save]** to create the input form.
+1. Haga clic en **[!UICONTROL Save]** para crear el formulario de entrada.
 
 ## Paso 4: Creación de la plantilla de construcción {#step-4---creating-the-construction-template}
 
@@ -227,18 +227,18 @@ En este ejemplo, deseamos utilizar una plantilla JavaScript para definir el modo
 
 >[!NOTE]
 >
->Constraints linked to document building (JavaScript or XSL template) are detailed in [Formatting](../../delivery/using/formatting.md).
+>Las limitaciones relacionadas con la creación de documentos (plantillas JavaScript o XSL) se detallan en [Formato](../../delivery/using/formatting.md).
 
 Para utilizar una plantilla JavaScript en Adobe Campaign, siga los siguientes pasos:
 
-1. Open the Adobe Campaign Explorer and select the **[!UICONTROL Administration > Configuration > JavaScript Templates]** node.
+1. En el explorador de Adobe Campaign, seleccione el nodo **[!UICONTROL Administration > Configuration > JavaScript Templates]**.
 
-   Click the **[!UICONTROL New]** icon above the list of templates.
+   Haga clic en el icono **[!UICONTROL New]** situado encima de la lista de plantillas.
 
 1. Introduzca un nombre de plantilla y seleccione el esquema que ha creado para el gestor de contenido.
 1. Importe el contenido establecido que desea mostrar en el mensaje.
 
-   Add the variable elements while respecting the syntax detailed in [JavaScript templates](../../delivery/using/formatting.md#javascript-templates).
+   Añada los elementos variables respetando la sintaxis detallada en [Plantillas de JavaScript](../../delivery/using/formatting.md#javascript-templates).
 
    Para visualizar el contenido mostrado en nuestro ejemplo, la plantilla JavaScript debe contener los siguientes elementos:
 
@@ -331,7 +331,7 @@ Para utilizar una plantilla JavaScript en Adobe Campaign, siga los siguientes pa
    </html>
    ```
 
-   Llamar a una función al comienzo de una plantilla permite configurar una llamada a los datos de personalización tomados de la base de datos de Adobe Campaign (en este caso: recipient.firstName y recipient.lastName), de manera que se pueda interpretar cuando se utilice en un envío. Para obtener más información sobre esto, consulte [Inclusión de una plantilla](../../delivery/using/formatting.md#including-a-javascript-template)de JavaScript.
+   Llamar a una función al comienzo de una plantilla permite configurar una llamada a los datos de personalización tomados de la base de datos de Adobe Campaign (en este caso: recipient.firstName y recipient.lastName), de manera que se pueda interpretar cuando se utilice en una entrega. Para más información, consulte [Inclusión de una plantilla de JavaScript](../../delivery/using/formatting.md#including-a-javascript-template).
 
    En este ejemplo, la función contiene el siguiente código:
 
@@ -350,7 +350,7 @@ Para utilizar una plantilla JavaScript en Adobe Campaign, siga los siguientes pa
    }
    ```
 
-   In order for the JavaScript template to be valid, this function must be created beforehand from the **[!UICONTROL JavaScript codes]** node in the tree structure, as below:
+   Para que la plantilla de JavaScript sea válida, esta función debe crearse de antemano desde el nodo **[!UICONTROL JavaScript codes]** en la estructura del árbol, como se muestra a continuación:
 
    ![](assets/contentmgt_jscode_perso_sample.png)
 
@@ -360,25 +360,25 @@ El siguiente paso implica la creación de una plantilla de publicación de conte
 
 >[!NOTE]
 >
->For more on content publication templates, refer to [Publication templates](../../delivery/using/publication-templates.md).
+>Para obtener más información sobre las plantillas de publicación de contenido, consulte [Plantillas de publicación](../../delivery/using/publication-templates.md).
 
 En este ejemplo, los pasos son los siguientes:
 
-1. Cree una nueva plantilla de publicación mediante el **[!UICONTROL Administration > Configuration > Publication templates]** nodo.
+1. Cree una nueva plantilla de publicación a través del nodo **[!UICONTROL Administration > Configuration > Publication templates]**.
 1. Introduzca un nombre y una etiqueta y seleccione el esquema y el formulario que desea utilizar.
-1. A continuación, introduzca el nombre de la plantilla y elija el modo de renderización que desee aplicar. Here, we have a **[!UICONTROL JavaScript]** type rendering based on the template created above.
+1. A continuación, introduzca el nombre de la plantilla y elija el modo de renderización que desee aplicar. Aquí tiene una renderización de tipo **[!UICONTROL JavaScript]** basada en la plantilla creada anteriormente.
 
    ![](assets/s_ncs_content_param_form_publish.png)
 
    >[!NOTE]
    >
-   >The **[!UICONTROL DOM interface]** option is checked by default and this means that this document will not be accessible if you use the E4X syntax. La interfaz DOM debe utilizarse cuando se active esta opción, y es la sintaxis recomendada.
+   >La opción **[!UICONTROL DOM interface]** está activada de forma predeterminada, lo que significa que no puede acceder a este documento si se utiliza la sintaxis E4X. La interfaz DOM debe utilizarse cuando se active esta opción, y es la sintaxis recomendada.
    >
    >Puede seguir utilizando la sintaxis E4X. Si es así, asegúrese de desactivar esta opción.
 
-   Use the **[!UICONTROL Add]** button to create other transformation templates.
+   Utilice el botón **[!UICONTROL Add]** para crear otras plantillas de transformación.
 
-1. Click **[!UICONTROL Save]** to create the publication template.
+1. Haga clic en **[!UICONTROL Save]** para crear la plantilla de publicación.
 
 ## Paso 6: Creación de contenidos {#step-6---creating-contents}
 
@@ -386,22 +386,22 @@ Ahora se puede crear contenido basado en esta plantilla de publicación.
 
 >[!NOTE]
 >
->Para obtener más información sobre la creación de contenido, consulte [Uso de una plantilla](../../delivery/using/using-a-content-template.md)de contenido.
+>Para obtener más información sobre la creación de contenidos, consulte [Uso de una plantilla de contenido](../../delivery/using/using-a-content-template.md).
 
-### Creación de contenido en el asistente de envío {#creating-content-in-the-delivery-wizard}
+### Creación de contenido en el asistente de envíos {#creating-content-in-the-delivery-wizard}
 
 Para crear contenido directamente en los envíos, aplique los pasos siguientes:
 
-1. Start by referencing the publication template via the **[!UICONTROL Advanced]** tab of the delivery properties.
+1. Comience por hacer referencia a la plantilla de publicación a través de la pestaña **[!UICONTROL Advanced]** de las propiedades de entrega.
 
    ![](assets/s_ncs_content_in_delivery.png)
 
-   Se agrega una pestaña adicional al asistente de envío para definir el contenido a través del formulario del gestor de contenido.
+   Se agrega una pestaña adicional al asistente de envíos para definir el contenido a través del formulario del gestor de contenido.
 
 1. Introduzca la información variable del boletín informativo.
 
    ![](assets/s_ncs_content_in_delivery_edition_tab.png)
 
-1. Click the **[!UICONTROL HTML preview]** tab to view the rendering. Se debe seleccionar un destinatario para probar la personalización.
+1. Haga clic en la pestaña **[!UICONTROL HTML preview]** para visualizar la renderización. Se debe seleccionar un destinatario para probar la personalización.
 
    ![](assets/s_ncs_content_use_in_delivery_preview.png)
