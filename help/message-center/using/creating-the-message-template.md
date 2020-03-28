@@ -14,7 +14,7 @@ discoiquuid: 2c2a7196-9183-46b1-b1e2-4a07a53e93b4
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2c0d4054fbc15a88ea0370269b62c7d647aea033
 
 ---
@@ -22,8 +22,8 @@ source-git-commit: 2c0d4054fbc15a88ea0370269b62c7d647aea033
 
 # Creación de la plantilla del mensaje{#creating-the-message-template}
 
-1. Vaya a la **[!UICONTROL Message Center >Transactional message templates]** carpeta en el árbol de Adobe Campaign.
-1. In the list of transactional message templates, right-click and select **[!UICONTROL New]** in the drop-down menu or click the **[!UICONTROL New]** button above the list of transactional message templates.
+1. Vaya a la carpeta **[!UICONTROL Message Center >Transactional message templates]** en el árbol de Adobe Campaign.
+1. En la lista de las plantillas de mensajes transaccionales, haga clic con el botón derecho y seleccione **[!UICONTROL New]** en el menú desplegable o haga clic en el botón **[!UICONTROL New]** situado sobre la lista de las plantillas de mensajes transaccionales.
 
    ![](assets/messagecenter_create_model_001.png)
 
@@ -36,13 +36,13 @@ source-git-commit: 2c0d4054fbc15a88ea0370269b62c7d647aea033
 
    ![](assets/messagecenter_create_model_003.png)
 
-   Es necesario crear previamente los tipos de eventos en la consola. Para obtener más información sobre esto, consulte [Creación de tipos](../../message-center/using/creating-event-types.md)de eventos.
+   Es necesario crear previamente los tipos de eventos en la consola. Para obtener más información, consulte [Creación de tipos de eventos](../../message-center/using/creating-event-types.md).
 
    >[!NOTE]
    >
-   >Nunca se debe vincular un tipo de evento a más de una plantilla.
+   >Evite relacionar un tipo de evento a más de una plantilla.
 
-1. Introduzca una naturaleza y una descripción y, a continuación, haga clic en **[!UICONTROL Continue]** para crear el cuerpo del mensaje (consulte [Creación de contenido](../../message-center/using/creating-message-content.md)de mensaje).
+1. Introduzca una característica y una descripción y, a continuación, haga clic en **[!UICONTROL Continue]** para crear el cuerpo del mensaje (consulte [Creación de contenido del mensaje](../../message-center/using/creating-message-content.md)).
 
    ![](assets/messagecenter_create_model_004.png)
 
