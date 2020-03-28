@@ -14,7 +14,7 @@ discoiquuid: 199eb687-3da6-49c1-9997-ef1cbd2647b6
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -35,11 +35,11 @@ Existen varias maneras de filtrar los datos que se van a mostrar. Si es necesari
 * Filtrar por carpetas, consulte [Filtrar por carpeta](#filter-by-folder),
 * Filtrar por estado, consulte [Filtrar por estado](#filter-by-status),
 * Ordenación de datos, consulte [Ordenar por](#order-by),
-* Buscar, consulte Búsqueda [rápida](#quick-search).
+* Buscar, consulte [Búsqueda rápida](#quick-search).
 
 ## Filtrar por carpeta {#filter-by-folder}
 
-Click the **[!UICONTROL Folder]** icon to select the folder containing the data to display.
+Haga clic en el icono **[!UICONTROL Carpeta]** para seleccionar la carpeta que contiene los datos que se van a mostrar.
 
 ![](assets/filter_web_select_folder.png)
 
@@ -51,7 +51,7 @@ Utilice la cruz a la derecha del campo de selección de carpetas para volver al 
 
 ## Filtrar por estado {#filter-by-status}
 
-Según el tipo de información que se muestre, puede aplicar un filtro por estatus o por estado. Por ejemplo, para los envíos, puede elegir mostrar solo los envíos finalizados como se muestra a continuación:
+Según el tipo de información que se muestre, puede aplicar un filtro por estatus o por estado. Por ejemplo, para las entregas, puede elegir mostrar solo las entregas finalizados como se muestra a continuación:
 
 ![](assets/d_ncs_user_interface_filter_delivery.png)
 
