@@ -14,7 +14,7 @@ discoiquuid: 434a4bda-0907-42a7-8a75-2db658bba046
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 # Publicación, seguimiento y utilización de datos recopilados{#publish-track-and-use-collected-data}
 
-Una vez creado, configurado y publicado el formulario, puede compartir el vínculo con su audiencia y rastrear las respuestas.
+Cuando se haya creado, configurado y publicado el formulario, puede publicarlo en línea, compartir el vínculo con los perfiles de la base de datos y realizar un seguimiento de las respuestas.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Una vez creado, configurado y publicado el formulario, puede compartir el víncu
 
 ## Panel de encuesta {#survey-dashboard}
 
-Cada encuesta tiene su propio panel que le permite ver su estado, descripción, dirección URL pública y programación de disponibilidad. También le permite ver los informes disponibles. For more on this, refer to [Reports on surveys](#reports-on-surveys).
+Cada encuesta tiene su propio panel que le permite ver su estado, descripción, dirección URL pública y programación de disponibilidad. También le permite ver los informes disponibles. Para obtener más información, consulte [Informes sobre encuestas](#reports-on-surveys).
 
 La URL pública de la encuesta se muestra en el panel:
 
@@ -42,11 +42,11 @@ Puede realizar un seguimiento de las respuestas a la encuesta en los “logs” 
 
 ### “Logs” de encuesta{#survey-logs}
 
-For each survey delivered, you can track the responses in the **[!UICONTROL Logs]** tab. Esta pestaña muestra la lista de usuarios que han completado la encuesta y su origen:
+Para cada encuesta enviada, puede realizar un seguimiento de las respuestas en la pestaña **[!UICONTROL Logs]**. Esta pestaña muestra la lista de usuarios que han completado la encuesta y su origen:
 
 ![](assets/s_ncs_admin_survey_logs.png)
 
-Haga doble clic en una línea para mostrar el formulario de la encuesta tal y como lo ha rellenado el encuestado. Puede examinar la encuesta y acceder a las respuestas en su totalidad. Se pueden exportar en un archivo externo. For more on this, refer to [Exporting answers](#exporting-answers).
+Haga doble clic en una línea para mostrar el formulario de la encuesta tal y como lo ha rellenado el encuestado. Puede examinar la encuesta y acceder a las respuestas en su totalidad. Se pueden exportar en un archivo externo. Para obtener más información, consulte [Exportación de respuestas](#exporting-answers).
 
 El origen se indica en la dirección URL de la encuesta añadiendo los caracteres siguientes:
 
@@ -54,7 +54,7 @@ El origen se indica en la dirección URL de la encuesta añadiendo los caractere
 ?origin=xxx
 ```
 
-while the survey is being edited, its URL contains the parameter **[!UICONTROL __uuid]**, which indicates that it is in a test phase and not yet online. Al acceder a la encuesta a través de esta dirección URL, los archivos creados no se tienen en cuenta en el seguimiento (informes). The origin is forced to the value **[!UICONTROL Adobe Campaign]**.
+mientras se edita la encuesta, su URL contiene el parámetro **[!UICONTROL __uuid]**, que indica que se encuentra en una fase de prueba y que todavía no está en línea. Al acceder a la encuesta a través de esta dirección URL, los archivos creados no se tienen en cuenta en el seguimiento (informes). Se fuerza el valor del origen **[!UICONTROL Adobe Campaign]**.
 
 Para obtener más información sobre los parámetros URL, consulte [esta página](../../web/using/defining-web-forms-properties.md#form-url-parameters).
 
@@ -64,9 +64,9 @@ La pestaña del panel le permite acceder a los informes sobre las encuestas. Hag
 
 ![](assets/s_ncs_admin_survey_report_doc.png)
 
-The structure of the survey is visible in the **[!UICONTROL Documentation]** report.
+La estructura de la encuesta se puede ver en el informe **[!UICONTROL Documentation]**.
 
-Two other reports on Web surveys are available in the **[!UICONTROL Reports]** tab of the surveys: **[!UICONTROL General]** and **[!UICONTROL Breakdown of responses]**.
+Hay otros dos informes disponibles en la pestaña **[!UICONTROL Reports]** de los estudios: **[!UICONTROL General]** y **[!UICONTROL Breakdown of responses]**.
 
 * General
 
@@ -78,7 +78,7 @@ Two other reports on Web surveys are available in the **[!UICONTROL Reports]** t
 
 * Desglose de respuestas
 
-   Este informe muestra el desglose de las respuestas por cada pregunta. This breakdown is only available for answers given to fields stored in **[!UICONTROL Question]** type containers. Solo es válido para controles de selección (sin desglose en campos de texto, por ejemplo).
+   Este informe muestra el desglose de las respuestas por cada pregunta. Este desglose solo está disponible para las respuestas dadas a campos almacenados en contenedores de tipo **[!UICONTROL Question]**. Solo es válido para controles de selección (sin desglose en campos de texto, por ejemplo).
 
    ![](assets/s_ncs_admin_survey_report_2.png)
 
@@ -88,13 +88,13 @@ Las respuestas a una encuesta se pueden exportar a un archivo externo para su pr
 
 1. Exportación de datos del informe
 
-   To export report data, click the **[!UICONTROL Export]** button and choose the export format.
+   Para exportar los datos del informe, haga clic en el botón **[!UICONTROL Export]** y seleccione el formato de exportación.
 
    Para obtener más información sobre la exportación de los datos de un informe, consulte [esta sección](../../reporting/using/about-reports-creation-in-campaign.md).
 
 1. Exportación de respuestas
 
-   To export answers, click the **[!UICONTROL Responses]** tab of the survey and right-click. Select **[!UICONTROL Export...]**.
+   Para exportar respuestas, haga clic en la pestaña **[!UICONTROL Responses]** de la encuesta y haga clic con el botón derecho del ratón. Seleccionar **[!UICONTROL Export...]**.
 
    ![](assets/s_ncs_admin_survey_logs_export_menu.png)
 
@@ -107,11 +107,11 @@ Las respuestas a una encuesta se pueden exportar a un archivo externo para su pr
    * añadir columnas al archivo de salida y recuperar la información sobre el destinatario (que se almacena en la base de datos).
    * formatear los datos exportados,
    * seleccionar el formato de codificación para la información del archivo.
-   If the survey you want to export contains several **[!UICONTROL Multi-line text]** or **[!UICONTROL HTML text]** fields, it has to be exported in **[!UICONTROL XML]** format. To do this, select this format in the drop-down list of the **[!UICONTROL Output format]** field, as shown below:
+   Si la encuesta que desea exportar contiene varios campos **[!UICONTROL Multi-line text]** o **[!UICONTROL HTML text]**, debe exportarse en formato **[!UICONTROL XML]**. Para ello, seleccione este formato en la lista desplegable del campo **[!UICONTROL Output format]**, como se muestra a continuación:
 
    ![](assets/s_ncs_admin_survey_logs_export_xml.png)
 
-   Haga clic en **[!UICONTROL Start]** para ejecutar la exportación.
+   Haga clic en **[!UICONTROL Comenzar]** para ejecutar la exportación.
 
    >[!NOTE]
    >
@@ -119,19 +119,19 @@ Las respuestas a una encuesta se pueden exportar a un archivo externo para su pr
 
 ## Uso de los datos recopilados {#using-the-collected-data}
 
-La información recopilada mediante encuestas en línea se puede recuperar dentro del marco de un flujo de trabajo de objetivos. Para ello, utilice el **[!UICONTROL Survey responses]** cuadro.
+La información recopilada mediante encuestas en línea se puede recuperar dentro del marco de un flujo de trabajo de objetivos. Para ello, utilice la casilla **[!UICONTROL Survey responses]**.
 
 En el siguiente ejemplo, queremos crear una oferta web especialmente para los cinco destinatarios con al menos dos hijos y con las puntuaciones más altas en la encuesta en línea. Las respuestas a esta encuesta son:
 
 ![](assets/s_ncs_admin_survey_responses_wf_box_4.png)
 
-In the targeting workflow, the **[!UICONTROL Survey responses]** will be configured as follows:
+En el flujo de trabajo de objetivos, **[!UICONTROL Survey responses]** se configura de la siguiente manera:
 
 ![](assets/s_ncs_admin_survey_responses_wf_box_1.png)
 
 Comience por seleccionar la encuesta que le interese y los datos que desea extraer en la sección central de la ventana. En este caso necesitamos extraer al menos la columna puntuación, ya que pretendemos usarla en el cuadro de división para recuperar las cinco puntuaciones más altas.
 
-Indicate the filtering conditions for answers by clicking the **[!UICONTROL Edit query...]** link.
+Especifique las condiciones de filtrado para las respuestas haciendo clic en el vínculo **[!UICONTROL Edit query...]**.
 
 ![](assets/s_ncs_admin_survey_responses_wf_box_2.png)
 
@@ -143,27 +143,27 @@ Haga clic con el botón derecho en la transición de salida del cuadro de recopi
 
 ![](assets/s_ncs_admin_survey_responses_wf_box_6.png)
 
-A continuación, coloque un cuadro de divisón en el flujo de trabajo para recuperar los 5 destinatarios con la máxima puntuación.
+A continuación, coloque un cuadro de división en el flujo de trabajo para recuperar los 5 destinatarios con la máxima puntuación.
 
 Edite el cuadro de división para configurarlo:
 
-* Start by selecting the adequate schema in the **[!UICONTROL General]** tab, then configure the sub-set:
+* Para empezar, seleccione el esquema adecuado en la pestaña **[!UICONTROL General]** y, a continuación, configure el subconjunto:
 
    ![](assets/s_ncs_admin_survey_responses_wf_box_6b.png)
 
-* Vaya a la **[!UICONTROL Sub-sets]** ficha, seleccione la **[!UICONTROL Limit the selected records]** opción y haga clic en el **[!UICONTROL Edit...]** vínculo.
+* Vaya a la pestaña **[!UICONTROL Sub-sets]** y seleccione la opción **[!UICONTROL Limit the selected records]**, y después haga clic en el vínculo **[!UICONTROL Edit...]**.
 
    ![](assets/s_ncs_admin_survey_responses_wf_box_7.png)
 
-* Seleccione la **[!UICONTROL Keep only the first records after sorting]** opción y seleccione la columna de ordenación. Marque la **[!UICONTROL Descending sort]** opción.
+* Seleccione la opción **[!UICONTROL Keep only the first records after sorting]** y seleccione ordenar columna. Marque la opción **[!UICONTROL Descending sort]** .
 
    ![](assets/s_ncs_admin_survey_responses_wf_box_8.png)
 
-* Click the **[!UICONTROL Next]** button and limit the number of records to 5.
+* Haga clic en el botón **[!UICONTROL Next]** y limite el número de registros a 5.
 
    ![](assets/s_ncs_admin_survey_responses_wf_box_9.png)
 
-* Click **[!UICONTROL Finish]** then restart the workflow to approve targeting.
+* Haga clic en **[!UICONTROL Finish]** y reinicie el flujo de trabajo para aprobar el destinatario.
 
 ## Estandarización de datos {#standardizing-data}
 
