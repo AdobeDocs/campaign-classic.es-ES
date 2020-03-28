@@ -14,7 +14,7 @@ discoiquuid: 01d8be92-7312-4386-b5f5-651af31308f7
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d30de91002862b664249c5a704b7c0f521dd30f2
 
 ---
@@ -26,33 +26,33 @@ La entidad central crea campañas de colaboración a partir de plantillas de cam
 
 ## Creación de una campaña de colaboración {#creating-a-collaborative-campaign}
 
-Para configurar una campaña de colaboración, haga clic en el **[!UICONTROL Campaign management > Campaigns]** nodo y, a continuación, en el **[!UICONTROL New]** icono.
+Para configurar una campaña de colaboración, haga clic en el nodo **[!UICONTROL Campaign management > Campaigns]** y luego en el icono **[!UICONTROL New]**.
 
 >[!NOTE]
 >
->Apart from **[!UICONTROL collaborative campaigns (by campaign)]**, these campaigns can be configured and executed via a web interface.
+>Además de **[!UICONTROL collaborative campaigns (by campaign)]**, estas campañas se pueden configurar y ejecutar mediante una interfaz web.
 
 El proceso de configuración de una base de datos de campaña de colaboración es similar al de una plantilla de campaña local. A continuación se describen las especificaciones de los diferentes tipos de campañas colaborativas.
 
 ### Por formulario {#by-form}
 
-To create a collaborative campaign (by form), the **[!UICONTROL Collaborative campaign (by form)]** template must be selected.
+Para crear una campaña de colaboración (por formulario), la plantilla **[!UICONTROL Collaborative campaign (by form)]** debe estar seleccionada.
 
 ![](assets/mkg_dist_mutual_op_form2.png)
 
-In the **[!UICONTROL Edit]** tab, click the **[!UICONTROL Advanced campaign settings...]** link to access the **Distributed Marketing** tab.
+En la ficha **[!UICONTROL Edit]**, haga clic en el vínculo **[!UICONTROL Advanced campaign settings...]** para acceder a la pestaña **Distributed Marketing**.
 
-Seleccione la interfaz web **By form.** Este tipo de interfaz le permite crear campos de personalización que se utilizarán en entidades locales cuando se solicite una campaña. Consulte [Creación de una campaña local (por formulario)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
+Seleccione la interfaz web **By form.** Este tipo de interfaz le permite crear campos de personalización que se utilizarán en entidades locales cuando se solicite una campaña. Consulte [Creación de una campaña local (por formulario) ](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
 
-Guarde la campaña. You can now use it from the **Campaign packages** view in the **Campaign** universe, by clicking the **[!UICONTROL Create]** button.
+Guarde la campaña. Ahora puede usarlo desde la vista **Campaign packages** en el entorno **Campaign**, haciendo clic en el botón **[!UICONTROL Create]**.
 
-The **[!UICONTROL Campaign Package]** view allows you to use local campaign templates (out-of-the-box or duplicated), as well as reference campaigns for collaborative campaigns, with the aim of creating campaigns for your different organizational entities.
+La vista **[!UICONTROL Campaign Package]** permite utilizar plantillas de campañas locales (ya sean predeterminadas o duplicadas), así como campañas de referencia para campañas de colaboración con el objetivo de crear campañas para diferentes entidades de organización.
 
 ![](assets/mkg_dist_mutual_op_form1b.png)
 
 ### Por campaña {#by-campaign}
 
-To create a collaborative campaign (by campaign), the **[!UICONTROL Collaborative campaign (by campaign) (opCollaborativeByCampaign)]** template must be selected.
+Para crear una campaña de colaboración (por campaña), la plantilla **[!UICONTROL Collaborative campaign (by campaign) (opCollaborativeByCampaign)]** debe estar seleccionada.
 
 ![](assets/mkg_dist_mutual_op_by_op2.png)
 
@@ -66,13 +66,13 @@ Una vez aprobada la solicitud de una campaña **Collaborative campaign (by campa
 
 La entidad local ejecuta la campaña secundaria. La entidad central ejecuta la campaña principal.
 
-The central entity can view all child campaigns linked with a **Collaborative campaign (by campaign)** from this dashboard (via the **[!UICONTROL List of associated campaigns]** link).
+La entidad central puede ver todas las campañas secundarias relacionadas con una **Collaborative Campaign (by campaign)** desde este panel (a través del vínculo **[!UICONTROL List of associated campaigns]**).
 
 ![](assets/mkg_dist_mutual_op_by_op.png)
 
 ### Por aprobación de destino {#by-target-approval}
 
-To create a collaborative campaign (by target approval), the **[!UICONTROL Collaborative campaign (by target approval)]** template must be selected.
+Para crear una campaña de colaboración (por aprobación de destino), la plantilla **[!UICONTROL Collaborative campaign (by target approval)]** debe estar seleccionada.
 
 ![](assets/mkg_dist_mutual_op_by_valid.png)
 
@@ -82,17 +82,17 @@ To create a collaborative campaign (by target approval), the **[!UICONTROL Colla
 
 El flujo de trabajo de campaña debe integrar la actividad de tipo de **Local approval** . Los parámetros de actividad son los siguientes:
 
-* **[!UICONTROL Action to perform]** : Notificación de aprobación del objetivo.
-* **[!UICONTROL Distribution context]** : Explícito.
-* **[!UICONTROL Data distribution]** : Distribución de entidad local.
+* **[!UICONTROL Action to perform]**: Notificación de aprobación de objetivo.
+* **[!UICONTROL Distribution context]**: Explícita.
+* **[!UICONTROL Data distribution]**: Distribución de entidades locales.
 
-Se debe crear la distribución de datos del tipo de **Local entity distribution** . La plantilla de distribución de datos permite limitar el número de registros de una lista de valores de agrupación. En **[!UICONTROL Resources > Campaign management > Data distribution]**, haga clic en el **[!UICONTROL New]** icono para crear un nuevo **[!UICONTROL Data distribution]**. Para obtener más información sobre la distribución de los datos, consulte la Guía de [Flujos de trabajo](../../workflow/using/using-the-local-approval-activity.md#step-1--creating-the-data-distribution-template-) .
+Se debe crear la distribución de datos del tipo de **Local entity distribution** . La plantilla de distribución de datos permite limitar el número de registros de una lista de valores de agrupación. En **[!UICONTROL Resources > Campaign management > Data distribution]**, haga clic en el icono **[!UICONTROL New]** para crear una nueva **[!UICONTROL Data distribution]**. Para obtener más información sobre la distribución de los datos, consulte la Guía de [Flujos de trabajo](../../workflow/using/using-the-local-approval-activity.md#step-1--creating-the-data-distribution-template-) .
 
 ![](assets/mkg_dist_data_distribution.png)
 
-Select the **Targeting dimension** and the **[!UICONTROL Distribution field]**. Para el **[!UICONTROL Assignment type]**, seleccione Entidad **** local.
+Seleccione **Targeting dimension** y **[!UICONTROL Distribution field]**. Para **[!UICONTROL Assignment type]**, seleccione **Local entity**.
 
-In the **[!UICONTROL Distribution]** tab, add a field for each local entity and specify the value.
+En la pestaña **[!UICONTROL Distribution]**, añada un campo para cada entidad local y especifique el valor.
 
 ![](assets/mkg_dist_data_distribution2.png)
 
@@ -108,7 +108,7 @@ La entidad local puede eliminar ciertos contactos según el contenido de la camp
 
 ### Sencilla {#simple}
 
-To create a simple collaborative campaign, the **[!UICONTROL Collaborative campaign (simple)]** template must be selected.
+Para crear una campaña de colaboración sencilla, la plantilla **[!UICONTROL Collaborative campaign (simple)]** debe estar seleccionada.
 
 ## Creación de un paquete de campaña de colaboración {#creating-a-collaborative-campaign-package}
 
@@ -116,9 +116,9 @@ Para que una campaña esté disponible para las entidades locales, la entidad ce
 
 Siga estos pasos:
 
-1. En la **[!UICONTROL Navigation]** sección de la página **Campañas** , haga clic en el **[!UICONTROL Campaign packages]** vínculo.
+1. En la sección **[!UICONTROL Navegar]** de la página de **Campaña**, haga clic en el vínculo **[!UICONTROL Paquetes de campaña]**.
 1. Haga clic en el botón **[!UICONTROL Create]**.
-1. The section at the top of the window lets you select the **[!UICONTROL New collaborative package (mutualizedEmpty)]** template.
+1. La sección de la parte superior de la ventana permite seleccionar la plantilla **[!UICONTROL New collaborative package (mutualizedEmpty)]**.
 1. Seleccione la campaña de referencia.
 1. Especifique la etiqueta, la carpeta y el programa de ejecución para el paquete de campaña.
 
@@ -130,7 +130,7 @@ Para las **campañas de colaboración**, la entidad central debe especificar el 
 
 >[!NOTE]
 >
->The **[!UICONTROL Personalization deadline]** allows the central entity to choose a deadline by which the local entities must have delivered the documents (spreadsheets, images) to be used to configure the campaign. Esta no es una opción obligatoria. Omitir esta fecha no afecta la implementación de la campaña.
+>**[!UICONTROL Personalization deadline]** permite que la entidad central elija un plazo en el que las entidades locales deben haber enviado los documentos (hojas de cálculo, imágenes) para configurar la campaña. Esta no es una opción obligatoria. Omitir esta fecha no afecta la implementación de la campaña.
 
 ![](assets/s_advuser_mkg_dist_create_mutual_entry.png)
 
@@ -142,7 +142,7 @@ La entidad central debe especificar las entidades locales involucradas en cada c
 
 >[!CAUTION]
 >
->**[!UICONTROL Simple, by form and by campaign collaborative campaign kits]** no se puede aprobar a menos que se hayan especificado las entidades locales pertinentes.
+>No se puede aprobar **[!UICONTROL Simple, by form and by campaign collaborative campaign kits]** a menos que se hayan especificado las entidades locales pertinentes.
 
 ### Modos de aprobación {#approval-modes}
 
@@ -162,7 +162,7 @@ La configuración de las notificaciones es idéntica a las notificaciones de una
 
 ## Solicitud de una campaña {#ordering-a-campaign}
 
-Cuando se añade una campaña colaborativa a la lista de paquetes de campaña, se notifica a las entidades locales pertenecientes a la audiencia definida por la entidad central (**Collaborative campaigns (by target approval)** no tienen un público predefinido). El mensaje enviado contiene un enlace que le permite registrarse en la campaña, como se muestra a continuación:
+Cuando se añade una campaña colaborativa a la lista de paquetes de campaña, se notifica a las entidades locales pertenecientes a la audiencia definida por la entidad central (**Collaborative campaigns (by target approval)** no tienen un público predefinido). El mensaje enviado contiene un vínculo que le permite registrarse en la campaña, como se muestra a continuación:
 
 ![](assets/mkg_dist_mutual_op_notification.png)
 
@@ -176,7 +176,7 @@ Una vez que una entidad local ha finalizado su registro, se notifica a las entid
 
 ![](assets/mkg_dist_mutual_op_valid_command.png)
 
-For more on this, refer to the [Approval process](../../campaign/using/creating-a-local-campaign.md#approval-process) section.
+Para obtener más información, consulte la sección [Proceso de aprobación](../../campaign/using/creating-a-local-campaign.md#approval-process).
 
 ## Aprobación de una solicitud {#approving-an-order}
 
