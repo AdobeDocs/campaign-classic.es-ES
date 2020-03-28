@@ -14,7 +14,7 @@ discoiquuid: 627ade78-96b3-4a6e-9ace-74610a3c8d1a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 ---
@@ -24,43 +24,43 @@ source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 Esta integración puede utilizarse, por ejemplo, para crear un boletín en Adobe Experience Manager para su uso posterior en Adobe Campaign como parte de una campaña de correo electrónico.
 
-Para ver un ejemplo más detallado sobre cómo utilizar esta integración, consulte esta [guía paso a paso](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/aem.html).
+Para ver un ejemplo más detallado sobre cómo utilizar esta integración, consulte esta [guía paso a paso](https://helpx.adobe.com/es/campaign/kb/acc-aem.html).
 
 **Desde Adobe Experience Manager:**
 
-1. En la instancia de creación de AEM, haga clic en el logotipo de **Adobe Experience** en la parte superior izquierda de la página y seleccione **[!UICONTROL Sites]**.
+1. En la instancia de autor de AEM, haga clic en el logotipo de **Adobe Experience** en la parte superior izquierda de la página y seleccione **[!UICONTROL Sites]**.
 
    ![](assets/aem_uc_1.png)
 
-1. Select **[!UICONTROL Campaigns > Name of your brand (here We.Retail) > Master Area > Email campaigns]**.
-1. Click the **[!UICONTROL Create]** button in the upper right side of the page then select **[!UICONTROL Page]**.
+1. Seleccione **[!UICONTROL Campaigns > Name of your brand (here We.Retail) > Master Area > Email campaigns]**.
+1. Haga clic en el botón **[!UICONTROL Create]** situado en la parte superior derecha de la página y seleccione **[!UICONTROL Page]**.
 
    ![](assets/aem_uc_2.png)
 
-1. Select the **[!UICONTROL Adobe Campaign Email (AC 6.1)]** template and name your newsletter.
-1. Once your page is created, access the **[!UICONTROL Page information]** menu and click **[!UICONTROL Open Properties]**.
+1. Seleccione la plantilla de **[!UICONTROL Adobe Campaign Email (AC 6.1)]** y asigne un nombre al boletín informativo.
+1. Una vez creada la página, acceda al menú **[!UICONTROL Page information]** y haga clic en **[!UICONTROL Open Properties]**.
 
    ![](assets/aem_uc_3.png)
 
-1. In the **[!UICONTROL Cloud Services]** tab, select **[!UICONTROL Adobe Campaign]** as **[!UICONTROL Cloud service configuration]** and your Adobe Campaign instance in the second drop-down.
+1. En la pestaña **[!UICONTROL Cloud Services]**, seleccione **[!UICONTROL Adobe Campaign]** como **[!UICONTROL Cloud service configuration]** y la instancia de Adobe Campaign en la segunda lista desplegable.
 
    ![](assets/aem_uc_4.png)
 
 1. Edite su contenido del correo electrónico añadiendo componentes como, por ejemplo, campos de personalización de Adobe Campaign.
-1. When your email is ready, access the **[!UICONTROL Page information]** menu and click **[!UICONTROL Start workflow]**.
+1. Cuando el correo electrónico esté listo, acceda al menú **[!UICONTROL Page information]** y haga clic en **[!UICONTROL Start workflow]**.
 
    ![](assets/aem_uc_5.png)
 
-1. From the first drop-down, select **[!UICONTROL Publish to Adobe Campaign]** as workflow model and click **[!UICONTROL Start workflow]**.
+1. En la primera lista desplegable, seleccione **[!UICONTROL Publish to Adobe Campaign]** como modelo de flujo de trabajo y haga clic en **[!UICONTROL Start workflow]**.
 
    ![](assets/aem_uc_6.png)
 
-1. Then, as the previous step, launch the **[!UICONTROL Approve for Campaign]** workflow.
-1. Se muestra un aviso legal en la parte superior de la página. Click **[!UICONTROL Complete]** to confirm the review and click **[!UICONTROL Ok]**.
+1. A continuación, como en el paso anterior, ejecute el flujo de trabajo **[!UICONTROL Approve for Campaign]**.
+1. Se muestra un aviso legal en la parte superior de la página. Haga clic en **[!UICONTROL Complete]** para confirmar la revisión y, a continuación, en **[!UICONTROL Ok]**.
 
    ![](assets/aem_uc_7.png)
 
-1. Haga clic nuevamente **[!UICONTROL Complete]** y seleccione **[!UICONTROL Newsletter approval]** en la **[!UICONTROL Next Step]** lista desplegable.
+1. Haga clic de nuevo en **[!UICONTROL Complete]** y, en la lista desplegable **[!UICONTROL Next Step]**, seleccione **[!UICONTROL Newsletter approval]**.
 
    ![](assets/aem_uc_8.png)
 
@@ -68,23 +68,23 @@ El boletín ya está listo y sincronizado en Adobe Campaign.
 
 **Desde Adobe Campaign:**
 
-1. En la **[!UICONTROL Campaigns]** ficha, haga clic en **[!UICONTROL Deliveries]** luego **[!UICONTROL Create]**.
+1. En la pestaña **[!UICONTROL Campaigns]**, haga clic en **[!UICONTROL Deliveries]** y luego en **[!UICONTROL Create]**.
 
    ![](assets/aem_uc_9.png)
 
-1. En la **[!UICONTROL Delivery template]** lista desplegable, seleccione la **[!UICONTROL Email delivery with AEM content (mailAEMContent)]** plantilla.
+1. En la lista desplegable **[!UICONTROL Delivery template]**, seleccione la plantilla **[!UICONTROL Email delivery with AEM content (mailAEMContent)]**.
 
    ![](assets/aem_uc_10.png)
 
-1. Add a **[!UICONTROL Label]** to your delivery and click **[!UICONTROL Continue]**.
+1. Añada a la entrega una **[!UICONTROL Label]** y haga clic en **[!UICONTROL Continue]**.
 1. Haga clic en el botón **[!UICONTROL Synchronize]**.
 
-   If this button does not appear in your interface, click the **[!UICONTROL Properties]** button and select the **[!UICONTROL Advanced]** tab. The **[!UICONTROL Content editing mode]** field should be set to **[!UICONTROL AEM]** with your AEM instance in the **[!UICONTROL AEM account]** field.
+   Si este botón no aparece en la interfaz, haga clic en el botón **[!UICONTROL Properties]** y seleccione la pestaña **[!UICONTROL Advanced]**. El campo **[!UICONTROL Content editing mode]** debe configurarse como **[!UICONTROL AEM]** con la instancia AEM en el campo **[!UICONTROL AEM account]**.
 
    ![](assets/aem_uc_11.png)
 
-1. Select the delivery previously created in Adobe Experience Manager and click **[!UICONTROL Ok]**.
-1. Click the **[!UICONTROL Refresh content]** button as soon as some changes are made to your AEM delivery.
+1. Seleccione la entrega creada anteriormente en Adobe Experience Manager y haga clic en **[!UICONTROL Ok]**.
+1. Haga clic en el botón **[!UICONTROL Refresh content]** en cuanto se realicen algunos cambios en la entrega de AEM.
 
    ![](assets/aem_uc_12.png)
 
