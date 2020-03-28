@@ -14,7 +14,7 @@ discoiquuid: 7b1c58a0-6fd6-4c9d-b1c4-f3dffda42523
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 ---
@@ -42,11 +42,11 @@ Puede optar por aprobar el contenido de la oferta en algunos espacios disponible
 
 Para aprobar el contenido de la oferta, siga estos pasos:
 
-1. Haga clic en el **[!UICONTROL Approval]** botón y seleccione **[!UICONTROL Approve content]** en la ventana emergente.
+1. Haga clic en el botón **[!UICONTROL Aprobación]** y seleccione **[!UICONTROL Aprobar contenido]** en la ventana emergente.
 
    ![](assets/offer_validate_002.png)
 
-1. Using the drop-down list, select the representations you want to keep editing or those you want to publish to the live environment, then click **[!UICONTROL Content approval]**.
+1. En la lista desplegable, seleccione las representaciones que desea seguir editando o las que desee publicar en el entorno en directo y, a continuación, haga clic en **[!UICONTROL Aprobar contenido]**.
 
    ![](assets/offer_validate_003.png)
 
@@ -56,7 +56,7 @@ Para aprobar el contenido de la oferta, siga estos pasos:
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Content approved]** mention does not mean that all the offer representations have been enabled and approved. Indica que se ha alcanzado el proceso de aprobación del contenido, aunque no todas las ofertas se hayan habilitado o aprobado.
+   >La mención **[!UICONTROL Aprobar contenido]** no significa que todas las representaciones de la oferta se hayan habilitado y aprobado. Indica que se ha alcanzado el proceso de aprobación del contenido, aunque no todas las ofertas se hayan habilitado o aprobado.
 
 ## Aprobación de los requisitos para la oferta {#approving-offer-eligibility}
 
@@ -66,11 +66,11 @@ La aprobación de los requisitos de oferta implica aceptar o rechazar los pesos 
 >
 >Una vez aprobado el contenido y la idoneidad de una oferta, el flujo de trabajo de la publicación (notificación de la oferta) se ejecuta automáticamente. La oferta está activa y disponible en todos los espacios activados.
 
-* The full list of rules can be viewed by clicking **[!UICONTROL Schedule and eligibility rules]**.
+* La lista completa de reglas puede verse haciendo clic en **[!UICONTROL Horario y reglas de elegibilidad]**.
 
    ![](assets/offer_validate_005.png)
 
-* Para cambiar las reglas de elegibilidad, haga clic en **[!UICONTROL Reject]** y luego en **[!UICONTROL Eligibility approval]**.
+* Para cambiar las reglas de elegibilidad, haga clic en **[!UICONTROL Rechazar]**, luego haga clic en **[!UICONTROL Aprobar elegibilidad]**.
 
    ![](assets/offer_validate_007.png)
 
@@ -78,11 +78,11 @@ La aprobación de los requisitos de oferta implica aceptar o rechazar los pesos 
 
    ![](assets/offer_validate_006.png)
 
-* To accept the offer eligibility, click **[!UICONTROL Approve eligibility]**.
+* Para aceptar la idoneidad de la oferta, haga clic en **[!UICONTROL Aprobar elegibilidad]**.
 
    ![](assets/offer_validate_008.png)
 
-   Approve eligibility, add a comment if necessary, then click **[!UICONTROL Eligibility approval]**.
+   Apruebe la idoneidad, añada un comentario si es necesario y haga clic en **[!UICONTROL Aprobar elegibilidad]**.
 
    ![](assets/offer_validate_009.png)
 
@@ -92,27 +92,27 @@ La aprobación de los requisitos de oferta implica aceptar o rechazar los pesos 
 
 ## Seguimiento de la aprobación {#approval-tracking}
 
-El seguimiento de la aprobación está disponible en el panel de ofertas. Haga clic **[!UICONTROL Hide/display logs]** para acceder a él.
+El seguimiento de la aprobación está disponible en el panel de ofertas. Haga clic en **[!UICONTROL Ocultar/mostrar registros]** para acceder.
 
 ![](assets/offer_validate_012.png)
 
 >[!NOTE]
 >
->Tracking is also available in the **[!UICONTROL Audit]** tab of the offer, with details of reviewers&#39; comments.
+>El seguimiento también está disponible en la pestaña **[!UICONTROL Auditoría]** de la oferta, con detalles de los comentarios de los revisores.
 
 ## Reinicio de la aprobación {#restart-the-approval}
 
 Una vez lanzada la aprobación, puede ser relanzada. Para ello, siga estas instrucciones:
 
-1. Haga clic **[!UICONTROL Content approved]** en el tablero de ofertas.
-1. En la **[!UICONTROL Edit]** ventana que aparece, seleccione la aprobación para reiniciar y, a continuación, haga clic en **[!UICONTROL Re-initialize approval to submit it again]**.
+1. Haga clic en **[!UICONTROL Contenido aprobado]** en el panel de ofertas.
+1. En la ventana **[!UICONTROL Editar]** que aparece, seleccione la aprobación para reiniciar, luego haga clic en **[!UICONTROL Reinicialice la aprobación para enviarla nuevamente]**.
 1. Confirme haciendo clic en **[!UICONTROL Ok]**.
 
 ![](assets/offer_validate_013.png)
 
 ## Publicación de la oferta {#publishing-the-offer}
 
-Una vez que el contenido y la idoneidad de una oferta se hayan aprobado, la oferta se publica mediante un flujo de trabajo que se ejecuta automáticamente para cada oferta cuyo ciclo de aprobación haya finalizado. The **[!UICONTROL Offer notification]** workflow also runs every hour in order to synchronize (if necessary) the spaces and categories contained in the offer catalog from the design environment to the live environment.
+Una vez que el contenido y la idoneidad de una oferta se hayan aprobado, la oferta se publica mediante un flujo de trabajo que se ejecuta automáticamente para cada oferta cuyo ciclo de aprobación haya finalizado. El flujo de trabajo de **[!UICONTROL Notificación de oferta]** también se ejecuta cada hora para sincronizar (si es necesario) los espacios y las categorías que contiene el catálogo de ofertas desde el entorno de diseño al entorno en vivo.
 
 El panel de la oferta disponible en el entorno de diseño contiene información sobre la publicación, incluido el nombre de la oferta coincidente del entorno en directo.
 
@@ -126,9 +126,9 @@ Para mostrar la oferta disponible en el entorno en directo, haga clic en la etiq
 
 Una vez aprobada la oferta, puede desactivarla.
 
-To do this, go to the dashboard for an online offer or an offer waiting to go online, then click **[!UICONTROL Disable offer]**.
+Para ello, vaya al panel de una oferta en línea o de una oferta esperando para conectarse y, a continuación, haga clic en **[!UICONTROL Desactivar oferta]**.
 
-You can also directly disable a category by going to the **[!UICONTROL Eligibility]** tab and checking the **[!UICONTROL Enabled]** box.
+También puede deshabilitar directamente una categoría si ingresa a la pestaña **[!UICONTROL Elegibilidad]** y activa la casilla **[!UICONTROL Habilitado]**.
 
 >[!NOTE]
 >
