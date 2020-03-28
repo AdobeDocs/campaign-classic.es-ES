@@ -14,7 +14,7 @@ discoiquuid: a5fc6c78-b4fb-41fd-a072-7be4ece3c554
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 ---
@@ -26,7 +26,7 @@ Para que un sea cubo funcional, se deben identificar las dimensiones y las medid
 
 Para crear un cubo, siga los pasos siguientes:
 
-1. Seleccione la tabla de trabajo. Consulte [Selección de la tabla](#selecting-the-work-table)de trabajo.
+1. Seleccione la tabla de trabajo. Consulte [Selección de la tabla de trabajo](#selecting-the-work-table).
 1. Defina las dimensiones. Consulte [Definición de dimensiones](#defining-dimensions).
 1. Defina las medidas. Consulte [Generación de indicadores](#building-indicators).
 1. Cree acumulados (opcional). Consulte [Cálculo y uso de agregados](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).
@@ -37,7 +37,7 @@ Los pasos de implementación se detallan a continuación. Hay disponibles opcion
 
 ## Selección de la tabla de trabajo {#selecting-the-work-table}
 
-To create a cube, click the **[!UICONTROL New]** button above the list of cubes.
+Para crear una nueva plantilla, haga clic en el botón **[!UICONTROL New]** situado sobre la lista de cubos.
 
 ![](assets/s_advuser_cube_create.png)
 
@@ -45,9 +45,9 @@ Seleccione el esquema de hechos, es decir, el esquema que contiene los elementos
 
 ![](assets/s_advuser_cube_wz_02.png)
 
-Click **[!UICONTROL Save]** to create the Cube: it will appear on the list of Cubes and may then be configured using the appropriate tabs.
+Haga clic en **[!UICONTROL Save]** para crear el cubo: este aparece en la lista de cubos y se puede configurar a través de las pestañas adecuadas.
 
-Click the **[!UICONTROL Filter the source data...]** link to apply the calculations of this Cube to a select of data in the database.
+Haga clic en el vínculo **[!UICONTROL Filter the source data...]** para aplicar los cálculos de este cubo a una selección de datos de la base de datos.
 
 ![](assets/s_advuser_cube_wz_03.png)
 
@@ -55,21 +55,21 @@ Click the **[!UICONTROL Filter the source data...]** link to apply the calculati
 
 Las dimensiones coinciden con los ejes de análisis definidos para cada cubo en función del esquema de hechos relacionado. Estas son las dimensiones exploradas en el análisis, como el tiempo (año, mes, fecha, etc.), la clasificación de productos o contratos (familia, referencia, etc.), segmento de población (por ciudad, grupo de edad, estado, etc.).
 
-These analysis axes are defined in the **[!UICONTROL Dimension]** tab of the Cube.
+Estos ejes de análisis se definen en la pestaña **[!UICONTROL Dimension]** del cubo.
 
-Click the **[!UICONTROL Add]** button to create a new dimension, then in the **[!UICONTROL Expression field]**, click the **[!UICONTROL Edit expression]** icon to select the field that contains the concerned data.
+Haga clic en el botón **[!UICONTROL Add]** para crear una nueva dimensión y luego, en **[!UICONTROL Expression field]**, haga clic en el icono **[!UICONTROL Edit expression]** para seleccionar el campo que contiene los datos relevantes.
 
 ![](assets/s_advuser_cube_wz_04.png)
 
 * Comience por seleccionar la **Edad** del destinatario. Para este campo, se puede definir el agrupamiento para reunir las edades y facilitar la lectura de la información. Se recomienda utilizar un agrupamiento cuando exista la probabilidad de que haya varios valores separados.
 
-   Para ello, marque la **[!UICONTROL Enable binning]** opción. Los modos de enlace se detallan en [Enlace](../../reporting/using/concepts-and-methodology.md#data-binning)de datos.
+   Para ello, marque la opción **[!UICONTROL Enable binning]**. Los modos de vínculo se detallan en [Enable binning](../../reporting/using/concepts-and-methodology.md#data-binning).
 
    ![](assets/s_advuser_cube_wz_05.png)
 
 * Añada una dimensión de tipo **Fecha.** Aquí nos interesa mostrar las fechas de creación del perfil de destinatario.
 
-   To do this, click **[!UICONTROL Add]** and select the **[!UICONTROL Creation date]** field in the recipient table.
+   Para ello, haga clic en **[!UICONTROL Add]** y seleccione el campo **[!UICONTROL Creation date]** en la tabla de destinatarios.
 
    ![](assets/s_advuser_cube_wz_06.png)
 
@@ -81,7 +81,7 @@ Click the **[!UICONTROL Add]** button to create a new dimension, then in the **[
 
 * Cree otra dimensión para analizar los datos relacionados con la ciudad del destinatario.
 
-   To do this, add a new dimension and select the city in the **[!UICONTROL Location]** node of the recipient schema.
+   Para ello, añada una nueva dimensión y seleccione la ciudad en el nodo **[!UICONTROL Location]** del esquema de destinatarios.
 
    ![](assets/s_advuser_cube_wz_08.png)
 
@@ -93,24 +93,24 @@ Click the **[!UICONTROL Add]** button to create a new dimension, then in the **[
 
    ![](assets/s_advuser_cube_wz_10.png)
 
-   Solo se muestran los valores de la enumeración. The others will be grouped under the label defined in the **[!UICONTROL Label of the other values]** field.
+   Solo se muestran los valores de la enumeración. Los demás se agrupan con la etiqueta definida en el campo **[!UICONTROL Label of the other values]**.
 
-   Para obtener más información sobre esto, consulte Administración [dinámica de bandejas](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins).
+   Para obtener más información, consulte [Administración dinámica de grupos](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins).
 
 ## Indicadores de creación {#building-indicators}
 
-Una vez definidas las dimensiones, se debe especificar un modo de cálculo para que los valores se muestren en las celdas. To do this, create the matching indicators in the **[!UICONTROL Measures]** tab: create as many measures as there are columns to display in the report which will use the cube.
+Una vez definidas las dimensiones, se debe especificar un modo de cálculo para que los valores se muestren en las celdas. Para ello, cree los indicadores coincidentes en la pestaña **[!UICONTROL Measures]**: cree tantas medidas como columnas que se deben mostrar en el informe que usa el cubo.
 
 Para ello, siga los siguientes pasos:
 
 1. Haga clic en el botón **[!UICONTROL Add]**.
 1. Seleccione el tipo de medida y la fórmula que desea aplicar. Aquí deseamos contar la cantidad de mujeres entre los destinatarios.
 
-   Our measure is based on the fact schema and uses the **[!UICONTROL Count]** operator.
+   La medición se basa en el esquema de hechos y utiliza el operador **[!UICONTROL Count]**.
 
    ![](assets/s_advuser_cube_wz_11.png)
 
-   El **[!UICONTROL Filter the measure data...]** vínculo permite seleccionar solo mujeres. For more on defining measures and the available options, refer to [Defining measures](../../reporting/using/concepts-and-methodology.md#defining-measures).
+   El vínculo **[!UICONTROL Filter the measure data...]** permite seleccionar solo mujeres. Para obtener más información sobre la definición de medidas y las opciones disponibles, consulte [Definir medidas](../../reporting/using/concepts-and-methodology.md#defining-measures).
 
    ![](assets/s_advuser_cube_wz_12.png)
 
@@ -126,11 +126,11 @@ Una vez configurado el cubo, se puede utilizar como plantilla para crear un nuev
 
 Para ello:
 
-1. Click the **[!UICONTROL Create]** button of the **[!UICONTROL Reports]** universe and select the cube you have just created.
+1. En el entorno **[!UICONTROL Create]**, haga clic en **[!UICONTROL Reports]** y seleccione el cubo recién creado.
 
    ![](assets/s_advuser_cube_wz_14.png)
 
-1. Click the **[!UICONTROL Create]** button to confirm: this will take you to the report configuration and viewing page.
+1. Haga clic en el botón **[!UICONTROL Create]** para confirmar: esto le lleva a la configuración del informe y a la página de visualización.
 
    De forma predeterminada, las dos primeras dimensiones disponibles se ofrecen en líneas y columnas, pero no se muestra ningún valor en la tabla. Para generar la tabla, haga clic en el icono principal:
 
