@@ -14,7 +14,7 @@ discoiquuid: 6d694f5c-1d1f-4686-b3bf-8697d919a0c8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
 ## Introducción {#introduction}
 
-Adobe Campaign ofrece una aplicación de **Marketing distribuido** para implementar campañas cooperativas entre entidades centrales (sede central, Departamentos de Marketing, etc.) y entidades locales (puntos de ventas, agencias regionales, etc.). This cooperation is based on a shared workspace known as the **[!UICONTROL list of campaign packages]**, where centrally created campaign templates and instances are offered to local entities.
+Adobe Campaign ofrece una aplicación de **Marketing distribuido** para implementar campañas cooperativas entre entidades centrales (sede central, Departamentos de Marketing, etc.) y entidades locales (puntos de ventas, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **[!UICONTROL list of campaign packages]**, donde las entidades locales pueden encontrar plantillas de campañas creadas de forma centralizada y diferentes instancias.
 
 La entidad central proporciona campañas que entidades locales pueden utilizar. Las campañas se materializan mediante paquetes que corresponden a campañas locales o de colaboración. Para utilizar una campaña, la entidad local debe pedirla y se debe aprobar la solicitud.
 
@@ -65,22 +65,22 @@ Plantilla (o instancia de campaña) creada por una entidad central y disponible 
 
 ### Campaña local {#local-campaign}
 
-A local campaign is an instance created from a template referenced in the list of **[!UICONTROL campaign packages]** with a **specific execution schedule**. Su objetivo es utilizar una comunicación local mediante una plantilla de campaña configurada por la entidad central.
+Una campaña local es una instancia creada a partir de una plantilla a la que se hace referencia en la lista de **[!UICONTROL campaign packages]** con una **programación de ejecución determinada**. Su objetivo es utilizar una comunicación local mediante una plantilla de campaña configurada por la entidad central.
 
 El grado de autonomía de la entidad local depende de la implementación utilizada.
 
-Consulte [Creación de una campaña](../../campaign/using/creating-a-local-campaign.md)local.
+Consulte [Creación de una campaña local](../../campaign/using/creating-a-local-campaign.md).
 
 ### Campaña de colaboración {#collaborative-campaign}
 
 Una campaña de colaboración es aquella que pueden utilizar las entidades locales y cuya **programación de ejecución** queda a cargo de la entidad central. El contenido es el mismo para cada entidad local pero se comparten los costes. Para participar, las entidades locales deben suscribirse a la campaña de colaboración.
 
-* **[!UICONTROL Collaborative campaign (by form)]**:: recomendado para campañas con hasta 300 entidades locales. La entidad local puede introducir parámetros predefinidos para la personalización de contenido y objetivos en un formulario Web. El formulario puede ser un formulario de Adobe Campaign o un formulario externo (cliente de extranet). Un administrador funcional puede definir y configurar el formulario basado en una plantilla de formulario definida por el integrador. Para solicitar la campaña, la entidad local solo necesita tener acceso a la Web.
-* **[!UICONTROL Collaborative campaign (by campaign)]**: recomendado para campañas destinadas a decenas de entidades locales. Este tipo de campaña crea campañas secundarias para cada entidad local. Once the **[!UICONTROL collaborative campaign (by campaign)]** is approved by the central entity, the campaign is made available to the local entity, who can modify it. La ejecución se realiza automáticamente entre las campañas principales y secundarias. La entidad local debe tener acceso a una instancia para solicitar una campaña y participar en ella.
-* **[!UICONTROL Collaborative campaign (by target approval)]**:: recomendado para campañas dirigidas a varios miles de entidades locales. La entidad local recibe una lista de contactos predefinida por la entidad central. La entidad local decide si se deben o no conservar ciertos contactos según el contenido de la campaña, a través de un formulario Web. Las entidades locales se obtienen de la lista de contactos seleccionados. Para participar en la campaña, la entidad local solo necesita tener acceso a la Web.
-* **[!UICONTROL Collaborative campaign (simple)]**:: este modo garantiza la compatibilidad con los procesos de ejecución específicos de las versiones anteriores.
+* **[!UICONTROL Collaborative campaign (by form)]**: recomendado para campañas que impliquen hasta 300 entidades locales. La entidad local puede introducir parámetros predefinidos para la personalización de contenido y objetivos en un formulario Web. El formulario puede ser un formulario de Adobe Campaign o un formulario externo (cliente de extranet). Un administrador funcional puede definir y configurar el formulario basado en una plantilla de formulario definida por el integrador. Para solicitar la campaña, la entidad local solo necesita tener acceso a la Web.
+* **[!UICONTROL Collaborative campaign (by campaign)]**: recomendado para campañas destinadas a miles de entidades locales. Este tipo de campaña crea campañas secundarias para cada entidad local. Una vez que la entidad central aprueba la **[!UICONTROL collaborative campaign (by campaign)]**, la campaña está disponible para la entidad local, que puede modificarla. La ejecución se realiza automáticamente entre las campañas principales y secundarias. La entidad local debe tener acceso a una instancia para solicitar una campaña y participar en ella.
+* **[!UICONTROL Collaborative campaign (by target approval)]**: recomendado para campañas destinadas a miles de entidades locales. La entidad local recibe una lista de contactos predefinida por la entidad central. La entidad local decide si se deben o no conservar ciertos contactos según el contenido de la campaña, a través de un formulario Web. Las entidades locales se obtienen de la lista de contactos seleccionados. Para participar en la campaña, la entidad local solo necesita tener acceso a la Web.
+* **[!UICONTROL Collaborative campaign (simple)]**: este modo garantiza la compatibilidad con los procesos de ejecución específicos de versiones anteriores.
 
-Consulte [Creación de una campaña](../../campaign/using/creating-a-collaborative-campaign.md)de colaboración.
+Consulte [Creación de una campaña de colaboración](../../campaign/using/creating-a-collaborative-campaign.md).
 
 ### Solicitud de paquetes de campaña {#ordering-campaign-packages}
 
@@ -88,17 +88,17 @@ Si una entidad local se registra para una campaña, esto se convierte en una sol
 
 ## Espacio de trabajo {#workspace}
 
-The list of campaign packages can be accessed from the **Campaigns** universe: click the **[!UICONTROL Campaign packages]** link.
+Se puede acceder a la lista de paquetes de campañas desde **Campaign**: haga clic en el vínculo **[!UICONTROL Campaign packages]**.
 
 ![](assets/mkg_dist_home_local_op.png)
 
 Esta ventana permite que todos los operadores locales vean las campañas disponibles para su organismo local.
 
-En el caso de las agencias centrales, esta ventana muestra todos los paquetes disponibles en la lista de paquetes de campañas e incluye enlaces adicionales para editar la lista.
+En el caso de las agencias centrales, esta ventana muestra todos los paquetes disponibles en la lista de paquetes de campañas e incluye vínculos adicionales para editar la lista.
 
 ## Operadores y entidades {#operators-and-entities}
 
-Start by specifying the central and local entity operators via the **[!UICONTROL Access management]** folder.
+Comience especificando los operadores de entidad central y local a través de la carpeta **[!UICONTROL Access management]**.
 
 ![](assets/s_advuser_mkg_dist_tree.png)
 
@@ -106,19 +106,19 @@ Start by specifying the central and local entity operators via the **[!UICONTROL
 
 Necesita crear operadores locales y centrales.
 
-Central operators must belong to the **[!UICONTROL Central management]** operator group or have the **[!UICONTROL CENTRAL]** named right.
+Los operadores centrales deben pertenecer al grupo de operadores **[!UICONTROL Central management]** o tener el nombre **[!UICONTROL CENTRAL]** adecuado.
 
-Local operators must belong to the **[!UICONTROL Local management]** operator group or have the **[!UICONTROL LOCAL]** named right. También deben estar vinculados a su entidad local.
+Los operadores locales deben pertenecer al grupo de operadores **[!UICONTROL Local management]** o tener el nombre **[!UICONTROL LOCAL]** adecuado. También deben estar vinculados a su entidad local.
 
 ![](assets/s_advuser_mkg_dist_local_create.png)
 
 ### Entidades organizativas {#organizational-entities}
 
-To create an organizational entity, click the **[!UICONTROL Administration > Access management > Organizational entities]** node and click the **[!UICONTROL New]** icon above the list of entities.
+Para crear una entidad organizativa, haga clic en **[!UICONTROL Administration > Access management > Organizational entities]** y seleccione el icono **[!UICONTROL New]** situado encima de la lista de entidades.
 
 ![](assets/s_advuser_mkg_dist_local_list.png)
 
-Cada entidad organizativa contiene información de identificación (etiqueta, nombre interno, información de contacto, etc.) y grupos involucrados en el proceso de aprobación. Estos se definen en la sección que **[!UICONTROL Notifications and approvals]** se encuentra en la **[!UICONTROL General]** ficha.
+Cada entidad organizativa contiene información de identificación (etiqueta, nombre interno, información de contacto, etc.) y grupos involucrados en el proceso de aprobación. Se definen en la sección **[!UICONTROL Notifications and approvals]** ubicada en la pestaña **[!UICONTROL General]**.
 
 * Defina un grupo de notificación de paquetes: los operadores de este grupo recibirán una notificación cada vez que se añada un nuevo paquete a la lista de paquetes de campañas y cada vez que una campaña esté disponible.
 * Seleccione el grupo de revisores de la aprobación de solicitudes; es decir, aquellos que se encarguen de aprobar las campañas ordenadas por la entidad local.
@@ -126,7 +126,7 @@ Cada entidad organizativa contiene información de identificación (etiqueta, no
 
 >[!NOTE]
 >
->The approval process is presented in the [Approval process](../../campaign/using/creating-a-local-campaign.md#approval-process) section.
+>El proceso de aprobación se presenta en la sección [Proceso de aprobación](../../campaign/using/creating-a-local-campaign.md#approval-process).
 
 ## Implementación {#implementation}
 
