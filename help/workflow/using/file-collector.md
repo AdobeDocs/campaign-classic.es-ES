@@ -14,7 +14,7 @@ discoiquuid: 9b937d4d-55ae-4bd4-8dc6-eea42f15b69f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 # Agrupamiento de archivos{#file-collector}
 
-El **File collector** supervisa la llegada de uno o más archivos de un directorio y activa su transición para cada archivo recibido. For each event, a **[!UICONTROL filename]** variable contains the full name of the file received. Los archivos recopilados se mueven a otro directorio para fines de archivo y para asegurarse de que se cuentan solo una vez.
+El **File collector** supervisa la llegada de uno o más archivos de un directorio y activa su transición para cada archivo recibido. Para cada evento, una variable **[!UICONTROL filename]** contiene el nombre completo del archivo recibido. Los archivos recopilados se mueven a otro directorio para fines de archivo y para asegurarse de que se cuentan solo una vez.
 
 De forma predeterminada, el recopilador de archivos es una tarea persistente que prueba la presencia de archivos en las horas especificadas por la programación.
 
@@ -30,7 +30,7 @@ Los archivos deben estar en el servidor en el que se ejecuta el módulo wfserver
 
 ## Propiedades {#properties}
 
-The first tab of the **[!UICONTROL File collector]** activity lets you select the source directory and, if necessary, filter the collected files. Las otras fichas se detallan en Correo electrónico [](../../workflow/using/inbound-emails.md) entrante (**[!UICONTROL Schedule]** y **[!UICONTROL Expiry]** fichas).
+La primera pestaña de la actividad **[!UICONTROL File collector]** permite seleccionar el directorio de origen y, si es necesario, filtrar los archivos recopilados. Las otras pestañas se detallan en [Inbound Emails](../../workflow/using/inbound-emails.md) (pestañas **[!UICONTROL Schedule]** y **[!UICONTROL Expiry]**).
 
 ![](assets/file_collect_edit.png)
 
@@ -40,31 +40,31 @@ The first tab of the **[!UICONTROL File collector]** activity lets you select th
 
       Directorio que contiene los archivos que se van a descargar. Este directorio debe crearse previamente en el servidor: si no existe, se generará un error.
 
-   * **[!UICONTROL Filter]**
+   * **[!UICONTROL Filtro]**
 
       Solo se tienen en cuenta los archivos que coinciden con este filtro. Los demás archivos del directorio se omiten. Si el filtro está vacío, se tendrán en cuenta todos los archivos del directorio. Ejemplos de filtros: ***.zip**, **import-*.txt**.
 
-   * **[!UICONTROL Stop as soon as a file has been processed]**
+   * **[!UICONTROL Detenerse en cuanto se haya procesado un archivo]**
 
       Si esta opción está activada, la tarea finaliza después de la recepción del primer archivo. Si hay varios archivos correspondientes al filtro en el directorio, solo se tendrá en cuenta uno. Esta opción garantiza que solo se envíe un evento. El archivo tenido en cuenta es la primero en la lista en orden alfabético.
 
-      For an unscheduled activity, if no file matching the filter is found in the specified directory, and if the **[!UICONTROL Process file nonexistence]** option is not enabled, an error will be raised.
+      Para una actividad no programada, si no se encuentra ningún archivo que coincida con el filtro en el directorio especificado y si la opción **[!UICONTROL Process file nonexistence]** no está activada, se generará un error.
 
-   * **[!UICONTROL Execution schedule]**
+   * **[!UICONTROL Programación de ejecución]**
 
-      Determines the frequency of the file presence check via the parameters of the **[!UICONTROL Schedule]** tab.
+      Determina la frecuencia de la comprobación de presencia de archivos mediante los parámetros de la pestaña **[!UICONTROL Schedule]**.
 
 1. **Error handling**
 
    Estas son las opciones disponibles.
 
-   * **[!UICONTROL Process file nonexistence]**
+   * **[!UICONTROL No existencia del archivo de proceso]**
 
       Esta opción inicia una transición especial cada vez que no se encuentra ningún archivo que coincida con el filtro en el directorio especificado.
 
       Si la tarea no está programada, esta transición se activará solo una vez.
 
-   * **[!UICONTROL Processing errors]**
+   * **[!UICONTROL Procesamiento de errores]**
 
       Esta opción hace que aparezca una transición especial, que se activará si se genera un error. En este caso, el flujo de trabajo no cambia a estado de error y continúa la ejecución
 
@@ -74,9 +74,9 @@ The first tab of the **[!UICONTROL File collector]** activity lets you select th
 
 1. **Historization**
 
-   Consulte el **[!UICONTROL File historization]** paso a continuación: Descarga [web](../../workflow/using/web-download.md).
+   Consulte el paso **[!UICONTROL File historization]** aquí: [Web download](../../workflow/using/web-download.md).
 
-El orden de procesamiento del archivo no se puede determinar. To process a set of files sequentially, use the **[!UICONTROL Stop as soon as a file has been processed]** option and create a loop. En este caso, los archivos se procesan en orden alfabético. La **[!UICONTROL Process file nonexistence]** opción le permite finalizar la iteración.
+El orden de procesamiento del archivo no se puede determinar. Para procesar un conjunto de archivos secuencialmente, utilice la opción **[!UICONTROL Stop as soon as a file has been processed]** y cree un bucle. En este caso, los archivos se procesan en orden alfabético. La opción **[!UICONTROL Process file nonexistence]** permite finalizar la iteración.
 
 ![](assets/file_collect_loop.png)
 
