@@ -14,7 +14,7 @@ discoiquuid: a9eb6627-2e51-42d0-9b29-5b798bdf5b33
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
 ---
@@ -24,12 +24,12 @@ source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
 Adobe Campaign permite definir, optimizar, ejecutar y analizar las comunicaciones y las campañas de marketing. Adobe Campaign es un centro unificado y un centro de ejecución para estrategias de marketing. Para obtener más información, consulte [Acceso a campañas](../../campaign/using/accessing-campaigns.md) y [Configuración de campañas de marketing](../../campaign/using/setting-up-marketing-campaigns.md).
 
-In addition, the **Marketing Resource Management (MRM)** module lets you control marketing actions in a collaborative mode by providing complete management and real-time tracking of the tasks, budgets and marketing resources involved. La Administración de recursos de marketing permite optimizar y regular la administración de procesos internos y externos, recursos y campañas de marketing, así como relaciones de terceros (agencias, imprentas, etc.). Para obtener más información, consulte [esta sección](../../campaign/using/about-marketing-resource-management.md).
+Además, el módulo **Marketing Resource Management (MRM)** permite controlar las acciones de marketing en un modo cooperativo mediante la administración completa y el seguimiento en tiempo real de las tareas, los presupuestos y los recursos de marketing involucrados. La Administración de recursos de marketing permite optimizar y regular la administración de procesos internos y externos, recursos y campañas de marketing, así como relaciones de terceros (agencias, imprentas, etc.). Para obtener más información, consulte [esta sección](../../campaign/using/about-marketing-resource-management.md).
 
 >[!NOTE]
 >
 >Para obtener más información sobre las funcionalidades básicas de Adobe Campaign, consulte la sección [Introducción](../../platform/using/about-adobe-campaign-classic.md).\
->En [esta sección](../../delivery/using/communication-channels.md)se describen las capacidades relacionadas con el segmentación de públicos objetivo, la personalización y envío de mensajes en los diversos canales.
+>En [esta sección](../../delivery/using/communication-channels.md) se describen las capacidades relacionadas con la segmentación de públicos objetivo, la personalización y entrega de mensajes en los diversos canales.
 
 ## Conceptos básicos {#core-concepts}
 
@@ -39,17 +39,17 @@ Los siguientes conceptos son esenciales para conocer mejor Campaign:
 
    Una campaña unifica todos los elementos relacionados con una campaña de marketing: envíos, reglas de segmentación, costes, archivos de exportación, documentos relacionados, etc. Cada campaña se vincula a un programa.
 
-   For more on this, refer to [Adding a campaign](../../campaign/using/setting-up-marketing-campaigns.md#adding-a-campaign).
+   Para obtener más información, consulte [Adición de una campaña](../../campaign/using/setting-up-marketing-campaigns.md#adding-a-campaign).
 
 * **Programa**
 
-   Un programa permite definir acciones de marketing para un determinado periodo de tiempo: lanzamiento, escrutinio, lealtad, etc. Cada programa contiene campañas vinculadas a un calendario, que proporciona una vista general.
+   Un programa permite definir acciones de marketing para un determinado periodo: lanzamiento, escrutinio, lealtad, etc. Cada programa contiene campañas vinculadas a un calendario, que proporciona una vista general.
 
 * **Plan**
 
-   Un plan de marketing puede contener varios programas. Está vinculado a un periodo de tiempo, tiene un presupuesto asignado y también puede estar vinculado a documentos y objetivos.
+   Un plan de marketing puede contener varios programas. Está vinculado a un periodo, tiene un presupuesto asignado y también puede estar vinculado a documentos y objetivos.
 
-   For more on this, refer to [Campaign calendar](../../campaign/using/accessing-marketing-campaigns.md#campaign-calendar).
+   Para obtener más información, consulte [Calendario de campaña](../../campaign/using/accessing-marketing-campaigns.md#campaign-calendar).
 
 * **Flujo de trabajo**
 
@@ -61,8 +61,8 @@ Los siguientes conceptos son esenciales para conocer mejor Campaign:
 
    Dentro de la campaña, programa o plan, puede marcar una lista de objetivos. Estos son valores cuantificados que se deben alcanzar. Al final de la campaña, programa o plan, el módulo MRM le permite comparar los objetivos y resultados en informes dedicados.
 
-* **Descripción del envío**
+* **Descripción de la entrega**
 
-   Un perfil de envío es una descripción estructurada del envío. Cada envío puede hacer referencia a un perfil de envío que contiene, por ejemplo, las ofertas relacionadas, documentos que se van a adjuntar o un enlace que lleve a las tiendas. Se puede hacer referencia a una oferta en el envío según el contorno de envío seleccionado.
+   Un perfil de envío es una descripción estructurada de la entrega. Cada envío puede hacer referencia a un perfil de envío que contiene, por ejemplo, las ofertas relacionadas, documentos que se van a adjuntar o un vínculo que lleve a las tiendas. Se puede hacer referencia a una oferta en la entrega según la descripción del envío seleccionada.
 
-   Para obtener más información sobre esto, consulte [Asociación y estructuración de recursos vinculados a través de un esquema](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)de entrega.
+   Para obtener más información, consulte [Asociación y estructuración de recursos relacionados a través de un esquema de envío](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
