@@ -14,7 +14,7 @@ discoiquuid: c363a7cf-81a5-4c02-a021-b822eeeadd03
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70f51ba3937d0f20d9a488c61b52b7ec4396fa5e
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: 70f51ba3937d0f20d9a488c61b52b7ec4396fa5e
 
 Los conceptos globales al validar una entrega se presentan en [esta sección](../../delivery/using/steps-validating-the-delivery.md).
 
-El archivo de salida de una entrega de correo directo se genera durante el análisis de la entrega. El contenido del archivo depende de las columnas de salida seleccionadas (consulte el archivo [Extracción](../../delivery/using/defining-the-direct-mail-content.md#extraction-file)).
+El archivo de salida de una entrega de correo directo se genera durante el análisis de la entrega. El contenido del archivo depende de las columnas de salida seleccionadas (consulte [Archivo de extracción](../../delivery/using/defining-the-direct-mail-content.md#extraction-file)).
 
 >[!NOTE]
 >
@@ -32,21 +32,21 @@ El archivo de salida de una entrega de correo directo se genera durante el anál
 
 El archivo se genera durante la fase de análisis; sin embargo, la información sobre los destinatarios (es decir, “logs” de envío) no se actualiza. Así se puede cancelar este trabajo sin correr ningún riesgo.
 
-Check the result of the analysis and the content of the output file before clicking **[!UICONTROL Confirm delivery]**. Un mensaje de confirmación permite iniciar el envío.
+Compruebe el resultado del análisis y el contenido del archivo de salida antes de hacer clic en **[!UICONTROL Confirm delivery]**. Un mensaje de confirmación permite iniciar la entrega.
 
-La confirmación del envío inicia la extracción de datos en el archivo especificado.
+La confirmación de la entrega inicia la extracción de datos en el archivo especificado.
 
 ![](assets/s_ncs_user_postal_del_send_confirm_postal.png)
 
-You can then close the wizard and look at the delivery logs via the **[!UICONTROL Delivery]** tab, accessible via the delivery details.
+A continuación, puede cerrar el asistente y ver los “logs” de envío a través de la pestaña **[!UICONTROL Delivery]**, a la que se puede acceder a través de los detalles de envío.
 
-You can configure the delivery logs retrieval mode from the **[!UICONTROL Analysis]** tab of the delivery properties.
+Se puede configurar el modo de recuperación de “logs” de envío desde la pestaña **[!UICONTROL Analysis]** de las propiedades de envío.
 
 Existen dos modos:
 
-* **[!UICONTROL Messages are considered sent after validation]** (modo predeterminado): en este modo de función, todos los logs se actualizan cuando el operador confirma el envío (su estado pasa de &#39;Entrega pendiente&#39; a &#39;Enviado&#39;) y la entrega se establece automáticamente en **[!UICONTROL Finished]**.
-* **[!UICONTROL A file of results determines the messages that are sent and those that have failed]** :: este modo le permite actualizar los logs de banda ancha mediante un archivo externo enviado por el proveedor de servicios. En este caso, se debe utilizar un flujo de trabajo que procese esta información para actualizar el estado del broadlog.
+* **[!UICONTROL Messages are considered sent after validation]** (modo predeterminado): en este modo de función, todos los broadlogs se actualizan cuando el operador confirma la entrega (su estado pasa de “Envío pendiente” a “Enviado”) y la entrega se establece automáticamente como **[!UICONTROL Finished]**.
+* **[!UICONTROL A file of results determines the messages that are sent and those that have failed]**: este modo permite actualizar los broadlogs a través de un archivo externo enviado por el proveedor de servicios. En este caso, se debe utilizar un flujo de trabajo que procese esta información para actualizar el estado del broadlog.
 
    >[!NOTE]
    >
-   >In this case, the delivery&#39;s status also needs to be changed to **[!UICONTROL Finished]** by the user as soon as the broadlogs are updated.
+   >En este caso, el usuario debe cambiar también el estado a **[!UICONTROL Finished]** en cuanto se actualicen los broadlogs.
