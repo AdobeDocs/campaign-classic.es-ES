@@ -14,7 +14,7 @@ discoiquuid: a0e76d27-bedd-4f81-b4d2-1221444e670e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -22,36 +22,36 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 # Aplicación de reglas{#applying-rules}
 
-## Aplicación de una tipología a un envío {#applying-a-typology-to-a-delivery}
+## Aplicación de una tipología a una entrega {#applying-a-typology-to-a-delivery}
 
-Para aplicar las reglas de tipología creadas, debe asociarlas a una tipología y, a continuación, hacer referencia a esta tipología en su envío. Para ello:
+Para aplicar las reglas de tipología creadas, debe asociarlas a una tipología y, a continuación, hacer referencia a esta tipología en su entrega. Para ello:
 
 1. Cree una tipología de campaña.
 
-   Se puede acceder a las tipologías a través del **[!UICONTROL Administration > Campaign Management > Typology management]** > **[!UICONTROL Typologies]** nodo.
+   Puede acceder a las tipologías a través del nodo **[!UICONTROL Administración > Gestión de campañas > Gestión de tipologías]** > **[!UICONTROL Tipologías]**.
 
-1. Go to the **[!UICONTROL Rules]** tab, click the **[!UICONTROL Add]** button and select the rules to apply with this typology.
+1. Vaya a la pestaña **[!UICONTROL Rules]**, haga clic en el botón **[!UICONTROL Add]** y seleccione las reglas que desea aplicar con esta tipología.
 
    ![](assets/campaign_opt_pressure_sample_1_6.png)
 
 1. Guarde la tipología: se añade a la lista de tipologías existentes.
-1. Abra el envío al que desee aplicar las reglas.
-1. Open the delivery properties and access the **[!UICONTROL Typology]** tab.
+1. Abra la entrega al que desee aplicar las reglas.
+1. Abra las propiedades de entrega y acceda a la pestaña **[!UICONTROL Typology]**.
 1. Seleccione la tipología en la lista desplegable.
 
    ![](assets/campaign_opt_pressure_sample_1_7.png)
 
    >[!NOTE]
    >
-   >La tipología se puede definir en la plantilla de envío para que se aplique automáticamente a todos los envíos creados con esta plantilla.
+   >La tipología se puede definir en la plantilla de envíos para que se aplique automáticamente a todas las entregas creadas con esta plantilla.
 
 ## Definición de condiciones de aplicación {#defining-application-conditions}
 
 Puede restringir el campo de aplicación de una regla según sus necesidades (excepto para reglas de control).
 
-Puede configurar las reglas de tipología para que influyan solo sobre algunos envíos a los que están vinculados o ciertos destinatarios a los que va dirigidos un envío.
+Puede configurar las reglas de tipología para que influyan solo sobre algunos envíos a los que están vinculados o ciertos destinatarios a los que va dirigidos una entrega.
 
-Para definir las condiciones de aplicación de una regla, haga clic en el **[!UICONTROL Edit the rule application conditions...]** vínculo de la **[!UICONTROL General]** ficha.
+Para definir las condiciones de aplicación de una regla, en la pestaña **[!UICONTROL General]**, haga clic en el vínculo **[!UICONTROL Edit the rule application conditions...]**.
 
 A continuación, utilice el editor de consultas para definir las condiciones de filtrado. En el siguiente ejemplo, la regla de capacidad respeta solo los envíos con la palabra “oferta” en su etiqueta o los envíos creados antes del 1 de abril de 2013.
 
@@ -59,7 +59,7 @@ A continuación, utilice el editor de consultas para definir las condiciones de 
 
 >[!NOTE]
 >
->En el caso de las reglas de filtrado, puede seleccionar la condición de aplicación de los criterios de filtrado: pueden depender del envío o de la descripción del envío. Para obtener más información sobre esto, consulte [Acondicionamiento de una regla](../../campaign/using/filtering-rules.md#conditioning-a-filtering-rule)de filtrado.
+>En el caso de las reglas de filtrado, puede seleccionar la condición de aplicación de los criterios de filtrado: pueden depender de la entrega o de la descripción de la entrega. Para obtener más información, consulte [Condicionamiento de una regla de filtrado](../../campaign/using/filtering-rules.md#conditioning-a-filtering-rule).
 
 ## Ajuste de la frecuencia de cálculo {#adjusting-calculation-frequency}
 
@@ -67,11 +67,11 @@ La mediación se vuelve a ejecutar automáticamente cada noche a través del flu
 
 De hecho, algunos cálculos utilizan valores que no cambian diariamente. Por lo tanto, sería irrelevante recalcular los datos todos los días y sobrecargar la base de datos para nada. Por ejemplo, si un proceso enriquece la base de datos de marketing con puntuaciones de tendencia de los clientes y adquiere información cada semana, no es necesario recalcular los datos basados en estos valores todos los días.
 
-To do this, the **[!UICONTROL Frequency]** field of the **[!UICONTROL General]** tab lets you define a maximum period during which targeting is saved. De forma predeterminada, el valor **0** indica que el cálculo sigue siendo válido hasta la siguiente ejecución de mediación diaria.
+Para hacerlo, el campo **[!UICONTROL Frequency]** en la pestaña **[!UICONTROL General]** permite definir un periodo máximo durante el cual se guarda el objetivo. De forma predeterminada, el valor **0** indica que el cálculo sigue siendo válido hasta la siguiente ejecución de mediación diaria.
 
-To save the results beyond this period, enter a value greater than 12 in the **[!UICONTROL Frequency]** field: once this period expires, all rules are re-applied.
+Para guardar los resultados más allá de este periodo, introduzca un valor mayor que 12 en el campo **[!UICONTROL Frequency]**: una vez transcurrido este periodo, todas las reglas se vuelven a aplicar.
 
-The **[!UICONTROL Re-apply the rule at the start of personalization]** option lets you apply the rule automatically during the personalization phase, including if the period stated in the **[!UICONTROL Frequency]** field is still valid.
+La opción **[!UICONTROL Re-apply the rule at the start of personalization]** permite aplicar la regla automáticamente durante la fase de personalización, incluso si el periodo indicado en el campo **[!UICONTROL Frequency]** aún es válido.
 
 ## Selección de la fase de la aplicación de regla {#selecting-the-rule-application-phase}
 
@@ -96,15 +96,15 @@ En el modo de operación estándar, las reglas se aplican en la siguiente secuen
 
 >[!NOTE]
 >
->Si trabaja con el módulo Campaign Interaction, las reglas de elegibilidad se aplican al mismo tiempo que las reglas de filtrado (para ofertas encontradas en las descripciones de envío) o durante la fase de personalización, durante la llamada al motor de ofertas.
+>Si trabaja con el módulo Campaign Interaction, las reglas de elegibilidad se aplican al mismo tiempo que las reglas de filtrado (para ofertas encontradas en las descripciones de entrega) o durante la fase de personalización, durante la llamada al motor de ofertas.
 
-You can adapt the execution sequence of rules which have the same type using the appropriate field in the **[!UICONTROL General]** tab of the rule. When several rules are executed during the same message processing phase, you can configure their execution sequence in the **[!UICONTROL Execution sequence]** field.
+Puede adaptar la secuencia de ejecución de las reglas que tienen el mismo tipo utilizando el campo correspondiente en la pestaña **[!UICONTROL General]** de la regla. Cuando se ejecutan varias reglas durante la misma fase de procesamiento de mensajes, se puede configurar su secuencia de ejecución en el campo **[!UICONTROL Execution sequence]**.
 
 Por ejemplo, una regla de presión con un orden de ejecución de 20 se ejecuta antes que una regla de presión con un orden de ejecución de 30.
 
 ### Reglas de control {#control-rules}
 
-For **[!UICONTROL Control]** rules, you can decide at which point of the delivery life cycle the rule will be applied (before or after targeting, at the start of personalization, at the end of the analysis). Select the value to apply in the drop-down list of the **[!UICONTROL Phase]** field, in the **[!UICONTROL General]** tab of the typology rule.
+En el caso de las reglas de **[!UICONTROL Control]**, puede decidir en qué punto del ciclo de vida de la entrega se aplica la regla (antes o después del objetivo, al comienzo de la personalización, al final del análisis). En la pestaña **[!UICONTROL General]** de la regla de tipología, seleccione el valor que se deba aplicar en la lista desplegable del campo **[!UICONTROL Phase]**.
 
 ![](assets/campaign_opt_define_control_phase.png)
 
@@ -118,7 +118,7 @@ Los valores posibles son:
 
    Si necesita conocer el volumen del destino para aplicar la regla de control, seleccione esta fase.
 
-   For example, the **[!UICONTROL Check proof size]** control rule applies after each targeting stage: this rule prevents message personalization if there are too many proof recipients.
+   Por ejemplo, la regla de control **[!UICONTROL Check proof size]** se aplica después de cada fase de objetivos: esta regla evita la personalización de los mensajes si hay demasiados destinatarios de prueba.
 
 * **[!UICONTROL At the start of personalization]**
 
@@ -132,23 +132,23 @@ Los valores posibles son:
 
 ### Control del tráfico SMTP saliente {#control-outgoing-smtp-traffic}
 
-As an option, you can use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the delivery server (MTA) this affinity. Esto permite limitar el número de correos electrónicos para envíos específicos hacia equipos o direcciones de salida.
+Como opción, puede utilizar el campo **[!UICONTROL Managing affinities with IP addresses]** para relacionar envíos al servidor de entrega (MTA) con esta afinidad. Esto permite limitar el número de correos electrónicos para envíos específicos hacia equipos o direcciones de salida.
 
 ![](assets/campaign_opt_select_ip_affinity.png)
 
 >[!NOTE]
 >
->Affinity management does not apply for **[!UICONTROL Filtering]** typologies.\
+>La administración de la afinidad no se aplica a tipologías de **[!UICONTROL Filtering]**.\
 >Las afinidades se definen en el archivo de configuración de la instancia, en el servidor de Adobe Campaign. Para obtener más información, consulte [esta sección](../../installation/using/about-initial-configuration.md).
 
 ### Optimización de campaña y marketing distribuido {#campaign-optimization-and-distributed-marketing}
 
-The **[!UICONTROL Distributed Marketing]** tab lets you define the re-mapping of typologies and/or rules which applies when a shared campaign is ordered and/or reserved. Las reglas o tipologías definidas para una entidad local (vinculadas a las reglas o tipologías definidas a nivel de la entidad central) sustituyen a las reglas o tipologías vinculadas a la entidad central. La reasignación le permite adaptar las reglas de la entidad central a las entidades locales que encargan la campaña.
+La pestaña **[!UICONTROL Distributed Marketing]** permite definir la reasignación de tipologías y las reglas que se aplican cuando una campaña compartida se ha solicitado o está reservada. Las reglas o tipologías definidas para una entidad local (vinculadas a las reglas o tipologías definidas a nivel de la entidad central) sustituyen a las reglas o tipologías vinculadas a la entidad central. La reasignación le permite adaptar las reglas de la entidad central a las entidades locales que encargan la campaña.
 
 ![](assets/simu_campaign_opti_distrib_mkg.png)
 
 >[!NOTE]
 >
->In typologies and typology rules, the **[!UICONTROL Distributed Marketing]** tab is added if your license includes this option: please check you license agreement.\
->Para obtener más información sobre la mercadotecnia distribuida, consulte [Acerca de la mercadotecnia](../../campaign/using/about-distributed-marketing.md)distribuida.
+>En las tipologías y en las reglas de tipologías, se añade la pestaña **[!UICONTROL Distributed Marketing]** si la licencia incluye esta opción: compruebe el contrato de licencia.\
+>Para obtener más información sobre marketing distribuido, consulte [Acerca de marketing distribuido](../../campaign/using/about-distributed-marketing.md).
 
