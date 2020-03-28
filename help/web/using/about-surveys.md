@@ -14,7 +14,7 @@ discoiquuid: ef7d9b16-506a-409c-a578-000b88cd17a2
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 
 ---
@@ -30,7 +30,7 @@ En este capítulo se detalla el método para crear y gestionar **Encuestas**, ge
 
 Los pasos para la creación de un formulario web estándar se detallan en [esta sección](../../web/using/about-web-forms.md).
 
-La gestión de la aplicación web se explica en [esta sección](../../web/using/about-web-applications.md). Consulte esta capítulo para obtener más información.
+La gestión de la aplicación web se explica en [esta sección](../../web/using/about-web-applications.md). Consulte este capítulo para obtener más información.
 
 >[!CAUTION]
 >
@@ -49,7 +49,7 @@ En Adobe Campaign, las aplicaciones web en general permiten acceder a las siguie
 * Comprobación de la información antes de la aprobación, según el tipo de datos esperado (número, dirección de correo electrónico, fechas, etc.) y campos obligatorios,
 * Invitaciones y notificaciones por correo electrónico,
 * Personalización de mensajes de error y de fin,
-* Uso de imágenes, vídeos, enlaces de hipertexto, captcha, etc.
+* Uso de imágenes, vídeos, vínculos de hipertexto, captcha, etc.
 
 >[!NOTE]
 >
@@ -57,11 +57,11 @@ En Adobe Campaign, las aplicaciones web en general permiten acceder a las siguie
 
 El módulo opcional de creación de encuestas (**Encuesta**) ofrece las siguientes funcionalidades adicionales:
 
-* Ampliación dinámica de la base de datos: creación de respuestas que no forman parte del modelo de datos inicial. Para obtener más información sobre esto, consulte [Almacenamiento de respuestas](../../web/using/managing-answers.md#storing-collected-answers)recopiladas.
-* Gestión de la puntuación. For more on this, refer to [Score management](../../web/using/managing-answers.md#score-management).
-* Visualización aleatoria de preguntas. For more on this, refer to [Adding questions](../../web/using/building-a-survey.md#adding-questions).
-* Seguimiento en tiempo real de las respuestas. For more on this, refer to [Response tracking](../../web/using/publish--track-and-use-collected-data.md#response-tracking).
-* Generación de informes específicos. For more on this, refer to [Reports on surveys](../../web/using/publish--track-and-use-collected-data.md#reports-on-surveys).
+* Ampliación dinámica de la base de datos: creación de respuestas que no forman parte del modelo de datos inicial. Para obtener más información, consulte [Almacenar respuestas recopiladas](../../web/using/managing-answers.md#storing-collected-answers),
+* Gestión de la puntuación. Para obtener más información, consulte [Gestión de puntuaciones](../../web/using/managing-answers.md#score-management).
+* Visualización aleatoria de preguntas. Para obtener más información, consulte [Añadir preguntas](../../web/using/building-a-survey.md#adding-questions).
+* Seguimiento en tiempo real de las respuestas. Para obtener más información, consulte [Seguimiento de respuestas](../../web/using/publish--track-and-use-collected-data.md#response-tracking).
+* Generación de informes específicos. Para obtener más información, consulte [Informes sobre encuestas](../../web/using/publish--track-and-use-collected-data.md#reports-on-surveys).
 
 En comparación con las aplicaciones web, las encuestas tienen una interfaz gráfica simplificada con un número reducido de controles de edición.
 
@@ -74,17 +74,17 @@ Realice los pasos siguientes para crear y enviar una encuesta y procesar sus res
 
    Se puede insertar un paso de precarga de datos para que se precargue el formulario con los datos ya existentes en la base de datos. También puede añadir un cuadro de prueba.
 
-1. Publique y luego envíe el estudio a los destinatarios (p. ej., incluya un vínculo en un envío o en un sitio web).
+1. Publique y luego envíe el estudio a los destinatarios (p. ej., incluya un vínculo en una entrega o en un sitio web).
 1. Monitorice las respuestas y vea los informes.
 
 Para obtener más información sobre la configuración y secuenciación de estos pasos, consulte [esta sección](../../web/using/about-web-forms.md). En este capítulo solo se detallan las configuraciones específicas de los estudios.
 
 ## Configuración de encuestas {#surveys-configuration}
 
-Surveys are stored in the **[!UICONTROL Resources > Online > Web Applications]** node of the Adobe Campaign tree. Las configuraciones se encuentran en las siguientes carpetas:
+Las encuestas se almacenan en el nodo **[!UICONTROL Resources > Online > Web Applications]** del directorio de Adobe Campaign. Las configuraciones se encuentran en las siguientes carpetas:
 
-* **[!UICONTROL Administration > Configuration > Form rendering]**:: contiene las plantillas de procesamiento para la presentación de formularios Web (aplicaciones y estudios).
-* **[!UICONTROL Resources > Templates > Web application templates]**:: contiene las plantillas de formulario. Para crear un formulario, debe empezar con una plantilla.
+* **[!UICONTROL Administration > Configuration > Form rendering]**: contiene las plantillas de renderización para la presentación de formularios web (aplicaciones y encuestas).
+* **[!UICONTROL Resources > Templates > Web application templates]**: contiene las plantillas de formulario. Para crear un formulario, debe empezar con una plantilla.
 
 >[!NOTE]
 >
