@@ -14,7 +14,7 @@ discoiquuid: 9f4e8d10-7387-4716-aa85-a6b012ad14ef
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e0ab9a3545b5c688975c32075c41e3987da5cf37
 
 ---
@@ -22,21 +22,21 @@ source-git-commit: e0ab9a3545b5c688975c32075c41e3987da5cf37
 
 # Acerca de la gestión del contenido{#about-content-management}
 
-El módulo Adobe Campaign Content Manager es un paquete [](../../installation/using/installing-campaign-standard-packages.md) estándar específico de Campaign Classic que puede instalar para crear newsletters o sitios web recurrentes. Puede ayudar a crear, validar y publicar los mensajes.
+El módulo Adobe Campaign Content Manager es un [paquete estándar](../../installation/using/installing-campaign-standard-packages.md) específico de Campaign Classic que puede instalar para crear boletines informativos o sitios web recurrentes. Puede ayudar a crear, validar y publicar los mensajes.
 
 >[!NOTE]
 >
->Esta sección hace referencia al módulo Administración de contenido. Para obtener más información sobre cómo diseñar el contenido de los envíos por correo electrónico, consulte [esta sección](../../delivery/using/defining-the-email-content.md).
+>Esta sección hace referencia al módulo de Administración de contenido. Para obtener más información sobre el diseño de contenido de envíos por correo electrónico, consulte [esta sección](../../delivery/using/defining-the-email-content.md).
 
-El módulo de administración de contenido incorpora la funcionalidad de grupos de trabajo, flujos de trabajo y agregación de contenido. Esto permite dar formato automáticamente a un mensaje: correo electrónico, correo, SMS, web, etc.
+El módulo de Administración de contenido incorpora el grupo de trabajo, el flujo de trabajo y la funcionalidad de adición de contenido. Esto permite dar formato automáticamente a un mensaje: correo electrónico, correo, SMS, web, etc.
 
-El uso del gestor de contenido en un envío permite ofrecer campos de entrada o selección a los operadores de creación de contenido. La presentación y visualización de este contenido, así como los cambios realizados, se administran automáticamente mediante la hoja de estilo.
+El uso del gestor de contenido en una entrega permite ofrecer campos de entrada o selección a los operadores de creación de contenido. La presentación y visualización de este contenido, así como los cambios realizados, se administran automáticamente mediante la hoja de estilo.
 
 ![](assets/s_ncs_content_create_content_sample.png)
 
 >[!CAUTION]
 >
->Todos los cambios realizados en la hoja de estilo se implementan al nivel del envío según las plantillas de contenido utilizadas.
+>Todos los cambios realizados en la hoja de estilo se implementan al nivel de la entrega según las plantillas de contenido utilizadas.
 
 El gestor de contenido ofrece las siguientes ventajas:
 
