@@ -14,7 +14,7 @@ discoiquuid: 0fae2149-0980-466d-ac9e-8afec2e278be
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 ---
@@ -24,9 +24,9 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 La creación del espacio de ofertas sólo se puede realizar mediante un **technical administrator** con acceso a la subcarpeta del espacio de oferta. Los espacios de ofertas solo se pueden crear en el entorno de diseño y se duplican automáticamente en el entorno interactivo durante la aprobación de la oferta.
 
-El contenido del catálogo de ofertas se configura en los espacios de oferta. By default, the content can include the following fields: **[!UICONTROL Title]**, **[!UICONTROL Destination URL]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]** and **[!UICONTROL Text content]**. La secuencia de campos se configura en el espacio de oferta.
+El contenido del catálogo de ofertas se configura en los espacios de oferta. De forma predeterminada, el contenido puede incluir los campos siguientes: **[!UICONTROL Title]**, **[!UICONTROL Destination URL]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]** y **[!UICONTROL Text content]**. La secuencia de campos se configura en el espacio de oferta.
 
-Los parámetros avanzados permiten especificar una clave de identificación de contacto (que puede estar formada por varios elementos, el campo de nombre y de correo electrónico al mismo tiempo, por ejemplo). Para obtener más información sobre esto, consulte la sección [Presentación de una oferta](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-identified-offer) identificada.
+Los parámetros avanzados permiten especificar una clave de identificación de contacto (que puede estar formada por varios elementos, el campo de nombre y de correo electrónico al mismo tiempo, por ejemplo). Para obtener más información, consulte la sección [Presentación de una oferta identificada](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-identified-offer).
 
 La renderización HTML o XML se crea mediante una función de renderización. La secuencia de los campos definidos en la función de renderización debe ser idéntica a la secuencia configurada en el contenido.
 
@@ -34,7 +34,7 @@ La renderización HTML o XML se crea mediante una función de renderización. La
 
 Para crear un grupo de operadores nuevo, siga el proceso a continuación:
 
-1. Go to the list of offer spaces and click **[!UICONTROL New]**.
+1. Vaya a la lista de espacios de ofertas y haga clic en **[!UICONTROL New]**.
 
    ![](assets/offer_space_create_001.png)
 
@@ -42,20 +42,20 @@ Para crear un grupo de operadores nuevo, siga el proceso a continuación:
 
    ![](assets/offer_space_create_002.png)
 
-1. Check the **[!UICONTROL Enable unitary mode]** box if one of the following cases applies to you:
+1. Marque la casilla **[!UICONTROL Enable unitary mode]** si se aplica uno de los siguientes casos:
 
    * Se utiliza la interacción con el centro de mensajes
    * Se utiliza el modo unitario de interacción (interacciones entrantes)
 
-1. Vaya a la **[!UICONTROL Content field]** ventana y haga clic en **[!UICONTROL Add]**.
+1. Vaya a la ventana **[!UICONTROL Content field]** y haga clic en **[!UICONTROL Add]**.
 
    ![](assets/offer_space_create_003.png)
 
-1. Vaya al **[!UICONTROL Content]** nodo y seleccione los campos en el siguiente orden: **[!UICONTROL Title]**, entonces **[!UICONTROL Image URL]**, luego **[!UICONTROL HTML content]**, luego **[!UICONTROL Destination URL]**.
+1. Vaya al nodo **[!UICONTROL Contenido]** y seleccione los campos en el siguiente orden: **[!UICONTROL Title]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]** y **[!UICONTROL Destination URL]**.
 
    ![](assets/offer_space_create_004.png)
 
-1. Check the **[!UICONTROL Required]** box to make each field mandatory.
+1. Marque la casilla **[!UICONTROL Required]** para que cada campo sea obligatorio.
 
    >[!NOTE]
    >
@@ -63,18 +63,18 @@ Para crear un grupo de operadores nuevo, siga el proceso a continuación:
 
    ![](assets/offer_space_create_005.png)
 
-1. Haga clic en **[!UICONTROL Edit functions]** para crear una función de procesamiento.
+1. Haga clic en **[!UICONTROL Edit functions]** para crear una función de renderización.
 
    Estas funciones se utilizan para generar representaciones de oferta en un espacio de oferta. Existen varios formatos posibles: HTML o texto para interacciones salientes y XML para interacciones entrantes.
 
    ![](assets/offer_space_create_006.png)
 
-1. Vaya a la **[!UICONTROL HTML rendering]** ficha y seleccione **[!UICONTROL Overload the HTML rendering function]**.
+1. Vaya a la pestaña **[!UICONTROL HTML rendering]** y seleccione **[!UICONTROL Overload the HTML rendering function]**.
 1. Inserte la función de renderización.
 
    ![](assets/offer_space_create_007.png)
 
-Si es necesario, se puede sobrecargar las funciones de renderización XML para las interacciones entrantes. También se puede sobrecargar las funciones de renderización de texto y HTML para las interacciones salientes. For more on this, refer to [About inbound channels](../../interaction/using/about-inbound-channels.md).
+Si es necesario, se puede sobrecargar las funciones de renderización XML para las interacciones entrantes. También se puede sobrecargar las funciones de renderización de texto y HTML para las interacciones salientes. Para más información, consulte [Acerca de los canales entrantes](../../interaction/using/about-inbound-channels.md).
 
 ## Estados de propuesta de oferta {#offer-proposition-statuses}
 
@@ -93,23 +93,23 @@ La interacción viene con los siguientes valores que pueden utilizarse para cali
 * **[!UICONTROL Generated]**.
 * **[!UICONTROL Interested]**.
 * **[!UICONTROL Presented]**.
-* **[!UICONTROL Rejected]**.
+* **[!UICONTROL Rechazado]**.
 
 Estos valores no se aplican de forma predeterminada: tienen que configurarse.
 
 >[!NOTE]
 >
->El estado de una propuesta de oferta se cambia automáticamente a “Presented” si la oferta está vinculada a una envío con el estado “Sent”.
+>El estado de una propuesta de oferta se cambia automáticamente a “Presented” si la oferta está vinculada a una entrega con el estado “Sent”.
 
 ### Configuración del estado cuando se crea la propuesta {#configuring-the-status-when-the-proposition-is-created}
 
-Cuando el motor de interacción crea una propuesta de oferta, su estado cambia, ya sea una interacción entrante o saliente. The choice between these two values depends on the way the offer spaces were configured in the **[!UICONTROL Design]** environment
+Cuando el motor de interacción crea una propuesta de oferta, su estado cambia, ya sea una interacción entrante o saliente. La elección entre estos dos valores depende de la forma en que se configuren los espacios de oferta en el entorno **[!UICONTROL Design]**.
 
 Para cada espacio, se puede configurar el estado que se desee aplicar cuando se cree una propuesta, según la información que se desee mostrar en los informes de oferta.
 
 Para ello, utilice el proceso siguiente:
 
-1. Go to the **[!UICONTROL Storage]** tab of the desired space.
+1. Vaya a la pestaña **[!UICONTROL Storage]** del espacio deseado.
 1. Seleccione el estado que desea aplicar a la propuesta cuando se cree.
 
    ![](assets/offer_update_status_001.png)
@@ -120,14 +120,14 @@ Una vez aceptada la propuesta de oferta, se puede utilizar uno de los valores pr
 
 Para ello, utilice el proceso siguiente:
 
-1. Go to the **[!UICONTROL Storage]** tab of the desired space.
+1. Vaya a la pestaña **[!UICONTROL Storage]** del espacio deseado.
 1. Seleccione el estado que desea aplicar a la propuesta cuando se acepte.
 
    ![](assets/offer_update_status_002.png)
 
 **Interacción entrante**
 
-The **[!UICONTROL Storage]** tab lets you define statuses for **proposed** and **accepted** offer propositions only. Para la interacción entrante, el estado de las propuestas de oferta debe especificarse directamente en la dirección URL para llamar al motor de oferta, en lugar de a través de la interfaz. De este modo, se puede especificar qué estado aplicar en otros casos, por ejemplo si se rechaza una propuesta de oferta.
+La pestaña **[!UICONTROL Storage]** permite definir los estados para oferta **proposed** y **accepted** únicamente. Para la interacción entrante, el estado de las propuestas de oferta debe especificarse directamente en la dirección URL para llamar al motor de oferta, en lugar de a través de la interfaz. De este modo, se puede especificar qué estado aplicar en otros casos, por ejemplo si se rechaza una propuesta de oferta.
 
 ```
 <BASE_URL>?a=UpdateStatus&p=<PRIMARY_KEY_OF_THE_PROPOSITION>&st=<NEW_STATUS_OF_THE_PROPOSITION>&r=<REDIRECT_URL>
@@ -139,17 +139,17 @@ Por ejemplo, la propuesta (identificador **40004**) que coincide con la oferta d
 <BASE_URL>?a=UpdateStatus&p=<40004>&st=<3>&r=<"http://www.neobank.com/insurance/subscribe.html">
 ```
 
-As soon as a visitor clicks the offer, and therefore the URL, the **[!UICONTROL Accepted]** status (value **3**) is applied to the proposition and the visitor is redirected to a new page of the **Neobank** site to take out the insurance contract.
+En cuanto un visitante hace clic en la oferta y, por lo tanto, en la dirección URL, el estado **[!UICONTROL Accepted]** (valor **3**) se aplica a la propuesta y el visitante se redirige a una nueva página del sitio **Neobank** para obtener el contrato de seguro.
 
 >[!NOTE]
 >
->Si se desea especificar otro estado en la dirección URL (por ejemplo, si se rechaza una propuesta de oferta), se debe utilizar el valor correspondiente al estado deseado. Ejemplo: **[!UICONTROL Rejected]** = &quot;5&quot;, **[!UICONTROL Presented]** = &quot;1&quot; y así sucesivamente.
+>Si se desea especificar otro estado en la dirección URL (por ejemplo, si se rechaza una propuesta de oferta), se debe utilizar el valor correspondiente al estado deseado. Ejemplo: **[!UICONTROL Rechazado]** = &quot;5&quot;, **[!UICONTROL Presentado]** = &quot;1&quot;, etc.
 >
->Statuses and their values can be retrieved in the **[!UICONTROL Offer propositions (nms)]** data schema. Para obtener más información, consulte [esta página](../../configuration/using/data-schemas.md).
+>Los estados y sus valores se pueden recuperar en el esquema de datos **[!UICONTROL Offer propositions (nms)]**. Para obtener más información, consulte [esta página](../../configuration/using/data-schemas.md).
 
 **Interacción saliente**
 
-In case of an outbound interaction, you can automatically apply the **[!UICONTROL Interested]** status to an offer proposition when the delivery contains a link. Simplemente añada el valor **_urlType=&quot;11&quot;** al enlace:
+Si se trata de una interacción saliente, se puede aplicar automáticamente el estado **[!UICONTROL Interested]** a una propuesta de oferta cuando la entrega contiene un vínculo. Simplemente añada el valor **_urlType=&quot;11&quot;** al vínculo:
 
 ```
 <a _urlType="11" href="<DEST_URL>">Link inserted into the delivery</a>
@@ -165,4 +165,4 @@ Si un destinatario no es elegible para ninguna oferta, esto se muestra en la vis
 
 ![](assets/offer_space_overview_001.png)
 
-La vista previa puede omitir los contextos cuando están restringidos a un espacio. This is the case when the interaction schema has been extended to add fields referenced in a space using an inbound channel (for more on this, refer to [Extension example](../../interaction/using/extension-example.md)).
+La vista previa puede omitir los contextos cuando están restringidos a un espacio. Este es el caso cuando el esquema de interacción se ha ampliado para añadir campos a los que se hace referencia en un espacio mediante un canal entrante (para más información, consulte [Ejemplo de ampliación](../../interaction/using/extension-example.md)).
