@@ -14,7 +14,7 @@ discoiquuid: 29339aad-fd8e-4dae-8f6e-2db87221ad04
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 ---
@@ -30,7 +30,7 @@ En un flujo de trabajo de destino (canal saliente), se pueden utilizar los datos
 
 ## Configuraciones de datos adicionales {#additional-data-configuration}
 
-Se debe ampliar el esquema **nms:interaction** vinculado al entorno y declarar la lista de campos adicionales que se van a utilizar durante una llamada al motor de interacción. When creating the eligibility rule or personalizing an offer, these fields will become accessible from the **Interaction** node (refer to [Using additional data](#using-additional-data)).
+Se debe ampliar el esquema **nms:interaction** vinculado al entorno y declarar la lista de campos adicionales que se van a utilizar durante una llamada al motor de interacción. Al crear la regla de idoneidad o al personalizar una oferta, estos campos van a ser accesibles desde el nodo **Interaction** (consulte [Usar datos adicionales](#using-additional-data)).
 
 Para el canal entrante, se deben añadir los campos de datos de llamada al nodo **Interaction**.
 
@@ -42,7 +42,7 @@ Para el canal entrante, se deben añadir los campos de datos de llamada al nodo 
 
 >[!NOTE]
 >
->Las colecciones XML se admiten en el canal entrante, pero los enlaces a otros esquemas no.
+>Las colecciones XML se admiten en el canal entrante, pero los vínculos a otros esquemas no.
 
 Para el canal saliente, se debe añadir un elemento **targetData** que contenga los campos adicionales al nodo **Interaction**.
 
@@ -56,7 +56,7 @@ Para el canal saliente, se debe añadir un elemento **targetData** que contenga 
 
 >[!NOTE]
 >
->Las colecciones no son compatibles con el canal saliente. Sin embargo, se pueden crear enlaces con otros esquemas.
+>Las colecciones no son compatibles con el canal saliente. Sin embargo, se pueden crear vínculos con otros esquemas.
 
 Si se desea almacenar estos datos en la tabla de propuestas, también se debe extender el esquema **nms:propositionRcp** y declarar estos campos.
 
@@ -71,7 +71,7 @@ Si se desea almacenar estos datos en la tabla de propuestas, también se debe ex
 
 ### Canal de entrada (página web) {#input-channel--web-page-}
 
-Para transferir datos adicionales al llamar al motor, se debe añadir la variable **interactionGlobalCtx** al código JavaScript de la página web. Inserte el nodo **Interaction** que contiene los datos de llamada en esta variable. Se debe respetar la misma estructura xml que se encuentra en el esquema **de nms:interaction.** Consulte: Configuración [de datos](#additional-data-configuration)adicional.
+Para transferir datos adicionales al llamar al motor, se debe añadir la variable **interactionGlobalCtx** al código JavaScript de la página web. Inserte el nodo **Interaction** que contiene los datos de llamada en esta variable. Se debe respetar la misma estructura xml que se encuentra en el esquema **de nms:interaction.** Consulte: [Configuración de datos adicional](#additional-data-configuration).
 
 ```
 interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
@@ -79,7 +79,7 @@ interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
 
 ### Canal de salida {#output-channel}
 
-Se debe crear un flujo de trabajo que cargue datos adicionales en la tabla de trabajo respetando la misma estructura xml y los mismos nombres internos que en el esquema **nms:interaction.** Consulte: Configuración [de datos](#additional-data-configuration)adicional.
+Se debe crear un flujo de trabajo que cargue datos adicionales en la tabla de trabajo respetando la misma estructura xml y los mismos nombres internos que en el esquema **nms:interaction.** Consulte: [Configuración de datos adicional](#additional-data-configuration).
 
 ## Uso de datos adicionales {#using-additional-data}
 
@@ -93,7 +93,7 @@ Por ejemplo, se puede elegir que la oferta se muestre únicamente a las personas
 
 >[!NOTE]
 >
->Se debe limitar la regla en los canales para los que se definen los datos. In our example, we are limiting the rule on the inbound web channel (**[!UICONTROL Taken into account if]** field).
+>Se debe limitar la regla en los canales para los que se definen los datos. En este ejemplo, se limita la regla en el canal web entrante (campo **[!UICONTROL Taken into account if]**).
 
 ### Personalización {#personalization}
 
@@ -105,11 +105,11 @@ Asimismo, se pueden utilizar estos datos adicionales al personalizar una oferta.
 >
 >Se debe limitar la personalización en los canales para los que se definen los datos. En este ejemplo, se limita la regla en el canal web entrante.
 
-Si se ha personalizado una oferta con datos adicionales, estos datos no van a aparecer en la vista previa de manera predeterminada ya que no está disponible en la base de datos. In the environment&#39;s **[!UICONTROL Example of call data]** tab, you must add value samples to use in the preview. Respete la misma estructura xml que se encuentra en la extensión de esquema **nms:interaction.** Para obtener más información sobre esto, consulte Configuración [de datos](#additional-data-configuration)adicional.
+Si se ha personalizado una oferta con datos adicionales, estos datos no van a aparecer en la vista previa de manera predeterminada ya que no está disponible en la base de datos. En la pestaña **[!UICONTROL Example of call data]** del entorno, se deben añadir muestras de valor para utilizarlas en la vista previa. Respete la misma estructura xml que se encuentra en la extensión de esquema **nms:interaction.** Para obtener más información, consulte [Configuración de datos adicional](#additional-data-configuration).
 
 ![](assets/ita_calldata_preview.png)
 
-Al obtener una vista previa, haga clic en **[!UICONTROL Content personalization options for the preview]** y seleccione un valor en el **[!UICONTROL Call data]** campo.
+Al obtener una vista previa, haga clic en **[!UICONTROL Content personalization options for the preview]** y seleccione un valor en el campo **[!UICONTROL Call data]**.
 
 ![](assets/ita_calldata_preview2.png)
 
@@ -119,11 +119,11 @@ Durante una llamada al motor, se pueden almacenar datos adicionales en la tabla 
 
 >[!NOTE]
 >
->Se debe ampliar el esquema **nms:propositionRcp** y declarar los campos que van a contener los datos que deben almacenarse. Para más información sobre esto: Configuración [de datos](#additional-data-configuration)adicional.
+>Se debe ampliar el esquema **nms:propositionRcp** y declarar los campos que van a contener los datos que deben almacenarse. Para más información sobre esto: [Configuración de datos adicional](#additional-data-configuration).
 
-In the offer space, go to the **[!UICONTROL Storage]** tab and click the **[!UICONTROL Add]** button.
+En el espacio de oferta, vaya a la pestaña **[!UICONTROL Storage]** y haga clic en el botón **[!UICONTROL Add]**.
 
-In the **[!UICONTROL Storage path]** column, select the storage field in the proposition table. En la **[!UICONTROL Expression]** columna, seleccione el campo adicional en el **[!UICONTROL Interaction]** nodo.
+En la columna **[!UICONTROL Storage path]**, seleccione el campo de almacenamiento en la tabla de propuestas. En la columna **[!UICONTROL Expression]**, seleccione el campo adicional del nodo **[!UICONTROL Interaction]**.
 
 Se puede recuperar los datos de llamada cuando la propuesta se genere o cuando se acepte (cuando la persona haga clic en la oferta).
 
