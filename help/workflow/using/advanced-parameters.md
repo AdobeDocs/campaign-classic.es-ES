@@ -14,7 +14,7 @@ discoiquuid: f66f1ff5-3601-4eb8-b05d-6f99164890ae
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 ---
@@ -22,17 +22,17 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 # Parámetros avanzados{#advanced-parameters}
 
-The properties screen of an activity has an **[!UICONTROL Advanced]** tab that lets you define a behavior in case of errors, the execution period for the activity; and lets you enter an initialization script. Existen dos versiones de esta pestaña:
+La pantalla de propiedades de una actividad tiene una pestaña **[!UICONTROL Advanced]** que permite definir un comportamiento en caso de errores, establecer el periodo de ejecución de la actividad e introducir una secuencia de comandos de inicialización. Existen dos versiones de esta pestaña:
 
-* una versión simplificada (por ejemplo, para **[!UICONTROL Start]** actividades y **[!UICONTROL End]** actividades)
+* una versión simplificada (para las actividades **[!UICONTROL Start]** y **[!UICONTROL End]**, por ejemplo)
 
    ![](assets/wf-advanced-basic.png)
 
-* a more detailed version (for the **[!UICONTROL Query]** activity, for instance)
+* una versión más detallada (para la actividad **[!UICONTROL Query]**, por ejemplo)
 
    ![](assets/wf-advanced-full.png)
 
-The fields to be entered in the **[!UICONTROL Advanced]** tab are detailed in the following sections.
+Los campos que se introducen en la pestaña **[!UICONTROL Advanced]** se describen en las siguientes secciones.
 
 ## Nombre {#name}
 
@@ -40,7 +40,7 @@ Este campo contiene el nombre interno de la actividad.
 
 ## Imagen {#image}
 
-Este campo permite cambiar la imagen vinculada a una actividad. For more on this, refer to: [Managing activity images](../../workflow/using/managing-activity-images.md).
+Este campo permite cambiar la imagen vinculada a una actividad. Para obtener más información, consulte [Gestor imágenes de actividad](../../workflow/using/managing-activity-images.md).
 
 ## Ejecución {#execution}
 
@@ -48,40 +48,40 @@ Este campo permite definir la acción que se ejecuta al activarse la tarea. Hay 
 
 Generalmente, estas opciones se seleccionan en el carro haciendo clic con el botón derecho sobre la actividad.
 
-* **[!UICONTROL Normal]**:: la actividad se ejecuta de la forma habitual.
-* **[!UICONTROL Do not activate]**:: esta tarea y todas las siguientes tareas (en la misma rama) no se ejecutan.
-* **[!UICONTROL Activate but do not execute]**:: esta tarea y todas las siguientes tareas (en la misma rama) se detienen automáticamente. Esto puede resultar útil si desea estar presente cuando comience la tarea. To execute the task manually, right-click the activity and select **[!UICONTROL Normal execution]**.
+* **[!UICONTROL Normal]**: la actividad se ejecuta de la forma habitual.
+* **[!UICONTROL Do not activate]**: esta tarea y todas las tareas siguientes (en la misma rama) no se ejecutan.
+* **[!UICONTROL Activate but do not execute]**: esta tarea y todas las tareas siguientes (en la misma rama) se detienen automáticamente. Esto puede resultar útil si desea estar presente cuando comience la tarea. Para ejecutar la tarea manualmente, haga clic con el botón derecho en la actividad y seleccione **[!UICONTROL Normal execution]**.
 
 ## Afinidad {#affinity}
 
-Este campo le permite forzar la ejecución de una actividad en un equipo específico. For more on this, refer to: [Managing propensity](../../workflow/using/managing-propensity.md).
+Este campo le permite forzar la ejecución de una actividad en un equipo específico. Para obtener más información, consulte [Gestor de propensión](../../workflow/using/managing-propensity.md).
 
-## Max. período de ejecución {#max--execution-period}
+## Max. periodo de ejecución {#max--execution-period}
 
-Este campo permite establecer una advertencia para los casos en los que la tarea tarde demasiado. No afecta a la operación del flujo de trabajo. If the task isn&#39;t finished by the time the **[!UICONTROL Max. execution period]** is over, the **[!UICONTROL Instance monitoring]** page will show a warning for this workflow. This page is accessed via the **[!UICONTROL Monitoring]** tab of the home page.
+Este campo permite establecer una advertencia para los casos en los que la tarea tarde demasiado. No afecta a la operación del flujo de trabajo. Si la tarea no ha terminado para el momento en que se realizó el **[!UICONTROL Max. el periodo de ejecución]** ha finalizado, la página de **[!UICONTROL supervisión de la instancia]** mostrará una advertencia para este flujo de trabajo. Se accede a esta página a través de la pestaña **[!UICONTROL Monitoring]** de la página principal.
 
 ## Comportamiento {#behavior}
 
 Este campo permite definir el comportamiento que se debe aplicar al utilizar tareas asíncronas. Hay dos opciones posibles:
 
-* **[!UICONTROL Several tasks authorized]**:: se pueden ejecutar varias tareas a la vez, incluso si la primera no ha finalizado.
-* **[!UICONTROL The current task has priority]**:: las tareas en curso tienen prioridad. Mientras una tarea esté en curso, no se ejecuta ninguna otra tarea.
+* **[!UICONTROL Several tasks authorized]**: se pueden ejecutar varias tareas a la vez, incluso si no ha finalizado la primera.
+* **[!UICONTROL The current task has priority]**: las tareas en curso tienen prioridad. Mientras una tarea esté en curso, no se ejecuta ninguna otra tarea.
 
 ## Zona horaria {#time-zone}
 
-Este campo permite seleccionar la zona horaria de la actividad. Para más información sobre esto: [Administración de husos](../../workflow/using/managing-time-zones.md)horarios.
+Este campo permite seleccionar la zona horaria de la actividad. Para más información sobre esto: [Administración de zonas horarias](../../workflow/using/managing-time-zones.md).
 
 ## En caso de errores {#in-case-of-errors}
 
 Este campo permite definir la acción que debe llevarse a cabo cuando la actividad presenta errores. Hay dos opciones posibles:
 
-* **[!UICONTROL Stop the process]**:: el flujo de trabajo se detiene automáticamente. Su estado cambia a **[!UICONTROL Failed]**. Una vez resuelto el problema, reinicie el flujo de trabajo.
-* **[!UICONTROL Ignore]**:: esta tarea y todas las siguientes tareas (en la misma rama) no se ejecutan. Esto puede resultar útil para tareas recurrentes. Si la rama tiene un planificador en una posición anterior, este se ejecuta con normalidad en la siguiente fecha de ejecución.
+* **[!UICONTROL Stop the process]**: el flujo de trabajo se detiene automáticamente. El estado cambia a **[!UICONTROL Error]**. Una vez resuelto el problema, reinicie el flujo de trabajo.
+* **[!UICONTROL Ignore]**: esta tarea y todas las tareas siguientes (en la misma rama) no se ejecutan. Esto puede resultar útil para tareas recurrentes. Si la rama tiene un planificador en una posición anterior, este se ejecuta con normalidad en la siguiente fecha de ejecución.
 
 ## Secuencia de comandos de inicialización {#initialization-script}
 
-Este campo permite inicializar las variables o modificar las propiedades de la actividad. Para obtener más información sobre esto, consulte: Plantillas y secuencias de comandos [JavaScript](../../workflow/using/javascript-scripts-and-templates.md).
+Este campo permite inicializar las variables o modificar las propiedades de la actividad. Para obtener más información, consulte [Scripts y plantillas de JavaScript](../../workflow/using/javascript-scripts-and-templates.md).
 
 ## Comentario {#comment}
 
-The **[!UICONTROL Comment]** field is a free field that lets you add a description.
+El campo **[!UICONTROL Comment]** es un campo libre que permite añadir una descripción.
