@@ -14,7 +14,7 @@ discoiquuid: ae8fc2b7-456b-481c-8abb-64dab1c22534
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 ---
@@ -24,11 +24,11 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 Las imágenes utilizadas en los diagramas de los distintos flujos de trabajo pueden modificarse. Sin embargo, deben cumplir ciertas limitaciones. Estas son las etapas de implementación:
 
-* To change the background image, select the desired targeting workflow, then click the **[!UICONTROL Properties]** tab.
+* Para cambiar la imagen de fondo, seleccione el flujo de trabajo de objetivos deseado y haga clic en la pestaña **[!UICONTROL Properties]**.
 
    ![](assets/s_user_segmentation_properties_tab.png)
 
-   To select the image to be used, click the **[!UICONTROL Select link]** icon to the right of the **[!UICONTROL Background image]** field.
+   Para seleccionar la imagen que desea utilizar, haga clic en el icono **[!UICONTROL Select link]** a la derecha del campo **[!UICONTROL Background image]**.
 
    >[!NOTE]
    >
@@ -36,21 +36,21 @@ Las imágenes utilizadas en los diagramas de los distintos flujos de trabajo pue
 
    ![](assets/s_user_segmentation_background_select.png)
 
-   The **[!UICONTROL Edit link]** icon lets you view the selected image.
+   El icono **[!UICONTROL Edit link]** permite ver la imagen seleccionada.
 
-* To change the image associated with an activity, double-click the object, then click the **[!UICONTROL Advanced]** tab.
+* Para cambiar la imagen asociada a una actividad, haga doble clic en el objeto y, a continuación, haga clic en la pestaña **[!UICONTROL Advanced]**.
 
-   To select the image to be used, click the **[!UICONTROL Select link]** icon to the right of the **[!UICONTROL Image]** field.
+   Para seleccionar la imagen que desea utilizar, haga clic en el icono **[!UICONTROL Select link]** a la derecha del campo **[!UICONTROL Image]**.
 
    ![](assets/s_user_segmentation_activity_image.png)
 
-   The **[!UICONTROL Edit link]** icon lets you view the selected image.
+   El icono **[!UICONTROL Edit link]** permite ver la imagen seleccionada.
 
    ![](assets/s_user_segmentation_activity_image_select.png)
 
 >[!NOTE]
 >
->The images saved in the **[!UICONTROL Administration > Configuration > Images]** node of the tree are available for selection.
+>Las imágenes guardadas en el nodo **[!UICONTROL Administration > Configuration > Images]** del árbol se pueden seleccionar.
 >  
 >Las imágenes deben tener formato PNG, con 48x48 píxeles, 16 millones de colores y un fondo transparente.
 
