@@ -14,7 +14,7 @@ discoiquuid: d678db05-cc44-4086-98a5-e5296e8e5de8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ## Plantillas JavaScript {#javascript-templates}
 
-Una plantilla JavaScript es un documento HTML o de texto que incluye un código JavaScript. Se construye del mismo modo que el contenido de un correo electrónico en una acción de envío.
+Una plantilla JavaScript es un documento HTML o de texto que incluye un código JavaScript. Se construye del mismo modo que el contenido de un correo electrónico en una acción de entrega.
 
 ### Identificación de una plantilla JavaScript {#identification-of-a-javascript-template}
 
@@ -50,7 +50,7 @@ Ejemplo de una plantilla de formato HTML de JavaScript basada en el esquema “c
 
 Las distintas directivas de JavaScript aparecen en el siguiente formulario:
 
-* Merge fields: displays the content of the data with the **`<%= <source> %>`** syntax where `<source>`is the source field of the data to be displayed.
+* Campos combinados: muestra el contenido de los datos con la sintaxis **`<%= <source> %>`**, donde `<source>` es el campo de origen de los datos que desea mostrar.
 * Bloques de instrucciones: ejecuta una serie de instrucciones de JavaScript incluidas entre las etiquetas &lt;% y %>.
 
 El objeto **content** representa el elemento principal del documento XML de entrada.
@@ -61,7 +61,7 @@ En nuestro ejemplo, la línea siguiente muestra el contenido del nombre del libr
 <h1><%= content.@name %></h1>
 ```
 
-The following code iterates on the `<chapter>` collection element:
+El código siguiente se repite en el elemento de colección `<chapter>`:
 
 ```
 <% for each(var chapter in content.chapter) { %>
@@ -73,20 +73,20 @@ Los atributos y elementos del contenido se representan como objetos JavaScript y
 
 **Ejemplo**:
 
-* **contenido.@name**: retrieves the value of the &quot;name&quot; attribute of the main element
-* **contenido.@`['name']`**: idéntico al** contenido.Sintaxis @name **
-* **content.chapter.length**: devuelve el número de elementos en el elemento de `<chapter` colección
-* **content.chapter`[0]`.@name**: retrieves the name of the first `<chapter>` element
-* **chapter.name()**: devuelve el nombre del `<chapter>` elemento
+* **content.@name**@recupera el valor del atributo “name” del elemento principal.
+* **content.@`['name']`**: idéntico al** contenido.Sintaxis @name **
+* **content.chapter.length**: devuelve el número de elementos en el elemento de colección `<chapter`.
+* **content.chapter`[0]`.@name**: recupera el nombre del primer elemento `<chapter>`.
+* **chapter.name()**: devuelve el nombre del elemento `<chapter>`.
 * **chapter.parent().name()**: devuelve el nombre del elemento principal de `<chapter>`
 
 >[!CAUTION]
 >
->Because the &#39;-&#39; character is reserved in the JavaScript language, the recovery of the value of any attribute or element containing this character must be carried out via the `['<field>']` syntax.
+>Dado que el carácter “-” está reservado en el lenguaje JavaScript, la recuperación del valor de cualquier atributo o elemento que contenga este carácter se debe llevar a cabo mediante la sintaxis `['<field>']`.
 >
 >Por ejemplo: `content.@['offer-id']`.
 
-Todo el poder de un lenguaje de programación (variables, bucles, pruebas condicionales, funciones, etc. ) está disponible para construir el documento de salida. Las API SOAP están accesibles para enriquecer el documento de salida.
+Todo el poder de un lenguaje de programación (variables, bucles, pruebas condicionales, funciones, etc.) está disponible para construir el documento de salida. Las API SOAP están accesibles para enriquecer el documento de salida.
 
 Ejemplos:
 
@@ -182,7 +182,7 @@ La zona de edición permite rellenar el contenido de la plantilla JavaScript:
 >
 >El esquema de modelo de datos asociado debe rellenarse para la inicialización de objetos JavaScript.
 
-To generate the preview of the output document at any time, select a content and an output format (HTML, Text, XML), then click **[!UICONTROL Generate]** :
+Para generar la vista previa del documento de salida en cualquier momento, seleccione un contenido y un formato de salida (HTML, texto, XML) y haga clic en **[!UICONTROL Generate]**:
 
 ![](assets/d_ncs_content_form17.png)
 
@@ -198,7 +198,7 @@ A continuación puede consultar la configuración necesaria para implementar la 
 
 Este ejemplo comprende los siguientes pasos:
 
-1. Create the following schema (in this case: **neo:news**):
+1. Cree el esquema siguiente (en este caso: **neo:news**):
 
    ```
    <srcSchema _cs="Invitation (neo)"   entitySchema="xtk:srcSchema" img="xtk:schema.png" label="Invitation" mappingType="sql" name="news" namespace="neo" xtkschema="xtk:srcSchema">
@@ -237,7 +237,7 @@ Este ejemplo comprende los siguientes pasos:
    </srcSchema>
    ```
 
-1. Create the linked **[!UICONTROL Content management]** type form (**neo:news**)
+1. Cree el formulario relacionado de tipo **[!UICONTROL Content management]** (**neo:news**).
 
    ```
    <form _cs="News (neo)" entitySchema="xtk:form"  img="xtk:form.png" label="News"  name="news" namespace="neo" type="contentForm" xtkschema="xtk:form">
@@ -371,7 +371,7 @@ Este ejemplo comprende los siguientes pasos:
 
 1. Puede utilizar esta plantilla de contenido en los envíos.
 
-   Para obtener más información sobre esto, consulte [Uso de una plantilla](../../delivery/using/using-a-content-template.md)de contenido.
+   Para más información, consulte [Uso de una plantilla de contenido](../../delivery/using/using-a-content-template.md).
 
 ## Hojas de estilo XSL {#xsl-stylesheets}
 
@@ -383,7 +383,7 @@ Esta transformación está a su vez en XML en un documento conocido como hoja de
 
 Una hoja de estilo se identifica por su nombre y área de nombres, al igual que los esquemas y formularios. No obstante, se recomienda añadir la extensión **.xsl** al nombre de la hoja de estilo.
 
-The identification key of a stylesheet is a string formed by the namespace and the name separated by a colon; for example: **cus:book.xsl**.
+La clave de identificación de una hoja de estilo es una cadena formada por el área de nombres y el nombre separados por dos puntos; por ejemplo:**cus:book.xsl**.
 
 ### Estructura de una hoja de estilo {#structure-of-a-stylesheet}
 
@@ -415,16 +415,16 @@ Una hoja de estilo es un documento XML que sigue las siguientes reglas:
 
 * los valores de los atributos están entre comillas,
 * un elemento debe tener un marcador de apertura y uno de cierre,
-* replace the &#39;&lt;&#39; or &#39;&amp;&#39; characters with the **&#39;&lt;&#39;** or **&#39;&amp;&#39;** entities,
+* reemplace los caracteres “&lt;” o “&amp;” por las entidades **&#39;&lt;&#39;** o **&#39;&amp;&#39;**,
 * cada elemento XSL debe utilizar el área de nombres **xsl**.
 
-A stylesheet must start with the XSL root element marker **`<xsl:stylesheet>`** and end with the **`</xsl:stylesheet>`** marker. El área de nombres XSL debe definirse en el marcador de apertura de la siguiente manera:
+Una hoja de estilo debe comenzar con el marcador del elemento raíz XSL **`<xsl:stylesheet>`** y terminar con el marcador **`</xsl:stylesheet>`**. El área de nombres XSL debe definirse en el marcador de apertura de la siguiente manera:
 
 ```
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 ```
 
-The **`<xsl:output>`** element specifies the format of the document generated. Especifique el conjunto de caracteres y el formato de salida deseados.
+El elemento **`<xsl:output>`** especifica el formato del documento generado. Especifique el conjunto de caracteres y el formato de salida deseados.
 
 ```
 <xsl:output encoding="ISO-8859-1" method="html"/>
@@ -459,9 +459,9 @@ En nuestro ejemplo, se genera una página HTML a partir del esquema “cus:book�
 
 ### Visualización de HTML/XML {#displaying-html-xml}
 
-To display an **html** field, use the **disable-output-escaping=&quot;yes&quot;** option from the **`<xsl:value-of>`** directive. Esto permite evitar sustituir caracteres por su entidad XML (por ejemplo, &lt; por &lt;).
+Para mostrar un campo **html**, utilice la opción **disable-output-escaping=&quot;yes&quot;** de la directiva **`<xsl:value-of>`**. Esto permite evitar sustituir caracteres por su entidad XML (por ejemplo, &lt; por &lt;).
 
-The **`<xsl:text>`** directive with the **disable-output-escaping=&quot;yes&quot;** option lets you insert JavaScript tags for personalization fields or conditional tests.
+La directiva **`<xsl:text>`** con la opción **disable-output-escaping=“yes”** permite insertar etiquetas JavaScript para los campos de personalización o las pruebas condicionales.
 
 Ejemplos:
 
@@ -487,7 +487,7 @@ Ejemplos:
 
 Es posible crear una biblioteca de plantillas o variables para compartirlas entre varias hojas de estilo. La **template** “longMonth” expuesta más arriba es un ejemplo típico de la ventaja de colocar una plantilla de forma remota en una hoja de estilo para que se pueda reutilizar más adelante.
 
-The **`<xsl:include>`** directive indicates the name of the stylesheet to be included in the document.
+La directiva **`<xsl:include>`** indica el nombre de la hoja de estilo que se va a incluir en el documento.
 
 **Ejemplo**: incluida la hoja de estilo “common.xsl”.
 
@@ -510,7 +510,7 @@ La zona de edición permite rellenar el contenido de la hoja de estilo:
 
 ![](assets/d_ncs_content_form14.png)
 
-Para generar una previsualización del documento de salida en cualquier momento, seleccione una instancia de contenido y el formato (HTML, texto, XML) y, a continuación, haga clic en **[!UICONTROL Generate]** :
+Para generar una previsualización del documento de salida en cualquier momento, seleccione una instancia de contenido y el formato (HTML, texto, XML) y, luego, haga clic en **[!UICONTROL Generate]**:
 
 ![](assets/d_ncs_content_form15.png)
 
@@ -526,7 +526,7 @@ Se puede hacer referencia a las imágenes introducidas en el documento HTML de s
 
 Las referencias relativas permiten introducir la URL del servidor que contiene las imágenes en las opciones **NcmRessourcesDir** y **NcmRessourcesDirPreview.** Estas opciones contienen la ubicación de las imágenes para su publicación y previsualización en la consola del cliente de Adobe Campaign.
 
-These two options are accessible via the option management screen in the **[!UICONTROL Administration > Platform > Options]** folder.
+Se puede acceder a estas dos opciones a través de la pantalla de administración de opciones de la carpeta **[!UICONTROL Administration > Platform > Options]**.
 
 **Ejemplo**:
 
@@ -547,7 +547,7 @@ Ejemplo de cómo utilizar la opción de colocación de la imagen y su uso con un
 
 ### Uso de recursos públicos {#using-public-resources}
 
-You can also use **[!UICONTROL Public resources]** to declare images and upload them onto the server depending on the instance settings entered in the deployment wizard.
+También puede utilizar **[!UICONTROL Public resources]** para declarar imágenes y cargarlas en el servidor, según la configuración de instancia introducida en el asistente de implementación.
 
 A continuación, puede llamar a estas imágenes en el contenido. Para ello, utilice la siguiente sintaxis en el esquema de gestión de contenido:
 
@@ -567,7 +567,7 @@ En el formulario, el campo para seleccionar la imagen se añade mediante la sigu
 
 >[!NOTE]
 >
->For more on **[!UICONTROL Public resources]** and how to configure and use them, refer to [this section](../../installation/using/deploying-an-instance.md#managing-public-resources).
+>Para obtener más información sobre **[!UICONTROL Public resources]** y cómo configurarlos y utilizarlos, consulte [esta sección](../../installation/using/deploying-an-instance.md#managing-public-resources).
 
 ## Visualización de la fecha {#date-display}
 
@@ -577,17 +577,17 @@ Adobe Campaign ofrece funciones de formato de fecha para las plantillas JavaScri
 
 ### Formato de fecha JavaScript {#javascript-date-formatting}
 
-To display a date in the desired format, Adobe Campaign provides the **formatDate** function that takes as input the content of the date and a string specifying the output format with the following syntax: **%4Y/%2M/%2D %2H%2N%2S**
+Para mostrar una fecha en el formato deseado, Adobe Campaign proporciona la función **formatDate**, que toma como entrada el contenido de la fecha y una cadena que especifica el formato de salida con la siguiente sintaxis: **%4Y/%2M/%2D %2H%2N%2S**.
 
 Ejemplos:
 
-* Para mostrar la fecha con el formato **31/10/2018** :
+* Para mostrar la fecha con el formato **31/10/2018**:
 
    ```
     <%= formatDate(content.@date, "%2D/%2M/%4Y") %>
    ```
 
-* Para mostrar la fecha con el formato **julio de 2018** :
+* Para mostrar la fecha con el formato **julio de 2018**:
 
    ```
    <%
@@ -608,7 +608,7 @@ Ejemplos:
 
 ### Formato de fecha XSL {#xsl-date-formatting}
 
-No hay ninguna función de gestión de fecha estándar en la sintaxis XSLT. Para mostrar una fecha en el formato deseado, Adobe Campaign proporciona la función externa **date-format**. This function takes as its input the content of the date and a string specifying the output format with the following syntax: **%4Y/%2M/%2D %2H%2N%2S**
+No hay ninguna función de gestión de fecha estándar en la sintaxis XSLT. Para mostrar una fecha en el formato deseado, Adobe Campaign proporciona la función externa **date-format**. Esta función toma como entrada el contenido de la fecha y una cadena que especifica el formato de salida con la siguiente sintaxis: **%4Y/%2M/%2D %2H%2N%2**.
 
 Ejemplos:
 
