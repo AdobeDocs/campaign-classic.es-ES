@@ -14,7 +14,7 @@ discoiquuid: 3d01cc7e-5685-4101-bf4b-ef5f6e52b3c9
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 ---
@@ -28,15 +28,15 @@ Los activos compartidos desde Adobe Experience Cloud se pueden utilizar en los m
 
    Si utiliza recursos de la biblioteca de recursos de Adobe Experience Manager, utilice una plantilla de envío creada al [configurar la integración](../../integrations/using/configuring-access-to-assets.md#integrating-with-aem-assets).
 
-   If you do not have this specific template, make sure that in the delivery **Properties**, the **[!UICONTROL Content editing mode]** (**[!UICONTROL Advanced]** tab) is set to **DCE** and that the AEM external account that you want to use for accessing your AEM Assets resource library is provided.
+   Si no tiene esta plantilla específica, asegúrese de que en las **propiedades** de envío, **[!UICONTROL Content editing mode]** (pestaña **[!UICONTROL Advanced]**) esté configurado como **DCE** y que se proporcione la cuenta externa de AEM que desea utilizar para acceder a la biblioteca de recursos de AEM Assets.
 
 1. En la ventana de edición, seleccione la opción para añadir una imagen:
 
-   * Si utiliza el modo [de edición](../../delivery/using/defining-the-email-content.md#adding-images)estándar, seleccione **[!UICONTROL Image]** > **[!UICONTROL Select a shared asset]**.
+   * Si está utilizando el [modo de edición estándar](../../delivery/using/defining-the-email-content.md#adding-images), seleccione **[!UICONTROL Image]**, **[!UICONTROL Select a shared asset]**.
 
       ![](assets/dam_insert_image_standard.png)
 
-   * If you are using the [advanced editing mode](../../web/using/about-campaign-html-editor.md) (DCE), go to an image block, then via the contextual menu, select **[!UICONTROL Select a shared asset]**.
+   * Si está utilizando el [modo de edición avanzado](../../web/using/about-campaign-html-editor.md) (DCE), vaya a un bloque de imagen y, a través del menú contextual, seleccione **[!UICONTROL Select a shared asset]**.
 
       ![](assets/dam_insert_image_dce.png)
 
