@@ -14,7 +14,7 @@ discoiquuid: 3ad38469-8e22-4bfc-8029-5d360f76d6bb
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 
 ---
@@ -26,7 +26,7 @@ Para garantizar la operación óptima del editor, se recomienda seguir las sigui
 
 * Antes de **importar una plantilla de página HTML** en Adobe Campaign, asegúrese de que la plantilla se abra y se muestre correctamente en los distintos navegadores.
 * Si la página HTML contiene **secuencias de comandos JavaScript**, deben ejecutarse **sin errores** fuera del editor.
-* When building a template, we recommend adding a **&#39;type&#39;** attribute to `<input>` tags. El editor procesa esta información, que ayuda al usuario a vincular un campo de la base de datos al campo del formulario al configurar la aplicación web.
+* Al crear una plantilla, se recomienda añadir un atributo **“type”** a las etiquetas `<input>` El editor procesa esta información, que ayuda al usuario a vincular un campo de la base de datos al campo del formulario al configurar la aplicación web.
 
    Ejemplo de código HTML en la plantilla:
 
@@ -38,13 +38,13 @@ Para garantizar la operación óptima del editor, se recomienda seguir las sigui
 
    ![](assets/dce_sidebar_inputtypechanges.png)
 
-   La lista oficial de atributos &#39;type&#39; está disponible [en este sitio web](https://www.w3schools.com/tags/att_input_type.asp).
+   La lista oficial de atributos &quot;type&quot; está disponible [en este sitio web](https://www.w3schools.com/tags/att_input_type.asp).
 
 * Pasos para simular una página final con el DCE:
 
    ![](assets/dce_enchainement.png)
 
-* Make sure that there is only one `<body> </body>` in the page.
+* Compruebe que solo haya uno en la página.`<body> </body>`
 * Cuando se carga un archivo CSS o JS, no se cargan las imágenes incluidas en el archivo .zip. Por lo tanto, las referencias a estas imágenes presentes en CSS no se actualizan.
 
 ## Formatos compatibles con el editor de contenido {#content-editor-supported-formats}
@@ -56,7 +56,7 @@ La función de importación del editor de contenido funciona de la siguiente man
 * CSS: las imágenes presentes en el archivo .zip no se importan. Las referencias a estas imágenes en CSS no se actualizan.
 * JS: las imágenes presentes en el archivo .zip no se importan. No se actualizan las referencias a estas imágenes en JS.
 * Iframe: las páginas vinculadas no se importan.
-* Páginas de destino y aplicaciones web: si falta una etiqueta **form**, aparece una advertencia. A `<form> </form>` must always be present in the message body.
+* Páginas de destino y aplicaciones web: si falta una etiqueta **form**, aparece una advertencia. En el cuerpo del mensaje siempre debe estar presente `<form> </form>`.
 
 El editor de contenido también funciona con las siguientes páginas de códigos compatibles:
 
@@ -91,12 +91,12 @@ La sección superior del editor muestra mensajes relacionados con el estado del 
 * La aplicación web está en línea. Vuelva a publicar para aplicar cualquier cambio.
 * El contenido de la página no funciona. Debe incluir un formulario HTML (`<form>`)
 * Hay “n” zonas o botones de entrada para configurar.
-* Para activar la transición a la página siguiente, se debe vincular la acción “Página siguiente” a un botón o a un enlace de la página actual.
+* Para activar la transición a la página siguiente, se debe vincular la acción “Página siguiente” a un botón o a un vínculo de la página actual.
 
-### Lista de mensajes al editar un envío {#list-of-messages-when-editing-a-delivery}
+### Lista de mensajes al editar una entrega {#list-of-messages-when-editing-a-delivery}
 
-* El contenido del envío funciona
+* El contenido de la entrega funciona
 * Hay “n” campos o bloques de personalización para configurar.
-* El contenido del envío está listo. Vuelva a ejecutar el análisis para aplicar los cambios.
+* El contenido de la entrega está listo. Vuelva a ejecutar el análisis para aplicar los cambios.
 * El envío está listo para ejecutarse.
 
