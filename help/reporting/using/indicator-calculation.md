@@ -14,7 +14,7 @@ discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 
 ---
@@ -27,7 +27,7 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Etiqueta</strong> <br /> </th> 
    <th> <strong>Nombre del campo</strong> <br /> </th> 
    <th> <strong>Descripción del indicador</strong> <br /> </th> 
    <th> <strong>Fórmula de cálculo del indicador</strong> <br /> </th> 
@@ -55,18 +55,18 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
  </tbody> 
 </table>
 
-This report is based on the **[!UICONTROL Consolidated tracking]** table (nms:trackingStats). This aggregate table is used for performance reasons when displaying reports, in the place of the **[!UICONTROL Recipient tracking logs]** table (nms:trackingLogRcp) and it is not calculated in real-time. La tabla se genera unos minutos después de recuperar los “logs” de seguimiento. Si los indicadores están actualizados, los resultados son los mismos que para los indicadores del informe **indicadores de seguimiento.** El indicador @totalclicks expresa el número total de clics durante un periodo de 5 minutos.
+Este informe se basa en la tabla **[!UICONTROL Consolidated tracking]** (nms:trackingStats). Esta tabla de acumulados se utiliza por motivos de rendimiento al mostrar los informes, en lugar de la tabla **[!UICONTROL Recipient tracking logs]** (nms:trackingLogRcp), y no se calcula en tiempo real. La tabla se genera unos minutos después de recuperar los “logs” de seguimiento. Si los indicadores están actualizados, los resultados son los mismos que para los indicadores del informe **indicadores de seguimiento.** El indicador @totalclicks expresa el número total de clics durante un periodo de 5 minutos.
 
 ## Rechazos y no entregables {#non-deliverables-and-bounces-1}
 
 **Desglose por tipo de error**
 
-This report is based on the **[!UICONTROL Delivery and tracking statistics]** table (nms:deliveryLogStats).
+Este informe se basa en la tabla **[!UICONTROL Delivery and tracking statistics]** (nms:deliveryLogStats).
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Etiqueta</strong> <br /> </th> 
    <th> <strong>Nombre del campo</strong> <br /> </th> 
    <th> <strong>Descripción del indicador</strong> <br /> </th> 
    <th> <strong>Fórmula de cálculo del indicador</strong> <br /> </th> 
@@ -82,25 +82,25 @@ This report is based on the **[!UICONTROL Delivery and tracking statistics]** ta
   <tr> 
    <td> Usuario desconocido<br /> </td> 
    <td> @unknownUser<br /> </td> 
-   <td> Count of all messages with a status equal to "Failed" and a reason equal to "User unknown". <br /> </td> 
+   <td> Recuento de todos los mensajes con un estado igual a “Fallido” y un motivo igual a “Usuario desconocido”.<br /> </td> 
    <td> Count(@status=2 and msg/@failureReason=1)<br /> </td> 
   </tr> 
   <tr> 
    <td> Inaccesible <br /> </td> 
    <td> @unreachable<br /> </td> 
-   <td> Count of all messages with a status equal to "Failed" and a reason equal to "Unreachable". <br /> </td> 
+   <td> Recuento de todos los mensajes con un estado igual a “Fallido” y un motivo igual a “Inaccesible”.<br /> </td> 
    <td> Count(@status=2 and msg/@failureReason=3)<br /> </td> 
   </tr> 
   <tr> 
    <td> Rechazado<br /> </td> 
    <td> @refused<br /> </td> 
-   <td> Count of all messages with a status equal to "Failed" and a reason equal to "Rejected". <br /> </td> 
+   <td> Recuento de todos los mensajes con un estado igual a “Fallido” y un motivo igual a “Rechazado”.<br /> </td> 
    <td> Count(@status=2 and msg/@failureReason=20)<br /> </td> 
   </tr> 
   <tr> 
    <td> Dominio inválido<br /> </td> 
    <td> @invalidDomain<br /> </td> 
-   <td> Count of all messages with a status equal to "Failed" and a reason equal to "Invalid domain". <br /> </td> 
+   <td> Recuento de todos los mensajes con un estado igual a “Fallido” y un motivo igual a “Dominio inválido”.<br /> </td> 
    <td> Count(@status=2 and msg/@failureReason=2)<br /> </td> 
   </tr> 
   <tr> 
@@ -112,7 +112,7 @@ This report is based on the **[!UICONTROL Delivery and tracking statistics]** ta
   <tr> 
    <td> Bandeja de entrada llena<br /> </td> 
    <td> @mailBoxFull<br /> </td> 
-   <td> Count of all messages with a status equal to "Failed" and a reason equal to "Inbox full". <br /> </td> 
+   <td> Recuento de todos los mensajes con un estado igual a “Fallido” y un motivo igual a “Bandeja de entrada llena”.<br /> </td> 
    <td> Count(@status=2 and msg/@failureReason=5)<br /> </td> 
   </tr> 
   <tr> 
@@ -142,14 +142,14 @@ La segunda parte del informe detalla el desglose de los mensajes fallidos por do
 
 ## Navegadores {#browsers-1}
 
-This report is based on the **[!UICONTROL Internet Browser Statistics]** table (nms:userAgentsStats).
+Este informe se basa en la tabla **[!UICONTROL Internet Browser Statistics]** (nms:userAgentsStats).
 
 **Estadísticas globales**
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Etiqueta</strong> <br /> </th> 
    <th> <strong>Nombre del campo</strong> <br /> </th> 
    <th> <strong>Descripción del indicador</strong> <br /> </th> 
    <th> <strong>Fórmula de cálculo del indicador</strong> <br /> </th> 
@@ -159,13 +159,13 @@ This report is based on the **[!UICONTROL Internet Browser Statistics]** table (
   <tr> 
    <td> Visitantes<br /> </td> 
    <td> @totalVisitors<br /> </td> 
-   <td> Número total de destinatarios objetivo para este navegador que hicieron clic en un envío al menos una vez.<br /> </td> 
+   <td> Número total de destinatarios objetivo para este navegador que hicieron clic en una entrega al menos una vez.<br /> </td> 
    <td> Sum(@visitors)<br /> </td> 
   </tr> 
   <tr> 
    <td> Vistas de la página<br /> </td> 
    <td> @totalPages<br /> </td> 
-   <td> Número total de clics en los vínculos del envío utilizando este navegador, para todos los envíos.<br /> </td> 
+   <td> Número total de clics en los vínculos de la entrega utilizando este navegador, para todas las entregas.<br /> </td> 
    <td> Sum(@pages) <br /> </td> 
   </tr> 
   <tr> 
@@ -182,7 +182,7 @@ This report is based on the **[!UICONTROL Internet Browser Statistics]** table (
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Etiqueta</strong> <br /> </th> 
    <th> <strong>Nombre del campo</strong> <br /> </th> 
    <th> <strong>Descripción del indicador</strong> <br /> </th> 
    <th> <strong>Fórmula de cálculo del indicador</strong> <br /> </th> 
@@ -217,7 +217,7 @@ Este informe se basa en las tablas **[!UICONTROL Delivery]** (nms:delivery), **[
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Etiqueta</strong> <br /> </th> 
    <th> <strong>Nombre del campo</strong> <br /> </th> 
    <th> <strong>Descripción del indicador</strong> <br /> </th> 
    <th> <strong>Fórmula de cálculo del indicador</strong> <br /> </th> 
@@ -227,7 +227,7 @@ Este informe se basa en las tablas **[!UICONTROL Delivery]** (nms:delivery), **[
   <tr> 
    <td> Número de mensajes que desea enviar<br /> </td> 
    <td> @totalTarget<br /> </td> 
-   <td> Número total de mensajes procesados durante el análisis del envío.<br /> </td> 
+   <td> Número total de mensajes procesados durante el análisis de entregas.<br /> </td> 
    <td> sum([properties/@totalTarget])<br /> </td> 
   </tr> 
   <tr> 
@@ -286,7 +286,7 @@ Este informe se basa en las tablas **[!UICONTROL Delivery]** (nms:delivery), **[
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Etiqueta</strong> <br /> </th> 
    <th> <strong>Nombre del campo</strong> <br /> </th> 
    <th> <strong>Descripción del indicador</strong> <br /> </th> 
    <th> <strong>Fórmula de cálculo del indicador</strong> <br /> </th> 
@@ -319,7 +319,7 @@ Este informe se basa en las tablas **[!UICONTROL Delivery]** (nms:delivery), **[
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Etiqueta</strong> <br /> </th> 
    <th> <strong>Nombre del campo</strong> <br /> </th> 
    <th> <strong>Descripción del indicador</strong> <br /> </th> 
    <th> <strong>Fórmula de cálculo del indicador</strong> <br /> </th> 
@@ -354,7 +354,7 @@ Este informe se basa en las tablas **[!UICONTROL Delivery]** (nms:delivery), **[
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Etiqueta</strong> <br /> </th> 
    <th> <strong>Nombre del campo</strong> <br /> </th> 
    <th> <strong>Descripción del indicador</strong> <br /> </th> 
    <th> <strong>Fórmula de cálculo del indicador</strong> <br /> </th> 
@@ -376,7 +376,7 @@ Este informe se basa en las tablas **[!UICONTROL Delivery]** (nms:delivery), **[
   <tr> 
    <td> Difusiones<br /> </td> 
    <td> @shared<br /> </td> 
-   <td> Categoría URL incluida en 'email' , 'facebook' , 'twitter' , 'delicioso' , 'digg' , 'google' , 'linkedin'<br /> Count of all @totalClicks con una categoría de URL que es igual a "email", "facebook", "twitter", "delicioso", "digg", "google" o "linkedin".<br /> </td> 
+   <td> Categoría URL incluida en 'email', 'facebook', 'twitter', 'delicious', 'digg', 'google', 'linkedin'<br /> Count of all @totalClicks con una categoría de URL que es igual a "email", "facebook", "twitter", "delicious", "digg", "google" o "linkedin".<br /> </td> 
    <td> count (Iif([url/@category] IN (“correo electrónico”, “facebook”, “twitter”, “delicious”, “digg”, “google”, “linkedin”), @totalClicks, 0))<br /> </td> 
   </tr> 
  </tbody> 
@@ -384,14 +384,14 @@ Este informe se basa en las tablas **[!UICONTROL Delivery]** (nms:delivery), **[
 
 ## Sistemas operativos {#operating-systems-1}
 
-This report is based on the **[!UICONTROL Internet Browser Statistics]** table (nms:userAgentsStats).
+Este informe se basa en la tabla **[!UICONTROL Internet Browser Statistics]** (nms:userAgentsStats).
 
 **Estadísticas globales**
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Etiqueta</strong> <br /> </th> 
    <th> <strong>Nombre del campo</strong> <br /> </th> 
    <th> <strong>Descripción del indicador</strong> <br /> </th> 
    <th> <strong>Fórmula de cálculo del indicador</strong> <br /> </th> 
@@ -401,13 +401,13 @@ This report is based on the **[!UICONTROL Internet Browser Statistics]** table (
   <tr> 
    <td> Visitantes<br /> </td> 
    <td> @totalVisitors/@days<br /> </td> 
-   <td> Promedio diario del número total de destinatarios objetivo por el sistema operativo que hicieron clic en un envío al menos una vez.<br /> </td> 
+   <td> Promedio diario del número total de destinatarios objetivo por el sistema operativo que hicieron clic en una entrega al menos una vez.<br /> </td> 
    <td> Sum(@visitors)<br /> </td> 
   </tr> 
   <tr> 
    <td> Páginas visitadas<br /> </td> 
    <td> @totalPages/@days<br /> </td> 
-   <td> Promedio diario del número total de clics en los vínculos de envíos por sistema operativo para todos los envíos.<br /> </td> 
+   <td> Promedio diario del número total de clics en los vínculos de envíos por sistema operativo para todas las entregas.<br /> </td> 
    <td> Sum(@pages)<br /> </td> 
   </tr> 
   <tr> 
@@ -424,7 +424,7 @@ This report is based on the **[!UICONTROL Internet Browser Statistics]** table (
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Etiqueta</strong> <br /> </th> 
    <th> <strong>Nombre del campo</strong> <br /> </th> 
    <th> <strong>Descripción del indicador</strong> <br /> </th> 
    <th> <strong>Fórmula de cálculo del indicador</strong> <br /> </th> 
@@ -454,12 +454,12 @@ This report is based on the **[!UICONTROL Internet Browser Statistics]** table (
 
 ## Seguimiento de suscripciones {#subscription-tracking-1}
 
-This report is based on the **[!UICONTROL Services]** table (nms:service).
+Este informe se basa en la tabla **[!UICONTROL Services]** (nms:service).
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Etiqueta</strong> <br /> </th> 
    <th> <strong>Nombre del campo</strong> <br /> </th> 
    <th> <strong>Descripción del indicador</strong> <br /> </th> 
    <th> <strong>Fórmula de cálculo del indicador</strong> <br /> </th> 
@@ -506,7 +506,7 @@ Este informe se basa en las tablas **[!UICONTROL Delivery and tracking statistic
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Etiqueta</strong> <br /> </th> 
    <th> <strong>Nombre del campo</strong> <br /> </th> 
    <th> <strong>Descripción del indicador</strong> <br /> </th> 
    <th> <strong>Fórmula de cálculo del indicador</strong> <br /> </th> 
@@ -522,7 +522,7 @@ Este informe se basa en las tablas **[!UICONTROL Delivery and tracking statistic
   <tr> 
    <td> Correctos<br /> </td> 
    <td> @successWithoutSeeds<br /> </td> 
-   <td> Recuento de mensajes para los que el campo “Dirección sembrada” es igual a “No” y con un estado igual a “Tenido en cuenta por el proveedor de servicios”, “Enviado” o “Recibido en el teléfono móvil”.<br /> </td> 
+   <td> Recuento de mensajes para los que el campo “Dirección semilla” es igual a “No” y con un estado igual a “Tenido en cuenta por el proveedor de servicios”, “Enviado” o “Recibido en el teléfono móvil”.<br /> </td> 
    <td> sum([indicators/@success])<br /> </td> 
   </tr> 
   <tr> 
@@ -558,7 +558,7 @@ Este informe se basa en las tablas **[!UICONTROL Delivery and tracking statistic
   <tr> 
    <td> Envíos<br /> </td> 
    <td> @successWithoutSeeds<br /> </td> 
-   <td> Recuento de mensajes para los que el campo “Dirección sembrada” es igual a “No” y con un estado igual a “Tenido en cuenta por el destinatario”, “Enviado” o “Recibido en el teléfono móvil”.<br /> </td> 
+   <td> Recuento de mensajes para los que el campo “Dirección semilla” es igual a “No” y con un estado igual a “Tenido en cuenta por el destinatario”, “Enviado” o “Recibido en el teléfono móvil”.<br /> </td> 
    <td> sum([indicators/@success])<br /> </td> 
   </tr> 
   <tr> 
@@ -576,13 +576,13 @@ Este informe se basa en las tablas **[!UICONTROL Delivery and tracking statistic
   <tr> 
    <td> Clics<br /> </td> 
    <td> @recipientClick<br /> </td> 
-   <td> Distinct count of @broadLog-ids with a URL type equal to "Email click". <br /> </td> 
+   <td> Recuento distintivo de @broadLog-ids con un tipo de URL igual a “clic en el correo electrónico”.<br /> </td> 
    <td> Countdistinct(Iif([url/@type]=1, @broadLog-id, 0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Reacciones sin procesar<br /> </td> 
    <td> -<br /> </td> 
-   <td> Porcentaje del número de destinatarios que hicieron clic en un envío al menos una vez comparado con el número de destinatarios que abrió un envío al menos una vez.<br /> </td> 
+   <td> Porcentaje del número de destinatarios que hicieron clic en una entrega al menos una vez comparado con el número de destinatarios que abrió una entrega al menos una vez.<br /> </td> 
    <td> percent(@recipientClick,@recipientOpen)<br /> </td> 
   </tr> 
   <tr> 
@@ -606,7 +606,7 @@ Este informe se basa en las tablas **[!UICONTROL Delivery and tracking statistic
   <tr> 
    <td> Reacciones estimada<br /> </td> 
    <td> -<br /> </td> 
-   <td> Proporción del número de destinatarios que hizo clic en un envío al menos una vez comparada con la estimación de destinatarios que abrieron el envío al menos una vez.<br /> </td> 
+   <td> Proporción del número de destinatarios que hizo clic en una entrega al menos una vez comparada con la estimación de destinatarios que abrieron la entrega al menos una vez.<br /> </td> 
    <td> porcentaje(@recipientClick, @estimatedRecipientOpen<br /> </td> 
   </tr> 
   <tr> 
@@ -624,7 +624,7 @@ Este informe se basa en las tablas **[!UICONTROL Delivery and tracking statistic
   <tr> 
    <td> Cantidad total<br /> </td> 
    <td> @amount<br /> </td> 
-   <td> Sum of webTrackingLog/@amounts with a URL type equal to "Transaction". <br /> </td> 
+   <td> Suma de webTrackingLog/@amounts con un tipo de URL igual a “Transacción”.<br /> </td> 
    <td> Sum(Iif([url/@type]=5, webTrackingLog/@amount, 0))<br /> </td> 
   </tr> 
   <tr> 
@@ -698,12 +698,12 @@ Este informe se basa en las tablas **[!UICONTROL Delivery and tracking statistic
 
 ## URL y flujos de clics {#urls-and-click-streams-1}
 
-This report is based on the **[!UICONTROL Delivery]** table (nms:delivery).
+Este informe se basa en la tabla **[!UICONTROL Delivery]** (nms:delivery).
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Etiqueta</strong> <br /> </th> 
    <th> <strong>Nombre del campo</strong> <br /> </th> 
    <th> <strong>Descripción del indicador</strong> <br /> </th> 
    <th> <strong>Fórmula de cálculo del indicador</strong> <br /> </th> 
@@ -713,13 +713,13 @@ This report is based on the **[!UICONTROL Delivery]** table (nms:delivery).
   <tr> 
    <td> Reacción<br /> </td> 
    <td> @reactivity<br /> </td> 
-   <td> Proporción del número de destinatarios objetivo que hicieron clic en un envío al menos una vez comparada con la estimación de destinatarios objetivo que abrieron un envío al menos una vez.<br /> </td> 
+   <td> Proporción del número de destinatarios objetivo que hicieron clic en una entrega al menos una vez comparada con la estimación de destinatarios objetivo que abrieron una entrega al menos una vez.<br /> </td> 
    <td> percent([indicators/@recipientClick], [indicators/@estimatedRecipientOpen])<br /> </td> 
   </tr> 
   <tr> 
    <td> Clics distintos<br /> </td> 
    <td> @distinctClicks<br /> </td> 
-   <td> Proporción de la cantidad de personas distintas que hicieron clic en un envío al menos una vez en comparación con la cantidad de mensajes enviados correctamente.<br /> </td> 
+   <td> Proporción de la cantidad de personas distintas que hicieron clic en una entrega al menos una vez en comparación con la cantidad de mensajes enviados correctamente.<br /> </td> 
    <td> percent([indicators/@personClick], [indicators/@success])<br /> </td> 
   </tr> 
   <tr> 
@@ -743,14 +743,14 @@ This report is based on the **[!UICONTROL Delivery]** table (nms:delivery).
  </tbody> 
 </table>
 
-## Resumen de envíos {#delivery-summary-1}
+## Resumen de entregas {#delivery-summary-1}
 
-This report is based on the **[!UICONTROL Delivery]** table (nms:delivery).
+Este informe se basa en la tabla **[!UICONTROL Delivery]** (nms:delivery).
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Etiqueta</strong> <br /> </th> 
    <th> <strong>Nombre del campo</strong> <br /> </th> 
    <th> <strong>Descripción del indicador</strong> <br /> </th> 
    <th> <strong>Fórmula de cálculo del indicador</strong> <br /> </th> 
@@ -760,7 +760,7 @@ This report is based on the **[!UICONTROL Delivery]** table (nms:delivery).
   <tr> 
    <td> Población inicial<br /> </td> 
    <td> @totalTarget<br /> </td> 
-   <td> Número total de destinatarios a quienes se realizó el envío.<br /> </td> 
+   <td> Número total de destinatarios a quienes se realizó la entrega.<br /> </td> 
    <td> sum([properties/@totalTarget])<br /> </td> 
   </tr> 
   <tr> 
@@ -784,13 +784,13 @@ This report is based on the **[!UICONTROL Delivery]** table (nms:delivery).
   <tr> 
    <td> Errores<br /> </td> 
    <td> @error<br /> </td> 
-   <td> Número total de errores acumulados durante los envíos y el procesamiento automático de rechazos.<br /> </td> 
+   <td> Número total de errores acumulados durante las entregas y el procesamiento automático de rechazos.<br /> </td> 
    <td> sum([indicadores/@error])<br /> </td> 
   </tr> 
   <tr> 
    <td> Nuevas cuarentenas<br /> </td> 
    <td> @newQuarantine<br /> </td> 
-   <td> Número de direcciones en cuarentena tras un envío fallido (usuario desconocido, dominio no válido).<br /> </td> 
+   <td> Número de direcciones en cuarentena tras una entrega fallido (usuario desconocido, dominio no válido).<br /> </td> 
    <td> sum([indicators/@newQuarantine])<br /> </td> 
   </tr> 
  </tbody> 
@@ -798,18 +798,18 @@ This report is based on the **[!UICONTROL Delivery]** table (nms:delivery).
 
 ## Clics activos {#hot-clicks-1}
 
-This report is based on the Delivery(nms:delivery) and **[!UICONTROL Consolidated tracking]** (nms:trackingStats) tables.
+Este informe se basa en las tablas Envío (nms:delivery) y **[!UICONTROL Consolidated tracking]** (nms:trackingStats).
 
 Este informe muestra el contenido del mensaje (HTML o texto) con el porcentaje de clics en los vínculos, por cada vínculo. Los vínculos de baja de bloques personalizados y los vínculos de páginas espejo se tienen en cuenta en el total de clics acumulados, pero no se visualizan en el informe.
 
 ## Estadísticas de seguimiento {#tracking-statistics-1}
 
-This report is based on the **[!UICONTROL Delivery]** table (nms:delivery).
+Este informe se basa en la tabla **[!UICONTROL Delivery]** (nms:delivery).
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Etiqueta</strong> <br /> </th> 
    <th> <strong>Nombre del campo</strong> <br /> </th> 
    <th> <strong>Descripción del indicador</strong> <br /> </th> 
    <th> <strong>Fórmula de cálculo del indicador</strong> <br /> </th> 
@@ -837,14 +837,14 @@ This report is based on the **[!UICONTROL Delivery]** table (nms:delivery).
  </tbody> 
 </table>
 
-## Estadísticas de envío {#delivery-statistics-1}
+## Estadísticas de entrega {#delivery-statistics-1}
 
-This report is based on the **[!UICONTROL Delivery and tracking statistics]** table (nms:deliveryLogStats).
+Este informe se basa en la tabla **[!UICONTROL Delivery and tracking statistics]** (nms:deliveryLogStats).
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Etiqueta</strong> <br /> </th> 
    <th> <strong>Nombre del campo</strong> <br /> </th> 
    <th> <strong>Descripción del indicador</strong> <br /> </th> 
    <th> <strong>Fórmula de cálculo del indicador</strong> <br /> </th> 
@@ -858,7 +858,7 @@ This report is based on the **[!UICONTROL Delivery and tracking statistics]** ta
    <td> @prepared + @error + @success<br /> </td> 
   </tr> 
   <tr> 
-   <td> Enviado<br /> </td> 
+   <td> Entrega<br /> </td> 
    <td> @success<br /> </td> 
    <td> Número de mensajes procesados correctamente.<br /> </td> 
    <td> indicators/@success<br /> </td> 
@@ -884,7 +884,7 @@ This report is based on the **[!UICONTROL Delivery and tracking statistics]** ta
   <tr> 
    <td> Clics<br /> </td> 
    <td> @personClick<br /> </td> 
-   <td> Total number of @source-ids for which the URL category equals "Email click". <br /> </td> 
+   <td> Número total de @source-ids en las que la categoría URL es igual a “clic en el correo electrónico”.<br /> </td> 
    <td> Countdistinct(Iif([url/@type]=1, @source-id, 0)) <br /> </td> 
   </tr> 
   <tr> 
@@ -903,7 +903,7 @@ Este informe se basa en las tablas **Envíos** (nms:delivery) y **“Logs” de 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Etiqueta</strong> <br /> </th> 
    <th> <strong>Nombre del campo</strong> <br /> </th> 
    <th> <strong>Descripción del indicador</strong> <br /> </th> 
    <th> <strong>Fórmula de cálculo del indicador</strong> <br /> </th> 
@@ -925,7 +925,7 @@ El indicador **Enviado** (@sent), al que se accede a través de **Envíos (nms:d
 
 ## Sincronización de indicadores {#indicator-synchronization}
 
-If you experience desynchronization or inconsistency for certain indicators, select the concerned delivery in the Adobe Campaign explorer, right-click and choose **[!UICONTROL Action>Recompute delivery and tracking indicators]**. Haga clic en **[!UICONTROL Next]** y luego en **[!UICONTROL Finish]**.
+Si observa desincronizaciones o incoherencia en determinados indicadores, seleccione la entrega en el explorador de Adobe Campaign, haga clic con el botón derecho y elija **[!UICONTROL Action>Recompute delivery and tracking indicators]**. Haga clic en **[!UICONTROL Next]** y, a continuación, en **[!UICONTROL Finish]**.
 
 ![](assets/s_ncs_user_recalculate_indicators.png)
 
@@ -937,7 +937,7 @@ Para que Adobe Campaign detecte las aperturas del mensaje, el destinatario debe 
 
 En algunos informes, Adobe Campaign distingue entre personas objetivo y destinatarios objetivo.
 
-Los destinatarios objetivo son todos los destinatarios a los que se dirige el envío.
+Los destinatarios objetivo son todos los destinatarios a los que se dirige la entrega.
 
 El número de personas incluye destinatarios objetivo además de todas las personas a las que se reenvía el correo electrónico. Cada vez que se abre o se hace un clic en un explorador nuevo (donde no se ha abierto el mensaje aún), se añade otra persona a las estadísticas.
 
