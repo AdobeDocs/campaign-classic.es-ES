@@ -14,7 +14,7 @@ discoiquuid: 42db3be8-ee02-4158-adcd-846420a32460
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -41,7 +41,7 @@ Con el módulo Marketing Analytics, Campaign permite:
    * acumular datos y almacenarlos en una tabla de trabajo para precalcular los indicadores según las necesidades del usuario,
    * reducir el volumen de datos implicados en los distintos cálculos utilizados para los informes y las consultas, lo que optimiza de manera significativa los tiempos de cálculo del indicador,
    * simplificar el acceso a los datos, permitiendo a los usuarios manipular los datos (independientemente de si se acumularon previamente o no) en función de las distintas dimensiones.
-   For more on this, refer to [Creating indicators](../../reporting/using/creating-indicators.md).
+   Para obtener más información, consulte [Crear indicadores](../../reporting/using/creating-indicators.md).
 
 1. Crear tablas dinámicas con el fin de:
 
@@ -86,29 +86,29 @@ Cuando se trabaja con cubos, se deben conocer los conceptos siguientes:
 
 ## Espacio de trabajo del cubo {#cube-workspace}
 
-Los cubos se almacenan en el **[!UICONTROL Administration > Configuration > Cubes]** nodo.
+Los cubos se almacenan en el nodo **[!UICONTROL Administration > Configuration > Cubes]**.
 
 ![](assets/s_advuser_cube_node.png)
 
 Los principales contextos de uso de los cubos son los siguientes:
 
-* Data exports can be carried out directly in a report, designed in the **[!UICONTROL Reports]** universe of the Adobe Campaign platform.
+* Las exportaciones de datos se pueden realizar directamente en un informe y diseñar en el entorno **[!UICONTROL Reports]** de la plataforma de Adobe Campaign.
 
    Para ello, cree un nuevo informe y seleccione el cubo que desee utilizar.
 
    ![](assets/cube_create_new.png)
 
-   Los cubos aparecen como plantillas basadas en los informes creados. Once you have chosen a template, click **[!UICONTROL Create]** to configure and view the matching report.
+   Los cubos aparecen como plantillas basadas en los informes creados. Una vez que haya elegido una plantilla, haga clic en **[!UICONTROL Create]** para configurar y ver el informe correspondiente.
 
    Puede adaptar las medidas, cambiar el modo de visualización o configurar la tabla y, a continuación, mostrar el informe usando el botón principal.
 
    ![](assets/cube_display_new.png)
 
-* You can also reference a cube in the **[!UICONTROL Query]** box of a report to use its indicators, as shown below:
+* Asimismo, puede hacer referencia a un cubo en la casilla **[!UICONTROL Query]** de un informe para utilizar sus indicadores, como se muestra a continuación:
 
    ![](assets/s_advuser_query_using_a_cube.png)
 
-* También se puede insertar una tabla dinámica basada en un cubo en cualquier página de un informe. To do this, reference the cube to be used in the **[!UICONTROL Data]** tab of the pivot table on the concerned page.
+* También se puede insertar una tabla dinámica basada en un cubo en cualquier página de un informe. Para ello, haga referencia al cubo que desee utilizar en la pestaña **[!UICONTROL Data]** de la tabla dinámica de la página correspondiente.
 
    ![](assets/s_advuser_cube_in_report.png)
 
