@@ -14,7 +14,7 @@ discoiquuid: 4655ad65-7eba-44d5-b3f9-f4b8f44d9d5c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 62b2f1f6cfcaadd10880d428b8b94d73d2addcdb
 
 ---
@@ -28,9 +28,9 @@ El agrupamiento permite simplificar la visualización de los datos reuniendo val
 
 En general, hay tres tipos de agrupamiento disponibles:
 
-1. Uso de intervalos de valores definidos manualmente. Por ejemplo: edad, carro de compras promedio, número de envíos abiertos, etc.). Para obtener más información sobre esto, consulte [Definición de cada bandeja](#defining-each-bin).
-1. De forma dinámica, dependiendo de los valores de una enumeración: solo se muestran los valores contenidos en la enumeración; los demás valores se agrupan en “Otros”. Para obtener más información sobre esto, consulte Administración [dinámica de bandejas](#dynamically-managing-bins).
-1. Uso de intervalos de valores; todos los demás se agrupan. Por ejemplo, de 18 a 25 años de edad, de 26 a 59 años de edad y el resto. Para obtener más información sobre esto, consulte [Creación de intervalos](#creating-value-ranges)de valores.
+1. Uso de intervalos de valores definidos manualmente. Por ejemplo: edad, carro de compras promedio, número de envíos abiertos, etc.). Para obtener más información, consulte [Definición de cada grupo](#defining-each-bin).
+1. De forma dinámica, dependiendo de los valores de una enumeración: solo se muestran los valores contenidos en la enumeración; los demás valores se agrupan en “Otros”. Para obtener más información, consulte [Administración dinámica de grupos](#dynamically-managing-bins).
+1. Uso de intervalos de valores; todos los demás se agrupan. Por ejemplo, de 18 a 25 años de edad, de 26 a 59 años de edad y el resto. Para obtener más información, consulte [Creación de intervalos de calores](#creating-value-ranges).
 
 Para activar el agrupamiento, marque la casilla adecuada al crear la dimensión.
 
@@ -42,19 +42,19 @@ Adobe Campaign también ofrece un asistente para el agrupamiento automático: lo
 
 ### Definición de cada grupo {#defining-each-bin}
 
-To create each bin individually, select the **[!UICONTROL Define each bin]** option and use the table to create the various bins.
+Para crear cada grupo individualmente, seleccione la opción **[!UICONTROL Define each bin]** y utilice la tabla para crear los distintos grupos.
 
 ![](assets/s_advuser_cube_class_01.png)
 
-Click the **[!UICONTROL Add]** button to create a new bin and list the values which will be grouped into the bin.
+Haga clic en el botón **[!UICONTROL Add]** para crear un nuevo grupo y enumere los valores que desea agrupar en dicho grupo.
 
 ![](assets/s_advuser_cube_class_02.png)
 
-En el siguiente ejemplo, los idiomas se agrupan en tres categorías: Inglés/alemán/holandés, francés/italiano/español y otros.
+En el siguiente ejemplo, los idiomas se agrupan en tres categorías: inglés/alemán/holandés, francés/italiano/español y otros.
 
 ![](assets/s_advuser_cube_class_03.png)
 
-Puede utilizar una máscara SQL para combinar varios valores en un filtro. Para ello, desproteja **[!UICONTROL Yes]** la columna **[!UICONTROL Use an SQL mask]** e introduzca el filtro SQL que se aplicará en la **[!UICONTROL Value or expression]** columna.
+Puede utilizar una máscara SQL para combinar varios valores en un filtro. Para ello, en la columna **[!UICONTROL Use an SQL mask]**, marque **[!UICONTROL Yes]** e introduzca el filtro SQL que desea aplicar en la columna **[!UICONTROL Value or expression]**.
 
 En el ejemplo siguiente, todos los dominios de correo electrónico que comienzan con **yahoo** (yahoo.fr, yahoo.com, yahoo.be, etc.) o con **ymail** (ymail.com, ymail.eu, etc.) se agrupan en la etiqueta **YAHOO!**, así como las direcciones con el dominio **rocketmail.com**.
 
@@ -67,7 +67,7 @@ Los valores se pueden administrar dinámicamente mediante enumeraciones. Esto si
 Para crear este tipo de agrupamiento de valores, siga los pasos siguientes:
 
 1. Cree una nueva dimensión y habilite un agrupamiento.
-1. Seleccione la **[!UICONTROL Dynamically link the values to an enumeration]** opción y seleccione la enumeración coincidente.
+1. Seleccione la opción **[!UICONTROL Dynamically link the values to an enumeration]** y seleccione la enumeración correspondiente.
 
    ![](assets/s_advuser_cube_class_04.png)
 
@@ -77,15 +77,15 @@ Para crear este tipo de agrupamiento de valores, siga los pasos siguientes:
 
 Puede agrupar los valores en rangos basados en un intervalo deseado.
 
-Para definir rangos manualmente, haga clic en el **[!UICONTROL Add]** botón y seleccione **[!UICONTROL Define a range]** :
+Para definir intervalos manualmente, haga clic en el botón **[!UICONTROL Add]** y seleccione **[!UICONTROL Define a range]**.
 
 ![](assets/s_advuser_cube_class_05.png)
 
-Then specify the lower and upper limits and click **[!UICONTROL Ok]** to confirm.
+A continuación, especifique los límites inferior y superior y haga clic en **[!UICONTROL Ok]** para confirmar.
 
 ### Generación automática de grupos {#generating-bins-automatically}
 
-También es posible generar grupos automáticamente. Para ello, haga clic en el **[!UICONTROL Generate bins...]** vínculo.
+También es posible generar grupos automáticamente. Para ello, haga clic en el vínculo **[!UICONTROL Generate bins...]**
 
 ![](assets/s_advuser_cube_class_06.png)
 
@@ -113,7 +113,7 @@ Se crea mediante la siguiente plantilla:
 
 ![](assets/nmx_enum_domain.png)
 
-To create a report using this enumeration, create a Cube using the **[!UICONTROL Email domain]** dimension. Elija la **[!UICONTROL Enable binning]** opción y luego **[!UICONTROL Dynamically link the values to an enumeration]**. A continuación, seleccione la enumeración **Dominios** como se muestra arriba. Todos los valores que no tengan un alias especificado se reagrupan con la etiqueta **Otros**.
+Para crear un informe con esta enumeración, cree un cubo con la dimensión **[!UICONTROL Email domain]**. Elija la opción **[!UICONTROL Enable binning]** y, luego, **[!UICONTROL Dynamically link the values to an enumeration]**. A continuación, seleccione la enumeración **Dominios** como se muestra arriba. Todos los valores que no tengan un alias especificado se reagrupan con la etiqueta **Otros**.
 
 ![](assets/nmx_add_dimension.png)
 
@@ -123,7 +123,7 @@ Solo se debe modificar la enumeración para actualizar el informe relacionado. P
 
 ![](assets/nmx_add_alias.png)
 
-The **[!UICONTROL Domains]** enumeration is used to generate built-in reports that display the list of domains. Para adaptar el contenido de estos informes, se puede editar esta lista.
+La enumeración **[!UICONTROL Domains]** se utiliza para generar informes integrados que muestran la lista de dominios. Para adaptar el contenido de estos informes, se puede editar esta lista.
 
 Puede crear otras enumeraciones reservadas para agrupamiento y utilizarlas en otros cubos: todos los valores de alias se reagrupan en las bandejas especificadas en la primera pestaña de enumeración.
 
@@ -143,7 +143,7 @@ Los acumulados se definen en la pestaña correspondiente de cada cubo.
 
 Para crear un nuevo acumulado, siga los siguientes pasos:
 
-1. Haga clic en la **[!UICONTROL Aggregates]** ficha del cubo y, a continuación, haga clic en el **[!UICONTROL Add]** botón.
+1. Haga clic en la pestaña **[!UICONTROL Aggregates]** del cubo y, a continuación, haga clic en el botón **[!UICONTROL Add]**.
 
    ![](assets/s_advuser_cube_agregate_02.png)
 
@@ -152,12 +152,12 @@ Para crear un nuevo acumulado, siga los siguientes pasos:
    ![](assets/s_advuser_cube_agregate_03.png)
 
 1. Seleccione una dimensión y un nivel. Repita este proceso para cada dimensión y cada nivel.
-1. Click the **[!UICONTROL Workflow]** tab to create the aggregation workflow.
+1. Haga clic en la pestaña **[!UICONTROL Workflow]** para crear el flujo de trabajo de acumulación.
 
    ![](assets/s_advuser_cube_agregate_04.png)
 
-   * The **[!UICONTROL Scheduler]** activity lets you define the frequency of calculation updates. El planificador se detalla en [esta sección](../../workflow/using/scheduler.md).
-   * The **[!UICONTROL Aggregate update]** activity lets you select the update mode which you want to apply: full or partial.
+   * La actividad **[!UICONTROL Scheduler]** permite definir la frecuencia de las actualizaciones del cálculo. El planificador se detalla en [esta sección](../../workflow/using/scheduler.md).
+   * La actividad **[!UICONTROL Aggregate update]** permite seleccionar el modo de actualización que desea aplicar: completo o parcial.
 
       De forma predeterminada, se lleva a cabo una actualización completa durante cada cálculo. Para activar una actualización parcial, seleccione la opción correspondiente y defina las condiciones de actualización.
 
@@ -165,39 +165,39 @@ Para crear un nuevo acumulado, siga los siguientes pasos:
 
 ## Definición de medidas {#defining-measures}
 
-The types of measures are defined in the **[!UICONTROL Measures]** tab of the cube. Puede calcular sumas, promedios, desviaciones, etc.
+Los tipos de medidas se definen en la pestaña **[!UICONTROL Measures]** del cubo. Puede calcular sumas, promedios, desviaciones, etc.
 
 Puede crear tantas medidas como sea necesario: después, seleccione la medida que desee mostrar u ocultar en la tabla. Para más información, consulte [Muestra de medidas](#displaying-measures).
 
 Para definir una nueva medida, siga los siguientes pasos:
 
-1. Click the **[!UICONTROL Add]** button above the list of measures and select the type of measure and the formula to be calculated.
+1. Haga clic en el botón **[!UICONTROL Add]** situado encima de la lista de medidas y seleccione el tipo de medida y la fórmula que desea calcular.
 
    ![](assets/s_advuser_cube_create_a_measure.png)
 
 1. Si es necesario, y dependiendo el operador, elija la expresión correspondiente a la operación.
 
-   The **[!UICONTROL Advanced selection]** button lets you create complex calculation formulas. Para obtener más información, consulte [esta sección](../../platform/using/about-queries-in-campaign.md).
+   El botón **[!UICONTROL Advanced selection]** permite crear fórmulas de cálculo complejas. Para obtener más información, consulte [esta sección](../../platform/using/about-queries-in-campaign.md).
 
    ![](assets/s_advuser_cube_create_a_measure_01.png)
 
-1. The **[!UICONTROL Filter the measure data...]** link lets you restrict the calculation field and only apply it to specific data in the database.
+1. El vínculo **[!UICONTROL Filter the measure data...]** permite restringir el campo de cálculo y aplicarlo solo a datos específicos de la base de datos.
 
    ![](assets/s_advuser_cube_create_a_measure_02.png)
 
-1. Enter the label of the measure and add a description, then click **[!UICONTROL Finish]** to create it.
+1. Introduzca la etiqueta de la medida y añada una descripción; luego, haga clic en **[!UICONTROL Finish]** para crearla.
 
 ## Visualización de medidas {#displaying-measures}
 
 Se puede configurar la visualización de las medidas en la tabla según sus necesidades:
 
-* the display sequence of measures (refer to [Display sequence](#display-sequence)),
-* the information to show/hide in the report (refer to [Configuring the display](#configuring-the-display))
-* qué medidas se deben mostrar: porcentaje, total, número de decimales, etc. (consulte [Cambio del tipo de medida mostrada](#changing-the-type-of-measure-displayed)).
+* la secuencia de visualización de las medidas (consulte [Secuencia de visualización](#display-sequence)),
+* la información que se desea mostrar u ocultar en el informe (consulte [Configuración de la visualización](#configuring-the-display)),
+* qué medidas mostrar: porcentaje, total, número de decimales, etc. (consulte [Modificación del tipo de medida mostrada](#changing-the-type-of-measure-displayed)).
 
 ### Secuencia de visualización {#display-sequence}
 
-The measures calculated in the cube are configured via the **[!UICONTROL Measures]** button.
+Las medidas calculadas en el cubo se configuran mediante el botón **[!UICONTROL Measures]**.
 
 Mueva las líneas para cambiar la secuencia de visualización. En el ejemplo siguiente, los datos franceses se mueven al final de la lista: esto significa que se muestran en la última columna.
 
@@ -207,7 +207,7 @@ Mueva las líneas para cambiar la secuencia de visualización. En el ejemplo sig
 
 La configuración de las medidas, líneas y columnas se puede realizar individualmente para cada medida o en general. Un icono específico permite acceder a la ventana de selección del modo de visualización.
 
-* Haga clic en el **[!UICONTROL Edit the configuration of the pivot table]** icono para acceder a la ventana de configuración.
+* Haga clic en el icono **[!UICONTROL Edit the configuration of the pivot table]** para acceder a la ventana de configuración.
 
    Puede elegir si desea mostrar o no las etiquetas de las medidas, así como configurar su diseño (líneas o columnas).
 
@@ -227,7 +227,7 @@ En cada medida, se puede definir la unidad y el formato que se va a aplicar.
 
 Una vez configurado el informe, puede guardarlo y compartirlo con otros operadores.
 
-Para ello, haga clic en el **[!UICONTROL Show the report properties]** icono y habilite la **[!UICONTROL Share this report]** opción.
+Para ello, haga clic en el icono **[!UICONTROL Show the report properties]** y active la opción **[!UICONTROL Share this report]**.
 
 ![](assets/cube_share_option.png)
 
@@ -243,7 +243,7 @@ Es posible crear filtros para ver una sección de los datos.
 
 Para ello:
 
-1. Haga clic en el **[!UICONTROL Add a filter]** icono.
+1. Haga clic en el icono **[!UICONTROL Add a filter]**.
 
    ![](assets/neolap_add_filter.png)
 
@@ -269,7 +269,7 @@ Para ello:
 
 Cada vez que se modifica un filtro (añadir, eliminar, modificar), se debe volver a calcular el informe.
 
-Los filtros también se pueden crear en función de una selección. To do this, select your source cells, lines and columns, then click the **[!UICONTROL Add a filter]** icon.
+Los filtros también se pueden crear en función de una selección. Para ello, seleccione las celdas de origen, las líneas y las columnas y, a continuación, haga clic en el icono **[!UICONTROL Add a filter]**.
 
 Para seleccionar una línea, columna o celda, haga clic en ella. Para anular la selección, haga clic de nuevo.
 
