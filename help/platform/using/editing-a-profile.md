@@ -14,7 +14,7 @@ discoiquuid: 93dd29e8-cf0a-4010-a3cc-f68c52c0d9ef
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 51e4d72abf3a1f48700ca38566dbf06dd24594b8
 
 ---
@@ -46,7 +46,7 @@ Esta pantalla contiene todos los datos generales sobre el perfil seleccionado. E
 
 >[!NOTE]
 >
->When the **[!UICONTROL No longer contact (by any channel)]** option is selected, this means that the profile is blacklisted, i.e. the profile has expressed a wish not to be contacted (for example, by clicking an unsubscription link in a newsletter). Ya no serán identificados por los envíos de ningún canal (correo electrónico, correo postal, etc.). Para obtener más información, consulte [esta página](../../delivery/using/understanding-quarantine-management.md).
+>Una vez seleccionada la opción **[!UICONTROL No longer contact (by any channel)]**, significa que el perfil se encuentra en la lista negra; es decir, el perfil ha expresado su deseo de no ser contactado (por ejemplo, haciendo clic en un vínculo para dar de baja un boletín informativo). Ya no serán identificados por las entregas de ningún canal (correo electrónico, correo postal, etc.). Para obtener más información, consulte [esta página](../../delivery/using/understanding-quarantine-management.md).
 
 ## Ficha Contact information {#contact-information-tab}
 
@@ -54,11 +54,11 @@ Esta pantalla contiene la dirección de correo directa del perfil seleccionado. 
 
 ![](assets/s_ncs_user_profile_details_tab.png)
 
-Esta pantalla muestra el índice de calidad de la dirección, así como la cantidad de errores que contiene la dirección. Esta información la utiliza directamente el transportista de correo en función del número de errores encontrados durante los envíos anteriores y no se puede editar manualmente.
+Esta pantalla muestra el índice de calidad de la dirección, así como la cantidad de errores que contiene la dirección. Esta información la utiliza directamente el transportista de correo en función del número de errores encontrados durante las entregas anteriores y no se puede editar manualmente.
 
 ## Ficha Other {#other-tab}
 
-Esta pantalla contiene campos definidos por el usuario que pueden personalizarse según los requisitos. You can also change the names of the fields and define their format, via **[!UICONTROL Field properties...]**, as shown below:
+Esta pantalla contiene campos definidos por el usuario que pueden personalizarse según los requisitos. También puede cambiar los nombres de los campos y definir su formato mediante **[!UICONTROL Field properties...]**, como se muestra a continuación:
 
 ![](assets/s_ncs_user_profile_others_tab.png)
 
@@ -92,11 +92,11 @@ Esta pantalla muestra los &quot;logs&quot; de envío del perfil seleccionado. Ta
 
 ## Ficha Tracking {#tracking-tab}
 
-Esta pantalla permite ver los &quot;logs&quot; de seguimiento del perfil seleccionado. Esta información se utiliza para rastrear el comportamiento del perfil que sigue a los envíos.
+Esta pantalla permite ver los &quot;logs&quot; de seguimiento del perfil seleccionado. Esta información se utiliza para rastrear el comportamiento del perfil que sigue a las entregas.
 
 ![](assets/s_ncs_user_profile_tracking_tab.png)
 
-Esta ficha muestra el total acumulado de todas las direcciones URL rastreadas en los envíos.
+Esta ficha muestra el total acumulado de todas las direcciones URL rastreadas en las entregas.
 
 La lista se puede configurar y normalmente contiene la dirección URL, la fecha y la hora en que se hizo clic, y el documento que contiene la dirección URL.
 
