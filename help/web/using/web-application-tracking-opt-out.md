@@ -14,7 +14,7 @@ discoiquuid: 8f413002-bd32-426f-88b9-44cefae68593
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 
 ---
@@ -36,7 +36,7 @@ Adobe Campaign incluye un banner de muestra que debe adaptar a sus necesidades. 
 >
 >Para crear su propio banner, debe personalizar el banner predeterminado.
 
-Para activar el banner, debe configurar las propiedades de la aplicación web. Consulte la sección [Diseño de una aplicación](../../web/using/designing-a-web-application.md) web.
+Para activar el banner, debe configurar las propiedades de la aplicación web. Consulte la sección [Diseño de una aplicación web](../../web/using/designing-a-web-application.md).
 
 Si el seguimiento web está activado, puede darse lo siguiente:
 
@@ -81,14 +81,14 @@ El nombre de la cookie es **acoptout**. Los valores comunes son:
 
 Las API de cliente disponibles para personalizar el banner son:
 
-* **NL.ClientWebTracking.allow()**: Establece el valor de la cookie de exclusión para permitir el seguimiento Web. El seguimiento web se permite de forma predeterminada.
-* **NL.ClientWebTracking.forbid()**: Establece el valor de la cookie de exclusión para prohibir el seguimiento Web. El seguimiento web necesita la entrada de un usuario para prohibirlo.
-* **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)**: Cierra el letrero de la cookie de exclusión después de que el usuario haya hecho clic en el botón Aceptar o Rechazar. (durante la fase de propagación del evento de clic).
+* **NL.ClientWebTracking.allow()**: Define el valor de la cookie de exclusión para permitir el seguimiento web. El seguimiento web se permite de forma predeterminada.
+* **NL.ClientWebTracking.forbid()**: Establece el valor de la cookie de exclusión para prohibir el seguimiento web. El seguimiento web necesita la entrada de un usuario para prohibirlo.
+* **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)**: Cierra el banner de la cookie de exclusión cuando el usuario ha hecho clic en el botón Aceptar o Rechazar. (durante la fase de propagación del evento de clic).
 
    bannerDomElt {DOMElement}: el elemento DOM raíz del banner de la cookie que debe eliminarse.
 
-* **NL.ClientWebTracking.hasUserPrefs()**: Devuelve true si el usuario ha seleccionado sus preferencias para el seguimiento Web.
-* **NL.ClientWebTracking.getUserPrefs()**: Devuelve el valor de la cookie de exclusión que define las preferencias del usuario.
+* **NL.ClientWebTracking.hasUserPrefs()**: Devuelve el valor verdadero si el usuario ha elegido sus preferencias de seguimiento web.
+* **NL.ClientWebTracking.getUserPrefs()**: Devuelve el valor de cookie de exclusión que define las preferencias del usuario.
 
 Si tiene que escribir una JSSP, las API de servidor están disponibles:
 
