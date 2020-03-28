@@ -14,7 +14,7 @@ discoiquuid: 39d8ddcd-7fae-44fa-8a49-c3ad999e7903
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
@@ -34,7 +34,7 @@ Se añade a los detalles de la solicitud coincidente y se puede editar. El table
 
 ![](assets/mkg_dist_local_op_edit_new_op1.png)
 
-The campaign remains accessible in the Campaign overview, located via the **[!UICONTROL Campaigns]** link on the home page.
+Se puede acceder a la campaña desde la información general de la Campaign, a la que se puede acceder a través del vínculo **[!UICONTROL Campaigns]** en la página principal.
 
 ## Ajustes disponibles {#available-settings}
 
