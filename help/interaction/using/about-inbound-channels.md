@@ -14,7 +14,7 @@ discoiquuid: 9469495c-9e46-4fd8-826d-1b7227326ce1
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5489e09303920bf5bd3dcd08263dc3c945d151c1
 
 ---
@@ -28,7 +28,7 @@ Las ofertas se pueden presentar en varios espacios de ofertas utilizando un cana
 >
 >También puede ver este [vídeo](https://helpx.adobe.com/campaign/classic/how-to/deliver-an-offer-on-inbound-channel-in-acv6.html) en el que se explica cómo ofrecer una oferta en un canal de entrada.
 
-In order for an offer to be selected by the offer engine, it has to be approved and be available in a live environment For more on this, refer to [Approving and activating an offer](../../interaction/using/approving-and-activating-an-offer.md).
+Para que el motor de oferta pueda seleccionar una oferta, debe aprobarse y estar disponible en un entorno en directo. Para obtener más información, consulte [Aprobar y activar una oferta](../../interaction/using/approving-and-activating-an-offer.md).
 
 Cuando un contacto es entrante, hay dos posibles resultados. El primero es cuando el sitio en el que está navegando no identifica el usuario y el segundo es cuando lo identifica. El motor de oferta presenta diferentes ofertas según si se identifica o no el usuario.
 
@@ -38,4 +38,4 @@ Antes de poder presentar ofertas en un canal entrante, se debe configurar la lla
 >
 >Para las interacciones entrantes, se debe configurar específicamente el motor de oferta para presentar y actualizar una o varias ofertas.
 >
->Asimismo, se debe activar el modo unitario en los espacios de oferta. Para obtener más información sobre esto, consulte la sección [Creación de espacios](../../interaction/using/creating-offer-spaces.md) de ofertas.
+>Asimismo, se debe activar el modo unitario en los espacios de oferta. Para obtener más información, consulte la sección [Crear espacios de oferta](../../interaction/using/creating-offer-spaces.md).
