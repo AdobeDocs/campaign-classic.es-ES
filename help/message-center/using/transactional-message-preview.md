@@ -14,7 +14,7 @@ discoiquuid: 3bc88f9c-cc42-4bf6-a318-0093c73e4d82
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
@@ -24,11 +24,11 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 Una vez que haya creado una o varias direcciones semilla y el cuerpo del mensaje, puede obtener una vista previa del mensaje y comprobar su personalización.
 
-1. In the message template, click the **[!UICONTROL Preview]** tab.
+1. En la plantilla del mensaje, haga clic en la pestaña **[!UICONTROL Preview]**.
 
    ![](assets/messagecenter_preview_001.png)
 
-1. Seleccione **[!UICONTROL A seed address]** en la lista desplegable.
+1. Seleccione **[!UICONTROL A seed address]** de la lista desplegable.
 
    ![](assets/messagecenter_preview_002.png)
 
