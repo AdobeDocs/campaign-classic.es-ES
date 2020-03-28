@@ -14,7 +14,7 @@ discoiquuid: 716de3cb-7ec9-454b-9e8f-0b134388687c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 # Acerca de los informes de mensajería transaccional{#about-transactional-messaging-reports}
 
-Adobe Campaign ofrece varios informes que permiten controlar la actividad y la ejecución continua de las instancias de ejecución. These Message Center reports can be accessed from the **[!UICONTROL Reports]** tab of the control instance.
+Adobe Campaign ofrece varios informes que permiten controlar la actividad y la ejecución continua de las instancias de ejecución. Se puede acceder a estos informes del centro de mensajería desde la pestaña **[!UICONTROL Reports]** de la instancia de control.
 
 ![](assets/messagecenter_reporting_002.png)
 
