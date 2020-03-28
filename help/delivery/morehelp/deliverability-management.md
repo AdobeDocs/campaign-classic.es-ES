@@ -1,6 +1,6 @@
 ---
-title: Administración de la capacidad de envío
-seo-title: Administración de la capacidad de envío
+title: Administración de la capacidad de entrega
+seo-title: Administración de la capacidad de entrega
 description: 'null'
 seo-description: 'null'
 page-status-flag: never-activated
@@ -11,11 +11,11 @@ iscontainer: true
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
 
 
-# Administración de la capacidad de envío{#deliverability-management}
+# Administración de la capacidad de entrega{#deliverability-management}
 
