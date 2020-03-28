@@ -1,6 +1,6 @@
 ---
-title: Acerca de la capacidad de entrega en Adobe Campaign Classic
-description: Obtenga más información sobre la administración de la capacidad de entrega en Adobe Campaign Classic.
+title: Acerca de la capacidad de envío en Adobe Campaign Classic
+description: Obtenga más información sobre la administración de la capacidad de envío en Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: 2681042b-3018-42ae-b252-2367b56616bd
 contentOwner: sauviat
@@ -12,24 +12,24 @@ discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68756f920fbc8658cff552615adbf023b4c5e3aa
 
 ---
 
 
-# Acerca de la capacidad del envío{#about-deliverability}
+# Acerca de la capacidad de la entrega{#about-deliverability}
 
-Adobe Campaign ofrece un cierto número de herramientas para rastrear el rendimiento de la entrega de su plataforma. Esta sección también resalta los principios principales que debe tener en cuenta al administrar y optimizar la capacidad de entrega.
+Adobe Campaign ofrece herramientas para hacer un seguimiento de la capacidad de envío de su plataforma. Esta sección también resalta los principios principales que debe tener en cuenta al administrar y optimizar la capacidad de entrega.
 
 ## Configuración {#configuration}
 
 Esta función está disponible a través de un paquete dedicado en Adobe Campaign. Para utilizarlo, este paquete debe estar instalado. Una vez finalizado, reinicie el servidor para que el paquete se tenga en cuenta.
-* Para los clientes alojados e híbridos, el servicio de asistencia técnica y los consultores de Adobe configuran la supervisión **de la** entrega en su instancia. Para obtener más información, póngase en contacto con su administrador de cuentas de Adobe.
+* Para los clientes alojados e híbridos, el servicio de asistencia técnica y los consultores de Adobe configuran la **supervisión de la entrega** en su instancia. Para obtener más información, póngase en contacto con su administrador de cuentas de Adobe.
 
-* Para las instalaciones in situ, debe instalar el **[!UICONTROL Deliverability monitoring (Email Deliverability)]** paquete a través del menú **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** . Para obtener más información sobre esto, consulte [Instalación de paquetes](../../installation/using/installing-campaign-standard-packages.md)estándar de Campaign Classic.
+* Para las instalaciones in situ, debe instalar el paquete de supervisión de **[!UICONTROL entrega (Capacidad de entrega de correos electrónicos)]** mediante el menú **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]**. Para obtener más información, consulte [Instalación de paquetes estándar de Campaign Classic](../../installation/using/installing-campaign-standard-packages.md).
 
-En Adobe Campaign Classic, la supervisión **de la** entrega se gestiona mediante el **[!UICONTROL Refresh for deliverability]** flujo de trabajo. Se instala de forma predeterminada en todas las instancias y le permite inicializar la lista de reglas de calificación de correo de devolución, la lista de dominios y la lista de MX. Una vez instalado el **[!UICONTROL Deliverability monitoring (Email Deliverability)]** paquete, este flujo de trabajo se ejecuta todas las noches para actualizar regularmente la lista de reglas y le permite administrar de forma activa la capacidad de entrega de la plataforma.
+En Adobe Campaign Classic, la **supervisión de la entrega** se administra mediante el flujo de trabajo de **[!UICONTROL Refresh for deliverability]**. El flujo de trabajo se instala de manera predeterminada en todas las instancias y le permite inicializar la lista de reglas de cualificación de correos rechazados, la lista de dominios y la lista de MX. Una vez instalado el paquete de **[!UICONTROL supervisión de entrega (Capacidad de entrega de correos electrónicos)]**, este flujo de trabajo se ejecuta todas las noches para actualizar regularmente la lista de reglas y le permite administrar activamente la capacidad de entrega de la plataforma.
 
 ## Contexto {#background}
 
@@ -45,6 +45,6 @@ Al conformarse con una capacidad de envío media (80 %), los especialistas en m
 
 ¿Qué es exactamente la capacidad de envío de correo electrónico? ¿Y cómo pueden los vendedores mejorar los porcentajes de envío para ensanchar la parte ancha del embudo y mejorar los resultados de sus campañas de correo electrónico?
 
-La capacidad de envío de correo electrónico hace referencia al conjunto de características que determinan la capacidad de un mensaje para llegar a su destino a través de una dirección de correo electrónico personal, en poco tiempo y con la calidad esperada en términos de contenido y formato. Estas características se dividen en cuatro categorías principales: calidad de datos, mensaje y contenido, infraestructura de envío y reputación. Juntas forman la base del éxito de un programa de envío de correo electrónico. Esta información general describe los cuatro fundamentos del éxito del envío de correos electrónicos y ofrece recomendaciones para llegar a la bandeja de entrada e impulsar unos mayores ingresos de los programas de marketing por correo electrónico.
+La capacidad de envío de correo electrónico hace referencia al conjunto de características que determinan la capacidad de un mensaje para llegar a su destino a través de una dirección de correo electrónico personal, en poco tiempo y con la calidad esperada en términos de contenido y formato. Estas características se dividen en cuatro categorías principales: calidad de datos, mensaje y contenido, infraestructura de envío y reputación. Juntas forman la base del éxito de un programa de envío de correo electrónico. Esta información general describe los cuatro fundamentos del éxito de la entrega de correos electrónicos y ofrece recomendaciones para llegar a la bandeja de entrada e impulsar unos mayores ingresos de los programas de marketing por correo electrónico.
 
 ![](assets/deliverability_overview_2.png)
