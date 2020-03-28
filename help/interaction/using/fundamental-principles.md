@@ -14,7 +14,7 @@ discoiquuid: 695cf33f-1cc7-4ae8-8ef6-05aa65219411
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -30,7 +30,7 @@ Para cada dimensión de segmentación existen dos entornos utilizados al gestion
 
    Las categorías también se pueden publicar manualmente en el entorno en línea.
 
-   El proceso de aprobación de ofertas se detalla en la sección [Aprobación y activación de ofertas](../../interaction/using/approving-and-activating-an-offer.md) .
+   El proceso de aprobación de ofertas se detalla en la sección [Aprobación y activación de ofertas](../../interaction/using/approving-and-activating-an-offer.md).
 
 * Un entorno interactivo en el que se pueden encontrar ofertas aprobadas del entorno de diseño, así como los diversos espacios de ofertas, filtros, categorías y reglas configuradas en el entorno de diseño. Durante el acceso al motor de oferta, este siempre utiliza las ofertas del entorno interactivo.
 
