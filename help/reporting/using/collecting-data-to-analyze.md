@@ -14,7 +14,7 @@ discoiquuid: 594a333d-1fc3-49a0-b3f6-7ea8fa4321e9
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0c41cf2f35495a1514642e47f0b7146d8dd50946
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 0c41cf2f35495a1514642e47f0b7146d8dd50946
 
 # Recopilación de datos para analizar{#collecting-data-to-analyze}
 
-The data to be used for building the report can be selected directly in the report page (for more on this, refer to [Using the context](../../reporting/using/using-the-context.md)) or collected via one or more queries.
+Los datos que se utilizan para crear el informe pueden seleccionarse directamente en la página del informe (para más información, consulte [) o recopilarse mediante una o más consultas.](../../reporting/using/using-the-context.md)
 
 Esta actividad ofrece tres métodos diferentes:
 
@@ -32,11 +32,11 @@ Esta actividad ofrece tres métodos diferentes:
 
 La elección del método depende del tipo de cálculo, el volumen de datos y su durabilidad, etc. Todos estos parámetros deben examinarse con cuidado para evitar sobrecargar la base de datos de Adobe Campaign y para optimizar la generación y manipulación de los informes creados. Para obtener más información, consulte [esta página](../../reporting/using/best-practices.md#optimizing-report-creation).
 
-In all cases, data is collected via a **[!UICONTROL Query]** type activity.
+En todos los casos, los datos se recopilan mediante una actividad de tipo **[!UICONTROL Query]**.
 
 ![](assets/reporting_query_edit.png)
 
-Este modo de selección de datos es adecuado cuando es necesario recopilar o crear los datos del informe utilizando los datos de la base de datos. En algunos casos, también puede seleccionar los datos directamente desde los elementos utilizados en el informe. Por ejemplo, al insertar un gráfico puede seleccionar los datos de origen directamente. For more on this, refer to [Using the context](../../reporting/using/using-the-context.md).
+Este modo de selección de datos es adecuado cuando es necesario recopilar o crear los datos del informe utilizando los datos de la base de datos. En algunos casos, también puede seleccionar los datos directamente desde los elementos utilizados en el informe. Por ejemplo, al insertar un gráfico puede seleccionar los datos de origen directamente. Para obtener más información, consulte [Uso del contexto](../../reporting/using/using-the-context.md).
 
 ## Uso de los datos de un esquema {#using-the-data-from-a-schema}
 
@@ -50,11 +50,11 @@ El ejemplo siguiente permite recopilar el número de destinatarios de cada país
 
 Para crear un informe, puede utilizar datos de una lista de datos importados.
 
-To do this, select the **[!UICONTROL Use an imported list]** option in the query box and select the concerned list.
+Para ello, seleccione la opción **[!UICONTROL Use an imported list]** en el cuadro de consulta y seleccione la lista correspondiente.
 
 ![](assets/reporting_query_from_list.png)
 
-Click the **[!UICONTROL Edit query...]** link to define the data to collect among the elements in this list for building the report.
+Haga clic en el vínculo **[!UICONTROL Edit query...]** para definir los datos que desea recopilar entre los elementos de esta lista para crear el informe.
 
 ## Uso de un cubo {#using-a-cube}
 
@@ -64,7 +64,7 @@ Se puede seleccionar un cubo para definir la consulta.
 
 Los cubos permiten ampliar la capacidad de análisis y exploración de la base de datos al mismo tiempo que facilitan la configuración de los informes y las tablas para los usuarios finales: simplemente seleccione un cubo ya existente y completamente configurado y utilice sus cálculos, medidas y estadísticas. Para obtener más información sobre la creación de cubos, consulte [esta sección](../../reporting/using/about-cubes.md).
 
-Click the **[!UICONTROL Edit query...]** link and select the indicators that you want to display or use in your report.
+Haga clic en el vínculo **[!UICONTROL Edit query...]** y seleccione los indicadores que desee visualizar o utilizar en el informe.
 
 ![](assets/reporting_query_from_cube_edit_query.png)
 
@@ -74,9 +74,9 @@ Para evitar la ejecución de consultas en toda la base de datos, es necesario fi
 
 ### Filtro simplificado {#simplified-filter}
 
-You can select the **[!UICONTROL Filter automatically with the context]** option to make the report accessible via a specific node of the tree such as a list, a recipient, or a delivery.
+Puede seleccionar la opción **[!UICONTROL Filter automatically with the context]** para poder acceder al informe a través de un nodo específico del árbol, como una lista, un destinatario o una entrega.
 
-The **[!UICONTROL Filter with the folder]** option lets you specify a folder and take into account only its contents. Esto permite filtrar los datos del informe para mostrar solo los datos de una de las carpetas del árbol, como se muestra a continuación:
+La opción **[!UICONTROL Filter with the folder]** permite especificar una carpeta y tener en cuenta únicamente su contenido. Esto permite filtrar los datos del informe para mostrar solo los datos de una de las carpetas del árbol, como se muestra a continuación:
 
 ![](assets/reporting_control_folder.png)
 
@@ -85,5 +85,5 @@ The **[!UICONTROL Filter with the folder]** option lets you specify a folder and
 Configure el número de registros que desea que extraiga la consulta a través de las opciones de limitación de resultados:
 
 * **[!UICONTROL Limit to first record]** para extraer un resultado,
-* **[!UICONTROL Size]** para extraer un número establecido de registros.
+* **[!UICONTROL Size]** para extraer un número determinado de registros.
 
