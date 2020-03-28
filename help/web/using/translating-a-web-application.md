@@ -14,7 +14,7 @@ discoiquuid: 328e5b2f-8596-4eda-8ac5-57cb29bfb691
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 
 ---
@@ -24,11 +24,11 @@ source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 
 Puede traducir páginas de aplicaciones web creadas con el editor de contenido digital (DCE) de Adobe Campaign.
 
-If you select at least one additional language via the **[!UICONTROL Localization]** tab in the **[!UICONTROL Properties]** of a Web application, a new option becomes available when adding an HTML content block in a page edited with DCE.
+Si, en la opción **[!UICONTROL Properties]** de una aplicación web, selecciona al menos un idioma adicional en la pestaña **[!UICONTROL Localization]**, se muestra una nueva opción al añadir un bloque de contenido HTML en una página editada con DCE.
 
 Esta opción le permite indicar si el contenido del bloque debe traducirse o no.
 
-Strings to be translated are collected the same way as the other strings of the Web application, via the **[!UICONTROL Translations]** tab of the application. Para obtener más información, consulte [esta página](../../web/using/translating-a-web-form.md).
+Las cadenas que desea traducir se recopilan del mismo modo que las otras cadenas de la aplicación web, a través de la pestaña **[!UICONTROL Translations]** de la aplicación. Para obtener más información, consulte [esta página](../../web/using/translating-a-web-form.md).
 
 Para marcar las cadenas que se deben traducir:
 
@@ -37,7 +37,7 @@ Para marcar las cadenas que se deben traducir:
    ![](assets/dce_translation_3.png)
 
 1. Seleccione un bloque HTML.
-1. In the parameters block on the right, the **[!UICONTROL Localization]** option lets you flag the content of the selected block. De forma predeterminada, solo se debe traducir el título de la página.
+1. En el bloque de parámetros de la derecha, la opción **[!UICONTROL Localization]** le permite marcar el contenido del bloque seleccionado. De forma predeterminada, solo se debe traducir el título de la página.
 
    ![](assets/dce_translation_1.png)
 
@@ -45,7 +45,7 @@ Para marcar las cadenas que se deben traducir:
    >
    >Las cadenas no deben superar los 1023 caracteres.
 
-   Existen tres casos específicos:
+   Hay tres casos específicos:
 
    * Cuando el bloque seleccionado contiene varias cadenas o bloques, se marca como una sola cadena que se debe traducir. Entonces, la cadena contiene el código HTML de los elementos de este bloque.
    * Cuando se desea marcar un bloque que contiene varias cadenas y al menos una de ellas está marcada, se muestra un mensaje de advertencia. A continuación, se puede eliminar la marca de la cadena aislada y añadir el bloque completo.
@@ -56,8 +56,8 @@ Para marcar las cadenas que se deben traducir:
 
       ![](assets/dce_translation_2.png)
 
-1. Once you have finished flagging the strings, go back to the Web application and select the **[!UICONTROL Translations]** tab.
-1. Select **[!UICONTROL Collect the strings to translate]**. Las cadenas marcadas en el DCE se añaden a las cadenas de la aplicación web.
+1. Cuando haya terminado de marcar las cadenas, vuelva a la aplicación web y seleccione la pestaña **[!UICONTROL Translations]**.
+1. Seleccione **[!UICONTROL Collect the strings to translate]**. Las cadenas marcadas en el DCE se añaden a las cadenas de la aplicación web.
 
    >[!NOTE]
    >
@@ -65,5 +65,5 @@ Para marcar las cadenas que se deben traducir:
 
 1. Traducción y aprobación de las cadenas.
 
-   You can then preview the translations by selecting the desired language from the **[!UICONTROL Preview]** tab in the Web application.
+   Se pueden previsualizar las traducciones seleccionando el idioma deseado en la pestaña **[!UICONTROL Preview]** de la aplicación Web.
 
