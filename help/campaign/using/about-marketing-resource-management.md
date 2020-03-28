@@ -14,7 +14,7 @@ discoiquuid: 6101e083-3754-41e1-8a93-021b1a771dc0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
 ## Introducción {#introduction}
 
-The **Marketing Resource Management (MRM)** module lets you control marketing actions in a collaborative mode by providing complete management and real-time tracking of the tasks, budgets and marketing resources involved.
+El módulo **Marketing Resource Management (MRM)** permite controlar las acciones de marketing de forma cooperativa mediante la administración completa y el seguimiento en tiempo real de las tareas, los presupuestos y los recursos de marketing implicados.
 
 Los operadores de Adobe Campaign pueden coordinar sus acciones y aprobar el progreso en todas las etapas a través de procesos de validación completos y herramientas de seguimiento adecuadas: los informes, el seguimiento de aprobaciones, las notificaciones, los foros de debate, etc. se muestran en el evento, el error o el retraso y en cada etapa del ciclo de validación.
 
@@ -48,7 +48,7 @@ En el contexto de Adobe Campaign, deben definirse los siguientes conceptos:
 
    Adobe Campaign permite realizar un seguimiento del progreso de los proyectos de marketing de colaboración como, por ejemplo, medios de comunicación, planes de acciones, boletines informativos, etc. El ciclo de creación y aprobación de estos recursos de marketing se puede rastrear desde el panel de recursos hasta su publicación.
 
-   Para obtener más información sobre esto, consulte [Administración de recursos](../../campaign/using/managing-marketing-resources.md)de mercadotecnia.
+   Para obtener más información, consulte [Administrar recursos de marketing](../../campaign/using/managing-marketing-resources.md),
 
 ## Facilidad de uso {#user-friendliness}
 
@@ -56,13 +56,13 @@ En el contexto de Adobe Campaign, deben definirse los siguientes conceptos:
 >
 >Para obtener más información sobre el área de trabajo de Adobe Campaign, consulte [esta sección](../../platform/using/adobe-campaign-workspace.md).
 >  
->En [esta sección](../../delivery/using/communication-channels.md) se describen todas las funciones vinculadas a los envíos y la administración de perfiles.
+>En [esta sección](../../delivery/using/communication-channels.md) se describen todas las funciones vinculadas a las entregas y la administración de perfiles.
 >
->Todas las funcionalidades relacionadas con la campaña se detallan en [Acceso a las campañas](../../campaign/using/accessing-marketing-campaigns.md)de mercadotecnia.
+>Todas las funcionalidades relacionadas con la campaña se detallan en [Acceso a las campañas de marketing](../../campaign/using/accessing-marketing-campaigns.md).
 
 Además, los planes y programas de Adobe Campaign ofrecen funciones adicionales:
 
-* Gestión del presupuesto. For more on this, refer to [Controlling costs](../../campaign/using/controlling-costs.md),
+* Gestión del presupuesto. Para obtener más información, consulte [Control de costes](../../campaign/using/controlling-costs.md),
 * Administración de tareas. Para obtener más información sobre esto, consulte [Creación y administración de tareas](../../campaign/using/creating-and-managing-tasks.md),
-* Gestión de recursos de marketing. Para obtener más información sobre esto, consulte [Administración de recursos](../../campaign/using/managing-marketing-resources.md)de mercadotecnia.
+* Gestión de recursos de marketing. Para obtener más información, consulte [Administrar recursos de marketing](../../campaign/using/managing-marketing-resources.md),
 
