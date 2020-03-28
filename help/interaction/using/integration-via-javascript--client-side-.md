@@ -14,7 +14,7 @@ discoiquuid: 7453d768-31eb-4372-aae3-27527cd5c79b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -22,9 +22,9 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 # Integración mediante JavaScript (lado del cliente){#integration-via-javascript-client-side}
 
-Para llamar al motor de interacción en una página web, inserte una llamada a un código JavaScript directamente en la página. Esta llamada devuelve el contenido de la oferta en un objetivo
+Para llamar al motor de interacción en una página web, inserte una llamada a un código JavaScript directamente en la página. Esta llamada devuelve el contenido de la oferta en un elemento de destino.
 
-elemento.
+Elemento.
 
 Adobe recomienda utilizar el método de integración de JavaScript.
 
@@ -56,7 +56,8 @@ Los siguientes casos de uso detallan las posibles opciones para integrar ofertas
 
    La página HTML debe incluir un
 
-   con un atributo @id con el valor del nombre interno del espacio de oferta creado (&quot;espacio de nombre i_internal&quot;). La oferta se insertará en este elemento mediante Interacción.
+   elemento con un atributo @id con el valor del nombre interno del espacio de oferta creado (“espacio de nombre i_internal”). La oferta se insertará en este 
+elemento mediante interacción.
 
    En este ejemplo, el atributo @id recibe el valor “i_SPC12”, donde “SPC12” es el nombre interno del espacio de oferta creado anteriormente:
 
@@ -72,7 +73,7 @@ Los siguientes casos de uso detallan las posibles opciones para integrar ofertas
 
    >[!CAUTION]
    >
-   >The `<script>` tag must not be self-closing.
+   >La etiqueta `<script>` no debe ser de cierre automático.
 
    Esta llamada estática genera automáticamente una llamada dinámica que contiene todos los parámetros necesarios para el motor de interacción.
 
@@ -106,7 +107,7 @@ Los siguientes casos de uso detallan las posibles opciones para integrar ofertas
 
 ### Presentación de una oferta identificada {#presenting-an-identified-offer}
 
-To present an offer to an identified contact, the process is similar as the one detailed here: [Presenting an anonymous offer](#presenting-an-anonymous-offer). En el contenido de la página web, se debe añadir la siguiente secuencia de comandos que va a identificar al contacto durante la llamada al motor:
+Para presentar una oferta a un contacto identificado, el proceso es similar al que se detalla en: [Presentación de una oferta anónima](#presenting-an-anonymous-offer). En el contenido de la página web, se debe añadir la siguiente secuencia de comandos que va a identificar al contacto durante la llamada al motor:
 
 ```
 <script type="text/javascript">
@@ -114,7 +115,7 @@ To present an offer to an identified contact, the process is similar as the one 
 </script>
 ```
 
-1. Go to the offer space that will be called up by the web page, click **[!UICONTROL Advanced parameters]** and add one or more identification keys.
+1. Vaya al espacio de oferta que la página web va a llamar, haga clic en **[!UICONTROL Advanced parameters]** y añada una o más claves de identificación.
 
    ![](assets/interaction_htmlmode_001.png)
 
@@ -134,9 +135,9 @@ To present an offer to an identified contact, the process is similar as the one 
 
 Para generar la representación de oferta HTML automáticamente, se puede utilizar una función de renderización.
 
-1. Go to the offer space and click the **[!UICONTROL Edit functions]** link.
-1. Select **[!UICONTROL Overload the HTML rendering function]**.
-1. Go to the **[!UICONTROL HTML rendering]** tab and insert the variables that match the fields defined for the offer content in the offer space.
+1. Vaya al espacio de la oferta y haga clic en el vínculo **[!UICONTROL Edit functions]**.
+1. Seleccione **[!UICONTROL Overload the HTML rendering function]**.
+1. Vaya a la pestaña **[!UICONTROL HTML rendering]** e inserte las variables que coincidan con los campos definidos para el contenido de oferta en el espacio de oferta.
 
    ![](assets/interaction_htmlmode_002.png)
 
@@ -181,13 +182,13 @@ El siguiente caso de uso detalla las configuraciones que se deben realizar en Ad
 
 1. **Creación de un entorno y un espacio de oferta**
 
-   Para obtener más información sobre la creación de un entorno, consulte [Live/Design environment](../../interaction/using/live-design-environments.md).
+   Para obtener más información sobre la creación de un entorno, consulte [Entornos en vivo/de diseño](../../interaction/using/live-design-environments.md).
 
-   For more on creating an offer space, refer to [Creating offer spaces](../../interaction/using/creating-offer-spaces.md).
+   Para obtener más información sobre la creación de un espacio de oferta, consulte [Creación de espacios de oferta](../../interaction/using/creating-offer-spaces.md).
 
 1. **Ampliación del esquema de oferta para agregar nuevos campos**
 
-   Este esquema definirá los siguientes campos: Título número 2 y precio.
+   Este esquema va a definir los siguientes campos: Título número 2 y precio.
 
    El nombre del esquema en el ejemplo es **cus:offer**
 
@@ -222,9 +223,7 @@ El siguiente caso de uso detalla las configuraciones que se deben realizar en Ad
 
    >[!NOTE]
    >
-   >Puede ampliar el esquema de oferta para añadir
-								nuevos campos tanto en el lote como en el modo unitario, y en 
-								cualquier formato (texto, HTML y XML).
+   >Puede ampliar el esquema de oferta para añadir nuevos campos tanto en el lote como en el modo unitario, y en cualquier formato (texto, HTML y XML).
 
 1. **Ampliación de la fórmula de oferta para editar nuevos campos y modificar un campo existente**
 
@@ -268,13 +267,13 @@ El siguiente caso de uso detalla las configuraciones que se deben realizar en Ad
 
    >[!CAUTION]
    >
-   >The fields of the ( `<input>`) form must point to the CDATA type elements defined in the created schema.
+   >Los campos del formulario (`<input>`) deben señalar a los elementos de tipo CDATA definidos en el esquema creado.
 
    La renderización en el formulario de representaciones de oferta tiene este aspecto:
 
    ![](assets/interaction_xmlmode_form.png)
 
-   Se han agregado los campos **[!UICONTROL Title 2]** y **[!UICONTROL Price]** y ya no se muestra el **[!UICONTROL Destination URL]** campo.
+   Se han añadido los campos **[!UICONTROL Title 2]** y **[!UICONTROL Price]** y ya no se muestra el campo **[!UICONTROL Destination URL]**.
 
 1. **Creación de una oferta**
 
@@ -319,9 +318,9 @@ El siguiente caso de uso detalla las configuraciones que se deben realizar en Ad
 
 Es posible utilizar una función de renderización XML para crear una presentación de oferta. Esta función modifica el nodo XML que se devuelve a la página HTML durante la llamada al motor.
 
-1. Go to the offer space and click the **[!UICONTROL Edit functions]** link.
-1. Select **[!UICONTROL Overload the XML rendering function]**.
-1. Go to the **[!UICONTROL XML rendering]** tab and insert the desired function.
+1. Vaya al espacio de la oferta y haga clic en el vínculo **[!UICONTROL Edit functions]**.
+1. Seleccione **[!UICONTROL Overload the XML rendering function]**.
+1. Vaya a la pestaña **[!UICONTROL XML rendering]** e inserte la función deseada.
 
    La función puede tener este aspecto:
 
