@@ -14,7 +14,7 @@ discoiquuid: 798409af-b236-4bb5-ac0f-90f0a19db345
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
@@ -22,12 +22,11 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 # Restricción de tiempo{#time-constraint}
 
-La **restricción de tiempo** permite posponer 
-        la ejecución de una tarea o dejarla.
+La **restricción de tiempo** permite posponer la ejecución de una tarea o dejarla.
 
 Introduzca la etiqueta para la actividad y especifique el intervalo de tiempo durante el cual se debe pausar la tarea de flujo de trabajo.
 
-Cuando la **[!UICONTROL Try again later if outside of execution period]** opción está seleccionada, le permite volver a iniciar la tarea fuera del intervalo de tiempo de ejecución. si desea que la acción de flujo de trabajo se abandone definitivamente después de la suspensión, anule la selección de esta opción.
+Cuando se selecciona la opción **[!UICONTROL Try again later if outside of execution period]**, permite volver a iniciar la tarea fuera del lapso de tiempo de ejecución. si desea que la acción de flujo de trabajo se abandone definitivamente después de la suspensión, anule la selección de esta opción.
 
 ![](assets/s_user_scheduled_wait.png)
 
