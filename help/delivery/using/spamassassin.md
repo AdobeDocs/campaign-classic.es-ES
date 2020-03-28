@@ -14,7 +14,7 @@ discoiquuid: d41658ab-ee79-4a5c-a165-d94b81eb2b33
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ---
@@ -46,8 +46,8 @@ Una vez que haya creado su envío de correo electrónico y haya definido su cont
 
 Para obtener más información sobre la creación y configuración de los servicios de información, consulte [esta sección](../../delivery/using/about-email-channel.md).
 
-1. Vaya a la **[!UICONTROL Preview]** ficha.
-1. Seleccione un destinatario para obtener una previsualización del envío.
+1. Vaya a la pestaña **[!UICONTROL Preview]**.
+1. Seleccione un destinatario para obtener una previsualización de la entrega.
 
    ![](assets/s_tn_del_preview_spamassassin_recipient.png)
 
@@ -59,12 +59,12 @@ Para obtener más información sobre la creación y configuración de los servic
 
    ![](assets/s_tn_del_preview_spamassassin_ko.png)
 
-1. Click the **[!UICONTROL More...]** link next to the warning.
-1. Select the **[!UICONTROL Anti-spam checking]** tab.
-1. Go to the **[!UICONTROL Points / Rule / Description]** section to view the reasons for this risk.
+1. Haga clic en el vínculo **[!UICONTROL More...]** situado junto a la advertencia.
+1. Seleccione la pestaña **[!UICONTROL Anti-spam checking]**.
+1. Vaya a la sección **[!UICONTROL Points / Rule / Description]** para ver las causas de este riesgo.
 
    ![](assets/s_tn_del_msg_spamassassin_ko.png)
 
 >[!NOTE]
 >
->Each time you click the **[!UICONTROL Anti-spam checking]**, the SpamAssassin service is called and the message is analyzed again for anti-spam detection. Compruebe que ha modificado el contenido antes de volver a ejecutar el análisis de correo no deseado.
+>Cada vez que hace clic en **[!UICONTROL Anti-spam checking]**, se llama al servicio SpamAssassin y se vuelve a analizar la detección del mensaje como correo no deseado. Compruebe que ha modificado el contenido antes de volver a ejecutar el análisis de correo no deseado.
