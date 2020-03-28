@@ -14,7 +14,7 @@ discoiquuid: efe09c66-b74b-48f0-9042-5da4342e014e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cfb1b02a6261c001392b5cc6430f00206e802bb8
 
 ---
@@ -48,11 +48,11 @@ Para crear un flujo de trabajo, siga los pasos siguientes:
 
 1. Agregue una actividad **Fin** a la bifurcación **No.** De este modo, no se ejecuta nada si el flujo de trabajo ya se está ejecutando.
 1. Agregue las actividades deseadas a la bifurcación **Sí.** En este caso, las actividades **Consulta** y **Actualización de datos**
-1. Open the first activity, then add the **instance.vars.isRunning = true** command in the **[!UICONTROL Advanced]** tab. De este modo, la variable de instancia se establece como en ejecución.
+1. Abra la primera actividad y, a continuación, en la pestaña **instance.vars.isRunning = true**, agregue el comando **[!UICONTROL Avanzado]**. De este modo, la variable de instancia se establece como en ejecución.
 
    ![](assets/uc_dataupdate_query.png)
 
-1. Add an **End** activity at the end of the **[!UICONTROL Yes]** fork, then add the **instance.vars.isRunning = false** command in the **[!UICONTROL Advanced]** tab.
+1. Agregue una actividad **Fin** al final de la bifurcación **[!UICONTROL Yes]** y, a continuación, en la pestaña **instance.vars.isRunning = false**, agregue el comando **[!UICONTROL Avanzado]**.
 
    De este modo, no se ejecutará ninguna acción mientras se esté ejecutando el flujo de trabajo.
 
