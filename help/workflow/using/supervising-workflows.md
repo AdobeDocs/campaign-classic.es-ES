@@ -14,7 +14,7 @@ discoiquuid: 978cbe62-f06a-46a6-b8a1-e30a65b8470a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cfb1b02a6261c001392b5cc6430f00206e802bb8
 
 ---
@@ -33,16 +33,16 @@ Para monitorizar el estado de un conjunto de flujos de trabajo, se debe seguir e
 
 1. Cree el flujo de trabajo de monitorización.
 1. Escriba el código JavaScript para determinar si los flujos de trabajo están en pausa, detenidos o con errores.
-1. Cree la **[!UICONTROL Test]** actividad.
+1. Cree la actividad **[!UICONTROL Test]**.
 1. Prepare la plantilla de envío.
 
 >[!NOTE]
 >
 >Además del flujo de trabajo, Campaign **Mapa de calor de flujo de trabajo** permite analizar los detalles que se están ejecutando actualmente. Para obtener más información, consulte [la sección dedicada](../../workflow/using/heatmap.md).
 >
->Para obtener más información sobre cómo **supervisar la ejecución** de los flujos de trabajo, consulte [esta sección](../../workflow/using/monitoring-workflow-execution.md).
+>Para obtener más información sobre cómo **monitorizar la ejecución de los flujos de trabajo**, consulte [esta sección](../../workflow/using/monitoring-workflow-execution.md).
 
-## Step 1: Creating the monitoring workflow {#step-1--creating-the-monitoring-workflow}
+## Paso 1: Creación del flujo de trabajo de monitorización {#step-1--creating-the-monitoring-workflow}
 
 La carpeta de flujo de trabajo que se va a monitorizar es **“CustomWorkflows”** almacenada en el nodo **Administration > Production > Technical workflows.** Esta carpeta contiene un conjunto de flujos de trabajo empresariales.
 
@@ -56,7 +56,7 @@ Este flujo de trabajo consta de:
 
 * una actividad **“Start”** (inicio).
 * una actividad **“JavaScript code”** (código JavaScript) responsable de analizar la carpeta de flujos de trabajo empresariales.
-* una actividad **“Test”** (prueba) para realizar un envío al supervisor o reiniciar el flujo de trabajo.
+* una actividad **“Test”** (prueba) para realizar una entrega al supervisor o reiniciar el flujo de trabajo.
 * una actividad **“Delivery”** (envío) responsable del diseño del mensaje.
 * una actividad **“Wait”** (espera) que controla los tiempos de posible cliente entre las iteraciones del flujo de trabajo.
 
@@ -122,11 +122,11 @@ vars.strWorkflowPaused = strPaused;
 vars.strWorkflowStop = strStop;
 ```
 
-## Step 3: Creating the &#39;Test&#39; activity {#step-3--creating-the--test--activity}
+## Paso 3: Creación de la actividad “Test”{#step-3--creating-the--test--activity}
 
-La actividad “Prueba” permite determinar si un envío debe ser realizado o si el flujo de trabajo de monitorización debe ejecutar otro ciclo en función de la actividad “Espera”
+La actividad “Prueba” permite determinar si una entrega debe ser realizado o si el flujo de trabajo de monitorización debe ejecutar otro ciclo en función de la actividad “Espera”
 
-Se realiza un envío al supervisor **si al menos una de las tres variables de evento “vars.strWorkflowError”, “vars.strWorkflowPaused” o “vars.strWorkflowStop” es válida.**
+Se realiza una entrega al supervisor **si al menos una de las tres variables de evento “vars.strWorkflowError”, “vars.strWorkflowPaused” o “vars.strWorkflowStop” es válida.**
 
 ![](assets/uc_monitoring_workflow_test.png)
 
@@ -134,7 +134,7 @@ La actividad “Espera” se puede configurar para reiniciar el flujo de trabajo
 
 ![](assets/uc_monitoring_workflow_attente.png)
 
-## Paso 4: Preparación de la entrega {#step-4--preparing-the-delivery}
+## Paso 4: Preparación de una entrega {#step-4--preparing-the-delivery}
 
 La actividad “Envío” se basa en una **plantilla de envío** almacenada en el nodo **Recursos > Plantillas > Plantillas de envío.**
 
@@ -149,7 +149,7 @@ Esta plantilla debe incluir:
 
    Estas variables deben declararse en la pestaña **Variables** de las propiedades de la plantilla de envío.
 
-   Para recuperar **el contenido de las variables de evento de flujo de trabajo**, se debe declarar las variables específicas para el envío que se desea inicializar con los valores que devuelve el código JavaScript.
+   Para recuperar **el contenido de las variables de evento de flujo de trabajo**, se debe declarar las variables específicas para la entrega que se desea inicializar con los valores que devuelve el código JavaScript.
 
    La plantilla de envío tiene el siguiente contenido:
 
@@ -163,7 +163,7 @@ Una vez creada y aprobada la plantilla, se debe configurar la actividad **Envío
 Haga doble clic en la actividad de **Envío** y seleccione las siguientes opciones:
 
 * Envío: seleccione **Nuevo, creado desde plantilla** y seleccione la plantilla de envío creada previamente.
-* Para los campos **Destinatarios y Contenido**, seleccione **Especificado en el envío**.
+* Para los campos **Destinatarios y Contenido**, seleccione **Especificado en la entrega**.
 * Acción que quiere ejecutar: seleccione **Preparación e inicio**.
 * Anule la selección de la opción **Procesamiento de errores**.
 
