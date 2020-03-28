@@ -12,7 +12,7 @@ discoiquuid: 88575757-ef1b-4247-88ff-6f355c1ecd3e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7470011bbb08cc1a7041b53e8405c971f33e51c
 
 ---
@@ -20,20 +20,20 @@ source-git-commit: b7470011bbb08cc1a7041b53e8405c971f33e51c
 
 # Acerca del canal de correo electrónico{#about-email-channel}
 
-Adobe Campaign permite enviar masivamente mensajes electrónicos personalizados a una población objetivo.
+Adobe Campaign permite enviar mensajes electrónicos personalizados de forma masiva a una población objetivo.
 
-Antes de empezar a enviar correos electrónicos:
+Antes de comenzar a enviar correos electrónicos:
 
 * Asegúrese de que los perfiles de destinatarios contengan, al menos, una dirección de correo electrónico.
-* Learn more about the Adobe Campaign [Delivery best practices](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html).
-* Obtenga más información sobre [la entrega](../../delivery/using/about-deliverability.md) y la [administración de la entrega](https://helpx.adobe.com/campaign/kb/acc-deliverability.html).
+* Obtenga más información sobre las [prácticas recomendadas de envío](https://helpx.adobe.com/es/campaign/kb/delivery-best-practices.html) en Adobe Campaign.
+* Obtenga más información sobre la [Capacidad de envío](../../delivery/using/about-deliverability.md) y la [Administración de la capacidad de envío](https://helpx.adobe.com/es/campaign/kb/acc-deliverability.html).
 
 Los pasos clave para enviar un correo electrónico son los siguientes:
 
-* [Creación de un envío de correo electrónico](../../delivery/using/creating-an-email-delivery.md)
+* [Creación de una entrega de correo electrónico](../../delivery/using/creating-an-email-delivery.md)
 * [Definición de la población objetivo](../../delivery/using/steps-defining-the-target-population.md)
 * [Definición del contenido del correo electrónico](../../delivery/using/defining-the-email-content.md)
 * [Envío del correo electrónico](../../delivery/using/sending-messages.md)
-* [Supervisión de la entrega](../../delivery/using/monitoring-a-delivery.md)
+* [Monitorización de la entrega](../../delivery/using/monitoring-a-delivery.md)
 
-Las secciones a continuación proporcionan información específica para el canal de correo electrónico. For global information on how to create a delivery, refer to [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
+Las secciones a continuación proporcionan información específica para el canal de correo electrónico. Para obtener información general sobre la creación de envíos, consulte [esta sección](../../delivery/using/steps-about-delivery-creation-steps.md).
