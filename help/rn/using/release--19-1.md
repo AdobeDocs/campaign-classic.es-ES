@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1f5217fb45d2ffcb73ad4ec7d32ba6bd7ddbc15
+source-git-commit: 62f63a47fae9bddf2303bbed18f1aadab4717245
 
 ---
 
@@ -74,13 +74,7 @@ _13 de agosto de 2019_
 
 ## Versión 19.1.4: compilación 9032{#release-19-1-4-build-9032}
 
-![](assets/green_2.png) 3 **de abril de 2020**: nueva compilación (9032-...e8b36257e) que incluye la siguiente corrección:
-
-* Estamos introduciendo un mecanismo de firma para rastrear vínculos en correos electrónicos a fin de evitar el uso malintencionado potencial (phishing). Esto protege contra la reescritura de parámetros de seguimiento que pueden incluir una dirección URL utilizada para redirigir al usuario. Este mecanismo está actualmente deshabilitado de forma predeterminada. Póngase en contacto con el Servicio de atención al cliente si necesita activarlo.
-
-* Se ha agregado una protección de seguridad complementaria para evitar la redirección de direcciones URL mal formadas generadas desde compilaciones anteriores o cuando el mecanismo de firma está desactivado. Póngase en contacto con el Servicio de atención al cliente si necesita utilizarlo.
-
-![](assets/orange_2.png) 5 **de marzo de 2020**: nueva compilación (9032-...205c981c3) que incluye la siguiente corrección:
+![](assets/green_2.png) 5 **de marzo de 2020**: nueva compilación (9032-...205c981c3) que incluye la siguiente corrección:
 
 * Se ha corregido un problema con cuentas externas que usaban FTP sobre SSL. (NEO-20498)
 
