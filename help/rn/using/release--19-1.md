@@ -15,14 +15,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
+source-git-commit: c1f5217fb45d2ffcb73ad4ec7d32ba6bd7ddbc15
 
 ---
 
 
 # Versión 19.1{#release-19-1}
 
-[Generar actualización](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | [Versiones](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) del Panel de control| Actualizaciones [de documentación](../../rn/using/documentation-updates.md) | Versiones [anteriores](../../rn/using/release--19-1.md) | Funciones [obsoletas](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+[Build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Documentation updates](../../rn/using/documentation-updates.md) | [Previous releases](../../rn/using/release--19-1.md) | [Deprecated features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
 
 <table> 
  <tbody> 
@@ -33,21 +33,21 @@ source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
    <td><img src="assets/red3.png"/><strong>Obsoleto</strong></td> 
   </tr> 
    <tr> 
-   <td>Última compilación estable disponible. Compilación validada en producción.<br> </td>
+   <td>Última compilación estable disponible. Compilación validada en producción.<br></td>
    <td>Compilación validada por Adobe. Esperando pruebas de producción.<br> </td>
-   <td>Nueva compilación disponible con correcciones de errores. Se requiere la actualización.<br> </td>
-   <td>Contiene regresiones conocidas. La actualización es obligatoria.<br> </td>
+   <td>Nueva compilación disponible con correcciones de errores. Se requiere la actualización.<br></td>
+   <td>Contiene regresiones conocidas. La actualización es obligatoria.<br></td>
   </tr> 
  </tbody> 
 </table>
 
-La **última compilación** estable es 9032 (205c981c3). Haga clic [aquí](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+La **última compilación** estable es 9032 (205c981c3). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
 ## ![](assets/orange_2.png) Versión 19.1.6: compilación 9035 {#release-19-1-6-build-9035}
 
 >[!CAUTION]
 >
->Esta compilación es únicamente para instalaciones in situ. Para implementaciones híbridas, las instancias alojadas seguirán ejecutando la compilación 9032. No actualice la instancia de marketing a la compilación 9035, ya que no es compatible con 9032.
+>Esta compilación es únicamente para instalaciones in situ. Para implementaciones híbridas, las instancias alojadas siguen ejecutando la compilación 9032. No actualice la instancia de marketing a la compilación 9035, ya que no es compatible con 9032.
 
 _3 de octubre de 2019_
 
@@ -56,8 +56,8 @@ _3 de octubre de 2019_
 * Se ha corregido un problema al usar el conector CRM para Salesforce. (NEO-17712)
 * Se ha corregido un problema de índice que podía provocar problemas de rendimiento al enviar mensajes transaccionales.
 * Se corrigió un problema de rendimiento al enviar mensajes. (NEO-17558)
-* Se ha corregido un problema que podía hacer que el servidor de Mid-Sourcing no procesara determinados mensajes. (NEO-12395)
-* Se ha corregido un problema que impedía el uso completo de la actividad de Administración de datos SQL (faltaba la &quot;Administración de datos SQL&quot; denominada right).
+* Se ha corregido un problema que podía hacer que el servidor intermediario no procesara determinados mensajes. (NEO-12395)
+* Se ha corregido un problema que impedía el uso completo de la actividad de Administración de datos SQL (faltaba la “Administración de datos SQL” denominada right).
 
 ## ![](assets/orange_2.png) Versión 19.1.5: compilación 9033{#release-19-1-5-build-9033}
 
@@ -70,13 +70,19 @@ _13 de agosto de 2019_
 * Se ha corregido un fallo en Client console al “añadir una tabla vinculada” en la actividad de flujo de trabajo de carga de datos (RDBMS) sin nombre de tabla (NEO-12213)
 * Se ha corregido un problema con la instalación del paquete midEmetter a través de la línea de comandos.
 * Se ha añadido una nueva opción de autenticación para admitir credenciales de OAuth dentro del conector AC con Microsoft Dynamics (NEO-11982)
-* La corrección de un problema con UUID (identificador universal único) provoca que la actividad de enriquecimiento falle con Hive FDA.
+* Se ha corregido un problema con UUID (Unique Universal Identifier) que causaba que la actividad de enriquecimiento fallase con FDA de Hive.
 
 ## Versión 19.1.4: compilación 9032{#release-19-1-4-build-9032}
 
-![](assets/green_2.png) 5 **de marzo de 2020**: nueva compilación (9032-...205c981c3) que incluye la siguiente corrección:
+![](assets/green_2.png) 3 **de abril de 2020**: nueva compilación (9032-...e8b36257e) que incluye la siguiente corrección:
 
-* Se ha corregido un problema con las cuentas externas que usaban FTP sobre SSL. (NEO-20498)
+* Estamos introduciendo un mecanismo de firma para rastrear vínculos en correos electrónicos a fin de evitar el uso malintencionado potencial (phishing). Esto protege contra la reescritura de parámetros de seguimiento que pueden incluir una dirección URL utilizada para redirigir al usuario. Este mecanismo está actualmente deshabilitado de forma predeterminada. Póngase en contacto con el Servicio de atención al cliente si necesita activarlo.
+
+* Se ha agregado una protección de seguridad complementaria para evitar la redirección de direcciones URL mal formadas generadas desde compilaciones anteriores o cuando el mecanismo de firma está desactivado. Póngase en contacto con el Servicio de atención al cliente si necesita utilizarlo.
+
+![](assets/orange_2.png) 5 **de marzo de 2020**: nueva compilación (9032-...205c981c3) que incluye la siguiente corrección:
+
+* Se ha corregido un problema con cuentas externas que usaban FTP sobre SSL. (NEO-20498)
 
 ![](assets/orange_2.png) 17 **de diciembre de 2019**: nueva compilación (9032-...9d34fb17e) que incluye la siguiente corrección:
 
@@ -91,19 +97,19 @@ _13 de agosto de 2019_
 
 * Se ha corregido un problema de inicio de sesión mediante la autenticación IMS. (NEO-17312)
 * Se corrigió un problema al mostrar informes acumulativos en varias entregas. (NEO-18165)
-* Se ha corregido un problema que podía bloquear o bloquear el servidor web.
+* Se ha corregido un problema que podía bloquear o colapsar el servidor web.
 
 ![](assets/orange_2.png) 19 **de septiembre de 2019**: nueva compilación (9032-...cee805c93) que incluye las siguientes correcciones:
 
 * Se ha corregido un problema al usar el conector CRM para Salesforce. (NEO-17712)
 * Se ha corregido un problema de índice que podía provocar problemas de rendimiento al enviar mensajes transaccionales.
 
-![](assets/orange_2.png) 13 **de agosto de 2019**: compilación inicial 19.1.4 que incluye las siguientes correcciones:
+![](assets/orange_2.png) **13 de agosto de 2019**: compilación inicial 19.1.4 que incluye las siguientes correcciones:
 
 * Se ha corregido un problema con la actividad del programador que generaba mensajes de error no deseados durante la configuración del asistente. Revertir la actualización desde NEO-11662. (NEO-17097)
 * Se ha corregido una regresión causada por el NEO-12727 que hacía que los flujos de trabajo se detuvieran cuando se realizaba una actividad de prueba dos veces. (NEO-16835)
 * Se ha corregido un problema que provocaba la devolución de un código HTTP erróneo (HTTP 200 OK en lugar de HTTP 403 Prohibido) cuando se utilizaba un token de sesión no válido o caducado en las llamadas a la API. (NEO-16826)
-* Se ha solucionado un problema con la clave DKIM que ya no se incrustaba en los mensajes de correo electrónico, lo que provocaba problemas a la hora de realizar envíos. (NEO-16804)
+* Se ha solucionado un problema con la clave DKIM que ya no se incrustaba en los mensajes de correo electrónico, lo que provocaba problemas a la hora de realizar entregas. (NEO-16804)
 * Se han corregido varios problemas con la programación de los flujos de trabajo. Los flujos de trabajo se programaban para ejecutarse una vez al día sin tener en cuenta la configuración del programador. (NEO-16619, NEO-16426)
 
 ## ![](assets/orange_2.png) Versión 19.1.2: compilación 9029{#release-19-1-2-build-9029}
@@ -118,7 +124,7 @@ _21 de junio de 2019_
 
 * Se ha corregido una regresión relacionada con la gestión de columnas de dominio que impedía que se enviaran correos electrónicos con ciertas configuraciones.
 * Para mejorar el rendimiento, se ha añadido un atributo _operation=&quot;none&quot; a las llamadas rtEvent SOAP para evitar solicitudes &quot;SELECCIONE PARA ACTUALIZAR&quot;.
-* Se ha corregido un problema de visualización del flujo de trabajo con las transiciones salientes después de la actividad de prueba. (NEO-12727)
+* Se ha corregido un error de muestra de flujo de trabajo con transiciones de salida tras una Actividad de prueba. (NEO-12727)
 * Ahora prohibimos la eliminación de los registros de prueba creados en Microsoft Dynamics durante el flujo de trabajo de importación.
 * Se han mejorado los permisos para ejecutar el paquete de zona de seguridad cuando utilice una cuenta interna.
 
@@ -138,10 +144,10 @@ _30 de mayo de 2019_
  <tbody> 
   <tr> 
    <td> Panel de control<br /> </td> 
-   <td> <p>Para aumentar la eficacia en su trabajo como usuario administrador, gestione la configuración de sus servidores SFTP controlando el almacenamiento, ubicando en la lista blanca las direcciones IP e instalando claves SSH para cada instancia. Tenga en cuenta que el Panel de control solo está disponible para los clientes alojados en AWS a partir de hoy (<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Inicie sesión hoy a través de Experience Cloud)</a>.</p> <p>Para obtener más información, consulte la <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">videotutorial</a>. </p><p>Nota: no es necesario actualizar a la última compilación de campaña para acceder al Panel de control.</p> </td> 
+   <td> <p>Para aumentar la eficacia en su trabajo como usuario administrador, gestione la configuración de sus servidores SFTP controlando el almacenamiento, ubicando en la lista blanca las direcciones IP e instalando claves SSH para cada instancia. Tenga en cuenta que el Panel de control solo está disponible para los clientes alojados en AWS a partir de hoy (<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Inicie sesión hoy a través de Experience Cloud)</a>.</p> <p>Para obtener más información, consulte la <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">videotutorial</a>. </p><p>Nota: no es necesario actualizar a la última compilación de Campaign para acceder al Panel de control.</p> </td> 
   </tr> 
     <tr> 
-   <td> Audit trail<br /> </td> 
+   <td> Pista de auditoría<br /> </td> 
    <td> <p>Como administrador, aumente la productividad controlando y gestionando los cambios realizados en la instancia de Adobe Campaign Classic. La pista de auditoría registrará las acciones realizadas en los esquemas de fuentes, flujos de trabajo y opciones. Puede ver rápidamente si un elemento se ha creado, modificado o eliminado.</p><p>Para obtener más información, consulte la <a href="../../production/using/audit-trail.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/monitoring/audit-trail.html">videotutorial</a>.</p></td> 
   </tr> 
   <tr> 
@@ -181,23 +187,23 @@ _30 de mayo de 2019_
 **Mejoras de seguridad, solidez y escalabilidad**
 
 * Duración: Optimización de uso de secuencia XtkNewId (las tablas más utilizadas se han movido de la secuencia de xtkNewId a secuencias dedicadas). [Más información](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
-* FDA sobre HTTP v2: el protocolo FDA sobre HTTP se utiliza ampliamente en implementaciones híbridas, especialmente para la recuperación del registro general y la preparación de envíos. Se ha mejorado la solidez para evitar problemas de red y posibles errores al recuperar o extraer datos. Esto requiere que las compilaciones en ambos extremos de la conexión estén actualizadas; de lo contrario, se utilizará el protocolo antiguo.
+* FDA sobre HTTP v2: el protocolo FDA sobre HTTP se utiliza ampliamente en implementaciones híbridas, especialmente para la recuperación del registro general y la preparación de entregas. Se ha mejorado la solidez para evitar problemas de red y posibles errores al recuperar o extraer datos. Esto requiere que las compilaciones en ambos extremos de la conexión estén actualizadas; de lo contrario, se utilizará el protocolo antiguo.
 * Flujo de trabajo de seguimiento: se ha mejorado la solidez del flujo de trabajo de seguimiento. Se han solucionado varios problemas relacionados con inserciones/actualizaciones del registro de seguimiento y la personalización del seguimiento de direcciones URL. Además, el flujo de trabajo de seguimiento ahora detecta el seguimiento de los problemas de registro que podrían provocar errores y detener el flujo de trabajo. Estos problemas ahora se descartan y no se procesan.
 * Flujo de trabajo de limpieza: se ha mejorado el flujo de trabajo de limpieza para evitar posibles errores y detenciones. Esto optimiza el tamaño y el rendimiento de la base de datos.
 * Imágenes incrustadas en mensajes transaccionales: hemos añadido la compatibilidad completa de las imágenes incrustadas en los mensajes transaccionales para evitar bloqueos o pérdidas de imágenes.
 * Tamaño de base de datos: XtkJobLog (se ha añadido un mecanismo de depuración a esta tabla). Esto tiene un impacto positivo en el tamaño de la base de datos.
 * Archivado BCC: los parámetros predeterminados para el archivado BCC se han cambiado para aumentar la velocidad de almacenamiento. [Más información](../../installation/using/email-archiving.md#parameters)
-* Actualización de la estructura de la base de datos: Las solicitudes SQL generadas por el Asistente para la actualización de la estructura de base de datos se han mejorado para una ejecución más rápida.
+* Actualización de la estructura de la base de datos: las solicitudes de SQL generadas por el Asistente de actualización de la estructura de base de datos se han mejorado para que la ejecución sea más rápida.
 * Seguridad para las acciones de operadores: se han implementado varias medidas de seguridad para evitar que los operadores realicen acciones que puedan afectar a la integridad de la plataforma. Los esquemas integrados ya no se pueden eliminar a través de la interfaz. Asimismo, los usuarios no administradores ya no pueden editar el XML de origen del flujo de trabajo.
-* Two new options have been made available: **XtkSecurity_Restrict_EditXML** (allows you to disable the edition of deliveries’ XML code) and **NmsOperation_OperationMgtDebug** (allows you to monitor the operationMgt technical workflow execution). [Más información](../../installation/using/configuring-campaign-options.md)
+* Existen dos nuevas opciones disponibles: **XtkSecurity_Restrict_EditXML** (permite desactivar la edición del código XML de las entregas) y **NmsOperation_OperationMgtDebug** (permite monitorizar la ejecución del flujo de trabajo técnico de operationMgt). [Más información](../../installation/using/configuring-campaign-options.md)
 
 **Otros cambios**
 
-* Notificaciones inmediatas: ahora se admite la opción de ID de enlace para iOS push.
+* Notificaciones inmediatas: ahora se admite la opción de ID de vínculo para iOS push.
 * Se ha mejorado la administración de los índices de nombres largos que podrían causar problemas después de la actualización.
-* Ahora, durante el análisis de una entrega por error, si el modo de publicación está configurado **[!UICONTROL None]** en el asistente de implementación, se registra un error y se detiene el análisis: &quot;El modo de publicación está establecido en &#39;ninguno&#39;: No se puede incrustar la imagen. Las imágenes no se mostrarán en el teléfono”. (NEO-12208)
+* Ahora, durante el análisis de una entrega de eliminación, si el modo de publicación está configurado en **[!UICONTROL None]** en el asistente de implementación, se registra un error y se detiene el análisis: “El modo de publicación está configurado en &#39;ninguno&#39;: No se puede incrustar la imagen. Las imágenes no se mostrarán en el teléfono”. (NEO-12208)
 * Se ha mejorado la administración del registro general para los mensajes transaccionales. Cuando se sincronizan los registros generales desde la instancia de ejecución a la instancia de control, el campo @lastModified se actualiza a la fecha actual del sistema. Se ha añadido la opción MC_Update_BlLastModified para instancias de control. “True” significa que la fecha actual se utilizará en la instancia de control (comportamiento predeterminado). “False” significa que usamos la fecha @lastModified de la instancia de ejecución del registro general. (NEO-12579)
-* Los índices se agregaron en las tablas temporales del vale para optimizar los envíos. (NEO-12437)
+* Los índices se agregaron en las tablas temporales del vale para optimizar las entregas. (NEO-12437)
 * En la integración de Analytics, ahora se permite la recuperación de datos del segmento AAM con caracteres %. (NEO-12025)
 * Se ha eliminado el límite de registro de 10 000 en Workflow Heatmap para solucionar un problema de ausencia de datos. (NEO-12329)
 * Open Office no es compatible y ahora se ha eliminado completamente de la aplicación. Si todavía lo estaba utilizando, cambie a Libre Office ya que no funcionará a partir de la versión 19.1.
@@ -207,12 +213,12 @@ _30 de mayo de 2019_
 
 * Se corrigió un problema que impedía que se cargara el certificado para las notificaciones inmediatas de dispositivos móviles iOS.
 * Se corrigieron bloqueos de servidor recurrentes potenciales para las notificaciones inmediatas transaccionales. Se han solucionado otros problemas de bloqueo.
-* Se corrigió un problema que ocasionaba discrepancias de informes entre las actividades del usuario y los informes de seguimiento para el indicador de envío abierto. (NEO-11742)
+* Se corrigió un problema que ocasionaba discrepancias de informes entre las actividades del usuario y los informes de seguimiento para el indicador de entrega abierto. (NEO-11742)
 * Se corrigió un problema con el inicio de sesión de IMS.
-* Se corrigió un problema que podría provocar la ausencia de imágenes en un envío al añadir una imagen de la biblioteca. (NEO-11900)
-* Se corrigió un problema que podría producirse al extraer detalles de oferta en un envío de correo directo. (NEO-11700)
+* Se corrigió un problema que podría provocar la ausencia de imágenes en una entrega al añadir una imagen de la biblioteca. (NEO-11900)
+* Se corrigió un problema que podría producirse al extraer detalles de oferta en una entrega de correo directo. (NEO-11700)
 * Se corrigió un problema que podría afectar el rendimiento del mensaje transaccional SMS. (NEO-9812)
-* Se corrigió un bloqueo de consola que podría producirse al utilizar la opción Definido en un archivo externo para el destino principal de un envío. (NEO-12349)
+* Se corrigió un bloqueo de consola que podría producirse al utilizar la opción Definido en un archivo externo para el destino principal de una entrega. (NEO-12349)
 * Se corrigió un problema que se producía al analizar un mensaje segmentado para destinatarios para los dominios japoneses (.JP). (NEO-12246)
 * Se corrigió un problema con la visualización al utilizar una distribución de valores con un vínculo 1:N. (NEO-12212, NEO-11820)
 * Se corrigió un problema que podría provocar errores NmsMxDomain en los registros de MTA tras una actualización. (NEO-12752)
@@ -222,15 +228,15 @@ _30 de mayo de 2019_
 * Se corrigió un problema con el proceso de computación de los indicadores de seguimiento para los mensajes transaccionales. (NEO-12529)
 * Se corrigió un problema con el uso de temas en la administración de ofertas. (NEO-11804)
 * Se corrigió un problema de rendimiento al enviar notificaciones push. (NEO-11787)
-* Se corrigió un problema al previsualizar un archivo XML o CSV saliente en la administración de ofertas para un envío de correo postal. (NEO-11290)
+* Se corrigió un problema al previsualizar un archivo XML o CSV saliente en la administración de ofertas para una entrega de correo postal. (NEO-11290)
 * Se corrigió un problema al instalar el paquete de **Managing social networks** (Marketing social). (NEO-12081)
 * Se corrigió un problema que impedía eliminar una aplicación Web incluso si tenía los derechos de acceso correctos. (NEO-12072)
 * Se corrigió un problema que podría provocar que algunos valores se sobrescriban al exportar y luego importar un objeto a través de XML. Se ha añadido la opción XtkExport_IncludeDefaultValues. Cuando se establece en “True” (comportamiento predeterminado), se exportan todos los valores. Cuando se establece en “False”, las modificaciones se sobrescriben con el valor predeterminado. (NEO-11979)
-* Fixed an issue which caused the **[!UICONTROL Alert]** workflow activity to fail when an enrichment activity was added after a query. (NEO-12132)
+* Se ha corregido un problema que hacía que la actividad del flujo de trabajo **[!UICONTROL Alert]** fallara cuando se añadía una actividad de enriquecimiento después de una consulta. (NEO-12132)
 * Se corrigió un problema en las configuraciones de Oracle en las que los desplazamientos de la canalización (desencadenante) no se recuperaban correctamente de la base de datos, provocando duplicados. (NEO-12121)
 * Se corrigió un problema que podría provocar errores de visualización en tablas dinámicas al utilizar la integración de Analytics (NEO-12103)
 * Se corrigió un problema con el informe de Análisis descriptivo. (NEO-11414)
-* Se corrigió un problema con los conectores de CRM cuando la tabla remota contenía un campo con un guión bajo en su nombre.
+* Se corrigió un problema con los conectores de CRM cuando la tabla remota contenía un campo con un guion bajo en su nombre.
 * Se solucionó un problema que podría causar un error de visualización para los símbolos de moneda en los informes de Hipótesis. (NEO-11634)
 * Se corrigió un problema con la redirección y el seguimiento al utilizar ciertos caracteres en los vínculos de seguimiento.
 * Se corrigió un problema que impedía que la previsualización de la oferta funcionara correctamente.
@@ -239,7 +245,7 @@ _30 de mayo de 2019_
 * Se corrigió un problema de traducción en aplicaciones web (NEO-12460)
 * Se corrigió un problema con la actividad de flujo de trabajo de transferencia de archivos s3. (NEO-12473)
 * Se corrigió un problema con los campos de fecha en las aplicaciones web. (NEO-12496)
-* Se corrigió un problema de agotamiento de ID al utilizar direcciones semilla en un envío. (NEO-11842)
+* Se corrigió un problema de agotamiento de ID al utilizar direcciones semilla en una entrega. (NEO-11842)
 * Se corrigió un problema con la compatibilidad con phantomjs y Debian 9.
 * Se corrigió un error al aprobar el contenido de una prueba. (NEO-12725)
 * Se corrigió un problema con la función de flujo de trabajo “Excluir este subconjunto de la población”. (NEO-12441)
