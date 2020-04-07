@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 17eed4f4ead8ce4f424d4fb2681269e888229692
+source-git-commit: 6143f23e05f4528a9d76aece3a6e41165e2f95d4
 
 ---
 
@@ -46,7 +46,7 @@ En general, son necesarios los siguientes derechos:
 * **LECTURA DE Datos**: acceso de sólo lectura a tablas que contienen datos de clientes,
 * **LECTURA DE MetaDatos**: acceso a los catálogos de datos del servidor para obtener la estructura de la tabla,
 * **CARGA**: carga masiva en tablas de trabajo (requerido cuando se trabaja en colecciones y uniones),
-* **CREACIÓN/ELIMINACIÓN** de **TABLA/ÍNDICE/PROCEDIMIENTO/FUNCIÓN**,
+* **CREAR/SOLTAR** para **TABLA/ÍNDICE/PROCEDIMIENTO/FUNCIÓN** (solo para las tablas de trabajo generadas por Adobe Campaign),
 * **EXPLICACIÓN** (recomendado): para controlar el rendimiento en caso de problemas,
 * **ESCRITURA DE Datos** (según el escenario de integración).
 
@@ -56,11 +56,11 @@ El administrador de la base de datos debe hacer coincidir estos derechos con los
 
 |   | Snowflake | Redshift | Oracle | SQLServer | PostgreSQL | MySQL |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| **Conexión a la base de datos remota** | USO EN ALMACÉN Y USO EN LOS privilegios DE BASE DE DATOS | Creación de un usuario vinculado a la cuenta de AWS | CREAR privilegio DE SESIÓN | Permiso de CONNECT | Privilegio de CONNECT | Creación de un usuario vinculado a un host remoto con TODOS LOS PRIVILEGIOS |
+| **Conexión a la base de datos remota** | USO EN ALMACÉN, USO EN BASE DE DATOS Y USO EN privilegios de ESQUEMA | Creación de un usuario vinculado a la cuenta de AWS | CREAR privilegio DE SESIÓN | Permiso de CONNECT | Privilegio de CONNECT | Creación de un usuario vinculado a un host remoto con TODOS LOS PRIVILEGIOS |
 | **Creación de tablas** | CREAR TABLA EN EL privilegio ESQUEMA | CREAR privilegio | CREAR privilegio DE TABLA | permiso CREAR TABLA | CREAR privilegio | CREAR privilegio |
 | **Creación de índices** | N/D | CREAR privilegio | ÍNDICE o CREE CUALQUIER privilegio DE ÍNDICE | ALTER, permiso | CREAR privilegio | Privilegio de INDEX |
 | **Creación de funciones** | CREAR FUNCIÓN EN EL privilegio ESQUEMA | USO DEL privilegio plpythonu EN IDIOMA para poder llamar a scripts de pitón externos | CREAR PROCEDIMIENTO O CREAR CUALQUIER privilegio DE PROCEDIMIENTO | permiso CREAR FUNCIÓN | Privilegio de uso | CREAR privilegio RUTINO |
-| **Creación de procedimientos** | CREAR PROCEDIMIENTO SOBRE EL privilegio ESQUEMA | USO DEL privilegio plpythonu EN IDIOMA para poder llamar a scripts de pitón externos | CREAR PROCEDIMIENTO O CREAR CUALQUIER privilegio DE PROCEDIMIENTO | permiso CREAR PROCEDIMIENTO | Privilegio USAGE (los procedimientos son funciones) | CREAR privilegio RUTINO |
+| **Creación de procedimientos** | N/D | USO DEL privilegio plpythonu EN IDIOMA para poder llamar a scripts de pitón externos | CREAR PROCEDIMIENTO O CREAR CUALQUIER privilegio DE PROCEDIMIENTO | permiso CREAR PROCEDIMIENTO | Privilegio USAGE (los procedimientos son funciones) | CREAR privilegio RUTINO |
 | **Eliminación de objetos (tablas, índices, funciones, procedimientos)** | Propiedad del objeto | Tener el objeto o ser un superusuario | ELIMINAR CUALQUIER privilegio &lt; objeto > | ALTER, permiso | Tabla: propietario del índice de tabla: propiedad de la función de índice: propiedad de la función | Privilegio de DROP |
 | **Supervisión de las ejecuciones** | SUPERVISAR privilegio en el objeto requerido | No se requiere ningún privilegio para utilizar el comando EXPLAIN | Privilegio INSERTAR y SELECCIONAR y privilegio necesario para ejecutar la instrucción en la que se basa el PLAN DE EXPLICACIÓN | SHOWPLAN, permiso | No se requiere ningún privilegio para utilizar la instrucción EXPLAIN | Privilegio SELECT |
 | **Escritura de datos** | Privilegios de INSERT y/o UPDATE (según la operación de escritura) | Privilegios de INSERCIÓN y ACTUALIZACIÓN | INSERTAR Y ACTUALIZAR O INSERTAR Y ACTUALIZAR CUALQUIER privilegio DE TABLA | Permisos INSERTAR y ACTUALIZAR | Privilegios de INSERCIÓN y ACTUALIZACIÓN | Privilegios de INSERCIÓN y ACTUALIZACIÓN |
