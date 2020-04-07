@@ -1,16 +1,16 @@
 ---
 audience: end-user
-user-guide-title: Adobe Campaign Classic Help
+user-guide-title: Ayuda de Adobe Campaign Standard
 index: y
 product: adobe campaign
-sub-product: adobe campaign classic
+sub-product: adobe campaña classic
 translation-type: tm+mt
-source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
+source-git-commit: ce5513c2af9b522919c038e25557634b11e8e3cb
 
 ---
 
 
-# Adobe Campaign Classic Help {#using}
+# Ayuda de Adobe Campaign Standard {#using}
 
 + [Documentación del producto](campaign-classic-home.md)
 + [Últimas actualizaciones](rn/using/documentation-updates.md)
@@ -22,18 +22,18 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [Versión 18.10](rn/using/release--18-10.md)
       + [Versión 18.6](rn/using/release--18-6.md)
       + [Versión 18.4](rn/using/release--18-4.md)
-+ Getting Started {#getting-started}
++ Introducción {#getting-started}
    + Primeros pasos con Adobe Campaign {#starting-with-adobe-campaign}
       + [Acerca de Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
       + [Privacidad y recomendaciones](platform/using/privacy-and-recommendations.md)
       + [Ejecutar Adobe Campaign](platform/using/launching-adobe-campaign.md)
       + [Espacio de trabajo de Adobe Campaign](platform/using/adobe-campaign-workspace.md)
-      + Preguntas más frecuentes {#faq}
+      + Preguntas frecuentes {#faq}
          + [Preguntas frecuentes](platform/using/common-questions.md)
          + [Conceptos clave](platform/using/faq-key-concepts.md)
          + [Audiencias](platform/using/faq-audiences.md)
          + [Diseñar mensajes](platform/using/faq-designing.md)
-         + [Enviar mensajes](platform/using/faq-messages.md)
+         + [entrega de mensajes](platform/using/faq-messages.md)
          + [Flujos de trabajo](platform/using/faq-workflows.md)
          + [Configuración](platform/using/faq-campaign-config.md)
          + [Informes](platform/using/faq-reporting.md)
@@ -78,22 +78,22 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [Acerca de los conectores](platform/using/about-connectors.md)
       + [Conectores CRM](platform/using/crm-connectors.md)
       + [Conectores de datos de Adobe Analytics](platform/using/adobe-analytics-data-connector.md)
-+ Sending Messages {#sending-messages}
-   + Acerca de los envíos y canales {#about-deliveries-and-channels}
++ Envío de mensajes {#sending-messages}
+   + Acerca de las entregas y los canales {#about-deliveries-and-channels}
       + [Canales de comunicación](delivery/using/communication-channels.md)
-      + [Acceso a la información de los envíos](delivery/using/accessing-deliveries-information.md)
-      + [Tipos de envíos](delivery/using/types-of-deliveries.md)
-   + Pasos clave al crear un envío {#key-steps-when-creating-a-delivery}
-      + [Acerca de la creación de envíos ](delivery/using/steps-about-delivery-creation-steps.md)
+      + [Acceso a la información de las entregas](delivery/using/accessing-deliveries-information.md)
+      + [Tipos de entregas](delivery/using/types-of-deliveries.md)
+   + Pasos clave al crear una entrega {#key-steps-when-creating-a-delivery}
+      + [Acerca de la creación de entregas ](delivery/using/steps-about-delivery-creation-steps.md)
       + [Creación e identificación de la entrega](delivery/using/steps-create-and-identify-the-delivery.md)
       + [Definición de la población objetivo](delivery/using/steps-defining-the-target-population.md)
-      + [Validación del envío](delivery/using/steps-validating-the-delivery.md)
-      + [Realización del envío](delivery/using/steps-sending-the-delivery.md)
+      + [Validación de la entrega](delivery/using/steps-validating-the-delivery.md)
+      + [Realización de la entrega](delivery/using/steps-sending-the-delivery.md)
    + Envío de correos electrónicos {#sending-emails}
       + [Acerca del canal de correo electrónico](delivery/using/about-email-channel.md)
-      + [Creación de un envío de correo electrónico](delivery/using/creating-an-email-delivery.md)
+      + [Creación de una entrega de correo electrónico](delivery/using/creating-an-email-delivery.md)
       + [Definición del contenido del correo electrónico](delivery/using/defining-the-email-content.md)
-      + [Definición de contenido interactivo](delivery/using/defining-interactive-content.md)
+      + [ Definición del contenido interactivo ](delivery/using/defining-interactive-content.md)
       + [Envío de mensajes](delivery/using/sending-messages.md)
       + [Archivos adjuntos](delivery/using/attaching-files.md)
    + Envío de mensajes en móviles {#sending-messages-on-mobiles}
@@ -107,50 +107,50 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [Resolución de problemas](delivery/using/troubleshooting.md)
    + Envío de correo postal {#sending-direct-mail}
       + [Acerca del canal de correo postal](delivery/using/about-direct-mail-channel.md)
-      + [Creación de un envío de correo postal](delivery/using/creating-a-direct-mail-delivery.md)
+      + [Creación de una entrega de correo postal](delivery/using/creating-a-direct-mail-delivery.md)
       + [Definición del contenido de correo postal](delivery/using/defining-the-direct-mail-content.md)
       + [Validación](delivery/using/validating.md)
       + [Otros canales](delivery/using/other-channels.md)
-   + Uso de plantillas de envío {#using-delivery-templates}
+   + Uso de plantillas de entrega {#using-delivery-templates}
       + [Acerca de las plantillas](delivery/using/about-templates.md)
-      + [Creación de una plantilla de envío](delivery/using/creating-a-delivery-template.md)
+      + [Creación de una plantilla de envíos](delivery/using/creating-a-delivery-template.md)
       + [Selección de un destino de mapeo](delivery/using/selecting-a-target-mapping.md)
-      + [Creación de un envío a partir de una plantilla](delivery/using/creating-a-delivery-from-a-template.md)
-   + Personalización de envíos {#personalizing-deliveries}
+      + [Creación de una entrega a partir de una plantilla](delivery/using/creating-a-delivery-from-a-template.md)
+   + Personalización de entregas {#personalizing-deliveries}
       + [Acerca de la personalización](delivery/using/about-personalization.md)
       + [Campos personalizados](delivery/using/personalization-fields.md)
       + [Bloques personalizados](delivery/using/personalization-blocks.md)
       + [Contenido condicional](delivery/using/conditional-content.md)
       + [Cupones personalizados](delivery/using/personalized-coupons.md)
       + [Generación de documentos PDF personalizados](delivery/using/generating-personalized-pdf-documents.md)
-   + Uso de las direcciones sembradas {#using-seed-addresses}
-      + [Sobre las direcciones sembradas](delivery/using/about-seed-addresses.md)
-      + [Creación de direcciones sembradas](delivery/using/creating-seed-addresses.md)
-      + [Adición de direcciones sembradas](delivery/using/adding-seed-addresses.md)
+   + Uso de las direcciones semilla {#using-seed-addresses}
+      + [Sobre las direcciones semilla](delivery/using/about-seed-addresses.md)
+      + [Creación de direcciones semilla](delivery/using/creating-seed-addresses.md)
+      + [Adición de direcciones semilla](delivery/using/adding-seed-addresses.md)
       + [Uso de una lista de distribución externa](delivery/using/using-an-external-recipient-table.md)
-      + [Ejemplo de uso: selección de direcciones sembradas según ciertos criterios](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+      + [Ejemplo de uso: selección de direcciones semilla según ciertos criterios](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
       + [Ejemplo de uso: Configuración de la sustitución de campos](delivery/using/use-case--configuring-the-field-substitution.md)
    + Suscripciones y recomendaciones {#subscriptions-and-referrals}
       + [Acerca de los servicios y las suscripciones](delivery/using/about-services-and-subscriptions.md)
       + [Administración de suscripciones](delivery/using/managing-subscriptions.md)
       + [Marketing viral y social](delivery/using/viral-and-social-marketing.md)
-   + Seguimiento de envíos {#monitoring-deliveries}
-      + [Seguimiento de un envío](delivery/using/monitoring-a-delivery.md)
-      + [Comprensión de los errores de envío](delivery/using/understanding-delivery-failures.md)
+   + Seguimiento de entregas {#monitoring-deliveries}
+      + [Seguimiento de una entrega](delivery/using/monitoring-a-delivery.md)
+      + [Comprensión de los errores de entrega](delivery/using/understanding-delivery-failures.md)
       + [Compresión de la gestión de la cuarentena](delivery/using/understanding-quarantine-management.md)
    + Seguimiento de mensajes {#tracking-messages}
       + [Acerca del seguimiento de mensajes](delivery/using/about-message-tracking.md)
-      + [Configuración de los enlaces rastreados](delivery/using/how-to-configure-tracked-links.md)
+      + [Configuración de los vínculos rastreados](delivery/using/how-to-configure-tracked-links.md)
       + [Personalización del seguimiento de direcciones URL](delivery/using/personalizing-url-tracking.md)
       + [Acceso a los “logs” de seguimiento](delivery/using/accessing-the-tracking-logs.md)
       + [Seguimiento de pruebas](delivery/using/testing-tracking.md)
-   + Administración de la capacidad de envío {#deliverability-management}
-      + [Acerca de la capacidad del envío](delivery/using/about-deliverability.md)
+   + Administración de la capacidad de entrega {#deliverability-management}
+      + [Acerca de la capacidad de la entrega](delivery/using/about-deliverability.md)
       + [Puntos clave que comprobar](delivery/using/deliverability-key-points.md)
       + [Inicio de una nueva plataforma](delivery/using/starting-new-platform.md)
-      + [Control del contenido de los mensajes](delivery/using/control-message-content.md)
+      + [Contenido de mensajes de control](delivery/using/control-message-content.md)
       + [Mejore su reputación](delivery/using/improve-reputation.md)
-      + [Prácticas recomendadas de recontratación](delivery/using/re-engagement-best-practices.md)
+      + [Prácticas recomendadas para renovación de participación](delivery/using/re-engagement-best-practices.md)
       + [Recomendaciones técnicas](delivery/using/technical-recommendations.md)
       + [Seguimiento técnico](delivery/using/technical-monitoring.md)
       + [Renderización de la bandeja de entrada](delivery/using/inbox-rendering.md)
@@ -167,7 +167,7 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [Uso de una plantilla de contenido](delivery/using/using-a-content-template.md)
       + [Enriquecimiento de contenido](delivery/using/enriching-content.md)
       + [Automatización mediante flujos de trabajo](delivery/using/automating-via-workflows.md)
-+ Orquestación de campañas {#orchestrating-campaigns}
++ Organización de campañas {#orchestrating-campaigns}
    + Acerca de las campañas de marketing {#about-marketing-campaigns}
       + [Diseño de campañas de marketing](campaign/using/designing-marketing-campaigns.md)
       + [Acceso a campañas de marketing](campaign/using/accessing-marketing-campaigns.md)
@@ -175,9 +175,9 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [Configuración de campañas de marketing](campaign/using/setting-up-marketing-campaigns.md)
       + [Plantillas de campañas de marketing](campaign/using/marketing-campaign-templates.md)
       + [Entregas de campañas de marketing](campaign/using/marketing-campaign-deliveries.md)
-      + [Aprobación de campaña de marketing](campaign/using/marketing-campaign-approval.md)
-      + [Monitoreo de campañas de marketing](campaign/using/marketing-campaign-monitoring.md)
-      + [Proveedores, existencias y presupuestos](campaign/using/providers--stocks-and-budgets.md)
+      + [Aprobación de campañas de marketing](campaign/using/marketing-campaign-approval.md)
+      + [Monitorización de campañas de marketing](campaign/using/marketing-campaign-monitoring.md)
+      + [Proveedores, stock y presupuestos](campaign/using/providers--stocks-and-budgets.md)
    + Tareas, recursos y presupuestos {#tasks--resources-and-budgets}
       + [Acerca de la gestión de recursos de marketing](campaign/using/about-marketing-resource-management.md)
       + [Creación y administración de tareas](campaign/using/creating-and-managing-tasks.md)
@@ -206,18 +206,17 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [Plantillas de Hipótesis](campaign/using/hypothesis-templates.md)
       + [Creación de hipótesis](campaign/using/creating-hypotheses.md)
       + [Seguimiento de hipótesis](campaign/using/hypothesis-tracking.md)
-+ Informes {#reporting}
++ Creación de informes {#reporting}
    + Sistema de informes en Adobe Campaign {#reporting-in-adobe-campaign}
-      + [Introducción a los informes](reporting/using/about-adobe-campaign-reporting-tools.md)
-      + [Prácticas recomendadas para la presentación de informes](reporting/using/best-practices.md)
+      + [Introducción a creación de informes](reporting/using/about-adobe-campaign-reporting-tools.md)
+      + [Prácticas recomendadas para la creación de informes](reporting/using/best-practices.md)
    + Acceso a los informes integrados {#accessing-built-in-reports}
       + [Acerca de los informes integrados de Campaign](reporting/using/about-campaign-built-in-reports.md)
       + [Lista de informes](reporting/using/list-of-reports.md)
-   + Informes sobre envíos{#reports-on-deliveries}
-      + [Acerca de los informes sobre los envíos](reporting/using/reports-on-deliveries.md)
+   + Informes sobre entregas{#reports-on-deliveries}
+      + [Acerca de los informes sobre las entregas](reporting/using/reports-on-deliveries.md)
       + [Informes globales](reporting/using/global-reports.md)
-      + [Informes
-                        de envío](reporting/using/delivery-reports.md)
+      + [Informes de entrega](reporting/using/delivery-reports.md)
       + [Informes acumulados](reporting/using/cumulative-reports.md)
       + [Cálculo de indicador](reporting/using/indicator-calculation.md)
       + [Personas y destinatarios](reporting/using/person-people-recipients.md)
@@ -252,10 +251,8 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [Diseño de una aplicación web](web/using/designing-a-web-application.md)
       + [Ejemplos de uso: creación de descripciones generales](web/using/use-cases--creating-overviews.md)
       + [Traducción de una aplicación web](web/using/translating-a-web-application.md)
-      + [Seguimiento de una aplicación
-                        web](web/using/tracking-a-web-application.md)
-      + [Exclusión del seguimiento de aplicaciones
-                        web](web/using/web-application-tracking-opt-out.md)
+      + [Seguimiento de una aplicación web](web/using/tracking-a-web-application.md)
+      + [Exclusión del seguimiento de aplicaciones web](web/using/web-application-tracking-opt-out.md)
    + Edición de contenido HTML {#editing-html-content}
       + [Acerca del editor HTML de Campaign](web/using/about-campaign-html-editor.md)
       + [Administración de plantillas](web/using/template-management.md)
@@ -263,7 +260,7 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [Edición de contenido](web/using/editing-content.md)
       + [Recomendaciones para la edición de contenido](web/using/content-editing-best-practices.md)
       + [Creación de una página de destino](web/using/creating-a-landing-page.md)
-      + [Ejemplo de uso: creación de un envío por correo electrónico](web/using/use-case--creating-an-email-delivery.md)
+      + [Ejemplo de uso: creación de una entrega por correo electrónico](web/using/use-case--creating-an-email-delivery.md)
    + Formularios web {#web-forms}
       + [Acerca de los formularios web](web/using/about-web-forms.md)
       + [Uso de una plantilla de formulario web](web/using/using-a-web-form-template.md)
@@ -285,7 +282,7 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [Publicación, seguimiento y utilización de datos recopilados](web/using/publish--track-and-use-collected-data.md)
       + [Configuración de encuestas](web/using/configuring-surveys.md)
       + [Ejemplo de uso: creación de un formulario de “recomendar a un amigo”](web/using/use-case--creating-a-refer-a-friend-form.md)
-+ Integrating with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
++ Integración con Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
    + [Acerca de las integraciones de Campaign](integrations/using/about-campaign-integrations.md)
    + Uso compartido de audiencias {#audience-sharing}
       + [Uso compartido con Adobe Experience Cloud](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
@@ -338,7 +335,7 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [División](workflow/using/split.md)
       + [Celdas](workflow/using/cells.md)
       + [Ofertas por celda](workflow/using/offers-by-cell.md)
-      + [Descripción del envío](workflow/using/delivery-outline.md)
+      + [Descripción de la entrega](workflow/using/delivery-outline.md)
       + [Enriquecimiento](workflow/using/enrichment.md)
       + [Edición del esquema](workflow/using/edit-schema.md)
       + [Motor de oferta](workflow/using/offer-engine.md)
@@ -365,11 +362,11 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [Tarea](workflow/using/task.md)
    + Actividades de acción {#action-activities}
       + [Acerca de las actividades de acción](workflow/using/about-action-activities.md)
-      + [Envío](workflow/using/delivery.md)
-      + [Control de envíos](workflow/using/delivery-control.md)
-      + [Envío continuo](workflow/using/continuous-delivery.md)
-      + [Envío recurrente](workflow/using/recurring-delivery.md)
-      + [Envíos multicanal](workflow/using/cross-channel-deliveries.md)
+      + [Entrega](workflow/using/delivery.md)
+      + [Control de entregas](workflow/using/delivery-control.md)
+      + [Entrega continua](workflow/using/continuous-delivery.md)
+      + [Entrega recurrente](workflow/using/recurring-delivery.md)
+      + [Entregas multicanal](workflow/using/cross-channel-deliveries.md)
       + [Aprobación local](workflow/using/local-approval.md)
       + [Carga de datos (RDBMS)](workflow/using/data-loading--rdbms-.md)
       + [Carga (SOAP)](workflow/using/loading--soap-.md)
@@ -388,29 +385,32 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [Correos electrónicos entrantes](workflow/using/inbound-emails.md)
       + [SMS entrante](workflow/using/inbound-sms.md)
    + Ejemplos de uso {#use-cases}
-      + [Uso de la actividad de aprobación local](workflow/using/using-the-local-approval-activity.md)
-      + [Envío de informes a una lista](workflow/using/sending-a-report-to-a-list.md)
-      + [Supervisión de flujos de trabajo](workflow/using/supervising-workflows.md)
-      + [Coordinación de actualizaciones de datos](workflow/using/coordinating-data-updates.md)
-      + [Creación de la lista de resumen](workflow/using/creating-a-summary-list.md)
-      + [Enriquecimiento de datos](workflow/using/enriching-data.md)
-      + [Prueba A/B](workflow/using/a-b-testing.md)
-      + [Uso de agregados](workflow/using/using-aggregates.md)
-      + [Envío de correo electrónico de cumpleaños](workflow/using/sending-a-birthday-email.md)
-      + [Carga de contenido de envío](workflow/using/loading-delivery-content.md)
-      + [Flujo de trabajo de envío por canales cruzados](workflow/using/cross-channel-delivery-workflow.md)
+      + Entregas {#deliveries}
+         + [Uso de la actividad de aprobación local](workflow/using/using-the-local-approval-activity.md)
+         + [Prueba A/B](workflow/using/a-b-testing.md)
+         + [Envío de correo electrónico de cumpleaños](workflow/using/sending-a-birthday-email.md)
+         + [Carga de contenido de entrega](workflow/using/loading-delivery-content.md)
+         + [Flujo de trabajo de entrega por canales cruzados](workflow/using/cross-channel-delivery-workflow.md)
+         + [Enriquecimiento de correo electrónico con campos de datos personalizados](workflow/using/email-enrichment-with-custom-date-fields.md)
+      + Monitoreo {#monitoring}
+         + [Envío de informes a una lista](workflow/using/sending-a-report-to-a-list.md)
+         + [Supervisión de flujos de trabajo](workflow/using/supervising-workflows.md)
+         + [Envío de alertas personalizadas a operadores](workflow/using/sending-personalized-alerts-to-operators.md)
+      + Data management {#data-management}
+         + [Coordinación de actualizaciones de datos](workflow/using/coordinating-data-updates.md)
+         + [Creación de la lista de resumen](workflow/using/creating-a-summary-list.md)
+         + [Enriquecimiento de datos](workflow/using/enriching-data.md)
+         + [Uso de agregados](workflow/using/using-aggregates.md)
       + Diseño de consultas {#designing-queries}
          + [Consulta de la tabla de destinatarios](workflow/using/querying-recipient-table.md)
-         + [Consulta de información de envío](workflow/using/querying-delivery-information.md)
+         + [Consulta de información de entrega](workflow/using/querying-delivery-information.md)
          + [Realización de la computación agregada](workflow/using/performing-aggregate-computing.md)
          + [Realización de consultas mediante la administración de agrupación](workflow/using/querying-using-grouping-management.md)
-         + [Consulta mediante una relación de varios a varios](workflow/using/querying-using-many-to-many-relationship.md)
+         + [Realización de consultas con una relación de varios a varios ](workflow/using/querying-using-many-to-many-relationship.md)
          + [Adición de un campo calculado de tipo de enumeración](workflow/using/adding-enumeration-type-calculated-field.md)
          + [Creación de filtros](workflow/using/creating-a-filter.md)
          + [Filtrado de destinatarios duplicados](workflow/using/filtering-duplicated-recipients.md)
-      + [Envío de alertas personalizadas a operadores](workflow/using/sending-personalized-alerts-to-operators.md)
-      + [Enriquecimiento de correo electrónico con campos de datos personalizados](workflow/using/email-enrichment-with-custom-date-fields.md)
-   + Control de flujos de trabajo {#monitoring-workflows}
+   + Monitorización de flujos de trabajo {#monitoring-workflows}
       + [Control de la ejecución del flujo de trabajo](workflow/using/monitoring-workflow-execution.md)
       + [Monitorización de flujos de trabajo técnicos](workflow/using/monitoring-technical-workflows.md)
       + [Mapa de calor del flujo de trabajo](workflow/using/heatmap.md)
@@ -429,7 +429,7 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [Campaña](workflow/using/campaign.md)
       + [Web Analytics](workflow/using/web-analytics.md)
       + [Distributed Marketing](workflow/using/distributed-marketing.md)
-      + [Monitoreo de la capacidad de entrega](workflow/using/email-deliverability.md)
+      + [Seguimiento de la capacidad de entrega](workflow/using/email-deliverability.md)
       + [Renderización de la bandeja de entrada](workflow/using/inbox-rendering.md)
       + [Interacción](workflow/using/interaction.md)
       + [Control del motor de oferta](workflow/using/control-of-offer-engine.md)
@@ -470,7 +470,7 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [Ajustes de ejecución](interaction/using/execution-settings.md)
       + [Ámbito de la simulación](interaction/using/simulation-scope.md)
       + [Seguimiento de la simulación](interaction/using/simulation-tracking.md)
-   + Envío de una oferta {#delivering-an-offer}
+   + Entrega de una oferta {#delivering-an-offer}
       + [Acerca de los canales de salida](interaction/using/about-outbound-channels.md)
       + [Integración de una oferta mediante el asistente](interaction/using/integrating-an-offer-via-the-wizard.md)
       + [Integración de una oferta mediante un flujo de trabajo](interaction/using/integrating-an-offer-via-a-workflow.md)
@@ -494,10 +494,10 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [Reglas de presentación](interaction/using/presentation-rules.md)
       + [Ofertas en un canal entrante](interaction/using/offers-on-an-inbound-channel.md)
       + [Ofertas en un canal saliente](interaction/using/offers-on-an-outbound-channel.md)
-+ Transactional Messaging {#transactional-messaging}
++ Mensajería transaccional {#transactional-messaging}
    + Introducción {#introduction}
       + [Acerca de la mensajería transaccional](message-center/using/about-transactional-messaging.md)
-      + [Arquitectura de mensajería transaccionales](message-center/using/transactional-messaging-architecture.md)
+      + [Arquitectura de mensajería transaccional](message-center/using/transactional-messaging-architecture.md)
       + [Descripción del evento](message-center/using/event-description.md)
    + Configuración de instancia {#instance-configuration}
       + [Creación de una conexión compartida](message-center/using/creating-a-shared-connection.md)
@@ -520,7 +520,7 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [Acerca del procesamiento de eventos](message-center/using/about-event-processing.md)
       + [Recopilación de eventos](message-center/using/event-collection.md)
       + [Enrutamiento hacia una plantilla](message-center/using/routing-towards-a-template.md)
-      + [Ejecución de envío](message-center/using/delivery-execution.md)
+      + [Ejecución de entrega](message-center/using/delivery-execution.md)
    + Informes {#reports}
       + [Acerca de los informes de mensajería transaccional](message-center/using/about-transactional-messaging-reports.md)
       + [Historial de eventos del Centro de mensajería](message-center/using/history-of-message-center-events.md)
@@ -533,10 +533,10 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
 + Integración con los medios sociales {#integrating-with-social-media}
    + [Acerca del marketing social](social/using/about-social-marketing.md)
    + Configuración {#configuration}
-      + [Inicio de flujos de trabajo](social/using/starting-workflows.md)
+      + [Inicio de un flujo de trabajo](social/using/starting-workflows.md)
       + [Publicación en muros de Facebook](social/using/publishing-on-facebook-walls.md)
       + [Creación de una aplicación de Facebook](social/using/creating-a-facebook-application.md)
-      + [Configuración de la publicación en Twitter](social/using/configuring-publishing-on-twitter.md)
+      + [Configuración de una publicación en Twitter](social/using/configuring-publishing-on-twitter.md)
    + Publicación en Facebook/Twitter {#publishing-on-facebook-twitter}
       + [Información general](social/using/overview.md)
       + [Publicación en Facebook](social/using/publishing-on-facebook.md)
@@ -564,42 +564,42 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [Implementación independiente](installation/using/standalone-deployment.md)
       + [Implementación estándar](installation/using/standard-deployment.md)
       + [Implementación empresarial](installation/using/enterprise-deployment.md)
-      + [Implementación de fuentes intermedias](installation/using/mid-sourcing-deployment.md)
+      + [Implementación intermediaria](installation/using/mid-sourcing-deployment.md)
       + [Power Booster y Power Cluster](installation/using/power-booster-and-power-cluster.md)
    + Instalación de Campaign en Windows {#installing-campaign-in-windows-}
       + [Requisitos previos para la instalación de Campaign en Windows](installation/using/prerequisites-of-campaign-installation-in-windows.md)
       + [Instalación del servidor](installation/using/installing-the-server.md)
-      + [Integración en un servidor Web para Windows](installation/using/integration-into-a-web-server-for-windows.md)
+      + [Integración en un servidor web para Windows](installation/using/integration-into-a-web-server-for-windows.md)
       + [Disponibilidad de la consola de cliente para Windows](installation/using/client-console-availability-for-windows.md)
       + [Instalación de la consola de cliente](installation/using/installing-the-client-console.md)
    + Instalación de Campaign en Linux {#installing-campaign-in-linux-}
       + [Requisitos previos para la instalación de Campaign en Linux](installation/using/prerequisites-of-campaign-installation-in-linux.md)
       + [Instalación de paquetes con Linux](installation/using/installing-packages-with-linux.md)
-      + [Integración en un servidor Web para Linux](installation/using/integration-into-a-web-server-for-linux.md)
-      + [Disponibilidad de la consola del cliente para Linux](installation/using/client-console-availability-for-linux.md)
+      + [Integración en un servidor web para Linux](installation/using/integration-into-a-web-server-for-linux.md)
+      + [Disponibilidad de la consola de cliente para Linux](installation/using/client-console-availability-for-linux.md)
    + Configuración inicial {#initial-configuration}
       + [Acerca de la configuración inicial](installation/using/about-initial-configuration.md)
       + [Creación de una instancia e inicio de sesión](installation/using/creating-an-instance-and-logging-on.md)
       + [Creación y configuración de la base de datos](installation/using/creating-and-configuring-the-database.md)
-      + [Configuración del servidor de campañas](installation/using/campaign-server-configuration.md)
+      + [Configuración del servidor de Campaign](installation/using/campaign-server-configuration.md)
       + [Implementación de una instancia](installation/using/deploying-an-instance.md)
       + [Instalación de paquetes estándar de Campaign Classic](installation/using/installing-campaign-standard-packages.md)
    + Configuraciones adicionales {#additional-configurations}
-      + [Configuración del servidor de campañas](installation/using/configuring-campaign-server.md)
-      + [Conexión a través de LDAP](installation/using/connecting-through-ldap.md)
+      + [Configuración del servidor de Campaign](installation/using/configuring-campaign-server.md)
+      + [Conexión mediante LDAP](installation/using/connecting-through-ldap.md)
       + [Configuraciones técnicas de correo electrónico](installation/using/email-deliverability.md)
-      + [Archiving de correo electrónico](installation/using/email-archiving.md)
+      + [Almacenamiento de correos electrónicos](installation/using/email-archiving.md)
       + [Administración de husos horarios](installation/using/time-zone-management.md)
       + [Configuración de SpamAssassin](installation/using/configuring-spamassassin.md)
-      + [Servidor de fuentes intermedias](installation/using/mid-sourcing-server.md)
+      + [Servidor intermediario](installation/using/mid-sourcing-server.md)
       + [Interacción: búfer de datos](installation/using/interaction---data-buffer.md)
    + Apéndices {#appendices}
       + [El archivo de configuración del servidor](installation/using/the-server-configuration-file.md)
       + [Líneas de comandos](installation/using/command-lines.md)
       + [Creación de nuevas instancias](installation/using/creating-new-instances.md)
       + [Lista de opciones de Campaign Classic](installation/using/configuring-campaign-options.md)
-      + [Desinstalación de campaña](installation/using/uninstalling-campaign.md)
-+ Monitoreo de Campaign Classic {#monitoring-campaign-classic}
+      + [Desinstalación de Campaign](installation/using/uninstalling-campaign.md)
++ Monitorización de Campaign Classic {#monitoring-campaign-classic}
    + Introducción {#introduction}
       + [Prefacio](production/using/foreword.md)
       + [Arquitectura general](production/using/general-architecture.md)
@@ -609,14 +609,14 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [Administración](production/using/administration.md)
       + [Configuración](production/using/configuration.md)
       + [Archivos de registro](production/using/log-files.md)
-      + [Monitoreo de procesos](production/using/monitoring-processes.md)
+      + [Monitorización de procesos](production/using/monitoring-processes.md)
       + [Comandos habituales](production/using/usual-commands.md)
       + [Pista de auditoría](production/using/audit-trail.md)
    + Procesamiento de datos {#data-processing}
-      + [Backup](production/using/backup.md)
+      + [Copia de seguridad](production/using/backup.md)
       + [Restauración](production/using/restoration.md)
       + [Duplicación de entornos](production/using/duplicating-environments.md)
-      + [Flujo de trabajo de limpieza de bases de datos](production/using/database-cleanup-workflow.md)
+      + [Flujo de trabajo para limpieza de bases de datos](production/using/database-cleanup-workflow.md)
    + Actualización de Adobe Campaign {#updating-adobe-campaign}
       + [Introducción](production/using/introduction.md)
       + [Actualización](production/using/upgrading.md)
@@ -629,11 +629,11 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [Recomendaciones específicas de RDBMS](production/using/rdbms-specific-recommendations.md)
       + [Objetos de aplicación](production/using/application-objects.md)
    + Resolución de problemas {#troubleshooting}
-      + [Problemas de rendimiento y rendimiento](production/using/performance-and-throughput-issues.md)
-      + [Faltan imágenes](production/using/images-missing.md)
+      + [Problemas de rendimiento y producción](production/using/performance-and-throughput-issues.md)
+      + [Falta de imágenes](production/using/images-missing.md)
       + [Problemas de visualización de imágenes](production/using/image-display-issues.md)
       + [Archivos temporales](production/using/temporary-files.md)
-      + [Rendimiento de la base de datos](production/using/database-performances.md)
+      + [Rendimientos de la base de datos](production/using/database-performances.md)
       + [Módulos y problemas frecuentes](production/using/modules-and-frequent-issues.md)
       + [Precisión de registro](production/using/log-precision.md)
       + [Problemas de registro de seguimiento](production/using/tracking-logs-issues.md)
@@ -678,7 +678,7 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [API orientadas al negocio](configuration/using/business-oriented-apis.md)
       + [Implementación de métodos SOAP](configuration/using/implementing-soap-methods.md)
       + [Métodos SOAP en JavaScript](configuration/using/soap-methods-in-javascript.md)
-      + [Adición de funciones SQL adicionales](configuration/using/adding-additional-sql-functions.md)
+      + [Añadir funciones SQL adicionales](configuration/using/adding-additional-sql-functions.md)
    + Jerarquía de navegación {#navigation-hierarchy}
       + [Acerca de la jerarquía de navegación](configuration/using/about-navigation-hierarchy.md)
       + [Configuración](configuration/using/configuration.md)
@@ -688,9 +688,9 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [Características del esquema](configuration/using/schema-characteristics.md)
       + [Asignación de objetivos](configuration/using/target-mapping.md)
       + [Configuración de la interfaz](configuration/using/configuring-the-interface.md)
-      + [Direcciones sembradas](configuration/using/seed-addresses.md)
+      + [Direcciones semilla](configuration/using/seed-addresses.md)
       + [Creación de filtros](configuration/using/creating-filters.md)
-      + [Creación de una lista de perfiles con un flujo de trabajo](configuration/using/creating-a-profile-list-with-a-workflow.md)
+      + [Creación de una lista de perfiles a partir de un flujo de trabajo](configuration/using/creating-a-profile-list-with-a-workflow.md)
       + [Administración de flujos de trabajo](configuration/using/managing-workflows.md)
       + [Administración de informes](configuration/using/managing-reports.md)
    + Configuración del seguimiento web {#setting-up-web-tracking}
@@ -717,12 +717,12 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [Migración en Windows para Adobe Campaign 7](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
       + [Migración en Linux para Adobe Campaign v7](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
    + Configuración {#configuration}
-      + [Configuraciones generales](migration/using/general-configurations.md)
+      +  [Configuración general](migration/using/general-configurations.md)
       + [Configuraciones específicas en la versión 5.11](migration/using/specific-configurations-in-v5-11.md)
-      + [Configuraciones específicas en v6.02](migration/using/specific-configurations-in-v6-02.md)
-      + [Configuraciones específicas en v6.10](migration/using/specific-configurations-in-v6-10.md)
+      + [Configuraciones específicas en la versión 6.02](migration/using/specific-configurations-in-v6-02.md)
+      + [Configuraciones específicas en la versión 6.10](migration/using/specific-configurations-in-v6-10.md)
    + Reversión {#rollback}
       + [Acerca de la reversión](migration/using/about-rollback.md)
       + [Restauración de la versión 5.11](migration/using/restoring-v5-11.md)
-      + [Restauración v6.02](migration/using/restoring-v6-02.md)
-      + [Restauración de v6.1](migration/using/restoring-v6-1.md)
+      + [Restauración de la versión 6.02](migration/using/restoring-v6-02.md)
+      + [Restauración de la versión 6.1](migration/using/restoring-v6-1.md)
