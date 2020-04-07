@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 239272386b709f81d1e6898a68b9b3552ddeb9b7
+source-git-commit: 8c71f54b68558178171fa30601aebf5e638db37f
 
 ---
 
@@ -141,7 +141,11 @@ Existen dos tipos de secuencias:
 * **Compartido**: más de una tabla seleccionaría su ID de la misma secuencia. Significa que si una tabla utiliza una ID &#39;X&#39;, ninguna otra tabla que comparta la misma secuencia tendrá un registro con esa ID &#39;X&#39;. **XtkNewId** es la secuencia compartida predeterminada disponible en Adobe Campaign.
 * **Dedicado**: sólo una tabla está eligiendo sus ID de la secuencia. El nombre de la secuencia normalmente contendría el nombre de la tabla.
 
-La secuencia es un valor entero de 32 bits, con un número máximo finito de valores disponibles: 2.140 millones. Después de alcanzar el valor máximo, la secuencia regresa a 0 para reciclar los identificadores. Si no se han depurado los datos antiguos, el resultado será una infracción de clave única, que se convertirá en un bloqueador del estado y uso de la plataforma. El Adobe Campaign no podría enviar comunicaciones (cuando impacte la tabla de registro de envíos) y el rendimiento se vería muy afectado.
+>[!IMPORTANT]
+>
+>La secuencia es un valor entero de 32 bits, con un número máximo finito de valores disponibles: 2.140 millones. Después de alcanzar el valor máximo, la secuencia regresa a 0 para reciclar los identificadores.
+>
+>Si no se han depurado los datos antiguos, el resultado será una infracción de clave única, que se convertirá en un bloqueador del estado y uso de la plataforma. El Adobe Campaign no podría enviar comunicaciones (cuando impacte la tabla de registro de envíos) y el rendimiento se vería muy afectado.
 
 Por lo tanto, un cliente que envía 6.000 millones de correos electrónicos anualmente con un período de retención de 180 días para sus registros se quedaría sin ID en 4 meses. Para evitar este desafío, asegúrese de tener la configuración de purga según los volúmenes. Para obtener más información, consulte [esta sección](#data-retention).
 
@@ -150,7 +154,7 @@ Cuando se crea una tabla personalizada en Adobe Campaign con una clave principal
 De forma predeterminada, una secuencia personalizada tendrá valores que oscilarán entre +1000 y +2,1BB. Técnicamente, es posible obtener una gama completa de 4BB habilitando identificadores negativos. Debe utilizarse con cuidado y se perderá una identificación al pasar de números negativos a positivos: Adobe Campaign Classic suele ignorar el registro 0 en las consultas SQL generadas.
 
 **Temas relacionados:**
-* Para obtener más información sobre la función de generación **automática de** secuencias, consulte este [documento](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html).
+* Para obtener más información sobre la función de generación **automática de** secuencias, consulte este [documento](https://helpx.adobe.com/es/campaign/kb/sequence_auto_generation.html).
 * Para obtener más información sobre el agotamiento de secuencias, vea este [vídeo](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
 
 ## Índices {#indexes}
