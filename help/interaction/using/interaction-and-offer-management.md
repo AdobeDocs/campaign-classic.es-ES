@@ -14,8 +14,8 @@ discoiquuid: 9fe22450-057c-44b4-ab73-4027a2ddb20c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c1afd6ad61db2062ee804c8a2add56a21578ef19
+translation-type: tm+mt
+source-git-commit: ad4a40053b25bbf8de81e074e135ef4944f0b427
 
 ---
 
@@ -30,4 +30,14 @@ Se puede crear un catálogo de ofertas que interactúe con los canales entrantes
 
 La interacción permite crear y gestionar un catálogo de ofertas y configurar las reglas de idoneidad y los temas de la aplicación vinculados a ellas. Según el canal elegido, el contenido de la oferta puede personalizarse gracias a las diversas funciones de renderización. Finalmente, puede utilizar el módulo de simulación para calcular el impacto de la presentación de una oferta.
 
+![](assets/Offermgt2.png)
+
 Para familiarizarse con la función de interacción y la terminología utilizada en Campaign Interaction, vea este vídeo: [Información general sobre Adobe Campaign Interaction](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com).
+
+## Temas relacionados
+
+| Páginas útiles | Recursos adicionales |
+|---|---|
+| [Pasos de implementación de la interacción](../../interaction/using/implementation-steps.md) | [Prueba de la distribución de ofertas](../../interaction/using/about-offers-simulation.md) |
+| [Entornos en directo/de diseño](../../interaction/using/live-design-environments.md) | [Añadir una oferta en un correo electrónico](../../interaction/using/integrating-an-offer-via-the-wizard.md) |
+| [Creación de espacios de oferta](../../interaction/using/creating-offer-spaces.md) | [Caso de uso: agregar una oferta en un sitio web](../../interaction/using/offers-on-an-inbound-channel.md) |
