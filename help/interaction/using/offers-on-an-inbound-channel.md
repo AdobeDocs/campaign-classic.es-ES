@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa0eb7acfb5d3b622475544735aed37d6beea892
+source-git-commit: 7c117c549b02cf24b97dc1330e703b711ba14129
 
 ---
 
@@ -36,7 +36,7 @@ Para configurar esta interacción, vamos a:
 
 ### Creación de un entorno anónimo {#creating-an-anonymous-environment}
 
-Follow the procedure detailed in [Creating an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment) to create your anonymous environment based on the **Visitors**&#39; dimensions.
+Siga el procedimiento detallado en [Crear un entorno de oferta](../../interaction/using/live-design-environments.md#creating-an-offer-environment) para crear su entorno anónimo basado en las dimensiones de los **Visitantes**.
 
 Se obtiene una estructura de árbol que contiene el nuevo entorno:
 
@@ -44,8 +44,8 @@ Se obtiene una estructura de árbol que contiene el nuevo entorno:
 
 ### Creación de espacios de oferta anónimos {#creating-anonymous-offer-spaces}
 
-1. En el entorno anónimo (**Visitantes**), vaya al nodo **[!UICONTROL Administration]** > **[!UICONTROL Spaces]** .
-1. Haga clic en **[!UICONTROL New]** para crear canales de llamadas.
+1. In your anonymous environment (**Visitors**) go to the **[!UICONTROL Administration]** > **[!UICONTROL Spaces]** node.
+1. Click **[!UICONTROL New]** to create call channels.
 
    ![](assets/offer_inbound_anonymous_example_010.png)
 
@@ -135,9 +135,9 @@ Se obtiene una estructura de árbol que contiene el nuevo entorno:
 
 ### Configuración del espacio de ofertas web en el sitio web {#configure-the-web-offer-space-on-the-website}
 
-To make the offers you have just configured visible on the website, insert a JavaScript code into the HTML page of your site to call up the Interaction engine (for more on this, refer to [About inbound channels](../../interaction/using/about-inbound-channels.md)).
+Para que las ofertas que acaba de configurar estén visibles en el sitio web, inserte un código JavaScript en la página HTML del sitio para visualizar el motor de interacción (para obtener más información, consulte [Acerca de los canales entrantes](../../interaction/using/about-inbound-channels.md)).
 
-1. Go to the HTML page and insert an @id attribute with a value matching the internal name of the anonymous offer space created previously (refer to [Creating anonymous offer spaces](#creating-anonymous-offer-spaces)), preceded by **i_**.
+1. Vaya a la página HTML e inserte un atributo @id con un valor que coincida con el nombre interno del espacio de oferta anónimo creado anteriormente (consulte [Crear espacios de oferta anónimos](#creating-anonymous-offer-spaces)), precedido por **i_**.
 
    ![](assets/offer_inbound_anonymous_example_019.png)
 
@@ -145,7 +145,7 @@ To make the offers you have just configured visible on the website, insert a Jav
 
    ![](assets/offer_inbound_anonymous_example_020.png)
 
-   Los cuadros de URL azules de arriba corresponden al nombre de la instancia, el nombre interno del entorno (consulte [Creación de un entorno](#creating-an-anonymous-environment)anónimo) y el tema vinculado a la categoría ([Creación de una categoría de oferta y un tema](#creating-an-offer-category-and-a-theme)). Esto último es opcional.
+   Los cuadros de URL azules de arriba corresponden al nombre de la instancia, el nombre interno del entorno (consulte [Creación de un entorno anónimo](#creating-an-anonymous-environment)) y el tema vinculado a la categoría ([Creación de una categoría de oferta y un tema](#creating-an-offer-category-and-a-theme)). Esto último es opcional.
 
 Cuando un visitante accede a la página principal del sitio web, las ofertas con el tema de **financiación** se muestran según lo configurado en la página HTML.
 
@@ -199,13 +199,13 @@ Siga estos pasos:
 
 ### Creación de un entorno para contactos anónimos {#creating-an-environment-for-anonymous-contacts}
 
-1. Cree un entorno de oferta para interacciones de entrada anónimas mediante el asistente de asignación de envíos (asignación de **visitantes).** Para obtener más información sobre esto, consulte [Creación de un entorno](../../interaction/using/live-design-environments.md#creating-an-offer-environment)de ofertas.
+1. Cree un entorno de oferta para interacciones de entrada anónimas mediante el asistente de asignación de entregas (asignación de **visitantes).** Para obtener más información, consulte [Creación de un entorno de ofertas](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
 
    ![](assets/offer_env_anonymous_003.png)
 
 ### Configuración de los espacios de ofertas para el entorno anónimo {#configuring-offer-spaces-for-the-anonymous-environment}
 
-The offers which must be presented on the web site belong to two different categories: **Best Offer** and **Partner**. En este ejemplo, vamos a crear un espacio de oferta específico para cada categoría.
+Las ofertas que se deben presentar en el sitio web pertenecen a dos categorías diferentes: **Mejor oferta** y **Socio**. En este ejemplo, vamos a crear un espacio de oferta específico para cada categoría.
 
 Para crear el espacio de oferta que coincida con la categoría **Mejor oferta**, siga este proceso:
 
@@ -217,7 +217,7 @@ Para crear el espacio de oferta que coincida con la categoría **Mejor oferta**,
 
    ![](assets/offer_inbound_fallback_example_024.png)
 
-1. Escriba una etiqueta para él: Mejor oferta **anónima** web, por ejemplo.
+1. Escriba una etiqueta para él: **Mejor oferta anónima web**, por ejemplo.
 1. Añada los campos de contenido de oferta utilizados para este espacio de oferta y configure las funciones de procesamiento.
 
    ![](assets/offer_inbound_fallback_example_025.png)
@@ -284,12 +284,12 @@ Ahora vamos a crear dos ofertas en cada una de las categorías creadas anteriorm
 
 ### Configuración de los espacios de oferta en el entorno identificado {#configure-the-offer-spaces-in-the-identified-environment}
 
-The offers which you are going to present on the website are taken from two different categories: **Best Offer** and **Partner**. En este ejemplo, queremos crear un espacio específico para cada categoría.
+Las ofertas que va a presentar en el sitio web se toman de dos categorías diferentes **Mejor oferta** y **Socio**. En este ejemplo, queremos crear un espacio específico para cada categoría.
 
-Para crear los dos espacios de oferta, siga el mismo procedimiento que para los espacios de oferta anónimos. Refer to [Configuring offer spaces for the anonymous environment](#configuring-offer-spaces-for-the-anonymous-environment).
+Para crear los dos espacios de oferta, siga el mismo procedimiento que para los espacios de oferta anónimos. [Configuración de los espacios de ofertas para el entorno anónimo](#configuring-offer-spaces-for-the-anonymous-environment).
 
 1. En el árbol de Adobe Campaign, vaya al entorno que acaba de crear y añada los espacios de oferta de **Mejor oferta** y **Socio**.
-1. Aplique el proceso detallado en [Configuración de espacios de oferta para el entorno](#configuring-offer-spaces-for-the-anonymous-environment)anónimo.
+1. Aplique el proceso detallado en [Configuración de espacios de oferta para el entorno anónimo](#configuring-offer-spaces-for-the-anonymous-environment).
 
    ![](assets/offer_inbound_fallback_example_005.png)
 
@@ -297,7 +297,7 @@ Para crear los dos espacios de oferta, siga el mismo procedimiento que para los 
 
    ![](assets/offer_inbound_fallback_example_006.png)
 
-1. Mediante la lista desplegable, seleccione el espacio de oferta web anónimo creado anteriormente (consulte [Configuración de espacios de oferta para el entorno](#configuring-offer-spaces-for-the-anonymous-environment)anónimo).
+1. Mediante la lista desplegable, seleccione el espacio de oferta web anónimo creado anteriormente (consulte [Configuración de espacios de oferta para el entorno anónimo](#configuring-offer-spaces-for-the-anonymous-environment)).
 
    ![](assets/offer_inbound_fallback_example_007.png)
 
@@ -306,7 +306,7 @@ Para crear los dos espacios de oferta, siga el mismo procedimiento que para los 
 En este ejemplo, la identificación de los contactos tiene lugar gracias a la dirección de correo electrónico de la base de datos de Adobe Campaign. Para añadir el correo electrónico del destinatario al espacio, siga este proceso:
 
 1. En el entorno identificado, vaya a la carpeta de espacio de ofertas.
-1. Select the **Best Offer** offer space and click **[!UICONTROL Advanced parameters]**.
+1. Seleccione el espacio de oferta **Best offer** y haga clic en **[!UICONTROL Advanced parameters]**.
 
    ![](assets/offer_inbound_fallback_example_044.png)
 
@@ -314,12 +314,12 @@ En este ejemplo, la identificación de los contactos tiene lugar gracias a la di
 
    ![](assets/offer_inbound_fallback_example_046.png)
 
-1. Haga clic en **[!UICONTROL Edit expression]**, vaya a la tabla de destinatarios y seleccione el **[!UICONTROL Email]** campo.
+1. Click **[!UICONTROL Edit expression]**, go to the recipients table and select the **[!UICONTROL Email]** field.
 
    ![](assets/offer_inbound_fallback_example_047.png)
 
 1. Click **[!UICONTROL OK]** to close the **[!UICONTROL Advanced parameters]** window and finish configuring the **Best Offer** offer space.
-1. Siga el mismo proceso para el espacio de oferta de **Socio** .
+1. Siga el mismo proceso para el espacio de oferta de **Partner**.
 
    ![](assets/offer_inbound_fallback_example_048.png)
 
@@ -397,7 +397,7 @@ Para configurar estos espacios de oferta en la página HTML del sitio web, siga 
 
    ![](assets/offer_inbound_fallback_example_043.png)
 
-   La identificación de la persona puede basarse en una cookie del navegador, un parámetro de lectura en la dirección URL, el correo electrónico o el identificador de la persona. If a field of the recipient table other than the primary key is used, it needs to be defined in the advanced parameters of the space (refer to [Specifying the advanced settings of the identified offer spaces](#specifying-the-advanced-settings-of-the-identified-offer-spaces)).
+   La identificación de la persona puede basarse en una cookie del navegador, un parámetro de lectura en la dirección URL, el correo electrónico o el identificador de la persona. Si se utiliza un campo de la tabla de destinatarios que no sea la clave principal, debe definirse en los parámetros avanzados del espacio (consulte [Especificar la configuración avanzada de los espacios de oferta identificados](#specifying-the-advanced-settings-of-the-identified-offer-spaces)).
 
 1. Inserte la dirección URL a visualizar.
 
