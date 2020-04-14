@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 10419ee0fb466bddd05ab67087ccdbfdda1e48c8
+source-git-commit: 79f8cc179fcbf9d537a1cc889b268a43202d7369
 
 ---
 
@@ -52,8 +52,8 @@ Se aconseja a los clientes que comprueben si utilizan la función o la capacidad
    <tr> 
    <td>Seguridad SDK de JavaScript<br> </td>
    <td>decryptString<br> </td>
-   <td><p>Por motivos de seguridad, la API decryptString ya no está disponible de forma predeterminada para nuevas instalaciones.</p> 
-   <p>En el contexto de una actualización posterior a 18.6 (y posterior), esta API ya no se activa y se ha sustituido por la función decryptPassword.</p><br> </td>
+   <td><p>For security reasons, <em>decryptString</em> API is no longer available by default for new installations.</p> 
+   <p>In the context of a postupgrade to 18.6 (and later), this API is no longer activated, and has been replaced by the <em>decryptPassword</em> function.</p><br> </td>
   </tr> 
  </tbody> 
 </table>
@@ -125,10 +125,10 @@ Esta sección lista las funciones y funciones que se han eliminado del Campaign 
    <tr> 
    <td>Documentación de las API de Campaign - archivo<br>jsapi.chm</td>
    <td>Las API de Campaign Classic están ahora disponibles en una página dedicada. If you were using the jsapi.chm file, you should now refer to <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">the new online version</a>.</td>
-   <td>&lt;19.1</td>
+   <td>19.1</td>
   </tr> 
   <tr> 
-   <td>Orquestación de Campaña: mercadotecnia predictiva</td>
+   <td>Organización de campañas - Marketing predictivo</td>
    <td>Una gran parte de las funciones de marketing predictivo de Adobe Campaign Classic es el consumo de modelos predictivos. Aunque la actividad de flujo de trabajo de marketing predictivo se eliminará en las próximas versiones, Adobe Campaign seguirá admitiendo el consumo y el uso de modelos predictivos de fuentes externas a través de otras actividades de flujo de trabajo.</td>
    <td>18.10</td>
   </tr> 
