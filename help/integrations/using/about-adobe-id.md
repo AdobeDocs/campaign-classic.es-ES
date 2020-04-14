@@ -14,8 +14,8 @@ discoiquuid: c988362b-432e-4f9f-8d36-00b3d0015756
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
+translation-type: tm+mt
+source-git-commit: 0a4272ae13b469c7c17b8c3afa9748cbfbcf07ff
 
 ---
 
@@ -29,9 +29,17 @@ Los usuarios de la campaña pueden conectarse a la consola de Adobe Campaign con
 * Política de gestión segura de contraseñas.
 * Uso de cuentas de ID federadas (proveedor de ID externo).
 
-Para obtener más información sobre los distintos tipos de Adobe ID, consulte: [https://helpx.adobe.com/es/enterprise/help/identity.html](https://helpx.adobe.com/es/enterprise/help/identity.html)
+El sistema de administración de identidad de Adobe ayuda a los administradores a crear y administrar el acceso del usuario a aplicaciones y servicios. Para obtener más información sobre los distintos tipos de Adobe ID, consulte [esta página](https://helpx.adobe.com/enterprise/using/identity.html).
 
 >[!CAUTION]
 >
->La implementación IMS está estrictamente reservada para los administradores técnicos de Adobe. La implementación de IMS es un proceso complejo que puede tardar algún tiempo.
+>La implementación IMS está estrictamente reservada para los administradores técnicos de Adobe. La implementación del SIV es un proceso complejo que puede ser largo de implementar.
+
+## Temas relacionados
+
+| Páginas útiles | Recursos adicionales |
+|---|---|
+| [Configuración de IMS](../../integrations/using/configuring-ims.md) | [Preguntas más frecuentes sobre Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html) |
+| [Implementación de IMS](../../integrations/using/implementing-ims.md) | [Gestión de acceso](../../platform/using/access-management.md) |
+| [Resolución de problemas de IMS](../../integrations/using/ims-troubleshooting.md) | [Instalación de paquetes de Campaña](../../installation/using/installing-campaign-standard-packages.md) |
 
