@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
+source-git-commit: c8910fdfd07bd835d456baca29710ea927ad20e5
 
 ---
 
@@ -40,7 +40,7 @@ Los casos de uso de la guía &quot;Automatización con flujos de trabajo&quot; s
 
 Las secciones [de certificación](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) de correo de devolución y reglas [de administración de](../../delivery/using/understanding-delivery-failures.md#email-management-rules) correo electrónico se han mejorado con información actualizada.
 
-Se ha actualizado el artículo de MTA de Adobe Campaign mejorado. Ahora sólo se aplica al Campaign Classic. [Más información](https://helpx.adobe.com/campaign/kb/acc-acc-campaign-enhanced-mta.html)
+Se ha actualizado el artículo de MTA de Adobe Campaign mejorado. Ahora sólo se aplica al Campaign Classic. [Más información](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
 
 ## Marzo de 2020 {#march-2020}
 
