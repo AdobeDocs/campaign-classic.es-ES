@@ -5,7 +5,7 @@ solution: Campaign Classic
 title: Documentación del producto Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: ffaa4d4442448f9d30c4a1ef41b8bd73363088e0
+source-git-commit: 12c38d8ccf198b59ce93ee4155940612637b2856
 
 ---
 
@@ -16,8 +16,9 @@ source-git-commit: ffaa4d4442448f9d30c4a1ef41b8bd73363088e0
 
 ## Novedades
 
-* **[Privacy Compliance](https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html)**<br/>
-Learn how Adobe Campaign can help you with your Privacy compliance
+* **[Obtenga preguntas más frecuentes sobre Soporte](https://helpx.adobe.com/campaign/kb/ac-support.html)**</br> Access, prácticas recomendadas, recursos de ayuda y conéctese con expertos en Campaña y con el equipo de atención al cliente
+
+* **[Cumplimiento de la privacidad](https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html)**<br/> Conozca cómo el Adobe Campaign puede ayudarle con el cumplimiento de la privacidad
 
 * **[Funciones](https://helpx.adobe.com/es/campaign/kb/acc-tracking.html)**<br/> de seguimiento Comprender las capacidades de seguimiento en la Campaña
 
@@ -80,5 +81,5 @@ Learn how Adobe Campaign can help you with your Privacy compliance
 | [Matriz de compatibilidad](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html) | [JSAPI de Campaña](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | [Introducción a Campaign Classic](platform/using/about-adobe-campaign-classic.md) | [Guía de implementación](https://helpx.adobe.com/es/campaign/kb/acc-implementation.html) |
 | [Actualización a Gold Standard ](https://helpx.adobe.com/es/campaign/kb/gold-standard.html) | [Guía de seguimiento](https://helpx.adobe.com/es/campaign/kb/acc-tracking.html) |
-| [Funciones obsoletas y eliminadas](https://helpx.adobe.com/es/campaign/kb/deprecated-and-removed-features.html) | [Security &amp; Privacy checklist](https://helpx.adobe.com/es/campaign/kb/acc-security.html) |
+| [Funciones obsoletas y eliminadas](https://helpx.adobe.com/es/campaign/kb/deprecated-and-removed-features.html) | [Lista de comprobación de seguridad y privacidad](https://helpx.adobe.com/es/campaign/kb/acc-security.html) |
 | [Panel de control de Campaña](https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html) | [Monitoreo de las prácticas recomendadas](https://helpx.adobe.com/es/campaign/kb/acc-maintenance.html) |
