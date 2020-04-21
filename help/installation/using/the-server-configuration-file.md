@@ -15,18 +15,18 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 09fa3751d94fd71a68470174dd0b4a48d94d3f44
+source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
 
 ---
 
 
 # El archivo de configuración del servidor{#the-server-configuration-file}
 
-La configuración general de Adobe Campaign se define en el archivo **serverConf.xml** , ubicado en el directorio **conf** del directorio de instalación. Esta sección enumera todos los diferentes nodos y parámetros del archivo **serverConf.xml** .
+La configuración general de Adobe Campaign se define en el archivo **serverConf.xml** , ubicado en el directorio **conf** del directorio de instalación. Esta sección lista todos los diferentes nodos y parámetros del archivo **serverConf.xml** .
 
 >[!NOTE]
 >
->Adobe solo puede realizar configuraciones del lado del servidor para implementaciones alojadas en Adobe. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Hosting models](../../installation/using/hosting-models.md) o [este artículo](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html). Los pasos de instalación y configuración para los modelos alojados e híbridos se presentan en esta [sección](../../installation/using/hosted-model.md).
+>Adobe solo puede realizar configuraciones del lado del servidor para implementaciones alojadas en Adobe. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Hosting models](../../installation/using/hosting-models.md) o [este artículo](https://helpx.adobe.com/es/campaign/kb/acc-on-prem-vs-hosted.html). Los pasos de instalación y configuración para los modelos alojados e híbridos se presentan en esta [sección](../../installation/using/hosted-model.md).
 
 Los primeros parámetros se encuentran dentro del nodo **compartido** . Están relacionados con la instancia. Son potencialmente utilizados por todos los comandos nlserver (nlserver web, nlserver wfserver, etc.). Las demás secciones están relacionadas con un subcomando nlserver específico.
 
@@ -60,7 +60,7 @@ Los primeros parámetros se encuentran dentro del nodo **compartido** . Están r
 * [sms](#sms)
 * [stat](#stat)
 * [syslogd](#syslogd)
-* [seguimiento](#tracking)
+* [tracking](#tracking)
 * [trackinglogd](#trackinglogd)
 * [web](#web)
 * [wfserver](#wfserver)
@@ -181,7 +181,7 @@ Estos son los distintos parámetros del nodo **dataStore** . Aquí es donde se d
   </tr> 
   <tr> 
    <td> hosts<br /> </td> 
-   <td> Máscaras DNS: lista de máscaras DNS que sirve esta instancia (separadas por coma, puede utilizar * y ? patrones).<br /> </td> 
+   <td> Máscaras DNS: lista de máscaras DNS que esta instancia proporciona (separadas por coma, puede utilizar * y ? patrones).<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> '*'<br /> </td> 
   </tr> 
@@ -193,7 +193,7 @@ Estos son los distintos parámetros del nodo **dataStore** . Aquí es donde se d
   </tr> 
   <tr> 
    <td> lang<br /> </td> 
-   <td> Idioma de instancia (enumeración). Los valores posibles son 'fr_FR' (Français), 'en_GB' (Inglés (Reino Unido)), 'en_US' (Inglés (Estados Unidos)), 'de_DE' (Deutsch) y 'ja_JP' (Japonés).<br /> </td> 
+   <td> Idioma de instancia (lista desglosada). Los valores posibles son 'fr_FR' (Français), 'en_GB' (Inglés (Reino Unido)), 'en_US' (Inglés (Estados Unidos)), 'de_DE' (Deutsch) y 'ja_JP' (Japonés).<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> 'en_US'<br /> </td> 
   </tr> 
@@ -205,7 +205,7 @@ Estos son los distintos parámetros del nodo **dataStore** . Aquí es donde se d
   </tr> 
   <tr> 
    <td> uploadWhitelist<br /> </td> 
-   <td> Los archivos autorizados se descargarán separados por ','. La cadena debe ser una expresión de Java regular válida. Consulte <a href="../../installation/using/configuring-campaign-server.md#limiting-uploadable-files" target="_blank">Limitación de archivos</a>cargables.<br /> </td> 
+   <td> Los archivos autorizados se descargarán separados por ','. La cadena debe ser una expresión java normal y válida. Consulte <a href="../../installation/using/configuring-campaign-server.md#limiting-uploadable-files" target="_blank">Limitación de archivos</a>cargables.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> '.+' <br /> </td> 
   </tr> 
@@ -219,7 +219,7 @@ Estos son los distintos parámetros del nodo **dataStore** . Aquí es donde se d
    <td> vaultSecretPath<br /> </td> 
    <td> Ruta secreta en Vault<br /> </td> 
    <td> Cadena<br /> </td> 
-   <td> '/v1/secret/campaign/'<br /> </td> 
+   <td> '/v1/secret/campaña/'<br /> </td> 
   </tr> 
   <tr> 
    <td> vaultTokenPath<br /> </td> 
@@ -243,14 +243,14 @@ Estos son los distintos parámetros del nodo **dataStore** . Aquí es donde se d
    <td> workingDirectory<br /> </td> 
    <td> XPath del directorio de trabajo.<br /> </td> 
    <td> Cadena<br /> </td> 
-   <td> workingDirectory :XPath del directorio de trabajo. Predeterminado: '$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/Workspace/'<br /> </td> 
+   <td> workingDirectory : XPath del directorio de trabajo. Predeterminado: '$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/Workspace/'<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### proxyFit {#proxyadjust}
 
-Estos son los diferentes parámetros del nodo **dataStore > proxyAdjustment** . Las direcciones URL que coinciden con la expresión regular se regeneran según la dirección URL definida en urlBase.
+Estos son los diferentes parámetros del nodo **dataStore > proxyAdjustment** . Las direcciones URL que coinciden con la expresión normal se regeneran según la dirección URL definida en urlBase.
 
 <table> 
  <thead> 
@@ -268,7 +268,7 @@ Estos son los diferentes parámetros del nodo **dataStore > proxyAdjustment** . 
   </tr> 
   <tr> 
    <td> urlRegEx<br /> </td> 
-   <td> Expresión regular para que coincida con las direcciones URL. Por ejemplo: http://server\.lan\.net.*<br /> </td> 
+   <td> expresión regular para que coincidan las direcciones URL. Por ejemplo: http://server\.lan\.net.*<br /> </td> 
    <td> Cadena<br /> </td> 
   </tr> 
  </tbody> 
@@ -292,7 +292,7 @@ Estos son los diferentes parámetros del nodo **dataStore > dataSource** .
    <td> name<br /> </td> 
    <td> Nombre de la fuente de datos<br /> </td> 
    <td> Cadena<br /> </td> 
-   <td> default<br /> </td> 
+   <td> por defecto<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -311,7 +311,7 @@ En el nodo **dataStore > dataSource > dbcnx** , configure la conexión:
  <tbody> 
   <tr> 
    <td> NChar<br /> </td> 
-   <td> Almacenamiento Unicode<br /> </td> 
+   <td> almacenamiento Unicode<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> </td> 
   </tr> 
@@ -341,7 +341,7 @@ En el nodo **dataStore > dataSource > dbcnx** , configure la conexión:
   </tr> 
   <tr> 
    <td> proveedor<br /> </td> 
-   <td> Tipo (enumeración). Los valores posibles son 'Oracle', 'MSSQL' (Microsoft SQL Server), 'PostgreSQL' (PostgreSQL, Greenplum), 'Teradata', 'DB2', 'MySQL', 'Netezza', 'AsterData', 'SAPHANA' (SAP HANA), 'RedShift' (Amazon Redshift), 'ODBC' (ODBC (Sybase Sybase SyASE, SyASE) IQ base), 'Relay' (retransmisión HTTP a base de datos remota).<br /> </td> 
+   <td> Tipo (lista desglosada). Los valores posibles son 'Oracle', 'MSSQL' (Microsoft SQL Server), 'PostgreSQL' (PostgreSQL, Greenplum), 'Teradata', 'DB2', 'MySQL', 'Netezza', 'AsterData', 'SAPHANA' (SAP HANA), 'RedShift' (Amazon Redshift), 'ODBC' (ODBC (Sybase Sybase SyASE, SyASE) IQ base), 'Relay' (retransmisión HTTP a base de datos remota).<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> 'Oracle'<br /> </td> 
   </tr> 
@@ -429,7 +429,7 @@ En el nodo **dataStore > dataSource > pool** , configure los parámetros del gru
 
 Estos son los diferentes parámetros del nodo **dataStore > virtualDir** . Esta es la configuración del directorio virtual a la asignación de directorios real.
 
-Para obtener más información, consulte [Administración de recursos](../../installation/using/configuring-campaign-server.md#managing-public-resources)públicos.
+Para obtener más información, consulte [Administración de recursos públicos](../../installation/using/configuring-campaign-server.md#managing-public-resources).
 
 <table> 
  <thead> 
@@ -550,7 +550,7 @@ For additional information, refer to this [section](../../installation/using/con
 >utilizado por el MTA para obtener el Intercambio de correo declarado para
 >un dominio.
 >
->Si no se define este valor, el MTA busca esta información en la configuración de red del host. Si son posibles varios DNS, las distintas direcciones DNS deben separarse con una coma (ejemplo: 212.155.207.1.212.155.207.2). Si el servidor de entrega tiene varias interfaces de red, la lista DNS utilizada por el MTA es la primera. En este caso, se recomienda especificar el parámetro **nameServer** para evitar cualquier ambigüedad.
+>Si no se define este valor, el MTA busca esta información en la configuración de red del host. Si son posibles varios DNS, las distintas direcciones DNS deben separarse con una coma (ejemplo: 212.155.207.1.212.155.207.2). Si el servidor envío tiene varias interfaces de red, la lista DNS utilizada por el MTA es la primera. En este caso, se recomienda especificar el parámetro **nameServer** para evitar cualquier ambigüedad.
 
 >[!CAUTION]
 >
@@ -611,7 +611,7 @@ Estos son los distintos parámetros del nodo **htmlToPdf** . Esta es la configur
    <td> 5<br /> </td> 
   </tr> 
   <tr> 
-   <td> modo<br /> </td> 
+   <td> mode<br /> </td> 
    <td> Herramienta que se utilizará para la conversión. Los valores posibles son: phantomjs, wkhtmltopdf, otros, deshabilitados<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> 'phantomjs' <br /> </td> 
@@ -624,7 +624,7 @@ Estos son los distintos parámetros del nodo **htmlToPdf** . Esta es la configur
   </tr> 
   <tr> 
    <td> verbose<br /> </td> 
-   <td> Modo detallado: comience en modo detallado para diagnosticar posibles errores.<br /> </td> 
+   <td> Modo detallado: inicio en modo detallado para diagnosticar posibles errores.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -647,7 +647,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 Estos son los distintos parámetros del nodo **javaScript** . Ésta es la configuración del intérprete de JavaScript.
 
-Para obtener más información, consulte la documentación [de](../../reporting/using/actions-on-reports.md#memory-allocation) Informes y esta [nota técnica](https://helpx.adobe.com/campaign/kb/out-of-memory-error-in-js-code-activity-in-workflows.html).
+Para obtener más información, consulte la documentación [de](../../reporting/using/actions-on-reports.md#memory-allocation) Sistema de informes y esta [nota técnica](https://helpx.adobe.com/campaign/kb/out-of-memory-error-in-js-code-activity-in-workflows.html).
 
 <table> 
  <thead> 
@@ -703,9 +703,9 @@ Estos son los diferentes parámetros del nodo **mailExchange** . Esta es la conf
  </tbody> 
 </table>
 
-## módulo {#module}
+## module {#module}
 
-Estos son los diferentes parámetros del nodo del **módulo** . Esta es la configuración del módulo xtk de restricciones de espacios de nombres.
+Estos son los diferentes parámetros del nodo del **módulo** . Esta es la configuración del módulo de restricciones de Áreas de nombres xtk.
 
 <table> 
  <thead> 
@@ -719,7 +719,7 @@ Estos son los diferentes parámetros del nodo del **módulo** . Esta es la confi
  <tbody> 
   <tr> 
    <td> defaultNameSpace<br /> </td> 
-   <td> Espacio de nombres predeterminado utilizado al crear una nueva entidad.<br /> </td> 
+   <td> Área de nombres predeterminada que se utiliza al crear una entidad nueva.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> 'cus'<br /> </td> 
   </tr> 
@@ -728,7 +728,7 @@ Estos son los diferentes parámetros del nodo del **módulo** . Esta es la confi
 
 ## monitoreo {#monitoring}
 
-Estos son los distintos parámetros del nodo de **supervisión** . Esta es la configuración del servicio de monitoreo.
+Estos son los diferentes parámetros del nodo de **supervisión** . Esta es la configuración del servicio de monitoreo.
 
 <table> 
  <thead> 
@@ -742,7 +742,7 @@ Estos son los distintos parámetros del nodo de **supervisión** . Esta es la co
  <tbody> 
   <tr> 
    <td> maxPreparationJobsSec<br /> </td> 
-   <td> Tiempo máximo de preparación: duración en segundos después de la cual una acción de entrega ya no debe estar en preparación.<br /> </td> 
+   <td> Tiempo máximo de preparación: duración en segundos después de la cual una acción de envío ya no debe estar en preparación.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 3600<br /> </td> 
   </tr> 
@@ -763,7 +763,7 @@ Estos son los distintos parámetros del nodo de **supervisión** . Esta es la co
 
 ## ooconv {#ooconv}
 
-Estos son los diferentes parámetros del nodo **ooconv** . Esta es la configuración del servidor de conversión de documentos.
+Estos son los diferentes parámetros del nodo **ooconv** . Ésta es la configuración del servidor de conversión de documento.
 
 <table> 
  <thead> 
@@ -795,7 +795,7 @@ Estos son los diferentes parámetros del nodo **ooconv** . Esta es la configurac
   </tr> 
   <tr> 
    <td> url<br /> </td> 
-   <td> Dirección URL del servidor de conversión de documentos.<br /> </td> 
+   <td> Dirección URL del servidor de conversión de documento.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> 'http://localhost:8080/nl/jsp/ooconv.jsp'<br /> </td> 
   </tr> 
@@ -870,7 +870,7 @@ Para obtener más información, consulte Configuración [de conexión](../../ins
    <td> Cadena<br /> </td> 
   </tr> 
   <tr> 
-   <td> puerto<br /> </td> 
+   <td> port<br /> </td> 
    <td> Puerto del servidor proxy<br /> </td> 
    <td> Corto<br /> </td> 
   </tr> 
@@ -902,9 +902,9 @@ Estos son los distintos parámetros del nodo **threadPool** .
 
 ## urlPermission {#urlpermission}
 
-Estos son los distintos parámetros del nodo **urlPermission** . Lista de direcciones URL a las que puede acceder el código Javascript.
+Estos son los distintos parámetros del nodo **urlPermission** . Esta es la lista de direcciones URL a las que puede acceder el código Javascript.
 
-Lista de dominios y expresiones regulares que especifican si el servidor de Adobe Campaign puede o no utilizar una URL encontrada en el código Javascript.
+Lista de dominios y expresiones regulares que especifican si el servidor de Adobe Campaign puede o no utilizar una URL encontrada en el código JavaScript.
 
 Si no se encuentra la dirección URL, la acción predeterminada se realiza de acuerdo con el modo predeterminado especificado.
 
@@ -922,7 +922,7 @@ Para obtener más información, consulte Protección [de conexión](../../instal
  <tbody> 
   <tr> 
    <td> action<br /> </td> 
-   <td> Acción predeterminada si la dirección URL no está en la lista autorizada (enumeración). Los valores posibles son 'ignore' (autorizar sin mensaje de advertencia, esto requiere deshabilitar la protección), 'warning' (autorizar y emitir un mensaje de advertencia) y 'bold' (prohibir el acceso a la dirección URL).<br /> </td> 
+   <td> Acción predeterminada si la dirección URL no está en la lista autorizada (lista desglosada). Los valores posibles son 'ignore' (autorizar sin mensaje de advertencia, esto requiere deshabilitar la protección), 'warning' (autorizar y emitir un mensaje de advertencia) y 'bold' (prohibir el acceso a la dirección URL).<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> denegar<br /> </td> 
   </tr> 
@@ -957,7 +957,7 @@ Para obtener más información, consulte Protección [de conexión](../../instal
   </tr> 
   <tr> 
    <td> urlRegEx<br /> </td> 
-   <td> Expresión regular para refinar las URL de validación que pertenecen a este dominio: expresión regular que la dirección URL debe verificar, en caso de que se corresponda con dnsSuffix.<br /> </td> 
+   <td> expresión regular para refinar las URL de validación que pertenecen a este dominio: expresión regular que debe comprobar la dirección URL, en caso de que corresponda a dnsSuffix.<br /> </td> 
    <td> Cadena<br /> </td> 
   </tr> 
  </tbody> 
@@ -1039,19 +1039,19 @@ Para obtener más información, consulte [Activación del archivado de correo el
   </tr> 
   <tr> 
    <td> archiveType<br /> </td> 
-   <td> Estrategia de archivado de mensajes enviados (enumeración). Los valores posibles son '0' (sin archivar) y '1' (transfiere el archivado de mensajes enviados a un servidor SMTP).<br /> </td> 
+   <td> Estrategia de archivado de mensajes enviados (lista desglosada). Los valores posibles son '0' (sin archivar) y '1' (transfiere el archivado de mensajes enviados a un servidor SMTP).<br /> </td> 
    <td> Byte<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
   <tr> 
    <td> args<br /> </td> 
-   <td> Parámetros de inicio<br /> </td> 
+   <td> Parámetros de Inicio<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> autoStart<br /> </td> 
-   <td> Inicio automático<br /> </td> 
+   <td> inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1063,7 +1063,7 @@ Para obtener más información, consulte [Activación del archivado de correo el
   </tr> 
   <tr> 
    <td> compressionFormat<br /> </td> 
-   <td> Formato de compresión utilizado durante el archivado (enumeración). Los valores posibles son '0' (sin compresión) y '1' (comprimir los mensajes enviados con formato zip).<br /> </td> 
+   <td> Formato de compresión utilizado durante el archivado (lista desglosada). Los valores posibles son '0' (sin compresión) y '1' (comprimir los mensajes enviados con formato zip).<br /> </td> 
    <td> Byte<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
@@ -1111,19 +1111,19 @@ Para obtener más información, consulte [Activación del archivado de correo el
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al comienzo. Los módulos de baja prioridad se inician y se detienen por primera vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad en el inicio. Los módulos de baja prioridad se inician y se detienen por primera vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> smtpBccAddress<br /> </td> 
-   <td> Destino de archivado<br /> </td> 
+   <td> Destino de destinatario de archivado<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> smtpEnableTLS<br /> </td> 
-   <td> Activar compatibilidad con SMTPS: activa la entrega de correos electrónicos en modo seguro (STARTTLS/SMTPS) cuando se admite en el servidor remoto.<br /> </td> 
+   <td> Activar compatibilidad con SMTPS: activa el envío de correos electrónicos en modo seguro (STARTTLS/SMTPS) cuando se admite en el servidor remoto.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1135,7 +1135,7 @@ Para obtener más información, consulte [Activación del archivado de correo el
   </tr> 
   <tr> 
    <td> smtpRelayAddress<br /> </td> 
-   <td> Lista separada por comas de nombres DNS o direcciones IP de retransmisiones SMTP que se van a utilizar. <br /> </td> 
+   <td> lista separada por comas de nombres DNS o direcciones IP de retransmisiones SMTP que se van a utilizar. <br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1150,7 +1150,7 @@ Para obtener más información, consulte [Activación del archivado de correo el
 
 ## inMail {#inmail}
 
-Estos son los diferentes parámetros del nodo **inMail** . Ésta es la configuración del módulo de administración de correo electrónico entrante.
+Estos son los distintos parámetros del nodo **inMail** . Ésta es la configuración del módulo de administración de correo electrónico entrante.
 
 <table> 
  <thead> 
@@ -1164,19 +1164,19 @@ Estos son los diferentes parámetros del nodo **inMail** . Ésta es la configura
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> Parámetros de inicio<br /> </td> 
+   <td> Parámetros de Inicio<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> autoStart<br /> </td> 
-   <td> Inicio automático<br /> </td> 
+   <td> inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> checkInstanceName<br /> </td> 
-   <td> Verificar nombre de instancia: si el valor es true, el nombre de la instancia de Adobe Campaign contenida en los encabezados de ID de mensaje debe ser el mismo que la instancia actual. <br /> </td> 
+   <td> Verificar nombre de instancia: si es true, el nombre de la instancia de Adobe Campaign contenida en los encabezados de ID de mensaje debe ser el mismo que la instancia actual. <br /> </td> 
    <td> Booleano<br /> </td> 
    <td> true<br /> </td> 
   </tr> 
@@ -1194,7 +1194,7 @@ Estos son los diferentes parámetros del nodo **inMail** . Ésta es la configura
   </tr> 
   <tr> 
    <td> ignoreSize<br /> </td> 
-   <td> Ignorar tamaño del mensaje: se utiliza para ignorar el tamaño de un mensaje devuelto por los servidores POP3. En este caso, el módulo espera un '.' al final de los mensajes. <br /> </td> 
+   <td> Ignorar tamaño del mensaje: se utiliza para ignorar el tamaño de un mensaje devuelto por los servidores POP3. En este caso, el módulo espera un '.' at the end of the messages. <br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1272,7 +1272,7 @@ Estos son los diferentes parámetros del nodo **inMail** . Ésta es la configura
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al comienzo. Los módulos de baja prioridad se inician y se detienen por primera vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad en el inicio. Los módulos de baja prioridad se inician y se detienen por primera vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -1310,7 +1310,7 @@ En el nodo **inMail > msgDump** , configure los parámetros siguientes. Esta es 
 
 ## interactiond {#interactiond}
 
-Estos son los diferentes parámetros del nodo **interactiond** . Esta es la configuración del demonio de escritura para los eventos de interacción de entrada.
+Estos son los diferentes parámetros del nodo **interactiond** . Esta es la configuración del demonio de escritura para eventos de interacción entrantes.
 
 Para obtener más información, consulte [Interacción - Búfer](../../installation/using/interaction---data-buffer.md)de datos.
 
@@ -1326,13 +1326,13 @@ Para obtener más información, consulte [Interacción - Búfer](../../installat
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> Parámetros de inicio<br /> </td> 
+   <td> Parámetros de Inicio<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> autoStart<br /> </td> 
-   <td> Inicio automático<br /> </td> 
+   <td> inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1368,7 +1368,7 @@ Para obtener más información, consulte [Interacción - Búfer](../../installat
   </tr> 
   <tr> 
    <td> nextOffersSize<br /> </td> 
-   <td> Número máximo de ofertas elegibles ordenadas justo después de las proposiciones, que se almacenarán para las estadísticas.<br /> </td> 
+   <td> Número máximo de ofertas elegibles ordenadas inmediatamente después de las propuestas, que se almacenarán para las estadísticas.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
@@ -1380,7 +1380,7 @@ Para obtener más información, consulte [Interacción - Búfer](../../installat
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al comienzo. Los módulos de baja prioridad se inician y se detienen por primera vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad en el inicio. Los módulos de baja prioridad se inician y se detienen por primera vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -1401,7 +1401,7 @@ Para obtener más información, consulte [Interacción - Búfer](../../installat
 
 ## mta {#mta}
 
-Estos son los diferentes parámetros del **nodo mta** . Esta es la configuración de los agentes de entrega.
+Estos son los diferentes parámetros del **nodo mta** . Esta es la configuración de los agentes de envío.
 
 <table> 
  <thead> 
@@ -1415,13 +1415,13 @@ Estos son los diferentes parámetros del **nodo mta** . Esta es la configuració
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> Parámetros de inicio<br /> </td> 
+   <td> Parámetros de Inicio<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> '-tracefilter:nlmta' <br /> </td> 
   </tr> 
   <tr> 
    <td> autoStart<br /> </td> 
-   <td> Inicio automático<br /> </td> 
+   <td> inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1439,7 +1439,7 @@ Estos son los diferentes parámetros del **nodo mta** . Esta es la configuració
   </tr> 
   <tr> 
    <td> dnsRequestLogDelayMs<br /> </td> 
-   <td> Retraso de registros de consultas DNS: tiempo en milisegundos para mostrar los registros.<br /> </td> 
+   <td> Retraso de registros de consulta DNS: tiempo en milisegundos para mostrar los registros.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1523,19 +1523,19 @@ Estos son los diferentes parámetros del **nodo mta** . Esta es la configuració
   </tr> 
   <tr> 
    <td> reintentarLostMessages<br /> </td> 
-   <td> Reintentar mensajes perdidos: partes de los partos se volverán a intentar si el proceso infantil está muerto.<br /> </td> 
+   <td> Reintentar mensajes perdidos: partes de los envíos se reintentarán si el proceso infantil está muerto.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al comienzo. Los módulos de baja prioridad se inician y se detienen por primera vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad en el inicio. Los módulos de baja prioridad se inician y se detienen por primera vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> statServerAddress<br /> </td> 
-   <td> Dirección del servidor de estadísticas de entrega, dada como &lt;dns o ip&gt; [: 
+   <td> Dirección del servidor de estadísticas de envío, dada como &lt;dns o ip&gt; [: 
      &lt;puerto&gt; ]. Consulte <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">Coordenadas del servidor</a>de estadísticas. 
       <br /> 
      </td> 
@@ -1556,13 +1556,13 @@ Estos son los diferentes parámetros del **nodo mta** . Esta es la configuració
   </tr> 
   <tr> 
    <td> useMomentum<br /> </td> 
-   <td> Si se establece en "true", la instancia utiliza el MTA <a href="https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html" target="_blank"></a>mejorado.<br /> </td> 
+   <td> Si se establece en "true", la instancia utiliza el MTA <a href="https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html" target="_blank"></a>mejorado.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> <br /> </td>b 
   </tr>
   <tr> 
    <td> verifyMode<br /> </td> 
-   <td> Modo de verificación: activa el modo de verificación (sin transmisión física de mensajes; utilizado para simulación y pruebas).<br /> </td> 
+   <td> Modo de verificación: activa el modo de verificación (sin transmisión física de mensajes; para simulación y pruebas).<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1597,7 +1597,7 @@ En el nodo de **caché** , configure los parámetros siguientes. Ésta es la con
  <tbody> 
   <tr> 
    <td> maxPeriodSec<br /> </td> 
-   <td> Reciclado después de: punto, expresado en segundos, después del cual el archivo se elimina automáticamente de la caché para recuperar el almacenamiento.<br /> </td> 
+   <td> Reciclado después de: punto, expresado en segundos, después del cual el archivo se elimina automáticamente de la memoria caché para recuperar el almacenamiento.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 244800<br /> </td> 
   </tr> 
@@ -1609,7 +1609,7 @@ En el nodo de **caché** , configure los parámetros siguientes. Ésta es la con
   </tr> 
   <tr> 
    <td> purgePeriodSec<br /> </td> 
-   <td> Frecuencia de purga: período en segundos entre ejecuciones del mecanismo de depuración de caché.<br /> </td> 
+   <td> Frecuencia de purga: período en segundos entre las ejecuciones del mecanismo de depuración de caché.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 3600<br /> </td> 
   </tr> 
@@ -1618,7 +1618,7 @@ En el nodo de **caché** , configure los parámetros siguientes. Ésta es la con
 
 ### relé {#relay}
 
-En el nodo **mta > relé** , configure los siguientes parámetros. Esta es la configuración del servidor de correo para la entrega de mensajes.
+En el nodo **mta > relé** , configure los siguientes parámetros. Ésta es la configuración del servidor de correo para el envío de mensajes.
 
 Para obtener más información, consulte [Retransmisión](../../installation/using/configuring-campaign-server.md#smtp-relay)SMTP.
 
@@ -1634,12 +1634,12 @@ Para obtener más información, consulte [Retransmisión](../../installation/usi
  <tbody> 
   <tr> 
    <td> address<br /> </td> 
-   <td> Lista separada por comas de nombres DNS o direcciones IP de retransmisiones SMTP que se van a utilizar. <br /> </td> 
+   <td> lista separada por comas de nombres DNS o direcciones IP de retransmisiones SMTP que se van a utilizar. <br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> puerto<br /> </td> 
+   <td> port<br /> </td> 
    <td> Puerto IP del servidor SMTP.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 25<br /> </td> 
@@ -1665,7 +1665,7 @@ For additional information, refer to this [section](../../installation/using/con
  <tbody> 
   <tr> 
    <td> dataBasePoolPeriodSec<br /> </td> 
-   <td> Frecuencia de sondeo de la base de datos de los trabajos que se van a entregar. Este valor indica la frecuencia de sondeo de la base de datos (en segundos). Para obtener la lista de trabajos en espera de entrega, el MTA sondea la base de datos periódicamente. Cuando no hay trabajo en espera, el período de sondeo se define por este valor. De lo contrario, si se ha transferido un trabajo a un servidor secundario, la duración de la encuesta se reduce automáticamente a un segundo para que se pueda volver a procesar un nuevo trabajo lo antes posible, es decir, tan pronto como vuelva a estar disponible un servidor secundario. Esto no significa que la consulta de la base de datos se realizará cada segundo hasta que se vuelva a disponer de un servidor secundario. De hecho, el acceso a la base de datos solo se realiza cuando al menos un servidor secundario está disponible.<br /> </td> 
+   <td> Frecuencia de sondeo de la base de datos de los trabajos que se van a entregar. Este valor indica la frecuencia de sondeo de la base de datos (en segundos). Para obtener la lista de trabajos en espera de envío, el MTA sondea la base de datos de manera regular. Cuando no hay trabajo en espera, el período de sondeo se define por este valor. De lo contrario, si se ha transferido un trabajo a un servidor secundario, la duración de la encuesta se reduce automáticamente a un segundo para que se pueda volver a procesar un nuevo trabajo lo antes posible, es decir, tan pronto como vuelva a estar disponible un servidor secundario. Esto no significa que la consulta de la base de datos se realizará cada segundo hasta que se vuelva a disponer de un servidor secundario. De hecho, el acceso a la base de datos solo se realiza cuando al menos un servidor secundario está disponible.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 30<br /> </td> 
   </tr> 
@@ -1683,7 +1683,7 @@ For additional information, refer to this [section](../../installation/using/con
   </tr> 
   <tr> 
    <td> maxSpareServers<br /> </td> 
-   <td> Número máximo de servidores secundarios. Representa el número máximo de servidores en ejecución. Se recomienda limitar este número a un nivel óptimo compatible con los recursos de memoria del servidor. Esto se puede comprobar durante una entrega. La memoria usada no debe superar un tercio de la memoria física disponible de lo contrario se utilizará el intercambio. Consulte Procesos <a href="../../installation/using/configuring-campaign-server.md#mta-child-processes" target="_blank">secundarios de</a>MTA.<br /> </td> 
+   <td> Número máximo de servidores secundarios. Representa el número máximo de servidores en ejecución. Se recomienda limitar este número a un nivel óptimo compatible con los recursos de memoria del servidor. Esto se puede comprobar durante un envío. La memoria usada no debe superar un tercio de la memoria física disponible de lo contrario se utilizará el intercambio. Consulte Procesos <a href="../../installation/using/configuring-campaign-server.md#mta-child-processes" target="_blank">secundarios de</a>MTA.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 2<br /> </td> 
   </tr> 
@@ -1695,7 +1695,7 @@ For additional information, refer to this [section](../../installation/using/con
   </tr> 
   <tr> 
    <td> startSpareServers<br /> </td> 
-   <td> Número de servidores secundarios en el inicio. Se supervisa dinámicamente el número de servidores secundarios; cuando se inicia el MTA, crea tantos servidores secundarios como se indica en este valor. Normalmente, los servidores secundarios no se pueden iniciar más rápido que un servidor por segundo para guardar los recursos del host. Sin embargo, cuando se inicia el MTA, esta limitación se invalida para que los servidores secundarios estén disponibles lo antes posible.<br /> </td> 
+   <td> Número de servidores secundarios en el inicio. Se supervisa dinámicamente el número de servidores secundarios; cuando el MTA inicio, crea tantos servidores secundarios como se indica en este valor. Normalmente, los servidores secundarios no se pueden iniciar más rápido que un servidor por segundo para guardar los recursos del host. Sin embargo, cuando el MTA inicio, esta limitación se invalida para que los servidores secundarios estén disponibles lo antes posible.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
@@ -1726,13 +1726,13 @@ Para obtener más información, consulte Optimización [de envío de](../../inst
   </tr> 
   <tr> 
    <td> inactiveChildTimeoutSec<br /> </td> 
-   <td> Tiempo de espera hasta que se detengan los servidores secundarios inactivos. Si un servidor secundario tiene un tiempo de inactividad mayor que este parámetro, automáticamente se extinguirá para liberar recursos del host.<br /> </td> 
+   <td> Tiempo de espera hasta que se detengan los servidores secundarios inactivos. Si un servidor secundario tiene un tiempo de inactividad bueno que este parámetro, se extinguirá automáticamente para liberar recursos del host.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
   <tr> 
    <td> maxAgeSec<br /> </td> 
-   <td> Tiempo máximo de retención de mensajes. Si no se pudo enviar un mensaje preparado debido a la limitación o no se pudo conectar con el MTA de destino, el mensaje se abandona y se procesará en el siguiente reintento.<br /> </td> 
+   <td> Tiempo máximo de retención de mensajes. Si no se pudo enviar un mensaje preparado debido a la limitación o no se pudo conectar con el MTA de destinatario, el mensaje se abandona y se procesará en el siguiente reintento.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -1762,13 +1762,13 @@ Para obtener más información, consulte Optimización [de envío de](../../inst
   </tr> 
   <tr> 
    <td> soapConnectorTimeoutSec<br /> </td> 
-   <td> Tiempo de espera (en segundos) tras el cual se abandona una conexión SOAP para un conector de entrega.<br /> </td> 
+   <td> Tiempo de espera (en segundos) tras el cual se abandona una conexión SOAP para un conector de envío.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> startWithFirstMX<br /> </td> 
-   <td> Empiece siempre con la prioridad MX más alta.<br /> </td> 
+   <td> inicio siempre con la prioridad MX más alta.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1795,7 +1795,7 @@ En el nodo **mta > child > smtp** , configure los parámetros siguientes. Esta e
  <tbody> 
   <tr> 
    <td> enableTLS<br /> </td> 
-   <td> Activa la entrega de correos electrónicos en modo seguro (STARTTLS/SMTPS) cuando se admite en el servidor remoto.<br /> </td> 
+   <td> Activa el envío de correos electrónicos en modo seguro (STARTTLS/SMTPS) cuando se admite en el servidor remoto.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1813,7 +1813,7 @@ En el nodo **mta > child > smtp** , configure los parámetros siguientes. Esta e
   </tr> 
   <tr> 
    <td> maxSessionsPerChild<br /> </td> 
-   <td> Número máximo de sesiones SMTP por servidor secundario. Para enviar un mensaje, el MTA inicializa una conexión SMTP con el MTA del destinatario. El número máximo de sesiones SMTP simultáneas y activas para un servidor secundario determinado está limitado por este valor. Si multiplica este valor por maxSpareServers, obtendrá el número máximo de mensajes que un servidor secundario determinado puede procesar simultáneamente.<br /> </td> 
+   <td> Número máximo de sesiones SMTP por servidor secundario. Para enviar un mensaje, el MTA inicializa una conexión SMTP con el MTA de destinatario. El número máximo de sesiones SMTP simultáneas y activas para un servidor secundario determinado está limitado por este valor. Si multiplica este valor por maxSpareServers, obtendrá el número máximo de mensajes que un servidor secundario determinado puede procesar simultáneamente.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 1000<br /> </td> 
   </tr> 
@@ -1848,7 +1848,7 @@ Para obtener más información, consulte [Lista de direcciones IP para utilizar]
 
 En el nodo **mta > child > smtp > IP** , configure los parámetros siguientes.
 
-Para obtener más información, consulte [Lista de direcciones IP que se utilizarán](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use).
+Para obtener más información, consulte la [Lista de las direcciones IP que se van a utilizar](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use).
 
 <table> 
  <thead> 
@@ -1871,17 +1871,17 @@ Para obtener más información, consulte [Lista de direcciones IP que se utiliza
   </tr> 
   <tr> 
    <td> ponderación<br /> </td> 
-   <td> Especifica la frecuencia de uso para esta IP, en relación con otras IP (los pesos más altos llevan a frecuencias más altas).<br /> </td> 
+   <td> Especifica la frecuencia de uso para esta IP, en relación con otras IP (los pesos mayores producen frecuencias más altas).<br /> </td> 
    <td> Largo<br /> </td> 
   </tr> 
   <tr> 
    <td> includeDomains<br /> </td> 
-   <td> Lista separada por comas de las máscaras de dominio que se van a incluir.<br /> </td> 
+   <td> lista separada por comas de las máscaras de dominio que se van a incluir.<br /> </td> 
    <td> Cadena<br /> </td> 
   </tr> 
   <tr> 
    <td> excludeDomains<br /> </td> 
-   <td> Lista separada por comas de las máscaras de dominio que se van a excluir.<br /> </td> 
+   <td> lista separada por comas de las máscaras de dominio para excluir.<br /> </td> 
    <td> Cadena<br /> </td> 
   </tr> 
   <tr> 
@@ -1917,7 +1917,7 @@ Estos son los diferentes parámetros del nodo **nmac** . Esta es la configuraci�
 
 ### relé {#relay-1}
 
-Estos son los diferentes parámetros del nodo **nmac > relay** . Esto configura el uso de un relé para la entrega de mensajes (conector ios http2).
+Estos son los diferentes parámetros del nodo **nmac > relay** . Esto configura el uso de un relé para el envío de mensajes (conector ios http2).
 
 <table> 
  <thead> 
@@ -1936,7 +1936,7 @@ Estos son los diferentes parámetros del nodo **nmac > relay** . Esto configura 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> puerto<br /> </td> 
+   <td> port<br /> </td> 
    <td> Puerto de retransmisión<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 443<br /> </td> 
@@ -1952,7 +1952,7 @@ Estos son los diferentes parámetros del nodo **nmac > relay** . Esto configura 
 
 ## canalizado {#pipelined}
 
-Estos son los diferentes parámetros del nodo **canalizado** . Esta es la configuración del módulo de procesamiento de eventos para los servicios de canalización.
+Estos son los diferentes parámetros del nodo **canalizado** . Esta es la configuración del módulo de procesamiento de evento para los servicios de tubería.
 
 <table> 
  <thead> 
@@ -1972,7 +1972,7 @@ Estos son los diferentes parámetros del nodo **canalizado** . Esta es la config
   </tr> 
   <tr> 
    <td> args<br /> </td> 
-   <td> Parámetros de inicio<br /> </td> 
+   <td> Parámetros de Inicio<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1990,7 +1990,7 @@ Estos son los diferentes parámetros del nodo **canalizado** . Esta es la config
   </tr> 
   <tr> 
    <td> autoStart<br /> </td> 
-   <td> Inicio automático <br /> </td> 
+   <td> inicio automático <br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -2038,7 +2038,7 @@ Estos son los diferentes parámetros del nodo **canalizado** . Esta es la config
   </tr> 
   <tr> 
    <td> monitorServerPort<br /> </td> 
-   <td> Puerto del servidor de estado: Puerto del servidor HTTP que permite consultar el estado del proceso. Inactivo si 0.<br /> </td> 
+   <td> Puerto del servidor de estado: Puerto del servidor HTTP que permite la consulta del estado del proceso. Inactivo si 0.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 7781<br /> </td> 
   </tr> 
@@ -2050,7 +2050,7 @@ Estos son los diferentes parámetros del nodo **canalizado** . Esta es la config
   </tr> 
   <tr> 
    <td> punteroFlushPeriodSec<br /> </td> 
-   <td> Retraso antes de que se almacene el puntero: el puntero se almacenará en la base de datos al menos una vez durante este período (útil en caso de actividad baja).<br /> </td> 
+   <td> Retraso antes de que se almacene el puntero: el puntero se almacenará en la base de datos al menos una vez durante este período (útil en caso de baja actividad).<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
@@ -2086,7 +2086,7 @@ Estos son los diferentes parámetros del nodo **canalizado** . Esta es la config
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al comienzo. Los módulos de baja prioridad se inician y se detienen por primera vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad en el inicio. Los módulos de baja prioridad se inician y se detienen por primera vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2109,7 +2109,7 @@ Estos son los diferentes parámetros del nodo de **reparación** . Esta es la co
  <tbody> 
   <tr> 
    <td> RepairActionDelayMin<br /> </td> 
-   <td> Módulo de reparación de acciones de entrega: retraso (en minutos) tras el cual el módulo de reparación puede procesar las acciones de entrega. <br /> </td> 
+   <td> Módulo de reparación de acciones de Envío: retraso (en minutos) tras el cual el módulo de reparación puede procesar las acciones de envío. <br /> </td> 
    <td> Largo<br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
@@ -2134,7 +2134,7 @@ Para obtener más información, consulte [Definición de zonas](../../installati
  <tbody> 
   <tr> 
    <td> allowDebug<br /> </td> 
-   <td> Autorice el modo de depuración para las aplicaciones Web.<br /> </td> 
+   <td> Autorice el modo de depuración para Aplicaciones web.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -2152,7 +2152,7 @@ Para obtener más información, consulte [Definición de zonas](../../installati
   </tr> 
   <tr> 
    <td> allowSQLInjection<br /> </td> 
-   <td> Autorice el uso de SQLDATA en expresiones.<br /> </td> 
+   <td> Autorizar el uso de SQLDATA en expresiones.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -2170,8 +2170,7 @@ Para obtener más información, consulte [Definición de zonas](../../installati
   </tr> 
   <tr> 
    <td> name<br /> </td> 
-   <td> Nombre
-								 interno<br /> </td> 
+   <td> Nombre interno<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> NewName() <br /> </td> 
   </tr> 
@@ -2245,8 +2244,7 @@ Para obtener más información, consulte [Definición de zonas](../../installati
   </tr> 
   <tr> 
    <td> name<br /> </td> 
-   <td> Nombre
-								 interno<br /> </td> 
+   <td> Nombre interno<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> NewName() <br /> </td> 
   </tr> 
@@ -2275,13 +2273,13 @@ Estos son los distintos parámetros del nodo **sms** . Esta es la configuración
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> Parámetros de inicio<br /> </td> 
+   <td> Parámetros de Inicio<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> autoStart<br /> </td> 
-   <td> Inicio automático<br /> </td> 
+   <td> inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -2341,7 +2339,7 @@ Estos son los distintos parámetros del nodo **sms** . Esta es la configuración
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al comienzo. Los módulos de baja prioridad se inician y se detienen por primera vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad en el inicio. Los módulos de baja prioridad se inician y se detienen por primera vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2399,13 +2397,13 @@ Estos son los diferentes parámetros del nodo **stat** . Esta es la configuraci�
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> Parámetros de inicio<br /> </td> 
+   <td> Parámetros de Inicio<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> autoStart<br /> </td> 
-   <td> Inicio automático<br /> </td> 
+   <td> inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -2428,7 +2426,7 @@ Estos son los diferentes parámetros del nodo **stat** . Esta es la configuraci�
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
-   <td> puerto<br /> </td> 
+   <td> port<br /> </td> 
    <td> Puerto de escucha del servidor. See this <a href="../../installation/using/email-deliverability.md#definition-of-the-server-port">section</a>.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> <br /> </td> 
@@ -2441,7 +2439,7 @@ Estos son los diferentes parámetros del nodo **stat** . Esta es la configuraci�
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al comienzo. Los módulos de baja prioridad se inician y se detienen por primera vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad en el inicio. Los módulos de baja prioridad se inician y se detienen por primera vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2464,13 +2462,13 @@ Estos son los diferentes parámetros del nodo **syslogd** . Ésta es la configur
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> Parámetros de inicio<br /> </td> 
+   <td> Parámetros de Inicio<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> autoStart<br /> </td> 
-   <td> Inicio automático<br /> </td> 
+   <td> inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -2512,7 +2510,7 @@ Estos son los diferentes parámetros del nodo **syslogd** . Ésta es la configur
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al comienzo. Los módulos de baja prioridad se inician y se detienen por primera vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad en el inicio. Los módulos de baja prioridad se inician y se detienen por primera vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2535,13 +2533,13 @@ Estos son los diferentes parámetros del nodo de **seguimiento** . Ésta es la c
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> Parámetros de inicio<br /> </td> 
+   <td> Parámetros de Inicio<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> autoStart<br /> </td> 
-   <td> Inicio automático<br /> </td> 
+   <td> inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -2553,13 +2551,13 @@ Estos son los diferentes parámetros del nodo de **seguimiento** . Ésta es la c
   </tr> 
   <tr> 
    <td> dedupOpenPeriodMin<br /> </td> 
-   <td> Anular la duplicación de aperturas: elimine los registros de seguimiento abiertos duplicados para limitar los efectos de las vistas previas de correo en lectores de correo como Outlook.<br /> </td> 
+   <td> Anular la duplicación de aperturas: elimine los registros de seguimiento abiertos de duplicado para limitar los efectos de las previsualizaciones de correo en lectores de correo como Outlook.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> errorIgnorePercent<br /> </td> 
-   <td> Omitir hasta X % de errores: no actualice los indicadores de seguimiento siempre y cuando la proporción de diarios que no se hayan tenido en cuenta no alcance este valor. <br /> </td> 
+   <td> Omitir hasta X % de errores: no actualice los indicadores de seguimiento siempre que la proporción de historiales que no se haya tenido en cuenta no alcance este valor. <br /> </td> 
    <td> Byte<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
@@ -2571,7 +2569,7 @@ Estos son los diferentes parámetros del nodo de **seguimiento** . Ésta es la c
   </tr> 
   <tr> 
    <td> IndicadoresDuración<br /> </td> 
-   <td> Calcular indicadores durante: duración posterior a la fecha de validez de una entrega tras la cual ya no se calculan los indicadores consolidados.<br /> </td> 
+   <td> Calcular indicadores durante: duración posterior a la fecha de validez de un envío tras el cual ya no se calculan los indicadores consolidados.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 2592000<br /> </td> 
   </tr> 
@@ -2607,13 +2605,13 @@ Estos son los diferentes parámetros del nodo de **seguimiento** . Ésta es la c
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al comienzo. Los módulos de baja prioridad se inician y se detienen por primera vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad en el inicio. Los módulos de baja prioridad se inician y se detienen por primera vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> trackingIgnorePercent<br /> </td> 
-   <td> Omitir hasta el X % del seguimiento: no actualice los indicadores de seguimiento siempre y cuando la proporción de diarios que no se hayan tenido en cuenta no alcance este valor.<br /> </td> 
+   <td> Omitir hasta el X % del seguimiento: no actualice los indicadores de seguimiento siempre que la proporción de historiales que no se haya tenido en cuenta no alcance este valor.<br /> </td> 
    <td> Byte<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
@@ -2648,13 +2646,13 @@ Estos son los diferentes parámetros del nodo **trackinglogd** . Ésta es la con
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> Parámetros de inicio<br /> </td> 
+   <td> Parámetros de Inicio<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> autoStart<br /> </td> 
-   <td> Inicio automático<br /> </td> 
+   <td> inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -2666,7 +2664,7 @@ Estos son los diferentes parámetros del nodo **trackinglogd** . Ésta es la con
   </tr> 
   <tr> 
    <td> maxCreateFileRetry<br /> </td> 
-   <td> Número máximo de reintentos de escritura: número máximo de archivos que se pueden crear en caso de error de escritura en los archivos de registro.<br /> </td> 
+   <td> reintentos máximos de escritura: número máximo de archivos que se pueden crear en caso de error de escritura en los archivos de registro.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
@@ -2708,7 +2706,7 @@ Estos son los diferentes parámetros del nodo **trackinglogd** . Ésta es la con
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al comienzo. Los módulos de baja prioridad se inician y se detienen por primera vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad en el inicio. Los módulos de baja prioridad se inician y se detienen por primera vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2745,7 +2743,7 @@ For additional information, refer to this [section](../../installation/using/con
   </tr> 
   <tr> 
    <td> MaxThread<br /> </td> 
-   <td> Número máximo de subprocesos.<br /> </td> 
+   <td> Maximum number of threads.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 75<br /> </td> 
   </tr> 
@@ -2757,13 +2755,13 @@ For additional information, refer to this [section](../../installation/using/con
   </tr> 
   <tr> 
    <td> args<br /> </td> 
-   <td> Parámetros de inicio<br /> </td> 
+   <td> Parámetros de Inicio<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> autoStart<br /> </td> 
-   <td> Inicio automático<br /> </td> 
+   <td> inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -2817,13 +2815,13 @@ For additional information, refer to this [section](../../installation/using/con
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al comienzo. Los módulos de baja prioridad se inician y se detienen por primera vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad en el inicio. Los módulos de baja prioridad se inician y se detienen por primera vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> startSoapRouterInModule<br /> </td> 
-   <td> Inicie el enrutador SOAP en modo módulo.<br /> </td> 
+   <td> Inicio el router SOAP en modo módulo.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -2852,7 +2850,7 @@ Estos son los diferentes parámetros del nodo **web > jsp** . Esta es la configu
   </tr> 
   <tr> 
    <td> downloadPath<br /> </td> 
-   <td> Descargar carpeta: ruta de descarga de los programas de instalación para las consolas de cliente.<br /> </td> 
+   <td> Descargar carpeta: ruta de descarga de programas de instalación para las consolas de cliente.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> '$(XTK_INSTALL_DIR)/datakit/nl/eng/jsp'<br /> </td> 
   </tr> 
@@ -2959,7 +2957,7 @@ For additional information, refer to this [section](../../installation/using/dep
  <tbody> 
   <tr> 
    <td> debugRelay<br /> </td> 
-   <td> Inicie el módulo de retransmisión HTTP dentro del servidor Web en modo de depuración.<br /> </td> 
+   <td> Inicio el módulo de retransmisión HTTP dentro del servidor Web en modo de depuración.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -2977,19 +2975,19 @@ For additional information, refer to this [section](../../installation/using/dep
   </tr> 
   <tr> 
    <td> modDir<br /> </td> 
-   <td> Valor de la opción del módulo 'mod_dir': lista de archivos que se utilizarán durante una consulta en una carpeta.<br /> </td> 
+   <td> Valor de la opción del módulo 'mod_dir': lista de los archivos que se utilizarán durante una consulta en una carpeta.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> 'index.md' <br /> </td> 
   </tr> 
   <tr> 
    <td> startRelay<br /> </td> 
-   <td> Inicie el módulo de retransmisión HTTP.<br /> </td> 
+   <td> Inicio el módulo de retransmisión HTTP.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> startRelayInModule<br /> </td> 
-   <td> Inicie el módulo de retransmisión HTTP dentro del servidor Web. <br /> </td> 
+   <td> Inicio el módulo de retransmisión HTTP dentro del servidor Web. <br /> </td> 
    <td> Booleano<br /> </td> 
    <td> true<br /> </td> 
   </tr> 
@@ -3002,7 +3000,7 @@ For additional information, refer to this [section](../../installation/using/dep
  </tbody> 
 </table>
 
-Agregue un nodo **web > relé > url** para cada URL que se va a retransmitir (el orden de inserción define la prioridad) con los parámetros siguientes.
+Añada un nodo **web > relay > url** para cada URL que se va a retransmitir (el orden de inserción define la prioridad) con los parámetros siguientes.
 
 Para obtener más información, consulte Seguridad [dinámica de la página, relés](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays) y [sección](../../installation/using/deploying-an-instance.md#synchronizing-public-resources).
 
@@ -3042,25 +3040,25 @@ Para obtener más información, consulte Seguridad [dinámica de la página, rel
   </tr> 
   <tr> 
    <td> relayHost<br /> </td> 
-   <td> Agregar host original: utilice el encabezado HTTP 'Host' de la solicitud original al realizar la retransmisión.<br /> </td> 
+   <td> Añadir host original: utilice el encabezado HTTP 'Host' de la solicitud original al realizar la retransmisión.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> relayPath<br /> </td> 
-   <td> Agregar ruta de URL inicial: anexe la ruta completa de las direcciones URL para que se retransmitan a la dirección URL de la página de destino. <br /> </td> 
+   <td> Añadir ruta de URL inicial: anexe la ruta completa de las direcciones URL para que se retransmitan a la dirección URL de la página de destinatario. <br /> </td> 
    <td> Booleano<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> status<br /> </td> 
-   <td> Estado de sincronización de un recurso público (enumeración). Los valores posibles son 'normal' (ejecución normal), 'blacklist' (lista negra de URL en caso de error 404) y 'spare' (carga de archivos en el servidor de reserva si existe).<br /> </td> 
+   <td> Estado de sincronización de un recurso público (lista desglosada). Los valores posibles son 'normal' (ejecución normal), 'blacklist' (lista negra de URL en caso de error 404) y 'spare' (carga de archivos en el servidor de reserva si existe).<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> normal<br /> </td> 
   </tr> 
   <tr> 
    <td> targetUrl<br /> </td> 
-   <td> Dirección URL de la página de destino: consulte <a href="../../installation/using/configuring-campaign-server.md#configuring-tomcat" target="_blank">Configuración de Tomcat</a>.<br /> </td> 
+   <td> Dirección URL de la página de destinatario: consulte <a href="../../installation/using/configuring-campaign-server.md#configuring-tomcat" target="_blank">Configuración de Tomcat</a>.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3144,7 +3142,7 @@ Esta es la configuración predeterminada:
      timeout="" status="spare" httpAllowed="true" urlPath="/*.jpg"/>
 ```
 
-Agregue un nodo **web > relé > responseHeader** para cada encabezado HTTP para agregar a las respuestas reenviadas al relé.
+Añada un nodo **web > relay > responseHeader** para cada encabezado HTTP para agregarlo a las respuestas reenviadas al relé.
 
 Para obtener más información, consulte [Administración de encabezados](../../installation/using/configuring-campaign-server.md#managing-http-headers)HTTP.
 
@@ -3206,7 +3204,7 @@ For additional information, refer to this [section](../../installation/using/dep
   </tr> 
   <tr> 
    <td> cookieDomain<br /> </td> 
-   <td> Lista separada por comas de los dominios que se configurarán para indicar explícitamente el dominio en el que se configurará la cookie. <br /> </td> 
+   <td> lista separada por comas de los dominios que se van a configurar para indicar explícitamente el dominio en el que se va a establecer la cookie. <br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3224,25 +3222,25 @@ For additional information, refer to this [section](../../installation/using/dep
   </tr> 
   <tr> 
    <td> expirationURL<br /> </td> 
-   <td> Página para redirecciones caducadas: La dirección URL de la página Web que utiliza de forma predeterminada el servidor de redirección cuando la redirección de una acción de entrega ha caducado.<br /> </td> 
+   <td> Página para redirecciones caducadas: La dirección URL de la página Web que utiliza de forma predeterminada el servidor de redirección cuando la redirección de una acción de envío ha caducado.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> maxJobsInCache<br /> </td> 
-   <td> Número máximo de trabajos: número máximo de acciones de entrega en la caché. Puede no ser inferior a 50. <br /> </td> 
+   <td> Número máximo de trabajos: número máximo de acciones de envío en la caché. Puede no ser inferior a 50. <br /> </td> 
    <td> Largo<br /> </td> 
    <td> 100<br /> </td> 
   </tr> 
   <tr> 
    <td> startRedirect<br /> </td> 
-   <td> Inicie el servicio de redirección.<br /> </td> 
+   <td> Inicio el servicio de redirección.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> startRedirectInModule<br /> </td> 
-   <td> Inicie el servicio de redirección en modo módulo.<br /> </td> 
+   <td> Inicio el servicio de redirección en modo módulo.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> true<br /> </td> 
   </tr> 
@@ -3298,7 +3296,7 @@ Para obtener más información, consulte Seguimiento [redundante](../../installa
 
 ### spamCheck {#spamcheck}
 
-Estos son los distintos parámetros del nodo **web > spamCheck** . Ésta es la configuración de los parámetros de evaluación de la puntuación de correo electrónico no deseado.
+Estos son los diferentes parámetros del nodo **web > spamCheck** . Ésta es la configuración de los parámetros de evaluación de la puntuación de correo electrónico no deseado.
 
 Para obtener más información, consulte [Configuración de SpamAssassin](../../installation/using/configuring-spamassassin.md).
 
@@ -3323,7 +3321,7 @@ Para obtener más información, consulte [Configuración de SpamAssassin](../../
 
 Estos son los diferentes parámetros del nodo **wfserver** . Ésta es la configuración del proceso de flujo de trabajo.
 
-Para obtener más información, consulte Flujos de trabajo y afinidades de [alta disponibilidad](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities).
+Para obtener información adicional, consulte flujos de trabajo y afinidades [de](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities)alta disponibilidad.
 
 <table> 
  <thead> 
@@ -3343,13 +3341,13 @@ Para obtener más información, consulte Flujos de trabajo y afinidades de [alta
   </tr> 
   <tr> 
    <td> args<br /> </td> 
-   <td> Parámetros de inicio<br /> </td> 
+   <td> Parámetros de Inicio<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> autoStart<br /> </td> 
-   <td> Inicio automático<br /> </td> 
+   <td> inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -3391,7 +3389,7 @@ Para obtener más información, consulte Flujos de trabajo y afinidades de [alta
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al comienzo. Los módulos de baja prioridad se inician y se detienen por primera vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad en el inicio. Los módulos de baja prioridad se inician y se detienen por primera vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
