@@ -14,8 +14,8 @@ discoiquuid: d2631c67-7781-4baa-b24e-e7921353d131
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 211556bbf023731ffeab2e90692410a852ab3555
+translation-type: tm+mt
+source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
 
 ---
 
@@ -70,7 +70,7 @@ La lista desplegable junto al botón **[!UICONTROL Create]** permite filtrar las
 
 ## Acceso al calendario de envíos {#accessing-the-delivery-calendar}
 
-Para acceder al calendario de envíos, vaya al entorno **[!UICONTROL Campaign]** y haga clic en el vínculo **[!UICONTROL Campaign calendar]**. Este calendario muestra el desglose de las campañas a lo largo del tiempo. Se puede personalizar la pantalla por mes, semana o día.
+To access the delivery calendar, go to the **[!UICONTROL Campaign]** universe and click the **[!UICONTROL Campaign calendar]** link. Este calendario muestra el desglose de las campañas a lo largo del tiempo. Se puede personalizar la pantalla por mes, semana o día.
 
 ![](assets/s_ncs_user_interface_delivery04.png)
 
@@ -90,4 +90,4 @@ Puede elegir el periodo en el que se calcula el rendimiento. Para esto, seleccio
 >
 >En el caso de instalaciones alojadas o híbridas, si ha actualizado al MTA mejorado, la página **[!UICONTROL Delivery throughput]** ya no mostrará el rendimiento a los destinatarios de correo electrónico. Muestra la velocidad de rendimiento para el reenvío de sus mensajes desde Campaign hasta el MTA mejorado.
 >
->Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte este [documento](https://helpx.adobe.com/es/campaign/kb/campaign-enhanced-mta.html).
+>Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte este [documento](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
