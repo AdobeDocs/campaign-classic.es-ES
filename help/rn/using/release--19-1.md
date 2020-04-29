@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eab67029d477044bc853f2a5c2de06ace70ebbee
+source-git-commit: ab6ce2fbe1ea9e2b2498c87471ad7813a082ebe6
 
 ---
 
@@ -74,7 +74,7 @@ _13 de agosto de 2019_
 
 ## Versión 19.1.4: compilación 9032{#release-19-1-4-build-9032}
 
-![](assets/do-not-localize/green_2.png) 29 **de abril de 2020**: nueva compilación (9032@3a9dc9c) que incluye la siguiente corrección:
+![](assets/do-not-localize/green_2.png) 29 **de abril de 2020**: nueva compilación (9032@3a9dc9c) que incluye las siguientes correcciones:
 
 * Se ha mejorado la seguridad en el seguimiento de vínculos en el correo electrónico. Esto está habilitado de forma predeterminada para todos los clientes. Hay disponible una función de seguridad adicional y mejorada que se puede habilitar si se pone en contacto con el Servicio de atención al cliente. Encontrará más detalles sobre la función y los pasos para que los clientes que no están alojados puedan habilitarla en la lista de comprobación [Seguridad y privacidad](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism).
 * Se ha corregido un problema que podía impedir que las imágenes se mostraran en envíos de línea. (NEO-23207)
