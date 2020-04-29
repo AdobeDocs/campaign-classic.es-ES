@@ -15,22 +15,22 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62f63a47fae9bddf2303bbed18f1aadab4717245
+source-git-commit: eab67029d477044bc853f2a5c2de06ace70ebbee
 
 ---
 
 
 # Versión 19.1{#release-19-1}
 
-[Build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Documentation updates](../../rn/using/documentation-updates.md) | [Previous releases](../../rn/using/release--19-1.md) | [Deprecated features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+[Build upgrade](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) | [Control Panel releases](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html) | [Documentation updates](../../rn/using/documentation-updates.md) | [Previous releases](../../rn/using/release--19-1.md) | [Deprecated features](https://helpx.adobe.com/es/campaign/kb/deprecated-and-removed-features.html)
 
 <table> 
  <tbody> 
   <tr> 
-   <td><img src="assets/green3.png"/><strong>Disponibilidad general</strong></td>
-   <td><img src="assets/blue3.png"/><strong>Liberar candidato</strong></td> 
-   <td><img src="assets/orange3.png"/><strong>Ya no está disponible</strong></td> 
-   <td><img src="assets/red3.png"/><strong>Obsoleto</strong></td> 
+   <td><img src="assets/do-not-localize/green3.png"/><strong>Disponibilidad general</strong></td>
+   <td><img src="assets/do-not-localize/blue3.png"/><strong>Liberar candidato</strong></td> 
+   <td><img src="assets/do-not-localize/orange3.png"/><strong>Ya no está disponible</strong></td> 
+   <td><img src="assets/do-not-localize/red3.png"/><strong>Obsoleto</strong></td> 
   </tr> 
    <tr> 
    <td>Última compilación estable disponible. Compilación validada en producción.<br></td>
@@ -41,9 +41,9 @@ source-git-commit: 62f63a47fae9bddf2303bbed18f1aadab4717245
  </tbody> 
 </table>
 
-La **última compilación** estable es 9032 (205c981c3). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+La **última compilación** estable es 9032 (3a9dc9c). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/orange_2.png) Versión 19.1.6: compilación 9035 {#release-19-1-6-build-9035}
+## ![](assets/do-not-localize/orange_2.png) Versión 19.1.6: compilación 9035 {#release-19-1-6-build-9035}
 
 >[!CAUTION]
 >
@@ -59,7 +59,7 @@ _3 de octubre de 2019_
 * Se ha corregido un problema que podía hacer que el servidor intermediario no procesara determinados mensajes. (NEO-12395)
 * Se ha corregido un problema que impedía el uso completo de la actividad de Administración de datos SQL (faltaba la “Administración de datos SQL” denominada right).
 
-## ![](assets/orange_2.png) Versión 19.1.5: compilación 9033{#release-19-1-5-build-9033}
+## ![](assets/do-not-localize/orange_2.png) Versión 19.1.5: compilación 9033{#release-19-1-5-build-9033}
 
 _13 de agosto de 2019_
 
@@ -74,31 +74,35 @@ _13 de agosto de 2019_
 
 ## Versión 19.1.4: compilación 9032{#release-19-1-4-build-9032}
 
-![](assets/green_2.png) 5 **de marzo de 2020**: nueva compilación (9032-...205c981c3) que incluye la siguiente corrección:
+![](assets/do-not-localize/green_2.png) 29 **de abril de 2020**: nueva compilación (9032@3a9dc9c) que incluye la siguiente corrección:
+
+* Se ha mejorado la seguridad en el seguimiento de vínculos en el correo electrónico. Esto está habilitado de forma predeterminada para todos los clientes. Hay disponible una función de seguridad adicional y mejorada que se puede habilitar si se pone en contacto con el Servicio de atención al cliente. Encontrará más detalles sobre la función y los pasos para que los clientes que no están alojados puedan habilitarla en la lista de comprobación [Seguridad y privacidad](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism).
+* Se ha corregido un problema que podía impedir que las imágenes se mostraran en envíos de línea. (NEO-23207)
+
+![](assets/do-not-localize/orange_2.png) 5 **de marzo de 2020**: nueva compilación (9032@19f73c5) que incluye la siguiente corrección:
 
 * Se ha corregido un problema con cuentas externas que usaban FTP sobre SSL. (NEO-20498)
 
-![](assets/orange_2.png) 17 **de diciembre de 2019**: nueva compilación (9032-...9d34fb17e) que incluye la siguiente corrección:
+![](assets/do-not-localize/orange_2.png) 17 **de diciembre de 2019**: nueva compilación (9032@d6b8062) que incluye la siguiente corrección:
 
-* Se ha corregido un problema de seguimiento en los siguientes canales de comunicación: móvil (SMS, MMS), push (iOS, Android) y redes sociales (Facebook, Twitter).
-(NEO-19595)
+* Se ha corregido un problema de seguimiento en los siguientes canales de comunicación: móvil (SMS, MMS), push (iOS, Android) y redes sociales (Facebook, Twitter). (NEO-19595)
 
-![](assets/orange_2.png) 11 **de diciembre de 2019**: nueva compilación (9032-...e28b428b7) que incluye la siguiente corrección:
+![](assets/do-not-localize/orange_2.png) 11 **de diciembre de 2019**: nueva compilación (9032@bc4a935) que incluye la siguiente corrección:
 
 * Se corrigió un problema de rendimiento al enviar mensajes con una base de datos MSSQL. (NEO-17558)
 
-![](assets/orange_2.png) 20 **de noviembre de 2019**: nueva compilación (9032-...3468c7bb5) que incluye las siguientes correcciones:
+![](assets/do-not-localize/orange_2.png) 20 **de noviembre de 2019**: nueva compilación (9032@3468c7b) que incluye las siguientes correcciones:
 
 * Se ha corregido un problema de inicio de sesión mediante la autenticación IMS. (NEO-17312)
 * Se corrigió un problema al mostrar informes acumulativos en varias entregas. (NEO-18165)
 * Se ha corregido un problema que podía bloquear o colapsar el servidor web.
 
-![](assets/orange_2.png) 19 **de septiembre de 2019**: nueva compilación (9032-...cee805c93) que incluye las siguientes correcciones:
+![](assets/do-not-localize/orange_2.png) 19 **de septiembre de 2019**: nueva compilación (9032@cee805c) que incluye las siguientes correcciones:
 
 * Se ha corregido un problema al usar el conector CRM para Salesforce. (NEO-17712)
 * Se ha corregido un problema de índice que podía provocar problemas de rendimiento al enviar mensajes transaccionales.
 
-![](assets/orange_2.png) **13 de agosto de 2019**: compilación inicial 19.1.4 que incluye las siguientes correcciones:
+![](assets/do-not-localize/orange_2.png) **13 de agosto de 2019**: compilación inicial 19.1.4 que incluye las siguientes correcciones:
 
 * Se ha corregido un problema con la actividad del programador que generaba mensajes de error no deseados durante la configuración del asistente. Revertir la actualización desde NEO-11662. (NEO-17097)
 * Se ha corregido una regresión causada por el NEO-12727 que hacía que los flujos de trabajo se detuvieran cuando se realizaba una actividad de prueba dos veces. (NEO-16835)
@@ -106,7 +110,7 @@ _13 de agosto de 2019_
 * Se ha solucionado un problema con la clave DKIM que ya no se incrustaba en los mensajes de correo electrónico, lo que provocaba problemas a la hora de realizar entregas. (NEO-16804)
 * Se han corregido varios problemas con la programación de los flujos de trabajo. Los flujos de trabajo se programaban para ejecutarse una vez al día sin tener en cuenta la configuración del programador. (NEO-16619, NEO-16426)
 
-## ![](assets/orange_2.png) Versión 19.1.2: compilación 9029{#release-19-1-2-build-9029}
+## ![](assets/do-not-localize/orange_2.png) Versión 19.1.2: compilación 9029{#release-19-1-2-build-9029}
 
 _21 de junio de 2019_
 
@@ -122,7 +126,7 @@ _21 de junio de 2019_
 * Ahora prohibimos la eliminación de los registros de prueba creados en Microsoft Dynamics durante el flujo de trabajo de importación.
 * Se han mejorado los permisos para ejecutar el paquete de zona de seguridad cuando utilice una cuenta interna.
 
-## ![](assets/orange_2.png) Versión 19.1: compilación 9026{#release-19-1-build-9026}
+## ![](assets/do-not-localize/orange_2.png) Versión 19.1: compilación 9026{#release-19-1-build-9026}
 
 _30 de mayo de 2019_
 
@@ -138,7 +142,7 @@ _30 de mayo de 2019_
  <tbody> 
   <tr> 
    <td> Panel de control<br /> </td> 
-   <td> <p>Para aumentar la eficacia en su trabajo como usuario administrador, gestione la configuración de sus servidores SFTP controlando el almacenamiento, ubicando en la lista blanca las direcciones IP e instalando claves SSH para cada instancia. Tenga en cuenta que el Panel de control solo está disponible para los clientes alojados en AWS a partir de hoy (<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Inicie sesión hoy a través de Experience Cloud)</a>.</p> <p>Para obtener más información, consulte la <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">videotutorial</a>. </p><p>Nota: no es necesario actualizar a la última compilación de Campaign para acceder al Panel de control.</p> </td> 
+   <td> <p>Para aumentar la eficacia en su trabajo como usuario administrador, gestione la configuración de sus servidores SFTP controlando el almacenamiento, ubicando en la lista blanca las direcciones IP e instalando claves SSH para cada instancia. Tenga en cuenta que el Panel de control solo está disponible para los clientes alojados en AWS a partir de hoy (<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Inicie sesión hoy a través de Experience Cloud)</a>.</p> <p>Para obtener más información, consulte la <a href="https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">videotutorial</a>. </p><p>Nota: no es necesario actualizar a la última compilación de Campaign para acceder al Panel de control.</p> </td> 
   </tr> 
     <tr> 
    <td> Pista de auditoría<br /> </td> 
@@ -150,7 +154,7 @@ _30 de mayo de 2019_
   </tr> 
   <tr> 
    <td> Actualización de la matriz de compatibilidades<br /> </td> 
-   <td> Con esta nueva versión, Adobe Campaign admite los siguientes sistemas de bases de datos. Consulte la <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">Matriz de compatibilidades</a>.<br /> 
+   <td> Con esta nueva versión, Adobe Campaign admite los siguientes sistemas de bases de datos. Consulte la <a href="https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html">Matriz de compatibilidades</a>.<br /> 
     <ul> 
      <li> <p>Oracle 18c</p> </li> 
      <li> <p>MySQL 5.7 (FDA)</p> </li> 
@@ -180,7 +184,7 @@ _30 de mayo de 2019_
 
 **Mejoras de seguridad, solidez y escalabilidad**
 
-* Duración: Optimización de uso de secuencia XtkNewId (las tablas más utilizadas se han movido de la secuencia de xtkNewId a secuencias dedicadas). [Más información](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* Duración: Optimización de uso de secuencia XtkNewId (las tablas más utilizadas se han movido de la secuencia de xtkNewId a secuencias dedicadas). [Más información](https://helpx.adobe.com/es/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
 * FDA sobre HTTP v2: el protocolo FDA sobre HTTP se utiliza ampliamente en implementaciones híbridas, especialmente para la recuperación del registro general y la preparación de entregas. Se ha mejorado la solidez para evitar problemas de red y posibles errores al recuperar o extraer datos. Esto requiere que las compilaciones en ambos extremos de la conexión estén actualizadas; de lo contrario, se utilizará el protocolo antiguo.
 * Flujo de trabajo de seguimiento: se ha mejorado la solidez del flujo de trabajo de seguimiento. Se han solucionado varios problemas relacionados con inserciones/actualizaciones del registro de seguimiento y la personalización del seguimiento de direcciones URL. Además, el flujo de trabajo de seguimiento ahora detecta el seguimiento de los problemas de registro que podrían provocar errores y detener el flujo de trabajo. Estos problemas ahora se descartan y no se procesan.
 * Flujo de trabajo de limpieza: se ha mejorado el flujo de trabajo de limpieza para evitar posibles errores y detenciones. Esto optimiza el tamaño y el rendimiento de la base de datos.
