@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ab6ce2fbe1ea9e2b2498c87471ad7813a082ebe6
+source-git-commit: 4b42a4bb0a95b2a46187c996d069846a8c3941bf
 
 ---
 
@@ -78,6 +78,17 @@ _13 de agosto de 2019_
 
 * Se ha mejorado la seguridad en el seguimiento de vínculos en el correo electrónico. Esto está habilitado de forma predeterminada para todos los clientes. Hay disponible una función de seguridad adicional y mejorada que se puede habilitar si se pone en contacto con el Servicio de atención al cliente. Encontrará más detalles sobre la función y los pasos para que los clientes que no están alojados puedan habilitarla en la lista de comprobación [Seguridad y privacidad](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism).
 * Se ha corregido un problema que podía impedir que las imágenes se mostraran en envíos de línea. (NEO-23207)
+* Se ha corregido un problema con la actividad **File Transfer** que impedía que la autenticación basada en claves SFTP funcionara en Debian 9. (NEO-23183)
+* Se ha corregido un problema que podía afectar a la notificación push cuando se enviaba con una frecuencia alta. (NEO-20516)
+* Se ha corregido un problema en la administración de respuestas de oferta que podía provocar bloqueos en el servidor web. (NEO-19482)
+* Se ha corregido un error en la gestión de LibreOffice que impedía exportar informes. (NEO-20982)
+* Se ha corregido un problema que provocaba un error al actualizar numerosos flujos de trabajo mediante una actividad de encuesta.
+* Se mejoró la gestión de LibreOffice para evitar fallos en la previsualización de correos electrónicos con archivos .odt.
+* Se ha mejorado la administración de la conexión de Apache para evitar la latencia en el servicio Web.
+* Se ha mejorado la visualización de la etiqueta de versión (7 dígitos) en el menú **Acerca** .
+* Se corrigió una regresión en la administración de listas que impedía que se publicaran ofertas.
+* Se corrigió una regresión que ocasionaba que el flujo de trabajo de limpieza se bloqueara.
+* Se corrigió una regresión menor en los registros del flujo de trabajo de limpieza.
 
 ![](assets/do-not-localize/orange_2.png) 5 **de marzo de 2020**: nueva compilación (9032@19f73c5) que incluye la siguiente corrección:
 
