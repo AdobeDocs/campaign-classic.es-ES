@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
+source-git-commit: a2cb740fe9b71435f602b738bd270fd3a0954901
 
 ---
 
@@ -26,7 +26,7 @@ Al editar un esquema, hay disponible un sistema de aprobación basado en el esqu
 
 De forma predeterminada, en los esquemas de Adobe Campaign, todos los atributos de tipo booleano son &quot;false&quot;. Para activarlos, debe especificar el atributo en el esquema y establecer su valor en &quot;true&quot;.
 
-## `<attribute>` element {#attribute--element}
+## `<attribute>` Elemento {#attribute--element}
 
 ### Modelo de contenido {#content-model}
 
@@ -34,7 +34,7 @@ attribute:==help
 
 ### Atributos {#attributes}
 
-_operation (string), avanzado (booleano), correspondienteIf (string), autoIncrement (boolean), perteneceTo (string), dataPolicy (string), dbEnum (string), defOnDuplicate (boolean), predeterminado (string), desc (string), edit (string), enum (string), expr (string), feature (string), featureDate Boolean), img (cadena), inout (cadena), label (cadena), length (cadena), localizable (booleano), name (MNTOKEN), notNull (boolean), pkgStatus (cadena), ref (cadena), required (boolean), sql (boolean), sqlDefault (cadena), sqlname (cadena), sqltable (cadena) target (MNTOKEN), template (string), translateDefault (string), translateExpr (string), type (MNTOKEN), user (boolean), userEnum (string), visibleIf (string), xml (boolean)
+_operation (string), avanzado (booleano), correspondienteIf (string), autoIncrement (boolean), perteneceTo (string), dataPolicy (string), dbEnum (string), defOnDuplicate (boolean), predeterminado (string), desc (string), edit (string), enum (string), expr (string), feature (string), featureDate Boolean), img (cadena), inout (cadena), label (cadena), length (cadena), localizable (booleano), name (MNTOKEN), notNull (boolean), pkgStatus (cadena), ref (cadena), required (boolean), sql (boolean), sqlDefault (cadena), sqlname (cadena), sqltable (cadena) destinatario (MNTOKEN), plantilla (cadena), translateDefault (cadena), translateExpr (cadena), tipo (MNTOKEN), usuario (booleano), userEnum (cadena), visibleIf (cadena), xml (booleano)
 
 ### Padres {#parents}
 
@@ -58,7 +58,7 @@ La secuencia en la que se definen `<attribute>` los elementos en una `<srcschema
 
 * **_operation (string)**: define el tipo de escritura en la base de datos.
 
-   Este atributo se utiliza principalmente al ampliar esquemas predeterminados.
+   Este atributo se utiliza principalmente al ampliar los esquemas predeterminados.
 
    Los valores accesibles son:
 
@@ -66,12 +66,12 @@ La secuencia en la que se definen `<attribute>` los elementos en una `<srcschema
    * &quot;insertOrUpdate&quot;: actualizar con inserción. Esto significa que Adobe Campaign actualizará el elemento o lo creará si no existe.
    * &quot;insertar&quot;: inserción. Esto significa que Adobe Campaign insertará el elemento sin comprobar si existe.
    * &quot;update&quot;: actualizar. Esto significa que Adobe Campaign actualizará el elemento o generará un error si no existe.
-   * &quot;delete&quot;: eliminación. Esto significa que Adobe Campaign recuperará y eliminará elementos.
+   * &quot;delete&quot;: eliminación. Esto significa que Adobe Campaign recuperará y eliminará los elementos.
 
-* **avanzado (booleano)**: cuando esta opción está activada (@advanced=&quot;true&quot;), permite ocultar el atributo en la lista de campos disponibles a los que se puede acceder para configurar una lista en un formulario.
+* **avanzado (booleano)**: cuando esta opción está activada (@advanced=&quot;true&quot;), permite ocultar el atributo en la lista de los campos disponibles a los que se puede acceder para configurar una lista en un formulario.
 * **applyIf (string)**: este atributo permite hacer que los campos sean opcionales. El `<attribute>` elemento se tendrá en cuenta al actualizar la base de datos cuando se cumpla la restricción. &quot;applyIf&quot; recibe una expresión XTK.
 * **autoIncrement (booleano)**: si esta opción está activada, el campo se convierte en un contador. Esto le permite incrementar un valor (principalmente ID). (uso externo)
-* **existsTo (string)**: toma el nombre y el espacio de nombres de la tabla que comparte el campo y rellena el esquema donde se declara el atributo. (utilizado sólo en una `<schema>`).
+* **existsTo (string)**: toma el nombre y la Área de nombres de la tabla que comparte el campo y rellena el esquema donde se declara el atributo. (utilizado sólo en una `<schema>`).
 * **dataPolicy (string)**: permite especificar restricciones de aprobación en los valores permitidos en el campo SQL o XML. Los valores de este atributo son:
 
    * &quot;ninguno&quot;: sin valor
@@ -83,14 +83,14 @@ La secuencia en la que se definen `<attribute>` los elementos en una `<srcschema
    * &quot;identifier&quot;: nombre de identificador
    * &quot;resIdentifier&quot;: nombre de archivo
 
-* **dbEnum (cadena)**: recibe el nombre interno de una enumeración &quot;cerrada&quot;. Los valores de enumeración deben definirse en la `<srcschema>`.
+* **dbEnum (cadena)**: recibe el nombre interno de una lista desglosada &quot;cerrada&quot;. Los valores de lista desglosada deben definirse en la `<srcschema>`.
 * **defOnDuplicate (booleano)**: si se activa este atributo, cuando se duplica un registro, el valor predeterminado (definido en @default) se vuelve a aplicar automáticamente al registro.
 * **default (string)**: permite definir el valor del campo predeterminado (llamada a una función, valor predeterminado). Este atributo recibe una expresión XTK.
 * **desc (cadena)**: permite insertar una descripción del atributo. Esta descripción se muestra en la barra de estado de la interfaz.
 * **edit (cadena)**: este atributo especifica el tipo de entrada que se utilizará en el formulario vinculado al esquema.
-* **enum (cadena)**: recibe el nombre de la enumeración vinculada al campo. La enumeración se puede insertar en el mismo esquema o en un esquema remoto.
+* **enum (cadena)**: recibe el nombre de la lista desglosada vinculada al campo. La lista desglosada se puede insertar en el mismo esquema o en un esquema remoto.
 * **expr (cadena)**: define una expresión de precálculo de campo. Este atributo recibe una expresión Xpath o XTK.
-* **feature (string)**: define un campo de características: Estos campos se utilizan para ampliar los datos en un cuadro existente, pero con almacenamiento en un cuadro anexo. Los valores aceptados son:
+* **feature (string)**: define un campo de características: Estos campos se utilizan para ampliar los datos en un cuadro existente, pero con almacenamientos en un cuadro anexo. Los valores aceptados son:
 
    * &quot;compartido&quot;: el contenido se almacena en una tabla compartida por tipo de datos
    * &quot;dedicado&quot;: el contenido se almacena en una tabla dedicada
@@ -103,40 +103,40 @@ La secuencia en la que se definen `<attribute>` los elementos en una `<srcschema
    Cuando una característica se define en un esquema, este esquema debe tener una clave principal basada en un solo campo (las claves compuestas no están autorizadas).
 
 * **featureDate (booleano)**: vinculado al campo de características &quot;@feature&quot;. Si su valor es &quot;true&quot;, le permite averiguar cuándo se actualizó por última vez el valor.
-* **img (cadena)**: permite definir una ruta de acceso para una imagen vinculada a un campo (espacio de nombres + nombre de imagen) (ejemplo: img=&quot;cus:mypicture.jpg&quot;). Físicamente, la imagen debe importarse al servidor de aplicaciones.
+* **img (cadena)**: permite definir una ruta de acceso para una imagen vinculada a un campo (Área de nombres + nombre de imagen) (ejemplo: img=&quot;cus:mypicture.jpg&quot;). Físicamente, la imagen debe importarse al servidor de aplicaciones.
 * **label (string)**: etiqueta vinculada al campo, principalmente destinada al usuario en la interfaz. Permite evitar restricciones de nombres.
-* **length (string)**: máx. número de caracteres para un valor del campo SQL de tipo &quot;cadena&quot;. Si no se especifica el atributo &quot;@length&quot;, Adobe Campaign crea automáticamente un campo de 255 caracteres.
+* **length (string)**: máx. número de caracteres para un valor del campo SQL de tipo &quot;cadena&quot;. Si no se especifica el atributo &quot;@length&quot;, Adobe Campaign crea automáticamente un campo para 255 caracteres.
 * **localizable (booleano)**: si se activa, este atributo indica a la herramienta de recopilación que recupere el valor del atributo &quot;@label&quot; para traducción (uso interno).
-* **name (MNTOKEN)**: nombre del atributo que coincidirá con el nombre del campo en la tabla. El valor del atributo &quot;@name&quot; debe ser corto, preferiblemente en inglés, y cumplir con las restricciones de nombres XML.
+* **name (MNTOKEN)**: nombre del atributo que coincidirá con el nombre del campo en la tabla. El valor del atributo &quot;@name&quot; debe ser corto, preferiblemente en inglés, y cumplir con las restricciones de nomenclatura XML.
 
-   Cuando el esquema se escribe en la base de datos, Adobe Campaign agrega automáticamente los prefijos al nombre del campo:
+   Cuando se escribe el esquema en la base de datos, se añaden automáticamente prefijos al nombre del campo por Adobe Campaign:
 
    * &quot;i&quot;: para el tipo &#39;integer&#39;.
-   * &quot;d&quot;: para el tipo &#39;double&#39;.
+   * &quot;d&quot;: para el tipo &#39;doble&#39;.
    * &quot;s&quot;: para el tipo de cadena de caracteres.
    * &quot;ts&quot;: para el tipo &#39;date&#39;.
    Para definir completamente el nombre del campo en la tabla, utilice la opción &quot;@sqlname&quot; al definir un atributo.
 
-* **notNull (boolean)**: le permite redefinir el comportamiento de Adobe Campaign con respecto a la administración de registros NULOS en la base de datos. De forma predeterminada, los campos numéricos no son nulos y los campos de cadena y tipo de fecha pueden ser nulos.
+* **notNull (boolean)**: permite redefinir el comportamiento del Adobe Campaign con respecto a la administración de registros NULOS en la base de datos. De forma predeterminada, los campos numéricos no son nulos y los campos de cadena y tipo de fecha pueden ser nulos.
 * **pkgStatus (string)**: durante las exportaciones de paquetes, los valores se tienen en cuenta en función del valor de &quot;@pkgStatus&quot;:
 
    * &quot;always&quot;: siempre presente
    * &quot;never&quot;: nunca presente
    * &quot;predeterminado (o nada)&quot;: el valor se exporta excepto si es el valor predeterminado o si no es un campo interno que no sería compatible con otras instancias.
 
-* **ref (cadena)**: este atributo define una referencia a un `<attribute>` elemento compartido por varios esquemas (factorización de definiciones). La definición no se copia en el esquema actual.
+* **ref (cadena)**: este atributo define una referencia a un `<attribute>` elemento compartido por varios esquemas (factorización de definición). La definición no se copia en el esquema actual.
 * **requerido (booleano)**: si este atributo está activado (@required=&quot;true&quot;), el campo se resalta en la interfaz. La etiqueta del campo aparecerá en rojo en los formularios.
 * **sql (booleano)**: si este atributo está activado (@sql=&quot;true&quot;), fuerza el almacenamiento del atributo SQL, incluso cuando el elemento que contiene el atributo tiene la propiedad xml=&quot;true&quot;.
-* **sqlDefault (string)**: este atributo permite definir el valor predeterminado que se tiene en cuenta para actualizar la base de datos si se activa el atributo @notNull. Si este atributo se agrega después de la creación del atributo, el comportamiento del esquema no cambiará ni siquiera para los nuevos registros. Para cambiar el esquema y actualizar el valor de los nuevos registros, debe eliminar y volver a crear el atributo.
-* **sqlname (string)**: del campo durante la creación de la tabla. Si no se especifica @sqlname, el valor del atributo &quot;@name&quot; se utiliza de forma predeterminada. Cuando se escribe el esquema en la base de datos, los prefijos se agregan automáticamente según el tipo de campo.
+* **sqlDefault (string)**: este atributo permite definir el valor predeterminado que se tiene en cuenta para actualizar la base de datos si se activa el atributo @notNull. Si este atributo se agrega después de la creación del atributo, el comportamiento de esquema no cambiará ni siquiera para los nuevos registros. Para cambiar el esquema y actualizar el valor de los nuevos registros, debe eliminar y volver a crear el atributo.
+* **sqlname (string)**: del campo durante la creación de la tabla. Si no se especifica @sqlname, el valor del atributo &quot;@name&quot; se utiliza de forma predeterminada. Cuando el esquema se escribe en la base de datos, los prefijos se agregan automáticamente en función del tipo de campo.
 * **template (string)**: este atributo define una referencia a un `<attribute>` elemento compartido por varios esquemas. La definición se copia automáticamente en el esquema actual.
 * **translateDefault (string)**: si se encuentra un atributo &quot;@default&quot;, &quot;@translateDefault&quot; le permitirá redefinir una expresión para que coincida con la definida en @default, que será recopilada por la herramienta de traducción (uso interno).
-* **translateExpr (cadena)**: si hay un atributo &quot;@expr&quot; presente, el atributo &quot;@translateExpr&quot; le permite redefinir una expresión para que coincida con la definida en @expr, que la herramienta de traducción recopilará (uso interno).
+* **translateExpr (cadena)**: si hay un atributo &quot;@expr&quot; presente, el atributo &quot;@translateExpr&quot; le permite redefinir una expresión para que coincida con la definida en @expr, que será recopilada por la herramienta de traducción (uso interno).
 * **type (MNTOKEN)**: tipo de campo.
 
    Los tipos de campo son genéricos. Según el tipo de base de datos instalada, Adobe Campaign cambia el tipo definido a un valor específico de la base de datos instalada durante la actualización de la estructura.
 
-   Lista de tipos disponibles:
+   Lista de los tipos disponibles:
 
    * CUALQUIER
    * bin
@@ -148,7 +148,7 @@ La secuencia en la que se definen `<attribute>` los elementos en una `<srcschema
    * datetimetz
    * datetimenotz
    * date
-   * double
+   * doble
    * enum
    * float
    * html
@@ -166,20 +166,20 @@ La secuencia en la que se definen `<attribute>` los elementos en una `<srcschema
    * uuid
    Si el atributo &quot;@type&quot; se deja vacío, Adobe Campaign vinculará una cadena de caracteres (STRING) con una longitud de 100 al campo de forma predeterminada.
 
-   Si el campo es de tipo STRING y el nombre del campo no está especificado por la presencia del atributo &quot;@sqlname&quot;, el nombre del campo en la base de datos estará precedido automáticamente por &#39;s&#39;. Este modo operativo será similar a los campos de tipo INTEGER (i), DOUBLE (d) y FECHAS (ts).
+   Si el campo es de tipo STRING y el nombre del campo no está especificado por la presencia del atributo &quot;@sqlname&quot;, el nombre del campo en la base de datos estará precedido automáticamente por &#39;s&#39;. Este modo operativo será similar a los campos de tipo INTEGER (i), DOBLE (d) y FECHAS (ts).
 
-* **userEnum (string)**: recibe el nombre interno de una enumeración &quot;abierta&quot;. El usuario puede definir los valores de la enumeración en la interfaz.
+* **userEnum (string)**: recibe el nombre interno de una lista desglosada &quot;abierta&quot;. El usuario puede definir los valores de la lista desglosada en la interfaz.
 * **visibleIf (cadena)**: define una condición en forma de expresión XTK para mostrar u ocultar el atributo.
 
    >[!IMPORTANT]
    >
    >El atributo está oculto, pero aún se puede acceder a sus datos.
 
-* **xml (booleano)**: si esta opción está activada, los valores del campo no tienen un campo SQL vinculado. Adobe Campaign crea un campo de tipo de texto &quot;mData&quot; para el almacenamiento de registros. Esto significa que no hay filtrado ni ordenación en estos campos.
+* **xml (booleano)**: si esta opción está activada, los valores del campo no tienen un campo SQL vinculado. Adobe Campaign crea un campo de tipo Texto &quot;mData&quot; para el almacenamiento de registros. Esto significa que no hay filtrado ni ordenación en estos campos.
 
 ### Ejemplos {#examples}
 
-Ejemplo de valores de enumeración cuyos valores se almacenan en la base de datos:
+Ejemplo de valores de lista desglosada cuyos valores se almacenan en la base de datos:
 
 ```
     <enumeration name="myEnum">
@@ -199,7 +199,7 @@ Declaración de un campo XML con &quot;@datapolicy&quot;:
      length="32" name="mobilePhone" sqlname="sMobilePhone" type="string"/>
 ```
 
-Ejemplo con un &quot;@applyIf&quot;: el atributo &quot;contains&quot; solo se creará si el número de países es mayor que 20.
+Ejemplo con un &quot;@applyIf&quot;: el atributo &quot;contains&quot; solo se creará si el número de países es bueno a 20.
 
 ```
 <attribute length="100" name="Continent" type="string" applicableIf="@country > 20"/>
@@ -219,7 +219,7 @@ Ejemplo con &quot;@feature&quot; de tipo &quot;dedicado&quot;:
 <attribute name="field1" label="Field 1" type="long" feature="dedicated" sqlname="sField1" sqltable="Ft_recipient_field1"/>
 ```
 
-## `<compute-string>` element {#compute-string--element}
+## `<compute-string>` Elemento {#compute-string--element}
 
 ### Modelo de contenido {#content-model-1}
 
@@ -235,7 +235,7 @@ compute-string:==EMPTY
 
 ### Niños {#children-1}
 
- Ninguno
+Ninguno
 
 ### Descripción {#description-1}
 
@@ -247,7 +247,7 @@ Cuando no `<compute-string>` se define ninguno, se introduce un `<compute-string
 
 ### Descripción del atributo {#attribute-description-1}
 
-* **expr (cadena)**: Expresión XTK y/o Xpath
+* **expr (cadena)**: expresión XTK y/o Xpath
 
 ### Ejemplos {#examples-1}
 
@@ -266,7 +266,7 @@ Resultado de la cadena calculada en un destinatario: &quot;John Doe (john.doe@ao
 </element>
 ```
 
-## `<condition>` element {#condition--element}
+## `<condition>` Elemento {#condition--element}
 
 ### Modelo de contenido {#content-model-2}
 
@@ -284,7 +284,7 @@ condición:==EMPTY
 
 ### Niños {#children-2}
 
- Ninguno
+Ninguno
 
 ### Descripción {#description-2}
 
@@ -308,7 +308,7 @@ Un `<sysfiler>` elemento puede contener varias condiciones de filtrado.
 </sysfilter>
 ```
 
-## `<dbindex>` element {#dbindex--element}
+## `<dbindex>` Elemento {#dbindex--element}
 
 ### Modelo de contenido {#content-model-3}
 
@@ -340,13 +340,13 @@ Es posible definir varios índices. Un índice puede hacer referencia a uno o va
 
 El orden de los `<keyfield>` elementos definidos en una `<dbindex>` es muy importante. El primero `<keyfield>` debe ser el criterio de indización en el que se basan principalmente las consultas.
 
-El nombre del índice de la base de datos se calcula concatenando el nombre de la tabla y el nombre del índice. Por ejemplo: Nombre de tabla &quot;Sample&quot;, Espacio de nombres &quot;Cus&quot;, nombre de índice &quot;MyIndex&quot;-> nombre del campo de índice durante la consulta de creación de índice: &quot;CusSample_myIndex&quot;.
+El nombre del índice de la base de datos se calcula concatenando el nombre de la tabla y el nombre del índice. Por ejemplo: Nombre de tabla &quot;Sample&quot;, Área de nombres &quot;Cus&quot;, nombre de índice &quot;MyIndex&quot;-> nombre del campo de índice durante la consulta de creación de índice: &quot;CusSample_myIndex&quot;.
 
 ### Descripción del atributo {#attribute-description-3}
 
 * **_operation (string)**: define el tipo de escritura en la base de datos.
 
-   Este atributo se utiliza principalmente al ampliar esquemas predeterminados.
+   Este atributo se utiliza principalmente al ampliar los esquemas predeterminados.
 
    Los valores accesibles son:
 
@@ -354,7 +354,7 @@ El nombre del índice de la base de datos se calcula concatenando el nombre de l
    * &quot;insertOrUpdate&quot;: actualizar con inserción. Esto significa que Adobe Campaign actualizará el elemento o lo creará si no existe.
    * &quot;insertar&quot;: inserción. Esto significa que Adobe Campaign insertará el elemento sin comprobar si existe.
    * &quot;update&quot;: actualizar. Esto significa que Adobe Campaign actualizará el elemento o generará un error si no existe.
-   * &quot;delete&quot;: eliminación. Esto significa que Adobe Campaign recuperará y eliminará elementos.
+   * &quot;delete&quot;: eliminación. Esto significa que Adobe Campaign recuperará y eliminará los elementos.
 
 * **applyIf (string)**: condición para tener en cuenta el índice: recibe una expresión XTK.
 * **label (string)**: etiqueta de índice.
@@ -363,7 +363,7 @@ El nombre del índice de la base de datos se calcula concatenando el nombre de l
 
 ### Ejemplos {#examples-3}
 
-Creación de un índice en el campo &quot;id&quot;. (el atributo &quot;@unique&quot; en el `<dbindex>` elemento desencadena la adición de la palabra clave SQL &quot;ÚNICA&quot; cuando se crea el índice en la base de datos (consulta)).
+Creación de un índice en el campo &quot;id&quot;. (el atributo &quot;@unique&quot; del `<dbindex>` elemento desencadena la adición de la palabra clave SQL &quot;ÚNICA&quot; cuando se crea el índice en la base de datos (consulta)).
 
 ```
 <element label="Sample" name="Sample">
@@ -400,15 +400,15 @@ Creación de un índice compuesto en los campos &quot;@mail&quot; y &quot;@phone
 CREATE INDEX DocNewSchemaUser_myIndex ON DocNewSchemaUser(sEmail, sPhone);
 ```
 
-## `<element>` element {#element--element}
+## `<element>` Elemento {#element--element}
 
 ### Modelo de contenido {#content-model-4}
 
-element:==(atributo| compute-string| dbindex| predeterminado| element| ayuda| join| key| sysFilter| translateDefault)
+element:==(atributo | compute-string | dbindex | predeterminado | element | ayuda | join | key | sysFilter | translateDefault)
 
 ### Atributos {#attributes-4}
 
-_operation (string), avanzado (booleano), agregado (string), aplicableIf (string), autopk (boolean), perteneceTo (string), convDate (string), dataPolicy (string), dataSource (string), dbEnum (string), defOnDuplicate (boolean), default (string), desc (string), displayAsField (boolean), doesNotSupportDiff (boolean), edit (string), emptyKeyValue (string), enum (string), enumImage (string), expandedSchemaTarget (string), expr (string), externalJoin (boolean), feature (string), featureDate (boolean), filterPath (string), folderLink (string), folderModel (string), Process (string), fullLoad (boolean), hierarchical (boolean), hierarchicalPath (string), img (string), inout (string), integridad (string), label (string), labelSingular (string), length (string), localizable (boolean), name (MNTOKEN), noDbIndex (boolean), noKey (boolean) order (boolean), overflowtable (boolean), pkSequence (string), pkgStatus (string), ref (string), required (boolean), revAdvanced (boolean), revCardinality (string), revDesc (string), revExternalJoin (boolean), revIntegrity (string), revLabel (string), vLink (string), revTarget (string), revVisibleIf (string), sql (boolean), sqlname (string), sqltable (string), tableSpace (string), tableSpaceIndex (string), target (MNTOKEN), template (string), permanentTable (boolean), translateDefault (string), translateExpr ), type (MNTOKEN), unbound (booleano), user (boolean), userEnum (string), visibleIf (string), xml (boolean), xmlChildren (boolean)
+_operation (string), avanzado (booleano), acumulado (string), aplicableIf (string), autopk (boolean), perteneceTo (string), convDate (string), dataPolicy (string), dataSource (string), dbEnum (string), defOnDuplicate (boolean), default (string), desc (string), displayAsField (boolean, doesNotSupportDiff (boolean), edit (string), emptyKeyValue (string), enum (string), enumImage (string), expandedSchemaTarget (string), expr (string), externalJoin (boolean), feature (string), featureDate (boolean), filterPath (string), folderLink (string), folderModel (string), Process (string), fullLoad (boolean), hierarchical (boolean), hierarchicalPath (string), img (string), inout (string), integridad (string), label (string), labelSingular (string), length (string), localizable (boolean), name (MNTOKEN), noDbIndex (boolean), noKey (boolean) order (boolean), overflowtable (boolean), pkSequence (string), pkgStatus (string), ref (string), required (boolean), revAdvanced (boolean), revCardinality (string), revDesc (string), revExternalJoin (boolean), revIntegrity (string), revLabel (string), vLink (string), revTarget (string), revVisibleIf (string), sql (boolean), sqlname (string), sqltable (string), tableSpace (string), tableSpaceIndex (string), destinatario (MNTOKEN), template (string), permanentTable (boolean), translateDefault (string), translateExpr cadena), type (MNTOKEN), unbound (booleano), user (boolean), userEnum (string), visibleIf (string), xml (boolean), xmlChildren (boolean)
 
 ### Padres {#parents-4}
 
@@ -431,7 +431,7 @@ _operation (string), avanzado (booleano), agregado (string), aplicableIf (string
 
 ### Descripción {#description-4}
 
-Hay cuatro tipos de `<element>` elementos en Adobe Campaign:
+Hay cuatro tipos de `<element>` elementos en el Adobe Campaign:
 
 * Raíz `<element>` : define el nombre de la tabla SQL que coincide con el esquema.
 * Estructura `<element>` : define un grupo de `<element>` o `<attribute>` elementos.
@@ -442,7 +442,7 @@ Hay cuatro tipos de `<element>` elementos en Adobe Campaign:
 
 * **_operation (string)**: define el tipo de escritura en la base de datos.
 
-   Este atributo se utiliza principalmente al ampliar esquemas predeterminados.
+   Este atributo se utiliza principalmente al ampliar los esquemas predeterminados.
 
    Los valores accesibles son:
 
@@ -450,12 +450,12 @@ Hay cuatro tipos de `<element>` elementos en Adobe Campaign:
    * &quot;insertOrUpdate&quot;: actualizar con inserción. Esto significa que Adobe Campaign actualizará el elemento o lo creará si no existe.
    * &quot;insertar&quot;: inserción. Esto significa que Adobe Campaign insertará el elemento sin comprobar si existe.
    * &quot;update&quot;: actualizar. Esto significa que Adobe Campaign actualizará el elemento o generará un error si no existe.
-   * &quot;delete&quot;: eliminación. Esto significa que Adobe Campaign recuperará y eliminará elementos.
+   * &quot;delete&quot;: eliminación. Esto significa que Adobe Campaign recuperará y eliminará los elementos.
 
-* **avanzado (booleano)**: cuando esta opción está activada (@advanced=&quot;true&quot;), permite ocultar el atributo en la lista de campos disponibles a los que se puede acceder para configurar una lista en un formulario.
-* **aggregate (string)**: permite copiar la definición de un `<element>` mediante otro esquema. Este atributo recibe una declaración de esquema en forma de &quot;espacio de nombres:nombre&quot;.
+* **avanzado (booleano)**: cuando esta opción está activada (@advanced=&quot;true&quot;), permite ocultar el atributo en la lista de los campos disponibles a los que se puede acceder para configurar una lista en un formulario.
+* **acumulada (cadena)**: permite copiar la definición de un `<element>` mediante otro esquema. Este atributo recibe una declaración de esquema en forma de &quot;Área de nombres:nombre&quot;.
 * **applyIf (string)**: condición para aplicar el índice. Este atributo recibe una expresión XTK.
-* **autopk (booleano)**: si esta opción está activada (autopk=&quot;true&quot;), se definirá automáticamente una clave única. Esta opción solo se puede usar en el elemento principal del esquema. Advertencia, Adobe Campaign solo garantiza que la clave generada sea única. No se garantiza que los valores clave sean consecutivos e incrementales.
+* **autopk (booleano)**: si esta opción está activada (autopk=&quot;true&quot;), se definirá automáticamente una clave única. Esta opción solo puede utilizarse en el elemento principal del esquema. Advertencia, Adobe Campaign sólo garantiza que la clave generada sea única. No se garantiza que los valores clave sean consecutivos e incrementales.
 * **dataPolicy (string)**: permite especificar restricciones de aprobación en los valores permitidos en el campo SQL. Los valores de este atributo son:
 
    * &quot;ninguno&quot;: sin valor
@@ -467,16 +467,16 @@ Hay cuatro tipos de `<element>` elementos en Adobe Campaign:
    * &quot;identifier&quot;: nombre de identificador
    * &quot;resIdentifier&quot;: nombre de archivo
 
-* **dbEnum (cadena)**: recibe el nombre interno de una enumeración &quot;cerrada&quot;. Los valores de enumeración deben definirse en la `<srcschema>`.
+* **dbEnum (cadena)**: recibe el nombre interno de una lista desglosada &quot;cerrada&quot;. Los valores de lista desglosada deben definirse en la `<srcschema>`.
 * **defOnDuplicate (booleano)**: si se activa este atributo, cuando se duplica un registro, el valor predeterminado (definido en @default) se vuelve a aplicar automáticamente al registro.
 * **default (string)**: permite definir el comportamiento del elemento (llamada a una función, valor predeterminado). Este atributo recibe una expresión XTK.
 * **desc (cadena)**: permite insertar una descripción del elemento. Esta descripción se muestra en la barra de estado de la interfaz.
-* **displayAsField (boolean)**: si se activa este atributo, se mostrará un tipo de &quot;vínculo&quot; `<element>` como campo en la vista de árbol de los esquemas (ficha &quot;Estructura&quot;). De este modo, es posible mostrar un vínculo como campo local y cambiar su comportamiento durante una consulta. Cuando el elemento se encuentra en el SELECT de una consulta, se utilizará el valor del destino del vínculo. Cuando el elemento se encuentra en el WHERE de una consulta, se utilizará la clave subyacente del vínculo.
+* **displayAsField (boolean)**: si se activa este atributo, se mostrará un tipo de &quot;vínculo&quot; `<element>` como campo en la vista de árbol de los esquemas (&quot;Estructura&quot;). De este modo, es posible mostrar un vínculo como campo local y cambiar su comportamiento durante una consulta. Cuando el elemento se encuentra en la SELECCIÓN de una consulta, se utilizará el valor del destinatario del vínculo. Cuando el elemento se encuentra en el WHERE de una consulta, se utilizará la clave subyacente del vínculo.
 * **edit (cadena)**: este atributo especifica el tipo de entrada que se utilizará en el formulario vinculado al esquema.
-* **enum (cadena)**: recibe el nombre de la enumeración vinculada al campo. La enumeración se puede insertar en el mismo esquema o en un esquema remoto.
+* **enum (cadena)**: recibe el nombre de la lista desglosada vinculada al campo. La lista desglosada se puede insertar en el mismo esquema o en un esquema remoto.
 * **expr (cadena)**: este atributo define un campo calculado para el que no se almacena ninguna definición en la tabla. Recibe una expresión Xpath o XTK (cadena).
 * **externalJoin (boolean)**: unión externa en un elemento de tipo &quot;vínculo&quot;.
-* **feature (string)**: define un campo de características: Estos campos se utilizan para ampliar los datos en un cuadro existente, pero con almacenamiento en un cuadro anexo. Los valores aceptados son:
+* **feature (string)**: define un campo de características: Estos campos se utilizan para ampliar los datos en un cuadro existente, pero con almacenamientos en un cuadro anexo. Los valores aceptados son:
 
    * &quot;compartido&quot;: el contenido se almacena en una tabla compartida por tipo de datos
    * &quot;dedicado&quot;: el contenido se almacena en una tabla dedicada
@@ -491,18 +491,18 @@ Hay cuatro tipos de `<element>` elementos en Adobe Campaign:
 * **featureDate (booleano)**: vinculado al campo de características &quot;@feature&quot;. Si su valor es &quot;true&quot;, le permite averiguar cuándo se actualizó por última vez el valor.
 * **filterPath (string)**: este atributo recibe un Xpath y le permite definir un filtro en un campo.
 * **folderLink (cadena)**: este atributo recibe el nombre del vínculo que le permite recuperar los archivos que contienen entidades.
-* **folderModel (string)**: define el tipo de carpeta que habilita el almacenamiento de entidades. Este atributo solo se define si &quot;@folderLink&quot; está presente.
+* **folderModel (string)**: define el tipo de carpeta que habilita el almacenamiento de la entidad. Este atributo solo se define si &quot;@folderLink&quot; está presente.
 * **folderProcess (cadena)**: define el vínculo donde se almacenan las instancias del modelo de entidad. Este atributo solo se define si &quot;@folderLink&quot; está presente.
 * **fullLoad (booleano)**: este atributo fuerza la visualización de todos los registros de una tabla durante la selección de campos en un formulario.
-* **img (cadena)**: recibe la ruta de una imagen vinculada a un elemento. El valor de este atributo es del tipo &quot;namespace:image name&quot;. Por ejemplo: img=&quot;cus:myImage.jpg&quot;. Físicamente, la imagen debe importarse al servidor de aplicaciones.
-* **integridad (cadena)**: integridad referencial de la incidencia de la tabla de origen hacia la tabla de destino.
+* **img (cadena)**: recibe la ruta de una imagen vinculada a un elemento. El valor de este atributo es del tipo &quot;Área de nombres:nombre de imagen&quot;. Por ejemplo: img=&quot;cus:myImage.jpg&quot;. Físicamente, la imagen debe importarse al servidor de aplicaciones.
+* **integridad (cadena)**: integridad referencial de la incidencia de la tabla de origen hacia la tabla de destinatario.
 
    Los valores accesibles son:
 
-   * &quot;define&quot;: Adobe Campaign no elimina la entidad si se hace referencia a ella a través del vínculo
-   * &quot;normal&quot;: al eliminar la incidencia de origen se inicializan las claves del vínculo en la incidencia de destino (modo predeterminado), este tipo de integridad inicializa todas las claves externas
-   * &quot;propio&quot;: la eliminación de la incidencia de origen activa la eliminación de la incidencia de destino
-   * &quot;downcopy&quot;: similar a &quot;propia&quot; (en caso de eliminación) o repetidas ocurrencias (en caso de duplicación)
+   * &quot;define&quot;: Adobe Campaign no elimina la entidad si se hace referencia a ella mediante el vínculo
+   * &quot;normal&quot;: al eliminar la incidencia de origen se inicializan las claves del vínculo en la incidencia de destinatario (modo predeterminado), este tipo de integridad inicializa todas las claves externas
+   * &quot;propio&quot;: la eliminación de la incidencia de origen activa la eliminación de la incidencia de destinatario
+   * &quot;downcopy&quot;: similar a &quot;propia&quot; (en caso de eliminación) o ocurrencias de duplicados (en caso de duplicación)
    * &quot;neutral&quot;: no hace nada
 
 * **label (string)**: etiqueta de elemento.
@@ -511,17 +511,17 @@ Hay cuatro tipos de `<element>` elementos en Adobe Campaign:
 * **localizable (booleano)**: si se activa, este atributo indica a la herramienta de recopilación que recupere el valor del atributo &quot;@label&quot; para traducción (uso interno).
 * **name (MNTOKEN)**: nombre interno del elemento que coincide con el nombre de la tabla. El valor del atributo &quot;@name&quot; debe ser corto, preferiblemente en inglés, y cumplir con las restricciones de nombres vinculadas a XML.
 
-   Cuando el esquema se escribe en la base de datos, Adobe Campaign agrega automáticamente los prefijos al nombre del campo.
+   Cuando se escribe el esquema en la base de datos, se añaden automáticamente prefijos al nombre del campo por Adobe Campaign.
 
    * &quot;i&quot;: para el tipo &#39;integer&#39;.
-   * &quot;d&quot;: para el tipo &#39;double&#39;.
+   * &quot;d&quot;: para el tipo &#39;doble&#39;.
    * &quot;s&quot;: para el tipo de cadena de caracteres.
    * &quot;ts&quot;: para el tipo &#39;date&#39;.
    Para definir el nombre de la tabla de forma autónoma, debe utilizar el atributo &quot;@sqltable&quot; en la definición del elemento de esquema principal.
 
 * **noDbIndex (boolean)**: permite especificar que el elemento no se indizará.
 * **ordered (booleano)**: si el atributo está activado (ordered=&quot;true&quot;), Adobe Campaign mantiene la secuencia de declaraciones de elementos en un elemento de recopilación XML.
-* **pkSequence (cadena)**: recibe el nombre de la secuencia que se va a utilizar para calcular una clave de aumento automático. Este atributo solo se puede usar si se define una clave de aumento automático en el elemento raíz del esquema.
+* **pkSequence (cadena)**: recibe el nombre de la secuencia que se va a utilizar para calcular una clave de aumento automático. Este atributo solo puede utilizarse si se define una clave de aumento automático en el elemento raíz del esquema.
 * **pkgStatus (string)**: durante las exportaciones de paquetes, los valores se tendrán en cuenta como función del valor de este atributo:
 
    * &quot;always&quot;: el elemento siempre estará presente
@@ -537,26 +537,26 @@ Hay cuatro tipos de `<element>` elementos en Adobe Campaign:
 
    * &quot;single&quot; : Vínculo simple de tipo 1-1
    * &quot;sin enlazar&quot;: Vínculo de colección de tipo 1-N
-   De forma predeterminada, si el atributo no se especifica durante la creación del vínculo, la cardinalidad será 1-N.
+   De forma predeterminada, si no se especifica el atributo durante la creación del vínculo, la cardinalidad será 1-N.
 
 * **revDesc (cadena)**: este atributo recibe una descripción vinculada al vínculo opuesto.
 * **revExternalJoin (booleano)**: cuando se activa, este atributo permite forzar la unión externa en el vínculo opuesto.
-* **revIntegrity (cadena)**: este atributo define la integridad en el esquema de destino. Se autorizan los mismos valores que el atributo &quot;@integridad&quot;. De forma predeterminada, Adobe Campaign proporciona el valor &quot;normal&quot; a este atributo.
+* **revIntegrity (cadena)**: este atributo define la integridad en el esquema de destinatario. Se autorizan los mismos valores que el atributo &quot;@integridad&quot;. De forma predeterminada, Adobe Campaign proporciona el valor &quot;normal&quot; a este atributo.
 * **revLabel (cadena)**: del vínculo opuesto.
 * **revLink (cadena)**: nombre del vínculo opuesto. Si el valor es &quot;_NONE_&quot;, no se creará ningún vínculo opuesto en el esquema de destino.
-* **revTarget (cadena)**: objetivo del vínculo opuesto.
+* **revTarget (cadena)**: destinatario del vínculo opuesto.
 * **sql (booleano)**: si este atributo está activado (@sql=&quot;true&quot;), fuerza el almacenamiento del elemento SQL, aunque el elemento tenga la propiedad xml=&quot;true&quot;.
 * **sqlname (string)**: nombre del campo durante la creación de la tabla. Si no se especifica &quot;@sqlname&quot;, el valor del atributo &quot;@name&quot; se utiliza de forma predeterminada. Al escribir el esquema en la tabla, los prefijos se agregan automáticamente en función del tipo de campo.
-* **sqltable (string)**: para el elemento principal del esquema, este atributo sobrecarga el nombre de la tabla SQL generada de forma predeterminada. Si no se especifica &quot;@sqltable&quot;, el nombre predeterminado se estructurará de esta manera: espacio de nombres (primera letra en mayúsculas) seguido del valor de SrcSchema &quot;@name&quot;.
+* **sqltable (string)**: para el elemento principal del esquema, este atributo sobrecarga el nombre de la tabla SQL generada de forma predeterminada. Si no se especifica &quot;@sqltable&quot;, el nombre predeterminado se estructurará de esta manera: Área de nombres (primera letra mayúscula) seguida del valor del SrcSchema &quot;@name&quot;.
 * **tableSpace (cadena)**: este atributo permite especificar un nuevo tablespace de almacenamiento de datos para una tabla (válido en la raíz `<element>`).
 * **tableSpaceIndex (string)**: este atributo permite especificar un nuevo tablespace de almacenamiento de índice para una tabla (válido en la raíz `<element>`).
-* **target (MNTOKEN)**: recibe el nombre del esquema de destino al crear un vínculo entre tablas. Este atributo solo está activo para elementos de tipo &quot;link&quot;.
+* **destinatario (MNTOKEN)**: recibe el nombre del esquema de destinatario al crear un vínculo entre tablas. Este atributo solo está activo para elementos de tipo &quot;link&quot;.
 * **template (string)**: este atributo define una referencia a un `<element>` elemento compartido por varios esquemas. La definición se copia automáticamente en el esquema actual.
 * **translateDefault (string)**: si se encuentra un atributo &quot;@default&quot;, &quot;@translateDefault&quot; le permitirá redefinir una expresión para que coincida con la definida en @default, que será recopilada por la herramienta de traducción (uso interno).
 * **translateExpr (cadena)**: si se encuentra un atributo &quot;@expr&quot;, el atributo &quot;@translateExpr&quot; le permite redefinir una expresión que coincida con la definida en &quot;@expr&quot; y que será recopilada por la herramienta de traducción (uso interno).
 * **type (MNTOKEN)**: define el tipo de datos almacenados en el elemento.
 
-   Lista de tipos disponibles:
+   Lista de los tipos disponibles:
 
    * CUALQUIER
    * bin
@@ -568,7 +568,7 @@ Hay cuatro tipos de `<element>` elementos en Adobe Campaign:
    * datetimetz
    * datetimenotz
    * date
-   * double
+   * doble
    * enum
    * float
    * html
@@ -586,15 +586,15 @@ Hay cuatro tipos de `<element>` elementos en Adobe Campaign:
    * uuid
 
 * **unbound (booleano)**: si el atributo está activado (unbound=&quot;true&quot;), el vínculo se declara como un elemento de recopilación para una cardinalidad 1-N.
-* **userEnum (string)**: recibe el nombre interno de una enumeración &quot;abierta&quot;. El usuario puede definir los valores de enumeración en la interfaz.
+* **userEnum (string)**: recibe el nombre interno de una lista desglosada &quot;abierta&quot;. El usuario puede definir los valores de Lista desglosada en la interfaz.
 * **xml (booleano)**: si se activa esta opción, todos los valores definidos en el elemento se almacenan en XML en un campo TEXTO de tipo &quot;mData&quot;. Esto significa que no habrá filtrado ni ordenación en estos campos.
-* **xmlChildren (booleano)**: fuerza el almacenamiento para cada niño ( `<element>  or  <attribute>   ) of the   <element>    element in an XML document.   </element>  </attribute> </element>`
+* **xmlChildren (booleano)**: fuerza el almacenamiento de cada niño ( `<element>  or  <attribute>   ) of the   <element>    element in an XML document.   </element>  </attribute> </element>`
 
-## `<enumeration>` element {#enumeration--element}
+## `<enumeration>` Elemento {#enumeration--element}
 
 ### Modelo de contenido {#content-model-5}
 
-enumeración:==(ayuda| valor)
+lista desglosada:==(ayuda| valor)
 
 ### Atributos {#attributes-5}
 
@@ -616,17 +616,17 @@ enumeración:==(ayuda| valor)
 
 ### Descripción {#description-5}
 
-Este elemento nos permite definir una enumeración de valores. Una enumeración pertenece al esquema en el que está definida, pero es accesible a través de otro esquema.
+Este elemento nos permite definir una lista desglosada de valor. Una lista desglosada pertenece al esquema en el que está definida, pero se puede acceder a ella a través de otro esquema.
 
 ### Uso y contexto de uso {#use-and-context-of-use-4}
 
-Las enumeraciones se definen al principio de un esquema (antes de que se defina el elemento principal).
+Las Listas desglosadas se definen en el inicio de un esquema (antes de definir el elemento principal).
 
 ### Descripción del atributo {#attribute-description-5}
 
-* **basetype (string)**: tipo de los valores almacenados en la enumeración.
+* **basetype (string)**: tipo de los valores almacenados en la lista desglosada.
 
-   Lista de tipos disponibles:
+   Lista de los tipos disponibles:
 
    * CUALQUIER
    * bin
@@ -640,7 +640,7 @@ Las enumeraciones se definen al principio de un esquema (antes de que se defina 
    * date
    * DOMDocument
    * DOMElement
-   * double
+   * doble
    * enum
    * float
    * html
@@ -657,15 +657,15 @@ Las enumeraciones se definen al principio de un esquema (antes de que se defina 
    * timespan
    * uuid
 
-* **default (string)**: Valor predeterminado. El valor predeterminado también puede ser uno de los valores definidos en la enumeración.
-* **desc (cadena)**: descripción de la enumeración.
-* **label (string)**: etiqueta de enumeración.
-* **name (string)**: nombre interno de la enumeración.
+* **default (string)**: Valor predeterminado. El valor predeterminado también puede ser uno de los valores definidos en la lista desglosada.
+* **desc (cadena)**: Descripción de la lista desglosada.
+* **label (string)**: Etiqueta de lista desglosada.
+* **name (string)**: nombre interno de la lista desglosada.
 * **template (string)**: este atributo define una referencia a un `<enumeration>` elemento compartido por varios esquemas. La definición se copia automáticamente en el esquema actual.
 
 ### Ejemplos {#examples-4}
 
-Ejemplo de valores de enumeración cuyos valores se almacenan en la base de datos:
+Ejemplo de valores de lista desglosada cuyos valores se almacenan en la base de datos:
 
 ```
     <enumeration name="myEnum">
@@ -678,7 +678,7 @@ Ejemplo de valores de enumeración cuyos valores se almacenan en la base de dato
     </element>
 ```
 
-Definición de una enumeración con un valor predeterminado:
+Definición de una lista desglosada con un valor predeterminado:
 
 ```
  <enumeration basetype="byte" default="email" name="canal">
@@ -688,7 +688,7 @@ Definición de una enumeración con un valor predeterminado:
  </enumeration>
 ```
 
-## `<help>` element {#help--element}
+## `<help>` Elemento {#help--element}
 
 ### Modelo de contenido {#content-model-6}
 
@@ -696,7 +696,7 @@ help:==EMPTY
 
 ### Atributos {#attributes-6}
 
- Ninguno
+Ninguno
 
 ### Padres {#parents-6}
 
@@ -704,7 +704,7 @@ help:==EMPTY
 
 ### Niños {#children-6}
 
- Ninguno
+Ninguno
 
 ### Descripción {#description-6}
 
@@ -723,7 +723,7 @@ Este elemento no tiene atributos.
 </method> 
 ```
 
-## `<join>` element {#join--element}
+## `<join>` Elemento {#join--element}
 
 ### Modelo de contenido {#content-model-7}
 
@@ -741,7 +741,7 @@ join:==EMPTY
 
 ### Niños {#children-7}
 
- Ninguno
+Ninguno
 
 ### Descripción {#description-7}
 
@@ -751,7 +751,7 @@ Permite definir los campos que crean una combinación entre tablas SQL.
 
 Un `<join>` elemento solo se puede usar si el `<element>` elemento principal es de tipo &#39;link&#39;. Esto significa que el elemento principal debe tener declarado el atributo &quot;@type=link&quot;.
 
-No es necesario especificar el nombre y el espacio de nombres de la tabla remota en el `<join>` elemento. Deben especificarse en el elemento principal `<element>`.
+No es necesario especificar el nombre y la Área de nombres de la tabla remota en el `<join>` elemento. Deben especificarse en el elemento principal `<element>`.
 
 Por convención, los vínculos se definen al final del esquema.
 
@@ -779,7 +779,7 @@ Vínculo filtrado hacia la tabla &quot;cus:Country&quot; basado en el contenido 
  </element>
 ```
 
-## `<key>` element {#key--element}
+## `<key>` Elemento {#key--element}
 
 ### Modelo de contenido {#content-model-8}
 
@@ -814,9 +814,9 @@ Como regla, las claves se declaran después del elemento principal del esquema y
 
 Una clave se conoce como compuesta si incluye varios campos (es decir, varios `<keyfield>` elementos secundarios). No utilice una clave compuesta para definir una clave principal.
 
-Si el elemento principal del esquema contiene el atributo &quot;@autopk=true&quot;, la clave principal es única. Solo podemos tener una clave principal por esquema.
+Si el elemento principal del esquema contiene el atributo &quot;@autopk=true&quot;, la clave principal es única. Sólo podemos tener una clave principal por esquema.
 
-Los primeros 1000 identificadores están reservados, por lo que si es necesario definir un rango de valores para las claves, comience en 1000.
+Los primeros 1000 identificadores están reservados, por lo que si es necesario definir un rango de valores para las claves, el inicio será 1000.
 
 ### Descripción del atributo {#attribute-description-8}
 
@@ -838,7 +838,7 @@ Declaración de una clave compuesta que autoriza el campo &quot;@expr&quot; o &q
  </key>
 ```
 
-Declaración de una clave principal en el campo &quot;Nombre&quot; del tipo STRING en una consulta SQL `<srcschema>` y la consulta SQL coincidente:
+Declaración de una clave principal en el campo &quot;Nombre&quot; del tipo STRING en una consulta SQL `<srcschema>` y la correspondiente:
 
 ```
  
@@ -849,7 +849,7 @@ Declaración de una clave principal en el campo &quot;Nombre&quot; del tipo STRI
 CREATE UNIQUE INDEX Schema_PrimaryKey ON Schema(sName);
 ```
 
-## `<keyfield>` element {#keyfield--element}
+## `<keyfield>` Elemento {#keyfield--element}
 
 ### Modelo de contenido {#content-model-9}
 
@@ -866,7 +866,7 @@ keyfield:==EMPTY
 
 ### Niños {#children-9}
 
- Ninguno
+Ninguno
 
 ### Descripción {#description-9}
 
@@ -875,7 +875,7 @@ Este elemento define los campos que se integrarán en un índice o una clave.
 ### Descripción del atributo {#attribute-description-9}
 
 * **xlink (MNTOKEN)**: permite hacer referencia automáticamente a claves externas definidas en la unión para una tabla de relación (vínculo N-N).
-* **xpath (MNTOKEN)**: definición de un índice o una clave en un `<attribute>` elemento. Este atributo recibe un Xpath que define la ruta al atributo de esquema que define la clave o el índice.
+* **xpath (MNTOKEN)**: definición de un índice o una clave en un `<attribute>` elemento. Este atributo recibe un Xpath que define la ruta al atributo esquema que define la clave o el índice.
 
 ### Ejemplos {#examples-}
 
@@ -885,11 +885,11 @@ Selección del campo &quot;sName&quot; en un índice con una Xpath en &quot;@nam
 <keyfield xpath="@name"/>
 ```
 
-## `<method>` element {#method--element}
+## `<method>` Elemento {#method--element}
 
 ### Modelo de contenido {#content-model-10}
 
-método:==( help| parámetros)
+método:==( help | parámetros)
 
 ### Atributos {#attributes-10}
 
@@ -920,11 +920,11 @@ Este elemento permite definir un método SOAP.
 
 Los métodos SOAP habilitan procesos de aplicación.
 
-&quot;@library&quot; es necesario para declarar un nuevo método (no nativo): el espacio de nombres y el nombre utilizados para la biblioteca son independientes del espacio de nombres y el nombre del esquema donde está la declaración.
+&quot;@library&quot; es necesario para declarar un nuevo método (no nativo): la Área de nombres y el nombre utilizados para la biblioteca son independientes de la Área de nombres y el nombre del esquema en el que se encuentra la declaración.
 
 ### Descripción del atributo {#attribute-description-10}
 
-* **access (cadena)**: este atributo define el control de acceso para el uso del método. Si falta este atributo, la identificación es obligatoria. Los valores disponibles son: &#39;anónimo&#39;, &#39;admin&#39; y &#39;sql&#39;.
+* **access (cadena)**: este atributo define el control de acceso para utilizar el método. Si falta este atributo, la identificación es obligatoria. Los valores disponibles son: &#39;anónimo&#39;, &#39;admin&#39; y &#39;sql&#39;.
 * **const (booleano)**: si se activa, este atributo significa que el método declarado alterará la entidad
 * **label (string)**: del método.
 * **library (string)**: este método no es nativo de la aplicación. Este atributo toma el valor de la biblioteca de métodos en la que se encuentra la definición de método (nms:mylibrary.js).
@@ -949,7 +949,7 @@ Definición del método &quot;Subscribe&quot; out of box:
     </method>
 ```
 
-## `<methods>` element {#methods--element}
+## `<methods>` Elemento {#methods--element}
 
 ### Modelo de contenido {#content-model-11}
 
@@ -957,7 +957,7 @@ métodos:==método
 
 ### Atributos {#attributes-11}
 
- Ninguno
+Ninguno
 
 ### Padres {#parents-11}
 
@@ -983,7 +983,7 @@ Este elemento no tiene atributos.
 </methods>
 ```
 
-## `<param>` element {#param--element}
+## `<param>` Elemento {#param--element}
 
 ### Modelo de contenido {#content-model-12}
 
@@ -998,7 +998,7 @@ param:==help
 * @label (cadena)
 * @localizable (cadena)
 * @name (MNTOKEN)
-* @namespace (MNTOKEN)
+* @Área de nombres (MNTOKEN)
 * @type (cadena)
 
 ### Padres {#parents-12}
@@ -1017,12 +1017,12 @@ Este elemento permite definir un parámetro para llamar a un método SOAP.
 
 * **desc (cadena)**: descripción que afecta al `<param>` elemento.
 * **inout (cadena)**: este atributo define si el parámetro se encuentra o no en la entrada (entrada) o salida (salida) de la llamada SOAP. Si no se especifica este atributo, el parámetro predeterminado es input (&quot;@inout=in&quot;).
-* **label (string)**: `<param>` etiqueta
+* **label (string)**: `<param>` label
 * **localizable (cadena)**: si se activa, este atributo indica a la herramienta de recopilación que recupere el valor del atributo &quot;@label&quot; para traducción (uso interno).
 * **name (MNTOKEN)**: nombre interno del `<param>`
 * **type (string)**: este atributo define el tipo de `<param>` elemento
 
-   Lista de tipos disponibles:
+   Lista de los tipos disponibles:
 
    * CUALQUIER
    * bin
@@ -1036,7 +1036,7 @@ Este elemento permite definir un parámetro para llamar a un método SOAP.
    * date
    * DOMDocument
    * DOMElement
-   * double
+   * doble
    * enum
    * float
    * html
@@ -1062,7 +1062,7 @@ Definición de la configuración de entrada &quot;serviceName&quot; del tipo de 
                name="serviceName" type="string" inout="in"/>
 ```
 
-## `<parameters>` element {#parameters--element}
+## `<parameters>` Elemento {#parameters--element}
 
 ### Modelo de contenido {#content-model-13}
 
@@ -1070,7 +1070,7 @@ parameters:==param
 
 ### Atributos {#attributes-13}
 
- Ninguno
+Ninguno
 
 ### Padres {#parents-13}
 
@@ -1090,7 +1090,7 @@ Este elemento es obligatorio, incluso para un solo `<param>` elemento secundario
 
 ### Descripción del atributo {#attribute-description-13}
 
- Ninguno
+Ninguno
 
 ### Ejemplos {#examples-10}
 
@@ -1100,19 +1100,19 @@ Este elemento es obligatorio, incluso para un solo `<param>` elemento secundario
 </parameters>
 ```
 
-## `<srcschema>` element {#srcschema--element}
+## `<srcschema>` Elemento {#srcschema--element}
 
 ### Modelo de contenido {#content-model-14}
 
-srcSchema:==(attribute)| createdBy| datos| element| enumeración| ayuda| interfaz| métodos| modifiedBy)
+srcSchema:==(attribute) | createdBy | datos | element | lista desglosada | ayuda | interfaz | métodos | modifiedBy)
 
 ### Atributos {#attributes-14}
 
-created (datetime), createdBy-id (long), desc (string), entitySchema (string), expandedSchema (string), img (string), implements (string), label (string), labelSingular (string), lastModified (datetime), library (boolean), mappingType (string), modifiedBy-id (long), name (string), namespace string), useRecycleBin (booleano), view (boolean), xtkschema (string)
+created (datetime), createdBy-id (long), desc (string), entitySchema (string), expandedSchema (string), img (string), implements (string), label (string), labelSingular (string), lastModified (datetime), library (boolean), mappingType (string), modifiedBy-id (long), name (string), Área de nombres (cadena), useRecycleBin (booleano), vista (booleano), xtkschema (cadena)
 
 ### Padres {#parents-14}
 
- Ninguno
+Ninguno
 
 ### Niños {#children-14}
 
@@ -1132,20 +1132,20 @@ El `<srcschema>` es el elemento raíz de un esquema. Es el punto de entrada para
 
 ### Uso y contexto de uso {#use-and-context-of-use-9}
 
-La presentación del esquema está disponible en [Acerca de la referencia](../../configuration/using/about-schema-reference.md) del esquema y la estructura [del](../../configuration/using/schema-structure.md)esquema.
+La presentación de Esquema está disponible en [Acerca de la referencia](../../configuration/using/about-schema-reference.md) de esquema y la estructura [de](../../configuration/using/schema-structure.md)Esquema.
 
 ### Descripción del atributo {#attribute-description-14}
 
 * **created (datetime)**: este atributo proporciona información sobre la fecha y hora de creación del esquema. Tiene el formulario &quot;Fecha y hora&quot;. Los valores mostrados se toman del servidor. La hora se muestra en formato UTC.
 * **createdBy-id (long)**: es el identificador del operador que creó el esquema.
-* **desc (cadena)**: descripción del esquema
+* **desc (cadena)**: Descripción del esquema
 * **entitySchema (cadena)**: esquema básico en el que se basan la sintaxis y la aprobación (de forma predeterminada para Adobe Campaign: xtk:srcSchema). Al guardar el esquema actual, Adobe Campaign aprobará su gramática con el esquema declarado en el atributo @xtkschema.
-* **expandedSchema (cadena)**: recibe el nombre del esquema predeterminado en el que se basa la extensión de esquema actual. El formulario es &quot;namespace:name&quot;.
-* **img (cadena)**: icono vinculado al esquema (puede definirse en el asistente para la creación del esquema).
-* **label (string)**: etiqueta de esquema.
+* **expandedSchema (cadena)**: recibe el nombre del esquema predeterminado en el que se basa la extensión de esquema actual. El formulario es &quot;Área de nombres:nombre&quot;.
+* **img (cadena)**: icono vinculado al esquema (puede definirse en el asistente para la creación de esquemas).
+* **label (string)**: Etiqueta de esquema.
 * **labelSingular (cadena)**: etiqueta (singular) para mostrar en la interfaz.
 * **lastModified (datetime)**: este atributo proporciona información sobre la fecha y hora de la última modificación. Tiene el formulario &quot;Fecha y hora&quot;. Los valores mostrados se toman del servidor. La hora se muestra en formato UTC.
-* **library (boolean)**: uso del esquema como una biblioteca y no como una entidad. Por lo tanto, otros esquemas pueden hacer referencia a este esquema gracias a los atributos &quot;@ref&quot; y &quot;@template&quot;.
+* **library (boolean)**: uso del esquema como biblioteca y no como entidad. Por lo tanto, otros esquemas pueden hacer referencia a este esquema gracias a los atributos &quot;@ref&quot; y &quot;@template&quot;.
 * **mappingType (cadena)**:
 
    * &quot;sql&quot;: asignación de bases de datos
@@ -1155,14 +1155,14 @@ La presentación del esquema está disponible en [Acerca de la referencia](../..
 
 * **modifiedBy-id (long)**: coincide con el identificador del operador que cambió el esquema.
 * **name (string)**: nombre de esquema único.
-* **namespace (cadena)**: espacio de nombres del esquema (predeterminado: nms, xtk, nl). Al crear un nuevo esquema para un proyecto, se recomienda utilizar un espacio de nombres dedicado.
-* **useRecycleBin (boolean)**: activa la función de papelera en la aplicación. Los registros eliminados se colocarán en la papelera antes de la eliminación final. Esta función solo está disponible en el modo &quot;Entrega&quot;.
-* **view (booleano)**: si se activa (@view=&quot;true&quot;), el esquema se utilizará como vista. El asistente para la actualización de la estructura de la base de datos no tendrá en cuenta el esquema. Esta opción se utiliza principalmente para hacer referencia a tablas externas.
+* **Área de nombres (cadena)**: Área de nombres del esquema (predeterminado: nms, xtk, nl). Al crear un nuevo esquema para un proyecto, le recomendamos que utilice una Área de nombres dedicada.
+* **useRecycleBin (boolean)**: activa la función de papelera en la aplicación. Los registros eliminados se colocarán en la papelera antes de la eliminación final. Esta función solo está disponible en modo &quot;Envío&quot;.
+* **vista (booleana)**: si se activa (@vista=&quot;true&quot;), el esquema se utilizará como vista. El asistente para la actualización de la estructura de la base de datos no tendrá en cuenta el esquema. Esta opción se utiliza principalmente para hacer referencia a tablas externas.
 * **xtkschema (string)**: nombre del esquema que define la gramática del esquema (xtk:srcSchema de forma predeterminada).
 
 ### Ejemplos {#examples-11}
 
-`<srcschema>` elemento del esquema &quot;nms:delivery&quot; fuera del cuadro
+`<srcschema>` del esquema &quot;nms:envío&quot; fuera de la casilla
 
 ```
 <srcSchema desc="Defines all the settings of a delivery (or delivery template)."  
@@ -1171,7 +1171,7 @@ La presentación del esquema está disponible en [Acerca de la referencia](../..
            name="delivery" namespace="nms" useRecycleBin="true" xtkschema="xtk:srcSchema">
 ```
 
-## `<sysfilter>` element {#sysfilter--element}
+## `<sysfilter>` Elemento {#sysfilter--element}
 
 ### Modelo de contenido {#content-model-15}
 
@@ -1179,7 +1179,7 @@ sysFilter:==condition
 
 ### Atributos {#attributes-15}
 
- Ninguno
+Ninguno
 
 ### Padres {#parents-15}
 
@@ -1207,7 +1207,7 @@ Definición de un filtro con una condición en el atributo @name:
   <sysFilter>
 ```
 
-## `<value>` element {#value--element}
+## `<value>` Elemento {#value--element}
 
 ### Modelo de contenido {#content-model-16}
 
@@ -1233,17 +1233,17 @@ value:==help
 
 ### Descripción {#description-16}
 
-Este elemento permite definir los valores almacenados en una enumeración.
+Este elemento permite definir los valores almacenados en una lista desglosada.
 
 ### Descripción del atributo {#attribute-description-16}
 
-* **applyIf (string)**: este atributo permite hacer opcional un valor de enumeración. Recibe una expresión XTK.
-* **desc (cadena)**: descripción del valor de enumeración.
-* **enabledIf (string)**: condición para activar el valor de enumeración.
-* **img (cadena)**: imagen vinculada a la enumeración en el formulario &quot;namespace:image_name&quot;. La imagen debe importarse en el servidor de aplicaciones.
-* **label (string)**: etiqueta del valor de enumeración.
-* **name (string)**: nombre interno del valor de enumeración.
-* **value (string)**: valor del valor de enumeración. El tipo de valor se define en función del tipo de enumeración. Si la enumeración es del tipo de cadena de caracteres, sólo puede contener valores de tipo de cadena de caracteres.
+* **applyIf (string)**: este atributo le permite convertir un valor de lista desglosada en opcional. Recibe una expresión XTK.
+* **desc (cadena)**: descripción del valor de lista desglosada.
+* **enabledIf (string)**: condición para activar el valor de lista desglosada.
+* **img (cadena)**: imagen vinculada a la lista desglosada en el formulario &quot;Área de nombres:nombre_imagen&quot;. La imagen debe importarse en el servidor de aplicaciones.
+* **label (string)**: del valor de lista desglosada.
+* **name (string)**: nombre interno del valor de lista desglosada.
+* **value (string)**: valor del valor de lista desglosada. El tipo de valor se define en función del tipo de lista desglosada. Si la lista desglosada es del tipo de cadena de caracteres, sólo puede contener valores de tipo de cadena de caracteres.
 
 ### Ejemplos {#examples-13}
 
