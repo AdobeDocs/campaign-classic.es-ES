@@ -1,7 +1,7 @@
 ---
-title: Integración en un servidor Web para Linux
-seo-title: Integración en un servidor Web para Linux
-description: Integración en un servidor Web para Linux
+title: Integración en un servidor web para Linux
+seo-title: Integración en un servidor web para Linux
+description: Integración en un servidor web para Linux
 seo-description: null
 page-status-flag: never-activated
 uuid: 7b18d176-4458-46a8-8da4-3621f90c6b13
@@ -15,12 +15,12 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a37daa8e31afd3d2ab7d5b70bd8ae02c59ce9ee0
+source-git-commit: 4fbc576ba65c44d91ac87ea2967fac3b0a88a040
 
 ---
 
 
-# Integración en un servidor Web para Linux{#integration-into-a-web-server-for-linux}
+# Integración en un servidor web para Linux{#integration-into-a-web-server-for-linux}
 
 Adobe Campaign incluye Apache Tomcat que actúa como punto de entrada en el servidor de aplicaciones mediante HTTP (y SOAP).
 
@@ -35,7 +35,7 @@ En este caso:
    http://<computer>:8080
    ```
 
-Sin embargo, por motivos de seguridad y administración, recomendamos utilizar un servidor Web dedicado como punto de entrada principal para el tráfico HTTP cuando el equipo que ejecuta Adobe Campaign esté expuesto en Internet y desee abrir el acceso a la consola fuera de la red.
+Sin embargo, por razones de seguridad y administración, recomendamos utilizar un servidor Web dedicado como punto de entrada principal para el tráfico HTTP cuando el equipo que ejecuta Adobe Campaign se expone en Internet y desea abrir el acceso a la consola fuera de la red.
 
 Un servidor Web también permite garantizar la confidencialidad de los datos con el protocolo HTTP.
 
@@ -43,7 +43,7 @@ Del mismo modo, debe utilizar un servidor Web cuando desee utilizar la funcional
 
 >[!NOTE]
 >
->Si no utiliza la funcionalidad de seguimiento, puede realizar una instalación estándar de Apache o IIS con una redirección a Campaign. No se requiere el módulo de extensión del servidor Web de seguimiento.
+>Si no utiliza la funcionalidad de seguimiento, puede realizar una instalación estándar de Apache o IIS con una redirección a la Campaña. No se requiere el módulo de extensión del servidor Web de seguimiento.
 
 ## Configuración del servidor Web Apache con Debian {#configuring-the-apache-web-server-with-debian}
 
@@ -83,7 +83,7 @@ Siga estos pasos:
     a2enmod nlsrv
    ```
 
-   Si utiliza el módulo **mod_rewrite** para las páginas de Adobe Campaign, debe cambiar el nombre de los archivos **nlsrv.load** y **nlsrv.conf** a **zz-nlsrv.load** y **zz-nlsrv.conf**. Para activar el módulo, ejecute el siguiente comando:
+   Si está utilizando el módulo **mod_rewrite** para páginas de Adobe Campaign, debe cambiar el nombre de los archivos **nlsrv.load** y **nlsrv.conf** a **zz-nlsrv.load** y **zz-nlsrv.conf**. Para activar el módulo, ejecute el siguiente comando:
 
    ```
    a2enmod zz-nlsrv
@@ -99,7 +99,7 @@ Siga estos pasos:
 
    Guarde los cambios.
 
-1. A continuación, agregue usuarios de Adobe Campaign al grupo de usuarios Apache y viceversa mediante el siguiente tipo de comando:
+1. A continuación, agregue usuarios de Adobe Campaign al grupo de usuarios Apache y viceversa utilizando el siguiente tipo de comando:
 
    ```
    usermod neolane -G www-data
@@ -157,7 +157,7 @@ Siga estos pasos:
    ForceLanguagePriority
    ```
 
-1. Cree un archivo de configuración específico de Adobe Campaign en la `/etc/httpd/conf.d/` carpeta. Por ejemplo:`CampaignApache.conf`
+1. Cree un archivo de configuración específico de Adobe Campaign en la `/etc/httpd/conf.d/` carpeta. Por ejemplo `CampaignApache.conf`
 
 1. Para **RHEL7**, agregue las siguientes instrucciones en el archivo:
 
@@ -168,7 +168,7 @@ Siga estos pasos:
 
 1. Para **RHEL7**:
 
-   Agregue el `/etc/systemd/system/httpd.service` archivo con el siguiente contenido:
+   Añada el `/etc/systemd/system/httpd.service` archivo con el siguiente contenido:
 
    ```
    .include /usr/lib/systemd/system/httpd.service
@@ -183,7 +183,7 @@ Siga estos pasos:
    systemctl daemon-reload
    ```
 
-1. A continuación, agregue los operadores de Adobe Campaign al grupo de operadores Apache y viceversa, ejecutando el comando:
+1. A continuación, agregue operadores de Adobe Campaign al grupo de operadores Apache y viceversa, ejecutando el comando:
 
    ```
    usermod -a -G neolane apache
@@ -192,7 +192,7 @@ Siga estos pasos:
 
    Los nombres de grupo que se van a utilizar dependen de la forma en que se configure Apache.
 
-1. Ejecute Apache y el servidor de Adobe Campaign.
+1. Ejecute Apache y el servidor Adobe Campaign.
 
    Para RHEL7:
 
@@ -203,7 +203,7 @@ Siga estos pasos:
 
 ## Inicio del servidor Web y prueba de la configuración{#launching-the-web-server-and-testing-the-configuration}
 
-Ahora puede probar la configuración iniciando Apache. El módulo Adobe Campaign debería mostrar ahora su pancarta en la consola (dos pancartas en determinados sistemas operativos):
+Ahora puede probar la configuración iniciando Apache. El módulo Adobe Campaign debería mostrar ahora su pancarta en la consola (dos banners en determinados sistemas operativos):
 
 ```
  /etc/init.d/apache start
@@ -234,19 +234,19 @@ Debe obtener:
 Trying 127.0.0.1...
 Connected to localhost.localdomain.
 Escape character is '^]'.
-````
+```
 
 A continuación, introduzca:
 
 ```
 GET /r/test
-````
+```
 
 Se muestra la siguiente información:
 
 ```
 <redir status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='' localHost='XXXX'/>
 Connection closed by foreign host.
-````
+```
 
 También puede solicitar la dirección URL [`https://<computer>`](https://machine/r/test) desde un explorador Web.
