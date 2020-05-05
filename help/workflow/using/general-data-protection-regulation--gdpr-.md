@@ -14,7 +14,7 @@ discoiquuid: 050c804e-87b7-4d68-b787-c396fec329d2
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aa941e4f8803f65ce9d5f7567206b1fcc20a6dc6
 
 ---
@@ -22,34 +22,29 @@ source-git-commit: aa941e4f8803f65ce9d5f7567206b1fcc20a6dc6
 
 # Reglamento de protección de datos de privacidad{#general-data-protection-regulation-gdpr}
 
-The workflows detailed below are installed with the **Privacy Data Protection Regulation** module by default. For more on this module, refer to this [article](https://helpx.adobe.com/campaign/kb/acc-privacy.html).
+Los flujos de trabajo detallados a continuación se instalan con el módulo **Reglamento general de protección de datos** de forma predeterminada. Para obtener más información sobre este módulo, consulte este [artículo](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html).
 
 <table> 
  <tbody> 
   <tr> 
    <td> <strong>Etiqueta</strong><br /> </td> 
-   <td> <strong>Nombre
-								 interno</strong><br /> </td> 
+   <td> <strong>Nombre interno</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Recopilar solicitudes</span> de privacidad <br /> </td> 
+   <td> <span class="uicontrol">Recopilar solicitudes de privacidad</span><br /> </td> 
    <td> <span class="uicontrol">collectPrivacyRequests</span><br /> </td> 
-   <td> Este flujo de trabajo genera los datos del destinatario
-								almacenados en Adobe Campaign y lo hace disponibles para su descarga
-							en la pantalla de la solicitud de privacidad.<br /> </td> 
+   <td> Este flujo de trabajo genera los datos del destinatario almacenados en Adobe Campaign y lo hace disponibles para su descarga en la pantalla de la solicitud de privacidad.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Eliminar datos</span> de solicitudes de privacidad <br /> </td> 
+   <td> <span class="uicontrol">Eliminar datos de solicitudes de privacidad</span><br /> </td> 
    <td> <span class="uicontrol">deletePrivacyRequestsData</span><br /> </td> 
-   <td> Este flujo de trabajo elimina los datos del destinatario
-								almacenados en Adobe Campaign.<br /> </td> 
+   <td> Este flujo de trabajo elimina los datos del destinatario almacenados en Adobe Campaign.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Limpieza</span> de solicitud de privacidad <br /> </td> 
-   <td> <span class="uicontrol">clearPrivacyRequests</span><br /> </td> 
-   <td> Este flujo de trabajo borra los archivos de solicitud
-								de acceso anteriores a 90 días.<br /> </td> 
+   <td> <span class="uicontrol">Limpieza de solicitud de privacidad</span> <br /> </td> 
+   <td> <span class="uicontrol">cleanupPrivacyRequests</span><br /> </td> 
+   <td> Este flujo de trabajo borra los archivos de solicitud de acceso anteriores a 90 días.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
