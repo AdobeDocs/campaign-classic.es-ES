@@ -1,7 +1,7 @@
 ---
-title: Preguntas más frecuentes sobre el diseño de mensajes
+title: Preguntas frecuentes sobre el diseño de mensajes
 seo-title: Preguntas comunes al diseñar mensajes
-description: Preguntas más frecuentes sobre Campaign Classic
+description: Preguntas frecuentes sobre Campaign Classic
 page-status-flag: never-activated
 uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1
 contentOwner: sauviat
@@ -13,43 +13,43 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2ca8fb051dce9abfcb8987c4d4527d997b480f96
 
 ---
 
 
-# Preguntas más frecuentes sobre el diseño de mensajes {#design-messages-faq}
+# Preguntas frecuentes sobre el diseño de mensajes {#design-messages-faq}
 
 Descubra los pasos clave para diseñar mensajes omnicanal con Adobe Campaign.
 
-## Are there specific guidelines when designing emails with Campaign? {#are-there-specific-guidelines-when-designing-emails-with-campaign-}
+## ¿Existen directrices específicas al diseñar correos electrónicos con Campaign?{#are-there-specific-guidelines-when-designing-emails-with-campaign-}
 
 Antes de empezar a diseñar correos electrónicos, conozca los conceptos y las prácticas recomendadas relacionadas con el diseño de la entrega y envío con Adobe Campaign.
 
-[Haga clic aquí para obtener más información](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html).
+[Haga clic aquí para obtener más información](https://helpx.adobe.com/es/campaign/kb/delivery-best-practices.html).
 
-## What is a delivery template? {#what-is-a-delivery-template-}
+## ¿Qué es una plantilla de envíos?{#what-is-a-delivery-template-}
 
 La configuración y los parámetros de entrega se pueden guardar en una plantilla de envíos para ser reutilizados.
 
 Haga clic aquí para obtener más información.
 
-## Can I easily import an existing HTML to create an email in Campaign? {#can-i-easily-import-an-existing-html-to-create-an-email-in-campaign-}
+## ¿Puedo importar fácilmente un HTML existente para crear un correo electrónico en Campaign?{#can-i-easily-import-an-existing-html-to-create-an-email-in-campaign-}
 
 Descubra cómo importar un HTML existente para crear y enviar correos electrónicos en Adobe Campaign en un solo clic.
 
 [Haga clic aquí para obtener más información](../../delivery/using/defining-the-email-content.md#message-content).
 
-## How to use Campaign DCE to create an email content? {#how-to-use-campaign-dce-to-create-an-email-content-}
+## ¿Cómo se utiliza el DCE de Campaign para crear un contenido de correo electrónico?{#how-to-use-campaign-dce-to-create-an-email-content-}
 
 [Diseñar un mensaje de correo electrónico con el editor de contenido digital de Campaign](../../web/using/use-case--creating-an-email-delivery.md): Aprenda a utilizar el DCE de Campaign para diseñar un correo electrónico a través de un ejemplo.
 
-## How can I create a subscription-based newsletter in Campaign? {#how-can-i-create-a-subscription-based-newsletter-in-campaign-}
+## ¿Cómo puedo crear un boletín basado en suscripción en Campaign?{#how-can-i-create-a-subscription-based-newsletter-in-campaign-}
 
 [Crear un servicio de boletín informativo](../../delivery/using/managing-subscriptions.md): Pasos clave para crear un boletín informativo y gestionar suscripciones.
 
-## How can I personalize messages? {#how-can-i-personalize-messages-}
+## ¿Cómo puedo personalizar los mensajes?{#how-can-i-personalize-messages-}
 
 Los mensajes enviados por Adobe Campaign pueden personalizarse de varias formas diferentes, teniendo en consideración el contenido o el aspecto de los mensajes. Estas formas se pueden combinar de acuerdo con criterios tomados especialmente de los perfiles de destinatario. En general, Adobe Campaign le permite:
 
@@ -58,12 +58,12 @@ Los mensajes enviados por Adobe Campaign pueden personalizarse de varias formas 
 * Inserte bloques personalizados predefinidos o cree su propio bloque. [Haga clic aquí para obtener más información](../../delivery/using/personalization-blocks.md).
 * Cree contenido condicional. [Haga clic aquí para obtener más información](../../delivery/using/conditional-content.md) y lea [esta sección](../../delivery/using/conditional-content.md).
 
-## Can I send multilingual messages? {#can-i-send-multilingual-messages-}
+## ¿Puedo enviar mensajes multilingües?{#can-i-send-multilingual-messages-}
 
 Puede enviar mensajes multilingües a los destinatarios según sus preferencias o país.
 
 Para ello, puede localizar el contenido del mensaje y personalizar según el perfil del destinatario, utilizando [condiciones](../../delivery/using/conditional-content.md). También puede utilizar [flujos de trabajo](../../workflow/using/split.md) para seleccionar la versión del mensaje que se enviará según una prueba en el idioma preferido.
 
-## How can I localize a webform? {#how-can-i-localize-a-webform-}
+## ¿Cómo puedo localizar un formulario web?{#how-can-i-localize-a-webform-}
 
 Puede localizar una aplicación web en varios idiomas. El mecanismo de traducción se presenta en [esta sección](../../web/using/translating-a-web-form.md).
