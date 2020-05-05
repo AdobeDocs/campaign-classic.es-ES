@@ -14,7 +14,7 @@ discoiquuid: 36953eb5-3296-4796-9352-945121bbdc69
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
 
 ---
@@ -24,23 +24,23 @@ source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
 
 Los formularios web se pueden configurar y personalizar completamente para satisfacer sus necesidades. Los parámetros deben introducirse en la ventana de propiedades.
 
-The properties window is accessible via the **[!UICONTROL Properties]** button in the toolbar of the Web form. Esta ventana permite acceder a diversas configuraciones específicas del formulario web. Algunos ajustes pueden proceder de la configuración de la plantilla.
+Se puede acceder a la ventana de propiedades mediante el botón **[!UICONTROL Properties]** de la barra de herramientas del formulario web. Esta ventana permite acceder a diversas configuraciones específicas del formulario web. Algunos ajustes pueden proceder de la configuración de la plantilla.
 
 ![](assets/s_ncs_admin_survey_properties_general.png)
 
 ## Propiedades generales del formulario {#overall-form-properties}
 
-In the **[!UICONTROL General]** tab of the properties window, you can modify the **Label** of the form. Se recomienda no cambiar el **nombre interno**.
+En la pestaña **[!UICONTROL General]** de la ventana de propiedades, se puede modificar la **etiqueta** del formulario. Se recomienda no cambiar el **nombre interno**.
 
 ![](assets/s_ncs_admin_survey_properties_general_tab.png)
 
-La plantilla de formulario se elige durante la creación del formulario. No se puede cambiar más tarde. Para obtener más información sobre la creación y administración de plantillas de formulario, consulte [Uso de una plantilla](../../web/using/using-a-web-form-template.md)de formulario web.
+La plantilla de formulario se elige durante la creación del formulario. No se puede cambiar más tarde. Para obtener más información sobre la creación y administración de plantillas de formulario, consulte [Uso de una plantilla de formulario web](../../web/using/using-a-web-form-template.md).
 
 ## Almacenamiento de datos de formulario {#form-data-storage}
 
-Los campos de los formularios web se almacenan en la tabla de destinatarios de forma predeterminada. You can change the table used by selecting a new table from the **[!UICONTROL Document type]** field. The **[!UICONTROL Zoom]** icon lets you view the content of the selected table.
+Los campos de los formularios web se almacenan en la tabla de destinatarios de forma predeterminada. Puede cambiar la tabla utilizada seleccionando una nueva tabla del campo **[!UICONTROL Document type]**. El icono **[!UICONTROL Zoom]** le permite ver el contenido de la tabla seleccionada.
 
-De forma predeterminada, las respuestas se almacenan en la **[!UICONTROL Answer to a recipient form]** tabla.
+De forma predeterminada, las respuestas se almacenan en la tabla **[!UICONTROL Answer to a recipient form]**.
 
 ## Configuración de una página de error {#setting-up-an-error-page}
 
@@ -52,55 +52,55 @@ Muestra la siguiente información de forma predeterminada:
 
 ![](assets/s_ncs_admin_survey_default_error_page.png)
 
-The content of the strings displayed is defined in the **[!UICONTROL Error page]** tab of the properties window. The **[!UICONTROL HTML]** tab displays the rendering and the **[!UICONTROL Texts]** tab lets you modify the text strings and add some text if necessary:
+El contenido de las cadenas mostradas se define en la pestaña **[!UICONTROL Error page]** de la ventana de propiedades. La pestaña **[!UICONTROL HTML]** muestra la renderización y la pestaña **[!UICONTROL Texts]** permite modificar las cadenas de texto y añadir texto si es necesario:
 
 ![](assets/s_ncs_admin_survey_error_page.png)
 
 ## Localización del formulario {#form-localization}
 
-The **[!UICONTROL Localization]** tab lets you select the design and display languages for the Web form.
+La pestaña **[!UICONTROL Localization]** permite seleccionar los idiomas de diseño y visualización del formulario web.
 
-See [Translating a web form](../../web/using/translating-a-web-form.md).
+Consulte [Traducción de un formulario web](../../web/using/translating-a-web-form.md).
 
 ## Exploración y renderización de formularios {#form-browsing-and-rendering}
 
-The **[!UICONTROL Rendering]** tab lets you define the type of browsing between pages of the Web form and the rendering template used.
+La pestaña **[!UICONTROL Rendering]** permite definir el tipo de exploración entre las páginas del formulario web y la plantilla de renderización utilizada.
 
-Se puede escoger navegar mediante enlaces o botones.
+Se puede escoger navegar mediante vínculos o botones.
 
 ![](assets/s_ncs_admin_survey_wz_02_navig_type.png)
 
 Los botones son los elementos de navegación de forma predeterminada. Permiten realizar las siguientes acciones:
 
-* Approve the current page and display the next page by clicking **[!UICONTROL Next]**. Este botón se muestra en todas las páginas excepto en la última.
-* Display the previous page by clicking **[!UICONTROL Previous]**. Este botón se muestra en todas las páginas excepto en la primera.
-* Save the form responses by clicking the **[!UICONTROL Approve]** button. Este botón solo se muestra en la última página.
+* Apruebe la página actual y muestre la página siguiente haciendo clic en **[!UICONTROL Next]**. Este botón se muestra en todas las páginas excepto en la última.
+* Muestre la página anterior haciendo clic en **[!UICONTROL Previous]**. Este botón se muestra en todas las páginas excepto en la primera.
+* Guarde las respuestas del formulario haciendo clic en el botón **[!UICONTROL Approve]**. Este botón solo se muestra en la última página.
 
 Estos elementos se muestran en la parte inferior de cada página. Sus posiciones se pueden cambiar. Para ello, debe modificar la hoja de estilos.
 
 >[!NOTE]
 >
->It&#39;s possible to hide the **[!UICONTROL Previous]** button on some pages. To do this, go to the concerned page and check the **[!UICONTROL Disallow returning to the previous page]** option. Se puede acceder a esta opción cuando se seleccione la raíz del directorio de páginas.
+>Es posible ocultar el botón **[!UICONTROL Previous]** en algunas páginas. Para ello, vaya a la página correspondiente y marque la opción **[!UICONTROL Disallow returning to the previous page]**. Se puede acceder a esta opción cuando se seleccione la raíz del directorio de páginas.
 
-The **[!UICONTROL Template]** field of the **[!UICONTROL Rendering]** tab lets you select a theme from those available.
+El campo **[!UICONTROL Template]** de la pestaña **[!UICONTROL Rendering]** permite seleccionar un tema de los que se encuentran disponibles.
 
-Themes are saved in the **[!UICONTROL Administration>Configuration>Form rendering]** node of the tree. See [Selecting the form rendering template](../../web/using/form-rendering.md#selecting-the-form-rendering-template)
+Los temas se guardan en el nodo **[!UICONTROL Administration>Configuration>Form rendering]** del árbol. Consulte [Selección de la plantilla de renderización del formulario](../../web/using/form-rendering.md#selecting-the-form-rendering-template).
 
-En la parte inferior de la ventana de propiedades se muestra una renderización de muestra. The **[!UICONTROL Edit link]** icon lets you view the configuration for the selected theme.
+En la parte inferior de la ventana de propiedades se muestra una renderización de muestra. El icono **[!UICONTROL Edit link]** permite ver la configuración del tema seleccionado:
 
 ![](assets/s_ncs_admin_survey_properties_render.png)
 
 ## Textos en el formulario {#texts-in-the-form}
 
-The **[!UICONTROL Page]** tab lets you define the content of the form header and footer. See [Defining headers and footers](../../web/using/form-rendering.md#defining-headers-and-footers).
+La pestaña **[!UICONTROL Page]** permite definir el contenido del encabezado y del pie de página del formulario. Consulte [Definición de encabezados y pies de página](../../web/using/form-rendering.md#defining-headers-and-footers).
 
-También permite administrar las traducciones. See [Translating a web form](../../web/using/translating-a-web-form.md).
+También permite administrar las traducciones. Consulte [Traducción de un formulario web](../../web/using/translating-a-web-form.md).
 
 ## Accesibilidad del formulario {#accessibility-of-the-form}
 
-A Web form is accessible to users if it is **[!UICONTROL Online]** and if the current date is within its validity period. The status of the form is modified during the publication stage (see [Publishing a form](../../web/using/publishing-a-web-form.md#publishing-a-form)). The status is displayed in the **Project** section of the **[!UICONTROL General]** tab of the properties window.
+Los usuarios pueden acceder a un formulario web si está **[!UICONTROL Online]** y si la fecha actual se encuentra dentro de su periodo de validez. El estado del formulario se modifica durante la fase de publicación (consulte [Publicación de un formulario](../../web/using/publishing-a-web-form.md#publishing-a-form)). El estado se muestra en la sección **Project** de la pestaña **[!UICONTROL General]** de la ventana de propiedades.
 
-El período de validez se ejecuta desde la **[!UICONTROL Start]** fecha hasta la **[!UICONTROL End date]**. Si no se especifica ninguna fecha en estos campos, el formulario tiene validez permanente.
+El periodo de validez se ejecuta desde la fecha **[!UICONTROL Start]** hasta **[!UICONTROL End date]**. Si no se especifica ninguna fecha en estos campos, el formulario tiene validez permanente.
 
 ![](assets/s_ncs_admin_survey_properties_date.png)
 
@@ -112,7 +112,7 @@ El período de validez se ejecuta desde la **[!UICONTROL Start]** fecha hasta la
 
 De forma predeterminada, el acceso a los formularios web se realiza en modo anónimo: todos los operadores que acceden al formulario tienen derechos de operador de WebApp.
 
-Puede activar el control de acceso para la visualización del formulario, por ejemplo, al enviar un formulario en un sitio de intranet para autenticar a los usuarios. To do this, display the **[!UICONTROL Properties]** window of the concerned form and click the **[!UICONTROL Enable access control]** option, as shown below:
+Puede activar el control de acceso para la visualización del formulario, por ejemplo, al enviar un formulario en un sitio de intranet para autenticar a los usuarios. Para ello, muestre la ventana **[!UICONTROL Properties]** del formulario correspondiente y haga clic en la opción **[!UICONTROL Enable access control]** como se muestra a continuación:
 
 ![](assets/s_ncs_admin_survey_access_ctrl.png)
 
@@ -122,7 +122,7 @@ Cuando se accede a la página, aparece el siguiente formulario de autenticación
 
 El inicio de sesión y la contraseña son los que utilizan los operadores de Adobe Campaign. Para obtener más información, consulte [esta sección](../../platform/using/access-management.md).
 
-The **[!UICONTROL Use a specific account]** option lets you limit the read or write permission of the operator who accesses the form. Utilice el cuadro desplegable para seleccionar un operador o un grupo de operadores que estén a cargo de la concesión de estos permisos.
+La opción **[!UICONTROL Use a specific account]** permite limitar el permiso de lectura o escritura del operador que accede al formulario. Utilice el cuadro desplegable para seleccionar un operador o un grupo de operadores que estén a cargo de la concesión de estos permisos.
 
 ![](assets/s_ncs_admin_survey_access_op_select.png)
 
@@ -139,7 +139,7 @@ Los siguientes parámetros están disponibles de forma predeterminada:
 * **id** para indicar el identificador encriptado.
 * **Divide** para cambiar el idioma de visualización.
 * **origin** para especificar el origen del encuestado.
-* **_uuid** permite la visualización de formularios antes de la publicación y el seguimiento de errores. Este parámetro es para uso interno (creación y depuración): cuando se accede al formulario web a través de esta dirección URL, los registros creados no se tienen en cuenta en el seguimiento (informes). The origin is forced to the **[!UICONTROL Adobe Campaign]** value.
+* **_uuid** permite la visualización de formularios antes de la publicación y el seguimiento de errores. Este parámetro es para uso interno (creación y depuración): cuando se accede al formulario web a través de esta dirección URL, los registros creados no se tienen en cuenta en el seguimiento (informes). Se fuerza el valor **[!UICONTROL Adobe Campaign]** en el origen.
 
    Se utiliza con los parámetros **_preview** o **_debug**:
 
@@ -149,15 +149,15 @@ Los siguientes parámetros están disponibles de forma predeterminada:
 
    >[!CAUTION]
    >
-   >When the form is displayed via a URL with the **_uuid** parameter, the value of the **[!UICONTROL origin]** parameter is forced to **Adobe Campaign**.
+   >Cuando el formulario se muestra a través de una dirección URL con el parámetro **_uuid**, se fuerza el valor **[!UICONTROL origin]** Adobe Campaign **en el parámetro**.
 
 ## Adición de parámetros {#adding-parameters}
 
-Parameters can be added via the **[!UICONTROL Parameters...]** tab in the Properties window of the form. Pueden hacerse obligatorios, como se muestra a continuación:
+ En la ventana Properties del formulario, se pueden añadir parámetros a través de la pestaña **[!UICONTROL Parameters...]**. Pueden hacerse obligatorios, como se muestra a continuación:
 
 ![](assets/s_ncs_admin_survey_properties_param.png)
 
-Debe especificar una ubicación de almacenamiento desde la que se recupera el valor del parámetro. To do this, select one of the storage options and then click the **[!UICONTROL Storage]** tab to select the field or the variable concerned. Las opciones de almacenamiento se detallan en los campos [de almacenamiento de](../../web/using/web-forms-answers.md#response-storage-fields)respuesta.
+Debe especificar una ubicación de almacenamiento desde la que se recupera el valor del parámetro. Para ello, seleccione una de las opciones de almacenamiento y haga clic en la pestaña **[!UICONTROL Storage]** para seleccionar el campo o la variable que desee. Las opciones de almacenamiento se detallan en los [campos de almacenamiento de respuestas](../../web/using/web-forms-answers.md#response-storage-fields).
 
 Después se puede añadir el estado del encuestado (0, 1 o cualquier otro valor) a la URL para acceder al formulario. Esta información se puede reutilizar en las páginas del formulario o en una casilla de prueba. Las páginas mostradas se pueden condicionar según el valor del contexto, como se muestra a continuación:
 
