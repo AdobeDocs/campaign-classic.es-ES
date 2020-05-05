@@ -14,7 +14,7 @@ discoiquuid: 2f66152b-4d4a-40b8-a1bb-5b97c5410882
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 14e67ca7f57d39e6939d6ff3479aa897674b18dc
 
 ---
@@ -54,19 +54,19 @@ Mientras que con el acceso web, las opciones permiten principalmente la visualiz
 
 ### Idiomas {#languages}
 
-El idioma se selecciona al instalar la instancia de Adobe Campaign Classic y no se puede cambiar posteriormente. For more information on how to create an instance, refer to this [page](../../installation/using/creating-an-instance-and-logging-on.md).
+El idioma se selecciona al instalar la instancia de Adobe Campaign Classic y no se puede cambiar posteriormente. Para obtener más información sobre cómo crear una instancia, consulte esta [página](../../installation/using/creating-an-instance-and-logging-on.md).
 
 ![](assets/language.png)
 
 Puede elegir entre cinco idiomas diferentes:
 
-* Inglés (Reino Unido)
+* Inglés (RU)
 * Inglés (EE. UU.)
 * Francés
 * Alemán
 * Japonés
 
-El idioma elegido para la instancia de Adobe Campaign Classic puede afectar a los formatos de fecha y hora. Para obtener más información, consulte [esta sección](../../platform/using/adobe-campaign-workspace.md#date-and-time).
+El idioma elegido para la instancia de Adobe Campaign Classic puede afectar los formatos de fecha y hora. Para obtener más información, consulte [esta sección](../../platform/using/adobe-campaign-workspace.md#date-and-time).
 
 ## Conceptos básicos de navegación {#navigation-basics}
 
@@ -78,9 +78,9 @@ Las distintas funcionalidades de la plataforma se dividen en funcionalidades pri
 
 La lista de funcionalidades principales a las que puede acceder depende de los paquetes y complementos instalados y de los derechos de acceso.
 
-Cada funcionalidad incluye un conjunto de funcionalidades basadas en las necesidades relacionadas con tareas y en el contexto de uso. Por ejemplo, el enlace **[!UICONTROL Profiles and targets]** le lleva a las listas de destinatarios, los servicios de suscripción, los flujos de trabajo de objetivos existentes y los accesos directos para crear estos elementos.
+Cada funcionalidad incluye un conjunto de funcionalidades basadas en las necesidades relacionadas con tareas y en el contexto de uso. Por ejemplo, el vínculo **[!UICONTROL Profiles and targets]** le lleva a las listas de destinatarios, los servicios de suscripción, los flujos de trabajo de objetivos existentes y los accesos directos para crear estos elementos.
 
-The lists are available via the **[!UICONTROL Lists]** link in the left-hand section of the **[!UICONTROL Profiles and Targets]** interface.
+Las listas están disponibles a través del vínculo **[!UICONTROL Lists]** en la sección izquierda de la interfaz **[!UICONTROL Profiles and Targets]**.
 
 ![](assets/recipient_list_overview.png)
 
@@ -96,11 +96,11 @@ The lists are available via the **[!UICONTROL Lists]** link in the left-hand sec
 
 ### Crear un elemento {#creating-an-element}
 
-Cada sección de la funcionalidad principal le permite navegar entre los elementos disponibles. Para ello, utilice los accesos directos de la sección **[!UICONTROL Browsing]** . El vínculo **[!UICONTROL Other choices]** le permite acceder a todas las demás páginas, independientemente del entorno.
+Cada sección de la funcionalidad principal le permite navegar entre los elementos disponibles. Para ello, utilice los accesos directos de la sección **[!UICONTROL Browsing]**. El vínculo **[!UICONTROL Other choices]** le permite acceder a todas las demás páginas, independientemente del entorno.
 
-Puede crear un nuevo elemento (envío, Aplicación web, flujo de trabajo, etc.) mediante los métodos abreviados de la sección de la izquierda de la pantalla **[!UICONTROL Create]** . Utilice el botón **[!UICONTROL Create]** situado encima de la lista para añadir nuevos elementos a la lista.
+Puede crear un nuevo elemento (envío, aplicación web, flujo de trabajo, etc.) mediante los accesos directos en la sección **[!UICONTROL Create]** que se encuentra a la izquierda de la pantalla. Utilice el botón **[!UICONTROL Create]** situado encima de la lista para añadir nuevos elementos a la lista.
 
-Por ejemplo, en la página de entrega, utilice el botón **[!UICONTROL Create]** para crear un nuevo envío.
+Por ejemplo, en la página de entrega, utilice el botón **[!UICONTROL Create]** para crear una nueva entrega.
 
 ![](assets/d_ncs_user_interface_tab_add_del.png)
 
@@ -110,7 +110,7 @@ Por ejemplo, en la página de entrega, utilice el botón **[!UICONTROL Create]**
 
 Es posible acceder al explorador de Adobe Campaign mediante el icono de la barra de herramientas. Le permite acceder a todas las funcionalidades de Adobe Campaign, a las pantallas de configuración y a una vista más detallada de algunos de los elementos de la plataforma.
 
-The **[!UICONTROL Explorer]** workspace is divided into three zones:
+El espacio de trabajo de **[!UICONTROL Explorer]** se divide en tres zonas:
 
 ![](assets/s_ncs_user_navigation.png)
 
@@ -138,9 +138,9 @@ Para examinar una lista, puede utilizar **las barras de desplazamiento** (horizo
 
 >[!NOTE]
 >
->Configuration and personalization of list content are presented in [Configuring lists](#configuring-lists).
+>La configuración y personalización del contenido de la lista se presentan en [Configuración de listas](#configuring-lists).
 >
->También puede ordenar y filtrar datos. Consulte [Opciones](../../platform/using/filtering-options.md)de filtrado.
+>También puede ordenar y filtrar datos. Consulte las [Opciones de filtrado](../../platform/using/filtering-options.md).
 
 ### Conteo de registros {#counting-records}
 
@@ -183,7 +183,7 @@ Existen dos formas de añadir una columna en la lista.
 Puede añadir rápidamente una columna a una lista desde el detalle de un registro. Para ello:
 
 1. Desde una pantalla de detalles, haga clic con el botón derecho en el campo que desee mostrar en una columna.
-1. Select **[!UICONTROL Add in the list]**.
+1. Seleccione **[!UICONTROL Add in the list]**.
 
    La columna se añade a la derecha de las columnas existentes.
 
@@ -205,12 +205,12 @@ Otra forma de añadir columnas, por ejemplo, si desea mostrar datos que no se mu
    >
    >Las etiquetas se muestran por tabla y luego en orden alfabético.
    >
-   >Utilice el campo **Search** para realizar una búsqueda en los campos disponibles. Para obtener más información, consulte [Clasificación de una lista](#sorting-a-list).
+   >Utilice el campo **Search** para realizar una búsqueda en los campos disponibles. Para obtener más información, consulte [Ordenar una lista](#sorting-a-list).
    >
-   >Los campos se identifican mediante iconos específicos: Campos SQL, tablas vinculadas, campos calculados, etc. Para cada campo seleccionado, la descripción se muestra bajo la lista de campos disponibles.
+   >Los campos se identifican mediante iconos específicos: Campos SQL, tablas vinculadas, campos calculados, etc. La descripción de cada campo seleccionado se muestra en la lista de campos disponibles.
    [Configuración de listas](#configuring-lists).
    >
-   >También puede ordenar y filtrar datos. Consulte [Opciones](../../platform/using/filtering-options.md)de filtrado.
+   >También puede ordenar y filtrar datos. Consulte las [Opciones de filtrado](../../platform/using/filtering-options.md).
 
 1. Repita el proceso para cada columna que desee visualizar.
 1. Utilice las flechas para modificar el **orden de visualización**. La columna más alta estará a la izquierda en la lista de registros.
@@ -227,7 +227,7 @@ Otra forma de añadir columnas, por ejemplo, si desea mostrar datos que no se mu
 
 Puede crear nuevas columnas para mostrar campos adicionales en la lista. Para ello:
 
-1. Click **[!UICONTROL Configure the list]** at below and to the right of the list.
+1. Haga clic en **[!UICONTROL Configure the list]** en la parte inferior derecha de la lista.
 1. Haga clic en **[!UICONTROL Add]** para mostrar un nuevo campo en la lista.
 
 #### Eliminar una columna {#remove-a-column}
@@ -265,21 +265,21 @@ De forma predeterminada, los parámetros de visualización definidos se aplican 
 
 No obstante, es posible guardar más de una configuración para aplicarla a distintas carpetas del mismo tipo. La configuración se guarda con las propiedades de la carpeta que contienen los datos y se puede volver a aplicar.
 
-Por ejemplo, para una carpeta de envío es posible configurar la siguiente visualización:
+Por ejemplo, para una carpeta de entrega es posible configurar la siguiente visualización:
 
 ![](assets/s_ncs_user_folder_save_config_1.png)
 
 Para guardar esta configuración de lista de forma que pueda reutilizarse, siga estos pasos:
 
 1. Haga clic con el botón derecho en la carpeta que contiene los datos mostrados.
-1. Select **[!UICONTROL Properties]**.
-1. Click **[!UICONTROL Advanced settings]** and then specify a name in the **[!UICONTROL Configuration]** field.
+1. Seleccione **[!UICONTROL Properties]**.
+1. Haga clic en **[!UICONTROL Advanced settings]** y, a continuación, especifique un nombre en el campo **[!UICONTROL Configuration]**.
 
    ![](assets/s_ncs_user_folder_save_config_2.png)
 
-1. Haga clic en **[!UICONTROL OK]** y, a continuación, en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL OK]** y luego en **[!UICONTROL Save]**.
 
-A continuación, puede aplicar esta configuración a otra carpeta de **Envío**:
+A continuación, puede aplicar esta configuración a otra carpeta de **entrega**:
 
 ![](assets/s_ncs_user_folder_save_config_3.png)
 
@@ -291,7 +291,7 @@ Haga clic en **[!UICONTROL Save]** en la ventana de propiedades de la carpeta. L
 
 Para exportar datos de una lista, debe utilizar un asistente para exportar. Para acceder a él, seleccione los elementos que desea exportar de la lista, haga clic con el botón derecho del ratón y seleccione **[!UICONTROL Export...]**.
 
-El uso de las funciones de importación y exportación se explica en las importaciones y exportaciones [](../../platform/using/generic-imports-and-exports.md)genéricas.
+El uso de las funciones de importación y exportación se explica en [Importaciones y exportaciones genéricas](../../platform/using/generic-imports-and-exports.md).
 
 >[!CAUTION]
 >
@@ -305,11 +305,11 @@ Haga clic en el encabezado de la columna para aplicar un orden ascendente o desc
 
 También puede configurar la ordenación o combinar criterios de clasificación. Para realizar esto, siga los pasos a continuación:
 
-1. **[!UICONTROL Configure list]** y a la derecha de la lista.
+1. Haga clic en **[!UICONTROL Configure list]** en la parte inferior derecha de la lista.
 
    ![](assets/s_ncs_user_configure_list.png)
 
-1. En la ventana de configuración de la lista, haga clic en la pestaña **[!UICONTROL Sorting]** .
+1. En la ventana de configuración de la lista, haga clic en la pestaña **[!UICONTROL Sorting]**.
 1. Seleccione los campos que desea ordenar y la dirección de clasificación (ascendente o descendente).
 
    ![](assets/s_ncs_user_configurelist_sort.png)
@@ -345,7 +345,7 @@ Las principales diferencias entre el inglés de EE. UU. y el inglés de Reino U
   <tr> 
    <th> Formato<br /> </th> 
    <th> Inglés (EE. UU.)<br /> </th> 
-   <th> Inglés (RU)<br /> </th> 
+   <th> Inglés (EN)<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -373,20 +373,20 @@ Utilizando los campos de entrada con una lista desplegable, puede introducir un 
 
 ![](assets/s_ncs_user_wizard_email_bat_substitute_email.png)
 
-Si hace clic en **[!UICONTROL Yes]**, este valor estará disponible en el cuadro combinado del campo correspondiente (en este caso: **[!UICONTROL London]**).
+Si hace clic en **[!UICONTROL Yes]**, este valor va a estar disponible en el cuadro combinado del campo correspondiente (en este caso **[!UICONTROL London]**).
 
 >[!NOTE]
 >
->El administrador gestiona las enumeraciones (también conocidas como “listas desglosadas”) mediante la sección **[!UICONTROL Administration > Platform > Enumerations]**. For more on this, refer to [Managing enumerations](../../platform/using/managing-enumerations.md).
+>El administrador gestiona las enumeraciones (también conocidas como “listas desglosadas”) mediante la sección **[!UICONTROL Administration > Platform > Enumerations]** Para obtener más información, consulte [Administración de enumeraciones](../../platform/using/managing-enumerations.md).
 
 ### Unidades predeterminadas {#default-units}
 
 En los campos que expresan una duración (por ejemplo, un periodo de validez de los recursos de una entrega, un plazo de aprobación para una tarea, etc.), el valor se puede expresar en las siguientes **unidades**:
 
-* **[!UICONTROL s]** durante segundos,
-* **[!UICONTROL mn]** durante minutos,
-* **[!UICONTROL h]** durante horas,
-* **[!UICONTROL d]** durante días.
+* **[!UICONTROL s]** para segundos,
+* **[!UICONTROL mn]** para minutos,
+* **[!UICONTROL h]** para horas,
+* **[!UICONTROL d]** para días.
 
 ![](assets/enter_unit_sample.png)
 
