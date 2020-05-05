@@ -14,7 +14,7 @@ discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 18309c190c351cc57f7af24f48b2a772c1840319
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 18309c190c351cc57f7af24f48b2a772c1840319
 
 # Informes globales {#global-reports}
 
-Estos informes hacen referencia a la actividad de los datos de toda la base de datos. To view the reports dashboard, go to the **[!UICONTROL Reports]** tab.
+Estos informes hacen referencia a la actividad de los datos de toda la base de datos. Para ver el tablero de informes, vaya a la pestaña **[!UICONTROL Reports]**.
 
 ![](assets/s_ncs_user_report_delivery_link.png)
 
@@ -32,29 +32,29 @@ Para mostrar los informes, haga clic en el nombre de cada uno. Los siguientes in
 
 >[!NOTE]
 >
->Esta sección muestra solamente los informes vinculados a los envíos.
+>Esta sección muestra solamente los informes vinculados a las entregas.
 
-* **[!UICONTROL Delivery throughput]** :: consulte Rendimiento [de envío](#delivery-throughput).
-* **[!UICONTROL Browsers]** :: consulte [Exploradores](#browsers).
-* **[!UICONTROL Sharing to social networks]** :: consulte [Uso compartido en redes](#sharing-to-social-networks)sociales.
-* **[!UICONTROL Statistics on sharing activities]** :: consulte [Estadísticas sobre actividades](#statistics-on-sharing-activities)de uso compartido.
-* **[!UICONTROL Operating systems]** :: consulte Sistemas [operativos](#operating-systems).
-* **[!UICONTROL URLs and click streams]** :: consulte [Direcciones URL y flujos](../../reporting/using/delivery-reports.md#urls-and-click-streams)de clics.
-* **[!UICONTROL Tracking indicators]** :: consulte [Seguimiento de indicadores](../../reporting/using/delivery-reports.md#tracking-indicators).
-* **[!UICONTROL Non-deliverables and bounces]** :: consulte [No entregables y devoluciones](#non-deliverables-and-bounces).
-* **[!UICONTROL User activities]** :: consulte Actividades [de usuario](#user-activities).
-* **[!UICONTROL Subscription tracking]** :: consulte Seguimiento [de suscripciones](#subscription-tracking).
-* **[!UICONTROL Delivery summary]** :: consulte Resumen [de](../../reporting/using/delivery-reports.md#delivery-summary)envío.
-* **[!UICONTROL Delivery statistics]** :: consulte las estadísticas [de envío](#delivery-statistics).
-* **[!UICONTROL Breakdown of opens]** :: consulte [Desglose de aperturas](#breakdown-of-opens).
+* **[!UICONTROL Delivery throughput]**: consulte [Rendimiento de entrega](#delivery-throughput).
+* **[!UICONTROL Browsers]**: consulte [Navegadores](#browsers).
+* **[!UICONTROL Sharing to social networks]**: consulte [Uso compartido en redes sociales](#sharing-to-social-networks).
+* **[!UICONTROL Statistics on sharing activities]**: consulte [Estadísticas sobre actividades de uso compartido](#statistics-on-sharing-activities).
+* **[!UICONTROL Operating systems]**: consulte [Sistemas operativos](#operating-systems).
+* **[!UICONTROL URLs and click streams]**: consulte [Direcciones URL y flujos de clics](../../reporting/using/delivery-reports.md#urls-and-click-streams).
+* **[!UICONTROL Tracking indicators]**: consulte [Seguimiento de indicadores](../../reporting/using/delivery-reports.md#tracking-indicators).
+* **[!UICONTROL Non-deliverables and bounces]**: consulte [No entregables y devoluciones](#non-deliverables-and-bounces).
+* **[!UICONTROL User activities]**: consulte [Actividades de usuario](#user-activities).
+* **[!UICONTROL Subscription tracking]**: consulte [Seguimiento de suscripciones](#subscription-tracking).
+* **[!UICONTROL Delivery summary]**: consulte [Resumen de entregas](../../reporting/using/delivery-reports.md#delivery-summary).
+* **[!UICONTROL Delivery statistics]**: consulte las [Estadísticas de entrega](#delivery-statistics).
+* **[!UICONTROL Breakdown of opens]**: consulte [Desglose de aperturas](#breakdown-of-opens).
 
-## Rendimiento de envío {#delivery-throughput}
+## Rendimiento de entrega {#delivery-throughput}
 
-Este informe contiene información sobre el rendimiento de envío de toda la plataforma durante un periodo determinado. Para medir la velocidad a la que se envían los mensajes, los criterios son la cantidad de mensajes enviados por hora y el tamaño de los mensajes (en bits por segundo). En el siguiente ejemplo, el primer gráfico muestra los envíos correctos en azul y la cantidad de envíos incorrectos en naranja.
+Este informe contiene información sobre el rendimiento de entrega de toda la plataforma durante un periodo determinado. Para medir la velocidad a la que se envían los mensajes, los criterios son la cantidad de mensajes enviados por hora y el tamaño de los mensajes (en bits por segundo). En el siguiente ejemplo, el primer gráfico muestra las entregas correctas en azul y la cantidad de entregas incorrectas en naranja.
 
 ![](assets/s_ncs_user_report_toolbar.png)
 
-Puede configurar los valores mostrados cambiando la escala temporal: Vista de 1 hora, vista de 3 horas, vista de 24 horas, etc. Haga clic en **[!UICONTROL Refresh]** para confirmar la selección.
+Se pueden configurar los valores que se muestran cambiando la escala temporal: vista de 1 hora, de 3 horas, de 24 horas, etc. Haga clic en **[!UICONTROL Refresh]** para confirmar la selección.
 
 ## Actividades del usuario {#user-activities}
 
@@ -64,7 +64,7 @@ Este informe muestra el desglose de aperturas, clics y transacciones por media h
 
 Estas son las opciones disponibles:
 
-* **[!UICONTROL Opens]** : Número total de mensajes abiertos. No se tienen en cuenta los correos electrónicos en formato de texto. For more information on tracking opens, refer to [Tracking opens](../../reporting/using/indicator-calculation.md#tracking-opens-).
+* **[!UICONTROL Opens]**: Cantidad total de mensajes abiertos. No se tienen en cuenta los correos electrónicos en formato de texto. Para obtener más información sobre el seguimiento de las aperturas, consulte [Seguimiento de aperturas](../../reporting/using/indicator-calculation.md#tracking-opens-).
 * **[!UICONTROL Clicks]** : Número total de clics en los vínculos de los envíos. No se tienen en cuenta los clics en los vínculos de baja de suscripción ni en las páginas espejo.
 * **[!UICONTROL Transactions]** : Número total de transacciones después de recibir un mensaje. Para que se pueda tener en cuenta una transacción, debe insertarse una etiqueta de seguimiento web de tipo de transacción en la página web correspondiente. La configuración de seguimiento web se muestra en [esta sección](../../configuration/using/about-web-tracking.md).
 
@@ -72,7 +72,7 @@ Estas son las opciones disponibles:
 
 Este informe muestra el desglose de no entregables, así como un desglose de rechazos por dominio de Internet.
 
-The **[!UICONTROL Number of messages processed]** represents the total number of messages processed by the delivery server. Este valor es inferior al número de mensajes que se desea enviar cuando se han detenido o pausado algunos envíos (antes de que el servidor los procese).
+**[!UICONTROL Number of messages processed]** representa el número total de mensajes procesados por el servidor de entrega. Este valor es inferior al número de mensajes que se desea enviar cuando se han detenido o pausado algunas entregas (antes de que el servidor los procese).
 
 ![](assets/s_ncs_user_errors_report.png)
 
@@ -97,14 +97,14 @@ Se utilizan los siguientes indicadores:
 * **[!UICONTROL Inbox full]** : Tipo de error generado después de cinco intentos de envío para indicar que la bandeja de entrada de los destinatarios contiene demasiados mensajes.
 * **[!UICONTROL Account disabled]** : Tipo de error generado al realizar un envío para indicar que la dirección ya no existe.
 * **[!UICONTROL Rejected]** : Tipo de error generado cuando el IAP (Proveedor de acceso a Internet) rechaza una dirección, por ejemplo, al aplicar una regla de seguridad (software contra correo no deseado).
-* **[!UICONTROL Unreachable]** :: Tipo de error que se produce en la cadena de distribución de mensajes: incidente en el relé SMTP, dominio temporalmente inaccesible, etc.
+* **[!UICONTROL Unreachable]** : Tipo de error que se produce en la cadena de distribución de mensajes: incidente en la retransmisión SMTP, dominio temporalmente inaccesible, etc.
 * **[!UICONTROL Not connected]** : Tipo de error que indica que el teléfono móvil de los destinatarios está apagado o desconectado de la red en el momento del envío.
 
    >[!NOTE]
    >
-   >Este indicador solo incluye los envíos de canales móviles. Para obtener más información, consulte [esta sección](../../delivery/using/sms-channel.md).
+   >Este indicador solo incluye las entregas de canales móviles. Para obtener más información, consulte [esta sección](../../delivery/using/sms-channel.md).
 
-   You can open up each line of the value table by clicking the `[+]` symbol. Para cada tipo de error, se puede mostrar el desglose de mensajes de error por dominio.
+   Se pueden abrir todas las líneas de la tabla de valores haciendo clic en el símbolo `[+]`. Para cada tipo de error, se puede mostrar el desglose de mensajes de error por dominio.
 
    ![](assets/s_ncs_user_errors_report_detail.png)
 
@@ -118,21 +118,21 @@ Para cada nombre de dominio, se muestra:
 * el porcentaje de mensajes con errores para este dominio comparado con el número total de mensajes procesados para este dominio,
 * el porcentaje de mensajes de error para este dominio comparado con el número total de mensajes de error.
 
-You can open up each line of the value table by clicking the [+] symbol. Para cada tipo de dominio, se puede mostrar el desglose de mensajes de error por tipo de error.
+Se pueden abrir todas las líneas de la tabla de valores haciendo clic en el símbolo [+]. Para cada tipo de dominio, se puede mostrar el desglose de mensajes de error por tipo de error.
 
 ![](assets/s_ncs_user_errors_report_detail2.png)
 
 >[!NOTE]
 >
->Los nombres de dominio mostrados en este informe se definen al nivel de cubo. Para cambiar estos valores, edite el **[!UICONTROL Delivery logs (broadlogrcp)]** cubo. Para obtener más información, consulte [esta sección](../../reporting/using/about-cubes.md). The **[!UICONTROL Others]** category includes domain names that don&#39;t belong to a specific class.
+>Los nombres de dominio mostrados en este informe se definen al nivel de cubo. Para cambiar estos valores, edite el cubo **[!UICONTROL Delivery logs (broadlogrcp)]**. Para obtener más información, consulte [esta sección](../../reporting/using/about-cubes.md). La categoría **[!UICONTROL Others]** incluye nombres de dominio que no pertenecen a una clase específica.
 
 ## Navegadores {#browsers}
 
-Este informe muestra el desglose de los navegadores de Internet que utilizan los destinatarios del envío durante el periodo correspondiente.
+Este informe muestra el desglose de los navegadores de Internet que utilizan los destinatarios de la entrega durante el periodo correspondiente.
 
 >[!NOTE]
 >
->Los valores que se muestran en este informe son estimaciones: solo se tienen en cuenta los destinatarios que han hecho clic en un envío.
+>Los valores que se muestran en este informe son estimaciones: solo se tienen en cuenta los destinatarios que han hecho clic en una entrega.
 
 **Estadísticas globales**
 
@@ -154,9 +154,9 @@ En la tabla de valores de estadísticas globales, se puede hacer clic en el nomb
 
 Las estadísticas se presentan en forma de una curva, un gráfico y una tabla de valores.
 
-The **[!UICONTROL History]** curve represents the attendance rate of this browser per day. La tasa es la relación entre la cantidad de visitantes por día (en este navegador) comparada con el número de visitantes medidos en el día con la tasa de asistencia más alta.
+La curva **[!UICONTROL History]** representa la tasa de asistencia de este explorador por día. La tasa es la relación entre la cantidad de visitantes por día (en este navegador) comparada con el número de visitantes medidos en el día con la tasa de asistencia más alta.
 
-The **[!UICONTROL Breakdown per version]** chart represents the breakdown of visitors per version compared to the total number of visitors (on this browser).
+El gráfico **[!UICONTROL Breakdown per version]** representa el desglose de visitantes por versión comparado con la cantidad total de visitantes (en este explorador).
 
 La tabla de valores utiliza los indicadores siguientes:
 
@@ -165,7 +165,7 @@ La tabla de valores utiliza los indicadores siguientes:
 
 ### Difusión en redes sociales {#sharing-to-social-networks}
 
-El marketing viral permite que los destinatarios de los envíos compartan información con sus redes de contactos: pueden añadir un vínculo a su perfil (Facebook, Twitter, etc.) o enviar un mensaje a un amigo. Cada difusión y cada acceso a la información compartida se rastrea dentro del envío. Para obtener más información sobre marketing viral, consulte [esta sección](../../delivery/using/viral-and-social-marketing.md).
+El marketing viral permite que los destinatarios de las entregas compartan información con sus redes de contactos: pueden añadir un vínculo a su perfil (Facebook, Twitter, etc.) o enviar un mensaje a un amigo. Cada difusión y cada acceso a la información compartida se rastrea dentro de la entrega. Para obtener más información sobre marketing viral, consulte [esta sección](../../delivery/using/viral-and-social-marketing.md).
 
 Este informe muestra el desglose de mensajes compartidos y abiertos por red social (Facebook, Twitter, etc.) y por correo electrónico.
 
@@ -173,7 +173,7 @@ Este informe muestra el desglose de mensajes compartidos y abiertos por red soci
 
 **[!UICONTROL Email delivery statistics]**
 
-En las estadísticas de envío de correo electrónico se muestran dos valores:
+En las estadísticas de entrega de correo electrónico se muestran dos valores:
 
 * **[!UICONTROL Number of messages to be delivered]** : Número total de mensajes procesados durante el análisis de envío.
 * **[!UICONTROL Number of successful deliveries]** : Número de mensajes procesados correctamente.
@@ -182,15 +182,15 @@ En las estadísticas de envío de correo electrónico se muestran dos valores:
 
 La tabla central muestra las estadísticas de correos electrónicos compartidos y abiertos.
 
-In the **[!UICONTROL Shares]** column, we have the following indicators:
+En la columna **[!UICONTROL Shares]**, se muestran los siguientes indicadores:
 
-* **[!UICONTROL No. of sharing activities]** : Número total de mensajes compartidos en cada red social. This value equals the total number of clicks on the icon of the matching **[!UICONTROL Links for sharing to social networks]** personalization block.
+* **[!UICONTROL No. of sharing activities]** : Cantidad total de mensajes compartidos en cada red social. Este valor es igual al número total de clics en el icono del bloque personalizado correspondiente **[!UICONTROL Links for sharing to social networks]**.
 * **[!UICONTROL Breakdown]** : Esta tasa representa el desglose de difusiones por red social en relación con el número total de difusiones.
 * **[!UICONTROL Sharing rate]** : Esta tasa representa el desglose de difusiones por red social, en relación con el número de mensajes que se desea enviar.
 
-In the **[!UICONTROL Opens]** column, we have the following indicators:
+En la columna **[!UICONTROL Opens]**, se muestran los siguientes indicadores:
 
-* **[!UICONTROL No. of opens]** :: Número total de mensajes abiertos por personas a las que se reenvió el mensaje (mediante el bloque de **[!UICONTROL Links for sharing to social networks]** personalización). Este valor equivale al número de veces que se mostró la página espejo. No se tienen en cuenta las aperturas de los destinatarios del envío.
+* **[!UICONTROL No. of opens]** : Número total de mensajes que abrieron las personas a las que se ha reenviado el mensaje (a través del bloque personalizado **[!UICONTROL Links for sharing to social networks]**). Este valor equivale al número de veces que se mostró la página espejo. No se tienen en cuenta las aperturas de los destinatarios de la entrega.
 * **[!UICONTROL Breakdown]** : Esta tasa representa el desglose de las aperturas por red social en relación con el número total de aperturas.
 * **[!UICONTROL Rate of opens]** : Esta tasa representa el desglose de las aperturas por red social en relación con el número total de difusiones.
 
@@ -210,17 +210,17 @@ Las estadísticas se presentan en forma de una tabla de valores y de un gráfico
 
 Se utilizan los siguientes indicadores:
 
-* **[!UICONTROL New contacts]** : Número de nuevas suscripciones tras la recepción de un mensaje compartido por correo electrónico. This value matches the number of people who received a message shared via email, clicked the **[!UICONTROL Subscription link]** and filled in the subscription form.
-* **[!UICONTROL Opens]** :: Número total de mensajes abiertos por personas a las que se transfirió el mensaje (a través del bloque de **[!UICONTROL Link for sharing to social networks]** personalización). Este valor equivale al número de veces que se mostró la página espejo. No se tienen en cuenta las aperturas de los destinatarios del envío.
-* **[!UICONTROL Sharing activities]** : Número total de mensajes compartidos a través de redes sociales. This value matches the total number of clicks on the icon of the **[!UICONTROL Links for sharing to social networks]** personalization block.
+* **[!UICONTROL New contacts]** : Número de nuevas suscripciones tras la recepción de un mensaje compartido por correo electrónico. Este valor coincide con el número de personas que recibieron un mensaje compartido mediante correo electrónico, hicieron clic en **[!UICONTROL Subscription link]** y rellenaron el formulario de suscripción.
+* **[!UICONTROL Opens]** : Número total de mensajes que abrieron las personas a las que se transfirió el mensaje (mediante el bloque personalizado **[!UICONTROL Link for sharing to social networks]**). Este valor equivale al número de veces que se mostró la página espejo. No se tienen en cuenta las aperturas de los destinatarios de la entrega.
+* **[!UICONTROL Sharing activities]** : Número total de mensajes compartidos a través de redes sociales. Este valor coincide con el número total de clics en el icono del bloque personalizado **[!UICONTROL Links for sharing to social networks]**.
 
 ## Sistemas operativos {#operating-systems}
 
-Este informe muestra el desglose de los sistemas operativos utilizados los destinatarios del envío durante el periodo correspondiente.
+Este informe muestra el desglose de los sistemas operativos utilizados los destinatarios de la entrega durante el periodo correspondiente.
 
 >[!NOTE]
 >
->Los valores que se muestran en este informe son estimaciones: solo se tienen en cuenta los destinatarios que han hecho clic en un envío.
+>Los valores que se muestran en este informe son estimaciones: solo se tienen en cuenta los destinatarios que han hecho clic en una entrega.
 
 **Estadísticas globales**
 
@@ -242,9 +242,9 @@ En la tabla de valores de estadísticas globales, haga clic en el nombre de cada
 
 Las estadísticas se presentan en forma de una curva, un gráfico y una tabla de valores.
 
-The **[!UICONTROL History]** curve represents the rate of use of this operating system per day. Esta tasa es la relación entre el número de visitantes por día (en este sistema operativo) en relación con el número de visitantes medidos en el día con la mayor asistencia.
+La curva **[!UICONTROL History]** representa la tasa de uso de este sistema operativo por día. Esta tasa es la relación entre el número de visitantes por día (en este sistema operativo) en relación con el número de visitantes medidos en el día con la mayor asistencia.
 
-The **[!UICONTROL Breakdown by version]** chart represents the breakdown of visitors per version in relation to the total number of visitors on this operating system.
+El gráfico **[!UICONTROL Breakdown by version]** representa el desglose de visitantes por versión en relación con la cantidad total de visitantes en este sistema operativo.
 
 La tabla de valores utiliza los indicadores siguientes:
 
@@ -257,11 +257,11 @@ Este informe permite monitorizar las suscripciones a los servicios de informaci�
 
 ![](assets/s_ncs_user_services_report.png)
 
-It can be displayed for a subscription by clicking the **[!UICONTROL Profiles and targets > Services and subscriptions]** node of the home page or the explorer. Select the desired subscription, and then click the **[!UICONTROL Reports]** tab. El **[!UICONTROL Subscriptions tracking]** informe está disponible de forma predeterminada. Permite ver las tendencias de suscripción y de bajas de suscripción y la tasa de fidelidad durante un periodo. Se puede configurar la representación de estos datos a través de la lista desplegable. Click **[!UICONTROL Refresh]** to validate the selected configuration.
+Se puede visualizar para una suscripción haciendo clic en el nodo **[!UICONTROL Profiles and targets > Services and subscriptions]** de la página principal o del explorador. Seleccione la suscripción deseada y, a continuación, haga clic en la pestaña **[!UICONTROL Reports]**. El informe **[!UICONTROL Subscriptions tracking]** está disponible de forma predeterminada. Permite ver las tendencias de suscripción y de bajas de suscripción y la tasa de fidelidad durante un periodo. Se puede configurar la representación de estos datos a través de la lista desplegable. Haga clic en **[!UICONTROL Refresh]** para validar la configuración seleccionada.
 
 Para obtener más información, consulte [esta página](../../delivery/using/managing-subscriptions.md).
 
-The **[!UICONTROL Number subscribed to date]** represents the total number of people currently subscribed.
+**[!UICONTROL Number subscribed to date]** representa el número total de personas suscritas actualmente.
 
 **[!UICONTROL Overall evolution of subscriptions]**
 
@@ -277,7 +277,7 @@ La tabla de valores utiliza los indicadores siguientes:
 
 Este gráfico muestra la evolución de las suscripciones y las bajas de suscripción durante el periodo correspondiente.
 
-## Estadísticas de envío {#delivery-statistics}
+## Estadísticas de entrega {#delivery-statistics}
 
 Este informe muestra el desglose por dominio de Internet, de todos los mensajes procesados y enviados, de los rechazos graves o leves, aperturas, clics y bajas de suscripción.
 
@@ -286,9 +286,9 @@ Este informe muestra el desglose por dominio de Internet, de todos los mensajes 
 Se utilizan los siguientes indicadores:
 
 * **[!UICONTROL Emails processed]** : Número total de mensajes que procesa el servidor de envío.
-* **[!UICONTROL Delivered]** :: porcentaje del número de mensajes procesados correctamente en comparación con el número total de mensajes procesados.
-* **[!UICONTROL Hard bounces]** :: porcentaje del número de devoluciones &quot;duras&quot; en comparación con el número total de mensajes procesados.
-* **[!UICONTROL Soft bounces]** :: porcentaje del número de devoluciones &quot;en blanco&quot; en comparación con el número total de mensajes procesados.
+* **[!UICONTROL Delivered]** : porcentaje del número de mensajes procesados correctamente comparado con el número total de mensajes procesados.
+* **[!UICONTROL Hard bounces]** : porcentaje del número de rechazos “graves” comparado con el número total de mensajes procesados.
+* **[!UICONTROL Soft bounces]** : porcentaje del número de rechazos “leves” comparado con el número total de mensajes procesados.
 
    >[!NOTE]
    >
@@ -296,13 +296,13 @@ Se utilizan los siguientes indicadores:
 
 * **[!UICONTROL Opens]** : porcentaje del número de destinatarios objetivo que abrieron un mensaje al menos una vez comparado con el número de mensajes procesados correctamente.
 * **[!UICONTROL Clicks]** : porcentaje del número de personas que hizo clic en un envío al menos una vez comparado con el número de mensajes procesados correctamente.
-* **[!UICONTROL Unsubscription]** :: porcentaje del número de clics en un vínculo de cancelación de suscripción en comparación con el número de mensajes procesados correctamente.
+* **[!UICONTROL Unsubscription]** : porcentaje del número de clics en un vínculo de baja de suscripción comparado con el número de mensajes procesados correctamente.
 
 ## Desglose de aperturas {#breakdown-of-opens}
 
 Este informe muestra el desglose de aperturas por sistema operativo, dispositivo y navegador durante el periodo correspondiente. Para cada categoría se utilizan dos gráficos. El primero muestra estadísticas relacionadas con las aperturas en un ordenador y en dispositivos móviles. El segundo muestra estadísticas relacionadas únicamente con las aperturas en dispositivos móviles.
 
-El número de aperturas corresponde al número total de mensajes abiertos. No se cuentan los correos electrónicos de formato de texto. For more information on Tracking opens, refer to the [Tracking opens](../../reporting/using/indicator-calculation.md#tracking-opens-) section.
+El número de aperturas corresponde al número total de mensajes abiertos. No se cuentan los correos electrónicos de formato de texto. Para obtener más información sobre el seguimiento de aperturas, consulte la sección [Seguimiento de aperturas](../../reporting/using/indicator-calculation.md#tracking-opens-).
 
 ![](assets/dlv_useragent_report.png)
 
