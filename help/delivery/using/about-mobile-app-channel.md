@@ -12,7 +12,7 @@ discoiquuid: 6b3fe8b9-dae6-4f8e-83e1-3376c0fe72a5
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
@@ -22,11 +22,11 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 >[!CAUTION]
 >
->Este documento detalla el proceso para integrar su aplicación móvil con la plataforma Adobe Campaign. No proporciona información sobre cómo crear la aplicación móvil o cómo configurarla para gestionar notificaciones. If you would like further information on this, refer to the official Apple [documentation](https://developer.apple.com/) and Android [documentation](https://developer.android.com/index.html).
+>Este documento detalla el proceso para integrar su aplicación móvil con la plataforma Adobe Campaign. No proporciona información sobre cómo crear la aplicación móvil o cómo configurarla para gestionar notificaciones. Si desea obtener más información, consulte la [documentación](https://developer.apple.com/) oficial de Apple y la [documentación](https://developer.android.com/index.html) de Android.
 
 Las secciones a continuación proporcionan información específica sobre el canal de aplicaciones móviles.
 
-For global information on how to create a delivery, refer to [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
+Para obtener más información sobre la creación de entregas, consulte [esta sección](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 El **Mobile App Channel** permite utilizar la plataforma de Adobe Campaign para enviar notificaciones personalizadas a los terminales iOS y Android a través de aplicaciones. Hay dos canales de envío disponibles:
 
@@ -48,16 +48,16 @@ En relación con esos dos canales hay dos actividades de envío en los flujos de
 
 Puede definir el comportamiento de la aplicación para las situaciones en las que el usuario activa la notificación para mostrar la pantalla correspondiente al contexto de la aplicación. Por ejemplo:
 
-* Se envía una notificación al cliente para informar que el paquete ha salido del almacén. Al activar la notificación, se abre una página con información sobre el envío.
+* Se envía una notificación al cliente para informar que el paquete ha salido del almacén. Al activar la notificación, se abre una página con información sobre la entrega.
 * El usuario ha añadido elementos al carro de la compra, pero ha salido de la aplicación sin finalizar la compra. Se envía una notificación que informa de que ha abandonado el carro de la compra. Cuando se activa la notificación, el elemento se muestra en la pantalla.
 
 >[!CAUTION]
 >
->* Debe asegurarse de que las notificaciones enviadas a una aplicación móvil cumplen los requisitos y condiciones especificados por Apple (servicio de notificaciones push de Apple) y Google (mensajería en la nube de Firebase).
+>* Asegúrese de que las notificaciones enviadas a una aplicación móvil cumplan los requisitos previos y las condiciones especificadas por Apple (Servicio de notificaciones push de Apple) y Google (Firebase mensajería en la nube).
 >* Advertencia: en algunos países, la ley requiere informar a los usuarios de las aplicaciones del tipo de datos que se recopilan y del propósito de su procesamiento. Debe comprobar la ley.
 
 
-The **[!UICONTROL NMAC opt-out management]** (mobileAppOptOutMgt) workflow updates notification unsubscriptions on mobile devices. Para obtener más información sobre este flujo de trabajo, consulte la [guía sobre flujos de trabajo](../../workflow/using/mobile-app-channel.md).
+El flujo de trabajo de **[!UICONTROL NMAC opt-out management]** (mobileAppOptOutMgt) actualiza la notificación de las bajas de suscripción en dispositivos móviles. Para obtener más información sobre este flujo de trabajo, consulte la [guía sobre flujos de trabajo](../../workflow/using/mobile-app-channel.md).
 
 Adobe Campaign es compatible con APNS tanto de tipo binario como HTTP/2. Para obtener más información sobre los pasos de configuración, consulte la sección [Configuración de una aplicación móvil en Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md) .
 
@@ -66,8 +66,8 @@ Adobe Campaign es compatible con APNS tanto de tipo binario como HTTP/2. Para ob
 Los siguientes esquemas detallan los pasos que permiten a una aplicación móvil intercambiar datos con Adobe Campaign. Este proceso consta de tres entidades:
 
 * la aplicación móvil
-* el servicio de notificación: APNS (Servicio de notificaciones push de Apple) para Apple y FCM (Firebase Cloud Messaging) para Android
-* Espacio de trabajo de Adobe Campaign
+* el servicio de notificaciones: APNS (servicio de notificaciones push de Apple) para Apple y FCM (Firebase Cloud Messaging) para Android.
+* Adobe Campaign
 
 Los tres pasos principales del proceso de notificación son: registro de la aplicación en Adobe Campaign (recopilación de suscripciones), envíos y seguimiento.
 
@@ -77,7 +77,7 @@ El usuario descarga la aplicación móvil desde la App Store o desde Google Play
 
 ![](assets/nmac_register_view.png)
 
-### Paso 2: Entrega {#step-2--delivery}
+### Paso 2: Envío{#step-2--delivery}
 
 Los especialistas en marketing se dirigen a los suscriptores de la aplicación. El proceso de envío envía la configuración de conexión al servicio de notificaciones (certificado de iOS y clave de proyecto para Android), el ID de notificación (ID de push) y el contenido de la notificación. El servicio de notificaciones envía notificaciones a los terminales de destino.
 
