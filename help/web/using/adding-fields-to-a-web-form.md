@@ -14,7 +14,7 @@ discoiquuid: d63892b3-260d-45e8-b99a-1e7c78353395
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 En un formulario web, los campos permiten a los usuarios introducir información y seleccionar opciones. Los formularios web pueden ofrecer campos de entrada, campos de selección, contenido estático y avanzado (captchas, suscripciones, etc.).
 
-Cuando utiliza el asistente para añadir campos, el tipo de campo se detecta automáticamente en función del campo o de la variable de almacenamiento seleccionados. You can edit it using the **[!UICONTROL Type]** drop-down box in the **[!UICONTROL General]** tab.
+Cuando utiliza el asistente para añadir campos, el tipo de campo se detecta automáticamente en función del campo o de la variable de almacenamiento seleccionados. Puede editarlo mediante el cuadro desplegable **[!UICONTROL Type]** de la pestaña **[!UICONTROL General]**.
 
 ![](assets/s_ncs_admin_webform_change_type.png)
 
@@ -32,18 +32,18 @@ Al utilizar los botones de la barra de herramientas, seleccione el tipo de campo
 
 Están disponibles los siguientes tipos de campo:
 
-* Entrada de texto/número. Consulte [Adición de campos](#adding-input-fields)de entrada.
-* Selección de lista desplegable. Consulte [Adición de listas](#adding-drop-down-lists)desplegables.
-* Opción múltiple mediante casillas de verificación. Consulte [Adición de casillas](#adding-checkboxes)de verificación.
-* Selección exclusiva mediante botones de opción. Consulte [Adición de botones](#adding-radio-buttons)de radio.
-* Voto en una cuadrícula de opciones. Consulte [Adición de cuadrículas](#adding-grids).
-* Números y fechas. See [Adding dates and numbers](#adding-dates-and-numbers).
-* Suscripción/cancelación de suscripciones a un servicio de información. Consulte Casillas [de verificación](#subscription-checkboxes)de suscripción.
+* Entrada de texto/número. Consultar [Añadir campos de entrada](#adding-input-fields).
+* Selección de lista desplegable. Consulte [Añadir listas desplegables](#adding-drop-down-lists).
+* Opción múltiple mediante casillas de verificación. Consulte [Añadir casillas de verificación](#adding-checkboxes).
+* Selección exclusiva mediante botones de opción. Consulte [Añadir de botones de radio](#adding-radio-buttons).
+* Voto en una cuadrícula de opciones. Consulte [Añadir cuadrículas](#adding-grids).
+* Números y fechas. Consulte [Añadir fechas y números](#adding-dates-and-numbers).
+* Suscripción/cancelación de suscripciones a un servicio de información. Consulte [Casillas de verificación de suscripción](#subscription-checkboxes).
 * Validación de captcha. Consulte [Inserción de un captcha](#inserting-a-captcha).
 * Botón Descargar. [Carga de un archivo](#uploading-a-file).
-* Constante oculta. Consulte [Inserción de una constante](#inserting-a-hidden-constant)oculta.
+* Constante oculta. Consulte [Inserción de una constante oculta](#inserting-a-hidden-constant).
 
-Especifique el modo de almacenamiento de respuesta: actualice un campo de la base de datos (solo almacena el último valor guardado) o almacene en una variable (la respuesta no se almacena). Para obtener más información sobre esto, consulte Campos [de almacenamiento de](../../web/using/web-forms-answers.md#response-storage-fields)respuesta.
+Especifique el modo de registro de respuestas: actualice un campo de la base de datos (solo se almacena el último valor guardado) o almacénelo en una variable (la respuesta no está almacenada). Para obtener más información, consulte [Campos de almacenamiento de respuesta](../../web/using/web-forms-answers.md#response-storage-fields),
 
 >[!NOTE]
 >
@@ -51,23 +51,23 @@ Especifique el modo de almacenamiento de respuesta: actualice un campo de la bas
 
 ## Asistente de creación de campos {#field-creation-wizard}
 
-Para cada página del formulario, puede añadir un campo mediante el primer botón de la barra de herramientas. To do this, go to the **[!UICONTROL Add using the wizard]** menu.
+Para cada página del formulario, puede añadir un campo mediante el primer botón de la barra de herramientas. Para ello, vaya al menú **[!UICONTROL Add using the wizard]**.
 
 ![](assets/s_ncs_admin_survey_add_field_menu.png)
 
 Seleccione el tipo de campo que desea crear: puede elegir añadir un campo en la base de datos, añadir una variable o importar un grupo de campos creados en otro formulario y recopilados en un contenedor.
 
-Click **[!UICONTROL Next]** and select the storage field or variable, or the container you want to import.
+Haga clic en **[!UICONTROL Next]** y seleccione el campo de almacenamiento o variable o el contenedor que desee importar.
 
 ![](assets/s_ncs_admin_webform_wz_confirm_db.png)
 
-Click **[!UICONTROL Finish]** to insert the selected field into the page.
+Haga clic en **[!UICONTROL Finish]** para insertar el campo seleccionado en la página.
 
 ![](assets/s_ncs_admin_webform_wz_insert_field.png)
 
 ## Adición de campos de entrada {#adding-input-fields}
 
-To add an input field, click the **[!UICONTROL Input control]** button and choose the type of field you want to add.
+Para añadir un campo de entrada, haga clic en el botón **[!UICONTROL Input control]** y elija el tipo de campo que desea añadir.
 
 ![](assets/s_ncs_admin_webform_select_field.png)
 
@@ -79,9 +79,9 @@ Se pueden insertar cinco tipos diferentes de campos de texto en una página de f
 
    ![](assets/s_ncs_admin_survey_txt_ex.png)
 
-* **Número**: permite al usuario introducir un número en una línea. for more on this, refer to [Adding numbers](#adding-numbers).
+* **Número**: permite al usuario introducir un texto en una línea. Para obtener más información, consulte [Añadir números](#adding-numbers).
 
-   Cuando se aprueba la página, se comprueba el contenido del campo para asegurarse de que el valor introducido sea compatible con el campo. Para obtener más información sobre esto, consulte [Definición de la configuración](../../web/using/form-rendering.md#defining-control-settings)de control.
+   Cuando se aprueba la página, se comprueba el contenido del campo para asegurarse de que el valor introducido sea compatible con el campo. Para obtener más información, consulte [Definir configuraciones de control](../../web/using/form-rendering.md#defining-control-settings),
 
 * **Contraseña**: permite al usuario introducir texto en una sola línea. Durante la entrada de texto, los caracteres se sustituyen por puntos:
 
@@ -105,11 +105,11 @@ Se pueden insertar cinco tipos diferentes de campos de texto en una página de f
 
    ![](assets/s_ncs_admin_survey_txthtmli_ex.png)
 
-   Se puede seleccionar el tipo de editor ofrecido a los usuarios. To do this, use the drop-down box of the **[!UICONTROL HTML editor]** field in the **[!UICONTROL Advanced]** tab.
+   Se puede seleccionar el tipo de editor ofrecido a los usuarios. Para ello, en la pestaña **[!UICONTROL Advanced]**, utilice el cuadro desplegable del campo **[!UICONTROL HTML editor]**.
 
    ![](assets/webapp_enrich_text_type.png)
 
-   El número de iconos mostrados varía en función del tipo de editor. For an **[!UICONTROL Advanced]** editor, the rendering will be as follows:
+   El número de iconos mostrados varía en función del tipo de editor. Para un editor **[!UICONTROL Advanced]**, la renderización es la siguiente:
 
    ![](assets/webapp_enrich_text_max.png)
 
@@ -119,15 +119,15 @@ Todos los campos de entrada se configuran en función del mismo modo, con las si
 
 ![](assets/s_ncs_admin_survey_txt_param.png)
 
-The **[!UICONTROL General]** tab lets you enter the name of the field and attribute a default value to it if necessary.
+La pestaña **[!UICONTROL General]** permite introducir el nombre del campo y el atributo como valor predeterminado si es necesario.
 
-The answer storage mode can be altered via the **[!UICONTROL Edit storage...]** link. Los valores se pueden almacenar en un campo existente de la base de datos; o bien puede optar por no guardar información en la base de datos (utilice una variable local).
+El modo de almacenamiento de respuestas se puede modificar mediante el enlace **[!UICONTROL Edit storage...]**. Los valores se pueden almacenar en un campo existente de la base de datos; o bien puede optar por no guardar información en la base de datos (utilice una variable local).
 
 >[!NOTE]
 >
->Los modos de almacenamiento se detallan en los campos de almacenamiento de [respuesta](../../web/using/web-forms-answers.md#response-storage-fields)
+>Los modos de almacenamiento se detallan en los [Campos de almacenamiento de respuesta](../../web/using/web-forms-answers.md#response-storage-fields)
 
-The **[!UICONTROL Advanced]** tab lets you define display parameters for the field (position of labels, alignment, etc.). See [Defining web forms layout](../../web/using/defining-web-forms-layout.md).
+La pestaña **[!UICONTROL Advanced]** permite definir parámetros de visualización para el campo (posición de etiquetas, alineación, etc.). Consulte [Definición del diseño de los formularios web](../../web/using/defining-web-forms-layout.md).
 
 ## Adición de listas desplegables {#adding-drop-down-lists}
 
@@ -135,13 +135,13 @@ Puede insertar una lista desplegable en una página de encuesta. Esto permite al
 
 ![](assets/s_ncs_admin_survey_dropdown_sample.png)
 
-To add a drop-down box to a form page, click the **[!UICONTROL Selection controls > Drop-down list]** button in the toolbar of the page editor.
+Para agregar un cuadro desplegable a una página de formulario, haga clic en el botón **[!UICONTROL Selection controls > Drop-down list]** de la barra de herramientas del editor de páginas.
 
 ![](assets/s_ncs_admin_survey_create_dropdown.png)
 
 Seleccione el modo de almacenamiento de respuestas y confirme su selección.
 
-Define the labels and values of the list in the lower section of the **[!UICONTROL General]** tab. If the information is stored in an existing field of the database and it is an enumeration field, you can fill in the values automatically by clicking **[!UICONTROL Initialize the list of values from the database]** , as shown below:
+Defina las etiquetas y los valores de la lista en la sección inferior de la pestaña **[!UICONTROL General]**. Si la información se almacena en un campo existente de la base de datos y es un campo de enumeración, puede rellenar los valores automáticamente haciendo clic en **[!UICONTROL Initialize the list of values from the database]**, como se muestra a continuación:
 
 ![](assets/s_ncs_admin_survey_database_values.png)
 
@@ -149,11 +149,11 @@ Define the labels and values of the list in the lower section of the **[!UICONTR
 >
 >Utilice las flechas a la derecha de la lista de valores para cambiar su secuencia.
 
-Si los datos se almacenan en una tabla vinculada, puede seleccionar el campo en el que se guardan los valores sugeridos en la lista. For example, if you select the table of countries, click **[!UICONTROL Initialize the list of values from the database...]** and select the desired field.
+Si los datos se almacenan en una tabla vinculada, puede seleccionar el campo en el que se guardan los valores sugeridos en la lista. Por ejemplo, si selecciona la tabla de países, haga clic en **[!UICONTROL Initialize the list of values from the database...]** y seleccione el campo deseado.
 
 ![](assets/s_ncs_admin_survey_preload_values.png)
 
-Next, click the **[!UICONTROL Load]** link to retrieve the values:
+A continuación, haga clic en el vínculo **[!UICONTROL Load]** para recuperar los valores:
 
 ![](assets/s_ncs_admin_survey_load_button.png)
 
@@ -167,31 +167,31 @@ Para que el usuario seleccione una opción, debe utilizar una casilla de verific
 
 ![](assets/s_ncs_admin_survey_check_box.png)
 
-To add a checkbox to a form, click the **[!UICONTROL Selection controls > Checkbox...]** icon in the toolbar of the page editor.
+Para añadir una casilla a un formulario, haga clic en el icono **[!UICONTROL Selection controls > Checkbox...]** de la barra de herramientas del editor de páginas.
 
 Seleccione el modo de almacenamiento de respuestas y confirme su selección.
 
-Enter the label of the box in the **[!UICONTROL Label]** field of the **[!UICONTROL General]** tab.
+Introduzca la etiqueta de la casilla en el campo **[!UICONTROL Label]** de la pestaña **[!UICONTROL General]**.
 
 ![](assets/s_ncs_admin_survey_check_box_edit.png)
 
-Una casilla de verificación permite asignar un valor al campo (o valor) de almacenamiento en función de si se ha marcado o no la casilla. The **[!UICONTROL Values]** section lets you enter the value to assign if the box is checked (in the **[!UICONTROL Value]** field), and the value to assign if it is not checked (in the **[!UICONTROL Empty value]** field). Estos valores dependen del formato de almacenamiento de datos.
+Una casilla de verificación permite asignar un valor al campo (o valor) de almacenamiento en función de si se ha marcado o no la casilla. La sección **[!UICONTROL Values]** permite introducir el valor que se asigna si se marca la casilla (en el campo **[!UICONTROL Value]**) y el valor que se asigna si no se marca (en el campo **[!UICONTROL Empty value]**). Estos valores dependen del formato de almacenamiento de datos.
 
-Si el campo de almacenamiento (o variable) es booleano, el valor que se asigna si la casilla no está marcada se deduce automáticamente. In this case, only the **[!UICONTROL Value if checked]** field is offered, as shown below:
+Si el campo de almacenamiento (o variable) es booleano, el valor que se asigna si la casilla no está marcada se deduce automáticamente. En este caso, solo se ofrece el campo **[!UICONTROL Value if checked]**, como se muestra a continuación:
 
 ![](assets/s_ncs_admin_survey_check_box_enum.png)
 
-## Example: Assign a value to a field if a box is checked {#example--assign-a-value-to-a-field-if-a-box-is-checked}
+## Asignación de un valor a un campo si se marca una casilla {#example--assign-a-value-to-a-field-if-a-box-is-checked}
 
 Se busca insertar una casilla en un formulario para enviar una solicitud de mantenimiento, como se muestra a continuación:
 
 ![](assets/s_ncs_admin_survey_check_box_ex.png)
 
-The information will be uploaded to the database and into an existing field (in this case, the **[!UICONTROL Comment]** field):
+La información se carga en la base de datos y en un campo existente (en este caso, el campo **[!UICONTROL Comment]**):
 
 ![](assets/s_ncs_admin_survey_check_box_ex_list.png)
 
-If the &quot;Maintenance required&quot; box is checked, the **[!UICONTROL Comment]** column will contain &quot;Maintenance required&quot;. Si la casilla no está marcada, la columna contiene “Mantenimiento no requerido”. Para obtener este resultado, aplique la configuración siguiente a la casilla de verificación de la página del formulario:
+Si la casilla “Mantenimiento requerido” está marcada, la columna **[!UICONTROL Comment]** contiene “Mantenimiento requerido”. Si la casilla no está marcada, la columna contiene “Mantenimiento no requerido”. Para obtener este resultado, aplique la configuración siguiente a la casilla de verificación de la página del formulario:
 
 ![](assets/s_ncs_admin_survey_check_box_ex_edit.png)
 
@@ -207,17 +207,17 @@ Puede crear botones de opción por separado (botones de unidad) o a través de u
 >
 >Para hacer la selección obligatoria, debe crear una lista de selección múltiple.
 
-### Agregar botones únicos {#add-single-buttons}
+### Añadir botones de opción {#add-single-buttons}
 
-To add a radio button to a form page, go to the **[!UICONTROL Selection controls > Radio button]** menu in the toolbar of the page editor and choose a storage mode.
+Para añadir un botón de opción a una página de formulario, vaya al menú **[!UICONTROL Selection controls > Radio button]** de la barra de herramientas del editor de páginas y elija un modo de almacenamiento.
 
 ![](assets/s_ncs_admin_survey_radio_button_sample.png)
 
-Radio buttons are configured in a similar way to checkboxes (see [Adding checkboxes](#adding-checkboxes)). Sin embargo, no se asigna ningún valor si no se selecciona la opción. Para que varios botones puedan ser interdependientes, es decir, que se deseleccione uno automáticamente si se selecciona el otro, se deben almacenar en el mismo campo. Si no se almacenan en la base de datos, se debe utilizar la misma variable local para el almacenamiento temporal. Consulte Campos [de almacenamiento de respuesta](../../web/using/web-forms-answers.md#response-storage-fields).
+Los botones de opción se configuran de forma similar a las casillas de verificación (consulte). [Agregar casillas de verificación](#adding-checkboxes). Sin embargo, no se asigna ningún valor si no se selecciona la opción. Para que varios botones puedan ser interdependientes, es decir, que se deseleccione uno automáticamente si se selecciona el otro, se deben almacenar en el mismo campo. Si no se almacenan en la base de datos, se debe utilizar la misma variable local para el almacenamiento temporal. Consulte [Campos de almacenamiento de respuesta](../../web/using/web-forms-answers.md#response-storage-fields).
 
-### Add a list of buttons {#add-a-list-of-buttons}
+### Creación de una lista de botones {#add-a-list-of-buttons}
 
-To add radio buttons via a list, go to the **[!UICONTROL Selection controls>Multiple choice]** menu in the toolbar of the page editor.
+Para añadir botones de opción a través de una lista, vaya al menú **[!UICONTROL Selection controls>Multiple choice]** de la barra de herramientas del editor de páginas.
 
 ![](assets/s_ncs_admin_survey_radio_button_sample2.png)
 
@@ -226,7 +226,7 @@ Añada tantos botones de opción como etiquetas. La ventaja de esta función es 
 >[!NOTE]
 >
 >Los formularios web no permiten la selección de varios valores. La selección múltiple solo se puede activar para los formularios de tipo **Encuesta.** Para obtener más información, consulte [esta sección](../../web/using/about-surveys.md).\
->It is possible, however, to insert a **[!UICONTROL Multiple choice]** type field into a Web application; but without authorizing the selection of several values: the options offered can be selected using radio buttons.
+>Sin embargo, es posible insertar un campo de texto de tipo **[!UICONTROL Multiple choice]** en una aplicación web, pero sin autorizar la selección de varios valores: las opciones ofrecidas se pueden seleccionar mediante los botones de opción.
 
 ## Adición de cuadrículas {#adding-grids}
 
@@ -246,7 +246,7 @@ Solo se puede seleccionar una opción por cada línea de cuadrícula.
 
 >[!NOTE]
 >
->En este ejemplo, la etiqueta de la cuadrícula está oculta. Para ello, vaya a la **[!UICONTROL Advanced]** ficha , la **[!UICONTROL Label position]** pantalla se define como **[!UICONTROL Hidden]** . See [Defining the position of labels](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels).
+>En este ejemplo, la etiqueta de la cuadrícula está oculta. Para ello, vaya a la pestaña **[!UICONTROL Advanced]**, y en ella puede comprobar que la pantalla **[!UICONTROL Label position]** se define como **[!UICONTROL Hidden]**. Consulte [Definición de la posición de etiquetas](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels).
 
 ## Adición de fechas y números {#adding-dates-and-numbers}
 
@@ -256,7 +256,7 @@ Se puede dar formato al contenido de los campos del formulario para que coincida
 
 ![](assets/s_ncs_admin_survey_date_calendar.png)
 
-To allow the user to enter a date in a form page, select **[!UICONTROL Add input field > Date...]** in the toolbar or page editor.
+Para permitir que el usuario introduzca una fecha en una página de formulario, seleccione **[!UICONTROL Add input field > Date...]** en la barra de herramientas o en el editor de páginas.
 
 Introduzca una etiqueta para el campo y configure el modo de almacenamiento de datos.
 
@@ -272,13 +272,13 @@ Las fechas se pueden seleccionar mediante un calendario o casillas desplegables.
 
 >[!NOTE]
 >
->De forma predeterminada, las fechas utilizadas en los formularios se introducen mediante un calendario. Para los formularios multilingües, compruebe que los calendarios están disponibles en todos los idiomas utilizados. See [Translating a web form](../../web/using/translating-a-web-form.md).
+>De forma predeterminada, las fechas utilizadas en los formularios se introducen mediante un calendario. Para los formularios multilingües, compruebe que los calendarios están disponibles en todos los idiomas utilizados. Consulte [Traducción de un formulario web](../../web/using/translating-a-web-form.md).
 
 Sin embargo, en algunos casos (para introducir fechas de nacimiento, por ejemplo), puede ser más fácil utilizar las listas desplegables.
 
 ![](assets/s_ncs_admin_survey_date_list_select.png)
 
-To do this, click the **[!UICONTROL Advanced]** tab and choose the input mode using **[!UICONTROL Drop-down lists]**.
+Para ello, haga clic en la pestaña **[!UICONTROL Advanced]** y seleccione el modo de entrada mediante las **[!UICONTROL Drop-down lists]**.
 
 ![](assets/s_ncs_admin_survey_date_selection.png)
 
@@ -300,7 +300,7 @@ Según el campo en el que se almacenen los datos en la base de datos, puede apli
 
 El valor predeterminado es el valor mostrado en el campo cuando se publica el formulario. El usuario puede corregirlo.
 
-You can add a prefix and/or suffix to the numeric field via the **[!UICONTROL Advanced]** tab, as shown below:
+Se puede añadir un prefijo o un sufijo al campo numérico mediante la pestaña **[!UICONTROL Advanced]**, como se muestra a continuación:
 
 ![](assets/s_ncs_admin_survey_number_ex_conf.png)
 
@@ -316,7 +316,7 @@ Para crear una casilla de verificación de suscripción, haga clic en **[!UICONT
 
 ![](assets/s_ncs_admin_survey_subscription_edit.png)
 
-Indicate the label for the checkbox and select the information service concerned using the **[!UICONTROL Service]** drop-down box.
+Indique la etiqueta de la casilla de verificación y seleccione el servicio de información correspondiente mediante la casilla desplegable **[!UICONTROL Service]**.
 
 >[!NOTE]
 >
@@ -330,7 +330,7 @@ El usuario se suscribe al servicio seleccionando la opción correspondiente.
 >
 >Si el usuario ya está suscrito a un servicio de información y la casilla vinculada a este servicio no está marcada al aprobar el formulario, se da de baja su suscripción.
 
-En [esta sección](../../web/using/about-surveys.md) se encuentran disponibles ejemplos de suscripciones y reenvíos.
+En [esta sección](../../web/using/about-surveys.md) se encuentran disponibles ejemplos de suscripciones y reentregas.
 
 ## Inserción de un captcha {#inserting-a-captcha}
 
@@ -340,17 +340,17 @@ El propósito de las pruebas de **captcha** es evitar el uso fraudulento de los 
 >
 >Si el formulario contiene varias páginas, el captcha siempre debe colocarse en la última página, justo antes del cuadro de almacenamiento para evitar la elusión de las medidas de seguridad.
 
-To insert a Captcha into a form, click the first button on the toolbar and Select **[!UICONTROL Advanced controls>Captcha]**.
+Para insertar un objeto captcha en un formulario, haga clic en el primer botón de la barra de herramientas y seleccione **[!UICONTROL Advanced controls>Captcha]**.
 
 ![](assets/s_ncs_admin_survey_add_captcha.png)
 
-Introduzca la etiqueta del campo. Esta etiqueta se muestra delante del área de visualización del captcha. You can change the position of this label in the **[!UICONTROL Advanced]** tab.
+Introduzca la etiqueta del campo. Esta etiqueta se muestra delante del área de visualización del captcha. Puede cambiar la posición de esta etiqueta en la pestaña **[!UICONTROL Advanced]**.
 
 ![](assets/s_ncs_admin_survey_captcha_adv.png)
 
 >[!NOTE]
 >
->For **[!UICONTROL captcha]** type controls, there is no need to indicate a storage field or variable.
+>Para los controles de tipo **[!UICONTROL captcha]** no es necesario indicar un campo de almacenamiento o una variable.
 
 El componente captcha se inserta en la página con un campo de entrada situado bajo la ilustración. Estos dos elementos son inseparables y se consideran un solo elemento de cara al diseño de la página (ocupan una sola celda).
 
@@ -360,7 +360,7 @@ Cuando se confirma la página, el campo de entrada aparece en rojo si el conteni
 
 ![](assets/s_ncs_admin_survey_captcha_error.png)
 
-Puede crear el mensaje de error que desea mostrar. Para ello, utilice el **[!UICONTROL Personalize the message]** vínculo de la **[!UICONTROL General]** ficha.
+Puede crear el mensaje de error que desea mostrar. Para ello, en la pestaña **[!UICONTROL General]**, utilice el enlace **[!UICONTROL Personalize the message]**.
 
 ![](assets/s_ncs_admin_survey_captcha_error_msg.png)
 
@@ -374,17 +374,17 @@ Puede añadir un campo de carga a una página. Esta funcionalidad puede ser úti
 
 ![](assets/s_ncs_admin_survey_download_file.png)
 
-To insert an upload field to a form page, select the **[!UICONTROL Advanced controls > File...]** menu in the toolbar of the page editor.
+Para insertar un campo de carga en una página de formulario, en la barra de herramientas del editor de páginas, seleccione el menú **[!UICONTROL Advanced controls > File...]**.
 
-By default, the uploaded files are stored in resource files accessible via the **[!UICONTROL Resources > Online > Public resources]** menu. Se puede utilizar una secuencia de comandos para cambiar este comportamiento. Esta secuencia de comandos puede utilizar las funciones definidas en [Campaign JSAPI documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html), incluidas las que afectan a la manipulación de archivos.
+De forma predeterminada, los archivos cargados se almacenan en archivos de recursos a los que se puede acceder mediante el menú **[!UICONTROL Resources > Online > Public resources]**. Se puede utilizar una secuencia de comandos para cambiar este comportamiento. Esta secuencia de comandos puede utilizar las funciones definidas en [Campaign JSAPI documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html), incluidas las que afectan a la manipulación de archivos.
 
-Se puede almacenar el enlace a estos archivos en una variable local o en un campo de base de datos. Por ejemplo, se puede ampliar el esquema del destinatario para añadir un enlace a recursos basados en archivos.
+Se puede almacenar el vínculo a estos archivos en una variable local o en un campo de base de datos. Por ejemplo, se puede ampliar el esquema del destinatario para añadir un vínculo a recursos basados en archivos.
 
 >[!CAUTION]
 >
 >* Este tipo de archivo debe reservarse para formularios con acceso seguro (con credenciales).
 >* Adobe Campaign no controla el tamaño ni el tipo de recurso cargado: por lo tanto, se recomienda encarecidamente utilizar campos de carga únicamente para sitios de intranet de tipo seguro.
->* Si varios servidores están vinculados a la instancia (arquitectura de equilibrio de carga), debe asegurarse de que las llamadas al formulario Web llegan al mismo servidor.
+>* Si hay varios servidores vinculados a la instancia (“equilibrio de carga”), debe asegurarse de que las llamadas al formulario web lleguen al mismo servidor.
 >* Estas implementaciones requieren la asistencia del equipo de consultoría de Adobe Campaign.
 >
 
