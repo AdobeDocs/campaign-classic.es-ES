@@ -14,7 +14,7 @@ discoiquuid: 3af763ad-6b0d-4f4c-aed1-c5e12efd4760
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61c7681535dc08e1d705d7d239e96c603bbad339
 
 ---
@@ -77,12 +77,12 @@ Para crear y publicar una aplicación web, debe:
 
 ## Configuración inicial de la aplicación Web {#web-application-initial-configuration}
 
-Web application are created via the **[!UICONTROL Web Applications]** link in the **[!UICONTROL Campaigns]** and **[!UICONTROL Profiles and targets]** tabs.
+La aplicación web se crea mediante el vínculo **[!UICONTROL Web Applications]** en el entorno **[!UICONTROL Campaigns]** y en el entorno **[!UICONTROL Profiles and targets]**.
 
-Web applications are stored in the **[!UICONTROL Resources > Online > Web Applications]** node of the Adobe Campaign tree. Las configuraciones se desglosan en las siguientes carpetas:
+Las aplicaciones web se almacenan en el nodo **[!UICONTROL Resources > Online > Web Applications]** del directorio de Adobe Campaign. Las configuraciones se desglosan en las siguientes carpetas:
 
-* **[!UICONTROL Administration > Configuration > Form renderings]**:: contiene las plantillas de procesamiento para la presentación del formulario Web (aplicaciones y encuestas). La plantilla permite generar el formulario. También se utiliza una hoja de estilos CSS. Esta hoja de estilos se puede cargar a nivel de la plantilla. Para obtener más información, consulte [esta página](../../web/using/form-rendering.md#selecting-the-form-rendering-template).
-* **[!UICONTROL Resources > Templates > Web application templates]**:: contiene plantillas de formulario. Para crear un formulario o una aplicación web, se debe comenzar desde una plantilla.
+* **[!UICONTROL Administration > Configuration > Form renderings]**: contiene las plantillas de renderización para la visualización del formulario web (aplicaciones y encuestas). La plantilla permite generar el formulario. También se utiliza una hoja de estilos CSS. Esta hoja de estilos se puede cargar a nivel de la plantilla. Para obtener más información, consulte [esta página](../../web/using/form-rendering.md#selecting-the-form-rendering-template).
+* **[!UICONTROL Resources > Templates > Web application templates]**: contiene plantillas de formulario. Para crear un formulario o una aplicación web, se debe comenzar desde una plantilla.
 
 ## Plantillas de aplicaciones web {#web-application-templates}
 
@@ -90,9 +90,9 @@ De manera predeterminada, Adobe Campaign proporciona una plantilla por cada apli
 
 >[!NOTE]
 >
->Puede convertir una aplicación web existente en una plantilla. Para ello, seleccione el formulario y haga clic en el botón derecho. Select **[!UICONTROL Actions > Save as template...]**.
+>Puede convertir una aplicación web existente en una plantilla. Para ello, seleccione el formulario y haga clic en el botón derecho. Seleccione **[!UICONTROL Actions > Save as template...]**.
 
-You can create new templates via the **[!UICONTROL Resources > Templates > Web Application templates]** node of the Adobe Campaign tree.
+Puede crear más plantillas a través del nodo **[!UICONTROL Resources > Templates > Web Application templates]** del directorio de Adobe Campaign.
 
 El asistente de creación le permite seleccionar las opciones que desea activar, como se muestra a continuación.
 
