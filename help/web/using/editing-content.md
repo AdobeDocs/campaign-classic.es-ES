@@ -14,7 +14,7 @@ discoiquuid: da66d640-8504-4dc7-bc4e-1c0ac1d37c37
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
 
 Puede especificar una condición de visibilidad en un elemento de la página web: este elemento solo se puede ver si se respeta la condición.
 
-To add a visibility condition, select a block and enter the condition in the **[!UICONTROL Visibility condition]** field using the expression editor.
+Para añadir una condición de visibilidad, seleccione un bloque e introduzca la condición en el campo **[!UICONTROL Visibility condition]** con el editor de expresiones.
 
 ![](assets/dce_add_condition.png)
 
@@ -36,7 +36,7 @@ To add a visibility condition, select a block and enter the condition in the **[
 
 ![](assets/dce_popup_visibilitycondition.png)
 
-These conditions adopt the XTK expression syntax (for example **ctx.recipient.@email != &quot;&quot;** o **ctx.Recipiente.@status==&quot;0&quot;**). De forma predeterminada, todos los campos son visibles.
+Estas condiciones adoptan la sintaxis de la expresión XTK (por ejemplo: **ctx.recipient.@email != &quot;&quot;** o **ctx.recipient.@status==“0”**). De forma predeterminada, todos los campos son visibles.
 
 >[!NOTE]
 >
@@ -78,11 +78,11 @@ De hecho, si la plantilla utilizada no contiene un valor de forma predeterminada
 
 Para ello:
 
-* Haga clic en el **[!UICONTROL Edit]** icono.
+* Haga clic en el icono **[!UICONTROL Edit]**.
 
    ![](assets/dce_sidebar_options.png)
 
-* Enter the itemized list value (defined by the selected field) into the **[!UICONTROL Value]** field.
+* Introduzca el valor de lista desglosada (definido por el campo seleccionado) en el campo **[!UICONTROL Value]**.
 
    ![](assets/dce_sidebar_completeoptionradio.png)
 
@@ -92,9 +92,9 @@ Los campos de formulario, como los botones de opción, las zonas de entrada, las
 
 Esto significa que se puede:
 
-* Delete the block containing the form fields using the **[!UICONTROL Delete]** icon.
-* Duplicate the selected field by creating a new block using the **[!UICONTROL Duplicate]** icon.
-* Edit the **[!UICONTROL Form data]** window to link a database field to the form zone, using the **[!UICONTROL Edit]** icon.
+* Eliminar el bloque que contiene los campos del formulario con el icono **[!UICONTROL Delete]**.
+* Duplique el campo seleccionado creando un nuevo bloque con el icono **[!UICONTROL Duplicate]**.
+* Edite la ventana **[!UICONTROL Form data]** para relacionar un campo de base de datos con la zona de formulario mediante el icono **[!UICONTROL Edit]**.
 
    ![](assets/dce_toolbar_formblock_edition.png)
 
@@ -106,25 +106,25 @@ Puede definir una acción asociada para cuando el usuario hace clic en un botón
 
 Las acciones disponibles son las siguientes:
 
-* **[!UICONTROL Refresh]** :: actualiza la página actual.
-* **[!UICONTROL Next page]** :: crea un vínculo a la página siguiente en la aplicación Web.
-* **[!UICONTROL Previous page]** :: crea un vínculo a la página anterior en la aplicación Web.
+* **[!UICONTROL Refresh]**: actualiza la página actual.
+* **[!UICONTROL Next page]**: crea un vínculo a la página siguiente en la aplicación web.
+* **[!UICONTROL Previous page]**: crea un vínculo a la página anterior en la aplicación web.
 
 >[!NOTE]
 >
->The **[!UICONTROL None]** value allows you to not activate the button.
+>El valor **[!UICONTROL None]** permite no activar el botón.
 
 Se puede modificar la etiqueta vinculada al botón en el campo correspondiente.
 
-## Adición de un enlace {#adding-a-link}
+## Adición de un vínculo {#adding-a-link}
 
-Puede insertar un enlace en cualquier elemento de página: imagen, palabra, grupo de palabras, bloque de texto, etc.
+Puede insertar un vínculo en cualquier elemento de página: imagen, palabra, grupo de palabras, bloque de texto, etc.
 
 Para ello, seleccione el elemento y utilice el primer icono del menú emergente.
 
 ![](assets/dce_insertlink_icon.png)
 
-Este icono le permite acceder a todos los tipos de enlaces disponibles.
+Este icono le permite acceder a todos los tipos de vínculos disponibles.
 
 ![](assets/dce_insertlink_menu.png)
 
@@ -132,7 +132,7 @@ Los bloques y campos de personalización solo se pueden insertar en bloques de t
 
 >[!NOTE]
 >
->Para cada tipo de enlace, se puede configurar el modo de apertura: seleccione la ventana de destino en la lista desplegable **Objetivo.** This value corresponds to the **`<target>`** HTML tag.
+>Para cada tipo de vínculo, se puede configurar el modo de apertura: seleccione la ventana de destino en la lista desplegable **Objetivo.** Este valor corresponde a la etiqueta HTML **`<target>`**.
 >
 >La lista de **objetivos** disponibles es la siguiente:
 >
@@ -152,7 +152,7 @@ La opción **Enlace a una URL externa** permite abrir cualquier dirección URL d
 
 ![](assets/dce_toolbar_imgblock_externallink.png)
 
-Introduzca la dirección del enlace en cuestión en el campo **URL.** The URL field should be entered as: **https://www.myURL.com**.
+Introduzca la dirección del vínculo en cuestión en el campo **URL.** El campo URL debe introducirse como: **https://www.myURL.com**.
 
 ### Enlace a una aplicación web {#link-to-a-web-application}
 
@@ -162,7 +162,7 @@ La opción **Enlace a una aplicación web** permite acceder a una aplicación we
 
 Seleccione la aplicación web en el campo correspondiente.
 
-The list of suggested Web applications corresponds to the available applications in the **[!UICONTROL Resources > Online > Web Applications]** node.
+La lista de aplicaciones web sugeridas corresponde a las aplicaciones disponibles en el nodo **[!UICONTROL Resources > Online > Web Applications]**.
 
 ### Enlace a una acción {#link-to-an-action}
 
@@ -172,18 +172,18 @@ La opción **Enlace que define una acción** permite configurar una acción al h
 
 >[!NOTE]
 >
->Las acciones disponibles se detallan en la sección [Adición de una acción a un botón](#adding-an-action-to-a-button) .
+>Las acciones disponibles se detallan en la sección [Adición de una acción a un botón](#adding-an-action-to-a-button).
 
-### Eliminación de un enlace {#delete-a-link}
+### Eliminación de un vínculo {#delete-a-link}
 
-Cuando se inserta un vínculo, la barra de herramientas ofrece dos nuevos iconos: **Editar vínculo** y **romper el vínculo** que le permite interactuar con el vínculo creado.
+Cuando se inserta un vínculo, la barra de herramientas ofrece dos nuevos iconos: **Edit link** y **Break the link** que le permiten interactuar con el vínculo creado.
 
 * **[!UICONTROL Edit link]** permite mostrar una ventana con todos los parámetros del vínculo.
-* **[!UICONTROL Break the link]** permite eliminar, después de la confirmación, el vínculo y todos los parámetros relacionados.
+* **[!UICONTROL Break the link]** permite eliminar, tras una confirmación, el vínculo y todos los parámetros relacionados.
 
 >[!NOTE]
 >
->Si se elimina el enlace, el contenido se mantiene.
+>Si se elimina el vínculo, el contenido se mantiene.
 
 ## Modificación de los atributos de fuente {#changing-font-attributes}
 
@@ -193,11 +193,11 @@ Al seleccionar un elemento de texto, se puede modificar los atributos de fuente 
 
 Las opciones disponibles son las siguientes:
 
-* **Icono de ampliación de fuente** : aumenta el tamaño del texto seleccionado (agregar `<span style="font size:">`)
-* **Icono de reducción de fuente** : reduce el tamaño del texto seleccionado (agregar `<span style="font size:">`)
-* **Icono Negrita** : convierte el texto seleccionado en negrita (ajuste de texto con la `<strong> </strong>` etiqueta)
-* **Icono de cursiva** : convierte el texto seleccionado en cursiva (ajuste de texto con la `<em> </em>` etiqueta)
-* **Icono de subrayado** : subraya el texto seleccionado (ajuste el texto con la `<span style="text-decoration: underline;">` etiqueta)
+* Icono **Aumentar fuente**: aumenta el tamaño del texto seleccionado (añada `<span style="font size:">`)
+* Icono **Reducir fuente**: reduce el tamaño del texto seleccionado (añada `<span style="font size:">`)
+* Icono **Negrita**: hace que el texto seleccionado se ponga en negrita (ajuste de texto con la etiqueta `<strong> </strong>`).
+* Icono **Cursiva**: hace que el texto seleccionado sea en cursiva (ajuste de texto con la etiqueta `<em> </em>`).
+* Icono **Subrayado**: hace que el texto seleccionado aparezca subrayado (ajuste de texto con la etiqueta `<span style="text-decoration: underline;">`).
 * Icono **Alinear a la izquierda**: alinea el texto a la izquierda del bloque seleccionado (añadir estilo=&quot;text-align: left;&quot;)
 * Icono **Centrar**: centra el texto del bloque seleccionado (añadir estilo=&quot;text-align: center;&quot;)
 * Icono **Alinear a la derecha**: alinea el texto a la derecha del bloque seleccionado (añadir estilo=&quot;text-align: right;&quot;)
@@ -229,7 +229,7 @@ Para ser compatible con el DCE, **las animaciones de tipo “flash”** deben in
 
 >[!CAUTION]
 >
->You must not call up external files in a **script** tag of the HTML page. Estos archivos no se importan en el servidor de Adobe Campaign.
+>No es necesario llamar a los archivos externos en una etiqueta **script** de la página HTML. Estos archivos no se importan en el servidor de Adobe Campaign.
 
 ### Adición, eliminación o duplicación de una imagen {#adding---deleting---duplicating-an-image}
 
@@ -241,9 +241,9 @@ Seleccione un archivo de imagen guardado localmente.
 
 ![](assets/dce_popup_imgupload.png)
 
-The **Delete** icon deletes the ![]() tag containing the image.
+El icono **Eliminar** elimina la etiqueta ![]() que contiene la imagen.
 
-The **Duplicate** icon duplicates the ![]() tag and its content.
+El icono **Duplicar** duplica la etiqueta ![]() y su contenido.
 
 >[!CAUTION]
 >
@@ -266,11 +266,11 @@ La opción **Campo personalizado** del icono de inserción permite añadir un ca
 
 ![](assets/dce_toolbar_textblock_persofield.png)
 
-By default, the fields offered are from the **[!UICONTROL Recipient]** table. Si es necesario, puede editar las propiedades de la aplicación web para seleccionar otra tabla.
+De forma predeterminada, los campos que se ofrecen proceden de la tabla **[!UICONTROL Recipient]**. Si es necesario, puede editar las propiedades de la aplicación web para seleccionar otra tabla.
 
 El nombre del campo aparece en el editor resaltado en amarillo. Se reemplaza por el perfil del destinatario objetivo cuando se genere la personalización (por ejemplo, al previsualizar una página de destino).
 
-Se presenta un ejemplo en la sección [Inserción de un campo](../../web/using/creating-a-landing-page.md#inserting-a-personalization-field) de personalización.
+Se presenta un ejemplo en la sección [Inserción de un campo de personalización](../../web/using/creating-a-landing-page.md#inserting-a-personalization-field).
 
 ### Inserción de bloques personalizados {#inserting-a-personalization-block}
 
@@ -280,4 +280,4 @@ La opción **Bloque personalizado** permite insertar bloques dinámicos y person
 
 Una vez insertado, el nombre del bloque personalizado aparece en el editor resaltado en amarillo. Se adapta automáticamente al perfil de destinatario cuando se genera la personalización.
 
-For more on built-in personalization blocks and how to define custom personalization blocks, refer to [this page](../../delivery/using/personalization-blocks.md).
+Para obtener más información sobre los bloques de personalización integrados y cómo definirlos, consulte [esta página](../../delivery/using/personalization-blocks.md).
