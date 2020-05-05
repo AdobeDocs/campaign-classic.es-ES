@@ -14,7 +14,7 @@ discoiquuid: e1f8958d-f036-4635-be6e-ebdbea6ac116
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
@@ -33,29 +33,29 @@ Esto les permite:
 
 ## Filtración de paquetes {#filter-packages}
 
-From the **[!UICONTROL Campaigns universe]**, you can display the list of **[!UICONTROL Campaign packages]** which regroups all existing Distributed Marketing campaigns. Puede filtrar esta lista para que muestre solo las campañas que se han publicado, que se han retrasado, que están pendientes de aprobación, etc. Para ello, haga clic en los vínculos de la sección superior de esta vista o utilice el **[!UICONTROL Filter list]** vínculo y seleccione el estado del paquete de campaña que desea mostrar.
+Desde **[!UICONTROL Campaigns universe]** puede mostrar la lista de **[!UICONTROL Campaign packages]** que reagrupa todas las campañas de Distributed Marketing existentes. Puede filtrar esta lista para que muestre solo las campañas que se han publicado, que se han retrasado, que están pendientes de aprobación, etc. Para ello, haga clic en los vínculos de la sección superior de esta vista o utilice el vínculo **[!UICONTROL Filter list]** y seleccione el estado del paquete de campaña que desea mostrar.
 
 ![](assets/mkg_dist_catalog_filter.png)
 
 ## Editar paquetes {#edit-packages}
 
-The **[!UICONTROL Campaign packages]** page lets you view the summary of each package.
+La página **[!UICONTROL Campaign packages]** permite ver el resumen de cada paquete.
 
 Este resumen muestra la siguiente información: etiqueta, tipo de campaña, así como el nombre de la campaña desde la que se creó y la carpeta.
 
 Haga clic en el nombre del paquete para editarlo. También puede ver solicitudes por sus entidades locales y por su estado.
 
-This information is also offered in the **[!UICONTROL Campaign orders]** view which lists all orders.
+Esta información también se incluye en la vista **[!UICONTROL Campaign orders]**, que enumera todas las solicitudes.
 
 ![](assets/mkg_dist_catalog_op_command_details.png)
 
 El operador central puede editar la solicitud. Hay dos formas de hacerlo:
 
-1. El operador puede hacer clic en el nombre del pedido para editarlo: esto muestra los detalles del pedido.
+1. El operador puede hacer clic en el nombre de la solicitud para editarla: esto muestra los detalles de las solicitudes.
 
    ![](assets/mkg_dist_catalog_op_command_edit1.png)
 
-   The **[!UICONTROL Edit > General]** tab lets you view information entered by the local entity when it ordered the campaign.
+   La pestaña **[!UICONTROL Edit > General]** permite ver la información introducida por la entidad local cuando solicita la campaña.
 
    ![](assets/mkg_dist_catalog_op_command_edit1a.png)
 
@@ -67,11 +67,11 @@ El operador central puede editar la solicitud. Hay dos formas de hacerlo:
 
 La entidad central puede cancelar un paquete de campaña en cualquier momento.
 
-Haga clic **[!UICONTROL Cancel]** en el paquete de campaña **[!UICONTROL Dashboard]**.
+En el paquete de campaña **[!UICONTROL Dashboard]**, haga clic en **[!UICONTROL Cancel]**.
 
 ![](assets/mkg_dist_cancel_op_from_dashboard.png)
 
-The **[!UICONTROL Comment]** field lets you justify the cancellation.
+El campo **[!UICONTROL Comment]** le permite justificar la cancelación.
 
 Para las **campañas locales**, cancelar un paquete las elimina de la lista de campañas de marketing disponibles.
 
@@ -96,11 +96,11 @@ La entidad central puede seguir accediendo y reiniciando los paquetes cancelados
 Los paquetes de campañas que ya se han publicado se pueden reiniciar, modificar y ponerlo a disposición de entidades locales.
 
 1. Seleccione el paquete que desee.
-1. Haga clic en el **[!UICONTROL Reinitialize the package to reuse it]** vínculo y haga clic en **[!UICONTROL OK]**.
+1. Haga clic en el enlace **[!UICONTROL Reinitialize the package to reuse it]** y en **[!UICONTROL OK]**.
 
    ![](assets/mkg_dist_mutual_op_reinit.png)
 
-1. Click the **[!UICONTROL Save]** button to approve package re-initialization.
+1. Haga clic en el botón **[!UICONTROL Save]** para aprobar el reinicio del paquete.
 
    ![](assets/mkg_dist_mutual_op_reinit2.png)
 
