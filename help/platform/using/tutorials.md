@@ -14,7 +14,7 @@ discoiquuid: c7c67ee5-ad60-420f-b597-08c388049529
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
@@ -26,19 +26,19 @@ source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 Comience a utilizar Adobe Campaign consultando las instrucciones paso a paso.
 
-* [Editar el contenido de correos electrónicos con Adobe Experience Manager](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/aem.html): Obtenga información sobre los conceptos básicos para comenzar a utilizar la integración entre Adobe Campaign y Experience Manager.
-* [Administración](https://helpx.adobe.com/campaign/kb/acc-privacy.html)de privacidad: descubra lo que Adobe Campaign Classic proporciona para ayudarle a cumplir con la privacidad al utilizar nuestro servicio.
-* [Integración de contenido dinámico en un mensaje de correo electrónico](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/target.html): Descubra los conceptos básicos para comenzar a utilizar la integración entre Campaign Classic y Target Standard.
-* [Gestión de la tasa de entrega](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html): Aprenda sobre los conceptos y las prácticas recomendadas relacionadas con el envío, así como las herramientas que ofrece Adobe Campaign Classic para optimizar el envío de contenido.
-* [Prácticas de envío recomendadas](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html): Descubra cuáles son las mejores prácticas relacionadas con el diseño y envío de mensajes con Adobe Campaign Classic.
-* [Realización de una actualización](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html): Esta guía le presenta los pasos clave y las prácticas recomendadas para realizar una actualización con Campaign Classic.
-* [Listas de comprobación de configuración de seguridad](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html): Descubra los elementos clave para comprobar la configuración de seguridad y reforzar la instalación en la implementación local.
+* [Editar el contenido de correos electrónicos con Adobe Experience Manager](https://helpx.adobe.com/es/campaign/kb/acc-aem.html): Obtenga información sobre los conceptos básicos para comenzar a utilizar la integración entre Adobe Campaign y Experience Manager.
+* [Gestión de privacidad](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html): Descubra lo que Adobe Campaign Classic proporciona para ayudarle con el cumplimiento de la privacidad al utilizar el servicio.
+* [Integración de contenido dinámico en un mensaje de correo electrónico](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-target/inserting-a-dynamic-image.html): Descubra los conceptos básicos para comenzar a utilizar la integración entre Campaign Classic y Target Standard.
+* [Gestión de la tasa de entrega](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html): Aprenda sobre los conceptos y las prácticas recomendadas relacionadas con la entrega, así como las herramientas que ofrece Adobe Campaign Classic para optimizar la entrega de contenido.
+* [Prácticas de envío recomendadas](https://helpx.adobe.com/es/campaign/kb/delivery-best-practices.html): Descubra cuáles son las mejores prácticas relacionadas con el diseño y envío de mensajes con Adobe Campaign Classic.
+* [Realización de una actualización](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html): Esta guía le presenta los pasos clave y las prácticas recomendadas para realizar una actualización con Campaign Classic.
+* [Listas de comprobación de configuración de seguridad](https://helpx.adobe.com/es/campaign/kb/acc-security.html): Descubra los elementos clave para comprobar la configuración de seguridad y reforzar la instalación en la implementación local.
 
 Obtenga más información sobre Adobe Campaign consultando los siguientes ejemplos y casos de uso:
 
 * [Creación de un filtro en el formato de email de los suscriptores](../../platform/using/use-case.md#creating-a-filter-on-the-email-format-of-subscribers): Aprenda a crear un filtro para ordenar suscripciones de boletín basándose en el formato de email del destinatario.
 * [Cree un formulario de suscripción con doble incidencia](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in): Aprenda a enviar una solicitud de confirmación de suscripción para crear una incidencia doble para asegurarse de que el destinatario se haya suscrito de forma intencionada.
-* [Creación de una entrega de correo electrónico](../../web/using/use-case--creating-an-email-delivery.md): Aprenda a crear un envío por correo electrónico con el Editor de contenido digital.
+* [Creación de una entrega de correo electrónico](../../web/using/use-case--creating-an-email-delivery.md): Aprenda a crear una entrega por correo electrónico con el Editor de contenido digital.
 * [Creación de resúmenes](../../web/using/use-cases--creating-overviews.md): Cree aplicaciones web de tipo de visión general para mostrar todas las aplicaciones web en su base de datos.
 * [Casos de uso de flujo de trabajo](../../workflow/using/using-the-local-approval-activity.md): Descubra a través de estos casos de uso diferentes formas de utilizar los flujos de trabajo.
 
