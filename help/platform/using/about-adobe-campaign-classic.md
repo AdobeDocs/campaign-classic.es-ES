@@ -14,7 +14,7 @@ discoiquuid: a2b43311-737c-4a3b-a6af-1788879f9414
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3641e438784d40aa097f8c89ca19bdbb52f4bc7d
 
 ---
@@ -44,11 +44,11 @@ Los perfiles (clientes, clientes potenciales, suscriptores de boletines informat
 
 En Adobe Campaign, los destinatarios son los perfiles seleccionados por defecto para enviarles contenido (correos electrónicos, SMS, etc.). Gracias a los datos de los destinatarios almacenados en la base de datos, podrá filtrar quiénes reciben la entrega y añadir datos que personalicen los contenidos que quiere enviar. Existen otros tipos de perfiles en la base de datos. Están diseñados para usos diferentes. Por ejemplo, se crean perfiles semilla para probar el contenido antes de enviarlo al público objetivo final.
 
-Profile management basics are explained in [About profiles](../../platform/using/about-profiles.md).
+Los conceptos básicos de gestión de perfiles se explican en [Acerca de los perfiles](../../platform/using/about-profiles.md).
 
 ### Segmentación dirigida {#targeted-segmentation}
 
-Adobe Campaign tiene funcionalidades de segmentación y selección de objetivos potentes y fáciles de usar, que permiten crear ofertas específicas y diferenciadas. La funcionalidad de análisis descriptivo permite analizar la información de subida y de bajada de las campañas de marketing, y la funcionalidad de filtrado y del [ editor gráfico de consultas](../../platform/using/about-queries-in-campaign.md) permite filtrar la población de suscriptores y la muestra, o crear grupos de destino según un número ilimitado de criterios. The analysis and targeting features are described in [this page](../../reporting/using/about-descriptive-analysis.md) and in the [Creating filters](../../platform/using/creating-filters.md) section.
+Adobe Campaign tiene funcionalidades de segmentación y selección de objetivos potentes y fáciles de usar, que permiten crear ofertas específicas y diferenciadas. La funcionalidad de análisis descriptivo permite analizar la información de subida y de bajada de las campañas de marketing, y la funcionalidad de filtrado y del [editor gráfico de consultas](../../platform/using/about-queries-in-campaign.md) permite filtrar la población de suscriptores y la muestra, o crear grupos de destino según un número ilimitado de criterios. Las funcionalidades de análisis y de segmentación se describen en [esta página](../../reporting/using/about-descriptive-analysis.md) y en la sección [Creating filters](../../platform/using/creating-filters.md)
 
 La funcionalidad avanzada de Gestión de datos amplía las características de procesamiento de datos. Simplifica y optimiza el proceso de segmentación incluyendo información que no se encuentra en la base de datos. Esta funcionalidad se detalla en [esta página](../../workflow/using/targeting-data.md#data-management).
 
@@ -70,7 +70,7 @@ Puede combinar las funcionalidades de entrega y las funcionalidades avanzadas de
 
 ## Funcionalidades básicas y complementos {#core-capabilities-and-add-ons}
 
-Adobe Campaign ofrece un conjunto de funcionalidades que le ayudarán a implementar y optimizar las capacidades de marketing conversacional según sus necesidades y su arquitectura. Algunas de ellas son funcionalidades básicas y algunas dependen de la instalación de un paquete y de la configuración. Aquí encontrará una descripción detallada del producto: Descripción [del producto de](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-classic---product-description.html)Adobe Campaign Classic.
+Adobe Campaign ofrece un conjunto de funcionalidades que le ayudarán a implementar y optimizar las capacidades de marketing conversacional según sus necesidades y su arquitectura. Algunas de ellas son funcionalidades básicas y algunas dependen de la instalación de un paquete y de la configuración. Aquí encontrará una descripción detallada del producto: [Descripción del producto de Adobe Campaign Classic](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-classic---product-description.html).
 
 Estas son las funcionalidades disponibles. Según el acuerdo de licencia, algunas de estas funcionalidades pueden estar disponibles o no.
 
@@ -79,7 +79,7 @@ Estas son las funcionalidades disponibles. Según el acuerdo de licencia, alguna
 * [MRM](../../campaign/using/about-marketing-resource-management.md): gestione recursos de marketing y presupuestos.
 * [Interacción](../../interaction/using/interaction-and-offer-management.md): Administre ofertas con Campaign.
 * [Centro de mensajes](../../message-center/using/about-transactional-messaging.md): envíe mensajes transaccionales por correo electrónico, SMS o en aplicaciones móviles.
-* [Mercadotecnia](../../social/using/about-social-marketing.md) social - comuníquese en los medios sociales: Facebook, Twitter,
+* [Marketing social](../../social/using/about-social-marketing.md): Utilice redes sociales como: Facebook, Twitter,
 * [Flujo de trabajo](../../workflow/using/about-workflows.md) / Gestión de datos: Automatice procesos y gestione datos con flujos de trabajo.
 * [Aplicaciones web](../../web/using/about-web-applications.md): cree páginas web y formularios.
 * [Administrador de encuestas](../../web/using/about-surveys.md): cree encuestas en línea y sondeos.
