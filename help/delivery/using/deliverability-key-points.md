@@ -12,7 +12,7 @@ discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
@@ -29,19 +29,19 @@ La capacidad de envío de correo electrónico hace referencia al conjunto de car
 Estas características se dividen en cuatro categorías principales:
 * Calidad de los datos
 * Mensaje y contenido
-* Envío de infraestructura
+* Infraestructura de envío
 * Reputación
 
 Juntas forman la base del éxito de un programa de envío de correo electrónico.
 
 La tasa de entrega es el número de correos electrónicos enviados correctamente a sus destinatarios.
 
-La tasa de entregabilidad depende de numerosos factores, en particular:
+La tasa de entrega depende de numerosos factores, en particular:
 * Configuración correcta de las instancias
 * Su reputación de dirección IP
 * Calidad de las direcciones objetivo
 * Baja cantidad de quejas y tasas de devolución
-* Contenido del mensaje
+* Su contenido del mensaje
 * Autenticación de mensajes (SPF, DKIM, DMARC)
 * Conocimiento del remitente
 
@@ -61,9 +61,9 @@ Los proveedores de servicios de Internet generalmente tienen un medio prominente
 
 ## Enviar a direcciones de honeypot {#honeypot-addresses}
 
-Los ISP y otras organizaciones (consulte https://www.projecthoneypot.org/) utilizan buzones de correo que no corresponden a personas físicas pero que se crean simplemente para engañar a los remitentes de spam. Estas llamadas &quot;ollas de miel&quot; se publican en la web para ser recogidas por los spambots y así atrapar a remitentes ilegítimos. El uso de un mecanismo de doble inclusión impide que este tipo de dirección se agregue a una lista. Al utilizar una lista de terceros, debe estar seguro de los métodos empleados por su mantenedor.
+Los ISP y otras organizaciones (consulte http://www.projecthoneypot.org/) utilizan buzones de correo que no corresponden a personas físicas pero que se crean simplemente para engañar a los remitentes de correo no deseado. Estas llamadas &quot;honey pot&quot; se publican en la web para ser recogidas por los spambots y así atrapar a remitentes ilegítimos. El uso de un mecanismo de doble inclusión impide que este tipo de dirección se agregue a una lista. Al utilizar una lista de terceros, debe estar seguro de los métodos empleados por su mantenedor.
 
-## Adaptar el contenido del mensaje {#message-content}
+## Configuración del contenido del mensaje {#message-content}
 
 En menor medida, el contenido de ciertos mensajes puede llevar a ciertos filtros a detectarlo como correo no deseado. El uso de ciertas palabras, el uso de exclamaciones en la línea del asunto y dentro de los mensajes se interpretan como signos reveladores de spam. También se sabe que los remitentes de spam reemplazan el texto con imágenes para evitar que el texto ofensivo se analice automáticamente mediante filtros antispam. En respuesta a esto, un mensaje (en formato HTML) con una alta proporción de imágenes, o imágenes como archivos adjuntos, puede terminar siendo bloqueado.
 
