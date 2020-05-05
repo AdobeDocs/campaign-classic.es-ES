@@ -1,7 +1,7 @@
 ---
 title: Preguntas más frecuentes sobre Test and Send
 seo-title: Validación, envío y seguimiento de mensajes
-description: Preguntas más frecuentes sobre Campaign Classic
+description: Preguntas frecuentes sobre Campaign Classic
 page-status-flag: never-activated
 uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1
 contentOwner: sauviat
@@ -13,7 +13,7 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8ef56aa04a3ecc94e9e3dda24562760d6a93739d
 
 ---
@@ -25,36 +25,36 @@ source-git-commit: 8ef56aa04a3ecc94e9e3dda24562760d6a93739d
 
 Aprenda a realizar pasos de prueba y validación antes de enviar mensajes en Adobe Campaign.
 
-### What is the delivery analysis? {#what-is-the-delivery-analysis-}
+### ¿Qué es el análisis de entrega? {#what-is-the-delivery-analysis-}
 
-El análisis de envíos es la fase durante la cual se calcula la población objetivo y se prepara el contenido de entrega. Una vez finalizada, el envío está listo para realizarse. Consulte los registros para asegurarse de que todo es correcto.
+El análisis de envíos es la fase durante la cual se calcula la población objetivo y se prepara el contenido de entrega. Una vez finalizada, la entrega está listo para realizarse. Consulte los registros para asegurarse de que todo es correcto.
 
 [Haga clic aquí para obtener más información](../../delivery/using/steps-validating-the-delivery.md).
 
-### Why should I create proofs? {#why-should-i-create-proofs-}
+### ¿Por qué debería generar pruebas? {#why-should-i-create-proofs-}
 
-Adobe recomienda encarecidamente crear mensajes de prueba para probar el envío en un grupo de aprobación antes de enviarlo al objetivo principal. A continuación, puede validar los parámetros de contenido, personalización y envío de mensajes.
+Adobe recomienda encarecidamente crear mensajes de prueba para probar la entrega en un grupo de aprobación antes de enviarlo al objetivo principal. A continuación, puede validar los parámetros de contenido, personalización y envío de mensajes.
 
 [Haga clic aquí para obtener más información](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof). También puede ver [este vídeo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/managing-seed-and-proofs.html).
 
-### How to use seed addresses in Adobe Campaign? {#how-to-use-seed-addresses-in-adobe-campaign-}
+### ¿Cómo se utilizan las direcciones semilla en Adobe Campaign? {#how-to-use-seed-addresses-in-adobe-campaign-}
 
-Las direcciones sembradas se utilizan para dirigirse a los destinatarios que no coinciden con los criterios de destino definidos. Estos destinatarios se añaden al objetivo: pueden importarse o crearse directamente en la entrega o la campaña. Para los envíos de correo postal, se añaden durante la extracción y la mezcla en el documento de salida.
+Las direcciones semilla se utilizan para dirigirse a los destinatarios que no coinciden con los criterios de destino definidos. Estos destinatarios se añaden al objetivo: pueden importarse o crearse directamente en la entrega o la campaña. Para las entregas de correo postal, se añaden durante la extracción y la mezcla en el documento de salida.
 
 Estas son sus ventajas:
 
 * Sustitución aleatoria de campos con datos de perfiles de destinatario. Esto permite introducir solo la dirección de correo electrónico, por ejemplo, en la sección de dirección semilla.
-* Al utilizar un flujo de trabajo con funcionalidades de gestión de datos, los datos adicionales procesados en los envíos se pueden introducir en el nivel de dirección semilla para forzar los valores: esto evita la sustitución aleatoria de valores.
+* Al utilizar un flujo de trabajo con funcionalidades de gestión de datos, los datos adicionales procesados en las entregas se pueden introducir en el nivel de dirección semilla para forzar los valores: esto evita la sustitución aleatoria de valores.
 
 [Haga clic aquí para obtener más información sobre las direcciones semilla](../../delivery/using/about-seed-addresses.md).
 
-### How can I set up an approval process before sending messages? {#how-can-i-set-up-an-approval-process-before-sending-messages-}
+### ¿Cómo puedo configurar un proceso de aprobación antes de enviar mensajes? {#how-can-i-set-up-an-approval-process-before-sending-messages-}
 
-Para detectar posibles errores en la configuración del mensaje, Adobe recomienda configurar un ciclo de validación de envío. Asegúrese de que el contenido se aprueba con la frecuencia necesaria al enviar pruebas a los destinatarios de prueba. Se debe enviar una prueba cada vez que se realiza un cambio para aprobar el contenido.
+Para detectar posibles errores en la configuración del mensaje, Adobe recomienda configurar un ciclo de validación de entrega. Asegúrese de que el contenido se aprueba con la frecuencia necesaria al enviar pruebas a los destinatarios de prueba. Se debe enviar una prueba cada vez que se realiza un cambio para aprobar el contenido.
 
 [Haga clic aquí para obtener más información](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
-### What is a typology rule? {#what-is-a-typology-rule-}
+### ¿Qué es una regla de tipología? {#what-is-a-typology-rule-}
 
 Para evitar conflictos entre campañas, Adobe Campaign puede probar distintas combinaciones mediante la aplicación de reglas de restricción específicas. Esto garantiza que los mensajes enviados respondan de la mejor forma a las necesidades y expectativas de los clientes, de acuerdo con las políticas de comunicación de la compañía.
 
@@ -64,23 +64,23 @@ Para evitar conflictos entre campañas, Adobe Campaign puede probar distintas co
 
 Aprenda a enviar mensajes en varios canales con Adobe Campaign.
 
-### How can I send emails in waves? {#how-can-i-send-emails-in-waves-}
+### ¿Cómo puedo enviar correos electrónicos en cadena? {#how-can-i-send-emails-in-waves-}
 
 Antes de enviar un contenido a una población grande, puede [configurar una cadena](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves) para dividir mensajes en varios lotes y equilibrar la carga.
 
-### Which are the key steps to create an email in Campaign? {#which-are-the-key-steps-to-create-an-email-in-campaign-}
+### ¿Cuáles son los pasos clave para crear un correo electrónico en Campaign? {#which-are-the-key-steps-to-create-an-email-in-campaign-}
 
-Una vez que el envío de correo electrónico se haya creado y validado, puede enviarlo. Puede decidir enviar el correo electrónico al objetivo principal inmediatamente o programar una entrega para una fecha posterior. Si es necesario, antes de que esto suceda, también puede estimar la población objetivo.
+Una vez que la entrega de correo electrónico se haya creado y validado, puede enviarlo. Puede decidir enviar el correo electrónico al objetivo principal inmediatamente o programar una entrega para una fecha posterior. Si es necesario, antes de que esto suceda, también puede estimar la población objetivo.
 
 [Haga clic aquí para obtener más información](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
-### How to schedule a delivery? {#how-to-schedule-a-delivery-}
+### ¿Cómo se puede programar una entrega? {#how-to-schedule-a-delivery-}
 
-Puede retrasar el envío de mensajes para programar su fecha o manejar la presión de ventas y evitar solicitar en exceso a una población.
+Puede retrasar la entrega de mensajes para programar su fecha o manejar la presión de ventas y evitar solicitar en exceso a una población.
 
 [Haga clic aquí para obtener más información](../../delivery/using/steps-sending-the-delivery.md#scheduling-the-delivery-sending).
 
-### Can I add an attachment to emails? {#can-i-add-an-attachment-to-emails-}
+### ¿Se puede añadir un adjunto a los correos electrónicos? {#can-i-add-an-attachment-to-emails-}
 
 Con Campaign Classic, puede añadir archivos adjuntos personalizados a sus correos electrónicos.
 
@@ -90,7 +90,7 @@ Con Campaign Classic, puede añadir archivos adjuntos personalizados a sus corre
 
 Una vez enviados los mensajes, aprenda a hacer un seguimiento y medir su impacto con Adobe Campaign.
 
-### How can I configure tracked links in an email delivery? {#how-can-i-configure-tracked-links-in-an-email-delivery-}
+### ¿Cómo puedo configurar los vínculos rastreados en una entrega de correo electrónico? {#how-can-i-configure-tracked-links-in-an-email-delivery-}
 
 Para cada entrega, puede hacer un seguimiento de la recepción de mensajes y la activación de los vínculos insertados en el contenido del mensaje. Esto permite hacer un seguimiento del comportamiento de los destinatarios haciendo un seguimiento de las acciones de entrega para las que se segmentaron.
 
@@ -98,17 +98,17 @@ Para cada URL del mensaje, puede elegir si desea activar o no el seguimiento, ca
 
 [Haga clic aquí para obtener más información](../../delivery/using/about-message-tracking.md) sobre cómo realizar un seguimiento de los mensajes en Campaign Classic.
 
-### Where can I access delivery and tracking logs? {#where-can-i-access-delivery-and-tracking-logs-}
+### ¿Dónde puedo acceder a los &quot;logs&quot; de envío y seguimiento? {#where-can-i-access-delivery-and-tracking-logs-}
 
-Aprenda a realizar un seguimiento de los envíos y comprender el comportamiento de los destinatarios [desde esta página](../../delivery/using/monitoring-a-delivery.md).
+Aprenda a realizar un seguimiento de las entregas y comprender el comportamiento de los destinatarios [desde esta página](../../delivery/using/monitoring-a-delivery.md).
 
-### Where can I get delivery reports? {#where-can-i-get-delivery-reports-}
+### ¿Dónde puedo obtener los informes de envío? {#where-can-i-get-delivery-reports-}
 
-Adobe Campaign incluye un conjunto de informes para supervisar los envíos y realizar un seguimiento de los mensajes.
+Adobe Campaign incluye un conjunto de informes para supervisar las entregas y realizar un seguimiento de los mensajes.
 
 [Haga clic aquí para obtener más información sobre los informes integrados](../../reporting/using/delivery-reports.md).
 
-### How does Adobe Campaign qualify and manage quarantine addresses? {#how-does-adobe-campaign-qualify-and-manage-quarantine-addresses-}
+### ¿Cómo califica y gestiona las direcciones en cuarentena Adobe Campaign? {#how-does-adobe-campaign-qualify-and-manage-quarantine-addresses-}
 
 Adobe Campaign administra una lista de direcciones en cuarentena. Los destinatarios cuya dirección se haya puesto en cuarentena se excluyen de forma predeterminada durante el análisis de la entrega y no se tendrán en cuenta para la segmentación. Una dirección de correo electrónico se puede poner en cuarentena, por ejemplo, cuando el buzón está lleno o si la dirección no existe.
 
