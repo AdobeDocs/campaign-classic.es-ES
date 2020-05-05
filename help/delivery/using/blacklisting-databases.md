@@ -14,7 +14,7 @@ discoiquuid: eede254d-2b25-46ed-b10f-fa1d54780a75
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ac3a0ca00591943d79563e9fd4d85d71fa0ba81a
 
 ---
@@ -28,15 +28,15 @@ Estas bases de datos se denominan RBL (Listas de agujeros negros en tiempo real)
 
 * Por dirección IP: enumera las direcciones IP que envían correo no deseado o que probablemente retransmitan correo no deseado.
 * Dominio de remitente: enumera los dominios de remitente (dominio completo de la dirección de correo electrónico de rechazo) que envía el correo electrónico o se configura incorrectamente.
-* Por dominio Web: enumera los dominios (dominios de alto nivel registrados con los registradores) encontrados en las direcciones URL de los enlaces e imágenes incluidos en el contenido del correo no deseado. En Adobe Campaign, el dominio que se debe tener en cuenta suele ser la dirección que se utiliza para el seguimiento.
+* Por dominio Web: enumera los dominios (dominios de alto nivel registrados con los registradores) encontrados en las direcciones URL de los vínculos e imágenes incluidos en el contenido del correo no deseado. En Adobe Campaign, el dominio que se debe tener en cuenta suele ser la dirección que se utiliza para el seguimiento.
 
-A continuación se muestra una lista de los RBL más utilizados. Para obtener una lista más completa, consulte [https://www.dnsstuff.com/](https://tools.dnsstuff.com/) (&quot;Búsqueda de lista negra de spam&quot;).
+A continuación se muestra una lista de los RBL más utilizados. Para obtener una lista más completa, consulte [https://www.dnsstuff.com/](https://tools.dnsstuff.com/) (formulario de “Búsqueda de lista negra de correo no deseado”).
 
 * **Spamhaus**
 
    Consulte [https://www.spamhaus.org/](https://www.spamhaus.org/)
 
-   La base de datos es más importante. En general, encontrarse clasificado en esta lista es una situación muy grave. Si esto ocurre, debe actuar inmediatamente y advertir a los servicios comerciales, a los envíos y a la asistencia de Adobe Campaign.
+   La base de datos es más importante. En general, encontrarse clasificado en esta lista es una situación muy grave. Si esto ocurre, debe actuar inmediatamente y advertir a los servicios comerciales, a las entregas y a la asistencia de Adobe Campaign.
 
 * **SpamCop**
 
