@@ -13,7 +13,7 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c5a9823b2feb6e2f721a2ad15dc08c1abe672054
 
 ---
@@ -45,7 +45,7 @@ Como usuario experto, puede configurar las funcionalidades de seguimiento en la 
 
 ## ¿Cómo configurar la entrega del correo electrónico? {#how-to-configure-email-deliverability-}
 
-Además de la [Guía de introducción a la entrega de correos](https://docs.adobe.com/content/help/en/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html), lea la sección sobre la configuración de envío de correo electrónico para comprender cómo configurar su instancia para maximizar las funcionalidades de entrega de Campaign.
+Además de la [Guía de introducción a la entrega de correos](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html), lea la sección sobre la configuración de envío de correo electrónico para comprender cómo configurar su instancia para maximizar las funcionalidades de entrega de Campaign.
 
 [Haga clic aquí para obtener más información](../../installation/using/email-deliverability.md).
 
@@ -63,7 +63,7 @@ Adobe Campaign proporciona la opción Acceso de datos federados (FDA) para proce
 
 ## ¿A qué bases de datos externas puedo conectar Campaign? {#which-external-databases-can-i-connect-campaign-to-}
 
-Las bases de datos externas compatibles con Campaign mediante el Acceso de datos federados (FDA) se muestra en la [matriz de Compatibilidad](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+Las bases de datos externas compatibles con Campaign mediante el Acceso de datos federados (FDA) se muestra en la [matriz de Compatibilidad](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html).
 
 ## ¿Se puede integrar Adobe Campaign con LDAP? {#can-adobe-campaign-integrate-with-ldap-}
 
@@ -79,29 +79,29 @@ Estos conectores permiten una integración de datos rápida y sencilla: Adobe Ca
 
 Consulte [Configure CRM connectors](../../platform/using/crm-connectors.md) para aprender a sincronizar su herramienta CRM con Adobe Campaign. Vea este vídeo de caso de uso sobre la [integración de Adobe Campaign y Microsoft Dynamics 365](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html).
 
-## ¿Cómo realizar borrado de caché suave cuando los problemas son específicos del equipo o del usuario? {#perform-soft-cache-clear}
+## ¿Cómo hacer el borrado de caché de software cuando los problemas son específicos del equipo o del usuario? {#perform-soft-cache-clear}
 
-Si tiene problemas como que los nuevos logotipos se reflejen correctamente, que permiten exportar correctamente los datos específicos del equipo o del usuario, es posible que deba realizar una limpieza de caché suave con Windows (Windows 7, Windows XP, Windows 10).
+Si tiene problemas como que los nuevos logotipos se reflejen correctamente, que permiten exportar correctamente los datos específicos del equipo o del usuario, es posible que deba hacer una limpieza de caché de software con Windows (Windows 7, Windows XP, Windows 10).
 
 Una vez que haya iniciado sesión, vaya a **[!UICONTROL File]** > **[!UICONTROL Clear the local cache]**. Después de esto, cierre la sesión y vuelva a iniciarla.
 
 ![](assets/faq_soft_cache.png)
 
-Si esto aún no ayuda, intente borrar la memoria caché de disco duro siguiendo los pasos a continuación.
+Si con esto no ayuda, intente limpiar la caché de disco duro siguiendo los pasos a continuación:
 
-## ¿Cómo realizar borrado de caché dura cuando los problemas son específicos del equipo o del usuario? {#perform-hard-cache-clear}
+## ¿Cómo realizar borrado de caché de disco duro cuando los problemas son específicos del equipo o del usuario? {#perform-hard-cache-clear}
 
-Si tiene problemas como que los nuevos logotipos se reflejen correctamente, que permiten exportar correctamente los datos específicos del equipo o del usuario, es posible que deba realizar una limpieza de la caché de disco duro con Windows (Windows 7, Windows XP, Windows 10).
+Si tiene problemas como que los nuevos logotipos se reflejen correctamente, que permiten exportar correctamente los datos específicos del equipo o del usuario, es posible que deba hacer una limpieza de la caché de disco duro con Windows (Windows 7, Windows XP, Windows 10).
 
 1. En la consola del cliente, seleccione **[!UICONTROL File]** > **[!UICONTROL Clear the local cache]**.
 
-1. Cierre la sesión y cierre la consola de cliente (cliente enriquecido).
+1. Cierre la sesión y la consola de cliente (cliente enriquecido).
 
-1. Vaya a las siguientes ubicaciones, según la versión del sistema operativo:
+1. Según la versión del sistema operativo, vaya a las siguientes ubicaciones:
 
-   * Windows 7: C:\Users\&lt; Nombre de usuario >\AppData\Roaming\Neolane\NL_5\
-   * Windows XP: C:\Documents and Settings\&lt; Nombre de usuario >\Application Data\Neolane\NL_5
-   Aquí podrá ver muchos archivos xml llamados nlclient-config-&lt; valor alfanumérico >.xml.
+   * Windows 7: C:\Users\&lt; Username >\AppData\Roaming\Neolane\NL_5\
+   * Windows XP: C:\Documents and Settings\&lt; Username >\Application Data\Neolane\NL_5
+   Aquí puede ver varios archivos xml llamados nlclient-config-&lt; alphanumerical value >.xml.
 
 1. Elimine estos archivos XML y las carpetas asociadas.
 
