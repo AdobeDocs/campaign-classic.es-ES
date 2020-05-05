@@ -14,7 +14,7 @@ discoiquuid: 78c70ef4-807d-45d4-ac87-2b741c0ef5cb
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
 
 ---
@@ -22,9 +22,9 @@ source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
 
 # Prueba{#test}
 
-Una actividad de tipo **Test** activa la primera transición que cumple la condición asociada a esta. If no condition is satisfied and if the **[!UICONTROL Use the default fork]** option is activated, the default transition will be activated.
+Una actividad de tipo **Test** activa la primera transición que cumple la condición asociada a esta. Si no se cumple ninguna condición y si la opción **[!UICONTROL Use the default fork]** está activada, se activa la transición predeterminada.
 
-Una condición es una expresión JavaScript que debe evaluarse como “verdadera” o “falsa”. To enter the expression, click the icon to the right of the name of the condition, and then select **[!UICONTROL Edit...]**.
+Una condición es una expresión JavaScript que debe evaluarse como “verdadera” o “falsa”. Para introducir la expresión, haga clic en el icono a la derecha del nombre de la condición y, a continuación, seleccione **[!UICONTROL Edit...]**.
 
 ![](assets/edit_test.png)
 
