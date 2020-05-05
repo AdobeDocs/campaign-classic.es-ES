@@ -1,7 +1,7 @@
 ---
-title: Envíos multicanal
-seo-title: Envíos multicanal
-description: Envíos multicanal
+title: Entregas multicanal
+seo-title: Entregas multicanal
+description: Entregas multicanal
 seo-description: null
 page-status-flag: never-activated
 uuid: 191ff39e-f739-48b3-8865-ad1b641b7499
@@ -14,17 +14,17 @@ discoiquuid: 8dda45b4-4b5d-4b4e-a8b4-45d9bc49aaf3
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa2b6890d3c9eaf7b4b6521b2edfb494faa4798c
 
 ---
 
 
-# Envíos multicanal{#cross-channel-deliveries}
+# Entregas multicanal{#cross-channel-deliveries}
 
-Cross-channel deliveries are available in the **[!UICONTROL Deliveries]** tab of campaign workflow activities.
+Los envíos multicanal están disponibles en la pestaña **[!UICONTROL Deliveries]** de las actividades de flujo de trabajo de la campaña.
 
-Permiten crear un envío específico a un canal concreto. Puede especificar la plantilla en la que desea basar su envío, así como su contenido, del mismo modo que con un asistente de envíos clásico.
+Permiten crear una entrega específica a un canal concreto. Puede especificar la plantilla en la que desea basar su envío, así como su contenido, del mismo modo que con un asistente de envíos clásico.
 
 Los varios canales disponibles son:
 
@@ -36,12 +36,12 @@ Los varios canales disponibles son:
 * [iOS](../../delivery/using/creating-notifications.md#sending-notifications-on-ios)
 * [Android](../../delivery/using/creating-notifications.md#sending-notifications-on-android)
 
-Puede especificar un público objetivo para el envío ascendente del flujo de trabajo utilizando las distintas actividades de objetivos.
+Puede especificar un público objetivo para la entrega ascendente del flujo de trabajo utilizando las distintas actividades de objetivos.
 
 Por ejemplo, aquí podemos crear un flujo de trabajo para enviar un correo electrónico o un SMS a los suscriptores de las notificaciones push una semana más tarde. Para ello:
 
 1. Cree una campaña.
-1. In the **[!UICONTROL Targeting and workflows]** tab of your campaign, add a **[!UICONTROL Query]** to your workflow.
+1. En la pestaña **[!UICONTROL Targeting and workflows]** de la campaña, añada **[!UICONTROL Query]** al flujo de trabajo.
 1. Configure la consulta. Por ejemplo, aquí se seleccionan los destinatarios suscritos a las notificaciones push como la dimensión objetivo.
 
    >[!NOTE]
@@ -54,20 +54,20 @@ Por ejemplo, aquí podemos crear un flujo de trabajo para enviar un correo elect
 
    ![](assets/cross_channel_delivery_2.png)
 
-1. Add a **[!UICONTROL Split]** activity to your workflow to divide recipients who have a mobile number and those who have an email address.
-1. In the **[!UICONTROL Delivery]** tab, select a delivery for each of your targets.
+1. Añada una actividad **[!UICONTROL Split]** al flujo de trabajo para dividir los destinatarios que tienen número de móvil y aquellos que tienen dirección de correo electrónico.
+1. En la pestaña **[!UICONTROL Delivery]**, seleccione una entrega para cada uno de sus destinatarios.
 
    Cree su envío de la misma manera que con el asistente de envíos clásico haciendo doble clic en la actividad de envío del flujo de trabajo. Para obtener más información, consulte [esta página](../../delivery/using/about-email-channel.md).
 
    ![](assets/cross_channel_delivery_3.png)
 
-1. Add and configure a **[!UICONTROL Wait]** activity in order for the recipients not to receive too many deliveries at once.
-1. Add a **[!UICONTROL Split]** activity to divide subscribers of an iOS or Android mobile applications.
+1. Añada y configure una actividad **[!UICONTROL Wait]** para que los destinatarios no reciban demasiados envíos a la vez.
+1. Añada una actividad **[!UICONTROL Split]** para dividir los suscriptores de aplicaciones móviles iOS o Android.
 
    Seleccione un servicio para cada uno de los sistemas operativos. Para obtener más información sobre creación del servicio, consulte esta [página](../../delivery/using/configuring-the-mobile-application.md).
 
    ![](assets/cross_channel_delivery_4.png)
 
-1. Seleccione y configure un envío de aplicaciones para dispositivos móviles para cada uno de los sistemas operativos.
+1. Seleccione y configure una entrega de aplicaciones para dispositivos móviles para cada uno de los sistemas operativos.
 
    ![](assets/cross_channel_delivery_5.png)
