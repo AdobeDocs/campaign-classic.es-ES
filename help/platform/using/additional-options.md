@@ -14,7 +14,7 @@ discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5ae1f5462dd3e6c4858a27cadae24eb732c0535b
 
 ---
@@ -85,7 +85,7 @@ Si desea administrar varios accesos a una base de datos externa de FDA, una nuev
 
 ## Optimización de la personalización de correo electrónico con datos externos {#optimizing-email-personalization-with-external-data}
 
-Desde la compilación 8740, la opción **[!UICONTROL Prepare the personalization data with a workflow]** está ahora disponible en la **[!UICONTROL Analysis]** ficha de las propiedades de entrega.
+A partir de la versión 8740, la opción **[!UICONTROL Prepare the personalization data with a workflow]** está ahora disponible en la pestaña **[!UICONTROL Analysis]** de las propiedades de entrega.
 
 Durante el análisis de envío, esta opción crea y ejecuta automáticamente un flujo de trabajo que almacena todos los datos vinculados con el objetivo en una tabla temporal, incluidos los datos de tablas vinculadas en FDA.
 
