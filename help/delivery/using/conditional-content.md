@@ -14,7 +14,7 @@ discoiquuid: 167cc61a-fbc7-48cb-89ff-fbdbf9321c01
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
@@ -28,7 +28,7 @@ Al configurar los campos de contenido condicional, se puede crear una personaliz
 
 En el siguiente ejemplo, puede aprender a crear un mensaje personalizado de forma dinámica según el género y los intereses del destinatario.
 
-* Mostrar &quot;Mr.&quot; o &quot;Ms.&quot; según el valor del **[!UICONTROL Gender]** campo (M o F) en el origen de datos,
+* Mostrar &quot;Mr.&quot; o &quot;Ms.&quot; según el valor del campo **[!UICONTROL Gender]** (M o F) en la fuente de datos,
 * Conjunto personalizado de un boletín u ofertas promocionales según los intereses indicados o detectados:
 
    * Interés 1 -- > Bloque 1
@@ -48,16 +48,16 @@ Para crear contenido condicional según el valor de un campo, aplique los pasos 
 
    Para ello:
 
-   * Select the first element of the expression, **`<field>`**, (by default, this element is highlighted during insertion of the **if** expression) and click the personalization icon to replace it with the test field.
+   * Seleccione el primer elemento de la expresión, **`<field>`** (de forma predeterminada, este elemento se resalta al insertar la expresión **if**), y haga clic en el icono de personalización para reemplazarlo por el campo de prueba.
 
       ![](assets/s_ncs_user_conditional_content03.png)
 
-   * Replace **`<value>`** with the value of the field for which the condition will be satisfied. Este valor debe estar entre comillas.
-   * Especifique el contenido que desea que se inserte cuando se cumpla la condición. Este contenido puede consistir en un texto, una imagen, un formulario, un enlace de hipertexto, etc.
+   * Reemplace **`<value>`** por el valor del campo para el que se debe cumplir la condición. Este valor debe estar entre comillas.
+   * Especifique el contenido que desea que se inserte cuando se cumpla la condición. Este contenido puede consistir en un texto, una imagen, un formulario, un vínculo de hipertexto, etc.
 
       ![](assets/s_ncs_user_conditional_content04.png)
 
-1. Click the **[!UICONTROL Preview]** tab to view the content of the message according to the delivery recipient:
+1. Haga clic en la pestaña **[!UICONTROL Preview]** para ver el contenido del mensaje según el destinatario de la entrega:
 
    * Selección de un destinatario para el cual la condición es verdadera:
 
@@ -75,16 +75,16 @@ Se pueden añadir otros casos y definir contenido diferente según los valores d
 >
 >Para respetar la sintaxis de JavaScript, los caracteres **%> &lt;%** deben eliminarse después de añadir las condiciones **Else** y **Else if**
 
-Click **[!UICONTROL Preview]** and select a recipient to view the conditional content.
+Haga clic en **[!UICONTROL Preview]** y seleccione un destinatario para ver el contenido condicional.
 
 ![](assets/s_ncs_user_conditional_content08.png)
 
 ## Creación de un correo electrónico multilingüe {#creating-multilingual-email}
 
-En el siguiente ejemplo, puede aprender a crear un correo electrónico multilingüe. El contenido se mostrará en un idioma o en otro según el idioma preferido del destinatario.
+En el siguiente ejemplo, puede aprender a crear un correo electrónico multilingüe. El contenido se muestra en un idioma o en otro según el idioma preferido del destinatario.
 
 1. Cree un correo electrónico y seleccione la población objetivo. En este ejemplo, la condición para mostrar una versión o la otra se basa en el valor **Language** del perfil del destinatario. En este ejemplo, estos valores se establecen en **EN**, **FR** y **ES**.
-1. In the email HTML content, click the **[!UICONTROL Source]** tab and paste the following code:
+1. En el contenido HTML del correo electrónico, haga clic en la pestaña **[!UICONTROL Source]** y pegue el código siguiente:
 
    ```
    <% if (language == "EN" ) { %>
@@ -105,7 +105,7 @@ En el siguiente ejemplo, puede aprender a crear un correo electrónico multiling
    <% } %>
    ```
 
-1. Test email content in the **[!UICONTROL Preview]** tab by selecting recipients with different preferred languages.
+1. Pruebe el contenido de los correos electrónicos en la pestaña **[!UICONTROL Preview]** seleccionando destinatarios con diferentes idiomas preferidos.
 
    >[!NOTE]
    >
