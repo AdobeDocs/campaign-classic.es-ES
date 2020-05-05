@@ -1,7 +1,7 @@
 ---
-title: Envío
-seo-title: Envío
-description: Envío
+title: Entrega
+seo-title: Entrega
+description: Entrega
 seo-description: null
 page-status-flag: never-activated
 uuid: 3a74fd0b-8598-46a0-bf13-cf35db0987d7
@@ -14,99 +14,99 @@ discoiquuid: 9fd7122e-22c7-4f9a-a2a4-5de3daaa3c2e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 366d2149933fa68dfec2a732d1014e1875709cff
 
 ---
 
 
-# Envío{#delivery}
+# Entrega{#delivery}
 
-Una actividad de tipo **Delivery** permite crear una acción de envío. Se puede construir utilizando elementos de entrada.
+Una actividad de tipo **Delivery** permite crear una acción de entrega. Se puede construir utilizando elementos de entrada.
 
-Para configurarlo, edite la actividad e introduzca las opciones de envío.
+Para configurarlo, edite la actividad e introduzca las opciones de entrega.
 
 ![](assets/edit_diffusion.png)
 
-1. **Envío**
+1. **Entrega**
 
    Se puede:
 
-   * Actuar sobre el envío especificado en la transición entrante. To do this, select the first option of the **[!UICONTROL Delivery]** section of the window.
+   * Actuar sobre la entrega especificado en la transición entrante. Para ello, seleccione la primera opción de la sección **[!UICONTROL Delivery]** de la ventana.
 
       Esta opción se puede utilizar si ya se ha creado o especificado una actividad de flujo de trabajo anterior. Esto se puede hacer, como en el ejemplo a continuación, con una actividad del mismo tipo que generó una transición saliente.
 
-      En el ejemplo siguiente, se crea el envío por primera vez. La población y el contenido se definen más adelante. A continuación, la información de estos tres elementos se reingresa en una nueva actividad de envío utilizando la transición entrante para que se pueda enviar.
+      En el ejemplo siguiente, se crea la entrega por primera vez. La población y el contenido se definen más adelante. A continuación, la información de estos tres elementos se reingresa en una nueva actividad de entrega utilizando la transición entrante para que se pueda enviar.
 
       ![](assets/specified_transition_option_exemple.png)
 
-   * Seleccione directamente el envío correspondiente. To do this, select the **[!UICONTROL Explicit]** option and select the delivery from the drop-down list of the **[!UICONTROL Delivery]** field.
+   * Seleccione directamente la entrega correspondiente. Para ello, seleccione la opción **[!UICONTROL Explicit]** y seleccione la entrega en la lista desplegable del campo **[!UICONTROL Delivery]**.
 
-      La lista muestra los envíos no finalizados contenidos en la carpeta **Envíos** de forma predeterminada. To access other campaigns, click the **[!UICONTROL Select link]** icon.
+      La lista muestra los envíos no finalizados contenidos en la carpeta **Envíos** de forma predeterminada. Para acceder a otras campañas, haga clic en el icono **[!UICONTROL Select link]**.
 
       ![](assets/diffusion_edit_1.png)
 
-      Select the campaign from the drop-down list of the **[!UICONTROL Folder]** field, or click **[!UICONTROL Display sub-levels]** to display all of the deliveries contained in sub-folders:
+      Seleccione la campaña en la lista desplegable del campo **[!UICONTROL Folder]** o haga clic en **[!UICONTROL Display sub-levels]** para mostrar todas las entregas contenidos en las subcarpetas:
 
       ![](assets/diffusion_edit_2.png)
 
-      After selecting the delivery action, you can display the content by clicking the **[!UICONTROL Edit link]** icon.
+      Después de seleccionar la acción de entrega, puede mostrar el contenido haciendo clic en el icono **[!UICONTROL Edit link]**.
 
-   * Cree una secuencia de comandos para calcular el envío. To do this, select the **[!UICONTROL Computed by a script]** option and enter the script. You can open an input window by clicking the **[!UICONTROL Edit...]** option. El ejemplo siguiente recupera el identificador del envío:
+   * Cree una secuencia de comandos para calcular la entrega. Para ello, haga clic en la opción **[!UICONTROL Computed by a script]** e introduzca la secuencia de comandos. Puede abrir una ventana de entrada haciendo clic en la opción **[!UICONTROL Edit...]**. El ejemplo siguiente recupera el identificador de la entrega:
 
       ![](assets/diffusion_edit_3.png)
 
-   * Crear un envío nuevo. To do this, select the **[!UICONTROL New, created from a template]** option and select the delivery template which the delivery will be based on.
+   * Crear una entrega nueva. Para hacerlo, seleccione la opción **[!UICONTROL New, created from a template]** y la plantilla de entrega en la que se debe basar la entrega.
 
       ![](assets/diffusion_edit_4.png)
 
-      Click the **[!UICONTROL Select link]** icon to browse the folders, and click the **[!UICONTROL Edit link]** icon if you wish to view the content of the selected template.
+      Haga clic en el icono **[!UICONTROL Select link]** para examinar las carpetas y haga clic en el icono **[!UICONTROL Edit link]** si desea ver el contenido de la plantilla seleccionada.
 
 1. **Recipients**
 
-   Los eventos de entrada pueden especificar los destinatarios, por ejemplo, con una importación de archivos o especificados en la acción de envío. También pueden almacenarse en uno o más archivos.
+   Los eventos de entrada pueden especificar los destinatarios, por ejemplo, con una importación de archivos o especificados en la acción de entrega. También pueden almacenarse en uno o más archivos.
 
    ![](assets/diffusion_edit_5.png)
 
 1. **Content**
 
-   El contenido del mensaje se puede definir en el envío o en el evento de entrada.
+   El contenido del mensaje se puede definir en la entrega o en el evento de entrada.
 
    ![](assets/diffusion_edit_6.png)
 
 1. **Acción que quiere ejecutar**
 
-   Puede crear el envío, prepararlo, iniciarlo, estimar el objetivo o enviar una prueba.
+   Puede crear la entrega, prepararlo, iniciarlo, estimar el objetivo o enviar una prueba.
 
    ![](assets/diffusion_edit_7.png)
 
    Seleccione el tipo de acción que se va a realizar:
 
-   * **[!UICONTROL Save]**:: esta opción le permite crear el envío y guardarlo. No lo analiza ni lo envía.
-   * **[!UICONTROL Estimate the target]**:: esta opción le permite calcular el destinatario de envío para evaluar su potencial (primera fase de análisis). This action is the equivalent of selecting the **[!UICONTROL Estimate the population to be targeted]** option and clicking **[!UICONTROL Analyze]** when sending a delivery to the main target via **Delivery**.
-   * **[!UICONTROL Prepare]**:: esta opción le permite ejecutar el proceso de análisis completo (cálculo de destinatarios y preparación de contenido). No se manda el envío. This action is the equivalent of selecting the **[!UICONTROL Deliver as soon as possible]** option and clicking **[!UICONTROL Analyze]** when sending a delivery to the main target with **Delivery**.
-   * **[!UICONTROL Send a proof]**:: esta opción le permite enviar una prueba del envío. This action is the equivalent of clicking the **[!UICONTROL Send a proof]** button in the toolbar of a delivery with **Delivery**
-   * **[!UICONTROL Prepare and start]**:: esta opción inicia el proceso de análisis completo (cálculo de destinatarios y preparación de contenido) y envía el envío. Esta acción equivale a hacer clic en **[!UICONTROL Deliver as soon as possible]**, **[!UICONTROL Analyze]** y **[!UICONTROL Confirm delivery]** cuando se envía un envío al destinatario principal con **Envío**.
-   The **[!UICONTROL Act on a delivery]** activity used further on in the workflow lets you launch all remaining steps required for starting the delivery (target calculation, content preparation, delivery). For more on this, refer to [Delivery control](../../workflow/using/delivery-control.md).
+   * **[!UICONTROL Save]**: esta opción permite crear la entrega y guardarlo. No lo analiza ni lo envía.
+   * **[!UICONTROL Estimate the target]**: esta opción permite calcular el objetivo de la entrega para evaluar su potencial (primera fase del análisis). Esta acción equivale a seleccionar la opción **[!UICONTROL Estimate the population to be targeted]** y al hacer clic en **[!UICONTROL Analyze]** al enviar una entrega al objetivo principal mediante **Delivery**.
+   * **[!UICONTROL Prepare]**: esta opción permite ejecutar el proceso de análisis completo (cálculo del objetivo y preparación de contenido). No se manda la entrega. Esta acción equivale a seleccionar la opción **[!UICONTROL Deliver as soon as possible]** y hacer clic en **[!UICONTROL Analyze]** al enviar una entrega al objetivo principal mediante **Delivery**.
+   * **[!UICONTROL Send a proof]**: esta opción permite enviar una prueba de la entrega. Esta acción equivale a hacer clic en el botón **[!UICONTROL Send a proof]** de la barra de herramientas de una entrega con **Delivery**.
+   * **[!UICONTROL Prepare and start]**: esta opción inicia el proceso de análisis completo (cálculo del objetivo y preparación de contenido) y realiza la entrega. Esta acción equivale a hacer clic en las opciones **[!UICONTROL Deliver as soon as possible]**, **[!UICONTROL Analyze]** y **[!UICONTROL Confirm delivery]** al mandar una envío al objetivo principal con **Delivery**.
+   La actividad **[!UICONTROL Act on a delivery]** utilizada en el flujo de trabajo permite iniciar todos los pasos restantes necesarios para comenzar la entrega (cálculo del objetivo, preparación de contenido, entrega). Para obtener más información, consulte [Control de envíos](../../workflow/using/delivery-control.md).
 
    Las siguientes opciones también están disponibles:
 
    * **[!UICONTROL Generate an outbound transition]**
 
-      Crea una transición saliente que se activará al final de la ejecución. Puede elegir si desea o no recuperar el objetivo del envío saliente.
+      Crea una transición saliente que se activará al final de la ejecución. Puede elegir si desea o no recuperar el objetivo de la entrega saliente.
 
    * **[!UICONTROL Do not recover target]**
 
-      No recupera el objetivo de la acción de envío saliente.
+      No recupera el objetivo de la acción de entrega saliente.
 
    * **[!UICONTROL Processing errors]**
 
-      Refer to [Delivery control](../../workflow/using/delivery-control.md).
-   La pestaña **Script** permite modificar los parámetros de envío.
+      Consulte [Control de envíos](../../workflow/using/delivery-control.md).
+   La pestaña **Script** permite modificar los parámetros de entrega.
 
    ![](assets/edit_diffusion_fil_script.png)
 
-## Ejemplo: flujo de trabajo del envío {#example--delivery-workflow}
+## Ejemplo: flujo de trabajo de la entrega {#example--delivery-workflow}
 
 Cree un nuevo flujo de trabajo y añada actividades como se muestra en el gráfico siguiente:
 
@@ -114,32 +114,32 @@ Cree un nuevo flujo de trabajo y añada actividades como se muestra en el gráfi
 
 Abra la actividad **Delivery** y defina las propiedades como se indica a continuación:
 
-* En la **[!UICONTROL Delivery]** sección, seleccione **[!UICONTROL New, created from a template]** y seleccione una Plantilla de envíos.
-* En la **[!UICONTROL Recipients]** sección, seleccione **[!UICONTROL Specified in the delivery]**.
-* En la **[!UICONTROL Action to execute]** sección, mantenga la **[!UICONTROL Prepare]** opción.
+* En la sección **[!UICONTROL Delivery]**, seleccione **[!UICONTROL New, created from a template]** y, luego, una plantilla de entrega.
+* En la sección **[!UICONTROL Recipients]**, seleccione **[!UICONTROL Specified in the delivery]**.
+* En la sección **[!UICONTROL Action to execute]**, mantenga la opción **[!UICONTROL Prepare]**.
 
 ![](assets/new-workflow-param-delivery.png)
 
-Click **[!UICONTROL OK]** to close the properties window. Acaba de configurar una actividad que consista en crear y preparar un nuevo envío basado en una plantilla de envío cuyo objetivo se especificará ahí dentro.
+Haga clic en **[!UICONTROL OK]** para cerrar la ventana de propiedades. Acaba de configurar una actividad que consista en crear y preparar una nueva entrega basada en una plantilla de entrega cuyo objetivo se especificará ahí dentro.
 
 Abra la actividad **Approval** y defina las propiedades como se indica a continuación:
 
-1. In the **[!UICONTROL Assignment type]** field, select a group in which you are registered. Si está conectado con la cuenta “admin”, seleccione el grupo Administración.
+1. En el campo **[!UICONTROL Assignment type]**, seleccione un grupo en el que esté registrado. Si está conectado con la cuenta “admin”, seleccione el grupo Administración.
 1. A continuación, introduzca un título e inserte el texto siguiente en el cuerpo del mensaje:
 
    ```
    Do you wish to approve delivery (<%= vars.recCount %> recipient(s))?
    ```
 
-   Este es un mensaje que incluye una expresión escrita en JavaScript: **[!UICONTROL vars.recCount]** representa el número de destinatarios objetivo por el envío de la tarea anterior. Para obtener más información sobre las expresiones de JavaScript, consulte las plantillas [y secuencias de comandos de](../../workflow/using/javascript-scripts-and-templates.md)JavaScript.
+   Este es un mensaje que incluye una expresión escrita en JavaScript: **[!UICONTROL vars.recCount]** representa el número de destinatarios objetivo de la entrega de la tarea anterior. Para obtener más información sobre las expresiones JavaScript, consulte [Plantillas y secuencias de comandos de JavaScript](../../workflow/using/javascript-scripts-and-templates.md).
 
    ![](assets/new-workflow-param-validation.png)
 
-   The Approval task is detailed in [Approval](../../workflow/using/approval.md).
+   La tarea de aprobación se detalla en [Aprobación](../../workflow/using/approval.md).
 
 ## Parámetros de entrada {#input-parameters}
 
-Identificador de Envío, si la **[!UICONTROL Specified in the transition]** opción está seleccionada en la **[!UICONTROL Delivery]** sección.
+Identificador de entrega, si la opción **[!UICONTROL Specified in the transition]** está seleccionada en la sección **[!UICONTROL Delivery]**.
 
 * deliveryId
 * tableName
@@ -149,15 +149,15 @@ Cada evento entrante debe especificar un objetivo definido por estos parámetros
 
 >[!NOTE]
 >
->Este parámetro solo aparece si la **[!UICONTROL Specified by inbound event(s)]** opción está seleccionada en la **[!UICONTROL Recipients]** sección.
+>Este parámetro solo aparece si la opción **[!UICONTROL Specified by inbound event(s)]** está seleccionada en la sección **[!UICONTROL Recipients]**.
 
 * filename
 
-   Nombre completo del archivo generado si la **[!UICONTROL File(s) specified by inbound event(s)]** opción está seleccionada en la **[!UICONTROL Recipients]** sección.
+   Nombre completo del archivo generado si se selecciona la opción **[!UICONTROL File(s) specified by inbound event(s)]** en la sección **[!UICONTROL Recipients]**.
 
 * contentId
 
-   Identificador de contenido si la **[!UICONTROL Specified by inbound events]** opción está seleccionada en la **[!UICONTROL Content]** sección.
+   Identificador de contenido si la opción **[!UICONTROL Specified by inbound events]** está seleccionada en la sección **[!UICONTROL Content]**.
 
 ## Parámetros de salida {#output-parameters}
 
@@ -165,11 +165,11 @@ Cada evento entrante debe especificar un objetivo definido por estos parámetros
 * esquema
 * recCount
 
-Este conjunto de tres valores identifica el objetivo resultante del envío. **[!UICONTROL tableName]** es el nombre de la tabla que memoriza los identificadores del destinatario, **[!UICONTROL schema]** es el esquema de la población (normalmente nms:destinatario) y **[!UICONTROL recCount]** es el número de elementos de la tabla.
+Este conjunto de tres valores identifica el objetivo resultante de la entrega. **[!UICONTROL tableName]** es el nombre de la tabla que memoriza los identificadores del objetivo; **[!UICONTROL schema]** es el esquema de la población (normalmente nms:recipient) y **[!UICONTROL recCount]** es el número de elementos de la tabla.
 
 La transición asociada al complemento tiene los mismos parámetros.
 
 >[!NOTE]
 >
->There are no output parameters when the **[!UICONTROL Do not recover target]** option is selected.
+>No hay parámetros de salida cuando se selecciona la opción **[!UICONTROL Do not recover target]**.
 
