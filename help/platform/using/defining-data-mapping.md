@@ -14,7 +14,7 @@ discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2758b5e81d1720a4f01a610e51c4a33995d88d1
 
 ---
@@ -48,4 +48,4 @@ Para ello, siga los siguientes pasos:
 
    ![](assets/wf_new_mapping_define_extensions.png)
 
-   Click the **[!UICONTROL Save]** button to launch delivery mapping creation: all linked tables are created automatically based on the selected parameters.
+   Haga clic en el botón **[!UICONTROL Save]** para iniciar la creación de la asignación de entrega: todas las tablas vinculadas se crean automáticamente en función de los parámetros seleccionados.
