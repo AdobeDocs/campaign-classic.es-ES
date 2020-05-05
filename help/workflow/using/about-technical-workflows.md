@@ -14,7 +14,7 @@ discoiquuid: 0d65d47f-1f51-4757-8b1d-7d4a8ddc3c97
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2ffbd97a22839975293cc792d59f1ba73b7c877
 
 ---
@@ -26,9 +26,9 @@ Los flujos de trabajo detallados en esta sección se instalan con los distintos 
 
 >[!NOTE]
 >
->Los flujos de trabajo técnicos relacionados con el módulo del Centro de mensajes están disponibles de forma predeterminada en el nodo **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]** .
+>Los flujos de trabajo técnicos relacionados con el módulo Centro de mensajes están disponibles de forma predeterminada en el nodo **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]**.
 
-For more on how to monitor technical workflows, refer to the [dedicated section](../../workflow/using/monitoring-technical-workflows.md).
+Para obtener más información sobre la monitorización de flujos de trabajo técnicos, consulte la [sección dedicada](../../workflow/using/monitoring-technical-workflows.md).
 
 Esta sección incluye información sobre los flujos de trabajo técnicos que implican los siguientes paquetes:
 
@@ -36,8 +36,8 @@ Esta sección incluye información sobre los flujos de trabajo técnicos que imp
 * [Campaña](../../workflow/using/campaign.md)
 * [Web Analytics](../../workflow/using/web-analytics.md)
 * [Distributed Marketing](../../workflow/using/distributed-marketing.md)
-* [Supervisión de la capacidad de entrega (capacidad de entrega por correo electrónico)](../../workflow/using/email-deliverability.md)
-* [Procesamiento de bandeja de entrada (IR)](../../workflow/using/inbox-rendering.md)
+* [Monitorización de la capacidad de entrega (capacidad de entrega por correo electrónico)](../../workflow/using/email-deliverability.md)
+* [Renderización de la bandeja de entrada (IR)](../../workflow/using/inbox-rendering.md)
 * [Interacción](../../workflow/using/interaction.md)
 * [Control del motor de oferta](../../workflow/using/control-of-offer-engine.md)
 * [Centro de mensajes (Control)](../../workflow/using/message-center--control-.md)
