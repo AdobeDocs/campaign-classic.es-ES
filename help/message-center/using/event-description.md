@@ -14,7 +14,7 @@ discoiquuid: 3c8388d8-1a91-4d16-a8ac-016f643c6009
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc227c2da2e8b1a78714748809ad40bbcefe0458
 
 ---
@@ -24,13 +24,13 @@ source-git-commit: bc227c2da2e8b1a78714748809ad40bbcefe0458
 
 ## Acerca del modelo de datos de mensajería transaccional {#about-transactional-messaging-datamodel}
 
-La mensajería transaccional se basa en el modelo de datos de Adobe Campaign y utiliza dos tablas independientes adicionales. These [tables](../../configuration/using/data-model-description.md#message-center-module), **NmsRtEvent** and **NmsBatchEvent**, contain the same fields and let you manage real time events on the one hand and batch events on the other.
+La mensajería transaccional se basa en el modelo de datos de Adobe Campaign y utiliza dos tablas independientes adicionales. Estas [tablas](../../configuration/using/data-model-description.md#message-center-module), **NmsRtEvent** y **NmsBatchEvent**, contienen los mismos campos y permiten gestionar eventos en tiempo real por un lado y eventos por lotes por otro.
 
 ## Métodos SOAP {#soap-methods}
 
 Esta sección detalla los métodos SOAP asociados a los esquemas de módulos de mensajes transaccionales.
 
-Dos métodos SOAP **PushEvent** o **PushEvents** están vinculados a los dos esquemas de datos **nms:rtEvent** y **nms:BatchEvent** . Es el sistema de información el que determina si un evento es de tipo “por lotes” o en “tiempo real”.
+Dos métodos SOAP **PushEvent** o **PushEvents** están vinculados a los dos esquemas de datos **nms:rtEvent** y **nms:BatchEvent**. Es el sistema de información el que determina si un evento es de tipo “por lotes” o en “tiempo real”.
 
 * **PushEvent** le permite insertar un solo evento en el mensaje,
 * **PushEvents** le permite insertar una serie de eventos en el mensaje.
@@ -40,7 +40,7 @@ La ruta WSDL para acceder a ambos métodos es:
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent** para acceder al esquema de tipo en tiempo real.
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent** para acceder al esquema de tipo por lote.
 
-Both methods contain an **`<urn:sessiontoken>`** element for logging on to the transactional messaging module. Se recomienda utilizar un método de identificación a través de direcciones IP de confianza. Para recuperar el símbolo de sesión, realice una llamada SOAP de inicio de sesión y obtenga el autentificador seguido de un cierre de sesión. Utilice el mismo símbolo para varias llamadas de RT. Los ejemplos incluidos en esta sección utilizan el método de símbolo de sesión, que es el recomendado.
+Ambos métodos contienen un elemento **`<urn:sessiontoken>`** para iniciar sesión en el módulo de mensajes transaccionales. Se recomienda utilizar un método de identificación a través de direcciones IP de confianza. Para recuperar el símbolo de sesión, realice una llamada SOAP de inicio de sesión y obtenga el autentificador seguido de un cierre de sesión. Utilice el mismo símbolo para varias llamadas de RT. Los ejemplos incluidos en esta sección utilizan el método de símbolo de sesión, que es el recomendado.
 
 Si utiliza un servidor balanceador de carga, puede utilizar la autenticación Usuario/Contraseña (en el nivel del mensaje RT). Ejemplo:
 
@@ -56,9 +56,9 @@ Si utiliza un servidor balanceador de carga, puede utilizar la autenticación Us
 </PushEvent>
 ```
 
-The **PushEvent** method is made up of a **`<urn:domevent>`** parameter which contains the event.
+El método **PushEvent** está formado por un parámetro **`<urn:domevent>`** que contiene el evento.
 
-The **PushEvents** method is made up of a **`<urn:domeventcollection>`** parameter which contains events.
+El método **PushEvents** está formado por un parámetro **`<urn:domeventcollection>`** que contiene eventos.
 
 Ejemplo con PushEvent:
 
@@ -82,7 +82,7 @@ Ejemplo con PushEvent:
 
 >[!NOTE]
 >
->En caso de una llamada al método **PushEvents**, se debe añadir un elemento XML principal para cumplir con el XML estándar. This XML element will frame the various **`<rtevent>`** elements contained in the event.
+>En caso de una llamada al método **PushEvents**, se debe añadir un elemento XML principal para cumplir con el XML estándar. Este elemento XML crea los diversos elementos **`<rtevent>`** contenidos en el evento.
 
 Ejemplo con PushEvents:
 
@@ -108,13 +108,13 @@ Ejemplo con PushEvents:
 </urn:PushEvents>
 ```
 
-Los **`<rtevent>`** elementos y **`<batchevent>`** tienen un conjunto de atributos así como un elemento secundario obligatorio: **`<ctx>`** para integrar datos de mensajes.
+Los elementos **`<rtevent>`** y **`<batchevent>`** tienen un conjunto de atributos así como un elemento secundario obligatorio: **`<ctx>`** para integrar datos de mensajes.
 
 >[!NOTE]
 >
->The **`<batchevent>`** element lets you add the event to the &quot;batch&quot; queue. The **`<rtevent>`** adds the event to the &quot;real time&quot; queue.
+>El elemento **`<batchevent>`** permite añadir el evento a la cola “por lotes”. El elemento **`<rtevent>`** añade el evento a la cola “en tiempo real”.
 
-The mandatory attributes of the **`<rtevent>`** and **`<batchevent>`** elements are @type and @email. El valor de @type debe ser el mismo que el valor de la lista desglosada definido al configurar la instancia de ejecución. Este valor permite definir la plantilla que se va a vincular al contenido del evento durante el envío.
+Los atributos obligatorios de los elementos **`<rtevent>`** y **`<batchevent>`** son @type y @email. El valor de @type debe ser el mismo que el valor de la lista desglosada definido al configurar la instancia de ejecución. Este valor permite definir la plantilla que se va a vincular al contenido del evento durante la entrega.
 
 `<rtevent> configuration example:`
 
@@ -124,7 +124,7 @@ The mandatory attributes of the **`<rtevent>`** and **`<batchevent>`** elements 
 
 En este ejemplo se ofrecen dos canales: la dirección de correo electrónico y el número de teléfono móvil. **wishedChannel** permite seleccionar el canal que se desea utilizar al transformar el evento en un mensaje. El valor “0” corresponde al canal de correo electrónico, el valor “1” al canal móvil, etc.
 
-If you wish to postpone an event delivery, add the **[!UICONTROL scheduled]** field followed by the preferred date. El evento se transforma en un mensaje en esta fecha.
+Si desea posponer una entrega de eventos, añada el campo **[!UICONTROL scheduled]** seguido de la fecha preferida. El evento se transforma en un mensaje en esta fecha.
 
 Se recomienda rellenar los atributos @wishedChannel y @emailFormat con valores numéricos. La tabla de funciones que vincula los valores numéricos y las etiquetas se encuentra en la descripción del esquema de datos.
 
@@ -132,11 +132,11 @@ Se recomienda rellenar los atributos @wishedChannel y @emailFormat con valores n
 >
 >Una descripción detallada de todos los atributos autorizados, así como sus valores, están disponibles en la descripción del esquema de datos **nms:rtEvent** y **nms:BatchEvent**.
 
-The **`<ctx>`** element contains the message data. Su contenido XML está abierto, lo que significa que se puede configurar según el contenido que se va a enviar.
+El elemento **`<ctx>`** contiene los datos del mensaje. Su contenido XML está abierto, lo que significa que se puede configurar según el contenido que se va a enviar.
 
 >[!NOTE]
 >
->Es importante optimizar el número y el tamaño de los nodos XML contenidos en el mensaje para evitar sobrecargar los servidores durante el envío.
+>Es importante optimizar el número y el tamaño de los nodos XML contenidos en el mensaje para evitar sobrecargar los servidores durante la entrega.
 
 Ejemplo de datos:
 
