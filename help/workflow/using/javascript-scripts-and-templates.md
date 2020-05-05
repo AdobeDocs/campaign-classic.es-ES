@@ -14,7 +14,7 @@ discoiquuid: 8867d9c3-2ce4-4611-8c88-ce505c3a01d1
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d36192a768fd0162f2301a5fe0437074d0fda58
 
 ---
@@ -29,7 +29,7 @@ Las secuencias de comandos son ubicuas en los diagramas de flujo de trabajo:
 * Todas las actividades tienen secuencias de comandos de inicialización. Cuando se activa una actividad, se ejecuta una secuencia de comandos de inicialización que se puede utilizar para inicializar variables y para modificar las propiedades.
 * La actividad “JavaScript code” se utiliza simplemente para ejecutar una secuencia de comandos.
 * La actividad “Test” evalúa las expresiones JavaScript para activar la transición apropiada.
-* La mayoría de los campos de texto son plantillas JavaScript: Las expresiones de JavaScript se pueden incluir entre &lt;%= y %>. Estos campos presentan un botón que abre una lista desplegable para ayudarle a introducir expresiones.
+* La mayoría de los campos de texto son plantillas JavaScript: Las expresiones de JavaScript se pueden incluir entre &lt;%= and %>. Estos campos presentan un botón que abre una lista desplegable para ayudarle a introducir expresiones.
 
    ![](assets/script-button.png)
 
@@ -37,11 +37,11 @@ Las secuencias de comandos son ubicuas en los diagramas de flujo de trabajo:
 
 Los JavaScript ejecutados en el contexto de un flujo de trabajo acceden a una serie de objetos globales adicionales.
 
-* **instancia**: Representa el flujo de trabajo que se está ejecutando. El esquema de este objeto es **xtk:workflow**.
-* **tarea**: Representa las tareas que se están ejecutando. El esquema de este objeto es **xtk:workflowTask**.
-* **event**: Representa los eventos que activaron la tarea que se está ejecutando. El esquema de este objeto es **xtk:workflowEvent**. Este objeto no se inicializa para actividades de tipo **AND-join** activadas desde varias transiciones.
-* **events**: Representa la lista de eventos que activaron la tarea actual. El esquema de este objeto es **xtk:workflowEvent**. Esta tabla generalmente contiene un elemento, pero puede contener varios para las actividades de tipo **AND-join** que han sido activadas en función de diversas transiciones.
-* **actividad**: Representa el modelo de la tarea que se está ejecutando. El esquema de este objeto depende del tipo de actividad. La secuencia de comandos de inicialización puede modificar este objeto, y en otras secuencias de comandos las modificaciones tienen efectos indeterminables.
+* **instance**: Representa el flujo de trabajo que se está ejecutando. El esquema de este objeto es **xtk:workflow**.
+* **task**: Representa las tareas que se están ejecutando. El esquema de este objeto es **xtk:workflowTask**.
+* **event**: Representa los eventos que activan la tarea en ejecución. El esquema de este objeto es **xtk:workflowEvent**. Este objeto no se inicializa para actividades de tipo **AND-join** activadas desde varias transiciones.
+* **events**: Representa la lista de eventos que activan la tarea actual. El esquema de este objeto es **xtk:workflowEvent**. Esta tabla generalmente contiene un elemento, pero puede contener varios para las actividades de tipo **AND-join** que han sido activadas en función de diversas transiciones.
+* **activity**: Representa el modelo de la tarea que se está ejecutando. El esquema de este objeto depende del tipo de actividad. La secuencia de comandos de inicialización puede modificar este objeto, y en otras secuencias de comandos las modificaciones tienen efectos indeterminables.
 
 Las propiedades disponibles para estos objetos se pueden ver en una lista desplegable haciendo clic en el botón situado a la derecha de la barra de herramientas de secuencias de comandos.
 
@@ -64,31 +64,31 @@ logInfo("Label: " + instance.label)
 logInfo("Start date: " + task.creationDate)
 ```
 
-The **[!UICONTROL logInfo(message)]** function inserts a message into the log.
+La **[!UICONTROL logInfo(message)]** función inserta un mensaje en el registro.
 
-Click **[!UICONTROL OK]** to close the creation wizard, then start the workflow using the action buttons situated at the top right of the list of workflows. Al final de la ejecución, consulte el “log”. Debería poder ver dos mensajes correspondientes a la secuencia de comandos: uno muestra la etiqueta del flujo de trabajo y el otro muestra la fecha en que se activó la secuencia de comandos.
+Haga clic en **[!UICONTROL OK]** para cerrar el asistente de creación y, a continuación, inicie el flujo de trabajo utilizando los botones de acción situados en la parte superior derecha de la lista de flujos de trabajo. Al final de la ejecución, consulte el “log”. Debería poder ver dos mensajes correspondientes a la secuencia de comandos: uno muestra la etiqueta del flujo de trabajo y el otro muestra la fecha en que se activó la secuencia de comandos.
 
 ## Variables {#variables}
 
-The variables are the free properties of the **[!UICONTROL instance]**, **[!UICONTROL task]** and **[!UICONTROL event]** objects. Los tipos de JavaScript autorizados para estas variables son **[!UICONTROL string]**, **[!UICONTROL number]** y **[!UICONTROL Date]**.
+Las variables son las propiedades libres de los objetos **[!UICONTROL task]**,**[!UICONTROL instance]** y **[!UICONTROL event]**. Los tipos de JavaScript autorizados para estas variables son **[!UICONTROL string]**, **[!UICONTROL number]** y **[!UICONTROL Date]**.
 
 ### Variables de instancia {#instance-variables}
 
-The instance variables (**[!UICONTROL instance.vars.xxx]**) are comparable to global variables. Las comparten todas las actividades.
+Las variables de instancia (**[!UICONTROL instance.vars.xxx]**) son comparables a las variables globales. Las comparten todas las actividades.
 
 ### Variables de tareas {#task-variables}
 
-The task variables (**[!UICONTROL task.vars.xxx]**) are comparable to local variables. Solo se utilizan en la tarea actual. Las actividades persistentes utilizan estas variables para conservar datos y, a veces, se utilizan para intercambiar datos entre las diferentes secuencias de comandos de una misma actividad.
+Las variables de tareas (**[!UICONTROL task.vars.xxx]**) son comparables a las variables locales. Solo se utilizan en la tarea actual. Las actividades persistentes utilizan estas variables para conservar datos y, a veces, se utilizan para intercambiar datos entre las diferentes secuencias de comandos de una misma actividad.
 
 ### Variables de eventos {#event-variables}
 
-The event variables (**[!UICONTROL vars.xxx]**) enable the exchange of data between the elementary tasks of a workflow process. La tarea que activó la tarea en curso transfiere estas variables. Es posible modificarlas y definir nuevas. Después, se transfieren a las siguientes actividades.
+Las variables de eventos (**[!UICONTROL vars.xxx]**) permiten el intercambio de datos entre las tareas básicas de un proceso de flujo de trabajo. La tarea que activó la tarea en curso transfiere estas variables. Es posible modificarlas y definir nuevas. Después, se transfieren a las siguientes actividades.
 
 En el caso de las actividades de tipo **AND-join**, las variables se combinan, pero si se define una misma variable dos veces, se genera un conflicto y el valor se mantiene como indeterminado.
 
 Estas son las variables más utilizadas, que deben utilizarse con preferencia sobre las variables de instancia.
 
-Las distintas actividades modifican o leen ciertas variables de evento. Todas son variables de tipo cadena. For example, an export sets the **[!UICONTROL vars.filename]** variable with the full name of the file that has just been exported. All these read or modified variables are documented in [About activities](../../workflow/using/about-activities.md), in the sections **Input parameters** and **Output parameters** of the activities.
+Las distintas actividades modifican o leen ciertas variables de evento. Todas son variables de tipo cadena. Por ejemplo, una exportación establece la variable **[!UICONTROL vars.filename]** con el nombre completo del archivo que acaba de exportarse. Todas estas variables leídas o modificadas se documentan en [Acerca de actividades](../../workflow/using/about-activities.md), en las secciones **Parámetros de entrada** y **Parámetros de salida** de las actividades.
 
 ### Ejemplos {#example}
 
@@ -96,17 +96,17 @@ Las distintas actividades modifican o leen ciertas variables de evento. Todas so
 
 En este ejemplo, se utiliza una variable de instancia para calcular dinámicamente el porcentaje dividido que se aplicará a una población.
 
-1. Cree un flujo de trabajo y agregue una actividad de inicio.
+1. Crear un flujo de trabajo y agregar una actividad de inicio.
 
-1. Agregue y configure una actividad de código JavaScript para definir una variable de instancia.
+1. Agregar y configurar una actividad de código JavaScript para definir una variable de instancia.
 
    Por ejemplo: `instance.vars.segmentpercent = 10;`
 
    ![](assets/js_ex1.png)
 
-1. Agregue una actividad de consulta y dirija los destinatarios según sus necesidades.
+1. Agregar una actividad de consulta y dirigir los destinatarios según sus necesidades.
 
-1. Agregue una actividad de división y configúrela para realizar un muestreo aleatorio de la población entrante. El porcentaje de muestra puede ser cualquier cosa de su elección. En este ejemplo se establece en 50 %.
+1. Agregar una actividad de división y configurar para realizar un muestreo aleatorio de la población entrante. El porcentaje de muestra puede ser cualquier cosa de su elección. En este ejemplo se establece en 50%.
 
    Este porcentaje se actualiza dinámicamente gracias a la variable de instancia definida anteriormente.
 
@@ -164,17 +164,17 @@ Por consiguiente, para llamar a una variable en un filtro **instance.vars.xxx = 
 
 Por ejemplo:
 
-1. Create an instance variable that defines a delivery&#39;s internal name via the **[!UICONTROL JavaScript code]**: **instance.vars.deliveryIN = &quot;DM42&quot;**.
+1. Cree una variable de instancia que defina el nombre interno de un envío mediante el ****[!UICONTROL JavaScript code]**: instance.vars.deliveryIN = “DM42”**.
 
    ![](assets/wkf_js_activity_1.png)
 
-1. Cree una consulta cuyos objetivos y dimensiones de filtrado sean los destinatarios. En las condiciones, especifique que desea buscar todos los destinatarios a los que se envió el envío especificado por la variable.
+1. Cree una consulta cuyos objetivos y dimensiones de filtrado sean los destinatarios. En las condiciones, especifique que desea buscar todos los destinatarios a los que se envió la entrega especificado por la variable.
 
-   Como recordatorio, esta información se almacena en los “logs” de envío.
+   Como recordatorio, esta información se almacena en los “logs” de entrega.
 
-   To reference the instance variable in the **[!UICONTROL Value]** column, enter **$(instance/vars/@deliveryIN)**.
+   Para referirse a la variable de instancia en la columna **[!UICONTROL Value]**, introducir **$(instance/vars/@deliveryIN)**.
 
-   El flujo de trabajo devuelve los destinatarios del envío DM42.
+   El flujo de trabajo devuelve los destinatarios de la entrega DM42.
 
    ![](assets/wkf_var_in_query.png)
 
@@ -184,9 +184,9 @@ Además de las funciones estándar de JavaScript, existen funciones especiales d
 
 ### Historial {#journal}
 
-**[!UICONTROL logInfo(message)]** en los ejemplos anteriores. Esta función añade un mensaje de información al historial.
+Se ha detallado **[!UICONTROL logInfo(message)]** en los ejemplos anteriores. Esta función añade un mensaje de información al historial.
 
-**[!UICONTROL logError(message)]** agrega un mensaje de error al registro. La secuencia de comandos interrumpe su ejecución y el flujo de trabajo cambia de estado a “error” (la instancia se detiene de forma predeterminada).
+**[!UICONTROL logError(message)]** añade un mensaje de error al registro. La secuencia de comandos interrumpe su ejecución y el flujo de trabajo cambia de estado a “error” (la instancia se detiene de forma predeterminada).
 
 ## Secuencia de comandos de inicialización {#initialization-script}
 
@@ -194,4 +194,4 @@ En determinadas condiciones, se puede modificar una propiedad de una actividad e
 
 La mayoría de las propiedades de las actividades se pueden calcular dinámicamente, ya sea mediante una plantilla JavaScript o porque las propiedades de flujo de trabajo permiten el cálculo del valor mediante una secuencia de comandos.
 
-Sin embargo, para otras propiedades, debe utilizar la secuencia de comandos de inicialización. Esta secuencia de comandos se evalúa antes de que se ejecute la tarea. The **[!UICONTROL activity]** variable references the activity corresponding to the task. Las propiedades de esta actividad se pueden modificar y afectan solo a esta tarea.
+Sin embargo, para otras propiedades, debe utilizar la secuencia de comandos de inicialización. Esta secuencia de comandos se evalúa antes de que se ejecute la tarea. La variable **[!UICONTROL activity]** hace referencia a la actividad correspondiente a la tarea. Las propiedades de esta actividad se pueden modificar y afectan solo a esta tarea.
