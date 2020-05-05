@@ -1,7 +1,7 @@
 ---
-title: Informes sobre envíos
-seo-title: Informes sobre envíos
-description: Informes sobre envíos
+title: Informes sobre entregas
+seo-title: Informes sobre entregas
+description: Informes sobre entregas
 seo-description: null
 page-status-flag: never-activated
 uuid: 83ea834e-08f7-441b-8f15-a25ec07c4aab
@@ -14,7 +14,7 @@ discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 18309c190c351cc57f7af24f48b2a772c1840319
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 18309c190c351cc57f7af24f48b2a772c1840319
 
 # Personas y destinatarios {#person-people-and-recipients}
 
-Este ejemplo le ayuda a comprender la diferencia entre una persona y un destinatario en Adobe Campaign. Realizamos un envío a varias personas para resaltar la diferencia entre las personas y los destinatarios, a la vez que detallamos el método de cálculo para los siguientes indicadores:
+Este ejemplo le ayuda a comprender la diferencia entre una persona y un destinatario en Adobe Campaign. Realizamos una entrega a varias personas para resaltar la diferencia entre las personas y los destinatarios, a la vez que detallamos el método de cálculo para los siguientes indicadores:
 
 * **[!UICONTROL Clicks]**
 * **[!UICONTROL Distinct clicks for the population reached]**
@@ -32,16 +32,16 @@ Este ejemplo le ayuda a comprender la diferencia entre una persona y un destinat
 
 >[!NOTE]
 >
->These indicators are used in the **[!UICONTROL Tracking indicators]** report. For more on this, refer to [Tracking indicators](../../reporting/using/delivery-reports.md#tracking-indicators).
+>Estos indicadores se utilizan en el informe **[!UICONTROL Tracking indicators]**. Para obtener más información, consulte [Indicadores de seguimiento](../../reporting/using/delivery-reports.md#tracking-indicators).
 
-Se añaden tres vínculos a un envío. Se envía a 4 destinatarios:
+Se añaden tres vínculos a una entrega. Se envía a 4 destinatarios:
 
 ![](assets/s_ncs_user_indicators_example_1.png)
 
-* **[!UICONTROL John Davis]** :: este destinatario no abre el correo electrónico (y por lo tanto no hace clic en ningún vínculo).
-* **[!UICONTROL Marie Stuart]** :: abre el correo electrónico pero no hace clic en ningún vínculo.
-* **[!UICONTROL Florian David]** :: abre el correo electrónico y hace clic en los vínculos 9 veces. También reenvía el correo electrónico a alguien que lo abre y hace clic dos veces.
-* **[!UICONTROL Henry Macdonald]** :: este destinatario ha configurado su explorador de Internet para rechazar las cookies. Abre el correo electrónico y hace clic en los vínculos 4 veces.
+* **[!UICONTROL John Davis]**: este destinatario no abre el correo electrónico (y, por lo tanto, no hace clic en ningún vínculo).
+* **[!UICONTROL Marie Stuart]** : abre el correo electrónico, pero no hace clic en ningún vínculo.
+* **[!UICONTROL Florian David]**: abre el correo electrónico y hace clic en los vínculos 9 veces. También reenvía el correo electrónico a alguien que lo abre y hace clic dos veces.
+* **[!UICONTROL Henry Macdonald]**: este destinatario ha configurado su navegador de Internet para rechazar las cookies. Abre el correo electrónico y hace clic en los vínculos 4 veces.
 
 Se devuelven los siguientes “logs” de seguimiento:
 
@@ -51,7 +51,7 @@ Para obtener una idea más clara de cómo se cuentan las personas y los destinat
 
 ## Paso 1: John {#step-1--john}
 
-**[!UICONTROL John Davis]** no abre el correo electrónico (y por lo tanto no hace clic en ningún vínculo).
+**[!UICONTROL John Davis]** no abre el mensaje de correo electrónico (y, por lo tanto, no hace clic en ningún vínculo).
 
 ![](assets/s_ncs_user_indicators_example_8.png)
 
@@ -66,7 +66,7 @@ Dado que John no ha abierto ni ha hecho clic en el correo electrónico, no apare
 
 ## Paso 2: Marie {#step-2--marie}
 
-**[!UICONTROL Marie Stuart]** abre el correo electrónico pero no hace clic en ningún vínculo.
+**[!UICONTROL Marie Stuart]** abre el correo electrónico, pero no hace clic en ningún vínculo.
 
 ![](assets/s_ncs_user_indicators_example_7.png)
 
@@ -74,7 +74,7 @@ La apertura de Marie se muestra en el siguiente “log”:
 
 ![](assets/s_ncs_user_indicators_example_4bis.png)
 
-El elemento abierto se asigna a un destinatario: Marie. Por lo tanto, Adobe Campaign añade un nuevo destinatario al recuento.
+La apertura se asigna a un destinatario: Marie. Por lo tanto, Adobe Campaign añade un nuevo destinatario al recuento.
 
 **Cálculo intermedio:**
 
@@ -86,7 +86,7 @@ El elemento abierto se asigna a un destinatario: Marie. Por lo tanto, Adobe Camp
 
 ## Paso 3: Florian {#step-3--florian}
 
-**[!UICONTROL Florian David]** abre el correo electrónico y hace clic en los vínculos 9 veces. También reenvía el correo electrónico a alguien que lo abre y hace clic dos veces.
+**[!UICONTROL Florian David]** abre correo electrónico y hace clic en los vínculos 9 veces. También reenvía el correo electrónico a alguien que lo abre y hace clic dos veces.
 
 ![](assets/s_ncs_user_indicators_example_9.png)
 
@@ -96,7 +96,7 @@ Las acciones de Florian (1 apertura y 9 clics) aparecen en los siguientes “log
 
 **Recipients**: la apertura y los clics se asignan al mismo destinatario (Florian). Dado que este destinatario es diferente del anterior (Marie), Adobe Campaign añade un nuevo destinatario al recuento.
 
-People: Since this recipient&#39;s browser accepts cookies, we can see that the same identifier (UUID) is assigned to all click logs: **`fe37a503 [...]`**. Adobe Campaign identifica correctamente estos clics como pertenecientes a la misma persona. Se añade una nueva persona al recuento.
+Debido a que el navegador de este destinatario acepta cookies, podemos ver que el mismo identificador (UUID) se ha asignado a todos los “logs” de clics: **`fe37a503 [...]`**. Adobe Campaign identifica correctamente estos clics como pertenecientes a la misma persona. Se añade una nueva persona al recuento.
 
 **Cálculo intermedio:**
 
@@ -115,7 +115,7 @@ Los siguientes “logs” coinciden con la apertura y los dos clics de la person
 
 ![](assets/s_ncs_user_indicators_example_12.png)
 
-**Personas**: en cuanto a los clics, podemos ver que el mismo identificador (UUID) está asignado a todos los registros: **`9ab648f9 [...]`**. Este identificador aún no se ha contabilizado. Por lo tanto, se añade una nueva persona al cómputo.
+**Personas**: en cuanto a los clics, se puede apreciar que se asigna el mismo identificador (UUID) a todos los “logs”:**`9ab648f9 [...]`** Este identificador aún no se ha contabilizado. Por lo tanto, se añade una nueva persona al cómputo.
 
 ![](assets/s_ncs_user_indicators_example_13.png)
 
@@ -131,7 +131,7 @@ Los siguientes “logs” coinciden con la apertura y los dos clics de la person
 
 ## Paso 4: Henry {#step-4--henry}
 
-**[!UICONTROL Henry Macdonald]** ha configurado su navegador de Internet para rechazar cookies. Abre el correo electrónico y hace clic en los vínculos 4 veces.
+**[!UICONTROL Henry Macdonald]** ha configurado su navegador de Internet para rechazar las cookies. Abre el correo electrónico y hace clic en los vínculos 4 veces.
 
 ![](assets/s_ncs_user_indicators_example_10.png)
 
@@ -141,7 +141,7 @@ Los apertura y los 4 clics realizados por Henry aparecen en los siguientes “lo
 
 **Destinatarios**: la apertura y los clics se asignan al mismo destinatario (Henry). Debido a que este destinatario aún no se ha contabilizado, Adobe Campaign añade un destinatario al recuento.
 
-**Personas**: Dado que el navegador de Henry no acepta cookies, se genera un nuevo identificador (UUID) para cada clic. Cada uno de los 4 clics se interpreta como proveniente de una persona diferente. Dado que estos identificadores aún no se han contabilizado, se añaden al recuento.
+**Dado que el navegador de Henry no acepta cookies, se genera un identificador nuevo (UUID) para cada clic.** Cada uno de los 4 clics se interpreta como proveniente de una persona diferente. Dado que estos identificadores aún no se han contabilizado, se añaden al recuento.
 
 **Cálculo intermedio:**
 
@@ -162,7 +162,7 @@ A nivel de envío, tenemos los siguientes resultados:
 
 * **[!UICONTROL Clicks]** (destinatarios que hicieron clic): 2
 * **[!UICONTROL Distinct clicks for the population reached]** (personas que hicieron clic): 6
-* **[!UICONTROL Distinct opens for the population reached]** (destinatarios que abrieron): 3
+* **[!UICONTROL Distinct opens for the population reached]** (destinatarios que lo abrieron): 3
 
 Las reacciones sin procesar y la estimación de los reenvíos se calculan de la siguiente manera:
 
@@ -175,6 +175,6 @@ Las reacciones sin procesar y la estimación de los reenvíos se calculan de la 
 >
 >En las siguientes fórmulas:
 >
->* A represents the **[!UICONTROL Clicks]** indicator (recipients who clicked).
->* B representa el **[!UICONTROL Distinct clicks for the population reached]** indicador (personas que hicieron clic).
->* C representa el **[!UICONTROL Distinct opens for the population reached]** indicador (destinatarios que abrieron).
+>* A representa el indicador **[!UICONTROL Clicks]** (destinatarios que hicieron clic).
+>* B representa el indicador **[!UICONTROL Distinct clicks for the population reached]** (personas que hicieron clic).
+>* C representa el indicador **[!UICONTROL Distinct opens for the population reached]** (destinatarios que lo abrieron).
