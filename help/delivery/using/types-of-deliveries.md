@@ -1,7 +1,7 @@
 ---
-title: Tipos de envíos
-seo-title: Tipos de envíos
-description: Tipos de envíos
+title: Tipos de entregas
+seo-title: Tipos de entregas
+description: Tipos de entregas
 seo-description: null
 page-status-flag: never-activated
 uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
@@ -14,38 +14,38 @@ discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 ---
 
 
-# Tipos de envíos{#types-of-deliveries}
+# Tipos de entregas{#types-of-deliveries}
 
 Existen tres tipos de objetos de envío en Campaign:
 
-## Envío único {#single-delivery}
+## Entrega única {#single-delivery}
 
-Un **envío** es un objeto de envío independiente que se ejecuta una vez. Puede duplicarse y prepararse de nuevo; sin embargo, cuando esté en su estado final (cancelado, detenido, finalizado), no se puede volver a utilizar.
+Una **entrega** es un objeto de envío independiente que se ejecuta una vez. Puede duplicarse y prepararse de nuevo; sin embargo, cuando esté en su estado final (cancelado, detenido, finalizado), no se puede volver a utilizar.
 
-Los envíos se pueden crear desde la lista de envíos o dentro de un flujo de trabajo mediante una actividad de [envío](../../workflow/using/delivery.md).
+Las entregas se pueden crear desde la lista de entregas o dentro de un flujo de trabajo mediante una actividad de [entrega](../../workflow/using/delivery.md).
 
-Los flujos de trabajo también proporcionan actividades de envío específicas según el tipo de canal que desee utilizar. For more on these activities, refer to [this section](../../workflow/using/cross-channel-deliveries.md).
+Los flujos de trabajo también proporcionan actividades de entrega específicas según el tipo de canal que desee utilizar. Para obtener más información sobre estas actividades, consulte [esta sección](../../workflow/using/cross-channel-deliveries.md).
 
-## Envío recurrente {#recurring-delivery}
+## Entrega recurrente {#recurring-delivery}
 
-Un **envío recurrente** le permite crear un nuevo envío cada vez que se ejecute la actividad. Esto evita tener que crear un nuevo envío para las tareas recurrentes.
+Una **entrega recurrente** le permite crear un nuevo envío cada vez que se ejecute la actividad. Esto evita tener que crear una nueva entrega para las tareas recurrentes.
 
 Por ejemplo, si ejecuta este tipo de actividad una vez al mes, tras un año acaba teniendo 12 envíos.
 
-Los envíos recurrentes se crean en los flujos de trabajo a través de la actividad de [envío recurrente](../../workflow/using/recurring-delivery.md). En esta sección se muestra un ejemplo de esta actividad: [Creación de una entrega recurrente en un flujo de trabajo](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow)de segmentación.
+Las entregas recurrentes se crean en los flujos de trabajo a través de la actividad de [entrega recurrente](../../workflow/using/recurring-delivery.md). En esta sección se muestra un ejemplo de esta actividad: [Creación de una entrega recurrente en un flujo de trabajo de objetivos](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
-## Envío continuo {#continuous-delivery}
+## Entrega continua {#continuous-delivery}
 
-Un **envío continuo** le permite añadir nuevos destinatarios a un envío existente, lo que evita tener que crear un nuevo envío cada vez que se ejecuta.
+Una **entrega continua** le permite añadir nuevos destinatarios a una entrega existente, lo que evita tener que crear una nueva entrega cada vez que se ejecuta.
 
-Si cambia la información del envío (contenido, nombre, etc.), se crea un nuevo objeto de envío en la ejecución del envío. Si no se ha cambiado ninguna información, se vuelve a utilizar el mismo objeto de envío y los “logs” de envío y seguimiento se añaden en el mismo objeto.
+Si cambia la información de la entrega (contenido, nombre, etc.), se crea un nuevo objeto de envío en la ejecución de la entrega. Si no se ha cambiado ninguna información, se vuelve a utilizar el mismo objeto de envío y los “logs” de entrega y seguimiento se añaden en el mismo objeto.
 
-Por ejemplo, si ejecuta este tipo de actividad una vez al mes, acaba teniendo un solo envío después de un año (siempre y cuando no haya realizado ningún cambio en el envío).
+Por ejemplo, si ejecuta este tipo de actividad una vez al mes, acaba teniendo un solo envío después de un año (siempre y cuando no haya realizado ningún cambio en la entrega).
 
-Continuous deliveries are created within workflows via the [Continuous delivery activity](../../workflow/using/continuous-delivery.md).
+Las entregas continuas se crean dentro de flujos de trabajo a través de la [Actividad de entrega continua](../../workflow/using/continuous-delivery.md).
