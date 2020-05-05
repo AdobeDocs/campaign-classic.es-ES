@@ -14,7 +14,7 @@ discoiquuid: 0d617f1c-0d0b-489f-9027-a92b1f1eee37
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4a71d93e7e3284eaeb36b3536204474947d695f5
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 4a71d93e7e3284eaeb36b3536204474947d695f5
 
 # Acerca de Adobe Experience Manager{#about-adobe-experience-manager}
 
-La integración entre Adobe Campaign y Adobe Experience Manager le permite gestionar el contenido de los envíos de los correos electrónicos y los formularios directamente en Adobe Experience Manager.
+La integración entre Adobe Campaign y Adobe Experience Manager le permite gestionar el contenido de las entregas de los correos electrónicos y los formularios directamente en Adobe Experience Manager.
 
 También puede insertar activos directamente desde la biblioteca AEM Assets mientras edita un mensaje de correo electrónico o una página de destino en Adobe Campaign. Esta funcionalidad se detalla en la sección [Activos](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md).
 
@@ -36,7 +36,7 @@ Debe tener los siguientes elementos:
 * Una instancia **publicación** de Adobe Experience Manager.
 * Una instancia de Adobe Campaign.
 
-Adobe Campaign es compatible con Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 y 6.5. Las siguientes secciones presentan una visión general de la integración.
+Adobe Campaign es compatible con Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 y 6.5. Las siguientes secciones presentan una descripción general de la integración.
 
 >[!NOTE]
 >
