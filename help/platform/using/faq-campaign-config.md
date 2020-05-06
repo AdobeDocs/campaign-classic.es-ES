@@ -13,8 +13,11 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c5a9823b2feb6e2f721a2ad15dc08c1abe672054
+translation-type: tm+mt
+source-git-commit: 928c2d944bb9709b54a41b07e8828646f2601cb9
+workflow-type: tm+mt
+source-wordcount: '759'
+ht-degree: 96%
 
 ---
 
@@ -45,9 +48,9 @@ Como usuario experto, puede configurar las funcionalidades de seguimiento en la 
 
 ## ¿Cómo configurar la entrega del correo electrónico? {#how-to-configure-email-deliverability-}
 
-Además de la [Guía de introducción a la entrega de correos](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html), lea la sección sobre la configuración de envío de correo electrónico para comprender cómo configurar su instancia para maximizar las funcionalidades de entrega de Campaign.
+Además de la sección de configuración [de la](../../delivery/using/about-deliverability.md#configuration) entrega, lea las recomendaciones técnicas de la entrega para comprender cómo configurar su instancia a fin de maximizar las capacidades de entrega de Campaña.
 
-[Haga clic aquí para obtener más información](../../installation/using/email-deliverability.md).
+[Haga clic aquí para obtener más información](../../delivery/using/technical-recommendations.md).
 
 ## ¿Cómo puedo implementar la aprobación de contenido? {#how-can-i-implement-content-approval-}
 
@@ -105,7 +108,7 @@ Si tiene problemas como que los nuevos logotipos se reflejen correctamente, que 
 
 1. Elimine estos archivos XML y las carpetas asociadas.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >No elimine el archivo nlclient_cnx.xml.
 
