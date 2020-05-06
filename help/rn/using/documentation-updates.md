@@ -13,7 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0b3622bb0ac95eff61e2d96332e67623dffa68be
+source-git-commit: 9091059b1d8431a84eb93f104dbd8e8833cb94a7
+workflow-type: tm+mt
+source-wordcount: '6488'
+ht-degree: 98%
 
 ---
 
@@ -26,15 +29,24 @@ Esta página enumera todas las nuevas funciones y actualizaciones de documentaci
 
 También puede consultar las [Notas de la versión de Adobe Campaign Classic](../../rn/using/latest-release.md).
 
-## April 2020 {#april-2020}
+## Mayo 2020 {#may-2020}
 
-La tabla de derechos de FDA se ha movido a la documentación Acceso a una base de datos externa (FDA). [Más información](../../platform/using/remote-database-access-rights.md)
+Se ha movido y reorganizado la sección Monitoreo de la capacidad de entrega. [Más información](../../delivery/using/monitoring-deliverability.md)
 
-Las preguntas más frecuentes han sido actualizadas con sugerencias sobre cómo borrar la caché en blanco y en disco. [Más información](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear)
+Se ha movido y actualizado la sección de solución de problemas de la entregabilidad. [Más información](../../delivery/using/deliverability-faq.md)
+
+Se ha mejorado la sección Inicio de una nueva plataforma. [Más información](../../delivery/using/starting-new-platform.md)
+
+
+## de abril de 2020 {#april-2020}
+
+La tabla de derechos de FDA se ha movido a la documentación de Acceso a una base de datos externa (FDA). [Más información](../../platform/using/remote-database-access-rights.md)
+
+Las preguntas frecuentes se han actualizado con sugerencias sobre cómo borrar la caché en blanco y en disco. [Más información](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear)
 
 Se ha mejorado la sección Prácticas recomendadas del modelo de datos con información adicional sobre índices. [Más información](../../configuration/using/data-model-best-practices.md#indexes)
 
-La sección que describe el modelo de datos predefinido de Adobe Campaign se ha actualizado con más detalles sobre cada tabla lista para usar y con vínculos a los módulos relevantes. [Más información](../../configuration/using/data-model-description.md)
+La sección que describe el modelo de datos predefinido de Adobe Campaign se ha actualizado con más detalles sobre cada tabla predeterminada y con enlaces a los módulos correspondientes. [Más información](../../configuration/using/data-model-description.md)
 
 Los casos de uso de la guía &quot;Automatización con flujos de trabajo&quot; se han reorganizado en secciones temáticas. [Más información](../../workflow/using/using-the-local-approval-activity.md)
 
@@ -44,13 +56,13 @@ Se ha actualizado el artículo de MTA de Adobe Campaign mejorado. Ahora sólo se
 
 ## Marzo de 2020 {#march-2020}
 
-La página de optimizaciones del modelo de datos se ha actualizado con nuevas secciones que incluyen [Secuencias](../../configuration/using/data-model-best-practices.md#sequences), [Rendimiento](../../configuration/using/data-model-best-practices.md#performance) y Tablas [](../../configuration/using/data-model-best-practices.md#large-tables)grandes, entre otras. [Más información](../../configuration/using/data-model-best-practices.md)
+La página de prácticas recomendadas del modelo de datos se ha actualizado con nuevas secciones que incluyen [Secuencias](../../configuration/using/data-model-best-practices.md#sequences), [Rendimiento](../../configuration/using/data-model-best-practices.md#performance) y [Tablas grandes](../../configuration/using/data-model-best-practices.md#large-tables), entre otros. [Más información](../../configuration/using/data-model-best-practices.md)
 
-Ya está disponible una nueva sección que describe el modelo de datos predefinido de Adobe Campaign y la interacción de tablas integradas. [Más información](../../configuration/using/data-model-description.md)
+Ya está disponible una nueva sección que describe el modelo de datos predefinido de Adobe Campaign y la interacción de tablas predeterminadas. [Más información](../../configuration/using/data-model-description.md)
 
 Se han añadido recursos adicionales a la página de inicio de documentación. [Más información](../../campaign-classic-home.md)
 
-Se ha añadido un caso de uso sobre cómo integrar una oferta dinámica de Adobe Destinatario en un correo electrónico en Adobe Campaign. [Más información](../../integrations/using/inserting-a-dynamic-image.md)
+Se ha añadido un caso de uso sobre cómo integrar una oferta dinámica de Adobe Target en un correo electrónico en Adobe Campaign. [Más información](../../integrations/using/inserting-a-dynamic-image.md)
 
 Ya está disponible una nueva sección que detalla los distintos idiomas disponibles en Adobe Campaign. [Más información](../../platform/using/adobe-campaign-workspace.md#languages)
 
@@ -60,9 +72,9 @@ La página de administración de Access se ha actualizado con más información 
 
 Ya está disponible una nueva sección en la que se describen las prácticas recomendadas y las recomendaciones clave al diseñar el modelo de datos de Adobe Campaign. [Más información](../../configuration/using/data-model-best-practices.md)
 
-Se ha cambiado el nombre de la sección &quot;Entregabilidad por correo electrónico&quot; a &quot;Configuraciones técnicas de correo electrónico&quot;. [Más información](../../installation/using/email-deliverability.md)
+Se ha cambiado el nombre de la sección “Capacidad de envío por correo electrónico” a “Configuraciones técnicas de correo electrónico”. [Más información](../../installation/using/email-deliverability.md)
 
-El documento de preguntas más frecuentes sobre la entrega se ha actualizado con más detalles sobre el mensaje de error &quot;Cuotas satisfechas&quot;. [Más información](https://helpx.adobe.com/campaign/kb/acc-deliverability-faq.html#FAQ)
+El documento de preguntas frecuentes sobre la capacidad de envío se ha actualizado con más detalles sobre el mensaje de error “cuotas satisfechas”. [Más información](https://helpx.adobe.com/es/campaign/kb/acc-deliverability-faq.html#FAQ)
 
 La AMP para correo electrónico ahora es compatible con tres proveedores de correo electrónico (Gmail, Outlook y Mail.ru), y se ha actualizado la sección que describe cómo definir contenido interactivo con AMP. [Más información](../../delivery/using/defining-interactive-content.md)
 
@@ -72,9 +84,9 @@ Se ha aclarado la sección de archivado de correo electrónico. [Más informaci�
 
 **Nuevas funciones incluidas en la versión**
 
-Conector de FDA de copos de nieve - [Leer más](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake)
+Conector de FDA de Snowflake: [Más información](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake)
 
-Mejoras en el conector FDA Hadoop: [Más información](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3)
+Mejora del conector FDA de Hadoop: [Más información](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
@@ -86,29 +98,29 @@ La matriz de compatibilidad se ha actualizado con los conectores Hadoop 3.0 y Sn
 
 Se ha añadido una práctica recomendada sobre la afinidad de IP a la guía de instalación. [Más información](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
-Se ha actualizado la sección del flujo de trabajo de limpieza de la base de datos. Las cifras por lotes proporcionadas ahora reflejan la implementación del código. [Más información](../../production/using/database-cleanup-workflow.md)
+Se ha actualizado la sección Flujos de trabajo para la limpieza de base de datos. Las cifras por lotes proporcionadas ahora reflejan la implementación del código. [Más información](../../production/using/database-cleanup-workflow.md)
 
-Se ha agregado una limitación de FDA sobre HTTP a la guía de mensajería transaccional. [Más información](../../production/using/database-cleanup-workflow.md)
+Se ha añadido una limitación de FDA sobre HTTP a la guía de mensajería transaccional. [Más información](../../production/using/database-cleanup-workflow.md)
 
-Se ha añadido información sobre la nueva opción que le permite definir un período de tiempo de espera para las actividades de flujo de trabajo **[!UICONTROL JavaScript code]** y **[!UICONTROL Advanced JavaScript code]** . [Más información](../../workflow/using/sql-code-and-javascript-code.md)
+Se ha añadido información sobre la nueva opción que le permite definir un período de tiempo de espera para las actividades de flujo de trabajo **[!UICONTROL JavaScript code]** y **[!UICONTROL Advanced JavaScript code]**. [Más información](../../workflow/using/sql-code-and-javascript-code.md)
 
-Se ha añadido información sobre la nueva **[!UICONTROL Start Pending]** vista disponible en el nodo **[!UICONTROL Administration]** > **[!UICONTROL Audit]** > **[!UICONTROL Workflows Status]** . [Más información](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
+Se ha añadido información sobre la nueva vista **[!UICONTROL Start Pending]** disponible en el nodo **[!UICONTROL Administration]** > **[!UICONTROL Audit]** > **[!UICONTROL Workflows Status]**. [Más información](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
 
-La guía [Envío de notificaciones](../../delivery/using/about-mobile-app-channel.md) push se ha movido, reorganizado y mejorado con información aclarada.
+La guía [Envío de notificaciones push](../../delivery/using/about-mobile-app-channel.md) se ha movido, reorganizado y mejorado con información aclarada.
 
 El nuevo parámetro para la configuración de informes de direcciones URL se ha documentado [aquí](../../reporting/using/properties-of-the-report.md#defining-additional-settings).
 
-La página matriz **de funciones locales y alojadas del** Campaign Classic se ha actualizado con los nuevos conectores de FDA. [Más información](https://helpx.adobe.com/es/campaign/kb/acc-on-prem-vs-hosted.html)
+La página **matriz de funciones locales y alojadas de Campaign Classic** se ha actualizado con los nuevos conectores de FDA. [Más información](https://helpx.adobe.com/es/campaign/kb/acc-on-prem-vs-hosted.html)
 
-Se ha actualizado la página de la matriz **Capacidad del** Campaign Classic. [Más información](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)
+Se ha actualizado la página **matriz de funciones de Campaign Classic**. [Más información](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)
 
-El nuevo **[!UICONTROL Cleanup of Nmsaddress]** flujo de trabajo se ha documentado [aquí](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress).
+El nuevo flujo de trabajo **[!UICONTROL Cleanup of Nmsaddress]** se ha documentado [aquí](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress).
 
 Se ha añadido una limitación al usar una actividad de consulta en un flujo de trabajo. [Más información](../../workflow/using/query.md).
 
-Se ha agregado una nueva sección para detallar las reglas de validación de direcciones de correo electrónico mejoradas a fin de enviar una dirección a la cuarentena en caso de error suave. [Más información](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
+Se ha añadido una nueva sección para detallar las reglas de validación de direcciones de correo electrónico mejoradas a fin de enviar una dirección a cuarentena en caso de error leve. [Más información](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
 
-El parámetro del archivo de configuración que indica que una instancia está utilizando el MTA mejorado o no está documentado. [Más información](../../installation/using/the-server-configuration-file.md#mta)
+Está documentado el parámetro del archivo de configuración que indica si una instancia está utilizando el MTA mejorado o no. [Más información](../../installation/using/the-server-configuration-file.md#mta)
 
 ## Enero de 2020 {#january-2020}
 
@@ -234,7 +246,7 @@ Se ha añadido una sección que describe los pasos de instalación y configuraci
 
 Se ha agregado una sección que describe los pasos de desinstalación del servidor Campaign. [Más información](https://docs.campaign.adobe.com/doc/AC/en/INS_Appendices_Uninstalling_Campaign.html)
 
-The [security](https://helpx.adobe.com/es/campaign/kb/acc-security.html), [deliverability](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html) and [privacy](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html) getting started guides have been updated.
+Se han actualizado las guías de introducción a la [seguridad](https://helpx.adobe.com/es/campaign/kb/acc-security.html), la [capacidad de envío](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html) y la [privacidad](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html).
 
 La descripción de la opción de flujo de trabajo previo al proceso se ha actualizado para reflejar los cambios del producto. [Más información](https://docs.campaign.adobe.com/doc/AC/en/WKF_Repository_of_activities_Action_activities.html#Data_loading__file_)
 
@@ -349,7 +361,7 @@ En las [notas de la versión](https://docs.campaign.adobe.com/doc/AC/es/RN.html)
 
 Se han actualizado las guías de introducción a la [seguridad](https://helpx.adobe.com/es/campaign/kb/acc-security.html), [capacidad de entrega](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html) y [actualización de compilación](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html).
 
-The [Privacy](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html) getting started guide has been updated with information on how to invoke the API externally and how to use queryDef to query for the status and download the GDPR file.
+La guía de introducción a la [privacidad](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html) se ha actualizado con información sobre cómo invocar la API externamente y cómo utilizar queryDef para consultar el estado y descargar el archivo RGPD.
 
 Se ha añadido un caso de uso de mensajería transaccional para añadir archivos adjuntos de los correos electrónicos sobre la marcha a las entregas salientes. [Más información](https://docs.campaign.adobe.com/doc/AC/en/MCE_Use_case_Purpose.html)
 
