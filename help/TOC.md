@@ -3,9 +3,12 @@ audience: end-user
 user-guide-title: Ayuda de Adobe Campaign Standard
 index: y
 product: adobe campaign
-sub-product: adobe campaña classic
+sub-product: Adobe Campaign Classic
 translation-type: tm+mt
-source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
+source-git-commit: 2ba9efa49f26559786641ff5e1caa9c481f770b2
+workflow-type: tm+mt
+source-wordcount: '2077'
+ht-degree: 96%
 
 ---
 
@@ -151,12 +154,13 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [Inicio de una nueva plataforma](delivery/using/starting-new-platform.md)
       + [Contenido de mensajes de control](delivery/using/control-message-content.md)
       + [Mejore su reputación](delivery/using/improve-reputation.md)
-      + [Prácticas recomendadas para renovación de participación](delivery/using/re-engagement-best-practices.md)
       + [Recomendaciones técnicas](delivery/using/technical-recommendations.md)
-      + [Seguimiento técnico](delivery/using/technical-monitoring.md)
+      + [Supervisión de la capacidad de entrega](delivery/using/monitoring-deliverability.md)
       + [Renderización de la bandeja de entrada](delivery/using/inbox-rendering.md)
       + [SpamAssassin](delivery/using/spamassassin.md)
+      + [Prácticas recomendadas para renovación de participación](delivery/using/re-engagement-best-practices.md)
       + [Bases de datos de listas negras](delivery/using/blacklisting-databases.md)
+      + [Resolución de problemas](delivery/using/deliverability-faq.md)
    + Módulo de administración de contenido {#content-management}
       + [Acerca de la gestión del contenido](delivery/using/about-content-management.md)
       + [Recursos y principios del gestor de contenido](delivery/using/content-manager-resources-and-principles.md)
