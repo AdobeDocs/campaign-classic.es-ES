@@ -14,8 +14,11 @@ discoiquuid: 3aab3d47-76fd-4c68-add4-9c14240c936e
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4c4e2cfaa9603c42e5e97de1e13318f8541921ca
+translation-type: tm+mt
+source-git-commit: fcedad248169f53e716f2bd8b1b141fbf1f4d189
+workflow-type: tm+mt
+source-wordcount: '2602'
+ht-degree: 100%
 
 ---
 
@@ -24,12 +27,12 @@ source-git-commit: 4c4e2cfaa9603c42e5e97de1e13318f8541921ca
 
 El **panel de entrega** es fundamental para controlar las entregas y los problemas que puedan ser detectados durante la entrega de mensajes.
 
-**Temas relacionados**
+**Temas relacionados:**
 
 * [Comprensión de los errores de entrega](../../delivery/using/understanding-delivery-failures.md)
 * [Compresión de la gestión de la cuarentena](../../delivery/using/understanding-quarantine-management.md)
 * [Prácticas recomendadas relacionadas con las entregas](https://helpx.adobe.com/es/campaign/kb/delivery-best-practices.html)
-* [Introducción: Administración de la capacidad de entrega](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html)
+* [Administración de envíos](../../delivery/using/about-deliverability.md)
 
 ## Panel de entregas {#delivery-dashboard}
 
@@ -274,8 +277,8 @@ Puede acceder a las entregas desde la lista de entregas a través del nodo **[!U
 De forma predeterminada, la lista de entregas contiene los nombres y estados de las entregas creados en el nodo seleccionado. También muestra el número de mensajes que se van a enviar, procesados y enviados con éxito.
 
 * El número de **[!UICONTROL Messages to send]** corresponde al número de destinatarios objetivo tras realizar el análisis y antes de la entrega.
-* El número de mensajes de la columna **[!UICONTROL success]** corresponde al número de mensajes que envía el servidor y que reciben los destinatarios.
-* El número de mensajes **[!UICONTROL processed]** corresponde al número de mensajes recibidos más el número de mensajes con errores.
+* El número de mensajes de la columna **[!UICONTROL Success]** corresponde al número de mensajes que envía el servidor y que reciben los destinatarios.
+* El número de mensajes **[!UICONTROL Processed]** corresponde al número de mensajes recibidos más el número de mensajes con errores.
 
 El panel de entrega permite rastrear la cantidad de mensajes enviados.
 
