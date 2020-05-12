@@ -13,7 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8c71f54b68558178171fa30601aebf5e638db37f
+source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
+workflow-type: tm+mt
+source-wordcount: '3997'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +27,7 @@ Este documento describe las recomendaciones clave al diseñar el modelo de datos
 
 Para comprender mejor las tablas integradas de Campaña y su interacción, consulte la sección del modelo [de datos de](../../configuration/using/about-data-model.md) Campaign Classic.
 
-Lea esta [documentación](../../configuration/using/about-schema-reference.md) para empezar a usar esquemas de Campaña. Obtenga información sobre cómo configurar esquemas de extensión para ampliar el modelo de datos conceptuales de la base de datos de Adobe Campaign en este [documento](../../configuration/using/about-schema-edition.md).
+Lea [esta documentación](../../configuration/using/about-schema-reference.md) para empezar a usar esquemas de Campaña. Obtenga información sobre cómo configurar esquemas de extensión para ampliar el modelo de datos conceptuales de la base de datos de Adobe Campaign en [este documento](../../configuration/using/about-schema-edition.md).
 
 ## Información general {#overview}
 
@@ -46,7 +49,7 @@ Este enfoque centrado en el cliente se muestra en el gráfico siguiente. La mesa
 
 Para acceder a la descripción de cada tabla, vaya a **[!UICONTROL Admin > Configuration > Data schemas]**, seleccione un recurso en la lista y haga clic en la **[!UICONTROL Documentation]** ficha.
 
-El modelo de datos predeterminado de Adobe Campaign se presenta en este [documento](../../configuration/using/data-model-description.md).
+El modelo de datos predeterminado de Adobe Campaign se presenta en [este documento](../../configuration/using/data-model-description.md).
 
 >[!NOTE]
 >
@@ -154,8 +157,8 @@ Cuando se crea una tabla personalizada en Adobe Campaign con una clave principal
 De forma predeterminada, una secuencia personalizada tendrá valores que oscilarán entre +1000 y +2,1BB. Técnicamente, es posible obtener una gama completa de 4BB habilitando identificadores negativos. Debe utilizarse con cuidado y se perderá una identificación al pasar de números negativos a positivos: Adobe Campaign Classic suele ignorar el registro 0 en las consultas SQL generadas.
 
 **Temas relacionados:**
-* Para obtener más información sobre la función de generación **automática de** secuencias, consulte este [documento](https://helpx.adobe.com/es/campaign/kb/sequence_auto_generation.html).
-* Para obtener más información sobre el agotamiento de secuencias, vea este [vídeo](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
+* Para obtener más información sobre la función de generación **automática de** secuencias, consulte [este documento](https://helpx.adobe.com/es/campaign/kb/sequence_auto_generation.html).
+* Para obtener más información sobre el agotamiento de secuencias, vea [este vídeo](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
 
 ## Índices {#indexes}
 
@@ -181,7 +184,7 @@ Sin embargo, tenga en cuenta lo siguiente:
 La administración de índices puede llegar a ser muy compleja, por lo que es importante comprender cómo funcionan. Para ilustrar esta complejidad, veamos un ejemplo básico, como buscar destinatarios, filtrando el nombre y los apellidos. Para ello:
 1. Vaya a la carpeta que lista todos los destinatarios de la base de datos. Para obtener más información sobre esto, consulte [Administración de perfiles](../../platform/using/managing-profiles.md).
 1. Haga clic con el botón secundario en el **[!UICONTROL First name]** campo.
-1. Select **[!UICONTROL Filter on this field]**.
+1. Seleccione **[!UICONTROL Filter on this field]**.
 
    ![](assets/data-model-index-example.png)
 
