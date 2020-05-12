@@ -14,8 +14,11 @@ discoiquuid: 2e2d1134-9b83-4ada-b74f-c3842a0cf044
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3641e438784d40aa097f8c89ca19bdbb52f4bc7d
+translation-type: tm+mt
+source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
+workflow-type: tm+mt
+source-wordcount: '764'
+ht-degree: 99%
 
 ---
 
@@ -39,7 +42,7 @@ Adobe Campaign ofrece los siguientes canales de envío:
 1. **Canal móvil**: las entregas en canales móviles permiten enviar mensajes SMS o de LINE personalizados a la población objetivo. Consulte [el canal de SMS](../../delivery/using/sms-channel.md).
 1. **Canal de aplicación móvil**: los envíos de aplicaciones móviles permiten enviar notificaciones a sistemas iOS y Android. Consulte el capítulo [canal de aplicaciones móviles](../../delivery/using/about-mobile-app-channel.md).
 
-   En [esta página](../../delivery/using/other-channels.md) se describen otros canales.
+   Other channels are described on [this page](../../delivery/using/other-channels.md).
 
    >[!NOTE]
    >
