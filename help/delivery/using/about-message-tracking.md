@@ -14,8 +14,11 @@ discoiquuid: 5d8bbfe0-e202-4062-aa47-9ad87b975bb7
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
+translation-type: tm+mt
+source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 87%
 
 ---
 
@@ -24,9 +27,9 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 
 En el contexto de una entrega por correo electrónico, el seguimiento permite rastrear los mensajes enviados y el comportamiento de los destinatarios: abrir, hacer clic en vínculos, cancelar suscripción, etc. Esta información se recupera en la pestaña **[!UICONTROL Tracking]** del perfil de cada destinatario de la entrega. Esta pestaña presenta todos los vínculos de URL rastreados y seleccionados por el destinatario seleccionado de la lista. Esta es la acumulación de todas las direcciones URL rastreadas en las entregas que aún están presentes en la pantalla de envío. La lista se puede configurar y normalmente contiene: la dirección URL donde se hizo clic, la fecha y la hora del clic y el documento en el que se encontró la URL. Para obtener más información, consulte [esta sección](../../platform/using/editing-a-profile.md#tracking-tab).
 
-Las métricas de seguimiento pueden consultarse en los informes **[!UICONTROL URLs and click streams]**, **[!UICONTROL Tracking statistics]** y **[!UICONTROL Hot clicks]**, y en la pestaña **[!UICONTROL Tracking]** de la entrega.
+Tracking metrics can be consulted in the **[!UICONTROL URLs and click streams]**, **[!UICONTROL Tracking statistics]**, and **[!UICONTROL Hot clicks]** reports, and in the **[!UICONTROL Tracking]** tab of the delivery.
 
-El panel de envío es fundamental para controlar las entregas y los problemas que se puedan detectar durante la entrega de mensajes. Consulte esta [sección](../../delivery/using/monitoring-a-delivery.md) para obtener más información.
+El panel de envío es fundamental para controlar las entregas y los problemas que se puedan detectar durante la entrega de mensajes. For more on this refer to [this section](../../delivery/using/monitoring-a-delivery.md).
 
 **Temas relacionados**:
 
