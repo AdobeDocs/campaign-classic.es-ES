@@ -14,8 +14,11 @@ discoiquuid: 5ff1577f-0809-46fd-ac1e-11b24637e35c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: cda7ae757a6de0e8cd6227faa2b731e9f392791b
+translation-type: tm+mt
+source-git-commit: e9923eb8cb78e7af05d64a122cd35b9cf3a4f215
+workflow-type: tm+mt
+source-wordcount: '1661'
+ht-degree: 98%
 
 ---
 
@@ -200,7 +203,8 @@ Están disponibles en el árbol de Adobe Campaign, en la carpeta **[!UICONTROL A
 
 * **[!UICONTROL Recovering of web events]**: una vez cada hora, este flujo de trabajo descarga segmentos sobre el comportamiento de los usuarios en un sitio determinado, los incluye en la base de datos de Adobe Campaign e inicia el flujo de trabajo de remarketing.
 * **[!UICONTROL Event purge]**: este flujo de trabajo permite eliminar todos los eventos de la base de datos en función del periodo configurado en el campo **[!UICONTROL Lifespan]**. Para obtener más información, consulte el [Paso 2: Crear la cuenta externa en Campaign](#step-2--create-the-external-account-in-campaign).
-* **[!UICONTROL Identification of converted contacts]**: directorio de los visitantes que realizaron una compra después de una campaña de remarketing. Los datos que recopila este flujo de trabajo se pueden consultar en el informe **[!UICONTROL Re-marketing efficiency]**, consulte esta [página](#creating-a-re-marketing-campaign).* **[!UICONTROL Sending of indicators and campaign attributes]**: permite enviar indicadores de campaña de correo electrónico a través de Adobe Campaign a Adobe Experience Cloud mediante el Conector de datos de Adobe Analytics. Este flujo de trabajo se activa a las 4 de la mañana cada día y los datos pueden tardar hasta 24 horas en enviarse a Analytics.
+* **[!UICONTROL Identification of converted contacts]**: directorio de los visitantes que realizaron una compra después de una campaña de remarketing. Los datos que recopila este flujo de trabajo se pueden consultar en el informe **[!UICONTROL Re-marketing efficiency]**, consulte esta [página](#creating-a-re-marketing-campaign).
+* **[!UICONTROL Sending of indicators and campaign attributes]**:: le permite enviar indicadores de campaña de correo electrónico mediante Adobe Campaign a Adobe Experience Cloud mediante el conector Adobe Analytics - Data. Este flujo de trabajo se activa a las 4 de la mañana cada día y los datos pueden tardar hasta 24 horas en enviarse a Analytics.
 
    Tenga en cuenta que este flujo de trabajo no debe reiniciarse o volverá a enviar todos los datos anteriores, lo que puede distorsionar los resultados de Analytics.
 
@@ -232,7 +236,6 @@ Están disponibles en el árbol de Adobe Campaign, en la carpeta **[!UICONTROL A
    * **[!UICONTROL Contact date]** (scheduling/@contactDate)
 
 
-* **Identificación de contactos convertidos**: directorio de los visitantes que realizaron una compra después de una campaña de remarketing. Los datos que recopila por este flujo de trabajo se pueden consultar en el informe **[!UICONTROL Re-marketing efficiency]** (consulte esta [página](../../platform/using/adobe-analytics-data-connector.md#creating-a-re-marketing-campaign)).
 
 ## Seguimiento de envíos en Adobe Campaign {#tracking-deliveries-in-adobe-campaign}
 
