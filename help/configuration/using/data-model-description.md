@@ -13,7 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4406e11e33e14136ea43fc3cc5a92e0d1c466100
+source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
+workflow-type: tm+mt
+source-wordcount: '2375'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +31,7 @@ Para acceder a la descripción de cada tabla, vaya a **[!UICONTROL Admin > Confi
 
 >[!NOTE]
 >
->La estructura física y lógica de los datos que se llevan en la aplicación se describe en XML. Obedece a una gramática específica de Adobe Campaign, denominada esquema. For more on Adobe Campaign schemas, read out this [section](../../configuration/using/about-schema-reference.md).
+>La estructura física y lógica de los datos que se llevan en la aplicación se describe en XML. Obedece a una gramática específica de Adobe Campaign, denominada esquema. For more on Adobe Campaign schemas, read out [this section](../../configuration/using/about-schema-reference.md).
 
 ## Descripción de las tablas principales {#description-main-tables}
 
@@ -58,7 +61,7 @@ El campo iFolderId es la clave externa que vincula el destinatario a su carpeta 
 
 El campo sCountryCode es el código ISO 3166-1 Alpha 2 (2 caracteres) del país asociado al destinatario. Este campo es en realidad una clave externa en la tabla de referencia de país (NmsCountry), que contiene las etiquetas de país y otros datos de código de país. Si el país no se rellena, el valor &#39;XX&#39; se almacena (y se utiliza en lugar de un registro de ID cero).
 
-Para obtener más información sobre la tabla de Destinatarios, consulte esta [sección](../../configuration/using/about-data-model.md#default-recipient-table).
+Para obtener más información sobre la tabla de Destinatarios, consulte [esta sección](../../configuration/using/about-data-model.md#default-recipient-table).
 
 ### NmsGroup {#NmsGroup}
 
@@ -191,8 +194,8 @@ Los siguientes indicadores se actualizan automáticamente durante la ejecución 
 * Margen promedio por contacto: **dContactReactAvgMargin**. Margen promedio por contacto objetivo en la hipótesis.
 * Margen total de grupos de control: **dProofReactTotalMargin**. Margen total del grupo de control objetivo en la hipótesis.
 * Margen medio del grupo de control: **dProofReactAvgMargin**. Margen medio del grupo de control objetivo en la hipótesis.
-* Ingresos adicionales: **dAdditionalAmount**. (Ingresos medios de los grupos de control contactados - Ingresos medios) * Número de usuarios contactados.
-* Margen adicional: **dAdditionalMargin**. (Margen medio de contacto - Margen medio de grupos de control) / Número de usuarios contactados.
+* Ingresos adicionales: **dAdditionnalAmount**. (Ingresos medios de los grupos de control contactados - Ingresos medios) * Número de usuarios contactados.
+* Margen adicional: **dAdditionnalMargin**. (Margen medio de contacto - Margen medio de grupos de control) / Número de usuarios contactados.
 * Costo promedio por contacto (expresión SQL). Coste calculado del envío / Número de personas contactadas.
 * ROI (expresión SQL). Coste calculado del envío/margen total de contacto.
 * ROI efectivo (expresión SQL). Coste calculado del envío / Margen adicional.
