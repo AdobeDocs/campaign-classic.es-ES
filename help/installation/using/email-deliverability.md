@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
+source-git-commit: 3522f4f50770dde220610cd5f1c4084292d8f1f5
+workflow-type: tm+mt
+source-wordcount: '2980'
+ht-degree: 21%
 
 ---
 
@@ -142,7 +145,7 @@ Las reglas MX (Mail eXchanger) son las reglas que administran la comunicación e
 
 >[!IMPORTANT]
 >
->For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL MX management]** delivery throughput rules are no longer used. El MTA mejorado utiliza sus propias reglas MX que le permiten personalizar el rendimiento por dominio en función de su propia reputación histórica de correo electrónico y de los comentarios en tiempo real procedentes de los dominios a los que envía correos electrónicos.
+>En el caso de instalaciones alojadas o híbridas, si se ha actualizado a la MTA mejorada, ya no se utilizan las **[!UICONTROL MX management]** reglas de rendimiento de envíos. El MTA mejorado utiliza sus propias reglas MX que le permiten personalizar el rendimiento por dominio en función de su propia reputación histórica de correo electrónico y de los comentarios en tiempo real procedentes de los dominios a los que envía correos electrónicos.
 >
 >Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte este [documento](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
 
@@ -293,7 +296,7 @@ Los siguientes parámetros disponibles para cada regla son:
 
    * **[!UICONTROL Default configuration]**:: Esta es la configuración general especificada en el archivo de configuración serverConf.xml que se aplica.
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >No se recomienda modificar la configuración predeterminada.
 
@@ -327,7 +330,7 @@ Si la **[!UICONTROL Image inclusion]** opción está activada, se muestran direc
 
 Esta opción es especialmente utilizada por el mercado japonés de **Deco-mail**, **Decore Mail** o **Decoration Mail**. Para obtener más información, consulte [este documento](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >La inserción de imágenes en un correo electrónico aumenta considerablemente su tamaño.
 
@@ -355,7 +358,7 @@ Para utilizar el servidor de estadísticas en el mismo equipo, debe introducir a
  <mta statServerAddress="localhost">
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Si este campo no se rellena, el **mta** no se inicio.
 
@@ -400,7 +403,7 @@ Si, por ejemplo, la primera dirección no se puede utilizar para un MX determina
 
 * **includeDomains**: le permite reservar esta dirección IP para correos electrónicos que pertenecen a un dominio específico. Es una lista de máscaras que puede contener uno o más comodines (&#39;*&#39;). Si no se especifica el atributo, todos los dominios pueden utilizar esta dirección IP.
 
-   Ejemplo: **includeDomains=&quot;wanadoo.com,naranja.com,yahoo.*&quot;**
+   Ejemplo: **includeDomains=&quot;wanadoo.com,naranja.com,yahoo*&quot;**
 
 * **excludeDomains**: excluye una lista de dominios para esta dirección IP. Este filtro se aplica después del filtro **includeDomains** .
 
