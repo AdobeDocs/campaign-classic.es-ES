@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2aad7e586b83bbb6c7b4233e9844e038802f50d7
+source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
 workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 12%
+source-wordcount: '1324'
+ht-degree: 11%
 
 ---
 
@@ -35,9 +35,9 @@ En Adobe Campaign, existe una configuración relacionada con el número de corre
 
 Esto significa que una conexión puede utilizar una regla MX sin enviar correctamente un correo electrónico. En este caso, una configuración con una dirección IP o un dominio con una baja reputación debe probar varias conexiones antes de enviar un correo electrónico. Por cada intento, se gasta un crédito de messages per hour (mensajes por hora). Como resultado, el rendimiento de la campaña de marketing se ve afectado de forma significativa.
 
-Así que &#39;cuotas cumplidas&#39; no es solamente un problema de configuración, sino que también puede estar vinculado a la reputación. Es importante analizar los mensajes de error del “log” SMTP.
+Por lo tanto, &#39;cupos cumplidos&#39; no es sólo un problema de configuración, sino que también puede estar vinculado a la reputación. It is important to analyze error messages in the [SMTP log](../../production/using/monitoring-processes.md#smtp-errors-per-domain).
 
-For more on MX configuration, see the [detailed documentation](../../installation/using/email-deliverability.md#mx-configuration).
+For more on MX configuration, see [this section](../../installation/using/email-deliverability.md#mx-configuration).
 
 ## El mismo mensaje de error para un ISP {#same-error-for-an-isp}
 
@@ -57,7 +57,7 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
    * El estado **[!UICONTROL Blacklisted]** es el resultado de un bucle de retroalimentación (cuando una persona informa un mensaje como correo no deseado).
 
    * El estado **[!UICONTROL Quarantined]** es el resultado de un rebote suave o fuerte.
-   For more on this, see this [section](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-blacklisting).
+   Para obtener más información, consulte [esta sección](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-blacklisting).
 
 * **¿Qué significan las diferentes razones de error de cuarentena?**
 
@@ -76,9 +76,9 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
 * **¿Cómo puedo averiguar si una de mis IP es en la lista negra? ¿Cómo desbloqueo mis IP?**
 
    Para comprobar si su dirección IP está en la lista negra, puede utilizar varios sitios Web para verificarla:
-   * https://mxtoolbox.com/
-   * https://whatismyipaddress.com/blacklist-check
-   * https://www.blacklistalert.org/
+   * [https://mxtoolbox.com/](https://mxtoolbox.com/)
+   * [https://whatismyipaddress.com/blacklist-check](https://whatismyipaddress.com/blacklist-check)
+   * [https://www.blacklistalert.org/](https://www.blacklistalert.org/)
    Generalmente, el resultado de la comprobación de la dirección IP devolverá una lista que contiene detalles de la lista negra y también el nombre del sitio Web que en la lista negra la dirección IP.
 
    Al hacer clic en el vínculo correspondiente, puede acceder a los detalles del sitio Web. A continuación, puede solicitar que el sitio web se elimine del sitio web que haya en la lista negra la dirección IP.
@@ -89,13 +89,19 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
 
 ## Prácticas recomendadas {#best-practices}
 
+A continuación se describen algunas prácticas recomendadas que pueden ayudar a identificar y abordar los problemas de entrega.
+
 ### Identificar un problema de entrega {#identify-deliverability-issue}
 
-* Métricas de correo o campaña: las tasas de cancelación de suscripción/abuso de queja/devolución son más altas de lo habitual.
-* actividad del suscriptor: las aperturas/clics/transacciones son inferiores a lo habitual.
+Los siguientes elementos pueden llamar su atención:
+
+* Métricas de correo o campaña: las tasas de cancelación de suscripción, abuso de queja y/o devolución son más altas de lo habitual.
+* actividad del suscriptor: las aperturas, los clics y/o las transacciones son inferiores a lo habitual.
 * Las cuentas de inicialización muestran los correos filtrados o no entregados.
 
 ### Causas potenciales de hipotecas {#potential-causes}
+
+Hágase las siguientes preguntas para identificar las posibles causas del problema de entregabilidad:
 
 * ¿Hubo un cambio reciente en la segmentación de listas?
 * ¿He adquirido fuentes de datos nuevas?
@@ -110,22 +116,36 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
 
 **Reclamaciones**
 
-Las quejas son definidas por los suscriptores que pulsan el botón &quot;esto es spam&quot;. Si su problema de envío fue causado por quejas, debe intentar determinar por qué los destinatarios se quejan. Es posible que los clientes con altas tasas de quejas también deseen cambiar el vínculo de cancelación de suscripción a la parte superior de su correo electrónico para animar a los suscriptores que han decidido hacer clic en el botón de spam a darse de baja en lugar de quejarse.
+Las quejas las definen los suscriptores que **informan del correo electrónico como correo no deseado** pulsando el botón correspondiente de su bandeja de entrada.
 
-Los remitentes pueden obtener una gran cantidad de información a partir de sus quejas sobre el bucle de retroalimentación. Es importante agrupar los datos y buscar patrones en elementos como la fuente de inclusión, cuánto tiempo se ha suscrito la dirección o incluso ciertas características demográficas del comportamiento. Las quejas pueden identificar a menudo una fuente de datos o un segmento riesgosos dentro del archivo. Se define el riesgo como el más propenso a quejarse, lo que puede dañar la reputación y, a su vez, las tasas de entrada.
+Si su problema de envío fue causado por quejas:
+* Debes tratar de determinar por qué los destinatarios se quejan.
+* También puede que desee considerar mover el vínculo de cancelación de suscripción a la parte superior de su correo electrónico. Esto animará a los suscriptores a cancelar la suscripción en lugar de quejarse con el botón de spam.
 
-Las quejas también provienen de suscriptores que ya no quieren recibir correo electrónico. Esto a menudo puede deberse a mensajes excesivos, a su percepción del mensaje, a que no esperaban el mensaje o no recordaban adhesión. También es importante ejecutar una auditoría para asegurarse de que todos los puntos de recopilación están claros y de que no hay casillas premarcadas en los puntos de adquisición. También debe enviar un correo electrónico de bienvenida cuando los suscriptores opten por establecer el tono y explicar la frecuencia con la que pueden esperar recibir mensajes de correo electrónico de su parte.
+Los remitentes pueden obtener una gran cantidad de información de sus quejas sobre el ciclo [de](../../delivery/using/technical-recommendations.md#feedback-loop) retroalimentación:
+* Es importante agrupar los datos y buscar patrones en elementos como la fuente de inclusión, cuánto tiempo se ha suscrito la dirección o incluso ciertas características demográficas del comportamiento.
+* Las quejas pueden identificar a menudo una fuente de datos o un segmento riesgosos dentro del archivo. Se define el riesgo como el más propenso a quejarse, lo que puede dañar la reputación y, a su vez, las tasas de entrada.
+
+Las quejas también provienen de suscriptores que ya no quieren recibir correo electrónico:
+* Esto a menudo puede deberse a mensajes excesivos, a que los suscriptores perciben el mensaje, que no esperaban el mensaje o que no recordaban adhesión.
+* También es importante realizar una auditoría para asegurarse de que todos los puntos de recopilación están claros y de que no hay casillas premarcadas en los puntos de adquisición.
+* También debe enviar un correo electrónico de bienvenida cuando los suscriptores opten por establecer el tono y explicar la frecuencia con la que pueden esperar recibir mensajes de correo electrónico de su parte.
 
 **Validez de los datos**
 
-Las devoluciones se producen cuando se envía a una dirección no entregable en un ISP. Una dirección puede no entregarse por muchas razones, como una dirección mal escrita, una lista incorrecta o una fuente de datos, o bien, puede enviarse a una dirección que estuvo activa en un momento determinado, pero que se cerró o finalizó después de un período de inactividad. Si se encuentra con una rebotancia alta, es importante revisar la lista. Si procede de un nuevo origen, revise cómo se recopilaron las direcciones y asegúrese de que haya permisos. Los datos incorrectos también pueden provenir de direcciones mal escritas. Esto se puede solucionar con un servicio de validación de datos en tiempo real o requiriendo una opción de inclusión confirmada antes de enviar correos electrónicos de marketing a esa dirección.
+**Las devoluciones** en firme se producen cuando se envía a una dirección **** no entregable en un ISP. Una dirección puede no entregarse por muchas razones, como:
+* Dirección incorrecta. Esto se puede solucionar con un servicio de validación de datos en tiempo real o requiriendo una opción de inclusión confirmada antes de enviar correos electrónicos de marketing a esa dirección.
+* lista incorrecta o fuente de datos. Si procede de una nueva fuente, revise cómo se recopilaron las direcciones y asegúrese de que haya permisos.
+* Enviar un mensaje a una dirección que en un momento estaba activa, pero que se cerró o terminó después de un período de inactividad.
 
 **Participación**
 
-Además de las quejas y la validez de los datos, los proveedores de servicios de Internet se concentran más que nunca en la participación positiva para tomar decisiones de envío. Están buscando ver si sus suscriptores están abriendo sus correos electrónicos o eliminándolos sin leerlos. Dado que no comparten estos datos con los remitentes, debemos utilizar la información que tenemos disponible y traducir aperturas/clics/transacciones como participación.
+Además de las quejas y la validez de los datos, los proveedores de servicios de Internet se concentran más que nunca en la participación **** positiva para tomar decisiones de envío. Están buscando ver si sus suscriptores están abriendo sus correos electrónicos o eliminándolos sin leerlos. Dado que no comparten estos datos con los remitentes, debemos utilizar la información que tenemos disponible y traducir aperturas/clics/transacciones como participación.
 
-Como parte del mantenimiento continuo de la reputación, es importante comprender cómo los suscriptores comprometidos están en su lista y desarrollar una jerarquía de riesgo de actualización para los suscriptores de cada archivo. La actualización se define como la última fecha de apertura/clic/transacción o de registro. Este intervalo de tiempo puede variar en función de la vertical. Determinar segmentos activos (&quot;seguros&quot;) para cada vertical. Generalmente son suscriptores que han estado activos en los últimos 3-6 meses.
+Como parte del mantenimiento continuo de la reputación, es importante comprender cómo los suscriptores comprometidos están en su lista y desarrollar una jerarquía **de riesgo de** actualización para los suscriptores de cada archivo. La actualización se define como la última fecha de apertura/clic/transacción o de registro. Este intervalo de tiempo puede variar en función de la vertical. Para ello:
 
-Reducir la frecuencia a inactives. Cree una serie de recontratación para los inactivos de riesgo moderado. Generalmente, esto es de 6 a 9 meses sin compromiso. Desarrollar una campaña de reconfirmación para los inactivos de mayor riesgo. Generalmente son suscriptores que no han interactuado con un correo electrónico en 9-12 meses. Por último, debe establecer una regla desplegable y eliminar los suscriptores que no se hayan abierto en &quot;x&quot; meses. Normalmente recomendamos más de 12 meses, pero esto puede variar en función del ciclo de ventas y compras.
-
-For more on re-engagement, see [this section](../../delivery/using/re-engagement-best-practices.md).
+1. Determinar segmentos activos (&quot;seguros&quot;) para cada vertical. Generalmente son suscriptores que han estado activos en los últimos 3-6 meses.
+1. Reducir la frecuencia a inactives.
+1. Cree una serie de [reparticipación](../../delivery/using/re-engagement-best-practices.md) para los inactivos de riesgo moderado. Generalmente, esto es de 6 a 9 meses sin compromiso.
+1. Desarrollar una campaña de reconfirmación para los inactivos de mayor riesgo. Generalmente son suscriptores que no han interactuado con un correo electrónico en 9-12 meses.
+1. Finalmente, establezca una regla desplegable y elimine los suscriptores que no hayan abierto sus correos electrónicos en &#39;x&#39; meses. Normalmente recomendamos más de 12 meses, pero esto puede variar en función del ciclo de ventas y compras.
