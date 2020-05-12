@@ -13,15 +13,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c687c8ad19560d4181c2db52a91e096cceea705e
+source-git-commit: e6617614ae22b73c6783f9775f441e5e25ae19e3
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '480'
 ht-degree: 90%
 
 ---
 
 
 # Acerca de la capacidad de la entrega{#about-deliverability}
+
+**La capacidad de entrega consiste en medir el éxito de las campañas que llegan a la bandeja de entrada de los destinatarios sin rebotar o marcadas como correo no deseado.**
 
 Adobe Campaign ofrece herramientas para hacer un seguimiento de la capacidad de envío de su plataforma. Esta sección también resalta los principios principales que debe tener en cuenta al administrar y optimizar la capacidad de entrega.
 
