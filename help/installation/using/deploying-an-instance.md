@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a2cb740fe9b71435f602b738bd270fd3a0954901
+source-git-commit: 3522f4f50770dde220610cd5f1c4084292d8f1f5
+workflow-type: tm+mt
+source-wordcount: '3055'
+ht-degree: 3%
 
 ---
 
@@ -67,7 +70,7 @@ La sección inferior de la ventana permite seleccionar las opciones que se activ
 Estas son las opciones disponibles:
 
 * **[!UICONTROL Email channel]** :: para activar el envío de correo electrónico. Consulte los parámetros [de canal de](#email-channel-parameters)correo electrónico.
-* **[!UICONTROL Tracking]** :: Para habilitar el seguimiento de la población de destinatarios (aperturas y clics). Consulte Configuración [de seguimiento](#tracking-configuration).
+* **[!UICONTROL Tracking]** :: Para habilitar el seguimiento de la población de destinatarios (aperturas y clics). Refer to [Tracking configuration](#tracking-configuration).
 * **[!UICONTROL Managing bounced emails]** :: Para definir la cuenta POP utilizada para recoger el correo electrónico entrante. Consulte [Administración de correos electrónicos](#managing-bounced-emails)devueltos.
 * **[!UICONTROL LDAP integration]** :: Para configurar la autenticación de usuarios mediante un directorio LDAP. Consulte [Conexión a través de LDAP](../../installation/using/connecting-through-ldap.md).
 
@@ -160,7 +163,7 @@ Las devoluciones sin procesar no se muestran en la interfaz de Adobe Campaign. S
 * **[!UICONTROL Address for errors]** :: Rellene este campo para transferir a una dirección de terceros únicamente los mensajes de error que el proceso de inMail no pudo calificar.
 * **[!UICONTROL SMTP server]** :: Servidor utilizado para enviar correos electrónicos de devolución sin procesar.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Para reenviar correos electrónicos de devolución sin procesar, Adobe recomienda rellenar solo el **[!UICONTROL Address for errors]** campo. Sin embargo, asegúrese de que la dirección que se utiliza se compruebe con regularidad, ya que esto podría suponer una carga pesada en el servidor de correo. Póngase en contacto con el ejecutivo de cuentas para obtener más información.
 
@@ -310,7 +313,7 @@ Esta etapa permite incluir las preferencias de la directiva de datos.
 
 ## Acceso desde Internet {#access-from-the-internet}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Por razones de privacidad, recomendamos utilizar HTTPS para todos los recursos externos.
 
@@ -334,7 +337,7 @@ Adobe Campaign permite diferenciar estas tres direcciones URL para distribuir la
 
 ## Administración de recursos públicos {#managing-public-resources}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Por razones de privacidad, recomendamos utilizar HTTPS para todos los recursos externos.
 
