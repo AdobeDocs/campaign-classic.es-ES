@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9091059b1d8431a84eb93f104dbd8e8833cb94a7
+source-git-commit: 2e82605eda5bccd2e5604614acd4cb7d646822fc
 workflow-type: tm+mt
-source-wordcount: '6488'
+source-wordcount: '6502'
 ht-degree: 98%
 
 ---
@@ -37,6 +37,7 @@ Se ha movido y actualizado la sección de solución de problemas de la entregabi
 
 Se ha mejorado la sección Inicio de una nueva plataforma. [Más información](../../delivery/using/starting-new-platform.md)
 
+La sección Envío de correos electrónicos transaccionales con archivos adjuntos se ha movido y actualizado. [Más información](../../message-center/using/transactional-email-with-attachments.md)
 
 ## de abril de 2020 {#april-2020}
 
