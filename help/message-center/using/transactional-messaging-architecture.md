@@ -12,8 +12,11 @@ discoiquuid: a910d5fe-cef4-47d8-b3bc-0055ef0d1afd
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 25ae29490f8b4c58dad499669f5bccff43de8b7a
+translation-type: tm+mt
+source-git-commit: e8a9d8d63c01cc19380267fced45e180b4d7ccb4
+workflow-type: tm+mt
+source-wordcount: '988'
+ht-degree: 69%
 
 ---
 
@@ -57,11 +60,11 @@ Para instalar los paquetes de mensajes transaccionales deben tomarse varias prec
 
 Si necesita utilizar varios canales, debe instalar y configurar los paquetes relacionados antes de instalar los paquetes de los mensajes transaccionales. Consulte [Añadir un canal de entrega](#adding-a-delivery-channel).
 
-* Para instalar la instancia de control en el equipo, seleccione el módulo **[!UICONTROL Control de mensajes transaccionales]**.
+* To install the control instance on your machine, select the **[!UICONTROL Transactional message control]** module.
 
    ![](assets/messagecenter_install_controlinstance_001.png)
 
-* Para instalar la instancia de ejecución en el equipo, seleccione el módulo **[!UICONTROL Ejecución de mensajes transaccionales]**.
+* To install the execution instance on your machine, select the **[!UICONTROL Transactional message execution]** module.
 
    ![](assets/messagecenter_install_executioninstance_001.png)
 
@@ -69,46 +72,46 @@ Si necesita utilizar varios canales, debe instalar y configurar los paquetes rel
 
 La adición de un canal de entrega (canal móvil, canal de aplicación móvil, etc.) debe realizarse antes de instalar el paquete de mensajes transaccionales. Si ha iniciado un proyecto de mensajería transaccional en el canal de correo electrónico, y decide durante el proyecto agregar un canal nuevo, debe seguir estos pasos:
 
-1. Instale el canal que necesita, por ejemplo, el **canal móvil**, mediante el asistente de importación de paquetes (**[!UICONTROL Tools > Advanced > Import package... > Adobe Campaign Package]**).
-1. Realice una importación de archivos (**[!UICONTROL Tools > Advanced > Import package... > File]**) y seleccione el archivo ****`[Your language]`**datakitnmspackagemessageCenter.xml**.
-1. En el **[!UICONTROL Contenido XML de los datos a importar]** mantenga solo la plantilla de entrega que corresponde al canal añadido. Por ejemplo, si ha añadido el **Canal móvil**, conserve solamente el elemento **entidades** que corresponda a **[!UICONTROL Mensaje transaccional móvil]** (smsTriggerMessage). Si ha añadido el **canal de aplicación móvil**, mantenga únicamente el **mensaje transaccional de iOS** (iosTriggerMessage) y el **mensaje transaccional de Android** (androidTriggerMessage).
+1. Install the channel you need, for example the **Mobile channel**, using the package import wizard ( **[!UICONTROL Tools > Advanced > Import package... > Adobe Campaign Package]** ).
+1. Perform a file import ( **[!UICONTROL Tools > Advanced > Import package... > File]** ), and select the **datakitnms **`[Your language]`**packagemessageCenter.xml** file.
+1. In the **[!UICONTROL XML content of the data to import]** , keep only the delivery template that corresponds to the added channel. For example, if you have added the **Mobile channel**, keep only the **entities** element that corresponds to the **[!UICONTROL Mobile transactional message]** (smsTriggerMessage). Si ha añadido el **canal de aplicación móvil**, mantenga únicamente el **mensaje transaccional de iOS** (iosTriggerMessage) y el **mensaje transaccional de Android** (androidTriggerMessage).
 
    ![](assets/messagecenter_install_channel.png)
 
-## Mensajes transaccionales e interacción entrante {#transactional-messages-and-inbound-interaction}
+<!--## Transactional messages and inbound Interaction {#transactional-messages-and-inbound-interaction}
 
-Cuando se combina con el módulo Interacción entrante, los mensajes transaccionales permiten insertar una oferta de marketing dedicada al destinatario del mensaje.
+When combined with the Inbound Interaction module, transactional messaging enables you to insert a marketing offer dedicated to the recipient into the message.
 
 >[!NOTE]
 >
->El módulo Interacción se detalla en [Interacción](../../interaction/using/interaction-and-offer-management.md).
+>The Interaction module is detailed in [Interaction](../../interaction/using/interaction-and-offer-management.md).
 
-Para utilizar mensajes transaccionales con Interacción, debe aplicar las siguientes configuraciones:
+To use transactional messaging with Interaction, you need to apply the following configurations:
 
-* Instale el paquete **Interacción** en la instancia de control y configure el catálogo de ofertas.
+* Install the **Interaction** package onto the control instance and configure your offer catalog.
 
-   >[!CAUTION]
-   >
-   >No se deben replicar las ofertas en las instancias de ejecución.
+  >[!CAUTION]
+  >
+  >Do not replicate the offers onto the execution instances.
 
-* El evento debe incluir un identificador vinculado a los destinatarios para personalizar las ofertas. El atributo **@externalId** debe contener el valor de este identificador. La **interacción** se configura de forma predeterminada para identificar el destinatario de la clave principal:
+* The event must include an identifier linked to the recipients, for personalizing offers. The **@externalId** attribute must contain the value of this identifier. **Interaction** is configured by default to identify the recipient of the primary key:
 
-   ```
-   <rtEvent type="order_confirmation" email="john.doe@adobe.com" externalId="1242"> 
-   ```
+  ```
+  <rtEvent type="order_confirmation" email="john.doe@adobe.com" externalId="1242"> 
+  ```
 
-   Puede configurar la **interacción** de modo que la identificación tenga lugar en el campo de su elección, por ejemplo en la dirección de correo electrónico:
+  You can configure **Interaction** so that identification takes place in the field of your choice, for example on the email address:
 
-   ```
-   <rtEvent type="order_confirmation" email="john.doe@adobe.com" externalId="john.doe@yahoo.com"> 
-   ```
+  ```
+  <rtEvent type="order_confirmation" email="john.doe@adobe.com" externalId="john.doe@yahoo.com"> 
+  ```
 
-Cree las plantillas de entrega como lo haría para una campaña por correo electrónico:
+Create your delivery templates the way you would for an email campaign:
 
-* Añada la oferta a la plantilla de mensaje transaccional.
-* Compruebe la vista previa, envíe una prueba y publique la plantilla.
+* Add the offer to your transactional message template.
+* Check the preview, send a proof and publish the template.
 
-También tiene que activar el modo unitario a los espacios de oferta. Para obtener más información, consulte [esta sección](../../interaction/using/creating-offer-spaces.md).
+You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](../../interaction/using/creating-offer-spaces.md).-->
 
 ## Mensajería transaccional y notificaciones “push”{#transactional-messaging-and-push-notifications}
 
@@ -163,68 +166,68 @@ Combinados con el canal LINE, los mensajes transaccionales le permiten enviar me
 
 Para utilizar el módulo de mensaje transaccional con LINE, se necesitan los siguientes elementos para la configuración de la instancia de **marketing** y la instancia de **ejecución**:
 
-* Instalar el paquete **[!UICONTROL Conectar LINE]** en ambas instancias.
-* Instalar el paquete **[!UICONTROL Control de mensajes transaccionales]** en la instancia de marketing y el paquete **[!UICONTROL Ejecución de mensajes transaccionales]** en la instancia de ejecución.
+* Install the **[!UICONTROL LINE Connect]** package on both instances.
+* Install the **[!UICONTROL Transactional message control]** package on your marketing instance, and the **[!UICONTROL Transactional message execution]** package on the execution instance.
 * Cree una **cuenta externa** y un **servicio** de LINE en ambas instancias con un nombre idéntico para que se sincronicen. Para obtener más información sobre cómo crear una cuenta externa y un servicio de LINE, consulte esta [página](../../delivery/using/line-channel.md#creating-a-line-account-and-an-external-account-).
 
-A continuación, desde **[!UICONTROL Explorador]** en **[!UICONTROL Plataforma]** > **[!UICONTROL Cuenta externa]**, debe configurar diferentes cuentas externas en ambas instancias:
+Then, from the **[!UICONTROL Explorer]** , in **[!UICONTROL Platform]** > **[!UICONTROL External account]** , you need to configure different external accounts on both instances:
 
-1. Cree una cuenta externa en la **[!UICONTROL Base de datos externa]** en la instancia de **ejecución** con la configuración siguiente:
+1. Create an **[!UICONTROL External database]** external account in your **execution** instance with the following configuration:
 
    ![](assets/line_config_mc.png)
 
-   * **[!UICONTROL Etiqueta]** y **[!UICONTROL Nombre interno]**: nombre su cuenta externa según sea necesario.
-   * **[!UICONTROL Tipo]** : seleccione **[!UICONTROL Base de datos externa]**.
-   * **[!UICONTROL La casilla “Activada” debe estar seleccionada.]**
-   Desde la categoría **[!UICONTROL Conexión]**:
+   * **[!UICONTROL Label]** y **[!UICONTROL Internal name]** : asigne un nombre a la cuenta externa según sea necesario.
+   * **[!UICONTROL Type]** :: seleccione **[!UICONTROL External database]** .
+   * **[!UICONTROL Enabled]** se debe marcar.
+   De la **[!UICONTROL Connection]** categoría:
 
-   * **[!UICONTROL Tipo]**: seleccione el servidor de la base de datos, por ejemplo PostgresSQL.
-   * **[!UICONTROL Servidor]**: introducir la URL del servidor de la base de datos.
-   * **[!UICONTROL Cuenta]**: introducir su cuenta de la base de datos.
+   * **[!UICONTROL Type]** :: seleccione el servidor de la base de datos, por ejemplo PostgresSQL.
+   * **[!UICONTROL Server]** :: introduzca la dirección URL del servidor de la base de datos.
+   * **[!UICONTROL Account]** :: introduzca su cuenta de base de datos.
 
       >[!NOTE]
       >
       >El usuario de la base de datos necesita tener derechos de lectura en las siguientes tablas para la conexión FDA: XtkOption, NmsVisitor, NmsVisitorSub, NmsService, NmsBroadLogRtEvent, NmsBroadLogBatchEvent, NmsTrackingLogRtEvent, NmsTrackingLogBatchEvent, NmsRtEvent, NmsBatchEvent, NmsBroadLogMsg NmsTrackingUrl, NmsDelivery, NmsWebTrackingLogXtkFolder.
 
-   * **[!UICONTROL Contraseña]**: introduzca la contraseña de la cuenta de la base de datos.
-   * **[!UICONTROL Base de Datos]**: introducir el nombre de la base de datos de la instancia de ejecución.
-   * **[!UICONTROL Se debe marcar el destino de un reenvío HTTP a la cuenta]** de la base de datos remota.
+   * **[!UICONTROL Password]** :: introduzca la contraseña de la cuenta de la base de datos.
+   * **[!UICONTROL Database]** :: introduzca el nombre de la base de datos de la instancia de ejecución.
+   * **[!UICONTROL Target of an HTTP relay to remote database's account]** se debe marcar.
 
 
-1. Crear una cuenta **[!UICONTROL Base de datos externa]** en la instancia de **marketing** con la configuración siguiente.
+1. Create an **[!UICONTROL External Database]** account in your **marketing** instance with the following configuration.
 
    ![](assets/line_config_mc_1.png)
 
-   * **[!UICONTROL Etiqueta]** y **[!UICONTROL Nombre interno]**: nombre su cuenta externa según sea necesario.
-   * **[!UICONTROL Tipo]** : seleccione **[!UICONTROL Base de datos externa]**.
+   * **[!UICONTROL Label]** y **[!UICONTROL Internal name]** : asigne un nombre a la cuenta externa según sea necesario.
+   * **[!UICONTROL Type]** :: seleccione **[!UICONTROL External database]** .
    * La casilla “Activada” debe estar seleccionada.
-   Desde la categoría **[!UICONTROL Conexión]**:
+   De la **[!UICONTROL Connection]** categoría:
 
-   * **[!UICONTROL Tipo]** : seleccionar **[!UICONTROL el relé HTTP a la base de datos remota]**.
-   * **[!UICONTROL Servidor]**: introducir la URL del servidor de la campaña de la instancia de ejecución.
-   * **[!UICONTROL Cuenta]**: introducir la cuenta utilizada para acceder a la instancia de ejecución.
-   * **[!UICONTROL Contraseña]**: introducir la contraseña de la cuenta utilizada para acceder a la instancia de ejecución.
-   * **[!UICONTROL Fuente de datos]**: introduzca la siguiente sintaxis **[!UICONTROL nms:extAccount:ID de su cuenta de base de datos externa en la instancia de ejecución]**.
+   * **[!UICONTROL Type]** :: seleccione **[!UICONTROL HTTP relay to remote Database]** .
+   * **[!UICONTROL Server]** :: introduzca la URL del servidor de la campaña de la instancia de ejecución.
+   * **[!UICONTROL Account]** :: introduzca la cuenta utilizada para acceder a su instancia de ejecución.
+   * **[!UICONTROL Password]** :: introduzca la contraseña de la cuenta utilizada para acceder a la instancia de ejecución.
+   * **[!UICONTROL Data Source]** :: introduzca la sintaxis siguiente **[!UICONTROL nms:extAccount:ID of your external database account in the execution instance]** .
 
 
-1. Crear una cuenta externa en la **[!UICONTROL Instancia de ejecución]** en la instancia de **marketing** mediante la configuración siguiente para crear el flujo de trabajo de la sincronización de datos:
+1. Create an **[!UICONTROL Execution instance]** external account in your **marketing** instance using the following configuration to create the data synchronization workflow:
 
    ![](assets/line_config_mc_2.png)
 
-   * **[!UICONTROL Etiqueta]** y **[!UICONTROL Nombre interno]**: nombre su cuenta externa según sea necesario.
-   * **[!UICONTROL Tipo]** : seleccione **[!UICONTROL Instancia de ejecución]**.
+   * **[!UICONTROL Label]** y **[!UICONTROL Internal name]** : asigne un nombre a la cuenta externa según sea necesario.
+   * **[!UICONTROL Type]** :: seleccione **[!UICONTROL Execution instance]** .
    * La casilla “Activada” debe estar seleccionada.
-   Desde la categoría **[!UICONTROL Conexión]**:
+   De la **[!UICONTROL Connection]** categoría:
 
    * **[!UICONTROL URL]**: introducir la URL de la instancia de ejecución.
-   * **[!UICONTROL Cuenta]**: introducir la cuenta utilizada para acceder a la instancia de ejecución.
-   * **[!UICONTROL Contraseña]**: introducir la contraseña de la cuenta utilizada para acceder a la instancia de ejecución.
-   Desde la categoría **[!UICONTROL Método de conexión de cuenta]**:
+   * **[!UICONTROL Account]** :: escriba la cuenta que utilizó para acceder a la instancia de ejecución.
+   * **[!UICONTROL Password]** :: introduzca la contraseña de la cuenta utilizada para acceder a la instancia de ejecución.
+   De la **[!UICONTROL Account connection method]** categoría:
 
-   * **[!UICONTROL Método]** : seleccione **[!UICONTROL Acceso a datos federados (FDA)]**.
-   * **[!UICONTROL Cuenta de FDA]**: seleccione su cuenta de FDA de la lista desplegable.
-   * Haga clic en el botón **[!UICONTROL Crear flujo de trabajo de archivado]**.
-   * Haga clic en el botón **[!UICONTROL Crear flujo de trabajo de sincronización de datos]** para crear el flujo de trabajo de sincronización de datos LINE.
+   * **[!UICONTROL Method]** :: seleccione **[!UICONTROL Federated Data Access (FDA)]** .
+   * **[!UICONTROL FDA account]** :: seleccione su cuenta de FDA en la lista desplegable.
+   * Haga clic en el botón **[!UICONTROL Create the archiving workflow]**.
+   * Click the **[!UICONTROL Create data synchronization workflow]** button to create the LINE data sync workflow.
 
 
 
