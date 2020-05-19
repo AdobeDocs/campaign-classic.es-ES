@@ -14,8 +14,11 @@ discoiquuid: f87da08f-68b9-4e2b-821f-b3ff20e390f1
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+translation-type: tm+mt
+source-git-commit: 1aca6758bc787f91ae28d7d5add875edf04541e8
+workflow-type: tm+mt
+source-wordcount: '744'
+ht-degree: 87%
 
 ---
 
@@ -26,7 +29,9 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 Este caso de uso detalla posibles usos de la actividad **[!UICONTROL Enrichment]** en un flujo de trabajo de objetivo. Para obtener más información sobre el uso de la actividad **[!UICONTROL Enrichment]**, consulte: [Enrichment](../../workflow/using/enrichment.md).
 
-Se envía una invitación a los contactos de la base de datos de marketing para que participen en una competición a través de una aplicación web. Los resultados de la competición se recuperan en la tabla **[!UICONTROL Competition results]**. Esta tabla está vinculada a la tabla de contacto (**[!UICONTROL Recipients]**). La tabla **[!UICONTROL Competition results]** contiene los siguientes campos:
+En [esta sección](../../workflow/using/email-enrichment-with-custom-date-fields.md)también encontrará un caso de uso para enriquecer un envío de correo electrónico con fechas personalizadas.
+
+Se envía una invitación a los contactos de la base de datos de marketing para que participen en una competición a través de una aplicación web. Los resultados de la competición se recuperan en la tabla **[!UICONTROL Competition results]**. Esta tabla está vinculada a la tabla de contacto (**[!UICONTROL Recipients]**). The **[!UICONTROL Competition results]** table contains the following fields:
 
 * Nombre de la competición (@game)
 * Número de prueba (@trial)
@@ -47,7 +52,7 @@ Para configurar este caso de uso, se ha creado el siguiente flujo de trabajo de 
 Para crear el flujo de trabajo, siga los siguientes pasos:
 
 1. Se agregan dos actividades **[!UICONTROL Query]** y una actividad **[!UICONTROL Intersection]** para dirigirse a los nuevos suscriptores que acaban de ingresar en la competición.
-1. La actividad **[!UICONTROL Enrichment]** permite agregar datos almacenados en la tabla **[!UICONTROL Competition results]**. El campo **[!UICONTROL Score]** en el que se desea realizar la personalización de la entrega se agrega a la tabla de trabajo del flujo de trabajo.
+1. The **[!UICONTROL Enrichment]** activity enables us to add data stored in the **[!UICONTROL Competition results]** table. El campo **[!UICONTROL Score]** en el que se desea realizar la personalización de la entrega se agrega a la tabla de trabajo del flujo de trabajo.
 1. La actividad **[!UICONTROL Split]** permite crear subconjuntos de destinatarios en función de puntuaciones.
 1. Para cada subconjunto, se agrega una actividad **[!UICONTROL Delivery]**.
 
@@ -67,31 +72,31 @@ A continuación, se agrega una actividad **[!UICONTROL Intersection]** para diri
 
 En este ejemplo, se desea personalizar las entregas según el campo **[!UICONTROL Score]** almacenado en la tabla **[!UICONTROL Competition results]**. Esta tabla tiene una relación de tipo 1-n con la tabla de destinatarios. La actividad **[!UICONTROL Enrichment]** permite agregar datos de una tabla vinculada al entorno de filtrado con la tabla de trabajo del flujo de trabajo.
 
-1. En la pantalla de edición de la actividad de enriquecimiento, seleccione **[!UICONTROL Añadir datos]**, luego **[!UICONTROL Datos vinculados a la dimensión de filtro]** y haga clic en **[!UICONTROL Next]**.
+1. En la pantalla de edición de la actividad de enriquecimiento, seleccione **[!UICONTROL Add data]**, luego **[!UICONTROL Data linked to the filtering dimension]** haga clic en **[!UICONTROL Next]**.
 
    ![](assets/uc1_enrich_6.png)
 
-1. A continuación, seleccione la opción **[!UICONTROL Datos vinculados a la dimensión de filtro]**, seleccione la tabla **[!UICONTROL Resultados de la competición]** y haga clic en **[!UICONTROL Next]**.
+1. A continuación, seleccione la **[!UICONTROL Data linked to the filtering dimension]** opción, seleccione la **[!UICONTROL Competition results]** tabla y haga clic en **[!UICONTROL Next]**.
 
    ![](assets/uc1_enrich_7.png)
 
-1. Introduzca una ID y una etiqueta y, en el campo **[!UICONTROL Limit the line count]**, seleccione la opción **[!UICONTROL Data collected]**. En el campo **[!UICONTROL Lines to retrieve]**, seleccione “1” como valor. Para cada destinatario, la actividad de enriquecimiento agrega una sola línea desde la tabla **[!UICONTROL Competition results]** a la tabla de trabajo del flujo de trabajo. Haga clic en **[!UICONTROL Next]**.
+1. Enter an ID and a label, and select the **[!UICONTROL Limit the line count]** option in the **[!UICONTROL Data collected]** field. In the **[!UICONTROL Lines to retrieve]** field, select &#39;1&#39; as a value. Para cada destinatario, la actividad de enriquecimiento agrega una sola línea desde la tabla **[!UICONTROL Competition results]** a la tabla de trabajo del flujo de trabajo. Haga clic **[!UICONTROL Next]**.
 
    ![](assets/uc1_enrich_8.png)
 
-1. En este ejemplo, se desea recuperar la puntuación más alta del destinatario, pero solo para la última competición. Para ello, agregue un filtro al campo **[!UICONTROL Competition name]** para excluir todas las líneas relacionadas con competiciones anteriores. Haga clic en **[!UICONTROL Next]**.
+1. En este ejemplo, se desea recuperar la puntuación más alta del destinatario, pero solo para la última competición. Para ello, agregue un filtro al campo **[!UICONTROL Competition name]** para excluir todas las líneas relacionadas con competiciones anteriores. Haga clic **[!UICONTROL Next]**.
 
    ![](assets/uc1_enrich_9.png)
 
-1. Vaya a la pantalla **[!UICONTROL Sort]** y haga clic en el botón **[!UICONTROL Add]**, seleccione el campo **[!UICONTROL Score]** y marque la casilla de la columna **[!UICONTROL descending]** para ordenar los elementos de los campos **[!UICONTROL Score]** en orden descendente. Para cada destinatario, la actividad de enriquecimiento agrega una línea que coincide con la puntuación más alta para el último juego. Haga clic en **[!UICONTROL Next]**.
+1. Vaya a la pantalla **[!UICONTROL Sort]** y haga clic en el botón **[!UICONTROL Add]**, seleccione el campo **[!UICONTROL Score]** y marque la casilla de la columna **[!UICONTROL descending]** para ordenar los elementos de los campos **[!UICONTROL Score]** en orden descendente. Para cada destinatario, la actividad de enriquecimiento agrega una línea que coincide con la puntuación más alta para el último juego. Haga clic **[!UICONTROL Next]**.
 
    ![](assets/uc1_enrich_10.png)
 
-1. En la ventana **[!UICONTROL Data to add]**, haga doble clic en el campo **[!UICONTROL Score]** Para cada destinatario, la actividad de enriquecimiento agrega solamente el campo **[!UICONTROL Score]**. Haga clic en **[!UICONTROL Finish]**.
+1. In the **[!UICONTROL Data to add]** window, double-click the **[!UICONTROL Score]** field. Para cada destinatario, la actividad de enriquecimiento agrega solamente el campo **[!UICONTROL Score]**. Haga clic **[!UICONTROL Finish]**.
 
    ![](assets/uc1_enrich_11.png)
 
-Haga clic con el botón derecho del ratón en la transición entrante de la actividad de enriquecimiento y seleccione **[!UICONTROL Display the target]**. La tabla de trabajo contiene los siguientes datos:
+Right-click the inbound transition of the enrichment activity and select **[!UICONTROL Display the target]**. La tabla de trabajo contiene los siguientes datos:
 
 ![](assets/uc1_enrich_13.png)
 
