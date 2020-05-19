@@ -14,8 +14,11 @@ discoiquuid: 83b915bd-7e23-41b5-9f9a-f7eb72026376
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: 0d2270c9d980d963437f9bb5cf37795474d261d6
+workflow-type: tm+mt
+source-wordcount: '728'
+ht-degree: 90%
 
 ---
 
@@ -39,7 +42,7 @@ Esta cuestión debe solucionarse de la siguiente manera:
 
 Para configurar una deduplicación, introduzca su etiqueta, el método, los criterios de deduplicación y las opciones relativas al resultado.
 
-Haga clic en el vínculo **[!UICONTROL Edit configuration...]** para definir el modo de deduplicación.
+Click the **[!UICONTROL Edit configuration...]** link to define the deduplication mode.
 
 ![](assets/s_user_segmentation_dedup_param.png)
 
@@ -49,7 +52,10 @@ Haga clic en el vínculo **[!UICONTROL Edit configuration...]** para definir el 
 
    ![](assets/s_user_segmentation_dedup_param2.png)
 
-   En el siguiente paso, la opción **[!UICONTROL Other]** permite seleccionar los criterios que se van a utilizar:
+   >[!NOTE]
+   >
+   >Si utiliza datos externos como entrada, por ejemplo, de un archivo externo, asegúrese de seleccionar la **[!UICONTROL Temporary schema]** opción.
+En el siguiente paso, la opción **[!UICONTROL Other]** permite seleccionar los criterios que se van a utilizar:
 
    ![](assets/s_user_segmentation_dedup_param3.png)
 
@@ -61,8 +67,8 @@ Haga clic en el vínculo **[!UICONTROL Edit configuration...]** para definir el 
 
    Los métodos disponibles son:
 
-   * **[!UICONTROL Choose for me]**: selecciona de forma aleatoria el registro que se va a excluir de los duplicados.
-   * **[!UICONTROL Following a list of values]**: permite definir una prioridad de valor para uno o varios campos. Para definir los valores, seleccione un campo o cree una expresión y, a continuación, añada los valores a la tabla adecuada. Para definir un nuevo campo, haga clic en el botón **[!UICONTROL Add]** situado sobre la lista de valores.
+   * **[!UICONTROL Choose for me]**:: selecciona aleatoriamente el registro que se va a mantener fuera de los duplicados.
+   * **[!UICONTROL Following a list of values]**:: permite definir una prioridad de valor para uno o varios campos. Para definir los valores, seleccione un campo o cree una expresión y, a continuación, añada los valores a la tabla adecuada. Para definir un nuevo campo, haga clic en el botón **[!UICONTROL Add]** situado sobre la lista de valores.
 
       ![](assets/s_user_segmentation_dedup_param5.png)
 
@@ -99,8 +105,8 @@ Los duplicados identificados también se incorporarán a una lista de duplicados
 
    La actividad de unión se utiliza aquí para “unificar” las tres consultas en una sola transición. Por lo tanto, la deduplicación no funcionará para cada consulta por separado pero para toda la consulta. Para obtener más información, consulte [Prácticas recomendadas](#best-practices).
 
-1. Abra la actividad de deduplicación y haga clic en el vínculo **[!UICONTROL Edit configuration...]** para definir el modo de anulación de la duplicación.
-1. En la nueva ventana, seleccione **[!UICONTROL Database schema]**.
+1. Open the deduplication activity then click the **[!UICONTROL Edit configuration...]** link to define the deduplication mode.
+1. In the new window, select **[!UICONTROL Database schema]**.
 1. Seleccione **Recipients** como dimensiones de destino y filtrado.
 1. Seleccione el campo ID de los duplicados **[!UICONTROL Email]** para enviar la entrega solo una vez a cada dirección de correo electrónico y haga clic en **[!UICONTROL Next]**.
 
