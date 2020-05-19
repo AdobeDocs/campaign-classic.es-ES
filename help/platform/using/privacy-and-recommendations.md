@@ -14,8 +14,11 @@ discoiquuid: 14369acf-9149-4649-947a-c16289e35eb6
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 33bf5c5a08613cf88eaace91b85a76157cac7ba1
+translation-type: tm+mt
+source-git-commit: be148d7cd55097b9014d2f4d3b095c65a5ca8c54
+workflow-type: tm+mt
+source-wordcount: '824'
+ht-degree: 91%
 
 ---
 
@@ -32,13 +35,15 @@ Tómese el tiempo necesario para ver la [Lista de control de seguridad y privaci
 
 ## Administración de la privacidad {#privacy-management}
 
+Adobe Campaign oferta un conjunto de herramientas para ayudarle a cumplir con las normas de privacidad (RGPD, CCPA, etc.).
+
 El RGPD (Reglamento General de Protección de Datos) es la ley de privacidad de la Unión Europea (UE) que armoniza y moderniza los requisitos de protección de datos. El RGPD se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en la UE.
 
 CCPA (Ley de privacidad del consumidor de California) proporciona a los residentes de California nuevos derechos respecto a su información personal e impone responsabilidades de protección de datos para las entidades que operen en California.
 
 Además de la administración de consentimiento, la configuración de retención de datos y la administración de derechos, proporcionamos, en nuestra función de procesador de datos, capacidades adicionales para ayudarle a facilitar su preparación como controlador de datos para determinadas solicitudes de privacidad.
 
-En este [artículo](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html), conozca cómo Adobe Campaign le ayuda a administrar las distintas funciones clave de privacidad: Derecho de acceso, Derecho a ser olvidado, consentimiento, retención de datos y funciones de usuario. Entérese también de las mejores prácticas recomendadas para ayudarle con el cumplimiento de las normas de privacidad al utilizar el servicio.
+In [this article](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html), you will learn how Adobe Campaign helps you manage the different Privacy key features: Right to Access, Right to be Forgotten, consent, data retention and user roles. También encontrará optimizaciones para ayudarle con su conformidad con la privacidad al utilizar nuestra solución.
 
 ## Cookies y funcionalidades de seguimiento {#cookies-and-tracking-capabilities}
 
