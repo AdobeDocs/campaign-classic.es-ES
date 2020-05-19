@@ -13,29 +13,28 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2e82605eda5bccd2e5604614acd4cb7d646822fc
+source-git-commit: be148d7cd55097b9014d2f4d3b095c65a5ca8c54
 workflow-type: tm+mt
-source-wordcount: '6502'
-ht-degree: 98%
+source-wordcount: '6464'
+ht-degree: 95%
 
 ---
 
 
 # Actualizaciones de documentación{#documentation-updates}
 
-Obtenga información sobre las últimas actualizaciones de la documentación de Adobe Campaign Classic.
+Esta página lista todas las nuevas funciones y actualizaciones de la documentación por mes y la versión de Campaña.
 
-Esta página enumera todas las nuevas funciones y actualizaciones de documentación de cada versión de Adobe Campaign Classic.
+You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
 
-También puede consultar las [Notas de la versión de Adobe Campaign Classic](../../rn/using/latest-release.md).
 
 ## Mayo 2020 {#may-2020}
 
-Se ha movido y reorganizado la sección Monitoreo de la capacidad de entrega. [Más información](../../delivery/using/monitoring-deliverability.md)
+Se ha movido y mejorado la sección Supervisión de la capacidad de entrega. [Más información](../../delivery/using/monitoring-deliverability.md)
 
-Se ha movido y actualizado la sección de solución de problemas de la entregabilidad. [Más información](../../delivery/using/deliverability-faq.md)
+Se ha movido y mejorado la sección de solución de problemas de la capacidad de entrega. [Más información](../../delivery/using/deliverability-faq.md)
 
-Se ha mejorado la sección Inicio de una nueva plataforma. [Más información](../../delivery/using/starting-new-platform.md)
+Se han mejorado las directrices de entrega al iniciar una nueva sección de plataforma. [Más información](../../delivery/using/starting-new-platform.md)
 
 La sección Envío de correos electrónicos transaccionales con archivos adjuntos se ha movido y actualizado. [Más información](../../message-center/using/transactional-email-with-attachments.md)
 
@@ -45,11 +44,11 @@ La tabla de derechos de FDA se ha movido a la documentación de Acceso a una bas
 
 Las preguntas frecuentes se han actualizado con sugerencias sobre cómo borrar la caché en blanco y en disco. [Más información](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear)
 
-Se ha mejorado la sección Prácticas recomendadas del modelo de datos con información adicional sobre índices. [Más información](../../configuration/using/data-model-best-practices.md#indexes)
+Se han mejorado las prácticas recomendadas del modelo de datos con información adicional sobre índices. [Más información](../../configuration/using/data-model-best-practices.md#indexes)
 
-La sección que describe el modelo de datos predefinido de Adobe Campaign se ha actualizado con más detalles sobre cada tabla predeterminada y con enlaces a los módulos correspondientes. [Más información](../../configuration/using/data-model-description.md)
+La sección que describe el modelo de datos integrado de Adobe Campaign se ha actualizado con más detalles en cada tabla. [Más información](../../configuration/using/data-model-description.md)
 
-Los casos de uso de la guía &quot;Automatización con flujos de trabajo&quot; se han reorganizado en secciones temáticas. [Más información](../../workflow/using/using-the-local-approval-activity.md)
+Los casos de uso del flujo de trabajo se han actualizado y reorganizado en secciones temáticas. [Más información](../../workflow/using/using-the-local-approval-activity.md)
 
 Las secciones [de certificación](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) de correo de devolución y reglas [de administración de](../../delivery/using/understanding-delivery-failures.md#email-management-rules) correo electrónico se han mejorado con información actualizada.
 
@@ -57,29 +56,29 @@ Se ha actualizado el artículo de MTA de Adobe Campaign mejorado. Ahora sólo se
 
 ## Marzo de 2020 {#march-2020}
 
-La página de prácticas recomendadas del modelo de datos se ha actualizado con nuevas secciones que incluyen [Secuencias](../../configuration/using/data-model-best-practices.md#sequences), [Rendimiento](../../configuration/using/data-model-best-practices.md#performance) y [Tablas grandes](../../configuration/using/data-model-best-practices.md#large-tables), entre otros. [Más información](../../configuration/using/data-model-best-practices.md)
+Data model best practices have been updated with new sections including [Sequences](../../configuration/using/data-model-best-practices.md#sequences), [Performance](../../configuration/using/data-model-best-practices.md#performance) and [Large tables](../../configuration/using/data-model-best-practices.md#large-tables), amongst others. [Más información](../../configuration/using/data-model-best-practices.md)
 
-Ya está disponible una nueva sección que describe el modelo de datos predefinido de Adobe Campaign y la interacción de tablas predeterminadas. [Más información](../../configuration/using/data-model-description.md)
+Ya está disponible una nueva sección que describe el modelo de datos integrado de Adobe Campaign y la interacción entre tablas. [Más información](../../configuration/using/data-model-description.md)
 
-Se han añadido recursos adicionales a la página de inicio de documentación. [Más información](../../campaign-classic-home.md)
+Se han añadido vínculos clave adicionales a la página de inicio de documentación. [Más información](../../campaign-classic-home.md)
 
 Se ha añadido un caso de uso sobre cómo integrar una oferta dinámica de Adobe Target en un correo electrónico en Adobe Campaign. [Más información](../../integrations/using/inserting-a-dynamic-image.md)
 
 Ya está disponible una nueva sección que detalla los distintos idiomas disponibles en Adobe Campaign. [Más información](../../platform/using/adobe-campaign-workspace.md#languages)
 
-La página de administración de Access se ha actualizado con más información sobre Derechos asignados. [Más información](../../platform/using/access-management.md#named-rights)
+Se han actualizado las directrices de gestión del acceso con más información sobre Derechos asignados. [Más información](../../platform/using/access-management.md#named-rights)
 
 ## Febrero de 2020 {#february-2020}
 
 Ya está disponible una nueva sección en la que se describen las prácticas recomendadas y las recomendaciones clave al diseñar el modelo de datos de Adobe Campaign. [Más información](../../configuration/using/data-model-best-practices.md)
 
-Se ha cambiado el nombre de la sección “Capacidad de envío por correo electrónico” a “Configuraciones técnicas de correo electrónico”. [Más información](../../installation/using/email-deliverability.md)
+Hay disponible una nueva sección sobre las configuraciones técnicas de correo electrónico. [Más información](../../installation/using/email-deliverability.md)
 
-El documento de preguntas frecuentes sobre la capacidad de envío se ha actualizado con más detalles sobre el mensaje de error “cuotas satisfechas”. [Más información](https://helpx.adobe.com/es/campaign/kb/acc-deliverability-faq.html#FAQ)
+Las preguntas más frecuentes sobre la entrega se han actualizado con más detalles sobre el mensaje de error &quot;Cuotas cumplidas&quot;. [Más información](https://helpx.adobe.com/es/campaign/kb/acc-deliverability-faq.html#FAQ)
 
-La AMP para correo electrónico ahora es compatible con tres proveedores de correo electrónico (Gmail, Outlook y Mail.ru), y se ha actualizado la sección que describe cómo definir contenido interactivo con AMP. [Más información](../../delivery/using/defining-interactive-content.md)
+Los nuevos proveedores de correo electrónico ahora admiten AMP para correo electrónico: se ha actualizado la documentación relacionada. [Más información](../../delivery/using/defining-interactive-content.md)
 
-Se ha aclarado la sección de archivado de correo electrónico. [Más información](../../installation/using/email-archiving.md#recommendations-and-limitations)
+Se ha mejorado la sección de archivado de correo electrónico. [Más información](../../installation/using/email-archiving.md#recommendations-and-limitations)
 
 ## 20.1 - 17/02/2020{#release-20-1}
 
@@ -91,7 +90,7 @@ Mejora del conector FDA de Hadoop: [Más información](../../platform/using/spec
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
-Las guías de [instalación](../../installation/using/before-reading.md), [producción](../../production/using/foreword.md) y [configuración](../../configuration/using/additional-parameters.md) se han actualizado con la nueva unidad del sistema utilizada por el inicio del servicio nlserver. Puede seguir utilizando /etc/init.d/nlserver6, pero le recomendamos que ahora utilice el comando systemctl para interactuar con el servicio nlserver.
+Las guías de [instalación](../../installation/using/before-reading.md), [producción](../../production/using/foreword.md) y [configuración](../../configuration/using/additional-parameters.md) se han actualizado con la nueva unidad del sistema utilizada por el inicio del servicio nlserver. Puede seguir utilizando /etc/init.d/nlserver6, pero Adobe recomienda que ahora utilice el comando systemctl para interactuar con el servicio nlserver.
 
 La guía de instalación se ha actualizado y sincronizado con la última versión de la matriz de compatibilidad. Se han agregado nuevos sistemas admitidos. Se han eliminado las ocurrencias a sistemas obsoletos y no admitidos. [Más información](../../installation/using/before-reading.md)
 
