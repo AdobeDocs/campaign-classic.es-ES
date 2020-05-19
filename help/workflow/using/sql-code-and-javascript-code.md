@@ -14,8 +14,11 @@ discoiquuid: 1afa75c2-7377-4d03-9105-11bcc9e3206c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 16e35b62cdf42c04139cc17645095a3d1f6e0fa7
+translation-type: tm+mt
+source-git-commit: 26ba86073e4f1569bf05a7d8aa864ca87baed3ea
+workflow-type: tm+mt
+source-wordcount: '201'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 16e35b62cdf42c04139cc17645095a3d1f6e0fa7
 
 ## Código SQL {#sql-code}
 
-Una actividad de *[!UICONTROL SQL code*]* ejecuta una secuencia de comandos SQL. La secuencia de comandos es una plantilla JST.
+An **[!UICONTROL SQL code]** activity executes an SQL script. La secuencia de comandos es una plantilla JST.
 
 ![](assets/sql_code.png)
 
