@@ -12,12 +12,15 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 79f8cc179fcbf9d537a1cc889b268a43202d7369
+source-git-commit: be148d7cd55097b9014d2f4d3b095c65a5ca8c54
+workflow-type: tm+mt
+source-wordcount: '1389'
+ht-degree: 67%
 
 ---
 
 
-# Deprecated and removed features {#deprecated-and-removed-features}
+# Funciones obsoletas y eliminadas {#deprecated-and-removed-features}
 
 Adobe evalúa constantemente las funciones de sus productos para identificar aquellas que sean antiguas y que deban reemplazarse con alternativas más modernas para mejorar la experiencia de los clientes, intentando garantizar en todo momento la compatibilidad con versiones anteriores. Como Adobe Campaign Classic funciona con herramientas de terceros, la compatibilidad se actualiza con regularidad para poder implementar únicamente versiones compatibles. Las versiones que ya no son compatibles con Adobe Campaign Classic se enumeran a continuación.
 
@@ -32,11 +35,11 @@ Este proceso proporciona a los clientes al menos un ciclo de versiones para actu
 >Las versiones de Adobe Campaign y las nuevas funciones se enumeran en las [Notas](../../rn/using/latest-release.md)de la versión.
 
 
-## Funciones obsoletas {#deprecated-features}
+## Deprecated features {#deprecated-features}
 
 Esta sección enumera las funciones y capacidades que se han marcado como obsoletas en las últimas versiones de Campaign Classic.
 
-Por lo general, las funciones que se planea eliminar en una versión futura se definen en primer lugar como obsoletas, y se proporciona una función alternativa a ellas. Estas funciones y funcionalidades ya no están disponibles para los nuevos clientes Campaign Standard o no deben usarse para ninguna implementación nueva. También se eliminan de la documentación del producto.
+Por lo general, las funciones que se planea eliminar en una versión futura se definen en primer lugar como obsoletas, y se proporciona una función alternativa a ellas. Estas funciones y funcionalidades ya no están disponibles para los nuevos clientes Campaign Classic o no deben usarse para ninguna implementación nueva. También se eliminan de la documentación del producto.
 
 Se aconseja a los clientes que comprueben si utilizan la función o la capacidad en su implementación actual y que cambien su implementación para utilizar la alternativa proporcionada. Consulte la fecha de eliminación objetivo para planificar el entorno y las actualizaciones del proyecto según corresponda.
 
@@ -113,7 +116,7 @@ Consulte la [Matriz de compatibilidades](https://helpx.adobe.com/es/campaign/kb/
 
 ## Funciones eliminadas {#removed-features}
 
-Esta sección lista las funciones y funciones que se han eliminado del Campaign Standard.
+Esta sección enumera las funciones y capacidades que se han eliminado de Campaign Classic.
 
 <table> 
  <tbody> 
@@ -123,7 +126,7 @@ Esta sección lista las funciones y funciones que se han eliminado del Campaign 
    <td><strong>Versión</strong></td> 
   </tr> 
    <tr> 
-   <td>Documentación de las API de Campaign - archivo<br>jsapi.chm</td>
+   <td>Documentación de las API de Campaign - archivo jsapi.chm<br> </td>
    <td>Las API de Campaign Classic están ahora disponibles en una página dedicada. If you were using the jsapi.chm file, you should now refer to <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">the new online version</a>.</td>
    <td>19.1</td>
   </tr> 
@@ -138,7 +141,7 @@ Esta sección lista las funciones y funciones que se han eliminado del Campaign 
    <td>18.10</td>
   </tr> 
   <tr> 
-   <td>Notificaciones push: Conector<br>binario de iOS</td>
+   <td>Notificaciones push: Conector binario de iOS<br> </td>
    <td>Por recomendación de Apple, Adobe eliminará el conector binario heredado de iOS. Ya está disponible el conector basado en HTTP/2 más funcional y eficiente.</td>
    <td>18.10</td>
   </tr> 
@@ -173,7 +176,7 @@ La consola del cliente de Adobe Campaign Classic ya no se puede ejecutar en los 
 A partir de la versión 19.1, Adobe Campaign ya no es compatible con los siguientes sistemas operativos.
 
 * Debian 7. [Más información](https://wiki.debian.org/DebianReleases).
-* RHEL 6.x. [Más](https://access.redhat.com/support/policy/updates/errata)información.
+* RHEL 6.x. [Más información](https://access.redhat.com/support/policy/updates/errata).
 * Windows Server 2008. [Más información](https://support.microsoft.com/es-es/lifecycle/search/1163).
 * SLES 11. [Más información](https://www.suse.com/lifecycle).
 
@@ -201,10 +204,10 @@ Refer to [Campaign Classic Compatibility matrix](https://helpx.adobe.com/es/camp
 A partir de la versión de primavera (19.1), Adobe Campaign deja de ser compatible con los siguientes servidores FDA.
 
 * Oracle 11G. [Más información](http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf).
-* PostgreSQL 9.3. [Más](https://www.postgresql.org/support/versioning)información.
+* PostgreSQL 9.3. [Más información](https://www.postgresql.org/support/versioning).
 * MySQL 5.5. &lt;[Más información](http://www.fromdual.com/support-for-mysql-from-oracle).
-* DB2 9.5. [Más](http://www-01.ibm.com/support/docview.wss?uid=swg21168270)información.
-* Teradata 14 - 14.1. [Más](https://community.teradata.com/t5/Database/Teradata-Database-Product-Life-Cycle/td-p/35068)información.
+* DB2 9.5. [Más información](http://www-01.ibm.com/support/docview.wss?uid=swg21168270).
+* Teradata 14 - 14.1. [Más información](https://community.teradata.com/t5/Database/Teradata-Database-Product-Life-Cycle/td-p/35068).
 
 Campaign Classic no es compatible con los siguientes servidores de acceso de datos federado (FDA).
 
