@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: be148d7cd55097b9014d2f4d3b095c65a5ca8c54
+source-git-commit: 5d8959dc790c0cf0e6ea62122310bfbee5bcc0dd
 workflow-type: tm+mt
-source-wordcount: '6464'
+source-wordcount: '6477'
 ht-degree: 95%
 
 ---
@@ -37,6 +37,8 @@ Se ha movido y mejorado la sección de solución de problemas de la capacidad de
 Se han mejorado las directrices de entrega al iniciar una nueva sección de plataforma. [Más información](../../delivery/using/starting-new-platform.md)
 
 La sección Envío de correos electrónicos transaccionales con archivos adjuntos se ha movido y actualizado. [Más información](../../message-center/using/transactional-email-with-attachments.md)
+
+Se ha movido y actualizado la sección de optimizaciones de Paquete de datos. [Más información](../../platform/using/working-with-data-packages.md#data-package-best-practices)
 
 ## de abril de 2020 {#april-2020}
 
