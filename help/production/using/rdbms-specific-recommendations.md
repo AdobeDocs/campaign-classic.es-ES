@@ -15,14 +15,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '1090'
+ht-degree: 3%
 
 ---
 
 
 # Recomendaciones específicas de RDBMS{#rdbms-specific-recommendations}
 
-Para ayudarle a configurar planes de mantenimiento, esta sección enumera algunas recomendaciones y prácticas recomendadas adaptadas a los distintos motores RDBMS compatibles con Adobe Campaign. Sin embargo, estas son sólo recomendaciones. Depende de usted adaptarlas a sus necesidades, de conformidad con su procedimiento interno y sus limitaciones. El administrador de la base de datos tiene la responsabilidad de crear y ejecutar estos planes.
+Para ayudarle a configurar planes de mantenimiento, esta sección lista algunas recomendaciones y prácticas recomendadas adaptadas a los distintos motores RDBMS compatibles con Adobe Campaign. Sin embargo, estas son sólo recomendaciones. Depende de usted adaptarlas a sus necesidades, de conformidad con su procedimiento interno y sus limitaciones. El administrador de la base de datos tiene la responsabilidad de crear y ejecutar estos planes.
 
 ## PostgreSQL {#postgresql}
 
@@ -99,7 +102,7 @@ vacuum full nmsdelivery;
 >* Adobe recomienda agregar las tablas específicas del modelo de datos que pueden estar sujetas a actualizaciones importantes. Este puede ser el caso de **NmsRecipient** si tiene grandes flujos diarios de replicación de datos.
 >* Los comandos **vacío** y **re-índice** bloquearán la tabla, lo que pone en pausa algunos procesos mientras se realiza el mantenimiento.
 >* Para tablas muy grandes (generalmente superiores a 5 Gb), el **vacío lleno** puede volverse bastante ineficiente y llevar mucho tiempo. Adobe no recomienda utilizarlo para la **tabla AAAANmsBroadLogXxx** .
->* Esta operación de mantenimiento se puede implementar mediante un flujo de trabajo de Adobe Campaign, mediante una actividad **[!UICONTROL SQL]** (para obtener más información sobre esto, consulte [esta sección](../../workflow/using/executing-a-workflow.md#architecture)). Asegúrese de programar el mantenimiento para un tiempo de actividad bajo que no entre en conflicto con la ventana de copia de seguridad.
+>* Esta operación de mantenimiento se puede implementar mediante un flujo de trabajo de Adobe Campaign, mediante una **[!UICONTROL SQL]** actividad (para obtener más información al respecto, consulte [esta sección](../../workflow/using/architecture.md)). Asegúrese de programar el mantenimiento para un tiempo de actividad bajo que no entre en conflicto con la ventana de respaldo.
 >
 
 
@@ -381,7 +384,7 @@ El ejemplo siguiente se refiere a Microsoft SQL Server 2005. Si utiliza otra ver
 
    >[!NOTE]
    >
-   >Se recomienda realizar al menos las tareas de mantenimiento que se muestran a continuación. También puede seleccionar la tarea de actualización de estadísticas, aunque ya la lleve a cabo el flujo de trabajo de limpieza de la base de datos.
+   >Se recomienda realizar al menos las tareas de mantenimiento que se muestran a continuación. También puede seleccionar la tarea de actualización de estadísticas, aunque el flujo de trabajo de limpieza de la base de datos ya la lleve a cabo.
 
 1. En la lista desplegable, seleccione la base de datos en la que desea ejecutar la **[!UICONTROL Database Check Integrity]** tarea.
 1. Seleccione la base de datos y haga clic en **[!UICONTROL OK]** y luego en **[!UICONTROL Next]** .
@@ -409,16 +412,16 @@ El ejemplo siguiente se refiere a Microsoft SQL Server 2005. Si utiliza otra ver
       >
       >El proceso de regeneración del índice es más restrictivo en cuanto al uso del procesador y bloquea los recursos de la base de datos. Haga clic en la **[!UICONTROL Keep index online while reindexing]** opción si desea que el índice esté disponible durante la reconstrucción.
 
-1. Seleccione las opciones que desee mostrar en el informe de actividad y haga clic en **[!UICONTROL Next]** .
+1. Seleccione las opciones que desee mostrar en el informe actividad y haga clic en **[!UICONTROL Next]** .
 1. Compruebe la lista de tareas configuradas para el plan de mantenimiento y haga clic en **[!UICONTROL Finish]** .
 
    Se muestra un resumen del plan de mantenimiento y los estados de los distintos pasos.
 
 1. Una vez completado el plan de mantenimiento, haga clic en **[!UICONTROL Close]** .
-1. En el explorador de Microsoft SQL Server, haga doble clic en la **[!UICONTROL Management > Maintenance Plans]** carpeta.
-1. Seleccione el plan de mantenimiento de Adobe Campaign: los distintos pasos se detallan en un flujo de trabajo.
+1. En el explorador de Microsoft SQL Server, haga clic en la **[!UICONTROL Management > Maintenance Plans]** carpeta con el doble.
+1. Seleccione el plan de mantenimiento de Adobes Campaign: los distintos pasos se detallan en un flujo de trabajo.
 
-   Tenga en cuenta que se ha creado un objeto en la **[!UICONTROL SQL Server Agent > Jobs]** carpeta. Este objeto permite iniciar el plan de mantenimiento. En nuestro ejemplo sólo hay un objeto, ya que todas las tareas de mantenimiento forman parte del mismo plan.
+   Tenga en cuenta que se ha creado un objeto en la **[!UICONTROL SQL Server Agent > Jobs]** carpeta. Este objeto permite el inicio del plan de mantenimiento. En nuestro ejemplo sólo hay un objeto, ya que todas las tareas de mantenimiento forman parte del mismo plan.
 
    >[!CAUTION]
    >
@@ -430,10 +433,10 @@ El ejemplo siguiente se refiere a Microsoft SQL Server 2005. Si utiliza otra ver
 >
 >Esta configuración es opcional.
 
-La **opción WdbcOptions_TempDbName** permite configurar una base de datos independiente para las tablas de trabajo en Microsoft SQL Server. Esto optimiza los backups y la replicación.
+La opción **WdbcOptions_TempDbName** permite configurar una base de datos independiente para las tablas de trabajo en Microsoft SQL Server. Esto optimiza los backups y la replicación.
 
 Esta opción se puede utilizar si desea que las tablas de trabajo (por ejemplo, las tablas creadas durante la ejecución de un flujo de trabajo) se creen en otra base de datos.
 
 Al establecer la opción en &quot;tempdb.dbo&quot;, se crearán tablas de trabajo en la base de datos temporal predeterminada de Microsoft SQL Server. El administrador de la base de datos debe permitir el acceso de escritura a la base de datos tempdb.
 
-Si la opción está establecida, se utilizará en todas las bases de datos de Microsoft SQL Server configuradas en Adobe Campaign (base de datos principal y cuentas externas). Tenga en cuenta que si dos cuentas externas comparten el mismo servidor, pueden producirse conflictos (ya que la tempdb será única). Del mismo modo, si dos instancias de Campaign utilizan el mismo servidor MSSQL, podría haber conflictos si utilizan la misma tempdb.
+Si la opción está configurada, se utilizará en todas las bases de datos de Microsoft SQL Server configuradas en Adobe Campaign (base de datos principal y cuentas externas). Tenga en cuenta que si dos cuentas externas comparten el mismo servidor, pueden producirse conflictos (ya que la tempdb será única). Del mismo modo, si dos instancias de Campaña utilizan el mismo servidor MSSQL, podría haber conflictos si utilizan la misma tempdb.
