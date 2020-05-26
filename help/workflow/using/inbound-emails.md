@@ -14,8 +14,11 @@ discoiquuid: 4c0530b1-0292-45bc-8730-668bc5b8550b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+translation-type: tm+mt
+source-git-commit: 9e5a499d723d3e4126f533b6c7dd63073aff3d09
+workflow-type: tm+mt
+source-wordcount: '333'
+ht-degree: 96%
 
 ---
 
@@ -28,9 +31,9 @@ La actividad **Inbound emails** permite descargar y procesar correos electrónic
 
 La primera pestaña de la actividad **Inbound Emails** permite introducir los parámetros del servidor POP3 e introducir la secuencia de comandos que se ejecutará al recibir cada mensaje. La segunda pestaña permite asignar una programación a la actividad y la tercera define las condiciones de caducidad de la actividad.
 
-1. **[!UICONTROL Correos electrónicos entrantes]**
+1. **[!UICONTROL Inbound Emails]**
 
-   * **[!UICONTROL Uso de una cuenta externa]**
+   * **[!UICONTROL Use an external account]**
 
       Cuando esta opción está activada, se puede seleccionar una cuenta POP3 externa en lugar de introducir los parámetros de conexión. El campo **[!UICONTROL External account]** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Este campo solo está visible si está activada la opción “Usar una cuenta externa”.
 
@@ -46,11 +49,11 @@ La primera pestaña de la actividad **Inbound Emails** permite introducir los pa
 
          Nombre del usuario.
 
-      * **[!UICONTROL Contraseña]**
+      * **[!UICONTROL Password]**
 
          Contraseña de la cuenta de usuario.
 
-      * **[!UICONTROL Puerto]**
+      * **[!UICONTROL Port]**
 
          Número de puerto de conexión POP3. El puerto predeterminado es 110.
    * **[!UICONTROL Stop as soon as email is processed]**
@@ -58,7 +61,7 @@ La primera pestaña de la actividad **Inbound Emails** permite introducir los pa
       Esta opción le permite procesar los correos electrónicos uno por uno. La actividad activa su transición una sola vez y luego finaliza el procesamiento, dejando los mensajes sin procesar en el servidor.
 
 
-1. **[!UICONTROL Secuencia de comandos]**
+1. **[!UICONTROL Script]**
 
    La secuencia de comandos permite procesar el mensaje y realizar varias operaciones que dependen del contenido del mensaje. La secuencia de comandos se ejecuta para cada mensaje y se puede determinar la operación a realizar (dejar o eliminar el mensaje) y la activación de la transición saliente.
 
@@ -70,17 +73,17 @@ La primera pestaña de la actividad **Inbound Emails** permite introducir los pa
    * 4 - Deja el mensaje en el servidor.
    Se puede acceder al contenido del mensaje desde la variable global **[!UICONTROL mailMessage]**.
 
-1. **[!UICONTROL Programación]**
+1. **[!UICONTROL Schedule]**
 
-   Para definir una programación para la actividad, haga clic en **[!UICONTROL Scheduling]** tab and check **[!UICONTROL Plan execution]**. Haga clic en el botón **[!UICONTROL Change]** para configurar la programación.
+   To define a schedule for the activity, click the **[!UICONTROL Scheduling]** tab and check **[!UICONTROL Plan execution]**. Haga clic en el botón **[!UICONTROL Change]** para configurar la programación.
 
    La configuración de programación es la misma que para la actividad de programación. Consulte [Programador](../../workflow/using/scheduler.md).
 
-1. **[!UICONTROL Caducidad]**
+1. **[!UICONTROL Expiration]**
 
    Puede definir los retrasos de caducidad a través de la pestaña **[!UICONTROL Expiration]**
 
    ![](assets/email_rec_edit_3.png)
 
-   La configuración es la misma que para la actividad de programación. Consulte [Caducidad](../../workflow/using/executing-a-workflow.md#expirations).
+   La configuración es la misma que para la actividad de programación. Consulte [Caducidad](../../workflow/using/defining-approvals.md).
 
