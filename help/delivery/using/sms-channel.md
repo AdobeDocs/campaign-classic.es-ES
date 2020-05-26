@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9773e8ae39133968e4e167d11715c123e00d22c2
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
 workflow-type: tm+mt
 source-wordcount: '3227'
 ht-degree: 93%
@@ -538,7 +538,7 @@ El módulo **nlserver sms** consulta al enrutador SMS a intervalos regulares. Es
 
 * **Baja**: los destinatarios que deseen dejar de recibir envíos SMS pueden devolver un mensaje que contenga la palabra STOP. Si su proveedor lo permite en los términos del contrato, puede recuperar mensajes mediante la actividad de flujo de trabajo de los **SMS de entrada** y, a continuación, crear una consulta para activar la opción **No volver a ponerse en contacto con este destinatario** para los destinatarios correspondientes.
 
-   Consulte la guía [Flujos de trabajo](../../workflow/using/executing-a-workflow.md#architecture).
+   Consulte la guía [Flujos de trabajo](../../workflow/using/architecture.md).
 
 ## Esquema InSMS {#insms-schema}
 
