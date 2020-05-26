@@ -12,8 +12,11 @@ discoiquuid: dcb5b8e8-be38-4d89-908d-f57c2413a9bc
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2e16d4de068f8cb1e61069aa53626f7bf7021466
+translation-type: tm+mt
+source-git-commit: e3de6f7b21d912efa4f6faca5e57cb480e8f1805
+workflow-type: tm+mt
+source-wordcount: '1036'
+ht-degree: 79%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 2e16d4de068f8cb1e61069aa53626f7bf7021466
 
 ## Uso {#use}
 
-La actividad **[!UICONTROL Load (File)]** permite acceder directamente a una fuente de datos externos y utilizarla en Adobe Campaign. De hecho, todos los datos necesarios para las operaciones objetivos no se encuentran siempre en la base de datos de la campaña de Adobe: pueden estar disponibles en archivos externos.
+The **[!UICONTROL Data loading (File)]** activity lets you directly access a source of external data and use it in Adobe Campaign. De hecho, todos los datos necesarios para las operaciones objetivos no se encuentran siempre en la base de datos de la campaña de Adobe: pueden estar disponibles en archivos externos.
 
 El archivo que se va a cargar se puede especificar mediante la transición o se calcula durante la ejecución de esta actividad. Por ejemplo, puede ser la lista de los 10 productos favoritos de un cliente, cuyas compras se administran en una base de datos externa.
 
@@ -34,13 +37,13 @@ La sección superior de la ventana de configuración de esta actividad permite d
 
 ![](assets/s_advuser_wf_etl_file.png)
 
-Puede definir un proceso previo para que se ejecute durante la importación de archivos, por ejemplo, para que no tenga que descomprimir el archivo en el servidor (y, por lo tanto, ahorrar espacio para el archivo descomprimido), y para incluir la descompresión en el procesamiento de archivos. Seleccione la opción **[!UICONTROL Pre-process the file]** y elija una de las 3 opciones: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) o **[!UICONTROL Decrypt]** (gpg).
+Puede definir un proceso previo para que se ejecute durante la importación de archivos, por ejemplo, para que no tenga que descomprimir el archivo en el servidor (y, por lo tanto, ahorrar espacio para el archivo descomprimido), y para incluir la descompresión en el procesamiento de archivos. Select the **[!UICONTROL Pre-process the file]** option and choose from one of 3 options: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) or **[!UICONTROL Decrypt]** (gpg).
 
 ## Definición del formato del archivo {#defining-the-file-format}
 
 Al cargar un archivo, el formato de columna se detecta automáticamente con los parámetros predeterminados para cada tipo de datos. Puede modificar estos parámetros predeterminados para especificar los procesos concretos que se aplican a los datos, especialmente cuando hay un error o un valor vacío.
 
-Para ello, en la ventana principal de la actividad **[!UICONTROL Data loading (file)]**, seleccione **[!UICONTROL Click here to change the file format...]** A continuación, se abrirá la ventana de detalles de formato.
+To do this, select **[!UICONTROL Click here to change the file format...]** in the main window of the **[!UICONTROL Data loading (file)]** activity. A continuación, se abrirá la ventana de detalles de formato.
 
 ![](assets/file_loading_columns_format.png)
 
@@ -50,31 +53,31 @@ El formato del archivo general permite definir la forma en que se reconocerán l
 
 El formato de columna permite definir el valor de procesamiento de cada columna:
 
-* **[!UICONTROL Ignore column]**: no se procesa esta columna durante la carga de datos.
+* **[!UICONTROL Ignore column]**:: no procesa esta columna durante la carga de datos.
 * **[!UICONTROL Data type]**: especifica el tipo de datos esperados para cada columna.
-* **[!UICONTROL Allow NULLs]**: especifica cómo administrar los valores vacíos.
+* **[!UICONTROL Allow NULLs]**:: especifica cómo administrar valores vacíos.
 
    * **[!UICONTROL Adobe Campaign default]**: genera un error solo para los campos numéricos; en caso contrario, inserta un valor NULL.
-   * **[!UICONTROL Empty value allowed]**: autoriza los valores vacíos. Por lo tanto, se inserta el valor NULL.
-   * **[!UICONTROL Always populated]**: genera un error si un valor está vacío.
+   * **[!UICONTROL Empty value allowed]**:: autoriza valores vacíos. Por lo tanto, se inserta el valor NULL.
+   * **[!UICONTROL Always populated]**:: genera un error si un valor está vacío.
 
 * **[!UICONTROL Length]**: especifica el número máximo de caracteres para el tipo de datos de **cadena**.
 * **[!UICONTROL Format]**: define el formato de fecha y hora.
 * **[!UICONTROL Data transformation]**: define si se debe aplicar un proceso de mayúsculas y minúsculas en una **cadena**.
 
    * **[!UICONTROL None]**: la cadena importada no se modifica.
-   * **[!UICONTROL First letter in upper case]**: la primera letra de cada palabra de la cadena empieza con mayúscula.
+   * **[!UICONTROL First letter in upper case]**:: la primera letra de cada palabra de la cadena inicio con mayúsculas.
    * **[!UICONTROL Upper case]**: todos los caracteres de la cadena están en mayúsculas.
    * **[!UICONTROL Lower case]**: todos los caracteres de la cadena están en minúsculas.
 
-* **[!UICONTROL White space management]**: especifica si se deben ignorar ciertos espacios en una cadena. El valor **[!UICONTROL Ignore spaces]** solo permite que se ignoren los espacios al principio y al final de una cadena.
-* **[!UICONTROL Error processings]**: define el comportamiento si se produce un error.
+* **[!UICONTROL White space management]**:: especifica si determinados espacios deben ignorarse en una cadena. El valor **[!UICONTROL Ignore spaces]** solo permite que se ignoren los espacios al principio y al final de una cadena.
+* **[!UICONTROL Error processings]**:: define el comportamiento si se encuentra un error.
 
-   * **[!UICONTROL Ignore the value]**: se ignora el valor. Se genera una advertencia en el registro de ejecución del flujo de trabajo.
-   * **[!UICONTROL Reject line]**: no se procesa la línea completa.
-   * **[!UICONTROL Use a default value in case of error]**: reemplaza el valor que provoca el error con un valor predeterminado definido en el campo **[!UICONTROL Default value]**.
-   * **[!UICONTROL Reject the line when there is no remapping value]**: no se procesa la línea completa a menos que se haya definido una asignación para el valor incorrecto (consulte la opción **[!UICONTROL Mapping]** a continuación).
-   * **[!UICONTROL Use a default value in case the value is not remapped]**: reemplaza el valor que provoca el error con un valor predeterminado, definido en el campo **[!UICONTROL Default value]**, a menos que se haya definido una asignación para el valor incorrecto (consulte la opción **[!UICONTROL Mapping]** a continuación).
+   * **[!UICONTROL Ignore the value]**:: se omite el valor. Se genera una advertencia en el registro de ejecución del flujo de trabajo.
+   * **[!UICONTROL Reject line]**:: la línea completa no se procesa.
+   * **[!UICONTROL Use a default value in case of error]**:: reemplaza el valor que causa el error por un valor predeterminado, definido en el **[!UICONTROL Default value]** campo.
+   * **[!UICONTROL Reject the line when there is no remapping value]**:: la línea completa no se procesa a menos que se haya definido una asignación para el valor erróneo (consulte la **[!UICONTROL Mapping]** opción siguiente).
+   * **[!UICONTROL Use a default value in case the value is not remapped]**:: reemplaza el valor que causa el error por un valor predeterminado, definido en el **[!UICONTROL Default value]** campo, a menos que se haya definido una asignación para el valor erróneo (consulte la **[!UICONTROL Mapping]** opción siguiente).
 
 * **[!UICONTROL Default value]**: especifica el valor predeterminado de acuerdo con el procesamiento de error seleccionado.
 * **[!UICONTROL Mapping]**: este campo solo está disponible en la configuración de los detalles de la columna (a los que se accede mediante un doble clic o a través de las opciones a la derecha de la lista de la columna). Esto transforma ciertos valores cuando se importan. Por ejemplo, se puede transformar “tres” en “3”.
@@ -99,7 +102,7 @@ El ejemplo siguiente permite recopilar un fichero en el servidor todos los días
 
    ![](assets/s_advuser_load_file_sample_2.png)
 
-   Para esto, haga clic en el botón **[!UICONTROL Change...]**, situado en la sección inferior derecha de la herramienta de edición y configure la programación.
+   To do this, click the **[!UICONTROL Change...]** button located in the lower right-hand section of the editing tool and configure the schedule.
 
    Para obtener más información, consulte [Programador](../../workflow/using/scheduler.md).
 
@@ -127,7 +130,7 @@ El ejemplo siguiente permite recopilar un fichero en el servidor todos los días
 
    ![](assets/s_advuser_load_file_sample_6.png)
 
-1. A continuación, especifique los procesos que se van a realizar para cada tipo de población. En el ejemplo, vamos a **[!UICONTROL actualizar los datos]** de la base de datos. Para esto, coloque una actividad **[!UICONTROL Update data]** al final de cada transición saliente desde la actividad de división.
+1. A continuación, especifique los procesos que se van a realizar para cada tipo de población. In our example, we are going to **[!UICONTROL Update the data]** in the database. Para esto, coloque una actividad **[!UICONTROL Update data]** al final de cada transición saliente desde la actividad de división.
 
-   La actividad **[!UICONTROL Actualizar datos]** se detalla en la sección [Actualización de datos](../../workflow/using/update-data.md).
+   The **[!UICONTROL Update data]** activity is detailed in the [Update data](../../workflow/using/update-data.md) section.
 
