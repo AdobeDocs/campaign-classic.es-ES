@@ -1,0 +1,116 @@
+---
+title: Inicio de un flujo de trabajo
+description: Obtenga información sobre cómo inicio de un flujo de trabajo y descubrir acciones de flujos de trabajo en la barra de herramientas y en el menú que aparece al hacer clic con el botón derecho.
+page-status-flag: never-activated
+uuid: 7668f1a2-fcd0-41f8-b8f6-71d77bc47486
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: workflow
+content-type: reference
+topic-tags: -general-operation
+discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '734'
+ht-degree: 77%
+
+---
+
+
+# Inicio de un flujo de trabajo {#starting-a-workflow}
+
+Un flujo de trabajo siempre se inicia manualmente. Cuando se inicia, no obstante, puede permanecer inactivo según la información especificada mediante un planificador (consulte [Scheduler](../../workflow/using/scheduler.md)) o una planificación de actividad.
+
+Las acciones relacionadas con la ejecución del flujo de trabajo de objetivos (inicio, detención, pausa, etc.) son procesos **asíncronos**: el comando se guarda y se aplica en cuanto el servidor esté disponible para su aplicación.
+
+La barra de herramientas permite iniciar y rastrear la ejecución del flujo de trabajo.
+
+A continuación se detalla la lista de opciones disponibles en el menú **[!UICONTROL Actions]** y el menú contextual.
+
+## Barra de herramientas de acciones {#actions-toolbar}
+
+Los botones de la barra de herramientas se encuentran en esta [sección](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow). El botón **[!UICONTROL Actions]** le permite acceder a opciones de ejecución adicionales para actuar sobre los flujos de trabajo seleccionados. You can also use the **[!UICONTROL File > Actions]** menu, or right-click a workflow and select **[!UICONTROL Actions]**.
+
+![](assets/purge_historique.png)
+
+* **[!UICONTROL Start]**
+
+   Esta acción le permite iniciar la ejecución de un flujo de trabajo: un flujo de trabajo que aparezca como **Finalizado**, **Edición en curso** o **En pausa** cambia de estado a **Iniciado**. El motor de flujo de trabajo gestiona entonces la ejecución de este flujo de trabajo. Si el flujo de trabajo estaba en pausa, se reanuda, pero de lo contrario el flujo de trabajo se inicia desde el principio y se activan las actividades iniciales.
+
+   El inicio es un proceso asincrónico: la solicitud se guarda y se procesa lo antes posible mediante un servidor de flujo de trabajo.
+
+* **[!UICONTROL Pause]**
+
+   Esta acción establece el estado del flujo de trabajo como **En pausa**. No se activa ninguna actividad hasta que se reanuda el flujo de trabajo; sin embargo, las operaciones en curso no se detienen.
+
+* **[!UICONTROL Stop]**
+
+   Esta acción detiene un flujo de trabajo que se está ejecutando. El estado de la instancia se establece como **Finalizado**. Las operaciones en curso se detienen, si es posible. Las consultas SQL y las importaciones se cancelan inmediatamente.
+
+   La detención es un proceso asíncrono. La solicitud se registra, y luego el servidor de flujo de trabajo o los servidores cancelan las operaciones en curso. Por lo tanto, la detención de una instancia de flujo de trabajo puede llevar tiempo, especialmente si el flujo de trabajo se ejecuta en varios servidores, cada uno de los cuales debe asumir el control para cancelar las tareas en curso.
+
+* **[!UICONTROL Restart]**
+
+   Esta acción detiene y reinicia el flujo de trabajo. En la mayoría de los casos, es posible reiniciarlo más rápido. También resulta útil automatizar el reinicio cuando la detención lleva una determinada cantidad de tiempo: esto sucede porque el comando “Detener” no está disponible cuando el flujo de trabajo se detiene.
+
+   The **[!UICONTROL Start / Pause / Stop / Restart]** actions are also available via the execution icons in the toolbar. Para obtener más información, consulte [esta sección](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow).
+
+* **[!UICONTROL Purge history]**
+
+   Esta acción permite depurar el historial del flujo de trabajo. Para obtener más información, consulte [Depuración de “logs”](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs).
+
+* **[!UICONTROL Start in simulation mode]**
+
+   Esta opción permite iniciar el flujo de trabajo en modo de simulación, distinto del modo real. This means that when you enable this mode, only activities that do not impact the database or the file system are executed (e.g. **[!UICONTROL Query]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc.). Activities that do have an impact (e.g. **[!UICONTROL Export]**, **[!UICONTROL Import]**, etc.) no se ejecutan ni los que se encuentran después de ellos (en la misma rama).
+
+* **[!UICONTROL Execute pending tasks now]**
+
+   Esta acción le permite iniciar todas las tareas pendientes lo antes posible. To start a specific task, right-click its activity and select **[!UICONTROL Execute pending task(s) now]**.
+
+* **[!UICONTROL Unconditional stop]**
+
+   Esta opción cambia el estado del flujo de trabajo a **[!UICONTROL Finished]**. Esta acción debe utilizarse únicamente como último recurso si el proceso de detención normal falla tras varios minutos. Utilice únicamente la detención incondicional si está seguro de que no hay tareas de trabajos de flujo en curso.
+
+   >[!CAUTION]
+   >
+   >Esta opción se reserva para usuarios expertos.
+
+* **[!UICONTROL Save as template]**
+
+   Esta acción crea una nueva plantilla de flujo de trabajo basada en el flujo de trabajo seleccionado. Debe especificar la carpeta donde desea que se guarde (en el campo **[!UICONTROL Folder]**).
+
+   The **[!UICONTROL Mass update of selected lines]** and **[!UICONTROL Merge selected lines]** options are generic platform options available in all **[!UICONTROL Actions]** menus. Para obtener más información, consulte [esta sección](../../platform/using/updating-data.md).
+
+## Menú del botón derecho {#right-click-menu}
+
+Cuando haya seleccionado una o más actividades de flujo de trabajo, puede hacer clic con el botón derecho para actuar sobre la selección.
+
+![](assets/contextual_menu.png)
+
+Las siguientes opciones están disponibles en el menú del botón derecho:
+
+**[!UICONTROL Open]**: esta opción permite acceder a las propiedades de la actividad.
+
+**[!UICONTROL Display logs:]** esta opción le permite realizar la vista del registro de ejecución de la tarea para la actividad seleccionada. Consulte [Visualización de “logs”](../../workflow/using/monitoring-workflow-execution.md#displaying-logs).
+
+**[!UICONTROL Execute pending task(s) now:]** esta acción permite el inicio de tareas pendientes lo antes posible.
+
+**[!UICONTROL Workflow restart from a task:]** esta opción le permite reiniciar el flujo de trabajo utilizando los resultados almacenados anteriormente para esta actividad.
+
+**[!UICONTROL Cut/Copy/Paste/Delete:]** estas opciones le permiten cortar, copiar, pegar y eliminar actividades.
+
+**[!UICONTROL Copy as bitmap:]** esta opción le permite tomar una captura de pantalla de todas las actividades.
+
+**[!UICONTROL Normal execution / Enable but do not execute / Do not enable:]** estas opciones también están disponibles en la **[!UICONTROL Advanced]** ficha de las propiedades de actividad. Se encuentran detalladas en [Execution](../../workflow/using/advanced-parameters.md#execution).
+
+**[!UICONTROL Save / Cancel:]** permite guardar o cancelar los cambios realizados en un flujo de trabajo.
+
+>[!NOTE]
+>
+>Puede seleccionar un grupo de actividades y aplicar uno de estos comandos.
+
+El menú contextual del botón derecho también se detalla en esta [sección](../../campaign/using/marketing-campaign-deliveries.md#executing-a-workflow).
