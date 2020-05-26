@@ -1,0 +1,33 @@
+---
+title: Arquitectura
+description: Los Flujos de trabajo se gestionan mediante un módulo específico, que puede iniciarse en varios servidores para compartir la carga de procesamiento.
+page-status-flag: never-activated
+uuid: 7668f1a2-fcd0-41f8-b8f6-71d77bc47486
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: workflow
+content-type: reference
+topic-tags: -general-operation
+discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '154'
+ht-degree: 86%
+
+---
+
+
+# Arquitectura {#architecture}
+
+Los flujos de trabajo se gestionan mediante un módulo específico. Este módulo se puede iniciar en varios servidores para compartir la carga de procesamiento.
+
+![](assets/architecture.png)
+
+* El proceso “Workflow Instance Runner” (runwf) ejecuta todas las tareas de una instancia de flujo de trabajo determinada. Cuando no hay tareas para ejecutar, se vuelve “pasivo”, es decir, guarda su estado en la base de datos y se detiene.
+* El módulo “Workflow Server” (wfserver) supervisa las instancias de flujo de trabajo actuales. Cuando hay una tarea para realizar, este módulo crea un proceso para activar (o reactivar) la instancia correspondiente.
+
+Cuando un operador realiza una acción en un flujo de trabajo (inicio, detención, pausa, etc.), la acción no se ejecuta con el módulo “nlserver”, sino que se coloca en una cola para que la procese el módulo de flujo de trabajo.
