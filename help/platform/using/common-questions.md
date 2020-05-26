@@ -13,8 +13,11 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9a1db0fbced3550621c5520656a34344128ee13f
+translation-type: tm+mt
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '536'
+ht-degree: 100%
 
 ---
 
@@ -51,7 +54,7 @@ Adobe Campaign incluye un conjunto de paneles y herramientas para monitorizar la
 
 ## 5. ¿Puedo supervisar la ejecución del flujo de trabajo? {#can-i-monitor-workflow-execution}
 
-Descubra cómo monitorizar la ejecución del flujo de trabajo de Campaign [en esta página](../../workflow/using/executing-a-workflow.md).
+Descubra cómo monitorizar la ejecución del flujo de trabajo de Campaign [en esta página](../../workflow/using/starting-a-workflow.md).
 
 ## 6. ¿Cómo puedo conectarme a Campaign Classic? {#how-can-i-connect-to-campaign-classic-}
 
