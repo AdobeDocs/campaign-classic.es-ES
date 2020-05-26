@@ -14,8 +14,11 @@ discoiquuid: 27c8e443-ee6b-4d58-bc2d-81cf8391c5de
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f5062117b5cefbdd2570018f6803f114c14a3fae
+translation-type: tm+mt
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '809'
+ht-degree: 93%
 
 ---
 
@@ -55,12 +58,12 @@ Se crea un correo electrónico en el que primero debe insertar el nombre del des
 
 1. Cree una nueva entrega o abra una entrega de tipo correo electrónico ya existente.
 1. En el asistente de envío, haga clic en **[!UICONTROL Subject]** para editar el asunto del mensaje y escriba un asunto.
-1. Introduzca “**[!UICONTROL Special offer for]**” y utilice el botón de la barra de herramientas para insertar un campo de personalización. Seleccione **[!UICONTROL Recipients>Title]**.
+1. Introduzca “**[!UICONTROL Special offer for]**”  ” y utilice el botón de la barra de herramientas para insertar un campo de personalización. Seleccione **[!UICONTROL Recipients>Title]**.
 
    ![](assets/s_ncs_user_insert_custom_field.png)
 
 1. Repita la operación para insertar el nombre del destinatario. Inserte espacios entre todos los campos personalizados.
-1. Haga clic en **[!UICONTROL OK]** para validar.
+1. Click **[!UICONTROL OK]** to validate.
 1. Inserte la personalización en el cuerpo del mensaje. Para ello, haga clic en el contenido del mensaje y haga clic en el botón de inserción de campo.
 1. Seleccione **[!UICONTROL Recipient>Other...]**.
 
@@ -76,11 +79,11 @@ Se crea un correo electrónico en el que primero debe insertar el nombre del des
 
    >[!NOTE]
    >
-   >Cuando una entrega forma parte de un flujo de trabajo, se pueden utilizar los datos de la tabla de flujo de trabajo temporal. Estos datos se agrupan en el menú **[!UICONTROL Target extension]**. Para obtener más información, consulte [esta sección](../../workflow/using/executing-a-workflow.md#target-data).
+   >Cuando una entrega forma parte de un flujo de trabajo, se pueden utilizar los datos de la tabla de flujo de trabajo temporal. This data is grouped in the **[!UICONTROL Target extension]** menu. Para obtener más información, consulte [esta sección](../../workflow/using/data-life-cycle.md#target-data).
 
 ## Optimización de la personalización {#optimizing-personalization}
 
-Puede optimizar la personalización mediante una opción dedicada: **[!UICONTROL Prepare the personalization data with a workflow]**, disponible en la pestaña **[!UICONTROL Analysis]** de las propiedades de envío.
+You can optimize personalization using a dedicated option: **[!UICONTROL Prepare the personalization data with a workflow]**, available in the **[!UICONTROL Analysis]** tab of the delivery properties.
 
 Durante el análisis de envío, esta opción crea y ejecuta automáticamente un flujo de trabajo que almacena todos los datos vinculados con el objetivo en una tabla temporal, incluidos los datos de tablas vinculadas en FDA.
 
@@ -93,7 +96,7 @@ Para utilizar esta opción, siga los pasos a continuación:
 1. Cree una campaña. Para obtener más información, consulte [esta sección](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign).
 1. En la pestaña **[!UICONTROL Targeting and workflows]** de la campaña, añada una actividad **Query** al flujo de trabajo. Para obtener más información sobre esta actividad, consulte [esta sección](../../workflow/using/query.md).
 1. Añada una actividad de **[!UICONTROL Email delivery]** al flujo de trabajo y ábrala. Para obtener más información sobre esta actividad, consulte [esta sección](../../workflow/using/delivery.md).
-1. En **[!UICONTROL Delivery properties]**, vaya a la pestaña **[!UICONTROL Analysis]** y seleccione la opción **[!UICONTROL Prepare the personalization data with a workflow]**.
+1. Vaya a la **[!UICONTROL Analysis]** ficha de la **[!UICONTROL Delivery properties]** y seleccione la **[!UICONTROL Prepare the personalization data with a workflow]** opción.
 
    ![](assets/perso_optimization.png)
 
@@ -111,7 +114,7 @@ Una vez completado el análisis, vaya al flujo de trabajo **[!UICONTROL Properti
 
 Para mejorar la protección de la entrega, puede establecer un periodo de espera para la fase de personalización.
 
-En la pestaña **[!UICONTROL Delivery]** de **[!UICONTROL Delivery properties]**, seleccione un valor máximo en segundos para la opción **[!UICONTROL Maximum personalization run time]**.
+In the **[!UICONTROL Delivery]** tab of the **[!UICONTROL Delivery properties]**, select a maximum value in seconds for the **[!UICONTROL Maximum personalization run time]** option.
 
 Durante la vista previa o la entrega, si la fase de personalización supera el tiempo máximo establecido en este campo, el proceso se anula con un mensaje de error y la entrega falla.
 
