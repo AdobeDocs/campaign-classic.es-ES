@@ -14,8 +14,11 @@ discoiquuid: ec3844ca-8d80-4ddc-b08c-f18a6919bb28
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+translation-type: tm+mt
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '539'
+ht-degree: 94%
 
 ---
 
@@ -64,13 +67,13 @@ Además de los campos personalizados habituales, puede añadir campos personaliz
 
 ![](assets/s_advuser_using_additional_data.png)
 
-Los datos contenidos en la tabla de flujo de trabajo se identifican con su nombre: siempre se compone del vínculo **targetData.** Para obtener más información, consulte [Datos de destinatario](../../workflow/using/executing-a-workflow.md#target-data).
+Los datos contenidos en la tabla de flujo de trabajo se identifican con su nombre: siempre se compone del vínculo **targetData.** Para obtener más información, consulte [Datos de destinatario](../../workflow/using/data-life-cycle.md#target-data).
 
 Dentro del marco de una entrega de correo electrónico, los campos personalizados también pueden utilizar datos de la extensión de grupo objetivo realizada en las fases del flujo de trabajo de objetivos, como se muestra en el ejemplo siguiente:
 
 ![](assets/s_advuser_add_data_email.png)
 
-Si se especifica un código de segmento en una actividad de objetivo, se añade a una columna específica de la tabla de flujo de trabajo y se ofrece junto con los campos personalizados. Para mostrar todos los campos de personalización, haga clic en el vínculo **[!UICONTROL Target extension > Other...]** al que se puede acceder con el botón de personalización.
+Si se especifica un código de segmento en una actividad de objetivo, se añade a una columna específica de la tabla de flujo de trabajo y se ofrece junto con los campos personalizados. To display all personalization fields, click the **[!UICONTROL Target extension > Other...]** link accessible via the personalization button.
 
 ![](assets/s_advuser_segment_code_select.png)
 
@@ -78,7 +81,7 @@ Si se especifica un código de segmento en una actividad de objetivo, se añade 
 
 ### Comprimir o encriptar un archivo {#zipping-or-encrypting-a-file}
 
-Adobe Campaign permite exportar archivos comprimidos o encriptados. Al definir una exportación a través de una actividad **[!UICONTROL Data extraction (file)]**, puede definir un posprocesamiento para comprimir o encriptar el archivo.
+Adobe Campaign permite exportar archivos comprimidos o encriptados. When defining an export through a **[!UICONTROL Data extraction (file)]** activity, you can define a post-processing to zip or to encrypt the file.
 
 Para poder hacerlo:
 
