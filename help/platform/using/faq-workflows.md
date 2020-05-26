@@ -13,8 +13,11 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2ee1912e0de2841867d0ffb5420cc9810aa1083e
+translation-type: tm+mt
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,7 @@ Consulte las prácticas recomendadas para importar datos a través de un flujo d
 
 ## ¿Se puede monitorizar la ejecución del flujo de trabajo?{#can-i-monitor-workflow-execution-}
 
-Descubra cómo monitorizar la ejecución del flujo de trabajo de Campaign [en esta página](../../workflow/using/executing-a-workflow.md).
+Descubra cómo monitorizar la ejecución del flujo de trabajo de Campaign [en esta página](../../workflow/using/starting-a-workflow.md).
 
 ## ¿Cómo se puede actualizar los datos de Campaign con un flujo de trabajo?{#how-can-i-update-campaign-data-with-a-workflow-}
 
