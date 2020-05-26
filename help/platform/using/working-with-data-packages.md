@@ -14,8 +14,11 @@ discoiquuid: 42867665-d0ca-486e-9110-91716c0d5c57
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: 4ea5504bcfe306c5c5dc4b5fd685d898766d1685
+workflow-type: tm+mt
+source-wordcount: '2481'
+ht-degree: 60%
 
 ---
 
@@ -95,14 +98,14 @@ Un paquete de datos puede crearse manualmente desde cualquier editor de texto. A
 Los paquetes se pueden exportar de tres formas diferentes:
 
 * **[!UICONTROL Package Export Wizard]** permite exportar un conjunto de objetos en un solo paquete. Para obtener más información, consulte [Exportación de un conjunto de objetos en un paquete](#exporting-a-set-of-objects-in-a-package).
-* Un **objeto único** se puede exportar en un paquete directamente haciendo clic con el botón derecho en él y seleccionando **[!UICONTROL Actions > Export in a package]**.
+* A **single object** can be exported in a package directly by right-clicking on it and selecting **[!UICONTROL Actions > Export in a package]**.
 * Las **definiciones de paquetes** permiten crear una estructura de paquetes en la que se añaden objetos que se pueden exportar posteriormente en un paquete. Para obtener más información, consulte [Administración de definiciones de paquetes](#managing-package-definitions).
 
 Una vez exportado el paquete, puede importarlo, junto a todas las entidades añadidas, en otra instancia de campaña.
 
 ### Exportación de un conjunto de objetos en un paquete {#exporting-a-set-of-objects-in-a-package}
 
-Se puede acceder al asistente de exportación de paquetes mediante el menú **[!UICONTROL Tools > Advanced > Export package...]** de la consola del cliente de Adobe Campaign.
+The package export wizard is accessible via the **[!UICONTROL Tools > Advanced > Export package...]** menu of the Adobe Campaign client console.
 
 ![](assets/ncs_datapackage_typepackage.png)
 
@@ -114,7 +117,7 @@ Para los tres tipos de paquete, el asistente ofrece los siguientes pasos:
 
    >[!CAUTION]
    >
-   >Si exporta una carpeta de tipo **[!UICONTROL Offer category]**, **[!UICONTROL Offer environment]**, **[!UICONTROL Program]** o **[!UICONTROL Plan]**, evite seleccionar la carpeta **xtk:folder**, ya que puede perder algunos datos. Seleccione la entidad que corresponde a la carpeta: **nms:offerCategory** para categorías de ofertas, **nms:offerEnv** para entornos de ofertas, **nms:program** para programas y **nms:plan** para planes.
+   >If you export an **[!UICONTROL Offer category]**, **[!UICONTROL Offer environment]**, **[!UICONTROL Program]** or **[!UICONTROL Plan]** type folder, don&#39;t ever select the **xtk:folder** as you may lose some data. Seleccione la entidad que corresponde a la carpeta: **nms:offerCategory** para categorías de ofertas, **nms:offerEnv** para entornos de ofertas, **nms:program** para programas y **nms:plan** para planes.
 
    La administración de listas permite añadir o eliminar entidades de la exportación en la configuración. Haga clic en **[!UICONTROL Add]** para seleccionar una nueva entidad.
 
@@ -242,7 +245,7 @@ Las definiciones de paquete permiten crear una estructura de paquetes en la que 
 
 ### Creación de una definición de paquete {#creating-a-package-definition}
 
-Se puede acceder a las definiciones de paquetes desde el menú **[!UICONTROL Administration > Configuration > Package management > Package definitions]**.
+Package definitions can be accessed from the **[!UICONTROL Administration > Configuration > Package management > Package definitions]** menu.
 
 Para crear una definición de paquete, haga clic en el botón **[!UICONTROL New]** y complete la información general de la definición del paquete.
 
@@ -264,11 +267,11 @@ En la pestaña **[!UICONTROL Content]**, haga clic en el botón **[!UICONTROL Ad
 
 Las entidades se pueden añadir a una definición de paquete directamente desde su ubicación en la instancia. Para realizar esto, siga los pasos a continuación:
 
-1. Haga clic con el botón derecho en la entidad deseada y luego seleccione **[!UICONTROL Actions > Export in a package]**.
+1. Right-click the desired entity, then select **[!UICONTROL Actions > Export in a package]**.
 
    ![](assets/packagedefinition_singleentity.png)
 
-1. Seleccione **[!UICONTROL Add to a package definition]** y luego seleccione la definición del paquete a la que desea añadir la entidad.
+1. Select **[!UICONTROL Add to a package definition]**, then select the package definition to which you want to add the entity.
 
    ![](assets/packagedefinition_packageselection.png)
 
@@ -282,9 +285,9 @@ La generación de paquetes se puede configurar desde la pestaña de **[!UICONTRO
 
 ![](assets/packagedefinition_generationparameters.png)
 
-* **[!UICONTROL Include the definition]**: incluye la definición utilizada actualmente en la definición del paquete.
-* **[!UICONTROL Include an installation script]**: permite añadir una secuencia de comandos de javascript para ejecutarla en la importación del paquete. Al seleccionarlo, se añade una pestaña **[!UICONTROL Script]** en la pantalla de definición del paquete.
-* **[!UICONTROL Include default values]**: añade al paquete los valores de todos los atributos de las entidades.
+* **[!UICONTROL Include the definition]**:: incluye la definición utilizada actualmente en la definición del paquete.
+* **[!UICONTROL Include an installation script]**:: permite agregar una secuencia de comandos de javascript para ejecutarla en la importación del paquete. Al seleccionarlo, se añade una pestaña **[!UICONTROL Script]** en la pantalla de definición del paquete.
+* **[!UICONTROL Include default values]**:: agrega al paquete los valores de todos los atributos de las entidades.
 
    Esta opción no está seleccionada de forma predeterminada para evitar exportaciones largas. Esto significa que los atributos de las entidades con valores predeterminados (“cadena vacía”, “0” y “falso” si no se definen en el esquema) no se añaden al paquete y, por lo tanto, no se exportan.
 
@@ -300,7 +303,7 @@ La generación de paquetes se puede configurar desde la pestaña de **[!UICONTRO
 
 Para exportar un paquete desde una definición de paquete, siga los pasos siguientes:
 
-1. Seleccione la definición del paquete que desea exportar, haga clic en el botón **[!UICONTROL Actions]** y seleccione **[!UICONTROL Export the package]**.
+1. Select the package definition to export, then click the **[!UICONTROL Actions]** button and select **[!UICONTROL Export the package]**.
 1. De forma predeterminada, se selecciona un archivo XML correspondiente al paquete exportado. Se le asigna un nombre en función del área de nombre y el nombre de la definición del paquete.
 1. Una vez que haya definido el nombre y la ubicación del paquete, haga clic en el botón **[!UICONTROL Start]** para iniciar la exportación.
 
@@ -310,7 +313,7 @@ Para exportar un paquete desde una definición de paquete, siga los pasos siguie
 
 ### Acerca de la importación de paquetes {#about-package-import}
 
-Se puede acceder al asistente de importación de paquetes a través del menú principal **[!UICONTROL Tools > Advanced > Package import...]** de la consola del cliente de Adobe Campaign.
+The package import wizard is accessible via the main menu **[!UICONTROL Tools > Advanced > Package import...]** of the Adobe Campaign client console.
 
 Se puede importar un paquete desde una exportación realizada anteriormente, por ejemplo, desde otra instancia de Adobe Campaign o un paquete estándar, en función de los términos de la licencia.
 
@@ -324,7 +327,7 @@ Para importar un paquete de datos existente, seleccione el archivo XML y haga cl
 
 El contenido del paquete que se va a importar se muestra en la sección central del editor.
 
-Haga clic en **[!UICONTROL Next]** y después en **[!UICONTROL Start]** para iniciar la importación.
+Click **[!UICONTROL Next]** and **[!UICONTROL Start]** to launch the import.
 
 ![](assets/ncs_datapackage_import_2.png)
 
@@ -335,3 +338,128 @@ Los paquetes estándar se instalan cuando se configura Adobe Campaign. Dependien
 Consulte el acuerdo de licencia para comprobar qué paquetes puede instalar.
 
 Para obtener más información sobre paquetes estándar, consulte [esta sección](../../installation/using/installing-campaign-standard-packages.md).
+
+## Prácticas recomendadas de Paquete de datos {#data-package-best-practices}
+
+En esta sección se describe cómo organizar los paquetes de datos de forma coherente durante toda la vida del proyecto.
+
+<!--Adobe Campaign allows you to export or import the platform configuration through a package system.-->
+
+Los paquetes pueden contener diferentes tipos de configuraciones y elementos, filtrados o no. Si se pierden algunos elementos o no se importan los elementos o paquetes en el orden correcto, la configuración de la plataforma puede romperse.
+
+Además, con varias personas trabajando en la misma plataforma con muchas características diferentes, la carpeta de especificaciones del paquete puede volverse compleja rápidamente.
+
+Aunque no es obligatorio hacerlo, esta sección oferta una solución para ayudar a organizar y utilizar paquetes en Adobe Campaign para proyectos a gran escala.
+
+<!--This solution has been used with a project involving more than 10 consultants.-->
+
+Las principales limitaciones son las siguientes:
+* Organice los paquetes y realice un seguimiento de los cambios y las fechas
+* Si se actualiza una configuración, minimice el riesgo de que se rompa algo que no esté directamente vinculado a la actualización
+
+>[!NOTE]
+>
+>Para obtener más información sobre la configuración de un flujo de trabajo para exportar automáticamente paquetes, consulte [esta página](https://helpx.adobe.com/campaign/kb/export-packages-automatically.html).
+
+### Recomendaciones {#data-package-recommendations}
+
+Siempre importe en la misma versión de la plataforma. Debe comprobar que implementa los paquetes entre dos instancias que tienen la misma compilación. Nunca fuerce la importación y actualice siempre primero la plataforma (si la compilación es diferente).
+
+>[!IMPORTANT]
+>
+>Adobe no admite la importación entre distintas versiones.
+<!--This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won’t be able to help you resolve any issues you encounter.-->
+
+Preste atención a la estructura del esquema y la base de datos. La importación de envases con esquema debe ir seguida de la generación de esquemas.
+
+### Solución {#data-package-solution}
+
+#### Tipos de paquetes {#package-types}
+
+Inicio definiendo diferentes tipos de paquetes. Solo se utilizarán cuatro tipos:
+
+**Entidades**
+* Todos los elementos específicos de &quot;xtk&quot; y &quot;nms&quot; en Adobe Campaign como esquemas, formularios, carpetas, Plantillas de envíos, etc.
+* Puede considerar una entidad como elemento &quot;admin&quot; y &quot;platform&quot;.
+* No debe incluir más de una entidad en un paquete al cargarlo en una instancia de Campaña.
+
+<!--Nothing “works” alone. An entity package does not have a specific role or objective.-->
+
+Si necesita implementar la configuración en una instancia nueva, puede importar todos los paquetes de entidades.
+
+**Características** Este tipo de paquete:
+* Responde a un requisito/especificación del cliente.
+* Contiene una o varias funcionalidades.
+* Debe contener todas las dependencias para poder ejecutar la funcionalidad sin ningún otro paquete.
+
+**Campañas** Este paquete no es obligatorio. A veces resulta útil crear un tipo específico para todas las campañas, incluso si una campaña se puede ver como una característica.
+
+**Actualizaciones** Una vez configurada, una función se puede exportar a otro entorno. Por ejemplo, el paquete se puede exportar de un entorno dev a un entorno de prueba. En esta prueba, se muestra un defecto. En primer lugar, debe corregirse en el entorno de desarrollo. A continuación, el parche debe aplicarse a la plataforma de prueba.
+
+La primera solución sería volver a exportar toda la función. Pero, para evitar cualquier riesgo (actualizar elementos no deseados), es más seguro tener un paquete que contenga solamente la corrección.
+
+Por este motivo, recomendamos crear un paquete &quot;update&quot; (actualización) que contenga solo un tipo de entidad de la función.
+
+Una actualización no solo podría ser una corrección, sino también un nuevo elemento del paquete de campaña/función/entidad. Para evitar implementar todo el paquete, puede exportar un paquete de actualización.
+
+### Convenciones de nomenclatura {#data-package-naming}
+
+Ahora que los tipos están definidos, debemos especificar una convención de nombres. Adobe Campaign no permite crear subcarpetas para las especificaciones del paquete, lo que significa que los números son la mejor solución para mantenerse organizados. Números nombres de paquetes de prefijo. Puede utilizar la siguiente convención:
+
+* Entidad: de 1 a 99
+* Función: de 100 a 199
+* Campaña: de 200 a 299
+* Actualización: de 5000 a 5999
+
+### Paquetes {#data-packages}
+
+>[!NOTE]
+>
+>Es mejor configurar reglas para definir el número correcto de paquetes.
+
+#### Pedido de paquetes de entidades {#entity-packages-order}
+
+Para ayudar a la importación, los paquetes de entidades deben ordenarse a medida que se vayan importando. Por ejemplo:
+* 001 - Esquema
+* 002 - Formulario
+* 003 - Imágenes
+* Etc.
+
+>[!NOTE]
+>
+>Los formularios solo se deben importar después de actualizar el esquema.
+
+#### Paquete 200 {#package-200}
+
+El número de paquete &quot;200&quot; no debe utilizarse para una campaña específica: este número se utilizará para actualizar algo que concierne a todas las campañas.
+
+#### Actualizar paquete {#update-package}
+
+El último punto se refiere a la numeración del paquete de actualización. Es su número de paquete (entidad, función o campaña) con un &quot;5&quot; como prefijo. Por ejemplo:
+* 5001 para actualizar un esquema
+* 5200 para actualizar todas las campañas
+* 5101 para actualizar la función 101
+
+El paquete de actualización sólo debe contener una entidad específica para que pueda reutilizarse fácilmente. Para dividirlas, agregue un nuevo número (inicio de 1). No existen reglas de ordenación específicas para estos paquetes. Para entender mejor, imaginemos que tenemos una función 101, una aplicación social:
+* Contiene una aplicación web y una cuenta externa.
+   * La etiqueta del paquete es: 101 - Aplicación social (socialApplication).
+* Hay un defecto en webApp.
+   * Se corrigió wepApp.
+   * Es necesario crear un paquete de correcciones con el siguiente nombre: 5101 - 1 - Aplicación social webApp (socialApplication_webApp).
+* Es necesario añadir una nueva cuenta externa para la función social.
+   * Cuenta externa.
+   * El nuevo paquete es: 5101 - 2 - cuenta externa de la aplicación de Social (socialApplication_extAccount).
+   * Paralelamente, el paquete 101 se actualiza para añadirse a la cuenta externa, pero no se implementa.
+      ![](assets/ncs_datapackage_best-practices-1.png)
+
+#### Documentación del paquete {#package-documentation}
+
+Al actualizar un paquete, siempre debe colocar un comentario en el campo de descripción para detallar las modificaciones y motivos (por ejemplo, &quot;agregar un nuevo esquema&quot; o &quot;corregir un defecto&quot;).
+
+![](assets/ncs_datapackage_best-practices-2.png)
+
+También debe marcar la fecha del comentario. Siempre informe su comentario en un paquete de actualización al &quot;principal&quot; (paquete sin el prefijo 5).
+
+>[!IMPORTANT]
+>
+>El campo de descripción solo puede contener hasta 2.000 caracteres.
