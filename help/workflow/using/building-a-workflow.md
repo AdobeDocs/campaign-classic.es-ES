@@ -14,8 +14,11 @@ discoiquuid: 2d4ccf81-cd85-4f4c-8ba8-5b5612af1e16
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '1634'
+ht-degree: 94%
 
 ---
 
@@ -34,13 +37,13 @@ Esta sección detalla los principios fundamentales y las prácticas recomendadas
 
 ## Creación de un flujo de trabajo nuevo {#creating-a-new-workflow}
 
-Desde **[!UICONTROL Explorer]** acceda a una carpeta de flujo de trabajo. De forma predeterminada, se puede utilizar **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]**.
+Desde **[!UICONTROL Explorer]** acceda a una carpeta de flujo de trabajo. De forma predeterminada, puede utilizar **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]**.
 
 Haga clic en el botón **[!UICONTROL New]** situado sobre la lista de flujos de trabajo.
 
 ![](assets/create_a_wf_icon.png)
 
-También puede utilizar el botón **[!UICONTROL Create]** de la descripción general del flujo de trabajo (vínculo **[!UICONTROL Monitoring]** > **[!UICONTROL Workflow]**).
+Or, you can also use the **[!UICONTROL Create]** button in the workflow overview (**[!UICONTROL Monitoring]** > **[!UICONTROL Workflow]** link).
 
 ![](assets/create_a_wf.png)
 
@@ -107,7 +110,7 @@ Puede cambiar la visualización y el diseño del gráfico mediante los siguiente
 
 * **Alineación de objetos**
 
-   Para alinear los iconos, selecciónelos y haga clic en el icono **[!UICONTROL Align vertically]** o **[!UICONTROL Align horizontally]**.
+   To align icons, select them and click the **[!UICONTROL Align vertically]** or **[!UICONTROL Align horizontally]** icon.
 
    Utilice la tecla **Ctrl** para seleccionar varias actividades separadas o para anular la selección de una o varias actividades. Haga clic en el fondo del diagrama para anular la selección de todo.
 
@@ -141,7 +144,7 @@ Todas estas actividades se encuentran en la primera pestaña del flujo de trabaj
 >
 >Las actividades de segmentación se describen en esta [página](../../workflow/using/about-activities.md).
 
-Los flujos de trabajo de destino se pueden crear y editar mediante el nodo **[!UICONTROL Profiles and Targets > Jobs > Targeting workflows]** del árbol de Adobe Campaign o a través del menú **[!UICONTROL Profiles and Targets > Targeting workflows]** de la página de inicio.
+Targeting workflows can be created and edited via the **[!UICONTROL Profiles and Targets > Jobs > Targeting workflows]** node of the Adobe Campaign tree or via the **[!UICONTROL Profiles and Targets > Targeting workflows]** menu of the home page.
 
 ![](assets/target_wf.png)
 
@@ -155,7 +158,7 @@ Las fases de creación de datos de destino son las siguientes:
 1. Para preparar los datos para satisfacer las necesidades de entrega, consulte [Enriquecimiento y modificación de datos](../../workflow/using/targeting-data.md#enriching-and-modifying-data).
 1. Para utilizar los datos dentro de una entrega o realizar actualizaciones, consulte [Actualización de la base de datos](../../workflow/using/how-to-use-workflow-data.md#updating-the-database).
 
-Los resultados de todos los enriquecimientos y todas las gestiones realizadas durante el establecimiento de objetivos se almacenan y están accesibles en los campos personalizados, en particular para utilizarlos al crear mensajes personalizados. Para obtener más información, consulte [Datos de destinatarios](../../workflow/using/executing-a-workflow.md#target-data).
+Los resultados de todos los enriquecimientos y todas las gestiones realizadas durante el establecimiento de objetivos se almacenan y están accesibles en los campos personalizados, en particular para utilizarlos al crear mensajes personalizados. Para obtener más información, consulte [Datos de destinatarios](../../workflow/using/data-life-cycle.md#target-data).
 
 ### Establecimiento de objetivos y filtrado de dimensiones {#targeting-and-filtering-dimensions}
 
@@ -185,7 +188,7 @@ Esta pestaña contiene las mismas actividades para todos los flujos de trabajo. 
 
 Además de las campañas de destino, los flujos de trabajo de la campaña permiten crear y configurar envíos de principio a fin para todos los canales disponibles. Una vez creados en el flujo de trabajo, estos envíos están disponibles en el panel de la campaña.
 
-Todos los flujos de trabajo de campaña están centralizados en el nodo **[!UICONTROL Administration > Production > Objects created automatically > Campaign workflows]**.
+All campaign workflows are centralized under the **[!UICONTROL Administration > Production > Objects created automatically > Campaign workflows]** node.
 
 ![](assets/campaigns_wf.png)
 
@@ -193,7 +196,7 @@ En esta [página](../../campaign/using/marketing-campaign-deliveries.md#building
 
 ## Flujos de trabajo técnicos {#technical-workflows}
 
-Los flujos de trabajo técnicos se incluyen ya preparados con Adobe Campaign. Son operaciones o trabajos planificados para su ejecución periódica en el servidor. Permiten realizar el mantenimiento de la base de datos, enviar información de seguimiento sobre los envíos y configurar procesos provisionales relacionados con los envíos. Los flujos de trabajo técnicos se configuran mediante el nodo **[!UICONTROL Administration > Production > Technical workflows]**.
+Los flujos de trabajo técnicos se incluyen ya preparados con Adobe Campaign. Son operaciones o trabajos planificados para su ejecución periódica en el servidor. Permiten realizar el mantenimiento de la base de datos, enviar información de seguimiento sobre los envíos y configurar procesos provisionales relacionados con los envíos. Technical workflows are configured via the **[!UICONTROL Administration > Production > Technical workflows]** node.
 
 ![](assets/navtree.png)
 
@@ -205,7 +208,7 @@ La subcarpeta **[!UICONTROL Campaign process]** centraliza los flujos de trabajo
 >
 >La lista de flujos de trabajo técnicos instalados con cada módulo está disponible en una [sección específica](../../workflow/using/about-technical-workflows.md).
 
-Puede crear otros flujos de trabajo técnicos en el nodo **[!UICONTROL Administration > Production > Technical workflows]** de la estructura del árbol. Sin embargo, este proceso está reservado para usuarios expertos.
+You can create other technical workflows in the **[!UICONTROL Administration > Production > Technical workflows]** node of the tree structure. Sin embargo, este proceso está reservado para usuarios expertos.
 
 Las actividades ofrecidas son las mismas que para los flujos de trabajo de objetivos. Para obtener más información, consulte [Pasos de implementación](#implementation-steps-).
 
@@ -215,7 +218,7 @@ Las plantillas de flujo de trabajo contienen la configuración general de las pr
 
 Puede crear nuevas plantillas de flujo de trabajo basadas en plantillas existentes o cambiar un flujo de trabajo en una plantilla directamente.
 
-Las plantillas de flujo de trabajo se almacenan en el nodo **[!UICONTROL Resources > Templates > Workflow templates]** del árbol de Adobe Campaign.
+Workflow templates are stored in the **[!UICONTROL Resources > Templates > Workflow templates]** node of the Adobe Campaign tree.
 
 ![](assets/s_advuser_wf_template_tree.png)
 
