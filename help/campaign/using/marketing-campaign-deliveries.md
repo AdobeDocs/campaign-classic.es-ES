@@ -14,8 +14,11 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
+translation-type: tm+mt
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '2928'
+ht-degree: 100%
 
 ---
 
@@ -70,7 +73,7 @@ Puede importar una población a una lista y luego establecer como objetivo esta 
 
 El objetivo principal de una entrega también se puede definir en el flujo de trabajo de objetivos: este entorno gráfico permite crear un objetivo utilizando consultas, pruebas y operadores: unión, deduplicación, uso compartido, etc.
 
-La guía [automatización con flujos de trabajo](../../workflow/using/executing-a-workflow.md#architecture) incluye una descripción detallada del funcionamiento del módulo de flujos de trabajo.
+La guía [automatización con flujos de trabajo](../../workflow/using/architecture.md) incluye una descripción detallada del funcionamiento del módulo de flujos de trabajo.
 
 >[!IMPORTANT]
 >
@@ -104,7 +107,7 @@ Es posible acceder a las funciones de formato y ejecución del flujo de trabajo 
 
 >[!NOTE]
 >
->Las actividades disponibles para crear el diagrama, así como todas las funciones de visualización y presentación, se describen en la guía [Automatización con flujos de trabajo](../../workflow/using/executing-a-workflow.md#architecture).
+>Las actividades disponibles para crear el diagrama, así como todas las funciones de visualización y presentación, se describen en la guía [Automatización con flujos de trabajo](../../workflow/using/architecture.md).
 
 Puede crear varios flujos de trabajo de objetivos para una sola campaña. Para agregar un flujo de trabajo:
 
@@ -252,7 +255,7 @@ Haga clic en **[!UICONTROL Next]** para definir el orden de clasificación (si e
 
 ![](assets/s_ncs_user_edit_op_target_param.png)
 
-Esta configuración equivale a una actividad de uso compartido en el flujo de trabajo, lo que permite desglosar el objetivo en subconjuntos. El grupo de control es uno de estos subconjuntos. Consulte [esta sección](../../workflow/using/executing-a-workflow.md#architecture) para obtener más información.
+Esta configuración equivale a una actividad de uso compartido en el flujo de trabajo, lo que permite desglosar el objetivo en subconjuntos. El grupo de control es uno de estos subconjuntos. Consulte [esta sección](../../workflow/using/architecture.md) para obtener más información.
 
 ### Adición de una población {#adding-a-population}
 
