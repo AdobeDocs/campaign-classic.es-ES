@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ea5504bcfe306c5c5dc4b5fd685d898766d1685
+source-git-commit: 8089eb39e7326408f94b5fd6acacd8950c0e6021
 workflow-type: tm+mt
 source-wordcount: '2481'
 ht-degree: 60%
@@ -387,14 +387,20 @@ Inicio definiendo diferentes tipos de paquetes. Solo se utilizarán cuatro tipos
 
 Si necesita implementar la configuración en una instancia nueva, puede importar todos los paquetes de entidades.
 
-**Características** Este tipo de paquete:
+**Funciones**
+
+Este tipo de paquete:
 * Responde a un requisito/especificación del cliente.
 * Contiene una o varias funcionalidades.
 * Debe contener todas las dependencias para poder ejecutar la funcionalidad sin ningún otro paquete.
 
-**Campañas** Este paquete no es obligatorio. A veces resulta útil crear un tipo específico para todas las campañas, incluso si una campaña se puede ver como una característica.
+**Campañas**
 
-**Actualizaciones** Una vez configurada, una función se puede exportar a otro entorno. Por ejemplo, el paquete se puede exportar de un entorno dev a un entorno de prueba. En esta prueba, se muestra un defecto. En primer lugar, debe corregirse en el entorno de desarrollo. A continuación, el parche debe aplicarse a la plataforma de prueba.
+Este paquete no es obligatorio. A veces resulta útil crear un tipo específico para todas las campañas, incluso si una campaña se puede ver como una característica.
+
+**Actualizaciones**
+
+Una vez configurada, una función se puede exportar a otro entorno. Por ejemplo, el paquete se puede exportar de un entorno dev a un entorno de prueba. En esta prueba, se muestra un defecto. En primer lugar, debe corregirse en el entorno de desarrollo. A continuación, el parche debe aplicarse a la plataforma de prueba.
 
 La primera solución sería volver a exportar toda la función. Pero, para evitar cualquier riesgo (actualizar elementos no deseados), es más seguro tener un paquete que contenga solamente la corrección.
 
