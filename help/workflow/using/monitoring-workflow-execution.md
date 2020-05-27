@@ -14,8 +14,11 @@ discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 202f571f5c348ca4ab617821cd1ec24cefa8c504
+translation-type: tm+mt
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '2006'
+ht-degree: 100%
 
 ---
 
@@ -102,7 +105,7 @@ El “log” muestra la lista de mensajes de ejecución relacionados con las act
 
 ## Depuración de “logs”{#purging-the-logs}
 
-El historial del flujo de trabajo no se purga automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede eliminar a través del menú **[!UICONTROL File > Actions]****[!UICONTROL Actions]** o haciendo clic en el botón ubicado en la barra de herramientas situada encima de la lista. Seleccione **[!UICONTROL Purge history]**. Las opciones disponibles en el menú **[!UICONTROL Actions]** se detallan en la sección [Barra de herramientas de acciones](../../workflow/using/executing-a-workflow.md#actions-toolbar).
+El historial del flujo de trabajo no se purga automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede eliminar a través del menú **[!UICONTROL File > Actions]****[!UICONTROL Actions]** o haciendo clic en el botón ubicado en la barra de herramientas situada encima de la lista. Seleccione **[!UICONTROL Purge history]**. Las opciones disponibles en el menú **[!UICONTROL Actions]** se detallan en la sección [Barra de herramientas de acciones](../../workflow/using/starting-a-workflow.md).
 
 ![](assets/purge_historique.png)
 
