@@ -14,9 +14,9 @@ discoiquuid: 3aab3d47-76fd-4c68-add4-9c14240c936e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fcedad248169f53e716f2bd8b1b141fbf1f4d189
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2602'
 ht-degree: 100%
 
@@ -262,7 +262,7 @@ Los “logs” de entrega son esenciales para saber por qué ha fallado una entr
 
    Para resolver esto, compruebe los datos personalizados utilizados y, a continuación, compruebe el objetivo de los destinatarios que tengan más de una entrada para cualquiera de esos campos. También puede utilizar una actividad **[!UICONTROL Deduplication]** en el flujo de trabajo de objetivos antes de la actividad de entrega para comprobar que solo hay un campo de personalización a la vez. Para obtener más información sobre la deduplicación, consulte [esta sección](../../workflow/using/deduplication.md).
 
-* Algunas entregas pueden fallar con un error “Inaccesible” que indica: “Inbound email bounce (rule &#39;Auto_replies&#39; has matched this bounce). Esto significa que la entrega se realizó correctamente, pero Adobe Campaign recibió un mensaje de respuesta automática del destinatario (por ejemplo, “fuera de la oficina”) que coincidió con las reglas de correo electrónico entrante de “respuesta automática”. Adobe Campaign ignora el correo electrónico de respuesta automática y la dirección del destinatario no se pone en cuarentena.
+* Algunas entregas pueden fallar con un error “Inaccesible” que indica: “Inbound email bounce (rule &#39;Auto_replies&#39; has matched this bounce)”. Esto significa que la entrega se realizó correctamente, pero Adobe Campaign recibió un mensaje de respuesta automática del destinatario (por ejemplo, “fuera de la oficina”) que coincidió con las reglas de correo electrónico entrante de “respuesta automática”. Adobe Campaign ignora el correo electrónico de respuesta automática y la dirección del destinatario no se pone en cuarentena.
 
 **Temas relacionados:**
 
