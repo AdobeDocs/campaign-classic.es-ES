@@ -14,11 +14,11 @@ discoiquuid: c0eb06fd-192c-4ee4-9a38-c9bedbe6aea0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4148efa9c7a8b002672d72fc526753bf7304673c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2894'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -282,13 +282,13 @@ Los grupos de operadores predeterminados son:
 
    Estos grupos permiten utilizar **Distributed Marketing** (módulo opcional de Adobe Campaign).
 
-1. Administradores de Ofertas
+1. Administradores de ofertas
 
-   Los operadores de este grupo pueden crear y mantener ofertas. For more information on this, refer to this [page](../../interaction/using/operator-profiles.md).
+   Los operadores de este grupo pueden crear y mantener ofertas. Para obtener más información, consulte esta [página](../../interaction/using/operator-profiles.md).
 Este grupo contiene los siguientes derechos asignados:
 
-   * INSERTAR CARPETAS: Derecho a insertar carpetas en el árbol de Adobes Campaign (siempre que tenga derechos de edición para las ramas correspondientes),
-   * EDITAR CARPETAS: Derecho a modificar propiedades de carpeta como nombre interno, etiqueta, imagen asociada, orden de subcarpeta, etc.
+   * Inserción de carpetas: derecho para insertar carpetas en el árbol de Adobe Campaign (siempre que tenga derechos de edición para las ramas correspondientes),
+   * Edición de carpetas: derecho para modificar las propiedades de la carpeta, como el nombre interno, la etiqueta, la imagen asociada, el orden de la subcarpeta, etc.
 
 ## Derechos asignados {#named-rights}
 
