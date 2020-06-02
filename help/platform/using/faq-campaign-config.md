@@ -13,11 +13,11 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 928c2d944bb9709b54a41b07e8828646f2601cb9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Como usuario experto, puede configurar las funcionalidades de seguimiento en la 
 
 ## ¿Cómo configurar la entrega del correo electrónico? {#how-to-configure-email-deliverability-}
 
-Además de la sección de configuración [de la](../../delivery/using/about-deliverability.md#configuration) entrega, lea las recomendaciones técnicas de la entrega para comprender cómo configurar su instancia a fin de maximizar las capacidades de entrega de Campaña.
+Además de la sección de [Configuración de la capacidad de envío](../../delivery/using/about-deliverability.md#configuration), lea las recomendaciones técnicas de la capacidad de envío para comprender cómo configurar la instancia a fin de maximizar las capacidades de envío de Campaign.
 
 [Haga clic aquí para obtener más información](../../delivery/using/technical-recommendations.md).
 
