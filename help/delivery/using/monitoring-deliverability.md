@@ -1,6 +1,6 @@
 ---
-title: Monitoreo de la capacidad de entrega en Adobe Campaign Classic
-description: Obtenga información sobre las herramientas y las directrices sobre la supervisión de la entrega en Adobe Campaign Classic.
+title: Monitorización de la capacidad de envío en Adobe Campaign Classic
+description: Obtenga información sobre las herramientas y las directrices sobre la monitorización de capacidad de envío en Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: 0b5c5dbd-f532-4d8a-a255-9e6d88357d8d
 contentOwner: sauviat
@@ -12,77 +12,77 @@ discoiquuid: 0baef937-f00b-4fc4-8608-a870997be684
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 74e1a883088d347cb1aab05d76b630c912411fc4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '788'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
 
 # Supervisión de la capacidad de entrega{#monitoring-deliverability}
 
-A continuación encontrará detalles sobre las diferentes herramientas de supervisión proporcionadas por el Adobe Campaign, así como algunas directrices adicionales sobre la supervisión de la capacidad de entrega.
+A continuación encontrará detalles sobre las diferentes herramientas de monitorización que proporciona Adobe Campaign, así como algunas directrices adicionales sobre la monitorización de la capacidad de envío.
 
-## Monitoring tools {#monitoring-tools}
+## Herramientas de monitorización {#monitoring-tools}
 
-Utilice las funciones ofrecidas por Adobe Campaign para supervisar la capacidad de entrega de la plataforma.
+Utilice las funciones que ofrece Adobe Campaign para monitorizar la capacidad de envío de la plataforma.
 
-El paquete de entregabilidad le permite acceder a:
+El paquete de capacidad de envío permite acceder a:
 
-* Informe de seguimiento técnico para el rendimiento diario de la entrega (supervisión técnica). Este informe, disponible bajo demanda, le permite recibir un informe diario por correo electrónico en una dirección especificada. Para obtener más información, póngase en contacto con el equipo de atención al cliente de Adobe.
-* El informe [de procesamiento de la](../../delivery/using/inbox-rendering.md) Bandeja de entrada, que permite realizar previsualizaciones de los mensajes en los principales clientes de correo electrónico para analizar el contenido y la reputación.
+* Informe de seguimiento técnico para el rendimiento diario de la capacidad de envío (monitorización técnica). Este informe, disponible bajo demanda, le permite recibir un informe diario por correo electrónico en una dirección especificada. Para obtener más información, póngase en contacto con el equipo de atención al cliente de Adobe.
+* El [informe de procesamiento de las bandejas de entrada](../../delivery/using/inbox-rendering.md), que permite realizar previsualizaciones de los mensajes en los principales clientes de correo electrónico para analizar el contenido y la reputación.
 * Descripción general de la calidad del mensaje (bandeja de entrada, correo no deseado).
 
 También puede utilizar las siguientes herramientas:
 
-* El **[!UICONTROL Delivery throughput]** informe proporciona una visión general del rendimiento de toda la plataforma durante un período determinado. Para obtener más información, consulte [esta sección](../../reporting/using/global-reports.md#delivery-throughput).
-* The **[!UICONTROL Technical deliverability monitoring]** report includes a number of deliverability quality indicators for your platform. Para obtener más información, consulte [esta sección](#technical-deliverability-monitoring).
-* Cada envío genera un informe de estadísticas de difusión para los diferentes proveedores de servicio de Internet (ISP). Muestra algunas métricas de calidad de datos y reputación que pueden afectar la capacidad de entrega, incluidas las siguientes cifras:
-   * **[!UICONTROL Hard bounces]** indicar la calidad de los datos. Este número debe ser inferior al 2 %.
-   * **[!UICONTROL Soft bounces]** indicar reputación. Este número no debe ser superior al 10% para un ISP determinado.
-   Para obtener más información sobre esto, consulte la sección Estadísticas [de](../../reporting/using/global-reports.md#delivery-statistics) Envío.
-* De manera más general, el panel [de](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard) envío le permite acceder a:
-   * el resumen [del](../../delivery/using/monitoring-a-delivery.md#delivery-summary)envío, que muestra los detalles del envío y el [número de mensajes](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent) que se enviarán, procesarán y enviarán con éxito;
-   * los [registros de envío y la historia](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history), que muestran qué destinatario se ha excluido y por qué;
+* El informe **[!UICONTROL Delivery throughput]** proporciona una visión general del rendimiento de toda la plataforma durante un período determinado. Para obtener más información, consulte [esta sección](../../reporting/using/global-reports.md#delivery-throughput).
+* El informe **[!UICONTROL Technical deliverability monitoring]** incluye una serie de indicadores de calidad de capacidad de envío para su plataforma. Para obtener más información, consulte [esta sección](#technical-deliverability-monitoring).
+* Cada envío genera un informe de estadísticas de difusión para los diferentes proveedores de servicio de Internet (ISP). Muestra algunas métricas de calidad de datos y reputación que pueden afectar la capacidad de envío, incluidas las siguientes cifras:
+   * **[!UICONTROL Hard bounces]** indican la calidad de los datos. Este valor debe ser inferior al 2 %.
+   * **[!UICONTROL Soft bounces]** indican reputación. Este valor no debe ser superior al 10 % para un ISP determinado.
+   Para obtener más información, consulte la sección [Estadísticas de envío](../../reporting/using/global-reports.md#delivery-statistics).
+* De manera más general, el [panel de envío](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard) le permite acceder a:
+   * el [resumen del envío](../../delivery/using/monitoring-a-delivery.md#delivery-summary), que muestra el detalle del envío y el [número de mensajes](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent) que se van a enviar, procesados y enviados con éxito;
+   * los [registros de envío y el historial](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history), que muestran qué destinatario se ha excluido y por qué;
    * los [registros de seguimiento](../../delivery/using/monitoring-a-delivery.md#tracking-logs), que muestran información de seguimiento como aperturas y clics.
 
-## Directrices de supervisión {#monitoring-guidelines}
+## Directrices de monitorización {#monitoring-guidelines}
 
-Estas son algunas directrices adicionales sobre la supervisión de la capacidad de entrega:
+Estas son algunas directrices adicionales sobre la monitorización de la capacidad de envío:
 
-* Compruebe regularmente el rendimiento [del](../../reporting/using/global-reports.md#delivery-throughput) envío de toda la plataforma para comprobar si es coherente con la configuración original.
-* Compruebe que [los reintentos](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) están correctamente configurados (30 minutos para el período de reintento y más de 20 reintentos) en Plantillas de envíos.
-* Compruebe periódicamente que el buzón de [devoluciones](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management) esté accesible y que la cuenta no esté a punto de caducar.
-* Compruebe el rendimiento de cada envío para asegurarse de que es coherente con la validez del contenido del envío (p. ej. &#39;ventas flash&#39; deben entregarse en minutos, no en días).
-* Cuando utilice [olas](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves), compruebe que cada onda tiene tiempo suficiente para finalizar antes de que se active la siguiente.
-* Compruebe que el número de errores y nuevas [cuarentenas](../../delivery/using/understanding-quarantine-management.md) sean coherentes con otros envíos.
+* Compruebe regularmente el [rendimiento del envío](../../reporting/using/global-reports.md#delivery-throughput) de toda la plataforma para comprobar si es coherente con la configuración original.
+* Compruebe que [los reintentos](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) estén correctamente configurados (30 minutos para el periodo de reintento y más de 20 reintentos) en plantillas de envíos.
+* Compruebe periódicamente si puede acceder al buzón de [rechazados](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management) y que la cuenta no esté a punto de caducar.
+* Compruebe el rendimiento de cada envío para asegurarse de que es coherente con la validez del contenido del envío (p. ej. las “ventas flash” deben entregarse en minutos, no en días).
+* Cuando utilice [olas](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves), compruebe que cada ola tenga tiempo suficiente para finalizar antes de que se active la siguiente.
+* Compruebe que las cantidades de errores y nuevas [cuarentenas](../../delivery/using/understanding-quarantine-management.md) sean coherentes con otros envíos.
 * Consulte cuidadosamente los [registros de envío](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) en detalle para comprobar el tipo de errores resaltados (listas grises o negras, problemas de DNS, reglas antispam, etc.).
 
-## Correo no deseado de señal {#signal-spam}
+## Signal Spam {#signal-spam}
 
-Signal Spam es un servicio francés que oferta el sistema de informes de bucle de retroalimentación anonimizado para los ISP franceses (Orange, SFR).
+Signal Spam es un servicio francés que ofrece el sistema de informes de bucle de retroalimentación anonimizado para los ISP franceses (Orange, SFR).
 
 * Este servicio le permite seguir la reputación de los ISP franceses y la evolución de la actividad de los clientes.
 
-* El correo no deseado de señal también proporciona quejas directas de que los usuarios finales inician sesión a través de una interfaz dedicada. Esas quejas se ponen en cuarentena a partir de la base de datos de direcciones de correo electrónico.
+* Signal Spam también proporciona quejas directas de que los usuarios finales registran a través de una interfaz dedicada. Esas quejas se ponen en cuarentena a partir de la base de datos de direcciones de correo electrónico.
 
 ## 250ok {#deliverability-250ok}
 
-[250ok](https://250ok.com/) es una solución de supervisión complementaria de las herramientas internas de entrega de Adobe que proporciona IP, listas negras de dominios e indicadores de reputación.
+[250ok](https://250ok.com/) es una solución de monitorización complementaria de las herramientas internas de capacidad de envío de Adobe que proporciona IP, listas negras de dominios e indicadores de reputación.
 
-La información proporcionada es en tiempo real, lo que permite una asistencia proactiva.
+La información se proporciona en tiempo real, lo que permite una asistencia proactiva.
 
 ## Informe de monitorización de la capacidad de envío técnica {#technical-deliverability-monitoring}
 
-The technical deliverability monitoring report is updated daily and available by navigating to **[!UICONTROL Monitoring]** > **[!UICONTROL Overview]** and clicking the **[!UICONTROL Technical monitoring]** link from the Adobe Campaign **[!UICONTROL Home]** tab. Incluye una serie de indicadores de calidad de envío para su plataforma.
+El informe de monitorización de capacidad de envío técnica se actualiza diariamente y está disponible. Para ello, vaya a **[!UICONTROL Monitoring]** > **[!UICONTROL Overview]** y, en la pestaña **[!UICONTROL Home]** de Adobe Campaign, haga clic en el enlace **[!UICONTROL Technical monitoring]**. Incluye una serie de indicadores de calidad de envío para su plataforma.
 
 Estos indicadores se actualizan diariamente a las 9 a. m.
 
 >[!NOTE]
 >
->Además, puede recibir un informe diario por correo electrónico en una dirección específica. Háganos saber la dirección de correo electrónico solicitada por correo electrónico o a través de la Extranet de Adobe Campaign.
+>Además, puede recibir un informe diario por correo electrónico en una dirección específica. Infórmenos de la dirección de correo electrónico solicitada por correo electrónico o a través de la Extranet de Adobe Campaign.
 
 ![](assets/s_tn_del_monitoring.png)
 
