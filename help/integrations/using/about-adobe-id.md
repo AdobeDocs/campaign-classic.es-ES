@@ -14,8 +14,11 @@ discoiquuid: c988362b-432e-4f9f-8d36-00b3d0015756
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0a4272ae13b469c7c17b8c3afa9748cbfbcf07ff
+workflow-type: ht
+source-wordcount: '152'
+ht-degree: 100%
 
 ---
 
@@ -29,17 +32,17 @@ Los usuarios de la campaña pueden conectarse a la consola de Adobe Campaign con
 * Política de gestión segura de contraseñas.
 * Uso de cuentas de ID federadas (proveedor de ID externo).
 
-El sistema de administración de identidad de Adobe ayuda a los administradores a crear y administrar el acceso del usuario a aplicaciones y servicios. Para obtener más información sobre los distintos tipos de Adobe ID, consulte [esta página](https://helpx.adobe.com/enterprise/using/identity.html).
+El sistema Identity Management de Adobe ayuda a los administradores a crear y administrar el acceso del usuario a aplicaciones y servicios. Para obtener más información sobre los distintos tipos de ID de Adobe, consulte [esta página](https://helpx.adobe.com/es/enterprise/using/identity.html).
 
 >[!CAUTION]
 >
->La implementación IMS está estrictamente reservada para los administradores técnicos de Adobe. La implementación del SIV es un proceso complejo que puede ser largo de implementar.
+>La implementación IMS está estrictamente reservada para los administradores técnicos de Adobe. La implementación IMS es un proceso complejo que puede llevar mucho tiempo.
 
 ## Temas relacionados
 
 | Páginas útiles | Recursos adicionales |
 |---|---|
-| [Configuración de IMS](../../integrations/using/configuring-ims.md) | [Preguntas más frecuentes sobre Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html) |
+| [Configuración de IMS](../../integrations/using/configuring-ims.md) | [Preguntas frecuentes sobre Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/faq.html) |
 | [Implementación de IMS](../../integrations/using/implementing-ims.md) | [Gestión de acceso](../../platform/using/access-management.md) |
-| [Resolución de problemas de IMS](../../integrations/using/ims-troubleshooting.md) | [Instalación de paquetes de Campaña](../../installation/using/installing-campaign-standard-packages.md) |
+| [Solución de problemas de IMS](../../integrations/using/ims-troubleshooting.md) | [Instalación de paquetes de Campaign](../../installation/using/installing-campaign-standard-packages.md) |
 
