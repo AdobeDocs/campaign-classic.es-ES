@@ -12,11 +12,11 @@ discoiquuid: fc95538b-b54d-44ec-81aa-f51b62982699
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2432'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -89,14 +89,14 @@ El uso de DKIM requiere algunos requisitos previos:
 
 >[!NOTE]
 >
->* If you have configured DomainKeys for your Adobe Campaign instance, you just need to select **dkim** in the [Domain management rules](../../delivery/using/understanding-delivery-failures.md#domain-management). Si no, siga los mismos pasos de configuración (clave privada/pública) que para DomainKeys.
+>* Si ha configurado DomainKeys para la instancia de Adobe Campaign, solo debe seleccionar **dkim** en las [Reglas de administración de dominios](../../delivery/using/understanding-delivery-failures.md#domain-management). Si no, siga los mismos pasos de configuración (clave privada/pública) que para DomainKeys.
 >* No es necesario activar DomainKeys y DKIM para el mismo dominio, ya que DKIM es una versión mejorada de DomainKeys.
 >* Los siguientes dominios actualmente validan DKIM: AOL, Gmail.
 
 
 >[!IMPORTANT]
 >
->For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html), DKIM email authentication signing is done by the Enhanced MTA for all messages with all domains.
+>Para instalaciones hospedadas o híbridas, si ha actualizado a [MTA mejorado](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html), este crea la firma de autenticación de correo electrónico DKIM para todos los mensajes con todos los dominios.
 
 ### DMARC {#dmarc}
 
