@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 5d8959dc790c0cf0e6ea62122310bfbee5bcc0dd
 workflow-type: tm+mt
 source-wordcount: '6477'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ Se ha movido y mejorado la sección de solución de problemas de la capacidad de
 
 Se han mejorado las directrices de entrega al iniciar una nueva sección de plataforma. [Más información](../../delivery/using/starting-new-platform.md)
 
-La sección Envío de correos electrónicos transaccionales con archivos adjuntos se ha movido y actualizado. [Más información](../../message-center/using/transactional-email-with-attachments.md)
+Se ha movido y actualizado la sección Envío de correos electrónicos transaccionales con archivos adjuntos. [Más información](../../message-center/using/transactional-email-with-attachments.md)
 
 Se ha movido y actualizado la sección de optimizaciones de Paquete de datos. [Más información](../../platform/using/working-with-data-packages.md#data-package-best-practices)
 
@@ -52,9 +52,9 @@ La sección que describe el modelo de datos integrado de Adobe Campaign se ha ac
 
 Los casos de uso del flujo de trabajo se han actualizado y reorganizado en secciones temáticas. [Más información](../../workflow/using/using-the-local-approval-activity.md)
 
-Las secciones [de certificación](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) de correo de devolución y reglas [de administración de](../../delivery/using/understanding-delivery-failures.md#email-management-rules) correo electrónico se han mejorado con información actualizada.
+Las secciones de [Certificación de correo rechazado ](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) y [reglas de administración de correo electrónico](../../delivery/using/understanding-delivery-failures.md#email-management-rules) se han mejorado con información actualizada.
 
-Se ha actualizado el artículo de MTA de Adobe Campaign mejorado. Ahora sólo se aplica al Campaign Classic. [Más información](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
+Se ha actualizado el artículo de MTA mejorado de Adobe Campaign. Ahora solo se aplica a Campaign Classic. [Más información](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
 
 ## Marzo de 2020 {#march-2020}
 
