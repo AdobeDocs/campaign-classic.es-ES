@@ -14,8 +14,11 @@ discoiquuid: 9fe22450-057c-44b4-ab73-4027a2ddb20c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad4a40053b25bbf8de81e074e135ef4944f0b427
+workflow-type: ht
+source-wordcount: '287'
+ht-degree: 100%
 
 ---
 
@@ -39,5 +42,5 @@ Para familiarizarse con la función de interacción y la terminología utilizada
 | Páginas útiles | Recursos adicionales |
 |---|---|
 | [Pasos de implementación de la interacción](../../interaction/using/implementation-steps.md) | [Prueba de la distribución de ofertas](../../interaction/using/about-offers-simulation.md) |
-| [Entornos en directo/de diseño](../../interaction/using/live-design-environments.md) | [Añadir una oferta en un correo electrónico](../../interaction/using/integrating-an-offer-via-the-wizard.md) |
-| [Creación de espacios de oferta](../../interaction/using/creating-offer-spaces.md) | [Caso de uso: agregar una oferta en un sitio web](../../interaction/using/offers-on-an-inbound-channel.md) |
+| [Entornos en directo/de diseño](../../interaction/using/live-design-environments.md) | [Adición de una oferta en un correo electrónico](../../interaction/using/integrating-an-offer-via-the-wizard.md) |
+| [Creación de espacios de oferta](../../interaction/using/creating-offer-spaces.md) | [Caso de uso: añadir una oferta en un sitio web](../../interaction/using/offers-on-an-inbound-channel.md) |
