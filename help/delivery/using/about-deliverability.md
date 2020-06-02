@@ -12,11 +12,11 @@ discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6617614ae22b73c6783f9775f441e5e25ae19e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -32,9 +32,9 @@ Adobe Campaign ofrece herramientas para hacer un seguimiento de la capacidad de 
 Esta función está disponible a través de un paquete dedicado en Adobe Campaign. Para utilizarlo, este paquete debe estar instalado. Una vez finalizado, reinicie el servidor para que el paquete se tenga en cuenta.
 * Para los clientes alojados e híbridos, el servicio de asistencia técnica y los consultores de Adobe configuran la **supervisión de la entrega** en su instancia. Para obtener más información, póngase en contacto con su administrador de cuentas de Adobe.
 
-* Para las instalaciones in situ, debe instalar el **[!UICONTROL Deliverability monitoring (Email Deliverability)]** paquete a través del menú **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** . Para obtener más información, consulte [Instalación de paquetes estándar de Campaign Classic](../../installation/using/installing-campaign-standard-packages.md).
+* Para las instalaciones on-premise, debe instalar el **[!UICONTROL Deliverability monitoring (Email Deliverability)]** paquete a través del **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** menú. Para obtener más información, consulte [Instalación de paquetes estándar de Campaign Classic](../../installation/using/installing-campaign-standard-packages.md).
 
-In Adobe Campaign Classic, **Deliverability monitoring** is managed by the **[!UICONTROL Refresh for deliverability]** workflow. El flujo de trabajo se instala de manera predeterminada en todas las instancias y le permite inicializar la lista de reglas de cualificación de correos rechazados, la lista de dominios y la lista de MX. Once the **[!UICONTROL Deliverability monitoring (Email Deliverability)]** package is installed, this workflow runs nightly to regularly update the list of rules and enables you to actively manage platform deliverability.
+En Adobe Campaign Classic, la **supervisión de la entrega** se administra mediante el flujo de trabajo de **[!UICONTROL Refresh for deliverability]**. El flujo de trabajo se instala de manera predeterminada en todas las instancias y le permite inicializar la lista de reglas de cualificación de correos rechazados, la lista de dominios y la lista de MX. Una vez que se ha instalado el paquete **[!UICONTROL Deliverability monitoring (Email Deliverability)]**, este flujo de trabajo se ejecuta todas las noches para actualizar regularmente la lista de reglas y permite administrar de forma activa la capacidad de envío de la plataforma.
 
 ## Contexto {#background}
 
