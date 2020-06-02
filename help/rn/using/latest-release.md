@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e329ee546a3990850daeb7a46ee9de77fd075ff1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1411'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,11 +42,11 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-La **última compilación** estable es 9032 (3a9dc9c). Haga clic [aquí](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+La **última compilación estable** es 9032 (3a9dc9c). Haga clic [aquí](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
 ## ![](assets/do-not-localize/blue_2.png) Versión 20.1.3: compilación 9124 {#release-20-1-3-build-9124}
 
-_6 de mayo de 2020_
+_miércoles, 6 de mayo de 2020_
 
 * Se ha corregido un problema con la actividad **File Transfer** que impedía que la autenticación basada en claves SFTP funcionara en Debian 9. (NEO-23183)
 
@@ -146,7 +146,7 @@ _lunes, 17 de febrero de 2020_
 
 * Se corrigió un problema de cifrado de clave de cuenta al usar el conector Hadoop.
 
-* Se ha corregido un problema de regresión debido a la implementación de la certificación SSL que provocaba que la conexión del usuario fallara en el servidor de Windows. (NEO-20629)
+* Se ha corregido un problema de regresión debido a la implementación de la certificación SSL que hacía que la conexión del usuario fallara en el servidor de Windows. (NEO-20629)
 
 * Se ha corregido un problema con la actividad de consulta incremental en el caso de ID de flujo de trabajo negativos. (NEO-19779)
 
