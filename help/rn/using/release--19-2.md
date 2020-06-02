@@ -14,8 +14,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eab67029d477044bc853f2a5c2de06ace70ebbee
+workflow-type: ht
+source-wordcount: '1373'
+ht-degree: 100%
 
 ---
 
@@ -41,7 +44,7 @@ source-git-commit: eab67029d477044bc853f2a5c2de06ace70ebbee
  </tbody> 
 </table>
 
-La **última compilación** estable es 9032 (3a9dc9c). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+La **última compilación estable** es 9032 (3a9dc9c). Haga clic [aquí](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
 ## ![](assets/do-not-localize/orange_2.png) Versión 19.2.3: compilación 9081 {#release-19-2-3-build-9081}
 
@@ -49,8 +52,8 @@ _7 de febrero de 2020_
 
 **Mejoras**
 
-* Se ha corregido un problema de regresión debido a la implementación de la certificación SSL que provocaba que la conexión del usuario fallara en el servidor de Windows. (NEO-20629)
-* Se ha corregido un problema que mostraba un número de etiqueta de versión incorrecto en el menú **Acerca de** .
+* Se ha corregido un problema de regresión debido a la implementación de la certificación SSL que hacía que la conexión del usuario fallara en el servidor de Windows. (NEO-20629)
+* Se ha corregido un problema que mostraba un número de etiqueta de versión incorrecto en el menú **Acerca de**.
 
 ## ![](assets/do-not-localize/orange_2.png) Versión 19.2: compilación 9080 {#release-19-2-build-9080}
 
