@@ -14,8 +14,11 @@ discoiquuid: f3666c12-5e6f-452e-b1d6-b69a7e9f6f6e
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 06f2106c7c37fd5f115d15f3530997571f1f8e70
+translation-type: tm+mt
+source-git-commit: adb25307146847a1c49d9c548d00557e95562541
+workflow-type: tm+mt
+source-wordcount: '880'
+ht-degree: 85%
 
 ---
 
@@ -41,16 +44,17 @@ Para adjuntar un archivo local a una entrega, siga los pasos a continuación.
 >
 >Puede adjuntar varios archivos a la entrega. Los archivos adjuntos pueden tener cualquier formato, incluido el formato compactado.
 
-1. Haga clic en el vínculo **[!UICONTROL Attachments]** .
-1. Haga clic en el botón **[!UICONTROL Add]** y, a continuación, haga clic en **[!UICONTROL Archivo...]** para seleccionar el archivo que se adjuntará a la entrega.
+1. Haga clic en el vínculo **[!UICONTROL Attachments]**.
+1. Haga clic en el botón **[!UICONTROL Add]**.
+1. Haga clic **[!UICONTROL File...]** para seleccionar el archivo que se adjuntará al envío.
 
-![](assets/s_ncs_user_wizard_email_attachement.png)
+   ![](assets/s_ncs_user_wizard_email_attachement.png)
 
 También puede arrastrar y soltar directamente el archivo en el campo **[!UICONTROL Attachments]** de envío o utilizar el icono **[!UICONTROL Attach]** de la barra de herramientas del asistente de envío.
 
 ![](assets/s_ncs_user_wizard_add_file_ico.png)
 
-1. Una vez seleccionado el documento, se sube inmediatamente al servidor para que esté disponible en el momento de la entrega. Se muestra en el campo **[!UICONTROL Attachments]** .
+Una vez seleccionado el documento, se sube inmediatamente al servidor para que esté disponible en el momento de la entrega. Se muestra en el campo **[!UICONTROL Attachments]** .
 
 ![](assets/s_ncs_user_wizard_email_attachement_e.png)
 
@@ -62,8 +66,8 @@ Al crear un archivo adjunto calculado, el nombre del archivo adjunto se puede ca
 
 Para crear un adjunto personalizado, siga estos pasos:
 
-1. Haga clic en el vínculo **[!UICONTROL Attachments]** .
-1. Haga clic en el botón **[!UICONTROL Add]** y, a continuación, seleccione **[!UICONTROL Calculated attachment]**.
+1. Haga clic en el vínculo **[!UICONTROL Attachments]**.
+1. Haga clic en el **[!UICONTROL Add]** botón y seleccione **[!UICONTROL Calculated attachment]**.
 1. Seleccione el tipo de cálculo de **[!UICONTROL Type]** en la lista desplegable:
 
 ![](assets/s_ncs_user_wizard_email01_136.png)
@@ -77,14 +81,14 @@ Estas son las opciones disponibles:
 
 ### Adjuntar un archivo local {#attach-a-local-file}
 
-Si el archivo adjunto es un archivo local, seleccione la opción: **[!UICONTROL File name is specified when creating the delivery template]**. El archivo se selecciona localmente y se carga en el servidor. Siga estos pasos:
+If the attachment is a local file, select the option: **[!UICONTROL File name is specified when creating the delivery template]**. El archivo se selecciona localmente y se carga en el servidor. Siga estos pasos:
 
-1. Seleccione el archivo que desea cargar en el campo **[!UICONTROL Local file]**.
+1. Select the file to upload in the **[!UICONTROL Local file]** field.
 1. Especifique la etiqueta si es necesario. La etiqueta sustituye al nombre de archivo cuando se visualiza en los sistemas de mensajería. Si no se especifica nada, se utiliza el nombre de archivo de forma predeterminada.
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_02.png)
 
-1. Si es necesario, seleccione **[!UICONTROL Upload file on the server]** y, a continuación, haga clic en **[!UICONTROL Update on server]** para iniciar la transferencia.
+1. If necessary, select **[!UICONTROL Upload file on the server]**, and then click **[!UICONTROL Update on server]** to start the transfer.
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_01.png)
 
@@ -92,7 +96,7 @@ Si el archivo adjunto es un archivo local, seleccione la opción: **[!UICONTROL 
 
 ### Adjuntar un mensaje personalizado {#attach-a-personalized-message}
 
-La opción **[!UICONTROL The file content is personalized and converted into PDF format at the time of delivery for each message]** le permite seleccionar un archivo con campos personalizados, como el apellido y el nombre del destinatario deseado.
+La opción **[!UICONTROL The file content is personalized and converted into PDF format at the time of delivery for each message]** permite seleccionar un archivo con campos de personalización, como el apellido y el nombre del destinatario deseado.
 
 ![](assets/s_ncs_user_wizard_email_calc_attachement_06.png)
 
@@ -105,7 +109,7 @@ Para este tipo de archivos adjuntos, aplique los siguientes pasos de configuraci
    >El archivo de origen debe crearse en LibreOffice. La instancia debe configurarse en consonancia con los requisitos previos detallados en [esta sección](../../installation/using/before-starting.md).
 
 1. Especifique la etiqueta si es necesario.
-1. Seleccione **[!UICONTROL Upload file on the server]** y, a continuación, haga clic en **[!UICONTROL Update on server]** para iniciar la transferencia.
+1. Seleccione **[!UICONTROL Upload file on the server]** y, a continuación, haga clic **[!UICONTROL Update on server]** para inicio de la transferencia.
 1. Puede mostrar una previsualización. Para ello, seleccione un destinatario.
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_07.png)
@@ -118,7 +122,7 @@ Para este tipo de archivos adjuntos, aplique los siguientes pasos de configuraci
 
 ### Adjuntar un archivo calculado {#attach-a-calculated-file}
 
-Puede calcular el nombre del archivo adjunto durante la preparación de la entrega. Para ello, seleccione la opción **[!UICONTROL The file name is calculated during delivery analysis (it cannot depend on the recipient)]**.
+Puede calcular el nombre del archivo adjunto durante la preparación de la entrega. To do this, select the option **[!UICONTROL The file name is calculated during delivery analysis (it cannot depend on the recipient)]**.
 
 >[!NOTE]
 >
@@ -141,7 +145,7 @@ Puede calcular el nombre del archivo adjunto durante la preparación de la entre
 
 ### Adjuntar un archivo personalizado {#attach-a-personalized-file}
 
-Al seleccionar el archivo adjunto, puede elegir la opción **[!UICONTROL The file name is calculated during delivery for each recipient (it can depend on the recipient)]**. A continuación, puede asignar los datos de personalización del destinatario con el nombre del archivo que se va a enviar.
+Al seleccionar los datos adjuntos, puede elegir la opción **[!UICONTROL The file name is calculated during delivery for each recipient (it can depend on the recipient)]**. A continuación, puede asignar los datos de personalización del destinatario con el nombre del archivo que se va a enviar.
 
 >[!NOTE]
 >
@@ -164,7 +168,7 @@ Al seleccionar el archivo adjunto, puede elegir la opción **[!UICONTROL The fil
 
 ### Configuración de archivos adjuntos {#attachment-settings}
 
-Para las dos primeras opciones, puede elegir **[!UICONTROL Upload file on the server]** al seleccionar la opción adecuada. El vínculo **[!UICONTROL Update the file on the server]** le permite iniciar la carga.
+For the first two options, you can choose **[!UICONTROL Upload file on the server]** by selecting the appropriate option. The **[!UICONTROL Update the file on the server]** link lets you start uploading.
 
 ![](assets/s_ncs_user_wizard_email01_137.png)
 
@@ -178,7 +182,7 @@ Al tratar de cambiar el archivo, aparece un mensaje de advertencia:
 
 La pestaña **[!UICONTROL Advanced]** permite definir las opciones avanzadas de los archivos adjuntos:
 
-* Puede definir opciones de filtro para evitar enviar el archivo adjunto a todos los destinatarios. La opción **[!UICONTROL Enable filtering of recipients who will receive the attachment]** activa un campo de entrada utilizado para definir una secuencia de comandos de selección de destinatarios que debe introducirse en JavaScript.
+* Puede definir opciones de filtro para evitar enviar el archivo adjunto a todos los destinatarios. The option **[!UICONTROL Enable filtering of recipients who will receive the attachment]** activates an input field used to define a recipient selection script, which must be entered in JavaScript.
 * Puede crear una secuencia de comandos del nombre del archivo para personalizarlo.
 
    Introduzca el texto en la ventana y utilice los campos personalizados disponibles en la lista desplegable. En el ejemplo siguiente, el nombre de archivo está personalizado para contener la fecha del día y el nombre del destinatario.
