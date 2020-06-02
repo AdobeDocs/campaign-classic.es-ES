@@ -14,8 +14,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4b42a4bb0a95b2a46187c996d069846a8c3941bf
+workflow-type: ht
+source-wordcount: '2690'
+ht-degree: 100%
 
 ---
 
@@ -41,7 +44,7 @@ source-git-commit: 4b42a4bb0a95b2a46187c996d069846a8c3941bf
  </tbody> 
 </table>
 
-La **última compilación** estable es 9032 (3a9dc9c). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+La **última compilación estable** es 9032 (3a9dc9c). Haga clic [aquí](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
 ## ![](assets/do-not-localize/orange_2.png) Versión 19.1.6: compilación 9035 {#release-19-1-6-build-9035}
 
@@ -74,41 +77,41 @@ _13 de agosto de 2019_
 
 ## Versión 19.1.4: compilación 9032{#release-19-1-4-build-9032}
 
-![](assets/do-not-localize/green_2.png) 29 **de abril de 2020**: nueva compilación (9032@3a9dc9c) que incluye las siguientes correcciones:
+![](assets/do-not-localize/green_2.png) **29 de abril de 2020**: nueva compilación (9032@3a9dc9c) que incluye las siguientes correcciones:
 
-* Se ha mejorado la seguridad en el seguimiento de vínculos en el correo electrónico. Esto está habilitado de forma predeterminada para todos los clientes. Hay disponible una función de seguridad adicional y mejorada que se puede habilitar si se pone en contacto con el Servicio de atención al cliente. Encontrará más detalles sobre la función y los pasos para que los clientes que no están alojados puedan habilitarla en la lista de comprobación [Seguridad y privacidad](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism).
+* Se ha mejorado la seguridad en el seguimiento de enlaces en el correo electrónico. Esta opción está habilitada de forma predeterminada para todos los clientes. Hay disponible una función de seguridad adicional y mejorada que se puede habilitar si se pone en contacto con el Servicio de atención al cliente. Encuentre más detalles sobre la función y los pasos para que los clientes que no están alojados puedan habilitarla en la [Lista de comprobación de seguridad y privacidad](https://helpx.adobe.com/es/campaign/kb/acc-security.html#signature-mechanism).
 * Se ha corregido un problema que podía impedir que las imágenes se mostraran en envíos de línea. (NEO-23207)
 * Se ha corregido un problema con la actividad **File Transfer** que impedía que la autenticación basada en claves SFTP funcionara en Debian 9. (NEO-23183)
 * Se ha corregido un problema que podía afectar a la notificación push cuando se enviaba con una frecuencia alta. (NEO-20516)
 * Se ha corregido un problema en la administración de respuestas de oferta que podía provocar bloqueos en el servidor web. (NEO-19482)
-* Se ha corregido un error en la gestión de LibreOffice que impedía exportar informes. (NEO-20982)
+* Se ha corregido un error en la administración de LibreOffice que impedía exportar informes. (NEO-20982)
 * Se ha corregido un problema que provocaba un error al actualizar numerosos flujos de trabajo mediante una actividad de encuesta.
-* Se mejoró la gestión de LibreOffice para evitar fallos en la previsualización de correos electrónicos con archivos .odt.
-* Se ha mejorado la administración de la conexión de Apache para evitar la latencia en el servicio Web.
-* Se ha mejorado la visualización de la etiqueta de versión (7 dígitos) en el menú **Acerca** .
+* Se mejoró la administración de LibreOffice para evitar fallos en la previsualización de correos electrónicos con archivos .odt.
+* Se ha mejorado la administración de la conexión de Apache para evitar la latencia en el servicio web.
+* Se ha mejorado la visualización de la etiqueta de versión (7 dígitos) en el menú **Acerca de**.
 * Se corrigió una regresión en la administración de listas que impedía que se publicaran ofertas.
 * Se corrigió una regresión que ocasionaba que el flujo de trabajo de limpieza se bloqueara.
 * Se corrigió una regresión menor en los registros del flujo de trabajo de limpieza.
 
-![](assets/do-not-localize/orange_2.png) 5 **de marzo de 2020**: nueva compilación (9032@19f73c5) que incluye la siguiente corrección:
+![](assets/do-not-localize/orange_2.png) **5 de marzo de 2020**: nueva versión (9032@19f73c5) que incluye la siguiente corrección:
 
 * Se ha corregido un problema con cuentas externas que usaban FTP sobre SSL. (NEO-20498)
 
-![](assets/do-not-localize/orange_2.png) 17 **de diciembre de 2019**: nueva compilación (9032@d6b8062) que incluye la siguiente corrección:
+![](assets/do-not-localize/orange_2.png) **17 de diciembre de 2019**: nueva versión (9032@d6b8062) que incluye la siguiente corrección:
 
 * Se ha corregido un problema de seguimiento en los siguientes canales de comunicación: móvil (SMS, MMS), push (iOS, Android) y redes sociales (Facebook, Twitter). (NEO-19595)
 
-![](assets/do-not-localize/orange_2.png) 11 **de diciembre de 2019**: nueva compilación (9032@bc4a935) que incluye la siguiente corrección:
+![](assets/do-not-localize/orange_2.png) **11 de diciembre de 2019**: nueva versión (9032@bc4a935) que incluye la siguiente corrección:
 
 * Se corrigió un problema de rendimiento al enviar mensajes con una base de datos MSSQL. (NEO-17558)
 
-![](assets/do-not-localize/orange_2.png) 20 **de noviembre de 2019**: nueva compilación (9032@3468c7b) que incluye las siguientes correcciones:
+![](assets/do-not-localize/orange_2.png) **20 de noviembre de 2019**: nueva compilación (9032@3468c7b) que incluye las siguientes correcciones:
 
 * Se ha corregido un problema de inicio de sesión mediante la autenticación IMS. (NEO-17312)
 * Se corrigió un problema al mostrar informes acumulativos en varias entregas. (NEO-18165)
 * Se ha corregido un problema que podía bloquear o colapsar el servidor web.
 
-![](assets/do-not-localize/orange_2.png) 19 **de septiembre de 2019**: nueva compilación (9032@cee805c) que incluye las siguientes correcciones:
+![](assets/do-not-localize/orange_2.png) **19 de septiembre de 2019**: nueva compilación (9032@cee805c) que incluye las siguientes correcciones:
 
 * Se ha corregido un problema al usar el conector CRM para Salesforce. (NEO-17712)
 * Se ha corregido un problema de índice que podía provocar problemas de rendimiento al enviar mensajes transaccionales.
@@ -179,7 +182,7 @@ _30 de mayo de 2019_
 
 **Mejoras de seguridad**
 
-* For security reasons, you can no longer insert arbitrary commands when using the **[!UICONTROL Pre-process the file]** option in a **[!UICONTROL Data loading (file)]** workflow activity. A drop-down list is now available allowing you to select from 3 options: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) or **[!UICONTROL Decrypt]** (gpg). Se ha añadido el indicador de seguridad XtkSecurity_Disable_Preproc. Para clientes nuevos, esta opción se establece en 0. Para los clientes existentes, esta opción se establecerá en 1 después de la actualización para mantener el comportamiento previo. Consulte esta [sección](../../workflow/using/data-loading--file-.md).
+* Por motivos de seguridad, ya no es posible insertar comandos arbitrarios al utilizar la **[!UICONTROL Pre-process the file]** opción en una **[!UICONTROL Data loading (file)]** actividad de flujo de trabajo. Ahora hay disponible una lista desplegable que le permite seleccionar entre tres opciones: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) o **[!UICONTROL Decrypt]** (gpg). Se ha añadido el indicador de seguridad XtkSecurity_Disable_Preproc. Para clientes nuevos, esta opción se establece en 0. Para los clientes existentes, esta opción se establecerá en 1 después de la actualización para mantener el comportamiento previo. Consulte esta [sección](../../workflow/using/data-loading--file-.md).
 * Se corrigió un problema con la visibilidad de contraseña que se producía al probar la conexión de una cuenta externa de FDA sin un huso horario establecido.
 * La biblioteca PDFBox se ha eliminado.
 * Tomcat se ha actualizado a la versión 7.0.93.
