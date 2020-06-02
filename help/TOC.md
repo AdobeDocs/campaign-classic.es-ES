@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
 workflow-type: tm+mt
 source-wordcount: '2090'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -51,8 +51,8 @@ ht-degree: 96%
       + [Actualización de datos](platform/using/updating-data.md)
       + [Exportación e importación de perfiles](platform/using/exporting-and-importing-profiles.md)
       + [Creación y administración de listas](platform/using/creating-and-managing-lists.md)
-   + Importación y exportación de datos.{#importing-and-exporting-data}
-      + [Importación y exportación genéricas.](platform/using/generic-imports-and-exports.md)
+   + Importación y exportación de datos {#importing-and-exporting-data}
+      + [Importación y exportación genéricas](platform/using/generic-imports-and-exports.md)
       + [Exportación de datos](platform/using/exporting-data.md)
       + [Importación de datos](platform/using/importing-data.md)
       + [Uso del servidor SFTP](platform/using/sftp-server-usage.md)
@@ -290,22 +290,22 @@ ht-degree: 96%
 + Integración con Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
    + [Acerca de las integraciones de Campaign](integrations/using/about-campaign-integrations.md)
    + Uso compartido de audiencias {#audience-sharing}
-      + [Uso compartido de audiencias con [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+      + [Uso compartido con [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
       + [Envío de la solicitud a Adobe](integrations/using/submitting-request-to-adobe.md)
-      + [Configuración de la integración de audiencias compartidas en [!Adobe Campaign DNL]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+      + [Configuración de la integración de audiencias compartidas en [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
       + [Resolución de problemas](integrations/using/troubleshooting.md)
       + [Importación y exportación de audiencias](integrations/using/importing-and-exporting-audiences.md)
    + Uso compartido de activos {#asset-sharing}
-      + [Uso compartido de recursos con [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+      + [Uso compartido de activos con [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
       + [Configuración del acceso a [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
       + [Inserción de un activo compartido](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
       + [Acerca de [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [Configuración de la integración](integrations/using/configuring-the-integration.md)
-      + [Creación de una newsletter de [!DNL Experience Manager]](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [Creación de un newsletter de [!DNL Experience Manager]](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
-      + [Integración con [!DNL Adobe Destinatario]](integrations/using/integrating-with-adobe-target.md)
-      + [Configuración de la integración con [!DNL Adobe Destinatario]](integrations/using/configuring-the-integration-with-adobe-target.md)
+      + [Integración con [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
+      + [Configuración de la integración con [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [Inserción de una imagen dinámica](integrations/using/inserting-a-dynamic-image.md)
    + Conexión mediante una Adobe ID {#connecting-via-an-adobe-id}
       + [Acerca de [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
@@ -313,11 +313,11 @@ ht-degree: 96%
       + [Implementación de [!DNL IMS]](integrations/using/implementing-ims.md)
       + [Solución de problemas de IMS](integrations/using/ims-troubleshooting.md)
    + Conector ACS {#acs-connector}
-      + [Principios de [!DNL ACS Connector] y ciclo de datos](integrations/using/acs-connector-principles-and-data-cycle.md)
+      + [Principios y ciclo de datos del [!DNL Conector ACS]](integrations/using/acs-connector-principles-and-data-cycle.md)
       + [Sincronización de perfiles](integrations/using/synchronizing-profiles.md)
       + [Sincronización de audiencias](integrations/using/synchronizing-audiences.md)
       + [Sincronización de aplicaciones web](integrations/using/synchronizing-web-applications.md)
-      + [Resolución de problemas del conector [!DNL ACS]](integrations/using/troubleshooting-the-acs-connector.md)
+      + [Solución de problemas del [!DNL Conector ACS]](integrations/using/troubleshooting-the-acs-connector.md)
 + Automatización con flujos de trabajo {#automating-with-workflows}
    + Introducción {#introduction}
       + [Acerca de los flujos de trabajo](workflow/using/about-workflows.md)
@@ -406,7 +406,7 @@ ht-degree: 96%
          + [Envío de informes a una lista](workflow/using/sending-a-report-to-a-list.md)
          + [Supervisión de flujos de trabajo](workflow/using/supervising-workflows.md)
          + [Envío de alertas personalizadas a operadores](workflow/using/sending-personalized-alerts-to-operators.md)
-      + Data management {#data-management}
+      + Gestión de datos {#data-management}
          + [Coordinación de actualizaciones de datos](workflow/using/coordinating-data-updates.md)
          + [Creación de la lista de resumen](workflow/using/creating-a-summary-list.md)
          + [Enriquecimiento de datos](workflow/using/enriching-data.md)
@@ -417,7 +417,7 @@ ht-degree: 96%
          + [Realización de la computación agregada](workflow/using/performing-aggregate-computing.md)
          + [Realización de consultas mediante la administración de agrupación](workflow/using/querying-using-grouping-management.md)
          + [Realización de consultas con una relación de varios a varios ](workflow/using/querying-using-many-to-many-relationship.md)
-         + [Adición de un campo calculado de tipo de enumeración](workflow/using/adding-enumeration-type-calculated-field.md)
+         + [Adición de un campo calculado de tipo de lista desglosada](workflow/using/adding-enumeration-type-calculated-field.md)
          + [Creación de filtros](workflow/using/creating-a-filter.md)
          + [Filtrado de destinatarios duplicados](workflow/using/filtering-duplicated-recipients.md)
    + Monitorización de flujos de trabajo {#monitoring-workflows}
