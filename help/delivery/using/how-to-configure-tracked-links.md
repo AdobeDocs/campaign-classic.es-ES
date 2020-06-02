@@ -14,11 +14,11 @@ discoiquuid: 9cae3861-88eb-447a-aa23-9d1de0710eec
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3522f4f50770dde220610cd5f1c4084292d8f1f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Para cada entrega, puede hacer un seguimiento de la recepción de mensajes y la 
 
 El seguimiento de mensajes está activado de forma predeterminada. Para personalizar cómo se realiza el seguimiento de las direcciones URL, siga los pasos a continuación:
 
-1. Seleccione la opción **[!UICONTROL Display URLs]** en la sección inferior del asistente de envío, bajo el contenido del mensaje.
+1. Seleccione la opción **[!UICONTROL Display URLs]** en la sección inferior del asistente de envíos, bajo el contenido del mensaje.
 
    ![](assets/s_ncs_user_email_del_display_urls.png)
 
@@ -64,10 +64,10 @@ El seguimiento de mensajes está activado de forma predeterminada. Para personal
    Para cada URL individual, puede definir el modo de seguimiento en uno de estos valores:
 
    * **[!UICONTROL Enabled]**: activa el seguimiento en esta dirección URL.
-   * **[!UICONTROL Not tracked]** :: desactiv el seguimiento de fechas en esta dirección URL.
-   * **[!UICONTROL Always enabled]** :: siempre activa el seguimiento de esta dirección URL. Esta información se guarda de manera que la próxima vez, si la URL aparece de nuevo en el contenido de un mensaje futuro, el seguimiento se activa automáticamente.
-   * **[!UICONTROL Never tracked]** :: nunca activa el seguimiento de esta dirección URL. Esta información se guarda de manera que la próxima vez, si la URL aparece de nuevo en un mensaje futuro, su seguimiento se desactiva automáticamente.
+   * **[!UICONTROL Not tracked]**: desactiva el seguimiento en esta dirección URL.
+   * **[!UICONTROL Always enabled]**: siempre activa el seguimiento de esta dirección URL. Esta información se guarda de manera que la próxima vez, si la URL aparece de nuevo en el contenido de un mensaje futuro, el seguimiento se activa automáticamente.
+   * **[!UICONTROL Never tracked]**: nunca activa el seguimiento de esta dirección URL. Esta información se guarda de manera que la próxima vez, si la URL aparece de nuevo en un mensaje futuro, su seguimiento se desactiva automáticamente.
    * **[!UICONTROL Opt-out]**: considera esta URL como una URL de exclusión o de baja.
-   * **[!UICONTROL Mirror page]** :: considera que esta URL es una URL de página espejo.
+   * **[!UICONTROL Mirror page]**: considera esta URL como una URL de página espejo.
 
-1. Además, puede seleccionar una categoría para cada URL rastreada en la lista desplegable de la columna **[!UICONTROL Category]**. These categories can be displayed reports, as for example in **[!UICONTROL URLs and click streams]** (see [this section](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams)). Las categorías se definen en una enumeración específica: **[!UICONTROL urlCategory]** (consulte [Administración de enumeraciones](../../platform/using/managing-enumerations.md)).
+1. Además, puede seleccionar una categoría para cada URL rastreada en la lista desplegable de la columna **[!UICONTROL Category]**. Estas categorías pueden mostrarse en los informes, como en **[!UICONTROL URLs and click streams]** (consulte [esta sección](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams)). Las categorías se definen en una lista desglosada específica: **[!UICONTROL urlCategory]** (consulte [Administración de enumeraciones](../../platform/using/managing-enumerations.md)).
