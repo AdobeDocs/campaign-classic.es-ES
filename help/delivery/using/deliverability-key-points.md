@@ -12,11 +12,11 @@ discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4582ea496fff35c5b586049b8daa379464bd78fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Estas características se dividen en cuatro categorías principales:
 
 Juntas forman la base del éxito de un programa de envío de correo electrónico.
 
-The **deliverability rate** is the number of sent emails that were successfully delivered to its recipients.
+La **tasa de entrega** es el número de correos electrónicos enviados correctamente a sus destinatarios.
 
 La tasa de entrega depende de numerosos factores, en particular:
 * Configuración correcta de las instancias
@@ -46,7 +46,7 @@ La tasa de entrega depende de numerosos factores, en particular:
 * Autenticación de mensajes (SPF, DKIM, DMARC)
 * Conocimiento del remitente
 
-A continuación se presenta una lista de los puntos clave que hay que comprobar para garantizar una buena entrega.
+A continuación se muestra una lista de los puntos clave que se deben comprobar para garantizar una buena entrega.
 
 ## Comprobar configuración de red {#network-configuration}
 
@@ -62,7 +62,7 @@ Los proveedores de servicios de Internet generalmente tienen un medio prominente
 
 ## Enviar a direcciones de honeypot {#honeypot-addresses}
 
-ISPs and other organizations (see the [Project Honey Pot](https://www.projecthoneypot.org/) website) make use of mailboxes that do not correspond to physical persons but are created simply to trick spammers. Estas llamadas &quot;honey pot&quot; se publican en la web para ser recogidas por los spambots y así atrapar a remitentes ilegítimos. El uso de un mecanismo de doble inclusión impide que este tipo de dirección se agregue a una lista. Al utilizar una lista de terceros, debe estar seguro de los métodos empleados por su mantenedor.
+Los ISP y otras organizaciones (consulte [http://www.projecthoneypot.org/](https://www.projecthoneypot.org/)) utilizan buzones de correo que no corresponden a personas físicas pero que se crean simplemente para engañar a los remitentes de correo no deseado. Estas llamadas &quot;honey pot&quot; se publican en la web para ser recogidas por los spambots y así atrapar a remitentes ilegítimos. El uso de un mecanismo de doble inclusión impide que este tipo de dirección se agregue a una lista. Al utilizar una lista de terceros, debe estar seguro de los métodos empleados por su mantenedor.
 
 ## Configuración del contenido del mensaje {#message-content}
 
