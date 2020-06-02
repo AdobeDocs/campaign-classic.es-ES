@@ -14,8 +14,11 @@ discoiquuid: d2631c67-7781-4baa-b24e-e7921353d131
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
+workflow-type: ht
+source-wordcount: '421'
+ht-degree: 100%
 
 ---
 
@@ -70,7 +73,7 @@ La lista desplegable junto al botón **[!UICONTROL Create]** permite filtrar las
 
 ## Acceso al calendario de envíos {#accessing-the-delivery-calendar}
 
-To access the delivery calendar, go to the **[!UICONTROL Campaign]** universe and click the **[!UICONTROL Campaign calendar]** link. Este calendario muestra el desglose de las campañas a lo largo del tiempo. Se puede personalizar la pantalla por mes, semana o día.
+Para acceder al calendario de envíos, vaya al entorno **[!UICONTROL Campaign]** y haga clic en el vínculo **[!UICONTROL Campaign calendar]**. Este calendario muestra el desglose de las campañas a lo largo del tiempo. Se puede personalizar la pantalla por mes, semana o día.
 
 ![](assets/s_ncs_user_interface_delivery04.png)
 
