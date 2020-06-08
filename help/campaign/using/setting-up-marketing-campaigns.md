@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: 1a139e1704a7df38a7b8088e23c972864f8ad998
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1227'
 ht-degree: 100%
 
 ---
@@ -144,10 +144,6 @@ Las campañas recurrentes se crean a partir de una plantilla específica que def
 En esta pestaña, especifique las fechas de ejecución previstas de las campañas basadas en esta plantilla.
 
 ![](assets/s_ncs_user_op_template_recur_planning.png)
-
-Puede utilizar el asistente para la creación de programaciones para rellenar todas las fechas de ejecución automáticamente. Para ello, haga clic en el enlace **[!UICONTROL Complete the execution schedule...]** situado encima de la tabla.
-
-![](assets/s_ncs_user_op_template_recur_planning_wz.png)
 
 El modo de configuración de la programación de ejecución coincide con el objeto **[!UICONTROL Scheduler]** del flujo de trabajo. Para obtener más información, consulte [esta sección](../../workflow/using/architecture.md).
 
