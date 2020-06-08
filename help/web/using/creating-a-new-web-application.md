@@ -14,8 +14,11 @@ discoiquuid: 84f9dbad-365f-405d-88a0-14171fbb805f
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+translation-type: tm+mt
+source-git-commit: a62e4d072573f7ed1b77f755eb57838c70745592
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 93%
 
 ---
 
@@ -27,6 +30,10 @@ Los tipos de aplicación web se seleccionan durante la creación.
 Vaya a la pestaña **Campaigns** y seleccione el menú **[!UICONTROL Web Applications]**. Haga clic en el botón **[!UICONTROL Create]**. Seleccione la plantilla de aplicación web que desea utilizar:
 
 ![](assets/webapp_create_from_campaign.png)
+
+>[!NOTE]
+>
+>Los métodos protegen las páginas que pueden contener información personal. Consulte la lista de comprobación [Seguridad y privacidad](https://helpx.adobe.com/campaign/kb/acc-security.html#privacy).
 
 Esta plantilla determina el tipo de aplicación web. Puede crear:
 
