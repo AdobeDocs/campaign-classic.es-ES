@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: adb25307146847a1c49d9c548d00557e95562541
+source-git-commit: b60b5fad24c1237981f66315e7cf585c79f82641
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 85%
+source-wordcount: '949'
+ht-degree: 79%
 
 ---
 
@@ -27,7 +27,13 @@ ht-degree: 85%
 
 ## Acerca de los archivos adjuntos por correo electrónico {#about-email-attachments}
 
-Puede adjuntar uno o varios archivos a una entrega de correo electrónico. Hay dos casos posibles:
+Puede adjuntar uno o varios archivos a una entrega de correo electrónico.
+
+>[!NOTE]
+>
+>Para evitar problemas de rendimiento, se recomienda no incluir más de un archivo adjunto por correo electrónico. El umbral recomendado se puede configurar desde [la lista de opciones](../../installation/using/configuring-campaign-options.md#delivery)de Campaign Classic.
+
+Hay dos casos posibles:
 
 * Seleccione un archivo y adjúntelo a la entrega tal cual.
 * Personalice el contenido del archivo adjunto para cada destinatario. En este caso, es necesario crear un archivo adjunto calculado: el nombre del archivo adjunto se calcula en el momento de la entrega de forma individual según cada mensaje en función del destinatario. **** El contenido también se puede personalizar y convertir en formato PDF en el momento de la entrega si tiene la opción **Impresión digital de variable**.
@@ -92,7 +98,7 @@ If the attachment is a local file, select the option: **[!UICONTROL File name is
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_01.png)
 
-   A continuación, el archivo está disponible en el servidor para asociarlo a los diferentes envíos creados a partir de esta plantilla.
+A continuación, el archivo está disponible en el servidor para asociarlo a los diferentes envíos creados a partir de esta plantilla.
 
 ### Adjuntar un mensaje personalizado {#attach-a-personalized-message}
 
@@ -120,6 +126,10 @@ Para este tipo de archivos adjuntos, aplique los siguientes pasos de configuraci
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
 
+>[!NOTE]
+>
+>Para evitar problemas de rendimiento, si incluye imágenes descargadas sobre la marcha desde una URL personalizada como datos adjuntos, cada tamaño de imagen no debe superar los 100.000 bytes de forma predeterminada. Este umbral recomendado se puede configurar desde [la lista de opciones](../../installation/using/configuring-campaign-options.md#delivery)de Campaign Classic.
+
 ### Adjuntar un archivo calculado {#attach-a-calculated-file}
 
 Puede calcular el nombre del archivo adjunto durante la preparación de la entrega. To do this, select the option **[!UICONTROL The file name is calculated during delivery analysis (it cannot depend on the recipient)]**.
@@ -131,7 +141,7 @@ Puede calcular el nombre del archivo adjunto durante la preparación de la entre
 1. Especifique la etiqueta que desea aplicar al archivo adjunto.
 1. Especifique la ruta de acceso del archivo y su nombre exacto en la ventana de definición.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >El archivo debe estar presente en el servidor.
 
@@ -156,7 +166,7 @@ Al seleccionar los datos adjuntos, puede elegir la opción **[!UICONTROL The fil
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_010.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >El archivo debe estar presente en el servidor.
 
