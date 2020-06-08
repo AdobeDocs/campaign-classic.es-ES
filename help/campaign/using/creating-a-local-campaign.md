@@ -14,8 +14,11 @@ discoiquuid: bd057441-8524-49e6-b5d5-fbd0ec5bca85
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: e97183256ef6d3f2068dd0fbc8eb3c3f32e0bae0
+workflow-type: tm+mt
+source-wordcount: '1573'
+ht-degree: 82%
 
 ---
 
@@ -40,7 +43,7 @@ Una campaña local es una instancia creada a partir de una plantilla a la que se
 
 Para crear un paquete de campañas, primero debe crear la **plantilla de campaña** a través del nodo **[!UICONTROL Resources > Templates]**.
 
-Para crear una nueva plantilla local, duplique la plantilla predeterminada **[!UICONTROL Local campaign (opLocal)]**.
+To create a new local template, duplicate the default **[!UICONTROL Local campaign (opLocal)]** template.
 
 ![](assets/mkg_dist_local_op_creation.png)
 
@@ -48,7 +51,7 @@ Asigne un nombre a la plantilla de campaña y complete los campos disponibles.
 
 ![](assets/mkg_dist_local_op_creation1.png)
 
-En la ventana de la campaña, haga clic en la ficha **[!UICONTROL Edit]** y luego en el vínculo **[!UICONTROL Advanced campaign settings...]**
+In the campaign window, click the **[!UICONTROL Edit]** tab, then click the **[!UICONTROL Advanced campaign settings...]** link.
 
 ![](assets/mkt_distr_4.png)
 
@@ -72,7 +75,7 @@ Hay cuatro tipos de interfaces web disponibles:
 
    ![](assets/mkt_distr_8.png)
 
-   El formulario ofrecido se especifica en una aplicación web que debe estar seleccionada en una lista desplegable del campo **[!UICONTROL Web Interface]** en el vínculo **[!UICONTROL Advanced campaign settings...]** de la plantilla. Consultar [Creación de una campaña local (por formulario)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
+   The form offered is specified in a Web application that must be selected in a drop-down list from the **[!UICONTROL Web Interface]** field in the template&#39;s **[!UICONTROL Advanced campaign settings...]** link. Consultar [Creación de una campaña local (por formulario)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
 
    >[!NOTE]
    >
@@ -87,20 +90,20 @@ Hay cuatro tipos de interfaces web disponibles:
 
 ### Valores predeterminados {#default-values}
 
-Seleccionar los **[!UICONTROL Valores por defecto]** que se completarán en las entidades locales. Por ejemplo:
+Select the **[!UICONTROL Default values]** to be completed by local entities. Por ejemplo:
 
 * fechas de contacto y extracción,
 * características de objetivo (segmento de edad, etc.).
 
 ![](assets/mkg_dist_local_op_creation2.png)
 
-Complete los campos **[!UICONTROL Parent marketing program]** y **[!UICONTROL Charge]**.
+Complete los **[!UICONTROL Parent marketing program]** campos y **[!UICONTROL Charge]** .
 
 ![](assets/mkg_dist_local_op_creation3.png)
 
 ### Aprobaciones {#approvals}
 
-Desde el vínculo **[!UICONTROL Advanced parameters for campaign entry]**, puede especificar el número máximo de revisores.
+From the **[!UICONTROL Advanced parameters for campaign entry]** link, you can specify the maximum number of reviewers.
 
 ![](assets/s_advuser_mkg_dist_add_valid_op1.png)
 
@@ -112,7 +115,7 @@ Si no desea asignar nombres a los revisores de una campaña, escriba 0.
 
 ### Documentos {#documents}
 
-Puede permitir que los operadores de la entidad local vinculen los documentos (archivos de texto, hojas de cálculo, imágenes, descripciones de campañas, etc.) a la campaña local al crear la solicitud. El vínculo **[!UICONTROL Advanced parameters for campaign entry...]** permite restringir el número de documentos. Para ello, simplemente introduzca el número máximo permitido en el campo **[!UICONTROL Number of documents]**.
+Puede permitir que los operadores de la entidad local vinculen los documentos (archivos de texto, hojas de cálculo, imágenes, descripciones de campañas, etc.) a la campaña local al crear la solicitud. The **[!UICONTROL Advanced parameters for campaign entry...]** link lets you restrict the number of documents. To do this, simply enter the maximum number allowed in the **[!UICONTROL Number of documents]** field.
 
 ![](assets/s_advuser_mkg_dist_local_docs.png)
 
@@ -124,23 +127,23 @@ Si no desea mostrar un campo de carga de documento, escriba **[!UICONTROL 0]** e
 
 >[!NOTE]
 >
->Puede desactivar **[!UICONTROL Parámetros avanzados de entrada de campaña]** marcando **[!UICONTROL No mostrar la página utilizada para introducir los parámetros de la campaña]**.
+>El **[!UICONTROL Advanced parameters for campaign entry]** se puede desactivar marcando **[!UICONTROL Do not display the page used to enter the campaign parameters]**.
 
 ![](assets/s_advuser_mkg_dist_disable_op_parameters.png)
 
 ### Flujo de trabajo {#workflow}
 
-En la pestaña **[!UICONTROL Orientación y flujos de trabajo]**, cree el flujo de trabajo de campaña que recopila los **[!UICONTROL Valores por defecto]** especificados en **[!UICONTROL Configuración avanzada de campaña...]** y cree los envíos.
+En la **[!UICONTROL Targeting and workflows]** ficha, cree el flujo de trabajo de campaña que recopila los **[!UICONTROL Default values]** especificados en la **[!UICONTROL Advanced campaign settings...]** y crea los envíos.
 
 ![](assets/mkg_dist_local_op_creation4b.png)
 
-Haga doble clic en la actividad **[!UICONTROL Query]** para configurarla según el parámetro especificado **[!UICONTROL Valores por defecto]**.
+Double click the **[!UICONTROL Query]** activity to configure it according to the specified **[!UICONTROL Default values]**.
 
 ![](assets/mkt_dist_local_campaign_localize_query.png)
 
 ### Entrega {#delivery}
 
-En la pestaña **[!UICONTROL Audit]**, haga clic en el icono **[!UICONTROL Detail...]** para ver el **[!UICONTROL Scheduling]** de la entrega seleccionado.
+In the **[!UICONTROL Audit]** tab, click the **[!UICONTROL Detail...]** icon to view the **[!UICONTROL Scheduling]** for the selected delivery.
 
 ![](assets/mkg_dist_local_op_creation4c.png)
 
@@ -152,7 +155,7 @@ Si es necesario, configure el tamaño máximo de la entrega:
 
 ![](assets/mkg_dist_local_op_creation4e.png)
 
-Localice el código HTML de la entrega. Por ejemplo, en **[!UICONTROL Delivery > Current order > Additional fields]**, utilice el campo **[!UICONTROL Age segment]** para localizar la entrega de acuerdo con la edad del objetivo.
+Localice el código HTML de la entrega. For example, in **[!UICONTROL Delivery > Current order > Additional fields]**, use the **[!UICONTROL Age segment]** field to locate the delivery according to the age of the target.
 
 ![](assets/mkt_dist_local_campaign_localize_html.png)
 
@@ -170,14 +173,14 @@ Para que la plantilla de campaña esté disponible para las entidades locales, d
 
 Siga estos pasos:
 
-1. En la sección **[!UICONTROL Navegar]** de la página de **Campaña**, haga clic en el vínculo **[!UICONTROL Paquetes de campaña]**.
+1. In the **[!UICONTROL Navigation]** section on the **Campaigns** page, click the **[!UICONTROL Campaign packages]** link.
 1. Haga clic en el botón **[!UICONTROL Create]**.
 
    ![](assets/mkg_dist_add_an_entry.png)
 
 1. La sección encima de la ventana permite seleccionar la plantilla de paquete de campaña especificada [anteriormente](#creating-a-local-campaign-template).
 
-   De manera predeterminada, la plantilla **[!UICONTROL Nuevo paquete de campaña local (local vacío)]** se utiliza para campañas locales.
+   De forma predeterminada, la **[!UICONTROL New local campaign package (localEmpty)]** plantilla se utiliza para campañas locales.
 
 1. Especifique la etiqueta, la carpeta y el programa de ejecución para el paquete de campaña.
 
@@ -197,7 +200,7 @@ Esta información se encuentra en el mensaje de notificación enviado a las agen
 
 ### Audiencia {#audience}
 
-Para una campaña local, la entidad central puede especificar las entidades locales involucradas en la comprobación de **[!UICONTROL El paquete limita a un conjunto de entidades locales]**.
+For a local campaign, the central entity can specify the local entities involved by checking the **[!UICONTROL Limit the package to a set of local entities]**.
 
 ![](assets/s_advuser_mkg_dist_create_mutual_entry3.png)
 
@@ -209,7 +212,7 @@ Una vez guardado el paquete, la entidad central puede editarla desde la pestaña
 
 Desde la pestaña **[!UICONTROL General]**, la entidad central puede:
 
-* configurar el revisor de paquetes de campañas desde el vínculo **[!UICONTROL Parámetros de aprobación...]**,
+* configure the campaign package reviewer(s) from the **[!UICONTROL Approval parameters...]** link,
 * revisar la programación de ejecución,
 * añadir o eliminar entidades locales.
 
@@ -217,7 +220,7 @@ Desde la pestaña **[!UICONTROL General]**, la entidad central puede:
 >
 >De manera predeterminada, cada entidad puede solicitar una **campaña local** solo una vez.
 >   
->Marque la opción **[!UICONTROL Habilitar creación múltiple]** para permitir que se creen varias campañas locales en el paquete de campañas.
+>Check the **[!UICONTROL Enable multiple creation]** option to allow several local campaigns to be created from the campaign package.
 
 ![](assets/mkg_dist_local_op_multi_crea.png)
 
@@ -239,7 +242,7 @@ Para utilizar una campaña proporcionada por la entidad central, la entidad loca
 
 Para solicitar una campaña:
 
-1. En el mensaje de notificación, haga clic en **[!UICONTROL Campaña de pedidos]** o en el botón correspondiente de Adobe Campaign.
+1. Click **[!UICONTROL Order campaign]** in the notification message, or the corresponding button in Adobe Campaign.
 
    Introduzca su ID y contraseña para solicitar la campaña. La interfaz está formada por un conjunto de páginas definidas en una aplicación web.
 
@@ -251,9 +254,9 @@ Para solicitar una campaña:
 
    ![](assets/mkg_dist_subscribe_step1.png)
 
-   Complete los parámetros disponibles y apruebe la solicitud.
+1. Complete los parámetros disponibles y apruebe la solicitud.
 
-   Se envía una notificación al administrador de la entidad organizativa a la que pertenece la entidad local para aprobar la solicitud.
+1. Se envía una notificación al administrador de la entidad organizativa a la que pertenece la entidad local para aprobar la solicitud.
 
    ![](assets/mkg_dist_subscribe_step3.png)
 
@@ -277,7 +280,7 @@ Para solicitar una campaña:
 
 1. El operador local recibe una notificación cuando la campaña está disponible: la disponibilidad de la campaña puede encontrarse en la lista de paquetes de campañas dentro de **Campaign.** La campaña entonces se puede utilizar. Para obtener más información, consulte [Acceso a campañas](../../campaign/using/accessing-campaigns.md).
 
-   La opción **[!UICONTROL Iniciar orientación para aprobar el pedido]** permite que la entidad local ejecute la campaña en cuanto se apruebe la solicitud.
+   The **[!UICONTROL Start targeting with order approval]** option lets the local entity run the campaign as soon as the order has been approved.
 
    ![](assets/mkg_dist_local_op_catalog_use.png)
 
@@ -285,7 +288,7 @@ Para solicitar una campaña:
 
 Para confirmar una solicitud de campaña, la entidad central debe aprobarla.
 
-La vista general **[!UICONTROL Pedidos de campaña]**, a la que se accede a través de **Campañas**, le permite ver el estado de las solicitudes de campaña y aprobarlas.
+The **[!UICONTROL Campaign orders]** overview, accessed via the **Campaigns** universe lets you view the status of campaign orders and approve them.
 
 >[!NOTE]
 >
@@ -307,7 +310,7 @@ Cuando una entidad local solicita una campaña, sus revisores reciben notificaci
 
 #### Aprobación a través de la consola de Adobe Campaign {#approving-via-the-adobe-campaign-console}
 
-Las solicitudes también se pueden aprobar a través de la consola, en la información general de la solicitud de la campaña. Para aprobar una solicitud, selecciónela y haga clic en **[!UICONTROL Aprobar el pedido]**.
+Las solicitudes también se pueden aprobar a través de la consola, en la información general de la solicitud de la campaña. To approve an order, select it and click **[!UICONTROL Approve the order]**.
 
 ![](assets/mkg_dist_local_order_valid.png)
 
@@ -355,4 +358,4 @@ La agencia central puede cancelar una solicitud utilizando el botón **[!UICONTR
 
 ![](assets/mkg_dist_local_op_cancel.png)
 
-Esto cancela la campaña en la vista **[!UICONTROL Pedidos de campaña]**.
+This cancels the campaign in the **[!UICONTROL Campaign orders]** view.
