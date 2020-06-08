@@ -14,8 +14,11 @@ discoiquuid: 72e974b8-415a-47ab-9804-b15957787198
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 30f313cecf1c3d7c65f6524a3f86a1c28b35f679
+translation-type: tm+mt
+source-git-commit: aef56860d6e4558a7f4833066ab3d83733591522
+workflow-type: tm+mt
+source-wordcount: '801'
+ht-degree: 91%
 
 ---
 
@@ -42,18 +45,18 @@ Para los clientes alojados e híbridos, el servicio de asistencia técnica y con
 
 Para las instalaciones in situ, siga los pasos a continuación para configurar la renderización de la Bandeja de entrada.
 
-1. Instale el paquete **[!UICONTROL Inbox rendering (IR)]** mediante el menú **[!UICONTROL Tools]** > **[!UICONTROL Advances]** > **[!UICONTROL Import package]**. Para obtener más información, consulte [Instalación de paquetes estándar de Campaign Classic](../../installation/using/installing-campaign-standard-packages.md).
-1. Configure una cuenta externa del tipo HTTP mediante el nodo **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]**. Para obtener más información, consulte [Creación de una cuenta externa](../../platform/using/external-accounts.md#creating-an-external-account).
+1. Instale el **[!UICONTROL Inbox rendering (IR)]** paquete mediante el menú **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** . Para obtener más información, consulte [Instalación de paquetes estándar de Campaign Classic](../../installation/using/installing-campaign-standard-packages.md).
+1. Configure an external account of the HTTP type via the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** node. Para obtener más información, consulte [Creación de una cuenta externa](../../platform/using/external-accounts.md#creating-an-external-account).
 1. Defina los parámetros de cuenta externa de la siguiente manera:
-   * **[!UICONTROL Etiqueta]**: Información del servidor de capacidad de envío
-   * **[!UICONTROL Nombre interno]**: deliverabilityInstance
-   * **[!UICONTROL Tipo]**: HTTP
-   * **[!UICONTROL Servidor]**: https://deliverability-app.neolane.net/deliverability
-   * **[!UICONTROL Cifrado]**: Ninguno
-   * Marque la opción **[!UICONTROL Enabled]**.
+   * **[!UICONTROL Label]**:: Información del servidor de entrega
+   * **[!UICONTROL Internal name]**:: deliveryInstance
+   * **[!UICONTROL Type]**:: HTTP
+   * **[!UICONTROL Server]**:: https://deliverability-app.neolane.net/deliverability
+   * **[!UICONTROL Encryption]**:: Ninguno
+   * Check the **[!UICONTROL Enabled]** option.
    ![](assets/s_tn_inbox_rendering_external-account.png)
 
-1. Vaya al nodo **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. Busque la opción **[!UICONTROL DmRendering_cuid]** y póngase en contacto con el servicio de soporte técnico para obtener el identificador de los informes de envío que debe copiarse en el campo **[!UICONTROL Value (text)]**.
+1. Go to the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** node. Search for the **[!UICONTROL DmRendering_cuid]** option and contact support to get your delivery reports identifier that needs to be copied to the **[!UICONTROL Value (text)]** field.
 1. Edite el archivo **serverConf.xml** para permitir una llamada al servidor Litmus. Añada la siguiente línea a la sección `<urlPermission>`:
 
    ```
@@ -98,12 +101,6 @@ El número de tokens disponibles restantes se muestra en **[!UICONTROL General s
 
 Normalmente, la función de renderización de la bandeja de entrada se utiliza para probar el marco HTML de un correo electrónico recién diseñado. Cada renderización requiere aproximadamente 70 tokens (dependiendo de la cantidad de entornos en los que se pruebe). Sin embargo, en algunos casos puede necesitar varios informes de renderización de la bandeja de entrada para probar al completo su envío. Por lo tanto, puede requerir más tokens para realizar varias comprobaciones.
 
->[!NOTE]
->
->Si es cliente de Litmus, puede utilizar su cuenta de Litmus para suministrar y utilizar la renderización de la bandeja de entrada en Adobe Campaign. Para obtener más información, póngase en contacto con el administrador de cuentas de Adobe.
->
->Tenga en cuenta que modificar las credenciales de Litmus puede causar problemas de autenticación en Adobe Campaign.
-
 ## Acceso al informe de renderización de la bandeja de entrada {#accessing-the-inbox-rendering-report}
 
 Una vez que haya creado su envío de correo electrónico y definido su contenido, así como la población de destino, siga los pasos a continuación.
@@ -137,7 +134,7 @@ Este informe muestra las renderizaciones de la bandeja de entrada tal y como apa
 
 Pase el ratón por encima del gráfico para ver los detalles de cada color.
 
-El cuerpo del informe está dividido en tres partes: **[!UICONTROL Móvil]**, **[!UICONTROL Clientes de mensajería]** y **[!UICONTROL Correos web]**. Desplácese hacia abajo por el informe para mostrar todas las representaciones agrupadas en estas tres categorías.
+The body of the report is divided into three parts: **[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]**, and **[!UICONTROL Webmails]**. Desplácese hacia abajo por el informe para mostrar todas las representaciones agrupadas en estas tres categorías.
 
 ![](assets/s_tn_inbox_rendering_report.png)
 
