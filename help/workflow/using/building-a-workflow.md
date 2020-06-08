@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: b1a961822224ab0a9551f51942a5f94cf201c8ee
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1631'
 ht-degree: 94%
 
 ---
@@ -91,8 +91,6 @@ Creación del diagrama
 >[!CAUTION]
 >
 >Puede copiar y pegar actividades en un mismo flujo de trabajo. Sin embargo, no se recomienda copiar y pegar actividades en diferentes flujos de trabajo. Algunas configuraciones asociadas a actividades como Deliveries y Scheduler podrían provocar conflictos y errores al ejecutar el flujo de trabajo de destino. En su lugar, le recomendamos que **duplique** los flujos de trabajo. Para obtener más información, consulte [Duplicación de flujos de trabajo](#duplicating-workflows).
-
-### Opciones de diseño adicionales {#additional-layout-options}
 
 Puede cambiar la visualización y el diseño del gráfico mediante los siguientes elementos:
 
