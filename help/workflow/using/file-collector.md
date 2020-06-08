@@ -14,8 +14,11 @@ discoiquuid: 9b937d4d-55ae-4bd4-8dc6-eea42f15b69f
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+translation-type: tm+mt
+source-git-commit: b1a961822224ab0a9551f51942a5f94cf201c8ee
+workflow-type: tm+mt
+source-wordcount: '520'
+ht-degree: 94%
 
 ---
 
@@ -40,17 +43,17 @@ La primera pestaña de la actividad **[!UICONTROL File collector]** permite sele
 
       Directorio que contiene los archivos que se van a descargar. Este directorio debe crearse previamente en el servidor: si no existe, se generará un error.
 
-   * **[!UICONTROL Filtro]**
+   * **[!UICONTROL Filter]**
 
       Solo se tienen en cuenta los archivos que coinciden con este filtro. Los demás archivos del directorio se omiten. Si el filtro está vacío, se tendrán en cuenta todos los archivos del directorio. Ejemplos de filtros: ***.zip**, **import-*.txt**.
 
-   * **[!UICONTROL Detenerse en cuanto se haya procesado un archivo]**
+   * **[!UICONTROL Stop as soon as a file has been processed]**
 
       Si esta opción está activada, la tarea finaliza después de la recepción del primer archivo. Si hay varios archivos correspondientes al filtro en el directorio, solo se tendrá en cuenta uno. Esta opción garantiza que solo se envíe un evento. El archivo tenido en cuenta es la primero en la lista en orden alfabético.
 
       Para una actividad no programada, si no se encuentra ningún archivo que coincida con el filtro en el directorio especificado y si la opción **[!UICONTROL Process file nonexistence]** no está activada, se generará un error.
 
-   * **[!UICONTROL Programación de ejecución]**
+   * **[!UICONTROL Execution schedule]**
 
       Determina la frecuencia de la comprobación de presencia de archivos mediante los parámetros de la pestaña **[!UICONTROL Schedule]**.
 
@@ -58,13 +61,13 @@ La primera pestaña de la actividad **[!UICONTROL File collector]** permite sele
 
    Estas son las opciones disponibles.
 
-   * **[!UICONTROL No existencia del archivo de proceso]**
+   * **[!UICONTROL Process file nonexistence]**
 
       Esta opción inicia una transición especial cada vez que no se encuentra ningún archivo que coincida con el filtro en el directorio especificado.
 
       Si la tarea no está programada, esta transición se activará solo una vez.
 
-   * **[!UICONTROL Procesamiento de errores]**
+   * **[!UICONTROL Processing errors]**
 
       Esta opción hace que aparezca una transición especial, que se activará si se genera un error. En este caso, el flujo de trabajo no cambia a estado de error y continúa la ejecución
 
@@ -74,14 +77,12 @@ La primera pestaña de la actividad **[!UICONTROL File collector]** permite sele
 
 1. **Historization**
 
-   Consulte el paso **[!UICONTROL File historization]** aquí: [Web download](../../workflow/using/web-download.md).
+   Refer to the **[!UICONTROL File historization]** step here: [Web download](../../workflow/using/web-download.md).
 
-El orden de procesamiento del archivo no se puede determinar. Para procesar un conjunto de archivos secuencialmente, utilice la opción **[!UICONTROL Stop as soon as a file has been processed]** y cree un bucle. En este caso, los archivos se procesan en orden alfabético. La opción **[!UICONTROL Process file nonexistence]** permite finalizar la iteración.
+El orden de procesamiento del archivo no se puede determinar. To process a set of files sequentially, use the **[!UICONTROL Stop as soon as a file has been processed]** option and create a loop. En este caso, los archivos se procesan en orden alfabético. The **[!UICONTROL Process file nonexistence]** option lets you finish the iteration.
 
 ![](assets/file_collect_loop.png)
 
 ## Parámetros de salida {#output-parameters}
 
-* filename
-
-Nombre de archivo completo. Es el nombre de archivo que se ha movido al directorio de historización. Por lo tanto, la ruta es diferente, pero el nombre también es diferente si ya existe otro archivo con el mismo nombre en el directorio. La extensión se mantiene.
+* filename: Nombre de archivo completo. Es el nombre de archivo que se ha movido al directorio de historización. Por lo tanto, la ruta es diferente, pero el nombre también es diferente si ya existe otro archivo con el mismo nombre en el directorio. La extensión se mantiene.
