@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
+source-git-commit: d9b0f943fa09b3d0ad8547eb708e888724f1ae7e
+workflow-type: tm+mt
+source-wordcount: '7852'
+ht-degree: 6%
 
 ---
 
@@ -726,7 +729,7 @@ Estos son los diferentes parámetros del nodo del **módulo** . Esta es la confi
  </tbody> 
 </table>
 
-## monitoreo {#monitoring}
+## monitoring {#monitoring}
 
 Estos son los diferentes parámetros del nodo de **supervisión** . Esta es la configuración del servicio de monitoreo.
 
@@ -1194,7 +1197,7 @@ Estos son los distintos parámetros del nodo **inMail** . Ésta es la configurac
   </tr> 
   <tr> 
    <td> ignoreSize<br /> </td> 
-   <td> Ignorar tamaño del mensaje: se utiliza para ignorar el tamaño de un mensaje devuelto por los servidores POP3. En este caso, el módulo espera un '.' at the end of the messages. <br /> </td> 
+   <td> Ignorar tamaño del mensaje: se utiliza para ignorar el tamaño de un mensaje devuelto por los servidores POP3. En este caso, el módulo espera un '.' al final de los mensajes. <br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1534,6 +1537,12 @@ Estos son los diferentes parámetros del **nodo mta** . Esta es la configuració
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
+   <td> signEmailLinks<br /> </td> 
+   <td> Habilite el mecanismo de firma. Esto mejora la seguridad de los vínculos de seguimiento en el correo electrónico.<br /> </td> 
+   <td> Booleano<br /> </td> 
+   <td> true<br /> </td> 
+  </tr>
+  <tr> 
    <td> statServerAddress<br /> </td> 
    <td> Dirección del servidor de estadísticas de envío, dada como &lt;dns o ip&gt; [: 
      &lt;puerto&gt; ]. Consulte <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">Coordenadas del servidor</a>de estadísticas. 
@@ -1866,7 +1875,7 @@ Para obtener más información, consulte la [Lista de las direcciones IP que se 
   </tr> 
   <tr> 
    <td> publicId<br /> </td> 
-   <td> ID de dirección pública asociada. Se utiliza como clave para el servidor de estadísticas. Debe ser numérico. See this <a href="../../installation/using/email-deliverability.md#managing-ip-addresses">section</a>.<br /> </td> 
+   <td> ID de dirección pública asociada. Se utiliza como clave para el servidor de estadísticas. Debe ser numérico. Consulte esta <a href="../../installation/using/email-deliverability.md#managing-ip-addresses">sección</a>.<br /> </td> 
    <td> Largo<br /> </td> 
   </tr> 
   <tr> 
@@ -2427,7 +2436,7 @@ Estos son los diferentes parámetros del nodo **stat** . Esta es la configuraci�
   </tr> 
   <tr> 
    <td> port<br /> </td> 
-   <td> Puerto de escucha del servidor. See this <a href="../../installation/using/email-deliverability.md#definition-of-the-server-port">section</a>.<br /> </td> 
+   <td> Puerto de escucha del servidor. Consulte esta <a href="../../installation/using/email-deliverability.md#definition-of-the-server-port">sección</a>.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2544,6 +2553,12 @@ Estos son los diferentes parámetros del nodo de **seguimiento** . Ésta es la c
    <td> false<br /> </td> 
   </tr> 
   <tr> 
+   <td> blockRedirectForUnsignedTrackingLink<br /> </td> 
+   <td> Deshabilite las direcciones URL con formato incorrecto generadas a partir de compilaciones anteriores.<br /> </td> 
+   <td> Booleano<br /> </td> 
+   <td> false<br /> </td> 
+  </tr> 
+  <tr> 
    <td> consolidaciónPeríodoS<br /> </td> 
    <td> Período de consolidación<br /> </td> 
    <td> Largo<br /> </td> 
@@ -2596,6 +2611,18 @@ Estos son los diferentes parámetros del nodo de **seguimiento** . Ésta es la c
    <td> Advertencia de consumo de memoria: advertencia sobre la cantidad de RAM consumida (en Mb) por un proceso determinado.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 1600<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> phishbowlServiceAPIKey<br /> </td> 
+   <td> Clave de API para la integración del extremo del servicio Phishbowl. Esto protege la redirección de direcciones URL mal formadas generadas a partir de compilaciones anteriores. <br /> </td> 
+   <td> Largo<br /> </td> 
+   <td> <br /> </td> 
+  </tr> 
+  <tr> 
+   <td> phishbowlServiceEndpoint<br /> </td> 
+   <td> Extremo para la integración del extremo del servicio Phishbowl. Esto protege la redirección de direcciones URL mal formadas generadas a partir de compilaciones anteriores.<br /> </td> 
+   <td> Largo<br /> </td> 
+   <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
