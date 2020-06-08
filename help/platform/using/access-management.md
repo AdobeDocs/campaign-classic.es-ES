@@ -14,11 +14,11 @@ discoiquuid: c0eb06fd-192c-4ee4-9a38-c9bedbe6aea0
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4148efa9c7a8b002672d72fc526753bf7304673c
-workflow-type: ht
-source-wordcount: '2894'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 651dfdab75f64d72a1c5beb1273a878ee7102b47
+workflow-type: tm+mt
+source-wordcount: '2912'
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ En [esta página](#creating-an-operator) se describe el procedimiento completo p
 
 Para más información sobre la integración de Adobe Campaign y LDAP, consulte [esta página](../../installation/using/connecting-through-ldap.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Los operadores deben vincularse a una zona de seguridad para iniciar sesión en una instancia. Para más información sobre las zonas de seguridad en Adobe Campaign, consulte [esta página](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
@@ -149,7 +149,7 @@ El enlace **[!UICONTROL Edit the access parameters...]** permite acceder a las s
 
    ![](assets/s_ncs_user_restrictions_operators.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Se trata de una restricción muy estricta y debe utilizarse con precaución. Un operador registrado con este tipo de derechos puede ver el contenido de la carpeta especificada y no tiene acceso a ningún otro nodo del árbol mediante el navegador. Sin embargo, según las funcionalidades a las que tenga acceso (por ejemplo: flujos de trabajo), puede mostrar datos que normalmente se almacenan en nodos que no puede ver.
 
@@ -179,7 +179,7 @@ Puede acceder a:
 
 Adobe Campaign utiliza operadores técnicos con perfiles configurados de forma predeterminada: Administrador (&#39;admin&#39;), Facturación (&#39;facturación&#39;), Supervisión, Agente de aplicaciones web (&#39;webapp&#39;), etc. Algunas de ellas dependen de las aplicaciones y opciones instaladas en la plataforma: Los operadores &#39;central&#39; y &#39;local&#39;, por ejemplo, solo son visibles si está instalada la opción Marketing distribuido.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Se notifica a estos operadores técnicos de forma predeterminada cuando la plataforma devuelve mensajes de información. Recomendamos que proporcione un correo electrónico de contacto para ellos.
 >
@@ -396,7 +396,7 @@ En la pestaña **[!UICONTROL Security]**, si la opción **[!UICONTROL System fol
 
 ## Carpetas y vistas {#folders-and-views}
 
-### Acerca de las carpetas y las vistas {#about-folders-and-views}
+### Acerca de las carpetas {#about-folders}
 
 Las carpetas son nodos del árbol de Adobe Campaign. Estos nodos se crean haciendo clic con el botón derecho en el árbol, a través del menú **[!UICONTROL Add new folder]**. De forma predeterminada, el primer menú permite añadir la carpeta correspondiente al contexto actual.
 
@@ -404,17 +404,23 @@ Las carpetas son nodos del árbol de Adobe Campaign. Estos nodos se crean hacien
 
 Puede conceder permisos a estas carpetas en todas las demás carpetas del árbol. Consulte [Administración de acceso a carpetas](#folder-access-management).
 
+### Acerca de las vistas {#about-views}
+
 Además, puede crear vistas para restringir el acceso a los datos y organizar el contenido del árbol para adaptarlo a sus necesidades. A continuación, puede asignar derechos a las vistas.
 
 Una vista es una carpeta que muestra registros almacenados físicamente en una o más carpetas del mismo tipo. Por ejemplo, si se crea una carpeta de campañas que sea una vista, esta muestra todas las campañas contenidas en la base de datos de manera predeterminada, independientemente de su origen. Estos datos se pueden filtrar.
 
 Cuando se convierte una carpeta en una vista, todos los datos correspondientes al tipo de carpeta presentes en la base de datos se muestran en la vista, independientemente de la carpeta en la que se guarde. A continuación, puede filtrarlos para restringir la lista de datos mostrados.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Las vistas contienen datos y permiten el acceso a ellos, pero los datos no se almacenan físicamente en la carpeta de vista. El operador debe tener los derechos adecuados para la acción deseada en las carpetas de origen de los datos (acceso de lectura, como mínimo).
 >
 >Para conceder acceso a una vista sin conceder acceso a la carpeta de origen, no asigne acceso de lectura al nodo principal de la carpeta de origen.
+
+Para distinguir vistas de carpetas, el nombre de cada vista se muestra en un color diferente (cian oscuro).
+
+![](assets/s_ncs_user_view_name_color.png)
 
 ### Adición de carpetas y creación de vistas {#adding-folders-and-creating-views}
 
@@ -442,4 +448,3 @@ En el ejemplo siguiente, se muestra cómo crear nuevas carpetas para mostrar dat
 Las siguientes entregas se muestran en la vista:
 
 ![](assets/s_ncs_user_add_folder_exple02.png)
-
