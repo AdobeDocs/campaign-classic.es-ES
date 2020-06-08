@@ -12,10 +12,10 @@ discoiquuid: 0af1fd96-48ef-43c9-a03b-0f9a6e0e02fe
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0a4272ae13b469c7c17b8c3afa9748cbfbcf07ff
-workflow-type: ht
-source-wordcount: '835'
+translation-type: tm+mt
+source-git-commit: e488e1771fe4d07132844900f41f5f4f09fa9438
+workflow-type: tm+mt
+source-wordcount: '775'
 ht-degree: 100%
 
 ---
@@ -99,10 +99,6 @@ La siguiente tabla permite acceder a la documentación de integración de Experi
   <tr> 
    <td> <strong>Adobe Analytics: Conectores de datos</strong><br /> </td> 
    <td> <strong>Conectores de datos</strong> (anteriormente conocidos como Adobe Genesis) permite que Adobe Campaign y Adobe Analytics interactúen mediante segmentos en relación con el comportamiento del usuario tras una campaña de correos electrónicos. Por el contrario, envía indicadores y atributos de las campañas de correo electrónico que envía Adobe Campaign a Adobe Analytics: conector de datos.<br /> <p><a href="../../platform/using/adobe-analytics-data-connector.md">Obtenga más información</a> sobre la integración de Campaign con los conectores de datos.</p><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Adobe Campaign Standard</strong> (oferta Prime)<br /> </td> 
-   <td> Permite replicar datos en <strong>Campaign Standard</strong>, uniendo lo mejor de ambas aplicaciones. Campaign Classic v7 cuenta con herramientas avanzadas para administrar la base de datos principal de marketing. La duplicación de datos de Campign Classic v7 permite a Campaign Standard aprovechar los datos enriquecidos en un entorno fácil de usar.<br /><p> <a href="../../integrations/using/acs-connector-principles-and-data-cycle.md">Obtenga más información</a> sobre la integración de Adobe Campaign Classic - Adobe Campaign Standard.</p><br /></td> 
   </tr> 
  </tbody> 
 </table>
