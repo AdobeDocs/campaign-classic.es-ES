@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efef031d9c662daac6634ff7cc0d05d9d512443b
+source-git-commit: e059fc9e2bfade30454601f31990c3ec14b8a847
+workflow-type: tm+mt
+source-wordcount: '1212'
+ht-degree: 10%
 
 ---
 
@@ -34,15 +37,15 @@ Los paquetes son un conjunto de características que se pueden instalar según s
 
 Para instalar un paquete estándar:
 
-1. Acceda al asistente de importación del paquete desde **[!UICONTROL Tools > Advanced > Package import...]** la consola de cliente de Adobe Campaign.
-1. Select **[!UICONTROL Install a standard package]**.
+1.  En la consola de cliente de Adobe Campaign, acceda al asistente de importación del paquete desde **[!UICONTROL Tools > Advanced > Package import...]**.
+1. Seleccione **[!UICONTROL Install a standard package]**.
 1. En la lista que aparece, compruebe los paquetes que desea instalar.
    >[!NOTE]
    >
    >Si un paquete está atenuado, no puede instalarlo. Significa que ya está instalado o que no es compatible con su instancia. Por ejemplo, no puede instalar el paquete de plataforma **** Intermediaria en una instancia de marketing. Encontrará esta información en la tabla siguiente.
-1. Haga clic en **[!UICONTROL Next]**, luego **[!UICONTROL Start]** para inicio de la instalación del paquete.
+1. Haga clic en **[!UICONTROL Next]**, luego en **[!UICONTROL Start]** para iniciar la instalación del paquete.
 
-   Una vez instalados los paquetes, la barra de progreso muestra el **100%** y puede ver el siguiente mensaje en los registros de instalación: **[!UICONTROL Installation of packages successful]**.
+   Una vez instalados los paquetes, la barra de progreso muestra el **100 %** y puede ver el siguiente mensaje en los registros de instalación: **[!UICONTROL Installation of packages successful]**.
 
 1. **[!UICONTROL Close]** la ventana de instalación.
 
@@ -145,13 +148,7 @@ La siguiente tabla lista todos los paquetes estándar con su descripción, el ti
    <td> Envía envíos mediante el canal de teléfono con Adobe Campaign.<br /> </td> 
    <td> Todos<br /> </td> 
    <td> Opcional</td> 
-  </tr> 
-  <tr> 
-   <td> canal de fax<br /> </td> 
-   <td> Envía envíos mediante el canal de fax con Adobe Campaign.<br /> </td> 
-   <td> Todos<br /> </td> 
-   <td> Opcional</td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> Canal de aplicaciones móviles<br /> </td> 
    <td> Utiliza la plataforma de Adobe Campaign para enviar notificaciones personalizadas a los terminales de iOS y Android a través de las aplicaciones. <br /> </td> 
@@ -198,7 +195,7 @@ La siguiente tabla lista todos los paquetes estándar con su descripción, el ti
    <td> Monitorización de la capacidad de entrega (capacidad de entrega por correo electrónico)<br /> </td> 
    <td> Measures the success of your campaigns reaching your recipients' inbox without bouncing, or being marked as spam.<br /> </td> 
    <td> Todos </td> 
-   <td> Opcional, <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html">Más información</a> </td> 
+   <td> Opcional, <a href="https://docs.adobe.com/content/help/es-ES/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html">Más información</a> </td> 
   </tr> 
   <tr> 
    <td> Gestión de cupones<br /> </td> 
@@ -252,7 +249,7 @@ La siguiente tabla lista todos los paquetes estándar con su descripción, el ti
    <td> Reglamento de protección de datos de privacidad<br /> </td> 
    <td> Contiene funcionalidad adicional para ayudarle con la conformidad con la privacidad en Campaign Classic.<br /> </td> 
    <td> Todos</td> 
-   <td> <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html">Más información</a> </td> 
+   <td> <a href="https://helpx.adobe.com/es/campaign/kb/acc-privacy.html">Más información</a> </td> 
   </tr> 
   <tr> 
    <td> Transfer to Mid-Sourcing <br /> </td> 
@@ -286,7 +283,7 @@ Para agregar un canal de envío (canal móvil, canal de aplicaciones móviles, e
    \datakit\nms\[Your language]\package\messageCenter.xml
    ```
 
-1. En el **[!UICONTROL XML data content to import]**, mantenga solo la Plantilla de envíos del centro de mensajes correspondiente al canal adjunto. Por ejemplo, si ha agregado **Mobile canal**, mantenga solo el elemento **entity** correspondiente a la plantilla **[!UICONTROL Mobile transactional message]** (smsTriggerMessage). If you have added the **Mobile App Channel**, keep only the **iOS transactional message** templates (iosTriggerMessage) and **Android transactional message** (androidTriggerMessage).
+1. En el **[!UICONTROL XML data content to import]**, mantenga solo la Plantilla de envíos del centro de mensajes correspondiente al canal adjunto. For example, if you have added the **Mobile channel**, keep only the **entities** element corresponding to the **[!UICONTROL Mobile transactional message]** (smsTriggerMessage) template. If you have added the **Mobile App Channel**, keep only the **iOS transactional message** templates (iosTriggerMessage) and **Android transactional message** (androidTriggerMessage).
 
    ![](assets/messagecenter_install_channel.png)
 
