@@ -14,8 +14,11 @@ discoiquuid: 8f413002-bd32-426f-88b9-44cefae68593
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
+translation-type: tm+mt
+source-git-commit: a62e4d072573f7ed1b77f755eb57838c70745592
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +28,10 @@ source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 Adobe Campaign permite detener el seguimiento en la web de los comportamientos de los usuarios finales que optan por no participar en él mediante cookies o señalización web. Esta funcionalidad incluye la posibilidad de mostrar un banner para ofrecerle esta opción al usuario; se pueden añadir estos banners a las aplicaciones web o a las páginas de destino.
 
 Si un usuario final opta por no participar en el seguimiento de conductas mediante cookies o señalización web, la información se transmite al servidor de seguimiento de Adobe Campaign con las API de JavaScript. Tenga en cuenta que algunas jurisdicciones pueden requerir que el cliente ofrezca a los usuarios finales una adhesión antes de poder ofrecerles una exclusión (o que existan otros requisitos legales) y es responsabilidad del cliente cumplir con las leyes aplicables.
+
+>[!NOTE]
+>
+>Cuando las secuencias de comandos siempre siguen las directrices descritas en la lista de comprobación [Seguridad y privacidad](https://helpx.adobe.com/campaign/kb/acc-security.html#dev).
 
 ## Configuración del banner {#configuring-the-banner-}
 
