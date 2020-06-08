@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fcedad248169f53e716f2bd8b1b141fbf1f4d189
+source-git-commit: 1a9d4c9eadf996d37481f33636eae98e482ac115
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '984'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Para instalar y configurar SpamAssassin en Windows para habilitar la integració
 
 1. Conéctese al portal [de](http://support.neolane.net) Extranet con sus credenciales de usuario.
 1. Vaya al centro **de** descarga y, a continuación, vaya a la página para encontrar la sección **Herramientas** .
-1. Descargue el archivo de **Spam Assassin (Instalación de Windows) (1.0)** .
+1. Descargue el archivo **Neolane Spam Assassin (Instalación de Windows) (2.0)** (neolane_spamassassin.2.0.zip).
 1. Copie este archivo en el servidor de Adobe Campaign y descomprímalo.
 
    >[!NOTE]
@@ -79,9 +79,9 @@ Para instalar y configurar SpamAssassin en Windows para habilitar la integració
    * **3**: error de actualización durante la verificación previa.
    * **4** o más: se ha producido un error.
 
-1. Para comprobar que la instalación de SpamAssassin se ha realizado correctamente, utilice la prueba GTUBE (Generic Test for Unsolicited Bulk Email) siguiendo el siguiente procedimiento:
+1. To check that the SpamAssassin installation was successful, use the GTUBE test (Generic Test for Unsolicited Bulk Email) using the following procedure:
 
-   1. Cree un archivo de texto y guárdelo en **C:\TestSpamMail.txt**.
+   1. Create a text file and save it under **C:\TestSpamMail.txt**.
    1. Inserte el siguiente contenido en el archivo:
 
       ```
@@ -109,7 +109,7 @@ Para instalar y configurar SpamAssassin en Windows para habilitar la integració
 ### Integración de SpamAssassin en el Adobe Campaign {#integrating-spamassassin-into-adobe-campaign}
 
 1. Edite el **`[INSTALL]/conf/serverConf.xml`** archivo. Todos los parámetros disponibles en **serverConf.xml** se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
-1. Cambie el valor del atributo de **comando** de los elementos spamCheck **en el nodo** Web **** . Para ello, ejecute el siguiente comando:
+1. Cambie el valor del atributo de **comando** de los elementos spamCheck **en el nodo** Web **** . To do this, run the following command:
 
    ```
    <spamCheck command='"<absolute path to the folder where you unzipped the zip file>\call_perl_with_args.bat" "<absolute path to nlserver>/spamcheck.pl"'/>
@@ -190,7 +190,7 @@ test -x /usr/bin/sa-update || exit 0
 /usr/sbin/sa-update && /etc/init.d/spamassassin update
 ```
 
-Inserte esta secuencia de comandos en **crontab** mediante el siguiente comando:
+Insert this script into **crontab** using the following command:
 
 ```
 crontab-e
