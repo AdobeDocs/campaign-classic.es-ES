@@ -12,11 +12,11 @@ discoiquuid: 7b8ab9d6-e47e-46d8-99df-da793486654c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 24a50fcaad4d9081e5504652eb5b73aa7db1e65f
-workflow-type: ht
-source-wordcount: '560'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 22d0e70f77eb3759632e05ab1cb0d8ee53adfac9
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 89%
 
 ---
 
@@ -45,6 +45,10 @@ En este caso, los archivos adjuntos no se generan previamente sino que se añade
 * Si el archivo adjunto está asociado con una transacción (como en el ejemplo descrito anteriormente), puede contener datos dinámicos que se generan durante el proceso del cliente.
 * Al adjuntar archivos PDF, se optimiza la seguridad, ya que se puede codificar y enviarlos a través de HTTPS.
 
+>[!NOTE]
+>
+>Para evitar problemas de rendimiento, si incluye imágenes descargadas sobre la marcha desde una URL personalizada como datos adjuntos, cada tamaño de imagen no debe superar los 100.000 bytes de forma predeterminada. Este umbral recomendado se puede configurar desde [la lista de opciones](../../installation/using/configuring-campaign-options.md#delivery)de Campaign Classic.
+
 ## Recomendaciones {#important-notes}
 
 Antes de implementar este escenario, lea atentamente las directrices siguientes:
@@ -53,6 +57,10 @@ Antes de implementar este escenario, lea atentamente las directrices siguientes:
 * Dado que no hay acceso directo a las instancias o al servidor de mensajería transaccional fuera de Adobe, no hay una forma estándar de insertar dichos archivos en estos servidores (sin acceso a FTP).
 * No es correcto contractualmente utilizar el espacio en disco en instancias de mensaje transaccional para almacenar archivos de cualquier tipo, ni siquiera para los archivos adjuntos.
 * Para hospedar estos archivos debe utilizar otro sistema de discos en línea. Necesita un acceso FTP a este sistema y poder escribir y eliminar archivos.
+
+>[!NOTE]
+>
+>Para evitar problemas de rendimiento, se recomienda no incluir más de un archivo adjunto por correo electrónico. El umbral recomendado se puede configurar desde [la lista de opciones](../../installation/using/configuring-campaign-options.md#delivery)de Campaign Classic.
 
 ## Implementación {#implementation}
 
