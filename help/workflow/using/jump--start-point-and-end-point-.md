@@ -14,8 +14,11 @@ discoiquuid: f3cd5409-c301-4580-96e3-9349e18cf42a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+translation-type: tm+mt
+source-git-commit: 4994aff9f2db36a519a9c7af2864393713eb65e3
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,9 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 Los objetos del tipo gráficos **[!UICONTROL Jump]** se utilizan para mejorar la legibilidad de un diagrama complejo, especialmente uno con transiciones de cruce.
 
-Los saltos son transiciones sin flechas: Van de una actividad a otra, como en el ejemplo siguiente.
+Los saltos son transiciones sin flechas.
+
+Pasan de una actividad a otra, como en el ejemplo siguiente:
 
 ![](assets/s_user_segmentation_jump_sample.png)
 
