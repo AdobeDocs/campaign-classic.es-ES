@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: e31a0faf6c48e2d34ce47fc1cd5a23aae05aeebf
 workflow-type: tm+mt
-source-wordcount: '2928'
-ht-degree: 100%
+source-wordcount: '2925'
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ Para crear una entrega vinculada a una campaña, haga clic en el enlace **[!UICO
 
 ![](assets/campaign_op_add_delivery.png)
 
-Las configuraciones sugeridas se adecúan a los diferentes tipos de envío (correo directo, correo electrónico, canales móviles, fax o teléfono).
+Las configuraciones sugeridas se adaptan a los diferentes tipos de envío: correo directo, correo electrónico, canales móviles.
 
 >[!NOTE]
 >
