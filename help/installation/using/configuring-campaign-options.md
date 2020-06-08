@@ -1,7 +1,7 @@
 ---
-title: Configuración de las opciones de Campaña
+title: Configuring Campaign options
 seo-title: Configuración de las opciones de Campaña
-description: Configuración de las opciones de Campaña
+description: Configuring Campaign options
 seo-description: null
 page-status-flag: never-activated
 uuid: 32e85e41-6898-4fb3-90c8-2201ceea2e91
@@ -15,23 +15,23 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5b6b4fd2b21f90a88744736b499eab1b0764774e
+source-git-commit: de1173786c94c2a526153e7e6948f71c9523fa7b
 workflow-type: tm+mt
-source-wordcount: '3740'
-ht-degree: 4%
+source-wordcount: '3903'
+ht-degree: 3%
 
 ---
 
 
 # Lista de opciones de Campaign Classic{#configuring-campaign-options}
 
-El **[!UICONTROL Administration / Platform / Options]** nodo permite configurar las opciones de Adobe Campaign.
+The **[!UICONTROL Administration / Platform / Options]** node allows you to configure Adobe Campaign options.
 
 >[!NOTE]
 >
 >La modificación o actualización de las opciones de Adobe Campaign sólo puede realizarla el usuario experto.
 
-Algunos de ellos están integrados al instalar Campaña y otros se pueden agregar manualmente cuando sea necesario. Las opciones disponibles varían según los paquetes instalados con la instancia.
+Some of them are built-in when installing Campaign, and others can be added manually when needed. Available options vary according to the packages installed with your instance.
 
 ## Entrega {#delivery}
 
@@ -64,7 +64,7 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
    <td><p> Permite que el operador a cargo del envío confirme el envío, si se ha designado un operador o grupo de operadores específico para iniciar un envío en las propiedades del envío.</p><p> Para ello, active la opción escribiendo "1" como valor. Para desactivar esta opción, escriba "0".</p><p> El proceso de confirmación de envío funcionará de forma predeterminada: solo el operador o grupo de operadores designados para la entrega en las propiedades de envío (o un administrador) puede confirmar y llevar a cabo la entrega. Consulte <a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">esta sección</a>.</p> </td> 
    <tr> 
    <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
-   <td> Adobe Campaign uses a "Nms_DefaultRcpSchema" global variable to dialog with the default recipient database (nms:recipient).<br /> El valor de la opción debe corresponder al nombre del esquema que coincide con la tabla de destinatarios externos.<br /> </td> 
+   <td> Adobe Campaign utiliza una variable global "Nms_DefaultRcpSchema" para dialogar con la base de datos de destinatario predeterminada (nms:destinatario).<br /> El valor de la opción debe corresponder al nombre del esquema que coincide con la tabla de destinatarios externos.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBilling_MainActionThreshold</span> <br /> </td> 
@@ -109,6 +109,18 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_FromAddressMask</span> <br /> </td> 
    <td> Permite definir la sintaxis de la dirección De que se utiliza al enviar un mensaje.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">NmsDelivery_ImageServerTimeout</span> <br /> </td> 
+   <td> Permite definir un límite de tiempo de espera (en segundos) para obtener una respuesta del servidor al recuperar una imagen descargada de una URL personalizada y adjuntada a un correo electrónico. Si se supera este valor, no se puede enviar el mensaje. El valor predeterminado es 60 segundos.<br /> </td> 
+  </tr> 
+ <tr> 
+   <td> <span class="uicontrol">NmsDelivery_MaxDownloadedImageSize</span> <br /> </td> 
+   <td> Permite definir el tamaño máximo (en bytes) permitido para una imagen descargada de una URL personalizada y adjunta a un correo electrónico. El valor predeterminado es 100.000 bytes. Al enviar una prueba y descargar las imágenes para procesar el correo electrónico, si el tamaño de una imagen supera este valor o si hay un problema de descarga, se mostrará un error en los Registros de envío y el envío de prueba fallará.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">NmsDelivery_MaxRecommendationsAttachments</span> <br /> </td> 
+   <td> Permite establecer un número máximo de archivos adjuntos en una plantilla de correo electrónico o de correo electrónico transaccional. Si se supera este valor, se mostrará una advertencia en los registros de análisis de envío o al publicar la plantilla de correo electrónico transaccional. The default value is 1 attachment.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_MaxRetry</span> <br /> </td> 
@@ -454,7 +466,7 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RoutingCustomJs</span> <br /> </td> 
-   <td> JavaScript library to be personalized for routing events. Must contain the implementation of these two functions:<br /> 
+   <td> JavaScript library to be personalized for routing events. Debe contener la implementación de estas dos funciones:<br /> 
     <ul> 
      <li> <p> <span class="uicontrol">dispatchRtEvent(iEventId);</span> : returns the internal name of the transactional message selected to process the real time event (where <span class="uicontrol">iEventId</span> corresponds to the ID of the real time event processed).</p> </li> 
      <li> <p> <span class="uicontrol">dispatchBatchEvent(iEventId);</span> : returns the internal name of the transactional message selected to process the batch event (where <span class="uicontrol">iEventId</span> corresponds to the ID of the batch event processed).</p> </li> 
@@ -462,7 +474,7 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgDeliveryTimeAlert</span> <br /> </td> 
-   <td> Alert threshold of average sending time of real-time events.<br /> </td> 
+   <td> Umbral de alerta de tiempo medio de envío de eventos en tiempo real.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgDeliveryTimeWarning</span> <br /> </td> 
@@ -474,11 +486,11 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgProcessTimeWarning</span> <br /> </td> 
-   <td> Umbral de advertencia para el tiempo medio de procesamiento de eventos en tiempo real.<br /> </td> 
+   <td> Warning threshold for the average processing time of real-time events.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgQueueAlert</span> <br /> </td> 
-   <td> Umbral de alerta para el número promedio de eventos en tiempo real en cola.<br /> </td> 
+   <td> Alert threshold for the average number of queued real-time events.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgQueueTimeAlert</span> <br /> </td> 
@@ -498,19 +510,19 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventErrorWarning</span> <br /> </td> 
-   <td> Umbral de advertencia para el procesamiento de errores de eventos en tiempo real.<br /> </td> 
+   <td> Warning threshold for processing errors of real-time events.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventMaxQueueAlert</span> <br /> </td> 
-   <td> Umbral de alerta para el número máximo de eventos en tiempo real en cola.<br /> </td> 
+   <td> Alert threshold for maximum number of queued real-time events.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventMaxQueueWarning</span> <br /> </td> 
-   <td> Umbral de advertencia para el número máximo de eventos en tiempo real en cola.<br /> </td> 
+   <td> Warning threshold for maximum number of queued real-time events.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventMinQueueAlert</span> <br /> </td> 
-   <td> Umbral de alerta para el número mínimo de eventos en tiempo real en cola.<br /> </td> 
+   <td> Alert threshold for minimum number of queued real-time events.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventMinQueueWarning</span> <br /> </td> 
@@ -526,11 +538,11 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventThroughAlert</span> <br /> </td> 
-   <td> Umbral de alerta para el rendimiento de eventos en tiempo real.<br /> </td> 
+   <td> Alert threshold for real-time event throughput.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">MC_RtEventThroughWarning</span> <br /> </td> 
-   <td> Umbral de advertencia para el rendimiento de eventos en tiempo real.<br /> </td> 
+   <td> <span class="uicontrol">MC_RtEventThroughputWarning</span> <br /> </td> 
+   <td> Warning threshold for real-time event throughput.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMessageCenter_RoutingBatchSize</span> <br /> </td> 
@@ -684,11 +696,11 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">PostUpgradeLastError</span> <br /> </td> 
-   <td> Information concerning the error that occurred in the Postupgrade, following the syntax below:<br /> <strong>{Build number}:{mode: pre/post/...}:{The 'lessThan'/'greaterOrEquelThan' where error occurred + sub-step}</strong> </td> 
+   <td> Información sobre el error que se produjo en la postactualización, según la sintaxis siguiente:<br /> <strong>{Número de compilación}:{modo: pre/post/...}:{El 'menor que'/'mayor o igual que' donde se produjo el error + subpaso}</strong> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkCleanup_NoStats</span> <br /> </td> 
-   <td> Enter the "1" value so that the update of statistics is not performed through the cleanup workflow.<br /> </td> 
+   <td> Introduzca el valor "1" para que la actualización de las estadísticas no se realice a través del flujo de trabajo de limpieza.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -705,18 +717,18 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">AEMResourceTypeFilter</span> <br /> </td> 
-   <td> Tipos de recursos de AEM que se pueden usar en Adobe Campaign. Values must be separated by commas.<br /> </td> 
+   <td> Tipos de recursos de AEM que se pueden usar en Adobe Campaign. Los valores deben separarse con comas.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">nmsPipeline_config</span> <br /> </td> 
-   <td> Lets you configure Experience Cloud Triggers. El tipo de datos es "texto largo" y debe tener el formato JSON. See <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">How to use Experience Cloud Triggers with Adobe Campaign Classic</a>.<br /> </td> 
+   <td> Permite configurar los activadores de Experience Cloud. El tipo de datos es "texto largo" y debe tener el formato JSON. Consulte <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Cómo utilizar Experience Cloud Triggers con Adobe Campaign Classic</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</span> <br /> </td> 
-   <td> Esta opción se utiliza al importar datos desde un sistema de terceros a través de un conector CRM. La activación de la opción   solo permite recopilar objetos modificados desde la última importación. This option has to be manually created and populated as below: 
+   <td> Esta opción se utiliza al importar datos desde un sistema de terceros a través de un conector CRM. La activación de la opción   solo permite recopilar objetos modificados desde la última importación. Esta opción debe crearse y rellenarse manualmente de la siguiente manera: 
     <ul> 
-     <li> <p> <span class="uicontrol">Internal name</span> : LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</p> </li> 
-     <li> <p> <span class="uicontrol">Value (field)</span> : date of the last import, with the yyyy/MM/dd hh:mm:ss format. </p> </li> 
+     <li> <p> <span class="uicontrol">Nombre</span> interno: LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</p> </li> 
+     <li> <p> <span class="uicontrol">Valor (campo)</span> : fecha de la última importación, con el formato aaaa/MM/dd hh:mm:ss. </p> </li> 
     </ul><br /> </td> 
   </tr> 
   <tr> 
@@ -905,19 +917,19 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">Privacy_Request_ConfirmDeletepending</span> <br /> </td> 
-   <td> If option 1 is selected, you have to confirm manually the deletion in the interface in a second step. De lo contrario, los datos se eliminarán sin confirmación.<br /> </td> 
+   <td> Si selecciona la opción 1, deberá confirmar manualmente la eliminación en la interfaz en un segundo paso. De lo contrario, los datos se eliminarán sin confirmación.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Privacy_Request_ConfirmDeletePendingDelay</span> <br /> </td> 
+   <td> <span class="uicontrol">Privacy_Request_ConfirmDeletependingDelay</span> <br /> </td> 
    <td> El retraso entre la solicitud espera para eliminar la confirmación y la solicitud se cancela.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Privacy_Request_MaxErrorAllowed</span> <br /> </td> 
-   <td> The maximum number of error allowed when processing/deleting a privacy request.<br /> </td> 
+   <td> Número máximo de errores permitidos al procesar o eliminar una solicitud de privacidad.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Privacy_Request_PurgeDelay</span> <br /> </td> 
-   <td> Delay between request is created on the queue and request data is deleted.<br /> </td> 
+   <td> El retraso entre solicitudes se crea en la cola y los datos de solicitudes se eliminan.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -934,47 +946,47 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_Active</span> <br /> </td> 
-   <td> Enable LDAP server to be used to authenticate users and provide authorizations to users.<br /> </td> 
+   <td> Habilite el servidor LDAP para que se utilice para autenticar usuarios y proporcionar autorizaciones a los usuarios.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_AppLogin</span> <br /> </td> 
-   <td> Application login to contact the server for various searches.<br /> </td> 
+   <td> Inicio de sesión en la aplicación para ponerse en contacto con el servidor para realizar varias búsquedas.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_AppPassword</span> <br /> </td> 
-   <td> Encrypted password for the application login.<br /> </td> 
+   <td> Contraseña cifrada para el inicio de sesión de la aplicación.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_AutoOperator</span> <br /> </td> 
-   <td> Enable automatic creation of operators and rights in Adobe Campaign.<br /> </td> 
+   <td> Habilitar la creación automática de operadores y derechos en Adobe Campaign.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_DN</span> <br /> </td> 
-   <td> Computation formula for LDAP DN based on login.<br /> </td> 
+   <td> Fórmula de cálculo para DN LDAP basada en el inicio de sesión.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_DNSearch</span> <br /> </td> 
-   <td> Enable DN search in directory.<br /> </td> 
+   <td> Habilite la búsqueda DN en el directorio.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_DNSearchBase</span> <br /> </td> 
-   <td> Search base.<br /> </td> 
+   <td> Base de búsqueda.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_DNSearchFilter</span> <br /> </td> 
-   <td> DN search filter.<br /> </td> 
+   <td> Filtro de búsqueda DN.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_DNSearchScope</span> <br /> </td> 
-   <td> Search scope.<br /> </td> 
+   <td> Ámbito de búsqueda.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">XtkLdap_Mechanism</span> <br /> </td> 
-   <td> Authentication type used to contact the LDAP server (plain, md5, lds, ntlm, dpa).<br /> </td> 
+   <td> <span class="uicontrol">XtkLdap_Facility</span> <br /> </td> 
+   <td> Tipo de autenticación utilizado para comunicarse con el servidor LDAP (plain, md5, lds, ntlm, dpa).<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_Rights</span> <br /> </td> 
-   <td> Enable synchronization of authorizations and groups from LDAP directory to named rights in Adobe Campaign.<br /> </td> 
+   <td> Habilitar la sincronización de autorizaciones y grupos desde directorio LDAP a derechos asignados en Adobe Campaign.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_RightsAttr</span> <br /> </td> 
@@ -998,7 +1010,7 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_Server</span> <br /> </td> 
-   <td> LDAP server address (it is possible to specify a port by specifying ':' as the separator).<br /> </td> 
+   <td> Dirección del servidor LDAP (es posible especificar un puerto especificando ':' como separador).<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1019,7 +1031,7 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkWebForm_Instance</span> <br /> </td> 
-   <td> Instance to be used for web form invalidation in 'other server(s)' mode.<br /> </td> 
+   <td> Instancia que se utilizará para la invalidación de formularios web en el modo 'otros servidores'.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkWebForm_Password</span> <br /> </td> 
@@ -1031,7 +1043,7 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkWebForm_ServersURLs</span> <br /> </td> 
-   <td> Personalized address list of servers to be contacted for web form invalidation ('other server(s)' mode).<br /> </td> 
+   <td> lista de direcciones personalizadas de los servidores con los que se va a establecer contacto para la invalidación de formularios web (modo 'otros servidores').<br /> </td> 
   </tr> 
  </tbody> 
 </table>
