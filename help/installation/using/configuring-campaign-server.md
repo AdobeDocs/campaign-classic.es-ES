@@ -1,7 +1,7 @@
 ---
-title: Configuración del servidor de Campaña
-seo-title: Configuración del servidor de Campaña
-description: Configuración del servidor de Campaña
+title: Configuración del servidor de Campaign
+seo-title: Configuración del servidor de Campaign
+description: Configuración del servidor de Campaign
 seo-description: null
 page-status-flag: never-activated
 uuid: be21ae4b-ca2a-4952-b256-cd8dc51309cf
@@ -15,12 +15,15 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7db84fc951234cb6257d8e41615ba7fc5b2c6f77
+source-git-commit: 1909cc8640a32eb709187dab084778f03ef39118
+workflow-type: tm+mt
+source-wordcount: '3589'
+ht-degree: 4%
 
 ---
 
 
-# Configuración del servidor de Campaña{#configuring-campaign-server}
+# Configuración del servidor de Campaign{#configuring-campaign-server}
 
 La sección siguiente detalla las configuraciones del lado del servidor que se pueden realizar para satisfacer sus necesidades y las características específicas de su entorno.
 
@@ -32,9 +35,9 @@ La sección siguiente detalla las configuraciones del lado del servidor que se p
 
 Para obtener más información, consulte estas secciones:
 
-* [Documentación del Panel de control](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+* [Documentación del Panel de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html)
 * [Modelos de alojamiento](../../installation/using/hosting-models.md)
-* [Matriz de Campaign Classic in situ y capacidad alojada](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)
+* [Matriz de Campaign Classic in situ y capacidad alojada](https://helpx.adobe.com/es/campaign/kb/acc-on-prem-vs-hosted.html)
 * [Pasos de configuración de modelos híbridos y alojados](https://docs.campaign.adobe.com/doc/AC/en/INS_Hybrid_and_Hosted_models_About_hybrid_and_hosted_models.html)
 
 Los archivos de configuración de Campaign Classic se almacenan en la carpeta **conf** de la carpeta de instalación de Adobe Campaign. La configuración se distribuye en dos archivos:
@@ -74,7 +77,7 @@ Cada zona define derechos, como:
 >**Cada operador debe estar vinculado a una zona**. Si la dirección IP del operador pertenece al rango definido por la zona, el operador puede iniciar sesión en la instancia.\
 >La dirección IP del operador puede definirse en varias zonas. En este caso, el operador recibe el **conjunto** de derechos disponibles para cada zona.
 
-El archivo **serverConf.xml** integrado incluye tres zonas: **pública, VPN y LAN**.
+El archivo **serverConf.xml** integrado incluye tres zonas: **public, VPN y LAN**.
 
 >[!NOTE]
 >
@@ -340,16 +343,16 @@ Para ello, siga los siguientes pasos:
 
 ## Permisos de URL {#url-permissions}
 
-La lista predeterminada de las direcciones URL a las que pueden llamar los códigos JavaScript (flujos de trabajo, etc.) las instancias de su Campaign Classic están limitadas. Son direcciones URL que permiten que las instancias funcionen correctamente.
+La lista predeterminada de direcciones URL a las que pueden llamar los códigos JavaScript (flujos de trabajo, etc.) a través de instancias de Campaign Classic es limitada. Son direcciones URL que permiten que las instancias funcionen correctamente.
 
-De forma predeterminada, las instancias no pueden conectarse a direcciones URL externas. Sin embargo, es posible agregar algunas direcciones URL externas a la lista de direcciones URL autorizadas para que la instancia pueda conectarse a ellas. Esto le permite conectar las instancias de Campaña a sistemas externos como, por ejemplo, servidores SFTP o sitios web para habilitar la transferencia de datos o archivos.
+De forma predeterminada, las instancias no pueden conectarse a direcciones URL externas. Sin embargo, es posible agregar algunas direcciones URL externas a la lista de direcciones URL autorizadas para que la instancia pueda conectarse a ellas. Esto le permite conectar las instancias de Campaign a sistemas externos como, por ejemplo, servidores SFTP o sitios web para habilitar la transferencia de datos o archivos.
 
-Una vez que se agrega una URL, se hace referencia a ella en el archivo de configuración de la instancia (serverConf.xml).
+Una vez añadida una URL, se hace referencia a ella en el archivo de configuración de la instancia (serverConf.xml).
 
 La forma en que puede administrar los permisos de URL depende del modelo de alojamiento:
 
 * **Híbrido** o **local**: agregue las direcciones URL para permitir en el **archivo** serverConf.xml. La información detallada se encuentra disponible en la sección siguiente.
-* **Alojado**: agregue las direcciones URL para permitir mediante el Panel **de control**. For more information, refer to the [dedicated documentation](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/url-permissions.html).
+* **Alojado**: agregue las direcciones URL para permitir mediante el Panel **de control**. Para obtener más información, consulte la [documentación especializada](https://docs.adobe.com/content/help/es-ES/control-panel/using/instances-settings/url-permissions.html).
 
 Con modelos de alojamiento **híbridos** y **locales** , el administrador debe hacer referencia a un nuevo **urlPermission** en el archivo **serverConf.xml** . Todos los parámetros disponibles en **serverConf.xml** se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
 
@@ -610,6 +613,8 @@ Por ejemplo: **uploadWhiteList=&quot;.*.png,.*.jpg&quot;** le permitirá cargar 
 Si necesita conectar el servidor de Campaña al exterior mediante un proxy (por ejemplo, mediante una actividad de flujo de trabajo de transferencia de archivos), debe configurar la sección proxyConfig del serverConf mediante un comando. Las siguientes conexiones proxy son posibles: HTTP, HTTPS, FTP, SFTP. Todos los parámetros disponibles en **serverConf.xml** se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
 
 >[!NOTE]
+>
+>A partir de 20.2, los parámetros de protocolo HTTP y HTTPS ya no están disponibles. La siguiente información aún menciona esos parámetros, ya que siguen estando disponibles para las compilaciones anteriores, incluido 9032.
 >
 >No se admiten los proxies SOCKS.
 
