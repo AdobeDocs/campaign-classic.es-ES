@@ -13,8 +13,11 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2ca8fb051dce9abfcb8987c4d4527d997b480f96
+translation-type: tm+mt
+source-git-commit: e25560152a16865dc415ac2ffa1975808b3f6bbc
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,7 @@ Antes de empezar a diseñar correos electrónicos, conozca los conceptos y las p
 
 La configuración y los parámetros de entrega se pueden guardar en una plantilla de envíos para ser reutilizados.
 
-Haga clic aquí para obtener más información.
+[Haga clic aquí para obtener más información](../../delivery/using/about-templates.md).
 
 ## ¿Puedo importar fácilmente un HTML existente para crear un correo electrónico en Campaign?{#can-i-easily-import-an-existing-html-to-create-an-email-in-campaign-}
 
