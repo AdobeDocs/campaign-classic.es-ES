@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: e9e9b1352706e15a0d0c6ff8921e430524a44b13
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 93%
+source-wordcount: '843'
+ht-degree: 88%
 
 ---
 
@@ -83,11 +83,11 @@ Se crea un correo electrónico en el que primero debe insertar el nombre del des
 
 ## Optimización de la personalización {#optimizing-personalization}
 
-You can optimize personalization using a dedicated option: **[!UICONTROL Prepare the personalization data with a workflow]**, available in the **[!UICONTROL Analysis]** tab of the delivery properties.
+You can optimize personalization using a dedicated option: **[!UICONTROL Prepare the personalization data with a workflow]**, available in the **[!UICONTROL Analysis]** tab of the delivery properties. Para obtener más información sobre el análisis del envío, consulte [esta sección](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
 
 Durante el análisis de envío, esta opción crea y ejecuta automáticamente un flujo de trabajo que almacena todos los datos vinculados con el objetivo en una tabla temporal, incluidos los datos de tablas vinculadas en FDA.
 
-Si marca esta opción, puede mejorar de forma significativa el rendimiento de la ejecución de la personalización.
+Si activa esta opción, se puede mejorar considerablemente el rendimiento de la análisis de envío cuando se procesan muchos datos, especialmente si los datos de personalización provienen de una tabla externa a través de FDA. For more on this, see [Accessing an external database (FDA)](../../platform/using/additional-options.md#optimizing-email-personalization-with-external-data).
 
 Por ejemplo, si existen problemas de rendimiento al realizar envíos a una gran cantidad de destinatarios mientras utiliza muchos campos personalizados o bloques personalizados en el contenido de sus mensajes, esta opción puede acelerar la gestión de la personalización y, por tanto, la entrega de los mensajes.
 
