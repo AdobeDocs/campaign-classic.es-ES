@@ -14,8 +14,11 @@ discoiquuid: 72c5151c-ce1e-425a-9aee-beefe9f21a67
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 44d8ba19f2e79d30229239312e6a5148d247fb28
+translation-type: tm+mt
+source-git-commit: e97183256ef6d3f2068dd0fbc8eb3c3f32e0bae0
+workflow-type: tm+mt
+source-wordcount: '367'
+ht-degree: 100%
 
 ---
 
@@ -32,10 +35,10 @@ Campaign Optimization (optimización de la campaña) es el módulo de Adobe Camp
 
 Con Adobe Campaign puede diseñar y aplicar cuatro tipos de reglas de tipología:
 
-1. Reglas de **filtrado**, que permiten excluir parte del objetivo según los criterios. Para obtener más información, consulte [Reglas del filtro](../../campaign/using/filtering-rules.md).
-1. Reglas de **presión**, que permiten controlar la fatiga de marketing. Para obtener más información, consulte [Reglas de presión](../../campaign/using/pressure-rules.md).
-1. Reglas de **capacidad** que permiten limitar las cargas para garantizar condiciones de procesamiento óptimas. Para obtener más información, consulte [Capacidad de control](../../campaign/using/consistency-rules.md#controlling-capacity).
-1. Reglas de **control** que permiten comprobar la validez de los mensajes antes de enviarlos. Para obtener más información, consulte [Reglas de control](../../campaign/using/control-rules.md).
+* Reglas de **filtrado**, que permiten excluir parte del objetivo según los criterios. Para obtener más información, consulte [Reglas del filtro](../../campaign/using/filtering-rules.md).
+* Reglas de **presión**, que permiten controlar la fatiga de marketing. Para obtener más información, consulte [Reglas de presión](../../campaign/using/pressure-rules.md).
+* Reglas de **capacidad** que permiten limitar las cargas para garantizar condiciones de procesamiento óptimas. Para obtener más información, consulte [Capacidad de control](../../campaign/using/consistency-rules.md#controlling-capacity).
+* Reglas de **control** que permiten comprobar la validez de los mensajes antes de enviarlos. Para obtener más información, consulte [Reglas de control](../../campaign/using/control-rules.md).
 
 Una vez creadas, las reglas de tipología se agrupan en las tipologías de campaña a las que se hace referencia en las entregas. Consulte [Aplicación de tipologías](#applying-typologies).
 
