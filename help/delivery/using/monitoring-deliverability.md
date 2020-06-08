@@ -12,11 +12,11 @@ discoiquuid: 0baef937-f00b-4fc4-8608-a870997be684
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 74e1a883088d347cb1aab05d76b630c912411fc4
-workflow-type: ht
-source-wordcount: '788'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f4d82657fbeae39af173c867975455669497d8eb
+workflow-type: tm+mt
+source-wordcount: '787'
+ht-degree: 94%
 
 ---
 
@@ -58,7 +58,7 @@ Estas son algunas directrices adicionales sobre la monitorización de la capacid
 * Compruebe el rendimiento de cada envío para asegurarse de que es coherente con la validez del contenido del envío (p. ej. las “ventas flash” deben entregarse en minutos, no en días).
 * Cuando utilice [olas](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves), compruebe que cada ola tenga tiempo suficiente para finalizar antes de que se active la siguiente.
 * Compruebe que las cantidades de errores y nuevas [cuarentenas](../../delivery/using/understanding-quarantine-management.md) sean coherentes con otros envíos.
-* Consulte cuidadosamente los [registros de envío](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) en detalle para comprobar el tipo de errores resaltados (listas grises o negras, problemas de DNS, reglas antispam, etc.).
+* Carefully consult the [delivery logs](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) in detail to check the kind of errors that are highlighted (grey or black-listing, DNS issues, anti-spam rules, etc.).
 
 ## Signal Spam {#signal-spam}
 
@@ -70,7 +70,7 @@ Signal Spam es un servicio francés que ofrece el sistema de informes de bucle d
 
 ## 250ok {#deliverability-250ok}
 
-[250ok](https://250ok.com/) es una solución de monitorización complementaria de las herramientas internas de capacidad de envío de Adobe que proporciona IP, listas negras de dominios e indicadores de reputación.
+[250ok](https://250ok.com/) es una solución de supervisión complementaria de las herramientas internas de entrega de Adobe que proporciona IP, listas negras de dominios e indicadores de reputación.
 
 La información se proporciona en tiempo real, lo que permite una asistencia proactiva.
 
