@@ -15,23 +15,26 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4869eb41f942a89c48bc213913c44b70ae777bfc
+source-git-commit: 653f630079277ffb75915206c445e9414cfcdd7c
+workflow-type: tm+mt
+source-wordcount: '1295'
+ht-degree: 2%
 
 ---
 
 
-# Creating and configuring the database{#creating-and-configuring-the-database}
+# Creación y configuración de la base de datos{#creating-and-configuring-the-database}
 
 Al crear una base de datos, Adobe Campaign ofrece dos opciones diferentes:
 
 1. Creación o reciclaje de una base de datos: elija estas opciones si desea crear una nueva base de datos o reutilizar una existente. Véase el [caso 1: Creación/reciclaje de una base de datos](#case-1--creating-recycling-a-database).
 1. Uso de una base de datos existente: seleccione esta opción si el administrador ya ha creado una base de datos vacía y desea utilizarla; o ampliar la estructura de una base de datos existente. Véase el [caso 2: Uso de una base de datos](#case-2--using-an-existing-database)existente.
 
-Los pasos de configuración se detallan a continuación.
+The configuration steps are detailed hereafter.
 
 >[!CAUTION]
 >
->Los nombres de bases de datos, usuarios y esquemas no deben comenzar con un número ni incluir caracteres especiales.
+>Los nombres de bases de datos, usuarios y esquemas no deben tener inicio con un número ni incluir caracteres especiales.
 >
 >Sólo el identificador **interno** puede realizar estas operaciones. For more on this, refer to [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
 
@@ -54,7 +57,7 @@ Seleccione el motor de base de datos entre los de la lista desplegable.
 
 ![](assets/s_ncs_install_db_select_engine.png)
 
-Las bases de datos admitidas se presentan en la sección Matriz [de](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)compatibilidad.
+Las bases de datos admitidas se presentan en la sección Matriz [de](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)compatibilidad.
 
 Identifique el servidor y elija el tipo de operación que desea realizar. En este caso, **[!UICONTROL Create or recycle a database]**.
 
@@ -66,7 +69,7 @@ Según el motor de base de datos seleccionado, la información de identificació
 * Para un motor **PostgreSQL** o **DB2** , debe especificar el nombre DNS (o dirección IP) definido en el servidor de aplicaciones para acceder al servidor de bases de datos.
 * Para un motor de **Microsoft SQL Server** , debe definir:
 
-   1. nombre DNS (o dirección IP) definido en el servidor de aplicaciones para acceder al servidor de bases de datos: **DNS** o **DNS\ `<instance>`** (modo de instancia),
+   1. nombre DNS (o dirección IP) definido en el servidor de aplicaciones para acceder al servidor de bases de datos: **DNS** o **DNS\`<instance>`**(modo de instancia),
    1. el método de autenticación utilizado para obtener acceso a Microsoft SQL Server: **[!UICONTROL SQL Server authentication]** o **[!UICONTROL Windows NT authentication]**.
 
       ![](assets/s_ncs_install_db_mssql_creation01.png)
@@ -111,7 +114,7 @@ Debe definir la siguiente configuración:
 
 * Elija una zona horaria para la base de datos y especifique si desea que esté en UTC (si está disponible).
 
-   Para obtener más información sobre esto, consulte Administración de [husos horarios](../../installation/using/time-zone-management.md).
+   For more on this, refer to [Time zone management](../../installation/using/time-zone-management.md).
 
 ### Paso 4: Paquetes para instalar {#step-4---packages-to-install}
 
@@ -143,17 +146,17 @@ La **[!UICONTROL Creation steps]** ventana permite mostrar y editar la secuencia
 
 ### Paso 6: Creación de la base de datos {#step-6---creating-the-database}
 
-La etapa final del asistente le permite crear la base de datos. Click **[!UICONTROL Start]** to confirm.
+La etapa final del asistente le permite crear la base de datos. Haga clic en **[!UICONTROL Start]** para confirmar.
 
 ![](assets/s_ncs_install_db_oracle_creation06.png)
 
 Una vez creada la base de datos, puede volver a conectarse para finalizar la configuración de instancias.
 
-Ahora debe iniciar el asistente de implementación para finalizar la configuración de la instancia. Consulte el Asistente [de implementación](../../installation/using/deploying-an-instance.md#deployment-wizard).
+Ahora debe poner en inicio el asistente de implementación para finalizar la configuración de la instancia. Consulte el Asistente [de implementación](../../installation/using/deploying-an-instance.md#deployment-wizard).
 
 La configuración de conexión de la base de datos vinculada a la instancia se almacena en el archivo **`/conf/config-<instance>.xml`** que se encuentra en el directorio de instalación de Adobe Campaign.
 
-Ejemplo de configuración de Microsoft SQL Server en la base de datos base61 vinculada a la cuenta &#39;campaign&#39; con su contraseña cifrada:
+Ejemplo de una configuración de Microsoft SQL Server en la base de datos base61 vinculada a la cuenta &#39;campaña&#39; con su contraseña cifrada:
 
 ```
 <dbcnx encrypted="1" login="campaign:myBase" password="myPassword" provider="DB" server="dbServer"/>
@@ -175,7 +178,7 @@ Para utilizar una base de datos existente, los pasos de configuración son los s
 
 ### Paso 1: Selección del motor de procesamiento de la base de datos {#step-1---choosing-the-database-engine}
 
-Elija el motor de la base de datos en la lista desplegable.
+Elija el motor de base de datos en la lista desplegable.
 
 ![](assets/s_ncs_install_db_select_engine.png)
 
@@ -207,6 +210,7 @@ Debe definir la siguiente configuración:
 
    >[!NOTE]
    >
+   >Asegúrese de que coinciden tanto el nombre de esquema como el nombre de usuario. La forma recomendada de crear la base de datos es a través del cliente de la consola de campaña.
    >Para una base de datos Oracle, no es necesario introducir el nombre de la cuenta.
 
 * Indique si la base de datos debe ser Unicode o no.
@@ -225,25 +229,25 @@ La **[!UICONTROL Creation steps]** ventana permite mostrar y editar la secuencia
 
 ![](assets/s_ncs_install_db_oracle_creation04.png)
 
-* Para bases de datos Oracle, Microsoft SQL Server o PostgreSQL, el administrador puede definir los parámetros **de** almacenamiento que se utilizarán al crear objetos de base de datos.
+* Para las bases de datos Oracle, Microsoft SQL Server o PostgreSQL, el administrador puede definir los parámetros **de** almacenamiento que se utilizarán al crear objetos de base de datos.
 * Para una base de datos Oracle, el usuario de Adobe Campaign debe tener acceso a las bibliotecas de Oracle, normalmente como miembro del grupo **oinstall** .
 * La **[!UICONTROL Set or change the administrator password]** opción le permite introducir la contraseña vinculada al operador de Adobe Campaign con derechos de administrador.
 
    Se recomienda definir una contraseña de administrador de cuentas de Adobe Campaign por motivos de seguridad.
 
-### Paso 5: Creación de la base de datos {#step-5---creating-the-database}
+### Step 5 - Creating the database {#step-5---creating-the-database}
 
-La etapa final del asistente le permite crear la base de datos. Click **[!UICONTROL Start]** to confirm.
+La etapa final del asistente le permite crear la base de datos. Haga clic en **[!UICONTROL Start]** para confirmar.
 
 ![](assets/s_ncs_install_db_oracle_creation06.png)
 
 Una vez creada la base de datos, puede volver a conectarse para finalizar la configuración de instancias.
 
-Ahora debe iniciar el asistente de implementación para finalizar la configuración de la instancia. Consulte el Asistente [de implementación](../../installation/using/deploying-an-instance.md#deployment-wizard).
+Ahora debe poner en inicio el asistente de implementación para finalizar la configuración de la instancia. Consulte el Asistente [de implementación](../../installation/using/deploying-an-instance.md#deployment-wizard).
 
 La configuración de conexión de la base de datos vinculada a la instancia se almacena en el archivo **`/conf/config-<instance>.xml`** que se encuentra en el directorio de instalación de Adobe Campaign.
 
-Ejemplo de configuración de Microsoft SQL Server en la base de datos base61 vinculada a la cuenta &#39;campaign&#39; con su contraseña cifrada:
+Ejemplo de una configuración de Microsoft SQL Server en la base de datos base61 vinculada a la cuenta &#39;campaña&#39; con su contraseña cifrada:
 
 ```
 <dbcnx encrypted="1" login="campaign:myBase" password="myPassword" provider="DB" server="dbServer"/>
