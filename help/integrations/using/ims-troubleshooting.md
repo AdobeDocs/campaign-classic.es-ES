@@ -14,8 +14,11 @@ discoiquuid: e31db11a-ad8e-4fd0-bab7-0df1079231c9
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
+translation-type: tm+mt
+source-git-commit: 54cb4143fc534aa436c4b8b28e031e87a2a02e40
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 95%
 
 ---
 
@@ -41,7 +44,7 @@ Asegúrese de que el contexto del producto sea el mismo para Campaign y Experien
 
 Por ejemplo, si el **contexto del producto** no aparece, el contexto predeterminado del producto debe ser **dma_campaign** en Campaign y Experience Cloud. Si aparece el campo de **Contexto del producto**, el contexto predeterminado del producto debe ser **dma_campaign_classic** en Campaign y en Experience Cloud.
 
-**[!UICONTROL URL del servidor IMS]**
+**[!UICONTROL IMS Server URL]**
 
 En la cuenta externa de **Adobe Marketing Cloud** de Campaign, asegúrese de que **[!UICONTROL IMS Server URL]** sea [adobeid-na1.services.adobe.com](https://adobeid-na1.services.adobe.com/) o [ims-na1.adobelogin.com](http://ims-na1.adobelogin.com/). Asegúrese de que las instancias de ensayo y de producción indiquen el mismo punto final de producción IMS.
 
@@ -62,7 +65,7 @@ Los ámbitos definidos en la cuenta externa de Campaign deben ser un subconjunto
 
 **URL de devolución de llamada**
 
-La **URL de devolución de llamada** debe incluirse en la lista blanca y comenzar con “https://”. Compruebe que la **URL de devolución de llamada** esté vinculada a la instancia correspondiente. Por ejemplo, la instancia de producción debe redirigir a la URL de producción.
+La dirección URL **de** llamada de retorno debe agregarse a la lista de permitidos y al inicio con &quot;https://&quot;. Compruebe que la **URL de devolución de llamada** esté vinculada a la instancia correspondiente. Por ejemplo, la instancia de producción debe redirigir a la URL de producción.
 
 **ID de cliente y secreto**
 
@@ -78,7 +81,7 @@ Reinicie el servidor si se realizan cambios en la configuración anterior en la 
 
 * Se redirige al usuario a la página de adobe.com:
 
-   Hay algún problema con **[!UICONTROL Callback URL]**. Consulte los pasos anteriores para comprobar la configuración de **[!UICONTROL Callback URL]**.
+   There is a problem with the **[!UICONTROL Callback URL]**. Consulte los pasos anteriores para comprobar la configuración de **[!UICONTROL Callback URL]**.
 
 * Mensaje “Ningún derecho del inicio de sesión se corresponde con la expresión”:
 
