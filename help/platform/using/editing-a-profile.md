@@ -14,8 +14,11 @@ discoiquuid: 93dd29e8-cf0a-4010-a3cc-f68c52c0d9ef
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 51e4d72abf3a1f48700ca38566dbf06dd24594b8
+translation-type: tm+mt
+source-git-commit: fecfff477b0750782c87c017a15e306acac4c61d
+workflow-type: tm+mt
+source-wordcount: '476'
+ht-degree: 88%
 
 ---
 
@@ -46,7 +49,7 @@ Esta pantalla contiene todos los datos generales sobre el perfil seleccionado. E
 
 >[!NOTE]
 >
->Una vez seleccionada la opción **[!UICONTROL No longer contact (by any channel)]**, significa que el perfil se encuentra en la lista negra; es decir, el perfil ha expresado su deseo de no ser contactado (por ejemplo, haciendo clic en un vínculo para dar de baja un boletín informativo). Ya no serán identificados por las entregas de ningún canal (correo electrónico, correo postal, etc.). Para obtener más información, consulte [esta página](../../delivery/using/understanding-quarantine-management.md).
+>When the **[!UICONTROL No longer contact (by any channel)]** option is selected, this means that the profile is on the block list, i.e. the profile has expressed a wish not to be contacted (for example, by clicking an unsubscription link in a newsletter). Ya no serán identificados por las entregas de ningún canal (correo electrónico, correo postal, etc.). Para obtener más información, consulte [esta página](../../delivery/using/understanding-quarantine-management.md).
 
 ## Ficha Contact information {#contact-information-tab}
 
@@ -58,7 +61,7 @@ Esta pantalla muestra el índice de calidad de la dirección, así como la canti
 
 ## Ficha Other {#other-tab}
 
-Esta pantalla contiene campos definidos por el usuario que pueden personalizarse según los requisitos. También puede cambiar los nombres de los campos y definir su formato mediante **[!UICONTROL Field properties...]**, como se muestra a continuación:
+Esta pantalla contiene campos definidos por el usuario que pueden personalizarse según los requisitos. You can also change the names of the fields and define their format, via **[!UICONTROL Field properties...]**, as shown below:
 
 ![](assets/s_ncs_user_profile_others_tab.png)
 
