@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
+source-git-commit: c51a51f175e9f3fe5a55f2b5f57872057f70909d
+workflow-type: tm+mt
+source-wordcount: '639'
+ht-degree: 4%
 
 ---
 
@@ -26,9 +29,9 @@ La API comercial es específica para cada tipo de objeto. Tienen un efecto en:
 
 * Entregas:
 
-   * Creación de una acción de entrega, consulte [SubmitDelivery (nms:delivery)](#submitdelivery--nms-delivery-),
-   * envío de una campaña (iniciar, pausar, detener, enviar prueba),
-   * recuperación de registros de entrega.
+   * Creación de una acción de envío, consulte [SubmitDelivery (nms:envío)](#submitdelivery--nms-delivery-),
+   * enviar una campaña (inicio, pausa, parada, enviar prueba),
+   * recuperar registros de envío.
 
 * Flujos de trabajo:
 
@@ -38,27 +41,27 @@ La API comercial es específica para cada tipo de objeto. Tienen un efecto en:
       Consulte Métodos [SOAP en JavaScript](../../configuration/using/soap-methods-in-javascript.md).
 
 * Gestión de contenido
-* Gestión de suscripciones, consulte [Suscribirse (nms:subscription)](#subscribe--nms-subscription-) y [Cancelar suscripción (nms:subscription)](#unsubscribe--nms-subscription-).
+* Administración de Suscripciones, consulte [Suscribirse (nms:suscripción)](#subscribe--nms-subscription-) y [Cancelar suscripción (nms:suscripción)](#unsubscribe--nms-subscription-).
 * Procesos de datos: importaciones, exportaciones.
 
 Esta sección detalla el uso de los servicios &quot;Suscribirse&quot;, &quot;Cancelar suscripción&quot; y &quot;Enviar entrega&quot;.
 
 >[!IMPORTANT]
 >
->[La documentación](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html) de JSAPI de campaña contiene información adicional sobre las llamadas SOAP y el uso de Javascript en Adobe Campaign, así como una referencia completa a todos los métodos y funciones utilizados en la aplicación.
+>[La documentación](https://docs.adobe.com/content/help/es-ES/campaign-classic/technicalresources/api/index.html) JSAPI de Campaña contiene información adicional sobre las llamadas SOAP y el uso de Javascript en Adobe Campaign, así como una referencia completa a todos los métodos y funciones utilizados en la aplicación.
 
-## Suscribirse (nms:subscription) {#subscribe--nms-subscription-}
+## Suscribirse (nms:suscripción) {#subscribe--nms-subscription-}
 
-Este servicio le permite suscribirse a un destinatario en un servicio de información y actualizar el perfil del destinatario.
+Este servicio le permite suscribirse a un destinatario de un servicio informativo y actualizar el perfil de destinatario.
 
 Se requieren los siguientes parámetros para llamar al servicio:
 
 * una autenticación,
 * nombre interno del servicio de suscripción,
-* un documento XML que contiene la información del destinatario (del esquema &quot;nms:destination&quot;),
-* un valor booleano para la creación de destinatarios si no hay ninguno.
+* un documento XML que contiene la información de destinatario (del esquema &quot;nms:destinatario&quot;),
+* un booleano para la creación de destinatarios si no hay uno.
 
-Descripción del método &quot;subscription&quot; en el esquema &quot;nms:subscription&quot;:
+Descripción del método &quot;subscription&quot; en el esquema &quot;nms:suscripción&quot;:
 
 ```
 <method name="Subscribe" static="true">
@@ -76,13 +79,13 @@ Esta llamada no devuelve datos, excepto errores.
 
 ### Ejemplos {#examples}
 
-Suscripción con clave de reconciliación del destinatario en la dirección de correo electrónico: el documento XML de entrada debe hacer referencia a la dirección de correo electrónico y a la definición de la clave en este campo.
+Suscripción con clave de reconciliación de destinatario en la dirección de correo electrónico: el documento XML de entrada debe hacer referencia a la dirección de correo electrónico y a la definición de la clave en este campo.
 
 ```
 <recipient _key="email" email= "john.doe@adobe.com"/>
 ```
 
-Actualizando el destinatario y la suscripción.
+Actualización del destinatario y de la suscripción.
 
 ```
 <recipient _key="email, [folder-id]" email= "john.doe@adobe.com" folder-id="1305" firstName="John" lastName="Doe"/>
@@ -120,17 +123,17 @@ Actualizando el destinatario y la suscripción.
    </SOAP-ENV:Envelope>
    ```
 
-## Cancelar suscripción (nms:subscription) {#unsubscribe--nms-subscription-}
+## Cancelar suscripción (nms:suscripción) {#unsubscribe--nms-subscription-}
 
-Este servicio le permite cancelar la suscripción de un destinatario de un servicio de información y actualizar el perfil del destinatario.
+Este servicio le permite cancelar la suscripción de un destinatario de un servicio informativo y actualizar el perfil de destinatario.
 
 Se requieren los siguientes parámetros para llamar al servicio:
 
 * una autenticación,
 * Nombre interno del servicio del que se va a cancelar la suscripción,
-* un documento XML que contiene la información del destinatario (del esquema &quot;nms:destination&quot;),
+* un documento XML que contiene la información de destinatario (del esquema &quot;nms:destinatario&quot;),
 
-Descripción del método &quot;Cancelar suscripción&quot; en el esquema &quot;nms:subscription&quot;:
+Descripción del método &quot;Cancelar suscripción&quot; en el esquema &quot;nms:suscripción&quot;:
 
 ```
 <method name="Unsubscribe" static="true">
@@ -143,11 +146,11 @@ Descripción del método &quot;Cancelar suscripción&quot; en el esquema &quot;n
 
 La definición de la clave de reconciliación debe introducirse mediante el atributo _key en el `<recipient>` elemento del documento XML. El contenido de este atributo es una lista XPath separada por comas.
 
-Si el destinatario no está presente en la base de datos o no está suscrito al servicio de información correspondiente, el servicio no realiza ninguna acción ni genera un error.
+Si el destinatario no está presente en la base de datos o no está suscrito al servicio informativo correspondiente, el servicio no realiza ninguna acción y no genera un error.
 
 >[!NOTE]
 >
->Si el nombre del servicio no se especifica como parámetro, el destinatario se bloquea automáticamente (@blackList=&quot;1&quot;).
+>Si el nombre del servicio no se especifica como parámetro, el destinatario se muestra automáticamente en la lista de bloques (@blockList=&quot;1&quot;).
 
 Esta llamada no devuelve datos, excepto errores.
 
@@ -181,14 +184,14 @@ Respuesta:
 </SOAP-ENV:Envelope>
 ```
 
-## SubmitDelivery (nms:delivery) {#submitdelivery--nms-delivery-}
+## SubmitDelivery (nms:envío) {#submitdelivery--nms-delivery-}
 
-Este servicio le permite crear y enviar una acción de entrega.
+Este servicio le permite crear y enviar una acción de envío.
 
 Se requieren los siguientes parámetros para llamar al servicio:
 
 * una autenticación,
-* nombre interno de la plantilla de entrega,
+* nombre interno de la Plantilla de envíos,
 * un documento XML opcional que contiene datos de envío adicionales.
 
 No se debe llamar a esta API por volumen, ya que puede encontrar problemas de rendimiento.
@@ -204,15 +207,15 @@ Descripción del método en su esquema:
 </method>
 ```
 
-Se debe crear una plantilla de entrega desde la consola de cliente de Adobe Campaign. Contiene los parámetros comunes a todas las entregas (dirección del remitente o duración de validez del mensaje).
+Se debe crear una Plantilla de envíos desde la consola cliente de Adobe Campaign. Contiene los parámetros comunes a todos los envíos (dirección del remitente o duración de validez del mensaje).
 
-El documento XML de entrada es un fragmento de plantilla de entrega que obedece a la estructura del esquema &quot;nms:delivery&quot;. Contiene todos los datos adicionales que no se pudieron definir de forma estática en la plantilla de envío (por ejemplo, la lista de destinatarios a los que se va a dirigir).
+El documento XML de entrada es un fragmento de Plantilla de envíos que obedece a la estructura del esquema &quot;nms:envío&quot;. Contendrá todos los datos adicionales que no pudieron definirse estáticamente en la Plantilla de envíos (por ejemplo, la lista de destinatarios al destinatario).
 
 Esta llamada no devuelve datos, excepto errores.
 
 ### Ejemplo de documento XML {#xml-document-example}
 
-Este ejemplo se basa en una plantilla de entrega personalizada de un origen de datos externo (un archivo en este caso). La configuración se describe completamente en la plantilla de envío, de modo que todo lo que queda por enviar cuando se produce la llamada es el contenido del archivo del `<externalsource>` elemento.
+Este ejemplo se basa en una Plantilla de envíos personalizada de un origen de datos externo (un archivo en este caso). La configuración se describe completamente en la Plantilla de envíos, de modo que todo lo que queda por enviar cuando se produce la llamada es el contenido del archivo del `<externalsource>` elemento.
 
 ```
 <delivery>
@@ -225,7 +228,7 @@ Este ejemplo se basa en una plantilla de entrega personalizada de un origen de d
 </delivery>
 ```
 
-Si no tiene una plantilla de entrega, puede utilizar el siguiente ejemplo:
+Si no tiene una Plantilla de envíos, puede utilizar el siguiente ejemplo:
 
 ```
 <delivery>
