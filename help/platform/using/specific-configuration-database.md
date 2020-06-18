@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cc9ea59a9925930d4a4b260ce73a6bd4b615db5a
+source-git-commit: fecfff477b0750782c87c017a15e306acac4c61d
 workflow-type: tm+mt
-source-wordcount: '2857'
+source-wordcount: '2865'
 ht-degree: 78%
 
 ---
@@ -46,7 +46,7 @@ Para crear la cuenta externa [!DNL Azure Synapse] de cuenta externa:
 
 1. Configure la cuenta externa [!DNL Azure Synapse]. Debe especificar:
 
-   * **[!UICONTROL Type]**:: Análisis de sinapsis de Azure
+   * **[!UICONTROL Type]**:: Azure Synapse Analytics
 
    * **[!UICONTROL Server]**:: URL del servidor de Azure Synapse
 
@@ -132,7 +132,7 @@ Para configurar la sinapsis de Azure en CentOS:
 
    >[!NOTE]
    >
-   >Para permitir la comunicación desde Azure Synapse Analytics, es posible que deba incluir en la lista blanca su IP pública. Para ello, consulte la documentación [de](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules)Azure.
+   >Para permitir la comunicación desde Azure Synapse Analytics, es posible que tenga que agregar su IP pública a la lista de permitidos. Para ello, consulte la documentación [de](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules)Azure.
 
 1. En el caso de iptables, ejecute el siguiente comando:
 
@@ -223,7 +223,7 @@ Para configurar Azure Synapse en Debian:
 
    >[!NOTE]
    >
-   >Para permitir la comunicación desde Azure Synapse Analytics, es posible que deba incluir en la lista blanca su IP pública. Para ello, consulte la documentación [de](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules)Azure.
+   >Para permitir la comunicación desde Azure Synapse Analytics, es posible que tenga que agregar su IP pública a la lista de permitidos. Para ello, consulte la documentación [de](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules)Azure.
 
 ## Configuración del acceso a Snowflake {#configure-access-to-snowflake}
 
