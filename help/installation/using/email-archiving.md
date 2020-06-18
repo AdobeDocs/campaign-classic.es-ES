@@ -1,7 +1,7 @@
 ---
-title: Archiving de correo electrónico
-seo-title: Archiving de correo electrónico
-description: Archiving de correo electrónico
+title: Almacenamiento de correos electrónicos
+seo-title: Almacenamiento de correos electrónicos
+description: Almacenamiento de correos electrónicos
 seo-description: null
 page-status-flag: never-activated
 uuid: a5ed0659-be61-4d73-98e7-db3da24d92f3
@@ -15,18 +15,21 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5b9c57b3cba0e8c24300396c2abac613f6e1193a
+source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
+workflow-type: tm+mt
+source-wordcount: '1304'
+ht-degree: 3%
 
 ---
 
 
-# Archiving de correo electrónico{#email-archiving}
+# Almacenamiento de correos electrónicos{#email-archiving}
 
-Puede configurar Adobe Campaign para que conserve una copia de los correos electrónicos enviados desde su plataforma.
+Puede configurar Adobe Campaign para guardar una copia de los correos electrónicos enviados desde la plataforma.
 
-Sin embargo, la propia Adobe Campaign no administra los archivos archivados. Le permite enviar los mensajes de su elección a una dirección dedicada, desde donde se pueden procesar y archivar usando un sistema externo.
+Sin embargo, Adobe Campaign no gestiona los archivos archivados. Le permite enviar los mensajes de su elección a una dirección dedicada, desde donde se pueden procesar y archivar usando un sistema externo.
 
-Para ello, los archivos .eml correspondientes a los correos electrónicos enviados se transfieren a un servidor remoto, como un servidor de correo electrónico SMTP. El destino de archivado es una dirección de correo electrónico CCO (invisible para los destinatarios de la entrega) que debe especificar.
+Para ello, los archivos .eml correspondientes a los correos electrónicos enviados se transfieren a un servidor remoto, como un servidor de correo electrónico SMTP. El destino de archivado es una dirección de correo electrónico CCO (invisible para los destinatarios de envío) que debe especificar.
 
 ## Recomendaciones y limitaciones {#recommendations-and-limitations}
 
@@ -34,13 +37,13 @@ Para ello, los archivos .eml correspondientes a los correos electrónicos enviad
 * Para arquitecturas **alojadas e híbridas**, póngase en contacto con el ejecutivo de cuentas para activarlas. La dirección de CCO que elija debe proporcionarse al equipo de Adobe que la configurará por usted.
 * Para las instalaciones **** in situ, siga las directrices que se indican a continuación para activarlas: consulte las secciones [Activating email archive (on situ)](#activating-email-archiving--on-premise-) y [Configuring the BCC email address (on premise)](#configuring-the-bcc-email-address--on-premise-) .
 * Solo puede usar una dirección de correo electrónico CCO.
-* Una vez configurado el CCO de correo electrónico, asegúrese de que la función está habilitada en la plantilla de envío o en la entrega a través de la **[!UICONTROL Archive emails]** opción. For more on this, see [this section](../../delivery/using/sending-messages.md#archiving-emails).
+* Una vez configurado el CCO de correo electrónico, asegúrese de que la función está habilitada en la Plantilla de envíos o en el envío a través de la **[!UICONTROL Archive emails]** opción. Para obtener más información, consulte [esta sección](../../delivery/using/sending-messages.md#archiving-emails).
 * Solo se tienen en cuenta los mensajes de correo electrónico enviados correctamente; las devoluciones no.
-* El sistema de archivado de correo electrónico ha cambiado con Adobe Campaign 17.2 (compilación 8795). Si ya estaba utilizando el archivado de correo electrónico, debe actualizarse manualmente al nuevo sistema de archivado de correo electrónico (BCC). Para obtener más información sobre esto, consulte la sección [Actualización del sistema de archivado de correo electrónico (BCC)](#updated-email-archiving-system--bcc-) .
+* El sistema de archiving de correo electrónico cambió con Adobe Campaign 17.2 (compilación 8795). Si ya estaba utilizando el archivado de correo electrónico, debe actualizarse manualmente al nuevo sistema de archivado de correo electrónico (BCC). Para obtener más información sobre esto, consulte la sección [Actualización del sistema de archivado de correo electrónico (BCC)](#updated-email-archiving-system--bcc-) .
 
 ## Activación del archivado de correo electrónico (in situ) {#activating-email-archiving--on-premise-}
 
-Para activar el archivado de correo electrónico CCO cuando Adobe Campaign esté instalado in situ, siga los pasos a continuación.
+Para activar el archivado de correo electrónico de CCO cuando se instale Adobe Campaign in situ, siga los pasos a continuación.
 
 ### Carpeta local {#local-folder}
 
@@ -70,11 +73,11 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 
 >[!NOTE]
 >
->En una instancia de fuentes intermedias, el directorio de los correos archivados se encuentra en el servidor de fuentes intermedias.
+>En una instancia de intermediaria, el directorio de los correos electrónicos archivados se encuentra en el servidor intermediaria.
 >
->El deliveryID y el BroadlogID provienen del servidor de fuentes intermedias cuando no se envía el estado de los correos electrónicos. Una vez que el estado ha cambiado a **[!UICONTROL Sent]**, estos ID proceden del servidor de marketing.
+>El deliveryID y el BroadlogID provienen del servidor intermediaria cuando no se envía el estado de los correos electrónicos. Una vez que el estado ha cambiado a **[!UICONTROL Sent]**, estos ID proceden del servidor de marketing.
 
-### Parámetros {#parameters}
+### Parameters {#parameters}
 
 Una vez definida la ruta de la carpeta local, agregue y edite los siguientes elementos como desee en el archivo **config-`<instance name>.xml`**. Debajo están los valores predeterminados:
 
@@ -84,14 +87,14 @@ Una vez definida la ruta de la carpeta local, agregue y edite los siguientes ele
            pollDelay="600" acquireLimit="5000" smtpNbConnection="2"/>
 ```
 
-* **compressionFormat**: formato utilizado al comprimir los archivos .eml. Los valores posibles son:
+* **compressionFormat**: formato utilizado al comprimir los archivos .eml. Los valores posibles son estos:
 
    **0**: sin compresión (valor predeterminado)
 
    **1**: compresión (formato .zip)
 
 * **compressBatchSize**: número de archivos .eml agregados a un archivo (archivo .zip).
-* **archiveType**: estrategia de archiving que se utilizará. Los valores posibles son:
+* **archiveType**: estrategia de archiving que se utilizará. Los valores posibles son estos:
 
    **0**: las copias sin procesar de los correos electrónicos enviados se guardan en formato .eml en la carpeta **dataLogPath** (valor predeterminado). Se guarda una copia de archivado del **`<deliveryid>-<broadlogid>-sent.eml`** archivo en la carpeta **dataLogPath/archives** . La ruta del archivo de correo electrónico enviado se convierte en **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**.
 
@@ -117,7 +120,7 @@ En el archivo **config-`<instance name>.xml`**, utilice los siguientes parámetr
 <archiving smtpBccAddress="" smtpEnableTLS="false" smtpRelayAddress="" smtpRelayPort="25"/>
 ```
 
-* **smtpBccAddress**: destino de archivado
+* **smtpBccAddress**: archivo de destino de destinatario
 * **smtpEnableTLS**: uso de una conexión SMTP segura (protocolo TLS/SSL)
 * **smtpRelayAddress**: dirección de retransmisión para usar
 * **smtpRelayPort**: puerto de retransmisión para usar
@@ -132,7 +135,7 @@ En el archivo **config-`<instance name>.xml`**, utilice los siguientes parámetr
 
 >[!CAUTION]
 >
->El sistema de archivado de correo electrónico (BCC) cambió con Adobe Campaign 17.2 (compilación 8795). Si está actualizando desde una versión anterior y ya estaba utilizando las capacidades de archivado de correo electrónico, debe actualizarse manualmente al nuevo sistema de archivado de correo electrónico (BCC).
+>El sistema de archivado de correo electrónico (BCC) cambió con el Adobe Campaign 17.2 (compilación 8795). Si está actualizando desde una versión anterior y ya estaba utilizando las capacidades de archivado de correo electrónico, debe actualizarse manualmente al nuevo sistema de archivado de correo electrónico (BCC).
 
 Para ello, realice los siguientes cambios en el **`config-<instance>.xml`** archivo:
 
@@ -140,16 +143,16 @@ Para ello, realice los siguientes cambios en el **`config-<instance>.xml`** arch
 1. Si es necesario, establezca el parámetro **compressionFormat** en **1** .
 1. Establezca el parámetro **archiveType** en **1**.
 
-Una vez configurado el CCO de correo electrónico, asegúrese de seleccionar la **[!UICONTROL Archive emails]** opción en la plantilla de envío o en la entrega. For more on this, see [this section](../../delivery/using/sending-messages.md#archiving-emails).
+Una vez configurado el CCO de correo electrónico, asegúrese de seleccionar la **[!UICONTROL Archive emails]** opción en la Plantilla de envíos o el envío. Para obtener más información, consulte [esta sección](../../delivery/using/sending-messages.md#archiving-emails).
 
 ## Prácticas recomendadas {#best-practices}
 
 * **Buzón** de direcciones CCO: asegúrese de que tiene suficiente capacidad de recepción para archivar todos los correos electrónicos enviados por la MTA.
-* **mutualización** de MTA: la función de archivado de CCO funciona en el nivel MTA. Le permite duplicar todos los correos electrónicos enviados por el MTA. Dado que el MTA se puede mutualizar en varias instancias (dev, test o prod, por ejemplo) o incluso en varios clientes (en un entorno de fuentes intermedias), la configuración de esta función afecta a la seguridad:
+* **mutualización** de MTA: la función de archivado de CCO funciona en el nivel MTA. Permite el duplicado de todos los mensajes de correo electrónico enviados por el MTA. Como el MTA se puede mutualizar en varias instancias (dev, test o prod, por ejemplo) o incluso en varios clientes (en un entorno de intermediaria), la configuración de esta función afecta a la seguridad:
 
    * Si comparte un MTA con varios clientes y uno de ellos tiene activada esta opción, este cliente tendrá acceso a todos los correos electrónicos de los demás clientes que comparten el mismo MTA. Para evitar esta situación, utilice un MTA diferente para cada cliente.
    * Si utiliza el mismo MTA en varias instancias (desarrollo, prueba, prod) para un único cliente, la opción dataLogPath duplicará los mensajes enviados desde las tres instancias.
 
-* **Correos electrónicos por conexión**: El archivo de correo electrónico de CCO funciona al abrir una conexión e intentar enviar todos los correos electrónicos a través de esa conexión. Adobe recomienda comprobar con el contacto técnico interno el número de correos electrónicos aceptados en una conexión determinada. El aumento de este número puede tener un gran impacto en el rendimiento de los CCO.
-* **IPs** de envío de CCO: actualmente, los mensajes de correo electrónico CCO no se envían a través de los proxies MTA normales. En su lugar, se abre una conexión directa desde el servidor MTA al servidor de correo electrónico de destino. Esto significa que es posible que deba incluir en la lista blanca otras direcciones IP adicionales de la red, según la configuración del servidor de correo electrónico.
+* **Correos electrónicos por conexión**: El archivo de correo electrónico de CCO funciona al abrir una conexión e intentar enviar todos los correos electrónicos a través de esa conexión. Adobe recomienda comprobar con el contacto técnico interno el número de correos electrónicos aceptados en una conexión determinada. El aumento de este número puede tener un impacto bueno en el rendimiento de CCO.
+* **IPs** de envío de CCO: actualmente, los mensajes de correo electrónico CCO no se envían a través de los proxies MTA normales. En su lugar, se abre una conexión directa desde el servidor MTA al servidor de correo electrónico de destino. Esto significa que es posible que deba agregar direcciones IP adicionales a la lista de permitidas de la red, según la configuración del servidor de correo electrónico.
 
