@@ -12,11 +12,11 @@ discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a1192bc804e752d13af869da66ba0505c077ed19
-workflow-type: ht
-source-wordcount: '489'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 537cbdec1ec88da1c759f6ca8eafe383c55a61d3
+workflow-type: tm+mt
+source-wordcount: '493'
+ht-degree: 94%
 
 ---
 
@@ -27,7 +27,7 @@ Mantener la reputación de su dominio y dirección IP es esencial al configurar 
 
 * Comenzar a enviar correos electrónicos es un paso importante porque la plataforma no tiene historial de uso ni reputación cuando las direcciones IP de envío nunca se han utilizado para este fin.
 
-* Los ISP sospechan naturalmente de las direcciones IP que nunca se han utilizado para enviar correos electrónicos y que de repente comienzan a enviar grandes volúmenes de tráfico de correo electrónico. De hecho, los remitentes de correo no deseado generalmente utilizan direcciones IP “desconocidas” (direcciones que nunca quedaron en la lista negra) para enviar la mayor cantidad posible de mensajes antes de la detección.
+* Los ISP sospechan naturalmente de las direcciones IP que nunca se han utilizado para enviar correos electrónicos y que de repente comienzan a enviar grandes volúmenes de tráfico de correo electrónico. Indeed, spammers generally use &quot;unknown&quot; IP addresses (addresses that have never been added to a block list) to send the largest possible number of messages before detection.
 
 * No se puede esperar alcanzar la velocidad operativa en términos de salida al inicio de la fase de producción. Además, no debería intentar enviar mensajes a este ritmo, ya que podría llevar a los ISP a bloquear las direcciones de envío y comprometer seriamente el resto de la fase de inicio.
 
