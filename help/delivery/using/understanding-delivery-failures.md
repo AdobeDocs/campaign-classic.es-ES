@@ -14,11 +14,11 @@ discoiquuid: 78b58a7a-b387-4d5d-80d5-01c06f83d759
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
-workflow-type: ht
-source-wordcount: '2434'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9c26ef0b520c6486d86e73cb93612cc7ab9556d0
+workflow-type: tm+mt
+source-wordcount: '2450'
+ht-degree: 95%
 
 ---
 
@@ -35,7 +35,7 @@ Cuando un mensaje (correo electrónico, SMS, notificación inmediata) no se pued
 
 Una vez enviado un mensaje, los “logs” de entrega permiten ver el estado de entrega de cada perfil y el tipo y el motivo de error asociado.
 
-Los mensajes también se pueden excluir durante la preparación de la entrega si una dirección está en cuarentena o si un perfil está en la lista negra. Los mensajes excluidos se muestran en el panel de entrega.
+Los mensajes también se pueden excluir durante la preparación del envío si se pone en cuarentena una dirección o si hay un perfil en la lista de bloques. Los mensajes excluidos se muestran en el panel de entrega.
 
 **Temas relacionados:**
 
@@ -86,10 +86,10 @@ Los posibles motivos de un error de entrega son:
    <td> El índice de calidad de esta dirección es demasiado bajo.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Dirección en una lista negra </td> 
+   <td> Dirección en la lista de bloques </td> 
    <td> Grave </td> 
    <td> 8 </td> 
-   <td> La dirección se incluyó en la lista negra en el momento de la entrega. Este estado se utiliza para importar datos de listas externas y sistemas externos cuando se importan datos a la lista de cuarentena de Adobe Campaign.<br /> </td> 
+   <td> La dirección se agregó a la lista de bloques en el momento del envío. This status is used for importing data from external lists and external systems into the Adobe Campaign Quarantine list.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dirección de control </td> 
@@ -107,7 +107,7 @@ Los posibles motivos de un error de entrega son:
    <td> Error ignorado </td> 
    <td> Ignorado </td> 
    <td> 25 </td> 
-   <td> La dirección no está en la lista negra. Por lo tanto, el error se ignora y se envía un correo electrónico.<br /> </td> 
+   <td> La dirección está en la lista de permitidos. Por lo tanto, el error se ignora y se envía un correo electrónico.<br /> </td> 
   </tr> 
   <tr> 
    <td> Excluido tras la mediación </td> 
@@ -207,7 +207,7 @@ Un mensaje puede fallar inmediatamente (error sincrónico), o más tarde, despu�
    >
    >La configuración del buzón de rechazos se detalla en [esta sección](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
 
-   El bucle de comentarios funciona como los correos electrónicos de rechazo. Cuando un usuario clasifica un correo electrónico como correo no deseado, puede configurar las reglas de correo en Adobe Campaign para bloquear todas las entregas a este usuario. Los mensajes enviados a los usuarios que han clasificado un correo electrónico como no deseado se redireccionan automáticamente a una bandeja de correo creada específicamente para este fin. Las direcciones de estos usuarios se incluyen en la lista negra, aunque no hayan hecho clic en el vínculo de baja. Las direcciones se incluyen en la lista negra en la tabla de cuarentena (**NmsAddress**) en vez de en la tabla de destinatarios (**NmsRecipient**).
+   The [feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop) operates like bounce emails. Cuando un usuario clasifica un correo electrónico como correo no deseado, puede configurar las reglas de correo en Adobe Campaign para bloquear todas las entregas a este usuario. Los mensajes enviados a los usuarios que han clasificado un correo electrónico como no deseado se redireccionan automáticamente a una bandeja de correo creada específicamente para este fin. Las direcciones de estos usuarios están en la lista de bloqueos aunque no hayan hecho clic en el vínculo baja. Las direcciones se encuentran en la lista de bloques de la tabla de cuarentenas (**NmsAddress**) y no en la tabla de destinatarios (**NmsRecipient**).
 
    >[!NOTE]
    >
