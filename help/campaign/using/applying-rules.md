@@ -14,8 +14,11 @@ discoiquuid: a0e76d27-bedd-4f81-b4d2-1221444e670e
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+translation-type: tm+mt
+source-git-commit: 8c1f284be77447a88748ce97a3524b7035bb5bc0
+workflow-type: tm+mt
+source-wordcount: '980'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +31,7 @@ Para aplicar las reglas de tipología creadas, debe asociarlas a una tipología 
 
 1. Cree una tipología de campaña.
 
-   Puede acceder a las tipologías a través del nodo **[!UICONTROL Administración > Gestión de campañas > Gestión de tipologías]** > **[!UICONTROL Tipologías]**.
+   Se puede acceder a las tipologías a través del nodo **[!UICONTROL Administration > Campaign Management > Typology management]** > **[!UICONTROL Typologies]**.
 
 1. Vaya a la pestaña **[!UICONTROL Rules]**, haga clic en el botón **[!UICONTROL Add]** y seleccione las reglas que desea aplicar con esta tipología.
 
@@ -51,7 +54,7 @@ Puede restringir el campo de aplicación de una regla según sus necesidades (ex
 
 Puede configurar las reglas de tipología para que influyan solo sobre algunos envíos a los que están vinculados o ciertos destinatarios a los que va dirigidos una entrega.
 
-Para definir las condiciones de aplicación de una regla, en la pestaña **[!UICONTROL General]**, haga clic en el vínculo **[!UICONTROL Edit the rule application conditions...]**.
+To define the application conditions of a rule, click the **[!UICONTROL Edit the rule application conditions...]** link in the **[!UICONTROL General]** tab.
 
 A continuación, utilice el editor de consultas para definir las condiciones de filtrado. En el siguiente ejemplo, la regla de capacidad respeta solo los envíos con la palabra “oferta” en su etiqueta o los envíos creados antes del 1 de abril de 2013.
 
@@ -71,7 +74,7 @@ Para hacerlo, el campo **[!UICONTROL Frequency]** en la pestaña **[!UICONTROL G
 
 Para guardar los resultados más allá de este periodo, introduzca un valor mayor que 12 en el campo **[!UICONTROL Frequency]**: una vez transcurrido este periodo, todas las reglas se vuelven a aplicar.
 
-La opción **[!UICONTROL Re-apply the rule at the start of personalization]** permite aplicar la regla automáticamente durante la fase de personalización, incluso si el periodo indicado en el campo **[!UICONTROL Frequency]** aún es válido.
+The **[!UICONTROL Re-apply the rule at the start of personalization]** option lets you apply the rule automatically during the personalization phase, including if the period stated in the **[!UICONTROL Frequency]** field is still valid.
 
 ## Selección de la fase de la aplicación de regla {#selecting-the-rule-application-phase}
 
@@ -84,7 +87,7 @@ En el modo de operación estándar, las reglas se aplican en la siguiente secuen
 1. Reglas de control, si se aplican al principio del objetivo.
 1. Reglas de filtrado:
 
-   * Reglas de aplicación nativas para la revisión de direcciones: dirección definida/dirección no verificada/dirección en lista negra/dirección en cuarentena/calidad de la dirección.
+   * Reglas de aplicación nativas para la calificación de direcciones: dirección definida / dirección no verificada / dirección en la lista de bloques / dirección en cuarentena / calidad de dirección.
    * Reglas de filtrado definidas por el usuario.
    * Deduplicación sobre la dirección o el identificador (se aplica si es necesario).
 
@@ -104,7 +107,7 @@ Por ejemplo, una regla de presión con un orden de ejecución de 20 se ejecuta a
 
 ### Reglas de control {#control-rules}
 
-En el caso de las reglas de **[!UICONTROL Control]**, puede decidir en qué punto del ciclo de vida de la entrega se aplica la regla (antes o después del objetivo, al comienzo de la personalización, al final del análisis). En la pestaña **[!UICONTROL General]** de la regla de tipología, seleccione el valor que se deba aplicar en la lista desplegable del campo **[!UICONTROL Phase]**.
+En el caso de las reglas de **[!UICONTROL Control]**, puede decidir en qué punto del ciclo de vida de la entrega se aplica la regla (antes o después del objetivo, al comienzo de la personalización, al final del análisis). En la pestaña **[!UICONTROL Phase]** de la regla de tipología, seleccione el valor que se deba aplicar en la lista desplegable del campo **[!UICONTROL General]**.
 
 ![](assets/campaign_opt_define_control_phase.png)
 
@@ -132,7 +135,7 @@ Los valores posibles son:
 
 ### Control del tráfico SMTP saliente {#control-outgoing-smtp-traffic}
 
-Como opción, puede utilizar el campo **[!UICONTROL Managing affinities with IP addresses]** para relacionar envíos al servidor de entrega (MTA) con esta afinidad. Esto permite limitar el número de correos electrónicos para envíos específicos hacia equipos o direcciones de salida.
+As an option, you can use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the delivery server (MTA) this affinity. Esto permite limitar el número de correos electrónicos para envíos específicos hacia equipos o direcciones de salida.
 
 ![](assets/campaign_opt_select_ip_affinity.png)
 
