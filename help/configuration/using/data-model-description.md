@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
+source-git-commit: c51a51f175e9f3fe5a55f2b5f57872057f70909d
 workflow-type: tm+mt
 source-wordcount: '2375'
 ht-degree: 1%
@@ -55,7 +55,7 @@ Es la tabla predeterminada que se utiliza para los **destinatarios de envíos**.
 * iEmailFormat: formato preferido para correos electrónicos (1 para Texto, 2 para HTML y 0 si no está definido).
 * sAddress1, sAddress2, sAddress3, sAddress4, sZipCode y sCity se utilizan para generar la dirección postal (de acuerdo con el estándar AFNOR XPZ 10-011 de mayo de 1997).
 * sPhone, sMobilePhone, sFax contienen los números de teléfono, teléfono móvil y fax respectivamente.
-* iBlackList es el indicador de exclusión predeterminado que se utiliza para los perfiles (1 significa &quot;no suscrito&quot;, 0 en caso contrario).
+* iBlockList es el indicador de exclusión predeterminado que se utiliza para los perfiles (1 significa &quot;sin suscripción&quot;, 0 en caso contrario).
 
 El campo iFolderId es la clave externa que vincula el destinatario a su carpeta de ejecución. For more on this, see [XtkFolder](#XtkFolder).
 
@@ -113,7 +113,7 @@ El árbol se administra mediante los campos iParentId e iChildCount. El campo sF
 
 ## Envío y seguimiento {#delivery-and-tracking}
 
-Este conjunto de tablas está vinculado al módulo de **Envío** , que permite controlar los envíos y los posibles problemas que se produzcan al enviar mensajes. Para obtener más información sobre esto, consulte [Monitoreo de envíos](../../delivery/using/monitoring-a-delivery.md). Para obtener más información sobre el seguimiento, consulte [Seguimiento de mensajes](../../delivery/using/about-message-tracking.md).
+Este conjunto de tablas está vinculado al módulo de **Envío** , que permite controlar los envíos y los posibles problemas que se produzcan al enviar mensajes. For more on this, see [Monitoring deliveries](../../delivery/using/monitoring-a-delivery.md). Para obtener más información sobre el seguimiento, consulte [Seguimiento de mensajes](../../delivery/using/about-message-tracking.md).
 
 ![](assets/data-model_delivery.png)
 
