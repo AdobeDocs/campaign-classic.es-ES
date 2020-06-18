@@ -14,8 +14,11 @@ discoiquuid: acab51f3-686b-4d2b-bb02-8fbfae36b1ba
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+translation-type: tm+mt
+source-git-commit: ffee73b949a77343eaf23d0fb9a58a4283f4f87a
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 100%
 
 ---
 
@@ -47,8 +50,6 @@ En el ejemplo siguiente, se busca compilar una lista de destinatarios que tengan
 1. Ejecución de un flujo de trabajo. En este ejemplo, el resultado está compuesto por destinatarios de entre 18 y 30 años, pero los que viven en París se excluyen y envían al complemento.
 
    ![](assets/exclusion_example.png)
-
-El ejemplo de importación de lista negra utiliza una actividad de tipo **Exclusion** que se puede encontrar en [Read list](../../workflow/using/read-list.md).
 
 ## Parámetros de entrada {#input-parameters}
 
