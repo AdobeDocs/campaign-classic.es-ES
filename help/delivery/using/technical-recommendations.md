@@ -12,11 +12,11 @@ discoiquuid: fc95538b-b54d-44ec-81aa-f51b62982699
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
-workflow-type: ht
-source-wordcount: '2432'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 537cbdec1ec88da1c759f6ca8eafe383c55a61d3
+workflow-type: tm+mt
+source-wordcount: '2436'
+ht-degree: 94%
 
 ---
 
@@ -138,7 +138,7 @@ Recommendations for defining an SPF record:
 
 ## Bucle de comentarios {#feedback-loop}
 
-Un bucle de comentarios funciona declarando al nivel del ISP una dirección de correo electrónico determinada para un rango de direcciones IP utilizadas para enviar mensajes. El ISP se envía a este buzón de correo, de manera similar a lo que se hace para los mensajes rechazados, aquellos mensajes cuyos destinatarios notifiquen como correo no deseado. La plataforma debe configurarse para bloquear futuros entregas a los usuarios que envíen quejas. Es importante no volver a ponerse en contacto con ellos aunque no hayan utilizado el vínculo de exclusión adecuado. Estas quejas son el motivo principal por el que un ISP añade una dirección IP a una lista negra. En función del ISP, una tasa de quejas de alrededor del 1 % resulta en la inclusión de una dirección IP en una lista negra.
+Un bucle de comentarios funciona declarando al nivel del ISP una dirección de correo electrónico determinada para un rango de direcciones IP utilizadas para enviar mensajes. El ISP se envía a este buzón de correo, de manera similar a lo que se hace para los mensajes rechazados, aquellos mensajes cuyos destinatarios notifiquen como correo no deseado. La plataforma debe configurarse para bloquear futuros entregas a los usuarios que envíen quejas. Es importante no volver a ponerse en contacto con ellos aunque no hayan utilizado el vínculo de exclusión adecuado. Es sobre la base de estas quejas que un ISP agregará una dirección IP a su lista de bloqueo. Según el ISP, una tasa de quejas de alrededor del 1% resultará en el bloqueo de una dirección IP.
 
 Actualmente se está elaborando un estándar para definir el formato de los mensajes de bucle de comentarios: el [Abuse Feedback Reporting Format (ARF)](https://tools.ietf.org/html/rfc6650).
 
@@ -254,11 +254,11 @@ Adobe proporciona una estrategia IP dedicada para cada cliente con una IP de aum
 
 ## Certificación de IP {#ip-certification}
 
-La certificación de IP es un programa de prácticas de entrega y de listas de direcciones permitidas que ayuda a garantizar que los correos electrónicos se reciban sin ser bloqueados por filtros antispam u otros sistemas de bloqueo de correo electrónico.
+La certificación de IP es un programa de envío de optimizaciones que ayuda a garantizar que los mensajes de correo electrónico se reciban sin ser bloqueados por filtros antispam u otros sistemas de bloqueo de correo electrónico.
 
 Actualmente dos proveedores ofrecen certificación IP: Return Path y Certified Senders Alliance.
 
-Los remitentes certificados se añaden a las listas blancas de correo electrónico que utilizan los proveedores de buzones de correo globales y las empresas de seguridad de correo electrónico. Las listas blancas comerciales se basan en un sistema que permite al remitente saltarse los filtros de correo no deseado o recibir puntos graduales al entrar en el sistema.
+Los remitentes certificados se agregan a las listas de correo electrónico permitidas que utilizan los proveedores de buzones de correo globales y las compañías de seguridad de correo electrónico. Estas listas de permisos comerciales se basan en un sistema que permite al remitente eludir por completo los filtros antispam o se le asignan puntos incrementales a medida que ingresa al sistema.
 
 El programa [Return Path Certification](https://www.validity.com/products/returnpath/certification/) ofrece una serie de ventajas, entre las que se incluyen las siguientes:
 
@@ -275,6 +275,6 @@ La certificación [Certified Senders Alliance](https://certified-senders.org/cer
 * Protección contra los riesgos jurídicos y financieros cumpliendo plenamente las normas jurídicas.
 * Protección de la reputación mediante advertencias tempranas de la Oficina de Quejas de la CSA e informes diarios de trampas de correos no deseados.
 
-Los ISP son libres de utilizar estos servicios y el número de ISP puede variar según la lista blanca.
+Los ISP son libres de utilizar estos servicios y el número de ISP puede variar según la lista de permitidos.
 
 Sin embargo, debido a que cada vez más ISP crean sus filtros antispam en función del comportamiento de cada propietario de la bandeja de entrada en lugar de analizar el contenido del mensaje en sí, el uso de la certificación IP no puede ser una garantía de colocación en la bandeja de entrada o incluso de entrega.
