@@ -14,8 +14,11 @@ discoiquuid: 64d87bea-2376-4684-ac93-6ca56fe0f262
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+translation-type: tm+mt
+source-git-commit: 54cb4143fc534aa436c4b8b28e031e87a2a02e40
+workflow-type: tm+mt
+source-wordcount: '1996'
+ht-degree: 95%
 
 ---
 
@@ -74,9 +77,9 @@ La duplicación de datos de destinatarios, suscripciones, servicios y páginas d
 
 El conector ACS duplica los siguientes elementos de manera regular de Campaign Standard a Campaign v7:
 
-* **[!UICONTROL ID de entrega]**
-* **[!UICONTROL Registros generales de correo electrónico]**
-* **[!UICONTROL Registros de seguimiento de correo electrónico]**
+* **[!UICONTROL Delivery IDs]**
+* **[!UICONTROL Email broad logs]**
+* **[!UICONTROL Email tracking logs]**
 
 La duplicación de ID de entregas y “logs” de correo electrónico permite acceder al historial de entregas y realizar un seguimiento de los datos de los destinatarios de v7 desde Campaign v7.
 
@@ -135,7 +138,7 @@ Todos los elementos técnicos relacionados con ACS Connector están disponibles 
 
 ### Flujos de trabajo técnicos y de duplicación {#technical-and-replication-workflows}
 
-Después de la instalación del paquete hay dos flujos de trabajo técnicos disponibles en **[!UICONTROL Administration > ACS Connector > Process]**.
+After the installation of the package, two technical workflows are available under **[!UICONTROL Administration > ACS Connector > Process]**.
 
 >[!CAUTION]
 >
@@ -216,15 +219,15 @@ A continuación puede consultar la lista de campos de destinatario que se duplic
   </tr> 
   <tr> 
    <td> Ya no se puede contactar (por ningún canal)<br /> </td> 
-   <td> @blackList<br /> </td> 
+   <td> @blockList<br /> </td> 
   </tr> 
   <tr> 
    <td> Ya no se puede contactar por correo electrónico<br /> </td> 
-   <td> @blackListEmail<br /> </td> 
+   <td> @blockListEmail<br /> </td> 
   </tr> 
   <tr> 
    <td> Ya no se puede contactar por SMS<br /> </td> 
-   <td> @blackListMobile<br /> </td> 
+   <td> @blockListMobile<br /> </td> 
   </tr> 
   <tr> 
    <td> Teléfono<br /> </td> 
@@ -273,11 +276,11 @@ A continuación puede consultar la lista de campos de destinatario que se duplic
 
 Los derechos se administran de manera diferente en Campaign v7 y en Campaign Standard. En Campaign v7, la administración de derechos se basa en carpetas, mientras que en Campaign Standard se basa en el acceso a la unidad (unidades organizativas/geográficas). Un usuario de Campaign Standard pertenece al grupo de seguridad que contiene el contexto de restricción. Por lo tanto, el sistema de derechos de Campaign v7 debe convertirse para que coincida con el de Campaign Standard. Existen varias maneras de realizar la conversión de los derechos. A continuación, se muestra un ejemplo de implementación.
 
-1. En **[!UICONTROL Administration > ACS Connector > Rights management > Security groups]**, utilice el botón **[!UICONTROL Synchronize]** para recuperar todos los grupos de seguridad de Campaign Standard. Se excluyen los grupos predeterminados de Campaign Standard.
+1. Under **[!UICONTROL Administration > ACS Connector > Rights management > Security groups]**, use the **[!UICONTROL Synchronize]** button to retrieve all the Campaign Standard security groups. Se excluyen los grupos predeterminados de Campaign Standard.
 
    ![](assets/acs_connect_implementation_4.png)
 
-1. Si la administración de derechos se basa en carpetas, vaya a **[!UICONTROL Administration > ACS Connector > Rights management > Folder mapping]** y asigne cada carpeta necesaria con un grupo de seguridad.
+1. If your rights management is folder-base, go to **[!UICONTROL Administration > ACS Connector > Rights management > Folder mapping]** and map each needed folder with a security group.
 
    ![](assets/acs_connect_implementation_5.png)
 
@@ -304,7 +307,7 @@ La implementación avanzada añade flujos de trabajo de duplicación personaliza
 
 Con la implementación básica, se replican los campos de destinatarios predeterminados. Debe identificar los campos personalizados que añadió al esquema de destinatarios si desea replicarlos.
 
-1. En **[!UICONTROL Administration > ACS Connector > Data mapping]**, cree una asignación objetivo en la tabla **[!UICONTROL nms:recipient]**.
+1. Under **[!UICONTROL Administration > ACS Connector > Data mapping]**, create a targeting mapping on the **[!UICONTROL nms:recipient]** table.
 
    ![](assets/acs_connect_implementation_6.png)
 
@@ -312,7 +315,7 @@ Con la implementación básica, se replican los campos de destinatarios predeter
 
    ![](assets/acs_connect_implementation_7.png)
 
-1. Abra el flujo de trabajo de duplicación de perfiles específico (no la plantilla, sino la propia instancia del flujo de trabajo). Modifique las actividades **[!UICONTROL Query]** y **[!UICONTROL Update data]** para incluir estos campos. Consulte [Flujos de trabajo técnicos y de duplicación](#technical-and-replication-workflows).
+1. Abra el flujo de trabajo de duplicación de perfiles específico (no la plantilla, sino la propia instancia del flujo de trabajo). Modify the **[!UICONTROL Query]** and **[!UICONTROL Update data]** activities to include these fields. Consulte [Flujos de trabajo técnicos y de duplicación](#technical-and-replication-workflows).
 
    ![](assets/acs_connect_implementation_8.png)
 
@@ -322,7 +325,7 @@ Con la implementación básica, se replican los campos de destinatarios predeter
 
 Con la implementación básica, se duplica la tabla de destinatarios ya existente. Si ha añadido tablas de destinatarios personalizadas, así es como las identifica.
 
-1. En **[!UICONTROL Administration > ACS Connector > Data mapping]**, cree una asignación objetivo en la tabla de perfil personalizada.
+1. Under **[!UICONTROL Administration > ACS Connector > Data mapping]**, create a targeting mapping on your custom profile table.
 
    ![](assets/acs_connect_implementation_10.png)
 
@@ -330,6 +333,6 @@ Con la implementación básica, se duplica la tabla de destinatarios ya existent
 
    ![](assets/acs_connect_implementation_10.png)
 
-1. Si la administración de derechos se basa en carpetas, vaya a **[!UICONTROL Administration > ACS Connector > Rights management > Folder mapping]** y defina un grupo de seguridad para las carpetas asociadas a las tablas personalizadas. Consulte [Conversión de derechos](#rights-conversion).
+1. If your rights management is folder-based, go to **[!UICONTROL Administration > ACS Connector > Rights management > Folder mapping]**, and define a security group for the folders linked to your custom tables. Consulte [Conversión de derechos](#rights-conversion).
 1. Utilice el flujo de trabajo **[!UICONTROL New replication]** (no la plantilla, sino la propia instancia del flujo de trabajo) para incluir la tabla personalizada y los campos que desea duplicar. Consulte [Flujos de trabajo técnicos y de duplicación](#technical-and-replication-workflows).
 
