@@ -14,8 +14,11 @@ discoiquuid: cfa22577-0b9e-4eee-900d-214b81256d81
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
+translation-type: tm+mt
+source-git-commit: 9188a68ca2ffcd9cf9e82b475aa2a0dd5807561b
+workflow-type: tm+mt
+source-wordcount: '972'
+ht-degree: 88%
 
 ---
 
@@ -45,19 +48,19 @@ Este ejemplo se basa en el siguiente supuesto:
 
 Los mensajes de confirmación se envían a través de una plantilla de envío dedicada a nivel de servicio temporal.
 
-1. En **[!UICONTROL Explorer]**, seleccione **[!UICONTROL Resources > Templates > Delivery templates]**.
+1. In the **[!UICONTROL Explorer]** , select **[!UICONTROL Resources > Templates > Delivery templates]**.
 1. Cree una plantilla de envío para enviar los mensajes de confirmación de suscripción.
-1. En **[!UICONTROL Email parameters]**, haga clic en el botón **[!UICONTROL To]** para asociar la plantilla de envío con la asignación de destino de suscripciones en lugar de con los destinatarios.
+1. En **[!UICONTROL To]**, haga clic en el botón **[!UICONTROL Email parameters]** para asociar la plantilla de envío con la asignación de destino de suscripciones en lugar de con los destinatarios.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
 
-1. Debido a que los destinatarios de este envío no han confirmado su aprobación, aún se encuentran en la lista negra de la base de datos. Para que reciban esta comunicación, debe dar a las entregas basados en esta plantilla la autorización para dirigirse a los destinatarios en lista negra.
+1. Como los destinatarios de este envío no han confirmado su aprobación, siguen en la lista de bloques de la base de datos. Para que reciban esta comunicación, debe autorizar envíos basados en esta plantilla a destinatarios de destinatario que estén en la lista de bloques.
 
    Para ello, haga clic en la pestaña **[!UICONTROL Exclusions]**.
 
-1. Haga clic en el vínculo **[!UICONTROL Edit...]** y desmarque la opción **[!UICONTROL Exclude recipients who no longer want to be contacted (blacklist)]**.
+1. Haga clic en el **[!UICONTROL Edit...]** vínculo y desmarque la **[!UICONTROL Exclude recipients who no longer want to be contacted (blocklist)]** opción.
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)
+   <!-- ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)-->
 
    >[!CAUTION]
    >
@@ -85,7 +88,7 @@ El flujo de trabajo del formulario web incluye las siguientes actividades:
 
 Para realizar esto, siga los pasos a continuación:
 
-1. Cree un formulario web y seleccione la plantilla **[!UICONTROL Newsletter subscription (subNewsletter)]**.
+1. Create a Web form and choose the template **[!UICONTROL Newsletter subscription (subNewsletter)]**.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_5a.png)
 
@@ -109,10 +112,10 @@ Para realizar esto, siga los pasos a continuación:
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
 
-   La primera actividad **[!UICONTROL Script]** coloca en lista negra a los destinatarios hasta que confirmen su suscripción al boletín informativo. El contenido debe ser el siguiente:
+   La primera **[!UICONTROL Script]** actividad agregará destinatarios a la lista de bloques hasta que confirmen su suscripción a la newsletter. El contenido debe ser el siguiente:
 
    ```
-   ctx.recipient.@blackList=1
+   ctx.recipient.@blockList=1
    ```
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6bbis.png)
@@ -120,7 +123,7 @@ Para realizar esto, siga los pasos a continuación:
    La segunda actividad **[!UICONTROL Script]** autoriza las entregas a los usuarios y los suscribe al boletín informativo. Las dos últimas líneas de la secuencia de comandos permiten transferir los destinatarios de la carpeta temporal a otra carpeta y reconciliarlos con perfiles existentes justo tras confirmar la suscripción.
 
    ```
-   ctx.recipient.@blackList=0
+   ctx.recipient.@blockList=0
    nms.subscription.Subscribe("INTERNAL_NAME_OF_THE_NEWSLETTER", ctx.recipient, false)
    ctx.recipient.folder = <folder name="nmsRootRecipient"/>
    nms.subscription.Unsubscribe("TEMP", ctx.recipient)
@@ -172,7 +175,7 @@ La suscripción al boletín informativo implica los pasos siguientes:
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8d.png)
 
-   El usuario se añade a la base de datos de Adobe Campaign en la carpeta **[!UICONTROL Temp]** y su perfil se añade a la lista negra hasta que confirme su suscripción con el correo electrónico.
+   The user is added to the Adobe Campaign database in the **[!UICONTROL Temp]** folder, and their profile is added to the block list until they confirm their subscription with the email.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8f.png)
 
@@ -186,7 +189,7 @@ La suscripción al boletín informativo implica los pasos siguientes:
 
    En Adobe Campaign se actualiza el perfil de usuario:
 
-   * ya no se encuentran en la lista negra,
+   * ya no están en la lista de bloques,
    * están suscritos al servicio de información.
 
       ![](assets/s_ncs_admin_survey_double-opt-in_sample_9.png)
