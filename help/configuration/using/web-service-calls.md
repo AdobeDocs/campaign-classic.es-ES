@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a527f246c4b0bf84c2a83e8df74b7a92542fda7a
+source-git-commit: c51a51f175e9f3fe5a55f2b5f57872057f70909d
+workflow-type: tm+mt
+source-wordcount: '954'
+ht-degree: 1%
 
 ---
 
@@ -28,13 +31,13 @@ Todos los métodos de API se presentan en forma de servicios Web. Esto le permit
 
 Los servicios Web permiten crear muchas aplicaciones a partir de un sistema de terceros:
 
-* Alertas sincrónicas, notificación y ejecución de plantillas de entrega en tiempo real desde un back-office o sistema de transacciones,
+* Alertas sincrónicas, notificaciones y ejecución de Plantillas de envíos en tiempo real desde un back-office o sistema de transacciones,
 * Desarrollo de interfaces especiales con funcionalidad simplificada (interfaces Web, etc.),
 * Alimentación y búsqueda de datos en la base de datos mientras se observan las reglas comerciales y se mantienen aisladas del modelo físico subyacente.
 
 ## Definición de servicios Web {#definition-of-web-services}
 
-La definición de los servicios Web implementados en el servidor de aplicaciones de Adobe Campaign está disponible en los esquemas de datos.
+La definición de los servicios Web implementados en el servidor de aplicaciones Adobe Campaign está disponible en los esquemas de datos.
 
 Un servicio Web se describe en la gramática de los esquemas de datos y está disponible en el **`<methods>`** elemento .
 
@@ -53,15 +56,15 @@ Un servicio Web se describe en la gramática de los esquemas de datos y está di
 
 Aquí tenemos un ejemplo de la definición del método llamado **GenerateForm**.
 
-La descripción del servicio comienza con el `<method>` elemento . La lista de parámetros del método se completa desde el `<parameters>` elemento . Cada parámetro se especifica con un nombre, un tipo (booleano, cadena, DOMElement, etc.) y una descripción. El atributo &quot;inout&quot; con el valor &quot;out&quot; permite especificar que el parámetro &quot;result&quot; se encuentra en la salida de llamada SOAP.
+Descripción de los inicios de servicio con el `<method>` elemento . La lista de parámetros del método se completa desde el `<parameters>` elemento . Cada parámetro se especifica con un nombre, un tipo (booleano, cadena, DOMElement, etc.) y una descripción. El atributo &quot;inout&quot; con el valor &quot;out&quot; permite especificar que el parámetro &quot;result&quot; se encuentra en la salida de llamada SOAP.
 
 La presencia del atributo &quot;static&quot; (con el valor &quot;true&quot;) describe este método como estático, lo que significa que se deben declarar todos los parámetros del método.
 
-Un método &quot;const&quot; tiene implícitamente como entrada un documento XML en el formato de su esquema asociado.
+Un método &quot;const&quot; tiene implícitamente un documento XML en el formato de su esquema asociado como entrada.
 
-Hay una descripción completa del `<method>` elemento de un esquema de Adobe Campaign disponible en el capítulo &quot;Referencias de esquema&quot; en <a href="../../configuration/using/elements-and-attributes.md#method--element" target="_blank">  `<method>` elemento.
+En el capítulo &quot;Referencias de Esquema&quot; del capítulo relativo a las `<method>` referencias de un esquema de Adobe Campaign se ofrece una descripción completa del elemento de dicho   <a href="../../configuration/using/elements-and-attributes.md#method--element" target="_blank">  `<method>`    Elemento.
 
-Ejemplo del método &quot;const&quot;-type &quot;ExecuteQuery&quot; del esquema &quot;xtk:queryDef&quot;:
+Ejemplo del método &quot;const&quot;-type &quot;ExecuteQuery&quot; desde el esquema &quot;xtk:queryDef&quot;:
 
 ```
 <method name="ExecuteQuery" const="true">
@@ -82,12 +85,12 @@ Hay disponible un archivo WSDL (biblioteca de descripción de servicios Web) par
 
 Para generar un archivo WSDL, debe introducir la siguiente URL desde un explorador Web:
 
-[https://`<server>`/nl/jsp/schemawsdl.jsp?schema=`<schema>`
+[https://`<server>`/nl/jsp/schemawsdl.jsp?esquema=`<schema>`
 
 Con:
 
-* **`<server>`**:: el servidor de aplicaciones de Adobe Campaign (nlserver web)
-* **`<schema>`**:: clave de identificación de esquema (espacio de nombres:nombre_esquema)
+* **`<server>`**:: el servidor de aplicaciones Adobe Campaign (nlserver web)
+* **`<schema>`**:: Clave de identificación de esquema (Área de nombres:nombre_esquema)
 
 ### Ejemplo del método &#39;ExecuteQuery&#39; del esquema &#39;xtk:queryDef&#39; {#example-on-the--executequery--method-of-schema--xtk-querydef-}
 
@@ -95,7 +98,7 @@ El archivo WSDL se genera a partir de la dirección URL:
 
 [https://localhost/nl/jsp/schemawsdl.jsp?schema=xtk:queryDef](https://my_serveur/nl/jsp/schemawsdl.jsp?schema=xtk:queryDef)
 
-Una descripción de WSDL comienza por definir los tipos utilizados para los mensajes de formulario, asociados en &quot;puertos&quot;, conectados a un protocolo mediante &quot;enlaces&quot; que forman servicios Web.
+Una descripción WSDL inicio definiendo los tipos utilizados para los mensajes de formulario, asociados en &quot;puertos&quot;, conectados a un protocolo mediante &quot;enlaces&quot; que forman servicios Web.
 
 #### Tipos {#types}
 
@@ -133,7 +136,7 @@ Las definiciones de tipo se basan en esquemas XML. En nuestro ejemplo, el métod
   </s:element>
 ```
 
-#### Messages {#messages}
+#### Mensajes {#messages}
 
 La `<message>` describe los nombres y tipos de un conjunto de campos que se van a enviar. El método utiliza dos mensajes para pasar como parámetro (&quot;ExecuteQueryIn&quot;) y el valor devuelto (&quot;ExecuteQueryOut&quot;).
 
@@ -201,7 +204,7 @@ Existen dos modos de autenticación disponibles:
 
 o
 
-* **mediante el inicio de sesión de Adobe Campaign + contraseña** que crea un token de sesión. El token de sesión caduca automáticamente después de un período establecido. Este modo no se recomienda y requiere reducir la configuración de seguridad de la aplicación para algunos ajustes de zona (allowUserPassword=&quot;true&quot; y sessionTokenOnly=&quot;true&quot;).
+* **mediante el inicio de sesión del Adobe Campaign + contraseña** que crea un token de sesión. El token de sesión caduca automáticamente después de un período establecido. Este modo no se recomienda y requiere reducir la configuración de seguridad de la aplicación para algunos ajustes de zona (allowUserPassword=&quot;true&quot; y sessionTokenOnly=&quot;true&quot;).
 
 ### Características del token de sesión {#session-token-characteristics}
 
@@ -281,7 +284,7 @@ Desde una llamada SOAP:
 
 >[!NOTE]
 >
->Las direcciones URL utilizadas en las siguientes llamadas **HttpServletRequest** deben incluirse en la lista blanca de la sección de permisos de URL del archivo **serverConf.xml** . Esto también se aplica a la dirección URL del propio servidor.
+>Las direcciones URL utilizadas en las siguientes llamadas **HttpServletRequest** deben estar en la lista permitida en la sección de permisos de URL del archivo **serverConf.xml** . Esto también se aplica a la dirección URL del propio servidor.
 
 Inicio de sesión, ejecución():
 
@@ -309,7 +312,7 @@ var sessionToken = String(xmlRes..*::pstrSessionToken);;
 var securityToken = String(xmlRes..*::pstrSecurityToken);
 ```
 
-Ejecución de la consulta:
+Ejecución de Consulta:
 
 ```
 var req2 = new HttpClientRequest("https://serverURL/nl/jsp/soaprouter.jsp");
