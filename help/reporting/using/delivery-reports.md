@@ -14,8 +14,11 @@ discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b74ea9a6b079bbe88ed17a79e532bd8ce6ce13ae
+translation-type: tm+mt
+source-git-commit: 5ebea30c743ab416ede879c74735e2c7870d3db9
+workflow-type: tm+mt
+source-wordcount: '1456'
+ht-degree: 98%
 
 ---
 
@@ -164,7 +167,7 @@ Este informe proporciona toda la información principal sobre la entrega.
 Esta sección tiene dos indicadores:
 
 * **[!UICONTROL Initial population]** : Número total de destinatarios a quienes se realizó la entrega.
-* **[!UICONTROL Messages rejected by the rule]** : Número de direcciones omitidas durante el análisis al aplicar reglas de tipología: direcciones faltantes, en cuarentena, en lista negra, etc. Para obtener más información sobre las reglas de tipología, consulte esta [página](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
+* **[!UICONTROL Messages rejected by the rule]** :: Número de direcciones ignoradas durante la análisis al aplicar reglas de tipología: dirección que falta, puesta en cuarentena, agregada a la lista de bloques, etc. Para obtener más información sobre reglas de tipología, consulte esta [página](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
 
 **[!UICONTROL Causes of exclusion]**
 
