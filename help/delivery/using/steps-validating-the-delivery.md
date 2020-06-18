@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5b0bcdfca1767aab5c54f06a5af5fb9097d2ec6f
+source-git-commit: 8c1f284be77447a88748ce97a3524b7035bb5bc0
 workflow-type: tm+mt
-source-wordcount: '1671'
-ht-degree: 70%
+source-wordcount: '1676'
+ht-degree: 69%
 
 ---
 
@@ -31,7 +31,7 @@ Para ello:
 
 1. **Analice la entrega**: este paso permite preparar los mensajes que se van a enviar. Consulte [Análisis de la entrega](#analyzing-the-delivery).
 
-   Las reglas aplicadas durante la análisis se presentan en la sección [Validación con tipologías](#validation-process-with-typologies) . The available validation modes are detailed in the [Changing the approval mode](#changing-the-approval-mode) section.
+   The rules applied during analysis are presented in the [Validation process with typologies](#validation-process-with-typologies) section. The available validation modes are detailed in the [Changing the approval mode](#changing-the-approval-mode) section.
 
 1. **Envíe pruebas**: este paso permite aprobar contenido, direcciones URL, campos personalizados, etc. Consulte [Envío de una prueba](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) y [Definición de un destino de prueba específico](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
@@ -50,7 +50,7 @@ El análisis es la fase durante la cual se calcula la población objetivo y se p
 
    ![](assets/s_ncs_user_email_del_send.png)
 
-1. Haga clic en **[!UICONTROL Analyze]** para iniciar la análisis manualmente.
+1. Click **[!UICONTROL Analyze]** to launch the analysis manually.
 
    La barra de progreso muestra el progreso del análisis.
 
@@ -58,7 +58,7 @@ El análisis es la fase durante la cual se calcula la población objetivo y se p
 
    >[!NOTE]
    >
-   >Las reglas de validación utilizadas durante la análisis se describen en la sección Proceso de [validación con tipologías](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies) .
+   >The validation rules used during analysis are described in the [Validation process with typologies](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies) section.
 
 1. You can stop the analysis at any time by clicking **[!UICONTROL Stop]**.
 
@@ -68,13 +68,13 @@ El análisis es la fase durante la cual se calcula la población objetivo y se p
 
    >[!IMPORTANT]
    >
-   >When running, the analysis freezes the delivery (or proof). Cualquier cambio en el envío (o prueba) debe ir seguido de otra análisis antes de ser aplicable.
+   >Al ejecutarse, la análisis congela el envío (o prueba). Cualquier cambio en el envío (o prueba) debe ir seguido de otra análisis antes de ser aplicable.
 
 1. Espere hasta que se complete la análisis.
 
    Cuando termina la análisis, la sección superior de la ventana indica si la preparación del envío ha finalizado o si se ha producido algún error. Se muestran todos los pasos, advertencias y errores de validación. Los iconos de color muestran el tipo de mensaje:
    * El icono azul indica un mensaje informativo.
-   * The yellow icon indicates a non-critical processing error.
+   * El icono amarillo indica un error de procesamiento no crítico.
    * El icono rojo indica un error crítico que impide enviar el envío.
    ![](assets/s_ncs_user_email_del_analyze_error.png)
 
@@ -82,7 +82,7 @@ El análisis es la fase durante la cual se calcula la población objetivo y se p
 
 1. Después de realizar los cambios, reinicie la análisis haciendo clic en **[!UICONTROL Analyze]**.
 
-Después de comprobar el resultado de la análisis, podrá hacer clic **[!UICONTROL Confirm delivery]** para enviar el mensaje al destinatario especificado. Un mensaje de confirmación permite iniciar la entrega.
+After checking the result of the analysis, you will be able to click **[!UICONTROL Confirm delivery]** to send the message to the specified target. Un mensaje de confirmación permite iniciar la entrega.
 
 ![](assets/s_ncs_user_email_del_analyze_ok.png)
 
@@ -90,7 +90,7 @@ Después de comprobar el resultado de la análisis, podrá hacer clic **[!UICONT
 >
 >Haga clic en el vínculo **[!UICONTROL Change the main delivery target]** si el número de mensajes que va a enviar no coincide con la configuración. Esto permite cambiar la definición de la población objetivo y reiniciar el análisis.
 
-### Parámetros de Análisis {#analysis-parameters}
+### Analysis parameters {#analysis-parameters}
 
 The **[!UICONTROL Analysis]** tab of the delivery properties lets you define a set of information concerning the preparation of messages during the analysis phase.
 
@@ -99,8 +99,8 @@ The **[!UICONTROL Analysis]** tab of the delivery properties lets you define a s
 Esta pestaña proporciona acceso a las siguientes opciones:
 
 * **[!UICONTROL Label and code of the delivery]** :: las opciones de esta sección se utilizan para calcular los valores de estos campos durante la fase de análisis de envío. El campo **[!UICONTROL Compute the execution folder during the delivery analysis]** calcula el nombre de la carpeta que debe contener esta acción de entrega durante la fase de análisis.
-* **[!UICONTROL Approval mode]** :: este campo permite definir el envío manual o automático una vez finalizada la análisis. Los modos de validación se presentan en la sección [Cambio del modo](#changing-the-approval-mode) de aprobación.
-* **[!UICONTROL Prepare the delivery parts in the database]** :: esta opción le permite mejorar el rendimiento de la análisis de envío. Para obtener más información, consulte [esta sección](#improving-delivery-analysis).
+* **[!UICONTROL Approval mode]** :: este campo permite definir el envío manual o automático una vez finalizada la análisis. The validation modes are presented in the [Changing the approval mode](#changing-the-approval-mode) section.
+* **[!UICONTROL Prepare the delivery parts in the database]** : this option enables you to improve the delivery analysis performance. Para obtener más información, consulte [esta sección](#improving-delivery-analysis).
 * **[!UICONTROL Prepare the personalization data with a workflow]** :: esta opción le permite preparar los datos de personalización contenidos en su envío en un flujo de trabajo automático, lo que le permite obtener un aumento significativo del rendimiento para la ejecución de la personalización. Para obtener más información sobre esto, consulte [Optimización de la personalización](../../delivery/using/personalization-fields.md#optimizing-personalization).
 * **[!UICONTROL Start job in a detached process]** :: esta opción permite el inicio de la análisis de envío en un proceso independiente. La función de análisis utiliza el proceso del servidor de aplicaciones de Adobe Campaign (web nlserver) de forma predeterminada. Al seleccionar esta opción, se asegura de que el análisis se complete incluso en caso de que falle el servidor de aplicaciones.
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]**: esta opción añade los registros de consulta SQL al diario de entrega durante la fase de análisis.
@@ -181,7 +181,7 @@ La pestaña **[!UICONTROL Advanced]** de propiedades de la entrega permite defin
 Estas son las opciones disponibles:
 
 * La primera opción permite mantener las pruebas duplicadas.
-* Las dos opciones siguientes le permiten mantener los destinatarios en la lista negra y las direcciones en cuarentena. Consulte la descripción de estas opciones para el objetivo principal en [Personalización de la configuración de exclusión](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). A diferencia del objetivo de una entrega, donde estas direcciones se excluyen de forma predeterminada, se mantienen de forma predeterminada para el objetivo de una prueba.
+* Both of the following options let you keep recipients that are on the block list and addresses in quarantine. Consulte la descripción de estas opciones para el objetivo principal en [Personalización de la configuración de exclusión](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). A diferencia del objetivo de una entrega, donde estas direcciones se excluyen de forma predeterminada, se mantienen de forma predeterminada para el objetivo de una prueba.
 * La opción **[!UICONTROL Keep the delivery code for the proof]** permite dar a la prueba el mismo código de entrega que el definido para la entrega con el que se relaciona. Este código se especifica en el primer paso del asistente de envíos.
 * De forma predeterminada, el asunto de la prueba incluye el prefijo “Proof #”, donde # es el número de la prueba. Se puede cambiar este prefijo en el campo **[!UICONTROL Label prefix]**.
 
@@ -203,7 +203,7 @@ Puede ver y editar las reglas de aprobación, su contenido, orden de ejecución 
 
 Puede crear nuevas reglas y definir nuevas tipologías a partir de este nodo. Sin embargo, estas tareas se reservan para los usuarios expertos que conocen JavaScript.
 
-Para obtener más información sobre reglas de tipología, consulte [Acerca de las tipologías de campaña](../../campaign/using/about-campaign-typologies.md).
+For more on typology rules, see [About campaign typologies](../../campaign/using/about-campaign-typologies.md).
 
 Para editar la tipología actual, haga clic en el icono **[!UICONTROL Edit link]** a la derecha del campo **[!UICONTROL Typology]**.
 
