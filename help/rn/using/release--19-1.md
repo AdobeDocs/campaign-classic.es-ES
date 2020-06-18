@@ -14,11 +14,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4b42a4bb0a95b2a46187c996d069846a8c3941bf
-workflow-type: ht
-source-wordcount: '2690'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2c555f29f0e0029b468927dbdb4bc79f9a35990d
+workflow-type: tm+mt
+source-wordcount: '2693'
+ht-degree: 98%
 
 ---
 
@@ -156,7 +156,7 @@ _30 de mayo de 2019_
  <tbody> 
   <tr> 
    <td> Panel de control<br /> </td> 
-   <td> <p>Para aumentar la eficacia en su trabajo como usuario administrador, gestione la configuración de sus servidores SFTP controlando el almacenamiento, ubicando en la lista blanca las direcciones IP e instalando claves SSH para cada instancia. Tenga en cuenta que el Panel de control solo está disponible para los clientes alojados en AWS a partir de hoy (<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Inicie sesión hoy a través de Experience Cloud)</a>.</p> <p>Para obtener más información, consulte la <a href="https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">videotutorial</a>. </p><p>Nota: no es necesario actualizar a la última compilación de Campaign para acceder al Panel de control.</p> </td> 
+   <td> <p>Para aumentar la eficacia de su trabajo como usuario administrador, administre la configuración de sus servidores SFTP monitoreando el almacenamiento, agregando direcciones IP para permitir la lista e instalando claves SSH para cada instancia. Tenga en cuenta que el Panel de control solo está disponible para los clientes alojados en AWS a partir de hoy (<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Inicie sesión hoy a través de Experience Cloud)</a>.</p> <p>Para obtener más información, consulte la <a href="https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">videotutorial</a>. </p><p>Nota: no es necesario actualizar a la última compilación de Campaign para acceder al Panel de control.</p> </td> 
   </tr> 
     <tr> 
    <td> Pista de auditoría<br /> </td> 
