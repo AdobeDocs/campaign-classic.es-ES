@@ -14,8 +14,11 @@ discoiquuid: 56cbf48a-eb32-4617-8f80-efbfd05976ea
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 527d2dd2296d18c8ca26745b9f87d65c6fdf480a
+translation-type: tm+mt
+source-git-commit: f7c040ceffcce20805d7cc8d1e4e46c77e611056
+workflow-type: tm+mt
+source-wordcount: '2472'
+ht-degree: 95%
 
 ---
 
@@ -34,21 +37,21 @@ Adobe Campaign administra una lista de direcciones en cuarentena. Los destinatar
 
 Los perfiles cuyas direcciones de correo electrónico o número de teléfono están en cuarentena se excluyen automáticamente durante la preparación del mensaje (consulte [Identificación de direcciones en cuarentena para una entrega](#identifying-quarantined-addresses-for-a-delivery)). Esto acelera las entregas, ya que la tasa de error afecta significativamente a la velocidad de entrega.
 
-Algunos proveedores de acceso a Internet consideran automáticamente los correos electrónicos como no deseados si la tasa de direcciones no válidas es demasiado alta. En consecuencia, la cuarentena le permite evitar que estos proveedores lo incluyan en sus listas negras.
+Algunos proveedores de acceso a Internet consideran automáticamente los correos electrónicos como no deseados si la tasa de direcciones no válidas es demasiado alta. Por lo tanto, la Cuarentena le permite evitar que estos proveedores agreguen a una lista de bloques.
 
 Además, la cuarentena reduce el coste de entrega de los SMS mediante la exclusión en las entregas de los números de teléfono incorrectos. Para obtener más información sobre las prácticas recomendadas para proteger y optimizar las entregas, consulte [esta página](https://helpx.adobe.com/es/campaign/kb/delivery-best-practices.html).
 
-### Cuarentena o lista negra {#quarantine-vs-blacklisting}
+### Cuarentena vs. lista de bloques {#quarantine-vs-block-list}
 
 La **cuarentena** solo se aplica a una dirección, no al propio perfil. Esto significa que, si dos perfiles tienen la misma dirección de correo electrónico, ambos se ven afectados si la dirección está en cuarentena.
 
 Del mismo modo, un perfil cuya dirección de correo electrónico se haya puesto en cuarentena puede actualizar su perfil e introducir una nueva dirección, y luego puede volver a recibir entregas.
 
-Por otro lado, las **listas negras** tienen como resultado que el perfil ya no se tiene en cuenta para las entregas, por ejemplo, tras una baja (exclusión).
+Being on the **block list**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out).
 
 >[!NOTE]
 >
->Cuando un usuario responde a un mensaje SMS con una palabra clave como “STOP” para impedir la exclusión de entregas SMS, su perfil no se incluye en la lista negra como en el proceso de exclusión de correo electrónico. El número de teléfono del perfil se envía a cuarentena, de modo que el usuario pueda seguir recibiendo mensajes de correo electrónico.
+>Cuando un usuario responde a un mensaje SMS con una palabra clave como &quot;STOP&quot; para optar por la exclusión de los envíos SMS, su perfil no se agrega a la lista de bloques como en el proceso de desactivación de correo electrónico. El número de teléfono del perfil se envía a cuarentena, de modo que el usuario pueda seguir recibiendo mensajes de correo electrónico.
 
 ## Identificación de direcciones en cuarentena {#identifying-quarantined-addresses}
 
@@ -103,10 +106,10 @@ Si necesita sacar una dirección de la cuarentena, cambie su estado manualmente 
 
 ![](assets/tech_quarant_error_status.png)
 
-Si cambia el estado a **[!UICONTROL Whitelisted]**, se realiza una entrega a esa dirección sistemáticamente cada vez, aunque se encuentren errores.
+Si cambia el estado a **[!UICONTROL On allow list]**, se realiza una entrega a esa dirección sistemáticamente cada vez, aunque se encuentren errores.
 
 >[!CAUTION]
-Las direcciones en lista negra no están sujetas al sistema de cuarentena y no se les envían mensajes, aunque se cambie el estado de la dirección.
+Las direcciones de la lista de bloques no están preocupadas por el sistema de cuarentena y no están segmentadas, incluso si cambia el estado de la dirección.
 
 Asimismo, se puede cambiar el número de errores y el periodo entre ellos. Para ello, cambie la configuración del asistente de implementación (canal de correo electrónico/configuración avanzada). Para obtener más información sobre el asistente de implementación, consulte [esta sección](../../installation/using/deploying-an-instance.md).
 
