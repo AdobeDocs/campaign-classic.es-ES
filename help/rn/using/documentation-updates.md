@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 39b8f4af256c23744a2b6e5978964e4b3207aafb
+source-git-commit: c1b0980d540992538f7961afd7c218888dee4a39
 workflow-type: tm+mt
-source-wordcount: '6666'
-ht-degree: 94%
+source-wordcount: '6708'
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 94%
 Esta página lista todas las nuevas funciones y actualizaciones de la documentación por mes y la versión de Campaña.
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
+
+## June 2020 {#june-2020}
+
+Tanto los términos &quot;lista blanca&quot; como &quot;lista negra&quot; se han eliminado de la documentación de Adobe Campaign. Algunas incidencias de estos términos pueden seguir existiendo en la interfaz de usuario del producto, nombres de opciones y código interno, pero se reemplazarán en próximas versiones de Campaña con &quot;bloqueo&quot; y &quot;lista de permitidos&quot;.
 
 ## 20.2 - 08/06/2020{#release-20-2}
 
