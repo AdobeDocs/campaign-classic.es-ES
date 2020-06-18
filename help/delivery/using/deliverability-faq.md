@@ -12,11 +12,11 @@ discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
-workflow-type: ht
-source-wordcount: '1324'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56fed9fff445892366d3e0f1367029882077ae20
+workflow-type: tm+mt
+source-wordcount: '1355'
+ht-degree: 85%
 
 ---
 
@@ -50,38 +50,37 @@ Si siempre recibe el mismo mensaje de error para un ISP, es posible que el ISP h
 
 Si el problema persiste, póngase en contacto con los servicios comerciales o de envío, con el Servicio de atención al cliente de Adobe Campaign o con la asistencia de Adobe Campaign.
 
-## Lista negra versus cuarentena {#blacklisting-versus-quarantine}
+## Lista de bloques frente a cuarentena {#block-list-versus-quarantine}
 
-* **¿Cuál es la diferencia entre una dirección de correo electrónico en la lista negra y una dirección de correo electrónico en cuarentena?**
+* **¿Cuál es la diferencia entre una dirección de correo electrónico en la lista de bloqueos y una dirección de correo electrónico en cuarentena?**
 
-   * El estado **[!UICONTROL Blacklisted]** es el resultado de un bucle de retroalimentación (cuando una persona informa un mensaje como correo no deseado).
+   * El estado **[!UICONTROL On block list]** es el resultado de un bucle de retroalimentación (cuando una persona informa un mensaje como correo no deseado).
 
    * El estado **[!UICONTROL Quarantined]** es el resultado de un rechazo suave o fuerte.
-   Para obtener más información, consulte [esta sección](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-blacklisting).
+   Para obtener más información, consulte [esta sección](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-block-list).
 
 * **¿Qué significan las diferentes razones de error de cuarentena?**
 
-   Estas son 10 razones posibles: no definido, usuario desconocido, dominio inválido, dirección en la lista negra, rechazado, error omitido, inaccesible, cuenta deshabilitada, buzón lleno, sin conexión.
+   Estas son 10 razones posibles: no definido, usuario desconocido, dominio inválido, dirección en la lista de bloques, rechazado, error omitido, inaccesible, cuenta deshabilitada, buzón lleno, no conectado.
 
    Para obtener más información, consulte [Comprensión de la administración de cuarentena](../../delivery/using/understanding-quarantine-management.md).
 
-## Quitar de la lista negra {#unblacklisting}
+## Quitando de la lista de bloques {#remove-from-block-list}
 
-* **Uno de mis destinatarios quedó en la lista negra por error. ¿Cómo puedo quitarlo de la lista negra para que pueda volver a enviarle mensajes?**
+* **Uno de mis destinatarios fue agregado a la lista de bloques por error. ¿Cómo eliminarlos de la lista de bloqueos para que pueda enviar mensajes de nuevo con inicio?**
 
    * Vaya a **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**.
    * En los detalles del registro correspondiente, establezca el valor del campo **[!UICONTROL Status]** en **[!UICONTROL Valid]**.
    * Guarde el registro.
 
-* **¿Cómo puedo averiguar si una de mis IP está en la lista negra? ¿Cómo quito mis IP de la lista negra?**
+* **¿Cómo puedo saber si una de mis IP está en una lista de bloques? ¿Cómo elimino mis IP de una lista de bloques?**
 
-   Para comprobar si su dirección IP está en la lista negra, puede utilizar varios sitios web para verificarla:
-   * [https://mxtoolbox.com/](https://mxtoolbox.com/)
-   * [https://whatismyipaddress.com/blacklist-check](https://whatismyipaddress.com/blacklist-check)
-   * [https://www.blacklistalert.org/](https://www.blacklistalert.org/)
-   Generalmente, el resultado de la comprobación de la dirección IP muestra una lista que contiene detalles de la lista negra y el nombre del sitio web que bloqueó la dirección IP.
+   Para comprobar si su dirección IP está en una lista de bloques, puede utilizar varios sitios Web para verificarla, como:
+   * [Cuadro de herramientas MX](https://mxtoolbox.com/)
+   * [¿Cuál es mi dirección IP?](https://whatismyipaddress.com)
+   Generalmente, el resultado de la comprobación de la dirección IP devolverá una lista que contiene detalles de la lista de bloques y también el nombre del sitio web que bloqueó la dirección IP.
 
-   Al hacer clic en el enlace correspondiente, puede acceder a los detalles del sitio web. Puede solicitar que el sitio web se elimine de la lista de sitios que dejaron la dirección IP en la lista negra.
+   Al hacer clic en el enlace correspondiente, puede acceder a los detalles del sitio web. A continuación, puede solicitar que el sitio Web sea eliminado del sitio Web que agregó la dirección IP a la lista de bloques.
 
    >[!NOTE]
    >
