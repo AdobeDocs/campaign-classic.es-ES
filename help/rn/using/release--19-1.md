@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2c555f29f0e0029b468927dbdb4bc79f9a35990d
+source-git-commit: 655544352070b0e2fab72b1991d2e4d80e03e349
 workflow-type: tm+mt
-source-wordcount: '2693'
-ht-degree: 98%
+source-wordcount: '2808'
+ht-degree: 94%
 
 ---
 
@@ -77,7 +77,19 @@ _13 de agosto de 2019_
 
 ## Versión 19.1.4: compilación 9032{#release-19-1-4-build-9032}
 
-![](assets/do-not-localize/green_2.png) **29 de abril de 2020**: nueva compilación (9032@3a9dc9c) que incluye las siguientes correcciones:
+![](assets/do-not-localize/green_2.png) **22 de junio de 2020**: nueva compilación (9032@800be2e) que incluye las siguientes correcciones:
+
+* Se ha mejorado el conector HTTP2 de iOS (actualizaciones de terceros y administración de errores). (NEO-25904, NEO-25903, NEO-25799)
+
+Las siguientes correcciones están relacionadas con el mecanismo de seguridad del vínculo de seguimiento:
+
+* Se ha corregido un problema que impedía que funcionara el seguimiento de &quot;clics de notificación&quot; (notificaciones push de iOS y Android). (NEO-25965)
+* Se ha corregido un problema que podía impedir que se abrieran o hicieran clic en las direcciones URL de seguimiento al usar ciertas versiones heredadas de Outlook.  (NEO-25688)
+* Se ha corregido un problema que impedía que funcionara el seguimiento de direcciones URL mediante fragmentos en parámetros de personalización (etiquetas de anclaje con signo de almohadilla). (NEO-25774)
+* Se ha corregido un problema con el servicio de antiphishing. (NEO-25283)
+* Se corrigió un problema de seguimiento al usar fórmulas de seguimiento personalizadas específicas. (NEO-25277)
+
+![](assets/do-not-localize/orange_2.png) **29 de abril de 2020**: nueva compilación (9032@3a9dc9c) que incluye las siguientes correcciones:
 
 * Se ha mejorado la seguridad en el seguimiento de enlaces en el correo electrónico. Esta opción está habilitada de forma predeterminada para todos los clientes. Hay disponible una función de seguridad adicional y mejorada que se puede habilitar si se pone en contacto con el Servicio de atención al cliente. Encuentre más detalles sobre la función y los pasos para que los clientes que no están alojados puedan habilitarla en la [Lista de comprobación de seguridad y privacidad](https://helpx.adobe.com/es/campaign/kb/acc-security.html#signature-mechanism).
 * Se ha corregido un problema que podía impedir que las imágenes se mostraran en envíos de línea. (NEO-23207)
