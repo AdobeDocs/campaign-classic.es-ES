@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e488e1771fe4d07132844900f41f5f4f09fa9438
+source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 96%
 
 ---
 
@@ -42,15 +42,15 @@ Descubra la lista completa de soluciones de Adobe y los servicios principales qu
 
 Según el entorno, varias soluciones se pueden vincular con Adobe Experience Cloud. Estas se vinculan como organizaciones. Una **organización** es la entidad que permite a un administrador configurar grupos y usuarios y controlar el inicio de sesión único en Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y soluciones de Experience Cloud. Generalmente, la organización es el nombre de la empresa. Sin embargo, una empresa puede tener muchas organizaciones.
 
-Se detalla la administración de la organización y los vínculos de las cuentas de Adobe Experience Cloud en el [portal de ayuda de Adobe Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/mcloud/organizations.html).
+Se detalla la administración de la organización y los vínculos de las cuentas de Adobe Experience Cloud en el [portal de ayuda de Adobe Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
 
 >[!CAUTION]
 >
->Cuando se instala Adobe Campaign o se integra una instalación existente con Adobe Experience Cloud, se activa el [servicio de Experience Cloud ID. ](https://marketing.adobe.com/resources/help/es_ES/mcvid/) Este servicio reemplaza la cookie permanente que utiliza principalmente Adobe Campaign para las funciones de seguimiento.
+>Cuando se instala Adobe Campaign o se integra una instalación existente con Adobe Experience Cloud, se activa el [servicio de Experience Cloud ID. ](https://docs.adobe.com/content/help/en/id-service/using/home.html) Este servicio reemplaza la cookie permanente que utiliza principalmente Adobe Campaign para las funciones de seguimiento.
 >
 >A continuación, se asigna una ID de visitante única a los destinatarios que generen “logs” de seguimiento. Esta ID se guarda en el campo **[!UICONTROL Requester UUID (@sourceID)]** de la tabla **[!UICONTROL nms:trackingLogRcp]**. Por lo tanto, ya no se pueden utilizar los datos de seguimiento de los destinatarios existentes antes de implementar el servicio de ID de visitante.
 >
->Las otras soluciones de Adobe Experience Cloud reconocen entonces la ID con el mismo [CNAME](https://marketing.adobe.com/resources/help/es_ES/mcvid/mcvid_cname.html).
+>Las otras soluciones de Adobe Experience Cloud reconocen entonces la ID con el mismo [CNAME](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html).
 
 ## Integraciones de Experience Cloud {#experience-cloud-integrations}
 
