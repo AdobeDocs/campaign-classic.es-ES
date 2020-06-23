@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: bb35d2ae2d40aaef3bb381675d0c36ffb100b242
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 94%
+source-wordcount: '890'
+ht-degree: 49%
 
 ---
 
@@ -85,16 +85,67 @@ Adobe Campaign permite exportar archivos comprimidos o encriptados. When definin
 
 Para poder hacerlo:
 
-* Si Adobe aloja la instalación de Adobe Campaign: envíe una solicitud al [equipo de asistencia](https://support.neolane.net) para que instalen las herramientas necesarias en el servidor.
-* Si la instalación de Adobe Campaign está in situ: instale la utilidad que desee utilizar (por ejemplo: GPG, GZIP) así como las claves necesarias (clave de cifrado) en el servidor de aplicaciones.
+1. Instale un par de claves GPG para su instancia mediante el Panel [de control](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
 
-A continuación, puede utilizar comandos o códigos como los siguientes:
+   >[!NOTE]
+   >
+   >El Panel de control está disponible para todos los clientes alojados en AWS (excepto para los clientes que hospedan sus instancias de marketing in situ).
 
-```
-function encryptFile(file) {  
-  var systemCommand = “gpg --encrypt --recipient  recipientToEncryptTo ” + file;  
-  var result = execCommand(systemCommand, true); 
-}
-```
+1. Si la instalación de Adobe Campaign está alojada en Adobe, póngase en contacto con el servicio de atención al cliente de Adobe para instalar las utilidades necesarias en el servidor.
+1. Si la instalación de Adobe Campaign está in situ, instale la utilidad que desee utilizar (por ejemplo: GPG, GZIP) así como las claves necesarias (clave de cifrado) en el servidor de aplicaciones.
 
-Al importar un archivo, también puede descomprimirlo o desencriptarlo. Consulte [Descompresión o desencriptado de un archivo antes de procesarlo](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing).
+A continuación, puede utilizar comandos o código en la **[!UICONTROL Script]** ficha de la actividad o en una **[!UICONTROL JavaScript code]** actividad. A continuación se muestra un ejemplo en el caso de uso.
+
+**Temas relacionados:**
+
+* [Descompresión o desencriptado de un archivo antes de procesarlo](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing)
+* [actividad](../../workflow/using/extraction--file-.md)de extracción de datos (archivo).
+
+### Caso de uso: Codificación y exportación de datos mediante una clave instalada en el Panel de control {#use-case-gpg-encrypt}
+
+En este caso de uso, crearemos un flujo de trabajo para cifrar y exportar datos mediante una clave instalada en el Panel de control.
+
+Los pasos para realizar este caso de uso son los siguientes:
+
+1. Genere un par de claves GPG (público/privado) utilizando una utilidad GPG, luego instale la clave pública en el Panel de control. Encontrará pasos detallados en la documentación [del Panel](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)de control.
+
+1. En Campaign Classic, cree un flujo de trabajo para exportar los datos y exportarlos con la clave privada que se ha instalado mediante el Panel de control. Para ello, crearemos un flujo de trabajo de la siguiente manera:
+
+   ![](assets/gpg-workflow-encrypt.png)
+
+   * **[!UICONTROL Query]** actividad: En este ejemplo, queremos ejecutar una consulta para destinatario de los datos de la base de datos que queremos exportar.
+   * **[!UICONTROL Data extraction (file)]** actividad: Extrae los datos en un archivo.
+   * **[!UICONTROL JavaScript code]** actividad: Codifica los datos que se van a extraer.
+   * **[!UICONTROL File transfer]** actividad: Envía los datos a un origen externo (en este ejemplo, un servidor SFTP).
+
+1. Configure la **[!UICONTROL Query]** actividad para destinatario de los datos deseados de la base de datos. Para obtener más información, consulte [esta sección](../../workflow/using/query.md).
+
+1. Abra la **[!UICONTROL Data extraction (file)]** actividad y configúrela según sus necesidades. Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../workflow/using/extraction--file-.md).
+
+   ![](assets/gpg-data-extraction.png)
+
+1. Abra la **[!UICONTROL JavaScript code]** actividad y copie y pegue el comando siguiente para cifrar los datos que desee extraer.
+
+   >[!IMPORTANT]
+   >
+   >Asegúrese de reemplazar el valor de la **huella** del comando por la huella digital de la clave pública instalada en el Panel de control.
+
+   ```
+   var cmd='gpg ';
+   cmd += ' --trust-model always';
+   cmd += ' --batch -yes';
+   cmd += ' --recipient fingerprint';
+   cmd += ' --encrypt --output ' + vars.filename + '.gpg ' + vars.filename;
+   execCommand(cmd,true);
+   vars.filename=vars.filename + '.gpg'
+   ```
+
+   ![](assets/gpg-script.png)
+
+1. Abra la **[!UICONTROL File transfer]** actividad y especifique el servidor SFTP al que desea enviar el archivo. Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../workflow/using/file-transfer.md).
+
+   ![](assets/gpg-file-transfer.png)
+
+1. Ahora puede ejecutar el flujo de trabajo. Una vez ejecutado, el destinatario de datos por la consulta se exportará al servidor SFTP en un archivo .gpg cifrado.
+
+   ![](assets/gpg-sftp-encrypt.png)
