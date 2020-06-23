@@ -12,15 +12,18 @@ discoiquuid: fe4e6f64-eb0a-44bc-8221-6c9bfb99871f
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 5eb82bb5dae589cb18d42695565b25dad36006bd
+translation-type: tm+mt
+source-git-commit: a215109db2d511180c91723059cd8ca10a34a612
+workflow-type: tm+mt
+source-wordcount: '324'
+ht-degree: 66%
 
 ---
 
 
 # Extracción de datos (archivo){#extraction-file}
 
-Puede extraer datos de una tabla de flujo de trabajo desde un archivo externo mediante la actividad **[!UICONTROL Extracción de datos (archivo)]**.
+You can extract data from a workflow table in an external file using the **[!UICONTROL Data extraction (file)]** activity.
 
 >[!CAUTION]
 >
@@ -29,13 +32,13 @@ Puede extraer datos de una tabla de flujo de trabajo desde un archivo externo me
 Para configurar la extracción de datos, siga estos pasos:
 
 1. Especifique el nombre del archivo de salida: este nombre puede contener variables insertadas mediante el botón de personalización a la derecha del campo.
-1. Haga clic en **[!UICONTROL Editar formato de archivo...]** para seleccionar los datos que desee extraer.
+1. Haga clic en **[!UICONTROL Edit the file format...]** para seleccionar los datos que desea extraer.
 
    ![](assets/s_advuser_extract_file_param.png)
 
-   La opción **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** añade un paso adicional para filtrar el resultado final del acumulado, por ejemplo, en un tipo de orden de compra determinado, clientes que hayan hecho un orden más de 10 veces, etc.
+   The **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** option adds an extra step to filter the final result of the aggregate, for example on a given purchase order type, customers who have ordered more than 10 times, etc.
 
-1. Si es necesario, puede añadir nuevas columnas al archivo de salida, como, por ejemplo, calcular o procesar resultados. Para hacer esto, haga clic en el icono **[!UICONTROL Add]**.
+1. Si es necesario, puede añadir nuevas columnas al archivo de salida, como, por ejemplo, calcular o procesar resultados. To do this, click the **[!UICONTROL Add]** icon.
 
    ![](assets/s_advuser_extract_file_add_col.png)
 
@@ -50,6 +53,12 @@ Para configurar la extracción de datos, siga estos pasos:
    Elija la fórmula deseada de la lista.
 
    ![](assets/s_advuser_extract_file_agregate_values.png)
+
+Puede definir un proceso posterior que se va a ejecutar durante la extracción de datos, permitiéndole comprimir o cifrar los archivos. Para ello, se debe agregar el comando deseado en la **[!UICONTROL Script]** ficha de la actividad.
+
+Para obtener más información sobre esto, consulte esta sección: [Cifrado o captura de un archivo](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
+
+![](assets/postprocessing_dataextraction.png)
 
 ## Lista de funciones acumuladas {#list-of-aggregate-functions}
 
