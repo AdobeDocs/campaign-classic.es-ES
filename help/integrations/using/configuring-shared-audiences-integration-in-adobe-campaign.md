@@ -14,8 +14,11 @@ discoiquuid: 4443b0ca-80c6-467d-a4df-50864aae8496
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6ae45cbd87fc0152fc654202e03501fc8d2abd06
+translation-type: tm+mt
+source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 85%
 
 ---
 
@@ -33,26 +36,26 @@ Una vez enviada esta solicitud, Adobe procede a ofrecer de la integración y a p
 
 En primer lugar, se deben configurar o verificar las cuentas externas en Adobe Campaign de la siguiente manera:
 
-1. Haga clic en el icono **[!UICONTROL Explorador]**.
+1. Haga clic en el icono **[!UICONTROL Explorer]**.
 1. Vaya a **[!UICONTROL Administration > Platform > External accounts]**. Las cuentas SFTP mencionadas deberían estar ya configuradas por Adobe, y se le debe haber comunicado la información necesaria.
 
    * **[!UICONTROL importSharedAudience]** : Cuenta SFTP específica para la importación de audiencias.
    * **[!UICONTROL exportSharedAudience]** : Cuenta SFTP específica para la exportación de audiencias.
    ![](assets/aam_config_1.png)
 
-1. Rellene el campo **[!UICONTROL Servidor]** : Dominio **ftp-out.demdex.com** para la cuenta externa de importación y dominio **ftp-in.demdex.com** para la cuenta externa de exportación.
+1. Fill in the **[!UICONTROL Server]** field: **ftp-out.demdex.com** domain for the import external account and **ftp-in.demdex.com** domain for the export external account.
 
    Recuerde que una exportación de Campaign es una importación para Audience Manager o el servicio principal Personas.
 
    >[!NOTE]
    >
-   >Si utiliza S3, introduzca **[!UICONTROL el servidor de cuentas AWS S3]** siguiendo esta sintaxis:\
+   >If you are using S3, enter your **[!UICONTROL AWS S3 Account Server]** following this syntax:\
    `<S3bucket name>.s3.amazonaws.com/<s3object path>`\
    Para obtener más información sobre cómo configurar la cuenta S3, consulte este [artículo](../../platform/using/external-accounts.md#amazon-simple-storage-service--s3--external-account).
 
    ![](assets/aam_config_2.png)
 
-1. Añada la **[!UICONTROL Cuenta]** y la **[!UICONTROL Contraseña]** proporcionadas por Adobe.
+1. Añada **[!UICONTROL Account]** y **[!UICONTROL Password]** proporcione Adobe.
 
 Las cuentas externas ya están configuradas.
 
@@ -60,11 +63,11 @@ Las cuentas externas ya están configuradas.
 
 La **ID de destinatario - visitante** se crea dentro de Audience Manager. Constituye una fuente de datos de serie y configurada de forma predeterminada para la ID del visitante. Los segmentos creados con Campaign forman parte de esta fuente de datos.
 
-Para configurar la fuente de datos **[!UICONTROL Destinatario - ID de visitante]**:
+To configure the **[!UICONTROL Recipient - Visitor ID]** data source:
 
-1. En el nodo **[!UICONTROL Explorador]**, seleccione **[!UICONTROL Administración > Plataforma > Fuentes de datos AMC]**.
-1. Seleccionar **[!UICONTROL Destinatario - ID de visitante]**.
-1. Introduzca el **[!UICONTROL ID de origen de datos]** y la **[!UICONTROL ID de destino AAM]** proporcionadas por Adobe.
+1. From the **[!UICONTROL Explorer]** node, select **[!UICONTROL Administration > Platform > AMC Data sources]**.
+1. Seleccione **[!UICONTROL Recipient - Visitor ID]**.
+1. Introduzca el valor **[!UICONTROL Data Source ID]** y **[!UICONTROL AAM Destination ID]** proporcionado por Adobe.
 
    ![](assets/aam_config_3.png)
 
@@ -76,6 +79,6 @@ Debe verificar que el servidor de seguimiento de Campaign esté registrado en el
 
 ## Paso 4: Configuración del servicio de ID de visitante {#step-4--configure-the-visitor-id-service}
 
-En caso de que el servicio de ID de visitante no se haya configurado en las propiedades web o sitios web, consulte el siguiente [documento](https://marketing.adobe.com/resources/help/es_ES/mcvid/mcvid-setup-aam-analytics.html) o el siguiente [vídeo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) para aprender a configurar el servicio.
+En caso de que el servicio de ID de visitante no se haya configurado en las propiedades web o sitios web, consulte el siguiente [documento](https://docs.adobe.com/content/help/en/id-service/using/implementation/setup-aam-analytics.html) o el siguiente [vídeo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) para aprender a configurar el servicio.
 
 La configuración y el suministro han finalizado, la integración ya puede utilizarse para importar y exportar audiencias o segmentos.
