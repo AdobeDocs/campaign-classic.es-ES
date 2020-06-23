@@ -14,8 +14,11 @@ discoiquuid: 5addada8-0185-488f-9825-83f60981c139
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0ce6e5277c32bc18c20dca62e5b276f654d1ace5
+translation-type: tm+mt
+source-git-commit: 972dce4b8429bb5b56fdf32b237384155bcc417a
+workflow-type: tm+mt
+source-wordcount: '687'
+ht-degree: 83%
 
 ---
 
@@ -48,7 +51,7 @@ Los métodos principales para crear perfiles de destinatario son los siguientes:
 
 ## Perfiles y público objetivo {#profiles-and-targets}
 
-El vínculo **[!UICONTROL Profiles and targets]** permite mostrar los destinatarios almacenados en la base de datos de Adobe Campaign. Puede crear un destinatario nuevo, editar un destinatario existente y acceder a su perfil. Para obtener más información, consulte [esta página](../../platform/using/editing-a-profile.md).
+The **[!UICONTROL Profiles and targets]** link lets you display recipients stored in Adobe Campaign database. Puede crear un destinatario nuevo, editar un destinatario existente y acceder a su perfil. Para obtener más información, consulte [esta página](../../platform/using/editing-a-profile.md).
 
 ![](assets/d_ncs_user_interface_target_link.png)
 
@@ -64,7 +67,7 @@ La página de destinatarios permite realizar operaciones frecuentes en los perfi
 
 Para realizar manipulaciones de perfiles más avanzadas, debe editar el árbol de Adobe Campaign. Para ello, haga clic en el vínculo **[!UICONTROL Explorer]** de la página principal de Adobe Campaign.
 
-De forma predeterminada, los destinatarios se almacenan en el nodo **[!UICONTROL Profiles and Targets > Recipients]** del árbol. Puede crear destinatarios a partir de esta vista, así como:
+By default, recipients are stored in the **[!UICONTROL Profiles and Targets > Recipients]** node of the tree. Puede crear destinatarios a partir de esta vista, así como:
 
 * ordenar y filtrar los perfiles de la base de datos; consulte [Opciones de filtro](../../platform/using/filtering-options.md),
 * mover, copiar o eliminar perfiles de la base de datos; consulte [Gestor de perfiles](../../platform/using/managing-profiles.md),
@@ -92,12 +95,12 @@ Un “**perfil**” es un registro de información (por ejemplo, un registro de 
 
 La facturación solo abarca los perfiles que están **activos**. Un perfil se considera activo si este se ha identificado o comunicado en los últimos 12 meses a través de cualquier canal.
 
+Los perfiles que se excluyen durante la preparación de la entrega (reglas de tipología, cuarentena) no se tienen en cuenta. Un perfil identificado por varios envíos solo se contará una vez.
+
 >[!NOTE]
 >
 >Los canales de Facebook y Twitter no se tienen en cuenta.
 
-Puede obtener una vista general del **[!UICONTROL Number of active profiles]** en el menú **[!UICONTROL Administration > Campaign Management > Customer metrics]**.
+Puede obtener una descripción general del **[!UICONTROL Number of active profiles]** menú Campaign Standard **[!UICONTROL Administration > Campaign Management > Customer metrics]** . The actual count is performed by the **[!UICONTROL Number of active billing profiles]** (**[!UICONTROL billingActiveContactCount]**) [technical workflow](../../workflow/using/deliveries.md), which runs every day and adds the new data to the existing report for the current period in the **[!UICONTROL Customer metrics]** menu. Cada periodo dura 12 meses.
 
-El recuento real lo lleva a cabo el [flujo de trabajo técnico](../../workflow/using/delivery.md) del **[!UICONTROL Number of active billing profiles]** (**[!UICONTROL billingActiveContactCount]**), que se ejecuta todos los días y añade nuevos datos al informe existente del periodo actual en el menú **[!UICONTROL Customer metrics.]** Cada periodo dura 12 meses.
-
-Los perfiles que se excluyen durante la preparación de la entrega (reglas de tipología, cuarentena) no se tienen en cuenta. Un perfil identificado por varios envíos solo se contará una vez.
+Si está alojado en AWS y utiliza Campaign Classic de la compilación 8931, también puede supervisar el número de perfiles activos utilizados en las instancias directamente desde el Panel de control. For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
