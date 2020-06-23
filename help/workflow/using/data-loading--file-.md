@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e3de6f7b21d912efa4f6faca5e57cb480e8f1805
+source-git-commit: 9c9554b83726da7a7dbc747878d7d0758e71a4d7
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 79%
+source-wordcount: '1051'
+ht-degree: 78%
 
 ---
 
@@ -38,6 +38,10 @@ La sección superior de la ventana de configuración de esta actividad permite d
 ![](assets/s_advuser_wf_etl_file.png)
 
 Puede definir un proceso previo para que se ejecute durante la importación de archivos, por ejemplo, para que no tenga que descomprimir el archivo en el servidor (y, por lo tanto, ahorrar espacio para el archivo descomprimido), y para incluir la descompresión en el procesamiento de archivos. Select the **[!UICONTROL Pre-process the file]** option and choose from one of 3 options: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) or **[!UICONTROL Decrypt]** (gpg).
+
+![](assets/preprocessing-dataloading.png)
+
+Para obtener más información sobre esto, consulte esta sección: [Descomprimiendo o descifrando un archivo antes de procesarlo](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing).
 
 ## Definición del formato del archivo {#defining-the-file-format}
 
