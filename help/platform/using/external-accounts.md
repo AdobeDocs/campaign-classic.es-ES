@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e25560152a16865dc415ac2ffa1975808b3f6bbc
+source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
 workflow-type: tm+mt
-source-wordcount: '2217'
+source-wordcount: '2218'
 ht-degree: 99%
 
 ---
@@ -325,7 +325,7 @@ Para conectarse a la consola de Adobe Campaign mediante un Adobe ID, debe config
 
 * **[!UICONTROL IMS organization ID]**
 
-   ID de la organización IMS Para encontrar su ID de la organización, consulte [esta página](https://marketing.adobe.com/resources/help/es_ES/mcloud/faq.html) (**¿Dónde puedo encontrar mi ID de organización IMS?**).
+   ID de la organización IMS Para encontrar su ID de la organización, consulte [esta página](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/faq.html) (**¿Dónde puedo encontrar mi ID de organización IMS?**).
 
 * **[!UICONTROL Association mask]**
 
