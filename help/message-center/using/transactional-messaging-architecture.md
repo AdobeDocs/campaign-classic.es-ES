@@ -12,9 +12,9 @@ discoiquuid: a910d5fe-cef4-47d8-b3bc-0055ef0d1afd
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e8a9d8d63c01cc19380267fced45e180b4d7ccb4
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e6f8eb6f4ffc3ffe9dbc643cf0edeef439c0f969
+workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Las instancias de ejecución reciben eventos, los vinculan a plantillas de mensa
 
 ## Soporte de varias instancias de control {#supporting-several-control-instances}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >El uso compartido de un clúster de ejecución con varias instancias de control solo se admite en entornos locales.
 
@@ -54,7 +54,7 @@ Es posible compartir un clúster de ejecución entre varias instancias de contro
 
 Para instalar los paquetes de mensajes transaccionales deben tomarse varias precauciones. Adobe recomienda trabajar en un entorno de prueba antes de realizar la producción. También necesita disponer de una licencia compatible con Adobe Campaign. Para obtener más información, póngase en contacto con su administrador de cuentas de Adobe.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >La instancia de control y las instancias de ejecución deben estar instaladas en diferentes equipos. No pueden compartir la misma instancia de Campaign.
 
@@ -90,7 +90,7 @@ To use transactional messaging with Interaction, you need to apply the following
 
 * Install the **Interaction** package onto the control instance and configure your offer catalog.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >Do not replicate the offers onto the execution instances.
 
