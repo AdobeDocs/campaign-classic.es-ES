@@ -14,8 +14,11 @@ discoiquuid: f26cc65a-76be-4b7a-bde3-d0cbe3eedaaf
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
+translation-type: tm+mt
+source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
+workflow-type: tm+mt
+source-wordcount: '633'
+ht-degree: 90%
 
 ---
 
@@ -26,8 +29,8 @@ source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 Se pueden importar audiencias o segmentos a Adobe Campaign desde Audience Manager o el servicio principal Personas mediante las listas de destinatarios.
 
-1. Vaya al nodo **[!UICONTROL Profiles and Targets]**, **[!UICONTROL Lists]** en el explorador de Adobe Campaign.
-1. En la barra de herramientas, seleccione **[!UICONTROL New]**, **[!UICONTROL Create a shared audience...]**.
+1. Go to the **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Lists]** node in the Adobe Campaign explorer.
+1. In the action bar, select **[!UICONTROL New]** > **[!UICONTROL Create a shared audience...]**.
 
    ![](assets/aam_import_audience.png)
 
@@ -52,7 +55,7 @@ El proceso de importación tarda en sincronizarse de 24 a 36 horas cuando los se
 >
 >Si se están importando audiencias de Adobe Analytics a Adobe Campaign, dichas audiencias deben compartirse primero en el servicio principal Personas o en Audience Manager. Este proceso tarda de 12 a 24 horas, que se deben añadir a la sincronización de 24 a 36 horas con Campaign.
 >
->En ese caso específico, el tiempo que tarda en compartirse la audiencia puede alcanzar las 60 horas. Para obtener más información sobre el uso compartido de las audiencias de Adobe Analytics en el servicio principal Personas y Audience Manager, consulte esta [documentación](https://marketing.adobe.com/resources/help/es_ES/mcloud/t_publish_audience_segment.html).
+>En ese caso específico, el tiempo que tarda en compartirse la audiencia puede alcanzar las 60 horas. Para obtener más información sobre el uso compartido de las audiencias de Adobe Analytics en el servicio principal Personas y Audience Manager, consulte esta [documentación](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
 
 Los datos de audiencias se sustituyen por completo cada vez que se sincronizan. Solo se pueden importar segmentos. No se admiten datos granulares, lo que incluye pares de valor clave, características y reglas.
 
@@ -62,11 +65,11 @@ Se puede exportar una audiencia de Adobe Campaign a Audience Manager o al servic
 
 1. Cree un nuevo flujo de trabajo de objetivos.
 1. Mediante las distintas actividades disponibles, establezca como objetivo un conjunto de destinatarios.
-1. Después, arrastre y suelte una actividad **[!UICONTROL Update shared audience]** y, a continuación, ábrala.
+1. After the targeting, drag and drop an **[!UICONTROL Update shared audience]** activity, then open it.
 
    ![](assets/aam_export_example.png)
 
-1. Defina la audiencia que desea exportar mediante la opción **[!UICONTROL Select a shared audience]**. En la ventana que se abre, puede seleccionar una audiencia existente o crear una nueva.
+1. Define the audience that you want to export via the **[!UICONTROL Select a shared audience]** option. En la ventana que se abre, puede seleccionar una audiencia existente o crear una nueva.
 
    Si selecciona una audiencia existente, solo se añaden los registros nuevos a la audiencia.
 
@@ -74,7 +77,7 @@ Se puede exportar una audiencia de Adobe Campaign a Audience Manager o al servic
 
    Complete la operación haciendo clic en el símbolo de aprobación situado en la parte superior derecha de la ventana y luego en el botón **[!UICONTROL OK]**.
 
-1. Seleccione **[!UICONTROL AMC Data source]** para especificar el tipo de datos esperado. El esquema se determina automáticamente.
+1. Select the **[!UICONTROL AMC Data source]** to specify the expected data type. El esquema se determina automáticamente.
 
    ![](assets/aam_export_audience_activity.png)
 
@@ -82,7 +85,7 @@ Se puede exportar una audiencia de Adobe Campaign a Audience Manager o al servic
 
 A continuación, se exporta la audiencia. La actividad de guardar la audiencia tiene dos transiciones salientes. La transición principal contiene los destinatarios exportados correctamente. La transición adicional contiene los destinatarios que no pueden asignarse a una ID de visitante o a una ID declarada.
 
-La sincronización entre Adobe Campaign y el servicio principal Personas tarda de 24 a 36 horas. Después de este periodo, puede encontrar la nueva audiencia en el servicio principal Personas y reutilizarla en otras soluciones de Adobe Experience Cloud. Para obtener más información sobre el uso de una audiencia compartida de Adobe Campaign en el servicio principal Personas de Adobe, consulte la siguiente [documentación](https://marketing.adobe.com/resources/help/es_ES/mcloud/t_audience_create.html).
+La sincronización entre Adobe Campaign y el servicio principal Personas tarda de 24 a 36 horas. Después de este periodo, puede encontrar la nueva audiencia en el servicio principal Personas y reutilizarla en otras soluciones de Adobe Experience Cloud. Para obtener más información sobre el uso de una audiencia compartida de Adobe Campaign en el servicio principal Personas de Adobe, consulte la siguiente [documentación](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-audience-create.html).
 
 >[!NOTE]
 >
