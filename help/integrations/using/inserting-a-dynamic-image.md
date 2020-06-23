@@ -14,8 +14,11 @@ discoiquuid: f6e4d22b-4ad3-4a1e-8a6f-3bdfc1da0535
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f4d5d8474099776f770e88fcaf3bf15256da1be2
+translation-type: tm+mt
+source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
+workflow-type: tm+mt
+source-wordcount: '853'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +68,7 @@ En Adobe Campaign, hay dos formas de insertar una imagen dinámica desde Target 
 * **[!UICONTROL Landing Page]**: Si desea que la imagen predeterminada se redirija a una página de aterrizaje predeterminada. Esta URL es opcional y solo para aquellos casos en que la imagen predeterminada se muestra en el mensaje de correo electrónico final.
 * **[!UICONTROL Additional decision parameters]**: especifique la asignación entre los campos definidos en los segmentos de Adobe Target y los campos de Adobe Campaign. Los campos de Adobe Campaign utilizados deben haberse especificado en el “rawbox”. En el ejemplo, añadimos el campo País.
 
-Si utiliza permisos de empresa en la configuración de Adobe Target, añada la propiedad correspondiente en este campo. Obtenga más información sobre los permisos de empresa de Target en [esta página](https://marketing.adobe.com/resources/help/es_ES/target/target/properties-overview.html).
+Si utiliza permisos de empresa en la configuración de Adobe Target, añada la propiedad correspondiente en este campo. Obtenga más información sobre los permisos de empresa de Target en [esta página](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html).
 
 ![](assets/target_13.png)
 
