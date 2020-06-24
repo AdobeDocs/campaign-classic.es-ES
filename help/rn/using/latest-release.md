@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e3e8802aae0d10befcf9eef1ccf720f82c460038
+source-git-commit: b2cc71f8f9b7df80b1601a9fa55bfd77f9a82433
 workflow-type: tm+mt
-source-wordcount: '1739'
-ht-degree: 14%
+source-wordcount: '1765'
+ht-degree: 15%
 
 ---
 
@@ -43,6 +43,8 @@ ht-degree: 14%
 </table>
 
 La **última compilación estable** es 9032 (3a9dc9c). Haga clic [aquí](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+
+![](assets/do-not-localize/cp-icon.png) **Nueva versión** de junio del Panel de control con supervisión de perfiles activos, auditoría de entregas de subdominios y administración de claves GPG. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
 
 ## ![](assets/do-not-localize/blue_2.png) Versión 20.2.1: compilación 9178 {#release-20-2-1-build-9178}
 
@@ -117,7 +119,7 @@ _8 de junio de 2020_
 Ahora se admiten los siguientes sistemas con Campaña:
 * Sistemas operativos: Debian 10
 * RDBMS: Oracle 18c y Oracle 19c
-* FDA: Análisis de sinapsis de Azure
+* FDA: Azure Synapse Analytics
 
 Obtenga más información en la matriz [de compatibilidad de](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)Campañas.
 
@@ -240,7 +242,7 @@ Hay un ejemplo para Linux disponible en esta [página](../../configuration/using
 * Se corrigió una regresión que ocasionaba que el flujo de trabajo de limpieza se bloqueara.
 * Se ha corregido un problema que se podía producir al publicar una plantilla en una instancia de ejecución.
 * Se ha corregido un problema que podía impedir que se ejecutara el flujo de trabajo técnico collectPrivacyRequests. (NEO-20513, NEO-25169)
-* Se han corregido problemas que podían producirse al intentar conectarse al Administrador de Audiencias después de la actualización para la compilación 9080. (NEO-20511, NEO-25167)
+* Se han corregido problemas que podían producirse al intentar conectarse a Audience Manager después de la actualización para la compilación 9080. (NEO-20511, NEO-25167)
 * Se han corregido problemas que podían producirse al exportar informes en formato PDF o XLS. (NEO-20982, NEO-23493, NEO-23348)
 * Se ha corregido un problema que podía mostrar un envío dos veces en la lista de envío después de enviarlo.
 * Se ha corregido un problema con la preparación de envíos que se podía producir cuando la configuración de enrutamiento estaba configurada para enviar el envío mediante intermediaria.
