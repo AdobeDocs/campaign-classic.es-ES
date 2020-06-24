@@ -5,9 +5,9 @@ solution: Campaign Classic
 title: Documentación del producto Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: b247a3702249183e1e0851160fb3ac3809437ff1
+source-git-commit: 30b2860250c6d1c4032a22a28f6e2e48dcacc6a8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '266'
 ht-degree: 86%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 86%
 
 ## Novedades
 
-* Tanto los términos &quot;lista blanca&quot; como &quot;lista negra&quot; se han eliminado de la documentación de Adobe Campaign. [Más información](/help/rn/using/documentation-updates.md)
+* **[Emoticonos](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>Ahora puede insertar iconos gestuales en mensajes y en la línea de asunto
 
 * **[Obtener preguntas más frecuentes sobre Soporte](https://helpx.adobe.com/es/campaign/kb/ac-support.html)**<br/> Access, prácticas recomendadas, recursos de ayuda y solicitud de ayuda
 
