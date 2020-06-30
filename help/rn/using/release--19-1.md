@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 655544352070b0e2fab72b1991d2e4d80e03e349
+source-git-commit: 3d6c304aaa0b3e6ba1156f1a65e93f5c284b0c0a
 workflow-type: tm+mt
-source-wordcount: '2808'
-ht-degree: 94%
+source-wordcount: '2848'
+ht-degree: 93%
 
 ---
 
@@ -92,6 +92,11 @@ Las siguientes correcciones están relacionadas con el mecanismo de seguridad de
 ![](assets/do-not-localize/orange_2.png) **29 de abril de 2020**: nueva compilación (9032@3a9dc9c) que incluye las siguientes correcciones:
 
 * Se ha mejorado la seguridad en el seguimiento de enlaces en el correo electrónico. Esta opción está habilitada de forma predeterminada para todos los clientes. Hay disponible una función de seguridad adicional y mejorada que se puede habilitar si se pone en contacto con el Servicio de atención al cliente. Encuentre más detalles sobre la función y los pasos para que los clientes que no están alojados puedan habilitarla en la [Lista de comprobación de seguridad y privacidad](https://helpx.adobe.com/es/campaign/kb/acc-security.html#signature-mechanism).
+
+>[!CAUTION]
+>
+>Si experimenta problemas con las notificaciones push mediante vínculos de seguimiento o con envíos que utilizan etiquetas de anclaje, le recomendamos que desactive el nuevo mecanismo de firma para el seguimiento de vínculos. El procedimiento se detalla en esta [página](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)
+
 * Se ha corregido un problema que podía impedir que las imágenes se mostraran en envíos de línea. (NEO-23207)
 * Se ha corregido un problema con la actividad **File Transfer** que impedía que la autenticación basada en claves SFTP funcionara en Debian 9. (NEO-23183)
 * Se ha corregido un problema que podía afectar a la notificación push cuando se enviaba con una frecuencia alta. (NEO-20516)
