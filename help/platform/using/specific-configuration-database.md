@@ -18,7 +18,7 @@ translation-type: tm+mt
 source-git-commit: fecfff477b0750782c87c017a15e306acac4c61d
 workflow-type: tm+mt
 source-wordcount: '2865'
-ht-degree: 78%
+ht-degree: 98%
 
 ---
 
@@ -33,22 +33,22 @@ Como regla general, debe instalar la capa del cliente correspondiente en la base
 >
 >Las versiones compatibles se enumeran en la [Matriz de compatibilidad de Campaign](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html#FederatedDataAccessFDA).
 
-## Configurar el acceso a la sinapsis de Azure {#configure-access-to-azure-synapse}
+## Configurar el acceso a Azure Synapse {#configure-access-to-azure-synapse}
 
-### Azure synapse external account {#azure-external}
+### Cuenta externa de Azure Synapse {#azure-external}
 
-The [!DNL Azure] external account allows you to connect your Campaign instance to your Azure Synapse external database.
+La cuenta externa [!DNL Azure] permite conectar la instancia de Campaign a la base de datos externa Azure Synapse.
 Para crear la cuenta externa [!DNL Azure Synapse] de cuenta externa:
 
-1. En Campaign Classic, configure la [!DNL Azure Synapse] cuenta externa. En **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+1. En Campaign Classic, configure la cuenta externa [!DNL Azure Synapse]. En **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
 1. Haga clic **[!UICONTROL Create]**.
 
 1. Configure la cuenta externa [!DNL Azure Synapse]. Debe especificar:
 
-   * **[!UICONTROL Type]**:: Azure Synapse Analytics
+   * **[!UICONTROL Type]**: Azure Synapse Analytics
 
-   * **[!UICONTROL Server]**:: URL del servidor de Azure Synapse
+   * **[!UICONTROL Server]**: URL del servidor Azure Synapse
 
    * **[!UICONTROL Account]**: Nombre del usuario
 
@@ -57,15 +57,15 @@ Para crear la cuenta externa [!DNL Azure Synapse] de cuenta externa:
    * **[!UICONTROL Database]**: Nombre de la base de datos
    ![](assets/azure_1.png)
 
-### Sinapsis de Azure en CentOS {#azure-centos}
+### Azure Synapse en CentOS {#azure-centos}
 
 **Requisitos previos:**
 
-* Necesitará privilegios de raíz para instalar un controlador ODBC.
-* Los controladores ODBC de Red Hat Enterprise proporcionados por Microsoft también se pueden utilizar con CentOS para conectarse a SQL Server.
-* La versión 13.0 funcionará con Red Hat 6 y 7.
+* Necesita privilegios de raíz para instalar un controlador ODBC.
+* Los controladores ODBC de Red Hat Enterprise que proporciona Microsoft también se pueden utilizar con CentOS para conectarse a SQL Server.
+* La versión 13.0 funciona con Red Hat 6 y 7.
 
-Para configurar la sinapsis de Azure en CentOS:
+Para configurar la Azure Synapse en CentOS:
 
 1. En primer lugar, instale el controlador ODBC. Puede encontrarlo en esta [página](https://www.microsoft.com/en-us/download/details.aspx?id=50420).
 
@@ -121,9 +121,9 @@ Para configurar la sinapsis de Azure en CentOS:
    /opt/mssql-tools/bin/sqlcmd -S yourServer -U yourUserName -P yourPassword -q "your query" # for example -q "select 1"
    ```
 
-1. En Campaign Classic, puede configurar la cuenta externa [!DNL Azure Synapse]. Para obtener más información sobre cómo configurar la cuenta externa, consulte esta [sección](../../platform/using/specific-configuration-database.md#azure-external).
+1. En Campaign Classic, puede configurar la cuenta externa [!DNL Azure Synapse]. Para más información sobre cómo configurar la cuenta externa, consulte esta [sección](../../platform/using/specific-configuration-database.md#azure-external).
 
-1. Dado que Azure Synapse Analytics se comunica a través del puerto TCP 1433, debe abrir este puerto en el servidor de seguridad. Utilice el siguiente comando:
+1. Dado que Azure Synapse Analytics se comunica a través del puerto TCP 1433, debe abrir este puerto en el cortafuegos. Utilice el siguiente comando:
 
    ```
    firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="[server_ip_here]/32" port port="1433" protocol="tcp" accept'
@@ -132,7 +132,7 @@ Para configurar la sinapsis de Azure en CentOS:
 
    >[!NOTE]
    >
-   >Para permitir la comunicación desde Azure Synapse Analytics, es posible que tenga que agregar su IP pública a la lista de permitidos. Para ello, consulte la documentación [de](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules)Azure.
+   >Para permitir la comunicación desde Azure Synapse Analytics, es posible que tenga que agregar su IP pública a la lista de permitidos. Para ello, consulte la [documentación de Azure](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
 1. En el caso de iptables, ejecute el siguiente comando:
 
@@ -140,15 +140,15 @@ Para configurar la sinapsis de Azure en CentOS:
    iptables -A OUTPUT -p tcp -d [server_hostname_here] --dport 1433 -j ACCEPT
    ```
 
-### Sinapsis de Azure en Windows {#azure-windows}
+### Azure Synapse en Windows {#azure-windows}
 
 >[!NOTE]
 >
 >Esto es exclusivo de la versión 13 del controlador ODBC, pero Adobe Campaign Classic también puede utilizar los controladores 11.0 y 10.0 del cliente nativo de SQL Server.
 
-Para configurar la sinapsis de Azure en Windows:
+Para configurar Azure Synapse en Windows:
 
-1. En primer lugar, instale el controlador ODBC de Microsoft. Puede encontrarlo en esta [página](https://www.microsoft.com/en-us/download/details.aspx?id=50420).
+1. Primero, instale el controlador ODBC de Microsoft. Puede encontrarlo en esta [página](https://www.microsoft.com/en-us/download/details.aspx?id=50420).
 
 1. Elija los siguientes archivos para instalar:
 
@@ -158,15 +158,15 @@ Para configurar la sinapsis de Azure en Windows:
 
 1. Una vez instalado el controlador ODBC, puede probarlo si es necesario. Para obtener más información, consulte [esta página](https://docs.microsoft.com/en-us/sql/connect/odbc/windows/system-requirements-installation-and-driver-files?view=sql-server-ver15#installing-microsoft-odbc-driver-for-sql-server).
 
-1. En Campaign Classic, puede configurar la cuenta externa [!DNL Azure Synapse]. Para obtener más información sobre cómo configurar la cuenta externa, consulte esta [sección](../../platform/using/specific-configuration-database.md#azure-external).
+1. En Campaign Classic, puede configurar la cuenta externa [!DNL Azure Synapse]. Para más información sobre cómo configurar la cuenta externa, consulte esta [sección](../../platform/using/specific-configuration-database.md#azure-external).
 
-1. Dado que Azure Synapse Analytics se comunica a través del puerto TCP 1433, debe abrir este puerto en el Firewall de Windows Defender. For more on this, refer to [Windows documentation](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-an-outbound-program-or-service-rule).
+1. Dado que Azure Synapse Analytics se comunica a través del puerto TCP 1433, debe abrir este puerto en Windows Defender Firewall. Para más información, consulte la [documentación de Windows](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-an-outbound-program-or-service-rule).
 
-### Sinapsis de Azure en Debian {#azure-debian}
+### Azure Synapse en Debian {#azure-debian}
 
 **Requisitos previos:**
 
-* Necesitará privilegios de raíz para instalar un controlador ODBC.
+* Necesita privilegios de raíz para instalar un controlador ODBC.
 * Curl es necesario para instalar el paquete msodbcsql. Si no lo tiene instalado, ejecute el siguiente comando:
 
    ```
@@ -175,7 +175,7 @@ Para configurar la sinapsis de Azure en Windows:
 
 Para configurar Azure Synapse en Debian:
 
-1. En primer lugar, instale el controlador ODBC de Microsoft para SQL Server. Utilice los siguientes comandos para instalar el controlador ODBC 13.1 para SQL Server:
+1. Primero, instale el controlador ODBC de Microsoft para SQL Server. Utilice los siguientes comandos para instalar el controlador ODBC 13.1 para SQL Server:
 
    ```
    sudo su
@@ -186,13 +186,13 @@ Para configurar Azure Synapse en Debian:
    sudo ACCEPT_EULA=Y apt-get install msodbcsql
    ```
 
-1. Si recibe el siguiente error **&quot;No se encontró el controlador de método /usr/lib/apt/methods/https&quot;** al llamar a la actualización **de** sudo apt-get, debe ejecutar el comando:
+1. Si recibe el siguiente error **“No se encontró el controlador de método /usr/lib/apt/methods/https”** al consultar la **actualización de sudo apt-get**, debe ejecutar el comando:
 
    ```
    sudo apt-get install apt-transport-https ca-certificates
    ```
 
-1. Ahora necesita instalar mssql-tools con los siguientes comandos. Se necesitan herramientas Mssq para utilizar la utilidad de programa de copia masiva (o BCP) y para ejecutar consultas.
+1. Ahora debe instalar mssql-tools con los siguientes comandos. Se necesitan herramientas Mssq para utilizar la utilidad de programa de copia masiva (o BCP) y ejecutar consultas.
 
    ```
    sudo ACCEPT_EULA=Y apt-get install mssql-tools
@@ -213,7 +213,7 @@ Para configurar Azure Synapse en Debian:
    /opt/mssql-tools/bin/sqlcmd -S yourServer -U yourUserName -P yourPassword -q "your query" # for example -q "select 1"
    ```
 
-1. In Campaign Classic, you can now configure your [!DNL Azure Synapse] external account. Para obtener más información sobre cómo configurar la cuenta externa, consulte esta [sección](../../platform/using/specific-configuration-database.md#azure-external).
+1. En Campaign Classic, puede configurar la cuenta externa [!DNL Azure Synapse]. Para más información sobre cómo configurar la cuenta externa, consulte esta [sección](../../platform/using/specific-configuration-database.md#azure-external).
 
 1. Para configurar iptables en Debian para garantizar la conexión con Azure Synapse Analytics, habilite el puerto TCP 1433 saliente para su nombre de host con el siguiente comando:
 
@@ -223,7 +223,7 @@ Para configurar Azure Synapse en Debian:
 
    >[!NOTE]
    >
-   >Para permitir la comunicación desde Azure Synapse Analytics, es posible que tenga que agregar su IP pública a la lista de permitidos. Para ello, consulte la documentación [de](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules)Azure.
+   >Para permitir la comunicación desde Azure Synapse Analytics, es posible que tenga que agregar su IP pública a la lista de permitidos. Para ello, consulte la  [documentación de Azure](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
 ## Configuración del acceso a Snowflake {#configure-access-to-snowflake}
 
@@ -237,7 +237,7 @@ Para configurar Azure Synapse en Debian:
 
 La cuenta externa [!DNL Snowflake] permite conectar la instancia de Campaign a la base de datos externa Snowflake.
 
-1. En Campaign Classic, configure la [!DNL Snowflake] cuenta externa. En **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+1. En Campaign Classic, configure la cuenta externa [!DNL Snowflake]. En **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
 1. Seleccione la cuenta externa **[!UICONTROL Snowflake]** incorporada.
 
@@ -283,7 +283,7 @@ El conector admite las siguientes opciones:
    /etc/init.d/nlserver6 start
    ```
 
-1. En Campaign Classic, puede configurar la cuenta externa [!DNL Snowflake]. Para obtener más información sobre cómo configurar la cuenta externa, consulte esta [sección](../../platform/using/specific-configuration-database.md#snowflake-external).
+1. En Campaign Classic, puede configurar la cuenta externa [!DNL Snowflake]. Para más información sobre cómo configurar la cuenta externa, consulte esta [sección](../../platform/using/specific-configuration-database.md#snowflake-external).
 
 ### Snowflake en Debian {#snowflake-debian}
 
@@ -303,7 +303,7 @@ El conector admite las siguientes opciones:
    systemctl start nlserver.service
    ```
 
-1. En Campaign Classic, puede configurar la cuenta externa [!DNL Snowflake]. Para obtener más información sobre cómo configurar la cuenta externa, consulte esta [sección](../../platform/using/specific-configuration-database.md#snowflake-external).
+1. En Campaign Classic, puede configurar la cuenta externa [!DNL Snowflake]. Para más información sobre cómo configurar la cuenta externa, consulte esta [sección](../../platform/using/specific-configuration-database.md#snowflake-external).
 
 ### Snowflake en Windows {#snowflake-windows}
 
@@ -311,7 +311,7 @@ El conector admite las siguientes opciones:
 
 1. Configure el controlador ODBC. Para obtener más información, consulte [esta página](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)
 
-1. En Campaign Classic, puede configurar la cuenta externa [!DNL Snowflake]. Para obtener más información sobre cómo configurar la cuenta externa, consulte esta [sección](../../platform/using/specific-configuration-database.md#snowflake-external).
+1. En Campaign Classic, puede configurar la cuenta externa [!DNL Snowflake]. Para más información sobre cómo configurar la cuenta externa, consulte esta [sección](../../platform/using/specific-configuration-database.md#snowflake-external).
 
 ## Configuración del acceso a Hadoop 3.0 {#configure-access-to-hadoop-3}
 
