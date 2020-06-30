@@ -12,11 +12,11 @@ discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '509'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Para ello, seleccione el menú correspondiente:
 
    Para obtener más información, consulte [esta sección](../../reporting/using/using-the-descriptive-analysis-wizard.md).
 
-Los datos del público objetivo se depuran mientras se ejecuta el flujo de trabajo. Solo se puede acceder a la última tabla de trabajo. You can configure the workflow so that all work tables remain accessible: check the **[!UICONTROL Keep the result of interim populations between two executions]** option in the workflow properties.
+Los datos del público objetivo se depuran mientras se ejecuta el flujo de trabajo. Solo se puede acceder a la última tabla de trabajo. Puede configurar el flujo de trabajo para que todas las tablas de trabajo permanezcan accesibles: marque la opción **[!UICONTROL Keep the result of interim populations between two executions]** en las propiedades del flujo de trabajo.
 
 Sin embargo, recomendamos que evite activar esta opción en caso de cantidades importantes de datos.
 
@@ -107,7 +107,7 @@ Siga estos pasos:
 
 1. En la plantilla de entrega, utilice los campos recopilados en el flujo de trabajo.
 
-   To do this, insert **[!UICONTROL Target extension]** type personalization fields.
+   Para ello, inserte los campos personalizados de tipo **[!UICONTROL Target extension]**.
 
    ![](assets/wf-targetdata-sample-5.png)
 
