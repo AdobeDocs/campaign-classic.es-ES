@@ -14,11 +14,11 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e31a0faf6c48e2d34ce47fc1cd5a23aae05aeebf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2925'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Para crear una entrega vinculada a una campaña, haga clic en el enlace **[!UICO
 
 ![](assets/campaign_op_add_delivery.png)
 
-Las configuraciones sugeridas se adaptan a los diferentes tipos de envío: correo directo, correo electrónico, canales móviles.
+Las configuraciones sugeridas se adecúan a los diferentes tipos de envío: correo postal, correo electrónico, canales móviles.
 
 >[!NOTE]
 >
