@@ -12,11 +12,11 @@ discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b60b5fad24c1237981f66315e7cf585c79f82641
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2887'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Por ejemplo, en el mensaje anterior, el asunto del mensaje está personalizado p
 >
 >El uso de plantillas personalizadas se presenta en [Acerca de la personalización](../../delivery/using/about-personalization.md).
 
-También puede insertar iconos gestuales en la línea de asunto con la ventana **[!UICONTROL Insert emoticon]** emergente.
+También puede insertar iconos gestuales en la línea de asunto con la ventana emergente **[!UICONTROL Insert emoticon]**.
 
 ## Contenido del mensaje {#message-content}
 
@@ -117,18 +117,18 @@ Los mensajes se envían en formato HTML o texto de forma predeterminada, según 
 
    ![](assets/s_ncs_user_wizard_email01_142.png)
 
-### Inserción de iconos gestuales en un mensaje de correo electrónico {#inserting-emoticons}
+### Inserción de emoticonos en un correo electrónico {#inserting-emoticons}
 
-Puede insertar iconos gestuales en el contenido del correo electrónico.
+Puede insertar emoticonos en el contenido del correo electrónico.
 
 1. Haga clic en el icono **[!UICONTROL Insert emoticon]**.
-1. Seleccione un icono gestual en la ventana emergente.
+1. En la ventana emergente, seleccione un emoticono.
 
    ![](assets/emoticon_4.png)
 
-1. Haga clic en el **[!UICONTROL Close]** botón cuando termine.
+1. Haga clic en el botón **[!UICONTROL Close]** cuando termine.
 
-Para personalizar la lista de iconos gestuales, consulte esta [página](../../delivery/using/customizing-emoticon-list.md).
+Para personalizar la lista de emoticonos, consulte esta [página](../../delivery/using/customizing-emoticon-list.md).
 
 ## Selección de los formatos de mensaje {#selecting-message-formats}
 
@@ -201,7 +201,7 @@ El asistente de entrega permite añadir imágenes locales o imágenes almacenada
 
 Para administrar imágenes mediante el asistente de envíos:
 
-1. Click the **[!UICONTROL Tracking & Images]** icon in the toolbar.
+1. En la barra de herramientas, haga clic en el icono **[!UICONTROL Tracking & Images]**.
    ![](assets/s_ncs_user_email_del_img_param.png)
 
 1. Seleccione **[!UICONTROL Upload images]** en la **[!UICONTROL Images]** pestaña.
@@ -219,11 +219,11 @@ Cuando se abre contenido HTML con imágenes incluidas en el asistente de entrega
 >
 >Las rutas de acceso a la imagen se modifican durante la carga manual o al enviar mensajes.
 
-### Sending a message with images {#sending-a-message-with-images}
+### Envío de un mensaje con imágenes {#sending-a-message-with-images}
 
 >[!NOTE]
 >
->Para evitar problemas de rendimiento, si incluye imágenes descargadas sobre la marcha desde una URL personalizada como [datos adjuntos](../../delivery/using/attaching-files.md), cada tamaño de imagen no debe superar los 100.000 bytes de forma predeterminada. Este umbral recomendado se puede configurar desde [la lista de opciones](../../installation/using/configuring-campaign-options.md#delivery)de Campaign Classic.
+>Para evitar problemas de rendimiento, si incluye imágenes descargadas sobre la marcha desde una URL personalizada como [datos adjuntos](../../delivery/using/attaching-files.md), cada tamaño de imagen no debe superar los 100.000 bytes de forma predeterminada. Este umbral recomendado se puede configurar desde [la lista de opciones de Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
 
 A continuación se muestra un ejemplo de entrega con cuatro imágenes:
 
