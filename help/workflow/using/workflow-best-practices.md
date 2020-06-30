@@ -14,11 +14,11 @@ discoiquuid: 3da951ef-5775-4593-8301-f143c71edc19
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1610'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Las directrices para la resolución de problemas relacionadas con la ejecución 
 
 ### “Logs”{#logs}
 
-The JavaScript method **[!UICONTROL logInfo()]** is a great solution for debugging a workflow. Es útil, pero debe utilizarse con cuidado, especialmente para actividades que se ejecutan con frecuencia: puede sobrecargar los registros y aumentar significativamente el tamaño de la tabla de registro. Sin embargo, también puede necesitar más que **[!UICONTROL logInfo()]**.
+El método JavaScript **[!UICONTROL logInfo()]** es una excelente solución para depurar un flujo de trabajo. Es útil, pero debe utilizarse con cuidado, especialmente para actividades que se ejecutan con frecuencia: puede sobrecargar los registros y aumentar significativamente el tamaño de la tabla de registro. Sin embargo, también puede necesitar más que **[!UICONTROL logInfo()]**.
 
 Hay dos soluciones adicionales disponibles para ayudarle:
 
@@ -72,7 +72,7 @@ Para evitar tener flujos de trabajo en estado pausado:
 
 * Consulte los flujos de trabajo regularmente para garantizar que no hay errores inesperados.
 * Mantenga los flujos de trabajo tan sencillos como sea posible, por ejemplo, dividiendo los flujos de trabajo grandes en distintos flujos de trabajo. Puede utilizar las actividades **[!UICONTROL External signal]** impulsando la ejecución en función de la ejecución de otros flujos de trabajo.
-* Evite tener actividades desactivadas con flujos en los flujos de trabajo, dejando los subprocesos abiertos y generando que muchas tablas temporales puedan consumir mucho espacio. Do not keep activities in **[!UICONTROL Do not enable]** or **[!UICONTROL Enable but do not execute]** states in your workflows.
+* Evite tener actividades desactivadas con flujos en los flujos de trabajo, dejando los subprocesos abiertos y generando que muchas tablas temporales puedan consumir mucho espacio. Evite mantener las actividades en estados **[!UICONTROL Do not enable]** o **[!UICONTROL Enable but do not execute]** en los flujos de trabajo.
 
 Asimismo, detenga los flujos de trabajo no utilizados. Los flujos de trabajo que siguen ejecutándose mantienen conexiones con la base de datos.
 
@@ -80,7 +80,7 @@ En los casos más inusuales sólo se debe utilizar la detención incondicional. 
 
 ### Ejecutar en la opción de motor {#execute-in-the-engine-option}
 
-In the **[!UICONTROL Workflow properties]** window, never check the **[!UICONTROL Execute in the engine]** option. Cuando esta opción está activada, el flujo de trabajo tiene prioridad y el motor de flujo de trabajo detiene todo el resto de flujos de trabajo hasta que este haya terminado.
+En la ventana **[!UICONTROL Workflow properties]**, evite seleccionar la opción **[!UICONTROL Execute in the engine]**. Cuando esta opción está activada, el flujo de trabajo tiene prioridad y el motor de flujo de trabajo detiene todo el resto de flujos de trabajo hasta que este haya terminado.
 
 ![](assets/wf-execute-in-engine.png)
 
@@ -142,11 +142,11 @@ El HeatMap de flujo de trabajo permite a los administradores de la plataforma de
 
 Al desarrollar el flujo de trabajo, todas las actividades tienen un nombre, como todos los objetos de Adobe Campaign. Aunque la herramienta genera el nombre, le recomendamos que cambie el nombre por uno explícito al configurarlo. El riesgo de hacerlo más tarde es que puede interrumpir el flujo de trabajo con actividades al usar el nombre de otra actividad anterior. Por lo tanto, sería difícil actualizar los nombres más adelante.
 
-El nombre de la actividad se puede encontrar en la pestaña **[!UICONTROL Advanced]**. Don’t leave them named **[!UICONTROL query]**, **[!UICONTROL query1]**, **[!UICONTROL query11]**, but give them explicit names such as **[!UICONTROL querySubscribedRecipients]**. Este nombre se muestra en el historial y, si procede, en los “logs” SQL, lo que le ayuda a depurar el flujo de trabajo al configurarlo.
+El nombre de la actividad se puede encontrar en la pestaña **[!UICONTROL Advanced]**. Evite poner nombres como **[!UICONTROL query]**, **[!UICONTROL query1]**, **[!UICONTROL query11]**; asígneles nombres explícitos como **[!UICONTROL querySubscribedRecipients]**. Este nombre se muestra en el historial y, si procede, en los “logs” SQL, lo que le ayuda a depurar el flujo de trabajo al configurarlo.
 
 ### Primeras y últimas actividades {#first-and-last-activities}
 
-* Inicie siempre el flujo de trabajo con una actividad **[!UICONTROL Start]** o una actividad **[!UICONTROL Scheduler]**. When relevant, you can also use an **[!UICONTROL External signal]** activity.
+* Inicie siempre el flujo de trabajo con una actividad **[!UICONTROL Start]** o una actividad **[!UICONTROL Scheduler]**. Si es relevante, también puede utilizar una actividad **[!UICONTROL External signal]**.
 * Al crear el flujo de trabajo, utilice solamente una actividad **[!UICONTROL Scheduler]** por rama. Si la misma rama de un flujo de trabajo tiene varios planificadores (vinculados entre sí), el número de tareas que se van a ejecutar se multiplica exponencialmente, lo cual sobrecarga considerablemente la base de datos. Esta regla también se aplica para todas las actividades con una pestaña de **[!UICONTROL Scheduling & History]**. Más información sobre [Programación](../../workflow/using/scheduler.md).
 
    ![](assets/wf-scheduler.png)
