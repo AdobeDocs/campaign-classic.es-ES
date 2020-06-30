@@ -18,7 +18,7 @@ translation-type: tm+mt
 source-git-commit: bb35d2ae2d40aaef3bb381675d0c36ffb100b242
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 49%
+ht-degree: 52%
 
 ---
 
@@ -73,7 +73,7 @@ Dentro del marco de una entrega de correo electrónico, los campos personalizado
 
 ![](assets/s_advuser_add_data_email.png)
 
-Si se especifica un código de segmento en una actividad de objetivo, se añade a una columna específica de la tabla de flujo de trabajo y se ofrece junto con los campos personalizados. To display all personalization fields, click the **[!UICONTROL Target extension > Other...]** link accessible via the personalization button.
+Si se especifica un código de segmento en una actividad de objetivo, se añade a una columna específica de la tabla de flujo de trabajo y se ofrece junto con los campos personalizados. Para mostrar todos los campos de personalización, haga clic en el enlace **[!UICONTROL Target extension > Other...]** al que se puede acceder con el botón de personalización.
 
 ![](assets/s_advuser_segment_code_select.png)
 
@@ -81,7 +81,7 @@ Si se especifica un código de segmento en una actividad de objetivo, se añade 
 
 ### Comprimir o encriptar un archivo {#zipping-or-encrypting-a-file}
 
-Adobe Campaign permite exportar archivos comprimidos o encriptados. When defining an export through a **[!UICONTROL Data extraction (file)]** activity, you can define a post-processing to zip or to encrypt the file.
+Adobe Campaign permite exportar archivos comprimidos o encriptados. Al definir una exportación a través de una actividad **[!UICONTROL Data extraction (file)]**, puede definir un posprocesamiento para comprimir o encriptar el archivo.
 
 Para poder hacerlo:
 
