@@ -128,7 +128,7 @@ ht-degree: 99%
       + [Contenido condicional](delivery/using/conditional-content.md)
       + [Cupones personalizados](delivery/using/personalized-coupons.md)
       + [Generación de documentos PDF personalizados](delivery/using/generating-personalized-pdf-documents.md)
-      + [Personalización de la lista de iconos gestuales](delivery/using/customizing-emoticon-list.md)
+      + [Personalización de la lista de emoticonos](delivery/using/customizing-emoticon-list.md)
    + Uso de las direcciones semilla {#using-seed-addresses}
       + [Sobre las direcciones semilla](delivery/using/about-seed-addresses.md)
       + [Creación de direcciones semilla](delivery/using/creating-seed-addresses.md)
@@ -528,7 +528,7 @@ ht-degree: 99%
       + [Vista previa del mensaje transaccional](message-center/using/transactional-message-preview.md)
       + [Envío de una prueba](message-center/using/sending-a-proof.md)
       + [Publicación de plantilla](message-center/using/template-publication.md)
-      + [Anulación de publicación de plantilla](message-center/using/template-unpublication.md)
+      + [Cancelación de publicación de una plantilla](message-center/using/template-unpublication.md)
    + Procesamiento de eventos {#event-processing}
       + [Acerca del procesamiento de eventos](message-center/using/about-event-processing.md)
       + [Recopilación de eventos](message-center/using/event-collection.md)
@@ -606,7 +606,7 @@ ht-degree: 99%
       + [Interacción: búfer de datos](installation/using/interaction---data-buffer.md)
    + Apéndices {#appendices}
       + [El archivo de configuración del servidor](installation/using/the-server-configuration-file.md)
-      + [Puntos finales de red de Campaña](installation/using/campaign-network-endpoints.md)
+      + [Puntos finales de red de Campaign ](installation/using/campaign-network-endpoints.md)
       + [Líneas de comandos](installation/using/command-lines.md)
       + [Creación de nuevas instancias](installation/using/creating-new-instances.md)
       + [Lista de opciones de Campaign Classic](installation/using/configuring-campaign-options.md)
