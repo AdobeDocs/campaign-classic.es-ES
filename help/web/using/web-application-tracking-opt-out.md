@@ -14,11 +14,11 @@ discoiquuid: 8f413002-bd32-426f-88b9-44cefae68593
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a62e4d072573f7ed1b77f755eb57838c70745592
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Si un usuario final opta por no participar en el seguimiento de conductas median
 
 >[!NOTE]
 >
->Cuando las secuencias de comandos siempre siguen las directrices descritas en la lista de comprobación [Seguridad y privacidad](https://helpx.adobe.com/campaign/kb/acc-security.html#dev).
+>Cuando las secuencias de script siempre siguen las directrices descritas en la [Lista de comprobación de seguridad y privacidad](https://helpx.adobe.com/es/campaign/kb/acc-security.html#dev).
 
 ## Configuración del banner {#configuring-the-banner-}
 
