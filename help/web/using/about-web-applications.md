@@ -14,11 +14,11 @@ discoiquuid: 3af763ad-6b0d-4f4c-aed1-c5e12efd4760
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1667dd0c8a38db0e554c59062cbcc5b6c6d992bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '681'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ En este capítulo se ofrece información general sobre cómo administrar aplicac
 
 >[!NOTE]
 >
->Consulte la lista [de comprobación](https://helpx.adobe.com/es/campaign/kb/acc-security.html) Seguridad y privacidad para obtener información sobre cómo optimizar la seguridad de las aplicaciones Web.
+>Consulte la [lista de comprobación de seguridad y privacidad](https://helpx.adobe.com/es/campaign/kb/acc-security.html) para obtener información sobre cómo optimizar la seguridad de las aplicaciones web.
 
 >[!CAUTION]
 >
