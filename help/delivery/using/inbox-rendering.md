@@ -14,11 +14,11 @@ discoiquuid: 72e974b8-415a-47ab-9804-b15957787198
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aef56860d6e4558a7f4833066ab3d83733591522
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '801'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -45,18 +45,18 @@ Para los clientes alojados e híbridos, el servicio de asistencia técnica y con
 
 Para las instalaciones in situ, siga los pasos a continuación para configurar la renderización de la Bandeja de entrada.
 
-1. Instale el **[!UICONTROL Inbox rendering (IR)]** paquete mediante el menú **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** . Para obtener más información, consulte [Instalación de paquetes estándar de Campaign Classic](../../installation/using/installing-campaign-standard-packages.md).
-1. Configure an external account of the HTTP type via the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** node. Para obtener más información, consulte [Creación de una cuenta externa](../../platform/using/external-accounts.md#creating-an-external-account).
+1. Mediante el menú **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]**, instale el paquete **[!UICONTROL Inbox rendering (IR)]**. Para obtener más información, consulte [Instalación de paquetes estándar de Campaign Classic](../../installation/using/installing-campaign-standard-packages.md).
+1. Configure una cuenta externa del tipo HTTP mediante el nodo **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]**. Para obtener más información, consulte [Creación de una cuenta externa](../../platform/using/external-accounts.md#creating-an-external-account).
 1. Defina los parámetros de cuenta externa de la siguiente manera:
-   * **[!UICONTROL Label]**:: Información del servidor de entrega
-   * **[!UICONTROL Internal name]**:: deliveryInstance
-   * **[!UICONTROL Type]**:: HTTP
-   * **[!UICONTROL Server]**:: https://deliverability-app.neolane.net/deliverability
-   * **[!UICONTROL Encryption]**:: Ninguno
-   * Check the **[!UICONTROL Enabled]** option.
+   * **[!UICONTROL Label]**: Información del servidor de envío
+   * **[!UICONTROL Internal name]**: deliverabilityInstance
+   * **[!UICONTROL Type]**: HTTP
+   * **[!UICONTROL Server]**: https://deliverability-app.neolane.net/deliverability
+   * **[!UICONTROL Encryption]**: Ninguno
+   * Marque la opción **[!UICONTROL Enabled]**.
    ![](assets/s_tn_inbox_rendering_external-account.png)
 
-1. Go to the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** node. Search for the **[!UICONTROL DmRendering_cuid]** option and contact support to get your delivery reports identifier that needs to be copied to the **[!UICONTROL Value (text)]** field.
+1. Vaya al nodo **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. Busque la opción **[!UICONTROL DmRendering_cuid]** y póngase en contacto con el servicio de soporte técnico para obtener el identificador de los informes de envío que debe copiarse en el campo **[!UICONTROL Value (text)]**.
 1. Edite el archivo **serverConf.xml** para permitir una llamada al servidor Litmus. Añada la siguiente línea a la sección `<urlPermission>`:
 
    ```
@@ -134,7 +134,7 @@ Este informe muestra las renderizaciones de la bandeja de entrada tal y como apa
 
 Pase el ratón por encima del gráfico para ver los detalles de cada color.
 
-The body of the report is divided into three parts: **[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]**, and **[!UICONTROL Webmails]**. Desplácese hacia abajo por el informe para mostrar todas las representaciones agrupadas en estas tres categorías.
+El cuerpo del informe se divide en tres partes: **[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]** y **[!UICONTROL Webmails]**. Desplácese hacia abajo por el informe para mostrar todas las representaciones agrupadas en estas tres categorías.
 
 ![](assets/s_tn_inbox_rendering_report.png)
 
