@@ -14,11 +14,11 @@ discoiquuid: 4c0530b1-0292-45bc-8730-668bc5b8550b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e5a499d723d3e4126f533b6c7dd63073aff3d09
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ La primera pestaña de la actividad **Inbound Emails** permite introducir los pa
 
 1. **[!UICONTROL Schedule]**
 
-   To define a schedule for the activity, click the **[!UICONTROL Scheduling]** tab and check **[!UICONTROL Plan execution]**. Haga clic en el botón **[!UICONTROL Change]** para configurar la programación.
+   Para definir una programación para la actividad, haga clic en la pestaña **[!UICONTROL Scheduling]** y verifique **[!UICONTROL Plan execution]**. Haga clic en el botón **[!UICONTROL Change]** para configurar la programación.
 
    La configuración de programación es la misma que para la actividad de programación. Consulte [Programador](../../workflow/using/scheduler.md).
 
