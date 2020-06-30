@@ -18,7 +18,7 @@ translation-type: tm+mt
 source-git-commit: 9784e0db6f1bef5abdf93d3517da04fe1ba69e7d
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -39,11 +39,11 @@ Para definir este filtro, aplique los siguientes pasos:
 
    ![](assets/campaign_opt_create_filter_01.png)
 
-1. Cambie la dimensión de objetivo predeterminada y seleccione las suscripciones (**nms:subscription**).
+1. Cambie la dimensión de segmentación predeterminada y seleccione las suscripciones (**nms:subscription**).
 
    ![](assets/campaign_opt_create_filter_02.png)
 
-1. Cree el filtro mediante el **[!UICONTROL Edit the query from the targeting dimension...]** vínculo.
+1. Cree el filtro mediante el enlace **[!UICONTROL Edit the query from the targeting dimension...]**.
 
    ![](assets/campaign_opt_create_filter_03.png)
 
@@ -94,7 +94,7 @@ También puede vincular reglas de filtrado directamente mediante esta pestaña, 
 
 ## Reglas de exclusión de envío predeterminadas {#default-deliverability-exclusion-rules}
 
-Two filtering rules are available by default: **[!UICONTROL Exclude addresses]** ( **[!UICONTROL addressExclusions]** ) and **[!UICONTROL Exclude domains]** ( **[!UICONTROL domainExclusions]** ). Durante el análisis del correo electrónico, estas reglas comparan las direcciones de correo de los destinatarios con las direcciones o nombres de dominio prohibidos incluidos en una lista de supresión global encriptada que se administra en la instancia de envío. Si se encuentra una coincidencia, el mensaje no se envía a ese destinatario.
+Hay dos reglas de filtrado disponibles de forma predeterminada: **[!UICONTROL Exclude addresses]** ( **[!UICONTROL addressExclusions]** ) y **[!UICONTROL Exclude domains]** ( **[!UICONTROL domainExclusions]** ). Durante el análisis del correo electrónico, estas reglas comparan las direcciones de correo de los destinatarios con las direcciones o nombres de dominio prohibidos incluidos en una lista de supresión global encriptada que se administra en la instancia de envío. Si se encuentra una coincidencia, el mensaje no se envía a ese destinatario.
 
 Esto es para evitar ser agregado a la lista de bloques debido a actividades maliciosas, especialmente el uso de Spamtrampa. Por ejemplo, si se utiliza un Spamtrampa para suscribirse a través de uno de sus formularios web, se enviará automáticamente un correo electrónico de confirmación a dicho Spamtrampa, lo que hará que su dirección se añada automáticamente a la lista de bloques.
 
