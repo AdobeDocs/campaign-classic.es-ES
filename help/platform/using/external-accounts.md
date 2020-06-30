@@ -18,7 +18,7 @@ translation-type: tm+mt
 source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
 workflow-type: tm+mt
 source-wordcount: '2218'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -157,7 +157,7 @@ Adobe Campaign proporciona varios conectores que permiten comunicarse con aplica
 
 Se pueden configurar los siguientes tipos de conexión:
 
-* Sinapsis de Azure. Para obtener más información, consulte esta [página](../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse).
+* Azure Synapse. Para obtener más información, consulte esta [página](../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse).
 * Oracle. Para obtener más información, consulte esta [página](../../platform/using/specific-configuration-database.md#configure-access-to-oracle).
 * Netezza. Para obtener más información, consulte esta [página](../../platform/using/specific-configuration-database.md#configure-access-to-netezza).
 * SAP HANA. Para obtener más información, consulte esta [página](../../platform/using/specific-configuration-database.md#configure-access-to-sap-hana).
