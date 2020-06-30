@@ -18,7 +18,7 @@ translation-type: tm+mt
 source-git-commit: f99e3a4f69cb2b0122f2f6957d419d6b95ad54b1
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -55,7 +55,7 @@ A continuación se muestra una lista de los RBL más utilizados. Para obtener un
 
 * **SURBL**
 
-   Refer to [http://www.surbl.org/](http://www.surbl.org/)
+   Consulte [ http://www.surbl.org/ ](http://www.surbl.org/)
 
    SURBL identifica los sitios web que aparecen con regularidad en el correo no deseado. Si su dominio aparece en la lista, puede afectar en gran medida a sus envíos. Debe informar a los servicios de envío y a la asistencia de Adobe Campaign inmediatamente.
 
