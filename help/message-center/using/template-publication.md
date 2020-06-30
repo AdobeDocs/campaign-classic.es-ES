@@ -14,18 +14,18 @@ discoiquuid: 43908738-a71a-49be-ac00-175f57a0555c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1486e897a125520c51661db3030c62ab380fb173
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
 
 # Publicación de plantilla{#template-publication}
 
-Una vez completada la plantilla de mensaje creada en la instancia de control, se puede publicarla en todas las instancias de ejecución. Publication lets you automatically create two message templates on the execution instance which will allow you to send messages linked to real-time and batch events.
+Una vez completada la plantilla de mensaje creada en la instancia de control, se puede publicarla en todas las instancias de ejecución. La publicación permite crear automáticamente dos plantillas de mensajes en la instancia de ejecución, lo que permite enviar mensajes relacionados con los eventos en tiempo real y por lotes.
 
 >[!IMPORTANT]
 >
@@ -35,13 +35,13 @@ Una vez completada la plantilla de mensaje creada en la instancia de control, se
 >
 >Al publicar plantillas de mensaje transaccional, las reglas de tipología se publican automáticamente en las instancias de ejecución.
 
-1. In the control instance, go to the **[!UICONTROL Message Center > Transactional message templates]** folder of the tree.
+1. En la instancia de control, vaya a la carpeta **[!UICONTROL Message Center > Transactional message templates]** del árbol.
 1. Seleccione la plantilla que desee publicar en las instancias de ejecución.
 1. Haga clic **[!UICONTROL Publish]**.
 
    ![](assets/messagecenter_publish_model_008.png)
 
-Once publication is complete, both message templates to be applied to batch and real-time type events are created in the tree of the production instance in the **[!UICONTROL Administration > Production > Message Center Execution> Default > Transactional message templates]** folder.
+Una vez terminada la publicación, las dos plantillas de mensaje que se aplican a los eventos de tipo por lote y en tiempo real se crean en el árbol de la instancia de producción de la carpeta **[!UICONTROL Administration > Production > Message Center Execution> Default > Transactional message templates]**.
 
 ![](assets/messagecenter_deployed_model_001.png)
 
