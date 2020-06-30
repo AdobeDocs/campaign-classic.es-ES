@@ -1,6 +1,6 @@
 ---
 title: Inicio de un flujo de trabajo
-description: Obtenga información sobre cómo inicio de un flujo de trabajo y descubrir acciones de flujos de trabajo en la barra de herramientas y en el menú que aparece al hacer clic con el botón derecho.
+description: Obtenga información sobre cómo iniciar un flujo de trabajo y descubra acciones de flujos de trabajo en la barra de herramientas y el menú que aparece al hacer clic con el botón derecho.
 page-status-flag: never-activated
 uuid: 7668f1a2-fcd0-41f8-b8f6-71d77bc47486
 contentOwner: sauviat
@@ -12,11 +12,11 @@ discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '734'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ A continuación se detalla la lista de opciones disponibles en el menú **[!UICO
 
 ## Barra de herramientas de acciones {#actions-toolbar}
 
-Los botones de la barra de herramientas se encuentran en esta [sección](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow). El botón **[!UICONTROL Actions]** le permite acceder a opciones de ejecución adicionales para actuar sobre los flujos de trabajo seleccionados. You can also use the **[!UICONTROL File > Actions]** menu, or right-click a workflow and select **[!UICONTROL Actions]**.
+Los botones de la barra de herramientas se encuentran en esta [sección](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow). El botón **[!UICONTROL Actions]** le permite acceder a opciones de ejecución adicionales para actuar sobre los flujos de trabajo seleccionados. También puede utilizar el menú **[!UICONTROL File > Actions]** o hacer clic con el botón derecho del ratón en un flujo de trabajo y seleccionar **[!UICONTROL Actions]**.
 
 ![](assets/purge_historique.png)
 
@@ -57,7 +57,7 @@ Los botones de la barra de herramientas se encuentran en esta [sección](../../c
 
    Esta acción detiene y reinicia el flujo de trabajo. En la mayoría de los casos, es posible reiniciarlo más rápido. También resulta útil automatizar el reinicio cuando la detención lleva una determinada cantidad de tiempo: esto sucede porque el comando “Detener” no está disponible cuando el flujo de trabajo se detiene.
 
-   The **[!UICONTROL Start / Pause / Stop / Restart]** actions are also available via the execution icons in the toolbar. Para obtener más información, consulte [esta sección](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow).
+   Las acciones **[!UICONTROL Start / Pause / Stop / Restart]** también están disponibles a través de los iconos de ejecución de la barra de herramientas. Para obtener más información, consulte [esta sección](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow).
 
 * **[!UICONTROL Purge history]**
 
@@ -65,11 +65,11 @@ Los botones de la barra de herramientas se encuentran en esta [sección](../../c
 
 * **[!UICONTROL Start in simulation mode]**
 
-   Esta opción permite iniciar el flujo de trabajo en modo de simulación, distinto del modo real. This means that when you enable this mode, only activities that do not impact the database or the file system are executed (e.g. **[!UICONTROL Query]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc.). Activities that do have an impact (e.g. **[!UICONTROL Export]**, **[!UICONTROL Import]**, etc.) no se ejecutan ni los que se encuentran después de ellos (en la misma rama).
+   Esta opción permite iniciar el flujo de trabajo en modo de simulación, distinto del modo real. Esto significa que, cuando se activa este modo, solo se ejecutan las actividades que no afectan a la base de datos o al sistema de archivos (por ejemplo **[!UICONTROL Query]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc.). Actividades que sí tienen impacto (por ejemplo, **[!UICONTROL Export]**, **[!UICONTROL Import]**, etc.). no se ejecutan ni los que se encuentran después de ellos (en la misma rama).
 
 * **[!UICONTROL Execute pending tasks now]**
 
-   Esta acción le permite iniciar todas las tareas pendientes lo antes posible. To start a specific task, right-click its activity and select **[!UICONTROL Execute pending task(s) now]**.
+   Esta acción le permite iniciar todas las tareas pendientes lo antes posible. Para iniciar una tarea específica, haga clic con el botón derecho en su actividad y seleccione **[!UICONTROL Execute pending task(s) now]**.
 
 * **[!UICONTROL Unconditional stop]**
 
@@ -83,7 +83,7 @@ Los botones de la barra de herramientas se encuentran en esta [sección](../../c
 
    Esta acción crea una nueva plantilla de flujo de trabajo basada en el flujo de trabajo seleccionado. Debe especificar la carpeta donde desea que se guarde (en el campo **[!UICONTROL Folder]**).
 
-   The **[!UICONTROL Mass update of selected lines]** and **[!UICONTROL Merge selected lines]** options are generic platform options available in all **[!UICONTROL Actions]** menus. Para obtener más información, consulte [esta sección](../../platform/using/updating-data.md).
+   Las opciones **[!UICONTROL Mass update of selected lines]** y **[!UICONTROL Merge selected lines]** son opciones genéricas de plataforma disponibles en todos los menús **[!UICONTROL Actions]**. Para obtener más información, consulte [esta sección](../../platform/using/updating-data.md).
 
 ## Menú del botón derecho {#right-click-menu}
 
@@ -95,17 +95,17 @@ Las siguientes opciones están disponibles en el menú del botón derecho:
 
 **[!UICONTROL Open]**: esta opción permite acceder a las propiedades de la actividad.
 
-**[!UICONTROL Display logs:]** esta opción le permite realizar la vista del registro de ejecución de la tarea para la actividad seleccionada. Consulte [Visualización de “logs”](../../workflow/using/monitoring-workflow-execution.md#displaying-logs).
+**[!UICONTROL Display logs:]** esta opción permite ver el “log” de ejecución de la tarea para la actividad seleccionada. Consulte [Visualización de “logs”](../../workflow/using/monitoring-workflow-execution.md#displaying-logs).
 
-**[!UICONTROL Execute pending task(s) now:]** esta acción permite el inicio de tareas pendientes lo antes posible.
+**[!UICONTROL Execute pending task(s) now:]** esta acción permite iniciar tareas pendientes lo antes posible.
 
-**[!UICONTROL Workflow restart from a task:]** esta opción le permite reiniciar el flujo de trabajo utilizando los resultados almacenados anteriormente para esta actividad.
+**[!UICONTROL Workflow restart from a task:]** esta opción permite reiniciar el flujo de trabajo con los resultados almacenados anteriormente para esta actividad.
 
-**[!UICONTROL Cut/Copy/Paste/Delete:]** estas opciones le permiten cortar, copiar, pegar y eliminar actividades.
+**[!UICONTROL Cut/Copy/Paste/Delete:]** estas opciones permiten cortar, copiar, pegar y eliminar actividades.
 
-**[!UICONTROL Copy as bitmap:]** esta opción le permite tomar una captura de pantalla de todas las actividades.
+**[!UICONTROL Copy as bitmap:]** esta opción permite realizar una captura de pantalla de todas las actividades.
 
-**[!UICONTROL Normal execution / Enable but do not execute / Do not enable:]** estas opciones también están disponibles en la **[!UICONTROL Advanced]** ficha de las propiedades de actividad. Se encuentran detalladas en [Execution](../../workflow/using/advanced-parameters.md#execution).
+**[!UICONTROL Normal execution / Enable but do not execute / Do not enable:]** : estas opciones están disponibles en la pestaña **[!UICONTROL Advanced]** de las propiedades de actividad. Se encuentran detalladas en [Execution](../../workflow/using/advanced-parameters.md#execution).
 
 **[!UICONTROL Save / Cancel:]** permite guardar o cancelar los cambios realizados en un flujo de trabajo.
 
