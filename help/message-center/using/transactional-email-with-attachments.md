@@ -12,11 +12,11 @@ discoiquuid: 7b8ab9d6-e47e-46d8-99df-da793486654c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 22d0e70f77eb3759632e05ab1cb0d8ee53adfac9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '629'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ En este caso, los archivos adjuntos no se generan previamente sino que se añade
 
 >[!NOTE]
 >
->Para evitar problemas de rendimiento, si incluye imágenes descargadas sobre la marcha desde una URL personalizada como datos adjuntos, cada tamaño de imagen no debe superar los 100.000 bytes de forma predeterminada. Este umbral recomendado se puede configurar desde [la lista de opciones](../../installation/using/configuring-campaign-options.md#delivery)de Campaign Classic.
+>Para evitar problemas de rendimiento, si incluye imágenes descargadas sobre la marcha desde una URL personalizada como datos adjuntos, cada tamaño de imagen no debe superar los 100.000 bytes de forma predeterminada. Este umbral recomendado se puede configurar desde [la lista de opciones de Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
 
 ## Recomendaciones {#important-notes}
 
@@ -60,7 +60,7 @@ Antes de implementar este escenario, lea atentamente las directrices siguientes:
 
 >[!NOTE]
 >
->Para evitar problemas de rendimiento, se recomienda no incluir más de un archivo adjunto por correo electrónico. El umbral recomendado se puede configurar desde [la lista de opciones](../../installation/using/configuring-campaign-options.md#delivery)de Campaign Classic.
+>Para evitar problemas de rendimiento, se recomienda no incluir más de un archivo adjunto por correo electrónico. El umbral recomendado se puede configurar desde [la lista de opciones de Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
 
 ## Implementación {#implementation}
 
