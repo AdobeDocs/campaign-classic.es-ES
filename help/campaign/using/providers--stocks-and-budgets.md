@@ -14,11 +14,11 @@ discoiquuid: d4627141-cef1-4ddb-ad6a-5dc217b9fa96
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e059fc9e2bfade30454601f31990c3ec14b8a847
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1906'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign permite definir proveedores de servicios que participan en los tr
 
 Cada proveedor de servicios se guarda en un archivo con detalles de contacto, plantillas de servicio y trabajos relacionados.
 
-Service providers are configured in the **[!UICONTROL Administration > Campaign management]** node of the tree.
+Los proveedores de servicios se configuran en el nodo **[!UICONTROL Administration > Campaign management]** del árbol.
 
 Los trabajos realizados durante las entregas se realizan mediante proveedores de servicios, especialmente en el caso del correo directo y los canales móviles. Estos proveedores de servicios pueden, por ejemplo, participar en la impresión o distribución de mensajes. Estos trabajos implican configuraciones y costes específicos de cada proveedor de servicios. La configuración de proveedores de servicios consta de cuatro etapas:
 
@@ -84,13 +84,13 @@ Para crear una plantilla de servicio y definir su contenido, aplique los siguien
 
    ![](assets/s_ncs_user_supplier_node_03.png)
 
-   * Enter a label for this cost category and select the type of process concerned: Delivery by **[!UICONTROL Direct mail]**, **[!UICONTROL E-mail]**, **[!UICONTROL Mobile]**, **[!UICONTROL Telephone]** or **[!UICONTROL Task]**.
+   * Introduzca una etiqueta para esta categoría de coste y seleccione el tipo de proceso correspondiente: Envío por **[!UICONTROL Direct mail]**, **[!UICONTROL E-mail]**, **[!UICONTROL Mobile]**, **[!UICONTROL Telephone]** o **[!UICONTROL Task]**.
    * Haga clic en el botón **[!UICONTROL Add]** para definir los tipos de coste asociados a esta categoría.
    * Si es necesario, asocie una línea de stock con cada tipo de coste para que las cantidades utilizadas se relacionen automáticamente con el stock disponible.
 
       >[!NOTE]
       >
-      >The stock lines are defined in the **[!UICONTROL Stock management]** node.\
+      >Las líneas de stock se definen en el nodo **[!UICONTROL Stock management]**.\
       >Para obtener más información, consulte [Gestión de stock y solicitudes](#stock-and-order-management).
 
 1. Puede preseleccionar un valor para esta categoría de coste, que se ofrece de forma predeterminada en las categorías de coste del proveedor de servicios (en lugar de en un espacio en blanco). Para ello, seleccione la opción de la columna **[!UICONTROL Selected]** para el tipo de categoría correspondiente:
@@ -119,7 +119,7 @@ Haga clic en la pestaña **[!UICONTROL Cost structure]** para configurar el cál
 
    Esta fórmula puede ser fija (para cualquier número de mensajes) o calculada según el número de mensajes.
 
-   When it depends on the number of messages, the cost calculation structure can be **[!UICONTROL Linear]**, **[!UICONTROL Linear by threshold]**, or **[!UICONTROL Constant by threshold]**.
+   Cuando depende del número de mensajes, la estructura de cálculo de costes puede ser **[!UICONTROL Linear]**, **[!UICONTROL Linear by threshold]** o **[!UICONTROL Constant by threshold]**.
 
 #### Estructura lineal {#linear-structure}
 
@@ -143,7 +143,7 @@ Para añadir un umbral, haga clic en el botón **[!UICONTROL Add]** situado a la
 
 #### Estructura constante por umbral {#constant-structure-by-threshold}
 
-Finalmente, puede configurar un cálculo de coste en función del número total de mensajes. To do this, select a **[!UICONTROL Constant by threshold]** calculation structure. Por ejemplo, el coste se establece en una cantidad fija de 12,00 para una entrega de entre 1 y 100 mensajes, y de 100,00 para una entrega de entre 101 y 1000 mensajes, y de 500,00 para cualquier entrega de más de 1000 mensajes, sea cual sea el número total.
+Finalmente, puede configurar un cálculo de coste en función del número total de mensajes. Para ello, seleccione una estructura de cálculo **[!UICONTROL Constant by threshold]**. Por ejemplo, el coste se establece en una cantidad fija de 12,00 para una entrega de entre 1 y 100 mensajes, y de 100,00 para una entrega de entre 101 y 1000 mensajes, y de 500,00 para cualquier entrega de más de 1000 mensajes, sea cual sea el número total.
 
 ![](assets/s_ncs_user_supplier_cost_structure_calc_04.png)
 
@@ -161,7 +161,7 @@ Para ello, haga clic en la pestaña **[!UICONTROL Processes]** para configurar l
 
 * La sección **[!UICONTROL Notification e-mail]** permite especificar la plantilla para enviar una notificación a los proveedores de servicios después de enviar los archivos. Seleccione la plantilla utilizada para crear el mensaje de alerta y el grupo de destinatarios.
 
-   By default, delivery templates for notification messages are saved in the **[!UICONTROL Administration > Campaign management > Technical delivery templates]** node, which is accessible from the general view.
+   De forma predeterminada, las plantillas de entrega de los mensajes de notificación se guardan en el nodo **[!UICONTROL Administration > Campaign management > Technical delivery templates]**, al que se puede acceder desde la vista general.
 
 * La sección **[!UICONTROL Post-processing]** permite seleccionar el flujo de trabajo que se inicia después de aprobar la entrega. Si se introduce una plantilla de flujo de trabajo, se crea automáticamente una instancia de flujo de trabajo y, a continuación, se inicia en cuanto surta efecto la aprobación. Este flujo de trabajo puede enviar el archivo de extracción a un proveedor de servicios externos para su procesamiento, por ejemplo.
 
@@ -179,7 +179,7 @@ Cuando se selecciona un servicio, las categorías de coste correspondientes al t
 
    ![](assets/s_ncs_user_supplier_mail_delivery_select.png)
 
-* Para el envío en canales móviles o teléfonos, se aplica el mismo modo de selección.
+* Para el envío mediante canales móviles o por teléfono, se aplica el mismo modo de selección.
 * Para una entrega por correo electrónico, el servicio se selecciona en la pestaña **[!UICONTROL Advanced]** de las propiedades de entrega, como en el siguiente ejemplo:
 
    ![](assets/s_ncs_user_supplier_email_delivery_select.png)
@@ -214,7 +214,7 @@ El procedimiento para configurar la gestión de stock y de pedidos en Adobe Camp
 
 ### Gestión de stock {#stock-management}
 
-Adobe Campaign puede alertar a un grupo de operadores si el stock se han agotado o han alcanzado un límite mínimo. Stock levels are accessible via the **[!UICONTROL Stocks]** link of the **[!UICONTROL Campaigns]** universe via the **[!UICONTROL Other choices]** link of the navigation area.
+Adobe Campaign puede alertar a un grupo de operadores si el stock se han agotado o han alcanzado un límite mínimo. A través del vínculo **[!UICONTROL Stocks]** del área de navegación, es posible acceder a los niveles de stock desde el vínculo **[!UICONTROL Campaigns]** del entorno de **[!UICONTROL Other choices]**.
 
 ![](assets/s_ncs_user_stocks_view.png)
 
@@ -245,7 +245,7 @@ Haga clic en el botón **[!UICONTROL Create]** para definir los parámetros de s
 
 ![](assets/s_ncs_user_stocks_new_line.png)
 
-* Indique la cantidad inicialmente disponible en el campo **[!UICONTROL Initial stock]**. The **[!UICONTROL Consumed]** and **[!UICONTROL In stock]** fields are calculated automatically and updated as campaigns progress.
+* Indique la cantidad inicialmente disponible en el campo **[!UICONTROL Initial stock]**. Los campos **[!UICONTROL Consumed]** e **[!UICONTROL In stock]** se calculan automáticamente y se actualizan mientras las campañas progresan.
 
    ![](assets/s_ncs_user_stocks_create_line.png)
 
