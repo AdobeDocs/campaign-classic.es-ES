@@ -14,11 +14,11 @@ discoiquuid: a0090c78-5873-446d-8d5f-b0f94ff5d373
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '547'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Si es necesario, puede asignar la tarea de aprobación a un solo operador o a un
    >
    >Sólo el operador elegido estará autorizado a aprobar la tarea.
 
-* Puede definir una consulta para filtrar los operadores de aprobación. To do this, select the **[!UICONTROL Filter]** value in the **[!UICONTROL Assignment type]** field and click the **[!UICONTROL Advanced parameters...]** link to define filtering conditions, as shown in the following example:
+* Puede definir una consulta para filtrar los operadores de aprobación. Para ello, en el campo **[!UICONTROL Assignment type]** seleccione el valor **[!UICONTROL Filter]** y haga clic en el vínculo **[!UICONTROL Advanced parameters...]** para definir las condiciones de filtrado, como se muestra en el siguiente ejemplo:
 
    ![](assets/s_advuser_validation_box_filter.png)
 
@@ -55,7 +55,7 @@ Un operador puede aprobar las tareas asignadas a dicho operador desde la consola
 
 Modificar el título o el cuerpo del mensaje de la actividad no afecta a las tareas actuales, sino que modifica las posibles elecciones que directamente afectan a las tareas actuales, que heredan automáticamente la nueva lista de opciones.
 
-**Se puede acceder a las tareas de tipo de aprobación** desde el **[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]** nodo: los operadores pueden acceder directamente al formulario de aprobación a través de esta vista.
+Se puede acceder a las tareas de tipo de **Approval** desde el nodo **[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]**: los operadores pueden acceder al formulario de aprobación directamente a través de esta vista.
 
 ![](assets/s_advuser_validation_from_console.png)
 
@@ -69,7 +69,7 @@ Este campo **[!UICONTROL Title]** contiene el título del mensaje: Este es el as
 
 La sección inferior del editor permite definir la lista de posibles respuestas. Hay una transición correspondiente a cada respuesta. El nombre es el identificador interno y la etiqueta es el texto que se mostrará en la lista de opciones.
 
-Click the **[!UICONTROL Advanced parameters...]** link to select the delivery template to be used to notify operators. La plantilla predeterminada (nombre interno &#39;notifyAssignee&#39;) toma el título y el mensaje y añade un vínculo a la página web que se utiliza para responder.
+Haga clic en el enlace **[!UICONTROL Advanced parameters...]** para seleccionar la plantilla de envío que desea utilizar para notificar a los operadores. La plantilla predeterminada (nombre interno &#39;notifyAssignee&#39;) toma el título y el mensaje y añade un vínculo a la página web que se utiliza para responder.
 
 Esta plantilla se puede modificar para personalizar el diseño del mensaje, pero es preferible realizar una copia. El mecanismo de objetivo (archivo externo, asignación de destino) no debe modificarse porque es necesario para que las notificaciones funcionen correctamente.
 
