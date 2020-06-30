@@ -14,11 +14,11 @@ discoiquuid: 3739593f-056c-4165-87ef-63c812bd3c43
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '164'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Cuando se activa una tarea de “Señal externa”, se pone en pausa indefinidam
 
 Consulte la documentación en línea sobre las llamadas SOAP para obtener más información sobre la función PostEvent.
 
-Puede configurar esta actividad para definir eventos si no se recibe ninguna señal. To do this, edit the activity and click the **[!UICONTROL Expiration]** tab. Click the **[!UICONTROL Insert]** button to create and configure an event.
+Puede configurar esta actividad para definir eventos si no se recibe ninguna señal. Para ello, edite la actividad y haga clic en la pestaña **[!UICONTROL Expiration]**. Haga clic en el botón **[!UICONTROL Insert]** para crear y configurar un evento.
 
 ![](assets/edit_signal.png)
 
