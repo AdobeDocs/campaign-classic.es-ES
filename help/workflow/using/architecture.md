@@ -12,10 +12,10 @@ discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
-workflow-type: ht
-source-wordcount: '154'
+translation-type: tm+mt
+source-git-commit: 3a932bc440853151704f1ba1e188fa0af9d4c5cb
+workflow-type: tm+mt
+source-wordcount: '116'
 ht-degree: 100%
 
 ---
@@ -30,4 +30,3 @@ Los flujos de trabajo se gestionan mediante un módulo específico. Este módulo
 * El proceso “Workflow Instance Runner” (runwf) ejecuta todas las tareas de una instancia de flujo de trabajo determinada. Cuando no hay tareas para ejecutar, se vuelve “pasivo”, es decir, guarda su estado en la base de datos y se detiene.
 * El módulo “Workflow Server” (wfserver) supervisa las instancias de flujo de trabajo actuales. Cuando hay una tarea para realizar, este módulo crea un proceso para activar (o reactivar) la instancia correspondiente.
 
-Cuando un operador realiza una acción en un flujo de trabajo (inicio, detención, pausa, etc.), la acción no se ejecuta con el módulo “nlserver”, sino que se coloca en una cola para que la procese el módulo de flujo de trabajo.
