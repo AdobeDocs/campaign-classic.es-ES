@@ -14,11 +14,11 @@ discoiquuid: 9b937d4d-55ae-4bd4-8dc6-eea42f15b69f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b1a961822224ab0a9551f51942a5f94cf201c8ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '520'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -77,9 +77,9 @@ La primera pestaña de la actividad **[!UICONTROL File collector]** permite sele
 
 1. **Historization**
 
-   Refer to the **[!UICONTROL File historization]** step here: [Web download](../../workflow/using/web-download.md).
+   Consulte el paso **[!UICONTROL File historization]** aquí: [Web download](../../workflow/using/web-download.md).
 
-El orden de procesamiento del archivo no se puede determinar. To process a set of files sequentially, use the **[!UICONTROL Stop as soon as a file has been processed]** option and create a loop. En este caso, los archivos se procesan en orden alfabético. The **[!UICONTROL Process file nonexistence]** option lets you finish the iteration.
+El orden de procesamiento del archivo no se puede determinar. Para procesar un conjunto de archivos secuencialmente, utilice la opción **[!UICONTROL Stop as soon as a file has been processed]** y cree un bucle. En este caso, los archivos se procesan en orden alfabético. La opción **[!UICONTROL Process file nonexistence]** permite finalizar la iteración.
 
 ![](assets/file_collect_loop.png)
 
