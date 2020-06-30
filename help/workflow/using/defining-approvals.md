@@ -12,11 +12,11 @@ discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '842'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -49,15 +49,15 @@ Es posible recibir un mensaje de aprobación que contenga un vínculo a una pág
 
 La administración del operador se explica en [esta sección](../../platform/using/access-management.md).
 
-Los correos electrónicos de aprobación se envían de forma continua. The default delivery template is **[!UICONTROL notifyAssignee]**: It is saved in the **[!UICONTROL Administration > Campaign management > Technical delivery templates]** folder. Este escenario se puede personalizar, y se recomienda realizar una copia y cambiar las plantillas para cada actividad.
+Los correos electrónicos de aprobación se envían de forma continua. La plantilla de entrega predeterminada es **[!UICONTROL notifyAssignee]**: se guarda en la carpeta **[!UICONTROL Administration > Campaign management > Technical delivery templates]**. Este escenario se puede personalizar, y se recomienda realizar una copia y cambiar las plantillas para cada actividad.
 
-Deliveries created via this template are stored in the **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]** folder.
+Las entregas creados mediante esta plantilla se almacenan en la carpeta **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]**.
 
 ## Aprobación mediante la consola {#approval-via-the-console}
 
 En las operaciones, los elementos que se vayan a aprobar se muestran en el panel de campañas.
 
-For technical workflows, the tasks that the user can approve can be accessed from the tree structure in the **[!UICONTROL Administration > Production > Objects created automatically > Pending approvals]** folder.
+Para los flujos de trabajo técnicos, se puede acceder a las tareas que el usuario puede aprobar desde la estructura de árbol de la carpeta **[!UICONTROL Administration > Production > Objects created automatically > Pending approvals]**.
 
 ![](assets/validation-node.png)
 
@@ -81,13 +81,13 @@ La segunda pestaña de las propiedades de aprobación de actividad permite defin
 Para añadir una nueva caducidad, haga clic en **[!UICONTROL Add]**. Se añade una transición a cada una de las caducidades creadas. Se puede:
 
 * modificar los parámetros típicos directamente haciendo clic en una celda de la lista (o presionando F2),
-* or edit the expression by clicking the **[!UICONTROL Detail...]** button.
+* o editar la expresión haciendo clic en el botón **[!UICONTROL Detail...]**.
 
 >[!NOTE]
 >
 >No es necesario especificar un orden para las caducidades porque se procesan en orden cronológico.
 
-The **[!UICONTROL Do not terminate the task]** option leaves the approval active when the delay is overrun. Este modo permite administrar los recordatorios y mantener la aprobación activa: los operadores aún pueden responder. Esta opción está desactivada de forma predeterminada, lo que significa que la tarea se considera finalizada cuando caduca y que los operadores ya no pueden responder.
+La opción **[!UICONTROL Do not terminate the task]** mantiene la aprobación activa cuando se supera el periodo de retardo. Este modo permite administrar los recordatorios y mantener la aprobación activa: los operadores aún pueden responder. Esta opción está desactivada de forma predeterminada, lo que significa que la tarea se considera finalizada cuando caduca y que los operadores ya no pueden responder.
 
 Puede crear cuatro tipos de caducidades:
 
