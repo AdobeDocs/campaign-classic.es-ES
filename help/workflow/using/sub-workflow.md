@@ -14,11 +14,11 @@ discoiquuid: a4441820-1b3d-4bac-a6e3-1c9c14466d19
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b1a961822224ab0a9551f51942a5f94cf201c8ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -29,19 +29,19 @@ La actividad **[!UICONTROL Sub-workflow]** permite activar la ejecución de otro
 
 Puede activar varios subflujos de trabajo en un solo flujo de trabajo. Los subflujos de trabajo se ejecutan de forma sincrónica.
 
-En el ejemplo siguiente, un flujo de trabajo &quot;maestro&quot; llama a un subflujo de trabajo mediante saltos. Para obtener más información sobre los objetos gráficos de tipo salto, consulte [esta sección](../../workflow/using/jump--start-point-and-end-point-.md).
+En el ejemplo siguiente, un flujo de trabajo “maestro” llama a un subflujo de trabajo mediante saltos. Para obtener más información sobre los objetos gráficos de tipo salto, consulte [esta sección](../../workflow/using/jump--start-point-and-end-point-.md).
 
 1. Cree un flujo de trabajo que utilizará como subflujo de trabajo en otro flujo de trabajo.
-1. Insert a **[!UICONTROL Jump (end point)]** activity with a priority of 1 at the beginning of the workflow. Si tiene varios saltos de tipo &quot;punto final&quot;, Adobe Campaign utilizará el salto &quot;punto final&quot; con el número más bajo.
-1. Insert a **[!UICONTROL Jump (start point)]** activity with a priority of 2 at the end of the workflow. Si tiene varios saltos de tipo &quot;punto de inicio&quot;, Adobe Campaign utilizará el salto &quot;punto de inicio&quot; con el número más alto.
+1. Inserte una actividad **[!UICONTROL Jump (end point)]** con una prioridad de 1 al principio del flujo de trabajo. Si tiene varios saltos del tipo “llegada”, Adobe Campaign utiliza el salto de “llegada” con el número más bajo.
+1. Inserte una actividad **[!UICONTROL Jump (start point)]** con una prioridad de 2 al final del flujo de trabajo. Si tiene varios saltos del tipo “inicio”, Adobe Campaign utiliza el salto “inicio” con el número más alto.
 
    ![](assets/subworkflow_jumps.png)
 
    >[!NOTE]
    >
-   >If the sub-workflow activity references a workflow with several **[!UICONTROL Jump]** activities, the sub-workflow is executed between the &quot;end point&quot; type jump with the lowest number and the &quot;start point&quot; type jump with the highest number.
+   >Si la actividad de subflujo de trabajo hace referencia a un flujo de trabajo con varias actividades **[!UICONTROL Jump]**, se ejecuta el subflujo de trabajo entre el salto de tipo “llegada” con el número más bajo y el salto de tipo “inicio” con el número más alto.
    >
-   >Para que el subflujo de trabajo se ejecute correctamente, solo debe tener un salto de tipo &quot;punto final&quot; con el número más bajo y un salto de tipo &quot;punto de inicio&quot; con el número más alto.
+   >Para que el subflujo de trabajo se ejecute correctamente, solo debe haber un único salto de tipo “llegada” con el número más bajo y un único salto de tipo de “inicio” con el número más alto.
 
 1. Complete y guarde este “subflujo de trabajo”.
 1. Crear un flujo de trabajo “maestro”.
@@ -51,7 +51,7 @@ En el ejemplo siguiente, un flujo de trabajo &quot;maestro&quot; llama a un subf
    ![](assets/subworkflow_selection.png)
 
 1. También puede agregar un script de configuración para alterar el flujo de trabajo al que se hace referencia.
-1. Haga clic **[!UICONTROL Ok]**. It will automatically create an outbound transition with the label of the **[!UICONTROL Jump (start point)]** activity from the selected workflow.
+1. Haga clic **[!UICONTROL Ok]**. Se crea automáticamente una transición saliente con la etiqueta de la actividad **[!UICONTROL Jump (start point)]** del flujo de trabajo seleccionado.
 
    ![](assets/subworkflow_outbound.png)
 
