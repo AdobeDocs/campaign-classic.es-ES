@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 30b2860250c6d1c4032a22a28f6e2e48dcacc6a8
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 86%
+ht-degree: 95%
 
 ---
 
@@ -21,14 +21,16 @@ ht-degree: 86%
 
 * **[Emoticonos](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>Ahora puede insertar iconos gestuales en mensajes y en la línea de asunto
 
-* **[Obtener preguntas más frecuentes sobre Soporte](https://helpx.adobe.com/es/campaign/kb/ac-support.html)**<br/> Access, prácticas recomendadas, recursos de ayuda y solicitud de ayuda
+* **[Obtener ayuda](https://helpx.adobe.com/es/campaign/kb/ac-support.html)**<br/>
+Acceso a preguntas frecuentes, prácticas recomendadas, recursos de ayuda y solicitudes de ayuda
 
 * **[Conformidad de privacidad](https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html)**<br/> 
 Obtenga información sobre cómo Adobe Campaign puede ayudarle con la conformidad de privacidad
 
-* **[Capacidades](https://helpx.adobe.com/es/campaign/kb/acc-tracking.html)**<br/> de seguimiento Comprender las capacidades y los procesos de seguimiento en la Campaña
+* **[Funcionalidades de seguimiento](https://helpx.adobe.com/es/campaign/kb/acc-tracking.html)**<br/>
+Conozca las funcionalidades de seguimiento y procesos en Campaign
 
-* **[Contenido interactivo con AMP](delivery/using/defining-interactive-content.md)**<br/>Obtenga información sobre cómo enviar correos electrónicos dinámicos con el nuevo formato AMP .
+* **[Contenido interactivo con AMP](delivery/using/defining-interactive-content.md)**<br/>Obtenga información sobre cómo enviar correos electrónicos dinámicos con el nuevo formato AMP
 
 [Haga clic aquí para obtener más actualizaciones](/help/rn/using/documentation-updates.md)
 
