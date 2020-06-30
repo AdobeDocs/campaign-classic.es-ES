@@ -14,11 +14,11 @@ discoiquuid: 91115d4f-0cb6-4bce-b28d-17f15e9f9a0a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0386ae88a1b4d9ebda64283d874e01b14e9e5af4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1203'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ Los perfiles y servicios duplicados de Campaign v7 están disponibles para los p
 
 Para obtener más información e instrucciones completas sobre los flujos de trabajo de Campaign Standard, consulte [Flujos de trabajo](../../workflow/using/about-workflows.md).
 
-1. Go to Campaign Standard and click **[!UICONTROL Marketing Activities]**.
+1. Vaya a Campaign Standard y haga clic en **[!UICONTROL Marketing Activities]**.
 1. En la parte superior derecha, haga clic en **[!UICONTROL Create]**.
 1. Haga clic **[!UICONTROL Workflow]**.
 1. Haga clic en **[!UICONTROL New workflow]** y **[!UICONTROL Next]**.
@@ -92,7 +92,7 @@ Para obtener más información e instrucciones completas sobre los flujos de tra
 
 1. Haga doble clic en la actividad **[!UICONTROL Query]** y seleccione un parámetro que pueda utilizarse con la base de datos duplicada. Por ejemplo, puede:
 
-   * Drag **[!UICONTROL Profiles]** to the workspace. Utilice el menú desplegable de campos para elegir **[!UICONTROL Is external resource]** y buscar perfiles duplicados desde Campaign v7.
+   * Arrastre **[!UICONTROL Profiles]** al espacio de trabajo. Utilice el menú desplegable de campos para elegir **[!UICONTROL Is external resource]** y buscar perfiles duplicados desde Campaign v7.
    * Arrastre otros parámetros de consulta para segmentar más los perfiles duplicados.
 
 ## Creación de envíos {#creating-a-delivery}
@@ -109,13 +109,13 @@ Siga los pasos a continuación para añadir una entrega de correo electrónico a
 >
 >Solicite al consultor que configure la aplicación web para el servicio de baja antes de iniciar los pasos siguientes.
 
-1. Click **[!UICONTROL Channels]** on the left.
-1. Drag **[!UICONTROL Email delivery]** to the existing workflow in the workspace.
+1. Haga clic en **[!UICONTROL Channels]** a la izquierda.
+1. Arrastre **[!UICONTROL Email delivery]** hasta el flujo de trabajo existente en el área de trabajo.
 
    ![](assets/acs_connect_profile_sync_07.png)
 
-1. Double click the **[!UICONTROL Email delivery]** activity and choose **[!UICONTROL Single send email]** or **[!UICONTROL Recurring email]**. Seleccione las opciones y haga clic en **[!UICONTROL Next]**.
-1. Click **[!UICONTROL Send via email]** and click **[!UICONTROL Next]**.
+1. Haga doble clic en la actividad **[!UICONTROL Email delivery]** y seleccione **[!UICONTROL Single send email]** o **[!UICONTROL Recurring email]**. Seleccione las opciones y haga clic en **[!UICONTROL Next]**.
+1. Haga clic en **[!UICONTROL Send via email]** y luego en **[!UICONTROL Next]**.
 
    ![](assets/acs_connect_profile_sync_08.png)
 
@@ -124,7 +124,7 @@ Siga los pasos a continuación para añadir una entrega de correo electrónico a
    ![](assets/acs_connect_profile_sync_09.png)
 
 1. En el campo **[!UICONTROL Subject]** introduzca el asunto que debe aparecer en la bandeja de entrada del correo electrónico del destinatario.
-1. Click **[!UICONTROL Change content]** to add an HTML template.
+1. Haga clic en **[!UICONTROL Change content]** para añadir una plantilla HTML.
 
    ![](assets/acs_connect_profile_sync_10.png)
 
@@ -162,7 +162,7 @@ Siga los pasos a continuación para añadir una entrega de correo electrónico a
 
    ![](assets/acs_connect_profile_sync_18.png)
 
-1. Double click the **[!UICONTROL Email delivery]** channel and choose **[!UICONTROL Confirm]** to send the email. Haga clic en **[!UICONTROL OK]** para enviar los mensajes.
+1. Haga doble clic en el canal **[!UICONTROL Email delivery]** y seleccione **[!UICONTROL Confirm]** para enviar el correo electrónico. Haga clic en **[!UICONTROL OK]** para enviar los mensajes.
 
    ![](assets/acs_connect_profile_sync_19.png)
 
@@ -178,11 +178,11 @@ Siga las instrucciones de [Creación de un flujo de trabajo](#creating-a-workflo
 
    ![](assets/acs_connect_profile_sync_21.png)
 
-1. Los datos del destinatario en Campaign v7 se actualizan para reflejar que el usuario se ha dado de baja de la suscripción. Confirm that the box **[!UICONTROL No longer contact (by any channel)]** is checked for the recipient. Para obtener información sobre cómo ver un destinatario en Campaign v7, consulte [Edición de un perfil](../../platform/using/editing-a-profile.md).
+1. Los datos del destinatario en Campaign v7 se actualizan para reflejar que el usuario se ha dado de baja de la suscripción. Confirme que la casilla **[!UICONTROL No longer contact (by any channel)]** esté seleccionada para el destinatario. Para obtener información sobre cómo ver un destinatario en Campaign v7, consulte [Edición de un perfil](../../platform/using/editing-a-profile.md).
 
    ![](assets/acs_connect_profile_sync_22.png)
 
-1. Vaya a Campaign Standard y abra los detalles del perfil del destinatario. Confirm that a checkbox appears next to **[!UICONTROL No longer contact (by any channel)]**. Para saber dónde encontrar los perfiles en Campaign Standard, consulte [Conceptos básicos de navegación](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html).
+1. Vaya a Campaign Standard y abra los detalles del perfil del destinatario. Confirme que aparece una casilla de verificación junto a **[!UICONTROL No longer contact (by any channel)]**. Para saber dónde encontrar los perfiles en Campaign Standard, consulte [Conceptos básicos de navegación](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html).
 
    ![](assets/acs_connect_profile_sync_23.png)
 
