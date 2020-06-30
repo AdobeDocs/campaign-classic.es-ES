@@ -14,8 +14,11 @@ discoiquuid: c7c67ee5-ad60-420f-b597-08c388049529
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
+translation-type: tm+mt
+source-git-commit: 5d67ab5bbc44b81c65605ae9132cf5a8356aa814
+workflow-type: tm+mt
+source-wordcount: '583'
+ht-degree: 100%
 
 ---
 
@@ -40,7 +43,7 @@ Obtenga más información sobre Adobe Campaign consultando los siguientes ejempl
 * [Cree un formulario de suscripción con doble incidencia](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in): Aprenda a enviar una solicitud de confirmación de suscripción para crear una incidencia doble para asegurarse de que el destinatario se haya suscrito de forma intencionada.
 * [Creación de una entrega de correo electrónico](../../web/using/use-case--creating-an-email-delivery.md): Aprenda a crear una entrega por correo electrónico con el Editor de contenido digital.
 * [Creación de resúmenes](../../web/using/use-cases--creating-overviews.md): Cree aplicaciones web de tipo de visión general para mostrar todas las aplicaciones web en su base de datos.
-* [Casos de uso de flujo de trabajo](../../workflow/using/using-the-local-approval-activity.md): Descubra a través de estos casos de uso diferentes formas de utilizar los flujos de trabajo.
+* [Casos de uso de flujo de trabajo](../../workflow/using/about-workflow-use-cases.md): Descubra a través de estos casos de uso diferentes formas de utilizar los flujos de trabajo.
 
 ## Videotutoriales {#how-to-videos}
 
