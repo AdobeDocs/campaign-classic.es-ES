@@ -4,11 +4,11 @@ user-guide-title: Ayuda de Adobe Campaign Standard
 index: y
 product: adobe campaign
 sub-product: Adobe Campaign Classic
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d67ab5bbc44b81c65605ae9132cf5a8356aa814
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2126'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -161,7 +161,7 @@ ht-degree: 98%
       + [Renderización de la bandeja de entrada](delivery/using/inbox-rendering.md)
       + [SpamAssassin](delivery/using/spamassassin.md)
       + [Prácticas recomendadas para renovación de participación](delivery/using/re-engagement-best-practices.md)
-      + [Bloquear bases de datos de listas](delivery/using/block-list-databases.md)
+      + [Bases de datos de listas de bloqueados](delivery/using/block-list-databases.md)
       + [Resolución de problemas](delivery/using/deliverability-faq.md)
    + Módulo de administración de contenido {#content-management}
       + [Acerca de la gestión del contenido](delivery/using/about-content-management.md)
@@ -320,13 +320,13 @@ ht-degree: 98%
       + [Sincronización de audiencias](integrations/using/synchronizing-audiences.md)
       + [Sincronización de aplicaciones web](integrations/using/synchronizing-web-applications.md)
       + [Solución de problemas del [!DNL Conector ACS]](integrations/using/troubleshooting-the-acs-connector.md)
-   + Activadores de Experience Cloud {#experience-triggers}
+   + Experience Cloud Triggers {#experience-triggers}
       + [Acerca de [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [Configuración de canalización](integrations/using/configuring-pipeline.md)
       + [Opción de canalización NmsPipeline_Config](integrations/using/nmspipeline-config.md)
-      + [Desencadenadores eventos](integrations/using/events.md)
-      + [Supervisión de tuberías](integrations/using/pipeline-monitoring.md)
-      + [Solución de problemas de tubería](integrations/using/pipeline-troubleshooting.md)
+      + [Eventos de activadores](integrations/using/events.md)
+      + [Supervisión de canalización](integrations/using/pipeline-monitoring.md)
+      + [Solución de problemas de canalización](integrations/using/pipeline-troubleshooting.md)
 + Automatización con flujos de trabajo {#automating-with-workflows}
    + Introducción {#introduction}
       + [Acerca de los flujos de trabajo](workflow/using/about-workflows.md)
@@ -404,7 +404,7 @@ ht-degree: 98%
       + [Correos electrónicos entrantes](workflow/using/inbound-emails.md)
       + [SMS entrante](workflow/using/inbound-sms.md)
    + Ejemplos de uso {#use-cases}
-      + [Acerca de los casos de uso del flujo de trabajo](workflow/using/about-workflow-use-cases.md)
+      + [Acerca de los casos de uso de flujos de trabajo](workflow/using/about-workflow-use-cases.md)
       + Entregas {#deliveries}
          + [Uso de la actividad de aprobación local](workflow/using/using-the-local-approval-activity.md)
          + [Prueba A/B](workflow/using/a-b-testing.md)
