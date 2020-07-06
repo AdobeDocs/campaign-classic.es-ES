@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 229df9ee7da5ac9c773a7af82aabceb755299cc6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6767'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,13 +27,13 @@ Esta página enumera todas las nuevas funciones y actualizaciones de la document
 
 También puede consultar las [Notas de la versión de Adobe Campaign Classic](../../rn/using/latest-release.md) para ver más actualizaciones.
 
-## June 2020 {#june-2020}
+## Junio de 2020 {#june-2020}
 
-Se ha actualizado la sección Eliminar una dirección en cuarentena. Esto incluye la aclaración de los casos en que las direcciones se eliminan automáticamente de la lista de cuarentena. [Más información](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
+Se ha actualizado la sección Eliminación de una dirección en cuarentena. Esto incluye la aclaración de los casos en que las direcciones se quitan automáticamente de la lista de cuarentena. [Más información](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-Se han agregado casos de uso sobre cómo [cifrar](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt) y [descifrar](../../workflow/using/importing-data.md#use-case-gpg-decrypt) datos mediante el Panel de control y Flujos de trabajo de la campaña.
+Se han agregado casos de uso sobre cómo [cifrar](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt) y [descifrar](../../workflow/using/importing-data.md#use-case-gpg-decrypt) datos mediante el Panel de control de Campaign y los Flujos de trabajo de la campaña.
 
-Tanto los términos &quot;lista blanca&quot; como &quot;lista negra&quot; se han eliminado de la documentación de Adobe Campaign. Algunas incidencias de estos términos pueden seguir existiendo en la interfaz de usuario del producto, nombres de opciones y código interno, pero se reemplazarán en próximas versiones de Campaña con &quot;bloqueo&quot; y &quot;lista de permitidos&quot;.
+Tanto los términos &quot;lista blanca&quot; como &quot;lista negra&quot; se han eliminado de la documentación de Adobe Campaign. Algunas incidencias de estos términos pueden seguir existiendo en la interfaz de usuario del producto, los nombres de las opciones y el código interno, pero se reemplazarán en próximas versiones de Campaign con &quot;lista de bloqueados&quot; y &quot;lista de permitidos&quot;.
 
 La página de integración de Experience Cloud Triggers y Adobe Campaign Classic se ha movido [aquí](../../integrations/using/about-triggers.md).
 
@@ -295,7 +295,7 @@ Se han actualizado las guías de introducción a la [seguridad](https://helpx.ad
 
 La descripción de la opción de flujo de trabajo previo al proceso se ha actualizado para reflejar los cambios del producto. [Más información](https://docs.campaign.adobe.com/doc/AC/en/WKF_Repository_of_activities_Action_activities.html#Data_loading__file_)
 
-Se ha actualizado la nota técnica Activadores de Marketing Cloud. [Más información](https://helpx.adobe.com/es/campaign/kb/triggers-and-campaign.html)
+Se ha actualizado la nota técnica Marketing Cloud Triggers. [Más información](https://helpx.adobe.com/es/campaign/kb/triggers-and-campaign.html)
 
 Se ha actualizado la lista de mensajes de error. [Más información](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
@@ -350,7 +350,7 @@ Se agregó información sobre la Banda de consultas para la cuenta externa de Te
 
 ## Enero de 2019 {#release-doc-16-01-2019}
 
-Se ha actualizado la nota técnica Activadores de Marketing Cloud. [Más información](https://helpx.adobe.com/es/campaign/kb/triggers-and-campaign.html)
+Se ha actualizado la nota técnica Marketing Cloud Triggers. [Más información](https://helpx.adobe.com/es/campaign/kb/triggers-and-campaign.html)
 
 Se agregó una nota en la sección de aprobación de ofertas para especificar que la mención “Contenido aprobado” indica que se ha logrado el proceso de aprobación de contenido, independientemente de si todas las ofertas se han habilitado/aprobado o no. [Más información](https://docs.campaign.adobe.com/doc/AC/en/ITA_Managing_an_offer_catalog_Approving_and_activating_an_offer.html#Approving_offer_content)
 
@@ -482,7 +482,7 @@ Se ha actualizado la página Funciones obsoletas y eliminadas. [Más informació
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
-Se ha cambiado el nombre de las guías de usuario de Campaign Classic para simplificar la navegación, mejorar la experiencia del usuario, acceder a la información y a la autoayuda. [Más información](https://docs.campaign.adobe.com/doc/AC/en/browseAC.html)
+Se ha cambiado el nombre de las guías de usuario de Campaign Classic para simplificar la navegación, mejorar la experiencia del usuario, acceder a la información y a la autoayuda. [Más información](https://docs.campaign.adobe.com/doc/AC/es/browseAC.html)
 
 Se ha actualizado la lista de funciones disponibles en el editor de expresiones. [Más información](https://docs.campaign.adobe.com/doc/AC/en/PTF_Creating_queries_Defining_filter_conditions.html#List_of_functions)
 
@@ -544,7 +544,7 @@ Se ha agregado una nueva página con las preguntas más comunes sobre Campaign C
 
 Se ha actualizado la lista de mensajes de error. [Más información](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-Se ha actualizado la nota técnica Activadores de Marketing Cloud. [Más información](https://helpx.adobe.com/es/campaign/kb/triggers-and-campaign.html)
+Se ha actualizado la nota técnica Marketing Cloud Triggers. [Más información](https://helpx.adobe.com/es/campaign/kb/triggers-and-campaign.html)
 
 Se ha añadido una nota técnica sobre cómo instalar e implementar el paquete de privacidad (RGPD) en las versiones heredadas de Campaign Classic. [Más información](https://helpx.adobe.com/es/campaign/kb/how-to-install-gdpr-package-on-legacy-versions.html)
 
@@ -593,7 +593,7 @@ Se ha agregado una nueva sección para ayudarle a supervisar el estado de la ent
 
 Se ha actualizado la lista de mensajes de error. [Más información](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-Se ha actualizado la nota técnica Activadores de Marketing Cloud. [Más información](https://helpx.adobe.com/es/campaign/kb/triggers-and-campaign.html)
+Se ha actualizado la nota técnica Marketing Cloud Triggers. [Más información](https://helpx.adobe.com/es/campaign/kb/triggers-and-campaign.html)
 
 La guía de migración de Campaign Classic se ha agregado a la colección. [Más información](https://docs.campaign.adobe.com/doc/AC/en/MIG_Migration_overview_About_migration.html)
 
@@ -679,7 +679,7 @@ Se ha añadido una tabla que describe los errores específicos de los mensajes S
 
 Flujos de trabajo: se ha añadido un nuevo ejemplo de flujo de trabajo multicanal. [Más información](https://docs.campaign.adobe.com/doc/AC/en/WKF_Repository_of_activities_Action_activities.html#Cross-channel_deliveries)
 
-Activadores de Marketing Cloud: se ha añadido una nota técnica sobre cómo configurarla y utilizarla con Adobe Campaign. [Más información](https://helpx.adobe.com/es/campaign/kb/triggers-and-campaign.html)
+Marketing Cloud Triggers: se ha añadido una nota técnica sobre cómo configurarla y utilizarla con Adobe Campaign. [Más información](https://helpx.adobe.com/es/campaign/kb/triggers-and-campaign.html)
 
 La guía Flujo de trabajo se ha reorganizado y ampliado. Encuentre fácilmente cómo [construir](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Building_a_workflow.html) y [ejecutar](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Executing_a_workflow.html) un flujo de trabajo, cómo [dirigir](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Targeting_data.html) y [gestionar](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Targeting_data.html#Data_Management) sus datos, cómo [importar](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Importing_data.html), y cómo usar los datos de flujo de trabajo para [actualizar la base de datos](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_How_to_use_workflow_data.html#Updating_the_database) o para [enviar entregas](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_How_to_use_workflow_data.html#Delivering_via_a_workflow).
 
