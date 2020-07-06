@@ -14,11 +14,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3d6c304aaa0b3e6ba1156f1a65e93f5c284b0c0a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2848'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -77,17 +77,17 @@ _13 de agosto de 2019_
 
 ## Versión 19.1.4: compilación 9032{#release-19-1-4-build-9032}
 
-![](assets/do-not-localize/green_2.png) **22 de junio de 2020**: nueva compilación (9032@800be2e) que incluye las siguientes correcciones:
+![](assets/do-not-localize/green_2.png) **22 de junio de 2020**: nueva versión (9032@800be2e) que incluye las siguientes correcciones:
 
 * Se ha mejorado el conector HTTP2 de iOS (actualizaciones de terceros y administración de errores). (NEO-25904, NEO-25903, NEO-25799)
 
 Las siguientes correcciones están relacionadas con el mecanismo de seguridad del vínculo de seguimiento:
 
-* Se ha corregido un problema que impedía que funcionara el seguimiento de &quot;clics de notificación&quot; (notificaciones push de iOS y Android). (NEO-25965)
-* Se ha corregido un problema que podía impedir que se abrieran o hicieran clic en las direcciones URL de seguimiento al usar ciertas versiones heredadas de Outlook.  (NEO-25688)
-* Se ha corregido un problema que impedía que funcionara el seguimiento de direcciones URL mediante fragmentos en parámetros de personalización (etiquetas de anclaje con signo de almohadilla). (NEO-25774)
+* Se ha corregido un problema que impedía el funcionamiento del seguimiento de &quot;clics de notificación&quot; (notificaciones push de iOS y Android). (NEO-25965)
+* Se ha corregido un problema que podía impedir que se abrieran las direcciones URL de seguimiento al usar ciertas versiones heredadas de Outlook o se hiciera clic en ellas.  (NEO-25688)
+* Se ha corregido un problema que impedía que el funcionamiento del seguimiento de direcciones URL mediante fragmentos en parámetros de personalización (etiquetas de anclaje con signo de almohadilla). (NEO-25774)
 * Se ha corregido un problema con el servicio de antiphishing. (NEO-25283)
-* Se corrigió un problema de seguimiento al usar fórmulas de seguimiento personalizadas específicas. (NEO-25277)
+* Se ha corregido un problema de seguimiento al usar fórmulas de seguimiento personalizadas específicas. (NEO-25277)
 
 ![](assets/do-not-localize/orange_2.png) **29 de abril de 2020**: nueva compilación (9032@3a9dc9c) que incluye las siguientes correcciones:
 
@@ -95,7 +95,7 @@ Las siguientes correcciones están relacionadas con el mecanismo de seguridad de
 
 >[!CAUTION]
 >
->Si experimenta problemas con las notificaciones push mediante vínculos de seguimiento o con envíos que utilizan etiquetas de anclaje, le recomendamos que desactive el nuevo mecanismo de firma para el seguimiento de vínculos. El procedimiento se detalla en esta [página](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)
+>Si tiene problemas con las notificaciones push mediante vínculos de seguimiento o con envíos que utilizan etiquetas de anclaje, le recomendamos que desactive el nuevo mecanismo de firma para el seguimiento de vínculos. El procedimiento se detalla en esta [página](https://helpx.adobe.com/es/campaign/kb/acc-security.html#signature-mechanism).
 
 * Se ha corregido un problema que podía impedir que las imágenes se mostraran en envíos de línea. (NEO-23207)
 * Se ha corregido un problema con la actividad **File Transfer** que impedía que la autenticación basada en claves SFTP funcionara en Debian 9. (NEO-23183)
@@ -173,7 +173,7 @@ _30 de mayo de 2019_
  <tbody> 
   <tr> 
    <td> Panel de control<br /> </td> 
-   <td> <p>Para aumentar la eficacia de su trabajo como usuario administrador, administre la configuración de sus servidores SFTP monitoreando el almacenamiento, agregando direcciones IP para permitir la lista e instalando claves SSH para cada instancia. Tenga en cuenta que el Panel de control solo está disponible para los clientes alojados en AWS a partir de hoy (<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Inicie sesión hoy a través de Experience Cloud)</a>.</p> <p>Para obtener más información, consulte la <a href="https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">videotutorial</a>. </p><p>Nota: no es necesario actualizar a la última compilación de Campaign para acceder al Panel de control.</p> </td> 
+   <td> <p>Para aumentar la eficacia en su trabajo como usuario administrador, gestione la configuración de sus servidores SFTP controlando el almacenamiento, añadiendo direcciones IP a listas de permitidos e instalando claves SSH para cada instancia. Tenga en cuenta que el Panel de control solo está disponible para los clientes alojados en AWS a partir de hoy (<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Inicie sesión hoy a través de Experience Cloud)</a>.</p> <p>Para obtener más información, consulte la <a href="https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">videotutorial</a>. </p><p>Nota: no es necesario actualizar a la última compilación de Campaign para acceder al Panel de control.</p> </td> 
   </tr> 
     <tr> 
    <td> Pista de auditoría<br /> </td> 
