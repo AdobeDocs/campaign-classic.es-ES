@@ -14,14 +14,16 @@ discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 5ae1f5462dd3e6c4858a27cadae24eb732c0535b
+translation-type: tm+mt
+source-git-commit: c86af066045c1c35b51624de8565af21746354c1
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 100%
 
 ---
 
 
 # Opciones adicionales {#additional-options}
-
 
 <!--
 
@@ -91,6 +93,29 @@ Durante el análisis de envío, esta opción crea y ejecuta automáticamente un 
 
 Si marca esta opción, puede mejorar de forma significativa el rendimiento de la ejecución de la personalización.
 
+## Uso de datos de una base de datos externa en un flujo de trabajo {#using-data-from-an-external-database-in-a-workflow}
+
+En varias actividades del flujo de trabajo de Adobe Campaign, puede utilizar los datos almacenados en una base de datos externa.
+
+### Filtrado en datos externos {#filtering-on-external-data}
+
+La actividad de consulta permite agregar datos externos y utilizarlos en las configuraciones de filtro definidas.
+
+Para obtener más información, consulte la sección de [Consulta](../../workflow/using/targeting-data.md#selecting-data).
+
+### Creación de subgrupos {#creating-sub-sets}
+
+La actividad de partición permite crear subgrupos. Puede utilizar datos externos para definir los criterios de filtrado que deben utilizarse.
+
+Para obtener más información, consulte la sección de [Partición](../../workflow/using/split.md).
+
+### Carga de la base de datos externa {#loading-external-database}
+
+Puede utilizar los datos externos en la carga de datos (RDBMS). Esta actividad se presenta en la sección [Carga de datos](../../workflow/using/data-loading--rdbms-.md).
+
+### Adición de información y enlaces {#adding-information-and-links}
+
+La actividad de enriquecimiento permite añadir datos adicionales a la tabla de trabajo del flujo de trabajo, así como enlaces a una tabla externa. Por este motivo, puede aprovechar los datos de una base de datos externa. Esta actividad se presenta en la sección [Enriquecimiento](../../workflow/using/enrichment.md).
 <!--
 
 ## Cloud Messaging - FDA synchronization {#cloud-messaging---fda-synchronization}
