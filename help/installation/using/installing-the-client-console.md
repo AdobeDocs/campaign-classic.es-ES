@@ -15,20 +15,29 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: be590c6d993eecacf51736e3c3e415addae5c6bd
+source-git-commit: 005be008585f75a87fb0029a8a88578cfde5ce51
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 11%
 
 ---
 
 
-# Instalación de la consola de cliente{#installing-the-client-console}
+# Instalación de la consola cliente de Campaña{#installing-the-client-console}
 
-El procedimiento de instalación de la consola de Adobe Campaign se detalla a continuación.
+La consola del cliente de Campaña es un cliente enriquecido que le permite conectarse a los servidores de aplicaciones de Campaña.
 
-Antes de instalar la consola de Adobe Campaign, compruebe los requisitos previos enumerados en la matriz [](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)Compatibilidad.
+Antes de comenzar, debe comprobar la matriz [de](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)compatibilidad de Campaña, obtener la URL del servidor de Campaña y las credenciales de usuario.
 
-Para instalar la consola de Adobe Campaign, siga los pasos siguientes:
+>[!CAUTION]
+>
+>La consola del cliente de Campaña y el servidor de aplicaciones de Campaña deben ejecutarse en la misma versión del producto. Adobe también recomienda utilizar la misma compilación de productos.
 
-1. Abra un explorador Web y descargue la consola desde la siguiente dirección:
+## Descargar la consola{#download-the-client-console}
+
+Para descargar e instalar la consola cliente de Adobe Campaign, siga los pasos a continuación:
+
+1. Abra un navegador web y descargue la consola de la siguiente dirección:
 
    [`https://<your adobe campaign server>:<port number>/nl/jsp/logon.jsp`](https://machine/nl/jsp/logon.jsp).
 
@@ -40,11 +49,57 @@ Para instalar la consola de Adobe Campaign, siga los pasos siguientes:
 
 1. Haga clic en el **[!UICONTROL Download]** vínculo en la página de instalación.
 1. Descargue y guarde el archivo de configuración del cliente.
-1. Ejecute el archivo descargado en un equipo con Windows: Se inicia la instalación. La ruta de instalación predeterminada de la consola de cliente es **$PROGRAMFILES$/Adobe/Adobe Campaign Classic vX Client**, donde &#39;X&#39; es &#39;6&#39; o &#39;7&#39;, según la versión de Adobe Campaign.
-1. Una vez finalizado el programa de instalación, inicie la consola desde el menú Windows **[!UICONTROL Start]** (en el grupo de programas de **Adobe Campaign** ).
+1. Ejecute el archivo descargado en un equipo con Windows: La instalación se inicio. La ruta de instalación predeterminada de la consola de cliente es **$PROGRAMFILES$/Adobe/Adobe Campaign Classic vX Client**, donde &#39;X&#39; es &#39;6&#39; o &#39;7&#39;, según la versión de Adobe Campaign.
 
 >[!NOTE]
 >
->En Windows, puede iniciar el archivo **nlclient.exe** directamente desde el `[INSTALL]/bin` directorio de un servidor Windows, donde `[INSTALL]` es la ruta de acceso para la carpeta de instalación de Adobe Campaign.\
->Para crear una nueva conexión, consulte [Creación de una instancia e inicio de sesión](../../installation/using/creating-an-instance-and-logging-on.md).
+>En Windows, puede iniciar el archivo **nlclient.exe** directamente desde el `[INSTALL]/bin` directorio de un servidor Windows, donde `[INSTALL]` es la ruta de acceso de la carpeta de instalación de Adobe Campaign.
 
+## Crear la conexión{#create-the-connection}
+
+Una vez instalada la consola de cliente, siga los pasos a continuación para crear la conexión con el servidor de aplicaciones:
+
+1. Inicio la consola desde el menú de Windows **[!UICONTROL Start]** , en el grupo de programas de **Adobe Campaign** .
+
+1. Haga clic en el vínculo en la esquina superior derecha de los campos de credenciales para acceder a la ventana de configuración de conexión.
+
+   ![](assets/s_ncs_install_define_connection_01.png)
+
+1. Haga clic en **[!UICONTROL Add > Connection]** y escriba la etiqueta y la dirección URL del servidor de aplicaciones de Adobe Campaign.
+
+   ![](assets/s_ncs_install_define_connection_02.png)
+
+1. Especifique una conexión con el servidor de aplicaciones Adobe Campaign mediante una URL. Use un DNS o un alias del equipo o su dirección IP.
+
+   Por ejemplo, puede utilizar el [`https://<machine>.<domain>.com`](https://machine) tipo URL.
+
+1. Si Adobe IMS está configurado para su organización, marque la opción **[!UICONTROL Connect with an Adobe ID]**
+
+1. Haga clic en **[!UICONTROL Ok]** para guardar la configuración.
+
+Puede agregar tantas conexiones como sea necesario para conectarse a los entornos de prueba, etapa y producción, por ejemplo.
+
+>[!NOTE]
+>
+>El botón **[!UICONTROL Add]** permite crear **[!UICONTROL folders]** para organizar todas las conexiones. Basta con arrastrar y colocar cada conexión en una carpeta.
+
+
+## Iniciar sesión en la Campaña
+
+Para iniciar sesión en una instancia existente, siga los pasos a continuación:
+
+1. Inicio la consola desde el menú de Windows **[!UICONTROL Start]** , en el grupo de programas de **Adobe Campaign** .
+
+1. Haga clic en el vínculo en la esquina superior derecha de los campos de credenciales para acceder a la ventana de configuración de conexión.
+
+1. Seleccione la instancia de Campaña en la que debe iniciar sesión.
+
+1. Haga clic **[!UICONTROL Ok]**
+
+1. Introduzca sus credenciales de inicio de sesión de usuario y haga clic en **[!UICONTROL Log in]**
+
+**Temas relacionados**
+
+* [Creación de una instancia e inicio de sesión](../../installation/using/creating-an-instance-and-logging-on.md).
+* [Matriz de compatibilidad](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)
+* [Instalación y configuración del cliente](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/install-and-setup-the-adobe-campaign-client.html) de Adobe Campaign (vídeo)
