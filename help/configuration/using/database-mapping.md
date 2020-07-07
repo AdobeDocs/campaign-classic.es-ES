@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
+source-git-commit: 656b867686dd90f3e921c2adb5e5676fec184803
+workflow-type: tm+mt
+source-wordcount: '1976'
+ht-degree: 1%
 
 ---
 
@@ -47,13 +50,13 @@ La asignación SQL de nuestro esquema de ejemplo proporciona el siguiente docume
 
 El elemento raíz del esquema ya no es **`<srcschema>`**, sino **`<schema>`**.
 
-Esto nos lleva a otro tipo de documento, que se genera automáticamente a partir del esquema de origen, llamado simplemente esquema. La aplicación Adobe Campaign utilizará este esquema.
+Esto nos lleva a otro tipo de documento, que se genera automáticamente a partir del esquema de origen, llamado simplemente esquema. Este esquema será utilizado por la aplicación Adobe Campaign.
 
 Los nombres SQL se determinan automáticamente según el nombre y el tipo del elemento.
 
 Las reglas de nomenclatura SQL son las siguientes:
 
-* tabla: concatenación del nombre y el espacio de nombres del esquema
+* tabla: concatenación de la Área de nombres y el nombre del esquema
 
    En nuestro ejemplo, el nombre de la tabla se introduce mediante el elemento principal del esquema en el atributo **sqltable** :
 
@@ -61,7 +64,7 @@ Las reglas de nomenclatura SQL son las siguientes:
    <element name="recipient" sqltable="CusRecipient">
    ```
 
-* field: nombre del elemento precedido por un prefijo definido según el tipo (&#39;i&#39; para integer, &#39;d&#39; para double, &#39;s&#39; para string, &#39;ts&#39; para date, etc.)
+* field: nombre del elemento precedido por un prefijo definido según el tipo (&#39;i&#39; para entero, &#39;d&#39; para doble, &#39;s&#39; para cadena, &#39;ts&#39; para fechas, etc.)
 
    El nombre del campo se introduce mediante el atributo **sqlname** para cada uno de los campos escritos **`<attribute>`** y **`<element>`**:
 
@@ -90,7 +93,7 @@ Las restricciones de campo SQL son las siguientes:
 
 ## Campos XML {#xml-fields}
 
-De forma predeterminada, cualquier elemento escrito **`<attribute>`** y **`<element>`** escrito se asigna a un campo SQL de la tabla del esquema de datos. No obstante, puede hacer referencia a este campo en XML en lugar de en SQL, lo que significa que los datos se almacenan en un campo memo (&quot;mData&quot;) de la tabla que contiene los valores de todos los campos XML. El almacenamiento de estos datos es un documento XML que observa la estructura del esquema.
+De forma predeterminada, cualquier elemento escrito **`<attribute>`** y **`<element>`** escrito se asigna a un campo SQL de la tabla de esquema de datos. No obstante, puede hacer referencia a este campo en XML en lugar de en SQL, lo que significa que los datos se almacenan en un campo memo (&quot;mData&quot;) de la tabla que contiene los valores de todos los campos XML. El almacenamiento de estos datos es un documento XML que observa la estructura del esquema.
 
 Para rellenar un campo en XML, debe agregar el atributo **xml** con el valor &quot;true&quot; al elemento correspondiente.
 
@@ -108,7 +111,7 @@ Para rellenar un campo en XML, debe agregar el atributo **xml** con el valor &qu
    <element name="description" xml="true" type="html" label="Description"/>
    ```
 
-   El tipo &quot;html&quot; permite almacenar el contenido HTML en una etiqueta CDATA y mostrar una marca de edición HTML especial en la interfaz de cliente de Adobe Campaign.
+   El tipo &quot;html&quot; permite almacenar el contenido HTML en una etiqueta CDATA y mostrar una marca de edición HTML especial en la interfaz del cliente de Adobe Campaign.
 
 El uso de campos XML permite agregar campos sin necesidad de modificar la estructura física de la base de datos. Otra ventaja es que se utilizan menos recursos (tamaño asignado a los campos SQL, límite en el número de campos por tabla, etc.).
 
@@ -144,7 +147,7 @@ Los índices obedecen las siguientes reglas:
 
 **Ejemplo**:
 
-* Adición de un índice a la dirección de correo electrónico y la ciudad:
+* Añadir un índice de la dirección de correo electrónico y la ciudad:
 
    ```
    <srcSchema name="recipient" namespace="cus">
@@ -162,7 +165,7 @@ Los índices obedecen las siguientes reglas:
    </srcSchema>
    ```
 
-* Adición de un índice único al campo de nombre &quot;id&quot;:
+* Añadiendo un índice único al campo de nombre &quot;id&quot;:
 
    ```
    <srcSchema name="recipient" namespace="cus">
@@ -198,20 +201,20 @@ Se declara una clave desde el elemento principal del esquema de datos.
 Las claves obedecen las siguientes reglas:
 
 * Una clave puede hacer referencia a uno o varios campos de la tabla.
-* Una clave se conoce como &#39;principal&#39; (o &#39;prioridad&#39;) cuando es la primera en el esquema que se va a rellenar o si contiene el atributo **interno** con el valor &quot;true&quot;.
+* Una clave se conoce como &#39;principal&#39; (o &#39;prioridad&#39;) cuando es la primera en el esquema que se rellena o si contiene el atributo **interno** con el valor &quot;true&quot;.
 * Un índice único se declara implícitamente para cada definición de clave. La creación de un índice en la clave se puede evitar agregando el atributo **noDbIndex** con el valor &quot;true&quot;.
 
 >[!NOTE]
 >
->Como estándar, las claves son los elementos declarados del elemento principal del esquema después de haber definido los índices.
+>Como estándar, las claves son los elementos declarados desde el elemento principal del esquema después de haber definido los índices.
 
 >[!NOTE]
 >
->Las claves se crean durante la asignación de tablas (estándar o FDA), Adobe Campaign busca índices únicos.
+>Las claves se crean durante la asignación de tablas (estándar o FDA), Adobe Campaign encuentra índices únicos.
 
 **Ejemplo**:
 
-* Adición de una clave a la dirección de correo electrónico y la ciudad:
+* Añadiendo una clave para la dirección de correo electrónico y la ciudad:
 
    ```
    <srcSchema name="recipient" namespace="cus">
@@ -229,7 +232,7 @@ Las claves obedecen las siguientes reglas:
    </srcSchema>
    ```
 
-   El esquema generado:
+   El esquema generó:
 
    ```
    <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
@@ -252,7 +255,7 @@ Las claves obedecen las siguientes reglas:
    </schema>
    ```
 
-* Adición de una clave principal o interna en el campo de nombre &quot;id&quot;:
+* Añadir una clave principal o interna en el campo de nombre &quot;id&quot;:
 
    ```
    <srcSchema name="recipient" namespace="cus">
@@ -271,7 +274,7 @@ Las claves obedecen las siguientes reglas:
    </srcSchema>
    ```
 
-   El esquema generado:
+   El esquema generó:
 
    ```
    <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
@@ -296,13 +299,13 @@ Las claves obedecen las siguientes reglas:
 
 ### Tecla Auto-incremental {#auto-incremental-key}
 
-La clave principal de la mayoría de las tablas de Adobe Campaign es un entero de 32 bits de longitud autogenerado por el motor de base de datos. El cálculo del valor clave depende de una secuencia (de forma predeterminada, la función SQL **XtkNewId** ) que genere un número único en toda la base de datos. El contenido de la clave se introduce automáticamente al insertar el registro.
+La clave principal de la mayoría de las tablas de Adobe Campaign es un entero largo de 32 bits autogenerado por el motor de base de datos. El cálculo del valor clave depende de una secuencia (de forma predeterminada, la función SQL **XtkNewId** ) que genere un número único en toda la base de datos. El contenido de la clave se introduce automáticamente al insertar el registro.
 
-La ventaja de una clave incremental es que proporciona una clave técnica no modificable para las uniones entre tablas. Además, esta clave no ocupa mucha memoria porque utiliza un entero de doble byte.
+La ventaja de una clave incremental es que proporciona una clave técnica no modificable para las uniones entre tablas. Además, esta clave no ocupa mucha memoria porque utiliza un entero de byte doble.
 
 Puede especificar en el esquema de origen el nombre de la secuencia que se utilizará con el atributo **pkSequence** . Si este atributo no se proporciona en el esquema de origen, se utilizará la secuencia predeterminada **XtkNewId** . La aplicación utiliza secuencias dedicadas para los esquemas **nms:wideLog** y **nms:trackingLog** (**NmsBroadLogId** y **NmsTrackingLogId** respectivamente) porque son las tablas que contienen la mayor cantidad de registros.
 
-Desde ACC 18.10, **XtkNewId** ya no es el valor predeterminado de la secuencia en los esquemas predeterminados. Ahora puede generar un esquema o ampliar el esquema existente con una secuencia dedicada.
+Desde ACC 18.10, **XtkNewId** ya no es el valor predeterminado de la secuencia en los esquemas predeterminados. Ahora puede crear esquemas o ampliar el esquema existente con una secuencia dedicada.
 
 >[!IMPORTANT]
 >
@@ -310,7 +313,7 @@ Desde ACC 18.10, **XtkNewId** ya no es el valor predeterminado de la secuencia e
 
 >[!NOTE]
 >
->Una secuencia a la que se hace referencia en un esquema de Adobe Campaign (**NmsTrackingLogId** , por ejemplo) debe asociarse a una función SQL que devuelve el número de ID en los parámetros, separados por comas. Esta función debe llamarse ******GetNewXXXIds**, donde **XXX** es el nombre de la secuencia (por ejemplo,**GetNewNmsTrackingLogIds** ). Vea los **archivos postgres-nms.sql**, **mssql-nms.sql** o **oracle-nms.sql** que se proporcionan con la aplicación en el directorio **datakit/nms/eng/sql/** para recuperar el ejemplo de creación de secuencias &#39;NmsTrackingLogId&#39; para cada motor de base de datos.
+>Una secuencia a la que se hace referencia en un esquema de Adobe Campaign (**NmsTrackingLogId** , por ejemplo) debe asociarse a una función SQL que devuelve el número de ID en los parámetros, separados por comas. Esta función debe llamarse ******GetNewXXXIds**, donde **XXX** es el nombre de la secuencia (por ejemplo,**GetNewNmsTrackingLogIds** ). Vista los **archivos postgres-nms.sql**, **mssql-nms.sql** o **oracle-nms.sql** que se proporcionan con la aplicación en el directorio **datakit/nms/eng/sql/** para recuperar el ejemplo de creación de secuencias &#39;NmsTrackingLogId&#39; para cada motor de base de datos.
 
 Para declarar una clave única, rellene el atributo **autopk** (con el valor &quot;true&quot;) en el elemento principal del esquema de datos.
 
@@ -326,7 +329,7 @@ Declaración de una clave incremental en el esquema de origen:
 </srcSchema>
 ```
 
-El esquema generado:
+El esquema generó:
 
 ```
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
@@ -344,7 +347,7 @@ El esquema generado:
 </schema>
 ```
 
-Además de la definición de la clave y su índice, se ha agregado un campo numérico llamado &quot;id&quot; al esquema ampliado para contener la clave principal generada automáticamente.
+Además de la definición de la clave y su índice, se ha agregado un campo numérico denominado &quot;id&quot; al esquema ampliado para contener la clave principal generada automáticamente.
 
 >[!IMPORTANT]
 >
@@ -356,24 +359,24 @@ Un vínculo describe la asociación entre una tabla y otra.
 
 Los diversos tipos de asociaciones (conocidas como &quot;cardinalidades&quot;) son los siguientes:
 
-* Cardinalidad 1-1: una incidencia de la tabla de origen puede tener como máximo una incidencia correspondiente de la tabla de destino.
-* Cardinalidad 1-N: una incidencia de la tabla de origen puede tener varias incidencias correspondientes de la tabla de destino, pero una incidencia de la tabla de destino puede tener como máximo una incidencia correspondiente de la tabla de origen.
-* Cardinalidad N-N: una incidencia de la tabla de origen puede tener varias incidencias correspondientes de la tabla de destino y viceversa.
+* Cardinalidad 1-1: una incidencia de la tabla de origen puede tener como máximo una incidencia correspondiente de la tabla de destinatario.
+* Cardinalidad 1-N: una incidencia de la tabla de origen puede tener varias incidencias correspondientes de la tabla de destinatario, pero una incidencia de la tabla de destinatario puede tener como máximo una incidencia correspondiente de la tabla de origen.
+* Cardinalidad N-N: una incidencia de la tabla de origen puede tener varias incidencias correspondientes de la tabla de destinatario y viceversa.
 
 En la interfaz, puede distinguir fácilmente los diferentes tipos de relaciones gracias a sus iconos.
 
-Para relaciones de unión con una tabla o base de datos de campañas:
+Para las relaciones de unión con una tabla o base de datos de campañas:
 
-* ![](assets/join_with_campaign11.png) :: Cardinalidad 1-1. Por ejemplo, entre un destinatario y un pedido actual. Un destinatario puede estar relacionado con una sola incidencia de la tabla de pedidos actual a la vez.
-* ![](assets/externaljoin11.png) :: Cardinalidad 1-1, unión externa. Por ejemplo, entre un destinatario y su país. Un destinatario puede estar relacionado con una sola incidencia del país de la tabla. El contenido de la tabla de país no se guardará.
-* ![](assets/join_with_campaign1n.png) :: Cardinalidad 1-N. Por ejemplo, entre un destinatario y la tabla de suscripciones. Un destinatario puede estar relacionado con varias incidencias en la tabla de suscripciones.
+* ![](assets/join_with_campaign11.png) :: Cardinalidad 1-1. Por ejemplo, entre un destinatario y un pedido actual. Un destinatario puede relacionarse con una sola incidencia de la tabla de pedidos actual a la vez.
+* ![](assets/externaljoin11.png) :: Cardinalidad 1-1, unión externa. Por ejemplo, entre un destinatario y su país. Un destinatario puede relacionarse con una sola incidencia del país de la tabla. El contenido de la tabla de país no se guardará.
+* ![](assets/join_with_campaign1n.png) :: Cardinalidad 1-N. Por ejemplo, entre un destinatario y la tabla suscripciones. Un destinatario puede estar relacionado con varias incidencias en la tabla suscripciones.
 
 Para relaciones de unión con Acceso a base de datos federada:
 
 * ![](assets/join_fda_11.png) :: Cardinalidad 1-1
 * ![](assets/join_fda_1m.png) :: Cardinalidad 1-N
 
-Para obtener más información sobre las tablas de FDA, consulte [Acceso a una base de datos](../../platform/using/about-fda.md)externa.
+Para obtener más información sobre FDA tablas, consulte [Acceso a una base de datos](../../platform/using/about-fda.md)externa.
 
 Se debe declarar un vínculo en el esquema que contenga la clave externa de la tabla vinculada mediante el elemento principal:
 
@@ -390,34 +393,34 @@ Los vínculos obedecen las siguientes reglas:
 * La definición de un vínculo se introduce en un tipo de **vínculo****`<element>`** con los atributos siguientes:
 
    * **name**: nombre del vínculo de la tabla de origen,
-   * **target**: nombre del esquema de destino,
+   * **destinatario**: nombre del esquema de destinatario,
    * **label**: etiqueta del vínculo,
-   * **revLink** (opcional): nombre del vínculo inverso del esquema de destino (deducido automáticamente de forma predeterminada),
-   * **integridad** (opcional): integridad referencial de la incidencia de la tabla de origen en la incidencia de la tabla de destino. Los valores posibles son los siguientes:
+   * **revLink** (opcional): nombre del enlace inverso del esquema de destinatario (deducido automáticamente de forma predeterminada),
+   * **integridad** (opcional): integridad referencial de la incidencia de la tabla de origen en la incidencia de la tabla de destinatario. Los valores posibles son los siguientes:
 
-      * **definir**: es posible eliminar la incidencia de origen si ya no se hace referencia a ella en una incidencia de destino,
-      * **normal**: al eliminar la incidencia de origen se inicializan las claves del vínculo a la incidencia de destino (modo predeterminado), este tipo de integridad inicializa todas las claves externas,
-      * **propia**: la eliminación de la incidencia de origen conduce a la eliminación de la incidencia de destino,
-      * **Descargar**: igual que **propio** (en caso de eliminación) o duplica las ocurrencias (en caso de duplicación),
+      * **definir**: es posible eliminar la incidencia de origen si ya no se hace referencia a ella en una incidencia de destinatario,
+      * **normal**: al eliminar la incidencia de origen se inicializan las claves del vínculo a la incidencia de destinatario (modo predeterminado), este tipo de integridad inicializa todas las claves externas,
+      * **propia**: la eliminación de la incidencia de origen conduce a la eliminación de la incidencia de destinatario,
+      * **Descargar**: igual que **propia** (en caso de eliminación) o duplicado las ocurrencias (en caso de duplicación),
       * **neutro**: no hace nada.
-   * **revIntegrity** (opcional): integridad en el esquema de destino (opcional, &quot;normal&quot; de forma predeterminada),
+   * **revIntegrity** (opcional): integridad en el esquema del destinatario (opcional, &quot;normal&quot; de forma predeterminada),
    * **revCardinality** (opcional): con el valor &quot;single&quot; rellena la cardinalidad con el tipo 1-1 (1-N de forma predeterminada).
    * **externalJoin** (opcional): fuerza la unión externa
    * **revExternalJoin** (opcional): fuerza la unión exterior en el enlace inverso
 
 
-* Un vínculo hace referencia a uno o varios campos de la tabla de origen a la tabla de destino. Los campos que componen la unión ( `<join>` elemento) no necesitan rellenarse porque se deducen automáticamente de forma predeterminada mediante la clave interna del esquema de destino.
+* Un vínculo hace referencia a uno o varios campos de la tabla de origen a la tabla de destino. Los campos que componen la unión ( `<join>` elemento) no necesitan rellenarse porque se deducen automáticamente de forma predeterminada mediante la clave interna del esquema de destinatario.
 * Se agrega automáticamente un índice a la clave externa del vínculo en el esquema extendido.
-* Un vínculo consta de dos semiclulos, donde el primero se declara desde el esquema de origen y el segundo se crea automáticamente en el esquema ampliado del esquema de destino.
+* Un vínculo consiste en dos semiclumbros, donde el primero se declara desde el esquema de origen y el segundo se crea automáticamente en el esquema extendido del esquema de destinatario.
 * Una unión puede ser una unión externa si se agrega el atributo **externalJoin** , con el valor &quot;true&quot; (admitido en PostgreSQL).
 
 >[!NOTE]
 >
->Como estándar, los vínculos son los elementos declarados al final del esquema.
+>Como norma, los vínculos son los elementos declarados al final del esquema.
 
-### Example 1 {#example-1}
+### Ejemplo 1 {#example-1}
 
-Relación 1-N con la tabla de esquema &quot;cus:company&quot;:
+1-N en relación con la tabla de esquemas &quot;cus:compañía&quot;:
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -428,7 +431,7 @@ Relación 1-N con la tabla de esquema &quot;cus:company&quot;:
 </srcSchema>
 ```
 
-El esquema generado:
+El esquema generó:
 
 ```
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
@@ -445,11 +448,11 @@ El esquema generado:
 </schema>
 ```
 
-La definición del vínculo se complementa con los campos que componen la unión, es decir, la clave principal con su XPath (&quot;@id&quot;) en el esquema de destino, y la clave externa con su XPath (&quot;@company-id&quot;) en el esquema.
+La definición del vínculo se complementa con los campos que componen la unión, es decir, la clave principal con su XPath (&quot;@id&quot;) en el esquema de destino, y la clave externa con su XPath (&quot;@compañía-id&quot;) en el esquema.
 
-La clave externa se agrega automáticamente en un elemento que utiliza las mismas características que el campo asociado en la tabla de destino, con la siguiente convención de nombre: nombre del esquema de destino seguido del nombre del campo asociado (&quot;company-id&quot; en nuestro ejemplo).
+La clave externa se agrega automáticamente en un elemento que utiliza las mismas características que el campo asociado en la tabla de destino, con la siguiente convención de nombre: nombre del esquema de destinatario seguido del nombre del campo asociado (&quot;compañía-id&quot; en nuestro ejemplo).
 
-Esquema ampliado del destino (&quot;cus:company&quot;):
+esquema ampliado del destinatario (&quot;cus:compañía&quot;):
 
 ```
 <schema mappingType="sql" name="company" namespace="cus" xtkschema="xtk:schema">  
@@ -470,15 +473,15 @@ Esquema ampliado del destino (&quot;cus:company&quot;):
 </schema>
 ```
 
-Se agregó un vínculo inverso a la tabla &quot;cus:Recipient&quot; con los siguientes parámetros:
+Se agregó un vínculo inverso a la tabla &quot;cus:destinatario&quot; con los siguientes parámetros:
 
 * **name**: deducido automáticamente del nombre del esquema de origen (se puede forzar con el atributo &quot;revLink&quot; en la definición del vínculo en el esquema de origen)
 * **revLink**: nombre del vínculo inverso
-* **target**: clave del esquema vinculado (&quot;cus:Recipient&quot; esquema)
+* **destinatario**: clave de esquema vinculado (&quot;cus:destinatario&quot; esquema)
 * **desenlazado**: el vínculo se declara como un elemento de recopilación para una cardinalidad 1-N (de forma predeterminada)
 * **integridad**: &quot;define&quot; de forma predeterminada (se puede forzar con el atributo &quot;revIntegrity&quot; en la definición del vínculo del esquema de origen).
 
-### Example 2 {#example-2}
+### Ejemplo 2 {#example-2}
 
 En este ejemplo, declararemos un vínculo hacia la tabla de esquema &quot;nms:address&quot;. La unión es una unión externa y se rellena explícitamente con la dirección de correo electrónico del destinatario y el campo &quot;@address&quot; de la tabla vinculada (&quot;nms:address&quot;).
 
@@ -495,7 +498,7 @@ En este ejemplo, declararemos un vínculo hacia la tabla de esquema &quot;nms:ad
 
 ### Example 3 {#example-3}
 
-Relación 1-1 con la tabla de esquema &quot;cus:extension&quot;:
+1-1 en relación con la tabla de esquemas &quot;cus:extension&quot;:
 
 ```
 <element integrity="own" label="Extension" name="extension" revCardinality="single" revLink="recipient" target="cus:extension" type="link"/>
@@ -503,7 +506,7 @@ Relación 1-1 con la tabla de esquema &quot;cus:extension&quot;:
 
 ### Example 4 {#example-4}
 
-Vínculo a una carpeta (&quot;esquema xtk:folder&quot;):
+Vínculo a una carpeta ( esquema &quot;xtk:folder&quot;):
 
 ```
 <element default="DefaultFolder('nmsFolder')" label="Folder" name="folder" revDesc="Recipients in the folder" revIntegrity="own" revLabel="Recipients" target="xtk:folder" type="link"/>
@@ -513,7 +516,7 @@ El valor predeterminado devuelve el identificador del primer archivo de tipo de 
 
 ### Example 5 {#example-5}
 
-En este ejemplo, deseamos crear una clave en un vínculo (&quot;empresa&quot; al esquema &quot;empresa:empresa&quot;) con el atributo **xlink** y un campo de la tabla (&quot;correo electrónico&quot;):
+En este ejemplo, deseamos crear una clave en un vínculo (&quot;compañía&quot; al esquema &quot;cus:compañía&quot;) con el atributo **xlink** y un campo de la tabla (&quot;correo electrónico&quot;):
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -529,7 +532,7 @@ En este ejemplo, deseamos crear una clave en un vínculo (&quot;empresa&quot; al
 </srcSchema>
 ```
 
-El esquema generado:
+El esquema generó:
 
 ```
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
@@ -557,4 +560,4 @@ El esquema generado:
 </schema>
 ```
 
-La definición de la clave de nombre &quot;companyEmail&quot; se amplió con la clave externa del vínculo &quot;empresa&quot;. Esta clave genera un índice único en ambos campos.
+La definición de la clave de nombre &quot;companyEmail&quot; se amplió con la clave externa del vínculo &quot;compañía&quot;. Esta clave genera un índice único en ambos campos.
