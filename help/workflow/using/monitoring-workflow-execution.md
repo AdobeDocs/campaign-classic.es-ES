@@ -14,10 +14,10 @@ discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
-workflow-type: ht
-source-wordcount: '2006'
+translation-type: tm+mt
+source-git-commit: ea6488686d19b020e55839afee97e71a13ce2e33
+workflow-type: tm+mt
+source-wordcount: '2001'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ En [esta sección](../../workflow/using/supervising-workflows.md#supervising-wor
 
 Además, los administradores de la instancia pueden utilizar **Audit trail** para comprobar las actividades y las últimas modificaciones realizadas en los flujos de trabajo, el estado de los mismos. Para obtener más información, consulte [la sección dedicada](../../production/using/audit-trail.md).
 
-En [esta página](https://helpx.adobe.com/es/campaign/kb/acc-maintenance.html) se presentan formas adicionales de monitorizar los diferentes procesos de Campaign.
+En [esta página](../../production/using/monitoring-guidelines.md) se presentan formas adicionales de monitorizar los diferentes procesos de Campaign.
 
 ## Visualización del progreso {#displaying-progress}
 
