@@ -1,7 +1,7 @@
 ---
-title: Monitoreo de procesos
-seo-title: Monitoreo de procesos
-description: Monitoreo de procesos
+title: Monitorización de procesos
+seo-title: Monitorización de procesos
+description: Monitorización de procesos
 seo-description: null
 page-status-flag: never-activated
 uuid: 9dc1461f-5e95-454d-8df5-19baab85f184
@@ -15,12 +15,15 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 954018e1016fc924064bd795066f80704499f6a7
+source-git-commit: ea6488686d19b020e55839afee97e71a13ce2e33
+workflow-type: tm+mt
+source-wordcount: '3602'
+ht-degree: 1%
 
 ---
 
 
-# Monitoreo de procesos{#monitoring-processes}
+# Monitorización de procesos{#monitoring-processes}
 
 El servidor de aplicaciones y el servidor de redirección (**seguimiento**) se pueden supervisar de forma manual o automática.
 
@@ -30,23 +33,23 @@ Vaya a **[!UICONTROL Monitoring]** y haga clic en el **[!UICONTROL Overview]** v
 
 ![](assets/d_ncs_monitoring.png)
 
-La página mostrada permite ver el estado de la instancia conectada, es decir:
+La página mostrada permite la vista del estado de la instancia conectada, es decir:
 
 * información sobre la instancia: version, name, motor de base de datos, paquetes instalados, indicadores del sistema del servidor,
 * la lista de los procesos y la información de ejecución que faltan (fecha de inicio, PID, etc.),
-* una vista de los flujos de trabajo y los envíos.
+* una vista de flujos de trabajo y envíos.
 
-En [esta página](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)se presentan formas adicionales de monitorear los diferentes procesos de Campaña.
+En [esta página](../../production/using/monitoring-guidelines.md) se presentan formas adicionales de monitorizar los diferentes procesos de Campaign.
 
-### Diario de registro {#log-journal}
+### historial de registro {#log-journal}
 
-Es posible mostrar el diario de registro relacionado con un proceso. Para ello, haga clic en el proceso, **mta** por ejemplo, y luego haga clic en **[!UICONTROL Open the log journal]** .
+Es posible mostrar el historial de registro relacionado con un proceso. Para ello, haga clic en el proceso, **mta** por ejemplo, y luego haga clic en **[!UICONTROL Open the log journal]** .
 
 ![](assets/d_ncs_monitoring2.png)
 
 ### Indicadores del sistema {#system-indicators}
 
-La lista de indicadores del sistema le permite mostrar información relativa a la máquina, como su memoria física y virtual, los procesos activos y el espacio disponible en disco. Los indicadores son diferentes para los sistemas operativos Linux y Windows. Vaya a la **[!UICONTROL Instance Monitoring]** página y haga clic en el **[!UICONTROL Display]** vínculo para abrir la lista de indicadores
+La lista de los indicadores del sistema le permite mostrar información relativa a la máquina, como su memoria física y virtual, los procesos activos y el espacio disponible en disco. Los indicadores son diferentes para los sistemas operativos Linux y Windows. Go to the **[!UICONTROL Instance Monitoring]** page and click the **[!UICONTROL Display]** link to open the list of indicators
 
 #### En Windows {#in-windows}
 
@@ -93,7 +96,7 @@ La lista de indicadores del sistema le permite mostrar información relativa a l
 
    **[!UICONTROL Alert]** :: este indicador se muestra cuando el espacio disponible en disco alcanza el 90 % de la capacidad total.
 
-* **[!UICONTROL Number of processes too old]** :: información sobre los procesos de Adobe Campaign que han estado activos durante más de un día.
+* **[!UICONTROL Number of processes too old]** :: información relativa a los procesos de Adobe Campaign que han estado activos durante más de un día.
 
    **[!UICONTROL Current value]** :: número de procesos actualmente activos.
 
@@ -101,7 +104,7 @@ La lista de indicadores del sistema le permite mostrar información relativa a l
 
    **[!UICONTROL Alert]** :: este indicador se muestra si el número de procesos es igual a 1.
 
-   Cuando se muestra el **[!UICONTROL Alert]** indicador, puede ser que el proceso en cuestión esté bloqueado por el motor de base de datos SQL o que esté atascado en un bucle infinito. El proceso de **vigilancia** proporcionado por Adobe Campaign reinicia automáticamente todos los procesos todos los días y le permite resolver este problema. Sin embargo, también puede detener el proceso en cuestión usted mismo para forzar el reinicio.
+   Cuando se muestra el **[!UICONTROL Alert]** indicador, puede ser que el proceso en cuestión esté bloqueado por el motor de base de datos SQL o que esté atascado en un bucle infinito. El proceso de **vigilancia** proporcionado por Adobe Campaign vuelve a realizar el inicio automático de todos los procesos todos los días y le permite resolver este problema. Sin embargo, también puede detener el proceso en cuestión usted mismo para forzar el reinicio.
 
 #### En Linux {#in-linux}
 
@@ -146,7 +149,7 @@ La lista de indicadores del sistema le permite mostrar información relativa a l
 
    Cuando se muestran los indicadores **[!UICONTROL Warning]** y **[!UICONTROL Alert]** , puede resolver el problema aumentando el tamaño del archivo de intercambio.
 
-* **[!UICONTROL Core Files]** :: información sobre los archivos generados tras el bloqueo de un proceso de Adobe Campaign. Estos archivos le permiten diagnosticar los motivos del bloqueo.
+* **[!UICONTROL Core Files]** :: información relativa a los archivos generados tras el bloqueo de un proceso de Adobe Campaign. Estos archivos le permiten diagnosticar los motivos del bloqueo.
 
    **[!UICONTROL Current Value]** :: número de archivos existentes.
 
@@ -156,7 +159,7 @@ La lista de indicadores del sistema le permite mostrar información relativa a l
 
    **[!UICONTROL Alert]** :: este indicador se muestra cuando el número de archivos es igual a 1.
 
-   Cuando falta un proceso debido a un bloqueo, se muestra en rojo en la lista de procesos y el proceso de **vigilancia** proporcionado por Adobe Campaign lo reinicia automáticamente.
+   Cuando falta un proceso debido a un bloqueo, se muestra en rojo en la lista de procesos y se reinicia automáticamente mediante el proceso de **vigilancia** proporcionado por Adobe Campaign.
 
 * **[!UICONTROL Number of shared memory segments]** :: información sobre los segmentos de memoria compartidos por todos los procesos de Adobe Campaign.
 
@@ -208,7 +211,7 @@ La lista de indicadores del sistema le permite mostrar información relativa a l
 
    **[!UICONTROL Max Value]** :: número máximo de procesos zombie autorizados (2).
 
-   **[!UICONTROL Warning]** :: este indicador se muestra cuando el número de procesos zombie se acerca a 2.
+   **[!UICONTROL Warning]** :: este indicador se muestra cuando el número de procesos zombie es cercano a 2.
 
    **[!UICONTROL Alert]** este indicador se muestra cuando el número de procesos zombie llega a 2.
 
@@ -217,7 +220,7 @@ La lista de indicadores del sistema le permite mostrar información relativa a l
 Adobe Campaign permite personalizar indicadores. Para ello:
 
 1. Cree un archivo **.sh** y asígnele un nombre **[!UICONTROL cust_indicators.sh]** .
-1. Agregue los indicadores personalizados a este archivo. Por ejemplo:
+1. Añada los indicadores personalizados a este archivo. Por ejemplo:
 
    ```
    #!/bin/bash 
@@ -246,9 +249,9 @@ Adobe Campaign llamará a este archivo.
 
 ## Informes SMTP {#smtp-reports}
 
-Los informes de supervisión de entrega SMTP están integrados en la plataforma de Adobe Campaign. Se puede acceder a ellos a través de la consola o mediante el acceso Web.
+Los informes de supervisión de envío SMTP están integrados en la plataforma de Adobe Campaign. Se puede acceder a ellos a través de la consola o mediante el acceso Web.
 
-Estos informes muestran las estadísticas de entrega SMTP y los errores SMTP por dominio.
+Estos informes muestran las estadísticas de envío SMTP y los errores SMTP por dominio.
 
 Para acceder a ellos, el operador debe tener derechos de administración.
 
@@ -266,11 +269,11 @@ Se agrupan en **Supervisión** > &#39;Supervisión SMTP&#39;.
 
 ### Estadísticas de envío SMTP {#smtp-sending-statistics}
 
-El **[!UICONTROL SMTP sending statistics]** informe permite controlar la actividad del servidor. Muestra una síntesis de cada uno de los modelos.
+El **[!UICONTROL SMTP sending statistics]** informe permite controlar la actividad del servidor. Muestra una síntesis de cada uno de los equipos.
 
 ![](assets/smtp_stats_report.png)
 
-La lista de indicadores para este informe se muestra debajo del gráfico.
+La lista de los indicadores para este informe se muestra debajo del gráfico.
 
 1. Número total de mensajes enviados.
 1. 
@@ -285,9 +288,9 @@ La lista de indicadores para este informe se muestra debajo del gráfico.
 
    * Curva azul: cola de mensajes activos. Estos mensajes se enviarán lo antes posible.
 
-   * Curva Kaki: la cola &#39;diferida&#39;. Estos mensajes no se pueden devolver por el momento debido a la limitación o a que no hay conexión con el destino disponible. Las retenciones tendrán lugar cada 5, 10, 20, 40, 2 minutos, etc. para el tiempo **MaxAgeSec** definido antes de ser abandonado.
+   * Curva Kaki: la cola &#39;diferida&#39;. Estos mensajes no se pueden devolver por el momento debido a la limitación o a que no hay ninguna conexión con el destinatario disponible. Los Reintentos se realizarán cada 5, 10, 20, 40, 2 minutos, etc. para el tiempo **MaxAgeSec** definido antes de ser abandonado.
 
-1. Este gráfico muestra un detalle de los mensajes abandonados (curva roja en el segundo gráfico): muestra la proporción de mensajes abandonados sin reintentos (mauve) en comparación con los mensajes cuyo envío falló (rojo). Esto le permite ver la proporción de mensajes que no se procesan dentro del período concedido debido a limitaciones del servidor de estadísticas (limitación) o a la falta de disponibilidad del servidor remoto.
+1. Este gráfico muestra un detalle de los mensajes abandonados (curva roja en el segundo gráfico): muestra la proporción de mensajes abandonados sin reintentos (mauve) en comparación con los mensajes cuyo envío falló (rojo). Esto permite la vista de la proporción de mensajes no procesados dentro del período concedido debido a limitaciones del servidor de estadísticas (limitación) o a la falta de disponibilidad del servidor remoto.
 1. Las conexiones SMTP se abren o se abren.
 1. Estimación del número de **equipos**.
 
@@ -297,7 +300,7 @@ La lista de indicadores para este informe se muestra debajo del gráfico.
 
 ### Errores SMTP por dominio {#smtp-errors-per-domain}
 
-Este informe permite ver los errores de entrega, durante un período establecido, desglosados por dominio.
+Este informe le permite vista de los errores de envío, durante un período establecido, desglosados por dominio.
 
 >[!NOTE]
 >
@@ -305,7 +308,7 @@ Este informe permite ver los errores de entrega, durante un período establecido
 
 ![](assets/smtp_error_report.png)
 
-La lista de indicadores para este informe se muestra debajo de la tabla.
+La lista de los indicadores para este informe se muestra debajo del cuadro.
 
 * La columna **Dominio** contiene el nombre del dominio al que se envían los mensajes (o el nombre de dominio real, yahoo.com para yahoo.fr por ejemplo),
 * La columna **Cnx** muestra el número de conexiones SMTP abiertas para este dominio,
@@ -319,15 +322,15 @@ La lista de indicadores para este informe se muestra debajo de la tabla.
 >
 >Los valores mostrados en las columnas **Cnx**, **Enviado** y **Volumen** se calculan con respecto al período seleccionado en el **[!UICONTROL Period]** campo.
 
-Haga clic en un nombre de dominio para ver sus errores.
+Haga clic en un nombre de dominio para vista de sus errores.
 
-Se clasifican por PublicId: este identificador corresponde a una dirección IP compartida por varios mtas de Adobe Campaign detrás de un enrutador. El servidor de estadísticas utiliza este identificador para memorizar las estadísticas de conexión y entrega entre este punto de inicio y el servidor de destino.
+Se clasifican por PublicId: este identificador corresponde a una dirección IP compartida por varios mtas de Adobe Campaign detrás de un router. El servidor de estadísticas utiliza este identificador para memorizar las estadísticas de conexión y envío entre este punto de partida y el servidor de destinatario.
 
 ![](assets/smtp_error_report_details.png)
 
-El **[!UICONTROL Owner of domain]** campo permite agrupar varios nombres de dominio bajo la misma etiqueta. En la vista de informe inicial, todos los nombres de dominio MX se asociarán a este propietario.
+El **[!UICONTROL Owner of domain]** campo permite agrupar varios nombres de dominio bajo la misma etiqueta. En la vista del informe inicial, todos los nombres de dominio MX se asociarán a este propietario.
 
-Haga clic en un identificador PublicId para ver más detalles.
+Haga clic en un identificador PublicId para obtener más información sobre la vista.
 
 ![](assets/smtp_error_report_subdetails.png)
 
@@ -343,7 +346,7 @@ Haga clic en un identificador PublicId para ver más detalles.
 
 The **[!UICONTROL Billing]** technical workflow sends the system activity report to the &#39;billing&#39; operator by email. Se activa de forma predeterminada el 25 de cada mes.
 
-El flujo de trabajo técnico se encuentra en una subcarpeta del nodo siguiente: **Administración** > **Producción** > Flujos de trabajo **** técnicos.
+El flujo de trabajo técnico se encuentra en una subcarpeta del nodo siguiente: **Administración** > **Producción** > **Flujos de trabajo técnicos**.
 
 ![](assets/billing.png)
 
@@ -351,19 +354,19 @@ Una vez que se inicia el flujo de trabajo cada 25 días del mes, el operador de 
 
 ![](assets/billing_2.png)
 
-Las siguientes métricas están disponibles para rastrear los envíos:
+Las siguientes métricas están disponibles para rastrear sus envíos:
 
-* **[!UICONTROL Start date]** :: Fecha de inicio del envío. Tenga en cuenta que puede ser anterior a la fecha &quot;de&quot; del informe.
-* **[!UICONTROL Label]** :: Etiqueta del envío. Las entregas que tienen menos de 100 mensajes para enviar se consideran demasiado pequeñas y, por lo tanto, se agregan por fecha de inicio, en cuyo caso la etiqueta muestra el número de agregados, por ejemplo, [la agregación de 3 entregas]pequeñas.
-* **[!UICONTROL Total volume]** :: Volumen total de bytes transferidos para la entrega.
-* **[!UICONTROL Avg volume]** :: Volumen medio de bytes transferidos. Este es el resultado de la fórmula siguiente **(volumen total / mensajes)**, que es la base de cálculo de la **[!UICONTROL Multiplier]** métrica.
-* **[!UICONTROL Messages]** :: Número de mensajes enviados. Esto incluye tanto los mensajes que se han enviado correctamente como los reintentos (después de recibir un mensaje de devolución del servidor con el que se ha contactado).
+* **[!UICONTROL Start date]** :: Fecha de Inicio del envío. Tenga en cuenta que puede ser anterior a la fecha &quot;de&quot; del informe.
+* **[!UICONTROL Label]** :: Etiqueta del envío. Los Envíos que tienen menos de 100 mensajes para enviar se consideran demasiado pequeños y, por lo tanto, se agregan por fecha de inicio, en cuyo caso la etiqueta muestra el número de agregados, por ejemplo, [agregación de 3 envíos]pequeños.
+* **[!UICONTROL Total volume]** :: Volumen total de bytes transferidos para el envío.
+* **[!UICONTROL Avg volume]** :: Volumen medio de bytes transferidos. Este es el resultado de la siguiente fórmula **(volumen total / mensajes)**, que es la base de cálculo de la **[!UICONTROL Multiplier]** métrica.
+* **[!UICONTROL Messages]** :: Número de mensajes enviados. Esto incluye tanto los mensajes que se enviaron correctamente como los reintentos (tras la recepción de un mensaje de devolución del servidor con el que se ha contactado).
 * **[!UICONTROL Multiplier (x)]** :: El valor del multiplicador se deduce del volumen medio de los mensajes.
 * **[!UICONTROL Count]** :: Resultado de la multiplicación de los mensajes y del multiplicador.
 
 ## Supervisión automática {#automatic-monitoring}
 
-Adobe Campaign ofrece varios métodos de supervisión automática, que se presentan a continuación.
+Adobe Campaign oferta varios métodos de control automático, que se presentan a continuación.
 
 ### Línea de comandos {#command-line}
 
@@ -371,11 +374,11 @@ Comando
 
 **monitor nlserver**
 
-Permite enumerar un conjunto de indicadores en los módulos de Adobe Campaign y en el sistema.
+Permite la lista de un conjunto de indicadores en los módulos de Adobe Campaign y en el sistema.
 
 Genera resultados en un formato XML fácilmente procesado.
 
-Este comando también se puede ejecutar con el parámetro que **-falta** , que enumera los procesos que faltan en esta instancia cuando los archivos de configuración dicen que deben estar ejecutándose.
+Este comando también se puede ejecutar con el parámetro que **-falta** , que lista los procesos que faltan en esta instancia cuando los archivos de configuración dicen que deben estar ejecutándose.
 
 ```
 nlserver monitor -missing
@@ -401,7 +404,7 @@ Muestra una línea como esta en formato XML:
 
 #### /nl/jsp/ping.jsp {#nl-jsp-ping-jsp}
 
-Esta página **http(s)://`<Application server url>`/nl/jsp/ping.jsp** funciona de la misma manera que su homólogo de red: prueba una consulta completa a través de apache/tomcat/módulo web/base de datos y carga al cliente. Si todo funciona correctamente, devuelve un &quot;OK&quot;. Se recomienda ejecutar esta prueba en equipos con acceso a las bases de datos (por ejemplo, mapas y encuestas).
+Esta página **http(s)://`<Application server url>`/nl/jsp/ping.jsp** funciona de la misma manera que su homólogo de red: prueba una consulta completa a través de apache/tomcat/módulo web/base de datos y carga al cliente. Si todo funciona correctamente, devuelve un &quot;OK&quot;. Recomendamos ejecutar esta prueba en equipos con acceso a las bases de datos (mtas y encuestas, por ejemplo).
 
 **Uso**: un token de sesión asociado con un inicio de sesión del operador debe pasarse como argumento para iniciar sesión de forma remota (consulte la sugerencia de la supervisión [automática mediante scripts](#automatic-monitoring-via-adobe-campaign-scripts)de Adobe Campaign).
 
@@ -409,7 +412,7 @@ Por ejemplo:
 
 ![](assets/ncs_monitoring_ping.png)
 
-El nombre de operador y el inicio de sesión deben configurarse previamente en la consola de cliente de Adobe Campaign con derechos de base de datos.
+El nombre del operador y el inicio de sesión deben configurarse previamente en la consola cliente de Adobe Campaign con derechos de base de datos.
 
 ![](assets/ncs_operators_rights_01.png)
 
@@ -421,15 +424,15 @@ Se trata de una prueba para comprobar que un operador puede acceder al servidor 
 
 ![](assets/ncs_monitoring_web.png)
 
-**Uso**: debe utilizarse como argumento un token de sesión asociado con un inicio de sesión de operador que le permita conectarse a la instancia (consulte la sugerencia de la supervisión [automática mediante scripts](#automatic-monitoring-via-adobe-campaign-scripts)de Adobe Campaign).
+**Uso**: debe utilizarse como argumento un token de sesión asociado con un inicio de sesión del operador que le permita conectarse a la instancia (consulte la sugerencia de la supervisión [automática mediante secuencias de comandos](#automatic-monitoring-via-adobe-campaign-scripts)de Adobe Campaign).
 
-El operador y su inicio de sesión deben configurarse previamente en la consola de cliente de Adobe Campaign con los derechos y restricciones de base de datos correspondientes.
+El operador y su inicio de sesión deben configurarse previamente en la consola cliente de Adobe Campaign con los derechos y restricciones de base de datos correspondientes.
 
 **Frecuencia**: se trata de una prueba completa del servidor y no es necesario ejecutarla con frecuencia (por ejemplo, se puede realizar una vez cada diez minutos).
 
 #### /nl/jsp/soaprouter.jsp {#nl-jsp-soaprouter-jsp}
 
-Este **jsp** representa el punto de entrada de las API de la aplicación Adobe Campaign. Por lo tanto, puede realizar un seguimiento detallado de la aplicación. También se puede utilizar para supervisar los servicios web de Adobe Campaign. Se utiliza en nuestros scripts de monitoreo, pero tenga en cuenta que es sólo para usuarios avanzados.
+Este **jsp** representa el punto de entrada de las API de aplicaciones Adobe Campaign. Por lo tanto, puede realizar un seguimiento detallado de la aplicación. También puede utilizarse para supervisar los servicios web de Adobe Campaign. Se utiliza en nuestros scripts de monitoreo, pero tenga en cuenta que es sólo para usuarios avanzados.
 
 ### Monitoreo basado en tipos de implementación {#monitoring-based-on-deployment-types}
 
@@ -467,7 +470,7 @@ Adobe Campaign habilita varias configuraciones de implementación (para obtener 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td> Intercambio de recursos </td> 
+   <td> Intermediaria </td> 
    <td> 
     <ul> 
      <li><p> <span class="uicontrol">/nl/jsp/monitor.jsp</span> en el servidor de aplicaciones</p> </li> 
@@ -476,7 +479,7 @@ Adobe Campaign habilita varias configuraciones de implementación (para obtener 
  </tbody> 
 </table>
 
-## Supervisión automática mediante scripts de Adobe Campaign {#automatic-monitoring-via-adobe-campaign-scripts}
+## Monitoreo automático mediante scripts de Adobe Campaign {#automatic-monitoring-via-adobe-campaign-scripts}
 
 Adobe Campaign puede proporcionar una herramienta de supervisión de instancias (netreport) que le permite enviar un informe por correo electrónico con respecto a las anomalías detectadas.
 
@@ -484,7 +487,7 @@ Adobe Campaign puede proporcionar una herramienta de supervisión de instancias 
 
 >[!CAUTION]
 >
->Esta herramienta se puede usar para supervisar las instancias pero no es compatible con Adobe Campaign. Póngase en contacto con el administrador de campañas para obtener más información.
+>Esta herramienta se puede utilizar para supervisar las instancias pero no es compatible con Adobe Campaign. Póngase en contacto con el administrador de Campañas para obtener más información.
 
 ### Elementos requeridos {#required-elements}
 
@@ -556,7 +559,7 @@ Este elemento se utiliza para completar la configuración de los correos electr�
 
 * **mailServer**: Servidor SMTP utilizado para enviar correos electrónicos (por ejemplo: smtp.domain.net).
 * **mailFrom**: dirección de correo electrónico del remitente del informe (por ejemplo: monitoring@domain.net).
-* **destinationList**: la lista de direcciones de correo electrónico de los destinatarios de supervisión. Las direcciones deben estar separadas por comas (sin espacios).
+* **destinationList**: la lista de las direcciones de correo electrónico de los destinatarios de supervisión. Las direcciones deben estar separadas por comas (sin espacios).
 * El modo &quot;**noche**&quot; (opcional) se utiliza para evitar enviar correos electrónicos entre el período de tiempo especificado. En su lugar, los datos se consolidan y se envía un correo electrónico relativo a la actividad nocturna después de la hora de finalización (7:00 de forma predeterminada).
 * El subelemento **buildRange** (opcional) permite especificar un número de compilación mínimo y máximo. Se generará un error para todos los equipos cuyo número de compilación no se encuentre dentro de este rango
 
@@ -564,7 +567,7 @@ Este elemento se utiliza para completar la configuración de los correos electr�
    <buildRange minimum="0000" maximum="9999"/>
    ```
 
-* Puede agregar un subelemento **`<sla>`** (opcional) en el elemento **properties** . Se generará un archivo de registro cada vez que se ejecute netreport. El nombre del archivo contiene el nombre de configuración y la fecha y hora, por ejemplo **dev_06_12_13_16_47_05.tmp**. El archivo contiene la siguiente información: nombre de instancia, nombre del equipo, nivel de gravedad, (0 a 3, de menos crítico a más crítico), fecha (formato de marca de hora), tiempo transcurrido (en milisegundos) entre la consulta y la respuesta, servicio utilizado (http, ncs, ncsex, redir). Esta información está separada por tabulaciones y saltos de línea al final de cada servicio.
+* Puede agregar un subelemento **`<sla>`** (opcional) en el elemento **properties** . Se generará un archivo de registro cada vez que se ejecute netreport. El nombre del archivo contiene el nombre de configuración y la fecha y hora, por ejemplo **dev_06_12_13_16_47_05.tmp**. El archivo contiene la siguiente información: nombre de instancia, nombre de máquina, nivel de gravedad, (0 a 3, de menos crítico a más crítico), fecha (formato de marca de hora), tiempo transcurrido (en milisegundos) entre la consulta y la respuesta, servicio utilizado (http, ncs, ncsex, redir). Esta información está separada por tabulaciones y saltos de línea al final de cada servicio.
 
 >[!NOTE]
 >
@@ -626,10 +629,10 @@ Para configurarlo, edite este archivo e indique en qué directorio está instala
 
 ### Inicio de la supervisión {#launching-monitoring}
 
-Para iniciar la supervisión, ejecute el **archivo netreport.bat** o **netreport.sh** a intervalos regulares mediante una secuencia de comandos. Un informe se envía después de la primera ejecución y, a continuación, solo en caso de cambio de estado.
+Para iniciar la supervisión, ejecute el **archivo netreport.bat** o **netreport.sh** a intervalos regulares mediante una secuencia de comandos. Un informe se envía después de la primera ejecución y, a continuación, solo en el evento de un cambio de estado.
 
 ### Monitoreo de pruebas {#testing-monitoring}
 
 Para probar la supervisión, ejecute el **archivo netreport.bat** o **netreport.sh** .
 
-Se envía un mensaje de correo electrónico a los destinatarios especificados en **RecipientList** del archivo **netconf.xml** .
+Se envía un mensaje de correo electrónico a los destinatarios especificados en la **lista** de destinatarios del archivo **netconf.xml** .
