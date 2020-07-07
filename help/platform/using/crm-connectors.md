@@ -14,9 +14,9 @@ discoiquuid: dbe9080c-66e3-4ff6-8f16-959f9748f666
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e25560152a16865dc415ac2ffa1975808b3f6bbc
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d96912e39956f2f7b0b0af29dc765d0b9775a020
+workflow-type: tm+mt
 source-wordcount: '2541'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Las versiones compatibles se detallan en la [matriz de compatibilidad](https://h
 
    Consulte [esta sección](#example-for-salesforce-com) para aprender a configurar la conexión con Salesforce.com.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Al conectar Adobe Campaign con Salesforce.com, las limitaciones son:
    >
@@ -62,7 +62,7 @@ Las versiones compatibles se detallan en la [matriz de compatibilidad](https://h
 
    Consulte [esta sección](#example-for-oracle-on-demand) para aprender a configurar la conexión con Oracle On Demand.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Al conectar Adobe Campaign con Oracle On Demand, las limitaciones son:
    >
@@ -80,7 +80,7 @@ Las versiones compatibles se detallan en la [matriz de compatibilidad](https://h
 
    Consulte varios ejemplos de integración de Adobe Campaign y Microsoft Dynamics en [este vídeo](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Al conectar Adobe Campaign con Microsoft Dynamics, las limitaciones son:
    >
@@ -277,7 +277,7 @@ Para una actividad de importación, los pasos de configuración de actividad del
 
    Si es necesario, modifique el formato de los datos mediante la lista desplegable de las columnas de **[!UICONTROL Conversion]**. Los tipos de conversión posibles se encuentran detallados en [Formato de datos](#data-format).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >El identificador del registro en CRM es obligatorio para enlazar objetos en CRM y en Adobe Campaign. Se añade automáticamente cuando se aprueba el cuadro.
    >
@@ -289,7 +289,7 @@ Para una actividad de importación, los pasos de configuración de actividad del
 
    ![](assets/crm_task_import_filter.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Las limitaciones vinculadas a los modos de filtrado de datos se describen en [Datos de filtro](#filtering-data).
 
@@ -382,7 +382,7 @@ Para una exportación, aplique la configuración siguiente en la actividad del *
 1. Seleccione una operación **[!UICONTROL Export to CRM]**.
 1. Ir a la lista desplegable **[!UICONTROL Remote object]** y seleccionar el objeto afectado en el proceso. Este objeto coincide con una de las tablas creadas en Adobe Campaign durante la configuración del conector.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >La función de exportación de la actividad de **conectores de CRM** puede insertar o actualizar campos en el lado del CRM. Para activar las actualizaciones de campo en el CRM, debe especificar la clave principal de la tabla remota. Si falta la clave, se insertan los datos (en lugar de actualizarse).
 
@@ -457,7 +457,7 @@ Para ello, siga los siguientes pasos:
 
    ![](assets/crm_import_deleted_obj.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >El periodo de eliminación de elementos debe coincidir con las limitaciones específicas del CRM. Esto significa que para Salesforce.com, por ejemplo, los elementos eliminados hace más de 30 días no se pueden recuperar.
 
