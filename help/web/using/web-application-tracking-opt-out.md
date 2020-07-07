@@ -14,9 +14,9 @@ discoiquuid: 8f413002-bd32-426f-88b9-44cefae68593
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a62e4d072573f7ed1b77f755eb57838c70745592
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d96912e39956f2f7b0b0af29dc765d0b9775a020
+workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Para que se muestre dentro de las aplicaciones web o de las páginas de destino,
 
 Adobe Campaign incluye un banner de muestra que debe adaptar a sus necesidades. Esta versión del banner aparece como un bloque personalizado ubicado en la carpeta del modelo de contenido. Consulte [esta página](../../delivery/using/personalization-blocks.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Para crear su propio banner, debe personalizar el banner predeterminado.
 
