@@ -14,8 +14,11 @@ discoiquuid: b49acfd0-b601-4694-88e3-cc0a169cb866
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3641e438784d40aa097f8c89ca19bdbb52f4bc7d
+translation-type: tm+mt
+source-git-commit: d96912e39956f2f7b0b0af29dc765d0b9775a020
+workflow-type: tm+mt
+source-wordcount: '374'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +47,7 @@ Las direcciones semilla se añaden al destino de las entregas mediante su import
 
 En las entregas por correo postal, las direcciones semilla se añaden durante la extracción y se mezclan en el documento de salida.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >En las entregas por correo postal, el formato del archivo de extracción debe cumplir con las siguientes limitaciones:
 >
