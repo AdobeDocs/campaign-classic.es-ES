@@ -4,11 +4,11 @@ user-guide-title: Ayuda de Adobe Campaign Standard
 index: y
 product: adobe campaign
 sub-product: Adobe Campaign Classic
-translation-type: ht
-source-git-commit: 5d67ab5bbc44b81c65605ae9132cf5a8356aa814
-workflow-type: ht
-source-wordcount: '2126'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c38fe4cc442768550ee90cecc6b31b78d39f3da1
+workflow-type: tm+mt
+source-wordcount: '2122'
+ht-degree: 99%
 
 ---
 
@@ -73,12 +73,13 @@ ht-degree: 100%
    + Acceso a una base de datos externa (FDA){#accessing-external-database}
       + [Acerca de FDA](platform/using/about-fda.md)
       + [Configuraciones específicas por tipo de base de datos](platform/using/specific-configuration-database.md)
+      + [Conectores heredados](platform/using/legacy-connectors.md)
       + [Derechos de acceso a bases de datos remotas](platform/using/remote-database-access-rights.md)
       + [Conexión a la base de datos](platform/using/connecting-to-database.md)
       + [Creación del esquema de datos](platform/using/creating-data-schema.md)
       + [Definición de asignación de datos](platform/using/defining-data-mapping.md)
       + [Opciones adicionales](platform/using/additional-options.md)
-      + [Uso de datos de una base de datos externa en un flujo de trabajo](platform/using/data-external-database-workflow.md)
+      + [Apéndices](platform/using/appendices-fda.md)
    + Conectores {#connectors}
       + [Acerca de los conectores](platform/using/about-connectors.md)
       + [Conectores CRM](platform/using/crm-connectors.md)
@@ -623,6 +624,7 @@ ht-degree: 100%
    + Introducción {#introduction}
       + [Prefacio](production/using/foreword.md)
       + [Arquitectura general](production/using/general-architecture.md)
+      + [Directrices de monitorización](production/using/monitoring-guidelines.md)
    + Procedimientos de producción {#production-procedures}
       + [Principio de configuración](production/using/configuration-principle.md)
       + [Principio de funcionamiento](production/using/operating-principle.md)
