@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9188a68ca2ffcd9cf9e82b475aa2a0dd5807561b
+source-git-commit: d96912e39956f2f7b0b0af29dc765d0b9775a020
 workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 88%
@@ -54,7 +54,7 @@ Los mensajes de confirmación se envían a través de una plantilla de envío de
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
 
-1. Como los destinatarios de este envío no han confirmado su aprobación, siguen en la lista de bloques de la base de datos. Para que reciban esta comunicación, debe autorizar envíos basados en esta plantilla a destinatarios de destinatario que estén en la lista de bloques.
+1. Como los destinatarios de este envío no han confirmado su aprobación, siguen en la lista de bloqueados de la base de datos. Para que reciban esta comunicación, debe autorizar envíos basados en esta plantilla a destinatarios de destinatario que se encuentren en la lista de bloqueados.
 
    Para ello, haga clic en la pestaña **[!UICONTROL Exclusions]**.
 
@@ -62,7 +62,7 @@ Los mensajes de confirmación se envían a través de una plantilla de envío de
 
    <!-- ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)-->
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Esta opción solo puede desactivarse en este tipo de contexto.
 
@@ -112,7 +112,7 @@ Para realizar esto, siga los pasos a continuación:
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
 
-   La primera **[!UICONTROL Script]** actividad agregará destinatarios a la lista de bloques hasta que confirmen su suscripción a la newsletter. El contenido debe ser el siguiente:
+   La primera **[!UICONTROL Script]** actividad agregará destinatarios a la lista de bloqueados hasta que confirmen su suscripción al boletín. El contenido debe ser el siguiente:
 
    ```
    ctx.recipient.@blockList=1
@@ -189,7 +189,7 @@ La suscripción al boletín informativo implica los pasos siguientes:
 
    En Adobe Campaign se actualiza el perfil de usuario:
 
-   * ya no están en la lista de bloques,
+   * ya no están en la lista de bloqueados,
    * están suscritos al servicio de información.
 
       ![](assets/s_ncs_admin_survey_double-opt-in_sample_9.png)
