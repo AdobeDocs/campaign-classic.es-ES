@@ -14,11 +14,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3d6c304aaa0b3e6ba1156f1a65e93f5c284b0c0a
-workflow-type: ht
-source-wordcount: '2848'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8c352c850777852d14ccf3002c20f651b46f9047
+workflow-type: tm+mt
+source-wordcount: '2917'
+ht-degree: 94%
 
 ---
 
@@ -77,11 +77,27 @@ _13 de agosto de 2019_
 
 ## Versión 19.1.4: compilación 9032{#release-19-1-4-build-9032}
 
-![](assets/do-not-localize/green_2.png) **22 de junio de 2020**: nueva versión (9032@800be2e) que incluye las siguientes correcciones:
+![](assets/do-not-localize/green_2.png) **Versión Gold Standard 10**
+
+_7 de julio de 2020_
+
+Esta nueva compilación (9032@efd8a94) incluye la siguiente corrección:
+
+* Se ha corregido un problema que impedía que los vínculos de seguimiento funcionaran. (NEO-26411)
+
+>[!CAUTION]
+>
+>Le recomendamos que actualice la consola de cliente con la que está disponible en esta versión. Consulte [esta página](../../installation/using/installing-the-client-console.md)
+
+![](assets/do-not-localize/orange_2.png) **Versión Gold Standard 9**
+
+_22 de junio de 2020_
+
+Esta nueva compilación (9032@800be2e) incluye las siguientes correcciones:
 
 * Se ha mejorado el conector HTTP2 de iOS (actualizaciones de terceros y administración de errores). (NEO-25904, NEO-25903, NEO-25799)
 
-Las siguientes correcciones están relacionadas con el mecanismo de seguridad del vínculo de seguimiento:
+Las siguientes correcciones están relacionadas con el mecanismo de seguridad del vínculo de seguimiento (consulte la lista de comprobación [Seguridad y privacidad](https://helpx.adobe.com/es/campaign/kb/acc-security.html#signature-mechanism)):
 
 * Se ha corregido un problema que impedía el funcionamiento del seguimiento de &quot;clics de notificación&quot; (notificaciones push de iOS y Android). (NEO-25965)
 * Se ha corregido un problema que podía impedir que se abrieran las direcciones URL de seguimiento al usar ciertas versiones heredadas de Outlook o se hiciera clic en ellas.  (NEO-25688)
@@ -89,7 +105,11 @@ Las siguientes correcciones están relacionadas con el mecanismo de seguridad de
 * Se ha corregido un problema con el servicio de antiphishing. (NEO-25283)
 * Se ha corregido un problema de seguimiento al usar fórmulas de seguimiento personalizadas específicas. (NEO-25277)
 
-![](assets/do-not-localize/orange_2.png) **29 de abril de 2020**: nueva compilación (9032@3a9dc9c) que incluye las siguientes correcciones:
+![](assets/do-not-localize/orange_2.png) **Versión Gold Standard 8**
+
+_29 de abril de 2020_
+
+Esta nueva compilación (9032@3a9dc9c) incluye las siguientes correcciones:
 
 * Se ha mejorado la seguridad en el seguimiento de enlaces en el correo electrónico. Esta opción está habilitada de forma predeterminada para todos los clientes. Hay disponible una función de seguridad adicional y mejorada que se puede habilitar si se pone en contacto con el Servicio de atención al cliente. Encuentre más detalles sobre la función y los pasos para que los clientes que no están alojados puedan habilitarla en la [Lista de comprobación de seguridad y privacidad](https://helpx.adobe.com/es/campaign/kb/acc-security.html#signature-mechanism).
 
@@ -110,30 +130,54 @@ Las siguientes correcciones están relacionadas con el mecanismo de seguridad de
 * Se corrigió una regresión que ocasionaba que el flujo de trabajo de limpieza se bloqueara.
 * Se corrigió una regresión menor en los registros del flujo de trabajo de limpieza.
 
-![](assets/do-not-localize/orange_2.png) **5 de marzo de 2020**: nueva versión (9032@19f73c5) que incluye la siguiente corrección:
+![](assets/do-not-localize/orange_2.png) **Versión Gold Standard 6**
+
+_9 de marzo de 2019_
+
+Esta nueva compilación (9032@19f73c5) incluye la siguiente corrección:
 
 * Se ha corregido un problema con cuentas externas que usaban FTP sobre SSL. (NEO-20498)
 
-![](assets/do-not-localize/orange_2.png) **17 de diciembre de 2019**: nueva versión (9032@d6b8062) que incluye la siguiente corrección:
+![](assets/do-not-localize/orange_2.png) **Versión Gold Standard 5**
+
+_17 de diciembre de 2019_
+
+Esta nueva compilación (9032@d6b8062) incluye la siguiente corrección:
 
 * Se ha corregido un problema de seguimiento en los siguientes canales de comunicación: móvil (SMS, MMS), push (iOS, Android) y redes sociales (Facebook, Twitter). (NEO-19595)
 
-![](assets/do-not-localize/orange_2.png) **11 de diciembre de 2019**: nueva versión (9032@bc4a935) que incluye la siguiente corrección:
+![](assets/do-not-localize/orange_2.png) **Versión Gold Standard 4**
+
+_11 de diciembre de 2019_
+
+Esta nueva compilación (9032@bc4a935) incluye la siguiente corrección:
 
 * Se corrigió un problema de rendimiento al enviar mensajes con una base de datos MSSQL. (NEO-17558)
 
-![](assets/do-not-localize/orange_2.png) **20 de noviembre de 2019**: nueva compilación (9032@3468c7b) que incluye las siguientes correcciones:
+![](assets/do-not-localize/orange_2.png) **Versión Gold Standard 3**
+
+_20 de noviembre de 2019_
+
+Esta nueva compilación (9032@3468c7b) incluye las siguientes correcciones:
 
 * Se ha corregido un problema de inicio de sesión mediante la autenticación IMS. (NEO-17312)
 * Se corrigió un problema al mostrar informes acumulativos en varias entregas. (NEO-18165)
 * Se ha corregido un problema que podía bloquear o colapsar el servidor web.
 
-![](assets/do-not-localize/orange_2.png) **19 de septiembre de 2019**: nueva compilación (9032@cee805c) que incluye las siguientes correcciones:
+![](assets/do-not-localize/orange_2.png) **Versión Gold Standard 2**
+
+_19 de septiembre de 2019_
+
+Esta nueva compilación (9032@cee805c) incluye las siguientes correcciones:
 
 * Se ha corregido un problema al usar el conector CRM para Salesforce. (NEO-17712)
 * Se ha corregido un problema de índice que podía provocar problemas de rendimiento al enviar mensajes transaccionales.
 
-![](assets/do-not-localize/orange_2.png) **13 de agosto de 2019**: compilación inicial 19.1.4 que incluye las siguientes correcciones:
+![](assets/do-not-localize/orange_2.png) **Versión 19.1.4: compilación 9032**
+
+_13 de agosto de 2019_
+
+Compilación inicial 19.1.4 que incluye las siguientes correcciones:
 
 * Se ha corregido un problema con la actividad del programador que generaba mensajes de error no deseados durante la configuración del asistente. Revertir la actualización desde NEO-11662. (NEO-17097)
 * Se ha corregido una regresión causada por el NEO-12727 que hacía que los flujos de trabajo se detuvieran cuando se realizaba una actividad de prueba dos veces. (NEO-16835)
