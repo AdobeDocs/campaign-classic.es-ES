@@ -14,8 +14,11 @@ discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: d60f47f03949177b97509166a8d9e640849e5fd7
+translation-type: tm+mt
+source-git-commit: ea6488686d19b020e55839afee97e71a13ce2e33
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: d60f47f03949177b97509166a8d9e640849e5fd7
 
 Es necesario supervisar los flujos de trabajo técnicos, y deben tomarse medidas cuando se producen errores.
 
-En [esta página](https://helpx.adobe.com/es/campaign/kb/acc-maintenance.html) se presentan formas adicionales de monitorizar los diferentes procesos de Campaign.
+En [esta página](../../production/using/monitoring-guidelines.md) se presentan formas adicionales de monitorizar los diferentes procesos de Campaign.
 
 ## Panel de monitorización de instancias {#instance-monitoring-dashboard}
 
@@ -40,7 +43,7 @@ En los indicadores del sistema y los archivos principales, compruebe que no hay 
 
 ## Flujos de trabajo técnicos {#technical-workflows}
 
-Los flujos de trabajo técnicos están disponibles en **[!UICONTROL Administration]**, **[!UICONTROL Production]**, **[!UICONTROL Technical workflows]**.
+Technical workflows are available from **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
 
 Dependiendo del flujo de trabajo técnico, siga los pasos detallados a continuación para asegurarse de que todo funciona correctamente.
 
@@ -61,7 +64,7 @@ Para **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]**:
 1. Compruebe que el flujo de trabajo **[!UICONTROL Deliverability update]** se ejecuta y finaliza correctamente todos los días. Para obtener más información, consulte [esta página](../../workflow/using/delivery.md).
 1. Compruebe en el historial que las reglas se actualizan periódicamente.
 
-Para **[!UICONTROL Campaign process (&#39;operationMgt&#39;, &#39;deliveryMgt&#39;, ...)]**:
+Para **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**:
 
 1. Observe todos los flujos de trabajo ubicados en la carpeta **[!UICONTROL Campaign process]**. Para obtener más información, consulte [esta página](../../workflow/using/campaign.md).
 1. Compruebe que los flujos de trabajo se ejecutan como está planificado y que el historial no destaca errores recurrentes.
