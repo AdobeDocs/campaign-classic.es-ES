@@ -14,11 +14,11 @@ discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9d22af2a2e25cb0dd83759096139996372f60c33
-workflow-type: ht
-source-wordcount: '483'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c86af066045c1c35b51624de8565af21746354c1
+workflow-type: tm+mt
+source-wordcount: '580'
+ht-degree: 96%
 
 ---
 
@@ -44,6 +44,19 @@ Para utilizar esta función, tiene que:
 1. Finalmente, [crear una nueva asignación de objetivo](../../platform/using/defining-data-mapping.md) desde el esquema creado anteriormente, en caso de que los destinatarios de las entregas provengan de la base de datos externa. Esto presenta ciertas limitaciones, especialmente en relación con la personalización de las entregas.
 
 Una vez que se haya creado el esquema, los datos se pueden procesar en los flujos de trabajo de Adobe Campaign. Para obtener más información, consulte [esta sección](../../workflow/using/accessing-an-external-database--fda-.md).
+
+## Bases de datos externas disponibles {#external-database}
+
+A continuación se encuentra la lista de cada base de datos externa compatible con el módulo de FDA Adobe Campaign:
+
+* Microsoft Azure Synapse Analytics. Para obtener más información, consulte [esta sección](../../platform/using/specific-configuration-database.md#azure-external).
+* Snowflake. Para obtener más información, consulte [esta sección](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake).
+* Hadoop. Para obtener más información, consulte [esta sección](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3).
+* Oracle. Para obtener más información, consulte [esta sección](../../platform/using/specific-configuration-database.md#configure-access-to-oracle).
+* Netezza. Para obtener más información, consulte [esta sección](../../platform/using/specific-configuration-database.md#configure-access-to-netezza).
+* Sybase IQ. Para obtener más información, consulte [esta sección](../../platform/using/specific-configuration-database.md#configure-access-to-sybase-iq).
+* Teradata. Para obtener más información, consulte [esta sección](../../platform/using/specific-configuration-database.md#configure-access-to-teradata).
+* SAP HANA. Para obtener más información, consulte [esta sección](../../platform/using/specific-configuration-database.md).
 
 ## Buenas prácticas y recomendaciones {#best-practices-and-recommendations}
 
