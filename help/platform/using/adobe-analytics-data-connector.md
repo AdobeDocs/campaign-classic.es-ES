@@ -14,9 +14,9 @@ discoiquuid: 5ff1577f-0809-46fd-ac1e-11b24637e35c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e25560152a16865dc415ac2ffa1975808b3f6bbc
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d96912e39956f2f7b0b0af29dc765d0b9775a020
+workflow-type: tm+mt
 source-wordcount: '1661'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ## Acerca de la integración de conectores de datos {#about-data-connector-integration}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >El conector de datos de Adobe Analytics no es compatible con mensajes transaccionales (Centro de mensajes).
 
@@ -145,7 +145,7 @@ La integración de Adobe Campaign en las plataformas de Analytics se lleva a cab
 
    ![](assets/webanalytics_tracking_003.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Este modo de configuración está reservado para usuarios expertos: cualquier error en esta fórmula puede provocar que se detengan los envíos de email.
 
