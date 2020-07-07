@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 229df9ee7da5ac9c773a7af82aabceb755299cc6
-workflow-type: ht
-source-wordcount: '6767'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 306c7bf0a94684d27c5f95035f3d3e77da8c7097
+workflow-type: tm+mt
+source-wordcount: '6795'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 100%
 Esta página enumera todas las nuevas funciones y actualizaciones de la documentación por mes y por versión de Campaña.
 
 También puede consultar las [Notas de la versión de Adobe Campaign Classic](../../rn/using/latest-release.md) para ver más actualizaciones.
+
+## Julio de 2020 {#july-2020}
+
+Se ha añadido una nueva sección con directrices relacionadas con la supervisión de Campaign Classic. [Más información](../../production/using/monitoring-guidelines.md)
+
+La sección Privacidad y Consentimiento se ha mejorado con información más detallada y vínculos útiles. [Más información](../../platform/using/privacy-and-recommendations.md).
 
 ## Junio de 2020 {#june-2020}
 
@@ -69,7 +75,6 @@ Los extremos de la red de Campaign se han movido a esta [sección](../../install
 La sección de instalación de Spam Assassin se ha actualizado con el nuevo nombre de archivo de instalación. [Más información](../../installation/using/configuring-spamassassin.md#installing-spamassassin)
 
 Se ha actualizado la sección sobre la duplicación de entornos. [Más información](../../production/using/duplicating-environments.md#step-2---export-the-target-environment-configuration--dev-)
-
 
 ## Mayo 2020 {#may-2020}
 
@@ -261,7 +266,7 @@ Se han añadido a la documentación los pasos para configurar el procesamiento d
 
 ## Septiembre de 2019 {#september-2019}
 
-Se ha agregado una nueva página para proporcionar directrices generales para mantener Campaign Classic. [Más información](https://helpx.adobe.com/es/campaign/kb/acc-maintenance.html)
+Se ha agregado una nueva página para proporcionar directrices generales para mantener Campaign Classic. [Más información](../../production/using/monitoring-guidelines.md)
 
 La información relacionada con la monitorización de flujos de trabajo se ha centralizado en una nueva sección dedicada. [Más información](../../workflow/using/monitoring-workflow-execution.md).
 
