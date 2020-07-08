@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4a8812a85c8c98cdf38145a2b1649530adab89d
+source-git-commit: d2781c8bc25cde742a89bddc1535886179130c2a
 workflow-type: tm+mt
 source-wordcount: '2934'
 ht-degree: 93%
@@ -83,7 +83,7 @@ _7 de julio de 2020_
 
 Esta nueva compilación (9032@efd8a94) incluye la siguiente corrección:
 
-* Se ha corregido un problema que impedía que el seguimiento funcionara cuando el servidor de mid-souring estaba en la compilación 9032 (Gold Standard 7) y el servidor de marketing en una compilación anterior (anterior a 9032). (NEO-26411)
+* Se ha corregido un problema que impedía que el seguimiento funcionara cuando el servidor de intermediaria estaba en la compilación 9032 (Gold Standard) y el servidor de marketing en una compilación anterior (anterior a 9032). (NEO-26411)
 
 >[!CAUTION]
 >
