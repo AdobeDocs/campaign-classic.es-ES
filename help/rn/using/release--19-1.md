@@ -18,14 +18,14 @@ translation-type: tm+mt
 source-git-commit: d2781c8bc25cde742a89bddc1535886179130c2a
 workflow-type: tm+mt
 source-wordcount: '2934'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
 
 # Versión 19.1{#release-19-1}
 
-[Build upgrade](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) | [Control Panel releases](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html) | [Documentation updates](../../rn/using/documentation-updates.md) | [Previous releases](../../rn/using/release--19-1.md) | [Deprecated features](https://helpx.adobe.com/es/campaign/kb/deprecated-and-removed-features.html)
+[Generar actualización](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) | [Versiones del panel de control de Campaign](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html) | [Actualizaciones en la documentación](../../rn/using/documentation-updates.md) | [Versiones anteriores](../../rn/using/release--19-1.md) | [Funciones obsoletas](https://helpx.adobe.com/es/campaign/kb/deprecated-and-removed-features.html)
 
 <table> 
  <tbody> 
@@ -58,7 +58,7 @@ _3 de octubre de 2019_
 
 * Se ha corregido un problema al usar el conector CRM para Salesforce. (NEO-17712)
 * Se ha corregido un problema de índice que podía provocar problemas de rendimiento al enviar mensajes transaccionales.
-* Se corrigió un problema de rendimiento al enviar mensajes. (NEO-17558)
+* Se ha corregido un problema de rendimiento al enviar mensajes. (NEO-17558)
 * Se ha corregido un problema que podía hacer que el servidor intermediario no procesara determinados mensajes. (NEO-12395)
 * Se ha corregido un problema que impedía el uso completo de la actividad de Administración de datos SQL (faltaba la “Administración de datos SQL” denominada right).
 
@@ -81,7 +81,7 @@ _13 de agosto de 2019_
 
 _7 de julio de 2020_
 
-Esta nueva compilación (9032@efd8a94) incluye la siguiente corrección:
+Esta nueva versión (9032@efd8a94) incluye la siguiente corrección:
 
 * Se ha corregido un problema que impedía que el seguimiento funcionara cuando el servidor de intermediaria estaba en la compilación 9032 (Gold Standard) y el servidor de marketing en una compilación anterior (anterior a 9032). (NEO-26411)
 
@@ -93,7 +93,7 @@ Esta nueva compilación (9032@efd8a94) incluye la siguiente corrección:
 
 _22 de junio de 2020_
 
-Esta nueva compilación (9032@800be2e) incluye las siguientes correcciones:
+Esta nueva versión (9032@800be2e) incluye las siguientes correcciones:
 
 * Se ha mejorado el conector HTTP2 de iOS (actualizaciones de terceros y administración de errores). (NEO-25904, NEO-25903, NEO-25799)
 
@@ -109,7 +109,7 @@ Las siguientes correcciones están relacionadas con el mecanismo de seguridad de
 
 _29 de abril de 2020_
 
-Esta nueva compilación (9032@3a9dc9c) incluye las siguientes correcciones:
+Esta nueva versión (9032@3a9dc9c) incluye las siguientes correcciones:
 
 * Se ha mejorado la seguridad en el seguimiento de enlaces en el correo electrónico. Esta opción está habilitada de forma predeterminada para todos los clientes. Hay disponible una función de seguridad adicional y mejorada que se puede habilitar si se pone en contacto con el Servicio de atención al cliente. Encuentre más detalles sobre la función y los pasos para que los clientes que no están alojados puedan habilitarla en la [Lista de comprobación de seguridad y privacidad](https://helpx.adobe.com/es/campaign/kb/acc-security.html#signature-mechanism).
 
@@ -126,15 +126,15 @@ Esta nueva compilación (9032@3a9dc9c) incluye las siguientes correcciones:
 * Se mejoró la administración de LibreOffice para evitar fallos en la previsualización de correos electrónicos con archivos .odt.
 * Se ha mejorado la administración de la conexión de Apache para evitar la latencia en el servicio web.
 * Se ha mejorado la visualización de la etiqueta de versión (7 dígitos) en el menú **Acerca de**.
-* Se corrigió una regresión en la administración de listas que impedía que se publicaran ofertas.
-* Se corrigió una regresión que ocasionaba que el flujo de trabajo de limpieza se bloqueara.
-* Se corrigió una regresión menor en los registros del flujo de trabajo de limpieza.
+* Se ha corregido una regresión en la administración de listas que impedía que se publicaran ofertas.
+* Se ha corregido una regresión que ocasionaba que el flujo de trabajo de limpieza se bloqueara.
+* Se ha corregido una regresión menor en los registros del flujo de trabajo de limpieza.
 
 ![](assets/do-not-localize/orange_2.png) **Versión Gold Standard 6**
 
 _9 de marzo de 2019_
 
-Esta nueva compilación (9032@19f73c5) incluye la siguiente corrección:
+Esta nueva versión (9032@19f73c5) incluye la siguiente corrección:
 
 * Se ha corregido un problema con cuentas externas que usaban FTP sobre SSL. (NEO-20498)
 
@@ -142,7 +142,7 @@ Esta nueva compilación (9032@19f73c5) incluye la siguiente corrección:
 
 _17 de diciembre de 2019_
 
-Esta nueva compilación (9032@d6b8062) incluye la siguiente corrección:
+Esta nueva versión (9032@d6b8062) incluye la siguiente corrección:
 
 * Se ha corregido un problema de seguimiento en los siguientes canales de comunicación: móvil (SMS, MMS), push (iOS, Android) y redes sociales (Facebook, Twitter). (NEO-19595)
 
@@ -150,25 +150,25 @@ Esta nueva compilación (9032@d6b8062) incluye la siguiente corrección:
 
 _11 de diciembre de 2019_
 
-Esta nueva compilación (9032@bc4a935) incluye la siguiente corrección:
+Esta nueva versión (9032@bc4a935) incluye la siguiente corrección:
 
-* Se corrigió un problema de rendimiento al enviar mensajes con una base de datos MSSQL. (NEO-17558)
+* Se ha corregido un problema de rendimiento al enviar mensajes con una base de datos MSSQL. (NEO-17558)
 
 ![](assets/do-not-localize/orange_2.png) **Versión Gold Standard 3**
 
 _20 de noviembre de 2019_
 
-Esta nueva compilación (9032@3468c7b) incluye las siguientes correcciones:
+Esta nueva versión (9032@3468c7b) incluye las siguientes correcciones:
 
 * Se ha corregido un problema de inicio de sesión mediante la autenticación IMS. (NEO-17312)
-* Se corrigió un problema al mostrar informes acumulativos en varias entregas. (NEO-18165)
+* Se ha corregido un problema al mostrar informes acumulativos en varias entregas. (NEO-18165)
 * Se ha corregido un problema que podía bloquear o colapsar el servidor web.
 
 ![](assets/do-not-localize/orange_2.png) **Versión Gold Standard 2**
 
 _19 de septiembre de 2019_
 
-Esta nueva compilación (9032@cee805c) incluye las siguientes correcciones:
+Esta nueva versión (9032@cee805c) incluye las siguientes correcciones:
 
 * Se ha corregido un problema al usar el conector CRM para Salesforce. (NEO-17712)
 * Se ha corregido un problema de índice que podía provocar problemas de rendimiento al enviar mensajes transaccionales.
@@ -177,7 +177,7 @@ Esta nueva compilación (9032@cee805c) incluye las siguientes correcciones:
 
 _13 de agosto de 2019_
 
-Compilación inicial 19.1.4 que incluye las siguientes correcciones:
+Versión inicial 19.1.4 que incluye las siguientes correcciones:
 
 * Se ha corregido un problema con la actividad del programador que generaba mensajes de error no deseados durante la configuración del asistente. Revertir la actualización desde NEO-11662. (NEO-17097)
 * Se ha corregido una regresión causada por el NEO-12727 que hacía que los flujos de trabajo se detuvieran cuando se realizaba una actividad de prueba dos veces. (NEO-16835)
@@ -244,11 +244,11 @@ _30 de mayo de 2019_
 **Mejoras de seguridad**
 
 * Por motivos de seguridad, ya no es posible insertar comandos arbitrarios al utilizar la **[!UICONTROL Pre-process the file]** opción en una **[!UICONTROL Data loading (file)]** actividad de flujo de trabajo. Ahora hay disponible una lista desplegable que le permite seleccionar entre tres opciones: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) o **[!UICONTROL Decrypt]** (gpg). Se ha añadido el indicador de seguridad XtkSecurity_Disable_Preproc. Para clientes nuevos, esta opción se establece en 0. Para los clientes existentes, esta opción se establecerá en 1 después de la actualización para mantener el comportamiento previo. Consulte esta [sección](../../workflow/using/data-loading--file-.md).
-* Se corrigió un problema con la visibilidad de contraseña que se producía al probar la conexión de una cuenta externa de FDA sin un huso horario establecido.
+* Se ha corregido un problema con la visibilidad de contraseña que se producía al probar la conexión de una cuenta externa de FDA sin un huso horario establecido.
 * La biblioteca PDFBox se ha eliminado.
 * Tomcat se ha actualizado a la versión 7.0.93.
-* Se corrigió un problema con la visibilidad del token que se producía cuando el token de seguridad no era válido.
-* Se corrigió un problema potencial de inyección de XTK en WSDL JSP (schemawsdl.jsp).
+* Se ha corregido un problema con la visibilidad del token que se producía cuando el token de seguridad no era válido.
+* Se ha corregido un problema potencial de inyección de XTK en WSDL JSP (schemawsdl.jsp).
 * Se ha optimizado el almacenamiento de credenciales y contraseñas en el código fuente y la memoria de la aplicación.
 * Se ha optimizado la restricción de vista PII. (NEO-12339, NEO-12396, NEO-12398, NEO-12339, NEO-12667)
 * Se corrigieron problemas de incoherencia en la administración de claves secretas.
@@ -284,57 +284,57 @@ _30 de mayo de 2019_
 
 **Parches**
 
-* Se corrigió un problema que impedía que se cargara el certificado para las notificaciones inmediatas de dispositivos móviles iOS.
+* Se ha corregido un problema que impedía que se cargara el certificado para las notificaciones inmediatas de dispositivos móviles iOS.
 * Se corrigieron bloqueos de servidor recurrentes potenciales para las notificaciones inmediatas transaccionales. Se han solucionado otros problemas de bloqueo.
-* Se corrigió un problema que ocasionaba discrepancias de informes entre las actividades del usuario y los informes de seguimiento para el indicador de entrega abierto. (NEO-11742)
-* Se corrigió un problema con el inicio de sesión de IMS.
-* Se corrigió un problema que podría provocar la ausencia de imágenes en una entrega al añadir una imagen de la biblioteca. (NEO-11900)
-* Se corrigió un problema que podría producirse al extraer detalles de oferta en una entrega de correo directo. (NEO-11700)
-* Se corrigió un problema que podría afectar el rendimiento del mensaje transaccional SMS. (NEO-9812)
-* Se corrigió un bloqueo de consola que podría producirse al utilizar la opción Definido en un archivo externo para el destino principal de una entrega. (NEO-12349)
-* Se corrigió un problema que se producía al analizar un mensaje segmentado para destinatarios para los dominios japoneses (.JP). (NEO-12246)
-* Se corrigió un problema con la visualización al utilizar una distribución de valores con un vínculo 1:N. (NEO-12212, NEO-11820)
-* Se corrigió un problema que podría provocar errores NmsMxDomain en los registros de MTA tras una actualización. (NEO-12752)
-* Se corrigió un problema que se producía al utilizar la opción “Conservar todos los datos adicionales del conjunto principal” en una actividad de flujo de trabajo de enriquecimiento. (NEO-13291)
-* Se corrigió un problema con el bloqueo de Tomcat al enviar notificaciones inmediatas con HTTP2. (NEO-12701)
-* Se corrigió un problema con la API HTTPRequest que no esperaba a que terminaran las retrollamadas. (NEO-12628)
-* Se corrigió un problema con el proceso de computación de los indicadores de seguimiento para los mensajes transaccionales. (NEO-12529)
-* Se corrigió un problema con el uso de temas en la administración de ofertas. (NEO-11804)
-* Se corrigió un problema de rendimiento al enviar notificaciones push. (NEO-11787)
-* Se corrigió un problema al previsualizar un archivo XML o CSV saliente en la administración de ofertas para una entrega de correo postal. (NEO-11290)
-* Se corrigió un problema al instalar el paquete de **Managing social networks** (Marketing social). (NEO-12081)
-* Se corrigió un problema que impedía eliminar una aplicación Web incluso si tenía los derechos de acceso correctos. (NEO-12072)
-* Se corrigió un problema que podría provocar que algunos valores se sobrescriban al exportar y luego importar un objeto a través de XML. Se ha añadido la opción XtkExport_IncludeDefaultValues. Cuando se establece en “True” (comportamiento predeterminado), se exportan todos los valores. Cuando se establece en “False”, las modificaciones se sobrescriben con el valor predeterminado. (NEO-11979)
+* Se ha corregido un problema que ocasionaba discrepancias de informes entre las actividades del usuario y los informes de seguimiento para el indicador de entrega abierto. (NEO-11742)
+* Se ha corregido un problema con el inicio de sesión de IMS.
+* Se ha corregido un problema que podría provocar la ausencia de imágenes en una entrega al añadir una imagen de la biblioteca. (NEO-11900)
+* Se ha corregido un problema que podría producirse al extraer detalles de oferta en una entrega de correo directo. (NEO-11700)
+* Se ha corregido un problema que podría afectar el rendimiento del mensaje transaccional SMS. (NEO-9812)
+* Se ha corregido un bloqueo de consola que podría producirse al utilizar la opción Definido en un archivo externo para el destino principal de una entrega. (NEO-12349)
+* Se ha corregido un problema que se producía al analizar un mensaje segmentado para destinatarios para los dominios japoneses (.JP). (NEO-12246)
+* Se ha corregido un problema con la visualización al utilizar una distribución de valores con un vínculo 1:N. (NEO-12212, NEO-11820)
+* Se ha corregido un problema que podría provocar errores NmsMxDomain en los registros de MTA tras una actualización. (NEO-12752)
+* Se ha corregido un problema que se producía al utilizar la opción “Conservar todos los datos adicionales del conjunto principal” en una actividad de flujo de trabajo de enriquecimiento. (NEO-13291)
+* Se ha corregido un problema con el bloqueo de Tomcat al enviar notificaciones inmediatas con HTTP2. (NEO-12701)
+* Se ha corregido un problema con la API HTTPRequest que no esperaba a que terminaran las retrollamadas. (NEO-12628)
+* Se ha corregido un problema con el proceso de computación de los indicadores de seguimiento para los mensajes transaccionales. (NEO-12529)
+* Se ha corregido un problema con el uso de temas en la administración de ofertas. (NEO-11804)
+* Se ha corregido un problema de rendimiento al enviar notificaciones push. (NEO-11787)
+* Se ha corregido un problema al previsualizar un archivo XML o CSV saliente en la administración de ofertas para una entrega de correo postal. (NEO-11290)
+* Se ha corregido un problema al instalar el paquete de **Managing social networks** (Marketing social). (NEO-12081)
+* Se ha corregido un problema que impedía eliminar una aplicación Web incluso si tenía los derechos de acceso correctos. (NEO-12072)
+* Se ha corregido un problema que podría provocar que algunos valores se sobrescriban al exportar y luego importar un objeto a través de XML. Se ha añadido la opción XtkExport_IncludeDefaultValues. Cuando se establece en “True” (comportamiento predeterminado), se exportan todos los valores. Cuando se establece en “False”, las modificaciones se sobrescriben con el valor predeterminado. (NEO-11979)
 * Se ha corregido un problema que hacía que la actividad del flujo de trabajo **[!UICONTROL Alert]** fallara cuando se añadía una actividad de enriquecimiento después de una consulta. (NEO-12132)
-* Se corrigió un problema en las configuraciones de Oracle en las que los desplazamientos de la canalización (desencadenante) no se recuperaban correctamente de la base de datos, provocando duplicados. (NEO-12121)
-* Se corrigió un problema que podría provocar errores de visualización en tablas dinámicas al utilizar la integración de Analytics (NEO-12103)
-* Se corrigió un problema con el informe de Análisis descriptivo. (NEO-11414)
-* Se corrigió un problema con los conectores de CRM cuando la tabla remota contenía un campo con un guion bajo en su nombre.
+* Se ha corregido un problema en las configuraciones de Oracle en las que los desplazamientos de la canalización (desencadenante) no se recuperaban correctamente de la base de datos, provocando duplicados. (NEO-12121)
+* Se ha corregido un problema que podría provocar errores de visualización en tablas dinámicas al utilizar la integración de Analytics (NEO-12103)
+* Se ha corregido un problema con el informe de Análisis descriptivo. (NEO-11414)
+* Se ha corregido un problema con los conectores de CRM cuando la tabla remota contenía un campo con un guion bajo en su nombre.
 * Se solucionó un problema que podría causar un error de visualización para los símbolos de moneda en los informes de Hipótesis. (NEO-11634)
-* Se corrigió un problema con la redirección y el seguimiento al utilizar ciertos caracteres en los vínculos de seguimiento.
-* Se corrigió un problema que impedía que la previsualización de la oferta funcionara correctamente.
-* Se corrigió un problema en el que no se eliminaban los rebotes suaves de la tabla de direcciones.
-* Se corrigió un error de JAVA al utilizar códigos de barras.
-* Se corrigió un problema de traducción en aplicaciones web (NEO-12460)
-* Se corrigió un problema con la actividad de flujo de trabajo de transferencia de archivos s3. (NEO-12473)
-* Se corrigió un problema con los campos de fecha en las aplicaciones web. (NEO-12496)
-* Se corrigió un problema de agotamiento de ID al utilizar direcciones semilla en una entrega. (NEO-11842)
-* Se corrigió un problema con la compatibilidad con phantomjs y Debian 9.
-* Se corrigió un error al aprobar el contenido de una prueba. (NEO-12725)
-* Se corrigió un problema con la función de flujo de trabajo “Excluir este subconjunto de la población”. (NEO-12441)
-* Se corrigió un problema con la API HTTPRequest-wait que no esperaba que terminaran todas las retrollamadas. (NEO-12628)
-* Se corrigió un problema con la tarea “Actualizar audiencia compartida” en una actividad dividida. (NEO-11562)
+* Se ha corregido un problema con la redirección y el seguimiento al utilizar ciertos caracteres en los vínculos de seguimiento.
+* Se ha corregido un problema que impedía que la previsualización de la oferta funcionara correctamente.
+* Se ha corregido un problema en el que no se eliminaban los rebotes suaves de la tabla de direcciones.
+* Se ha corregido un error de JAVA al utilizar códigos de barras.
+* Se ha corregido un problema de traducción en aplicaciones web (NEO-12460)
+* Se ha corregido un problema con la actividad de flujo de trabajo de transferencia de archivos s3. (NEO-12473)
+* Se ha corregido un problema con los campos de fecha en las aplicaciones web. (NEO-12496)
+* Se ha corregido un problema de agotamiento de ID al utilizar direcciones semilla en una entrega. (NEO-11842)
+* Se ha corregido un problema con la compatibilidad con phantomjs y Debian 9.
+* Se ha corregido un error al aprobar el contenido de una prueba. (NEO-12725)
+* Se ha corregido un problema con la función de flujo de trabajo “Excluir este subconjunto de la población”. (NEO-12441)
+* Se ha corregido un problema con la API HTTPRequest-wait que no esperaba que terminaran todas las retrollamadas. (NEO-12628)
+* Se ha corregido un problema con la tarea “Actualizar audiencia compartida” en una actividad dividida. (NEO-11562)
 * Se ha corregido un problema de bloqueo de servidor web. (NEO-12904)
-* Se corrigió un problema con el parámetro Natural en las plantillas transaccionales. (NEO-12334)
-* Se corrigió un problema con el bloqueo de la consola al mostrar las direcciones URL rastreadas en el editor de texto de correo electrónico. (NEO-13122)
-* Se corrigió un problema con la actividad de Archivo dividido al importar audiencias desde Audience Manager. (NEO-11550)
-* Se corrigió un problema que ocasionaba errores en el informe de clic activo. (NEO-11459)
-* Se corrigió un problema con el renderizado de ofertas. (NEO-11565)
-* Se corrigió un problema con la actividad de actualización de lista al importar audiencias desde Audience Manager. (NEO-11226)
-* Se corrigió un problema con la configuración de la actividad de programación y la zona horaria. (NEO-11662)
-* Se corrigió un error que hacía que el flujo de trabajo de seguimiento fallara en caso de direcciones URL mal escritas.
-* Se corrigió un problema con las cuentas externas después de importar el paquete de la aplicación móvil.
-* Se corrigió un problema que se producía al asignar una zona horaria a un operador. (NEO-12464)
-* Se corrigió un problema que podría provocar errores en los registros de mtachild. (NEO-11539, NEO-8978)
-* Se corrigió un problema que se producía al hacer clic en el icono Historial en un informe guardado. (NEO-11620)
-* Se corrigió un problema que se producía al editar una tabla dinámica en un informe. (NEO-12068)
+* Se ha corregido un problema con el parámetro Natural en las plantillas transaccionales. (NEO-12334)
+* Se ha corregido un problema con el bloqueo de la consola al mostrar las direcciones URL rastreadas en el editor de texto de correo electrónico. (NEO-13122)
+* Se ha corregido un problema con la actividad de Archivo dividido al importar audiencias desde Audience Manager. (NEO-11550)
+* Se ha corregido un problema que ocasionaba errores en el informe de clic activo. (NEO-11459)
+* Se ha corregido un problema con el renderizado de ofertas. (NEO-11565)
+* Se ha corregido un problema con la actividad de actualización de lista al importar audiencias desde Audience Manager. (NEO-11226)
+* Se ha corregido un problema con la configuración de la actividad de programación y la zona horaria. (NEO-11662)
+* Se ha corregido un error que hacía que el flujo de trabajo de seguimiento fallara en caso de direcciones URL mal escritas.
+* Se ha corregido un problema con las cuentas externas después de importar el paquete de la aplicación móvil.
+* Se ha corregido un problema que se producía al asignar una zona horaria a un operador. (NEO-12464)
+* Se ha corregido un problema que podría provocar errores en los registros de mtachild. (NEO-11539, NEO-8978)
+* Se ha corregido un problema que se producía al hacer clic en el icono Historial en un informe guardado. (NEO-11620)
+* Se ha corregido un problema que se producía al editar una tabla dinámica en un informe. (NEO-12068)
