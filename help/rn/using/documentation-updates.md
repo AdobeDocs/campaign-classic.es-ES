@@ -12,18 +12,18 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 306c7bf0a94684d27c5f95035f3d3e77da8c7097
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6795'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # Actualizaciones de documentación{#documentation-updates}
 
-Esta página enumera todas las nuevas funciones y actualizaciones de la documentación por mes y por versión de Campaña.
+Esta página enumera todas las nuevas funciones y actualizaciones de la documentación por mes y por versión de Campaign.
 
 También puede consultar las [Notas de la versión de Adobe Campaign Classic](../../rn/using/latest-release.md) para ver más actualizaciones.
 
@@ -31,7 +31,7 @@ También puede consultar las [Notas de la versión de Adobe Campaign Classic](..
 
 Se ha añadido una nueva sección con directrices relacionadas con la supervisión de Campaign Classic. [Más información](../../production/using/monitoring-guidelines.md)
 
-La sección Privacidad y Consentimiento se ha mejorado con información más detallada y vínculos útiles. [Más información](../../platform/using/privacy-and-recommendations.md).
+La sección Privacidad y consentimiento se ha mejorado con información más detallada y vínculos útiles. [Más información](../../platform/using/privacy-and-recommendations.md).
 
 ## Junio de 2020 {#june-2020}
 
@@ -194,7 +194,7 @@ Se ha añadido un ejemplo de cómo utilizar una variable de instancia en un fluj
 
 ## Diciembre de 2019 {#december-2019}
 
-La opción &quot;WdbcOptions_TempDbName&quot; se ha agregado a la lista de opciones de Campaña. [Más información](../../installation/using/configuring-campaign-options.md)
+La opción &quot;WdbcOptions_TempDbName&quot; se ha agregado a la lista de opciones de Campaign. [Más información](../../installation/using/configuring-campaign-options.md)
 
 La página matriz de la FDA se ha movido [aquí](../../platform/using/remote-database-access-rights.md).
 
@@ -220,7 +220,7 @@ Ya está disponible la documentación de MTA mejorada de Adobe Campaign. [Más i
 
 Se ha añadido una nueva sección sobre cómo solucionar problemas de un flujo de trabajo que permanece en el estado &quot;Iniciar lo antes posible&quot; dentro de una campaña. [Más información](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 
-Las nuevas opciones &quot;NmsOperation_DeliveryPreparationWindow&quot; y &quot;WdbcKillSessionPolicy&quot; se han agregado a la lista de opciones de la Campaña. [Más información](../../installation/using/configuring-campaign-options.md)
+Las nuevas opciones &quot;NmsOperation_DeliveryPreparationWindow&quot; y &quot;WdbcKillSessionPolicy&quot; se han agregado a la lista de opciones de Campaign. [Más información](../../installation/using/configuring-campaign-options.md)
 
 Ya está disponible un nuevo documento que describe los conceptos básicos del modelo de datos de Adobe Campaign Classic. [Más información](https://helpx.adobe.com/es/campaign/kb/acc-datamodel.html)
 
@@ -453,7 +453,7 @@ Se añadió un ejemplo sobre cómo crear una consulta para filtrar los destinata
 
 Se ha actualizado la guía de integración de Compartir audiencias con Adobe Experience Cloud. [Más información](https://docs.campaign.adobe.com/doc/AC/en/ITG_Audience_sharing_Sharing_audiences_with_Adobe_Experience_Cloud.html)
 
-La página de ayuda de preguntas comunes ahora contiene información sobre los idiomas disponibles de la campaña, la traducción de formularios Web y los correos electrónicos multilingües. [Más información](../../platform/using/common-questions.md)
+La página de ayuda de preguntas comunes ahora contiene información sobre los idiomas disponibles de Campaign, la traducción de formularios web y los correos electrónicos multilingües. [Más información](../../platform/using/common-questions.md)
 
 La diferencia entre las instancias de inglés de EE. UU. e inglés de Reino Unido ahora se enumera en una sección dedicada. [Más información](https://docs.campaign.adobe.com/doc/AC/en/PTF_Starting_with_Adobe_Campaign_Adobe_Campaign_workspace.html#Formats_and_units)
 
@@ -509,7 +509,7 @@ Se ha actualizado la lista de motivos de error de entrega. [Más información](h
 
 Se ha añadido una nueva sección sobre administración de definiciones de paquetes. [Más información](https://docs.campaign.adobe.com/doc/AC/en/PTF_Administration_basics_Working_with_data_packages.html#Managing_package_definitions)
 
-Se ha mejorado y reorganizado la integración de campañas con Adobe Analytics: conector de datos. [Más información](https://docs.campaign.adobe.com/doc/AC/en/PTF_Connectors_Adobe_Analytics_Data_Connector.html)
+Se ha mejorado y reorganizado la integración de Campaign con Adobe Analytics: conector de datos. [Más información](https://docs.campaign.adobe.com/doc/AC/en/PTF_Connectors_Adobe_Analytics_Data_Connector.html)
 
 Se ha añadido una nueva sección de tutoriales con vínculos a guías paso a paso y vídeos explicativos. [Más información](https://docs.campaign.adobe.com/doc/AC/en/PTF_Starting_with_Adobe_Campaign_Tutorials.html)
 
@@ -592,7 +592,7 @@ Se agregó información sobre las limitaciones de rendimiento al configurar un r
 
 El conjunto de [Documentación de Adobe Campaign Classic](https://helpx.adobe.com/es/support/campaign/classic.html) se ha reorganizado para mejorar el uso.
 
-Se ha añadido una nueva sección de tutoriales para facilitar el acceso a los materiales de ayuda, las instrucciones, las muestras y los vídeos principales de las capacidades de la campaña. [Más información](https://docs.campaign.adobe.com/doc/AC/en/PTF_Starting_with_Adobe_Campaign_Tutorials.html)
+Se ha añadido una nueva sección de tutoriales para facilitar el acceso a los materiales de ayuda, las instrucciones, las muestras y los vídeos principales de las capacidades de Campaign. [Más información](https://docs.campaign.adobe.com/doc/AC/en/PTF_Starting_with_Adobe_Campaign_Tutorials.html)
 
 Se ha agregado una nueva sección para ayudarle a supervisar el estado de la entrega, pero también para conocer los posibles errores y cómo corregirlos. [Más información](https://docs.campaign.adobe.com/doc/AC/en/DLV_Monitoring_deliveries_Monitoring_a_delivery.html)
 
@@ -602,7 +602,7 @@ Se ha actualizado la nota técnica Marketing Cloud Triggers. [Más información]
 
 La guía de migración de Campaign Classic se ha agregado a la colección. [Más información](https://docs.campaign.adobe.com/doc/AC/en/MIG_Migration_overview_About_migration.html)
 
-Se actualizó la matriz de compatibilidad de campañas. [Más información](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)
+Se actualizó la matriz de compatibilidad de Campaign. [Más información](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)
 
 Cuando proceda, las instrucciones de configuración e instalación ahora mencionan a qué modelo de alojamiento se aplican. [Más información](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
 
