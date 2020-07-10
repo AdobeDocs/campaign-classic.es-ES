@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb35d2ae2d40aaef3bb381675d0c36ffb100b242
+source-git-commit: a034749c82f44edaf718b732e6871b9af378636a
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 52%
+source-wordcount: '920'
+ht-degree: 51%
 
 ---
 
@@ -104,6 +104,8 @@ A continuación, puede utilizar comandos o código en la **[!UICONTROL Script]**
 ### Caso de uso: Codificación y exportación de datos mediante una clave instalada en el Panel de control {#use-case-gpg-encrypt}
 
 En este caso de uso, crearemos un flujo de trabajo para cifrar y exportar datos mediante una clave instalada en el Panel de control.
+
+En [esta sección](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/using-a-gpg-key-to-encrypt-data.html)también hay disponible un vídeo de tutorial que muestra cómo utilizar una clave GPG para cifrar datos.
 
 Los pasos para realizar este caso de uso son los siguientes:
 
