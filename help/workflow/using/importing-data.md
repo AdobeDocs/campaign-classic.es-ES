@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb35d2ae2d40aaef3bb381675d0c36ffb100b242
+source-git-commit: a034749c82f44edaf718b732e6871b9af378636a
 workflow-type: tm+mt
-source-wordcount: '2420'
-ht-degree: 70%
+source-wordcount: '2450'
+ht-degree: 69%
 
 ---
 
@@ -70,7 +70,7 @@ A continuación, puede utilizar los comandos de preprocesamiento deseados en los
 
 1. Add and configure a **[!UICONTROL File transfer]** activity in your workflow.
 1. Add a **[!UICONTROL Data loading (file)]** activity and define the file format.
-1. Check the **[!UICONTROL Pre-process the file]** option.
+1. Marque la opción **[!UICONTROL Pre-process the file]**.
 1. Especifique el comando de preprocesamiento que desee aplicar.
 1. Añada otras actividades para administrar los datos que provengan del archivo.
 1. Guarde y ejecute el flujo de trabajo.
@@ -86,12 +86,15 @@ A continuación se muestra un ejemplo en el caso de uso.
 
 En este caso de uso, crearemos un flujo de trabajo para importar datos cifrados en un sistema externo, utilizando una clave generada en el Panel de control.
 
+En [esta sección](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html)también hay disponible un vídeo de tutorial que muestra cómo utilizar una clave GPG para descifrar datos.
+
 Los pasos para realizar este caso de uso son los siguientes:
 
 1. Utilice el Panel de control para generar un par de claves (pública/privada). Encontrará pasos detallados en la documentación [del Panel](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)de control.
 
    * La clave pública se compartirá con el sistema externo, que la utilizará para cifrar los datos que se enviarán a la Campaña.
    * El Campaign Classic utilizará la clave privada para descifrar los datos cifrados entrantes.
+
    ![](assets/gpg_generate.png)
 
 1. En el sistema externo, utilice la clave pública descargada del Panel de control para cifrar los datos que se van a importar al Campaign Classic.
@@ -223,6 +226,7 @@ Este ejemplo muestra cómo se puede predefinir un flujo de trabajo para reutiliz
    * **[!UICONTROL Split]**: Cree filtros para procesar registros de formas diferentes, dependiendo de si se podrían reconciliar o no.
    * **[!UICONTROL Deduplication]**: Deduplique los datos del archivo entrante antes de insertarlos en la base de datos.
    * **[!UICONTROL Update data]**: Actualice la base de datos con los perfiles importados.
+
    ![](assets/import_template_example0.png)
 
 1. Configure the **[!UICONTROL Data Loading (file)]** activity:
@@ -244,6 +248,7 @@ Este ejemplo muestra cómo se puede predefinir un flujo de trabajo para reutiliz
 
    * En la pestaña **[!UICONTROL Enrichment]**, seleccione **[!UICONTROL Add data]** y defina un vínculo entre los datos importados y la dimensión objetivo de los destinatarios. En este ejemplo, el campo personalizado **CRM ID** se utiliza para crear la condición de unión. Utilice el campo o la combinación de campos que necesite siempre que permita identificar registros únicos.
    * En la **[!UICONTROL Reconciliation]** ficha, deje la **[!UICONTROL Identify the document from the working data]** opción sin marcar.
+
    ![](assets/import_template_example2.png)
 
 1. Configure la actividad **[!UICONTROL Split]** para recuperar los destinatarios reconciliados en una transición, y los destinatarios que no pudieron ser reconciliados, pero que tengan datos suficientes en una segunda transición.
@@ -284,6 +289,7 @@ Este ejemplo muestra cómo se puede predefinir un flujo de trabajo para reutiliz
 
    * En este ejemplo, el campo de correo electrónico se utiliza para buscar perfiles únicos. Puede utilizar cualquier campo que esté rellenado y que forme parte de una combinación única.
    * In the **[!UICONTROL Deduplication method]** screen, select **[!UICONTROL Advanced parameters]** and check the **[!UICONTROL Disable automatic filtering of 0 ID records]** option to make sure records that have a primary key equal to 0 (which should be all records of this transition) are not excluded.
+
    ![](assets/import_template_example7.png)
 
 1. Configure the **[!UICONTROL Update data]** activity located after the **[!UICONTROL Deduplication]** activity configured previously.
