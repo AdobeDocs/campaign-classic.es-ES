@@ -4,11 +4,11 @@ seo-title: Documentación del producto Adobe Campaign Standard
 solution: Campaign Classic
 title: Documentación del producto Adobe Campaign Standard
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad0f9bdd2571a8780da464dc3ac8feb7b5aed998
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 ## Novedades
 
-* **[Emoticonos](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>Ahora puede insertar iconos gestuales en mensajes y en la línea de asunto
+* **[Emoticonos](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>Ahora puede insertar emoticonos en mensajes y en la línea de asunto
 
 * **[Obtener ayuda](https://helpx.adobe.com/es/campaign/kb/ac-support.html)**<br/>
 Acceso a preguntas frecuentes, prácticas recomendadas, recursos de ayuda y solicitudes de ayuda
