@@ -4,11 +4,11 @@ user-guide-title: Ayuda de Adobe Campaign Standard
 index: y
 product: adobe campaign
 sub-product: Adobe Campaign Classic
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c38fe4cc442768550ee90cecc6b31b78d39f3da1
-workflow-type: tm+mt
-source-wordcount: '2122'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '2078'
+ht-degree: 100%
 
 ---
 
@@ -305,7 +305,7 @@ ht-degree: 99%
    + Adobe Experience Manager {#adobe-experience-manager}
       + [Acerca de [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [Configuración de la integración](integrations/using/configuring-the-integration.md)
-      + [Creación de un newsletter de [!DNL Experience Manager]](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [Creación de una  [!DNL Experience Manager] newsletter](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
       + [Integración con [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
       + [Configuración de la integración con [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
@@ -316,11 +316,11 @@ ht-degree: 99%
       + [Implementación de [!DNL IMS]](integrations/using/implementing-ims.md)
       + [Solución de problemas de IMS](integrations/using/ims-troubleshooting.md)
    + Conector ACS {#acs-connector}
-      + [Principios y ciclo de datos del [!DNL Conector ACS]](integrations/using/acs-connector-principles-and-data-cycle.md)
+      + [[!DNL ACS Connector] Principios y ciclo de datos](integrations/using/acs-connector-principles-and-data-cycle.md)
       + [Sincronización de perfiles](integrations/using/synchronizing-profiles.md)
       + [Sincronización de audiencias](integrations/using/synchronizing-audiences.md)
       + [Sincronización de aplicaciones web](integrations/using/synchronizing-web-applications.md)
-      + [Solución de problemas del [!DNL Conector ACS]](integrations/using/troubleshooting-the-acs-connector.md)
+      + [Resolución de problemas de [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
    + Experience Cloud Triggers {#experience-triggers}
       + [Acerca de [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [Configuración de canalización](integrations/using/configuring-pipeline.md)
@@ -447,7 +447,7 @@ ht-degree: 99%
    + Flujos de trabajo técnicos {#technical-workflows}
       + [Acerca de los flujos de trabajo técnicos](workflow/using/about-technical-workflows.md)
       + [Entregas](workflow/using/deliveries.md)
-      + [Campaña](workflow/using/campaign.md)
+      + [Campaign](workflow/using/campaign.md)
       + [Web Analytics](workflow/using/web-analytics.md)
       + [Distributed Marketing](workflow/using/distributed-marketing.md)
       + [Seguimiento de la capacidad de entrega](workflow/using/email-deliverability.md)
