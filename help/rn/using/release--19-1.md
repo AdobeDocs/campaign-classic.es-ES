@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d2781c8bc25cde742a89bddc1535886179130c2a
+source-git-commit: 77bb2ee42919a1bbf9a1a9e4594505f5cf99ca68
 workflow-type: tm+mt
-source-wordcount: '2934'
-ht-degree: 98%
+source-wordcount: '2921'
+ht-degree: 99%
 
 ---
 
@@ -83,7 +83,7 @@ _7 de julio de 2020_
 
 Esta nueva versión (9032@efd8a94) incluye la siguiente corrección:
 
-* Se ha corregido un problema que impedía que el seguimiento funcionara cuando el servidor de intermediaria estaba en la compilación 9032 (Gold Standard) y el servidor de marketing en una compilación anterior (anterior a 9032). (NEO-26411)
+* Se ha corregido un problema que impedía que el seguimiento funcionara cuando la función de firma estaba deshabilitada. (NEO-26411)
 
 >[!CAUTION]
 >
