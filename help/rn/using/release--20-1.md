@@ -23,7 +23,7 @@ ht-degree: 99%
 
 # Versión 20.1{#release-20-1}
 
-[Build upgrade](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) | [Control Panel releases](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html) | [Documentation updates](../../rn/using/documentation-updates.md) | [Previous releases](../../rn/using/release--19-2.md) | [Deprecated features](https://helpx.adobe.com/es/campaign/kb/deprecated-and-removed-features.html)
+[Generar actualización](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) | [Versiones del panel de control de Campaign](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html) | [Actualizaciones en la documentación](../../rn/using/documentation-updates.md) | [Versiones anteriores](../../rn/using/release--19-2.md) | [Funciones obsoletas](https://helpx.adobe.com/es/campaign/kb/deprecated-and-removed-features.html)
 
 <table> 
  <tbody> 
