@@ -14,21 +14,34 @@ discoiquuid: 093dbe8a-494f-4fe7-8614-3bf58486e34c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
+translation-type: tm+mt
+source-git-commit: 23629289ac5da3f9bef01f50c452f7c761a6fa44
+workflow-type: tm+mt
+source-wordcount: '327'
+ht-degree: 77%
 
 ---
 
 
-# Planificador{#scheduler}
+# Planificador {#scheduler}
 
 El **Scheduler** es una tarea persistente que activa su transición en el momento especificado por su programación.
 
 La actividad del **[!UICONTROL Scheduler]** debe considerarse como un inicio programado. Las reglas de colocación de actividad dentro del gráfico son las mismas que para la actividad **[!UICONTROL Start]**. Esta actividad no debe tener una transición entrante.
 
-Se recomienda no planificar un flujo de trabajo para que se ejecute durante más de 15 minutos, ya que podría limitar el rendimiento general del sistema y crear bloques en la base de datos.
+## Prácticas recomendadas {#best-practices}
 
-Al generar el flujo de trabajo, evite utilizar más de una actividad **[!UICONTROL Scheduler]** por rama. Para obtener más información, consulte: [Uso de actividades](../../workflow/using/workflow-best-practices.md#using-activities).
+* No programe un flujo de trabajo para que se ejecute más de 15 minutos, ya que podría obstaculizar el rendimiento general del sistema y crear bloques en la base de datos.
+
+* Nunca utilice más de una **[!UICONTROL Scheduler]** actividad por rama en un flujo de trabajo. Consulte [Uso de actividades](../../workflow/using/workflow-best-practices.md#using-activities).
+
+* El uso de una actividad de planificador puede llevar a que se realicen varias ejecuciones de un flujo de trabajo al mismo tiempo. Por ejemplo, puede hacer que un programador active la ejecución del flujo de trabajo cada hora, pero a veces la ejecución del flujo de trabajo completo tarda más de una hora.
+
+   Puede preferir omitir la ejecución si el flujo de trabajo ya se está ejecutando. Para obtener más información sobre cómo evitar ejecuciones simultáneas de un flujo de trabajo, consulte [esta página](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions).
+
+* Tenga en cuenta que la transición se puede activar varias horas después si el flujo de trabajo estaba ejecutando una tarea a largo plazo, como una importación, o si el módulo wfserver se detuvo durante un tiempo. En este caso, puede ser necesario restringir la ejecución de la tarea activada por el planificador a un determinado intervalo de tiempo.
+
+## Configuring the Scheduler activity {#configuring-scheduler-activity}
 
 El planificador define la programación de activación de la transición. Para configurarlo, haga doble clic en el objeto gráfico y, a continuación, haga clic en **[!UICONTROL Change...]**.
 
@@ -51,7 +64,3 @@ Un asistente le permite definir la frecuencia y el periodo de validez de la acti
 1. Compruebe la configuración y haga clic en **[!UICONTROL Finish]** para guardar.
 
    ![](assets/s_user_segmentation_scheduler5.png)
-
-El uso de una actividad de planificador puede llevar a que se realicen varias ejecuciones de un flujo de trabajo al mismo tiempo. Por ejemplo, puede hacer que un programador active la ejecución del flujo de trabajo cada hora, pero a veces la ejecución del flujo de trabajo completo tarda más de una hora. Puede preferir omitir la ejecución si el flujo de trabajo ya se está ejecutando. Para obtener más información sobre cómo evitar ejecuciones simultáneas de un flujo de trabajo, consulte [esta página](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions).
-
-Tenga en cuenta también que la transición puede activarse varias horas más tarde si el flujo de trabajo ejecuta una tarea a largo plazo como una importación, o si el módulo wfserver se detuvo durante un tiempo. En este caso, puede ser necesario restringir la ejecución de la tarea activada por el planificador a un determinado intervalo de tiempo.
