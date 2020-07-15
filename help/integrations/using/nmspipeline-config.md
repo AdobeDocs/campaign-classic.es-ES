@@ -15,17 +15,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9957dabca4c63d504a3d06cf527a97b79fee46d5
+source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 2%
+source-wordcount: '376'
+ht-degree: 3%
 
 ---
 
 
 # Opción de canalización NmsPipeline_Config {#nmspipeline_config}
 
-Una vez que la autenticación funciona, el sistema canalizado puede recuperar los eventos y procesarlos. Solo procesa activadores configurados en Adobe Campaign, ignorando los demás. El activador debe haberse generado desde Analytics y haber sido transferido a la canalización de antemano.
+Una vez que la autenticación funcione, [!DNL pipelined] puede recuperar los eventos y procesarlos. Solo procesa activadores configurados en Adobe Campaign, ignorando los demás. El activador debe haberse generado desde Analytics y haber sido transferido a la canalización de antemano.
 La opción también se puede configurar con un comodín para capturar todos los activadores independientemente del nombre.
 
 La configuración de los activadores se realiza en una opción, en **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. El nombre de la opción es **[!UICONTROL NmsPipeline_Config]**. El tipo de datos es &quot;texto largo&quot; en formato JSON.
@@ -90,6 +90,6 @@ Asegúrese de que el JSON sea válido con la ayuda de este [sitio web](http://js
 
 * &quot;name&quot; es el ID del desencadenador. Un comodín &quot;*&quot; captura todos los activadores.
 * &quot;Consumidor&quot; es cualquier cadena única que identifica de forma exclusiva la instancia de nlserver. Normalmente puede ser el nombre de la instancia. Para varios entornos (dev/stage/prod), asegúrese de que sea único para cada uno de ellos para que cada instancia obtenga una copia del mensaje.
-* Pipelned también admite el tema &quot;alias&quot;.
+* [!DNL Pipelined] también admite el tema &quot;alias&quot;.
 
-Reinicie la tubería después de realizar cambios.
+Reinicie [!DNL pipelined] después de realizar los cambios.
