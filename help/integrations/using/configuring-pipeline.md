@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 39d6da007d69f81da959660b24b56ba2558a97ba
+source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '917'
 ht-degree: 1%
 
 ---
@@ -129,7 +129,7 @@ Siga estos pasos:
 
 ### Registro del nombre de la aplicación en Adobe Campaign Classic {#application-name-registration}
 
-El ID de aplicación del cliente oAuth creado debe configurarse en Adobe Campaign. Puede hacerlo editando el archivo de configuración de instancia en el elemento canalizado, específicamente el atributo appName.
+El ID de aplicación del cliente oAuth creado debe configurarse en Adobe Campaign. Puede hacerlo editando el archivo de configuración de instancia en el [!DNL pipelined] elemento, específicamente el atributo appName.
 
 Ejemplo:
 
@@ -139,11 +139,11 @@ Ejemplo:
 
 ### Cifrado clave {#key-encription}
 
-Para ser utilizado por canalizaciones, la clave privada debe estar cifrada. La codificación se realiza mediante la función cryptString Javascript y debe realizarse en la misma instancia que la canalizada.
+Para que lo utilice [!DNL pipelined], la clave privada debe cifrarse. La codificación se realiza mediante la función cryptString Javascript y debe realizarse en la misma instancia que [!DNL pipelined].
 
 En esta [página](../../integrations/using/pipeline-troubleshooting.md)hay disponible un ejemplo de cifrado de clave privada con JavaScript.
 
-La clave privada cifrada debe estar registrada en Adobe Campaign. Puede hacerlo editando el archivo de configuración de instancia en el elemento canalizado, específicamente el atributo authPrivateKey.
+La clave privada cifrada debe estar registrada en Adobe Campaign. Puede hacerlo editando el archivo de configuración de instancia en el [!DNL pipelined] elemento, específicamente el atributo authPrivateKey.
 
 Ejemplo:
 
@@ -153,7 +153,7 @@ Ejemplo:
 
 ### inicio automático de proceso canalizado {#pipelined-auto-start}
 
-El proceso de tuberías debe iniciarse automáticamente.
+El [!DNL pipelined] proceso debe iniciarse automáticamente.
 Para ello, establezca el elemento en el archivo de configuración en autostart=&quot;true&quot;:
 
 ```
@@ -174,7 +174,7 @@ Se requiere un reinicio para que los cambios surtan efecto:
 nlserver restart pipelined@instance
 ```
 
-En caso de errores, busque errores en la salida estándar (si ha empezado manualmente) o en el archivo de registro canalizado. Consulte la sección Resolución de problemas de este documento para obtener más información sobre la resolución de problemas.
+En caso de errores, busque los errores en la salida estándar (si ha empezado manualmente) o en el archivo de [!DNL pipelined] registro. Consulte la sección Resolución de problemas de este documento para obtener más información sobre la resolución de problemas.
 
 ### Opciones de configuración de tuberías {#pipelined-configuration-options}
 
@@ -187,7 +187,7 @@ En caso de errores, busque errores en la salida estándar (si ha empezado manual
 | discoverPipelineEndpoint | URL para descubrir el extremo de los servicios de tubería que se va a usar para este inquilino. Valor predeterminado: https://producer-pipeline-pnw.adobe.net |
 | dumpStatePeriodSec | El período entre 2 volcados del estado interno del proceso en var/INSTANCE/pipelined.json estado interno también está disponible a petición en http://INSTANCE/pipelined/status (puerto 7781). |
 | forcePipelineEndpoint | Deshabilitar el descubrimiento de PipelineServicesEndpoint y forzarlo |
-| monitorServerPort | El proceso canalizado escucha en este puerto para proporcionar el estado interno del proceso en http://INSTANCE/pipelined/status (puerto 7781). |
+| monitorServerPort | El [!DNL pipelined] proceso escucha en este puerto para proporcionar el estado interno del proceso en http://INSTANCE/pipelined/status (puerto 7781). |
 | punteroFlushMessageCount | Cuando se procesa este número de mensajes, los desplazamientos se guardan en la base de datos. El valor predeterminado es 1000 |
 | punteroFlushPeriodSec | Después de este período, los desplazamientos se guardarán en la base de datos. El valor predeterminado es 5 (segundos) |
 | processingJSThwords | Número de mensajes de procesamiento de subprocesos dedicados con conectores JS personalizados. El valor predeterminado es 4 |
