@@ -15,15 +15,15 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4f1f1cd9c5ebb77fbb01cadad6c587ed2fe64dcc
+source-git-commit: 959455ec92b40581f04cf0e357b6c0d3f3fba81c
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: '1833'
 ht-degree: 93%
 
 ---
 
 
-# Configuraciones específicas por tipo de base de datos {#specific-configurations-by-database-type}
+# Configuración de los conectores FDA {#specific-configurations-by-database-type}
 
 En función de las bases de datos externas a las que desee tener acceso desde Adobe Campaign, debe realizar determinadas configuraciones específicas. Estas configuraciones implican esencialmente la instalación de controladores y la declaración de variables de entorno que pertenecen a cada RDBMS en el servidor de Adobe Campaign.
 
@@ -59,6 +59,7 @@ Para crear la cuenta externa [!DNL Azure Synapse] de cuenta externa:
    * **[!UICONTROL Password]**: Contraseña de la cuenta de usuario
 
    * **[!UICONTROL Database]**: Nombre de la base de datos
+
    ![](assets/azure_1.png)
 
 ### Azure Synapse en CentOS {#azure-centos}
@@ -258,6 +259,7 @@ La cuenta externa [!DNL Snowflake] permite conectar la instancia de Campaign a l
    * **[!UICONTROL Password]**: Contraseña de la cuenta de usuario
 
    * **[!UICONTROL Database]**: Nombre de la base de datos
+
    ![](assets/snowflake.png)
 
 1. Haga clic en la pestaña **[!UICONTROL Parameters]** y luego en el botón **[!UICONTROL Deploy functions]** para crear funciones.
@@ -346,6 +348,7 @@ The [!DNL Hadoop] external account allows you to connect your Campaign instance 
    * **[!UICONTROL Database]**: Nombre de la base de datos si no se especifica en DSN. Se puede dejar vacío si se especifica en el DSN
 
    * **[!UICONTROL Time zone]**: Zona horaria del servidor
+
    ![](assets/hadoop3.png)
 
 El conector admite las siguientes opciones de ODBC:
@@ -404,6 +407,7 @@ The [!DNL Oracle] external account allows you to connect your Campaign instance 
    * **[!UICONTROL Password]**: Contraseña de la cuenta de usuario
 
    * **[!UICONTROL Time zone]**: Zona horaria del servidor
+
    ![](assets/oracle_config.png)
 
 ### Oracle en Linux {#for-linux-1}
