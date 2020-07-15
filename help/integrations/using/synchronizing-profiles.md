@@ -14,11 +14,11 @@ discoiquuid: 91115d4f-0cb6-4bce-b28d-17f15e9f9a0a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0386ae88a1b4d9ebda64283d874e01b14e9e5af4
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 56212b320d5077f9b66952e7c11eb8bdcea9e3b4
+workflow-type: tm+mt
 source-wordcount: '1203'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -63,7 +63,7 @@ Cuando un destinatario hace clic en el vínculo de baja de suscripción en un me
 
 ## Edición de un destinatario {#editing-a-recipient}
 
-Los pasos siguientes para cambiar un único punto de datos proporcionan un ejemplo sencillo de cómo Campaign v7 se convierte en la base de datos maestra para Campaign Standard cuando se utiliza la duplicación de datos. Modificar o eliminar los datos duplicados en Campaign v7 tiene el mismo efecto en los datos correspondientes de Campaign Standard.
+Los pasos a continuación para cambiar un solo punto de oferta de datos son un ejemplo sencillo de cómo Campaña v7 se convierte en la base de datos principal para Campaign Standard al utilizar la replicación de datos. Modificar o eliminar los datos duplicados en Campaign v7 tiene el mismo efecto en los datos correspondientes de Campaign Standard.
 
 1. Elija el destinatario recién creado en [Creación de un nuevo destinatario](#creating-a-new-recipient) y edite el nombre del destinatario. Por ejemplo, seleccione un **[!UICONTROL Salutation]** para el destinatario (por ejemplo, Sr. o Sra.). Para obtener más información, consulte [Edición de un perfil](../../platform/using/editing-a-profile.md).
 
