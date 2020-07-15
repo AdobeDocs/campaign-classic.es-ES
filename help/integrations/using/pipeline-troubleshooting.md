@@ -15,21 +15,21 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 39d6da007d69f81da959660b24b56ba2558a97ba
+source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '642'
 ht-degree: 2%
 
 ---
 
 
-# Solución de problemas de tubería {#pipeline-troubleshooting}
+# Solución de problemas de canalización {#pipeline-troubleshooting}
 
 **Se produce un error con el error &quot;Ninguna tarea corresponde a la máscara canalizada@&quot;**
 
 La versión de Adobe Campaign Classic no admite la canalización.
 
-1. Compruebe si el elemento canalizado está presente en el archivo de configuración. Si no, significa que no es compatible.
+1. Compruebe si el [!DNL pipelined] elemento está presente en el archivo de configuración. Si no, significa que no es compatible.
 1. Actualice a la versión 6.11 build 8705 o posterior.
 
 **Falla con &#39;&#39; aurait du y el marcador par &#39;[&#39; ou &#39;{&#39; (iRc=16384)&quot;**
@@ -53,7 +53,7 @@ El parámetro @authPrivateKey del archivo de configuración de instancia es inco
 1. Compruebe que authPrivateKey: inicios con @, termina con = y tiene una longitud de aproximadamente 4000 caracteres.
 1. Busque la clave original y verifique que: en formato RSA, 4096 bits de longitud y inicios con —BEGIN RSA PRIVATE KEY—.
    <br> Si es necesario, vuelva a crear la clave y regístrela en Adobe Analytics. Consulte esta [sección](../../integrations/using/configuring-pipeline.md#oauth-client-creation).
-1. Compruebe que la clave se haya codificado en la misma instancia que la canalizada. <br>Si es necesario, rehaga la codificación utilizando el JavaScript o el flujo de trabajo de ejemplo.
+1. Compruebe que la clave se haya codificado en la misma instancia que [!DNL pipelined]. <br>Si es necesario, rehaga la codificación utilizando el JavaScript o el flujo de trabajo de ejemplo.
 
 **Error al canalizar con &quot;no se puede leer el token durante la autenticación&quot;**
 
@@ -65,12 +65,12 @@ La clave privada tiene un formato no válido.
 
 **No se recuperan activadores**
 
-Cuando el proceso canalizado se está ejecutando y no se recuperan activadores:
+Cuando el [!DNL pipelined] proceso se está ejecutando y no se recuperan activadores:
 
 1. Asegúrese de que el activador está activo en Analytics y está generando eventos.
-1. Asegúrese de que el proceso canalizado se está ejecutando.
-1. Busque errores en el registro canalizado.
-1. Busque errores en la página de estado de canalización. activador-descartado, activador-fracasos debe ser cero.
+1. Asegúrese de que el [!DNL pipelined] proceso se está ejecutando.
+1. Busque errores en el [!DNL pipelined] registro.
+1. Busque errores en la página de estado [!DNL pipelined] . activador-descartado, activador-fracasos debe ser cero.
 1. Compruebe que el nombre del activador esté configurado en la **[!UICONTROL NmsPipeline_Config]** opción. Si hay alguna duda, utilice la opción comodín.
 1. Compruebe que Analytics tiene un activador activo y está generando eventos. Podría haber un retraso de unas horas después de realizar la configuración en Analytics antes de que esté activa.
 
@@ -89,9 +89,9 @@ Cuando la marca de tiempo de Analytics es mucho más antigua que la fecha de cre
 
 Generalmente, un activador puede tardar entre 15 y 90 minutos en iniciar una campaña de marketing. Esto varía según la implementación de la recopilación de datos, la carga en la canalización, la configuración personalizada del activador definido y el flujo de trabajo en Adobe Campaign.
 
-1. Compruebe si el proceso canalizado se ha estado ejecutando.
+1. Compruebe si el [!DNL pipelined] proceso se ha estado ejecutando.
 1. Busque errores en pipelned.log que puedan causar reintentos. Corrija los errores, si corresponde.
-1. Compruebe el tamaño de la cola en la página de estado de canalización. Si el tamaño de la cola es grande, mejore el rendimiento del JS.
+1. Compruebe el tamaño de la cola en la página [!DNL pipelined] de estado. Si el tamaño de la cola es grande, mejore el rendimiento del JS.
 1. Dado que un retraso parece aumentar con el volumen, configure los activadores en Analytics con menos mensajes.
 Anexos
 
