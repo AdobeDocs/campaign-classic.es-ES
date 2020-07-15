@@ -14,11 +14,11 @@ discoiquuid: 8b101c0b-3611-4f15-813b-7c0bf54fc48a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3bf835b3f686d1293fda7e6254660c477ba26452
-workflow-type: ht
-source-wordcount: '3152'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2f0bb31f7234289f39a561fa58a23cac0390b465
+workflow-type: tm+mt
+source-wordcount: '3151'
+ht-degree: 99%
 
 ---
 
@@ -64,7 +64,7 @@ Para realizar esto, siga los pasos a continuación:
 
    >[!CAUTION]
    >
-   > A partir de la versión 20.2, los conectores heredados quedan obsoletos y no son compatibles. Se recomienda utilizar el conector **[!UICONTROL Extended generic SMPP]**. Para obtener más información sobre cómo migrar al conector recomendado, consulte esta [página](https://helpx.adobe.com/es/campaign/kb/sms-connector.html).
+   > A partir de la versión 20.2, los conectores heredados están obsoletos y no son compatibles. Se recomienda utilizar el conector **[!UICONTROL Extended generic SMPP]**. Para obtener más información sobre cómo migrar al conector recomendado, consulte esta [página](https://helpx.adobe.com/es/campaign/kb/sms-connector.html).
 
 1. La opción **[!UICONTROL Enable verbose SMPP traces in the log file]** permite volcar todo el tráfico SMPP en los archivos de registro. Esta opción debe habilitarse para solucionar los problemas del conector y comparar el tráfico que ve el proveedor.
 
