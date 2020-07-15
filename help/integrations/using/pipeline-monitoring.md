@@ -15,17 +15,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 39d6da007d69f81da959660b24b56ba2558a97ba
+source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '438'
 ht-degree: 2%
 
 ---
 
 
-# Supervisión de tuberías {#pipeline-monitoring}
+# Supervisión de canalización {#pipeline-monitoring}
 
-El servicio web de estado de tuberías proporciona información sobre el estado del proceso de tuberías.
+El servicio web de [!DNL pipelined] estado proporciona información sobre el estado del [!DNL pipelined] proceso.
 
 Se puede acceder a él manualmente con un navegador o automáticamente con una aplicación de supervisión.
 
@@ -50,7 +50,7 @@ Se destacan los indicadores recomendados para supervisar.
    * next-offsets-flush: tiempo de espera hasta el siguiente lote, una vez finalizado.
    * procesado desde último vaciado: número de activadores procesados en el último lote.
 * enrutamiento
-   * activadores: lista de activadores recuperados. Configurado en la opción canalizada.
+   * activadores: lista de activadores recuperados. Configurado en la [!DNL pipelined] opción.
 * stats
    * average-puntero-flush-time-ms: tiempo de procesamiento promedio para un lote de activadores.
    * average-desencadenador-procesando-time-ms: tiempo promedio empleado en analizar los datos de activadores.
