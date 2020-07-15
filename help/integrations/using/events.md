@@ -15,15 +15,15 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 39d6da007d69f81da959660b24b56ba2558a97ba
+source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 1%
+source-wordcount: '1145'
+ht-degree: 2%
 
 ---
 
 
-# Desencadenadores eventos {#events}
+# Eventos de activadores {#events}
 
 ## Procesamiento de eventos en JavaScript {#events-javascript}
 
@@ -31,13 +31,13 @@ ht-degree: 1%
 
 Pipeline utiliza una función de JavaScript para procesar cada mensaje. Esta función está definida por el usuario.
 
-Se configura en la **[!UICONTROL NmsPipeline_Config]** opción bajo el atributo &quot;JSConnector&quot;. Se llama a este javascript cada vez que se recibe un evento. Está dirigido por el proceso de tuberías.
+Se configura en la **[!UICONTROL NmsPipeline_Config]** opción bajo el atributo &quot;JSConnector&quot;. Se llama a este javascript cada vez que se recibe un evento. Está dirigido por el [!DNL pipelined] proceso.
 
 El archivo JS de muestra es cus:triggers.js.
 
 ### Función JavaScript {#function-js}
 
-El JavaScript de la canalización debe estar en inicio con una función específica.
+El [!DNL pipelined] Javascript debe estar en inicio con una función específica.
 
 Esta función se llama una vez por cada evento:
 
@@ -51,7 +51,7 @@ Debería volver como
 <undefined/>
 ```
 
-Reinicie la tubería después de editar el JS.
+Reinicie [!DNL pipelined] después de editar el JS.
 
 ### Activar formato de datos {#trigger-format}
 
@@ -110,7 +110,7 @@ Ejemplo:
 
 ### Orden de procesamiento de eventos {#order-events}
 
-Los eventos se procesan de uno en uno, por orden de desplazamiento. Cada subproceso de la canalización procesa una partición diferente.
+Los eventos se procesan de uno en uno, por orden de desplazamiento. Cada subproceso del [!DNL pipelined] procesa una partición diferente.
 
 El &quot;desplazamiento&quot; del último evento recuperado se almacena en la base de datos. Por lo tanto, si el proceso se detiene, se reinicia a partir del último mensaje. Estos datos se almacenan en el esquema integrado xtk:ducooffset.
 
@@ -122,8 +122,8 @@ Actualmente, no hay forma de tener diferentes colas para entornos separados como
 
 ### Registro y gestión de errores {#logging-error-handling}
 
-Los registros como logInfo() se dirigen al registro canalizado. Errores como logError() se escriben en el registro canalizado y hacen que el evento se coloque en una cola de reintentos. Compruebe el registro de tuberías.
-Los mensajes de error se vuelven a intentar varias veces en la duración establecida en las opciones de canalización.
+Registros como logInfo() se dirigen al [!DNL pipelined] registro. Errores como logError() se escriben en el [!DNL pipelined] registro y hacen que el evento se coloque en una cola de reintentos. Compruebe el registro de tuberías.
+Los mensajes de error se vuelven a intentar varias veces en la duración establecida en las [!DNL pipelined] opciones.
 
 Para fines de depuración y supervisión, los datos de desencadenador completos se escriben en la tabla de desencadenadores. Se encuentra en el campo &quot;data&quot; en formato XML. De forma alternativa, un logInfo() que contenga los datos desencadenadores tiene el mismo propósito.
 
