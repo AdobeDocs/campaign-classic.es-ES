@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7d944973e10c4df166325049b947e359853a2353
+source-git-commit: fdc305ff5bf27aa5cc0a4a9e89ac8ed9d5bead57
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '721'
 ht-degree: 9%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 9%
 
 La **[!UICONTROL Monitoring]** ficha, a la que se puede acceder desde la página principal del Campaign Classic, es el principal punto de entrada para ayudarle a supervisar la instancia.
 
-Proporciona un panel de lo que sucede en la instancia:  su estado (versión de compilación, paquetes instalados, etc.), indicadores del sistema, registros, flujos de trabajo que se están ejecutando actualmente, estado de los últimos envíos enviados, etc.
+Proporciona un panel de lo que sucede en la instancia: su estado (versión de compilación, paquetes instalados, etc.), indicadores del sistema, registros, flujos de trabajo que se están ejecutando actualmente, estado de los últimos envíos enviados, etc.
 
 Encontrará información detallada [aquí](../../production/using/monitoring-processes.md).
 
@@ -35,16 +35,18 @@ Encontrará información detallada [aquí](../../production/using/monitoring-pro
 
 ## Monitoring Campaign Classic processes {#monitoring-campaign-classic-processes}
 
-Existen otras formas de supervisar los diferentes procesos de Campaña. Para obtener más información, consulte las secciones a continuación.
-
 <table>
-<tr><td><img src="assets/do-not-localize/instance_icon.svg" width="60px"><p><a href="#monitoring-instance">Monitorear su instancia</a></p></td>
-<td><img src="assets/do-not-localize/workflow_icon.svg" width="60px"><p><a href="#moniroting-workflows">flujos de trabajo de monitor</a></p></td>
-<td><img src="assets/do-not-localize/database_icon.svg" width="60px"><p><a href="#monitoring-database">Monitorear la base de datos</a></p></td>
-<td><img src="assets/do-not-localize/delivery_icon.svg" width="60px"><p><a href="#monitoring-deliveries">Supervise los envíos</a></p></td></tr>
+<tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">Monitorear su instancia</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">flujos de trabajo de monitor</a></p></td>
+<td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">Monitorear la base de datos</a></p></td>
+<td><img src="assets/do-not-localize/icon_Send.svg" width="60px"><p><a href="#monitoring-deliveries">Supervise los envíos</a></p></td></tr>
 </table>
 
+Existen otras formas de supervisar los diferentes procesos de Campaña. Proporcionan varias formas de monitorear las instancias para asegurarse de que el sistema está en buen estado y, finalmente, solucionar los problemas que pueden producirse al configurar flujos de trabajo, enviar envíos, etc.
+
 ### Monitoreo de la instancia {#monitoring-instance}
+
+<img src="assets/do-not-localize/icon_system.svg" width="60px">
 
 **Herramientas de supervisión automáticas**
 
@@ -56,13 +58,15 @@ La pista de auditoría permite visualizar el historial completo de cambios relac
 
 **Panel de control**
 
-El Panel de control permite administrar varias configuraciones de la instancia: administrar permisos de URL, comprobar los detalles de la instancia como las versiones de compilación de los servidores, etc. También permite supervisar el espacio disponible en los servidores SFTP conectados a la instancia. [Haga clic aquí](https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html) para obtener más información.
+El Panel de control de Campaign le permite administrar varias configuraciones de la instancia: administrar permisos de URL, comprobar los detalles de la instancia como las versiones de compilación de los servidores, etc. También permite supervisar el espacio disponible en los servidores SFTP conectados a la instancia. [Haga clic aquí](https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html) para obtener más información.
 
 >[!NOTE]
 >
->Tenga en cuenta que el Panel de control solo está disponible para los usuarios administradores y para todos los clientes que utilizan Adobes Managed Services.
+>Tenga en cuenta que el Panel de control de Campaign solo está disponible para los usuarios administradores y para todos los clientes que utilicen Adobes Managed Services.
 
 ### Monitorización de flujos de trabajo {#monitoring-workflows}
+
+<img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
 **Mapa de calor del flujo de trabajo**
 
@@ -88,6 +92,8 @@ Las siguientes directrices y prácticas recomendadas al usar flujos de trabajo p
 
 ### Seguimiento de entregas {#monitoring-deliveries}
 
+<img src="assets/do-not-localize/icon_send.svg" width="60px">
+
 **Informes SMTP**
 
 Los informes SMTP muestran estadísticas de envío y errores SMTP por dominio. [Haga clic aquí](../../production/using/monitoring-processes.md) para obtener más información.
@@ -103,6 +109,8 @@ Los informes SMTP muestran estadísticas de envío y errores SMTP por dominio. [
 * [Problemas](../../production/using/temporary-files.md) de archivos temporales: solo modelos de alojamiento *in situ*
 
 ### Supervisión de la base de datos {#monitoring-database}
+
+<img src="assets/do-not-localize/icon_database.svg" width="60px">
 
 **Flujo de trabajo para limpieza de bases de datos**
 
