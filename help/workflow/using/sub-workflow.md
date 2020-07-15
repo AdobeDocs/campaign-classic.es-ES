@@ -14,11 +14,11 @@ discoiquuid: a4441820-1b3d-4bac-a6e3-1c9c14466d19
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b1a961822224ab0a9551f51942a5f94cf201c8ee
-workflow-type: ht
-source-wordcount: '422'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9f55a2014546ce08972f51e4930ce04d4ce0c188
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 84%
 
 ---
 
@@ -29,7 +29,7 @@ La actividad **[!UICONTROL Sub-workflow]** permite activar la ejecución de otro
 
 Puede activar varios subflujos de trabajo en un solo flujo de trabajo. Los subflujos de trabajo se ejecutan de forma sincrónica.
 
-En el ejemplo siguiente, un flujo de trabajo “maestro” llama a un subflujo de trabajo mediante saltos. Para obtener más información sobre los objetos gráficos de tipo salto, consulte [esta sección](../../workflow/using/jump--start-point-and-end-point-.md).
+En el ejemplo siguiente, un flujo de trabajo principal llama a un subflujo de trabajo mediante saltos. Para obtener más información sobre los objetos gráficos de tipo salto, consulte [esta sección](../../workflow/using/jump--start-point-and-end-point-.md).
 
 1. Cree un flujo de trabajo que utilizará como subflujo de trabajo en otro flujo de trabajo.
 1. Inserte una actividad **[!UICONTROL Jump (end point)]** con una prioridad de 1 al principio del flujo de trabajo. Si tiene varios saltos del tipo “llegada”, Adobe Campaign utiliza el salto de “llegada” con el número más bajo.
@@ -44,7 +44,7 @@ En el ejemplo siguiente, un flujo de trabajo “maestro” llama a un subflujo d
    >Para que el subflujo de trabajo se ejecute correctamente, solo debe haber un único salto de tipo “llegada” con el número más bajo y un único salto de tipo de “inicio” con el número más alto.
 
 1. Complete y guarde este “subflujo de trabajo”.
-1. Crear un flujo de trabajo “maestro”.
+1. Cree un flujo de trabajo principal.
 1. Inserte una actividad **[!UICONTROL Sub-workflow]** y ábrala.
 1. Seleccione el flujo de trabajo que desee utilizar en la lista desplegable **[!UICONTROL Workflow template]**.
 
@@ -57,13 +57,17 @@ En el ejemplo siguiente, un flujo de trabajo “maestro” llama a un subflujo d
 
 1. Ejecute el flujo de trabajo.
 
-Una vez ejecutado, el flujo de trabajo llamado como subflujo de trabajo sigue en estado **[!UICONTROL Being edited]**, lo que significa lo siguiente:
+Once run, the workflow that was called as a sub-workflow remains in **[!UICONTROL Being edited]** status, which means the following:
 
 * No puede hacer clic con el botón derecho en las transiciones para mostrar el destino.
 * No se puede mostrar el recuento de poblaciones intermedias.
-* Los registros se agregan en el flujo de trabajo “maestro” y se etiquetan como “subflujo de trabajo”.
+* Los registros de subflujo de trabajo se muestran en el flujo de trabajo principal.
 
-De hecho, este flujo de trabajo solo es una plantilla. Se crea un nuevo subflujo de trabajo basado en esta plantilla cuando se activa desde el flujo de trabajo “maestro”.
+   ![](assets/subworkflow_logs.png)
+
+>[!NOTE]
+>
+>Si se produce algún error en el subflujo de trabajo, el flujo de trabajo principal se pausará y se creará una copia del subflujo de trabajo.
 
 ## Parámetros de entrada (opcional) {#input-parameters--optional-}
 
