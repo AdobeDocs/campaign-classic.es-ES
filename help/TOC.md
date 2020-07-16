@@ -5,9 +5,9 @@ index: y
 product: adobe campaign
 sub-product: Adobe Campaign Classic
 translation-type: tm+mt
-source-git-commit: 959455ec92b40581f04cf0e357b6c0d3f3fba81c
+source-git-commit: 6c3c2ad62778c4c4f874c5b34c014529ce3e7185
 workflow-type: tm+mt
-source-wordcount: '2076'
+source-wordcount: '2089'
 ht-degree: 99%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 99%
 + [Documentación del producto](campaign-classic-home.md)
 + [Últimas actualizaciones](rn/using/documentation-updates.md)
 + Notas de la versión {#release-notes}
+   + [Introducción a las actualizaciones](rn/using/rn-overview.md)
    + [Última versión](rn/using/latest-release.md)
+   + [ Versión Gold Standard ](rn/using/gold-standard.md)
    + Versiones anteriores {#previous-releases}
       + [Versión 20.1](rn/using/release--20-1.md)
       + [Versión 19.2](rn/using/release--19-2.md)
@@ -26,7 +28,9 @@ ht-degree: 99%
       + [Versión 18.10](rn/using/release--18-10.md)
       + [Versión 18.6](rn/using/release--18-6.md)
       + [Versión 18.4](rn/using/release--18-4.md)
-   + [Funciones obsoletas](rn/using/deprecated-features.md)
+   + Funciones y compatibilidad obsoletas {#deprecated-compatibility}
+      + [Funciones obsoletas](rn/using/deprecated-features.md)
+      + [Matriz de compatibilidad](rn/using/compatibility-matrix.md)
 + Introducción {#getting-started}
    + Primeros pasos con Adobe Campaign {#starting-with-adobe-campaign}
       + [Acerca de Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
