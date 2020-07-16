@@ -13,36 +13,15 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4a8812a85c8c98cdf38145a2b1649530adab89d
+source-git-commit: 5b7c0dc12b41b8482dce9d42bbf88878bb03bf38
 workflow-type: tm+mt
-source-wordcount: '1764'
-ht-degree: 99%
+source-wordcount: '1692'
+ht-degree: 100%
 
 ---
 
 
 # Última versión{#latest-release}
-
-[Build upgrade](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) | [Control Panel releases](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html) | [Documentation updates](../../rn/using/documentation-updates.md) | [Previous releases](../../rn/using/release--20-1.md) | [Deprecated features](../../rn/using/deprecated-features.md)
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><img src="assets/do-not-localize/green3.png"/><strong>Disponibilidad general</strong></td>
-   <td><img src="assets/do-not-localize/blue3.png"/><strong>Liberar candidato</strong></td> 
-   <td><img src="assets/do-not-localize/orange3.png"/><strong>Ya no está disponible</strong></td> 
-   <td><img src="assets/do-not-localize/red3.png"/><strong>Obsoleto</strong></td> 
-  </tr> 
-   <tr> 
-   <td>Última compilación estable disponible. Compilación validada en producción.<br></td>
-   <td>Compilación validada por Adobe. Esperando pruebas de producción.<br> </td>
-   <td>Nueva compilación disponible con correcciones de errores. Se requiere la actualización.<br></td>
-   <td>Contiene regresiones conocidas. La actualización es obligatoria.<br></td>
-  </tr> 
- </tbody> 
-</table>
-
-La **última compilación** estable es Gold Standard 10. Haga clic [aquí](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
 ![](assets/do-not-localize/cp-icon.png) **Nuevo lanzamiento del Panel de control de Campaign en junio** con monitorización de perfiles activos, auditoría de entregas de subdominios y administración de claves GPG. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
 
