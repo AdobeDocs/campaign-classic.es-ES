@@ -14,11 +14,11 @@ discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ea6488686d19b020e55839afee97e71a13ce2e33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1326'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -61,11 +61,11 @@ Tenga en cuenta que la transferencia de datos solo está disponible para los usu
 
 Hay tres opciones disponibles:
 
-* **[!UICONTROL Accept]** :: Al aceptar este acuerdo, autoriza a Adobe Campaign a recopilar sus datos y a transferirlos a los Estados Unidos para que pueda ayudarle en caso de detectar anomalías.
-* **[!UICONTROL Refuse]** :: Al rechazar el acuerdo, los datos no se transferirán, pero aún puede utilizar Workflow Heatmap.
-* **[!UICONTROL Do not show this message again]** :: Al hacer clic en **[!UICONTROL Do not show this message again]** , la ventana emergente dejará de mostrarse al acceder al mapa de calor del flujo de trabajo, pero aún está disponible desde el **[!UICONTROL Term of use]** botón.
+* **[!UICONTROL Accept]**: Al aceptar este acuerdo, autoriza a Adobe Campaign a recopilar sus datos y a transferirlos a los Estados Unidos para que puedan ayudarle en caso de detección de anomalías.
+* **[!UICONTROL Refuse]**: Al rechazar el acuerdo, los datos no se transferirán, pero aún puede utilizar el mapa de calor del flujo de trabajo.
+* **[!UICONTROL Do not show this message again]**: Al hacer clic en **[!UICONTROL Do not show this message again]**, la ventana emergente dejará de mostrarse al acceder al mapa de calor del flujo de trabajo, pero aún está disponible desde el botón **[!UICONTROL Term of use]**.
 
-This choice is not final, you can always change it by clicking the **[!UICONTROL Term of use]** button.
+Esta opción no es final, pues siempre puede cambiarla haciendo clic en el botón **[!UICONTROL Term of use]**.
 
 ## Uso del mapa de calor {#using-the-heatmap}
 
@@ -73,7 +73,7 @@ This choice is not final, you can always change it by clicking the **[!UICONTROL
 >
 >Solo los usuarios con derechos de administración pueden acceder al mapa de calor del flujo de trabajo de campaña.
 
-1. Vaya a **[!UICONTROL Monitoring]** y haga clic en el **[!UICONTROL Workflow HeatMap]** vínculo para mostrar la **[!UICONTROL Campaign Workflow HeatMap]** página.
+1. Vaya a **[!UICONTROL Monitoring]** y haga clic en el vínculo **[!UICONTROL Workflow HeatMap]** para mostrar la página **[!UICONTROL Campaign Workflow HeatMap]**.
 
    ![](assets/wkf_monitoring_path.png)
 
@@ -83,7 +83,7 @@ This choice is not final, you can always change it by clicking the **[!UICONTROL
 
    >[!NOTE]
    >
-   >Only the workflows that have not been deleted by the **[!UICONTROL Database cleanup]** workflow are visible. Para obtener más información sobre el flujo de trabajo de limpieza, consulte [esta sección](../../production/using/database-cleanup-workflow.md).\
+   >Solo son visibles los flujos de trabajo que no se han eliminado en el flujo de trabajo de **[!UICONTROL Database cleanup]**. Para obtener más información sobre el flujo de trabajo de limpieza, consulte [esta sección](../../production/using/database-cleanup-workflow.md).\
    >De forma predeterminada, la zona horaria de mapa de calor del flujo de trabajo es la definida para el usuario administrador actual. Por ejemplo: puede que desee cambiarlo si no se encuentra en el mismo área que los usuarios de mercadotecnia con los que está trabajando.
 
 1. Haga clic en el botón **[!UICONTROL Filters]**.
@@ -94,24 +94,24 @@ This choice is not final, you can always change it by clicking the **[!UICONTROL
 
    ![](assets/wkf_monitoring_filters_duration.png)
 
-1. You can also choose a specific workflow from the **[!UICONTROL Workflows]** list.
+1. También puede elegir un flujo de trabajo específico en la lista **[!UICONTROL Workflows]**.
 
    ![](assets/wkf_monitoring_filters_workflows.png)
 
    >[!NOTE]
    >
-   >Se aplica el **[!UICONTROL Min duration]** filtro. Si no encuentra un flujo de trabajo específico, restablezca la duración mínima a 0 para que todos los flujos de trabajo se muestren en la lista.
+   >Se aplica el filtro **[!UICONTROL Min duration]**. Si no encuentra un flujo de trabajo específico, restablezca la duración mínima a 0 para que todos los flujos de trabajo se muestren en la lista.
 
-1. You can also filter on the **[!UICONTROL Workflow type]** :
+1. También puede filtrar por el **[!UICONTROL Workflow type]**:
 
-   * **[!UICONTROL Technical]** :: Solo se muestran [los flujos de trabajo técnicos](../../workflow/using/building-a-workflow.md#technical-workflows) y los flujos de trabajo [de](../../workflow/using/targeting-data.md#data-management) gestión de datos predeterminados.
+   * **[!UICONTROL Technical]**: Solo se muestran los flujos de trabajo [técnicos](../../workflow/using/building-a-workflow.md#technical-workflows) listos para usar y los flujos de trabajo [de administración de datos](../../workflow/using/targeting-data.md#data-management).
    * **[!UICONTROL Marketing]** : Solo se muestran los flujos de trabajo vinculados a una campaña de marketing, conocidos como flujos de trabajo [de ](../../workflow/using/building-a-workflow.md#campaign-workflows)campaña.
 
-1. To search a specific workflow by name, you can also use the **[!UICONTROL Workflow name filter]** field.
+1. Para buscar un flujo de trabajo específico por su nombre, también puede utilizar el campo **[!UICONTROL Workflow name filter]**.
 
    ![](assets/wkf_monitoring_filters_name.png)
 
-1. If you edited some workflows in the time between, click the **[!UICONTROL Reload data]** button to refresh the data that are displayed in the grid.
+1. Si ha editado algunos flujos de trabajo en el tiempo transcurrido entre una y otra, haga clic en el botón **[!UICONTROL Reload data]** para actualizar los datos que se muestran en la cuadrícula.
 
 ## Leer el mapa de calor {#reading-the-heatmap}
 
@@ -120,7 +120,7 @@ El mapa de calor del flujo de trabajo de la campaña es una cuadrícula legible 
 * Las celdas rojas más oscuras corresponden a períodos en los que se está ejecutando un número elevado de flujos de trabajo al mismo tiempo.
 * Las celdas grises corresponden a períodos en los que no se está ejecutando ningún flujo de trabajo.
 
-To learn how the color code is applied and how to navigate the HeatMap, click the **[!UICONTROL Help]** button.
+Para conocer cómo se aplica el código de color y cómo navegar por el mapa de calor, haga clic en el botón de **[!UICONTROL Help]**.
 
 ![](assets/wkf_monitoring_legend.png)
 
@@ -128,7 +128,7 @@ Cada fila representa una hora del día y cada celda representa 5 minutos de esa 
 
 La cuadrícula muestra todos los flujos de trabajo que se ejecutan al mismo tiempo para cada uno de estos períodos de 5 minutos.
 
-En el ejemplo siguiente, entre las 8:00 y las 8:05 a.m., se están ejecutando tres flujos de trabajo (independientemente de su duración individual):
+En el ejemplo siguiente, entre las 8:00 y las 8:05 de la mañana, se están ejecutando tres flujos de trabajo (independientemente de su duración individual):
 
 ![](assets/wkf_monitoring_ex_8am.png)
 
@@ -139,7 +139,7 @@ En el ejemplo siguiente, entre las 8:00 y las 8:05 a.m., se están ejecutando tr
    Para cada flujo de trabajo, se muestran todas las actividades que contiene, con su duración.
 
 1. Haga clic en el nombre o ID del flujo de trabajo para abrir directamente un flujo de trabajo.
-1. Para volver a la **[!UICONTROL Campaign Workflow HeatMap]** vista, haga clic en el **[!UICONTROL Home]** botón.
+1. Para volver a la vista **[!UICONTROL Campaign Workflow HeatMap]**, haga clic en el botón **[!UICONTROL Home]**.
 
 ## Casos de uso: uso del mapa de calor para realizar acciones {#use-cases--using-the-heatmap-to-take-actions}
 
@@ -149,7 +149,7 @@ Existen dos casos principales en los que el mapa de calor del flujo de trabajo d
 
 Como administrador de campañas, el mapa de calor del flujo de trabajo puede ayudarle a comprender la carga de la instancia y a planificar los flujos de trabajo existentes o nuevos en los momentos adecuados.
 
-1. En la **[!UICONTROL Campaign Workflow HeatMap]** vista, haga clic en el **[!UICONTROL Filters]** botón.
+1. En la vista **[!UICONTROL Campaign Workflow HeatMap]**, haga clic en el botón **[!UICONTROL Filters]**.
 1. Establezca la duración en unos segundos o en unos minutos.
 1. Excluya los flujos de trabajo más cortos que no sean significativos aumentando el filtro de duración.
 
@@ -164,12 +164,12 @@ Como administrador de campañas, el mapa de calor del flujo de trabajo puede ayu
 
 Como administrador de campañas, el mapa de calor del flujo de trabajo le ayuda a encontrar los flujos de trabajo más largos que pueden ralentizar la actividad.
 
-1. En la **[!UICONTROL Campaign Workflow HeatMap]** vista, haga clic en el **[!UICONTROL Filters]** botón.
+1. En la vista **[!UICONTROL Campaign Workflow HeatMap]**, haga clic en el botón **[!UICONTROL Filters]**.
 1. Establezca la duración en 1 hora.
 
    ![](assets/wkf_monitoring_long_duration.png)
 
-1. Include more results by decreasing the **[!UICONTROL Min duration]** filter.
+1. Incluya más resultados disminuyendo el filtro de **[!UICONTROL Min duration]**.
 1. Explore los resultados para encontrar los flujos de trabajo más largos, que pueden tener un mayor impacto en los recursos del servidor y la base de datos (CPU, RAM, red, IOPS, etc.).
 1. Realice las acciones apropiadas:
 
@@ -182,9 +182,9 @@ El ejemplo siguiente muestra cómo la planificación puede ser más eficiente y 
 
 En este caso, muchos usuarios se quejan del rendimiento del flujo de trabajo. Debe comprobar qué está ralentizando la actividad y cómo resolver el problema.
 
-1. Vaya a **[!UICONTROL Monitoring]** y haga clic en el **[!UICONTROL Workflows]** vínculo para mostrar la **[!UICONTROL Campaign Workflow HeatMap]** página.
-1. Establezca el **[!UICONTROL Min duration]** filtro en 5 minutos.
-1. Establezca el **[!UICONTROL Workflow type]** filtro en **[!UICONTROL Marketing]** .
+1. Vaya a **[!UICONTROL Monitoring]** y haga clic en el vínculo **[!UICONTROL Workflows]** para mostrar la página **[!UICONTROL Campaign Workflow HeatMap]**.
+1. Establezca el filtro **[!UICONTROL Min duration]** en 5 minutos.
+1. Establezca el filtro **[!UICONTROL Workflow type]** en **[!UICONTROL Marketing]**.
 1. Desde la cuadrícula de mapa de calor, observe lo siguiente:
 
    ![](assets/wkf_monitoring_without.png)
@@ -195,12 +195,12 @@ En este caso, muchos usuarios se quejan del rendimiento del flujo de trabajo. De
    * El rendimiento es bajo.
 
 1. En lugar de tener cincuenta flujos de trabajo a partir de las 10:00 a.m., distribuya los tiempos de inicio de los flujos de trabajo de forma uniforme durante el resto del día.
-1. Vuelva a la **[!UICONTROL Campaign Workflow HeatMap]** página y haga clic en el **[!UICONTROL Reload data]** botón.
+1. Vuelva a la página **[!UICONTROL Campaign Workflow HeatMap]** y haga clic en el botón **[!UICONTROL Reload data]**.
 1. Ahora observe lo siguiente:
 
    ![](assets/wkf_monitoring_with.png)
 
-   * Sólo dieciocho flujos de trabajo de campaña de larga duración siguen funcionando a las 10:00.
+   * Solo dieciocho flujos de trabajo de campaña de larga duración siguen funcionando a las 10:00 a.m.
    * No hay más flujos de trabajo en estado pendiente (el límite de concurrencia sigue establecido en 20).
    * Las horas de inicio del flujo de trabajo se distribuyen de forma uniforme a lo largo del día.
    * Ya no hay más usuarios que se quejen de problemas de rendimiento.
