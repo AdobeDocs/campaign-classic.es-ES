@@ -14,11 +14,11 @@ discoiquuid: cfa22577-0b9e-4eee-900d-214b81256d81
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d96912e39956f2f7b0b0af29dc765d0b9775a020
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '972'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -48,17 +48,17 @@ Este ejemplo se basa en el siguiente supuesto:
 
 Los mensajes de confirmación se envían a través de una plantilla de envío dedicada a nivel de servicio temporal.
 
-1. In the **[!UICONTROL Explorer]** , select **[!UICONTROL Resources > Templates > Delivery templates]**.
+1. En **[!UICONTROL Explorer]**, seleccione **[!UICONTROL Resources > Templates > Delivery templates]**
 1. Cree una plantilla de envío para enviar los mensajes de confirmación de suscripción.
 1. En **[!UICONTROL To]**, haga clic en el botón **[!UICONTROL Email parameters]** para asociar la plantilla de envío con la asignación de destino de suscripciones en lugar de con los destinatarios.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
 
-1. Como los destinatarios de este envío no han confirmado su aprobación, siguen en la lista de bloqueados de la base de datos. Para que reciban esta comunicación, debe autorizar envíos basados en esta plantilla a destinatarios de destinatario que se encuentren en la lista de bloqueados.
+1. Debido a que los destinatarios de este envío no han confirmado su aprobación, aún se encuentran en la lista de bloqueados de la base de datos. Para que reciban esta comunicación, debe autorizar envíos basados en esta plantilla a destinatarios de destino que se encuentren en la lista de bloqueados.
 
    Para ello, haga clic en la pestaña **[!UICONTROL Exclusions]**.
 
-1. Haga clic en el **[!UICONTROL Edit...]** vínculo y desmarque la **[!UICONTROL Exclude recipients who no longer want to be contacted (blocklist)]** opción.
+1. Haga clic en el vínculo **[!UICONTROL Edit...]** y desmarque la opción **[!UICONTROL Exclude recipients who no longer want to be contacted (blocklist)]**.
 
    <!-- ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)-->
 
@@ -88,7 +88,7 @@ El flujo de trabajo del formulario web incluye las siguientes actividades:
 
 Para realizar esto, siga los pasos a continuación:
 
-1. Create a Web form and choose the template **[!UICONTROL Newsletter subscription (subNewsletter)]**.
+1. Cree un formulario web y seleccione la plantilla **[!UICONTROL Newsletter subscription (subNewsletter)]**.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_5a.png)
 
@@ -112,7 +112,7 @@ Para realizar esto, siga los pasos a continuación:
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
 
-   La primera **[!UICONTROL Script]** actividad agregará destinatarios a la lista de bloqueados hasta que confirmen su suscripción al boletín. El contenido debe ser el siguiente:
+   La primera actividad **[!UICONTROL Script]** agregará destinatarios a la lista de bloqueados hasta que confirmen su suscripción al boletín. El contenido debe ser el siguiente:
 
    ```
    ctx.recipient.@blockList=1
@@ -175,7 +175,7 @@ La suscripción al boletín informativo implica los pasos siguientes:
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8d.png)
 
-   The user is added to the Adobe Campaign database in the **[!UICONTROL Temp]** folder, and their profile is added to the block list until they confirm their subscription with the email.
+   El usuario se añade a la base de datos de Adobe Campaign en la carpeta **[!UICONTROL Temp]** y su perfil se añade a la lista de bloqueados hasta que confirme su suscripción con el correo electrónico.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8f.png)
 
