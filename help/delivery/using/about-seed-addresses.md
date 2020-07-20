@@ -14,9 +14,9 @@ discoiquuid: b49acfd0-b601-4694-88e3-cc0a169cb866
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d96912e39956f2f7b0b0af29dc765d0b9775a020
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
 ht-degree: 100%
 
@@ -53,6 +53,7 @@ En las entregas por correo postal, las direcciones semilla se añaden durante la
 >
 >* No se debe utilizar la opción **[!UICONTROL Handle groupings (GROUP BY+HAVING)]**.
 >* Si se extraen colecciones de datos, estos campos deben tener un valor vacío para las direcciones semilla, a menos que se seleccione la opción **[!UICONTROL Single row (expert user)]**. Para obtener más información, consulte [esta sección](../../platform/using/exporting-data.md#step-7---data-formatting).
+
 >
 
 
