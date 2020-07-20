@@ -18,7 +18,7 @@ translation-type: tm+mt
 source-git-commit: 959455ec92b40581f04cf0e357b6c0d3f3fba81c
 workflow-type: tm+mt
 source-wordcount: '1233'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -262,7 +262,7 @@ La conexión a una base de datos externa de Sybase IQ en FDA requiere determinad
 
 ## Configuración del acceso a Teradata {#configure-access-to-teradata}
 
-La conexión a una base de datos externa de Teradata en FDA requiere ciertas configuraciones adicionales en el servidor de Adobe Campaign. For more information on how to configure your Teradata database, refer to this [page](../../platform/using/appendices-fda.md#teradata-configuration).
+La conexión a una base de datos externa de Teradata en FDA requiere ciertas configuraciones adicionales en el servidor de Adobe Campaign. Para obtener más información sobre cómo configurar la base de datos Teradata, consulte esta [página](../../platform/using/appendices-fda.md#teradata-configuration).
 
 1. Instale [el controlador ODBC para Teradata](https://downloads.teradata.com/download/connectivity/odbc-driver/linux).
 
