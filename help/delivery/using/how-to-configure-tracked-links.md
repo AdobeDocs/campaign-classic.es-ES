@@ -14,11 +14,11 @@ discoiquuid: 9cae3861-88eb-447a-aa23-9d1de0710eec
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ed44ccd8053d79024e8fb2d05ee27e1e663b8cb2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Para cada entrega, puede hacer un seguimiento de la recepción de mensajes y la 
 
 >[!NOTE]
 >
->El seguimiento se aplica a los mensajes, pero el seguimiento web permite monitorear la forma en que los destinatarios exploran un sitio web (páginas visitadas, compras).
+>El seguimiento se aplica a los mensajes, pero el seguimiento web permite controlar cómo los destinatarios navegan por un sitio web (páginas visitadas, compras).
 >
->The configuration of web tracking is presented in [this section](../../configuration/using/about-web-tracking.md).
+>La configuración del seguimiento web se presenta en [esta sección](../../configuration/using/about-web-tracking.md).
 
 El seguimiento de mensajes está activado de forma predeterminada. Para personalizar cómo se realiza el seguimiento de las direcciones URL, siga los pasos a continuación:
 
