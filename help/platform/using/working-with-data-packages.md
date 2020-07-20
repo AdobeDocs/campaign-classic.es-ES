@@ -145,7 +145,7 @@ Para los tres tipos de paquete, el asistente ofrece los siguientes pasos:
 
    ![](assets/ncs_datapackage_export6.png)
 
-1. La última página del asistente para la exportación de paquetes permite iniciar la exportación. Los datos se almacenan en el archivo indicado en el campo **[!UICONTROL File]**.
+1. La última página del asistente de exportación de paquetes permite iniciar la exportación. Los datos se almacenan en el archivo indicado en el campo **[!UICONTROL File]**.
 
    ![](assets/ncs_datapackage_export7.png)
 
@@ -304,7 +304,7 @@ La generación de paquetes se puede configurar desde la pestaña de **[!UICONTRO
 Para exportar un paquete desde una definición de paquete, siga los pasos siguientes:
 
 1. Seleccione la definición del paquete que desea exportar, haga clic en el botón **[!UICONTROL Actions]** y seleccione **[!UICONTROL Export the package]**.
-1. De forma predeterminada, se selecciona un archivo XML correspondiente al paquete exportado. Se le asigna un nombre en función del área de nombre y el nombre de la definición del paquete.
+1. De forma predeterminada, se selecciona un archivo XML correspondiente al paquete exportado. Se le asigna un nombre en función del área de nombres y el nombre de la definición del paquete.
 1. Una vez que haya definido el nombre y la ubicación del paquete, haga clic en el botón **[!UICONTROL Start]** para iniciar la exportación.
 
    ![](assets/packagedefinition_packageexport.png)
