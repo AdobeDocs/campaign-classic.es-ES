@@ -18,7 +18,7 @@ translation-type: tm+mt
 source-git-commit: 959455ec92b40581f04cf0e357b6c0d3f3fba81c
 workflow-type: tm+mt
 source-wordcount: '1833'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ Para crear la cuenta externa [!DNL Azure Synapse] de cuenta externa:
 
 1. Haga clic **[!UICONTROL New]**.
 
-1. Seleccione **[!UICONTROL External database]** como cuenta externa **[!UICONTROL Type]**.
+1. Seleccione **[!UICONTROL External database]** como **[!UICONTROL Type]** de su cuenta externa.
 
 1. Configure la cuenta externa [!DNL Azure Synapse]. Debe especificar:
 
@@ -246,7 +246,7 @@ La cuenta externa [!DNL Snowflake] permite conectar la instancia de Campaign a l
 
 1. Haga clic **[!UICONTROL New]**.
 
-1. Seleccione **[!UICONTROL External database]** como cuenta externa **[!UICONTROL Type]**.
+1. Seleccione **[!UICONTROL External database]** como **[!UICONTROL Type]** de su cuenta externa.
 
 1. Configure la cuenta externa **[!UICONTROL Snowflake]**. Debe especificar:
 
@@ -327,13 +327,13 @@ El conector admite las siguientes opciones:
 
 ### Cuenta externa de Hadoop {#hadoop-external}
 
-The [!DNL Hadoop] external account allows you to connect your Campaign instance to your Hadoop external database.
+La cuenta externa [!DNL Hadoop] permite conectar la instancia de Campaign a la base de datos externa de Hadoop.
 
 1. En Campaign Classic, configure la cuenta externa [!DNL Hadoop]. En **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
 1. Haga clic **[!UICONTROL New]**.
 
-1. Seleccione **[!UICONTROL External database]** como cuenta externa **[!UICONTROL Type]**.
+1. Seleccione **[!UICONTROL External database]** como **[!UICONTROL Type]** de su cuenta externa.
 
 1. Configure la cuenta externa **[!UICONTROL Hadoop]**. Debe especificar:
 
@@ -386,15 +386,15 @@ La conexión a una base de datos externa de Hadoop en FDA requiere las siguiente
 
 ## Configuración del acceso a Oracle {#configure-access-to-oracle}
 
-### cuenta externa de Oracle {#oracle-external}
+### Cuenta externa de Oracle {#oracle-external}
 
-The [!DNL Oracle] external account allows you to connect your Campaign instance to your Hadoop external database.
+La cuenta externa [!DNL Oracle] permite conectar la instancia de Campaign a la base de datos externa de Hadoop.
 
 1. En Campaign Classic, configure la cuenta externa [!DNL oracle]. En **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
 1. Haga clic **[!UICONTROL New]**.
 
-1. Seleccione **[!UICONTROL External database]** como cuenta externa **[!UICONTROL Type]**.
+1. Seleccione **[!UICONTROL External database]** como **[!UICONTROL Type]** de su cuenta externa.
 
 1. Configure la cuenta externa **[!UICONTROL Oracle]**. Debe especificar:
 
