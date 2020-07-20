@@ -14,9 +14,9 @@ discoiquuid: 5ff1577f-0809-46fd-ac1e-11b24637e35c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d96912e39956f2f7b0b0af29dc765d0b9775a020
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1661'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Conectores de datos (anteriormente conocido como Adobe Genesis) permite que Adob
 
 A través de conectores de datos, Adobe Campaign puede medir la audiencia de Internet (Web Analytics). Gracias a estas integraciones, Adobe Campaign puede recuperar los datos del comportamiento del visitante para uno o más sitios después de una campaña de marketing y (después del análisis) ejecutar nuevas campañas con la intención de convertirlos en compradores. Por el contrario, las herramientas de Web Analytics permiten que Adobe Campaign reenvíe indicadores y atributos de campaña a sus plataformas.
 
-Para obtener más información sobre la implementación de la integración de Adobe Analytics con Adobe Campaign, consulte [esta documentación](https://helpx.adobe.com/marketing-cloud/how-to/analytics-ac.html).
+Para obtener más información sobre la implementación de la integración de Adobe Analytics con Adobe Campaign, consulte [esta documentación](https://helpx.adobe.com/es/marketing-cloud/how-to/analytics-ac.html).
 
 Los campos de acción de cada herramienta son los siguientes:
 
@@ -76,6 +76,7 @@ Los pasos siguientes detallan la configuración del conector de datos mediante u
    * Integraciones (Crear)
    * Integraciones (Actualización)
    * Integraciones (Eliminar)
+
    ![](assets/adobe_genesis_install_002.png)
 
 1. En la lista de socios, seleccione **[!UICONTROL Adobe Campaign Classic]**.
@@ -220,6 +221,7 @@ Están disponibles en el árbol de Adobe Campaign, en la carpeta **[!UICONTROL A
    * **[!UICONTROL Number of distinct clicks]** (@recipientClick)
    * **[!UICONTROL Opt-Out]** (@optOut)
    * **[!UICONTROL Errors]** (@error)
+
    >[!NOTE]
    >
    >Los datos enviados son la información delta basada en el último resumen que puede generar un valor negativo en los datos de la métrica.
