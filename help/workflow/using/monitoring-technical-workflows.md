@@ -14,11 +14,11 @@ discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ea6488686d19b020e55839afee97e71a13ce2e33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,28 +43,28 @@ En los indicadores del sistema y los archivos principales, compruebe que no hay 
 
 ## Flujos de trabajo técnicos {#technical-workflows}
 
-Technical workflows are available from **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
+Los flujos de trabajo técnicos están disponibles en **[!UICONTROL Technical workflows]****[!UICONTROL Administration]**, **[!UICONTROL Production]**, .
 
 Dependiendo del flujo de trabajo técnico, siga los pasos detallados a continuación para asegurarse de que todo funciona correctamente.
 
 Para comprender mejor qué debe hacer cada flujo de trabajo técnico, consulte esta [sección](../../workflow/using/about-technical-workflows.md).
 
-Para **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
+En el caso de **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
 
 1. Compruebe que el flujo de trabajo **[!UICONTROL Database Cleanup]** se ejecuta y finaliza correctamente todos los días. Para obtener más información, consulte [esta página](../../workflow/using/delivery.md).
 1. Observe el historial para verificar que el tiempo transcurrido es relativamente constante en el tiempo y no interfiere con otros flujos de trabajo.
 1. Para obtener más información, consulte esta [página](../../production/using/database-cleanup-workflow.md).
 
-Para **[!UICONTROL Tracking workflow (‘tracking’)]**:
+En el caso de **[!UICONTROL Tracking workflow (‘tracking’)]**:
 
 Compruebe que el flujo de trabajo de seguimiento se ejecute como está planificado (cada hora de forma predeterminada) y que el historial no destaque errores recurrentes. Para obtener más información, consulte [esta sección](../../workflow/using/delivery.md).
 
-Para **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]**:
+En el caso de **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]**:
 
 1. Compruebe que el flujo de trabajo **[!UICONTROL Deliverability update]** se ejecuta y finaliza correctamente todos los días. Para obtener más información, consulte [esta página](../../workflow/using/delivery.md).
 1. Compruebe en el historial que las reglas se actualizan periódicamente.
 
-Para **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**:
+En el caso de **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**:
 
 1. Observe todos los flujos de trabajo ubicados en la carpeta **[!UICONTROL Campaign process]**. Para obtener más información, consulte [esta página](../../workflow/using/campaign.md).
 1. Compruebe que los flujos de trabajo se ejecutan como está planificado y que el historial no destaca errores recurrentes.
