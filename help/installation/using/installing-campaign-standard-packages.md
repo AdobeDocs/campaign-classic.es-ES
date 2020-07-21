@@ -18,7 +18,7 @@ translation-type: tm+mt
 source-git-commit: d60389eb735fb50188ddc2f2e3df3788a3213446
 workflow-type: tm+mt
 source-wordcount: '1128'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -69,7 +69,7 @@ La siguiente tabla lista todos los paquetes estándar con su descripción, el ti
   <tr> 
    <td> Entrega<br /> </td> 
    <td> Supervisa los envíos y los problemas que se detectan al enviar mensajes. <a href="../../delivery/using/monitoring-a-delivery.md">Más información</a><br /> </td> 
-   <td> Todos</td> 
+   <td> Todo</td> 
   </tr> 
   <tr> 
    <td> campañas de marketing (Campaña)<br /> </td> 
@@ -84,7 +84,7 @@ La siguiente tabla lista todos los paquetes estándar con su descripción, el ti
   <tr> 
    <td> Motor de Oferta (interacción)<br /> </td> 
    <td> Responde en tiempo real durante una interacción con un determinado contacto (cliente o destinatario) al convertirlos en una o varias ofertas adaptadas.  Opcional. <a href="../../interaction/using/interaction-and-offer-management.md">Más información</a> <br /> </td> 
-   <td> Todos<br /> </td> 
+   <td> Todo<br /> </td> 
   </tr> 
   <tr> 
    <td> Control del motor de oferta con instancia de ejecución. Opcional.<br /> </td> 
@@ -105,7 +105,7 @@ La siguiente tabla lista todos los paquetes estándar con su descripción, el ti
   <tr> 
    <td> Redes sociales (Social Marketing) <br /> </td> 
    <td> Sincroniza el Adobe Campaign con Twitter y Facebook. <a href="../../social/using/about-social-marketing.md">Más información</a> <br /> </td> 
-   <td> Todos</td> 
+   <td> Todo</td> 
   </tr> 
   <tr> 
    <td> Control de Mensajes transaccionales (Centro de mensajes - Control)<br /> </td> 
@@ -120,22 +120,22 @@ La siguiente tabla lista todos los paquetes estándar con su descripción, el ti
   <tr> 
    <td> Canal LINE<br /> </td> 
    <td> Envía envíos mediante el canal LINE con Adobe Campaign. Opcional. La mensajería transaccional (paquete de centro de mensajes) es obligatoria. <a href="../../delivery/using/line-channel.md">Más información</a> <br /> </td> 
-   <td> Todos<br /> </td> 
+   <td> Todo<br /> </td> 
   </tr> 
   <tr> 
    <td> Direct Mail channel<br /> </td> 
    <td> Envía envíos mediante el canal de correo directo con Adobe Campaign. Opcional. <a href="../../delivery/using/about-direct-mail-channel.md">Más información</a><br /> </td> 
-   <td> Todos<br /> </td>
+   <td> Todo<br /> </td>
   </tr> 
   <tr> 
    <td> canal móvil (SMS) <br /> </td> 
    <td> Envía envíos usando el canal móvil/SMS con Adobe Campaign. Opcional. <a href="../../delivery/using/sms-channel.md">Más información</a> <br /> </td> 
-   <td> Todos<br /> </td> 
+   <td> Todo<br /> </td> 
   </tr> 
   <tr> 
    <td> Canal de aplicaciones móviles<br /> </td> 
    <td> Utiliza la plataforma de Adobe Campaign para enviar notificaciones personalizadas a los terminales de iOS y Android a través de las aplicaciones. Opcional. <a href="../../delivery/using/about-mobile-app-channel.md">Más información</a> <br /> </td> 
-   <td> Todos<br /> </td> 
+   <td> Todo<br /> </td> 
   </tr> 
   <tr> 
    <td> Content Manager<br /> </td> 
@@ -160,7 +160,7 @@ La siguiente tabla lista todos los paquetes estándar con su descripción, el ti
   <tr> 
    <td> Acceso a datos externos (Acceso de datos federado)<br /> </td> 
    <td> Proporciona la opción Acceso de datos federado (FDA) para procesar la información almacenada en una o varias bases de datos externas, de modo que pueda acceder a los datos externos sin cambiar la estructura de los datos de Adobe Campaign.  Opcional. <a href="../../workflow/using/accessing-an-external-database--fda-.md">Más información</a> <br /> </td> 
-   <td> Todos<br /> </td> 
+   <td> Todo<br /> </td> 
   </tr> 
   <tr> 
    <td> Campaign Optimization (Optimización de la campaña)<br /> </td> 
@@ -170,7 +170,7 @@ La siguiente tabla lista todos los paquetes estándar con su descripción, el ti
   <tr> 
    <td> Monitorización de la capacidad de entrega (capacidad de entrega por correo electrónico)<br /> </td> 
    <td> Mide el éxito de sus campañas llegando a la bandeja de entrada de sus destinatarios sin rebotar o marcando como correo no deseado. Opcional. <a href="../../delivery/using/about-deliverability.md">Más información</a> <br /> </td> 
-   <td> Todos </td> 
+   <td> Todo </td> 
   </tr> 
   <tr> 
    <td> Gestión de cupones<br /> </td> 
@@ -215,7 +215,7 @@ La siguiente tabla lista todos los paquetes estándar con su descripción, el ti
   <tr> 
    <td> Reglamento de protección de datos de privacidad<br /> </td> 
    <td> Contiene funcionalidad adicional para ayudarle con la conformidad con la privacidad en Campaign Classic. <a href="https://helpx.adobe.com/es/campaign/kb/acc-privacy.html">Más información</a> <br /> </td> 
-   <td> Todos</td> 
+   <td> Todo</td> 
   </tr> 
   <tr> 
    <td> Transfer to Mid-Sourcing <br /> </td> 
