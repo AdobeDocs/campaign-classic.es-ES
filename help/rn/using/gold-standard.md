@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7ff58cee4b189c51fbff20880ac800d91f1b0147
+source-git-commit: c1f7ff6a281c2830ac23ad995b750dc09ade5e92
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 80%
@@ -35,7 +35,7 @@ Esta página lista las versiones de Gold Standard.
 
 Para obtener más información sobre la actualización a Gold Standard, consulte este [artículo](https://helpx.adobe.com/es/campaign/kb/gold-standard.html).
 
-## ![](assets/do-not-localize/green_2.png) Versión Gold Standard 10{#gs-10}
+## ![](assets/do-not-localize/blue_2.png) Versión Gold Standard 10{#gs-10}
 
 _7 de julio de 2020_
 
@@ -88,7 +88,7 @@ La versión 9032@3a9dc9c incluye las siguientes correcciones:
 * Se ha corregido una regresión que ocasionaba que el flujo de trabajo de limpieza se bloqueara.
 * Se ha corregido una regresión menor en los registros del flujo de trabajo de limpieza.
 
-## ![](assets/do-not-localize/orange_2.png) Versión Gold Standard 6{#gs-6}
+## ![](assets/do-not-localize/green_2.png) Versión Gold Standard 6{#gs-6}
 
 _9 de marzo de 2020_
 
