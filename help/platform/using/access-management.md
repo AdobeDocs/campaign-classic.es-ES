@@ -14,10 +14,10 @@ discoiquuid: c0eb06fd-192c-4ee4-9a38-c9bedbe6aea0
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 651dfdab75f64d72a1c5beb1273a878ee7102b47
-workflow-type: ht
-source-wordcount: '2912'
+translation-type: tm+mt
+source-git-commit: 65399d7b3917e2df37c32735e7015d742f5f022c
+workflow-type: tm+mt
+source-wordcount: '2935'
 ht-degree: 100%
 
 ---
@@ -258,6 +258,7 @@ Los grupos de operadores predeterminados son:
 
    * INSERCIÓN DE CARPETAS: derecho para insertar carpetas en el árbol de Adobe Campaign (siempre que tenga derechos de edición para las ramas correspondientes),
    * FLUJO DE TRABAJO: derecho para utilizar flujos de trabajo.
+
    >[!NOTE]
    >
    >Este grupo no permite a los operadores iniciar entregas.
@@ -346,7 +347,9 @@ Estos derechos son los siguientes:
 
 Los grupos predeterminados y los derechos asignados permiten a los operadores acceder a ciertas carpetas de la jerarquía de navegación y conceder permisos de lectura, escritura y eliminación.
 
-La matriz de derechos de acceso a Adobe Campaign está disponible [aquí](/help/platform/using/assets/accessrights.pdf).
+La matriz de derechos de acceso a Adobe Campaign está disponible [aquí](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/getting-started/administration-basics/assets/accessrights.pdf).
+
+[![imagen](assets/user_management.png)](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/getting-started/administration-basics/assets/accessrights.pdf)
 
 ## Administración de acceso a carpetas {#folder-access-management}
 
