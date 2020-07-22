@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5b7c0dc12b41b8482dce9d42bbf88878bb03bf38
+source-git-commit: d9b6ae9f7e2f3b15698f1a420b5416162cbcc758
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 100%
+source-wordcount: '1987'
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,30 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/cp-icon.png) **Nuevo lanzamiento del Panel de control de Campaign en junio** con monitorización de perfiles activos, auditoría de entregas de subdominios y administración de claves GPG. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
 
-## ![](assets/do-not-localize/blue_2.png) Versión 20.2.1: compilación 9178 {#release-20-2-1-build-9178}
+## ![](assets/do-not-localize/blue_2.png) Versión 20.2.1: compilación 9180 {#release-20-2-2-build-9180}
+
+_22 de julio de 2020_
+
+* Se ha corregido un problema que impedía que el seguimiento funcionara cuando la función de firma estaba deshabilitada o cuando se usaba una instancia de marketing antigua con un Mid reciente. (NEO-26411)
+* Se ha corregido un problema que provocaba que los vínculos sin firmar de dominios personalizados se bloquearan cuando deberían permitirse. (NEO-25210)
+* Se ha corregido un problema que podía impedir que se abrieran las direcciones URL de seguimiento al usar ciertas versiones heredadas de Outlook o se hiciera clic en ellas. (NEO-25688)
+* Se ha corregido un problema que provocaba que las direcciones URL de página espejo se definieran incorrectamente en los envíos de correo electrónico. (NEO-26084)
+* Se ha corregido un problema con la administración de direcciones URL de codificación en el servicio antiphishing. (NEO-25283)
+* Se ha corregido un problema que impedía que el funcionamiento del seguimiento de direcciones URL mediante fragmentos en parámetros de personalización (etiquetas de anclaje con signo de almohadilla). (NEO-25774)
+* Se ha corregido un problema de seguimiento al usar fórmulas de seguimiento personalizadas específicas. (NEO-25277)
+Se ha corregido un problema que impedía el funcionamiento del seguimiento de &quot;clics de notificación&quot; (notificaciones push de iOS y Android). (NEO-25965)
+* Se ha corregido una regresión que afectaba a los campos calculados de un flujo de trabajo. (NEO-25194)
+* Se ha corregido una regresión que impedía que funcionara la creación sobre la marcha de direcciones URL de seguimiento web. (NEO-20999)
+* Se ha corregido un problema con los informes de envío listos para usar que aparecían truncados al exportarse a PDF. (NEO-25757)
+* Se ha corregido un problema de bloqueo en el asistente de implementación.
+* Se ha corregido un problema que podía impedir que el flujo de trabajo de notificación de Oferta funcionara correctamente después de una actualización posterior.
+* Se ha mejorado el conector HTTP2 de iOS (actualizaciones de terceros y administración de errores). (NEO-25904, NEO-25903)
+* La lista jarsToSkip en catalina.properties se ha actualizado para eliminar la referencia a un archivo jar que ya no se utilizaba (notificaciones de iOS).
+* Se ha corregido un problema que bloqueaba la preparación del envío después de la actualización.
+* Después del cambio al [nuevo mecanismo](https://helpx.adobe.com/es/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)de ID de secuencia, todas las aplicaciones web que actualizan la tabla de destinatario se vuelven a publicar durante la posactualización.
+* Se ha corregido una potencial vulnerabilidad XSS en el contenido de envío. (NEO-17987, NEO-26073)
+
+## ![](assets/do-not-localize/orange_2.png) Versión 20.2.1: compilación 9178 {#release-20-2-1-build-9178}
 
 _lunes, 8 de junio de 2020_
 
