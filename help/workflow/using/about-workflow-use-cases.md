@@ -1,5 +1,5 @@
 ---
-title: Acerca de los casos de uso del flujo de trabajo
+title: Acerca de los casos de uso de flujos de trabajo
 description: Obtenga más información sobre casos de uso que puede realizar con flujos de trabajo de Campaign Classic.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
@@ -12,24 +12,60 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5d67ab5bbc44b81c65605ae9132cf5a8356aa814
+source-git-commit: 6d9e2b54da9de37ed8f4f873a1049b35493112d4
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 8%
+source-wordcount: '165'
+ht-degree: 55%
 
 ---
 
 
-# Acerca de los casos de uso del flujo de trabajo {#about-workflow-use-cases}
+# Acerca de los casos de uso de flujos de trabajo {#about-workflow-use-cases}
 
 En esta sección, encontrará varios casos de uso que aprovechan las capacidades de Flujos de trabajo de la campaña.
 
 Le ayudarán a descubrir los diferentes contextos en los que se pueden utilizar los flujos de trabajo y responder a sus necesidades.
 
-Los casos de uso se organizan en tres temas principales:
+## Entregas {#deliveries}
 
-<table>
-<tr>
-<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="../../workflow/using/using-the-local-approval-activity.md">Entregas</a></p></td><td><img src="assets/do-not-localize/icon_monitoring.svg" width="60px"><p><a href="../../workflow/using/sending-a-report-to-a-list.md">Monitoreo</a></p></td><td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="../../workflow/using/coordinating-data-updates.md">Gestión de datos</a></p></td>
-<td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="../../workflow/using/querying-recipient-table.md">Diseño de consultas</a></p></td></tr>
-</table>
+<img src="assets/do-not-localize/icon_workflows.svg" width="60px">
+
+* [Uso de la actividad de aprobación local](../../workflow/using/using-the-local-approval-activity.md)
+* [Prueba A/B](../../workflow/using/a-b-testing.md)
+* [Envío de correo electrónico de cumpleaños](../../workflow/using/sending-a-birthday-email.md)
+* [Carga de contenido de entrega](../../workflow/using/loading-delivery-content.md)
+* [Flujo de trabajo de entrega por canales cruzados](../../workflow/using/cross-channel-delivery-workflow.md)
+* [Enriquecimiento de correo electrónico con campos de datos personalizados](../../workflow/using/email-enrichment-with-custom-date-fields.md)
+
+## Monitoreo {#monitoring}
+
+<img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
+
+* [Envío de informes a una lista](../../workflow/using/sending-a-report-to-a-list.md)
+* [Supervisión de flujos de trabajo](../../workflow/using/supervising-workflows.md)
+* [Envío de alertas personalizadas a operadores](../../workflow/using/sending-personalized-alerts-to-operators.md)
+
+## Gestión de datos {#management}
+
+<img src="assets/do-not-localize/icon_manage.svg" width="60px">
+
+* [Coordinación de actualizaciones de datos](../../workflow/using/coordinating-data-updates.md)
+* [Creación de la lista de resumen](../../workflow/using/creating-a-summary-list.md)
+* [Enriquecimiento de datos](../../workflow/using/enriching-data.md)
+* [Uso de agregados](../../workflow/using/using-aggregates.md)
+* [Importación de datos cifrados con una clave generada por Panel de control de Campaign](../../workflow/using/importing-data.md#use-case-gpg-decrypt)
+* [Codificación y exportación de datos mediante una clave instalada en el Panel de control de Campaign](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
+* [Actualización de lista trimestral mediante una consulta incremental](../../workflow/using/quarterly-list-update.md)
+
+## Diseño de consultas {#designing-queries}
+
+<img src="assets/do-not-localize/icon_filter.svg" width="60px">
+
+* [Consulta de la tabla de destinatarios](../../workflow/using/querying-recipient-table.md)
+* [Consulta de información de entrega](../../workflow/using/querying-delivery-information.md)
+* [Realización de la computación agregada](../../workflow/using/performing-aggregate-computing.md)
+* [Realización de consultas mediante la administración de agrupación](../../workflow/using/querying-using-grouping-management.md)
+* [Realización de consultas con una relación de varios a varios ](../../workflow/using/querying-using-many-to-many-relationship.md)
+* [Adición de un campo calculado de tipo de lista desglosada](../../workflow/using/adding-enumeration-type-calculated-field.md)
+* [Creación de filtros](../../workflow/using/creating-a-filter.md)
+* [Filtrado de destinatarios duplicados](../../workflow/using/filtering-duplicated-recipients.md)
