@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1f7ff6a281c2830ac23ad995b750dc09ade5e92
+source-git-commit: f097fcc4363181cda21386840f19e2523c3af3f9
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 80%
+source-wordcount: '826'
+ht-degree: 79%
 
 ---
 
@@ -41,7 +41,7 @@ _7 de julio de 2020_
 
 La versión 9032@efd8a94 incluye la siguiente corrección:
 
-* Se ha corregido un problema que impedía que el seguimiento funcionara cuando la función de firma estaba deshabilitada. (NEO-26411)
+Se ha corregido un problema que impedía que el seguimiento funcionara cuando la función de firma estaba deshabilitada o cuando se usaba una instancia de marketing antigua con un Mid reciente. (NEO-26411)
 
 >[!CAUTION]
 >
