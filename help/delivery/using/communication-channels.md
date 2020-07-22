@@ -14,11 +14,11 @@ discoiquuid: 2e2d1134-9b83-4ada-b74f-c3842a0cf044
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
-workflow-type: ht
-source-wordcount: '764'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c1f7ff6a281c2830ac23ad995b750dc09ade5e92
+workflow-type: tm+mt
+source-wordcount: '904'
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Campaign ofrece los siguientes canales de envío:
 1. **Canal móvil**: las entregas en canales móviles permiten enviar mensajes SMS o de LINE personalizados a la población objetivo. Consulte [el canal de SMS](../../delivery/using/sms-channel.md).
 1. **Canal de aplicación móvil**: los envíos de aplicaciones móviles permiten enviar notificaciones a sistemas iOS y Android. Consulte el capítulo [canal de aplicaciones móviles](../../delivery/using/about-mobile-app-channel.md).
 
-   En [esta página](../../delivery/using/other-channels.md) se describen otros canales.
+   En [esta página](../../delivery/using/communication-channels.md#other-channels) se describen otros canales.
 
    >[!NOTE]
    >
@@ -93,3 +93,13 @@ Adobe Campaign permite enviar [notificaciones push](../../delivery/using/about-m
 El [correo postal](../../delivery/using/about-direct-mail-channel.md) es un canal sin conexión que le permite personalizar y generar el archivo requerido por los proveedores de correo postal. Esto le ofrece la posibilidad de mezclar canales en línea y sin conexión para los viajes de los clientes.
 
 Los canales en línea permiten crear los mensajes (correo electrónico, SMS, envío por aplicaciones móviles, etc.) y enviarlos a su público directamente desde Adobe Campaign. Con los canales sin conexión esto es diferente. Al preparar una entrega de correo postal, Adobe Campaign genera un archivo con todos los perfiles de destino y la información de contacto elegida (por ejemplo, una dirección postal). Después, puede enviar este archivo al proveedor de correo postal que se encarga de la entrega real.
+
+## Otros canales {#other-channels}
+
+Adobe Campaign ofrece plantillas de distribución de agencia o teléfono, que se utilizan para crear envíos externos. El uso de estos canales implica la configuración de metodologías dedicadas para procesar archivos de salida. Los pasos de configuración son los mismos que para el [canal de correo postal](../../delivery/using/about-direct-mail-channel.md).
+
+Además, las entregas de tipo “Otros” utilizan una plantilla técnica específica que no ejecuta un proceso: esto les permite administrar las acciones de marketing ejecutadas fuera de la plataforma de Adobe Campaign.
+
+Este canal no tiene un mecanismo específico. Es un canal genérico con su propia opción de enrutamiento de cuenta externa, tipo de plantilla de envío y actividad de flujo de trabajo de campaña, igual que cualquier otro canal de comunicación disponible en Adobe Campaign.
+
+Este canal se ha diseñado únicamente para fines descriptivos, por ejemplo para definir envíos para los que se desea mantener un seguimiento del destinatario de una campaña realizada en una herramienta que no sea Adobe Campaign.
