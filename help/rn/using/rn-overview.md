@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 18035a68b0ebfee4a8165c49646e408a85371ae5
+source-git-commit: d4a170f22108b38ebe8a451feea6210fe5aa482f
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 16%
+source-wordcount: '438'
+ht-degree: 18%
 
 ---
 
@@ -37,6 +37,8 @@ A partir de Campaign Classic 19.2, se asocia un estado a cada versión. A contin
 
 La **última compilación** estable es Gold Standard 10. Haga clic [aquí](../../rn/using/gold-standard.md)
 
+![](assets/do-not-localize/limited.png) **Disponibilidad** limitada: la compilación se está realizando en la fase de validación de producción. Solo implementación a petición.
+
 ![](assets/do-not-localize/blue3.png) **Candidato** a la versión: la compilación ha sido validada por Adobe. Esperando pruebas de producción.
 
 ![](assets/do-not-localize/orange3.png) **Ya no está disponible** : la versión más reciente está disponible con correcciones de errores. Se requiere la actualización.
@@ -49,7 +51,7 @@ Como cliente alojado (servicio administrado o híbrido), debe ponerse en contact
 
 Como usuario de Gold Standard, se beneficiará automáticamente de la actualización a Gold Standard con la última versión estable sin ninguna acción. [Más información](https://helpx.adobe.com/es/campaign/kb/gold-standard.html)
 
-Como usuario local, puede realizar la actualización. Para ello, debe [descargar la última compilación](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) estable y actualizar todos sus entornos. Obtenga más información sobre el proceso [de](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html)actualización y consulte las preguntas más frecuentes [sobre la actualización de la](https://helpx.adobe.com/es/campaign/kb/build-upgrade-faq.html)compilación.
+Como usuario local, puede realizar la actualización. Para ello, debe [descargar la última compilación](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) estable y actualizar todos sus entornos. Obtenga más información sobre el proceso [de](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html)actualización y consulte las preguntas más frecuentes [sobre la actualización de la](https://helpx.adobe.com/es/campaign/kb/build-upgrade-faq.html)compilación.
 
 ## Recomendaciones{#recommendations}
 
