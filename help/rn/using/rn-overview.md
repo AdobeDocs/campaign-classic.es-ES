@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4a170f22108b38ebe8a451feea6210fe5aa482f
+source-git-commit: 99dfefe3f51115b78bfeb02094d614a6e63af124
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 18%
@@ -35,7 +35,7 @@ A partir de Campaign Classic 19.2, se asocia un estado a cada versión. A contin
 
 ![](assets/do-not-localize/green3.png) **Disponibilidad** general: última versión estable disponible. Compilación validada en producción.
 
-La **última compilación** estable es Gold Standard 10. Haga clic [aquí](../../rn/using/gold-standard.md)
+La **última compilación** estable es Gold Standard 6. Haga clic [aquí](../../rn/using/gold-standard.md)
 
 ![](assets/do-not-localize/limited.png) **Disponibilidad** limitada: la compilación se está realizando en la fase de validación de producción. Solo implementación a petición.
 
