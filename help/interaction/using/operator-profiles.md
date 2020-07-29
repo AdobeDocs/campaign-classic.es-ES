@@ -14,8 +14,11 @@ discoiquuid: 9a3f1dc9-71ef-4039-94b4-a217996f6a80
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+translation-type: tm+mt
+source-git-commit: fef684cd20f9b210025b21d2bc6bdb209a929f7c
+workflow-type: tm+mt
+source-wordcount: '391'
+ht-degree: 93%
 
 ---
 
@@ -24,22 +27,22 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 Existen dos tipos de operadores que utilizan interacción: gestores de oferta y gestores de envío. Cada una tiene derechos específicos que solo les proporcionan acceso a algunas partes del árbol y a la plataforma.
 
-* **[!UICONTROL Gestor de ofertas]**: crea y mantiene ofertas
-* **[!UICONTROL Gestor de envíos]**: aprueba y utiliza ofertas
+* **[!UICONTROL Offer manager]** : crea y mantiene ofertas. Tenga en cuenta que si se utilizan ofertas en el flujo de trabajo, el operador deberá estar en el grupo de operadores **[!UICONTROL Administrator]** o **[!UICONTROL Ofertas)** para ejecutar el flujo de trabajo.
+* **[!UICONTROL Delivery manager]** : aprueba y utiliza ofertas
 
 Los pasos para crear operadores específicos de interacción son idénticos a los utilizados para crear todos los demás operadores en la plataforma. Para obtener más información, consulte [esta sección](../../platform/using/access-management.md#creating-an-operator). Los derechos se configuran durante la creación del operador.
 
 ## Gestor de ofertas {#offer-manager}
 
 1. Creación de un nuevo operador.
-1. Vaya a la ventana **[!UICONTROL Derechos de grupos y nombres]**, haga clic en **[!UICONTROL Add]** y seleccione el grupo **[!UICONTROL Gestor de ofertas]**.
+1. Vaya a la ventana **[!UICONTROL Groups and named rights]**, haga clic en **[!UICONTROL Add]** y seleccione el grupo **[!UICONTROL Offer manager]**.
 
    ![](assets/offer_operators_create_001.png)
 
 Los derechos asignados al gestor de ofertas permiten realizar las siguientes tareas:
 
-* Modifique los entornos **[!UICONTROL de diseño]**.
-* Ver entornos **[!UICONTROL en directo]**.
+* Modificar entornos **[!UICONTROL Design]**.
+* Ver entornos **[!UICONTROL Live]**.
 * Configurar funciones de administración (espacios predefinidos y filtros).
 * Cree y modifique categorías.
 * Cree ofertas.
@@ -53,13 +56,13 @@ Los derechos asignados al gestor de ofertas permiten realizar las siguientes tar
 ## Gestor de envíos {#delivery-manager}
 
 1. Creación de un nuevo operador.
-1. Vaya a la ventana **[!UICONTROL Derechos de grupos y nombres]**, haga clic en **[!UICONTROL Add]** y seleccione el grupo **[!UICONTROL Gestor de entregas]**.
+1. Vaya a la ventana **[!UICONTROL Groups and named rights]**, haga clic en **[!UICONTROL Add]** y seleccione el grupo **[!UICONTROL Delivery manager]**.
 
    ![](assets/offer_operators_create_002.png)
 
 Los derechos asignados al gestor de envíos son/permiten realizar las siguientes tareas:
 
-* Mostrar entornos **[!UICONTROL en directo]**.
+* Mostrar entornos **[!UICONTROL Live]**.
 * Mostrar y modificar las categorías de oferta.
 * Aprobación de ofertas si se especifica como uno/a de sus revisores.
 
