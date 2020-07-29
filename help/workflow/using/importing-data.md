@@ -13,15 +13,19 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a034749c82f44edaf718b732e6871b9af378636a
+source-git-commit: d4edd389fde91c3f316c5213f4d7f34e51979112
 workflow-type: tm+mt
-source-wordcount: '2450'
+source-wordcount: '2473'
 ht-degree: 69%
 
 ---
 
 
 # Importación de datos{#importing-data}
+
+>[!CAUTION]
+>
+>Tenga en cuenta los límites de almacenamiento SFTP, Almacenamiento de base de datos y perfil activo según el contrato de AdobeCampaign mientras utiliza esta funcionalidad.
 
 ## Recopilación de datos {#how-to-collect-data}
 
@@ -57,13 +61,13 @@ Adobe Campaign permite importar archivos comprimidos o encriptados. Antes de que
 
 Para poder hacerlo:
 
-1. Utilice el [Panel](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) de control para generar un par de claves pública y privada.
+1. Utilice el [Panel de control de Campaign](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) para generar un par de claves pública y privada.
 
    >[!NOTE]
    >
-   >El Panel de control está disponible para todos los clientes alojados en AWS (excepto para los clientes que hospedan sus instancias de marketing in situ).
+   >Panel de control de Campaign está disponible para todos los clientes alojados en AWS (excepto para los clientes que alojan sus instancias de marketing in situ).
 
-1. Si la instalación de Adobe Campaign está alojada en Adobe, póngase en contacto con el servicio de atención al cliente de Adobe para instalar las utilidades necesarias en el servidor.
+1. Si la instalación de Adobe Campaign está alojada en Adobe, póngase en contacto con el Servicio de atención al cliente de Adobe para que le instalen las utilidades necesarias en el servidor.
 1. Si la instalación de Adobe Campaign está in situ, instale la utilidad que desee utilizar (por ejemplo: GPG, GZIP) así como las claves necesarias (clave de cifrado) en el servidor de aplicaciones.
 
 A continuación, puede utilizar los comandos de preprocesamiento deseados en los flujos de trabajo:
@@ -82,31 +86,31 @@ A continuación se muestra un ejemplo en el caso de uso.
 * [actividad](../../workflow/using/data-loading--file-.md)de carga de datos (archivo).
 * [Comprimir o encriptar un archivo](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
 
-### Caso de uso: Importación de datos cifrados con una clave generada por el Panel de control {#use-case-gpg-decrypt}
+### Caso de uso: Importación de datos cifrados con una clave generada por Panel de control de Campaign {#use-case-gpg-decrypt}
 
-En este caso de uso, crearemos un flujo de trabajo para importar datos cifrados en un sistema externo, utilizando una clave generada en el Panel de control.
+En este caso de uso, crearemos un flujo de trabajo para importar datos cifrados en un sistema externo, utilizando una clave generada en el Panel de control de Campaign.
 
 En [esta sección](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html)también hay disponible un vídeo de tutorial que muestra cómo utilizar una clave GPG para descifrar datos.
 
 Los pasos para realizar este caso de uso son los siguientes:
 
-1. Utilice el Panel de control para generar un par de claves (pública/privada). Encontrará pasos detallados en la documentación [del Panel](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)de control.
+1. Utilice el Panel de control de Campaign para generar un par de claves (público/privado). Encontrará pasos detallados en la documentación [de](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)Panel de control de Campaign.
 
    * La clave pública se compartirá con el sistema externo, que la utilizará para cifrar los datos que se enviarán a la Campaña.
    * El Campaign Classic utilizará la clave privada para descifrar los datos cifrados entrantes.
 
    ![](assets/gpg_generate.png)
 
-1. En el sistema externo, utilice la clave pública descargada del Panel de control para cifrar los datos que se van a importar al Campaign Classic.
+1. En el sistema externo, utilice la clave pública descargada del Panel de control de Campaign para cifrar los datos que se van a importar a Campaign Classic.
 
    ![](assets/gpg_external.png)
 
-1. En Campaign Classic, cree un flujo de trabajo para importar los datos cifrados y descifrarlos con la clave privada que se ha instalado mediante el Panel de control. Para ello, crearemos un flujo de trabajo de la siguiente manera:
+1. En Campaign Classic, cree un flujo de trabajo para importar los datos cifrados y descifrarlos con la clave privada que se ha instalado mediante el Panel de control de Campaign. Para ello, crearemos un flujo de trabajo de la siguiente manera:
 
    ![](assets/gpg_workflow.png)
 
    * **[!UICONTROL File transfer]** actividad: Transfiere el archivo de un origen externo a un Campaign Classic. En este ejemplo, queremos transferir el archivo desde un servidor SFTP.
-   * **[!UICONTROL Data loading (file)]** actividad: Carga los datos del archivo en la base de datos y los descifra utilizando la clave privada generada en el Panel de control.
+   * **[!UICONTROL Data loading (file)]** actividad: Carga los datos del archivo en la base de datos y los descifra utilizando la clave privada generada en el Panel de control de Campaign.
 
 1. Abra la **[!UICONTROL File transfer]** actividad y especifique la cuenta externa desde la que desea importar el archivo .gpg cifrado.
 
@@ -124,7 +128,7 @@ Los pasos para realizar este caso de uso son los siguientes:
 
    >[!CAUTION]
    >
-   >En este ejemplo, utilizamos la frase de contraseña utilizada de forma predeterminada por el Panel de control, que es &quot;frase de contraseña&quot;.
+   >En este ejemplo, utilizamos la frase de contraseña utilizada de forma predeterminada por Panel de control de Campaign, que es &quot;frase de contraseña&quot;.
    >
    >Si ya ha instalado claves GPG en su instancia a través de una solicitud del Servicio de atención al cliente en el pasado, la frase de contraseña puede haber cambiado y ser diferente de la predeterminada.
 
