@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d04c261441d4d66441c3665a7beb785383c9f14
+source-git-commit: fef684cd20f9b210025b21d2bc6bdb209a929f7c
 workflow-type: tm+mt
-source-wordcount: '2924'
-ht-degree: 99%
+source-wordcount: '2961'
+ht-degree: 95%
 
 ---
 
@@ -241,55 +241,63 @@ Para crear un grupo de operadores nuevo siga los siguientes pasos:
 
 Los grupos de operadores predeterminados son:
 
-1. Operadores de entrega
+1. **[!UICONTROL Administrator]**
+
+   Los operadores de este grupo tienen acceso completo a la instancia. Los administradores son usuarios que pueden acceder a las partes más técnicas de la interfaz. Tienen el **[!UICONTROL Administration]** rol y se aseguran de que la plataforma esté configurada.
+
+   Este grupo contiene la siguiente derecha con nombre:
+
+   * **[!UICONTROL ADMINISTRATION]**:: derecho a ejecutar/crear/editar/eliminar cualquier objeto, como flujo de trabajo, envío, secuencias de comandos, etc.
+
+1. **[!UICONTROL Delivery operators]**
 
    Los operadores de este grupo están a cargo de la administración de las entregas: permiten el acceso a los recursos principales necesarios para crear y preparar entregas (tipologías de campaña, asignaciones de entregas, plantillas predeterminadas, bloques de personalización, etc.).
 
    Este grupo contiene los siguientes derechos asignados:
 
-   * PREPARACIÓN DE ENTREGAS: derecho para crear, editar e iniciar el análisis de entregas,
-   * INICIO DE ENTREGAS: derecho para aprobar entregas analizadas anteriormente.
+   * **[!UICONTROL PREPARE DELIVERIES]**:: derecho a crear, editar y inicio de la análisis de envío,
+   * **[!UICONTROL START DELIVERIES]**:: derecho a aprobar envíos analizados previamente.
 
-1. Administradores de campañas
+1. **[!UICONTROL Campaign managers]**
 
-   Los operadores de este grupo pueden administrar las campañas de marketing: permite acceder a los objetos vinculados a campañas (planes, programas, flujos de trabajo, presupuestos, etc.).
+   Los operadores de este grupo pueden administrar las campañas de marketing: permite acceder a los objetos vinculados a campañas (planes, programas, flujos de trabajo, presupuestos, etc.) en el marco de **[!UICONTROL Campaign]** (módulo Adobe Campaign opcional).
 
    Este grupo contiene los siguientes derechos asignados:
 
-   * INSERCIÓN DE CARPETAS: derecho para insertar carpetas en el árbol de Adobe Campaign (siempre que tenga derechos de edición para las ramas correspondientes),
-   * FLUJO DE TRABAJO: derecho para utilizar flujos de trabajo.
+   * **[!UICONTROL INSERT FOLDERS]**:: derecho a insertar carpetas en el árbol de Adobes Campaign (siempre que tenga derechos de edición para las ramas correspondientes),
+   * **[!UICONTROL WORKFLOW]**:: derecho a usar flujos de trabajo.
 
    >[!NOTE]
    >
    >Este grupo no permite a los operadores iniciar entregas.
 
-1. Contribuidores de contenido
+1. **[!UICONTROL Content contributors]**
 
-   Los operadores de este grupo pueden acceder a las carpetas de contenido, dentro del marco de **Content management** (módulo opcional de Adobe Campaign). Este grupo no otorga derechos adicionales.
+   Los operadores de este grupo pueden acceder a las carpetas de contenido, dentro del marco de **[!UICONTROL Content management]** (módulo opcional de Adobe Campaign). Este grupo no otorga derechos adicionales.
 
-1. Acceso a informes
+1. **[!UICONTROL Access to reports]**
 
    Este grupo está reservado para operadores externos, para acceder a los informes de entrega a través de un acceso Web.
 
-1. Ejecución del flujo de trabajo
+1. **[!UICONTROL Workflow execution]**
 
    Este grupo permite asignar a operadores el derecho para administrar los flujos de trabajo que no están relacionados con las campañas.
 
-1. Supervisores de flujo de trabajo
+1. **[!UICONTROL Workflow supervisors]**
 
    Los operadores de este grupo reciben una notificación por correo electrónico en caso de alertas relacionadas con los flujos de trabajo de campañas.
 
 1. Administración local/central
 
-   Estos grupos permiten utilizar **Distributed Marketing** (módulo opcional de Adobe Campaign).
+   Estos grupos permiten utilizar **[!UICONTROL Distributed marketing]** (módulo opcional de Adobe Campaign).
 
-1. Administradores de ofertas
+1. **[!UICONTROL Offer managers]**
 
    Los operadores de este grupo pueden crear y mantener ofertas. Para obtener más información, consulte esta [página](../../interaction/using/operator-profiles.md).
 Este grupo contiene los siguientes derechos asignados:
 
-   * Inserción de carpetas: derecho para insertar carpetas en el árbol de Adobe Campaign (siempre que tenga derechos de edición para las ramas correspondientes),
-   * Edición de carpetas: derecho para modificar las propiedades de la carpeta, como el nombre interno, la etiqueta, la imagen asociada, el orden de la subcarpeta, etc.
+   * **[!UICONTROL INSERT FOLDERS]**:: Derecho a insertar carpetas en el árbol de Adobes Campaign (siempre que tenga derechos de edición para las ramas correspondientes),
+   * **[!UICONTROL EDIT FOLDERS]**: Derecho a modificar propiedades de carpeta como nombre interno, etiqueta, imagen asociada, orden de subcarpeta, etc.
 
 ## Derechos asignados {#named-rights}
 
