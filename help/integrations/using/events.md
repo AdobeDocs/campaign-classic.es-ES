@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
+source-git-commit: 9f70468e3dd7003a18812d07669f10c561e8bef7
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 2%
@@ -129,7 +129,7 @@ Para fines de depuración y supervisión, los datos de desencadenador completos 
 
 ### Análisis de los datos {#data-parsing}
 
-Este código JS de muestra analiza la eVar01 en los enriquecimientos.
+Este código JS de muestra analiza el eVar01 en los enriquecimientos.
 
 ```
 function processPipelineMessage(xmlTrigger)
@@ -161,7 +161,7 @@ Este código JS de muestra guarda el activador en la base de datos.
 
 ```
 function processPipelineMessage(xmlTrigger)
- {```
+ {
  (…)
  var event = 
  <pipelineEvent
