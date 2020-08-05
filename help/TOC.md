@@ -5,9 +5,9 @@ index: y
 product: adobe campaign
 sub-product: Adobe Campaign Classic
 translation-type: tm+mt
-source-git-commit: 14e275203e3436183d5a5c743375ba42f6153c6d
+source-git-commit: b19a8e477b4419a369fa257b4629f4a01f0b0400
 workflow-type: tm+mt
-source-wordcount: '2094'
+source-wordcount: '2097'
 ht-degree: 98%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 98%
 + Introducción {#getting-started}
    + Primeros pasos con Adobe Campaign {#starting-with-adobe-campaign}
       + [Acerca de Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
-      + [Privacidad y consentimiento](platform/using/privacy-and-recommendations.md)
+      + [Privacidad y consentimiento ](platform/using/privacy-and-recommendations.md)
       + [Ejecutar Adobe Campaign](platform/using/launching-adobe-campaign.md)
       + [Espacio de trabajo de Adobe Campaign](platform/using/adobe-campaign-workspace.md)
       + Preguntas frecuentes {#faq}
@@ -89,8 +89,9 @@ ht-degree: 98%
       + [Conectores CRM](platform/using/crm-connectors.md)
       + [Conectores de datos de Adobe Analytics](platform/using/adobe-analytics-data-connector.md)
 + Envío de mensajes {#sending-messages}
-   + Acerca de las entregas y los canales {#about-deliveries-and-channels}
+   + Get started with messages {#about-deliveries-and-channels}
       + [Canales de comunicación](delivery/using/communication-channels.md)
+      + [Prácticas recomendadas relacionadas con las entregas](delivery/using/delivery-best-practices.md)
       + [Acceso a la información de las entregas](delivery/using/accessing-deliveries-information.md)
       + [Tipos de entregas](delivery/using/types-of-deliveries.md)
    + Pasos clave al crear una entrega {#key-steps-when-creating-a-delivery}
@@ -147,7 +148,7 @@ ht-degree: 98%
    + Seguimiento de entregas {#monitoring-deliveries}
       + [Seguimiento de una entrega](delivery/using/monitoring-a-delivery.md)
       + [Comprensión de los errores de entrega](delivery/using/understanding-delivery-failures.md)
-      + [Compresión de la gestión de la cuarentena](delivery/using/understanding-quarantine-management.md)
+      + [Comprensión de la gestión de la cuarentena](delivery/using/understanding-quarantine-management.md)
    + Seguimiento de mensajes {#tracking-messages}
       + [Acerca del seguimiento de mensajes](delivery/using/about-message-tracking.md)
       + [Configuración de los vínculos rastreados](delivery/using/how-to-configure-tracked-links.md)
@@ -370,8 +371,8 @@ ht-degree: 98%
       + [Conectores CRM](workflow/using/crm-connector.md)
    + Actividades de control de flujo {#flow-control-activities}
       + [Acerca de las actividades de control de flujo](workflow/using/about-flow-control-activities.md)
-      + [Inicio y final](workflow/using/start-and-end.md)
-      + [Fork](workflow/using/fork.md)
+      + [Inicio y final (Start y End)](workflow/using/start-and-end.md)
+      + [Bifurcación (Fork)](workflow/using/fork.md)
       + [AND-join](workflow/using/and-join.md)
       + [Planificador](workflow/using/scheduler.md)
       + [Prueba](workflow/using/test.md)
