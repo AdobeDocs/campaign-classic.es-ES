@@ -13,15 +13,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f599bc5483779ae62dd4d5eb1936cbc2760639b5
+source-git-commit: 4548eda6f87566398ddf19131b777012cbf8917b
 workflow-type: tm+mt
-source-wordcount: '4348'
+source-wordcount: '4361'
 ht-degree: 23%
 
 ---
 
 
 # Prácticas recomendadas relacionadas con las entregas {#delivery-best-practices}
+
+Conozca las prácticas recomendadas relacionadas con el diseño de envíos y el envío con Adobe Campaign.
 
 ## Optimización del envío {#optimize-delivery}
 
@@ -102,7 +104,7 @@ Cuando se gestionan varias marcas en Adobe Campaign, Adobe recomienda tener un s
 
 **Sugerencia**:  Para evitar errores de configuración en Campaign Standard, se recomienda que duplicado una plantilla nativa y modifique sus propiedades en lugar de crear una nueva plantilla.
 
-**Configuración de direcciones**
+### Configuración de direcciones
 
 * La dirección del remitente es obligatoria para permitir el envío de un correo electrónico.
 
@@ -126,7 +128,7 @@ Para configurar direcciones en la interfaz de Campaña, siga los pasos a continu
 
 1. En los **[!UICONTROL Reply address text]** campos, la dirección del remitente se utiliza de forma predeterminada para las respuestas. Sin embargo, Adobe recomienda utilizar una dirección real existente, como el servicio de atención al cliente de su marca. En este caso, si un destinatario envía una respuesta, el servicio de atención al cliente podrá atenderla.
 
-**Configuración de un grupo de control**
+### Configuración de un grupo de control
 
 Una vez enviado el envío, puede comparar el comportamiento de los destinatarios excluidos con los destinatarios que sí recibieron el envío. Puede medir la eficacia de sus campañas. Obtenga más información sobre grupos de control en [esta sección](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
@@ -134,7 +136,7 @@ Para configurar un grupo de control, haga clic en el **[!UICONTROL To]** víncul
 
 ![](assets/d_best_practices_control_group.png)
 
-**Usar tipologías para aplicar filtros o reglas de control**
+### Usar tipologías para aplicar filtros o reglas de control
 
 Una tipología contiene reglas de comprobación que se aplican durante la fase de análisis antes de enviar un mensaje.
 
@@ -342,7 +344,7 @@ Cuando el mensaje esté listo, asegúrese de que su contenido se muestra correct
 
 Antes de enviar el mensaje, compruebe que los parámetros y la configuración se adecuan al envío.
 
-### La validación es clave {#validation-is-key}
+### Por qué la validación es clave {#validation-is-key}
 
 Antes de enviar un envío, debe asegurarse de que sus destinatarios recibirán el mensaje que realmente desea enviarlos. Para ello, debe validar el contenido del mensaje y los parámetros de envío.
 
@@ -461,7 +463,7 @@ Para medir la velocidad a la que se entregan los mensajes, puede controlar el re
 
 * Evite programar entregas grandes al mismo tiempo. Tenga en cuenta que la carga puede tardar entre 5 y 10 minutos en propagarse uniformemente sobre el sistema.
 
-## Solución de problemas de Envío {#delivery-troubleshooting}
+### Solución de problemas de Envío {#delivery-troubleshooting}
 
 Se pueden realizar acciones específicas al encontrar problemas con envíos:
 
