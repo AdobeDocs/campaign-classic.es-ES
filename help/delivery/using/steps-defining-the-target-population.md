@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fa9e4ddc716809b96e259acd1137a0c24ef68fee
+source-git-commit: 7ffbbe95247f28115f7e46eb0e94f2612fb4ea93
 workflow-type: tm+mt
-source-wordcount: '1528'
-ht-degree: 99%
+source-wordcount: '1527'
+ht-degree: 93%
 
 ---
 
@@ -29,25 +29,23 @@ ht-degree: 99%
 
 Para cada entrega se pueden definir varios tipos de destinatarios. La sección siguiente proporciona más información sobre cómo seleccionar:
 
-* **Destinatarios principales de la entrega**. [Más información](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target).
-* **Los destinatarios de los mensajes de prueba** para configurar un ciclo de validación. [Más información](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
+* Destinatarios principales de la entrega. [Más información](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
+* Los destinatarios de los mensajes de prueba para configurar un ciclo de validación. [Más información](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
 
-Además, también puede definir [direcciones semilla](../../delivery/using/about-seed-addresses.md) y [grupos de control](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group). si la entrega se incluye en una campaña de marketing.
+Además, si el envío se incluye en una campaña de marketing, también puede definir [direcciones semilla](../../delivery/using/about-seed-addresses.md)y [grupos de control](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
 ## Selección de los principales destinatarios de la entrega {#selecting-the-main-target}
 
-En la mayoría de los casos, el objetivo principal se extrae de la base de datos de Campaign (modo predeterminado).
+En la mayoría de los casos, el destinatario principal se extrae de la base de datos de Adobe Campaign (modo predeterminado). Sin embargo, los destinatarios también se pueden almacenar en un archivo externo. Obtenga más información en [esta sección](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
 
-Los destinatarios también se pueden almacenar en un archivo externo. La configuración de este tipo de entrega se muestra en [Selección de destinatarios externos](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
+Para seleccionar los destinatarios de un envío, siga los pasos a continuación:
 
-Para seleccionar los destinatarios de la entrega que está creando, siga los siguientes pasos:
-
-1. Haga clic en el vínculo **[!UICONTROL To]**.
-1. Si los destinatarios están almacenados en la base de datos, seleccione la primera opción.
+1. En el editor de envío, seleccione **[!UICONTROL To]**.
+1. Si los destinatarios se almacenan en la base de datos, elija la primera opción.
 
    ![](assets/s_ncs_user_wizard_email02a.png)
 
-1. Seleccione la asignación de destino en la lista desplegable **[!UICONTROL Target mapping]**. La asignación de destino predeterminada de Adobe Campaign es **[!UICONTROL Recipients]**.
+1. Seleccione la asignación de destino en la lista desplegable **[!UICONTROL Target mapping]**. La asignación de destino predeterminada de Adobe Campaign es **[!UICONTROL Recipients]**, basada en el esquema **nms:destinatario** .
 
    Están disponibles otros destinos de mapeo, y algunos pueden relacionarse con la configuración específica. Para obtener más información sobre las asignaciones de destino, consulte [Selección de una asignación de destino](../../delivery/using/selecting-a-target-mapping.md).
 
@@ -157,7 +155,7 @@ Estas son las opciones disponibles:
 
       ![](assets/s_ncs_user_wizard_email02j.png)
 
-* **[!UICONTROL Exclude recipients who no longer want to be contacted]** , es decir, destinatarios cuyas direcciones de correo electrónico están en una lista de bloques (&#39;exclusión&#39;). Esta opción debe permanecer seleccionada para respetar la ética profesional de marketing electrónico y las leyes que rigen el comercio electrónico.
+* **[!UICONTROL Exclude recipients who no longer want to be contacted]** , es decir, destinatarios cuyas direcciones de correo electrónico están en una lista de bloqueados (&#39;exclusión&#39;). Esta opción debe permanecer seleccionada para respetar la ética profesional de marketing electrónico y las leyes que rigen el comercio electrónico.
 * **[!UICONTROL Exclude quarantined recipients]**. Esta opción permite excluir del objetivo cualquier perfil con una dirección que no responde. Se recomienda mantener seleccionada esta opción.
 
    >[!NOTE]
