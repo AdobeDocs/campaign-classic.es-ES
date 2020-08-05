@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 537cbdec1ec88da1c759f6ca8eafe383c55a61d3
+source-git-commit: 51bbf50a1e9b00c25fca8e1e86ca21c314c18313
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2597'
 ht-degree: 97%
 
 ---
@@ -30,8 +30,8 @@ El **panel de entrega** es fundamental para controlar las entregas y los problem
 **Temas relacionados:**
 
 * [Comprensión de los errores de entrega](../../delivery/using/understanding-delivery-failures.md)
-* [Compresión de la gestión de la cuarentena](../../delivery/using/understanding-quarantine-management.md)
-* [Prácticas recomendadas relacionadas con las entregas](https://helpx.adobe.com/es/campaign/kb/delivery-best-practices.html)
+* [Comprensión de la gestión de la cuarentena](../../delivery/using/understanding-quarantine-management.md)
+* [Prácticas recomendadas relacionadas con las entregas](../../delivery/using/delivery-best-practices.md)
 * [Administración de envíos](../../delivery/using/about-deliverability.md)
 
 ## Panel de entregas {#delivery-dashboard}
@@ -117,7 +117,7 @@ El mantenimiento de la plataforma y de la base de datos también puede afectar e
 
 Tras hacer clic en el botón **[!UICONTROL Send]**, la entrega parece tardar más de lo normal. Esto puede deberse a diferentes elementos:
 
-* Es posible que algunos proveedores de correo electrónico hayan agregado sus direcciones IP a una lista de bloques. In this case, check your broadlogs and consult [this section](../../delivery/using/about-deliverability.md).
+* Es posible que algunos proveedores de correo electrónico hayan agregado sus direcciones IP a una lista de bloqueados. In this case, check your broadlogs and consult [this section](../../delivery/using/about-deliverability.md).
 * Su entrega puede ser demasiado grande como para procesarlo rápidamente, como puede ser el caso de una alta personalización de JavaScript o si su entrega pesa más de 60 kB. Consulte las [prácticas recomendadas relacionadas con las entregas](https://helpx.adobe.com/es/campaign/kb/delivery-best-practices.html) de Adobe Campaign para obtener más información sobre las directrices de contenido.
 * Es posible que se haya activado una restricción dentro del MTA de Adobe Campaign. Esto se debe a:
 
@@ -166,7 +166,7 @@ Al realizar una entrega, es posible que aparezca el siguiente estado en su panel
   </tr> 
   <tr> 
    <td> Ignorado<br /> </td> 
-   <td> No se realizó la entrega al destinatario debido a un error con su dirección. Se agregó a una lista de bloques, en cuarentena, no se proporcionó o a un duplicado. <br /> </td> 
+   <td> No se realizó la entrega al destinatario debido a un error con su dirección. Se agregó a una lista de bloqueados, en cuarentena, no se proporcionó o a un duplicado. <br /> </td> 
   </tr> 
   <tr> 
    <td> Enviado<br /> </td> 
