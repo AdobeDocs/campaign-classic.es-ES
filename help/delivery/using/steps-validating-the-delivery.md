@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8c1f284be77447a88748ce97a3524b7035bb5bc0
+source-git-commit: 7ffbbe95247f28115f7e46eb0e94f2612fb4ea93
 workflow-type: tm+mt
-source-wordcount: '1676'
+source-wordcount: '1673'
 ht-degree: 98%
 
 ---
@@ -31,7 +31,7 @@ Para ello:
 
 1. **Analice la entrega**: este paso permite preparar los mensajes que se van a enviar. Consulte [Análisis de la entrega](#analyzing-the-delivery).
 
-   Las reglas aplicadas durante el análisis se presentan en la sección [Proceso de validación con tipologías](#validation-process-with-typologies) . Los modos de validación disponibles se detallan en la sección [Cambio del modo de aprobación](#changing-the-approval-mode).
+   Las reglas aplicadas durante la análisis se presentan en [esta sección](#validation-process-with-typologies) . Los modos de validación disponibles se detallan en la sección [Cambio del modo de aprobación](#changing-the-approval-mode).
 
 1. **Envíe pruebas**: este paso permite aprobar contenido, direcciones URL, campos personalizados, etc. Consulte [Envío de una prueba](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) y [Definición de un destino de prueba específico](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
@@ -76,6 +76,7 @@ El análisis es la fase durante la cual se calcula la población objetivo y se p
    * El icono azul indica un mensaje informativo.
    * El icono amarillo indica un error de procesamiento no crítico.
    * El icono rojo indica un error crítico que impide realizar el envío.
+
    ![](assets/s_ncs_user_email_del_analyze_error.png)
 
 1. Haga clic en **[!UICONTROL Close]** para corregir los errores.
@@ -143,6 +144,7 @@ Para detectar posibles errores en la configuración del mensaje, Adobe recomiend
 >
 >* Los modos de validación disponibles se detallan en [Cambio del modo de aprobación](../../delivery/using/steps-validating-the-delivery.md#changing-the-approval-mode).
 >* La configuración del objetivo de prueba se explica en [Definición de un objetivo de prueba específico](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
+
 >
 
 
@@ -182,7 +184,7 @@ La pestaña **[!UICONTROL Advanced]** de propiedades de la entrega permite defin
 Estas son las opciones disponibles:
 
 * La primera opción permite mantener las pruebas duplicadas.
-* Las dos opciones siguientes permiten mantener destinatarios que están en la lista de bloques y direcciones en cuarentena. Consulte la descripción de estas opciones para el objetivo principal en [Personalización de la configuración de exclusión](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). A diferencia del objetivo de una entrega, donde estas direcciones se excluyen de forma predeterminada, se mantienen de forma predeterminada para el objetivo de una prueba.
+* Las dos opciones siguientes permiten mantener destinatarios que están en la lista de bloqueados y direcciones en cuarentena. Consulte la descripción de estas opciones para el objetivo principal en [Personalización de la configuración de exclusión](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). A diferencia del objetivo de una entrega, donde estas direcciones se excluyen de forma predeterminada, se mantienen de forma predeterminada para el objetivo de una prueba.
 * La opción **[!UICONTROL Keep the delivery code for the proof]** permite dar a la prueba el mismo código de entrega que el definido para la entrega con el que se relaciona. Este código se especifica en el primer paso del asistente de envíos.
 * De forma predeterminada, el asunto de la prueba incluye el prefijo “Proof #”, donde # es el número de la prueba. Se puede cambiar este prefijo en el campo **[!UICONTROL Label prefix]**.
 
