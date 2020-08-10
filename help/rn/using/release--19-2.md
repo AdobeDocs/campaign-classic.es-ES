@@ -14,9 +14,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c7b00960ffde49df65cd5c8fcfb8fab6aee485d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1295'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ## ![](assets/do-not-localize/orange_2.png) Versión 19.2.3: compilación 9081 {#release-19-2-3-build-9081}
 
-_7 de febrero de 2020_
+_viernes, 7 de febrero de 2020_
 
 **Mejoras**
 
@@ -36,7 +36,7 @@ _7 de febrero de 2020_
 
 ## ![](assets/do-not-localize/orange_2.png) Versión 19.2: compilación 9080 {#release-19-2-build-9080}
 
-_2 de diciembre de 2019_
+_lunes, 2 de diciembre de 2019_
 
 **Novedades**
 
@@ -138,23 +138,23 @@ Ya está disponible la compilación 1.0.26 del SDK para iOS. En esta nueva compi
 
 **Parches**
 
-* Se corrigió un bloqueo de la consola que se producía al agregar una tabla vinculada vacía en la actividad de flujo de trabajo **Data Loading (RDBMS)**. (NEO-12213)
+* Se ha corregido un bloqueo de la consola que se producía al agregar una tabla vinculada vacía en la actividad de flujo de trabajo **Data Loading (RDBMS)**. (NEO-12213)
 * Se ha corregido un problema que podía hacer que el servidor intermediario no procesara determinados mensajes. (NEO-12395)
 * Se ha corregido un problema en el flujo de trabajo de limpieza de la base de datos al utilizar la opción de bandas de consulta con Teradata. (NEO-12399)
 * Se ha corregido un problema que afectaba al análisis de entrega con la regla de tipología, incluido el dominio ne.jp. (NEO-12609)
-* Se ha corregido un problema relacionado con las actualizaciones de SMS sobre TLS que implicaban una directiva de certificado más restrictiva. Estas actualizaciones podrían provocar un error de conexión entre los servidores de mercadotecnia y de fuentes intermedias en caso de que un certificado no esté actualizado. (NEO-17698)
+* Se ha corregido un problema relacionado con las actualizaciones de SMS sobre TLS que implicaban una directiva de certificado más restrictiva. Estas actualizaciones podrían provocar un error de conexión entre los servidores de marketing y de fuentes intermedias en caso de que un certificado no esté actualizado. (NEO-17698)
 * Se ha corregido un problema al usar el botón **Test connection** en una cuenta externa en un entorno de abastecimiento intermedio con autenticación Vault. (NEO-12722)
 * Se ha corregido un problema en las consultas que usaban funciones de fecha con una conexión Hadoop de FDA. (NEO-12847)
-* Se corrigió un problema al reemplazar una imagen en el editor de correo electrónico. (NEO-13098)
+* Se ha corregido un problema al reemplazar una imagen en el editor de correo electrónico. (NEO-13098)
 * Se ha corregido un problema que podía provocar errores posteriores a la actualización en carpetas que se habían eliminado o movido a otra ubicación. (NEO-13118)
 * Se ha corregido un problema en la visualización de imágenes al utilizar la opción **Define image per device screen size** en mensajes LINE. (NEO-13228)
-* Se corrigió un problema con la preparación de la entrega cuando la opción **Exclude duplicate address during delivery** no está seleccionada. (NEO-13240)
+* Se ha corregido un problema con la preparación de la entrega cuando la opción **Exclude duplicate address during delivery** no está seleccionada. (NEO-13240)
 * Se ha corregido un problema en los flujos de trabajo al utilizar la actividad **File transfer** para descargar archivos mediante la opción **Delete the source files after transfer**, con un nombre que contenía un carácter de espacio. (NEO-13411)
 * Se ha corregido un problema con la limpieza de caché de Tomcat que podía provocar problemas de memoria. (NEO-13456)
 * Se ha corregido un problema al instalar **Control of offer engine with execution instance** existente que se ejecuta en Microsoft SQL 2017. (NEO-13539)
-* Se corrigió un bloqueo de la consola que se producía al desmarcar direcciones URL seguidas en un correo electrónico, desde la pestaña **Text content**. (NEO-13545)
+* Se ha corregido un bloqueo de la consola que se producía al desmarcar direcciones URL seguidas en un correo electrónico, desde la pestaña **Text content**. (NEO-13545)
 * Se ha corregido un problema de codificación en el nombre del remitente chino. (NEO-13837)
-* Se corrigió un error que se podía generar al mostrar los datos de respuesta del estudio desde el Explorador. (NEO-14590)
+* Se ha corregido un error que se podía generar al mostrar los datos de respuesta del estudio desde el Explorador. (NEO-14590)
 * Se ha corregido un problema que podía provocar discrepancias entre la clasificación del registro de entrega y la tabla de cuarentena. (NEO-16547)
 * Se ha corregido un problema con las claves DKIM que no estaban incrustadas en los correos electrónicos. (NEO-16804)
 * Se ha corregido un problema que mostraba el código de error incorrecto cuando se usaba un token de sesión no válido en el contexto de llamadas de API para desencadenar eventos. El código de error era &#39;HTTP 200 OK&#39; en lugar de &#39;HTTP 403 Prohibido&#39;. (NEO-16826)
