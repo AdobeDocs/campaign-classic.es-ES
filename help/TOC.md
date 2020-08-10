@@ -1,6 +1,6 @@
 ---
 audience: end-user
-user-guide-title: Ayuda de Adobe Campaign Standard
+user-guide-title: Ayuda de Adobe Campaign Classic
 index: y
 product: adobe campaign
 sub-product: Adobe Campaign Classic
@@ -8,12 +8,12 @@ translation-type: tm+mt
 source-git-commit: b19a8e477b4419a369fa257b4629f4a01f0b0400
 workflow-type: tm+mt
 source-wordcount: '2097'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 
-# Ayuda de Adobe Campaign Standard {#using}
+# Ayuda de Adobe Campaign Classic {#using}
 
 + [Documentación del producto](campaign-classic-home.md)
 + [Últimas actualizaciones](rn/using/documentation-updates.md)
@@ -28,13 +28,13 @@ ht-degree: 98%
       + [Versión 18.10](rn/using/release--18-10.md)
       + [Versión 18.6](rn/using/release--18-6.md)
       + [Versión 18.4](rn/using/release--18-4.md)
-   + Funciones y compatibilidad obsoletas {#deprecated-compatibility}
+   + Funcionalidades y compatibilidades obsoletas{#deprecated-compatibility}
       + [Funciones obsoletas](rn/using/deprecated-features.md)
       + [Matriz de compatibilidad](rn/using/compatibility-matrix.md)
 + Introducción {#getting-started}
    + Primeros pasos con Adobe Campaign {#starting-with-adobe-campaign}
       + [Acerca de Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
-      + [Privacidad y consentimiento ](platform/using/privacy-and-recommendations.md)
+      + [Privacidad y consentimiento](platform/using/privacy-and-recommendations.md)
       + [Ejecutar Adobe Campaign](platform/using/launching-adobe-campaign.md)
       + [Espacio de trabajo de Adobe Campaign](platform/using/adobe-campaign-workspace.md)
       + Preguntas frecuentes {#faq}
@@ -124,7 +124,7 @@ ht-degree: 98%
    + Uso de plantillas de entrega {#using-delivery-templates}
       + [Acerca de las plantillas](delivery/using/about-templates.md)
       + [Creación de una plantilla de envíos](delivery/using/creating-a-delivery-template.md)
-      + [Selección de un destino de mapeo](delivery/using/selecting-a-target-mapping.md)
+      + [Selección de una asignación de destino](delivery/using/selecting-a-target-mapping.md)
       + [Creación de una entrega a partir de una plantilla](delivery/using/creating-a-delivery-from-a-template.md)
    + Personalización de entregas {#personalizing-deliveries}
       + [Acerca de la personalización](delivery/using/about-personalization.md)
@@ -153,7 +153,7 @@ ht-degree: 98%
       + [Acerca del seguimiento de mensajes](delivery/using/about-message-tracking.md)
       + [Configuración de los vínculos rastreados](delivery/using/how-to-configure-tracked-links.md)
       + [Personalización del seguimiento de direcciones URL](delivery/using/personalizing-url-tracking.md)
-      + [Acceso a los “logs” de seguimiento](delivery/using/accessing-the-tracking-logs.md)
+      + [Acceso a los registros de seguimiento](delivery/using/accessing-the-tracking-logs.md)
       + [Seguimiento de pruebas](delivery/using/testing-tracking.md)
    + Administración de la capacidad de entrega {#deliverability-management}
       + [Acerca de la capacidad de la entrega](delivery/using/about-deliverability.md)
@@ -426,7 +426,7 @@ ht-degree: 98%
          + [Creación de la lista de resumen](workflow/using/creating-a-summary-list.md)
          + [Enriquecimiento de datos](workflow/using/enriching-data.md)
          + [Uso de agregados](workflow/using/using-aggregates.md)
-         + [Actualización de lista trimestral mediante una consulta incremental](workflow/using/quarterly-list-update.md)
+         + [Actualización de lista trimestral con una consulta incremental](workflow/using/quarterly-list-update.md)
       + Diseño de consultas {#designing-queries}
          + [Consulta de la tabla de destinatarios](workflow/using/querying-recipient-table.md)
          + [Consulta de información de entrega](workflow/using/querying-delivery-information.md)
@@ -558,7 +558,7 @@ ht-degree: 98%
 + Integración con los medios sociales {#integrating-with-social-media}
    + [Acerca del marketing social](social/using/about-social-marketing.md)
    + Configuración {#configuration}
-      + [Inicio de un flujo de trabajo](social/using/starting-workflows.md)
+      + [Inicio de flujos de trabajo](social/using/starting-workflows.md)
       + [Publicación en muros de Facebook](social/using/publishing-on-facebook-walls.md)
       + [Creación de una aplicación de Facebook](social/using/creating-a-facebook-application.md)
       + [Configuración de una publicación en Twitter](social/using/configuring-publishing-on-twitter.md)
@@ -713,7 +713,7 @@ ht-degree: 98%
    + Usar una tabla de destinatarios personalizada {#use-a-custom-recipient-table}
       + [Acerca de la tabla de destinatarios personalizada](configuration/using/about-custom-recipient-table.md)
       + [Características del esquema](configuration/using/schema-characteristics.md)
-      + [Asignación de objetivos](configuration/using/target-mapping.md)
+      + [Asignación de destino](configuration/using/target-mapping.md)
       + [Configuración de la interfaz](configuration/using/configuring-the-interface.md)
       + [Direcciones semilla](configuration/using/seed-addresses.md)
       + [Creación de filtros](configuration/using/creating-filters.md)
