@@ -1,7 +1,7 @@
 ---
-title: ' Versión Gold Standard '
-seo-title: ' Versión Gold Standard '
-description: ' Versión Gold Standard '
+title: 'Versión Gold Standard '
+seo-title: 'Versión Gold Standard '
+description: 'Versión Gold Standard '
 seo-description: null
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -18,20 +18,20 @@ translation-type: tm+mt
 source-git-commit: 890153a5b30594a1cb90606db4be8fd1ec19267b
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 
-#  Versión Gold Standard {#gold-standard}
+# Versión Gold Standard{#gold-standard}
 
-Como usuario de Gold Standard, se beneficia automáticamente de la actualización a Gold Standard con la última versión estable sin ninguna acción.
+Como usuario de Gold Standard, se beneficia automáticamente de la actualización de Gold Standard con la última versión estable sin ninguna acción.
 
 Los clientes locales e híbridos también pueden beneficiarse de las versiones de Gold Standard.
 
-Esta es nuestra versión de soporte a largo plazo. Si migra desde una compilación antigua, le recomendamos que actualice primero a esta versión.
+Esta es nuestra versión de asistencia a largo plazo. Si migra desde una versión antigua, le recomendamos que la actualice primero a esta versión.
 
-Esta página lista las versiones de Gold Standard.
+Esta página enumera las versiones de Gold Standard.
 
 Para obtener más información sobre la actualización a Gold Standard, consulte este [artículo](https://helpx.adobe.com/es/campaign/kb/gold-standard.html).
 
@@ -62,6 +62,7 @@ Las siguientes correcciones están relacionadas con el mecanismo de seguridad de
 * Se ha corregido un problema que impedía que el funcionamiento del seguimiento de direcciones URL mediante fragmentos en parámetros de personalización (etiquetas de anclaje con signo de almohadilla). (NEO-25774)
 * Se ha corregido un problema con el servicio de antiphishing. (NEO-25283)
 * Se ha corregido un problema de seguimiento al usar fórmulas de seguimiento personalizadas específicas. (NEO-25277)
+
 
 ## ![](assets/do-not-localize/red_2.png) Versión Gold Standard 8{#gs-8}
 
@@ -135,7 +136,7 @@ La versión 9032@cee805c incluye las siguientes correcciones:
 
 _13 de agosto de 2019_
 
-La compilación inicial 19.1.4 incluye las siguientes correcciones:
+La versión inicial 19.1.4 incluye las siguientes correcciones:
 
 * Se ha corregido un problema con la actividad del programador que generaba mensajes de error no deseados durante la configuración del asistente. Revertir la actualización desde NEO-11662. (NEO-17097)
 * Se ha corregido una regresión causada por el NEO-12727 que hacía que los flujos de trabajo se detuvieran cuando se realizaba una actividad de prueba dos veces. (NEO-16835)
