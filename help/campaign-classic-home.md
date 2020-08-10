@@ -1,8 +1,8 @@
 ---
 keywords: Campaign Classic;home;popular topics
-seo-title: Documentación del producto Adobe Campaign Standard
+seo-title: Documentación del producto Adobe Campaign Classic
 solution: Campaign Classic
-title: Documentación del producto Adobe Campaign Standard
+title: Documentación del producto Adobe Campaign Classic
 topic: Premium
 translation-type: ht
 source-git-commit: ad0f9bdd2571a8780da464dc3ac8feb7b5aed998
