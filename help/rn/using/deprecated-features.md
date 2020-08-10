@@ -37,7 +37,7 @@ Este proceso proporciona a los clientes al menos un ciclo de versiones para actu
 
 Esta sección enumera las funciones y capacidades que se han marcado como obsoletas en las últimas versiones de Campaign Classic.
 
-Por lo general, las funciones que se planea eliminar en una versión posterior se definen en primer lugar como obsoletas. Estas funciones y funcionalidades ya no están disponibles para los nuevos clientes de Campaign Standard, o no deben usarse para ninguna implementación nueva. También se eliminan de la documentación del producto.
+Por lo general, las funciones que se planea eliminar en una versión posterior se definen en primer lugar como obsoletas. Estas funciones y funcionalidades ya no están disponibles para los nuevos clientes de Campaign Classic, o no deben usarse para ninguna implementación nueva. También se eliminan de la documentación del producto.
 
 Se aconseja a los clientes que comprueben si utilizan la función o la funcionalidad en su implementación actual y que cambien su implementación. Consulte la fecha de eliminación objetivo para planificar el entorno y las actualizaciones del proyecto según corresponda.
 
@@ -93,10 +93,12 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
    </tr>
    <tr>
    <td>Documentación de las API Campaign: archivo jsapi.chm</td>
-   <td>A partir de la versión 19.1 de Campaign, las API de Campaign Classic están disponibles en una página dedicada. Si utilizó el archivo jsapi.chm heredado, debería consultar la <a href="https://docs.adobe.com/content/help/es-ES/campaign-classic/technicalresources/api/index.html">nueva versión en línea</a>.</td>
+   <td>A partir de la versión 19.1 de Campaign, las API de Campaign Classic están disponibles en una página dedicada. Si utilizó el archivo jsapi.chm heredado, debería consultar la <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html
+
+">nueva versión en línea</a>.</td>
   </tr> 
   <tr> 
-   <td>Organización de campañas    - Marketing predictivo</td>
+   <td>Organización de campañas     - Marketing predictivo</td>
    <td>A partir de la versión 18.10 de Campaign, las funcionalidades de marketing predictivas ya no están disponibles.</td>
   </tr> 
   <tr> 
