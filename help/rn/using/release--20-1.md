@@ -12,9 +12,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6c3c2ad62778c4c4f874c5b34c014529ce3e7185
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1330'
 ht-degree: 100%
 
@@ -79,7 +79,7 @@ _lunes, 17 de febrero de 2020_
 
 * Se mejoró el JSP del monitor para corregir una divulgación de IP interna. (NEO-16821)
 
-* Se corrigió un problema en el cual la información de seguimiento de pila se podía mostrar a usuarios que no fueran administradores. (NEO-12388)
+* Se ha corregido un problema en el cual la información de seguimiento de pila se podía mostrar a usuarios que no fueran administradores. (NEO-12388)
 
 * Se ha mejorado la administración de los datos almacenados en caché de sesiones anteriores. (NEO-17039)
 
@@ -123,7 +123,7 @@ _lunes, 17 de febrero de 2020_
 
 **Parches**
 
-* Se corrigió un problema de cifrado de clave de cuenta al usar el conector Hadoop.
+* Se ha corregido un problema de cifrado de clave de cuenta al usar el conector Hadoop.
 
 * Se ha corregido un problema de regresión debido a la implementación de la certificación SSL que hacía que la conexión del usuario fallara en el servidor de Windows. (NEO-20629)
 
@@ -133,9 +133,9 @@ _lunes, 17 de febrero de 2020_
 
 * Se ha corregido un problema que provocaba un error al usar el método POST en la actividad de evento del flujo de trabajo de **descarga web**.
 
-* Se corrigió un problema con la generación de propuestas de ofertas. (NEO-18176)
+* Se ha corregido un problema con la generación de propuestas de ofertas. (NEO-18176)
 
-* Se corrigió un problema de visualización de pie de página al usar la plantilla de formulario web de adquisición.
+* Se ha corregido un problema de visualización de pie de página al usar la plantilla de formulario web de adquisición.
 
 * Se ha corregido un problema que se producía al analizar las direcciones URL en el contenido de envíos continuos y que podía provocar que se bloquearan. (NEO-16910)
 
@@ -143,13 +143,13 @@ _lunes, 17 de febrero de 2020_
 
 * Se ha corregido un problema con la actividad del flujo de trabajo de **File Download** al usar una dirección URL.
 
-* Se corrigió un problema al obtener una vista previa de una lista importada en una actividad de consulta de un informe. (NEO-13119)
+* Se ha corregido un problema al obtener una vista previa de una lista importada en una actividad de consulta de un informe. (NEO-13119)
 
 * Se ha corregido un problema que mostraba una imagen desactualizada al seleccionar el bloque de personalización **Powered by Campaign** en el editor de correo electrónico.
 
 * Se ha mejorado la comunicación de red entre el cliente y el servidor.
 
-* Se corrigió un problema en el cual se creaban demasiados flujos de trabajo en la misma campaña. Ahora no se pueden crear más de 28 flujos de trabajo. Se muestra una advertencia.
+* Se ha corregido un problema en el cual se creaban demasiados flujos de trabajo en la misma campaña. Ahora no se pueden crear más de 28 flujos de trabajo. Se muestra una advertencia.
 
 * Se ha corregido un problema al usar la opción de reconciliación **A selection of columns** en una actividad de flujo de trabajo de **Union** .
 
@@ -159,7 +159,7 @@ _lunes, 17 de febrero de 2020_
 
 * Se ha corregido un problema que permitía la ejecución de una actividad de flujo de trabajo de **señal externa** incluso cuando estaba desactivada. (NEO-17524)
 
-* Se corrigió un problema al crear un nuevo esquema.
+* Se ha corregido un problema al crear un nuevo esquema.
 
 * Se ha corregido un problema de seguimiento al enviar mensajes SMS. (NEO-19595)
 
