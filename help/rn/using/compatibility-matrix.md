@@ -12,18 +12,18 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5e8598fd445f6e2ebd891af1e15c07eb836cd647
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '621'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 
 # Matriz de compatibilidad{#compatibility-matrix}
 
-This document lists all systems and components supported for the latest build of **Adobe Campaign Classic (v6.11 and v7)**. Los productos y las versiones que no forman parte de esta lista no son compatibles con Adobe Campaign.
+Este documento enumera todos los sistemas y componentes compatibles con la última versión de **Adobe Campaign Classic (6.11 y 7)**. Los productos y las versiones que no forman parte de esta lista no son compatibles con Adobe Campaign.
 
 ## Notas importantes{#important-notes}
 
@@ -57,7 +57,7 @@ Para obtener más información sobre los elementos obsoletos, consulte [esta pá
 <td>RHEL</td>
 <td>
 <p>7.x (64 bits)</p>
-<p><strong>Importante:</strong> Si está utilizando RHEL, debe estar dispuesto a deshabilitar SELinux o a que sus arquitectos escriban reglas SELinux personalizadas para verificar que un SELinux habilitado no esté causando problemas con las operaciones de Campaña.</p>
+<p><strong>Importante:</strong> Si está utilizando RHEL, debe estar dispuesto a deshabilitar SELinux o a que sus arquitectos escriban reglas SELinux personalizadas para comprobar que un SELinux habilitado no está causando problemas con las operaciones de Campaign.</p>
 </td>
 </tr>
 <tr>
@@ -71,7 +71,7 @@ Para obtener más información sobre los elementos obsoletos, consulte [esta pá
 </tbody>
 </table>
 
-## Servidor web{#WebServers}
+## Servidores web{#WebServers}
 
 <table>
 <tbody>
@@ -145,7 +145,7 @@ Se admiten los siguientes controladores RDBMS:
 <tr>
 <td>Oracle</td>
 <td>
-<p>11g R2</p>
+<p>11g  R2</p>
 <p>12c</p>
 <p>18c</p>
 <p>19c</p>
@@ -159,7 +159,7 @@ Se admiten los siguientes controladores RDBMS:
 <p>9.6.x</p>
 <p>10.x</p>
 <p>11.x</p>
-<p>Nota: también puede utilizar Amazon RDS para PostgreSQL con las versiones especificadas arriba.</p>
+<p>Nota: También puede utilizar Amazon RDS para PostgreSQL con las versiones especificadas anteriormente.</p>
 </td>
 </tr>
 <tr>
@@ -169,7 +169,7 @@ Se admiten los siguientes controladores RDBMS:
 <p>2014</p>
 <p>2016</p>
 <p>2017</p>
-<p>Advertencia: Microsoft SQL Server no se admite como base de datos principal cuando el servidor de Campaña se está ejecutando en Linux. Consulte la <a href="https://docs.campaign.adobe.com/doc/AC/en/INS_Prerequisites_and_recommendations__Database.html#Microsoft_SQL_Server">Guía de instalación</a>.</p>
+<p>Advertencia: Microsoft SQL Server no se admite como base de datos principal cuando el servidor de Campaign se está ejecutando en Linux. Consulte la <a href="https://docs.campaign.adobe.com/doc/AC/en/INS_Prerequisites_and_recommendations__Database.html#Microsoft_SQL_Server">Guía de instalación</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -362,13 +362,13 @@ Para los siguientes exploradores, se admite la versión más reciente:
 
 ## Integraciones de Experience Cloud{#ExperienceCloudintegrations}
 
-For integrations with Adobe solutions, refer to this [section](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/integrating-with-adobe-experience-cloud/about-campaign-integrations.html#experience-cloud-integrations).
+Para integraciones con las soluciones de Adobe, consulte esta [sección](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/integrating-with-adobe-experience-cloud/about-campaign-integrations.html#experience-cloud-integrations).
 
 ## Más parecido a esto{#Morelikethis}
 
 * [Notas de la versión de Campaign Classic](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/release-notes/latest-release.html)
 * [Guía de instalación](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/general-architecture.html)
-* [Características y sistemas obsoletos](https://helpx.adobe.com/es/campaign/kb/deprecated-and-removed-features.html)
+* [Funcionalidades y sistemas obsoletos](https://helpx.adobe.com/es/campaign/kb/deprecated-and-removed-features.html)
 * [Generar procedimiento de actualización](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html)
 * [Matriz de compatibilidades de Campaign Classic para la versión 19.0](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix-19-0.html)
 * [Matriz de compatibilidades de Campaign Classic para la versión 19.1](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix-19-1.html)
