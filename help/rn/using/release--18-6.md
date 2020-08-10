@@ -53,16 +53,16 @@ ht-degree: 100%
 **Mejoras**
 
 * Se han mejorado los registros de archivos de correo electrónico, lo que facilita la comprobación de los mensajes de correo electrónico que se han entregado o no se han enviado correctamente a través del archivo BCC. (NEO-10675)
-* Se corrigió un problema que provocaba la visualización de las direcciones IP del equilibrador de carga en lugar de las direcciones IP del cliente en los registros de seguimiento. (NEO-11295)
-* Se corrigió un problema aleatorio que ocasionaba que las propiedades de una entrega se sobrescriban erróneamente. (NEO-11015)
-* Se corrigió un error de sintaxis al ordenar los resultados de las actividades de enriquecimiento. (NEO-11394)
-* Se corrigió un problema que se producía al utilizar campos calculados en una actividad de flujo de trabajo **[!UICONTROL Survey answers]**. (NEO-11382)
+* Se ha corregido un problema que provocaba la visualización de las direcciones IP del equilibrador de carga en lugar de las direcciones IP del cliente en los registros de seguimiento. (NEO-11295)
+* Se ha corregido un problema aleatorio que ocasionaba que las propiedades de una entrega se sobrescriban erróneamente. (NEO-11015)
+* Se ha corregido un error de sintaxis al ordenar los resultados de las actividades de enriquecimiento. (NEO-11394)
+* Se ha corregido un problema que se producía al utilizar campos calculados en una actividad de flujo de trabajo **[!UICONTROL Survey answers]**. (NEO-11382)
 * Se ha actualizado Tomcat para evitar la explotación de vulnerabilidades. (NEO-11503)
-* Se corrigió un error con la codificación LATIN1 al utilizar una conexión de FDA con una base de datos PostgreSQL. (NEO-11299)
-* Se corrigió un problema que se producía al utilizar la opción de entrega **[!UICONTROL Prepare the personalization data with a workflow]**. (NEO-11047)
-* Se corrigió un problema posterior a la actualización que impedía la entrega de SMS al utilizar un conector extendido.
+* Se ha corregido un error con la codificación LATIN1 al utilizar una conexión de FDA con una base de datos PostgreSQL. (NEO-11299)
+* Se ha corregido un problema que se producía al utilizar la opción de entrega **[!UICONTROL Prepare the personalization data with a workflow]**. (NEO-11047)
+* Se ha corregido un problema posterior a la actualización que impedía la entrega de SMS al utilizar un conector extendido.
 * Se mejoró la importación/exportación de paquetes (se han añadido registros y regiones en la interfaz).
-* Se corrigió un problema que mostraba errores no viables en el registro posterior de actualización cuando una actividad de flujo de trabajo **[!UICONTROL Survey answers]** no estaba completamente configurada.
+* Se ha corregido un problema que mostraba errores no viables en el registro posterior de actualización cuando una actividad de flujo de trabajo **[!UICONTROL Survey answers]** no estaba completamente configurada.
 
 **Evoluciones técnicas**
 
@@ -132,4 +132,4 @@ Para los clientes existentes, las API de archivo ya no pueden acceder a la carpe
 
 **Parche**
 
-* Se corrigió un problema que podría afectar el rendimiento del mensaje transaccional SMS. (NEO-9812)
+* Se ha corregido un problema que podría afectar el rendimiento del mensaje transaccional SMS. (NEO-9812)
