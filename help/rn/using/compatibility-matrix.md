@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 5e8598fd445f6e2ebd891af1e15c07eb836cd647
-workflow-type: ht
-source-wordcount: '621'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '618'
+ht-degree: 97%
 
 ---
 
@@ -169,7 +169,7 @@ Se admiten los siguientes controladores RDBMS:
 <p>2014</p>
 <p>2016</p>
 <p>2017</p>
-<p>Advertencia: Microsoft SQL Server no se admite como base de datos principal cuando el servidor de Campaign se está ejecutando en Linux. Consulte la <a href="https://docs.campaign.adobe.com/doc/AC/en/INS_Prerequisites_and_recommendations__Database.html#Microsoft_SQL_Server">Guía de instalación</a>.</p>
+<p>Advertencia: Microsoft SQL Server no se admite como base de datos principal cuando el servidor de Campaign se está ejecutando en Linux. <a href="https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">Más información</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -228,7 +228,7 @@ Se admiten los siguientes controladores RDBMS:
 <tr>
 <td>Oracle</td>
 <td>
-<p>11g</p>
+<p>11g </p>
 <p>12c</p>
 <p>18c</p>
 </td>
