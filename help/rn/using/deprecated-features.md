@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e46325ab8f68a0b71198aee9cf04f2b1eb97fdd3
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 63f07746d39fff22a98b3cd4ab7f2294da778ab3
+workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
   <tr>  
    <td>canal de fax<br></td>
    <td><p>A partir de la versión 20.2, el canal de fax queda obsoleto.</p> 
-   <p>Si utiliza este canal, debe adaptar la implementación en consecuencia. <a href="../../delivery/using/communication-channels.md">Obtenga más información</a> sobre los canales de Campaign.</p>
+   <p>Si utiliza este canal, debe adaptar la implementación en consecuencia. <a href="../../delivery/using/steps-about-delivery-creation-steps.md">Obtenga más información</a> sobre los canales de Campaign.</p>
    <p><em>Fecha de eliminación objetivo: 2021</em></p></td>
   </tr>
  </tbody> 
@@ -93,7 +93,9 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
    </tr>
    <tr>
    <td>Documentación de las API Campaign: archivo jsapi.chm</td>
-   <td>A partir de la versión 19.1 de Campaign, las API de Campaign Classic están disponibles en una página dedicada. Si utilizó el archivo jsapi.chm heredado, debería consultar la <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">nueva versión en línea</a>.</td>
+   <td>A partir de la versión 19.1 de Campaign, las API de Campaign Classic están disponibles en una página dedicada. Si utilizó el archivo jsapi.chm heredado, debería consultar la <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html
+
+">nueva versión en línea</a>.</td>
   </tr> 
   <tr> 
    <td>Organización de campañas     - Marketing predictivo</td>
