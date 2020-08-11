@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 24d2dded38ddb922891a7264d9efea02cb448323
 workflow-type: tm+mt
-source-wordcount: '6943'
-ht-degree: 100%
+source-wordcount: '7069'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,37 @@ ht-degree: 100%
 
 Esta página enumera todas las nuevas funciones y actualizaciones de la documentación por mes y por versión de Campaign.
 
+
 También puede consultar las [Notas de la versión de Adobe Campaign Classic](../../rn/using/latest-release.md) para ver más actualizaciones.
+
+## Agosto de 2020 {#aug-2020}
+
+Conozca las prácticas recomendadas relacionadas con el diseño de envíos y el envío con Campaña en una sección dedicada. [Más información](../../delivery/using/delivery-best-practices.md)
+
+Se ha mejorado la página de aterrizaje de prácticas recomendadas sobre la capacidad de ejecución para facilitar el acceso a las subsecciones. [Más información](../../delivery/using/deliverability-key-points.md)
+
+Los vídeos de procedimientos ya están disponibles en los siguientes temas:
+
+* [Cómo configurar la gestión de la fatiga mediante reglas de tipología y filtros predefinidos](../../campaign/using/about-campaign-typologies.md)
+
+* [Cómo crear un correo electrónico en una campaña](../../campaign/using/designing-marketing-campaigns.md)
+
+* [Cómo crear una newsletter multilingüe con contenido condicional](../../delivery/using/conditional-content.md)
+
+* [Cómo configurar e implementar una Plantilla de envíos](../../delivery/using/creating-a-delivery-template.md)
+
+* [Cómo activar y utilizar AMP para correos electrónicos](../../delivery/using/defining-interactive-content.md)
+
+* [Cómo personalizar correos electrónicos mediante bloques de contenido dinámico](../../delivery/using/personalization-blocks.md)
+
+* [Cómo personalizar correos electrónicos mediante campos de personalización](../../delivery/using/personalization-fields.md)
+
+* [Cómo administrar semillas y pruebas en un correo electrónico](../../delivery/using/steps-defining-the-target-population.md)
+
+* [Cómo configurar un envío recurrente](../../workflow/using/recurring-delivery.md)
+
+* [Cómo configurar un envío continuo](../../workflow/using/continuous-delivery.md)
+
 
 ## Julio de 2020 {#july-2020}
 
