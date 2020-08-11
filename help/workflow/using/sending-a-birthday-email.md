@@ -14,8 +14,11 @@ discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f3006ac7178b4fc3091859ca8a7225864da9524a
+translation-type: tm+mt
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '880'
+ht-degree: 89%
 
 ---
 
@@ -32,9 +35,9 @@ Para configurar este caso de uso, se ha creado el siguiente flujo de trabajo de 
 
 Este flujo de trabajo (de ejecución diaria) selecciona todos los destinatarios que tienen su cumpleaños en la fecha actual.
 
-Este caso de uso también se puede encontrar en forma de vídeo. Para obtener más información, consulte el vídeo [Creación de un flujo de trabajo](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html).
+Este caso de uso también se puede encontrar en forma de vídeo. Para obtener más información, consulte el vídeo [Creación de un flujo de trabajo](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html).
 
-Para ello, cree una campaña y haga clic en la pestaña **[!UICONTROL Targeting and workflows]**. Para obtener más información sobre esto, consulte la sección [Generación del destino principal en un flujo de trabajo](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) .
+To do this, create a campaign and click the **[!UICONTROL Targeting and workflows]** tab. Para obtener más información sobre esto, consulte la sección [Generación del destino principal en un flujo de trabajo](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) .
 
 A continuación, siga estos pasos:
 
@@ -52,7 +55,7 @@ Después de configurar la actividad **[!UICONTROL Scheduler]** para que el flujo
 Para ello, siga los siguientes pasos:
 
 1. Arrastre y coloque una actividad **[!UICONTROL Query]** en el flujo de trabajo y haga doble clic en ella.
-1. Haga clic en el vínculo **Edit query** y seleccione **[!UICONTROL Filtering conditions]**.
+1. Click the **Edit query** link and select **[!UICONTROL Filtering conditions]**.
 
    ![](assets/s_ncs_user_create_exp_exple00.png)
 
@@ -60,16 +63,16 @@ Para ello, siga los siguientes pasos:
 
    ![](assets/s_ncs_user_create_exp_exple.png)
 
-1. Haga clic en **[!UICONTROL Advanced selection]** para seleccionar el modo de filtrado.
+1. Click **[!UICONTROL Advanced selection]** to select the filtering mode.
 
    ![](assets/s_ncs_user_create_exp_exple_a.png)
 
-1. Seleccione **[!UICONTROL Edit the formula using an expression]** y haga clic en **[!UICONTROL Next]** para mostrar el editor de expresiones.
+1. Select **[!UICONTROL Edit the formula using an expression]** and click **[!UICONTROL Next]** to display the expression editor.
 1. En la lista de funciones, haga doble clic en **[!UICONTROL Day]**, a la cual se puede acceder mediante el nodo **[!UICONTROL Date]**. Esta función devuelve el número que representa el día correspondiente a la fecha establecida como parámetro.
 
    ![](assets/s_ncs_user_create_exp_exple01.png)
 
-1. En la lista de campos disponibles, haga doble clic en **[!UICONTROL Birth date]**. A continuación, la sección superior del editor muestra la siguiente fórmula:
+1. In the list of available fields, double-click **[!UICONTROL Birth date]**. A continuación, la sección superior del editor muestra la siguiente fórmula:
 
    ```
    Day(@birthDate)
@@ -77,7 +80,7 @@ Para ello, siga los siguientes pasos:
 
    Haga clic en **[!UICONTROL Finish]** para confirmar.
 
-1. En el editor de consultas, en la primera celda de la columna **[!UICONTROL Operator]**, seleccione **[!UICONTROL equal to]**.
+1. In the query editor, in the first cell of the **[!UICONTROL Operator]** column, select **[!UICONTROL equal to]**.
 
    ![](assets/s_ncs_user_create_exp_exple02.png)
 
@@ -95,7 +98,7 @@ Para ello, siga los siguientes pasos:
 
    Haga clic en **[!UICONTROL Finish]** para confirmar.
 
-1. Repita este procedimiento para recuperar el mes de nacimiento correspondiente al mes actual. Para ello, haga clic en el botón **[!UICONTROL Add]** y repita los pasos del 3 al 10, sustituyendo **[!UICONTROL Day]** por **[!UICONTROL Month]**.
+1. Repita este procedimiento para recuperar el mes de nacimiento correspondiente al mes actual. To do this, click the **[!UICONTROL Add]** button and repeat steps 3 to 10, replacing **[!UICONTROL Day]** with **[!UICONTROL Month]**.
 
    La consulta completa es la siguiente:
 
@@ -137,7 +140,7 @@ La actividad **[!UICONTROL Test]** permite comprobar si es un año bisiesto o no
 
 Si se verifica la prueba (el año no es un año bisiesto: no hay 29 de febrero y la fecha actual es de hecho 1 de marzo), la transición **[!UICONTROL True]** se activa y los destinatarios nacidos el 29 de febrero se añadirán a la entrega del 1 de marzo. En caso contrario, la transición **[!UICONTROL False]** se activa y solo los destinatarios nacidos en la fecha actual reciben la entrega.
 
-Copie y pegue el código siguiente en la sección **[!UICONTROL Initialization script]** de la pestaña **[!UICONTROL Advanced]**.
+Copy and paste the code below into the **[!UICONTROL Initialization script]** section of the **[!UICONTROL Advanced]** tab.
 
 ```
 function isLeapYear(iYear)
@@ -183,7 +186,7 @@ vars.firstOfMarch = 1;
 
 ![](assets/birthday-workflow_usecase_3.png)
 
-Añadir la siguiente condición en la sección **[!UICONTROL Conditional forks]**:
+Add the following condition in the **[!UICONTROL Conditional forks]** section:
 
 ```
 vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
