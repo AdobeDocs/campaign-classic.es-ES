@@ -14,8 +14,11 @@ discoiquuid: 185d3256-a21e-47d7-bee7-7b91762ca1e2
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
+translation-type: tm+mt
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 63%
 
 ---
 
@@ -38,8 +41,17 @@ El proceso de configuración de esta actividad es similar a la creación de una 
 
 Para ver un ejemplo de la actividad utilizada, consulte esta [sección](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
+## Cómo configurar envíos recurrentes
+
+Un envío **** recurrente creará una nueva instancia de envío cada vez que se ejecute. Por ejemplo, si el flujo de trabajo está programado para ejecutarse una vez a la semana, el resultado sería de 52 Envíos al cabo de un año. Esto también significa que el registro y los registros de seguimiento generales se separarán por cada instancia de envío.
+
+![Envío recurrente](assets/delivery_recurring.jpg)
+
+En este vídeo se explica cómo configurar un envío recurrente y una actividad de Planificador.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
+
 >[!NOTE]
 >
 >No es posible enviar una prueba desde una actividad del tipo **[!UICONTROL Recurring delivery]**.\
 >Para crear directamente una entrega a través de un flujo de trabajo de campaña, utilice las actividades específicas del canal que están preconfiguradas (por ejemplo **[!UICONTROL Email delivery]**).
-
