@@ -14,8 +14,11 @@ discoiquuid: 167cc61a-fbc7-48cb-89ff-fbdbf9321c01
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
+translation-type: tm+mt
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 94%
 
 ---
 
@@ -110,3 +113,9 @@ En el siguiente ejemplo, puede aprender a crear un correo electrónico multiling
    >[!NOTE]
    >
    >Como no se ha definido ninguna versión alternativa en el contenido de correo electrónico, asegúrese de filtrar la población de destino antes de enviar el correo electrónico.
+
+## Cómo crear una newsletter multilingüe con contenido condicional
+
+Aprenda a añadir contenido condicional a un envío en el ejemplo de una newsletter multilingüe.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12)
