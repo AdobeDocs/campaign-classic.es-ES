@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 63d0551c0c036cb54ebea4e6cc4dc1f6566cf976
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 6%
 
 ---
 
@@ -25,12 +28,12 @@ source-git-commit: 63d0551c0c036cb54ebea4e6cc4dc1f6566cf976
 Estos son los pasos de instalación y configuración que se aplican a los modelos de alojamiento híbridos:
 
 * Configuración de mensajes transaccionales: consulte esta [sección](../../message-center/using/transactional-messaging-architecture.md).
-* Configuración de las direcciones URL de página de seguimiento y réplica por marca. Para los mensajes transaccionales, consulte esta [sección](../../message-center/using/configuring-multibranding.md).
+* Configuración de las direcciones URL de seguimiento y página espejo por marca. Para mensajes transaccionales, consulte esta [sección](../../message-center/using/configuring-multibranding.md).
 * Instalación de la consola de cliente: consulte esta [sección](../../installation/using/installing-the-client-console.md).
 * Instalación de paquetes: consulte esta [sección](../../installation/using/installing-campaign-standard-packages.md).
-* Capacidad de entrega: configuración de reglas [](../../installation/using/email-deliverability.md#mx-configuration) MX y formatos [de](../../installation/using/email-deliverability.md#managing-email-formats)correo electrónico. Obtenga más información sobre las herramientas de entrega y las prácticas recomendadas leyendo la guía [de](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) introducción y la documentación [](../../delivery/using/about-deliverability.md)detallada.
-* Configuración de las opciones de campaña: consulte esta [sección](../../installation/using/configuring-campaign-options.md).
+* Capacidad de entrega: configuración de reglas [y](../../installation/using/email-deliverability.md#mx-configuration) formatos del correo electrónico [](../../installation/using/email-deliverability.md#managing-email-formats)MX. Obtenga más información sobre las herramientas de entrega y las prácticas recomendadas leyendo la guía [de](../../delivery/using/deliverability-key-points.md) introducción y la documentación [](../../delivery/using/about-deliverability.md)detallada.
+* Configuración de las opciones de Campaña: consulte esta [sección](../../installation/using/configuring-campaign-options.md).
 * Configuración de una base de datos externa (FDA): consulte esta [sección](../../platform/using/about-fda.md).
 * Configuración de conectores CRM: consulte esta [sección](../../platform/using/crm-connectors.md).
-* Para obtener más información sobre los principios de implementación de fuentes intermedias, consulte esta [sección](../../installation/using/mid-sourcing-deployment.md).
+* Para obtener más información sobre los principios de implementación de intermediarias, consulte esta [sección](../../installation/using/mid-sourcing-deployment.md).
 
