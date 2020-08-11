@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 9%
 
 ---
 
@@ -24,10 +27,10 @@ source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
 
 Estos son los pasos de instalación y configuración que se aplican a los modelos alojados:
 
-* Configuración de las direcciones URL de página de seguimiento y réplica por marca. Para los mensajes transaccionales, consulte esta [sección](../../message-center/using/configuring-multibranding.md).
+* Configuración de las direcciones URL de seguimiento y página espejo por marca. Para mensajes transaccionales, consulte esta [sección](../../message-center/using/configuring-multibranding.md).
 * Instalación de la consola de cliente: consulte esta [sección](../../installation/using/installing-the-client-console.md).
 * Instalación de paquetes: consulte esta [sección](../../installation/using/installing-campaign-standard-packages.md).
-* Obtenga más información sobre las herramientas de entrega y las prácticas recomendadas leyendo la guía [de](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) introducción y la documentación [](../../delivery/using/about-deliverability.md)detallada.
-* Configuración de las opciones de campaña: consulte esta [sección](../../installation/using/configuring-campaign-options.md).
+* Obtenga más información sobre las herramientas de entrega y las prácticas recomendadas leyendo la guía [de](../../delivery/using/deliverability-key-points.md) introducción y la documentación [](../../delivery/using/about-deliverability.md)detallada.
+* Configuración de las opciones de Campaña: consulte esta [sección](../../installation/using/configuring-campaign-options.md).
 * Configuración de conectores CRM: consulte esta [sección](../../platform/using/crm-connectors.md).
 
