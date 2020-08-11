@@ -14,11 +14,11 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e31a0faf6c48e2d34ce47fc1cd5a23aae05aeebf
-workflow-type: ht
-source-wordcount: '2925'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '2928'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Las configuraciones sugeridas se adecúan a los diferentes tipos de envío: corr
 
 >[!NOTE]
 >
->Para obtener más información sobre la creación y configuración de las entregas, consulte la sección [envío de mensajes](../../delivery/using/communication-channels.md).
+>Para obtener más información sobre la creación y configuración de las entregas, consulte la sección [envío de mensajes](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 ## Selección de la población objetivo {#selecting-the-target-population}
 
@@ -219,7 +219,7 @@ Puede definir un grupo de control al nivel de la campaña, en cuyo caso se aplic
 
    ![](assets/s_ncs_user_edit_op_general_tab_exe_target.png)
 
-El procedimiento de configuración se presenta en [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) y [Adding a population](#adding-a-population).
+The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a control group](#adding-a-population).
 
 #### Activación del grupo de control para una entrega {#activating-the-control-group-for-a-delivery}
 
@@ -238,7 +238,7 @@ De manera predeterminada, la configuración del grupo de control definida al niv
 1. Haga clic en la pestaña **[!UICONTROL Control group]** y seleccione **[!UICONTROL Enable and edit control group configuration]**.
 1. Haga clic en **[!UICONTROL Edit...]** para configurar el grupo de control.
 
-El procedimiento de configuración se presenta en [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) y [Adding a population](#adding-a-population).
+The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a control group](#adding-a-population).
 
 #### Extracción del grupo de control a partir del objetivo principal {#extracting-the-control-group-from-the-main-target}
 
@@ -257,7 +257,7 @@ Haga clic en **[!UICONTROL Next]** para definir el orden de clasificación (si e
 
 Esta configuración equivale a una actividad de uso compartido en el flujo de trabajo, lo que permite desglosar el objetivo en subconjuntos. El grupo de control es uno de estos subconjuntos. Consulte [esta sección](../../workflow/using/architecture.md) para obtener más información.
 
-### Adición de una población {#adding-a-population}
+### Adding a control group {#adding-a-population}
 
 Puede definir una nueva población para utilizarla como grupo de control. Puede crear esta población a partir de un grupo de destinatarios o a través de una consulta específica.
 
