@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1f7ff6a281c2830ac23ad995b750dc09ade5e92
+source-git-commit: b14f5ecd2b06ed9f4cb49d8779b9f94ea4bcdddc
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 96%
+source-wordcount: '1176'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ Las funciones principales incluyen establecimiento de objetivos, definición y p
 
 >[!NOTE]
 >
->Adobe Campaign ofrece un conjunto de herramientas para supervisar su capacidad de envío y optimizar la entrega por correo electrónico. Para obtener más información, consulte [Introducción a las entregas](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html) y [Gestión de envíos](../../delivery/using/about-deliverability.md).
+>Adobe Campaign ofrece un conjunto de herramientas para supervisar su capacidad de envío y optimizar la entrega por correo electrónico. Para obtener más información, consulte [Introducción a las entregas](../../delivery/using/deliverability-key-points.md) y [Gestión de envíos](../../delivery/using/about-deliverability.md).
 
 El envío puede automatizarse al preparar una entrega o al enviarlo en el proceso de un flujo de trabajo. Para obtener más información sobre las actividades de tipo envío en los flujos de trabajo, consulte [esta sección](../../workflow/using/about-action-activities.md).
 
@@ -42,7 +42,7 @@ Adobe Campaign ofrece los siguientes canales de envío:
 1. **Canal móvil**: las entregas en canales móviles permiten enviar mensajes SMS o de LINE personalizados a la población objetivo. Consulte [el canal de SMS](../../delivery/using/sms-channel.md).
 1. **Canal de aplicación móvil**: los envíos de aplicaciones móviles permiten enviar notificaciones a sistemas iOS y Android. Consulte el capítulo [canal de aplicaciones móviles](../../delivery/using/about-mobile-app-channel.md).
 
-   En [esta página](../../delivery/using/communication-channels.md#other-channels) se describen otros canales.
+   En [esta página](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels) se describen otros canales.
 
    >[!NOTE]
    >
@@ -67,9 +67,9 @@ Se pueden enviar diferentes tipos de correos electrónicos:
 * Correos electrónicos recurrentes: en una campaña, envíe el mismo correo electrónico regularmente y añada cada envío y sus informes periódicamente. Se envía el mismo correo electrónico, pero normalmente a un destino diferente, en función del destino apto para el día de la entrega. Un ejemplo común es un correo electrónico de cumpleaños. Para obtener más información, consulte [envíos recurrentes](../../workflow/using/recurring-delivery.md).
 * Correos electrónicos de transacción: correos electrónicos individuales que se activan según el comportamiento de los clientes. Consulte [mensajería transaccional](../../message-center/using/about-transactional-messaging.md).
 
-Para obtener más información sobre uso de las entregas y recomendaciones, consulte [Prácticas recomendadas de envío](https://helpx.adobe.com/es/campaign/kb/delivery-best-practices.html) de Campaign.
+Para obtener más información sobre uso de las entregas y recomendaciones, consulte [Prácticas recomendadas de envío](../../delivery/using/delivery-best-practices.md) de Campaign.
 
-Para obtener más información sobre los distintos tipos de envíos, consulte [esta sección](../../delivery/using/types-of-deliveries.md).
+Para obtener más información sobre los distintos tipos de envíos, consulte [esta sección](#types-of-deliveries).
 
 ## Envíos a móviles {#mobile-deliveries}
 
@@ -102,4 +102,34 @@ Además, las entregas de tipo “Otros” utilizan una plantilla técnica espec�
 
 Este canal no tiene un mecanismo específico. Es un canal genérico con su propia opción de enrutamiento de cuenta externa, tipo de plantilla de envío y actividad de flujo de trabajo de campaña, igual que cualquier otro canal de comunicación disponible en Adobe Campaign.
 
-Este canal se ha diseñado únicamente para fines descriptivos, por ejemplo para definir envíos para los que se desea mantener un seguimiento del destinatario de una campaña realizada en una herramienta que no sea Adobe Campaign.
+Este canal está diseñado únicamente para fines descriptivos, por ejemplo para definir envíos para los que se desea mantener un seguimiento del destinatario de una campaña realizada en una herramienta distinta de Adobe Campaign.
+
+## Tipos de entregas{#types-of-deliveries}
+
+Existen tres tipos de objetos de envío en Campaign:
+
+### Entrega única {#single-delivery}
+
+Una **entrega** es un objeto de envío independiente que se ejecuta una vez. Puede duplicarse y prepararse de nuevo; sin embargo, cuando esté en su estado final (cancelado, detenido, finalizado), no se puede volver a utilizar.
+
+Las entregas se pueden crear desde la lista de entregas o dentro de un flujo de trabajo mediante una actividad de [entrega](../../workflow/using/delivery.md).
+
+Los flujos de trabajo también proporcionan actividades de entrega específicas según el tipo de canal que desee utilizar. Para obtener más información sobre estas actividades, consulte [esta sección](../../workflow/using/cross-channel-deliveries.md).
+
+### Entrega recurrente {#recurring-delivery}
+
+Una **entrega recurrente** le permite crear un nuevo envío cada vez que se ejecute la actividad. Esto evita tener que crear una nueva entrega para las tareas recurrentes.
+
+Por ejemplo, si ejecuta este tipo de actividad una vez al mes, tras un año acaba teniendo 12 envíos.
+
+Las entregas recurrentes se crean en los flujos de trabajo a través de la actividad de [entrega recurrente](../../workflow/using/recurring-delivery.md). En esta sección se muestra un ejemplo de esta actividad: [Creación de una entrega recurrente en un flujo de trabajo de objetivos](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
+
+### Entrega continua {#continuous-delivery}
+
+Una **entrega continua** le permite añadir nuevos destinatarios a una entrega existente, lo que evita tener que crear una nueva entrega cada vez que se ejecuta.
+
+Si cambia la información de la entrega (contenido, nombre, etc.), se crea un nuevo objeto de envío en la ejecución de la entrega. Si no se ha cambiado ninguna información, se vuelve a utilizar el mismo objeto de envío y los “logs” de entrega y seguimiento se añaden en el mismo objeto.
+
+Por ejemplo, si ejecuta este tipo de actividad una vez al mes, acaba teniendo un solo envío después de un año (siempre y cuando no haya realizado ningún cambio en la entrega).
+
+Las entregas continuas se crean dentro de flujos de trabajo a través de la [Actividad de entrega continua](../../workflow/using/continuous-delivery.md).
