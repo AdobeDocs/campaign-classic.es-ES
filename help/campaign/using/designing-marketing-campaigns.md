@@ -14,8 +14,11 @@ discoiquuid: a9eb6627-2e51-42d0-9b29-5b798bdf5b33
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
+translation-type: tm+mt
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 93%
 
 ---
 
@@ -29,7 +32,7 @@ Además, el módulo **Marketing Resource Management (MRM)** permite controlar la
 >[!NOTE]
 >
 >Para obtener más información sobre las funcionalidades básicas de Adobe Campaign, consulte la sección [Introducción](../../platform/using/about-adobe-campaign-classic.md).\
->En [esta sección](../../delivery/using/communication-channels.md) se describen las capacidades relacionadas con la segmentación de públicos objetivo, la personalización y entrega de mensajes en los diversos canales.
+>En [esta sección](../../delivery/using/steps-about-delivery-creation-steps.md) se describen las capacidades relacionadas con la segmentación de públicos objetivo, la personalización y entrega de mensajes en los diversos canales.
 
 ## Conceptos básicos {#core-concepts}
 
@@ -66,3 +69,11 @@ Los siguientes conceptos son esenciales para conocer mejor Campaign:
    Un perfil de envío es una descripción estructurada de la entrega. Cada envío puede hacer referencia a un perfil de envío que contiene, por ejemplo, las ofertas relacionadas, documentos que se van a adjuntar o un vínculo que lleve a las tiendas. Se puede hacer referencia a una oferta en la entrega según la descripción del envío seleccionada.
 
    Para obtener más información, consulte [Asociación y estructuración de recursos relacionados a través de un esquema de envío](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+
+## Cómo crear un correo electrónico en una campaña
+
+En este vídeo se explica cómo crear una campaña y un correo electrónico en Adobe Campaign Classic.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+
+For more details, refer to [this section](../../campaign/using/marketing-campaign-deliveries.md)
