@@ -14,8 +14,11 @@ discoiquuid: 0e67d9dd-3ee8-4c06-98a4-3a2c644b6c0a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
+translation-type: tm+mt
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 78%
 
 ---
 
@@ -26,7 +29,7 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 Puede convertir una entrega en una plantilla y usarla con las nuevas acciones de envío repetidas. Para convertir una entrega en una plantilla, selecciónelo en la lista de envío, desde el nodo del árbol **[!UICONTROL Campaign management]**.
 
-Haga clic con el botón derecho y seleccione **[!UICONTROL Actions > Save as template...]**
+Right-click and select **[!UICONTROL Actions > Save as template...]**.
 
 ![](assets/s_ncs_user_campaign_save_as_scenario.png)
 
@@ -70,3 +73,21 @@ Para configurar una plantilla de envío, siga los siguientes pasos:
 >[!NOTE]
 >
 >Para evitar errores de configuración, se recomienda duplicar una plantilla nativa y modificar sus propiedades en lugar de crear una nueva plantilla.
+
+## Cómo configurar una Plantilla de envíos
+
+En el siguiente vídeo se muestra cómo configurar una plantilla para un envío ad hoc.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24066?quality=12)
+
+## Cómo configurar las propiedades de Plantillas de envíos
+
+El siguiente vídeo muestra cómo establecer las propiedades de Plantilla de envíos y explica cada propiedad en detalle.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24067?quality=12)
+
+## Cómo implementar una Plantilla de envíos ad-hoc
+
+En este vídeo se explica cómo implementar una Plantilla de envíos de correo electrónico ad-hoc y se explica la diferencia entre un envío de correo electrónico y un flujo de trabajo de envío.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24065?quality=12)
