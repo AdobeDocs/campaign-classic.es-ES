@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: d9b6ae9f7e2f3b15698f1a420b5416162cbcc758
-workflow-type: ht
-source-wordcount: '1987'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 251244225076dd11a319d1c4b2124c0d05168eaa
+workflow-type: tm+mt
+source-wordcount: '1976'
+ht-degree: 99%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/cp-icon.png) **Nuevo lanzamiento del Panel de control de Campaign en junio** con monitorización de perfiles activos, auditoría de entregas de subdominios y administración de claves GPG. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
 
-## ![](assets/do-not-localize/blue_2.png) Versión 20.2.1: compilación 9180 {#release-20-2-2-build-9180}
+## ![](assets/do-not-localize/blue_2.png) Versión 20.2.2: compilación 9180 {#release-20-2-2-build-9180}
 
 _22 de julio de 2020_
 
-* Se ha corregido un problema que impedía que el seguimiento funcionara cuando la función de firma estaba deshabilitada o cuando se usaba una instancia de marketing antigua con un Mid reciente. (NEO-26411)
+* Se ha corregido un problema que impedía que el seguimiento funcionara cuando la función de firma estaba deshabilitada. (NEO-26411)
 * Se ha corregido un problema que provocaba que los vínculos sin firmar de dominios personalizados se bloquearan cuando deberían permitirse. (NEO-25210)
 * Se ha corregido un problema que podía impedir que se abrieran las direcciones URL de seguimiento al usar ciertas versiones heredadas de Outlook o se hiciera clic en ellas. (NEO-25688)
 * Se ha corregido un problema que provocaba que las direcciones URL de la página espejo se definieran incorrectamente en los envíos de correo electrónico. (NEO-26084)
