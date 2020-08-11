@@ -15,18 +15,21 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '146'
+ht-degree: 5%
 
 ---
 
 
 # Acerca de la migración{#about-migration}
 
-En este documento se detallan los requisitos previos para una migración, los pasos para una migración a una plataforma de Adobe Campaign Classic (v7) y la configuración adicional, necesaria y opcional según la configuración.
+Este documento detalla los requisitos previos para una migración, los pasos para una migración a una plataforma Adobe Campaign Classic (v7), las opciones adicionales, necesarias y opcionales según la configuración.
 
-El proceso de migración debe llevarse a cabo con cautela, sus efectos deben ser objeto de un examen previo y el procedimiento debe llevarse a cabo con rigor. Sólo debe ser realizado por un usuario experto. Se recomienda enfáticamente ponerse en contacto con Adobe Campaign antes de iniciar cualquier procedimiento de migración.
+El proceso de migración debe llevarse a cabo con cautela, sus efectos deben ser objeto de un examen previo y el procedimiento debe llevarse a cabo con rigor. Sólo debe ser realizado por un usuario experto. Recomendamos encarecidamente ponerse en contacto con Adobe Campaign antes de iniciar cualquier procedimiento de migración.
 
-La migración debe probarse en el entorno de desarrollo de antemano para asegurarse de que funciona sin problemas y sin errores. La migración del entorno de producción solo debe realizarse una vez que el entorno de desarrollo migrado esté completamente aprobado.
+La migración debe probarse previamente en el entorno de desarrollo para asegurarse de que funciona sin problemas y sin errores. La migración del entorno de producción solo debe realizarse una vez que el entorno de desarrollo migrado esté totalmente aprobado.
 
 >[!IMPORTANT]
 >
@@ -34,4 +37,4 @@ La migración debe probarse en el entorno de desarrollo de antemano para asegura
 
 >[!NOTE]
 >
->Las nuevas funciones y evoluciones de Adobe Campaign v7 se detallan en [esta página](https://docs.campaign.adobe.com/doc/AC/en/RN.html).
+>Las nuevas funciones y evoluciones de Adobe Campaign v7 se detallan en [esta página](../../rn/using/latest-release.md).
