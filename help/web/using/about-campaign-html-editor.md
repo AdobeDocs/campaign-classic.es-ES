@@ -14,8 +14,11 @@ discoiquuid: 1ffe9f58-7258-4794-a314-524065f8a33b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
+translation-type: tm+mt
+source-git-commit: 63f07746d39fff22a98b3cd4ab7f2294da778ab3
+workflow-type: tm+mt
+source-wordcount: '352'
+ht-degree: 100%
 
 ---
 
@@ -60,7 +63,7 @@ Para crear una entrega por correo electrónico, los pasos son los siguientes:
 * Cree una entrega a partir de una plantilla de tipo correo electrónico en la que el DCE esté activo,
 * Seleccione contenido existente o cree contenido desde una plantilla estándar,
 * Editar y configurar contenido en línea,
-* Realice una entrega; para obtener más información, consulte [esta sección](../../delivery/using/communication-channels.md).
+* Realice una entrega; para obtener más información, consulte [esta sección](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 >[!NOTE]
 >
