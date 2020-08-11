@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
 workflow-type: tm+mt
-source-wordcount: '3608'
-ht-degree: 4%
+source-wordcount: '3593'
+ht-degree: 5%
 
 ---
 
@@ -31,14 +31,14 @@ La sección siguiente detalla las configuraciones del lado del servidor que se p
 >
 >Estas configuraciones deben ser realizadas únicamente por administradores y para modelos de alojamiento **in situ** .
 >
->En implementaciones **alojadas** , solo Adobe puede configurar la configuración del lado del servidor. Sin embargo, algunos ajustes se pueden configurar dentro del Panel de control (por ejemplo, la administración de listas de permisos de IP o los permisos de URL).
+>En implementaciones **alojadas** , la configuración del lado del servidor solo se puede configurar mediante Adobe. Sin embargo, algunos ajustes se pueden configurar dentro del Panel de control de Campaign (por ejemplo, administración de listas de permitidos IP o permisos de URL).
 
 Para obtener más información, consulte estas secciones:
 
 * [Documentación del Panel de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html)
 * [Modelos de alojamiento](../../installation/using/hosting-models.md)
 * [Matriz de Campaign Classic in situ y capacidad alojada](https://helpx.adobe.com/es/campaign/kb/acc-on-prem-vs-hosted.html)
-* [Pasos de configuración de modelos híbridos y alojados](https://docs.campaign.adobe.com/doc/AC/en/INS_Hybrid_and_Hosted_models_About_hybrid_and_hosted_models.html)
+* [Pasos](../../installation/using/about-hybrid-and-hosted-models.md) de configuración de modelos híbridos y alojados )
 
 Los archivos de configuración de Campaign Classic se almacenan en la carpeta **conf** de la carpeta de instalación de Adobe Campaign. La configuración se distribuye en dos archivos:
 
@@ -68,7 +68,7 @@ Cada zona define derechos, como:
 
 * Conexión HTTP en lugar de HTTPS
 * Visualización de errores (errores de Java, JavaScript, C++, etc.)
-* previsualización de informes y aplicaciones web
+* Previsualización de informes y aplicaciones web
 * Autenticación mediante inicio de sesión y contraseña
 * Modo de conexión no segura
 
@@ -280,7 +280,7 @@ También puede realizar las siguientes configuraciones en función de sus necesi
 
 El módulo MTA actúa como agente de transferencia de correo nativo para la retransmisión SMTP (puerto 25).
 
-Sin embargo, es posible reemplazarlo por un servidor de retransmisión si su política de seguridad lo requiere. En ese caso, el rendimiento global será el de transmisión (siempre que el rendimiento del servidor de transmisión sea inferior al del Adobe Campaign).
+Sin embargo, es posible reemplazarlo por un servidor de retransmisión si su política de seguridad lo requiere. En ese caso, el rendimiento global será el de transmisión (siempre que el rendimiento del servidor de transmisión sea inferior al de Adobe Campaign).
 
 En este caso, estos parámetros se establecen configurando el servidor SMTP en la **`<relay>`** sección . Debe especificar la dirección IP (o el host) del servidor SMTP utilizado para transferir el correo y su puerto asociado (25 de forma predeterminada).
 
@@ -331,7 +331,7 @@ Para ello, siga los siguientes pasos:
 
    >[!NOTE]
    >
-   >Las Listas desglosadas se detallan en [este documento](../../platform/using/managing-enumerations.md).
+   >Las listas desglosadas se detallan en [este documento](../../platform/using/managing-enumerations.md).
 
    A continuación, puede seleccionar la afinidad que se va a utilizar, como se muestra a continuación para las tipologías:
 
@@ -352,15 +352,15 @@ Una vez añadida una URL, se hace referencia a ella en el archivo de configuraci
 La forma en que puede administrar los permisos de URL depende del modelo de alojamiento:
 
 * **Híbrido** o **local**: agregue las direcciones URL para permitir en el **archivo** serverConf.xml. La información detallada se encuentra disponible en la sección siguiente.
-* **Alojado**: agregue las direcciones URL para permitir mediante el Panel **de control**. Para obtener más información, consulte la [documentación especializada](https://docs.adobe.com/content/help/es-ES/control-panel/using/instances-settings/url-permissions.html).
+* **Alojado**: agregue las direcciones URL para permitir mediante el **Panel de control de Campaign**. Para obtener más información, consulte la [documentación especializada](https://docs.adobe.com/content/help/es-ES/control-panel/using/instances-settings/url-permissions.html).
 
 Con modelos de alojamiento **híbridos** y **locales** , el administrador debe hacer referencia a un nuevo **urlPermission** en el archivo **serverConf.xml** . Todos los parámetros disponibles en **serverConf.xml** se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
 
 Existen tres modos de protección de conexión:
 
-* **Bloqueo**: todas las direcciones URL que no pertenecen a la lista de permitidas están bloqueadas, con un mensaje de error. Este es el modo predeterminado después de una actualización posterior.
-* **Permiso**: se permiten todas las direcciones URL que no pertenecen a la lista de permitidas.
-* **Advertencia**: se permiten todas las direcciones URL que no pertenecen a la lista de permitidas, pero el intérprete de JS emite una advertencia para que el administrador pueda recopilarlas. Este modo agrega mensajes de advertencia JST-310027.
+* **Bloqueo**: todas las direcciones URL que no pertenecen a la lista de permitidos están bloqueadas, con un mensaje de error. Es el modo predeterminado después de una posactualización.
+* **Permiso**: se permiten todas las direcciones URL que no pertenecen a la lista de permitidos.
+* **Advertencia**: se permiten todas las direcciones URL que no pertenecen a la lista de permitidos, pero el intérprete de JS emite una advertencia para que el administrador pueda recopilarlas. Este modo agrega mensajes de advertencia JST-310027.
 
 ```
 <urlPermission action="warn" debugTrace="true">
@@ -374,7 +374,7 @@ Existen tres modos de protección de conexión:
 >
 >De forma predeterminada, el cliente de nuevos clientes utiliza el modo **de** bloqueo. Si necesitan permitir una nueva dirección URL, deben ponerse en contacto con el administrador para agregarla a la lista de permitidos.
 >
->Los clientes existentes procedentes de una migración pueden utilizar el modo **de** advertencia durante un tiempo. Mientras tanto, deben analizar el tráfico saliente antes de autorizar las direcciones URL. Una vez definida la lista de direcciones URL autorizadas, deben ponerse en contacto con el administrador para agregar las direcciones URL a la lista de permitidas y activar el modo **de** bloqueo.
+>Los clientes existentes procedentes de una migración pueden utilizar el modo **de** advertencia durante un tiempo. Mientras tanto, deben analizar el tráfico saliente antes de autorizar las direcciones URL. Una vez definida la lista de direcciones URL autorizadas, deben ponerse en contacto con el administrador para agregar las direcciones URL a la lista de permitidos y activar el modo **de** bloqueo.
 
 ## Seguridad y relés de página dinámicos {#dynamic-page-security-and-relays}
 
@@ -471,7 +471,7 @@ Por ejemplo:
 </serverConf>
 ```
 
-Este usuario debe agregarse a la lista de superusuario del operador de Adobe Campaign &quot;neolano&quot;.
+Este usuario debe agregarse a la lista de superusuario del operador &quot;neolane&quot; de Adobe Campaign.
 
 >[!IMPORTANT]
 >
@@ -487,6 +487,7 @@ De forma predeterminada, no se retransmiten todos los encabezados HTTP. Puede ag
 
    * **name**: nombre del encabezado
    * **value**: nombre del valor.
+
    Por ejemplo:
 
    ```
@@ -516,7 +517,7 @@ Para obtener el nombre de host del equipo, ejecute el siguiente comando: **hostn
 
 ## Administración de recursos públicos {#managing-public-resources}
 
-Los Recursos públicos se presentan en [Administración de recursos públicos](../../installation/using/deploying-an-instance.md#managing-public-resources).
+Los recursos públicos se presentan en [Administración de recursos públicos](../../installation/using/deploying-an-instance.md#managing-public-resources).
 
 Se almacenan en el directorio **/var/res/instance** del directorio de instalación de Adobe Campaign.
 
@@ -537,7 +538,7 @@ Puede especificar otro directorio agregando un nodo al archivo **conf-`<instance
 
 En este caso, la nueva dirección URL de los recursos públicos proporcionados en la parte superior de la ventana del asistente de implementación debe apuntar a esta carpeta.
 
-## flujos de trabajo y afinidades de alta disponibilidad {#high-availability-workflows-and-affinities}
+## Flujos de trabajo y afinidades de alta disponibilidad {#high-availability-workflows-and-affinities}
 
 Puede configurar varios servidores de flujo de trabajo (wfserver) y distribuirlos en dos o más equipos. Si elige este tipo de arquitectura, configure el modo de conexión de los equilibradores de carga según el acceso de Adobe Campaign.
 
