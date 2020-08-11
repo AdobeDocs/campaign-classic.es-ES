@@ -13,10 +13,10 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e25560152a16865dc415ac2ffa1975808b3f6bbc
-workflow-type: ht
-source-wordcount: '354'
+translation-type: tm+mt
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '346'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Descubra los pasos clave para diseñar mensajes omnicanal con Adobe Campaign.
 
 Antes de empezar a diseñar correos electrónicos, conozca los conceptos y las prácticas recomendadas relacionadas con el diseño de la entrega y envío con Adobe Campaign.
 
-[Haga clic aquí para obtener más información](https://helpx.adobe.com/es/campaign/kb/delivery-best-practices.html).
+[Haga clic aquí para obtener más información](../../delivery/using/delivery-best-practices.md).
 
 ## ¿Qué es una plantilla de envíos?{#what-is-a-delivery-template-}
 
