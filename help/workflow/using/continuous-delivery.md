@@ -14,8 +14,11 @@ discoiquuid: 9d80be19-8dde-4278-ab5f-23f364fe422e
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+translation-type: tm+mt
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 66%
 
 ---
 
@@ -39,7 +42,7 @@ Esta opción no procesa los errores relacionados con la configuración de la act
 
 Cada evento entrante debe especificar un objetivo definido por estos parámetros.
 
-Solamente cuando la opción **[!UICONTROL Specified by the inbound event]** está seleccionada.
+Only when the **[!UICONTROL Specified by the inbound event]** option is selected.
 
 ## Parámetros de salida {#output-parameters}
 
@@ -50,3 +53,17 @@ Solamente cuando la opción **[!UICONTROL Specified by the inbound event]** est�
 Este conjunto de tres valores identifica el objetivo resultante de la entrega sobre la marcha. **[!UICONTROL tableName]** es el nombre de la tabla que memoriza los identificadores del objetivo, **[!UICONTROL schema]** es el esquema de la población (normalmente nms:recipient) y **[!UICONTROL recCount]** es el número de elementos de la tabla.
 
 La transición asociada al complemento tiene los mismos parámetros.
+
+## Cómo configurar un envío continuo
+
+En esta sección se explica cómo configurar un envío continuo.
+
+The **continuous delivery** lets you add new recipients to an existing delivery and avoids you having to create a new delivery each time a new recipient is added. Puede actualizar el elemento creativo directamente en el flujo de trabajo de campaña y lo hará en la carpeta Recurso de Plantilla de envíos.
+
+Un envío continuo creará un envío ÚNICO y registros de envío (wideLog) y registros de seguimiento que hacen referencia a que se agrega un envío cada vez que se ejecuta.
+
+![Envío continuo](assets/delivery_continuous.jpg)
+
+Este vídeo muestra cómo configurar un envío continuo con una consulta incremental.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
