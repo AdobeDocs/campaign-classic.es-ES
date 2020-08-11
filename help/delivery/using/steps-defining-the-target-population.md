@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffbbe95247f28115f7e46eb0e94f2612fb4ea93
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
 workflow-type: tm+mt
-source-wordcount: '1527'
-ht-degree: 93%
+source-wordcount: '1573'
+ht-degree: 91%
 
 ---
 
@@ -229,3 +229,15 @@ Se pueden utilizar **[!UICONTROL Seed addresses]** como destinatario de las prue
 >Las direcciones semilla se presentan en [Acerca de las direcciones semilla](../../delivery/using/about-seed-addresses.md).
 
 Se puede combinar la definición de un destinatario de prueba específico y el uso de direcciones semilla con la opción **[!UICONTROL Specific target and Seed addresses]**. Las configuraciones relacionadas se definen en dos subpestañas independientes.
+
+## Cómo administrar semillas y pruebas en un correo electrónico
+
+En este vídeo aprenderá a añadir semillas y pruebas a un correo electrónico existente y a enviarlo.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
+Consulte también:
+* [Selección del destino de la prueba](#selecting-the-proof-target)
+
+* [Acerca de las direcciones de semillas](../../delivery/using/about-seed-addresses.md)
+
+* [Ejemplo de uso: selección de direcciones semilla según ciertos criterios](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
