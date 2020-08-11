@@ -5,9 +5,9 @@ index: y
 product: adobe campaign
 sub-product: Adobe Campaign Classic
 translation-type: tm+mt
-source-git-commit: b19a8e477b4419a369fa257b4629f4a01f0b0400
+source-git-commit: 5e6ecd636ee0b2199808c03b2fd898a194f0c1ea
 workflow-type: tm+mt
-source-wordcount: '2097'
+source-wordcount: '2110'
 ht-degree: 99%
 
 ---
@@ -89,13 +89,17 @@ ht-degree: 99%
       + [Conectores CRM](platform/using/crm-connectors.md)
       + [Conectores de datos de Adobe Analytics](platform/using/adobe-analytics-data-connector.md)
 + Envío de mensajes {#sending-messages}
-   + Get started with messages {#about-deliveries-and-channels}
-      + [Canales de comunicación](delivery/using/communication-channels.md)
-      + [Prácticas recomendadas relacionadas con las entregas](delivery/using/delivery-best-practices.md)
-      + [Acceso a la información de las entregas](delivery/using/accessing-deliveries-information.md)
-      + [Tipos de entregas](delivery/using/types-of-deliveries.md)
+   + [Introducción a los mensajes](delivery/using/communication-channels.md)
+   + Prácticas recomendadas relacionadas con las entregas {#delivery-bestpractices}
+      + [Conozca las prácticas recomendadas](delivery/using/delivery-best-practices.md)
+      + [Optimización del envío](delivery/using/optimize-delivery.md)
+      + [Uso de plantillas](delivery/using/use-templates.md)
+      + [Creación de contenido personalizado](delivery/using/design-and-personalize.md)
+      + [Definir la audiencia correcta](delivery/using/define-the-right-audience.md)
+      + [Comprobar antes de enviar](delivery/using/check-before-sending.md)
+      + [Seguimiento y monitorización](delivery/using/track-and-monitor.md)
    + Pasos clave al crear una entrega {#key-steps-when-creating-a-delivery}
-      + [Acerca de la creación de entregas ](delivery/using/steps-about-delivery-creation-steps.md)
+      + [Introducción a los envíos](delivery/using/steps-about-delivery-creation-steps.md)
       + [Creación e identificación de la entrega](delivery/using/steps-create-and-identify-the-delivery.md)
       + [Definición de la población objetivo](delivery/using/steps-defining-the-target-population.md)
       + [Validación de la entrega](delivery/using/steps-validating-the-delivery.md)
