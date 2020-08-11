@@ -15,14 +15,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '1122'
+ht-degree: 1%
 
 ---
 
 
 # Actualización{#upgrading}
 
-Antes de iniciar el proceso de actualización, determine y confirme a qué versión de Adobe Campaign se va a actualizar y consulte las [Notas](https://docs.campaign.adobe.com/doc/AC/en/RN.html)de la versión.
+Antes de iniciar el proceso de actualización, determine y confirme a qué versión de Adobe Campaign se va a actualizar y consulte las [Notas](../../rn/using/latest-release.md) de la versión.
 
 >[!CAUTION]
 >
@@ -31,7 +34,7 @@ Antes de iniciar el proceso de actualización, determine y confirme a qué versi
 
 >[!NOTE]
 >
->Consulte también la guía [de](../../installation/using/general-architecture.md) instalación y la introducción de la actualización [de la](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) compilación.
+>Consulte también la guía [de](../../installation/using/general-architecture.md) instalación y la introducción de la actualización [de la](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) compilación.
 
 ## En Windows {#in-windows}
 
@@ -67,15 +70,15 @@ Para reemplazar todos los archivos con la nueva versión, debe cerrar todas las 
    No tasks
    ```
 
-   Puede utilizar el Administrador de tareas de Windows para asegurarse de que se detienen todos los procesos.
+   Puede utilizar el Administrador de Tareas de Windows para asegurarse de que se detienen todos los procesos.
 
-### Actualización de la aplicación de servidor de Adobe Campaign {#upgrade-the-adobe-campaign-server-application}
+### Actualización de la aplicación de servidor Adobe Campaign {#upgrade-the-adobe-campaign-server-application}
 
 Para ejecutar el archivo de actualización, siga los pasos siguientes:
 
 1. Ejecute **setup.exe**.
 
-   Para descargar este archivo, vaya a la página de asistencia técnica de Adobe Campaign ( [https://support.neolane.net/](https://support.neolane.net/)) a través del vínculo del centro **de** descargas.
+   Para descargar este archivo, vaya a la página de asistencia técnica de Adobe Campaign ( [https://support.neolane.net/](https://support.neolane.net/)) a través del vínculo **Centro** de descargas.
 
 1. Seleccione el modo de instalación: elegir **[!UICONTROL Update or repair]**
 1. Haga clic **[!UICONTROL Next]** .
@@ -109,9 +112,9 @@ Los servicios que se reiniciarán son:
 
 * Servicios Web (IIS):
 
-   **iisreset /start**
+   **iisreset /inicio**
 
-* Servicio Adobe Campaign: nlserver **net start6**
+* Servicio Adobe Campaign: **net inicio nlserver6**
 
 ## En Linux {#in-linux}
 
@@ -129,7 +132,7 @@ Para saber cómo actualizar la consola de cliente, consulte [esta sección](../.
 
 ### Obtener paquetes actualizados {#obtain-updated-packages}
 
-Comience recuperando los dos paquetes actualizados de Adobe Campaign: vaya a la página de asistencia técnica de Adobe Campaign ( [https://support.neolane.net/](https://support.neolane.net/)) a través del vínculo del centro **de** descargas.
+Inicio recuperando los dos paquetes actualizados de Adobe Campaign: vaya a la página de asistencia técnica de Adobe Campaign ( [https://support.neolane.net/](https://support.neolane.net/)) a través del vínculo **Centro** de descargas.
 
 El archivo es **nlserver6-v7-XXX.rpm**
 
@@ -178,6 +181,7 @@ Para ello, ejecute el siguiente comando:
 >* Es posible que la secuencia de comandos se llame **httpd** en lugar de **apache**.
 >* DEBE ejecutar este comando hasta que obtenga la siguiente respuesta:
    >Esta operación es necesaria para que Apache aplique la nueva biblioteca.
+
 >
 
 
@@ -192,11 +196,11 @@ A continuación, reinicie Apache:
 
 Durante la sincronización de recursos, el comando **postupgrade** permite detectar si la sincronización ha generado errores o advertencias.
 
-### Ver el resultado de la sincronización {#view-the-synchronization-result}
+### Vista del resultado de sincronización {#view-the-synchronization-result}
 
 Existen dos formas de ver el resultado de la sincronización:
 
-* En la interfaz de la línea de comandos, los errores se materializan con un triple elemento **>>>** y la sincronización se detiene automáticamente. Las advertencias son materializadas por un doble elemento **>>** y deben resolverse una vez que se complete la sincronización. Al final de la posactualización, se muestra un resumen en el símbolo del sistema. Puede tener este aspecto:
+* En la interfaz de la línea de comandos, los errores se materializan con un triple elemento **>>>** y la sincronización se detiene automáticamente. Las advertencias son materializadas por un doble chevron **>>** y deben resolverse una vez finalizada la sincronización. Al final de la posactualización, se muestra un resumen en el símbolo del sistema. Puede tener este aspecto:
 
    ```
    2013-04-09 07:48:39.749Z 00002E7A 1 info log =========Summary of the update==========
@@ -221,7 +225,7 @@ Para resolver conflictos, aplique el siguiente proceso:
 Existen tres maneras de resolver un conflicto:
 
 * **[!UICONTROL Declare as resolved]** :: requiere la intervención previa del usuario.
-* **[!UICONTROL Accept the new version]** :: se recomienda si el usuario no ha cambiado los recursos proporcionados con Adobe Campaign.
+* **[!UICONTROL Accept the new version]** :: recomendado si el usuario no ha cambiado los recursos proporcionados con Adobe Campaign.
 * **[!UICONTROL Keep the current version]** :: significa que se rechaza la actualización.
 
    >[!CAUTION]
@@ -238,7 +242,7 @@ Si ha elegido resolver el conflicto manualmente, siga este procedimiento:
 
    ![](assets/s_ncs_production_conflict003.png)
 
-1. Vaya al conflicto que ha resuelto. Haga clic en el **[!UICONTROL Actions]** icono y seleccione **[!UICONTROL Declare as resolved]** .
+1. Vaya al conflicto que ha resuelto. Click the **[!UICONTROL Actions]** icon and select **[!UICONTROL Declare as resolved]** .
 1. Guarde los cambios: el conflicto ya está resuelto.
 
 ### Prácticas recomendadas {#best-practices}
@@ -251,13 +255,13 @@ Por ejemplo, una base de datos Unicode no sólo debe autorizar el almacenamiento
 
 ### En Windows {#in-windows-1}
 
-En el equipo en el que está instalado el servidor de aplicaciones de Adobe Campaign (**servidor web** nlserver), descargue y copie el archivo
+En el equipo en el que está instalado el servidor de aplicaciones (**nlserver web**) de Adobe Campaign, descargue y copie el archivo
 
 **setup-client-6.** XXXX **.exe**
 
 en **[path de la aplicación]**datakitnlongjsp
 
-La próxima vez que se conecten las consolas de cliente, una ventana informará a los usuarios sobre la disponibilidad de una actualización y les ofrecerá la posibilidad de descargarla e instalarla.
+La próxima vez que se conecten las consolas de cliente, una ventana informará a los usuarios sobre la disponibilidad de una actualización y les oferta la posibilidad de descargarlas e instalarlas.
 
 >[!NOTE]
 >
@@ -265,7 +269,7 @@ La próxima vez que se conecten las consolas de cliente, una ventana informará 
 
 ### En Linux {#in-linux-1}
 
-En el equipo en el que está instalado el servidor de aplicaciones de Adobe Campaign (**servidor web** nlserver), recupere el siguiente paquete:
+En el equipo en el que está instalado el servidor de aplicaciones de Adobe Campaign (**servidor Web**), recupere el siguiente paquete:
 
 **setup-client-6.** XXXX **.exe**
 
@@ -275,7 +279,7 @@ y cópiela, guardando como **/usr/local/neolane/nl6/datakit/nl/eng/jsp**:
  cp setup-client-6.XXXX.exe /usr/local/neolane/nl6/datakit/nl/eng/jsp
 ```
 
-La próxima vez que se conecten las consolas de cliente, una ventana informará a los usuarios sobre la disponibilidad de una actualización y les ofrecerá la posibilidad de descargarla e instalarla.
+La próxima vez que se conecten las consolas de cliente, una ventana informará a los usuarios sobre la disponibilidad de una actualización y les oferta la posibilidad de descargarlas e instalarlas.
 
 >[!NOTE]
 >
