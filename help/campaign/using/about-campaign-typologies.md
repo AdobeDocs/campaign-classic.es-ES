@@ -14,11 +14,11 @@ discoiquuid: 72c5151c-ce1e-425a-9aee-beefe9f21a67
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e97183256ef6d3f2068dd0fbc8eb3c3f32e0bae0
-workflow-type: ht
-source-wordcount: '367'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '479'
+ht-degree: 77%
 
 ---
 
@@ -69,6 +69,22 @@ A continuación se enumeran los pasos para crear y aplicar una tipología a las 
 
 Durante la preparación de la entrega, los destinatarios se excluyen cuando se cumple el criterio. Puede comprobar los registros para controlar las exclusiones. En [esta página](../../campaign/using/pressure-rules.md#use-cases-on-pressure-rules) se encuentran disponibles ejemplos de uso de las reglas de tipología de presión.
 
+## Cómo configurar la gestión de la fatiga mediante reglas de tipología
+
+En este vídeo se explica cómo implementar la administración de fatiga en Adobe Campaign Classic mediante reglas de tipología.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12)
+
+## Cómo configurar la gestión de la fatiga mediante filtros predefinidos
+
+La gestión de la fatiga controla la frecuencia y la cantidad de mensajes para evitar el exceso de solicitudes de destinatarios. Si no tiene el módulo de optimización de campaña en la instancia de campaña, puede configurar un filtro predefinido que filtrará la población de destinatarios por el número de mensajes recibidosEn este vídeo se explica cómo implementar la administración de fatiga en Adobe Campaign Classic mediante filtros.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12)
+
 **Temas relacionados**
 
 * [Aplicar reglas comerciales automáticas a las entregas en cualquier canal](https://helpx.adobe.com/es/campaign/kb/simplifying-campaign-management-acc.html#Applyautomaticbusinessrulestodeliveriesonanychannel)
+
+* [Acerca de las tipologías de campaña](../../campaign/using/pressure-rules.md)
+
+* [Administración de la fatiga de mercadotecnia con reglas de presión](https://docs.adobe.com/content/help/en/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)
