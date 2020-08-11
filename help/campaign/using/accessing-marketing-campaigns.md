@@ -14,8 +14,11 @@ discoiquuid: 8e7eb53c-bbe2-4bd4-8581-c2a63a3dc84e
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
+translation-type: tm+mt
+source-git-commit: 63f07746d39fff22a98b3cd4ab7f2294da778ab3
+workflow-type: tm+mt
+source-wordcount: '1049'
+ht-degree: 98%
 
 ---
 
@@ -47,7 +50,7 @@ El bloque de navegación del entorno **[!UICONTROL Campaigns]** ofrece varias en
 >
 >Para obtener más información sobre el funcionamiento general de Adobe Campaign, los permisos y las funcionalidades de administración de perfiles, consulte [esta sección](../../platform/using/adobe-campaign-workspace.md).
 >
->En [esta sección](../../delivery/using/communication-channels.md) se describen todas las funcionalidades relacionadas con canales y envíos.
+>En [esta sección](../../delivery/using/steps-about-delivery-creation-steps.md) se describen todas las funcionalidades relacionadas con canales y envíos.
 
 ### Calendario de campañas {#campaign-calendar}
 
@@ -156,7 +159,7 @@ Las campañas se crean mediante plantillas de campaña. Puede configurar plantil
 
 >[!NOTE]
 >
->Para acceder a las configuraciones de campaña y realizar cambios, en la pestaña **[!UICONTROL Edit]**, haga clic en el vínculo **[!UICONTROL Advanced campaign parameters...]**. Para obtener más información sobre la configuración de parámetros en el nivel de campaña para que los envíos hereden valores automáticamente, consulte [nuestra nota técnica](https://helpx.adobe.com/es/campaign/kb/simplifying-campaign-management-acc.html#Setparametersatthecampaignlevelsodeliveriesinheritvaluesautomatically).
+>To access the campaign configurations and make changes to them, click the **[!UICONTROL Advanced campaign parameters...]** link in the **[!UICONTROL Edit]** tab. Para obtener más información sobre la configuración de parámetros en el nivel de campaña para que los envíos hereden valores automáticamente, consulte [nuestra nota técnica](https://helpx.adobe.com/es/campaign/kb/simplifying-campaign-management-acc.html#Setparametersatthecampaignlevelsodeliveriesinheritvaluesautomatically).
 
 ## Uso de la interfaz web {#using-the-web-interface-}
 
