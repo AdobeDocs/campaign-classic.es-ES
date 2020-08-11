@@ -14,15 +14,18 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
+translation-type: tm+mt
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '1146'
+ht-degree: 94%
 
 ---
 
 
 # Plantillas de campañas de marketing {#campaign-templates}
 
-Las plantillas de campaña están centralizadas en el nodo **[!UICONTROL Resources > Templates > Campaign templates]**. Se proporciona una plantilla predeterminada como estándar. Permite crear una nueva campaña utilizando todos los módulos disponibles (documentos, tareas, direcciones semilla, etc.); sin embargo, los módulos ofrecidos dependen de los derechos y de la configuración de la plataforma de Adobe Campaign.
+Campaign templates are centralized in the **[!UICONTROL Resources > Templates > Campaign templates]** node. Se proporciona una plantilla predeterminada como estándar. Permite crear una nueva campaña utilizando todos los módulos disponibles (documentos, tareas, direcciones semilla, etc.); sin embargo, los módulos ofrecidos dependen de los derechos y de la configuración de la plataforma de Adobe Campaign.
 
 ## Creación o duplicación de una plantilla de campaña {#creating-or-duplicating-a-campaign-template}
 
@@ -74,13 +77,13 @@ Se proporciona una plantilla predeterminada para crear una campaña sin ninguna 
 
 La creación y la configuración de las plantillas de campaña se muestran en [Plantillas de campaña](#campaign-templates).
 
-Para obtener más información sobre la creación de campañas, consulte el vídeo [Creación de una campaña y un correo electrónico](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html).
+Para obtener más información sobre la creación de campañas, consulte el vídeo [Creación de una campaña y un correo electrónico](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/email-channel/creating-a-campaign-and-an-email.html).
 
 ## Configuración de los módulos disponibles {#configuration-of-the-available-modules}
 
 ### Selección de módulos {#module-selection}
 
-El vínculo **[!UICONTROL Advanced campaign settings...]** permite habilitar y deshabilitar los trabajos de las campañas en función de esta plantilla. Seleccione las funciones que desee habilitar en las campañas creadas en función de esta plantilla.
+The **[!UICONTROL Advanced campaign settings...]** link lets you enable and disable jobs for the campaigns based on this template. Seleccione las funciones que desee habilitar en las campañas creadas en función de esta plantilla.
 
 ![](assets/s_ncs_user_op_template_tab1.3.png)
 
@@ -186,7 +189,7 @@ Cuando crea una plantilla de campaña, debe introducir la siguiente información
 
 ### Parámetros de ejecución de plantilla {#template-execution-parameters}
 
-El vínculo **[!UICONTROL Advanced campaign settings...]** permite configurar las opciones avanzadas de la plantilla para procesar el destinatario de la entrega (grupo de control, direcciones semilla, etc.) y la configuración de la medición de campañas y la ejecución del flujo de trabajo.
+The **[!UICONTROL Advanced campaign settings...]** link lets you configure the advanced options of the template for processing the delivery target (control group, seed addresses, etc.) y la configuración de la medición de campañas y la ejecución del flujo de trabajo.
 
 ![](assets/s_ncs_user_op_template_tab1.2.png)
 
@@ -194,7 +197,7 @@ El vínculo **[!UICONTROL Advanced campaign settings...]** permite configurar la
 
 Puede crear una programación inversa para una campaña, como por ejemplo para preparar un evento cuya fecha se conoce de antemano. Las plantillas de campaña ahora le permiten calcular la fecha de inicio de una tarea según la fecha de finalización de una campaña.
 
-En el cuadro de configuración de la tarea, vaya al área **[!UICONTROL Implementation schedule]** y marque la casilla **[!UICONTROL The start date is calculated based on the campaign end date]**. (en este caso, “fecha de inicio” es la fecha de inicio de la tarea). Vaya al campo **[!UICONTROL Start]** e introduzca un intervalo: la tarea comienza antes de la fecha de finalización de la campaña. Si introduce un periodo más largo que el establecido para la campaña, la tarea comenzará antes de la campaña.
+En el cuadro de configuración de tarea, vaya al **[!UICONTROL Implementation schedule]** área y marque la **[!UICONTROL The start date is calculated based on the campaign end date]** casilla. (en este caso, “fecha de inicio” es la fecha de inicio de la tarea). Vaya al campo **[!UICONTROL Start]** e introduzca un intervalo: la tarea comienza antes de la fecha de finalización de la campaña. Si introduce un periodo más largo que el establecido para la campaña, la tarea comenzará antes de la campaña.
 
 ![](assets/mrm_task_in_template_start_date.png)
 
