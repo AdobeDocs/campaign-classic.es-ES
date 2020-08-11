@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fa9e4ddc716809b96e259acd1137a0c24ef68fee
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 72%
+source-wordcount: '884'
+ht-degree: 70%
 
 ---
 
@@ -79,7 +79,7 @@ Para ello, es necesario insertar los siguientes bloques personalizados:
 >Para obtener más información sobre la generación de páginas de reflejo, consulte [Generación de la página de reflejo](../../delivery/using/sending-messages.md#generating-the-mirror-page).
 
 1. Cree una nueva entrega o abra una entrega de tipo correo electrónico ya existente.
-1. En el asistente de envío, haga clic en **[!UICONTROL Subject]** para editar el asunto del mensaje y escriba un asunto.
+1. En el asistente de envíos, haga clic en **[!UICONTROL Subject]** para editar el asunto del mensaje y escriba un asunto.
 1. Inserte los bloques personalizados en el cuerpo del mensaje. Para ello, haga clic en el contenido del mensaje, haga clic en el icono de campo personalizado y seleccione el menú **[!UICONTROL Include]**.
 1. Seleccione el primer bloque que desee insertar. Reinicie el procedimiento para incluir los otros dos bloques.
 
@@ -111,7 +111,7 @@ De forma predeterminada, hay disponibles una lista de bloques personalizados que
    >Para obtener más información sobre la generación de páginas de reflejo, consulte [Generación de la página de reflejo](../../delivery/using/sending-messages.md#generating-the-mirror-page).
 
 * **[!UICONTROL Link to mirror page]**: inserta un vínculo a la página espejo: &quot;Si no puede ver este mensaje correctamente, haga clic aquí&quot;.
-* **[!UICONTROL Unsubscription link]** :: inserta un vínculo que permite cancelar la suscripción de todos los envíos (lista de bloques).
+* **[!UICONTROL Unsubscription link]** :: inserta un vínculo que permite cancelar la suscripción de todos los envíos (lista de bloqueados).
 * **[!UICONTROL Formatting function for proper nouns]** :: genera la función **[!UICONTROL toSmartCase]** Javascript, que cambia la primera letra de cada palabra a mayúscula. Este bloque debe insertarse en el código fuente de la entrega, entre las etiquetas **`<script>...</script>`**.
 
    En el ejemplo siguiente, se utiliza la función para sustituir el elemento de “Encabezado” por “Nuevo encabezado” con letras mayúsculas en cada palabra:
@@ -158,4 +158,10 @@ Para crear un bloque personalizado, vaya al explorador y aplique los pasos sigui
 
       ![](assets/s_ncs_user_personalized_block_b.png)
 
-   * Introduzca el contenido (en HTML, texto, JavaScript, etc.) de los bloques de personalización y haga clic en **[!UICONTROL Save]** .
+   * Introduzca el contenido (en HTML, texto, JavaScript, etc.) de los bloques de personalización y haga clic en **[!UICONTROL Save]**.
+
+## Cómo personalizar correos electrónicos mediante bloques de contenido dinámico
+
+Descubra cómo se crearon los bloques de contenido dinámico y cómo se utilizan para personalizar el contenido de su envío de correo electrónico.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
