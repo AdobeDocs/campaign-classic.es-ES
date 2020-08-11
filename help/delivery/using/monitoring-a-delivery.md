@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51bbf50a1e9b00c25fca8e1e86ca21c314c18313
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
 workflow-type: tm+mt
-source-wordcount: '2597'
+source-wordcount: '2567'
 ht-degree: 97%
 
 ---
@@ -109,7 +109,7 @@ Si los resultados de la entrega son malos, puede comprobar:
 
 * **El tamaño de la entrega**: Las entregas grandes pueden tardar más en completarse. Los elementos MTA secundarios se configuran para gestionar un tamaño predeterminado que funciona con la mayoría de las instancias, pero es necesario comprobar si las entregas son constantemente lentos.
 * **El destinatario de la entrega**: El rendimiento de las entregas se puede ver afectado por errores de rechazos leves que se gestionan según la configuración de reintento. Cuanto mayor sea el número de errores, más necesarios son los reintentos de entrega.
-* **La carga de la plataforma general**: Cuando se envían varias entregas de gran tamaño, la plataforma general se puede ver afectada. También puede comprobar los problemas de reputación de la IP y de capacidad de entrega. Para obtener más información, consulte la [Guía de prácticas recomendadas de entrega](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html) de Adobe Campaign y [esta página](../../delivery/using/about-deliverability.md).
+* **La carga de la plataforma general**: Cuando se envían varias entregas de gran tamaño, la plataforma general se puede ver afectada. También puede comprobar los problemas de reputación de la IP y de capacidad de entrega. Para obtener más información, consulte la [Guía de prácticas recomendadas de entrega](../../delivery/using/deliverability-key-points.md) de Adobe Campaign y [esta página](../../delivery/using/about-deliverability.md).
 
 El mantenimiento de la plataforma y de la base de datos también puede afectar el rendimiento de las entregas. Para obtener más información, consulte [esta página](../../production/using/database-performances.md).
 
@@ -118,10 +118,10 @@ El mantenimiento de la plataforma y de la base de datos también puede afectar e
 Tras hacer clic en el botón **[!UICONTROL Send]**, la entrega parece tardar más de lo normal. Esto puede deberse a diferentes elementos:
 
 * Es posible que algunos proveedores de correo electrónico hayan agregado sus direcciones IP a una lista de bloqueados. In this case, check your broadlogs and consult [this section](../../delivery/using/about-deliverability.md).
-* Su entrega puede ser demasiado grande como para procesarlo rápidamente, como puede ser el caso de una alta personalización de JavaScript o si su entrega pesa más de 60 kB. Consulte las [prácticas recomendadas relacionadas con las entregas](https://helpx.adobe.com/es/campaign/kb/delivery-best-practices.html) de Adobe Campaign para obtener más información sobre las directrices de contenido.
+* Su entrega puede ser demasiado grande como para procesarlo rápidamente, como puede ser el caso de una alta personalización de JavaScript o si su entrega pesa más de 60 kB. Consulte las [prácticas recomendadas relacionadas con las entregas](../../delivery/using/delivery-best-practices.md) de Adobe Campaign para obtener más información sobre las directrices de contenido.
 * Es posible que se haya activado una restricción dentro del MTA de Adobe Campaign. Esto se debe a:
 
-   * Mensajes pendientes (mensaje **[!UICONTROL quotas met]**): se han cumplido las cuotas declaradas por las reglas de MX definidas en Campaign. Para obtener más información sobre este mensaje, consulte [esta página](https://helpx.adobe.com/es/campaign/kb/acc-deliverability-faq.html#FAQ). Para obtener más información sobre las reglas MX, consulte [esta página](../../delivery/using/technical-recommendations.md#mx-rules).
+   * Mensajes pendientes (mensaje **[!UICONTROL quotas met]**): se han cumplido las cuotas declaradas por las reglas de MX definidas en Campaign. Para obtener más información sobre este mensaje, consulte [esta página](../../delivery/using/deliverability-faq.md) . Para obtener más información sobre las reglas MX, consulte [esta página](../../delivery/using/technical-recommendations.md#mx-rules).
    * Messages pended (**[!UICONTROL dynamic flow control]** message): Campaign MTA has encountered errors when trying to deliver messages for a given ISP which causes a slowdown to avoid too big of an error density and thus facing potential block list.
 
 * Un problema del sistema puede impedir que los servidores interactúen: esto puede ralentizar todo el proceso de entrega. Compruebe los servidores para asegurarse de que no hay problemas de memoria o recursos que puedan afectar a Campaign en el proceso de obtención de los datos personalizados, por ejemplo.
@@ -203,7 +203,7 @@ Al realizar una entrega, es posible que aparezca el siguiente estado en su panel
  </tbody> 
 </table>
 
-Para aprender a optimizar la entrega de los correos electrónicos de Adobe Campaign, consulte la [Guía de prácticas recomendadas de entrega](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html) de Adobe Campaign y [esta página](../../delivery/using/about-deliverability.md).
+Para aprender a optimizar la entrega de los correos electrónicos de Adobe Campaign, consulte la [Guía de prácticas recomendadas de entrega](../../delivery/using/deliverability-key-points.md) de Adobe Campaign y [esta página](../../delivery/using/about-deliverability.md).
 
 ### Estado pendiente {#pending-status}
 
