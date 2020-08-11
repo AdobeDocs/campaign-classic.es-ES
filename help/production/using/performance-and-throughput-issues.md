@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0386ae88a1b4d9ebda64283d874e01b14e9e5af4
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 9%
+source-wordcount: '691'
+ht-degree: 7%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->En primer lugar, debe comprobar que tiene instalada la última compilación. Esto garantiza que dispone de las últimas funciones y correcciones de errores. Consulte las [Notas](https://docs.campaign.adobe.com/doc/AC/es/RN.html) de la versión para obtener más información sobre el contenido de cada versión.
+>En primer lugar, debe comprobar que tiene instalada la última compilación. Esto garantiza que dispone de las últimas funciones y correcciones de errores. Consulte las [Notas](../../rn/using/latest-release.md) de la versión para obtener más información sobre el contenido de cada versión.
 
 ## Hardware e infraestructura {#hardware-and-infrastructure}
 
@@ -45,7 +45,7 @@ Adobe Campaign también proporciona una [herramienta](../../production/using/mon
 
 La mayoría de las veces, los problemas de rendimiento están vinculados al mantenimiento de la base de datos. Estos son los elementos principales para comprobar:
 
-* Configuración: recomendamos comprobar la configuración inicial de la plataforma de Adobe Campaign y ejecutar una comprobación completa de hardware.
+* Configuración: recomendamos comprobar la configuración inicial de la plataforma Adobe Campaign y ejecutar una comprobación completa de hardware.
 * Instalación y configuración de la plataforma Adobe Campaign: compruebe las opciones de configuración de red y de entrega de plataforma.
 * Mantenimiento de la base de datos: asegúrese de que la tarea de limpieza de la base de datos está en funcionamiento y de que el mantenimiento de la base de datos está correctamente programado y ejecutado. Compruebe el número y el tamaño de las tablas de trabajo.
 * Diagnóstico en tiempo real: compruebe el proceso y los archivos de registro de la plataforma y, a continuación, supervise la actividad de la base de datos mientras vuelve a crear el problema.
@@ -75,5 +75,5 @@ A continuación se muestra una lista de las prácticas recomendadas y los artíc
 
 >[!NOTE]
 >
->No olvide consultar la guía de introducción a [la entrega](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html) .
+>Consulte también la sección Puntos [clave de](../../delivery/using/deliverability-key-points.md) entrega.
 
