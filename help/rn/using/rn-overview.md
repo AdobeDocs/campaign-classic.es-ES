@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 99dfefe3f51115b78bfeb02094d614a6e63af124
+source-git-commit: 27a72257904ff356b1a341c29f9a1ab3ccb20dd2
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 97%
+source-wordcount: '439'
+ht-degree: 96%
 
 ---
 
@@ -49,7 +49,7 @@ La **última compilación estable** es Gold Standard 6. Haga clic [aquí](../../
 
 Como cliente alojado (servicio administrado o híbrido), debe ponerse en contacto con el equipo de servicio de atención al cliente para que se actualice su entorno.
 
-Como usuario de Gold Standard, se beneficiará automáticamente de la actualización de Gold Standard con la última versión estable sin ninguna acción. [Más información](https://helpx.adobe.com/es/campaign/kb/gold-standard.html)
+Como usuario de Gold Standard, se beneficiará automáticamente de la actualización de Gold Standard con la última versión estable sin ninguna acción. [Más información](https://helpx.adobe.com/campaign/kb/gold-standard.html#gs-6)
 
 Como usuario local, puede realizar la actualización. Para ello, debe [descargar la última versión estable](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) y actualizar todos sus entornos. Obtenga más información sobre el [proceso de actualización](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) y consulte las [preguntas frecuentes sobre la actualización de la compilación](https://helpx.adobe.com/es/campaign/kb/build-upgrade-faq.html).
 
