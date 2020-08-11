@@ -14,11 +14,11 @@ discoiquuid: 27c8e443-ee6b-4d58-bc2d-81cf8391c5de
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e9e9b1352706e15a0d0c6ff8921e430524a44b13
-workflow-type: ht
-source-wordcount: '843'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '868'
+ht-degree: 97%
 
 ---
 
@@ -123,3 +123,9 @@ Durante la vista previa o la entrega, si la fase de personalización supera el t
 El valor predeterminado es 5 segundos.
 
 Si establece esta opción en 0, no va a haber límite de tiempo para la fase de personalización.
+
+## Cómo personalizar correos electrónicos mediante campos de personalización
+
+Obtenga información sobre cómo agregar un campo de personalización a la línea de asunto y el contenido de un envío de correo electrónico.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
