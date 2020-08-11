@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 41c515008a12fa066cedc9d7125195e2c4776f40
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '710'
 ht-degree: 9%
 
 ---
@@ -37,7 +37,7 @@ Encontrará información detallada [aquí](../../production/using/monitoring-pro
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">Monitorear su instancia</a></p></td>
-<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">flujos de trabajo de monitor</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">Flujos de trabajo de monitor</a></p></td>
 <td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">Supervise los envíos</a></p></td>
 <td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">Monitorear la base de datos</a></p></td></tr>
 </table>
@@ -62,7 +62,7 @@ El Panel de control de Campaign le permite administrar varias configuraciones de
 
 >[!NOTE]
 >
->Tenga en cuenta que el Panel de control de Campaign solo está disponible para los usuarios administradores y para todos los clientes que utilicen Adobes Managed Services.
+>Tenga en cuenta que el Panel de control de Campaign solo está disponible para los usuarios administradores y para todos los clientes que utilicen los servicios gestionados de Adobe.
 
 ### Monitorización de flujos de trabajo {#monitoring-workflows}
 
@@ -76,7 +76,7 @@ El mapa de calor del flujo de trabajo proporciona una representación visual de 
 
 La pista de auditoría permite visualizar todas las modificaciones realizadas en flujos de trabajo, así como sus estados actuales. [Haga clic aquí](../../production/using/audit-trail.md).
 
-**Solución de problemas de Flujos de trabajo**
+**Solución de problemas de flujos de trabajo**
 
 Se pueden realizar acciones específicas al encontrar problemas con la ejecución de un flujo de trabajo. [Haga clic aquí](../../production/using/workflow-execution.md) para obtener más información
 
@@ -96,16 +96,16 @@ Las siguientes directrices y prácticas recomendadas al usar flujos de trabajo p
 
 **Informes SMTP**
 
-Los informes SMTP muestran estadísticas de envío y errores SMTP por dominio. [Haga clic aquí](../../production/using/monitoring-processes.md) para obtener más información.
+Los informes SMTP muestran estadísticas de envío y errores SMTP por dominio. [Más información](../../production/using/monitoring-processes.md)
 
 **Prácticas recomendadas**
 
-[Las prácticas recomendadas para enviar y diseñar](http://helpx.adobe.com/es/campaign/kb/delivery-best-practices.html) envíos pueden ayudarle a mejorar su rendimiento.
+[Las prácticas recomendadas para enviar y diseñar](../../delivery/using/delivery-best-practices.md) envíos pueden ayudarle a mejorar su rendimiento.
 
-**Solución de problemas** de Envío Se pueden realizar acciones específicas al encontrar problemas con envíos:
+**Solución de problemas** de envío Se pueden realizar acciones específicas al encontrar problemas con envíos:
 * [Problemas de capacidad de entrega](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [Problemas de visualización de imágenes](../../production/using/image-display-issues.md)
-* [Problemas de rendimiento de Envío](../../delivery/using/monitoring-a-delivery.md#performance_issues)
+* [Problemas de rendimiento de envío](../../delivery/using/monitoring-a-delivery.md#performance_issues)
 * [Problemas](../../production/using/temporary-files.md) de archivos temporales: solo modelos de alojamiento *in situ*
 
 ### Supervisión de la base de datos {#monitoring-database}
@@ -156,5 +156,5 @@ Los recursos técnicos están disponibles en la documentación del Campaign Clas
 * [Módulos Campaign Classic](../../production/using/operating-principle.md)
 * [Opciones de Campaign Classic](../../installation/using/configuring-campaign-options.md)
 * [Cómo configurar el inicio automático de los módulos](../../production/using/administration.md)
-* [Principio de configuración de Campaña](../../production/using/configuration-principle.md)
+* [Principio de configuración de campaña](../../production/using/configuration-principle.md)
 * [Procedimientos de resolución de problemas](../../production/using/performance-and-throughput-issues.md)
