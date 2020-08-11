@@ -14,9 +14,9 @@ discoiquuid: a2b43311-737c-4a3b-a6af-1788879f9414
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3b04cf988f144b8bfb846aff83e97c9b3a82e6e0
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 63f07746d39fff22a98b3cd4ab7f2294da778ab3
+workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 100%
 
@@ -77,7 +77,7 @@ Adobe Campaign ofrece un conjunto de funcionalidades que le ayudarán a implemen
 
 Estas son las funcionalidades disponibles. Según el acuerdo de licencia, algunas de estas funcionalidades pueden estar disponibles o no.
 
-* [Canales](../../delivery/using/communication-channels.md): Diseñe y envíe contenido a través de varios canales, como por correo electrónico, SMS, Line, aplicaciones móviles, correo postal, etc.
+* [Canales](../../delivery/using/steps-about-delivery-creation-steps.md): Diseñe y envíe contenido a través de varios canales, como por correo electrónico, SMS, Line, aplicaciones móviles, correo postal, etc.
 * [Campañas](../../campaign/using/designing-marketing-campaigns.md): Organice campañas multicanal.
 * [MRM](../../campaign/using/about-marketing-resource-management.md): gestione recursos de marketing y presupuestos.
 * [Interacción](../../interaction/using/interaction-and-offer-management.md): Administre ofertas con Campaign.
