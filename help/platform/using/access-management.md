@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fef684cd20f9b210025b21d2bc6bdb209a929f7c
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
 workflow-type: tm+mt
-source-wordcount: '2961'
+source-wordcount: '2955'
 ht-degree: 95%
 
 ---
@@ -264,7 +264,7 @@ Los grupos de operadores predeterminados son:
 
    Este grupo contiene los siguientes derechos asignados:
 
-   * **[!UICONTROL INSERT FOLDERS]**:: derecho a insertar carpetas en el árbol de Adobes Campaign (siempre que tenga derechos de edición para las ramas correspondientes),
+   * **[!UICONTROL INSERT FOLDERS]**:: derecho a insertar carpetas en el árbol de Adobe Campaign (siempre que tenga derechos de edición para las ramas correspondientes),
    * **[!UICONTROL WORKFLOW]**:: derecho a usar flujos de trabajo.
 
    >[!NOTE]
@@ -296,7 +296,7 @@ Los grupos de operadores predeterminados son:
    Los operadores de este grupo pueden crear y mantener ofertas. Para obtener más información, consulte esta [página](../../interaction/using/operator-profiles.md).
 Este grupo contiene los siguientes derechos asignados:
 
-   * **[!UICONTROL INSERT FOLDERS]**:: Derecho a insertar carpetas en el árbol de Adobes Campaign (siempre que tenga derechos de edición para las ramas correspondientes),
+   * **[!UICONTROL INSERT FOLDERS]**:: Derecho a insertar carpetas en el árbol de Adobe Campaign (siempre que tenga derechos de edición para las ramas correspondientes),
    * **[!UICONTROL EDIT FOLDERS]**: Derecho a modificar propiedades de carpeta como nombre interno, etiqueta, imagen asociada, orden de subcarpeta, etc.
 
 ## Derechos asignados {#named-rights}
