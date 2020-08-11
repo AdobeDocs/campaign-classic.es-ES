@@ -12,11 +12,11 @@ discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4582ea496fff35c5b586049b8daa379464bd78fc
-workflow-type: ht
-source-wordcount: '574'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b14f5ecd2b06ed9f4cb49d8779b9f94ea4bcdddc
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 95%
 
 ---
 
@@ -71,3 +71,92 @@ En menor medida, el contenido de ciertos mensajes puede llevar a ciertos filtros
 ## Trabaje en su reputación {#reputation}
 
 Los remitentes de spam realizan entregas programadas para mantener su reputación con el tiempo. A veces necesitan adaptar su plan de mercadotecnia para cumplir con las mejores prácticas impuestas por los ISP y así, después de un pico de reputación (aumento), configuran entregas regulares.
+
+## Prácticas recomendadas {#best-practices}
+
+Conozca las prácticas recomendadas relacionadas con la capacidad de entrega con Adobe Campaign. Utilice los vínculos siguientes para navegar por los temas y encontrar instrucciones.
+
+<table>
+<tr>
+  <td>
+    <a href="starting-new-platform.md">
+      <img alt="Start" src="assets/do-not-localize/start.svg"/>
+    </a>
+    <div>
+      <a href="starting-new-platform.md">
+    <strong>Start</strong>
+    </a>
+    </div>
+    <p>
+    <em>Inicio de una nueva plataforma</em>
+    <p>
+  </td>
+   <td>
+    <a href="control-message-content.md">
+      <img alt="Diseño" src="assets/do-not-localize/design.svg"/>
+    </a>
+    <div>
+      <a href="control-message-content.md">
+    <strong>Diseño</strong>
+    </a>
+    </div>
+    <p>
+    <em>Contenido de mensajes de control</em>
+    <p>
+  </td>
+  <td>
+    <a href="improve-reputation.md">
+      <img alt="Diseño" src="assets/do-not-localize/check.svg"/>
+    </a>
+    <div>
+      <a href="improve-reputation.md">
+    <strong>Envíos</strong>
+    </a>
+    </div>
+    <p>
+    <em>Mejore su reputación</em>
+    <p>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a href="technical-recommendations.md">
+      <img alt="Optimizar" src="assets/do-not-localize/optimize.svg"/>
+    </a>
+    <div>
+      <a href="technical-recommendations.md">
+    <strong>Optimizar</strong>
+    </a>
+    </div>
+    <p>
+    <em>Recomendaciones técnicas</em>
+    <p>
+  </td>
+   <td>
+    <a href="monitoring-deliverability.md">
+      <img alt="Marque" src="assets/do-not-localize/monitor.svg"/>
+    </a>
+    <div>
+      <a href="monitoring-deliverability.md">
+    <strong>Monitor</strong>
+    </a>
+    </div>
+    <p>
+    <em>Herramientas de monitorización</em>
+    <p>
+  </td>
+  <td>
+    <a href="deliverability-faq.md">
+      <img alt="Optimizar" src="assets/do-not-localize/troubleshoot.svg"/>
+    </a>
+    <div>
+      <a href="deliverability-faq.md">
+    <strong>Resolución de problemas</strong>
+    </a>
+    </div>
+    <p>
+    <em>Solución de problemas</em>
+    <p>
+  </td>
+</tr>
+</table>
