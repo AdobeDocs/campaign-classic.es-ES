@@ -14,11 +14,11 @@ discoiquuid: 42867665-d0ca-486e-9110-91716c0d5c57
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a6b15dd1be6bb53b7a757d7fe1333314df9693a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2462'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,11 +38,11 @@ El principio de los **paquetes de datos** es exportar una configuración de dato
 Existen tres tipos de paquetes exportables: paquetes de usuario, paquetes de plataforma y paquetes de administrador.
 
 * **Paquete de usuario**: permite seleccionar la lista de entidades que se va a exportar. Este tipo de paquete administra dependencias y verifica errores.
-* **Paquete** Platform: incluye todos los recursos técnicos añadidos (no estándar): esquemas, código JavaScript, etc.
+* **Paquete de plataforma**: incluye todos los recursos técnicos añadidos (no estándar): esquemas, código JavaScript, etc.
 
    ![](assets/ncs_datapackage_package_platform.png)
 
-* **Paquete** de administración: incluye todas las plantillas y objetos comerciales agregados (no estándar): plantillas, bibliotecas, etc.
+* **Paquete de administrador**: incluye todas las plantillas y objetos empresariales añadidos (no estándar): plantillas, bibliotecas, etc.
 
    ![](assets/ncs_datapackage_package_admin.png)
 
@@ -78,7 +78,7 @@ Un elemento **`<entities>`** contiene los datos del paquete en el formato del es
 
 Los datos de un paquete no deben contener claves internas que no sean compatibles con las bases, como las claves generadas automáticamente (opción **autopk**).
 
-En nuestro ejemplo, las uniones en los vínculos “carpeta” y “compañía” se han sustituido por teclas de “alto nivel” en las tablas de objetivo:
+En nuestro ejemplo, las uniones en los vínculos &quot;carpeta&quot; y &quot;compañía&quot; se han sustituido por teclas de &quot;alto nivel&quot; en las tablas de objetivo:
 
 ```
 <recipient>
@@ -87,9 +87,9 @@ En nuestro ejemplo, las uniones en los vínculos “carpeta” y “compañía�
 </recipient>
 ```
 
-El atributo **`operation`** con el valor “ninguno” define un vínculo de reconciliación.
+El atributo **`operation`** con el valor &quot;ninguno&quot; define un vínculo de reconciliación.
 
-Un paquete de datos puede crearse manualmente desde cualquier editor de texto. Asegúrese de que la estructura del documento XML cumple con el esquema de datos “xtk:navtree”. La consola de Adobe Campaign tiene un módulo de exportación e importación de paquete de datos.
+Un paquete de datos puede crearse manualmente desde cualquier editor de texto. Asegúrese de que la estructura del documento XML cumple con el esquema de datos &quot;xtk:navtree&quot;. La consola de Adobe Campaign tiene un módulo de exportación e importación de paquete de datos.
 
 ## Exportación de paquetes {#exporting-packages}
 
@@ -164,9 +164,9 @@ Este mecanismo se define por dos reglas:
 
 #### Exportación de una campaña {#exporting-a-campaign}
 
-Aquí se muestra un ejemplo sobre cómo exportar una campaña. La campaña de marketing que se va a exportar contiene una tarea (etiqueta: “MyTask”) y un flujo de trabajo (etiqueta: “CampaignWorkflow”) en una carpeta “MyWorkflow” (nodo: Administration / Production / Technical workflows / Campaign processes / MyWorkflow).
+Aquí se muestra un ejemplo sobre cómo exportar una campaña. La campaña de marketing que se va a exportar contiene una tarea (etiqueta: &quot;MyTask&quot;) y un flujo de trabajo (etiqueta: &quot;CampaignWorkflow&quot;) en una carpeta &quot;MyWorkflow&quot; (nodo: Administration / Production / Technical workflows / Campaign processes / MyWorkflow).
 
-La tarea y el flujo de trabajo se exportan en el mismo paquete que la campaña, ya que los esquemas coincidentes están conectados por vínculos con una integridad de tipo “own”.
+La tarea y el flujo de trabajo se exportan en el mismo paquete que la campaña, ya que los esquemas coincidentes están conectados por vínculos con una integridad de tipo &quot;own&quot;.
 
 Contenido del paquete:
 
@@ -315,7 +315,7 @@ Para exportar un paquete desde una definición de paquete, siga los pasos siguie
 
 Se puede acceder al asistente de importación de paquetes a través del menú principal **[!UICONTROL Tools > Advanced > Package import...]** de la consola del cliente de Adobe Campaign.
 
-You can import a package from an export performed earlier, e.g. from another Adobe Campaign instance, or a [built-in package](../../installation/using/installing-campaign-standard-packages.md), depending on the terms of your license.
+Se puede importar un paquete desde una exportación realizada anteriormente, por ejemplo, desde otra instancia de Adobe Campaign o un [paquete integrado](../../installation/using/installing-campaign-standard-packages.md), en función de los términos de la licencia.
 
 ![](assets/ncs_datapackage_import.png)
 
@@ -331,13 +331,13 @@ Haga clic en **[!UICONTROL Next]** y después en **[!UICONTROL Start]** para ini
 
 ![](assets/ncs_datapackage_import_2.png)
 
-### Installing a built-in package {#installing-a-standard-package}
+### Instalación de un paquete integrado {#installing-a-standard-package}
 
-Los paquetes estándar son paquetes integrados, instalados cuando se configura el Adobe Campaign. Dependiendo de los permisos y del modelo de implementación, puede importar nuevos paquetes estándar si adquiere nuevas opciones o complementos, o si actualiza a una oferta nueva.
+Los paquetes estándar son paquetes integrados y se instalan cuando se configura Adobe Campaign. Dependiendo de los permisos y del modelo de implementación, puede importar nuevos paquetes estándar si adquiere nuevas opciones o complementos, o si actualiza a una oferta nueva.
 
 Consulte el acuerdo de licencia para comprobar qué paquetes puede instalar.
 
-For more information on built-in packages, refer to [this page](../../installation/using/installing-campaign-standard-packages.md).
+Para obtener más información sobre paquetes integrados, consulte [esta sección](../../installation/using/installing-campaign-standard-packages.md).
 
 ## Prácticas recomendadas de paquete de datos {#data-package-best-practices}
 
@@ -456,7 +456,7 @@ El paquete de actualización solo debe contener una entidad específica para que
 
 #### Documentación del paquete {#package-documentation}
 
-Al actualizar un paquete, siempre debe colocar un comentario en el campo de descripción para detallar las modificaciones y motivos (por ejemplo, “añadir un nuevo esquema” o “corregir un defecto”).
+Al actualizar un paquete, siempre debe colocar un comentario en el campo de descripción para detallar las modificaciones y motivos (por ejemplo, &quot;añadir un nuevo esquema&quot; o &quot;corregir un defecto&quot;).
 
 ![](assets/ncs_datapackage_best-practices-2.png)
 
