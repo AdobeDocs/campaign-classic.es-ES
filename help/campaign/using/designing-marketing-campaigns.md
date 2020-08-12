@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 93%
+source-wordcount: '416'
+ht-degree: 100%
 
 ---
 
@@ -70,10 +70,3 @@ Los siguientes conceptos son esenciales para conocer mejor Campaign:
 
    Para obtener más información, consulte [Asociación y estructuración de recursos relacionados a través de un esquema de envío](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
-## Cómo crear un correo electrónico en una campaña
-
-En este vídeo se explica cómo crear una campaña y un correo electrónico en Adobe Campaign Classic.
-
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
-
-For more details, refer to [this section](../../campaign/using/marketing-campaign-deliveries.md)
