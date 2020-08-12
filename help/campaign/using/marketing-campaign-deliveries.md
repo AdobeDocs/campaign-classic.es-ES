@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '2928'
-ht-degree: 98%
+source-wordcount: '2956'
+ht-degree: 97%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 98%
 # Entregas de campañas de marketing {#marketing-campaign-deliveries}
 
 las entregas se pueden crear a través del panel de la campaña, un flujo de trabajo de la campaña o directamente a través de la descripción general de las entregas.
+
+![](assets/do-not-localize/how-to-video.png) [Descubrir esta función en vídeo](#create-email-video)
 
 ## Creación de envíos {#creating-deliveries}
 
@@ -78,6 +80,13 @@ La guía [automatización con flujos de trabajo](../../workflow/using/architectu
 >[!IMPORTANT]
 >
 >En la misma campaña, no se pueden configurar más de 28 flujos de trabajo. Más allá de este límite, los flujos de trabajo adicionales no se ven en la interfaz y pueden dar lugar a errores.
+
+### Cómo crear un correo electrónico en una campaña {#create-email-video}
+
+En este vídeo se explica cómo crear una campaña y un correo electrónico en Adobe Campaign Classic.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+
 
 #### Creación de un flujo de trabajo de objetivos {#creating-a-targeting-workflow}
 
