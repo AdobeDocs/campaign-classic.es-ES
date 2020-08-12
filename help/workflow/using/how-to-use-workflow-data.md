@@ -14,11 +14,11 @@ discoiquuid: ec3844ca-8d80-4ddc-b08c-f18a6919bb28
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a034749c82f44edaf718b732e6871b9af378636a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '920'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
@@ -63,17 +63,17 @@ Por ejemplo, en el marco de una entrega de correo postal, puede incluir los dato
 
 ![](assets/s_advuser_add_data_postal_mail.png)
 
-Además de los campos personalizados habituales, puede añadir campos personalizados desde las fases del flujo de trabajo al contenido de la entrega. Los datos adicionales definidos en las actividades de flujo de trabajo se pueden conservar y se puede conceder acceso a ellos desde el asistente de envío, como se muestra en el ejemplo siguiente, para definir el nombre del archivo de salida dentro del marco de la distribución de correo postal:
+Además de los campos de personalización habituales, puede añadir campos de personalización desde las fases del flujo de trabajo al contenido de la entrega. Los datos adicionales definidos en las actividades de flujo de trabajo se pueden conservar y se puede conceder acceso a ellos desde el asistente de envío, como se muestra en el ejemplo siguiente, para definir el nombre del archivo de salida dentro del marco de la distribución de correo postal:
 
 ![](assets/s_advuser_using_additional_data.png)
 
 Los datos contenidos en la tabla de flujo de trabajo se identifican con su nombre: siempre se compone del vínculo **targetData.** Para obtener más información, consulte [Datos de destinatario](../../workflow/using/data-life-cycle.md#target-data).
 
-Dentro del marco de una entrega de correo electrónico, los campos personalizados también pueden utilizar datos de la extensión de grupo objetivo realizada en las fases del flujo de trabajo de objetivos, como se muestra en el ejemplo siguiente:
+Dentro del marco de una entrega de correo electrónico, los campos de personalización también pueden utilizar datos de la extensión de grupo objetivo realizada en las fases del flujo de trabajo de objetivos, como se muestra en el ejemplo siguiente:
 
 ![](assets/s_advuser_add_data_email.png)
 
-Si se especifica un código de segmento en una actividad de objetivo, se añade a una columna específica de la tabla de flujo de trabajo y se ofrece junto con los campos personalizados. Para mostrar todos los campos de personalización, haga clic en el enlace **[!UICONTROL Target extension > Other...]** al que se puede acceder con el botón de personalización.
+Si se especifica un código de segmento en una actividad de objetivo, se añade a una columna específica de la tabla de flujo de trabajo y se ofrece junto con los campos de personalización. Para mostrar todos los campos de personalización, haga clic en el enlace **[!UICONTROL Target extension > Other...]** al que se puede acceder con el botón de personalización.
 
 ![](assets/s_advuser_segment_code_select.png)
 
@@ -85,52 +85,52 @@ Adobe Campaign permite exportar archivos comprimidos o encriptados. Al definir u
 
 Para poder hacerlo:
 
-1. Instale un par de claves GPG para su instancia mediante el Panel [de control](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
+1. Instale un par de claves GPG para su instancia mediante el [Panel de control de Campaign](https://docs.adobe.com/content/help/es-ES/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
 
    >[!NOTE]
    >
-   >El Panel de control está disponible para todos los clientes alojados en AWS (excepto para los clientes que hospedan sus instancias de marketing in situ).
+   >Panel de control de Campaign está disponible para todos los clientes alojados en AWS (excepto para los clientes que alojan sus instancias de marketing on-Premise).
 
-1. Si la instalación de Adobe Campaign está alojada en Adobe, póngase en contacto con el servicio de atención al cliente de Adobe para instalar las utilidades necesarias en el servidor.
-1. Si la instalación de Adobe Campaign está in situ, instale la utilidad que desee utilizar (por ejemplo: GPG, GZIP) así como las claves necesarias (clave de cifrado) en el servidor de aplicaciones.
+1. Si Adobe aloja la instalación de Adobe Campaign contáctese con atención al cliente de Adobe para que instalen las herramientas necesarias en el servidor.
+1. Si la instalación de Adobe Campaign está in situ: instale la utilidad que desee utilizar (por ejemplo: GPG, GZIP) así como las claves necesarias (clave de cifrado) en el servidor de aplicaciones.
 
-A continuación, puede utilizar comandos o código en la **[!UICONTROL Script]** ficha de la actividad o en una **[!UICONTROL JavaScript code]** actividad. A continuación se muestra un ejemplo en el caso de uso.
+A continuación, puede utilizar comandos o código en la pestaña **[!UICONTROL Script]** de la actividad o en una actividad **[!UICONTROL JavaScript code]** . A continuación se muestra un ejemplo en el caso de uso.
 
 **Temas relacionados:**
 
 * [Descompresión o desencriptado de un archivo antes de procesarlo](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing)
-* [actividad](../../workflow/using/extraction--file-.md)de extracción de datos (archivo).
+* [Actividad de extracción de datos (archivo)](../../workflow/using/extraction--file-.md).
 
-### Caso de uso: Codificación y exportación de datos mediante una clave instalada en el Panel de control {#use-case-gpg-encrypt}
+### Caso de uso: codificación y exportación de datos con una clave instalada en el Panel de control de Campaign {#use-case-gpg-encrypt}
 
-En este caso de uso, crearemos un flujo de trabajo para cifrar y exportar datos mediante una clave instalada en el Panel de control.
+En este caso de uso, crearemos un flujo de trabajo para codificar y exportar los datos con una clave instalada en el Panel de control de Campaign.
 
-En [esta sección](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/using-a-gpg-key-to-encrypt-data.html)también hay disponible un vídeo de tutorial que muestra cómo utilizar una clave GPG para cifrar datos.
+En [esta sección](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/using-a-gpg-key-to-encrypt-data.html) también hay disponible un vídeo de tutorial que muestra cómo utilizar una clave GPG para cifrar datos.
 
 Los pasos para realizar este caso de uso son los siguientes:
 
-1. Genere un par de claves GPG (público/privado) utilizando una utilidad GPG, luego instale la clave pública en el Panel de control. Encontrará pasos detallados en la documentación [del Panel](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)de control.
+1. genere un par de claves GPG (públicas/privadas) utilizando una utilidad GPG, luego instale la clave pública en Panel de control de Campaign. Encontrará los pasos detallados en la documentación [del](https://docs.adobe.com/content/help/es-ES/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data) Panel de control de Campaign.
 
-1. En Campaign Classic, cree un flujo de trabajo para exportar los datos y exportarlos con la clave privada que se ha instalado mediante el Panel de control. Para ello, crearemos un flujo de trabajo de la siguiente manera:
+1. En Campaign Classic, cree un flujo de trabajo para exportar los datos y exportarlos con la clave privada que se ha instalado mediante el Panel de control de Campaign. Para ello, crearemos un flujo de trabajo de la siguiente manera:
 
    ![](assets/gpg-workflow-encrypt.png)
 
-   * **[!UICONTROL Query]** actividad: En este ejemplo, queremos ejecutar una consulta para destinatario de los datos de la base de datos que queremos exportar.
-   * **[!UICONTROL Data extraction (file)]** actividad: Extrae los datos en un archivo.
-   * **[!UICONTROL JavaScript code]** actividad: Codifica los datos que se van a extraer.
-   * **[!UICONTROL File transfer]** actividad: Envía los datos a un origen externo (en este ejemplo, un servidor SFTP).
+   * **[!UICONTROL Query]** actividad: En este ejemplo, queremos ejecutar una consulta para un destinatario de los datos de la base de datos que queremos exportar.
+   * **[!UICONTROL Data extraction (file)]** actividad: extrae los datos en un archivo.
+   * **[!UICONTROL JavaScript code]** actividad: codifica los datos que se van a extraer.
+   * **[!UICONTROL File transfer]** actividad: envía los datos a un origen externo (en este ejemplo, un servidor SFTP).
 
-1. Configure la **[!UICONTROL Query]** actividad para destinatario de los datos deseados de la base de datos. Para obtener más información, consulte [esta sección](../../workflow/using/query.md).
+1. Configure la actividad **[!UICONTROL Query]** para destinatario de los datos deseados de la base de datos. Para obtener más información, consulte [esta sección](../../workflow/using/query.md).
 
-1. Abra la **[!UICONTROL Data extraction (file)]** actividad y configúrela según sus necesidades. Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../workflow/using/extraction--file-.md).
+1. Abra la actividad **[!UICONTROL Data extraction (file)]** y configúrela según sus necesidades. Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../workflow/using/extraction--file-.md).
 
    ![](assets/gpg-data-extraction.png)
 
-1. Abra la **[!UICONTROL JavaScript code]** actividad y copie y pegue el comando siguiente para cifrar los datos que desee extraer.
+1. Abra la actividad **[!UICONTROL JavaScript code]** y copie y pegue el comando siguiente para cifrar los datos que desee extraer.
 
    >[!IMPORTANT]
    >
-   >Asegúrese de reemplazar el valor de la **huella** del comando por la huella digital de la clave pública instalada en el Panel de control.
+   >Asegúrese de reemplazar el valor de la **huella** del comando por la huella digital de la clave pública instalada en el Panel de control de Campaign.
 
    ```
    var cmd='gpg ';
@@ -144,10 +144,10 @@ Los pasos para realizar este caso de uso son los siguientes:
 
    ![](assets/gpg-script.png)
 
-1. Abra la **[!UICONTROL File transfer]** actividad y especifique el servidor SFTP al que desea enviar el archivo. Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../workflow/using/file-transfer.md).
+1. Abra la actividad **[!UICONTROL File transfer]** y especifique el servidor SFTP al que desea enviar el archivo. Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../workflow/using/file-transfer.md).
 
    ![](assets/gpg-file-transfer.png)
 
-1. Ahora puede ejecutar el flujo de trabajo. Una vez ejecutado, el destinatario de datos por la consulta se exportará al servidor SFTP en un archivo .gpg cifrado.
+1. Ahora puede ejecutar el flujo de trabajo. Una vez ejecutado, el destinatario de datos de la consulta se exportará al servidor SFTP en un archivo .gpg cifrado.
 
    ![](assets/gpg-sftp-encrypt.png)
