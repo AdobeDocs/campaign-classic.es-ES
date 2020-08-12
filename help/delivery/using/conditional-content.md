@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 94%
+source-wordcount: '473'
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,9 @@ ht-degree: 94%
 # Contenido condicional{#conditional-content}
 
 Al configurar los campos de contenido condicional, se puede crear una personalización dinámica basada en el perfil del destinatario, por ejemplo. Los bloques de texto o las imágenes se sustituyen cuando se cumple una condición concreta.
+
+![](assets/do-not-localize/how-to-video.png) [Descubrir esta función en vídeo](#conditionnal-content-video)
+
 
 ## Uso de condiciones en un correo electrónico {#using-conditions-in-an-email}
 
@@ -114,7 +117,7 @@ En el siguiente ejemplo, puede aprender a crear un correo electrónico multiling
    >
    >Como no se ha definido ninguna versión alternativa en el contenido de correo electrónico, asegúrese de filtrar la población de destino antes de enviar el correo electrónico.
 
-## Cómo crear una newsletter multilingüe con contenido condicional
+## Cómo crear una newsletter multilingüe con contenido condicional {#conditionnal-content-video}
 
 Aprenda a añadir contenido condicional a un envío en el ejemplo de una newsletter multilingüe.
 
