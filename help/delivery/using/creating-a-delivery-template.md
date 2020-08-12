@@ -15,15 +15,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 78%
+source-wordcount: '366'
+ht-degree: 77%
 
 ---
 
 
 # Creación de una plantilla de envíos{#creating-a-delivery-template}
+
+![](assets/do-not-localize/how-to-video.png) [Descubrir esta función en vídeo](#delivery-template-video)
 
 ## Conversión de una entrega existente en una plantilla {#converting-an-existing-delivery-to-a-template}
 
@@ -74,7 +76,7 @@ Para configurar una plantilla de envío, siga los siguientes pasos:
 >
 >Para evitar errores de configuración, se recomienda duplicar una plantilla nativa y modificar sus propiedades en lugar de crear una nueva plantilla.
 
-## Cómo configurar una Plantilla de envíos
+## Cómo configurar una Plantilla de envíos {#delivery-template-video}
 
 En el siguiente vídeo se muestra cómo configurar una plantilla para un envío ad hoc.
 
