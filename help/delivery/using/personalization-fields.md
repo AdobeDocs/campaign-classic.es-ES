@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
+source-git-commit: 6c5e11f24537d2956ade49fe0f4a8ffebdbbabcf
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 96%
@@ -126,7 +126,7 @@ El valor predeterminado es 5 segundos.
 
 Si establece esta opción en 0, no va a haber límite de tiempo para la fase de personalización.
 
-## Cómo personalizar correos electrónicos mediante campos de personalización {#personalization-field-video}
+## Cómo personalizar correos electrónicos mediante campos de personalización {#personalization-fields-video}
 
 Obtenga información sobre cómo agregar un campo de personalización a la línea de asunto y el contenido de un envío de correo electrónico.
 
