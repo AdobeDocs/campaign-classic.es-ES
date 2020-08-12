@@ -14,11 +14,11 @@ discoiquuid: 8b101c0b-3611-4f15-813b-7c0bf54fc48a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2f0bb31f7234289f39a561fa58a23cac0390b465
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3151'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Para enviar a un teléfono móvil, necesita:
 
    Recuerde que los siguientes conectores quedan obsoletos a partir de la versión 20.2: NetSize, Generic SMPP (SMPP versión 3.4 compatible con modo binario), Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2 e iOS. Durante este periodo, las funcionalidades van a seguir disponibles, pero no se van a actualizar, mejorar ni documentar. Para obtener más información, consulte [esta página](https://helpx.adobe.com/es/campaign/kb/deprecated-and-removed-features.html).
 
-1. Una plantilla de envío en la que se haga referencia a esta cuenta externa.
+1. Una plantilla de envíos en la que se haga referencia a esta cuenta externa.
 
 ### Creación de una cuenta externa SMPP {#creating-an-smpp-external-account}
 
@@ -64,7 +64,7 @@ Para realizar esto, siga los pasos a continuación:
 
    >[!CAUTION]
    >
-   > A partir de la versión 20.2, los conectores heredados están obsoletos y no son compatibles. Se recomienda utilizar el conector **[!UICONTROL Extended generic SMPP]**. Para obtener más información sobre cómo migrar al conector recomendado, consulte esta [página](https://helpx.adobe.com/es/campaign/kb/sms-connector.html).
+   > A partir de la versión 20.2, los conectores heredados quedan obsoletos y no son compatibles. Se recomienda utilizar el conector **[!UICONTROL Extended generic SMPP]**. Para obtener más información sobre cómo migrar al conector recomendado, consulte esta [página](https://helpx.adobe.com/es/campaign/kb/sms-connector.html).
 
 1. La opción **[!UICONTROL Enable verbose SMPP traces in the log file]** permite volcar todo el tráfico SMPP en los archivos de registro. Esta opción debe habilitarse para solucionar los problemas del conector y comparar el tráfico que ve el proveedor.
 
@@ -90,7 +90,7 @@ Para realizar esto, siga los pasos a continuación:
 
    Para obtener más información, consulte [esta sección](#about-character-transliteration).
 
-1. En la pestaña **[!UICONTROL Throughput and delays]**, puede especificar el rendimiento máximo de los mensajes salientes (“MT”, móvil finalizado) en MT por segundo. Si introduce “0” en el campo correspondiente, el rendimiento es ilimitado.
+1. En la pestaña **[!UICONTROL Throughput and delays]**, puede especificar el rendimiento máximo de los mensajes salientes (&quot;MT&quot;, móvil finalizado) en MT por segundo. Si introduce &quot;0&quot; en el campo correspondiente, el rendimiento es ilimitado.
 
    Los valores de todos los campos correspondientes a las duraciones deben rellenarse en segundos.
 
@@ -114,12 +114,12 @@ Las transliteraciones de caracteres se pueden configurar en una cuenta externa d
 
 La transliteración consiste en reemplazar un carácter de un SMS por otro cuando el estándar GSM no tiene en cuenta dicho carácter.
 
-* Si la transliteración es **[!UICONTROL authorized]**, cada carácter que no se tiene en cuenta se sustituye por un carácter GSM cuando se envía el mensaje. Por ejemplo, la letra “ë” se sustituye por “e”. Por lo tanto, el mensaje se altera ligeramente, pero el límite de caracteres se mantiene.
+* Si la transliteración es **[!UICONTROL authorized]**, cada carácter que no se tiene en cuenta se sustituye por un carácter GSM cuando se envía el mensaje. Por ejemplo, la letra &quot;ë&quot; se sustituye por &quot;e&quot;. Por lo tanto, el mensaje se altera ligeramente, pero el límite de caracteres se mantiene.
 * Cuando la transliteración es **[!UICONTROL not authorized]**, cada mensaje que contiene caracteres que no se tienen en cuenta se envía en formato binario (Unicode): todos los caracteres se envían tal cual. Sin embargo, los mensajes SMS con Unicode están limitados a 70 caracteres (o 67 caracteres por SMS en el caso de los mensajes enviados en varias partes). Si se supera el número máximo de caracteres, se envían varios mensajes, lo que puede suponer costes adicionales.
 
 >[!IMPORTANT]
 >
->La inserción de campos personalizados en el contenido del mensaje SMS puede introducir caracteres que no se tienen en cuenta con la codificación GSM.
+>La inserción de campos de personalización en el contenido del mensaje SMS puede introducir caracteres que no se tienen en cuenta con la codificación GSM.
 
 De forma predeterminada, la transliteración de caracteres está desactivada. Si desea que todos los caracteres de los mensajes SMS se mantengan tal cual, para, por ejemplo, no modificar los nombres propios, es recomendable que no habilite esta opción.
 
@@ -335,7 +335,7 @@ Puede declarar **data_codings** y forzar la codificación si es necesario: para 
 
 Al configurar un conector SMPP genérico extendido, puede configurar las respuestas automáticas.
 
-Cuando un suscriptor responda a un mensaje SMS enviado a través de Adobe Campaign y su mensaje contenga una palabra clave como “STOP”, puede configurar mensajes que se envíen automáticamente en la sección **[!UICONTROL Automatic reply sent to the MO]**.
+Cuando un suscriptor responda a un mensaje SMS enviado a través de Adobe Campaign y su mensaje contenga una palabra clave como &quot;STOP&quot;, puede configurar mensajes que se envíen automáticamente en la sección **[!UICONTROL Automatic reply sent to the MO]**.
 
 >[!NOTE]
 >
@@ -343,7 +343,7 @@ Cuando un suscriptor responda a un mensaje SMS enviado a través de Adobe Campai
 
 Para cada palabra clave, especifique un código corto, que es un número que suele utilizarse para realizar envíos y sirve como nombre de remitente, e indique el mensaje que se envía al suscriptor.
 
-También puede vincular una acción a su respuesta automática: **[!UICONTROL Send to quarantine]** o **[!UICONTROL Remove from quarantine]**. Por ejemplo, si un destinatario envía la palabra clave “Detener”, se le envía automáticamente una confirmación de baja y se le incluye en la lista negra.
+También puede vincular una acción a su respuesta automática: **[!UICONTROL Send to quarantine]** o **[!UICONTROL Remove from quarantine]**. Por ejemplo, si un destinatario envía la palabra clave &quot;Detener&quot;, se le envía automáticamente una confirmación de baja y se le incluye en la lista negra.
 
 ![](assets/extended_smpp_reply.png)
 
@@ -365,13 +365,13 @@ Para evitarlo, aplique una de las siguientes soluciones, según el proveedor que
 
 Los pasos para configurar una cuenta externa mediante el conector SMPP genérico extendido se detallan en la sección [Creación de una cuenta externa de SMPP](../../delivery/using/sms-channel.md#creating-an-smpp-external-account).
 
-### Modificación de la plantilla de envío {#changing-the-delivery-template}
+### Modificación de la plantilla de envíos {#changing-the-delivery-template}
 
 Adobe Campaign proporciona una plantilla para las entregas a móviles. Esta plantilla está disponible en el nodo **[!UICONTROL Resources > Templates > Delivery templates]**. Para obtener más información, consulte la sección [Acerca de las plantillas](../../delivery/using/about-templates.md).
 
 Para realizar envíos a través del canal SMS, debe crear una plantilla en la que se haga referencia al conector de canal.
 
-Para conservar la plantilla de envío nativa, recomendamos que la duplique y, a continuación, la configure.
+Para conservar la plantilla de envíos nativa, recomendamos que la duplique y, a continuación, la configure.
 
 En el siguiente ejemplo, creamos una plantilla para enviar mensajes a través de la cuenta NetSize activada anteriormente. Para ello:
 
@@ -393,7 +393,7 @@ En el siguiente ejemplo, creamos una plantilla para enviar mensajes a través de
 
    ![](assets/s_user_mobile_template_list.png)
 
-Ahora tiene una cuenta externa y una plantilla de envío que le permiten realizar envíos a través de SMS.
+Ahora tiene una cuenta externa y una plantilla de envíos que le permiten realizar envíos a través de SMS.
 
 ## Creación de una entrega por SMS {#creating-a-sms-delivery}
 
@@ -406,7 +406,7 @@ Para diseñar una entrega de SMS nuevo, siga los pasos a continuación:
 >En [esta sección](../../delivery/using/steps-about-delivery-creation-steps.md) se exponen conceptos globales sobre la creación de envíos.
 
 1. Cree un nuevo envío, por ejemplo, desde el panel Envío.
-1. Seleccione la plantilla de envío **Enviado a móviles (NetSize)** creada anteriormente. Para obtener más información, consulte la sección [Modificación de las plantillas de entrega](#changing-the-delivery-template).
+1. Seleccione la plantilla de envíos **Enviado a móviles (NetSize)** creada anteriormente. Para obtener más información, consulte la sección [Modificación de las plantillas de entrega](#changing-the-delivery-template).
 
    ![](assets/s_user_mobile_wizard.png)
 
@@ -417,7 +417,7 @@ Para diseñar una entrega de SMS nuevo, siga los pasos a continuación:
 
 Para crear el contenido del SMS, siga los pasos a continuación:
 
-1. Introduzca el contenido del mensaje en la sección **[!UICONTROL Text content]** del asistente. Los botones de la barra de herramientas permiten importar, guardar o buscar dentro del contenido. El último botón se utiliza para insertar campos personalizados.
+1. Introduzca el contenido del mensaje en la sección **[!UICONTROL Text content]** del asistente. Los botones de la barra de herramientas permiten importar, guardar o buscar dentro del contenido. El último botón se utiliza para insertar campos de personalización.
 
    ![](assets/s_ncs_user_wizard_sms01_138.png)
 
@@ -439,7 +439,7 @@ Para crear el contenido del SMS, siga los pasos a continuación:
    >
    >Los mensajes SMS se limitan a una longitud de 160 caracteres si se utiliza la página de códigos Latin-1 (ISO-8859-1). Si el mensaje se escribe en Unicode, no debe exceder los 70 caracteres. Algunos caracteres especiales pueden afectar la longitud del mensaje. Para obtener más información sobre la longitud del mensaje, consulte la sección [Acerca de la transliteración de caracteres](#about-character-transliteration).
    >
-   >Cuando hay campos personalizados o campos de contenido condicional, el tamaño del mensaje varía según el destinatario. La longitud del mensaje debe evaluarse cuando se haya realizado la personalización.
+   >Cuando hay campos de personalización o campos de contenido condicionados, el tamaño del mensaje varía según el destinatario. La longitud del mensaje debe evaluarse cuando se haya realizado la personalización.
    >
    >Al iniciar el análisis, se comprueba la longitud de los mensajes y se muestra una advertencia en caso de contenidos adicionales.
 
@@ -449,9 +449,9 @@ Para crear el contenido del SMS, siga los pasos a continuación:
 
 En [esta sección](../../delivery/using/steps-defining-the-target-population.md) se describe el proceso detallado al seleccionar la población objetivo de una entrega.
 
-Para obtener más información sobre el uso de los campos personalizados, consulte.[](../../delivery/using/about-personalization.md)
+Para obtener más información sobre el uso de los campos de personalización, consulte [Acerca de la personalización](../../delivery/using/about-personalization.md)
 
-Para obtener más información sobre la integración de una lista de reasignación, consulte.[](../../delivery/using/about-seed-addresses.md)
+Para obtener más información sobre la integración de una lista de reasignación, consulte [Acerca de las direcciones semilla](../../delivery/using/about-seed-addresses.md)
 
 ## Envío de mensajes SMS {#sending-sms-messages}
 
