@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 6c5e11f24537d2956ade49fe0f4a8ffebdbbabcf
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1130'
 ht-degree: 94%
 
 ---
@@ -77,7 +77,7 @@ Se proporciona una plantilla predeterminada para crear una campaña sin ninguna 
 
 La creación y la configuración de las plantillas de campaña se muestran en [Plantillas de campaña](#campaign-templates).
 
-Para obtener más información sobre la creación de campañas, consulte el vídeo [Creación de una campaña y un correo electrónico](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/email-channel/creating-a-campaign-and-an-email.html).
+For more on campaign creation, refer to [this video](../../campaign/using/marketing-campaign-deliveries.md#create-email-video).
 
 ## Configuración de los módulos disponibles {#configuration-of-the-available-modules}
 
