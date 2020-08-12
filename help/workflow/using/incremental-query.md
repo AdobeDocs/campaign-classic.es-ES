@@ -14,11 +14,11 @@ discoiquuid: 31071cd2-7d97-4a4f-a6cc-5ac5b6178be5
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aa192d975a08246ba684940fff3d33853d7d9345
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -29,11 +29,11 @@ Una consulta incremental le permite seleccionar periódicamente un objetivo basa
 
 La población segmentada se almacena en la memoria por instancia de flujo de trabajo y por actividad, es decir, dos flujos de trabajo iniciados desde la misma plantilla no comparten el mismo registro. Por otro lado, dos tareas basadas en la misma consulta incremental para la misma instancia de flujo de trabajo utilizarán el mismo registro.
 
-La consulta se define del mismo modo que para las consultas estándar, pero su ejecución está programada.
+La consulta se define de la misma manera que para las consultas estándar, pero su ejecución está programada.
 
 **Temas relacionados:**
 
-* [Caso de uso: Actualización de lista trimestral mediante una consulta incremental](../../workflow/using/quarterly-list-update.md)
+* [Caso de uso: actualización de la lista trimestral mediante una consulta incremental](../../workflow/using/quarterly-list-update.md)
 * [Creación de consultas](../../workflow/using/query.md#creating-a-query)
 
 >[!CAUTION]
@@ -42,7 +42,7 @@ La consulta se define del mismo modo que para las consultas estándar, pero su e
 
 Para ello:
 
-1. En la **[!UICONTROL Scheduling & History]** ficha, seleccione la **[!UICONTROL Schedule execution]** opción. La tarea permanece activa una vez que se ha creado y solo se activará en los tiempos especificados por la programación para ejecutar la consulta. Sin embargo, si la opción está desactivada, la consulta se ejecuta inmediatamente **y en una misma vez**.
+1. En la pestaña **[!UICONTROL Scheduling & History]** , seleccione la opción **[!UICONTROL Schedule execution]** . La tarea permanece activa una vez que se ha creado y solo se activará en los tiempos especificados por la programación para ejecutar la consulta. Sin embargo, si la opción está desactivada, la consulta se ejecuta inmediatamente **y en una misma vez**.
 1. Haga clic en el botón **[!UICONTROL Change]**.
 
    En la ventana **[!UICONTROL Schedule editing wizard]** puede configurar el tipo de frecuencia, la periodicidad del evento y el periodo de validez del evento.
