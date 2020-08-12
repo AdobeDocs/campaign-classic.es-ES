@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: d4edd389fde91c3f316c5213f4d7f34e51979112
 workflow-type: tm+mt
 source-wordcount: '2473'
-ht-degree: 69%
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 69%
 
 Los datos enviados en un flujo de trabajo pueden provenir de listas, por lo que los datos se han preparado y estructurado previamente.
 
-Esta lista puede haberse creado directamente en Adobe Campaign o importado mediante la opción **[!UICONTROL Import a list]**. Para obtener más información, consulte esta [página](../../platform/using/generic-imports-and-exports.md).
+Esta lista puede haberse creado directamente en Adobe Campaign o importado mediante la opción **[!UICONTROL Import a list]**. Para obtener más información sobre esta opción, consulte esta [página](../../platform/using/generic-imports-and-exports.md).
 
 Para obtener más información sobre el uso de la actividad de la lista de lectura en un flujo de trabajo, consulte [Lista de lectura](../../workflow/using/read-list.md).
 
@@ -61,19 +61,19 @@ Adobe Campaign permite importar archivos comprimidos o encriptados. Antes de que
 
 Para poder hacerlo:
 
-1. Utilice el [Panel de control de Campaign](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) para generar un par de claves pública y privada.
+1. Utilice el [Panel de control de Campaign](https://docs.adobe.com/content/help/es-ES/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) para generar un par de claves pública y privada.
 
    >[!NOTE]
    >
-   >Panel de control de Campaign está disponible para todos los clientes alojados en AWS (excepto para los clientes que alojan sus instancias de marketing in situ).
+   >Panel de control de Campaign está disponible para todos los clientes alojados en AWS (excepto para los clientes que alojan sus instancias de marketing on-Premise).
 
-1. Si la instalación de Adobe Campaign está alojada en Adobe, póngase en contacto con el Servicio de atención al cliente de Adobe para que le instalen las utilidades necesarias en el servidor.
-1. Si la instalación de Adobe Campaign está in situ, instale la utilidad que desee utilizar (por ejemplo: GPG, GZIP) así como las claves necesarias (clave de cifrado) en el servidor de aplicaciones.
+1. Si Adobe aloja la instalación de Adobe Campaign contáctese con atención al cliente de Adobe para que instalen las herramientas necesarias en el servidor.
+1. Si la instalación de Adobe Campaign está in situ: instale la utilidad que desee utilizar (por ejemplo: GPG, GZIP) así como las claves necesarias (clave de cifrado) en el servidor de aplicaciones.
 
 A continuación, puede utilizar los comandos de preprocesamiento deseados en los flujos de trabajo:
 
-1. Add and configure a **[!UICONTROL File transfer]** activity in your workflow.
-1. Add a **[!UICONTROL Data loading (file)]** activity and define the file format.
+1. Añada y configure una actividad **[!UICONTROL File transfer]** en el flujo de trabajo.
+1. Añada una actividad **[!UICONTROL Data loading (file)]** y defina el formato de archivo.
 1. Marque la opción **[!UICONTROL Pre-process the file]**.
 1. Especifique el comando de preprocesamiento que desee aplicar.
 1. Añada otras actividades para administrar los datos que provengan del archivo.
@@ -83,21 +83,21 @@ A continuación se muestra un ejemplo en el caso de uso.
 
 **Temas relacionados:**
 
-* [actividad](../../workflow/using/data-loading--file-.md)de carga de datos (archivo).
+* [Actividad de carga de datos (archivos)](../../workflow/using/data-loading--file-.md).
 * [Comprimir o encriptar un archivo](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
 
-### Caso de uso: Importación de datos cifrados con una clave generada por Panel de control de Campaign {#use-case-gpg-decrypt}
+### Caso de uso: importación de datos cifrados con una clave generada por el Panel de control de Campaign{#use-case-gpg-decrypt}
 
-En este caso de uso, crearemos un flujo de trabajo para importar datos cifrados en un sistema externo, utilizando una clave generada en el Panel de control de Campaign.
+En este caso de uso, crearemos un flujo de trabajo para importar datos cifrados en un sistema externo utilizando una clave generada en el Panel de control de Campaign.
 
-En [esta sección](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html)también hay disponible un vídeo de tutorial que muestra cómo utilizar una clave GPG para descifrar datos.
+En [esta sección](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html) también hay disponible un vídeo de tutorial que muestra cómo utilizar una clave GPG para desencriptar datos.
 
 Los pasos para realizar este caso de uso son los siguientes:
 
-1. Utilice el Panel de control de Campaign para generar un par de claves (público/privado). Encontrará pasos detallados en la documentación [de](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)Panel de control de Campaign.
+1. Utilice el Panel de control de Campaign para generar un par de claves (pública/privada). Encontrará los pasos detallados en la documentación [del](https://docs.adobe.com/content/help/es-ES/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) Panel de control de Campaign.
 
-   * La clave pública se compartirá con el sistema externo, que la utilizará para cifrar los datos que se enviarán a la Campaña.
-   * El Campaign Classic utilizará la clave privada para descifrar los datos cifrados entrantes.
+   * La clave pública se comparte con el sistema externo, que la utiliza para cifrar los datos que se enviarán a Campaign.
+   * Campaign Classic utiliza la clave privada para descifrar los datos cifrados entrantes.
 
    ![](assets/gpg_generate.png)
 
@@ -105,22 +105,22 @@ Los pasos para realizar este caso de uso son los siguientes:
 
    ![](assets/gpg_external.png)
 
-1. En Campaign Classic, cree un flujo de trabajo para importar los datos cifrados y descifrarlos con la clave privada que se ha instalado mediante el Panel de control de Campaign. Para ello, crearemos un flujo de trabajo de la siguiente manera:
+1. En Campaign Classic, cree un flujo de trabajo para importar los datos cifrados y desencriptarlos con la clave privada que se ha instalado mediante el Panel de control de Campaign. Para ello, crearemos un flujo de trabajo de la siguiente manera:
 
    ![](assets/gpg_workflow.png)
 
-   * **[!UICONTROL File transfer]** actividad: Transfiere el archivo de un origen externo a un Campaign Classic. En este ejemplo, queremos transferir el archivo desde un servidor SFTP.
-   * **[!UICONTROL Data loading (file)]** actividad: Carga los datos del archivo en la base de datos y los descifra utilizando la clave privada generada en el Panel de control de Campaign.
+   * **[!UICONTROL File transfer]** actividad: transfiere el archivo de un origen externo a Campaign Classic. En este ejemplo, queremos transferir el archivo desde un servidor SFTP.
+   * **[!UICONTROL Data loading (file)]** actividad: carga los datos del archivo en la base de datos y los descifra utilizando la clave privada generada en el Panel de control de Campaign.
 
-1. Abra la **[!UICONTROL File transfer]** actividad y especifique la cuenta externa desde la que desea importar el archivo .gpg cifrado.
+1. Abra la actividad **[!UICONTROL File transfer]** y especifique la cuenta externa desde la que desea importar el archivo .gpg cifrado.
 
    ![](assets/gpg_transfer.png)
 
    Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../workflow/using/file-transfer.md).
 
-1. Abra la **[!UICONTROL Data loading (file)]** actividad y configúrela según sus necesidades. Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../workflow/using/data-loading--file-.md).
+1. Abra la actividad **[!UICONTROL Data loading (file)]** y configúrela según sus necesidades. Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../workflow/using/data-loading--file-.md).
 
-   Añada una etapa de preprocesamiento a la actividad para descifrar los datos entrantes. Para ello, seleccione la **[!UICONTROL Pre-process the file]** opción y copie y pegue este comando de descifrado en el **[!UICONTROL Command]** campo :
+   Añada una fase de preprocesamiento a la actividad para descifrar los datos entrantes. Para ello, seleccione la opción **[!UICONTROL Pre-process the file]** y copie y pegue este comando de descifrado en el **[!UICONTROL Command]** campo:
 
    `gpg --batch --passphrase passphrase --decrypt <%=vars.filename%>`
 
@@ -130,7 +130,7 @@ Los pasos para realizar este caso de uso son los siguientes:
    >
    >En este ejemplo, utilizamos la frase de contraseña utilizada de forma predeterminada por Panel de control de Campaign, que es &quot;frase de contraseña&quot;.
    >
-   >Si ya ha instalado claves GPG en su instancia a través de una solicitud del Servicio de atención al cliente en el pasado, la frase de contraseña puede haber cambiado y ser diferente de la predeterminada.
+   >Si ya ha instalado las claves GPG en su instancia a través de una solicitud a Atención al cliente en el pasado, la frase de contraseña puede haber cambiado y ser diferente de la predeterminada.
 
 1. Haga clic en **[!UICONTROL OK]** para confirmar esta configuración.
 
@@ -193,7 +193,7 @@ Si necesita importar datos, es mejor hacerlo en lote mediante un flujo de trabaj
 
 La carga en modo iterativo (línea a línea) con JavaScript debe limitarse a los volúmenes pequeños.
 
-For better efficiency, always use the **[!UICONTROL Data Loading (File)]** activity in data management workflows.
+Para obtener una mejor eficiencia, utilice siempre **[!UICONTROL Data Loading (File)]** la actividad en los flujos de trabajo de gestión de datos.
 
 ### Importación en modo Delta {#importing-in-delta-mode}
 
@@ -208,7 +208,7 @@ Importación de datos mediante la gestión de datos en lugar de JavaScript.
 Para mantener la coherencia de los datos en la base de datos de Adobe Campaign, siga los principios siguientes:
 
 * Si los datos importados coinciden con una tabla de referencia de Adobe Campaign, se deben reconciliar con esa tabla en el flujo de trabajo. Los registros que no coinciden deben ser rechazados.
-* Asegúrese de que los datos importados siempre estén **“normalizados”** (correo electrónico, número de teléfono, dirección de correo postal) y que esta normalización sea fiable y no cambie con los años. Si no es así, es probable que algunos duplicados aparezcan en la base de datos y, como Adobe Campaign no proporciona herramientas para establecer correspondencias “difusas”, resulta muy difícil administrarlos y eliminarlos.
+* Asegúrese de que los datos importados siempre estén **&quot;normalizados&quot;** (correo electrónico, número de teléfono, dirección de correo postal) y que esta normalización sea fiable y no cambie con los años. Si no es así, es probable que algunos duplicados aparezcan en la base de datos y, como Adobe Campaign no proporciona herramientas para establecer correspondencias &quot;difusas&quot;, resulta muy difícil administrarlos y eliminarlos.
 * Los datos de transacciones deben tener una clave de reconciliación y se deben reconciliar con los datos existentes para evitar la creación de duplicados.
 * **Importación de archivos relacionados en orden**.
 
@@ -222,7 +222,7 @@ La utilización de una plantilla de importación es una práctica recomendada si
 
 Este ejemplo muestra cómo se puede predefinir un flujo de trabajo para reutilizarlo a la hora de importar perfiles provenientes de un CRM en la base de datos de Adobe Campaign. Para obtener más información sobre todos los ajustes posibles de cada actividad, consulte esta [sección](../../workflow/using/about-activities.md).
 
-1. Create a new workflow template from **[!UICONTROL Resources > Templates > Workflow templates]**.
+1. Cree una nueva plantilla de flujo de trabajo desde **[!UICONTROL Resources > Templates > Workflow templates]**.
 1. Añada las siguientes actividades:
 
    * **[!UICONTROL Data loading (file)]**: Defina la estructura esperada del archivo que contiene los datos que se van a importar.
@@ -233,7 +233,7 @@ Este ejemplo muestra cómo se puede predefinir un flujo de trabajo para reutiliz
 
    ![](assets/import_template_example0.png)
 
-1. Configure the **[!UICONTROL Data Loading (file)]** activity:
+1. Configure la actividad **[!UICONTROL Data Loading (file)]**:
 
    * Cargue un archivo de muestra para definir la estructura que desee. El archivo de muestra debe contener tan solo unas pocas líneas, pero todas las columnas necesarias para la importación. Compruebe y edite el formato del archivo para asegurarse de que el tipo de cada columna está correctamente definido: texto, fecha, entero, etc. Por ejemplo:
 
@@ -242,16 +242,16 @@ Este ejemplo muestra cómo se puede predefinir un flujo de trabajo para reutiliz
       Smith;Hayden;23/05/1989;hayden.smith@mailtest.com;123456
       ```
 
-   * En la **[!UICONTROL Name of the file to load]** sección, seleccione **[!UICONTROL Upload a file from the local machine]** y deje el campo en blanco. Cada vez que cree un nuevo flujo de trabajo a partir de esta plantilla, puede especificar aquí el archivo que desee, siempre que se corresponda con la estructura definida.
+   * En la sección **[!UICONTROL Name of the file to load]** , seleccione **[!UICONTROL Upload a file from the local machine]** y deje el campo en blanco. Cada vez que cree un nuevo flujo de trabajo a partir de esta plantilla, puede especificar aquí el archivo que desee, siempre que se corresponda con la estructura definida.
 
-      Puede utilizar cualquiera de las opciones, pero debe modificar la plantilla según corresponda. For example, if you select **[!UICONTROL Specified in the transition]**, you can add a **[!UICONTROL File Transfer]** activity before to retrieve the file to import from a FTP/SFTP server. Con la conexión S3 o SFTP, también puede importar datos de segmentos a Adobe Campaign con la plataforma de datos del cliente en tiempo real de Adobe. Para obtener más información, consulte [Documentación](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html).
+      Puede utilizar cualquiera de las opciones, pero debe modificar la plantilla según corresponda. Por ejemplo, si selecciona **[!UICONTROL Specified in the transition]**, puede añadir una actividad de **[!UICONTROL File Transfer]** antes de recuperar el archivo de importación de un servidor FTP/SFTP. Con la conexión S3 o SFTP, también puede importar datos de segmentos a Adobe Campaign con la plataforma de datos del cliente en tiempo real de Adobe. Para obtener más información, consulte [Documentación](https://docs.adobe.com/content/help/es-ES/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html).
 
       ![](assets/import_template_example1.png)
 
-1. Configure the **[!UICONTROL Enrichment]** activity. El objetivo de esta actividad en este contexto es identificar los datos entrantes.
+1. Configure la actividad **[!UICONTROL Enrichment]**. El objetivo de esta actividad en este contexto es identificar los datos entrantes.
 
-   * En la pestaña **[!UICONTROL Enrichment]**, seleccione **[!UICONTROL Add data]** y defina un vínculo entre los datos importados y la dimensión objetivo de los destinatarios. En este ejemplo, el campo personalizado **CRM ID** se utiliza para crear la condición de unión. Utilice el campo o la combinación de campos que necesite siempre que permita identificar registros únicos.
-   * En la **[!UICONTROL Reconciliation]** ficha, deje la **[!UICONTROL Identify the document from the working data]** opción sin marcar.
+   * En la pestaña **[!UICONTROL Enrichment]**, seleccione **[!UICONTROL Add data]** y defina un vínculo entre los datos importados y la dimensión de segmentación de los destinatarios. En este ejemplo, el campo personalizado **CRM ID** se utiliza para crear la condición de unión. Utilice el campo o la combinación de campos que necesite siempre que permita identificar registros únicos.
+   * En la pestaña **[!UICONTROL Reconciliation]** , deje la opción **[!UICONTROL Identify the document from the working data]** sin seleccionar.
 
    ![](assets/import_template_example2.png)
 
@@ -261,7 +261,7 @@ Este ejemplo muestra cómo se puede predefinir un flujo de trabajo para reutiliz
 
    Los destinatarios que no se pueden reconciliar y no tienen datos suficientes se seleccionan en una transición saliente de complemento y se pueden exportar en un archivo independiente, o sencillamente se ignoran.
 
-   * In the **[!UICONTROL General]** tab of the activity, select **[!UICONTROL Use the additional data only]** as filtering setting and make sure that the **[!UICONTROL Targeting dimension]** is automatically set to **[!UICONTROL Enrichment]**.
+   * En la pestaña **[!UICONTROL General]** de la actividad, seleccione **[!UICONTROL Use the additional data only]** como ajuste de filtro y asegúrese de que el valor **[!UICONTROL Targeting dimension]** se establece automáticamente como **[!UICONTROL Enrichment]**.
 
       Marque la opción **[!UICONTROL Generate complement]** para ver si algún registro no se puede insertar en la base de datos. Si lo necesita, puede seguir procesando los datos complementarios: exportación de archivo, actualización de lista, etc.
 
@@ -280,34 +280,34 @@ Este ejemplo muestra cómo se puede predefinir un flujo de trabajo para reutiliz
 1. Configure la actividad **[!UICONTROL Update data]** ubicada después de la primera transición saliente de la actividad **[!UICONTROL Split]** configurada anteriormente.
 
    * Seleccione **[!UICONTROL Update]** como **[!UICONTROL Operation type]**, ya que la transición de entrada solo contiene destinatarios ya presentes en la base de datos.
-   * In the **[!UICONTROL Record identification]** section, select **[!UICONTROL Using reconciliation keys]** and define a key between the targeting dimension and the link created in the **[!UICONTROL Enrichment]**. En este ejemplo, se utiliza el campo personalizado **CRM ID**.
+   * En la sección **[!UICONTROL Record identification]**, seleccione **[!UICONTROL Using reconciliation keys]** y defina una clave entre la dimensión de segmentación y el vínculo creado en **[!UICONTROL Enrichment]**. En este ejemplo, se utiliza el campo personalizado **CRM ID**.
    * En la sección **[!UICONTROL Fields to update]**, indique los campos de la dimensión de destinatarios que desea actualizar con el valor de la columna correspondiente del archivo. Si los nombres de las columnas del archivo son idénticos o casi idénticos a los nombres de los campos de dimensión de los destinatarios, puede utilizar el botón de varita mágica para hacer coincidir automáticamente los diferentes campos.
 
       ![](assets/import_template_example6.png)
 
 1. Configure la actividad **[!UICONTROL Deduplication]** ubicada después de la transición que contiene los destinatarios no reconciliados:
 
-   * Seleccione **[!UICONTROL Edit configuration]** y establezca la dimensión objetivo en el esquema temporal generado a partir de la actividad **[!UICONTROL Enrichment]** del flujo de trabajo.
+   * Seleccione **[!UICONTROL Edit configuration]** y establezca la dimensión de segmentación en el esquema temporal generado a partir de la actividad **[!UICONTROL Enrichment]** del flujo de trabajo.
 
       ![](assets/import_template_example4.png)
 
    * En este ejemplo, el campo de correo electrónico se utiliza para buscar perfiles únicos. Puede utilizar cualquier campo que esté rellenado y que forme parte de una combinación única.
-   * In the **[!UICONTROL Deduplication method]** screen, select **[!UICONTROL Advanced parameters]** and check the **[!UICONTROL Disable automatic filtering of 0 ID records]** option to make sure records that have a primary key equal to 0 (which should be all records of this transition) are not excluded.
+   * En la pantalla **[!UICONTROL Deduplication method]**, seleccione **[!UICONTROL Advanced parameters]** y marque la opción **[!UICONTROL Disable automatic filtering of 0 ID records]** para asegurarse de que no se excluyan los registros que tengan una clave principal igual a 0 (que deberían ser todos los registros de esta transición).
 
    ![](assets/import_template_example7.png)
 
-1. Configure the **[!UICONTROL Update data]** activity located after the **[!UICONTROL Deduplication]** activity configured previously.
+1. Configure la actividad **[!UICONTROL Update data]** ubicada después de la actividad **[!UICONTROL Deduplication]** configurada anteriormente.
 
    * Seleccione **[!UICONTROL Insert]** como **[!UICONTROL Operation type]**, ya que la transición entrante solo contiene destinatarios que no están presentes en la base de datos.
-   * En la **[!UICONTROL Record identification]** sección, seleccione **[!UICONTROL Directly using the targeting dimension]** y elija la **[!UICONTROL Recipients]** dimensión.
+   * En la sección **[!UICONTROL Record identification]** , seleccione **[!UICONTROL Directly using the targeting dimension]** y elija la dimensión **[!UICONTROL Recipients]** .
    * En la sección **[!UICONTROL Fields to update]**, indique los campos de la dimensión de destinatarios que desea actualizar con el valor de la columna correspondiente del archivo. Si los nombres de las columnas del archivo son idénticos o casi idénticos a los nombres de los campos de dimensión de los destinatarios, puede utilizar el botón de varita mágica para hacer coincidir automáticamente los diferentes campos.
 
       ![](assets/import_template_example8.png)
 
-1. After the third transition of the **[!UICONTROL Split]** activity, add a **[!UICONTROL Data extraction (file)]** activity and a **[!UICONTROL File transfer]** activity if you want to keep track of data not inserted in the database. Configure las actividades para exportar la columna que necesite y para transferir el archivo en un servidor FTP o SFTP desde donde pueda recuperarlo.
+1. Después de la tercera transición de la actividad **[!UICONTROL Split]**, añada una actividad **[!UICONTROL Data extraction (file)]** y una actividad **[!UICONTROL File transfer]** si desea realizar un seguimiento de los datos que no se insertan en la base de datos. Configure las actividades para exportar la columna que necesite y para transferir el archivo en un servidor FTP o SFTP desde donde pueda recuperarlo.
 1. Añada una actividad **[!UICONTROL End]** y guarde la plantilla de flujo de trabajo.
 
-Ahora la plantilla se puede utilizar y está disponible para cada nuevo flujo de trabajo. All is needed is then to specify the file containing the data to import in the **[!UICONTROL Data loading (file)]** activity.
+Ahora la plantilla se puede utilizar y está disponible para cada nuevo flujo de trabajo. A continuación, es necesario especificar el archivo que contiene los datos que se van a importar en la actividad **[!UICONTROL Data loading (file)]** .
 
 ![](assets/import_template_example9.png)
 
