@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 32076ea0a817d8649d1db9e39628221e15ede37e
 workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 91%
@@ -235,6 +235,7 @@ Se puede combinar la definición de un destinatario de prueba específico y el u
 En este vídeo aprenderá a añadir semillas y pruebas a un correo electrónico existente y a enviarlo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
+
 Consulte también:
 * [Selección del destino de la prueba](#selecting-the-proof-target)
 
