@@ -14,11 +14,11 @@ discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 959455ec92b40581f04cf0e357b6c0d3f3fba81c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1833'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -191,7 +191,7 @@ Para configurar Azure Synapse en Debian:
    sudo ACCEPT_EULA=Y apt-get install msodbcsql
    ```
 
-1. Si recibe el siguiente error **“No se encontró el controlador de método /usr/lib/apt/methods/https”** al consultar la **actualización de sudo apt-get**, debe ejecutar el comando:
+1. Si recibe el siguiente error **&quot;No se encontró el controlador de método /usr/lib/apt/methods/https&quot;** al consultar la **actualización de sudo apt-get**, debe ejecutar el comando:
 
    ```
    sudo apt-get install apt-transport-https ca-certificates
@@ -218,7 +218,7 @@ Para configurar Azure Synapse en Debian:
    /opt/mssql-tools/bin/sqlcmd -S yourServer -U yourUserName -P yourPassword -q "your query" # for example -q "select 1"
    ```
 
-1. En Campaign Classic, puede configurar la cuenta externa [!DNL Azure Synapse]. Para más información sobre cómo configurar la cuenta externa, consulte esta [sección](../../platform/using/specific-configuration-database.md#azure-external).
+1. En Campaign Classic, ahora puede configurar la cuenta externa [!DNL Azure Synapse]. Para más información sobre cómo configurar la cuenta externa, consulte esta [sección](../../platform/using/specific-configuration-database.md#azure-external).
 
 1. Para configurar iptables en Debian para garantizar la conexión con Azure Synapse Analytics, habilite el puerto TCP 1433 saliente para su nombre de host con el siguiente comando:
 
@@ -228,7 +228,7 @@ Para configurar Azure Synapse en Debian:
 
    >[!NOTE]
    >
-   >Para permitir la comunicación desde Azure Synapse Analytics, es posible que tenga que agregar su IP pública a la lista de permitidos. Para ello, consulte la  [documentación de Azure](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
+   >Para permitir la comunicación desde Azure Synapse Analytics, es posible que tenga que agregar su IP pública a la lista de permitidos. Para ello, consulte la [documentación de Azure](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
 ## Configuración del acceso a Snowflake {#configure-access-to-snowflake}
 
@@ -364,7 +364,7 @@ El conector también admite las siguientes opciones de Hive:
 |---|---|---|
 | bulkKey | Clave de acceso de Azure blob o DataLake | Para cargadores masivos wasb:// o wasbs:// (es decir, si la herramienta de carga masiva inicio con wasb:// o wasbs://). <br>Es la clave de acceso para blob o el bloque DataLake para la carga masiva. |
 | hdfsPort | número de puerto <br>establecido de forma predeterminada en 8020. | Para la carga masiva de HDFS (es decir, si la herramienta de carga masiva inicia con webhdfs:// o webhdfss://). |
-| bucketNumber | 20 | Número de bloques al crear una tabla agrupada. |
+| bucketsNumber | 20 | Número de bloques al crear una tabla agrupada. |
 | fileFormat | PARQUET | Formato de archivo predeterminado para tablas de trabajo. |
 
 ### Configuración de Hadoop 3.0 {#configuring-hadoop}
@@ -419,7 +419,7 @@ La conexión a una base de datos externa de Oracle en FDA requiere ciertas confi
 
    A continuación, cree una nueva variable de entorno TNS_ADMIN: exporte TNS_ADMIN=/etc/oracle y reinicie el equipo.
 
-1. Integre Oracle en el servidor de Adobe Campaign (nlserver). Para ello, compruebe que el archivo **customer.sh** esté presente en la carpeta “nl6” de la estructura del árbol de servidor de Adobe Campaign y que incluye los enlaces a las bibliotecas de Oracle.
+1. Integre Oracle en el servidor de Adobe Campaign (nlserver). Para ello, compruebe que el archivo **customer.sh** esté presente en la carpeta &quot;nl6&quot; de la estructura del árbol de servidor de Adobe Campaign y que incluye los enlaces a las bibliotecas de Oracle.
 
    Por ejemplo, para un cliente en 11.2:
 
