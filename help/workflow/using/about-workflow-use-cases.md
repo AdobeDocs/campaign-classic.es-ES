@@ -1,6 +1,6 @@
 ---
 title: Acerca de los casos de uso de flujos de trabajo
-description: Obtenga más información sobre casos de uso que puede realizar con flujos de trabajo de Campaign Classic.
+description: Obtenga más información sobre los casos de uso que puede realizar con los flujos de trabajo de Campaign Classic.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -11,18 +11,18 @@ topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6d9e2b54da9de37ed8f4f873a1049b35493112d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
 
 # Acerca de los casos de uso de flujos de trabajo {#about-workflow-use-cases}
 
-En esta sección, encontrará varios casos de uso que aprovechan las capacidades de Flujos de trabajo de la campaña.
+En esta sección, encontrará varios casos de uso que aprovechan las capacidades de los Flujos de trabajo de Campaign.
 
 Le ayudarán a descubrir los diferentes contextos en los que se pueden utilizar los flujos de trabajo y responder a sus necesidades.
 
@@ -53,9 +53,9 @@ Le ayudarán a descubrir los diferentes contextos en los que se pueden utilizar 
 * [Creación de la lista de resumen](../../workflow/using/creating-a-summary-list.md)
 * [Enriquecimiento de datos](../../workflow/using/enriching-data.md)
 * [Uso de agregados](../../workflow/using/using-aggregates.md)
-* [Importación de datos cifrados con una clave generada por Panel de control de Campaign](../../workflow/using/importing-data.md#use-case-gpg-decrypt)
-* [Codificación y exportación de datos mediante una clave instalada en el Panel de control de Campaign](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
-* [Actualización de lista trimestral mediante una consulta incremental](../../workflow/using/quarterly-list-update.md)
+* [Importación de datos cifrados con una clave generada por el Panel de control de Campaign](../../workflow/using/importing-data.md#use-case-gpg-decrypt)
+* [Codificación y exportación de datos con una clave instalada en el Panel de control de Campaign](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
+* [Actualización de la lista trimestral mediante una consulta incremental](../../workflow/using/quarterly-list-update.md)
 
 ## Diseño de consultas {#designing-queries}
 
