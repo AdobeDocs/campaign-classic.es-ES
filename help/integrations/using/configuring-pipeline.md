@@ -14,11 +14,11 @@ discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '917'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
@@ -32,14 +32,14 @@ Los activadores se utilizan para la segmentación mediante un flujo de trabajo d
 
 ## Requisitos previos {#prerequisites}
 
-El uso [!DNL Experience Cloud Triggers] en Campaña requiere:
+El uso [!DNL Experience Cloud Triggers] en Campaign requiere lo siguiente:
 
-* Adobe Campaign versión 6.11 compilación 8705 o posterior.
-* Adobe Analytics Ultimate, Premium, Foundation, OD, Select, Prime, Mobile Apps, Select o Standard.
+* Versión de Adobe Campaign 6.11 compilación 8705 o posterior.
+* Adobe Analytics Ultimate, Premium, Foundation, OD, Select, Prime, Mobile Apps, Select, o Standard.
 
 Las configuraciones de requisitos previos son:
 
-* Creación de un archivo de clave privada y luego la creación de la aplicación oAuth registrada con esa clave.
+* Creación de un archivo con clave privada y luego la creación de la aplicación oAuth registrada con esa clave.
 * Configuración de los activadores en Adobe Analytics.
 
 La configuración de Adobe Analytics está fuera del ámbito de este documento.
@@ -49,9 +49,9 @@ Adobe Campaign requiere la siguiente información de Adobe Analytics:
 * Nombre de la aplicación oAuth.
 * El valor de IMSOrgId, identificador del cliente Experience Cloud.
 * Nombres de los activadores configurados en Analytics.
-* Nombre y formato de los campos de datos que se van a conciliar con la base de datos de Marketing.
+* Nombre y formato de los campos de datos que se van a conciliar con la base de datos de marketing.
 
-Parte de esta configuración es un desarrollo personalizado y requiere lo siguiente:
+Parte de esta configuración tiene un desarrollo personalizado y requiere lo siguiente:
 
 * Conocimientos prácticos sobre análisis de JSON, XML y Javascript en Adobe Campaign.
 * Conocimientos prácticos de las API QueryDef y Writer.
@@ -59,13 +59,13 @@ Parte de esta configuración es un desarrollo personalizado y requiere lo siguie
 
 >[!NOTE]
 >
->Como la edición del código JS requiere habilidades técnicas, no lo intente sin la comprensión adecuada. <br>Los activadores se guardan en una tabla de base de datos. Por lo tanto, los operadores de marketing pueden utilizar los datos de activación de forma segura en flujos de trabajo de segmentación.
+>Como la edición del código JS requiere habilidades técnicas, no lo intente sin tener la comprensión adecuada. <br>Los activadores se guardan en una tabla de la base de datos. Por lo tanto, los operadores de marketing pueden utilizar los datos de activación de forma segura en flujos de trabajo de segmentación.
 
 ## Archivos de autenticación y configuración {#authentication-configuration}
 
-Se requiere autenticación porque la canalización está alojada en Adobe Experience Cloud.
-Si el servidor de Marketing está alojado en la empresa, cuando inicia sesión en Pipeline, debe autenticarse para tener una conexión segura.
-Utiliza un par de claves públicas y privadas. Este proceso es la misma función que un usuario/contraseña, solo más seguro.
+Se requiere la autenticación ya que la canalización está alojada en Adobe Experience Cloud.
+Si el servidor de marketing está alojado On-Premise, cuando inicia sesión en la canalización, debe autenticarse para tener una conexión segura.
+Utiliza un par de claves públicas y privadas. Este proceso tiene la misma función que un usuario/contraseña, solo que es más seguro.
 
 ### IMSOrgId {#imsorgid}
 
@@ -108,7 +108,7 @@ EwIDAQAB
 
 >[!NOTE]
 >
->Las claves no deben ser generadas por PuttyGen, OpenSSL es la mejor opción.
+>Las claves no deben generarse con PuttyGen, OpenSSL es la mejor opción.
 
 ### Creación automática de clientes en Adobe Experience Cloud {#oauth-client-creation}
 
@@ -117,7 +117,7 @@ Es necesario crear una aplicación de tipo JWT iniciando sesión en Adobe Analyt
 Siga estos pasos:
 
 1. Seleccione el **[!UICONTROL Service Account (JWT Assertion)]**.
-1. Introduzca el **[!UICONTROL Application Name]**.
+1. Escriba **[!UICONTROL Application Name]**.
 1. Registre el **[!UICONTROL Public key]**.
 1. Seleccione el activador **[!UICONTROL Scopes]**.
 
@@ -139,9 +139,9 @@ Ejemplo:
 
 ### Cifrado clave {#key-encription}
 
-Para que lo utilice [!DNL pipelined], la clave privada debe cifrarse. La codificación se realiza mediante la función cryptString Javascript y debe realizarse en la misma instancia que [!DNL pipelined].
+Para que la utilice [!DNL pipelined], la clave privada debe cifrarse. La codificación se realiza mediante la función cryptString Javascript y debe realizarse en la misma instancia que [!DNL pipelined].
 
-En esta [página](../../integrations/using/pipeline-troubleshooting.md)hay disponible un ejemplo de cifrado de clave privada con JavaScript.
+En esta [página](../../integrations/using/pipeline-troubleshooting.md) hay disponible un ejemplo de cifrado de clave privada con JavaScript.
 
 La clave privada cifrada debe estar registrada en Adobe Campaign. Puede hacerlo editando el archivo de configuración de instancia en el [!DNL pipelined] elemento, específicamente el atributo authPrivateKey.
 
@@ -151,7 +151,7 @@ Ejemplo:
 <pipelined autoStart="true" appName="applicationID" authPrivateKey="@qQf146pexBksGvo0esVIDO(…)"/>
 ```
 
-### inicio automático de proceso canalizado {#pipelined-auto-start}
+### Inicio automático de proceso de canalización {#pipelined-auto-start}
 
 El [!DNL pipelined] proceso debe iniciarse automáticamente.
 Para ello, establezca el elemento en el archivo de configuración en autostart=&quot;true&quot;:
@@ -160,37 +160,37 @@ Para ello, establezca el elemento en el archivo de configuración en autostart=&
 <pipelined autoStart="true" appName="applicationID" authPrivateKey="@qQf146pexBksGvo0esVIDO(…)"/>
 ```
 
-### Reinicio del proceso canalizado {#pipelined-restart}
+### Reinicio del proceso de canalización {#pipelined-restart}
 
-También se puede iniciar manualmente mediante la línea de comandos:
+También se puede iniciar manualmente con la línea de comandos:
 
 ```
 nlserver start pipelined@instance
 ```
 
-Se requiere un reinicio para que los cambios surtan efecto:
+Se requiere reiniciar para que los cambios surtan efecto:
 
 ```
 nlserver restart pipelined@instance
 ```
 
-En caso de errores, busque los errores en la salida estándar (si ha empezado manualmente) o en el archivo de [!DNL pipelined] registro. Consulte la sección Resolución de problemas de este documento para obtener más información sobre la resolución de problemas.
+En caso de errores, búsquelos en la salida estándar (si ha empezado manualmente) o en el [!DNL pipelined] archivo de registro. Consulte la sección Resolución de problemas de este documento para obtener más información sobre la resolución de problemas.
 
-### Opciones de configuración de tuberías {#pipelined-configuration-options}
+### Opciones de configuración de canalización {#pipelined-configuration-options}
 
 | Opción | Descripción |
 |:-:|:-:|
-| appName | ID de la aplicación OAuth (ID de aplicación) registrada en Adobe Analytics (donde se cargó la clave pública): Administración > Administración de usuarios > Aplicación de juramento heredado. Refer to this [section](../../integrations/using/configuring-pipeline.md#oauth-client-creation). |
+| appName | ID de la aplicación OAuth (ID de aplicación) registrada en Adobe Analytics (donde se cargó la clave pública): Administración > User Management > Aplicación de Oath heredado. Consulte esta [sección](../../integrations/using/configuring-pipeline.md#oauth-client-creation). |
 | authGatewayEndpoint | URL para obtener &quot;tokens de puerta de enlace&quot;. <br> Valor predeterminado: https://api.omniture.com |
-| authPrivateKey | Clave privada (parte pública cargada en Adobe Analytics (consulte esta sección). AES cifrado con la opción XtkSecretKey: xtk.session.EncryptPassword(&quot;PRIVATE_KEY&quot;); |
-| disableAuth | Deshabilitar la autenticación (la conexión sin tokens de puerta de enlace solo es aceptada por algunos extremos de canalización de desarrollo) |
-| discoverPipelineEndpoint | URL para descubrir el extremo de los servicios de tubería que se va a usar para este inquilino. Valor predeterminado: https://producer-pipeline-pnw.adobe.net |
-| dumpStatePeriodSec | El período entre 2 volcados del estado interno del proceso en var/INSTANCE/pipelined.json estado interno también está disponible a petición en http://INSTANCE/pipelined/status (puerto 7781). |
-| forcePipelineEndpoint | Deshabilitar el descubrimiento de PipelineServicesEndpoint y forzarlo |
-| monitorServerPort | El [!DNL pipelined] proceso escucha en este puerto para proporcionar el estado interno del proceso en http://INSTANCE/pipelined/status (puerto 7781). |
-| punteroFlushMessageCount | Cuando se procesa este número de mensajes, los desplazamientos se guardan en la base de datos. El valor predeterminado es 1000 |
-| punteroFlushPeriodSec | Después de este período, los desplazamientos se guardarán en la base de datos. El valor predeterminado es 5 (segundos) |
-| processingJSThwords | Número de mensajes de procesamiento de subprocesos dedicados con conectores JS personalizados. El valor predeterminado es 4 |
-| processingThwords | Número de mensajes de procesamiento de subprocesos dedicados con código integrado. El valor predeterminado es 4 |
-| tryPeriodSec | Retraso entre reintentos (si hay errores de procesamiento). El valor predeterminado es 30 (segundos) |
-| reintentarValiditySec | Descartar el mensaje si no se procesa correctamente después de este período (demasiados reintentos). El valor predeterminado es 300 (segundos) |
+| authPrivateKey | Clave privada (parte pública cargada en Adobe Analytics (consulte esta sección). AES cifrado con la opción XtkSecretKey: xtk.session.EncryptPassword(&quot;PRIVATE_KEY&quot;); |
+| disableAuth | Deshabilite la autenticación (la conexión sin tokens de puerta de enlace solo la aceptan algunos extremos de canalización de desarrollo) |
+| discoverPipelineEndpoint | URL para descubrir el extremo de los servicios de canalización que se va a usar para este inquilino. Valor predeterminado: https://producer-pipeline-pnw.adobe.net |
+| dumpStatePeriodSec | El período entre 2 volcados del estado interno del proceso en var/INSTANCE/pipelined.json estado interno también está disponible bajo demanda en http://INSTANCE/pipelined/status (puerto 7781). |
+| forcedPipelineEndpoint | Deshabilite el descubrimiento de PipelineServicesEndpoint y fuércelo |
+| monitorServerPort | El proceso [!DNL pipelined] escucha en este puerto para proporcionar el estado interno del proceso en http://INSTANCE/pipelined/status (puerto 7781). |
+| pointerFlushMessageCount | Cuando se procesa este número de mensajes, los desplazamientos se guardan en la base de datos. El valor predeterminado es 1000 |
+| pointerFlushPeriodSec | Después de este período, los desplazamientos se guardan en la base de datos. El valor predeterminado es 5 (segundos) |
+| processingJSThreads | Número de mensajes de procesamiento de los subprocesos dedicados con conectores JS personalizados. El valor predeterminado es 4 |
+| processingThreads | Número de mensajes de procesamiento de los subprocesos dedicados con código integrado. El valor predeterminado es 4 |
+| retryPeriodSec | Retraso entre reintentos (si hay errores de procesamiento). El valor predeterminado es 30 (segundos) |
+| retryValiditySec | Descarte el mensaje si no se procesa correctamente después de este período (demasiados reintentos). El valor predeterminado es 300 (segundos) |
