@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 24d2dded38ddb922891a7264d9efea02cb448323
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
 source-wordcount: '7069'
 ht-degree: 98%
@@ -38,7 +38,7 @@ Los vídeos de procedimientos ya están disponibles en los siguientes temas:
 
 * [Cómo configurar la gestión de la fatiga mediante reglas de tipología y filtros predefinidos](../../campaign/using/about-campaign-typologies.md)
 
-* [Cómo crear un correo electrónico en una campaña](../../campaign/using/designing-marketing-campaigns.md)
+* [Cómo crear un correo electrónico en una campaña](../../campaign/using/marketing-campaign-deliveries.md)
 
 * [Cómo crear una newsletter multilingüe con contenido condicional](../../delivery/using/conditional-content.md)
 
