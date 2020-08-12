@@ -18,7 +18,7 @@ translation-type: tm+mt
 source-git-commit: b14f5ecd2b06ed9f4cb49d8779b9f94ea4bcdddc
 workflow-type: tm+mt
 source-wordcount: '1176'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ El [canal de correo electrónico](../../delivery/using/about-email-channel.md) e
 
 Se pueden enviar diferentes tipos de correos electrónicos:
 
-* Correos electrónicos de envío único: correos electrónicos que se pueden enviar una vez a un destino definido. Suelen utilizarse para promocionar un contenido específico que se prepara y se envía una sola vez (boletín informativo, correo electrónico promocional, etc.).
+* Correos electrónicos de envío único: correos electrónicos que se pueden enviar una vez a un destino definido. Suelen utilizarse para promocionar un contenido específico que se prepara y se envía una sola vez (newsletter, correo electrónico promocional, etc.).
 * Correos electrónicos recurrentes: en una campaña, envíe el mismo correo electrónico regularmente y añada cada envío y sus informes periódicamente. Se envía el mismo correo electrónico, pero normalmente a un destino diferente, en función del destino apto para el día de la entrega. Un ejemplo común es un correo electrónico de cumpleaños. Para obtener más información, consulte [envíos recurrentes](../../workflow/using/recurring-delivery.md).
 * Correos electrónicos de transacción: correos electrónicos individuales que se activan según el comportamiento de los clientes. Consulte [mensajería transaccional](../../message-center/using/about-transactional-messaging.md).
 
@@ -82,7 +82,7 @@ Para los mensajes de LINE, puede enviar texto o imágenes y vínculos.
 Para enviar mensajes SMS o de LINE a un teléfono móvil se necesita:
 
 * Una cuenta externa configurada en el canal **[!UICONTROL Mobile (SMS)]** o en el canal **[!UICONTROL LINE]**.
-* Una plantilla de envío de SMS o LINE vinculada correctamente a esta cuenta externa.
+* Una plantilla de envíos de SMS o LINE vinculada correctamente a esta cuenta externa.
 
 ## Notificaciones push {#push-notifications}
 
@@ -100,9 +100,9 @@ Adobe Campaign ofrece plantillas de distribución de agencia o teléfono, que se
 
 Además, las entregas de tipo “Otros” utilizan una plantilla técnica específica que no ejecuta un proceso: esto les permite administrar las acciones de marketing ejecutadas fuera de la plataforma de Adobe Campaign.
 
-Este canal no tiene un mecanismo específico. Es un canal genérico con su propia opción de enrutamiento de cuenta externa, tipo de plantilla de envío y actividad de flujo de trabajo de campaña, igual que cualquier otro canal de comunicación disponible en Adobe Campaign.
+Este canal no tiene un mecanismo específico. Es un canal genérico con su propia opción de enrutamiento de cuenta externa, tipo de plantilla de envíos y actividad de flujo de trabajo de campaña, igual que cualquier otro canal de comunicación disponible en Adobe Campaign.
 
-Este canal está diseñado únicamente para fines descriptivos, por ejemplo para definir envíos para los que se desea mantener un seguimiento del destinatario de una campaña realizada en una herramienta distinta de Adobe Campaign.
+Este canal se ha diseñado únicamente para fines descriptivos, por ejemplo para definir envíos para los que se desea mantener un seguimiento del destinatario de una campaña realizada en una herramienta que no sea Adobe Campaign.
 
 ## Tipos de entregas{#types-of-deliveries}
 
