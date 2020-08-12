@@ -18,7 +18,7 @@ translation-type: tm+mt
 source-git-commit: 9f70468e3dd7003a18812d07669f10c561e8bef7
 workflow-type: tm+mt
 source-wordcount: '1145'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
@@ -29,15 +29,15 @@ ht-degree: 2%
 
 ### Archivo JavaScript {#file-js}
 
-Pipeline utiliza una función de JavaScript para procesar cada mensaje. Esta función está definida por el usuario.
+La canalización utiliza una función de JavaScript para procesar cada mensaje. Esta función está definida por el usuario.
 
-Se configura en la **[!UICONTROL NmsPipeline_Config]** opción bajo el atributo &quot;JSConnector&quot;. Se llama a este javascript cada vez que se recibe un evento. Está dirigido por el [!DNL pipelined] proceso.
+Se configura en la opción **[!UICONTROL NmsPipeline_Config]** bajo el atributo &quot;JSConnector&quot;. Se llama a este javascript cada vez que se recibe un evento. Está dirigido por el proceso [!DNL pipelined] .
 
 El archivo JS de muestra es cus:triggers.js.
 
 ### Función JavaScript {#function-js}
 
-El [!DNL pipelined] Javascript debe estar en inicio con una función específica.
+El [!DNL pipelined] Javascript debe iniciarse con una función específica.
 
 Esta función se llama una vez por cada evento:
 
@@ -45,7 +45,7 @@ Esta función se llama una vez por cada evento:
 function processPipelineMessage(xmlTrigger) {}
 ```
 
-Debería volver como
+Debería devolverse como
 
 ```
 <undefined/>
@@ -55,11 +55,11 @@ Reinicie [!DNL pipelined] después de editar el JS.
 
 ### Activar formato de datos {#trigger-format}
 
-Los [!DNL trigger] datos se pasan a la función JS. Está en formato XML.
+Los datos [!DNL trigger] se pasan a la función JS. Está en formato XML.
 
-* El **[!UICONTROL @triggerId]** atributo contiene el nombre del [!DNL trigger].
+* El atributo **[!UICONTROL @triggerId]** contiene el nombre del [!DNL trigger].
 * El elemento **enriquecimientos** en formato JSON contiene los datos generados por Analytics y se adjunta al activador.
-* **[!UICONTROL @offset]** es el &quot;puntero&quot; al mensaje. Indica el orden del mensaje en la cola.
+* **[!UICONTROL @offset]** es el &quot;puntero&quot; del mensaje. Indica el orden del mensaje en la cola.
 * **[!UICONTROL @partitio]**n es un contenedor de mensajes dentro de la cola. El desplazamiento es relativo a una partición. <br>Hay unas 15 particiones en la cola.
 
 Ejemplo:
@@ -71,16 +71,16 @@ Ejemplo:
  </trigger>
 ```
 
-### Formato de datos de Enriquecimiento {#enrichment-format}
+### Formato de datos de enriquecimiento {#enrichment-format}
 
 >[!NOTE]
 >
 >Es un ejemplo específico de varias implementaciones posibles.
 
 El contenido se define en Analytics para cada activador. Está en formato JSON.
-Por ejemplo, en un activador LogoUpload_upload_Visits:
+Por ejemplo, un activador LogoUpload_upload_Visits:
 
-* **[!UICONTROL eVar01]** puede contener el ID de comprador que se utiliza para reconciliar con destinatarios de Campaña. Está en formato String. <br>Debe conciliarse para encontrar el ID del comprador, que es la clave principal.
+* **[!UICONTROL eVar01]** puede contener el ID del comprador que se utiliza para reconciliar con destinatarios de Campaign. Está en formato de cadena. <br>Debe conciliarse para encontrar el ID del comprador, que es la clave primaria.
 
 * **[!UICONTROL timeGMT]** puede contener la hora del activador en el lado de Analytics. Está en formato UTC Epoch (segundos desde 01/01/1970 UTC).
 
@@ -108,11 +108,11 @@ Ejemplo:
  }
 ```
 
-### Orden de procesamiento de eventos {#order-events}
+### Orden del procesamiento de eventos {#order-events}
 
-Los eventos se procesan de uno en uno, por orden de desplazamiento. Cada subproceso del [!DNL pipelined] procesa una partición diferente.
+Los eventos se procesan de a uno, por orden de desplazamiento. Cada subproceso del [!DNL pipelined] procesa una partición diferente.
 
-El &quot;desplazamiento&quot; del último evento recuperado se almacena en la base de datos. Por lo tanto, si el proceso se detiene, se reinicia a partir del último mensaje. Estos datos se almacenan en el esquema integrado xtk:ducooffset.
+El &quot;desplazamiento&quot; del último evento recuperado se almacena en la base de datos. Por lo tanto, si el proceso se detiene, se reinicia a partir del último mensaje. Estos datos se almacenan en el esquema integrado xtk:pipelineOffset.
 
 Este puntero es específico para cada instancia y cada consumidor. Por lo tanto, cuando muchas instancias acceden a la misma canalización con diferentes consumidores, cada una recibe todos los mensajes y en el mismo orden.
 
@@ -122,14 +122,14 @@ Actualmente, no hay forma de tener diferentes colas para entornos separados como
 
 ### Registro y gestión de errores {#logging-error-handling}
 
-Registros como logInfo() se dirigen al [!DNL pipelined] registro. Errores como logError() se escriben en el [!DNL pipelined] registro y hacen que el evento se coloque en una cola de reintentos. Compruebe el registro de tuberías.
-Los mensajes de error se vuelven a intentar varias veces en la duración establecida en las [!DNL pipelined] opciones.
+Los registros como logInfo() se dirigen al registro [!DNL pipelined] . Los errores como logError() se escriben en el registro [!DNL pipelined] y hacen que el evento se coloque en una cola de reintentos. Compruebe el registro de canalización.
+Los mensajes de error se vuelven a intentar varias veces en la duración establecida en las opciones [!DNL pipelined] .
 
-Para fines de depuración y supervisión, los datos de desencadenador completos se escriben en la tabla de desencadenadores. Se encuentra en el campo &quot;data&quot; en formato XML. De forma alternativa, un logInfo() que contenga los datos desencadenadores tiene el mismo propósito.
+Para fines de depuración y monitoreo, los datos de desencadenador completos se escriben en la tabla de desencadenadores. Se encuentra en el campo &quot;data&quot; en formato XML. De forma alternativa, el logInfo() que contenga los datos desencadenadores tiene el mismo propósito.
 
 ### Análisis de los datos {#data-parsing}
 
-Este código JS de muestra analiza el eVar01 en los enriquecimientos.
+Este código JS de muestra analiza eVar01 en los enriquecimientos.
 
 ```
 function processPipelineMessage(xmlTrigger)
@@ -181,7 +181,7 @@ function processPipelineMessage(xmlTrigger)
 
 ### Restricciones {#constraints}
 
-El rendimiento de este código debe ser óptimo, ya que se ejecuta a altas frecuencias. Existen posibles efectos negativos para otras actividades de comercialización. Especialmente si se procesan más de un millón de eventos de activación por hora en el servidor de marketing. O si no está correctamente ajustado.
+El rendimiento de este código debe ser óptimo, ya que se ejecuta a altas frecuencias. Existen posibles efectos negativos de otras actividades de marketing. Especialmente si se procesan más de un millón de eventos de activación por hora en el servidor de marketing. O si no está correctamente ajustado.
 
 El contexto de este JavaScript es limitado. No todas las funciones de la API están disponibles. Por ejemplo, getOption() o getCurrentdate() no funcionan.
 
@@ -193,24 +193,24 @@ Para permitir un procesamiento más rápido, se ejecutan varios subprocesos de e
 >
 >Es un ejemplo específico de varias implementaciones posibles.
 
-### esquema de evento de tubería {#pipeline-event-schema}
+### esquema de evento de canalización{#pipeline-event-schema}
 
-Los Eventos se almacenan en una tabla de base de datos. Se utiliza en campañas de marketing para clientes de destinatario y enriquece los correos electrónicos mediante activadores.
+Los Eventos se almacenan en una tabla de la base de datos. Se utiliza en campañas de marketing para clientes de destinatario y enriquece los correos electrónicos mediante activadores.
 Aunque cada activador puede tener una estructura de datos distinta, todos los activadores se pueden guardar en una sola tabla.
-El campo desencadenadorTipo identifica de dónde se originan los datos.
+El campo triggerType identifica de dónde se originan los datos.
 
 Este es un ejemplo de código de esquema para esta tabla:
 
 | Atributo | Tipo | Etiqueta | Descripción |
 |:-:|:-:|:-:|:-:|
-| pelineEventId | Largo | Clave principal | La clave principal interna del activador. |
-| data | Nota | Activar datos | El contenido completo de los datos desencadenadores en formato XML. Para fines de depuración y auditoría. |
-| desencadenadorTipo | Cadena 50 | TriggerType | Nombre del activador. Identifica el comportamiento del cliente en el sitio web. |
-| shopper_id | Cadena 32 | shopper_id | Identificador interno del comprador. Definido por el flujo de trabajo de reconciliación. Si es cero, significa que el cliente es desconocido en Campaña. |
+| pipelineEventId | Largo | Clave principal | La clave primaria interna del activador. |
+| datos | Nota | Activar datos | El contenido completo de los datos desencadenadores en formato XML. Para fines de depuración y auditoría. |
+| triggerType | Cadena 50 | TriggerType | Nombre del activador. Identifica el comportamiento del cliente en el sitio web. |
+| shopper_id | Cadena 32 | shopper_id | Identificador interno del comprador. Definido por el flujo de trabajo de reconciliación. Si es cero, significa que el cliente es desconocido en Campaign. |
 | shopper_key | Largo | shopper_key | El Identificador externo del comprador según Analytics. |
-| created | Datetime | Creado | Hora a la que se creó el evento en Campaña. |
+| created | Datetime | Creado | Hora a la que se creó el evento en Campaign. |
 | lastModified | Datetime | Última modificación | La última vez que se modificó el evento en Adobe. |
-| timeGMT | Datetime | Marca de hora | Hora a la que se generó el evento en Analytics. |
+| timeGMT | Datetime | Marca de tiempo | Hora a la que se generó el evento en Analytics. |
 
 ### Visualización de los eventos {#display-events}
 
@@ -218,7 +218,7 @@ Los eventos se pueden mostrar con un formulario sencillo basado en el esquema de
 
 >[!NOTE]
 >
->El nodo Evento de canalización no está integrado y debe agregarse, así como el formulario relacionado debe crearse en Campaña. Estas operaciones están restringidas únicamente a usuarios expertos. Para obtener más información sobre esto, consulte estas secciones: [Jerarquía](../../configuration/using/about-navigation-hierarchy.md) de navegación y [edición de formularios](../../configuration/using/editing-forms.md).
+>El nodo Evento de canalización no está integrado y debe añadirse, así como el formulario relacionado debe crearse en Campaign. Estas operaciones están restringidas únicamente a usuarios expertos. Para obtener más información, consulte estas secciones: [Jerarquía](../../configuration/using/about-navigation-hierarchy.md) de navegación y [edición de formularios](../../configuration/using/editing-forms.md).
 
 ![](assets/triggers_7.png)
 
@@ -226,9 +226,9 @@ Los eventos se pueden mostrar con un formulario sencillo basado en el esquema de
 
 ### Flujo de trabajo de reconciliación {#reconciliation-workflow}
 
-La reconciliación es el proceso de hacer coincidir el cliente de Analytics con la base de datos de Campañas. Por ejemplo, los criterios para la coincidencia pueden ser shopper_id.
+La reconciliación es el proceso de hacer coincidir el cliente de Analytics con la base de datos de Campaign. Por ejemplo, los criterios para la coincidencia pueden ser shopper_id.
 
-Por motivos de rendimiento, la coincidencia debe realizarse en modo por lotes mediante un flujo de trabajo.
+Por motivos de desempeño, la coincidencia debe realizarse en modo por lotes mediante un flujo de trabajo.
 La frecuencia debe establecerse en 15 minutos para optimizar la carga de trabajo. Como consecuencia, el retraso entre una recepción de evento en Adobe Campaign y su procesamiento por un flujo de trabajo de marketing es de hasta 15 minutos.
 
 ### Opciones para la reconciliación de unidades en JavaScript {#options-unit-reconciliation}
@@ -239,9 +239,9 @@ Puede resultar difícil hacerlo si no se establece ningún índice en shopper_id
 
 ### Flujo de trabajo de depuración {#purge-workflow}
 
-Los activadores se procesan dentro de la hora, por lo que no hay razón para mantenerlos durante mucho tiempo. El volumen puede ser de aproximadamente 1 millón de activadores por hora. Explica por qué se debe implementar un flujo de trabajo de purga. La depuración elimina todos los activadores que tengan más de tres días y se ejecuten una vez al día.
+Los activadores se procesan dentro de la hora, por lo que no hay razón para mantenerlos durante mucho tiempo. El volumen puede ser de aproximadamente 1 millón de activadores por hora. Esto explica por qué se debe implementar un flujo de trabajo de depuración. La depuración elimina todos los activadores que tengan más de tres días y se ejecuta una vez al día.
 
-### Flujo de trabajo de Campaña {#campaign-workflow}
+### Flujos de trabajo de la campaña {#campaign-workflow}
 
-El flujo de trabajo de campaña de desencadenadores suele ser similar al de otras campañas recurrentes que se han utilizado.
-Por ejemplo, puede establecer un inicio con una consulta en los activadores que buscan eventos específicos durante el último día. Ese destinatario se utiliza para enviar el correo electrónico. Los Enriquecimientos o datos pueden provenir del activador. Marketing puede utilizarla de forma segura, ya que no requiere ninguna configuración.
+El flujo de trabajo de la campaña de desencadenadores suele ser similar al de otras campañas recurrentes que se han utilizado.
+Por ejemplo, puede establecer un inicio con una consulta en los activadores que buscan eventos específicos durante el último día. Ese destinatario se utiliza para enviar el correo electrónico. Los enriquecimientos o datos pueden provenir del activador. Marketing puede utilizarla de forma segura, ya que no requiere ninguna configuración.
