@@ -14,11 +14,11 @@ discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 959455ec92b40581f04cf0e357b6c0d3f3fba81c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1233'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Los conectores FDA heredados siguen siendo compatibles con Adobe. Sin embargo, r
 
 1. Cree el DSN (Nombre de la Fuente de Datos) y edite el archivo odbc.ini. A continuación, cree un DSN para su conexión Hive.
 
-   A continuación se muestra un ejemplo de HDInsight para configurar una conexión denominada “viral”:
+   A continuación se muestra un ejemplo de HDInsight para configurar una conexión denominada &quot;viral&quot;:
 
    ```
    [ODBC Data Sources]
@@ -150,7 +150,7 @@ La conexión a una base de datos externa de Netezza en FDA requiere ciertas conf
       InstallDir=/etc/
       ```
 
-      “InstallDir” corresponde a la ubicación del archivo odbcinst.ini.
+      &quot;InstallDir&quot; corresponde a la ubicación del archivo odbcinst.ini.
 
    * **/etc/odbcinst.ini**
 
@@ -175,7 +175,7 @@ La conexión a una base de datos externa de Netezza en FDA requiere ciertas conf
 
 1. Especifique las variables de entorno del servidor de Adobe Campaign:
 
-   * **LD_LIBRARY_PATH**: /usr/local/nz/lib y /usr/local/nz/lib64. “/usr/local/nz” corresponde al repositorio de instalación ofrecido de forma predeterminada al instalar los controladores. Aquí debe especificar el repositorio que ha seleccionado para la instalación.
+   * **LD_LIBRARY_PATH**: /usr/local/nz/lib y /usr/local/nz/lib64. &quot;/usr/local/nz&quot; corresponde al repositorio de instalación ofrecido de forma predeterminada al instalar los controladores. Aquí debe especificar el repositorio que ha seleccionado para la instalación.
    * **ODBCINI**: ubicación del archivo odbc.ini (por ejemplo, /etc/odbc.ini).
    * **NZ_ODBC_INI_PATH**: ubicación del archivo odbc.ini. Netezza también requiere esta segunda variable para utilizar el archivo odbc.ini.
 
@@ -281,7 +281,7 @@ La conexión a una base de datos externa de Teradata en FDA requiere ciertas con
       InstallDir=/etc/
       ```
 
-      “InstallDir” corresponde a la ubicación del archivo **odbcinst.ini**.
+      &quot;InstallDir&quot; corresponde a la ubicación del archivo **odbcinst.ini**.
 
    * **/etc/odbcinst.ini**
 
@@ -342,7 +342,7 @@ La conexión a una base de datos externa de SAP HANA en FDA requiere determinada
       User:SYSTEM
       ```
 
-      “InstallDir” corresponde a la ubicación del archivo **odbcinst.ini**.
+      &quot;InstallDir&quot; corresponde a la ubicación del archivo **odbcinst.ini**.
 
    * **/etc/odbcinst.ini**
 
