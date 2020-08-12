@@ -78,7 +78,7 @@ Para crear un operador nuevo y conceder permisos, siga los pasos a continuación
 
 1. Especifique los **[!UICONTROL Identification parameters]** del usuario: su nombre de inicio de sesión, contraseña y nombre. El operador utiliza el nombre de inicio de sesión y la contraseña para iniciar sesión en Adobe Campaign. Una vez que el usuario ha iniciado sesión, puede cambiar su contraseña mediante el menú **[!UICONTROL Tools > Change password]**. El correo electrónico del operador es esencial, ya que permite que el operador reciba notificaciones, por ejemplo, cuando se procesan las aprobaciones.
 
-   Esta sección también permite vincular un operador a una entidad de organización. Para obtener más información, consulte [esta página](../../campaign/using/about-distributed-marketing.md).
+   Esta sección también permite vincular un operador a una entidad organizativa. Para obtener más información, consulte [esta página](../../campaign/using/about-distributed-marketing.md).
 
 1. Seleccione los permisos otorgados al operador en la sección **[!UICONTROL Operator access rights]**.
 
@@ -106,7 +106,7 @@ Una vez que se ha creado el perfil del operador, puede agregar o actualizar su i
 
 >[!NOTE]
 >
->El campo **[!UICONTROL Session timeout]** permite ajustar el retraso antes del tiempo de espera de sesión FDA. Para más información, consulte [Acerca del acceso a datos federados](../../platform/using/about-fda.md).
+>El campo **[!UICONTROL Session timeout]** permite ajustar el retraso antes del tiempo de espera de sesión FDA. Para más información, consulte [Acerca del acceso de datos federado](../../platform/using/about-fda.md).
 
 ### Zona horaria del operador {#time-zone-of-the-operator}
 
@@ -357,7 +357,7 @@ Los grupos predeterminados y los derechos asignados permiten a los operadores ac
 
 La matriz de derechos de acceso a Adobe Campaign está disponible [aquí](/help/platform/using/assets/access-rights-matrix.pdf).
 
-[![imagen](assets/user_management.png)](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/administration-basics/assets/access-rights-matrix.pdf)
+[![imagen](assets/user_management.png)](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/getting-started/administration-basics/assets/access-rights-matrix.pdf)
 
 ## Administración de acceso a carpetas {#folder-access-management}
 
