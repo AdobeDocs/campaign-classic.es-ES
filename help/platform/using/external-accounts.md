@@ -73,7 +73,7 @@ La cuenta externa se crea y se agrega a la lista de cuentas externas. Ahora est�
 
 ## Cuenta externa de rebote de correos electrónicos {#bounce-mails-external-account}
 
-La cuenta externa **Rebote de correos electrónicos** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Para obtener más información, consulte esta [página](../../workflow/using/inbound-emails.md).
+La cuenta externa **Rebote de correos electrónicos** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Para obtener más información sobre esta cuenta externa, consulte esta [página](../../workflow/using/inbound-emails.md).
 
 Todos los servidores configurados para el acceso POP3 pueden utilizarse para recibir el correo electrónico devuelto.
 
@@ -477,7 +477,7 @@ Con los tipos de implementación **[!UICONTROL On-premise]** y **[!UICONTROL Off
    Nombre de la organización.
 Nombre de organización que se puede encontrar en el panel de recursos de desarrolladores del campo **[!UICONTROL Unique Name]** de Microsoft Dynamics.
 
-* **[!UICONTROL CRM version]** para in situ
+* **[!UICONTROL CRM version]** para On-Premise
 
    Versión de la CRM entre **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** o **[!UICONTROL Dynamics CRM 2016]**.
 
