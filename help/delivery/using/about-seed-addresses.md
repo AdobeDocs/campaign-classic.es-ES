@@ -14,11 +14,11 @@ discoiquuid: b49acfd0-b601-4694-88e3-cc0a169cb866
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: d96912e39956f2f7b0b0af29dc765d0b9775a020
-workflow-type: ht
-source-wordcount: '374'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
+workflow-type: tm+mt
+source-wordcount: '379'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,9 @@ Las direcciones semilla se utilizan para dirigirse a los destinatarios que no co
 
 Una de las razones principales para utilizarlas es **la protección de su lista de correo**. La inclusión de direcciones semilla en la lista de correo permite comprobar si la está utilizando un tercero, ya que las direcciones que contiene reciben las entregas enviados a la misma.
 
-Además, las direcciones semilla permiten **previsualizar y probar la personalización y la renderización de las entregas** antes de la entrega mediante la entrega de pruebas (consulte [Uso de direcciones semilla como prueba](../../delivery/using/steps-defining-the-target-population.md#using-seed-addresses-as-proof)).
+Además, las direcciones semilla permiten **previsualizar y probar la personalización y la renderización de las entregas** antes de la entrega mediante la entrega de pruebas (consulte [Uso de direcciones semilla como prueba](../../delivery/using/steps-defining-the-target-population.md#using-seed-addresses-as-proof).
+
+![](assets/do-not-localize/how-to-video.png) [Descubrir esta función en vídeo](../../delivery/using/steps-defining-the-target-population.md#seeds-and-proofs-video)
 
 La función de direcciones semilla tiene las siguientes ventajas:
 
