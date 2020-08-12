@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 32076ea0a817d8649d1db9e39628221e15ede37e
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1578'
 ht-degree: 91%
 
 ---
@@ -174,6 +174,9 @@ Se puede reducir el tamaño de la población objetivo. Para ello, en el campo **
 
 La prueba es un mensaje especial que permite probar una entrega antes de enviarla al destino principal. Los destinatarios de la prueba son los responsables de aprobar el formulario y el contenido del mensaje.
 
+![](assets/do-not-localize/how-to-video.png) [Descubrir esta función en vídeo](#seeds-and-proofs-video)
+
+
 Para seleccionar el destino de las pruebas, siga los siguientes pasos:
 
 1. Haga clic en el vínculo **[!UICONTROL To]**.
@@ -230,7 +233,7 @@ Se pueden utilizar **[!UICONTROL Seed addresses]** como destinatario de las prue
 
 Se puede combinar la definición de un destinatario de prueba específico y el uso de direcciones semilla con la opción **[!UICONTROL Specific target and Seed addresses]**. Las configuraciones relacionadas se definen en dos subpestañas independientes.
 
-## Cómo administrar semillas y pruebas en un correo electrónico
+## Cómo administrar semillas y pruebas en un correo electrónico {#seeds-and-proofs-video}
 
 En este vídeo aprenderá a añadir semillas y pruebas a un correo electrónico existente y a enviarlo.
 
