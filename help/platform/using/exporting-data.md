@@ -14,8 +14,11 @@ discoiquuid: fecadb66-b81d-4fb6-9971-7bfd024d70b7
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0ce6e5277c32bc18c20dca62e5b276f654d1ace5
+translation-type: tm+mt
+source-git-commit: b690e6c7141ba88c8ce72f631ec24fc068ade8f5
+workflow-type: tm+mt
+source-wordcount: '920'
+ht-degree: 87%
 
 ---
 
@@ -30,17 +33,17 @@ Los parámetros de exportación se registran mediante un asistente. El módulo d
 
 Al iniciar el asistente de exportación, primero debe seleccionar una plantilla. Por ejemplo, para configurar la exportación de destinatarios que se hayan registrado recientemente, siga los pasos a continuación:
 
-1. Seleccione la carpeta **[!UICONTROL Profiles and Targets > Job > Generic imports and exports]**.
+1. Select the **[!UICONTROL Profiles and Targets > Job > Generic imports and exports]** folder.
 1. Haga clic en **Nuevo** y, a continuación, en **Exportar** para crear la plantilla de exportación.
 
    ![](assets/s_ncs_user_export_wizard01.png)
 
 1. Haga clic en la flecha a la derecha del campo **[!UICONTROL Export template]** para seleccionar la plantilla o haga clic en **[!UICONTROL Select link]** para explorar el árbol.
 
-   La plantilla original es **[!UICONTROL New text export]**. Esta plantilla no debe modificarse, pero puede duplicarla para configurar una nueva plantilla. De forma predeterminada, las plantillas de exportación se guardan en el nodo **[!UICONTROL Resources > Templates > Job templates]**.
+   The native template is **[!UICONTROL New text export]**. Esta plantilla no debe modificarse, pero puede duplicarla para configurar una nueva plantilla. By default, export templates are saved in the **[!UICONTROL Resources > Templates > Job templates]** node.
 
 1. Introduzca un nombre para la exportación en el campo **[!UICONTROL Label]**. Puede añadir una descripción.
-1. Seleccione el tipo de exportación. Existen dos tipos posibles de exportación: **[!UICONTROL Exportación simple]** para exportar solo un archivo y **[!UICONTROL Exportación múltiple]** para exportar varios archivos en una sola ejecución, desde uno o varios tipos de documento de origen.
+1. Seleccione el tipo de exportación. There are two possible types of export: **[!UICONTROL Simple export]** to export only one file, and **[!UICONTROL Multiple export]** to export several files in a single execution, from one or more types of source document.
 
 ### Paso 2: Tipo de archivo de exportación {#step-2---type-of-file-to-export}
 
@@ -50,7 +53,7 @@ De forma predeterminada, cuando se inicia la exportación desde el nodo **[!UICO
 
 ![](assets/s_ncs_user_export_wizard02.png)
 
-* De forma predeterminada, la opción **[!UICONTROL Download the file generated on the server after the export]** está seleccionada. En el campo **[!UICONTROL Local file]**, indique el nombre y la ruta del archivo que va a crear o busque el disco local haciendo clic en la carpeta a la derecha del campo. Puede desmarcar esta opción para introducir la ruta de acceso y el nombre del archivo de salida del servidor.
+* By default, the **[!UICONTROL Download the file generated on the server after the export]** option is selected. En el campo **[!UICONTROL Local file]**, indique el nombre y la ruta del archivo que va a crear o busque el disco local haciendo clic en la carpeta a la derecha del campo. Puede desmarcar esta opción para introducir la ruta de acceso y el nombre del archivo de salida del servidor.
 
    >[!NOTE]
    >
@@ -58,7 +61,7 @@ De forma predeterminada, cuando se inicia la exportación desde el nodo **[!UICO
    >
    >Para exportar solo algunos datos, haga clic en **[!UICONTROL Advanced parameters]** e introduzca en el campo correspondiente el número de líneas que desea exportar.
 
-* Puede crear una exportación diferencial para exportar solo los registros que se han modificado desde la última ejecución. Para ello, haga clic en el vínculo **[!UICONTROL Advanced parameters]**, luego en la pestaña **[!UICONTROL Differential export]** y seleccione **[!UICONTROL Activate differential export]**.
+* Puede crear una exportación diferencial para exportar solo los registros que se han modificado desde la última ejecución. To do this, click the **[!UICONTROL Advanced parameters]** link, then click the **[!UICONTROL Differential export]** tab, then select **[!UICONTROL Activate differential export]**.
 
    ![](assets/s_ncs_user_export_wizard02_b.png)
 
@@ -71,15 +74,15 @@ Seleccione un formato de salida para el archivo de exportación. Se pueden utili
 ![](assets/s_ncs_user_export_wizard03.png)
 
 * En el caso de los archivos de formato **[!UICONTROL Text]**, seleccione los delimitadores para separar las columnas (tabulaciones, comas, punto y coma o personalizado) y las cadenas (comillas simples o dobles, o ninguna).
-* En el caso de los archivos **[!UICONTROL text]** y **[!UICONTROL CSV]**, puede seleccionar la opción **[!UICONTROL Use first lines as column titles]**.
+* Para **[!UICONTROL text]** y **[!UICONTROL CSV]**, puede seleccionar la opción **[!UICONTROL Use first lines as column titles]**.
 * Indique el formato de fecha y el formato de número. Para hacer esto, haga clic en el botón **[!UICONTROL Edit]** en el campo correspondiente y use el editor.
-* En los campos que contienen valores numéricos, puede seleccionar **[!UICONTROL Export labels instead of internal values of enumerations]**. Por ejemplo, el título se puede almacenar en el formulario **1=Mr.**, **2=Miss**, 3=Mrs.**. Si se selecciona esta opción, se exportan **Mr.**, **Miss** y **Mrs.**
+* For fields containing enumerated values, you can select **[!UICONTROL Export labels instead of internal values of enumerations]**. For example, the title can be stored in the form **1=Mr.**, **2=Miss**, **3=Mrs.**. Si se selecciona esta opción, se exportan **Mr.**, **Miss** y **Mrs.**
 
 ### Paso 4: Selección de datos {#step-4---data-selection}
 
 Seleccione los campos que desea exportar. Para ello:
 
-1. Haga doble clic en los campos deseados en la lista **[!UICONTROL Available fields]** para añadirlos a la sección **[!UICONTROL Output columns]**.
+1. Double-click the desired fields in the **[!UICONTROL Available fields]** list in order to add them to the **[!UICONTROL Output columns]** section.
 1. Utilice las flechas de la derecha de la lista para definir el orden de los campos en el archivo de salida.
 
    ![](assets/s_ncs_user_export_wizard04.png)
@@ -109,6 +112,7 @@ Puede modificar el orden y las etiquetas de los campos del archivo de salida y a
    * Cambiar a minúsculas
    * Cambiar a mayúsculas
    * Primera letra en mayúsculas
+
    ![](assets/s_ncs_user_export_wizard06.png)
 
 * Haga clic en **[!UICONTROL Add a calculated field]** si desea crear un nuevo campo calculado (por ejemplo, una columna que contenga apellidos y nombre). Para obtener más información, consulte [Campos calculados](../../platform/using/importing-data.md#calculated-fields).
@@ -119,7 +123,7 @@ Si desea exportar una recopilación de elementos (por ejemplo, suscripciones de 
 
 ### Paso 8: Previsualización de datos {#step-8---data-preview}
 
-Haga clic en **[!UICONTROL Start the preview of the data]** para obtener una previsualización del resultado de la exportación. De forma predeterminada, se muestran las 200 primeras líneas. Para cambiar este valor, haga clic en las flechas a la derecha del campo **[!UICONTROL Lines to display]**.
+Click **[!UICONTROL Start the preview of the data]** for a preview of the export result. De forma predeterminada, se muestran las 200 primeras líneas. Para cambiar este valor, haga clic en las flechas a la derecha del campo **[!UICONTROL Lines to display]**.
 
 ![](assets/s_ncs_user_export_wizard07.png)
 
