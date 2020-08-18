@@ -5,10 +5,10 @@ index: y
 product: adobe campaign
 sub-product: Adobe Campaign Classic
 translation-type: tm+mt
-source-git-commit: ee4addc88c6169603122259437d5cb0362851aa6
+source-git-commit: 8198c4aa6eccc0cbb5de4712ebdd8000783b615c
 workflow-type: tm+mt
-source-wordcount: '2113'
-ht-degree: 98%
+source-wordcount: '2110'
+ht-degree: 99%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 98%
       + [Importación y exportación genéricas](platform/using/generic-imports-and-exports.md)
       + [Exportación de datos](platform/using/exporting-data.md)
       + [Importación de datos](platform/using/importing-data.md)
-      + [SFTP server best practices and troubleshooting](platform/using/sftp-server-usage.md)
+      + [Uso del servidor SFTP](platform/using/sftp-server-usage.md)
    + Filtrado de datos {#filtering-data}
       + [Filtrado de opciones](platform/using/filtering-options.md)
       + [Creación de filtros](platform/using/creating-filters.md)
@@ -91,12 +91,12 @@ ht-degree: 98%
 + Envío de mensajes {#sending-messages}
    + [Introducción a los mensajes](delivery/using/communication-channels.md)
    + Prácticas recomendadas relacionadas con las entregas {#delivery-bestpractices}
-      + [Learn good practices](delivery/using/delivery-best-practices.md)
+      + [Conozca las prácticas recomendadas](delivery/using/delivery-best-practices.md)
       + [Optimización del envío](delivery/using/optimize-delivery.md)
       + [Uso de plantillas](delivery/using/use-templates.md)
       + [Creación de contenido personalizado](delivery/using/design-and-personalize.md)
       + [Definir la audiencia correcta](delivery/using/define-the-right-audience.md)
-      + [Check before sending](delivery/using/check-before-sending.md)
+      + [Comprobar antes de enviar](delivery/using/check-before-sending.md)
       + [Seguimiento y monitorización](delivery/using/track-and-monitor.md)
    + Pasos clave al crear una entrega {#key-steps-when-creating-a-delivery}
       + [Introducción a los envíos](delivery/using/steps-about-delivery-creation-steps.md)
