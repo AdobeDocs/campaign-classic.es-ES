@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc7ba0c26bd57a75c3dbeaec541844a3b1196ef3
+source-git-commit: 8198c4aa6eccc0cbb5de4712ebdd8000783b615c
 workflow-type: tm+mt
-source-wordcount: '7095'
+source-wordcount: '7096'
 ht-degree: 97%
 
 ---
@@ -55,7 +55,7 @@ Los vídeos de procedimientos ya están disponibles en los siguientes temas:
 
 * [Cómo configurar un envío continuo](../../workflow/using/continuous-delivery.md)
 
-Se ha añadido información sobre las comprobaciones y acciones que se deben realizar al obtener el error &quot;No se pudo resolver el nombre de host&quot; después de conectarse al servidor FTP. [Más información](../../platform/using/sftp-server-usage.md)
+Se ha añadido información sobre las comprobaciones y acciones que se deben realizar al obtener el error &quot;No se pudo resolver el nombre de host&quot; después de conectarse a un servidor FTP. [Más información](../../platform/using/sftp-server-usage.md)
 
 ## Julio de 2020 {#july-2020}
 
