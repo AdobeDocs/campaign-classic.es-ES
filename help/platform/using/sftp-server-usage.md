@@ -1,5 +1,5 @@
 ---
-title: Prácticas recomendadas y solución de problemas del servidor SFTP
+title: Uso del servidor SFTP
 description: Obtenga más información sobre las prácticas recomendadas y la solución de problemas del servidor SFTP.
 page-status-flag: never-activated
 uuid: 5281058d-91bd-4f98-835d-1d46dc7b8b1f
@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc7ba0c26bd57a75c3dbeaec541844a3b1196ef3
+source-git-commit: 8198c4aa6eccc0cbb5de4712ebdd8000783b615c
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '996'
 ht-degree: 64%
 
 ---
@@ -118,9 +118,9 @@ Este error indica que el nombre de dominio del servidor FTP no se pudo resolver 
    1. Compruebe si el nombre del servidor se ha agregado al servidor DNS local.
    1. Si es así, ejecute el siguiente comando en el servidor de Adobe Campaign para obtener la dirección IP:
 
-   `nslookup <server domain name>`
+      `nslookup <server domain name>`
 
-   Esto confirma que el servidor FTP funciona y se puede acceder a él desde el servidor de aplicaciones de Adobe Campaign.
+      Esto confirma que el servidor FTP funciona y se puede acceder a él desde el servidor de aplicaciones de Adobe Campaign.
 
 1. Solucionar problemas de registros **de sesión**:
 
@@ -128,11 +128,11 @@ Este error indica que el nombre de dominio del servidor FTP no se pudo resolver 
    1. Vaya a la **[!UICONTROL File Transfer]** ficha y haga clic en **[!UICONTROL Advanced Parameters]**.
    1. Marque la opción **[!UICONTROL Display the session logs]**.
 
-   ![](assets/sftp-error-display-logs.png)
+      ![](assets/sftp-error-display-logs.png)
 
    1. Vaya a la auditoría del flujo de trabajo y compruebe si los registros muestran el error &#39;No se pudo resolver el nombre de host&#39;.
 
-   Si el servidor SFTP está alojado por Adobe, compruebe si la IP se agrega a la lista de permitidos poniéndose en contacto con el Servicio de atención al cliente.
+1. Si el servidor SFTP está alojado por Adobe, compruebe si la IP se agrega a la lista de permitidos poniéndose en contacto con el Servicio de atención al cliente.
 
    De lo contrario, validar:
 
