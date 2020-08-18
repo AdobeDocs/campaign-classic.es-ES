@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 5598682078a8fd3c8d9ecdca083f3a310c48f5f0
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1120'
 ht-degree: 1%
 
 ---
@@ -257,7 +257,7 @@ Por ejemplo, una base de datos Unicode no sólo debe autorizar el almacenamiento
 
 En el equipo en el que está instalado el servidor de aplicaciones (**nlserver web**) de Adobe Campaign, descargue y copie el archivo
 
-**setup-client-6.** XXXX **.exe**
+**setup-client-6.XXXX.exe**
 
 en **[path de la aplicación]**datakitnlongjsp
 
@@ -271,7 +271,7 @@ La próxima vez que se conecten las consolas de cliente, una ventana informará 
 
 En el equipo en el que está instalado el servidor de aplicaciones de Adobe Campaign (**servidor Web**), recupere el siguiente paquete:
 
-**setup-client-6.** XXXX **.exe**
+**setup-client-6.XXXX.exe**
 
 y cópiela, guardando como **/usr/local/neolane/nl6/datakit/nl/eng/jsp**:
 
