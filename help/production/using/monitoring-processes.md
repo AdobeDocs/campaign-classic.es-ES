@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea6488686d19b020e55839afee97e71a13ce2e33
+source-git-commit: 68d532a9597877f2f265dfc2d16ea31d1ce80858
 workflow-type: tm+mt
 source-wordcount: '3602'
 ht-degree: 1%
@@ -29,7 +29,7 @@ El servidor de aplicaciones y el servidor de redirección (**seguimiento**) se p
 
 ## Monitoreo manual {#manual-monitoring}
 
-Vaya a **[!UICONTROL Monitoring]** y haga clic en el **[!UICONTROL Overview]** vínculo para mostrar la página de supervisión del proceso de Adobe Campaign.
+Vaya a **[!UICONTROL Monitoring]** y haga clic en el **[!UICONTROL Overview]** vínculo para mostrar la página de supervisión de procesos de Adobe Campaign.
 
 ![](assets/d_ncs_monitoring.png)
 
@@ -41,7 +41,7 @@ La página mostrada permite la vista del estado de la instancia conectada, es de
 
 En [esta página](../../production/using/monitoring-guidelines.md) se presentan formas adicionales de monitorizar los diferentes procesos de Campaign.
 
-### historial de registro {#log-journal}
+### Historial de registro {#log-journal}
 
 Es posible mostrar el historial de registro relacionado con un proceso. Para ello, haga clic en el proceso, **mta** por ejemplo, y luego haga clic en **[!UICONTROL Open the log journal]** .
 
@@ -96,7 +96,7 @@ La lista de los indicadores del sistema le permite mostrar información relativa
 
    **[!UICONTROL Alert]** :: este indicador se muestra cuando el espacio disponible en disco alcanza el 90 % de la capacidad total.
 
-* **[!UICONTROL Number of processes too old]** :: información relativa a los procesos de Adobe Campaign que han estado activos durante más de un día.
+* **[!UICONTROL Number of processes too old]** :: información sobre los procesos de Adobe Campaign que han estado activos durante más de un día.
 
    **[!UICONTROL Current value]** :: número de procesos actualmente activos.
 
@@ -149,7 +149,7 @@ La lista de los indicadores del sistema le permite mostrar información relativa
 
    Cuando se muestran los indicadores **[!UICONTROL Warning]** y **[!UICONTROL Alert]** , puede resolver el problema aumentando el tamaño del archivo de intercambio.
 
-* **[!UICONTROL Core Files]** :: información relativa a los archivos generados tras el bloqueo de un proceso de Adobe Campaign. Estos archivos le permiten diagnosticar los motivos del bloqueo.
+* **[!UICONTROL Core Files]** :: información sobre los archivos generados tras el bloqueo de un proceso de Adobe Campaign. Estos archivos le permiten diagnosticar los motivos del bloqueo.
 
    **[!UICONTROL Current Value]** :: número de archivos existentes.
 
@@ -159,7 +159,7 @@ La lista de los indicadores del sistema le permite mostrar información relativa
 
    **[!UICONTROL Alert]** :: este indicador se muestra cuando el número de archivos es igual a 1.
 
-   Cuando falta un proceso debido a un bloqueo, se muestra en rojo en la lista de procesos y se reinicia automáticamente mediante el proceso de **vigilancia** proporcionado por Adobe Campaign.
+   Cuando falta un proceso debido a un bloqueo, se muestra en rojo en la lista de los procesos y el proceso de **vigilancia** proporcionado por Adobe Campaign lo reinicia automáticamente.
 
 * **[!UICONTROL Number of shared memory segments]** :: información sobre los segmentos de memoria compartidos por todos los procesos de Adobe Campaign.
 
@@ -249,7 +249,7 @@ Adobe Campaign llamará a este archivo.
 
 ## Informes SMTP {#smtp-reports}
 
-Los informes de supervisión de envío SMTP están integrados en la plataforma de Adobe Campaign. Se puede acceder a ellos a través de la consola o mediante el acceso Web.
+Los informes de supervisión de envío SMTP están integrados en la plataforma Adobe Campaign. Se puede acceder a ellos a través de la consola o mediante el acceso Web.
 
 Estos informes muestran las estadísticas de envío SMTP y los errores SMTP por dominio.
 
@@ -263,6 +263,7 @@ Se agrupan en **Supervisión** > &#39;Supervisión SMTP&#39;.
 >
 >* La información relacionada con la supervisión SMTP solo está disponible si se ha activado el canal de correo electrónico.
 >* Los **[!UICONTROL SMTP sending statistics]** se ofrecen únicamente si se inicia el servidor de estadísticas en la instancia.
+
 >
 
 
@@ -282,13 +283,14 @@ La lista de los indicadores para este informe se muestra debajo del gráfico.
    * Línea verde: mensajes enviados correctamente (coincide con los datos salientes).
 
    * Línea roja: mensajes abandonados por el Shaper, devueltos al **mta** (coincide con los datos rechazados en esta recuperación).
+
    Estos valores se expresan en número de mensajes por hora.
 
 1. Representa dos colas del Shaper:
 
    * Curva azul: cola de mensajes activos. Estos mensajes se enviarán lo antes posible.
 
-   * Curva Kaki: la cola &#39;diferida&#39;. Estos mensajes no se pueden devolver por el momento debido a la limitación o a que no hay ninguna conexión con el destinatario disponible. Los Reintentos se realizarán cada 5, 10, 20, 40, 2 minutos, etc. para el tiempo **MaxAgeSec** definido antes de ser abandonado.
+   * Curva Kaki: la cola &#39;diferida&#39;. Estos mensajes no se pueden devolver por el momento debido a la limitación o a que no hay ninguna conexión con el destinatario disponible. Los reintentos se realizarán cada 5, 10, 20, 40, 2 minutos, etc. para el tiempo **MaxAgeSec** definido antes de ser abandonado.
 
 1. Este gráfico muestra un detalle de los mensajes abandonados (curva roja en el segundo gráfico): muestra la proporción de mensajes abandonados sin reintentos (mauve) en comparación con los mensajes cuyo envío falló (rojo). Esto permite la vista de la proporción de mensajes no procesados dentro del período concedido debido a limitaciones del servidor de estadísticas (limitación) o a la falta de disponibilidad del servidor remoto.
 1. Las conexiones SMTP se abren o se abren.
@@ -356,8 +358,8 @@ Una vez que se inicia el flujo de trabajo cada 25 días del mes, el operador de 
 
 Las siguientes métricas están disponibles para rastrear sus envíos:
 
-* **[!UICONTROL Start date]** :: Fecha de Inicio del envío. Tenga en cuenta que puede ser anterior a la fecha &quot;de&quot; del informe.
-* **[!UICONTROL Label]** :: Etiqueta del envío. Los Envíos que tienen menos de 100 mensajes para enviar se consideran demasiado pequeños y, por lo tanto, se agregan por fecha de inicio, en cuyo caso la etiqueta muestra el número de agregados, por ejemplo, [agregación de 3 envíos]pequeños.
+* **[!UICONTROL Start date]** :: Fecha de inicio del envío. Tenga en cuenta que puede ser anterior a la fecha &quot;de&quot; del informe.
+* **[!UICONTROL Label]** :: Etiqueta del envío. Los envíos que tienen menos de 100 mensajes para enviar se consideran demasiado pequeños y, por lo tanto, se agregan por fecha de inicio, en cuyo caso la etiqueta muestra el número de agregados, por ejemplo, [agregación de 3 envíos]pequeños.
 * **[!UICONTROL Total volume]** :: Volumen total de bytes transferidos para el envío.
 * **[!UICONTROL Avg volume]** :: Volumen medio de bytes transferidos. Este es el resultado de la siguiente fórmula **(volumen total / mensajes)**, que es la base de cálculo de la **[!UICONTROL Multiplier]** métrica.
 * **[!UICONTROL Messages]** :: Número de mensajes enviados. Esto incluye tanto los mensajes que se enviaron correctamente como los reintentos (tras la recepción de un mensaje de devolución del servidor con el que se ha contactado).
@@ -366,7 +368,7 @@ Las siguientes métricas están disponibles para rastrear sus envíos:
 
 ## Supervisión automática {#automatic-monitoring}
 
-Adobe Campaign oferta varios métodos de control automático, que se presentan a continuación.
+Adobe Campaign oferta varios métodos de monitoreo automático, que se presentan a continuación.
 
 ### Línea de comandos {#command-line}
 
@@ -374,7 +376,7 @@ Comando
 
 **monitor nlserver**
 
-Permite la lista de un conjunto de indicadores en los módulos de Adobe Campaign y en el sistema.
+Permite la lista de un conjunto de indicadores en los módulos Adobe Campaign y en el sistema.
 
 Genera resultados en un formato XML fácilmente procesado.
 
@@ -424,7 +426,7 @@ Se trata de una prueba para comprobar que un operador puede acceder al servidor 
 
 ![](assets/ncs_monitoring_web.png)
 
-**Uso**: debe utilizarse como argumento un token de sesión asociado con un inicio de sesión del operador que le permita conectarse a la instancia (consulte la sugerencia de la supervisión [automática mediante secuencias de comandos](#automatic-monitoring-via-adobe-campaign-scripts)de Adobe Campaign).
+**Uso**: debe utilizarse como argumento un token de sesión asociado con un inicio de sesión del operador que le permita conectarse a la instancia (consulte la sugerencia de la supervisión [automática mediante scripts](#automatic-monitoring-via-adobe-campaign-scripts)de Adobe Campaign).
 
 El operador y su inicio de sesión deben configurarse previamente en la consola cliente de Adobe Campaign con los derechos y restricciones de base de datos correspondientes.
 
@@ -432,7 +434,7 @@ El operador y su inicio de sesión deben configurarse previamente en la consola 
 
 #### /nl/jsp/soaprouter.jsp {#nl-jsp-soaprouter-jsp}
 
-Este **jsp** representa el punto de entrada de las API de aplicaciones Adobe Campaign. Por lo tanto, puede realizar un seguimiento detallado de la aplicación. También puede utilizarse para supervisar los servicios web de Adobe Campaign. Se utiliza en nuestros scripts de monitoreo, pero tenga en cuenta que es sólo para usuarios avanzados.
+Este **jsp** representa el punto de entrada de las API de aplicaciones de Adobe Campaign. Por lo tanto, puede realizar un seguimiento detallado de la aplicación. También puede utilizarse para supervisar los servicios web de Adobe Campaign. Se utiliza en nuestros scripts de monitoreo, pero tenga en cuenta que es sólo para usuarios avanzados.
 
 ### Monitoreo basado en tipos de implementación {#monitoring-based-on-deployment-types}
 
@@ -493,7 +495,7 @@ Adobe Campaign puede proporcionar una herramienta de supervisión de instancias 
 
 Se requieren las siguientes precauciones previas a la instalación para la monitorización automática:
 
-* Debe tener los archivos **netreport.tgz ** (instalación de Linux) o **netreport.zip** (instalación de Windows),
+* Debe tener los archivos **netreport.tgz** (instalación de Linux) o **netreport.zip** (instalación de Windows),
 * Le recomendamos encarecidamente que no instale la supervisión en el equipo que se va a supervisar,
 * debe instalarse en un equipo con un JRE o un JDK,
 * en Linux, la máquina a monitorear debe tener el paquete **bc** . Para obtener más información, consulte [esta sección](../../installation/using/installing-packages-with-linux.md#distribution-based-on-rpm--packages).
@@ -506,7 +508,7 @@ El procedimiento de instalación es el siguiente:
 1. Ejecute la extracción del archivo.
 1. Lea el archivo **léame** .
 1. Actualice el archivo de configuración **netconf.xml** .
-1. Actualice el **archivo netreport.bat** (Windows) o **netreport.sh **(Linux).
+1. Actualice el **archivo netreport.bat** (Windows) o **netreport.sh** (Linux).
 
 ### Configuración del archivo netconf.xml {#configuring-the-netconf-xml-file}
 
