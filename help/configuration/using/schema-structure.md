@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
+source-git-commit: 8e4fc977daf9039ee8587bf505d7406fd863e68b
+workflow-type: tm+mt
+source-wordcount: '1566'
+ht-degree: 12%
 
 ---
 
@@ -65,7 +68,7 @@ La estructura básica de un `<srcschema>` es la siguiente:
 </srcSchema>
 ```
 
-The XML document of a data schema must contain the **`<srcschema>`** root element with the **name** and **namespace** attributes to populate the schema name and its namespace.
+El documento XML de un esquema de datos debe contener **`<srcschema>`** el elemento raíz con los atributos **name** y **namespace** para rellenar el nombre del esquema y su área de nombres.
 
 ```
 <srcSchema name="schema_name" namespace="namespace">
@@ -81,7 +84,7 @@ Utilice el siguiente contenido XML para ilustrar la estructura de un esquema de 
 </recipient>
 ```
 
-Con su esquema de datos correspondiente:
+Con su correspondiente esquema de datos:
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -129,7 +132,7 @@ Deben respetarse las siguientes normas:
 
 * Solo **`<element>`** los elementos pueden contener **`<attribute>`** elementos y **`<element>`** elementos en la estructura XML.
 * Un **`<attribute>`** elemento debe tener un nombre único dentro de un **`<element>`**.
-* Se recomienda el uso de**`<elements>`** en cadenas de datos de varias líneas.
+* Se recomienda el uso de **`<elements>`** en cadenas de datos multilínea.
 
 ## Tipos de datos {#data-types}
 
@@ -139,7 +142,7 @@ Hay una lista detallada disponible en la descripción del [`<attribute>` element
 
 Cuando este atributo no se rellena, **la cadena** es el tipo de datos predeterminado a menos que el elemento contenga elementos secundarios. Si lo hace, solo se utiliza para estructurar los elementos jerárquicamente (elemento en nuestro ejemplo **`<location>`** ).
 
-Los esquemas admiten los siguientes tipos de datos:
+Los siguientes tipos de datos son compatibles con los esquemas:
 
 * **cadena**: cadena de caracteres. Ejemplos: un nombre, una ciudad, etc.
 
@@ -147,7 +150,7 @@ Los esquemas admiten los siguientes tipos de datos:
 
 * **booleano**: Campo booleano. Ejemplo de valores posibles: true/false, 0/1, sí/no, etc.
 * **byte**, **abreviado**, **largo**: enteros (1 byte, 2 bytes, 4 bytes). Ejemplos: una edad, un número de cuenta, un número de puntos, etc.
-* **doble**: número de coma flotante de doble precisión. Ejemplos: precio, tarifa, etc.
+* **doble**: Número de punto flotante con precisión de doble. Ejemplos: precio, tarifa, etc.
 * **fecha**, **fecha y hora**: fechas y fechas + horas. Ejemplos: fecha de nacimiento, fecha de compra, etc.
 * **datetimenotz**: fecha + hora sin datos de huso horario.
 * **timespan**: duraciones. Ejemplo: antigüedad.
@@ -175,12 +178,12 @@ Este es nuestro esquema de ejemplo con los tipos introducidos:
 
 ### Asignación de los tipos de datos de Adobe Campaign/DBMS {#mapping-the-types-of-adobe-campaign-dbms-data}
 
-La tabla siguiente muestra las asignaciones para los tipos de datos generados por Adobe Campaign para los distintos sistemas de administración de bases de datos.
+La siguiente tabla lista las asignaciones para los tipos de datos generados por Adobe Campaign para los diferentes sistemas de administración de bases de datos.
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>Espacio de trabajo de Adobe Campaign</strong><br /> </td> 
+   <td> <strong>Adobe Campaign</strong><br /> </td> 
    <td> <strong>PosgreSQL</strong><br /> </td> 
    <td> <strong>Oracle</strong><br /> </td> 
    <td> <strong>Teradata</strong><br /> </td> 
@@ -221,7 +224,7 @@ La tabla siguiente muestra las asignaciones para los tipos de datos generados po
   </tr> 
   <tr> 
    <td> Duplicada<br /> </td> 
-   <td> PRECISIÓN DOBLE<br /> </td> 
+   <td> PRECISIÓN DE doble<br /> </td> 
    <td> FLOAT<br /> </td> 
    <td> FLOAT<br /> </td> 
    <td> DOUBLE<br /> </td> 
@@ -247,37 +250,37 @@ La tabla siguiente muestra las asignaciones para los tipos de datos generados po
    <td> Fecha<br /> </td> 
    <td> DATE<br /> </td> 
    <td> DATE<br /> </td> 
-   <td> MARCA DE HORA<br /> </td> 
+   <td> TIMESTAMP<br /> </td> 
    <td> DATE<br /> </td> 
    <td> DATETIME<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tiempo<br /> </td> 
-   <td> TIEMPO<br /> </td> 
+   <td> Time<br /> </td> 
+   <td> TIME<br /> </td> 
    <td> FLOAT<br /> </td> 
-   <td> TIEMPO<br /> </td> 
-   <td> TIEMPO<br /> </td> 
+   <td> TIME<br /> </td> 
+   <td> TIME<br /> </td> 
    <td> FLOAT<br /> </td> 
   </tr> 
   <tr> 
    <td> Datetime<br /> </td> 
    <td> TIMESTAMPZ<br /> </td> 
    <td> DATE<br /> </td> 
-   <td> MARCA DE HORA<br /> </td> 
-   <td> MARCA DE HORA<br /> </td> 
+   <td> TIMESTAMP<br /> </td> 
+   <td> TIMESTAMP<br /> </td> 
    <td> MS SQL &lt; 2008: DATETIME<br /> MS SQL &gt;= 2012: DATETIMEOFFSET<br /> </td> 
   </tr> 
   <tr> 
    <td> Datetimenotz<br /> </td> 
    <td> TIMESTAMPZ<br /> </td> 
    <td> DATE<br /> </td> 
-   <td> MARCA DE HORA<br /> </td> 
-   <td> MARCA DE HORA<br /> </td> 
+   <td> TIMESTAMP<br /> </td> 
+   <td> TIMESTAMP<br /> </td> 
    <td> MS SQL &lt; 2008: DATETIME<br /> MS SQL &gt;= 2012: DATETIME2<br /> </td> 
   </tr> 
   <tr> 
    <td> Intervalo de tiempo<br /> </td> 
-   <td> PRECISIÓN DOBLE<br /> </td> 
+   <td> PRECISIÓN DE doble<br /> </td> 
    <td> FLOAT<br /> </td> 
    <td> FLOAT<br /> </td> 
    <td> DOUBLE<br /> </td> 
@@ -304,7 +307,7 @@ La tabla siguiente muestra las asignaciones para los tipos de datos generados po
 
 ## Propiedades {#properties}
 
-Los elementos **`<elements>`** y **`<attributes>`** del esquema de datos se pueden enriquecer con diversas propiedades. Puede rellenar una etiqueta para describir el elemento actual.
+Los elementos **`<elements>`** y **`<attributes>`** elementos del esquema de datos se pueden enriquecer con diversas propiedades. Puede rellenar una etiqueta para describir el elemento actual.
 
 ### Etiquetas y descripciones {#labels-and-descriptions}
 
@@ -340,7 +343,7 @@ Los elementos **`<elements>`** y **`<attributes>`** del esquema de datos se pued
 
 ### Valores predeterminados {#default-values}
 
-La propiedad **predeterminada** permite definir una expresión que devuelve un valor predeterminado en la creación de contenido.
+La propiedad **predeterminada** permite definir una expresión que devuelve un valor predeterminado al crear contenido.
 
 El valor debe ser una expresión compatible con el lenguaje XPath. Para obtener más información sobre esto, consulte [Referencia con XPath](../../configuration/using/schema-structure.md#referencing-with-xpath).
 
@@ -353,23 +356,23 @@ El valor debe ser una expresión compatible con el lenguaje XPath. Para obtener 
 
    >[!NOTE]
    >
-   >En la consola de cliente de Adobe Campaign, el **[!UICONTROL Administration>Counters]** nodo se utiliza para administrar los contadores.
+   >En la consola de cliente de Adobe Campaign, el **[!UICONTROL Administration>Counters]** nodo se utiliza para administrar contadores.
 
 Para vincular un valor predeterminado a un campo, puede utilizar la variable `<default>  or  <sqldefault>   field.  </sqldefault> </default>`
 
 `<default>` :: permite rellenar previamente el campo con un valor predeterminado al crear entidades. El valor no será un valor SQL predeterminado.
 
-`<sqldefault>` :: permite tener un valor añadido al crear un campo. Este valor aparece como un resultado SQL. Durante una actualización de esquema, solo los registros nuevos se verán afectados por este valor.
+`<sqldefault>` :: permite tener un valor añadido al crear un campo. Este valor aparece como un resultado SQL. Durante una actualización de esquema, solo los nuevos registros se verán afectados por este valor.
 
 ### Enumeraciones {#enumerations}
 
-#### Enumeración libre {#free-enumeration}
+#### Lista desglosada libre {#free-enumeration}
 
-La propiedad **userEnum** permite definir una enumeración gratuita para memorizar y mostrar los valores introducidos mediante este campo. La sintaxis es la siguiente:
+La propiedad **userEnum** permite definir una lista desglosada gratuita para memorizar y mostrar los valores introducidos mediante este campo. La sintaxis es la siguiente:
 
-**userEnum=&quot;name of enumeration&quot;**
+**userEnum=&quot;name of lista desglosada&quot;**
 
-El nombre asignado a la enumeración se puede elegir libremente y compartir con otros campos.
+El nombre asignado a la lista desglosada se puede elegir libremente y compartir con otros campos.
 
 Estos valores se muestran en una lista desplegable desde el formulario de entrada:
 
@@ -377,19 +380,19 @@ Estos valores se muestran en una lista desplegable desde el formulario de entrad
 
 >[!NOTE]
 >
->En la consola de cliente de Adobe Campaign, el **[!UICONTROL Administration > Enumerations]** nodo se utiliza para administrar las enumeraciones.
+>En la consola cliente de Adobe Campaign, el **[!UICONTROL Administration > Enumerations]** nodo se utiliza para administrar listas desglosadas.
 
-#### Establecer enumeración {#set-enumeration}
+#### Definir lista desglosada {#set-enumeration}
 
-La propiedad **enum** permite definir una enumeración fija utilizada cuando la lista de valores posibles se conoce por adelantado.
+La propiedad **enum** permite definir una lista desglosada fija que se utiliza cuando la lista de valores posibles se conoce por adelantado.
 
-El atributo **enum** hace referencia a la definición de una clase de enumeración rellenada en el esquema fuera del elemento principal.
+El atributo **enum** hace referencia a la definición de una clase de lista desglosada rellenada en el esquema fuera del elemento principal.
 
-Las enumeraciones permiten al usuario seleccionar un valor de una lista desplegable en lugar de introducir el valor en un campo de entrada normal:
+Las listas desglosadas permiten al usuario seleccionar un valor de una lista desplegable en lugar de introducir el valor en un campo de entrada normal:
 
 ![](assets/d_ncs_integration_schema_enum.png)
 
-Ejemplo de una declaración de enumeración en el esquema de datos:
+Ejemplo de una declaración de lista desglosada en el esquema de datos:
 
 ```
 <enumeration name="gender" basetype="byte" default="0">    
@@ -399,29 +402,29 @@ Ejemplo de una declaración de enumeración en el esquema de datos:
 </enumeration>
 ```
 
-Una enumeración se declara fuera del elemento principal mediante el **`<enumeration>`** elemento .
+Se declara una lista desglosada fuera del elemento principal mediante el **`<enumeration>`** elemento .
 
-Las propiedades de enumeración son las siguientes:
+Las propiedades de lista desglosada son las siguientes:
 
 * **baseType**: tipo de datos asociados a los valores,
-* **label**: descripción de la enumeración,
-* **name**: nombre de la enumeración,
-* **predeterminado**: valor predeterminado de la enumeración.
+* **label**: descripción de la lista desglosada,
+* **name**: nombre de la lista desglosada,
+* **predeterminado**: valor predeterminado de la lista desglosada.
 
-Los valores de enumeración se declaran en el **`<value>`** elemento con los atributos siguientes:
+Los valores de lista desglosada se declaran en el **`<value>`** elemento con los atributos siguientes:
 
 * **name**: nombre del valor almacenado internamente,
 * **label**: se muestra mediante la interfaz gráfica.
 
-#### enumeración de dbenum {#dbenum-enumeration}
+#### lista desglosada dbenum {#dbenum-enumeration}
 
-* La propiedad **dbenum** permite definir una enumeración cuyas propiedades son similares a las de la propiedad **enum** .
+* La propiedad **dbenum** permite definir una lista desglosada cuyas propiedades son similares a las de la propiedad **enum** .
 
-   Sin embargo, el atributo **name** no almacena el valor internamente, sino que almacena un código que permite ampliar las tablas afectadas sin modificar su esquema.
+   Sin embargo, el atributo **name** no almacena el valor internamente, sino que almacena un código que permite extender las tablas correspondientes sin modificar su esquema.
 
    Los valores se definen mediante el **[!UICONTROL Administration>Enumerations]** nodo.
 
-   Esta enumeración se utiliza para especificar, por ejemplo, la naturaleza de las campañas.
+   Esta lista desglosada se utiliza para especificar la naturaleza de las campañas, por ejemplo.
 
    ![](assets/d_ncs_configuration_schema_dbenum.png)
 
@@ -454,7 +457,7 @@ Una colección es una lista de elementos con el mismo nombre y el mismo nivel je
 
 El atributo **unbound** con el valor &quot;true&quot; permite rellenar un elemento de recopilación.
 
-**Ejemplo**: definición del elemento de la **`<group>`** colección en el esquema.
+**Ejemplo**: definición del elemento de **`<group>`** colección en el esquema.
 
 ```
 <element name="group" unbound="true" label="List of groups">
@@ -482,8 +485,8 @@ Los elementos se designan por su nombre y los atributos se designan por el nombr
 * **@email**: selecciona el correo electrónico,
 * **location/@city**: selecciona el atributo &quot;city&quot; en el **`<location>`** elemento
 * **../@email**: selecciona la dirección de correo electrónico del elemento principal del elemento actual
-* **grupo`[1]/@label`**: selecciona el atributo &quot;label&quot; que es el elemento secundario del primer elemento de **`<group>`**colección
-* **grupo`[@label='test1']`**: selecciona el atributo &quot;label&quot; que es el elemento secundario del **`<group>`**elemento y contiene el valor &quot;test1&quot;
+* **grupo`[1]/@label`**: selecciona el atributo &quot;label&quot; que es el elemento secundario del primer elemento de **`<group>`** colección
+* **grupo`[@label='test1']`**: selecciona el atributo &quot;label&quot; que es el elemento secundario del **`<group>`** elemento y contiene el valor &quot;test1&quot;
 
 >[!NOTE]
 >
@@ -491,6 +494,7 @@ Los elementos se designan por su nombre y los atributos se designan por el nombr
 >
 >* **location/@city** no es válido; use **`[location/@city]`**
 >* **`[@email]`** y **@email** son equivalentes
+
 >
 
 
@@ -500,9 +504,9 @@ También es posible definir expresiones complejas, como las siguientes operacion
 * **@gender+1**: agrega 1 al contenido del atributo **gender** ,
 * **@email + &#39;(&#39;+@created+&#39;)&#39;**: construye una cadena tomando el valor de la dirección de correo electrónico agregada a la fecha de creación entre paréntesis (para el tipo de cadena, ponga la constante entre comillas).
 
-Se han añadido funciones de alto nivel a las expresiones para enriquecer el potencial de este lenguaje.
+Se han añadido funciones de alto nivel a las expresiones para enriquecer el potencial de este idioma.
 
-Puede acceder a la lista de funciones disponibles a través de cualquier editor de expresiones de la consola cliente de Adobe Campaign:
+Puede acceder a la lista de funciones disponibles mediante cualquier editor de expresiones en la consola cliente de Adobe Campaign:
 
 ![](assets/d_ncs_integration_schema_function.png)
 
@@ -514,11 +518,11 @@ Puede acceder a la lista de funciones disponibles a través de cualquier editor 
 
 ## Creación de una cadena mediante la cadena de cálculo {#building-a-string-via-the-compute-string}
 
-Una cadena **de** cálculo es una expresión XPath utilizada para construir una cadena que representa un registro en una tabla asociada al esquema. **La cadena** de cálculo se utiliza principalmente en la interfaz gráfica para mostrar la etiqueta de un registro seleccionado.
+Una cadena **de** cálculo es una expresión XPath que se utiliza para construir una cadena que representa un registro en una tabla asociada al esquema. **La cadena** de cálculo se utiliza principalmente en la interfaz gráfica para mostrar la etiqueta de un registro seleccionado.
 
 La cadena **de** cálculo se define mediante el **`<compute-string>`** elemento debajo del elemento principal del esquema de datos. Un **atributo expr** contiene una expresión XPath para calcular la visualización.
 
-**Ejemplo**: cadena de cálculo de la tabla del destinatario.
+**Ejemplo**: cadena de cálculo de la tabla de destinatario.
 
 ```
 <srcSchema name="recipient" namespace="nms">  
