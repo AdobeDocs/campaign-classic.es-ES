@@ -14,8 +14,11 @@ discoiquuid: a3834828-4d39-4699-b648-d399797b8ea7
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: b01252d57ec4ca5c5c87e69566079c48d7363e38
+workflow-type: tm+mt
+source-wordcount: '951'
+ht-degree: 84%
 
 ---
 
@@ -46,8 +49,8 @@ En el siguiente ejemplo, se crean aplicaciones web de tipo “descripción gener
 
    ![](assets/s_ncs_configuration_webapp_rendering.png)
 
-1. Abra la actividad **[!UICONTROL Page]** de la aplicación web y abra una lista (**[!UICONTROL Static element > List]**).
-1. En la pestaña **[!UICONTROL Data]** de la lista, seleccione el tipo de documento **[!UICONTROL Web applications]** y las columnas de salida **[!UICONTROL Label]**, **[!UICONTROL Creation date]** y **[!UICONTROL Type of application]**.
+1. Open the **[!UICONTROL Page]** activity of your Web application and open a list (**[!UICONTROL Static element > List]**).
+1. In the **[!UICONTROL Data]** tab of your list, select the type of **[!UICONTROL Web applications]** document and the **[!UICONTROL Label]** , **[!UICONTROL Creation date]** and **[!UICONTROL Type of application]** output columns.
 1. En la subpestaña **[!UICONTROL Filter]**, cree el siguiente filtro, tal y como se muestra a continuación, para visualizar las aplicaciones web y excluir las plantillas de la vista.
 
    ![](assets/s_ncs_configuration_webapp_filter.png)
@@ -62,8 +65,8 @@ En el siguiente ejemplo, se crean aplicaciones web de tipo “descripción gener
 
 En una descripción general, tiene la opción de acceder a los datos según su ubicación en el directorio de Adobe Campaign. Esto es un filtro en una carpeta. Siga el siguiente proceso para añadirlo a su descripción general.
 
-1. Coloque el cursor en el nodo **[!UICONTROL Page]** de la aplicación web y añada un elemento **[!UICONTROL Select folder]** (**[!UICONTROL Advanced controls > Select folder]**).
-1. En la ventana **[!UICONTROL Storage]** que aparece, haga clic en el vínculo **[!UICONTROL Edit variables]**.
+1. Place your cursor on the **[!UICONTROL Page]** node of your Web application and add a **[!UICONTROL Select folder]** element (**[!UICONTROL Advanced controls > Select folder]**).
+1. In the **[!UICONTROL Storage]** window which comes up, click the **[!UICONTROL Edit variables]** link.
 1. Cambie la etiqueta de variables según sus necesidades.
 1. Cambie el nombre de la variable con el valor **folder**.
 
@@ -75,7 +78,7 @@ En una descripción general, tiene la opción de acceder a los datos según su u
 
    ![](assets/s_ncs_configuration_webapp_variable_xml.png)
 
-1. Seleccione la interacción **[!UICONTROL Refresh page]**.
+1. Seleccione la **[!UICONTROL Refresh page]** interacción.
 
    ![](assets/s_ncs_configuration_webapp_variable.png)
 
@@ -89,7 +92,7 @@ En una descripción general, tiene la opción de acceder a los datos según su u
 
 ## Adición de un botón para configurar una nueva aplicación web {#adding-a-button-to-configure-a-new-web-application}
 
-1. Coloque el cursor en el elemento **[!UICONTROL Page]** y añada un vínculo (**[!UICONTROL Static elements > Link]**).
+1. Place your cursor on the **[!UICONTROL Page]** element and add a link (**[!UICONTROL Static elements > Link]**).
 1. Modifique la etiqueta del vínculo, ya que esta aparece en el botón de la descripción general.
 
    En el ejemplo, la etiqueta es **New**.
@@ -109,7 +112,7 @@ En una descripción general, tiene la opción de acceder a los datos según su u
 
 1. Introduzca **button** en el campo **[!UICONTROL Style]**.
 
-   Se hace referencia a este estilo en la plantilla **[!UICONTROL Single-page Web application]** seleccionada previamente.
+   This style is referred to in the **[!UICONTROL Single-page Web application]** template selected previously.
 
    ![](assets/s_ncs_configuration_webapp_link.png)
 
@@ -118,17 +121,17 @@ En una descripción general, tiene la opción de acceder a los datos según su u
 Al configurar una lista en la descripción general, puede elegir visualizar detalles adicionales para cada entrada en la lista.
 
 1. Coloque el cursor en el elemento de lista creado previamente.
-1. En la pestaña **[!UICONTROL General]**, seleccione el modo de visualización **[!UICONTROL Columns and additional detail]** en la lista desplegable.
+1. In the **[!UICONTROL General]** tab, select the **[!UICONTROL Columns and additional detail]** display mode in the drop-down list.
 
    ![](assets/s_ncs_configuration_webapp_detail.png)
 
-1. En la pestaña **[!UICONTROL Data]**, añada las columnas **[!UICONTROL Primary key]**, **[!UICONTROL Internal name]** y **[!UICONTROL Description]** y seleccione la opción **[!UICONTROL Hidden field]** para cada una de ellas.
+1. In the **[!UICONTROL Data]** tab, add the **[!UICONTROL Primary key]** , **[!UICONTROL Internal name]** and **[!UICONTROL Description]** column and select the **[!UICONTROL Hidden field]** option for each one.
 
    ![](assets/s_ncs_configuration_webapp_detail002.png)
 
    De este modo, esta información solo se puede ver en el detalle de cada entrada.
 
-1. En la pestaña **[!UICONTROL Additional detail]**, añada el siguiente código:
+1. In the **[!UICONTROL Additional detail]** tab, add the following code:
 
    ```
    <div class="detailBox">
@@ -171,7 +174,7 @@ En esta sección, se crea un filtro para mostrar la descripción general de las 
 
 Estos dos elementos se agrupan en el mismo contenedor para que se clasifiquen gráficamente en la descripción general.
 
-1. Coloque el cursor en el elemento **[!UICONTROL Page]** y seleccione **[!UICONTROL Container > Standard]**.
+1. Place your cursor on the **[!UICONTROL Page]** element and select **[!UICONTROL Container > Standard]**.
 1. Especifique el número de columnas en **2**, de modo que el editor de vínculos y el vínculo estén uno junto al otro.
 
    ![](assets/s_ncs_configuration_webapp_container.png)
@@ -180,7 +183,7 @@ Estos dos elementos se agrupan en el mismo contenedor para que se clasifiquen gr
 
 1. Aplicar **dottedFilter**.
 
-   Este estilo se menciona en la plantilla **[!UICONTROL Single-page Web application]** seleccionada anteriormente.
+   This style is referred to in the **[!UICONTROL Single-page Web applicatio]** n template selected previously.
 
    ![](assets/s_ncs_configuration_webapp_container002.png)
 
@@ -205,6 +208,7 @@ Estos dos elementos se agrupan en el mismo contenedor para que se clasifiquen gr
    * **Operador:** es igual a
    * **Value:** Variables (variables)
    * **Taken into account if:** &#39;$(var2/@id)&#39;!=&#39;&#39;&#39;
+
    ![](assets/s_ncs_configuration_webapp_filter002.png)
 
 >[!CAUTION]
@@ -213,14 +217,14 @@ Estos dos elementos se agrupan en el mismo contenedor para que se clasifiquen gr
 
 ### Creación de un vínculo de actualización {#creating-a-refresh-link}
 
-1. Sitúe el cursor sobre el contenedor e inserte un **[!UICONTROL Link]** mediante el menú **[!UICONTROL Static elements]**.
+1. Place the cursor on the container and insert a **[!UICONTROL Link]** via the **[!UICONTROL Static elements]** menu.
 1. Modifique la etiqueta.
-1. Seleccione **[!UICONTROL Actualizar datos en una lista]**.
+1. Seleccione **[!UICONTROL Refresh data in a list]**.
 1. Añada la lista creada previamente.
 
    ![](assets/s_ncs_configuration_webapp_refreshlink.png)
 
-1. Agregue el icono de actualización en el campo **[!UICONTROL Imagen]** : **/xtk/img/refresh.png **.
+1. Add the refresh icon on the **[!UICONTROL Image]** field: **/xtk/img/refresh.png**.
 1. Con las flechas de selección, reorganice los distintos elementos de la aplicación web como se muestra a continuación.
 
    ![](assets/s_ncs_configuration_webapp_orderelements.png)
