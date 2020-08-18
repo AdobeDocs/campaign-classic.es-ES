@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4edd389fde91c3f316c5213f4d7f34e51979112
+source-git-commit: 9a8c3586482d05648de3bdecfdfabcc094c70dbf
 workflow-type: tm+mt
-source-wordcount: '2473'
-ht-degree: 99%
+source-wordcount: '2474'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 99%
 
 >[!CAUTION]
 >
->Tenga en cuenta los límites de almacenamiento SFTP, Almacenamiento de base de datos y perfil activo según el contrato de AdobeCampaign mientras utiliza esta funcionalidad.
+>Tenga en cuenta los límites de almacenamiento SFTP, Almacenamiento de la base de datos y perfil activo según el contrato de AdobeCampaign al importar datos.
 
 ## Recopilación de datos {#how-to-collect-data}
 
@@ -52,91 +52,6 @@ Mars;Daniel;17/11/1987;dannymars@example.com;123545
 Smith;Clara;08/02/1989;hayden.smith@example.com;124567
 Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ```
-
-## Descompresión o desencriptado de un archivo antes de procesarlo {#unzipping-or-decrypting-a-file-before-processing}
-
-### Acerca de las etapas de preprocesamiento {#about-pre-processing-stages}
-
-Adobe Campaign permite importar archivos comprimidos o encriptados. Antes de que se puedan leer en una actividad [Data loading (file)](../../workflow/using/data-loading--file-.md), puede definir un procesamiento previo para descomprimir o desencriptar el archivo.
-
-Para poder hacerlo:
-
-1. Utilice el [Panel de control de Campaign](https://docs.adobe.com/content/help/es-ES/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) para generar un par de claves pública y privada.
-
-   >[!NOTE]
-   >
-   >Panel de control de Campaign está disponible para todos los clientes alojados en AWS (excepto para los clientes que alojan sus instancias de marketing on-Premise).
-
-1. Si Adobe aloja la instalación de Adobe Campaign contáctese con atención al cliente de Adobe para que instalen las herramientas necesarias en el servidor.
-1. Si la instalación de Adobe Campaign está in situ: instale la utilidad que desee utilizar (por ejemplo: GPG, GZIP) así como las claves necesarias (clave de cifrado) en el servidor de aplicaciones.
-
-A continuación, puede utilizar los comandos de preprocesamiento deseados en los flujos de trabajo:
-
-1. Añada y configure una actividad **[!UICONTROL File transfer]** en el flujo de trabajo.
-1. Añada una actividad **[!UICONTROL Data loading (file)]** y defina el formato de archivo.
-1. Marque la opción **[!UICONTROL Pre-process the file]**.
-1. Especifique el comando de preprocesamiento que desee aplicar.
-1. Añada otras actividades para administrar los datos que provengan del archivo.
-1. Guarde y ejecute el flujo de trabajo.
-
-A continuación se muestra un ejemplo en el caso de uso.
-
-**Temas relacionados:**
-
-* [Actividad de carga de datos (archivos)](../../workflow/using/data-loading--file-.md).
-* [Comprimir o encriptar un archivo](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
-
-### Caso de uso: importación de datos cifrados con una clave generada por el Panel de control de Campaign{#use-case-gpg-decrypt}
-
-En este caso de uso, crearemos un flujo de trabajo para importar datos cifrados en un sistema externo utilizando una clave generada en el Panel de control de Campaign.
-
-En [esta sección](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html) también hay disponible un vídeo de tutorial que muestra cómo utilizar una clave GPG para desencriptar datos.
-
-Los pasos para realizar este caso de uso son los siguientes:
-
-1. Utilice el Panel de control de Campaign para generar un par de claves (pública/privada). Encontrará los pasos detallados en la documentación [del](https://docs.adobe.com/content/help/es-ES/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) Panel de control de Campaign.
-
-   * La clave pública se comparte con el sistema externo, que la utiliza para cifrar los datos que se enviarán a Campaign.
-   * Campaign Classic utiliza la clave privada para descifrar los datos cifrados entrantes.
-
-   ![](assets/gpg_generate.png)
-
-1. En el sistema externo, utilice la clave pública descargada del Panel de control de Campaign para cifrar los datos que se van a importar a Campaign Classic.
-
-   ![](assets/gpg_external.png)
-
-1. En Campaign Classic, cree un flujo de trabajo para importar los datos cifrados y desencriptarlos con la clave privada que se ha instalado mediante el Panel de control de Campaign. Para ello, crearemos un flujo de trabajo de la siguiente manera:
-
-   ![](assets/gpg_workflow.png)
-
-   * **[!UICONTROL File transfer]** actividad: transfiere el archivo de un origen externo a Campaign Classic. En este ejemplo, queremos transferir el archivo desde un servidor SFTP.
-   * **[!UICONTROL Data loading (file)]** actividad: carga los datos del archivo en la base de datos y los descifra utilizando la clave privada generada en el Panel de control de Campaign.
-
-1. Abra la actividad **[!UICONTROL File transfer]** y especifique la cuenta externa desde la que desea importar el archivo .gpg cifrado.
-
-   ![](assets/gpg_transfer.png)
-
-   Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../workflow/using/file-transfer.md).
-
-1. Abra la actividad **[!UICONTROL Data loading (file)]** y configúrela según sus necesidades. Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../workflow/using/data-loading--file-.md).
-
-   Añada una fase de preprocesamiento a la actividad para descifrar los datos entrantes. Para ello, seleccione la opción **[!UICONTROL Pre-process the file]** y copie y pegue este comando de descifrado en el **[!UICONTROL Command]** campo:
-
-   `gpg --batch --passphrase passphrase --decrypt <%=vars.filename%>`
-
-   ![](assets/gpg_load.png)
-
-   >[!CAUTION]
-   >
-   >En este ejemplo, utilizamos la frase de contraseña utilizada de forma predeterminada por Panel de control de Campaign, que es &quot;frase de contraseña&quot;.
-   >
-   >Si ya ha instalado las claves GPG en su instancia a través de una solicitud a Atención al cliente en el pasado, la frase de contraseña puede haber cambiado y ser diferente de la predeterminada.
-
-1. Haga clic en **[!UICONTROL OK]** para confirmar esta configuración.
-
-1. Ahora puede ejecutar el flujo de trabajo. Una vez ejecutada, puede registrar en los registros de flujo de trabajo que el descifrado se ha ejecutado y que los datos del archivo se han importado.
-
-   ![](assets/gpg_run.png)
 
 ## Prácticas recomendadas al importar datos {#best-practices-when-importing-data}
 
@@ -216,7 +131,7 @@ Para mantener la coherencia de los datos en la base de datos de Adobe Campaign, 
 
 * **Deduplique**, reconcilie y mantenga la coherencia al importar datos.
 
-## Configuración de una importación recurrente {#setting-up-a-recurring-import}
+## Caso de uso: configuración de una importación recurrente {#setting-up-a-recurring-import}
 
 La utilización de una plantilla de importación es una práctica recomendada si necesita importar con regularidad archivos con la misma estructura.
 
@@ -311,3 +226,87 @@ Ahora la plantilla se puede utilizar y está disponible para cada nuevo flujo de
 
 ![](assets/import_template_example9.png)
 
+## Descompresión o desencriptado de un archivo antes de procesarlo {#unzipping-or-decrypting-a-file-before-processing}
+
+### Acerca de las etapas de preprocesamiento {#about-pre-processing-stages}
+
+Adobe Campaign permite importar archivos comprimidos o encriptados. Antes de que se puedan leer en una actividad [Data loading (file)](../../workflow/using/data-loading--file-.md), puede definir un procesamiento previo para descomprimir o desencriptar el archivo.
+
+Para poder hacerlo:
+
+1. Utilice el [Panel de control de Campaign](https://docs.adobe.com/content/help/es-ES/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) para generar un par de claves pública y privada.
+
+   >[!NOTE]
+   >
+   >Panel de control de Campaign está disponible para todos los clientes alojados en AWS (excepto para los clientes que alojan sus instancias de marketing on-Premise).
+
+1. Si Adobe aloja la instalación de Adobe Campaign contáctese con atención al cliente de Adobe para que instalen las herramientas necesarias en el servidor.
+1. Si la instalación de Adobe Campaign está in situ: instale la utilidad que desee utilizar (por ejemplo: GPG, GZIP) así como las claves necesarias (clave de cifrado) en el servidor de aplicaciones.
+
+A continuación, puede utilizar los comandos de preprocesamiento deseados en los flujos de trabajo:
+
+1. Añada y configure una actividad **[!UICONTROL File transfer]** en el flujo de trabajo.
+1. Añada una actividad **[!UICONTROL Data loading (file)]** y defina el formato de archivo.
+1. Marque la opción **[!UICONTROL Pre-process the file]**.
+1. Especifique el comando de preprocesamiento que desee aplicar.
+1. Añada otras actividades para administrar los datos que provengan del archivo.
+1. Guarde y ejecute el flujo de trabajo.
+
+A continuación se muestra un ejemplo en el caso de uso.
+
+**Temas relacionados:**
+
+* [Actividad de carga de datos (archivos)](../../workflow/using/data-loading--file-.md).
+* [Comprimir o encriptar un archivo](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
+
+### Caso de uso: importación de datos cifrados con una clave generada por el Panel de control de Campaign{#use-case-gpg-decrypt}
+
+En este caso de uso, crearemos un flujo de trabajo para importar datos cifrados en un sistema externo utilizando una clave generada en el Panel de control de Campaign.
+
+En [esta sección](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html) también hay disponible un vídeo de tutorial que muestra cómo utilizar una clave GPG para desencriptar datos.
+
+Los pasos para realizar este caso de uso son los siguientes:
+
+1. Utilice el Panel de control de Campaign para generar un par de claves (pública/privada). Encontrará los pasos detallados en la documentación [del](https://docs.adobe.com/content/help/es-ES/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) Panel de control de Campaign.
+
+   * La clave pública se comparte con el sistema externo, que la utiliza para cifrar los datos que se enviarán a Campaign.
+   * Campaign Classic utiliza la clave privada para descifrar los datos cifrados entrantes.
+
+   ![](assets/gpg_generate.png)
+
+1. En el sistema externo, utilice la clave pública descargada del Panel de control de Campaign para cifrar los datos que se van a importar a Campaign Classic.
+
+   ![](assets/gpg_external.png)
+
+1. En Campaign Classic, cree un flujo de trabajo para importar los datos cifrados y desencriptarlos con la clave privada que se ha instalado mediante el Panel de control de Campaign. Para ello, crearemos un flujo de trabajo de la siguiente manera:
+
+   ![](assets/gpg_workflow.png)
+
+   * **[!UICONTROL File transfer]** actividad: transfiere el archivo de un origen externo a Campaign Classic. En este ejemplo, queremos transferir el archivo desde un servidor SFTP.
+   * **[!UICONTROL Data loading (file)]** actividad: carga los datos del archivo en la base de datos y los descifra utilizando la clave privada generada en el Panel de control de Campaign.
+
+1. Abra la actividad **[!UICONTROL File transfer]** y especifique la cuenta externa desde la que desea importar el archivo .gpg cifrado.
+
+   ![](assets/gpg_transfer.png)
+
+   Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../workflow/using/file-transfer.md).
+
+1. Abra la actividad **[!UICONTROL Data loading (file)]** y configúrela según sus necesidades. Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../workflow/using/data-loading--file-.md).
+
+   Añada una fase de preprocesamiento a la actividad para descifrar los datos entrantes. Para ello, seleccione la opción **[!UICONTROL Pre-process the file]** y copie y pegue este comando de descifrado en el **[!UICONTROL Command]** campo:
+
+   `gpg --batch --passphrase passphrase --decrypt <%=vars.filename%>`
+
+   ![](assets/gpg_load.png)
+
+   >[!CAUTION]
+   >
+   >En este ejemplo, utilizamos la frase de contraseña utilizada de forma predeterminada por Panel de control de Campaign, que es &quot;frase de contraseña&quot;.
+   >
+   >Si ya ha instalado las claves GPG en su instancia a través de una solicitud a Atención al cliente en el pasado, la frase de contraseña puede haber cambiado y ser diferente de la predeterminada.
+
+1. Haga clic en **[!UICONTROL OK]** para confirmar esta configuración.
+
+1. Ahora puede ejecutar el flujo de trabajo. Una vez ejecutada, puede registrar en los registros de flujo de trabajo que el descifrado se ha ejecutado y que los datos del archivo se han importado.
+
+   ![](assets/gpg_run.png)
