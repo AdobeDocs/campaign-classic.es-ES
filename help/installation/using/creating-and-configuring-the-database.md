@@ -69,7 +69,7 @@ Según el motor de base de datos seleccionado, la información de identificació
 * Para un motor **PostgreSQL** o **DB2** , debe especificar el nombre DNS (o dirección IP) definido en el servidor de aplicaciones para acceder al servidor de bases de datos.
 * For a **Microsoft SQL Server** engine, you must define:
 
-   1. the DNS name (or IP address) defined on the application server to access the database server: **DNS** or **DNS\`<instance>`** (instance mode),
+   1. the DNS name (or IP address) defined on the application server to access the database server: **DNS** or **DNS\ `<instance>`** (instance mode),
    1. the authentication method used to access Microsoft SQL Server: **[!UICONTROL SQL Server authentication]** or **[!UICONTROL Windows NT authentication]**.
 
       ![](assets/s_ncs_install_db_mssql_creation01.png)
