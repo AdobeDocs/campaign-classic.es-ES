@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c51a51f175e9f3fe5a55f2b5f57872057f70909d
+source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 1%
@@ -37,7 +37,7 @@ Los servicios Web permiten crear muchas aplicaciones a partir de un sistema de t
 
 ## Definición de servicios Web {#definition-of-web-services}
 
-La definición de los servicios Web implementados en el servidor de aplicaciones Adobe Campaign está disponible en los esquemas de datos.
+La definición de los servicios Web implementados en el servidor de aplicaciones de Adobe Campaign está disponible en los esquemas de datos.
 
 Un servicio Web se describe en la gramática de los esquemas de datos y está disponible en el **`<methods>`** elemento .
 
@@ -62,7 +62,7 @@ La presencia del atributo &quot;static&quot; (con el valor &quot;true&quot;) des
 
 Un método &quot;const&quot; tiene implícitamente un documento XML en el formato de su esquema asociado como entrada.
 
-En el capítulo &quot;Referencias de Esquema&quot; del capítulo relativo a las `<method>` referencias de un esquema de Adobe Campaign se ofrece una descripción completa del elemento de dicho   <a href="../../configuration/using/elements-and-attributes.md#method--element" target="_blank">  `<method>`    Elemento.
+En el capítulo &quot;Referencias de Esquema&quot; de la sección correspondiente a un esquema de Adobe Campaign encontrará una descripción completa del `<method>` elemento  <a href="../../configuration/using/elements-and-attributes.md#method--element" target="_blank">  `<method>`    Elemento.
 
 Ejemplo del método &quot;const&quot;-type &quot;ExecuteQuery&quot; desde el esquema &quot;xtk:queryDef&quot;:
 
@@ -85,11 +85,11 @@ Hay disponible un archivo WSDL (biblioteca de descripción de servicios Web) par
 
 Para generar un archivo WSDL, debe introducir la siguiente URL desde un explorador Web:
 
-[https://`<server>`/nl/jsp/schemawsdl.jsp?esquema=`<schema>`
+https://`<server>`/nl/jsp/schemawsdl.jsp?esquema=`<schema>`
 
 Con:
 
-* **`<server>`**:: el servidor de aplicaciones Adobe Campaign (nlserver web)
+* **`<server>`**:: el servidor de aplicaciones de Adobe Campaign (nlserver web)
 * **`<schema>`**:: Clave de identificación de esquema (Área de nombres:nombre_esquema)
 
 ### Ejemplo del método &#39;ExecuteQuery&#39; del esquema &#39;xtk:queryDef&#39; {#example-on-the--executequery--method-of-schema--xtk-querydef-}
@@ -204,7 +204,7 @@ Existen dos modos de autenticación disponibles:
 
 o
 
-* **mediante el inicio de sesión del Adobe Campaign + contraseña** que crea un token de sesión. El token de sesión caduca automáticamente después de un período establecido. Este modo no se recomienda y requiere reducir la configuración de seguridad de la aplicación para algunos ajustes de zona (allowUserPassword=&quot;true&quot; y sessionTokenOnly=&quot;true&quot;).
+* **mediante el inicio de sesión de Adobe Campaign + contraseña** que crea un token de sesión. El token de sesión caduca automáticamente después de un período establecido. Este modo no se recomienda y requiere reducir la configuración de seguridad de la aplicación para algunos ajustes de zona (allowUserPassword=&quot;true&quot; y sessionTokenOnly=&quot;true&quot;).
 
 ### Características del token de sesión {#session-token-characteristics}
 
@@ -237,7 +237,7 @@ Cuando se accede a través de la consola, es:
 * transmitido en la respuesta de inicio de sesión (en el encabezado HTTP)
 * se utiliza en cada consulta (en el encabezado HTTP)
 
-Desde un POST y GET HTTP:
+Desde un POST y HTTP de GET:
 
 * el servidor completa los vínculos con el token
 * el servidor agrega un campo oculto a los formularios
@@ -250,41 +250,42 @@ Desde una llamada SOAP:
 
 * Uso de **HttpSoapConnection/SoapService**:
 
-   ```
-     var cnx = new HttpSoapConnection("https://serverURL/nl/jsp/soaprouter.jsp");
-   var session = new SoapService(cnx, 'urn:xtk:session');
-   session.addMethod("Logon", "xtk:session#Logon",
-                       ["sessiontoken", "string", "Login", "string", "Password", "string", "Parameters", "NLElement"],
-                       ["sessionToken", "string", "sessionInfo", "NLElement", "securityToken", "string"]);
-   
-   var res = session.Logon("", "admin", "pwd", <param/>);
-   var sessionToken = res[0];
-   var securityToken = res[2];
-   
-   cnx.addTokens(sessionToken, securityToken);
-   var query = new SoapService(cnx, 'urn:xtk:queryDef');
-   query.addMethod("ExecuteQuery", "xtk:queryDef#ExecuteQuery",
-                       ["sessiontoken", "string", "entity", "NLElement"],
-                       ["res", "NLElement"]);
-   
-   var queryRes = query.ExecuteQuery("", <queryDef operation="select" schema="nms:recipient">
-             <select>
-               <node expr="@email"/>
-               <node expr="@lastName"/>
-               <node expr="@firstName"/>
-             </select>
-             <where>
-               <condition expr="@email = 'joe.doe@aol.com'"/>
-             </where>
-           </queryDef>);
-   logInfo(queryRes[0].toXMLString())
-   ```
+```
+  
+    var cnx = new HttpSoapConnection("https://serverURL/nl/jsp/soaprouter.jsp");
+  var session = new SoapService(cnx, 'urn:xtk:session');
+  session.addMethod("Logon", "xtk:session#Logon",
+                      ["sessiontoken", "string", "Login", "string", "Password", "string", "Parameters", "NLElement"],
+                      ["sessionToken", "string", "sessionInfo", "NLElement", "securityToken", "string"]);
+  
+  var res = session.Logon("", "admin", "pwd", <param/>);
+  var sessionToken = res[0];
+  var securityToken = res[2];
+  
+  cnx.addTokens(sessionToken, securityToken);
+  var query = new SoapService(cnx, 'urn:xtk:queryDef');
+  query.addMethod("ExecuteQuery", "xtk:queryDef#ExecuteQuery",
+                      ["sessiontoken", "string", "entity", "NLElement"],
+                      ["res", "NLElement"]);
+  
+  var queryRes = query.ExecuteQuery("", <queryDef operation="select" schema="nms:recipient">
+            <select>
+              <node expr="@email"/>
+              <node expr="@lastName"/>
+              <node expr="@firstName"/>
+            </select>
+            <where>
+              <condition expr="@email = 'joe.doe@aol.com'"/>
+            </where>
+          </queryDef>);
+  logInfo(queryRes[0].toXMLString())
+```
 
 * Uso de **HttpServletRequest**:
 
 >[!NOTE]
 >
->Las direcciones URL utilizadas en las siguientes llamadas **HttpServletRequest** deben estar en la lista permitida en la sección de permisos de URL del archivo **serverConf.xml** . Esto también se aplica a la dirección URL del propio servidor.
+>Las direcciones URL utilizadas en las siguientes llamadas **HttpServletRequest** deben estar en lista de permitidos en la sección de permisos de URL del archivo **serverConf.xml** . Esto también se aplica a la dirección URL del propio servidor.
 
 Inicio de sesión, ejecución():
 
@@ -294,25 +295,25 @@ req.header["Content-Type"] = "text/xml; charset=utf-8";
 req.header["SOAPAction"] =   "xtk:session#Logon";
 req.method = "POST";
 req.body = '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">' +
-  '<soapenv:Header/>' +
-  '<soapenv:Body>' +
-      '<urn:Logon>' +
-          '<urn:sessiontoken></urn:sessiontoken>' +
-          '<urn:strLogin>LOGIN_HERE</urn:strLogin>' +
-          '<urn:strPassword>PASSWORD_HERE</urn:strPassword>' +
-          '<urn:elemParameters></urn:elemParameters>' +
-      '</urn:Logon>' +
-  '</soapenv:Body>' +
+    '<soapenv:Header/>' +
+    '<soapenv:Body>' +
+        '<urn:Logon>' +
+            '<urn:sessiontoken></urn:sessiontoken>' +
+            '<urn:strLogin>LOGIN_HERE</urn:strLogin>' +
+            '<urn:strPassword>PASSWORD_HERE</urn:strPassword>' +
+            '<urn:elemParameters></urn:elemParameters>' +
+        '</urn:Logon>' +
+    '</soapenv:Body>' +
 '</soapenv:Envelope>';
 req.execute();
-         
+           
 var resp = req.response;
 var xmlRes = new XML(String(resp.body).replace("<?xml version='1.0'?>",""));
 var sessionToken = String(xmlRes..*::pstrSessionToken);;
 var securityToken = String(xmlRes..*::pstrSecurityToken);
 ```
 
-Ejecución de Consulta:
+Ejecución de consulta:
 
 ```
 var req2 = new HttpClientRequest("https://serverURL/nl/jsp/soaprouter.jsp");
@@ -321,14 +322,13 @@ req2.header["SOAPAction"] =   "xtk:queryDef#ExecuteQuery";req2.header["X-Securit
 req2.header["cookie"]           = "__sessiontoken="+sessionToken;
 req2.method = "POST";
 req2.body = '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:queryDef">' +
-           '<soapenv:Header/><soapenv:Body><urn:ExecuteQuery><urn:sessiontoken/><urn:entity>' +
-              '<queryDef operation="select" schema="nms:recipient">' +
-                '<select><node expr="@email"/><node expr="@lastName"/><node expr="@firstName"/></select>' +
-                '<where><condition expr="@email = \'john.doe@aol.com\'"/></where>' +
-              '</queryDef>' +
-         '</urn:entity></urn:ExecuteQuery></soapenv:Body></soapenv:Envelope>';
+             '<soapenv:Header/><soapenv:Body><urn:ExecuteQuery><urn:sessiontoken/><urn:entity>' +
+                '<queryDef operation="select" schema="nms:recipient">' +
+                  '<select><node expr="@email"/><node expr="@lastName"/><node expr="@firstName"/></select>' +
+                  '<where><condition expr="@email = \'john.doe@aol.com\'"/></where>' +
+                '</queryDef>' +
+           '</urn:entity></urn:ExecuteQuery></soapenv:Body></soapenv:Envelope>';
 req2.execute();
 var resp2 = req2.response;
 logInfo(resp2.body)
 ```
-
