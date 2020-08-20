@@ -14,8 +14,11 @@ discoiquuid: d678db05-cc44-4086-98a5-e5296e8e5de8
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
+translation-type: tm+mt
+source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
+workflow-type: tm+mt
+source-wordcount: '1449'
+ht-degree: 99%
 
 ---
 
@@ -73,8 +76,8 @@ Los atributos y elementos del contenido se representan como objetos JavaScript y
 
 **Ejemplo**:
 
-* **content.@name**@recupera el valor del atributo “name” del elemento principal.
-* **content.@`['name']`**: idéntico al** contenido.Sintaxis @name **
+* **content.@name**: recupera el valor del atributo “name” del elemento principal.
+* **content.@`['name']`**: idéntico al  **content.@name** sintaxis
 * **content.chapter.length**: devuelve el número de elementos en el elemento de colección `<chapter`.
 * **content.chapter`[0]`.@name**: recupera el nombre del primer elemento `<chapter>`.
 * **chapter.name()**: devuelve el nombre del elemento `<chapter>`.
@@ -237,7 +240,7 @@ Este ejemplo comprende los siguientes pasos:
    </srcSchema>
    ```
 
-1. Cree el formulario relacionado de tipo **[!UICONTROL Content management]** (**neo:news**).
+1. Create the linked **[!UICONTROL Content management]** type form (**neo:news**)
 
    ```
    <form _cs="News (neo)" entitySchema="xtk:form"  img="xtk:form.png" label="News"  name="news" namespace="neo" type="contentForm" xtkschema="xtk:form">
@@ -477,7 +480,7 @@ Ejemplos:
    <xsl:text disable-output-escaping="yes"><%= recipient.email %></xsl:text>
    ```
 
-* Adición de la prueba condicional **&lt;% if (recipient.language == &#39;en&#39;) { %>**:
+* Adición de la prueba condicional **&lt;% if (recipient.language == &#39;en&#39;)`{`%>**:
 
    ```
    <xsl:text disable-output-escaping="yes"><% if (recipient.language == 'en') { %></xsl:text>
