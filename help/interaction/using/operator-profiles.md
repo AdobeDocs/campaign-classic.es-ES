@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fef684cd20f9b210025b21d2bc6bdb209a929f7c
+source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '388'
 ht-degree: 93%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 93%
 
 Existen dos tipos de operadores que utilizan interacción: gestores de oferta y gestores de envío. Cada una tiene derechos específicos que solo les proporcionan acceso a algunas partes del árbol y a la plataforma.
 
-* **[!UICONTROL Offer manager]** : crea y mantiene ofertas. Tenga en cuenta que si se utilizan ofertas en el flujo de trabajo, el operador deberá estar en el grupo de operadores **[!UICONTROL Administrator]** o **[!UICONTROL Ofertas)** para ejecutar el flujo de trabajo.
+* **[!UICONTROL Offer manager]** : crea y mantiene ofertas. Tenga en cuenta que si se utilizan ofertas en el flujo de trabajo, el operador deberá estar en el grupo de operadores **[!UICONTROL Administrator]** o **[!UICONTROL Offer managers]** para ejecutar el flujo de trabajo.
 * **[!UICONTROL Delivery manager]** : aprueba y utiliza ofertas
 
 Los pasos para crear operadores específicos de interacción son idénticos a los utilizados para crear todos los demás operadores en la plataforma. Para obtener más información, consulte [esta sección](../../platform/using/access-management.md#creating-an-operator). Los derechos se configuran durante la creación del operador.
