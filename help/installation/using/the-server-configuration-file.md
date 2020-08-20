@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
+source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
 workflow-type: tm+mt
 source-wordcount: '7859'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -29,7 +29,7 @@ La configuración general de Adobe Campaign se define en el archivo **serverConf
 
 >[!NOTE]
 >
->Adobe solo puede realizar configuraciones del lado del servidor para implementaciones alojadas en Adobe. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Hosting models](../../installation/using/hosting-models.md) o [este artículo](https://helpx.adobe.com/es/campaign/kb/acc-on-prem-vs-hosted.html). Los pasos de instalación y configuración para los modelos alojados e híbridos se presentan en esta [sección](../../installation/using/hosted-model.md).
+>Las configuraciones del lado del servidor sólo pueden ser realizadas por Adobe para implementaciones alojadas en Adobe. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Hosting models](../../installation/using/hosting-models.md) o [este artículo](https://helpx.adobe.com/es/campaign/kb/acc-on-prem-vs-hosted.html). Los pasos de instalación y configuración para los modelos alojados e híbridos se presentan en esta [sección](../../installation/using/hosted-model.md).
 
 Los primeros parámetros se encuentran dentro del nodo **compartido** . Están relacionados con la instancia. Son potencialmente utilizados por todos los comandos nlserver (nlserver web, nlserver wfserver, etc.). Las demás secciones están relacionadas con un subcomando nlserver específico.
 
@@ -271,7 +271,7 @@ Estos son los diferentes parámetros del nodo **dataStore > proxyAdjustment** . 
   </tr> 
   <tr> 
    <td> urlRegEx<br /> </td> 
-   <td> expresión regular para que coincidan las direcciones URL. Por ejemplo: http://server\.lan\.net.*<br /> </td> 
+   <td> Expresión regular para que coincidan las direcciones URL. Por ejemplo: http://server\.lan\.net.*<br /> </td> 
    <td> Cadena<br /> </td> 
   </tr> 
  </tbody> 
@@ -314,7 +314,7 @@ En el nodo **dataStore > dataSource > dbcnx** , configure la conexión:
  <tbody> 
   <tr> 
    <td> NChar<br /> </td> 
-   <td> almacenamiento Unicode<br /> </td> 
+   <td> Almacenamiento Unicode<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> </td> 
   </tr> 
@@ -344,7 +344,7 @@ En el nodo **dataStore > dataSource > dbcnx** , configure la conexión:
   </tr> 
   <tr> 
    <td> proveedor<br /> </td> 
-   <td> Tipo (lista desglosada). Los valores posibles son 'Oracle', 'MSSQL' (Microsoft SQL Server), 'PostgreSQL' (PostgreSQL, Greenplum), 'Teradata', 'DB2', 'MySQL', 'Netezza', 'AsterData', 'SAPHANA' (SAP HANA), 'RedShift' (Amazon Redshift), 'ODBC' (ODBC (Sybase Sybase SyASE, SyASE) IQ base), 'Relay' (retransmisión HTTP a base de datos remota).<br /> </td> 
+   <td> Tipo (lista desglosada). Los valores posibles son 'Oracle', 'MSSQL' (Microsoft SQL Server), 'PostgreSQL' (PostgreSQL, Greenplum), 'Teradata', 'DB2', 'MySQL', 'Netezza', 'AsterData', 'SAPHANA' (SAP HANA), 'RedShift' (Amazon Redshift), 'ODBC' (ODBC (Sybase de Sybase de Sybase de Sybase), Sybase) IQ)), 'Relay' (retransmisión HTTP a base de datos remota).<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> 'Oracle'<br /> </td> 
   </tr> 
@@ -907,7 +907,7 @@ Estos son los distintos parámetros del nodo **threadPool** .
 
 Estos son los distintos parámetros del nodo **urlPermission** . Esta es la lista de direcciones URL a las que puede acceder el código Javascript.
 
-Lista de dominios y expresiones regulares que especifican si el servidor de Adobe Campaign puede o no utilizar una URL encontrada en el código JavaScript.
+Lista de dominios y expresiones regulares que especifican si el servidor de Adobe Campaign puede o no utilizar una URL encontrada en el código Javascript.
 
 Si no se encuentra la dirección URL, la acción predeterminada se realiza de acuerdo con el modo predeterminado especificado.
 
@@ -960,7 +960,7 @@ Para obtener más información, consulte Protección [de conexión](../../instal
   </tr> 
   <tr> 
    <td> urlRegEx<br /> </td> 
-   <td> expresión regular para refinar las URL de validación que pertenecen a este dominio: expresión regular que debe comprobar la dirección URL, en caso de que corresponda a dnsSuffix.<br /> </td> 
+   <td> Expresión regular para refinar las URL de validación que pertenecen a este dominio: expresión regular que debe comprobar la dirección URL, en caso de que corresponda a dnsSuffix.<br /> </td> 
    <td> Cadena<br /> </td> 
   </tr> 
  </tbody> 
@@ -1048,13 +1048,13 @@ Para obtener más información, consulte [Activación del archivado de correo el
   </tr> 
   <tr> 
    <td> args<br /> </td> 
-   <td> Parámetros de Inicio<br /> </td> 
+   <td> Parámetros de inicio<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> autoStart<br /> </td> 
-   <td> inicio automático<br /> </td> 
+   <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1138,7 +1138,7 @@ Para obtener más información, consulte [Activación del archivado de correo el
   </tr> 
   <tr> 
    <td> smtpRelayAddress<br /> </td> 
-   <td> lista separada por comas de nombres DNS o direcciones IP de retransmisiones SMTP que se van a utilizar. <br /> </td> 
+   <td> Lista separada por comas de nombres DNS o direcciones IP de retransmisiones SMTP que se van a utilizar. <br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1167,19 +1167,19 @@ Estos son los distintos parámetros del nodo **inMail** . Ésta es la configurac
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> Parámetros de Inicio<br /> </td> 
+   <td> Parámetros de inicio<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> autoStart<br /> </td> 
-   <td> inicio automático<br /> </td> 
+   <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> checkInstanceName<br /> </td> 
-   <td> Verificar nombre de instancia: si es true, el nombre de la instancia de Adobe Campaign contenida en los encabezados de ID de mensaje debe ser el mismo que la instancia actual. <br /> </td> 
+   <td> Verificar nombre de instancia: si el valor es true, el nombre de la instancia de Adobe Campaign contenida en los encabezados de ID de mensaje debe ser el mismo que la instancia actual. <br /> </td> 
    <td> Booleano<br /> </td> 
    <td> true<br /> </td> 
   </tr> 
@@ -1329,13 +1329,13 @@ Para obtener más información, consulte [Interacción - Búfer](../../installat
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> Parámetros de Inicio<br /> </td> 
+   <td> Parámetros de inicio<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> autoStart<br /> </td> 
-   <td> inicio automático<br /> </td> 
+   <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1418,13 +1418,13 @@ Estos son los diferentes parámetros del **nodo mta** . Esta es la configuració
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> Parámetros de Inicio<br /> </td> 
+   <td> Parámetros de inicio<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> '-tracefilter:nlmta' <br /> </td> 
   </tr> 
   <tr> 
    <td> autoStart<br /> </td> 
-   <td> inicio automático<br /> </td> 
+   <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1544,8 +1544,8 @@ Estos son los diferentes parámetros del **nodo mta** . Esta es la configuració
   </tr>
   <tr> 
    <td> statServerAddress<br /> </td> 
-   <td> Dirección del servidor de estadísticas de envío, dada como &lt;dns o ip&gt; [: 
-     &lt;puerto&gt; ]. Consulte <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">Coordenadas del servidor</a>de estadísticas. 
+   <td> Dirección del servidor de estadísticas de envío, dada como &lt;dns o ip&gt; <code>[</code>: 
+     &lt;puerto&gt; <code>]</code>. Consulte <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">Coordenadas del servidor</a>de estadísticas. 
       <br /> 
      </td> 
    <td> Cadena<br /> </td> 
@@ -1565,7 +1565,7 @@ Estos son los diferentes parámetros del **nodo mta** . Esta es la configuració
   </tr> 
   <tr> 
    <td> useMomentum<br /> </td> 
-   <td> Si se establece en "true", la instancia utiliza el MTA <a href="https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html" target="_blank"></a>mejorado.<br /> </td> 
+   <td> Si se establece en "true", la instancia utiliza el MTA <a href="https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html" target="_blank"></a>mejorado.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> <br /> </td>b 
   </tr>
@@ -1618,7 +1618,7 @@ En el nodo de **caché** , configure los parámetros siguientes. Ésta es la con
   </tr> 
   <tr> 
    <td> purgePeriodSec<br /> </td> 
-   <td> Frecuencia de purga: período en segundos entre ejecuciones del mecanismo de depuración de caché.<br /> </td> 
+   <td> Frecuencia de purga: período en segundos entre las ejecuciones del mecanismo de depuración de caché.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 3600<br /> </td> 
   </tr> 
@@ -1643,7 +1643,7 @@ Para obtener más información, consulte [Retransmisión](../../installation/usi
  <tbody> 
   <tr> 
    <td> address<br /> </td> 
-   <td> lista separada por comas de nombres DNS o direcciones IP de retransmisiones SMTP que se van a utilizar. <br /> </td> 
+   <td> Lista separada por comas de nombres DNS o direcciones IP de retransmisiones SMTP que se van a utilizar. <br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1777,7 +1777,7 @@ Para obtener más información, consulte Optimización [de envío de](../../inst
   </tr> 
   <tr> 
    <td> startWithFirstMX<br /> </td> 
-   <td> inicio siempre con la prioridad MX más alta.<br /> </td> 
+   <td> Inicio siempre con la prioridad MX más alta.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1885,12 +1885,12 @@ Para obtener más información, consulte la [Lista de las direcciones IP que se 
   </tr> 
   <tr> 
    <td> includeDomains<br /> </td> 
-   <td> lista separada por comas de las máscaras de dominio que se van a incluir.<br /> </td> 
+   <td> Lista separada por comas de las máscaras de dominio que se van a incluir.<br /> </td> 
    <td> Cadena<br /> </td> 
   </tr> 
   <tr> 
    <td> excludeDomains<br /> </td> 
-   <td> lista separada por comas de las máscaras de dominio para excluir.<br /> </td> 
+   <td> Lista separada por comas de las máscaras de dominio para excluir.<br /> </td> 
    <td> Cadena<br /> </td> 
   </tr> 
   <tr> 
@@ -1981,7 +1981,7 @@ Estos son los diferentes parámetros del nodo **canalizado** . Esta es la config
   </tr> 
   <tr> 
    <td> args<br /> </td> 
-   <td> Parámetros de Inicio<br /> </td> 
+   <td> Parámetros de inicio<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1999,7 +1999,7 @@ Estos son los diferentes parámetros del nodo **canalizado** . Esta es la config
   </tr> 
   <tr> 
    <td> autoStart<br /> </td> 
-   <td> inicio automático <br /> </td> 
+   <td> Inicio automático <br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -2022,7 +2022,7 @@ Estos son los diferentes parámetros del nodo **canalizado** . Esta es la config
    <td> 0<br /> </td> 
   </tr> 
   <tr> 
-   <td> forcePipelineEndpoint<br /> </td> 
+   <td> forcedPipelineEndpoint<br /> </td> 
    <td> URL de escucha: forzar la URL de escucha de los servicios de tubería. <br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
@@ -2052,13 +2052,13 @@ Estos son los diferentes parámetros del nodo **canalizado** . Esta es la config
    <td> 7781<br /> </td> 
   </tr> 
   <tr> 
-   <td> punteroFlushMessageCount<br /> </td> 
+   <td> pointerFlushMessageCount<br /> </td> 
    <td> El puntero se almacenará en la base de datos cada vez que se procese este número de mensajes.<br /> </td> 
    <td> <br /> </td> 
    <td> 1000<br /> </td> 
   </tr> 
   <tr> 
-   <td> punteroFlushPeriodSec<br /> </td> 
+   <td> pointerFlushPeriodSec<br /> </td> 
    <td> Retraso antes de que se almacene el puntero: el puntero se almacenará en la base de datos al menos una vez durante este período (útil en caso de baja actividad).<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 5<br /> </td> 
@@ -2070,25 +2070,25 @@ Estos son los diferentes parámetros del nodo **canalizado** . Esta es la config
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
-   <td> processingJSThwords<br /> </td> 
+   <td> processingJSThreads<br /> </td> 
    <td> Número de subprocesos para el procesamiento de eventos con un conector de JavaScript personalizado.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 4<br /> </td> 
   </tr> 
   <tr> 
-   <td> processingThwords<br /> </td> 
+   <td> processingThreads<br /> </td> 
    <td> Número de subprocesos para el procesamiento de eventos.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 4<br /> </td> 
   </tr> 
   <tr> 
-   <td> tryPeriodSec<br /> </td> 
+   <td> retryPeriodSec<br /> </td> 
    <td> Retraso entre el procesamiento si se produce un error.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 30<br /> </td> 
   </tr> 
   <tr> 
-   <td> reintentarValiditySec<br /> </td> 
+   <td> retryValiditySec<br /> </td> 
    <td> Abandono después de este período: abandone el evento si el procesamiento sigue fallando después de este período.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 300<br /> </td> 
@@ -2118,7 +2118,7 @@ Estos son los diferentes parámetros del nodo de **reparación** . Esta es la co
  <tbody> 
   <tr> 
    <td> RepairActionDelayMin<br /> </td> 
-   <td> Módulo de reparación de acciones de Envío: retraso (en minutos) tras el cual el módulo de reparación puede procesar las acciones de envío. <br /> </td> 
+   <td> Módulo de reparación de acciones de envío: retraso (en minutos) tras el cual el módulo de reparación puede procesar las acciones de envío. <br /> </td> 
    <td> Largo<br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
@@ -2282,13 +2282,13 @@ Estos son los distintos parámetros del nodo **sms** . Esta es la configuración
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> Parámetros de Inicio<br /> </td> 
+   <td> Parámetros de inicio<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> autoStart<br /> </td> 
-   <td> inicio automático<br /> </td> 
+   <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -2406,13 +2406,13 @@ Estos son los diferentes parámetros del nodo **stat** . Esta es la configuraci�
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> Parámetros de Inicio<br /> </td> 
+   <td> Parámetros de inicio<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> autoStart<br /> </td> 
-   <td> inicio automático<br /> </td> 
+   <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -2471,13 +2471,13 @@ Estos son los diferentes parámetros del nodo **syslogd** . Ésta es la configur
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> Parámetros de Inicio<br /> </td> 
+   <td> Parámetros de inicio<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> autoStart<br /> </td> 
-   <td> inicio automático<br /> </td> 
+   <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -2542,13 +2542,13 @@ Estos son los diferentes parámetros del nodo de **seguimiento** . Ésta es la c
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> Parámetros de Inicio<br /> </td> 
+   <td> Parámetros de inicio<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> autoStart<br /> </td> 
-   <td> inicio automático<br /> </td> 
+   <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -2673,13 +2673,13 @@ Estos son los diferentes parámetros del nodo **trackinglogd** . Ésta es la con
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> Parámetros de Inicio<br /> </td> 
+   <td> Parámetros de inicio<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> autoStart<br /> </td> 
-   <td> inicio automático<br /> </td> 
+   <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -2691,7 +2691,7 @@ Estos son los diferentes parámetros del nodo **trackinglogd** . Ésta es la con
   </tr> 
   <tr> 
    <td> maxCreateFileRetry<br /> </td> 
-   <td> reintentos máximos de escritura: número máximo de archivos que se pueden crear en caso de error de escritura en los archivos de registro.<br /> </td> 
+   <td> Reintentos máximos de escritura: número máximo de archivos que se pueden crear en caso de error de escritura en los archivos de registro.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
@@ -2782,13 +2782,13 @@ For additional information, refer to this [section](../../installation/using/con
   </tr> 
   <tr> 
    <td> args<br /> </td> 
-   <td> Parámetros de Inicio<br /> </td> 
+   <td> Parámetros de inicio<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> autoStart<br /> </td> 
-   <td> inicio automático<br /> </td> 
+   <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -3079,7 +3079,7 @@ Para obtener más información, consulte Seguridad [dinámica de la página, rel
   </tr> 
   <tr> 
    <td> status<br /> </td> 
-   <td> Estado de sincronización de un recurso público (lista desglosada). Los valores posibles son 'normal' (ejecución normal), 'block list' (url agregada a la lista de bloques en caso de error 404) y 'spare' (carga de archivos en el servidor de reserva si existe).<br /> </td> 
+   <td> Estado de sincronización de un recurso público (lista desglosada). Los valores posibles son 'normal' (ejecución normal), 'lista de bloqueados' (URL agregada a la lista de bloqueados en caso de error 404) y 'reserva' (carga de archivos en el servidor de reserva si existe).<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> normal<br /> </td> 
   </tr> 
@@ -3231,7 +3231,7 @@ For additional information, refer to this [section](../../installation/using/dep
   </tr> 
   <tr> 
    <td> cookieDomain<br /> </td> 
-   <td> lista separada por comas de los dominios que se van a configurar para indicar explícitamente el dominio en el que se va a establecer la cookie. <br /> </td> 
+   <td> Lista separada por comas de los dominios que se van a configurar para indicar explícitamente el dominio en el que se va a establecer la cookie. <br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3368,13 +3368,13 @@ Para obtener información adicional, consulte flujos de trabajo y afinidades [de
   </tr> 
   <tr> 
    <td> args<br /> </td> 
-   <td> Parámetros de Inicio<br /> </td> 
+   <td> Parámetros de inicio<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> autoStart<br /> </td> 
-   <td> inicio automático<br /> </td> 
+   <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
