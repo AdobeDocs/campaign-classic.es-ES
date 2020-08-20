@@ -14,11 +14,11 @@ discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
+workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ La versión de Adobe Campaign Classic no admite la canalización.
 1. Compruebe si el [!DNL pipelined] elemento está presente en el archivo de configuración. Si no, significa que no es compatible.
 1. Actualice a la versión 6.11 compilación 8705 o posterior.
 
-**La canalización produce el error &#39;&#39; aurait dû commencer par &#39;[&#39; ou &#39;{&#39; (iRc=16384)&quot;**
+**Falla con &#39;&#39; aurait du y el comentador par`[`ou`{`(iRc=16384)&quot;**
 
 No está establecida la opción **NmsPipeline_Config** . En realidad es un error de análisis de JSON.
 Establezca la configuración JSON en la opción **NmsPipeline_Config**. Consulte &quot;Opción de enrutamiento&quot; en esta sección.
