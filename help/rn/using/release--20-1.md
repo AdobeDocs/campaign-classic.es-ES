@@ -12,10 +12,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6c3c2ad62778c4c4f874c5b34c014529ce3e7185
-workflow-type: ht
-source-wordcount: '1330'
+translation-type: tm+mt
+source-git-commit: e31efa347b42b4ccb532ca5f79e73745b5a7878b
+workflow-type: tm+mt
+source-wordcount: '1331'
 ht-degree: 100%
 
 ---
@@ -183,7 +183,7 @@ _lunes, 17 de febrero de 2020_
 
 * Se ha corregido un problema que se producía al eliminar, insertar o actualizar una gran cantidad de datos con la actividad **Actualizar datos** en un flujo de trabajo mediante un esquema FDA como dimensión de segmentación. (NEO-13280)
 
-* Se ha corregido un problema que impedía que se enviaran correos electrónicos al usar la instrucción &#39;if&#39; fuera de la etiqueta `body`.
+* Se ha corregido un problema que impedía que se enviaran correos electrónicos al usar la instrucción &#39;if&#39; fuera de la etiqueta `body`. (NEO-18628)
 
 * Se ha corregido un problema que se producía al intentar mostrar la página espejo de los registros de envío de un mensaje enviado. (NEO-17976)
 
