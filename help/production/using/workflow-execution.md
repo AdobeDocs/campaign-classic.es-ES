@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: 5a4ee9b14d4c77f74ff73209d4323bf4f1347155
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '635'
 ht-degree: 13%
 
 ---
@@ -44,7 +44,7 @@ Puede haber varias causas para este problema, siga los pasos a continuación par
 
    Para obtener más información sobre la supervisión de flujos de trabajo técnicos, consulte [esta página](../../workflow/using/monitoring-technical-workflows.md).
 
-   >[NOTA]
+   >[!NOTE]
    >
    >Una vez reiniciado el flujo de trabajo, asegúrese de ejecutar las tareas pendientes (haga clic con el botón secundario en la **[!UICONTROL Scheduler]** actividad / **[!UICONTROL Execute pending task(s) now]**) para comprobar si se produce un nuevo error en cualquiera de las actividades.
 
@@ -52,7 +52,7 @@ Puede haber varias causas para este problema, siga los pasos a continuación par
 
 1. Compruebe el estado del **[!UICONTROL wfserver]** módulo en la **[!UICONTROL Monitoring]** ficha, accesible desde la página principal del Campaign Classic (consulte [Monitoreo de procesos](../../production/using/monitoring-processes.md)). Este proceso es responsable de ejecutar todos los flujos de trabajo.
 
-   Un usuario administrador también puede comprobar que el módulo **wfserver@`<instance>`**se inicia en el servidor de aplicaciones principal mediante el comando siguiente.
+   Un usuario administrador también puede comprobar que el módulo **wfserver@`<instance>`** se inicia en el servidor de aplicaciones principal mediante el comando siguiente.
 
    ```
    nlserver pdump
@@ -81,9 +81,9 @@ Puede haber varias causas para este problema, siga los pasos a continuación par
 
    Para comprobar el número de flujos de trabajo que se están ejecutando en su instancia, le recomendamos que utilice las vistas predefinidas, a las que se puede acceder de forma predeterminada en la carpeta **[!UICONTROL Administration]** / **[!UICONTROL Audit]** . Para obtener más información, consulte [esta página](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status).
 
-   >[PRECAUCIÓN]
+   >[!CAUTION]
    >
-   >Aumentar el umbral de la **[!UICONTROL NmsOperation_LimitConcurrency]** opción puede provocar problemas de rendimiento en la instancia. En cualquier caso, no lo haga por su cuenta y póngase en contacto con su Adobe Campaign.
+   >Aumentar el umbral de la **[!UICONTROL NmsOperation_LimitConcurrency]** opción puede provocar problemas de rendimiento en la instancia. En cualquier caso, no realice esto por su cuenta y póngase en contacto con su contacto de Adobe Campaign.
 
 Para obtener más información sobre cómo monitorizar los flujos de trabajo, consulte [esta sección](../../workflow/using/monitoring-workflow-execution.md).
 
@@ -95,7 +95,7 @@ Para comprobar esto e iniciar el módulo si es necesario, aplique los siguientes
 
 1. Compruebe el estado del **[!UICONTROL wfserver]** módulo en la **[!UICONTROL Monitoring]** ficha, accesible desde la página principal del Campaign Classic (consulte [Monitoreo de procesos](../../production/using/monitoring-processes.md)).
 
-   Un usuario administrador también puede comprobar que el módulo **wfserver@`<instance>`**se inicia en el servidor de aplicaciones principal mediante el comando siguiente.
+   Un usuario administrador también puede comprobar que el módulo **wfserver@`<instance>`** se inicia en el servidor de aplicaciones principal mediante el comando siguiente.
 
    ```
    nlserver pdump
