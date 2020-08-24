@@ -54,7 +54,7 @@ El destino puede ser:
 
    ![](assets/s_ncs_admin_survey_jump_comment.png)
 
-## Ejemplo: acceso a otro formulario de acuerdo con un parámetro de la URL {#example--accessing-another-form-according-to-a-parameter-of-the-url}.
+## Ejemplo: acceso a otro formulario de acuerdo con un parámetro de la URL. {#example--accessing-another-form-according-to-a-parameter-of-the-url}
 
 En el ejemplo siguiente, se desea configurar un formulario web que, cuando está aprobado, muestra otro formulario designado por un parámetro de la dirección URL. Para ello, siga los siguientes pasos:
 
