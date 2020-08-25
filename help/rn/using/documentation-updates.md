@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8198c4aa6eccc0cbb5de4712ebdd8000783b615c
+source-git-commit: 70efc8a7f1fab68d73e36b4373116c4aaaa0af5d
 workflow-type: tm+mt
-source-wordcount: '7096'
+source-wordcount: '7164'
 ht-degree: 97%
 
 ---
@@ -45,7 +45,7 @@ Los vídeos de procedimientos ya están disponibles en los siguientes temas:
 
 * [Cómo activar y utilizar AMP para correos electrónicos](../../delivery/using/defining-interactive-content.md)
 
-* [Cómo personalizar correos electrónicos mediante bloques de contenido dinámico](../../delivery/using/personalization-blocks.md)
+* [Cómo personalizar correos electrónicos con bloques de contenido dinámico](../../delivery/using/personalization-blocks.md)
 
 * [Cómo personalizar correos electrónicos mediante campos de personalización](../../delivery/using/personalization-fields.md)
 
@@ -56,6 +56,15 @@ Los vídeos de procedimientos ya están disponibles en los siguientes temas:
 * [Cómo configurar un envío continuo](../../workflow/using/continuous-delivery.md)
 
 Se ha añadido información sobre las comprobaciones y acciones que se deben realizar al obtener el error &quot;No se pudo resolver el nombre de host&quot; después de conectarse a un servidor FTP. [Más información](../../platform/using/sftp-server-usage.md)
+
+Se ha hecho referencia a nuevos casos de uso en la lista de casos [de uso del](../../workflow/using/about-workflow-use-cases.md)flujo de trabajo:
+
+* Automatización de la creación, edición y publicación de contenido
+* Configuración de un proceso de aprobación de destinatarios antes de enviar un envío
+* Llamada a una variable de instancia en una consulta
+* Aplicación de un porcentaje dividido a una población
+
+La sección de **[!UICONTROL AND-join]** actividad se ha enriquecido con información adicional sobre su uso, así como con una nota sobre el uso de variables. [Más información](../../workflow/using/and-join.md)
 
 ## Julio de 2020 {#july-2020}
 
