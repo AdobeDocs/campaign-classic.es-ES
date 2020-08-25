@@ -14,8 +14,11 @@ discoiquuid: 78c70ef4-807d-45d4-ac87-2b741c0ef5cb
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
+translation-type: tm+mt
+source-git-commit: f7ed7e59be2cfbde467b0c80d21cfbf52016a2b8
+workflow-type: tm+mt
+source-wordcount: '190'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +33,7 @@ Una condición es una expresión JavaScript que debe evaluarse como “verdadera
 
 Para obtener más información sobre todas las funciones adicionales de JavaScript y los métodos SOAP del servidor aplicativo accesible mediante JavaScript de flujo de trabajo, consulte la [Documentación de JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
 
-También puede insertar variables directamente desde este editor.
+También puede insertar variables directamente desde este editor. For more  information on how to work with variables, refer to [this section](../../workflow/using/javascript-scripts-and-templates.md#variables).
 
 Se pueden añadir, eliminar u ordenar las condiciones desde la ventana de edición de la propiedad actividad, pero también se puede modificar desde la transición.
 
