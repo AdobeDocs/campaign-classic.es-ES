@@ -1,8 +1,6 @@
 ---
 title: Fork
-seo-title: Fork
 description: Fork
-seo-description: null
 page-status-flag: never-activated
 uuid: 90db1991-cff9-4dbd-a478-7aae1d845836
 contentOwner: sauviat
@@ -14,17 +12,21 @@ discoiquuid: 16f50f5f-cbad-4de7-aa73-38615ae76ac0
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+translation-type: tm+mt
+source-git-commit: f7ed7e59be2cfbde467b0c80d21cfbf52016a2b8
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 4%
 
 ---
 
 
 # Fork{#fork}
 
-Una ramificación permite iniciar varias actividades en paralelo.
+Un tenedor le permite activar todas sus actividades salientes en paralelo.
 
-Haga doble clic en el objeto gráfico para definir el número de transiciones salientes, crear una nueva transición o cambiar la etiqueta de la transición seleccionada.
+Por ejemplo, puede utilizar la actividad en el contexto de la creación de contenido y la automatización del envío de envíos, para iniciar el cálculo de destinatarios y la creación de contenido al mismo tiempo. En [esta sección](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content)hay disponible un caso de uso dedicado.
+
+Para configurar la actividad, ábrala y defina el número y la etiqueta de las transiciones salientes que desee.
 
 ![](assets/s_user_segmentation_fork.png)
-
