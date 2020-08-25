@@ -14,8 +14,11 @@ discoiquuid: 8867d9c3-2ce4-4611-8c88-ce505c3a01d1
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9d36192a768fd0162f2301a5fe0437074d0fda58
+translation-type: tm+mt
+source-git-commit: c959c0e8ace1eaaa768ea04c194eaccac0b35344
+workflow-type: tm+mt
+source-wordcount: '1238'
+ht-degree: 97%
 
 ---
 
@@ -84,13 +87,19 @@ Las variables de tareas (**[!UICONTROL task.vars.xxx]**) son comparables a las v
 
 Las variables de eventos (**[!UICONTROL vars.xxx]**) permiten el intercambio de datos entre las tareas básicas de un proceso de flujo de trabajo. La tarea que activó la tarea en curso transfiere estas variables. Es posible modificarlas y definir nuevas. Después, se transfieren a las siguientes actividades.
 
-En el caso de las actividades de tipo **AND-join**, las variables se combinan, pero si se define una misma variable dos veces, se genera un conflicto y el valor se mantiene como indeterminado.
+>[!CAUTION]
+>
+>En el caso de las actividades de tipo [AND-join](../../workflow/using/and-join.md), las variables se combinan, pero si se define una misma variable dos veces, se genera un conflicto y el valor se mantiene como indeterminado.
 
-Estas son las variables más utilizadas, que deben utilizarse con preferencia sobre las variables de instancia.
+Evento son las variables más utilizadas y deben utilizarse en preferencia a las variables de instancia.
 
 Las distintas actividades modifican o leen ciertas variables de evento. Todas son variables de tipo cadena. Por ejemplo, una exportación establece la variable **[!UICONTROL vars.filename]** con el nombre completo del archivo que acaba de exportarse. Todas estas variables leídas o modificadas se documentan en [Acerca de actividades](../../workflow/using/about-activities.md), en las secciones **Parámetros de entrada** y **Parámetros de salida** de las actividades.
 
-### Ejemplos {#example}
+### Ejemplos de uso {#example}
+
+>[!NOTE]
+>
+>En [esta sección](../../workflow/using/about-workflow-use-cases.md)encontrará más casos de uso de flujo de trabajo.
 
 **Ejemplo 1**
 
