@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 6c66718fbbf13486d52b0cc98eae6c854b34030d
 workflow-type: tm+mt
 source-wordcount: '2955'
 ht-degree: 95%
@@ -357,7 +357,7 @@ Los grupos predeterminados y los derechos asignados permiten a los operadores ac
 
 La matriz de derechos de acceso a Adobe Campaign está disponible [aquí](/help/platform/using/assets/access-rights-matrix.pdf).
 
-[![imagen](assets/user_management.png)](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/getting-started/administration-basics/assets/access-rights-matrix.pdf)
+[![imagen](assets/do-not-localize/user_management.png)](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/getting-started/administration-basics/assets/access-rights-matrix.pdf)
 
 ## Administración de acceso a carpetas {#folder-access-management}
 
