@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 251244225076dd11a319d1c4b2124c0d05168eaa
+source-git-commit: c96c94fe0b98e298968c329466ee4e2e04b11a35
 workflow-type: tm+mt
-source-wordcount: '1976'
-ht-degree: 99%
+source-wordcount: '1975'
+ht-degree: 98%
 
 ---
 
@@ -94,7 +94,7 @@ _lunes, 8 de junio de 2020_
  <tbody> 
   <tr> 
    <td> <p>La Ley de Protección de Datos Personales de Tailandia (PDPA, por sus siglas en inglés) es la nueva ley de privacidad que armoniza y moderniza los requerimientos de protección de datos para Tailandia. </p>
-   <p>La Lei Geral de Proteção de Dados (LGPD) de Brasil va a entrar en vigencia a partir del 16 de agosto para todas las compañías que recopilen o procesen datos personales en Brasil.</p>
+   <p>El Lei Geral de Proteção de Dados (LGPD) de Brasil entrará en vigor a principios de 2021 para todas las compañías que recopilen o procesen datos personales en Brasil.</p>
    <p>Estos reglamentos se aplican a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en estos países. Además de las funcionalidades de privacidad disponibles en Campaign (incluida la administración de consentimientos, configuración de retención de datos y funciones de usuario), estamos tomando esta oportunidad para incluir funcionalidades adicionales, para ayudar a facilitar su preparación para la PDPA y la LGPD.</p>
    <ul> 
      <li><p>Derecho de acceso y derecho de eliminación: estamos aprovechando las capacidades añadidas para el RGPD y la CCPA. <a href="https://helpx.adobe.com/es/campaign/kb/acc-privacy.html">Más información</a></p></li> 
