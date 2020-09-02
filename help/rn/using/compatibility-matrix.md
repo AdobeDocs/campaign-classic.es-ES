@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '618'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ A menos que se indique lo contrario, se admiten todas las versiones menores.
 
 Adobe Campaign Classic es compatible con todos los sistemas y herramientas enumerados en esta página. Cuando las versiones específicas de estos sistemas y herramientas de terceros llegan al final de su vida útil (EOL) con sus respectivos creadores, Adobe Campaign ya no es compatible con ellas y se eliminan de nuestra matriz de compatibilidades en la versión posterior del producto. Para evitar problemas, compruebe que se encuentra en una versión compatible de cualquier sistema enumerado en la matriz de compatibilidad.
 
-Para obtener más información sobre los elementos obsoletos, consulte [esta página](../../rn/using/deprecated-features.md).
+Para obtener más información sobre los elementos obsoletos, visite [esta página](../../rn/using/deprecated-features.md).
 
 ## Sistemas operativos{#OperatingSystems}
 
@@ -145,7 +145,7 @@ Se admiten los siguientes controladores RDBMS:
 <tr>
 <td>Oracle</td>
 <td>
-<p>11g  R2</p>
+<p>11g   R2</p>
 <p>12c</p>
 <p>18c</p>
 <p>19c</p>
@@ -169,7 +169,7 @@ Se admiten los siguientes controladores RDBMS:
 <p>2014</p>
 <p>2016</p>
 <p>2017</p>
-<p>Advertencia: Microsoft SQL Server no se admite como base de datos principal cuando el servidor de Campaign se está ejecutando en Linux. <a href="https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">Más información</a>.</p>
+<p>Advertencia: Microsoft SQL Server no se admite como base de datos principal cuando el servidor de Campaign se está ejecutando en Linux. <a href="https://docs.adobe.com/content/help/es-ES/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">Más información</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -362,7 +362,7 @@ Para los siguientes exploradores, se admite la versión más reciente:
 
 ## Integraciones de Experience Cloud{#ExperienceCloudintegrations}
 
-Para integraciones con las soluciones de Adobe, consulte esta [sección](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/integrating-with-adobe-experience-cloud/about-campaign-integrations.html#experience-cloud-integrations).
+Para integraciones con las soluciones de Adobe, visite esta [sección](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/integrating-with-adobe-experience-cloud/about-campaign-integrations.html#experience-cloud-integrations).
 
 ## Más parecido a esto{#Morelikethis}
 
