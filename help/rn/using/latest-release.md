@@ -37,6 +37,7 @@ _22 de julio de 2020_
 * Se ha corregido un problema que impedía que el funcionamiento del seguimiento de direcciones URL mediante fragmentos en parámetros de personalización (etiquetas de anclaje con signo de almohadilla). (NEO-25774)
 * Se ha corregido un problema de seguimiento al usar fórmulas de seguimiento personalizadas específicas. (NEO-25277)
 
+
 Se ha corregido un problema que impedía el funcionamiento del seguimiento de &quot;clics de notificación&quot; (notificaciones push de iOS y Android). (NEO-25965)
 * Se ha corregido una regresión que afectaba a los campos calculados de un flujo de trabajo. (NEO-25194)
 * Se ha corregido una regresión que impedía que funcionara la creación rápida de direcciones URL de seguimiento web. (NEO-20999)
@@ -164,7 +165,7 @@ Obtenga más información en la [Matriz de compatibilidad de Campaign](https://h
 
 * Se añadió un mensaje de error en el archivo de registro para advertir a los usuarios cuando el archivo descargado es mayor que el espacio en disco.
 
-* Ahora están disponibles las siguientes funciones para el conector Snowflake: Meses anteriores, Días anteriores, Hasta la fecha, Hora, Años anteriores.
+* Ahora están disponibles las siguientes funciones para el conector Snowflake: MonthsAgo, DaysAgoInt, ToDateTime, YearsAgo.
 
 **Evoluciones técnicas**
 
@@ -181,7 +182,7 @@ Antes de la actualización, debe seguir estos pasos:
 
 Después de la actualización:
 
-1. Elimine la memoria compartida mediante el comando **ipcrm** , si la versión es anterior a la versión actual.
+1. Elimine la memoria compartida mediante el comando **ipcrm** si la versión es anterior a la versión actual.
 1. Inicio el servicio nlserver si se estaba ejecutando.
 1. Inicie el servicio apache2 si se estaba ejecutando.
 
