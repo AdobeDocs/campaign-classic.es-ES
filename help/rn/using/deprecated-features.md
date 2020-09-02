@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 63f07746d39fff22a98b3cd4ab7f2294da778ab3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1468'
 ht-degree: 100%
 
@@ -96,7 +96,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
    <td>A partir de la versión 19.1 de Campaign, las API de Campaign Classic están disponibles en una página dedicada. Si utilizó el archivo jsapi.chm heredado, debería consultar la <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">nueva versión en línea</a>.</td>
   </tr> 
   <tr> 
-   <td>Organización de campañas     - Marketing predictivo</td>
+   <td>Organización de campañas      - Marketing predictivo</td>
    <td>A partir de la versión 18.10 de Campaign, las funcionalidades de marketing predictivas ya no están disponibles.</td>
   </tr> 
   <tr> 
