@@ -82,7 +82,7 @@ _lunes, 2 de diciembre de 2019_
   <tr> 
 <td> <p>Adobe Campaign le permite probar el nuevo formato <a href="https://amp.dev/about/email/">AMP interactivo para correo electrónico</a>, que permite a los especialistas en marketing incluir componentes de AMP dentro de los mensajes para mejorar la experiencia de correo electrónico con contenido enriquecido, dinámico e interactivo, directamente procesable en el propio mensaje.</p>
    <p> Esta capacidad se presenta como una versión beta pública.</p>
-   <p>Para obtener más información, consulte la <a href="../../delivery/using/defining-interactive-content.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">videotutorial</a>.</p><br /></td> 
+   <p>Para obtener más información, consulte la <a href="../../delivery/using/defining-interactive-content.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">videotutorial</a>.</p><br /></td> 
   </tr> 
  </tbody> 
 </table>
