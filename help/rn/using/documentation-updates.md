@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70efc8a7f1fab68d73e36b4373116c4aaaa0af5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7164'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,42 +29,42 @@ También puede consultar las [Notas de la versión de Adobe Campaign Classic](..
 
 ## Agosto de 2020 {#aug-2020}
 
-Conozca las prácticas recomendadas relacionadas con el diseño de envíos y el envío con Campaña en una sección dedicada. [Más información](../../delivery/using/delivery-best-practices.md)
+Conozca las prácticas recomendadas relacionadas con el diseño de envíos y el envío con Campaign en una sección dedicada. [Más información](../../delivery/using/delivery-best-practices.md)
 
-Se ha mejorado la página de aterrizaje de prácticas recomendadas sobre la capacidad de ejecución para facilitar el acceso a las subsecciones. [Más información](../../delivery/using/deliverability-key-points.md)
+Se ha mejorado la página de aterrizaje de prácticas recomendadas sobre la capacidad de entrega para facilitar el acceso a las subsecciones. [Más información](../../delivery/using/deliverability-key-points.md)
 
-Los vídeos de procedimientos ya están disponibles en los siguientes temas:
+Los vídeos de procedimientos ya están disponibles para los siguientes temas:
 
-* [Cómo configurar la gestión de la fatiga mediante reglas de tipología y filtros predefinidos](../../campaign/using/about-campaign-typologies.md)
+* [Configuración de la gestión de la fatiga mediante reglas de tipología y filtros predefinidos](../../campaign/using/about-campaign-typologies.md)
 
-* [Cómo crear un correo electrónico en una campaña](../../campaign/using/marketing-campaign-deliveries.md)
+* [Creación de un correo electrónico en una campaña](../../campaign/using/marketing-campaign-deliveries.md)
 
-* [Cómo crear una newsletter multilingüe con contenido condicional](../../delivery/using/conditional-content.md)
+* [Creación de una newsletter multilingüe con contenido condicional](../../delivery/using/conditional-content.md)
 
-* [Cómo configurar e implementar una Plantilla de envíos](../../delivery/using/creating-a-delivery-template.md)
+* [Configuración e implementación de una plantilla de envíos](../../delivery/using/creating-a-delivery-template.md)
 
-* [Cómo activar y utilizar AMP para correos electrónicos](../../delivery/using/defining-interactive-content.md)
+* [Activación y uso de AMP para correos electrónicos](../../delivery/using/defining-interactive-content.md)
 
 * [Cómo personalizar correos electrónicos con bloques de contenido dinámico](../../delivery/using/personalization-blocks.md)
 
-* [Cómo personalizar correos electrónicos mediante campos de personalización](../../delivery/using/personalization-fields.md)
+* [Personalización de correos electrónicos mediante campos de personalización](../../delivery/using/personalization-fields.md)
 
-* [Cómo administrar semillas y pruebas en un correo electrónico](../../delivery/using/steps-defining-the-target-population.md)
+* [Administración de fuentes y pruebas en un correo electrónico](../../delivery/using/steps-defining-the-target-population.md)
 
-* [Cómo configurar un envío recurrente](../../workflow/using/recurring-delivery.md)
+* [Configuración de un envío recurrente](../../workflow/using/recurring-delivery.md)
 
-* [Cómo configurar un envío continuo](../../workflow/using/continuous-delivery.md)
+* [Configuración de un envío continuo](../../workflow/using/continuous-delivery.md)
 
 Se ha añadido información sobre las comprobaciones y acciones que se deben realizar al obtener el error &quot;No se pudo resolver el nombre de host&quot; después de conectarse a un servidor FTP. [Más información](../../platform/using/sftp-server-usage.md)
 
-Se ha hecho referencia a nuevos casos de uso en la lista de casos [de uso del](../../workflow/using/about-workflow-use-cases.md)flujo de trabajo:
+Se ha hecho referencia a nuevos casos de uso en la lista de [casos de uso del flujo de trabajo](../../workflow/using/about-workflow-use-cases.md):
 
 * Automatización de la creación, edición y publicación de contenido
 * Configuración de un proceso de aprobación de destinatarios antes de enviar un envío
 * Llamada a una variable de instancia en una consulta
 * Aplicación de un porcentaje dividido a una población
 
-La sección de **[!UICONTROL AND-join]** actividad se ha enriquecido con información adicional sobre su uso, así como con una nota sobre el uso de variables. [Más información](../../workflow/using/and-join.md)
+La sección de la actividad **[!UICONTROL AND-join]** se ha enriquecido con información adicional sobre su uso, así como con una nota sobre el uso de variables. [Más información](../../workflow/using/and-join.md)
 
 ## Julio de 2020 {#july-2020}
 
@@ -436,7 +436,7 @@ La sección “Supervisión del flujo de trabajo” se ha actualizado con una no
 
 Se ha añadido un caso de uso sobre cómo enviar un correo electrónico con campos de datos personalizados mediante la actividad Enriquecimiento en un flujo de trabajo. [Más información](https://docs.campaign.adobe.com/doc/AC/en/WKF_Use_cases_Email_enrichment_with_custom_date_fields.html)
 
-Los vídeos de funciones se han movido [aquí](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html).
+Los vídeos de funciones se han movido [aquí](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/overview.html).
 
 Se han añadido dos notas técnicas en [Teradata](https://helpx.adobe.com/es/campaign/kb/campaign_fda_teradata.html) y [MySQL 5.7](https://helpx.adobe.com/es/campaign/kb/campaign_fda_mysql.html).
 
