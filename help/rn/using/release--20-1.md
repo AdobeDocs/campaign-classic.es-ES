@@ -12,9 +12,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e31efa347b42b4ccb532ca5f79e73745b5a7878b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1331'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ _lunes, 17 de febrero de 2020_
  <tbody> 
   <tr> 
    <td> <p>Snowflake es un almacén de datos en la nube completamente gestionado, diseñado para escalar tanto en almacenamiento como en computación. Con este nuevo conector, Adobe Campaign ahora puede aprovechar el poder de Snowflake para realizar la segmentación de Big Data. Este conector está disponible para todos los clientes, incluido Adobe.</p>
-    <p>Para obtener más información, consulte la <a href="../../platform/using/specific-configuration-database.md#configure-access-to-snowflake">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">videotutorial</a>.</p>
+    <p>Para obtener más información, consulte la <a href="../../platform/using/specific-configuration-database.md#configure-access-to-snowflake">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">videotutorial</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -151,7 +151,7 @@ _lunes, 17 de febrero de 2020_
 
 * Se ha corregido un problema en el cual se creaban demasiados flujos de trabajo en la misma campaña. Ahora no se pueden crear más de 28 flujos de trabajo. Se muestra una advertencia.
 
-* Se ha corregido un problema al usar la opción de reconciliación **A selection of columns** en una actividad de flujo de trabajo de **Union** .
+* Se ha corregido un problema al usar la opción de reconciliación **A selection of columns** en una actividad de flujo de trabajo de **Union**.
 
 * Se ha corregido un problema de bloqueo de la consola que se podía producir al usar una lista de enriquecimiento dañada en un flujo de trabajo. (NEO-18096)
 
