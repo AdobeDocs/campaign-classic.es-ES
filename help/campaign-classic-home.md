@@ -85,7 +85,7 @@ Conozca las funcionalidades de seguimiento y procesos en Campaign
 | Páginas útiles | Recursos para desarrolladores |
 |---|---|
 | [Notas de la versión](/help/rn/using/latest-release.md) | [Lista de mensajes de error](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
-| [Videotutoriales](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) | [Modelo de datos de Campaign](configuration/using/about-data-model.md) |
+| [Videotutoriales](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/overview.html) | [Modelo de datos de Campaign](configuration/using/about-data-model.md) |
 | [Matriz de compatibilidad](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html) | [JSAPI de Campaign](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | [Introducción a Campaign](platform/using/about-adobe-campaign-classic.md) | [Guía de implementación](https://helpx.adobe.com/es/campaign/kb/acc-implementation.html) |
 | [Actualización a Gold Standard ](https://helpx.adobe.com/es/campaign/kb/gold-standard.html) | [Guía de seguimiento](https://helpx.adobe.com/es/campaign/kb/acc-tracking.html) |
