@@ -5,11 +5,11 @@ user-guide-description: Adobe Campaign lets you coordinate the creation of conve
 index: y
 product: adobe campaign
 sub-product: Adobe Campaign Classic
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0810608c67e6da4d9afa3a366df664594b0b6840
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2109'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -95,12 +95,12 @@ ht-degree: 99%
       + [Conozca las prácticas recomendadas](delivery/using/delivery-best-practices.md)
       + [Optimización del envío](delivery/using/optimize-delivery.md)
       + [Uso de plantillas](delivery/using/use-templates.md)
-      + [Creación de contenido personalizado](delivery/using/design-and-personalize.md)
-      + [Definir la audiencia correcta](delivery/using/define-the-right-audience.md)
-      + [Comprobar antes de enviar](delivery/using/check-before-sending.md)
+      + [Compilación de contenido personalizado](delivery/using/design-and-personalize.md)
+      + [Definición de la audiencia correcta](delivery/using/define-the-right-audience.md)
+      + [Comprobación antes de enviar](delivery/using/check-before-sending.md)
       + [Seguimiento y monitorización](delivery/using/track-and-monitor.md)
    + Pasos clave al crear una entrega {#key-steps-when-creating-a-delivery}
-      + [Introducción a los envíos](delivery/using/steps-about-delivery-creation-steps.md)
+      + [Introducción a envíos](delivery/using/steps-about-delivery-creation-steps.md)
       + [Creación e identificación de la entrega](delivery/using/steps-create-and-identify-the-delivery.md)
       + [Definición de la población objetivo](delivery/using/steps-defining-the-target-population.md)
       + [Validación de la entrega](delivery/using/steps-validating-the-delivery.md)
