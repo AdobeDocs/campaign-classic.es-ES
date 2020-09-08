@@ -14,8 +14,11 @@ discoiquuid: 1e196989-b8c1-473a-89c9-bbeb68b98419
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 51e4d72abf3a1f48700ca38566dbf06dd24594b8
+translation-type: tm+mt
+source-git-commit: 98c880e1218f179b8b804d52690135a2f28520a0
+workflow-type: tm+mt
+source-wordcount: '707'
+ht-degree: 90%
 
 ---
 
@@ -38,7 +41,7 @@ Existen dos tipos de actualizaciones: actualización masiva para un conjunto de 
 
 ### Actualización masiva {#mass-update}
 
-Para una actualización masiva, utilice **[!UICONTROL Action > Mass update of selected lines...]**. El asistente le ayuda a configurar y ejecutar la actualización.
+Para la actualización masiva, utilice **[!UICONTROL Action > Mass update of selected lines...]**. El asistente le ayuda a configurar y ejecutar la actualización.
 
 El primer paso del asistente es especificar los campos que se actualizarán.
 
@@ -72,7 +75,7 @@ La opción **[!UICONTROL Stop]** permite cancelar la actualización, pero es pos
 
 ### Combinación de datos {#merge-data}
 
-Seleccione **[!UICONTROL Merge selected lines...]** para iniciar la combinación de dos perfiles de destinatario. Los perfiles que se van a combinar deben seleccionarse antes de escoger la opción. La combinación se configura y se inicia con un asistente.
+Select **[!UICONTROL Merge selected lines...]** to launch the merging of two recipient profiles. Los perfiles que se van a combinar deben seleccionarse antes de escoger la opción. La combinación se configura y se inicia con un asistente.
 
 El asistente muestra los valores que se van a recuperar para cada campo completado en uno u otro de los perfiles de origen. Si uno o varios campos de los perfiles que se van a combinar tienen valores diferentes, estos se muestran en la sección **[!UICONTROL List of conflicts]**. A continuación, puede seleccionar el perfil predeterminado con los botones de opción de la lista, como en el ejemplo siguiente:
 
@@ -89,7 +92,7 @@ Compruebe las columnas **[!UICONTROL Result]** de ambas secciones de la ventana 
 Se puede exportar el contenido de una lista. Para configurar y ejecutar la exportación:
 
 1. Seleccione los registros que desea exportar.
-1. Haga clic con el botón derecho y seleccione **[!UICONTROL Export...]**.
+1. Right-click and select **[!UICONTROL Export...]**.
 
    ![](assets/s_ncs_user_export_list.png)
 
@@ -116,16 +119,16 @@ En la mayoría de los casos, los destinatarios se suscriben a un boletín a trav
    >
    >Este editor permite crear un nuevo servicio: haga clic en el botón **[!UICONTROL Create]**.
 
-1. Puede **[!UICONTROL Send a confirmation message]** a los destinatarios. El contenido de este mensaje se puede configurar en el escenario de suscripción vinculado al servicio seleccionado.
+1. You can **[!UICONTROL Send a confirmation message]** to recipients. El contenido de este mensaje se puede configurar en el escenario de suscripción vinculado al servicio seleccionado.
 1. Haga clic en el botón **[!UICONTROL Start]** para ejecutar el proceso de suscripción.
 
    ![](assets/s_ncs_user_selection_subscribe_service_3.png)
 
 La sección superior de la ventana permite controlar el proceso de ejecución. El botón **[!UICONTROL Stop]** permite detener el proceso. Sin embargo, los destinatarios ya procesados se suscribirán.
 
-Si desactiva la opción **[!UICONTROL Do not keep a trace of this job in the database]**, puede seleccionar (o crear) la carpeta de ejecución en la que se almacenará la información de este proceso.
+If you uncheck the **[!UICONTROL Do not keep a trace of this job in the database]** option, you can select (or create) the execution folder where the information on this process will be stored.
 
-Para comprobar el proceso, diríjase a la ficha **[!UICONTROL Subscriptions]** de los perfiles de los destinatarios relacionados con esta operación o a la ficha **[!UICONTROL Subscriptions]** a través del nodo **[!UICONTROL Profiles and Targets > Services and Subscriptions]**.
+To check on the process, go to the **[!UICONTROL Subscriptions]** tab on the profiles of the recipients concerned by this operation, or to the **[!UICONTROL Subscriptions]** tab accessed via the **[!UICONTROL Profiles and Targets > Services and Subscriptions]** node.
 
 ![](assets/s_ncs_user_selection_subscribe_service_4.png)
 
