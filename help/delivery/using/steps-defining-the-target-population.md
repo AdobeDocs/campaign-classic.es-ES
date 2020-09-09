@@ -14,11 +14,11 @@ discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1578'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -32,20 +32,20 @@ Para cada entrega se pueden definir varios tipos de destinatarios. La sección s
 * Destinatarios principales de la entrega. [Más información](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
 * Los destinatarios de los mensajes de prueba para configurar un ciclo de validación. [Más información](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
 
-Además, si el envío se incluye en una campaña de marketing, también puede definir [direcciones semilla](../../delivery/using/about-seed-addresses.md)y [grupos de control](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+Además, si el envío se incluye en una campaña de marketing, también puede definir [direcciones semilla](../../delivery/using/about-seed-addresses.md) y [grupos de control](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
 ## Selección de los principales destinatarios de la entrega {#selecting-the-main-target}
 
-En la mayoría de los casos, el destinatario principal se extrae de la base de datos de Adobe Campaign (modo predeterminado). Sin embargo, los destinatarios también se pueden almacenar en un archivo externo. Obtenga más información en [esta sección](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
+En la mayoría de los casos, el objetivo principal se extrae de la base de datos de Adobe Campaign (modo predeterminado). No obstante, los destinatarios también se pueden almacenar en un archivo externo. Obtenga más información en [esta sección](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
 
-Para seleccionar los destinatarios de un envío, siga los pasos a continuación:
+Para seleccionar los destinatarios de un envío, siga los siguientes pasos:
 
-1. En el editor de envío, seleccione **[!UICONTROL To]**.
-1. Si los destinatarios se almacenan en la base de datos, elija la primera opción.
+1. En el editor de envíos, seleccione **[!UICONTROL To]**.
+1. Si los destinatarios están almacenados en la base de datos, seleccione la primera opción.
 
    ![](assets/s_ncs_user_wizard_email02a.png)
 
-1. Seleccione la asignación de destino en la lista desplegable **[!UICONTROL Target mapping]**. La asignación de destino predeterminada de Adobe Campaign es **[!UICONTROL Recipients]**, basada en el esquema **nms:destinatario** .
+1. Seleccione la asignación de destino en la lista desplegable **[!UICONTROL Target mapping]**. La asignación de destino predeterminada de Adobe Campaign es **[!UICONTROL Recipients]**, según el esquema **nms:destinatario** .
 
    Están disponibles otros destinos de mapeo, y algunos pueden relacionarse con la configuración específica. Para obtener más información sobre las asignaciones de destino, consulte [Selección de una asignación de destino](../../delivery/using/selecting-a-target-mapping.md).
 
@@ -155,7 +155,7 @@ Estas son las opciones disponibles:
 
       ![](assets/s_ncs_user_wizard_email02j.png)
 
-* **[!UICONTROL Exclude recipients who no longer want to be contacted]** , es decir, destinatarios cuyas direcciones de correo electrónico están en una lista de bloqueados (&#39;exclusión&#39;). Esta opción debe permanecer seleccionada para respetar la ética profesional de marketing electrónico y las leyes que rigen el comercio electrónico.
+* **[!UICONTROL Exclude recipients who no longer want to be contacted]**; es decir, destinatarios cuyas direcciones de correo electrónico estén en una lista de bloqueados (“exclusión”). Esta opción debe permanecer seleccionada para respetar la ética profesional de marketing electrónico y las leyes que rigen el comercio electrónico.
 * **[!UICONTROL Exclude quarantined recipients]**. Esta opción permite excluir del objetivo cualquier perfil con una dirección que no responde. Se recomienda mantener seleccionada esta opción.
 
    >[!NOTE]
@@ -174,7 +174,7 @@ Se puede reducir el tamaño de la población objetivo. Para ello, en el campo **
 
 La prueba es un mensaje especial que permite probar una entrega antes de enviarla al destino principal. Los destinatarios de la prueba son los responsables de aprobar el formulario y el contenido del mensaje.
 
-![](assets/do-not-localize/how-to-video.png) [Descubrir esta función en vídeo](#seeds-and-proofs-video)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#seeds-and-proofs-video)
 
 
 Para seleccionar el destino de las pruebas, siga los siguientes pasos:
@@ -233,15 +233,15 @@ Se pueden utilizar **[!UICONTROL Seed addresses]** como destinatario de las prue
 
 Se puede combinar la definición de un destinatario de prueba específico y el uso de direcciones semilla con la opción **[!UICONTROL Specific target and Seed addresses]**. Las configuraciones relacionadas se definen en dos subpestañas independientes.
 
-## Cómo administrar semillas y pruebas en un correo electrónico {#seeds-and-proofs-video}
+## Administración de fuentes y pruebas en un correo electrónico {#seeds-and-proofs-video}
 
 En este vídeo aprenderá a añadir semillas y pruebas a un correo electrónico existente y a enviarlo.
 
->[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12&captions=spa)
 
-Consulte también:
+Asimismo, consulte lo siguiente:
 * [Selección del destino de la prueba](#selecting-the-proof-target)
 
-* [Acerca de las direcciones de semillas](../../delivery/using/about-seed-addresses.md)
+* [Acerca de las direcciones semillas](../../delivery/using/about-seed-addresses.md)
 
 * [Ejemplo de uso: selección de direcciones semilla según ciertos criterios](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
