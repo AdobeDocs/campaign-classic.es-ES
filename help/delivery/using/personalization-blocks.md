@@ -14,11 +14,11 @@ discoiquuid: e68d1435-70e6-479e-a347-9ff9f9f11b92
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -27,26 +27,26 @@ ht-degree: 69%
 
 Los bloques personalizados son dinámicos, personalizados y contienen un procesamiento específico que puede insertar en las entregas. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un vínculo a una página espejo. Consulte [Inserción de bloques de personalización](#inserting-personalization-blocks).
 
-![](assets/do-not-localize/how-to-video.png) [Descubrir esta función en vídeo](#personalization-blocks-video)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#personalization-blocks-video)
 
-Personalization blocks are accessed via the **[!UICONTROL Resources > Campaign Management > Personalization blocks]** node of the Adobe Campaign explorer. Hay varios bloques disponibles de forma predeterminada (consulte [Bloques de personalización predeterminados](#out-of-the-box-personalization-blocks)).
+Se puede acceder a los bloques personalizados mediante el nodo **[!UICONTROL Resources > Campaign Management > Personalization blocks]** del explorador de Adobe Campaign. Hay varios bloques disponibles de forma predeterminada (consulte [Bloques de personalización predeterminados](#out-of-the-box-personalization-blocks)).
 
 Tiene la posibilidad de definir nuevos bloques que le permitan optimizar la personalización de las entregas. Para obtener más información sobre esto, consulte [Definición de bloques de personalización personalizados](#defining-custom-personalization-blocks).
 
 >[!NOTE]
 >
->Personalization blocks are also available from the **[!UICONTROL Digital Content Editor (DCE)]** . Para obtener más información, consulte [esta página](../../web/using/editing-content.md#inserting-a-personalization-block).
+>Los bloques personalizados también están disponibles desde **[!UICONTROL Digital Content Editor (DCE)]** Para obtener más información, consulte [esta página](../../web/using/editing-content.md#inserting-a-personalization-block).
 
 ## Inserción de bloques personalizados {#inserting-personalization-blocks}
 
 Para insertar un bloque personalizado en un mensaje, siga los pasos a continuación:
 
 1. En el editor de contenido del asistente de envío, haga clic en el icono de campo personalizado y seleccione el menú **[!UICONTROL Include]**.
-1. Select a personalization block from the list (the list displays the 10 last used blocks), or click the **[!UICONTROL Other...]** menu to access the full list.
+1. Seleccione un bloque personalizado de la lista (la lista muestra los 10 últimos bloques utilizados) o haga clic en el menú **[!UICONTROL Other...]** para acceder a la lista completa.
 
    ![](assets/s_ncs_user_personalized_block01.png)
 
-1. The **[!UICONTROL Other...]** menu gives access to all the out-of-the-box and custom personalization blocks (see [Out-of-the-box personalization blocks](#out-of-the-box-personalization-blocks) and [Defining custom personalization blocks](#defining-custom-personalization-blocks)).
+1. El menú **[!UICONTROL Other...]** proporciona acceso a todos los bloques de personalización predeterminados y personalizados (consulte [Bloques de personalización predeterminados](#out-of-the-box-personalization-blocks) y [Definición de bloques de personalización personalizados](#defining-custom-personalization-blocks)).
 
    ![](assets/s_ncs_user_personalized_block02.png)
 
@@ -58,7 +58,7 @@ Para insertar un bloque personalizado en un mensaje, siga los pasos a continuaci
 
    ![](assets/s_ncs_user_personalized_block04.png)
 
-Se puede incluir el código fuente de un bloque personalizado en el contenido de envío. Para ello, seleccione **[!UICONTROL Include the HTML source code of the block]** al seleccionarlo.
+Se puede incluir el código fuente de un bloque personalizado en el contenido de envío. Para ello, escoja **[!UICONTROL Include the HTML source code of the block]** al seleccionarlo.
 
 ![](assets/s_ncs_user_personalized_block05.png)
 
@@ -105,16 +105,16 @@ De forma predeterminada, hay disponibles una lista de bloques personalizados que
 
 * **[!UICONTROL Greetings]**: inserta los saludos con el nombre del destinatario. Ejemplo: &quot;Hola John Doe&quot;.
 * **[!UICONTROL Insert logo]**: inserta un logotipo preestablecido que se haya definido al configurar la instancia.
-* **[!UICONTROL Powered by Adobe Campaign]** :: inserta el logotipo &quot;Powered by Adobe Campaign&quot;.
-* **[!UICONTROL Mirror page URL]** :: inserta la dirección URL de la página espejo, lo que permite a los diseñadores de Envíos comprobar el vínculo.
+* **[!UICONTROL Powered by Adobe Campaign]**: inserta el logotipo “Powered by Adobe Campaign”.
+* **[!UICONTROL Mirror page URL]**: inserta la dirección URL de la página espejo, permitiendo que los diseñadores de envío comprueben el vínculo.
 
    >[!NOTE]
    >
    >Para obtener más información sobre la generación de páginas de reflejo, consulte [Generación de la página de reflejo](../../delivery/using/sending-messages.md#generating-the-mirror-page).
 
 * **[!UICONTROL Link to mirror page]**: inserta un vínculo a la página espejo: &quot;Si no puede ver este mensaje correctamente, haga clic aquí&quot;.
-* **[!UICONTROL Unsubscription link]** :: inserta un vínculo que permite cancelar la suscripción de todos los envíos (lista de bloqueados).
-* **[!UICONTROL Formatting function for proper nouns]** :: genera la función **[!UICONTROL toSmartCase]** Javascript, que cambia la primera letra de cada palabra a mayúscula. Este bloque debe insertarse en el código fuente de la entrega, entre las etiquetas **`<script>...</script>`**.
+* **[!UICONTROL Unsubscription link]**: inserta un vínculo que permite cancelar la suscripción a todos los envíos (lista de bloqueados).
+* **[!UICONTROL Formatting function for proper nouns]**: genera la función JavaScript **[!UICONTROL toSmartCase]**, que cambia la primera letra de cada palabra a mayúscula. Este bloque debe insertarse en el código fuente de la entrega, entre las etiquetas **`<script>...</script>`**.
 
    En el ejemplo siguiente, se utiliza la función para sustituir el elemento de “Encabezado” por “Nuevo encabezado” con letras mayúsculas en cada palabra:
 
@@ -127,34 +127,34 @@ De forma predeterminada, hay disponibles una lista de bloques personalizados que
 
    ![](assets/s_ncs_user_personalized_block_uppercasefunction.png)
 
-* **[!UICONTROL Registration page URL]** :: inserta una URL de suscripción (consulte [Acerca de servicios y suscripciones](../../delivery/using/about-services-and-subscriptions.md)).
-* **[!UICONTROL Registration link]** :: inserta un vínculo de suscripción. El vínculo se ha definido al configurar la instancia.
-* **[!UICONTROL Registration link (with referrer)]** :: inserta un vínculo de suscripción que permite identificar el visitante y el envío. El vínculo se ha definido al configurar la instancia.
+* **[!UICONTROL Registration page URL]**: inserta una URL de suscripción (consulte [Acerca de los servicios y las suscripciones](../../delivery/using/about-services-and-subscriptions.md)).
+* **[!UICONTROL Registration link]**: inserta un vínculo de suscripción. El vínculo se ha definido al configurar la instancia.
+* **[!UICONTROL Registration link (with referrer)]** : inserta un enlace de suscripción que permite identificar el visitante y el envío. El vínculo se ha definido al configurar la instancia.
 
    >[!NOTE]
    >
    >Este bloque se puede utilizar en envíos dirigidos solamente a visitantes.
 
-* **[!UICONTROL Registration confirmation]** :: inserta un vínculo que permite confirmar la suscripción.
-* **[!UICONTROL Social network sharing links]**:  : inserta botones que permiten al destinatario compartir un vínculo al contenido de la página espejo con el cliente de correo electrónico, Facebook, Twitter, Google+ y LinkedIn (consulte [Marketing viral: enviar a un amigo](../../delivery/using/viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
-* **[!UICONTROL Style of content emails]** y **[!UICONTROL Notification style]** : genere código que dé formato a un correo electrónico con estilos HTML predefinidos. These blocks must be inserted in the source code of the delivery, in the **[!UICONTROL ...]** section, into **`<style>...</style>`** tags.
-* **[!UICONTROL Offer acceptance URL in unitary mode]** :: inserta una URL que permite establecer una oferta de interacción en **[!UICONTROL Accepted]** (consulte [esta sección](../../interaction/using/offer-analysis-report.md)).
+* **[!UICONTROL Registration confirmation]**: inserta un vínculo que permite confirmar la suscripción.
+* **[!UICONTROL Social network sharing links]** : inserta botones que permiten al destinatario compartir un vínculo al contenido de la página espejo con el cliente de correo electrónico, Facebook, Twitter, Google+ y LinkedIn (consulte [Marketing viral: enviar a un amigo](../../delivery/using/viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
+* **[!UICONTROL Style of content emails]** y **[!UICONTROL Notification style]**: genera un código que dé formato a un correo electrónico con estilos HTML predefinidos. Estos bloques deben insertarse en el código fuente de la entrega, en la sección **[!UICONTROL ...]**, entre las etiquetas **`<style>...</style>`**.
+* **[!UICONTROL Offer acceptance URL in unitary mode]**: inserta una URL que permite establecer una oferta de interacción como **[!UICONTROL Accepted]** (consulte [esta sección](../../interaction/using/offer-analysis-report.md)).
 
 ## Definición de bloques personalizados propios {#defining-custom-personalization-blocks}
 
-You can define new personalization fields to be inserted from the personalized field icon via the **[!UICONTROL Include...]** menu. Estos campos se definen en bloques personalizados.
+Se pueden definir nuevos campos personalizados para que se inserten desde el icono de campo personalizado en el menú **[!UICONTROL Include...]**. Estos campos se definen en bloques personalizados.
 
 Para crear un bloque personalizado, vaya al explorador y aplique los pasos siguientes:
 
-1. Haga clic en el **[!UICONTROL Resources > Campaign Management > Personalization blocks]** nodo.
+1. Haga clic en el nodo **[!UICONTROL Resources > Campaign Management > Personalization blocks]**.
 1. Haga clic con el botón derecho en la lista de bloques y seleccione **[!UICONTROL New]** .
 1. Rellene la configuración del bloque personalizado:
 
    ![](assets/s_ncs_user_personalized_block.png)
 
    * Introduzca la etiqueta del bloque. Esta etiqueta se muestra en la ventana de inserción del campo personalizado.
-   * Select **[!UICONTROL Visible in the customization menus]** to make this block accessible from the personalization field insertion icon.
-   * If necessary, select **[!UICONTROL The content of the personalization block depends upon the format]** to define two separate blocks for emails in HTML format and those in text format.
+   * Seleccione **[!UICONTROL Visible in the customization menus]** para que el bloque esté accesible desde el icono de inserción del campo personalizado.
+   * Si es necesario, seleccione **[!UICONTROL The content of the personalization block depends upon the format]** para definir dos bloques independientes para los correos electrónicos en formato HTML y aquellos en formato de texto.
 
       A continuación, se muestran dos pestañas en la sección inferior de este editor (contenido HTML y contenido de texto) para definir los contenidos correspondientes.
 
@@ -162,8 +162,8 @@ Para crear un bloque personalizado, vaya al explorador y aplique los pasos sigui
 
    * Introduzca el contenido (en HTML, texto, JavaScript, etc.) de los bloques de personalización y haga clic en **[!UICONTROL Save]**.
 
-## Cómo personalizar correos electrónicos mediante bloques de contenido dinámico {#personalization-blocks-video}
+## Cómo personalizar correos electrónicos con bloques de contenido dinámico {#personalization-blocks-video}
 
 Descubra cómo se crearon los bloques de contenido dinámico y cómo se utilizan para personalizar el contenido de su envío de correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12&captions=spa)
