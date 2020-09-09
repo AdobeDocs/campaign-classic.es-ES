@@ -14,11 +14,11 @@ discoiquuid: 627ade78-96b3-4a6e-9ace-74610a3c8d1a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '301'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 Esta integración puede utilizarse, por ejemplo, para crear un boletín en Adobe Experience Manager para su uso posterior en Adobe Campaign como parte de una campaña de correo electrónico.
 
-Para ver un ejemplo más detallado sobre cómo utilizar esta integración, consulte esta [guía paso a paso](https://helpx.adobe.com/campaign/kb/acc-aem.html).
+Para ver un ejemplo más detallado sobre cómo utilizar esta integración, consulte esta [guía paso a paso](https://helpx.adobe.com/es/campaign/kb/acc-aem.html).
 
 **Desde Adobe Experience Manager:**
 
