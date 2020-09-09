@@ -13,9 +13,9 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '902'
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ Consulte [este documento](https://helpx.adobe.com/es/campaign/kb/campaign-privac
 
 ## ¿Cuáles son los conceptos de la interfaz de usuario de Campaign que debería conocer?{#what-are-campaign-user-interface-concepts-i-should-know-}
 
-Lea [esta sección](../../platform/using/adobe-campaign-workspace.md) para obtener más información sobre los conceptos básicos del espacio de trabajo de Adobe Campaign. También puede ver [este vídeo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/interface-overview.html).
+Lea [esta sección](../../platform/using/adobe-campaign-workspace.md) para obtener más información sobre los conceptos básicos del espacio de trabajo de Adobe Campaign. También puede ver [este vídeo](https://docs.adobe.com/content/help/es-ES/campaign-learn/campaign-classic-tutorials/getting-started/interface-overview.html).
 
 ## ¿Cómo puedo seleccionar la audiencia de mis mensajes?{#how-can-i-select-the-target-population-of-my-messages-}
 
@@ -87,7 +87,7 @@ Un flujo de trabajo también puede incluir uno o varios operadores por notificar
 
 ## ¿Cómo se crea y se envía un primer correo electrónico?{#how-to-create-and-send-a-first-email-}
 
-[Haga clic aquí para obtener más información](../../delivery/using/about-email-channel.md) o [vea este vídeo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-campaign-and-an-email.html) para crear un correo electrónico en una campaña.
+[Haga clic aquí para obtener más información](../../delivery/using/about-email-channel.md) o [vea este vídeo](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html) para crear un correo electrónico en una campaña.
 
 ## ¿Cómo se envían mensajes SMS?{#how-to-send-sms-messages-}
 
