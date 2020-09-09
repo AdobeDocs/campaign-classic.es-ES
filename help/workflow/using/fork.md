@@ -12,21 +12,21 @@ discoiquuid: 16f50f5f-cbad-4de7-aa73-38615ae76ac0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ed7e59be2cfbde467b0c80d21cfbf52016a2b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '72'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 
 # Fork{#fork}
 
-Un tenedor le permite activar todas sus actividades salientes en paralelo.
+Un fork le permite activar todas sus actividades salientes en paralelo.
 
-Por ejemplo, puede utilizar la actividad en el contexto de la creación de contenido y la automatización del envío de envíos, para iniciar el cálculo de destinatarios y la creación de contenido al mismo tiempo. En [esta sección](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content)hay disponible un caso de uso dedicado.
+Por ejemplo, puede utilizar la actividad en el contexto de la creación de contenido y la automatización de la entrega de envíos para iniciar el cálculo de destinatarios y la creación de contenido al mismo tiempo. Hay un caso de uso específico en [esta sección](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content).
 
-Para configurar la actividad, ábrala y defina el número y la etiqueta de las transiciones salientes que desee.
+Para configurar la actividad, ábrala y defina el número y la etiqueta de las transiciones de salida que desee.
 
 ![](assets/s_user_segmentation_fork.png)
