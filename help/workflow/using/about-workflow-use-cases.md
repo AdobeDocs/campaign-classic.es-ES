@@ -11,11 +11,11 @@ topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00a9b7def9d0ad0190c389c6bcde431f8e2f2b44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '195'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Le ayudarán a descubrir los diferentes contextos en los que se pueden utilizar 
 * [Envío de informes a una lista](../../workflow/using/sending-a-report-to-a-list.md)
 * [Supervisión de flujos de trabajo](../../workflow/using/supervising-workflows.md)
 * [Envío de alertas personalizadas a operadores](../../workflow/using/sending-personalized-alerts-to-operators.md)
-* [Configuración de un proceso de aprobación de destinatarios antes de enviar un envío](../../workflow/using/using-the-local-approval-activity.md)
+* [Configuración de un proceso de aprobación de destinatarios antes de entregar un envío](../../workflow/using/using-the-local-approval-activity.md)
 
 ## Gestión de datos {#management}
 
