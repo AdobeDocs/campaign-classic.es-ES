@@ -14,9 +14,9 @@ discoiquuid: 2f66152b-4d4a-40b8-a1bb-5b97c5410882
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11a6ddd275dc8482e82f163abc14cacaf0281dff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2165'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Desde la sección central de la página principal, puede utilizar vínculos para
 
 ![](assets/d_ncs_user_interface_home.png)
 
-La captura de pantalla anterior es un ejemplo de la página principal de un usuario de Adobe Campaign. Para obtener más información, vea el [vídeo de descripción general de la interfaz de Adobe Campaign](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/interface-overview.html).
+La captura de pantalla anterior es un ejemplo de la página principal de un usuario de Adobe Campaign. Para obtener más información, vea el [vídeo de descripción general de la interfaz de Adobe Campaign](https://docs.adobe.com/content/help/es-ES/campaign-learn/campaign-classic-tutorials/getting-started/interface-overview.html).
 
 >[!NOTE]
 >
