@@ -12,11 +12,11 @@ discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 24d2dded38ddb922891a7264d9efea02cb448323
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Los remitentes de spam realizan entregas programadas para mantener su reputació
 
 ## Prácticas recomendadas {#best-practices}
 
-Conozca las prácticas recomendadas relacionadas con la capacidad de entrega con Adobe Campaign. Utilice los vínculos siguientes para navegar por los temas y encontrar instrucciones.
+Conozca las prácticas recomendadas relacionadas con la capacidad de entrega con Adobe Campaign. Utilice los vínculos siguientes para consultar los diferentes temas y encontrar instrucciones.
 
 <table>
 <tr>
@@ -121,11 +121,11 @@ Conozca las prácticas recomendadas relacionadas con la capacidad de entrega con
 <tr>
   <td>
     <a href="technical-recommendations.md">
-      <img alt="Optimizar" src="assets/do-not-localize/optimize.svg" width="60px"/>
+      <img alt="Optimización" src="assets/do-not-localize/optimize.svg" width="60px"/>
     </a>
     <div>
       <a href="technical-recommendations.md">
-    <strong>Optimizar</strong>
+    <strong>Optimización</strong>
     </a>
     </div>
     <p>
@@ -138,7 +138,7 @@ Conozca las prácticas recomendadas relacionadas con la capacidad de entrega con
     </a>
     <div>
       <a href="monitoring-deliverability.md">
-    <strong>Monitor</strong>
+    <strong>Monitorización</strong>
     </a>
     </div>
     <p>
@@ -147,7 +147,7 @@ Conozca las prácticas recomendadas relacionadas con la capacidad de entrega con
   </td>
   <td>
     <a href="deliverability-faq.md">
-      <img alt="Optimizar" src="assets/do-not-localize/troubleshoot.svg" width="60px"/>
+      <img alt="Optimización" src="assets/do-not-localize/troubleshoot.svg" width="60px"/>
     </a>
     <div>
       <a href="deliverability-faq.md">
