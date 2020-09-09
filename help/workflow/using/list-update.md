@@ -14,11 +14,11 @@ discoiquuid: ca2cd5bf-78a2-4e43-955d-206f4474d1e0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ En el ejemplo siguiente, la actividad de actualización de la lista sigue una co
 
    A continuación, se crea o actualiza la lista de destinatarios coincidentes.
 
-Para obtener más información sobre esto, consulte el vídeo [Creación de una lista de destinatarios](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html).
+Para obtener más información sobre esto, consulte el vídeo [Creación de una lista de destinatarios](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html).
 
 ## Parámetros de entrada {#input-parameters}
 
