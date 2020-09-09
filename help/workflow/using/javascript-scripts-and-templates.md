@@ -14,11 +14,11 @@ discoiquuid: 8867d9c3-2ce4-4611-8c88-ce505c3a01d1
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c959c0e8ace1eaaa768ea04c194eaccac0b35344
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1238'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ Las variables de eventos (**[!UICONTROL vars.xxx]**) permiten el intercambio de 
 >
 >En el caso de las actividades de tipo [AND-join](../../workflow/using/and-join.md), las variables se combinan, pero si se define una misma variable dos veces, se genera un conflicto y el valor se mantiene como indeterminado.
 
-Evento son las variables más utilizadas y deben utilizarse en preferencia a las variables de instancia.
+Eventos son las variables más utilizadas, que deben utilizarse con preferencia sobre las variables de instancia.
 
 Las distintas actividades modifican o leen ciertas variables de evento. Todas son variables de tipo cadena. Por ejemplo, una exportación establece la variable **[!UICONTROL vars.filename]** con el nombre completo del archivo que acaba de exportarse. Todas estas variables leídas o modificadas se documentan en [Acerca de actividades](../../workflow/using/about-activities.md), en las secciones **Parámetros de entrada** y **Parámetros de salida** de las actividades.
 
@@ -99,7 +99,7 @@ Las distintas actividades modifican o leen ciertas variables de evento. Todas so
 
 >[!NOTE]
 >
->En [esta sección](../../workflow/using/about-workflow-use-cases.md)encontrará más casos de uso de flujo de trabajo.
+>Los casos de uso de flujo de trabajo adicional están disponibles en [esta sección](../../workflow/using/about-workflow-use-cases.md).
 
 **Ejemplo 1**
 
@@ -179,7 +179,7 @@ Por ejemplo:
 
 1. Cree una consulta cuyos objetivos y dimensiones de filtrado sean los destinatarios. En las condiciones, especifique que desea buscar todos los destinatarios a los que se envió la entrega especificado por la variable.
 
-   Como recordatorio, esta información se almacena en los “logs” de entrega.
+   Como recordatorio, esta información se almacena en los registros de entregas.
 
    Para referirse a la variable de instancia en la columna **[!UICONTROL Value]**, introducir **$(instance/vars/@deliveryIN)**.
 
