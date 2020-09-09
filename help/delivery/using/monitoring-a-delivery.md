@@ -14,11 +14,11 @@ discoiquuid: 3aab3d47-76fd-4c68-add4-9c14240c936e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2567'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -48,9 +48,9 @@ La pestaña **[!UICONTROL Summary]** contiene las características de la entrega
 
 El vínculo **[!UICONTROL reports]** le permite ver un conjunto de informes relativos a la acción de entrega: informe de entrega general, informe detallado, informe de entrega, distribución de mensajes fallidos, tasa de apertura, clics y transacciones, etc. El contenido de esta pestaña se puede configurar según sus necesidades. Para obtener más información, consulte [esta sección](../../reporting/using/delivery-reports.md).
 
-### “Logs” de entrega e historial{#delivery-logs-and-history}
+### Registros de entregas e historial{#delivery-logs-and-history}
 
-La pestaña **[!UICONTROL Delivery]** ofrece un historial de los sucesos en esta entrega. Contiene los “logs” de entrega, es decir. la lista de mensajes enviados y su estado y los mensajes asociados.
+La pestaña **[!UICONTROL Delivery]** ofrece un historial de los sucesos en esta entrega. Contiene los registros de entregas, es decir, la lista de mensajes enviados y su estado y los mensajes asociados.
 
 Para una entrega, puede mostrar, por ejemplo, solo los destinatarios con una entrega fallido o una dirección en cuarentena. Para ello, haga clic en el botón **[!UICONTROL Filters]** y seleccione **[!UICONTROL By state]**. Seleccione el estado en la lista desplegable.
 
@@ -62,7 +62,7 @@ En [esta página](#delivery-statuses) se enumeran varios estados.
 >
 >El enlace **[!UICONTROL Display the mirror page for this message...]** permite ver la página espejo del contenido del envío seleccionado en la lista en una nueva ventana. La página espejo solo está disponible para las entregas para los que se ha definido contenido HTML. Para obtener más información, consulte [Generación de la página espejo](../../delivery/using/sending-messages.md#generating-the-mirror-page).
 
-### “Logs” de seguimiento{#tracking-logs}
+### Registros de seguimiento {#tracking-logs}
 
 La pestaña **[!UICONTROL Tracking]** enumera el historial de seguimiento de esta entrega. Esta pestaña muestra los datos de seguimiento de los mensajes enviados, es decir, todas las direcciones URL sobre las que Adobe Campaign realiza un seguimiento. Los datos de seguimiento se actualizan cada hora.
 
@@ -90,7 +90,7 @@ Puede modificar la información mostrada en esta ventana (y la de las pestañas 
 
 ### Sincronización del panel de entregas {#delivery-dashboard-synchronization}
 
-En el panel de entregas, se recomienda comprobar los mensajes procesados y los “logs” de entrega para asegurarse de que su entrega se haya realizado correctamente.
+En el panel de entregas, se recomienda comprobar los mensajes procesados y los registros de entregas para asegurarse de que su entrega se haya realizado correctamente.
 
 Algunos indicadores o estados pueden ser incorrectos o no estar actualizados; esto puede resolverse con las soluciones siguientes:
 
@@ -117,12 +117,12 @@ El mantenimiento de la plataforma y de la base de datos también puede afectar e
 
 Tras hacer clic en el botón **[!UICONTROL Send]**, la entrega parece tardar más de lo normal. Esto puede deberse a diferentes elementos:
 
-* Es posible que algunos proveedores de correo electrónico hayan agregado sus direcciones IP a una lista de bloqueados. In this case, check your broadlogs and consult [this section](../../delivery/using/about-deliverability.md).
+* Es posible que algunos proveedores de correo electrónico hayan agregado sus direcciones IP a una lista de bloqueados. En este caso, compruebe sus broadlogs y consulte [esta sección](../../delivery/using/about-deliverability.md).
 * Su entrega puede ser demasiado grande como para procesarlo rápidamente, como puede ser el caso de una alta personalización de JavaScript o si su entrega pesa más de 60 kB. Consulte las [prácticas recomendadas relacionadas con las entregas](../../delivery/using/delivery-best-practices.md) de Adobe Campaign para obtener más información sobre las directrices de contenido.
 * Es posible que se haya activado una restricción dentro del MTA de Adobe Campaign. Esto se debe a:
 
    * Mensajes pendientes (mensaje **[!UICONTROL quotas met]**): se han cumplido las cuotas declaradas por las reglas de MX definidas en Campaign. Para obtener más información sobre este mensaje, consulte [esta página](../../delivery/using/deliverability-faq.md) . Para obtener más información sobre las reglas MX, consulte [esta página](../../delivery/using/technical-recommendations.md#mx-rules).
-   * Messages pended (**[!UICONTROL dynamic flow control]** message): Campaign MTA has encountered errors when trying to deliver messages for a given ISP which causes a slowdown to avoid too big of an error density and thus facing potential block list.
+   * Mensajes pendientes (mensaje **[!UICONTROL dynamic flow control]**): el MTA de Campaign ha detectado errores al intentar enviar mensajes para un ISP determinado, lo que provoca una ralentización para evitar una gran densidad de errores y, por lo tanto, la posible inclusión en una lista de bloqueados.
 
 * Un problema del sistema puede impedir que los servidores interactúen: esto puede ralentizar todo el proceso de entrega. Compruebe los servidores para asegurarse de que no hay problemas de memoria o recursos que puedan afectar a Campaign en el proceso de obtención de los datos personalizados, por ejemplo.
 
@@ -166,7 +166,7 @@ Al realizar una entrega, es posible que aparezca el siguiente estado en su panel
   </tr> 
   <tr> 
    <td> Ignorado<br /> </td> 
-   <td> No se realizó la entrega al destinatario debido a un error con su dirección. Se agregó a una lista de bloqueados, en cuarentena, no se proporcionó o a un duplicado. <br /> </td> 
+   <td> No se realizó la entrega al destinatario debido a un error con su dirección. Se agregó a una lista de bloqueados, se puso en cuarentena, no se proporcionó o fue un duplicado. <br /> </td> 
   </tr> 
   <tr> 
    <td> Enviado<br /> </td> 
@@ -242,7 +242,7 @@ Si la entrega no se realiza y su estado sigue siendo **[!UICONTROL Pending]**, p
 
 Si el estado de una entrega de correo electrónico es **[!UICONTROL Failed]**, puede deberse a un problema con bloques de personalización. Los bloques personalizados en una entrega pueden generar errores cuando los esquemas no coinciden con la asignación de entregas, por ejemplo.
 
-Los “logs” de entrega son esenciales para saber por qué ha fallado una entrega. Estos son los posibles errores que puede detectar en los “logs” de entrega:
+Los registros de entregas son esenciales para saber por qué ha fallado una entrega. Estos son los posibles errores que puede detectar en los registros de entregas:
 
 * Si los mensajes del destinatario fallan con un error “No accesible” que indica: **Error while compiling script &#39;content htmlContent&#39; line X:`[table]`is not defined. JavaScript: error al evaluar el script &#39;contenido htmlContent**, la causa de este problema es casi siempre una personalización dentro del HTML que intenta llamar a una tabla o campo que no se ha definido o asignado en el objetivo ascendente o en el destino de mapeo de la entrega.
 
@@ -250,7 +250,7 @@ Los “logs” de entrega son esenciales para saber por qué ha fallado una entr
 
 * En el modelo de implementación intermediaria, puede aparecer el siguiente mensaje en los registros de entrega: **Error during the call of method &#39;AppendDeliveryPart&#39; on the mid sourcing server: &#39;Communication error with the server: please check this one is correctly configured. Código HTTP 408 &#39;Servicio no disponible temporalmente&#39;**.
 
-   La causa está relacionada con problemas de rendimiento. Significa que la instancia de marketing invierte demasiado tiempo creando datos antes de enviarlos al servidor de mid-sourcing.
+   La causa está relacionada con problemas de rendimiento. Significa que la instancia de marketing invierte demasiado tiempo creando datos antes de enviarlos al servidor de intermediario.
 
    Para resolver esto, recomendamos realizar una limpieza y reindexar la base de datos. Para obtener más información sobre el mantenimiento de la base de datos, consulte [esta sección](../../production/using/recommendations.md).
 
@@ -266,7 +266,7 @@ Los “logs” de entrega son esenciales para saber por qué ha fallado una entr
 
 **Temas relacionados:**
 
-* [“Logs” de entrega e historial](#delivery-logs-and-history)
+* [Registros de entregas e historial](#delivery-logs-and-history)
 * [Comprensión de los errores de entrega](../../delivery/using/understanding-delivery-failures.md)
 * [Tipos y motivos de errores de entrega](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)
 
@@ -288,6 +288,6 @@ El panel de entrega permite rastrear la cantidad de mensajes enviados.
 
 ## Entregas programadas {#scheduled-deliveries-}
 
-Si las entregas no se ejecutan en la fecha programada exacta, puede deberse a una diferencia entre las zonas horarias de los servidores. La instancia de mid-sourcing y la instancia de producción pueden estar en diferentes zonas horarias.
+Si las entregas no se ejecutan en la fecha programada exacta, puede deberse a una diferencia entre las zonas horarias de los servidores. La instancia de intermediario y la instancia de producción pueden estar en diferentes zonas horarias.
 
-Por ejemplo, si la instancia de mid-sourcing se encuentra en el huso horario de Brisbane y la instancia de producción está en el huso horario de Darwin, ambas zonas horarias están separadas por media hora, por lo que en el “log” de auditoría puede claramente que si la entrega está programado para su producción a las 11:56, la misma entrega programada de mid-sourcing se produciría a las 12:26, lo que supone una diferencia de media hora.
+Por ejemplo, si la instancia de intermediario se encuentra en el huso horario de Brisbane y la instancia de producción está en el huso horario de Darwin, ambas zonas horarias están separadas por media hora, por lo que en el registro de auditoría puede claramente que si la entrega está programado para su producción a las 11:56, la misma entrega programada de intermediario se produciría a las 12:26, lo que supone una diferencia de media hora.
