@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 80de051cde62038c11246f8da08a7e00505a3313
 workflow-type: tm+mt
 source-wordcount: '1616'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 92%
 
 Adobe Campaign le permite probar el nuevo formato [AMP interactivo para correo electrónico](https://amp.dev/about/email/), que permite enviar correos electrónicos dinámicos en ciertas condiciones.
 
-En esta versión puede:
+En esta versión puede hacer lo siguiente:
 * Probar el envío de correos electrónicos AMP a direcciones específicas correctamente configuradas.
 * Enviar correos electrónicos AMP a las direcciones de Gmail, Outlook o Mail.ru después de registrarse con los proveedores correspondientes.
 
@@ -50,7 +50,7 @@ AMP para correo electrónico es compatible con los correos electrónicos existen
 
 Para obtener más información sobre la AMP para los requisitos y especificaciones de formato de correo electrónico, consulte la [documentación para desarrolladores de AMP](https://amp.dev/documentation/guides-and-tutorials/learn/email-spec/amp-email-format/?format=email).
 
-![](assets/do-not-localize/how-to-video.png) [Descubrir esta función en vídeo](#amp-email-video)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#amp-email-video)
 
 ## Pasos clave para utilizar AMP para correo electrónico con Adobe Campaign {#key-steps-to-use-amp}
 
@@ -159,7 +159,7 @@ También puede consultar las [Sugerencias y las limitaciones conocidas de Gmail]
 AMP para correo electrónico, disponible como capacidad beta, actualmente puede experimentar la entrega de un correo electrónico AMP en dos pasos:
 
 1. Adobe Campaign permite probar la entrega de un correo electrónico dinámico con tecnología AMP a las direcciones de correo electrónico seleccionadas correctamente configuradas, a fin de verificar su contenido y comportamiento. Consulte [Prueba de entrega de correo electrónico AMP para direcciones seleccionadas](#testing-amp-delivery-for-selected-addresses).
-1. Una vez probada, puede enviar un envío o una campaña como parte del programa de AMP para la versión beta de correo electrónico registrándose con los proveedores de correo electrónico relevantes para que se agregue su dominio remitente a la lista de permitidos. Consulte [Envío de correos electrónicos AMP mediante registro en un proveedor de correo electrónico](#delivering-amp-emails-by-registering).
+1. Una vez probada, puede realizar una entrega o una campaña como parte del programa beta de AMP para correo electrónico registrándose con los proveedores de correo electrónico correspondientes para que se incluya en la lista de dominios de remitente añadida a la lista de permitidos. Consulte [Envío de correos electrónicos AMP mediante registro en un proveedor de correo electrónico](#delivering-amp-emails-by-registering).
 
 ### Prueba de la entrega de correo electrónico AMP para direcciones seleccionadas {#testing-amp-delivery-for-selected-addresses}
 
@@ -169,7 +169,7 @@ Puede probar la entrega de mensajes dinámicos desde Adobe Campaign a las direcc
 >
 >Actualmente, solo Gmail, Outlook y Mail.ru admiten la prueba del formato AMP.
 
-Para Gmail y Outlook, primero debe agregar las direcciones de remitente que está utilizando a la lista de permitidos para enviarlas desde Adobe Campaign a las cuentas de Gmail y Outlook que está utilizando.
+Para Gmail y Outlook, primero debe añadir las direcciones de remitentes que está utilizando a la lista de permitidos para enviar desde Adobe Campaign las cuentas de direccionamiento de Gmail y Outlook.
 
 Para ello:
 1. Asegúrese de que la opción que habilita el correo electrónico dinámico esté marcada para los proveedores de correo electrónico correspondientes.
@@ -183,7 +183,7 @@ Para probar el envío de un correo electrónico AMP a una dirección Mail.ru, si
 
 ### Envío de correos electrónicos AMP mediante registro con un proveedor de correo electrónico {#delivering-amp-emails-by-registering}
 
-Puede experimentar la entrega de correos electrónicos dinámicos registrándose con los proveedores de correo electrónico que participan en el programa beta de AMP para que se agregue su dominio remitente a la lista de permitidos.
+Puede experimentar el envío de correos electrónicos dinámicos registrándose con los proveedores de correo electrónico que participan en el programa beta de AMP para que su dominio de remitente quede en la lista de permitidos.
 
 >[!NOTE]
 >
@@ -213,7 +213,7 @@ Por ejemplo, si ha incluido una lista de productos en el correo electrónico, al
 >
 >De forma predeterminada, la opción **[!UICONTROL AMP inclusion]** está configurada en **[!UICONTROL No]**.
 
-## Cómo activar y utilizar AMP para correos electrónicos {#amp-email-video}
+## Activación y uso de AMP para correos electrónicos {#amp-email-video}
 
 El siguiente vídeo explica cómo activar AMP en Adobe Campaign Classic y cómo usarlo.
 
