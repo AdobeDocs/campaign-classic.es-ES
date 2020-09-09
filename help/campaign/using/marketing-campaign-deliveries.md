@@ -14,11 +14,11 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2956'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 97%
 
 las entregas se pueden crear a través del panel de la campaña, un flujo de trabajo de la campaña o directamente a través de la descripción general de las entregas.
 
-![](assets/do-not-localize/how-to-video.png) [Descubrir esta función en vídeo](#create-email-video)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#create-email-video)
 
 ## Creación de envíos {#creating-deliveries}
 
@@ -81,11 +81,11 @@ La guía [automatización con flujos de trabajo](../../workflow/using/architectu
 >
 >En la misma campaña, no se pueden configurar más de 28 flujos de trabajo. Más allá de este límite, los flujos de trabajo adicionales no se ven en la interfaz y pueden dar lugar a errores.
 
-### Cómo crear un correo electrónico en una campaña {#create-email-video}
+### Creación de un correo electrónico en una campaña {#create-email-video}
 
 En este vídeo se explica cómo crear una campaña y un correo electrónico en Adobe Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12&captions=spa)
 
 
 #### Creación de un flujo de trabajo de objetivos {#creating-a-targeting-workflow}
@@ -228,7 +228,7 @@ Puede definir un grupo de control al nivel de la campaña, en cuyo caso se aplic
 
    ![](assets/s_ncs_user_edit_op_general_tab_exe_target.png)
 
-The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a control group](#adding-a-population).
+El procedimiento de configuración se presenta en [Extracción del grupo de control a partir del objetivo principal](#extracting-the-control-group-from-the-main-target) y [Adición de una población](#adding-a-population).
 
 #### Activación del grupo de control para una entrega {#activating-the-control-group-for-a-delivery}
 
@@ -247,7 +247,7 @@ De manera predeterminada, la configuración del grupo de control definida al niv
 1. Haga clic en la pestaña **[!UICONTROL Control group]** y seleccione **[!UICONTROL Enable and edit control group configuration]**.
 1. Haga clic en **[!UICONTROL Edit...]** para configurar el grupo de control.
 
-The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a control group](#adding-a-population).
+El procedimiento de configuración se presenta en [Extracción del grupo de control a partir del objetivo principal](#extracting-the-control-group-from-the-main-target) y [Adición de una población](#adding-a-population).
 
 #### Extracción del grupo de control a partir del objetivo principal {#extracting-the-control-group-from-the-main-target}
 
@@ -257,7 +257,7 @@ Puede extraer destinatarios del objetivo principal de la entrega. En este caso, 
 
 Para extraer un grupo de control, habilite el grupo de control para la campaña o entrega y seleccione una de las siguientes opciones: **[!UICONTROL Activate random sampling]** o **[!UICONTROL Keep only the first records after sorting]**.
 
-* **[!UICONTROL Activate random sampling]**: esta opción aplica muestras aleatorias a los destinatarios en la población de destino. Si establece el umbral en 100, el grupo de control se compone de 100 destinatarios seleccionados aleatoriamente desde la población de destino. El muestreo aleatorio depende del motor de la base de datos.
+* **[!UICONTROL Activate random sampling]**: esta opción aplica muestreo aleatorio a los destinatarios en la población de destino. Si establece el umbral en 100, el grupo de control se compone de 100 destinatarios seleccionados aleatoriamente desde la población de destino. El muestreo aleatorio depende del motor de la base de datos.
 * **[!UICONTROL Keep only the first records after sorting]**: esta opción permite definir una limitación basada en uno o varios órdenes de clasificación. Si selecciona el campo **[!UICONTROL Age]** como criterio de clasificación y, a continuación, define 100 como umbral, el grupo de control se compone de los 100 destinatarios más jóvenes. Por ejemplo, podría resultar interesante definir un grupo de control que incluya destinatarios que realizan pocas compras o destinatarios que realizan compras frecuentes y comparar su comportamiento con el de los destinatarios contactados.
 
 Haga clic en **[!UICONTROL Next]** para definir el orden de clasificación (si es necesario) y seleccione el modo de limitación de destinatarios.
@@ -266,7 +266,7 @@ Haga clic en **[!UICONTROL Next]** para definir el orden de clasificación (si e
 
 Esta configuración equivale a una actividad de uso compartido en el flujo de trabajo, lo que permite desglosar el objetivo en subconjuntos. El grupo de control es uno de estos subconjuntos. Consulte [esta sección](../../workflow/using/architecture.md) para obtener más información.
 
-### Adding a control group {#adding-a-population}
+### Adición de un grupo de control {#adding-a-population}
 
 Puede definir una nueva población para utilizarla como grupo de control. Puede crear esta población a partir de un grupo de destinatarios o a través de una consulta específica.
 
