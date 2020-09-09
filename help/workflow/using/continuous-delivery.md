@@ -1,7 +1,7 @@
 ---
-title: Entrega continua
-seo-title: Entrega continua
-description: Entrega continua
+title: Envío continuo
+seo-title: Envío continuo
+description: Envío continuo
 seo-description: null
 page-status-flag: never-activated
 uuid: af8b4582-299e-47f9-9819-987b35db94ab
@@ -14,18 +14,18 @@ discoiquuid: 9d80be19-8dde-4278-ab5f-23f364fe422e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '345'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
 
-# Entrega continua{#continuous-delivery}
+# Envío continuo{#continuous-delivery}
 
-Una acción del tipo **Continuous delivery** permite agregar nuevos destinatarios a una entrega existente. Este tipo de entrega evita tener que crear una nueva cada vez: este modo suele ser más eficaz, en particular para alertas de bajo volumen o notificaciones enviadas cuando es necesario. A nivel de la plantilla de envío, puede especificar un script para calcular la etiqueta (y la carpeta de la campaña) de la entrega asociado. Si la secuencia de comandos calcula una entrega que aún no existe, se crea sobre la marcha.
+Una acción del tipo **Continuous delivery** permite agregar nuevos destinatarios a una entrega existente. Este tipo de envío evita tener que crear una nueva cada vez: este modo suele ser más eficaz, en particular para alertas de bajo volumen o notificaciones enviadas cuando es necesario. A nivel de la plantilla de envío, puede especificar un script para calcular la etiqueta (y la carpeta de la campaña) de la entrega asociado. Si la secuencia de comandos calcula una entrega que aún no existe, se crea sobre la marcha.
 
 ![](assets/edit_diffusion_fil.png)
 
@@ -42,7 +42,7 @@ Esta opción no procesa los errores relacionados con la configuración de la act
 
 Cada evento entrante debe especificar un objetivo definido por estos parámetros.
 
-Only when the **[!UICONTROL Specified by the inbound event]** option is selected.
+Solamente cuando la opción **[!UICONTROL Specified by the inbound event]** está seleccionada.
 
 ## Parámetros de salida {#output-parameters}
 
@@ -54,11 +54,11 @@ Este conjunto de tres valores identifica el objetivo resultante de la entrega so
 
 La transición asociada al complemento tiene los mismos parámetros.
 
-## Cómo configurar un envío continuo
+## Configuración de envíos continuos
 
 En esta sección se explica cómo configurar un envío continuo.
 
-The **continuous delivery** lets you add new recipients to an existing delivery and avoids you having to create a new delivery each time a new recipient is added. Puede actualizar el elemento creativo directamente en el flujo de trabajo de campaña y lo hará en la carpeta Recurso de Plantilla de envíos.
+Los **envíos continuos** le permiten añadir destinatarios nuevos a un envío existente, lo que evita tener que crear un envío nuevo cada vez que se añade un nuevo destinatario. Puede actualizar el elemento creativo directamente en el flujo de trabajo de campaña para que se actualice la plantilla en la carpeta Recurso de plantilla de envíos.
 
 Un envío continuo creará un envío ÚNICO y registros de envío (wideLog) y registros de seguimiento que hacen referencia a que se agrega un envío cada vez que se ejecuta.
 
@@ -66,4 +66,4 @@ Un envío continuo creará un envío ÚNICO y registros de envío (wideLog) y re
 
 Este vídeo muestra cómo configurar un envío continuo con una consulta incremental.
 
->[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12&captions=spa)
