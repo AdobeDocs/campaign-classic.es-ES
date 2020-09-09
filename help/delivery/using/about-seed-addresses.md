@@ -14,11 +14,11 @@ discoiquuid: b49acfd0-b601-4694-88e3-cc0a169cb866
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Una de las razones principales para utilizarlas es **la protección de su lista 
 
 Además, las direcciones semilla permiten **previsualizar y probar la personalización y la renderización de las entregas** antes de la entrega mediante la entrega de pruebas (consulte [Uso de direcciones semilla como prueba](../../delivery/using/steps-defining-the-target-population.md#using-seed-addresses-as-proof).
 
-![](assets/do-not-localize/how-to-video.png) [Descubrir esta función en vídeo](../../delivery/using/steps-defining-the-target-population.md#seeds-and-proofs-video)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](../../delivery/using/steps-defining-the-target-population.md#seeds-and-proofs-video)
 
 La función de direcciones semilla tiene las siguientes ventajas:
 
