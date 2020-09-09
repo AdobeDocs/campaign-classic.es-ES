@@ -13,11 +13,11 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '321'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,17 +32,17 @@ Puede importar destinatarios o crearlos manualmente mediante la consola del clie
 
 ## ¿Cómo se importan los perfiles? {#how-to-import-profiles-}
 
-Descubra casos de uso fáciles para [importar perfiles](../../platform/using/importing-data.md#generic-import-samples) en la base de datos. También puede ver [este vídeo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/importing-profiles.html).
+Descubra casos de uso fáciles para [importar perfiles](../../platform/using/importing-data.md#generic-import-samples) en la base de datos. También puede ver [este vídeo](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/getting-started/importing-profiles.html).
 
 ## ¿Cómo puedo definir el público objetivo de una campaña de marketing? {#how-can-i-define-the-target-population-of-a-marketing-campaign-}
 
-Puede [utilizar flujos de trabajo para crear una población objetivo](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) de una campaña de marketing. Aprenda a crear un flujo de trabajo de objetivo en una campaña a través [de este vídeo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-workflow.html).
+Puede [utilizar flujos de trabajo para crear una población objetivo](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) de una campaña de marketing. Aprenda a crear un flujo de trabajo de objetivo en una campaña a través [de este vídeo](https://docs.adobe.com/content/help/es-ES/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-workflow.html).
 
 ## ¿Cómo puedo crear una lista de perfiles? {#how-can-i-create-a-list-of-profiles-}
 
 Una lista es un conjunto estático de destinatarios en los que se puede centrar para realizar acciones de entrega que se actualizan durante operaciones de importación o ejecución del flujo de trabajo. Por ejemplo, una población extraída de la base de datos mediante una consulta puede proporcionar una lista.
 
-[Haga clic aquí para obtener más información](../../platform/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group). También puede ver [este vídeo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-list-of-recipients.html) sobre cómo crear una lista manualmente y [este otro vídeo](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html) para crear y actualizar una lista de destinatarios en un flujo de trabajo.
+[Haga clic aquí para obtener más información](../../platform/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group). También puede ver [este vídeo](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/getting-started/creating-a-list-of-recipients.html) sobre cómo crear una lista manualmente y [este otro vídeo](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html) para crear y actualizar una lista de destinatarios en un flujo de trabajo.
 
 ## ¿Cómo duplicar una población antes de enviar un mensaje? {#how-can-i-deduplicate-a-population-before-sending-a-message-}
 
