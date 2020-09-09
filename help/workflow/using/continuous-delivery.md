@@ -14,9 +14,9 @@ discoiquuid: 9d80be19-8dde-4278-ab5f-23f364fe422e
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 100%
 
@@ -66,4 +66,4 @@ Un envío continuo creará un envío ÚNICO y registros de envío (wideLog) y re
 
 Este vídeo muestra cómo configurar un envío continuo con una consulta incremental.
 
->[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
