@@ -1,7 +1,7 @@
 ---
-title: Compresión de la gestión de la cuarentena
-seo-title: Compresión de la gestión de la cuarentena
-description: Compresión de la gestión de la cuarentena
+title: Comprensión de la gestión de la cuarentena
+seo-title: Comprensión de la gestión de la cuarentena
+description: Comprensión de la gestión de la cuarentena
 seo-description: null
 page-status-flag: never-activated
 uuid: 9421e26c-bdcc-4588-8e44-fa6f31051081
@@ -14,16 +14,16 @@ discoiquuid: 56cbf48a-eb32-4617-8f80-efbfd05976ea
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2576'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 
-# Compresión de la gestión de la cuarentena{#understanding-quarantine-management}
+# Comprensión de la gestión de la cuarentena{#understanding-quarantine-management}
 
 ## Acerca de la cuarentena {#about-quarantines}
 
@@ -41,17 +41,17 @@ Algunos proveedores de acceso a Internet consideran automáticamente los correos
 
 Además, la cuarentena reduce el coste de entrega de los SMS mediante la exclusión en las entregas de los números de teléfono incorrectos. Para obtener más información sobre las prácticas recomendadas para proteger y optimizar las entregas, consulte [esta página](../../delivery/using/delivery-best-practices.md) .
 
-### Cuarentena vs lista de bloqueados {#quarantine-vs-block-list}
+### Cuarentena frente a lista de bloqueados {#quarantine-vs-block-list}
 
 La **cuarentena** solo se aplica a una dirección, no al propio perfil. Esto significa que, si dos perfiles tienen la misma dirección de correo electrónico, ambos se ven afectados si la dirección está en cuarentena.
 
 Del mismo modo, un perfil cuya dirección de correo electrónico se haya puesto en cuarentena puede actualizar su perfil e introducir una nueva dirección, y luego puede volver a recibir entregas.
 
-Being on the **block list**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out).
+Al estar en la **lista de bloqueados**, no obstante, el perfil ya no se tendrá en cuenta para los envíos, por ejemplo, tras una cancelación de la suscripción (exclusión).
 
 >[!NOTE]
 >
->Cuando un usuario responde a un mensaje SMS con una palabra clave como &quot;STOP&quot; para optar por la exclusión de los envíos SMS, su perfil no se agrega a la lista de bloqueados como en el proceso de desactivación de correo electrónico. El número de teléfono del perfil se envía a cuarentena, de modo que el usuario pueda seguir recibiendo mensajes de correo electrónico.
+>Cuando un usuario responde a un mensaje SMS con una palabra clave como “STOP” para impedir la exclusión de entregas SMS, su perfil no se añade a la lista de bloqueados en el proceso de exclusión de correo electrónico. El número de teléfono del perfil se envía a cuarentena, de modo que el usuario pueda seguir recibiendo mensajes de correo electrónico.
 
 ## Identificación de direcciones en cuarentena {#identifying-quarantined-addresses}
 
@@ -92,7 +92,7 @@ Los siguientes informes proporcionan información sobre las direcciones en cuare
 
 * El informe **[!UICONTROL Non-deliverables and bounces]** muestra información sobre las direcciones en cuarentena, los tipos de error encontrados, etc. y un desglose de errores por dominio.
 
-You can look up this information for all deliveries of the platform (**[!UICONTROL Home page > Reports]**) or for a specific delivery. También se pueden crear informes personalizados y seleccionar la información que desea mostrar.
+Puede consultar esta información para todos los envíos de la plataforma (**[!UICONTROL Home page > Reports]**) para un envío específico. También se pueden crear informes personalizados y seleccionar la información que desea mostrar.
 
 ### Identificación de direcciones en cuarentena para un destinatario {#identifying-quarantined-addresses-for-a-recipient}
 
@@ -102,11 +102,11 @@ Se puede buscar el estado del correo electrónico de cualquier destinatario. Par
 
 ### Rehabilitación de una dirección en cuarentena {#removing-a-quarantined-address}
 
-Si es necesario, puede eliminar manualmente una dirección de la lista de cuarentena. Además, el flujo de trabajo elimina automáticamente de la lista de cuarentena las direcciones que coinciden con condiciones específicas del **[!UICONTROL Database cleanup]** .
+Si es necesario, puede eliminar manualmente una dirección de la lista de cuarentena. Además, el flujo de trabajo **[!UICONTROL Database cleanup]** elimina automáticamente de la lista de cuarentena las direcciones que coinciden con condiciones específicas.
 
 Para eliminar manualmente una dirección de la lista de cuarentena:
 
-* Puede cambiar su estado a **[!UICONTROL Valid]** desde el **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** nodo.
+* Puede cambiar su estado a **[!UICONTROL Valid]** desde el nodo **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**.
 
    ![](assets/tech_quarant_error_status.png)
 
@@ -116,16 +116,16 @@ Para eliminar manualmente una dirección de la lista de cuarentena:
 
 Las direcciones se eliminan automáticamente de la lista de cuarentena en los siguientes casos:
 
-* Las direcciones de un **[!UICONTROL With errors]** estado se eliminarán de la lista de cuarentena tras un envío correcto.
-* Las direcciones de un **[!UICONTROL With errors]** estado se eliminarán de la lista de cuarentena si el último rebote suave se produjo hace más de 10 días. Para obtener más información sobre la administración de errores en pantalla, consulte [esta sección](#soft-error-management).
-* Las direcciones con un **[!UICONTROL With errors]** estado que rebotó con el **[!UICONTROL Mailbox full]** error se eliminarán de la lista de cuarentena pasados 30 días.
+* Las direcciones de un estado **[!UICONTROL With errors]** se eliminarán de la lista de cuarentena tras un envío correcto.
+* Las direcciones de un estado **[!UICONTROL With errors]** se eliminarán de la lista de cuarentena si el último rebote suave se produjo hace más de 10 días. Para obtener más información sobre la administración de errores leves, consulte [esta sección](#soft-error-management).
+* Las direcciones con un estado **[!UICONTROL With errors]** que rebotó con el error **[!UICONTROL Mailbox full]** se eliminarán de la lista de cuarentena pasados 30 días.
 
 A continuación, su estado cambia a **[!UICONTROL Valid]**.
 
 >[!IMPORTANT]
 Los destinatarios con una dirección en un estado **[!UICONTROL Quarantine]** o **[!UICONTROL On block list]** nunca se eliminarán, aunque reciban un correo electrónico.
 
-Puede modificar el número de errores y el período entre dos errores. Para ello, cambie la configuración correspondiente en el asistente de implementación (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**). Para obtener más información sobre el asistente de implementación, consulte [esta sección](../../installation/using/deploying-an-instance.md).
+Puede modificar el número de errores y el periodo entre dos errores. Para ello, cambie la configuración correspondiente en el asistente de implementación (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**). Para obtener más información sobre el asistente de implementación, consulte [esta sección](../../installation/using/deploying-an-instance.md).
 
 ## Condiciones para enviar una dirección a cuarentena {#conditions-for-sending-an-address-to-quarantine}
 
@@ -430,7 +430,7 @@ Antes de que se clasifique un nuevo tipo de error, el motivo del error se establ
 
 >[!NOTE]
 Los tipos de errores y los motivos del error son los mismos que para los correos electrónicos. Consulte [Tipos y motivos de errores de entrega](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
-Solicite a su proveedor una lista de estados y códigos de error para establecer tipos y motivos de error adecuados para los errores en la tabla de clasificación de “logs” de entrega.
+Solicite a su proveedor una lista de estados y códigos de error para establecer tipos y motivos de error adecuados para los errores en la tabla de clasificación de registros de entregas.
 
 Ejemplo de mensaje generado:
 
