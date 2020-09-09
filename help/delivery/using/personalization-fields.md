@@ -14,11 +14,11 @@ discoiquuid: 27c8e443-ee6b-4d58-bc2d-81cf8391c5de
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6c5e11f24537d2956ade49fe0f4a8ffebdbbabcf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '873'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Los campos personalizados se utilizan para la personalización de primer nivel d
 
 Por ejemplo, el campo personalizado con la sintaxis **&lt;%= recipient.LastName %>** indica a Adobe Campaign que inserte el nombre del destinatario en la base de datos (tabla de destinatarios).
 
-![](assets/do-not-localize/how-to-video.png) [Descubrir esta función en vídeo](#personalization-fields-video)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#personalization-fields-video)
 
 >[!CAUTION]
 >
@@ -60,7 +60,7 @@ Se crea un correo electrónico en el que primero debe insertar el nombre del des
 
 1. Cree una nueva entrega o abra una entrega de tipo correo electrónico ya existente.
 1. En el asistente de envíos, haga clic en **[!UICONTROL Subject]** para editar el asunto del mensaje y escriba un asunto.
-1. Introduzca “**[!UICONTROL Special offer for]**”  ” y utilice el botón de la barra de herramientas para insertar un campo de personalización. Seleccione **[!UICONTROL Recipients>Title]**.
+1. Introduzca &quot; **[!UICONTROL Special offer for]** &quot; y utilice el botón de la barra de herramientas para insertar un campo de personalización. Seleccione **[!UICONTROL Recipients>Title]**.
 
    ![](assets/s_ncs_user_insert_custom_field.png)
 
@@ -126,8 +126,8 @@ El valor predeterminado es 5 segundos.
 
 Si establece esta opción en 0, no va a haber límite de tiempo para la fase de personalización.
 
-## Cómo personalizar correos electrónicos mediante campos de personalización {#personalization-fields-video}
+## Personalización de correos electrónicos mediante campos de personalización {#personalization-fields-video}
 
 Obtenga información sobre cómo agregar un campo de personalización a la línea de asunto y el contenido de un envío de correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12&captions=spa)
