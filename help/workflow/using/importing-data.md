@@ -12,11 +12,11 @@ discoiquuid: e53af1c2-b50c-4a8c-b5b8-f23a85bd3211
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9a8c3586482d05648de3bdecfdfabcc094c70dbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2474'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->Tenga en cuenta los límites de almacenamiento SFTP, Almacenamiento de la base de datos y perfil activo según el contrato de AdobeCampaign al importar datos.
+>Tenga en cuenta los límites de almacenamiento SFTP, almacenamiento de la base de datos y perfil activo según el contrato de Adobe Campaign al importar datos.
 
 ## Recopilación de datos {#how-to-collect-data}
 
