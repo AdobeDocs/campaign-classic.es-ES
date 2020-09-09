@@ -14,11 +14,11 @@ discoiquuid: c0eb06fd-192c-4ee4-9a38-c9bedbe6aea0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6c66718fbbf13486d52b0cc98eae6c854b34030d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2955'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -243,11 +243,11 @@ Los grupos de operadores predeterminados son:
 
 1. **[!UICONTROL Administrator]**
 
-   Los operadores de este grupo tienen acceso completo a la instancia. Los administradores son usuarios que pueden acceder a las partes más técnicas de la interfaz. Tienen el **[!UICONTROL Administration]** rol y se aseguran de que la plataforma esté configurada.
+   Los operadores de este grupo tienen acceso completo a la instancia. Los administradores son usuarios que pueden acceder a las partes más técnicas de la interfaz. Tienen la función **[!UICONTROL Administration]** y se aseguran de que la plataforma esté configurada.
 
-   Este grupo contiene la siguiente derecha con nombre:
+   Este grupo contiene el siguiente derecho asignado:
 
-   * **[!UICONTROL ADMINISTRATION]**:: derecho a ejecutar/crear/editar/eliminar cualquier objeto, como flujo de trabajo, envío, secuencias de comandos, etc.
+   * **[!UICONTROL ADMINISTRATION]**: derecho a ejecutar, crear, editar o eliminar cualquier objeto, como flujo de trabajo, envío, secuencias de comandos, etc.
 
 1. **[!UICONTROL Delivery operators]**
 
@@ -255,8 +255,8 @@ Los grupos de operadores predeterminados son:
 
    Este grupo contiene los siguientes derechos asignados:
 
-   * **[!UICONTROL PREPARE DELIVERIES]**:: derecho a crear, editar y inicio de la análisis de envío,
-   * **[!UICONTROL START DELIVERIES]**:: derecho a aprobar envíos analizados previamente.
+   * **[!UICONTROL PREPARE DELIVERIES]**: derecho a crear, editar e iniciar el análisis de envíos.
+   * **[!UICONTROL START DELIVERIES]**: derecho a aprobar los envíos analizados previamente.
 
 1. **[!UICONTROL Campaign managers]**
 
@@ -264,8 +264,8 @@ Los grupos de operadores predeterminados son:
 
    Este grupo contiene los siguientes derechos asignados:
 
-   * **[!UICONTROL INSERT FOLDERS]**:: derecho a insertar carpetas en el árbol de Adobe Campaign (siempre que tenga derechos de edición para las ramas correspondientes),
-   * **[!UICONTROL WORKFLOW]**:: derecho a usar flujos de trabajo.
+   * **[!UICONTROL INSERT FOLDERS]**: derecho a insertar carpetas en el árbol de Adobe Campaign (siempre que tenga derechos de edición para las ramas correspondientes).
+   * **[!UICONTROL WORKFLOW]**: derecho a utilizar flujos de trabajo.
 
    >[!NOTE]
    >
@@ -296,7 +296,7 @@ Los grupos de operadores predeterminados son:
    Los operadores de este grupo pueden crear y mantener ofertas. Para obtener más información, consulte esta [página](../../interaction/using/operator-profiles.md).
 Este grupo contiene los siguientes derechos asignados:
 
-   * **[!UICONTROL INSERT FOLDERS]**:: Derecho a insertar carpetas en el árbol de Adobe Campaign (siempre que tenga derechos de edición para las ramas correspondientes),
+   * **[!UICONTROL INSERT FOLDERS]**: derecho a insertar carpetas en el árbol de Adobe Campaign (siempre que tenga derechos de edición para las ramas correspondientes).
    * **[!UICONTROL EDIT FOLDERS]**: Derecho a modificar propiedades de carpeta como nombre interno, etiqueta, imagen asociada, orden de subcarpeta, etc.
 
 ## Derechos asignados {#named-rights}
@@ -339,7 +339,7 @@ Estos derechos son los siguientes:
 
 * **[!UICONTROL SQL SCRIPT EXECUTION]** Derecho a ejecutar cualquier comando SQL directamente en la base de datos.
 
-* **[!UICONTROL START DELIVERIES]**: derecho para aprobar los envíos analizados previamente. Después del análisis de envío, el envío se detiene en varios pasos de aprobación y debe aprobarse para reanudarse. Los usuarios con derecho a **[!UICONTROL START DELIVERIES]** pueden aprobar envíos.
+* **[!UICONTROL START DELIVERIES]**: derecho a aprobar los envíos analizados previamente. Después del análisis de envío, el envío se detiene en varios pasos de aprobación y debe aprobarse para reanudarse. Los usuarios con derecho a **[!UICONTROL START DELIVERIES]** pueden aprobar envíos.
 
 * **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY]**: derecho para escribir sus propias secuencias de comandos SQL con la actividad Administración de datos SQL para crear y rellenar tablas de trabajo (consulte [esta sección](../../workflow/using/sql-data-management.md)).
 
