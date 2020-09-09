@@ -12,11 +12,11 @@ discoiquuid: f449ccd5-3965-4ab8-b5a9-993f3260aba9
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8198c4aa6eccc0cbb5de4712ebdd8000783b615c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '996'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Para evitar estos problemas, Adobe recomienda seguir las prácticas recomendadas
 * Inicie sesión ocasionalmente en el SFTP para comprobar directamente lo que sucede allí.
 * Recuerde que la gestión de discos SFTP es responsabilidad principalmente suya.
 * De forma predeterminada, todas las carpetas que cree se encuentran en modo de lectura y escritura solo para su identificador. Cuando cree carpetas a las que Campaign requiera tener acceso, asegúrese de configurarlas con derechos de lectura y escritura para todo el grupo. De lo contrario, es posible que, por motivos de seguridad, los flujos de trabajo no puedan crear o eliminar archivos que se ejecuten con un identificador diferente dentro del mismo grupo.
-* Las direcciones IP públicas desde las que intenta iniciar la conexión SFTP deben agregarse a la lista de permitidos en la instancia de Campaña. Añadir direcciones IP a la lista de permitidos se puede solicitar mediante un ticket [de asistencia](https://support.neolane.net).
+* Las IP públicas desde las que intente iniciar la conexión SFTP se deben añadir a la lista de permitidos de la instancia de Campaign. Añadir direcciones IP a la lista de permitidos se puede solicitar mediante un [ticket de asistencia](https://support.neolane.net).
 
 >[!CAUTION]
 >
@@ -58,7 +58,7 @@ Para evitar estos problemas, Adobe recomienda seguir las prácticas recomendadas
 
 En la sección siguiente se muestra la información que se debe verificar y proporcionar al servicio de asistencia de Adobe a través de un [vale de ayuda](https://support.neolane.net) cuando encuentre algún problema de conexión con servidores SFTP alojados por Adobe.
 
-1. Compruebe que la instancia esté ejecutándose. To do this, open your browser, then make a **[!UICONTROL GET]** call on the instance **[!UICONTROL /r/test]** endpoint:
+1. Compruebe que la instancia esté ejecutándose. Para ello, abra el navegador y luego realice una llamada **[!UICONTROL GET]** en el punto final de la instancia **[!UICONTROL /r/test]**:
 
    ```
    https://instanceUrl/r/test
@@ -90,14 +90,14 @@ En la sección siguiente se muestra la información que se debe verificar y prop
 
    Si el puerto no está abierto, asegúrese de abrir las conexiones salientes de su lado y vuelva a intentarlo. Si sigue teniendo problemas de conexión, comparta la salida del comando con el equipo de asistencia de Adobe.
 
-1. Compruebe que la IP pública desde la que intenta iniciar la conexión SFTP es la que ha proporcionado a la asistencia técnica de Adobe para la lista de permitidos.
+1. Compruebe que la IP pública desde la que intenta iniciar la conexión SFTP sea la que indicó al servicio de asistencia de Adobe para que la incluyera en la lista de permitidos.
 1. Si utiliza una autenticación basada en contraseña, es posible que la contraseña haya caducado (las contraseñas tienen un periodo de validez de 90 días). Por lo tanto, recomendamos utilizar una autenticación basada en claves (consulte [Prácticas recomendadas del servidor SFTP](#sftp-server-best-practices)).
 1. Si utiliza una autenticación basada en claves, compruebe que la clave que está utilizando sea la misma que indicó al servicio de asistencia de Adobe para la configuración de la instancia.
 1. Si utiliza FileZilla o una herramienta de FTP equivalente, indique los detalles de conexión en el ticket de asistencia.
 
 ## Error &quot;No se pudo resolver el nombre de host&quot;
 
-Esta sección proporciona información sobre las comprobaciones y acciones que se deben realizar al obtener el error &quot;No se pudo resolver el nombre de host&quot; después de conectarse al servidor FTP desde el Campaign Classic.
+Esta sección proporciona información sobre las comprobaciones y acciones que se deben realizar al obtener el error &quot;No se pudo resolver el nombre de host&quot; después de conectarse al servidor FTP desde Campaign Classic.
 
 El historial de flujo de trabajo muestra los siguientes registros:
 
@@ -113,7 +113,7 @@ Este error se produce al intentar conectar el servidor FTP desde un flujo de tra
 
 Este error indica que el nombre de dominio del servidor FTP no se pudo resolver correctamente. Para solucionar problemas, haga lo siguiente:
 
-1. Solucionar problemas de configuración **del servidor** DNS:
+1. Solucionar problemas **de configuración del servidor DNS**:
 
    1. Compruebe si el nombre del servidor se ha agregado al servidor DNS local.
    1. Si es así, ejecute el siguiente comando en el servidor de Adobe Campaign para obtener la dirección IP:
@@ -122,22 +122,22 @@ Este error indica que el nombre de dominio del servidor FTP no se pudo resolver 
 
       Esto confirma que el servidor FTP funciona y se puede acceder a él desde el servidor de aplicaciones de Adobe Campaign.
 
-1. Solucionar problemas de registros **de sesión**:
+1. Solucionar problemas **de registros de sesión**:
 
-   1. En el flujo de trabajo, haga clic con el botón doble en la actividad de transferencia [de](../../workflow/using/file-transfer.md) archivos.
-   1. Vaya a la **[!UICONTROL File Transfer]** ficha y haga clic en **[!UICONTROL Advanced Parameters]**.
+   1. En el flujo de trabajo, haga clic con el botón doble en la actividad de [transferencia de archivos](../../workflow/using/file-transfer.md).
+   1. Vaya a la pestaña **[!UICONTROL File Transfer]** y haga clic en **[!UICONTROL Advanced Parameters]**.
    1. Marque la opción **[!UICONTROL Display the session logs]**.
 
       ![](assets/sftp-error-display-logs.png)
 
-   1. Vaya a la auditoría del flujo de trabajo y compruebe si los registros muestran el error &#39;No se pudo resolver el nombre de host&#39;.
+   1. Vaya al flujo de trabajo Audit y compruebe si los registros muestran el error ‘No se pudo resolver el nombre de host’.
 
 1. Si el servidor SFTP está alojado por Adobe, compruebe si la IP se agrega a la lista de permitidos poniéndose en contacto con el Servicio de atención al cliente.
 
-   De lo contrario, validar:
+   De lo contrario, valide lo siguiente:
 
    * La contraseña no contiene &#39;@&#39;. Error de conexión si hay &#39;@&#39; en la contraseña.
-   * No hay problemas con el cortafuegos que puedan obstaculizar la comunicación entre el servidor de aplicaciones de Adobe Campaign y el servidor SFTP.
-   * Ejecute comandos tracert y telnet desde el servidor de campaña al sftp para ver si hay algún problema de conexión.
+   * No hay problemas con el firewall que puedan obstaculizar la comunicación entre el servidor de aplicaciones de Adobe Campaign y el servidor SFTP.
+   * Ejecute los comandos tracert y telnet desde el servidor de campaña al sftp para ver si hay algún problema de conexión.
    * No hay problemas con el protocolo de comunicación.
    * El puerto está abierto.
