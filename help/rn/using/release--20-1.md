@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e31efa347b42b4ccb532ca5f79e73745b5a7878b
-workflow-type: ht
-source-wordcount: '1331'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9357be26b1bc436b19861faa2a43ec6a17cb5b3c
+workflow-type: tm+mt
+source-wordcount: '1344'
+ht-degree: 97%
 
 ---
 
@@ -107,7 +107,7 @@ _lunes, 17 de febrero de 2020_
 
 * Se ha mejorado el rendimiento de la consulta, lo que podría verse afectado por conexiones de base de datos innecesarias.
 
-* Se ha mejorado el rendimiento del asistente para la actualización de la base de datos.
+* Se ha mejorado el rendimiento del asistente para la actualización de la base de datos a fin de hacer menos sentencias SQL para optimizar el tiempo de respuesta.
 
 * Se mejoró la administración de registros de la base de datos.
 
@@ -183,7 +183,7 @@ _lunes, 17 de febrero de 2020_
 
 * Se ha corregido un problema que se producía al eliminar, insertar o actualizar una gran cantidad de datos con la actividad **Actualizar datos** en un flujo de trabajo mediante un esquema FDA como dimensión de segmentación. (NEO-13280)
 
-* Se ha corregido un problema que impedía que se enviaran correos electrónicos al usar la instrucción &#39;if&#39; fuera de la etiqueta `body`. (NEO-18628)
+* Se ha corregido un problema que impedía enviar correos electrónicos cuando había código Javascript fuera de la etiqueta de contenido HTML. (NEO-18628)
 
 * Se ha corregido un problema que se producía al intentar mostrar la página espejo de los registros de envío de un mensaje enviado. (NEO-17976)
 
