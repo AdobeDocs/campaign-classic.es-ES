@@ -14,11 +14,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c7b00960ffde49df65cd5c8fcfb8fab6aee485d7
-workflow-type: ht
-source-wordcount: '1295'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9357be26b1bc436b19861faa2a43ec6a17cb5b3c
+workflow-type: tm+mt
+source-wordcount: '1318'
+ht-degree: 95%
 
 ---
 
@@ -138,7 +138,7 @@ Ya está disponible la compilación 1.0.26 del SDK para iOS. En esta nueva compi
 
 **Parches**
 
-* Se ha corregido un bloqueo de la consola que se producía al agregar una tabla vinculada vacía en la actividad de flujo de trabajo **Data Loading (RDBMS)**. (NEO-12213)
+* Se corrigió un problema de bloqueo cuando el campo **Añadir tabla** vinculada estaba vacío en la actividad de flujo de trabajo Carga **de datos (RDBMS)** . (NEO-12213)
 * Se ha corregido un problema que podía hacer que el servidor intermediario no procesara determinados mensajes. (NEO-12395)
 * Se ha corregido un problema en el flujo de trabajo de limpieza de la base de datos al utilizar la opción de bandas de consulta con Teradata. (NEO-12399)
 * Se ha corregido un problema que afectaba al análisis de entrega con la regla de tipología, incluido el dominio ne.jp. (NEO-12609)
@@ -152,7 +152,7 @@ Ya está disponible la compilación 1.0.26 del SDK para iOS. En esta nueva compi
 * Se ha corregido un problema en los flujos de trabajo al utilizar la actividad **File transfer** para descargar archivos mediante la opción **Delete the source files after transfer**, con un nombre que contenía un carácter de espacio. (NEO-13411)
 * Se ha corregido un problema con la limpieza de caché de Tomcat que podía provocar problemas de memoria. (NEO-13456)
 * Se ha corregido un problema al instalar **Control of offer engine with execution instance** existente que se ejecuta en Microsoft SQL 2017. (NEO-13539)
-* Se ha corregido un bloqueo de la consola que se producía al desmarcar direcciones URL seguidas en un correo electrónico, desde la pestaña **Text content**. (NEO-13545)
+* Se ha corregido un problema de bloqueo de la consola que se producía al desmarcar direcciones URL seguidas en un correo electrónico, desde la ficha Contenido **de** texto debido a una variable no inicializada. (NEO-13545)
 * Se ha corregido un problema de codificación en el nombre del remitente chino. (NEO-13837)
 * Se ha corregido un error que se podía generar al mostrar los datos de respuesta del estudio desde el Explorador. (NEO-14590)
 * Se ha corregido un problema que podía provocar discrepancias entre la clasificación del registro de entrega y la tabla de cuarentena. (NEO-16547)
@@ -166,4 +166,9 @@ Ya está disponible la compilación 1.0.26 del SDK para iOS. En esta nueva compi
 * Se ha corregido un problema de tiempo de espera al importar datos desde un SFTP externo. (NEO-19723)
 * Se ha corregido un problema al acceder a modelos predictivos. (NEO-19713)
 * Se ha corregido un problema que afectaba al muestreo aleatorio en la actividad de flujo de trabajo de **Split** con la base de datos FDA de Hadoop. (NEO-16636)
+* Se corrigió una regresión en Oracle que ocasionaba que algunas funciones se consideraran no válidas después de la postactualización. (NEO-12759)
+
+
+
+
 
