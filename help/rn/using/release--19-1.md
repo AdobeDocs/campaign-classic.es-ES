@@ -14,16 +14,59 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6c3c2ad62778c4c4f874c5b34c014529ce3e7185
-workflow-type: ht
-source-wordcount: '2118'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: edb8f495fff90f51ae00006453b6ec09d84a8f55
+workflow-type: tm+mt
+source-wordcount: '2639'
+ht-degree: 82%
 
 ---
 
 
 # Versión 19.1{#release-19-1}
+
+## ![](assets/do-not-localize/limited_2.png) Versión 19.1.7: compilación 9036 {#release-19-1-7-build-9036}
+
+_15 de septiembre de 2020_
+
+**Mejoras**
+
+* Se ha mejorado el uso de subprocesos de nlsrvmod para Apache 2.4 a fin de corregir los bloqueos de nlsrvmod.
+* Se ha corregido un problema al usar la actividad de transferencia de archivos con una cuenta externa de Azure y un cifrado SSL. La conexión se realizó mediante HTTP en lugar de HTTPS. (NEO-26720)
+
+
+
+* En las propiedades de envío, se ha cambiado el nombre de la **[!UICONTROL Archive emails]** opción **[!UICONTROL Email BCC]** para mejorar la experiencia del usuario.
+* Se ha corregido un problema con el mecanismo de caché de URL que no recuperaba la etiqueta o la categoría.
+* Se ha corregido un problema que provocaba que las direcciones URL de página espejo se definieran incorrectamente en los envíos de correo electrónico (debido a un control incorrecto de caracteres ASCII). (NEO-26084)
+* Se ha actualizado la lista jarsToSkip en catalina.properties para eliminar la referencia a un archivo jar que ya no se utilizaba (notificaciones de iOS).
+* Se ha corregido un problema de regresión que impedía la publicación después de la actualización.
+* Se ha corregido una regresión con informes de envío listos para usar que aparecían truncados al exportarse a PDF. (NEO-25757)
+* Se ha corregido un problema que eliminaba el valor del parámetro de codificación al redirigir desde una URL de seguimiento (afectaba a los caracteres japoneses). (NEO-25637)
+* Se ha corregido un problema que provocaba que los vínculos sin firmar de dominios personalizados se bloquearan cuando deberían permitirse. (NEO-25210)
+* Se ha corregido una regresión que afectaba a los campos calculados de un flujo de trabajo y que provocaba que éste fallara. (NEO-25194)
+* Se ha corregido un problema de compatibilidad con Microsoft Dynamics (de la versión 8.2) que podía impedir la ejecución de algunas llamadas de API (RetrieveAllEntities). (NEO-24528)
+* Se ha corregido un problema de regresión al utilizar la función de conector ACS que impedía la conexión a una instancia de Campaign Standard (administración incorrecta de la conexión FOH/FOH2). (NEO-23433)
+* Se ha corregido un problema de regresión en la conexión de base de datos que provocaba que el servidor web se reiniciara constantemente debido a un problema de codificación de la base de datos. Esto podría conducir a un consumo excesivo. (NEO-23264)
+
+
+
+* Se ha corregido un problema con el flujo de trabajo de limpieza de la base de datos que podía fallar debido a que el origen de datos no se administraba. (NEO-23160, NEO-23364)
+* El flujo de trabajo de limpieza ahora purga las listas caducadas por lotes de 100 en lugar de una por una.
+* Después del cambio al [nuevo mecanismo de ID de secuencia](https://helpx.adobe.com/es/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence), todas las aplicaciones web que actualizan la tabla de destinatario se vuelven a publicar después de la actualización.
+* Se ha corregido un problema que impedía enviar correos electrónicos cuando había código Javascript fuera de la etiqueta de contenido HTML. (NEO-18628)
+* Se ha corregido un problema que impedía que el flujo de trabajo de seguimiento actualizara los indicadores de seguimiento de mensajes transaccionales. (NEO-17770)
+* Se ha mejorado el rendimiento del asistente para la actualización de la base de datos a fin de hacer menos sentencias SQL para optimizar el tiempo de respuesta.
+* Se ha corregido un problema de bloqueo de la consola que se producía al desmarcar direcciones URL seguidas en un correo electrónico, desde la ficha Contenido **de** texto debido a una variable no inicializada. (NEO-13545)
+* Se ha corregido un problema que impedía cargar archivos en una actividad de transferencia de archivos mediante una cuenta externa de Almacenamiento de blob de Azure debido a una variable no inicializada (m_pCurlReader). (NEO-13717)
+
+
+
+* Se ha corregido un problema posterior a la actualización que desactivaba Apache y el servidor web antes de la republicación de la aplicación web. (NEO-27155)
+
+
+
+* Se ha corregido una regresión que provocaba que se seleccionara una zona horaria incorrecta al establecer la hora en una actividad de flujo de trabajo de **Planificador** .
 
 ## ![](assets/do-not-localize/orange_2.png) Versión 19.1.6: compilación 9035 {#release-19-1-6-build-9035}
 
@@ -49,10 +92,15 @@ _13 de agosto de 2019_
 
 * Se ha corregido un problema con la sentencia SQL &#39;SELECT COUNT&#39; que se ejecutaba en la base de datos predeterminada en lugar de en la base de datos de FDA durante la extracción de datos en la actividad de gestión de datos.
 * Ahora hay una declaración de proxy SFTP disponible en el archivo de configuración del servidor para mejorar las capacidades de la infraestructura del cliente.
-* Se ha corregido un fallo en Client console al “añadir una tabla vinculada” en la actividad de flujo de trabajo de carga de datos (RDBMS) sin nombre de tabla (NEO-12213)
-* Se ha corregido un problema con la instalación del paquete midEmetter a través de la línea de comandos.
+* Se corrigió un problema de bloqueo cuando el campo **Añadir tabla** vinculada estaba vacío en la actividad de flujo de trabajo Carga **de datos (RDBMS)** . (NEO-12213)
+* Se ha corregido un problema con la instalación del paquete midEmitter a través de la línea de comandos.
 * Se ha añadido una nueva opción de autenticación para admitir credenciales de OAuth dentro del conector AC con Microsoft Dynamics (NEO-11982)
-* Se ha corregido un problema con UUID (Unique Universal Identifier) que causaba que la actividad de enriquecimiento fallase con FDA de Hive.
+* Se ha corregido un problema con la administración de UUID (identificador universal único) que provocaba que las actividades del flujo de trabajo de carga de datos y Consulta fallaran con Hive FDA.
+* Se corrigió una regresión en Oracle que ocasionaba que algunas funciones se consideraran no válidas después de la postactualización. (NEO-12759)
+
+
+
+* Se ha corregido una regresión que provocaba que se seleccionara una zona horaria incorrecta al establecer la hora en una actividad de flujo de trabajo de Planificador.
 
 ## ![](assets/do-not-localize/green_2.png) Versión 19.1.4: compilación 9032{#release-19-1-4-build-9032}
 
