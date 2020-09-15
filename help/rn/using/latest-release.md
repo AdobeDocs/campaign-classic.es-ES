@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: f92180f93850d5bc33e74210d17cdd36c0c15e5f
 workflow-type: tm+mt
 source-wordcount: '2119'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -32,15 +32,19 @@ _11 de septiembre de 2020_
 * Se corrigió una regresión que ocasionaba que la preparación del envío se bloqueara debido a una única función errónea en la parte del envío que provocaba una sobrecarga de memoria. (NEO-27346)
 
 
+
 * Se ha corregido un problema posterior a la actualización que desactivaba Apache y el servidor web antes de la republicación de la aplicación web. (NEO-27155)
+
 
 
 * Se ha corregido una regresión en la administración de plantillas HTML que provocaba que las direcciones URL de seguimiento se volvieran visibles debido a una interpretación errónea de las fichas. (NEO-25909)
 
 
+
 * Se ha corregido un problema con el flujo de trabajo de limpieza de la base de datos que podía fallar debido a que el origen de datos no se administraba. (NEO-23160, NEO-23364)
 * El flujo de trabajo de limpieza ahora purga las listas caducadas por lotes de 100 en lugar de una por una.
 * Se corrigió una regresión que impedía modificar el nombre interno de una cuenta externa. (NEO-27323)
+
 
 
 * La corrección de una regresión durante la postactualización provoca un inicio incorrecto de nlserver (registros de errores).
@@ -57,6 +61,7 @@ _22 de julio de 2020_
 * Se ha corregido un problema de codificación con la administración de direcciones URL en el servicio antiphishing. (NEO-25283)
 * Se ha corregido un problema que impedía que el funcionamiento del seguimiento de direcciones URL mediante fragmentos en parámetros de personalización (etiquetas de anclaje con signo de almohadilla). (NEO-25774)
 * Se ha corregido un problema de seguimiento al usar fórmulas de seguimiento personalizadas específicas. (NEO-25277)
+
 
 
 Se ha corregido un problema que impedía el funcionamiento del seguimiento de &quot;clics de notificación&quot; (notificaciones push de iOS y Android). (NEO-25965)
@@ -116,7 +121,7 @@ _lunes, 8 de junio de 2020_
  <tbody> 
   <tr> 
    <td> <p>La Ley de Protección de Datos Personales de Tailandia (PDPA, por sus siglas en inglés) es la nueva ley de privacidad que armoniza y moderniza los requerimientos de protección de datos para Tailandia. </p>
-   <p>El Lei Geral de Proteção de Dados (LGPD) de Brasil entrará en vigor a principios de 2021 para todas las compañías que recopilen o procesen datos personales en Brasil.</p>
+   <p>La Ley General de Protección de Datos (Lei Geral de Proteção de Dados, LGPD) de Brasil entrará en vigencia a principios de 2021 para todas las compañías que recopilen o procesen datos personales en Brasil.</p>
    <p>Estos reglamentos se aplican a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en estos países. Además de las funcionalidades de privacidad disponibles en Campaign (incluida la administración de consentimientos, configuración de retención de datos y funciones de usuario), estamos tomando esta oportunidad para incluir funcionalidades adicionales, para ayudar a facilitar su preparación para la PDPA y la LGPD.</p>
    <ul> 
      <li><p>Derecho de acceso y derecho de eliminación: estamos aprovechando las capacidades añadidas para el RGPD y la CCPA. <a href="https://helpx.adobe.com/es/campaign/kb/acc-privacy.html">Más información</a></p></li> 
