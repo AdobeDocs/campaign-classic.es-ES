@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f92180f93850d5bc33e74210d17cdd36c0c15e5f
+source-git-commit: 2bd946fc0e5b206280a7946e0cbc6fa6d1be90f2
 workflow-type: tm+mt
-source-wordcount: '2119'
-ht-degree: 93%
+source-wordcount: '2161'
+ht-degree: 88%
 
 ---
 
@@ -57,7 +57,7 @@ _22 de julio de 2020_
 * Se ha corregido un problema que impedía que el seguimiento funcionara cuando la función de firma estaba deshabilitada. (NEO-26411)
 * Se ha corregido un problema que provocaba que los vínculos sin firmar de dominios personalizados se bloquearan cuando deberían permitirse. (NEO-25210)
 * Se ha corregido un problema que podía impedir que se abrieran las direcciones URL de seguimiento al usar ciertas versiones heredadas de Outlook o se hiciera clic en ellas. (NEO-25688)
-* Se ha corregido un problema que provocaba que las direcciones URL de la página espejo se definieran incorrectamente en los envíos de correo electrónico. (NEO-26084)
+* Se ha corregido un problema que provocaba que las direcciones URL de página espejo se definieran incorrectamente en los envíos de correo electrónico (debido a un control incorrecto de caracteres ASCII). (NEO-26084)
 * Se ha corregido un problema de codificación con la administración de direcciones URL en el servicio antiphishing. (NEO-25283)
 * Se ha corregido un problema que impedía que el funcionamiento del seguimiento de direcciones URL mediante fragmentos en parámetros de personalización (etiquetas de anclaje con signo de almohadilla). (NEO-25774)
 * Se ha corregido un problema de seguimiento al usar fórmulas de seguimiento personalizadas específicas. (NEO-25277)
@@ -65,9 +65,9 @@ _22 de julio de 2020_
 
 
 Se ha corregido un problema que impedía el funcionamiento del seguimiento de &quot;clics de notificación&quot; (notificaciones push de iOS y Android). (NEO-25965)
-* Se ha corregido una regresión que afectaba a los campos calculados de un flujo de trabajo. (NEO-25194)
+* Se ha corregido una regresión que afectaba a los campos calculados de un flujo de trabajo y que provocaba que éste fallara. (NEO-25194)
 * Se ha corregido una regresión que impedía que funcionara la creación rápida de direcciones URL de seguimiento web. (NEO-20999)
-* Se ha corregido un problema con los informes de envío listos para usar que aparecían truncados al exportarse a PDF. (NEO-25757)
+* Se ha corregido un problema de regresión con informes de envío listos para usar que aparecían truncados al exportarse a PDF. (NEO-25757)
 * Se ha corregido un problema de bloqueo en el asistente de implementación.
 * Se ha corregido un problema que podía impedir que el flujo de trabajo de la notificación de oferta funcionara correctamente después de una actualización posterior.
 * Se ha mejorado el conector HTTP2 de iOS (actualizaciones de terceros y administración de errores). (NEO-25904, NEO-25903)
@@ -255,7 +255,7 @@ Hay un ejemplo para Linux disponible en esta [página](../../configuration/using
 * Se ha corregido un problema que podía afectar a la notificación push cuando se enviaba con una frecuencia alta. (NEO-20516)
 * Se ha corregido un problema que ocasionaba que los datos de seguimiento incluyeran duplicados aunque los registros de seguimiento no lo hicieran. (NEO-20040)
 * Se ha corregido un problema que hacía que se enviaran correos electrónicos transaccionales en duplicado después de que se corrigiera un error de comunicación del servidor de seguimiento. (NEO-23640)
-* Se ha corregido un problema que eliminaba el valor del parámetro de codificación al redirigir desde una URL de seguimiento. (NEO-25637)
+* Se ha corregido un problema que eliminaba el valor del parámetro de codificación al redirigir desde una URL de seguimiento (afectaba a los caracteres japoneses). (NEO-25637)
 * Se ha corregido un problema que podía impedir que una consulta funcionara al comparar números flotantes. (NEO-23243)
 * Se ha corregido un problema que podía impedir que se mostrara el contenido de la columna **Modificado por** después de reiniciar un flujo de trabajo. (NEO-23035)
 * Se ha corregido un problema que ocasionaba que fallara el flujo de trabajo técnico de seguimiento al descargar registros de un segundo contenedor. (NEO-23159)
@@ -265,7 +265,7 @@ Hay un ejemplo para Linux disponible en esta [página](../../configuration/using
 * Se ha corregido un problema con campos de almacenamiento adicionales al crear envíos a través de la opción **Calculado por un script** en la actividad de flujo de trabajo **Script**. (NEO-20609)
 * Se ha corregido un problema que impedía que se eliminaran flujos de trabajo fantasma en las tareas de limpieza de la base de datos.
 * Se ha corregido un problema que provocaba que fallara el flujo de trabajo técnico de **Facturación (perfiles activos)**. (NEO-19777)
-* Se ha corregido un problema al probar la conexión de la cuenta externa acsDefaultAccount. (NEO-23433)
+* Se ha corregido un problema de regresión al utilizar la función de conector ACS que impedía la conexión a una instancia de Campaign Standard (administración incorrecta de la conexión FOH/FOH2). (NEO-23433)
 * Se ha corregido un problema que impedía crear una extensión de esquema en una clave principal con varias columnas con una tabla Hadoop. (NEO-17390)
 * Se ha corregido un problema en la actividad **Cargar (SOAP)** que podía impedir que los archivos WSDL se cargaran desde una dirección URL. (NEO-16924)
 * Se ha corregido un problema que impedía realizar una **Parada incondicional** a través de la consola cuando se equilibraba la carga de varios servidores de flujo de trabajo activos. (NEO-19556)
@@ -277,6 +277,9 @@ Hay un ejemplo para Linux disponible en esta [página](../../configuration/using
 * Se ha corregido un problema que podía mostrar un envío dos veces en la lista de envíos después de enviarlo.
 * Se ha corregido un problema con la preparación de envíos que se podía producir cuando la configuración de enrutamiento estaba configurada para realizar el envío mediante intermediario.
 * Se ha corregido un problema que podía mostrar un mensaje de error al hacer clic en un enlace de aplicación web dentro de un mensaje de línea.
-* Se ha corregido un problema que podía impedir que Microsoft Dynamics CRM recuperara todas las entidades. (NEO-24528)
 * Se ha corregido un problema que eliminaba el historial de actividades de **Consulta incremental** después de ejecutar el flujo de trabajo de limpieza.
-* Se ha corregido un problema al crear una cuenta externa intermediaria en el cual faltaba la opción NmsMidSourcing_LastBroadLog_&lt;InternalName>.
+* Se ha corregido un problema al crear una cuenta externa intermediaria en el cual faltaba la opción NmsMidSourcing_LastBroadLog_&lt;InternalName>..
+* Se ha corregido un problema de regresión en la conexión de base de datos que provocaba que el servidor web se reiniciara constantemente debido a un problema de codificación de la base de datos. Esto podría conducir a un consumo excesivo. (NEO-23264)
+
+
+
