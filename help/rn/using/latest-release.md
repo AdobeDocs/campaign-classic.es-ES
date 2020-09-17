@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2bd946fc0e5b206280a7946e0cbc6fa6d1be90f2
+source-git-commit: ab9d2c2e80ba09b5a2cceadb49c06ff13989da0f
 workflow-type: tm+mt
 source-wordcount: '2161'
 ht-degree: 88%
@@ -64,7 +64,7 @@ _22 de julio de 2020_
 
 
 
-Se ha corregido un problema que impedía el funcionamiento del seguimiento de &quot;clics de notificación&quot; (notificaciones push de iOS y Android). (NEO-25965)
+* Se ha corregido un problema que impedía el funcionamiento del seguimiento de &quot;clics de notificación&quot; (notificaciones push de iOS y Android). (NEO-25965)
 * Se ha corregido una regresión que afectaba a los campos calculados de un flujo de trabajo y que provocaba que éste fallara. (NEO-25194)
 * Se ha corregido una regresión que impedía que funcionara la creación rápida de direcciones URL de seguimiento web. (NEO-20999)
 * Se ha corregido un problema de regresión con informes de envío listos para usar que aparecían truncados al exportarse a PDF. (NEO-25757)
