@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: ab9d2c2e80ba09b5a2cceadb49c06ff13989da0f
 workflow-type: tm+mt
 source-wordcount: '2161'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -29,45 +29,46 @@ ht-degree: 88%
 
 _11 de septiembre de 2020_
 
-* Se corrigió una regresión que ocasionaba que la preparación del envío se bloqueara debido a una única función errónea en la parte del envío que provocaba una sobrecarga de memoria. (NEO-27346)
+* Se ha corregido una regresión que ocasionaba que la preparación del envío se bloqueara debido a una única función errónea en la parte del envío que provocó una sobrecarga de memoria. (NEO-27346)
 
 
 
-* Se ha corregido un problema posterior a la actualización que desactivaba Apache y el servidor web antes de la republicación de la aplicación web. (NEO-27155)
+* Se ha corregido un problema después de la actualización que desactivaba Apache y el servidor web antes de la republicación de la aplicación web. (NEO-27155)
 
 
 
-* Se ha corregido una regresión en la administración de plantillas HTML que provocaba que las direcciones URL de seguimiento se volvieran visibles debido a una interpretación errónea de las fichas. (NEO-25909)
+* Se ha corregido una regresión en la administración de plantillas HTML que provocaba que las direcciones URL de seguimiento se volvieran visibles debido a una interpretación errónea de las pestañas. (NEO-25909)
 
 
 
-* Se ha corregido un problema con el flujo de trabajo de limpieza de la base de datos que podía fallar debido a que el origen de datos no se administraba. (NEO-23160, NEO-23364)
-* El flujo de trabajo de limpieza ahora purga las listas caducadas por lotes de 100 en lugar de una por una.
-* Se corrigió una regresión que impedía modificar el nombre interno de una cuenta externa. (NEO-27323)
+* Se ha corregido un problema con el flujo de trabajo de limpieza de base de datos que podía fallar debido a una fuente de datos no administrada. (NEO-23160, NEO-23364)
+* El flujo de trabajo de limpieza ahora purga las listas caducadas por lotes de a100 en lugar de a una por una.
+* Se ha corregido una regresión que impedía modificar el nombre interno de una cuenta externa. (NEO-27323)
 
 
 
-* La corrección de una regresión durante la postactualización provoca un inicio incorrecto de nlserver (registros de errores).
+* La corrección de una regresión después de la actualización provoca un inicio incorrecto de nlserver (registros de errores).
 * Se ha mejorado la administración de actualizaciones para la memoria compartida. Los pasos adicionales requeridos en 20.2 ya no son necesarios.
 
 ## ![](assets/do-not-localize/orange_2.png) Versión 20.2.2: compilación 9180 {#release-20-2-2-build-9180}
 
-_22 de julio de 2020_
+_miércoles, 22 de julio de 2020_
 
 * Se ha corregido un problema que impedía que el seguimiento funcionara cuando la función de firma estaba deshabilitada. (NEO-26411)
 * Se ha corregido un problema que provocaba que los vínculos sin firmar de dominios personalizados se bloquearan cuando deberían permitirse. (NEO-25210)
 * Se ha corregido un problema que podía impedir que se abrieran las direcciones URL de seguimiento al usar ciertas versiones heredadas de Outlook o se hiciera clic en ellas. (NEO-25688)
-* Se ha corregido un problema que provocaba que las direcciones URL de página espejo se definieran incorrectamente en los envíos de correo electrónico (debido a un control incorrecto de caracteres ASCII). (NEO-26084)
+* Se ha corregido el problema que provocaba que las direcciones URL de página espejo se definieran incorrectamente en los envíos de correo electrónico (debido a un control incorrecto de caracteres ASCII). (NEO-26084)
 * Se ha corregido un problema de codificación con la administración de direcciones URL en el servicio antiphishing. (NEO-25283)
 * Se ha corregido un problema que impedía que el funcionamiento del seguimiento de direcciones URL mediante fragmentos en parámetros de personalización (etiquetas de anclaje con signo de almohadilla). (NEO-25774)
 * Se ha corregido un problema de seguimiento al usar fórmulas de seguimiento personalizadas específicas. (NEO-25277)
 
 
 
+
 * Se ha corregido un problema que impedía el funcionamiento del seguimiento de &quot;clics de notificación&quot; (notificaciones push de iOS y Android). (NEO-25965)
-* Se ha corregido una regresión que afectaba a los campos calculados de un flujo de trabajo y que provocaba que éste fallara. (NEO-25194)
+* Se ha corregido la regresión que afectaba a los campos calculados de un flujo de trabajo y que provocaba un error. (NEO-25194)
 * Se ha corregido una regresión que impedía que funcionara la creación rápida de direcciones URL de seguimiento web. (NEO-20999)
-* Se ha corregido un problema de regresión con informes de envío listos para usar que aparecían truncados al exportarse a PDF. (NEO-25757)
+* Se ha corregido un problema de una regresión con los informes de envío listos para usar que aparecían truncados al exportarse a PDF. (NEO-25757)
 * Se ha corregido un problema de bloqueo en el asistente de implementación.
 * Se ha corregido un problema que podía impedir que el flujo de trabajo de la notificación de oferta funcionara correctamente después de una actualización posterior.
 * Se ha mejorado el conector HTTP2 de iOS (actualizaciones de terceros y administración de errores). (NEO-25904, NEO-25903)
@@ -255,7 +256,7 @@ Hay un ejemplo para Linux disponible en esta [página](../../configuration/using
 * Se ha corregido un problema que podía afectar a la notificación push cuando se enviaba con una frecuencia alta. (NEO-20516)
 * Se ha corregido un problema que ocasionaba que los datos de seguimiento incluyeran duplicados aunque los registros de seguimiento no lo hicieran. (NEO-20040)
 * Se ha corregido un problema que hacía que se enviaran correos electrónicos transaccionales en duplicado después de que se corrigiera un error de comunicación del servidor de seguimiento. (NEO-23640)
-* Se ha corregido un problema que eliminaba el valor del parámetro de codificación al redirigir desde una URL de seguimiento (afectaba a los caracteres japoneses). (NEO-25637)
+* Se ha corregido el problema que eliminaba el valor del parámetro de codificación al redirigir desde una URL de seguimiento (impacto en los caracteres japoneses). (NEO-25637)
 * Se ha corregido un problema que podía impedir que una consulta funcionara al comparar números flotantes. (NEO-23243)
 * Se ha corregido un problema que podía impedir que se mostrara el contenido de la columna **Modificado por** después de reiniciar un flujo de trabajo. (NEO-23035)
 * Se ha corregido un problema que ocasionaba que fallara el flujo de trabajo técnico de seguimiento al descargar registros de un segundo contenedor. (NEO-23159)
@@ -265,7 +266,7 @@ Hay un ejemplo para Linux disponible en esta [página](../../configuration/using
 * Se ha corregido un problema con campos de almacenamiento adicionales al crear envíos a través de la opción **Calculado por un script** en la actividad de flujo de trabajo **Script**. (NEO-20609)
 * Se ha corregido un problema que impedía que se eliminaran flujos de trabajo fantasma en las tareas de limpieza de la base de datos.
 * Se ha corregido un problema que provocaba que fallara el flujo de trabajo técnico de **Facturación (perfiles activos)**. (NEO-19777)
-* Se ha corregido un problema de regresión al utilizar la función de conector ACS que impedía la conexión a una instancia de Campaign Standard (administración incorrecta de la conexión FOH/FOH2). (NEO-23433)
+* Se ha corregido un problema de regresión al utilizar la función del conector de ACS que impedía la conexión a una instancia de Campaign Standard (administración incorrecta de la conexión FOH/FOH2). (NEO-23433)
 * Se ha corregido un problema que impedía crear una extensión de esquema en una clave principal con varias columnas con una tabla Hadoop. (NEO-17390)
 * Se ha corregido un problema en la actividad **Cargar (SOAP)** que podía impedir que los archivos WSDL se cargaran desde una dirección URL. (NEO-16924)
 * Se ha corregido un problema que impedía realizar una **Parada incondicional** a través de la consola cuando se equilibraba la carga de varios servidores de flujo de trabajo activos. (NEO-19556)
@@ -279,7 +280,7 @@ Hay un ejemplo para Linux disponible en esta [página](../../configuration/using
 * Se ha corregido un problema que podía mostrar un mensaje de error al hacer clic en un enlace de aplicación web dentro de un mensaje de línea.
 * Se ha corregido un problema que eliminaba el historial de actividades de **Consulta incremental** después de ejecutar el flujo de trabajo de limpieza.
 * Se ha corregido un problema al crear una cuenta externa intermediaria en el cual faltaba la opción NmsMidSourcing_LastBroadLog_&lt;InternalName>..
-* Se ha corregido un problema de regresión en la conexión de base de datos que provocaba que el servidor web se reiniciara constantemente debido a un problema de codificación de la base de datos. Esto podría conducir a un consumo excesivo. (NEO-23264)
+* Se ha corregido un problema de regresión en la conexión de la base de datos que provocaba que el servidor web se reiniciara constantemente debido a un problema de codificación de la base de datos. Esto podría causar un consumo excesivo. (NEO-23264)
 
 
 
