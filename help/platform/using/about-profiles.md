@@ -14,11 +14,11 @@ discoiquuid: 5addada8-0185-488f-9825-83f60981c139
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 762a6ba3fdad9c30407bf807f2cd8076796f98c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '944'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ Los perfiles activos son los perfiles que se toman en cuenta con fines de factur
 >
 >Si está alojado en AWS y utiliza Campaign Classic desde la compilación 8931, también puede supervisar el número de perfiles activos utilizados en las instancias directamente desde el Panel de control de Campaign. Para obtener más información, consulte la [documentación del Panel de control de Campaign](https://docs.adobe.com/content/help/es-ES/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 >
->Tenga en cuenta que el recuento de perfiles activos solo está disponible para las instancias **de Marketing** . No está disponible para Instancias de ejecución, es decir, instancias de MID (fuentes intermedias) y RT (mensajería en tiempo real/centro de mensajes).
+>Tenga en cuenta que el recuento de perfiles activos solo está disponible para las **instancias de Marketing**. No está disponible para Instancias de ejecución, es decir, instancias de MID (fuentes intermedias) y RT (mensajería en tiempo real/centro de mensajes).
 
 Un “**perfil**” es un registro de información (por ejemplo, un registro de la tabla nmsRecipient o una tabla externa que contiene una ID de cookie, ID de cliente, ID móvil u otra información relacionada con un canal determinado) que representa a un cliente final, a un cliente potencial o a un contacto.
 
@@ -121,7 +121,7 @@ Obtenga información sobre cómo acceder a los datos de perfiles, ordenar y filt
 
 Este vídeo también explica la conformidad de Adobe Campaign Classic con las Regulaciones Generales de Protección de Datos.
 
->[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12&captions=spa)
 
 **Consulte también**
 
