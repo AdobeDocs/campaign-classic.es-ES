@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ac2d993f525eb918ad5e15104eb3ede9eeadfb43
+source-git-commit: 7f7b53f0a7ec0f50bf3a99314606272b8ebdc8d7
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
@@ -35,7 +35,7 @@ A partir de Campaign Classic 19.2, se asocia un estado a cada versión. A contin
 
 ![](assets/do-not-localize/green3.png) **Disponibilidad general**: última versión estable disponible. Compilación validada en producción.
 
-La **última compilación estable** es Gold Standard 6. Haga clic [aquí](../../rn/using/gold-standard.md)
+La **última compilación estable** es Gold Standard 10. Haga clic [aquí](../../rn/using/gold-standard.md#gs-10)
 
 ![](assets/do-not-localize/limited3.png) **Disponibilidad** limitada: la compilación se está realizando en la fase de validación de producción. Solo implementación bajo demanda.
 
@@ -49,7 +49,7 @@ La **última compilación estable** es Gold Standard 6. Haga clic [aquí](../../
 
 Como cliente alojado (servicio administrado o híbrido), debe ponerse en contacto con el equipo de servicio de atención al cliente para que se actualice su entorno.
 
-Como usuario de Gold Standard, se beneficiará automáticamente de la actualización de Gold Standard con la última versión estable sin ninguna acción. [Más información](https://helpx.adobe.com/es/campaign/kb/gold-standard.html#gs-6)
+Como usuario de Gold Standard, se beneficiará automáticamente de la actualización de Gold Standard con la última versión estable sin ninguna acción. [Más información](https://helpx.adobe.com/es/campaign/kb/gold-standard.html#gs-10)
 
 Como usuario local, puede realizar la actualización. Para ello, debe [descargar la última versión estable](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) y actualizar todos sus entornos. Obtenga más información sobre el [proceso de actualización](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) y consulte las [preguntas frecuentes sobre la actualización de la compilación](https://helpx.adobe.com/es/campaign/kb/build-upgrade-faq.html).
 
