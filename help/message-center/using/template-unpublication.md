@@ -14,11 +14,11 @@ discoiquuid: 43908738-a71a-49be-ac00-175f57a0555c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 71aeeda3edafc64dbe696ce6f344b8b0ccdc43d1
-workflow-type: ht
-source-wordcount: '205'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b9577d190f26e21f116d99d48fdf2bca84585d50
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 96%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 100%
 # Cancelación de publicación de una plantilla{#template-unpublication}
 
 Una vez publicada una plantilla de mensaje en las instancias de ejecución, se puede cancelar su publicación.
+
+>[!NOTE]
+>
+>Esta funcionalidad está disponible a partir de la versión 20.2 de la Campaña.
 
 De hecho, todavía se puede consultar una plantilla publicada. Por lo tanto, si ya no utiliza una plantilla de mensaje, se recomienda cancelar la publicación. Esto es para evitar enviar un mensaje transaccional no deseado por error. Por ejemplo, ha publicado una plantilla de mensaje que solo utiliza para campañas de Navidad. Tal vez quiera cancelar la publicación después de que termine el período de Navidad y publicarla nuevamente el año que viene.
 
