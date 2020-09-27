@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 700cd82d87eccf6579afab5c9e8f7945807817da
+source-git-commit: 546c8f14006e333bb81aa52a008e9f1dfa79f03b
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 84%
@@ -21,9 +21,9 @@ ht-degree: 84%
 ---
 
 
-# Get started with workflows{#about-workflows}
+# Get started with workflows{#gs-workflows}
 
-## Acerca de los flujos de trabajo
+## Acerca de los flujos de trabajo{#about-workflows}
 
 Adobe Campaign incluye un módulo de flujos de trabajo que permite organizar la gama completa de procesos y tareas en los distintos módulos del servidor de aplicaciones. Este entorno gráfico completo permite diseñar procesos, incluso la segmentación, la ejecución de campañas, el procesamiento de archivos, la participación humana, etc. El motor de flujo de trabajo se ejecuta y rastrea estos procesos.
 
@@ -73,7 +73,7 @@ Cada flujo de trabajo contiene:
 
    Para obtener más información sobre los datos y las tablas de flujos de trabajo, consulte [esta sección](../../workflow/using/how-to-use-workflow-data.md).
 
-## Principios fundamentales y prácticas recomendadas
+## Principios fundamentales y prácticas recomendadas{#principles-workflows}
 
 Consulte estas secciones para obtener instrucciones y optimizaciones para automatizar procesos con flujos de trabajo:
 
