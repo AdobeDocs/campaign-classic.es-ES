@@ -1,6 +1,6 @@
 ---
 title: Directrices de monitorización
-description: Esta sección presenta las directrices generales para la monitorización del Campaign Classic.
+description: Descubra las directrices y las prácticas recomendadas para supervisar los procesos e instancias de Campaña.
 page-status-flag: never-activated
 uuid: cf0d782d-47bf-40ae-ab6f-d1d47fa15792
 contentOwner: sauviat
@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '712'
 ht-degree: 9%
 
 ---
@@ -90,7 +90,7 @@ Las siguientes directrices y prácticas recomendadas al usar flujos de trabajo p
 * [Prácticas recomendadas al utilizar flujos de trabajo](../../workflow/using/workflow-best-practices.md)
 * [Control de la ejecución del flujo de trabajo](../../workflow/using/monitoring-workflow-execution.md)
 
-### Seguimiento de entregas {#monitoring-deliveries}
+### Seguimiento de envíos {#monitoring-deliveries}
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
@@ -103,9 +103,9 @@ Los informes SMTP muestran estadísticas de envío y errores SMTP por dominio. [
 [Las prácticas recomendadas para enviar y diseñar](../../delivery/using/delivery-best-practices.md) envíos pueden ayudarle a mejorar su rendimiento.
 
 **Solución de problemas** de envío Se pueden realizar acciones específicas al encontrar problemas con envíos:
-* [Problemas de capacidad de entrega](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
+* [Problemas con entregas](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [Problemas de visualización de imágenes](../../production/using/image-display-issues.md)
-* [Problemas de rendimiento de envío](../../delivery/using/monitoring-a-delivery.md#performance_issues)
+* [Problemas de rendimiento de envíos](../../delivery/using/monitoring-a-delivery.md#performance_issues)
 * [Problemas](../../production/using/temporary-files.md) de archivos temporales: solo modelos de alojamiento *in situ*
 
 ### Supervisión de la base de datos {#monitoring-database}
