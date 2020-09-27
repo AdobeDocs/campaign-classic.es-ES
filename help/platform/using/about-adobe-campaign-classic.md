@@ -1,7 +1,7 @@
 ---
 title: Acerca de Adobe Campaign Classic
 seo-title: Acerca de Adobe Campaign Classic
-description: Acerca de Adobe Campaign Classic
+description: Descubra las funciones clave, la interfaz de usuario y las directrices globales.
 seo-description: null
 page-status-flag: never-activated
 uuid: 2d0160fa-8328-4ff9-ab91-56e4058f8a99
@@ -14,16 +14,16 @@ discoiquuid: a2b43311-737c-4a3b-a6af-1788879f9414
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 63f07746d39fff22a98b3cd4ab7f2294da778ab3
-workflow-type: ht
-source-wordcount: '878'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+workflow-type: tm+mt
+source-wordcount: '883'
+ht-degree: 98%
 
 ---
 
 
-# Acerca de Adobe Campaign Classic{#about-adobe-campaign-classic}
+# Get Started with Campaign Classic{#about-adobe-campaign-classic}
 
 Para conseguir un alto nivel de interés del cliente y experiencias relevantes, las marcas deben crear interacciones consistentes en todos los puntos de contacto. Los especialistas en marketing pueden diseñar, planificar, ejecutar, gestionar y optimizar de forma eficaz campañas de marketing a través de diversos canales, que ofrecen una alta rentabilidad en la inversión en marketing e impulsan la lealtad.
 
