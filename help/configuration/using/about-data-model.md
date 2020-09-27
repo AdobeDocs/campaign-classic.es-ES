@@ -1,6 +1,6 @@
 ---
 title: Acerca del modelo de datos de Adobe Campaign Classic
-description: Este documento describe los conceptos básicos del modelo de datos de Adobe Campaign Classic.
+description: Obtenga información sobre cómo ampliar el modelo de datos de Campaña, editar esquemas, utilizar API y mucho más.
 page-status-flag: never-activated
 uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
 contentOwner: sauviat
@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 580be39d09bd59770d490945c3ba2b29e12fb3c4
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '971'
 ht-degree: 7%
 
 ---
@@ -37,19 +37,19 @@ La estructura física y lógica de los datos que se llevan en la aplicación se 
 
 ## Información general {#data-model-overview}
 
-Adobe Campaign se basa en una base de datos relacional que contiene tablas vinculadas entre sí. La estructura básica del modelo de datos de Adobe Campaign puede describirse de la siguiente manera.
+Adobe Campaign se basa en una base de datos relacional que contiene tablas vinculadas entre sí. La estructura básica del modelo de datos de Adobe Campaign se puede describir de la siguiente manera.
 
 >[!NOTE]
 >
 >Para obtener más información sobre la arquitectura del modelo de datos de Campaña y las optimizaciones relacionadas, consulte [esta sección](../../configuration/using/data-model-best-practices.md#data-model-architecture).
 
-### Tabla de Destinatarios {#recipient-table}
+### Tabla de destinatarios {#recipient-table}
 
 El modelo de datos se basa en una tabla principal que, de forma predeterminada, es la tabla de Destinatario (**NmsRecipient**). Esta tabla permite almacenar todos los perfiles de mercadotecnia.
 
 Para obtener más información sobre la tabla de Destinatarios, consulte [esta sección](#default-recipient-table).
 
-### Tabla de Envíos {#delivery-table}
+### Tabla de envíos {#delivery-table}
 
 El modelo de datos también incluye una parte dedicada a almacenar todas las actividades de mercadotecnia. Normalmente es la tabla de Envío (**NmsDelivery**). Cada registro de esta tabla representa una acción de envío o una Plantilla de envíos. Contiene todos los parámetros necesarios para realizar envíos como destinatario, contenido, etc.
 
@@ -59,7 +59,7 @@ Otra parte del modelo de datos permite almacenar temporalmente todos los registr
 
 Registros de envío son todos mensajes enviados a destinatarios o dispositivos en todos los canales. La tabla de Registros de envío principal (**NmsBroadLog**) contiene los registros de envío de todos los destinatarios.
 La tabla de Registros de seguimiento principal (**NmsTrackingLog**) almacena los registros de seguimiento de todos los destinatarios. Los registros de seguimiento se refieren a las reacciones de destinatarios, como aperturas de correo electrónico y clics. Cada reacción corresponde a un registro de seguimiento.
-Los Registros de envío y registros de seguimiento se eliminan después de un período determinado, que se especifica en Adobe Campaign y se puede modificar. Por lo tanto, se recomienda encarecidamente exportar los registros periódicamente.
+Los registros de envío y registros de seguimiento se eliminan después de un período determinado, que se especifica en Adobe Campaign y se puede modificar. Por lo tanto, se recomienda encarecidamente exportar los registros periódicamente.
 
 ### Tablas técnicas {#technical-tables}
 
@@ -105,7 +105,7 @@ Para obtener más información sobre la configuración de esquemas de extensión
 
 Al diseñar el modelo de datos de Adobe Campaign, puede utilizar la tabla [de Destinatarios](#default-recipient-table)lista para usar o decidir crear una tabla de destinatarios no estándar para almacenar sus perfiles de mercadotecnia.
 
-De hecho, si el modelo de datos no se ajusta a la estructura centrada en el destinatario, puede configurar otras tablas como la dimensión de segmentación dentro del Adobe Campaign. Por ejemplo, esto puede ser relevante cuando se necesita el destinatario de hogares, cuentas (como teléfonos móviles) y compañías/sitios en lugar de simplemente destinatarios.
+De hecho, si el modelo de datos no se ajusta a la estructura centrada en el destinatario, puede configurar otras tablas como la dimensión de segmentación dentro de Adobe Campaign. Por ejemplo, esto puede ser relevante cuando se necesita el destinatario de hogares, cuentas (como teléfonos móviles) y compañías/sitios en lugar de simplemente destinatarios.
 
 >[!NOTE]
 >
