@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+source-git-commit: 700cd82d87eccf6579afab5c9e8f7945807817da
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 84%
@@ -82,5 +82,5 @@ Consulte estas secciones para obtener instrucciones y optimizaciones para automa
 * Descubra cómo utilizar flujos de trabajo para importar datos en Campaña en [esta sección](../../workflow/using/importing-data.md).
 * Las optimizaciones del flujo de trabajo se detallan en [esta página](../../workflow/using/workflow-best-practices.md).
 * Encontrará instrucciones sobre la ejecución del flujo de trabajo en [esta sección](../../workflow/using/starting-a-workflow.md).
-* Obtenga información sobre cómo supervisar flujos de trabajo en [esta página](../../workflow/using/monitoring-workflow-execution).
+* Obtenga información sobre cómo supervisar flujos de trabajo en [esta página](../../workflow/using/monitoring-workflow-execution.md).
 * Obtenga información sobre cómo conceder acceso a los usuarios para que utilicen flujos de trabajo en [esta página](../../workflow/using/managing-rights.md).
