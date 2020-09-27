@@ -9,10 +9,10 @@ product: adobe campaign
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 5e765777d79df28ae306d02512851b1b3f49018d
+source-git-commit: 546c8f14006e333bb81aa52a008e9f1dfa79f03b
 workflow-type: tm+mt
-source-wordcount: '2109'
-ht-degree: 99%
+source-wordcount: '2119'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 99%
       + [Matriz de compatibilidad](rn/using/compatibility-matrix.md)
 + Introducción {#getting-started}
    + Primeros pasos con Adobe Campaign {#starting-with-adobe-campaign}
-      + [Acerca de Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
+      + [Introducción a Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
       + [Privacidad y consentimiento](platform/using/privacy-and-recommendations.md)
       + [Ejecutar Adobe Campaign](platform/using/launching-adobe-campaign.md)
       + [Espacio de trabajo de Adobe Campaign](platform/using/adobe-campaign-workspace.md)
@@ -266,7 +266,7 @@ ht-degree: 99%
       + [Ejemplo de uso: Visualización del informe de las respuestas a una encuesta online](reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
 + Diseño de contenido web {#designing-content}
    + Aplicaciones web {#web-applications}
-      + [Acerca de las aplicaciones web](web/using/about-web-applications.md)
+      + [Introducción a las aplicaciones web](web/using/about-web-applications.md)
       + [Creación de una nueva aplicación web](web/using/creating-a-new-web-application.md)
       + [Diseño de una aplicación web](web/using/designing-a-web-application.md)
       + [Ejemplos de uso: creación de descripciones generales](web/using/use-cases--creating-overviews.md)
@@ -342,7 +342,7 @@ ht-degree: 99%
       + [Solución de problemas de canalización](integrations/using/pipeline-troubleshooting.md)
 + Automatización con flujos de trabajo {#automating-with-workflows}
    + Introducción {#introduction}
-      + [Acerca de los flujos de trabajo](workflow/using/about-workflows.md)
+      + [Introducción a los flujos de trabajo](workflow/using/about-workflows.md)
       + [Acerca de las actividades](workflow/using/about-activities.md)
    + Funcionamiento general {#general-operation}
       + [Creación de un flujo de trabajo](workflow/using/building-a-workflow.md)
@@ -478,7 +478,7 @@ ht-degree: 99%
       + [Transfer to Mid-sourcing](workflow/using/transfer-to-mid-sourcing.md)
       + [Mid-sourcing platform](workflow/using/mid-sourcing-platform.md)
 + Administración de ofertas {#managing-offers}
-   + Información general sobre la interacción {#interaction-overview}
+   + Get started with Interaction {#interaction-overview}
       + [Interacción y gestión de ofertas](interaction/using/interaction-and-offer-management.md)
       + [Glosario](interaction/using/glossary.md)
       + [Prácticas recomendadas de interacción](interaction/using/interaction-best-practices.md)
@@ -530,7 +530,7 @@ ht-degree: 99%
       + [Ofertas en un canal saliente](interaction/using/offers-on-an-outbound-channel.md)
 + Mensajería transaccional {#transactional-messaging}
    + Introducción {#introduction}
-      + [Acerca de la mensajería transaccional](message-center/using/about-transactional-messaging.md)
+      + [Introducción a la mensajería transaccional](message-center/using/about-transactional-messaging.md)
       + [Arquitectura de mensajería transaccional](message-center/using/transactional-messaging-architecture.md)
       + [Descripción del evento](message-center/using/event-description.md)
    + Configuración de instancia {#instance-configuration}
