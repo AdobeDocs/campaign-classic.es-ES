@@ -1,8 +1,6 @@
 ---
 title: Acerca de la mensajería transaccional
-seo-title: Acerca de la mensajería transaccional
-description: Acerca de la mensajería transaccional
-seo-description: null
+description: 'Enviar mensajes desencadenadores basados en eventos generados a partir de sistemas de información. '
 page-status-flag: never-activated
 uuid: c854daac-8756-44f3-a4e2-be31177ab9d1
 contentOwner: sauviat
@@ -14,11 +12,11 @@ discoiquuid: 97df4bd5-a8e3-48f4-87c8-fa090ea3f771
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f4ecdab4c17a6ba8deb3b98079f57bb7a9adf4a0
-workflow-type: ht
-source-wordcount: '160'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 93%
 
 ---
 
