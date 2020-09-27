@@ -1,8 +1,6 @@
 ---
 title: Acerca de los flujos de trabajo
-seo-title: Acerca de los flujos de trabajo
-description: Acerca de los flujos de trabajo
-seo-description: null
+description: Automatice los procesos con flujos de trabajo, administre datos y audiencias, envíe mensajes y mucho más.
 page-status-flag: never-activated
 uuid: 19adb0e5-042d-47a0-9f92-24e4b3045dbe
 contentOwner: sauviat
@@ -14,13 +12,18 @@ discoiquuid: 868940d1-f19d-4e9a-bffa-8654abb4441c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+translation-type: tm+mt
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+workflow-type: tm+mt
+source-wordcount: '668'
+ht-degree: 84%
 
 ---
 
 
-# Acerca de los flujos de trabajo{#about-workflows}
+# Get started with workflows{#about-workflows}
+
+## Acerca de los flujos de trabajo
 
 Adobe Campaign incluye un módulo de flujos de trabajo que permite organizar la gama completa de procesos y tareas en los distintos módulos del servidor de aplicaciones. Este entorno gráfico completo permite diseñar procesos, incluso la segmentación, la ejecución de campañas, el procesamiento de archivos, la participación humana, etc. El motor de flujo de trabajo se ejecuta y rastrea estos procesos.
 
@@ -44,7 +47,7 @@ La plantilla de flujo de trabajo describe las diversas tareas que se realizan y 
 
 Cada flujo de trabajo contiene:
 
-* **[!UICONTROL Actividades]**
+* **[!UICONTROL Activities]**
 
    Una actividad describe una plantilla de tarea. Las distintas actividades disponibles se representan en el diagrama mediante iconos. Cada tipo tiene propiedades comunes y propiedades específicas. Por ejemplo, mientras que todas las actividades tienen un nombre y una etiqueta, solo la actividad **[!UICONTROL Approval]** tiene una asignación.
 
@@ -52,7 +55,7 @@ Cada flujo de trabajo contiene:
 
    Todas las actividades de flujo de trabajo se enumeran en [esta sección](../../workflow/using/about-activities.md), incluidos los ejemplos de uso y las muestras.
 
-* **[!UICONTROL Transiciones]**
+* **[!UICONTROL Transitions]**
 
    Las transiciones permiten vincular actividades y definir su secuencia. Una transición vincula una actividad de origen a una actividad de destino. Existen varios tipos de transiciones que dependen de la actividad de origen. Algunas transiciones tienen parámetros adicionales, como una duración, una condición o un filtro.
 
@@ -64,9 +67,20 @@ Cada flujo de trabajo contiene:
 
    Para obtener más información sobre la creación de flujos de trabajo, consulte [esta sección](../../workflow/using/building-a-workflow.md).
 
-* **[!UICONTROL Tablas de trabajo]**
+* **[!UICONTROL Worktables]**
 
    La tabla de trabajo contiene toda la información que transmite la transición. Cada flujo de trabajo utiliza varias tablas de trabajo. Los datos transmitidos en estas tablas pueden acelerarse y utilizarse en todo el ciclo de vida del flujo de trabajo, siempre y cuando no se depure. De hecho, las tablas innecesarias se depuran cada vez que se desactiva el flujo de trabajo y posiblemente durante la ejecución de los flujos de trabajo más grandes para evitar sobrecargar el servidor.
 
    Para obtener más información sobre los datos y las tablas de flujos de trabajo, consulte [esta sección](../../workflow/using/how-to-use-workflow-data.md).
 
+## Principios fundamentales y prácticas recomendadas
+
+Consulte estas secciones para obtener instrucciones y optimizaciones para automatizar procesos con flujos de trabajo:
+
+* Obtenga más información sobre las actividades de flujo de trabajo en [esta página](../../workflow/using/how-to-use-workflow-data.md).
+* Obtenga información sobre cómo crear un flujo de trabajo en [esta sección](../../workflow/using/building-a-workflow.md).
+* Descubra cómo utilizar flujos de trabajo para importar datos en Campaña en [esta sección](../../workflow/using/importing-data.md).
+* Las optimizaciones del flujo de trabajo se detallan en [esta página](../../workflow/using/workflow-best-practices.md).
+* Encontrará instrucciones sobre la ejecución del flujo de trabajo en [esta sección](../../workflow/using/starting-a-workflow.md).
+* Obtenga información sobre cómo supervisar flujos de trabajo en [esta página](../../workflow/using/monitoring-workflow-execution).
+* Obtenga información sobre cómo conceder acceso a los usuarios para que utilicen flujos de trabajo en [esta página](../../workflow/using/managing-rights.md).
