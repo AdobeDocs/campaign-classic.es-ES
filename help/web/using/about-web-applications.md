@@ -1,8 +1,6 @@
 ---
 title: Acerca de las aplicaciones web
-seo-title: Acerca de las aplicaciones web
-description: Acerca de las aplicaciones web
-seo-description: null
+description: Cree y comparta Aplicaciones web, páginas de aterrizaje y encuestas dinámicas.
 page-status-flag: never-activated
 uuid: acfa6e5e-b503-4a1a-871e-e70007874f57
 contentOwner: sauviat
@@ -14,16 +12,16 @@ discoiquuid: 3af763ad-6b0d-4f4c-aed1-c5e12efd4760
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1667dd0c8a38db0e554c59062cbcc5b6c6d992bb
-workflow-type: ht
-source-wordcount: '681'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+workflow-type: tm+mt
+source-wordcount: '687'
+ht-degree: 97%
 
 ---
 
 
-# Acerca de las aplicaciones web{#about-web-applications}
+# Introducción a las aplicaciones web{#about-web-applications}
 
 Adobe Campaign permite crear y publicar aplicaciones web dinámicas e interactivas con información de la base de datos y contenido adaptado a los derechos del usuario conectado.
 
