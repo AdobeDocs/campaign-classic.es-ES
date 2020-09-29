@@ -14,9 +14,9 @@ discoiquuid: e68d1435-70e6-479e-a347-9ff9f9f11b92
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 811d664807776473790b74c4cb6a672b5ca2bdd8
+workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 Los bloques personalizados son dinámicos, personalizados y contienen un procesamiento específico que puede insertar en las entregas. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un vínculo a una página espejo. Consulte [Inserción de bloques de personalización](#inserting-personalization-blocks).
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#personalization-blocks-video)
+![](assets/do-not-localize/how-to-video.png)[ Descubra esta función en vídeo](#personalization-blocks-video)
 
 Se puede acceder a los bloques personalizados mediante el nodo **[!UICONTROL Resources > Campaign Management > Personalization blocks]** del explorador de Adobe Campaign. Hay varios bloques disponibles de forma predeterminada (consulte [Bloques de personalización predeterminados](#out-of-the-box-personalization-blocks)).
 
@@ -166,4 +166,4 @@ Para crear un bloque personalizado, vaya al explorador y aplique los pasos sigui
 
 Descubra cómo se crearon los bloques de contenido dinámico y cómo se utilizan para personalizar el contenido de su envío de correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
