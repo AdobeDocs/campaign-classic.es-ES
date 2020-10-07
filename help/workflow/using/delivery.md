@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 9fd7122e-22c7-4f9a-a2a4-5de3daaa3c2e
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 366d2149933fa68dfec2a732d1014e1875709cff
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '912'
+ht-degree: 100%
 
 ---
 
@@ -87,6 +87,7 @@ Para configurarlo, edite la actividad e introduzca las opciones de entrega.
    * **[!UICONTROL Prepare]**: esta opción permite ejecutar el proceso de análisis completo (cálculo del objetivo y preparación de contenido). No se manda la entrega. Esta acción equivale a seleccionar la opción **[!UICONTROL Deliver as soon as possible]** y hacer clic en **[!UICONTROL Analyze]** al enviar una entrega al objetivo principal mediante **Delivery**.
    * **[!UICONTROL Send a proof]**: esta opción permite enviar una prueba de la entrega. Esta acción equivale a hacer clic en el botón **[!UICONTROL Send a proof]** de la barra de herramientas de una entrega con **Delivery**.
    * **[!UICONTROL Prepare and start]**: esta opción inicia el proceso de análisis completo (cálculo del objetivo y preparación de contenido) y realiza la entrega. Esta acción equivale a hacer clic en las opciones **[!UICONTROL Deliver as soon as possible]**, **[!UICONTROL Analyze]** y **[!UICONTROL Confirm delivery]** al mandar una envío al objetivo principal con **Delivery**.
+
    La actividad **[!UICONTROL Act on a delivery]** utilizada en el flujo de trabajo permite iniciar todos los pasos restantes necesarios para comenzar la entrega (cálculo del objetivo, preparación de contenido, entrega). Para obtener más información, consulte [Control de envíos](../../workflow/using/delivery-control.md).
 
    Las siguientes opciones también están disponibles:
