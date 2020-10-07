@@ -11,11 +11,11 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 discoiquuid: 30e3082f-a367-4c3b-bff2-208ccf97acd4
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '670'
+ht-degree: 2%
 
 ---
 
@@ -26,13 +26,13 @@ source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 Según la configuración, existen varias formas de realizar pruebas de migración.
 
-Debe tener un entorno de prueba/desarrollo para realizar pruebas de migración. Los entornos de desarrollo están sujetos a licencia: compruebe su contrato de licencia o póngase en contacto con el servicio de ventas de Adobe Campaign.
+Debe tener un entorno de prueba/desarrollo para realizar pruebas de migración. Los entornos de desarrollo están sujetos a licencia: consulte su contrato de licencia o póngase en contacto con el servicio de ventas de Adobe Campaign.
 
-1. Detener todos los avances en curso y trasladarlos al entorno de producción.
-1. Realice una copia de seguridad de la base de datos del entorno de desarrollo.
+1. Detener todos los acontecimientos en curso y llevarlos al entorno de producción.
+1. Realice una copia de seguridad de la base de datos de entorno de desarrollo.
 1. Detenga todos los procesos de Adobe Campaign en la instancia de desarrollo.
-1. Realice un backup de la base de datos del entorno de producción y restauítela como entorno de desarrollo.
-1. Antes de iniciar los servicios de Adobe Campaign, ejecute la secuencia de comandos de **cauterización &quot;congelarInstance.js** &quot;, que permite borrar la base de datos de cualquier objeto que se ejecutara cuando se inició la copia de seguridad.
+1. Realice una copia de seguridad de la base de datos de entorno de producción y restauítela como entorno de desarrollo.
+1. Antes de iniciar los servicios de Adobe Campaign, ejecute la secuencia de comandos de **cauterización de congelaciónInstance.js** , que permite borrar la base de datos de cualquier objeto que se ejecutara cuando se inició la copia de seguridad.
 
    ```
    nlserver javascript nms:freezeInstance.js -instance:<instance> -arg:<run|dry>
@@ -40,7 +40,7 @@ Debe tener un entorno de prueba/desarrollo para realizar pruebas de migración. 
 
    >[!NOTE]
    >
-   >El comando se inicia de forma predeterminada en modo **seco** y enumera todas las solicitudes ejecutadas por ese comando, sin iniciarlas. Para ejecutar solicitudes de cauterización, utilice **ejecutar** en el comando.
+   >El comando se inicia de forma predeterminada en modo **seco** y lista todas las solicitudes ejecutadas por ese comando, sin iniciarlas. Para ejecutar solicitudes de cauterización, utilice **ejecutar** en el comando.
 
 1. Asegúrese de que las copias de seguridad sean correctas, intentando restaurarlas. Asegúrese de tener acceso a la base de datos, las tablas, los datos, etc.
 1. Pruebe el procedimiento de migración en el entorno de desarrollo.
@@ -51,11 +51,11 @@ Debe tener un entorno de prueba/desarrollo para realizar pruebas de migración. 
 
 >[!IMPORTANT]
 >
->Debido a los cambios realizados en la estructura de datos, no es posible importar y exportar paquetes de datos entre una plataforma v5 y una plataforma v7.
+>Debido a los cambios realizados en la estructura de datos, no es posible importar ni exportar paquetes de datos entre una plataforma v5 y una plataforma v7.
 
 >[!NOTE]
 >
->El comando de actualización de Adobe Campaign (**posterior a la actualización**) le permite sincronizar recursos y actualizar esquemas y la base de datos. Esta operación solo se puede realizar una vez y solo en el servidor de aplicaciones. Después de sincronizar los recursos, el comando **postupgrade** permite detectar si la sincronización genera errores o advertencias.
+>El comando de actualización de Adobe Campaign (**después de la actualización**) le permite sincronizar recursos y actualizar esquemas y la base de datos. Esta operación solo se puede realizar una vez y solo en el servidor de aplicaciones. Después de sincronizar los recursos, el comando **postupgrade** permite detectar si la sincronización genera errores o advertencias.
 
 ## Herramientas de migración {#migration-tools}
 
@@ -67,7 +67,7 @@ Varias opciones permiten medir el impacto de una migración e identificar los pr
    nlserver.exe config <option> -instance:<instanceName>
    ```
 
-* o en la posactualización:
+* o en el período posterior a la actualización:
 
    ```
    nlserver.exe config -postupgrade <option> -instance:<instanceName>
@@ -75,7 +75,7 @@ Varias opciones permiten medir el impacto de una migración e identificar los pr
 
 >[!NOTE]
 >
->**Debe usar la`<instanceame>`**-instancia: , seleccione una opción. No se recomienda utilizar la opción**-todas las instancias **.
+>Debe usar la **-instancia:`<instanceame>`** , seleccione una opción. No se recomienda utilizar la opción **-todas las instancias** .
 
 ### Opciones -showCustomEntities y -showDeletedEntities {#showcustomentities-and--showdeletedentities-options}
 
@@ -105,9 +105,9 @@ Varias opciones permiten medir el impacto de una migración e identificar los pr
 
 ### Proceso de verificación {#verification-process}
 
-Integrado como estándar en el comando post-upgrade, este proceso le permite mostrar advertencias y errores que podrían provocar errores en la migración. **Si se muestran errores, la migración no se ha ejecutado.** Si esto sucede, corrija todos los errores y vuelva a iniciar la posactualización.
+Integrado como estándar en el comando post-upgrade, este proceso le permite mostrar advertencias y errores que podrían provocar errores en la migración. **Si se muestran errores, la migración no se ha ejecutado.** Si esto sucede, corrija todos los errores y vuelva a realizar el inicio posterior a la actualización.
 
-Puede iniciar el proceso de verificación por su cuenta (sin migración) mediante el comando:
+Puede realizar el inicio del proceso de verificación por sí mismo (sin migración) mediante el comando:
 
 ```
 nlserver.exe config -postupgrade -check -instance:<instanceName>
@@ -117,7 +117,7 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
 >
 >Ignore todas las advertencias y errores que tengan el código JST-310040.
 
-Se buscan las expresiones siguientes (distinguen entre mayúsculas y minúsculas):
+Se buscan las siguientes expresiones (distinguen entre mayúsculas y minúsculas):
 
 <table> 
  <thead> 
@@ -133,7 +133,7 @@ Se buscan las expresiones siguientes (distinguen entre mayúsculas y minúsculas
    <td> .@<br /> </td> 
    <td> PU-0001<br /> </td> 
    <td> Aviso<br /> </td> 
-   <td> Este tipo de sintaxis ya no se admite en la personalización de la entrega. Consulte <a href="../../migration/using/general-configurations.md#javascript" target="_blank">JavaScript</a>. De lo contrario, compruebe que el tipo de valor es correcto.<br /> </td> 
+   <td> Este tipo de sintaxis ya no se admite en la personalización de envío. Consulte <a href="../../migration/using/general-configurations.md#javascript" target="_blank">JavaScript</a>. De lo contrario, compruebe que el tipo de valor es correcto.<br /> </td> 
   </tr> 
   <tr> 
    <td> common.js<br /> </td> 
@@ -163,7 +163,7 @@ Se buscan las expresiones siguientes (distinguen entre mayúsculas y minúsculas
    <td> SQLDATA<br /> </td> 
    <td> PU-0006<br /> </td> 
    <td> Error<br /> </td> 
-   <td> Este tipo de error provoca un error de migración. Consulte <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. Si obtiene registros de errores de aplicación web de tipo información general (migración desde v6.02), consulte las aplicaciones <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank"></a>web.<br /> </td> 
+   <td> Este tipo de error provoca un error de migración. Consulte <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. Si obtiene registros de errores de aplicación web de tipo información general (migración desde v6.02), consulte <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Aplicaciones web</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
