@@ -9,12 +9,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 100%
 
@@ -33,7 +30,7 @@ A menos que se indique lo contrario, se admiten todas las versiones menores.
 
 Adobe Campaign Classic es compatible con todos los sistemas y herramientas enumerados en esta página. Cuando las versiones específicas de estos sistemas y herramientas de terceros llegan al final de su vida útil (EOL) con sus respectivos creadores, Adobe Campaign ya no es compatible con ellas y se eliminan de nuestra matriz de compatibilidades en la versión posterior del producto. Para evitar problemas, compruebe que se encuentra en una versión compatible de cualquier sistema enumerado en la matriz de compatibilidad.
 
-Para obtener más información sobre los elementos obsoletos, visite [esta página](../../rn/using/deprecated-features.md).
+Para obtener más información sobre los elementos obsoletos, consulte [esta página](../../rn/using/deprecated-features.md).
 
 ## Sistemas operativos{#OperatingSystems}
 
@@ -228,7 +225,7 @@ Se admiten los siguientes controladores RDBMS:
 <tr>
 <td>Oracle</td>
 <td>
-<p>11g </p>
+<p>11g  </p>
 <p>12c</p>
 <p>18c</p>
 </td>
