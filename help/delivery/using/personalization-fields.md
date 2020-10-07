@@ -11,12 +11,9 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 discoiquuid: 27c8e443-ee6b-4d58-bc2d-81cf8391c5de
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 6c5e11f24537d2956ade49fe0f4a8ffebdbbabcf
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 100%
 
@@ -130,4 +127,4 @@ Si establece esta opción en 0, no va a haber límite de tiempo para la fase de 
 
 Obtenga información sobre cómo agregar un campo de personalización a la línea de asunto y el contenido de un envío de correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
