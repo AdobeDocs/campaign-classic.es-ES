@@ -11,11 +11,11 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 discoiquuid: 8e52f927-dadd-44c8-a51d-f717bc083eef
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 36beb1eca48c698634c7548e0f931ab3fe17c021
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 90%
 
 ---
 
@@ -42,6 +42,7 @@ Las principales mejoras incluidas en esta versión son las siguientes:
    * **Tasa de conversión**: número de personas que han realizado todos los pasos de una ruta de navegación.
    * **Tasa de rechazo**: número de personas que solo han realizado el primer paso.
    * **Túnel de conversión**: tasa de pérdida entre cada paso.
+
    Además, un gráfico de tipo sectorial muestra la población según su origen.****
 
 ## Identificación del origen de tráfico {#identifying-the-traffic-source}
@@ -67,7 +68,7 @@ Para identificar el origen del tráfico en una aplicación web, Adobe Campaign e
 
 ## Aplicaciones web diseñadas con el editor de contenido (DCE) {#web-applications-designed-with-digital-content-editor--dce-}
 
-Cuando se crea una aplicación web con el editor de contenido HTML **DCE (Editor de contenido digital)**, las etiquetas de seguimiento se insertan desde la pestaña **[!UICONTROL Propiedades]** del editor. Para obtener más información sobre el editor de contenido (DCE), consulte [esta sección](../../web/using/about-campaign-html-editor.md).
+When a Web application is created using the HTML content editor - **Digital Content Editor (DCE)** - tracking tags are inserted from the **[!UICONTROL Properties]** tab of the editor. Para obtener más información sobre el editor de contenido (DCE), consulte [esta sección](../../web/using/about-campaign-html-editor.md).
 
 ![](assets/trackers_2.png)
 
@@ -75,7 +76,7 @@ Al utilizar la interfaz web, se deben insertar las etiquetas de seguimiento desd
 
 ![](assets/trackers_3.png)
 
-El icono **[!UICONTROL Mostrar bloques]** permite ver el número de etiquetas de seguimiento establecidas para la página.
+The **[!UICONTROL Display blocks]** icon lets you view the number of tracking tags defined for the page.
 
 ![](assets/trackers_4.png)
 
