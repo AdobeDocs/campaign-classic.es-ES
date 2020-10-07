@@ -11,11 +11,8 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 discoiquuid: f4b1c108-7f71-4aa1-8394-a7f660834c9c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2822'
 ht-degree: 0%
@@ -92,7 +89,7 @@ Para comprobar si ambos lados están en los mismos husos horarios:
 
 >[!IMPORTANT]
 >
->Por motivos de seguridad, la plataforma de Adobe Campaign ya no es accesible de forma predeterminada: debe configurar las zonas de seguridad y, por lo tanto, recopilar las direcciones IP del operador.
+>Por motivos de seguridad, la plataforma Adobe Campaign ya no es accesible de forma predeterminada: debe configurar las zonas de seguridad y, por lo tanto, recopilar las direcciones IP del operador.
 
 Adobe Campaign v7 incluye el concepto de zonas **de** seguridad. Cada usuario debe estar asociado con una zona para iniciar sesión en una instancia y la dirección IP del usuario debe incluirse en las direcciones o intervalos de direcciones definidos en la zona de seguridad. La configuración de las zonas de seguridad se puede realizar en el archivo de configuración del servidor de Adobe Campaign. La zona de seguridad a la que está asociado un usuario debe definirse en la consola (**[!UICONTROL Administration > Access management > Operators]**).
 
@@ -206,7 +203,7 @@ Adobe Campaign v7 integra un intérprete de JavaScript más reciente. Sin embarg
 
 La **[!UICONTROL myObject.@attribute]** sintaxis solo es válida para objetos XML. Esta sintaxis se puede utilizar para personalizar envíos y gestoras de contenido. Si ha utilizado este tipo de sintaxis en un objeto que no es XML, las funciones de personalización ya no funcionarán.
 
-Para todos los demás tipos de objetos, la sintaxis es ahora **[!UICONTROL myObject`[`&quot;attribute&quot;`]`]**. Por ejemplo, un objeto que no es XML que utiliza la sintaxis siguiente:**[!UICONTROL employee.@sn]**, ahora debe utilizar la siguiente sintaxis:**[!UICONTROL employee`[`&quot;sn&quot;`]`]**.
+Para todos los demás tipos de objetos, la sintaxis es ahora **[!UICONTROL myObject`[`&quot;attribute&quot;`]`]**. Por ejemplo, un objeto que no es XML que utiliza la sintaxis siguiente: **[!UICONTROL employee.@sn]**, ahora debe utilizar la siguiente sintaxis: **[!UICONTROL employee`[`&quot;sn&quot;`]`]**.
 
 * Sintaxis anterior:
 
@@ -254,7 +251,7 @@ Ya no puede utilizar un atributo XML como clave de tabla.
 
 ### SQLData {#sqldata}
 
-Para reforzar la seguridad de las instancias, se ha introducido una nueva sintaxis en Adobe Campaign v7 para reemplazar la sintaxis basada en SQLData. Si utiliza estos elementos de código con esta sintaxis, deberá modificarlos. Los principales elementos en cuestión son:
+Para reforzar la seguridad de la instancia, se ha introducido una nueva sintaxis en Adobe Campaign v7 para reemplazar la sintaxis basada en SQLData. Si utiliza estos elementos de código con esta sintaxis, deberá modificarlos. Los principales elementos en cuestión son:
 
 * Filtrado por subconsulta: la nueva sintaxis se basa en el `<subQuery>` elemento para definir una subconsulta
 * Agregados: la nueva sintaxis es &quot;acumulada function(collection)&quot;
@@ -344,7 +341,7 @@ A continuación encontrará ejemplos comparativos entre la sintaxis antigua y la
 
 **El acumulado**
 
-Función Acumulada (colección)
+Función acumulada (colección)
 
 * Sintaxis anterior:
 
@@ -454,13 +451,13 @@ La resolución de conflictos solo debe ser realizada por operadores avanzados y 
 
 Para resolver un conflicto, aplique el siguiente proceso:
 
-1. En la estructura del árbol de Adobes Campaign, coloque el cursor sobre **[!UICONTROL Administration > Configuration > Package management > Edit conflicts]**.
+1. En la estructura de árbol de Adobe Campaign, coloque el cursor sobre **[!UICONTROL Administration > Configuration > Package management > Edit conflicts]**.
 1. Seleccione el conflicto que desea resolver en la lista.
 
 Existen tres maneras posibles de resolver un conflicto:
 
 * **[!UICONTROL Declared as resolved]**:: requiere la intervención previa del operador.
-* **[!UICONTROL Accept the new version]**:: se recomienda si el usuario no ha cambiado los recursos proporcionados con Adobe Campaign.
+* **[!UICONTROL Accept the new version]**:: recomendado si el usuario no ha cambiado los recursos proporcionados con Adobe Campaign.
 * **[!UICONTROL Keep the current version]**:: significa que se rechaza la actualización.
 
    >[!IMPORTANT]
@@ -644,7 +641,7 @@ Al igual que para los informes (consulte [Informes](#reports)), si ha agregado J
 >[!NOTE]
 Los pasos para seleccionar el motor de procesamiento son los mismos que para seleccionar informes. Consulte Informes [personalizados](#personalized-reports).
 
-Los métodos de conexión de Aplicación web han cambiado en v7. Si encuentra algún problema de conexión en las aplicaciones web identificadas, debe activar temporalmente las opciones **allowUserPassword** y **sessionTokenOnly** en el archivo **serverConf.xml** . Después de la actualización, modifique los siguientes valores de opción:
+Los métodos de conexión de aplicación web han cambiado en v7. Si encuentra algún problema de conexión en las aplicaciones web identificadas, debe activar temporalmente las opciones **allowUserPassword** y **sessionTokenOnly** en el archivo **serverConf.xml** . Después de la actualización, modifique los siguientes valores de opción:
 
 ```
 allowUserPassword="true"
