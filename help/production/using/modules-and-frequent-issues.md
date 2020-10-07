@@ -11,11 +11,11 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: a44f5e71-3f9b-4d02-8b7a-a9782bb6bdd8
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 6%
 
 ---
 
@@ -66,17 +66,17 @@ Esta es una lista de los módulos afectados por problemas frecuentes:
   <tr> 
    <td> seguimiento </td> 
    <td> Consolidación y recuperación de registros de seguimiento<br /> </td> 
-   <td> Compruebe este módulo si los registros de seguimiento ya no se reenvían.<br /> </td> 
+   <td> Compruebe este módulo si ya no se reenvían registros de seguimiento.<br /> </td> 
   </tr> 
   <tr> 
    <td> trackinglogd </td> 
    <td> Seguimiento de la escritura y depuración del registro en el servidor<br /> </td> 
-   <td> Compruebe este módulo si los registros de seguimiento ya no se reenvían y no hay rastros de registros en los archivos del servidor. Consulte Problemas con los registros <a href="../../production/using/tracking-logs-issues.md" target="_blank">de seguimiento</a>.<br /> </td> 
+   <td> Compruebe este módulo si los registros de seguimiento ya no se reenvían y no hay rastros de registros en los archivos del servidor. Consulte los problemas <a href="../../production/using/tracking-logs-issues.md" target="_blank">de</a>Registros de seguimiento.<br /> </td> 
   </tr> 
   <tr> 
    <td> watchdog </td> 
    <td> Instancia de inicio y supervisión<br /> </td> 
-   <td> Compruebe este módulo si no se inicia ningún proceso.<br /> </td> 
+   <td> Compruebe este módulo si no se procesa el inicio.<br /> </td> 
   </tr> 
   <tr> 
    <td> web </td> 
