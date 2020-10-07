@@ -11,11 +11,8 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: b53d9810-f61f-4257-b410-e4d30f78429d
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: ffee73b949a77343eaf23d0fb9a58a4283f4f87a
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1617'
 ht-degree: 100%
@@ -124,6 +121,7 @@ Para añadir una colección de información enlazada a una población de destino
 
    * Si elige recuperar varias líneas (**[!UICONTROL Limit the line count]**), puede especificar el número de líneas que desea recopilar.
    * Si las columnas recopiladas contienen agregados, por ejemplo, el número de errores declarados, el gasto promedio en un sitio, etc., puede utilizar el valor **[!UICONTROL Aggregates]**.
+
    ![](assets/query_add_collection_param.png)
 
 1. Especifique la selección de la colección. Por ejemplo: solo compras durante los últimos 15 días.
@@ -148,6 +146,7 @@ En el siguiente ejemplo, la consulta busca identificar hombres de entre 18 y 30 
    * Destinatarios menores de 30 años.
    * Destinatarios mayores de 18 años.
    * Destinatarios que viven en Francia.
+
    ![](assets/query_example.png)
 
    Puede ver el SQL que coincide con su combinación de criterios:
@@ -231,6 +230,7 @@ Para obtener más información sobre dimensiones de filtrado, consulte [esta sec
    * Datos,
    * Aplicación,
    * Volúmenes.
+
    >[!NOTE]
    >
    >Es posible que una función que funciona en un entorno de desarrollo no funcione en un entorno de producción en el que los datos puedan ser diferentes. Intente identificar las principales diferencias para anticipar los riesgos y preparar soluciones.
