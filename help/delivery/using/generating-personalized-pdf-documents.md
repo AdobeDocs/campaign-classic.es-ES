@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 discoiquuid: 8dfc5e7c-c762-46ba-bbda-a7251354cb47
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 92%
 
 ---
 
@@ -30,7 +30,7 @@ Se admiten las siguientes extensiones: “.docx”, “.doc” y “.odt”.
 
 Para personalizar los documentos, se encuentran disponibles las mismas funcionalidades de JavaScript que para la personalización del correo electrónico.
 
-Debe activar la opción **[!UICONTROL “The content of the file is personalized and converted to PDF during the delivery of each message”]**. Esta opción está accesible al adjuntar el archivo al correo electrónico de envío. Para obtener más información sobre cómo adjuntar un archivo calculado, consulte la sección [Colocación de archivos](../../delivery/using/attaching-files.md).
+Debe activar la **[!UICONTROL "The content of the file is personalized and converted to PDF during the delivery of each message"]** opción. Esta opción está accesible al adjuntar el archivo al correo electrónico de envío. Para obtener más información sobre cómo adjuntar un archivo calculado, consulte la sección [Colocación de archivos](../../delivery/using/attaching-files.md).
 
 Ejemplo de personalización de encabezado de factura:
 
@@ -43,7 +43,7 @@ Para generar tablas dinámicas o incluir imágenes a través de una URL, se debe
 El procedimiento para generar tablas dinámicas es el siguiente:
 
 * Cree una tabla con tres líneas y tantas columnas como sea necesario y, a continuación, configure su diseño (bordes, etc.).
-* Sitúe el cursor en la tabla y haga clic en el menú **[!UICONTROL Table > Table properties]**. Vaya a la pestaña **[!UICONTROL Table]** e introduzca un nombre que comience por **NlJsTable**.
+* Place your cursor on the table and click the **[!UICONTROL Table > Table properties]** menu. Vaya a la pestaña **[!UICONTROL Table]** e introduzca un nombre que comience por **NlJsTable**.
 * En la primera celda de la primera línea, defina un bucle (“for”, por ejemplo) que permita la iteración en los valores que desea mostrar en la tabla.
 * En cada celda de la segunda línea de la tabla, inserte secuencias de comandos que devuelvan los valores que desea mostrar.
 * Cierre el bucle en la tercera y en la última línea de la tabla.
@@ -69,9 +69,9 @@ Para ello, se debe configurar un bloque personalizado y, a continuación, inclui
 
 **Paso 2: Creación del bloque personalizado:**
 
-* Vaya al menú **[!UICONTROL Resources > Campaign management > Personalization blocks]** de la consola de Adobe Campaign.
+* Go to the **[!UICONTROL Resources > Campaign management > Personalization blocks]** menu of the Adobe Campaign console.
 * Cree un nuevo bloque personalizado llamado “My Logo” con “My_Logo” como nombre interno.
-* Haga clic en el vínculo **[!UICONTROL Advanced parameters...]** y, a continuación, marque la opción **[!UICONTROL “The content of the block is included in an attachment”]**. Esto permite copiar la definición del bloque personalizado directamente en el contenido del archivo de OpenOffice.
+* Haga clic en el **[!UICONTROL Advanced parameters...]** vínculo y luego marque la **[!UICONTROL "The content of the block is included in an attachment"]** opción. Esto permite copiar la definición del bloque personalizado directamente en el contenido del archivo de OpenOffice.
 
    ![](assets/s_ncs_pdf_bloc_option.png)
 
