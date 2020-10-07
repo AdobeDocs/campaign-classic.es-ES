@@ -11,11 +11,11 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 discoiquuid: 42db3be8-ee02-4158-adcd-846420a32460
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '733'
+ht-degree: 99%
 
 ---
 
@@ -41,6 +41,7 @@ Con el módulo Marketing Analytics, Campaign permite:
    * acumular datos y almacenarlos en una tabla de trabajo para precalcular los indicadores según las necesidades del usuario,
    * reducir el volumen de datos implicados en los distintos cálculos utilizados para los informes y las consultas, lo que optimiza de manera significativa los tiempos de cálculo del indicador,
    * simplificar el acceso a los datos, permitiendo a los usuarios manipular los datos (independientemente de si se acumularon previamente o no) en función de las distintas dimensiones.
+
    Para obtener más información, consulte [Crear indicadores](../../reporting/using/creating-indicators.md).
 
 1. Crear tablas dinámicas con el fin de:
@@ -49,6 +50,7 @@ Con el módulo Marketing Analytics, Campaign permite:
    * seleccionar los datos que se van a mostrar y su modo de visualización,
    * personalizar las medidas y los indicadores utilizados,
    * ofrecer herramientas interactivas de análisis a los usuarios con un fondo no interactivo.
+
    Para obtener más información sobre esto, consulte [Uso de cubos para explorar datos](../../reporting/using/using-cubes-to-explore-data.md).
 
 1. Crear una consulta con datos calculados y acumulados en un cubo.
@@ -86,7 +88,7 @@ Cuando se trabaja con cubos, se deben conocer los conceptos siguientes:
 
 ## Espacio de trabajo del cubo {#cube-workspace}
 
-Los cubos se almacenan en el nodo **[!UICONTROL Administration > Configuration > Cubes]**.
+Cubes are stored in the **[!UICONTROL Administration > Configuration > Cubes]** node.
 
 ![](assets/s_advuser_cube_node.png)
 
