@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 573021ad-1efb-4156-af6d-417737ce745a
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '300'
+ht-degree: 95%
 
 ---
 
@@ -38,7 +38,7 @@ En el ejemplo siguiente, los resultados de dos consultas se han combinado para a
 1. Puede introducir una etiqueta.
 1. Seleccione el método de reconciliación **[!UICONTROL Keys only]** ya que, en este ejemplo, la población resultante de las consultas contiene datos coherentes.
 1. Si agregó datos adicionales para las consultas, puede optar por mantener solamente los datos compartidos.
-1. Si desea limitar el tamaño de la población final, marque la casilla **[!UICONTROL Limit size of generated population]**.
+1. If you wish to limit the size of the final population, check the **[!UICONTROL Limit size of generated population]** box.
 
    Especifique este número final introduciendo el número máximo de destinatarios y seleccionando la consulta cuya población tendrá prioridad.
 
