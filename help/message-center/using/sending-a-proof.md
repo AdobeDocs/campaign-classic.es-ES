@@ -11,11 +11,11 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 discoiquuid: 81090be2-3ed4-4f35-948b-e21af6e19999
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 0ce6e5277c32bc18c20dca62e5b276f654d1ace5
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 95%
 
 ---
 
@@ -31,7 +31,7 @@ El envío de una prueba implica realizar el mismo proceso que para una entrega n
 
 Para enviar la prueba:
 
-1. Haga clic en el botón **[!UICONTROL Enviar una prueba]** en la ventana de envío.
+1. Haga clic en el **[!UICONTROL Send a proof]** botón de la ventana envío.
 1. Analice la entrega.
 1. Corrija los errores y confirme la entrega.
 
