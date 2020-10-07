@@ -11,11 +11,11 @@ audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 discoiquuid: 8f6519e8-5c8d-4974-b193-a9f1cf78b3a3
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '1897'
+ht-degree: 1%
 
 ---
 
@@ -30,7 +30,7 @@ Los pasos de migración en Linux son los siguientes:
 1. Guarde la base de datos: consulte [Realizar una copia de seguridad de la base de datos y de la instalación](#back-up-the-database-and-the-existing-installation)existente.
 1. Desinstale los paquetes de versiones anteriores de Adobe Campaign: consulte [Desinstalación de paquetes](#uninstalling-adobe-campaign-previous-version-packages)de la versión anterior de Adobe Campaign.
 1. Migrar la plataforma: consulte [Implementación de Adobe Campaign v7](#deploying-adobe-campaign-v7).
-1. Reiniciar servicio: consulte [Reinicio de servicios](#re-starting-services).
+1. Servicio de reinicio: consulte [Reinicio de servicios](#re-starting-services).
 
 ## Detención del servicio {#service-stop}
 
@@ -62,9 +62,9 @@ Primero, detener todos los procesos con acceso a la base de datos en todos los e
    ps waux | grep nlserver
    ```
 
-   La lista de procesos activos se muestra junto con su ID (PID).
+   La lista de los procesos activos se muestra junto con su ID (PID).
 
-1. Si uno o varios procesos de Adobe Campaign siguen activos o bloqueados al cabo de unos minutos, mátelos.
+1. Si uno o más procesos de Adobe Campaign siguen activos o bloqueados al cabo de unos minutos, matarlos.
 
    ```
    killall nlserver
@@ -179,7 +179,7 @@ El procedimiento depende de la versión anterior de Adobe Campaign.
       dpkg -l | grep nl
       ```
 
-      Se muestra la lista de paquetes instalados:
+      Se muestra la lista de los paquetes instalados:
 
       ```
       ii  nlserver5                       5762                     nlserver5-5762
@@ -219,7 +219,7 @@ Esta sección muestra cómo desinstalar los paquetes de Adobe Campaign v6.02 o v
       dpkg -l | grep nl
       ```
 
-      Se muestra la lista de paquetes instalados:
+      Se muestra la lista de los paquetes instalados:
 
       ```
       ii  nlserver6                       XXXX                     nlserver6-XXXX
@@ -252,12 +252,12 @@ El procedimiento depende de la versión anterior de Adobe Campaign.
 
 ### Migración desde Adobe Campaign v5.11 {#migrating-from-adobe-campaign-v5_11-1}
 
-La implementación de Adobe Campaign incluye dos etapas:
+La implementación de Adobe Campaign implica dos etapas:
 
 * Instalación de paquetes de Adobe Campaign v7: esta operación debe realizarse en cada servidor.
 * La actualización posterior: este comando debe iniciarse en cada instancia.
 
-Para implementar Adobe Campaign, siga los pasos siguientes:
+Para implementar Adobe Campaign, siga estos pasos:
 
 1. Instale los paquetes más recientes de Adobe Campaign v7 con el siguiente comando:
 
@@ -280,7 +280,7 @@ Para implementar Adobe Campaign, siga los pasos siguientes:
    >
    >Al migrar desde la versión 5.11, Adobe Campaign se instala de forma predeterminada en el directorio **/usr/local/neolane/nl6/** .
    >
-   >Una vez instalados los paquetes, se muestra el siguiente mensaje: **&#39;WdbcTimeZone&#39; falta** la opción. Esto es normal.
+   >Una vez instalados los paquetes, se muestra el siguiente mensaje: **Falta** la opción &#39;WdbcTimeZone&#39;. Esto es normal.
 
 1. Para que el programa de instalación de la consola de cliente esté disponible, cópielo en el directorio de instalación de Adobe Campaign:
 
@@ -319,7 +319,7 @@ Para implementar Adobe Campaign, siga los pasos siguientes:
 
    >[!NOTE]
    >
-   >Estos comandos le permiten crear el sistema de archivos internos de Adobe Campaign v6: directorio **conf** (con los archivos **config-default.xml** y **serverConf.xml** ), directorio **var** .
+   >Estos comandos le permiten crear el sistema de archivos internos de Adobe Campaign v6: **directorio conf** (con los archivos **config-default.xml** y **serverConf.xml** ), directorio **var** .
 
 1. Vaya a la carpeta de copia de seguridad **nl5.back** y copie (sobrescriba) los archivos y subcarpetas de configuración de cada instancia. Inicie sesión como **neolane** y ejecute el siguiente comando:
 
@@ -340,7 +340,7 @@ Para implementar Adobe Campaign, siga los pasos siguientes:
 
    >[!NOTE]
    >
-   >Al informar sobre las configuraciones de Adobe Campaign v5 a Adobe Campaign v7, asegúrese de que las rutas a los directorios físicos llevan a Adobe Campaign v7 y no a Adobe Campaign v5.
+   >Cuando realice configuraciones de sistema de informes desde Adobe Campaign v5 a Adobe Campaign v7, asegúrese de que las rutas a los directorios físicos conducen a Adobe Campaign v7 y no a Adobe Campaign v5.
 
 1. Dado que la migración no es una instalación genérica, debe forzar el reinicio del servicio **trackinglogd** . Para ello, abra el archivo **nl6/conf/config-default.xml** y asegúrese de que el servicio **trackinglogd** está activado (solo en los servidores de seguimiento/redirección):
 
@@ -358,7 +358,7 @@ Para implementar Adobe Campaign, siga los pasos siguientes:
    nlserver config -reload
    ```
 
-1. Inicie el proceso posterior a la actualización utilizando el siguiente comando (aún como **neolano**):
+1. Inicio el proceso posterior a la actualización mediante el siguiente comando (aún como **neolano**):
 
    ```
    su - neolane
@@ -367,7 +367,7 @@ Para implementar Adobe Campaign, siga los pasos siguientes:
 
    >[!IMPORTANT]
    >
-   >Debe especificar qué zona horaria utilizar como referencia durante la posactualización (mediante la opción **-huso** horario). En este caso, utilizamos la zona horaria Europa/París **: &quot;Europa/París&quot;**.
+   >Debe especificar qué zona horaria utilizar como referencia durante la posactualización (mediante la opción **-huso horario** ). En este caso, utilizamos la zona horaria Europa/París **: &quot;Europa/París&quot;**.
 
    >[!NOTE]
    >
@@ -375,16 +375,16 @@ Para implementar Adobe Campaign, siga los pasos siguientes:
 
 >[!IMPORTANT]
 >
->No inicie aún los servicios de Adobe Campaign: aún es necesario realizar cambios en Apache.
+>Aún no inicio los servicios de Adobe Campaign: aún es necesario realizar cambios en Apache.
 
 ### Migración desde Adobe Campaign v6.02 {#migrating-from-adobe-campaign-v6_02-1}
 
-La implementación de Adobe Campaign incluye dos etapas:
+La implementación de Adobe Campaign implica dos etapas:
 
 * Instalación de paquetes de Adobe Campaign v7: esta operación debe realizarse en cada servidor.
 * La actualización posterior: este comando debe iniciarse en cada instancia.
 
-Para implementar Adobe Campaign, siga los pasos siguientes:
+Para implementar Adobe Campaign, siga estos pasos:
 
 1. Instale los paquetes más recientes de Adobe Campaign v7 con el siguiente comando:
 
@@ -405,7 +405,7 @@ Para implementar Adobe Campaign, siga los pasos siguientes:
 
    >[!NOTE]
    >
-   >Adobe Campaign v7 se instala en el mismo directorio de forma predeterminada que Adobe Campaign v6.02: **/usr/local/neolane/nl6/**.
+   >Adobe Campaign v7 está instalado en el mismo directorio de forma predeterminada que Adobe Campaign v6.02: **/usr/local/neolane/nl6/**.
 
 1. Para que el programa de instalación de la consola de cliente esté disponible, cópielo en el directorio de instalación de Adobe Campaign:
 
@@ -444,7 +444,7 @@ Para implementar Adobe Campaign, siga los pasos siguientes:
    nlserver config -reload
    ```
 
-1. Inicie el proceso posterior a la actualización utilizando el siguiente comando (aún como **neolano**):
+1. Inicio el proceso posterior a la actualización mediante el siguiente comando (aún como **neolano**):
 
    ```
    su - neolane
@@ -457,12 +457,12 @@ Para implementar Adobe Campaign, siga los pasos siguientes:
 
 ### Migración desde Adobe Campaign v6.1 {#migrating-from-adobe-campaign-v6_1-1}
 
-La implementación de Adobe Campaign incluye dos etapas:
+La implementación de Adobe Campaign implica dos etapas:
 
 * Instalación de paquetes de Adobe Campaign v7: esta operación debe realizarse en cada servidor.
 * La actualización posterior: este comando debe iniciarse en cada instancia.
 
-Para implementar Adobe Campaign, siga los pasos siguientes:
+Para implementar Adobe Campaign, siga estos pasos:
 
 1. Instale los paquetes más recientes de Adobe Campaign v7 con el siguiente comando:
 
@@ -512,7 +512,7 @@ Para implementar Adobe Campaign, siga los pasos siguientes:
    nlserver config -reload
    ```
 
-1. Inicie el proceso posterior a la actualización utilizando el siguiente comando (aún como **neolano**):
+1. Inicio el proceso posterior a la actualización mediante el siguiente comando (aún como **neolano**):
 
    ```
    su - neolane
@@ -525,7 +525,7 @@ Para implementar Adobe Campaign, siga los pasos siguientes:
 >
 >Esta sección solo se aplica al migrar desde Adobe Campaign v5.11.
 
-En este momento, Apache necesita ser detenido. Consulte: Detención [del servicio](#service-stop).
+En este momento, Apache necesita ser detenido. Consulte: [Parada](#service-stop)del servicio.
 
 1. Inicie sesión como **raíz**.
 1. Cambie las variables de entorno Apache para que se vinculen al directorio **nl6** .
@@ -608,10 +608,10 @@ En los archivos **config-`<instance name>`.xml** , reactive el inicio automátic
 </serverconf>
 ```
 
-Inicie los servicios de Apache y Adobe Campaign en cada uno de los siguientes servidores:
+Servicios de inicio Apache y Adobe Campaign en cada uno de los siguientes servidores:
 
 1. Servidor de seguimiento y redirección.
-1. Servidor de fuentes intermedias.
+1. Servidor intermediario.
 1. Servidor de marketing.
 
 Antes de continuar con el paso siguiente, ejecute una prueba completa de la nueva instalación, asegúrese de que no haya regresiones y de que todo funcione siguiendo todas las recomendaciones de la sección Configuraciones [](../../migration/using/general-configurations.md) generales.
@@ -639,20 +639,20 @@ En los archivos **config-`<instance name>`.xml** , reactive el inicio automátic
 </serverconf>
 ```
 
-Inicie los servicios de Apache y Adobe Campaign en cada uno de los siguientes servidores:
+Servicios de inicio Apache y Adobe Campaign en cada uno de los siguientes servidores:
 
 1. Servidor de seguimiento y redirección.
-1. Servidor de fuentes intermedias.
+1. Servidor intermediario.
 1. Servidor de marketing.
 
 Pruebe completamente la nueva instalación, verifique que no retrocede y asegúrese de que todo funciona correctamente siguiendo todas las recomendaciones de la sección Configuraciones [](../../migration/using/general-configurations.md) generales.
 
 ### Migración desde Adobe Campaign v6.1 {#migrating-from-adobe-campaign-v6_1-2}
 
-Inicie los servicios de Apache y Adobe Campaign en cada uno de los siguientes servidores:
+Servicios de inicio Apache y Adobe Campaign en cada uno de los siguientes servidores:
 
 1. Servidor de seguimiento y redirección.
-1. Servidor de fuentes intermedias.
+1. Servidor intermediario.
 1. Servidor de marketing.
 
 Pruebe completamente la nueva instalación, verifique que no retrocede y asegúrese de que todo funciona correctamente siguiendo todas las recomendaciones de la sección Configuraciones [](../../migration/using/general-configurations.md) generales.
@@ -675,4 +675,4 @@ su - neolane
 rm -rf nl5.back
 ```
 
-Vuelva a iniciar el servidor.
+Vuelva a poner en inicio el servidor.
