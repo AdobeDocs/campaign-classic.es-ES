@@ -1,7 +1,7 @@
 ---
-title: '"Etiqueta de seguimiento web: definition"'
-seo-title: '"Etiqueta de seguimiento web: definition"'
-description: '"Etiqueta de seguimiento web: definition"'
+title: '"Etiqueta de seguimiento web: definición"'
+seo-title: '"Etiqueta de seguimiento web: definición"'
+description: '"Etiqueta de seguimiento web: definición"'
 seo-description: null
 page-status-flag: never-activated
 uuid: 915ddfd8-ad1b-41ac-96ed-f7fae687c09f
@@ -11,18 +11,18 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 discoiquuid: b8996508-7173-4225-95e7-b51209aae1f1
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3ad288bc983002da82b564e8ab3f4244c6324573
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 5%
 
 ---
 
 
 # Etiqueta de seguimiento web: definición{#web-tracking-tag-definition}
 
-Una etiqueta de seguimiento web es simplemente una dirección URL construida con los parámetros adecuados, que se envía al servidor de redirección mediante una consulta HTTP.
+Una etiqueta de seguimiento web es simplemente una dirección URL creada con los parámetros adecuados, que se envía al servidor de redirección mediante una consulta HTTP.
 
 ## Formato de los datos que se enviarán {#format-of-the-data-to-be-sent}
 
@@ -51,7 +51,7 @@ La siguiente tabla proporciona una lista de parámetros especiales admitidos por
                               <p>Cookie de sesión</p> 
                            </td>
                            <td>
-                              <p>Identificador de entrega e identificador de destinatario.</p> 
+                              <p>Identificador de envío e identificador de destinatario.</p> 
                            </td> 
                         </tr>
                         <tr>
@@ -62,7 +62,7 @@ La siguiente tabla proporciona una lista de parámetros especiales admitidos por
                               <p>Cookie permanente</p> 
                            </td>
                            <td>
-                              <p>Identificador del destinatario (útil si la cookie de sesión no está presente).</p> 
+                              <p>Identificador de destinatario (útil si no hay una cookie de sesión).</p> 
                            </td> 
                         </tr>
                         <tr>
@@ -84,7 +84,7 @@ La siguiente tabla proporciona una lista de parámetros especiales admitidos por
                               <p>Parámetro de URL</p> 
                            </td>
                            <td>
-                              <p>Identificador de entrega que se utilizará si no hay una cookie de sesión. Este valor se expresa en hexadecimal.
+                              <p>Identificador de envío que se utilizará si no hay una cookie de sesión. Este valor se expresa en hexadecimal.
                               </p> 
                            </td> 
                         </tr>
@@ -96,7 +96,7 @@ La siguiente tabla proporciona una lista de parámetros especiales admitidos por
                               <p>Parámetro de URL</p> 
                            </td>
                            <td>
-                              <p>Parámetro utilizado para identificar al usuario de Internet. El formato de este parámetro es "name=value", donde el nombre es un campo del esquema del destinatario. Este parámetro tiene prioridad sobre el identificador contenido en la cookie de sesión.
+                              <p>Parámetro utilizado para identificar al usuario de Internet. El formato de este parámetro es "name=value", donde el nombre es un campo del esquema de destinatario. Este parámetro tiene prioridad sobre el identificador contenido en la cookie de sesión.
                               </p> 
                            </td> 
                         </tr> 
@@ -117,13 +117,13 @@ La siguiente tabla proporciona una lista de parámetros especiales admitidos por
 
    **https://myserver.adobe.com/r/2353?tagid=home&amp;rcpid=saccount%3D10**
 
-   Un destinatario cuyo número de cuenta sea 10 se envía a la página principal.
+   Se envía a la página de inicio un destinatario cuyo número de cuenta sea 10.
 
-* Uso de una entrega predeterminada
+* Uso de un envío predeterminado
 
    **https://myserver.adobe.com/r/2456?tagid=home&amp;jobid=e6**
 
-   Se envía un destinatario a la página principal. Esta información se almacenará en la entrega con el identificador 230 (e6 en la base de datos 16) a menos que se envíe una cookie de sesión que contenga un identificador de entrega con esta consulta.
+   Se envía un destinatario a la página de inicio. Esta información se almacenará en el envío con el identificador 230 (e6 en la base de datos 16) a menos que se envíe una cookie de sesión con un identificador de envío con esta consulta.
 
 >[!NOTE]
 >
