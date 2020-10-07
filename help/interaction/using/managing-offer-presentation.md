@@ -11,11 +11,11 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 discoiquuid: f6e44634-3a13-480e-ab44-f3c744054a96
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '999'
+ht-degree: 85%
 
 ---
 
@@ -28,8 +28,8 @@ La interacción permite controlar el flujo de propuestas de ofertas utilizando l
 
 ## Creación y referencia de una regla de presentación de oferta {#creating-and-referencing-an-offer-presentation-rule}
 
-1. Vaya al nodo **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typology rules]**.
-1. Cree una regla de tipología y elija el tipo **[!UICONTROL Offer presentation]**.
+1. Go to the **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typology rules]** node.
+1. Create a typology rule and choose the **[!UICONTROL Offer presentation]** type.
 
    ![](assets/offer_typology_001.png)
 
@@ -38,7 +38,7 @@ La interacción permite controlar el flujo de propuestas de ofertas utilizando l
    ![](assets/offer_typology_002.png)
 
 1. Configure los criterios de aplicación de la regla. Para obtener más información, consulte [Presentation rule settings](#presentation-rule-settings),
-1. Vaya al nodo **[!UICONTROL Administration]** > **[!UICONTROL Campaign execution]** > **[!UICONTROL Typology management]** >**[!UICONTROL Typologies]** y cree una tipología que agrupe todas las reglas del tipo **[!UICONTROL Offer presentation]**.
+1. Go to the **[!UICONTROL Administration]** > **[!UICONTROL Campaign execution]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typologies]** node and create a typology that will group all **[!UICONTROL Offer presentation]** type rules.
 
    ![](assets/offer_typology_003.png)
 
@@ -56,7 +56,7 @@ La interacción permite controlar el flujo de propuestas de ofertas utilizando l
 
 Los criterios de aplicación disponibles en la pestaña **[!UICONTROL General]** le permiten especificar las ofertas a las que se aplica la regla de presentación. Para hacer esto, necesita crear una consulta y elegir las ofertas que le interesen, como se describe a continuación.
 
-1. En las reglas de tipología haga clic en el vínculo **[!UICONTROL Edit the rule application conditions...]** para crear la consulta.
+1. In your typology rule, click the **[!UICONTROL Edit the rule application conditions...]** link to create your query.
 
    ![](assets/offer_typology_006.png)
 
@@ -109,11 +109,11 @@ Puede seleccionar los criterios de filtrado para excluir las propuestas en funci
 
 ![](assets/offer_typology_014.png)
 
-Estos criterios representan las aplicaciones más frecuentes de las reglas de presentación. Para utilizar otros criterios, se puede crear una consulta utilizando el vínculo **[!UICONTROL Limit propositions...]** Para obtener más información, consulte [Creación de una consulta sobre proposiciones](#creating-a-query-on-propositions).
+Estos criterios representan las aplicaciones más frecuentes de las reglas de presentación. To use other criteria, you can create a query using the **[!UICONTROL Limit propositions...]** link. Para obtener más información, consulte [Creación de una consulta sobre proposiciones](#creating-a-query-on-propositions).
 
 * **Filtros del canal**
 
-   **[!UICONTROL On the same channel only]**: permite excluir propuestas de oferta en el canal especificado en la pestaña **[!UICONTROL General]**.
+   **[!UICONTROL On the same channel only]** :: permite excluir propuestas de oferta en el canal especificado en la **[!UICONTROL General]** ficha.
 
    Por ejemplo, el canal especificado para la regla de la pestaña **[!UICONTROL General]** es email. Si las ofertas a las que se aplica la regla solo se ofrecen en el canal web, el motor de interacción puede presentar las ofertas en una entrega por email. Sin embargo, una vez que se presentan las ofertas por correo electrónico, el motor de interacción elige un canal diferente para presentar las ofertas.
 
@@ -127,11 +127,11 @@ Estos criterios representan las aplicaciones más frecuentes de las reglas de pr
 
    Este filtro permite restringir las propuestas de ofertas que se cuentan como determinados conjuntos de ofertas.
 
-   **[!UICONTROL Todas las ofertas]** : valor predeterminado. No se aplica ningún filtro a las ofertas.
+   **[!UICONTROL All offers]** :: valor predeterminado. No se aplica ningún filtro a las ofertas.
 
-   **[!UICONTROL Offer being presented]**: la oferta especificada en la pestaña **[!UICONTROL General]** se excluye si ya se ha presentado.
+   **[!UICONTROL Offer being presented]** :: la oferta especificada en la **[!UICONTROL General]** ficha se excluye si ya se ha presentado.
 
-   **[!UICONTROL Offers from the same category]**: se excluye una oferta si ya se ha presentado una oferta de la misma categoría.
+   **[!UICONTROL Offers from the same category]** :: se excluye una oferta si ya se ha presentado una oferta de la misma categoría.
 
    **[!UICONTROL The offers which the rule applies to]**: cuando se definen varias ofertas en la pestaña **[!UICONTROL General]**, cada propuesta de oferta de este conjunto de ofertas se toma en cuenta y finaliza en la exclusión de todas las ofertas si se alcanza el umbral de propuestas.
 
@@ -141,9 +141,9 @@ Estos criterios representan las aplicaciones más frecuentes de las reglas de pr
 
    Este filtro le permite elegir los estados más frecuentes para que la propuesta de ofertas sea tomada en cuenta en el historial de propuestas.
 
-   **[!UICONTROL Regardless of the proposition status]**: valor predeterminado. No se aplica ningún filtro al estado de la propuesta.
+   **[!UICONTROL Regardless of the proposition status]** :: valor predeterminado. No se aplica ningún filtro al estado de la propuesta.
 
-   **[!UICONTROL Accepted or rejected propositions]**: permite excluir las ofertas presentadas anteriormente que se han aceptado o rechazado.
+   **[!UICONTROL Accepted or rejected propositions]** :: permite excluir ofertas presentadas previamente que hayan sido aceptadas o rechazadas.
 
    **[!UICONTROL Accepted propositions]**: permite excluir las ofertas presentadas anteriormente que se han aceptado.
 
@@ -151,13 +151,13 @@ Estos criterios representan las aplicaciones más frecuentes de las reglas de pr
 
 ### Definición de destinatarios {#defining-recipients}
 
-Para especificar los destinatarios, haga clic en el vínculo **[!UICONTROL Edit the query from the targeting dimension...]** y seleccione los destinatarios según la regla.
+To specify the recipients, click the **[!UICONTROL Edit the query from the targeting dimension...]** link and select the recipients concerned by the rule.
 
 ![](assets/offer_typology_012.png)
 
 ### Creación de una consulta en propuestas {#creating-a-query-on-propositions}
 
-Para especificar las propuestas que se van a contar mediante una consulta, haga clic en el vínculo **[!UICONTROL Limit propositions...]** y especifique los criterios que se van a tener en cuenta.
+To specify the propositions to be counted via a query, click the **[!UICONTROL Limit propositions...]** link and specify the criteria to be taken into account.
 
 En el ejemplo siguiente, las propuestas que se van a contar después de dos presentaciones son las de la categoría **Ofertas especiales**, para el espacio del **centro de llamadas**, con un peso inferior a **20**.
 
