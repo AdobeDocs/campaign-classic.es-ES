@@ -11,11 +11,11 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 discoiquuid: d08ff769-da93-4f86-8802-f0fb5b051ece
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 34cd6e6cf5652c9e2163848c2b1ef32f53ee6ca4
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 5%
 
 ---
 
@@ -47,4 +47,4 @@ Una configuración de instancia se carga de la siguiente manera:
 
    Estos dos archivos tienen el mismo formato. Cualquier valor de **serverConf.xml** se puede sobrecargar para una instancia determinada en el archivo **config-`<instance>`.xml** .
 
-Este modo operativo proporciona una gran flexibilidad para las configuraciones.
+Este modo operativo proporciona buena flexibilidad para las configuraciones.
