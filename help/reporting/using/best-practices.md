@@ -11,11 +11,11 @@ audience: reporting
 content-type: reference
 topic-tags: reporting-in-adobe-campaign
 discoiquuid: 904961e0-7dff-4350-8d5d-e4bdd368b3ff
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 0c41cf2f35495a1514642e47f0b7146d8dd50946
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '817'
+ht-degree: 100%
 
 ---
 
@@ -56,6 +56,7 @@ Para optimizar la creación, el uso y la duración de un informe, debe revisar l
    * Operadores con derechos de acceso a una única campaña de marketing.
    * Un operador individual para uso temporal.
    * Todos los operadores con acceso web, etc.
+
    Estas consideraciones también deben tener en cuenta los problemas relacionados con los derechos de acceso y de seguridad.
 
 1. Definición del contenido
