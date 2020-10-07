@@ -11,11 +11,11 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 discoiquuid: 181fcb70-9394-4091-93df-92c39273ec3d
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '804'
+ht-degree: 78%
 
 ---
 
@@ -29,7 +29,7 @@ Al crear una entrega, existen dos métodos posibles para la integración de ofer
 
 ## Envío con visualización del motor de oferta {#delivering-with-a-call-to-the-offer-engine}
 
-Para presentar una oferta durante una campaña de marketing, simplemente cree una acción de envío clásica basada en el canal elegido. El motor de oferta se visualiza cuando se define el contenido de la entrega haciendo clic en el icono **[!UICONTROL Ofertas]** disponible en la barra de herramientas.
+Para presentar una oferta durante una campaña de marketing, simplemente cree una acción de envío clásica basada en el canal elegido. The offer engine is called up when the delivery content is defined, by clicking the **[!UICONTROL Offers]** icon available in the toolbar.
 
 ![](assets/offer_delivery_009.png)
 
@@ -57,11 +57,11 @@ Para insertar las propuestas de oferta en una entrega, siga los siguientes pasos
 
    ![](assets/offer_delivery_005.png)
 
-1. Seleccione la opción **[!UICONTROL Excluir destinatarios no elegibles]** si es necesario. Para obtener más información sobre esto, consulte [Parámetros para llamar al motor de ofertas](#parameters-for-calling-offer-engine).
+1. Seleccione la **[!UICONTROL Exclude non-eligible recipients]** opción si es necesario. Para obtener más información sobre esto, consulte [Parámetros para llamar al motor de ofertas](#parameters-for-calling-offer-engine).
 
    ![](assets/offer_delivery_006.png)
 
-1. Si es necesario, seleccione la opción **[!UICONTROL No mostrar nada si no se seleccionan ofertas]**. Para obtener más información sobre esto, consulte [Parámetros para llamar al motor de ofertas](#parameters-for-calling-offer-engine).
+1. Si es necesario, seleccione la **[!UICONTROL Do not display anything if no offers are selected]** opción. Para obtener más información sobre esto, consulte [Parámetros para llamar al motor de ofertas](#parameters-for-calling-offer-engine).
 
    ![](assets/offer_delivery_007.png)
 
@@ -75,12 +75,12 @@ Para insertar las propuestas de oferta en una entrega, siga los siguientes pasos
 
 ### Parámetros para llamar al motor de oferta {#parameters-for-calling-offer-engine}
 
-* **[!UICONTROL Espacio]** : espacio del entorno de oferta que debe seleccionarse para activar el motor de oferta.
-* **[!UICONTROL Categoría]** : carpeta específica en la que se ordenan las ofertas. Si no se especifica ninguna categoría, el motor de oferta llevará a cabo todas las ofertas contenidas en el entorno, a menos que se seleccione un tema.
-* **[!UICONTROL Temas]** : las palabras clave se definen hacia arriba en las categorías. Estos actúan como un filtro y permiten refinar la cantidad de ofertas que se presentarán seleccionándolas de un conjunto de categorías.
-* **[!UICONTROL Número de proposiciones]** : número de ofertas que devuelve el motor que se puede insertar en el cuerpo de la entrega. Si no se insertan en el mensaje, las ofertas se generarán, pero no se presentarán.
-* **[!UICONTROL Excluir destinatarios no elegibles]** : Esta opción permite activar o desactivar la exclusión de destinatarios para los que no haya suficientes ofertas aptas. El número de propuestas puede ser inferior al número solicitado de propuestas. Si se selecciona este cuadro, los destinatarios que no tengan suficientes propuestas se excluirán de la entrega. Si no selecciona esta opción, estos destinatarios no se excluirán, pero no tendrán el número solicitado de propuestas.
-* **[!UICONTROL No mostrar nada si no se selecciona ninguna oferta]** : Esta opción le permite elegir cómo se procesará el mensaje en caso de que una de las propuestas no exista. Cuando se activa esta casilla, no se muestra la representación de la propuesta que falta y no aparecerá ningún contenido en el mensaje para esta propuesta. Si el cuadro no está activado, el mensaje en sí se cancela durante la entrega y los destinatarios ya no recibirán ningún mensaje.
+* **[!UICONTROL Space]** :: espacio del entorno de oferta que debe seleccionarse para activar el motor de oferta.
+* **[!UICONTROL Category]** :: carpeta específica en la que se ordenan las ofertas. Si no se especifica ninguna categoría, el motor de oferta llevará a cabo todas las ofertas contenidas en el entorno, a menos que se seleccione un tema.
+* **[!UICONTROL Themes]** :: palabras clave definidas en la parte superior de las categorías. Estos actúan como un filtro y permiten refinar la cantidad de ofertas que se presentarán seleccionándolas de un conjunto de categorías.
+* **[!UICONTROL Number of propositions]** :: número de ofertas devueltas por el motor que pueden insertarse en el cuerpo del envío. Si no se insertan en el mensaje, las ofertas se generarán, pero no se presentarán.
+* **[!UICONTROL Exclude non-eligible recipients]** : esta opción permite activar o desactivar la exclusión de destinatarios para los que no haya suficientes ofertas aptas. El número de propuestas puede ser inferior al número solicitado de propuestas. Si se selecciona este cuadro, los destinatarios que no tengan suficientes propuestas se excluirán de la entrega. Si no selecciona esta opción, estos destinatarios no se excluirán, pero no tendrán el número solicitado de propuestas.
+* **[!UICONTROL Do not display anything if no offer is selected]** :: esta opción le permite elegir cómo se procesará el mensaje en caso de que una de las propuestas no exista. Cuando se activa esta casilla, no se muestra la representación de la propuesta que falta y no aparecerá ningún contenido en el mensaje para esta propuesta. Si el cuadro no está activado, el mensaje en sí se cancela durante la entrega y los destinatarios ya no recibirán ningún mensaje.
 
 ### Inserción de una propuesta de oferta en una entrega.{#inserting-an-offer-proposition-into-a-delivery}
 
@@ -97,21 +97,21 @@ También se pueden presentar ofertas en una entrega utilizando la descripción d
 Para obtener más información sobre la descripción de las entregas, consulte la guía [Campaign - MRM](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 1. Cree una nueva campaña o acceda a una campaña existente.
-1. Acceda a los esquemas de entrega a través de la pestaña campaña **[!UICONTROL Editar]** > **[!UICONTROL Documentos]**.
-1. Añada una descripción e inserte tantas ofertas como desee haciendo clic con el botón derecho en la descripción y seleccione **[!UICONTROL Nuevo]** > **[!UICONTROL Oferta]**, a continuación, guarde la campaña.
+1. Access the delivery outlines via the campaign&#39;s **[!UICONTROL Edit]** > **[!UICONTROL Documents]** tab.
+1. Add an outline then insert as many offers as you like into it by right-clicking on the outline and selecting **[!UICONTROL New]** > **[!UICONTROL Offer]**, then save the campaign.
 
    ![](assets/int_compo_offre1.png)
 
 1. Cree una entrega que tenga acceso a la descripción del mismo (por ejemplo, una entrega de correo postal).
-1. Al editar la entrega, haga clic en **[!UICONTROL Seleccione un esquema de entrega]**.
+1. Al editar el envío, haga clic en **[!UICONTROL Select a delivery outline]**.
 
    >[!NOTE]
    >
-   >En función del tipo de envío, esta opción se puede encontrar en el menú **[!UICONTROL Propiedades]** > **[!UICONTROL Avanzado]** (por ejemplo, en envíos de correo postal).
+   >Depending on the type of delivery, this option can be found in the **[!UICONTROL Properties]** > **[!UICONTROL Advanced]** menu (for email deliveries for example).
 
    ![](assets/int_compo_offre2.png)
 
-1. Con el botón **[!UICONTROL Ofertas]**, se puede configurar el espacio de oferta y el número de ofertas que se presentan en la entrega.
+1. Using the **[!UICONTROL Offers]** button, you can then configure the offer space as well as the number of offers to present in the delivery.
 
    ![](assets/int_compo_offre3.png)
 
