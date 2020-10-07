@@ -1,7 +1,7 @@
 ---
-title: Implementación de fuentes intermedias
-seo-title: Implementación de fuentes intermedias
-description: Implementación de fuentes intermedias
+title: Implementación intermediaria
+seo-title: Implementación intermediaria
+description: Implementación intermediaria
 seo-description: null
 page-status-flag: never-activated
 uuid: e359c486-7ee6-4295-80fc-4c371a0ef068
@@ -11,18 +11,18 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 discoiquuid: 19220d8e-9494-46b4-9aa0-4c4a729aea96
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: be590c6d993eecacf51736e3c3e415addae5c6bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '353'
+ht-degree: 2%
 
 ---
 
 
-# Implementación de fuentes intermedias{#mid-sourcing-deployment}
+# Implementación intermediaria{#mid-sourcing-deployment}
 
-Esta configuración es una solución intermedia óptima entre una configuración alojada (ASP) y la internalización. Los componentes de ejecución orientados hacia el exterior se llevan a cabo en un servidor de &quot;fuentes intermedias&quot; alojado en Adobe Campaign.
+Esta configuración es una solución intermedia óptima entre una configuración alojada (ASP) y la internalización. Los componentes de ejecución orientados hacia el exterior se llevan a cabo en un servidor &quot;intermediaria&quot; alojado en Adobe Campaign.
 
 >[!NOTE]
 >
@@ -40,15 +40,15 @@ La comunicación general entre servidores y procesos se realiza según el siguie
 ### Ventajas {#advantages}
 
 * Configuración del servidor simplificada: No es necesario que el cliente configure módulos orientados hacia el exterior (mta y inMail).
-* Uso limitado del ancho de banda: Dado que la ejecución es llevada a cabo por el servidor de fuentes intermedias, solo se requiere un ancho de banda suficiente para enviar datos de personalización al servidor de fuentes intermedias.
-* La alta disponibilidad ya no es un problema interno: El problema se traslada al servidor de fuentes intermedias (redirección, páginas espejo, servidores de ejecución, etc.).
-* La base de datos no abandona la empresa: Sólo se envían al servidor de abastecimiento intermedio los datos necesarios para compilar los mensajes (para ello se puede utilizar HTTPS).
-* Este tipo de implementación puede ser una solución para arquitecturas de alto volumen (muchos destinatarios en la base de datos), con un rendimiento de entrega significativo.
+* Uso limitado del ancho de banda: Dado que la ejecución la realiza el servidor intermediaria, solo se requiere un ancho de banda suficiente para enviar datos de personalización al servidor intermediaria.
+* La alta disponibilidad ya no es un problema interno: El problema se transfiere al servidor intermediaria (redirección, páginas espejo, servidores de ejecución, etc.).
+* La base de datos no deja la compañía: Solo se envían al servidor intermediaria los datos necesarios para compilar los mensajes (para ello se puede utilizar HTTPS).
+* Este tipo de implementación puede ser una solución para arquitecturas de alto volumen (muchos destinatarios en la base de datos), con un rendimiento de envío significativo.
 
 ### Desventajas {#disadvantages}
 
-* Ligero retraso en la visualización de la información de ejecución de mensajes y en la funcionalidad de informes debido al tiempo que se tarda en recuperar la información del servidor de fuentes intermedias.
-* Los estudios y los formularios web permanecen en la plataforma del cliente.
+* Ligero retraso en la visualización de la información de ejecución de mensajes y en la funcionalidad de sistema de informes debido al tiempo que se tarda en obtener información del servidor de intermediaria.
+* Las encuestas y los formularios web permanecen en la plataforma cliente.
 
 ### Equipo recomendado {#recommended-equipment}
 
@@ -57,7 +57,7 @@ La comunicación general entre servidores y procesos se realiza según el siguie
 
 >[!NOTE]
 >
->La redirección y el abastecimiento intermedio son elementos independientes, pero el servidor de seguimiento, en general, se compartirá con los servidores de abastecimiento intermedio.
+>La redirección y el intermediaria son elementos independientes, pero el servidor de seguimiento, en general, se compartirá con los servidores intermediaria.
 
 ## Pasos de instalación y configuración {#installation-and-configuration-steps-}
 
@@ -65,8 +65,8 @@ La comunicación general entre servidores y procesos se realiza según el siguie
 
 * JDK en el servidor de aplicaciones.
 * Acceso a un servidor de bases de datos en el servidor de aplicaciones.
-* Servidor de seguridad configurado para abrir puertos HTTP (80) o HTTPS (443) en el servidor de fuentes intermedias.
+* Servidor de seguridad configurado para abrir puertos HTTP (80) o HTTPS (443) en el servidor intermediaria.
 
-### Instalación y configuración (implementación de fuentes intermedias) {#installing-and-configuring--mid-sourcing-deployment-}
+### Instalación y configuración (implementación de intermediaria) {#installing-and-configuring--mid-sourcing-deployment-}
 
-Consulte el servidor [de](../../installation/using/mid-sourcing-server.md)fuentes intermedias.
+Consulte el servidor [Intermediaria](../../installation/using/mid-sourcing-server.md).
