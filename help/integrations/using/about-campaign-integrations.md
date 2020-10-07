@@ -9,14 +9,11 @@ audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
 discoiquuid: 0af1fd96-48ef-43c9-a03b-0f9a6e0e02fe
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '772'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -42,7 +39,7 @@ Descubra la lista completa de soluciones de Adobe y los servicios principales qu
 
 Según el entorno, varias soluciones se pueden vincular con Adobe Experience Cloud. Estas se vinculan como organizaciones. Una **organización** es la entidad que permite a un administrador configurar grupos y usuarios y controlar el inicio de sesión único en Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y soluciones de Experience Cloud. Generalmente, la organización es el nombre de la empresa. Sin embargo, una empresa puede tener muchas organizaciones.
 
-Se detalla la administración de la organización y los vínculos de las cuentas de Adobe Experience Cloud en el [portal de ayuda de Adobe Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
+Se detalla la administración de la organización y los vínculos de las cuentas de Adobe Experience Cloud en el [portal de ayuda de Adobe Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/organizations.html).
 
 >[!CAUTION]
 >
