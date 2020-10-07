@@ -11,18 +11,18 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 discoiquuid: c7395094-c635-45ab-8455-a050f7d16b64
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: be590c6d993eecacf51736e3c3e415addae5c6bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '595'
+ht-degree: 4%
 
 ---
 
 
 # Creación de una instancia e inicio de sesión{#creating-an-instance-and-logging-on}
 
-Para crear una nueva instancia y una base de datos de Adobe Campaign, realice el siguiente proceso:
+Para crear una nueva instancia y una base de datos de Adobe Campaign, aplique el siguiente proceso:
 
 1. Cree la conexión.
 1. Inicie sesión para crear la instancia relacionada.
@@ -60,7 +60,7 @@ Para crear una nueva instancia, siga los pasos a continuación:
 
    El nombre de la instancia agregada al nombre de dominio no debe exceder los 40 caracteres. Esto le permite restringir el tamaño de los encabezados &quot;Message-ID&quot; y evita que los mensajes se consideren spam, especialmente por herramientas como SpamAssassin.
 
-1. En los **[!UICONTROL DNS masks]** campos, introduzca la **lista de máscaras** DNS a las que debe adjuntarse la instancia. El servidor de Adobe Campaign utiliza el nombre de host que aparece en las solicitudes HTTP para determinar la instancia a la que se debe llegar.
+1. En los **[!UICONTROL DNS masks]** campos, introduzca la **lista de las máscaras** DNS a las que debe adjuntarse la instancia. El servidor de Adobe Campaign utiliza el nombre de host que aparece en las solicitudes HTTP para determinar la instancia a la que se debe llegar.
 
    El nombre de host se encuentra entre la cadena **https://** y el primer carácter **/** de barra diagonal de la dirección del servidor.
 
@@ -74,7 +74,7 @@ Para crear una nueva instancia, siga los pasos a continuación:
 
    Además, el servidor debe ser capaz de conectarse a sí mismo con este nombre y, si es posible, con una dirección de loopback - 127.0.0.1 -, especialmente para permitir que los informes se exporten en formato PDF.
 
-1. En la lista **[!UICONTROL Language]** desplegable, seleccione el idioma **de la** instancia: Inglés (EE.UU.), inglés (Reino Unido), francés o japonés.
+1. En la **[!UICONTROL Language]** lista desplegable, seleccione el idioma **de la** instancia: Inglés (EE.UU.), inglés (Reino Unido), francés o japonés.
 
    En [esta sección](../../platform/using/adobe-campaign-workspace.md#date-and-time)se describen las diferencias entre el inglés de EE.UU. y el inglés del Reino Unido.
 
