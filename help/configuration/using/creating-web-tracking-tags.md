@@ -11,25 +11,25 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 discoiquuid: 647ca037-4efb-4524-9642-11056d096aea
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 6%
 
 ---
 
 
 # Creación de etiquetas de seguimiento web{#creating-web-tracking-tags}
 
-Se debe hacer referencia a cada página del sitio que desee rastrear en la plataforma de Adobe Campaign. Esta referencia se puede realizar de dos maneras:
+Cada página del sitio que desee rastrear debe ser referenciada en su plataforma de Adobe Campaign. Esta referencia se puede realizar de dos maneras:
 
 1. Definición manual de las direcciones URL que se rastrearán,
 1. Creación sobre la marcha de direcciones URL para rastrear.
 
 ## Definición de las direcciones URL que se rastrearán en la aplicación {#defining-the-urls-to-be-tracked-in-the-application}
 
-Este método permite definir manualmente las páginas que se rastrearán y, a continuación, generar un ejemplo de la etiqueta de seguimiento web asociada. Esta operación se define en el **[!UICONTROL Campaign execution>Resources>Web tracking tags]** nodo de la consola de cliente.
+Este método permite definir manualmente las páginas que se rastrearán y, a continuación, generar un ejemplo de la etiqueta de seguimiento Web asociada. Esta operación se define en el **[!UICONTROL Campaign execution>Resources>Web tracking tags]** nodo de la consola de cliente.
 
 ![](assets/d_ncs_integration_webtracking_screen.png)
 
