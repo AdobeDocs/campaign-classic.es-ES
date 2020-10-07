@@ -11,11 +11,8 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 discoiquuid: 24d4875b-81fa-4bf3-8cf0-e6998bec4949
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 4%
@@ -49,7 +46,7 @@ Este método también resalta a los usuarios que crean demasiados objetos.
 
 Debe haber menos de 1000 envíos en la instancia en cualquier momento. Tener muchos envíos consume espacio en la base de datos y crea problemas. Una instancia que crea más de 10 envíos al día debe comprobarse en función de los requisitos comerciales. Considere utilizar envíos continuos para crear menos envíos. Para obtener más información, consulte [esta sección](../../workflow/using/continuous-delivery.md).
 
-Los Envíos mayores de dos años deben ser purgados de la instancia.
+Los envíos mayores de dos años deben ser purgados de la instancia.
 
 ## Archivos {#files}
 
@@ -61,7 +58,7 @@ Si un flujo de trabajo importa archivos y no utiliza las funciones estándar, de
 
 ## Registros y datos transaccionales {#transactional-data-and-logs}
 
-Cada [flujo de trabajo](../../workflow/using/data-life-cycle.md#work-table) que importa datos en Adobe Campaign hace que aumente el tamaño de la base de datos.
+Cada [flujo de trabajo](../../workflow/using/data-life-cycle.md#work-table) que importa datos a Adobe Campaign hace que aumente el tamaño de la base de datos.
 
 Compruebe que los flujos de trabajo de limpieza o depuración se están ejecutando y purgando los registros de forma efectiva. Todos los registros y datos transaccionales deben eliminarse. La tarea de limpieza purga únicamente las tablas estándar: seguimiento y registros amplios. Las tablas específicas deben eliminarse con flujos de trabajo específicos. Consulte [esta sección](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs).
 
