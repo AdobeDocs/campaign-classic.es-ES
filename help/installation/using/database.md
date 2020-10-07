@@ -1,7 +1,7 @@
 ---
-title: Base de datos
-seo-title: Base de datos
-description: Base de datos
+title: Database
+seo-title: Database
+description: Database
 seo-description: null
 page-status-flag: never-activated
 uuid: b318365c-8846-4c1d-b5f7-ece55fb8c4af
@@ -11,20 +11,20 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 discoiquuid: 1dcf01af-c2f3-4975-ba05-628d52952064
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c25e2a4f2280cdcc61e0522f8235149410b5dacf
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '307'
+ht-degree: 2%
 
 ---
 
 
-# Base de datos{#database}
+# Database{#database}
 
 El servidor de base de datos puede ejecutarse en cualquier sistema operativo, independientemente del sistema operativo que utilice el servidor de aplicaciones o los servidores, siempre que haya conectividad de red entre ellos.
 
-El sistema operativo del servidor de bases de datos no es importante siempre que esté disponible la conectividad con los diferentes componentes de Adobe Campaign.
+El sistema operativo del servidor de la base de datos no es importante mientras esté disponible la conectividad con los diferentes componentes de Adobe Campaign.
 
 Compruebe también la sección Capas [de acceso a la](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers) base de datos.
 
@@ -88,6 +88,6 @@ También puede consultar [Oracle Client en Linux](../../installation/using/insta
 
 Le recomendamos que instale la compatibilidad con UTF-8 al instalar el motor de procesamiento de la base de datos. De esta manera podrá crear bases de datos Unicode.
 
-**Tema relacionado**
+**Temas relacionados**
 
-* [Opción sin registrar en las tablas de Adobe Campaign Classic](https://helpx.adobe.com/campaign/kb/unlogged-tables-classic.html)
+* [Opción sin registrar en tablas de Adobe Campaign Classic](https://helpx.adobe.com/campaign/kb/unlogged-tables-classic.html)
