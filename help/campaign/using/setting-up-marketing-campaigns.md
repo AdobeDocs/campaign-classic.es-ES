@@ -11,12 +11,9 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 1a139e1704a7df38a7b8088e23c972864f8ad998
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '1227'
 ht-degree: 100%
 
@@ -175,6 +172,7 @@ Para crear la campaña recurrente y ejecutar sus flujos de trabajo según la pro
 
    * **[!UICONTROL To be approved]** : permite forzar las solicitudes de aprobación de envíos en el flujo de trabajo.
    * **[!UICONTROL To be started]**: permite iniciar el flujo de trabajo cuando se llega a la fecha de inicio.
+
    El campo **[!UICONTROL Create in advance for]** permite crear todos los flujos de trabajo que abarcan el periodo introducido.
 
    Tras la ejecución del flujo de trabajo **[!UICONTROL Jobs on campaigns]**, se crean los flujos de trabajo específicos según los casos definidos en la programación de campaña. Por lo tanto, se crea un flujo de trabajo para cada fecha de ejecución.
