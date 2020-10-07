@@ -11,11 +11,11 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 discoiquuid: bbb1154f-2818-489c-9860-0e860596cbf7
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 36beb1eca48c698634c7548e0f931ab3fe17c021
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 98%
 
 ---
 
@@ -126,7 +126,7 @@ Para configurar y crear el bloque de recomendación, siga estos pasos:
 
    ![](assets/s_ncs_admin_survey_viral_sample_8.png)
 
-   El destinatario del reenvío se añade a la carpeta del visitante en el **[!UICONTROL Administration > Visitors node]**:
+   The referee is added to the visitor folder in the **[!UICONTROL Administration > Visitors node]**:
 
    ![](assets/s_ncs_admin_survey_viral_sample_9.png)
 
