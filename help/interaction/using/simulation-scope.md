@@ -11,11 +11,11 @@ audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 discoiquuid: ef658468-e20b-45d9-a714-c152e55c1c79
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 84%
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ## Definición del ámbito {#definition-of-the-scope}
 
-Abra la pestaña **[!UICONTROL Alcance]** para elegir los ajustes.
+Open the **[!UICONTROL Scope]** tab to choose your settings.
 
 Los siguientes campos son obligatorios:
 
@@ -51,9 +51,9 @@ También se puede optar por realizar la simulación en todas las ofertas o solo 
 
 ## Adición de ejes al sistema de informes {#adding-reporting-axes}
 
-Se puede mejorar el análisis de la simulación añadiendo ejes de informe al destino o a las propias ofertas mediante la pestaña **[!UICONTROL Cálculos]**.
+You can enhance the simulation analysis by adding reporting axes on the target or the offers themselves via the **[!UICONTROL Calculations]** tab.
 
-Para ello, haga clic en el icono **[!UICONTROL Añadir]** y seleccione los campos adecuados. Los ejes se utilizan para determinar la simulación y se visualizan en el informe de análisis. Para obtener más información, consulte [Simulación de seguimiento](../../interaction/using/simulation-tracking.md).
+To do this, click the **[!UICONTROL Add]** button and choose the appropriate fields. Los ejes se utilizan para determinar la simulación y se visualizan en el informe de análisis. Para obtener más información, consulte [Simulación de seguimiento](../../interaction/using/simulation-tracking.md).
 
 ![](assets/offer_simulation_011.png)
 
