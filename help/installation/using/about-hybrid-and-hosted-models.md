@@ -11,11 +11,11 @@ audience: installation
 content-type: reference
 topic-tags: hybrid-and-hosted-models
 discoiquuid: cf6dd02f-f493-4a83-ba77-b4544f63cab0
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 26%
 
 ---
 
@@ -26,4 +26,4 @@ Si tiene un modelo de hospedaje alojado o híbrido, no necesita leer este docume
 
 En esta [sección](../../installation/using/hosting-models.md)se presentan los distintos modelos de alojamiento.
 
-Para obtener más información sobre las principales diferencias entre los modos de implementación, consulte [este artículo](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+Para obtener más información sobre las principales diferencias entre los modos de implementación, consulte [este artículo](https://helpx.adobe.com/es/campaign/kb/acc-on-prem-vs-hosted.html).
