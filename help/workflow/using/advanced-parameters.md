@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 discoiquuid: f66f1ff5-3601-4eb8-b05d-6f99164890ae
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 La pantalla de propiedades de una actividad tiene una pestaña **[!UICONTROL Advanced]** que permite definir un comportamiento en caso de errores, establecer el periodo de ejecución de la actividad e introducir una secuencia de comandos de inicialización. Existen dos versiones de esta pestaña:
 
-* una versión simplificada (para las actividades **[!UICONTROL Start]** y **[!UICONTROL End]**, por ejemplo)
+* a simplified version (for **[!UICONTROL Start]** and **[!UICONTROL End]** activities for instance)
 
    ![](assets/wf-advanced-basic.png)
 
@@ -50,7 +50,7 @@ Generalmente, estas opciones se seleccionan en el carro haciendo clic con el bot
 
 * **[!UICONTROL Normal]**: la actividad se ejecuta de la forma habitual.
 * **[!UICONTROL Do not activate]**: esta tarea y todas las tareas siguientes (en la misma rama) no se ejecutan.
-* **[!UICONTROL Activate but do not execute]**: esta tarea y todas las tareas siguientes (en la misma rama) se detienen automáticamente. Esto puede resultar útil si desea estar presente cuando comience la tarea. Para ejecutar la tarea manualmente, haga clic con el botón derecho en la actividad y seleccione **[!UICONTROL Normal execution]**.
+* **[!UICONTROL Activate but do not execute]**:: esta tarea y todas las siguientes tareas (en la misma rama) se detienen automáticamente. Esto puede resultar útil si desea estar presente cuando comience la tarea. Para ejecutar la tarea manualmente, haga clic con el botón derecho en la actividad y seleccione **[!UICONTROL Normal execution]**.
 
 ## Afinidad {#affinity}
 
@@ -58,14 +58,14 @@ Este campo le permite forzar la ejecución de una actividad en un equipo especí
 
 ## Max. periodo de ejecución {#max--execution-period}
 
-Este campo permite establecer una advertencia para los casos en los que la tarea tarde demasiado. No afecta a la operación del flujo de trabajo. Si la tarea no ha terminado para el momento en que se realizó el **[!UICONTROL Max. el periodo de ejecución]** ha finalizado, la página de **[!UICONTROL supervisión de la instancia]** mostrará una advertencia para este flujo de trabajo. Se accede a esta página a través de la pestaña **[!UICONTROL Monitoring]** de la página principal.
+Este campo permite establecer una advertencia para los casos en los que la tarea tarde demasiado. No afecta a la operación del flujo de trabajo. If the task isn&#39;t finished by the time the **[!UICONTROL Max. execution period]** is over, the **[!UICONTROL Instance monitoring]** page will show a warning for this workflow. Se accede a esta página a través de la pestaña **[!UICONTROL Monitoring]** de la página principal.
 
 ## Comportamiento {#behavior}
 
 Este campo permite definir el comportamiento que se debe aplicar al utilizar tareas asíncronas. Hay dos opciones posibles:
 
 * **[!UICONTROL Several tasks authorized]**: se pueden ejecutar varias tareas a la vez, incluso si no ha finalizado la primera.
-* **[!UICONTROL The current task has priority]**: las tareas en curso tienen prioridad. Mientras una tarea esté en curso, no se ejecuta ninguna otra tarea.
+* **[!UICONTROL The current task has priority]**:: Las tareas en curso son prioritarias. Mientras una tarea esté en curso, no se ejecuta ninguna otra tarea.
 
 ## Zona horaria {#time-zone}
 
@@ -75,7 +75,7 @@ Este campo permite seleccionar la zona horaria de la actividad. Para más inform
 
 Este campo permite definir la acción que debe llevarse a cabo cuando la actividad presenta errores. Hay dos opciones posibles:
 
-* **[!UICONTROL Stop the process]**: el flujo de trabajo se detiene automáticamente. El estado cambia a **[!UICONTROL Error]**. Una vez resuelto el problema, reinicie el flujo de trabajo.
+* **[!UICONTROL Stop the process]**:: el flujo de trabajo se detiene automáticamente. Su estado cambia a **[!UICONTROL Failed]**. Una vez resuelto el problema, reinicie el flujo de trabajo.
 * **[!UICONTROL Ignore]**: esta tarea y todas las tareas siguientes (en la misma rama) no se ejecutan. Esto puede resultar útil para tareas recurrentes. Si la rama tiene un planificador en una posición anterior, este se ejecuta con normalidad en la siguiente fecha de ejecución.
 
 ## Secuencia de comandos de inicialización {#initialization-script}
