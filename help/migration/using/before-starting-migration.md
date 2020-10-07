@@ -11,11 +11,11 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 discoiquuid: d8877378-fb43-4f32-91c6-60f2f788f916
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '410'
+ht-degree: 3%
 
 ---
 
@@ -58,7 +58,7 @@ El procedimiento de migración debe llevarse a cabo en **todos** los servidores 
    1. Migrar el servidor de correo (mta).
    1. Migrar los servidores de redirección y seguimiento (Apache / IIS).
 
-* En el caso de una plataforma **de mensajería en** nube, los servidores de ejecución se alojan en Adobe Campaign. Póngase en contacto con Adobe Campaign para coordinar la migración entre diferentes servidores.
+* En el caso de una plataforma **de mensajería** en la nube, los servidores de ejecución están alojados en Adobe Campaign. Póngase en contacto con Adobe Campaign para coordinar la migración entre diferentes servidores.
 * En el caso de una plataforma **** Power Booster o Power Cluster, los pasos de migración son los siguientes:
 
    1. Migrar los servidores de redirección y seguimiento (Apache / IIS).
