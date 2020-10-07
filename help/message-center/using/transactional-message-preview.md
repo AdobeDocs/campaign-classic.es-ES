@@ -11,11 +11,11 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 discoiquuid: 3bc88f9c-cc42-4bf6-a318-0093c73e4d82
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '57'
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ Una vez que haya creado una o varias direcciones semilla y el cuerpo del mensaje
 
    ![](assets/messagecenter_preview_001.png)
 
-1. Seleccione **[!UICONTROL A seed address]** de la lista desplegable.
+1. Select **[!UICONTROL A seed address]** in the drop-down list.
 
    ![](assets/messagecenter_preview_002.png)
 
