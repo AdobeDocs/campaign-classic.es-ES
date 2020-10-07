@@ -11,11 +11,8 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 discoiquuid: bc06c00d-f421-452e-bde0-b4ecc12c72c8
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 656b867686dd90f3e921c2adb5e5676fec184803
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1976'
 ht-degree: 1%
@@ -50,7 +47,7 @@ La asignación SQL de nuestro esquema de ejemplo proporciona el siguiente docume
 
 El elemento raíz del esquema ya no es **`<srcschema>`**, sino **`<schema>`**.
 
-Esto nos lleva a otro tipo de documento, que se genera automáticamente a partir del esquema de origen, llamado simplemente esquema. Este esquema será utilizado por la aplicación Adobe Campaign.
+Esto nos lleva a otro tipo de documento, que se genera automáticamente a partir del esquema de origen, llamado simplemente esquema. La aplicación Adobe Campaign utilizará este esquema.
 
 Los nombres SQL se determinan automáticamente según el nombre y el tipo del elemento.
 
@@ -210,7 +207,7 @@ Las claves obedecen las siguientes reglas:
 
 >[!NOTE]
 >
->Las claves se crean durante la asignación de tablas (estándar o FDA), Adobe Campaign encuentra índices únicos.
+>Las claves se crean durante la asignación de tablas (estándar o FDA), Adobe Campaign busca índices únicos.
 
 **Ejemplo**:
 
@@ -411,14 +408,14 @@ Los vínculos obedecen las siguientes reglas:
 
 * Un vínculo hace referencia a uno o varios campos de la tabla de origen a la tabla de destino. Los campos que componen la unión ( `<join>` elemento) no necesitan rellenarse porque se deducen automáticamente de forma predeterminada mediante la clave interna del esquema de destinatario.
 * Se agrega automáticamente un índice a la clave externa del vínculo en el esquema extendido.
-* Un vínculo consiste en dos semiclumbros, donde el primero se declara desde el esquema de origen y el segundo se crea automáticamente en el esquema extendido del esquema de destinatario.
+* Un vínculo consiste en dos semicírculos, donde el primero se declara desde el esquema de origen y el segundo se crea automáticamente en el esquema extendido del esquema de destinatario.
 * Una unión puede ser una unión externa si se agrega el atributo **externalJoin** , con el valor &quot;true&quot; (admitido en PostgreSQL).
 
 >[!NOTE]
 >
 >Como norma, los vínculos son los elementos declarados al final del esquema.
 
-### Ejemplo 1 {#example-1}
+### Example 1 {#example-1}
 
 1-N en relación con la tabla de esquemas &quot;cus:compañía&quot;:
 
@@ -452,7 +449,7 @@ La definición del vínculo se complementa con los campos que componen la unión
 
 La clave externa se agrega automáticamente en un elemento que utiliza las mismas características que el campo asociado en la tabla de destino, con la siguiente convención de nombre: nombre del esquema de destinatario seguido del nombre del campo asociado (&quot;compañía-id&quot; en nuestro ejemplo).
 
-esquema ampliado del destinatario (&quot;cus:compañía&quot;):
+Esquema ampliado del destinatario (&quot;cus:compañía&quot;):
 
 ```
 <schema mappingType="sql" name="company" namespace="cus" xtkschema="xtk:schema">  
@@ -481,7 +478,7 @@ Se agregó un vínculo inverso a la tabla &quot;cus:destinatario&quot; con los s
 * **desenlazado**: el vínculo se declara como un elemento de recopilación para una cardinalidad 1-N (de forma predeterminada)
 * **integridad**: &quot;define&quot; de forma predeterminada (se puede forzar con el atributo &quot;revIntegrity&quot; en la definición del vínculo del esquema de origen).
 
-### Ejemplo 2 {#example-2}
+### Example 2 {#example-2}
 
 En este ejemplo, declararemos un vínculo hacia la tabla de esquema &quot;nms:address&quot;. La unión es una unión externa y se rellena explícitamente con la dirección de correo electrónico del destinatario y el campo &quot;@address&quot; de la tabla vinculada (&quot;nms:address&quot;).
 
