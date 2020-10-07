@@ -9,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 7e5605c8-78f2-4011-b317-96a59c699848
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '412'
+ht-degree: 75%
 
 ---
 
@@ -37,7 +37,7 @@ Aquí se desea crear una consulta con un campo calculado de tipo **[!UICONTROL E
 Siga estos pasos:
 
 1. Abra el Editor de consultas genérico y seleccione la tabla de destinatarios (**[!UICONTROL nms:recipient]**).
-1. En la ventana **[!UICONTROL Data to extract]**, seleccione **[!UICONTROL Last name]**, **[!UICONTROL First name]** y **[!UICONTROL Gender]**.
+1. In the **[!UICONTROL Data to extract]** window, select **[!UICONTROL Last name]**, **[!UICONTROL First name]** and **[!UICONTROL Gender]**.
 
    ![](assets/query_editor_nveau_73.png)
 
@@ -51,38 +51,40 @@ Siga estos pasos:
 
    ![](assets/query_editor_nveau_75.png)
 
-1. En la ventana **[!UICONTROL Export calculated field definition]**, vaya a la ventana **[!UICONTROL Type]** y seleccione **[!UICONTROL Enumerations]**.
+1. Go to the **[!UICONTROL Type]** window of the **[!UICONTROL Export calculated field definition]** window and select **[!UICONTROL Enumerations]**.
 
-   Defina la columna a la que debe hacer referencia el nuevo campo calculado. Para ello, en el menú desplegable **[!UICONTROL Source column]**, seleccione **[!UICONTROL Gender]** en la columna: los valores de destino coinciden con la columna **[!UICONTROL Gender]**.
+   Defina la columna a la que debe hacer referencia el nuevo campo calculado. Para ello, en el menú desplegable **[!UICONTROL Gender]**, seleccione **[!UICONTROL Source column]** en la columna: los valores de destino coinciden con la columna **[!UICONTROL Gender]**.
 
    ![](assets/query_editor_nveau_76.png)
 
    Defina los valores de **Origen** y **Destino**: el valor de destino facilita la lectura del resultado de la consulta. Esta consulta debe devolver el sexo del destinatario y el resultado será 0, 1 o 2.
 
-   Para que se introduzca cada línea “origen-destino”, en **[!UICONTROL List of enumeration values]**, haga clic en **[!UICONTROL Add]**:
+   For each &quot;source-destination&quot; line to be entered, click **[!UICONTROL Add]** in the **[!UICONTROL List of enumeration values]**:
 
    * En la columna **[!UICONTROL Source]**, introduzca el valor de origen de cada sexo (0, 1, 2) en una nueva línea.
    * En la columna **[!UICONTROL Destination]**, introduzca los valores: “No indicado” para la línea “0”, “Hombre” para la línea “1” y “Mujer” para la línea “2”.
-   Seleccione la función **[!UICONTROL Keep the source value]**.
+
+   Seleccione la **[!UICONTROL Keep the source value]** función.
 
    Haga clic en **[!UICONTROL OK]** para aprobar el campo calculado.
 
    ![](assets/query_editor_nveau_77.png)
 
 1. En la ventana **[!UICONTROL Data formatting]**, haga clic en **[!UICONTROL Next]**.
-1. En la ventana de vista previa, **[!UICONTROL start the preview of the data]**.
+1. En la ventana previsualización, **[!UICONTROL start the preview of the data]**.
 
    La columna adicional define el género de 0, 1 y 2:
 
    * 0 para “No indicado”,
    * 1 para “Masculino”,
    * 2 para “Femenino”.
+
    ![](assets/query_editor_nveau_78.png)
 
-   Por ejemplo, si no introduce el género “2” en **[!UICONTROL List of enumeration values]** y la función **[!UICONTROL Generate a warning and continue]** del campo **[!UICONTROL In other cases]** está seleccionada, aparece un registro de advertencia. Este registro indica que no se ha introducido el género “2” (Femenino). Se muestra en el campo **[!UICONTROL Logs generated during export]** de la ventana de vista previa de datos.
+   For example, if you don&#39;t enter gender &quot;2&quot; in the **[!UICONTROL List of enumeration values]**, and the **[!UICONTROL Generate a warning and continue]** function of the **[!UICONTROL In other cases]** field is selected, you will get a warning log. Este registro indica que no se ha introducido el género “2” (Femenino). It is displayed in the **[!UICONTROL Logs generated during export]** field of the data preview window.
 
    ![](assets/query_editor_nveau_79.png)
 
-   Tomemos otro ejemplo y digamos que el valor de la enumeración “2” no se ingresó. Seleccione la función **[!UICONTROL Generate an error and reject the line]** : todos los destinatarios de sexo “2” generan anomalías y el resto de la información de la línea (nombre y apellido, etc.) no se exporta. Se muestra un registro de error en el campo **[!UICONTROL Logs generated during export]** de la ventana de vista previa de datos. Este registro indica que no se ha introducido el valor de enumeración “2”.
+   Tomemos otro ejemplo y digamos que el valor de la enumeración “2” no se ingresó. Select the **[!UICONTROL Generate an error and reject the line]** function: all gender &quot;2&quot; recipients will raise anomalies and the other information in the line (first and last name, etc.) no se exporta. An error log is displayed in the **[!UICONTROL Logs generated during export]** field of the data preview window. Este registro indica que no se ha introducido el valor de enumeración “2”.
 
    ![](assets/query_editor_nveau_80.png)
