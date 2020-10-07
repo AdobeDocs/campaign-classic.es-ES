@@ -11,11 +11,11 @@ audience: production
 content-type: reference
 topic-tags: introduction
 discoiquuid: f4879774-afe5-4556-ab60-9297cabbca2c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 6%
 
 ---
 
@@ -38,15 +38,15 @@ Este diagrama muestra que el único tráfico involucrado en el contexto de una a
 
 ## Arquitectura distribuida {#distributed-architecture}
 
-Adobe Campaign está formado por varios módulos que pueden desglosarse en varios equipos. Este modo operativo tiene varias ventajas:
+Adobe Campaign se compone de varios módulos que pueden desglosarse en varios equipos. Este modo operativo tiene varias ventajas:
 
 * equilibrio de carga,
 * la configuración de la redundancia de módulos,
-* construcción de una arquitectura dividida en varios proveedores de servicios (segmentación de los servicios prestados).
+* construcción de una arquitectura dividida en varios proveedores de servicio (segmentación de los servicios prestados).
 
 ![](assets/architecturerepartie.png)
 
-La distribución de módulos en varias máquinas proporciona una gran flexibilidad de uso y una mayor adaptabilidad.
+La distribución de módulos en varias máquinas ofrece buena flexibilidad de uso y una mayor adaptabilidad.
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ La distribución de módulos en varias máquinas proporciona una gran flexibilid
 
 ## Lista de puertos abiertos {#list-of-open-ports}
 
-| Número de puerto | Módulo o aplicación de Adobe Campaign correspondiente | Configurable |
+| Número de puerto | Módulo o aplicación de Adobe Campaign concernidos | Configurable |
 |---|---|---|
 | 443/tcp u 80/tcp | Servidores Web (Apache/IIS) | SÍ |
 | 6666/udp (local) | Adobe Campaign: Syslogd | SÍ |
