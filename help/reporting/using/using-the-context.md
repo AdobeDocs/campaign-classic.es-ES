@@ -11,11 +11,11 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 72fe6df0-0271-48f9-bd6d-bb1ff25fbdf3
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '488'
+ht-degree: 91%
 
 ---
 
@@ -32,7 +32,7 @@ La utilización de una actividad de tipo **[!UICONTROL Query]** no es obligatori
 
 Esto le permite seleccionar los datos para mostrar en el informe directamente a través de la actividad del informe **[!UICONTROL Page]**.
 
-Para ello, haga clic en el vínculo **[!UICONTROL Filter data...]** de la pestaña **[!UICONTROL Data]**: este vínculo le permite acceder al editor de expresiones para definir una consulta en los datos que se van a analizar.
+To do this, click the **[!UICONTROL Filter data...]** link in the **[!UICONTROL Data]** tab: this link lets you access the expressions editor to define a query on the data to be analyzed.
 
 ![](assets/reporting_filter_data_from_page.png)
 
@@ -61,7 +61,7 @@ Siga estos pasos:
 1. Coloque una página en el gráfico y edítela.
 1. Cree una tabla dinámica.
 1. Vaya a la pestaña **[!UICONTROL Data]** y seleccione el cubo que desea utilizar.
-1. Haga clic en el vínculo **[!UICONTROL Filter data...]** y defina la siguiente consulta para eliminar Adobe de la lista de empresas.
+1. Click the **[!UICONTROL Filter data...]** link and define the following query to remove Adobe from the list of companies.
 
    ![](assets/s_ncs_advuser_report_display_03.png)
 
@@ -84,7 +84,7 @@ Por ejemplo, en un cuadro de consulta, cree la siguiente consulta para los desti
 
 ![](assets/s_ncs_advuser_report_datasource_2.png)
 
-Después, indique el origen de los datos en el informe, en este caso **[!UICONTROL Datos de contexto]**.
+Después, indique el origen de los datos en el informe, en este caso: **[!UICONTROL Data from the context]**.
 
 La ubicación de los datos se deduce automáticamente. Si es necesario, puede forzar la ruta de datos.
 
