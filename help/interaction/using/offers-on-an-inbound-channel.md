@@ -11,12 +11,9 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 discoiquuid: 63245348-0402-4929-9c4f-71f01f97758e
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 7c117c549b02cf24b97dc1330e703b711ba14129
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '2093'
 ht-degree: 100%
 
@@ -68,6 +65,7 @@ Se obtiene una estructura de árbol que contiene el nuevo entorno:
    * Contenido HTML
    * URL con imagen
    * URL de destino
+
    ![](assets/offer_inbound_anonymous_example_030.png)
 
 1. Edite la función de procesamiento HTML, por ejemplo:
