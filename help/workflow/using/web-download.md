@@ -11,12 +11,9 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 discoiquuid: 8590cc75-11c8-450d-90e8-56744e12ac70
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: b1a961822224ab0a9551f51942a5f94cf201c8ee
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 100%
 
@@ -58,6 +55,7 @@ La actividad **Web download** inicia la descarga de un archivo en una dirección
    * **[!UICONTROL Use a default storage directory]**: el archivo siempre se mueve antes de procesarse. Si se selecciona esta opción, el archivo se mueve al directorio de almacenamiento predeterminado (el directorio **vars** de la carpeta de instalación de Adobe Campaign). Para especificar un directorio de almacenamiento, anule la selección del cuadro e introduzca su ruta en el campo **[!UICONTROL Storage directory]**
    * **[!UICONTROL Number of files]**: introduzca el número máximo de archivos que se guardarán en el directorio de almacenamiento.
    * **[!UICONTROL Maximum size (in Mb)]**: introduzca la capacidad máxima del directorio de almacenamiento (en megabytes).
+
    Cada archivo se conserva durante 24 horas. Después se somete a las reglas de depuración definidas. La depuración se realiza justo antes del inicio de la actividad y, por tanto, no tiene en cuenta el archivo de flujo de trabajo en curso.
 
    Los archivos se eliminan en función de su antigüedad (del más antiguo al más reciente). Los archivos más antiguos se purgan hasta que se hayan comprobado ambas reglas de purga. Por lo tanto, si se define un límite de 100 archivos, significa que el directorio de almacenamiento contendrá siempre los 100 archivos más recientes (antes del inicio del flujo de trabajo), así como los que se procesan en el flujo de trabajo en curso.
