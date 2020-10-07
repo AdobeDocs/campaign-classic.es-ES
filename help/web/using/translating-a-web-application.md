@@ -11,11 +11,11 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 discoiquuid: 328e5b2f-8596-4eda-8ac5-57cb29bfb691
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '367'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 
 Puede traducir páginas de aplicaciones web creadas con el editor de contenido digital (DCE) de Adobe Campaign.
 
-Si, en la opción **[!UICONTROL Properties]** de una aplicación web, selecciona al menos un idioma adicional en la pestaña **[!UICONTROL Localization]**, se muestra una nueva opción al añadir un bloque de contenido HTML en una página editada con DCE.
+Si, en la opción **[!UICONTROL Localization]** de una aplicación web, selecciona al menos un idioma adicional en la pestaña **[!UICONTROL Properties]**, se muestra una nueva opción al añadir un bloque de contenido HTML en una página editada con DCE.
 
 Esta opción le permite indicar si el contenido del bloque debe traducirse o no.
 
