@@ -1,7 +1,7 @@
 ---
-title: Bloquear bases de datos de listas
-seo-title: Bloquear bases de datos de listas
-description: Bloquear bases de datos de listas
+title: Bases de datos de listas de bloqueados
+seo-title: Bases de datos de listas de bloqueados
+description: Bases de datos de listas de bloqueados
 seo-description: null
 page-status-flag: never-activated
 uuid: 8a4a69f9-87d5-4044-bc55-76cdcb2e7800
@@ -11,19 +11,16 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: eede254d-2b25-46ed-b10f-fa1d54780a75
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f99e3a4f69cb2b0122f2f6957d419d6b95ad54b1
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
 
-# Bloquear bases de datos de listas{#blocklisting-databases}
+# Bases de datos de listas de bloqueados{#blocklisting-databases}
 
 Varias organizaciones mantienen las bases de datos de direcciones IP y dominios que suelen utilizar remitentes que envían correo no deseado. Estos sitios pueden ser útiles para comprender por qué algunos mensajes se rechazan como correo no deseado. Por lo general, es posible solicitar la eliminación de una dirección añadida incorrectamente a estas listas.
 
