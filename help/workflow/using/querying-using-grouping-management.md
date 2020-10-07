@@ -9,11 +9,8 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 7e5605c8-78f2-4011-b317-96a59c699848
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f99e3a4f69cb2b0122f2f6957d419d6b95ad54b1
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 64%
@@ -51,7 +48,7 @@ Para crear este ejemplo, aplique los pasos siguientes:
 
    ![](assets/query_editor_nveau_29.png)
 
-1. En la ventana **[!UICONTROL Sorting]**, ordene los dominios de correo electrónico en orden descendente. To do this, check **[!UICONTROL Yes]** in the **[!UICONTROL Descending sort]** column. Haga clic **[!UICONTROL Next]**.
+1. En la ventana **[!UICONTROL Sorting]**, ordene los dominios de correo electrónico en orden descendente. To do this, check **[!UICONTROL Yes]** in the **[!UICONTROL Descending sort]** column. Haga clic en **[!UICONTROL Next]**.
 
    ![](assets/query_editor_nveau_70.png)
 
