@@ -11,18 +11,18 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 discoiquuid: 92c32b2d-d8bf-41ab-9349-ef4a15f10521
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '88'
+ht-degree: 94%
 
 ---
 
 
 # Uso de una lista de distribución externa{#using-an-external-recipient-table}
 
-Si la lista de distribución es una tabla externa, debe realizar ajustes adicionales. Se debe ampliar el esquema **[!UICONTROL nms:seedmember]**. Se añade una pestaña a las direcciones sembradas para definir los campos adecuados, como se muestra a continuación:
+Si la lista de distribución es una tabla externa, debe realizar ajustes adicionales. The **[!UICONTROL nms:seedmember]** schema must be extended. Se añade una pestaña a las direcciones sembradas para definir los campos adecuados, como se muestra a continuación:
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
