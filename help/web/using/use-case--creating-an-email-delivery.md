@@ -11,11 +11,11 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 discoiquuid: 4ec34980-62a2-47b9-b103-de4290925624
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 36beb1eca48c698634c7548e0f931ab3fe17c021
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '740'
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,7 @@ El objetivo final es crear una entrega con una plantilla personalizada que conte
 >
 >Antes de empezar, debe tener al menos una **plantilla HTML** configurada para alojar el contenido de las entregas futuros.
 >
->En las **[!UICONTROL Properties]** de la entrega, asegúrese de que **[!UICONTROL Content editing mode]** (pestaña **[!UICONTROL Advanced]**) está configurada como **[!UICONTROL DCE]**. Para garantizar el funcionamiento óptimo del editor, consulte las [Recomendaciones para la edición de contenido](../../web/using/content-editing-best-practices.md).
+>In the delivery **[!UICONTROL Properties]** , make sure that the **[!UICONTROL Content editing mode]** (in the **[!UICONTROL Advanced]** tab) is set to **[!UICONTROL DCE]**. Para garantizar el funcionamiento óptimo del editor, consulte las [Recomendaciones para la edición de contenido](../../web/using/content-editing-best-practices.md).
 
 ## Paso 1: Creación de una entrega {#step-1---creating-a-delivery}
 
@@ -87,7 +87,7 @@ Se puede guardar este contenido como una plantilla para su uso futuro. Una vez c
 
 * Inserción de un vínculo en el texto
 
-   Para integrar un vínculo externo en el texto de la entrega, seleccione un texto o un bloque de texto y, a continuación, haga clic en el primer icono de la barra de herramientas emergente. Haga clic en **[!UICONTROL Link to an external URL]** e introduzca la dirección del vínculo en el campo **[!UICONTROL URL]**. Para obtener más información, consulte [Adición de un vínculo](../../web/using/editing-content.md#adding-a-link).
+   Para integrar un vínculo externo en el texto de la entrega, seleccione un texto o un bloque de texto y, a continuación, haga clic en el primer icono de la barra de herramientas emergente. Click **[!UICONTROL Link to an external URL]**, enter the link address into the **[!UICONTROL URL]** field. Para obtener más información, consulte [Adición de un vínculo](../../web/using/editing-content.md#adding-a-link).
 
    El vínculo se puede cambiar en cualquier momento con la sección a la derecha de la ventana.
 
@@ -99,7 +99,7 @@ Se puede guardar este contenido como una plantilla para su uso futuro. Una vez c
 
    Para permitir a los destinatarios ver el contenido de la entrega en un navegador web, se puede integrar un vínculo a una página espejo en la entrega.
 
-   Haga clic en el campo de texto en el que desea ver el vínculo publicado. Haga clic en el primer icono de la barra de herramientas emergente, seleccione **[!UICONTROL Personalization block]** y luego **[!UICONTROL Link to Mirror Page (MirrorPage)]**. Haga clic en **[!UICONTROL Guardar]** para confirmar.
+   Haga clic en el campo de texto en el que desea ver el vínculo publicado. Click the first icon in the pop-up toolbar, select **[!UICONTROL Personalization block]**, then **[!UICONTROL Link to Mirror Page (MirrorPage)]**. Haga clic en **[!UICONTROL Save]** para confirmar.
 
    ![](assets/dce_mirrorpage.png)
 
@@ -111,7 +111,7 @@ Se puede guardar este contenido como una plantilla para su uso futuro. Una vez c
 
    El editor de contenido permite integrar vínculos a aplicaciones web desde la consola de Adobe Campaign, como una página de destino o una página de formulario. Para obtener más información, consulte [Vínculo a una aplicación web](../../web/using/editing-content.md#link-to-a-web-application).
 
-   Seleccione un campo de texto para enlazar a una aplicación web y, a continuación, haga clic en el primer icono. Seleccione **[!UICONTROL Link to a Web application]** y luego seleccione la aplicación deseada haciendo clic en el icono situado al final del campo **Web Application**.
+   Seleccione un campo de texto para enlazar a una aplicación web y, a continuación, haga clic en el primer icono. Choose **[!UICONTROL Link to a Web application]**, then select the desired application by clicking the icon at the end of the **Web Application** field.
 
    ![](assets/dce_webapp.png)
 
@@ -119,7 +119,7 @@ Se puede guardar este contenido como una plantilla para su uso futuro. Una vez c
 
    >[!NOTE]
    >
-   >Este paso requiere haber guardado al menos una aplicación web previamente. Se pueden encontrar en la pestaña **[!UICONTROL Campaigns > Web applications]** de la consola.
+   >Este paso requiere haber guardado al menos una aplicación web previamente. These can be found in the **[!UICONTROL Campaigns > Web applications]** tab of your console.
 
 ## Paso 5: Guardado de una entrega {#step-5---saving-the-delivery}
 
