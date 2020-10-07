@@ -11,11 +11,8 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5598682078a8fd3c8d9ecdca083f3a310c48f5f0
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 1%
@@ -81,8 +78,8 @@ Para ejecutar el archivo de actualización, siga los pasos siguientes:
    Para descargar este archivo, vaya a la página de asistencia técnica de Adobe Campaign ( [https://support.neolane.net/](https://support.neolane.net/)) a través del vínculo **Centro** de descargas.
 
 1. Seleccione el modo de instalación: elegir **[!UICONTROL Update or repair]**
-1. Haga clic **[!UICONTROL Next]** .
-1. Haga clic **[!UICONTROL Finish]** .
+1. Haga clic en **[!UICONTROL Next]** .
+1. Haga clic en **[!UICONTROL Finish]** .
 
    A continuación, el programa de instalación copia los nuevos archivos.
 
