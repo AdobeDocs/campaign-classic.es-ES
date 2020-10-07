@@ -11,11 +11,11 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 discoiquuid: 5e24d94a-f9c1-4642-a881-dfc4b5492f14
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: a2cb740fe9b71435f602b738bd270fd3a0954901
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '6022'
+ht-degree: 1%
 
 ---
 
@@ -94,10 +94,12 @@ La secuencia en la que se definen `<attribute>` los elementos en una `<srcschema
 
    * &quot;compartido&quot;: el contenido se almacena en una tabla compartida por tipo de datos
    * &quot;dedicado&quot;: el contenido se almacena en una tabla dedicada
-   Las tablas de características SQL se crean automáticamente en función del tipo de característica:
+
+   Las tablas de características SQL se crean automáticamente según el tipo de característica:
 
    * dedicado: `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
    * shared: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
+
    Existen dos tipos de campos de características: campos sencillos¹ en los que se autorice un valor único en la característica y en los campos de opción múltiple, en los que la característica esté vinculada a un elemento de colección que pueda contener varios valores.
 
    Cuando una característica se define en un esquema, este esquema debe tener una clave principal basada en un solo campo (las claves compuestas no están autorizadas).
@@ -107,17 +109,18 @@ La secuencia en la que se definen `<attribute>` los elementos en una `<srcschema
 * **label (string)**: etiqueta vinculada al campo, principalmente destinada al usuario en la interfaz. Permite evitar restricciones de nombres.
 * **length (string)**: máx. número de caracteres para un valor del campo SQL de tipo &quot;cadena&quot;. Si no se especifica el atributo &quot;@length&quot;, Adobe Campaign crea automáticamente un campo para 255 caracteres.
 * **localizable (booleano)**: si se activa, este atributo indica a la herramienta de recopilación que recupere el valor del atributo &quot;@label&quot; para traducción (uso interno).
-* **name (MNTOKEN)**: nombre del atributo que coincidirá con el nombre del campo en la tabla. El valor del atributo &quot;@name&quot; debe ser corto, preferiblemente en inglés, y cumplir con las restricciones de nomenclatura XML.
+* **name (MNTOKEN)**: nombre del atributo que coincidirá con el nombre del campo en la tabla. El valor del atributo &quot;@name&quot; debe ser corto, preferiblemente en inglés, y cumplir con las restricciones de nombres XML.
 
-   Cuando se escribe el esquema en la base de datos, se añaden automáticamente prefijos al nombre del campo por Adobe Campaign:
+   Cuando el esquema se escribe en la base de datos, Adobe Campaign agrega automáticamente prefijos al nombre del campo:
 
    * &quot;i&quot;: para el tipo &#39;integer&#39;.
    * &quot;d&quot;: para el tipo &#39;doble&#39;.
    * &quot;s&quot;: para el tipo de cadena de caracteres.
    * &quot;ts&quot;: para el tipo &#39;date&#39;.
+
    Para definir completamente el nombre del campo en la tabla, utilice la opción &quot;@sqlname&quot; al definir un atributo.
 
-* **notNull (boolean)**: permite redefinir el comportamiento del Adobe Campaign con respecto a la administración de registros NULOS en la base de datos. De forma predeterminada, los campos numéricos no son nulos y los campos de cadena y tipo de fecha pueden ser nulos.
+* **notNull (boolean)**: permite redefinir el comportamiento de Adobe Campaign con respecto a la administración de registros NULOS en la base de datos. De forma predeterminada, los campos numéricos no son nulos y los campos de cadena y tipo de fecha pueden ser nulos.
 * **pkgStatus (string)**: durante las exportaciones de paquetes, los valores se tienen en cuenta en función del valor de &quot;@pkgStatus&quot;:
 
    * &quot;always&quot;: siempre presente
@@ -161,9 +164,10 @@ La secuencia en la que se definen `<attribute>` los elementos en una `<srcschema
    * primarykey
    * short
    * string
-   * time
+   * tiempo
    * timespan
    * uuid
+
    Si el atributo &quot;@type&quot; se deja vacío, Adobe Campaign vinculará una cadena de caracteres (STRING) con una longitud de 100 al campo de forma predeterminada.
 
    Si el campo es de tipo STRING y el nombre del campo no está especificado por la presencia del atributo &quot;@sqlname&quot;, el nombre del campo en la base de datos estará precedido automáticamente por &#39;s&#39;. Este modo operativo será similar a los campos de tipo INTEGER (i), DOBLE (d) y FECHAS (ts).
@@ -247,7 +251,7 @@ Cuando no `<compute-string>` se define ninguno, se introduce un `<compute-string
 
 ### Descripción del atributo {#attribute-description-1}
 
-* **expr (cadena)**: expresión XTK y/o Xpath
+* **expr (cadena)**: Expresión XTK y/o Xpath
 
 ### Ejemplos {#examples-1}
 
@@ -431,7 +435,7 @@ _operation (string), avanzado (booleano), acumulado (string), aplicableIf (strin
 
 ### Descripción {#description-4}
 
-Hay cuatro tipos de `<element>` elementos en el Adobe Campaign:
+Hay cuatro tipos de `<element>` elementos en Adobe Campaign:
 
 * Raíz `<element>` : define el nombre de la tabla SQL que coincide con el esquema.
 * Estructura `<element>` : define un grupo de `<element>` o `<attribute>` elementos.
@@ -480,10 +484,12 @@ Hay cuatro tipos de `<element>` elementos en el Adobe Campaign:
 
    * &quot;compartido&quot;: el contenido se almacena en una tabla compartida por tipo de datos
    * &quot;dedicado&quot;: el contenido se almacena en una tabla dedicada
-   Las tablas de características SQL se crean automáticamente en función del tipo de característica:
+
+   Las tablas de características SQL se crean automáticamente según el tipo de característica:
 
    * dedicado: `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
    * shared: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
+
    Existen dos tipos de campos de características: campos simples en los que se autoriza un valor único en la característica y en los campos de opción múltiple, en los que la característica está vinculada a un elemento de recopilación que puede contener varios valores.
 
    Cuando una característica se define en un esquema, este esquema debe tener una clave principal basada en un solo campo (las claves compuestas no están autorizadas).
@@ -499,7 +505,7 @@ Hay cuatro tipos de `<element>` elementos en el Adobe Campaign:
 
    Los valores accesibles son:
 
-   * &quot;define&quot;: Adobe Campaign no elimina la entidad si se hace referencia a ella mediante el vínculo
+   * &quot;define&quot;: Adobe Campaign no elimina la entidad si se hace referencia a ella a través del vínculo
    * &quot;normal&quot;: al eliminar la incidencia de origen se inicializan las claves del vínculo en la incidencia de destinatario (modo predeterminado), este tipo de integridad inicializa todas las claves externas
    * &quot;propio&quot;: la eliminación de la incidencia de origen activa la eliminación de la incidencia de destinatario
    * &quot;downcopy&quot;: similar a &quot;propia&quot; (en caso de eliminación) o ocurrencias de duplicados (en caso de duplicación)
@@ -511,17 +517,18 @@ Hay cuatro tipos de `<element>` elementos en el Adobe Campaign:
 * **localizable (booleano)**: si se activa, este atributo indica a la herramienta de recopilación que recupere el valor del atributo &quot;@label&quot; para traducción (uso interno).
 * **name (MNTOKEN)**: nombre interno del elemento que coincide con el nombre de la tabla. El valor del atributo &quot;@name&quot; debe ser corto, preferiblemente en inglés, y cumplir con las restricciones de nombres vinculadas a XML.
 
-   Cuando se escribe el esquema en la base de datos, se añaden automáticamente prefijos al nombre del campo por Adobe Campaign.
+   Cuando el esquema se escribe en la base de datos, Adobe Campaign agrega automáticamente los prefijos al nombre del campo.
 
    * &quot;i&quot;: para el tipo &#39;integer&#39;.
    * &quot;d&quot;: para el tipo &#39;doble&#39;.
    * &quot;s&quot;: para el tipo de cadena de caracteres.
    * &quot;ts&quot;: para el tipo &#39;date&#39;.
+
    Para definir el nombre de la tabla de forma autónoma, debe utilizar el atributo &quot;@sqltable&quot; en la definición del elemento de esquema principal.
 
 * **noDbIndex (boolean)**: permite especificar que el elemento no se indizará.
 * **ordered (booleano)**: si el atributo está activado (ordered=&quot;true&quot;), Adobe Campaign mantiene la secuencia de declaraciones de elementos en un elemento de recopilación XML.
-* **pkSequence (cadena)**: recibe el nombre de la secuencia que se va a utilizar para calcular una clave de aumento automático. Este atributo solo puede utilizarse si se define una clave de aumento automático en el elemento raíz del esquema.
+* **pkSequence (cadena)**: recibe el nombre de la secuencia que se va a utilizar para calcular una clave de aumento automático. Este atributo solo se puede utilizar si se define una clave de aumento automático en el elemento raíz del esquema.
 * **pkgStatus (string)**: durante las exportaciones de paquetes, los valores se tendrán en cuenta como función del valor de este atributo:
 
    * &quot;always&quot;: el elemento siempre estará presente
@@ -537,7 +544,8 @@ Hay cuatro tipos de `<element>` elementos en el Adobe Campaign:
 
    * &quot;single&quot; : Vínculo simple de tipo 1-1
    * &quot;sin enlazar&quot;: Vínculo de colección de tipo 1-N
-   De forma predeterminada, si no se especifica el atributo durante la creación del vínculo, la cardinalidad será 1-N.
+
+   De forma predeterminada, si el atributo no se especifica durante la creación del vínculo, la cardinalidad será 1-N.
 
 * **revDesc (cadena)**: este atributo recibe una descripción vinculada al vínculo opuesto.
 * **revExternalJoin (booleano)**: cuando se activa, este atributo permite forzar la unión externa en el vínculo opuesto.
@@ -547,7 +555,7 @@ Hay cuatro tipos de `<element>` elementos en el Adobe Campaign:
 * **revTarget (cadena)**: destinatario del vínculo opuesto.
 * **sql (booleano)**: si este atributo está activado (@sql=&quot;true&quot;), fuerza el almacenamiento del elemento SQL, aunque el elemento tenga la propiedad xml=&quot;true&quot;.
 * **sqlname (string)**: nombre del campo durante la creación de la tabla. Si no se especifica &quot;@sqlname&quot;, el valor del atributo &quot;@name&quot; se utiliza de forma predeterminada. Al escribir el esquema en la tabla, los prefijos se agregan automáticamente en función del tipo de campo.
-* **sqltable (string)**: para el elemento principal del esquema, este atributo sobrecarga el nombre de la tabla SQL generada de forma predeterminada. Si no se especifica &quot;@sqltable&quot;, el nombre predeterminado se estructurará de esta manera: Área de nombres (primera letra mayúscula) seguida del valor del SrcSchema &quot;@name&quot;.
+* **sqltable (string)**: para el elemento principal del esquema, este atributo sobrecarga el nombre de la tabla SQL generada de forma predeterminada. Si no se especifica &quot;@sqltable&quot;, el nombre predeterminado se estructurará de esta manera: área de nombres (primera letra mayúscula) seguida del valor del SrcSchema &quot;@name&quot;.
 * **tableSpace (cadena)**: este atributo permite especificar un nuevo tablespace de almacenamiento de datos para una tabla (válido en la raíz `<element>`).
 * **tableSpaceIndex (string)**: este atributo permite especificar un nuevo tablespace de almacenamiento de índice para una tabla (válido en la raíz `<element>`).
 * **destinatario (MNTOKEN)**: recibe el nombre del esquema de destinatario al crear un vínculo entre tablas. Este atributo solo está activo para elementos de tipo &quot;link&quot;.
@@ -581,12 +589,12 @@ Hay cuatro tipos de `<element>` elementos en el Adobe Campaign:
    * primarykey
    * short
    * string
-   * time
+   * tiempo
    * timespan
    * uuid
 
 * **unbound (booleano)**: si el atributo está activado (unbound=&quot;true&quot;), el vínculo se declara como un elemento de recopilación para una cardinalidad 1-N.
-* **userEnum (string)**: recibe el nombre interno de una lista desglosada &quot;abierta&quot;. El usuario puede definir los valores de Lista desglosada en la interfaz.
+* **userEnum (string)**: recibe el nombre interno de una lista desglosada &quot;abierta&quot;. El usuario puede definir los valores de lista desglosada en la interfaz.
 * **xml (booleano)**: si se activa esta opción, todos los valores definidos en el elemento se almacenan en XML en un campo TEXTO de tipo &quot;mData&quot;. Esto significa que no habrá filtrado ni ordenación en estos campos.
 * **xmlChildren (booleano)**: fuerza el almacenamiento de cada niño ( `<element>  or  <attribute>   ) of the   <element>    element in an XML document.   </element>  </attribute> </element>`
 
@@ -620,7 +628,7 @@ Este elemento nos permite definir una lista desglosada de valor. Una lista desgl
 
 ### Uso y contexto de uso {#use-and-context-of-use-4}
 
-Las Listas desglosadas se definen en el inicio de un esquema (antes de definir el elemento principal).
+Las listas desglosadas se definen en el inicio de un esquema (antes de definir el elemento principal).
 
 ### Descripción del atributo {#attribute-description-5}
 
@@ -653,7 +661,7 @@ Las Listas desglosadas se definen en el inicio de un esquema (antes de definir e
    * primarykey
    * short
    * string
-   * time
+   * tiempo
    * timespan
    * uuid
 
@@ -874,7 +882,7 @@ Este elemento define los campos que se integrarán en un índice o una clave.
 
 ### Descripción del atributo {#attribute-description-9}
 
-* **xlink (MNTOKEN)**: permite hacer referencia automáticamente a claves externas definidas en la unión para una tabla de relación (vínculo N-N).
+* **xlink (MNTOKEN)**: le permite hacer referencia automáticamente a claves externas definidas en la unión para una tabla de relación (vínculo N-N).
 * **xpath (MNTOKEN)**: definición de un índice o una clave en un `<attribute>` elemento. Este atributo recibe un Xpath que define la ruta al atributo esquema que define la clave o el índice.
 
 ### Ejemplos {#examples-}
@@ -1049,7 +1057,7 @@ Este elemento permite definir un parámetro para llamar a un método SOAP.
    * primarykey
    * short
    * string
-   * time
+   * tiempo
    * timespan
    * uuid
 
@@ -1132,14 +1140,14 @@ El `<srcschema>` es el elemento raíz de un esquema. Es el punto de entrada para
 
 ### Uso y contexto de uso {#use-and-context-of-use-9}
 
-La presentación de Esquema está disponible en [Acerca de la referencia](../../configuration/using/about-schema-reference.md) de esquema y la estructura [de](../../configuration/using/schema-structure.md)Esquema.
+La presentación de esquema está disponible en [Acerca de la referencia](../../configuration/using/about-schema-reference.md) de esquema y la estructura [de](../../configuration/using/schema-structure.md)Esquema.
 
 ### Descripción del atributo {#attribute-description-14}
 
 * **created (datetime)**: este atributo proporciona información sobre la fecha y hora de creación del esquema. Tiene el formulario &quot;Fecha y hora&quot;. Los valores mostrados se toman del servidor. La hora se muestra en formato UTC.
 * **createdBy-id (long)**: es el identificador del operador que creó el esquema.
 * **desc (cadena)**: Descripción del esquema
-* **entitySchema (cadena)**: esquema básico en el que se basan la sintaxis y la aprobación (de forma predeterminada para Adobe Campaign: xtk:srcSchema). Al guardar el esquema actual, Adobe Campaign aprobará su gramática con el esquema declarado en el atributo @xtkschema.
+* **entitySchema (cadena)**: esquema básico en el que se basan la sintaxis y la aprobación (de forma predeterminada para Adobe Campaign: xtk:srcSchema). Cuando guarde el esquema actual, Adobe Campaign aprobará su gramática con el esquema declarado en el atributo @xtkschema.
 * **expandedSchema (cadena)**: recibe el nombre del esquema predeterminado en el que se basa la extensión de esquema actual. El formulario es &quot;Área de nombres:nombre&quot;.
 * **img (cadena)**: icono vinculado al esquema (puede definirse en el asistente para la creación de esquemas).
 * **label (string)**: Etiqueta de esquema.
@@ -1155,7 +1163,7 @@ La presentación de Esquema está disponible en [Acerca de la referencia](../../
 
 * **modifiedBy-id (long)**: coincide con el identificador del operador que cambió el esquema.
 * **name (string)**: nombre de esquema único.
-* **Área de nombres (cadena)**: Área de nombres del esquema (predeterminado: nms, xtk, nl). Al crear un nuevo esquema para un proyecto, le recomendamos que utilice una Área de nombres dedicada.
+* **área de nombres (cadena)**: área de nombres del esquema (predeterminado: nms, xtk, nl). Al crear un nuevo esquema para un proyecto, le recomendamos que utilice una Área de nombres dedicada.
 * **useRecycleBin (boolean)**: activa la función de papelera en la aplicación. Los registros eliminados se colocarán en la papelera antes de la eliminación final. Esta función solo está disponible en modo &quot;Envío&quot;.
 * **vista (booleana)**: si se activa (@vista=&quot;true&quot;), el esquema se utilizará como vista. El asistente para la actualización de la estructura de la base de datos no tendrá en cuenta el esquema. Esta opción se utiliza principalmente para hacer referencia a tablas externas.
 * **xtkschema (string)**: nombre del esquema que define la gramática del esquema (xtk:srcSchema de forma predeterminada).
