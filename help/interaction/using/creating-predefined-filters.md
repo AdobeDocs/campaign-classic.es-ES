@@ -11,11 +11,11 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 discoiquuid: d47017a3-a342-4758-a700-b8e88aa724f2
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 28614a6b0c45deef17d9b3275a16e65bdff4538b
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ Los filtros predefinidos permiten crear reglas de idoneidad para la población d
 
 Para crear un filtro, siga los siguientes pasos:
 
-1. Vaya a la carpeta **[!UICONTROL Administration]** y seleccione **[!UICONTROL Pre-defined offer filters]**.
+1. Go to the **[!UICONTROL Administration]** folder and select **[!UICONTROL Pre-defined offer filters]**.
 
    ![](assets/offer_filter_create_005.png)
 
