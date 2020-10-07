@@ -11,18 +11,18 @@ audience: social
 content-type: reference
 topic-tags: configuration
 discoiquuid: 32f81ae9-396d-4bb6-8c81-6b75744f529d
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 81%
 
 ---
 
 
 # Inicio de un flujo de trabajo {#starting-workflows}
 
-Los flujos de trabajo de **[!UICONTROL Administración de redes sociales]**, a los que se accede mediante el nodo **[!UICONTROL Administración > Producción > Flujos de trabajo técnicos > Administración de redes sociales]**, permiten sincronizar Adobe Campaign con Twitter y Facebook.
+Los **[!UICONTROL Managing social networks]** flujos de trabajo, a los que se accede a través del **[!UICONTROL Administration > Production > Technical workflows > Managing social networks]** nodo, le permiten sincronizar Adobe Campaign con Twitter y Facebook.
 
 La primera vez que utilice Social Marketing, estos flujos de trabajo se detendrán de forma predeterminada. Para iniciarlos, haga clic en el botón **[!UICONTROL Start]** de la barra de herramientas.
 
