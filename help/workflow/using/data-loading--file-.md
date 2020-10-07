@@ -9,11 +9,8 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: dcb5b8e8-be38-4d89-908d-f57c2413a9bc
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9c9554b83726da7a7dbc747878d7d0758e71a4d7
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 98%
@@ -118,6 +115,7 @@ El ejemplo siguiente permite recopilar un fichero en el servidor todos los días
 
    * la primera columna contiene un código que coincide con el evento: compra (más o menos que 3000 euros), sin compras ni reembolsos en una o más compras.
    * Las cuatro columnas siguientes contienen el nombre, apellido, correo electrónico y número de cuenta del cliente.
+
    La configuración del formato del archivo que se va a cargar coincide con el definido durante una importación de datos en Adobe Campaign. Para obtener más información, consulte [esta sección](../../platform/using/importing-data.md#step-2---source-file-selection).
 
 1. En la actividad dividida, especifique los subconjuntos que desea crear, según el valor de la columna **Event**.
