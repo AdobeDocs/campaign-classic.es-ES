@@ -11,17 +11,17 @@ audience: production
 content-type: reference
 topic-tags: introduction
 discoiquuid: 8b33e6af-15c3-4b30-8ad6-d76a1f33be21
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '83'
+ht-degree: 4%
 
 ---
 
 
 # Prefacio{#foreword}
 
-Este documento detalla los procedimientos de producción para Adobe Campaign: configuración, supervisión, proceso de actualización, procesamiento de datos, procedimiento de mantenimiento de la base de datos y recomendaciones. Al final de este documento hay disponible una sección de solución de problemas.
+Este documento detalla los procedimientos de producción para Adobe Campaign: configuración, supervisión, proceso de actualización, procesamiento de datos, procedimiento de mantenimiento de la base de datos y recomendaciones. Hay una sección de solución de problemas disponible al final de este documento.
 
 Los procedimientos de producción deben llevarse a cabo con cautela, sus efectos deben ser objeto de un examen previo y el procedimiento debe llevarse a cabo con rigor. Sólo debe ser realizado por un usuario experto. Recomendamos encarecidamente ponerse en contacto con Adobe Campaign antes de iniciar cualquier procedimiento de producción, especialmente los pasos posteriores a la actualización.
