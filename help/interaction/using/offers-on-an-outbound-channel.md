@@ -11,11 +11,11 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 discoiquuid: 3bd113c3-da67-4f4f-aa40-f4c7860a8569
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 94%
 
 ---
 
@@ -69,7 +69,7 @@ En nuestra base de datos, existe una categoría de ofertas de viajes a África. 
 
 ## Realizar una simulación de oferta {#perform-an-offer-simulation}
 
-1. En el entorno **[!UICONTROL Profiles and Targets]**, haga clic en el vínculo **[!UICONTROL Simulations]**, luego, haga clic en **[!UICONTROL Create]**.
+1. In the **[!UICONTROL Profiles and Targets]** universe, click the **[!UICONTROL Simulations]** link, then click the **[!UICONTROL Create]** button.
 
    ![](assets/offer_simulation_001.png)
 
@@ -81,7 +81,7 @@ En nuestra base de datos, existe una categoría de ofertas de viajes a África. 
 
    ![](assets/offer_simulation_example_003.png)
 
-1. Haga clic en la pestaña **[!UICONTROL Edit]** y luego en **[!UICONTROL Scope]**.
+1. Click the **[!UICONTROL Edit]** tab, then **[!UICONTROL Scope]**.
 
    ![](assets/offer_simulation_example_004.png)
 
@@ -110,7 +110,7 @@ En nuestra base de datos, existe una categoría de ofertas de viajes a África. 
 
    ![](assets/offer_simulation_example_009.png)
 
-1. Guarde la configuración y, en la pestaña **[!UICONTROL Dashboard]**, haga clic en **[!UICONTROL Start]** para ejecutar la simulación.
+1. Guarde la configuración y, en la pestaña **[!UICONTROL Start]**, haga clic en **[!UICONTROL Dashboard]** para ejecutar la simulación.
 
    ![](assets/offer_simulation_example_010.png)
 
@@ -120,7 +120,7 @@ En nuestra base de datos, existe una categoría de ofertas de viajes a África. 
 
    ![](assets/offer_simulation_example_011.png)
 
-1. Despliegue **[!UICONTROL Breakdown of offers by rank]** para ver la lista de ofertas seleccionadas por el motor de ofertas.
+1. Display the **[!UICONTROL Breakdown of offers by rank]** to view the list of offers selected by the offer engine.
 
    ![](assets/offer_simulation_example_012.png)
 
