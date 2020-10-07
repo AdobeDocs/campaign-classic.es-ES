@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
 discoiquuid: c363a7cf-81a5-4c02-a021-b822eeeadd03
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 70f51ba3937d0f20d9a488c61b52b7ec4396fa5e
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 92%
 
 ---
 
@@ -45,7 +45,7 @@ Se puede configurar el modo de recuperación de “logs” de envío desde la pe
 Existen dos modos:
 
 * **[!UICONTROL Messages are considered sent after validation]** (modo predeterminado): en este modo de función, todos los broadlogs se actualizan cuando el operador confirma la entrega (su estado pasa de “Envío pendiente” a “Enviado”) y la entrega se establece automáticamente como **[!UICONTROL Finished]**.
-* **[!UICONTROL A file of results determines the messages that are sent and those that have failed]**: este modo permite actualizar los broadlogs a través de un archivo externo enviado por el proveedor de servicios. En este caso, se debe utilizar un flujo de trabajo que procese esta información para actualizar el estado del broadlog.
+* **[!UICONTROL A file of results determines the messages that are sent and those that have failed]** :: este modo le permite actualizar los logs de banda ancha mediante un archivo externo enviado por el proveedor de servicio. En este caso, se debe utilizar un flujo de trabajo que procese esta información para actualizar el estado del broadlog.
 
    >[!NOTE]
    >
