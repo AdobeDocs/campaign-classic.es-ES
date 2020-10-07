@@ -11,18 +11,18 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: a128caac-5740-4dac-b14d-1d2fcef3cc69
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 75%
 
 ---
 
 
 # Carga de datos (RDBMS){#data-loading-rdbms}
 
-La actividad **[!UICONTROL Carga de datos (RDBMS)]** permite acceder a esta base de datos externa directamente y recopilar solamente los datos necesarios para el objetivo.
+The **[!UICONTROL Data loading (RDBMS)]** activity lets you access this external database directly and to collect only the data required for targeting.
 
 Para mejorar el rendimiento, recomendamos utilizar la actividad de consulta (donde se pueden utilizar los datos de una base de datos externa). Para obtener más información, consulte [Acceso a una base de datos externa (FDA)](../../workflow/using/accessing-an-external-database--fda-.md).
 
@@ -32,15 +32,15 @@ La operación es la siguiente:
 
    ![](assets/s_advuser_wf_sgbd_sample_1.png)
 
-   El nombre de la tabla introducida en el campo correspondiente se utiliza como plantilla para recopilar datos en la base de datos externa. El nombre de la tabla procesada por el flujo de trabajo se puede calcular o transmitir mediante la transición de entrada de la actividad de carga de datos. Para seleccionar la tabla que se va a utilizar, haga clic en **[!UICONTROL Avanzado.]**. y seleccione la opción **[!UICONTROL Especificado en la transición]** o **[!UICONTROL Explícito]** .
+   El nombre de la tabla introducida en el campo correspondiente se utiliza como plantilla para recopilar datos en la base de datos externa. El nombre de la tabla procesada por el flujo de trabajo se puede calcular o transmitir mediante la transición de entrada de la actividad de carga de datos. To select the table to be used, click the **[!UICONTROL Advanced..]**. y seleccione la **[!UICONTROL Specified in the transition]** opción o **[!UICONTROL Explicit]** .
 
    ![](assets/s_advuser_wf_sgbd_sample_5.png)
 
-1. Haga clic en el vínculo **[!UICONTROL Seleccionar las columnas para extraer...]** para elegir los datos que se deben recopilar en la base de datos.
+1. Click the **[!UICONTROL Select the columns to extract...]** link to choose the data to be collected in the database.
 
    ![](assets/s_advuser_wf_sgbd_sample_2.png)
 
-1. Puede definir un filtro en estos datos. Para ello, haga clic en la pestaña **[!UICONTROL Editar consulta...Vínculo]**.
+1. Puede definir un filtro en estos datos. Para ello, haga clic en el vínculo **[!UICONTROL Edit query....]**.
 
    Los datos recopilados de esta manera se pueden utilizar en todo el ciclo de vida del flujo de trabajo.
 
