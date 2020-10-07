@@ -11,11 +11,11 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 discoiquuid: 2b799ad7-b729-4b3e-9adc-1df13259f2a9
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '510'
+ht-degree: 94%
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 Los vínculos en interacción permiten modificar el **comportamiento del motor estándar**.
 
-Los vínculos **[!UICONTROL Target loading]** y **[!UICONTROL Proposition post-processing]** están configurados, en Adobe Campaign, en el espacio de oferta:
+The **[!UICONTROL Target loading]** and **[!UICONTROL Proposition post-processing]** hooks are configured, in Adobe Campaign, in the offer space:
 
 ![](assets/interaction_hooks_1.png)
 
@@ -124,7 +124,7 @@ return aReturnedProps;
 
 Este vínculo permite realizar una llamada a un motor externo para seleccionar una lista de productos vinculados a una oferta. Se configura en la oferta después de las reglas de idoneidad y antes de la aplicación de reglas de tipología.
 
-Primero, el integrador debe ampliar el esquema **PropositionRcp** de propuestas con la información adicional del producto. Para especificar dónde se van a almacenar los datos, hay un vínculo **[!UICONTROL Propuesta en proceso]** disponible en la pestaña **[!UICONTROL Storage]** del espacio.
+Primero, el integrador debe ampliar el esquema **PropositionRcp** de propuestas con la información adicional del producto. To specify where this data will be stored, a **[!UICONTROL Proposition being processed]** link is available in the **[!UICONTROL Storage]** tab of the space
 
 ![](assets/interaction_hooks_3.png)
 
