@@ -11,11 +11,8 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 discoiquuid: da2198a3-7cef-4419-894d-e5bb51bb480c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '7859'
 ht-degree: 8%
@@ -271,7 +268,7 @@ Estos son los diferentes parámetros del nodo **dataStore > proxyAdjustment** . 
   </tr> 
   <tr> 
    <td> urlRegEx<br /> </td> 
-   <td> Expresión regular para que coincidan las direcciones URL. Por ejemplo: http://server\.lan\.net.*<br /> </td> 
+   <td> Expresión regular para que coincidan con las direcciones URL. Por ejemplo: http://server\.lan\.net.*<br /> </td> 
    <td> Cadena<br /> </td> 
   </tr> 
  </tbody> 
@@ -731,7 +728,7 @@ Estos son los diferentes parámetros del nodo del **módulo** . Esta es la confi
 
 ## monitoring {#monitoring}
 
-Estos son los diferentes parámetros del nodo de **supervisión** . Esta es la configuración del servicio de monitoreo.
+Estos son los distintos parámetros del nodo de **supervisión** . Esta es la configuración del servicio de monitoreo.
 
 <table> 
  <thead> 
@@ -1618,7 +1615,7 @@ En el nodo de **caché** , configure los parámetros siguientes. Ésta es la con
   </tr> 
   <tr> 
    <td> purgePeriodSec<br /> </td> 
-   <td> Frecuencia de purga: período en segundos entre las ejecuciones del mecanismo de depuración de caché.<br /> </td> 
+   <td> Frecuencia de purga: período en segundos entre ejecuciones del mecanismo de depuración de caché.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 3600<br /> </td> 
   </tr> 
@@ -2392,7 +2389,7 @@ Estos son los diferentes parámetros del nodo **sms > netsize** .
 
 ## stat {#stat}
 
-Estos son los diferentes parámetros del nodo **stat** . Esta es la configuración del módulo de estadísticas de MTA.
+Estos son los diferentes parámetros del nodo **stat** . Ésta es la configuración del módulo de estadísticas de MTA.
 
 <table> 
  <thead> 
