@@ -1,5 +1,5 @@
 ---
-title: Uso de la tabla de Destinatarios de Adobe Campaign Classic
+title: Uso de la tabla Destinatario de Adobe Campaign Classic
 description: Aprenda a utilizar la tabla de destinatarios lista para usar en Adobe Campaign Classic al diseñar el modelo de datos.
 page-status-flag: never-activated
 uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
@@ -9,11 +9,8 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '3997'
 ht-degree: 1%
@@ -31,9 +28,9 @@ Lea [esta documentación](../../configuration/using/about-schema-reference.md) p
 
 ## Información general {#overview}
 
-El sistema de Adobe Campaign es extremadamente flexible y puede ampliarse más allá de la implementación inicial. Sin embargo, aunque las posibilidades son infinitas, es fundamental tomar decisiones acertadas y construir bases sólidas para el inicio del diseño del modelo de datos.
+El sistema Adobe Campaign es extremadamente flexible y puede ampliarse más allá de la implementación inicial. Sin embargo, aunque las posibilidades son infinitas, es fundamental tomar decisiones acertadas y construir bases sólidas para el inicio del diseño del modelo de datos.
 
-Este documento proporciona casos de uso comunes y optimizaciones para aprender a diseñar correctamente la herramienta de Adobe Campaign.
+Este documento proporciona casos de uso comunes y optimizaciones para aprender a diseñar correctamente la herramienta Adobe Campaign.
 
 ## Arquitectura del modelo de datos {#data-model-architecture}
 
@@ -41,7 +38,7 @@ Adobe Campaign Standard es un potente sistema de gestión de la campaña entre c
 
 ### Enfoque centrado en el cliente {#customer-centric-approach}
 
-Aunque la mayoría de los proveedores de servicio de correo electrónico se comunican a los clientes mediante un enfoque centrado en la lista, el Adobe Campaign depende de una base de datos relacional para aprovechar una vista más amplia de los clientes y sus atributos.
+Aunque la mayoría de los proveedores de servicio de correo electrónico se comunican a los clientes mediante un enfoque centrado en la lista, Adobe Campaign depende de una base de datos relacional para aprovechar una vista más amplia de los clientes y sus atributos.
 
 Este enfoque centrado en el cliente se muestra en el gráfico siguiente. La mesa de **Destinatario** en gris representa la mesa principal del cliente en torno a la cual se está construyendo todo:
 
@@ -61,7 +58,7 @@ El modelo de datos predeterminado de Adobe Campaign se presenta en [este documen
 
 >[!NOTE]
 >
->Adobe Campaign no es ni un almacén de datos ni una herramienta de sistema de informes. Por lo tanto, no intente importar en Adobe Campaign todos los posibles clientes y la información asociada a ellos, ni importar datos que solo se utilizarán para generar informes.
+>Adobe Campaign no es ni un almacén de datos ni una herramienta de sistema de informes. Por lo tanto, no intente importar todos los clientes posibles y la información asociada a Adobe Campaign, ni importar datos que solo se utilizarán para generar informes.
 
 Para tomar la decisión de si un atributo sería necesario o no en Adobe Campaign, pregunte si se incluiría en una de estas categorías:
 
@@ -73,14 +70,14 @@ Si no cae en ninguno de estos, lo más probable es que no necesite este atributo
 
 ### Elección de tipos de datos {#data-types}
 
-Para garantizar una buena arquitectura y un buen rendimiento de su sistema, siga las optimizaciones a continuación para configurar los datos en Adobe Campaign.
+Para garantizar una buena arquitectura y rendimiento de su sistema, siga las optimizaciones que se describen a continuación para configurar los datos en Adobe Campaign.
 
 * Una tabla grande debe tener principalmente campos numéricos y contener vínculos a tablas de referencia (al trabajar con lista de valores).
 * El **atributo expr** permite definir un atributo esquema como un campo calculado en lugar de un valor de conjunto físico en una tabla. Esto puede permitir el acceso a la información en un formato diferente (por ejemplo, en cuanto a la edad y la fecha de nacimiento) sin necesidad de almacenar ambos valores. Es una buena manera de evitar la duplicación de campos. Por ejemplo, la tabla Destinatario utiliza una expresión para el dominio, que ya está presente en el campo de correo electrónico.
 * Sin embargo, cuando el cálculo de la expresión es complejo, no se recomienda usar el atributo **expr** porque el cálculo sobre la marcha puede afectar al rendimiento de sus consultas.
 * El tipo **XML** es una buena forma de evitar la creación de demasiados campos. Pero también ocupa espacio en disco porque utiliza una columna CLOB en la base de datos. También puede generar consultas SQL complejas y afectar al rendimiento.
 * La longitud de un campo de **cadena** siempre debe definirse con la columna. De forma predeterminada, la longitud máxima en Adobe Campaign es 255, pero Adobe recomienda mantener el campo más corto si ya sabe que el tamaño no excederá una longitud más corta.
-* Es aceptable tener un campo de Adobe Campaign más corto que en el sistema de origen si está seguro de que el tamaño del sistema de origen se sobreestimó y no se alcanzaría. Esto podría significar una cadena más corta o un número entero más pequeño en Adobe Campaign.
+* Es aceptable tener un campo más corto en Adobe Campaign que en el sistema de origen si está seguro de que el tamaño del sistema de origen se sobreestimó y no se alcanzaría. Esto podría significar una cadena más corta o un número entero menor en Adobe Campaign.
 
 ### Elección de campos {#choice-of-fields}
 
@@ -113,7 +110,7 @@ En la tabla siguiente se describen estos identificadores y su finalidad.
 | Identifier | Descripción | Prácticas recomendadas |
 |--- |--- |--- |
 | Id | <ul><li>La ID es la clave principal física de una tabla de Adobe Campaign. Para las tablas integradas, se trata de un número generado de 32 bits a partir de una secuencia</li><li>Este identificador suele ser único para una instancia de Adobe Campaign específica. </li><li>Un ID generado automáticamente puede ser visible en una definición de esquema. Busque el atributo *autopk=&quot;true&quot;* .</li></ul> | <ul><li>Los identificadores generados automáticamente no deben utilizarse como referencia en un flujo de trabajo o en una definición de paquete.</li><li>No se debe suponer que la identificación siempre será un número creciente.</li><li>El identificador de una tabla lista para usar es un número de 32 bits y este tipo no debe cambiarse. Este número se toma de una &quot;secuencia&quot; cubierta en la sección con el mismo nombre.</li></ul> |
-| Nombre (o nombre interno) | <ul><li>Esta información es un identificador único de un registro de una tabla. Este valor se puede actualizar manualmente, generalmente con un nombre generado.</li><li>Este identificador mantiene su valor cuando se implementa en una instancia de Adobe Campaign diferente y no debe estar vacío.</li></ul> | <ul><li>Cambie el nombre del registro generado por Adobe Campaign si el objeto está pensado para implementarse de un entorno a otro.</li><li>Cuando un objeto tiene un atributo de Área de nombres (*esquema* , por ejemplo), esta Área de nombres común se aprovecha en todos los objetos personalizados creados. Algunas Áreas de nombres reservadas no deben usarse: *nms*, *xtk*.</li><li>Cuando un objeto no tiene ninguna Área de nombres (*flujo de trabajo* o *envío* , por ejemplo), esta noción de Área de nombres se agregaría como prefijo de un objeto de nombre interno: *namespaceMyObjectName*.</li><li>No utilice caracteres especiales como espacio &quot;&quot;, semicolumna &quot;:&quot; o guión &quot;-&quot;. Todos estos caracteres se reemplazarían por un guión bajo &quot;_&quot; (carácter permitido). Por ejemplo, &quot;abc-def&quot; y &quot;abc:def&quot; se almacenarían como &quot;abc_def&quot; y se sobrescribirían entre sí.</li></ul> |
+| Nombre (o nombre interno) | <ul><li>Esta información es un identificador único de un registro de una tabla. Este valor se puede actualizar manualmente, generalmente con un nombre generado.</li><li>Este identificador mantiene su valor cuando se implementa en una instancia diferente de Adobe Campaign y no debe estar vacío.</li></ul> | <ul><li>Cambie el nombre del registro generado por Adobe Campaign si el objeto está pensado para implementarse de un entorno a otro.</li><li>Cuando un objeto tiene un atributo de Área de nombres (*esquema* , por ejemplo), esta Área de nombres común se aprovecha en todos los objetos personalizados creados. Algunas Áreas de nombres reservadas no deben usarse: *nms*, *xtk*.</li><li>Cuando un objeto no tiene ninguna Área de nombres (*flujo de trabajo* o *envío* , por ejemplo), esta noción de Área de nombres se agregaría como prefijo de un objeto de nombre interno: *namespaceMyObjectName*.</li><li>No utilice caracteres especiales como espacio &quot;&quot;, semicolumna &quot;:&quot; o guión &quot;-&quot;. Todos estos caracteres se reemplazarían por un guión bajo &quot;_&quot; (carácter permitido). Por ejemplo, &quot;abc-def&quot; y &quot;abc:def&quot; se almacenarían como &quot;abc_def&quot; y se sobrescribirían entre sí.</li></ul> |
 | Etiqueta | <ul><li>La etiqueta es el identificador comercial de un objeto o registro en Adobe Campaign.</li><li>Este objeto permite espacios y caracteres especiales.</li><li>No garantiza la singularidad de un registro.</li></ul> | <ul><li>Se recomienda determinar una estructura para las etiquetas de los objetos.</li><li>Esta es la solución más fácil de usar para identificar un registro u objeto para un usuario de Adobe Campaign.</li></ul> |
 
 ## Claves internas personalizadas {#custom-internal-keys}
@@ -122,7 +119,7 @@ Las claves principales son necesarias para cada tabla creada en Adobe Campaign.
 
 La mayoría de las organizaciones están importando registros de sistemas externos. Aunque la clave física de la tabla de Destinatario es el atributo &quot;id&quot;, también es posible determinar una clave personalizada.
 
-Esta clave personalizada es la clave principal de registro real en el Adobe Campaign de alimentación del sistema externo.
+Esta clave personalizada es la clave principal de registro real en el sistema externo que alimenta a Adobe Campaign.
 
 Cuando una tabla lista para usar tiene una autoprueba y una clave interna, la clave interna se configurará como un índice único en la tabla de la base de datos física.
 
@@ -148,13 +145,13 @@ Existen dos tipos de secuencias:
 >
 >La secuencia es un valor entero de 32 bits, con un número máximo finito de valores disponibles: 2.140 millones. Después de alcanzar el valor máximo, la secuencia regresa a 0 para reciclar los identificadores.
 >
->Si no se han depurado los datos antiguos, el resultado será una infracción de clave única, que se convertirá en un bloqueador del estado y uso de la plataforma. El Adobe Campaign no podría enviar comunicaciones (cuando impacte la tabla de registro de envíos) y el rendimiento se vería muy afectado.
+>Si no se han depurado los datos antiguos, el resultado será una infracción de clave única, que se convertirá en un bloqueador del estado y uso de la plataforma. Adobe Campaign no podría enviar comunicaciones (cuando repercuta en la tabla de registro de envíos) y las prestaciones se verían muy afectadas.
 
 Por lo tanto, un cliente que envía 6.000 millones de correos electrónicos anualmente con un período de retención de 180 días para sus registros se quedaría sin ID en 4 meses. Para evitar este desafío, asegúrese de tener la configuración de purga según los volúmenes. Para obtener más información, consulte [esta sección](#data-retention).
 
-Cuando se crea una tabla personalizada en Adobe Campaign con una clave principal como autoPK, se debe asociar sistemáticamente una secuencia personalizada dedicada con esa tabla.
+Cuando se crea una tabla personalizada en Adobe Campaign con una clave principal como autoPK, se debe asociar sistemáticamente una secuencia dedicada personalizada con esa tabla.
 
-De forma predeterminada, una secuencia personalizada tendrá valores que oscilarán entre +1000 y +2,1BB. Técnicamente, es posible obtener una gama completa de 4BB habilitando identificadores negativos. Debe utilizarse con cuidado y se perderá una identificación al pasar de números negativos a positivos: Adobe Campaign Classic suele ignorar el registro 0 en las consultas SQL generadas.
+De forma predeterminada, una secuencia personalizada tendrá valores que oscilarán entre +1000 y +2,1BB. Técnicamente, es posible obtener una gama completa de 4BB habilitando identificadores negativos. Debe utilizarse con cuidado y se perderá una identificación al pasar de números negativos a positivos: adobe campaign classic suele ignorar el registro 0 en las consultas SQL generadas.
 
 **Temas relacionados:**
 * Para obtener más información sobre la función de generación **automática de** secuencias, consulte [este documento](https://helpx.adobe.com/es/campaign/kb/sequence_auto_generation.html).
@@ -182,7 +179,7 @@ Sin embargo, tenga en cuenta lo siguiente:
 ### Ejemplo
 
 La administración de índices puede llegar a ser muy compleja, por lo que es importante comprender cómo funcionan. Para ilustrar esta complejidad, veamos un ejemplo básico, como buscar destinatarios, filtrando el nombre y los apellidos. Para ello:
-1. Vaya a la carpeta que lista todos los destinatarios de la base de datos. Para obtener más información sobre esto, consulte [Administración de perfiles](../../platform/using/managing-profiles.md).
+1. Vaya a la carpeta que lista todos los destinatarios de la base de datos. For more on this, see [Managing profiles](../../platform/using/managing-profiles.md).
 1. Haga clic con el botón secundario en el **[!UICONTROL First name]** campo.
 1. Seleccione **[!UICONTROL Filter on this field]**.
 
@@ -209,7 +206,7 @@ La siguiente tabla muestra en qué casos se utilizan o no los tres índices desc
 | El nombre es igual a &quot;Johnny&quot; | Utilizado | Utilizado | No utilizado | Como el nombre está en la primera posición del índice 1, se utilizará de todas formas: no es necesario agregar un criterio al apellido. |
 | El nombre es igual a &quot;Johnny&quot; Y el apellido es igual a &quot;Smith&quot; | Utilizado | No utilizado | No utilizado | Como ambos atributos se buscan en la misma consulta, solo se utilizará el índice que combina ambos atributos. |
 | El apellido es igual a &quot;Smith&quot; | No utilizado | No utilizado | Utilizado | Se tiene en cuenta el orden de los atributos en el índice. Si no coincide con este orden, puede que no se utilice el índice. |
-| inicios de nombre con &quot;Joh&quot; | Utilizado | Utilizado | No utilizado | &quot;Búsqueda izquierda&quot; habilitará los índices. |
+| Inicios de nombre con &quot;Joh&quot; | Utilizado | Utilizado | No utilizado | &quot;Búsqueda izquierda&quot; habilitará los índices. |
 | El nombre termina con &quot;nny&quot; | No utilizado | No utilizado | No utilizado | La &quot;búsqueda correcta&quot; deshabilitará los índices y se realizará un análisis completo. Algunos tipos de índice específicos pueden gestionar este caso de uso, pero no están disponibles de forma predeterminada en Adobe Campaign. |
 | El nombre contiene &quot;John&quot; | No utilizado | No utilizado | No utilizado | Es una combinación de búsquedas &quot;izquierda&quot; y &quot;derecha&quot;. Debido a esto último, deshabilitará los índices y se realizará un análisis completo. |
 | El nombre es igual a &quot;john&quot; | No utilizado | No utilizado | No utilizado | Los índices distinguen entre mayúsculas y minúsculas. Para que no distinga entre mayúsculas y minúsculas, debe crear un índice específico que incluya una función SQL como &quot;top(firstname)&quot;. Debe hacer lo mismo con otras transformaciones de datos como &quot;unacento(nombre de pila)&quot;. |
@@ -250,7 +247,7 @@ Los vínculos que realizan una unión externa (1-0..1) deben utilizarse con cuid
 
 ## Retención de datos: limpieza y purga {#data-retention}
 
-Adobe Campaign no es ni un almacén de datos ni una herramienta de sistema de informes. Por lo tanto, para garantizar un buen rendimiento de la solución de Adobe Campaign, el crecimiento de la base de datos debe mantenerse bajo control. Para lograrlo, puede ser útil seguir algunas de las prácticas recomendadas a continuación.
+Adobe Campaign no es ni un almacén de datos ni una herramienta de sistema de informes. Por lo tanto, para garantizar un buen rendimiento de la solución Adobe Campaign, el crecimiento de la base de datos debe mantenerse bajo control. Para lograrlo, puede ser útil seguir algunas de las prácticas recomendadas a continuación.
 
 De forma predeterminada, el envío y los registros de seguimiento de Adobe Campaign tienen una duración de retención de 180 días. Se ejecuta un proceso de limpieza para eliminar cualquier registro anterior al anterior.
 
@@ -261,9 +258,9 @@ De forma predeterminada, el envío y los registros de seguimiento de Adobe Campa
 >
 >Las tablas personalizadas no se purgan con el proceso de limpieza estándar. Si bien esto puede no ser necesario en el primer día, no olvide crear un proceso de purga para las tablas personalizadas, ya que esto podría provocar problemas de rendimiento.
 
-Existen algunas soluciones para minimizar la necesidad de registros en el Adobe Campaign:
-* Exporte los datos en un almacén de datos fuera del Adobe Campaign.
-* Genere valores agregados que utilicen menos espacio mientras sean suficientes para sus prácticas de mercadotecnia. Por ejemplo: no necesita el historial completo de transacciones de cliente en Adobe Campaign para realizar un seguimiento de las últimas compras.
+Existen algunas soluciones para minimizar la necesidad de registros en Adobe Campaign:
+* Exporte los datos en un almacén de datos fuera de Adobe Campaign.
+* Genere valores agregados que utilicen menos espacio mientras sean suficientes para sus prácticas de mercadotecnia. Por ejemplo: no necesita el historial completo de transacciones con clientes en Adobe Campaign para realizar un seguimiento de las últimas compras.
 
 Puede declarar el atributo &quot;deleteStatus&quot; en un esquema. Es más eficaz marcar el registro como eliminado y posponer la eliminación en la tarea de limpieza.
 
@@ -290,7 +287,7 @@ Para garantizar un mejor rendimiento en cualquier momento, siga las optimizacion
 
 ## Tablas grandes {#large-tables}
 
-Adobe Campaign se basa en motores de base de datos de terceros. Según el proveedor, la optimización del rendimiento para tablas más grandes puede requerir un diseño específico.
+Adobe Campaign depende de motores de base de datos de terceros. Según el proveedor, la optimización del rendimiento para tablas más grandes puede requerir un diseño específico.
 
 A continuación se detallan algunas prácticas recomendadas comunes que deben seguirse al diseñar el modelo de datos mediante tablas grandes y combinaciones complejas.
 
@@ -311,7 +308,7 @@ Por ejemplo: si la base de datos contiene 10 millones de destinatarios, la tabla
 
 En PostgreSQL, una fila no debe superar los 8 KB para evitar el mecanismo [TOAST](https://wiki.postgresql.org/wiki/TOAST) . Por lo tanto, intente reducir en la medida de lo posible el número de columnas y el tamaño de cada fila para mantener un rendimiento óptimo del sistema (memoria y CPU).
 
-El número de filas también afecta al rendimiento. La base de datos de Adobe Campaign no está diseñada para almacenar datos históricos que no se utilizan activamente con fines de segmentación o personalización; se trata de una base de datos operativa.
+El número de filas también afecta al rendimiento. La base de datos de Adobe Campaign no está diseñada para almacenar datos históricos que no se utilizan activamente con fines de segmentación o personalización, es decir, una base de datos operativa.
 
 Para evitar cualquier problema de rendimiento relacionado con el elevado número de filas, mantenga sólo los registros necesarios en la base de datos. Cualquier otro registro debe exportarse a un almacén de datos de terceros y eliminarse de la base de datos operativa de Adobe Campaign.
 
