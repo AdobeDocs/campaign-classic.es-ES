@@ -11,11 +11,11 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 discoiquuid: 57988b00-62cc-43d3-a2eb-bfed5bff7dc1
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '324'
+ht-degree: 6%
 
 ---
 
@@ -28,7 +28,7 @@ Este método consiste en enviar una llamada HTTP al servidor de redirección med
 
 >[!IMPORTANT]
 >
->Este método utiliza las cookies enviadas por el explorador Web para identificar al destinatario y no es 100% confiable.
+>Este método utiliza las cookies enviadas por el explorador Web para identificar el destinatario y no es 100% confiable.
 
 **Ejemplo**:
 
@@ -40,9 +40,9 @@ La etiqueta insertada se pone en contacto con el servidor de redirección.
 
 ![](assets/d_ncs_integration_webtracking_structure2.png)
 
-Al definir una página para rastrear en la consola, puede generar una etiqueta de seguimiento web de muestra para copiarla y pegarla en el código fuente de la página web.
+Al definir una página que se rastreará en la consola, puede generar una etiqueta de seguimiento web de muestra para copiarla y pegarla en el código fuente de la página web.
 
-Sin embargo, cuando se utilizan etiquetas de tipo TRANSACTION, se debe modificar la etiqueta de muestra mediante JavaScript para insertar la información de transacción (cantidad, número de elementos) y cualquier información definida por un esquema de extensión.
+Sin embargo, al utilizar las etiquetas de tipo TRANSACTION, debe modificar la etiqueta de muestra mediante JavaScript para insertar la información de la transacción (cantidad, número de elementos) y cualquier información definida por un esquema de extensión.
 
 ### Inserción estática de etiquetas {#static-insertion-of-tags}
 
@@ -133,7 +133,7 @@ Cuando las páginas web se generan de forma dinámica, puede agregar la etiqueta
 
 Si desea controlar la información enviada al servidor de redirección, la forma más fiable es realizar la consulta HTTP sincrónicamente con un lenguaje de generación de páginas.
 
-La dirección URL que cree debe obedecer las reglas de sintaxis definidas en la etiqueta de seguimiento [web: definición](../../configuration/using/web-tracking-tag--definition.md).
+La dirección URL que cree debe obedecer las reglas de sintaxis definidas en la [Etiqueta de seguimiento web: definición](../../configuration/using/web-tracking-tag--definition.md).
 
 ![](assets/d_ncs_integration_webtracking_structure3.png)
 
@@ -141,7 +141,7 @@ La dirección URL que cree debe obedecer las reglas de sintaxis definidas en la 
 >
 >La redirección y el seguimiento web utilizan cookies, y es importante que el servidor web que realiza la llamada HTTP sincrónica esté en el mismo dominio que el servidor de redirección. Los distintos intercambios HTTP deben transmitir las cookies &#39;id&#39;, &#39;uuid&#39; y &#39;uuid230&#39;.
 
-**Ejemplo**: Generación dinámica en Java, con autenticación de destinatario mediante su número de cuenta.
+**Ejemplo**: Generación dinámica en Java, con autenticación de destinatario usando su número de cuenta.
 
 ```
 [...]
