@@ -11,14 +11,11 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: edb8f495fff90f51ae00006453b6ec09d84a8f55
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2639'
-ht-degree: 82%
+ht-degree: 88%
 
 ---
 
@@ -38,21 +35,21 @@ _15 de septiembre de 2020_
 
 * En las propiedades de envío, se ha cambiado el nombre de la **[!UICONTROL Archive emails]** opción **[!UICONTROL Email BCC]** para mejorar la experiencia del usuario.
 * Se ha corregido un problema con el mecanismo de caché de URL que no recuperaba la etiqueta o la categoría.
-* Se ha corregido un problema que provocaba que las direcciones URL de página espejo se definieran incorrectamente en los envíos de correo electrónico (debido a un control incorrecto de caracteres ASCII). (NEO-26084)
+* Se ha corregido el problema que provocaba que las direcciones URL de página espejo se definieran incorrectamente en los envíos de correo electrónico (debido a un control incorrecto de caracteres ASCII). (NEO-26084)
 * Se ha actualizado la lista jarsToSkip en catalina.properties para eliminar la referencia a un archivo jar que ya no se utilizaba (notificaciones de iOS).
 * Se ha corregido un problema de regresión que impedía la publicación después de la actualización.
 * Se ha corregido una regresión con informes de envío listos para usar que aparecían truncados al exportarse a PDF. (NEO-25757)
-* Se ha corregido un problema que eliminaba el valor del parámetro de codificación al redirigir desde una URL de seguimiento (afectaba a los caracteres japoneses). (NEO-25637)
+* Se ha corregido el problema que eliminaba el valor del parámetro de codificación al redirigir desde una URL de seguimiento (impacto en los caracteres japoneses). (NEO-25637)
 * Se ha corregido un problema que provocaba que los vínculos sin firmar de dominios personalizados se bloquearan cuando deberían permitirse. (NEO-25210)
-* Se ha corregido una regresión que afectaba a los campos calculados de un flujo de trabajo y que provocaba que éste fallara. (NEO-25194)
+* Se ha corregido la regresión que afectaba a los campos calculados de un flujo de trabajo y que provocaba un error. (NEO-25194)
 * Se ha corregido un problema de compatibilidad con Microsoft Dynamics (de la versión 8.2) que podía impedir la ejecución de algunas llamadas de API (RetrieveAllEntities). (NEO-24528)
-* Se ha corregido un problema de regresión al utilizar la función de conector ACS que impedía la conexión a una instancia de Campaign Standard (administración incorrecta de la conexión FOH/FOH2). (NEO-23433)
-* Se ha corregido un problema de regresión en la conexión de base de datos que provocaba que el servidor web se reiniciara constantemente debido a un problema de codificación de la base de datos. Esto podría conducir a un consumo excesivo. (NEO-23264)
+* Se ha corregido un problema de regresión al utilizar la función del conector de ACS que impedía la conexión a una instancia de Campaign Standard (administración incorrecta de la conexión FOH/FOH2). (NEO-23433)
+* Se ha corregido un problema de regresión en la conexión de la base de datos que provocaba que el servidor web se reiniciara constantemente debido a un problema de codificación de la base de datos. Esto podría causar un consumo excesivo. (NEO-23264)
 
 
 
-* Se ha corregido un problema con el flujo de trabajo de limpieza de la base de datos que podía fallar debido a que el origen de datos no se administraba. (NEO-23160, NEO-23364)
-* El flujo de trabajo de limpieza ahora purga las listas caducadas por lotes de 100 en lugar de una por una.
+* Se ha corregido un problema con el flujo de trabajo de limpieza de base de datos que podía fallar debido a una fuente de datos no administrada. (NEO-23160, NEO-23364)
+* El flujo de trabajo de limpieza ahora purga las listas caducadas por lotes de a100 en lugar de a una por una.
 * Después del cambio al [nuevo mecanismo de ID de secuencia](https://helpx.adobe.com/es/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence), todas las aplicaciones web que actualizan la tabla de destinatario se vuelven a publicar después de la actualización.
 * Se ha corregido un problema que impedía enviar correos electrónicos cuando había código Javascript fuera de la etiqueta de contenido HTML. (NEO-18628)
 * Se ha corregido un problema que impedía que el flujo de trabajo de seguimiento actualizara los indicadores de seguimiento de mensajes transaccionales. (NEO-17770)
@@ -62,7 +59,7 @@ _15 de septiembre de 2020_
 
 
 
-* Se ha corregido un problema posterior a la actualización que desactivaba Apache y el servidor web antes de la republicación de la aplicación web. (NEO-27155)
+* Se ha corregido un problema después de la actualización que desactivaba Apache y el servidor web antes de la republicación de la aplicación web. (NEO-27155)
 
 
 
