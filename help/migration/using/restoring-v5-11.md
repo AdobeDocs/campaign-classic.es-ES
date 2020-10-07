@@ -11,11 +11,11 @@ audience: migration
 content-type: reference
 topic-tags: rollback
 discoiquuid: ef778333-8e50-402b-9a69-78ac94497c67
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9482a99c3be164651b3428179388cb0a8a75783f
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 9%
 
 ---
 
@@ -28,6 +28,6 @@ Este es el procedimiento para restaurar una versión 5.11 desde una versión 7.
 1. Recupere la carpeta **Neolane v5.back** (**nl5.back** en Linux), cámbiele el nombre a **Neolane v5** (**nl5** en Linux) y restaure su ubicación original.
 1. Vuelva a configurar IIS asignando los puertos de escucha para restablecer la integración de Neolane v5 en el nivel de sitio web de IIS.
 1. Detenga el servicio Adobe Campaign v7.
-1. Reinicie IIS.
-1. Vuelva a iniciar el servicio Adobe Campaign v5.
+1. Volver a inicio de IIS.
+1. Vuelva a realizar el inicio del servicio Adobe Campaign v5.
 
