@@ -11,11 +11,11 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 discoiquuid: 434a4bda-0907-42a7-8a75-2db658bba046
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '844'
+ht-degree: 88%
 
 ---
 
@@ -54,7 +54,7 @@ El origen se indica en la dirección URL de la encuesta añadiendo los caractere
 ?origin=xxx
 ```
 
-mientras se edita la encuesta, su URL contiene el parámetro **[!UICONTROL __uuid]**, que indica que se encuentra en una fase de prueba y que todavía no está en línea. Al acceder a la encuesta a través de esta dirección URL, los archivos creados no se tienen en cuenta en el seguimiento (informes). Se fuerza el valor del origen **[!UICONTROL Adobe Campaign]**.
+while the survey is being edited, its URL contains the parameter **[!UICONTROL __uuid]**, which indicates that it is in a test phase and not yet online. Al acceder a la encuesta a través de esta dirección URL, los archivos creados no se tienen en cuenta en el seguimiento (informes). Se fuerza el valor  en el origen **[!UICONTROL Adobe Campaign]**.
 
 Para obtener más información sobre los parámetros URL, consulte [esta página](../../web/using/defining-web-forms-properties.md#form-url-parameters).
 
@@ -66,7 +66,7 @@ La pestaña del panel le permite acceder a los informes sobre las encuestas. Hag
 
 La estructura de la encuesta se puede ver en el informe **[!UICONTROL Documentation]**.
 
-Hay otros dos informes disponibles en la pestaña **[!UICONTROL Reports]** de los estudios: **[!UICONTROL General]** y **[!UICONTROL Breakdown of responses]**.
+Two other reports on Web surveys are available in the **[!UICONTROL Reports]** tab of the surveys: **[!UICONTROL General]** and **[!UICONTROL Breakdown of responses]**.
 
 * General
 
@@ -94,7 +94,7 @@ Las respuestas a una encuesta se pueden exportar a un archivo externo para su pr
 
 1. Exportación de respuestas
 
-   Para exportar respuestas, haga clic en la pestaña **[!UICONTROL Responses]** de la encuesta y haga clic con el botón derecho del ratón. Seleccionar **[!UICONTROL Export...]**.
+   Para exportar respuestas, haga clic en la pestaña **[!UICONTROL Responses]** de la encuesta y haga clic con el botón derecho del ratón. Seleccione **[!UICONTROL Export...]**.
 
    ![](assets/s_ncs_admin_survey_logs_export_menu.png)
 
@@ -107,11 +107,12 @@ Las respuestas a una encuesta se pueden exportar a un archivo externo para su pr
    * añadir columnas al archivo de salida y recuperar la información sobre el destinatario (que se almacena en la base de datos).
    * formatear los datos exportados,
    * seleccionar el formato de codificación para la información del archivo.
-   Si la encuesta que desea exportar contiene varios campos **[!UICONTROL Multi-line text]** o **[!UICONTROL HTML text]**, debe exportarse en formato **[!UICONTROL XML]**. Para ello, seleccione este formato en la lista desplegable del campo **[!UICONTROL Output format]**, como se muestra a continuación:
+
+   If the survey you want to export contains several **[!UICONTROL Multi-line text]** or **[!UICONTROL HTML text]** fields, it has to be exported in **[!UICONTROL XML]** format. Para ello, seleccione este formato en la lista desplegable del campo **[!UICONTROL Output format]**, como se muestra a continuación:
 
    ![](assets/s_ncs_admin_survey_logs_export_xml.png)
 
-   Haga clic en **[!UICONTROL Comenzar]** para ejecutar la exportación.
+   Haga clic en **[!UICONTROL Start]** para ejecutar la exportación.
 
    >[!NOTE]
    >
@@ -119,7 +120,7 @@ Las respuestas a una encuesta se pueden exportar a un archivo externo para su pr
 
 ## Uso de los datos recopilados {#using-the-collected-data}
 
-La información recopilada mediante encuestas en línea se puede recuperar dentro del marco de un flujo de trabajo de objetivos. Para ello, utilice la casilla **[!UICONTROL Survey responses]**.
+La información recopilada mediante encuestas en línea se puede recuperar dentro del marco de un flujo de trabajo de objetivos. To do this, use the **[!UICONTROL Survey responses]** box.
 
 En el siguiente ejemplo, queremos crear una oferta web especialmente para los cinco destinatarios con al menos dos hijos y con las puntuaciones más altas en la encuesta en línea. Las respuestas a esta encuesta son:
 
@@ -131,7 +132,7 @@ En el flujo de trabajo de objetivos, **[!UICONTROL Survey responses]** se config
 
 Comience por seleccionar la encuesta que le interese y los datos que desea extraer en la sección central de la ventana. En este caso necesitamos extraer al menos la columna puntuación, ya que pretendemos usarla en el cuadro de división para recuperar las cinco puntuaciones más altas.
 
-Especifique las condiciones de filtrado para las respuestas haciendo clic en el vínculo **[!UICONTROL Edit query...]**.
+Indicate the filtering conditions for answers by clicking the **[!UICONTROL Edit query...]** link.
 
 ![](assets/s_ncs_admin_survey_responses_wf_box_2.png)
 
@@ -151,11 +152,11 @@ Edite el cuadro de división para configurarlo:
 
    ![](assets/s_ncs_admin_survey_responses_wf_box_6b.png)
 
-* Vaya a la pestaña **[!UICONTROL Sub-sets]** y seleccione la opción **[!UICONTROL Limit the selected records]**, y después haga clic en el vínculo **[!UICONTROL Edit...]**.
+* Go to the **[!UICONTROL Sub-sets]** tab and select the **[!UICONTROL Limit the selected records]** option, then click the **[!UICONTROL Edit...]** link.
 
    ![](assets/s_ncs_admin_survey_responses_wf_box_7.png)
 
-* Seleccione la opción **[!UICONTROL Keep only the first records after sorting]** y seleccione ordenar columna. Marque la opción **[!UICONTROL Descending sort]** .
+* Select the **[!UICONTROL Keep only the first records after sorting]** option and select the sort column. Marque la opción **[!UICONTROL Descending sort]**.
 
    ![](assets/s_ncs_admin_survey_responses_wf_box_8.png)
 
