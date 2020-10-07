@@ -11,11 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 discoiquuid: 199eb687-3da6-49c1-9997-ef1cbd2647b6
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 95%
 
 ---
 
@@ -39,7 +39,7 @@ Existen varias maneras de filtrar los datos que se van a mostrar. Si es necesari
 
 ## Filtrar por carpeta {#filter-by-folder}
 
-Haga clic en el icono **[!UICONTROL Carpeta]** para seleccionar la carpeta que contiene los datos que se van a mostrar.
+Click the **[!UICONTROL Folder]** icon to select the folder containing the data to display.
 
 ![](assets/filter_web_select_folder.png)
 
