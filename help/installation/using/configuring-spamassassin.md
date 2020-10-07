@@ -11,11 +11,8 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: aa37bdc6-0f85-4eca-859f-e8b15083cfb5
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1a9d4c9eadf996d37481f33636eae98e482ac115
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 1%
@@ -27,11 +24,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Algunas configuraciones solo pueden ser realizadas por Adobe para implementaciones alojadas por Adobe. Por ejemplo, para acceder a los archivos de configuración de instancia y servidor. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Hosting models](../../installation/using/hosting-models.md) o [este artículo](https://helpx.adobe.com/es/campaign/kb/acc-on-prem-vs-hosted.html).
+>Algunas configuraciones sólo pueden ser realizadas por Adobe para implementaciones alojadas en Adobe. Por ejemplo, para acceder a los archivos de configuración de instancia y servidor. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Hosting models](../../installation/using/hosting-models.md) o [este artículo](https://helpx.adobe.com/es/campaign/kb/acc-on-prem-vs-hosted.html).
 
 ## Información general {#overview}
 
-SpamAssassin es un software diseñado para filtrar correos electrónicos no deseados. Junto con este software, Adobe Campaign puede asignar una puntuación a los mensajes de correo electrónico y determinar si es probable que un mensaje se considere indeseable antes de que se inicie el envío. Para ello, SpamAssassin debe estar instalado y configurado en los servidores de aplicaciones de Adobe Campaign y requiere un cierto número de módulos Perl adicionales para funcionar.
+SpamAssassin es un software diseñado para filtrar correos electrónicos no deseados. Junto con este software, Adobe Campaign puede asignar una puntuación a los correos electrónicos y determinar si es probable que un mensaje se considere indeseable antes de que se inicie el envío. Para ello, SpamAssassin debe estar instalado y configurado en los servidores de aplicaciones de Adobe Campaign y requiere un cierto número de módulos Perl adicionales para funcionar.
 
 La implementación y la integración de SpamAssassin como se describe en este capítulo se basan en la instalación de software predeterminada, al igual que las reglas de filtrado y puntuación, que son las que proporciona SpamAssassin ninguna modificación ni optimización. La atribución de puntuación y la calificación de mensajes se basan exclusivamente en la configuración de las opciones de SpamAssassin y en las reglas de filtrado. Los administradores de red son responsables de adaptarlos a las necesidades de su compañía.
 
@@ -45,14 +42,14 @@ La implementación y la integración de SpamAssassin como se describe en este ca
 
 El uso de SpamAssassin en Adobe Campaign proporciona una indicación del posible comportamiento de los servidores de correo que utilizan SpamAssassin cuando reciben correo electrónico enviado por Adobe Campaign. Sin embargo, es posible que los servidores de correo de proveedores de Internet o servidores de correo en línea sigan considerando indeseables los mensajes enviados por Adobe Campaign.
 
-La implementación de SpamAssassin y sus módulos en Perl requiere servidores de aplicaciones Adobe Campaign equipados con acceso a Internet a través de una conexión HTTP (flujo TCP/80).
+La implementación de SpamAssassin y sus módulos en Perl requiere servidores de aplicaciones de Adobe Campaign equipados con acceso a Internet a través de una conexión HTTP (flujo TCP/80).
 
 ## Instalación en un equipo Windows {#installing-on-a-windows-machine}
 
 Para instalar y configurar SpamAssassin en Windows para habilitar la integración con Adobe Campaign, siga los pasos siguientes:
 
 1. Instalar SpamAssassin
-1. Integrar SpamAssassin en el Adobe Campaign
+1. Integrar SpamAssassin en Adobe Campaign
 
 ### Instalación de SpamAssassin {#installing-spamassassin}
 
@@ -79,9 +76,9 @@ Para instalar y configurar SpamAssassin en Windows para habilitar la integració
    * **3**: error de actualización durante la verificación previa.
    * **4** o más: se ha producido un error.
 
-1. To check that the SpamAssassin installation was successful, use the GTUBE test (Generic Test for Unsolicited Bulk Email) using the following procedure:
+1. Para comprobar que la instalación de SpamAssassin se ha realizado correctamente, utilice la prueba GTUBE (Generic Test for Unsolicited Bulk Email) siguiendo el siguiente procedimiento:
 
-   1. Create a text file and save it under **C:\TestSpamMail.txt**.
+   1. Cree un archivo de texto y guárdelo en **C:\TestSpamMail.txt**.
    1. Inserte el siguiente contenido en el archivo:
 
       ```
@@ -98,7 +95,7 @@ Para instalar y configurar SpamAssassin en Windows para habilitar la integració
       XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
       ```
 
-   1. Haga clic con el botón Doble en el archivo **portableShell.bat** para mostrar un shell de Windows y, a continuación, inicie el siguiente comando (o &quot;`<root>`&quot; designa la carpeta creada al descomprimir el **archivo spamassassin.zip** ):
+   1. Haga clic con el botón doble en el archivo **portableShell.bat** para mostrar un shell de Windows y, a continuación, inicie el siguiente comando (o &quot;`<root>`&quot; designa la carpeta creada al descomprimir el **archivo spamassassin.zip** ):
 
       ```
        "<root>\perl\site\bin\spamassassin" "C:\TestSpamMail.txt"
@@ -106,10 +103,10 @@ Para instalar y configurar SpamAssassin en Windows para habilitar la integració
 
       El contenido de este correo electrónico de prueba desencadena una puntuación de 1000 puntos por SpamAssassin. Esto significa que se ha detectado que no es deseable y que la instalación se ha realizado correctamente y es totalmente funcional.
 
-### Integración de SpamAssassin en el Adobe Campaign {#integrating-spamassassin-into-adobe-campaign}
+### Integración de SpamAssassin en Adobe Campaign {#integrating-spamassassin-into-adobe-campaign}
 
 1. Edite el **`[INSTALL]/conf/serverConf.xml`** archivo. Todos los parámetros disponibles en **serverConf.xml** se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
-1. Cambie el valor del atributo de **comando** de los elementos spamCheck **en el nodo** Web **** . To do this, run the following command:
+1. Cambie el valor del atributo de **comando** de los elementos spamCheck **en el nodo** Web **** . Para ello, ejecute el siguiente comando:
 
    ```
    <spamCheck command='"<absolute path to the folder where you unzipped the zip file>\call_perl_with_args.bat" "<absolute path to nlserver>/spamcheck.pl"'/>
@@ -123,13 +120,13 @@ Para instalar y configurar SpamAssassin en Windows para habilitar la integració
 
 1. Para comprobar la integración de SpamAssassin en Adobe Campaign, utilice una prueba GTBUE (Prueba genérica para correo electrónico masivo no solicitado):
 
-   Haga clic con el Doble en el archivo **portable.bat** . Esto activa la visualización de un shell de Windows. A continuación, ejecute el siguiente comando:
+   Haga clic con el doble en el archivo **portable.bat** . Esto activa la visualización de un shell de Windows. A continuación, ejecute el siguiente comando:
 
    ```
    perl "[INSTALL]\bin\spamcheck.pl" "C:\TestSpamMail.txt"
    ```
 
-   El contenido de este correo electrónico de prueba desencadena 1000 puntos asignados por SpamAssassin. Esto significa que se ha detectado que no es deseable y que la integración en el Adobe Campaign tuvo éxito y es plenamente funcional.
+   El contenido de este correo electrónico de prueba desencadena 1000 puntos asignados por SpamAssassin. Esto significa que se ha detectado que no es deseable y que la integración en Adobe Campaign ha tenido éxito y es totalmente funcional.
 
 1. Actualización de reglas de puntuación y filtrado de SpamAssassin
 
@@ -190,7 +187,7 @@ test -x /usr/bin/sa-update || exit 0
 /usr/sbin/sa-update && /etc/init.d/spamassassin update
 ```
 
-Insert this script into **crontab** using the following command:
+Inserte esta secuencia de comandos en **crontab** mediante el siguiente comando:
 
 ```
 crontab-e
