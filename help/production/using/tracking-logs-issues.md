@@ -11,11 +11,11 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: 1b9ff479-4847-408d-a5c2-9a164805081f
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e1937c1ddcbde092a22f4fe8c50d3d72b02cfeed
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 16%
 
 ---
 
@@ -26,7 +26,7 @@ Puede haber varias razones para que no se reenvíen los registros de seguimiento
 
 * ¿Tiene errores el flujo de trabajo **de seguimiento** ?
 
-   Consulte [Monitoreo de flujos de trabajo](../../workflow/using/monitoring-technical-workflows.md)técnicos.
+   Consulte flujos de trabajo técnicos [de supervisión](../../workflow/using/monitoring-technical-workflows.md).
 
    ![](assets/tracking_scheduled_task.png)
 
