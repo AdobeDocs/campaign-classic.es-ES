@@ -14,8 +14,11 @@ discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 18309c190c351cc57f7af24f48b2a772c1840319
+translation-type: tm+mt
+source-git-commit: 3b6cfe05b851843f5d886fcccbe114ff7f0b6611
+workflow-type: tm+mt
+source-wordcount: '2185'
+ht-degree: 98%
 
 ---
 
@@ -308,4 +311,4 @@ El número de aperturas corresponde al número total de mensajes abiertos. No se
 
 >[!NOTE]
 >
->Los nombres de navegador y sistema operativo forman parte de la información que envía el agente de usuario del navegador en el que se ha abierto el correo electrónico. Adobe Campaign deduce el tipo de dispositivo mediante la información del dispositivo.
+>Los nombres del explorador y del sistema operativo forman parte de la información enviada por el agente de usuario del explorador al que se abrió el mensaje. Adobe Campaign deduce el tipo de dispositivo mediante la información del dispositivo.
