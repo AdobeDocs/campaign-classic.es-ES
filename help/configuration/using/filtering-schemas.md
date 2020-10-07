@@ -11,11 +11,11 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 discoiquuid: 64d4c5b8-db0b-4287-8d30-4bf09878a401
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ## Filtros del sistema {#system-filters}
 
-Puede filtrar el acceso al esquema para usuarios específicos, según sus permisos. Los filtros del sistema permiten administrar los permisos de lectura y escritura de las entidades detalladas en los esquemas, mediante parámetros **readAccess** y **writeAccess** .
+Puede filtrar el acceso de esquema a usuarios específicos en función de sus permisos. Los filtros del sistema le permiten administrar los permisos de lectura y escritura de las entidades detalladas en esquemas, mediante parámetros **readAccess** y **writeAccess** .
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Estos filtros se introducen en el nivel de **elemento** principal de los esquema
 
 * Restringir permisos de escritura
 
-   Aquí, el filtro se utiliza para no permitir permisos de ESCRITURA en el esquema para operadores sin el permiso de ADMINISTRACIÓN. Esto significa que solo los administradores tendrán permisos de escritura en las entidades descritas en este esquema.
+   Aquí, el filtro se utiliza para no permitir permisos de ESCRITURA en el esquema para los operadores sin el permiso de ADMINISTRACIÓN. Esto significa que solo los administradores tendrán permisos de escritura en las entidades descritas en este esquema.
 
    ```
    <sysFilter name="writeAccess">      
@@ -107,7 +107,7 @@ De forma predeterminada, los esquemas integrados solo son accesibles con permiso
 >
 >Los permisos de lectura y escritura para el esquema **xtk:sessionInfo** solo son accesibles desde la cuenta interna de una instancia de Adobe Campaign.
 
-## Modificación de los filtros de sistema de los esquemas integrados {#modifying-system-filters-of-built-in-schemas}
+## Modificación de filtros del sistema de esquemas integrados {#modifying-system-filters-of-built-in-schemas}
 
 Aún puede modificar los filtros del sistema de los esquemas predeterminados que están protegidos de forma predeterminada debido a problemas de compatibilidad con versiones anteriores.
 
@@ -115,7 +115,7 @@ Aún puede modificar los filtros del sistema de los esquemas predeterminados que
 >
 >Sin embargo, Adobe recomienda no modificar los parámetros predeterminados para garantizar una seguridad óptima.
 
-1. Cree una extensión para el esquema correspondiente o abra una extensión existente.
-1. Agregue un elemento secundario **`<sysfilter name="<filter name>" _operation="delete"/>`** en el elemento principal para eliminar la aplicación del filtro en el mismo esquema de origen.
-1. Si lo desea, puede agregar un nuevo filtro, como se detalla en los filtros [](#system-filters)del sistema.
+1. Cree una extensión para el esquema en cuestión o abra una extensión existente.
+1. Añada un elemento secundario **`<sysfilter name="<filter name>" _operation="delete"/>`** en el elemento principal para eliminar la aplicación del filtro debajo del mismo en el esquema de origen.
+1. Si lo desea, puede agregar un nuevo filtro, como se detalla en filtros [del sistema](#system-filters).
 
