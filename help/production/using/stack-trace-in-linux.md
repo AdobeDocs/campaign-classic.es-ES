@@ -11,28 +11,29 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: 60f306ea-4593-4e56-896e-8933277ee26a
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9482a99c3be164651b3428179388cb0a8a75783f
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 14%
 
 ---
 
 
 # Seguimiento de pila en Linux{#stack-trace-in-linux}
 
-Un seguimiento **de** pila representa un seguimiento contenido en un archivo de tipo **principal** . Este archivo se genera en caso de error de equipo. Puede identificar el origen del error.
+Un seguimiento **de** pila representa un seguimiento contenido en un archivo de tipo **principal** . Este archivo se genera en el evento de un error de equipo. Puede identificar el origen del error.
 
 >[!NOTE]
 >
 >* Un archivo **principal** se denomina **core.`<num>`**.
 >* **gdb - El depurador** GNU debe estar instalado en la máquina.
+
 >
 
 
 
-El soporte técnico de Adobe Campaign puede solicitarle este seguimiento **de pila**. Para obtenerlo, introduzca los siguientes comandos en Linux:
+La asistencia técnica de Adobe Campaign puede solicitarle este seguimiento **de pila**. Para obtenerlo, introduzca los siguientes comandos en Linux:
 
 ```
 su - neolane
@@ -59,7 +60,7 @@ gdb nlserver <coreFile>
 #16 0x5565918a in clone () from /lib/tls/libc.so.6
 ```
 
-El servicio de asistencia técnica de Adobe Campaign puede solicitarle que ejecute este comando utilizando un archivo ejecutable específico (que nosotros proporcionaremos).
+La asistencia técnica de Adobe Campaign puede solicitarle que ejecute este comando utilizando un archivo ejecutable específico (que nosotros proporcionaremos).
 
 En este caso, simplemente ejecute el siguiente comando reemplazando **nlserver** por el ejecutable proporcionado por Adobe Campaign:
 
