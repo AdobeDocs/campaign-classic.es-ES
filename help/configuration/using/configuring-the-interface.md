@@ -11,32 +11,32 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 discoiquuid: 8fb9ff23-17a7-4425-9195-738d6fd914dc
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 5%
 
 ---
 
 
 # Configuración de la interfaz{#configuring-the-interface}
 
-Para ver y dialogar con la nueva tabla de destinatarios en la interfaz de Adobe Campaign, siga los pasos siguientes:
+Para realizar vistas y diálogos con la nueva tabla de destinatario en la interfaz de Adobe Campaign, siga los pasos siguientes:
 
-* Cree un nuevo formulario para editar el contenido de la nueva tabla de destinatarios.
+* Cree un nuevo formulario para editar el contenido de la nueva tabla de destinatario.
 * Escriba un nuevo tipo en la carpeta del árbol del explorador.
-* Cree una nueva aplicación web para acceder a la tabla personalizada a través de la página de inicio de Adobe Campaign.
+* Cree una nueva aplicación web para acceder a la tabla personalizada mediante la página de inicio de Adobe Campaign.
 
-Adobe Campaign utiliza una variable global &quot;Nms_DefaultRcpSchema&quot; para dialogar con la base de datos de destinatarios predeterminada (nms:Recipiente). Por lo tanto, es necesario modificar esta variable.
+Adobe Campaign utiliza una variable global &quot;Nms_DefaultRcpSchema&quot; para dialogar con la base de datos de destinatario predeterminada (nms:destinatario). Por lo tanto, es necesario modificar esta variable.
 
 1. Vaya al **[!UICONTROL Administration>Platform>Options]** nodo del explorador.
-1. Cambie el valor de la variable **Nms_DefaultRcpSchema** con el nombre del esquema que coincide con la tabla del destinatario externo (en este caso: cus:individual).
+1. Cambie el valor de la variable **Nms_DefaultRcpSchema** con el nombre del esquema que coincide con la tabla de destinatario externa (en este caso: cus:individual).
 1. Guarde los cambios.
 
 ## Creating a new form {#creating-a-new-form-}
 
-La creación de un nuevo formulario le permitirá ver y editar los datos de la tabla de destinatarios externos.
+La creación de un nuevo formulario le permitirá realizar vistas y editar los datos de la tabla de destinatario externo.
 
 >[!IMPORTANT]
 >
@@ -69,7 +69,7 @@ La creación de un nuevo formulario le permitirá ver y editar los datos de la t
 
 ## Creación de un nuevo tipo de carpeta en la jerarquía de navegación {#creating-a-new-type-of-folder-in-the-navigation-hierarchy}
 
-1. Vaya al **[!UICONTROL Administration>Configuration>Navigation hierarchies]** nodo.
+1. Vaya al nodo **[!UICONTROL Administration>Configuration>Navigation hierarchies]**.
 1. Cree un nuevo documento **xtk:navtree** de tipo **navtree** .
 1. Describa todos los controles y campos que necesite en función de la plantilla de tabla.
 
@@ -77,7 +77,7 @@ La creación de un nuevo formulario le permitirá ver y editar los datos de la t
    >
    >Para obtener más información sobre los archivos **navtree** , consulte [esta página](../../configuration/using/about-navigation-hierarchy.md).
 
-   En el ejemplo actual, el archivo **navtree** debe basarse en el esquema **cus:individual** y, por lo tanto, tener el siguiente formato:
+   En el ejemplo actual, el archivo **navtree** debe basarse en el esquema **cus:individual** y, por lo tanto, tener la siguiente forma:
 
    ```
     <model name="root">
