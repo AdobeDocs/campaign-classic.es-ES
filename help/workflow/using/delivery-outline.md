@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: a2a65f97-425b-44b2-8cf4-beea850423bc
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 67dce820b7a90163032ee72263a9dd23b521ea69
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '263'
+ht-degree: 95%
 
 ---
 
@@ -44,11 +44,12 @@ La actividad de descripción de entrega, disponible en los flujos de trabajo de 
 1. Rellene los campos disponibles en función de la entrega.
 1. Hay dos casos posibles:
 
-   * Si desea acceder al motor de oferta, marque la casilla **[!UICONTROL Restringe el número de proposiciones seleccionadas]**. Especifique el espacio de oferta y el número de propuestas que se presentarán en la entrega.
+   * If you would like to call the offer engine, check the **[!UICONTROL Restrict the number of propositions selected]** box. Especifique el espacio de oferta y el número de propuestas que se presentarán en la entrega.
 
       El motor de oferta tendrá en cuenta las normas de idoneidad y las consideraciones de oferta.
 
    * Si no selecciona la casilla, todas las ofertas del esquema de entrega se presentarán sin recurrir al motor de oferta.
+
    La vista previa tiene en cuenta el número de ofertas especificadas en la entrega. Cuando se ejecuta un flujo de trabajo, se tiene en cuenta el número especificado en el esquema de entrega.
 
    ![](assets/int_compo_offre_wf1.png)
