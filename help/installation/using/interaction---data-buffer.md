@@ -11,11 +11,11 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: cbfdeb2f-4f20-45b8-8cc0-89362f9ea9c1
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6b631f8456ad1f61cec1630334d76752f6af9866
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 6b631f8456ad1f61cec1630334d76752f6af9866
 
 >[!NOTE]
 >
->Algunas configuraciones solo pueden ser realizadas por Adobe para implementaciones alojadas por Adobe. Por ejemplo, para acceder a los archivos de configuración de instancia y servidor. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Hosting models](../../installation/using/hosting-models.md) o [este artículo](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+>Algunas configuraciones sólo pueden ser realizadas por Adobe para implementaciones alojadas en Adobe. Por ejemplo, para acceder a los archivos de configuración de instancia y servidor. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Hosting models](../../installation/using/hosting-models.md) o [este artículo](https://helpx.adobe.com/es/campaign/kb/acc-on-prem-vs-hosted.html).
 
 En Adobe Campaign, se ha introducido una zona **de búfer de** datos en el módulo Interacción. Esto le permite **aumentar el rendimiento** de la interacción de entrada desincronizando los cálculos de existencias y ofertas.
 
