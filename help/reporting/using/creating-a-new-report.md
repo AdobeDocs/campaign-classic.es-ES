@@ -11,11 +11,11 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 22c92ddf-fbea-49d3-afd4-1ba427be399d
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '929'
+ht-degree: 100%
 
 ---
 
@@ -35,6 +35,7 @@ Para crear un informe, siga los pasos siguientes:
    * El **[!UICONTROL Extended report]** permite crear un informe configurado mediante un gráfico.
    * El informe **[!UICONTROL Qualitative distribution]** permite crear estadísticas basadas en todos los tipos de datos (nombre de la empresa, dominio de correo electrónico, etc.).
    * El informe **[!UICONTROL Quantitative distribution]** permite crear estadísticas con los datos que se pueden medir o contar (importe de la factura, edad del destinatario, etc.).
+
    Para obtener más información sobre estas plantillas de informe, consulte [esta sección](../../reporting/using/about-descriptive-analysis.md).
 
 1. Introduzca el nombre del informe y su descripción en los campos correspondientes. Especifique el **[!UICONTROL schema]** sobre el que desea aplicar el informe.
@@ -117,12 +118,12 @@ También puede hacer clic con el botón derecho en el nodo en el que desee añad
 
 Una **[!UICONTROL Page]** puede incluir los siguientes elementos:
 
-* Tipos de **[!UICONTROL charts]** de barras, circulares, de curvas, etc.
+* De barras, circular, curva **[!UICONTROL charts]**, etc.
 * Tabla dinámica; Lista con grupo o **[!UICONTROL tables]** con desglose.
-* **[!UICONTROL Input controls]** de tipo texto o número.
+* **[!UICONTROL Input controls]** de tipo texto o tipo de número.
 * **[!UICONTROL Selection controls]** de tipo lista desplegable, casilla de verificación, botón de opción, opción múltiple, fecha o matriz.
 * **[!UICONTROL Advanced controls]** de tipo editor de vínculos, constante o selección de capeta.
-* Valor, Vínculo, HTML, Imagen, etc. **[!UICONTROL Elementos estáticos]**.
+* Valor, Vínculo, HTML, Imagen, etc. **[!UICONTROL Static elements]**.
 * **[!UICONTROL Containers]** que permiten controlar el diseño del componente.
 
 En [esta sección](../../web/using/about-web-forms.md) se detalla el modo de configuración de una página y sus componentes.
