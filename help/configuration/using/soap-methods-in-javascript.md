@@ -11,11 +11,11 @@ audience: configuration
 content-type: reference
 topic-tags: api
 discoiquuid: 815d3eb9-ac45-441f-9a5f-0cd505fcf88a
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '140'
+ht-degree: 12%
 
 ---
 
@@ -26,7 +26,7 @@ JavaScript ejecutado en el servidor de Adobe Campaign.
 
 ## Métodos estáticos {#static-methods}
 
-Se accede a los métodos SOAP estáticos invocando un método en el objeto que representa el esquema. Los esquemas son propiedades de objetos &#39;namespace&#39;. Estos espacios de nombres son variables globales; por ejemplo, las variables xtk o nms representan los espacios de nombres correspondientes
+Se accede a los métodos SOAP estáticos invocando un método en el objeto que representa el esquema. Los esquemas son propiedades de objetos de &quot;Área de nombres&quot;. Estas Áreas de nombres son variables globales, por lo tanto, por ejemplo, las variables xtk o nms representan las Áreas de nombres correspondientes
 
 El ejemplo siguiente invoca el método PostEvent estático del esquema xtk:workflow:
 
@@ -57,7 +57,7 @@ for each (var w in res.workflow)
 
 ## Ejemplos {#examples}
 
-* Consulta en la tabla del destinatario con una operación &quot;get&quot;:
+* Consulta en la tabla de destinatarios con una operación &quot;get&quot;:
 
    ```
    var query = xtk.queryDef.create(  
@@ -78,7 +78,7 @@ for each (var w in res.workflow)
    logInfo(recipient.@lastName)
    ```
 
-* Consulta en la tabla del destinatario con una operación de &quot;selección&quot;:
+* Consulta en la tabla destinatario con una operación de &quot;selección&quot;:
 
    ```
    var query = xtk.queryDef.create(  
@@ -103,7 +103,7 @@ for each (var w in res.workflow)
    }
    ```
 
-* Escritura de datos en la tabla del destinatario:
+* Escritura de datos en la tabla de destinatario:
 
    ```
    xtk.session.Write(<recipient _operation="insert" lastName="Martinez" firstName="Peter" xtkschema="nms:recipient"/>);
