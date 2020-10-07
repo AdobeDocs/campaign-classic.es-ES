@@ -11,11 +11,11 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 discoiquuid: 6877d94d-d6e5-4080-a537-ef1bb6e6f8cf
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 12%
 
 ---
 
@@ -27,8 +27,8 @@ source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
 Cuando la aplicación necesite acceder a los datos de una tabla existente, una vista SQL o datos de una base de datos remota, cree su esquema en Adobe Campaign con los siguientes datos:
 
 * Nombre de la tabla: introduzca el nombre de la tabla (con su alias cuando se utiliza un dblink) con el atributo &quot;sqltable&quot;,
-* clave de esquema: hacer referencia a los campos de reconciliación,
-* índices: utilizado para generar consultas,
+* Clave de esquema: hacer referencia a los campos de reconciliación,
+* índices: se utiliza para generar consultas,
 * Los campos y su ubicación en la estructura XML: rellene únicamente los campos utilizados en la aplicación,
 * vínculos: si hay uniones con las demás tablas de la base.
 
@@ -45,11 +45,11 @@ Para crear el esquema correspondiente, aplique las siguientes etapas:
 
    ![](assets/s_ncs_configuration_select_table.png)
 
-1. Adapte el contenido del esquema para adaptarlo a sus necesidades.
+1. Adapte el contenido de esquema para adaptarlo a sus necesidades.
 
    ![](assets/s_ncs_configuration_view_create_schema.png)
 
-   El esquema debe rellenarse con el atributo view=&quot;true&quot; en el elemento `<srcSchema>` raíz para no generar una secuencia de comandos SQL de creación de tabla.
+   El esquema debe rellenarse con el atributo vista=&quot;true&quot; en el elemento `<srcSchema>` raíz para no generar una secuencia de comandos SQL de creación de tabla.
 
 **Ejemplo** :
 
@@ -66,6 +66,6 @@ Para crear el esquema correspondiente, aplique las siguientes etapas:
 
 ## Acceso a una base de datos externa {#accessing-an-external-database}
 
-La opción **Federated Data Access - FDA** le permite acceder a los datos almacenados en una base de datos externa.
+La opción **Acceso de datos federado - FDA** le permite acceder a los datos almacenados en una base de datos externa.
 
 La configuración que se debe llevar a cabo en los esquemas para acceder a los datos de una base de datos externa se detalla en [esta página](../../platform/using/creating-data-schema.md).
