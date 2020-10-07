@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 13b72aa1-de40-4548-835b-97e765e04e95
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '419'
+ht-degree: 91%
 
 ---
 
@@ -40,23 +40,23 @@ Las propiedades de la actividad se dividen en tres pasos:
 
 1. **Content**
 
-   * **[!UICONTROL Especificado en la transición]**
+   * **[!UICONTROL Specified in the transition]**
 
       Esta opción permite utilizar el contenido especificado en la transición, es decir, el evento que activa el Gestor de contenido debe contener una variable **[!UICONTROL contentId]**. Esta variable puede haber sido configurada por un gestor de contenido anterior o por cualquier script.
 
-   * **[!UICONTROL Explícito]**
+   * **[!UICONTROL Explicit]**
 
-      Esta opción le permite seleccionar un contenido ya creado, a través del campo **[!UICONTROL Contenido]**. Este campo solo está visible cuando se selecciona la opción **[!UICONTROL Explicit]**.
+      This option lets you select a content already created, via the **[!UICONTROL Content]** field. Este campo solo está visible cuando se selecciona la opción **[!UICONTROL Explicit]**.
 
       ![](assets/content_mgmt_explicit.png)
 
-   * **[!UICONTROL Calculado por una secuencia de comandos]**
+   * **[!UICONTROL Calculated by a script]**
 
       El identificador de contenido se calcula mediante una secuencia de comandos. El campo **[!UICONTROL Script]** permite definir una plantilla JavaScript que evalúe el identificador (clave principal) del contenido. Este campo solo está visible cuando se selecciona la opción **[!UICONTROL Calculated by a script]**.
 
       ![](assets/content_mgmt_script.png)
 
-   * **[!UICONTROL Nuevo, crear mediante una plantilla de publicación]**
+   * **[!UICONTROL New, created from a publication template]**
 
       Crea un nuevo contenido a partir de una plantilla de publicación. Los datos se almacenan en el archivo indicado en el campo **[!UICONTROL String]**. El campo **[!UICONTROL Template]** especifica la plantilla de publicación que se utiliza para crear el contenido.
 
@@ -64,11 +64,11 @@ Las propiedades de la actividad se dividen en tres pasos:
 
 1. **Update content**
 
-   * **[!UICONTROL Asunto]**
+   * **[!UICONTROL Subject]**
 
       Este campo permite modificar el asunto del contenido.
 
-   * **[!UICONTROL Acceso a los datos desde una fuente XML]**
+   * **[!UICONTROL Access to data from an XML feed]**
 
       Esta opción permite construir el contenido de un documento XML descargado mediante una hoja de estilos XSL. Cuando se selecciona esta opción, el campo **[!UICONTROL URL]** especifica la URL de descarga del contenido XML. La **[!UICONTROL XSL stylesheet]** permite especificar la hoja de estilos que se utilizará para transformar el documento XML descargado. Esta propiedad es opcional.
 
@@ -76,13 +76,13 @@ Las propiedades de la actividad se dividen en tres pasos:
 
 1. **Acción que quiere ejecutar**
 
-   * **[!UICONTROL Guardar]**
+   * **[!UICONTROL Save]**
 
       Esta opción guarda el contenido creado o modificado.
 
       La transición saliente se activa solo una vez, con el contenido guardado en la variable **[!UICONTROL contentId]** como parámetro.
 
-   * **[!UICONTROL Generación]**
+   * **[!UICONTROL Generate]**
 
       Esta opción guarda el contenido y genera los archivos de salida para cada plantilla de transformación con una publicación de tipo “Archivo”.
 
@@ -94,7 +94,7 @@ Las propiedades de la actividad se dividen en tres pasos:
 
 * contentId
 
-Identificador del contenido que se va a utilizar si la opción **[!UICONTROL Specified in the transition]** está activada.
+Identifier of the content to be used if the **[!UICONTROL Specified in the transition]** option is enabled.
 
 ## Parámetros de salida {#output-parameters}
 
@@ -104,7 +104,7 @@ Identificador del contenido que se va a utilizar si la opción **[!UICONTROL Spe
 
 * filename
 
-   Nombre completo del archivo generado si la acción seleccionada es **[!UICONTROL Generar]**.
+   Full name of the generated file if the selected action is **[!UICONTROL Generate]**.
 
 ## Ejemplos {#examples}
 
