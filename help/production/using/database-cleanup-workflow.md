@@ -11,11 +11,8 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 discoiquuid: 6b188d78-abb4-4f03-80b9-051ce960f43c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c8cfdb67a4be2bc27baa363032c74a4aa8665e2a
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2908'
 ht-degree: 1%
@@ -41,7 +38,7 @@ La limpieza de la base de datos está configurada en dos niveles: en el Planific
 >
 >Para obtener más información sobre el planificador, consulte [esta sección](../../workflow/using/scheduler.md).
 
-De forma predeterminada, el flujo de trabajo **[!UICONTROL Database cleanup]** se configura en inicio diario a las 4 de la madrugada. El Planificador le permite cambiar la frecuencia de activación del flujo de trabajo. The following frequencies are available:
+De forma predeterminada, el flujo de trabajo **[!UICONTROL Database cleanup]** se configura en inicio diario a las 4 de la madrugada. El Planificador le permite cambiar la frecuencia de activación del flujo de trabajo. Están disponibles las siguientes frecuencias:
 
 * **[!UICONTROL Several times a day]**
 * **[!UICONTROL Daily]**
@@ -65,9 +62,9 @@ Los campos de la **[!UICONTROL Purge of data]** ventana coinciden con las siguie
 * Seguimiento consolidado: **NmsCleanup_TrackingStatPurgeDelay** (consulte [Limpieza de registros de seguimiento](#cleanup-of-tracking-logs))
 * Registros de envío: **NmsCleanup_BroadLogPurgeDelay** (consulte [Limpieza de registros de envío](#cleanup-of-delivery-logs))
 * Registros de seguimiento: **NmsCleanup_TrackingLogPurgeDelay** (consulte [Limpieza de registros de seguimiento](#cleanup-of-tracking-logs))
-* envíos eliminados: **NmsCleanup_RecycledDeliveryPurgeDelay** (consulte [Limpieza de envíos para eliminar o reciclar](#cleanup-of-deliveries-to-be-deleted-or-recycled))
+* Envíos eliminados: **NmsCleanup_RecycledDeliveryPurgeDelay** (consulte [Limpieza de envíos para eliminar o reciclar](#cleanup-of-deliveries-to-be-deleted-or-recycled))
 * Importar rechazos: **NmsCleanup_RejectPurgeDelay** (consulte [Limpieza de rechazos generados por las importaciones](#cleanup-of-rejects-generated-by-imports-))
-* perfiles de Visitante: **NmsCleanup_VisitorPurgeDelay** (consulte [Limpieza de visitantes](#cleanup-of-visitors))
+* Perfiles de visitante: **NmsCleanup_VisitorPurgeDelay** (consulte [Limpieza de visitantes](#cleanup-of-visitors))
 * Propuestas de oferta: **NmsCleanup_PropositionPurgeDelay** (consulte [Limpieza de propuestas](#cleanup-of-propositions))
 
    >[!NOTE]
@@ -75,7 +72,7 @@ Los campos de la **[!UICONTROL Purge of data]** ventana coinciden con las siguie
    >El **[!UICONTROL Offer propositions]** campo solo está disponible cuando se instala el módulo **Interacción** .
 
 * Eventos: **NmsCleanup_EventPurgeDelay** (consulte eventos [caducados de](#cleansing-expired-events)Limpieza)
-* eventos archivados: **NmsCleanup_EventHistoPurgeDelay** (consulte eventos [caducados de](#cleansing-expired-events)Limpieza)
+* Eventos archivados: **NmsCleanup_EventHistoPurgeDelay** (consulte eventos [caducados de](#cleansing-expired-events)Limpieza)
 
    >[!NOTE]
    >
@@ -102,7 +99,7 @@ En la fecha y hora definidas en el Planificador de flujo de trabajo (consulte [E
 
 La primera tarea ejecutada por el **[!UICONTROL Database cleanup]** flujo de trabajo elimina todos los grupos con **deleteStatus.= 0** atributo de **NmsGroup**. También se eliminan los registros vinculados a estos grupos y que existen en otras tablas.
 
-1. Las Listas que se deben eliminar se recuperan mediante la siguiente consulta SQL:
+1. Las listas que se deben eliminar se recuperan mediante la siguiente consulta SQL:
 
    ```
    SELECT iGroupId, sLabel, iType FROM NmsGroup WHERE iDeleteStatus <> 0 OR tsExpirationDate <= GetDate() 
@@ -204,9 +201,9 @@ Esta tarea detiene envíos cuyo período de validez ha caducado.
    SELECT iDeliveryId, iState FROM NmsDelivery WHERE iDeleteStatus=0 AND iIsModel=0 AND iDeliveryMode=1 AND ( (iState >= 51 AND iState < 85 AND tsValidity IS NOT NULL AND tsValidity < $(currentDate) ) OR (iState = 85 AND DateMinusDays(15) < tsLastModified AND iToDeliver - iProcessed >= 10000 ))
    ```
 
-   donde el modo **envío 1** coincide con el **[!UICONTROL Mass delivery]** modo, el **estado 51** coincide con el **[!UICONTROL Start pending]** estado, el **estado 85** coincide con el **[!UICONTROL Stopped]** estado y el mayor número de registros de envío actualizados masivamente en el servidor de envío es igual a 10.000.
+   donde el modo de **envío 1** coincide con el **[!UICONTROL Mass delivery]** modo, el **estado 51** coincide con el **[!UICONTROL Start pending]** estado, el **estado 85** coincide con el **[!UICONTROL Stopped]** estado y el mayor número de registros de envío actualizados masivamente en el servidor de envío es igual a 10.000.
 
-1. A continuación, el flujo de trabajo incluye la lista de envíos caducados recientemente que utilizan intermediaria. Se excluyen los Envíos para los que aún no se han recuperado registros de envío a través del servidor intermediaria.
+1. A continuación, el flujo de trabajo incluye la lista de envíos caducados recientemente que utilizan intermediaria. Se excluyen los envíos para los que aún no se han recuperado registros de envío a través del servidor intermediaria.
 
    Se utiliza la siguiente consulta:
 
@@ -487,7 +484,7 @@ Esta tarea le permite purgar los registros de envío almacenados en varias tabla
 
 Esta tarea limpia la tabla **NmsEmailErrorStat** . El programa principal (**coalesceErrors**) define dos fechas:
 
-* **Fecha** de Inicio: fecha del siguiente proceso que coincide con la opción **NmsLastErrorStatCoalesce** o con la fecha más reciente de la tabla.
+* **Fecha** de inicio: fecha del siguiente proceso que coincide con la opción **NmsLastErrorStatCoalesce** o con la fecha más reciente de la tabla.
 * **Fecha** final: fecha actual del servidor.
 
 Si la fecha de inicio es buena o igual a la fecha de finalización, no se realizará ningún proceso. En este caso, aparece el **mensaje coalesceUpToDate** .
@@ -500,7 +497,7 @@ El número total de errores en la tabla **NmsEmailErrorStat** , entre las fechas
 "SELECT COUNT(*) FROM NmsEmailErrorStat WHERE tsDate>= $(start) AND tsDate< $(end)"
 ```
 
-donde **$end** y **$inicio** son las fechas de inicio y finalización definidas anteriormente.
+donde **$end** y **$inicio** son las fechas de inicio y finalización definidas previamente.
 
 Si el total es bueno a 0:
 
@@ -609,7 +606,7 @@ Si el valor de la opción es 1, la actualización de estadísticas no se ejecuta
 
 Si el valor de la opción es 2, se ejecutará la análisis de almacenamiento en modo detallado (ANALYZE VERBOSE) en PostgreSQL y se actualizarán las estadísticas de todas las demás bases de datos. Para asegurarse de que este comando se ejecuta, compruebe los registros PostgreSQL. ANALYZE generará líneas en el formato: `INFO: analyzing "public.nmsactivecontact"`.
 
-### Limpieza de Suscripciones (NMAC) {#subscription-cleanup--nmac-}
+### Limpieza de suscripciones (NMAC) {#subscription-cleanup--nmac-}
 
 Esta tarea elimina cualquier suscripción relacionada con servicios o aplicaciones móviles eliminados.
 
@@ -623,7 +620,7 @@ A continuación, la tarea recupera los nombres de las tablas vinculadas al vínc
 
 Este flujo de trabajo de limpieza también elimina todas las entradas donde inhabilitado = 1 que no se hayan actualizado desde la hora establecida en la opción **NmsCleanup_AppSubscriptionRcpPurgeDelay** .
 
-### Información de sesión de Limpieza {#cleansing-session-information}
+### Información de sesión de limpieza {#cleansing-session-information}
 
 Esta tarea elimina la información de la tabla **sessionInfo** y se utiliza la siguiente consulta:
 
@@ -631,10 +628,10 @@ Esta tarea elimina la información de la tabla **sessionInfo** y se utiliza la s
  DELETE FROM XtkSessionInfo WHERE tsexpiration < $(curdate) 
 ```
 
-### eventos caducados de Limpieza {#cleansing-expired-events}
+### Eventos caducados de limpieza {#cleansing-expired-events}
 
 Esta tarea limpia los eventos recibidos y almacenados en las instancias de ejecución y los eventos archivados en una instancia de control.
 
-### Reacciones a la Limpieza {#cleansing-reactions}
+### Reacciones a la limpieza {#cleansing-reactions}
 
 Esta tarea limpia las reacciones (tabla **NmsRemaMatchRcp**) en las que se han eliminado las hipótesis.
