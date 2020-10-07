@@ -11,12 +11,9 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 discoiquuid: 892b93ed-cb0e-4af5-a1ae-eff0c8b703c6
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: e97183256ef6d3f2068dd0fbc8eb3c3f32e0bae0
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '2470'
 ht-degree: 100%
 
@@ -208,6 +205,7 @@ Los costos se dividen en tres categorías:
    * En el caso de las entregas que aún no se hayan analizado, el coste calculado es el coste estimado provisional. Si ya se ha realizado el análisis, el coste calculado es la suma de todos los costes calculados desde el servicio, teniendo en cuenta estructuras de costes y el número de destinatarios objetivo.
    * Para una tarea en curso, el coste calculado utiliza el coste estimado provisional. Si la tarea ha finalizado, el coste calculado es la suma de todos los costes calculados a partir de las estructuras de coste del proveedor de servicios y el número de días completados.
    * Para el plan de marketing, como en el programa, el coste calculado es la suma de los costes calculados para las campañas. Si no se especifican estos costes, el coste calculado utiliza los costes estimados provisionales.
+
    >[!NOTE]
    >
    >El enlace **[!UICONTROL Breakdown]** le permite ver los detalles del cálculo y la fecha de cálculo del último coste.
@@ -253,9 +251,11 @@ Creemos una campaña con:
    Para las tareas, cree las dos siguientes categorías de coste:
 
    * **[!UICONTROL Room reservation]** (Cuarto pequeño y Cuarto grande), con una estructura de coste **fijo** de 300 y 500 euros:
+
    ![](assets/s_user_cost_mgmt_sample_6.png)
 
    * **[!UICONTROL Creation]** (**de tipo plantilla de contenido**), con una estructura de coste **diaria** de 300 euros:
+
    ![](assets/s_user_cost_mgmt_sample_7.png)
 
 #### Paso 3: Asignación del presupuesto a la campaña {#step-3---charging-the-budget-in-the-campaign}
