@@ -11,11 +11,11 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 discoiquuid: 010c88f4-9444-448f-bb7b-7191517d2e23
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '807'
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 Para crear una oferta, aplique los pasos siguientes:
 
-1. Vaya al universo **[!UICONTROL Campaigns]** y haga clic en el vínculo **[!UICONTROL Offers]**.
+1. Go to the **[!UICONTROL Campaigns]** universe and click the **[!UICONTROL Offers]** link.
 
    ![](assets/offer_create_001.png)
 
@@ -120,22 +120,22 @@ Para crear una ponderación en una oferta, siga los siguientes pasos:
 
 Una vez completada la configuración, se encontrará disponible un resumen de las reglas de elegibilidad en el panel de ofertas.
 
-Para visualizarlo, haga clic en el vínculo **[!UICONTROL Schedule and eligibility rules]**.
+To view it, click the **[!UICONTROL Schedule and eligibility rules]** link.
 
 ![](assets/offer_eligibility_create_005.png)
 
 ## Creación de contenidos de las ofertas {#creating-the-offer-content}
 
-1. Haga clic en la pestaña **[!UICONTROL Edit]** y luego en la pestaña **[!UICONTROL Content]**.
+1. Click the **[!UICONTROL Edit]** tab, then click the **[!UICONTROL Content]** tab.
 
    ![](assets/offer_content_create_001.png)
 
 1. Complete los distintos campos del contenido de la oferta.
 
    * **[!UICONTROL Title]** : especifique el título que desea que aparezca en la oferta. Advertencia: esto no hace referencia a la etiqueta de la oferta, la cual se define en la pestaña **[!UICONTROL General]**.
-   * **[!UICONTROL Destination URL]**: especifique la URL de la oferta. Para ser procesada correctamente, debe comenzar con “http://” o “https://”.
+   * **[!UICONTROL Destination URL]** :: especifique la URL de la oferta. Para ser procesada correctamente, debe comenzar con “http://” o “https://”.
    * **[!UICONTROL Image URL]**: especifique una dirección URL o un trazado de acceso a la imagen de la oferta.
-   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]**: introduzca el cuerpo de la oferta en la pestaña que desee. Para generar un seguimiento, el **[!UICONTROL HTML content]** debe estar compuesto por elementos HTML que se puedan incluir en un elemento de tipo `<div>` Por ejemplo, el resultado de un elemento en la página HTML estará seguido por:`<table>`
+   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]** : escriba el cuerpo de la oferta en la ficha que desee. Para generar un seguimiento, el **[!UICONTROL HTML content]** debe estar compuesto por elementos HTML que se puedan incluir en un elemento de tipo `<div>` Por ejemplo, el resultado de un elemento en la página HTML estará seguido por:`<table>`
 
    ```
       <div> 
