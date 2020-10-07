@@ -1,7 +1,7 @@
 ---
-title: Backup
-seo-title: Backup
-description: Backup
+title: Copia de seguridad
+seo-title: Copia de seguridad
+description: Copia de seguridad
 seo-description: null
 page-status-flag: never-activated
 uuid: 50134154-a671-4534-b48d-a9e2c42e8f1a
@@ -11,18 +11,18 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 discoiquuid: 870ab0f2-1bd7-42e7-8d83-a08a520b6587
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2a11a73b0679c0a65dc10f71869bf2a6c6efc008
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 2%
 
 ---
 
 
-# Backup{#backup}
+# Copia de seguridad{#backup}
 
-La copia de seguridad es esencial para evitar la pérdida de datos en caso de problemas (físicos o relacionados con el sistema) en un equipo.
+La copia de seguridad es esencial para evitar la pérdida de datos en el evento de un problema (físico o relacionado con el sistema) en una máquina.
 
 Los datos se almacenan en dos ubicaciones distintas:
 
@@ -41,7 +41,7 @@ Los archivos se dividen en varias categorías:
 
 * Archivos de redirección ** nl6/var/`<instancename>`/redir**
 
-   Están en los servidores de seguimiento (a menudo llamados &quot;frontales&quot;) e incluyen todas las redirecciones de campañas anteriores. Las campañas anteriores siguen usándolas.
+   Están en los servidores de seguimiento (a menudo llamados &quot;frontales&quot;) e incluyen todas las redirecciones de campaña anteriores. Las campañas anteriores siguen usándolas.
 
 * Archivos de registro: **nl6/var/`<instancename>`/log**
 
@@ -61,8 +61,8 @@ Por lo tanto, los directorios a los que se debe hacer una copia de seguridad son
 >
 >Es esencial realizar una copia de seguridad de la base de datos.
 
-## Base de datos {#database}
+## Database {#database}
 
 La base de datos contiene toda la información que se muestra en la consola de cliente enriquecida de Adobe Campaign, así como todos los datos de la línea de negocios.
 
-Su empresa de hosting y, en particular, sus administradores de base de datos, son responsables de esta operación.
+La compañía de alojamiento, y los administradores de base de datos en particular, son responsables de esta operación.
