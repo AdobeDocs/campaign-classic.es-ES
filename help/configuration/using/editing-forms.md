@@ -11,18 +11,18 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 discoiquuid: 0c33fd79-8fa5-4cc0-8881-c6d6f4ee1648
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 43%
 
 ---
 
 
 # Edición de formularios{#editing-forms}
 
-Se puede acceder a la pantalla de creación y configuración de formularios de entrada desde la **[!UICONTROL Administration > Configuration > Input forms]** carpeta de la consola cliente de Adobe Campaign:
+Se puede acceder a la pantalla de creación y configuración del formulario de entrada desde la **[!UICONTROL Administration > Configuration > Input forms]** carpeta de la consola cliente de Adobe Campaign:
 
 ![](assets/d_ncs_integration_form_arbo.png)
 
@@ -30,7 +30,7 @@ La zona de edición permite introducir el contenido XML del formulario de entrad
 
 ![](assets/d_ncs_integration_form_edit.png)
 
-La vista previa genera una visualización del formulario de entrada:
+La previsualización genera una visualización del formulario de entrada:
 
 ![](assets/d_ncs_integration_form_preview.png)
 
