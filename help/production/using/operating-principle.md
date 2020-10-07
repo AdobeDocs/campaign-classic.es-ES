@@ -11,25 +11,25 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 discoiquuid: 5e9c17ad-14d2-4173-9fc9-0e48a21426c8
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2a11a73b0679c0a65dc10f71869bf2a6c6efc008
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '502'
+ht-degree: 1%
 
 ---
 
 
 # Principio de funcionamiento{#operating-principle}
 
-Técnicamente, la plataforma de Adobe Campaign se basa en varios módulos.
+Técnicamente, la plataforma Adobe Campaign se basa en varios módulos.
 
-Existen muchos módulos de Adobe Campaign. Algunos funcionan de forma continua, mientras que otros se inician ocasionalmente para realizar tareas administrativas (por ejemplo, configurar la conexión a la base de datos) o para ejecutar una tarea recurrente (por ejemplo, consolidar la información de seguimiento).
+Hay muchos módulos de Adobe Campaign. Algunos funcionan de forma continua, mientras que otros se inician ocasionalmente para realizar tareas administrativas (por ejemplo, para configurar la conexión a la base de datos) o para ejecutar una tarea recurrente (por ejemplo, consolidar la información de seguimiento).
 
 Existen tres tipos de módulos de Adobe Campaign:
 
 * Módulos de varias instancias: se ejecuta un solo proceso para todas las instancias. Esto se aplica a los siguientes módulos: **web**, **syslogd**, **trackinglogd** y **watchdog** (actividades del archivo **config-default.xml** ).
-* Módulos de monoinstancia: se ejecuta un proceso por instancia. Esto se aplica a los siguientes módulos: **mta**, **wfserver**, **inMail**, **sms** y **stat** **`<instance>`** (actividades del archivoconfig-xml).
+* Módulos de monoinstancia: se ejecuta un proceso por instancia. Esto se aplica a los siguientes módulos: **mta**, **wfserver**, **inMail**, **sms** y **stat** (actividades del archivo **`<instance>`** config-xml).
 * Módulos de utilidades: son módulos que se ejecutan ocasionalmente para realizar operaciones ocasionales o recurrentes (**limpieza**, **configuración**, descarga de registros de seguimiento, etc.).
 
 La administración del módulo se realiza mediante la herramienta de línea de comandos **nlserver** instalada en el directorio **bin** de la carpeta de instalación.
@@ -38,37 +38,37 @@ La sintaxis general de la herramienta **nlserver** es la siguiente:
 
 **nlserver`<command>``<command arguments>`**
 
-Para ver la lista de módulos disponibles, utilice el **comando nlserver** .
+Para la lista de módulos disponibles, utilice el **comando nlserver** .
 
 Los módulos disponibles se detallan en la siguiente tabla:
 
 | Comando | Descripción |
 |---|---|
-| aliasCleansing | Estandarización de los valores de enumeración |
+| aliasCleansing | Estandarización de los valores de lista desglosada |
 | facturación | Envío del informe de actividad del sistema a billing@neolane.net |
 | limpiar | Limpieza de la base de datos: elimina datos obsoletos de la base de datos y ejecuta una actualización de las estadísticas utilizadas por el optimizador del motor de base de datos. |
 | config | Modificación de la configuración del servidor |
 | copybase | Copia de una base de datos |
 | exportar | Exportando a la línea de comandos: permite enviar a la línea de comandos un modelo de exportación creado en la consola de cliente de Adobe Campaign |
 | fileconvert | Conversión de un archivo de tamaño definido |
-| importar | Importación a la línea de comandos: permite enviar a la línea de comandos un modelo de importación creado en la consola de cliente de Adobe Campaign. |
+| importar | Importación a la línea de comandos: permite enviar a la línea de comandos un modelo de importación creado en la consola cliente de Adobe Campaign. |
 | inMail | Analizador de correo entrante |
 | instalación | Disponibilidad del archivo de instalación del cliente |
 | javascript | Ejecución de secuencias de comandos de JavaScript con acceso a las API de SOAP. |
 | trabajo | Procesamiento de la línea de comandos |
 | combinar | Combinación de formularios |
-| midSourcing | Recuperación de la información de entrega en modo de abastecimiento intermedio |
-| monitor | XML Muestra el estado de los procesos del servidor y las tareas programadas, por instancia. |
+| midSourcing | Recuperación de la información sobre envíos en modo intermediaria |
+| monitor | XML Muestra el estado de los procesos del servidor y las tareas programadas, por ejemplo. |
 | mta | Mensaje de transferencia del agente principal |
 | package | Importación o exportación de archivos de paquete de entidades |
 | pdump | Visualización de los estados de proceso del servidor |
-| prepareda | Preparación de una acción de entrega |
+| prepareda | Preparación de una acción de envío |
 | reiniciar | Reinicio parcial del servidor |
 | runwf | Ejecución de una instancia de flujo de trabajo |
 | apagado | Cierre completo del sistema |
 | sms | Procesamiento de notificaciones SMS |
 | sql | Ejecución de secuencias de comandos SQL |
-| start | Comienzos adicionales |
+| inicio | Inicios adicionales |
 | stat | Mantiene las estadísticas de conexión MTA |
 | stop | Cierre parcial del sistema |
 | enviar | Envío de una acción de envío |
@@ -81,7 +81,7 @@ Los módulos disponibles se detallan en la siguiente tabla:
 
 >[!CAUTION]
 >
->Hay un último módulo: el módulo de seguimiento y retransmisión vinculado al servidor de aplicaciones que, en aras del rendimiento, se integra mediante mecanismos nativos en un servidor web Apache o IIS a través de una biblioteca dinámica. No hay ningún comando de Adobe Campaign que le permita iniciar o administrar este módulo. Por lo tanto, debe utilizar los comandos del propio servidor Web.
+>Hay un último módulo: el módulo de seguimiento y retransmisión vinculado al servidor de aplicaciones que, en aras del rendimiento, se integra mediante mecanismos nativos en un servidor web Apache o IIS a través de una biblioteca dinámica. No hay ningún comando de Adobe Campaign que le permita realizar inicios o administrar este módulo. Por lo tanto, debe utilizar los comandos del propio servidor Web.
 
 El uso del módulo y la sintaxis de sus parámetros se muestran mediante el siguiente comando: **nlserver`[module]`-?**
 
