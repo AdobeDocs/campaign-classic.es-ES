@@ -11,18 +11,18 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 discoiquuid: b82ae459-30b5-4a1c-91cc-5c7b8f128333
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 11%
 
 ---
 
 
 # Actualización de la estructura de la base de datos{#updating-the-database-structure}
 
-Para aplicar las modificaciones realizadas en los esquemas, inicie el asistente para la actualización de la base de datos. Se puede acceder a este asistente mediante **[!UICONTROL Tools > Advanced > Update database structure]** . Comprueba si la estructura física de la base de datos coincide con su descripción lógica y ejecuta las secuencias de comandos de actualización SQL.
+Para aplicar las modificaciones realizadas a los esquemas, inicie el asistente para la actualización de la base de datos. Se puede acceder a este asistente mediante **[!UICONTROL Tools > Advanced > Update database structure]** . Comprueba si la estructura física de la base de datos coincide con su descripción lógica y ejecuta las secuencias de comandos de actualización SQL.
 
 ![](assets/d_ncs_integration_schema_update.png)
 
@@ -34,7 +34,7 @@ Las opciones **[!UICONTROL Add stored procedures]** y **[!UICONTROL Import initi
 
 Puede importar un conjunto de datos desde un paquete de datos externo. Para ello, seleccione **[!UICONTROL Import a package]** e introduzca el archivo XML del paquete.
 
-Siga los pasos y vea el script SQL de actualización de la base de datos:
+Siga los pasos y la vista del script SQL de actualización de la base de datos:
 
 ![](assets/d_ncs_integration_schema_update2.png)
 
