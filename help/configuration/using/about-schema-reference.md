@@ -9,11 +9,8 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d4ebaaf90d88cbec9a4d24d79eaf7c46890d933a
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 7%
@@ -74,7 +71,7 @@ El primer **`<element>`** subelemento coincide con la raíz de la entidad.
 
 ![](assets/s_ncs_configuration_schema_and_entity.png)
 
-Las **`<element>`** etiquetas definen los nombres de los elementos de entidad. **`<attribute>`** las etiquetas del esquema definen los nombres de los atributos en las **`<element>`** etiquetas a las que se han vinculado.
+Las **`<element>`** etiquetas definen los nombres de los elementos de entidad. **`<attribute>`** las etiquetas del esquema definen los nombres de los atributos de las **`<element>`** etiquetas a las que se han vinculado.
 
 ## Identificación de un esquema {#identification-of-a-schema}
 
