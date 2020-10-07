@@ -11,11 +11,8 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 discoiquuid: b5c8faf7-d0ae-4d95-b7fe-6ef9674a33d2
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 8e4fc977daf9039ee8587bf505d7406fd863e68b
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1566'
 ht-degree: 12%
@@ -149,7 +146,7 @@ Los siguientes tipos de datos son compatibles con los esquemas:
    El tamaño se puede especificar mediante el atributo **length** (opcional, valor predeterminado &quot;255&quot;).
 
 * **booleano**: Campo booleano. Ejemplo de valores posibles: true/false, 0/1, sí/no, etc.
-* **byte**, **abreviado**, **largo**: enteros (1 byte, 2 bytes, 4 bytes). Ejemplos: una edad, un número de cuenta, un número de puntos, etc.
+* **byte**, **abreviado**, **largo**: enteros (1 byte, 2 bytes, 4 bytes). Ejemplos: edad, número de cuenta, número de puntos, etc.
 * **doble**: Número de punto flotante con precisión de doble. Ejemplos: precio, tarifa, etc.
 * **fecha**, **fecha y hora**: fechas y fechas + horas. Ejemplos: fecha de nacimiento, fecha de compra, etc.
 * **datetimenotz**: fecha + hora sin datos de huso horario.
