@@ -11,11 +11,11 @@ audience: configuration
 content-type: reference
 topic-tags: api
 discoiquuid: 76984d9d-7759-4e0f-a275-09cca27589fa
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '423'
+ht-degree: 5%
 
 ---
 
@@ -37,15 +37,15 @@ La creación de una biblioteca de métodos implica dos etapas:
 
 ### Declaración {#declaration}
 
-Comience declarando los métodos en los esquemas (para obtener más información sobre cómo crear y editar esquemas, consulte [esta sección](../../configuration/using/about-schema-edition.md)).
+Inicio declarando los métodos en los esquemas (para obtener más información sobre cómo crear y editar esquemas, consulte [esta sección](../../configuration/using/about-schema-edition.md)).
 
 Su declaración es similar a la de los métodos nativos, excepto que debe agregar el atributo &#39;library&#39; especificando el nombre de la biblioteca de métodos donde se encuentra la definición.
 
-Este nombre coincide con el nombre (con el espacio de nombres) de la entidad de tipo &#39;Código JavaScript&#39;.
+Este nombre coincide con el nombre (con la Área de nombres) de la entidad de tipo &#39;Código JavaScript&#39;.
 
 Ejemplo:
 
-El método testLog(msg) se declara en una extensión nms:Recipiente
+El método testLog(msg) se declara en una extensión nms:destinatario
 
 ```
 <method name="testLog" static="true" library="cus:test">
@@ -57,7 +57,7 @@ El método testLog(msg) se declara en una extensión nms:Recipiente
 
 >[!NOTE]
 >
->El espacio de nombres y el nombre utilizados para la biblioteca son independientes del espacio de nombres y el nombre de esquema donde se encuentra la declaración.
+>La Área de nombres y el nombre utilizados para la biblioteca son independientes del nombre de la Área de nombres y del esquema donde se encuentra la declaración.
 
 ### Definición {#definition}
 
