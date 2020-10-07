@@ -11,11 +11,11 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 discoiquuid: 1b2ae224-8406-4506-b589-6e5f6631e87f
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 2%
 
 ---
 
@@ -24,14 +24,14 @@ source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ## Definición de parámetros {#definition-of-parameters}
 
-La plataforma de Adobe Campaign ofrece dos parámetros de seguimiento web de tipo TRANSACTION como estándar:
+La plataforma Adobe Campaign oferta dos parámetros de seguimiento web de tipo TRANSACTION como estándar:
 
 * **importe**: representa el importe de una transacción,
 * **artículo**: representa el número de artículos de una transacción.
 
-Estos parámetros se definen en el esquema **nms:webTrackingLog** y son algunos de los indicadores que se ven en los informes.
+Estos parámetros se definen en el esquema **nms:webTrackingLog** y son algunos de los indicadores que se ven en sistema de informes.
 
-Para definir parámetros adicionales, debe ampliar este esquema.
+Para definir parámetros adicionales, debe extender este esquema.
 
 **Ejemplo**:
 
@@ -47,7 +47,7 @@ Para definir parámetros adicionales, debe ampliar este esquema.
 </srcSchema>
 ```
 
-Puede mostrar los valores de estos parámetros configurando la lista de registro de seguimiento (de un envío o destinatario).
+Puede mostrar los valores de estos parámetros configurando la lista del registro de seguimiento (de un envío o destinatario).
 
 ## Configuración del servidor de redirección {#redirection-server-configuration}
 
@@ -75,18 +75,18 @@ webTrackingParamSize="64"/>
 Cuando se haya modificado la configuración, deberá:
 
 * Detenga el servidor web que aloja el módulo de redirección (Apache, IIS, etc.),
-* Detenga el servidor de Adobe Campaign: net stop nlserver6 **** net en Windows, **/etc/init.d/nlserver6 stop** en Linux,
+* Detenga el servidor de Adobe Campaign: **net stop nlserver6** en Windows, **/etc/init.d/nlserver6 stop** en Linux,
 
    >[!NOTE]
    >
-   >A partir de 20.1, se recomienda utilizar el siguiente comando en su lugar (para Linux): nlserver **systemctl stop**
+   >A partir de 20.1, se recomienda utilizar el siguiente comando en su lugar (para Linux): **syctl stop nlserver**
 
 * En Linux, elimine los segmentos de memoria compartida mediante el **comando ipcrm** ,
-* Reinicie el servidor de Adobe Campaign: **net start nlserver6** en Windows, **/etc/init.d/nlserver6 start** en Linux,
+* Reinicie el servidor de Adobe Campaign: **net inicio nlserver6** en Windows, **/etc/init.d/nlserver6 inicio** en Linux,
 
    >[!NOTE]
    >
-   >A partir de 20.1, se recomienda utilizar el siguiente comando en su lugar (para Linux): nlserver **systemctl start**
+   >A partir de 20.1, se recomienda utilizar el siguiente comando en su lugar (para Linux): **servidorDeinicioDelSistema**
 
 * Reinicie el servidor web.
 
