@@ -11,11 +11,11 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 discoiquuid: 6e27caea-1f1a-457d-bdec-1f93a12b01cf
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 67dce820b7a90163032ee72263a9dd23b521ea69
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '1049'
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ La actividad de descripción de entrega, disponible en los flujos de trabajo de 
 1. Rellene los campos disponibles en función de la entrega.
 1. Hay dos casos posibles:
 
-   * Si desea acceder al motor de oferta, marque la casilla **[!UICONTROL Restringe el número de proposiciones seleccionadas]**. Especifique el espacio de oferta y el número de propuestas que se presentarán en la entrega.
+   * If you would like to call the offer engine, check the **[!UICONTROL Restrict the number of propositions selected]** box. Especifique el espacio de oferta y el número de propuestas que se presentarán en la entrega.
 
       El motor de oferta tendrá en cuenta las normas de idoneidad y las consideraciones de oferta.
 
@@ -74,7 +74,7 @@ Existen dos métodos para especificar propuestas de oferta.
 Después de configurar la consulta (consulte la [guía sobre flujos de trabajo](../../workflow/using/query.md)).
 
 1. Añada y abra una actividad de enriquecimiento.
-1. En la ficha **[!UICONTROL Enrichment]**, seleccione **[!UICONTROL Add data]**.
+1. En la pestaña **[!UICONTROL Enrichment]**, seleccione **[!UICONTROL Add data]**.
 1. Seleccione **[!UICONTROL An offer proposition]** en los tipos de datos que desea añadir.
 
    ![](assets/int_enrichment_offer2.png)
@@ -82,11 +82,11 @@ Después de configurar la consulta (consulte la [guía sobre flujos de trabajo](
 1. Especifique un identificador y una etiqueta para la propuesta a añadir.
 1. Especifique la selección de la oferta. Hay dos formas de hacerlo:
 
-   * **[!UICONTROL Search for the best offer in a category]**: marque esta opción y especifique los parámetros de recurso del motor de oferta (espacio de oferta, categoría o tema(s), fecha de contacto, número de ofertas que desea mantener). Según estos parámetros, el motor calculará automáticamente las ofertas a agregar. Se recomienda completar el campo **[!UICONTROL Category]** o el campo **[!UICONTROL Theme]** en vez de ambos al mismo tiempo.
+   * **[!UICONTROL Search for the best offer in a category]**: marque esta opción y especifique los parámetros de recurso del motor de oferta (espacio de oferta, categoría o temas, fecha de contacto, cantidad de ofertas que desea mantener). Según estos parámetros, el motor calculará automáticamente las ofertas a agregar. Se recomienda completar el campo **[!UICONTROL Category]** o el campo **[!UICONTROL Theme]** en vez de ambos al mismo tiempo.
 
       ![](assets/int_enrichment_offer3.png)
 
-   * **[!UICONTROL A predefined offer]**: marque esta opción y especifique un espacio de oferta, una oferta específica y una fecha de contacto para configurar directamente la oferta que desee añadir, sin recurrir al motor de oferta.
+   * **[!UICONTROL A predefined offer]** : marque esta opción y especifique un espacio de oferta, una oferta específica y una fecha de contacto para configurar directamente la oferta que desee añadir, sin recurrir al motor de oferta.
 
       ![](assets/int_enrichment_offer4.png)
 
@@ -102,7 +102,7 @@ También puede hacer referencia a un vínculo de oferta en una actividad de ampl
 
 Para ello, utilice el proceso siguiente:
 
-1. Seleccione **[!UICONTROL Add data]** en la pestaña **[!UICONTROL Enrichment]** de la actividad.
+1.  En la pestaña **[!UICONTROL Enrichment]** de la actividad, seleccione **[!UICONTROL Add data]**.
 1. En la ventana donde se elige el tipo de datos a añadir, seleccione **[!UICONTROL A link]**.
 1. Seleccione el tipo de vínculo que desea establecer y su destino. En este caso, el destino es el esquema de oferta.
 
@@ -133,7 +133,7 @@ Sin embargo, se puede almacenar esta información de la siguiente manera:
 
    ![](assets/ita_enrichment_rankweight_1.png)
 
-1. Añadir **[!UICONTROL @rank]** columnas para la clasificación y **[!UICONTROL @weight]** para las consideraciones de la oferta.
+1. Añada las columnas **[!UICONTROL @rank]** para la clasificación y **[!UICONTROL @weight]** para las ponderaciones de la oferta.
 
    ![](assets/ita_enrichment_rankweight_2.png)
 
@@ -151,7 +151,7 @@ Esta actividad funciona con el mismo principio que la actividad de enriquecimien
 
 Después de configurar la consulta (consulte la [guía sobre flujos de trabajo](../../workflow/using/query.md)).
 
-1. Añada y abra una actividad **[!UICONTROL Offer engine]**.
+1. Add and open an **[!UICONTROL Offer engine]** activity.
 1. Complete los diferentes campos disponibles para especificar el uso de los parámetros del motor de oferta (ofrecer espacio, categoría o tema, fecha de contacto, número de ofertas que desea mantener). Según estos parámetros, el motor calculará automáticamente las ofertas a agregar.
 
    >[!NOTE]
