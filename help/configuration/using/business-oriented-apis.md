@@ -11,11 +11,8 @@ audience: configuration
 content-type: reference
 topic-tags: api
 discoiquuid: e7b3ffca-c85f-498d-89b4-23fcff59de49
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c51a51f175e9f3fe5a55f2b5f57872057f70909d
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 4%
@@ -41,18 +38,18 @@ La API comercial es específica para cada tipo de objeto. Tienen un efecto en:
       Consulte Métodos [SOAP en JavaScript](../../configuration/using/soap-methods-in-javascript.md).
 
 * Gestión de contenido
-* Administración de Suscripciones, consulte [Suscribirse (nms:suscripción)](#subscribe--nms-subscription-) y [Cancelar suscripción (nms:suscripción)](#unsubscribe--nms-subscription-).
+* Administración de suscripciones, consulte [Suscribirse (nms:suscripción)](#subscribe--nms-subscription-) y [Cancelar suscripción (nms:suscripción)](#unsubscribe--nms-subscription-).
 * Procesos de datos: importaciones, exportaciones.
 
 Esta sección detalla el uso de los servicios &quot;Suscribirse&quot;, &quot;Cancelar suscripción&quot; y &quot;Enviar entrega&quot;.
 
 >[!IMPORTANT]
 >
->[La documentación](https://docs.adobe.com/content/help/es-ES/campaign-classic/technicalresources/api/index.html) JSAPI de Campaña contiene información adicional sobre las llamadas SOAP y el uso de Javascript en Adobe Campaign, así como una referencia completa a todos los métodos y funciones utilizados en la aplicación.
+>[La documentación](https://docs.adobe.com/content/help/es-ES/campaign-classic/technicalresources/api/index.html) JSAPI de campaña contiene información adicional sobre las llamadas SOAP y el uso de Javascript en Adobe Campaign, así como una referencia completa a todos los métodos y funciones utilizados en la aplicación.
 
 ## Suscribirse (nms:suscripción) {#subscribe--nms-subscription-}
 
-Este servicio le permite suscribirse a un destinatario de un servicio informativo y actualizar el perfil de destinatario.
+Este servicio le permite suscribirse a un destinatario en un servicio informativo y actualizar el perfil de destinatario.
 
 Se requieren los siguientes parámetros para llamar al servicio:
 
@@ -150,7 +147,7 @@ Si el destinatario no está presente en la base de datos o no está suscrito al 
 
 >[!NOTE]
 >
->Si el nombre del servicio no se especifica como parámetro, el destinatario se muestra automáticamente en la lista de bloques (@blockList=&quot;1&quot;).
+>Si el nombre del servicio no se especifica como parámetro, el destinatario se ejecuta automáticamente en la lista de bloqueados (@lista de bloqueados=&quot;1&quot;).
 
 Esta llamada no devuelve datos, excepto errores.
 
