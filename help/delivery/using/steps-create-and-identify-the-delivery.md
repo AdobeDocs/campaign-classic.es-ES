@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 62e6537ba306956cac3bf6e1dd18567bc1414917
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Debe completar los parámetros para identificar la entrega. Para ello:
 
    ![](assets/s_ncs_user_email_del_nature.png)
 
-1. Haga clic en **[!UICONTROL Continuar]** para confirmar esta información y mostrar la ventana de configuración de mensajes.
+1. Haga clic en **[!UICONTROL Continue]** para confirmar esta información y mostrar la ventana de configuración de mensajes.
 
 El contenido de la entrega está listo para configurarse. La definición del contenido de la entrega es específica para cada canal. Para obtener más información, consulte la sección dedicada:
 
