@@ -11,11 +11,11 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 discoiquuid: 4452bfc6-9ac4-4d81-a63c-879a163c13ee
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 94%
 
 ---
 
@@ -40,7 +40,7 @@ Estos indicadores son:
 * **Response rate of the control group**: número de grupos de control encuestados/número total de grupos de control de envíos.
 * **Number of reactions**: número de registros de la tabla que contiene la relación entre individuos, la hipótesis y la tabla de transacciones.
 
-Para ver la lista completa de los indicadores, haga clic en el vínculo **[!UICONTROL Display the list]**:
+For the full list of indicators, click the **[!UICONTROL Display the list]** link:
 
 ![](assets/response_hypothesis_indicators_002.png)
 
@@ -65,7 +65,7 @@ Estos indicadores proporcionan la siguiente información:
 
 Se pueden ver las reacciones de los destinatarios a las hipótesis a través de la pestaña **[!UICONTROL Reactions]**.
 
-1. Una vez completado el cálculo de la hipótesis, vaya a **[!UICONTROL Campaign management > Measurement hypotheses]** en el árbol de Adobe Campaign.
+1. Once hypothesis calculation is complete, go to the **[!UICONTROL Campaign management > Measurement hypotheses]** node of the Adobe Campaign tree.
 1. Seleccione la hipótesis deseada y haga clic en la pestaña **[!UICONTROL Reactions]** para ver la lista de destinatarios que probablemente compren algo después de la campaña de marketing.
 
    ![](assets/response_hypothesis_reactions_001.png)
