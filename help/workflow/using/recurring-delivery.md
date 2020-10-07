@@ -11,12 +11,9 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 185d3256-a21e-47d7-bee7-7b91762ca1e2
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%
 
@@ -49,7 +46,7 @@ Un **envío recurrente** creará una nueva instancia de envío cada vez que se e
 
 En este vídeo se explica cómo configurar un envío recurrente y una actividad de planificador.
 
->[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
 >[!NOTE]
 >
