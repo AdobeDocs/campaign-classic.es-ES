@@ -11,11 +11,11 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: dd50ca25-8fa2-48fa-84cc-a63e476701a0
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '760'
+ht-degree: 74%
 
 ---
 
@@ -24,21 +24,21 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ## Contexto de visualización del informe {#report-display-context}
 
-Defina el contexto de visualización del informe en la plataforma de Adobe Campaign utilizando la pestaña **[!UICONTROL Desplegar]**. El acceso a un informe depende de su tipo de selección, de las condiciones de visualización y de las autorizaciones de acceso.
+Define the display context of the report in the Adobe Campaign platform using the **[!UICONTROL Display]** tab. El acceso a un informe depende de su tipo de selección, de las condiciones de visualización y de las autorizaciones de acceso.
 
 ### Tipo de selección {#selection-type}
 
-El acceso al informe se puede limitar a un contexto específico o a un espacio de oferta, por ejemplo una entrega, un destinatario, una selección de destinatarios, etc. Este acceso se configura en la sección **[!UICONTROL Tipo de selección]** de la pestaña **[!UICONTROL Mostrar]**.
+El acceso al informe se puede limitar a un contexto específico o a un espacio de oferta, por ejemplo una entrega, un destinatario, una selección de destinatarios, etc. This access is configured in the **[!UICONTROL Selection type]** section of the **[!UICONTROL Display]** tab.
 
 ![](assets/s_ncs_advuser_report_visibility_4.png)
 
-* **[!UICONTROL Selección única]** : solo se puede acceder al informe cuando se selecciona una entidad específica.
-* **[!UICONTROL Selección múltiple]** : se accede al informe cuando se seleccionan varias entidades.
+* **[!UICONTROL Single selection]** :: el informe solo es accesible cuando se selecciona una entidad específica.
+* **[!UICONTROL Multiple selection]** :: se accede al informe cuando se seleccionan varias entidades.
 * **[!UICONTROL Global]**: se accede al informe a través de la lista de informes disponibles en el entorno de informes.
 
 ### Secuencia de visualización {#display-sequence}
 
-El campo **[!UICONTROL Secuencia]** permite introducir un valor numérico que especifica la secuencia de visualización del informe en la lista.
+The **[!UICONTROL Sequence]** field lets you enter a numeric value that specifies the display sequence of the report in the list.
 
 De manera predeterminada, los informes se muestran por relevancia: el valor introducido en este campo permite ordenar los informes desde el más relevante (valor más alto) al menos relevante (valor más bajo).
 
@@ -60,7 +60,7 @@ Esto significa que si el canal principal de la campaña es correo postal, el inf
 
 El informe se puede compartir con otros operadores.
 
-Para que el informe sea accesible, seleccione la opción **[!UICONTROL Informe compartido con otros operadores]**. Si no se selecciona esta opción, solo el operador que creó el informe puede acceder a él.
+Para que el informe sea accesible, seleccione la **[!UICONTROL Report shared with other operators]** opción. Si no se selecciona esta opción, solo el operador que creó el informe puede acceder a él.
 
 El informe también se puede compartir con operadores o grupos de operadores específicos añadidos a través de la ventana de autorizaciones.
 
@@ -68,7 +68,7 @@ El informe también se puede compartir con operadores o grupos de operadores esp
 
 ### Definición de las opciones de filtrado {#defining-the-filtering-options}
 
-El entorno **[!UICONTROL Informes]** muestra todos los informes disponibles en la plataforma y para los que el operador conectado cuenta con un derecho de acceso.
+The **[!UICONTROL Reports]** universe displays all available reports in the platform and for which the connected operator has an access right.
 
 De forma predeterminada se clasifican por relevancia, pero puede aplicar otros tipos de filtros: alfabético, por edad, etc.
 
@@ -76,7 +76,7 @@ También puede filtrar la visualización en función de la categoría del inform
 
 ![](assets/report_ovv_select_type.png)
 
-Para definir la categoría de un informe, selecciónela a través de la pestaña **[!UICONTROL Mostrar]** como se muestra a continuación:
+To define the category of a report, select it via the **[!UICONTROL Display]** tab, as shown below:
 
 ![](assets/report_select_category.png)
 
@@ -88,7 +88,7 @@ Se puede hacer que un informe sea accesible a través de un nodo específico del
 
 Por ejemplo, generemos un vínculo a un informe para que sea accesible a través de una lista de destinatarios.
 
-1. Haga clic en **[!UICONTROL Nuevo]** y seleccione **[!UICONTROL Crear un vínculo a un informe existente]** en el asistente de creación de informes.
+1. Haga clic **[!UICONTROL New]** y seleccione **[!UICONTROL Create a link to an existing report]** en el asistente para la creación de informes.
 
    ![](assets/s_ncs_advuser_report_wizard_link_01.png)
 
@@ -108,19 +108,19 @@ Por ejemplo, generemos un vínculo a un informe para que sea accesible a través
    ![](assets/s_ncs_advuser_report_wizard_link_04.png)
 
 1. Publique el informe.
-1. Vaya a una de las listas de destinatarios y haga clic en el vínculo **[!UICONTROL Informes]**: de este modo, ya se puede acceder al informe recién creado.
+1. Go to one of your recipient lists and click the **[!UICONTROL Reports]** link: the report you have just created is accessible.
 
    ![](assets/s_ncs_advuser_report_wizard_link_05.png)
 
 ## Previsualización del informe {#preview-of-the-report}
 
-Antes de publicar el informe, asegúrese de que se muestre correctamente en la pestaña **[!UICONTROL Vista previa]**.
+Before publishing your report, make sure it is displayed correctly in the **[!UICONTROL Preview]** tab.
 
 ![](assets/s_ncs_advuser_report_preview_01.png)
 
-Para mostrar la previsualización del informe, seleccione la opción **[!UICONTROL Global]** o **[!UICONTROL Selección]**.
+To display the preview of the report, select the **[!UICONTROL Global]** or the **[!UICONTROL Selection]** option.
 
-Estas dos opciones se seleccionan según la configuración de visualización del informe. Si la configuración de visualización es **[!UICONTROL Global]**, se debe seleccionar la opción de previsualización **[!UICONTROL Global]**. Si la configuración de visualización es **[!UICONTROL Selección única]** o **[!UICONTROL Selección múltiple]**, se debe seleccionar la opción de previsualización **[!UICONTROL Selección]**.
+Estas dos opciones se seleccionan según la configuración de visualización del informe. Si la configuración de visualización es **[!UICONTROL Global]**, se debe seleccionar la opción de previsualización **[!UICONTROL Global]**. Si la configuración de visualización es **[!UICONTROL Single selection]** o **[!UICONTROL Multiple selection]**, se debe seleccionar la opción de **[!UICONTROL Selection]** previsualización.
 
 Para más información, consulte [Informe de contexto de visualización](#report-display-context).
 
@@ -132,13 +132,13 @@ Para obtener más información sobre esta configuración, consulte la sección d
 
 La publicación del informe es obligatoria para poder compartirlo con otros operadores y mostrarlo en la lista de informes disponibles (también consulte [Informe de contexto de visualización](#report-display-context)). Esta operación debe llevarse a cabo cada vez que se modifica el informe.
 
-1. Abra el asistente de publicación haciendo clic en **[!UICONTROL Publicar]** en la barra de herramientas.
+1. Open the publishing wizard by clicking **[!UICONTROL Publish]** in the toolbar.
 
    ![](assets/s_ncs_advuser_report_publish_01.png)
 
-1. Haga clic en **[!UICONTROL Comenzar]** para publicarlo.
+1. Haga clic en **[!UICONTROL Start]** para publicar.
 
    ![](assets/s_ncs_advuser_report_publish_02.png)
 
-1. Haga clic en el icono **[!UICONTROL Ampliar]** para abrir el informe en un navegador web.
+1. Click the **[!UICONTROL Enlarge]** icon to open the report in a web browser.
 
