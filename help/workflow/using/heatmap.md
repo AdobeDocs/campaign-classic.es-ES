@@ -11,12 +11,9 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: ea6488686d19b020e55839afee97e71a13ce2e33
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '1326'
 ht-degree: 100%
 
@@ -39,7 +36,7 @@ Más precisamente, ayuda a los administradores de la plataforma a:
 * Filtrar flujos de trabajo por duración para ver qué flujos de trabajo pueden encontrar problemas
 * Filtrar actividades por duración para ver qué actividades pueden encontrar problemas
 * Encuentre fácilmente flujos de trabajo individuales y todas las actividades relacionadas (con su duración)
-* Búsqueda por tipo de flujo de trabajo ([flujos de trabajo técnicos](../../workflow/using/building-a-workflow.md#technical-workflows) o [flujos de trabajo de campaña](../../workflow/using/building-a-workflow.md#campaign-workflows))
+* Búsqueda por tipo de flujo de trabajo ([flujos de trabajo técnicos](../../workflow/using/building-a-workflow.md#technical-workflows) o [flujos de trabajo de la campaña](../../workflow/using/building-a-workflow.md#campaign-workflows))
 * Buscar un flujo de trabajo específico para analizar
 
 >[!NOTE]
