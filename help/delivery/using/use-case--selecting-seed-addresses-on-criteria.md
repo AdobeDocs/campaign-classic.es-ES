@@ -11,18 +11,18 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 discoiquuid: fa8aab62-e182-4388-aa23-c255b0dbd42e
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '845'
+ht-degree: 79%
 
 ---
 
 
 # Ejemplo de uso: selección de direcciones semilla según ciertos criterios{#use-case-selecting-seed-addresses-on-criteria}
 
-En el marco de una entrega o de una campaña, el vínculo **[!UICONTROL Edit the dynamic condition...]** permite elegir las direcciones semilla basándose en criterios de selección específicos.
+In the framework of a delivery or a campaign, the **[!UICONTROL Edit the dynamic condition...]** link lets you choose seed addresses based on specific selection criteria.
 
 En este ejemplo de uso, al sitio **My online library** le gustaría personalizar sus boletines informativos según los gustos de lectura de sus clientes.
 
@@ -51,12 +51,12 @@ Para crear un valor común como el de nuestro ejemplo (departamento de compras),
 
 Para obtener más información sobre las extensiones de esquema, consulte la [guía de configuración](../../configuration/using/data-schemas.md).
 
-1. En el nodo **[!UICONTROL Administration > Configuration > Data schemas]**, haga clic en el icono **[!UICONTROL New]**.
-1. En la ventana **[!UICONTROL Creation of a data schema]**, seleccione la opción **[!UICONTROL Extension of a schema]** y haga clic en **[!UICONTROL Next]**.
+1. En el **[!UICONTROL Administration > Configuration > Data schemas]** nodo, haga clic en el **[!UICONTROL New]** icono .
+1. In the **[!UICONTROL Creation of a data schema]** window, select the **[!UICONTROL Extension of a schema]** option and click **[!UICONTROL Next]**.
 
    ![](assets/dlv_seeds_usecase_09.png)
 
-1. Seleccione el esquema de origen **[!UICONTROL Seed addresses]**, introduzca **doc** en el campo **[!UICONTROL Namespace]** y haga clic en **[!UICONTROL Ok]**.
+1. Select the **[!UICONTROL Seed addresses]** source schema, enter **doc** as the **[!UICONTROL Namespace]** and click **[!UICONTROL Ok]**.
 
    ![](assets/dlv_seeds_usecase_10.png)
 
@@ -74,7 +74,7 @@ Para obtener más información sobre las extensiones de esquema, consulte la [gu
 
    ![](assets/dlv_seeds_usecase_20.png)
 
-   A continuación, copie las líneas siguientes y péguelas en el elemento **[!UICONTROL Seed to insert in the export files]**.
+   Then copy the following lines and paste them under the **[!UICONTROL Seed to insert in the export files]** element.
 
    ```
        <element aggregate="doc:seedMember:common">
@@ -83,10 +83,10 @@ Para obtener más información sobre las extensiones de esquema, consulte la [gu
 
    ![](assets/dlv_seeds_usecase_29.png)
 
-   En este caso, se especifica que se ha creado una nueva enumeración denominada **[!UICONTROL Department]** en la tabla de direcciones semilla y que se basa en la plantilla de enumeración estándar **[!UICONTROL @company]** (etiquetada con el nombre **Company** en el formulario de direcciones semilla).
+   In this case, you are specifying that a new enumeration named **[!UICONTROL Department]** has been created in the seed address table, and it is based on the standard **[!UICONTROL @company]** enumeration template (labeled under the name **Company** in the seed address form).
 
 1. Haga clic en **[!UICONTROL Save]**.
-1. En el menú **[!UICONTROL Tools > Advanced]**, seleccione la opción **[!UICONTROL Update database structure]**.
+1. In the **[!UICONTROL Tools > Advanced]** menu, select the **[!UICONTROL Update database structure]** option.
 
    ![](assets/dlv_seeds_usecase_12.png)
 
@@ -100,7 +100,7 @@ Para obtener más información sobre las extensiones de esquema, consulte la [gu
 
    Una vez finalizada la actualización, puede cerrar el asistente.
 
-1. Desconéctese y vuelva a conectarse a Adobe Campaign. Los cambios realizados en el esquema de datos de las direcciones semilla deberían haber surtido efecto. Para que puedan ser visibles desde la pantalla de las direcciones semilla, debe actualizar el **[!UICONTROL formulario de entrada]** asociado. Consulte la sección [Actualización del formulario de entrada](#updating-the-input-form).
+1. Desconéctese y vuelva a conectarse a Adobe Campaign. Los cambios realizados en el esquema de datos de las direcciones semilla deberían haber surtido efecto. In order for them to be visible from the seed address screen, you must update the associated **[!UICONTROL Input form]**. Consulte la sección [Actualización del formulario de entrada](#updating-the-input-form).
 
 #### Ampliación del esquema de datos desde una tabla vinculada {#extending-the-data-schema-from-a-linked-table}
 
@@ -134,13 +134,13 @@ Indican lo siguiente:
 
 ![](assets/dlv_seeds_usecase_07.png)
 
-El usuario puede seguir el **paso 5** de la sección y actualizar el **[!UICONTROL formulario de entrada]** de las direcciones semilla.
+The user can then follow from **step 5** of the section, and update the **[!UICONTROL Input form]** of the seed addresses.
 
 Consulte la sección [Actualización del formulario de entrada](#updating-the-input-form).
 
 #### Actualización del formulario de entrada {#updating-the-input-form}
 
-1. En el nodo **[!UICONTROL Administration > Configuration > Input forms]**, busque el formulario de entrada de direcciones semilla.
+1. In the **[!UICONTROL Administration > Configuration > Input forms]** node, find the seed addresses input form.
 
    ![](assets/dlv_seeds_usecase_19.png)
 
@@ -153,7 +153,7 @@ Consulte la sección [Actualización del formulario de entrada](#updating-the-in
    ![](assets/dlv_seeds_usecase_21.png)
 
 1. Guarde los cambios.
-1. Abra una dirección semilla. El campo **[!UICONTROL Department]** aparece en la tabla **[!UICONTROL Recipient]**.
+1. Abra una dirección semilla. The **[!UICONTROL Department]** field appears in the **[!UICONTROL Recipient]** table.
 
    ![](assets/dlv_seeds_usecase_22.png)
 
@@ -167,11 +167,11 @@ Ahora puede especificar la condición dinámica de las direcciones semilla para 
 
    ![](assets/dlv_seeds_usecase_01.png)
 
-1. Haga clic en el vínculo **[!UICONTROL To]** y luego en la pestaña **[!UICONTROL Seed addresses]** para acceder al vínculo **[!UICONTROL Edit the dynamic condition...]**
+1. Click the **[!UICONTROL To]** link then the **[!UICONTROL Seed addresses]** tab to access the **[!UICONTROL Edit the dynamic condition...]** link.
 
    ![](assets/dlv_seeds_usecase_02.png)
 
-1. Seleccione la expresión que le permite elegir las direcciones semilla que desee. El usuario selecciona la expresión **[!UICONTROL Department (@workField)]**.
+1. Seleccione la expresión que le permite elegir las direcciones semilla que desee. Here the user selects the **[!UICONTROL Department (@workField)]** expression.
 
    ![](assets/dlv_seeds_usecase_03.png)
 
@@ -185,7 +185,7 @@ Ahora puede especificar la condición dinámica de las direcciones semilla para 
 
 1. Haga clic en **[!UICONTROL Ok]**.
 
-   La consulta se muestra en la ventana **[!UICONTROL Select target]**.
+   The query is displayed in the **[!UICONTROL Select target]** window.
 
    ![](assets/dlv_seeds_usecase_04.png)
 
