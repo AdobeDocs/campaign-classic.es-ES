@@ -11,11 +11,11 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 8fdda764-3e42-4972-a9c9-63567588931e
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 96%
 
 ---
 
@@ -40,7 +40,7 @@ El campo **[!UICONTROL Title]** permite personalizar la etiqueta en el encabezad
 
 Las opciones de **[!UICONTROL Display settings]** permiten seleccionar la posición del pie de ilustración del control dentro de una página del informe y definir el número de columnas de la página. Para obtener más información acerca del diseño de la página, consulte la sección **Diseño de elementos** de [esta sección](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page).
 
-Seleccione las distintas opciones de la sección **[!UICONTROL Browse]** para autorizar la navegación desde una página de informes a otra. Si la opción **[!UICONTROL Disable next page]** o **[!UICONTROL Disable previous page]** está seleccionada, los botones **[!UICONTROL Next]** y **[!UICONTROL Previous]** desaparecen de la página del informe.
+Seleccione las distintas opciones de la sección **[!UICONTROL Browse]** para autorizar la navegación desde una página de informes a otra. If the **[!UICONTROL Disable next page]** or the **[!UICONTROL Disable previous page]** option is selected, the **[!UICONTROL Next]** and **[!UICONTROL Previous]** buttons disappear from the report page.
 
 ## Adición de un encabezado y un pie de página {#adding-a-header-and-a-footer}
 
