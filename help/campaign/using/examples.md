@@ -11,11 +11,11 @@ audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 discoiquuid: 7b0aef75-345d-45be-b7d0-a9f6944ee678
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '1298'
+ht-degree: 100%
 
 ---
 
@@ -142,6 +142,7 @@ Una vez aprobadas las comprobaciones, la campaña puede iniciarse automáticamen
    * el **[!UICONTROL Distribution field value]**, que corresponde a las entidades locales involucradas en la próxima campaña.
    * la **[!UICONTROL label]** de la entidad local.
    * el **[!UICONTROL Size]** o tamaño (fijo o como porcentaje). El **valor predeterminado 0** implica la selección de todos los destinatarios vinculados a la entidad local.
+
    ![](assets/mkg_dist_use_case_target_valid4.png)
 
 1. Guarde la nueva distribución de datos.
@@ -158,6 +159,7 @@ Una vez aprobadas las comprobaciones, la campaña puede iniciarse automáticamen
    * el contenido del mensaje que se envía a las entidades locales en la notificación,
    * el recordatorio de aprobación,
    * el procesamiento esperado para la campaña..
+
    ![](assets/mkg_dist_use_case_target_valid7.png)
 
 1. Guarde el registro.
@@ -170,6 +172,7 @@ Ahora puede añadir un **paquete de campaña** desde **Campaign**.
 
    * en el modo **Manual**, las entidades locales participan en la campaña si aceptan la invitación de la entidad central. Pueden eliminar contactos previamente configurados si lo desean y se necesita la aprobación del administrador para confirmar su participación en la campaña.
    * en el modo **automático**, las entidades locales deben participar en la campaña, a menos que no estén registrados en ella. Pueden eliminar contactos sin aprobación.
+
    ![](assets/mkg_dist_use_case_target_valid.png)
 
 1. En la pestaña **[!UICONTROL Description]**, puede agregar una descripción para la campaña, así como cualquier documento que se enviará a las entidades locales.
