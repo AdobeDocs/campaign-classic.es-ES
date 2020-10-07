@@ -11,18 +11,18 @@ audience: interaction
 content-type: reference
 topic-tags: tracking-offers
 discoiquuid: 6aae6a10-b03e-41f1-a6e9-29100800bae1
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 82%
 
 ---
 
 
 # Informe de análisis de oferta{#offer-analysis-report}
 
-El informe **[!UICONTROL de análisis de oferta]** proporciona un resumen del número de propuestas aceptadas o rechazadas.
+The **[!UICONTROL Offer analysis]** report provides you with an overview of the number of accepted or rejected propositions.
 
 >[!NOTE]
 >
