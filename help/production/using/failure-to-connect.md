@@ -11,18 +11,18 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: 493067fb-68f1-48b9-afaa-3127a847db83
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 90813bc2913d56136067b9f64c0e934df3f17473
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '348'
+ht-degree: 3%
 
 ---
 
 
 # Error de conexión{#failure-to-connect}
 
-Las razones para ello pueden ser múltiples y depender de distintos contextos.
+Las razones para ello pueden ser múltiples y depender de diversos contextos.
 
 Compruebe la configuración general de las zonas de seguridad.
 
@@ -40,17 +40,17 @@ Compruebe la siguiente información:
 
    * ¿Puede conectarse al servidor que aloja Adobe Campaign a través de otro servicio?
 
-      Conectarse al servidor a través de SSH o por cualquier otro medio. Si esto no es posible, la empresa host tiene un problema. Póngase en contacto con el administrador del sistema.
+      Conectarse al servidor a través de SSH o por cualquier otro medio. Si esto no es posible, la compañía del host tiene un problema. Póngase en contacto con el administrador del sistema.
 
 1. **Comprobaciones en el servidor** Web (IIS/apache/etc.)
 
    * ¿Responde el servidor Web?
 
-      Conéctese a la URL de acceso al servidor de Adobe Campaign mediante un explorador Web: **http(s)://`<urlserver>`**. Si no responde, el servidor web se detiene en el equipo. Póngase en contacto con el administrador del sistema de su empresa host para reiniciar el servicio.
+      Conéctese a la URL de acceso al servidor de Adobe Campaign mediante un explorador Web: **http(s)://`<urlserver>`**. Si no responde, el servidor web se detiene en el equipo. Póngase en contacto con el administrador del sistema de la compañía del host para reiniciar el servicio.
 
    * ¿Se ha integrado correctamente Adobe Campaign?
 
-      Inicie sesión en el **http(s)://`<urlserver>`/r/test** URL. El servidor debe devolver el siguiente tipo de mensaje
+      Inicie sesión en el **http(s):///`<urlserver>`/r/test** URL. El servidor debe devolver el siguiente tipo de mensaje
 
       ```
       <redir status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='<hostname>' localHost='<server>'/>
@@ -58,7 +58,7 @@ Compruebe la siguiente información:
 
       Si no obtiene este resultado, compruebe en la configuración del servidor Web que se tiene en cuenta la integración.
 
-1. **Comprobaciones en el lado de Adobe Campaign**
+1. **Cheques en el lado de Adobe Campaign**
 
    * ¿Se ha iniciado el módulo Web de Adobe Campaign?
 
@@ -68,11 +68,11 @@ Compruebe la siguiente información:
 
          ¿Se realiza correctamente la integración de JAVA? Adobe Campaign requiere un JDK SUN.
 
-         Está integrado en el archivo **`[path of application]`/nl6/customer.sh **
+         Está integrado en el archivo **`[path of application]`/nl6/customer.sh**
 
       * Si obtiene una página en blanco:
 
-         ¿Se ha iniciado el módulo web de Adobe Campaign? Debe obtener:
+         ¿Se ha iniciado el módulo Web de Adobe Campaign? Debe obtener:
 
          ```
          nlserver pdump
@@ -89,5 +89,5 @@ Compruebe la siguiente información:
          ```
 >[!NOTE]
 >
->Si obtiene una respuesta del siguiente tipo cuando enumera los módulos de Adobe Campaign: **nlserver pdump**
->HH:MM:SS > Servidor de aplicaciones para Adobe Campaign Classic (7.X YY.R build XXX@SHA1) de DD/MM/AAAA Sin tareas Debe reiniciar toda la aplicación de Adobe Campaign. Para ello, utilice el siguiente comando: **nlserver watdog -svc -noconsole **
+>Si obtiene una respuesta del tipo siguiente al realizar la lista de los módulos de Adobe Campaign: **nlserver pdump**
+>HH:MM:SS > Servidor de aplicaciones para Adobe Campaign Classic (compilación 7.X YY.R XXX@SHA1) de DD/MM/AAAA Sin tareas Debe reiniciar toda la aplicación Adobe Campaign. Para ello, utilice el siguiente comando: **nlserver watdog -svc -noconsole **
