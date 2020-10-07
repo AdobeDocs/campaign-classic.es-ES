@@ -11,11 +11,11 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 discoiquuid: d1510fd9-995b-46c6-8d57-e1fe3999235e
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c25e2a4f2280cdcc61e0522f8235149410b5dacf
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 2%
 
 ---
 
@@ -24,9 +24,9 @@ source-git-commit: c25e2a4f2280cdcc61e0522f8235149410b5dacf
 
 ## Ejecución del programa de instalación {#executing-the-installation-program}
 
-Para una plataforma de Windows de 32 bits, instale Adobe Campaign de 32 bits. Para una plataforma de Windows de 64 bits, instale Adobe Campaign de 64 bits.
+Para una plataforma Windows de 32 bits, instale Adobe Campaign de 32 bits. Para una plataforma Windows de 64 bits, instale Adobe Campaign de 64 bits.
 
-Los pasos de instalación del servidor de Adobe Campaign son los siguientes:
+Los pasos de instalación para el servidor Adobe Campaign son los siguientes:
 
 1. Ejecute el archivo **setup.exe**.
 
@@ -40,8 +40,9 @@ Los pasos de instalación del servidor de Adobe Campaign son los siguientes:
 
    * **[!UICONTROL Installation of an application server]** :: Instale el servidor de aplicaciones de Adobe Campaign y la consola de cliente.
    * **[!UICONTROL Minimal installation (Network)]** :: Instalación del equipo cliente desde la red. Sólo se instalará un número limitado de DLL en el equipo, si es necesario, y todos los demás componentes se utilizarán desde una unidad de red.
-   * **[!UICONTROL Installation of a client]** :: Instalación de los componentes necesarios para el cliente de Adobe Campaign.
+   * **[!UICONTROL Installation of a client]** :: Instalación de los componentes necesarios para el cliente Adobe Campaign.
    * **[!UICONTROL Custom installation]** :: El usuario elige los elementos que se van a instalar.
+
    Seleccione **Instalación de un servidor** de aplicaciones y siga los diferentes pasos como se muestra a continuación:
 
    ![](assets/s_ncs_install_installer_02.png)
@@ -50,7 +51,7 @@ Los pasos de instalación del servidor de Adobe Campaign son los siguientes:
 
    ![](assets/s_ncs_install_installer_03.png)
 
-1. Haga clic **[!UICONTROL Finish]** para iniciar la instalación:
+1. Haga clic **[!UICONTROL Finish]** para inicio de la instalación:
 
    ![](assets/s_ncs_install_installer_04.png)
 
@@ -66,7 +67,7 @@ Los pasos de instalación del servidor de Adobe Campaign son los siguientes:
    >
    >Una vez finalizada la instalación del servidor, es necesario reiniciar el servidor para evitar posibles problemas de red.
 
-   Una vez finalizada la instalación, inicie Adobe Campaign para crear los archivos de configuración. Consulte [Primera puesta en marcha del servidor](#first-start-up-of-the-server).
+   Una vez finalizada la instalación, inicio a Adobe Campaign para crear los archivos de configuración. Consulte [Primer inicio del servidor](#first-start-up-of-the-server).
 
 ## Prueba de instalación de resumen {#summary-installation-testing}
 
@@ -76,13 +77,13 @@ Puede probar la instalación inicial con el siguiente comando:
 nlserver pdump
 ```
 
-Si Adobe Campaign no está iniciado, la respuesta es:
+Si Adobe Campaign no se ha iniciado, la respuesta es:
 
 ```
 No task
 ```
 
-## Primera puesta en marcha del servidor {#first-start-up-of-the-server}
+## Primer inicio del servidor {#first-start-up-of-the-server}
 
 Una vez finalizada la prueba de instalación, abra un símbolo del sistema a través del **[!UICONTROL Start > Programs > Adobe Campaign]** menú e introduzca el siguiente comando:
 
@@ -124,7 +125,7 @@ Se muestra la siguiente información:
 12:17:22 >   Server started
 ```
 
-Para detenerlo, introduzca:
+Para detenerlo, escriba:
 
 ```
 nlserver stop web
@@ -145,9 +146,9 @@ El servidor de Adobe Campaign define un inicio de sesión técnico denominado **
 
 Consulte la sección Identificador [interno](../../installation/using/campaign-server-configuration.md#internal-identifier).
 
-## Inicio de los servicios de Adobe Campaign {#starting-adobe-campaign-services}
+## Starting Adobe Campaign services {#starting-adobe-campaign-services}
 
-Para iniciar los servicios de Adobe Campaign, puede utilizar el administrador de servicios o escribir lo siguiente en la línea de comandos (con los derechos correspondientes):
+Para inicio de los servicios de Adobe Campaign, puede utilizar el administrador de servicios o introducir lo siguiente en la línea de comandos (con los derechos correspondientes):
 
 ```
 net start nlserver6
@@ -163,7 +164,7 @@ net stop nlserver6
 
 Descargue LibreOffice, por ejemplo de [https://www.libreoffice.org/download/libreoffice-fresh/](https://www.libreoffice.org/download/libreoffice-fresh/) y siga los pasos de instalación habituales.
 
-Agregue la siguiente variable de entorno:
+Añada la siguiente variable de entorno:
 
 ```
 OOO_BASIS_INSTALL_DIR="C:\Program Files (x86)\LibreOffice 6\"
