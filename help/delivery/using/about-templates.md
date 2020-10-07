@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
 discoiquuid: 22e289d0-c33c-4daa-a893-b292e523f30b
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '277'
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 Puede guardar una configuración de envío en una plantilla de envío para reutilizarla más tarde. La plantilla puede incluir una configuración completa o parcial de la entrega.
 
-La plantilla de envío se puede ejecutar manualmente, tal y como se describe en este capítulo, o según un evento concreto (que se inicie a una hora determinada, cuando un archivo llegue a un servidor, etc.). Puede configurar las plantillas de envío desde el nodo **[!UICONTROL Resources > Templates > Delivery templates]** del árbol.
+La plantilla de envío se puede ejecutar manualmente, tal y como se describe en este capítulo, o según un evento concreto (que se inicie a una hora determinada, cuando un archivo llegue a un servidor, etc.). Delivery templates can be configured via the **[!UICONTROL Resources > Templates > Delivery templates]** node in the tree.
 
 ![](assets/s_user_template_list.png)
 
