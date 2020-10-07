@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 discoiquuid: a104fcab-75e6-4d73-bc3d-88570de6df7f
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 003bac4c5d89290b9d3653d6ddfab7284b68642d
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '454'
+ht-degree: 96%
 
 ---
 
@@ -80,7 +80,7 @@ Para que esta modificación del esquema de datos pueda verse en el **formulario 
 
    >[!NOTE]
    >
-   >Para obtener más información sobre el vínculo **[!UICONTROL Edit the dynamic condition...]**, consulte [Caso de uso: selección de direcciones semilla según ciertos criterios](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md).
+   >For more information on the **[!UICONTROL Edit the dynamic condition...]** link, refer to [Use case: selecting seed addresses on criteria](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md).
 
 1. Haga clic en la pestaña **[!UICONTROL Preview]** y seleccione una dirección semilla para probar la personalización.
 
