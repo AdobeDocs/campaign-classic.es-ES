@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 6b0acb6b-0808-4972-b2a2-15fab29b3861
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '978'
+ht-degree: 90%
 
 ---
 
@@ -78,7 +78,7 @@ Estos datos se incluyen en un archivo de texto “Compras.txt”.
 
    ![](assets/uc2_enrich_chargement1.png)
 
-   Haga clic en el vínculo **[!UICONTROL Click here to change the file format...]** para cambiar el nombre de las columnas con los nombres y etiquetas internos de la tabla “Purchases”.
+   Click the **[!UICONTROL Click here to change the file format...]** link to rename the columns using the internal names and labels of the &quot;Purchases&quot; table.
 
    ![](assets/uc2_enrich_chargement2.png)
 
@@ -90,7 +90,7 @@ Agregue la actividad Enrichment y configúrela como se indica a continuación:
 
    ![](assets/uc2_enrich_enrich1.png)
 
-1. Haga clic en **[!UICONTROL Add data]** y, a continuación, seleccione la opción **[!UICONTROL A link]**.
+1. Haga clic en **[!UICONTROL Add data]**, luego seleccione la **[!UICONTROL A link]** opción.
 
    ![](assets/uc2_enrich_enrich2.png)
 
@@ -109,7 +109,7 @@ Con el vínculo ya creado, se agrega una columna a la tabla de trabajo del flujo
 
 1. Abra la actividad de enriquecimiento.
 1. Haga clic en **[!UICONTROL Edit additional data]**.
-1. Agregue el campo “ZipCode Reference” a **[!UICONTROL Output columns]**.
+1. Add the &quot;ZipCode Reference&quot; field to the **[!UICONTROL Output columns]**.
 
 ![](assets/uc2_enrich_enrich5.png)
 
@@ -133,11 +133,11 @@ Se debe llevar a cabo una conciliación entre los datos de la tabla de trabajo d
 
 En la actividad **Update date**, se necesita la siguiente configuración:
 
-1. Seleccione la opción **[!UICONTROL Insert or update]**, en el campo **[!UICONTROL Operation type]** para evitar la creación de registros nuevos cada vez que se recopile el archivo.
-1. Seleccione el valor **[!UICONTROL By directly using the targeting dimension]** de la opción **[!UICONTROL Record identification]**.
-1. Seleccione el esquema “Purchases” como **[!UICONTROL Document type]**.
+1. Select the **[!UICONTROL Insert or update]** option in the **[!UICONTROL Operation type]** field to avoid creating new records each time the file is collected.
+1. Seleccione el **[!UICONTROL By directly using the targeting dimension]** valor de la **[!UICONTROL Record identification]** opción.
+1. Select the &quot;Purchases&quot; schema as a **[!UICONTROL Document type]**.
 1. Especifique la lista de campos que desea actualizar. La columna **[!UICONTROL Destination]** permite definir los campos del esquema “Purchases”. La columna **[!UICONTROL Expression]** permite seleccionar los campos de la tabla de trabajo para realizar una asignación.
-1. Haga clic en la opción **[!UICONTROL Generate an outbound transition]**.
+1. Haga clic en la **[!UICONTROL Generate an outbound transition]** opción.
 
 ![](assets/uc2_enrich_miseajour.png)
 
@@ -149,14 +149,14 @@ El propósito de este segundo enriquecimiento es crear un agregado en el esquema
 
 1. Agregue una actividad de **consulta** que le permita recuperar todos los **contactos** almacenados.
 1. Agregue una actividad **Enrichment** y seleccione el conjunto principal resultante de la consulta anterior.
-1. Haga clic en agregar **[!UICONTROL Data]**.
-1. Haga clic en la opción **[!UICONTROL Data linked to targeting dimension]**.
-1. Haga clic en la opción **[!UICONTROL Data linked to the filtering dimension]**, en la ventana **[!UICONTROL Select fields to add]**.
-1. Seleccione el nodo **[!UICONTROL Purchases]** y haga clic en **[!UICONTROL Next]**.
+1. Click add **[!UICONTROL Data]**.
+1. Haga clic en la **[!UICONTROL Data linked to the targeting dimension]** opción.
+1. Haga clic en la **[!UICONTROL Data linked to the filtering dimension]** opción de la **[!UICONTROL Select fields to add]** ventana.
+1. Select the **[!UICONTROL Purchases]** node then click **[!UICONTROL Next]**.
 
    ![](assets/uc2_enrich_enrich9.png)
 
-1. Cambie el campo **[!UICONTROL Collected data]** seleccionando la opción **[!UICONTROL Aggregates]**.
+1. Change the **[!UICONTROL Collected data]** field by selecting the **[!UICONTROL Aggregates]** option.
 
    ![](assets/uc2_enrich_enrich10.png)
 
@@ -167,12 +167,12 @@ El propósito de este segundo enriquecimiento es crear un agregado en el esquema
 
 Para preparar la lista de resumen, se debe agregar campos desde “Purchases” y del primer enriquecimiento: el campo “ZipCode Reference”.
 
-1. Haga clic en el vínculo **[!UICONTROL Edit additional data...]** de la actividad de enriquecimiento.
+1. Click the **[!UICONTROL Edit additional data...]** link in the enrichment activity.
 1. Agregue los campos “Store name” y “Purchases / Zip Code Reference”.
 
    ![](assets/uc2_enrich_enrich7.png)
 
-1. Haga clic en la pestaña **[!UICONTROL Properties]**.
+1. Seleccione la pestaña **[!UICONTROL Properties]**.
 1. Cambie el segundo vínculo para crear solo una línea.
 
    ![](assets/uc2_enrich_enrich8.png)
