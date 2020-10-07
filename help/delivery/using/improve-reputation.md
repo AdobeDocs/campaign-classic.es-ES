@@ -9,11 +9,8 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 537cbdec1ec88da1c759f6ca8eafe383c55a61d3
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 90%
@@ -23,7 +20,7 @@ ht-degree: 90%
 
 # Mejora de la reputación{#improve-reputation}
 
-Para evitar que los destinatarios se agoten, elimine del destinatario las direcciones de correo electrónico duplicadas. Este paso protege su reputación de envío y garantiza una buena gestión de cuarentena. Adobe Campaign oferta las herramientas necesarias para implementar estas recomendaciones y evitar el riesgo de ser agregadas a una lista de bloqueo por el ISP.
+Para evitar que los destinatarios se agoten, elimine del destinatario las direcciones de correo electrónico duplicadas. Este paso protege su reputación de envío y garantiza una buena gestión de cuarentena. Adobe Campaign oferta las herramientas necesarias para implementar estas recomendaciones y evitar el riesgo de ser agregadas a una lista de bloqueados por el ISP.
 
 Para evitar la mayor cantidad posible de duplicados, deben llevarse a cabo las siguientes acciones:
 
@@ -45,7 +42,7 @@ Contar con direcciones de correo electrónico duplicadas puede tener varias cons
 * El mismo mensaje se envía más de una vez. Incluso si Campaign realiza un procedimiento de deduplicación de forma predeterminada antes de la entrega, no hay nada que detenga el mismo mensaje enviado por acciones diferentes que tengan el mismo contenido cuando se divide un destinatario.
 * Solicitudes de cancelación de suscripción no aceptadas. Si un destinatario cancela la suscripción después de recibir un mensaje, su perfil duplicado sigue siendo apto para mensajes posteriores.
 
-Además de este paso secundario de los procedimientos de inclusión, esta situación probablemente llevará a los usuarios a considerar los mensajes como spam y a activar un procedimiento de lista de bloqueos en el ISP.
+Además de este paso secundario de los procedimientos de inclusión, esta situación probablemente llevará a los usuarios a considerar los mensajes como spam y a activar un procedimiento de lista de bloqueados en el ISP.
 
 Debe ser particularmente prudente al realizar operaciones en la base de datos:
 
