@@ -11,18 +11,18 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 discoiquuid: faaecbd6-f707-4307-8921-04d8993c2c47
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '152'
+ht-degree: 19%
 
 ---
 
 
 # Requisitos previos para la instalación de Campaign en Windows{#prerequisites-of-campaign-installation-in-windows}
 
-La configuración técnica y el software necesarios para instalar Adobe Campaign se presentan en la matriz [de](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)compatibilidad.
+La configuración técnica y el software necesarios para instalar Adobe Campaign se presentan en la matriz [de](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)compatibilidad.
 
 El proceso de instalación del servidor de Adobe Campaign para el uso de varias instancias se describe a continuación en [Instalación del servidor](../../installation/using/installing-the-server.md).
 
@@ -35,5 +35,5 @@ Una vez completados los pasos de instalación, debe configurar las instancias, l
 
 >[!NOTE]
 >
->Cuando Adobe Campaign se implementa en un entorno de Windows, los usuarios con los derechos de acceso necesarios pueden utilizar la sintaxis UNC (Convención de nomenclatura universal.uniforme) para las rutas de acceso durante la manipulación de archivos en la red.
+>Cuando Adobe Campaign se implementa en un entorno de Windows, los usuarios con los derechos de acceso necesarios pueden utilizar la sintaxis UNC (convención de nomenclatura universal.uniforme) para las rutas de acceso durante la manipulación de archivos en la red.
 
