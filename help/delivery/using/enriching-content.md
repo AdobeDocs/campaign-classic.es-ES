@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 discoiquuid: 4404c21e-0a89-4762-af20-384ad7071916
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '663'
+ht-degree: 96%
 
 ---
 
@@ -262,7 +262,7 @@ El resultado obtenido después de la ejecución del script:
 <contact id="11504982510" lastName="Martinez" recipient-cs="Martinez Peter (peter.martinez@adobe.com)" recipient-id="3013"/> 
 ```
 
-El contenido del código JavaScript se añade mediante la carpeta **[!UICONTROL Administration > Configuration > Content management > JavaScript Codes]** y debe rellenarse en la plantilla de publicación para cada transformación.
+The content of the JavaScript code is added via the **[!UICONTROL Administration > Configuration > Content management > JavaScript Codes]** folder and must be populated in the publication template for each transformation.
 
 ![](assets/d_ncs_content_link5.png)
 
