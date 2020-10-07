@@ -11,11 +11,8 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 discoiquuid: 9f7118f4-aef0-469c-bbe1-b62bed674faa
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: cb44d439c6866d94f8e1201575ab3d3094d6ad79
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1291'
 ht-degree: 2%
@@ -31,13 +28,13 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->Si no tiene acceso al servidor y a la base de datos (entornos alojados), no podrá realizar los procedimientos que se describen a continuación. Póngase en contacto con Adobe.
+>Si no tiene acceso al servidor y a la base de datos (entornos alojados), no podrá realizar los procedimientos que se describen a continuación. Póngase en contacto con el Adobe.
 
 El uso de Adobe Campaign requiere la instalación y configuración de uno o varios entornos: desarrollo, ensayo, preproducción, producción, etc.
 
 Cada entorno contiene una instancia de Adobe Campaign y cada instancia de Adobe Campaign está vinculada a una o varias bases de datos. El servidor de aplicaciones puede ejecutar uno o varios procesos: casi todos ellos tienen acceso directo a la base de datos de instancias.
 
-En esta sección se detallan los procesos que deben aplicarse al duplicado de un entorno de Adobe Campaign, es decir, para restaurar un entorno de origen a un entorno de destinatario, lo que resulta en dos entornos de trabajo idénticos.
+En esta sección se detallan los procesos que se deben aplicar al duplicado de un entorno de Adobe Campaign, es decir, para restaurar un entorno de origen a un entorno de destinatario, lo que resulta en dos entornos de trabajo idénticos.
 
 Para ello, siga los siguientes pasos:
 
@@ -49,7 +46,7 @@ Para ello, siga los siguientes pasos:
 
    >[!NOTE]
    >
-   >En el contexto del Adobe Campaign, una **cauterización** combina acciones que le permiten detener todos los procesos que interactúan con el exterior: registros, seguimiento, envíos, flujos de trabajo de la campaña, etc.\
+   >En el contexto de Adobe Campaign, una **cauterización** combina acciones que le permiten detener todos los procesos que interactúan con el exterior: registros, seguimiento, envíos, flujos de trabajo de la campaña, etc.\
    >Este paso es necesario para evitar enviar mensajes varias veces (una desde el entorno nominal y otra desde el entorno duplicado).
 
    >[!CAUTION]
@@ -77,6 +74,7 @@ Los siguientes pasos deben realizarse con atención buena: es posible que alguno
 >
 >* El siguiente procedimiento es válido en lenguaje PostgreSQL. Si el lenguaje SQL es diferente (Oracle, por ejemplo), las consultas SQL deben adaptarse.
 >* Los siguientes comandos se aplican en el contexto de una instancia de **prod** y una instancia de **dev** en PostgreSQL.
+
 >
 
 
@@ -200,9 +198,9 @@ En el entorno de destinatario, vuelva a realizar el inicio de los procesos de Ad
 
 >[!NOTE]
 >
->Antes de reiniciar el Adobe Campaign en el entorno **dev** , puede aplicar un procedimiento de seguridad adicional: inicio únicamente del módulo **web** .
+>Antes de reiniciar Adobe Campaign en el entorno de **desarrollo** , puede aplicar un procedimiento de seguridad adicional: inicio únicamente del módulo **web** .
 >  
->Para ello, edite el archivo de configuración de la instancia (**config-dev.xml**) y luego agregue el carácter &quot;_&quot; antes de las opciones autoStart=&quot;true&quot; para cada módulo (mta, stat, etc.).
+>Para ello, edite el archivo de configuración de su instancia (**config-dev.xml**) y luego agregue el carácter &quot;_&quot; antes de las opciones autoStart=&quot;true&quot; para cada módulo (mta, stat, etc.).
 
 Ejecute el siguiente comando para inicio del proceso Web:
 
@@ -218,7 +216,7 @@ nlserver pdump
 
 Compruebe que el acceso a las funciones de la consola de cliente.
 
-### Paso 8 - Importar opciones y cuentas externas en el entorno de destinatario (dev) {#step-8---import-options-and-external-accounts-into-the-target-environment--dev-}
+### Paso 8: Importar opciones y cuentas externas en el entorno de destinatario (dev) {#step-8---import-options-and-external-accounts-into-the-target-environment--dev-}
 
 >[!CAUTION]
 >
