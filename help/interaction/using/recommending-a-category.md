@@ -11,11 +11,11 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 discoiquuid: d52c3e72-bac0-48d9-9750-0a30aa816b83
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 92%
 
 ---
 
@@ -27,8 +27,8 @@ Puede ocurrir que un destinatario no se considere apto para todas las ofertas. P
 Para incluir siempre una categoría en las recomendaciones, siga los siguientes pasos:
 
 1. Abra el explorador y haga clic en un catálogo de ofertas desde la estructura de árbol.
-1. Haga clic en la pestaña **[!UICONTROL Elegibilidad]** y marque la casilla **[!UICONTROL Incluya siempre esta categoría en las recomendaciones]**.
-1. Finalice y apruebe haciendo clic en **[!UICONTROL Guardar]**.
+1. Haga clic en la **[!UICONTROL Eligibility]** ficha y marque la **[!UICONTROL Always include this category in the recommendations]** casilla.
+1. Finish and approve by clicking **[!UICONTROL Save]**.
 
    ![](assets/offer_cat_default_001.png)
 
