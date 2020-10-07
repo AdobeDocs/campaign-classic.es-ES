@@ -11,11 +11,11 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: 0f5399a8-860d-4a1b-86a9-9011b973346b
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 9%
 
 ---
 
@@ -65,7 +65,7 @@ Para una instancia de **prod** existente en Linux/PostgreSQL, los pasos para cam
    vi config-prod.xml
    ```
 
-   Agregue el **carácter u** delante del valor relacionado con el identificador de la base de datos (**databaseId**):
+   Añada el **carácter u** delante del valor relativo al identificador de la base de datos (**databaseId**):
 
    ```
    <web>
