@@ -11,11 +11,11 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 discoiquuid: 639d2f42-e397-4694-942c-b2b8ad94ce9c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '666'
+ht-degree: 3%
 
 ---
 
@@ -26,11 +26,11 @@ source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
 
 Ciertos procesos de la aplicación necesitan comunicarse con otros o acceder a la LAN e Internet. Esto significa que algunos puertos TCP deben estar abiertos para estos procesos.
 
-Utilice el puerto integrado de Apache Tomcat como prioridad (8080 de forma predeterminada) para las comunicaciones internas entre los distintos servidores de aplicaciones de una plataforma de Adobe Campaign.
+Utilice el puerto integrado Apache Tomcat como prioridad (8080 de forma predeterminada) para las comunicaciones internas entre los distintos servidores de aplicaciones de una plataforma Adobe Campaign.
 
-### Servidor de entrega {#delivery-server}
+### Envío Server {#delivery-server}
 
-Para el servidor de entrega (mta **** nlserver), deben abrirse los puertos siguientes:
+Para el servidor envío (mta **** nlserver), deben abrirse los puertos siguientes:
 
 <table> 
  <tbody> 
@@ -47,7 +47,7 @@ Para el servidor de entrega (mta **** nlserver), deben abrirse los puertos sigui
   <tr> 
    <td> 53/udp (dominio)<br /> </td> 
    <td> Servidores DNS<br /> </td> 
-   <td> Consultas DNS.<br /> </td> 
+   <td> CONSULTAS DNS.<br /> </td> 
   </tr> 
   <tr> 
    <td> 38000/tcp (puerto predeterminado)<br /> </td> 
@@ -105,9 +105,9 @@ Para el servidor de aplicaciones (**nlserver web**), deben abrirse los puertos s
  </tbody> 
 </table>
 
-Cuando varios servidores de aplicaciones de una plataforma de Adobe Campaign necesiten comunicarse entre sí, se recomienda utilizar el puerto del servidor Apache Tomcat (de forma predeterminada: 8080) en lugar del puerto HTTP del servidor web con el que se llevó a cabo la integración del módulo de redirección. Esto significa que el puerto debe estar abierto entre estos servidores.
+Cuando varios servidores de aplicaciones de una plataforma de Adobe Campaign necesitan comunicarse entre sí, recomendamos el uso del puerto del servidor Apache Tomcat (de forma predeterminada: 8080) en lugar del puerto HTTP del servidor web con el que se llevó a cabo la integración del módulo de redirección. Esto significa que el puerto debe estar abierto entre estos servidores.
 
-### Estado de entrega de SMS {#sms-delivery-status}
+### Estado del envío SMS {#sms-delivery-status}
 
 Para rastrear envíos SMS (**nlserver sms**), debe estar abierto el siguiente puerto:
 
@@ -121,7 +121,7 @@ Para rastrear envíos SMS (**nlserver sms**), debe estar abierto el siguiente pu
   <tr> 
    <td> 38000/tcp (puerto predeterminado)<br /> </td> 
    <td> Puerta de enlace SMS<br /> </td> 
-   <td> Consulta el estado de la cola de entrega administrada por la puerta de enlace SMS NetSize [opción].<br /> </td> 
+   <td> Consulta el estado de la cola de envíos administrada por la puerta de enlace SMS NetSize [opción].<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -199,7 +199,7 @@ Además, ciertos componentes deben ser accesibles desde Internet para que se pue
 
 ### Servidor Web externo {#external-web-server}
 
-Este servidor aloja formularios Web, páginas espejo, etc. Es necesario abrir los puertos siguientes:
+Este servidor aloja Formularios web, páginas espejo, etc. Es necesario abrir los puertos siguientes:
 
 <table> 
  <tbody> 
@@ -209,7 +209,7 @@ Este servidor aloja formularios Web, páginas espejo, etc. Es necesario abrir lo
   </tr> 
   <tr> 
    <td><p> 80/tcp (http)</p><p> 443/tcp (https)</p><br /> </td> 
-   <td> En cualquier parte. Necesario cuando los formularios Web se administran directamente desde la plataforma de Adobe Campaign o cuando se utilizan páginas espejo.<br /> </td> 
+   <td> En cualquier parte. Necesario cuando los Formularios web se administran directamente desde la plataforma Adobe Campaign o cuando se utilizan páginas espejo.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -231,7 +231,7 @@ Este servidor aloja formularios Web, páginas espejo, etc. Es necesario abrir lo
 
 ## Integración con Adobe Experience Manager {#integration-with-adobe-experience-manager}
 
-La integración entre Adobe Campaign y Adobe Experience Manager requiere la apertura de varios puertos si la instalación está &quot;in situ&quot;. Para obtener más información sobre la configuración de esta integración, consulte la documentación [](../../integrations/using/about-adobe-experience-manager.md)detallada.
+La integración entre Adobe Campaign y Adobe Experience Manager requiere abrir varios puertos si la instalación está &quot;in situ&quot;. Para obtener más información sobre la configuración de esta integración, consulte la documentación [](../../integrations/using/about-adobe-experience-manager.md)detallada.
 
 <table> 
  <tbody> 
@@ -241,11 +241,11 @@ La integración entre Adobe Campaign y Adobe Experience Manager requiere la aper
   </tr> 
   <tr> 
    <td> 80<br /> </td> 
-   <td> Conexión de AEM a Adobe Campaign<br /> </td> 
+   <td> Conexión AEM a Adobe Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td><p> 4502</p><p> 4503</p><br /> </td> 
-   <td> Conexión de Adobe Campaign con las instancias de "creación" y "publicación" de AEM. Los puertos que se van a abrir pueden diferir de los puertos predeterminados, según la configuración de AEM.<br /> </td> 
+   <td> Conexión de Adobe Campaign a AEM instancias de "creación" y "publicación". Los puertos que se van a abrir pueden diferir de los puertos predeterminados, según la configuración de AEM.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -255,6 +255,6 @@ La integración entre Adobe Campaign y Adobe Experience Manager requiere la aper
 Otro parámetro clave de la configuración de red que se debe tener en cuenta. Es casi siempre saliente y muy demandado durante las retransmisiones de correo electrónico. Estos son algunos ejemplos de configuraciones basadas en nuestra experiencia:
 
 * 1 Mb/s por 10.000 correos electrónicos por hora (tamaño medio de 30 Kb)
-* De 8 a 10 Mb/s por 100.000 correos electrónicos por hora (tamaño medio de 30 Kb)
+* 8 a 10 Mb/s por 100.000 correos electrónicos por hora (tamaño medio de 30 Kb)
 
 Si tiene restricciones en términos de ancho de banda, es posible programar campañas para que se ejecuten durante la noche cuando la demanda sea menor.
