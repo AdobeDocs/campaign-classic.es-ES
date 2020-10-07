@@ -1,7 +1,7 @@
 ---
-title: Restauración v6.02
-seo-title: Restauración v6.02
-description: Restauración v6.02
+title: Restauración de la versión 6.02
+seo-title: Restauración de la versión 6.02
+description: Restauración de la versión 6.02
 seo-description: null
 page-status-flag: never-activated
 uuid: df21209b-4825-42fa-a303-f383f872abb5
@@ -11,16 +11,16 @@ audience: migration
 content-type: reference
 topic-tags: rollback
 discoiquuid: 4f65ba19-e9f0-4425-b640-f27c61394859
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9482a99c3be164651b3428179388cb0a8a75783f
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 9%
 
 ---
 
 
-# Restauración v6.02{#restoring-v}
+# Restauración de la versión 6.02{#restoring-v}
 
 Este es el procedimiento para restaurar una versión v6.02 desde una v7.
 
@@ -28,6 +28,6 @@ Este es el procedimiento para restaurar una versión v6.02 desde una v7.
 1. Recupere la carpeta **Neolane v6.back** (**nl6.back** en Linux), cámbiele el nombre a **Neolane v6** (**nl6** en Linux) y restaure su ubicación original.
 1. Vuelva a configurar IIS asignando los puertos de escucha para restablecer la integración de Adobe Campaign v6.02 en el nivel de sitio web de IIS.
 1. Detenga el servicio Adobe Campaign v6.1.
-1. Reinicie IIS.
+1. Volver a inicio de IIS.
 1. Reinicie el servicio Adobe Campaign v6.02.
 
