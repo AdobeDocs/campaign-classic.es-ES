@@ -11,18 +11,18 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: f3db77db-94cc-4d75-a59b-2dddce776759
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '158'
+ht-degree: 5%
 
 ---
 
 
 # Umbrales de conexión{#connection-thresholds}
 
-Para los servidores con gran carga, puede que se supere el umbral de conexión. En cualquier caso, es útil saber por qué.
+Para los servidores con gran carga, puede que se supere el umbral de conexión. En cualquier evento, es útil averiguar por qué.
 
 Existen tres umbrales diferentes:
 
@@ -30,7 +30,7 @@ Existen tres umbrales diferentes:
 1. Umbral de conexión de base de datos. Para modificarla, póngase en contacto con el administrador de la base de datos.
 1. El umbral de conexión de Adobe Campaign, disponible en dos lugares:
 
-   * Lado de Tomcat: todas las consultas que llegan realmente al cliente Tomcat de Adobe Campaign.
+   * Lado de Tomcat: todas las consultas que llegan en realidad al cliente Adobe Campaign Tomcat.
 
       Este umbral se configura en el archivo **nl6/tomcat-7/conf/server.xml** . El atributo **maxThread** permite aumentar el umbral del número de consultas procesadas a la vez. Se puede cambiar a 250, por ejemplo.
 
