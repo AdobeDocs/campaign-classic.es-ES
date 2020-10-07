@@ -11,11 +11,8 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: a21576c7-e94c-4fe1-9e31-d89116e427f6
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: fecfff477b0750782c87c017a15e306acac4c61d
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 80%
@@ -57,7 +54,7 @@ El procedimiento para crear una plantilla de proceso se presenta en [Asistente d
 
 >[!NOTE]
 >
->La plantilla nativa **[!UICONTROL Import block list]** ya está configurada para importar una lista de direcciones de correo electrónico que se agregaron a la lista de bloques.
+>La plantilla nativa **[!UICONTROL Import block list]** ya está configurada para importar una lista de direcciones de correo electrónico que se agregaron a la lista de bloqueados.
 > 
 >The **[!UICONTROL New text import]** and **[!UICONTROL New text export]** templates let you configure an import or export from scratch.
 
