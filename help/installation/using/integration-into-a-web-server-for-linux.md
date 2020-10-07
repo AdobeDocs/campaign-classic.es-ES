@@ -11,11 +11,11 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 discoiquuid: 752ba848-aee9-4bb0-b2c5-490f3124f74e
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4fbc576ba65c44d91ac87ea2967fac3b0a88a040
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '562'
+ht-degree: 8%
 
 ---
 
@@ -99,7 +99,7 @@ Siga estos pasos:
 
    Guarde los cambios.
 
-1. A continuación, agregue usuarios de Adobe Campaign al grupo de usuarios Apache y viceversa utilizando el siguiente tipo de comando:
+1. A continuación, agregue usuarios de Adobe Campaign al grupo de usuarios de Apache y viceversa utilizando el siguiente tipo de comando:
 
    ```
    usermod neolane -G www-data
@@ -183,7 +183,7 @@ Siga estos pasos:
    systemctl daemon-reload
    ```
 
-1. A continuación, agregue operadores de Adobe Campaign al grupo de operadores Apache y viceversa, ejecutando el comando:
+1. A continuación, agregue los operadores de Adobe Campaign al grupo de operadores Apache y viceversa, ejecutando el comando:
 
    ```
    usermod -a -G neolane apache
@@ -192,7 +192,7 @@ Siga estos pasos:
 
    Los nombres de grupo que se van a utilizar dependen de la forma en que se configure Apache.
 
-1. Ejecute Apache y el servidor Adobe Campaign.
+1. Ejecute Apache y el servidor de Adobe Campaign.
 
    Para RHEL7:
 
