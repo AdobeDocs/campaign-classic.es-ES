@@ -11,11 +11,8 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 1a94c94e-ab6b-45c2-a0f3-6adeec7e2d2d
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '3593'
 ht-degree: 5%
@@ -143,7 +140,7 @@ En la definición de la zona de seguridad de **lan** , es posible agregar una m�
       </securityZone>
 ```
 
-Se recomienda definir los intervalos de direcciones IP directamente en el archivo de configuración dedicado a la instancia para los operadores que acceden únicamente a una instancia específica.
+Se recomienda definir los intervalos de direcciones IP directamente en el archivo de configuración dedicado a la instancia para los operadores que solo acceden a una instancia específica.
 
 En el **`config-<instance>.xml`** archivo:
 
@@ -215,7 +212,7 @@ Antes de esto, debe realizar el inicio configurando la lista desglosada predeter
 
 Esta configuración se realiza en el explorador de Campañas:
 
-1. Haga clic en el **[!UICONTROL Administration > Platform > Enumerations]** nodo.
+1. Haga clic en el nodo **[!UICONTROL Administration > Platform > Enumerations]**.
 1. Seleccione la lista desglosada del **[!UICONTROL Security zone (securityZone)]** sistema.
 
    ![](assets/enum_securityzone.png)
@@ -229,7 +226,7 @@ Esta configuración se realiza en el explorador de Campañas:
 
 Una vez definidas las zonas y configurada la **[!UICONTROL Security zone]** lista desglosada, deberá vincular cada operador a una zona de seguridad:
 
-1. Haga clic en el **[!UICONTROL Administration > Access management > Operators]** nodo.
+1. Haga clic en el nodo **[!UICONTROL Administration > Access management > Operators]**.
 1. Seleccione el operador al que desea vincular una zona de seguridad y haga clic en la **[!UICONTROL Edit]** ficha.
 1. Vaya a la **[!UICONTROL Access rights]** ficha y haga clic en el **[!UICONTROL Edit access parameters...]** vínculo.
 
@@ -500,7 +497,7 @@ Cuando se utilizan varios servidores para la redirección, deben poder comunicar
 
 >[!NOTE]
 >
->Cuando se utiliza la arquitectura estándar o empresarial, se debe autorizar al servidor de aplicaciones principal para que cargue información de seguimiento en cada equipo.
+>Al utilizar la arquitectura estándar o empresarial, se debe autorizar al servidor de aplicaciones principal para que cargue información de seguimiento en cada equipo.
 
 Las direcciones URL de los servidores redundantes deben especificarse en la configuración de redirección, a través del **archivo serverConf.xml** . Todos los parámetros disponibles en **serverConf.xml** se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
 
@@ -558,7 +555,7 @@ Puede elegir forzar la ejecución de un flujo de trabajo o una actividad de fluj
 
    La lista desplegable contiene afinidades que antes se usaban. Se completa con el tiempo con los diferentes valores introducidos.
 
-1. Abra el archivo **nl6/conf/config-`<instance>.xml`**.
+1. Abra el archivo **nl6/conf/config-`<instance>.xml`** .
 1. Modifique la línea que coincide con el **[!UICONTROL wfserver]** módulo de la siguiente manera:
 
    ```
