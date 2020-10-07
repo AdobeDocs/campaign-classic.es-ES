@@ -9,11 +9,8 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 discoiquuid: a910d5fe-cef4-47d8-b3bc-0055ef0d1afd
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e6f8eb6f4ffc3ffe9dbc643cf0edeef439c0f969
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 100%
@@ -179,6 +176,7 @@ A continuación, desde **[!UICONTROL Explorer]**, en **[!UICONTROL Platform]** >
    * **[!UICONTROL Label]** y **[!UICONTROL Internal name]**: cambie el nombre de la cuenta externa según sea necesario.
    * **[!UICONTROL Type]**: Seleccione **[!UICONTROL External database]**.
    * La casilla **[!UICONTROL Enabled]** debe estar activada.
+
    De la categoría **[!UICONTROL Connection]**:
 
    * **[!UICONTROL Type]** : seleccione el servidor de la base de datos, por ejemplo PostgresSQL.
@@ -201,6 +199,7 @@ A continuación, desde **[!UICONTROL Explorer]**, en **[!UICONTROL Platform]** >
    * **[!UICONTROL Label]** y **[!UICONTROL Internal name]**: cambie el nombre de la cuenta externa según sea necesario.
    * **[!UICONTROL Type]**: Seleccione **[!UICONTROL External database]**.
    * La casilla “Activada” debe estar seleccionada.
+
    De la categoría **[!UICONTROL Connection]**:
 
    * **[!UICONTROL Type]**: Seleccione **[!UICONTROL HTTP relay to remote Database]**.
@@ -217,11 +216,13 @@ A continuación, desde **[!UICONTROL Explorer]**, en **[!UICONTROL Platform]** >
    * **[!UICONTROL Label]** y **[!UICONTROL Internal name]**: cambie el nombre de la cuenta externa según sea necesario.
    * **[!UICONTROL Type]**: Seleccione **[!UICONTROL Execution instance]**.
    * La casilla “Activada” debe estar seleccionada.
+
    Desde la categoría **[!UICONTROL Connection]**:
 
    * **[!UICONTROL URL]**: introduzca la URL de la instancia de ejecución.
    * **[!UICONTROL Account]**: introduzca la cuenta utilizada para acceder a la instancia de ejecución.
    * **[!UICONTROL Password]** : introduzca la contraseña de la cuenta utilizada para acceder a la instancia de ejecución.
+
    Desde la categoría **[!UICONTROL Account connection method]**:
 
    * **[!UICONTROL Method]**: Seleccione **[!UICONTROL Federated Data Access (FDA)]**.
