@@ -11,11 +11,11 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 discoiquuid: 9bcb5dc1-8cb4-4781-a8cd-8d072ff28b1a
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '761'
+ht-degree: 89%
 
 ---
 
@@ -38,8 +38,8 @@ En el siguiente ejemplo, creamos una regla de tipología para una campaña de fi
 
 Para diseñar una regla de capacidad nueva, siga los pasos a continuación:
 
-1. En el nodo **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]**, haga clic en **[!UICONTROL New]**.
-1. Seleccione un tipo de regla de **[!UICONTROL Capacity]**.
+1. Bajo el **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** nodo, haga clic en **[!UICONTROL New]**.
+1. Select a **[!UICONTROL Capacity]** rule type.
 
    ![](assets/campaign_opt_create_capacity_01.png)
 
@@ -52,7 +52,7 @@ Para diseñar una regla de capacidad nueva, siga los pasos a continuación:
    >Las líneas de disponibilidad solo tienen fines informativos. Si necesita excluir mensajes cuando se alcance el límite de capacidad, consulte [esta sección](#exclude-messages-when-capacity-limit-reached).
 
 1. Asocie esta regla a una tipología y luego haga referencia a la misma en su envío para aplicar esta regla de capacidad. Para obtener más información, consulte [esta sección](../../campaign/using/applying-rules.md#applying-a-typology-to-a-delivery).
-1. Puede controlar el consumo desde las pestañas **[!UICONTROL Consumptions]** y **[!UICONTROL Capacity]** de la regla.
+1. You can monitor consumption from the rule **[!UICONTROL Consumptions]** and **[!UICONTROL Capacity]** tabs.
 
    Cuando se utiliza una regla en una entrega, las columnas **[!UICONTROL Consumed]** y **[!UICONTROL Remaining]** facilitan información sobre la carga, como se muestra a continuación:
 
@@ -66,7 +66,7 @@ Para definir la carga máxima, debe definir las líneas de disponibilidad. Para 
 
 ### Adición de líneas de disponibilidad una por una {#adding-availability-lines-one-by-one}
 
-Para crear una línea de disponibilidad, haga clic en el botón **[!UICONTROL Add]** y seleccione **[!UICONTROL Add an availability line]**. Introduzca el periodo de disponibilidad y la carga disponible.
+To create an availability line, click the **[!UICONTROL Add]** button and select **[!UICONTROL Add an availability line]**. Introduzca el periodo de disponibilidad y la carga disponible.
 
 ![](assets/campaign_opt_create_capacity_02.png)
 
@@ -74,7 +74,7 @@ Añada tantas líneas como requiera su capacidad de procesamiento.
 
 ### Adición de un conjunto de líneas de disponibilidad {#add-a-set-of-availability-lines}
 
-Para definir los periodos de disponibilidad de un tiempo determinado, haga clic en el botón **[!UICONTROL Add]** y seleccione la opción **[!UICONTROL Add a set of availability lines]**. Indique una duración para cada periodo y el número de periodos que desea crear.
+To define availability periods for a given time, click the **[!UICONTROL Add]** button and select the **[!UICONTROL Add a set of availability lines]** option. Indique una duración para cada periodo y el número de periodos que desea crear.
 
 Para automatizar la frecuencia de creación de páginas, haga clic en el botón **[!UICONTROL Change]** y defina la programación del periodo.
 
@@ -104,11 +104,11 @@ El flujo de trabajo de **[!UICONTROL Forecasting]** crea automáticamente todas 
 
 ## Exclusión de mensajes al alcanzar el límite de capacidad {#exclude-messages-when-capacity-limit-reached}
 
-Las líneas de disponibilidad solo tienen fines informativos. Para excluir los mensajes sobrantes, marque la opción **[!UICONTROL Exclude from the target messages in excess of capacity]**. Esto evita que se supere la capacidad. Para la misma población que en el ejemplo anterior, es posible que el consumo y la capacidad restante no superen la cantidad inicial:
+Las líneas de disponibilidad solo tienen fines informativos. Para excluir mensajes excesivos, marque la **[!UICONTROL Exclude from the target messages in excess of capacity]** opción. Esto evita que se supere la capacidad. Para la misma población que en el ejemplo anterior, es posible que el consumo y la capacidad restante no superen la cantidad inicial:
 
 ![](assets/campaign_opt_create_capacity_04.png)
 
-El número de mensajes que se va a procesar se reparte de forma equitativa durante el intervalo de disponibilidad definido. Esto es especialmente relevante para los centros de llamadas, ya que el número máximo de llamadas al día es limitado. En el caso de las entregas por correo electrónico, la opción **[!UICONTROL Do not limit instantaneous delivery capacity]** permite ignorar este intervalo de disponibilidad y enviar los correos al mismo tiempo.
+El número de mensajes que se va a procesar se reparte de forma equitativa durante el intervalo de disponibilidad definido. Esto es especialmente relevante para los centros de llamadas, ya que el número máximo de llamadas al día es limitado. In the case of email deliveries, the **[!UICONTROL Do not limit instantaneous delivery capacity]** option lets you ignore this availability range and send your emails at the same time.
 
 ![](assets/campaign_opt_create_capacity_05.png)
 
@@ -120,7 +120,7 @@ El número de mensajes que se va a procesar se reparte de forma equitativa duran
 
 ## Monitorización del consumo {#monitoring-consumption}
 
-De forma predeterminada, las reglas de capacidad solo tienen fines ilustrativos. Seleccione la opción **[!UICONTROL Exclude messages in excess of capacity from the target]** para evitar que se supere la carga definida. En este caso, los mensajes sobrantes se excluyen automáticamente de las entregas utilizando esta regla de tipología.
+De forma predeterminada, las reglas de capacidad solo tienen fines ilustrativos. Select the **[!UICONTROL Exclude messages in excess of capacity from the target]** option to prevent the defined load from being exceeded. En este caso, los mensajes sobrantes se excluyen automáticamente de las entregas utilizando esta regla de tipología.
 
 Para monitorizar los consumos, consulte los valores mostrados en la columna **[!UICONTROL Consumed]** de la pestaña **[!UICONTROL Capacity]** en la regla de tipología.
 
