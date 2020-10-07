@@ -9,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 7e5605c8-78f2-4011-b317-96a59c699848
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '210'
+ht-degree: 82%
 
 ---
 
@@ -26,13 +26,13 @@ Los filtros disponibles en Adobe Campaign se definen mediante condiciones de fil
 >
 >Para obtener más información sobre creación de filtros, consulte [esta sección](../../platform/using/filtering-options.md).
 
-El nodo **[!UICONTROL Administration > Configuration > Predefined filters]** contiene todos los filtros utilizados en las listas y vistas generales.
+The **[!UICONTROL Administration > Configuration > Predefined filters]** node contains all the filters used in the lists and overviews.
 
 Por ejemplo, la lista de operadores puede filtrarse con **[!UICONTROL Active accounts]**:
 
 ![](assets/query_editor_filter_sample_1.png)
 
-El filtro coincidente contiene la consulta en el valor **[!UICONTROL Account disabled]** del esquema **[!UICONTROL Operators]**:
+The matching filter contains the query on the **[!UICONTROL Account disabled]** value of the **[!UICONTROL Operators]** schema:
 
 ![](assets/query_editor_filter_sample_2.png)
 
@@ -54,7 +54,7 @@ Para hacer coincidir las condiciones de filtrado, la cuenta de operador debe com
 >
 >La función **[!UICONTROL Upper]** permite desactivar la función que distingue entre mayúsculas y minúsculas.
 
-La columna **[!UICONTROL Taken into account if]** permite definir los criterios de aplicación para estas condiciones de filtrado. En este caso, los caracteres **$(/tmp/@text)** representan el contenido del campo de entrada vinculado al filtro:
+The **[!UICONTROL Taken into account if]** column lets you define the application criteria for these filtering conditions. En este caso, los caracteres **$(/tmp/@text)** representan el contenido del campo de entrada vinculado al filtro:
 
 ![](assets/query_editor_filter_sample_5.png)
 
