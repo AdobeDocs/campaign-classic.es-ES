@@ -9,11 +9,11 @@ audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 discoiquuid: 85e8348f-d240-4a36-b7bd-645807dbc227
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 91f80adf0b84d45a71e07079d4e72fd7628b41c1
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '1193'
+ht-degree: 97%
 
 ---
 
@@ -69,7 +69,7 @@ Cuando se incluyen ofertas en los envíos, las ofertas generalmente se seleccion
 
 Al seleccionar ofertas en una actividad de enriquecimiento, puede elegir qué espacio de oferta utilizar. Sin embargo, independientemente del espacio de oferta seleccionado, el menú de personalización de la entrega depende del espacio de oferta configurado en la entrega.
 
-En el ejemplo siguiente, el espacio de oferta seleccionado en la entrega es **[!UICONTROL Email (Environment - Recipient)]**:
+In the example below, the offer space selected in the delivery is **[!UICONTROL Email (Environment - Recipient)]**:
 
 ![](assets/Interaction-best-practices-offer-space-selected.png)
 
@@ -81,7 +81,7 @@ En el ejemplo siguiente, la función de renderización HTML está disponible en 
 
 Esta función inserta un código como: `<%@ include proposition="targetData.proposition" view="rendering/html" %>`.
 
-Al seleccionar la propuesta, el valor del atributo de **[!UICONTROL vista]** es el siguiente:
+When you select the proposition, the value of the **[!UICONTROL view]** attribute is as follows:
 * “rendering/html”: renderización html. Utiliza la función de renderización HTML.
 * “offer/view/html”: contenido html. No utiliza la función de renderización HTML. Solo incluye el campo HTML.
 
