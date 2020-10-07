@@ -11,20 +11,20 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 discoiquuid: aa147a8c-9d93-45c8-bb4a-db714739f4c0
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e1937c1ddcbde092a22f4fe8c50d3d72b02cfeed
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '455'
+ht-degree: 4%
 
 ---
 
 
-# Audit trail{#audit-trail}
+# Pista de auditoría{#audit-trail}
 
-En Adobe Campaign, **[!UICONTROL Audit trail]** le permite acceder al historial completo de cambios realizados en su instancia.
+En Adobe Campaign, **[!UICONTROL Audit trail]** le permite acceder al historial completo de cambios realizados en la instancia.
 
-**[!UICONTROL Audit trail]** captura, en tiempo real, una lista completa de acciones y eventos que se producen en la instancia de Adobe Campaign. Incluye una forma de autoservicio de acceder a un historial de datos para responder preguntas como: qué ha ocurrido con los flujos de trabajo y quién los ha actualizado por última vez o qué han hecho los usuarios en la instancia.
+**[!UICONTROL Audit trail]** captura, en tiempo real, una lista completa de acciones y eventos que se producen en la instancia de Adobe Campaign. Incluye una forma de autoservicio de acceder a un historial de datos para responder preguntas como: qué les pasó a sus flujos de trabajo y quién los actualizó por última vez o qué hicieron los usuarios en la instancia.
 
 >[!NOTE]
 >
@@ -33,25 +33,26 @@ En Adobe Campaign, **[!UICONTROL Audit trail]** le permite acceder al historial 
 
 La pista de auditoría consta de tres componentes:
 
-* **Seguimiento** de auditoría de esquema: Compruebe las actividades y las últimas modificaciones realizadas en los esquemas.
+* **Pista** de auditoría de esquema: Compruebe las actividades y las últimas modificaciones realizadas a sus esquemas.
 
    For more information on schemas, refer to this [page](../../configuration/using/data-schemas.md).
 
-* **Pista** de auditoría de flujo de trabajo: Compruebe las actividades y las últimas modificaciones realizadas en los flujos de trabajo, así como el estado de los flujos de trabajo, como:
+* **Pista** de auditoría de flujo de trabajo: Compruebe las actividades y las últimas modificaciones realizadas en los flujos de trabajo, y además, el estado de sus flujos de trabajo, como:
 
-   * Inicio
-   * Pausar
-   * Detener
-   * Reiniciar
-   * Limpieza igual al historial de purga de acciones
-   * Simular qué es igual a la acción Iniciar en modo de simulación
+   * Start
+   * Pause
+   * Stop
+   * Restart
+   * Cleanup que equivale al historial de purga de acciones
+   * Simular qué es igual al Inicio de acción en modo de simulación
    * Despertar que es igual a la acción Ejecutar tareas pendientes ahora
-   * Detención incondicional
+   * Interrupción incondicional
+
    For more information on workflows, refer to this [page](../../workflow/using/about-workflows.md).
 
    For more on how to monitor workflows, refer to the [dedicated section](../../workflow/using/monitoring-workflow-execution.md).
 
-* **Pista** de auditoría de opciones: Compruebe las actividades y las últimas modificaciones realizadas en sus opciones.
+* **Pista** de auditoría de opciones: Compruebe las actividades y las últimas modificaciones realizadas en las opciones.
 
    For more information on options, refer to this [page](../../installation/using/configuring-campaign-options.md).
 
@@ -64,7 +65,7 @@ Para acceder a la sección **[!UICONTROL Audit trail]** :
 
    ![](assets/audit_trail_1.png)
 
-1. La **[!UICONTROL Audit trail]** ventana se abre con la lista de entidades. Adobe Campaign auditará las acciones de creación, edición y eliminación de flujos de trabajo, opciones y esquemas.
+1. La **[!UICONTROL Audit trail]** ventana se abre con la lista de las entidades. Adobe Campaign auditará las acciones de creación, edición y eliminación de flujos de trabajo, opciones y esquemas.
 
    Seleccione una de las entidades para obtener más información sobre las últimas modificaciones.
 
@@ -72,11 +73,12 @@ Para acceder a la sección **[!UICONTROL Audit trail]** :
 
 1. La **[!UICONTROL Audit entity]** ventana proporciona información más detallada sobre la entidad elegida, como:
 
-   * **[!UICONTROL Type]** :: Flujo de trabajo, opciones o esquemas.
-   * **[!UICONTROL Entity]** :: Nombre interno de las actividades.
+   * **[!UICONTROL Type]** :: Flujo de trabajo, opciones o Esquemas.
+   * **[!UICONTROL Entity]** :: Nombre interno de sus actividades.
    * **[!UICONTROL Modified by]** :: Nombre de usuario de la última persona que modificó esta entidad por última vez.
    * **[!UICONTROL Action]** :: Última acción realizada en esta entidad, ya sea Creada, Editada o Eliminada.
    * **[!UICONTROL Modification date]** :: Fecha de la última acción realizada en esta entidad.
+
    El bloque de código le proporciona más información sobre qué se cambió exactamente en su entidad.
 
    ![](assets/audit_trail_3.png)
@@ -99,14 +101,15 @@ Para ello:
 1. Seleccione una de las siguientes opciones en función de la entidad que desee activar o desactivar:
 
    * Para flujo de trabajo: **[!UICONTROL XtkAudit_Workflows]**
-   * Para esquemas: **[!UICONTROL XtkAudit_DataSchema]**
+   * Para Esquemas: **[!UICONTROL XtkAudit_DataSchema]**
    * Para opciones: **[!UICONTROL XtkAudit_Option]**
    * Para cada entidad: **[!UICONTROL XtkAudit_Enable_All]**
+
    ![](assets/audit_trail_5.png)
 
 1. Cambie el **[!UICONTROL Value]** a 1 si desea habilitar la entidad o a 0 si desea deshabilitarla.
 
    ![](assets/audit_trail_6.png)
 
-1. Haga clic **[!UICONTROL Save]** .
+1. Haga clic en **[!UICONTROL Save]** .
 
