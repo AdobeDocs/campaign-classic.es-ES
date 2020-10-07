@@ -11,11 +11,11 @@ audience: social
 content-type: reference
 topic-tags: annexes
 discoiquuid: 1755ab4f-b655-48da-bf9a-426807bd85fd
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '68'
+ht-degree: 50%
 
 ---
 
@@ -24,15 +24,15 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 Social Marketing proporciona informes que le permiten medir la tasa de reactividad de las entregas de Facebook y Twitter, y analizar la adquisición de perfiles de Facebook. Estas son las opciones disponibles:
 
-* El informe de **[!UICONTROL tasa de reactividad]**, disponible a través de la pestaña **[!UICONTROL Resumen]** de una entrega a Facebook o Twitter.
+* The **[!UICONTROL Reactivity rate]** report, available via the **[!UICONTROL Summary]** tab of a Facebook or Twitter delivery.
 
    ![](assets/social_report_3.png)
 
-* El informe **[!UICONTROL Tasa de reactividad]**, disponible a través de la pestaña **[!UICONTROL Tablero]** de un servicio de Twitter o Facebook.
+* The **[!UICONTROL Reactivity rate]** report, available via the **[!UICONTROL Dashboard]** tab of a Twitter or Facebook service.
 
    ![](assets/social_report_2.png)
 
-* Informe de **[!UICONTROL adquisición de seguidores]**, disponible mediante la pestaña **[!UICONTROL Tablero]** un servicio de Facebook.
+* The **[!UICONTROL Fan acquisition]** report, available via the **[!UICONTROL Dashboard]** tab of a Facebook service.
 
    ![](assets/social_report_1.png)
 
