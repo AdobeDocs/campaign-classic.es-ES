@@ -11,11 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 discoiquuid: fbc38e33-60a6-4d21-a598-312293d168fb
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 51e4d72abf3a1f48700ca38566dbf06dd24594b8
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 91%
 
 ---
 
@@ -32,8 +32,8 @@ Los filtros de datos se crean de la misma manera que los filtros predefinidos, p
 
 Siga estos pasos:
 
-1. Cree un nuevo filtro a través del nodo **[!UICONTROL Administration > Configuration > Predefined filters]**.
-1. Haga clic en el icono **[!UICONTROL Select link]** para seleccionar el documento que le interesa:
+1. Create a new filter via the **[!UICONTROL Administration > Configuration > Predefined filters]** node.
+1. Click the **[!UICONTROL Select link]** icon to select the concerned document:
 
    ![](assets/s_ncs_user_filter_choose_schema.png)
 
@@ -60,7 +60,7 @@ Siga estos pasos:
 
    ![](assets/s_ncs_user_filter_on_events.png)
 
-   El nombre del filtro actual se muestra encima de la lista. Para cancelar el filtro, haga clic en el icono **[!UICONTROL Delete this filter]**.
+   El nombre del filtro actual se muestra encima de la lista. To cancel the filter, click the **[!UICONTROL Delete this filter]** icon.
 
    ![](assets/s_ncs_user_filter_on_subscriptions.png)
 
