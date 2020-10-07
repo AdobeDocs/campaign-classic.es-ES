@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 41b8a8a8-efac-4e8e-8aea-d4fd06c46e74
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 87%
 
 ---
 
@@ -34,7 +34,7 @@ Los pasos de implementación principales para este caso de uso son:
 
 ## Paso 1: Crear la lista de destinatarios {#step-1--creating-the-recipient-list}
 
-Vaya a **[!UICONTROL Profiles and targets]**, haga clic en el vínculo **[!UICONTROL Lists]** y, a continuación, en el botón **[!UICONTROL Create]**. Seleccione **[!UICONTROL New list]** y cree una nueva lista de destinatarios a los que enviar el informe.
+Go to the **[!UICONTROL Profiles and targets]** universe, click the **[!UICONTROL Lists]** link, then the **[!UICONTROL Create]** button. Seleccione **[!UICONTROL New list]** y cree una nueva lista de destinatarios a los que enviar el informe.
 
 ![](assets/use_case_report_1.png)
 
@@ -42,7 +42,7 @@ Para obtener más información sobre la creación de listas, consulte [esta secc
 
 ## Paso 2: Creación de la plantilla de publicación {#step-2--creating-the-delivery-template}
 
-1. Vaya al nodo **[!UICONTROL Resources > Templates > Delivery templates]** del explorador de Adobe Campaign y duplique la plantilla predeterminada **[!UICONTROL Email delivery]**.
+1. Go to the **[!UICONTROL Resources > Templates > Delivery templates]** node of the Adobe Campaign explorer and duplicate the **[!UICONTROL Email delivery]** out-of-the-box template.
 
    ![](assets/use_case_report_2.png)
 
@@ -56,11 +56,11 @@ Para obtener más información sobre la creación de listas, consulte [esta secc
 
    Para obtener más información sobre la creación de archivos adjuntos calculados, consulte [esta sección](../../delivery/using/attaching-files.md#creating-a-calculated-attachment).
 
-   * Haga clic en el vínculo **[!UICONTROL Attachments]**, en **[!UICONTROL Add]** y, a continuación, en **[!UICONTROL Calculated attachment]**.
+   * Haga clic en el **[!UICONTROL Attachments]** vínculo, haga clic en **[!UICONTROL Add]** y, a continuación, seleccione **[!UICONTROL Calculated attachment]**.
 
       ![](assets/use_case_report_4.png)
 
-   * Vaya al campo **[!UICONTROL Type]** y seleccione la cuarta opción: **[!UICONTROL El nombre de archivo se calcula durante la entrega de cada mensaje (puede depender del perfil del destinatario)]**.
+   * Go to the **[!UICONTROL Type]** field and select the fourth option: **[!UICONTROL File name is computed during delivery of each message (it may then depend on the recipient profile)]**.
 
       ![](assets/use_case_report_5.png)
 
@@ -74,7 +74,7 @@ Para obtener más información sobre la creación de listas, consulte [esta secc
       >
       >El archivo debe estar presente en el servidor. Su ruta y nombre deben ser idénticos a los introducidos en la actividad **[!UICONTROL JavaScript code]** del flujo de trabajo (consulte [Paso 3: crear el flujo de trabajo](#step-3--creating-the-workflow)).
 
-   * Seleccione la pestaña **[!UICONTROL Advanced]** y marque **[!UICONTROL Script the name of the file name displayed in the mails sent]**. Vaya a la zona de edición e introduzca el nombre que desea asignar al archivo adjunto en la entrega final.
+   * Seleccione la **[!UICONTROL Advanced]** ficha y marque **[!UICONTROL Script the name of the file name displayed in the mails sent]**. Vaya a la zona de edición e introduzca el nombre que desea asignar al archivo adjunto en la entrega final.
 
       ![](assets/use_case_report_6bis.png)
 
@@ -88,7 +88,7 @@ El siguiente flujo de trabajo se creó para este caso de uso. Tiene tres activid
 
 ![](assets/use_case_report_8.png)
 
-1. Ahora, vaya al nodo **[!UICONTROL Administration > Production > Technical workflows]** y cree un nuevo flujo de trabajo.
+1. Now go to the **[!UICONTROL Administration > Production > Technical workflows]** node and create a new workflow.
 
    ![](assets/use_case_report_7.png)
 
@@ -98,7 +98,7 @@ El siguiente flujo de trabajo se creó para este caso de uso. Tiene tres activid
 
    Para obtener más información sobre la configuración del planificador, consulte [planificador](../../workflow/using/scheduler.md).
 
-1. A continuación, añada una actividad **[!UICONTROL JavaScript code]**.
+1. Then add a **[!UICONTROL JavaScript code]** type activity.
 
    ![](assets/use_case_report_10.png)
 
@@ -129,9 +129,10 @@ El siguiente flujo de trabajo se creó para este caso de uso. Tiene tres activid
 
 1. Para terminar, añada una actividad **[!UICONTROL Delivery]** con las siguientes opciones:
 
-   * **** Envío: seleccione **[!UICONTROL Nuevo, creado desde plantilla]** y seleccione la plantilla de envío creada previamente.
-   * Para los campos ******[!UICONTROL Destinatarios y Contenido]**, seleccione **[!UICONTROL Especificado en la entrega]**.
-   * **** Acción que quiere ejecutar: seleccione **[!UICONTROL Preparación e inicio]**.
-   * Anule la selección de **[!UICONTROL Generate an outbound transition]** y **[!UICONTROL Process errors]**.
+   * **[!UICONTROL Delivery]**:: seleccione **[!UICONTROL New, created from a template]** y seleccione la Plantilla de envíos creada anteriormente.
+   * Para los campos **[!UICONTROL Recipients]** y **[!UICONTROL Content]** , seleccione **[!UICONTROL Specified in the delivery]**.
+   * **[!UICONTROL Action to execute]**: Seleccione **[!UICONTROL Prepare and start]**.
+   * Desmarcar **[!UICONTROL Generate an outbound transition]** y **[!UICONTROL Process errors]**.
+
    ![](assets/use_case_report_11.png)
 
