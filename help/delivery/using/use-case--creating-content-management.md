@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 discoiquuid: a4c62580-664d-47fe-87f5-cfe608b05e6f
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '1178'
+ht-degree: 95%
 
 ---
 
@@ -69,11 +69,11 @@ Un esquema de datos es un documento XML asociado al contenido. Describe la estru
 
 Para crear un esquema de datos, aplique los pasos siguientes:
 
-1. En el explorador de Adobe Campaign, seleccione el nodo **[!UICONTROL Administration > Configuration > Data schemas]**.
+1. Open the Adobe Campaign Explorer and select the **[!UICONTROL Administration > Configuration > Data schemas]** node.
 
    Haga clic en el icono **[!UICONTROL New]** situado encima de la lista de esquemas de datos.
 
-1. Seleccione la opción **[!UICONTROL Create a schema]** de la administración de contenido y haga clic en **[!UICONTROL Next]**.
+1. Select the **[!UICONTROL Create a schema]** option for content management, then click **[!UICONTROL Next]**.
 
    ![](assets/s_ncs_content_create_schema.png)
 
@@ -181,7 +181,7 @@ La descripción de un formulario es un documento XML estructurado que observa la
 
 Para crear un formulario de entrada de la gestión de contenido, siga estos pasos:
 
-1. En el explorador de Adobe Campaign, seleccione el nodo **[!UICONTROL Administration > Configuration > Input forms]**.
+1. Open the Adobe Campaign Explorer and select the **[!UICONTROL Administration > Configuration > Input forms]** node.
 
    Haga clic en el icono **[!UICONTROL New]** situado encima de la lista de formularios.
 
@@ -231,7 +231,7 @@ En este ejemplo, deseamos utilizar una plantilla JavaScript para definir el modo
 
 Para utilizar una plantilla JavaScript en Adobe Campaign, siga los siguientes pasos:
 
-1. En el explorador de Adobe Campaign, seleccione el nodo **[!UICONTROL Administration > Configuration > JavaScript Templates]**.
+1. Open the Adobe Campaign Explorer and select the **[!UICONTROL Administration > Configuration > JavaScript Templates]** node.
 
    Haga clic en el icono **[!UICONTROL New]** situado encima de la lista de plantillas.
 
@@ -364,7 +364,7 @@ El siguiente paso implica la creación de una plantilla de publicación de conte
 
 En este ejemplo, los pasos son los siguientes:
 
-1. Cree una nueva plantilla de publicación a través del nodo **[!UICONTROL Administration > Configuration > Publication templates]**.
+1. Create a new publication template via the **[!UICONTROL Administration > Configuration > Publication templates]** node.
 1. Introduzca un nombre y una etiqueta y seleccione el esquema y el formulario que desea utilizar.
 1. A continuación, introduzca el nombre de la plantilla y elija el modo de renderización que desee aplicar. Aquí tiene una renderización de tipo **[!UICONTROL JavaScript]** basada en la plantilla creada anteriormente.
 
@@ -402,6 +402,6 @@ Para crear contenido directamente en los envíos, aplique los pasos siguientes:
 
    ![](assets/s_ncs_content_in_delivery_edition_tab.png)
 
-1. Haga clic en la pestaña **[!UICONTROL HTML preview]** para visualizar la renderización. Se debe seleccionar un destinatario para probar la personalización.
+1. Click the **[!UICONTROL HTML preview]** tab to view the rendering. Se debe seleccionar un destinatario para probar la personalización.
 
    ![](assets/s_ncs_content_use_in_delivery_preview.png)
