@@ -11,11 +11,11 @@ audience: message-center
 content-type: reference
 topic-tags: reports
 discoiquuid: d1f591d2-95e8-4d99-bc60-955c96b532eb
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 59%
 
 ---
 
@@ -26,14 +26,14 @@ Este informe muestra los indicadores principales relacionados con la cola de tie
 
 ![](assets/mc_reports_2.png)
 
-Al igual que para el informe **[!UICONTROL Message Center service level]**, puede elegir mostrar las estadísticas generales o las relativas a una instancia de ejecución determinada. También puede filtrar los datos por canal y por un periodo específico. Los indicadores que se muestran en la sección **[!UICONTROL Indicators over the period]** se calculan en el periodo seleccionado:
+Al igual que para el informe **[!UICONTROL Message Center service level]**, puede elegir mostrar las estadísticas generales o las relativas a una instancia de ejecución determinada. También puede filtrar los datos por canal y por un periodo específico. The indicators displayed in the **[!UICONTROL Indicators over the period]** section are calculated over the period selected:
 
-* **[!UICONTROL Average queuing time]**: el tiempo promedio que permanecen los eventos procesados correctamente en el Centro de mensajes. Solo se tiene en cuenta el tiempo de procesamiento.
-* **[!UICONTROL Average message sending time (s)]**: el tiempo promedio que permanecen los eventos procesados correctamente en el Centro de mensajes. Solo se tiene en cuenta el tiempo de envío de mta.
-* **[!UICONTROL Average processing time (s)]**: el tiempo promedio que permanecen los eventos procesados correctamente en el Centro de mensajes. El cálculo toma en cuenta el tiempo de procesamiento y el tiempo de envío de mta.
-* **[!UICONTROL Maximum number of queued events]**: número máximo de eventos presentes en la cola del Centro de mensajes en un momento determinado.
-* **[!UICONTROL Minimum number of queued events]**: número mínimo de eventos presentes en la cola del Centro de mensajes en un momento determinado.
-* **[!UICONTROL Average number of queued events]**: número promedio de eventos presentes en la cola del Centro de mensajes en un momento determinado.
+* **[!UICONTROL Average queuing time]** :: el tiempo promedio que los eventos procesados correctamente se emplean en el Centro de mensajes. Solo se tiene en cuenta el tiempo de procesamiento.
+* **[!UICONTROL Average message sending time (s)]** :: el tiempo promedio que los eventos procesados correctamente se emplean en el Centro de mensajes. Solo se tiene en cuenta el tiempo de envío de mta.
+* **[!UICONTROL Average processing time (s)]** :: el tiempo promedio que los eventos procesados correctamente se emplean en el Centro de mensajes. El cálculo toma en cuenta el tiempo de procesamiento y el tiempo de envío de mta.
+* **[!UICONTROL Maximum number of queued events]** :: número máximo de eventos presentes en la cola del centro de mensajes en un momento dado.
+* **[!UICONTROL Minimum number of queued events]** :: número mínimo de eventos presentes en la cola del centro de mensajes en un momento determinado.
+* **[!UICONTROL Average number of queued events]** :: número promedio de eventos presentes en la cola del centro de mensajes en un momento dado.
 
 >[!NOTE]
 >
