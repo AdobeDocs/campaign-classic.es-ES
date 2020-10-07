@@ -1,7 +1,7 @@
 ---
-title: Adición de funciones SQL adicionales
-seo-title: Adición de funciones SQL adicionales
-description: Adición de funciones SQL adicionales
+title: Añadir funciones SQL adicionales
+seo-title: Añadir funciones SQL adicionales
+description: Añadir funciones SQL adicionales
 seo-description: null
 page-status-flag: never-activated
 uuid: d66b5ca2-ac7d-4654-9f0e-9bfe56490c19
@@ -11,22 +11,22 @@ audience: configuration
 content-type: reference
 topic-tags: api
 discoiquuid: 728a95f8-46fe-49a8-a645-a0dd6eeb6615
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '1025'
+ht-degree: 2%
 
 ---
 
 
-# Adición de funciones SQL adicionales{#adding-additional-sql-functions}
+# Añadir funciones SQL adicionales{#adding-additional-sql-functions}
 
 ## Introducción {#introduction}
 
-Adobe Campaign permite al usuario definir **sus propias funciones** que pueden acceder a funciones SQL, tanto las que ofrece la base de datos como las que no están disponibles en la consola. Esto resulta útil para funciones agregadas (media, máxima, suma), por ejemplo, que sólo se pueden calcular en el servidor o cuando la base de datos proporciona una manera más fácil de implementar determinadas funciones, en lugar de escribir &quot;manualmente&quot; la expresión en la consola (por ejemplo, administración de fechas).
+Adobe Campaign permite al usuario definir **sus propias funciones** que pueden acceder a funciones SQL, tanto las que ofrece la base de datos como las que no están disponibles en la consola. Esto resulta útil para funciones acumuladas (media, máxima, suma), por ejemplo, que sólo se pueden calcular en el servidor o cuando la base de datos proporciona una manera más fácil de implementar determinadas funciones, en lugar de escribir &quot;manualmente&quot; la expresión en la consola (por ejemplo, administración de fechas).
 
-Este mecanismo también se puede utilizar si desea utilizar una función SQL de motor de base de datos reciente o poco común, que aún no ofrece la consola de Adobe Campaign.
+Este mecanismo también se puede utilizar si desea utilizar una función SQL de motor de base de datos reciente o poco común, que aún no se ofrece en la consola de Adobe Campaign.
 
 Una vez agregadas estas funciones, aparecerán en el editor de expresiones como otras funciones predefinidas.
 
@@ -73,11 +73,11 @@ Las funciones que se van a agregar se encuentran en el archivo **** &quot;packag
 </package>
 ```
 
-* El **nombre**, el **espacio de nombres** y la **etiqueta** se utilizan únicamente con fines informativos. Permiten ver un resumen del paquete en la lista de paquetes instalados (Explorer/Administración/Administración de paquetes/paquetes instalados).
+* El **nombre**, la **Área de nombres** y el **rótulo** son únicamente para fines informativos. Permiten vista de un resumen del paquete en la lista de paquetes instalados (Explorer/Administración/Administración de paquetes/paquetes instalados).
 * Los campos **buildVersion** y **buildNumber** son obligatorios. Deben corresponder al número de servidor al que está conectada la consola. Esta información se encuentra en el cuadro &quot;Ayuda/Acerca de&quot;.
-* Los siguientes bloques, **entidades** y **funclístas** son obligatorios. En funcList, los campos &quot;nombre&quot; y &quot;espacio de nombres&quot; son obligatorios, pero su nombre queda en manos del usuario para que lo decida y designan de forma exclusiva la lista de funciones.
+* Los siguientes bloques, **entidades** y **funclístas** son obligatorios. En funcList, los campos &quot;nombre&quot; y &quot;Área de nombres&quot; son obligatorios, pero su nombre queda en manos del usuario para que lo decida y ellos designan de forma exclusiva la lista de la función.
 
-   Esto significa que si se importa otra lista de funciones con el mismo espacio de nombres o par de nombres (aquí &quot;cus::myList&quot;), se eliminarán las funciones importadas anteriormente. Por el contrario, si cambia este par de espacio de nombres/nombre, la nueva serie de funciones importadas se agregará a la anterior.
+   Esto significa que si se importa otra lista de funciones con el mismo par Área de nombres/nombre (aquí &quot;cus::myList&quot;), se eliminarán las funciones importadas anteriormente. Por el contrario, si cambia este par Área de nombres/nombre, la nueva serie de funciones importadas se agregará a la anterior.
 
 * El elemento **group** permite especificar el grupo de funciones en el que aparecerán las funciones importadas en el editor de funciones. El atributo @name puede ser un nombre que ya existe (en cuyo caso las funciones se agregarán al grupo considerado) o un nuevo nombre (en cuyo caso aparecerá en un nuevo grupo).
 * Recordatorio: los valores posibles para el atributo @name en el `<group>` elemento son:
@@ -131,8 +131,9 @@ El campo **@name** hace referencia al nombre de la función y &quot;args&quot; e
 * **@minArgs** y **maxArgs** designan el número de parámetros (mínimo y máximo) para un parámetro. Por ejemplo, para una función con 2 parámetros, minArgs y maxArgs serán 2 y 2. Para 3 parámetros, más 1 opcional, serán 3 y 4 respectivamente.
 * Finalmente, el elemento **providerPart** proporciona la implementación de la función.
 
-   * El atributo **provider** es obligatorio, especifica los sistemas de base de datos para los que se proporciona la implementación. Como se muestra en el ejemplo, cuando las sintaxis de expresiones o las funciones subyacentes difieren, se pueden proporcionar implementaciones alternativas según la base de datos.
+   * El atributo **provider** es obligatorio, especifica los sistemas de base de datos para los que se proporciona la implementación. Como se muestra en el ejemplo, cuando la sintaxis de expresiones o las funciones subyacentes difieren, se pueden proporcionar implementaciones alternativas según la base de datos.
    * El atributo **@body** contiene la implementación de la función. Tenga en cuenta: esta implementación debe ser una expresión, en lenguaje de base de datos (no un bloque de código). Según las bases de datos, las expresiones pueden ser subconsultas (&quot;(seleccionar columna de tabla donde...)&quot;) que devuelven un solo valor. Por ejemplo, este es el caso en Oracle (la consulta debe escribirse entre corchetes).
+
    >[!NOTE]
    >
    >Si es probable que sólo una o dos bases de datos sean consultadas por la función definida, siempre podemos proporcionar solamente las definiciones correspondientes a estas bases de datos.
