@@ -11,11 +11,11 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 discoiquuid: 88eb17b6-5206-4064-9cd9-b4645a85c609
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: d30de91002862b664249c5a704b7c0f521dd30f2
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '725'
+ht-degree: 87%
 
 ---
 
@@ -42,13 +42,13 @@ Para mostrar el contenido de un mensaje, haga clic en su encabezado.
 
 **Iniciar una nueva conversación**
 
-Para comenzar una nueva conversación, haga clic en el botón **[!UICONTROL Add a discussion]** en la esquina superior derecha. De esta forma, aparece el cuadro **[!UICONTROL Discussion forum]** (consulte más abajo).
+Para comenzar una nueva conversación, haga clic en el botón **[!UICONTROL Add a discussion]** en la esquina superior derecha. The **[!UICONTROL Discussion forum]** box comes up (see below).
 
 ![](assets/mrm_forum_new_thread.png)
 
 **Publicar un mensaje en una conversación existente**
 
-Para publicar un mensaje en una conversación existente, abra el mensaje al que desee responder y, a continuación, haga clic en el vínculo **[!UICONTROL Reply]** situado en la esquina superior izquierda. De esta forma, aparece el cuadro **[!UICONTROL Discussion forum]** (consulte más abajo).
+Para publicar un mensaje en una conversación existente, abra el mensaje al que desee responder y, a continuación, haga clic en el vínculo **[!UICONTROL Reply]** situado en la esquina superior izquierda. The **[!UICONTROL Discussion forum]** box comes up (see below).
 
 ![](assets/mrm_forum_answer_msg.png)
 
@@ -56,7 +56,7 @@ Al responder a un mensaje, la persona que publicó el mensaje original recibe un
 
 **Escribir un mensaje**
 
-En el cuadro **[!UICONTROL Discussion forum]**:
+En el **[!UICONTROL Discussion forum]** cuadro:
 
 1. Introduzca el texto en el campo **[!UICONTROL Message]** y un título de conversación en el campo **[!UICONTROL Subject]**.
 
@@ -67,7 +67,7 @@ En el cuadro **[!UICONTROL Discussion forum]**:
    * Si desea que otra persona que no está suscrita al foro participe en la conversación, utilice el campo **[!UICONTROL Operator to notify]**. El operador en cuestión recibe un mensaje de correo electrónico que le notifica la publicación de ese mensaje específico (no se suscribe al foro). Para notificar a varios operadores, seleccione un grupo de operadores.
    * Para añadir un archivo adjunto al mensaje, haga clic en **[!UICONTROL Browse]**. El archivo adjunto también se incluye en el mensaje de correo electrónico de notificación. Los archivos adjuntos solo se pueden enviar individualmente: para enviar varios archivos, debe comprimirlos.
 
-1. Haga clic en **[!UICONTROL Create the message]** para publicarlo en el foro.
+1. Click **[!UICONTROL Create the message]** to post it to the forum.
 
 >[!NOTE]
 >
@@ -102,7 +102,7 @@ La suscripción a un foro le permite seguir las conversaciones. Recibe una notif
 
    Para obtener más información acerca de los paneles personales, consulte [esta sección](../../platform/using/access-management.md#operators).
 
-* Para ver quién está suscrito a un foro, haga clic en el vínculo **[!UICONTROL List of subscribers to this discussion forum]** situado encima de la lista de mensajes.
+* To see who is subscribed to a forum, click the **[!UICONTROL List of subscribers to this discussion forum]** link above the list of messages.
 
    ![](assets/mrm_forum_subscribers.png)
 
@@ -111,10 +111,11 @@ La suscripción a un foro le permite seguir las conversaciones. Recibe una notif
 Si los operadores suscritos a un foro no reciben notificaciones como se espera:
 
 * Compruebe que las direcciones de correo electrónico se han introducido correctamente en los perfiles del operador.
-* Vaya al nodo **[!UICONTROL Administration > Production > Technical workflows > Campaign processes]** y compruebe si el flujo de trabajo **[!UICONTROL Jobs in discussion forums]** se ha iniciado y no se han producido errores.
+* Go to the **[!UICONTROL Administration > Production > Technical workflows > Campaign processes]** node and check that the **[!UICONTROL Jobs in discussion forums]** workflow is started and free of errors.
 * Ver los registros de envío:
 
-   * En la página de inicio de Adobe Campaign, vaya a **[!UICONTROL Campaigns > Navigation > Deliveries]** y, a continuación, abra la entrega **[!UICONTROL Discussion forum notification]**.
-   * En el explorador, vaya a **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]** y haga clic en **[!UICONTROL Discussion forum notifications]**.
-   En el cuadro **[!UICONTROL Discussion forum notifications]**, los registros de envío se encuentran en la pestaña **[!UICONTROL Edit > Delivery]**. También puede ver las pestañas **[!UICONTROL Tracking > Log]** y **[!UICONTROL Exclusion causes]**.
+   * On the Adobe Campaign home page, go to **[!UICONTROL Campaigns > Navigation > Deliveries]**, then open the **[!UICONTROL Discussion forum notification]** delivery.
+   * En el explorador, vaya a **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]**, luego haga clic en **[!UICONTROL Discussion forum notifications]**.
+
+   In the **[!UICONTROL Discussion forum notifications]** box, the delivery logs are found in the **[!UICONTROL Edit > Delivery]** tab. You can also view the **[!UICONTROL Tracking > Log]** and the **[!UICONTROL Exclusion causes]** tabs.
 
