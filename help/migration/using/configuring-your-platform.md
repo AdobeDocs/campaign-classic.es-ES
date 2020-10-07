@@ -11,11 +11,11 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 discoiquuid: 4d2e765b-750b-457f-ad55-8bd6faaa86af
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 40391fbea53757decb48fd937f5e74e8ba6fb207
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '943'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 40391fbea53757decb48fd937f5e74e8ba6fb207
 
 Algunos cambios importantes en Adobe Campaign v7 requieren una configuración para garantizar su funcionamiento efectivo. Estos parámetros pueden ser necesarios antes o después de la migración. Los cambios correspondientes y su modo de configuración se presentan en esta sección.
 
-Durante la migración, la tabla **NmsRecipient** se vuelve a generar a partir de la definición de esquemas. Se perderá cualquier cambio realizado en la estructura SQL de esta tabla fuera de Adobe Campaign.
+Durante la migración, la tabla **NmsRecipient** se vuelve a generar a partir de la definición de esquemas. Cualquier cambio realizado en la estructura SQL de esta tabla fuera de Adobe Campaign se perderá.
 
 Elementos de ejemplo para comprobar:
 
@@ -48,7 +48,7 @@ Al migrar a Adobe Campaign v7, deben configurarse los siguientes elementos. Esto
 
 * Zonas de seguridad
 
-   Por motivos de seguridad, la plataforma de Adobe Campaign ya no es accesible de forma predeterminada: debe configurar las zonas de seguridad, lo que requiere la recopilación de las direcciones IP del usuario antes de la migración.
+   Por motivos de seguridad, la plataforma Adobe Campaign ya no es accesible de forma predeterminada: debe configurar las zonas de seguridad, lo que requiere la recopilación de las direcciones IP del usuario antes de la migración.
 
    For more information, refer to the [Security](../../migration/using/general-configurations.md#security) section.
 
@@ -74,11 +74,11 @@ Al migrar a Adobe Campaign v7, deben configurarse los siguientes elementos. Esto
 
 Después de ejecutar la **postactualización**, deben tenerse en cuenta los siguientes elementos y llevarse a cabo las configuraciones correspondientes.
 
-* Páginas de reflejo
+* Páginas espejo
 
-   El bloque de personalización de la página de reflejo ha cambiado con v6.x. Esta nueva versión mejora la seguridad al acceder a estas páginas.
+   El bloque de personalización de página espejo ha cambiado con v6.x. Esta nueva versión mejora la seguridad al acceder a estas páginas.
 
-   Si ha utilizado el bloque de personalización v5 en los mensajes, la visualización de la página reflejada fallará. Adobe recomienda encarecidamente utilizar el nuevo bloque de personalización al insertar una página reflejada en los mensajes.
+   Si ha utilizado el bloque de personalización v5 en los mensajes, la visualización de la página espejo fallará. Adobe recomienda encarecidamente utilizar el nuevo bloque de personalización al insertar página espejo en los mensajes.
 
    Sin embargo, como solución temporal (y como las páginas espejo siguen activas), puede volver al antiguo bloque de personalización para evitar este problema cambiando la opción **[!UICONTROL XtkAcceptOldPasswords]** y establecerla en **[!UICONTROL 1]**. Esto no afectará al uso del nuevo bloque de personalización v6.x.
 
@@ -104,13 +104,13 @@ Después de ejecutar la **postactualización**, deben tenerse en cuenta los sigu
 
 * Aplicaciones web
 
-   Después de la actualización, si tiene problemas para conectarse a sus aplicaciones Web identificadas, debe activar las opciones **allowUserPassword** y **sessionTokenOnly** en el archivo **serverConf.xml** . Recuerde desactivar estas dos opciones. Para obtener más información, consulte la sección Aplicaciones [Web](../../migration/using/general-configurations.md#identified-web-applications) identificadas.
+   Después de la actualización, si tiene problemas para conectarse a sus Aplicaciones web identificadas, debe activar las opciones **allowUserPassword** y **sessionTokenOnly** en el archivo **serverConf.xml** . Recuerde desactivar estas dos opciones. Para obtener más información, consulte la sección Aplicaciones [Web](../../migration/using/general-configurations.md#identified-web-applications) identificadas.
 
-   Según el tipo de aplicaciones Web y su configuración, debe realizar manipulaciones adicionales para asegurarse de que funcionan correctamente.
+   Según el tipo de Aplicaciones web y su configuración, debe realizar manipulaciones adicionales para asegurarse de que funcionan correctamente.
 
-   Consulte la sección Aplicaciones [](../../migration/using/general-configurations.md#web-applications) Web.
+   Consulte la sección [Aplicaciones web](../../migration/using/general-configurations.md#web-applications) .
 
-   Si realiza la migración desde una plataforma v5.11, se deben realizar configuraciones adicionales: para obtener más información, consulte la sección Aplicaciones [](../../migration/using/specific-configurations-in-v5-11.md#web-applications) Web.
+   Si realiza la migración desde una plataforma v5.11, se deben realizar configuraciones adicionales: para obtener más información, consulte la sección [Aplicaciones web](../../migration/using/specific-configurations-in-v5-11.md#web-applications) .
 
 * Zonas de seguridad.
 
@@ -118,7 +118,7 @@ Después de ejecutar la **postactualización**, deben tenerse en cuenta los sigu
 
 * Esquemas
 
-   En Red Hat, es posible que encuentre errores al editar determinados esquemas. For more on this, refer to the [Red-Hat](../../migration/using/general-configurations.md#red-hat) section.
+   En Red Hat, puede encontrar errores al editar determinados esquemas. For more on this, refer to the [Red-Hat](../../migration/using/general-configurations.md#red-hat) section.
 
 * Flujos de trabajo
 
@@ -128,9 +128,9 @@ Después de ejecutar la **postactualización**, deben tenerse en cuenta los sigu
 
    Si realiza la migración desde una plataforma v5.11, debe configurar el modo de seguimiento. For more on this, refer to the [Tracking](../../migration/using/specific-configurations-in-v5-11.md#tracking) section.
 
-* Página principal
+* Página de inicio
 
-   Si realiza la migración desde una plataforma v6.02, puede definir parámetros adicionales para mantener la página de inicio antigua desde v6.02. Para obtener más información sobre esto, consulte la sección [Facilidad de uso: Página principal y sección de navegación](../../migration/using/specific-configurations-in-v6-02.md#user-friendliness--home-page-and-navigation) .
+   Si realiza la migración desde una plataforma v6.02, puede definir parámetros adicionales para mantener la página de inicio antigua de v6.02. Para obtener más información sobre esto, consulte la sección [Facilidad de uso: Página de inicio y navegación](../../migration/using/specific-configurations-in-v6-02.md#user-friendliness--home-page-and-navigation) .
 
 * Interacción
 
