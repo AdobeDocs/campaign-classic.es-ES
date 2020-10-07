@@ -11,11 +11,8 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: b9846eda-eeca-433e-b961-6dfc2aa2708b
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3522f4f50770dde220610cd5f1c4084292d8f1f5
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 1%
@@ -29,7 +26,7 @@ ht-degree: 1%
 
 Adobe Campaign permite expresar fechas en función de su zona horaria: esto permite a los usuarios internacionales trabajar en distintos husos horarios en todo el mundo. Cada país que utiliza la misma instancia puede administrar la ejecución de campañas, el seguimiento, el archivo, etc. según la hora local.
 
-A fin de permitir el uso de la plataforma de Adobe Campaign a escala internacional, todas las fechas utilizadas por los sistemas deben estar vinculadas a una zona horaria. Una fecha cuyo huso horario se conozca puede importarse en cualquier otra zona horaria, o sin importar el huso horario.
+Para permitir el uso de la plataforma Adobe Campaign a escala internacional, todas las fechas utilizadas por los sistemas deben estar vinculadas a una zona horaria. Una fecha cuyo huso horario se conozca puede importarse en cualquier otra zona horaria, o sin importar el huso horario.
 
 Adobe Campaign permite almacenar fechas y horas en formato UTC (hora universal coordinada). Cuando se exponen los datos, se convierten en la fecha y hora locales del operador. La conversión se realiza automáticamente cuando la base de datos está configurada en UTC (consulte [Configuración](#configuration)). Si la base de datos no está configurada en UTC, la información sobre la zona horaria de las fechas en la plataforma se almacena en una opción.
 
@@ -86,7 +83,7 @@ Cuando se selecciona la **[!UICONTROL UTC Database (date fields with time zone)]
 
 De lo contrario, se almacenan en el formato local y deberá seleccionar el huso horario que se aplicará a la base de datos.
 
-### Migración {#migration}
+### Migration {#migration}
 
 Al migrar a una versión anterior (sin administración de huso horario), deberá definir el modo de almacenamiento de fecha en la base de datos.
 
