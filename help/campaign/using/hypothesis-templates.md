@@ -11,11 +11,11 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 discoiquuid: addfc395-7a85-4be1-a757-a719ed34bb33
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '1437'
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ La configuración de la plantilla de hipótesis permite definir el contexto para
 
 Para crear una plantilla de hipótesis, aplique los siguientes pasos:
 
-1. En el Explorador de Adobe Campaign, haga clic en **[!UICONTROL Resources>Templates>Hypothesis templates]**.
+1. In the Adobe Campaign explorer, click **[!UICONTROL Resources>Templates>Hypothesis templates]**.
 
    ![](assets/response_hypothesis_model_creation_001.png)
 
@@ -60,7 +60,7 @@ La pestaña plantilla **[!UICONTROL General]** le permite especificar las opcion
 
    >[!NOTE]
    >
-   >Si la plantilla se aplica a las ofertas, la opción **[!UICONTROL Update offer proposition status]** está disponible en la pestaña **[!UICONTROL Transactions]**.
+   >If the template applies to offers, the **[!UICONTROL Update offer proposition status]** option is available in the **[!UICONTROL Transactions]** tab.
 
 * **[!UICONTROL Measurement with control group]**: permite establecer el estado de un grupo de control para la entrega o la campaña e incluirla en indicadores de medición. El grupo de control, que no recibe envíos, le permite medir el impacto de la campaña después de la entrega, comparándolo con la población objetivo que recibió la entrega.
 
@@ -75,13 +75,13 @@ La pestaña plantilla **[!UICONTROL General]** le permite especificar las opcion
    ![](assets/response_properties_001.png)
 
 * **[!UICONTROL Execution folder]**: permite especificar la carpeta de ejecución de la hipótesis.
-* **[!UICONTROL Taken into account in campaign ROI calculation]**: utiliza el resultado de la hipótesis en el cálculo de ROI de la campaña relacionada.
+* **[!UICONTROL Taken into account in campaign ROI calculation]**:: tiene en cuenta el resultado de la hipótesis en el cálculo del ROI para la campaña relacionada.
 
 ### Configuración de ejecución de plantillas de hipótesis {#hypothesis-template-execution-settings}
 
 La pestaña **[!UICONTROL General]** de la plantilla también permite especificar los parámetros de la ejecución de hipótesis. Las opciones disponibles son las siguientes:
 
-* **[!UICONTROL Schedule execution for a time of low activity]**: permite programar el inicio de la hipótesis para optimizar el rendimiento de Adobe Campaign. Cuando se activa esta opción, el flujo de trabajo de procesamiento de las campañas ejecuta el cálculo de hipótesis durante el tiempo de espera.
+* **[!UICONTROL Schedule execution for a time of low activity]**:: le permite programar el inicio de la hipótesis para optimizar el rendimiento de Adobe Campaign. Cuando se activa esta opción, el flujo de trabajo de procesamiento de las campañas ejecuta el cálculo de hipótesis durante el tiempo de espera.
 
    ![](assets/response_exec_settings_002.png)
 
@@ -95,7 +95,7 @@ La pestaña **[!UICONTROL General]** de la plantilla también permite especifica
 
    Para especificar una programación, aplique el siguiente proceso:
 
-   1. Haga clic en el vínculo **[!UICONTROL Frequency of execution...]** y, a continuación, en el botón **[!UICONTROL Change...]**
+   1. Click the **[!UICONTROL Frequency of execution...]** link, then the **[!UICONTROL Change...]** button.
 
       ![](assets/response_frequency_execution_001.png)
 
@@ -107,7 +107,7 @@ La pestaña **[!UICONTROL General]** de la plantilla también permite especifica
 
       ![](assets/response_frequency_execution_003.png)
 
-* **[!UICONTROL Log SQL queries in journal]**: esta función está reservada para usuarios expertos. Le permite añadir una pestaña a la auditoría de hipótesis de medición para mostrar consultas SQL. Esto permite detectar posibles errores que se pueden dar en una simulación.
+* **[!UICONTROL Log SQL queries in journal]**:: esta función está reservada para usuarios expertos. Le permite añadir una pestaña a la auditoría de hipótesis de medición para mostrar consultas SQL. Esto permite detectar posibles errores que se pueden dar en una simulación.
 * **[!UICONTROL Keep execution workflow]**: permite mantener el flujo de trabajo generado automáticamente al principio del cálculo de hipótesis. En las hipótesis creadas a partir de una plantilla que tiene esta opción activada, el flujo de trabajo generado permite hacer un seguimiento del proceso.
 
    >[!CAUTION]
@@ -120,9 +120,9 @@ La pestaña **[!UICONTROL General]** de la plantilla también permite especifica
 
 Esta pestaña contiene los distintos campos y tablas que permiten guardar el historial de reacciones del destinatario en términos de transacciones. Consulte la guía de [configuración](../../configuration/using/about-schema-reference.md) para obtener más información sobre las tablas dedicadas a la gestión de respuestas.
 
-* **[!UICONTROL Schema (reaction log storage)]**: seleccione la tabla de limpieza del destinatario. La tabla predeterminada de Adobe Campaign es **NmsRemaMatchRcp**.
+* **[!UICONTROL Schema (reaction log storage)]**:: seleccione la tabla de reacción de destinatario. La tabla predeterminada de Adobe Campaign es **NmsRemaMatchRcp**.
 * **[!UICONTROL Transaction schema]**: elija la tabla a la que se referirán las hipótesis, es decir, la transacción o la tabla de compras.
-* **[!UICONTROL Querying schema]**: elija los criterios de filtro para la hipótesis.
+* **[!UICONTROL Querying schema]**:: elija los criterios para filtrar la hipótesis.
 * **[!UICONTROL Link to individuals]**: elija el vínculo entre las personas y la tabla utilizada como esquema de transacción.
 * **[!UICONTROL Link to the household]**: seleccione el vínculo al hogar en el esquema de transacciones si desea incluir a todos los miembros de un hogar en una hipótesis. Este campo es opcional.
 * **[!UICONTROL Transaction date]**: este campo es opcional pero recomendado, ya que permite definir un periodo para el cálculo de hipótesis.
@@ -139,7 +139,7 @@ Esta pestaña contiene los distintos campos y tablas que permiten guardar el his
 
    ![](assets/response_transactions_001.png)
 
-* **[!UICONTROL Additional measures and data]**: permite especificar medidas o ejes de informes adicionales de los campos en las distintas tablas.
+* **[!UICONTROL Additional measures and data]**:: permite especificar medidas de sistema de informes o ejes adicionales desde los campos de las distintas tablas.
 * **[!UICONTROL Update offer proposition status]**: permite cambiar el estado de la propuesta de oferta si la hipótesis identifica un destinatario de la oferta.
 
    ![](assets/response_offer_status_001.png)
@@ -164,7 +164,7 @@ Una vez que haya definido la tabla de transacciones y los campos a los que se re
 
 * **Filter on recipients**: en la pestaña **[!UICONTROL Scope]**, puede limitar la hipótesis a cualquier información vinculada a un mensaje (entrega, destinatario, dirección de correo electrónico, servicio, etc.):
 
-   1. Haga clic en el vínculo **[!UICONTROL Add a filter]** y luego en **[!UICONTROL Edit query]**.
+   1. Click the **[!UICONTROL Add a filter]** link, then **[!UICONTROL Edit query]**.
 
       ![](assets/response_scope_filtering_004.png)
 
@@ -190,7 +190,7 @@ Una vez que haya definido la tabla de transacciones y los campos a los que se re
 
 En este ejemplo, vamos a crear una plantilla de hipótesis para una entrega de correo postal. La tabla de transacciones (**Purchases** en nuestro ejemplo) en la que se basarán las hipótesis contiene líneas de compra vinculadas a artículos o productos. Queremos configurar nuestro modelo para crear hipótesis sobre artículos o productos en la tabla de compras.
 
-1. En el explorador de Adobe Campaign, vaya al directorio **[!UICONTROL Resources > Templates > Hypothesis templates]**.
+1. In the Adobe Campaign explorer, go to the **[!UICONTROL Resources > Templates > Hypothesis templates]** node.
 1. Haga clic en **[!UICONTROL New]** para crear una plantilla.
 
    ![](assets/response_hypothesis_model_example_001.png)
@@ -201,7 +201,7 @@ En este ejemplo, vamos a crear una plantilla de hipótesis para una entrega de c
 
 1. Seleccione **[!UICONTROL Deliveries]** como tipo de hipótesis.
 1. Especifique que la entrega puede contener un grupo de control comprobando el cuadro correspondiente.
-1. Seleccione el canal **[!UICONTROL Direct mail]** (Correo postal).
+1. Choose the **[!UICONTROL Direct mail]** channel.
 
    >[!NOTE]
    >
@@ -211,11 +211,11 @@ En este ejemplo, vamos a crear una plantilla de hipótesis para una entrega de c
 
    ![](assets/response_hypothesis_model_example_006.png)
 
-1. En el campo **[!UICONTROL Transactions schema]**, seleccione la tabla de compra.
+1. In the **[!UICONTROL Transactions schema]** field, choose your purchase table.
 
    ![](assets/response_hypothesis_model_example_007.png)
 
-1. Seleccione las líneas de compra en el campo **[!UICONTROL Querying schema]**.
+1. Select purchase lines in the **[!UICONTROL Querying schema]** field.
 
    ![](assets/response_hypothesis_model_example_008.png)
 
@@ -233,7 +233,7 @@ En este ejemplo, vamos a crear una plantilla de hipótesis para una entrega de c
 
    ![](assets/response_hypothesis_model_example_005.png)
 
-1. En la pestaña **[!UICONTROL Scope]**, haga clic en **[!UICONTROL Edit query]** para crear un filtro de hipótesis.
+1. In the **[!UICONTROL Scope]** tab, click **[!UICONTROL Edit query]** to create a filter on hypotheses.
 
    ![](assets/response_hypothesis_model_example_011.png)
 
