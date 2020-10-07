@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 9ca649b4-2226-4cfe-bae1-4632c421975b
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 94%
 
 ---
 
@@ -39,16 +39,16 @@ Para realizar un filtro **Creation date = max (Creation date)** en los destinata
 
 1. Cree una consulta. En este caso, el objetivo es calcular la última fecha de creación conocida de todos los destinatarios de la base de datos. Por lo tanto, la consulta no contiene ningún filtro.
 1. Seleccione **[!UICONTROL Add data]**.
-1. En las ventanas que se abren, seleccione **[!UICONTROL Data linked to the filtering dimension]** y, a continuación, **[!UICONTROL Filtering dimension data]**.
-1. En la ventana **[!UICONTROL Data to add]**, agregue una columna que calcule el valor máximo del campo **Creation date** en la tabla de destinatarios. Se puede utilizar el editor de expresiones o ingresar **max(@created)** directamente en un campo de la columna **[!UICONTROL Expression]**. A continuación, haga clic en el botón **[!UICONTROL Finish]**.
+1. En las ventanas que se abren, seleccione **[!UICONTROL Data linked to the filtering dimension]** y luego **[!UICONTROL Filtering dimension data]**.
+1. En la ventana **[!UICONTROL Data to add]**, agregue una columna que calcule el valor máximo del campo **Creation date** en la tabla de destinatarios. Se puede utilizar el editor de expresiones o ingresar **max(@created)** directamente en un campo de la columna **[!UICONTROL Expression]**. A continuación, haga clic en el botón **[!UICONTROL Finish]** .
 
    ![](assets/datamanagement_usecase_2.png)
 
-1. Haga clic en **[!UICONTROL Edit additional data]** y luego en **[!UICONTROL Advanced parameters...]**. Marque la opción **[!UICONTROL Disable automatic adding of the primary keys of the targeting dimension]** de objetivo.
+1. Haga clic en **[!UICONTROL Edit additional data]**, luego en **[!UICONTROL Advanced parameters...]**. Marque la opción **[!UICONTROL Disable automatic adding of the primary keys of the targeting dimension]**.
 
    Esta opción garantiza que todos los destinatarios no se muestren como resultado y que los datos agregados explícitamente no se mantengan. En este caso, hace referencia a la última fecha de creación de un destinatario.
 
-   Deje activada la opción **[!UICONTROL Remove duplicate rows (DISTINCT)]**.
+   Deje la opción **[!UICONTROL Remove duplicate rows (DISTINCT)]** marcada.
 
 ## Paso 2: Vincular a destinatarios con el resultado de la función de añadir {#step-2--linking-the-recipients-and-the-aggregation-function-result}
 
@@ -58,8 +58,9 @@ Para vincular la consulta de los destinatarios a la consulta que lleva a cabo el
 1. En la pestaña **[!UICONTROL Links]**, agregue un vínculo nuevo e introduzca la información en la ventana que se abre de la siguiente manera:
 
    * Seleccione el esquema temporal relacionado con el agregado. Los datos de este esquema se agregan a los miembros del conjunto principal.
-   * Seleccione **[!UICONTROL Use a simple join]** para vincular el resultado del agregado a cada destinatario del conjunto principal.
-   * Finalmente, especifique que el vínculo es un **[!UICONTROL Type 11 simple link]**.
+   * Select **[!UICONTROL Use a simple join]** to link the aggregate result to every recipient of the main set.
+   * Finally, specify that the link is a **[!UICONTROL Type 11 simple link]**.
+
    ![](assets/datamanagement_usecase_3.png)
 
 Así, el resultado de la agregación se vincula a todos los destinatarios.
@@ -69,7 +70,7 @@ Así, el resultado de la agregación se vincula a todos los destinatarios.
 Una vez establecido el vínculo, el resultado del agregado y los destinatarios forman parte del mismo esquema temporal. Por lo tanto, es posible crear un filtro en el esquema para comparar la fecha de creación de los destinatarios y la última fecha de creación conocida, representada mediante la función de agregación. Este filtro se lleva a cabo mediante una actividad de división.
 
 1. En la pestaña **[!UICONTROL General]**, seleccione **Recipients** como entorno de segmentación y **Edit schema** como entorno de filtrado (para filtrar en la actividad de esquema de transición entrante).
-1. En la pestaña **[!UICONTROL subsets]**, seleccione **[!UICONTROL Add a filtering condition on the inbound population]** y haga clic en **[!UICONTROL Edit...]**.
+1. En la **[!UICONTROL subsets]** ficha, seleccione **[!UICONTROL Add a filtering condition on the inbound population]** y haga clic en **[!UICONTROL Edit...]**.
 1. Mediante el editor de expresiones, agregue un criterio de igualdad entre la fecha de creación de los destinatarios y la fecha de creación calculada mediante el agregado.
 
    Los campos de fecha de la base de datos suelen guardarse en milisegundos. Por lo tanto, se deben ampliar para todo el día a fin de evitar recuperar destinatarios creados solo en ese mismo milisegundo.
@@ -78,8 +79,9 @@ Una vez establecido el vínculo, el resultado del agregado y los destinatarios f
 
    Por lo tanto, las expresiones que se utilizan en los criterios son:
 
-   * **[!UICONTROL Expresión]**: `toDate([target/@created])`.
+   * **[!UICONTROL Expression]**: `toDate([target/@created])`.
    * **[!UICONTROL Value]**: `toDate([datemax/expr####])`, donde expr#### se relaciona con el agregado especificado en la consulta de función de añadir.
+
    ![](assets/datamanagement_usecase_4.png)
 
 De ese modo, el resultado de la actividad de división se relaciona con los destinatarios creados el mismo día que la última fecha de creación conocida.
