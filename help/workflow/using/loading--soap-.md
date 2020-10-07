@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 94178104-f8ba-4c17-8ff9-928c5d2df1b7
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '253'
+ht-degree: 92%
 
 ---
 
@@ -46,14 +46,14 @@ La operación es la siguiente:
 
    ![](assets/soap_load_001.png)
 
-   Si desea actualizar el ejemplo, seleccione **[!UICONTROL Re-analyze the example]**.
+   If you wish to update the example, select **[!UICONTROL Re-analyze the example]**.
 
    También puede personalizar el formato de los datos de la columna a través del vínculo **[!UICONTROL Advanced parameters]**. Para obtener más información sobre formatear datos importados, consulte esta [sección](../../platform/using/importing-data.md#import-wizard).
 
 1. Puede utilizar el número de línea como identificador o especificar que la llamada SOAP devuelva varios elementos.
 1. Introduzca los siguientes scripts de pestañas según su función:
 
-   * **[!UICONTROL Initialization]**: establece una conexión SOAP.
+   * **[!UICONTROL Initialization]**:: establece una conexión SOAP.
    * **[!UICONTROL Iteration]**: realiza la llamada al servicio SOAP. El retorno de esta función debe ser un objeto XML compatible con la descripción del ejemplo o el WSDL.
 
       Adobe Campaign llama al código de esta pestaña hasta que devuelva un objeto XML nulo.
