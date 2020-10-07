@@ -11,11 +11,11 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: 772992bf-588f-42bd-a72a-986a88815264
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 2%
 
 ---
 
@@ -26,8 +26,8 @@ En esta sección se presenta el procedimiento que se debe aplicar para actualiza
 
 >[!NOTE]
 >
->En el caso de las instancias hospedadas, debe coordinarse con el administrador de Adobe.\
->En el caso de instancias locales, puede obtener ayuda de Adobe Consultants.
+>Para las instancias hospedadas, debe coordinarse con el administrador de Adobe.\
+>En el caso de instancias locales, puede obtener ayuda de los consultores de Adobe.
 
 La actualización debe aplicarse a todos los servidores en los que esté instalado Adobe Campaign.
 
@@ -38,7 +38,7 @@ La actualización debe aplicarse a todos los servidores en los que esté instala
 Adobe Campaign se basa en varios procesos ejecutados en el servidor que deberá manipular durante las actualizaciones, en particular:
 
 * Servidor de aplicaciones (nlserver web)
-* Servidor de entrega (mta nlserver)
+* Envío server (nlserver mta)
 * Servidor de redirección (webmdl)
 
 >[!NOTE]
@@ -50,5 +50,5 @@ Si la nueva versión implica una modificación de la estructura de la base de da
 
 1. Servidor de aplicaciones (nlserver web),
 1. Servidor de redirección (webmdl),
-1. Servidor de entrega (mta nlserver).
+1. Envío Server (nlserver mta).
 
