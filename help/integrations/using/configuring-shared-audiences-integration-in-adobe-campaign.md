@@ -11,11 +11,8 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 discoiquuid: 4443b0ca-80c6-467d-a4df-50864aae8496
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 85%
@@ -41,6 +38,7 @@ En primer lugar, se deben configurar o verificar las cuentas externas en Adobe C
 
    * **[!UICONTROL importSharedAudience]** : Cuenta SFTP específica para la importación de audiencias.
    * **[!UICONTROL exportSharedAudience]** : Cuenta SFTP específica para la exportación de audiencias.
+
    ![](assets/aam_config_1.png)
 
 1. Fill in the **[!UICONTROL Server]** field: **ftp-out.demdex.com** domain for the import external account and **ftp-in.demdex.com** domain for the export external account.
@@ -49,13 +47,15 @@ En primer lugar, se deben configurar o verificar las cuentas externas en Adobe C
 
    >[!NOTE]
    >
-   >If you are using S3, enter your **[!UICONTROL AWS S3 Account Server]** following this syntax:\
-   `<S3bucket name>.s3.amazonaws.com/<s3object path>`\
-   Para obtener más información sobre cómo configurar la cuenta S3, consulte este [artículo](../../platform/using/external-accounts.md#amazon-simple-storage-service--s3--external-account).
+   >If you are using S3, enter your **[!UICONTROL AWS S3 Account Server]** following this syntax:
+   >
+   >`<S3bucket name>.s3.amazonaws.com/<s3object path>`
+   >
+   >Para obtener más información sobre cómo configurar la cuenta S3, consulte este [artículo](../../platform/using/external-accounts.md#amazon-simple-storage-service--s3--external-account).
 
    ![](assets/aam_config_2.png)
 
-1. Añada **[!UICONTROL Account]** y **[!UICONTROL Password]** proporcione Adobe.
+1. Añada el **[!UICONTROL Account]** y **[!UICONTROL Password]** proporcionado por el Adobe.
 
 Las cuentas externas ya están configuradas.
 
