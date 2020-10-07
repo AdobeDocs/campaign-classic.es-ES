@@ -11,11 +11,11 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 discoiquuid: 6da65fb5-18a1-41a0-96d8-588e383f944b
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '203'
+ht-degree: 5%
 
 ---
 
@@ -32,7 +32,7 @@ La principal desventaja es la limitación de los datos y las propiedades que se 
 
 Las pantallas del asistente contienen los siguientes pasos:
 
-1. La primera página permite introducir el nombre del esquema que se va a ampliar y el espacio de nombres del esquema de extensión donde se guardarán las modificaciones:
+1. La primera página permite introducir el nombre del esquema que se va a ampliar y la Área de nombres del esquema de extensión en el que se guardarán las modificaciones:
 
    ![](assets/d_ncs_integration_schema_addfield.png)
 
@@ -42,7 +42,7 @@ Las pantallas del asistente contienen los siguientes pasos:
 
 1. Para confirmar los cambios, haga clic en el **[!UICONTROL Finish]** botón .
 
-En nuestro ejemplo, se crea automáticamente un archivo de extensión llamado &quot;cus:Recipient&quot; y se ejecuta la secuencia de comandos SQL correspondiente:
+En nuestro ejemplo, se crea automáticamente un archivo de extensión llamado &quot;cus:destinatario&quot; y se ejecuta la secuencia de comandos SQL correspondiente:
 
 ```
 <srcSchema extendedSchema="nms:recipient" label="Recipients" name="recipient"  namespace="cus">  
@@ -54,5 +54,5 @@ En nuestro ejemplo, se crea automáticamente un archivo de extensión llamado &q
 
 >[!NOTE]
 >
->De forma predeterminada, los campos agregados se declaran con la propiedad **user** (con el valor &quot;true&quot;). Esto le permite mostrar y editar el campo en el formulario de entrada del esquema ampliado mediante un control de tipo &quot;treeEdit&quot; (consulte Formulario de entrada).
+>De forma predeterminada, los campos agregados se declaran con la propiedad **user** (con el valor &quot;true&quot;). Esto le permite mostrar y editar el campo en el formulario de entrada del esquema extendido mediante un control de tipo &quot;treeEdit&quot; (consulte Formulario de entrada).
 
