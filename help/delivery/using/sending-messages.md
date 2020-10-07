@@ -9,11 +9,11 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 discoiquuid: e2dd8161-fe38-48bf-a288-8ec328b2660e
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 7c800c20fff89b97f6fa38b3c659ca765765e157
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '741'
+ht-degree: 87%
 
 ---
 
@@ -46,7 +46,7 @@ Para realizar esto, siga los pasos a continuación:
 1. Vaya a **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** o **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Seleccione la entrega que desee o duplique la plantilla de **envío de correo electrónico** preestablecida y, a continuación, seleccione la plantilla duplicada.
 1. Haga clic en el botón **Propiedades**.
-1. Seleccione la pestaña **[!UICONTROL Delivery]**.
+1. Seleccione la pestaña **[!UICONTROL Delivery]** .
 1. Marque la casilla **Archivar correos electrónicos** para mantener una copia de todos los mensajes enviados para este envío o para cada envío basado en esta plantilla.
 
    ![](assets/s_ncs_user_wizard_archiving.png)
@@ -71,9 +71,9 @@ En las propiedades de la entrega, el campo **[!UICONTROL Mode]** de la pestaña 
 
 Además del modo predeterminado, también están disponibles las siguientes opciones:
 
-* **[!UICONTROL Force the generation of the mirror page]**: incluso si no se inserta ningún vínculo a la página espejo en la entrega, se creará la página espejo.
-* **[!UICONTROL Do not generate the mirror page]**: no se genera ninguna página espejo, aunque el vínculo esté presente en la entrega.
-* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: esta opción permite acceder al contenido de la página duplicada, con información de personalización, en la ventana del “log” de envío. Para ello, tras finalizar la entrega, haga clic en la pestaña **[!UICONTROL Delivery]** y seleccione la línea del destinatario cuya página duplicada desee ver. Haga clic en el vínculo **[!UICONTROL Display the mirror page for this message...]**.
+* **[!UICONTROL Force the generation of the mirror page]** :: aunque no se inserte ningún vínculo a la página espejo en el envío, se creará la página espejo.
+* **[!UICONTROL Do not generate the mirror page]** :: no se genera ninguna página espejo, aunque el vínculo esté presente en el envío.
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]** :: esta opción le permite acceder al contenido de la página espejo, con información de personalización, en la ventana del registro de envíos. Para ello, tras finalizar la entrega, haga clic en la pestaña **[!UICONTROL Delivery]** y seleccione la línea del destinatario cuya página duplicada desee ver. Haga clic en el vínculo **[!UICONTROL Display the mirror page for this message...]**.
 
    ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
@@ -89,13 +89,13 @@ Desde esta pantalla, también puede definir una dirección específica para inve
 
 ## Codificación de caracteres {#character-encoding}
 
-En la ficha **[!UICONTROL SMTP]** de los parámetros de entrega, la sección **[!UICONTROL Codificación]** de caracteres le permite establecer una codificación específica.
+In the **[!UICONTROL SMTP]** tab of the delivery parameters, the **[!UICONTROL Character encoding]** section allows you to set a specific encoding.
 
 La codificación predeterminada es UTF-8. Si algunos de los proveedores de correo electrónico de los destinatarios no admiten la codificación estándar UTF-8, es posible que desee configurar una codificación específica para que muestre correctamente los caracteres especiales a los destinatarios de los mensajes de correo electrónico.
 
 Por ejemplo, desea enviar un correo electrónico que contenga caracteres japoneses. Para asegurarse de que todos los caracteres se mostrarán correctamente a los destinatarios en Japón, es posible que desee utilizar una codificación que admita los caracteres japoneses en lugar de la codificación UTF-8 estándar.
 
-Para ello, seleccione la opción **[!UICONTROL Force the encoding used for messages]** en la sección **[!UICONTROL Character encoding]** y elija una codificación en la lista desplegable que se muestra.
+To do this, select the **[!UICONTROL Force the encoding used for messages]** option in the **[!UICONTROL Character encoding]** section and choose an encoding from the drop-down list that is displayed.
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab_encoding.png)
 
