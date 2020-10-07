@@ -11,11 +11,11 @@ audience: message-center
 content-type: reference
 topic-tags: reports
 discoiquuid: e46a4e87-6c02-4b9c-bf6d-bb4e785e78fa
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 72%
 
 ---
 
@@ -26,13 +26,13 @@ Este informe muestra las estadísticas de envío relacionadas con los mensajes t
 
 ![](assets/mc_reports_1.png)
 
-En este informe puede elegir mostrar las estadísticas generales o las relativas a una instancia de ejecución determinada. También puede filtrar los datos por canal y por un periodo específico. Los indicadores que se muestran en la sección **[!UICONTROL Indicators over the period]** se calculan en el periodo seleccionado:
+En este informe puede elegir mostrar las estadísticas generales o las relativas a una instancia de ejecución determinada. También puede filtrar los datos por canal y por un periodo específico. The indicators displayed in the **[!UICONTROL Indicators over the period]** section are calculated over the period selected:
 
-* **[!UICONTROL Incoming (throughput event/h)]**: número promedio de eventos introducidos por hora en la cola del Centro de mensajes.
-* **[!UICONTROL Incoming (event vol)]**: número de eventos introducidos en la cola del Centro de mensajes.
-* **[!UICONTROL Outgoing (throughput msg/h)]**: número promedio por hora de eventos del Centro de mensajes salientes correctos (por envío).
-* **[!UICONTROL Outgoing (msg vol)]**: número de eventos de Centro de mensajes salientes correctos (por envío).
-* **[!UICONTROL Average sending time (seconds)]**: tiempo promedio empleado en el Centro de mensajes para los eventos procesados correctamente. El cálculo toma en cuenta el tiempo de procesamiento y el tiempo de envío de mta.
+* **[!UICONTROL Incoming (throughput event/h)]** :: número promedio por hora de eventos ingresados en la cola del centro de mensajes.
+* **[!UICONTROL Incoming (event vol)]** :: número de eventos introducidos en la cola del Centro de mensajes.
+* **[!UICONTROL Outgoing (throughput msg/h)]** :: número promedio por hora de eventos salientes del centro de mensajes (enviados por un envío).
+* **[!UICONTROL Outgoing (msg vol)]** :: número de eventos salientes del centro de mensajes (enviados por un envío).
+* **[!UICONTROL Average sending time (seconds)]** :: tiempo promedio empleado en el centro de mensajes para eventos procesados correctamente. El cálculo toma en cuenta el tiempo de procesamiento y el tiempo de envío de mta.
 * **[!UICONTROL Error rate]**: número de eventos con errores comparados con el número de eventos que se han introducido en la cola del Centro de mensajes. Los siguientes errores se tienen en cuenta: error de enrutamiento, evento caducado (evento que ha estado en la cola demasiado tiempo), error de envío, omitido por la entrega (cuarentena, etc.).
 
 >[!NOTE]
