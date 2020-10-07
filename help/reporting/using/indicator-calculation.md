@@ -11,11 +11,8 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5ebea30c743ab416ede879c74735e2c7870d3db9
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2980'
 ht-degree: 95%
@@ -567,7 +564,7 @@ This report is based on the **[!UICONTROL Delivery and tracking statistics]** (n
   <tr> 
    <td> Reclamaciones<br /> </td> 
    <td> @complaints<br /> </td> 
-   <td> Recuento de mensajes con un estado igual a "Error" y un motivo igual a "dirección agregada a la lista de bloques".<br /> </td> 
+   <td> Recuento de mensajes con un estado igual a "Fallido" y un motivo igual a "dirección agregada a la lista de bloqueados".<br /> </td> 
    <td> Count(@status=2 and msg/@failureReason=8)<br /> </td> 
   </tr> 
   <tr> 
