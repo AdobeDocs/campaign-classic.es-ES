@@ -11,11 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: creating-queries
 discoiquuid: 8e575da0-c51a-4106-a826-3e1771e63649
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: a0698ad55afb391bdc652a00b43b20df6fb9851b
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '3232'
+ht-degree: 100%
 
 ---
 
@@ -516,7 +516,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
    <td> Devuelve los últimos “n” caracteres de la cadena<br /> </td> 
-   <td> Right(&lt;string&gt;)<br /> </td> 
+   <td> Right(&lt;cadena&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
@@ -526,7 +526,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
    <td> Devuelve la cadena con la primera letra de cada palabra en mayúscula<br /> </td> 
-   <td> Smart(&lt;string&gt;)<br /> </td> 
+   <td> Smart(&lt;cadena&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Substring</strong><br /> </td> 
@@ -541,12 +541,12 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Upper</strong><br /> </td> 
    <td> Devuelve la cadena en mayúsculas<br /> </td> 
-   <td> Upper(&lt;string&gt;)<br /> </td>  
+   <td> Upper(&lt;cadena&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>VirtualLink</strong><br /> </td> 
    <td> Devuelve la clave externa de un vínculo transferido como parámetro si los otros dos parámetros son iguales<br /> </td> 
-   <td> VirtualLink(&lt;number&gt;, &lt;number&gt;, &lt;number&gt;)<br /> </td>  
+   <td> VirtualLink(&lt;número&gt;, &lt;número&gt;, &lt;número&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>VirtualLinkStr</strong><br /> </td> 
@@ -573,32 +573,32 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>AddDays</strong><br /> </td> 
    <td> Agrega un número de días a una fecha<br /> </td> 
-   <td> AddDays(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
+   <td> AddDays(&lt;fecha&gt;, &lt;número&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>AddHours</strong><br /> </td> 
    <td> Agrega un número de horas a una fecha<br /> </td> 
-   <td> AddHours(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
+   <td> AddHours(&lt;fecha&gt;, &lt;número&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>AddMinutes</strong><br /> </td> 
    <td> Añade un número de minutos a una fecha<br /> </td> 
-   <td> AddMinutes(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
+   <td> AddMinutes(&lt;fecha&gt;, &lt;número&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>AddMonths</strong><br /> </td> 
    <td> Añade un número de meses a una fecha<br /> </td> 
-   <td> AddMonths(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
+   <td> AddMonths(&lt;fecha&gt;, &lt;número&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>AddSeconds</strong><br /> </td> 
    <td> Añade un número de segundos a una fecha<br /> </td> 
-   <td> AddSeconds(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
+   <td> AddSeconds(&lt;fecha&gt;, &lt;número&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>AddYears</strong><br /> </td> 
    <td> Agrega un número de años a una fecha<br /> </td> 
-   <td> AddYears(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
+   <td> AddYears(&lt;fecha&gt;, &lt;número&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
@@ -608,7 +608,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Day</strong><br /> </td> 
    <td> Devuelve el número que representa el día de la fecha.<br /> </td> 
-   <td> Day(&lt;date&gt;)<br /> </td>  
+   <td> Day(&lt;fecha&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>DayOfYear</strong><br /> </td> 
@@ -628,12 +628,12 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>DaysDiff</strong><br /> </td> 
    <td> Número de días entre dos fechas<br /> </td> 
-   <td> DaysDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
+   <td> DaysDiff(&lt;fecha de finalización&gt;, &lt;fecha de inicio&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>DaysOld</strong><br /> </td> 
    <td> Devuelve la edad en días de una fecha<br /> </td> 
-   <td> DaysOld(&lt;date&gt;)<br /> </td>  
+   <td> DaysOld(&lt;fecha&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>GetDate</strong><br /> </td> 
@@ -641,9 +641,9 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
    <td> GetDate()<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Hora</strong><br /> </td> 
+   <td> <strong>Hour</strong><br /> </td> 
    <td> Devuelve la hora de la fecha<br /> </td> 
-   <td> Hour(&lt;date&gt;)<br /> </td>  
+   <td> Hour(&lt;fecha&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>HoursDiff</strong><br /> </td> 
@@ -653,32 +653,32 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Minute</strong><br /> </td> 
    <td> Devuelve los minutos de la fecha<br /> </td> 
-   <td> Minute(&lt;date&gt;)<br /> </td>  
+   <td> Minute(&lt;fecha&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>MinutesDiff</strong><br /> </td> 
    <td> Devuelve el número de minutos entre dos fechas<br /> </td> 
-   <td> MinutesDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
+   <td> MinutesDiff(&lt;fecha de finalización&gt;, &lt;fecha de inicio&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Month</strong><br /> </td> 
    <td> Devuelve el número que representa el mes de la fecha<br /> </td> 
-   <td> Month(&lt;date&gt;)<br /> </td>  
+   <td> Month(&lt;fecha&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>MonthsAgo</strong><br /> </td> 
    <td> Devuelve la fecha correspondiente a la fecha actual menos n meses<br /> </td> 
-   <td> MonthsAgo(&lt;number&gt;)<br /> </td>  
+   <td> MonthsAgo(&lt;número&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>MonthsDiff</strong><br /> </td> 
    <td> Devuelve el número de meses entre dos fechas<br /> </td> 
-   <td> MonthsDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
+   <td> MonthsDiff(&lt;fecha de finalización&gt;, &lt;fecha de inicio&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>MonthsOld</strong><br /> </td> 
    <td> Devuelve la edad en meses de una fecha<br /> </td> 
-   <td> MonthsOld(&lt;date&gt;)<br /> </td>  
+   <td> MonthsOld(&lt;fecha&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Second</strong><br /> </td> 
@@ -688,42 +688,42 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>SecondsDiff</strong><br /> </td> 
    <td> Devuelve el número de segundos entre dos fechas<br /> </td> 
-   <td> SecondsDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
+   <td> SecondsDiff(&lt;fecha de finalización&gt;, &lt;fecha de inicio&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>SubDays</strong><br /> </td> 
    <td> Resta un número de días a partir de una fecha<br /> </td> 
-   <td> SubDays(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
+   <td> SubDays(&lt;fecha&gt;, &lt;número&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>SubHours</strong><br /> </td> 
    <td> Resta un número de horas a partir de una fecha<br /> </td> 
-   <td> SubHours(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
+   <td> SubHours(&lt;fecha&gt;, &lt;número&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>SubMinutos</strong><br /> </td> 
+   <td> <strong>SubMinutes</strong><br /> </td> 
    <td> Resta un número de minutos desde una fecha<br /> </td> 
-   <td> SubMinutes(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
+   <td> SubMinutes(&lt;fecha&gt;, &lt;número&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>SubMeses</strong><br /> </td> 
+   <td> <strong>SubMonths</strong><br /> </td> 
    <td> Resta un número de meses desde una fecha<br /> </td> 
-   <td> SubMonths(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
+   <td> SubMonths(&lt;fecha&gt;, &lt;número&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>SubSegundos</strong><br /> </td> 
+   <td> <strong>SubSeconds</strong><br /> </td> 
    <td> Resta un número de segundos desde una fecha<br /> </td> 
-   <td> SubSeconds(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
+   <td> SubSeconds(&lt;fecha&gt;, &lt;número&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>SubAños</strong><br /> </td> 
+   <td> <strong>SubYears</strong><br /> </td> 
    <td> Resta un número de años a partir de una fecha<br /> </td> 
-   <td> SubYears(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
+   <td> SubYears(&lt;fecha&gt;, &lt;número&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToDate</strong><br /> </td> 
    <td> Convierte una fecha y hora como fecha<br /> </td> 
-   <td> ToDate(&lt;date + time&gt;)<br /> </td>  
+   <td> ToDate(&lt;fecha + hora&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToDateTime</strong><br /> </td> 
@@ -733,17 +733,17 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
    <td> Redondea una fecha y hora hacia el segundo más cercano<br /> </td> 
-   <td> TruncDate(@lastModified, &lt;number of seconds&gt;)<br /> </td> 
+   <td> TruncDate(@lastModified, &lt;número de segundos&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>TruncDateTZ</strong><br /> </td> 
    <td> Redondea una fecha y hora con una precisión determinada expresada en segundos<br /> </td> 
-   <td> TruncDateTZ(&lt;date&gt;, &lt;number of seconds&gt;, &lt;time zone&gt;)<br /> </td> 
+   <td> TruncDateTZ(&lt;fecha&gt;, &lt;número de segundos&gt;, &lt;zona horaria&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>TruncQuarter</strong><br /> </td> 
    <td> Redondea una fecha al trimestre<br /> </td> 
-   <td> TruncQuarter(&lt;date&gt;)<br /> </td>  
+   <td> TruncQuarter(&lt;fecha&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncTime</strong><br /> </td> 
@@ -753,7 +753,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>TruncWeek</strong><br /> </td> 
    <td> Redondea una fecha a la semana<br /> </td> 
-   <td> TruncWeek(&lt;date&gt;)<br /> </td>  
+   <td> TruncWeek(&lt;fecha&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncYear</strong><br /> </td> 
@@ -763,22 +763,22 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>TruncWeek</strong><br /> </td> 
    <td> Devuelve el número que representa el día de la semana de la fecha<br /> </td> 
-   <td> WeekDay(&lt;date&gt;)<br /> </td>  
+   <td> WeekDay(&lt;fecha&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Year</strong><br /> </td> 
    <td> Devuelve el número que representa el año de la fecha<br /> </td> 
-   <td> Year(&lt;date&gt;)<br /> </td>  
+   <td> Year(&lt;fecha&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearAndMonth</strong><br /> </td> 
    <td> Devuelve el número que representa el año y el mes de la fecha<br /> </td> 
-   <td> YearAndMonth(&lt;date&gt;)<br /> </td>  
+   <td> YearAndMonth(&lt;fecha&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
    <td> Devuelve el número de años entre las dos fechas<br /> </td> 
-   <td> YearsDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
+   <td> YearsDiff(&lt;fecha de finalización&gt;, &lt;fecha de inicio&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsOld</strong><br /> </td> 
@@ -804,12 +804,12 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Abs</strong><br /> </td> 
    <td> Devuelve el valor absoluto de un número<br /> </td> 
-   <td> Abs(&lt;number&gt;)<br /> </td>  
+   <td> Abs(&lt;número&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Ceil</strong><br /> </td> 
    <td> Devuelve el menor entero que sea mayor o igual que un número<br /> </td> 
-   <td> Ceil(&lt;number&gt;)<br /> </td>  
+   <td> Ceil(&lt;número&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
@@ -819,12 +819,12 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Greatest</strong><br /> </td> 
    <td> Devuelve el número mayor de dos números<br /> </td> 
-   <td> Greatest(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
+   <td> Greatest(&lt;número 1&gt;, &lt;número 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Least</strong><br /> </td> 
    <td> Devuelve el número menor de dos números<br /> </td> 
-   <td> Least(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
+   <td> Least(&lt;número 1&gt;, &lt;número 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Mod</strong><br /> </td> 
@@ -834,7 +834,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Percent</strong><br /> </td> 
    <td> Devuelve la proporción de dos números expresado como un porcentaje<br /> </td> 
-   <td> Percent(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
+   <td> Percent(&lt;número 1&gt;, &lt;número 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Aleatorio</strong><br /> </td> 
@@ -844,27 +844,27 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Round</strong><br /> </td> 
    <td> Redondea un número a “n” decimales<br /> </td> 
-   <td> Redondeo(&lt;number&gt;, &lt;number of decimals&gt;)<br /> </td>  
+   <td> Redondeo(&lt;número&gt;, &lt;número de decimales&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Sign</strong><br /> </td> 
    <td> Devuelve el signo del número<br /> </td> 
-   <td> Sign(&lt;number&gt;)<br /> </td>  
+   <td> Sign(&lt;número&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToDouble</strong><br /> </td> 
    <td> Convierte un entero en flotante<br /> </td> 
-   <td> ToDouble(&lt;number&gt;)<br /> </td>  
+   <td> ToDouble(&lt;número&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToInt64</strong><br /> </td> 
    <td> Convierte un flotante en un entero de 64 bits<br /> </td> 
-   <td> ToInt64(&lt;number&gt;)<br /> </td>  
+   <td> ToInt64(&lt;número&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToInteger</strong><br /> </td> 
    <td> Convierte un flotante en un entero<br /> </td> 
-   <td> ToInteger(&lt;number&gt;)<br /> </td>  
+   <td> ToInteger(&lt;número&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Trunc</strong><br /> </td> 
@@ -930,12 +930,12 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>ClearBit</strong><br /> </td> 
    <td> Elimina el indicador del valor<br /> </td> 
-   <td> ClearBit(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td>  
+   <td> ClearBit(&lt;identificador&gt;, &lt;indicador&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Coalesce</strong><br /> </td> 
    <td> Devuelve el valor 2 si el valor 1 es cero o nulo, de lo contrario devuelve el valor 1<br /> </td> 
-   <td> Coalesce(&lt;value 1&gt;, &lt;value 2&gt;)<br /> </td>  
+   <td> Coalesce(&lt;valor 1&gt;, &lt;valor 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Decode</strong><br /> </td> 
@@ -955,7 +955,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>GetMirrorURL</strong><br /> </td> 
    <td> Recupera la URL del servidor de la página espejo<br /> </td> 
-   <td> GetMirrorURL(&lt;value&gt;)<br /> </td>  
+   <td> GetMirrorURL(&lt;valor&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
@@ -965,7 +965,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>IsBitSet</strong><br /> </td> 
    <td> Indica si el indicador se encuentra en el valor<br /> </td> 
-   <td> IsBitSet(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td>  
+   <td> IsBitSet(&lt;identificador&gt;, &lt;indicador&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>IsEmptyString</strong><br /> </td> 
@@ -974,8 +974,8 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   </tr> 
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
-   <td> Devuelve la cadena vacía si el argumento es nulo<br /> </td> 
-   <td> NoNull(&lt;value&gt;)<br /> </td>   
+   <td> Devuelve la cadena vacía si el argumento es NULL<br /> </td> 
+   <td> NoNull(&lt;valor&gt;)<br /> </td>   
   </tr> 
   <tr> 
    <td> <strong>RowId</strong><br /> </td> 
@@ -985,12 +985,12 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>SetBit</strong><br /> </td> 
    <td> Fuerza la marca en el valor<br /> </td> 
-   <td> SetBit(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td>  
+   <td> SetBit(&lt;identificador&gt;, &lt;indicador&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToBoolean</strong><br /> </td> 
    <td> Convierte un número en Boolean<br /> </td> 
-   <td> ToBoolean(&lt;number&gt;)<br /> </td>   
+   <td> ToBoolean(&lt;número&gt;)<br /> </td>   
   </tr> 
   <tr> 
    <td> <strong>When</strong><br /> </td> 
@@ -1012,17 +1012,17 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
    <td> Aplica un orden descendente<br /> </td> 
-   <td> Desc(&lt;value 1&gt;)<br /> </td>  
+   <td> Desc(&lt;valor 1&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>OrderBy</strong><br /> </td> 
    <td> Ordena el resultado dentro de la partición<br /> </td> 
-   <td> OrderBy(&lt;value 1&gt;)<br /> </td>  
+   <td> OrderBy(&lt;valor 1&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>PartitionBy</strong><br /> </td> 
    <td> Particiona el resultado de una consulta en una tabla<br /> </td> 
-   <td> PartitionBy(&lt;value 1&gt;)<br /> </td>  
+   <td> PartitionBy(&lt;valor 1&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>RowNum</strong><br /> </td> 
