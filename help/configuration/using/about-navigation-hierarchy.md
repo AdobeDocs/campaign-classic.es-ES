@@ -11,11 +11,11 @@ audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
 discoiquuid: cf6a79ac-c5b1-4508-bcf1-73f2fbbfe87b
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 La jerarquía de navegación funciona como un explorador de archivos (por ejemplo, el Explorador de Windows). Las carpetas pueden contener subcarpetas. Al seleccionar un nodo, se muestra la vista correspondiente al nodo.
 
-La vista mostrada es una lista asociada a un esquema y un formulario de entrada para editar la línea seleccionada.
+La vista mostrada es una lista asociada con un esquema y un formulario de entrada para editar la línea seleccionada.
 
 ![](assets/d_ncs_integration_navigation.png)
 
