@@ -11,11 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 discoiquuid: 7674c856-2b64-4a85-9ffa-3e14a142028e
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '879'
+ht-degree: 67%
 
 ---
 
@@ -32,7 +32,7 @@ Algunos de los campos de la consola se han definido con este tipo de enumeracion
 
 ## Acceso a valores {#access-to-values}
 
-Los valores de este tipo de campo se definen y la administración general de estos campos (adición o eliminación de un valor) se realiza a través del nodo **[!UICONTROL Administración > Plataforma > Enumeraciones]** del árbol.
+The values for this type of field are defined and overall administration of these fields (adding/deleting a value) is performed via the **[!UICONTROL Administration > Platform > Enumerations]** node of the tree.
 
 ![](assets/s_ncs_user_itemized_list_node.png)
 
@@ -41,15 +41,15 @@ Los valores de este tipo de campo se definen y la administración general de est
 
    ![](assets/s_ncs_user_itemized_list_values.png)
 
-   Para crear un nuevo valor de enumeración, haga clic en **[!UICONTROL Añadir]**.
+   To create a new enumeration value, click **[!UICONTROL Add]**.
 
    ![](assets/s_ncs_user_itemized_list.png)
 
-   Si se selecciona la opción **[!UICONTROL Abrir]** el usuario puede añadir un nuevo valor de lista desglosada directamente en el campo correspondiente. Un mensaje de confirmación le permite crear este valor.
+   If the **[!UICONTROL Open]** option is selected, the user can add a new itemized list value directly in the corresponding field. Un mensaje de confirmación le permite crear este valor.
 
    ![](assets/s_ncs_user_itemized_list_new_value.png)
 
-* Si se selecciona la opción **[!UICONTROL Cerrado]**, los usuarios no pueden crear nuevos valores, sino que solo pueden elegir entre los valores disponibles.
+* If the **[!UICONTROL Closed]** option is selected, users will not be able to create new values, but merely choose from the values available.
 
 ## Estandarización de datos {#standardizing-data}
 
@@ -63,23 +63,23 @@ En los campos de lista desglosada se pueden introducir valores distintos a los v
 
 Por tanto, el valor introducido:
 
-* Se agrega a los valores de lista desglosada: en este caso se debe seleccionar la opción **[!UICONTROL Abrir]**,
-* o sustituido automáticamente por su alias correspondiente: En este caso, este caso debe definirse en la ficha **[!UICONTROL Alias]** de la lista de elementos.
+* Added to the itemized list values: in this case the **[!UICONTROL Open]** option must be selected,
+* o sustituido automáticamente por su correspondiente: En este caso, este caso debe definirse en la ficha **[!UICONTROL Alias]** Alias de la lista de elementos.
 * o se debe almacenar en la lista de alias: se le asigna un alias más adelante.
 
    >[!NOTE]
    >
-   >Si necesita utilizar las funciones de limpieza de datos, seleccione la opción **[!UICONTROL Limpieza de alias]** en la lista desglosada.
+   >If you need to use data cleansing capabilities, select the **[!UICONTROL Alias cleansing]** option in the itemized list.
 
 ### Uso de alias {#using-aliases}
 
-La opción **[!UICONTROL Limpieza de alias]** permite utilizar alias para la lista desglosada seleccionada. Cuando se selecciona esta opción, la pestaña **[!UICONTROL Alias]** aparece en la parte inferior de la ventana.
+The option **[!UICONTROL Alias cleansing]** makes it possible to use aliases for the selected itemized list. Cuando se selecciona esta opción, la pestaña **[!UICONTROL Alias]** aparece en la parte inferior de la ventana.
 
 ![](assets/s_ncs_user_itemized_list_alias_option.png)
 
 #### Creación de un alias {#creating-an-alias}
 
-Para crear un alias, haga clic en **[!UICONTROL Añadir]**.
+To create an alias, click **[!UICONTROL Add]**.
 
 ![](assets/s_ncs_user_itemized_list_alias_create.png)
 
@@ -101,15 +101,15 @@ Por lo tanto, cuando un usuario introduce el valor **NEILSEN** en un campo “em
 
 #### Conversión de valores en alias {#converting-values-into-aliases}
 
-Para convertir un valor de enumeración en un alias, haga clic con el botón derecho en la lista de valores y seleccione **[!UICONTROL Convertir valores en alias...]**.
+To convert an enumeration value into an alias, right-click in the list of values and choose **[!UICONTROL Convert values into aliases...]**.
 
 ![](assets/s_ncs_user_itemized_list_alias_detail.png)
 
-Seleccione los valores que desea convertir y haga clic en **[!UICONTROL Siguiente]**.
+Choose the values you want to convert and click **[!UICONTROL Next]**.
 
 ![](assets/s_ncs_user_itemized_list_alias_transform.png)
 
-Haga clic en **[!UICONTROL Comenzar]** para ejecutar la conversión.
+Click **[!UICONTROL Start]** to run the conversion.
 
 ![](assets/s_ncs_user_itemized_list_alias_detail1.png)
 
@@ -123,40 +123,40 @@ Los valores introducidos por los usuarios se pueden convertir en alias. De hecho
 
 El flujo de trabajo técnico de **Limpieza de alias** recupera estos valores cada noche a fin de actualizar la lista desglosada. Consulte [Ejecución de la limpieza de datos](#running-data-cleansing)
 
-Si es necesario, la columna **[!UICONTROL Impacto]** puede mostrar el número de veces que se introdujo este valor. El cálculo de este valor puede consumir tiempo y memoria. Para obtener más información, consulte [Cálculo de ocurrencias de entrada](#calculating-entry-occurrences).
+If necessary, the **[!UICONTROL Hits]** column can display the number of times this value was entered. El cálculo de este valor puede consumir tiempo y memoria. Para obtener más información, consulte [Cálculo de ocurrencias de entrada](#calculating-entry-occurrences).
 
 ### Ejecución de la limpieza de datos {#running-data-cleansing}
 
-La limpieza de datos se realiza mediante el flujo de trabajo técnico **[!UICONTROL Limpieza de alias]**. Las configuraciones definidas para las enumeraciones se aplican durante la ejecución. Consulte [Flujo de trabajo de limpieza de alias](#alias-cleansing-workflow).
+Data cleansing is performed by the **[!UICONTROL Alias cleansing]** technical workflow. Las configuraciones definidas para las enumeraciones se aplican durante la ejecución. Consulte [Flujo de trabajo de limpieza de alias](#alias-cleansing-workflow).
 
-La limpieza se puede activar mediante el vínculo **[!UICONTROL Limpiar valores...]**.
+Cleansing can be triggered via the **[!UICONTROL Cleanse values...]** link.
 
 ![](assets/s_ncs_user_itemized_list_alias_start_normalize.png)
 
-El vínculo **[!UICONTROL Parámetros avanzados...]** permite establecer la fecha de comienzo a partir de la que se tienen en cuenta los valores recopilados.
+The **[!UICONTROL Advanced parameters...]** link lets you set the date starting from which collected values are taken into account.
 
 ![](assets/s_ncs_user_itemized_list_alias_normalize.png)
 
-Haga clic en el botón **[!UICONTROL Comenzar]** para ejecutar la limpieza de datos.
+Click the **[!UICONTROL Start]** button to run data cleansing.
 
 #### Cálculo de las apariciones de una entrada {#calculating-entry-occurrences}
 
-La subpestaña **[!UICONTROL Alias]** de una lista desglosada puede mostrar el número de apariciones de un alias entre todos los valores introducidos. Esta información es una estimación y se muestra en la columna **[!UICONTROL Impactos]**.
+La subpestaña **[!UICONTROL Alias]** de una lista desglosada puede mostrar el número de apariciones de un alias entre todos los valores introducidos. This information is an estimate and will be displayed in the **[!UICONTROL Hits]** column.
 
 >[!CAUTION]
 >
 >El cálculo de las apariciones de las entradas de un alias puede llevar mucho tiempo. Por eso se debe tener precaución al utilizar esta función.
 
-Se puede ejecutar el cálculo de visitas manualmente mediante el vínculo **[!UICONTROL Limpiar valores...]**. Para ello, haga clic en el vínculo **[!UICONTROL Parámetros avanzados...]** y seleccione las opciones deseadas.
+You can run hit calculation manually via the **[!UICONTROL Cleanse values...]** link. To do this, click the **[!UICONTROL Advanced parameters...]** link and select the desired option(s).
 
 ![](assets/s_ncs_user_itemized_list_alias_hits.png)
 
-* **[!UICONTROL Actualiza el número de alias]**: esto permite actualizar las visitas que ya se han calculado, en función de la fecha ingresada.
-* **[!UICONTROL Volver a calcular el número de alias desde el principio]**: permite ejecutar el cálculo en toda la plataforma de Adobe Campaign.
+* **[!UICONTROL Update the number of alias hits]**:: esto le permite actualizar las visitas que ya se han calculado, en función de la fecha introducida.
+* **[!UICONTROL Recalculate the number of alias hits from the start]**:: permite ejecutar el cálculo en toda la plataforma de Adobe Campaign.
 
 Asimismo, se puede crear un flujo de trabajo dedicado para que el cálculo se ejecute automáticamente durante un periodo determinado, por ejemplo, una vez por semana.
 
-Para ello, cree una copia del flujo de trabajo **[!UICONTROL Limpiar alias]**, cambie el programador y utilice la siguiente configuración en la actividad **[!UICONTROL Enumerar valor limpieza]**:
+To do this, create a copy of the **[!UICONTROL Alias cleansing]** workflow, change the scheduler and use the following settings in the **[!UICONTROL Enumeration value cleansing]** activity:
 
 * **-updateHits** para actualizar el número de visitas de alias,
 * **-updateHits:full** para volver a calcular todas las visitas de alias.
@@ -165,7 +165,7 @@ Para ello, cree una copia del flujo de trabajo **[!UICONTROL Limpiar alias]**, c
 
 El flujo de trabajo de **Limpieza de alias** ejecuta la limpieza de los valores de las enumeraciones. Se ejecuta a diario de forma predeterminada.
 
-Se accede a él mediante el nodo **[!UICONTROL Administración > Producción > Flujos de trabajo técnicos]**.
+Se accede a él a través del **[!UICONTROL Administration > Production > Technical workflows]** nodo.
 
 ![](assets/s_ncs_user_itemized_list_alias_wf.png)
 
