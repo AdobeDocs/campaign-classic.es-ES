@@ -11,11 +11,11 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 discoiquuid: d714b759-cc08-4656-876c-9820d5c56216
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '834'
+ht-degree: 2%
 
 ---
 
@@ -24,12 +24,12 @@ source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 Para esta configuración se requieren tres equipos:
 
-* Un servidor de aplicaciones dentro de la LAN para los usuarios finales (preparación de campañas, informes, etc.),
+* Un servidor de aplicaciones dentro de la LAN para los usuarios finales (preparación de campañas, sistemas de informes, etc.),
 * Dos servidores frontales en la DMZ detrás de un equilibrador de carga.
 
-Los dos servidores de DMZ administran el seguimiento, las páginas espejadas y la entrega y son redundantes para alta disponibilidad.
+Los dos servidores de DMZ manejan el seguimiento, las páginas espejo y el envío y son redundantes para alta disponibilidad.
 
-El servidor de aplicaciones de la LAN sirve a los usuarios finales y realiza todos los procesos recurrentes (motor de flujo de trabajo). Por lo tanto, cuando se alcanzan las cargas máximas en los servidores frontales, los usuarios de la aplicación no se ven afectados.
+El servidor de aplicaciones de la LAN sirve a los usuarios finales y realiza todos los procesos recurrentes (motor de flujos de trabajo). Por lo tanto, cuando se alcanzan las cargas máximas en los servidores frontales, los usuarios de la aplicación no se ven afectados.
 
 El servidor de la base de datos puede alojarse en un equipo independiente de estos tres. De lo contrario, el servidor de aplicaciones y el servidor de bases de datos compartirán el mismo equipo dentro de la LAN siempre que el sistema operativo sea compatible con Adobe Campaign (Linux o Windows).
 
@@ -56,7 +56,7 @@ Este tipo de configuración puede manejar un gran número de destinatarios (de 5
 * Buzón de salida hacia otro sitio accesible mediante POP3,
 * Creación de dos alias DNS:
 
-   * el primero expuesto al público para realizar el seguimiento y apuntar al equilibrador de carga en una dirección IP virtual (VIP) y que se distribuye a continuación a los dos servidores frontales,
+   * el primero expuesto al público para rastrear y apuntar al equilibrador de carga en una dirección IP virtual (VIP) y que luego se distribuye a los dos servidores frontales,
    * el segundo se expone a los usuarios internos para acceder a través de la consola y señala al mismo servidor de aplicaciones.
 
 * Servidor de seguridad configurado para abrir STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 para Oracle, 5432 para PostgreSQL, etc.) puertos. Para obtener más información, consulte la sección Acceso a [la base de datos](../../installation/using/network-configuration.md#database-access).
@@ -70,7 +70,7 @@ Dado que el equipo no es un servidor de seguimiento, no tenga en cuenta la integ
 En los siguientes ejemplos, los parámetros de la instancia son:
 
 * Nombre de la instancia: **demostración**
-* Máscara DNS: **console.campaign.net*** (solo para conexiones de consola de cliente y para informes)
+* Máscara DNS: **console.campaña.net*** (solo para conexiones de consola de cliente y para informes)
 * Idioma: Inglés
 * Base de datos: **campaña:demo@dbsrv**
 
@@ -82,12 +82,12 @@ Los pasos son los siguientes:
 
 1. Instale el servidor de Adobe Campaign.
 
-   Para obtener más información sobre esto, consulte [Requisitos previos para la instalación de Campaign en Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md) (Linux) y [Requisitos previos para la instalación de Campaign en Windows](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) (Windows).
+   Para obtener más información sobre esto, consulte [Requisitos previos de instalación de Campaña en Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md) (Linux) y [Requisitos previos de instalación de Campaña en Windows](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) (Windows).
 
 1. Siga el procedimiento de integración del servidor Web (IIS, Apache) descrito en las siguientes secciones:
 
-   * Para Linux: [Integración en un servidor Web para Linux](../../installation/using/integration-into-a-web-server-for-linux.md)
-   * Para Windows: [Integración en un servidor Web para Windows](../../installation/using/integration-into-a-web-server-for-windows.md)
+   * For Linux: [Integration into a Web server for Linux](../../installation/using/integration-into-a-web-server-for-linux.md)
+   * For Windows: [Integration into a Web server for Windows](../../installation/using/integration-into-a-web-server-for-windows.md)
 
 1. Cree la instancia de **demostración** . Hay dos formas de hacerlo:
 
@@ -105,10 +105,10 @@ Los pasos son los siguientes:
       nlserver config -addinstance:demo/tracking.campaign.net*
       ```
 
-      Para obtener más información sobre esto, consulte [Creación de una instancia](../../installation/using/command-lines.md#creating-an-instance).
+      For more on this, refer to [Creating an instance](../../installation/using/command-lines.md#creating-an-instance).
    El nombre de la instancia es el mismo que el del servidor de aplicaciones.
 
-   La conexión al servidor con el módulo web **de** nlserver (páginas espejo, cancelación de suscripción) se realizará desde la dirección URL del equilibrador de carga (tracking.campaign.net).
+   La conexión al servidor con el módulo web **** nlserver (páginas espejo, bajas) se realizará desde la dirección URL del equilibrador de carga (tracking.campaña.net).
 
 1. Cambie el **interno** al mismo que el servidor de aplicaciones.
 
@@ -147,7 +147,7 @@ Los pasos son los siguientes:
 
       For more on this, refer to [Redundant tracking](../../installation/using/configuring-campaign-server.md#redundant-tracking).
 
-1. Inicie el sitio web y pruebe la redirección desde la dirección URL: [https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test).
+1. Inicio del sitio web y prueba la redirección desde la dirección URL: [https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test).
 
    El explorador debe mostrar los siguientes mensajes (según la dirección URL redireccionada por el equilibrador de carga):
 
@@ -166,10 +166,10 @@ Los pasos son los siguientes:
    * Para Linux: [Inicio del servidor Web y prueba de la configuración](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
    * Para Windows: [Inicio del servidor Web y prueba de la configuración](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
 
-1. Inicie el servidor de Adobe Campaign.
-1. En la consola de Adobe Campaign, conéctese mediante el inicio de sesión del **administrador** sin contraseña e inicie el asistente para la implementación.
+1. Inicio del servidor Adobe Campaign.
+1. En la consola de Adobe Campaign, conéctese mediante el inicio de sesión del **administrador** sin contraseña e inicie el asistente de implementación.
 
-   Para obtener más información sobre esto, consulte [Implementación de una instancia](../../installation/using/deploying-an-instance.md).
+   For more on this, refer to [Deploying an instance](../../installation/using/deploying-an-instance.md).
 
    La configuración es idéntica a una instancia independiente, aparte de la configuración del módulo de seguimiento.
 
