@@ -11,11 +11,11 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: c6c39b7d-7bbd-4789-b1ea-b938153e9679
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 779d9162b7296339a796512838612ede1186ddcc
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 2%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Campaign puede funcionar con dos niveles de registro:
    nlserver restart <MODULE_NAME> -noconsole
    ```
 
-1. El modo **TraceFilter** , que permite guardar el mayor número de registros. Se activa mediante el siguiente comando:
+1. El modo **TraceFilter** , que permite guardar el número bueno de registros. Se activa mediante el siguiente comando:
 
    ```
    nlserver stop <MODULE_NAME>; nlserver <MODULE_NAME> -verbose -tracefilter:*
@@ -53,7 +53,7 @@ Adobe Campaign puede funcionar con dos niveles de registro:
    >[!NOTE]
    >
    >Si utiliza **tracefilter:***, se activan todos los tipos de registro: ncm, rdr, nms, jst, temporización, wdbc, ldap, soap, xtk, xtkquery, sesión, xtkwriter, red, pop3, inmail\
-   Los tipos de registro más útiles son: **wdbc** (muestra todas las consultas SQL), **soap** (muestra todas las llamadas SOAP), **ldap** (muestra todas las consultas LDAP después de la autenticación), **xtkquery** (muestra la lista de todas las consultas).\
+   Los tipos de registro más útiles son: **wdbc** (muestra todas las consultas SQL), **soap** (muestra todas las llamadas SOAP), **ldap** (muestra todas las consultas LDAP después de la autenticación), **xtkquery** (muestra la lista de toda la querydef).\
    Puede utilizarlos individualmente (**tracefilter:soap,wdbc** , por ejemplo). También puede activarlas todas y elegir excluir otras: **-tracefilter:*,!soap**
 
    Compruebe que el error se ha producido realmente y, a continuación, reinicie el proceso de la forma normal:
