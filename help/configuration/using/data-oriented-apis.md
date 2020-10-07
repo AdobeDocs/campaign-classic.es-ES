@@ -11,11 +11,8 @@ audience: configuration
 content-type: reference
 topic-tags: api
 discoiquuid: fba46d42-0253-425b-bbc2-6702d4140e05
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1884'
 ht-degree: 0%
@@ -31,7 +28,7 @@ Las API orientadas a datos le permiten abordar todo el modelo de datos.
 
 Adobe Campaign no oferta una API de lectura dedicada por entidad (sin la función getRecipient o getDelivery, etc.). Utilice los métodos de lectura y modificación de datos CONSULTA y WRITER para acceder a los datos del modelo.
 
-Adobe Campaign permite administrar colecciones: Las consultas permiten recuperar un conjunto de información recopilada en toda la base. A diferencia del acceso en modo SQL, las API de Adobe Campaign devuelven un árbol XML en lugar de columnas de datos. Adobe Campaign crea así documentos compuestos con todos los datos recopilados.
+Adobe Campaign permite administrar colecciones: Las consultas permiten recuperar un conjunto de información recopilada en toda la base. A diferencia del acceso en modo SQL, las API de Adobe Campaign devuelven un árbol XML en lugar de columnas de datos. De este modo, Adobe Campaign crea documentos compuestos con todos los datos recopilados.
 
 Este modo operativo no oferta la asignación uno a uno entre los atributos y elementos de los documentos XML y las columnas de las tablas de la base de datos.
 
