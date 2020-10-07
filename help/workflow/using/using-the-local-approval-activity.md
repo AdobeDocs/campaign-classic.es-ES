@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: c143d8c3-c3ce-470c-8812-4b19cdb8afbf
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '1274'
+ht-degree: 88%
 
 ---
 
@@ -64,29 +64,29 @@ Para obtener más información sobre la creación de una plantilla de distribuci
 
    ![](assets/local_validation_data_distribution_1.png)
 
-1. Seleccione la pestaña **[!UICONTROL General]**.
+1. Seleccione la pestaña **[!UICONTROL General]** .
 
    ![](assets/local_validation_data_distribution_2.png)
 
-1. Introduzca **[!UICONTROL Label]** y el **[!UICONTROL Distribution context]**. En este ejemplo, se ha seleccionado el esquema objetivo **[!UICONTROL Recipient]** y el campo **[!UICONTROL Email domain]** como campo de distribución. La lista de destinatarios se desglosan por dominio.
-1. En el campo **[!UICONTROL Distribution type]**, seleccione cómo se expresa el valor de limitación objetivo en la pestaña **[!UICONTROL Distribution]**. Aquí, se ha elegido **[!UICONTROL Percentage]**.
-1. En el campo **[!UICONTROL Approval storage]**, introduzca el esquema de almacenamiento de las aprobaciones que coinciden con el esquema de objetivo en uso. Aquí vamos a usar el esquema de almacenamiento predeterminado: **[!UICONTROL Local approval of recipients]**.
-1. A continuación, haga clic en el vínculo **[!UICONTROL Advanced parameters]**.
+1. Introduzca el **[!UICONTROL Label]** y el **[!UICONTROL Distribution context]**. En este ejemplo, se ha seleccionado el esquema objetivo **[!UICONTROL Recipient]** y el campo **[!UICONTROL Email domain]** como campo de distribución. La lista de destinatarios se desglosan por dominio.
+1. En el campo **[!UICONTROL Distribution type]**, seleccione cómo se expresa el valor de limitación objetivo en la pestaña **[!UICONTROL Distribution]**. Here, we have chosen **[!UICONTROL Percentage]**.
+1. En el campo **[!UICONTROL Approval storage]**, introduzca el esquema de almacenamiento de las aprobaciones que coinciden con el esquema de objetivo en uso. A continuación, se va a utilizar el esquema de almacenamiento predeterminado: **[!UICONTROL Local approval of recipients]**.
+1. Then click the **[!UICONTROL Advanced parameters]** link.
 
    ![](assets/local_validation_data_distribution_3.png)
 
 1. Mantenga la opción **[!UICONTROL Approve the targeted messages]** activada para que todos los destinatarios estén preseleccionados desde la lista de destinatarios por aprobar.
 1. En el campo **[!UICONTROL Delivery label]**, se ha dejado la expresión predeterminada (cálculo de cadena de la entrega). La etiqueta estándar de la entrega se utiliza en la notificación de comentarios.
 1. En la sección **[!UICONTROL Grouping field]**, se ha seleccionado el campo **[!UICONTROL Gender]** como un campo de agrupación para mostrar los destinatarios en las notificaciones de aprobación y comentarios.
-1. En la sección **[!UICONTROL Edit targeted messages]**, se ha seleccionado la aplicación web **[!UICONTROL Edit recipients]** y el parámetro **[!UICONTROL recipientId]**. En las notificaciones de aprobación y comentarios, se puede hacer clic en los destinatarios y estos se dirigirán a la dirección URL de la aplicación web. El parámetro de la dirección URL adicional es **[!UICONTROL recipientId]**.
-1. A continuación, haga clic en la pestaña **[!UICONTROL Distribution]**. Para cada dominio, introduzca los siguientes campos:
+1. In the **[!UICONTROL Edit targeted messages]** section, we&#39;ve selected the **[!UICONTROL Edit recipients]** web application and the **[!UICONTROL recipientId]** parameter. En las notificaciones de aprobación y comentarios, se puede hacer clic en los destinatarios y estos se dirigirán a la dirección URL de la aplicación web. El parámetro de la dirección URL adicional es **[!UICONTROL recipientId]**.
+1. Then click the **[!UICONTROL Distribution]** tab. Para cada dominio, introduzca los siguientes campos:
 
    ![](assets/local_validation_data_distribution_4.png)
 
    * **[!UICONTROL Value]**: introduzca el valor del nombre de dominio.
-   * **[!UICONTROL Percentage / Fixed]**: para cada dominio, escriba el máximo. número de destinatarios a los que desea enviar la entrega. En este ejemplo, se desea limitar la entrega a 10% por dominio.
+   * **[!UICONTROL Percentage / Fixed]**:: para cada dominio, introduzca el máximo. número de destinatarios a los que desea enviar la entrega. En este ejemplo, se desea limitar la entrega a 10% por dominio.
    * **[!UICONTROL Label]**: introduzca la etiqueta del dominio a mostrar en las notificaciones de aprobación y comentarios.
-   * **[!UICONTROL Group or operator]**: seleccione el operador o el grupo de operadores asignados al dominio.
+   * **[!UICONTROL Group or operator]**:: seleccione el operador o grupo de operadores asignado al dominio.
 
       >[!CAUTION]
       >
@@ -100,14 +100,14 @@ Para configurar este caso de uso, se ha creado el siguiente flujo de trabajo de 
 
 Se agregaron las siguientes actividades:
 
-* Dos actividades **[!UICONTROL Query]**,
-* Una actividad **[!UICONTROL de intersección]**,
-* Una actividad **[!UICONTROL dividida]**,
-* Una actividad **[!UICONTROL Local approval]**,
-* Una actividad **[!UICONTROL Delivery]**,
-* Actividad de **[!UICONTROL Wait]**,
-* Una segunda actividad **[!UICONTROL Local approval]**,
-* Una actividad **[!UICONTROL End]**.
+* Two **[!UICONTROL Query]** activities,
+* Una **[!UICONTROL Intersection]** actividad,
+* Una **[!UICONTROL Split]** actividad,
+* Una **[!UICONTROL Local approval]** actividad,
+* Una **[!UICONTROL Delivery]** actividad,
+* Una **[!UICONTROL Wait]** actividad,
+* A second **[!UICONTROL Local approval]** activity,
+* Una **[!UICONTROL End]** actividad.
 
 ### Consultas, Intersección y División {#queries--intersection-and-split}
 
@@ -115,13 +115,13 @@ La segmentación ascendente se compone de dos consultas, una intersección y una
 
 Para obtener más información sobre la configuración de una actividad de división, consulte [Dividir](../../workflow/using/split.md). La creación de una plantilla de distribución de datos se detalla en [Limitar el número de registros de subconjuntos por distribución de datos](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution).
 
-Si no desea limitar la población de la consulta, no tiene que utilizar las actividades **[!UICONTROL Query]**, **[!UICONTROL Intersection]** y **[!UICONTROL Split]**. En este caso, complete la plantilla de distribución de datos en la primera actividad **[!UICONTROL Local approval]**.
+If you do not want to limit the population from the query, you do not have to use the **[!UICONTROL Query]**, **[!UICONTROL Intersection]**, and **[!UICONTROL Split]** activities. En este caso, complete la plantilla de distribución de datos en la primera actividad **[!UICONTROL Local approval]**.
 
-1. En la sección **[!UICONTROL Record count limitation]**, seleccione la opción **[!UICONTROL Limit the selected records]** y haga clic en el vínculo **[!UICONTROL Edit]**.
+1. En la **[!UICONTROL Record count limitation]** sección, seleccione la **[!UICONTROL Limit the selected records]** opción y haga clic en el **[!UICONTROL Edit]** vínculo.
 
    ![](assets/local_validation_split_1.png)
 
-1. Seleccione la opción **[!UICONTROL Keep only the first records after sorting]** y haga clic en **[!UICONTROL Next]**.
+1. Seleccione la **[!UICONTROL Keep only the first records after sorting]** opción y haga clic en **[!UICONTROL Next]**.
 
    ![](assets/local_validation_split_1bis.png)
 
@@ -141,18 +141,18 @@ En la plantilla de distribución, se ha elegido limitar la población al 10% por
 
 La actividad **[!UICONTROL Local approval]** permite enviar una notificación a cada supervisor local.
 
-Para obtener más información sobre la configuración de la actividad de **[!UICONTROL Aprobación local]**, consulte [Aprobación local](../../workflow/using/local-approval.md).
+For more on configuring the **[!UICONTROL Local approval]** activity, refer to [Local approval](../../workflow/using/local-approval.md).
 
 ![](assets/local_validation_workflow_2.png)
 
 Se deben introducir los campos siguientes:
 
-1. En la sección **[!UICONTROL Action to execute]**, seleccione la opción **[!UICONTROL Target approval notification]**.
-1. En la sección de **[!UICONTROL Distribution context]**, seleccione la opción **[!UICONTROL Specified in the transition]**.
+1. In the **[!UICONTROL Action to execute]** section, select the **[!UICONTROL Target approval notification]** option.
+1. In the **[!UICONTROL Distribution context]** section, select the **[!UICONTROL Specified in the transition]** option.
 
    Si no desea limitar la población objetivo, seleccione la opción **[!UICONTROL Explicit]** aquí e introduzca la plantilla de distribución creada anteriormente en el campo **[!UICONTROL Data distribution]**.
 
-1. En la sección **[!UICONTROL Notification]**, seleccione la plantilla de entrega y el asunto a utilizar para el correo electrónico de notificación. Aquí, hemos elegido la plantilla predeterminada: **[!UICONTROL Local approval notification]**.
+1. En la sección **[!UICONTROL Notification]**, seleccione la plantilla de entrega y el asunto a utilizar para el correo electrónico de notificación. Aquí, se ha elegido la plantilla predeterminada: **[!UICONTROL Local approval notification]**.
 1. En la sección **[!UICONTROL Approval schedule]**, se ha guardado el plazo de aprobación predeterminado (3 días) y se ha agregado un recordatorio. La entrega se realiza 3 días después del inicio de la aprobación. Una vez que se ha alcanzado el plazo de aprobación, la segmentación no tiene en cuenta los destinatarios no aprobados.
 
 El correo electrónico de notificación que envía la actividad **[!UICONTROL Local approval]** a los supervisores locales es el siguiente:
@@ -161,7 +161,7 @@ El correo electrónico de notificación que envía la actividad **[!UICONTROL Lo
 
 ### Espera {#wait}
 
-La actividad de espera permite posponer el inicio de la segunda actividad de aprobación local que envía la notificación de entrega de comentarios. En el campo **[!UICONTROL Duration]**, se ha introducido el valor **[!UICONTROL 5d]** (5 días). Las acciones que realizan los destinatarios durante 5 días después de realizarse la entrega se incluyen en la notificación de comentarios.
+La actividad de espera permite posponer el inicio de la segunda actividad de aprobación local que envía la notificación de entrega de comentarios. In the **[!UICONTROL Duration]** field, we have entered the **[!UICONTROL 5d]** value (5 days). Las acciones que realizan los destinatarios durante 5 días después de realizarse la entrega se incluyen en la notificación de comentarios.
 
 ![](assets/local_validation_workflow_3.png)
 
@@ -173,8 +173,8 @@ La segunda actividad **[!UICONTROL Local approval]** permite enviar una notifica
 
 Se deben introducir los campos siguientes:
 
-1. En la sección **[!UICONTROL Action to execute]**, elija **[!UICONTROL Delivery feedback report]**.
-1. En la sección **[!UICONTROL Delivery]**, seleccione **[!UICONTROL Specified in the transition]**.
+1. In the **[!UICONTROL Action to execute]** section, choose **[!UICONTROL Delivery feedback report]**.
+1. In the **[!UICONTROL Delivery]** section, choose **[!UICONTROL Specified in the transition]**.
 1. En la sección **[!UICONTROL Notification]**, seleccione la plantilla de entrega y el asunto a utilizar para el correo electrónico de notificación.
 
 Una vez que se alcanza la fecha límite configurada en la actividad de espera, la segunda actividad **[!UICONTROL Local approval]** envía el correo electrónico de notificación siguiente a cada supervisor local:
@@ -185,7 +185,7 @@ Una vez que se alcanza la fecha límite configurada en la actividad de espera, l
 
 Cada vez que se inicia la actividad de aprobación local, se crea una tarea de aprobación. El administrador puede controlar cada una de estas tareas de aprobación.
 
-Vaya al flujo de trabajo de objetivo de la campaña y haga clic en la pestaña **[!UICONTROL Local approval tasks]**.
+Go to the targeting workflow of your campaign and click the **[!UICONTROL Local approval tasks]** tab.
 
 ![](assets/local_validation_admin_1.png)
 
@@ -216,7 +216,7 @@ Seleccione un registro de aprobación y haga clic en el botón **[!UICONTROL Det
 Esta pestaña muestra la siguiente información:
 
 * la tarea de aprobación vinculada
-* el estado de aprobación (**[!UICONTROL Approved]** o **[!UICONTROL Pending]**)
+* the approval status (**[!UICONTROL Approved]** or **[!UICONTROL Pending]**)
 * la plantilla de distribución utilizada
 * el supervisor local que aprobó y la fecha de aprobación
 * el número de mensajes dirigidos y aprobados
