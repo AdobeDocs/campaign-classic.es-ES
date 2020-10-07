@@ -11,11 +11,11 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 3b9c138e-8f7f-4ee1-9baa-328848d01d3a
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: af768da6ee8cc0ca2ea1f24f297239b974c113a5
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '549'
+ht-degree: 94%
 
 ---
 
@@ -40,9 +40,9 @@ Cuando un informe contiene varias páginas, se debe repetir la operación con ca
 
 Se puede configurar el informe con el fin de exportarlo en formato PDF, Excel u OpenOffice. Abra el explorador de Adobe Campaign y seleccione el informe correspondiente.
 
-En la pestaña **[!UICONTROL Advanced]**, se accede a las opciones de exportación a través de las actividades **[!UICONTROL Page]** del informe.
+En la pestaña **[!UICONTROL Page]**, se accede a las opciones de exportación a través de las actividades **[!UICONTROL Advanced]** del informe.
 
-Cambie la configuración de **[!UICONTROL Paper]** y **[!UICONTROL Margins]** para adaptarla a sus necesidades. También se puede autorizar la exportación de una página solo en formato PDF. Para ello, desmarque la opción **[!UICONTROL Activate OpenOffice/Microsoft Excel export]**.
+Change the settings of **[!UICONTROL Paper]** and **[!UICONTROL Margins]** to suit your needs. También se puede autorizar la exportación de una página solo en formato PDF. To do this, uncheck the **[!UICONTROL Activate OpenOffice/Microsoft Excel export]** option.
 
 ![](assets/s_ncs_advuser_report_wizard_021.png)
 
@@ -58,7 +58,7 @@ Para informes de tipo **[!UICONTROL List with group]** que se van a exportar a E
 
    ![](assets/export_limitations_hide_label.png)
 
-* Los informes no deben utilizar un formato específico definido al nivel de celda. Es preferible utilizar **[!UICONTROL Form rendering]** para definir el formato de las celdas de la tabla. Se puede acceder a **[!UICONTROL Form rendering]** mediante **[!UICONTROL Administration > Configuration > Form rendering]**.
+* Los informes no deben utilizar un formato específico definido al nivel de celda. Es preferible utilizar **[!UICONTROL Form rendering]** para definir el formato de las celdas de la tabla. Se **[!UICONTROL Form rendering]** puede acceder a la página a través de **[!UICONTROL Administration > Configuration > Form rendering]**.
 * No se recomienda insertar contenido HTML.
 * Si un informe contiene varios elementos de tipo tabla, gráfico, etc., se exportan uno debajo del otro.
 * Se puede forzar el retorno de carro en las celdas: esta configuración se conserva en Excel. Para obtener más información, consulte [Definición del formato de celdas](../../reporting/using/creating-a-table.md#defining-cell-format).
@@ -93,7 +93,7 @@ Para obtener más información sobre el servicio **nlserver**, consulte [esta se
 
 Se puede imprimir el informe. Para ello, haga clic en el icono de impresora: esto abre el cuadro de diálogo correspondiente.
 
-Para obtener un mejor resultado, edite las opciones de impresión de Internet Explorer y seleccione **[!UICONTROL Print background colors and images]**.
+For a better result, edit the Internet Explorer printing options and select **[!UICONTROL Print background colors and images]**.
 
 ![](assets/s_ncs_advuser_report_print_options.png)
 
