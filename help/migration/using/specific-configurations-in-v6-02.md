@@ -1,7 +1,7 @@
 ---
-title: Configuraciones específicas en v6.02
-seo-title: Configuraciones específicas en v6.02
-description: Configuraciones específicas en v6.02
+title: Configuraciones específicas en la versión 6.02
+seo-title: Configuraciones específicas en la versión 6.02
+description: Configuraciones específicas en la versión 6.02
 seo-description: null
 page-status-flag: never-activated
 uuid: ea072af3-fdc1-4828-ad13-d4327de1eaf8
@@ -11,16 +11,16 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 discoiquuid: 87a6cbda-54a6-4dae-8224-e06dc217f4fc
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '428'
+ht-degree: 4%
 
 ---
 
 
-# Configuraciones específicas en v6.02{#specific-configurations-in-v6-02}
+# Configuraciones específicas en la versión 6.02{#specific-configurations-in-v6-02}
 
 En la siguiente sección se detalla la configuración adicional necesaria para migrar desde la versión 6.02. También debe configurar las opciones detalladas en la sección Configuraciones [](../../migration/using/general-configurations.md) generales.
 
@@ -42,13 +42,13 @@ Si no ha utilizado estas aplicaciones web, ejecute el siguiente script de limpie
 Nlserver javascript -instance:[instance_name] -file [installation_path]/datakit/xtk/fra/js/removeOldWebApp.js
 ```
 
-Si ha modificado estas aplicaciones web y desea seguir usándolas en v7, debe activar la opción **allowSQLInjection** en las diferentes zonas de seguridad y volver a iniciar la posactualización. Consulte la sección [SQLData](../../migration/using/general-configurations.md#sqldata) para obtener más información sobre esto.
+Si ha modificado estas aplicaciones web y desea seguir usándolas en v7, debe activar la opción **allowSQLInjection** en las diferentes zonas de seguridad y volver a inicio la posactualización. Consulte la sección [SQLData](../../migration/using/general-configurations.md#sqldata) para obtener más información sobre esto.
 
-## Facilidad de uso: Página principal y navegación {#user-friendliness--home-page-and-navigation}
+## Facilidad de uso: Página de inicio y navegación {#user-friendliness--home-page-and-navigation}
 
 >[!IMPORTANT]
 >
->Si desea seguir utilizando aplicaciones web de tipo general v6.02, debe activar la opción **allowSQLInjection** en las diferentes zonas de seguridad antes de la actualización posterior. Consulte Aplicaciones [Web](#web-applications).
+>Si desea seguir utilizando aplicaciones web de tipo general v6.02, debe activar la opción **allowSQLInjection** en las diferentes zonas de seguridad antes de la actualización posterior. Refer to [Web applications](#web-applications).
 
 Tras una migración desde la versión 6.02, la página de inicio de Adobe Campaign v6.02 ya no se muestra, pero sigue siendo accesible y compatible con Adobe Campaign v7.
 
@@ -58,7 +58,7 @@ Para ello, importe el paquete de compatibilidad:
 
 Haga clic en **[!UICONTROL Tools > Advanced > Import package]** y elija el paquete **campaignMigration.xml** en la **`\nl\datakit\nms\[Your language]\package\optional`**.
 
-Para permitir el acceso a las interfaces de tipo aplicación web v6.02, la opción de configuración del servidor **sessionTokenOnly** debe activarse en el archivo **serverConf.xml** :
+Para permitir el acceso a las interfaces de tipo de Aplicación web v6.02, la opción de configuración del servidor **sessionTokenOnly** debe activarse en el archivo **serverConf.xml** :
 
 ```
 sessionTokenOnly="true"
@@ -70,11 +70,11 @@ Una vez instalado el paquete, la página de inicio de Adobe Campaign v7 se susti
 
 ![](assets/dashboards.png)
 
-Todos los vínculos de esta página principal a pantallas v7 excepto las listas (**[!UICONTROL operation list]**, **[!UICONTROL delivery tracking in operations]**, etc.) que se vinculan a la descripción general de la versión 6.02 (aplicaciones web).
+Todos los vínculos de esta página principal llevan a pantallas v7 excepto las listas (**[!UICONTROL operation list]**, **[!UICONTROL delivery tracking in operations]**, etc.) que se vinculan a la descripción general de la versión 6.02 (aplicaciones web).
 
 ![](assets/dashboards2.png)
 
-Si desea agregar otra información general configurada en v6.02, debe agregarla a la página principal desde el tablero. (**[!UICONTROL Administration > Access management > Dashboard]**).
+Si desea agregar otra información general configurada en v6.02, debe agregarla a la página de inicio desde el panel. (**[!UICONTROL Administration > Access management > Dashboard]**).
 
 >[!NOTE]
 >
@@ -82,6 +82,6 @@ Si desea agregar otra información general configurada en v6.02, debe agregarla 
 
 ## Message Center {#message-center}
 
-Después de la migración de instancias de control de Message Center, debe volver a publicar las plantillas de mensajes transaccionales para que funcionen.
+Después de una migración de instancia de control a Message Center, debe volver a publicar las Plantillas de mensaje transaccional para que funcionen.
 
-En v7, los nombres de las plantillas de mensajes transaccionales en las instancias de ejecución han cambiado. Actualmente llevan el prefijo el nombre del operador que corresponde a la instancia de control en la que se crean, por ejemplo **control1_template1_rt** (donde **control1** es el nombre del operador). Si tiene un volumen significativo de plantillas, le recomendamos que elimine las plantillas antiguas en las instancias de control.
+En v7, los nombres de Plantillas de mensaje transaccional en instancias de ejecución han cambiado. Actualmente llevan el prefijo el nombre del operador que corresponde a la instancia de control en la que se crean, por ejemplo, **control1_template1_rt** (donde **control1** es el nombre del operador). Si tiene un volumen significativo de plantillas, le recomendamos que elimine las plantillas antiguas de las instancias de control.
