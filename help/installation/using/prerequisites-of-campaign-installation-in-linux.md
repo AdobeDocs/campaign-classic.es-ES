@@ -11,11 +11,11 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 discoiquuid: 3e2ccb70-6c0c-435f-9c06-f3e5e40367bb
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: de04b5d3ceb883a571ee665f630be931a68a5a3e
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '917'
+ht-degree: 4%
 
 ---
 
@@ -26,11 +26,11 @@ source-git-commit: de04b5d3ceb883a571ee665f630be931a68a5a3e
 
 En esta sección se detallan los pasos de configuración preliminares necesarios antes de instalar Adobe Campaign.
 
-La configuración técnica y de software necesaria para instalar Adobe Campaign se detalla en la matriz [de](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)compatibilidad.
+La configuración técnica y de software necesaria para instalar Adobe Campaign se detalla en la matriz [de](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)compatibilidad.
 
 Como recordatorio, es necesario instalar y configurar correctamente los siguientes componentes:
 
-* Apache, consulte la matriz [de](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)compatibilidad,
+* Apache, consulte la matriz [de](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)compatibilidad,
 * Java JDK y OpenJDK, consulte [Java Development Kit - JDK](../../installation/using/application-server.md#java-development-kit---jdk),
 * Bibliotecas, consulte [Bibliotecas](#libraries),
 * Capas de acceso a la base de datos, consulte las capas [de acceso a la](#database-access-layers)base de datos,
@@ -43,11 +43,11 @@ Como recordatorio, es necesario instalar y configurar correctamente los siguient
 
 ### Bibliotecas {#libraries}
 
-Para instalar Adobe Campaign en Linux, asegúrese de que dispone de las bibliotecas necesarias.
+Para instalar Adobe Campaign en Linux, asegúrese de tener las bibliotecas necesarias.
 
-* La biblioteca C debe ser capaz de admitir el modo TLS (Almacenamiento local de subprocesos). Este modo está activo en la mayoría de los casos excepto con algunos núcleos para los que se ha deshabilitado la compatibilidad con Xen.
+* La biblioteca C debe poder admitir el modo TLS (Almacenamiento local de subprocesos). Este modo está activo en la mayoría de los casos excepto con algunos núcleos para los que se ha deshabilitado la compatibilidad con Xen.
 
-   Para comprobar esto, puede utilizar el **nombre -a| grep xen** , por ejemplo.
+   Para comprobar esto, puede utilizar el **nombre -a | grep xen** , por ejemplo.
 
    Si el comando no devuelve nada (línea vacía), significa que la configuración es correcta.
 
@@ -55,14 +55,15 @@ Para instalar Adobe Campaign en Linux, asegúrese de que dispone de las bibliote
 
    Para distribuciones RHEL 7, se requiere la versión 1.0 de OpenSSL.
 
-* Para utilizar Adobe Campaign, debe tener instalada la biblioteca **libicu** .
+* Para usar Adobe Campaign, necesita tener instalada la biblioteca **libicu** .
 
    Se admiten las siguientes versiones de **libicu** (32 o 64 bits):
 
    * RHEL 7, CentOS 7: libicu50
    * Debian 8: libicu52
    * Debian 9: libicu57
-   Para utilizar Adobe Campaign, debe tener instalada la biblioteca libc-ares. En RHEL/CentOS, ejecute el siguiente comando:
+
+   Para usar Adobe Campaign, necesita tener instalada la biblioteca libc-ares. En RHEL/CentOS, ejecute el siguiente comando:
 
    ```
    yum install c-ares
@@ -84,13 +85,13 @@ Para ello, inicie sesión como raíz e introduzca el siguiente comando:
 echo 0 >/selinux/enforce
 ```
 
-Además, en el archivo **/etc/sysconfig/httpd** , se agregó la línea siguiente para hacer referencia al script de configuración del entorno de Adobe Campaign:
+Además de esto, en el archivo **/etc/sysconfig/httpd** , se agregó la línea siguiente para hacer referencia al script de configuración de Adobe Campaign entorno:
 
 ```
 . ~neolane/nl6/env.sh
 ```
 
-En RHEL y CentOS, se observaron problemas de compatibilidad con los niveles de cliente de las bases de datos cuando SELinux está habilitado. Para asegurarse de que Adobe Campaign puede funcionar correctamente, recomendamos desactivar SELinux.
+En RHEL y CentOS, se observaron problemas de compatibilidad con los niveles de cliente de las bases de datos cuando SELinux está habilitado. Para estar seguro de que Adobe Campaign puede funcionar correctamente, recomendamos desactivar SELinux.
 
 **Aplique el siguiente proceso:**
 
@@ -170,7 +171,7 @@ Las siguientes configuraciones son necesarias con CentOS:
 
 Las capas de acceso para el motor de base de datos que está utilizando deben estar instaladas en el servidor y ser accesibles a través de la cuenta de Adobe Campaign. Las versiones y los modos de instalación pueden variar en función del motor de base de datos utilizado.
 
-La versión piloto admitida se detalla en la matriz [de](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)compatibilidad.
+La versión piloto admitida se detalla en la matriz [de](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)compatibilidad.
 
 Consulte también la sección [Base de datos](../../installation/using/database.md) general.
 
@@ -188,7 +189,7 @@ Puede obtener un paquete RPM de Linux de Oracle Technology Network.
 
 >[!NOTE]
 >
->Si ya ha instalado el cliente Oracle pero el entorno global (por ejemplo: /etc/profile) no está configurado correctamente, puede agregar la información que falta a la secuencia de comandos **nl6/customer.sh** Para obtener más información, consulte Variables [de](../../installation/using/installing-packages-with-linux.md#environment-variables)entorno.
+>Si ya ha instalado el cliente Oracle pero el entorno global (por ejemplo: /etc/perfil) no está configurado correctamente, puede agregar la información que falta a la secuencia de comandos **nl6/customer.sh** Para obtener más información al respecto, consulte las variables [de](../../installation/using/installing-packages-with-linux.md#environment-variables)Entorno.
 
 **Solución de problemas y prácticas recomendadas**
 
