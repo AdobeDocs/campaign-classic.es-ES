@@ -11,11 +11,8 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 discoiquuid: 968d0ee3-5efc-46d8-b408-b9cce3e730c4
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 68d532a9597877f2f265dfc2d16ea31d1ce80858
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '3602'
 ht-degree: 1%
@@ -211,7 +208,7 @@ La lista de los indicadores del sistema le permite mostrar información relativa
 
    **[!UICONTROL Max Value]** :: número máximo de procesos zombie autorizados (2).
 
-   **[!UICONTROL Warning]** :: este indicador se muestra cuando el número de procesos zombie es cercano a 2.
+   **[!UICONTROL Warning]** :: este indicador se muestra cuando el número de procesos zombie se acerca a 2.
 
    **[!UICONTROL Alert]** este indicador se muestra cuando el número de procesos zombie llega a 2.
 
@@ -444,7 +441,7 @@ Adobe Campaign habilita varias configuraciones de implementación (para obtener 
  <thead> 
   <tr> 
    <th> Tipo de implementación </th> 
-   <th> Monitoreo </th> 
+   <th> Monitorización </th> 
   </tr> 
  </thead> 
  <tbody> 
