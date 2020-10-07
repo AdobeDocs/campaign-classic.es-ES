@@ -11,11 +11,8 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 discoiquuid: b2219912-5570-45d2-8b52-52486e29d008
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 3%
@@ -98,11 +95,12 @@ vacuum full nmsdelivery;
 
 >[!NOTE]
 >
->* Adobe recomienda empezar con tablas más pequeñas: de este modo, si el proceso falla en tablas grandes (donde el riesgo de fallo es mayor), se ha completado al menos una parte del mantenimiento.
->* Adobe recomienda agregar las tablas específicas del modelo de datos que pueden estar sujetas a actualizaciones importantes. Este puede ser el caso de **NmsRecipient** si tiene grandes flujos diarios de replicación de datos.
+>* Adobe recomienda comenzar con tablas más pequeñas: de este modo, si el proceso falla en tablas grandes (donde el riesgo de fallo es mayor), se ha completado al menos una parte del mantenimiento.
+>* Adobe recomienda agregar las tablas específicas del modelo de datos que pueden estar sujetas a actualizaciones significativas. Este puede ser el caso de **NmsRecipient** si tiene grandes flujos diarios de replicación de datos.
 >* Los comandos **vacío** y **re-índice** bloquearán la tabla, lo que pone en pausa algunos procesos mientras se realiza el mantenimiento.
 >* Para tablas muy grandes (generalmente superiores a 5 Gb), el **vacío lleno** puede volverse bastante ineficiente y llevar mucho tiempo. Adobe no recomienda utilizarlo para la **tabla AAAANmsBroadLogXxx** .
 >* Esta operación de mantenimiento se puede implementar mediante un flujo de trabajo de Adobe Campaign, mediante una **[!UICONTROL SQL]** actividad (para obtener más información al respecto, consulte [esta sección](../../workflow/using/architecture.md)). Asegúrese de programar el mantenimiento para un tiempo de actividad bajo que no entre en conflicto con la ventana de respaldo.
+
 >
 
 
@@ -111,8 +109,8 @@ vacuum full nmsdelivery;
 
 PostgreSQL no proporciona una manera fácil de realizar una reconstrucción de tabla en línea, ya que el **vacío completo** bloquea la tabla, evitando así la producción regular. Esto significa que el mantenimiento debe realizarse cuando no se utiliza la tabla. Puede:
 
-* realizar tareas de mantenimiento cuando se detenga la plataforma de Adobe Campaign,
-* detenga los distintos subservicios de Adobe Campaign que es probable que se escriban en la tabla que se está reconstruyendo (**nlserver detenga wfserver instance_name** para detener el proceso de flujo de trabajo).
+* realizar tareas de mantenimiento cuando se detenga la plataforma Adobe Campaign,
+* detenga los distintos subservicios de Adobe Campaign que es probable que escriban en la tabla que se está reconstruyendo (**nlserver detenga wfserver instance_name** para detener el proceso de flujo de trabajo).
 
 A continuación se muestra un ejemplo de desfragmentación de tablas con funciones específicas para generar el DDL necesario. El siguiente SQL le permite crear dos nuevas funciones: **GenRebuildTablePart1** y **GenRebuildTablePart2**, que pueden utilizarse para generar el DDL necesario para volver a crear una tabla.
 
@@ -379,7 +377,7 @@ El ejemplo siguiente se refiere a Microsoft SQL Server 2005. Si utiliza otra ver
 1. Vaya a la **[!UICONTROL Management > Maintenance Plans]** carpeta, haga clic con el botón derecho y elija **[!UICONTROL Maintenance Plan Wizard]**
 1. Haga clic **[!UICONTROL Next]** cuando aparezca la primera página.
 1. Seleccione el tipo de plan de mantenimiento que desea crear (programas separados para cada tarea o programa único para todo el plan) y, a continuación, haga clic en el **[!UICONTROL Change...]** botón.
-1. En la **[!UICONTROL Job schedule properties]** ventana, seleccione la configuración de ejecución que desee y haga clic en **[!UICONTROL OK]** y luego en **[!UICONTROL Next]** .
+1. En la **[!UICONTROL Job schedule properties]** ventana, seleccione la configuración de ejecución deseada y haga clic en **[!UICONTROL OK]** y luego en **[!UICONTROL Next]** .
 1. Seleccione las tareas de mantenimiento que desee realizar y haga clic en **[!UICONTROL Next]** .
 
    >[!NOTE]
@@ -419,7 +417,7 @@ El ejemplo siguiente se refiere a Microsoft SQL Server 2005. Si utiliza otra ver
 
 1. Una vez completado el plan de mantenimiento, haga clic en **[!UICONTROL Close]** .
 1. En el explorador de Microsoft SQL Server, haga clic en la **[!UICONTROL Management > Maintenance Plans]** carpeta con el doble.
-1. Seleccione el plan de mantenimiento de Adobes Campaign: los distintos pasos se detallan en un flujo de trabajo.
+1. Seleccione el plan de mantenimiento de Adobe Campaign: los distintos pasos se detallan en un flujo de trabajo.
 
    Tenga en cuenta que se ha creado un objeto en la **[!UICONTROL SQL Server Agent > Jobs]** carpeta. Este objeto permite el inicio del plan de mantenimiento. En nuestro ejemplo sólo hay un objeto, ya que todas las tareas de mantenimiento forman parte del mismo plan.
 
