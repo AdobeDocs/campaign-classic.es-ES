@@ -11,12 +11,9 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 72e974b8-415a-47ab-9804-b15957787198
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: aef56860d6e4558a7f4833066ab3d83733591522
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 100%
 
@@ -54,6 +51,7 @@ Para las instalaciones in situ, siga los pasos a continuación para configurar l
    * **[!UICONTROL Server]**: https://deliverability-app.neolane.net/deliverability
    * **[!UICONTROL Encryption]**: Ninguno
    * Marque la opción **[!UICONTROL Enabled]**.
+
    ![](assets/s_tn_inbox_rendering_external-account.png)
 
 1. Vaya al nodo **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. Busque la opción **[!UICONTROL DmRendering_cuid]** y póngase en contacto con el servicio de soporte técnico para obtener el identificador de los informes de envío que debe copiarse en el campo **[!UICONTROL Value (text)]**.
@@ -91,6 +89,7 @@ Cada vez que se utiliza la función **[!UICONTROL Inbox rendering]** en una entr
 >
 >* Cada vez que se genera el informe de renderización de la Bandeja de entrada, se resta un token por cada cliente de mensajería: uno para la renderización de Outlook 2000, uno para la renderización de Outlook 2010, uno para la renderización de Apple Mail 9, etc.
 >* Para el mismo envío, si vuelve a generar la renderización de la bandeja de entrada, el número de tokens disponibles se reduce de nuevo según la cantidad de renderizaciones generadas.
+
 >
 
 
