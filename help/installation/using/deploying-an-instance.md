@@ -11,14 +11,11 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 discoiquuid: 71fc8bfc-40e0-4592-a540-bd6807ded3a0
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '3066'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -27,7 +24,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Adobe solo puede realizar las configuraciones del lado del servidor para implementaciones alojadas en Adobe. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Hosting models](../../installation/using/hosting-models.md) o [este artículo](https://helpx.adobe.com/es/campaign/kb/acc-on-prem-vs-hosted.html).
+>Las configuraciones del lado del servidor sólo pueden ser realizadas por Adobe para implementaciones alojadas en Adobe. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Hosting models](../../installation/using/hosting-models.md) o [este artículo](https://helpx.adobe.com/es/campaign/kb/acc-on-prem-vs-hosted.html).
 
 ## Asistente de implementación {#deployment-wizard}
 
@@ -92,7 +89,7 @@ Indique los siguientes parámetros:
 * **[!UICONTROL Reply address]** :: La dirección de correo electrónico que se utilizará cuando el destinatario haga clic en el **[!UICONTROL Reply]** botón del software cliente de correo electrónico,
 * **[!UICONTROL Error address]** :: Dirección de correo electrónico de los mensajes con errores. Esta es la dirección técnica que se utiliza para gestionar el correo de devolución, incluidos los correos electrónicos recibidos por el servidor de Adobe Campaign debido a que no existen direcciones de destinatario.
 
-Además de esto, puede especificar las **máscaras** autorizadas para la dirección del remitente y la dirección de error. Si es necesario, estas máscaras se pueden separar mediante comas. Esta configuración es opcional. Cuando se introducen campos, el Adobe Campaign comprueba en el momento del envío (durante la análisis, si la dirección no incluye variables) que las direcciones son válidas. Este modo operativo garantiza que no se utilice ninguna dirección que pueda desencadenar problemas de envío. Las direcciones de Envío deben configurarse en el servidor de envío.
+Además de esto, puede especificar las **máscaras** autorizadas para la dirección del remitente y la dirección de error. Si es necesario, estas máscaras se pueden separar mediante comas. Esta configuración es opcional. Cuando se introducen campos, Adobe Campaign comprueba en el momento del envío (durante la análisis, si la dirección no incluye variables) que las direcciones son válidas. Este modo operativo garantiza que no se utilice ninguna dirección que pueda desencadenar problemas de envío. Las direcciones de envío deben configurarse en el servidor de envío.
 
 ### Caracteres autorizados en direcciones {#characters-authorized-in-addresses}
 
@@ -104,7 +101,7 @@ Aquí puede definir los caracteres autorizados (&#39;política de datos&#39;) en
 
 Hay dos listas disponibles: **Solo** en Europa o sólo **en** EE.UU. Si es necesario, se pueden añadir otros caracteres.
 
-### Parámetros de Envío {#delivery-parameters}
+### Parámetros de entrega {#delivery-parameters}
 
 Parámetros **avanzados...** le permite acceder a opciones de envío, parámetros vinculados a reintentos y cuarentenas.
 
@@ -116,19 +113,19 @@ Estas son las opciones disponibles:
 
 * **[!UICONTROL Delivery duration of messages]** :: Más allá de este tiempo, el envío se detiene (de forma predeterminada, 5 días),
 * **[!UICONTROL Online resources validity duration]** :: Tiempo durante el cual se guarda la información del perfil de destinatario para generar páginas espejo,
-* **[!UICONTROL Exclude recipients who no longer wish to be contacted]** :: Cuando se selecciona esta opción, no se contactará con los destinatarios de la lista de bloques.
+* **[!UICONTROL Exclude recipients who no longer wish to be contacted]** :: Cuando esta opción está seleccionada, no se contactará con los destinatarios de la lista de bloqueados.
 * **[!UICONTROL Automatically ignore doubles]** :: Cuando se selecciona esta opción, no se realizará el envío en las direcciones de duplicado.
 
 ### Parámetros de reintento {#retry-parameters}
 
 La información sobre las recuperaciones se proporciona en los campos **de períodos** de recuperación y **Número de recuperaciones** : cuando un destinatario está inaccesible, por ejemplo si su bandeja de entrada está llena, de forma predeterminada el programa intentará comunicarse con ellos 5 veces, con un intervalo de una hora entre cada intento (durante el tiempo de envío máximo). Estos valores se pueden cambiar para adaptarlos a sus necesidades.
 
-### Parámetros de Cuarentena {#quarantine-parameters}
+### Parámetros de cuarentena {#quarantine-parameters}
 
 Las opciones de configuración para cuarentenas son las siguientes:
 
 * **[!UICONTROL Duration between two significant errors]** :: escriba un valor (&quot;1d&quot; de forma predeterminada: 1 día) para definir el tiempo que la aplicación espera antes de incrementar el contador de errores en caso de error,
-* **[!UICONTROL Maximum number of errors before quarantine]** :: una vez alcanzado este valor, la dirección de correo electrónico se pone en cuarentena (de forma predeterminada, &quot;5&quot;: la dirección se pondrá en cuarentena en el sexto error). Esto significa que el contacto se excluirá automáticamente de los envíos posteriores.
+* **[!UICONTROL Maximum number of errors before quarantine]** :: una vez alcanzado este valor, la dirección de correo electrónico se pone en cuarentena (de forma predeterminada, &quot;5&quot;: la dirección se pondrá en cuarentena en el sexto error). Esto significa que el contacto se excluirá automáticamente de las entregas posteriores.
 
 ## Administración de correos electrónicos devueltos {#managing-bounced-emails}
 
@@ -155,17 +152,17 @@ Una vez especificada la configuración POP, haga clic en **Probar** para asegura
 
 ### Correos de devolución sin procesar {#unprocessed-bounce-mails}
 
-Las devoluciones se gestionan automáticamente por Adobe Campaign, aplicando las reglas enumeradas en el nodo **Administración > Gestión de la campaña > Administración de no entregables > Clasificación** del registro de Envíos. For more on this, refer to [Bounce mail management](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
+Las devoluciones son gestionadas automáticamente por Adobe Campaign, aplicando las reglas enumeradas en el nodo **Administración > Gestión de la campaña > Administración de no entregables > Clasificación** del registro de Envíos. For more on this, refer to [Bounce mail management](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
 
 Las devoluciones sin procesar no se muestran en la interfaz de Adobe Campaign. Se eliminan automáticamente a menos que se transfieran a un buzón de terceros mediante los campos siguientes:
 
-* **[!UICONTROL Forwarding address]** :: Rellene este campo para transferir a una dirección de terceros todos los mensajes de error (procesados o no procesados) recopilados por la plataforma de Adobe Campaign.
+* **[!UICONTROL Forwarding address]** :: Rellene este campo para transferir a una dirección de terceros todos los mensajes de error (procesados o no procesados) recopilados por la plataforma Adobe Campaign.
 * **[!UICONTROL Address for errors]** :: Rellene este campo para transferir a una dirección de terceros únicamente los mensajes de error que el proceso de inMail no pudo calificar.
 * **[!UICONTROL SMTP server]** :: Servidor utilizado para enviar correos electrónicos de devolución sin procesar.
 
 >[!IMPORTANT]
 >
->Para reenviar correos electrónicos de devolución sin procesar, Adobe recomienda rellenar solo el **[!UICONTROL Address for errors]** campo. Sin embargo, asegúrese de que la dirección que se utiliza se compruebe con regularidad, ya que esto podría suponer una carga pesada en el servidor de correo. Póngase en contacto con el ejecutivo de cuentas para obtener más información.
+>Para reenviar correos electrónicos de devolución sin procesar, Adobe solo recomienda rellenar el **[!UICONTROL Address for errors]** campo. Sin embargo, asegúrese de que la dirección que se utiliza se compruebe con regularidad, ya que esto podría suponer una carga pesada en el servidor de correo. Póngase en contacto con el ejecutivo de cuentas para obtener más información.
 
 ## Configuración de seguimiento {#tracking-configuration}
 
@@ -181,7 +178,7 @@ Al activar el seguimiento en una instancia, las direcciones URL de los envíos s
 
 * La información sobre las direcciones URL externas (seguras o no) introducida en esta página del asistente de implementación se utiliza para generar la nueva dirección URL. Además de esta información, el vínculo modificado contiene: los identificadores del envío, el destinatario y la dirección URL.
 
-   El Adobe Campaign recopila información de seguimiento en los servidores de seguimiento para enriquecer los perfiles de destinatario y los datos vinculados al envío ( **[!UICONTROL Tracking]** fichas).
+   Adobe Campaign recopila información de seguimiento en los servidores de seguimiento para enriquecer los perfiles de destinatario y los datos vinculados al envío ( **[!UICONTROL Tracking]** fichas).
 
    El servidor de aplicaciones de Adobe Campaign solo utiliza la información de las direcciones URL internas para comunicarse con los servidores de seguimiento.
 
@@ -355,7 +352,7 @@ Public resources are accessible via the **Administration > Resources > Online > 
 
 ![](assets/install_pub_resources_view.png)
 
-### URL de Recursos públicos {#public-resources-url}
+### URL de recursos públicos {#public-resources-url}
 
 El primer campo permite especificar el inicio de la URL que se utiliza para los recursos una vez cargados. Cuando se cargan, los recursos son accesibles a través de esta nueva dirección URL.
 
@@ -367,7 +364,7 @@ En un envío, puede utilizar imágenes almacenadas en la biblioteca de recursos 
 
 * Para recursos públicos, la dirección URL **https://** server **/res/** instance ****donde **instance**es el nombre de la instancia de seguimiento.
 
-### Detección de imágenes de Envío {#delivery-image-detection}
+### Detección de imágenes de envío {#delivery-image-detection}
 
 En un envío, puede utilizar imágenes almacenadas en la biblioteca de recursos públicos o cualquier otra imagen local o imagen almacenada en un servidor.
 
@@ -394,7 +391,7 @@ Están disponibles los siguientes modos de publicación:
 
    Puede utilizar otros servidores de Adobe Campaign donde se copiarán los recursos.
 
-   En el servidor, para utilizar un servidor de Adobe Campaign dedicado, debe crear una nueva instancia con el siguiente comando:
+   En el servidor, para utilizar un servidor Adobe Campaign dedicado, debe crear una nueva instancia con el siguiente comando:
 
    ```
    nlserver config -addtrackinginstance:<trackingA>/<trackingA*>
@@ -459,7 +456,7 @@ El atributo status puede ser uno de los tres valores:
 
 * normal: Comportamiento existente (sin sincronización)
 
-* block list: La dirección URL se agrega a la lista de bloques si devuelve un error 404. La duración (en segundos) de la URL que se encuentra en la lista de bloques se define mediante un atributo de **tiempo de espera** cuyo valor predeterminado es 60 segundos.
+* lista de bloqueados: La dirección URL se agrega a la lista de bloqueados si devuelve un error 404. La duración (en segundos) de la dirección URL que se encuentra en la lista de bloqueados se define mediante un atributo de **tiempo de espera** cuyo valor predeterminado es 60 segundos.
 
 La configuración predeterminada de la sincronización es:
 
