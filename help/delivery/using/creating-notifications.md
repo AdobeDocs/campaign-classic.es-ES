@@ -11,12 +11,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: 345af5c2-c852-4086-8ed0-ff3e7e402e04
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: c830d40cef836533c5104901d03a07e7cf96d3d6
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 100%
 
@@ -45,9 +42,9 @@ Comience creando una nueva entrega.
    >
    >En [esta sección](../../delivery/using/steps-defining-the-target-population.md) se describe el proceso detallado al seleccionar la población objetivo de una entrega.
    >
-   >Para obtener más información sobre el uso de los campos personalizados, consulte.[](../../delivery/using/about-personalization.md)
+   >Para obtener más información sobre el uso de los campos de personalización, consulte [Acerca de la personalización](../../delivery/using/about-personalization.md)
    >
-   >Para obtener más información sobre la integración de una lista de reasignación, consulte.[](../../delivery/using/about-seed-addresses.md)
+   >Para obtener más información sobre la integración de una lista de reasignación, consulte [Acerca de las direcciones semilla](../../delivery/using/about-seed-addresses.md)
 
 1. Seleccione **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]**, seleccione el servicio correspondiente a su aplicación móvil (Neotrips, en este caso) y luego seleccione la versión de iOS de la aplicación.
 
