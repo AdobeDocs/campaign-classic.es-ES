@@ -11,11 +11,8 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 discoiquuid: 066e730b-2527-4257-b11f-2e73f746a8a5
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6d63a43bdcf1c63b2ada240e7e15db8a5dfcfe11
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1980'
 ht-degree: 89%
@@ -142,7 +139,7 @@ Si el campo en el que desea filtrar los datos no se muestra en forma de perfil, 
 
 Para crear un **filtro avanzado**, siga los siguientes pasos:
 
-1. Click the **[!UICONTROL Filters]** button and select **[!UICONTROL Advanced filter...]**.
+1. Haga clic en el botón **[!UICONTROL Filters]** y seleccione **[!UICONTROL Advanced filter...]**.
 
    ![](assets/filters_recipient_create_adv_filter.png)
 
@@ -279,8 +276,8 @@ Los filtros predefinidos son:
    <td> Selecciona destinatarios que han hecho clic en una entrega por lo menos X veces en los últimos Y meses.<br /> </td> 
   </tr> 
   <tr> 
- <td> Dirección de correo electrónico en la lista de bloques<br /> </td> 
-    <td> Selecciona destinatarios cuya dirección de correo electrónico está en la lista de bloques.<br/> </td>
+ <td> Email address on the block list<br /> </td> 
+    <td> Selecciona destinatarios cuya dirección de correo electrónico está en la lista de bloqueados.<br/> </td>
   </tr> 
   <tr> 
    <td> Dirección de correo en cuarentena<br /> </td> 
