@@ -11,11 +11,11 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 discoiquuid: c89926b6-488e-4c72-8f67-b6af388bade3
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '863'
+ht-degree: 95%
 
 ---
 
@@ -24,13 +24,13 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ## Campos de almacenamiento de respuestas {#response-storage-fields}
 
-Las respuestas a los formularios se pueden guardar en un campo de la base de datos o temporalmente en una variable local. El modo de almacenamiento de las respuestas se elige durante la creación del campo. Se puede editar mediante el vínculo **[!UICONTROL Edit storage...]**.
+Las respuestas a los formularios se pueden guardar en un campo de la base de datos o temporalmente en una variable local. El modo de almacenamiento de las respuestas se elige durante la creación del campo. It can be edited via the **[!UICONTROL Edit storage...]** link.
 
 Para cada campo de entrada de un formulario, están disponibles las siguientes opciones de almacenamiento:
 
 ![](assets/s_ncs_admin_survey_select_storage.png)
 
-* **[!UICONTROL Edición de un destinatario]**
+* **[!UICONTROL Edit a recipient]**
 
    Se puede seleccionar un campo de la base de datos: las respuestas de los usuarios se almacenan en este campo. Para cada usuario, solo se guarda el último valor introducido: se añade a su perfil: Consulte [Almacenamiento de datos en la base de datos](#storing-data-in-the-database).
 
@@ -56,11 +56,11 @@ Esto significa que se puede utilizar el valor de un campo sin guardar para autor
 
 ![](assets/s_ncs_admin_survey_no_storage_variable.png)
 
-Se almacena en una variable que se debe seleccionar cuando se crea la casilla desplegable o a través del vínculo **[!UICONTROL Edit storage...]**.
+It is stored in a variable which must be selected when the drop-down box is created, or via the **[!UICONTROL Edit storage...]** link.
 
 ![](assets/s_ncs_admin_survey_no_storage_variable2.png)
 
-Puede mostrar las variables existentes y crear variables nuevas mediante el vínculo **[!UICONTROL Edit variables...]**. Haga clic en el botón **[!UICONTROL Add]** para crear una variable nueva.
+You can display existing variables and create new ones via the **[!UICONTROL Edit variables...]** link. Haga clic en el botón **[!UICONTROL Add]** para crear una variable nueva.
 
 ![](assets/s_ncs_admin_survey_add_a_variable.png)
 
@@ -144,7 +144,7 @@ Puede seleccionar una carpeta de búsqueda para la reconciliación y una carpeta
 
 >[!NOTE]
 >
->Las operaciones posible son: **[!UICONTROL Simple reconciliation]**, **[!UICONTROL Update or insertion]**, **[!UICONTROL Insertion]**, **[!UICONTROL Update]** y **[!UICONTROL Deletion]**.\
+>Las operaciones posibles son: **[!UICONTROL Simple reconciliation]**, **[!UICONTROL Update or insertion]**, **[!UICONTROL Insertion]**, **[!UICONTROL Update]**, **[!UICONTROL Deletion]**.\
 >La carpeta predeterminada de un operador es la primera carpeta para la que el operador tiene permiso de escritura.\
 >Consulte [esta sección](../../platform/using/access-management.md).
 
