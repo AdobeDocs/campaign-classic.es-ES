@@ -9,11 +9,8 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c51a51f175e9f3fe5a55f2b5f57872057f70909d
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2375'
 ht-degree: 1%
@@ -21,7 +18,7 @@ ht-degree: 1%
 ---
 
 
-# Descripción del modelo de datos de Campaña{#data-model-description}
+# Campaign data model description{#data-model-description}
 
 Adobe Campaign viene con un modelo de datos predefinido. Esta sección proporciona algunos detalles sobre las tablas integradas del modelo de datos de Adobe Campaign y su interacción.
 
@@ -43,7 +40,7 @@ El siguiente diagrama muestra las uniones entre las tablas comerciales principal
 
 ![](assets/data-model_simplified-diagram.png)
 
-El modelo de datos de Adobe Campaign predefinido incluye las tablas principales que se enumeran a continuación.
+El modelo de datos predefinido de Adobe Campaign incluye las tablas principales que se enumeran a continuación.
 
 ### NmsRecipient {#NmsRecipient}
 
@@ -99,7 +96,7 @@ Si las suscripciones se administran mediante formularios web o la interfaz de la
 
 Esta tabla coincide con el esquema **nms:envío** .
 
-Cada registro de esta tabla representa una acción **de** envío o una **Plantilla de envíos**. Contiene todos los parámetros necesarios para realizar envíos (el destinatario, el contenido, etc.). Los registros de Envío (difusión) (NmsBroadLog) y las direcciones URL de seguimiento asociadas (NmsTrackingUrl) se crean durante la fase de análisis (consulte a continuación para obtener más detalles sobre ambas tablas).
+Cada registro de esta tabla representa una acción **de** envío o una **Plantilla de envíos**. Contiene todos los parámetros necesarios para realizar envíos (el destinatario, el contenido, etc.). Los registros de envío (difusión) (NmsBroadLog) y las direcciones URL de seguimiento asociadas (NmsTrackingUrl) se crean durante la fase de análisis (consulte a continuación para obtener más detalles sobre ambas tablas).
 
 Hay un índice único en el campo que representa el nombre interno del envío o escenario sInternalName. El envío está vinculado a una carpeta de ejecución (la clave externa es iFolderProcessId. For more on this, see [XtkFolder](#XtkFolder)).
 
@@ -121,7 +118,7 @@ Este conjunto de tablas está vinculado al módulo de **Envío** , que permite c
 
 ## Gestión de la campaña {#campaign-management}
 
-Este conjunto de tablas está vinculado al módulo campañas **de** marketing, que permite definir, optimizar, ejecutar y analizar campañas de comunicación y marketing. Para obtener más información sobre esto, consulte [Acerca de las campañas](../../campaign/using/designing-marketing-campaigns.md)de marketing.
+Este conjunto de tablas está vinculado al módulo campañas **de** marketing, que permite definir, optimizar, ejecutar y analizar campañas de comunicación y marketing. For more on this, see [About marketing campaigns](../../campaign/using/designing-marketing-campaigns.md).
 
 ![](assets/data-model_campaign.png)
 
@@ -137,7 +134,7 @@ Este conjunto de tablas está vinculado al módulo campañas **de** marketing, q
 
 ## Coherencia de la comunicación {#communication-consistency}
 
-Este conjunto de tablas está vinculado al módulo de **Optimización de la campaña** , que permite controlar, filtrar y controlar el envío de envíos. Para obtener más información sobre esto, consulte [Acerca de las tipologías de campaña](../../campaign/using/about-campaign-typologies.md).
+Este conjunto de tablas está vinculado al módulo de **Optimización de la campaña** , que permite controlar, filtrar y controlar el envío de envíos. For more on this, see [About campaign typologies](../../campaign/using/about-campaign-typologies.md).
 
 ![](assets/data-model_typology.png)
 
@@ -149,7 +146,7 @@ Este conjunto de tablas está vinculado al módulo de **Optimización de la camp
 
 ## Administración de respuestas {#response-management}
 
-Este conjunto de tablas está vinculado al módulo de **Gestor de respuestas** , que permite medir el éxito y la rentabilidad de las campañas o propuestas de oferta de marketing para todos los canales de comunicación. Para obtener más información sobre esto, consulte [Acerca del administrador](../../campaign/using/about-response-manager.md)de respuestas.
+Este conjunto de tablas está vinculado al módulo de **Gestor de respuestas** , que permite medir el éxito y la rentabilidad de las campañas o propuestas de oferta de marketing para todos los canales de comunicación. For more on this, see [About response manager](../../campaign/using/about-response-manager.md).
 
 ![](assets/data-model_response.png)
 
@@ -169,11 +166,11 @@ El contexto de ejecución rellena las tablas y los campos que se deben tener en 
 * La fecha de transacción. Este campo no es obligatorio, pero se recomienda utilizarlo para restringir el perímetro de cálculo.
 * El importe de la transacción: es un campo opcional para calcular automáticamente los indicadores de ingresos.
 
-**perímetro de Hipótesis (información almacenada en XML)**
+**perímetro de hipótesis (información almacenada en XML)**
 
 El perímetro de hipótesis consiste en filtrar la hipótesis basándose en la tabla del esquema de consulta.
 
-**Secuencia de comandos de sobrecarga de Hipótesis (información almacenada en XML)**
+**Secuencia de comandos de sobrecarga de hipótesis (información almacenada en XML)**
 
 La secuencia de comandos de sobrecarga de hipótesis es un código JavaScript que le permite sobrecargar el contenido de la hipótesis durante la ejecución.
 
@@ -183,7 +180,7 @@ Los siguientes indicadores se actualizan automáticamente durante la ejecución 
 
 * Número de reacciones: **iTransaction**. Número de líneas en la tabla de registros de reacciones.
 * Número de usuarios contactados: **iContactReaccionó**. Número específico de contactos objetivo en la hipótesis.
-* Recuento de Grupos de control: **iProofReaccionó**. Número específico de contactos de grupo de control objetivo en la hipótesis.
+* Recuento de grupos de control: **iProofReaccionó**. Número específico de contactos de grupo de control objetivo en la hipótesis.
 * Tasa de respuesta de contacto: **dContactReactRate**. Tasa de respuesta de los contactos objetivo en la hipótesis.
 * Tasa de respuesta del grupo de control: **dProofReactRate**. Tasa de respuesta del grupo de control de hipótesis.
 * Ingresos totales de la población contactada: **dContactReactTotalAmount**. Ingresos totales de los contactos objetivo en la hipótesis.
@@ -209,7 +206,7 @@ Contiene un registro que representa la reacción de un individuo a una hipótesi
 
 ## Simulación y envío {#simulation-and-delivery}
 
-Este conjunto de tablas está vinculado al módulo de **Simulación** , que permite probar la distribución de ofertas pertenecientes a una categoría o un entorno antes de enviar la propuesta a destinatarios. Para obtener más información sobre esto, consulte [Acerca de la simulación](../../interaction/using/about-offers-simulation.md)de ofertas.
+Este conjunto de tablas está vinculado al módulo de **Simulación** , que permite probar la distribución de ofertas pertenecientes a una categoría o un entorno antes de enviar la propuesta a destinatarios. For more on this, see [About offers simulation](../../interaction/using/about-offers-simulation.md).
 
 ![](assets/data-model_simulation.png)
 
@@ -231,7 +228,7 @@ Este conjunto de tablas está vinculado al módulo **Interacción** , que permit
 
 ## Módulo de centro de mensajes {#message-center-module}
 
-El siguiente conjunto de tablas está vinculado al módulo de mensajería **** transaccional (centro de mensajes), que permite administrar las comunicaciones individuales y únicas enviadas a un usuario y generadas a partir de eventos activados desde sistemas de información. Para obtener más información sobre esto, consulte [Acerca de los mensajes](../../message-center/using/about-transactional-messaging.md)transaccionales.
+El siguiente conjunto de tablas está vinculado al módulo de mensajería **** transaccional (centro de mensajes), que permite administrar las comunicaciones individuales y únicas enviadas a un usuario y generadas a partir de eventos activados desde sistemas de información. For more on this, see [About transactional messaging](../../message-center/using/about-transactional-messaging.md).
 
 ### NmsRtEvent {#NmsRtEvent}
 
@@ -268,7 +265,7 @@ Este conjunto de tablas está vinculado al Canal **de aplicaciones** móviles, q
 
 ## Módulo de mercadotecnia social {#social-marketing-module}
 
-Este conjunto de tablas está vinculado al módulo **Administración de redes** sociales, que permite interactuar con clientes y clientes potenciales a través de Facebook y Twitter. Para obtener más información sobre esto, consulte [Acerca del marketing](../../social/using/about-social-marketing.md)social.
+Este conjunto de tablas está vinculado al módulo **Administración de redes** sociales, que permite interactuar con clientes y clientes potenciales a través de Facebook y Twitter. For more on this, see [About social marketing](../../social/using/about-social-marketing.md).
 
 ![](assets/data-model_social.png)
 
