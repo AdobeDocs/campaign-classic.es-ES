@@ -11,11 +11,11 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 discoiquuid: 12f13b8d-afc3-4b55-a31b-080d31f84fc9
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 779d9162b7296339a796512838612ede1186ddcc
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 779d9162b7296339a796512838612ede1186ddcc
 
 De forma predeterminada, el puerto de escucha **syslogd** es 666 (udp). Puede modificarla mediante una variable de entorno si es necesario.
 
-Una vez configurada, todos los módulos de Adobe Campaign tienen en cuenta esta variable.
+Una vez configurada, todos los módulos de Adobe Campaign toman en cuenta esta variable.
 
 ### En Linux {#in-linux}
 
