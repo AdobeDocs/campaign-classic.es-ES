@@ -11,11 +11,11 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 discoiquuid: be037a80-3f94-465c-ba7d-ae7d50f70e36
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: d30de91002862b664249c5a704b7c0f521dd30f2
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 93%
 
 ---
 
@@ -47,7 +47,7 @@ En el siguiente ejemplo creamos una regla para evitar que una oferta SMS se env√
 
 Siga estos pasos:
 
-1. Cree una regla de tipolog√≠a de **[!UICONTROL Control]**. Seleccione un nivel de alerta **[!UICONTROL Warning]**.
+1. Create a **[!UICONTROL Control]** typology rule. Select a **[!UICONTROL Warning]** alert level.
 
    ![](assets/campaign_opt_create_control_01.png)
 
