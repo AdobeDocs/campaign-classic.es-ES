@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '3704'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ También puede consultar las [Notas de la versión de Adobe Campaign Classic](..
 
 ## Septiembre de 2020 {#september-2020}
 
-Se ha agregado una nota para especificar que el recuento de perfiles activos solo está disponible para las instancias de Marketing. [Más información](../../platform/using/about-profiles.md#active-profiles)
+Se ha añadido una nota para especificar que el recuento de perfiles activos solo está disponible para instancias de marketing. [Más información](../../platform/using/about-profiles.md#active-profiles)
 
-Se ha añadido una nueva muestra sobre la edición de esquema para vincular un campo a una tabla de referencia existente. [Más información](../../configuration/using/examples-of-schemas-edition.md#uc-link)
+Se ha añadido una nueva muestra acerca de la edición de esquema para vincular un campo a una tabla de referencia existente. [Más información](../../configuration/using/examples-of-schemas-edition.md#uc-link)
 
 Se ha añadido una nota sobre el uso de datos adicionales con direcciones semilla en envíos. [Más información](../../delivery/using/creating-seed-addresses.md#defining-addresses)
 
@@ -99,7 +99,7 @@ Tanto los términos &quot;lista blanca&quot; como &quot;lista negra&quot; se han
 
 La página de integración de Experience Cloud Triggers y Adobe Campaign Classic se ha movido [aquí](../../integrations/using/about-triggers.md).
 
-## july 2020 {#release-20-2}
+## Julio de 2020 {#release-20-2}
 
 **Nuevas funciones incluidas en la versión 20.2**
 
