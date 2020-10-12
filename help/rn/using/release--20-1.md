@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1344'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ _lunes, 17 de febrero de 2020_
 
 * Se ha mejorado el rendimiento de la consulta, lo que podría verse afectado por conexiones de base de datos innecesarias.
 
-* Se ha mejorado el rendimiento del asistente para la actualización de la base de datos a fin de hacer menos sentencias SQL para optimizar el tiempo de respuesta.
+* Se ha mejorado el rendimiento del asistente de actualización de bases de datos a fin de hacer menos instrucciones SQL para optimizar el tiempo de respuesta.
 
 * Se mejoró la administración de registros de la base de datos.
 
@@ -180,7 +180,7 @@ _lunes, 17 de febrero de 2020_
 
 * Se ha corregido un problema que se producía al eliminar, insertar o actualizar una gran cantidad de datos con la actividad **Actualizar datos** en un flujo de trabajo mediante un esquema FDA como dimensión de segmentación. (NEO-13280)
 
-* Se ha corregido un problema que impedía enviar correos electrónicos cuando había código Javascript fuera de la etiqueta de contenido HTML. (NEO-18628)
+* Se ha corregido un problema que impedía enviar correos electrónicos cuando había código JavaScript fuera de la etiqueta de contenido HTML. (NEO-18628)
 
 * Se ha corregido un problema que se producía al intentar mostrar la página espejo de los registros de envío de un mensaje enviado. (NEO-17976)
 
