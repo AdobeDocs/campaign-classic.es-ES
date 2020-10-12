@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2639'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -29,20 +29,20 @@ _15 de septiembre de 2020_
 **Mejoras**
 
 * Se ha mejorado el uso de subprocesos de nlsrvmod para Apache 2.4 a fin de corregir los bloqueos de nlsrvmod.
-* Se ha corregido un problema al usar la actividad de transferencia de archivos con una cuenta externa de Azure y un cifrado SSL. La conexión se realizó mediante HTTP en lugar de HTTPS. (NEO-26720)
+* Se ha corregido un problema al usar la actividad Transferencia de archivos con una cuenta externa de Azure y un cifrado SSL. La conexión se ha realizado mediante HTTP en lugar de HTTPS. (NEO-26720)
 
 
 
-* En las propiedades de envío, se ha cambiado el nombre de la **[!UICONTROL Archive emails]** opción **[!UICONTROL Email BCC]** para mejorar la experiencia del usuario.
-* Se ha corregido un problema con el mecanismo de caché de URL que no recuperaba la etiqueta o la categoría.
+* En las propiedades de envío, se ha cambiado el nombre de la opción **[!UICONTROL Archive emails]** a **[!UICONTROL Email BCC]** para mejorar la experiencia del usuario.
+* Se ha corregido un problema con el mecanismo de caché de la URL que no recuperaba la etiqueta o la categoría.
 * Se ha corregido el problema que provocaba que las direcciones URL de página espejo se definieran incorrectamente en los envíos de correo electrónico (debido a un control incorrecto de caracteres ASCII). (NEO-26084)
 * Se ha actualizado la lista jarsToSkip en catalina.properties para eliminar la referencia a un archivo jar que ya no se utilizaba (notificaciones de iOS).
 * Se ha corregido un problema de regresión que impedía la publicación después de la actualización.
-* Se ha corregido una regresión con informes de envío listos para usar que aparecían truncados al exportarse a PDF. (NEO-25757)
+* Se ha corregido una regresión con los informes de envío listos para usar que aparecían truncados al exportarse a PDF. (NEO-25757)
 * Se ha corregido el problema que eliminaba el valor del parámetro de codificación al redirigir desde una URL de seguimiento (impacto en los caracteres japoneses). (NEO-25637)
 * Se ha corregido un problema que provocaba que los vínculos sin firmar de dominios personalizados se bloquearan cuando deberían permitirse. (NEO-25210)
 * Se ha corregido la regresión que afectaba a los campos calculados de un flujo de trabajo y que provocaba un error. (NEO-25194)
-* Se ha corregido un problema de compatibilidad con Microsoft Dynamics (de la versión 8.2) que podía impedir la ejecución de algunas llamadas de API (RetrieveAllEntities). (NEO-24528)
+* Se ha corregido un problema de compatibilidad con Microsoft Dynamics (de la versión 8.2) que podía impedir la ejecución de algunas llamadas API (RetrieveAllEntities). (NEO-24528)
 * Se ha corregido un problema de regresión al utilizar la función del conector de ACS que impedía la conexión a una instancia de Campaign Standard (administración incorrecta de la conexión FOH/FOH2). (NEO-23433)
 * Se ha corregido un problema de regresión en la conexión de la base de datos que provocaba que el servidor web se reiniciara constantemente debido a un problema de codificación de la base de datos. Esto podría causar un consumo excesivo. (NEO-23264)
 
@@ -51,11 +51,11 @@ _15 de septiembre de 2020_
 * Se ha corregido un problema con el flujo de trabajo de limpieza de base de datos que podía fallar debido a una fuente de datos no administrada. (NEO-23160, NEO-23364)
 * El flujo de trabajo de limpieza ahora purga las listas caducadas por lotes de a100 en lugar de a una por una.
 * Después del cambio al [nuevo mecanismo de ID de secuencia](https://helpx.adobe.com/es/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence), todas las aplicaciones web que actualizan la tabla de destinatario se vuelven a publicar después de la actualización.
-* Se ha corregido un problema que impedía enviar correos electrónicos cuando había código Javascript fuera de la etiqueta de contenido HTML. (NEO-18628)
+* Se ha corregido un problema que impedía enviar correos electrónicos cuando había código JavaScript fuera de la etiqueta de contenido HTML. (NEO-18628)
 * Se ha corregido un problema que impedía que el flujo de trabajo de seguimiento actualizara los indicadores de seguimiento de mensajes transaccionales. (NEO-17770)
-* Se ha mejorado el rendimiento del asistente para la actualización de la base de datos a fin de hacer menos sentencias SQL para optimizar el tiempo de respuesta.
-* Se ha corregido un problema de bloqueo de la consola que se producía al desmarcar direcciones URL seguidas en un correo electrónico, desde la ficha Contenido **de** texto debido a una variable no inicializada. (NEO-13545)
-* Se ha corregido un problema que impedía cargar archivos en una actividad de transferencia de archivos mediante una cuenta externa de Almacenamiento de blob de Azure debido a una variable no inicializada (m_pCurlReader). (NEO-13717)
+* Se ha mejorado el rendimiento del asistente de actualización de bases de datos a fin de hacer menos instrucciones SQL para optimizar el tiempo de respuesta.
+* Se ha corregido un problema de bloqueo de la consola que se producía al desmarcar direcciones URL rastreadas en un correo electrónico, desde la ficha **Contenido de texto** debido a una variable no inicializada. (NEO-13545)
+* Se ha corregido un problema que impedía cargar archivos en una actividad de Transferencia de archivos mediante una cuenta externa de almacenamiento de blob de Azure debido a una variable no inicializada (m_pCurlReader). (NEO-13717)
 
 
 
@@ -63,7 +63,7 @@ _15 de septiembre de 2020_
 
 
 
-* Se ha corregido una regresión que provocaba que se seleccionara una zona horaria incorrecta al establecer la hora en una actividad de flujo de trabajo de **Planificador** .
+* Se ha corregido una regresión que provocaba la selección de una zona horaria incorrecta al establecer la hora en una actividad de flujo de trabajo de **Planificador**.
 
 ## ![](assets/do-not-localize/orange_2.png) Versión 19.1.6: compilación 9035 {#release-19-1-6-build-9035}
 
@@ -89,15 +89,15 @@ _13 de agosto de 2019_
 
 * Se ha corregido un problema con la sentencia SQL &#39;SELECT COUNT&#39; que se ejecutaba en la base de datos predeterminada en lugar de en la base de datos de FDA durante la extracción de datos en la actividad de gestión de datos.
 * Ahora hay una declaración de proxy SFTP disponible en el archivo de configuración del servidor para mejorar las capacidades de la infraestructura del cliente.
-* Se corrigió un problema de bloqueo cuando el campo **Añadir tabla** vinculada estaba vacío en la actividad de flujo de trabajo Carga **de datos (RDBMS)** . (NEO-12213)
+* Se ha corregido un problema de bloqueo cuando el campo **Añadir tabla vinculada** está vacío en la actividad de flujo de trabajo **Carga de datos (RDBMS)**. (NEO-12213)
 * Se ha corregido un problema con la instalación del paquete midEmitter a través de la línea de comandos.
 * Se ha añadido una nueva opción de autenticación para admitir credenciales de OAuth dentro del conector AC con Microsoft Dynamics (NEO-11982)
-* Se ha corregido un problema con la administración de UUID (identificador universal único) que provocaba que las actividades del flujo de trabajo de carga de datos y Consulta fallaran con Hive FDA.
-* Se corrigió una regresión en Oracle que ocasionaba que algunas funciones se consideraran no válidas después de la postactualización. (NEO-12759)
+* Se ha corregido un problema con la administración de UUID (identificador universal único) que provocaba que las actividades del flujo de trabajo de carga de datos y consulta fallaran con Hive FDA.
+* Se ha corregido una regresión en Oracle que hacía que algunas funciones se consideraran no válidas después de la postactualización. (NEO-12759)
 
 
 
-* Se ha corregido una regresión que provocaba que se seleccionara una zona horaria incorrecta al establecer la hora en una actividad de flujo de trabajo de Planificador.
+* Se ha corregido una regresión que provocaba la selección de una zona horaria incorrecta al establecer la hora en una actividad de flujo de trabajo de Planificador.
 
 ## ![](assets/do-not-localize/green_2.png) Versión 19.1.4: compilación 9032{#release-19-1-4-build-9032}
 
