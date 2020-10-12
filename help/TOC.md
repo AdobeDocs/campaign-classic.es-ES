@@ -1,22 +1,22 @@
 ---
 audience: end-user
 user-guide-title: Guía de Adobe Campaign Classic
-breadcrumb-title: Campaign Classic Guide
+breadcrumb-title: Guía del Campaign Classic
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
-user-guide-description: Design, plan, execute, manage, and optimize cross-channel marketing campaigns that deliver a high return on marketing investment.
+user-guide-description: Diseñe, planifique, ejecute, administre y optimice campañas de mercadotecnia entre canales que proporcionen un alto retorno en la inversión en mercadotecnia.
 product: adobe campaign
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
-source-wordcount: '2119'
-ht-degree: 98%
+source-wordcount: '2139'
+ht-degree: 99%
 
 ---
 
 
-# Adobe Campaign Classic Guide {#using}
+# Guía de Adobe Campaign Classic {#using}
 
 + [Documentación del producto](campaign-classic-home.md)
 + [Últimas actualizaciones](rn/using/documentation-updates.md)
@@ -477,7 +477,7 @@ ht-degree: 98%
       + [Transfer to Mid-sourcing](workflow/using/transfer-to-mid-sourcing.md)
       + [Mid-sourcing platform](workflow/using/mid-sourcing-platform.md)
 + Administración de ofertas {#managing-offers}
-   + Get started with Interaction {#interaction-overview}
+   + Introducción a la interacción{#interaction-overview}
       + [Interacción y gestión de ofertas](interaction/using/interaction-and-offer-management.md)
       + [Glosario](interaction/using/glossary.md)
       + [Prácticas recomendadas de interacción](interaction/using/interaction-best-practices.md)
