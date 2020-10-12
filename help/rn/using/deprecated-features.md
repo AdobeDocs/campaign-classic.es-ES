@@ -10,11 +10,11 @@ content-type: reference
 topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b9577d190f26e21f116d99d48fdf2bca84585d50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1444'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
   </tr>
    <tr>
   <td>Conectores SMS<br></td>
-  <td><p> A partir de la versión 20.2 de la Campaña, los siguientes conectores SMS quedan obsoletos.<p>
+  <td><p> A partir de la versión Campaign 20.2, los siguientes conectores SMS quedan obsoletos.<p>
    <ul>
    <li>NetSize</li>
    <li>SMPP genérico (SMPP versión 3.4 compatible con modo binario)</li>
@@ -66,7 +66,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
  </tr>
   <tr>  
    <td>canal de fax<br></td>
-   <td><p>A partir de la versión 20.2 de la Campaña, el canal de fax queda obsoleto.</p> 
+   <td><p>A partir de la versión Campaign 20.2, el canal de fax queda obsoleto.</p> 
    <p>Si utiliza este canal, debe adaptar la implementación en consecuencia. <a href="../../delivery/using/steps-about-delivery-creation-steps.md">Obtenga más información</a> sobre los canales de Campaign.</p>
    <p><em>Fecha de eliminación objetivo: 2021</em></p></td>
   </tr>
@@ -96,7 +96,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
    <td>A partir de la versión 19.1 de Campaign, las API de Campaign Classic están disponibles en una página dedicada. Si utilizó el archivo jsapi.chm heredado, debería consultar la <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">nueva versión en línea</a>.</td>
   </tr> 
   <tr> 
-   <td>Organización de campañas      - Marketing predictivo</td>
+   <td>Organización de campañas       - Marketing predictivo</td>
    <td>A partir de la versión 18.10 de Campaign, las funcionalidades de marketing predictivas ya no están disponibles.</td>
   </tr> 
   <tr> 
@@ -129,11 +129,11 @@ Los siguientes sistemas son obsoletos para Campaign Classic. Consulte la [Matriz
 
 ### Versión de Adobe Campaign 20.2 {#compat-20-2-release}
 
-A partir de la versión 20.2, los siguientes sistemas quedan obsoletos para Campaign Classic. La compatibilidad finalizará en la versión 20.3 (octubre de 2020).
+A partir de la versión 20.2, los siguientes sistemas quedan obsoletos para Campaign Classic. La compatibilidad finaliza en la versión 20.3: octubre de 2020.
 
 * Consola de cliente: Windows 7
-* Conectores de SMS heredados: consulte Funciones [obsoletas](#deprecated-features)
-* DB2 UDB 10.5 para Acceso de datos federado (FDA)
+* Conectores de SMS heredados: consulte [Funciones obsoletas](#deprecated-features)
+* DB2 UDB 10.5 para el acceso de datos federado (FDA)
 
 ### Versión de Adobe Campaign 19.2  {#compat-19-2-release}
 
