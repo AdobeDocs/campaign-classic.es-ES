@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: filtering-data
 discoiquuid: 066e730b-2527-4257-b11f-2e73f746a8a5
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '1980'
+source-wordcount: '1976'
 ht-degree: 89%
 
 ---
@@ -276,8 +276,8 @@ Los filtros predefinidos son:
    <td> Selecciona destinatarios que han hecho clic en una entrega por lo menos X veces en los últimos Y meses.<br /> </td> 
   </tr> 
   <tr> 
- <td> Email address on the block list<br /> </td> 
-    <td> Selecciona destinatarios cuya dirección de correo electrónico está en la lista de bloqueados.<br/> </td>
+ <td> Dirección de correo electrónico Incluida en la lista de bloqueados<br /> </td> 
+    <td> Selecciona destinatarios cuya dirección de correo electrónico se encuentra en la  de lista de bloqueados.<br/> </td>
   </tr> 
   <tr> 
    <td> Dirección de correo en cuarentena<br /> </td> 
