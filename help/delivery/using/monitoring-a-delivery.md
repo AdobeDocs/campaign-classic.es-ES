@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 3aab3d47-76fd-4c68-add4-9c14240c936e
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '2567'
-ht-degree: 100%
+source-wordcount: '2562'
+ht-degree: 97%
 
 ---
 
@@ -114,12 +114,12 @@ El mantenimiento de la plataforma y de la base de datos también puede afectar e
 
 Tras hacer clic en el botón **[!UICONTROL Send]**, la entrega parece tardar más de lo normal. Esto puede deberse a diferentes elementos:
 
-* Es posible que algunos proveedores de correo electrónico hayan agregado sus direcciones IP a una lista de bloqueados. En este caso, compruebe sus broadlogs y consulte [esta sección](../../delivery/using/about-deliverability.md).
+* Es posible que algunos proveedores de correo electrónico hayan agregado sus direcciones IP a una  de lista de bloqueados. En este caso, compruebe sus broadlogs y consulte [esta sección](../../delivery/using/about-deliverability.md).
 * Su entrega puede ser demasiado grande como para procesarlo rápidamente, como puede ser el caso de una alta personalización de JavaScript o si su entrega pesa más de 60 kB. Consulte las [prácticas recomendadas relacionadas con las entregas](../../delivery/using/delivery-best-practices.md) de Adobe Campaign para obtener más información sobre las directrices de contenido.
 * Es posible que se haya activado una restricción dentro del MTA de Adobe Campaign. Esto se debe a:
 
    * Mensajes pendientes (mensaje **[!UICONTROL quotas met]**): se han cumplido las cuotas declaradas por las reglas de MX definidas en Campaign. Para obtener más información sobre este mensaje, consulte [esta página](../../delivery/using/deliverability-faq.md) . Para obtener más información sobre las reglas MX, consulte [esta página](../../delivery/using/technical-recommendations.md#mx-rules).
-   * Mensajes pendientes (mensaje **[!UICONTROL dynamic flow control]**): el MTA de Campaign ha detectado errores al intentar enviar mensajes para un ISP determinado, lo que provoca una ralentización para evitar una gran densidad de errores y, por lo tanto, la posible inclusión en una lista de bloqueados.
+   * Messages pended (**[!UICONTROL dynamic flow control]** message): Campaign MTA has encountered errors when trying to deliver messages for a given ISP which causes a slowdown to avoid too big of an error density and thus facing potential denylist.
 
 * Un problema del sistema puede impedir que los servidores interactúen: esto puede ralentizar todo el proceso de entrega. Compruebe los servidores para asegurarse de que no hay problemas de memoria o recursos que puedan afectar a Campaign en el proceso de obtención de los datos personalizados, por ejemplo.
 
@@ -163,7 +163,7 @@ Al realizar una entrega, es posible que aparezca el siguiente estado en su panel
   </tr> 
   <tr> 
    <td> Ignorado<br /> </td> 
-   <td> No se realizó la entrega al destinatario debido a un error con su dirección. Se agregó a una lista de bloqueados, se puso en cuarentena, no se proporcionó o fue un duplicado. <br /> </td> 
+   <td> No se realizó la entrega al destinatario debido a un error con su dirección. It was either on denylist, quarantined, not provided or a duplicate. <br /> </td> 
   </tr> 
   <tr> 
    <td> Enviado<br /> </td> 
@@ -241,7 +241,7 @@ Si el estado de una entrega de correo electrónico es **[!UICONTROL Failed]**, p
 
 Los registros de entregas son esenciales para saber por qué ha fallado una entrega. Estos son los posibles errores que puede detectar en los registros de entregas:
 
-* Si los mensajes del destinatario fallan con un error “No accesible” que indica: **Error while compiling script &#39;content htmlContent&#39; line X:`[table]`is not defined. JavaScript: error al evaluar el script &#39;contenido htmlContent**, la causa de este problema es casi siempre una personalización dentro del HTML que intenta llamar a una tabla o campo que no se ha definido o asignado en el objetivo ascendente o en el destino de mapeo de la entrega.
+* Si los mensajes del destinatario fallan con un error “No accesible” que indica: **Error while compiling script &#39;content htmlContent&#39; line X: `[table]` is not defined. JavaScript: error al evaluar el script &#39;contenido htmlContent**, la causa de este problema es casi siempre una personalización dentro del HTML que intenta llamar a una tabla o campo que no se ha definido o asignado en el objetivo ascendente o en el destino de mapeo de la entrega.
 
    Para corregir esto, es necesario revisar el flujo de trabajo y el contenido de la entrega para determinar específicamente qué personalización está intentando llamar a la tabla en cuestión y si se puede asignar o no la tabla. Desde este punto, la forma de resolver el problema sería eliminar la llamada a esta tabla en el HTML o corregir la asignación a la entrega.
 
