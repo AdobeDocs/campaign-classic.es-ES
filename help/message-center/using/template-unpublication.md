@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Una vez publicada una plantilla de mensaje en las instancias de ejecución, se p
 
 >[!NOTE]
 >
->Esta funcionalidad está disponible a partir de la versión 20.2 de la Campaña.
+>Esta funcionalidad está disponible a partir de la versión 20.2 de Campaign.
 
 De hecho, todavía se puede consultar una plantilla publicada. Por lo tanto, si ya no utiliza una plantilla de mensaje, se recomienda cancelar la publicación. Esto es para evitar enviar un mensaje transaccional no deseado por error. Por ejemplo, ha publicado una plantilla de mensaje que solo utiliza para campañas de Navidad. Tal vez quiera cancelar la publicación después de que termine el período de Navidad y publicarla nuevamente el año que viene.
 
