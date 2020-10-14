@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: sending-emails
 discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '1574'
-ht-degree: 95%
+source-wordcount: '1573'
+ht-degree: 93%
 
 ---
 
@@ -151,6 +151,7 @@ También puede consultar las [Sugerencias y las limitaciones conocidas de Gmail]
 Actualmente puede experimentar enviando un correo electrónico de AMP en dos pasos:
 
 1. Adobe Campaign permite probar la entrega de un correo electrónico dinámico con tecnología AMP a las direcciones de correo electrónico seleccionadas correctamente configuradas, a fin de verificar su contenido y comportamiento. Consulte [Prueba de entrega de correo electrónico AMP para direcciones seleccionadas](#testing-amp-delivery-for-selected-addresses).
+
 1. Una vez probada, puede realizar una entrega o una campaña como parte del programa de AMP para correo electrónico registrándose con los proveedores de correo electrónico correspondientes para que se incluya en la lista de dominios de remitente añadida a la lista de permitidos. Consulte [Envío de correos electrónicos AMP mediante registro en un proveedor de correo electrónico](#delivering-amp-emails-by-registering).
 
 ### Prueba de la entrega de correo electrónico AMP para direcciones seleccionadas {#testing-amp-delivery-for-selected-addresses}
@@ -161,7 +162,7 @@ Puede probar la entrega de mensajes dinámicos desde Adobe Campaign a las direcc
 >
 >Actualmente, solo Gmail, Outlook y Mail.ru admiten la prueba del formato AMP.
 
-Para Gmail y Outlook, primero debe añadir las direcciones de remitentes que está utilizando a la lista de permitidos para enviar desde Adobe Campaign las cuentas de direccionamiento de Gmail y Outlook.
+Para Gmail y Outlook, primero debe agregar las direcciones de remitente que está utilizando a la lista de permitidos para enviarlas desde Adobe Campaign a las cuentas de Gmail y Outlook que está utilizando.
 
 Para ello:
 1. Asegúrese de que la opción que habilita el correo electrónico dinámico esté marcada para los proveedores de correo electrónico correspondientes.
