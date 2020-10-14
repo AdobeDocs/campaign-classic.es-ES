@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 1a94c94e-ab6b-45c2-a0f3-6adeec7e2d2d
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '3593'
+source-wordcount: '3587'
 ht-degree: 5%
 
 ---
@@ -452,7 +452,7 @@ sh
 >
 >Esta lista no es exhaustiva.
 
-En el nodo **exec** del archivo de configuración del servidor, debe hacer referencia al archivo creado anteriormente en el atributo **blockFile** .
+En el nodo **exec** del archivo de configuración del servidor, debe hacer referencia al archivo creado anteriormente en el atributo **blacklistFile** .
 
 **Sólo** para Linux: en el archivo de configuración del servidor, le recomendamos que especifique un usuario dedicado a ejecutar comandos externos para mejorar la configuración de seguridad. Este usuario se establece en el nodo **exec** del archivo de configuración. Todos los parámetros disponibles en **serverConf.xml** se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
 
@@ -464,7 +464,7 @@ Por ejemplo:
 
 ```
 <serverConf>
- <exec user="theUnixUser" blocklistFile="/pathtothefile/blocklist"/>
+ <exec user="theUnixUser" blacklistFile="/pathtothefile/blacklist"/>
 </serverConf>
 ```
 
