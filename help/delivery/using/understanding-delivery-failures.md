@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 78b58a7a-b387-4d5d-80d5-01c06f83d759
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '2450'
+source-wordcount: '2440'
 ht-degree: 95%
 
 ---
@@ -32,7 +32,7 @@ Cuando un mensaje (correo electrónico, SMS, notificación inmediata) no se pued
 
 Una vez enviado un mensaje, los “logs” de entrega permiten ver el estado de entrega de cada perfil y el tipo y el motivo de error asociado.
 
-Los mensajes también se pueden excluir durante la preparación del envío si se pone en cuarentena una dirección o si hay un perfil en la lista de bloqueados. Los mensajes excluidos se muestran en el panel de entrega.
+Los mensajes también se pueden excluir durante la preparación del envío si se pone en cuarentena una dirección o si un perfil está en lista de bloqueados. Los mensajes excluidos se muestran en el panel de entrega.
 
 **Temas relacionados:**
 
@@ -83,10 +83,10 @@ Los posibles motivos de un error de entrega son:
    <td> El índice de calidad de esta dirección es demasiado bajo.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Dirección en la lista de bloqueados </td> 
+   <td> Dirección Incluida en la lista de bloqueados </td> 
    <td> Grave </td> 
    <td> 8 </td> 
-   <td> La dirección se agregó a la lista de bloqueados en el momento del envío. This status is used for importing data from external lists and external systems into the Adobe Campaign Quarantine list.<br /> </td> 
+   <td> La dirección se agregó a la  de lista de bloqueados en el momento del envío. This status is used for importing data from external lists and external systems into the Adobe Campaign Quarantine list.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dirección de control </td> 
@@ -204,7 +204,7 @@ Un mensaje puede fallar inmediatamente (error sincrónico), o más tarde, despu�
    >
    >La configuración del buzón de rechazos se detalla en [esta sección](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
 
-   The [feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop) operates like bounce emails. Cuando un usuario clasifica un correo electrónico como correo no deseado, puede configurar las reglas de correo en Adobe Campaign para bloquear todas las entregas a este usuario. Los mensajes enviados a los usuarios que han clasificado un correo electrónico como no deseado se redireccionan automáticamente a una bandeja de correo creada específicamente para este fin. Las direcciones de estos usuarios están en la lista de bloqueados aunque no hayan hecho clic en el vínculo baja. Las direcciones se encuentran en la lista de bloqueados de la tabla de cuarentenas (**NmsAddress**) y no en la tabla de destinatarios (**NmsRecipient**).
+   The [feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop) operates like bounce emails. Cuando un usuario clasifica un correo electrónico como correo no deseado, puede configurar las reglas de correo en Adobe Campaign para bloquear todas las entregas a este usuario. Los mensajes enviados a los usuarios que han clasificado un correo electrónico como no deseado se redireccionan automáticamente a una bandeja de correo creada específicamente para este fin. Las direcciones de estos usuarios están en lista de bloqueados aunque no hayan hecho clic en el vínculo baja. Addresses are in denylist in the (**NmsAddress**) quarantine table and not in the (**NmsRecipient**) recipient table.
 
    >[!NOTE]
    >
