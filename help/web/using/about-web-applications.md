@@ -1,6 +1,6 @@
 ---
 title: Acerca de las aplicaciones web
-description: Cree y comparta Aplicaciones web, páginas de aterrizaje y encuestas dinámicas.
+description: Cree y comparta aplicaciones web, páginas de destino y encuestas dinámicas.
 page-status-flag: never-activated
 uuid: acfa6e5e-b503-4a1a-871e-e70007874f57
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '687'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
