@@ -15,16 +15,16 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 
 # Creación de direcciones semilla{#creating-seed-addresses}
 
-Seed addresses are not managed via standard profiles and targets, but in a dedicated node of the Adobe Campaign hierarchy **[!UICONTROL Resources > Campaign management > Seed addresses]**.
+Las direcciones semilla no se administran a través de perfiles y destinatarios estándar, sino en un nodo dedicado de la jerarquía de Adobe Campaign **[!UICONTROL Resources > Campaign management > Seed addresses]**.
 
-Se pueden crear subcarpetas para organizar las direcciones semilla. To do this, right-click the **[!UICONTROL Seed addresses]** node and select **[!UICONTROL Create a new 'Seed addresses' folder]**. Asigne un nombre a la subcarpeta y pulse **[!UICONTROL Enter]** para validar. Ahora puede crear o copiar las direcciones semilla en esta subcarpeta. Para obtener más información, consulte [Definición de direcciones](#defining-addresses).
+Se pueden crear subcarpetas para organizar las direcciones semilla. Para ello, haga clic con el botón derecho en el nodo **[!UICONTROL Seed addresses]** y seleccione **[!UICONTROL Create a new 'Seed addresses' folder]**. Asigne un nombre a la subcarpeta y pulse **[!UICONTROL Enter]** para validar. Ahora puede crear o copiar las direcciones semilla en esta subcarpeta. Para obtener más información, consulte [Definición de direcciones](#defining-addresses).
 
 Adobe Campaign también permite crear plantillas de las direcciones semilla que se importan a las entregas o campañas, adaptándolas a las necesidades específicas de las entregas o campañas correspondientes. Consulte [Creación de plantillas de direcciones semilla](#creating-seed-address-templates).
 
@@ -33,7 +33,7 @@ Adobe Campaign también permite crear plantillas de las direcciones semilla que 
 Para crear direcciones semilla, siga los siguientes pasos:
 
 1. Haga clic en el botón **[!UICONTROL New]** situado encima de las direcciones semilla.
-1. Introduzca los datos relacionados con la dirección en los campos correspondientes de la pestaña **[!UICONTROL Recipient]**. Los campos disponibles corresponden a los datos fundamentales del perfil de los destinatarios de la entrega (nms:recipientTable): nombre, apellido, correo electrónico, etc.
+1. Introduzca los datos relacionados con la dirección en los campos correspondientes de la pestaña **[!UICONTROL Recipient]**. Los campos disponibles corresponden a los datos fundamentales del perfil de los destinatarios de la entrega (nms:recipient table): nombre, apellido, correo electrónico, etc.
 
    >[!NOTE]
    >
@@ -45,11 +45,11 @@ Para crear direcciones semilla, siga los siguientes pasos:
 
 1. En la pestaña **[!UICONTROL Seed fields]**, introduzca los valores que se deben insertar en los registros de envío durante la fase de análisis (en la tabla **[!UICONTROL nms:broadLog]**).
 
-1. In the **[!UICONTROL Additional data]** tab, enter the personalization data used for the deliveries created in the Data management workflows and which you want to assign a specific value to.
+1. En la pestaña **[!UICONTROL Additional data]**, introduzca los datos de personalización utilizados para las entregas creadas en los flujos de trabajo de gestión de datos y a los que desea asignar un valor específico.
 
    >[!NOTE]
    >
-   >Asegúrese de que se hayan definido datos de destinatario adicionales con un alias que comience por &#39;@&#39; en la **[!UICONTROL Enrichment]** actividad. De lo contrario, no podrá usarlos correctamente con sus direcciones semilla en la actividad de envío.
+   >Asegúrese de que se hayan definido datos de destinatario adicionales con un alias que comience por &#39;@&#39; en la actividad **[!UICONTROL Enrichment]**. De lo contrario, no podrá usarlos correctamente con sus direcciones semilla en la actividad de envío.
 
 ## Creación de plantillas de la dirección semilla {#creating-seed-address-templates}
 
@@ -57,7 +57,7 @@ Para crear plantillas de las direcciones que más tarde pueda importar y modific
 
 Para definir una carpeta de tipo “plantilla”, siga el siguiente proceso:
 
-1. Create a new **[!UICONTROL Seed addresses]** type folder, right-click the folder then select **[!UICONTROL Properties...]**.
+1. Cree una nueva carpeta de tipo **[!UICONTROL Seed addresses]**, haga clic con el botón derecho en dicha carpeta y seleccione **[!UICONTROL Properties...]**.
 
    ![](assets/s_ncs_user_seedlist_template_folder.png)
 
