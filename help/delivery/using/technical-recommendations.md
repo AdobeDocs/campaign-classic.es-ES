@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: deliverability-management
 discoiquuid: fc95538b-b54d-44ec-81aa-f51b62982699
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '2436'
+source-wordcount: '2432'
 ht-degree: 94%
 
 ---
@@ -135,7 +135,7 @@ Recommendations for defining an SPF record:
 
 ## Bucle de comentarios {#feedback-loop}
 
-Un bucle de comentarios funciona declarando al nivel del ISP una dirección de correo electrónico determinada para un rango de direcciones IP utilizadas para enviar mensajes. El ISP se envía a este buzón de correo, de manera similar a lo que se hace para los mensajes rechazados, aquellos mensajes cuyos destinatarios notifiquen como correo no deseado. La plataforma debe configurarse para bloquear futuros entregas a los usuarios que envíen quejas. Es importante no volver a ponerse en contacto con ellos aunque no hayan utilizado el vínculo de exclusión adecuado. Es sobre la base de estas quejas que un ISP agregará una dirección IP a su lista de bloqueados. Según el ISP, una tasa de quejas de alrededor del 1% resultará en el bloqueo de una dirección IP.
+Un bucle de comentarios funciona declarando al nivel del ISP una dirección de correo electrónico determinada para un rango de direcciones IP utilizadas para enviar mensajes. El ISP se envía a este buzón de correo, de manera similar a lo que se hace para los mensajes rechazados, aquellos mensajes cuyos destinatarios notifiquen como correo no deseado. La plataforma debe configurarse para bloquear futuros entregas a los usuarios que envíen quejas. Es importante no volver a ponerse en contacto con ellos aunque no hayan utilizado el vínculo de exclusión adecuado. Es sobre la base de estas quejas que un ISP agregará una dirección IP a su  de lista de bloqueados. Según el ISP, una tasa de quejas de alrededor del 1% resultará en el bloqueo de una dirección IP.
 
 Actualmente se está elaborando un estándar para definir el formato de los mensajes de bucle de comentarios: el [Abuse Feedback Reporting Format (ARF)](https://tools.ietf.org/html/rfc6650).
 
