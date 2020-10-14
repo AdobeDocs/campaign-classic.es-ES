@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: api
 discoiquuid: e7b3ffca-c85f-498d-89b4-23fcff59de49
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '638'
 ht-degree: 4%
 
 ---
@@ -45,7 +45,7 @@ Esta sección detalla el uso de los servicios &quot;Suscribirse&quot;, &quot;Can
 
 >[!IMPORTANT]
 >
->[La documentación](https://docs.adobe.com/content/help/es-ES/campaign-classic/technicalresources/api/index.html) JSAPI de campaña contiene información adicional sobre las llamadas SOAP y el uso de Javascript en Adobe Campaign, así como una referencia completa a todos los métodos y funciones utilizados en la aplicación.
+>[La documentación](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html) JSAPI de campaña contiene información adicional sobre las llamadas SOAP y el uso de Javascript en Adobe Campaign, así como una referencia completa a todos los métodos y funciones utilizados en la aplicación.
 
 ## Suscribirse (nms:suscripción) {#subscribe--nms-subscription-}
 
@@ -147,7 +147,7 @@ Si el destinatario no está presente en la base de datos o no está suscrito al 
 
 >[!NOTE]
 >
->Si el nombre del servicio no se especifica como parámetro, el destinatario se ejecuta automáticamente en la lista de bloqueados (@lista de bloqueados=&quot;1&quot;).
+>Si el nombre del servicio no se especifica como parámetro, el destinatario se mostrará automáticamente en lista de bloqueados (@blackList=&quot;1&quot;).
 
 Esta llamada no devuelve datos, excepto errores.
 
