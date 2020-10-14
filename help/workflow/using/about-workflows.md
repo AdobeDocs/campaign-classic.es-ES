@@ -1,6 +1,6 @@
 ---
 title: Acerca de los flujos de trabajo
-description: Automatice los procesos con flujos de trabajo, administre datos y audiencias, envíe mensajes y mucho más.
+description: Automatice los procesos con flujos de trabajo, administre datos y audiencias, envíe mensajes, y mucho más.
 page-status-flag: never-activated
 uuid: 19adb0e5-042d-47a0-9f92-24e4b3045dbe
 contentOwner: sauviat
@@ -13,12 +13,12 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
-# Get started with workflows{#gs-workflows}
+# Introducción a flujos de trabajo{#gs-workflows}
 
 ## Acerca de los flujos de trabajo{#about-workflows}
 
@@ -72,12 +72,12 @@ Cada flujo de trabajo contiene:
 
 ## Principios fundamentales y prácticas recomendadas{#principles-workflows}
 
-Consulte estas secciones para obtener instrucciones y optimizaciones para automatizar procesos con flujos de trabajo:
+Consulte estas secciones para ver instrucciones y prácticas recomendadas para automatizar procesos con flujos de trabajo:
 
 * Obtenga más información sobre las actividades de flujo de trabajo en [esta página](../../workflow/using/how-to-use-workflow-data.md).
 * Obtenga información sobre cómo crear un flujo de trabajo en [esta sección](../../workflow/using/building-a-workflow.md).
-* Descubra cómo utilizar flujos de trabajo para importar datos en Campaña en [esta sección](../../workflow/using/importing-data.md).
-* Las optimizaciones del flujo de trabajo se detallan en [esta página](../../workflow/using/workflow-best-practices.md).
-* Encontrará instrucciones sobre la ejecución del flujo de trabajo en [esta sección](../../workflow/using/starting-a-workflow.md).
-* Obtenga información sobre cómo supervisar flujos de trabajo en [esta página](../../workflow/using/monitoring-workflow-execution.md).
+* Descubra cómo utilizar flujos de trabajo para importar datos en Campaign en [esta sección](../../workflow/using/importing-data.md).
+* Las prácticas recomendadas sobre los flujos de trabajo se detallan en [esta página](../../workflow/using/workflow-best-practices.md).
+* Encontrará instrucciones sobre la ejecución de flujos de trabajo en [esta sección](../../workflow/using/starting-a-workflow.md).
+* Obtenga información sobre cómo monitorizar flujos de trabajo en [esta página](../../workflow/using/monitoring-workflow-execution.md).
 * Obtenga información sobre cómo conceder acceso a los usuarios para que utilicen flujos de trabajo en [esta página](../../workflow/using/managing-rights.md).
