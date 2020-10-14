@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: campaign-optimization
 discoiquuid: a0e76d27-bedd-4f81-b4d2-1221444e670e
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '979'
 ht-degree: 92%
 
 ---
@@ -84,7 +84,7 @@ En el modo de operación estándar, las reglas se aplican en la siguiente secuen
 1. Reglas de control, si se aplican al principio del objetivo.
 1. Reglas de filtrado:
 
-   * Reglas de aplicación nativas para la calificación de direcciones: dirección definida / dirección no verificada / dirección en la lista de bloqueados / dirección en cuarentena / calidad de dirección.
+   * Reglas de aplicación nativas para la calificación de direcciones: dirección definida / dirección no verificada / dirección en la calidad de dirección / dirección en cuarentena / dirección de lista de bloqueados.
    * Reglas de filtrado definidas por el usuario.
    * Deduplicación sobre la dirección o el identificador (se aplica si es necesario).
 
