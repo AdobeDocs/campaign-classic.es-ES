@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 94%
+source-wordcount: '490'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ Mantener la reputación de su dominio y dirección IP es esencial al configurar 
 
 * Comenzar a enviar correos electrónicos es un paso importante porque la plataforma no tiene historial de uso ni reputación cuando las direcciones IP de envío nunca se han utilizado para este fin.
 
-* Los ISP sospechan naturalmente de las direcciones IP que nunca se han utilizado para enviar correos electrónicos y que de repente comienzan a enviar grandes volúmenes de tráfico de correo electrónico. De hecho, los remitentes de spam suelen utilizar direcciones IP &quot;desconocidas&quot; (direcciones que nunca se han agregado a una lista de bloqueados) para enviar el mayor número posible de mensajes antes de la detección.
+* Los ISP sospechan naturalmente de las direcciones IP que nunca se han utilizado para enviar correos electrónicos y que de repente comienzan a enviar grandes volúmenes de tráfico de correo electrónico. De hecho, los remitentes de spam suelen utilizar direcciones IP &quot;desconocidas&quot; (direcciones que nunca han estado en lista de bloqueados) para enviar el mayor número posible de mensajes antes de detectarlos.
 
 * No se puede esperar alcanzar la velocidad operativa en términos de salida al inicio de la fase de producción. Además, no debería intentar enviar mensajes a este ritmo, ya que podría llevar a los ISP a bloquear las direcciones de envío y comprometer seriamente el resto de la fase de inicio.
 
