@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: campaign-optimization
 discoiquuid: 0d50826e-2211-4c3b-8413-ca1453bba6c4
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 88%
+source-wordcount: '505'
+ht-degree: 89%
 
 ---
 
@@ -93,7 +93,7 @@ También puede vincular reglas de filtrado directamente mediante esta pestaña, 
 
 Hay dos reglas de filtrado disponibles de forma predeterminada: **[!UICONTROL Exclude addresses]** ( **[!UICONTROL addressExclusions]** ) y **[!UICONTROL Exclude domains]** ( **[!UICONTROL domainExclusions]** ). Durante el análisis del correo electrónico, estas reglas comparan las direcciones de correo de los destinatarios con las direcciones o nombres de dominio prohibidos incluidos en una lista de supresión global encriptada que se administra en la instancia de envío. Si se encuentra una coincidencia, el mensaje no se envía a ese destinatario.
 
-Esto es para evitar ser agregado a la lista de bloqueados debido a la actividad maliciosa, especialmente el uso de Spamtrampa. Por ejemplo, si se utiliza un Spamtrampa para suscribirse a través de uno de sus formularios web, se enviará automáticamente un correo electrónico de confirmación a dicho Spamtrampa, lo que hará que su dirección se añada automáticamente a la lista de bloqueados.
+Esto es para evitar ser agregado a la  de lista de bloqueados debido a actividad maliciosa, especialmente el uso de Spamtrampa. Por ejemplo, si se utiliza un Spamtrampa para suscribirse a través de uno de sus formularios web, se enviará automáticamente un correo electrónico de confirmación a dicho Spamtrampa, lo que hará que su dirección se añada automáticamente a la  de lista de bloqueados.
 
 >[!NOTE]
 >
