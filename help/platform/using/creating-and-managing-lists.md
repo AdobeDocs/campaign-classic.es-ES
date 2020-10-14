@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: profile-management
 discoiquuid: 9fc243b2-7b7b-4083-83f6-04c12336492d
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 100%
+source-wordcount: '792'
+ht-degree: 92%
 
 ---
 
@@ -25,8 +25,6 @@ ht-degree: 100%
 ## Acerca de las listas en Adobe Campaign {#about-lists-in-adobe-campaign}
 
 Una lista es un conjunto estático de perfiles que puede centrarse en acciones de envío o actualizarse durante operaciones de importación o durante la ejecución del flujo de trabajo. Por ejemplo, una población extraída de la base de datos mediante una consulta puede proporcionar una lista.
-
-
 
 Las listas se crean y administran mediante el vínculo **[!UICONTROL Lists]** en la ficha **[!UICONTROL Profiles and targets]**.
 
@@ -41,6 +39,8 @@ En Adobe Campaign, hay disponibles dos tipos de listas:
 * **[!UICONTROL List]** Tipo: Las listas de tipo **[!UICONTROL List]** permiten utilizar flujos de trabajo para crear y administrar listas. Estas serán listas específicas que resultan de las importaciones de datos, las cuales pueden actualizarse a través de la actividad de flujo de trabajo de **[!UICONTROL List update]** dedicada.
 
    A diferencia de la lista de tipo **[!UICONTROL Group]**, esta lista de tipos se puede actualizar automáticamente con una actividad de **[!UICONTROL Scheduler]** Tenga en cuenta que para ver un ejemplo sobre cómo crear listas de tipo **[!UICONTROL List]**, consulte [esta página](../../workflow/using/list-update.md).
+
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#create-list-video)
 
 ## Creación de una lista de perfiles a partir de un grupo {#creating-a-profile-list-from-a-group}
 
@@ -131,3 +131,22 @@ Puede eliminar una o varias listas de la lista de grupos del árbol de Adobe Cam
 >
 >Cuando se elimina una lista, los perfiles de la lista no se ven afectados; no obstante, los datos del perfil se actualizan.
 
+## Cómo crear una lista de destinatarios {#create-list-video}
+
+Una lista es un conjunto estático de destinatarios que puede centrarse en acciones de envío o actualizarse durante operaciones de importación o durante la ejecución del flujo de trabajo. Una lista de destinatarios también se denomina audiencia.
+
+Aprenda a crear una audiencia configurando una lista de destinatarios desde el Explorador.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
+
+## Cómo crear una lista de destinatarios con un flujo de trabajo
+
+Obtenga información sobre cómo crear un flujo de trabajo para destinatario de destinatarios y cómo hacerlo recurrente antes de utilizar la lista en un destinatario de correo electrónico.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
+
+**Consulte también**
+
+* 
+
+* 
