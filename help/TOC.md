@@ -1,9 +1,9 @@
 ---
 audience: end-user
 user-guide-title: Guía de Adobe Campaign Classic
-breadcrumb-title: Guía del Campaign Classic
+breadcrumb-title: Guía de Campaign Classic
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
-user-guide-description: Diseñe, planifique, ejecute, administre y optimice campañas de mercadotecnia entre canales que proporcionen un alto retorno en la inversión en mercadotecnia.
+user-guide-description: Diseñe, planifique, ejecute, administre y optimice campañas de marketing entre canales que proporcionen un alto retorno en la inversión en marketing.
 product: adobe campaign
 sub-product: Adobe Campaign Classic
 type: Documentation
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2139'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
