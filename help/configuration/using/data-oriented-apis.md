@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: api
 discoiquuid: fba46d42-0253-425b-bbc2-6702d4140e05
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 63b208e5607bdcddaef03292d229847c4b7366f8
 workflow-type: tm+mt
 source-wordcount: '1884'
 ht-degree: 0%
@@ -50,27 +50,27 @@ El siguiente esquema de introducción detalla los intercambios de bajo nivel par
 
 ### ExecuteQuery {#executequery}
 
-Para columnas y condiciones, puede utilizar Consultas.
+For columns and conditions, you can use Queries.
 
-Esto le permite aislar el SQL subyacente. El idioma de consulta no depende del motor subyacente: algunas funciones se reasignarán, lo que puede generar varios pedidos SQL SELECT.
+This lets you isolate the underlying SQL. The query language does not depend on the underlying engine: some functions will be re-mapped, which may generate several SELECT SQL orders.
 
-Para obtener más información sobre esto, consulte [Ejemplo sobre el método &#39;ExecuteQuery&#39; del esquema &#39;xtk:queryDef&#39;](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-).
+For more on this, refer to [Example on the &#39;ExecuteQuery&#39; method of schema &#39;xtk:queryDef&#39;](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-).
 
-El método **ExecuteQuery** se presenta en [ExecuteQuery (xtk:queryDef)](#executequery--xtk-querydef-).
+The **ExecuteQuery** method is presented in [ExecuteQuery (xtk:queryDef)](#executequery--xtk-querydef-).
 
-### Escritura {#write}
+### Write {#write}
 
 Los comandos de escritura permiten escribir documentos simples o complejos, con entradas en una o varias tablas de la base.
 
-Las API transaccionales permiten administrar las conciliaciones mediante el comando **updateOrInsert** : un comando permite crear o actualizar datos. También puede configurar la combinación de modificaciones (**combinar**): este modo operativo permite autorizar actualizaciones parciales.
+Transactional APIs let you manage reconciliations via the **updateOrInsert** command: one command lets you create or update data. También puede configurar la combinación de modificaciones (**combinar**): este modo operativo permite autorizar actualizaciones parciales.
 
-La estructura XML oferta una vista lógica de los datos y permite evitar la estructura física de la tabla SQL.
+The XML structure offers a logical view of the data and lets you sidestep the physical structure of the SQL table.
 
-El método Write se presenta en [Write / WriteCollection (xtk:session)](#write---writecollection--xtk-session-).
+The Write method is presented in [Write / WriteCollection (xtk:session)](#write---writecollection--xtk-session-).
 
 ## ExecuteQuery (xtk:queryDef) {#executequery--xtk-querydef-}
 
-Este método permite realizar consultas a partir de datos asociados a un esquema. Se necesita una cadena de autenticación (debe haber iniciado sesión) y un documento XML que describa la consulta que se va a enviar como parámetros. El parámetro return es un documento XML que contiene el resultado de la consulta en el formato del esquema al que hace referencia la consulta.
+This method lets you perform queries from data associated with a schema. It takes an authentication string (must be logged in) and an XML document describing the query to be submitted as parameters. The return parameter is an XML document containing the result of the query in the format of the schema to which the query refers.
 
 Definición del método &quot;ExecuteQuery&quot; en el esquema &quot;xtk:queryDef&quot;:
 
@@ -226,7 +226,7 @@ Para contar el número de registros de una consulta:
 
 >[!NOTE]
 >
->Nuevamente, usamos la condición del ejemplo anterior. No se utilizan las cláusulas `<select>` y. </select>`
+>Nuevamente, usamos la condición del ejemplo anterior. No se utilizan las cláusulas `<select>` y. `</select>`
 
 #### Data grouping {#data-grouping}
 
@@ -264,11 +264,11 @@ La consulta se puede simplificar agregando el atributo **groupBy** directamente 
 >
 >Ya no es necesario rellenar el `<groupby>` elemento.
 
-#### Bracketing en condiciones {#bracketing-in-conditions}
+#### Bracketing in conditions {#bracketing-in-conditions}
 
-Aquí hay dos ejemplos de paréntesis en la misma condición.
+Here are two examples of bracketing on the same condition.
 
-* Versión simple en una sola expresión:
+* The simple version in a single expression:
 
    ```
    <where>
@@ -276,7 +276,7 @@ Aquí hay dos ejemplos de paréntesis en la misma condición.
    </where>
    ```
 
-* Versión estructurada con `<condition>` elementos:
+* The structured version with `<condition>` elements:
 
    ```
    <where>
