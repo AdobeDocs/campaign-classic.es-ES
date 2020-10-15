@@ -1,6 +1,6 @@
 ---
 title: Arquitectura general
-description: Obtenga información sobre cómo instalar y configurar Campaign Classic.
+description: Descubra cómo instalar y configurar Campaign Classic.
 page-status-flag: never-activated
 uuid: 686bc660-2403-4bab-a4ea-9b872adf8fa0
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1341'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
