@@ -1,7 +1,7 @@
 ---
 title: Informes sobre entregas
 seo-title: Informes sobre entregas
-description: Informes sobre envíos
+description: Informes sobre entregas
 seo-description: null
 page-status-flag: never-activated
 uuid: 83ea834e-08f7-441b-8f15-a25ec07c4aab
