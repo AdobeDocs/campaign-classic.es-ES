@@ -1,6 +1,6 @@
 ---
-title: Fork
-description: Fork
+title: Bifurcación (Fork)
+description: Bifurcación (Fork)
 page-status-flag: never-activated
 uuid: 90db1991-cff9-4dbd-a478-7aae1d845836
 contentOwner: sauviat
@@ -18,7 +18,7 @@ ht-degree: 100%
 ---
 
 
-# Fork{#fork}
+# Bifurcación (Fork){#fork}
 
 Un fork le permite activar todas sus actividades salientes en paralelo.
 
