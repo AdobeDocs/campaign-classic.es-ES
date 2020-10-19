@@ -1,8 +1,6 @@
 ---
 title: Flujo de trabajo para limpieza de bases de datos
-seo-title: Flujo de trabajo para limpieza de bases de datos
-description: Flujo de trabajo para limpieza de bases de datos
-seo-description: null
+description: Descubra cómo se limpian automáticamente los datos obsoletos
 page-status-flag: never-activated
 uuid: a7478641-cdf6-4bd4-9dd7-0c84416c9de6
 contentOwner: sauviat
@@ -12,9 +10,9 @@ content-type: reference
 topic-tags: data-processing
 discoiquuid: 6b188d78-abb4-4f03-80b9-051ce960f43c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
 workflow-type: tm+mt
-source-wordcount: '2908'
+source-wordcount: '2910'
 ht-degree: 1%
 
 ---
@@ -32,7 +30,7 @@ El flujo de trabajo **[!UICONTROL Database cleanup]** accesible a través del **
 
 La limpieza de la base de datos está configurada en dos niveles: en el Planificador de flujo de trabajo y en el asistente de implementación.
 
-### El Planificador {#the-scheduler}
+### Planificador de flujo de trabajo {#the-scheduler}
 
 >[!NOTE]
 >
@@ -53,7 +51,7 @@ De forma predeterminada, el flujo de trabajo **[!UICONTROL Database cleanup]** s
 
 ### Asistente de implementación {#deployment-wizard}
 
-El **[!UICONTROL Deployment wizard]** , al que se accede a través del **[!UICONTROL Tools > Advanced]** menú, le permite configurar durante cuánto tiempo se guardan los datos. Los valores se expresan en días. Si estos valores no se modifican, el flujo de trabajo utilizará los valores predeterminados.
+El **[!UICONTROL Deployment wizard]**, al que se accede a través del **[!UICONTROL Tools > Advanced]** menú, le permite configurar durante cuánto tiempo se guardan los datos. Los valores se expresan en días. Si estos valores no se modifican, el flujo de trabajo utilizará los valores predeterminados.
 
 ![](assets/ncs_cleanup_deployment-wizard.png)
 
