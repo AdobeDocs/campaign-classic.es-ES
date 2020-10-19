@@ -1,6 +1,6 @@
 ---
-title: Uso de la tabla Destinatario de Adobe Campaign Classic
-description: Aprenda a utilizar la tabla de destinatarios lista para usar en Adobe Campaign Classic al diseñar el modelo de datos.
+title: Prácticas recomendadas del modelo de datos
+description: Aprenda a trabajar con el modelo de datos Campaign Classic
 page-status-flag: never-activated
 uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
 contentOwner: sauviat
@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: schema-reference
 discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
 workflow-type: tm+mt
-source-wordcount: '3997'
+source-wordcount: '4014'
 ht-degree: 1%
 
 ---
@@ -253,6 +253,10 @@ De forma predeterminada, el envío y los registros de seguimiento de Adobe Campa
 
 * Si desea mantener los registros más largos, esta decisión debe tomarse cuidadosamente en función del tamaño de la base de datos y del volumen de mensajes enviados. Como recordatorio, la secuencia de Adobe Campaign es un entero de 32 bits.
 * Se recomienda no tener más de mil millones de registros al mismo tiempo en estas tablas (alrededor del 50% de los 2,14 mil millones de identidades disponibles) para limitar los riesgos de consumir todas las identificaciones disponibles. Esto requerirá que algunos clientes reduzcan la duración de la retención por debajo de 180 días.
+
+Obtenga más información sobre la retención de datos en las directrices [de privacidad y seguridad de la](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-overview.html#consent)Campaña.
+
+Obtenga más información sobre el flujo de trabajo de limpieza de la base de datos de Campaña [en esta sección](../../production/using/database-cleanup-workflow.md).
 
 >[!IMPORTANT]
 >
