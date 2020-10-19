@@ -1,7 +1,7 @@
 ---
-title: Inicio y final
-seo-title: Inicio y final
-description: Inicio y final
+title: Inicio y final (Start y End)
+seo-title: Inicio y final (Start y End)
+description: Inicio y final (Start y End)
 seo-description: null
 page-status-flag: never-activated
 uuid: ec0c818c-c307-4f50-908c-507bce0ea27b
@@ -20,7 +20,7 @@ ht-degree: 100%
 ---
 
 
-# Inicio y final{#start-and-end}
+# Inicio y final (Start y End){#start-and-end}
 
 Las actividades **[!UICONTROL Start]** y **[!UICONTROL End]** permiten marcar de forma gráfica el inicio y el final de un flujo de trabajo. Estas actividades no tienen impacto funcional y, por tanto, son opcionales.
 
