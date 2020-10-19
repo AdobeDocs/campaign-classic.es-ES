@@ -1,8 +1,6 @@
 ---
 title: Propiedades del informe
-seo-title: Propiedades del informe
-description: Propiedades del informe
-seo-description: null
+description: Más información sobre la configuración de las propiedades del informe
 page-status-flag: never-activated
 uuid: 56163f53-d115-45b8-94a5-c173ac4c6533
 contentOwner: sauviat
@@ -12,50 +10,50 @@ content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 5ec88743-be51-438c-9064-dd0196fdd7d3
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: b0b9a0714075474bf52c3eed78d45bcef25b44fc
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 100%
+source-wordcount: '458'
+ht-degree: 50%
 
 ---
 
 
 # Propiedades del informe{#properties-of-the-report}
 
-## Información general {#overview}
-
-Puede personalizar y configurar el informe según sus necesidades. Para ello, edite sus propiedades. Se accede a las propiedades del informe a través del botón Propiedad situado sobre el gráfico de secuencia de actividades.
+Puede personalizar y configurar el informe según sus necesidades. Para ello, edite sus propiedades. Report properties are accessed via the **[!UICONTROL Properties]** button above the activity sequence chart.
 
 ![](assets/s_ncs_advuser_report_properties_01.png)
 
+A continuación se describen las propiedades generales. Las funciones avanzadas configuradas en las fichas **[!UICONTROL Parameters]**, **[!UICONTROL Variables]** y **[!UICONTROL Scripts]** se describen [en esta sección](../../reporting/using/advanced-functionalities.md).
+
 ## Propiedades generales {#overall-properties}
 
-La pestaña **[!UICONTROL General]** permite ver o modificar la etiqueta y el esquema a los que hace referencia el informe. Estos elementos se introducen durante la creación del informe.
+En la **[!UICONTROL General]** ficha de las propiedades del informe, puede editar la configuración que se muestra a continuación:
 
-No se recomienda cambiar **[!UICONTROL Internal name]**: este nombre se utiliza en la URL de acceso al informe.
+* La etiqueta y el nombre interno del informe. El **[!UICONTROL Internal name]** se utiliza en la dirección URL final del informe. No debe cambiarse después de la creación del informe.
 
-La plantilla de informe se selecciona durante la creación del informe y no se puede modificar más adelante.
+* La **carpeta** del informe se selecciona durante la creación del informe. Una práctica recomendada es crear una carpeta dedicada para los informes personalizados de modo que no se mezclen con los informes [](../../reporting/using/about-campaign-built-in-reports.md)integrados.
 
-Para cambiar la tabla a la que hace referencia el informe, haga clic en el icono **[!UICONTROL Select link]** a la derecha del campo **[!UICONTROL Document type]**. Para ver los campos disponibles en la tabla seleccionada, haga clic en el icono **[!UICONTROL Magnifier]**.
+* El **Almacenamiento** se selecciona al crear el informe. To change the data table of the report, click the **[!UICONTROL Select link]** icon to the right of the **[!UICONTROL Document type]** field.
 
-![](assets/s_ncs_advuser_report_properties_02.png)
+   ![](assets/s_ncs_advuser_report_properties_02.png)
 
-## Accesibilidad de los informes {#report-accessibility}
+* Parámetros de **Control de acceso** . Estos ajustes se describen a continuación.
 
-Se puede acceder a un informe no solo a través de la consola de Adobe Campaign, sino también, por ejemplo, a través de un explorador web. En este caso, puede ser necesario configurar el control de acceso del informe como se muestra a continuación.
+## Controlling access to the report {#report-accessibility}
+
+Se puede acceder a un informe desde la consola de Adobe Campaign o desde un explorador Web. En este caso, puede ser necesario configurar el control de acceso del informe como se muestra a continuación.
 
 ![](assets/s_ncs_advuser_report_properties_02b.png)
 
-El principio general es el siguiente:
+Las opciones posibles son:
 
-* La opción **[!UICONTROL Anonymous access]** habilita el acceso al informe sin restricciones. Sin embargo, no es posible realizar ninguna manipulación.
+* **[!UICONTROL Anonymous access]**:: esta opción habilita el acceso sin restricciones al informe. Sin embargo, no es posible realizar ninguna manipulación.
 
-   Los derechos del operador de informe predeterminado (“webapp”) se utilizan para mostrar los elementos del informe.
+   Los derechos del operador técnico &#39;webapp&#39; se utilizan para mostrar los elementos del informe. Obtenga más información [en esta sección](../../platform/using/access-management.md#default-operators).
 
-* La opción **[!UICONTROL Access control]** permite a los operadores de Adobe Campaign acceder a él una vez que han iniciado sesión.
-* La opción **[!UICONTROL Specific account]** permite ejecutar el informe con los derechos del operador seleccionado en el campo **[!UICONTROL Operator]**.
-
-Las propiedades de formulario web se detallan en [esta página](../../web/using/about-web-forms.md).
+* **[!UICONTROL Access control]**:: esta opción permite a los operadores de Adobe Campaign acceder a ella una vez que inician sesión.
+* **[!UICONTROL Specific account]**:: esta opción permite ejecutar el informe con los derechos del operador seleccionado en el **[!UICONTROL Operator]** campo.
 
 ## Administración de la localización de informes {#managing-report-localization}
 
@@ -69,7 +67,7 @@ El idioma de edición es el idioma en el que se escribe. Cuando se añade un idi
 
 >[!NOTE]
 >
->Para obtener más información, consulte la sección correspondiente dentro de [esta sección](../../web/using/translating-a-web-form.md).
+>Para obtener más información sobre la localización de páginas web en Campaña, consulte [esta sección](../../web/using/translating-a-web-form.md).
 
 ## Personalización de la renderización HTML {#personalizing-html-rendering}
 
@@ -80,60 +78,7 @@ En la pestaña **[!UICONTROL Rendering]**, se puede personalizar el modo de visu
 * La posición predeterminada de las etiquetas para los elementos del informe. Esta posición se puede sobrecargar para cada elemento.
 * La plantilla o tema utilizado para generar páginas del informe.
 
-Las propiedades de formulario web se detallan en [esta página](../../web/using/about-web-forms.md).
-
 ![](assets/s_ncs_advuser_report_properties_08.png)
-
-## Definición de configuración adicional {#defining-additional-settings}
-
-La pestaña **[!UICONTROL Parameters]** permite crear configuraciones adicionales para el informe: esta configuración se pasa a la dirección URL durante la llamada.
-
-Las propiedades de formulario web se detallan en [esta página](../../web/using/about-web-forms.md).
-
->[!CAUTION]
->
->Por motivos de seguridad, estos parámetros deben utilizarse con mucha precaución
-
-Para crear una nueva configuración:
-
-1. Haga clic en el botón **[!UICONTROL Add]** e introduzca el nombre de la configuración.
-
-   ![](assets/s_ncs_advuser_report_properties_09a.png)
-
-1. Si es necesario, especifique si la configuración es obligatoria o no.
-1. Seleccione el tipo de configuración que desea crear: **[!UICONTROL Filter]** o **[!UICONTROL Variable]**.
-
-   La opción **[!UICONTROL Filter entities]** permite utilizar un campo de la base de datos como parámetro.
-
-   ![](assets/s_ncs_advuser_report_properties_09b.png)
-
-   Los datos se recuperan directamente a nivel de entidad: **ctx/recipient/@account**.
-
-   La opción **[!UICONTROL Variable]** permite crear o seleccionar una variable que se transfiere como parámetro de la dirección URL y se puede utilizar en los filtros.
-
-**[!UICONTROL Response HTTP headers]** permite evitar el secuestro de clics al incluir la página del informe en una página HTML mediante iframe. Para evitar el secuestro de clics, puede elegir el comportamiento **[!UICONTROL X-Frame-options header]**:
-
-* **[!UICONTROL None]**: El informe no tiene **[!UICONTROL X-Frame-options header]**.
-* **[!UICONTROL Same as origin]**: Se configura de forma predeterminada para los informes nuevos y republicados. El nombre de host es el mismo que la dirección URL del informe.
-* **[!UICONTROL Deny]**: El informe no se puede incluir en una página HTML mediante iframe.
-
-![](assets/s_ncs_advuser_report_properties_09c.png)
-
-## Adición de variables {#adding-variables}
-
-La pestaña **[!UICONTROL Variables]** contiene la lista de variables configuradas en el informe. Estas variables se exponen en el contexto del informe y se pueden utilizar en cálculos.
-
-Haga clic en el botón **[!UICONTROL Add]** para crear una variable nueva.
-
-Para ver la definición de una variable, selecciónela y haga clic en el botón **[!UICONTROL Detail...]**.
-
-![](assets/s_ncs_advuser_report_properties_10.png)
-
-## Referencia a secuencias de comandos {#referencing-scripts}
-
-La pestaña **[!UICONTROL Scripts]** permite hacer referencia a los códigos JavaScript que se ejecutan del lado del cliente o del servidor cuando solicita la página del informe.
-
-Para la ejecución normal por parte del cliente, las secuencias de comandos a las que se hace referencia deben escribirse en JavaScript y ser compatibles con la mayoría de los navegadores. Para obtener más información, consulte [esta sección](../../web/using/web-forms-answers.md).
 
 ## Personalización de la página de error {#personalizing-the-error-page}
 
@@ -142,4 +87,3 @@ La pestaña **[!UICONTROL Error page]** permite configurar el mensaje que aparec
 Puede definir textos y vincularlos a identificadores específicos para administrar la localización del informe. Para obtener más información, consulte [Adición de un encabezado y un pie de página](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
 
 ![](assets/s_ncs_advuser_report_properties_11.png)
-
