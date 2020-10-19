@@ -1,8 +1,6 @@
 ---
 title: Configuración de red
-seo-title: Configuración de red
-description: Configuración de red
-seo-description: null
+description: Conozca las directrices de comunicación del sistema
 page-status-flag: never-activated
 uuid: 17357170-7440-4603-bea6-2e4b9086ae72
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 discoiquuid: 639d2f42-e397-4694-942c-b2b8ad94ce9c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
