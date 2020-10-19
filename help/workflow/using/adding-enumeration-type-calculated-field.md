@@ -1,5 +1,5 @@
 ---
-title: Adición de un campo calculado de tipo de enumeración
+title: Adición de un campo calculado de tipo de lista desglosada
 description: Aprenda cómo añadir un Campo calculado de tipo de enumeración.
 page-status-flag: never-activated
 uuid: 0556d53e-0fdf-47b3-b1e0-b52e85e0c662
@@ -18,7 +18,7 @@ ht-degree: 75%
 ---
 
 
-# Adición de un campo calculado de tipo de enumeración {#adding-an-enumeration-type-calculated-field}
+# Adición de un campo calculado de tipo de lista desglosada {#adding-an-enumeration-type-calculated-field}
 
 Aquí se desea crear una consulta con un campo calculado de tipo **[!UICONTROL Enumerations]**. Este campo genera una columna adicional en la ventana de vista previa de datos. Esta columna especifica los valores numéricos devueltos como resultado de cada destinatario (0, 1 y 2). Se asigna un sexo a cada valor de la nueva columna: “Hombre” para “1”, “Mujer” para “2” o “No indicado” si el valor es igual a “0”.
 
