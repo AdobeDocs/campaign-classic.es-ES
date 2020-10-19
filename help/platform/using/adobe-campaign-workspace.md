@@ -12,17 +12,17 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 2f66152b-4d4a-40b8-a1bb-5b97c5410882
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 26ba32468bce3bbb1c52d225c8195977da4d7d54
 workflow-type: tm+mt
-source-wordcount: '2165'
-ht-degree: 100%
+source-wordcount: '2147'
+ht-degree: 98%
 
 ---
 
 
 # Espacio de trabajo de Adobe Campaign{#adobe-campaign-workspace}
 
-## Acerca de la interfaz de Adobe Campaign {#about-adobe-campaign-interface}
+## Exploring Adobe Campaign interface {#about-adobe-campaign-interface}
 
 Una vez que esté conectado a la base de datos, accederá a la página principal de Adobe Campaign, que es un panel compuesto por vínculos y accesos directos que permiten acceder a las funcionalidades, según la instalación y las configuraciones de la plataforma general.
 
@@ -30,7 +30,7 @@ Desde la sección central de la página principal, puede utilizar vínculos para
 
 ![](assets/d_ncs_user_interface_home.png)
 
-La captura de pantalla anterior es un ejemplo de la página principal de un usuario de Adobe Campaign. Para obtener más información, vea el [vídeo de descripción general de la interfaz de Adobe Campaign](https://docs.adobe.com/content/help/es-ES/campaign-learn/campaign-classic-tutorials/getting-started/interface-overview.html).
+![](assets/do-not-localize/how-to-video.png) [Espacio de trabajo de Campaña de Discover en vídeo](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Mientras que con el acceso web, las opciones permiten principalmente la visualiz
 
 ### Idiomas {#languages}
 
-El idioma se selecciona al instalar la instancia de Adobe Campaign Classic y no se puede cambiar posteriormente. Para obtener más información sobre cómo crear una instancia, consulte esta [página](../../installation/using/creating-an-instance-and-logging-on.md).
+El idioma se selecciona al instalar la instancia de Adobe Campaign Classic.
 
 ![](assets/language.png)
 
@@ -67,6 +67,12 @@ Puede elegir entre cinco idiomas diferentes:
 * Japonés
 
 El idioma elegido para la instancia de Adobe Campaign Classic puede afectar los formatos de fecha y hora. Para obtener más información, consulte [esta sección](../../platform/using/adobe-campaign-workspace.md#date-and-time).
+
+Para obtener más información sobre cómo crear una instancia, consulte esta [página](../../installation/using/creating-an-instance-and-logging-on.md).
+
+>[!CAUTION]
+>
+>El idioma no se puede cambiar después de la creación de la instancia.
 
 ## Conceptos básicos de navegación {#navigation-basics}
 
@@ -174,9 +180,9 @@ En la ventana de configuración de la lista, haga clic en “Parámetros avanzad
 
 ![](assets/s_ncs_user_configurelist_advancedparam.png)
 
-### Configuración de listas {#configuring-lists}
+## Configuración de listas {#configuring-lists}
 
-#### Insertar columnas {#add-columns}
+### Insertar columnas {#add-columns}
 
 Existen dos formas de añadir una columna en la lista.
 
@@ -222,14 +228,14 @@ Otra forma de añadir columnas, por ejemplo, si desea mostrar datos que no se mu
 
 1. Haga clic en **[!UICONTROL OK]** para confirmar la configuración y mostrar el resultado.
 
-#### Crear una columna nueva {#create-a-new-column}
+### Crear una columna nueva {#create-a-new-column}
 
 Puede crear nuevas columnas para mostrar campos adicionales en la lista. Para ello:
 
 1. Haga clic en **[!UICONTROL Configure the list]** en la parte inferior derecha de la lista.
 1. Haga clic en **[!UICONTROL Add]** para mostrar un nuevo campo en la lista.
 
-#### Eliminar una columna {#remove-a-column}
+### Eliminar una columna {#remove-a-column}
 
 Puede ocultar una o varias columnas de una lista de registros usando la función **[!UICONTROL Configure list]** situada en la parte inferior derecha de la lista.
 
@@ -241,11 +247,11 @@ En la ventana de configuración de la lista, seleccione la columna que desea ocu
 
 Repita el proceso para cada columna que quiera ocultar. Haga clic en **[!UICONTROL OK]** para confirmar la configuración y mostrar el resultado.
 
-#### Ajustar el ancho de las columnas {#adjust-column-width}
+### Ajustar el ancho de las columnas {#adjust-column-width}
 
 Cuando una lista está activa, es decir, cuando se selecciona al menos una línea, puede utilizar F9 para ajustar el ancho de las columnas de modo que todas las columnas se puedan mostrar en pantalla.
 
-#### Mostrar registros de subcarpetas {#display-sub-folders-records}
+### Mostrar registros de subcarpetas {#display-sub-folders-records}
 
 Las listas pueden mostrar:
 
@@ -286,7 +292,7 @@ Haga clic en **[!UICONTROL Save]** en la ventana de propiedades de la carpeta. L
 
 ![](assets/s_ncs_user_folder_save_config_5.png)
 
-### Exportación de una lista {#exporting-a-list}
+## Exportación de una lista {#exporting-a-list}
 
 Para exportar datos de una lista, debe utilizar un asistente para exportar. Para acceder a él, seleccione los elementos que desea exportar de la lista, haga clic con el botón derecho del ratón y seleccione **[!UICONTROL Export...]**.
 
@@ -296,7 +302,7 @@ El uso de las funciones de importación y exportación se explica en [Importacio
 >
 >Los elementos de una lista no se deben exportar mediante la función Copiar/Pegar.
 
-### Clasificación de una lista {#sorting-a-list}
+## Clasificación de una lista {#sorting-a-list}
 
 Las listas pueden contener una gran cantidad de datos. Puede clasificar estos datos o aplicar filtros simples o avanzados. La clasificación le permite mostrar los datos en orden ascendente o descendente. Los filtros permiten definir y combinar criterios para mostrar solo los datos seleccionados.
 
@@ -321,7 +327,7 @@ También puede configurar la ordenación o combinar criterios de clasificación.
 
 1. Haga clic en **[!UICONTROL Ok]** para confirmar esta configuración y mostrar el resultado en la lista.
 
-### Realizar búsquedas {#running-a-search}
+### Búsqueda de elementos {#running-a-search}
 
 Puede ejecutar una búsqueda de los campos disponibles en un editor utilizando el campo **[!UICONTROL Search]** situado encima de la lista de campos. Presione **Enter** en el teclado o busque en la lista. Los campos que coincidan con la búsqueda tendrán etiquetas en negrita.
 
@@ -388,4 +394,3 @@ En los campos que expresan una duración (por ejemplo, un periodo de validez de 
 * **[!UICONTROL d]** para días.
 
 ![](assets/enter_unit_sample.png)
-
