@@ -1,7 +1,7 @@
 ---
-title: Importación y exportación genéricas.
-seo-title: Importación y exportación genéricas.
-description: Importación y exportación genéricas.
+title: Importación y exportación genéricas
+seo-title: Importación y exportación genéricas
+description: Importación y exportación genéricas
 seo-description: null
 page-status-flag: never-activated
 uuid: e98753bb-1f14-4ec7-aa3b-d5e4f1ebaef7
@@ -20,7 +20,7 @@ ht-degree: 80%
 ---
 
 
-# Importación y exportación genéricas.{#generic-imports-and-exports}
+# Importación y exportación genéricas{#generic-imports-and-exports}
 
 Adobe Campaign ofrece un módulo de exportación de datos que facilita la extracción de una lista de clientes o clientes potenciales (por ejemplo, una operación de segmentación) que luego forme parte de una población objetivo.
 
