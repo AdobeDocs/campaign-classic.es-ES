@@ -1,8 +1,6 @@
 ---
 title: Creación de un nuevo informe
-seo-title: Creación de un nuevo informe
-description: Creación de un nuevo informe
-seo-description: null
+description: Conozca los pasos clave para crear un nuevo informe
 page-status-flag: never-activated
 uuid: dcea5c28-da09-4a31-a13c-c8995c6faa63
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 22c92ddf-fbea-49d3-afd4-1ba427be399d
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 100%
+source-wordcount: '923'
+ht-degree: 86%
 
 ---
 
@@ -60,29 +58,29 @@ Las actividades están vinculadas mediante transiciones, que aparecen representa
 
 Para crear un informe, según su naturaleza y contexto, debe identificar los elementos útiles y modelizar su secuencia lógica.
 
-1. Utilice la actividad “Iniciar” para que comience el primer proceso que se lleva a cabo para crear el informe. Solo puede utilizar una de estas actividades por informe.
+1. Use the **[!UICONTROL Start]** activity to materialize the first process to be carried out to build the report. Solo puede utilizar una de estas actividades por informe.
 
    Es obligatorio si el gráfico incluye un bucle.
 
-1. Añada una o más actividades “Consulta” para recopilar datos que sean útiles para crear el informe. Los datos se pueden recopilar directamente mediante una consulta en un esquema de la base de datos o mediante una lista importada o un Cubo existente.
+1. Add one or more **[!UICONTROL Query]** activities to collect data that is useful for building the report. Los datos se pueden recopilar directamente mediante una consulta en un esquema de la base de datos o mediante una lista importada o un Cubo existente.
 
    Para obtener más información, consulte [Recopilación de datos para analizar](../../reporting/using/collecting-data-to-analyze.md).
 
    Estos datos se visualizan (o no) en el informe en función de la configuración de la página.
 
-1. Añada una o más actividades “Página” para definir la representación gráfica de los datos recopilados. Puede insertar tablas, gráficos y campos de entrada y determinar la visualización de una o más páginas o elementos de la página. El contenido visualizado es totalmente configurable.
+1. Place one or more **[!UICONTROL Page]** activities to define the graphical representation of the collected data. Puede insertar tablas, gráficos y campos de entrada y determinar la visualización de una o más páginas o elementos de la página. El contenido visualizado es totalmente configurable.
 
    Para obtener más información, consulte [Elementos estáticos](#static-elements).
 
-1. Utilice una actividad “Prueba” para definir las condiciones de visualización o acceso a los datos.
+1. Use a **[!UICONTROL Test]** activity to define the conditions for displaying or accessing data.
 
    Para obtener más información, consulte [Determinación de la visualización de la página](../../reporting/using/defining-a-conditional-content.md#conditioning-page-display).
 
-1. Si es necesario, añada secuencias de comandos personalizadas a través de la actividad “Secuencia de comandos”, por ejemplo para calcular el nombre de un informe, para filtrar la visualización del resultado dentro de un contexto específico, etc.
+1. If necessary, add personalized scripts via the **[!UICONTROL Script]** activity, for instance to calculate the name of a report, to filter the display of the result within a specific context, etc.
 
    Para obtener más información, consulte [Actividad de los script](../../reporting/using/advanced-functionalities.md#script-activity).
 
-1. Por último, para facilitar la lectura de los informes complejos, puede insertar una o más actividades de tipo “Salto”. Esto permite pasar de una actividad a otra sin materializar la transición en el informe. El “Salto” también puede utilizarse para visualizar otro informe.
+1. Finally, you for easier reading of complex reports, you can insert one or more **[!UICONTROL Jump]** type activities. Esto permite pasar de una actividad a otra sin materializar la transición en el informe. The **[!UICONTROL Jump]** activity can also be used to display another report.
 
    Para obtener más información, consulte [Actividad del salto](../../reporting/using/advanced-functionalities.md#jump-activity).
 
@@ -167,4 +165,3 @@ Por último, puede incorporar uno o más controles avanzados en los informes. Es
 Aquí puede filtrar los datos del informe para visualizar únicamente la información contenida en una de las carpetas del árbol:
 
 ![](assets/reporting_control_folder.png)
-
