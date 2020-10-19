@@ -1,7 +1,7 @@
 ---
-title: Envío recurrente
-seo-title: Envío recurrente
-description: Envío recurrente
+title: Entrega recurrente
+seo-title: Entrega recurrente
+description: Entrega recurrente
 seo-description: null
 page-status-flag: never-activated
 uuid: 715855df-fe29-46e8-a7ab-d534f010a26e
@@ -20,7 +20,7 @@ ht-degree: 100%
 ---
 
 
-# Envío recurrente{#recurring-delivery}
+# Entrega recurrente{#recurring-delivery}
 
 Una actividad de **[!UICONTROL Recurring delivery]** permite configurar una ocurrencia de plantilla de envío específica de una campaña.
 
@@ -42,7 +42,7 @@ Para ver un ejemplo de la actividad utilizada, consulte esta [sección](../../wo
 
 Un **envío recurrente** creará una nueva instancia de envío cada vez que se ejecute. Por ejemplo, si el flujo de trabajo está programado para ejecutarse una vez a la semana, el resultado sería de 52 envíos al cabo de un año. Esto también significa que el registro y los registros de seguimiento generales se separarán por cada instancia de envío.
 
-![Envío recurrente](assets/delivery_recurring.jpg)
+![Entrega recurrente](assets/delivery_recurring.jpg)
 
 En este vídeo se explica cómo configurar un envío recurrente y una actividad de planificador.
 
