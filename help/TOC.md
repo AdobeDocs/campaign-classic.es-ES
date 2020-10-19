@@ -97,7 +97,7 @@ ht-degree: 100%
       + [Conozca las prácticas recomendadas](delivery/using/delivery-best-practices.md)
       + [Optimización del envío](delivery/using/optimize-delivery.md)
       + [Uso de plantillas](delivery/using/use-templates.md)
-      + [Compilación de contenido personalizado](delivery/using/design-and-personalize.md)
+      + [Creación de contenido personalizado](delivery/using/design-and-personalize.md)
       + [Definición de la audiencia correcta](delivery/using/define-the-right-audience.md)
       + [Comprobación antes de enviar](delivery/using/check-before-sending.md)
       + [Seguimiento y monitorización](delivery/using/track-and-monitor.md)
