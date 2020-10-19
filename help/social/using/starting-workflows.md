@@ -1,7 +1,7 @@
 ---
-title: 'Inicio de un flujo de trabajo '
-seo-title: 'Inicio de un flujo de trabajo '
-description: 'Inicio de un flujo de trabajo '
+title: Inicio de flujos de trabajo
+seo-title: Inicio de flujos de trabajo
+description: Inicio de flujos de trabajo
 seo-description: null
 page-status-flag: never-activated
 uuid: d53ec473-a840-4db5-aa6c-d44139098b2e
@@ -20,7 +20,7 @@ ht-degree: 81%
 ---
 
 
-# Inicio de un flujo de trabajo {#starting-workflows}
+# Inicio de flujos de trabajo {#starting-workflows}
 
 Los **[!UICONTROL Managing social networks]** flujos de trabajo, a los que se accede a través del **[!UICONTROL Administration > Production > Technical workflows > Managing social networks]** nodo, le permiten sincronizar Adobe Campaign con Twitter y Facebook.
 
