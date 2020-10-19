@@ -1,6 +1,6 @@
 ---
-title: Importación y exportación de datos.
-seo-title: Importación y exportación de datos.
+title: Importación y exportación de datos
+seo-title: Importación y exportación de datos
 description: 'null'
 seo-description: 'null'
 page-status-flag: never-activated
@@ -17,5 +17,5 @@ ht-degree: 100%
 ---
 
 
-# Importación y exportación de datos.{#importing-and-exporting-data}
+# Importación y exportación de datos{#importing-and-exporting-data}
 
