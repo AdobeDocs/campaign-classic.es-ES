@@ -12,15 +12,15 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: d6467875-949b-4b47-940f-620efd4db5e0
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 3%
+source-wordcount: '1306'
+ht-degree: 2%
 
 ---
 
 
-# Almacenamiento de correos electrónicos{#email-archiving}
+# Email BCC {#email-archiving}
 
 Puede configurar Adobe Campaign para que mantenga una copia de los correos electrónicos enviados desde su plataforma.
 
@@ -30,15 +30,15 @@ Para ello, los archivos .eml correspondientes a los correos electrónicos enviad
 
 ## Recommendations y limitaciones {#recommendations-and-limitations}
 
-* La función de archivado de correo electrónico es opcional. Compruebe el acuerdo de licencia.
-* Para arquitecturas **alojadas e híbridas**, póngase en contacto con el ejecutivo de cuentas para activarlas. La dirección de CCO que elija debe proporcionarse al equipo de Adobe que la configurará por usted.
-* Para las instalaciones **** in situ, siga las directrices que se describen a continuación para activarlas: consulte las secciones [Activating email archive (on situ)](#activating-email-archiving--on-premise-) y [Configuring the BCC email address (on premise)](#configuring-the-bcc-email-address--on-premise-) .
+* La función Email BCC es opcional. Compruebe el acuerdo de licencia.
+* Para arquitecturas **alojadas e híbridas**, póngase en contacto con el ejecutivo de cuentas para activarlas. La dirección de correo electrónico CCO que elija debe proporcionarse al equipo de Adobe que la configurará por usted.
+* Para las instalaciones **** in situ, siga las instrucciones que se indican a continuación para activarlas: consulte las secciones [Activating email BCC (on premise)](#activating-email-archiving--on-premise-) y [Configuring the BCC email address (on premise)](#configuring-the-bcc-email-address--on-premise-) .
 * Solo puede usar una dirección de correo electrónico CCO.
-* Una vez configurado el CCO de correo electrónico, asegúrese de que la función está habilitada en la Plantilla de envíos o en el envío a través de la **[!UICONTROL Archive emails]** opción. Para obtener más información, consulte [esta sección](../../delivery/using/sending-messages.md#archiving-emails).
+* Una vez configurado el CCO de correo electrónico, asegúrese de que la función está habilitada en la Plantilla de envíos o en el envío a través de la **[!UICONTROL Email BCC]** opción. Para obtener más información, consulte [esta sección](../../delivery/using/sending-messages.md#archiving-emails).
 * Solo se tienen en cuenta los mensajes de correo electrónico enviados correctamente; las devoluciones no.
-* El sistema de archiving de correo electrónico cambió con Adobe Campaign 17.2 (compilación 8795). Si ya estaba utilizando el archivado de correo electrónico, debe actualizarse manualmente al nuevo sistema de archivado de correo electrónico (BCC). Para obtener más información sobre esto, consulte la sección [Actualización del sistema de archivado de correo electrónico (BCC)](#updated-email-archiving-system--bcc-) .
+* El sistema de archiving de correo electrónico cambió con Adobe Campaign 17.2 (compilación 8795). Si ya estaba utilizando el archivado de correo electrónico, debe actualizar manualmente al nuevo sistema CCO de correo electrónico. Para obtener más información sobre esto, consulte la sección [Desplazamiento a la nueva sección Email BCC](#updated-email-archiving-system--bcc-) .
 
-## Activación del archivado de correo electrónico (in situ) {#activating-email-archiving--on-premise-}
+## Activación de Email BCC (in situ) {#activating-email-archiving--on-premise-}
 
 Para activar el archivado de correo electrónico CCO cuando Adobe Campaign esté instalado in situ, siga los pasos a continuación.
 
@@ -70,7 +70,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 
 >[!NOTE]
 >
->En una instancia de intermediaria, el directorio de los correos electrónicos archivados se encuentra en el servidor intermediaria.
+>En una instancia de intermediaria, el directorio de los mensajes de correo electrónico CCO se encuentra en el servidor intermediaria.
 >
 >El deliveryID y el BroadlogID provienen del servidor intermediaria cuando no se envía el estado de los correos electrónicos. Una vez que el estado ha cambiado a **[!UICONTROL Sent]**, estos ID proceden del servidor de marketing.
 
@@ -128,7 +128,7 @@ En el archivo **config-`<instance name>.xml`** , utilice los siguientes parámet
 >
 >Además, el relé asigna un **[!UICONTROL Sent]** estado a todos los correos electrónicos, incluidos los que no se envían. Por lo tanto, todos los mensajes se archivan.
 
-## Sistema de archivado de correo electrónico (BCC) actualizado {#updated-email-archiving-system--bcc-}
+## Pasar a la nueva CCO de correo electrónico {#updated-email-archiving-system--bcc-}
 
 >[!CAUTION]
 >
@@ -140,9 +140,9 @@ Para ello, realice los siguientes cambios en el **`config-<instance>.xml`** arch
 1. Si es necesario, establezca el parámetro **compressionFormat** en **1** .
 1. Establezca el parámetro **archiveType** en **1**.
 
-Una vez configurado el CCO de correo electrónico, asegúrese de seleccionar la **[!UICONTROL Archive emails]** opción en la Plantilla de envíos o el envío. Para obtener más información, consulte [esta sección](../../delivery/using/sending-messages.md#archiving-emails).
+Una vez configurado el CCO de correo electrónico, asegúrese de seleccionar la **[!UICONTROL Email BCC]** opción en la Plantilla de envíos o el envío. Para obtener más información, consulte [esta sección](../../delivery/using/sending-messages.md#archiving-emails).
 
-## Prácticas recomendadas {#best-practices}
+## Prácticas recomendadas de CCO de correo electrónico {#best-practices}
 
 * **Buzón** de direcciones CCO: asegúrese de que tiene suficiente capacidad de recepción para archivar todos los correos electrónicos enviados por la MTA.
 * **mutualización** de MTA: la función de archivado de CCO funciona en el nivel MTA. Permite el duplicado de todos los mensajes de correo electrónico enviados por el MTA. Como el MTA se puede mutualizar en varias instancias (dev, test o prod, por ejemplo) o incluso en varios clientes (en un entorno de intermediaria), la configuración de esta función afecta a la seguridad:
