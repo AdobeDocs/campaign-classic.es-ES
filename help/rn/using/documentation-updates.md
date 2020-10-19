@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
 source-wordcount: '3731'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -202,9 +202,9 @@ Mejora del conector FDA de Hadoop: [Más información](../../platform/using/spec
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
-Las guías de [instalación](../../installation/using/before-reading.md), [producción](../../production/using/foreword.md) y [configuración](../../configuration/using/additional-parameters.md) se han actualizado con la nueva unidad del sistema utilizada por el inicio del servicio nlserver. Puede seguir utilizando /etc/init.d/nlserver6, pero le recomendamos que ahora utilice el comando systemctl para interactuar con el servicio nlserver.
+Las guías de [instalación](../../installation/using/general-architecture.md), [producción](../../production/using/foreword.md) y [configuración](../../configuration/using/additional-parameters.md) se han actualizado con la nueva unidad del sistema utilizada por el inicio del servicio nlserver. Puede seguir utilizando /etc/init.d/nlserver6, pero le recomendamos que ahora utilice el comando systemctl para interactuar con el servicio nlserver.
 
-La guía de instalación se ha actualizado y sincronizado con la última versión de la matriz de compatibilidad. Se han agregado nuevos sistemas admitidos. Se han eliminado las ocurrencias a sistemas obsoletos y no admitidos. [Más información](../../installation/using/before-reading.md)
+La guía de instalación se ha actualizado y sincronizado con la última versión de la matriz de compatibilidad. Se han agregado nuevos sistemas admitidos. Se han eliminado las ocurrencias a sistemas obsoletos y no admitidos. [Más información](../../installation/using/general-architecture.md)
 
 La matriz de compatibilidad se ha actualizado con los conectores Hadoop 3.0 y Snowflake FDA. [Más información](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)
 
@@ -376,7 +376,7 @@ Se ha creado un nuevo artículo de la base de conocimiento sobre el uso del cat�
 
 La sección de actividad de subflujo de trabajo se ha mejorado con un ejemplo de uso. [Más información](../../workflow/using/sub-workflow.md)
 
-El artículo de la base de conocimiento de la [matriz de capacidades alojadas y locales de Campaign Classic](https://helpx.adobe.com/es/campaign/kb/acc-on-prem-vs-hosted.html) se ha actualizado con información relacionada con el archivado de correos electrónicos.
+The [Campaign Classic On-premise &amp; Hosted capability matrix](https://helpx.adobe.com/es/campaign/kb/acc-on-prem-vs-hosted.html) Knowledge base article has been updated with information relating to Email BCC.
 
 La documentación de Mensajería transaccional se ha actualizado con una nota relativa a la publicación de plantillas. [Más información](https://docs.campaign.adobe.com/doc/AC/en/MCE_Template_publication.html)
 
