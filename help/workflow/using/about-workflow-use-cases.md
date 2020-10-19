@@ -11,9 +11,9 @@ topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00a9b7def9d0ad0190c389c6bcde431f8e2f2b44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Le ayudarán a descubrir los diferentes contextos en los que se pueden utilizar 
 * [Uso de agregados](../../workflow/using/using-aggregates.md)
 * [Importación de datos cifrados con una clave generada por el Panel de control de Campaign](../../workflow/using/importing-data.md#use-case-gpg-decrypt)
 * [Codificación y exportación de datos con una clave instalada en el Panel de control de Campaign](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
-* [Actualización de la lista trimestral mediante una consulta incremental](../../workflow/using/quarterly-list-update.md)
+* [Actualización de lista trimestral con una consulta incremental](../../workflow/using/quarterly-list-update.md)
 
 ## Segmentación {#designing-queries}
 
