@@ -1,6 +1,6 @@
 ---
 title: Matriz de compatibilidad
-description: Matriz de compatibilidad
+description: Tabla de compatibilidad con Campaign Classic
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 100%
+source-wordcount: '620'
+ht-degree: 99%
 
 ---
 
@@ -142,7 +142,7 @@ Se admiten los siguientes controladores RDBMS:
 <tr>
 <td>Oracle</td>
 <td>
-<p>11g   R2</p>
+<p>11g    R2</p>
 <p>12c</p>
 <p>18c</p>
 <p>19c</p>
@@ -225,7 +225,7 @@ Se admiten los siguientes controladores RDBMS:
 <tr>
 <td>Oracle</td>
 <td>
-<p>11g  </p>
+<p>11g   </p>
 <p>12c</p>
 <p>18c</p>
 </td>
