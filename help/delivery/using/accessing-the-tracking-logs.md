@@ -1,7 +1,7 @@
 ---
-title: Acceso a los “logs” de seguimiento
-seo-title: Acceso a los “logs” de seguimiento
-description: Acceso a los “logs” de seguimiento
+title: Acceso a los registros de seguimiento
+seo-title: Acceso a los registros de seguimiento
+description: Acceso a los registros de seguimiento
 seo-description: null
 page-status-flag: never-activated
 uuid: 1460739d-7e10-430d-8fed-fd24815f4a40
@@ -20,7 +20,7 @@ ht-degree: 100%
 ---
 
 
-# Acceso a los “logs” de seguimiento{#accessing-the-tracking-logs}
+# Acceso a los registros de seguimiento{#accessing-the-tracking-logs}
 
 Cuando se realiza el envío y el seguimiento está activado, el flujo de trabajo técnico **[!UICONTROL Tracking]** recopila los datos de seguimiento. Se ejecuta cada hora de forma predeterminada.
 
