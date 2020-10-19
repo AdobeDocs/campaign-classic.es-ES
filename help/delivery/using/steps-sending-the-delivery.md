@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
 source-wordcount: '1526'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -50,9 +50,9 @@ Antes de realizar el envío, se pueden definir los parámetros de envío en las 
    >
    >No se recomienda utilizar esta opción al instalar con mid-sourcing para no llamar al MTA.
    >
-   >Para obtener más información sobre la configuración de un servidor SMTP, consulte [esta sección](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
+   >For more information on configuring an SMTP server, refer [to this section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
-* **[!UICONTROL Archive emails]**: Esta opción permite almacenar correos electrónicos en un sistema externo como CCO simplemente añadiendo una dirección de correo electrónico CCO al objetivo del mensaje. Para obtener más información, consulte [Archivar correos electrónicos](../../delivery/using/sending-messages.md#archiving-emails).
+* **[!UICONTROL Email BCC]**: Esta opción permite almacenar correos electrónicos en un sistema externo como CCO simplemente añadiendo una dirección de correo electrónico CCO al objetivo del mensaje. For more on this, refer [to this section](../../delivery/using/sending-messages.md#archiving-emails).
 
 Una vez configurada la entrega y lista para enviarla, asegúrese de ejecutar [Análisis de entrega](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery). Una vez finalizado, haga clic en **[!UICONTROL Confirm delivery]** para iniciar el envío de mensajes.
 
