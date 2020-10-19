@@ -1,7 +1,7 @@
 ---
-title: Selección de un destino de mapeo
-seo-title: Selección de un destino de mapeo
-description: Selección de un destino de mapeo
+title: Selección de una asignación de destino
+seo-title: Selección de una asignación de destino
+description: Selección de una asignación de destino
 seo-description: null
 page-status-flag: never-activated
 uuid: 29a666a3-2ecc-4732-b068-c93935929771
@@ -20,7 +20,7 @@ ht-degree: 100%
 ---
 
 
-# Selección de un destino de mapeo{#selecting-a-target-mapping}
+# Selección de una asignación de destino{#selecting-a-target-mapping}
 
 De forma predeterminada, las plantillas de envío tienen como destino **[!UICONTROL Recipients]**. El destino de mapeo utiliza los campos de la tabla **nms:recipient.** Adobe Campaign ofrece otros destinos de mapeo para las entregas, que puede usar según sus necesidades.
 
