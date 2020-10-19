@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ¿Ha hecho clic en el botón Enviar? Veamos qué pasa. Una vez entregado el envío, Adobe Campaign le permite realizar un seguimiento de los mensajes enviados y descubrir cómo reaccionan sus destinatarios al envío. Esto le ayudará a mejorar los envíos futuros y a optimizar sus próximas campañas.
 
-## Seguimiento de envíos {#monitoring-deliveries}
+## Seguimiento de entregas {#monitoring-deliveries}
 
 Para controlar sus campañas, debe asegurarse de que el mensaje se haya enviado a sus destinatarios.
 
