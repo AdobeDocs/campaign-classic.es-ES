@@ -1,7 +1,7 @@
 ---
-title: Envío continuo
-seo-title: Envío continuo
-description: Envío continuo
+title: Entrega continua
+seo-title: Entrega continua
+description: Entrega continua
 seo-description: null
 page-status-flag: never-activated
 uuid: af8b4582-299e-47f9-9819-987b35db94ab
@@ -20,7 +20,7 @@ ht-degree: 100%
 ---
 
 
-# Envío continuo{#continuous-delivery}
+# Entrega continua{#continuous-delivery}
 
 Una acción del tipo **Continuous delivery** permite agregar nuevos destinatarios a una entrega existente. Este tipo de envío evita tener que crear una nueva cada vez: este modo suele ser más eficaz, en particular para alertas de bajo volumen o notificaciones enviadas cuando es necesario. A nivel de la plantilla de envío, puede especificar un script para calcular la etiqueta (y la carpeta de la campaña) de la entrega asociado. Si la secuencia de comandos calcula una entrega que aún no existe, se crea sobre la marcha.
 
@@ -59,7 +59,7 @@ Los **envíos continuos** le permiten añadir destinatarios nuevos a un envío e
 
 Un envío continuo creará un envío ÚNICO y registros de envío (wideLog) y registros de seguimiento que hacen referencia a que se agrega un envío cada vez que se ejecuta.
 
-![Envío continuo](assets/delivery_continuous.jpg)
+![Entrega continua](assets/delivery_continuous.jpg)
 
 Este vídeo muestra cómo configurar un envío continuo con una consulta incremental.
 
