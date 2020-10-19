@@ -35,7 +35,7 @@ Además, el módulo **Marketing Resource Management (MRM)** permite controlar la
 
 Los siguientes conceptos son esenciales para conocer mejor Campaign:
 
-* **Campaña**
+* **Campaign**
 
    Una campaña unifica todos los elementos relacionados con una campaña de marketing: envíos, reglas de segmentación, costes, archivos de exportación, documentos relacionados, etc. Cada campaña se vincula a un programa.
 
