@@ -1,5 +1,5 @@
 ---
-title: Actualización de la lista trimestral mediante una consulta incremental
+title: Actualización de lista trimestral con una consulta incremental
 description: En este caso de uso,, se utiliza una consulta incremental para actualizar automáticamente una lista de destinatarios.
 page-status-flag: never-activated
 uuid: 24d322e8-172c-4faa-8a1f-59085b390a76
@@ -18,7 +18,7 @@ ht-degree: 100%
 ---
 
 
-# Actualización de la lista trimestral mediante una consulta incremental {#quarterly-list-update}
+# Actualización de lista trimestral con una consulta incremental {#quarterly-list-update}
 
 En el siguiente ejemplo, se utiliza una [consulta incremental](../../workflow/using/incremental-query.md) para actualizar automáticamente una lista de destinatarios. Estos destinatarios están dirigidos como parte de campañas de marketing de temporada.
 
