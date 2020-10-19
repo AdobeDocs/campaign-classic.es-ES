@@ -1,8 +1,6 @@
 ---
-title: Funcionalidades avanzadas
-seo-title: Funcionalidades avanzadas
-description: Funcionalidades avanzadas
-seo-description: null
+title: Funciones avanzadas
+description: Funciones avanzadas
 page-status-flag: never-activated
 uuid: 4dbf4750-0226-4f96-98d8-ec49b20374ac
 contentOwner: sauviat
@@ -12,23 +10,49 @@ content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 0c264783-2775-4ec6-8d49-cd9a45a18d60
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 100%
+source-wordcount: '621'
+ht-degree: 53%
 
 ---
 
 
-# Funcionalidades avanzadas{#advanced-functionalities}
+# Funciones avanzadas{#advanced-functionalities}
 
-## Adición de una secuencia de comandos {#adding-a-script}
+Como usuario técnico, además de las propiedades [](../../reporting/using/properties-of-the-report.md)generales, puede aprovechar las capacidades avanzadas para configurar los informes, como por ejemplo:
 
-### Actividad de secuencia de comandos {#script-activity}
+* Cree consultas complejas para procesar datos en una actividad de **secuencia de comandos** . [Más información](#script-activity)
 
-Esta actividad permite procesar datos y crear fácilmente consultas complejas que no habilitan el lenguaje SQL.
+* Añada una secuencia de comandos externa para ejecutarla en el servidor o en el cliente. [Más información](#external-script)
 
-Solo se debe introducir la consulta en la ventana de secuencia de comandos.
+* Llame a un informe con una actividad de **salto** . [Más información](#calling-up-another-report)
+
+* Añada un parámetro de URL en un informe para que sea más accesible. [Más información](#calling-up-another-report)
+
+* Añadir variables que se utilizarán en el contexto del informe. [Más información](#adding-variables)
+
+## Uso de scripts {#adding-a-script}
+
+### Secuencias de comandos externas de referencia {#external-script}
+
+Puede hacer referencia a códigos JavaScript que se ejecutarán en el cliente o en el servidor cuando se llame a la página del informe.
+
+Para ello:
+
+1. Edit the [report properties](../../reporting/using/properties-of-the-report.md) and click the **[!UICONTROL Scripts]**.
+1. Haga clic en **[!UICONTROL Add]** y seleccione la secuencia de comandos a la que desea hacer referencia.
+1. A continuación, seleccione el modo de ejecución.
+
+   Si añade varias secuencias de comandos, utilice las flechas de la barra de herramientas para definir su secuencia de ejecución.
+
+   ![](assets/reporting_custom_js.png)
+
+Para la ejecución normal en el lado del cliente, las secuencias de comandos referenciadas deben escribirse en JavaScript y deben ser compatibles con navegadores comunes. Para obtener más información, consulte [esta sección](../../web/using/web-forms-answers.md).
+
+### Adding a Script activity {#script-activity}
+
+Al [diseñar el informe](../../reporting/using/creating-a-new-report.md#modelizing-the-chart), utilice la **[!UICONTROL Script]** actividad para procesar los datos y crear fácilmente consultas complejas que no habiliten el lenguaje SQL. Puede introducir directamente la consulta en la ventana de script.
 
 La pestaña **[!UICONTROL Texts]** permite definir cadenas de texto. Pueden utilizarse con la siguiente sintaxis: **$(Identifier)**. Para obtener más información sobre el uso de textos, consulte [Adición de un encabezado y un pie de página](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
 
@@ -42,22 +66,59 @@ Para crear un historial del informe, añada la línea siguiente a la consulta Ja
 if( ctx.@_historyId.toString().length == 0 )
 ```
 
-De lo contrario, se muestran los datos actuales.
+De lo contrario, solo se mostrarán los datos actuales.
 
-### Secuencia de comandos externa {#external-script}
+## Añadir un parámetro de URL {#defining-additional-settings}
 
-Es posible utilizar una secuencia de comandos externa que se ejecute en el servidor o del lado del cliente. Para ello:
+The **[!UICONTROL Parameters]** tab of the [report properties](../../reporting/using/properties-of-the-report.md) lets you define additional settings for the report: these settings will be passed into the URL during the call up.
 
-1. Edite las propiedades del informe y haga clic en **[!UICONTROL Scripts]**.
-1. Haga clic en **[!UICONTROL Add]** y seleccione la secuencia de comandos a la que desea hacer referencia.
-1. A continuación, seleccione el modo de ejecución.
+>[!CAUTION]
+>
+>Por motivos de seguridad, estos parámetros deben utilizarse con mucha precaución
 
-   Si añade varias secuencias de comandos, utilice las flechas de la barra de herramientas para definir su secuencia de ejecución.
+Para crear una nueva configuración:
 
-   ![](assets/reporting_custom_js.png)
+1. Haga clic en el botón **[!UICONTROL Add]** e introduzca el nombre de la configuración.
+
+   ![](assets/s_ncs_advuser_report_properties_09a.png)
+
+1. Si es necesario, especifique si la configuración es obligatoria o no.
+
+1. Seleccione el tipo de configuración que desea crear: **[!UICONTROL Filter]** o **[!UICONTROL Variable]**.
+
+   La opción **[!UICONTROL Filter entities]** permite utilizar un campo de la base de datos como parámetro.
+
+   ![](assets/s_ncs_advuser_report_properties_09b.png)
+
+   Los datos se recuperan directamente a nivel de entidad: **ctx/recipient/@account**.
+
+   La opción **[!UICONTROL Variable]** permite crear o seleccionar una variable que se transfiere como parámetro de la dirección URL y se puede utilizar en los filtros.
+
+**[!UICONTROL Response HTTP headers]** permite evitar el secuestro de clics al incluir la página del informe en una página HTML mediante iframe. Para evitar el secuestro de clics, puede elegir el comportamiento **[!UICONTROL X-Frame-options header]**:
+
+* **[!UICONTROL None]**: El informe no tiene **[!UICONTROL X-Frame-options header]**.
+* **[!UICONTROL Same as origin]**: Se configura de forma predeterminada para los informes nuevos y republicados. El nombre de host es el mismo que la dirección URL del informe.
+* **[!UICONTROL Deny]**: El informe no se puede incluir en una página HTML mediante iframe.
+
+![](assets/s_ncs_advuser_report_properties_09c.png)
+
+## Adición de variables {#adding-variables}
+
+La pestaña **[!UICONTROL Variables]** contiene la lista de variables configuradas en el informe. Estas variables se exponen en el contexto del informe y se pueden utilizar en cálculos.
+
+Haga clic en el botón **[!UICONTROL Add]** para crear una variable nueva.
+
+Para ver la definición de una variable, selecciónela y haga clic en el botón **[!UICONTROL Detail...]**.
+
+![](assets/s_ncs_advuser_report_properties_10.png)
+
+## Caso de uso: usar variables y parámetros en un informe
+
+En el siguiente ejemplo de vídeo, aprenderá a agregar un parámetro &quot;_type&quot; para crear diferentes vistas de un informe, en función del valor de este atributo.
+
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](https://helpx.adobe.com/campaign/classic/how-to/add-url-parameter-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/business-practitioners/explevel/intermediate/applaunch/how-to-4/collection.ccx.js&amp;ref=helpx.adobe.com)
+
 
 ## Llamada a otro informe {#calling-up-another-report}
 
-### Actividad de salto {#jump-activity}
-
-Un salto es como una transición sin una flecha: permite pasar de una actividad a otra o acceder a otro informe.
+A **Jump** activity is like a transition without an arrow: it lets you go from one activity to another or access another report.
