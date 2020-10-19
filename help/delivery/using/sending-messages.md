@@ -1,6 +1,6 @@
 ---
 title: Envío de un correo electrónico con Adobe Campaign Classic
-description: Obtenga información sobre los parámetros específicos para enviar correos electrónicos en Adobe Campaign Classic.
+description: Información sobre los parámetros de envío de correo electrónico
 page-status-flag: never-activated
 uuid: 791f7a54-3225-46ca-ad6f-6c32e9c62d75
 contentOwner: sauviat
@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: sending-emails
 discoiquuid: e2dd8161-fe38-48bf-a288-8ec328b2660e
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 87%
+source-wordcount: '739'
+ht-degree: 74%
 
 ---
 
@@ -29,25 +29,25 @@ El proceso detallado para validar y realizar una entrega se presenta en las sigu
 
 Las secciones siguientes detallan los parámetros específicos para enviar correos electrónicos.
 
-## Archivado de correos electrónicos {#archiving-emails}
+## Email BCC {#archiving-emails}
 
 Adobe Campaign permite almacenar correos electrónicos en un sistema externo a través de CCO añadiendo simplemente una dirección de correo electrónico CCO al destino del mensaje. Una vez activada la opción, se conserva una copia exacta de todos los mensajes enviados en este envío.
 
-Para obtener más información sobre la configuración de la CCO, consulte [esta sección](../../installation/using/email-archiving.md).
+Para obtener más información sobre la configuración y las prácticas recomendadas de Email BCC, consulte [esta sección](../../installation/using/email-archiving.md).
 
 >[!NOTE]
 >
->Esta función es opcional. Compruebe el acuerdo de licencia y póngase en contacto con el administrador de cuentas para activarlo.
+>Email BCC es una capacidad opcional. Compruebe el acuerdo de licencia y póngase en contacto con el administrador de cuentas para activarlo.
 
-Al crear un nuevo envío o plantilla de envío, el correo electrónico CCO no está activado de forma predeterminada, incluso si se ha adquirido la opción. Debe activarlo manualmente en cada envío o plantilla donde desee usarlo.
+Al crear un nuevo envío o Plantilla de envíos, Email BCC no está habilitado de forma predeterminada. Debe habilitarlo manualmente en el nivel de envío o Plantilla de envíos de correo electrónico.
 
-Para realizar esto, siga los pasos a continuación:
+Para habilitar Email BCC para una Plantilla de envíos de correo electrónico, siga los pasos a continuación:
 
 1. Vaya a **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** o **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Seleccione la entrega que desee o duplique la plantilla de **envío de correo electrónico** preestablecida y, a continuación, seleccione la plantilla duplicada.
 1. Haga clic en el botón **Propiedades**.
 1. Seleccione la pestaña **[!UICONTROL Delivery]** .
-1. Marque la casilla **Archivar correos electrónicos** para mantener una copia de todos los mensajes enviados para este envío o para cada envío basado en esta plantilla.
+1. Marque la opción **Enviar correo electrónico a CCO** . Se enviará una copia de todos los mensajes enviados para cada envío en función de esta plantilla a la dirección de CCO de correo electrónico que se haya configurado.
 
    ![](assets/s_ncs_user_wizard_archiving.png)
 
