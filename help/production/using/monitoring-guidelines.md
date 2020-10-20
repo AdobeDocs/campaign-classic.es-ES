@@ -87,7 +87,7 @@ Las siguientes directrices y prácticas recomendadas al usar flujos de trabajo p
 * [Prácticas recomendadas al utilizar flujos de trabajo](../../workflow/using/workflow-best-practices.md)
 * [Control de la ejecución del flujo de trabajo](../../workflow/using/monitoring-workflow-execution.md)
 
-### Seguimiento de envíos {#monitoring-deliveries}
+### Seguimiento de entregas {#monitoring-deliveries}
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
