@@ -8,10 +8,10 @@ product: adobe campaign
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: f8539433274e531e34b7512ce1b6385d67e8e332
 workflow-type: tm+mt
-source-wordcount: '2130'
-ht-degree: 99%
+source-wordcount: '2124'
+ht-degree: 98%
 
 ---
 
@@ -597,14 +597,14 @@ ht-degree: 99%
       + [Implementación empresarial](installation/using/enterprise-deployment.md)
       + [Implementación intermediaria](installation/using/mid-sourcing-deployment.md)
       + [Power Booster y Power Cluster](installation/using/power-booster-and-power-cluster.md)
-   + Instalación de Campaign en Windows {#installing-campaign-in-windows-}
-      + [Requisitos previos para la instalación de Campaign en Windows](installation/using/prerequisites-of-campaign-installation-in-windows.md)
+   + Campaña en Windows {#installing-campaign-in-windows-}
+      + [Antes de instalar Campaña en Windows](installation/using/prerequisites-of-campaign-installation-in-windows.md)
       + [Instalación del servidor](installation/using/installing-the-server.md)
       + [Integración en un servidor web para Windows](installation/using/integration-into-a-web-server-for-windows.md)
       + [Disponibilidad de la consola de cliente para Windows](installation/using/client-console-availability-for-windows.md)
       + [Instalación de la consola de cliente](installation/using/installing-the-client-console.md)
-   + Instalación de Campaign en Linux {#installing-campaign-in-linux-}
-      + [Requisitos previos para la instalación de Campaign en Linux](installation/using/prerequisites-of-campaign-installation-in-linux.md)
+   + Campaña en Linux  {#installing-campaign-in-linux-}
+      + [Antes de instalar Campaña en Linux](installation/using/prerequisites-of-campaign-installation-in-linux.md)
       + [Instalación de paquetes con Linux](installation/using/installing-packages-with-linux.md)
       + [Integración en un servidor web para Linux](installation/using/integration-into-a-web-server-for-linux.md)
       + [Disponibilidad de la consola de cliente para Linux](installation/using/client-console-availability-for-linux.md)
@@ -625,11 +625,11 @@ ht-degree: 99%
       + [Servidor intermediario](installation/using/mid-sourcing-server.md)
       + [Interacción: búfer de datos](installation/using/interaction---data-buffer.md)
    + Apéndices {#appendices}
-      + [El archivo de configuración del servidor](installation/using/the-server-configuration-file.md)
+      + [Archivo de configuración del servidor](installation/using/the-server-configuration-file.md)
       + [Puntos finales de red de Campaign ](installation/using/campaign-network-endpoints.md)
       + [Líneas de comandos](installation/using/command-lines.md)
       + [Creación de nuevas instancias](installation/using/creating-new-instances.md)
-      + [Lista de opciones de Campaign Classic](installation/using/configuring-campaign-options.md)
+      + [Lista de opciones de Campaign ](installation/using/configuring-campaign-options.md)
       + [Desinstalación de Campaign](installation/using/uninstalling-campaign.md)
 + Monitorización de Campaign Classic {#monitoring-campaign-classic}
    + Introducción {#introduction}
