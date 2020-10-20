@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 6652b081-66b6-47a8-97e5-383e3251647e
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: 87ad4d4fc69d75e4367e7467ce27de29f58f9445
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 82%
+source-wordcount: '501'
+ht-degree: 73%
 
 ---
 
@@ -30,7 +30,7 @@ Puede iniciar Adobes Campaign seleccionando **[!UICONTROL Start / All Programs /
 
 La ventana de conexión de la consola del cliente le permite seleccionar o configurar bases de datos existentes y conectarse con un nombre de usuario y una contraseña:
 
-![](assets/acc-logon-screen.png)
+![](assets/s_ncs_user_login.png)
 
 ## Conexión a Adobe Campaign {#connecting-to-adobe-campaign}
 
@@ -86,18 +86,18 @@ Para desconectarse de Adobe Campaign, utilice el primer icono de la barra de ico
 >
 >También puede cerrar la aplicación sin cerrar sesión primero.
 
-## Su versión de Adobe Campaign {#getting-your-campaign-version}
+## Getting your Adobe Campaign version {#getting-your-campaign-version}
 
 El menú **[!UICONTROL Help > About...]** le permite obtener acceso a la siguiente información:
 
-* número de **versión**
-* número de **registro**
+* **número de versión** de la consola del cliente de Campaña y del servidor de aplicaciones
+* **número de compilación** para consola cliente de Campaña y servidor de aplicaciones
 * un vínculo para ponerse en contacto con el Servicio de atención al cliente de Adobe
 * vínculos a la Política de privacidad de Adobe, a las Condiciones de uso y a la Política de cookies
 
 ![](assets/about-acc.png)
 
-Cuando contacte con el equipo de asistencia de Adobe, debe proporcionar el número de versión y el número de registro de la consola del cliente de Campaign y del servidor de aplicaciones.
+Siempre que se ponga en contacto con el equipo de atención al cliente de Adobe, debe proporcionar el número de versión y el número de compilación de la consola cliente de Campaña y el servidor de aplicaciones.
 
 Si está ejecutando la versión [de](../../rn/using/gold-standard.md)Campaña Gold Standard, también debe compartir los caracteres SHA/1 que se muestran en el **[!UICONTROL About]** cuadro. Como ejemplo, para la versión **Gold** Standard 10, el número de compilación mostrará la **compilación 9032@efd8a94**, como se muestra a continuación:
 
