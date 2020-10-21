@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: c03e90b2e2f57606749c86cda343ce5756fec122
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '3764'
+source-wordcount: '3752'
 ht-degree: 97%
 
 ---
@@ -226,7 +226,7 @@ La guía [Envío de notificaciones push](../../delivery/using/about-mobile-app-c
 
 El nuevo parámetro para la configuración de informes de direcciones URL se ha documentado [aquí](../../reporting/using/properties-of-the-report.md#defining-additional-settings).
 
-La página **matriz de funciones locales y alojadas de Campaign Classic** se ha actualizado con los nuevos conectores de FDA. [Más información](https://helpx.adobe.com/es/campaign/kb/acc-on-prem-vs-hosted.html)
+La página **matriz de funciones locales y alojadas de Campaign Classic** se ha actualizado con los nuevos conectores de FDA. [Más información](../../installation/using/capability-matrix.md).
 
 Se ha actualizado la página **matriz de funciones de Campaign Classic**. [Más información](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)
 
@@ -380,7 +380,7 @@ Se ha creado un nuevo artículo de la base de conocimiento sobre el uso del cat�
 
 La sección de actividad de subflujo de trabajo se ha mejorado con un ejemplo de uso. [Más información](../../workflow/using/sub-workflow.md)
 
-The [Campaign Classic On-premise &amp; Hosted capability matrix](https://helpx.adobe.com/es/campaign/kb/acc-on-prem-vs-hosted.html) Knowledge base article has been updated with information relating to Email BCC.
+La página matriz [de funciones locales y alojadas del](../../installation/using/capability-matrix.md) Campaign Classic se ha actualizado con información relacionada con Email BCC.
 
 La documentación de Mensajería transaccional se ha actualizado con una nota relativa a la publicación de plantillas. [Más información](https://docs.campaign.adobe.com/doc/AC/en/MCE_Template_publication.html)
 
