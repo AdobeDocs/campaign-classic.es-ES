@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
 workflow-type: tm+mt
 source-wordcount: '1318'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -79,7 +79,7 @@ _lunes, 2 de diciembre de 2019_
   <tr> 
 <td> <p>Adobe Campaign le permite probar el nuevo formato <a href="https://amp.dev/about/email/">AMP interactivo para correo electrónico</a>, que permite a los especialistas en marketing incluir componentes de AMP dentro de los mensajes para mejorar la experiencia de correo electrónico con contenido enriquecido, dinámico e interactivo, directamente procesable en el propio mensaje.</p>
    <p> Esta capacidad se presenta como una versión beta pública.</p>
-   <p>Para obtener más información, consulte la <a href="../../delivery/using/defining-interactive-content.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">videotutorial</a>.</p><br /></td> 
+   <p>Para obtener más información, consulte la <a href="../../delivery/using/defining-interactive-content.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">videotutorial</a>.</p><br /></td> 
   </tr> 
  </tbody> 
 </table>
@@ -135,7 +135,7 @@ Ya está disponible la compilación 1.0.26 del SDK para iOS. En esta nueva compi
 
 **Parches**
 
-* Se corrigió un problema de bloqueo cuando el campo **Añadir tabla** vinculada estaba vacío en la actividad de flujo de trabajo Carga **de datos (RDBMS)** . (NEO-12213)
+* Se ha corregido un problema de bloqueo cuando el campo **Añadir tabla vinculada** está vacío en la actividad de flujo de trabajo **Carga de datos (RDBMS)**. (NEO-12213)
 * Se ha corregido un problema que podía hacer que el servidor intermediario no procesara determinados mensajes. (NEO-12395)
 * Se ha corregido un problema en el flujo de trabajo de limpieza de la base de datos al utilizar la opción de bandas de consulta con Teradata. (NEO-12399)
 * Se ha corregido un problema que afectaba al análisis de entrega con la regla de tipología, incluido el dominio ne.jp. (NEO-12609)
@@ -149,7 +149,7 @@ Ya está disponible la compilación 1.0.26 del SDK para iOS. En esta nueva compi
 * Se ha corregido un problema en los flujos de trabajo al utilizar la actividad **File transfer** para descargar archivos mediante la opción **Delete the source files after transfer**, con un nombre que contenía un carácter de espacio. (NEO-13411)
 * Se ha corregido un problema con la limpieza de caché de Tomcat que podía provocar problemas de memoria. (NEO-13456)
 * Se ha corregido un problema al instalar **Control of offer engine with execution instance** existente que se ejecuta en Microsoft SQL 2017. (NEO-13539)
-* Se ha corregido un problema de bloqueo de la consola que se producía al desmarcar direcciones URL seguidas en un correo electrónico, desde la ficha Contenido **de** texto debido a una variable no inicializada. (NEO-13545)
+* Se ha corregido un problema de bloqueo de la consola que se producía al desmarcar direcciones URL rastreadas en un correo electrónico, desde la ficha **Contenido de texto** debido a una variable no inicializada. (NEO-13545)
 * Se ha corregido un problema de codificación en el nombre del remitente chino. (NEO-13837)
 * Se ha corregido un error que se podía generar al mostrar los datos de respuesta del estudio desde el Explorador. (NEO-14590)
 * Se ha corregido un problema que podía provocar discrepancias entre la clasificación del registro de entrega y la tabla de cuarentena. (NEO-16547)
@@ -163,7 +163,7 @@ Ya está disponible la compilación 1.0.26 del SDK para iOS. En esta nueva compi
 * Se ha corregido un problema de tiempo de espera al importar datos desde un SFTP externo. (NEO-19723)
 * Se ha corregido un problema al acceder a modelos predictivos. (NEO-19713)
 * Se ha corregido un problema que afectaba al muestreo aleatorio en la actividad de flujo de trabajo de **Split** con la base de datos FDA de Hadoop. (NEO-16636)
-* Se corrigió una regresión en Oracle que ocasionaba que algunas funciones se consideraran no válidas después de la postactualización. (NEO-12759)
+* Se ha corregido una regresión en Oracle que hacía que algunas funciones se consideraran no válidas después de la postactualización. (NEO-12759)
 
 
 
