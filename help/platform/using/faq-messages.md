@@ -11,9 +11,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '740'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ El análisis de envíos es la fase durante la cual se calcula la población obje
 
 Adobe recomienda encarecidamente crear mensajes de prueba para probar la entrega en un grupo de aprobación antes de enviarlo al objetivo principal. A continuación, puede validar los parámetros de contenido, personalización y envío de mensajes.
 
-[Haga clic aquí para obtener más información](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof). También puede ver [este vídeo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/managing-seed-and-proofs.html).
+[Haga clic aquí para obtener más información](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
 ### ¿Cómo se utilizan las direcciones semilla en Adobe Campaign? {#how-to-use-seed-addresses-in-adobe-campaign-}
 
