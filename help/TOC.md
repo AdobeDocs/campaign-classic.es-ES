@@ -8,9 +8,9 @@ product: adobe campaign
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: f8539433274e531e34b7512ce1b6385d67e8e332
+source-git-commit: 20894054c09cfc4a388b068f25f990277bc1fc70
 workflow-type: tm+mt
-source-wordcount: '2124'
+source-wordcount: '2125'
 ht-degree: 98%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 98%
       + Preguntas frecuentes {#faq}
          + [Preguntas frecuentes](platform/using/common-questions.md)
          + [Conceptos clave](platform/using/faq-key-concepts.md)
+         + [Actualización de versión](platform/using/faq-build-upgrade.md)
          + [Audiencias](platform/using/faq-audiences.md)
          + [Diseñar mensajes](platform/using/faq-designing.md)
          + [entrega de mensajes](platform/using/faq-messages.md)
@@ -652,7 +653,8 @@ ht-degree: 98%
       + [Flujo de trabajo para limpieza de bases de datos](production/using/database-cleanup-workflow.md)
    + Actualización de Adobe Campaign {#updating-adobe-campaign}
       + [Introducción](production/using/introduction.md)
-      + [Actualización](production/using/upgrading.md)
+      + [Realización de una actualización de versión](production/using/build-upgrade.md)
+      + [Procedimiento de actualización (in situ)](production/using/upgrading.md)
       + [Cambio a Unicode](production/using/switching-to-unicode.md)
       + [Procedimientos de migración](production/using/migration-procedures.md)
    + Mantenimiento de la base de datos {#database-maintenance}
@@ -754,8 +756,4 @@ ht-degree: 98%
       + [Configuraciones específicas en la versión 5.11](migration/using/specific-configurations-in-v5-11.md)
       + [Configuraciones específicas en la versión 6.02](migration/using/specific-configurations-in-v6-02.md)
       + [Configuraciones específicas en la versión 6.10](migration/using/specific-configurations-in-v6-10.md)
-   + Reversión {#rollback}
-      + [Acerca de la reversión](migration/using/about-rollback.md)
-      + [Restauración de la versión 5.11](migration/using/restoring-v5-11.md)
-      + [Restauración de la versión 6.02](migration/using/restoring-v6-02.md)
-      + [Restauración de la versión 6.1](migration/using/restoring-v6-1.md)
+   + [Procedimiento de devolución](migration/using/about-rollback.md)
