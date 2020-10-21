@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: connectors
 discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 98%
+source-wordcount: '578'
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign proporciona la opción **Acceso de Datos Federados** (FDA) para p
 
 >[!CAUTION]
 >
->El acceso a una base de datos externa mediante FDA solo es posible para instalaciones in situ o híbridas, excepto con los conectores Snowflake. Para obtener más información, consulte [esta página](https://helpx.adobe.com/es/campaign/kb/acc-on-prem-vs-hosted.html).
+>El acceso a una base de datos externa mediante FDA solo es posible para instalaciones in situ o híbridas, excepto con los conectores Snowflake. For more on this, refer [to this page](../../installation/using/capability-matrix.md).
 
 ## Principio de funcionamiento {#operating-principle}
 
