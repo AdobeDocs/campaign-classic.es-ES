@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: architecture-and-hosting-models
 discoiquuid: 3175b9ab-e305-4f19-8267-d6172fa07a2a
 translation-type: tm+mt
-source-git-commit: c03e90b2e2f57606749c86cda343ce5756fec122
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 3%
+source-wordcount: '332'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign oferta una selección de tres modelos de hospedaje, proporcionand
 
 >[!NOTE]
 >
->En el caso de entornos alojados en Adobe, los pasos principales de instalación y configuración solo pueden realizarse mediante Adobe, como la configuración del servidor y la personalización de los archivos de configuración de instancias. Para obtener más información sobre las principales diferencias entre los modos de implementación, consulte [este artículo](https://helpx.adobe.com/es/campaign/kb/acc-on-prem-vs-hosted.html).
+>En el caso de entornos alojados en Adobe, los pasos principales de instalación y configuración solo pueden realizarse mediante Adobe, como la configuración del servidor y la personalización de los archivos de configuración de instancias. Para obtener más información sobre las principales diferencias entre los modos de implementación, consulte [esta página](../../installation/using/capability-matrix.md).
 
 * **Managed Services (alojado)**
 
