@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: appendices
 discoiquuid: da2198a3-7cef-4419-894d-e5bb51bb480c
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '7857'
+source-wordcount: '7852'
 ht-degree: 8%
 
 ---
@@ -26,7 +26,7 @@ La configuración general de Adobe Campaign se define en el archivo **serverConf
 
 >[!NOTE]
 >
->Las configuraciones del lado del servidor sólo pueden ser realizadas por Adobe para implementaciones alojadas en Adobe. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Hosting models](../../installation/using/hosting-models.md) o [este artículo](https://helpx.adobe.com/es/campaign/kb/acc-on-prem-vs-hosted.html). Los pasos de instalación y configuración para los modelos alojados e híbridos se presentan en esta [sección](../../installation/using/hosted-model.md).
+>Las configuraciones del lado del servidor sólo pueden ser realizadas por Adobe para implementaciones alojadas en Adobe. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Hosting models](../../installation/using/hosting-models.md) o [esta página](../../installation/using/capability-matrix.md). Los pasos de instalación y configuración para los modelos alojados e híbridos se presentan en esta [sección](../../installation/using/hosted-model.md).
 
 Los primeros parámetros se encuentran dentro del nodo **compartido** . Están relacionados con la instancia. Son potencialmente utilizados por todos los comandos nlserver (nlserver web, nlserver wfserver, etc.). Las demás secciones están relacionadas con un subcomando nlserver específico.
 
