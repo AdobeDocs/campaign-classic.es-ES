@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 86c18986-1f65-40ff-80dc-1fbff37f406d
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '2980'
+source-wordcount: '2975'
 ht-degree: 21%
 
 ---
@@ -28,7 +28,7 @@ En la siguiente sección se proporciona una descripción general de la configura
 
 >[!NOTE]
 >
->Algunas configuraciones sólo pueden ser realizadas por Adobe para implementaciones alojadas en Adobe, por ejemplo, para acceder al servidor y a los archivos de configuración de instancias. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Hosting models](../../installation/using/hosting-models.md) o [este artículo](https://helpx.adobe.com/es/campaign/kb/acc-on-prem-vs-hosted.html).
+>Algunas configuraciones sólo pueden ser realizadas por Adobe para implementaciones alojadas en Adobe, por ejemplo, para acceder al servidor y a los archivos de configuración de instancias. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Hosting models](../../installation/using/hosting-models.md) o [esta página](../../installation/using/capability-matrix.md).
 
 Para obtener más información sobre los conceptos y las optimizaciones relacionadas con la capacidad de entrega, consulte esta [sección](../../delivery/using/about-deliverability.md).
 
@@ -401,7 +401,7 @@ Si, por ejemplo, la primera dirección no se puede utilizar para un MX determina
     * &quot;2&quot;: 5 / (5+1) = 83%
     * &quot;3&quot;: 1 / (5+1) = 17%
 
-* **includeDomains**: permite reservar esta dirección IP para los correos electrónicos que pertenecen a un dominio específico. Es una lista de máscaras que puede contener uno o más comodines (&#39;*&#39;). Si no se especifica el atributo, todos los dominios pueden utilizar esta dirección IP.
+* **includeDomains**: le permite reservar esta dirección IP para correos electrónicos que pertenecen a un dominio específico. Es una lista de máscaras que puede contener uno o más comodines (&#39;*&#39;). Si no se especifica el atributo, todos los dominios pueden utilizar esta dirección IP.
 
    Ejemplo: **includeDomains=&quot;wanadoo.com,naranja.com,yahoo*&quot;**
 
