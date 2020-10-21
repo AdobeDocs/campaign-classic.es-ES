@@ -1,8 +1,6 @@
 ---
 title: Creación y administración de listas
-seo-title: Creación y administración de listas
-description: Creación y administración de listas
-seo-description: null
+description: Aprenda a crear y administrar listas
 page-status-flag: never-activated
 uuid: 17d1a7d0-a728-490e-a820-19f469fddbcd
 contentOwner: sauviat
@@ -12,9 +10,9 @@ content-type: reference
 topic-tags: profile-management
 discoiquuid: 9fc243b2-7b7b-4083-83f6-04c12336492d
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '791'
 ht-degree: 92%
 
 ---
@@ -139,7 +137,7 @@ Aprenda a crear una audiencia configurando una lista de destinatarios desde el E
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-## Cómo crear una lista de destinatarios con un flujo de trabajo
+## How to create a list of recipients with a workflow {#create-list-in-a-wf-video}
 
 Obtenga información sobre cómo crear un flujo de trabajo para destinatario de destinatarios y cómo hacerlo recurrente antes de utilizar la lista en un destinatario de correo electrónico.
 
