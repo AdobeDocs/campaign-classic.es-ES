@@ -11,10 +11,10 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 100%
+source-wordcount: '890'
+ht-degree: 95%
 
 ---
 
@@ -40,9 +40,9 @@ Compruebe su [versión y su número integrado](../../platform/using/launching-ad
 
 ## ¿Cuáles son las diferencias entre trabajar en las instalaciones y en un entorno alojado?{#what-are-the-differences-when-working-on-premise-vs--in-a-hosted-environment-}
 
-Adobe Campaign Classic incluye un conjunto de módulos y opciones. La disponibilidad de estos módulos y su configuración pueden depender del [tipo de implementación](../../installation/using/hosting-models.md) de la instalación: alojado (Servicios administrados) o locales.
+Adobe Campaign Classic incluye un conjunto de módulos y opciones. The availability of these modules and their configuration can depend on the [type of deployment](../../installation/using/hosting-models.md) of your installation: hosted (Managed Services), hybrid or on-premise.
 
-[Haga clic aquí para obtener más información](https://helpx.adobe.com/es/campaign/kb/acc-on-prem-vs-hosted.html).
+[Haga clic aquí para obtener más información](../../installation/using/capability-matrix.md).
 
 ## ¿Cómo puedo configurar los permisos de usuario?{#how-can-i-set-up-user-permissions-}
 
@@ -64,7 +64,9 @@ Consulte [este documento](https://helpx.adobe.com/es/campaign/kb/campaign-privac
 
 ## ¿Cuáles son los conceptos de la interfaz de usuario de Campaign que debería conocer?{#what-are-campaign-user-interface-concepts-i-should-know-}
 
-Lea [esta sección](../../platform/using/adobe-campaign-workspace.md) para obtener más información sobre los conceptos básicos del espacio de trabajo de Adobe Campaign. También puede ver [este vídeo](https://docs.adobe.com/content/help/es-ES/campaign-learn/campaign-classic-tutorials/getting-started/interface-overview.html).
+Lea [esta sección](../../platform/using/adobe-campaign-workspace.md) para obtener más información sobre los conceptos básicos del espacio de trabajo de Adobe Campaign.
+
+![](assets/do-not-localize/how-to-video.png) [Espacio de trabajo de Campaña de Discover en vídeo](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
 
 ## ¿Cómo puedo seleccionar la audiencia de mis mensajes?{#how-can-i-select-the-target-population-of-my-messages-}
 
@@ -84,7 +86,9 @@ Un flujo de trabajo también puede incluir uno o varios operadores por notificar
 
 ## ¿Cómo se crea y se envía un primer correo electrónico?{#how-to-create-and-send-a-first-email-}
 
-[Haga clic aquí para obtener más información](../../delivery/using/about-email-channel.md) o [vea este vídeo](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html) para crear un correo electrónico en una campaña.
+[Haga clic aquí para obtener más información](../../delivery/using/about-email-channel.md).
+
+![](assets/do-not-localize/how-to-video.png) [Descubrir esto en vídeo](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)
 
 ## ¿Cómo se envían mensajes SMS?{#how-to-send-sms-messages-}
 
