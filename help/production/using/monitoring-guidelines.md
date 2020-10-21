@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: 8b33e6af-15c3-4b30-8ad6-d76a1f33be21
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 11%
+source-wordcount: '707'
+ht-degree: 10%
 
 ---
 
@@ -136,7 +136,7 @@ Los recursos técnicos están disponibles en la documentación del Campaign Clas
 **Modelos y capacidades de alojamiento**
 
 * [Modelos de alojamiento de Campaign Classic](../../installation/using/hosting-models.md)
-* [Capacidades del modelo de alojamiento](https://helpx.adobe.com/es/campaign/kb/acc-on-prem-vs-hosted.html)
+* [Capacidades del modelo de alojamiento](../../installation/using/capability-matrix.md)
 
 **Configuración del servidor**
 
