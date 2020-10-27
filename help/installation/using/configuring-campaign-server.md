@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 1a94c94e-ab6b-45c2-a0f3-6adeec7e2d2d
 translation-type: tm+mt
-source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
+source-git-commit: 2ff877607641435a2c2806f48f3c5b35d96d39c5
 workflow-type: tm+mt
 source-wordcount: '3582'
 ht-degree: 5%
@@ -242,7 +242,7 @@ Una vez definidas las zonas y configurada la **[!UICONTROL Security zone]** list
 
 ### Puerto predeterminado para Tomcat {#default-port-for-tomcat}
 
-Cuando el puerto de escucha 8080 del servidor Tomcat ya está ocupado con otra aplicación necesaria para la configuración, debe reemplazar el puerto 8080 por uno gratuito (por ejemplo, 8090). Para cambiarlo, edite el archivo **server.xml** guardado en el directorio **/tomcat-7/conf** de la carpeta de instalación de Adobe Campaign.
+Cuando el puerto de escucha 8080 del servidor Tomcat ya está ocupado con otra aplicación necesaria para la configuración, debe reemplazar el puerto 8080 por uno gratuito (por ejemplo, 8090). Para cambiarlo, edite el archivo **server.xml** guardado en el directorio **/tomcat-8/conf** de la carpeta de instalación de Adobe Campaign.
 
 A continuación, modifique el puerto de las páginas de retransmisión JSP. Para ello, cambie el archivo **serverConf.xml** guardado en el directorio **/conf** del directorio de instalación de Adobe Campaign. Todos los parámetros disponibles en **serverConf.xml** se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
 
@@ -255,7 +255,7 @@ A continuación, modifique el puerto de las páginas de retransmisión JSP. Para
 
 ### Asignación de una carpeta en Tomcat {#mapping-a-folder-in-tomcat}
 
-Para definir la configuración específica del cliente, puede crear un archivo **user_contextos.xml** en la carpeta **/tomcat-7/conf** , que también contiene el archivo **contextos.xml** .
+Para definir la configuración específica del cliente, puede crear un archivo **user_contextos.xml** en la carpeta **/tomcat-8/conf** , que también contiene el archivo **contextos.xml** .
 
 Este archivo contendrá el siguiente tipo de información:
 
