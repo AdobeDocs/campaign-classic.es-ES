@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: troubleshooting
 discoiquuid: c6c39b7d-7bbd-4789-b1ea-b938153e9679
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Puede aplicar este proceso a todos los módulos de Adobe Campaign para aumentar 
 
 Implica reiniciar los procesos con un nivel de registros más alto.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Este procedimiento cancela los servicios en curso en este módulo.
 
@@ -62,7 +62,7 @@ Adobe Campaign puede funcionar con dos niveles de registro:
    nlserver restart <MODULE_NAME> -noconsole
    ```
 
->[!CAUTION]
+>[!IMPORTANT]
 Los registros de estos comandos se almacenan en el archivo de registro del módulo.
 
 Este es un ejemplo específico del módulo Web. Los demás módulos funcionan como se ha indicado anteriormente.
@@ -88,7 +88,7 @@ nlserver stop mta@<INSTANCE_NAME>; nlserver mta -instance:<INSTANCE_NAME> -trace
 >[!NOTE]
 El modo **Archivo** de seguimiento permite guardar los registros. En los ejemplos anteriores, los registros se guardan en los archivos **var/`<instance-name>`/mta_debug.log** y **var/default/web_debug.log** .
 
->[!CAUTION]
+>[!IMPORTANT]
 En Windows, no agregue la opción LD_PRELOAD. Basta con el siguiente comando:\
 nlserver web -tomcat -verbose -tracefilter:*
 
