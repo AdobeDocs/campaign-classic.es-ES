@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: production-procedures
 discoiquuid: 12f13b8d-afc3-4b55-a31b-080d31f84fc9
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 2%
@@ -40,7 +40,7 @@ export TRACE_ADDR=localhost:<listening port>
 
 Debe crear la variable de entorno **TRACE_ADDR.** con el valor **localhost** : **`<listening port="" />`**.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Se recomienda ejecutar algunas pruebas para asegurarse de que la plataforma funciona después de crear esta variable de entorno.
 
@@ -51,4 +51,3 @@ Cada operador debe estar vinculado a una zona para iniciar sesión en una instan
 >[!NOTE]
 >
 >For more on configuring security zones, refer to [this section](../../installation/using/configuring-campaign-server.md#defining-security-zones).
-
