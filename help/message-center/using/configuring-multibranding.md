@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: instance-configuration
 discoiquuid: 907d82c8-9262-4952-b8df-21144dd55824
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 100%
@@ -77,7 +77,7 @@ Para configurar marcas múltiples, es necesario configurar las instancias de eje
    <%@ value object="provider" xpath="@trackingURL" %>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Estos cambios podrían provocar conflictos al realizar la actualización. Es posible que deba combinar manualmente estas fórmulas con su nueva versión.
 
