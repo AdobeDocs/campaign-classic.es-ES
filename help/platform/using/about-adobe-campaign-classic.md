@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: a2b43311-737c-4a3b-a6af-1788879f9414
 translation-type: tm+mt
-source-git-commit: 26ba32468bce3bbb1c52d225c8195977da4d7d54
+source-git-commit: 84f14b7a8c4ed05b309109c76be8c8c7b7b52d83
 workflow-type: tm+mt
 source-wordcount: '899'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Campaign permite coordinar la creación de campañas de marketing conversa
 
 >[!NOTE]
 >
->Adobe Campaign Classic está disponible en las versiones 6.11 y 7. Salvo que se indique lo contrario, los materiales de ayuda de la versión más reciente se aplican a ambas versiones. Las capturas de pantalla reflejan la interfaz de usuario de Campaign Classic v7.
+>Adobe Campaign Classic está disponible en las versiones 6.11 y 7. Except when mentioned, help materials apply to both versions, in the [latest build](../../rn/using/latest-release.md). Las capturas de pantalla reflejan la interfaz de usuario de Campaign Classic v7.
 
 ## Funcionalidades clave {#key-capabilities}
 
