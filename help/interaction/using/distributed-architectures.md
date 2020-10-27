@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: advanced-parameters
 discoiquuid: 811a42a4-552c-49cb-bffd-7e124ef83735
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 99%
@@ -39,7 +39,7 @@ Para poder admitir la escalabilidad y proporcionar un servicio de 24 horas al d�
 
 La sincronización de ofertas se lleva a cabo mediante paquetes. En instancias de ejecución, todos los objetos de catálogo están prefijados con el nombre de cuenta externo. Esto significa que se pueden admitir varias instancias de control (instancias de desarrollo y producción por ejemplo) en una misma instancia de ejecución.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Se recomienda utilizar nombres internos cortos y explícitos.
 
@@ -112,7 +112,7 @@ Si, por razones de optimización, solo parte de la base de datos de mercadotecni
 
 A continuación, se muestra una lista de opciones de mantenimiento disponibles en la instancia de control:
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Estas opciones solo deben utilizarse para casos de mantenimiento específicos.
 
@@ -128,7 +128,7 @@ La siguiente opción está disponible en instancias de ejecución:
 
 Si la instancia no ha tenido el paquete de interacción anteriormente, no es necesario realizar ninguna migración. De forma predeterminada, la tabla de propuestas se encuentra en 64 bits después de instalar los paquetes.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >En función del volumen de las propuestas existentes en la instancia, esta operación puede tardar unos minutos.
 
