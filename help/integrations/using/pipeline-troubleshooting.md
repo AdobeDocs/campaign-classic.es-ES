@@ -12,24 +12,24 @@ content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 3e73d7c91fbe7cff7e1e31bdd788acece5806e61
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 100%
+source-wordcount: '585'
+ht-degree: 97%
 
 ---
 
 
 # Solución de problemas de canalización {#pipeline-troubleshooting}
 
-**La canalización produce el error &quot;Ninguna tarea corresponde a la máscara canalizada@&quot;**
+**Se produce un error con el error &quot;Ninguna tarea corresponde a la máscara canalizada@&lt; instancia >&quot;**
 
 La versión de Adobe Campaign Classic no admite la canalización.
 
 1. Compruebe si el [!DNL pipelined] elemento está presente en el archivo de configuración. Si no, significa que no es compatible.
 1. Actualice a la versión 6.11 compilación 8705 o posterior.
 
-**La canalización produce el error &#39;&#39; aurait dû commencer par`[`ou`{`(iRc=16384)&quot;**
+**La canalización produce el error &#39;&#39; aurait dû commencer par `[` ou `{` (iRc=16384)&quot;**
 
 No está establecida la opción **NmsPipeline_Config** . En realidad es un error de análisis de JSON.
 Establezca la configuración JSON en la opción **NmsPipeline_Config**. Consulte &quot;Opción de enrutamiento&quot; en esta sección.
@@ -49,7 +49,7 @@ El parámetro @authPrivateKey del archivo de configuración de instancia es inco
 1. Compruebe que se haya establecido authPrivateKey.
 1. Compruebe que authPrivateKey: empieza con @, termina con = y tiene una longitud de aproximadamente 4000 caracteres.
 1. Busque la clave original y verifique que tenga: formato RSA, 4096 bits de longitud y empiece con -----BEGIN RSA PRIVATE KEY-----.
-   <br> Si es necesario, vuelva a crear la clave y regístrela en Adobe Analytics. Consulte esta [sección](../../integrations/using/configuring-pipeline.md#oauth-client-creation).
+   <br> Si es necesario, vuelva a crear la clave y regístrela en Adobe Analytics.
 1. Compruebe que la clave se haya codificado en la misma instancia que [!DNL pipelined]. <br>Si es necesario, rehaga la codificación utilizando JavaScript o el flujo de trabajo de ejemplo.
 
 **La canalización produce el error &quot;no se puede leer el token durante la autenticación&quot;**
@@ -91,42 +91,3 @@ Generalmente, un activador puede tardar entre 15 y 90 minutos en iniciar una cam
 1. Compruebe el tamaño de la cola en la página [!DNL pipelined] de estado. Si el tamaño de la cola es grande, mejore el rendimiento del JS.
 1. Dado que un retraso parece aumentar con el volumen, configure los activadores en Analytics con menos mensajes.
 Anexos
-
-**Cómo utilizar el JavaScript de cifrado de claves**
-
-Ejecute un JavaScript para cifrar la clave privada. Esto es necesario para la configuración de la canalización.
-
-Este es un ejemplo de código que puede utilizar para ejecutar la función cryptString:
-
-```
-/*
-USAGE:
-  nlserver javascript -instance:<instancename> -file -arg:"<private_key.pem file>" -file encryptKey.js
-*/
- 
-function usage()
-{
-  return "USAGE:\n" +
-    '  nlserver javascript -instance:<instancename> -file -arg:"<private_key.pem file>" -file encryptKey.js\n'
-}
- 
-var fn = application.arg;
-if( fn == "" )
-  logError("Missing key file file\n" + usage());
- 
-//open the pem file
-plaintext = loadFile(fn)
- 
-if( !plaintext.match(/^-----BEGIN RSA PRIVATE KEY-----/) )
-  logError("File should be an rsa private key")
- 
-logInfo("Encrypted key:\n" + cryptString(plaintext, <xtkSecretKey>))
-```
-
-En el servidor, ejecute el Javascript:
-
-```
-nlserver javascript -instance:<instancename> -file -arg:"<private_key.pem file>" -file encryptKey.js
-```
-
-copie y pegue la clave codificada de la salida en la consola.
