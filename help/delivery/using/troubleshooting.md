@@ -12,17 +12,17 @@ content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: b64c9729-cfe2-4d02-8c59-9e53efd34a96
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
 workflow-type: tm+mt
 source-wordcount: '129'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
 
 # Resolución de problemas{#troubleshooting}
 
-Si su dispositivo móvil está conectado a una red Wi-Fi y no recibe notificaciones, compruebe que el cortafuegos no haya bloqueado los puertos FCM/APNS.
+Si el dispositivo móvil está conectado a Wi-Fi y no recibe notificaciones, compruebe que el servidor de seguridad no bloquee los puertos FCM/APN.
 
 **Android**: El dispositivo móvil se conecta a los servidores FCM en los puertos 5228 a 5230. Por lo tanto, se debe configurar el cortafuegos para que autorice la conexión con FCM. Los puertos que se van a abrir son: 5228 (el más utilizado), 5229 y 5230.
 
