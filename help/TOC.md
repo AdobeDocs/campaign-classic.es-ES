@@ -8,10 +8,10 @@ product: adobe campaign
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 20894054c09cfc4a388b068f25f990277bc1fc70
+source-git-commit: d15e953740b0a4dd8073b36fd59b4c4e44906340
 workflow-type: tm+mt
-source-wordcount: '2125'
-ht-degree: 98%
+source-wordcount: '2148'
+ht-degree: 96%
 
 ---
 
@@ -23,17 +23,19 @@ ht-degree: 98%
 + Notas de la versión {#release-notes}
    + [Introducción a las actualizaciones](rn/using/rn-overview.md)
    + [Última versión](rn/using/latest-release.md)
-   + [ Versión Gold Standard ](rn/using/gold-standard.md)
+   + Gold Standard Release {#gs-release}
+      + [Notas de la versión de Gold Standard](rn/using/gold-standard.md)
+      + [Matriz de compatibilidad estándar Gold](rn/using/compatibility-matrix-gs.md)
    + Versiones anteriores {#previous-releases}
+      + [Versión 20.2](rn/using/release--20-2.md)
       + [Versión 20.1](rn/using/release--20-1.md)
       + [Versión 19.2](rn/using/release--19-2.md)
       + [Versión 19.1](rn/using/release--19-1.md)
       + [Versión 18.10](rn/using/release--18-10.md)
       + [Versión 18.6](rn/using/release--18-6.md)
       + [Versión 18.4](rn/using/release--18-4.md)
-   + Funcionalidades y compatibilidades obsoletas{#deprecated-compatibility}
-      + [Funciones obsoletas](rn/using/deprecated-features.md)
-      + [Matriz de compatibilidad](rn/using/compatibility-matrix.md)
+   + [Funciones obsoletas](rn/using/deprecated-features.md)
+   + [Matriz de compatibilidad](rn/using/compatibility-matrix.md)
 + Introducción {#getting-started}
    + Primeros pasos con Adobe Campaign {#starting-with-adobe-campaign}
       + [Introducción a Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
@@ -121,7 +123,10 @@ ht-degree: 98%
    + Envío de notificaciones push {#sending-push-notifications}
       + [Acerca del canal de aplicaciones móviles](delivery/using/about-mobile-app-channel.md)
       + [Integración del SDK de Campaign en la aplicación móvil](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
-      + [Configuración de la aplicación móvil en Adobe Campaign](delivery/using/configuring-the-mobile-application.md)
+      + Configuración de la aplicación móvil{#configure-the-mobile-app}
+         + [Introducción a la configuración de la aplicación](delivery/using/get-started-app-config.md)
+         + [Pasos de configuración para iOS](delivery/using/configuring-the-mobile-application.md)
+         + [Pasos de configuración para Android](delivery/using/configuring-the-mobile-application-android.md)
       + [Creación de notificaciones](delivery/using/creating-notifications.md)
       + [Resolución de problemas](delivery/using/troubleshooting.md)
    + Envío de correo postal {#sending-direct-mail}
@@ -336,8 +341,8 @@ ht-degree: 98%
    + Experience Cloud Triggers {#experience-triggers}
       + [Acerca de [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [Configuración de canalización](integrations/using/configuring-pipeline.md)
-      + [Opción de canalización NmsPipeline_Config](integrations/using/nmspipeline-config.md)
-      + [Eventos de activadores](integrations/using/events.md)
+      + [Configuración de la E/S de Adobe para Adobe Experience Cloud Triggers](integrations/using/configuring-adobe-io.md)
+      + [Configuración de eventos para la implementación personalizada](integrations/using/events.md)
       + [Supervisión de canalización](integrations/using/pipeline-monitoring.md)
       + [Solución de problemas de canalización](integrations/using/pipeline-troubleshooting.md)
 + Automatización con flujos de trabajo {#automating-with-workflows}
