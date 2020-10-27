@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: production-procedures
 discoiquuid: fac3e3ec-82a7-4087-ba88-2b28b0f69d1c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 3%
@@ -56,7 +56,7 @@ Los archivos de registro de instancia única se enumeran en la tabla siguiente:
 | inMail.log | Registro del módulo de correo de devolución |
 | logins.log | Registra todos los intentos de inicio de sesión en Adobe Campaign (exitosos o no) |
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >El directorio **redir** solo existe en los servidores de redirección. El subdirectorio **url** contiene las coincidencias de las direcciones URL que se van a redirigir y el **registro** de subdirectorio contiene las registros de seguimiento. Para generar registros de seguimiento, el módulo **trackinglogd** debe estar en ejecución.
 
@@ -68,4 +68,4 @@ Sin embargo, puede guardar archivos más grandes. Para habilitarlo, cambie el va
 
 Si desea mantener más niveles de detalle en los registros, puede inicio de los módulos de Adobe Campaign con el parámetro **-verbose** :
 
-**nlserver inicio`<MODULE>`@`<INSTANCE>`-verbose**
+**nlserver inicio `<MODULE>`@`<INSTANCE>` -verbose**
