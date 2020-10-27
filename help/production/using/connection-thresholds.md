@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: troubleshooting
 discoiquuid: f3db77db-94cc-4d75-a59b-2dddce776759
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: d509dc584cd4ae17c6dda85c09fceee8c6162dba
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 5%
@@ -32,7 +32,7 @@ Existen tres umbrales diferentes:
 
    * Lado de Tomcat: todas las consultas que llegan en realidad al cliente Adobe Campaign Tomcat.
 
-      Este umbral se configura en el archivo **nl6/tomcat-7/conf/server.xml** . El atributo **maxThread** permite aumentar el umbral del número de consultas procesadas a la vez. Se puede cambiar a 250, por ejemplo.
+      Este umbral se configura en el archivo **nl6/tomcat-8/conf/server.xml** . El atributo **maxThread** permite aumentar el umbral del número de consultas procesadas a la vez. Se puede cambiar a 250, por ejemplo.
 
       ```
       <Connector protocol="HTTP/1.1" port="8080"
