@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
 translation-type: tm+mt
-source-git-commit: 20894054c09cfc4a388b068f25f990277bc1fc70
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1132'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Antes de iniciar el proceso de actualización, determine y confirme a qué versión de Adobe Campaign se va a actualizar y consulte las [Notas](../../rn/using/latest-release.md) de la versión.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Se recomienda encarecidamente realizar una copia de seguridad de la base de datos en cada instancia antes de la actualización. Para obtener más información, consulte [Copia de seguridad](../../production/using/backup.md).\
 >Para realizar una actualización, asegúrese de que tiene la capacidad y los permisos para acceder a instancias y registros.
@@ -31,7 +31,7 @@ Antes de iniciar el proceso de actualización, determine y confirme a qué versi
 >
 >Consulte también la guía [de](../../installation/using/general-architecture.md) instalación y la introducción de la actualización [de la](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) compilación.
 
-## En Windows {#in-windows}
+## Windows {#in-windows}
 
 Para actualizar Adobe Campaign en una nueva versión al enviar una nueva compilación, se debe aplicar el siguiente procedimiento en Windows:
 
@@ -53,7 +53,7 @@ Para reemplazar todos los archivos con la nueva versión, debe cerrar todas las 
       **iisreset /stop**
 
    * Servicio Adobe Campaign: **net stop nlserver6**
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >También debe asegurarse de que el servidor de redirección (webmdl) está detenido, para que el archivo **nlsrvmod.dll** que utiliza IIS pueda reemplazarse por la nueva versión.
 
@@ -111,7 +111,7 @@ Los servicios que se reiniciarán son:
 
 * Servicio Adobe Campaign: **net inicio nlserver6**
 
-## En Linux {#in-linux}
+## Linux {#in-linux}
 
 Para actualizar Adobe Campaign en una nueva versión cuando se entrega una nueva compilación, el procedimiento para Linux es el siguiente:
 
@@ -171,7 +171,7 @@ Para ello, ejecute el siguiente comando:
 /etc/init.d/apache stop
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* Es posible que la secuencia de comandos se llame **httpd** en lugar de **apache**.
 >* DEBE ejecutar este comando hasta que obtenga la siguiente respuesta:
@@ -223,7 +223,7 @@ Existen tres maneras de resolver un conflicto:
 * **[!UICONTROL Accept the new version]** :: recomendado si el usuario no ha cambiado los recursos proporcionados con Adobe Campaign.
 * **[!UICONTROL Keep the current version]** :: significa que se rechaza la actualización.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Si selecciona este modo de resolución, es posible que no se beneficie de las correcciones en la nueva versión.
 
@@ -248,7 +248,7 @@ Por ejemplo, una base de datos Unicode no sólo debe autorizar el almacenamiento
 
 ## Avisar a las consolas de cliente de la actualización disponible {#warn-the-client-consoles-of-the-available-update}
 
-### En Windows {#in-windows-1}
+### Windows {#in-windows-1}
 
 En el equipo en el que está instalado el servidor de aplicaciones (**nlserver web**) de Adobe Campaign, descargue y copie el archivo
 
@@ -262,7 +262,7 @@ La próxima vez que se conecten las consolas de cliente, una ventana informará 
 >
 >Asegúrese de que el usuario de IIS_XPG tiene los derechos de lectura adecuados para este archivo de instalación y consulte la guía [de](../../installation/using/general-architecture.md) instalación para obtener más información.
 
-### En Linux {#in-linux-1}
+### Linux {#in-linux-1}
 
 En el equipo en el que está instalado el servidor de aplicaciones de Adobe Campaign (**servidor Web**), recupere el siguiente paquete:
 
