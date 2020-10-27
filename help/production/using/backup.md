@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: data-processing
 discoiquuid: 870ab0f2-1bd7-42e7-8d83-a08a520b6587
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 2%
@@ -57,7 +57,7 @@ Por lo tanto, los directorios a los que se debe hacer una copia de seguridad son
 
 * nl6/var/`<instanceName>`/relay (opcional)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Es esencial realizar una copia de seguridad de la base de datos.
 
