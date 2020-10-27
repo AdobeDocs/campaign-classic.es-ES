@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: production-procedures
 discoiquuid: 968d0ee3-5efc-46d8-b408-b9cce3e730c4
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
-source-wordcount: '3602'
+source-wordcount: '3600'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ Es posible mostrar el historial de registro relacionado con un proceso. Para ell
 
 La lista de los indicadores del sistema le permite mostrar información relativa a la máquina, como su memoria física y virtual, los procesos activos y el espacio disponible en disco. Los indicadores son diferentes para los sistemas operativos Linux y Windows. Go to the **[!UICONTROL Instance Monitoring]** page and click the **[!UICONTROL Display]** link to open the list of indicators
 
-#### En Windows {#in-windows}
+#### Windows {#in-windows}
 
 * **[!UICONTROL Pending events queued]** :: indicador específico para el centro **de mensajes**. Consulte [esta sección](../../message-center/using/monitoring-thresholds.md) para obtener más información.
 * **[!UICONTROL Memory]** :: información relativa a la memoria física (RAM).
@@ -103,7 +103,7 @@ La lista de los indicadores del sistema le permite mostrar información relativa
 
    Cuando se muestra el **[!UICONTROL Alert]** indicador, puede ser que el proceso en cuestión esté bloqueado por el motor de base de datos SQL o que esté atascado en un bucle infinito. El proceso de **vigilancia** proporcionado por Adobe Campaign vuelve a realizar el inicio automático de todos los procesos todos los días y le permite resolver este problema. Sin embargo, también puede detener el proceso en cuestión usted mismo para forzar el reinicio.
 
-#### En Linux {#in-linux}
+#### Linux {#in-linux}
 
 ![](assets/production_system_indicators_linux_001.png)
 
@@ -256,7 +256,7 @@ Se agrupan en **Supervisión** > &#39;Supervisión SMTP&#39;.
 
 ![](assets/smtp_reports_access.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* La información relacionada con la supervisión SMTP solo está disponible si se ha activado el canal de correo electrónico.
 >* Los **[!UICONTROL SMTP sending statistics]** se ofrecen únicamente si se inicia el servidor de estadísticas en la instancia.
@@ -484,7 +484,7 @@ Adobe Campaign puede proporcionar una herramienta de supervisión de instancias 
 
 ![](assets/pro_netreport.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Esta herramienta se puede utilizar para supervisar las instancias pero no es compatible con Adobe Campaign. Póngase en contacto con el administrador de Campañas para obtener más información.
 
@@ -548,7 +548,7 @@ Este es un ejemplo de configuración:
 >
 >Puede especificar varias configuraciones agregando un sufijo al archivo **netconf.xml** , por ejemplo, **netconf-dev.xml**, **netconf-prod.xml**, etc. A continuación, especifique la configuración que se usará para ejecutar netreport en los archivos **netreport.bat** o **netreport.sh** ; para ello, agregue **$JAVA_HOME/bin/java netreport dev** o **@%JAVA_HOME%binjava netreport prod** , por ejemplo.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Para que el operador de **supervisión** funcione, el equipo en el que se ejecuta netreport debe estar en una zona de seguridad en modo **sessionTokenOnly** . Si no se ha especificado ninguna máscara IP de confianza para este operador, la zona de seguridad también debe estar en el modo **allowEmptyPassword** y **allowUserPassword** .
 
