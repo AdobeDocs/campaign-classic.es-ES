@@ -10,27 +10,31 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: 877ca2275c9338377da9e435e070c9911314fe51
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 99%
+source-wordcount: '543'
+ht-degree: 87%
 
 ---
 
 
 # Matriz de compatibilidad{#compatibility-matrix}
 
-Este documento enumera todos los sistemas y componentes compatibles con la última versión de **Adobe Campaign Classic (6.11 y 7)**. Los productos y las versiones que no forman parte de esta lista no son compatibles con Adobe Campaign.
+This document lists all systems and components supported for [the latest build](../../rn/using/latest-release.md) of **Adobe Campaign Classic**. Los productos y las versiones que no forman parte de esta lista no son compatibles con Adobe Campaign.
+
+Como usuario de Gold Standard, consulte
 
 ## Notas importantes{#important-notes}
 
-Esta matriz se actualiza regularmente: se agregan nuevos elementos admitidos y se eliminan otros obsoletos.
-
 A menos que se indique lo contrario, se admiten todas las versiones menores.
 
-Adobe Campaign Classic es compatible con todos los sistemas y herramientas enumerados en esta página. Cuando las versiones específicas de estos sistemas y herramientas de terceros llegan al final de su vida útil (EOL) con sus respectivos creadores, Adobe Campaign ya no es compatible con ellas y se eliminan de nuestra matriz de compatibilidades en la versión posterior del producto. Para evitar problemas, compruebe que se encuentra en una versión compatible de cualquier sistema enumerado en la matriz de compatibilidad.
+In its [latest build](../../rn/using/latest-release.md), Adobe Campaign Classic is compatible with all the systems and tools listed in this page. Cuando las versiones específicas de estos sistemas y herramientas de terceros llegan al final de su vida útil (EOL) con sus respectivos creadores, Adobe Campaign ya no es compatible con ellas y se eliminan de nuestra matriz de compatibilidades en la versión posterior del producto. Para evitar problemas, compruebe que se encuentra en una versión compatible de cualquier sistema enumerado en la matriz de compatibilidad.
 
-Para obtener más información sobre los elementos obsoletos, consulte [esta página](../../rn/using/deprecated-features.md).
+Para obtener más información sobre los elementos obsoletos, visite [esta página](../../rn/using/deprecated-features.md).
+
+>[!CAUTION]
+>
+>Esta matriz se actualiza regularmente: se agregan nuevos elementos admitidos y se eliminan otros obsoletos.
 
 ## Sistemas operativos{#OperatingSystems}
 
@@ -39,20 +43,22 @@ Para obtener más información sobre los elementos obsoletos, consulte [esta pá
 <tr> 
 <td>CentOs</td>
 <td>
+<p>8.x (64 bits)</p>
 <p>7.x (64 bits)</p>
 </td>
 </tr>
 <tr>
 <td>Debian</td>
 <td>
-<p>8 (64 bits)</p>
-<p>9 (64 bits)</p>
 <p>10 (64 bits)</p>
+<p>9 (64 bits)</p>
+<p>8 (64 bits)</p>
 </td>
 </tr>
 <tr>
 <td>RHEL</td>
 <td>
+<p>8.x (64 bits)</p>
 <p>7.x (64 bits)</p>
 <p><strong>Importante:</strong> Si está utilizando RHEL, debe estar dispuesto a deshabilitar SELinux o a que sus arquitectos escriban reglas SELinux personalizadas para comprobar que un SELinux habilitado no está causando problemas con las operaciones de Campaign.</p>
 </td>
@@ -60,9 +66,9 @@ Para obtener más información sobre los elementos obsoletos, consulte [esta pá
 <tr>
 <td>Windows Server</td>
 <td>
-<p>2012</p>
-<p>2012R2</p>
 <p>2016</p>
+<p>2012R2</p>
+<p>2012</p>
 </td>
 </tr>
 </tbody>
@@ -75,9 +81,9 @@ Para obtener más información sobre los elementos obsoletos, consulte [esta pá
 <tr>
 <td>Microsoft IIS</td>
 <td>
-<p>8.0 en Windows Server 2012: Windows 8</p>
-<p>8.5 en Windows Server 2012 R2</p>
 <p>10.0 en Windows Server 2016</p>
+<p>8.5 en Windows Server 2012 R2</p>
+<p>8.0 en Windows Server 2012: Windows 8</p>
 </td>
 </tr>
 <tr>
@@ -96,8 +102,9 @@ Para obtener más información sobre los elementos obsoletos, consulte [esta pá
 <tr>
 <td>Kit de desarrollo de Java (JDK)</td>
 <td>
-<p>8</p>
+<p>11</p>
 <p>9</p>
+<p>8</p>
 <p>La aplicación ha sido aprobada para el Kit de Desarrollo de Java (JDK) desarrollado por Oracle y para OpenJDK.</p>
 </td>
 </tr>
@@ -116,56 +123,43 @@ Para obtener más información sobre los elementos obsoletos, consulte [esta pá
 </tbody>
 </table>
 
-## Controladores RDBMS{#RDBMSdrivers}
-
-Se admiten los siguientes controladores RDBMS:
-
-* Oracle SQL*Net 11
-
-* Oracle SQL*Net 12
-
-* PostgreSQL (libpq)
-
-* SQLServer
-
-* DB2 (controlador ODBC)
-
+## Servidores RDBMS{#RDBMSservers}
 
 >[!NOTE]
 >
 >El controlador RDBMS debe coincidir con la versión del servidor RDBMS.
-
-## Servidores RDBMS{#RDBMSservers}
 
 <table>
 <tbody>
 <tr>
 <td>Oracle</td>
 <td>
-<p>11g    R2</p>
-<p>12c</p>
-<p>18c</p>
 <p>19c</p>
+<p>18c</p>
+<p>12c</p>
+<p>11g    R2</p>
 </td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
 <td>
-<p>9.4.x</p>
-<p>9.5.x</p>
-<p>9.6.x</p>
-<p>10.x</p>
+<p>12.x</p>
 <p>11.x</p>
+<p>10.x</p>
+<p>9.6.x</p>
+<p>9.5.x</p>
+<p>9.4.x</p>
 <p>Nota: También puede utilizar Amazon RDS para PostgreSQL con las versiones especificadas anteriormente.</p>
 </td>
 </tr>
 <tr>
 <td>SQL Server</td>
 <td>
-<p>2012: SP1 y SP2</p>
-<p>2014</p>
-<p>2016</p>
+<p>2019</p>
 <p>2017</p>
+<p>2016</p>
+<p>2014</p>
+<p>2012: SP1 y SP2</p>
 <p>Advertencia: Microsoft SQL Server no se admite como base de datos principal cuando el servidor de Campaign se está ejecutando en Linux. <a href="https://docs.adobe.com/content/help/es-ES/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">Más información</a>.</p>
 </td>
 </tr>
@@ -189,8 +183,8 @@ Se admiten los siguientes controladores RDBMS:
 <tr>
 <td>API de SFDC</td>
 <td>
-<p>Versión de API 15</p>
 <p>Versión de API 21</p>
+<p>Versión de API 15</p>
 </td>
 </tr>
 <tr><td>API de Oracle On Demand</td>
@@ -225,27 +219,29 @@ Se admiten los siguientes controladores RDBMS:
 <tr>
 <td>Oracle</td>
 <td>
-<p>11g   </p>
-<p>12c</p>
 <p>18c</p>
+<p>12c</p>
+<p>11g   </p>
 </td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
 <td>
-<p>9.4.x</p>
-<p>9.5.x</p>
-<p>9.6.x</p>
-<p>10.x</p>
+<p>12.x</p>
 <p>11.x</p>
+<p>10.x</p>
+<p>9.6.x</p>
+<p>9.5.x</p>
+<p>9.4.x</p>
 </td>
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2012 SP1 y SP2</p>
-<p>2014</p>
-<p>2016</p>
+<p>2019</p>
 <p>2017</p>
+<p>2016</p>
+<p>2014</p>
+<p>2012 SP1 y SP2</p>
 </td>
 </tr>
 <tr><td>MySQL</td>
@@ -256,10 +252,10 @@ Se admiten los siguientes controladores RDBMS:
 <tr>
 <td>Teradata</td>
 <td>
-<p>15.0</p>
-<p>15.10</p>
-<p>16</p>
 <p>16.20</p>
+<p>16</p>
+<p>15.10</p>
+<p>15.0</p>
 </td>
 </tr>
 <tr>
@@ -302,8 +298,8 @@ Se admiten los siguientes controladores RDBMS:
 <tr>
 <td>Windows Server</td>
 <td>
-<p>2012</p>
 <p>2016</p>
+<p>2012</p>
 </td>
 </tr>
 <tr>
@@ -323,20 +319,14 @@ Se admiten los siguientes controladores RDBMS:
 <tr>
 <td>Android</td>
 <td>
-<p>7.x</p>
-<p>8.x</p>
-<p>9.0</p>
+<p>7.x, 8.x, 9.0</p>
 <p>con la versión 1.0.27 del SDK móvil.</p>
 </td>
 </tr>
 <tr>
 <td>iOS</td>
 <td>
-<p>iOS9</p>
-<p>iOS10</p>
-<p>iOS11</p>
-<p>iOS12</p>
-<p>iOS13</p>
+<p>iOS 9 - 14</p>
 <p>con la versión 1.0.26 del SDK móvil, compatible con las versiones de 32 y 64 bits.</p>
 </td>
 </tr>
@@ -345,28 +335,13 @@ Se admiten los siguientes controladores RDBMS:
 
 ## Navegadores{#Browsers}
 
-Se admite la versión 11 de Internet Explorer.
+Para los siguientes exploradores, se admite la versión más reciente: Microsoft Edge, Mozilla Firefox, Google Chrome, Safari.
 
-Para los siguientes exploradores, se admite la versión más reciente:
-
-* Microsoft Edge
-
-* Firefox
-
-* Chrome
-
-* Safari
-
-## Integraciones de Experience Cloud{#ExperienceCloudintegrations}
-
-Para integraciones con las soluciones de Adobe, visite esta [sección](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/integrating-with-adobe-experience-cloud/about-campaign-integrations.html#experience-cloud-integrations).
+Internet Explorer 11 es compatible.
 
 ## Más parecido a esto{#Morelikethis}
 
-* [Notas de la versión de Campaign Classic](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/release-notes/latest-release.html)
-* [Guía de instalación](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/general-architecture.html)
-* [Funcionalidades y sistemas obsoletos](https://helpx.adobe.com/es/campaign/kb/deprecated-and-removed-features.html)
+* [Notas de la versión de Campaign Classic](../../rn/using/latest-release.md)
+* [Guía de instalación](../../installation/using/general-architecture.md)
+* [Funcionalidades y sistemas obsoletos](../../rn/using/deprecated-features.md)
 * [Generar procedimiento de actualización](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html)
-* [Matriz de compatibilidades de Campaign Classic para la versión 19.0](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix-19-0.html)
-* [Matriz de compatibilidades de Campaign Classic para la versión 19.1](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix-19-1.html)
-
