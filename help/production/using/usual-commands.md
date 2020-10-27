@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: production-procedures
 discoiquuid: 90718075-87a7-4e9a-935b-571010908e79
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 3%
@@ -159,7 +159,7 @@ Introduzca la contraseña.
 
 Para cambiar la contraseña **interna** : **nlserver config -internalpassword**
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Para iniciar sesión con el identificador **interno** , debe haber definido una contraseña de antemano. Para obtener más información, consulte [esta sección](../../installation/using/campaign-server-configuration.md#internal-identifier).
 
@@ -172,5 +172,4 @@ Para cambiar la contraseña **interna** : **nlserver config -internalpassword**
 >
 >  
 nlserver config -setdblogin:Oracle:test6@dbserver
-
 
