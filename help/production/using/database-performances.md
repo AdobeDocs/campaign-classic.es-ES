@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: troubleshooting
 discoiquuid: 6358c8fd-2b75-4462-acd1-887ee44d3110
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 8%
@@ -57,7 +57,7 @@ Asegúrese de que el mantenimiento de la base de datos se programe y ejecute cor
 
 Para obtener más información, consulte [esta sección](../../production/using/recommendations.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Si utiliza una configuración intermediaria, es esencial que las bases de datos se mantengan de forma regular. Al analizar un envío en la plataforma de marketing, la instancia de marketing envía información a la instancia de intermediaria. Si el proceso se ralentiza, la instancia de marketing se verá afectada.
 
@@ -69,7 +69,7 @@ Verifique el número y el tamaño de las tablas de trabajo. Cuando superan un ta
 * detener o eliminar flujos de trabajo en pausa debido a un error,
 * detengan todos los flujos de trabajo utilizados para los ensayos que no contengan una **[!UICONTROL End]** actividad y cuyo estado se mantenga **[!UICONTROL Paused]** .
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Si la operación tarda mucho tiempo y libera mucho espacio, significa que es necesario realizar un mantenimiento profundo (reconstrucción de índices, etc.). Para obtener más información, consulte [esta sección](../../production/using/recommendations.md).
 
