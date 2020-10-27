@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: message-templates
 discoiquuid: 12e7043e-e8b5-48a9-8a2f-99e2e6040c3c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '193'
 ht-degree: 92%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 92%
 
 Una dirección semilla permite mostrar una vista previa del mensaje, enviar una prueba y probar la personalización del mensaje antes de enviarlo por correo electrónico o SMS. Las direcciones semilla están vinculadas a la entrega y no se pueden utilizar para otros envíos.
 
-## Creación de una dirección semilla {#creating-a-seed-address}
+## Creación de direcciones semilla {#creating-a-seed-address}
 
 1. In the transactional message template, click the **[!UICONTROL Seed addresses]** tab.
 
@@ -46,13 +46,12 @@ Una dirección semilla permite mostrar una vista previa del mensaje, enviar una 
 
    ![](assets/messagecenter_create_custo_001.png)
 
-## Creación de varias direcciones semilla {#creating-several-seed-addresses}
-
+   <!--## Creating several seed addresses {#creating-several-seed-addresses}-->
 1. Haga clic en el **[!UICONTROL Add other seed addresses]** vínculo y, a continuación, haga clic en el **[!UICONTROL Add]** botón.
 
    ![](assets/messagecenter_create_seedaddr_004.png)
 
-1. Siga los pasos de configuración para una dirección semilla detallados en la sección [Crear una dirección semilla](#creating-a-seed-address).
+   <!--1. Follow the configuration steps for a seed address detailed in the [Creating a seed address](#creating-a-seed-address) section.-->
 1. Repita el proceso para crear todas las direcciones que sean necesarias.
 
    ![](assets/messagecenter_create_seedaddr_008.png)
