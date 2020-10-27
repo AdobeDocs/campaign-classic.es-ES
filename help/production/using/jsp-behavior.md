@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: troubleshooting
 discoiquuid: 5dcc4090-effe-479e-8d5c-67e6a6542fbb
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: d509dc584cd4ae17c6dda85c09fceee8c6162dba
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 21%
@@ -22,15 +22,15 @@ ht-degree: 21%
 
 # Comportamiento de JSP{#jsp-behavior}
 
-If certain **jsp** jobs are not successfully executed, you must force them to recompile.
+Si ciertos trabajos **jsp** no se ejecutan correctamente, debe forzarlos a volver a compilarlos.
 
-For this, enter the following commands:
+Para ello, introduzca los siguientes comandos:
 
 ```
 nlserver stop web
-cd nl6/tomcat-7
+cd nl6/tomcat-8
 rm -r work/
 nlserver start web
 ```
 
-The **jsp** jobs are regenerated the next time you connect.
+Los trabajos **jsp** se regeneran la próxima vez que se conecte.
