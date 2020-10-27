@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: case-study
 discoiquuid: 63245348-0402-4929-9c4f-71f01f97758e
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
 workflow-type: tm+mt
 source-wordcount: '2093'
 ht-degree: 100%
@@ -79,7 +79,7 @@ Se obtiene una estructura de árbol que contiene el nuevo entorno:
        }   
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >La función de procesamiento debe asignar un nombre a los campos utilizados para el espacio en el orden en que se seleccionaron anteriormente para que las ofertas se muestren correctamente.
 
@@ -223,7 +223,7 @@ Para crear el espacio de oferta que coincida con la categoría **Mejor oferta**,
 
    ![](assets/offer_inbound_fallback_example_025.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >La función de procesamiento debe asignar un nombre a los campos utilizados para el espacio en el orden en que se seleccionaron anteriormente para que las ofertas se muestren correctamente.
 
