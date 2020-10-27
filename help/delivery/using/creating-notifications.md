@@ -1,8 +1,6 @@
 ---
-title: Creación de notificaciones
-seo-title: Creación de notificaciones
-description: Creación de notificaciones
-seo-description: null
+title: Creación de notificaciones push
+description: Aprenda a crear notificaciones push
 page-status-flag: never-activated
 uuid: fb1862df-e616-4147-a642-dc867bc983b5
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: 345af5c2-c852-4086-8ed0-ff3e7e402e04
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 100%
+source-wordcount: '835'
+ht-degree: 98%
 
 ---
 
