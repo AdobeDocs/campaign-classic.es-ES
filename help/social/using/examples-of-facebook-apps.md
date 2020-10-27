@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: annexes
 discoiquuid: 07be1d3c-b038-48ca-be37-a33adb8e0fc0
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: a0ab8794bdbdfbe627bf33580dc8991793447336
 workflow-type: tm+mt
 source-wordcount: '1985'
 ht-degree: 61%
@@ -129,7 +129,7 @@ Para recrear este ejemplo de uso, se ha creado una aplicación web compuesta por
 
 ## ¿Cómo se adquieren los datos del ventilador? {#how-to-acquire-fan-data-}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Siga los pasos de configuración detallados en [Creación de una aplicación de Facebook](../../social/using/creating-a-facebook-application.md).
 
@@ -250,7 +250,7 @@ Si el perfil no existe en la base de datos y se ha recopilado la dirección de c
 
 1. In the **[!UICONTROL Mapping]** field, select the schema which you want to carry out the reconciliation on.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Make sure the fields of the **[!UICONTROL Social networks]** tab are correctly entered in the delivery mapping. Se accede a las asignaciones de envío a través del **[!UICONTROL Administration > Campaign management > Target mappings]** nodo.
 
