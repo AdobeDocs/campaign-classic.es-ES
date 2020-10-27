@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: profile-management
 discoiquuid: 5addada8-0185-488f-9825-83f60981c139
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 208bac758542db8dd514bda80c8c735897fcefec
 workflow-type: tm+mt
 source-wordcount: '944'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -122,7 +122,7 @@ Este vídeo también explica la conformidad de Adobe Campaign Classic con las Re
 
 **Consulte también**
 
-* [Administración de la privacidad en Campaign](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html)
+* [Administración de privacidad en Campaña](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html)
 
 * [Definición de la población objetivo](../../delivery/using/define-the-right-audience.md).
 
