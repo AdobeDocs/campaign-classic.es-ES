@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
 translation-type: tm+mt
-source-git-commit: 8ec525f400c29b986eadd888d29f1579860871c6
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
-source-wordcount: '2366'
+source-wordcount: '2355'
 ht-degree: 2%
 
 ---
@@ -209,10 +209,10 @@ Es necesario reiniciar los siguientes servicios:
 
 En el equipo en el que está instalado el servidor de aplicaciones de Adobe Campaign (nlserverweb), descargue y copie el archivo:
 
+```
+Setup-client-7.xxxx.exe in [path of the application]\datakit\nl\en\jsp
+```
 
-    &quot;
-    Setup-client-7.xxxx.exe en [ruta de la aplicación]\datakit\nl\en\jsp
-    &quot;
 
 La próxima vez que se conecten las consolas de cliente, una ventana informará a los usuarios sobre la disponibilidad de una nueva actualización y les oferta la posibilidad de descargarlas e instalarlas.
 
@@ -344,7 +344,7 @@ Existen tres opciones para resolver conflictos: **Acepte la nueva versión**, **
 * No se actualizará el objeto
 * Efectos a largo plazo: incompatibilidades de versiones, el cliente no se beneficiará de las correcciones de errores.
 
->[!CAUTION]
+>[!IMPORTANT]
 >Se recomienda encarecidamente resolver los conflictos.
 
 
@@ -408,7 +408,7 @@ Estos son los pasos para realizar una combinación compleja:
 1. Realizar en el entorno de prueba
 
 
->[!CAUTION]
+>[!IMPORTANT]
 >Se necesitan habilidades de desarrollo para realizar combinaciones complejas.
 
 
