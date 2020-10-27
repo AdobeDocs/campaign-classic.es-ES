@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: database-maintenance
 discoiquuid: 4a436ccf-097c-43e6-9eda-492bada5512a
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 2%
@@ -30,7 +30,7 @@ Adobe Campaign proporciona un flujo de trabajo integrado que le permite programa
 * eliminación de registros huérfanos y reinicialización de estado para objetos caducados,
 * actualización de las estadísticas de la base de datos.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Tenga en cuenta que la tarea de limpieza se ocupa principalmente del mantenimiento del nivel de aplicación, no del mantenimiento del nivel de RDBMS (excepto la actualización de estadísticas). Sin embargo, se necesitarán operaciones de mantenimiento en la base de datos. Aunque el flujo de trabajo de limpieza de la base de datos se ejecute correctamente, esto no significa que la base de datos esté optimizada.
 
