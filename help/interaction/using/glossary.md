@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: interaction-overview
 discoiquuid: 5b2b7682-6bac-4282-8d27-e8a259934e7d
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 100%
@@ -31,7 +31,7 @@ A continuación, se presenta la definición de los principales elementos de inte
 
 * **Offer space**: carpeta que determina la ubicación donde se expone la oferta. La definición de un espacio permite especificar el canal utilizado, especificar si se puede utilizar en el modo unitario (de forma predeterminada: solo en modo por lotes), crear el contenido de la oferta utilizando las funciones de renderización y especificar la oferta de las ofertas presentadas. Un espacio es una interfaz entre el canal y el motor de oferta.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Un espacio de oferta no es un canal de comunicación, coincide con una ubicación de presentación específica del canal. Por ejemplo, las ofertas expuestas en un sitio web pueden ocupar dos espacios en la misma página. En este caso, tendrá dos espacios para el mismo canal.
    >
