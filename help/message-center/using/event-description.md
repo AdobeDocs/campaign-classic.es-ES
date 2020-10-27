@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: 3c8388d8-1a91-4d16-a8ac-016f643c6009
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 100%
@@ -164,7 +164,7 @@ Ejemplo de datos:
 
 Cuando recibe un evento, Adobe Campaign genera un ID de retorno único. Este es el ID de la versión archivada del evento.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Al recibir llamadas SOAP, Adobe Campaign verifica el formato de dirección de correo electrónico. Si una dirección de correo electrónico tiene formato incorrecto, se devuelve un error.
 
