@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: web-applications
 discoiquuid: 84f9dbad-365f-405d-88a0-14171fbb805f
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 2d6266957a1e290333c505e40f95df46797e19c4
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ Vaya a la pestaña **Campaigns** y seleccione el menú **[!UICONTROL Web Applica
 
 >[!NOTE]
 >
->Proteja siempre las páginas que puedan contener información personal. Consulte la [Lista de comprobación de seguridad y privacidad](https://helpx.adobe.com/es/campaign/kb/acc-security.html#privacy).
+>Siempre proteja las páginas que puedan contener información personal. Consulte la [Lista de comprobación de seguridad y privacidad](https://helpx.adobe.com/es/campaign/kb/acc-security.html#privacy).
 
 Esta plantilla determina el tipo de aplicación web. Puede crear:
 
