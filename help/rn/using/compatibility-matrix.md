@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 877ca2275c9338377da9e435e070c9911314fe51
+source-git-commit: 9cff35424b389d0cc6adb8ce0ec81d3258ffb6ba
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 87%
+source-wordcount: '549'
+ht-degree: 86%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 87%
 
 This document lists all systems and components supported for [the latest build](../../rn/using/latest-release.md) of **Adobe Campaign Classic**. Los productos y las versiones que no forman parte de esta lista no son compatibles con Adobe Campaign.
 
-Como usuario de Gold Standard, consulte
+Si es un usuario de Gold Standard, consulte la matriz [de compatibilidad de](../../rn/using/compatibility-matrix-gs.md)Gold Standard.
 
 ## Notas importantes{#important-notes}
 
