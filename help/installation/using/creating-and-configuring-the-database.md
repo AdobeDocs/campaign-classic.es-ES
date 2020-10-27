@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: initial-configuration
 discoiquuid: 7dd8a6a5-7cca-4e92-8226-1b9e450dfaf9
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: fe7ce92bde3405fed3429475cdd5681e5837876f
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1305'
 ht-degree: 2%
 
 ---
@@ -64,12 +64,13 @@ Según el motor de base de datos seleccionado, la información de identificació
 
 * Para un motor **Oracle** , rellene el nombre **** TNS definido para el servidor de aplicaciones.
 * Para un motor **PostgreSQL** o **DB2** , debe especificar el nombre DNS (o dirección IP) definido en el servidor de aplicaciones para acceder al servidor de bases de datos.
-* Para un motor de **Microsoft SQL Server** , debe definir:
+* Para un motor de **Microsoft SQL Server** , debe definir: nombre DNS (o dirección IP) definido en el servidor de aplicaciones para acceder al servidor de bases de datos: **DNS** o **DNS`\<instance>`** (modo de instancia),
 
-   1. nombre DNS (o dirección IP) definido en el servidor de aplicaciones para acceder al servidor de bases de datos: **DNS** o **DNS`\<instance>`** (modo de instancia),
-   1. el método de autenticación utilizado para obtener acceso a Microsoft SQL Server: **[!UICONTROL SQL Server authentication]** o **[!UICONTROL Windows NT authentication]**.
+   >[!CAUTION]
+   >
+   > A partir de la versión 20.3, la autenticación de Windows NT se cierra. **[!UICONTROL SQL Server authentication]** es ahora el único modo de autenticación disponible para Microsoft SQL Server. [Más información](../../rn/using/deprecated-features.md)
 
-      ![](assets/s_ncs_install_db_mssql_creation01.png)
+   ![](assets/s_ncs_install_db_mssql_creation01.png)
 
 ### Paso 2: Conexión al servidor {#step-2---connecting-to-the-server}
 
