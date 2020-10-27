@@ -2,7 +2,6 @@
 title: Funciones obsoletas y eliminadas de Campaign Classic
 description: Esta página lista las funciones obsoletas y eliminadas de Adobe Campaign Classic
 page-status-flag: never-activated
-uuid: null
 contentOwner: simonetn
 products: SG_CAMPAIGN/CLASSIC
 audience: rn
@@ -10,11 +9,11 @@ content-type: reference
 topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b9577d190f26e21f116d99d48fdf2bca84585d50
-workflow-type: ht
-source-wordcount: '1444'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 87c2ee675b77be0f24a2028e7dbbf0bd1b91d46e
+workflow-type: tm+mt
+source-wordcount: '1607'
+ht-degree: 86%
 
 ---
 
@@ -45,9 +44,40 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
  <tbody> 
    <tr>
    <td><strong>Función</strong></td>
-   <td><strong>Sustitución</strong></td> 
+   <td><strong>Sustitución</strong></td>
   </tr>
+  <tr>
+  <td>Conectores CRM<br></td>
+   <td><p>A partir de la versión 20.3 de la Campaña, los siguientes conectores CRM quedan obsoletos:</p>
+   <ul>
+   <li>API de Soap: On-Premise: 2007, 2015, 2016</li>
+   <li>API de Soap: En línea: 2015, 2016</li>
+   </ul>
+  <p><em>Fecha de eliminación objetivo: 2021</em></p>
+  </td>
+ </tr>
+  <tr>
+  <td>binario heredado de iOS<br></td>
+  <td><p>A partir de la versión 20.3 de la Campaña, el conector binario heredado de iOS está en desuso.<p>
+  <p> Si utiliza este conector, deberá adaptar la implementación en consecuencia.
+  <a href="https://helpx.adobe.com/campaign/kb/migrate-to-http2.html">Más información</a></p>
+  <p><em>Fecha de eliminación objetivo: 2021</em></p>
+  </td>
+ </tr>
    <tr>
+  <td>Dominio de Demdex<br></td>
+  <td><p> A partir de la versión 20.3 de la Campaña, el dominio demdex utilizado para importar y exportar audiencias a Adobe Experience Cloud queda obsoleto.<p>
+  <p>Si utiliza el dominio demdex para sus cuentas externas de importación y exportación, deberá adaptar la implementación en consecuencia. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">Más información</a></p> 
+  <p><em>Fecha de eliminación objetivo: 2021</em></p>
+  </td>
+  <tr>
+  <td>Autenticación OAuth (OAuth y JWT)<br></td>
+  <td><p> A partir de la versión de Campaña 20.3, la autenticación de integración de activadores basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización se ha cambiado y se ha movido a E/S de Adobe. <p>
+  <p>Si utiliza la integración de Triggers, debe adaptar la implementación en consecuencia. <a href="../../integrations/using/about-triggers.md">Más información</a></p> 
+  <p>Para obtener más información sobre la depreciación de la autenticación OAuth, consulte esta <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">página</a></p> 
+  <p><em>Fecha de eliminación del destinatario: Abril de 2021</em></p>
+  </td>
+  </tr>
   <td>Conectores SMS<br></td>
   <td><p> A partir de la versión Campaign 20.2, los siguientes conectores SMS quedan obsoletos.<p>
    <ul>
@@ -83,6 +113,10 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
    <td><strong>Área: función</strong></td>
    <td><strong>Sustitución</strong></td> 
   </tr> 
+   <tr> 
+   <td>Autenticación de Windows NT<br></td>
+   <td><p>Al iniciar la versión de Campaña 20.3, se ha eliminado la autenticación de Windows NT de los métodos de autenticación disponibles al configurar una nueva base de datos con Microsoft SQL Server. <a href="../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine">Más información</a></p></td>
+  </tr>
    <tr> 
    <td>Archivado de correos electrónicos basado en archivos<br></td>
    <td><p>A partir de la versión 20.2 de Campaign, el archivado de correos electrónicos basado en archivos ya no está disponible. El archivado de correo electrónico ya está disponible a través de una dirección de correo electrónico específica de CCO. <a href="../../installation/using/email-archiving.md">Más información</a></p></td>
@@ -129,20 +163,7 @@ Los siguientes sistemas son obsoletos para Campaign Classic. Consulte la [Matriz
 
 ### Versión de Adobe Campaign 20.2 {#compat-20-2-release}
 
-A partir de la versión 20.2, los siguientes sistemas quedan obsoletos para Campaign Classic. La compatibilidad finaliza en la versión 20.3: octubre de 2020.
-
-* Consola de cliente: Windows 7
-* Conectores de SMS heredados: consulte [Funciones obsoletas](#deprecated-features)
-* DB2 UDB 10.5 para el acceso de datos federado (FDA)
-
-### Versión de Adobe Campaign 19.2  {#compat-19-2-release}
-
-A partir de la versión 19.2, los siguientes sistemas operativos quedan obsoletos para Campaign Classic. La compatibilidad finalizará a finales del año 2020.
-
-* Servidor web: Apache 2.2.
-* Sistema operativo: CentOS 6.
-
-Consulte la [Matriz de compatibilidades](../../rn/using/compatibility-matrix.md) para actualizar a una versión más reciente o pasar a un sistema nuevo.
+A partir de la versión 20.2, los conectores SMS heredados quedan obsoletos. Consulte la sección [Funciones obsoletas](#deprecated-features)
 
 ## Fin de compatibilidad {#end-of-compatibility}
 
@@ -155,7 +176,7 @@ Consulte la [Matriz de compatibilidades](../../rn/using/compatibility-matrix.md)
 La consola del cliente de Adobe Campaign Classic ya no se puede ejecutar en los siguientes sistemas, ya que su editor los ha desaprobado. Los clientes que ejecuten la consola de cliente de Campaign en una de estas versiones deben actualizar a la versión más reciente antes de la fecha de eliminación objetivo. Consulte la [matriz de compatibilidades](../../rn/using/compatibility-matrix.md).
 
 * Windows Server 2003, 2008, 2008 R2
-* Windows XP, Vista
+* Windows 7, XP, Vista
 
 >[!NOTE]
 >A partir de la versión 20.1 de Campaign, la consola de cliente de 32 bits de Campaign Classic ya no es compatible con las versiones más recientes de Campaign. Debe utilizar la consola de cliente de 64 bits.
@@ -165,6 +186,7 @@ La consola del cliente de Adobe Campaign Classic ya no se puede ejecutar en los 
 
 A partir de la versión 19.1, Adobe Campaign deja de ser compatible con los siguientes sistemas operativos.
 
+* CentOS 6 [Más información](https://wiki.centos.org/Download)
 * Debian 7. [Más información](https://wiki.debian.org/DebianReleases)
 * RHEL 6.x. [Más información](https://access.redhat.com/support/policy/updates/errata)
 * Windows Server 2008. [Más información](https://support.microsoft.com/es-es/lifecycle/search/1163)
@@ -174,6 +196,7 @@ A partir de la versión 19.1, Adobe Campaign deja de ser compatible con los sigu
 
 A partir de la versión de primavera (19.1), Adobe Campaign deja de ser compatible con el siguiente servidor web.
 
+* Apache 2.2. [Más información](https://httpd.apache.org/)
 * Microsoft IIS 7. [Más información](https://support.microsoft.com/es-es/lifecycle/search/810)
 
 ### Herramientas {#tools-eol}
@@ -191,7 +214,11 @@ Consulte la [Matriz de compatibilidades de Campaign ](../../rn/using/compatibili
 
 **Acceso de datos federado (FDA)**
 
-A partir de la versión de primavera (19.1), Adobe Campaign deja de ser compatible con los siguientes servidores FDA.
+A partir de la versión 20.2, Adobe Campaign ya no es compatible con el siguiente servidor FDA:
+
+* DB2 UDB 10.5
+
+A partir de la versión de primavera (19.1), Adobe Campaign deja de ser compatible con los siguientes servidores FDA:
 
 * PostgreSQL 9.3. [Más información](https://www.postgresql.org/support/versioning)
 * MySQL 5.5. [Más información](http://www.fromdual.com/support-for-mysql-from-oracle)
