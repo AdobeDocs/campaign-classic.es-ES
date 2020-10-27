@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: production-procedures
 discoiquuid: d08ff769-da93-4f86-8802-f0fb5b051ece
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 5%
@@ -28,7 +28,7 @@ Para un servidor determinado, hay dos elementos comunes a todas las instancias d
 
 * La contraseña **interna** : es la contraseña general del administrador. Es común a todas las instancias de un servidor de aplicaciones en particular.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Para iniciar sesión con el identificador **interno** , debe haber definido una contraseña de antemano. Para obtener más información, consulte [esta sección](../../installation/using/campaign-server-configuration.md#internal-identifier).
 
