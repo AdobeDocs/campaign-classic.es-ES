@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: tracking-offers
 discoiquuid: 6aae6a10-b03e-41f1-a6e9-29100800bae1
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 82%
+ht-degree: 75%
 
 ---
 
@@ -30,15 +30,15 @@ The **[!UICONTROL Offer analysis]** report provides you with an overview of the 
 
 Las estadísticas se clasifican según tres criterios:
 
-* por fecha.
+* Por fecha:
 
    ![](assets/offer_report_perdate.png)
 
-* por espacio.
+* Por espacio:
 
    ![](assets/offer_report_perspaces.png)
 
-* por entrega.
+* Por envíos:
 
    ![](assets/offer_report_perdeliveries.png)
 
