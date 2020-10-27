@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 discoiquuid: 7b1c58a0-6fd6-4c9d-b1c4-f3dffda42523
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 70%
@@ -36,7 +36,7 @@ El contenido de una oferta tiene una representación por espacio. Dado que cada 
 
 Puede optar por aprobar el contenido de la oferta en algunos espacios disponibles y rechazarlo en otros.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Una vez aprobado el contenido y la idoneidad de una oferta, el flujo de trabajo de la publicación (notificación de la oferta) se ejecuta automáticamente. La oferta está activa y disponible en todos los espacios activados.
 
@@ -62,7 +62,7 @@ Para aprobar el contenido de la oferta, siga estos pasos:
 
 La aprobación de los requisitos de oferta implica aceptar o rechazar los pesos de la oferta y las reglas de idoneidad también configuradas en la oferta o heredadas de las reglas creadas en la categoría principal.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Una vez aprobado el contenido y la idoneidad de una oferta, el flujo de trabajo de la publicación (notificación de la oferta) se ejecuta automáticamente. La oferta está activa y disponible en todos los espacios activados.
 
