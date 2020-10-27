@@ -1,6 +1,6 @@
 ---
 title: 'Versión Gold Standard '
-description: 'Versión Gold Standard '
+description: Notas de la versión de Campaign Classic Gold Standard
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,25 +10,23 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 877ca2275c9338377da9e435e070c9911314fe51
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 100%
+source-wordcount: '820'
+ht-degree: 93%
 
 ---
 
 
 # Versión Gold Standard{#gold-standard}
 
-Como usuario de Gold Standard, se beneficia automáticamente de la actualización de Gold Standard con la última versión estable sin ninguna acción.
+Gold Standard es la versión de soporte a largo plazo del Campaign Classic. Como usuario de Gold Standard, se beneficia automáticamente de la actualización de Gold Standard con la última versión estable sin ninguna acción. Los clientes locales e híbridos también pueden beneficiarse de las versiones de Gold Standard.
 
-Los clientes locales e híbridos también pueden beneficiarse de las versiones de Gold Standard.
-
-Esta es nuestra versión de asistencia a largo plazo. Si migra desde una versión antigua, le recomendamos que la actualice primero a esta versión.
+Si migra desde una versión antigua, le recomendamos que la actualice primero a esta versión.
 
 Esta página enumera las versiones de Gold Standard.
 
-Para obtener más información sobre la actualización a Gold Standard, consulte este [artículo](https://helpx.adobe.com/es/campaign/kb/gold-standard.html).
+For more information on Campaign Gold Standard program, refer [to this article](https://helpx.adobe.com/es/campaign/kb/gold-standard.html).
 
 ## ![](assets/do-not-localize/green_2.png) Versión Gold Standard 10{#gs-10}
 
@@ -40,7 +38,7 @@ Se ha corregido un problema que impedía que el seguimiento funcionara cuando la
 
 >[!CAUTION]
 >
->Le recomendamos que actualice la consola de cliente con la que está disponible en esta versión. Consulte [esta página](../../installation/using/installing-the-client-console.md)
+>Le recomendamos que actualice la consola de cliente con la que está disponible en esta versión. Refer [to this page](../../installation/using/installing-the-client-console.md)
 
 ## ![](assets/do-not-localize/red_2.png) Versión Gold Standard 9{#gs-9}
 
@@ -50,7 +48,7 @@ La versión 9032@800be2e incluye las siguientes correcciones:
 
 * Se ha mejorado el conector HTTP2 de iOS (actualizaciones de terceros y administración de errores). (NEO-25904, NEO-25903, NEO-25799)
 
-Las siguientes correcciones están relacionadas con el mecanismo de seguridad del vínculo de seguimiento (consulte la lista de comprobación [Seguridad y privacidad](https://helpx.adobe.com/es/campaign/kb/acc-security.html#signature-mechanism)):
+The following fixes are related to the tracking link security mechanism (learn more in the [Security and Privacy checklist](https://helpx.adobe.com/es/campaign/kb/acc-security.html#signature-mechanism)):
 
 * Se ha corregido un problema que impedía el funcionamiento del seguimiento de &quot;clics de notificación&quot; (notificaciones push de iOS y Android). (NEO-25965)
 * Se ha corregido un problema que podía impedir que se abrieran las direcciones URL de seguimiento al usar ciertas versiones heredadas de Outlook o se hiciera clic en ellas.  (NEO-25688)
@@ -72,7 +70,7 @@ La versión 9032@3a9dc9c incluye las siguientes correcciones:
 
 >[!CAUTION]
 >
->Si tiene problemas con las notificaciones push mediante vínculos de seguimiento o con envíos que utilizan etiquetas de anclaje, le recomendamos que desactive el nuevo mecanismo de firma para el seguimiento de vínculos. El procedimiento se detalla en esta [página](https://helpx.adobe.com/es/campaign/kb/acc-security.html#signature-mechanism).
+>Si tiene problemas con las notificaciones push mediante vínculos de seguimiento o con envíos que utilizan etiquetas de anclaje, le recomendamos que desactive el nuevo mecanismo de firma para el seguimiento de vínculos. The procedure is detailed [in this page](https://helpx.adobe.com/es/campaign/kb/acc-security.html#signature-mechanism)
 
 * Se ha corregido un problema que podía impedir que las imágenes se mostraran en envíos de línea. (NEO-23207)
 * Se ha corregido un problema con la actividad **File Transfer** que impedía que la autenticación basada en claves SFTP funcionara en Debian 9. (NEO-23183)
