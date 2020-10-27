@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: data-processing
 discoiquuid: 6b188d78-abb4-4f03-80b9-051ce960f43c
 translation-type: tm+mt
-source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '2910'
 ht-degree: 1%
@@ -45,7 +45,7 @@ De forma predeterminada, el flujo de trabajo **[!UICONTROL Database cleanup]** s
 
 ![](assets/ncs_cleanup_scheduler.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Para que el flujo de trabajo **[!UICONTROL Database cleanup]** se inicio en la fecha y hora definidas en el Planificador, se debe iniciar el motor de flujos de trabajo (wfserver). Si este no es el caso, la limpieza de la base de datos no tendrá lugar hasta la próxima vez que se inicie el motor de flujos de trabajo.
 
@@ -84,7 +84,7 @@ Todas las tareas ejecutadas por el **[!UICONTROL Database cleanup]** flujo de tr
 
 En la fecha y hora definidas en el Planificador de flujo de trabajo (consulte [El Planificador](#the-scheduler)), el motor de flujos de trabajo inicio el proceso de limpieza de la base de datos. La limpieza de la base de datos se conecta a la base de datos y ejecuta las tareas en la secuencia que se muestra a continuación.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Si falla una de estas tareas, no se ejecutarán las siguientes.\
 >Las consultas SQL con un atributo **LIMIT** se ejecutarán repetidamente hasta que se procese toda la información.
