@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: administration-basics
 discoiquuid: da60b9ca-4b51-4bff-affc-2b12c576973a
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 55e87d5453565a12048d63dd654c09596260f1cc
 workflow-type: tm+mt
 source-wordcount: '2218'
 ht-degree: 100%
@@ -113,8 +113,8 @@ Se pueden configurar los siguientes canales:
 * [Agencia](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [Facebook](../../social/using/publishing-on-facebook-walls.md#delegating-write-access-to-adobe-campaign)
 * [Twitter](../../social/using/configuring-publishing-on-twitter.md)
-* [Canal de iOS](../../delivery/using/configuring-the-mobile-application.md#configuring-the-mobile-application-ios)
-* [Canal de Android](../../delivery/using/configuring-the-mobile-application.md#configuring-the-mobile-application-android)
+* [Canal de iOS](../../delivery/using/configuring-the-mobile-application.md)
+* [Canal de Android](../../delivery/using/configuring-the-mobile-application-android.md)
 
 ## Cuenta externa de FTP {#ftp-external-account}
 
