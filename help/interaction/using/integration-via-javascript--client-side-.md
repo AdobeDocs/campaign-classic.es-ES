@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: unitary-interactions
 discoiquuid: 7453d768-31eb-4372-aae3-27527cd5c79b
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 98%
@@ -71,7 +71,7 @@ elemento mediante interacción.
    <script id="interactionProposalScript" src="https://instance.adobe.org:8080/nl/interactionProposal.js?env=OE3" type="text/javascript"></script>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >La etiqueta `<script>` no debe ser de cierre automático.
 
@@ -215,7 +215,7 @@ El siguiente caso de uso detalla las configuraciones que se deben realizar en Ad
    </srcSchema>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Cada elemento debe definirse dos veces. Los elementos de tipo CDATA (“_jst”) pueden contener campos de personalización.
    >
@@ -265,7 +265,7 @@ El siguiente caso de uso detalla las configuraciones que se deben realizar en Ad
 
    ![](assets/interaction_xmlmode_form_001.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Los campos del formulario (`<input>`) deben señalar a los elementos de tipo CDATA definidos en el esquema creado.
 
