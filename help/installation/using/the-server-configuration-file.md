@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: appendices
 discoiquuid: da2198a3-7cef-4419-894d-e5bb51bb480c
 translation-type: tm+mt
-source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
+source-git-commit: 2ff877607641435a2c2806f48f3c5b35d96d39c5
 workflow-type: tm+mt
 source-wordcount: '7852'
 ht-degree: 8%
@@ -2896,19 +2896,19 @@ Estos son los diferentes parámetros del nodo **web > jsp** . Esta es la configu
 El nodo **web > jsp > ruta** de clase contiene la lista de todas las rutas de clase que se utilizarán al iniciar JVM. Esta es la configuración predeterminada:
 
 ```
-'$(XTK_INSTALL_DIR)/tomcat-7/bin/bootstrap.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/bin/tomcat-juli.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/tomcat-coyote.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/tomcat-util.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/tomcat-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/servlet-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/jsp-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/el-api.jar
+'$(XTK_INSTALL_DIR)/tomcat-8/bin/bootstrap.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/bin/tomcat-juli.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-coyote.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-util.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/servlet-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/jsp-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
           $(XTK_INSTALL_DIR)/java/lib/log4j-1.2.11.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/annotations-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/catalina.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/websocket-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/tomcat7-websocket.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/annotations-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/catalina.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/websocket-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat7-websocket.jar
           $(XTK_INSTALL_DIR)/java/lib/pdfbox-2.0.4.jar
           $(XTK_INSTALL_DIR)/java/lib/FontBox-0.1.0.jar
           $(XTK_INSTALL_DIR)/java/lib/AGJavaEndpoint.22.jar
