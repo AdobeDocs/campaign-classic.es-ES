@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: troubleshooting
 discoiquuid: 7d8828c5-5776-49ca-b4f7-a4a6aaaa9db1
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 13%
@@ -78,7 +78,7 @@ Puede haber varias causas para este problema, siga los pasos a continuación par
 
    Para comprobar el número de flujos de trabajo que se están ejecutando en su instancia, le recomendamos que utilice las vistas predefinidas, a las que se puede acceder de forma predeterminada en la carpeta **[!UICONTROL Administration]** / **[!UICONTROL Audit]** . Para obtener más información, consulte [esta página](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Aumentar el umbral de la **[!UICONTROL NmsOperation_LimitConcurrency]** opción puede provocar problemas de rendimiento en la instancia. En cualquier caso, no realice esto por su cuenta y póngase en contacto con su contacto de Adobe Campaign.
 
