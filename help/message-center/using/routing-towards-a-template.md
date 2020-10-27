@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: event-processing
 discoiquuid: 8fa464e6-3c88-441c-8179-0c54960469a7
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -34,7 +34,6 @@ Definición del tipo de evento en las propiedades de la plantilla de mensaje:
 
 De forma predeterminada, el enrutamiento se basa en la siguiente información:
 
-* el tipo de evento,
-* el canal que se va a utilizar (predeterminado: correo electrónico),
-* la plantilla de envío más reciente, en función de la fecha de publicación.
-
+* El tipo de evento
+* El canal que se va a usar (de forma predeterminada: correo electrónico)
+* La Plantilla de envíos más reciente, basada en la fecha de publicación
