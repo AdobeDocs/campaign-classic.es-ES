@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 discoiquuid: 010c88f4-9444-448f-bb7b-7191517d2e23
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 95%
+source-wordcount: '806'
+ht-degree: 94%
 
 ---
 
@@ -92,7 +92,7 @@ Para crear una ponderación en una oferta, siga los siguientes pasos:
 
    ![](assets/offer_weight_create_006.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Si no se introduce ningún peso (0), el objetivo no se considera apto para la oferta.
 
@@ -116,7 +116,7 @@ Para crear una ponderación en una oferta, siga los siguientes pasos:
    >
    >Si un objetivo es apto para múltiples pesos para una oferta seleccionada, el motor mantiene el mejor peso (más alto). Al llamar al motor de oferta, se selecciona una oferta por un máximo de una vez por contacto.
 
-### Un resumen de las reglas de idoneidad para la oferta {#a-summary-of-offer-eligibility-rules}
+### Summary of offer eligibility rules {#a-summary-of-offer-eligibility-rules}
 
 Una vez completada la configuración, se encontrará disponible un resumen de las reglas de elegibilidad en el panel de ofertas.
 
