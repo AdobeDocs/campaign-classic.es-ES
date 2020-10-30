@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
 workflow-type: tm+mt
 source-wordcount: '143'
-ht-degree: 74%
+ht-degree: 79%
 
 ---
 
@@ -31,7 +31,7 @@ El envío de una prueba implica realizar el mismo proceso que para una entrega n
 
 Para enviar la prueba:
 
-1. Haga clic en el **[!UICONTROL Send a proof]** botón de la ventana envío.
+1. Haga clic en el botón **[!UICONTROL Send a proof]** de la ventana envío.
 1. Analice la entrega.
 1. Corrija los errores y confirme la entrega.
 
