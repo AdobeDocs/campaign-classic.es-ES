@@ -11,11 +11,11 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1453'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -164,7 +164,7 @@ Este informe proporciona toda la información principal sobre la entrega.
 Esta sección tiene dos indicadores:
 
 * **[!UICONTROL Initial population]** : Número total de destinatarios a quienes se realizó la entrega.
-* **[!UICONTROL Messages rejected by the rule]** :: Número de direcciones ignoradas durante la análisis al aplicar reglas de tipología: dirección faltante, en cuarentena, en lista de bloqueados, etc. Para obtener más información sobre reglas de tipología, consulte esta [página](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
+* **[!UICONTROL Messages rejected by the rule]** : número de direcciones ignoradas durante el análisis al aplicar las reglas de tipología: dirección no disponible, en cuarentena, en lista de bloqueados, etc. Para obtener más información sobre reglas de tipología, consulte esta [página](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
 
 **[!UICONTROL Causes of exclusion]**
 
