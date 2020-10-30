@@ -9,11 +9,11 @@ audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 discoiquuid: 85e8348f-d240-4a36-b7bd-645807dbc227
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1193'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ La interacción en Adobe Campaign requiere una gestión cuidadosa para funcionar
 A continuación se enumeran elementos importantes que deben tenerse en cuenta al implementar y configurar las interacciones.
 
 * Para el motor por lotes (generalmente utilizado en comunicaciones salientes como el correo electrónico), el rendimiento es la preocupación principal, ya que se pueden manejar varios contactos al mismo tiempo. El típico obstáculo es el rendimiento de la base de datos.
-* La restricción principal del motor unitario (que generalmente se utiliza en comunicaciones entrantes como un titular en un sitio Web) es la latencia, ya que alguien está esperando una respuesta. El típico obstáculo es el rendimiento de la CPU.
+* La restricción principal del motor unitario (que generalmente se utiliza en comunicaciones entrantes como un banner en un sitio web) es la latencia, ya que alguien está esperando una respuesta. El típico obstáculo es el rendimiento de la CPU.
 * El diseño del catálogo de ofertas tiene un gran impacto en el rendimiento de Adobe Campaign Classic.
 * Cuando hay muchas ofertas, sepárelas en varios catálogos de ofertas.
 
@@ -69,7 +69,7 @@ Cuando se incluyen ofertas en los envíos, las ofertas generalmente se seleccion
 
 Al seleccionar ofertas en una actividad de enriquecimiento, puede elegir qué espacio de oferta utilizar. Sin embargo, independientemente del espacio de oferta seleccionado, el menú de personalización de la entrega depende del espacio de oferta configurado en la entrega.
 
-In the example below, the offer space selected in the delivery is **[!UICONTROL Email (Environment - Recipient)]**:
+En el ejemplo siguiente, el espacio de oferta seleccionado en la entrega es **[!UICONTROL Email (Environment - Recipient)]**:
 
 ![](assets/Interaction-best-practices-offer-space-selected.png)
 
@@ -81,7 +81,7 @@ En el ejemplo siguiente, la función de renderización HTML está disponible en 
 
 Esta función inserta un código como: `<%@ include proposition="targetData.proposition" view="rendering/html" %>`.
 
-When you select the proposition, the value of the **[!UICONTROL view]** attribute is as follows:
+Al seleccionar la propuesta, el valor del atributo de **[!UICONTROL view]** es el siguiente:
 * “rendering/html”: renderización html. Utiliza la función de renderización HTML.
 * “offer/view/html”: contenido html. No utiliza la función de renderización HTML. Solo incluye el campo HTML.
 
