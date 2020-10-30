@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: 41bcfe67-b5d6-4ee6-9f8a-6a7a208e2036
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '187'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Puede introducir la etiqueta y esperar el tiempo utilizando el editor, como en e
 
 ![](assets/edit_wait.png)
 
-In the **[!UICONTROL Duration]** field, the value can be expressed in the unit of your choice: (according to the operator&#39;s regional settings):
+En el campo **[!UICONTROL Duration]**, el valor se puede expresar en la unidad que elija: (según la configuración regional del operador):
 
 * Si no se especifica la configuración regional: **s** para segundos, **m** para minutos, **h** para horas, **d** para días, **y** para años. En el momento de la aprobación, el valor se convierte automáticamente en la unidad más legible.
 
