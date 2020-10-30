@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Una vez que haya creado una o varias direcciones semilla y el cuerpo del mensaje
 
    ![](assets/messagecenter_preview_001.png)
 
-1. Select **[!UICONTROL A seed address]** in the drop-down list.
+1. Seleccione **[!UICONTROL A seed address]** de la lista desplegable.
 
    ![](assets/messagecenter_preview_002.png)
 
