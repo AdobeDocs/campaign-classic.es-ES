@@ -9,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 7e5605c8-78f2-4011-b317-96a59c699848
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ En este ejemplo, deseamos filtrar los destinatarios que aparecen dos veces o má
 Para crear este ejemplo, aplique los pasos siguientes:
 
 1. Arrastre y suelte una actividad **[!UICONTROL Query]** en un flujo de trabajo y ábrala.
-1. Click **[!UICONTROL Edit query]** and set the target and filtering dimensions to **[!UICONTROL Recipients]**.
+1. Haga clic en **[!UICONTROL Edit query]** y configure las dimensiones de objetivo y filtrado en **[!UICONTROL Recipients]**.
 
    ![](assets/query_recipients_1.png)
 
@@ -33,7 +33,7 @@ Para crear este ejemplo, aplique los pasos siguientes:
 
    ![](assets/query_recipients_2.png)
 
-1. Defina la siguiente condición de filtro para dirigir su envío. Choose **[!UICONTROL Internal name]** in the Expression column and **[!UICONTROL equal to]** in the Operator column.
+1. Defina la siguiente condición de filtro para dirigir su envío. En la columna Expresión, elija **[!UICONTROL Internal name]** y luego, en la columna Operador, **[!UICONTROL equal to]** .
 1. En la columna de valor, agregue el nombre interno de la entrega segmentado.
 
    ![](assets/query_recipients_3.png)
