@@ -9,11 +9,11 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: fc95538b-b54d-44ec-81aa-f51b62982699
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2432'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ El uso de DKIM requiere algunos requisitos previos:
 
 >[!IMPORTANT]
 >
->Para instalaciones hospedadas o híbridas, si ha actualizado a [MTA mejorado](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html), este crea la firma de autenticación de correo electrónico DKIM para todos los mensajes con todos los dominios.
+>Para instalaciones hospedadas o híbridas, si ha actualizado a [MTA mejorado](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html), este crea la firma de autenticación de correo electrónico DKIM para todos los mensajes con todos los dominios.
 
 ### DMARC {#dmarc}
 
@@ -135,7 +135,7 @@ Recommendations for defining an SPF record:
 
 ## Bucle de comentarios {#feedback-loop}
 
-Un bucle de comentarios funciona declarando al nivel del ISP una dirección de correo electrónico determinada para un rango de direcciones IP utilizadas para enviar mensajes. El ISP se envía a este buzón de correo, de manera similar a lo que se hace para los mensajes rechazados, aquellos mensajes cuyos destinatarios notifiquen como correo no deseado. La plataforma debe configurarse para bloquear futuros entregas a los usuarios que envíen quejas. Es importante no volver a ponerse en contacto con ellos aunque no hayan utilizado el vínculo de exclusión adecuado. Es sobre la base de estas quejas que un ISP agregará una dirección IP a su  de lista de bloqueados. Según el ISP, una tasa de quejas de alrededor del 1% resultará en el bloqueo de una dirección IP.
+Un bucle de comentarios funciona declarando al nivel del ISP una dirección de correo electrónico determinada para un rango de direcciones IP utilizadas para enviar mensajes. El ISP se envía a este buzón de correo, de manera similar a lo que se hace para los mensajes rechazados, aquellos mensajes cuyos destinatarios notifiquen como correo no deseado. La plataforma debe configurarse para bloquear futuros entregas a los usuarios que envíen quejas. Es importante no volver a ponerse en contacto con ellos aunque no hayan utilizado el vínculo de exclusión adecuado. Estas quejas son el motivo principal por el que un ISP añade una dirección IP a una lista de bloqueados. En función del ISP, una tasa de quejas de alrededor del 1 % resulta en el bloqueo de una dirección IP.
 
 Actualmente se está elaborando un estándar para definir el formato de los mensajes de bucle de comentarios: el [Abuse Feedback Reporting Format (ARF)](https://tools.ietf.org/html/rfc6650).
 
@@ -251,11 +251,11 @@ Adobe proporciona una estrategia IP dedicada para cada cliente con una IP de aum
 
 ## Certificación de IP {#ip-certification}
 
-La certificación de IP es un programa de envío de optimizaciones que ayuda a garantizar que los mensajes de correo electrónico se reciban sin ser bloqueados por filtros antispam u otros sistemas de bloqueo de correo electrónico.
+La certificación de IP es un programa de prácticas de envío que garantiza que los correos electrónicos se reciban sin ser bloqueados por los filtros antispam u otros sistemas de bloqueo de correo electrónico.
 
 Actualmente dos proveedores ofrecen certificación IP: Return Path y Certified Senders Alliance.
 
-Los remitentes certificados se agregan a las listas de permitidos de correo electrónico que utilizan los proveedores de buzones de correo globales y las compañías de seguridad de correo electrónico. Estas listas de permitidos comerciales se basan en un sistema que permite al remitente evitar por completo los filtros antispam o asignarle puntos incrementales a medida que ingresa al sistema.
+Los remitentes certificados se añaden a las lista de permitidos de correo electrónico que utilizan los proveedores de buzones de correo globales y las empresas de seguridad de correo electrónico. Las lista de permitidos comerciales se basan en un sistema que permite al remitente saltarse los filtros de correo no deseado o recibir puntos graduales al entrar en el sistema.
 
 El programa [Return Path Certification](https://www.validity.com/products/returnpath/certification/) ofrece una serie de ventajas, entre las que se incluyen las siguientes:
 
