@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 discoiquuid: fa9ae600-91fc-4aea-ae02-8ab9064947ac
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '102'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ La actividad de **Inbound SMS** permite descargar y procesar mensajes de texto d
 
 La primera pestaña de la actividad de **Inbound SMS** permite introducir los parámetros de enrutamiento para mensajes SMS e introducir la secuencia de comandos que se ejecutará al recibir cada mensaje. La segunda pestaña le permite asignar una programación a la actividad y la tercera pestaña define las condiciones de caducidad de la actividad.
 
-1. **[!UICONTROL SMS routing]**: Seleccione la cuenta externa que desea utilizar para la recuperación de SMS. External accounts are configured via the **[!UICONTROL Administration > Platform > External accounts]** node of the tree.
+1. **[!UICONTROL SMS routing]**: Seleccione la cuenta externa que desea utilizar para la recuperación de SMS. Las cuentas externas se configuran en el nodo **[!UICONTROL Administration > Platform > External accounts]** del árbol.
 1. **[!UICONTROL Script]**
 1. **[!UICONTROL Schedule]**
 
@@ -38,4 +38,4 @@ La primera pestaña de la actividad de **Inbound SMS** permite introducir los pa
 
 1. **[!UICONTROL Expiration]**
 
-The **[!UICONTROL Script]**, **[!UICONTROL Schedule]** and **[!UICONTROL Expiry]** tabs are detailed in [Inbound Emails](../../workflow/using/inbound-emails.md).
+Las pestañas **[!UICONTROL Script]**, **[!UICONTROL Schedule]** y **[!UICONTROL Expiry]** se detallan en [Correos electrónicos entrantes](../../workflow/using/inbound-emails.md).
