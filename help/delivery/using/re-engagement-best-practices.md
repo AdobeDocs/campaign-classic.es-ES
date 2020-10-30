@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 853f26ad-d373-49a5-952e-4197ffc3d904
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '878'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ De acuerdo con un estudio de Return Path, este tipo de campañas dieron como res
 ### Fase 1 {#phase-1}
 
 * El primer paso es identificar los suscriptores que tienen muy poco o ninguna actividad de apertura o de hacer clic y, segmentar el grupo en función de un intervalo de tiempo determinado. En general se suelen examinar los suscriptores que no han abierto o hecho clic en un correo electrónico en los últimos 90 días. Sin embargo, esto varía según la naturaleza del negocio (por ejemplo, envíos estacionales).
-* Otro punto que hay que tener en cuenta a la hora de definir los plazos es que los ISP y las compañías de  de lista de bloqueados consideran que la participación está entre 1,5 y 1,8 años. También tienen en cuenta las actividades de comportamiento como las compras y la actividad en el sitio Web u otros puntos de contacto, como las preferencias durante la fase de registro o el primer punto de contacto.
+* Otro punto a tener en cuenta al definir los marcos de tiempo es que los ISP y las empresas responsables de las listas de bloqueados consideran que la participación dura entre 1,5 y 1,8 años. También tienen en cuenta las actividades de comportamiento como las compras y la actividad en el sitio Web u otros puntos de contacto, como las preferencias durante la fase de registro o el primer punto de contacto.
 
 ### Fase 2 {#phase-2}
 
