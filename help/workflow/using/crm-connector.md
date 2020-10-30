@@ -9,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: af7c0d1d-10ac-427b-8d12-b97eb91b30a1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1523'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -202,7 +202,7 @@ Los rechazos se recopilan junto con el código de error y el mensaje relacionado
 
 Incluso cuando la opción **[!UICONTROL Process rejects]** no está activada, se genera una advertencia para cada columna rechazada con un código de error y un mensaje.
 
-The **[!UICONTROL Reject]** outbound transition lets you access the output schema that contains the specific columns relevant to error messages and codes. Estas columnas son:
+La transición de salida **[!UICONTROL Reject]** permite acceder al esquema de salida que contiene las columnas específicas relevantes a los mensajes de error y códigos. Estas columnas son:
 
 * **errorLogFilename** (nombre del archivo de registro en Oracle), **errorCode** (código de error), **errorSymbol** (símbolo de error, distinto del código de error), **errorMessage** (descripción del contexto del error).
 * **errorSymbol** (símbolo de error, distinto del código de error), **errorMessage** (descripción del contexto del error).
