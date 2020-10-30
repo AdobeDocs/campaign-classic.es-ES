@@ -447,7 +447,7 @@ ht-degree: 96%
          + [Realización de consultas mediante la administración de agrupación](workflow/using/querying-using-grouping-management.md)
          + [Realización de consultas con una relación de varios a varios ](workflow/using/querying-using-many-to-many-relationship.md)
          + [Adición de un campo calculado de tipo de lista desglosada](workflow/using/adding-enumeration-type-calculated-field.md)
-         + [Creación de filtros](workflow/using/creating-a-filter.md)
+         + [Creación de un filtro](workflow/using/creating-a-filter.md)
          + [Filtrado de destinatarios duplicados](workflow/using/filtering-duplicated-recipients.md)
    + Monitorización de flujos de trabajo {#monitoring-workflows}
       + [Control de la ejecución del flujo de trabajo](workflow/using/monitoring-workflow-execution.md)
@@ -589,7 +589,7 @@ ht-degree: 96%
          + [Acerca de los modelos de alojamiento](installation/using/hosting-models.md)
          + [Modelo híbrido](installation/using/hybrid-model.md)
          + [Modelo alojado](installation/using/hosted-model.md)
-         + [Matriz de capacidad](installation/using/capability-matrix.md)
+         + [Matriz de capacidades](installation/using/capability-matrix.md)
    + Directrices de implementación {#deployment-guidelines}
       + [Requisitos previos](installation/using/before-starting.md)
       + [Servidor de bases de datos](installation/using/database.md)
