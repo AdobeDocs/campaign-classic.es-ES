@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 4113c3fe-a279-4fe1-be89-ea43c96edc34
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1350'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ En este caso de uso, se desea comparar dos contenidos de entrega por correo elec
 
 La población objetivo se divide en tres: dos grupos de prueba y la población restante. Se envía una versión diferente a cada grupo de prueba. Después de la entrega, se configura un periodo de espera de 5 días antes de recolectar los resultados de las mejores tasas de apertura. El contenido de la entrega con la puntuación más alta se recupera mediante una secuencia de comandos y se envía a la población no utilizada como grupo de prueba.
 
-Tenga en cuenta que los criterios que determinan cuál entrega es el mejor se pueden alterar para satisfacer las necesidades. Puede ser la tasa de apertura, la tasa de pulsaciones, la tasa de suscripción, la reactividad, etc.
+Tenga en cuenta que los criterios que determinan cuál entrega es el mejor se pueden alterar para satisfacer las necesidades. Puede ser la tasa de apertura, la tasa de clics, la tasa de suscripción, la reactividad, etc.
 
 Además, la prueba detallada en este caso de uso implica solo dos entregas, pero se pueden probar tantas versiones como sea necesario. Simplemente, agregue actividades al flujo de trabajo.
 
@@ -44,7 +44,7 @@ Para crear la prueba A/B, siga los siguientes pasos:
 
 ## Paso 1: Creación de un flujo de trabajo de objetivos {#step-1--creating-a-targeting-workflow}
 
-You need to create your workflow in the **[!UICONTROL Targeting and Workflows]** tab of a campaign. It is made up of a **[!UICONTROL Query]** activity, a **[!UICONTROL Split]** activity linked to two **[!UICONTROL Email delivery]** activities, a **[!UICONTROL Wait]** activity, a **[!UICONTROL JavaScript code]** activity, and a **[!UICONTROL Delivery]** activity.
+Se debe crear el flujo de trabajo en la pestaña **[!UICONTROL Targeting and Workflows]** de una campaña. Se compone de una actividad **[!UICONTROL Query]**, una actividad **[!UICONTROL Split]** vinculada a dos actividades **[!UICONTROL Email delivery]**, una actividad **[!UICONTROL Wait]**, una actividad **[!UICONTROL JavaScript code]** y una actividad **[!UICONTROL Delivery]**.
 
 1. Si aún no lo ha hecho, cree una campaña (para obtener más información, consulte esta [sección](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)).
 
@@ -58,7 +58,7 @@ You need to create your workflow in the **[!UICONTROL Targeting and Workflows]**
 
    ![](assets/use_case_abtesting_targetwkfl_003.png)
 
-1. Use the mouse to drag and drop activities into the workflow diagram, including a **[!UICONTROL Query]** (**[!UICONTROL Target]** tab), a **[!UICONTROL Split]** (**[!UICONTROL Target]** tab), two **[!UICONTROL Email deliveries]** (**[!UICONTROL Deliveries]** tab), a **[!UICONTROL Wait]** activity (**[!UICONTROL Flow Control]** tab), a **[!UICONTROL JavaScript code]** activity (**[!UICONTROL Actions]** tab), and a **[!UICONTROL Delivery]** activity (**[!UICONTROL Actions]** tab).
+1. Utilice el ratón para arrastrar y colocar actividades en el diagrama de flujo de trabajo, incluido una **[!UICONTROL Query]** (pestaña **[!UICONTROL Target]**), un **[!UICONTROL Split]** (pestaña **[!UICONTROL Target]**), dos **[!UICONTROL Email deliveries]**(pestaña **[!UICONTROL Deliveries]**), una actividad **[!UICONTROL Wait]** (pestaña **[!UICONTROL Flow Control]**), una actividad **[!UICONTROL JavaScript code]** (pestaña **[!UICONTROL Actions]**) y una actividad **[!UICONTROL Delivery]** (pestaña **[!UICONTROL Actions]**).
 
 ![](assets/use_case_abtesting_targetwkfl_004.png)
 
@@ -66,7 +66,7 @@ You need to create your workflow in the **[!UICONTROL Targeting and Workflows]**
 
 ### Configuración de la actividad de consulta {#configuring-the-query-activity}
 
-* Double-click the **[!UICONTROL Query]** activity.
+* Haga doble clic en la actividad **[!UICONTROL Query]**.
 
    ![](assets/use_case_abtesting_createrecipients_001.png)
 
@@ -74,7 +74,7 @@ You need to create your workflow in the **[!UICONTROL Targeting and Workflows]**
 
    ![](assets/use_case_abtesting_createrecipients_002.png)
 
-* Link the **[!UICONTROL Query]** activity to the **[!UICONTROL Split]** activity.
+* Vincule la actividad **[!UICONTROL Query]** a la actividad **[!UICONTROL Split]**.
 
    ![](assets/use_case_abtesting_createrecipients_003.png)
 
@@ -84,7 +84,7 @@ Esta actividad permite crear varias poblaciones: la que recibe la entrega A, la 
 
 1. Creación de la población A:
 
-   * Double-click the **[!UICONTROL Split]** activity.
+   * Haga doble clic en la actividad **[!UICONTROL Split]**.
 
       ![](assets/use_case_abtesting_createrecipients_004.png)
 
@@ -96,7 +96,7 @@ Esta actividad permite crear varias poblaciones: la que recibe la entrega A, la 
 
       ![](assets/use_case_abtesting_createrecipients_006.png)
 
-   * Click the **[!UICONTROL Edit]** link, select **[!UICONTROL Activate random sampling]**, and click **[!UICONTROL Next]**.
+   * Haga clic en el vínculo **[!UICONTROL Edit]**, seleccione **[!UICONTROL Activate random sampling]** y haga clic en **[!UICONTROL Next]**.
 
       ![](assets/use_case_abtesting_createrecipients_007.png)
 
@@ -130,10 +130,10 @@ Esta actividad permite crear varias poblaciones: la que recibe la entrega A, la 
 
 ## Paso 3: Creación de dos plantillas de entrega {#step-3--creating-two-delivery-templates}
 
-Ahora, se desea crear dos plantillas de entrega. Each template will be referenced in an **[!UICONTROL Email delivery]** activity linked to the **[!UICONTROL Split]** activity. Para obtener más información, consulte [esta sección](../../delivery/using/about-templates.md).
+Ahora, se desea crear dos plantillas de entrega. Se hará referencia a cada plantilla en una actividad **[!UICONTROL Email delivery]** vinculada a la actividad **[!UICONTROL Split]**. Para obtener más información, consulte [esta sección](../../delivery/using/about-templates.md).
 
 1. Vaya a la carpeta **[!UICONTROL Resources > Delivery template]**.
-1. Duplicate the **[!UICONTROL Email]** delivery template.
+1. Duplique la plantilla de entrega **[!UICONTROL Email]**.
 
    ![](assets/use_case_abtesting_deliverymodel_001.png)
 
@@ -178,7 +178,7 @@ El siguiente paso es configurar los envíos. Están destinados a las tres poblac
 
    ![](assets/use_case_abtesting_createdeliveries_007.png)
 
-1. Link the **[!UICONTROL Wait]** activity to the **[!UICONTROL JavaScript code]** activity.
+1. Vincule la actividad **[!UICONTROL Wait]** a la actividad **[!UICONTROL JavaScript code]**.
 
    ![](assets/use_case_abtesting_createdeliveries_008.png)
 
@@ -251,7 +251,7 @@ Para obtener una explicación detallada del script, consulte [Detalles del scrip
 
    ![](assets/use_case_abtesting_configscript_003.png)
 
-1. Close the **[!UICONTROL JavaScript code]** activity.
+1. Cierre la actividad **[!UICONTROL JavaScript code]**.
 1. Guarde el flujo de trabajo.
 
 ### Detalles de la secuencia de comandos {#details-of-the-script}
@@ -341,9 +341,9 @@ El ejemplo de arriba permite seleccionar el contenido de una entrega según la t
 
 Una vez que la secuencia de comandos se ha creado para seleccionar el ganador de la prueba A/B, se puede definir los parámetros de la entrega final.
 
-1. Connect the **[!UICONTROL JavaScript code]** activity to the remaining **[!UICONTROL Delivery]** activity.
-1. Open the **[!UICONTROL Delivery]** activity.
-1. Uncheck the **[!UICONTROL Generate an outbound transition]** option to finish the workflow with this activity.
+1. Conecte la actividad **[!UICONTROL JavaScript code]** a la actividad restante **[!UICONTROL Delivery]**.
+1. Abra la actividad **[!UICONTROL Delivery]**.
+1. Anule la selección de la opción **[!UICONTROL Generate an outbound transition]** para finalizar el flujo de trabajo con esta actividad.
 1. Deje las demás opciones en sus valores predeterminados.
 
    ![](assets/ab_test_final_delivery.png)
@@ -352,7 +352,7 @@ Al preparar la entrega especificada en la transición (definida a través de la 
 
 ## Paso 7: Inicio del flujo de trabajo {#step-7--starting-the-workflow}
 
-1. Haga clic en **[!UICONTROL Start]** el flujo de trabajo.
+1. Haga clic en el flujo de trabajo **[!UICONTROL Start]**.
 
    ![](assets/use_case_abtesting_startwkfl_001.png)
 
