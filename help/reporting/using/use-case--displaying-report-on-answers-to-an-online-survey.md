@@ -11,11 +11,11 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 discoiquuid: 5404a227-6cfb-463b-9a56-af46a022eb38
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -42,9 +42,9 @@ Antes de comenzar este ejemplo de uso, debe tener acceso a una encuesta y a un c
 
 Para recopilar las respuestas a la encuesta, realice los pasos siguientes:
 
-1. Create a workflow and place an **[!UICONTROL Answers to a survey]** activity. Para obtener más información sobre esta actividad, consulte [esta sección](../../web/using/publish--track-and-use-collected-data.md#using-the-collected-data).
+1. Cree un flujo de trabajo y añada una actividad **[!UICONTROL Answers to a survey]**. Para obtener más información sobre esta actividad, consulte [esta sección](../../web/using/publish--track-and-use-collected-data.md#using-the-collected-data).
 1. Edite la actividad y seleccione la encuesta cuyas respuestas desee analizar.
-1. Enable the **[!UICONTROL Select all the answer data]** option to collect all the information.
+1. Active la opción **[!UICONTROL Select all the answer data]** para recopilar toda la información.
 
    ![](assets/reporting_usecase_1_01.png)
 
@@ -56,7 +56,7 @@ Para recopilar las respuestas a la encuesta, realice los pasos siguientes:
 
    ![](assets/reporting_usecase_1_04.png)
 
-   In this activity, specify the list to be updated and un-check the **[!UICONTROL Purge and re-use the list if it exists (otherwise add to the list)]** option: answers are added to the existing table. Esta opción permite hacer referencia a la lista en un cubo. El esquema vinculado a la lista no se regenera para cada actualización, lo que garantiza la integridad del cubo que utiliza esta lista.
+   En esta actividad, especifique la lista que desea actualizar y desmarque la opción **[!UICONTROL Purge and re-use the list if it exists (otherwise add to the list)]**: las respuestas se añaden a la tabla existente. Esta opción permite hacer referencia a la lista en un cubo. El esquema vinculado a la lista no se regenera para cada actualización, lo que garantiza la integridad del cubo que utiliza esta lista.
 
    ![](assets/reporting_usecase_1_03.png)
 
@@ -68,7 +68,7 @@ Para recopilar las respuestas a la encuesta, realice los pasos siguientes:
 
 1. Añada un planificador para automatizar la recopilación diaria de respuestas y la actualización de la lista.
 
-   The **[!UICONTROL List update]** and **[!UICONTROL Scheduler]** activities are detailed in .
+   Las actividades **[!UICONTROL List update]** y **[!UICONTROL Scheduler]** se detallan en .
 
 ## Paso 2: Creación del cubo, sus medidas y sus indicadores {#step-2---creating-the-cube--its-measures-and-its-indicators}
 
