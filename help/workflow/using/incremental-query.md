@@ -11,9 +11,9 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 31071cd2-7d97-4a4f-a6cc-5ac5b6178be5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ La consulta se define de la misma manera que para las consultas estándar, pero 
 
 **Temas relacionados:**
 
-* [Caso de uso: actualización de la lista trimestral mediante una consulta incremental](../../workflow/using/quarterly-list-update.md)
+* [Caso de uso: actualización de lista trimestral con una consulta incremental](../../workflow/using/quarterly-list-update.md)
 * [Creación de consultas](../../workflow/using/query.md#creating-a-query)
 
 >[!CAUTION]
