@@ -11,11 +11,11 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 discoiquuid: 3bd113c3-da67-4f4f-aa40-f4c7860a8569
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '450'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ En nuestra base de datos, existe una categoría de ofertas de viajes a África. 
 
 ## Realizar una simulación de oferta {#perform-an-offer-simulation}
 
-1. In the **[!UICONTROL Profiles and Targets]** universe, click the **[!UICONTROL Simulations]** link, then click the **[!UICONTROL Create]** button.
+1. En el entorno **[!UICONTROL Profiles and Targets]**, haga clic en el vínculo **[!UICONTROL Simulations]**, luego, haga clic en **[!UICONTROL Create]**.
 
    ![](assets/offer_simulation_001.png)
 
@@ -81,7 +81,7 @@ En nuestra base de datos, existe una categoría de ofertas de viajes a África. 
 
    ![](assets/offer_simulation_example_003.png)
 
-1. Click the **[!UICONTROL Edit]** tab, then **[!UICONTROL Scope]**.
+1. Haga clic en la pestaña **[!UICONTROL Edit]** luego en **[!UICONTROL Scope]**.
 
    ![](assets/offer_simulation_example_004.png)
 
@@ -120,7 +120,7 @@ En nuestra base de datos, existe una categoría de ofertas de viajes a África. 
 
    ![](assets/offer_simulation_example_011.png)
 
-1. Display the **[!UICONTROL Breakdown of offers by rank]** to view the list of offers selected by the offer engine.
+1. Despliegue **[!UICONTROL Breakdown of offers by rank]** para ver la lista de ofertas seleccionadas por el motor de ofertas.
 
    ![](assets/offer_simulation_example_012.png)
 
