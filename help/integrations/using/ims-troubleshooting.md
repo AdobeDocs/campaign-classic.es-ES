@@ -11,11 +11,11 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 discoiquuid: e31db11a-ad8e-4fd0-bab7-0df1079231c9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Los ámbitos definidos en la cuenta externa de Campaign deben ser un subconjunto
 
 **URL de devolución de llamada**
 
-La dirección URL **de** llamada de retorno debe agregarse a la lista de permitidos y al inicio con &quot;https://&quot;. Compruebe que la **URL de devolución de llamada** esté vinculada a la instancia correspondiente. Por ejemplo, la instancia de producción debe redirigir a la URL de producción.
+La **URL de devolución de llamada** debe agregarse a la lista de permitidos y al inicio con &quot;https://&quot;. Compruebe que la **URL de devolución de llamada** esté vinculada a la instancia correspondiente. Por ejemplo, la instancia de producción debe redirigir a la URL de producción.
 
 **ID de cliente y secreto**
 
@@ -78,7 +78,7 @@ Reinicie el servidor si se realizan cambios en la configuración anterior en la 
 
 * Se redirige al usuario a la página de adobe.com:
 
-   There is a problem with the **[!UICONTROL Callback URL]**. Consulte los pasos anteriores para comprobar la configuración de **[!UICONTROL Callback URL]**.
+   Hay algún problema con **[!UICONTROL Callback URL]**. Consulte los pasos anteriores para comprobar la configuración de **[!UICONTROL Callback URL]**.
 
 * Mensaje “Ningún derecho del inicio de sesión se corresponde con la expresión”:
 
