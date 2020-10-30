@@ -9,38 +9,38 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 0c264783-2775-4ec6-8d49-cd9a45a18d60
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '621'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
 
 # Funciones avanzadas{#advanced-functionalities}
 
-Como usuario técnico, además de las propiedades [](../../reporting/using/properties-of-the-report.md)generales, puede aprovechar las capacidades avanzadas para configurar los informes, como por ejemplo:
+Como usuario técnico, además de las [propiedades generales](../../reporting/using/properties-of-the-report.md), puede aprovechar las capacidades avanzadas para configurar los informes, como por ejemplo:
 
-* Cree consultas complejas para procesar datos en una actividad de **secuencia de comandos** . [Más información](#script-activity)
+* Cree consultas complejas para procesar datos en una actividad de **secuencia de comandos**. [Más información](#script-activity)
 
-* Añada una secuencia de comandos externa para ejecutarla en el servidor o en el cliente. [Más información](#external-script)
+* Añada un script externo para ejecutarlo en el servidor o del lado del cliente. [Más información](#external-script)
 
-* Llame a un informe con una actividad de **salto** . [Más información](#calling-up-another-report)
+* Llame a un informe con una actividad de **salto**. [Más información](#calling-up-another-report)
 
 * Añada un parámetro de URL en un informe para que sea más accesible. [Más información](#calling-up-another-report)
 
-* Añadir variables que se utilizarán en el contexto del informe. [Más información](#adding-variables)
+* Añada variables que se utilizarán en el contexto del informe. [Más información](#adding-variables)
 
 ## Uso de scripts {#adding-a-script}
 
-### Secuencias de comandos externas de referencia {#external-script}
+### Scripts externos de referencia {#external-script}
 
-Puede hacer referencia a códigos JavaScript que se ejecutarán en el cliente o en el servidor cuando se llame a la página del informe.
+Puede hacer referencia a los códigos JavaScript que se ejecutan del lado del cliente o del servidor cuando solicita la página del informe.
 
 Para ello:
 
-1. Edit the [report properties](../../reporting/using/properties-of-the-report.md) and click the **[!UICONTROL Scripts]**.
+1. Edite las [propiedades del informe ](../../reporting/using/properties-of-the-report.md) y haga clic en **[!UICONTROL Scripts]**.
 1. Haga clic en **[!UICONTROL Add]** y seleccione la secuencia de comandos a la que desea hacer referencia.
 1. A continuación, seleccione el modo de ejecución.
 
@@ -48,11 +48,11 @@ Para ello:
 
    ![](assets/reporting_custom_js.png)
 
-Para la ejecución normal en el lado del cliente, las secuencias de comandos referenciadas deben escribirse en JavaScript y deben ser compatibles con navegadores comunes. Para obtener más información, consulte [esta sección](../../web/using/web-forms-answers.md).
+Para la ejecución normal por parte del cliente, las secuencias de comandos a las que se hace referencia deben escribirse en JavaScript y ser compatibles con la mayoría de los exploradores comunes. Para obtener más información, consulte [esta sección](../../web/using/web-forms-answers.md).
 
-### Adding a Script activity {#script-activity}
+### Adición de una actividad de secuencia de comandos {#script-activity}
 
-Al [diseñar el informe](../../reporting/using/creating-a-new-report.md#modelizing-the-chart), utilice la **[!UICONTROL Script]** actividad para procesar los datos y crear fácilmente consultas complejas que no habiliten el lenguaje SQL. Puede introducir directamente la consulta en la ventana de script.
+Al [diseñar el informe](../../reporting/using/creating-a-new-report.md#modelizing-the-chart), utilice la actividad **[!UICONTROL Script]** para procesar los datos y crear fácilmente consultas complejas que no habiliten el lenguaje SQL. Puede introducir directamente la consulta en la ventana del script.
 
 La pestaña **[!UICONTROL Texts]** permite definir cadenas de texto. Pueden utilizarse con la siguiente sintaxis: **$(Identifier)**. Para obtener más información sobre el uso de textos, consulte [Adición de un encabezado y un pie de página](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
 
@@ -66,11 +66,11 @@ Para crear un historial del informe, añada la línea siguiente a la consulta Ja
 if( ctx.@_historyId.toString().length == 0 )
 ```
 
-De lo contrario, solo se mostrarán los datos actuales.
+De lo contrario, solo se muestran los datos actuales.
 
-## Añadir un parámetro de URL {#defining-additional-settings}
+## Adición de un parámetro de URL {#defining-additional-settings}
 
-The **[!UICONTROL Parameters]** tab of the [report properties](../../reporting/using/properties-of-the-report.md) lets you define additional settings for the report: these settings will be passed into the URL during the call up.
+La pestaña **[!UICONTROL Parameters]** de las [propiedades del informe](../../reporting/using/properties-of-the-report.md) permite definir configuraciones adicionales para el informe: esta configuración se pasa a la dirección URL durante la llamada.
 
 >[!CAUTION]
 >
@@ -121,4 +121,4 @@ En el siguiente ejemplo de vídeo, aprenderá a agregar un parámetro &quot;_typ
 
 ## Llamada a otro informe {#calling-up-another-report}
 
-A **Jump** activity is like a transition without an arrow: it lets you go from one activity to another or access another report.
+Una actividad de **salto** es como una transición sin una flecha: permite pasar de una actividad a otra u acceder a otro informe.
