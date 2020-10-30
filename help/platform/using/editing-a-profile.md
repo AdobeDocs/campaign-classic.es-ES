@@ -11,11 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 discoiquuid: 93dd29e8-cf0a-4010-a3cc-f68c52c0d9ef
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Esta pantalla contiene todos los datos generales sobre el perfil seleccionado. E
 
 >[!NOTE]
 >
->When the **[!UICONTROL No longer contact (by any channel)]** option is selected, this means that the profile is on denylist, i.e. the profile has expressed a wish not to be contacted (for example, by clicking an unsubscription link in a newsletter). Ya no serán identificados por las entregas de ningún canal (correo electrónico, correo postal, etc.). Para obtener más información, consulte [esta página](../../delivery/using/understanding-quarantine-management.md).
+>Una vez seleccionada la opción **[!UICONTROL No longer contact (by any channel)]**, significa que el perfil se encuentra en la lista de bloqueados; es decir, el perfil ha expresado su deseo de no ser contactado (por ejemplo, haciendo clic en un vínculo para dar de baja un boletín informativo). Ya no serán identificados por las entregas de ningún canal (correo electrónico, correo postal, etc.). Para obtener más información, consulte [esta página](../../delivery/using/understanding-quarantine-management.md).
 
 ## Ficha Contact information {#contact-information-tab}
 
@@ -58,7 +58,7 @@ Esta pantalla muestra el índice de calidad de la dirección, así como la canti
 
 ## Ficha Other {#other-tab}
 
-Esta pantalla contiene campos definidos por el usuario que pueden personalizarse según los requisitos. You can also change the names of the fields and define their format, via **[!UICONTROL Field properties...]**, as shown below:
+Esta pantalla contiene campos definidos por el usuario que pueden personalizarse según los requisitos. También puede cambiar los nombres de los campos y definir su formato mediante **[!UICONTROL Field properties...]**, como se muestra a continuación:
 
 ![](assets/s_ncs_user_profile_others_tab.png)
 
