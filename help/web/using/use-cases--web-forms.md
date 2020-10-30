@@ -11,11 +11,11 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 discoiquuid: cfa22577-0b9e-4eee-900d-214b81256d81
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3e1896ac4ccd1099bd50e279762c2fbff5cd8eba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '960'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Los mensajes de confirmación se envían a través de una plantilla de envío de
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
 
-1. Como los destinatarios de este envío no han confirmado su aprobación, siguen en la base de datos lista de bloqueados. Para que reciban esta comunicación, debe autorizar envíos basados en esta plantilla a destinatarios de destinatario en lista de bloqueados.
+1. Debido a que los destinatarios de este envío no han confirmado su aprobación, aún se encuentran en la lista de bloqueados de la base de datos. Para que reciban esta comunicación, debe autorizar las entregas basadas en esta plantilla para dirigirse a los destinatarios en la lista de bloqueados.
 
    Para ello, haga clic en la pestaña **[!UICONTROL Exclusions]**.
 
@@ -109,7 +109,7 @@ Para realizar esto, siga los pasos a continuación:
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
 
-   The first **[!UICONTROL Script]** activity will add recipients on denylist until they confirmed their subscription to the newsletter. El contenido debe ser el siguiente:
+   La primera actividad **[!UICONTROL Script]** coloca en la lista de bloqueados a los destinatarios hasta que confirmen su suscripción al boletín informativo. El contenido debe ser el siguiente:
 
    ```
    ctx.recipient.@blackList=1
@@ -172,7 +172,7 @@ La suscripción al boletín informativo implica los pasos siguientes:
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8d.png)
 
-   The user is added to the Adobe Campaign database in the **[!UICONTROL Temp]** folder, and their profile is on denylist until they confirm their subscription with the email.
+   El usuario se añade a la base de datos de Adobe Campaign en la carpeta **[!UICONTROL Temp]** y su perfil se añade a la lista de bloqueados hasta que confirme su suscripción con el correo electrónico.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8f.png)
 
