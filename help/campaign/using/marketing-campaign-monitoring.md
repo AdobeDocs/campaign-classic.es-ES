@@ -11,11 +11,11 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '253'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ En cada campaña, la pestaña **[!UICONTROL Tracking]** permite ver todos los tr
 
    ![](assets/s_ncs_user_op_edit_exe_tab_e.png)
 
-* The workflows created to generate messages for service providers are displayed in the **[!UICONTROL Jobs on service providers]** sub-tab. Haga clic en el icono **[!UICONTROL Detail]** para mostrar el flujo de trabajo seleccionado.
+* Los flujos de trabajo creados para generar mensajes para proveedores de servicios se muestran en la subpestaña **[!UICONTROL Jobs on service providers]**. Haga clic en el icono **[!UICONTROL Detail]** para mostrar el flujo de trabajo seleccionado.
 
    ![](assets/s_ncs_user_op_edit_exe_tab_d.png)
 
