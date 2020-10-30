@@ -11,9 +11,9 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: de892ec4-c378-4b22-875e-aa9345f82552
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Los flujos de trabajo detallados a continuación se instalan con el módulo **Ca
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Trabajos con proveedores de servicios</span> <br /> </td> 
-   <td> <span class="uicontrol">providerMgt</span> <br /> </td> 
+   <td> <span class="uicontrol">supplierMgt</span> <br /> </td> 
    <td> Este flujo de trabajo comienza a procesar el proveedor (correo electrónico al enrutador y posprocesado) una vez que se aprueban las entregas. <br /> </td> 
   </tr> 
  </tbody> 
