@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -32,4 +32,4 @@ Antes de crear las ofertas, primero se debe especificar un entorno (consulte [Vi
 
 >[!IMPORTANT]
 >
->Creating the offer catalog, i.e. the categories and the offers, is the responsibility of the **[!UICONTROL Offer manager]**.
+>La creación del catálogo de ofertas, es decir, de las categorías y las ofertas, es responsabilidad de **[!UICONTROL Offer manager]**.
