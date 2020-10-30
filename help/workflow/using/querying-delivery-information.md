@@ -9,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 7e5605c8-78f2-4011-b317-96a59c699848
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1241'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 73%
 
 ## Número de clics de una entrega específica {#number-of-clicks-for-a-specific-delivery}
 
-En este ejemplo, se busca recuperar el número de clics de una entrega específica. Estos clics se registran gracias a los registros de seguimiento de destinatarios realizados durante un periodo determinado. El destinatario se identifica mediante su dirección de correo electrónico. This query uses the **[!UICONTROL Recipient tracking logs]** table.
+En este ejemplo, se busca recuperar el número de clics de una entrega específica. Estos clics se registran gracias a los registros de seguimiento de destinatarios realizados durante un periodo determinado. El destinatario se identifica mediante su dirección de correo electrónico. Esta consulta utiliza la tabla **[!UICONTROL Recipient tracking logs]**.
 
 * ¿Qué tabla se debe seleccionar?
 
-   The recipient log tracking table (**[!UICONTROL nms:trackingLogRcp]**)
+   La tabla de seguimiento del registro de destinatario (**[!UICONTROL nms:trackingLogRcp]**).
 
 * ¿Campos que se desea seleccionar para las columnas de salida?
 
@@ -38,35 +38,35 @@ En este ejemplo, se busca recuperar el número de clics de una entrega específi
 
 Para llevar a cabo este ejemplo, aplique los siguientes pasos:
 
-1. Abra el **[!UICONTROL Generic query editor]** y seleccione el **[!UICONTROL Recipient tracking logs]** esquema.
+1. Abra el **[!UICONTROL Generic query editor]** y seleccione el esquema **[!UICONTROL Recipient tracking logs]**.
 
    ![](assets/query_editor_tracklog_05.png)
 
-1. In the **[!UICONTROL Data to extract]** window, we want to create an aggregate to collect information. To do this, add the primary key (located above the main **[!UICONTROL Recipient tracking logs]** element): Tracking log count is carried out on this **[!UICONTROL Primary key]** field. The edited expression will be **[!UICONTROL x=count(primary key)]**. Vincula la suma de diversos registros de seguimiento a una sola dirección de correo electrónico.
+1. En la ventana **[!UICONTROL Data to extract]**, se desea crear un acumulado para recopilar información. Para ello, añada la clave primaria (ubicada encima del elemento **[!UICONTROL Recipient tracking logs]** principal): el recuento de registros de seguimiento se realiza en este campo **[!UICONTROL Primary key]**. La expresión editada es **[!UICONTROL x=count(primary key)]**. Vincula la suma de diversos registros de seguimiento a una sola dirección de correo electrónico.
 
    Para ello:
 
-   * Click the **[!UICONTROL Add]** icon to the right of the **[!UICONTROL Output columns]** field. In the **[!UICONTROL Formula type]** window, select the **[!UICONTROL Edit the formula using an expression]** option and click **[!UICONTROL Next]**. En la ventana **[!UICONTROL Field to select]**, haga clic en **[!UICONTROL Advanced selection]**.
+   * A la derecha del campo **[!UICONTROL Add]**, haga clic en el icono **[!UICONTROL Output columns]**. En la ventana **[!UICONTROL Formula type]**, seleccione la opción **[!UICONTROL Edit the formula using an expression]** haciendo clic en **[!UICONTROL Next]**. En la ventana **[!UICONTROL Field to select]**, haga clic en **[!UICONTROL Advanced selection]**.
 
       ![](assets/query_editor_tracklog_06.png)
 
    * En la ventana **[!UICONTROL Formula type]**, ejecute un proceso en la función de acumulado. Este proceso es un recuento de clave principal.
 
-      Seleccione **[!UICONTROL Process on an aggregate function]** en la **[!UICONTROL Aggregate]** sección y haga clic en **[!UICONTROL Count]**.
+      Seleccione **[!UICONTROL Process on an aggregate function]** en la sección **[!UICONTROL Aggregate]** y haga clic en **[!UICONTROL Count]**.
 
       ![](assets/query_editor_nveau_18.png)
 
       Haga clic en **[!UICONTROL Next]**.
 
-   * Select the **[!UICONTROL Primary key (@id)]** field. The **[!UICONTROL count (primary key)]** output column is configured.
+   * Seleccione el campo **[!UICONTROL Primary key (@id)]**. Se configura la columna de salida **[!UICONTROL count (primary key)]**.
 
       ![](assets/query_editor_nveau_19.png)
 
-1. Seleccione el otro campo que se desea mostrar en la columna de salida. In the **[!UICONTROL Available fields]** column, open the **[!UICONTROL Recipient]** node and choose **[!UICONTROL Email]**. Marque la casilla **[!UICONTROL Group]** en **[!UICONTROL Yes]** para agrupar los registros de seguimiento por dirección de correo electrónico: este grupo relaciona cada registro con su destinatario.
+1. Seleccione el otro campo que se desea mostrar en la columna de salida. En la columna **[!UICONTROL Available fields]**, abra el nodo **[!UICONTROL Recipient]** y elija **[!UICONTROL Email]**. Marque la casilla **[!UICONTROL Group]** en **[!UICONTROL Yes]** para agrupar los registros de seguimiento por dirección de correo electrónico: este grupo relaciona cada registro con su destinatario.
 
    ![](assets/query_editor_nveau_20.png)
 
-1. Configure la ordenación de columnas para que se muestren primero los destinatarios más activos (con la mayoría de registros de seguimiento). Compruebe **[!UICONTROL Yes]** la **[!UICONTROL Descending sort]** columna.
+1. Configure la ordenación de columnas para que se muestren primero los destinatarios más activos (con la mayoría de registros de seguimiento). Marque **[!UICONTROL Yes]** en la columna **[!UICONTROL Descending sort]**.
 
    ![](assets/query_editor_nveau_64.png)
 
@@ -80,19 +80,19 @@ Para llevar a cabo este ejemplo, aplique los siguientes pasos:
 
    * Recupere los registros de seguimiento durante un periodo determinado para una entrega específica. Se necesitan tres condiciones de filtrado: dos condiciones de fecha para establecer el periodo de búsqueda entre 2 semanas antes de la fecha actual y el día antes de la fecha actual; y otra condición para restringir la búsqueda a una entrega específica.
 
-      En la ventana **[!UICONTROL Target element]**, configure la fecha empezando desde la cual se deben tomar en cuenta los registros de seguimiento. Haga clic en **[!UICONTROL Add]**. Se muestra una línea de condición. Edit the **[!UICONTROL Expression]** column by clicking the **[!UICONTROL Edit expression]** function. In the **[!UICONTROL Field to select]** window, choose **[!UICONTROL Date (@logDate)]**.
+      En la ventana **[!UICONTROL Target element]**, configure la fecha empezando desde la cual se deben tomar en cuenta los registros de seguimiento. Haga clic en **[!UICONTROL Add]**. Se muestra una línea de condición. Edite la columna **[!UICONTROL Expression]** haciendo clic en la función **[!UICONTROL Edit expression]**. En la ventana **[!UICONTROL Field to select]**, elija **[!UICONTROL Date (@logDate)]**.
 
       ![](assets/query_editor_nveau_23.png)
 
-      Seleccione el **[!UICONTROL greater than]** operador. En la **[!UICONTROL Value]** columna, haga clic en **[!UICONTROL Edit expression]** y, en la **[!UICONTROL Formula type]** ventana, seleccione **[!UICONTROL Process on dates]**. Finalmente, en **[!UICONTROL Current date minus n days]**, introduzca &quot;15&quot;.
+      Seleccione el operador **[!UICONTROL greater than]**. En la columna **[!UICONTROL Value]**, haga clic en **[!UICONTROL Edit expression]** y, en la ventana **[!UICONTROL Formula type]**, seleccione **[!UICONTROL Process on dates]**. Finalmente, en **[!UICONTROL Current date minus n days]**, escriba &quot;15&quot;.
 
       Haga clic en **[!UICONTROL Finish]**.
 
       ![](assets/query_editor_nveau_24.png)
 
-   * Para seleccionar la fecha de finalización de la búsqueda del registro de seguimiento, cree una segunda condición haciendo clic en **[!UICONTROL Add]**. En la **[!UICONTROL Expression]** columna, elija **[!UICONTROL Date (@logDate)]** nuevamente.
+   * Para seleccionar la fecha de finalización de la búsqueda del registro de seguimiento, cree una segunda condición haciendo clic en **[!UICONTROL Add]**. En la columna **[!UICONTROL Expression]**, elija **[!UICONTROL Date (@logDate)]** nuevamente.
 
-      Seleccione el **[!UICONTROL less than]** operador. In the **[!UICONTROL Value]** column, click **[!UICONTROL Edit expression]**. For date processing, go to the **[!UICONTROL Formula type]** window, enter &quot;1&quot; in **[!UICONTROL Current date minus n days]**.
+      Seleccione el operador **[!UICONTROL less than]**. En la columna **[!UICONTROL Value]**, haga clic en **[!UICONTROL Edit expression]**. Para el procesamiento de fechas, vaya a la ventana **[!UICONTROL Formula type]** y escriba “1” en **[!UICONTROL Current date minus n days]**.
 
       Haga clic en **[!UICONTROL Finish]**.
 
@@ -100,7 +100,7 @@ Para llevar a cabo este ejemplo, aplique los siguientes pasos:
 
       Ahora, se desea configurar la tercera condición de filtro; es decir, la etiqueta de envío que abarca la consulta.
 
-   * Haga clic en la función **[!UICONTROL Add]** para crear otra condición de filtrado. In the **[!UICONTROL Expression]** column, click **[!UICONTROL Edit expression]**. En la **[!UICONTROL Field to select]** ventana, elija **[!UICONTROL Label]** en el **[!UICONTROL Delivery]** nodo.
+   * Haga clic en la función **[!UICONTROL Add]** para crear otra condición de filtrado. En la columna **[!UICONTROL Expression]**, haga clic en **[!UICONTROL Edit expression]**. En la ventana **[!UICONTROL Field to select]**, elija **[!UICONTROL Label]** en el nodo **[!UICONTROL Delivery]**.
 
       Haga clic en **[!UICONTROL Finish]**.
 
@@ -110,8 +110,8 @@ Para llevar a cabo este ejemplo, aplique los siguientes pasos:
 
       ![](assets/query_editor_nveau_25.png)
 
-1. Click **[!UICONTROL Next]** until you get to the **[!UICONTROL Data preview]** window: no formatting is necessary here.
-1. In the **[!UICONTROL Data preview]** window, click **[!UICONTROL Start the preview of the data]** to see the number of tracking logs for each delivery recipient.
+1. Haga clic en **[!UICONTROL Next]** hasta que llegue a la ventana **[!UICONTROL Data preview]**: no se requiere formato alguno.
+1. En la ventana **[!UICONTROL Data preview]**, haga clic en **[!UICONTROL Start the preview of the data]** para ver el número de registros de seguimiento para cada destinatario de la entrega.
 
    El resultado se muestra en orden descendente.
 
@@ -126,33 +126,33 @@ En este ejemplo, se desea filtrar los destinatarios que no hayan abierto un corr
 Para crear este ejemplo, aplique los pasos siguientes:
 
 1. Arrastre y suelte una actividad **[!UICONTROL Query]** en un flujo de trabajo y ábrala.
-1. Click **[!UICONTROL Edit query]** and set the target and filtering dimensions to **[!UICONTROL Recipients]**.
+1. Haga clic en **[!UICONTROL Edit query]** y configure las dimensiones de objetivo y filtrado en **[!UICONTROL Recipients]**.
 
    ![](assets/query_recipients_1.png)
 
-1. Seleccione **[!UICONTROL Filtering conditions]** y haga clic en **[!UICONTROL Next]**.
+1. Seleccione **[!UICONTROL Filtering conditions]**, luego haga clic en **[!UICONTROL Next]**.
 1. Haga clic en el botón **[!UICONTROL Add]** y seleccione **[!UICONTROL Tracking logs]**.
-1. Defina el valor **[!UICONTROL Operator]** de la **[!UICONTROL Tracking logs]** expresión en **[!UICONTROL Do not exist such as]**.
+1. Defina el **[!UICONTROL Operator]** de la expresión **[!UICONTROL Tracking logs]** en **[!UICONTROL Do not exist such as]**.
 
    ![](assets/query_open_1.png)
 
-1. Agregue otra expresión. Select **[!UICONTROL Type]** in the **[!UICONTROL URL]** category.
-1. Then, set its **[!UICONTROL Operator]** to **[!UICONTROL equal to]** and its **[!UICONTROL Value]** to **[!UICONTROL Open]**.
+1. Agregue otra expresión. Seleccione **[!UICONTROL Type]** en la categoría **[!UICONTROL URL]**.
+1. A continuación, configure su **[!UICONTROL Operator]** en **[!UICONTROL equal to]** y su **[!UICONTROL Value]** en **[!UICONTROL Open]**.
 
    ![](assets/query_open_2.png)
 
-1. Añada otra expresión y seleccione **[!UICONTROL Date]**. **[!UICONTROL Operator]** debe establecerse en **[!UICONTROL on or after]**.
+1. Añada otra expresión y seleccione **[!UICONTROL Date]**. **[!UICONTROL Operator]** se debe configurar en **[!UICONTROL on or after]**.
 
    ![](assets/query_open_3.png)
 
-1. To set the value last 7 days, click the **[!UICONTROL Edit expression]** button in the **[!UICONTROL Value]** field.
-1. In the **[!UICONTROL Function]** category, select **[!UICONTROL Current date minus n days]** and add the number of days you want to target. En este caso, se busca fijar como objetivo los últimos 7 días.
+1. Para configurar el valor los últimos 7 días, haga clic en el botón **[!UICONTROL Edit expression]** del campo **[!UICONTROL Value]**.
+1. En la categoría **[!UICONTROL Function]**, seleccione **[!UICONTROL Current date minus n days]** y añada el número de días que desee establecer como objetivo. En este caso, se busca fijar como objetivo los últimos 7 días.
 
    ![](assets/query_open_4.png)
 
 La transición saliente contiene destinatarios que no han abierto un correo electrónico en los últimos 7 días.
 
-Si, por el contrario, se desea filtrar los destinatarios que hayan abierto al menos un correo electrónico, la consulta debe ser la siguiente: Please note that, in this case, the **[!UICONTROL Filtering dimension]** shoud be set to **[!UICONTROL Tracking logs (Recipients)]**.
+Si, por el contrario, se desea filtrar los destinatarios que hayan abierto al menos un correo electrónico, la consulta debe ser la siguiente: Tenga en cuenta que, en este caso, **[!UICONTROL Filtering dimension]** se debe configurar en **[!UICONTROL Tracking logs (Recipients)]**.
 
 ![](assets/query_open_5.png)
 
@@ -164,17 +164,17 @@ El ejemplo siguiente muestra cómo dirigirse a perfiles que han abierto una entr
 
    ![](assets/s_advuser_query_sample1.0.png)
 
-1. Con respecto a las condiciones de filtrado, haga clic en el icono **[!UICONTROL Edit expression]** de los criterios que se muestran en la estructura de sub-árbol de los registros de seguimiento. Select the **[!UICONTROL Date]** field.
+1. Con respecto a las condiciones de filtrado, haga clic en el icono **[!UICONTROL Edit expression]** de los criterios que se muestran en la estructura de sub-árbol de los registros de seguimiento. Seleccione el campo **[!UICONTROL Date]**.
 
    ![](assets/s_advuser_query_sample1.1.png)
 
-   Click **[!UICONTROL Finish]** to confirm selection.
+   Haga clic en **[!UICONTROL Finish]** para confirmar la selección.
 
    Para recuperar únicamente los registros de seguimiento con menos de dos semanas, seleccione el operador **[!UICONTROL Greater than]**.
 
    ![](assets/s_advuser_query_sample1.4.png)
 
-   A continuación, haga clic en el icono **[!UICONTROL Edit expression]** de la columna **[!UICONTROL Value]** para definir la fórmula de cálculo que se desea aplicar. Select the **[!UICONTROL Current date minus n days]** formula and enter 15 in the related field.
+   A continuación, haga clic en el icono **[!UICONTROL Edit expression]** de la columna **[!UICONTROL Value]** para definir la fórmula de cálculo que se desea aplicar. Seleccione la fórmula **[!UICONTROL Current date minus n days]** y escriba 15 en el campo relacionado.
 
    ![](assets/s_advuser_query_sample1.5.png)
 
@@ -184,7 +184,7 @@ El ejemplo siguiente muestra cómo dirigirse a perfiles que han abierto una entr
 
 ## Filtrado del comportamiento de los destinatarios después de una entrega {#filtering-recipients--behavior-folllowing-a-delivery}
 
-En un flujo de trabajo, las casillas **[!UICONTROL Query]** y **[!UICONTROL Split]** permiten seleccionar un comportamiento después de una entrega previa. This selection is carried out via the **[!UICONTROL Delivery recipient]** filter.
+En un flujo de trabajo, las casillas **[!UICONTROL Query]** y **[!UICONTROL Split]** permiten seleccionar un comportamiento después de una entrega previa. Esta selección se realiza mediante el filtro **[!UICONTROL Delivery recipient]**.
 
 * Objetivo del ejemplo
 
@@ -202,25 +202,25 @@ Los siguientes pasos muestran cómo configurar la casilla **[!UICONTROL Split]**
 
    ![](assets/query_editor_ex_09.png)
 
-1. Open the **[!UICONTROL Split]** box. En la pestaña **[!UICONTROL General]**, introduzca una etiqueta: **Split based on behavior**, por ejemplo.
+1. Abra la casilla **[!UICONTROL Split]**. En la pestaña **[!UICONTROL General]**, introduzca una etiqueta: **Split based on behavior**, por ejemplo.
 
    ![](assets/query_editor_ex_04.png)
 
 1. En la pestaña **[!UICONTROL Subsets]**, defina la primera rama de división. Por ejemplo, introduzca la etiqueta en los que se ha hecho **clic** para esta rama.
 1. Seleccione la opción **[!UICONTROL Add a filtering condition on the incoming population]**. Haga clic en **[!UICONTROL Edit]**.
-1. In the **[!UICONTROL Targeting and filtering dimension]** window, double-click the **[!UICONTROL Recipients of a delivery]** filter.
+1. En la ventana **[!UICONTROL Targeting and filtering dimension]**, haga doble clic en el filtro **[!UICONTROL Recipients of a delivery]**.
 
    ![](assets/query_editor_ex_05.png)
 
-1. In the **[!UICONTROL Target element]** window, select the behavior you want to apply to this branch: **[!UICONTROL Recipients having clicked (email)]**.
+1. En la ventana **[!UICONTROL Target element]**, seleccione el comportamiento que desee aplicar a esta rama: **[!UICONTROL Recipients having clicked (email)]**.
 
-   Below, select the **[!UICONTROL Delivery specified by the transition]** option. Esta funcionalidad recupera automáticamente a los destinatarios segmentados durante la primera entrega.
+   A continuación, seleccione la opción **[!UICONTROL Delivery specified by the transition]**. Esta funcionalidad recupera automáticamente a los destinatarios segmentados durante la primera entrega.
 
    Este es la entrega “Oferta de deportes acuáticos”.
 
    ![](assets/query_editor_ex_08.png)
 
-1. Defina la segunda rama. Esta rama incluye el correo electrónico de seguimiento con el mismo contenido que para la primera entrega. Go to the **[!UICONTROL Subsets]** tab and click **[!UICONTROL Add]** to create it.
+1. Defina la segunda rama. Esta rama incluye el correo electrónico de seguimiento con el mismo contenido que para la primera entrega. Vaya a la pestaña **[!UICONTROL Subsets]** y haga clic en **[!UICONTROL Add]** para crearlo.
 
    ![](assets/query_editor_ex_06.png)
 
@@ -230,7 +230,7 @@ Los siguientes pasos muestran cómo configurar la casilla **[!UICONTROL Split]**
    ![](assets/query_editor_ex_07.png)
 
 1. Haga clic **[!UICONTROL Delivery recipients]** en la **[!UICONTROL Targeting and filtering dimension]** ventana.
-1. In the **[!UICONTROL Target element]** window, select the **[!UICONTROL Recipients who did not click (email)]** behavior. Select the **[!UICONTROL Delivery specified by the transition]** option as shown for the last branch.
+1. En la ventana **[!UICONTROL Target element]**, seleccione el comportamiento **[!UICONTROL Recipients who did not click (email)]**. Seleccione la opción **[!UICONTROL Delivery specified by the transition]** como se muestra para la última rama.
 
    La casilla **[!UICONTROL Split]** ahora está totalmente configurada.
 
