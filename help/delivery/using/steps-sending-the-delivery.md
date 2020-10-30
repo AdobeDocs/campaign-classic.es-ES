@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1526'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -50,9 +50,9 @@ Antes de realizar el envío, se pueden definir los parámetros de envío en las 
    >
    >No se recomienda utilizar esta opción al instalar con mid-sourcing para no llamar al MTA.
    >
-   >For more information on configuring an SMTP server, refer [to this section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
+   >Para obtener más información sobre la configuración de un servidor SMTP, consulte [esta sección](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
-* **[!UICONTROL Email BCC]**: Esta opción permite almacenar correos electrónicos en un sistema externo como CCO simplemente añadiendo una dirección de correo electrónico CCO al objetivo del mensaje. For more on this, refer [to this section](../../delivery/using/sending-messages.md#archiving-emails).
+* **[!UICONTROL Email BCC]**: Esta opción permite almacenar correos electrónicos en un sistema externo como CCO simplemente añadiendo una dirección de correo electrónico CCO al objetivo del mensaje. Para obtener más información, consulte [esta sección](../../delivery/using/sending-messages.md#archiving-emails).
 
 Una vez configurada la entrega y lista para enviarla, asegúrese de ejecutar [Análisis de entrega](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery). Una vez finalizado, haga clic en **[!UICONTROL Confirm delivery]** para iniciar el envío de mensajes.
 
@@ -184,7 +184,7 @@ De manera predeterminada, se programan cinco reintentos para el primer día de l
 >
 >En el caso de instalaciones hospedadas o híbridas, si ha actualizado a la MTA mejorada, la configuración de reintentos de la entrega ya no se utiliza en Campaign. Los reintentos de devoluciones en blanco y el periodo entre ellos están determinados por el MTA mejorado en función del tipo y la gravedad de las respuestas de devoluciones procedentes del dominio de correo electrónico del mensaje.
 >
->Todos los impactos se detallan en el documento [Mejorar el MTA de Adobe Campaign](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
+>Todos los impactos se detallan en el documento [Mejorar el MTA de Adobe Campaign](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html).
 
 
 ## Definición del periodo de validez {#defining-validity-period}
@@ -205,4 +205,4 @@ Una vez iniciado la entrega, se pueden enviar los mensajes (y los reintentos) ha
 >
 >En el caso de instalaciones hospedadas o híbridas, si se ha actualizado a la MTA mejorada, la configuración **[!UICONTROL Delivery duration]** en sus envíos de la campaña se utilizará únicamente si se establece en **3,5** días o menos. Si define un valor superior a 3,5 días, no se tendrá en cuenta.
 >
->Todos los impactos se detallan en el documento [Mejorar el MTA de Adobe Campaign](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
+>Todos los impactos se detallan en el documento [Mejorar el MTA de Adobe Campaign](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html).
