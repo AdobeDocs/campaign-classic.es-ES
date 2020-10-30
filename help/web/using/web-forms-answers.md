@@ -11,11 +11,11 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 discoiquuid: c89926b6-488e-4c72-8f67-b6af388bade3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '863'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 ## Campos de almacenamiento de respuestas {#response-storage-fields}
 
-Las respuestas a los formularios se pueden guardar en un campo de la base de datos o temporalmente en una variable local. El modo de almacenamiento de las respuestas se elige durante la creación del campo. It can be edited via the **[!UICONTROL Edit storage...]** link.
+Las respuestas a los formularios se pueden guardar en un campo de la base de datos o temporalmente en una variable local. El modo de almacenamiento de las respuestas se elige durante la creación del campo. Se puede editar mediante el vínculo **[!UICONTROL Edit storage...]**.
 
 Para cada campo de entrada de un formulario, están disponibles las siguientes opciones de almacenamiento:
 
@@ -56,11 +56,11 @@ Esto significa que se puede utilizar el valor de un campo sin guardar para autor
 
 ![](assets/s_ncs_admin_survey_no_storage_variable.png)
 
-It is stored in a variable which must be selected when the drop-down box is created, or via the **[!UICONTROL Edit storage...]** link.
+Se almacena en una variable que se debe seleccionar cuando se crea la casilla desplegable o a través del vínculo **[!UICONTROL Edit storage...]**.
 
 ![](assets/s_ncs_admin_survey_no_storage_variable2.png)
 
-You can display existing variables and create new ones via the **[!UICONTROL Edit variables...]** link. Haga clic en el botón **[!UICONTROL Add]** para crear una variable nueva.
+Puede mostrar las variables existentes y crear variables nuevas mediante el vínculo **[!UICONTROL Edit variables...]**. Haga clic en el botón **[!UICONTROL Add]** para crear una variable nueva.
 
 ![](assets/s_ncs_admin_survey_add_a_variable.png)
 
