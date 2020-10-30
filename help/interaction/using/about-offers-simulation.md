@@ -11,11 +11,11 @@ audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 discoiquuid: 0af021af-2686-4a37-97d9-6d13a851b5dd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -32,12 +32,12 @@ Para aprender a simular una oferta, lea los pasos a continuación. También pued
 
 Para ejecutar una simulación de ofertas, siga los siguientes pasos:
 
-1. In the **[!UICONTROL Profiles and Targets]** universe, click the **[!UICONTROL Simulations]** link, then click the **[!UICONTROL Create]** button.
+1. En el entorno **[!UICONTROL Profiles and Targets]**, haga clic en el vínculo **[!UICONTROL Simulations]**, luego, haga clic en **[!UICONTROL Create]**.
 
    ![](assets/offer_simulation_001.png)
 
 1. Guarde y edite la simulación que acaba de crear.
-1. Go to the **[!UICONTROL Edit]** tab and specify the execution settings.
+1. Vaya a la pestaña **[!UICONTROL Edit]** y especifique la configuración de ejecución.
 
    Para obtener más información, consulte [Configurar una ejecución](../../interaction/using/execution-settings.md).
 
@@ -53,13 +53,13 @@ Para ejecutar una simulación de ofertas, siga los siguientes pasos:
 
    ![](assets/offer_simulation_004.png)
 
-1. Añada los ejes de sistema de informes para mejorar el **[!UICONTROL Offer distribution by rank]** informe (opcional).
+1. Añada los ejes del sistema de informes para mejorar el informe **[!UICONTROL Offer distribution by rank]** (opcional).
 
    Para obtener más información, consulte [Adición de ejes al sistema de informes](../../interaction/using/simulation-scope.md#adding-reporting-axes).
 
    ![](assets/offer_simulation_005.png)
 
-1. Click **[!UICONTROL Save]** to record the simulation settings.
+1. Haga clic en **[!UICONTROL Save]** para guardar los ajustes de la simulación.
 1. Inicie la simulación a través del panel de control.
 
    ![](assets/offer_simulation_006.png)
