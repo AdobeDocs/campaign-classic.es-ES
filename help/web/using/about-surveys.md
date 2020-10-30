@@ -11,11 +11,11 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 discoiquuid: ef7d9b16-506a-409c-a578-000b88cd17a2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '586'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -81,10 +81,10 @@ Para obtener más información sobre la configuración y secuenciación de estos
 
 ## Configuración de encuestas {#surveys-configuration}
 
-Surveys are stored in the **[!UICONTROL Resources > Online > Web Applications]** node of the Adobe Campaign tree. Las configuraciones se encuentran en las siguientes carpetas:
+Las encuestas se almacenan en el nodo **[!UICONTROL Resources > Online > Web Applications]** del directorio de Adobe Campaign. Las configuraciones se encuentran en las siguientes carpetas:
 
-* **[!UICONTROL Administration > Configuration > Form rendering]**:: contiene las plantillas de procesamiento para la presentación de formularios Web (aplicaciones y encuestas).
-* **[!UICONTROL Resources > Templates > Web application templates]**:: contiene las plantillas de formulario. Para crear un formulario, debe empezar con una plantilla.
+* **[!UICONTROL Administration > Configuration > Form rendering]**: contiene las plantillas de renderización para la presentación de formularios web (aplicaciones y encuestas).
+* **[!UICONTROL Resources > Templates > Web application templates]**: contiene las plantillas de formulario. Para crear un formulario, debe empezar con una plantilla.
 
 >[!NOTE]
 >
