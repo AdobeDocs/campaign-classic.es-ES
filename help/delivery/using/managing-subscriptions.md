@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
 discoiquuid: 9a61fe74-f779-4f23-be25-3d9a8e95704a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1101'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Hay tres modos de suscripción/baja del servicio:
 
 Puede crear y gestionar suscripciones a los servicios informativos con mensajes de confirmación o envíos automáticos asociados a los suscriptores.
 
-To access the information services map, go to the **[!UICONTROL Profiles and Targets]** universe and click the **[!UICONTROL Services and Subscriptions]** link.
+Para acceder al mapa de servicios informativos, vaya al entorno **[!UICONTROL Profiles and Targets]** y haga clic en el vínculo **[!UICONTROL Services and Subscriptions]**.
 
 ![](assets/s_ncs_user_services_new.png)
 
@@ -63,7 +63,7 @@ Para editar un servicio existente, haga clic en su nombre. Para crear un servici
    >
    >En [esta sección](../../social/using/about-social-marketing.md) se detallan las suscripciones a Facebook y Twitter. Las suscripciones a aplicaciones móviles se detallan en [Acerca del canal de aplicaciones móviles](../../delivery/using/about-mobile-app-channel.md).
 
-* Para el servicio de correo electrónico, seleccione el **Delivery mode**. The possible modes are: **[!UICONTROL Newsletter]** or **[!UICONTROL Viral]**.
+* Para el servicio de correo electrónico, seleccione el **Delivery mode**. Los modos posibles son: **[!UICONTROL Newsletter]** o **[!UICONTROL Viral]**.
 * Puede enviar **mensajes de confirmación** para una suscripción o darse de baja. Para ello, seleccione las plantillas de entrega que quiera utilizar para crear los envíos correspondientes de los campos **[!UICONTROL Subscription]** y **[!UICONTROL Unsubscription]**. Estas plantillas deben configurarse con una asignación de destino de tipo **[!UICONTROL Subscription]**, sin un destino definido. Consulte la sección [Acerca del canal de correo electrónico](../../delivery/using/about-email-channel.md).
 * De forma predeterminada, las suscripciones son ilimitadas. Puede desmarcar la opción **[!UICONTROL Unlimited]** y definir una duración de validez del servicio. La duración se puede especificar en días (**[!UICONTROL d]**) o meses (**[!UICONTROL m]**).
 
@@ -71,7 +71,7 @@ Una vez guardado el servicio, se añade a la lista Services and Subscriptions: H
 
 ![](assets/s_ncs_user_services_subscriptions.png)
 
-The **[!UICONTROL Detail...]** button lets you look at the subscription properties for the selected recipient.
+El botón **[!UICONTROL Detail...]** permite ver las propiedades de la suscripción del destinatario seleccionado.
 
 Puede modificar las características de la suscripción de un destinatario.
 
@@ -132,7 +132,7 @@ Para registrar a los destinatarios en un servicio informativo, puede:
 
    Para obtener más información, consulte la sección de edición de perfiles en [esta sección](../../platform/using/editing-a-profile.md).
 
-* Suscribir automáticamente a un conjunto de destinatarios a este servicio. Puede obtener una lista de destinatarios a través de una operación de filtrado, un grupo, una carpeta, una importación o una selección directa usando el ratón. Para suscribir a estos destinatarios, haga clic con el botón derecho del ratón. Select **[!UICONTROL Actions > Subscribe selection to a service...]**, select the service concerned, and launch the operation.
+* Suscribir automáticamente a un conjunto de destinatarios a este servicio. Puede obtener una lista de destinatarios a través de una operación de filtrado, un grupo, una carpeta, una importación o una selección directa usando el ratón. Para suscribir a estos destinatarios, haga clic con el botón derecho del ratón. Seleccione **[!UICONTROL Actions > Subscribe selection to a service...]**, el servicio correspondiente y ejecute la operación.
 * Importación de destinatarios y subscripción automática a un servicio informativo. Para ello, seleccione el servicio correspondiente en el último paso del asistente para importar.
 
    Para obtener más información, consulte [esta sección](../../platform/using/importing-data.md#import-wizard).
@@ -141,7 +141,7 @@ Para registrar a los destinatarios en un servicio informativo, puede:
 
    Para obtener más información, consulte [esta sección](../../web/using/about-web-applications.md).
 
-* Creating a targeting workflow and using a **[!UICONTROL Subscription service]** box.
+* Creación de un flujo de trabajo de objetivos y uso de una casilla **[!UICONTROL Subscription service]**.
 
    ![](assets/s_ncs_user_subscribe_from_wf.png)
 
@@ -153,7 +153,7 @@ Para registrar a los destinatarios en un servicio informativo, puede:
 
 los envíos de correo electrónico deben contener, por ley, un vínculo para darse de baja. Los destinatarios pueden hacer clic en este vínculo para actualizar su perfil y darse de baja de posibles envíos futuros.
 
-El vínculo predeterminado para darse de baja se inserta con el último botón de la barra de herramientas del editor de contenido, en el asistente de envíos (consulte [Acerca de la personalización](../../delivery/using/about-personalization.md)). Cuando el destinatario hace clic en este vínculo, el perfil se agrega a la  de lista de bloqueados (exclusión), lo que significa que este destinatario ya no será segmentado por ninguna acción de envío.
+El vínculo predeterminado para darse de baja se inserta con el último botón de la barra de herramientas del editor de contenido, en el asistente de envíos (consulte [Acerca de la personalización](../../delivery/using/about-personalization.md)). Cuando el destinatario hace clic en este vínculo, el perfil se incluye en la lista de bloqueados (de exclusión), lo que significa que este destinatario ya no forma parte de ninguna acción de entrega.
 
 Sin embargo, los destinatarios pueden optar por cancelar la suscripción de un servicio sin cancelar la suscripción de todos los servicios. Para esto, puede utilizar un formulario web (consulte [esta sección](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes)) o insertar un vínculo personalizado para darse de baja del servicio (consulte [Bloques de personalización](../../delivery/using/personalization-blocks.md)).
 
