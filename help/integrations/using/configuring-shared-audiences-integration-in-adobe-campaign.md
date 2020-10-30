@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: d567cb7dbc55d9c124d1cc83b7a5a9e2dfb5ab61
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 76%
+ht-degree: 81%
 
 ---
 
@@ -75,11 +75,11 @@ Las cuentas externas ya están configuradas.
 
 La **ID de destinatario - visitante** se crea dentro de Audience Manager. Constituye una fuente de datos de serie y configurada de forma predeterminada para la ID del visitante. Los segmentos creados con Campaign forman parte de esta fuente de datos.
 
-To configure the **[!UICONTROL Recipient - Visitor ID]** data source:
+Para configurar la fuente de datos **[!UICONTROL Recipient - Visitor ID]**:
 
-1. From the **[!UICONTROL Explorer]** node, select **[!UICONTROL Administration > Platform > AMC Data sources]**.
+1. En el nodo **[!UICONTROL Explorer]**, seleccione **[!UICONTROL Administration > Platform > AMC Data sources]**.
 1. Seleccione **[!UICONTROL Recipient - Visitor ID]**.
-1. Introduzca el valor **[!UICONTROL Data Source ID]** y **[!UICONTROL AAM Destination ID]** proporcionado por Adobe.
+1. Introduzca el **[!UICONTROL Data Source ID]** y **[!UICONTROL AAM Destination ID]** proporcionados por Adobe.
 
    ![](assets/aam_config_3.png)
 
@@ -91,6 +91,6 @@ Debe verificar que el servidor de seguimiento de Campaign esté registrado en el
 
 ## Paso 4: Configuración del servicio de ID de visitante {#step-4--configure-the-visitor-id-service}
 
-En caso de que el servicio de ID de visitante no se haya configurado en las propiedades web o sitios web, consulte el siguiente [documento](https://docs.adobe.com/content/help/en/id-service/using/implementation/setup-aam-analytics.html) o el siguiente [vídeo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) para aprender a configurar el servicio.
+En caso de que el servicio de ID de visitante no se haya configurado en las propiedades web o sitios web, consulte el siguiente [documento](https://docs.adobe.com/content/help/es-ES/id-service/using/implementation/setup-aam-analytics.html) o el siguiente [vídeo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) para aprender a configurar el servicio.
 
 La configuración y el suministro han finalizado, la integración ya puede utilizarse para importar y exportar audiencias o segmentos.
