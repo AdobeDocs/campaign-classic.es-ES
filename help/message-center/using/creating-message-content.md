@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Para insertar etiquetas de personalización en el cuerpo de un mensaje de correo
 
 1. En la plantilla de mensaje, haga clic en la pestaña que coincida con el formato de correo electrónico (HTML o texto).
 1. Introduzca el cuerpo del mensaje.
-1. In the body of the text, insert the tag using the **[!UICONTROL Real time events>Event XML]** menus.
+1. En el cuerpo del texto, inserte la etiqueta utilizando los menús **[!UICONTROL Real time events>Event XML]**.
 
    ![](assets/messagecenter_create_custo_002.png)
 
