@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 discoiquuid: f78603e9-f6ff-4ebe-941b-b3fbd1924b71
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -35,15 +35,15 @@ Para gestionar operadores y permisos, consulte esta [sección](../../platform/us
 Los siguientes grupos de operadores están asociados al flujo de trabajo:
 
 * El grupo **[!UICONTROL Workflow execution]** permite controlar la ejecución y la aprobación de los flujos de trabajo de objetivo: el derecho denominado “WORKFLOW” se asigna a los operadores de este grupo. Es necesario para todas las acciones relacionadas con los flujos de trabajo, además de los derechos de acceso a los archivos de datos. De forma predeterminada, el grupo **[!UICONTROL Workflow execution]** tiene acceso de solo lectura a los archivos de flujo de trabajo de objetivo estándar y a las plantillas de flujo de trabajo. Los operadores de este grupo también tienen acceso de lectura y escritura al archivo de aprobaciones pendientes.
-* The **[!UICONTROL Workflow supervisors]** group lets operators manage workflow approvals.
-* The **[!UICONTROL Operation Managers]** group to access campaign workflows.
+* El grupo **[!UICONTROL Workflow supervisors]** permite que los operadores administren las aprobaciones de flujo de trabajo.
+* El grupo **[!UICONTROL Operation Managers]** permite el acceso a los flujos de trabajo de campaña.
 
 ## Derechos asignados {#named-rights}
 
-Solo el derecho denominado “WORKFLOW” es específico de los flujos de trabajo: permite crear, iniciar y detener flujos de trabajo. Se necesitan derechos de lectura en el archivo de flujo de trabajo para que el derecho llamado sea aplicable. For targeting workflows, the reading right on the **[!UICONTROL Profiles and Targets]** file is necessary.
+Solo el derecho denominado “WORKFLOW” es específico de los flujos de trabajo: permite crear, iniciar y detener flujos de trabajo. Se necesitan derechos de lectura en el archivo de flujo de trabajo para que el derecho llamado sea aplicable. Para flujos de trabajo de objetivo, es necesario tener derechos de lectura sobre el archivo **[!UICONTROL Profiles and Targets]**.
 
 ## Cuenta de ejecución del flujo de trabajo {#workflow-execution-account}
 
 Puede configurar la cuenta de ejecución para usarla al nivel de plantilla de flujo de trabajo. La cuenta de ejecución permite asignar autorizaciones directamente al flujo de trabajo, independientemente de si el operador de Adobe Campaign inicia la ejecución. De forma predeterminada, cada flujo de trabajo se ejecuta con los derechos del operador que lo inicia.
 
-Para asignar una cuenta de ejecución a un flujo de trabajo, vaya a la lista de plantillas de flujo de trabajo y haga clic con el botón derecho en la plantilla vinculada al flujo de trabajo. Choose **[!UICONTROL Action > Change execution account...]** then select the account to be used.
+Para asignar una cuenta de ejecución a un flujo de trabajo, vaya a la lista de plantillas de flujo de trabajo y haga clic con el botón derecho en la plantilla vinculada al flujo de trabajo. Elija **[!UICONTROL Action > Change execution account...]** y después seleccione la cuenta que desee utilizar.
