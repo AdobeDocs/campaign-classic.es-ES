@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 discoiquuid: abf097eb-ade5-479e-9e20-8bd6bc9d96aa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '820'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -153,7 +153,7 @@ La edición de formularios dentro de listas se utiliza en los siguientes casos:
 
 La definición del formulario de edición se especifica mediante el elemento **`<form>`** debajo del elemento de lista. Su estructura es idéntica a la estructura de un formulario de entrada.
 
-A **[!UICONTROL Detail]** button is automatically added when the **zoom=&quot;true&quot;** attribute is entered in the list definition. Esto permite abrir el formulario de edición en la línea seleccionada.
+Se añade automáticamente un botón **[!UICONTROL Detail]** cuando se introduce el atributo **zoom=&quot;true&quot;** en la definición de la lista. Esto permite abrir el formulario de edición en la línea seleccionada.
 
 >[!NOTE]
 >
@@ -199,6 +199,6 @@ La zona de edición permite introducir el contenido XML del formulario de entrad
 
 ![](assets/d_ncs_content_form12.png)
 
-The **[!UICONTROL Preview]** tab lets you view the input form:
+La pestaña **[!UICONTROL Preview]** le permite ver el formulario de entrada:
 
 ![](assets/d_ncs_content_form13.png)
