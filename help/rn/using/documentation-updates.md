@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: ba5e815dd1576b55d9b3226639680f6358137f13
 workflow-type: tm+mt
 source-wordcount: '3882'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -55,11 +55,11 @@ Los modelos de hospedaje in situ, alojados e híbridos de campaña ahora se desc
 
 La matriz de capacidad de campaña por modelo de alojamiento se ha actualizado y movido en la guía de instalación. [Más información](../../installation/using/capability-matrix.md)
 
-Se ha mejorado la sección de funciones avanzadas del Sistema de informes de campaña para detallar cómo utilizar parámetros y variables de URL en informes personalizados. [Más información](../../reporting/using/advanced-functionalities.md)
+Se ha mejorado la sección de funciones avanzadas del Sistema de informes de Campaign para detallar cómo utilizar parámetros y variables de URL en informes personalizados. [Más información](../../reporting/using/advanced-functionalities.md)
 
 La página de propiedades de informes se ha reorganizado y enriquecido para facilitar la configuración. [Más información](../../reporting/using/properties-of-the-report.md)
 
-Se ha creado una nueva nota técnica con detalles sobre cómo migrar del protocolo binario heredado a la API de proveedor de APN basada en HTTP/2. [Más información](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
+Se ha creado una nueva nota técnica con detalles sobre cómo migrar del protocolo binario heredado a la API de proveedor de APN basada en HTTP/2. [Más información](https://helpx.adobe.com/es/campaign/kb/migrate-to-apns-http2.html)
 
 ## Septiembre de 2020 {#september-2020}
 
@@ -405,7 +405,7 @@ Se ha creado un nuevo artículo de la base de conocimiento sobre el uso del cat�
 
 La sección de actividad de subflujo de trabajo se ha mejorado con un ejemplo de uso. [Más información](../../workflow/using/sub-workflow.md)
 
-La página matriz [de funciones locales y alojadas del](../../installation/using/capability-matrix.md) Campaign Classic se ha actualizado con información relacionada con Email BCC.
+The [Campaign Classic On-premise &amp; Hosted capability matrix](../../installation/using/capability-matrix.md) page has been updated with information relating to Email BCC.
 
 La documentación de Mensajería transaccional se ha actualizado con una nota relativa a la publicación de plantillas. [Más información](https://docs.campaign.adobe.com/doc/AC/en/MCE_Template_publication.html)
 
