@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 9ca649b4-2226-4cfe-bae1-4632c421975b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '611'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -58,8 +58,8 @@ Para vincular la consulta de los destinatarios a la consulta que lleva a cabo el
 1. En la pestaña **[!UICONTROL Links]**, agregue un vínculo nuevo e introduzca la información en la ventana que se abre de la siguiente manera:
 
    * Seleccione el esquema temporal relacionado con el agregado. Los datos de este esquema se agregan a los miembros del conjunto principal.
-   * Select **[!UICONTROL Use a simple join]** to link the aggregate result to every recipient of the main set.
-   * Finally, specify that the link is a **[!UICONTROL Type 11 simple link]**.
+   * Seleccione **[!UICONTROL Use a simple join]** para vincular el resultado del agregado a cada destinatario del conjunto principal.
+   * Finalmente, especifique que el vínculo es un **[!UICONTROL Type 11 simple link]**.
 
    ![](assets/datamanagement_usecase_3.png)
 
@@ -70,7 +70,7 @@ Así, el resultado de la agregación se vincula a todos los destinatarios.
 Una vez establecido el vínculo, el resultado del agregado y los destinatarios forman parte del mismo esquema temporal. Por lo tanto, es posible crear un filtro en el esquema para comparar la fecha de creación de los destinatarios y la última fecha de creación conocida, representada mediante la función de agregación. Este filtro se lleva a cabo mediante una actividad de división.
 
 1. En la pestaña **[!UICONTROL General]**, seleccione **Recipients** como entorno de segmentación y **Edit schema** como entorno de filtrado (para filtrar en la actividad de esquema de transición entrante).
-1. En la **[!UICONTROL subsets]** ficha, seleccione **[!UICONTROL Add a filtering condition on the inbound population]** y haga clic en **[!UICONTROL Edit...]**.
+1. En la pestaña **[!UICONTROL subsets]**, seleccione **[!UICONTROL Add a filtering condition on the inbound population]** y haga clic en **[!UICONTROL Edit...]**.
 1. Mediante el editor de expresiones, agregue un criterio de igualdad entre la fecha de creación de los destinatarios y la fecha de creación calculada mediante el agregado.
 
    Los campos de fecha de la base de datos suelen guardarse en milisegundos. Por lo tanto, se deben ampliar para todo el día a fin de evitar recuperar destinatarios creados solo en ese mismo milisegundo.
