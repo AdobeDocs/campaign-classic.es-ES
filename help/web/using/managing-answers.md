@@ -11,11 +11,11 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 discoiquuid: affecd87-00a3-4d50-92d3-31ac6228948b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Además de los modos de almacenamiento estándar comunes a todos los formularios
 
 ### Almacenamiento en un campo archivado {#storing-in-an-archived-field}
 
-Es fácil ampliar la plantilla de datos mediante la adición de nuevos espacios de almacenamiento para guardar las respuestas que se proporcionan en las encuestas. To do this, select the **[!UICONTROL Store answers to a question]** option when creating the input field. Click the **[!UICONTROL New field...]** link and give its properties:
+Es fácil ampliar la plantilla de datos mediante la adición de nuevos espacios de almacenamiento para guardar las respuestas que se proporcionan en las encuestas. Para ello, seleccione la opción **[!UICONTROL Store answers to a question]** al crear el campo de entrada. Haga clic en el vínculo **[!UICONTROL New field...]** y proporcione sus propiedades:
 
 ![](assets/s_ncs_admin_survey_new_space.png)
 
@@ -48,7 +48,7 @@ Para añadir una restricción, selecciónela en la lista desplegable. Hay dos ti
 
 1. Formato de datos
 
-If this field is used in a list, the values of the enumeration can be retrieved automatically in the table of values using the **[!UICONTROL Initialize the list of values from the database]** link above the list of values.
+Si este campo se utiliza en una lista, los valores de la enumeración pueden recuperarse automáticamente en la tabla de valores con el vínculo **[!UICONTROL Initialize the list of values from the database]** situado sobre la lista de valores.
 
 Por ejemplo, puede crear una lista desplegable para que el usuario seleccione su lengua materna. El campo archivado correspondiente se puede asociar a la enumeración **idioma** que contiene una lista de idiomas:
 
@@ -58,15 +58,15 @@ El icono **[!UICONTROL Edit link]** situado a la derecha del campo permite edita
 
 ![](assets/s_ncs_admin_survey_database_values_2c.png)
 
-In the **[!UICONTROL General]** tab of the field, the **[!UICONTROL Initialize the list of values from the database]** link lets you automatically enter the list of labels offered.
+En la pestaña **[!UICONTROL General]** del campo, el vínculo **[!UICONTROL Initialize the list of values from the database]** permite introducir automáticamente la lista de etiquetas ofrecidas.
 
 ![](assets/s_ncs_admin_survey_database_values_2.png)
 
 **Ejemplo**: almacene los contratos de un destinatario en un campo
 
-To store different types of contracts in one field, create a **[!UICONTROL Text]** input field and select the **[!UICONTROL Store answers to a question]** option.
+Para almacenar distintos tipos de contratos en un campo, cree un campo de entrada **[!UICONTROL Text]** y seleccione la opción **[!UICONTROL Store answers to a question]**.
 
-Click the **[!UICONTROL New field...]** link and enter the field properties. Seleccione la opción **[!UICONTROL Multiple values]** para habilitar el almacenamiento de varios valores.
+Haga clic en el vínculo **[!UICONTROL New field...]** para introducir las propiedades del campo. Seleccione la opción **[!UICONTROL Multiple values]** para habilitar el almacenamiento de varios valores.
 
 ![](assets/s_ncs_admin_survey_storage_multi_ex1.png)
 
@@ -115,7 +115,7 @@ Es posible archivar las respuestas a las encuestas en formato XML. Esto permite 
 Para ello:
 
 * En la pestaña **[!UICONTROL Properties]**, edite las propiedades de la encuesta con el botón **[!UICONTROL Edit]**.
-* Click the **[!UICONTROL Advanced parameters]** link and check the **[!UICONTROL Save a copy of raw answers]** option.
+* Haga clic en el vínculo **[!UICONTROL Advanced parameters]** y marque la opción **[!UICONTROL Save a copy of raw answers]**.
 
 ![](assets/s_ncs_admin_survey_xml_archive_option.png)
 
