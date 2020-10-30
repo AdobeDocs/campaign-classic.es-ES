@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 78b58a7a-b387-4d5d-80d5-01c06f83d759
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2440'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,11 @@ Cuando un mensaje (correo electrónico, SMS, notificación inmediata) no se pued
 
 Una vez enviado un mensaje, los “logs” de entrega permiten ver el estado de entrega de cada perfil y el tipo y el motivo de error asociado.
 
-Los mensajes también se pueden excluir durante la preparación del envío si se pone en cuarentena una dirección o si un perfil está en lista de bloqueados. Los mensajes excluidos se muestran en el panel de entrega.
+Los mensajes también se pueden excluir durante la preparación de la entrega si una dirección está en cuarentena o si un perfil está en la lista de bloqueados. Los mensajes excluidos se muestran en el panel de entrega.
 
 **Temas relacionados:**
 
-* [“Logs” de entrega e historial](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history)
+* [Registros de entrega e historial](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history)
 * [Estado de error](../../delivery/using/monitoring-a-delivery.md#failed-status)
 * [Tipos y motivos de errores de entrega](#delivery-failure-types-and-reasons)
 
@@ -83,10 +83,10 @@ Los posibles motivos de un error de entrega son:
    <td> El índice de calidad de esta dirección es demasiado bajo.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Dirección Incluida en la lista de bloqueados </td> 
+   <td> Dirección incluida en la lista de bloqueados </td> 
    <td> Grave </td> 
    <td> 8 </td> 
-   <td> La dirección se agregó a la  de lista de bloqueados en el momento del envío. This status is used for importing data from external lists and external systems into the Adobe Campaign Quarantine list.<br /> </td> 
+   <td> La dirección se agregó a la lista de bloqueados al momento del envío. Este estado se utiliza para importar datos de listas externas y sistemas externos a la lista de cuarentena de Adobe Campaign.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dirección de control </td> 
@@ -104,7 +104,7 @@ Los posibles motivos de un error de entrega son:
    <td> Error ignorado </td> 
    <td> Ignorado </td> 
    <td> 25 </td> 
-   <td> La dirección está en la lista de permitidos. Por lo tanto, el error se ignora y se envía un correo electrónico.<br /> </td> 
+   <td> La dirección está incluida en la lista de permitidos. Por lo tanto, el error se ignora y se envía un correo electrónico.<br /> </td> 
   </tr> 
   <tr> 
    <td> Excluido tras la mediación </td> 
@@ -204,7 +204,7 @@ Un mensaje puede fallar inmediatamente (error sincrónico), o más tarde, despu�
    >
    >La configuración del buzón de rechazos se detalla en [esta sección](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
 
-   The [feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop) operates like bounce emails. Cuando un usuario clasifica un correo electrónico como correo no deseado, puede configurar las reglas de correo en Adobe Campaign para bloquear todas las entregas a este usuario. Los mensajes enviados a los usuarios que han clasificado un correo electrónico como no deseado se redireccionan automáticamente a una bandeja de correo creada específicamente para este fin. Las direcciones de estos usuarios están en lista de bloqueados aunque no hayan hecho clic en el vínculo baja. Addresses are in denylist in the (**NmsAddress**) quarantine table and not in the (**NmsRecipient**) recipient table.
+   El [bucle de comentarios](../../delivery/using/technical-recommendations.md#feedback-loop) funciona como los correos electrónicos rechazados. Cuando un usuario clasifica un correo electrónico como correo no deseado, puede configurar las reglas de correo en Adobe Campaign para bloquear todas las entregas a este usuario. Los mensajes enviados a los usuarios que han clasificado un correo electrónico como no deseado se redireccionan automáticamente a una bandeja de correo creada específicamente para este fin. Las direcciones de estos usuarios se incluyen en la lista de bloqueados aunque no hayan hecho clic en el vínculo de baja. Las direcciones se incluyen en la lista de bloqueados en la tabla de cuarentena (**NmsAddress**) en vez de en la tabla de destinatarios (**NmsRecipient**).
 
    >[!NOTE]
    >
@@ -255,7 +255,7 @@ Los correos electrónicos rechazados pueden tener el siguiente estado de clasifi
 * En el caso de instancias que utilicen el MTA mejorado sin **Webhooks/EFS**, las **[!UICONTROL Inbound email]** reglas también se utilizan para procesar los correos electrónicos rechazados sincrónicos procedentes del MTA mejorado, utilizando la misma dirección de correo electrónico que para los correos electrónicos rechazados asincrónicos.
 >
 >
-Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte [este documento](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
+Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte [este documento](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html).
 
 ### Reglas de gestión de correo electrónico {#email-management-rules}
 
@@ -291,7 +291,7 @@ Para obtener más información sobre la calificación de correo rechazado, consu
 >
 >En el caso de instalaciones hospedadas o híbridas, si ha actualizado al MTA mejorado, y si su instancia tiene la funcionalidad **Webhooks/EFS**, las **[!UICONTROL Inbound email]** reglas ya no se utilizan para los mensajes de error de envío sincrónico. Para obtener más información, consulte [esta sección](#bounce-mail-qualification).
 >
->Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte [este documento](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
+>Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte [este documento](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html).
 
 #### Administración de dominios {#domain-management}
 
@@ -308,7 +308,7 @@ Si los mensajes se muestran en Outlook con **[!UICONTROL on behalf of]** en la d
 >
 >En el caso de instalaciones alojadas o híbridas, si se ha actualizado a la MTA mejorada, ya no se utilizan las reglas de **[!UICONTROL Domain management]**. La firma de autenticación por correo electrónico de **DKIM (DomainKeys Identified Mail)** se realiza mediante el MTA mejorado para todos los mensajes con todos los dominios. No se firma con **el ID del remitente**, **DomainKeys** o **S/MIME** a menos que se especifique lo contrario en el nivel de MTA mejorado.
 >
->Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte [este documento](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
+>Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte [este documento](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html).
 
 #### Administración MX {#mx-management}
 
@@ -324,4 +324,4 @@ Para obtener más información sobre gestión MX, consulte [esta sección](../..
 >
 >En el caso de instalaciones alojadas o híbridas, si se ha actualizado a la MTA mejorada, ya no se utilizan las **[!UICONTROL MX management]** reglas de rendimiento de envíos. El MTA mejorado utiliza sus propias reglas MX que le permiten personalizar el rendimiento por dominio en función de su propia reputación histórica de correo electrónico y de los comentarios en tiempo real procedentes de los dominios a los que envía correos electrónicos.
 >
->Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte [este documento](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
+>Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte [este documento](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html).
