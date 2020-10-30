@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 96a7aea4-4799-4ac7-8dff-666b075a1c43
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Una vez que se ha configurado la selección de la lista, puede añadir un filtro
 >
 >Para poder crear un filtro en una actividad de lista de lectura, la lista relevante debe ser un tipo de “archivo”.
 
-The lists can be created directly in Adobe Campaign via the **[!UICONTROL Profiles and Targets > Lists]** link of the home page. También pueden crearse en un flujo de trabajo utilizando la actividad **[!UICONTROL List update]**.
+Las listas se pueden crear directamente en Adobe Campaign mediante el vínculo **[!UICONTROL Profiles and Targets > Lists]** de la página principal. También pueden crearse en un flujo de trabajo utilizando la actividad **[!UICONTROL List update]**.
 
 **Ejemplo: Excluir una lista de direcciones de envío**
 
@@ -70,7 +70,7 @@ Los perfiles contenidos en la carpeta **New contacts** deben ser dirigidos a una
 
 1. En el campo **[!UICONTROL Exclusion set]**, seleccione la actividad **[!UICONTROL Read list]**: los datos de esta actividad se excluirán del conjunto principal.
 
-   En nuestro ejemplo, tenemos una exclusión en las combinaciones: los datos contenidos en la lista se reconciliarán con los datos del conjunto principal a través del campo que contiene la dirección de correo electrónico. To configure the join, select **[!UICONTROL Joins]** in the **[!UICONTROL Change dimension]** field.
+   En nuestro ejemplo, tenemos una exclusión en las combinaciones: los datos contenidos en la lista se reconciliarán con los datos del conjunto principal a través del campo que contiene la dirección de correo electrónico. Para configurar la unión, seleccione **[!UICONTROL Joins]** en el campo **[!UICONTROL Change dimension]**.
 
    ![](assets/s_advuser_list_read_sample_4.png)
 
