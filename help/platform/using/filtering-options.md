@@ -11,11 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 discoiquuid: 199eb687-3da6-49c1-9997-ef1cbd2647b6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 95%
 
 De forma predeterminada, Adobe Campaign muestra todos los datos de la base de datos para los cuales el operador respectivo tiene derechos de lectura.
 
-Estos datos se pueden filtrar mediante las opciones ubicadas en la sección superior de la ventana del navegador.
+Estos datos se pueden filtrar mediante las opciones ubicadas en la sección superior de la ventana del explorador.
 
 ![](assets/filter_web_zone.png)
 
@@ -39,7 +39,7 @@ Existen varias maneras de filtrar los datos que se van a mostrar. Si es necesari
 
 ## Filtrar por carpeta {#filter-by-folder}
 
-Click the **[!UICONTROL Folder]** icon to select the folder containing the data to display.
+Haga clic en el icono **[!UICONTROL Folder]** para seleccionar la carpeta que contiene los datos que se van a mostrar.
 
 ![](assets/filter_web_select_folder.png)
 
