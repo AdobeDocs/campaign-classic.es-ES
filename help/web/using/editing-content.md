@@ -11,9 +11,9 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 discoiquuid: da66d640-8504-4dc7-bc4e-1c0ac1d37c37
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1236'
 ht-degree: 100%
 
@@ -142,6 +142,7 @@ Los bloques y campos de personalización solo se pueden insertar en bloques de t
 >* Nueva ventana (_blank)
 >* Ventana actual (_self)
 >* Comportamiento predeterminado del navegador
+
 >
 
 
@@ -207,8 +208,9 @@ Las opciones disponibles son las siguientes:
 >[!NOTE]
 >
 >* Icono **Eliminar**: elimina el bloque y todo su contenido.
->
->* Icono **Duplicar**: duplica el bloque y todos los estilos relacionados con el bloque.
+   >
+   >
+* Icono **Duplicar**: duplica el bloque y todos los estilos relacionados con el bloque.
 
 
 ## Administración de imágenes y animaciones {#managing-images-and-animations}
