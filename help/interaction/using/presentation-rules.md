@@ -11,11 +11,11 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 discoiquuid: 8ef303b4-d9ce-40ee-a6c6-ed5012ab8eb8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ En nuestra base de datos existen varias ofertas de viajes para Europa, África, 
 
 Vamos a configurar nuestra regla para que el viaje a Canadá se ofrezca solo una vez por destinatario y no se ofrezca nuevamente si se rechaza.
 
-1. In the Adobe Campaign tree, go to the **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typology rules]** node.
-1. Create a new **[!UICONTROL Offer presentation]** type rule.
+1. En el árbol de Adobe Campaign, vaya al nodo **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typology rules]**.
+1. Cree una nueva regla de tipo **[!UICONTROL Offer presentation]**.
 
    ![](assets/offer_typology_example_001.png)
 
@@ -41,7 +41,7 @@ Vamos a configurar nuestra regla para que el viaje a Canadá se ofrezca solo una
 
    ![](assets/offer_typology_example_003.png)
 
-1. Click the **[!UICONTROL Edit expression]** link and choose the **[!UICONTROL Category]** node as an expression.
+1. Haga clic en el vínculo **[!UICONTROL Edit expression]** y elija el nodo **[!UICONTROL Category]** como una expresión.
 
    ![](assets/offer_typology_example_004.png)
 
@@ -61,7 +61,7 @@ Vamos a configurar nuestra regla para que el viaje a Canadá se ofrezca solo una
 
    ![](assets/offer_typology_example_008.png)
 
-1. Select the **[!UICONTROL Offers for the same category]** filter to exclude all offers from the **Canada** category.
+1. Seleccione el filtro **[!UICONTROL Offers for the same category]** para excluir todas las ofertas de la categoría **Canada**.
 
    ![](assets/offer_typology_example_020.png)
 
