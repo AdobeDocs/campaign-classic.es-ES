@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 13b72aa1-de40-4548-835b-97e765e04e95
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Las propiedades de la actividad se dividen en tres pasos:
 
    * **[!UICONTROL Explicit]**
 
-      This option lets you select a content already created, via the **[!UICONTROL Content]** field. Este campo solo está visible cuando se selecciona la opción **[!UICONTROL Explicit]**.
+      Esta opción le permite seleccionar un contenido ya creado, a través del campo **[!UICONTROL Content]**. Este campo solo está visible cuando se selecciona la opción **[!UICONTROL Explicit]**.
 
       ![](assets/content_mgmt_explicit.png)
 
@@ -94,7 +94,7 @@ Las propiedades de la actividad se dividen en tres pasos:
 
 * contentId
 
-Identifier of the content to be used if the **[!UICONTROL Specified in the transition]** option is enabled.
+Identificador del contenido que se va a utilizar si la opción **[!UICONTROL Specified in the transition]** está activada.
 
 ## Parámetros de salida {#output-parameters}
 
@@ -104,7 +104,7 @@ Identifier of the content to be used if the **[!UICONTROL Specified in the trans
 
 * filename
 
-   Full name of the generated file if the selected action is **[!UICONTROL Generate]**.
+   Nombre completo del archivo generado si la acción seleccionada es **[!UICONTROL Generate]**.
 
 ## Ejemplos {#examples}
 
