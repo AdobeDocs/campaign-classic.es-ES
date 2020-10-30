@@ -1,6 +1,6 @@
 ---
 title: Envío de un correo electrónico con Adobe Campaign Classic
-description: Información sobre los parámetros de envío de correo electrónico
+description: Información sobre los parámetros de envíos por correo electrónico
 page-status-flag: never-activated
 uuid: 791f7a54-3225-46ca-ad6f-6c32e9c62d75
 contentOwner: sauviat
@@ -9,11 +9,11 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 discoiquuid: e2dd8161-fe38-48bf-a288-8ec328b2660e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '739'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -29,25 +29,25 @@ El proceso detallado para validar y realizar una entrega se presenta en las sigu
 
 Las secciones siguientes detallan los parámetros específicos para enviar correos electrónicos.
 
-## Email BCC {#archiving-emails}
+## Correo electrónico CCO {#archiving-emails}
 
 Adobe Campaign permite almacenar correos electrónicos en un sistema externo a través de CCO añadiendo simplemente una dirección de correo electrónico CCO al destino del mensaje. Una vez activada la opción, se conserva una copia exacta de todos los mensajes enviados en este envío.
 
-Para obtener más información sobre la configuración y las prácticas recomendadas de Email BCC, consulte [esta sección](../../installation/using/email-archiving.md).
+Para obtener más información sobre la configuración y las prácticas recomendadas para las direcciones de correo electrónico CCO, consulte [esta sección](../../installation/using/email-archiving.md).
 
 >[!NOTE]
 >
->Email BCC es una capacidad opcional. Compruebe el acuerdo de licencia y póngase en contacto con el administrador de cuentas para activarlo.
+>El correo electrónico CCO es una capacidad opcional. Compruebe el acuerdo de licencia y póngase en contacto con el administrador de cuentas para activarlo.
 
-Al crear un nuevo envío o Plantilla de envíos, Email BCC no está habilitado de forma predeterminada. Debe habilitarlo manualmente en el nivel de envío o Plantilla de envíos de correo electrónico.
+Al crear un nuevo envío o una plantilla de envíos, el correo electrónico CCO no está habilitado de forma predeterminada. Debe habilitarlo manualmente en el nivel de envío o de plantilla de envíos de correo electrónico.
 
-Para habilitar Email BCC para una Plantilla de envíos de correo electrónico, siga los pasos a continuación:
+Para habilitar el correo electrónico CCO para una plantilla de envíos de correo electrónico, siga los pasos a continuación:
 
 1. Vaya a **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** o **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Seleccione la entrega que desee o duplique la plantilla de **envío de correo electrónico** preestablecida y, a continuación, seleccione la plantilla duplicada.
 1. Haga clic en el botón **Propiedades**.
 1. Seleccione la pestaña **[!UICONTROL Delivery]** .
-1. Marque la opción **Enviar correo electrónico a CCO** . Se enviará una copia de todos los mensajes enviados para cada envío en función de esta plantilla a la dirección de CCO de correo electrónico que se haya configurado.
+1. Marque la opción **correo electrónico CCO**. Se enviará una copia de todos los mensajes entregados para cada envío en función de esta plantilla a la dirección de CCO de correo electrónico que se haya configurado.
 
    ![](assets/s_ncs_user_wizard_archiving.png)
 
@@ -71,9 +71,9 @@ En las propiedades de la entrega, el campo **[!UICONTROL Mode]** de la pestaña 
 
 Además del modo predeterminado, también están disponibles las siguientes opciones:
 
-* **[!UICONTROL Force the generation of the mirror page]** :: aunque no se inserte ningún vínculo a la página espejo en el envío, se creará la página espejo.
-* **[!UICONTROL Do not generate the mirror page]** :: no se genera ninguna página espejo, aunque el vínculo esté presente en el envío.
-* **[!UICONTROL Generates a mirror page accessible using only the message identifier]** :: esta opción le permite acceder al contenido de la página espejo, con información de personalización, en la ventana del registro de envíos. Para ello, tras finalizar la entrega, haga clic en la pestaña **[!UICONTROL Delivery]** y seleccione la línea del destinatario cuya página duplicada desee ver. Haga clic en el vínculo **[!UICONTROL Display the mirror page for this message...]**.
+* **[!UICONTROL Force the generation of the mirror page]**: incluso si no se inserta ningún vínculo a la página espejo en la entrega, se creará la página espejo.
+* **[!UICONTROL Do not generate the mirror page]**: no se genera ninguna página espejo, aunque el vínculo esté presente en la entrega.
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: esta opción permite acceder al contenido de la página duplicada, con información de personalización, en la ventana del “log” de envío. Para ello, tras finalizar la entrega, haga clic en la pestaña **[!UICONTROL Delivery]** y seleccione la línea del destinatario cuya página duplicada desee ver. Haga clic en el vínculo **[!UICONTROL Display the mirror page for this message...]**.
 
    ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
@@ -89,13 +89,13 @@ Desde esta pantalla, también puede definir una dirección específica para inve
 
 ## Codificación de caracteres {#character-encoding}
 
-In the **[!UICONTROL SMTP]** tab of the delivery parameters, the **[!UICONTROL Character encoding]** section allows you to set a specific encoding.
+En la pestaña **[!UICONTROL SMTP]** de los parámetros de entrega, la sección **[!UICONTROL Character encoding]** le permite establecer una codificación específica.
 
 La codificación predeterminada es UTF-8. Si algunos de los proveedores de correo electrónico de los destinatarios no admiten la codificación estándar UTF-8, es posible que desee configurar una codificación específica para que muestre correctamente los caracteres especiales a los destinatarios de los mensajes de correo electrónico.
 
 Por ejemplo, desea enviar un correo electrónico que contenga caracteres japoneses. Para asegurarse de que todos los caracteres se mostrarán correctamente a los destinatarios en Japón, es posible que desee utilizar una codificación que admita los caracteres japoneses en lugar de la codificación UTF-8 estándar.
 
-To do this, select the **[!UICONTROL Force the encoding used for messages]** option in the **[!UICONTROL Character encoding]** section and choose an encoding from the drop-down list that is displayed.
+Para ello, seleccione la opción **[!UICONTROL Force the encoding used for messages]** en la sección **[!UICONTROL Character encoding]** y elija una codificación en la lista desplegable que se muestra.
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab_encoding.png)
 
