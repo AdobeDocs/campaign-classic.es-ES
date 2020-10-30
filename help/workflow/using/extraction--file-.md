@@ -9,18 +9,18 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: fe4e6f64-eb0a-44bc-8221-6c9bfb99871f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '324'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
 
 # Extracción de datos (archivo){#extraction-file}
 
-You can extract data from a workflow table in an external file using the **[!UICONTROL Data extraction (file)]** activity.
+Puede extraer datos de una tabla de flujo de trabajo en un archivo externo mediante la actividad **[!UICONTROL Data extraction (file)]**.
 
 >[!CAUTION]
 >
@@ -33,9 +33,9 @@ Para configurar la extracción de datos, siga estos pasos:
 
    ![](assets/s_advuser_extract_file_param.png)
 
-   The **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** option adds an extra step to filter the final result of the aggregate, for example on a given purchase order type, customers who have ordered more than 10 times, etc.
+   La opción **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** añade un paso adicional para filtrar el resultado final del acumulado, por ejemplo, en un tipo de orden de compra determinado, clientes que hayan hecho una orden más de 10 veces, etc.
 
-1. Si es necesario, puede añadir nuevas columnas al archivo de salida, como, por ejemplo, calcular o procesar resultados. To do this, click the **[!UICONTROL Add]** icon.
+1. Si es necesario, puede añadir nuevas columnas al archivo de salida, como, por ejemplo, calcular o procesar resultados. Para hacer esto, haga clic en el icono **[!UICONTROL Add]**.
 
    ![](assets/s_advuser_extract_file_add_col.png)
 
@@ -51,9 +51,9 @@ Para configurar la extracción de datos, siga estos pasos:
 
    ![](assets/s_advuser_extract_file_agregate_values.png)
 
-Puede definir un proceso posterior que se va a ejecutar durante la extracción de datos, permitiéndole comprimir o cifrar los archivos. Para ello, se debe agregar el comando deseado en la **[!UICONTROL Script]** ficha de la actividad.
+Puede definir un proceso posterior que se va a ejecutar durante la extracción de datos, permitiéndole comprimir o cifrar los archivos. Para ello, se debe agregar el comando deseado en la pestaña **[!UICONTROL Script]** de la actividad.
 
-Para obtener más información sobre esto, consulte esta sección: [Cifrado o captura de un archivo](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
+Para obtener más información, consulte esta sección: [Descompresión o desencriptado de un archivo](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
 
 ![](assets/postprocessing_dataextraction.png)
 
