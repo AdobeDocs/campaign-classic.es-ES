@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 16985c1ddcd380cfc1ca4960b35bb5e78628f464
 workflow-type: tm+mt
 source-wordcount: '1670'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -181,7 +181,7 @@ La pestaña **[!UICONTROL Advanced]** de propiedades de la entrega permite defin
 Estas son las opciones disponibles:
 
 * La primera opción permite mantener las pruebas duplicadas.
-* Las dos opciones siguientes le permiten mantener los destinatarios que están en lista de bloqueados y las direcciones en cuarentena. Consulte la descripción de estas opciones para el objetivo principal en [Personalización de la configuración de exclusión](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). A diferencia del objetivo de una entrega, donde estas direcciones se excluyen de forma predeterminada, se mantienen de forma predeterminada para el objetivo de una prueba.
+* Las dos opciones siguientes permiten mantener los destinatarios que están en la lista de bloqueados y las direcciones en cuarentena. Consulte la descripción de estas opciones para el objetivo principal en [Personalización de la configuración de exclusión](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). A diferencia del objetivo de una entrega, donde estas direcciones se excluyen de forma predeterminada, se mantienen de forma predeterminada para el objetivo de una prueba.
 * La opción **[!UICONTROL Keep the delivery code for the proof]** permite dar a la prueba el mismo código de entrega que el definido para la entrega con el que se relaciona. Este código se especifica en el primer paso del asistente de envíos.
 * De forma predeterminada, el asunto de la prueba incluye el prefijo “Proof #”, donde # es el número de la prueba. Se puede cambiar este prefijo en el campo **[!UICONTROL Label prefix]**.
 
