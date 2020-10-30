@@ -1,6 +1,6 @@
 ---
 title: Prácticas recomendadas para la creación de informes
-description: Prácticas recomendadas del sistema de informes de campaña
+description: Prácticas recomendadas para la creación de informes de Campaign
 page-status-flag: never-activated
 uuid: 09de6a17-b3a7-4543-b672-b0a21653aa75
 contentOwner: sauviat
@@ -9,16 +9,16 @@ audience: reporting
 content-type: reference
 topic-tags: reporting-in-adobe-campaign
 discoiquuid: 904961e0-7dff-4350-8d5d-e4bdd368b3ff
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '839'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
-# Prácticas recomendadas de sistema de informes{#best-practices-reporting}
+# Prácticas recomendadas para la creación de informes{#best-practices-reporting}
 
 ## Análisis de las necesidades{#analyzing-needs}
 
@@ -35,14 +35,14 @@ Para optimizar la creación, el uso y la duración de un informe, debe revisar l
    Por ejemplo, puede:
 
    * Explore los datos de la base de datos y defina las medidas. Obtenga más información [en esta sección](../../reporting/using/about-cubes.md)
-   * Añadir indicadores a un informe existente. Obtenga más información [en esta sección](../../reporting/using/about-reports-creation-in-campaign.md)
+   * Añada indicadores a un informe existente. Obtenga más información [en esta sección](../../reporting/using/about-reports-creation-in-campaign.md)
    * Vista de los datos en la base de datos. Obtenga más información [en esta sección](../../reporting/using/about-descriptive-analysis.md)
-   * Cree un nuevo informe de envío. Obtenga más información [en esta sección](../../reporting/using/about-reports-creation-in-campaign.md)),
-   * Export data from the Adobe Campaign database (via a workflow, refer to [this section](../../workflow/using/about-workflows.md)
+   * Creación de un nuevo informe de envío. Obtenga más información [en esta sección](../../reporting/using/about-reports-creation-in-campaign.md)),
+   * Exportar datos de la base de datos de Adobe Campaign (a través de un flujo de trabajo, consulte [esta sección](../../workflow/using/about-workflows.md)).
    * Cree una tabla dinámica. Obtenga más información [en esta sección](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)
    * Explorar datos agregados. Obtenga más información [en esta sección](../../reporting/using/about-cubes.md)
    * Utilice un asistente para analizar los datos. Obtenga más información [en esta sección](../../reporting/using/about-descriptive-analysis.md)
-   * Analizar grandes volúmenes de datos. Obtenga más información [en esta sección](../../reporting/using/about-reports-creation-in-campaign.md)
+   * Analice grandes volúmenes de datos. Obtenga más información [en esta sección](../../reporting/using/about-reports-creation-in-campaign.md)
 
 1. Identificación de la población objetivo
 
@@ -77,7 +77,7 @@ Es decir:
 
    Del mismo modo, durante la fase de diseño, si el cálculo del informe supera los 60 segundos con un volumen pequeño de datos, se deben modificar los métodos de cálculo.
 
-* Al utilizar el módulo de Marketing Analytics, los datos de sistema de informes no deben superar los 10 millones de líneas.
+* Al utilizar el módulo Marketing Analytics, los datos del sistema de informes no deben superar los 10 millones de líneas.
 
 También se recomienda calcular los acumulados por la noche y utilizar estos datos acumulados directamente en los informes. Estos acumulados deben crearse mediante flujos de trabajo de gestión de datos específicos (consultas SQL).
 
@@ -101,11 +101,11 @@ Las recomendaciones anteriores permiten optimizar el cálculo del informe.
 
 Además, Adobe Campaign recomienda las siguientes mejoras:
 
-* Trabaje con su modelo de datos: los campos indexados deben utilizarse principalmente para mejorar las fórmulas de cálculo.
+* Trabaje en el modelo de datos: los campos indexados se deben utilizar principalmente para mejorar las fórmulas de cálculo.
 
    Para buscar un campo indexado rápidamente, observe el nombre de la columna en la interfaz de Adobe Campaign: la flecha de clasificación aparece subrayada en rojo si el campo está indexado.
 
-   For more on indexes, refer to [this section](../../configuration/using/data-model-best-practices.md#indexes).
+   Para obtener más información sobre índices, consulte [esta sección](../../configuration/using/data-model-best-practices.md#indexes).
 
 * Asegúrese de que el informe sea escalable: el volumen de datos puede aumentar significativamente con el tiempo.
 
