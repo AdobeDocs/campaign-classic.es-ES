@@ -11,11 +11,11 @@ audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
 discoiquuid: 667746cb-b553-4a71-8523-6b2695047ab6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '817'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Para guardar el informe, haga clic en **[!UICONTROL Save]** y defina una etiquet
 
 Seleccione **[!UICONTROL Also save data]** si desea crear un historial de su informe y ver los valores del informe en el momento de guardarlo. Para obtener más información, consulte [Almacenamiento de informes de análisis](#archiving-analysis-reports).
 
-The **[!UICONTROL Share this report]** option allows other operators to access the report.
+La opción **[!UICONTROL Share this report]** permite que otros operadores accedan al informe.
 
 ![](assets/s_ncs_user_report_wizard_010.png)
 
@@ -94,10 +94,10 @@ Puede personalizar el diseño de datos directamente en las tablas de análisis d
 
 * **[!UICONTROL Pivot]** para cambiar el eje de la variable.
 * **[!UICONTROL Up]** / **[!UICONTROL Down]** para intercambiar las variables en líneas.
-* **[!UICONTROL Move to the right]** / **[!UICONTROL Move to the left]** para intercambiar las variables en columnas.
+* **[!UICONTROL Move to the right]** / **[!UICONTROL Move to the left]** para intercambiar las variables en las columnas.
 * **[!UICONTROL Turn]** para invertir los ejes de las variables.
-* **[!UICONTROL Sort from A to Z]** para ordenar los valores de las variables de baja a alta.
-* **[!UICONTROL Sort from Z to A]** para ordenar los valores de las variables de alto a bajo.
+* **[!UICONTROL Sort from A to Z]** para ordenar los valores de las variables de menor a mayor.
+* **[!UICONTROL Sort from Z to A]** para ordenar los valores de las variables de mayor a menor.
 
    ![](assets/s_ncs_advuser_report_wizard_016.png)
 
@@ -105,14 +105,14 @@ Para volver a la visualización inicial, actualice la vista.
 
 ### Opciones del gráfico del informe del análisis {#analysis-report-chart-options}
 
-Se puede personalizar la visualización de los datos en el gráfico. To do this, click the **[!UICONTROL Variables...]** link available during the chart type selection stage.
+Se puede personalizar la visualización de los datos en el gráfico. Para ello, haga clic en el vínculo **[!UICONTROL Variables...]** disponible durante la fase de selección del tipo de gráfico.
 
 ![](assets/s_ncs_advuser_report_wizard_3c.png)
 
 Estas son las opciones disponibles:
 
 * La sección superior de la ventana permite modificar el área de visualización del gráfico.
-* Las etiquetas se muestran en el gráfico de forma predeterminada. You can hide them by un-checking the **[!UICONTROL Show values]** option.
+* Las etiquetas se muestran en el gráfico de forma predeterminada. Puede ocultarlas desmarcando la opción **[!UICONTROL Show values]**.
 * La opción **[!UICONTROL Accumulate values]** permite añadir valores de una serie a otra.
 * Puede decidir si desea mostrar o no el pie del gráfico: para ocultarlo, desmarque la opción correspondiente. El pie de ilustración se muestra de forma predeterminada fuera del gráfico, en la esquina superior derecha.
 
