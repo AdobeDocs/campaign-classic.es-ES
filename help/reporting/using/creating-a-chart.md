@@ -11,11 +11,11 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 70e4e63d-354d-4912-b75a-dba38e1c0b03
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '733'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -42,11 +42,11 @@ Para crear un gráfico en un informe, siga los siguientes pasos:
 
    Las estadísticas que se muestran en el gráfico se pueden calcular en función de una consulta o datos de contexto, es decir, los datos proporcionados por la transición entrante de la página actual (para más información, consulte [Uso de datos de contexto](../../reporting/using/using-the-context.md#using-context-data)).
 
-   * Click the **[!UICONTROL Filter data...]** link to define filtering criteria for the data in the database.
+   * Haga clic en el vínculo **[!UICONTROL Filter data...]** para definir los criterios de filtrado de los datos de la base de datos.
 
       ![](assets/reporting_graph_add_filter.png)
 
-   * To used contextual data, select this option and click the **[!UICONTROL Advanced settings...]** link. Seleccione los datos a los que corresponden las estadísticas.
+   * Para utilizar datos contextuales, seleccione esta opción y haga clic en el vínculo **[!UICONTROL Advanced settings...]** Seleccione los datos a los que corresponden las estadísticas.
 
       ![](assets/reporting_graph_from_context.png)
 
@@ -66,7 +66,7 @@ También se puede modificar a través de la sección **[!UICONTROL Chart type]**
 
 ![](assets/reporting_change_graph_type.png)
 
-Las variantes dependen del tipo de gráfico seleccionado. They are selected via the **[!UICONTROL Variants...]** link.
+Las variantes dependen del tipo de gráfico seleccionado. Se seleccionan mediante el vínculo **[!UICONTROL Variants...]**.
 
 ### Desglose: Gráficos circulares {#breakdown--pie-charts}
 
@@ -140,11 +140,11 @@ Estos elementos se definen al configurar el gráfico.
 * Los campos **[!UICONTROL Display range]** permiten especificar los valores entre los cuales se calcula el informe.
 * El campo **[!UICONTROL Value ranges]** permite atribuir estados (ninguno, malo, aceptable, bueno) a un conjunto de valores para ilustrar mejor el progreso.
 
-In the **[!UICONTROL Display settings]** section, the **[!UICONTROL Change appearance...]** lets you configure the way the chart is displayed.
+En la sección **[!UICONTROL Display settings]**, el campo **[!UICONTROL Change appearance...]** permite configurar el modo en que se muestra el gráfico.
 
 ![](assets/reporting_graph_type_gauge2.png)
 
-The **[!UICONTROL Display the value below the gauge]** option lets you display the value progress below the chart.
+La opción **[!UICONTROL Display the value below the gauge]** permite mostrar el progreso del valor debajo del gráfico.
 
 El campo **[!UICONTROL Aperture ratio]**, que debe estar entre 0 y 1, permite editar la apertura del informe en un círculo más o menos completo. En el ejemplo anterior, el valor 0,50 corresponde a un semicírculo.
 
@@ -162,7 +162,7 @@ En [esta sección](../../web/using/static-elements-in-a-web-form.md#inserting-ht
 
 Los gráficos permiten mostrar las estadísticas de los datos recopilados.
 
-These statistics are defined via the **[!UICONTROL Series parameters]** section of the **[!UICONTROL Data]** tab.
+Estas estadísticas se definen en la sección **[!UICONTROL Series parameters]** de la pestaña **[!UICONTROL Data]**.
 
 Para crear una nueva estadística, haga clic en el icono **[!UICONTROL Add]** y configure la ventana correspondiente. A continuación se detallan los tipos de cálculos disponibles.
 
