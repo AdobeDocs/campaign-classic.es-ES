@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 discoiquuid: e68d1435-70e6-479e-a347-9ff9f9f11b92
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '888'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -110,7 +110,7 @@ De forma predeterminada, hay disponibles una lista de bloques personalizados que
    >Para obtener más información sobre la generación de páginas de reflejo, consulte [Generación de la página de reflejo](../../delivery/using/sending-messages.md#generating-the-mirror-page).
 
 * **[!UICONTROL Link to mirror page]**: inserta un vínculo a la página espejo: &quot;Si no puede ver este mensaje correctamente, haga clic aquí&quot;.
-* **[!UICONTROL Unsubscription link]** :: inserta un vínculo que permite cancelar la suscripción de todos los envíos (lista de bloqueados).
+* **[!UICONTROL Unsubscription link]**: inserta un vínculo que permite cancelar la suscripción a todas las entregas (lista de bloqueados).
 * **[!UICONTROL Formatting function for proper nouns]**: genera la función JavaScript **[!UICONTROL toSmartCase]**, que cambia la primera letra de cada palabra a mayúscula. Este bloque debe insertarse en el código fuente de la entrega, entre las etiquetas **`<script>...</script>`**.
 
    En el ejemplo siguiente, se utiliza la función para sustituir el elemento de “Encabezado” por “Nuevo encabezado” con letras mayúsculas en cada palabra:
@@ -163,4 +163,4 @@ Para crear un bloque personalizado, vaya al explorador y aplique los pasos sigui
 
 Descubra cómo se crearon los bloques de contenido dinámico y cómo se utilizan para personalizar el contenido de su envío de correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12&captions=spa)
