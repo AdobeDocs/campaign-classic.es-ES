@@ -1,7 +1,7 @@
 ---
-title: lista de bloqueados bases de datos
-seo-title: lista de bloqueados bases de datos
-description: lista de bloqueados bases de datos
+title: Bases de datos de la lista de bloqueados
+seo-title: Bases de datos de la lista de bloqueados
+description: Bases de datos de la lista de bloqueados
 seo-description: null
 page-status-flag: never-activated
 uuid: 8a4a69f9-87d5-4044-bc55-76cdcb2e7800
@@ -11,16 +11,16 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: eede254d-2b25-46ed-b10f-fa1d54780a75
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# lista de bloqueados bases de datos{#denylist-databases}
+# Bases de datos de la lista de bloqueados{#denylist-databases}
 
 Varias organizaciones mantienen las bases de datos de direcciones IP y dominios que suelen utilizar remitentes que envían correo no deseado. Estos sitios pueden ser útiles para comprender por qué algunos mensajes se rechazan como correo no deseado. Por lo general, es posible solicitar la eliminación de una dirección añadida incorrectamente a estas listas.
 
