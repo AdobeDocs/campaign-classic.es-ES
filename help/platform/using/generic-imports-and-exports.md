@@ -11,11 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: a21576c7-e94c-4fe1-9e31-d89116e427f6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '489'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Campaign también ofrece un módulo de importación que le permite suminis
 
 >[!NOTE]
 >
->Las exportaciones e importaciones se configuran en plantillas dedicadas ejecutadas a través de flujos de trabajo mediante las actividades **[!UICONTROL Import]** y **[!UICONTROL Export]**. Se pueden repetir automáticamente según un programa, por ejemplo, para automatizar el intercambio de datos entre varios sistemas de información. If necessary, you can create an occasional import or export via the **[!UICONTROL Profiles and Targets > Jobs > Generic imports and exports]** node of the Adobe Campaign tree.
+>Las exportaciones e importaciones se configuran en plantillas dedicadas ejecutadas a través de flujos de trabajo mediante las actividades **[!UICONTROL Import]** y **[!UICONTROL Export]**. Se pueden repetir automáticamente según un programa, por ejemplo, para automatizar el intercambio de datos entre varios sistemas de información. Si es necesario, puede crear una importación o exportación puntual a través del nodo **[!UICONTROL Profiles and Targets > Jobs > Generic imports and exports]** del árbol de Adobe Campaign.
 
 Se puede:
 
@@ -44,9 +44,9 @@ Se puede:
 
 ## Creación de una plantilla de trabajo {#creating-a-job-template}
 
-Import and export templates are stored in the **[!UICONTROL Resources > Templates > Job templates]** directory of the Adobe Campaign tree.
+Las plantillas de importación y exportación se almacenan en el directorio **[!UICONTROL Resources > Templates > Job templates]** del árbol de Adobe Campaign.
 
-De forma predeterminada, hay tres plantillas de importación y una plantilla de exportación en este directorio. No deben modificarse. You can duplicate them to create your own templates or create a new template via the **[!UICONTROL New > Import template]** / **[!UICONTROL Export template]** menu.
+De forma predeterminada, hay tres plantillas de importación y una plantilla de exportación en este directorio. No deben modificarse. Puede duplicarlas para crear sus propias plantillas o crear una nueva plantilla a través del menú **[!UICONTROL New > Import template]** / **[!UICONTROL Export template]**.
 
 ![](assets/s_ncs_user_export_wizard_template_create.png)
 
@@ -54,9 +54,9 @@ El procedimiento para crear una plantilla de proceso se presenta en [Asistente d
 
 >[!NOTE]
 >
->La plantilla nativa **[!UICONTROL Import denylist]** ya está configurada para importar una lista de direcciones de correo electrónico que se agregaron a la  de lista de bloqueados.
+>La plantilla nativa **[!UICONTROL Import denylist]** ya está configurada para importar una lista de direcciones de correo electrónico que se incluyeron a la de lista de bloqueados.
 > 
->The **[!UICONTROL New text import]** and **[!UICONTROL New text export]** templates let you configure an import or export from scratch.
+>Las plantillas **[!UICONTROL New text import]** y **[!UICONTROL New text export]** permiten configurar una importación o exportación desde cero.
 
 ## Creación de una nueva importación/exportación {#creating-a-new-import-export}
 
@@ -76,7 +76,7 @@ Todos ellos abren el asistente de [importación](../../platform/using/importing-
 
 * Las importaciones y exportaciones también se pueden iniciar desde el explorador de Adobe Campaign.
 
-   To export/import data, click the **[!UICONTROL Profiles and Targets > Jobs > Generic imports and exports]** node, then the **[!UICONTROL New]** icon, and select **[!UICONTROL Export]** or **[!UICONTROL Import]**. Esto hace que se abra el asistente correspondiente.
+   Para exportar o importar datos, haga clic en el nodo **[!UICONTROL Profiles and Targets > Jobs > Generic imports and exports]**, luego en el icono **[!UICONTROL New]** y seleccione **[!UICONTROL Export]** o **[!UICONTROL Import]**. Esto hace que se abra el asistente correspondiente.
 
    ![](assets/s_ncs_user_export_wizard_launch_from_menu.png)
 
