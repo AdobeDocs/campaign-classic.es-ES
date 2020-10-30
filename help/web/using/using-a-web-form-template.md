@@ -11,24 +11,24 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 discoiquuid: d9369ba1-0397-40fe-bbaf-24252564d93c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '216'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
 # Uso de una plantilla de formulario web{#using-a-web-form-template}
 
-Las plantillas de formulario son configuraciones reutilizables que permiten crear formularios nuevos. By default, form templates are stored with Web application templates in the **[!UICONTROL Resources > Templates > Web application templates]** node.
+Las plantillas de formulario son configuraciones reutilizables que permiten crear formularios nuevos. De forma predeterminada, las plantillas de formulario se almacenan con las plantillas de aplicación web en el nodo **[!UICONTROL Resources > Templates > Web application templates]**.
 
 Desde aquí puede crear nuevas plantillas o convertir un formulario existente en una plantilla.
 
 ## Conversión de un formulario existente en una plantilla {#convert-an-existing-form-into-a-template}
 
-Un formulario se puede convertir en una plantilla y su configuración se reutiliza. To do this, select the form, right-click and select **[!UICONTROL Actions > Save as template...]**.
+Un formulario se puede convertir en una plantilla y su configuración se reutiliza. Para ello, seleccione el formulario, haga clic con el botón derecho del ratón y seleccione **[!UICONTROL Actions > Save as template...]**
 
 ![](assets/s_ncs_admin_survey_saveastemplate.png)
 
