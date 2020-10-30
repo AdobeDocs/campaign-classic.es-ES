@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 61583062-2349-4ab3-a3bf-310d21894f34
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Es posible definir criterios de deduplicación de datos.
 
 Para configurar la actividad de la dimensión de cambio, siga los pasos siguientes:
 
-1. Select the new targeting dimension via the **[!UICONTROL Change dimension]** field.
+1. Seleccione la nueva dimensión de destino mediante el campo **[!UICONTROL Change dimension]**.
 
    ![](assets/s_user_change_dimension_param1.png)
 
@@ -56,7 +56,7 @@ Para configurar la actividad de la dimensión de cambio, siga los pasos siguient
 
    Por ejemplo, se puede recuperar el municipio en función del código postal utilizando una función de tipo **Substring**. Para ello:
 
-   * Click the **[!UICONTROL Add data...]** link and select **[!UICONTROL Data linked to the filtering dimension]**.
+   * Haga clic en el vínculo **[!UICONTROL Add data...]** y seleccione **[!UICONTROL Data linked to the filtering dimension]**.
 
       ![](assets/wf_change-dimension_sample_01.png)
 
@@ -64,11 +64,11 @@ Para configurar la actividad de la dimensión de cambio, siga los pasos siguient
       >
       >Para obtener más información sobre la creación y administración de columnas adicionales, consulte [Adición de datos](../../workflow/using/query.md#adding-data).
 
-   * Select the previous targeting dimension (before axis switch) and select the **[!UICONTROL Zip Code]** in the recipient&#39;s **[!UICONTROL Location]** sub-tree, then click **[!UICONTROL Edit expression]**.
+   * Seleccione la dimensión de segmentación anterior (antes del cambio de eje) y, en el subárbol **[!UICONTROL Zip Code]** del destinatario, seleccione **[!UICONTROL Location]** y haga clic en **[!UICONTROL Edit expression]**.
 
       ![](assets/wf_change-dimension_sample_02.png)
 
-   * Haga clic **[!UICONTROL Advanced selection]** y elija **[!UICONTROL Edit the formula using an expression]**.
+   * Haga clic en **[!UICONTROL Advanced selection]** y elija **[!UICONTROL Edit the formula using an expression]**.
 
       ![](assets/wf_change-dimension_sample_03.png)
 
