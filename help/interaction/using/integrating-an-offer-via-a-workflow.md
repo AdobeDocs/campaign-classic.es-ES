@@ -11,11 +11,11 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 discoiquuid: 6e27caea-1f1a-457d-bdec-1f93a12b01cf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1049'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ La actividad de descripción de entrega, disponible en los flujos de trabajo de 
 1. Rellene los campos disponibles en función de la entrega.
 1. Hay dos casos posibles:
 
-   * If you would like to call the offer engine, check the **[!UICONTROL Restrict the number of propositions selected]** box. Especifique el espacio de oferta y el número de propuestas que se presentarán en la entrega.
+   * Si desea acceder al motor de oferta, marque la casilla **[!UICONTROL Restrict the number of propositions selected]**. Especifique el espacio de oferta y el número de propuestas que se presentarán en la entrega.
 
       El motor de oferta tendrá en cuenta las normas de idoneidad y las consideraciones de oferta.
 
@@ -151,7 +151,7 @@ Esta actividad funciona con el mismo principio que la actividad de enriquecimien
 
 Después de configurar la consulta (consulte la [guía sobre flujos de trabajo](../../workflow/using/query.md)).
 
-1. Add and open an **[!UICONTROL Offer engine]** activity.
+1. Añada y abra una actividad **[!UICONTROL Offer engine]**.
 1. Complete los diferentes campos disponibles para especificar el uso de los parámetros del motor de oferta (ofrecer espacio, categoría o tema, fecha de contacto, número de ofertas que desea mantener). Según estos parámetros, el motor calculará automáticamente las ofertas a agregar.
 
    >[!NOTE]
