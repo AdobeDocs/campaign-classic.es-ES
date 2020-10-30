@@ -11,18 +11,18 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 2f66152b-4d4a-40b8-a1bb-5b97c5410882
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 26ba32468bce3bbb1c52d225c8195977da4d7d54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2147'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # Espacio de trabajo de Adobe Campaign{#adobe-campaign-workspace}
 
-## Exploring Adobe Campaign interface {#about-adobe-campaign-interface}
+## Exploración de la interfaz de Adobe Campaign {#about-adobe-campaign-interface}
 
 Una vez que esté conectado a la base de datos, accederá a la página principal de Adobe Campaign, que es un panel compuesto por vínculos y accesos directos que permiten acceder a las funcionalidades, según la instalación y las configuraciones de la plataforma general.
 
@@ -30,7 +30,7 @@ Desde la sección central de la página principal, puede utilizar vínculos para
 
 ![](assets/d_ncs_user_interface_home.png)
 
-![](assets/do-not-localize/how-to-video.png) [Espacio de trabajo de Campaña de Discover en vídeo](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
+![](assets/do-not-localize/how-to-video.png) [Descubra en espacio de trabajo de Campaign en vídeo](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ Para obtener más información sobre cómo crear una instancia, consulte esta [p
 
 >[!CAUTION]
 >
->El idioma no se puede cambiar después de la creación de la instancia.
+>No se puede cambiar el idioma después de la creación de la instancia.
 
 ## Conceptos básicos de navegación {#navigation-basics}
 
