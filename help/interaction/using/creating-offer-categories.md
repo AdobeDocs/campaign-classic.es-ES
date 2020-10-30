@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 80%
+ht-degree: 85%
 
 ---
 
@@ -32,7 +32,7 @@ Para crear una categoría adicional, siga los siguientes pasos:
 
    ![](assets/offer_cat_create_001.png)
 
-1. Right click and select **[!UICONTROL Create a new "Offer category" folder]** from the drop-down list.
+1. Haga clic derecho en el ratón y, en la lista desplegable, seleccione **[!UICONTROL Create a new "Offer category" folder]**.
 
    ![](assets/offer_cat_create_002.png)
 
@@ -62,7 +62,7 @@ Para crear una categoría adicional, siga los siguientes pasos:
 
       ![](assets/offer_cat_create_006.png)
 
-Un resumen de las reglas de idoneidad está disponible en el panel de las ofertas incluidas en la categoría. Para vista, haga clic en el **[!UICONTROL Schedule and eligibility rules of the offer]** vínculo.
+Un resumen de las reglas de idoneidad está disponible en el panel de las ofertas incluidas en la categoría. Para visualizarlos, haga clic en el vínculo **[!UICONTROL Schedule and eligibility rules of the offer]**.
 
 ![](assets/offer_create_006.png)
 
