@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
 workflow-type: tm+mt
 source-wordcount: '1145'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -273,7 +273,7 @@ El siguiente caso de uso detalla las configuraciones que se deben realizar en Ad
 
    ![](assets/interaction_xmlmode_form.png)
 
-   The **[!UICONTROL Title 2]** and **[!UICONTROL Price]** fields have been added and the **[!UICONTROL Destination URL]** field is no longer displayed.
+   Se han añadido los campos **[!UICONTROL Title 2]** y **[!UICONTROL Price]** y ya no se muestra el campo **[!UICONTROL Destination URL]**.
 
 1. **Creación de una oferta**
 
