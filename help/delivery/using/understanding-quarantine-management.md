@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
 workflow-type: tm+mt
 source-wordcount: '2802'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -34,21 +34,21 @@ Adobe Campaign administra una lista de direcciones en cuarentena. Los destinatar
 
 Los perfiles cuyas direcciones de correo electrónico o número de teléfono están en cuarentena se excluyen automáticamente durante la preparación del mensaje (consulte [Identificación de direcciones en cuarentena para una entrega](#identifying-quarantined-addresses-for-a-delivery)). Esto acelera las entregas, ya que la tasa de error afecta significativamente a la velocidad de entrega.
 
-Algunos proveedores de acceso a Internet consideran automáticamente los correos electrónicos como no deseados si la tasa de direcciones no válidas es demasiado alta. Por lo tanto, la cuarentena le permite evitar que estos proveedores le agreguen a lista de bloqueados.
+Algunos proveedores de acceso a Internet consideran automáticamente los correos electrónicos como no deseados si la tasa de direcciones no válidas es demasiado alta. Por lo tanto, la cuarentena le permite evitar ser incluido en la lista de bloqueados de bloqueados por estos proveedores.
 
 Además, la cuarentena reduce el coste de entrega de los SMS mediante la exclusión en las entregas de los números de teléfono incorrectos. Para obtener más información sobre las prácticas recomendadas para proteger y optimizar las entregas, consulte [esta página](../../delivery/using/delivery-best-practices.md) .
 
-### Cuarentena vs. lista de bloqueados {#quarantine-vs-denylist}
+### Cuarentena frente a lista de bloqueados {#quarantine-vs-denylist}
 
 La **cuarentena** solo se aplica a una dirección, no al propio perfil. Esto significa que, si dos perfiles tienen la misma dirección de correo electrónico, ambos se ven afectados si la dirección está en cuarentena.
 
 Del mismo modo, un perfil cuya dirección de correo electrónico se haya puesto en cuarentena puede actualizar su perfil e introducir una nueva dirección, y luego puede volver a recibir entregas.
 
-Being on the **denylist**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out).
+Al estar en la **lista de bloqueados**, no obstante, el perfil ya no se tendrá en cuenta para los envíos, por ejemplo, tras una cancelación de la suscripción (exclusión).
 
 >[!NOTE]
 >
->Cuando un usuario responde a un mensaje SMS con una palabra clave como &quot;STOP&quot; para optar por la exclusión de los envíos SMS, su perfil no se agrega a la  de lista de bloqueados como en el proceso de desactivación de correo electrónico. El número de teléfono del perfil se envía a cuarentena, de modo que el usuario pueda seguir recibiendo mensajes de correo electrónico.
+>Cuando un usuario responde a un mensaje SMS con una palabra clave como &quot;STOP&quot; para impedir la exclusión de entregas SMS, su perfil no se añade a la lista de bloqueados en el proceso de exclusión de correo electrónico. El número de teléfono del perfil se envía a cuarentena, de modo que el usuario pueda seguir recibiendo mensajes de correo electrónico.
 
 ## Identificación de direcciones en cuarentena {#identifying-quarantined-addresses}
 
