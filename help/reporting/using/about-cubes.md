@@ -11,11 +11,11 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 discoiquuid: 42db3be8-ee02-4158-adcd-846420a32460
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '733'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Cuando se trabaja con cubos, se deben conocer los conceptos siguientes:
 
 ## Espacio de trabajo del cubo {#cube-workspace}
 
-Cubes are stored in the **[!UICONTROL Administration > Configuration > Cubes]** node.
+Los cubos se almacenan en el nodo **[!UICONTROL Administration > Configuration > Cubes]**.
 
 ![](assets/s_advuser_cube_node.png)
 
