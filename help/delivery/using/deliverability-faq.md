@@ -9,11 +9,11 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1341'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -47,9 +47,9 @@ Si siempre recibe el mismo mensaje de error para un ISP, es posible que el ISP h
 
 Si el problema persiste, póngase en contacto con los servicios comerciales o de envío, con el Servicio de atención al cliente de Adobe Campaign o con la asistencia de Adobe Campaign.
 
-## lista de bloqueados frente a cuarentena {#denylist-versus-quarantine}
+## Lista de bloqueados frente a cuarentena {#denylist-versus-quarantine}
 
-* **¿Cuál es la diferencia entre una dirección de correo electrónico en lista de bloqueados y una dirección de correo electrónico en cuarentena?**
+* **¿Cuál es la diferencia entre una dirección de correo electrónico en la lista de bloqueados y una dirección de correo electrónico en cuarentena?**
 
    * El estado **[!UICONTROL Denylisted]** es el resultado de un bucle de retroalimentación (cuando una persona informa un mensaje como correo no deseado).
 
@@ -58,27 +58,27 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
 
 * **¿Qué significan las diferentes razones de error de cuarentena?**
 
-   Estas son 10 razones posibles: no definido, usuario desconocido, dominio inválido, en lista de bloqueados, rechazado, error omitido, inaccesible, cuenta deshabilitada, buzón lleno, no conectado.
+   Estas son 10 razones posibles: no definido, usuario desconocido, dominio inválido, incluida en la lista de bloqueados, rechazado, error omitido, inaccesible, cuenta deshabilitada, buzón lleno, sin conexión.
 
    Para obtener más información, consulte [Comprensión de la administración de cuarentena](../../delivery/using/understanding-quarantine-management.md).
 
-## Quitar de lista de bloqueados {#remove-from-denylist}
+## Eliminación de la lista de bloqueados {#remove-from-denylist}
 
-* **Uno de mis destinatarios fue agregado a lista de bloqueados por error. How do I remove them from the denyist so that I can start sending them messages again?**
+* **Uno de mis destinatarios fue agregado a la lista de bloqueados por error. ¿Cómo puedo quitarlo de la lista de bloqueados para que pueda volver a enviarle mensajes?**
 
    * Vaya a **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**.
    * En los detalles del registro correspondiente, establezca el valor del campo **[!UICONTROL Status]** en **[!UICONTROL Valid]**.
    * Guarde el registro.
 
-* **¿Cómo puedo saber si una de mis IP está en una  lista de bloqueados? ¿Cómo elimino mis IP de una  de lista de bloqueados?**
+* **¿Cómo puedo averiguar si una de mis IP está en la lista de bloqueados? ¿Cómo elimino mis IP de una lista de bloqueados?**
 
-   Para comprobar si la dirección IP está en una  de lista de bloqueados, puede utilizar varios sitios Web para verificarla, como:
-   * [Cuadro de herramientas MX](https://mxtoolbox.com/)
+   Para comprobar si su dirección IP está en la lista de bloqueados, puede utilizar varios sitios web para verificarla, como:
+   * [MX Toolbox](https://mxtoolbox.com/)
    * [¿Cuál es mi dirección IP?](https://whatismyipaddress.com)
 
-   Generalmente, el resultado de la comprobación de la dirección IP devolverá una lista que contiene detalles de la  de lista de bloqueados y también el nombre del sitio Web que denegó la dirección IP.
+   Generalmente, el resultado de la comprobación de la dirección IP muestra una lista que contiene los detalles de la lista de bloqueados y el nombre del sitio web que bloqueó la dirección IP.
 
-   Al hacer clic en el enlace correspondiente, puede acceder a los detalles del sitio web. A continuación, puede solicitar que el sitio web se elimine del sitio web que agregó la dirección IP a su  de lista de bloqueados.
+   Al hacer clic en el enlace correspondiente, puede acceder a los detalles del sitio web. Puede solicitar que su sitio web se elimine de la lista del sitio web que añadió la dirección IP a su lista de bloqueados.
 
    >[!NOTE]
    >
