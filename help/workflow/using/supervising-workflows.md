@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 978cbe62-f06a-46a6-b8a1-e30a65b8470a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '641'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Para monitorizar el estado de un conjunto de flujos de trabajo, se debe seguir e
 
 1. Cree el flujo de trabajo de monitorización.
 1. Escriba el código JavaScript para determinar si los flujos de trabajo están en pausa, detenidos o con errores.
-1. Create the **[!UICONTROL Test]** activity.
+1. Cree la actividad **[!UICONTROL Test]**.
 1. Prepare la plantilla de envío.
 
 >[!NOTE]
