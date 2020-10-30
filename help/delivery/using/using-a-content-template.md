@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 discoiquuid: 48f491b7-bf7b-457f-9cf2-db2bbf4eceea
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Puede hacer referencia a una plantilla de contenido en una entrega teniendo en c
 
 ![](assets/s_ncs_content_deliver_a_content.png)
 
-El diseño se aplica automáticamente en función de la configuración seleccionada. To view it, click the **[!UICONTROL HTML preview]** (or **[!UICONTROL Text preview]** ) and select a recipient to test personalization elements.
+El diseño se aplica automáticamente en función de la configuración seleccionada. Para verla, haga clic en el **[!UICONTROL HTML preview]** (o **[!UICONTROL Text preview]**) y seleccione un destinatario para probar los elementos de personalización.
 
 ![](assets/s_ncs_content_deliver_a_content_html.png)
 
@@ -46,7 +46,7 @@ Puede crear contenido directamente en el árbol de Adobe Campaign para utilizarl
 
 Siga estos pasos:
 
-1. Select the **[!UICONTROL Resources > Contents]** node of the tree, right-click and choose **[!UICONTROL Properties]**.
+1. Seleccione el nodo **[!UICONTROL Resources > Contents]** del árbol, haga clic con el botón derecho y seleccione **[!UICONTROL Properties]**.
 
    ![](assets/s_ncs_content_folder_properties.png)
 
@@ -62,7 +62,7 @@ Siga estos pasos:
 
    ![](assets/s_ncs_content_folder_use_a_template.png)
 
-1. Then click the **[!UICONTROL HTML preview]** tab to view the rendering. Aquí, no se introducen los campos personalizados tomados de la base de datos.
+1. A continuación, haga clic en la pestaña **[!UICONTROL HTML preview]** para ver la renderización. Aquí, no se introducen los campos personalizados tomados de la base de datos.
 
    ![](assets/s_ncs_content_folder_use_a_template_preview.png)
 
