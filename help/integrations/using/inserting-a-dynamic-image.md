@@ -11,11 +11,11 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-target
 discoiquuid: f6e4d22b-4ad3-4a1e-8a6f-3bdfc1da0535
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '853'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Para que esto funcione, se deben realizar los dos pasos siguientes en Adobe Camp
 1. [Creación de ofertas personalizadas](../../integrations/using/inserting-a-dynamic-image.md#create-redirect-offers)
 1. [Creación de audiencias](../../integrations/using/inserting-a-dynamic-image.md#audiences-target)
 1. [Creación de una actividad de segmentación de experiencias](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
-1. [Diseño y envío del correo electrónico](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
+1. [Previsualización y envío del correo electrónico](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
 
 ## Inserción de la oferta dinámica en un mensaje de correo electrónico {#inserting-dynamic-offer}
 
@@ -65,7 +65,7 @@ En Adobe Campaign, hay dos formas de insertar una imagen dinámica desde Target 
 * **[!UICONTROL Landing Page]**: Si desea que la imagen predeterminada se redirija a una página de aterrizaje predeterminada. Esta URL es opcional y solo para aquellos casos en que la imagen predeterminada se muestra en el mensaje de correo electrónico final.
 * **[!UICONTROL Additional decision parameters]**: especifique la asignación entre los campos definidos en los segmentos de Adobe Target y los campos de Adobe Campaign. Los campos de Adobe Campaign utilizados deben haberse especificado en el “rawbox”. En el ejemplo, añadimos el campo País.
 
-Si utiliza permisos de empresa en la configuración de Adobe Target, añada la propiedad correspondiente en este campo. Obtenga más información sobre los permisos de empresa de Target en [esta página](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html).
+Si utiliza permisos de empresa en la configuración de Adobe Target, añada la propiedad correspondiente en este campo. Obtenga más información sobre los permisos de empresa de Target en [esta página](https://docs.adobe.com/content/help/es-ES/target/using/administer/manage-users/enterprise/properties-overview.html).
 
 ![](assets/target_13.png)
 
@@ -103,7 +103,7 @@ En Target, debe crear las dos audiencias en las que se clasifican las personas q
 
 1. Siga el mismo procedimiento para las audiencias restantes.
 
-## Creación de una actividad de segmentación de experiencias  {#creating-targeting-activity}
+## Creación de una actividad de segmentación de experiencias   {#creating-targeting-activity}
 
 En Target, es necesario crear una actividad de segmentación de experiencias, definir las diferentes experiencias y asociarlas a las ofertas correspondientes.
 
