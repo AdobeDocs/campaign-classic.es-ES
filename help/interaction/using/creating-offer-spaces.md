@@ -11,11 +11,11 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 discoiquuid: 0fae2149-0980-466d-ac9e-8afec2e278be
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '984'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 92%
 
 La creación del espacio de ofertas sólo se puede realizar mediante un **technical administrator** con acceso a la subcarpeta del espacio de oferta. Los espacios de ofertas solo se pueden crear en el entorno de diseño y se duplican automáticamente en el entorno interactivo durante la aprobación de la oferta.
 
-El contenido del catálogo de ofertas se configura en los espacios de oferta. By default, the content can include the following fields: **[!UICONTROL Title]**, **[!UICONTROL Destination URL]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]** and **[!UICONTROL Text content]**. La secuencia de campos se configura en el espacio de oferta.
+El contenido del catálogo de ofertas se configura en los espacios de oferta. De forma predeterminada, el contenido puede incluir los campos siguientes: **[!UICONTROL Title]**, **[!UICONTROL Destination URL]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]** y **[!UICONTROL Text content]**. La secuencia de campos se configura en el espacio de oferta.
 
 Los parámetros avanzados permiten especificar una clave de identificación de contacto (que puede estar formada por varios elementos, el campo de nombre y de correo electrónico al mismo tiempo, por ejemplo). Para obtener más información, consulte la sección [Presentación de una oferta identificada](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-identified-offer).
 
@@ -42,16 +42,16 @@ Para crear un grupo de operadores nuevo, siga el proceso a continuación:
 
    ![](assets/offer_space_create_002.png)
 
-1. Check the **[!UICONTROL Enable unitary mode]** box if one of the following cases applies to you:
+1. Marque la casilla **[!UICONTROL Enable unitary mode]** si se aplica uno de los siguientes casos:
 
    * Se utiliza la interacción con el centro de mensajes
    * Se utiliza el modo unitario de interacción (interacciones entrantes)
 
-1. Go to the **[!UICONTROL Content field]** window and click **[!UICONTROL Add]**.
+1. Vaya a la ventana **[!UICONTROL Content field]** y haga clic en **[!UICONTROL Add]**.
 
    ![](assets/offer_space_create_003.png)
 
-1. Go to the **[!UICONTROL Content]** node and select the fields in the following order: **[!UICONTROL Title]**, then **[!UICONTROL Image URL]**, then **[!UICONTROL HTML content]**, then **[!UICONTROL Destination URL]**.
+1. Vaya al nodo **[!UICONTROL Content]** y seleccione los campos en el siguiente orden: **[!UICONTROL Title]**, luego **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]**, y **[!UICONTROL Destination URL]**.
 
    ![](assets/offer_space_create_004.png)
 
@@ -63,13 +63,13 @@ Para crear un grupo de operadores nuevo, siga el proceso a continuación:
 
    ![](assets/offer_space_create_005.png)
 
-1. Click **[!UICONTROL Edit functions]** to create a rendering function.
+1. Haga clic en **[!UICONTROL Edit functions]** para crear una función de renderización.
 
    Estas funciones se utilizan para generar representaciones de oferta en un espacio de oferta. Existen varios formatos posibles: HTML o texto para interacciones salientes y XML para interacciones entrantes.
 
    ![](assets/offer_space_create_006.png)
 
-1. Go to the **[!UICONTROL HTML rendering]** tab and select **[!UICONTROL Overload the HTML rendering function]**.
+1. Vaya a la pestaña **[!UICONTROL HTML rendering]** y seleccione **[!UICONTROL Overload the HTML rendering function]**.
 1. Inserte la función de renderización.
 
    ![](assets/offer_space_create_007.png)
@@ -145,7 +145,7 @@ En cuanto un visitante hace clic en la oferta y, por lo tanto, en la dirección 
 >
 >Si se desea especificar otro estado en la dirección URL (por ejemplo, si se rechaza una propuesta de oferta), se debe utilizar el valor correspondiente al estado deseado. Ejemplo: **[!UICONTROL Rejected]** = &quot;5&quot;, **[!UICONTROL Presented]** = &quot;1&quot; y así sucesivamente.
 >
->Statuses and their values can be retrieved in the **[!UICONTROL Offer propositions (nms)]** data schema. Para obtener más información, consulte [esta página](../../configuration/using/data-schemas.md).
+>Los estados y sus valores se pueden recuperar en el esquema de datos **[!UICONTROL Offer propositions (nms)]**. Para obtener más información, consulte [esta página](../../configuration/using/data-schemas.md).
 
 **Interacción saliente**
 
