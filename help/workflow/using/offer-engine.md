@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 08987595-e80c-4197-ad1e-9aa7cfc7c3eb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Esta actividad funciona con el mismo principio que la actividad de enriquecimien
 
 Después de configurar la consulta (consulte esta [sección](../../workflow/using/query.md)):
 
-1. Add and open an **[!UICONTROL Offer engine]** activity.
+1. Añada y abra una actividad **[!UICONTROL Offer engine]**.
 1. Complete los diferentes campos disponibles para especificar el uso de los parámetros del motor de oferta (ofrecer espacio, categoría o tema, fecha de contacto, número de ofertas que desea mantener). Según estos parámetros, el motor calculará automáticamente las ofertas a agregar.
 
    >[!CAUTION]
