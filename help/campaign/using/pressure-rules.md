@@ -11,11 +11,11 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 discoiquuid: 3710768e-ab7f-40a4-9c48-830695adc990
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3255'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Los criterios de mediación (peso o umbral del mensaje) pueden variar en funció
 
 La regla de mediación para definir los mensajes aptos se aplica durante la fase de análisis. Para cada destinatario y para el periodo correspondiente, el mensaje se envía si la fórmula siguiente es verdadera: **(cantidad de mensajes enviados) + (cantidad de mensajes con mayor peso) &lt; umbral**.
 
-Otherwise, the recipient will be **[!UICONTROL Excluded by arbitration]**. Para obtener más información, consulte [Exclusión tras la mediación](#exclusion-after-arbitration).
+De lo contrario, el destinatario es **[!UICONTROL Excluded by arbitration]**. Para obtener más información, consulte [Exclusión tras la mediación](#exclusion-after-arbitration).
 
 ## Creación de una regla de presión {#creating-a-pressure-rule}
 
@@ -68,7 +68,7 @@ Para crear y configurar una regla de tipología de **[!UICONTROL Pressure]**, si
 
    >[!NOTE]
    >
-   >Scheduled deliveries are only taken into account if the **[!UICONTROL Take the deliveries into account in the provisional calendar]** option is selected. Para obtener más información, consulte [Configuración del periodo](#setting-the-period).
+   >Las entregas programadas solo se tienen en cuenta si la opción **[!UICONTROL Take the deliveries into account in the provisional calendar]** está seleccionada. Para obtener más información, consulte [Configuración del periodo](#setting-the-period).
 
 1. Defina el método para calcular el número más alto de mensajes.
 
@@ -78,7 +78,7 @@ Para crear y configurar una regla de tipología de **[!UICONTROL Pressure]**, si
 
    ![](assets/campaign_opt_create_a_rule_03b.png)
 
-   To define a variable threshold, select the **[!UICONTROL Depends on the recipient]** value in the **[!UICONTROL Type of threshold]** field and use the icon on the right to open the expression editor.
+   Para definir un umbral de variable, en el campo **[!UICONTROL Depends on the recipient]** seleccione el valor **[!UICONTROL Type of threshold]** y utilice el icono de la derecha para abrir el editor de expresiones.
 
    ![](assets/campaign_opt_create_a_rule_04.png)
 
@@ -114,13 +114,13 @@ Los valores de umbral pueden ser constantes o calculados mediante una fórmula c
 
 **Ejemplo:**
 
-Puede indexar el número de mensajes autorizados según el segmento al que pertenezca el destinatario. Esto significa que un destinatario que pertenece al segmento Web puede recibir más mensajes que otros destinatarios. An **[!UICONTROL Iif (@origin='Web', 5, 3)]** type formula authorizes the delivery of 5 messages to recipients and 3 for other segments. La configuración resultante es la siguiente:
+Puede indexar el número de mensajes autorizados según el segmento al que pertenezca el destinatario. Esto significa que un destinatario que pertenece al segmento Web puede recibir más mensajes que otros destinatarios. Una fórmula de tipo **[!UICONTROL Iif (@origin='Web', 5, 3)]** autoriza la entrega de 5 mensajes a los destinatarios y 3 para otros segmentos. La configuración resultante es la siguiente:
 
 ![](assets/campaign_opt_pressure_sample.png)
 
 Para definir el umbral, puede utilizar una dimensión vinculada a la dimensión de objetivo: por ejemplo, para incluir mensajes enviados a los perfiles de destinatario almacenados en la tabla de visitantes (para obtener más información sobre la tabla de visitantes, consulte [esta sección](../../web/using/use-case--creating-a-refer-a-friend-form.md)) o para evitar que se envíe más de un mensaje por semana a una misma familia (lo que puede hacer referencia a varias direcciones de correo electrónico) identificada en una dimensión vinculada a los destinatarios.
 
-To do so, select the **[!UICONTROL Count messages on a linked dimension]** option, then select the visitor or the contact table.
+Para ello, seleccione la opción **[!UICONTROL Count messages on a linked dimension]** y luego seleccione al visitante o la tabla de contacto.
 
 ### Peso del mensaje {#message-weight}
 
@@ -156,7 +156,7 @@ Por ejemplo, una regla de presión que define un umbral de 2 mensajes por semana
 
 >[!NOTE]
 >
->De forma predeterminada, solo se tienen en cuenta las entregas que ya se han enviado al calcular el umbral. Check the **[!UICONTROL Take the deliveries into account in the provisional calendar]** option if you also want to consider the deliveries scheduled for the concerned period. En este caso, el periodo se duplica para permitir la integración de entregas futuras y pasadas.\
+>De forma predeterminada, solo se tienen en cuenta las entregas que ya se han enviado al calcular el umbral. Marque la opción **[!UICONTROL Take the deliveries into account in the provisional calendar]** si también desea tener en cuenta las entregas programadas durante el periodo en cuestión. En este caso, el periodo se duplica para permitir la integración de entregas futuras y pasadas.\
 >Para restringir las entregas que se tienen en cuenta a un periodo de dos semanas, puede:
 >
 >* Introducir **15d** en el campo **[!UICONTROL Concerned period]**: se tiene en cuenta en el cálculo las entregas realizadas hasta dos semanas antes de la fecha de entrega a la que se aplica la norma.
@@ -164,7 +164,7 @@ Por ejemplo, una regla de presión que define un umbral de 2 mensajes por semana
 >  
 o
 >
->* Introduzca **7d** en el **[!UICONTROL Period considered]** campo Y marque la casilla de verificación **[!UICONTROL Take the deliveries into account in the provisional calendar]**\
+>* Escriba **7d** en el campo **[!UICONTROL Period considered]** Y marque **[!UICONTROL Take the deliveries into account in the provisional calendar]**\
    >: En el cálculo se tienen en cuenta las entregas realizadas hasta 7 días antes de la fecha de entrega y programados hasta 7 días después de la fecha de entrega en los que se aplica la regla.
 >
 >
@@ -207,7 +207,7 @@ Por último, si no se selecciona ningún agrupamiento, tan solo no se envía el 
 
 ## Exclusión tras la mediación {#exclusion-after-arbitration}
 
-Arbitration is re-applied every night via the **[!UICONTROL Forecasting]** technical workflow and the **[!UICONTROL Campaign jobs]** workflow.
+La mediación se vuelve a aplicar cada noche mediante el flujo de trabajo técnico **[!UICONTROL Forecasting]** y el flujo de trabajo **[!UICONTROL Campaign jobs]**.
 
 El flujo de trabajo de **[!UICONTROL Forecasting]** calcula de forma previa los datos del periodo en curso (desde la fecha de inicio hasta la fecha actual), lo que permite aplicar las reglas de tipología durante el análisis. También recalcula los contadores de exclusión para la mediación nocturna diaria.
 
@@ -232,19 +232,19 @@ Para identificar clientes y clientes potenciales, utilice el campo **[!UICONTROL
 Para crear la regla, siga los siguientes pasos:
 
 1. Cree una nueva regla de tipología de tipo **presión**.
-1. Edit the **[!UICONTROL Pressure]** tab: in the **[!UICONTROL Maximum number of messages]** section, we want to create a formula to calculate the threshold depending on each recipient. Select the **[!UICONTROL Depends on the recipient]** value in the **[!UICONTROL Threshold type]** field, then click **[!UICONTROL Edit expression]** to the right of the **[!UICONTROL Formula]** field.
+1. Edite la pestaña **[!UICONTROL Pressure]**: en la sección **[!UICONTROL Maximum number of messages]** se busca crear una fórmula para calcular el umbral en función de cada destinatario. En el campo **[!UICONTROL Depends on the recipient]** seleccione el valor **[!UICONTROL Threshold type]** y haga clic en **[!UICONTROL Edit expression]** a la derecha del campo **[!UICONTROL Formula]**.
 
-   Click the **[!UICONTROL Advanced parameters]** button to define the calculation formula.
+   Haga clic en el botón **[!UICONTROL Advanced parameters]** para definir la fórmula de cálculo.
 
    ![](assets/campaign_opt_pressure_sample_1_1.png)
 
-1. Seleccione la **[!UICONTROL Edit the formula using an expression]** opción y haga clic en **[!UICONTROL Next]**.
+1. Seleccione la opción **[!UICONTROL Edit the formula using an expression]** y haga clic en **[!UICONTROL Next]**.
 
    ![](assets/campaign_opt_pressure_sample_1_2.png)
 
 1. En la lista de funciones, haga doble clic en la función **Iif** en el nodo **[!UICONTROL Others]**.
 
-   Then select the recipients&#39; **Status** in the **[!UICONTROL Available fields]** section.
+   A continuación, seleccione el **estado** de los destinatarios en la sección **[!UICONTROL Available fields]**.
 
    ![](assets/campaign_opt_pressure_sample_1_3.png)
 
@@ -289,7 +289,7 @@ Durante el análisis de la entrega, los destinatarios de la entrega se excluyen 
 
    ![](assets/campaign_opt_pressure_sample_1_9.png)
 
-* Click the **[!UICONTROL Audit]** tab, then the **[!UICONTROL Causes of exclusions]** sub-tab to display the number of exclusions and the applied typology rules:
+* Haga clic en la pestaña **[!UICONTROL Audit]** y luego en la subpestaña **[!UICONTROL Causes of exclusions]** para mostrar el número de exclusiones y las reglas de tipología aplicadas:
 
    ![](assets/campaign_opt_pressure_sample_1_10.png)
 
@@ -304,7 +304,7 @@ Para realizar este tipo de configuración, debe utilizar una fórmula para defin
 Aplique los siguientes pasos de configuración:
 
 1. Cree una nueva regla de tipología de tipo **presión**.
-1. Edit the **[!UICONTROL Pressure]** tab. Se busca crear una fórmula de umbral que se base en cada destinatario individual: haga clic en el icono **[!UICONTROL Edit expression]** a la derecha del campo **[!UICONTROL Weight formula]**.
+1. Edite la pestaña **[!UICONTROL Pressure]**. Se busca crear una fórmula de umbral que se base en cada destinatario individual: haga clic en el icono **[!UICONTROL Edit expression]** a la derecha del campo **[!UICONTROL Weight formula]**.
 
    ![](assets/campaign_opt_pressure_sample_2_1.png)
 
@@ -334,8 +334,8 @@ Primero, configure la regla de presión.
 
    Esta opción anula el valor definido en el campo **[!UICONTROL Frequency]** y aplica automáticamente la regla durante la fase de personalización. Para obtener más información, consulte [Ajuste de la frecuencia de cálculo](../../campaign/using/applying-rules.md#adjusting-calculation-frequency).
 
-1. In the **[!UICONTROL Pressure]** tab, select **[!UICONTROL 7d]** as the **[!UICONTROL Period considered]** and **[!UICONTROL Grouping per day]** as the **[!UICONTROL Period type]**.
-1. Seleccione la **[!UICONTROL Take the deliveries into account in the provisional calendar]** opción para incluir los envíos programados.
+1. En la pestaña **[!UICONTROL Pressure]**, seleccione **[!UICONTROL 7d]** como **[!UICONTROL Period considered]** y **[!UICONTROL Grouping per day]** como **[!UICONTROL Period type]**.
+1. Seleccione la opción **[!UICONTROL Take the deliveries into account in the provisional calendar]** para incluir los envíos programados.
 
    ![](assets/campaign_opt_pressure_example_1.png)
 
@@ -349,7 +349,7 @@ Ahora cree y configure un flujo de trabajo para cada envío al que desee aplicar
 1. Cree una campaña. Para obtener más información, consulte [esta sección](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign).
 1. En la pestaña **[!UICONTROL Targeting and workflows]** de la campaña, añada una actividad **Query** al flujo de trabajo. Para obtener más información sobre esta actividad, consulte [esta sección](../../workflow/using/query.md).
 1. Añada una actividad de **[!UICONTROL Email delivery]** al flujo de trabajo y ábrala. Para obtener más información sobre esta actividad, consulte [esta sección](../../workflow/using/delivery.md).
-1. Go to the **[!UICONTROL Approvals]** tab of the **[!UICONTROL Delivery properties]** and disable all approvals.
+1. En **[!UICONTROL Approvals]** vaya a la pestaña **[!UICONTROL Delivery properties]** y deshabilite todas las aprobaciones.
 
    ![](assets/campaign_opt_pressure_example_2.png)
 
@@ -357,7 +357,7 @@ Ahora cree y configure un flujo de trabajo para cada envío al que desee aplicar
 
    ![](assets/campaign_opt_pressure_example_3.png)
 
-1. En el envío, haga clic **[!UICONTROL Scheduling]** y seleccione **[!UICONTROL Schedule delivery (automatic execution when the scheduled date is reached)]**. In this example, select the **[!UICONTROL Use a calculation formula]** option.
+1. En el envío, haga clic en **[!UICONTROL Scheduling]** y seleccione **[!UICONTROL Schedule delivery (automatic execution when the scheduled date is reached)]**. En este ejemplo, seleccione la opción **[!UICONTROL Use a calculation formula]**.
 1. Establezca la fecha de extracción en 10 minutos (fecha actual + 10 minutos).
 1. Configure la fecha de contacto en el día siguiente (fecha actual + 1 día).
 
@@ -365,7 +365,7 @@ Ahora cree y configure un flujo de trabajo para cada envío al que desee aplicar
 
    Para que las exclusiones de regla de presión se implementen correctamente, asegúrese de establecer la fecha y hora de extracción antes de la fecha y la hora de contacto, así como antes de que se reaplique la mediación por la noche. Para obtener más información, consulte [Exclusión tras la mediación](#exclusion-after-arbitration).
 
-1. Unselect the **[!UICONTROL Confirm the delivery before sending]** option and save your changes.
+1. Desmarque la opción **[!UICONTROL Confirm the delivery before sending]** y guarde los cambios.
 1. Continúe de la misma forma para cada envío que desee realizar. Asegúrese de definir el peso deseado para cada envío.
 1. Ejecute los flujos de trabajo relevantes para preparar y realizar las entregas.
 
