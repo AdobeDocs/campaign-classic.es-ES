@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: a0ab8794bdbdfbe627bf33580dc8991793447336
 workflow-type: tm+mt
 source-wordcount: '1151'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Las siguientes limitaciones son inherentes a Facebook.
 
 ## Creación de la entrega {#creating-the-delivery}
 
-Create a new delivery using the **[!UICONTROL Publish to a brand page]** delivery template.
+Cree una nueva entrega con la plantilla **[!UICONTROL Publish to a brand page]**.
 
 ![](assets/social_facebook_delivery_001.png)
 
@@ -65,13 +65,13 @@ La pestaña **[!UICONTROL Target of the proofs]** le permite definir la página 
 
 >[!NOTE]
 >
->If you are using the same Facebook test page for all deliveries, you can save the proof target in the **[!UICONTROL Publish to a brand page]** delivery template, which is accessed via the **[!UICONTROL Resources > Templates > Delivery templates]** node. El objetivo de prueba se especificará de forma predeterminada para cada nueva entrega.
+>Si está utilizando la misma página de prueba de Facebook para todas las entregas, puede guardar el objetivo de prueba en la plantilla de entrega **[!UICONTROL Publish to a brand page]**, a la que se accede mediante el nodo **[!UICONTROL Resources > Templates > Delivery templates]**. El objetivo de prueba se especificará de forma predeterminada para cada nueva entrega.
 
 ## Definición de la audiencia {#defining-the-audience}
 
 Si desea utilizar segmentos locales para reducir el tipo de público autorizado para ver la publicación, le recomendamos que cree una página de Facebook por segmento (por ejemplo: Adobe Campaign París, Adobe Campaign Londres, etc.).
 
-Sin embargo, también es posible utilizar los filtros de audiencia utilizados por Facebook. The **[!UICONTROL Audience]** tab of the **[!UICONTROL Select target window]** offers four filters:
+Sin embargo, también es posible utilizar los filtros de audiencia utilizados por Facebook. La pestaña **[!UICONTROL Audience]** de **[!UICONTROL Select target window]** ofrece cuatro filtros:
 
 * **[!UICONTROL Country]**
 * **[!UICONTROL Regions]**
@@ -121,14 +121,14 @@ Introduzca los distintos campos:
 
 1. En el campo **[!UICONTROL Status]**, escriba el texto que se mostrará bajo el nombre de la página.
 1. En el campo **[!UICONTROL Name]**, introduzca el título de la publicación.
-1. In the **[!UICONTROL Link]** field, enter the URL that the publication points to.
+1. En el campo **[!UICONTROL Link]**, introduzca la URL a la que apunta la publicación.
 
    >[!NOTE]
    >
-   >If you want to add the **[!UICONTROL Link]** field to the URL of a Facebook application to promote it, we recommend that you adapt it to smartphone display criteria:
+   >Si desea agregar el campo **[!UICONTROL Link]** a la URL de una aplicación de Facebook para promocionarla, le recomendamos que lo adapte a los criterios de visualización del smartphone:
    >
    >1. Seleccione la aplicación de Facebook [https://developers.facebook.com/apps](https://developers.facebook.com/apps)y seleccione la pestaña **[!UICONTROL Settings > Basic]**.
-   >1. Enter the **[!UICONTROL Namespace]** field.
+   >1. Introduzca el campo **[!UICONTROL Namespace]**.
    >1. Introduzca el campo **[!UICONTROL Mobile Site URL]**: cuando un usuario hace clic en el vínculo de publicación en su smartphone, Facebook los redirigirá automáticamente a la URL definida en este campo.
    >1. Cree su aplicación web para que la pantalla de Facebook se personalice como una función del dispositivo utilizado (smartphone o PC).
    >1. Vaya al campo **[!UICONTROL Link]** de la publicación a través de la consola de Adobe Campaign, introduzca la URL del campo **[!UICONTROL Canvas page]**.
@@ -173,9 +173,9 @@ Este tipo de contenido le permite publicar un álbum de fotos. Puede agregar un 
 
 Introduzca los distintos campos:
 
-1. Start by entering the **[!UICONTROL Album name]**.
+1. Comience por introducir **[!UICONTROL Album name]**.
 1. A continuación, introduzca la **[!UICONTROL Description]** que se mostrará encima de las fotos.
-1. To add a photo, click the **[!UICONTROL Add]** button, select the photo and click **[!UICONTROL Open]**.
+1. Para agregar una foto, haga clic en el botón **[!UICONTROL Add]**, seleccione la foto y haga clic en **[!UICONTROL Open]**.
 1. Se puede añadir un rótulo a cada foto.
 
 ![](assets/social_facebook_delivery_photos.png)
@@ -185,7 +185,7 @@ Introduzca los distintos campos:
 La pestaña **[!UICONTROL Preview]** permite ver la renderización de la publicación.
 
 1. Seleccione la pestaña **[!UICONTROL Preview]**.
-1. Click the **[!UICONTROL Test personalization]** drop-down menu and select **[!UICONTROL Service]**.
+1. Haga clic en el menú desplegable **[!UICONTROL Test personalization]** y seleccione **[!UICONTROL Service]**.
 1. En el campo **[!UICONTROL Folder]**, seleccione la carpeta de servicio que contiene las páginas de Facebook. De forma predeterminada, las páginas se almacenan en la raíz de la carpeta de servicios de **[!UICONTROL Facebook]**.
 1. Seleccione la página de Facebook en la que desee probar la vista previa.
 
@@ -216,16 +216,16 @@ La entrega de la prueba es idéntico a los envíos por correo electrónico. Cons
 ## Envío de mensajes {#sending-the-message}
 
 1. Una vez aprobado el contenido, haga clic en el botón **[!UICONTROL Send]**.
-1. Seleccione **[!UICONTROL Deliver as soon as possible]** y haga clic en el **[!UICONTROL Analyze]** botón.
+1. Seleccione **[!UICONTROL Deliver as soon as possible]** y haga clic en el botón **[!UICONTROL Analyze]**.
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Postpone the delivery]** option lets you postpone delivery to a later date.
+   >La opción **[!UICONTROL Postpone the delivery]** permite posponer la entrega a una fecha posterior.
 
    ![](assets/social_facebook_delivery_009.png)
 
 1. Una vez completado el análisis, compruebe el resultado.
-1. Click **[!UICONTROL Confirm delivery]**, then click **[!UICONTROL Yes]**.
+1. Haga clic en **[!UICONTROL Confirm delivery]**, luego en **[!UICONTROL Yes]**.
 
    ![](assets/social_facebook_delivery_016.png)
 
