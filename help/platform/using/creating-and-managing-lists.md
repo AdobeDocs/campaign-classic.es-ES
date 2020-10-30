@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 208bac758542db8dd514bda80c8c735897fcefec
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -133,12 +133,12 @@ Puede eliminar una o varias listas de la lista de grupos del árbol de Adobe Cam
 
 Una lista es un conjunto estático de destinatarios que puede centrarse en acciones de envío o actualizarse durante operaciones de importación o durante la ejecución del flujo de trabajo. Una lista de destinatarios también se denomina audiencia.
 
-Aprenda a crear una audiencia configurando una lista de destinatarios desde el Explorador.
+Aprenda cómo crear una audiencia configurando una lista de destinatarios desde Explorer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-## How to create a list of recipients with a workflow {#create-list-in-a-wf-video}
+## Cómo crear una lista de destinatarios con un flujo de trabajo {#create-list-in-a-wf-video}
 
-Obtenga información sobre cómo crear un flujo de trabajo para destinatario de destinatarios y cómo hacerlo recurrente antes de utilizar la lista en un destinatario de correo electrónico.
+Aprenda cómo crear un flujo de trabajo con el fin de apuntar los destinatarios y cómo volverlo recurrente antes de utilizar la lista en un destinatario de correo electrónico.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
