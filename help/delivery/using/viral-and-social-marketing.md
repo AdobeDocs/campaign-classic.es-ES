@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
 discoiquuid: 66f2b229-92d9-4db1-97a4-2d9eb2270446
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '568'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Para permitir que los destinatarios de una entrega compartan el contenido de los
 
 >[!NOTE]
 >
->De forma predeterminada, este vínculo no está disponible en la lista de bloques. You can access it by clicking **[!UICONTROL Other...]**, and selecting the **[!UICONTROL Social network sharing links]** block.
+>De forma predeterminada, este vínculo no está disponible en la lista de bloques. Puede acceder a él haciendo clic en **[!UICONTROL Other...]** y seleccionando el bloque **[!UICONTROL Social network sharing links]**.
 
 ![](assets/s_ncs_user_viral_add_link_via_others.png)
 
@@ -54,7 +54,7 @@ Cuando el destinatario hace clic en el icono de una de las redes sociales mostra
 
 >[!NOTE]
 >
->Este bloque personalizado contiene todos los vínculos (para la entrega de mensajes y poder compartir con todas las redes sociales). Puede modificarse para adecuarse a sus necesidades. Sin embargo, la configuración está reservada para usuarios avanzados. To edit the matching personalization block, go to the **[!UICONTROL Resources > Campaign management > Personalization blocks]** node of the Adobe Campaign tree.
+>Este bloque personalizado contiene todos los vínculos (para la entrega de mensajes y poder compartir con todas las redes sociales). Puede modificarse para adecuarse a sus necesidades. Sin embargo, la configuración está reservada para usuarios avanzados. Para editar el bloque personalizado correspondiente, vaya al nodo **[!UICONTROL Resources > Campaign management > Personalization blocks]** en el árbol de Adobe Campaign.
 
 ## Marketing viral: enviar a un amigo {#viral-marketing--forward-to-a-friend}
 
@@ -64,7 +64,7 @@ El reenvío de mensajes se basa en los mismos principios que los vínculos de la
 
 Siga estos pasos:
 
-1. Add the **[!UICONTROL Social network sharing links]** personalization block into the body of the original message.
+1. Añada el bloque personalizado **[!UICONTROL Social network sharing links]** al cuerpo del mensaje original.
 1. El destinatario del mensaje puede hacer clic en el icono **[!UICONTROL Email]** para enviar este mensaje a uno o varios amigos.
 
    ![](assets/s_ncs_user_viral_email_link.png)
@@ -77,7 +77,7 @@ Siga estos pasos:
 
    >[!NOTE]
    >
-   >El contenido de este mensaje se puede personalizar para adecuarse a sus necesidades. It is created based on the **[!UICONTROL Transfer of original message]** template, which is stored in the **[!UICONTROL Administration > Campaign management > Technical delivery templates]** node.
+   >El contenido de este mensaje se puede personalizar para adecuarse a sus necesidades. Se crea a partir de la plantilla **[!UICONTROL Transfer of original message]**, que se almacena en el nodo **[!UICONTROL Administration > Campaign management > Technical delivery templates]**.
    >
    >También se puede cambiar el formulario de reenvío de mensajes que se pone a disposición del destinatario que realiza el reenvío. Para ello, es necesario cambiar la aplicación web **Viral form** almacenada en el nodo **[!UICONTROL Resources > Online > Web applications]**.
 
@@ -87,11 +87,11 @@ Siga estos pasos:
 
    >[!NOTE]
    >
-   >Esta configuración se puede adaptar. To do this, you need to modify the **Recipient subscription** Web application stored in the **[!UICONTROL Resources > Online > Web applications]** node.
+   >Esta configuración se puede adaptar. Para ello, debe modificar la aplicación web **Recipient subscription** almacenada en el nodo **[!UICONTROL Resources > Online > Web applications]**.
    >
    >Para obtener más información sobre las aplicaciones web, consulte [esta sección](../../web/using/about-web-applications.md).
 
-   Una vez validados, se les envía un mensaje de confirmación: el registro solo es definitivo cuando activen el vínculo en el mensaje de confirmación. This message is created based on the **[!UICONTROL Registration confirmation]** template, which is stored in the **[!UICONTROL Administration > Campaign management > Technical delivery templates]** node.
+   Una vez validados, se les envía un mensaje de confirmación: el registro solo es definitivo cuando activen el vínculo en el mensaje de confirmación. Este mensaje se crea en función de la plantilla **[!UICONTROL Registration confirmation]**, que se almacena en el nodo **[!UICONTROL Administration > Campaign management > Technical delivery templates]**.
 
    El destinatario secundario se añade a la carpeta **Recipients** de la base de datos y se suscribe (de forma predeterminada) al servicio informativo **Newsletter**.
 
@@ -103,7 +103,7 @@ Se hace un seguimiento del uso compartido y acceso a la información compartida.
 
    ![](assets/s_ncs_user_network_del_tracking_tab.png)
 
-* in a dedicated **[!UICONTROL Sharing to social networks]** report:
+* en un informe específico **[!UICONTROL Sharing to social networks]**:
 
    ![](assets/s_ncs_user_viral_report.png)
 
