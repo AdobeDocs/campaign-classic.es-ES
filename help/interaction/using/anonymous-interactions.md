@@ -11,11 +11,11 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 discoiquuid: 3fd7a1ef-b0e2-4a7e-9e36-044d997db785
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -28,17 +28,17 @@ Vea este [vídeo](https://helpx.adobe.com/campaign/classic/how-to/indetified-and
 
 De forma predeterminada, la interacción viene con un entorno preconfigurado para dirigirse la tabla de destinatarios (ofertas identificadas). Si desea dirigirse a otra tabla (tabla de visitante para ofertas anónimas o a una tabla de destinatarios específica), debe utilizar el asistente de asignación de destino para crear el entorno. Para obtener más información sobre esto, consulte [Creación de un entorno de ofertas](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
 
-When you create an anonymous environment via the mapping creation wizard, the **[!UICONTROL Environment dedicated to incoming anonymous interactions]** box is automatically checked in the environment&#39;s **[!UICONTROL General]** tab.
+Cuando se crea un entorno anónimo a través del asistente para la creación de asignaciones, la casilla **[!UICONTROL Environment dedicated to incoming anonymous interactions]** se marca automáticamente en la pestaña **[!UICONTROL General]** del entorno.
 
 El **[!UICONTROL Targeting dimension]** se completa automáticamente. De manera predeterminada, se vincula a la tabla del visitante.
 
-Aparece el **[!UICONTROL Visitor folder]** campo. It is automatically completed to link to the **[!UICONTROL Visitors]** folder. Este campo permite elegir dónde almacenar los perfiles de visitantes.
+Aparece el campo **[!UICONTROL Visitor folder]**. Se completa automáticamente para vincular la carpeta **[!UICONTROL Visitors]**. Este campo permite elegir dónde almacenar los perfiles de visitantes.
 
 ![](assets/anonymous_environment_option.png)
 
 >[!NOTE]
 >
->If you want to filter several types of visitors, for instance in the case of anonymous offers presented for one or more brands, you need to create an environment for each brand, and a **[!UICONTROL Visitors]** type folder for each environment.
+>Si se desea filtrar varios tipos de visitantes, por ejemplo, en el caso de ofertas anónimas presentadas para una o más marcas, se debe crear un entorno para cada marca y una carpeta de tipo **[!UICONTROL Visitors]** cada entorno.
 
 ## Catálogo de ofertas para interacciones anónimas {#offer-catalog-for-anonymous-interactions}
 
@@ -52,7 +52,7 @@ Los visitantes anónimos pueden enviarse a un proceso de identificación de cook
 
 Durante este paso, se realiza una comparación entre los datos que recuperan las cookies y los de la base de datos. En algunos casos, el visitante se reconoce (se identifica de forma implícita); en otros casos, no se reconoce (y, por lo tanto, permanece anónimo).
 
-Para ejecutar esta análisis, para el espacio de ofertas, marque la **[!UICONTROL Implicitly identify the individual based on their browser history]** opción.
+Para ejecutar este análisis, para el espacio de ofertas, marque la opción **[!UICONTROL Implicitly identify the individual based on their browser history]**.
 
 ![](assets/identification_anonymous_visitors.png)
 
