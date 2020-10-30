@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 discoiquuid: 4abce633-647f-4ae4-9419-859f6e2e8628
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1191'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -30,10 +30,10 @@ Se accede a la actividad de **Gestión de contenido** a través de la barra de h
 
 Las propiedades de actividad se dividen en cuatro pasos:
 
-* **[!UICONTROL Content]** :: permite introducir contenido existente o crear contenido,
-* **[!UICONTROL Update content]** :: le permite modificar el asunto del contenido o actualizar el contenido mediante un flujo de datos XML,
-* **[!UICONTROL Action to execute]** :: permite guardar o generar contenido,
-* **[!UICONTROL Transition]** :: le permite elegir si desea generar o no una transición de salida y darle un nombre.
+* **[!UICONTROL Content]** : permite introducir contenido existente o crear contenido,
+* **[!UICONTROL Update content]** : permite modificar el asunto del contenido o actualizar el contenido a través de un flujo de datos XML,
+* **[!UICONTROL Action to execute]**: le permite guardar o generar contenido,
+* **[!UICONTROL Transition]** : permite elegir si generar o no una transición de salida y asignarle un nombre.
 
 ![](assets/d_ncs_content_wf.png)
 
@@ -79,7 +79,7 @@ Las propiedades de actividad se dividen en cuatro pasos:
 
 ### Transición {#transition}
 
-The **Generate an output transition** option lets you add an output transition to the **[!UICONTROL Content management]** activity to link a new activity to workflow execution. Tras comprobar esta opción, introduzca una etiqueta para la transición.
+La opción **Generar una transición de salida** le permite añadir una transición de salida a la actividad **[!UICONTROL Content management]** para vincular una nueva actividad a la ejecución del flujo de trabajo. Tras comprobar esta opción, introduzca una etiqueta para la transición.
 
 ## Ejemplos {#examples}
 
@@ -95,7 +95,7 @@ El contenido se configura mediante la actividad “Gestión de contenido”:
 
 Se crea una nueva instancia de contenido mediante el modelo de publicación y la carpeta de cadena de contenido.
 
-En nuestro ejemplo, hemos sobrecargado al asunto de la entrega. It will be taken into account instead of the one entered in the **[!UICONTROL Delivery]** template.
+En nuestro ejemplo, hemos sobrecargado al asunto de la entrega. Se tiene en cuenta en lugar del introducido en la plantilla **[!UICONTROL Delivery]**.
 
 El contenido se rellena automáticamente mediante una fuente XML procedente de la URL introducida:
 
@@ -177,7 +177,7 @@ La primera tarea **Content management** crea un entorno de contenido.
 
 >[!NOTE]
 >
->The **[!UICONTROL Publication]** tab of the transformation templates window must be populated with the location of the target to be generated.
+>La pestaña **[!UICONTROL Publication]** de la ventana de plantillas de transformación debe rellenarse con la ubicación del destino que se va a generar.
 
 Se añade una actividad de espera para pausar la siguiente transición durante una semana.
 
