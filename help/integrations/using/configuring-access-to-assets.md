@@ -11,11 +11,11 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 discoiquuid: df1b6ead-3471-404a-b43f-a68fb86cb14c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Esta sección detalla los pasos de configuración necesarios en Adobe Campaign p
 
 >[!NOTE]
 >
->If the two packages (**[!UICONTROL AEM Integration]** and **[!UICONTROL Integration with the Adobe Experience Cloud]** ) are installed, only the assets available in the Adobe Experience Cloud library can be used. Para acceder también a los recursos de la biblioteca AEM Assets, se deben sincronizar AEM Assets y Adobe Experience Cloud. Los recursos de AEM Assets también están disponibles en la biblioteca de Adobe Experience Cloud. Para obtener más información sobre la sincronización de AEM Assets y Adobe Experience Cloud, consulte la [documentación detallada](https://docs.adobe.com/docs/en/aod/overview/collaborating/aem-assets-aod-sync.html).
+>Si se instalan los dos paquetes (**[!UICONTROL AEM Integration]** y **[!UICONTROL Integration with the Adobe Experience Cloud]**), solo se podrán utilizar los activos disponibles en la biblioteca de Adobe Experience Cloud. Para acceder también a los recursos de la biblioteca AEM Assets, se deben sincronizar AEM Assets y Adobe Experience Cloud. Los recursos de AEM Assets también están disponibles en la biblioteca de Adobe Experience Cloud. Para obtener más información sobre la sincronización de AEM Assets y Adobe Experience Cloud, consulte la [documentación detallada](https://docs.adobe.com/docs/en/aod/overview/collaborating/aem-assets-aod-sync.html).
 
 ## Integración con Experience Cloud Assets {#integrating-with-experience-cloud-assets}
 
@@ -44,7 +44,7 @@ Para utilizar la integración entre Adobe Campaign y Experience Cloud Assets, de
 
 Para activar la conexión entre Adobe Campaign y Adobe Experience Cloud, configure la conexión mediante IMS (servicio de conexión con Adobe ID). Esta configuración se detalla en el documento de [Conexión mediante una Adobe ID. ](../../integrations/using/about-adobe-id.md) Requiere:
 
-* Installing the **[!UICONTROL Integration with the Adobe Experience Cloud]** package.
+* Instale el paquete **[!UICONTROL Integration with the Adobe Experience Cloud]**.
 * Configuración de una cuenta externa de Adobe Experience Cloud.
 
 >[!NOTE]
@@ -55,7 +55,7 @@ Para activar la conexión entre Adobe Campaign y Adobe Experience Cloud, configu
 
 Para integrar AEM Assets con Adobe Campaign, primero se debe configurar la integración entre Adobe Experience Manager y Adobe Campaign. Esta configuración requiere principalmente:
 
-* Installing the **[!UICONTROL AEM Integration]** built-in package
+* La instalación del paquete integrado **[!UICONTROL AEM Integration]**.
 * La configuración de una cuenta externa específica de Adobe Experience Manager.
 
 Aprenda a integrar Adobe Campaign y Adobe Experience Manager consultando la [documentación detallada](../../integrations/using/about-adobe-experience-manager.md).
@@ -64,7 +64,7 @@ Una vez configurada esta integración, se puede configurar una nueva plantilla d
 
 1. Cree una nueva plantilla de distribución o duplique una existente. Para obtener más información sobre plantillas de envío, consulte [esta página](../../delivery/using/about-templates.md).
 1. Edite las **propiedades** de esta plantilla.
-1. In the **[!UICONTROL Advanced]** tab, set the **[!UICONTROL Content editing mode]** to **DCE**.
+1. En la pestaña **[!UICONTROL Advanced]**, configure **[!UICONTROL Content editing mode]** en **DCE**.
 1. Seleccione la **[!UICONTROL AEM account]** externa que necesita utilizar para acceder a la biblioteca de AEM Assets.
 
    ![](assets/dam_aem_assets1.png)
