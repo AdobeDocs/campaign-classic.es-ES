@@ -11,11 +11,11 @@ audience: interaction
 content-type: reference
 topic-tags: tracking-offers
 discoiquuid: 82e67697-5dc7-4013-a00d-be8cdad31354
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '60'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Una vez que se hayan realizado las propuestas de oferta, podrá visualizar el hi
 >
 >Esta funcionalidad solo es visible en línea y solo para el gestor de entregas.
 
-* At the offer level, in the **[!UICONTROL Edit]** tab, click **[!UICONTROL Propositions]**.
+* En el nivel de oferta, en la pestaña **[!UICONTROL Edit]**, haga clic en **[!UICONTROL Propositions]**.
 
    ![](assets/offer_followup_006.png)
 
