@@ -15,14 +15,14 @@ translation-type: tm+mt
 source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 75%
+ht-degree: 92%
 
 ---
 
 
 # Informe de análisis de oferta{#offer-analysis-report}
 
-The **[!UICONTROL Offer analysis]** report provides you with an overview of the number of accepted or rejected propositions.
+El informe **[!UICONTROL Offer analysis]** proporciona un resumen del número de las propuestas aceptadas o rechazadas.
 
 >[!NOTE]
 >
