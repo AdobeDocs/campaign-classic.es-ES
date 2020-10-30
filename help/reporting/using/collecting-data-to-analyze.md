@@ -11,11 +11,11 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 594a333d-1fc3-49a0-b3f6-7ea8fa4321e9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '507'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -50,11 +50,11 @@ El ejemplo siguiente permite recopilar el número de destinatarios de cada país
 
 Para crear un informe, puede utilizar datos de una lista de datos importados.
 
-To do this, select the **[!UICONTROL Use an imported list]** option in the query box and select the concerned list.
+Para ello, seleccione la opción **[!UICONTROL Use an imported list]** en el cuadro de consulta y seleccione la lista correspondiente.
 
 ![](assets/reporting_query_from_list.png)
 
-Click the **[!UICONTROL Edit query...]** link to define the data to collect among the elements in this list for building the report.
+Haga clic en el vínculo **[!UICONTROL Edit query...]** para definir los datos que desea recopilar entre los elementos de esta lista para crear el informe.
 
 ## Uso de un cubo {#using-a-cube}
 
@@ -64,7 +64,7 @@ Se puede seleccionar un cubo para definir la consulta.
 
 Los cubos permiten ampliar la capacidad de análisis y exploración de la base de datos al mismo tiempo que facilitan la configuración de los informes y las tablas para los usuarios finales: simplemente seleccione un cubo ya existente y completamente configurado y utilice sus cálculos, medidas y estadísticas. Para obtener más información sobre la creación de cubos, consulte [esta sección](../../reporting/using/about-cubes.md).
 
-Click the **[!UICONTROL Edit query...]** link and select the indicators that you want to display or use in your report.
+Haga clic en el vínculo **[!UICONTROL Edit query...]** y seleccione los indicadores que desee visualizar o utilizar en el informe.
 
 ![](assets/reporting_query_from_cube_edit_query.png)
 
@@ -76,7 +76,7 @@ Para evitar la ejecución de consultas en toda la base de datos, es necesario fi
 
 Puede seleccionar la opción **[!UICONTROL Filter automatically with the context]** para poder acceder al informe a través de un nodo específico del árbol, como una lista, un destinatario o una entrega.
 
-The **[!UICONTROL Filter with the folder]** option lets you specify a folder and take into account only its contents. Esto permite filtrar los datos del informe para mostrar solo los datos de una de las carpetas del árbol, como se muestra a continuación:
+La opción **[!UICONTROL Filter with the folder]** permite especificar una carpeta y tener en cuenta únicamente su contenido. Esto permite filtrar los datos del informe para mostrar solo los datos de una de las carpetas del árbol, como se muestra a continuación:
 
 ![](assets/reporting_control_folder.png)
 
