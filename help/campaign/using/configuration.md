@@ -11,11 +11,11 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 discoiquuid: ed4afa5e-c184-4c8e-a086-41d87b863190
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '740'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -66,18 +66,18 @@ En este ejemplo, integramos una tabla de compras en nuestro módulo de gestión 
 
 La tabla de registros de respuesta de un destinatario **[!UICONTROL nms:remaMatchRcp]** se amplía para agregar un vínculo al esquema de tabla de compras. En el ejemplo siguiente, la tabla de compra se llama **demo:purchase**.
 
-1. Via the Adobe Campaign explorer, select the **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Target mappings]**.
-1. Haga clic con el botón secundario en **Destinatario** y, a continuación, seleccione **[!UICONTROL Actions]** y **[!UICONTROL Modify the options of the targeting dimensions]**.
+1. Mediante el explorador de Adobe Campaign, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Target mappings]**.
+1. Haga clic con el botón secundario en **Destinatario** y luego seleccione **[!UICONTROL Actions]** y **[!UICONTROL Modify the options of the targeting dimensions]**.
 
    ![](assets/delivery_mapping1.png)
 
-1. You can personalize the **[!UICONTROL Extension namespace]** in the next window, then click **[!UICONTROL Next]**.
+1. Puede personalizar **[!UICONTROL Extension namespace]** en la siguiente ventana y, a continuación, haga clic en **[!UICONTROL Next]**.
 
    ![](assets/delivery_mapping2.png)
 
-1. In the **[!UICONTROL Response management]** category, make sure that the **[!UICONTROL Generate a storage schema for reactions]** box is checked.
+1. En la categoría **[!UICONTROL Response management]**, asegúrese de que la casilla **[!UICONTROL Generate a storage schema for reactions]** está seleccionada.
 
-   Then click **[!UICONTROL Define additional fields...]** to select the related transaction tables and add the desired fields to the extension of the nms:remaMatchRcp schema.
+   A continuación, haga clic en **[!UICONTROL Define additional fields...]** para seleccionar las tablas de transacción relacionadas y añada los campos deseados a la extensión del esquema nms:remaMatchRcp.
 
    ![](assets/delivery_mapping3.png)
 
@@ -132,7 +132,7 @@ En este ejemplo, integramos una tabla de compras en nuestro módulo de gestión 
    </srcSchema>
    ```
 
-* Modifying the hypothesis form in the **[!UICONTROL nms:remaHypothesis]** schema.
+* Modificar el formulario de hipótesis en el esquema **[!UICONTROL nms:remaHypothesis]**.
 
    De forma predeterminada, la lista de registros de respuestas se puede ver en los registros de destinatarios. Por lo tanto, deberá modificar el formulario de hipótesis para poder ver los nuevos registros de respuestas creados durante el paso anterior.
 
