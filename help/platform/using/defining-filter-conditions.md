@@ -11,9 +11,9 @@ audience: platform
 content-type: reference
 topic-tags: creating-queries
 discoiquuid: 8e575da0-c51a-4106-a826-3e1771e63649
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3232'
 ht-degree: 100%
 
@@ -506,7 +506,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>MemoContains</strong><br /> </td> 
    <td> Especifica si la nota contiene la cadena transferida como parámetro<br /> </td> 
-   <td> MemoContains(&lt;Memo&gt;, &lt;string&gt;)<br /></td> 
+   <td> MemoContains(&lt;memo&gt;, &lt;cadena&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>RPad</strong><br /> </td> 
