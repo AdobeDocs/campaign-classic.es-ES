@@ -11,11 +11,11 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 discoiquuid: a0e76d27-bedd-4f81-b4d2-1221444e670e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '979'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Puede restringir el campo de aplicación de una regla según sus necesidades (ex
 
 Puede configurar las reglas de tipología para que influyan solo sobre algunos envíos a los que están vinculados o ciertos destinatarios a los que va dirigidos una entrega.
 
-To define the application conditions of a rule, click the **[!UICONTROL Edit the rule application conditions...]** link in the **[!UICONTROL General]** tab.
+Para definir las condiciones de aplicación de una regla, en la pestaña **[!UICONTROL Edit the rule application conditions...]**, haga clic en la pestaña **[!UICONTROL General]**.
 
 A continuación, utilice el editor de consultas para definir las condiciones de filtrado. En el siguiente ejemplo, la regla de capacidad respeta solo los envíos con la palabra “oferta” en su etiqueta o los envíos creados antes del 1 de abril de 2013.
 
@@ -71,7 +71,7 @@ Para hacerlo, el campo **[!UICONTROL Frequency]** en la pestaña **[!UICONTROL G
 
 Para guardar los resultados más allá de este periodo, introduzca un valor mayor que 12 en el campo **[!UICONTROL Frequency]**: una vez transcurrido este periodo, todas las reglas se vuelven a aplicar.
 
-The **[!UICONTROL Re-apply the rule at the start of personalization]** option lets you apply the rule automatically during the personalization phase, including if the period stated in the **[!UICONTROL Frequency]** field is still valid.
+La opción **[!UICONTROL Re-apply the rule at the start of personalization]** permite aplicar la regla automáticamente durante la fase de personalización, incluso si el periodo indicado en el campo **[!UICONTROL Frequency]** aún es válido.
 
 ## Selección de la fase de la aplicación de regla {#selecting-the-rule-application-phase}
 
@@ -84,7 +84,7 @@ En el modo de operación estándar, las reglas se aplican en la siguiente secuen
 1. Reglas de control, si se aplican al principio del objetivo.
 1. Reglas de filtrado:
 
-   * Reglas de aplicación nativas para la calificación de direcciones: dirección definida / dirección no verificada / dirección en la calidad de dirección / dirección en cuarentena / dirección de lista de bloqueados.
+   * Reglas de aplicación nativas para la clasificación de direcciones: dirección definida/dirección no verificada/dirección en lista de bloqueados/dirección en cuarentena/calidad de la dirección.
    * Reglas de filtrado definidas por el usuario.
    * Deduplicación sobre la dirección o el identificador (se aplica si es necesario).
 
@@ -132,7 +132,7 @@ Los valores posibles son:
 
 ### Control del tráfico SMTP saliente {#control-outgoing-smtp-traffic}
 
-As an option, you can use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the delivery server (MTA) this affinity. Esto permite limitar el número de correos electrónicos para envíos específicos hacia equipos o direcciones de salida.
+Como opción, puede utilizar el campo **[!UICONTROL Managing affinities with IP addresses]** para relacionar envíos al servidor de entrega (MTA) con esta afinidad. Esto permite limitar el número de correos electrónicos para envíos específicos hacia equipos o direcciones de salida.
 
 ![](assets/campaign_opt_select_ip_affinity.png)
 
