@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 285cf8c6521696a0a94f6ffd8fc1eb148977836d
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 72%
+ht-degree: 86%
 
 ---
 
@@ -97,14 +97,14 @@ El menú **[!UICONTROL Help > About...]** le permite obtener acceso a la siguien
 
 Siempre que se ponga en contacto con el equipo de atención al cliente de Adobe, debe proporcionar el número de versión y de compilación de la consola de cliente y el servidor de aplicaciones de Adobe Campaign.
 
-Si está ejecutando la versión [de](../../rn/using/gold-standard.md)Campaña Gold Standard, también debe compartir los caracteres SHA/1 que se muestran en el **[!UICONTROL About]** cuadro. Como ejemplo, para la versión **Gold** Standard 10, el número de compilación mostrará la **compilación 9032@efd8a94**, como se muestra a continuación:
+Si está ejecutando la versión de [Campaign Gold Standard](../../rn/using/gold-standard.md) también debe compartir los caracteres SHA/1 que se muestran en la casilla **[!UICONTROL About]**. Como ejemplo, para la versión Gold **Standard 10**, el número de compilación mostrará la **compilación 9032@efd8a94**, como se muestra a continuación:
 
 ![](assets/about-acc-gs.png)
 
-Learn more about Gold Standard [in this article](https://helpx.adobe.com/es/campaign/kb/gold-standard.html).
+Consulte [este artículo](https://helpx.adobe.com/es/campaign/kb/gold-standard.html) para obtener más información sobre Gold Standard.
 
 **Temas relacionados**:
 
 * [Opciones de ayuda y asistencia técnica de Adobe Campaign](https://helpx.adobe.com/es/campaign/kb/ac-support.html#acc-support)
 * [Distribución de software de Adobe](https://docs.adobe.com/content/help/es-ES/experience-cloud/software-distribution/home.html)
-* [Sesiones de expertos y asistencia técnica de Adobe Experience Cloud](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+* [Sesiones de expertos y asistencia técnica de Adobe Experience Cloud](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
