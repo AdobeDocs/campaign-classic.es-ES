@@ -11,11 +11,11 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 discoiquuid: 749a084e-69ee-46b4-b09b-cb91bb1da3cd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1155'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Una vez definidos el objetivo y los datos adicionales, es posible guardarlo como
 
 Para obtener la audiencia final y sus datos adicionales:
 
-1. Create a new workflow from **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]**.
+1. Cree un nuevo de flujo de trabajo desde **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]**.
 1. Añada una actividad de **[!UICONTROL Query]** y seleccione los destinatarios a los que desea enviar el correo electrónico final. Por ejemplo, todos los destinatarios de entre 18 y 30 años que viven en Francia.
 
    ![](assets/acs_connect_query1.png)
@@ -72,11 +72,11 @@ Para obtener la audiencia final y sus datos adicionales:
 
    ![](assets/acs_connect_query3.png)
 
-1. Elija **[!UICONTROL Data linked to the filtering dimension]** y, a continuación, seleccione el **[!UICONTROL Recipient delivery logs]** nodo y haga clic en **[!UICONTROL Next]**.
+1. Elija **[!UICONTROL Data linked to the filtering dimension]** y luego seleccione el nodo **[!UICONTROL Recipient delivery logs]** y haga clic en **[!UICONTROL Next]**.
 
    ![](assets/acs_connect_query4.png)
 
-1. Seleccione **[!UICONTROL Aggregates]** en el **[!UICONTROL Data collected]** campo y haga clic en **[!UICONTROL Next]**.
+1. Seleccione **[!UICONTROL Aggregates]** en el campo **[!UICONTROL Data collected]** y haga clic en **[!UICONTROL Next]**.
 
    ![](assets/acs_connect_query5.png)
 
@@ -87,11 +87,11 @@ Para obtener la audiencia final y sus datos adicionales:
 1. Defina las columnas de salida. En este caso, la única columna necesaria es la del número de envíos. Para ello:
 
    * En la parte derecha de la ventana, seleccione **[!UICONTROL Add]**.
-   * From the **[!UICONTROL Select field]** window, click **[!UICONTROL Advanced selection]**.
-   * Select **[!UICONTROL Aggregate]**, then **[!UICONTROL Count]**. Marque la **[!UICONTROL Distinct]** opción y haga clic en **[!UICONTROL Next]**.
+   * En la ventana **[!UICONTROL Select field]**, haga clic en **[!UICONTROL Advanced selection]**.
+   * Seleccione **[!UICONTROL Aggregate]**, luego **[!UICONTROL Count]**. Marque la opción **[!UICONTROL Distinct]** y haga clic en **[!UICONTROL Next]**.
    * En la lista de campos, seleccione el campo utilizado para la función **Recuento**. Seleccione un campo que se rellene siempre, por ejemplo, el campo **[!UICONTROL Primary key]**, y haga clic en **[!UICONTROL Finish]**.
    * Cambie la expresión en la columna **[!UICONTROL Alias]**. Este alias le permite recuperar fácilmente la columna añadida en la entrega final. Por ejemplo, **NBdeliveries**.
-   * Click **[!UICONTROL Finish]** and save the **[!UICONTROL Query]** activity configuration.
+   * Haga clic en **[!UICONTROL Finish]** y guarde la configuración de la actividad **[!UICONTROL Query]**.
 
    ![](assets/acs_connect_query7.png)
 
@@ -105,7 +105,7 @@ Una vez definido el público objetivo, puede compartirlo con ACS a través de un
 
    Especifique la carpeta en la que desea guardar la lista en Campaign v7. Las listas están sujetas a la asignación de carpetas definida durante la implementación, lo cual puede afectar a su visibilidad una vez compartidas en Campaign Standard. Consulte la sección [Conversión de derechos](../../integrations/using/acs-connector-principles-and-data-cycle.md#rights-conversion).
 
-1. Make sure the **[!UICONTROL Share with ACS]** option is checked. Está activada de forma predeterminada.
+1. Asegúrese de que la opción **[!UICONTROL Share with ACS]** esté seleccionada. Está activada de forma predeterminada.
 
    ![](assets/acs_connect_listupdate1.png)
 
@@ -113,7 +113,7 @@ Una vez definido el público objetivo, puede compartirlo con ACS a través de un
 
    El objetivo y sus datos adicionales se guardan en una lista de Campaign v7 y se comparten inmediatamente como una audiencia de lista en Campaign Standard. Solo los perfiles que se hayan duplicado se comparten con ACS.
 
-Si se produce un error en la actividad **[!UICONTROL List update]**, significa que la sincronización con Campaign Standard puede haber fallado. To be able to see more details about what went wrong, go to **[!UICONTROL Administration]** > **[!UICONTROL ACS Connector]** > **[!UICONTROL Process]** > **[!UICONTROL Diagnosis]**. Esta carpeta contiene los flujos de trabajo de sincronización activados por la ejecución de la actividad **[!UICONTROL List update]**. Consulte la sección [Solución de problemas del conector ACS](../../integrations/using/troubleshooting-the-acs-connector.md).
+Si se produce un error en la actividad **[!UICONTROL List update]**, significa que la sincronización con Campaign Standard puede haber fallado. Para poder ver más detalles sobre qué ha fallado, vaya a **[!UICONTROL Administration]** > **[!UICONTROL ACS Connector]** > **[!UICONTROL Process]** > **[!UICONTROL Diagnosis]**. Esta carpeta contiene los flujos de trabajo de sincronización activados por la ejecución de la actividad **[!UICONTROL List update]**. Consulte la sección [Solución de problemas del conector ACS](../../integrations/using/troubleshooting-the-acs-connector.md).
 
 ## Recuperación de los datos en Campaign Standard y uso en una entrega {#retrieve-the-data-in-campaign-standard-and-use-it-in-a-delivery}
 
@@ -123,14 +123,14 @@ Una vez que el flujo de trabajo de objetivo se ejecuta en Campaign v7, puede enc
 
 Mediante la creación de un flujo de trabajo de entrega en Campaign Standard, es posible utilizar esta audiencia, así como los datos adicionales que contiene, en una entrega.
 
-1. Create a new workflow from the **[!UICONTROL Marketing activities]** menu.
+1. Cree un nuevo flujo de trabajo a través del menú **[!UICONTROL Marketing activities]**.
 1. Añada una actividad **[!UICONTROL Read audience]** y seleccione la audiencia que ha compartido previamente desde Campaign v7.
 
    Esta actividad se utiliza para recuperar los datos de la audiencia seleccionada. También puede aplicar un **[!UICONTROL Source Filtering]** adicional si lo necesita utilizando la pestaña correspondiente de esta actividad.
 
 1. Añada una actividad **[!UICONTROL Email delivery]** y configúrela como cualquier otra [actividad de entrega de correo electrónico](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html).
 1. Abra el contenido de la entrega.
-1. Añada un campo personalizado. From the popup, locate the **[!UICONTROL Additional data (targetData)]** node. Este nodo contiene los datos adicionales de la audiencia que se calcularon en el flujo de trabajo inicial de objetivo. Puede utilizarlos como cualquier otro campo personalizado.
+1. Añada un campo personalizado. En la ventana emergente, busque el nodo **[!UICONTROL Additional data (targetData)]**. Este nodo contiene los datos adicionales de la audiencia que se calcularon en el flujo de trabajo inicial de objetivo. Puede utilizarlos como cualquier otro campo personalizado.
 
    Para este ejemplo, el dato adicional proveniente del flujo de trabajo de objetivo original es el número de envíos a cada destinatario en los últimos 365 días. El alias de NBdeliveries especificado en el flujo de trabajo de objetivo se puede ver aquí.
 
