@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 940bec7e-e3f0-4251-b7fe-72bf188743a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -29,12 +29,12 @@ Para configurarlo, edite la actividad e introduzca la etiqueta, luego seleccione
 ![](assets/edit_service_inscription.png)
 
 1. Introduzca la etiqueta de la actividad.
-1. Select **[!UICONTROL Generate an outbound transition]** if you wish to create a transition at the end of the execution.
+1. Seleccione **[!UICONTROL Generate an outbound transition]** si desea crear una transición al final de la ejecución.
 
    Por lo general, la suscripción de un objetivo a un servicio de información marca el final del flujo de trabajo de objetivos, por lo que la opción no está activada de forma predeterminada.
 
-1. Click **[!UICONTROL Subscription]** or **[!UICONTROL Unsubscription]** if you wish to subscribe or unsubscribe the specified population to or from the selected information service.
-1. Select **[!UICONTROL Send a confirmation message]** to notify recipients that they are subscribed to or unsubscribed from a service.
+1. Haga clic en **[!UICONTROL Subscription]** o en **[!UICONTROL Unsubscription]** si desea suscribirse o darse de baja al servicio de información seleccionado.
+1. Seleccione **[!UICONTROL Send a confirmation message]** para notificar a los destinatarios que se han suscrito o dado de baja de un servicio.
 
    El contenido de este mensaje se especifica en la plantilla de envío asociada al servicio de información. Para obtener más información, consulte [esta sección](../../delivery/using/managing-subscriptions.md).
 
@@ -59,16 +59,16 @@ Para esto, también debe excluir los destinatarios que ya se hayan suscrito.
 1. Agregue una actividad de intersección para hacer referencia a los distintos resultados.
 1. Si lo desea, inserte una actualización de la lista para mantener la lista de suscriptores actualizada.
 1. Inserte una actividad de servicios de suscripción y haga doble clic en esta para configurarla.
-1. Enter the activity label and select **[!UICONTROL Subscription]**.
+1. Introduzca la etiqueta de actividad y seleccione **[!UICONTROL Subscription]**.
 
-   If you like, you can inform recipients of their newsletter subscription by checking the **[!UICONTROL Send a confirmation message]** box.
+   Si lo desea, puede informar a los destinatarios de su suscripción al boletín informativo marcando la casilla **[!UICONTROL Send a confirmation message]**.
 
 1. Seleccione la carpeta en la que se encuentra el boletín informativo y selecciónelo en la lista que aparece.
-1. Leave the **[!UICONTROL Generate outbound transition]** unchecked so that this activity will mark the end of the workflow, then click **[!UICONTROL Ok]**.
+1. Deje la casilla **[!UICONTROL Generate outbound transition]** sin seleccionar para que esta actividad marque el final del flujo de trabajo y haga clic en **[!UICONTROL Ok]**.
 
 Durante la ejecución del flujo de trabajo, los destinatarios que correspondan a las tres consultas se agregan a la lista y se suscriben al boletín informativo.
 
-You can check that the subscription was successful by going to the **[!UICONTROL Subscription]** tab for your recipients.
+Puede comprobar que la suscripción se haya realizado correctamente desde la pestaña **[!UICONTROL Subscription]** correspondiente a sus destinatarios.
 
 ## Parámetros de entrada {#input-parameters}
 
