@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 discoiquuid: 1d3cc650-3c79-4a1d-b2bc-e7eb6d59d2f1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1102'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Por último, para crear una cuenta externa en Adobe Campaign:
 
    ![](assets/line_config_2.png)
 
-   * **Alias** de canal: se proporciona a través de su cuenta LINE en la ficha **[!UICONTROL Channels]** > **[!UICONTROL Technical configuration]** .
+   * **Channel Alias**: se proporciona a través de su cuenta LINE en la pestaña **[!UICONTROL Channels]** > **[!UICONTROL Technical configuration]** .
    * **ID de canal**: se proporciona a través de su cuenta LINE en la pestaña **Canales**, **Panel de información básica**.
    * **Clave secreta del canal**: se proporciona a través de su cuenta LINE en la pestaña **Canales**, **Panel de información básica**.
    * **Access token**: se proporciona a través de su cuenta LINE en el portal del desarrollador o haciendo clic en el botón **[!UICONTROL Get access token]**.
@@ -79,7 +79,7 @@ Por último, para crear una cuenta externa en Adobe Campaign:
 
 >[!NOTE]
 >
->Debe comprobar que se han iniciado los **[!UICONTROL LINE access token update (updateLineAccessToken)]** y **[!UICONTROL Delete blocked LINE users (deleteBlockedLineUsers)]** flujos de trabajo. From the explorer, click **[!UICONTROL Administration > Production > Technical workflows > LINE workflows]** to check the status of the workflows.
+>Debe comprobar que se han iniciado los flujos de trabajo **[!UICONTROL LINE access token update (updateLineAccessToken)]** y **[!UICONTROL Delete blocked LINE users (deleteBlockedLineUsers)]**. Desde el navegador, haga clic en **[!UICONTROL Administration > Production > Technical workflows > LINE workflows]** para comprobar el estado de los flujos de trabajo.
 
 ## Creación de la entrega {#creating-the-delivery}
 
@@ -89,8 +89,8 @@ Para crear una entrega de **LINE**, debe seguir estos pasos:
 >
 >En [esta sección](../../delivery/using/steps-about-delivery-creation-steps.md) se exponen conceptos globales sobre la creación de envíos.
 
-1. En la **[!UICONTROL Campaigns]** ficha, seleccione **[!UICONTROL Deliveries]** y haga clic en el **[!UICONTROL Create]** botón.
-1. In the window that appears, select **[!UICONTROL LINE V2 delivery]** delivery template.
+1. En la pestaña **[!UICONTROL Campaigns]**, seleccione **[!UICONTROL Deliveries]** y haga clic en el botón **[!UICONTROL Create]**.
+1. En la ventana que aparece, seleccione la plantilla de entrega **[!UICONTROL LINE V2 delivery]**
 
    ![](assets/line_message_01.png)
 
@@ -148,7 +148,7 @@ Puede utilizar:
 
    A continuación, debe añadir el texto alternativo que aparece en el dispositivo móvil del destinatario.
 
-* and **[!UICONTROL Links]**.
+* y **[!UICONTROL Links]**.
 
    ![](assets/line_message_05.png)
 
@@ -160,7 +160,7 @@ Puede utilizar:
 
 ### Recomendaciones {#recommendations}
 
-* Cuando realice una entrega de LINE a un nuevo destinatario por primera vez, debe añadir a la entrega el mensaje oficial de LINE sobre los términos de uso y el consentimiento. El mensaje oficial está disponible en el siguiente vínculo: [https://terms.line.me/OA_privacy/](https://terms.line.me/OA_privacy/sp?lang=fr).
+* Cuando realice una entrega de LINE a un nuevo destinatario por primera vez, debe añadir a la entrega el mensaje oficial de LINE sobre las condiciones de uso y el consentimiento. El mensaje oficial está disponible en el siguiente vínculo: [https://terms.line.me/OA_privacy/](https://terms.line.me/OA_privacy/sp?lang=fr).
 
 ## Selección de la población objetivo {#selecting-the-target-population}
 
@@ -176,11 +176,11 @@ Realizar envíos de LINE funciona de forma similar a una entrega de correo elect
 
 ## Acceso a informes {#accessing-reports}
 
-You can view reports on the LINE service by clicking **[!UICONTROL Profiles and Targets > Services and Subscriptions > LINE]** in the explorer. A continuación, haga clic en el icono **[!UICONTROL Reports]** del servicio LINE.
+En el explorador, puede ver los informes del servicio LINE haciendo clic en **[!UICONTROL Profiles and Targets > Services and Subscriptions > LINE]**. A continuación, haga clic en el icono **[!UICONTROL Reports]** del servicio LINE.
 
 ![](assets/line_reports.png)
 
-Para ver los informes sobre los envíos de LINE, haga clic en **[!UICONTROL Campaign Management > Deliveries]** y seleccione la entrega que desee. Los informes de seguimiento indican la tasa de seguimiento de los vínculos. LINE no tiene en cuenta la tasa de apertura.
+Para ver los informes sobre los envíos de LINE, haga clic en **[!UICONTROL Campaign Management > Deliveries]** y seleccione la entrega que desee. Los informes de seguimiento indican la tasa de clics. LINE no tiene en cuenta la tasa de apertura.
 
 ![](assets/line_reports_01.png)
 
@@ -192,7 +192,7 @@ En este ejemplo, se crea y configura un mensaje de texto y una imagen que contie
 
    ![](assets/line_usecase.png)
 
-1. Select the **[!UICONTROL LINE V2 delivery]** delivery template and name your delivery.
+1. Seleccione la plantilla de entrega **[!UICONTROL LINE V2 delivery]** y asigne un nombre a la entrega.
 
    ![](assets/line_usecase_01.png)
 
@@ -200,7 +200,7 @@ En este ejemplo, se crea y configura un mensaje de texto y una imagen que contie
 
    ![](assets/line_usecase_02.png)
 
-1. Click **[!UICONTROL Add]** to create your message and select the **[!UICONTROL Message type]**.
+1. Haga clic en **[!UICONTROL Add]** para crear el mensaje y seleccione **[!UICONTROL Message type]**.
 
    En primer lugar queremos crear un mensaje de texto.
 
@@ -210,7 +210,7 @@ En este ejemplo, se crea y configura un mensaje de texto y una imagen que contie
 
    ![](assets/line_usecase_05.png)
 
-1. Follow the same procedure to add an image, selecting **[!UICONTROL Image and links]** in the **[!UICONTROL Message type]** drop-down.
+1. Siga el mismo procedimiento para añadir una imagen: en la lista desplegable de **[!UICONTROL Image and links]**, seleccione **[!UICONTROL Message type]**.
 
    Añada la URL de imagen.
 
