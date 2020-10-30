@@ -9,11 +9,11 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '490'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Mantener la reputación de su dominio y dirección IP es esencial al configurar 
 
 * Comenzar a enviar correos electrónicos es un paso importante porque la plataforma no tiene historial de uso ni reputación cuando las direcciones IP de envío nunca se han utilizado para este fin.
 
-* Los ISP sospechan naturalmente de las direcciones IP que nunca se han utilizado para enviar correos electrónicos y que de repente comienzan a enviar grandes volúmenes de tráfico de correo electrónico. De hecho, los remitentes de spam suelen utilizar direcciones IP &quot;desconocidas&quot; (direcciones que nunca han estado en lista de bloqueados) para enviar el mayor número posible de mensajes antes de detectarlos.
+* Los ISP sospechan naturalmente de las direcciones IP que nunca se han utilizado para enviar correos electrónicos y que de repente comienzan a enviar grandes volúmenes de tráfico de correo electrónico. De hecho, los remitentes de correo no deseado generalmente utilizan direcciones IP &quot;desconocidas&quot; (direcciones que nunca quedaron en la lista de bloqueados) para enviar la mayor cantidad posible de mensajes antes de la detección.
 
 * No se puede esperar alcanzar la velocidad operativa en términos de salida al inicio de la fase de producción. Además, no debería intentar enviar mensajes a este ritmo, ya que podría llevar a los ISP a bloquear las direcciones de envío y comprometer seriamente el resto de la fase de inicio.
 
@@ -43,5 +43,5 @@ El inicio de una plataforma suele ocurrir cuando se utiliza una lista de direcci
 * **Preste mucha atención a los informes de envío**. Los indicadores de error altos pueden significar que una configuración técnica está mal configurada. Para obtener más información sobre esto, consulte [Monitorización de un envío](../../delivery/using/monitoring-a-delivery.md).
 
 **Temas relacionados**:
-* [Aumente su reputación de correo electrónico con el calentamiento de IP](https://helpx.adobe.com/campaign/kb/increase-email-rep-ip-warming.html)
-* [Todo acerca de las trampas de correo no deseado](https://helpx.adobe.com/campaign/kb/spam-traps.html)
+* [Aumente su reputación de correo electrónico con el calentamiento de IP](https://helpx.adobe.com/es/campaign/kb/increase-email-rep-ip-warming.html)
+* [Todo acerca de las trampas de correo no deseado](https://helpx.adobe.com/es/campaign/kb/spam-traps.html)
