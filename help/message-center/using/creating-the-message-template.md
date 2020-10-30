@@ -11,18 +11,18 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 discoiquuid: 2c2a7196-9183-46b1-b1e2-4a07a53e93b4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '133'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Creación de la plantilla del mensaje{#creating-the-message-template}
 
-1. Go to the **[!UICONTROL Message Center >Transactional message templates]** folder in the Adobe Campaign tree.
+1. Vaya a la carpeta **[!UICONTROL Message Center >Transactional message templates]** en el árbol de Adobe Campaign.
 1. En la lista de las plantillas de mensajes transaccionales, haga clic con el botón derecho y seleccione **[!UICONTROL New]** en el menú desplegable o haga clic en el botón **[!UICONTROL New]** situado sobre la lista de las plantillas de mensajes transaccionales.
 
    ![](assets/messagecenter_create_model_001.png)
