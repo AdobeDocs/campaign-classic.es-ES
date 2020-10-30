@@ -9,11 +9,11 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: d41658ab-ee79-4a5c-a165-d94b81eb2b33
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ SpamAssassin aprovecha diversas técnicas de detección de correo no deseado par
 * Detección de correo no deseado basado en DNS y en suma de comprobación incorrecta
 * Filtrado bayesiano
 * Programas externos
-* listas de bloqueados
+* Listas de bloqueados
 * Bases de datos en línea
 
 >[!NOTE]
@@ -57,9 +57,9 @@ Para obtener más información sobre la creación y configuración de los servic
 
    ![](assets/s_tn_del_preview_spamassassin_ko.png)
 
-1. Click the **[!UICONTROL More...]** link next to the warning.
+1. Haga clic en el vínculo **[!UICONTROL More...]** situado junto a la advertencia.
 1. Seleccione la pestaña **[!UICONTROL Anti-spam checking]** .
-1. Go to the **[!UICONTROL Points / Rule / Description]** section to view the reasons for this risk.
+1. Vaya a la sección **[!UICONTROL Points / Rule / Description]** para ver las causas de este riesgo.
 
    ![](assets/s_tn_del_msg_spamassassin_ko.png)
 
