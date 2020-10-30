@@ -11,11 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: creating-queries
 discoiquuid: d538f489-f1ae-4682-9c21-d0300bd42b26
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '846'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -46,23 +46,23 @@ Seleccione la tabla que contiene los datos que desea consultar en la ventana **[
 
 En la ventana **[!UICONTROL Data to extract]**, seleccione los datos que desea mostrar: estos campos conforman las columnas de salida.
 
-Por ejemplo, seleccione **[!UICONTROL Age]**, **[!UICONTROL Primary key]** y **[!UICONTROL Email domain]****[!UICONTROL City]**. Los resultados se organizan en función de esta selección. Utilice las flechas azules a la derecha de la ventana para cambiar el orden de las columnas.
+Por ejemplo, seleccione **[!UICONTROL Age]**, **[!UICONTROL Primary key]**, **[!UICONTROL Email domain]** y **[!UICONTROL City]**. Los resultados se organizan en función de esta selección. Utilice las flechas azules a la derecha de la ventana para cambiar el orden de las columnas.
 
 ![](assets/query_editor_nveau_01.png)
 
-Puede editar una expresión insertando una fórmula en ella o ejecutando un proceso en una función de acumulación. To do this, click the **[!UICONTROL Expression]** column field, then select **[!UICONTROL Edit expression]**.
+Puede editar una expresión insertando una fórmula en ella o ejecutando un proceso en una función de acumulación. Para ello, haga clic en el campo de columna **[!UICONTROL Expression]** y seleccione **[!UICONTROL Edit expression]**.
 
 ![](assets/query_editor_nveau_97.png)
 
-It is possible to group output column data: to do this, check **[!UICONTROL Yes]** in the **[!UICONTROL Group]** column of the **[!UICONTROL Data to extract]** window. Esta función genera un resultado en torno al eje de agrupación activado. En [esta sección](../../workflow/using/querying-delivery-information.md) puede consultar un ejemplo de consulta con agrupación.
+Es posible agrupar los datos de la columna de salida: para ello, vaya a la columna **[!UICONTROL Yes]** en la ventana **[!UICONTROL Group]** y marque **[!UICONTROL Data to extract]**. Esta función genera un resultado en torno al eje de agrupación activado. En [esta sección](../../workflow/using/querying-delivery-information.md) puede consultar un ejemplo de consulta con agrupación.
 
 ![](assets/query_editor_nveau_56.png)
 
-* The **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** function lets you &quot;group by&quot; and select what has been grouped (&quot;having&quot;). Esta función se aplica a todos los campos de la columna de salida. Por ejemplo, esta opción permite agrupar todas las opciones de una columna de salida y recuperar un tipo específico de información, como los destinatarios entre 35 y 50.
+* La función **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** permite &quot;agrupar por&quot; y seleccionar lo que se ha agrupado. Esta función se aplica a todos los campos de la columna de salida. Por ejemplo, esta opción permite agrupar todas las opciones de una columna de salida y recuperar un tipo específico de información, como los destinatarios entre 35 y 50.
 
    Para obtener más información, consulte [esta sección](../../workflow/using/querying-using-grouping-management.md).
 
-* The **[!UICONTROL Remove duplicate rows (DISTINCT)]** function lets you deduplicate identical results obtained in the output column. Por ejemplo, si realiza un censo seleccionando los campos Apellido, Nombre y Correo electrónico en la columna de salida, se eliminan los que tengan datos idénticos, ya que esto significa que el mismo contacto se ha introducido varias veces en la base de datos: solo se tiene en cuenta un resultado.
+* La función **[!UICONTROL Remove duplicate rows (DISTINCT)]** permite deduplicar resultados idénticos obtenidos en la columna de salida. Por ejemplo, si realiza un censo seleccionando los campos Apellido, Nombre y Correo electrónico en la columna de salida, se eliminan los que tengan datos idénticos, ya que esto significa que el mismo contacto se ha introducido varias veces en la base de datos: solo se tiene en cuenta un resultado.
 
 ## Paso 3: Orden de los datos {#step-3---sort-data}
 
@@ -134,7 +134,7 @@ La columna **[!UICONTROL Transformation]** permite cambiar una etiqueta de colum
 
 ## Paso 6: Previsualización de datos {#step-6---preview-data}
 
-The **[!UICONTROL Data preview]** window is the last stage. Click **[!UICONTROL Start the preview of the data]** to get your query result. Está disponible en columnas o en formato XML. Click the **[!UICONTROL Generated SQL queries]** tab to view the query in SQL format.
+La ventana **[!UICONTROL Data preview]** es el último paso. Haga clic en **[!UICONTROL Start the preview of the data]** para obtener el resultado de la consulta. Está disponible en columnas o en formato XML. Haga clic en la pestaña **[!UICONTROL Generated SQL queries]** para ver la consulta en formato SQL.
 
 En este ejemplo, los datos se ordenan de forma ascendente según la edad del destinatario.
 
@@ -142,5 +142,5 @@ En este ejemplo, los datos se ordenan de forma ascendente según la edad del des
 
 >[!NOTE]
 >
->De forma predeterminada, solo se muestran las 200 primeras líneas en la ventana **[!UICONTROL Data preview]**. To change this, enter a number in the **[!UICONTROL Lines to display]** box and click **[!UICONTROL Start the preview of the data]**.
+>De forma predeterminada, solo se muestran las 200 primeras líneas en la ventana **[!UICONTROL Data preview]**. Para cambiar esto, introduzca un número en el cuadro **[!UICONTROL Lines to display]** y haga clic en **[!UICONTROL Start the preview of the data]**.
 
