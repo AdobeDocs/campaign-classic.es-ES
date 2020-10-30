@@ -11,11 +11,11 @@ audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 discoiquuid: 2dc278ce-477c-493d-8abb-8bbdf2e988a5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '944'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Las siguientes limitaciones son restricciones inherentes a Twitter.
 
 ### Creación de la entrega {#creating-the-delivery}
 
-Create a new delivery based on the **[!UICONTROL Tweet (twitter)]** delivery template.
+Cree una nueva entrega basada en la plantilla de envíos de **[!UICONTROL Tweet (twitter)]**.
 
 ![](assets/social_twitter_delivery_001.png)
 
@@ -80,7 +80,7 @@ Escriba el contenido del tweet en la pestaña **[!UICONTROL Content]**.
 La pestaña **[!UICONTROL Preview]** permite controlar la renderización del tweet.
 
 1. Seleccione la pestaña **[!UICONTROL Preview]**.
-1. Click the **[!UICONTROL Test personalization]** drop-down menu and select **[!UICONTROL Service]**.
+1. Haga clic en el menú desplegable **[!UICONTROL Test personalization]** y seleccione **[!UICONTROL Service]**.
 1. En el campo **[!UICONTROL Folder]**, seleccione la carpeta de servicio que contiene su cuenta de Twitter.
 1. Elija la cuenta de Twitter con la que desea probar la vista previa.
 
@@ -113,16 +113,16 @@ La entrega de la prueba es idéntico a los envíos por correo electrónico. Cons
 ### Envío de mensajes {#sending-the-message}
 
 1. Una vez aprobado el contenido, haga clic en el botón **[!UICONTROL Send]**.
-1. Seleccione **[!UICONTROL Deliver as soon as possible]** y haga clic en el **[!UICONTROL Analyze]** botón.
+1. Seleccione **[!UICONTROL Deliver as soon as possible]** y haga clic en el botón **[!UICONTROL Analyze]**.
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Postpone the delivery]** option lets you postpone delivery to a later date.
+   >La opción **[!UICONTROL Postpone the delivery]** permite posponer la entrega a una fecha posterior.
 
    ![](assets/social_twitter_delivery_012.png)
 
 1. Una vez finalizado el análisis, compruebe el resultado.
-1. Click **[!UICONTROL Confirm delivery]**, then click **[!UICONTROL Yes]**.
+1. Haga clic en **[!UICONTROL Confirm delivery]**, luego en **[!UICONTROL Yes]**.
 
 ![](assets/social_facebook_delivery_016.png)
 
@@ -130,7 +130,7 @@ La entrega de la prueba es idéntico a los envíos por correo electrónico. Cons
 
 ### Principio de funcionamiento {#operating-principle}
 
-The **[!UICONTROL Synchronize Twitter accounts]** workflow (refer to [Synchronizing Twitter accounts](../../social/using/configuring-publishing-on-twitter.md#synchronizing-twitter-accounts)) recovers the list of Twitter subscribers so that you can send them direct messages. Los seguidores recuperados se almacenan en una tabla específica: la tabla de visitantes. To display the list of Twitter followers, go to the **[!UICONTROL Profiles and Targets > Visitors]** node.
+El flujo de trabajo **[!UICONTROL Synchronize Twitter accounts]** (consulte [Sincronización de cuentas de Twitter](../../social/using/configuring-publishing-on-twitter.md#synchronizing-twitter-accounts)) recupera la lista de suscriptores de Twitter para que pueda enviarles mensajes directos. Los seguidores recuperados se almacenan en una tabla específica: la tabla de visitantes. Para mostrar la lista de seguidores de Twitter, vaya al nodo **[!UICONTROL Profiles and Targets > Visitors]**.
 
 ![](assets/social_twitter_visitors_001.png)
 
@@ -141,12 +141,12 @@ The **[!UICONTROL Synchronize Twitter accounts]** workflow (refer to [Synchroniz
 Para cada seguidor, Adobe Campaign recupera la siguiente información:
 
 * **[!UICONTROL Origin]**: nombre de la red social (**Twitter** en este caso)
-* **[!UICONTROL External ID]**:: identificador de usuario
-* **[!UICONTROL User name]**:: nombre de cuenta del usuario
-* **[!UICONTROL Full name]**:: nombre del usuario
-* **[!UICONTROL Language]**:: idioma del usuario
-* **[!UICONTROL Number of friends]**:: número de seguidores
-* **[!UICONTROL Time zone]**:: zona horaria del usuario
+* **[!UICONTROL External ID]**: identificador de usuario
+* **[!UICONTROL User name]**: nombre de cuenta del usuario
+* **[!UICONTROL Full name]**: nombre del usuario
+* **[!UICONTROL Language]**: idioma del usuario
+* **[!UICONTROL Number of friends]**: número de seguidores
+* **[!UICONTROL Time zone]**: zona horaria del usuario
 * **[!UICONTROL Verified]**: este campo indica si el usuario tiene una cuenta de Twitter verificada
 
 ### Limitaciones {#limitations-1}
@@ -159,7 +159,7 @@ Las siguientes limitaciones son restricciones inherentes a Twitter.
 
 ### Creación de la entrega {#creating-the-delivery-}
 
-Create a new delivery based on the **[!UICONTROL Tweet (Direct Message)]** delivery template.
+Cree una nueva entrega basada en la plantilla de envíos de **[!UICONTROL Tweet (Direct Message)]**.
 
 ![](assets/social_twitter_delivery_010.png)
 
@@ -191,13 +191,13 @@ Seleccione los seguidores a los que desee enviar el mensaje directo.
 
 ### Selección del objetivo de la prueba {#selecting-the-target-of-the-proof-1}
 
-The **[!UICONTROL Target of the proofs]** tab lets you select the follower who will receive the proof of your direct message. El proceso de selección es el mismo que para el objetivo principal. Consulte [Selección del objetivo principal](#selecting-the-main-target)
+La pestaña **[!UICONTROL Target of the proofs]** le permite seleccionar el seguidor que recibe la prueba del mensaje directo. El proceso de selección es el mismo que para el objetivo principal. Consulte [Selección del objetivo principal](#selecting-the-main-target)
 
 ![](assets/social_twitter_delivery_020.png)
 
 >[!NOTE]
 >
->If you want to send all your direct message proofs to the same Twitter follower, you can save the proof target in the **[!UICONTROL Tweet (Direct Message)]** delivery template, accessed via the **[!UICONTROL Resources > Templates > Delivery templates]** node. El objetivo de prueba se especifica de forma predeterminada para cada nueva entrega.
+>Si desea enviar todas las pruebas de los mensajes directos al mismo seguidor de Twitter, puede guardar el objetivo de prueba en la plantilla de entrega de **[!UICONTROL Tweet (Direct Message)]**, a la que se accede mediante el nodo **[!UICONTROL Resources > Templates > Delivery templates]**. El objetivo de prueba se especifica de forma predeterminada para cada nueva entrega.
 
 ### Definición del contenido del mensaje {#defining-message-content-}
 
