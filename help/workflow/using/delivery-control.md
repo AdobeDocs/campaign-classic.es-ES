@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 0b5ee05c-4b96-425a-ab0f-60b930de21bd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -44,4 +44,4 @@ Estas son las opciones disponibles:
 
 * deliveryId
 
-Delivery identifier, if the selected action is **[!UICONTROL Specified in the transition]**.
+Identificador de envío, si la acción seleccionada es **[!UICONTROL Specified in the transition]**.
