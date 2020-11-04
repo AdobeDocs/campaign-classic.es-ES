@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 9cff35424b389d0cc6adb8ce0ec81d3258ffb6ba
+source-git-commit: 281eb6b0f84e01d25ac9c3542dc2ee950d4879e7
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 87%
+source-wordcount: '543'
+ht-degree: 85%
 
 ---
 
@@ -195,9 +195,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <tr>
 <td>MS Dynamics</td>
 <td>
-<p>API de Soap: On-Premise: 2007, 2015, 2016</p>
-<p>API de Soap: En línea: 2015, 2016</p>
-<p>API web: On-Premise y en línea: 365, 2016, 2016 Actualización 1</p>
+<p>API web: Dynamics 365 In situ y en línea</p>
 </td>
 </tr>
 </tbody>
