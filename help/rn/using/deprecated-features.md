@@ -10,10 +10,10 @@ topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 87c2ee675b77be0f24a2028e7dbbf0bd1b91d46e
+source-git-commit: 281eb6b0f84e01d25ac9c3542dc2ee950d4879e7
 workflow-type: tm+mt
-source-wordcount: '1607'
-ht-degree: 86%
+source-wordcount: '1621'
+ht-degree: 85%
 
 ---
 
@@ -52,6 +52,8 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
    <ul>
    <li>API de Soap: On-Premise: 2007, 2015, 2016</li>
    <li>API de Soap: En línea: 2015, 2016</li>
+   <li>API web - In situ de Microsoft Dynamics CRM: Actualización 1 2016, 2016</li>
+   <li>API web - Microsoft Dynamics CRM Online: Actualización 1 2016, 2016</li>
    </ul>
   <p><em>Fecha de eliminación objetivo: 2021</em></p>
   </td>
