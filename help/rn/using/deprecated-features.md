@@ -10,7 +10,7 @@ topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 281eb6b0f84e01d25ac9c3542dc2ee950d4879e7
+source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
 workflow-type: tm+mt
 source-wordcount: '1621'
 ht-degree: 85%
@@ -75,7 +75,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
   <tr>
   <td>Autenticación OAuth (OAuth y JWT)<br></td>
   <td><p> A partir de la versión de Campaña 20.3, la autenticación de integración de activadores basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización se ha cambiado y se ha movido a E/S de Adobe. <p>
-  <p>Si utiliza la integración de Triggers, debe adaptar la implementación en consecuencia. <a href="../../integrations/using/about-triggers.md">Más información</a></p> 
+  <p>Si utiliza la integración de Triggers, debe adaptar la implementación en consecuencia. <a href="../../integrations/using/configuring-adobe-io.md">Más información</a></p> 
   <p>Para obtener más información sobre la depreciación de la autenticación OAuth, consulte esta <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">página</a></p> 
   <p><em>Fecha de eliminación del destinatario: Abril de 2021</em></p>
   </td>
