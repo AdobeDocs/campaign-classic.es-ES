@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 discoiquuid: ec3844ca-8d80-4ddc-b08c-f18a6919bb28
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1e6ef4a3924e2cab0e6baf06e0861620e17d240b
+workflow-type: tm+mt
 source-wordcount: '920'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -108,7 +108,7 @@ Los pasos para realizar este caso de uso son los siguientes:
 
 1. genere un par de claves GPG (públicas/privadas) utilizando una utilidad GPG, luego instale la clave pública en Panel de control de Campaign. Encontrará los pasos detallados en la documentación [del](https://docs.adobe.com/content/help/es-ES/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data) Panel de control de Campaign.
 
-1. En Campaign Classic, cree un flujo de trabajo para exportar los datos y exportarlos con la clave privada que se ha instalado mediante el Panel de control de Campaign. Para ello, crearemos un flujo de trabajo de la siguiente manera:
+1. En Campaign Classic, cree un flujo de trabajo para exportar los datos y cifrarlos con la clave privada que se ha instalado mediante el Panel de control de Campaign. Para ello, crearemos un flujo de trabajo de la siguiente manera:
 
    ![](assets/gpg-workflow-encrypt.png)
 
@@ -147,4 +147,3 @@ Los pasos para realizar este caso de uso son los siguientes:
 
 1. Ahora puede ejecutar el flujo de trabajo. Una vez ejecutado, el destinatario de datos de la consulta se exportará al servidor SFTP en un archivo .gpg cifrado.
 
-   ![](assets/gpg-sftp-encrypt.png)
