@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: ba5e815dd1576b55d9b3226639680f6358137f13
+source-git-commit: 54ac5abcc53c41d025238a3c89f9d732c0fb1376
 workflow-type: tm+mt
-source-wordcount: '3882'
-ht-degree: 96%
+source-wordcount: '3905'
+ht-degree: 95%
 
 ---
 
@@ -40,6 +40,8 @@ Se ha actualizado la página Funciones obsoletas y eliminadas. [Más informació
 
 Las notas de la versión y la matriz de compatibilidad de la versión Gold Standard ya están disponibles en una sección dedicada.
 [Más información](../../rn/using/gold-standard.md#gs-10).
+
+La integración de activadores basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización ahora se ha cambiado y se ha movido a E/S de Adobe. [Más información](../../integrations/using/about-triggers.md)
 
 **Otras actualizaciones**
 
