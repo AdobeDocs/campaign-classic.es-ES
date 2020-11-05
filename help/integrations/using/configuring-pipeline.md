@@ -1,8 +1,6 @@
 ---
-title: Configuración de la integración
-seo-title: Configuración de la integración
-description: Configuración de la integración
-seo-description: null
+title: Configuración de la canalización
+description: Obtenga información sobre cómo configurar la canalización
 page-status-flag: never-activated
 uuid: e2db7bdb-8630-497c-aacf-242734cc0a72
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 translation-type: tm+mt
-source-git-commit: ac922ea93faf7cb3176e9df33467b1492f87a1f0
+source-git-commit: f3caef21a269cf57624a07bfe1b4bf1e241061a6
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 22%
+source-wordcount: '911'
+ht-degree: 20%
 
 ---
 
@@ -32,17 +30,17 @@ Los activadores se utilizan para la segmentación mediante un flujo de trabajo d
 
 ## Requisitos previos {#prerequisites}
 
-El uso [!DNL Experience Cloud Triggers] en Campaign requiere lo siguiente:
+Antes de iniciar esta configuración, compruebe que:
 
-* Versión de Adobe Campaign 19.1.9 o 20.3.1. y superiores.
-* Versión estándar de Analytics.
+* una versión reciente de Adobe Campaign: 19.1.8 o 20.2.1 y versiones posteriores,
+* Versión de Adobe Analytics Standard
 
-Las configuraciones de requisitos previos son:
+También necesitará:
 
 * Autenticación de proyectos de E/S de Adobe
-* Se ha agregado IMSOrgId, el identificador del cliente Experience Cloud con Adobe Analytics.
-* El equipo de aprovisionamiento debe tener privilegios de administrador del sistema para la organización IMS del cliente
-* Configuración de los activadores en Adobe Analytics.
+* un IMSOrgID válido, el identificador del cliente Experience Cloud con Adobe Analytics agregado
+* acceso de desarrollador a la organización IMS
+* se ha realizado la configuración de activadores en Adobe Analytics
 
 ## Archivos de autenticación y configuración {#authentication-configuration}
 
