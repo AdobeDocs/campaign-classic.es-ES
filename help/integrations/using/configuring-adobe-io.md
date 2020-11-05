@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ac922ea93faf7cb3176e9df33467b1492f87a1f0
+source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '423'
 ht-degree: 1%
 
 ---
@@ -23,12 +23,16 @@ ht-degree: 1%
 
 # Configuración de la E/S de Adobe para Adobe Experience Cloud Triggers {#configuring-adobe-io}
 
+>[!CAUTION]
+>
+>Si utiliza una versión anterior de la integración de Triggers mediante tokens JWT o autenticación oAuth, **debe pasar a la E/S de Adobe como se describe a continuación**. Los modos de autenticación JWT y oAuth ya no se utilizan. [Más información](https://github.com/AdobeDocs/analytics-1.4-apis)
+
 ## Requisitos previos {#adobe-io-prerequisites}
 
 Antes de iniciar esta implementación, compruebe que:
 
 * una versión reciente de Adobe Campaign: 19.1.8 o 20.2.1 y versiones posteriores,
-* un IMSOrgID válido: el identificador de organización del sistema Identity Management (IMS) es el identificador único dentro del Adobe Experience Cloud, que se utiliza en particular para el servicio VisitorID y el inicio de sesión único (SSO) de IMS,
+* un IMSOrgID válido: el identificador de organización del sistema Identity Management (IMS) es el identificador único dentro del Adobe Experience Cloud, que se utiliza, por ejemplo, para el servicio VisitorID y el inicio de sesión único (SSO) de IMS,
 * un acceso de desarrollador a la organización IMS.
 
 >[!NOTE]
@@ -105,7 +109,3 @@ Para actualizar [!DNL pipelined] la etiqueta, debe actualizar el tipo de autenti
 ```
 <pipelined ... authType="imsJwtToken"  ... />
 ```
-
->[!NOTE]
->
->Si está utilizando la versión anterior de la integración de desencadenadores mediante tokens JWT heredados, también debe agregar la API de E/S de Adobe para [!DNL Adobe Analytics] obtener información detallada en el primer paso para migrar automáticamente a la nueva autenticación de activadores.
