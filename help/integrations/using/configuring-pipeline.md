@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 translation-type: tm+mt
-source-git-commit: 3e73d7c91fbe7cff7e1e31bdd788acece5806e61
+source-git-commit: ac922ea93faf7cb3176e9df33467b1492f87a1f0
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 23%
+source-wordcount: '907'
+ht-degree: 22%
 
 ---
 
@@ -39,7 +39,7 @@ El uso [!DNL Experience Cloud Triggers] en Campaign requiere lo siguiente:
 
 Las configuraciones de requisitos previos son:
 
-* Autenticación de proyecto de E/S de Adobe
+* Autenticación de proyectos de E/S de Adobe
 * Se ha agregado IMSOrgId, el identificador del cliente Experience Cloud con Adobe Analytics.
 * El equipo de aprovisionamiento debe tener privilegios de administrador del sistema para la organización IMS del cliente
 * Configuración de los activadores en Adobe Analytics.
