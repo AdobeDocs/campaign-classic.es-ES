@@ -1,8 +1,6 @@
 ---
-title: Configuración de la integración
-seo-title: Configuración de la integración
-description: Configuración de la integración
-seo-description: null
+title: Configuración de la integración con Adobe Experience Manager
+description: Obtenga información sobre cómo configurar la integración de Campañas AEM
 page-status-flag: never-activated
 uuid: e2db7bdb-8630-497c-aacf-242734cc0a72
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '553'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
+workflow-type: tm+mt
+source-wordcount: '555'
+ht-degree: 98%
 
 ---
 
