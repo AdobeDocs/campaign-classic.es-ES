@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: fe7ce92bde3405fed3429475cdd5681e5837876f
+source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 4%
@@ -99,7 +99,7 @@ Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-m
 Las siguientes funciones están en desuso en 20.3:
 
 * El dominio demdex utilizado para importar y exportar audiencias al Adobe Experience Cloud está en desuso. Si utiliza el dominio demdex para sus cuentas externas de importación y exportación, deberá adaptar la implementación en consecuencia. [Más información](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
-* Activa la autenticación de integración basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización y ahora se ha cambiado y se ha movido a E/S de Adobe. [Más información](../../integrations/using/about-triggers.md)
+* Activa la autenticación de integración basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización y ahora se ha cambiado y se ha movido a E/S de Adobe. [Más información](../../integrations/using/configuring-adobe-io.md)
 
 Obtenga más información en la página [](../../rn/using/deprecated-features.md)Funciones obsoletas y eliminadas.
 
