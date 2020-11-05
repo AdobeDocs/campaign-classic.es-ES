@@ -3,7 +3,7 @@ keywords: Campaign Classic;home;popular topics
 title: Documentación del producto Adobe Campaign Classic
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 6ac6145a38538f07b8080e503cd7750b19ed9621
+source-git-commit: ccd4fe1366fd9ecaca83dbf7aac241524f0af7d6
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 78%
@@ -17,7 +17,7 @@ ht-degree: 78%
 
 ## Novedades
 
-* **[Actualice la integración](integrations/using/configuring-adobe-io.md)de Adobe Experience Cloud Triggers))**<br/> El servicio de autenticación oAuth heredado ha llegado al final de su vida útil. Obtenga información sobre cómo migrar a la E/S de Adobe.
+* **[Actualice la integración](integrations/using/configuring-adobe-io.md)**<br/>de los activadores de Adobe Experience Cloud El servicio de autenticación de autenticación heredado ha llegado al final de su vida útil. Obtenga información sobre cómo migrar a la E/S de Adobe.
 
 * **[Mover a la API](https://helpx.adobe.com/es/campaign/kb/migrate-to-apns-http2.html)**<br/> del proveedor de APNs basada en HTTP/210000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 
