@@ -11,20 +11,20 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: 2e2d1134-9b83-4ada-b74f-c3842a0cf044
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '1183'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e01acc00d0b15df99c009fe29d170ed0fc9fa956
+workflow-type: tm+mt
+source-wordcount: '1185'
+ht-degree: 96%
 
 ---
 
 
 # Canales de comunicación{#communication-channels}
 
-Con Adobe Campaign, puede enviar campañas en canales múltiples incluidos correos electrónicos, SMS, mensajes LINE, notificaciones push y correo postal y medir su eficacia mediante varios [informes](../../reporting/using/delivery-reports.md) dedicados. Estos mensajes están diseñados y enviados por medio de envíos y pueden personalizarse para cada destinatario.
+With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, LINE messages, Push notifications and direct mails, and measure their effectiveness using various dedicated [reports](../../reporting/using/delivery-reports.md). Estos mensajes están diseñados y enviados por medio de envíos y pueden personalizarse para cada destinatario.
 
-Las funciones principales incluyen establecimiento de objetivos, definición y personalización de mensajes, ejecución de comunicaciones y los informes operativos asociados. El punto de acceso funcional principal es el asistente de envío. Este punto de acceso lleva a varias funciones incluidas en Adobe Campaign.
+Las funciones principales incluyen establecimiento de objetivos, definición y personalización de mensajes, ejecución de comunicaciones y los informes operativos asociados. El punto de acceso funcional principal es el asistente de envío. Este punto de acceso lleva a varias funciones cubiertas por Adobe Campaign.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Adobe Campaign ofrece los siguientes canales de envío:
 
    >[!NOTE]
    >
-   >El uso de varios canales depende del paquete. Compruebe el acuerdo de licencia.
+   >El número de canales disponibles depende del contrato. Compruebe el acuerdo de licencia.
 
 Los envíos se pueden realizar **en línea** (por correo electrónico, uno de los canales móviles y por notificaciones push) y **sin conexión** (por el canal de correo postal).
 
