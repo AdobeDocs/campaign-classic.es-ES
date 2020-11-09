@@ -11,9 +11,9 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2abd9f987967484cc93009d8961ed6b152cdc354
+workflow-type: tm+mt
 source-wordcount: '2956'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 las entregas se pueden crear a través del panel de la campaña, un flujo de trabajo de la campaña o directamente a través de la descripción general de las entregas.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#create-email-video)
+![](assets/do-not-localize/how-to-video.png)[Descubra esta función en vídeo](#create-email-video)
 
 ## Creación de envíos {#creating-deliveries}
 
@@ -82,7 +82,7 @@ La guía [automatización con flujos de trabajo](../../workflow/using/architectu
 
 En este vídeo se explica cómo crear una campaña y un correo electrónico en Adobe Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 
 #### Creación de un flujo de trabajo de objetivos {#creating-a-targeting-workflow}
