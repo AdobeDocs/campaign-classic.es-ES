@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 title: Documentación del producto Adobe Campaign Classic
 topic: Premium
 translation-type: tm+mt
-source-git-commit: ccd4fe1366fd9ecaca83dbf7aac241524f0af7d6
+source-git-commit: c14d257bb4f206e56a16d45507ee98ccad239fe7
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 78%
+source-wordcount: '274'
+ht-degree: 77%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 78%
 
 ## Novedades
 
-* **[Actualice la integración](integrations/using/configuring-adobe-io.md)**<br/>de los activadores de Adobe Experience Cloud El servicio de autenticación de autenticación heredado ha llegado al final de su vida útil. Obtenga información sobre cómo migrar a la E/S de Adobe.
+* **[Actualice la integración](integrations/using/configuring-adobe-io.md)**<br/> de los activadores de Adobe Experience Cloud El servicio de autenticación de autenticación heredado ha llegado al final de su vida útil. Obtenga información sobre cómo migrar a la E/S de Adobe.
 
-* **[Mover a la API](https://helpx.adobe.com/es/campaign/kb/migrate-to-apns-http2.html)**<br/> del proveedor de APNs basada en HTTP/210000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+* **[Pasar a la API](https://helpx.adobe.com/es/campaign/kb/migrate-to-apns-http2.html)**<br/> de proveedor de APNs basada en HTTP/2 Aprender a migrar del protocolo binario heredado a la API de proveedor de APN basada en HTTP/2.
 
-* **[Añadir iconos gestuales a los mensajes](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>Ahora puede insertar iconos gestuales en los mensajes y en la línea de asunto
+* **[Añadir iconos gestuales a los mensajes](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/> Ahora puede insertar iconos gestuales en los mensajes y en la línea de asunto
 
 * **[Obtener ayuda](https://helpx.adobe.com/es/campaign/kb/ac-support.html)**<br/>
 Acceso a preguntas frecuentes, prácticas recomendadas, recursos de ayuda y solicitudes de ayuda
@@ -29,7 +29,7 @@ Acceso a preguntas frecuentes, prácticas recomendadas, recursos de ayuda y soli
 * **[Funcionalidades de seguimiento](https://helpx.adobe.com/es/campaign/kb/acc-tracking.html)**<br/>
 Conozca las funcionalidades de seguimiento y procesos en Campaign
 
-[Haga clic aquí para obtener más actualizaciones](/help/rn/using/documentation-updates.md)
+[Más actualizaciones](/help/rn/using/documentation-updates.md)
 
 ## Páginas principales
 
