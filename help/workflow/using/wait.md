@@ -1,8 +1,6 @@
 ---
 title: Espera
-seo-title: Espera
-description: Espera
-seo-description: null
+description: Más información sobre la actividad del flujo de trabajo de espera
 page-status-flag: never-activated
 uuid: 55e4f15d-8d69-45b1-b842-5ccdfdedf550
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: 41bcfe67-b5d6-4ee6-9f8a-6a7a208e2036
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '187'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '192'
+ht-degree: 96%
 
 ---
 
