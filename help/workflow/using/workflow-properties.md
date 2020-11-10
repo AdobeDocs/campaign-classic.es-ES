@@ -1,8 +1,6 @@
 ---
 title: Propiedades del flujo de trabajo
-seo-title: Propiedades del flujo de trabajo
-description: Propiedades del flujo de trabajo
-seo-description: null
+description: Más información sobre las propiedades del flujo de trabajo de Campaña
 page-status-flag: never-activated
 uuid: bd576cc0-2db8-4519-bcb5-52bf5c811f42
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 discoiquuid: 71969b30-cc01-4358-9597-f17939720684
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '545'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '547'
+ht-degree: 98%
 
 ---
 
