@@ -1,8 +1,6 @@
 ---
 title: Descripción de la entrega
-seo-title: Descripción de la entrega
-description: Descripción de la entrega
-seo-description: null
+description: Más información sobre la actividad del flujo de trabajo de Descripción del envío
 page-status-flag: never-activated
 uuid: 2b924cc6-6b71-481e-acab-2d035bbc2852
 contentOwner: sauviat
@@ -11,18 +9,18 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: a2a65f97-425b-44b2-8cf4-beea850423bc
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '263'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 82%
 
 ---
 
 
 # Descripción de la entrega{#delivery-outline}
 
-La descripción de la entrega permite utilizar una descripción en un flujo de trabajo de Campaign. El esquema debe haberse creado con anterioridad en la campaña.
+The **delivery outline** lets you use an outline in a campaign workflow. El esquema debe haberse creado con anterioridad en la campaña.
 
 Para obtener más información sobre los esquemas de entrega en Adobe Campaign, consulte esta [sección](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
@@ -30,7 +28,7 @@ Para configurar la actividad, simplemente se debe seleccionar el esquema que des
 
 ## Inserción de una oferta mediante un esquema de entrega {#example--inserting-an-offer-via-a-delivery-outline}
 
-La actividad de descripción de entrega, disponible en los flujos de trabajo de la campaña, permite presentar ofertas especificadas en una descripción de entrega de la campaña en curso.
+The **delivery outline** activity, available in the campaign workflows, lets you present offers that are referenced in a delivery outline from the current campaign in progress.
 
 >[!NOTE]
 >
