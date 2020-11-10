@@ -1,8 +1,6 @@
 ---
 title: Correos electrónicos entrantes
-seo-title: Correos electrónicos entrantes
-description: Correos electrónicos entrantes
-seo-description: null
+description: Más información sobre la actividad del flujo de trabajo de los correos electrónicos entrantes
 page-status-flag: never-activated
 uuid: 6bcc7952-f051-4e50-8833-95d49c7ed781
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 discoiquuid: 4c0530b1-0292-45bc-8730-668bc5b8550b
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '333'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 97%
 
 ---
 
