@@ -9,10 +9,10 @@ audience: workflow
 content-type: reference
 topic-tags: introduction
 discoiquuid: 868940d1-f19d-4e9a-bffa-8654abb4441c
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '668'
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '650'
 ht-degree: 100%
 
 ---
@@ -32,9 +32,9 @@ Los flujos de trabajo se producen en varios contextos y etapas del proceso de ad
 
 Adobe Campaign utiliza flujos de trabajo para:
 
-* Llevar a cabo las campañas de objetivos. Para obtener más información, consulte [Pasos de implementación](../../workflow/using/building-a-workflow.md#implementation-steps-).
-* Generar campañas: para cada campaña, la pestaña **[!UICONTROL Workflow]** permite crear el objetivo y las entregas. Para obtener más información, consulte [Flujos de trabajo de campaña](../../workflow/using/building-a-workflow.md#campaign-workflows).
-* Realizar procesos técnicos: limpieza, recopilación de información de seguimiento o cálculos provisionales. Para obtener más información, consulte [Flujos de trabajo técnicos](../../workflow/using/building-a-workflow.md#technical-workflows).
+* Llevar a cabo las campañas de objetivos. [Más información](../../workflow/using/building-a-workflow.md#implementation-steps-)
+* Generar campañas: para cada campaña, la pestaña **[!UICONTROL Workflow]** permite crear el objetivo y las entregas. [Más información](../../workflow/using/building-a-workflow.md#campaign-workflows)
+* Realizar procesos técnicos: limpieza, recopilación de información de seguimiento o cálculos provisionales. [Más información](../../workflow/using/building-a-workflow.md#technical-workflows)
 
 Un flujo de trabajo puede significar una definición de proceso (el modelo de flujo de trabajo, que es una representación de lo que se supone que debe ocurrir) y una instancia de este proceso (una instancia de flujo de trabajo, que es una representación de lo que realmente sucede).
 
