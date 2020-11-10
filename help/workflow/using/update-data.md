@@ -1,8 +1,6 @@
 ---
 title: Actualización de datos
-seo-title: Actualización de datos
-description: Actualización de datos
-seo-description: null
+description: Más información sobre la actividad del flujo de trabajo de actualización de datos
 page-status-flag: never-activated
 uuid: 5f3ab7c8-175a-4b06-a50c-edc97b226e3c
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: c94ce5b7-aa8a-4ea2-845d-68c9c7dc2a7b
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '845'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '849'
+ht-degree: 99%
 
 ---
 
