@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 877ca2275c9338377da9e435e070c9911314fe51
+source-git-commit: 36fef519be93b33d55a96992c1ce234f2eaea696
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '429'
 ht-degree: 75%
 
 ---
@@ -32,13 +32,13 @@ Se asocia un estado a cada compilación. A continuación encontrará la lista de
 
 ![](assets/do-not-localize/green3.png) **Disponibilidad** general (GA) - Validada en producción y recomendada por Adobe.
 
-The **last GA build** is Gold Standard 10. Haga clic [aquí](../../rn/using/gold-standard.md#gs-10)
+Las **últimas compilaciones** de GA son: [Versión](../../rn/using/gold-standard.md#gs-10) Gold Standard 10 y versión [Campaña 20.2.3](../../rn/using/release--20-2.md#release-20-2-3-build-9182)
 
 ![](assets/do-not-localize/limited3.png) **Disponibilidad** limitada (LA): solo implementación a petición.
 
 ![](assets/do-not-localize/blue3.png) **Release Candidate** (RC): última versión con nuevas funciones.
 
-La **última compilación** RC es Campaign Classic 20.3. Haga clic [aquí](../../rn/using/latest-release.md)
+La **última compilación** de RC es la versión [Campaign Classic 20.3](../../rn/using/latest-release.md)
 
 ![](assets/do-not-localize/orange3.png) **Ya no está disponible** : se requiere la actualización a una compilación más reciente.
 
