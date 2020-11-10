@@ -1,8 +1,6 @@
 ---
 title: Supervisión de flujos de trabajo
-seo-title: Supervisión de flujos de trabajo
-description: Supervisión de flujos de trabajo
-seo-description: null
+description: Aprenda a supervisar Flujos de trabajo de la campaña
 page-status-flag: never-activated
 uuid: e16d1c40-50ae-4c3d-95df-fac62f987a15
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 978cbe62-f06a-46a6-b8a1-e30a65b8470a
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '641'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '643'
+ht-degree: 99%
 
 ---
 
