@@ -1,8 +1,6 @@
 ---
 title: Administración de la privacidad
-seo-title: Administración de la privacidad
-description: Administración de la privacidad
-seo-description: null
+description: Más información sobre la administración de privacidad
 page-status-flag: never-activated
 uuid: a044bbea-521d-4c1e-8aab-7d51a87fc94b
 contentOwner: sauviat
@@ -12,9 +10,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 14369acf-9149-4649-947a-c16289e35eb6
 translation-type: tm+mt
-source-git-commit: b8548e8d609ed099433b97b4c0704d27234e81c0
+source-git-commit: c2c7398c27f1bc7edf9adb0fc07409d2e525b168
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '899'
 ht-degree: 37%
 
 ---
