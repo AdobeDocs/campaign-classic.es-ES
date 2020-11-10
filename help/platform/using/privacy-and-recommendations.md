@@ -1,7 +1,7 @@
 ---
-title: Privacidad y recomendaciones
-seo-title: Privacidad y recomendaciones
-description: Privacidad y recomendaciones
+title: Privacidad y consentimiento
+seo-title: Privacidad y consentimiento
+description: Privacidad y consentimiento
 seo-description: null
 page-status-flag: never-activated
 uuid: a044bbea-521d-4c1e-8aab-7d51a87fc94b
@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 14369acf-9149-4649-947a-c16289e35eb6
 translation-type: tm+mt
-source-git-commit: 6ca61b4e927b7443815f0337b8e661c8ec126001
+source-git-commit: 53c15bca0f5cc3e6866e87a5ffbc7f68e7bcc1b8
 workflow-type: tm+mt
-source-wordcount: '1850'
-ht-degree: 97%
+source-wordcount: '1815'
+ht-degree: 94%
 
 ---
 
@@ -45,7 +45,7 @@ Para gestionar correctamente la privacidad y administrar los datos personales, s
 
 >[!NOTE]
 >
->Para obtener más información sobre cómo se aplican el RGPD, la CCPA, la PDPA y la LGPD a Adobe Campaign, consulte [esta página](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>Para obtener más información sobre cómo se aplican el RGPD, la CCPA, la PDPA y la LGPD a Adobe Campaign, consulte [esta página](../../platform/using/privacy-management.md#privacy-management-regulations).
 
 ### Privacidad de Adobe Experience Cloud {#experience-cloud-privacy}
 
@@ -83,7 +83,7 @@ Al administrar la privacidad, es importante definir qué datos deben manejarse c
 * Los **datos personales** son información que puede identificar directa o indirectamente a un individuo.
 * Los **datos personales confidenciales** son información relacionada con la raza, las opiniones políticas, las creencias religiosas, los antecedentes penales, la información genética, los datos de salud, las preferencias sexuales, la información biométrica, y la afiliación a sindicatos.
 
-La [legislación principal](#privacy-regulations) se refiere a las diferentes entidades que administran los datos de la siguiente manera:
+The [main regulations](#privacy-regulations) refer to the different entities that manage data as follows:
 * Un **controlador de datos** es una autoridad que determina los medios y el propósito de recopilar, utilizar y compartir datos personales.
 * Un **procesador de datos** es cualquier persona o parte que recopila, utiliza o comparte datos personales según lo indicado por el controlador de datos.
 * Se entiende por **sujeto de datos** toda persona viva cuyos datos personales se recopilen, utilicen o compartan y que pueda identificarse, directa o indirectamente, por referencia a dichos datos personales.
@@ -108,10 +108,9 @@ La administración de la privacidad se refiere a todos los procesos y herramient
 Adobe Campaign le ofrece varios conjuntos de funciones dedicadas a la administración de la privacidad:
 * administración de consentimiento, retención de datos y funciones de usuario. Consulte [esta sección](#consent).
 * Solicitudes de privacidad (derecho de acceso y derecho a ser olvidado). Consulte [esta sección](#privacy-requests).
-* Exclusión para la venta de información personal (específica de la CCPA). Consulte [esta sección](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html#ccpa).
+* Exclusión para la venta de información personal (específica de la CCPA). Consulte [esta sección](../../platform/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 Las principales funcionalidades de privacidad en Campaign y un ejemplo de las personas implicadas se presentan en [esta sección](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow).
-
 
 ### Consentimiento, retención y funciones {#consent}
 
@@ -121,7 +120,7 @@ En principio, Adobe Campaign ofrece funcionalidades importantes que son esencial
 * **Retención de datos**: Todas las tablas de registro estándar incorporadas tienen períodos de retención preestablecidos, lo que generalmente limita su almacenamiento de datos a 6 meses o menos. Se pueden configurar períodos de retención adicionales con flujos de trabajo. Para obtener más información, póngase en contacto con los consultores o administradores técnicos de Adobe.
 * **Administración de derechos**: Adobe Campaign permite administrar los derechos asignados a los distintos operadores de campaña a través de diferentes funciones generadas previamente o personalizadas. Esto le permite administrar qué persona de su compañía puede acceder, modificar o exportar diferentes tipos de datos. Para obtener más información sobre esto, consulte [Acerca de la administración de acceso](../../platform/using/access-management.md).
 
-Para obtener más información sobre estas funciones y cómo administrarlas en Adobe Campaign, consulte [esta página](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-overview.html#consent).
+For more on these features and how to manage them in Adobe Campaign, see [this section](../../platform/using/privacy-management.md#consent-retention-roles).
 
 ### Solicitudes de privacidad {#privacy-requests}
 
@@ -133,7 +132,7 @@ Adobe Campaign proporciona funciones adicionales que le ayudan a facilitar su pr
 
 >[!NOTE]
 >
->Este conjunto de herramientas se encuentra aquí para ayudarle con su cumplimiento de la privacidad de GDPR, CCPA, PDPA y LGPD. Para obtener más información sobre estas diferentes regulaciones, consulte [esta página](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>Este conjunto de herramientas se encuentra aquí para ayudarle con su cumplimiento de la privacidad de GDPR, CCPA, PDPA y LGPD. Para obtener más información sobre estas diferentes regulaciones, consulte [esta página](../../platform/using/privacy-management.md#privacy-management-regulations).
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -143,7 +142,7 @@ Adobe Campaign proporciona funciones adicionales que le ayudan a facilitar su pr
 
 Brazil's Lei Geral de Proteção de Dados (LGPD) will be effective starting Aug, 16 for all companies collecting or processing personal data in Brazil. This regulation also applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
 
-Las solicitudes de **acceso** y **eliminación** se presentan en [esta página](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html#righttoaccess). Los pasos de implementación para crear estas solicitudes se detallan en [esta sección](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html#ManagingPrivacyRequests). <!--Tutorials are also available [here](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).-->
+Las solicitudes de **acceso** y **eliminación** se presentan en [esta página](../../platform/using/privacy-management.md#right-access-forgotten). Los pasos de implementación para crear estas solicitudes se detallan en [esta sección](../../platform/using/privacy-requests.md). <!--Tutorials are also available [here](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).-->
 
 ## Capacidades de seguimiento {#tracking-capabilities}
 
@@ -154,7 +153,7 @@ Gracias a sus funciones de seguimiento, Adobe Campaign le permite rastrear la na
 * A **session** cookie: the **nlid** cookie contains the identifier of the email sent to the contact (**broadlogId**) and the identifier of the message template (**deliveryId**). Se añade cuando el contacto hace clic en una dirección URL incluida en un correo electrónico enviado por Adobe Campaign y le permite hacer un seguimiento de su comportamiento en la web. Esta cookie de sesión se borra automáticamente cuando se cierra el explorador. El contacto puede configurar el explorador para que rechace las cookies.
 
 * Two **permanent** cookies:
-   * La cookie **UUID** (identificador único universal) se comparte entre las soluciones de Adobe Experience Cloud. Se establece una vez hasta que aparece desde el explorador del cliente cuando se genera un nuevo valor. Esta cookie le permite identificar a los usuarios que interactúan con las soluciones de Experience Cloud cuando visitan un sitio web. Puede ser depositada por una página de aterrizaje (para asociar actividades de clientes desconocidas a un destinatario) o por un envío. La descripción de esta cookie está disponible [en esta página](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-mc.html).
+   * La cookie **UUID** (identificador único universal) se comparte entre las soluciones de Adobe Experience Cloud. Se establece una vez hasta que desaparece del explorador del cliente cuando se genera un nuevo valor. Esta cookie le permite identificar a los usuarios que interactúan con las soluciones de Experience Cloud cuando visitan un sitio web. Puede ser depositada por una página de aterrizaje (para asociar actividades de clientes desconocidas a un destinatario) o por un envío. La descripción de esta cookie está disponible en [esta página](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=en#ec-cookies).
    * La cookie **nllastdelid** (presentada en Campaign Classic 20.3) es una cookie permanente que contiene el **deliveryId** del último envío desde el que el usuario hizo clic en el vínculo. Esta cookie se utiliza, cuando falta la cookie de sesión, para identificar la tabla de seguimiento que se utilizará.
 
 Las regulaciones como el reglamento general de protección de datos (RGPD) establecen que las compañías requieren el acuerdo de los usuarios del sitio web antes de instalar las cookies.
