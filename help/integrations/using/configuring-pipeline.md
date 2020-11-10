@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 translation-type: tm+mt
-source-git-commit: 4f949d8db3aa3082acf1765bf66080b270cc6db4
+source-git-commit: 2d0d2d4eefc67312e1b9a8edc7ae88def2980ef1
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '906'
 ht-degree: 20%
 
 ---
@@ -30,9 +30,9 @@ Los activadores se utilizan para la segmentación mediante un flujo de trabajo d
 
 ## Requisitos previos {#prerequisites}
 
-Antes de iniciar esta configuración, compruebe que:
+Antes de iniciar esta configuración, compruebe que está utilizando:
 
-* una versión reciente de Adobe Campaign (20.2.1 y posterior),
+* Versión mínima de Adobe Campaign 20.3
 * Versión de Adobe Analytics Standard
 
 También necesitará:
