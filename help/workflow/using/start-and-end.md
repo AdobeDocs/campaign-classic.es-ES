@@ -1,8 +1,6 @@
 ---
 title: Inicio y final (Start y End)
-seo-title: Inicio y final (Start y End)
-description: Inicio y final (Start y End)
-seo-description: null
+description: Más información sobre las actividades de flujo de trabajo de Inicio y finalización
 page-status-flag: never-activated
 uuid: ec0c818c-c307-4f50-908c-507bce0ea27b
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: 8b239d5e-2317-42c8-9fee-7d40bea624da
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '131'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '133'
+ht-degree: 93%
 
 ---
 
