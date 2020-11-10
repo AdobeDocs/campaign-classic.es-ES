@@ -1,8 +1,6 @@
 ---
 title: Restricción de tiempo
-seo-title: Restricción de tiempo
-description: Restricción de tiempo
-seo-description: null
+description: Más información sobre la actividad del flujo de trabajo de la restricción de tiempo
 page-status-flag: never-activated
 uuid: 63bde1af-dd78-4fca-b3b9-edb1b64552cd
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: 798409af-b236-4bb5-ac0f-90f0a19db345
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '76'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '80'
+ht-degree: 90%
 
 ---
 
