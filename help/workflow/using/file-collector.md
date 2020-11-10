@@ -1,8 +1,6 @@
 ---
 title: Agrupamiento de archivos
-seo-title: Agrupamiento de archivos
-description: Agrupamiento de archivos
-seo-description: null
+description: Más información sobre la actividad del flujo de trabajo de Recolector de ficheros
 page-status-flag: never-activated
 uuid: 57ef7b2b-f257-4d76-970f-55aece719cec
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 discoiquuid: 9b937d4d-55ae-4bd4-8dc6-eea42f15b69f
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '520'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '524'
+ht-degree: 98%
 
 ---
 
