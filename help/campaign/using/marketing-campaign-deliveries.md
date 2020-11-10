@@ -1,8 +1,6 @@
 ---
 title: Entregas de campañas de marketing
-seo-title: Entregas de campañas de marketing
-description: Entregas de campañas de marketing
-seo-description: Más información sobre las entregas de campañas de marketing
+description: Más información sobre las entregas de campañas de marketing
 page-status-flag: never-activated
 uuid: 842b501f-7d65-4450-b7ab-aff3942fb96f
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: orchestrate-campaigns
 discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 translation-type: tm+mt
-source-git-commit: 2abd9f987967484cc93009d8961ed6b152cdc354
+source-git-commit: f6e820bd05b95e57b395407ed1e17c11b17cbf84
 workflow-type: tm+mt
-source-wordcount: '2956'
-ht-degree: 100%
+source-wordcount: '2917'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +22,9 @@ ht-degree: 100%
 
 las entregas se pueden crear a través del panel de la campaña, un flujo de trabajo de la campaña o directamente a través de la descripción general de las entregas.
 
-![](assets/do-not-localize/how-to-video.png)[Descubra esta función en vídeo](#create-email-video)
+Cuando se crean a partir de una campaña, los envíos se vincularán a esta campaña y se consolidarán a nivel de campaña.
+
+![](assets/do-not-localize/how-to-video.png)[ Descubra esta función en vídeo](#create-email-video)
 
 ## Creación de envíos {#creating-deliveries}
 
@@ -32,29 +32,21 @@ Para crear una entrega vinculada a una campaña, haga clic en el enlace **[!UICO
 
 ![](assets/campaign_op_add_delivery.png)
 
-Las configuraciones sugeridas se adecúan a los diferentes tipos de envío: correo postal, correo electrónico, canales móviles.
-
->[!NOTE]
->
->Para obtener más información sobre la creación y configuración de las entregas, consulte la sección [envío de mensajes](../../delivery/using/steps-about-delivery-creation-steps.md).
+Las configuraciones sugeridas se adecúan a los diferentes tipos de envío: correo postal, correo electrónico, canales móviles. [Más información](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 ## Selección de la población objetivo {#selecting-the-target-population}
 
-Para cada envío, el administrador de campañas define:
+Para cada envío puede definir:
 
-* El objetivo principal. Para obtener más información sobre esto, consulte [Generación del objetivo principal en un flujo de trabajo](#building-the-main-target-in-a-workflow) y [Selección de la población objetivo](#selecting-the-target-population).
-* El grupo de control. Para más información, consulte [Definición de un grupo de control](#defining-a-control-group).
-* Las direcciones semilla. Para obtener más información, consulte [esta sección](../../delivery/using/about-seed-addresses.md).
+* La audiencia: Obtenga más información en [Creación de la audiencia en un flujo de trabajo](#building-the-main-target-in-a-workflow) y [Selección de la población](#selecting-the-target-population)de destinatarios.
+* Un grupo de control: Obtenga más información sobre la [definición de un grupo de control](#defining-a-control-group).
+* Direcciones semilla: Obtenga más información en [esta sección](../../delivery/using/about-seed-addresses.md).
 
-Parte de esta información se hereda de la plantilla.
+Some of this information can be inherited from the [template](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
->[!NOTE]
->
->Las plantillas de campaña se presentan en [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+Para crear el destino de la entrega, puede definir criterios de filtrado para los destinatarios en la base de datos. Este modo de selección de destinatarios se presenta en [esta sección](../../delivery/using/steps-defining-the-target-population.md).
 
-Para crear el destino de la entrega, puede definir criterios de filtrado para los destinatarios en la base de datos. Este modo de selección de destinatarios se presenta en la sección [envío de mensajes](../../delivery/using/steps-defining-the-target-population.md).
-
-### Ejemplo: Envío a un grupo de destinatarios {#example--delivering-to-a-group-of-recipients}
+**Ejemplo: enviar mensajes a un grupo**
 
 Puede importar una población a una lista y luego establecer como objetivo esta lista en las entregas.
 
@@ -68,24 +60,15 @@ Puede importar una población a una lista y luego establecer como objetivo esta 
 
 ![](assets/s_user_target_group_next.png)
 
-### Creación del objetivo principal en un flujo de trabajo {#building-the-main-target-in-a-workflow}
+### Creación de la audiencia en un flujo de trabajo {#building-the-main-target-in-a-workflow}
 
-El objetivo principal de una entrega también se puede definir en el flujo de trabajo de objetivos: este entorno gráfico permite crear un objetivo utilizando consultas, pruebas y operadores: unión, deduplicación, uso compartido, etc.
-
-La guía [automatización con flujos de trabajo](../../workflow/using/architecture.md) incluye una descripción detallada del funcionamiento del módulo de flujos de trabajo.
+El objetivo principal de una entrega también se puede definir en el flujo de trabajo de objetivos: este entorno gráfico permite crear un objetivo utilizando consultas, pruebas y operadores: unión, deduplicación, uso compartido, etc. [Más información](../../workflow/using/architecture.md).
 
 >[!IMPORTANT]
 >
->En la misma campaña, no se pueden configurar más de 28 flujos de trabajo. Más allá de este límite, los flujos de trabajo adicionales no se ven en la interfaz y pueden dar lugar a errores.
+>No se pueden crear más de 28 flujos de trabajo en una campaña. Más allá de este límite, los flujos de trabajo adicionales no se ven en la interfaz y pueden dar lugar a errores.
 
-### Creación de un correo electrónico en una campaña {#create-email-video}
-
-En este vídeo se explica cómo crear una campaña y un correo electrónico en Adobe Campaign Classic.
-
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
-
-
-#### Creación de un flujo de trabajo de objetivos {#creating-a-targeting-workflow}
+#### Crear el flujo de trabajo {#creating-a-targeting-workflow}
 
 El objetivo se puede crear mediante una combinación de condiciones de filtrado en una secuencia gráfica de un flujo de trabajo. Puede crear poblaciones y subpoblaciones según lo necesite. Para mostrar el editor de flujo de trabajo, haga clic en la pestaña **[!UICONTROL Targeting and workflows]** del panel de campañas.
 
@@ -275,7 +258,7 @@ Puede definir una nueva población para utilizarla como grupo de control. Puede 
 
 ## Inicio de envíos {#starting-a-delivery}
 
-Una vez que se hayan realizado todas las aprobaciones, la entrega está listo para ser iniciado. El procedimiento de envío depende del tipo de envío. Para las entregas por correo electrónico o por canal móvil, consulte [Inicio de una entrega en línea](#starting-an-online-delivery) y para las entregas por correo directo, consulte [Inicio de una entrega sin conexión](#starting-an-offline-delivery).
+Una vez que se hayan realizado todas las aprobaciones, la entrega está listo para ser iniciado. El procedimiento de envío depende del tipo de envío. For email or mobile channel deliveries, see [Starting an online delivery](#starting-an-online-delivery), and for direct mail deliveries, see [Starting an offline delivery](#starting-an-offline-delivery).
 
 ### Inicio de una entrega en línea {#starting-an-online-delivery}
 
@@ -476,3 +459,9 @@ El modelo de exportación debe estar asociado al proveedor de servicios seleccio
 >[!NOTE]
 >
 >Para obtener más información sobre las exportaciones, consulte la sección [Introducción](../../platform/using/generic-imports-and-exports.md).
+
+#### Creación de un correo electrónico en una campaña {#create-email-video}
+
+En este vídeo se explica cómo crear una campaña y un correo electrónico en Adobe Campaign Classic.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
