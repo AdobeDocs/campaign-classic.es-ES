@@ -1,8 +1,6 @@
 ---
 title: Creación de un flujo de trabajo
-seo-title: Creación de un flujo de trabajo
-description: Creación de un flujo de trabajo
-seo-description: null
+description: Aprenda a crear un flujo de trabajo
 page-status-flag: never-activated
 uuid: 55743545-dd4b-4a0a-aeff-8fd638812b9d
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 discoiquuid: 2d4ccf81-cd85-4f4c-8ba8-5b5612af1e16
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '1631'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '1624'
+ht-degree: 95%
 
 ---
 
@@ -28,7 +26,7 @@ Esta sección detalla los principios fundamentales y las prácticas recomendadas
 * Diseño del diagrama de flujo de trabajo, consulte [Adición y vinculación de actividades](#adding-and-linking-activities)
 * Acceso a parámetros y propiedades de actividades, consulte [Configuración de actividades](#configuring-activities)
 * Diseño de flujos de trabajo de objetivos, consulte [Flujos de trabajo de objetivo](#targeting-workflows)
-* Uso del flujo de trabajo para ejecutar una campaña, consulte [Flujos de trabajo de campaña](#campaign-workflows)
+* Use workflows to execute a campaign, see [Campaign workflows](#campaign-workflows)
 * Acceso y creación de flujos de trabajo técnicos, consulte [Flujos de trabajo técnicos](#technical-workflows)
 * Uso de plantillas para crear flujos de trabajo, consulte [Plantillas de flujo de trabajo](#workflow-templates)
 
@@ -145,13 +143,13 @@ Los flujos de trabajo de objetivos se pueden crear y editar mediante el nodo **[
 
 Dentro del marco de una campaña, los flujos de trabajo de objetivos se almacenan con todos los flujos de trabajo de la campaña.
 
-### Pasos de implementación {#implementation-steps-}
+### Pasos clave para crear un flujo de trabajo de segmentación {#implementation-steps-}
 
-Las fases de creación de datos de destino son las siguientes:
+Los pasos para crear un flujo de trabajo de objetivo se describen en las siguientes secciones:
 
-1. Para identificar los datos de la base de datos, consulte [Creación de consultas](../../workflow/using/targeting-data.md#creating-queries).
-1. Para preparar los datos para satisfacer las necesidades de entrega, consulte [Enriquecimiento y modificación de datos](../../workflow/using/targeting-data.md#enriching-and-modifying-data).
-1. Para utilizar los datos dentro de una entrega o realizar actualizaciones, consulte [Actualización de la base de datos](../../workflow/using/how-to-use-workflow-data.md#updating-the-database).
+1. **Identificar** datos en la base de datos. Consulte [Creación de consultas](../../workflow/using/targeting-data.md#creating-queries)
+1. **Preparar** datos para satisfacer las necesidades de envío. Consulte [Enriquecimiento y modificación de datos](../../workflow/using/targeting-data.md#enriching-and-modifying-data)
+1. **Usar** datos para realizar actualizaciones o dentro de un envío - Consulte [Actualización de la base de datos](../../workflow/using/how-to-use-workflow-data.md#updating-the-database)
 
 Los resultados de todos los enriquecimientos y todas las gestiones realizadas durante el establecimiento de objetivos se almacenan y están accesibles en los campos personalizados, en particular para utilizarlos al crear mensajes personalizados. Para obtener más información, consulte [Datos de destinatarios](../../workflow/using/data-life-cycle.md#target-data).
 
@@ -179,15 +177,15 @@ Para cada campaña se pueden crear flujos de trabajo que se ejecutan desde la pe
 
 ![](assets/wf-in-op-edit-delivery-tab.png)
 
-Esta pestaña contiene las mismas actividades para todos los flujos de trabajo. Se presentan en la sección [Pasos de implementación](#implementation-steps-).
+Esta pestaña contiene las mismas actividades para todos los flujos de trabajo. [Más información](#implementation-steps-)
 
-Además de las campañas de destino, los flujos de trabajo de la campaña permiten crear y configurar envíos de principio a fin para todos los canales disponibles. Una vez creados en el flujo de trabajo, estos envíos están disponibles en el panel de la campaña.
+Además de las campañas de destino, los flujos de trabajo de la campaña permiten crear y configurar envíos de principio a fin para todos los canales disponibles. Una vez creados en el flujo de trabajo, estos envíos están disponibles en el panel de la campaña. [Más información](../../campaign/using/marketing-campaign-deliveries.md)
 
 Todos los flujos de trabajo de campaña están centralizados en el nodo **[!UICONTROL Administration > Production > Objects created automatically > Campaign workflows]**.
 
 ![](assets/campaigns_wf.png)
 
-En esta [página](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) se describen los flujos de trabajo de campaña y algunos ejemplos de implementación.
+Campaign workflows and implementation examples are detailed in [this page](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 
 ## Flujos de trabajo técnicos {#technical-workflows}
 
@@ -205,7 +203,7 @@ La subcarpeta **[!UICONTROL Campaign process]** centraliza los flujos de trabajo
 
 Puede crear otros flujos de trabajo técnicos en el nodo **[!UICONTROL Administration > Production > Technical workflows]** de la estructura del árbol. Sin embargo, este proceso está reservado para usuarios expertos.
 
-Las actividades ofrecidas son las mismas que para los flujos de trabajo de objetivos. Para obtener más información, consulte [Pasos de implementación](#implementation-steps-).
+Las actividades ofrecidas son las mismas que para los flujos de trabajo de objetivos. [Más información](#implementation-steps-)
 
 ## Plantillas de flujo de trabajo {#workflow-templates}
 
