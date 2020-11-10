@@ -1,6 +1,6 @@
 ---
 title: Carga de datos (archivos)
-description: Obtenga más información sobre la actividad de carga de datos (archivo).
+description: Más información sobre la actividad del flujo de trabajo de carga de datos (archivo)
 page-status-flag: never-activated
 uuid: c064aa23-412e-49b4-a51d-b0e8ca572f2e
 contentOwner: sauviat
@@ -9,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: dcb5b8e8-be38-4d89-908d-f57c2413a9bc
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '1051'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '1052'
+ht-degree: 99%
 
 ---
 
