@@ -1,6 +1,6 @@
 ---
 title: Conectores CRM
-description: Obtenga más información sobre el conector CRM y configure la sincronización de datos con Adobe Campaign.
+description: Obtenga más información sobre CRM Connector y configure la sincronización de datos
 page-status-flag: never-activated
 uuid: b3856a82-b1dc-4e36-a2d0-14edc5b66b3b
 contentOwner: sauviat
@@ -9,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: af7c0d1d-10ac-427b-8d12-b97eb91b30a1
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '1523'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '1520'
+ht-degree: 99%
 
 ---
 
