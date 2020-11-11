@@ -11,11 +11,11 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 discoiquuid: a9fad813-3256-4a00-ba74-7dbaba9e8e23
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -46,11 +46,11 @@ Para crear una categoría adicional, siga los siguientes pasos:
 
    A continuación, según sea necesario, se puede:
 
-   * Assign eligibility dates from the **[!UICONTROL Eligibility]** tab.
+   * asignar las fechas de idoneidad en la pestaña **[!UICONTROL Eligibility]**.
 
       ![](assets/offer_cat_create_004.png)
 
-   * Enter key words that may be used to select offers from within this category, using the **[!UICONTROL Themes]** field.
+   * Escribir las palabras clave que se pueden utilizar para seleccionar ofertas dentro de esta categoría, utilizando el campo **[!UICONTROL Themes]**.
 
       ![](assets/offer_cat_create_005.png)
 
@@ -58,7 +58,7 @@ Para crear una categoría adicional, siga los siguientes pasos:
       >
       >Al llamar al motor de oferta, solo se selecciona la parte del catálogo en la que coinciden los temas o categorías con los parámetros.
 
-   * Temporarily &quot;boost&quot; the offer weight of a category for a given period via the **[!UICONTROL Multiplier weight]** field.
+   * Se puede “incrementar” temporalmente la ponderación de la oferta de una categoría durante un periodo determinado mediante el campo **[!UICONTROL Multiplier weight]**.
 
       ![](assets/offer_cat_create_006.png)
 
