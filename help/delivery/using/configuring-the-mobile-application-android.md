@@ -1,5 +1,5 @@
 ---
-title: Configuración de la aplicación móvil Android en Adobe Campaign
+title: Configuración de la aplicación móvil de Android en Adobe Campaign
 description: Descubra cómo configurar su aplicación móvil para Android
 page-status-flag: never-activated
 uuid: aff1a4a0-34e7-4ce0-9eb3-30a8de1380f2
@@ -12,11 +12,11 @@ discoiquuid: 7b5a1ad6-da5a-4cbd-be51-984c07c8d0b3
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9844616f417608051bbff2593d6124d8ff83008c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1516'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Una vez que el paquete esté instalado, puede definir la configuración de la ap
 >Para obtener información sobre cómo configurar la aplicación para iOS y cómo crear un envío para iOS, consulte esta [sección](../../delivery/using/configuring-the-mobile-application.md).
 
 
-## Configuring Android external account {#configuring-external-account-android}
+## Configuración de la cuenta externa de Android {#configuring-external-account-android}
 
 Para Android, hay dos conectores disponibles:
 
@@ -66,7 +66,7 @@ Para elegir el conector que desea utilizar, siga estos pasos:
 
    >[!NOTE]
    >
-   >La asignación de destino predeterminada **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** está relacionada con la tabla de destinatarios. Si desea utilizar una asignación de destino diferente, debe crear una nueva asignación de destino e introducirla en el campo **[!UICONTROL Target mapping]** del servicio. Para obtener más información sobre la creación de destino de mapeo, consulte la [guía de configuración](../../configuration/using/about-custom-recipient-table.md).
+   >La asignación de destino predeterminada **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** está relacionada con la tabla de destinatarios. Si desea utilizar una asignación de destino diferente, debe crear una nueva asignación de destino e introducirla en el campo **[!UICONTROL Target mapping]** del servicio. Para obtener más información sobre la creación de asignación de destino, consulte la [guía de configuración](../../configuration/using/about-custom-recipient-table.md).
 
    ![](assets/nmac_ios.png)
 
@@ -76,15 +76,15 @@ Para elegir el conector que desea utilizar, siga estos pasos:
 
 1. Cree la aplicación de Android. Para obtener más información, consulte [esta sección](../../delivery/using/configuring-the-mobile-application-android.md#creating-android-app).
 
-## Creación de una aplicación móvil Android {#creating-android-app}
+## Creación de una aplicación móvil de Android {#creating-android-app}
 
-Después de crear el servicio, ahora debe crear la aplicación Android:
+Después de crear el servicio, debe crear la aplicación de Android:
 
-1. En el servicio recién creado, haga clic en el **[!UICONTROL Add]** botón para seleccionar el tipo de aplicación.
+1. En el servicio recién creado, haga clic en el botón **[!UICONTROL Add]** para seleccionar el tipo de aplicación.
 
    ![](assets/nmac_service_2.png)
 
-1. Seleccione **[!UICONTROL Create an Android application]** e introduzca un **[!UICONTROL Label]**.
+1. Seleccione **[!UICONTROL Create an Android application]** y escriba un **[!UICONTROL Label]**.
 
    ![](assets/nmac_android.png)
 
@@ -95,10 +95,10 @@ Después de crear el servicio, ahora debe crear la aplicación Android:
    > **[!UICONTROL Integration key]** es totalmente personalizable con un valor de cadena, pero debe ser exactamente igual al especificado en el SDK.
 
 1. Seleccione una de las **[!UICONTROL API version]**:
-   * HTTP. For more information refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http).
-   * HTTPV1. For more information refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
+   * HTTP. Para obtener más información, consulte esta [sección](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http).
+   * HTTPV1. Para obtener más información, consulte esta [sección](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
 
-1. Fill in the **[!UICONTROL Firebase Cloud Messaging settings for the Android connection]** fields.
+1. Rellene los campos **[!UICONTROL Firebase Cloud Messaging settings for the Android connection]**.
 
 1. Haga clic en **[!UICONTROL Finish]**, luego en **[!UICONTROL Save]**. La aplicación de Android ya está lista para su uso en Campaign Classic.
 
@@ -118,13 +118,13 @@ Después de crear el servicio y una nueva aplicación móvil, debe configurar la
 
 Para obtener más información sobre las creaciones de aplicaciones móviles y de servicios, consulte esta [sección](../../delivery/using/configuring-the-mobile-application-android.md#configuring-android-service)
 
-#### Usar la versión de la API HTTP v1{#android-service-httpv1}
+#### Use la versión de la API HTTP v1{#android-service-httpv1}
 
 Para configurar la versión de la API HTTP v1, siga los pasos a continuación:
 
-1. En la **[!UICONTROL Mobile application creation wizard]** ventana, seleccione **[!UICONTROL HTTPV1]** en la **[!UICONTROL API version]** lista desplegable.
+1. En la ventana **[!UICONTROL Mobile application creation wizard]**, seleccione **[!UICONTROL HTTPV1]** en la lista desplegable **[!UICONTROL API version]**.
 
-1. Haga clic **[!UICONTROL Load project json file to extract projet details...]** para cargar directamente el archivo de clave JSON. For more information on how to extract your JSON file, refer to this [page](https://firebase.google.com/docs/admin/setup#initialize-sdk).
+1. Haga clic en **[!UICONTROL Load project json file to extract projet details...]** para cargar directamente el archivo con clave JSON. Para obtener más información sobre cómo extraer el archivo JSON, consulte esta [página](https://firebase.google.com/docs/admin/setup#initialize-sdk).
 
 1. También puede introducir manualmente los siguientes detalles:
    * **[!UICONTROL Project Id]**
@@ -133,11 +133,11 @@ Para configurar la versión de la API HTTP v1, siga los pasos a continuación:
 
    ![](assets/nmac_android_10.png)
 
-1. Haga clic en **[!UICONTROL Test the connection]** para comprobar que la configuración es correcta y que el servidor de mercadotecnia tiene acceso al FCM.
+1. Haga clic en **[!UICONTROL Test the connection]** para comprobar que la configuración es correcta y que el servidor de marketing tiene acceso a FCM.
 
    >[!CAUTION]
    >
-   >Para la implementación de Intermediaria, el **[!UICONTROL Test connection]** botón no comprueba si el servidor MID tiene acceso al servidor FCM.
+   >Para la implementación intermediaria, el botón **[!UICONTROL Test connection]** no comprueba si el servidor MID tiene acceso al servidor FCM.
 
    ![](assets/nmac_android_11.png)
 
@@ -147,10 +147,10 @@ Para configurar la versión de la API HTTP v1, siga los pasos a continuación:
 
 A continuación se muestran los nombres de carga útil de FCM para personalizar aún más la notificación push:
 
-| Tipo de mensaje | Elemento de mensaje configurable (nombre de carga útil FCM) | Opciones configurables (nombre de carga útil de FCM) |
+| Tipo de mensaje | Elemento de mensaje configurable (nombre de carga útil de FCM) | Opciones configurables (nombre de carga útil de FCM) |
 |:-:|:-:|:-:|
 | mensaje de datos | N/A | validate_only |
-| mensaje de notificación | título, cuerpo, android_canal_id, icono, sonido, etiqueta, color, click_action, imagen, ticker, adhesivo, visibilidad, notification_priority, notification_count <br> | validate_only |
+| mensaje de notificación | title, body, android_channel_id, icon, sound, tag, color, click_action, image, ticker, sticky, visibility, notification_priority, notification_count <br> | validate_only |
 
 <br>
 <br>
@@ -159,7 +159,7 @@ A continuación se muestran los nombres de carga útil de FCM para personalizar 
 
 Para configurar la versión de la API HTTP (heredada), siga los pasos a continuación:
 
-1. En la **[!UICONTROL Mobile application creation wizard]** ventana, seleccione **[!UICONTROL HTTP (legacy)]** en la **[!UICONTROL API version]** lista desplegable.
+1. En la ventana **[!UICONTROL Mobile application creation wizard]**, seleccione **[!UICONTROL HTTP (legacy)]** en la lista desplegable **[!UICONTROL API version]**.
 
 1. Introduzca el **[!UICONTROL Project key]** que proporcionó el desarrollador de la aplicación móvil.
 
@@ -173,24 +173,24 @@ Para configurar la versión de la API HTTP (heredada), siga los pasos a continua
 
 A continuación se muestran los nombres de carga útil de FCM para personalizar aún más la notificación push:
 
-| Tipo de mensaje | Elemento de mensaje configurable (nombre de carga útil FCM) | Opciones configurables (nombre de carga útil de FCM) |
+| Tipo de mensaje | Elemento de mensaje configurable (nombre de carga útil de FCM) | Opciones configurables (nombre de carga útil de FCM) |
 |:-:|:-:|:-:|
 | mensaje de datos | N/A | dryRun |
-| mensaje de notificación | título, cuerpo, android_canal_id, icono, sonido, etiqueta, color, click_action <br> | dryRun |
+| mensaje de notificación | title, body, android_channel_id, icon, sound, tag, color, click_action <br> | dryRun |
 
 <br>
 
-## Creating an Android rich notification {#creating-android-delivery}
+## Creación de una notificación enriquecida de Android {#creating-android-delivery}
 
 Con Firebase Cloud Messaging, puede elegir entre dos tipos de mensajes:
 
-* **[!UICONTROL Data message]**, gestionado por la aplicación cliente.
-   <br>Los mensajes se envían directamente a la aplicación móvil, que generará y mostrará la notificación de androides al dispositivo. Los mensajes de datos solo contienen las variables de aplicación personalizadas.
+* **[!UICONTROL Data message]**, gestionado por la aplicación del cliente.
+   <br>Los mensajes se envían directamente a la aplicación móvil, que generará y mostrará la notificación de Android al dispositivo. Los mensajes de datos solo contienen las variables de aplicación personalizadas.
 
 * **[!UICONTROL Notification message]**, gestionado automáticamente por el SDK de FCM.
-   <br> FCM muestra automáticamente el mensaje en los dispositivos de los usuarios en nombre de la aplicación cliente. Los mensajes de notificación contienen un conjunto predefinido de parámetros y opciones, pero pueden personalizarse aún más con variables de aplicación personalizadas.
+   <br> FCM muestra automáticamente el mensaje en los dispositivos de los usuarios en nombre de la aplicación del cliente. Los mensajes de notificación contienen un conjunto predefinido de parámetros y opciones, pero pueden personalizarse aún más con las variables de aplicación personalizadas.
 
-Para obtener más información sobre los tipos de mensajes de Firebase Cloud Messaging, consulte la documentación [de](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages)FCM.
+Para obtener más información sobre los tipos de mensajes de Firebase Cloud Messaging, consulte la documentación [de FCM](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages).
 
 ### Creación de un mensaje de datos {#creating-data-message}
 
@@ -202,7 +202,7 @@ Para obtener más información sobre los tipos de mensajes de Firebase Cloud Mes
 
 1. Seleccione **[!UICONTROL Deliver on Android (android)]** en la lista desplegable **[!UICONTROL Delivery template]**. Añada un **[!UICONTROL Label]** al envío.
 
-1. Haga clic en **[!UICONTROL To]** para definir la población en destinatario. De forma predeterminada, se aplica la asignación de destino **[!UICONTROL Subscriber application]**. Haga clic **[!UICONTROL Add]** para seleccionar el servicio.
+1. Haga clic en **[!UICONTROL To]** para definir la población en destinatario. De forma predeterminada, se aplica la asignación de destino **[!UICONTROL Subscriber application]**. Haga clic en **[!UICONTROL Add]** para seleccionar el servicio.
 
    ![](assets/nmac_android_7.png)
 
@@ -219,7 +219,7 @@ Las **[!UICONTROL Application variables]** se añaden automáticamente en funci�
 
    ![](assets/nmac_android_5.png)
 
-1. Puede agregar información en la configuración anterior **[!UICONTROL Application variables]** si es necesario. **[!UICONTROL Application variables]** debe configurarse en el servicio Android y formar parte de la carga útil de mensajes que se envía al dispositivo móvil.
+1. Puede agregar información en la configuración **[!UICONTROL Application variables]** si es necesario. **[!UICONTROL Application variables]** debe configurarse en el servicio Android y formar parte de la carga de mensajes que se envía al dispositivo móvil.
 
 1. Haga clic en **[!UICONTROL Save]** y realice la entrega.
 
@@ -227,7 +227,7 @@ La imagen y la página web deberían aparecer en la notificación push cuando se
 
 ![](assets/nmac_android_4.png)
 
-### Creación de un mensaje de notificación {#creating-notification-message}
+### Creación de mensajes de notificación {#creating-notification-message}
 
 >[!NOTE]
 >
@@ -241,7 +241,7 @@ La imagen y la página web deberían aparecer en la notificación push cuando se
 
 1. Seleccione **[!UICONTROL Deliver on Android (android)]** en la lista desplegable **[!UICONTROL Delivery template]**. Añada un **[!UICONTROL Label]** al envío.
 
-1. Haga clic en **[!UICONTROL To]** para definir la población en destinatario. De forma predeterminada, se aplica la asignación de destino **[!UICONTROL Subscriber application]**. Haga clic **[!UICONTROL Add]** para seleccionar el servicio.
+1. Haga clic en **[!UICONTROL To]** para definir la población en destinatario. De forma predeterminada, se aplica la asignación de destino **[!UICONTROL Subscriber application]**. Haga clic en **[!UICONTROL Add]** para seleccionar el servicio.
 
    ![](assets/nmac_android_7.png)
 
@@ -255,31 +255,31 @@ La imagen y la página web deberían aparecer en la notificación push cuando se
 
 1. Añada un título y edite el mensaje. Personalice la notificación push con **[!UICONTROL Notification options]**:
 
-   * **[!UICONTROL Channel ID]**:: Configure el ID de canal de la notificación. La aplicación debe crear un canal con este ID de canal antes de recibir cualquier notificación con este ID de canal.
-   * **[!UICONTROL Sound]**:: Configure el sonido para que se reproduzca cuando el dispositivo reciba la notificación.
-   * **[!UICONTROL Color]**:: Configure el color del icono de la notificación.
-   * **[!UICONTROL Icon]**:: Configure el icono de la notificación para que se muestre en los dispositivos de sus perfiles.
-   * **[!UICONTROL Tag]**:: Establezca el identificador utilizado para reemplazar las notificaciones existentes en el cajón de notificaciones.
-   * **[!UICONTROL Click action]**:: Configure la acción asociada con un clic del usuario en la notificación.
+   * **[!UICONTROL Channel ID]**: configure el ID de canal de la notificación. La aplicación debe crear un canal con este ID de canal antes de recibir cualquier notificación.
+   * **[!UICONTROL Sound]**: configure el sonido para que se reproduzca cuando el dispositivo reciba la notificación.
+   * **[!UICONTROL Color]**: configure el color del icono de la notificación.
+   * **[!UICONTROL Icon]**: configure el icono de la notificación para que se muestre en los dispositivos de sus perfiles.
+   * **[!UICONTROL Tag]**: establezca el identificador utilizado para reemplazar las notificaciones existentes en el cajón de notificaciones.
+   * **[!UICONTROL Click action]**: configure en la notificación la acción asociada con el clic del usuario.
 
-   Para obtener más información sobre **[!UICONTROL Notification options]** y cómo rellenar estos campos, consulte la documentación [de](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification)FCM.
+   Para obtener más información sobre **[!UICONTROL Notification options]** y cómo rellenar estos campos, consulte la [documentación de FCM](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification).
 
    ![](assets/nmac_android_8.png)
 
-1. Si la aplicación está configurada con el protocolo de API HTTP v1, puede personalizar aún más la notificación push con lo siguiente **[!UICONTROL HTTPV1 additional options]**:
+1. Si la aplicación está configurada con el protocolo de API HTTP v1, puede personalizar aún más la notificación push con el siguiente **[!UICONTROL HTTPV1 additional options]**:
 
-   * **[!UICONTROL Ticker]**:: Configure el texto del ticker de la notificación. Solo disponible para dispositivos configurados en Android 5.0 Lollipop.
-   * **[!UICONTROL Image]**:: Configure la dirección URL de la imagen para que se muestre en la notificación.
-   * **[!UICONTROL Notification Count]**:: Configure el número de nueva información sin leer para que se muestre directamente en el icono de la aplicación.
-   * **[!UICONTROL Sticky]**:: Establezca en true o false. Si se establece en false, la notificación se descarta automáticamente cuando el usuario hace clic en ella. Si se establece en true, la notificación se seguirá mostrando incluso cuando el usuario haga clic en ella.
-   * **[!UICONTROL Notification Priority]**:: Establezca los niveles de prioridad de la notificación en predeterminados, mínimos, bajos o altos. For more on this, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#NotificationPriority).
-   * **[!UICONTROL Visibility]**:: Establezca los niveles de visibilidad de la notificación en pública, privada o secreta. For more on this, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#visibility).
+   * **[!UICONTROL Ticker]**: configure el texto del valor de la notificación. Solo está disponible para dispositivos configurados con Android 5.0 Lollipop.
+   * **[!UICONTROL Image]**: configure la dirección URL de la imagen para que se muestre en la notificación.
+   * **[!UICONTROL Notification Count]**: configure el número de información nueva sin leer para que se muestre directamente en el icono de la aplicación.
+   * **[!UICONTROL Sticky]**: establezca en true o false. Si se establece en false, la notificación se descarta automáticamente cuando el usuario hace clic en ella. Si se establece en true, la notificación se seguirá mostrando incluso cuando el usuario haga clic en ella.
+   * **[!UICONTROL Notification Priority]**: establezca los niveles de prioridad de la notificación en predeterminados, mínimos, bajos o altos. Para más información, consulte la [documentación de FCM](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#NotificationPriority).
+   * **[!UICONTROL Visibility]**: establezca los niveles de visibilidad de la notificación en pública, privada o secreta. Para más información, consulte la [documentación de FCM](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#visibility).
 
-   Para obtener más información sobre **[!UICONTROL HTTP v1 additional options]** y cómo rellenar estos campos, consulte la documentación [de](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification)FCM.
+   Para obtener más información sobre **[!UICONTROL HTTP v1 additional options]** y cómo rellenar estos campos, consulte la [documentación de FCM](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification).
 
    ![](assets/nmac_android_9.png)
 
-1. Puede agregar información en la configuración anterior **[!UICONTROL Application variables]** si es necesario. **[!UICONTROL Application variables]** debe configurarse en el servicio Android y formar parte de la carga útil de mensajes que se envía al dispositivo móvil.
+1. Puede agregar información en la configuración **[!UICONTROL Application variables]** si es necesario. **[!UICONTROL Application variables]** debe configurarse en el servicio Android y formar parte de la carga de mensajes que se envía al dispositivo móvil.
 
 1. Haga clic en **[!UICONTROL Save]** y realice la entrega.
 
