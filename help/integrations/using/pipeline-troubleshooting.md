@@ -11,18 +11,18 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3e73d7c91fbe7cff7e1e31bdd788acece5806e61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '585'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
 # Solución de problemas de canalización {#pipeline-troubleshooting}
 
-**Se produce un error con el error &quot;Ninguna tarea corresponde a la máscara canalizada@&lt; instancia >&quot;**
+**La canalización produce el error “Ninguna tarea corresponde a la máscara pipelined@&lt; instance >”**
 
 La versión de Adobe Campaign Classic no admite la canalización.
 
@@ -67,8 +67,8 @@ Cuando el [!DNL pipelined] proceso se está ejecutando y no se recuperan los act
 1. Asegúrese de que el activador este activo en Analytics y generando eventos.
 1. Asegúrese de que el [!DNL pipelined] proceso se esté ejecutando.
 1. Busque errores en el [!DNL pipelined] registro.
-1. Busque errores en la página de estado [!DNL pipelined] . Activador descartado, fallas del activador fracasos deben estar en cero.
-1. Compruebe que el nombre del activador esté configurado en la opción **[!UICONTROL NmsPipeline_Config]** . Si hay alguna duda, utilice la opción comodín.
+1. Busque errores en la página de estado [!DNL pipelined]. Activador descartado, fallas del activador fracasos deben estar en cero.
+1. Compruebe que el nombre del activador esté configurado en la opción **[!UICONTROL NmsPipeline_Config]**. Si hay alguna duda, utilice la opción comodín.
 1. Compruebe que Analytics tenga un activador activo y esté generando eventos. Antes de que la configuración esté activa podría haber un retraso de unas horas en Analytics.
 
 **Los Eventos no están vinculados a un cliente**
