@@ -11,11 +11,11 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 discoiquuid: 2e648e63-06d2-4e8f-9934-066a41d18eac
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7527a2d9b76e34fbaa2c9471c44a7a1e7e074d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '309'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -28,11 +28,11 @@ Los distintos flujos de trabajo técnicos relacionados con los mensajes transacc
 
 ## Flujos de trabajo de instancias de control {#control-instance-workflows}
 
-En la instancia de control, tanto si tiene una o varias instancias de ejecución registradas, debe crear un flujo de trabajo de archivado para cada **[!UICONTROL Message Center execution instance]** cuenta externa. Haga clic en el botón **[!UICONTROL Create the archiving workflow]** para crear e iniciar el flujo de trabajo.
+En la instancia de control, tanto si tiene una o varias instancias de ejecución registradas, debe crear un flujo de trabajo de archivado para cada cuenta externa de la **[!UICONTROL Message Center execution instance]**. Haga clic en el botón **[!UICONTROL Create the archiving workflow]** para crear e iniciar el flujo de trabajo.
 
 ![](assets/messagecenter_archiving_002.png)
 
-These workflows can then be accessed from the **Administration > Production > Message Center** folder. Una vez creados, los flujos de trabajo de archivado se inician automáticamente.
+A continuación, se puede acceder a estos flujos de trabajo de archivado desde la carpeta **Administration > Production > Message Center**. Una vez creados, los flujos de trabajo de archivado se inician automáticamente.
 
 <!--**Minimal architecture**
 
