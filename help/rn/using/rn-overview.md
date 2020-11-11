@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 36fef519be93b33d55a96992c1ce234f2eaea696
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 75%
+ht-degree: 95%
 
 ---
 
@@ -30,19 +30,19 @@ Esta es la razón por la que creemos que es fundamental que ejecute la versión 
 
 Se asocia un estado a cada compilación. A continuación encontrará la lista de estados y cómo interpretarlos.
 
-![](assets/do-not-localize/green3.png) **Disponibilidad** general (GA) - Validada en producción y recomendada por Adobe.
+![](assets/do-not-localize/green3.png) **Disponibilidad general** (GA): validada en producción y recomendada por Adobe.
 
 Las **últimas compilaciones** de GA son: [Versión](../../rn/using/gold-standard.md#gs-10) Gold Standard 10 y versión [Campaña 20.2.3](../../rn/using/release--20-2.md#release-20-2-3-build-9182)
 
-![](assets/do-not-localize/limited3.png) **Disponibilidad** limitada (LA): solo implementación a petición.
+![](assets/do-not-localize/limited3.png) **Disponibilidad limitada** (LA): solo implementación a petición.
 
-![](assets/do-not-localize/blue3.png) **Release Candidate** (RC): última versión con nuevas funciones.
+![](assets/do-not-localize/blue3.png) **Versión Candidate** (RC): la última versión con nuevas funcionalidades.
 
-La **última compilación** de RC es la versión [Campaign Classic 20.3](../../rn/using/latest-release.md)
+The **last RC build** is [Campaign Classic 20.3 release](../../rn/using/latest-release.md)
 
-![](assets/do-not-localize/orange3.png) **Ya no está disponible** : se requiere la actualización a una compilación más reciente.
+![](assets/do-not-localize/orange3.png) **Ya no está disponible**: se requiere la actualización a una versión más reciente.
 
-![](assets/do-not-localize/red3.png) **Obsoleto** : la actualización a una compilación más reciente es obligatoria.
+![](assets/do-not-localize/red3.png) **Obsoleto**: la actualización a una versión más reciente es obligatoria.
 
 ## Recomendaciones{#recommendations}
 
@@ -54,14 +54,14 @@ Para mantener la implementación actualizada, asegúrese de leer las páginas [F
 
 Como cliente alojado (servicio administrado o híbrido), debe ponerse en contacto con el equipo de servicio de atención al cliente para que se actualice su entorno.
 
-Como usuario local, puede realizar la actualización. Para ello, debe [descargar la última versión estable](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) y actualizar todos sus entornos. Obtenga más información sobre el [proceso de actualización](../../production/using/build-upgrade.md) y consulte las [preguntas frecuentes sobre la actualización de la compilación](../../platform/using/faq-build-upgrade.md).
+Como usuario On-Premise, puede realizar la actualización. Para ello, debe [descargar la última versión estable](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) y actualizar todos sus entornos. Obtenga más información sobre el [proceso de actualización](../../production/using/build-upgrade.md) y consulte las [preguntas frecuentes sobre la actualización de la compilación](../../platform/using/faq-build-upgrade.md).
 
-### Estándar Gold{#upgrade-for-gold-standard-users}
+### Gold Standard{#upgrade-for-gold-standard-users}
 
-As a Gold Standard user, you will automatically benefit from the Gold Standard upgrade with the [latest GA build](../../rn/using/gold-standard.md#gs-10) without any action. [Más información](https://helpx.adobe.com/es/campaign/kb/gold-standard.html).
+Como usuario de Gold Standard, se beneficiará automáticamente de la actualización de Gold Standard con la [última versión de GA](../../rn/using/gold-standard.md#gs-10) sin ninguna acción. [Más información](https://helpx.adobe.com/es/campaign/kb/gold-standard.html).
 
 >[!NOTE]
->La matriz de compatibilidad para Gold Standard está disponible en la matriz [de compatibilidad](../../rn/using/compatibility-matrix-gs.md)GA.
+>La matriz de compatibilidad para Gold Standard está disponible en la [matriz de compatibilidad de GA](../../rn/using/compatibility-matrix-gs.md).
 
 ## Asistencia y otros vínculos útiles{#support}
 
