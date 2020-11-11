@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 56cbf48a-eb32-4617-8f80-efbfd05976ea
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2802'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -157,22 +157,22 @@ Los elementos que se ponen en cuarentena son tokens de dispositivo.
 **Para iOS: conector binario**
 
 >[!NOTE]
-A partir de la versión 20.3 de la Campaña, el conector binario heredado de iOS está en desuso. Si utiliza este conector, deberá adaptar la implementación en consecuencia. [Más información](https://helpx.adobe.com/campaign/kb/migrate-to-http2.html)
+A partir de la versión 20.3 de Campaign, el conector binario heredado de iOS está en desuso. Si utiliza este conector, debe adaptar la implementación en consecuencia. [Más información](https://helpx.adobe.com/es/campaign/kb/migrate-to-http2.html)
 
-Para cada notificación, Adobe Campaign recibe los errores sincrónicos y asincrónicos del servidor APNs. Para los siguientes errores sincrónicos, Adobe Campaign genera errores leves:
+Adobe Campaign recibe los errores sincrónicos y asincrónicos del servidor APNS para cada notificación. Para los siguientes errores sincrónicos, Adobe Campaign genera errores leves:
 
 * Problemas de longitud de carga útil: sin reintento, el motivo del error es **[!UICONTROL Unreachable]**.
 * Problemas de caducidad del certificado: sin reintento, el motivo del error es **[!UICONTROL Unreachable]**.
 * Se ha perdido la conexión durante el envío: con reintento, el motivo del error es **[!UICONTROL Unreachable]**.
 * Problema de configuración del servicio (certificado no válido, contraseña de certificado no válida, sin certificado): sin reintento, el motivo del error es **[!UICONTROL Unreachable]**.
 
-El servidor APN notifica asincrónicamente a Adobe Campaign que se ha anulado el registro de un token de dispositivo (cuando el usuario ha desinstalado la aplicación móvil). The **[!UICONTROL mobileAppOptOutMgt]** workflow runs every 6 hours to contact the APNs feedback services to update the **AppSubscriptionRcp** table. Para todos los tokens desactivados, el campo **Deshabilitado** se establece como **Verdadero** y la suscripción vinculada a ese dispositivo se excluye automáticamente para futuros entregas.
+El servidor APNS notifica de forma asíncrona a Adobe Campaign que un token de dispositivo no se ha registrado (cuando el usuario ha desinstalado la aplicación móvil). El flujo de trabajo **[!UICONTROL mobileAppOptOutMgt]** se ejecuta cada 6 horas para comunicarse con los servicios de comentarios de APNS y actualizar la tabla **AppSubscriptionRcp**. Para todos los tokens desactivados, el campo **Deshabilitado** se establece como **Verdadero** y la suscripción vinculada a ese dispositivo se excluye automáticamente para futuros entregas.
 
 **Para iOS: conector HTTP/V2**
 
-El protocolo HTTP/V2 permite una retroalimentación y un estado directos para cada envío push. If the HTTP/V2 protocol connector is used, the feedback service is no longer called by the **[!UICONTROL mobileAppOptOutMgt]** workflow. Los tokens no registrados se gestionan de forma diferente entre el conector binario de iOS y el conector HTTP/V2 de iOS. Un token de dispositivo se considera no registrado cuando se desinstala o se vuelve a instalar una aplicación móvil.
+El protocolo HTTP/V2 permite los comentarios y el estado directo para cada notificación remota. Si se utiliza el conector de protocolo HTTP/V2, el flujo de trabajo **[!UICONTROL mobileAppOptOutMgt]** ya no se comunica con el servicio de comentarios. Los tokens no registrados se gestionan de forma diferente entre el conector binario de iOS y el conector HTTP/V2 de iOS. Un token de dispositivo se considera no registrado cuando se desinstala o se vuelve a instalar una aplicación móvil.
 
-Sincrónicamente, si las APN devuelven un estado &quot;no registrado&quot; para un mensaje, el token de destinatario se pondrá inmediatamente en cuarentena.
+Sincrónicamente, si APNS devuelve el estado “no registrado” para un mensaje, el token de destino se pone inmediatamente en cuarentena.
 
 <table> 
  <tbody> 
@@ -225,7 +225,7 @@ Sincrónicamente, si las APN devuelven un estado &quot;no registrado&quot; para 
    <td> No<br /> </td> 
   </tr> 
   <tr> 
-   <td> Certificate issue (password, corruption, etc.) and test connection to APNs issue<br /> </td> 
+   <td> Problema de certificado (contraseña, corrupción, etc.) y conexión de prueba a un problema de APNS<br /> </td> 
    <td> Fallo<br /> </td> 
    <td> Varios mensajes de error según el error<br /> </td> 
    <td> Leve<br /> </td> 
@@ -241,7 +241,7 @@ Sincrónicamente, si las APN devuelven un estado &quot;no registrado&quot; para 
    <td> Sí<br /> </td> 
   </tr> 
   <tr> 
-   <td> APNs message rejection: Unregistration<br /> the user has removed the application or the token has expired<br /> </td> 
+   <td> Rechazo de mensaje APNS: cancelación del registro<br /> el usuario ha eliminado la aplicación o el token ha caducado<br />. </td> 
    <td> Fallo<br /> </td> 
    <td> No registrado<br /> </td> 
    <td> Grave<br /> </td> 
@@ -249,7 +249,7 @@ Sincrónicamente, si las APN devuelven un estado &quot;no registrado&quot; para 
    <td> No<br /> </td> 
   </tr> 
   <tr> 
-   <td> APNs message rejection: all other errors<br /> </td> 
+   <td> Rechazo de mensaje de APNS: todos los demás errores<br /> </td> 
    <td> Fallo<br /> </td> 
    <td> La causa del rechazo del error está presente en el mensaje de error.<br /> </td> 
    <td> Leve<br /> </td> 
@@ -360,7 +360,7 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
    <td> No<br /> </td> 
   </tr> 
     <tr> 
-   <td> Rechazo de mensaje FCM: Argumento no válido<br /> </td> 
+   <td> Rechazo de mensaje de FCM: argumento no válido<br /> </td> 
    <td> Fallo<br /> </td> 
    <td> INVALID_ARGUMENT </td> 
    <td> Ignorado</td> 
@@ -368,7 +368,7 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
    <td> No<br /> </td> 
   </tr>
     <tr> 
-   <td> Rechazo de mensaje FCM: Error de autenticación de terceros<br /> </td> 
+   <td> Rechazo de mensaje de FCM: error de autenticación de terceros<br /> </td> 
    <td> Fallo<br /> </td> 
    <td> THIRD_PARTY_AUTH_ERROR </td> 
    <td> Ignorado</td>
@@ -376,7 +376,7 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
    <td> Sí<br /> </td> 
   </tr>
     <tr> 
-   <td> Rechazo de mensaje FCM: El ID del remitente no coincide<br /> </td> 
+   <td> Rechazo de mensaje de FCM: el ID del remitente no coincide<br /> </td> 
    <td> Fallo<br /> </td> 
    <td> SENDER_ID_MISMATCH </td> 
    <td> Leve</td>
@@ -384,7 +384,7 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
    <td> No<br /> </td> 
   </tr>
     <tr> 
-   <td> Rechazo de mensaje FCM: No registrado<br /> </td> 
+   <td> Rechazo de mensaje de FCM: no registrado<br /> </td> 
    <td> Fallo<br /> </td>
    <td> NO REGISTRADO </td> 
    <td> Grave</td> 
@@ -392,55 +392,55 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
    <td> No<br /> </td> 
   </tr>
     <tr> 
-   <td> Rechazo de mensaje FCM: Interno<br /> </td> 
+   <td> Rechazo de mensaje de FCM: interno<br /> </td> 
    <td> Fallo<br /> </td> 
-   <td> INTERNO </td> 
+   <td> INTERNAL </td> 
    <td> Ignorado</td> 
    <td> Rechazado<br /> </td> 
    <td> Sí<br /> </td> 
   </tr>
     <tr> 
-   <td> Rechazo de mensaje FCM: No disponible<br /> </td> 
+   <td> Rechazo de mensaje de FCM: no está disponible<br /> </td> 
    <td> Fallo<br /> </td> 
-   <td> NO DISPONIBLE</td> 
+   <td> UNAVAILABLE</td> 
    <td> Ignorado</td> 
    <td> Rechazado<br /> </td> 
    <td> Sí<br /> </td> 
   </tr>
     <tr> 
-   <td> Rechazo de mensaje FCM: código de error inesperado<br /> </td> 
+   <td> Rechazo de mensaje de FCM: código de error inesperado<br /> </td> 
    <td> Fallo<br /> </td> 
-   <td> código de error inesperado</td> 
+   <td> unexpected error code</td> 
    <td> Ignorado</td> 
    <td> Rechazado<br /> </td> 
    <td> No<br /> </td> 
   </tr>
   <tr> 
-   <td> Autenticación: Problema de conexión<br /> </td> 
+   <td> Autenticación: problema de conexión<br /> </td> 
    <td> Fallo<br /> </td> 
-   <td> Imposible conectarse al servidor de autenticación </td> 
+   <td> No es posible conectarse al servidor de autenticación </td> 
    <td> Ignorado</td>
    <td> Rechazado<br /> </td> 
    <td> Sí<br /> </td> 
   </tr>
     <tr> 
-   <td> Autenticación: Cliente o ámbito no autorizado en la solicitud.<br /> </td> 
+   <td> Autenticación: cliente o ámbito no autorizado en la solicitud.<br /> </td> 
    <td> Fallo<br /> </td> 
-   <td> authorized_client </td> 
+   <td> unauthorized_client </td> 
    <td> Ignorado</td>
    <td> Rechazado<br /> </td> 
    <td> No<br /> </td> 
   </tr>
     <tr> 
-   <td> Autenticación: El cliente no tiene autorización para recuperar tokenes de acceso mediante este método o el cliente no está autorizado para ninguno de los ámbitos solicitados.<br /> </td> 
+   <td> Autenticación: el cliente no tiene autorización para recuperar los token de acceso mediante este método o no está autorizado para ninguno de los ámbitos solicitados.<br /> </td> 
    <td> Fallo<br /> </td> 
-   <td> authorized_client </td> 
+   <td> unauthorized_client </td> 
    <td> Ignorado</td>
    <td> Rechazado<br /> </td> 
    <td> No<br /> </td> 
   </tr>
     <tr> 
-   <td> Autenticación: Acceso denegado<br /> </td> 
+   <td> Autenticación: acceso denegado<br /> </td> 
    <td> Fallo<br /> </td>
    <td> access_denied</td> 
    <td> Ignorado</td>
@@ -448,9 +448,9 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
    <td> No<br /> </td> 
   </tr>
     <tr> 
-   <td> Autenticación: Correo electrónico no válido<br /> </td> 
+   <td> Autenticación: correo electrónico no válido<br /> </td> 
    <td> Fallo<br /> </td> 
-   <td> Invalid_Grant </td> 
+   <td> invalid_grant </td> 
    <td> Ignorado</td> 
    <td> Rechazado<br /> </td> 
    <td> No<br /> </td> 
@@ -458,29 +458,29 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
     <tr> 
    <td> Autenticación: JWT no válido<br /> </td> 
    <td> Fallo<br /> </td> 
-   <td> Invalid_Grant </td> 
+   <td> invalid_grant </td> 
    <td> Ignorado</td> 
    <td> Rechazado<br /> </td> 
    <td> No<br /> </td> 
   </tr>
     <tr> 
-   <td> Autenticación: Firma JWT no válida<br /> </td> 
+   <td> Autenticación: firma JWT no válida<br /> </td> 
    <td> Fallo<br /> </td> 
-   <td> Invalid_Grant </td> 
+   <td> invalid_grant </td> 
    <td> Ignorado</td> 
    <td> Rechazado<br /> </td> 
    <td> No<br /> </td> 
   </tr>
     <tr> 
-   <td> Autenticación: Audiencia de ámbito de OAuth o token de ID no válida proporcionada<br /> </td> 
+   <td> Autenticación: audiencia de ámbito de OAuth o token de ID no válida proporcionada<br /> </td> 
    <td> Fallo<br /> </td> 
-   <td> authorized_client</td> 
+   <td> unauthorized_client</td> 
    <td> Ignorado</td> 
    <td> Rechazado<br /> </td> 
    <td> No<br /> </td> 
   </tr>
     <tr> 
-   <td> Autenticación: Cliente OAuth deshabilitado<br /> </td> 
+   <td> Autenticación: cliente OAuth deshabilitado<br /> </td> 
    <td> Fallo<br /> </td> 
    <td> disabled_client</td> 
    <td> Ignorado</td> 
