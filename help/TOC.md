@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: b8548e8d609ed099433b97b4c0704d27234e81c0
 workflow-type: tm+mt
 source-wordcount: '2156'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 96%
 + Notas de la versión {#release-notes}
    + [Introducción a las actualizaciones](rn/using/rn-overview.md)
    + [Última versión](rn/using/latest-release.md)
-   + Gold Standard Release {#gs-release}
-      + [Notas de la versión de Gold Standard](rn/using/gold-standard.md)
-      + [Matriz de compatibilidad estándar Gold](rn/using/compatibility-matrix-gs.md)
+   + Versión Gold Standard {#gs-release}
+      + [Notas de la versión Gold Standard](rn/using/gold-standard.md)
+      + [Matriz de compatibilidad de Gold Standard](rn/using/compatibility-matrix-gs.md)
    + Versiones anteriores {#previous-releases}
       + [Versión 20.2](rn/using/release--20-2.md)
       + [Versión 20.1](rn/using/release--20-1.md)
@@ -341,7 +341,7 @@ ht-degree: 96%
       + [Sincronización de audiencias](integrations/using/synchronizing-audiences.md)
       + [Sincronización de aplicaciones web](integrations/using/synchronizing-web-applications.md)
       + [Resolución de problemas de [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
-   + Experience Cloud Triggers {#experience-triggers}
+   + Activadores de Experience Cloud {#experience-triggers}
       + [Comience con [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [Configuración de canalización](integrations/using/configuring-pipeline.md)
       + [Configuración de la E/S de Adobe para Adobe Experience Cloud Triggers](integrations/using/configuring-adobe-io.md)
@@ -606,14 +606,14 @@ ht-degree: 96%
       + [Implementación empresarial](installation/using/enterprise-deployment.md)
       + [Implementación intermediaria](installation/using/mid-sourcing-deployment.md)
       + [Power Booster y Power Cluster](installation/using/power-booster-and-power-cluster.md)
-   + Campaña en Windows {#installing-campaign-in-windows-}
-      + [Antes de instalar Campaña en Windows](installation/using/prerequisites-of-campaign-installation-in-windows.md)
+   + Campaign en Windows {#installing-campaign-in-windows-}
+      + [Antes de instalar Campaign en Windows](installation/using/prerequisites-of-campaign-installation-in-windows.md)
       + [Instalación del servidor](installation/using/installing-the-server.md)
       + [Integración en un servidor web para Windows](installation/using/integration-into-a-web-server-for-windows.md)
       + [Disponibilidad de la consola de cliente para Windows](installation/using/client-console-availability-for-windows.md)
       + [Instalación de la consola de cliente](installation/using/installing-the-client-console.md)
-   + Campaña en Linux  {#installing-campaign-in-linux-}
-      + [Antes de instalar Campaña en Linux](installation/using/prerequisites-of-campaign-installation-in-linux.md)
+   + Campaign en Linux  {#installing-campaign-in-linux-}
+      + [Antes de instalar Campaign en Linux](installation/using/prerequisites-of-campaign-installation-in-linux.md)
       + [Instalación de paquetes con Linux](installation/using/installing-packages-with-linux.md)
       + [Integración en un servidor web para Linux](installation/using/integration-into-a-web-server-for-linux.md)
       + [Disponibilidad de la consola de cliente para Linux](installation/using/client-console-availability-for-linux.md)
@@ -662,7 +662,7 @@ ht-degree: 96%
    + Actualización de Adobe Campaign {#updating-adobe-campaign}
       + [Introducción](production/using/introduction.md)
       + [Realización de una actualización de versión](production/using/build-upgrade.md)
-      + [Procedimiento de actualización (in situ)](production/using/upgrading.md)
+      + [Procedimiento de actualización (On-Premise)](production/using/upgrading.md)
       + [Cambio a Unicode](production/using/switching-to-unicode.md)
       + [Procedimientos de migración](production/using/migration-procedures.md)
    + Mantenimiento de la base de datos {#database-maintenance}
@@ -764,4 +764,4 @@ ht-degree: 96%
       + [Configuraciones específicas en la versión 5.11](migration/using/specific-configurations-in-v5-11.md)
       + [Configuraciones específicas en la versión 6.02](migration/using/specific-configurations-in-v6-02.md)
       + [Configuraciones específicas en la versión 6.10](migration/using/specific-configurations-in-v6-10.md)
-   + [Procedimiento de devolución](migration/using/about-rollback.md)
+   + [Procedimiento de reversión](migration/using/about-rollback.md)
