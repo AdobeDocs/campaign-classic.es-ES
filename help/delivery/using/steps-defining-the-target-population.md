@@ -11,9 +11,9 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16985c1ddcd380cfc1ca4960b35bb5e78628f464
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1576'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Para seleccionar los destinatarios de un envío, siga los siguientes pasos:
 
 1. Seleccione la asignación de destino en la lista desplegable **[!UICONTROL Target mapping]**. La asignación de destino predeterminada de Adobe Campaign es **[!UICONTROL Recipients]**, según el esquema **nms:destinatario** .
 
-   Están disponibles otros destinos de mapeo, y algunos pueden relacionarse con la configuración específica. Para obtener más información sobre las asignaciones de destino, consulte [Selección de una asignación de destino](../../delivery/using/selecting-a-target-mapping.md).
+   Están disponibles otras asignaciones de destino, y algunos pueden relacionarse con la configuración específica. Para obtener más información sobre las asignaciones de destino, consulte [Selección de una asignación de destino](../../delivery/using/selecting-a-target-mapping.md).
 
 1. Haga clic en el botón **[!UICONTROL Add]** para definir los filtros de restricción.
 
@@ -234,7 +234,7 @@ Se puede combinar la definición de un destinatario de prueba específico y el u
 
 En este vídeo aprenderá a añadir semillas y pruebas a un correo electrónico existente y a enviarlo.
 
->[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12&captions=spa)
 
 Asimismo, consulte lo siguiente:
 * [Selección del destino de la prueba](#selecting-the-proof-target)
