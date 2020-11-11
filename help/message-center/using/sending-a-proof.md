@@ -11,11 +11,11 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 discoiquuid: 81090be2-3ed4-4f35-948b-e21af6e19999
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ Puede probar la entrega de mensajes enviando una prueba a una dirección semilla
 
 El envío de una prueba implica realizar el mismo proceso que para una entrega normal (para más información, consulte [esta sección](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)). Sin embargo, para enviar una prueba dentro del Centro de mensajes debe llevar a cabo las siguientes operaciones:
 
-* Create one or more seed addresses (refer to [Managing seed addresses in transactional messages](../../message-center/using/managing-seed-addresses-in-transactional-messages.md)) with test data (refer to [Personalization data](../../message-center/using/personalization-data.md)).
-* Create the message content (refer to [Creating message content](../../message-center/using/creating-message-content.md)).
+* crear una o varias direcciones semilla (consulte [Administración de direcciones semilla en mensajes transaccionales](../../message-center/using/managing-seed-addresses-in-transactional-messages.md)) con datos de prueba (consulte [Personalizar datos](../../message-center/using/personalization-data.md)).
+* Crear el contenido del mensaje (consulte [Crear contenido del mensaje](../../message-center/using/creating-message-content.md)).
 
 Para enviar la prueba:
 
