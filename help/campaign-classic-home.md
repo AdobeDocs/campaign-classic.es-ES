@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: c14d257bb4f206e56a16d45507ee98ccad239fe7
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 77%
+ht-degree: 90%
 
 ---
 
@@ -19,9 +19,11 @@ ht-degree: 77%
 
 * **[Actualice la integración](integrations/using/configuring-adobe-io.md)**<br/> de los activadores de Adobe Experience Cloud El servicio de autenticación de autenticación heredado ha llegado al final de su vida útil. Obtenga información sobre cómo migrar a la E/S de Adobe.
 
-* **[Pasar a la API](https://helpx.adobe.com/es/campaign/kb/migrate-to-apns-http2.html)**<br/> de proveedor de APNs basada en HTTP/2 Aprender a migrar del protocolo binario heredado a la API de proveedor de APN basada en HTTP/2.
+* **[Pasarse a la API de proveedor de APN basada en HTTP/2.](https://helpx.adobe.com/es/campaign/kb/migrate-to-apns-http2.html)**<br/>
+Más información sobre cómo migrar del protocolo binario heredado a la API de proveedor de APN basada en HTTP/2.
 
-* **[Añadir iconos gestuales a los mensajes](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/> Ahora puede insertar iconos gestuales en los mensajes y en la línea de asunto
+* **[Añadir emoticonos a los mensajes](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>
+Ahora puede insertar emoticonos en los mensajes y en la línea de asunto
 
 * **[Obtener ayuda](https://helpx.adobe.com/es/campaign/kb/ac-support.html)**<br/>
 Acceso a preguntas frecuentes, prácticas recomendadas, recursos de ayuda y solicitudes de ayuda
