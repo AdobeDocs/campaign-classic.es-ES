@@ -11,11 +11,11 @@ audience: interaction
 content-type: reference
 topic-tags: tracking-offers
 discoiquuid: 6aae6a10-b03e-41f1-a6e9-29100800bae1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '85'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Las estadísticas se clasifican según tres criterios:
 
    ![](assets/offer_report_perspaces.png)
 
-* Por envíos:
+* Por entrega:
 
    ![](assets/offer_report_perdeliveries.png)
 
