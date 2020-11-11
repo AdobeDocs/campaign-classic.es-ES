@@ -9,11 +9,11 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb96a238f4c8e413377ce6102b065b91badfe6db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '887'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,9 +37,9 @@ Gracias a la integración con el IMS (Sistema de gestión de identidad de Adobe)
 
 Compruebe su [versión y su número integrado](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) en el menú **Help > About...** de la consola del cliente de Campaign.
 
-## ¿Cuáles son las diferencias entre trabajar en las instalaciones y en un entorno alojado?{#what-are-the-differences-when-working-on-premise-vs--in-a-hosted-environment-}
+## ¿Cuáles son las diferencias entre trabajar On-Premise y en un entorno alojado?{#what-are-the-differences-when-working-on-premise-vs--in-a-hosted-environment-}
 
-Adobe Campaign Classic incluye un conjunto de módulos y opciones. The availability of these modules and their configuration can depend on the [type of deployment](../../installation/using/hosting-models.md) of your installation: hosted (Managed Services), hybrid or on-premise.
+Adobe Campaign Classic incluye un conjunto de módulos y opciones. La disponibilidad de estos módulos y su configuración pueden depender del [tipo de implementación](../../installation/using/hosting-models.md) de la instalación: alojado (Managed Services), híbrido o local.
 
 [Haga clic aquí para obtener más información](../../installation/using/capability-matrix.md).
 
@@ -87,7 +87,7 @@ Un flujo de trabajo también puede incluir uno o varios operadores por notificar
 
 [Haga clic aquí para obtener más información](../../delivery/using/about-email-channel.md).
 
-![](assets/do-not-localize/how-to-video.png) [Descubrir esto en vídeo](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)
+![](assets/do-not-localize/how-to-video.png) [Descubra esto en vídeo](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)
 
 ## ¿Cómo se envían mensajes SMS?{#how-to-send-sms-messages-}
 
