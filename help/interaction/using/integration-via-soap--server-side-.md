@@ -11,16 +11,16 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 discoiquuid: 477a2c31-0403-4db1-a372-c75dca58380d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '323'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Integración mediante SOAP (lado del servidor){#integration-via-soap-server-side}
+# Integración mediante SOAP (del lado del servidor){#integration-via-soap-server-side}
 
 Los servicios web SOAP proporcionados para la administración de ofertas son diferentes de los utilizados en Adobe Campaign. Se puede acceder a ellos a través de la dirección URL de interacción descrita en la sección anterior y permiten presentar o actualizar ofertas para un contacto determinado.
 
