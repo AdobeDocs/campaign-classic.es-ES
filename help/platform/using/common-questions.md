@@ -9,11 +9,11 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb96a238f4c8e413377ce6102b065b91badfe6db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '539'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 91%
 
 * [Ver vídeos de tutoriales](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/overview.html)
 * [Examinar opciones de autoayuda](../../platform/using/tutorials.md#how-to-videos)
-* [Lea la sección de casos de uso e introducción](../../platform/using/tutorials.md#step-by-step-guides)
-* ¿No encuentra la respuesta? [Pregunte al experto](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
-* ¿Necesita asistencia? [Opciones de ayuda y asistencia técnica de Campaña de consultas](https://helpx.adobe.com/es/campaign/kb/ac-support.html#acc-support)
+* [Leer la sección de casos de uso e introducción](../../platform/using/tutorials.md#step-by-step-guides)
+* ¿No encuentra la respuesta? [Preguntar a un experto](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
+* ¿Necesita asistencia? [Consulte las opciones de ayuda y asistencia técnica de Campaign](https://helpx.adobe.com/es/campaign/kb/ac-support.html#acc-support)
 
 ## 1. ¿Cómo puedo actualizar Campaign a la versión más reciente? {#how-can-i-upgrade-campaign-to-the-latest-version-}
 
@@ -34,7 +34,7 @@ Adobe Campaign Classic, en concreto, utiliza una amplia gama de tecnologías par
 
 Si utiliza los servicios gestionados de Adobe, puede beneficiarse de la actualización a Campaign Gold Standard. Para obtener más información, consulte [Este artículo](https://helpx.adobe.com/es/campaign/kb/gold-standard.html)
 
-[Lea esta sección](../../production/using/build-upgrade.md) para aprender a actualizar su entorno y leer las preguntas [](../../platform/using/faq-build-upgrade.md) comunes sobre este tema específico.
+[Lea esta sección](../../production/using/build-upgrade.md) para aprender a actualizar su entorno y leer [las preguntas comunes](../../platform/using/faq-build-upgrade.md) sobre este tema específico.
 
 ## 2. ¿Qué es el flujo de trabajo de limpieza de la base de datos? {#what-is-the-database-cleanup-workflow-}
 
