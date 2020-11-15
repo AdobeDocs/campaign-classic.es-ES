@@ -11,9 +11,9 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 discoiquuid: 7f471ac1-cd6a-4371-977e-52d60ce8d968
-translation-type: ht
-source-git-commit: fc014fe5fcadac680af31e86e258a4df7073e0bd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+workflow-type: tm+mt
 source-wordcount: '1002'
 ht-degree: 100%
 
@@ -84,7 +84,7 @@ Para crear una cuenta externa de tipo instancia de ejecución, siga los siguient
 
    ![](assets/messagecenter_create_extaccount_008.png)
 
-   Para obtener más información sobre el acceso a datos federados (FDA), consulte [Acceso a una base de datos externa](../../platform/using/about-fda.md).
+   Para obtener más información sobre el acceso a datos federados (FDA), consulte [Acceso a una base de datos externa](../../installation/using/about-fda.md).
 
 1. Haga clic en **[!UICONTROL Test the connection]** para asegurarse de que la instancia de control y la instancia de ejecución estén relacionadas.
 
