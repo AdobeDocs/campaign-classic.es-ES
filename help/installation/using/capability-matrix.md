@@ -10,15 +10,15 @@ content-type: reference
 topic-tags: architecture-and-hosting-models
 discoiquuid: 582f7ac6-cebe-4b47-8730-bbc16fd6b1bd
 translation-type: tm+mt
-source-git-commit: c03e90b2e2f57606749c86cda343ce5756fec122
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 36%
+ht-degree: 37%
 
 ---
 
 
-# Matriz de capacidad {#capability-matrix-per-model}
+# Matriz de capacidades {#capability-matrix-per-model}
 
 Adobe Campaign Classic incluye un conjunto de módulos y opciones. La disponibilidad de estos módulos y su uso pueden depender del tipo de implementación de la instalación. Este artículo comparte algunos detalles sobre las principales diferencias para determinadas funciones entre implementaciones totalmente alojadas (Managed Services) y locales.
 
@@ -31,7 +31,7 @@ Los distintos modelos de alojamiento se introducen [en esta sección](../../inst
 | Capacidad | Alojado | Híbrido | In situ | Detalles |
 |-----------------------------------------------|------------------|-----------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configuración del servidor de Campaña | Bajo demanda | Disponible | Disponible | [Más información](../../installation/using/the-server-configuration-file.md) |
-| Email BCC | Bajo demanda | Bajo demanda | Disponible | [Más información](../../installation/using/email-archiving.md) |
+| Correo electrónico CCO | Bajo demanda | Bajo demanda | Disponible | [Más información](../../installation/using/email-archiving.md) |
 | Administrar la instancia de ejecución del centro de mensajes | Bajo demanda | Bajo demanda | Disponible | [Más información](../../message-center/using/about-transactional-messaging.md) |
 | Administración de la plataforma Intermediaria | Bajo demanda | Bajo demanda | Disponible | [Más información](../../installation/using/mid-sourcing-server.md) |
 | Procesamiento de bandeja de entrada mediante Litmus | Bajo demanda | Bajo demanda | Disponible | [Más información](../../delivery/using/inbox-rendering.md) |
@@ -46,11 +46,11 @@ Los distintos modelos de alojamiento se introducen [en esta sección](../../inst
 
 ## Federated Data Access{#fda}
 
-Adobe Campaign proporciona la opción **Acceso de Datos Federados** (FDA) para procesar la información almacenada en una o más bases de datos externas: puede acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign. [Más información](../../platform/using/about-fda.md)
+Adobe Campaign proporciona la opción **Acceso de Datos Federados** (FDA) para procesar la información almacenada en una o más bases de datos externas: puede acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign. [Más información](../../installation/using/about-fda.md)
 
 >[!CAUTION]
 >
->Accessing an external database via FDA is only possible for on-premise or hybrid installations, except with the [Snowflake connector](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake).
+>Accessing an external database via FDA is only possible for on-premise or hybrid installations, except with the [Snowflake connector](../../installation/using/configure-fda-snowflake.md).
 
 
 **Consulte también**
