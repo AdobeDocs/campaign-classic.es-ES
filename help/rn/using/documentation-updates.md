@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 36fef519be93b33d55a96992c1ce234f2eaea696
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
 source-wordcount: '3932'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -34,9 +34,9 @@ La sección Privacidad se ha movido y enriquecido con dos secciones nuevas: [Adm
 
 **Nuevas funciones incluidas en la versión 20.3**
 
-Mejoras en las notificaciones push para iOS: [Más información](../../delivery/using/configuring-the-mobile-application.md)
+Mejoras en las notificaciones push para iOS: [más información](../../delivery/using/configuring-the-mobile-application.md)
 
-Mejoras en las notificaciones push para Android: [Más información](../../delivery/using/configuring-the-mobile-application-android.md)
+Mejoras en las notificaciones push para Android: [más información](../../delivery/using/configuring-the-mobile-application-android.md)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
@@ -47,21 +47,21 @@ Se ha actualizado la página Funciones obsoletas y eliminadas. [Más informació
 Las notas de la versión y la matriz de compatibilidad de la versión Gold Standard ya están disponibles en una sección dedicada.
 [Más información](../../rn/using/gold-standard.md#gs-10).
 
-La integración de activadores basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización ahora se ha cambiado y se ha movido a E/S de Adobe. [Más información](../../integrations/using/configuring-adobe-io.md)
+Triggers integration originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Read more](../../integrations/using/configuring-adobe-io.md)
 
 **Otras actualizaciones**
 
 Las páginas de documentación se han actualizado para reflejar la actualización de Tomcat 8.
 
-Se han añadido detalles en la descripción del cuadro &quot;Acerca de&quot; en la sección &quot;Obtención de la versión de Adobe Campaign&quot;. [Más información](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
+Se han añadido detalles en la descripción del cuadro “Acerca de” en la sección “Obtención de la versión de Adobe Campaign”. [Más información](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
 
-Se han añadido directrices para realizar una actualización de compilación a la sección &quot;Actualización de Adobe Campaign Classic&quot;. Más información [Leer más](../../production/using/build-upgrade.md)
+Se han añadido directrices para realizar una actualización de la versión en la sección “Actualización de Adobe Campaign Classic”. Más información [Leer más](../../production/using/build-upgrade.md)
 
-Las preguntas más frecuentes sobre la actualización de la compilación de Campañas se han añadido a las preguntas más frecuentes sobre la Campaña. Más información [Leer más](../../platform/using/faq-build-upgrade.md)
+Las preguntas más frecuentes sobre la actualización de la versión de Campaign se han añadido a las preguntas frecuentes sobre Campaign. Más información [Leer más](../../platform/using/faq-build-upgrade.md)
 
-Los modelos de hospedaje in situ, alojados e híbridos de campaña ahora se describen en una sección dedicada. [Más información](../../installation/using/hosting-models.md)
+Los modelos On-Premise, alojados e híbridos de Campaign ahora se describen en una sección dedicada. [Más información](../../installation/using/hosting-models.md)
 
-La matriz de capacidad de campaña por modelo de alojamiento se ha actualizado y movido en la guía de instalación. [Más información](../../installation/using/capability-matrix.md)
+La matriz de capacidades de Campaign por modelo de alojamiento se ha actualizado y se movió a la guía de instalación. [Más información](../../installation/using/capability-matrix.md)
 
 Se ha mejorado la sección de funciones avanzadas del Sistema de informes de Campaign para detallar cómo utilizar parámetros y variables de URL en informes personalizados. [Más información](../../reporting/using/advanced-functionalities.md)
 
@@ -140,7 +140,7 @@ Se ha actualizado la sección Eliminación de una dirección en cuarentena. Esto
 
 Se han agregado casos de uso sobre cómo [cifrar](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt) y [descifrar](../../workflow/using/importing-data.md#use-case-gpg-decrypt) datos mediante el Panel de control de Campaign y los Flujos de trabajo de la campaña.
 
-La página de integración de Experience Cloud Triggers y Adobe Campaign Classic se ha movido [aquí](../../integrations/using/about-triggers.md).
+La página de integración de Activadores de Experience Cloud y Adobe Campaign Classic se ha movido [aquí](../../integrations/using/about-triggers.md).
 
 ## Julio de 2020 {#release-20-2}
 
@@ -148,7 +148,7 @@ La página de integración de Experience Cloud Triggers y Adobe Campaign Classic
 
 Compatibilidad con emoticonos: [Más información](../../delivery/using/customizing-emoticon-list.md)
 
-Conector de FDA de Azure Synapse: [Más información](../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse)
+Conector de FDA de Azure Synapse: [Más información](../../installation/using/configure-fda-synapse.md)
 
 Leyes de privacidad de Tailandia y Brasil: [Más información](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
@@ -189,7 +189,7 @@ Se ha movido y actualizado la sección Prácticas recomendadas del paquete de da
 
 ## de abril de 2020 {#april-2020}
 
-La tabla de derechos de FDA se ha movido a la documentación de Acceso a una base de datos externa (FDA). [Más información](../../platform/using/remote-database-access-rights.md)
+La tabla de derechos de FDA se ha movido a la documentación de Acceso a una base de datos externa (FDA). [Más información](../../installation/using/remote-database-access-rights.md)
 
 Las preguntas frecuentes se han actualizado con sugerencias sobre cómo borrar la caché en blanco y en disco. [Más información](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear)
 
@@ -233,9 +233,9 @@ Se ha mejorado la sección de archivado de correo electrónico. [Más informaci�
 
 **Nuevas funciones incluidas en la versión 20.1**
 
-Conector de FDA de Snowflake: [Más información](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake)
+Conector de FDA de Snowflake: [Más información](../../installation/using/configure-fda-snowflake.md)
 
-Mejora del conector FDA de Hadoop: [Más información](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3)
+Mejora del conector FDA de Hadoop: [Más información](../../installation/using/configure-fda-hadoop.md)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
@@ -259,7 +259,7 @@ La guía [Envío de notificaciones push](../../delivery/using/about-mobile-app-c
 
 El nuevo parámetro para la configuración de informes de direcciones URL se ha documentado [aquí](../../reporting/using/properties-of-the-report.md#defining-additional-settings).
 
-La página **matriz de funciones locales y alojadas de Campaign Classic** se ha actualizado con los nuevos conectores de FDA. [Más información](../../installation/using/capability-matrix.md).
+La página **matriz de funciones On-Premise y alojadas de Campaign Classic** se ha actualizado con los nuevos conectores de FDA. [Más información](../../installation/using/capability-matrix.md).
 
 Se ha actualizado la página **matriz de funciones de Campaign Classic**. [Más información](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)
 
@@ -293,7 +293,7 @@ Se ha añadido un ejemplo de cómo utilizar una variable de instancia en un fluj
 
 La opción &quot;WdbcOptions_TempDbName&quot; se ha agregado a la lista de opciones de Campaign. [Más información](../../installation/using/configuring-campaign-options.md)
 
-La página matriz de la FDA se ha movido [aquí](../../platform/using/remote-database-access-rights.md).
+La página matriz de la FDA se ha movido [aquí](../../installation/using/remote-database-access-rights.md).
 
 La página matriz de derechos de acceso se ha movido [aquí](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/getting-started/administration-basics/assets/accessrights.pdf).
 
@@ -357,7 +357,7 @@ Se ha agregado una recomendación a la documentación del canal SMS para evitar 
 
 Se agregó información en la documentación de actividad del Planificador sobre cómo evitar la ejecución simultánea de un flujo de trabajo. [Más información](../../workflow/using/scheduler.md)
 
-Se han añadido a la documentación los pasos para configurar el procesamiento de la Bandeja de entrada para las instalaciones locales. [Más información](../../delivery/using/inbox-rendering.md#activating-inbox-rendering)
+Se han añadido a la documentación los pasos para configurar el procesamiento de la Bandeja de entrada para las instalaciones On-Premise. [Más información](../../delivery/using/inbox-rendering.md#activating-inbox-rendering)
 
 ## Septiembre de 2019 {#september-2019}
 
@@ -413,7 +413,7 @@ Se ha creado un nuevo artículo de la base de conocimiento sobre el uso del cat�
 
 La sección de actividad de subflujo de trabajo se ha mejorado con un ejemplo de uso. [Más información](../../workflow/using/sub-workflow.md)
 
-The [Campaign Classic On-premise &amp; Hosted capability matrix](../../installation/using/capability-matrix.md) page has been updated with information relating to Email BCC.
+La página [matriz de capacidades alojadas y On-Premise de Campaign Classic](../../installation/using/capability-matrix.md) se ha actualizado con información relacionada con el CCO de los correos electrónicos.
 
 La documentación de Mensajería transaccional se ha actualizado con una nota relativa a la publicación de plantillas. [Más información](https://docs.campaign.adobe.com/doc/AC/en/MCE_Template_publication.html)
 
