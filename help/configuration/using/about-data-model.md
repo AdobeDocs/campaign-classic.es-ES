@@ -1,6 +1,6 @@
 ---
-title: Acerca del modelo de datos de Adobe Campaign Classic
-description: Obtenga información sobre cómo ampliar el modelo de datos de Campaign, editar esquemas, utilizar API y mucho más.
+title: Introducción al modelo de datos de Campaign Classic
+description: Obtenga información sobre cómo ampliar el modelo de datos de Campaign, editar esquemas, utilizar API y mucho más
 page-status-flag: never-activated
 uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
 contentOwner: sauviat
@@ -10,35 +10,21 @@ content-type: reference
 topic-tags: schema-reference
 discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 8%
+source-wordcount: '983'
+ht-degree: 7%
 
 ---
 
 
-# About the Campaign data model{#about-data-model}
+# Introducción al modelo de datos de Campaign {#about-data-model}
 
-En esta sección se describen los conceptos básicos del modelo de datos de Adobe Campaign Classic para comprender mejor las tablas integradas de Campaña y su interacción.
-
-El modelo de datos conceptuales de la base de datos de Adobe Campaign consta de un conjunto de tablas integradas y su interacción.
-
-Para acceder a la descripción de cada tabla, vaya a **[!UICONTROL Admin > Configuration > Data schemas]**, seleccione un recurso en la lista y haga clic en la **[!UICONTROL Documentation]** ficha.
-
-![](assets/data-model_documentation-tab.png)
-
-Para obtener más información sobre la descripción del modelo de datos Campaign Classic predeterminado, consulte [esta sección](../../configuration/using/data-model-description.md).
-
-La estructura física y lógica de los datos que se llevan en la aplicación se describe en XML. Obedece a una gramática específica de Adobe Campaign, denominada esquema. For more on Adobe Campaign schemas, read out [this section](../../configuration/using/about-schema-reference.md).
+El modelo de datos conceptuales de la base de datos de Adobe Campaign consta de un conjunto de tablas integradas y su interacción. Las tablas principales y los conceptos se enumeran en esta página.
 
 ## Información general {#data-model-overview}
 
 Adobe Campaign se basa en una base de datos relacional que contiene tablas vinculadas entre sí. La estructura básica del modelo de datos de Adobe Campaign se puede describir de la siguiente manera.
-
->[!NOTE]
->
->Para obtener más información sobre la arquitectura del modelo de datos de Campaña y las optimizaciones relacionadas, consulte [esta sección](../../configuration/using/data-model-best-practices.md#data-model-architecture).
 
 ### Tabla de destinatarios {#recipient-table}
 
@@ -100,7 +86,7 @@ Para obtener más información sobre la configuración de esquemas de extensión
 
 ## Uso de una lista de destinatarios personalizada {#custom-recipient-table}
 
-Al diseñar el modelo de datos de Adobe Campaign, puede utilizar la tabla [de Destinatarios](#default-recipient-table)lista para usar o decidir crear una tabla de destinatarios no estándar para almacenar sus perfiles de mercadotecnia.
+Al diseñar el modelo de datos de Adobe Campaign, puede utilizar la tabla [de Destinatarios](#default-recipient-table)lista para usar o decidir crear una tabla [de destinatario](../../configuration/using/about-custom-recipient-table.md) personalizada para almacenar los perfiles de mercadotecnia.
 
 De hecho, si el modelo de datos no se ajusta a la estructura centrada en el destinatario, puede configurar otras tablas como la dimensión de segmentación dentro de Adobe Campaign. Por ejemplo, esto puede ser relevante cuando se necesita el destinatario de hogares, cuentas (como teléfonos móviles) y compañías/sitios en lugar de simplemente destinatarios.
 
@@ -112,22 +98,29 @@ Todos los principios y pasos necesarios para utilizar una tabla de destinatario 
 
 Las ventajas de utilizar una tabla de Destinatario personalizada son las siguientes:
 
-### Modelo de datos flexible {#flexible-data-model}
+* **Modelo** de datos flexible: la tabla de Destinatarios lista para usar es inútil si no necesita la mayoría de los campos de la tabla de Destinatarios o si el modelo de datos no está centrado en el destinatario.
 
-La tabla de Destinatarios lista para usar es inútil si no necesita la mayoría de los campos de la tabla de Destinatarios o si el modelo de datos no está centrado en el destinatario.
+* **Escalabilidad** : los volúmenes grandes requieren una tabla optimizada con pocos campos para un diseño eficiente. La tabla de Destinatarios lista para usar tendría demasiados campos inútiles, lo que podría afectar al rendimiento y la falta de eficiencia.
 
-### Escalabilidad {#scalability}
+* **Ubicación** de datos: si los datos residen en una base de datos de marketing existente externa, puede que sea necesario un esfuerzo excesivo para utilizar la tabla de Destinatarios lista para usar. Crear uno nuevo basado en una estructura existente es más sencillo.
 
-Los grandes volúmenes requieren una tabla optimizada con pocos campos para un diseño eficiente. La tabla de Destinatarios lista para usar tendría demasiados campos inútiles, lo que podría afectar al rendimiento y la falta de eficiencia.
-
-### Ubicación de datos {#data-location}
-
-Si los datos residen en una base de datos de mercadotecnia existente externa, es posible que sea necesario un esfuerzo excesivo para utilizar la tabla de Destinatarios lista para usar. Crear uno nuevo basado en una estructura existente es más sencillo.
-
-### Fácil migración {#easy-migration}
-
-No se necesita mantenimiento para comprobar que todas las extensiones siguen siendo válidas al actualizar.
+* **Fácil migración** : no se necesita mantenimiento para comprobar que todas las extensiones siguen siendo válidas tras la actualización.
 
 >[!IMPORTANT]
 >
 >El uso de una tabla de destinatario personalizada está reservado para usuarios avanzados y está sujeto a algunas limitaciones. Para obtener más información, consulte [esta sección](../../configuration/using/about-custom-recipient-table.md).
+
+## Temas relacionados
+
+Obtenga más información sobre el modelo de datos de Campaña en estas secciones:
+
+* **Descripción de las tablas** principales: para obtener más información sobre la descripción del modelo de datos Campaign Classic predeterminado, consulte [esta sección](../../configuration/using/data-model-description.md).
+
+* **Descripción completa de cada tabla** : para acceder a la descripción completa de cada tabla, vaya a **[!UICONTROL Admin > Configuration > Data schemas]**, seleccione un recurso de la lista y haga clic en la **[!UICONTROL Documentation]** ficha.
+
+   ![](assets/data-model_documentation-tab.png)
+
+
+* **Esquemas** de campaña: la estructura física y lógica de los datos que se llevan en la aplicación se describe en XML. Obedece a una gramática específica de Adobe Campaign, denominada esquema. For more on Adobe Campaign schemas, read out [this section](../../configuration/using/about-schema-reference.md).
+
+* **Prácticas recomendadas** del modelo de datos: Conozca la arquitectura del modelo de datos de Campaña y las prácticas recomendadas relacionadas, en [esta sección](../../configuration/using/data-model-best-practices.md#data-model-architecture).
