@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: hybrid-and-hosted-models
 discoiquuid: f5244ab8-2421-4d76-bcf6-3574e68ea4e9
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 6%
@@ -30,7 +30,7 @@ Como cliente alojado, la mayoría de los pasos de instalación y configuración 
 * Instalación de paquetes integrados: consulte [esta sección](../../installation/using/installing-campaign-standard-packages.md).
 * Capacidad de entrega: configure las reglas [y](../../installation/using/email-deliverability.md#mx-configuration) formatos del correo electrónico [de](../../installation/using/email-deliverability.md#managing-email-formats)MX. Obtenga más información sobre las herramientas de entrega y las prácticas recomendadas leyendo la guía [de](../../delivery/using/deliverability-key-points.md) introducción y la documentación [](../../delivery/using/about-deliverability.md)detallada.
 * Configurar opciones de Campaña: consulte [esta sección](../../installation/using/configuring-campaign-options.md).
-* Configurar una base de datos externa (Acceso de datos federado): consulte [esta sección](../../platform/using/about-fda.md).
+* Configurar una base de datos externa (Acceso de datos federado): consulte [esta sección](../../installation/using/about-fda.md).
 * Configuración de conectores CRM: consulte [esta sección](../../platform/using/crm-connectors.md).
 * Para obtener más información sobre los principios de implementación de intermediaria, consulte [esta sección](../../installation/using/mid-sourcing-deployment.md).
 
