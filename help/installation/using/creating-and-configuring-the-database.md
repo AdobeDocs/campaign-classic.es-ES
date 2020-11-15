@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: initial-configuration
 discoiquuid: 7dd8a6a5-7cca-4e92-8226-1b9e450dfaf9
 translation-type: tm+mt
-source-git-commit: 1781648fc17d729f451664204f99a77dfaa8c824
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1301'
 ht-degree: 2%
 
 ---
@@ -54,7 +54,7 @@ Seleccione el motor de base de datos entre los de la lista desplegable.
 
 ![](assets/s_ncs_install_db_select_engine.png)
 
-Las bases de datos admitidas se presentan en la sección Matriz [de](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)compatibilidad.
+Las bases de datos admitidas se enumeran en la matriz [de](../../rn/using/compatibility-matrix.md)compatibilidad de Campañas.
 
 Identifique el servidor y elija el tipo de operación que desea realizar. En este caso, **[!UICONTROL Create or recycle a database]**.
 
