@@ -11,9 +11,9 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 discoiquuid: c0eb06fd-192c-4ee4-9a38-c9bedbe6aea0
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+workflow-type: tm+mt
 source-wordcount: '2955'
 ht-degree: 100%
 
@@ -103,7 +103,7 @@ Una vez que se ha creado el perfil del operador, puede agregar o actualizar su i
 
 >[!NOTE]
 >
->El campo **[!UICONTROL Session timeout]** permite ajustar el retraso antes del tiempo de espera de sesión FDA. Para más información, consulte [Acerca del acceso de datos federado](../../platform/using/about-fda.md).
+>El campo **[!UICONTROL Session timeout]** permite ajustar el retraso antes del tiempo de espera de sesión FDA. Para más información, consulte [Acerca del acceso de datos federado](../../installation/using/about-fda.md).
 
 ### Zona horaria del operador {#time-zone-of-the-operator}
 
