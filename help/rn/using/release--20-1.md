@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 99%
@@ -47,7 +47,7 @@ _lunes, 17 de febrero de 2020_
  <tbody> 
   <tr> 
    <td> <p>Snowflake es un almacén de datos en la nube completamente gestionado, diseñado para escalar tanto en almacenamiento como en computación. Con este nuevo conector, Adobe Campaign ahora puede aprovechar el poder de Snowflake para realizar la segmentación de Big Data. Este conector está disponible para todos los clientes, incluido Adobe.</p>
-    <p>Para obtener más información, consulte la <a href="../../platform/using/specific-configuration-database.md#configure-access-to-snowflake">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">videotutorial</a>.</p>
+    <p>Para obtener más información, consulte la <a href="../../installation/using/configure-fda-snowflake.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">videotutorial</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -62,7 +62,7 @@ _lunes, 17 de febrero de 2020_
  <tbody> 
   <tr> 
    <td> <p>Se ha mejorado el conector de FDA Hadoop para admitir tanto Hadoop 3.0 como Cloudera.</p>
-    <p>Para obtener más información, consulte la <a href="../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3">documentación detallada</a>.</p>
+    <p>Para obtener más información, consulte la <a href="../../installation/using/configure-fda-hadoop.md">documentación detallada</a>.</p>
    </td> 
   </tr> 
  </tbody> 
