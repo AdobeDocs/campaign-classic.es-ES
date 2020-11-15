@@ -1,8 +1,6 @@
 ---
 title: Acerca de los servicios Web
-seo-title: Acerca de los servicios Web
 description: Acerca de los servicios Web
-seo-description: null
 page-status-flag: never-activated
 uuid: f0b21cb3-aa75-4f54-a9f5-64e880f93e53
 contentOwner: sauviat
@@ -12,9 +10,9 @@ content-type: reference
 topic-tags: api
 discoiquuid: 65919173-3ce0-4d98-936b-f4581df536ae
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75ab345e3b9360229ecc3ba9529a33e320228fa0
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '658'
 ht-degree: 5%
 
 ---
@@ -31,7 +29,7 @@ Las API de Adobe Campaign se utilizan en JavaScript dentro de la aplicación y e
 >[!IMPORTANT]
 >
 >El número de llamadas al motor autorizadas por día varía según el contrato de licencia. Para obtener más información, consulte [esta página](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-classic---product-description.html).\
->En [esta documentación](https://docs.adobe.com/content/help/es-ES/campaign-classic/technicalresources/api/index.html)específica encontrará una lista de todas las API, incluida su descripción completa.
+>En [esta documentación](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)específica encontrará una lista de todas las API, incluida su descripción completa.
 
 ## Requisitos previos {#prerequisites}
 
