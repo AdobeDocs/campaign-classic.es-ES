@@ -1,8 +1,6 @@
 ---
-title: Configuración del canal de aplicaciones para dispositivos móviles
-seo-title: Configuración del canal de aplicaciones para dispositivos móviles
-description: Configuración del canal de aplicaciones para dispositivos móviles
-seo-description: null
+title: Integrar SDK de Campaña
+description: Descubra cómo integrar el SDK de Campaña en su aplicación móvil
 page-status-flag: never-activated
 uuid: aff1a4a0-34e7-4ce0-9eb3-30a8de1380f2
 contentOwner: sauviat
@@ -11,16 +9,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: 7b5a1ad6-da5a-4cbd-be51-984c07c8d0b3
-translation-type: ht
-source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
-workflow-type: ht
-source-wordcount: '957'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+workflow-type: tm+mt
+source-wordcount: '948'
+ht-degree: 97%
 
 ---
 
 
-# Integración del SDK de Campaign en la aplicación móvil {#integrating-campaign-sdk-into-the-mobile-application}
+# Integración del SDK de Campaña con la aplicación {#integrating-campaign-sdk-into-the-mobile-application}
 
 Los SDK de Campaign para iOS y Android son uno de los componentes del módulo Mobile App Channel.
 
@@ -30,7 +28,7 @@ Los SDK de Campaign para iOS y Android son uno de los componentes del módulo Mo
 
 El objetivo del SDK es facilitar la integración de una aplicación móvil en la plataforma de Adobe Campaign.
 
-Para obtener más información sobre las diferentes versiones de iOS y Android compatibles, consulte la [matriz de compatibilidad](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html#MobileSDK) .
+Para obtener más información sobre las diferentes versiones de iOS y Android compatibles, consulte la [matriz de compatibilidad](../../rn/using/compatibility-matrix.md#MobileSDK) .
 
 ## Cargando SDK de Campaign {#loading-campaign-sdk}
 
