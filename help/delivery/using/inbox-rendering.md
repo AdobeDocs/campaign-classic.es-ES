@@ -9,9 +9,9 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 72e974b8-415a-47ab-9804-b15957787198
-translation-type: ht
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 3d6515ca291715e5e02f9b5404803e9087555284
+workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Para los clientes alojados e híbridos, el servicio de asistencia técnica y con
 Para las instalaciones in situ, siga los pasos a continuación para configurar la renderización de la Bandeja de entrada.
 
 1. Mediante el menú **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]**, instale el paquete **[!UICONTROL Inbox rendering (IR)]**. Para obtener más información, consulte [Instalación de paquetes estándar de Campaign Classic](../../installation/using/installing-campaign-standard-packages.md).
-1. Configure una cuenta externa del tipo HTTP mediante el nodo **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]**. Para obtener más información, consulte [Creación de una cuenta externa](../../platform/using/external-accounts.md#creating-an-external-account).
+1. Configure una cuenta externa del tipo HTTP mediante el nodo **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]**. Para obtener más información, consulte [Creación de una cuenta externa](../../installation/using/external-accounts.md#creating-an-external-account).
 1. Defina los parámetros de cuenta externa de la siguiente manera:
    * **[!UICONTROL Label]**: Información del servidor de envío
    * **[!UICONTROL Internal name]**: deliverabilityInstance
