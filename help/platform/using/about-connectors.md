@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: connectors
 discoiquuid: a84a73a9-9930-449f-8b81-007a0e9d5233
 translation-type: tm+mt
-source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 96%
@@ -26,7 +26,7 @@ Adobe Campaign proporciona varios conectores que le permiten comunicarse con apl
 
 Estos conectores son:
 
-* El conector FDA (**Acceso de Datos Federados**) le permite conectar Campaign a una o más bases de datos externas y procesar la información almacenada en ellas sin afectar a los datos. [Más información](../../platform/using/about-fda.md).
+* El conector FDA (**Acceso de Datos Federados**) le permite conectar Campaign a una o más bases de datos externas y procesar la información almacenada en ellas sin afectar a los datos. [Más información](../../installation/using/about-fda.md).
 * Los conectores CRM permiten intercambiar datos entre Adobe Campaign y su solución de CRM mediante las actividades de flujo de trabajo dedicadas. [Más información](../../platform/using/crm-connectors.md).
 * Los conectores de datos de Analytics (antes **Adobe Genesis**) le permite compartir datos entre Adobe Campaign y Adobe Analytics. [Más información](../../platform/using/adobe-analytics-data-connector.md).
 
