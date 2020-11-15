@@ -11,9 +11,9 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 discoiquuid: 27c8e443-ee6b-4d58-bc2d-81cf8391c5de
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 100%
 
@@ -86,7 +86,7 @@ Puede optimizar la personalización mediante una opción dedicada: **[!UICONTROL
 
 Durante el análisis de envío, esta opción crea y ejecuta automáticamente un flujo de trabajo que almacena todos los datos vinculados con el objetivo en una tabla temporal, incluidos los datos de tablas vinculadas en FDA.
 
-Marcar esta opción puede mejorar el rendimiento del análisis de envío cuando se procesan muchos datos, especialmente si los datos de personalización proceden de una tabla externa a través de FDA. Para obtener más información, consulte [Acceso a una base de datos externa (FDA)](../../platform/using/additional-options.md#optimizing-email-personalization-with-external-data).
+Marcar esta opción puede mejorar el rendimiento del análisis de envío cuando se procesan muchos datos, especialmente si los datos de personalización proceden de una tabla externa a través de FDA. Para obtener más información, consulte [Acceso a una base de datos externa (FDA)](../../installation/using/about-fda.md).
 
 Por ejemplo, si existen problemas de rendimiento al realizar envíos a una gran cantidad de destinatarios mientras utiliza muchos campos personalizados o bloques personalizados en el contenido de sus mensajes, esta opción puede acelerar la gestión de la personalización y, por tanto, la entrega de los mensajes.
 
@@ -127,4 +127,4 @@ Si establece esta opción en 0, no va a haber límite de tiempo para la fase de 
 
 Obtenga información sobre cómo agregar un campo de personalización a la línea de asunto y el contenido de un envío de correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
