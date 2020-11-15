@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 title: Documentación del producto Adobe Campaign Classic
 topic: Premium
 translation-type: tm+mt
-source-git-commit: c14d257bb4f206e56a16d45507ee98ccad239fe7
+source-git-commit: 75ab345e3b9360229ecc3ba9529a33e320228fa0
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 90%
+source-wordcount: '250'
+ht-degree: 85%
 
 ---
 
@@ -51,11 +51,11 @@ Conozca las funcionalidades de seguimiento y procesos en Campaign
     <p>
   </td>
    <td>
-    <a href="https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html">
+    <a href="production/using/build-upgrade.md">
       <img alt="Generar actualización" src="platform/using/assets/upgrade.png" />
     </a>
     <div>
-      <a href="https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html">
+      <a href="production/using/build-upgrade.md">
     <strong>Actualice a la última versión</strong>
     </a>
     </div>
@@ -84,9 +84,9 @@ Conozca las funcionalidades de seguimiento y procesos en Campaign
 | Páginas útiles | Recursos para desarrolladores |
 |---|---|
 | [Notas de la versión](/help/rn/using/latest-release.md) | [Lista de mensajes de error](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
-| [Videotutoriales](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/overview.html) | [Modelo de datos de Campaign](configuration/using/about-data-model.md) |
-| [Matriz de compatibilidad](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html) | [JSAPI de Campaign](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
+| [Videotutoriales](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html) | [Modelo de datos de Campaign](configuration/using/about-data-model.md) |
+| [Matriz de compatibilidad](rn/using/compatibility-matrix.md) | [JSAPI de Campaign](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | [Introducción a Campaign](platform/using/about-adobe-campaign-classic.md) | [Guía de implementación](https://helpx.adobe.com/es/campaign/kb/acc-implementation.html) |
 | [Actualización a Gold Standard ](https://helpx.adobe.com/es/campaign/kb/gold-standard.html) | [Guía de seguimiento](https://helpx.adobe.com/es/campaign/kb/acc-tracking.html) |
-| [Funciones obsoletas](https://helpx.adobe.com/es/campaign/kb/deprecated-and-removed-features.html) | [Lista de comprobación de seguridad y privacidad](https://helpx.adobe.com/es/campaign/kb/acc-security.html) |
-| [Panel de control de Campaign](https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html) | [Directrices de monitorización](production/using/monitoring-guidelines.md) |
+| [Funciones obsoletas](rn/using/deprecated-features.md) | [Lista de comprobación de seguridad y privacidad](https://helpx.adobe.com/es/campaign/kb/acc-security.html) |
+| [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) | [Directrices de monitorización](production/using/monitoring-guidelines.md) |
