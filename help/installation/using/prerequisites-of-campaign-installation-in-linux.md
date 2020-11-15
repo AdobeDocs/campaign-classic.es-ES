@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 discoiquuid: 3e2ccb70-6c0c-435f-9c06-f3e5e40367bb
 translation-type: tm+mt
-source-git-commit: f8539433274e531e34b7512ce1b6385d67e8e332
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 4%
+source-wordcount: '896'
+ht-degree: 2%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 4%
 
 En esta sección se detallan los pasos de configuración preliminares necesarios antes de instalar Adobe Campaign.
 
-La configuración técnica y de software necesaria para instalar Adobe Campaign se detalla en la matriz [de](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)compatibilidad.
+La configuración técnica y de software necesaria para instalar Adobe Campaign se detalla en la matriz [de](../../rn/using/compatibility-matrix.md)compatibilidad.
 
 Como recordatorio, es necesario instalar y configurar correctamente los siguientes componentes:
 
-* Apache, consulte la matriz [de](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)compatibilidad,
+* Apache, consulte la matriz [de](../../rn/using/compatibility-matrix.md)compatibilidad,
 * Java JDK y OpenJDK, consulte [Java Development Kit - JDK](../../installation/using/application-server.md#java-development-kit---jdk),
 * Bibliotecas, consulte [Bibliotecas](#libraries),
 * Capas de acceso a la base de datos, consulte las capas [de acceso a la](#database-access-layers)base de datos,
@@ -169,7 +169,7 @@ Las siguientes configuraciones son necesarias con CentOS:
 
 Las capas de acceso para el motor de base de datos que está utilizando deben estar instaladas en el servidor y ser accesibles a través de la cuenta de Adobe Campaign. Las versiones y los modos de instalación pueden variar en función del motor de base de datos utilizado.
 
-La versión piloto admitida se detalla en la matriz [de](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)compatibilidad.
+La versión piloto admitida se detalla en la matriz [de](../../rn/using/compatibility-matrix.md)compatibilidad.
 
 Consulte también la sección [Base de datos](../../installation/using/database.md) general.
 
