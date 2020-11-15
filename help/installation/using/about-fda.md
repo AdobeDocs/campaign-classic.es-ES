@@ -1,0 +1,79 @@
+---
+title: Acceso a una base de datos externa
+description: Obtenga información sobre cómo acceder y procesar datos en una base de datos externa
+page-status-flag: never-activated
+uuid: b84359b9-c584-431d-80d5-71146d9b6854
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: platform
+content-type: reference
+topic-tags: connectors
+discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
+translation-type: tm+mt
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+workflow-type: tm+mt
+source-wordcount: '590'
+ht-degree: 40%
+
+---
+
+
+# Introducción a Acceso de datos federado {#about-federated-data-access}
+
+Adobe Campaign proporciona la opción **Acceso de Datos Federados** (FDA) para procesar la información almacenada en una o más bases de datos externas: puede acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign.
+
+## Requisitos previos {#operating-principle}
+
+La opción FDA le permite ampliar el modelo de datos en una base de datos de terceros. Detecta automáticamente la estructura de las tablas de destino y utiliza datos de los orígenes SQL.
+
+Para utilizar esta capacidad, los requisitos previos se enumeran a continuación:
+
+* **Configuración**: excepto para el Snowflake, necesita un modelo **de alojamiento local** o **híbrido** para configurar el Acceso de datos federado. [Más información](../../installation/using/hosting-models.md)
+* **Versión** de base de datos externa: necesita tener una base de datos externa que sea compatible con el módulo de Adobe Campaign FDA. The list of database systems and compatible versions is detailed in Campaign [Compatibility matrix](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA).
+* **Permissions**: users must also have the [necessary permissions](../../installation/using/remote-database-access-rights.md) in Adobe Campaign and on the external database.
+
+## Limitaciones {#limitations}
+
+La opción FDA se realiza para manipular los datos en bases de datos externas en modo de lote en los flujos de trabajo. Para evitar problemas de rendimiento, no se recomienda utilizar el módulo FDA en el contexto de operaciones unitarias, como: personalización, interacción, mensajes en tiempo real, etc.
+
+Evite en la medida de lo posible las operaciones que requieran utilizar tanto Adobe Campaign como la base de datos externa. Para ello, puede hacer lo siguiente:
+
+* Exporte la base de datos de Adobe Campaign a la base de datos externa y ejecute las operaciones solo desde la base de datos externa antes de volver a importar los resultados en Adobe Campaign.
+
+* Recopile los datos de la base de datos externa de Adobe Campaign y ejecute las operaciones localmente.
+
+Si desea personalizar las entregas utilizando datos de la base de datos externa, recopile los datos para utilizarlos en un flujo de trabajo para que estén disponibles en una tabla temporal. A continuación, utilice los datos de la tabla temporal para personalizar su envío.
+
+La opción FDA está sujeta a las limitaciones del sistema de bases de datos externas que utilice.
+
+## Recomendaciones {#recommendations}
+
+### Crear esquemas temporales {#create-temporary-schemas}
+
+Puede administrar varios accesos a la base de datos externa de Greenplum mediante FDA. Una opción dedicada permite crear un esquema de trabajo directamente al configurar la cuenta externa.
+
+![](assets/fda_work_table.png)
+
+>[!NOTE]
+>
+>Esta opción solo está disponible con Greenplum PostgreSQL.
+
+### Optimize email personalization with external data {#optimizing-email-personalization-with-external-data}
+
+Puede preprocesar la personalización de mensajes en un flujo de trabajo dedicado. Para ello, utilice la **[!UICONTROL Prepare the personalization data with a workflow]** opción, disponible en la **[!UICONTROL Analysis]** ficha de las propiedades de envío.
+
+Durante la análisis de envío, esta opción crea y ejecuta automáticamente un flujo de trabajo que almacena todos los datos vinculados al destinatario en una tabla temporal, incluidos los datos de tablas vinculadas en una base de datos externa.
+
+Esta opción mejora significativamente el rendimiento al ejecutar el paso de personalización.
+
+### Use data from an external database in a workflow {#using-data-from-an-external-database-in-a-workflow}
+
+En varias actividades de flujo de trabajo de Adobe Campaign, puede utilizar los datos almacenados en una base de datos externa.
+
+* **Filtrar datos** externos: la actividad de [Consulta](../../workflow/using/targeting-data.md#selecting-data) permite agregar datos externos y usarlos en las configuraciones de filtro definidas. Para obtener más información, consulte [esta página](../../workflow/using/targeting-data.md#selecting-data).
+
+* **Crear subconjuntos** : la actividad [Dividir](../../workflow/using/split.md) permite crear subconjuntos. Puede utilizar datos externos para definir los criterios de filtrado que deben utilizarse. Para obtener más información, consulte [esta página](../../workflow/using/split.md).
+
+* **Cargar base de datos** externa: puede utilizar los datos externos en la actividad de carga [de](../../workflow/using/data-loading--rdbms-.md) datos (RDBMS). Learn more in [this page](../../workflow/using/data-loading--rdbms-.md).
+
+* **Añadir información y vínculos** : la actividad de [Enriquecimiento](../../workflow/using/enrichment.md) permite agregar datos adicionales a la tabla de trabajo del flujo de trabajo y vínculos a una tabla externa. En este contexto, puede utilizar datos de una base de datos externa. Learn more in [this page](../../workflow/using/enrichment.md).
