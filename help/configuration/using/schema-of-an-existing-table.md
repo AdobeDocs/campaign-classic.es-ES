@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: editing-schemas
 discoiquuid: 6877d94d-d6e5-4080-a537-ef1bb6e6f8cf
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
@@ -37,7 +37,7 @@ Cuando la aplicación necesite acceder a los datos de una tabla existente, una v
 Para crear el esquema correspondiente, aplique las siguientes etapas:
 
 1. Edite el **[!UICONTROL Administration>Configuration>Data schemas]** nodo del árbol de Adobe Campaign y haga clic en **[!UICONTROL New]** .
-1. Seleccione la **[!UICONTROL Access data from an existing table or an SQL view]** opción y haga clic en **[!UICONTROL Next]** .
+1. Seleccione la opción **[!UICONTROL Access data from an existing table or an SQL view]** y haga clic en **[!UICONTROL Next]** .
 
    ![](assets/s_ncs_configuration_extand_a_schema.png)
 
@@ -68,4 +68,4 @@ Para crear el esquema correspondiente, aplique las siguientes etapas:
 
 La opción **Acceso de datos federado - FDA** le permite acceder a los datos almacenados en una base de datos externa.
 
-La configuración que se debe llevar a cabo en los esquemas para acceder a los datos de una base de datos externa se detalla en [esta página](../../platform/using/creating-data-schema.md).
+La configuración que se debe llevar a cabo en los esquemas para acceder a los datos de una base de datos externa se detalla en [esta página](../../installation/using/creating-data-schema.md).
