@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 281eb6b0f84e01d25ac9c3542dc2ee950d4879e7
+source-git-commit: 75ab345e3b9360229ecc3ba9529a33e320228fa0
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '538'
 ht-degree: 85%
 
 ---
@@ -342,4 +342,4 @@ Internet Explorer 11 es compatible.
 * [Notas de la versión de Campaign Classic](../../rn/using/latest-release.md)
 * [Guía de instalación](../../installation/using/general-architecture.md)
 * [Funcionalidades y sistemas obsoletos](../../rn/using/deprecated-features.md)
-* [Generar procedimiento de actualización](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html)
+* [Generar procedimiento de actualización](../../production/using/build-upgrade.md)
