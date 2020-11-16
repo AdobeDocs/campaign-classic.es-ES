@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: initial-configuration
 discoiquuid: c7395094-c635-45ab-8455-a050f7d16b64
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 6d6f63fb6ac99c3a9e58a8670bc9bc59e6cfd420
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 4%
@@ -46,7 +46,7 @@ Para crear una nueva instancia, siga los pasos a continuación:
 
 1. Especifique una conexión con el servidor de aplicaciones de Adobe Campaign mediante una URL. Use un DNS o un alias del equipo o su dirección IP.
 
-   Por ejemplo, puede utilizar el [`https://<machine>.<domain>.com`](https://machine) tipo URL.
+   Por ejemplo, puede utilizar el [`https://<machine>.<domain>.com`](https://myserver.adobe.com) tipo URL.
 
    >[!CAUTION]
    >
