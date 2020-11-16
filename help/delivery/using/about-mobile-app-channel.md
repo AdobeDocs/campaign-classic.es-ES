@@ -9,9 +9,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: 6b3fe8b9-dae6-4f8e-83e1-3376c0fe72a5
-translation-type: ht
-source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: acb505fac39222e53a3acab6b5c93d10c9d11ba8
+workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
 
@@ -95,7 +95,7 @@ El servidor de Adobe Campaign debe poder comunicarse con el servidor APNS en los
 
    >[!NOTE]
    >
-   > A partir de la versión 20.3 de Campaign, el conector binario heredado de iOS está en desuso. Si utiliza este conector, debe adaptar la implementación en consecuencia. [Más información](https://helpx.adobe.com/es/campaign/kb/migrate-to-http2.html)
+   > A partir de la versión 20.3 de Campaign, el conector binario heredado de iOS está en desuso. Si utiliza este conector, debe adaptar la implementación en consecuencia. [Más información](https://helpx.adobe.com/es/campaign/kb/migrate-to-apns-http2.html)
 
 Para comprobar si funciona correctamente, utilice los siguientes comandos:
 
