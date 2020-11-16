@@ -1,8 +1,6 @@
 ---
 title: Configuración de las opciones de Campaña
-seo-title: Configuración de las opciones de Campaña
-description: Configuración de las opciones de Campaña
-seo-description: null
+description: Obtenga información sobre cómo configurar las opciones de Campaña
 page-status-flag: never-activated
 uuid: 32e85e41-6898-4fb3-90c8-2201ceea2e91
 contentOwner: sauviat
@@ -12,7 +10,7 @@ content-type: reference
 topic-tags: appendices
 discoiquuid: 9c1884f6-1dd8-41ab-b8dc-604c8cc2dc89
 translation-type: tm+mt
-source-git-commit: 63b208e5607bdcddaef03292d229847c4b7366f8
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
 workflow-type: tm+mt
 source-wordcount: '3927'
 ht-degree: 3%
@@ -418,11 +416,11 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Disable_ControlsOnFileDownload</span> <br /> </td> 
-   <td> Si se selecciona 1, esta opción deshabilita los controles ACL durante la descarga de un archivo (mediante fileDownload.jsp).<br /> </td> 
+   <td> If 1 is selected, this option disable ACL controls during a file download (via fileDownload.jsp).<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Disable_JSFileSandboxing</span> <br /> </td> 
-   <td> Si se selecciona 1, esta opción desactiva la configuración de archivos en Javascript.<br /> </td> 
+   <td> If 1 is selected, this option disable the file sandboxing within Javascript.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_SaveOptions_AllowNonAdmin</span> <br /> </td> 
@@ -430,11 +428,11 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Unsafe_DecryptString</span> <br /> </td> 
-   <td> Si se selecciona 1, esta opción permite utilizar decryptString para descifrar algunas contraseñas.<br /> </td> 
+   <td> If 1 is selected, this option allow to use decryptString to decrypt some passwords.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkTraceDeleteLogin</span> <br /> </td> 
-   <td> Introduzca el valor "1" para rastrear la eliminación de elementos con información de pistas de auditoría en mData, mediante la modificación de su campo "modificado por" antes de la eliminación del registro.<br /> </td> 
+   <td> Enter the "1" value to trace the deletion of elements with Audit trail information in the mData, through the modification of its "modified by" field before the deletion of the record.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -451,9 +449,9 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">MC_EnrichmentCustomJs</span> <br /> </td> 
-   <td> JavaScript library to be personalized for enriching events. Must contain the implementation of these two functions:<br /> 
+   <td> Biblioteca de JavaScript que se personalizará para enriquecer eventos. Debe contener la implementación de estas dos funciones:<br /> 
     <ul> 
-     <li> <p> <span class="uicontrol">enrichRtEvents(aiEventId);</span> : enriches and saves events in the database (where <span class="uicontrol">aiEventId</span> corresponds to the table of real time events processed).</p> </li> 
+     <li> <p> <span class="uicontrol">enrichRtEvents(aiEventId);</span> :: enriquece y guarda eventos en la base de datos (donde <span class="uicontrol">aiEventId</span> corresponde a la tabla de eventos en tiempo real procesados).</p> </li> 
      <li> <p> <span class="uicontrol">enrichBatchEvents(aiEventId);</span> : enriches and saves events in the database (where <span class="uicontrol">aiEventId</span> corresponds to the ID table of batch events processed).</p> </li> 
     </ul> </td> 
   </tr> 
@@ -463,7 +461,7 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RoutingCustomJs</span> <br /> </td> 
-   <td> JavaScript library to be personalized for routing events. Must contain the implementation of these two functions:<br /> 
+   <td> Biblioteca de JavaScript que se personalizará para eventos de enrutamiento. Debe contener la implementación de estas dos funciones:<br /> 
     <ul> 
      <li> <p> <span class="uicontrol">dispatchRtEvent(iEventId);</span> : returns the internal name of the transactional message selected to process the real time event (where <span class="uicontrol">iEventId</span> corresponds to the ID of the real time event processed).</p> </li> 
      <li> <p> <span class="uicontrol">dispatchBatchEvent(iEventId);</span> : returns the internal name of the transactional message selected to process the batch event (where <span class="uicontrol">iEventId</span> corresponds to the ID of the batch event processed).</p> </li> 
@@ -471,11 +469,11 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgDeliveryTimeAlert</span> <br /> </td> 
-   <td> Alert threshold of average sending time of real-time events.<br /> </td> 
+   <td> Umbral de alerta de tiempo medio de envío de eventos en tiempo real.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgDeliveryTimeWarning</span> <br /> </td> 
-   <td> Umbral de advertencia para el tiempo medio de envío de eventos en tiempo real.<br /> </td> 
+   <td> Warning threshold for average sending time of real-time events.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgProcessTimeAlert</span> <br /> </td> 
@@ -483,11 +481,11 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgProcessTimeWarning</span> <br /> </td> 
-   <td> Umbral de advertencia para el tiempo medio de procesamiento de eventos en tiempo real.<br /> </td> 
+   <td> Warning threshold for the average processing time of real-time events.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgQueueAlert</span> <br /> </td> 
-   <td> Umbral de alerta para el número promedio de eventos en tiempo real en cola.<br /> </td> 
+   <td> Alert threshold for the average number of queued real-time events.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgQueueTimeAlert</span> <br /> </td> 
@@ -499,15 +497,15 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgQueueWarning</span> <br /> </td> 
-   <td> Umbral de advertencia para el número promedio de eventos en tiempo real en cola.<br /> </td> 
+   <td> Warning threshold for the average number of queued real-time events.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventErrorAlert</span> <br /> </td> 
-   <td> Umbral de alerta para el procesamiento de errores de eventos en tiempo real.<br /> </td> 
+   <td> Alert threshold for processing errors of real-time events.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventErrorWarning</span> <br /> </td> 
-   <td> Umbral de advertencia para el procesamiento de errores de eventos en tiempo real.<br /> </td> 
+   <td> Warning threshold for processing errors of real-time events.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventMaxQueueAlert</span> <br /> </td> 
@@ -543,7 +541,7 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMessageCenter_RoutingBatchSize</span> <br /> </td> 
-   <td> Size of the regrouping for the event routing.<br /> </td> 
+   <td> Tamaño del reagrupamiento del enrutamiento de evento.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_LastRtEventStat</span> <br /> </td> 
@@ -681,11 +679,11 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NlMigration_KeepFolderStructure</span> <br /> </td> 
-   <td> Durante la migración, la estructura de árbol se reorganiza automáticamente en función de los nuevos estándares de versión.<br /> This option allows you to disable the automatic migration of the navigation tree. Si la utiliza, después de la migración tendrá que eliminar las carpetas obsoletas, agregar las nuevas carpetas y ejecutar todas las comprobaciones necesarias.<br /> 
+   <td> Durante la migración, la estructura de árbol se reorganiza automáticamente en función de los nuevos estándares de versión.<br /> Esta opción le permite desactivar la migración automática del árbol de navegación. Si la utiliza, después de la migración tendrá que eliminar las carpetas obsoletas, agregar las nuevas carpetas y ejecutar todas las comprobaciones necesarias.<br /> 
     <ul> 
      <li> <p> <span class="uicontrol">Tipo de datos:</span> Entero</p> </li> 
      <li> <p> <span class="uicontrol">Valor (texto)</span> : 1 </p> </li> 
-    </ul> This option should only be used if the out-of-the-box navigation tree has undergone too many changes.<br /> Para obtener más información, consulte <a href="../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure">esta sección</a>.<br /> </td> 
+    </ul> Esta opción solo debe utilizarse si el árbol de navegación integrado ha sufrido demasiados cambios.<br /><a href="../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure"> Para obtener más información, consulte esta sección</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsLastErrorStatCoalesce</span> <br /> </td> 
@@ -693,7 +691,7 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">PostUpgradeLastError</span> <br /> </td> 
-   <td> Information concerning the error that occurred in the Postupgrade, following the syntax below:<br /> <strong>{Build number}:{mode: pre/post/...}:{The 'lessThan'/'greaterOrEquelThan' where error occurred + sub-step}</strong> </td> 
+   <td> Información sobre el error que se produjo en la postactualización, según la sintaxis siguiente:<br /> <strong>{Número de compilación}:{modo: pre/post/...}:{El 'menor que'/'mayor o igual que' donde se produjo el error + subpaso}</strong> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkCleanup_NoStats</span> <br /> </td> 
@@ -724,7 +722,7 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
    <td> <span class="uicontrol">LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</span> <br /> </td> 
    <td> Esta opción se utiliza al importar datos desde un sistema de terceros a través de un conector CRM. La activación de la opción  solo permite recopilar objetos modificados desde la última importación. Esta opción debe crearse y rellenarse manualmente de la siguiente manera: 
     <ul> 
-     <li> <p> <span class="uicontrol">Internal name</span> : LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</p> </li> 
+     <li> <p> <span class="uicontrol">Nombre</span> interno: LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</p> </li> 
      <li> <p> <span class="uicontrol">Valor (campo)</span> : fecha de la última importación, con el formato aaaa/MM/dd hh:mm:ss. </p> </li> 
     </ul><br /> </td> 
   </tr> 
@@ -742,7 +740,7 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">AAM_DestinationId</span> <br /> </td> 
-   <td> Option used for the integration with Adobe Audience Manager.<br /> </td> 
+   <td> Opción utilizada para la integración con Adobe Audience Manager.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcCapabilities_Teradata</span> <br /> </td> 
@@ -750,12 +748,12 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcCapabilities_Hive</span> <br /> </td> 
-   <td> Hive connector options.<br /> </td> 
+   <td> Opciones de conector de subárbol.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Offers {#offers}
+## Ofertas {#offers}
 
 <table> 
  <thead> 
@@ -767,15 +765,15 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">NmsCoupons_MaxPerTransac</span> <br /> </td> 
-   <td> Number of coupons that are updated per SQL transaction.<br /> </td> 
+   <td> Número de cupones que se actualizan por transacción SQL.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsInteraction_LastPropositionSynchControl_</span> <br /> </td> 
-   <td> '+ [proposition's schema] + "_" + extAccountSource.@executionInstanceId + [proposition's schema] + "_" + vars.executionInstanceIdFilter<br /> </td> 
+   <td> '+ [proposition's schema] + "_" + extAccountSource.@executeInstanceId + [esquema de la propuesta] + "_" + vars.executeInstanceIdFilter<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsInteraction_LastPropositionSynchExec_</span> <br /> </td> 
-   <td> '+ [ proposition's schema] + "_" + extAccountSource.@executionInstanceId + "_" + extAccountTarget.@executionInstanceId<br /> </td> 
+   <td> '+ [ proposition's schema] + "_" + extAccountSource.@executeInstanceId + "_" + extAccountTarget.@executeInstanceId<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsInteraction_SynchWorkflowIds</span> <br /> </td> 
@@ -787,7 +785,7 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsModule_CouponsEnabled</span> <br /> </td> 
-   <td> Permite activar cupones.<br /> </td> 
+   <td> Lets you enable coupons.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
