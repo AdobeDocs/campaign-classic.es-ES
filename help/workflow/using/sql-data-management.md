@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: action-activities
 discoiquuid: 18d6f5e1-308f-4080-b7c4-ebf836f74842
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 98%
+source-wordcount: '394'
+ht-degree: 91%
 
 ---
 
@@ -26,9 +26,9 @@ La actividad de **SQL Data Management** permite escribir sus propios scripts SQL
 
 Antes de configurar la actividad, asegúrese de que se cumplan los siguientes requisitos previos:
 
-* La actividad solo está disponible para fuentes de datos remotos. Por lo tanto, el paquete **[!UICONTROL FDA]** (Acceso de datos federado) debe instalarse en su instancia (consulte [esta sección](../../platform/using/about-fda.md)).
-* El esquema saliente debe existir en la base de datos y estar vinculado a una base de datos FDA (para más información sobre esquemas de datos, consulte [esta sección](../../configuration/using/about-schema-reference.md)).
-* El operador que ejecute el flujo de trabajo debe tener los derechos asignados de la **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]**. Para obtener más información sobre derechos asignados, consulte [esta sección](../../platform/using/access-management.md#named-rights).
+* La actividad solo está disponible para fuentes de datos remotos. The **[!UICONTROL FDA]** (Federated Data Access) package must therefore be installed on your instance. [Más información](../../installation/using/about-fda.md).
+* El esquema de salida debe existir en la base de datos y estar vinculado a una base de datos FDA. [Más información](../../configuration/using/about-schema-reference.md).
+* El operador que ejecute el flujo de trabajo debe tener los derechos asignados de la **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]**. [Más información](../../platform/using/access-management.md#named-rights).
 
 ## Configuración de la actividad de gestión de datos SQL {#configuring-the-sql-data-management-activity}
 
