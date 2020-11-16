@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: use-cases
 discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1333'
 ht-degree: 98%
 
 ---
@@ -43,7 +43,7 @@ Más precisamente, ayuda a los administradores de la plataforma a:
 
 El uso del mapa de calor del flujo de trabajo requiere comprender bien los siguientes conceptos: Optimizaciones para [Flujos de trabajo](../../workflow/using/about-workflows.md), [Actividades](../../workflow/using/about-activities.md) y [Flujos de trabajo](../../workflow/using/workflow-best-practices.md).
 
-El mapa de calor del flujo de trabajo está disponible de forma predeterminada en Adobe Campaign a partir de la versión 18.10. Si tiene una compilación entre 8700 y 8977 (18.10), también puede beneficiarse de esta capacidad. Para solicitar el paquete correspondiente, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://support.neolane.net/) y siga las instrucciones de [esta página](https://helpx.adobe.com/es/campaign/kb/install-workflow-heatmap-package.html) para saber cómo instalarlo.
+El mapa de calor del flujo de trabajo está disponible de forma predeterminada en Adobe Campaign a partir de la versión 18.10. Si tiene una compilación entre 8700 y 8977 (18.10), también puede beneficiarse de esta capacidad. Para solicitar el paquete correspondiente, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) y siga las instrucciones de [esta página](https://helpx.adobe.com/es/campaign/kb/install-workflow-heatmap-package.html) para saber cómo instalarlo.
 
 Cuando acceda por primera vez al Mapa de calor del flujo de trabajo, aparecerá la siguiente ventana emergente. Este acuerdo permite la transferencia y almacenamiento en Estados Unidos, lo que permite a Adobe Campaign:
 
