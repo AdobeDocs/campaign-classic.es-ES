@@ -11,11 +11,11 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '2371'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+workflow-type: tm+mt
+source-wordcount: '2367'
+ht-degree: 98%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. [Actualice a la última versión](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) o contacte con el [soporte técnico](https://support.neolane.net/).
+>Se ha retirado esta compilación. Actualice [a la versión](../../production/using/build-upgrade.md) más reciente o póngase en contacto con el Servicio de atención al cliente de [Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Mejoras**
 
@@ -87,7 +87,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. [Actualice a la última versión](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) o contacte con el [soporte técnico](https://support.neolane.net/).
+>Se ha retirado esta compilación. Actualice [a la versión](../../production/using/build-upgrade.md) más reciente o póngase en contacto con el Servicio de atención al cliente de [Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Mejoras**
 
@@ -109,7 +109,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. [Actualice a la última versión](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) o contacte con el [soporte técnico](https://support.neolane.net/).
+>Se ha retirado esta compilación. Actualice [a la versión](../../production/using/build-upgrade.md) más reciente o póngase en contacto con el Servicio de atención al cliente de [Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Novedades**
 
@@ -151,7 +151,7 @@ ht-degree: 100%
 
 **Mejoras**
 
-* Las API de Campaign Classic están ahora disponibles en una [página dedicada](https://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html). Si utilizó el archivo jsapi.chm, debería consultar la nueva versión en línea.
+* Las API de Campaign Classic están ahora disponibles en una [página dedicada](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html). Si utilizó el archivo jsapi.chm, debería consultar la nueva versión en línea.
 * Ahora admite PostgreSQL 10, Debian 9 y Teradata 16.20. Consulte la [matriz de compatibilidades](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html).
 * Al crear una conexión SFTP, ahora puede utilizar la autenticación proxy. Para obtener más información, consulte la [documentación detallada](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration) (NEO-9868).
 * La opción de **fórmula de cálculo de fecha** está disponible en las propiedades de entrega al crear una única entrega con la plantilla de envíos de correo postal. (NEO-9792)
