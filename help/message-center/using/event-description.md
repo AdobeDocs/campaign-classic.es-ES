@@ -1,8 +1,6 @@
 ---
-title: Descripción del evento
-seo-title: Descripción del evento
-description: Descripción del evento
-seo-description: null
+title: Descripción del evento del centro de mensajes
+description: Más información sobre el evento de mensajería transaccional
 page-status-flag: never-activated
 uuid: 7b174ffd-28b2-4147-b992-e17b0b2cf733
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 discoiquuid: 3c8388d8-1a91-4d16-a8ac-016f643c6009
-translation-type: ht
-source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
-workflow-type: ht
-source-wordcount: '742'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+workflow-type: tm+mt
+source-wordcount: '746'
+ht-degree: 98%
 
 ---
 
