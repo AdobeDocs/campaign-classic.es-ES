@@ -9,9 +9,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: 7b5a1ad6-da5a-4cbd-be51-984c07c8d0b3
-translation-type: ht
-source-git-commit: 16985c1ddcd380cfc1ca4960b35bb5e78628f464
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: acb505fac39222e53a3acab6b5c93d10c9d11ba8
+workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Para configurar este conector, siga estos pasos:
 
    >[!NOTE]
    >
-   > A partir de la versión 20.3 de Campaign, el conector binario heredado de iOS está en desuso. Si utiliza este conector, debe adaptar la implementación en consecuencia. [Más información](https://helpx.adobe.com/es/campaign/kb/migrate-to-http2.html)
+   > A partir de la versión 20.3 de Campaign, el conector binario heredado de iOS está en desuso. Si utiliza este conector, debe adaptar la implementación en consecuencia. [Más información](https://helpx.adobe.com/es/campaign/kb/migrate-to-apns-http2.html)
 
    ![](assets/nmac_connectors.png)
 
@@ -110,7 +110,7 @@ En el siguiente ejemplo, se añaden **mediaURl** y **mediaExt** para crear notif
 
 1. Seleccione el **[!UICONTROL Authentication mode]**. Tenga en cuenta que siempre puede cambiar el modo de autenticación más adelante en la pestaña **[!UICONTROL Certificate]** de la aplicación móvil.
    * **[!UICONTROL Certificate-based authentication]**: haga clic en **[!UICONTROL Enter the certificate...]**, seleccione la clave p12 e introduzca la contraseña proporcionada por el desarrollador de aplicaciones móviles.
-   * **[!UICONTROL Token-based authentication]**: complete la configuración de conexión de **[!UICONTROL Key ID]**, **[!UICONTROL Team ID]** y **[!UICONTROL Bundle ID]** y luego seleccione el certificado p8 haciendo clic en **[!UICONTROL Enter the private key]**. Para más información sobre **[!UICONTROL Token-based authentication]**, consulte la [documentación de Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apnsToken-based).
+   * **[!UICONTROL Token-based authentication]**: complete la configuración de conexión de **[!UICONTROL Key ID]**, **[!UICONTROL Team ID]** y **[!UICONTROL Bundle ID]** y luego seleccione el certificado p8 haciendo clic en **[!UICONTROL Enter the private key]**. Para más información sobre **[!UICONTROL Token-based authentication]**, consulte la [documentación de Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns).
 
    >[!NOTE]
    >
