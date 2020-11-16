@@ -1,8 +1,6 @@
 ---
 title: Comprensión de los errores de entrega
-seo-title: Comprensión de los errores de entrega
-description: Comprensión de los errores de entrega
-seo-description: null
+description: Aprenda a comprender los errores de envío
 page-status-flag: never-activated
 uuid: 03a91f84-77fe-40a9-8be9-a6a35a873ae1
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 78b58a7a-b387-4d5d-80d5-01c06f83d759
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+workflow-type: tm+mt
 source-wordcount: '2440'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -247,13 +245,15 @@ Los correos electrónicos rechazados pueden tener el siguiente estado de clasifi
 >Para instalaciones hospedadas o híbridas, si ha actualizado a MTA mejorado:
 >
 >* Las cualificaciones de rechazo de la tabla **[!UICONTROL Delivery log qualification]** ya no se utilizan para los mensajes de error de error de envío sincrónico. El MTA mejorado determina el tipo de rechazo y la calificación, y envía esa información a Campaign.
+   >
+   >
+* Las devoluciones asincrónicas siguen siendo calificadas por el proceso enMail a través de las **[!UICONTROL Inbound email]** reglas. Para obtener más información, consulte [Reglas de gestión de correo electrónico](#email-management-rules).
+   >
+   >
+* En el caso de instancias que utilicen el MTA mejorado sin **Webhooks/EFS**, las **[!UICONTROL Inbound email]** reglas también se utilizan para procesar los correos electrónicos rechazados sincrónicos procedentes del MTA mejorado, utilizando la misma dirección de correo electrónico que para los correos electrónicos rechazados asincrónicos.
 >
->* Las devoluciones asincrónicas siguen siendo calificadas por el proceso enMail a través de las **[!UICONTROL Inbound email]** reglas. Para obtener más información, consulte [Reglas de gestión de correo electrónico](#email-management-rules).
 >
->* En el caso de instancias que utilicen el MTA mejorado sin **Webhooks/EFS**, las **[!UICONTROL Inbound email]** reglas también se utilizan para procesar los correos electrónicos rechazados sincrónicos procedentes del MTA mejorado, utilizando la misma dirección de correo electrónico que para los correos electrónicos rechazados asincrónicos.
->
->
->Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte [este documento](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html).
+Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte [este documento](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html).
 
 ### Reglas de gestión de correo electrónico {#email-management-rules}
 
