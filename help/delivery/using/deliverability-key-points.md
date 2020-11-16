@@ -1,6 +1,6 @@
 ---
-title: Puntos clave a la hora de administrar la entrega en Adobe Campaign Classic
-description: ¿Cuáles son los puntos clave que hay que comprobar al administrar la capacidad de entrega en Adobe Campaign Classic?
+title: Puntos clave de la entrega
+description: puntos clave que se deben comprobar para mejorar la capacidad de entrega
 page-status-flag: never-activated
 uuid: 2681042b-3018-42ae-b252-2367b56616bd
 contentOwner: sauviat
@@ -9,11 +9,11 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '623'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 98%
 
 ---
 
