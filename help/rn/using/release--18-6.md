@@ -11,11 +11,11 @@ audience: rn
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 79a6d3cf-2425-49b9-9b92-b56be26438bf
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '813'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+workflow-type: tm+mt
+source-wordcount: '795'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. [Actualice a la última versión](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) o contacte con el [soporte técnico](https://support.neolane.net/).
+>Se ha retirado esta compilación. Actualice [a la versión](../../production/using/build-upgrade.md) más reciente o póngase en contacto con el Servicio de atención al cliente de [Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Novedades**
 
@@ -42,7 +42,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> Banda de consultas<br /> </td> 
-   <td> <p>Cuando varios usuarios de Campaign se conectan con la misma cuenta externa de Teradata de FDA, ahora puede pasar una banda de consulta (pares clave/valor) específica a cada usuario. Cada vez que un usuario de Campaign realiza una consulta en la base de datos de Teradata, Adobe Campaign ahora puede enviar metadatos asociados al usuario. Estos datos, que se componen de una lista de claves y valores, pueden ser utilizados por administradores de Teradata para fines de auditoría o para administrar derechos de acceso, por ejemplo.</p><p>Para obtener más información, consulte la <a href="https://docs.campaign.adobe.com/doc/AC/en/PTF_Administration_basics_External_accounts.html#Teradata_external_account">documentación detallada</a>.</p> </td>
+   <td> <p>Cuando varios usuarios de Campaign se conectan con la misma cuenta externa de Teradata de FDA, ahora puede pasar una banda de consulta (pares clave/valor) específica a cada usuario. Cada vez que un usuario de Campaign realiza una consulta en la base de datos de Teradata, Adobe Campaign ahora puede enviar metadatos asociados al usuario. Estos datos, que se componen de una lista de claves y valores, pueden ser utilizados por administradores de Teradata para fines de auditoría o para administrar derechos de acceso, por ejemplo.</p><p>Para obtener más información, consulte la <a href="../../installation/using/external-accounts.md">documentación detallada</a>.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -84,7 +84,7 @@ Para obtener más información sobre la banda de consultas, vea esta sección.
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. [Actualice a la última versión](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) o contacte con el [soporte técnico](https://support.neolane.net/).
+>Se ha retirado esta compilación. [Actualice a la última versión](../../production/using/build-upgrade.md) o contacte con el [soporte técnico](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Novedades**
 
