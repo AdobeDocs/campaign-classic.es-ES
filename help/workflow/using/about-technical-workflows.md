@@ -1,8 +1,6 @@
 ---
 title: Acerca de los flujos de trabajo técnicos
-seo-title: Acerca de los flujos de trabajo técnicos
-description: Acerca de los flujos de trabajo técnicos
-seo-description: null
+description: Lista de flujos de trabajo técnicos de campaña
 page-status-flag: never-activated
 uuid: 60b66853-ae4f-458d-bd62-076f2d7c965f
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: 0d65d47f-1f51-4757-8b1d-7d4a8ddc3c97
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '139'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 97%
 
 ---
 
