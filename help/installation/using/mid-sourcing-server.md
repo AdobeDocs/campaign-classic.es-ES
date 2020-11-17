@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 34ee3d99-4ffb-4279-b994-5ab7abc7cf06
 translation-type: tm+mt
-source-git-commit: 270c86a8a15ebe38907be258aed9d245d2a49b6d
+source-git-commit: 544fa260f9b35239a8fa8fbc141463a7b1898026
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ Esta sección detalla la instalación y configuración de un servidor intermedia
 La arquitectura &quot;intermediaria&quot; se presenta en la implementación [](../../installation/using/mid-sourcing-deployment.md)Intermediaria.
 
 La instalación de un servidor intermediaria sigue el mismo proceso que la instalación de un servidor de la forma normal (consulte la configuración estándar). Es una instancia independiente con su propia base de datos que puede utilizarse para ejecutar envíos. En pocas palabras, contiene una configuración adicional para permitir que las instancias remotas ejecuten envíos en modo intermediaria.
+
+>[!CAUTION]
+>
+>Una vez configurado el servidor intermediaria y que los flujos de trabajo [de](../../workflow/using/transfer-to-mid-sourcing.md) sincronización se hayan ejecutado por primera vez, asegúrese de no actualizar el nombre interno de las cuentas externas intermediaria.
 
 ## Pasos para instalar y configurar una instancia {#steps-for-installing-and-configuring-an-instance}
 
