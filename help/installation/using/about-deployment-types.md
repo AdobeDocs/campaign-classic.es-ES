@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: deployment-types-
 discoiquuid: 298d9b9f-220f-4862-bc4c-1ad7f8d51049
 translation-type: tm+mt
-source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
+source-git-commit: 12bb3b4ba833d2c265350167be61bd916e8b3fc8
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 8%
@@ -28,9 +28,7 @@ En el caso de una configuración en varios equipos, no tiene que utilizar el mis
 
 >[!NOTE]
 >
->Los pasos de configuración de la instalación principal sólo pueden realizarse mediante
->Adobe para implementaciones alojadas en Adobe. Por ejemplo, para
->configure los archivos de configuración de instancia y servidor.
+>Los pasos de configuración de la instalación principal sólo pueden ser realizados por Adobe para implementaciones alojadas en Adobe, por ejemplo, para configurar los archivos de configuración de instancia y servidor.
 >
 >Para obtener más información sobre las principales diferencias entre implementaciones, consulte la sección Modelos [de](../../installation/using/hosting-models.md) alojamiento o las diferencias de [características para implementaciones](../../installation/using/capability-matrix.md)alojadas y locales.
 
