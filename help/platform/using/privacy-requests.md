@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 14369acf-9149-4649-947a-c16289e35eb6
 translation-type: tm+mt
-source-git-commit: c2c7398c27f1bc7edf9adb0fc07409d2e525b168
+source-git-commit: e0ca252aceb0f2abca4a1324c5e4ece038927533
 workflow-type: tm+mt
-source-wordcount: '2443'
+source-wordcount: '2444'
 ht-degree: 14%
 
 ---
@@ -82,7 +82,7 @@ Antes de crear solicitudes de privacidad, debe definir la Área de nombres que u
 
 Hay tres áreas de nombres predeterminadas disponibles: correo electrónico, teléfono y teléfono móvil. Si necesita una Área de nombres diferente (por ejemplo, un campo personalizado de destinatario), puede crear una nueva desde **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]**.
 
-## Creación de una solicitud de privacidad {#create-privacy-request-ui}
+## Creating a Privacy request {#create-privacy-request-ui}
 
 La interfaz **de** Adobe Campaign le permite crear sus solicitudes de privacidad y rastrear su evolución. Para crear una nueva solicitud de privacidad, siga estas instrucciones:
 
@@ -129,7 +129,7 @@ Si ha creado tablas personalizadas que tienen un vínculo a la tabla de destinat
 >Si realiza solicitudes por lotes de privacidad utilizando flujos de trabajo de eliminación de perfiles, tenga en cuenta las siguientes observaciones:
 >* La eliminación de perfiles mediante flujos de trabajo no procesa las tablas secundarias.
 >* Debe gestionar la eliminación de todas las tablas secundarias.
->* Adobe recomienda crear un flujo de trabajo de ETL que agregue las líneas que se eliminarán en la tabla Acceso a privacidad y que permita que el usuario **[!UICONTROL Delete privacy requests data]** realice la eliminación. Sugerimos limitar a 200 perfiles por día para eliminarlos por motivos de rendimiento.
+>* Adobe recomienda crear un flujo de trabajo de ETL que agregue las líneas que se eliminarán en la tabla Acceso a privacidad y que el flujo de trabajo **[!UICONTROL Delete privacy requests data]** realice la eliminación. Sugerimos limitar a 200 perfiles por día para eliminarlos por motivos de rendimiento.
 
 
 ### Estados de solicitud de privacidad {#privacy-request-statuses}
@@ -443,14 +443,14 @@ Para rellenar estos valores, se pueden usar varios métodos:
 
 A continuación, debe asegurarse de que nunca vende a terceros la información personal de los perfiles que han optado por la exclusión.
 
-Para cambiar el estado de exclusión, vaya a **[!UICONTROL Profiles and Target]** > **[!UICONTROL Recipients]** y seleccione un destinatario. En la **[!UICONTROL General]** ficha, verá el campo configurado en la sección anterior.
+1. Para cambiar el estado de exclusión, vaya a **[!UICONTROL Profiles and Target]** > **[!UICONTROL Recipients]** y seleccione un destinatario. En la **[!UICONTROL General]** ficha, verá el campo configurado en la sección anterior.
 
-![](assets/privacy-ccpa-5.png)
+   ![](assets/privacy-ccpa-5.png)
 
-Configure la lista destinatarios para que muestre la columna de salida. Para obtener información sobre cómo configurar listas, consulte la documentación [](../../platform/using/adobe-campaign-workspace.md#configuring-lists)detallada.
+1. Configure la lista destinatarios para que muestre la columna de salida. Para obtener información sobre cómo configurar listas, consulte la documentación [](../../platform/using/adobe-campaign-workspace.md#configuring-lists)detallada.
 
-![](assets/privacy-ccpa-6.png)
+   ![](assets/privacy-ccpa-6.png)
 
-Puede hacer clic en la columna para ordenar los destinatarios según la información de exclusión. También puede crear un filtro para mostrar solo los destinatarios que han optado por no participar. For more on creating filters, see [this section](../../platform/using/creating-filters.md).
+1. Puede hacer clic en la columna para ordenar los destinatarios según la información de exclusión. También puede crear un filtro para mostrar solo los destinatarios que han optado por no participar. For more on creating filters, see [this section](../../platform/using/creating-filters.md).
 
-![](assets/privacy-ccpa-7.png)
+   ![](assets/privacy-ccpa-7.png)
