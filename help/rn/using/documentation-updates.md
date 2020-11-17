@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+source-git-commit: 544fa260f9b35239a8fa8fbc141463a7b1898026
 workflow-type: tm+mt
-source-wordcount: '3497'
-ht-degree: 98%
+source-wordcount: '3528'
+ht-degree: 97%
 
 ---
 
@@ -26,9 +26,11 @@ También puede consultar las [Notas de la versión de Adobe Campaign Classic](..
 
 ## Noviembre de 2020 {#nov-2020}
 
-[Campaign 20.2.3 release](../../rn/using/release--20-2.md#release-20-2-3-build-9182) has moved to General Availability (GA).
+[La versión](../../rn/using/release--20-2.md#release-20-2-3-build-9182) de campaña 20.2.3 se ha trasladado a Disponibilidad general (GA).
 
-La sección Privacidad se ha movido y enriquecido con dos secciones nuevas: [Administración](../../platform/using/privacy-management.md) de privacidad y [administración de solicitudes](../../platform/using/privacy-requests.md)de privacidad.
+La sección Privacidad se ha movido y enriquecido con dos páginas nuevas: [Administración](../../platform/using/privacy-management.md) de privacidad y [administración de solicitudes](../../platform/using/privacy-requests.md)de privacidad.
+
+Se ha agregado una nota en la página de configuración del servidor intermediaria para especificar que el nombre interno de la cuenta externa no se debe actualizar una vez que se haya configurado el servidor. [Más información](../../installation/using/mid-sourcing-server.md)
 
 ## Octubre de 2020 {#oct-2020}
 
