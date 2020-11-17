@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: connectors
 discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 translation-type: tm+mt
-source-git-commit: 022fe39e849ceafa6678120ff455d07432fb9a1f
+source-git-commit: 30eaabba8962c518c734cc4e9ad27065cfe9d467
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 83%
@@ -96,11 +96,9 @@ La cuenta externa Teradata permite conectar la instancia de Campaign a la base d
 
    * **[!UICONTROL Database]**:: Nombre de la base de datos (opcional)
 
-   * 
-      * **[!UICONTROL Options]**: Opciones que pasan por Teradata. Utilice el siguiente formato: &#39;parameter=value&#39;. Utilice una semicolumna como separador entre valores.
-   * 
-      * **[!UICONTROL Timezone]**: Zona horaria definida en Teradata. [Más información](#timezone)
+   * **[!UICONTROL Options]**: Opciones que pasan por Teradata. Utilice el siguiente formato: &#39;parameter=value&#39;. Utilice una semicolumna como separador entre valores.
 
+   * **[!UICONTROL Timezone]**: Zona horaria definida en Teradata. [Más información](#timezone)
 
 ### Banda de consultas
 
