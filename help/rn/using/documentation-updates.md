@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 58b7070ad765ba072b9c82e75ab1100f8cb38f3a
+source-git-commit: ebec481d5a018d06e47c782627e9a9064cb0dd64
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3588'
 ht-degree: 96%
 
 ---
@@ -37,6 +37,8 @@ Se ha mejorado la documentación sobre el Acceso de datos federado de campaña (
 La sección Privacidad se ha movido y enriquecido con dos páginas nuevas: [Administración](../../platform/using/privacy-management.md) de privacidad y [administración de solicitudes](../../platform/using/privacy-requests.md)de privacidad.
 
 Se ha agregado una nota en la página de configuración del servidor intermediaria para especificar que el nombre interno de la cuenta externa no se debe actualizar una vez que se haya configurado el servidor. [Más información](../../installation/using/mid-sourcing-server.md)
+
+Se ha añadido información sobre la sintaxis que se debe utilizar al especificar una ruta a un servidor SFTP externo. [Más información](../../platform/using/sftp-server-usage.md#external-SFTP-server)
 
 ## Octubre de 2020 {#oct-2020}
 
