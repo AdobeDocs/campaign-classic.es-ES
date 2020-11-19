@@ -22,8 +22,8 @@ ht-degree: 71%
 
 Utilice la opción [Acceso de datos federado](../../installation/using/about-fda.md) de Campaña (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a SAP HANA.
 
-1. Configurar la base de datos [SAP HANA](#sap-config)
-1. Configurar la [cuenta externa](#sap-external) SAP HANA en Campaña
+1. Configurar la base de datos de [SAP HANA](#sap-config)
+1. Configurar la [cuenta externa](#sap-external) de SAP HANA en Campaña
 
 ## Controladores SAP HANA {#sap-config}
 
@@ -65,7 +65,7 @@ La conexión a una base de datos externa de SAP HANA en FDA requiere determinada
 
 ## CUENTA EXTERNA SAP HANA{#sap-external}
 
-La cuenta externa SAP HANA le permite conectar su instancia de Campaña a su base de datos externa SAP HANA.
+La cuenta externa de SAP HANA permite conectar la instancia de Campaña a la base de datos externa de SAP HANA.
 
 1. En la Campaña **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
 
