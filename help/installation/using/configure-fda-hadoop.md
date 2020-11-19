@@ -22,8 +22,8 @@ ht-degree: 81%
 
 Utilice la opción **Acceso de datos federado** de Campaña (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Hadoop.
 
-1. Configurar la base de datos [Hadoop](#configuring-hadoop)
-1. Configurar la [cuenta externa](#hadoop-external) Hadoop en Campaña
+1. Configurar la base de datos de [Hadoop](#configuring-hadoop)
+1. Configurar la [cuenta externa](#hadoop-external) de Hadoop en Campaña
 
 ## Configuración de Hadoop 3.0 {#configuring-hadoop}
 
