@@ -628,7 +628,7 @@ ht-degree: 97%
       + Directrices de configuración {#config-databases}
          + [Pasos de configuración](installation/using/configure-fda.md)
          + [Configurar Snowflake](installation/using/configure-fda-snowflake.md)
-         + [Configurar la sintaxis de Azure](installation/using/configure-fda-synapse.md)
+         + [Configurar Azure synapse](installation/using/configure-fda-synapse.md)
          + [Configurar Hadoop](installation/using/configure-fda-hadoop.md)
          + [Configurar Oracle](installation/using/configure-fda-oracle.md)
          + [Configurar Netezza](installation/using/configure-fda-netezza.md)
