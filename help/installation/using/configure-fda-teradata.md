@@ -23,12 +23,12 @@ ht-degree: 83%
 Utilice la opción [Acceso de datos federado](../../installation/using/about-fda.md) de Campaña (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Teradata.
 
 1. Instalación y configuración de controladores [Teradata](#teradata-config)
-1. Configurar la [cuenta externa](#teradata-external) Teradata en Campaña
-1. Configurar [configuración](#teradata-additional-configurations) adicional para Teradata y el servidor de Campaña
+1. Configurar la [cuenta externa](#teradata-external) de Teradata en Campaña
+1. Configuración [adicional](#teradata-additional-configurations) para Teradata y el servidor de Campaña
 
 ## Configuración de teradata {#teradata-config}
 
-Debe instalar controladores para Teradata para que se implemente la conexión a la Campaña.
+Debe instalar controladores para Teradata para que la conexión a la Campaña esté implementada.
 
 1. Instale [el controlador ODBC para Teradata](https://downloads.teradata.com/download/connectivity/odbc-driver/linux).
 
@@ -71,7 +71,7 @@ Debe instalar controladores para Teradata para que se implemente la conexión a 
 
 >[!NOTE]
 >
->La conexión a una base de datos externa de Teradata en FDA requiere pasos de configuración adicionales en el servidor de Adobe Campaign. [Más información](#teradata-additional-configurations).
+>La conexión a una base de datos externa de Teradata en FDA requiere pasos de configuración adicionales en el servidor Adobe Campaign. [Más información](#teradata-additional-configurations).
 
 
 ## Cuenta externa Teradata{#teradata-external}
@@ -106,7 +106,7 @@ Cuando varios usuarios de Adobe Campaign se conectan con la misma cuenta externa
 
 ![](assets/ext_account_20.png)
 
-Cuando se configura esta opción, cada vez que un usuario de Campaña realiza una consulta en la base de datos de Teradata, Adobe Campaign enviará metadatos, que consisten en una lista de claves, asociados a este usuario. Los administradores de Teradata pueden utilizar estos datos para fines de auditoría o para administrar los derechos de acceso.
+Cuando se configura esta opción, cada vez que un usuario de Campaña realiza una consulta en la base de datos de Teradata, Adobe Campaign envía metadatos, que consisten en una lista de claves, asociados a este usuario. Los administradores de Teradata pueden utilizar estos datos para fines de auditoría o para administrar los derechos de acceso.
 
 >[!NOTE]
 >
@@ -126,9 +126,9 @@ Si aparece el siguiente error al probar la conexión **TIM-030008 Date &#39;2&#3
 
 Error de ODBC **ODB-240000: [no se encontró el nombre del origen de datos de Microsoft][ODBC Driver Manager] y no se especificó ningún controlador predeterminado.** se produce con Windows si se utiliza un controlador 16.X. Adobe Campaign espera que el nombre de Teradata sea &#39;{teradata}&#39; en odbcinst.ini.
 
-* A partir de la Campaña 18.10, puede agregar ODBCDRiverName=&quot;Controlador ODBC de base de datos Teradata 16.10&quot; en las opciones de la cuenta externa. El número de versión puede cambiar, y se puede encontrar el nombre exacto ejecutando odbcad32.exe y accediendo a la pestaña Controladores.
+* A partir de la Campaña 18.10, puede agregar ODBCDRiverName=&quot;Teradata Database ODBC Driver 16.10&quot; en las opciones de la cuenta externa. El número de versión puede cambiar, y se puede encontrar el nombre exacto ejecutando odbcad32.exe y accediendo a la pestaña Controladores.
 
-* Si está utilizando una versión anterior de la Campaña, deberá copiar la sección Teradata de odbcinst.ini creada por la instalación del controlador en una nueva sección llamada Teradata. Regedit se puede utilizar en este caso. If your base is in latin1, you will have to add **APICharSize=1** in the options.
+* Si utiliza una versión de Campaña anterior, deberá copiar la sección Teradata de odbcinst.ini creada por la instalación del controlador en una nueva sección denominada Teradata. Regedit se puede utilizar en este caso. If your base is in latin1, you will have to add **APICharSize=1** in the options.
 
 ## Configuraciones adicionales {#teradata-additional-configurations}
 
