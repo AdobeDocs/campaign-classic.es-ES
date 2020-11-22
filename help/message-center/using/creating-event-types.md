@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creación de tipos de eventos
-seo-title: Creación de tipos de eventos
 description: Creación de tipos de eventos
-seo-description: null
-page-status-flag: never-activated
-uuid: 70c8325e-a6ef-4e47-85f9-a9fa04c2ef30
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-discoiquuid: 5c0a428f-a3e7-4848-8c47-b72832ba97c2
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '90'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
