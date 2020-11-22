@@ -1,19 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Recomendaciones de la base de datos Campaign Classic
 description: Recomendaciones de base de datos
-page-status-flag: never-activated
-uuid: b318365c-8846-4c1d-b5f7-ece55fb8c4af
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-discoiquuid: 1dcf01af-c2f3-4975-ba05-628d52952064
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +45,7 @@ Las DLL de acceso se encuentran en el sitio web de Microsoft.
 
 Los parámetros **NLS_NCHAR_CHARACTERSET** y **NLS_CHARACTERSET** deben configurarse correctamente para que la base de datos funcione en Unicode o ANSI.
 
-Adobe Campaign utiliza la codificación predeterminada de Oracle. El uso de otra codificación puede desencadenar problemas de compatibilidad: en este caso, póngase en contacto con el servicio de asistencia técnica.
+Adobe Campaign utiliza la codificación Oracle predeterminada. El uso de otra codificación puede desencadenar problemas de compatibilidad: en este caso, póngase en contacto con el servicio de asistencia técnica.
 
 Para obtener información sobre la codificación, utilice el siguiente **comando sqlplus** :
 
@@ -77,7 +74,7 @@ sqlplus
 [login] [password]
 ```
 
-También puede consultar [Oracle Client en Linux](../../installation/using/installing-packages-with-linux.md#oracle-client-in-linux).
+También puede consultar el cliente de [Oracle en Linux](../../installation/using/installing-packages-with-linux.md#oracle-client-in-linux).
 
 ## PostgresSQL {#postgressql}
 
