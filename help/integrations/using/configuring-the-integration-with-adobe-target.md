@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuración de la integración con Adobe Target
-seo-title: Configuración de la integración con Adobe Target
 description: Configuración de la integración con Adobe Target
-seo-description: null
-page-status-flag: never-activated
-uuid: b9337e92-e4e5-4cba-a559-75db7460d5c5
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
-discoiquuid: 378d5ff9-88c0-43f1-beb8-454701e9f1d1
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '181'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
