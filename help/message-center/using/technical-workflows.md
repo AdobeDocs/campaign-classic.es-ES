@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Flujos de trabajo técnicos
-seo-title: Flujos de trabajo técnicos
 description: Flujos de trabajo técnicos
-seo-description: null
-page-status-flag: never-activated
-uuid: dfd1b180-86b5-4740-9bad-a0e210f433c5
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-discoiquuid: 2e648e63-06d2-4e8f-9934-066a41d18eac
-translation-type: ht
-source-git-commit: f7527a2d9b76e34fbaa2c9471c44a7a1e7e074d7
-workflow-type: ht
-source-wordcount: '309'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
