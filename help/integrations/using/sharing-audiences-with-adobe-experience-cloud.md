@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Uso compartido con Adobe Experience Cloud
-seo-title: Uso compartido con Adobe Experience Cloud
 description: Uso compartido con Adobe Experience Cloud
-seo-description: null
-page-status-flag: never-activated
-uuid: 24ac3463-69ab-48b4-85e0-4fe1948bf5ed
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
-discoiquuid: 8f295058-5a78-4512-9bdf-d5f022457e10
-translation-type: ht
-source-git-commit: 4b98c23f4120cbea6dd54cd68b61202e74bee3e1
-workflow-type: ht
-source-wordcount: '245'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
