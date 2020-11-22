@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Directrices de monitorización
 description: Descubra las directrices y las prácticas recomendadas para supervisar los procesos e instancias de Campaign.
-page-status-flag: never-activated
-uuid: cf0d782d-47bf-40ae-ab6f-d1d47fa15792
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: introduction
-discoiquuid: 8b33e6af-15c3-4b30-8ad6-d76a1f33be21
 translation-type: tm+mt
-source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 10%
@@ -53,7 +50,7 @@ Hay varios métodos automáticos disponibles. para ayudarle a supervisar su inst
 
 La pista de auditoría permite visualizar el historial completo de cambios relacionados con opciones, flujos de trabajo y esquemas dentro de la instancia. [Haga clic aquí](../../production/using/audit-trail.md) para obtener más información.
 
-**Panel de control**
+**Panel de control de Campaign**
 
 El Panel de control de Campaign le permite administrar varias configuraciones de la instancia: administrar permisos de URL, comprobar los detalles de la instancia como las versiones de compilación de los servidores, etc. También permite supervisar el espacio disponible en los servidores SFTP conectados a la instancia. [Haga clic aquí](https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html) para obtener más información.
 
