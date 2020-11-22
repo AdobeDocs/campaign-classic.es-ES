@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Requisitos previos para la instalación de Campaign en Linux
 description: Requisitos previos para la instalación de Campaign en Linux
-page-status-flag: never-activated
-uuid: 65c7af3f-ca1d-4255-b54a-6a3c83af40ae
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
-discoiquuid: 3e2ccb70-6c0c-435f-9c06-f3e5e40367bb
 translation-type: tm+mt
-source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 2%
@@ -183,27 +180,27 @@ El uso de PostgreSQL con Adobe Campaign también requiere la instalación de las
 
 Recupere la versión de la biblioteca para Debian de 64 bits, es decir: **libclntsh.so**, **libclntsh.so.11.1** y **libclntsh.so.10.1**.
 
-Puede obtener un paquete RPM de Linux de Oracle Technology Network.
+Puede obtener un paquete RPM de Linux de la red de tecnología Oracle.
 
 >[!NOTE]
 >
->Si ya ha instalado el cliente Oracle pero el entorno global (por ejemplo: /etc/perfil) no está configurado correctamente, puede agregar la información que falta a la secuencia de comandos **nl6/customer.sh** Para obtener más información al respecto, consulte las variables [de](../../installation/using/installing-packages-with-linux.md#environment-variables)Entorno.
+>Si ya ha instalado el cliente de Oracle pero el entorno global (por ejemplo: /etc/perfil) no está configurado correctamente, puede agregar la información que falta a la secuencia de comandos **nl6/customer.sh** Para obtener más información al respecto, consulte las variables [de](../../installation/using/installing-packages-with-linux.md#environment-variables)Entorno.
 
 **Solución de problemas y prácticas recomendadas**
 
-Los problemas pueden aparecer después de una actualización de un cliente Oracle o un servidor, un cambio de versión o en la primera instalación de la instancia.
+Los problemas pueden aparecer después de una actualización de un cliente de Oracle o de un servidor, un cambio de versión o en la primera instalación de la instancia.
 
-Si observa en la consola del cliente que hay retrasos inesperados (una o más horas) en los registros, el último procesamiento del flujo de trabajo, el siguiente procesamiento, etc., puede haber un problema entre la biblioteca del cliente Oracle y el servidor Oracle. Para evitar esos problemas
+Si observa en la consola del cliente que hay retrasos inesperados (una o más horas) en los registros, en el último procesamiento del flujo de trabajo, en el siguiente procesamiento, etc., es posible que haya un problema entre la biblioteca del cliente Oracle y el servidor Oracle. Para evitar esos problemas
 
 1. Asegúrese de utilizar el cliente **** completo.
 
-   Se han identificado varios problemas al utilizar la versión de Oracle Instant Client. Además, es imposible cambiar el archivo de zona horaria en el cliente instantáneo.
+   Se han identificado varios problemas al usar la versión de Oracle Instant Client. Además, es imposible cambiar el archivo de zona horaria en el cliente instantáneo.
 
 1. Asegúrese de que la versión **del** cliente y la versión **del servidor** de la base de datos sean la **misma**.
 
    Se sabe que la mezcla de versiones a pesar de la matriz de compatibilidad de Oracle y la recomendación de alinear versiones de cliente y servidor causa problemas.
 
-   Compruebe también el valor de ORACLE_HOME para asegurarse de que apunta a la versión del cliente esperada (en caso de que haya varias versiones instaladas en el equipo).
+   Compruebe también el valor de ORACLE_HOME para asegurarse de que apunta a la versión del cliente esperada (en caso de que se instalen varias versiones en el equipo).
 
 1. Asegúrese de que el cliente y el servidor utilizan el mismo archivo **de** zona horaria.
 
