@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Gestión de acceso
-seo-title: Gestión de acceso
 description: Gestión de acceso
-seo-description: null
-page-status-flag: never-activated
-uuid: 3f0cfa8f-1511-4445-9acb-b5be46e78295
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-discoiquuid: c0eb06fd-192c-4ee4-9a38-c9bedbe6aea0
 translation-type: tm+mt
-source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '2955'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
