@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Solución de problemas del conector ACS
-seo-title: Solución de problemas del conector ACS
 description: Solución de problemas del conector ACS
-seo-description: null
-page-status-flag: never-activated
-uuid: aef85b74-0388-44f8-b864-21db136a692c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-discoiquuid: 538d3b48-ff39-463f-878d-ebe085057129
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '785'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '781'
 ht-degree: 100%
 
 ---
