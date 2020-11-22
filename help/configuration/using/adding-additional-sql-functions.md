@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Añadir funciones SQL adicionales
-seo-title: Añadir funciones SQL adicionales
 description: Añadir funciones SQL adicionales
-seo-description: null
-page-status-flag: never-activated
-uuid: d66b5ca2-ac7d-4654-9f0e-9bfe56490c19
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: api
-discoiquuid: 728a95f8-46fe-49a8-a645-a0dd6eeb6615
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 2%
+source-wordcount: '1021'
+ht-degree: 1%
 
 ---
 
@@ -104,7 +99,7 @@ Finalmente, un `<group>` elemento puede contener la definición de una o varias 
 
 El caso que se presenta aquí es un caso general en el que deseamos proporcionar la **función de ejecución**.
 
-A continuación se muestra un ejemplo de una función de &quot;madurez relativa&quot; que, utilizando una edad, indica cuántos años se ha considerado madura a la persona.
+A continuación se muestra un ejemplo de la función de &quot;madurez relativa&quot; que, utilizando una edad, indica cuántos años se ha considerado madura a la persona.
 
 ```
  <function name="relativeMaturity" type="long" args="(<Âge>)" help="Returns the difference between a date and 18 years"
