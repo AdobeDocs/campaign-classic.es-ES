@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Tutoriales
-seo-title: Tutoriales
 description: Tutoriales
-seo-description: null
-page-status-flag: never-activated
-uuid: f335a7fc-5d79-4b3a-a422-98c9ef4f4562
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: c7c67ee5-ad60-420f-b597-08c388049529
 translation-type: tm+mt
-source-git-commit: 677d631a075f50a80c9379fff0c17d3d06c7e803
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 79%
+source-wordcount: '398'
+ht-degree: 80%
 
 ---
 
@@ -46,7 +41,7 @@ Obtenga más información sobre Adobe Campaign consultando los siguientes ejempl
 
 Además de la documentación del producto, puede acceder a los recursos de autoayuda de la Campaña que se indican a continuación.
 
-### Vídeos de tutoriales
+### Videotutoriales
 
 Descubra las principales funciones de Adobe Campaign en vídeo. [Más información](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/overview.html)
 
