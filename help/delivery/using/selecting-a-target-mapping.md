@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Selección de una asignación de destino
-seo-title: Selección de una asignación de destino
 description: Selección de una asignación de destino
-seo-description: null
-page-status-flag: never-activated
-uuid: 29a666a3-2ecc-4732-b068-c93935929771
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
-discoiquuid: e2c6e273-1640-4f46-a80e-0cecb06e2769
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '184'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
