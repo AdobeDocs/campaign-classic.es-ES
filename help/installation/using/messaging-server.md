@@ -1,30 +1,25 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Servidor de mensajería
-seo-title: Servidor de mensajería
 description: Servidor de mensajería
-seo-description: null
-page-status-flag: never-activated
-uuid: d7de0405-23eb-4a0d-80a5-c75d661771bb
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-discoiquuid: 1556e87f-9d92-4548-a75a-4f44030ab8d5
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 4%
+source-wordcount: '162'
+ht-degree: 3%
 
 ---
 
 
 # Servidor de mensajería{#messaging-server}
 
-Adobe Campaign gestiona el correo electrónico saliente de forma nativa, pero se necesita un servidor de correo electrónico tradicional para recibir mensajes entrantes vinculados al correo electrónico devuelto (de maileres daemones). The mailboxes configured on this server will be automatically processed by the application.
+Adobe Campaign gestiona el correo electrónico saliente de forma nativa, pero se necesita un servidor de correo electrónico tradicional para recibir mensajes entrantes vinculados al correo electrónico devuelto (de maileres daemones). La aplicación procesará automáticamente los buzones configurados en este servidor.
 
-Todos los servidores configurados para acceso POP3 pueden utilizarse para recibir correo de retorno si conservan los encabezados &quot;Message-ID&quot; SMTP al recoger el correo. For example, implementations using Qmail, SendMail and Microsoft Exchange are currently in production. However, some installations of Lotus Notes/domino revealed an issue with the maintaining of &quot;Message-Id&quot; headers.
+Todos los servidores configurados para acceso POP3 pueden utilizarse para recibir correo de retorno si conservan los encabezados &quot;Message-ID&quot; SMTP al recoger el correo. Por ejemplo, las implementaciones que utilizan Qmail, SendMail y Microsoft Exchange están actualmente en producción. Sin embargo, algunas instalaciones de Lotus Notes/domino revelaron un problema con el mantenimiento de los encabezados &quot;Message-Id&quot;.
 
 >[!CAUTION]
 >
