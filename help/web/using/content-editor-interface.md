@@ -1,22 +1,17 @@
 ---
-title: Interfaz del editor de contenido
-seo-title: Interfaz del editor de contenido
+solution: Campaign Classic
 description: Interfaz del editor de contenido
-seo-description: null
-page-status-flag: never-activated
-uuid: b108ea74-ae2c-4e47-bee8-12070927ba89
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-dc-title: </strong> and
-discoiquuid: 20c64d31-c2ed-4bc9-9f0e-46f2e0c08c88
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '536'
-ht-degree: 100%
+dc-solution: Campaign Classic
+product: campaign
+title: </strong> y
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '535'
+ht-degree: 99%
 
 ---
 
