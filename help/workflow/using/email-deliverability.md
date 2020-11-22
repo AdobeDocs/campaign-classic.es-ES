@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Capacidad de entrega de correos electrónicos
 description: Obtenga más información sobre el paquete Entregabilidad por correo electrónico
-page-status-flag: never-activated
-uuid: f60a09f0-47a0-4fc0-b0ac-47178af6ad55
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-discoiquuid: da0779dc-b734-483b-81e9-ff4706a2b6de
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 93%
