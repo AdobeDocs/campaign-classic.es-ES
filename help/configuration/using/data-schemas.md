@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Esquemas de datos
-seo-title: Esquemas de datos
 description: Esquemas de datos
-seo-description: null
-page-status-flag: never-activated
-uuid: 9f08750a-e125-4531-8c2c-1ab218190210
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-discoiquuid: b65e8d27-f427-464e-ad42-51c0a88eee86
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 3%
+source-wordcount: '388'
+ht-degree: 2%
 
 ---
 
@@ -57,7 +52,7 @@ En el siguiente ejemplo, queremos crear una nueva tabla para **contratos** en el
 Para ello, debe crear el esquema de la tabla y actualizar la estructura de la base de datos para generar la tabla correspondiente. Siga estos pasos:
 
 1. Edite el **[!UICONTROL Administration > Configuration > Data schemas]** nodo del árbol de Adobe Campaign y haga clic en **[!UICONTROL New]** .
-1. Elija la **[!UICONTROL Create a new table in the data model]** opción y haga clic en **[!UICONTROL Next]** .
+1. Choose the **[!UICONTROL Create a new table in the data model]** option and click **[!UICONTROL Next]** .
 
    ![](assets/s_ncs_configuration_create_new_schema.png)
 
