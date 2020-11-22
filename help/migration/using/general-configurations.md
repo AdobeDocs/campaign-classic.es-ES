@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: ' Configuración general'
-seo-title: ' Configuración general'
 description: ' Configuración general'
-seo-description: null
-page-status-flag: never-activated
-uuid: 317a145d-36b0-40fe-a272-ad5e35b0b190
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: configuration
-discoiquuid: f4b1c108-7f71-4aa1-8394-a7f660834c9c
 translation-type: tm+mt
-source-git-commit: d509dc584cd4ae17c6dda85c09fceee8c6162dba
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '2822'
+source-wordcount: '2820'
 ht-degree: 0%
 
 ---
@@ -49,7 +44,7 @@ Para utilizar el modo TIMESTAMP WITH TIMEZONE, también debe agregar la opción 
 
 ### Oracle {#oracle}
 
-Si recibe un error **ORA 01805** durante la postactualización, significa que los archivos de zona horaria de Oracle entre el servidor de aplicaciones y el servidor de base de datos no están sincronizados. Para volver a sincronizarlos, siga los pasos siguientes:
+Si aparece un error **ORA 01805** durante la posactualización, significa que los archivos de zona horaria de Oracle entre el servidor de aplicaciones y el servidor de base de datos no están sincronizados. Para volver a sincronizarlos, siga los pasos siguientes:
 
 1. Para identificar el archivo de zona horaria utilizado, ejecute el siguiente comando:
 
@@ -63,7 +58,7 @@ Si recibe un error **ORA 01805** durante la postactualización, significa que lo
 
 Para obtener más información, visite: [https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004](https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004).
 
-Un desajuste del huso horario entre el cliente y el servidor también puede provocar algunos retrasos. Por este motivo, recomendamos utilizar la misma versión de la biblioteca Oracle en el lado del cliente y del servidor; ambos husos horarios deben ser los mismos.
+Un desajuste del huso horario entre el cliente y el servidor también puede provocar algunos retrasos. Por este motivo, recomendamos utilizar la misma versión de la biblioteca de Oracle en el lado del cliente y del servidor; ambos husos horarios deben ser los mismos.
 
 Para comprobar si ambos lados están en los mismos husos horarios:
 
