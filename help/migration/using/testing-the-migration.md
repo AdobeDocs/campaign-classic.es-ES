@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Prueba de la migración
-seo-title: Prueba de la migración
 description: Prueba de la migración
-seo-description: null
-page-status-flag: never-activated
-uuid: 3ee6a10b-dea2-41c6-9aef-ee3ac922b459
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
-discoiquuid: 30e3082f-a367-4c3b-bff2-208ccf97acd4
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -123,7 +118,7 @@ Se buscan las siguientes expresiones (distinguen entre mayúsculas y minúsculas
  <thead> 
   <tr> 
    <th> Expresión<br /> </th> 
-   <th> Código de error<br /> </th> 
+   <th> Error code<br /> </th> 
    <th> Tipo de registro<br /> </th> 
    <th> Comentarios<br /> </th> 
   </tr> 
