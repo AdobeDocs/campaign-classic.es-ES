@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Direcciones semilla
-seo-title: Direcciones semilla
 description: Direcciones semilla
-seo-description: null
-page-status-flag: never-activated
-uuid: 0ebdeb73-be67-4c34-9f59-9fd4fb5241ab
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-discoiquuid: 41338d32-b95c-45ae-bee6-17b2af5bd837
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '323'
 ht-degree: 4%
 
 ---
@@ -22,7 +17,7 @@ ht-degree: 4%
 
 # Direcciones semilla{#seed-addresses}
 
-Si la tabla de destinatario es una tabla personalizada, se requieren configuraciones adicionales. The **[!UICONTROL nms:seedMember]** schema must be extended. Se agrega una ficha adicional a las direcciones semilla para definir los campos adecuados, como se muestra a continuación:
+Si la tabla de destinatario es una tabla personalizada, se requieren configuraciones adicionales. Se debe ampliar el esquema **[!UICONTROL nms:seedMember]**. Se agrega una ficha adicional a las direcciones semilla para definir los campos adecuados, como se muestra a continuación:
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
