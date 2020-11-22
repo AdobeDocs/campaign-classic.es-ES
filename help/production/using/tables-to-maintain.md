@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Tablas para mantener
-seo-title: Tablas para mantener
 description: Tablas para mantener
-seo-description: null
-page-status-flag: never-activated
-uuid: 1085e929-65cc-48fa-9c31-0508a14b4704
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: database-maintenance
-discoiquuid: 6ec4e566-7116-4d7f-835d-cb0f3c3a6a7a
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
