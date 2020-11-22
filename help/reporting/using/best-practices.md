@@ -1,19 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Prácticas recomendadas para la creación de informes
 description: Prácticas recomendadas para la creación de informes de Campaign
-page-status-flag: never-activated
-uuid: 09de6a17-b3a7-4543-b672-b0a21653aa75
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: reporting-in-adobe-campaign
-discoiquuid: 904961e0-7dff-4350-8d5d-e4bdd368b3ff
-translation-type: ht
-source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
-workflow-type: ht
-source-wordcount: '839'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
