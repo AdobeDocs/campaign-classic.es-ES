@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Administración de derechos
-seo-title: Administración de derechos
 description: Administración de derechos
-seo-description: null
-page-status-flag: never-activated
-uuid: 07039fec-c957-4548-acc7-22dc7827a54b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
-discoiquuid: f78603e9-f6ff-4ebe-941b-b3fbd1924b71
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '317'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '315'
 ht-degree: 100%
 
 ---
