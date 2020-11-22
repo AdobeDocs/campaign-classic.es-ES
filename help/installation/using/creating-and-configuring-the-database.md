@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creación y configuración de la base de datos
-seo-title: Creación y configuración de la base de datos
 description: Creación y configuración de la base de datos
-seo-description: null
-page-status-flag: never-activated
-uuid: e5143d55-61fa-416a-80db-c29a0caf9a3e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
-discoiquuid: 7dd8a6a5-7cca-4e92-8226-1b9e450dfaf9
 translation-type: tm+mt
-source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,7 +57,7 @@ Identifique el servidor y elija el tipo de operación que desea realizar. En est
 
 Según el motor de base de datos seleccionado, la información de identificación del servidor puede variar.
 
-* Para un motor **Oracle** , rellene el nombre **** TNS definido para el servidor de aplicaciones.
+* Para un motor de **Oracle** , rellene el nombre **** TNS definido para el servidor de aplicaciones.
 * Para un motor **PostgreSQL** o **DB2** , debe especificar el nombre DNS (o dirección IP) definido en el servidor de aplicaciones para acceder al servidor de bases de datos.
 * Para un motor de **Microsoft SQL Server** , debe definir: nombre DNS (o dirección IP) definido en el servidor de aplicaciones para acceder al servidor de bases de datos: **DNS** o **DNS`\<instance>`** (modo de instancia),
 
@@ -80,7 +75,7 @@ En la **[!UICONTROL Server access]** ventana, defina el acceso al servidor de la
 
 Para ello, introduzca el nombre y la contraseña de una cuenta **del sistema de** administración que tenga permiso para acceder a las bases de datos, es decir:
 
-* **sistema** para una base de datos Oracle,
+* **sistema** para una base de datos de Oracle,
 * **sa** para una base de datos de Microsoft SQL Server,
 * **pósters** para una base de datos PostgreSQL,
 * **db2inst1** para una base de datos DB2.
@@ -106,9 +101,9 @@ Debe definir la siguiente configuración:
 
    >[!NOTE]
    >
-   >Con una base de datos Oracle, la **[!UICONTROL Unicode storage]** opción le permite utilizar campos de tipo **NCLOB** y **NVARCHAR** .
+   >Con una base de datos de Oracle, la **[!UICONTROL Unicode storage]** opción le permite utilizar campos de tipo **NCLOB** y **NVARCHAR** .
    > 
-   >Si no selecciona esta opción, el juego de caracteres (charset) de la base de datos Oracle debe habilitar el almacenamiento de datos en todos los idiomas (se recomienda AL32UTF8).
+   >Si no selecciona esta opción, el conjunto de caracteres (charset) de la base de datos de Oracle debe habilitar el almacenamiento de datos en todos los idiomas (se recomienda AL32UTF8).
 
 * Elija una zona horaria para la base de datos y especifique si desea que esté en UTC (si está disponible).
 
@@ -137,7 +132,7 @@ La **[!UICONTROL Creation steps]** ventana permite mostrar y editar la secuencia
    * **WdbcOptions_TableSpaceWork**: tablas de trabajo sin esquema
    * **WdbcOptions_TableSpaceWorkIndex**: índice de tablas de trabajo sin esquema
 
-* Para una base de datos Oracle, el usuario de Adobe Campaign debe tener acceso a las bibliotecas de Oracle, normalmente como miembro del grupo **oinstall** .
+* Para una base de datos de Oracle, el usuario de Adobe Campaign debe tener acceso a las bibliotecas de Oracle, normalmente como miembro del grupo de **instalación** .
 * La **[!UICONTROL Set or change the administrator password]** opción le permite introducir la contraseña vinculada al operador de Adobe Campaign con derechos de administrador.
 
    Se recomienda definir una contraseña de administrador de cuentas de Adobe Campaign por motivos de seguridad.
@@ -164,7 +159,7 @@ Ejemplo de una configuración de Microsoft SQL Server en la base de datos base61
 
 La base de datos, así como el usuario, deben haber sido creados por el administrador de la base de datos y los derechos de acceso están configurados correctamente.
 
-Por ejemplo, para una base de datos Oracle, los derechos mínimos requeridos son: OTORGAR CONNECT, RECURSOS Y ESPACIO DE TABLAS ILIMITADO.
+Por ejemplo, para una base de datos de Oracle, los derechos mínimos requeridos son: OTORGAR CONNECT, RECURSOS Y ESPACIO DE TABLAS ILIMITADO.
 
 Para utilizar una base de datos existente, los pasos de configuración son los siguientes:
 
@@ -186,7 +181,7 @@ Identifique el servidor y elija el tipo de operación que desee realizar. En est
 
 Según el motor de base de datos seleccionado, la información de identificación del servidor puede variar.
 
-* Para un motor **Oracle** , rellene el nombre **** TNS definido para el servidor de aplicaciones.
+* Para un motor de **Oracle** , rellene el nombre **** TNS definido para el servidor de aplicaciones.
 * Para un motor **PostgreSQL** o **DB2** , debe especificar el nombre DNS (o dirección IP) definido en el servidor de aplicaciones para acceder al servidor de bases de datos.
 * Para un motor de **Microsoft SQL Server** , debe definir:
 
@@ -209,7 +204,7 @@ Debe definir la siguiente configuración:
    >[!NOTE]
    >
    >Asegúrese de que coinciden tanto el nombre de esquema como el nombre de usuario. La forma recomendada de crear la base de datos es a través del cliente de la consola de campaña.
-   >Para una base de datos Oracle, no es necesario introducir el nombre de la cuenta.
+   >Para una base de datos de Oracle, no es necesario introducir el nombre de la cuenta.
 
 * Indique si la base de datos debe ser Unicode o no.
 
@@ -227,8 +222,8 @@ La **[!UICONTROL Creation steps]** ventana permite mostrar y editar la secuencia
 
 ![](assets/s_ncs_install_db_oracle_creation04.png)
 
-* Para las bases de datos Oracle, Microsoft SQL Server o PostgreSQL, el administrador puede definir los parámetros **de** almacenamiento que se utilizarán al crear objetos de base de datos.
-* Para una base de datos Oracle, el usuario de Adobe Campaign debe tener acceso a las bibliotecas de Oracle, normalmente como miembro del grupo **oinstall** .
+* Para las bases de datos de Oracle, Microsoft SQL Server o PostgreSQL, el administrador puede definir los parámetros **de** almacenamiento que se utilizarán al crear objetos de base de datos.
+* Para una base de datos de Oracle, el usuario de Adobe Campaign debe tener acceso a las bibliotecas de Oracle, normalmente como miembro del grupo de **instalación** .
 * La **[!UICONTROL Set or change the administrator password]** opción le permite introducir la contraseña vinculada al operador de Adobe Campaign con derechos de administrador.
 
    Se recomienda definir una contraseña de administrador de cuentas de Adobe Campaign por motivos de seguridad.
