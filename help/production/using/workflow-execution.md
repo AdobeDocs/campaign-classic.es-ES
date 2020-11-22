@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Ejecución del flujo de trabajo
-seo-title: Ejecución del flujo de trabajo
 description: Ejecución del flujo de trabajo
-seo-description: null
-page-status-flag: never-activated
-uuid: 115256f6-bdf2-4594-885c-e90d02a25b80
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: 7d8828c5-5776-49ca-b4f7-a4a6aaaa9db1
 translation-type: tm+mt
-source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '633'
 ht-degree: 13%
 
 ---
