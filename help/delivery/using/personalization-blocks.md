@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Bloques personalizados
-seo-title: Bloques personalizados
 description: Bloques personalizados
-seo-description: null
-page-status-flag: never-activated
-uuid: f9867f8d-f6ce-4a5f-b6b4-fd8056d28576
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-discoiquuid: e68d1435-70e6-479e-a347-9ff9f9f11b92
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
-source-wordcount: '888'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '886'
 ht-degree: 100%
 
 ---
@@ -163,4 +158,4 @@ Para crear un bloque personalizado, vaya al explorador y aplique los pasos sigui
 
 Descubra cómo se crearon los bloques de contenido dinámico y cómo se utilizan para personalizar el contenido de su envío de correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
