@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Implementación de una instancia
 description: Más información sobre el asistente para la implementación de Campañas
-page-status-flag: never-activated
-uuid: 5694b07a-6c1c-45a3-8a22-fd9da163c28c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
-discoiquuid: 71fc8bfc-40e0-4592-a540-bd6807ded3a0
 translation-type: tm+mt
-source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '3058'
 ht-degree: 3%
@@ -401,7 +398,7 @@ Están disponibles los siguientes modos de publicación:
 
    ![](assets/s_ncs_install_images_upload_b.png)
 
-* Manual publication script (for public resources only)
+* Secuencia de comandos de publicación manual (solo para recursos públicos)
 
    ![](assets/s_ncs_install_images_upload_c.png)
 
@@ -414,19 +411,19 @@ Están disponibles los siguientes modos de publicación:
       [INSTALL]/copyToFrontal.vbs "$(XTK_INSTALL_DIR)\var\<instance>\upload\" "img1,img2,img3"
       ```
 
-      where `[INSTALL]` is the access path to the Adobe Campaign installation folder.
+      donde `[INSTALL]` es la ruta de acceso a la carpeta de instalación de Adobe Campaign.
 
    * En Unix, asegúrese de que la secuencia de comandos es ejecutable.
 
-For images, it must copy them from the &quot;images&quot; folder specified via the **NmsDelivery_ImageSubDirectory** option to one or more frontal servers. Estos servidores almacenarán las imágenes para hacerlas accesibles mediante la nueva dirección URL configurada.
+Para las imágenes, debe copiarlas de la carpeta &quot;imágenes&quot; especificada mediante la opción **NmsDelivery_ImageSubDirectory** en uno o varios servidores frontales. Estos servidores almacenarán las imágenes para hacerlas accesibles mediante la nueva dirección URL configurada.
 
 En el evento de publicación en un servidor de Adobe Campaign sin una secuencia de comandos de publicación manual, de forma predeterminada, las imágenes de un envío se almacenan en el `$(XTK_INSTALL_DIR)/var/res/img/ directory`. La URL correspondiente es la siguiente: **`https://server/res/img`**.
 
-`XTK_INSTALL_DIR)/var/res/$(INSTANCE_NAME)`. The corresponding URL is as follows: **`https://server/res/instance`** where instance is the name of the tracking instance.
+`XTK_INSTALL_DIR)/var/res/$(INSTANCE_NAME)`. La dirección URL correspondiente es la siguiente: **`https://server/res/instance`** donde instancia es el nombre de la instancia de seguimiento.
 
 >[!NOTE]
 >
->It&#39;s possible to change the public resource storage directory. For more on this, refer to [Managing public resources](#managing-public-resources).
+>Es posible cambiar el directorio de recurso público almacenamiento. For more on this, refer to [Managing public resources](#managing-public-resources).
 
 ### Sincronización de recursos públicos {#synchronizing-public-resources}
 
@@ -434,9 +431,9 @@ Esta funcionalidad le permite **sincronizar recursos públicos** en varios servi
 
 Si un recurso público no está presente en el servidor de seguimiento o si el recurso devuelve un error 404, el servidor de seguimiento intentará encontrar el recurso en uno de los servidores de reserva.
 
-Declaring and configuring spare-servers must be done in the Marketing server&#39;s **serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
+La declaración y la configuración de servidores de repuesto deben realizarse en el archivo **serverConf.xml** del servidor de marketing. Todos los parámetros disponibles en **serverConf.xml** se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
 
-**Declaration**
+**Declaración**
 
 ```
 <redirection>
@@ -446,17 +443,17 @@ Declaring and configuring spare-servers must be done in the Marketing server&#39
 
 **Configuración**
 
-For each public resource that has to be synchronized, you have to add a status attribute to the `<url>` element in the `<relay>` part:
+Para cada recurso público que se debe sincronizar, debe agregar un atributo de estado al `<url>` elemento de la `<relay>` parte:
 
-The status attribute can be one of three values:
+El atributo status puede ser uno de los tres valores:
 
-* spare: The public resource is synchronized
+* repuesto: El recurso público está sincronizado
 
-* normal: Existing behavior (without synchronization)
+* normal: Comportamiento existente (sin sincronización)
 
-* blacklist: The URL is added to the denylist if it returns a 404 error. The duration (in seconds) of the URL being in the denylist is defined by a **timeout** attribute whose default value is 60s.
+* lista negra: La dirección URL se agrega a la  de lista de bloqueados si devuelve un error 404. La duración (en segundos) de la dirección URL que se encuentra en la  de lista de bloqueados se define mediante un atributo de **tiempo de espera** cuyo valor predeterminado es 60 segundos.
 
-The out-of-the-box configuration of the synchronization is:
+La configuración predeterminada de la sincronización es:
 
 ```
 (extracted from the serverConf.xml file)
@@ -492,7 +489,7 @@ startRedirection="true" startRedirectionInModule="true" trackWebVisitors="false"
 
 ## Purgar datos {#purging-data}
 
-The last stage of the deployment wizard lets you configure the automatic purging of obsolete data. The values are expressed in days.
+La última etapa del asistente de implementación le permite configurar la depuración automática de datos obsoletos. Los valores se expresan en días.
 
 ![](assets/s_ncs_install_deployment_wiz_16.png)
 
