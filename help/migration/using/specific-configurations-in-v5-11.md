@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuraciones específicas en la versión 5.11
-seo-title: Configuraciones específicas en la versión 5.11
 description: Configuraciones específicas en la versión 5.11
-seo-description: null
-page-status-flag: never-activated
-uuid: d6920beb-a766-4aec-8a8e-d32e47b545a4
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: configuration
-discoiquuid: fc280640-528d-44de-87d8-52f443772abd
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 5%
+source-wordcount: '1041'
+ht-degree: 4%
 
 ---
 
