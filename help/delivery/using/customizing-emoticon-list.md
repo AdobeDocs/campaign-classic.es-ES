@@ -1,19 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Personalización de la lista de emoticonos
 description: Obtenga información sobre cómo personalizar la lista de emoticonos al utilizar Adobe Campaign Classic.
-page-status-flag: never-activated
-uuid: ddcc2e3b-e251-4a7a-a22a-28701522839f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '443'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
