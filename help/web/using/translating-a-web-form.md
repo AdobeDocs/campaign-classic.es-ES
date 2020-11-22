@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Traducción de un formulario web
-seo-title: Traducción de un formulario web
 description: Traducción de un formulario web
-seo-description: null
-page-status-flag: never-activated
-uuid: 3de2b021-ce1e-4597-8099-7fbef3279170
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: 145c26cc-c868-4b7b-904d-6af577fbcb83
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '1569'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '1565'
 ht-degree: 100%
 
 ---
