@@ -1,18 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Acerca de los casos de uso de flujos de trabajo
 description: Obtenga más información sobre los casos de uso que puede realizar con los flujos de trabajo de Campaign Classic.
-page-status-flag: never-activated
-uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: workflow
 content-type: reference
 topic-tags: about-workflows-and-data-management
-discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00a9b7def9d0ad0190c389c6bcde431f8e2f2b44
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%
@@ -69,7 +66,7 @@ Le ayudarán a descubrir los diferentes contextos en los que se pueden utilizar 
 * [Realización de consultas mediante la administración de agrupación](../../workflow/using/querying-using-grouping-management.md)
 * [Realización de consultas con una relación de varios a varios ](../../workflow/using/querying-using-many-to-many-relationship.md)
 * [Adición de un campo calculado de tipo de lista desglosada](../../workflow/using/adding-enumeration-type-calculated-field.md)
-* [Creación de filtros](../../workflow/using/creating-a-filter.md)
+* [Creación de un filtro](../../workflow/using/creating-a-filter.md)
 * [Filtrado de destinatarios duplicados](../../workflow/using/filtering-duplicated-recipients.md)
 * [Llamada a una variable de instancia en una consulta](../../workflow/using/javascript-scripts-and-templates.md#calling-an-instance-variable-in-a-query)
 * [Aplicación de un porcentaje dividido a una población](../../workflow/using/javascript-scripts-and-templates.md#example)
