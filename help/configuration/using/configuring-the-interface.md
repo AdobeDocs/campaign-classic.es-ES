@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuración de la interfaz
-seo-title: Configuración de la interfaz
 description: Configuración de la interfaz
-seo-description: null
-page-status-flag: never-activated
-uuid: 101ba02f-da43-4dcc-b9ff-6e5ca848fc5d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-discoiquuid: 8fb9ff23-17a7-4425-9195-738d6fd914dc
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 5%
+source-wordcount: '303'
+ht-degree: 4%
 
 ---
 
@@ -30,7 +25,7 @@ Para realizar vistas y diálogos con la nueva tabla de destinatario en la interf
 
 Adobe Campaign utiliza una variable global &quot;Nms_DefaultRcpSchema&quot; para dialogar con la base de datos de destinatario predeterminada (nms:destinatario). Por lo tanto, es necesario modificar esta variable.
 
-1. Vaya al **[!UICONTROL Administration>Platform>Options]** nodo del explorador.
+1. Go to the **[!UICONTROL Administration>Platform>Options]** node of the explorer.
 1. Cambie el valor de la variable **Nms_DefaultRcpSchema** con el nombre del esquema que coincide con la tabla de destinatario externa (en este caso: cus:individual).
 1. Guarde los cambios.
 
