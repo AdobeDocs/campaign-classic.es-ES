@@ -1,19 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Acerca de los activadores de Adobe Experience Cloud
 description: Introducción a la implementación de Adobe Experience Cloud Triggers
-page-status-flag: never-activated
-uuid: c523822f-8178-4989-bd88-ab402470e540
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-discoiquuid: 0d617f1c-0d0b-489f-9027-a92b1f1eee37
 translation-type: tm+mt
-source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 89%
+ht-degree: 93%
 
 ---
 
@@ -39,4 +36,4 @@ El [!DNL pipelined] proceso siempre se está ejecutando en el servidor de market
 
 El proceso [!DNL pipelined] inicia sesión en Experience Cloud mediante un servicio de autenticación y envía una clave privada. El servicio de autenticación devuelve un token. El token se utiliza para autenticarse al recuperar los eventos.
 
-For more information on authentication, refer to this [page](../../integrations/using/configuring-adobe-io.md).
+Para obtener más información sobre la autenticación, consulte esta [página](../../integrations/using/configuring-adobe-io.md).
