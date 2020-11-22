@@ -1,19 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Flujos de trabajo del Reglamento de protección de datos de privacidad
 description: Más información sobre los flujos de trabajo del Reglamento de protección de datos de privacidad
-page-status-flag: never-activated
-uuid: cb5f5d79-52ac-4ce4-abc7-a3a1f0a001cf
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-discoiquuid: 050c804e-87b7-4d68-b787-c396fec329d2
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
