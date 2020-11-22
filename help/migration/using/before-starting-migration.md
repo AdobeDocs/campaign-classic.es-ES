@@ -1,19 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Antes de iniciar la migración
 description: Antes de iniciar la migración
-page-status-flag: never-activated
-uuid: b9325510-2fa5-4be4-9cf0-f37232bbbd8c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
-discoiquuid: d8877378-fb43-4f32-91c6-60f2f788f916
 translation-type: tm+mt
-source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +42,7 @@ Antes de iniciar un proceso de migración, **debe** realizar una copia de seguri
 
 ### Entorno {#environment}
 
-* No es posible cambiar el tipo de motor de base de datos (DBMS). Por ejemplo, no se puede cambiar de un motor PostgreSQL a un motor Oracle. Sin embargo, puede cambiar de un motor de Oracle 8 a un motor de Oracle 10.
+* No es posible cambiar el tipo de motor de base de datos (DBMS). Por ejemplo, no se puede cambiar de un motor PostgreSQL a un motor Oracle. Sin embargo, puede cambiar de un motor Oracle 8 a un motor Oracle 10.
 * No es posible pasar de una base de datos no Unicode a una base de datos Unicode.
 
 ### Recomendación {#recommendation}
