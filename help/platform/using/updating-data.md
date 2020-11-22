@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Actualización de datos
-seo-title: Actualización de datos
 description: Actualización de datos
-seo-description: null
-page-status-flag: never-activated
-uuid: 3a192934-215a-4a0a-a141-956b5c229f5b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: profile-management
-discoiquuid: 1e196989-b8c1-473a-89c9-bbeb68b98419
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '707'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
