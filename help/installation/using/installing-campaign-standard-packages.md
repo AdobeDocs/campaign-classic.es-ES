@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Instalación de paquetes integrados Campaign Classic
 description: Obtenga información sobre cómo instalar los paquetes integrados de Campaña
-page-status-flag: never-activated
-uuid: 1cba9487-52fc-442f-ae99-f8a2c157f25e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
-discoiquuid: dd8f9adf-208c-42d9-b1a7-bfc8a690687e
 translation-type: tm+mt
-source-git-commit: 4b98c23f4120cbea6dd54cd68b61202e74bee3e1
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 11%
