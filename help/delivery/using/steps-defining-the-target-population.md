@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Definición de la población objetivo
-seo-title: Definición de la población objetivo
 description: Definición de la población objetivo
-seo-description: null
-page-status-flag: never-activated
-uuid: 8bf70ea4-5f28-4d85-b5ce-0bd3ed3eea55
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
-translation-type: ht
-source-git-commit: 16985c1ddcd380cfc1ca4960b35bb5e78628f464
-workflow-type: ht
-source-wordcount: '1576'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -234,7 +229,7 @@ Se puede combinar la definición de un destinatario de prueba específico y el u
 
 En este vídeo aprenderá a añadir semillas y pruebas a un correo electrónico existente y a enviarlo.
 
->[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
 Asimismo, consulte lo siguiente:
 * [Selección del destino de la prueba](#selecting-the-proof-target)
