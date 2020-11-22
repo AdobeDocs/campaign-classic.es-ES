@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Esquema de una tabla existente
-seo-title: Esquema de una tabla existente
 description: Esquema de una tabla existente
-seo-description: null
-page-status-flag: never-activated
-uuid: cb766259-8ed7-40a1-8df7-75a8a3f9986d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-discoiquuid: 6877d94d-d6e5-4080-a537-ef1bb6e6f8cf
 translation-type: tm+mt
-source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 14%
+source-wordcount: '216'
+ht-degree: 12%
 
 ---
 
