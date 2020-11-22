@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Saltos (puntos iniciales y finales)
-seo-title: Saltos (puntos iniciales y finales)
 description: Saltos (puntos iniciales y finales)
-seo-description: null
-page-status-flag: never-activated
-uuid: 68e669eb-6c70-483e-afb7-7340225a6e1d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-discoiquuid: f3cd5409-c301-4580-96e3-9349e18cf42a
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '122'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '116'
 ht-degree: 100%
 
 ---
