@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuraciones específicas en la versión 6.10
-seo-title: Configuraciones específicas en la versión 6.10
 description: Configuraciones específicas en la versión 6.10
-seo-description: null
-page-status-flag: never-activated
-uuid: 29fa3576-7f25-4eaf-9602-5fc6d09467ec
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: configuration
-discoiquuid: 1b6ce502-0d33-46e4-b52e-124b849de11f
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 16%
+source-wordcount: '102'
+ht-degree: 12%
 
 ---
 
