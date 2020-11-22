@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Capacidad de entrega de correos electrónicos
-seo-title: Capacidad de entrega de correos electrónicos
 description: Capacidad de entrega de correos electrónicos
-seo-description: null
-page-status-flag: never-activated
-uuid: 983aec6b-60f6-4c9b-a75a-1693958626c2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-discoiquuid: 86c18986-1f65-40ff-80dc-1fbff37f406d
 translation-type: tm+mt
-source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '2975'
+source-wordcount: '2973'
 ht-degree: 21%
 
 ---
@@ -224,7 +219,7 @@ Si el **[!UICONTROL MX management]** documento no existe en el nodo, puede crear
 
    ![](assets/s_ncs_install_mx_mgt_rule.png)
 
-1. Enter **defaultMXRules** in the **[!UICONTROL Internal name]** field.
+1. Introduzca **defaultMXRules** en el **[!UICONTROL Internal name]** campo.
 
 Para que los cambios se tengan en cuenta, debe reiniciar el servidor de estadísticas.
 
@@ -401,7 +396,7 @@ Si, por ejemplo, la primera dirección no se puede utilizar para un MX determina
     * &quot;2&quot;: 5 / (5+1) = 83%
     * &quot;3&quot;: 1 / (5+1) = 17%
 
-* **includeDomains**: le permite reservar esta dirección IP para correos electrónicos que pertenecen a un dominio específico. Es una lista de máscaras que puede contener uno o más comodines (&#39;*&#39;). Si no se especifica el atributo, todos los dominios pueden utilizar esta dirección IP.
+* **includeDomains**: permite reservar esta dirección IP para los correos electrónicos que pertenecen a un dominio específico. Es una lista de máscaras que puede contener uno o más comodines (&#39;*&#39;). Si no se especifica el atributo, todos los dominios pueden utilizar esta dirección IP.
 
    Ejemplo: **includeDomains=&quot;wanadoo.com,naranja.com,yahoo*&quot;**
 
