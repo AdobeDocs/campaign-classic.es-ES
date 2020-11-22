@@ -1,17 +1,14 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Actualización de lista trimestral con una consulta incremental
 description: En este caso de uso,, se utiliza una consulta incremental para actualizar automáticamente una lista de destinatarios.
-page-status-flag: never-activated
-uuid: 24d322e8-172c-4faa-8a1f-59085b390a76
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 31071cd2-7d97-4a4f-a6cc-5ac5b6178be5
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 100%
 
