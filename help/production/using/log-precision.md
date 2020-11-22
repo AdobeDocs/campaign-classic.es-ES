@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Precisión de registro
-seo-title: Precisión de registro
 description: Precisión de registro
-seo-description: null
-page-status-flag: never-activated
-uuid: 8396bc4f-2954-40bb-b511-61802e60e123
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: c6c39b7d-7bbd-4789-b1ea-b938153e9679
 translation-type: tm+mt
-source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 2%
+source-wordcount: '320'
+ht-degree: 1%
 
 ---
 
