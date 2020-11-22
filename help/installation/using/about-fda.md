@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Acceso a una base de datos externa
 description: Obtenga información sobre cómo acceder y procesar datos en una base de datos externa
-page-status-flag: never-activated
-uuid: b84359b9-c584-431d-80d5-71146d9b6854
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: connectors
-discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 translation-type: tm+mt
-source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 40%
@@ -30,7 +27,7 @@ Para utilizar esta capacidad, los requisitos previos se enumeran a continuación
 
 * **Configuración**: excepto para el Snowflake, necesita un modelo **de alojamiento local** o **híbrido** para configurar el Acceso de datos federado. [Más información](../../installation/using/hosting-models.md)
 * **Versión** de base de datos externa: necesita tener una base de datos externa que sea compatible con el módulo de Adobe Campaign FDA. The list of database systems and compatible versions is detailed in Campaign [Compatibility matrix](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA).
-* **Permissions**: users must also have the [necessary permissions](../../installation/using/remote-database-access-rights.md) in Adobe Campaign and on the external database.
+* **Permisos**: los usuarios también deben tener los permisos [](../../installation/using/remote-database-access-rights.md) necesarios en Adobe Campaign y en la base de datos externa.
 
 ## Limitaciones {#limitations}
 
