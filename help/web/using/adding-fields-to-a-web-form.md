@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adición de campos a un formulario web
-seo-title: Adición de campos a un formulario web
 description: Adición de campos a un formulario web
-seo-description: null
-page-status-flag: never-activated
-uuid: 33c6ab85-b021-422a-a224-c9eff27e6fc0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: d63892b3-260d-45e8-b99a-1e7c78353395
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '2452'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '2446'
 ht-degree: 100%
 
 ---
