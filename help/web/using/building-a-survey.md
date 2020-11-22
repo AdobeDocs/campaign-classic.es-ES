@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Generación de una encuesta
-seo-title: Generación de una encuesta
 description: Generación de una encuesta
-seo-description: null
-page-status-flag: never-activated
-uuid: 50d501b9-2b4f-48d1-b394-f7f71c413990
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: online-surveys
-discoiquuid: 6850851d-1dbe-44f0-bbff-18dbac2cad9a
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '799'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '796'
 ht-degree: 100%
 
 ---
