@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Administración de husos horarios
-seo-title: Administración de husos horarios
 description: Administración de husos horarios
-seo-description: null
-page-status-flag: never-activated
-uuid: b8926761-65e2-48fd-8689-2ae6b0596e72
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-discoiquuid: b9846eda-eeca-433e-b961-6dfc2aa2708b
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '886'
 ht-degree: 1%
 
 ---
@@ -73,7 +68,7 @@ Active la **[!UICONTROL UTC database (date fields with time zone)]** opción par
 
 >[!IMPORTANT]
 >
->Si utiliza **Oracle**, los archivos de zona horaria (.dat) de las capas de cliente de Oracle deben ser compatibles con los archivos de husos horarios instalados en el servidor.
+>Si utiliza **Oracle**, los archivos de zona horaria (.dat) de las capas de cliente de Oracle deben ser compatibles con los archivos de zonas horarias instalados en el servidor.
 
 Si la base de datos no es UTC, puede seleccionar uno de los husos horarios ofrecidos en la lista desplegable. También puede utilizar el huso horario del servidor o seleccionar la opción UTC (hora universal coordinada).
 
