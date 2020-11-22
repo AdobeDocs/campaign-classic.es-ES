@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Ejecutar Adobe Campaign
-seo-title: Ejecutar Adobe Campaign
 description: Ejecutar Adobe Campaign
-seo-description: null
-page-status-flag: never-activated
-uuid: c1c5bb0d-ae8e-4b0e-ab39-8b2291162557
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: 6652b081-66b6-47a8-97e5-383e3251647e
 translation-type: tm+mt
-source-git-commit: 285cf8c6521696a0a94f6ffd8fc1eb148977836d
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '504'
 ht-degree: 86%
 
 ---
