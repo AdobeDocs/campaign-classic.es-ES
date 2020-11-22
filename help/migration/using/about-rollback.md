@@ -1,18 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Revertir a la versión anterior
 description: Aprenda a revertir a la versión anterior
-page-status-flag: never-activated
-uuid: 9d404ca5-e38c-48ba-b5e0-8e70a40482c2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: rollback
-discoiquuid: 0e17abea-5e86-43b5-8bca-ee39d9b24c90
 translation-type: tm+mt
-source-git-commit: 7a3cdf40da579fc3c4c7fc26b10c160543cc45d7
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
