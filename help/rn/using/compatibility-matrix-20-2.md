@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Matriz de compatibilidad
 description: Matriz de compatibilidad
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 3402212bc6904dd5587d3b5a16fca7f4857fb908
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 100%
@@ -142,7 +139,7 @@ Se admiten los siguientes controladores RDBMS:
 <tr>
 <td>Oracle</td>
 <td>
-<p>11g    R2</p>
+<p>11g     R2</p>
 <p>12c</p>
 <p>18c</p>
 <p>19c</p>
@@ -225,7 +222,7 @@ Se admiten los siguientes controladores RDBMS:
 <tr>
 <td>Oracle</td>
 <td>
-<p>11g   </p>
+<p>11g    </p>
 <p>12c</p>
 <p>18c</p>
 </td>
