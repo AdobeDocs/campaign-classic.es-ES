@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Líneas de comandos
-seo-title: Líneas de comandos
 description: Líneas de comandos
-seo-description: null
-page-status-flag: never-activated
-uuid: fa897d6a-0326-4922-8936-2471af2f213c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: appendices
-discoiquuid: 3621d4ec-8839-40c3-a574-486c408f79ba
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 5%
+source-wordcount: '150'
+ht-degree: 4%
 
 ---
 
