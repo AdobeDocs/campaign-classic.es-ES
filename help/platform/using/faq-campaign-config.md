@@ -1,20 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Preguntas más frecuentes sobre la configuración de campañas
-seo-title: Cómo configurar Campaign
 description: Preguntas frecuentes sobre Campaign Classic
-page-status-flag: never-activated
-uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 translation-type: tm+mt
-source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
