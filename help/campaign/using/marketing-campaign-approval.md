@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Aprobación de campañas de marketing
-seo-title: Aprobación de campañas de marketing
 description: Aprobación de campañas de marketing
-seo-description: null
-page-status-flag: never-activated
-uuid: 842b501f-7d65-4450-b7ab-aff3942fb96f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '2479'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -198,8 +193,9 @@ En este punto, el estado de la campaña es **[!UICONTROL To validate]**.
 >[!NOTE]
 >
 >* Para seleccionar los procesos sujetos a aprobación, modifique la plantilla de campaña. Para obtener más información, consulte [Plantillas de campaña](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
->
->* También consulte la sección en [Proceso de aprobación](#approval-process).
+   >
+   >
+* También consulte la sección en [Proceso de aprobación](#approval-process).
 
 
 
@@ -270,6 +266,7 @@ Para seleccionar una lista de operadores, haga clic en el vínculo **[!UICONTROL
 >* Si se define una lista de revisores, el trabajo se aprueba en cuanto un revisor lo acepte. El vínculo de aprobación correspondiente, en ese caso, ya no se ofrece en el panel. Cuando se activa la entrega de notificaciones, si otro revisor hace clic en el vínculo de aprobación incluido en el mensaje de notificación, se le notifica que otro operador ya ha aprobado el trabajo.
 >* Puede definir una programación de aprobación para la campaña en la sección inferior de la ventana de edición del revisor. De forma predeterminada, los revisores tienen tres días a partir de la fecha de entrega para aprobar un proceso. Es posible configurar un recordatorio que se envíe automáticamente a los operadores antes de la fecha límite de aprobación.
 >* Puede agregar recordatorios en esta sección.
+
 >
 
 
