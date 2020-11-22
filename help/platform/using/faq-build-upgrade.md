@@ -1,19 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Preguntas frecuentes sobre la actualización de versiones
 description: Preguntas comunes relacionadas con las actualizaciones de la compilación de Campañas
-page-status-flag: never-activated
-uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 translation-type: tm+mt
-source-git-commit: cb96a238f4c8e413377ce6102b065b91badfe6db
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '2020'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -169,7 +166,7 @@ Sí. El servidor se apaga durante una actualización para garantizar que se cons
 
 ## ¿Con quién debo contactar para abrir una incidencia de actualización de compilación?
 
-Si tiene problemas tras una actualización de la compilación, póngase en contacto con el Servicio de atención al cliente de [Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). El Servicio de atención al cliente programa las fechas de compilación y abre los tickets relacionados con la actualización de compilación.
+Si tiene problemas tras una actualización de la compilación, póngase en contacto con el Servicio de atención al cliente de [Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). El Servicio de atención al cliente programa las fechas de compilación y abre los tickets relacionados con la actualización de compilación.
 
 Obtenga más información en las opciones de [ayuda y asistencia técnica para Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support-req)
 
