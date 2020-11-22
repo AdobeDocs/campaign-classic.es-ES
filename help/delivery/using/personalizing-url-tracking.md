@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Personalización del seguimiento de direcciones URL
-seo-title: Personalización del seguimiento de direcciones URL
 description: Personalización del seguimiento de direcciones URL
-seo-description: null
-page-status-flag: never-activated
-uuid: e054d106-9cf2-49db-aa16-2fdbc0777c8b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-discoiquuid: f0e8a50b-d4a4-4271-87f7-802ef410a0f9
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '164'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '161'
 ht-degree: 100%
 
 ---
