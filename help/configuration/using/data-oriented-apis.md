@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: API orientadas a datos
-seo-title: API orientadas a datos
 description: API orientadas a datos
-seo-description: null
-page-status-flag: never-activated
-uuid: f81356b3-8eef-4b65-9510-47c9d4b4e871
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: api
-discoiquuid: fba46d42-0253-425b-bbc2-6702d4140e05
 translation-type: tm+mt
-source-git-commit: 63b208e5607bdcddaef03292d229847c4b7366f8
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1884'
+source-wordcount: '1881'
 ht-degree: 0%
 
 ---
@@ -50,27 +45,27 @@ El siguiente esquema de introducción detalla los intercambios de bajo nivel par
 
 ### ExecuteQuery {#executequery}
 
-For columns and conditions, you can use Queries.
+Para columnas y condiciones, puede utilizar Consultas.
 
-This lets you isolate the underlying SQL. The query language does not depend on the underlying engine: some functions will be re-mapped, which may generate several SELECT SQL orders.
+Esto le permite aislar el SQL subyacente. El idioma de consulta no depende del motor subyacente: algunas funciones se reasignarán, lo que puede generar varios pedidos SQL SELECT.
 
-For more on this, refer to [Example on the &#39;ExecuteQuery&#39; method of schema &#39;xtk:queryDef&#39;](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-).
+Para obtener más información sobre esto, consulte [Ejemplo sobre el método &#39;ExecuteQuery&#39; del esquema &#39;xtk:queryDef&#39;](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-).
 
-The **ExecuteQuery** method is presented in [ExecuteQuery (xtk:queryDef)](#executequery--xtk-querydef-).
+El método **ExecuteQuery** se presenta en [ExecuteQuery (xtk:queryDef)](#executequery--xtk-querydef-).
 
-### Write {#write}
+### Escritura {#write}
 
 Los comandos de escritura permiten escribir documentos simples o complejos, con entradas en una o varias tablas de la base.
 
-Transactional APIs let you manage reconciliations via the **updateOrInsert** command: one command lets you create or update data. También puede configurar la combinación de modificaciones (**combinar**): este modo operativo permite autorizar actualizaciones parciales.
+Las API transaccionales permiten administrar las conciliaciones mediante el comando **updateOrInsert** : un comando permite crear o actualizar datos. También puede configurar la combinación de modificaciones (**combinar**): este modo operativo permite autorizar actualizaciones parciales.
 
-The XML structure offers a logical view of the data and lets you sidestep the physical structure of the SQL table.
+La estructura XML oferta una vista lógica de los datos y permite evitar la estructura física de la tabla SQL.
 
-The Write method is presented in [Write / WriteCollection (xtk:session)](#write---writecollection--xtk-session-).
+El método Write se presenta en [Write / WriteCollection (xtk:session)](#write---writecollection--xtk-session-).
 
 ## ExecuteQuery (xtk:queryDef) {#executequery--xtk-querydef-}
 
-This method lets you perform queries from data associated with a schema. It takes an authentication string (must be logged in) and an XML document describing the query to be submitted as parameters. The return parameter is an XML document containing the result of the query in the format of the schema to which the query refers.
+Este método permite realizar consultas a partir de datos asociados a un esquema. Se necesita una cadena de autenticación (debe haber iniciado sesión) y un documento XML que describa la consulta que se va a enviar como parámetros. El parámetro return es un documento XML que contiene el resultado de la consulta en el formato del esquema al que hace referencia la consulta.
 
 Definición del método &quot;ExecuteQuery&quot; en el esquema &quot;xtk:queryDef&quot;:
 
@@ -264,11 +259,11 @@ La consulta se puede simplificar agregando el atributo **groupBy** directamente 
 >
 >Ya no es necesario rellenar el `<groupby>` elemento.
 
-#### Bracketing in conditions {#bracketing-in-conditions}
+#### Bracketing en condiciones {#bracketing-in-conditions}
 
-Here are two examples of bracketing on the same condition.
+Aquí hay dos ejemplos de paréntesis en la misma condición.
 
-* The simple version in a single expression:
+* Versión simple en una sola expresión:
 
    ```
    <where>
@@ -276,7 +271,7 @@ Here are two examples of bracketing on the same condition.
    </where>
    ```
 
-* The structured version with `<condition>` elements:
+* Versión estructurada con `<condition>` elementos:
 
    ```
    <where>
