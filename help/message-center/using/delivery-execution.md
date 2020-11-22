@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Ejecución de entrega
-seo-title: Ejecución de entrega
 description: Ejecución de entrega
-seo-description: null
-page-status-flag: never-activated
-uuid: d4f4cea7-783b-45d3-b004-297104f0a906
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: event-processing
-discoiquuid: afb375de-2de3-47ad-8b37-664cc04864e8
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '132'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
