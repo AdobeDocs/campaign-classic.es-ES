@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuración
-seo-title: Configuración
 description: Configuración
-seo-description: null
-page-status-flag: never-activated
-uuid: 0f2aadc3-5199-476c-9956-6e39b899a7d0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
-discoiquuid: b781fd52-828c-4582-a546-a1fee7e5a26d
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -96,7 +91,7 @@ Los comandos se muestran en el mismo orden en que se declaran en el documento XM
 
 Un separador de comandos permite mostrar una barra de separación entre comandos. Se identifica mediante el **&#39;-&#39;** valor contenido en la etiqueta de comando.
 
-La presencia opcional de la **`<soapcall>`** etiqueta con sus parámetros de entrada define la llamada de un método SOAP que se va a ejecutar. Para obtener más información sobre la API de SOAP, consulte la documentación [de](https://docs.adobe.com/content/help/es-ES/campaign-classic/technicalresources/api/index.html)Campaña de JSAPI.
+La presencia opcional de la **`<soapcall>`** etiqueta con sus parámetros de entrada define la llamada de un método SOAP que se va a ejecutar. Para obtener más información sobre la API de SOAP, consulte la documentación [de](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)Campaña de JSAPI.
 
 El contexto del formulario se puede actualizar al inicializarlo desde la **`<enter>`** etiqueta . Para obtener más información sobre esta etiqueta, consulte la documentación sobre los formularios de entrada.
 
@@ -269,7 +264,7 @@ Los comandos se muestran en el mismo orden en que se declaran en el documento XM
 
 Un separador de comandos permite mostrar una barra de separación entre comandos. Se identifica mediante el **&#39;-&#39;** valor contenido en la etiqueta de comando.
 
-La presencia opcional de la **`<soapcall>`** etiqueta con sus parámetros de entrada define la llamada de un método SOAP que se va a ejecutar. Para obtener más información sobre las API de SOAP, consulte la documentación [de](https://docs.adobe.com/content/help/es-ES/campaign-classic/technicalresources/api/index.html)Campaña de JSAPI.
+La presencia opcional de la **`<soapcall>`** etiqueta con sus parámetros de entrada define la llamada de un método SOAP que se va a ejecutar. Para obtener más información sobre las API de SOAP, consulte la documentación [de](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)Campaña de JSAPI.
 
 El contexto del formulario se puede actualizar al inicializarlo mediante la **`<enter>`** etiqueta . Para obtener más información sobre esta etiqueta, consulte la documentación del formulario de entrada.
 
