@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Acerca de Adobe Campaign Classic
-seo-title: Acerca de Adobe Campaign Classic
 description: Descubra las funcionalidades clave, la interfaz de usuario y las directrices globales.
-seo-description: null
-page-status-flag: never-activated
-uuid: 2d0160fa-8328-4ff9-ab91-56e4058f8a99
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: a2b43311-737c-4a3b-a6af-1788879f9414
 translation-type: tm+mt
-source-git-commit: 84f14b7a8c4ed05b309109c76be8c8c7b7b52d83
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
