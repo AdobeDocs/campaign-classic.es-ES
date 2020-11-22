@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Acerca de los flujos de trabajo
 description: Automatice los procesos con flujos de trabajo, administre datos y audiencias, envíe mensajes, y mucho más.
-page-status-flag: never-activated
-uuid: 19adb0e5-042d-47a0-9f92-24e4b3045dbe
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: introduction
-discoiquuid: 868940d1-f19d-4e9a-bffa-8654abb4441c
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 100%
