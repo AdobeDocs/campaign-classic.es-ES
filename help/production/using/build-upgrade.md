@@ -1,19 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Introducción a las actualizaciones de la compilación
 description: Conozca los pasos clave para actualizar a una nueva compilación
-page-status-flag: never-activated
-uuid: f24552d4-6bdf-411c-a1f2-b8f339c311f4
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
 translation-type: tm+mt
-source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '2355'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -22,7 +19,7 @@ ht-degree: 2%
 
 Esta sección le proporcionará un tutorial detallado sobre el proceso de actualización y los pasos para identificar y resolver conflictos.
 
-La mejora de la construcción debe llevarse a cabo con cautela, sus efectos deben ser objeto de un examen previo y el procedimiento debe completarse con un alto nivel de disciplina. Para garantizar una actualización correcta, asegúrese de que solo los usuarios expertos realicen los pasos descritos a continuación. Además, recomendamos encarecidamente ponerse en contacto con el Servicio de atención al cliente de [Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) antes de iniciar cualquier actualización.
+La mejora de la construcción debe llevarse a cabo con cautela, sus efectos deben ser objeto de un examen previo y el procedimiento debe completarse con un alto nivel de disciplina. Para garantizar una actualización correcta, asegúrese de que solo los usuarios expertos realicen los pasos descritos a continuación. Además, recomendamos encarecidamente ponerse en contacto con el Servicio de atención al cliente de [Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) antes de iniciar cualquier actualización.
 
 Se necesitan los siguientes requisitos previos:
 
@@ -248,7 +245,7 @@ Cuando la mensajería transaccional (centro de mensajes) está habilitada en la 
 
 En el contexto de un entorno de intermediaria, debe realizar estos pasos adicionales para actualizar:
 
-1. Póngase en contacto con el Servicio de atención [al cliente de](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Adobe para coordinar la actualización del servidor Intermediaria.
+1. Póngase en contacto con el Servicio de atención [al cliente de](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Adobe para coordinar la actualización del servidor Intermediaria.
 1. Valide que la versión se haya actualizado ejecutando un vínculo de prueba. Por ejemplo:
 
    ```
