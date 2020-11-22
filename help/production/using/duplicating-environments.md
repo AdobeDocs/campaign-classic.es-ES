@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Duplicación de entornos
-seo-title: Duplicación de entornos
 description: Duplicación de entornos
-seo-description: null
-page-status-flag: never-activated
-uuid: b8fb8083-e3ec-4b1c-9449-73ac03508d89
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: data-processing
-discoiquuid: 9f7118f4-aef0-469c-bbe1-b62bed674faa
 translation-type: tm+mt
-source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1289'
 ht-degree: 2%
 
 ---
@@ -72,7 +67,7 @@ Los siguientes pasos deben realizarse con atención buena: es posible que alguno
 
 >[!IMPORTANT]
 >
->* El siguiente procedimiento es válido en lenguaje PostgreSQL. Si el lenguaje SQL es diferente (Oracle, por ejemplo), las consultas SQL deben adaptarse.
+>* El siguiente procedimiento es válido en lenguaje PostgreSQL. Si el lenguaje SQL es diferente (por ejemplo, Oracle), las consultas SQL deben adaptarse.
 >* Los siguientes comandos se aplican en el contexto de una instancia de **prod** y una instancia de **dev** en PostgreSQL.
 
 >
