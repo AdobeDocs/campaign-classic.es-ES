@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuración de la plataforma
-seo-title: Configuración de la plataforma
 description: Configuración de la plataforma
-seo-description: null
-page-status-flag: never-activated
-uuid: e6255e4b-c9c8-4ac9-9ee3-aaa4dc9e5ecf
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
-discoiquuid: 4d2e765b-750b-457f-ad55-8bd6faaa86af
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '940'
 ht-degree: 2%
 
 ---
@@ -44,7 +39,7 @@ Al migrar a Adobe Campaign v7, deben configurarse los siguientes elementos. Esto
 
    Si desea utilizar el modo &quot;multizona horaria&quot;, consulte la sección [Husos](../../migration/using/general-configurations.md#time-zones) horarios.
 
-   Si utiliza Oracle como base de datos, compruebe que los archivos de zona horaria de Oracle se han sincronizado correctamente entre el servidor de aplicaciones y el servidor de bases de datos. For more on this, refer to the [Oracle](../../migration/using/general-configurations.md#oracle) section.
+   Si utiliza Oracle como base de datos, compruebe que los archivos de zona horaria de Oracle se han sincronizado correctamente entre el servidor de aplicaciones y el servidor de base de datos. For more on this, refer to the [Oracle](../../migration/using/general-configurations.md#oracle) section.
 
 * Zonas de seguridad
 
