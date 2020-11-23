@@ -27,7 +27,7 @@ Para editar, crear y configurar los esquemas, haga clic en el **[!UICONTROL Admi
 
 ![](assets/d_ncs_integration_schema_navtree.png)
 
-El campo de edición muestra el contenido XML del esquema de origen:
+The edit field shows the XML content of the source schema:
 
 ![](assets/d_ncs_integration_schema_edition.png)
 
