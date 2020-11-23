@@ -9,8 +9,8 @@ topic-tags: appendices
 translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3927'
+ht-degree: 3%
 
 ---
 
@@ -425,11 +425,11 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Unsafe_DecryptString</span> <br /> </td> 
-   <td> If 1 is selected, this option allow to use decryptString to decrypt some passwords.<br /> </td> 
+   <td> Si se selecciona 1, esta opción permite utilizar decryptString para descifrar algunas contraseñas.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkTraceDeleteLogin</span> <br /> </td> 
-   <td> Enter the "1" value to trace the deletion of elements with Audit trail information in the mData, through the modification of its "modified by" field before the deletion of the record.<br /> </td> 
+   <td> Introduzca el valor "1" para rastrear la eliminación de elementos con información de pistas de auditoría en mData, mediante la modificación de su campo "modificado por" antes de la eliminación del registro.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -448,17 +448,17 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
    <td> <span class="uicontrol">MC_EnrichmentCustomJs</span> <br /> </td> 
    <td> Biblioteca de JavaScript que se personalizará para enriquecer eventos. Debe contener la implementación de estas dos funciones:<br /> 
     <ul> 
-     <li> <p> <span class="uicontrol">enrichRtEvents(aiEventId);</span> : enriches and saves events in the database (where <span class="uicontrol">aiEventId</span> corresponds to the table of real time events processed).</p> </li> 
+     <li> <p> <span class="uicontrol">enrichRtEvents(aiEventId);</span> :: enriquece y guarda eventos en la base de datos (donde <span class="uicontrol">aiEventId</span> corresponde a la tabla de eventos en tiempo real procesados).</p> </li> 
      <li> <p> <span class="uicontrol">enrichBatchEvents(aiEventId);</span> : enriches and saves events in the database (where <span class="uicontrol">aiEventId</span> corresponds to the ID table of batch events processed).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_LastUpdateFromBL</span> <br /> </td> 
-   <td> Date of the last event status update via delivery logs.<br /> </td> 
+   <td> Fecha de la última actualización de estado del evento mediante registros de envío.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RoutingCustomJs</span> <br /> </td> 
-   <td> JavaScript library to be personalized for routing events. Debe contener la implementación de estas dos funciones:<br /> 
+   <td> Biblioteca de JavaScript que se personalizará para eventos de enrutamiento. Debe contener la implementación de estas dos funciones:<br /> 
     <ul> 
      <li> <p> <span class="uicontrol">dispatchRtEvent(iEventId);</span> : returns the internal name of the transactional message selected to process the real time event (where <span class="uicontrol">iEventId</span> corresponds to the ID of the real time event processed).</p> </li> 
      <li> <p> <span class="uicontrol">dispatchBatchEvent(iEventId);</span> : returns the internal name of the transactional message selected to process the batch event (where <span class="uicontrol">iEventId</span> corresponds to the ID of the batch event processed).</p> </li> 
@@ -466,11 +466,11 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgDeliveryTimeAlert</span> <br /> </td> 
-   <td> Alert threshold of average sending time of real-time events.<br /> </td> 
+   <td> Umbral de alerta de tiempo medio de envío de eventos en tiempo real.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgDeliveryTimeWarning</span> <br /> </td> 
-   <td> Umbral de advertencia para el tiempo medio de envío de eventos en tiempo real.<br /> </td> 
+   <td> Warning threshold for average sending time of real-time events.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgProcessTimeAlert</span> <br /> </td> 
@@ -486,7 +486,7 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgQueueTimeAlert</span> <br /> </td> 
-   <td> Umbral de alerta para el tiempo de cola promedio de eventos en tiempo real.<br /> </td> 
+   <td> Alert threshold for average queuing time of real-time events.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgQueueTimeWarning</span> <br /> </td> 
@@ -502,7 +502,7 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventErrorWarning</span> <br /> </td> 
-   <td> Warning threshold for processing errors of real-time events.<br /> </td> 
+   <td> Umbral de advertencia para el procesamiento de errores de eventos en tiempo real.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventMaxQueueAlert</span> <br /> </td> 
@@ -510,11 +510,11 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventMaxQueueWarning</span> <br /> </td> 
-   <td> Warning threshold for maximum number of queued real-time events.<br /> </td> 
+   <td> Umbral de advertencia para el número máximo de eventos en tiempo real en cola.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventMinQueueAlert</span> <br /> </td> 
-   <td> Alert threshold for minimum number of queued real-time events.<br /> </td> 
+   <td> Umbral de alerta para el número mínimo de eventos en tiempo real en cola.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventMinQueueWarning</span> <br /> </td> 
@@ -529,7 +529,7 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
    <td> Threshold before warning for the queue of pending real time events.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">MC_RtEventThroughputAlert</span> <br /> </td> 
+   <td> <span class="uicontrol">MC_RtEventThroughAlert</span> <br /> </td> 
    <td> Alert threshold for real-time event throughput.<br /> </td> 
   </tr> 
   <tr> 
@@ -542,11 +542,11 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_LastRtEventStat</span> <br /> </td> 
-   <td> Actualice el puntero del estado de RtEvent (última fecha hasta que se recuperaron los datos).<br /> </td> 
+   <td> Update pointer of RtEvent status (last date until when the data was retrieved).<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsLine_MessageCenterURL</span> <br /> </td> 
-   <td> Dirección URL del servidor del centro de mensajes utilizada para enviar mensajes de bienvenida (canal LINE).<br /> </td> 
+   <td> Message Center server URL used to send welcome messages (LINE channel).<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -563,36 +563,36 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_LastCleanup</span> <br /> </td> 
-   <td> Define la última vez que se ejecutó el proceso de limpieza.<br /> </td> 
+   <td> Defines the last time the cleanup process was run.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_BroadLogPurgeDelay</span> <br /> </td> 
-   <td> <p>Permite definir la demora tras la cual se borra el registro de banda ancha de la base de datos.</p><p>Esta opción se crea automáticamente una vez que se modifica el retraso dentro de la interfaz. Si modifica el valor desde la lista de opciones, debe expresarse en segundos.</p><br /> </td> 
+   <td> <p>Lets you define the delay after which broadlog are erased from the database.</p><p>This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_EventHistoPurgeDelay</span> <br /> </td> 
-   <td><p> Permite definir la demora tras la cual se borra el historial de eventos de la base de datos.</p><p>
-   Esta opción se crea automáticamente una vez que se modifica el retraso dentro de la interfaz. Si modifica el valor desde la lista de opciones, debe expresarse en segundos.</p><br /> </td> 
+   <td><p> Lets you define the delay after which the event history is erased from the database.</p><p>
+   This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_EventPurgeDelay</span> <br /> </td> 
-   <td><p> Permite definir la demora tras la cual se borran eventos de la base de datos.</p><p>Esta opción se crea automáticamente una vez que se modifica el retraso dentro de la interfaz. Si modifica el valor desde la lista de opciones, debe expresarse en segundos.</p><br /> </td> 
+   <td><p> Lets you define the delay after which events are erased from the database.</p><p>This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_EventStatPurgeDelay</span> <br /> </td> 
-   <td><p> Permite definir la demora tras la cual se borran las estadísticas de evento de la base de datos.</p><p>Esta opción se crea automáticamente una vez que se modifica el retraso dentro de la interfaz. Si modifica el valor desde la lista de opciones, debe expresarse en segundos.</p><br /> </td> 
+   <td><p> Permite definir la demora tras la cual se borran las estadísticas de evento de la base de datos.</p><p>This option is automatically created once the delay is modified within the interface. Si modifica el valor desde la lista de opciones, debe expresarse en segundos.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_PropositionPurgeDelay</span> <br /> </td> 
-   <td><p> Permite definir la demora tras la cual se borran las proposiciones de la base de datos.</p><p> Esta opción se crea automáticamente una vez que se modifica el retraso dentro de la interfaz. Si modifica el valor desde la lista de opciones, debe expresarse en segundos.</p><br /> </td> 
+   <td><p> Lets you define the delay after which propositions are erased from the database.</p><p> Esta opción se crea automáticamente una vez que se modifica el retraso dentro de la interfaz. Si modifica el valor desde la lista de opciones, debe expresarse en segundos.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_QuarantineMailboxFull</span> <br /> </td> 
-   <td> <p>Permite definir la demora tras la cual se borran las cuarentenas de la base de datos.</p><p> Esta opción se crea automáticamente una vez que se modifica el retraso dentro de la interfaz. Si modifica el valor desde la lista de opciones, debe expresarse en segundos.</p><br /> </td> 
+   <td> <p>Lets you define the delay after which the quarantines are erased from the database.</p><p> Esta opción se crea automáticamente una vez que se modifica el retraso dentro de la interfaz. Si modifica el valor desde la lista de opciones, debe expresarse en segundos.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_RecycledDeliveryPurgeDelay</span> <br /> </td> 
-   <td> <p>Permite definir el retraso tras el cual se borran los envíos reciclados de la base de datos.</p><p> Esta opción se crea automáticamente una vez que se modifica el retraso dentro de la interfaz. Si modifica el valor desde la lista de opciones, debe expresarse en segundos.</p><br /> </td> 
+   <td> <p>Lets you define the delay after which recycled deliveries are erased from the database.</p><p> Esta opción se crea automáticamente una vez que se modifica el retraso dentro de la interfaz. Si modifica el valor desde la lista de opciones, debe expresarse en segundos.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_RejectPurgeDelay</span> <br /> </td> 
@@ -616,11 +616,11 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcCapabilities_AzureDw</span> <br /> </td> 
-   <td> Opciones del conector de Almacén de datos SQL de Azure.<br /> </td> 
+   <td> Azure SQL Datawarehouse connector options.<br /> </td> 
   </tr>
    <tr> 
    <td> <span class="uicontrol">WdbcKillSessionPolicy</span> <br /> </td> 
-   <td>Permite afectar al comportamiento de detención incondicional en todos los flujos de trabajo y consultas de base de datos PostgreSQL según los siguientes valores potenciales:<ul>
+   <td>Lets you affect Unconditional Stop behavior on all the workflows and PostgreSQL database queries according to the following potential values:<ul>
     <li><p>0 - predeterminado: detiene el proceso de flujo de trabajo, sin afectar a la base de datos<p></li>
     <li><p>1 - pg_cancel_backend: detiene el proceso de flujo de trabajo y cancela la consulta en la base de datos<p></li>
     <li><p>2 - pg_end_backend: detiene el proceso de flujo de trabajo y finaliza la consulta en la base de datos<p></li></ul></td> 
@@ -639,11 +639,11 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWorkIndex</span> <br /> </td> 
-   <td> Nombre del tablespace que va a contener los índices de las tablas de trabajo de Adobe Campaign.<br />Consulte <a href="../../installation/using/creating-and-configuring-the-database.md">Creación y configuración de la base de datos</a>.</td> 
+   <td> Name of the tablespace intended to contain the indexes of the Adobe Campaign work tables.<br />Consulte <a href="../../installation/using/creating-and-configuring-the-database.md">Creación y configuración de la base de datos</a>.</td> 
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
-   <td> Permite configurar una base de datos independiente para tablas de trabajo en Microsoft SQL Server, con el fin de optimizar las copias de seguridad y la replicación. La opción corresponde al nombre de la base de datos temporal: Las tablas de trabajo se escribirán en esta base de datos si se especifican. Ejemplo: 'tempdb.dbo'. (tenga en cuenta que el nombre debe terminar con un punto). <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">Más información</a> <br /> </td> 
+   <td> Permite configurar una base de datos independiente para tablas de trabajo en Microsoft SQL Server, con el fin de optimizar las copias de seguridad y la replicación. The option corresponds to the name of the temporary database: Work tables will be written in this database if specified. Ejemplo: 'tempdb.dbo'. (tenga en cuenta que el nombre debe terminar con un punto). <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">Más información</a> <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 
@@ -663,36 +663,39 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkInstancePrefix</span> <br /> </td> 
-   <td> Se agregó un prefijo a los nombres internos que se generaron automáticamente.<br /> </td> 
+   <td> Prefix added to internal names generated automatically.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">XtkQuery_Esquema_LineCount</span> <br /> </td> 
-   <td> Número máximo de resultados devueltos por una consulta en xtk:esquema y xtk:srcSchema.<br /> </td> 
+   <td> <span class="uicontrol">XtkQuery_Schema_LineCount</span> <br /> </td> 
+   <td> Maximum number of results returned by a query on xtk:schema and xtk:srcSchema.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSequence_AutoGeneration</span> <br /> </td> 
-   <td> Todos los esquemas personalizados, creados después de este tiempo, con autopk="true" y sin el atributo "pkSequence" obtendrán una secuencia generada automáticamente "auto_ &lt;SchemaName&gt; &lt;nombre_esquema&gt; _seq. 
+   <td> All customized schemas, created after this time, with autopk="true" and without the attribute "pkSequence" will get an auto-geneated sequence "auto_ 
+    &lt;schemanamespace&gt; 
+     &lt;schemaname&gt;
+       _seq. 
    </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NlMigration_KeepFolderStructure</span> <br /> </td> 
-   <td> Durante la migración, la estructura de árbol se reorganiza automáticamente en función de los nuevos estándares de versión.<br /> Esta opción le permite desactivar la migración automática del árbol de navegación. Si la utiliza, después de la migración tendrá que eliminar las carpetas obsoletas, agregar las nuevas carpetas y ejecutar todas las comprobaciones necesarias.<br /> 
+   <td> During migration, the tree structure is automatically reorganized based on the new version standards.<br /> This option allows you to disable the automatic migration of the navigation tree. Si la utiliza, después de la migración tendrá que eliminar las carpetas obsoletas, agregar las nuevas carpetas y ejecutar todas las comprobaciones necesarias.<br /> 
     <ul> 
      <li> <p> <span class="uicontrol">Tipo de datos:</span> Entero</p> </li> 
-     <li> <p> <span class="uicontrol">Value (text)</span> : 1 </p> </li> 
-    </ul> This option should only be used if the out-of-the-box navigation tree has undergone too many changes.<br /><a href="../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure"> Para obtener más información, consulte esta sección</a>.<br /> </td> 
+     <li> <p> <span class="uicontrol">Valor (texto)</span> : 1 </p> </li> 
+    </ul> Esta opción solo debe utilizarse si el árbol de navegación integrado ha sufrido demasiados cambios.<br /><a href="../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure"> Para obtener más información, consulte esta sección</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsLastErrorStatCoalesce</span> <br /> </td> 
-   <td> Last processing date of the <span class="uicontrol">NmsEmailErrorStat</span> table cleanup.<br /> </td> 
+   <td> Última fecha de procesamiento de la limpieza de tabla <span class="uicontrol">NmsEmailErrorStat</span> .<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">PostUpgradeLastError</span> <br /> </td> 
-   <td> Information concerning the error that occurred in the Postupgrade, following the syntax below:<br /> <strong>{Build number}:{mode: pre/post/...}:{The 'lessThan'/'greaterOrEquelThan' where error occurred + sub-step}</strong> </td> 
+   <td> Información sobre el error que se produjo en la postactualización, según la sintaxis siguiente:<br /> <strong>{Número de compilación}:{modo: pre/post/...}:{El 'menor que'/'mayor o igual que' donde se produjo el error + subpaso}</strong> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkCleanup_NoStats</span> <br /> </td> 
-   <td> Enter the "1" value so that the update of statistics is not performed through the cleanup workflow.<br /> </td> 
+   <td> Introduzca el valor "1" para que la actualización de las estadísticas no se realice a través del flujo de trabajo de limpieza.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -709,7 +712,7 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">AEMResourceTypeFilter</span> <br /> </td> 
-   <td> Types of AEM resources that can be used in Adobe Campaign. Values must be separated by commas.<br /> </td> 
+   <td> Tipos de recursos AEM que se pueden usar en Adobe Campaign. Los valores deben separarse con comas.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">nmsPipeline_config</span> <br /> </td> 
@@ -719,8 +722,8 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
    <td> <span class="uicontrol">LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</span> <br /> </td> 
    <td> This option is used when importing data from a third-party system through a CRM connector. La activación de la opción  solo permite recopilar objetos modificados desde la última importación. Esta opción debe crearse y rellenarse manualmente de la siguiente manera: 
     <ul> 
-     <li> <p> <span class="uicontrol">Internal name</span> : LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</p> </li> 
-     <li> <p> <span class="uicontrol">Value (field)</span> : date of the last import, with the yyyy/MM/dd hh:mm:ss format. </p> </li> 
+     <li> <p> <span class="uicontrol">Nombre</span> interno: LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</p> </li> 
+     <li> <p> <span class="uicontrol">Valor (campo)</span> : fecha de la última importación, con el formato aaaa/MM/dd hh:mm:ss. </p> </li> 
     </ul><br /> </td> 
   </tr> 
   <tr> 
@@ -733,15 +736,15 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">AAM_DataSourceId</span> <br /> </td> 
-   <td> Option used for the integration with Adobe Audience Manager.<br /> </td> 
+   <td> Opción utilizada para la integración con Adobe Audience Manager.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">AAM_DestinationId</span> <br /> </td> 
-   <td> Option used for the integration with Adobe Audience Manager.<br /> </td> 
+   <td> Opción utilizada para la integración con Adobe Audience Manager.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcCapabilities_Teradata</span> <br /> </td> 
-   <td> Teradata connector options.<br /> </td> 
+   <td> Opciones de conector de teradata.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcCapabilities_Hive</span> <br /> </td> 
@@ -750,7 +753,7 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
  </tbody> 
 </table>
 
-## Offers {#offers}
+## Ofertas {#offers}
 
 <table> 
  <thead> 
@@ -762,15 +765,15 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">NmsCoupons_MaxPerTransac</span> <br /> </td> 
-   <td> Number of coupons that are updated per SQL transaction.<br /> </td> 
+   <td> Número de cupones que se actualizan por transacción SQL.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsInteraction_LastPropositionSynchControl_</span> <br /> </td> 
-   <td> '+ [proposition's schema] + "_" + extAccountSource.@executionInstanceId + [proposition's schema] + "_" + vars.executionInstanceIdFilter<br /> </td> 
+   <td> '+ [esquema de la propuesta] + "_" + extAccountSource.@executeInstanceId + [esquema de la propuesta] + "_" + vars.executeInstanceIdFilter<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsInteraction_LastPropositionSynchExec_</span> <br /> </td> 
-   <td> '+ [ proposition's schema] + "_" + extAccountSource.@executionInstanceId + "_" + extAccountTarget.@executionInstanceId<br /> </td> 
+   <td> '+ [ esquema de la propuesta] + "_" + extAccountSource.@executionInstanceId + "_" + extAccountTarget.@executionInstanceId<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsInteraction_SynchWorkflowIds</span> <br /> </td> 
@@ -819,7 +822,7 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkPassUnknownSQLFunctionsToRDBMS</span> <br /> </td> 
-   <td> Permite seguir utilizando funciones SQL antiguas no declaradas después de la migración. Recomendamos encarecidamente no utilizar esta opción debido a los riesgos de seguridad que presenta.<br /> </td> 
+   <td> Lets you continue using old undeclared SQL functions after migrating. Recomendamos encarecidamente no utilizar esta opción debido a los riesgos de seguridad que presenta.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
