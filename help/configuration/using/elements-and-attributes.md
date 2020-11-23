@@ -17,19 +17,19 @@ ht-degree: 1%
 
 # Elementos y atributos {#elements-and-attributes}
 
-Al editar un esquema, hay disponible un sistema de aprobación basado en el esquema de origen (xtk:srcSchema). También se pueden detectar algunos errores al actualizar la base de datos mediante la &quot;actualización de la estructura de la base de datos...&quot;. asistente.
+Al editar un esquema, está disponible un sistema de aprobación basado en el esquema de origen (xtk:srcSchema). También se pueden detectar algunos errores al actualizar la base de datos mediante la &quot;actualización de la estructura de la base de datos...&quot;. para abrir el Navegador.
 
-De forma predeterminada, en los esquemas de Adobe Campaign, todos los atributos de tipo booleano son &quot;false&quot;. Para activarlos, debe especificar el atributo en el esquema y establecer su valor en &quot;true&quot;.
+De forma predeterminada, en los esquemas de Adobe Campaign, todos los atributos de tipo booleanos son &quot;false&quot;. Para activarlos, debe especificar el atributo en el esquema y establecer su valor en &quot;true&quot;.
 
 ## `<attribute>` Elemento {#attribute--element}
 
 ### Modelo de contenido {#content-model}
 
-attribute:==help
+atributo:==help
 
 ### Atributos {#attributes}
 
-_operation (string), avanzado (booleano), correspondienteIf (string), autoIncrement (boolean), perteneceTo (string), dataPolicy (string), dbEnum (string), defOnDuplicate (boolean), predeterminado (string), desc (string), edit (string), enum (string), expr (string), feature (string), featureDate Boolean), img (cadena), inout (cadena), label (cadena), length (cadena), localizable (booleano), name (MNTOKEN), notNull (boolean), pkgStatus (cadena), ref (cadena), required (boolean), sql (boolean), sqlDefault (cadena), sqlname (cadena), sqltable (cadena) destinatario (MNTOKEN), plantilla (cadena), translateDefault (cadena), translateExpr (cadena), tipo (MNTOKEN), usuario (booleano), userEnum (cadena), visibleIf (cadena), xml (booleano)
+_operations (cadena), avanzado (booleano), aplicableIf (cadena), autoIncrement (booleano), perteneceTo (cadena), dataPolicy (cadena), dbEnum (cadena), defOnDuplicate (booleano), default (cadena), desc (cadena), edit (cadena), enum (cadena), expr (cadena), features (cadena), features (cadena), features (cadena) oleano), img (cadena), inout (cadena), label (cadena), length (cadena), localizable (booleano), name (MNTOKEN), notNull (booleano), pkgStatus (cadena), ref (cadena), requerido (booleano), sql (booleano), sqlDefault (cadena), sqlname (cadena), sqltable (cadena) destino (MNTOKEN), plantilla (cadena), traducidoDefault (cadena), traducidoExpr (cadena), tipo (MNTOKEN), usuario (booleano), userEnum (cadena), visibleIf (cadena), xml (booleano)
 
 ### Padres {#parents}
 
@@ -45,102 +45,102 @@ _operation (string), avanzado (booleano), correspondienteIf (string), autoIncrem
 
 ### Uso y contexto de uso {#use-and-context-of-use}
 
-`<attribute>` los elementos deben declararse en un `<element>` elemento.
+`<attribute>` se deben declarar en un `<element>` elemento.
 
-La secuencia en la que se definen `<attribute>` los elementos en una `<srcschema>` no afecta a la secuencia de creación de campos en la base de datos. La secuencia de creación será alfabética.
+La secuencia en la que se definen `<attribute>` los elementos en una base de datos `<srcschema>` no afecta a la secuencia de creación de campos de la base de datos. La secuencia de creación será alfabética.
 
 ### Descripción del atributo {#attribute-description}
 
-* **_operation (string)**: define el tipo de escritura en la base de datos.
+* **_operación (cadena)**: define el tipo de escritura en la base de datos.
 
-   Este atributo se utiliza principalmente al ampliar los esquemas predeterminados.
+   Este atributo se utiliza principalmente cuando se amplían los esquemas fuera de la caja.
 
    Los valores accesibles son:
 
    * &quot;ninguno&quot;: sólo reconciliación. Esto significa que Adobe Campaign recuperará el elemento sin actualizarlo ni generar un error si no existe.
-   * &quot;insertOrUpdate&quot;: actualizar con inserción. Esto significa que Adobe Campaign actualizará el elemento o lo creará si no existe.
+   * &quot;InsertOrUpdate&quot;: actualizar con inserción. Esto significa que Adobe Campaign actualizará el elemento o lo creará si no existe.
    * &quot;insertar&quot;: inserción. Esto significa que Adobe Campaign insertará el elemento sin comprobar si existe.
-   * &quot;update&quot;: actualizar. Esto significa que Adobe Campaign actualizará el elemento o generará un error si no existe.
-   * &quot;delete&quot;: eliminación. Esto significa que Adobe Campaign recuperará y eliminará los elementos.
+   * &quot;actualización&quot;: actualización. Esto significa que Adobe Campaign actualizará el elemento o generará un error si no existe.
+   * &quot;borrar&quot;: eliminación. Esto significa que Adobe Campaign recuperará y borrará elementos.
 
-* **avanzado (booleano)**: cuando esta opción está activada (@advanced=&quot;true&quot;), permite ocultar el atributo en la lista de los campos disponibles a los que se puede acceder para configurar una lista en un formulario.
-* **applyIf (string)**: este atributo permite hacer que los campos sean opcionales. El `<attribute>` elemento se tendrá en cuenta al actualizar la base de datos cuando se cumpla la restricción. &quot;applyIf&quot; recibe una expresión XTK.
-* **autoIncrement (booleano)**: si esta opción está activada, el campo se convierte en un contador. Esto le permite incrementar un valor (principalmente ID). (uso externo)
-* **existsTo (string)**: toma el nombre y la Área de nombres de la tabla que comparte el campo y rellena el esquema donde se declara el atributo. (utilizado sólo en una `<schema>`).
-* **dataPolicy (string)**: permite especificar restricciones de aprobación en los valores permitidos en el campo SQL o XML. Los valores de este atributo son:
+* **avanzado (booleano)**: cuando se activa esta opción (@avanzado=&quot;true&quot;), se puede ocultar el atributo de la lista de campos disponibles a los que se puede acceder para configurar una lista en un formulario.
+* **aplicableSi (cadena)**: este atributo le permite hacer que los campos sean opcionales. El `<attribute>` elemento se tendrá en cuenta al actualizar la base de datos cuando se cumpla la restricción. &quot;correspondienteIf&quot; recibe una expresión XTK.
+* **autoIncrement (booleano)**: si se activa esta opción, el campo se convierte en un contador. Esto le permite incrementar un valor (principalmente IDs). (uso externo)
+* **perteneceTo (cadena)**: toma el nombre y el espacio de nombres de la tabla que comparte el campo y rellena el esquema donde se declara el atributo. (utilizado sólo en una `<schema>`).
+* **DataPolicy (cadena)**: permite especificar restricciones de aprobación en los valores permitidos en el campo SQL o XML. Los valores de este atributo son:
 
    * &quot;ninguno&quot;: sin valor
-   * &quot;smartCase&quot;: letras mayúsculas y minúsculas
-   * &quot;lowerCase&quot;: todas las minúsculas
-   * &quot;topCase&quot;: todas las mayúsculas y minúsculas
-   * &quot;email&quot;: dirección de correo electrónico
-   * &quot;phone&quot;: número de teléfono
-   * &quot;identifier&quot;: nombre de identificador
+   * &quot;smartCase&quot;: mayúsculas y minúsculas
+   * &quot;LowerCase&quot;: todas las minúsculas
+   * &quot;mayúsculas&quot;: todas las mayúsculas
+   * &quot;correo electrónico&quot;: dirección de correo electrónico
+   * &quot;teléfono&quot;: número de teléfono
+   * &quot;identificador&quot;: nombre de identificador
    * &quot;resIdentifier&quot;: nombre de archivo
 
-* **dbEnum (cadena)**: recibe el nombre interno de una lista desglosada &quot;cerrada&quot;. Los valores de lista desglosada deben definirse en la `<srcschema>`.
+* **dbEnum (cadena)**: recibe el nombre interno de una enumeración &quot;cerrada&quot;. Los valores de enumeración se deben definir en el `<srcschema>`.
 * **defOnDuplicate (booleano)**: si se activa este atributo, cuando se duplica un registro, el valor predeterminado (definido en @default) se vuelve a aplicar automáticamente al registro.
-* **default (string)**: permite definir el valor del campo predeterminado (llamada a una función, valor predeterminado). Este atributo recibe una expresión XTK.
-* **desc (cadena)**: permite insertar una descripción del atributo. Esta descripción se muestra en la barra de estado de la interfaz.
-* **edit (cadena)**: este atributo especifica el tipo de entrada que se utilizará en el formulario vinculado al esquema.
-* **enum (cadena)**: recibe el nombre de la lista desglosada vinculada al campo. La lista desglosada se puede insertar en el mismo esquema o en un esquema remoto.
+* **predeterminado (cadena)**: permite definir el valor del campo predeterminado (llamada a una función, valor predeterminado). Este atributo recibe una expresión XTK.
+* **desc (cadena)**: le permite insertar una descripción del atributo. Esta descripción se muestra en la barra de estado de la interfaz.
+* **editar (cadena)**: este atributo especifica el tipo de entrada que se utilizará en el formulario vinculado al esquema.
+* **enum (cadena)**: recibe el nombre de la enumeración vinculada al campo. La enumeración se puede insertar en el mismo esquema o en un esquema remoto.
 * **expr (cadena)**: define una expresión de precálculo de campo. Este atributo recibe una expresión Xpath o XTK.
-* **feature (string)**: define un campo de características: Estos campos se utilizan para ampliar los datos en un cuadro existente, pero con almacenamientos en un cuadro anexo. Los valores aceptados son:
+* **característica (cadena)**: define un campo de características: Estos campos se utilizan para ampliar los datos en un cuadro existente, pero se almacenan en un cuadro anexo. Los valores aceptados son:
 
    * &quot;compartido&quot;: el contenido se almacena en una tabla compartida por tipo de datos
    * &quot;dedicado&quot;: el contenido se almacena en una tabla dedicada
 
-   Las tablas de características SQL se crean automáticamente según el tipo de característica:
+   Las tablas de características SQL se generan automáticamente en función del tipo de característica:
 
    * dedicado: `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
    * shared: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
 
-   Existen dos tipos de campos de características: campos sencillos¹ en los que se autorice un valor único en la característica y en los campos de opción múltiple, en los que la característica esté vinculada a un elemento de colección que pueda contener varios valores.
+   Existen dos tipos de campos de características: campos simples de oà¹ en los que se autoriza un único valor sobre la característica y campos de elección múltiple de oà¹, en los que la característica está vinculada a un elemento de colección que puede contener varios valores.
 
-   Cuando una característica se define en un esquema, este esquema debe tener una clave principal basada en un solo campo (las claves compuestas no están autorizadas).
+   Cuando una característica se define en un esquema, este esquema debe tener una clave principal basada en un solo campo (no se autorizan las claves compuestas).
 
-* **featureDate (booleano)**: vinculado al campo de características &quot;@feature&quot;. Si su valor es &quot;true&quot;, le permite averiguar cuándo se actualizó por última vez el valor.
-* **img (cadena)**: permite definir una ruta de acceso para una imagen vinculada a un campo (Área de nombres + nombre de imagen) (ejemplo: img=&quot;cus:mypicture.jpg&quot;). Físicamente, la imagen debe importarse al servidor de aplicaciones.
-* **label (string)**: etiqueta vinculada al campo, principalmente destinada al usuario en la interfaz. Permite evitar restricciones de nombres.
-* **length (string)**: máx. número de caracteres para un valor del campo SQL de tipo &quot;cadena&quot;. Si no se especifica el atributo &quot;@length&quot;, Adobe Campaign crea automáticamente un campo para 255 caracteres.
-* **localizable (booleano)**: si se activa, este atributo indica a la herramienta de recopilación que recupere el valor del atributo &quot;@label&quot; para traducción (uso interno).
-* **name (MNTOKEN)**: nombre del atributo que coincidirá con el nombre del campo en la tabla. El valor del atributo &quot;@name&quot; debe ser corto, preferiblemente en inglés, y cumplir con las restricciones de nombres XML.
+* **FeatureDate (booleano)**: atributo vinculado al campo de características &quot;@features&quot;. Si su valor es &quot;true&quot;, le permite averiguar cuándo se actualizó por última vez el valor.
+* **img (cadena)**: permite definir una ruta de acceso para una imagen vinculada a un campo (espacio de nombres + nombre de imagen)(ejemplo: img=&quot;cus:mypicture.jpg&quot;). Físicamente, la imagen debe importarse al servidor de aplicaciones.
+* **etiqueta (cadena)**: etiqueta vinculada al campo, destinada principalmente al usuario de la interfaz. Le permite evitar restricciones de nombres.
+* **longitud (cadena)**: máx. número de caracteres para un valor del campo SQL de tipo &quot;cadena&quot;. Si no se especifica el atributo &quot;@length&quot;, Adobe Campaign creará automáticamente un campo para 255 caracteres.
+* **localizable (booleano)**: si se activa, este atributo indica a la herramienta de recopilación que recupere el valor del atributo &quot;@label&quot; para la traducción (uso interno).
+* **nombre (MNTOKEN)**: nombre del atributo que coincidirá con el nombre del campo de la tabla. El valor del atributo &quot;@name&quot; debe ser corto, preferiblemente en inglés, y cumplir con las restricciones de nomenclatura XML.
 
    Cuando el esquema se escribe en la base de datos, Adobe Campaign agrega automáticamente prefijos al nombre del campo:
 
-   * &quot;i&quot;: para el tipo &#39;integer&#39;.
+   * &quot;i&quot;: para el tipo &#39;entero&#39;.
    * &quot;d&quot;: para el tipo &#39;doble&#39;.
    * &quot;s&quot;: para el tipo de cadena de caracteres.
-   * &quot;ts&quot;: para el tipo &#39;date&#39;.
+   * &quot;t&quot;: para el tipo &#39;date&#39;.
 
    Para definir completamente el nombre del campo en la tabla, utilice la opción &quot;@sqlname&quot; al definir un atributo.
 
-* **notNull (boolean)**: permite redefinir el comportamiento de Adobe Campaign con respecto a la administración de registros NULOS en la base de datos. De forma predeterminada, los campos numéricos no son nulos y los campos de cadena y tipo de fecha pueden ser nulos.
-* **pkgStatus (string)**: durante las exportaciones de paquetes, los valores se tienen en cuenta en función del valor de &quot;@pkgStatus&quot;:
+* **noNulo (booleano)**: le permite redefinir el comportamiento de Adobe Campaign con respecto a la administración de registros NULL en la base de datos. De forma predeterminada, los campos numéricos no son nulos y los campos de tipo de cadena y fecha pueden ser nulos.
+* **pkgStatus (cadena)**: durante las exportaciones de paquetes, los valores se toman en cuenta dependiendo del valor de &quot;@pkgStatus&quot;:
 
-   * &quot;always&quot;: siempre presente
-   * &quot;never&quot;: nunca presente
-   * &quot;predeterminado (o nada)&quot;: el valor se exporta excepto si es el valor predeterminado o si no es un campo interno que no sería compatible con otras instancias.
+   * &quot;siempre&quot;: siempre presente
+   * &quot;nunca&quot;: nunca presentar
+   * &quot;por defecto (o nada)&quot;: el valor se exporta excepto si es el valor predeterminado o si no es un campo interno que no sería compatible con otras instancias.
 
 * **ref (cadena)**: este atributo define una referencia a un `<attribute>` elemento compartido por varios esquemas (factorización de definición). La definición no se copia en el esquema actual.
-* **requerido (booleano)**: si este atributo está activado (@required=&quot;true&quot;), el campo se resalta en la interfaz. La etiqueta del campo aparecerá en rojo en los formularios.
-* **sql (booleano)**: si este atributo está activado (@sql=&quot;true&quot;), fuerza el almacenamiento del atributo SQL, incluso cuando el elemento que contiene el atributo tiene la propiedad xml=&quot;true&quot;.
-* **sqlDefault (string)**: este atributo permite definir el valor predeterminado que se tiene en cuenta para actualizar la base de datos si se activa el atributo @notNull. Si este atributo se agrega después de la creación del atributo, el comportamiento de esquema no cambiará ni siquiera para los nuevos registros. Para cambiar el esquema y actualizar el valor de los nuevos registros, debe eliminar y volver a crear el atributo.
-* **sqlname (string)**: del campo durante la creación de la tabla. Si no se especifica @sqlname, el valor del atributo &quot;@name&quot; se utiliza de forma predeterminada. Cuando el esquema se escribe en la base de datos, los prefijos se agregan automáticamente en función del tipo de campo.
-* **template (string)**: este atributo define una referencia a un `<attribute>` elemento compartido por varios esquemas. La definición se copia automáticamente en el esquema actual.
-* **translateDefault (string)**: si se encuentra un atributo &quot;@default&quot;, &quot;@translateDefault&quot; le permitirá redefinir una expresión para que coincida con la definida en @default, que será recopilada por la herramienta de traducción (uso interno).
-* **translateExpr (cadena)**: si hay un atributo &quot;@expr&quot; presente, el atributo &quot;@translateExpr&quot; le permite redefinir una expresión para que coincida con la definida en @expr, que será recopilada por la herramienta de traducción (uso interno).
-* **type (MNTOKEN)**: tipo de campo.
+* **requerido (booleano)**: si se activa este atributo (@Required=&quot;true&quot;), el campo se resaltará en la interfaz. La etiqueta del campo será roja en formularios.
+* **sql (booleano)**: si este atributo está activado (@sql=&quot;true&quot;), obliga al almacenamiento del atributo SQL, incluso cuando el elemento que contiene el atributo tiene la propiedad xml=&quot;true&quot;.
+* **sqlDefault (cadena)**: este atributo permite definir el valor predeterminado que se tiene en cuenta para actualizar la base de datos si se activa el atributo @notNull. Si este atributo se agrega después de la creación del atributo, el comportamiento del esquema no cambiará ni siquiera para los nuevos registros. Para cambiar el esquema y actualizar el valor de los nuevos registros, debe eliminar y volver a crear el atributo.
+* **sqlname (cadena)**: del campo durante la creación de la tabla. Si no se especifica @sqlname, el valor del atributo &quot;@name&quot; se utiliza de forma predeterminada. Cuando el esquema se escribe en la base de datos, los prefijos se agregan automáticamente dependiendo del tipo de campo.
+* **plantilla (cadena)**: este atributo define una referencia a un `<attribute>` elemento compartido por varios esquemas. La definición se copia automáticamente en el esquema actual.
+* **traducidoPredeterminado (cadena)**: si se encuentra un atributo &quot;@default&quot;, &quot;@translDefault&quot; le permitirá redefinir una expresión que coincida con la definida en @default, que será recopilada por la herramienta de traducción (uso interno).
+* **transladaExpr (cadena)**: si existe un atributo &quot;@expr&quot;, el atributo &quot;@translExpr&quot; le permite redefinir una expresión que coincida con la definida en @expr, que será recopilada por la herramienta de traducción (uso interno).
+* **tipo (MNTOKEN)**: tipo de campo.
 
-   Los tipos de campo son genéricos. Según el tipo de base de datos instalada, Adobe Campaign cambia el tipo definido a un valor específico de la base de datos instalada durante la actualización de la estructura.
+   Los tipos de campo son genéricos. En función del tipo de base de datos instalada, Adobe Campaign cambia el tipo definido a un valor específico de la base de datos instalada durante la actualización de la estructura.
 
-   Lista de los tipos disponibles:
+   Lista de tipos disponibles:
 
    * CUALQUIER
-   * bin
-   * blob
+   * 9.º baliza
+   * blasfemar
    * booleano
-   * byte
+   * 7.º oscilación
    * CDATA
    * datetime
    * datetimetz
@@ -148,7 +148,7 @@ La secuencia en la que se definen `<attribute>` los elementos en una `<srcschema
    * date
    * doble
    * enum
-   * float
+   * flotar
    * html
    * int64
    * link
@@ -157,28 +157,28 @@ La secuencia en la que se definen `<attribute>` los elementos en una `<srcschema
    * MNTOKEN
    * percent
    * primarykey
-   * short
+   * corto
    * string
    * tiempo
-   * timespan
+   * período de tiempo
    * uuid
 
-   Si el atributo &quot;@type&quot; se deja vacío, Adobe Campaign vinculará una cadena de caracteres (STRING) con una longitud de 100 al campo de forma predeterminada.
+   Si el atributo &quot;@type&quot; se deja vacío, Adobe Campaign vinculará de forma predeterminada una cadena de caracteres (STRING) con una longitud de 100 al campo.
 
-   Si el campo es de tipo STRING y el nombre del campo no está especificado por la presencia del atributo &quot;@sqlname&quot;, el nombre del campo en la base de datos estará precedido automáticamente por &#39;s&#39;. Este modo operativo será similar a los campos de tipo INTEGER (i), DOBLE (d) y FECHAS (ts).
+   Si el campo es de tipo STRING y el nombre del campo no se especifica por la presencia del atributo &quot;@sqlname&quot;, el nombre del campo en la base de datos será precedido automáticamente por &#39;s&#39;. Este modo operativo será similar a los campos de tipo INTEGER (i), DOUBLE (d) y DATES (ts).
 
-* **userEnum (string)**: recibe el nombre interno de una lista desglosada &quot;abierta&quot;. El usuario puede definir los valores de la lista desglosada en la interfaz.
+* **userEnum (cadena)**: recibe el nombre interno de una enumeración &quot;abierta&quot;. El usuario puede definir los valores de la enumeración en la interfaz.
 * **visibleIf (cadena)**: define una condición en forma de expresión XTK para mostrar u ocultar el atributo.
 
    >[!IMPORTANT]
    >
-   >El atributo está oculto, pero aún se puede acceder a sus datos.
+   >El atributo está oculto, pero aún se puede tener acceso a sus datos.
 
-* **xml (booleano)**: si esta opción está activada, los valores del campo no tienen un campo SQL vinculado. Adobe Campaign crea un campo de tipo Texto &quot;mData&quot; para el almacenamiento de registros. Esto significa que no hay filtrado ni ordenación en estos campos.
+* **xml (booleano)**: si se activa esta opción, los valores del campo no tienen un campo SQL vinculado. Adobe Campaign crea un campo de tipo Text &quot;mData&quot; para almacenamiento de registros. Esto significa que no hay filtros ni ordenación en estos campos.
 
 ### Ejemplos {#examples}
 
-Ejemplo de valores de lista desglosada cuyos valores se almacenan en la base de datos:
+Ejemplo de valores de enumeración cuyos valores se almacenan en la base de datos:
 
 ```
     <enumeration name="myEnum">
@@ -198,20 +198,20 @@ Declaración de un campo XML con &quot;@datapolicy&quot;:
      length="32" name="mobilePhone" sqlname="sMobilePhone" type="string"/>
 ```
 
-Ejemplo con un &quot;@applyIf&quot;: el atributo &quot;contains&quot; solo se creará si el número de países es bueno a 20.
+Ejemplo con un &quot;@correspondienteIf&quot;: el atributo &quot;contiene&quot; sólo se creará si el número de países es mayor de 20.
 
 ```
 <attribute length="100" name="Continent" type="string" applicableIf="@country > 20"/>
 ```
 
-Ejemplo con &quot;@feature&quot; de tipo &quot;compartido&quot;:
+Ejemplo con &quot;@features&quot; de tipo &quot;compartido&quot;:
 
 ```
 <attribute name="field1" label="Field 1" type="long" feature="shared"/>
 <attribute name="field1" label="Field 1" type="long" feature="shared" sqlname="126" sqltable="Ft_Content_Long"/>
 ```
 
-Ejemplo con &quot;@feature&quot; de tipo &quot;dedicado&quot;:
+Ejemplo con &quot;@features&quot; de tipo &quot;dedicado&quot;:
 
 ```
 <attribute name="field1" label="Field 1" type="long" feature="dedicated"/>
@@ -222,7 +222,7 @@ Ejemplo con &quot;@feature&quot; de tipo &quot;dedicado&quot;:
 
 ### Modelo de contenido {#content-model-1}
 
-compute-string:==EMPTY
+cadena de cálculo:==EMPTY
 
 ### Atributos {#attributes-1}
 
@@ -238,15 +238,15 @@ Ninguno
 
 ### Descripción {#description-1}
 
-El `<compute-string>` elemento permite generar una cadena basada en una expresión XTK para mostrar una etiqueta &quot;integrada&quot; en la interfaz basada en varios valores.
+El `<compute-string>` elemento permite generar una cadena basada en una expresión XTK para mostrar una etiqueta &quot;incorporada&quot; en la interfaz basada en varios valores.
 
 ### Uso y contexto de uso {#use-and-context-of-use-1}
 
-Cuando no `<compute-string>` se define ninguno, se introduce un `<compute-string>` elemento de forma predeterminada con los valores de la clave principal en el esquema.
+Cuando no `<compute-string>` se define ningún elemento, se introduce de forma predeterminada un `<compute-string>` elemento con los valores de la clave principal del esquema.
 
 ### Descripción del atributo {#attribute-description-1}
 
-* **expr (cadena)**: Expresión XTK y/o Xpath
+* **expr (cadena)**: expresión XTK y/o Xpath
 
 ### Ejemplos {#examples-1}
 
@@ -287,7 +287,7 @@ Ninguno
 
 ### Descripción {#description-2}
 
-Este elemento permite definir una condición de filtrado.
+Este elemento le permite definir una condición de filtrado.
 
 ### Uso y contexto de uso {#use-and-context-of-use-2}
 
@@ -295,8 +295,8 @@ Un `<sysfiler>` elemento puede contener varias condiciones de filtrado.
 
 ### Descripción del atributo {#attribute-description-2}
 
-* **boolOperator (cadena)**: si hay varios `<conditions>` definidos dentro del mismo `<sysfilter>` elemento, este atributo permite combinarlos. De forma predeterminada, el vínculo lógico está entre `<condition>` los elementos es &quot;AND&quot;. El atributo &quot;@boolOperator&quot; permite combinar vínculos de tipo &quot;O&quot; y &quot;Y&quot;.
-* **enabledIf (string)**: prueba de activación de condición.
+* **boolOperator (cadena)**: si varios `<conditions>` se definen dentro del mismo `<sysfilter>` elemento, este atributo permite combinarlos. De forma predeterminada, el vínculo lógico es entre `<condition>` elementos es &quot;AND&quot;. El atributo &quot;@boolOperator&quot; le permite combinar vínculos de tipo &quot;OR&quot; y &quot;AND&quot;.
+* **enabledIf (cadena)**: prueba de activación de condición.
 * **expr (cadena)**: una expresión XTK.
 
 ### Ejemplos {#examples-2}
@@ -315,8 +315,8 @@ dbindex:==keyfield
 
 ### Atributos {#attributes-3}
 
-* @_operation (string)
-* @applyIf (cadena)
+* @_Operation (cadena)
+* @correspondienteIf (cadena)
 * @label (cadena)
 * @name (MNTOKEN)
 * @unique (booleano)
@@ -335,25 +335,25 @@ Este elemento permite definir un índice vinculado a una tabla.
 
 ### Uso y contexto de uso {#use-and-context-of-use-3}
 
-Es posible definir varios índices. Un índice puede hacer referencia a uno o varios campos de la tabla. La declaración de índice suele seguir la definición del elemento de esquema principal.
+Es posible definir varios índices. Un índice puede hacer referencia a uno o más campos de la tabla. La declaración de índice suele seguir la definición del elemento de esquema principal.
 
 El orden de los `<keyfield>` elementos definidos en una `<dbindex>` es muy importante. El primero `<keyfield>` debe ser el criterio de indización en el que se basan principalmente las consultas.
 
-El nombre del índice de la base de datos se calcula concatenando el nombre de la tabla y el nombre del índice. Por ejemplo: Nombre de tabla &quot;Sample&quot;, Área de nombres &quot;Cus&quot;, nombre de índice &quot;MyIndex&quot;-> nombre del campo de índice durante la consulta de creación de índice: &quot;CusSample_myIndex&quot;.
+El nombre del índice de la base de datos se calcula concatenando el nombre de la tabla y el nombre del índice. Por ejemplo: Nombre de tabla &quot;Sample&quot;, Espacio de nombres &quot;Cus&quot;, nombre de índice &quot;MyIndex&quot;-> nombre del campo de índice durante la consulta de creación de índice: &quot;CusSample_myIndex&quot;.
 
 ### Descripción del atributo {#attribute-description-3}
 
-* **_operation (string)**: define el tipo de escritura en la base de datos.
+* **_operación (cadena)**: define el tipo de escritura en la base de datos.
 
-   Este atributo se utiliza principalmente al ampliar los esquemas predeterminados.
+   Este atributo se utiliza principalmente cuando se amplían los esquemas fuera de la caja.
 
    Los valores accesibles son:
 
    * &quot;ninguno&quot;: sólo reconciliación. Esto significa que Adobe Campaign recuperará el elemento sin actualizarlo ni generar un error si no existe.
-   * &quot;insertOrUpdate&quot;: actualizar con inserción. Esto significa que Adobe Campaign actualizará el elemento o lo creará si no existe.
+   * &quot;InsertOrUpdate&quot;: actualizar con inserción. Esto significa que Adobe Campaign actualizará el elemento o lo creará si no existe.
    * &quot;insertar&quot;: inserción. Esto significa que Adobe Campaign insertará el elemento sin comprobar si existe.
-   * &quot;update&quot;: actualizar. Esto significa que Adobe Campaign actualizará el elemento o generará un error si no existe.
-   * &quot;delete&quot;: eliminación. Esto significa que Adobe Campaign recuperará y eliminará los elementos.
+   * &quot;actualización&quot;: actualización. Esto significa que Adobe Campaign actualizará el elemento o generará un error si no existe.
+   * &quot;borrar&quot;: eliminación. Esto significa que Adobe Campaign recuperará y eliminará los elementos.
 
 * **applyIf (string)**: condición para tener en cuenta el índice: recibe una expresión XTK.
 * **label (string)**: etiqueta de índice.
@@ -1145,21 +1145,21 @@ La presentación de esquema está disponible en [Acerca de la referencia](../../
 * **entitySchema (cadena)**: esquema básico en el que se basan la sintaxis y la aprobación (de forma predeterminada para Adobe Campaign: xtk:srcSchema). Cuando guarde el esquema actual, Adobe Campaign aprobará su gramática con el esquema declarado en el atributo @xtkschema.
 * **expandedSchema (cadena)**: recibe el nombre del esquema predeterminado en el que se basa la extensión de esquema actual. El formulario es &quot;Área de nombres:nombre&quot;.
 * **img (cadena)**: icono vinculado al esquema (puede definirse en el asistente para la creación de esquemas).
-* **label (string)**: Etiqueta de esquema.
+* **etiqueta (cadena)**: Etiqueta de esquema.
 * **labelSingular (cadena)**: etiqueta (singular) para mostrar en la interfaz.
-* **lastModified (datetime)**: este atributo proporciona información sobre la fecha y hora de la última modificación. Tiene el formulario &quot;Fecha y hora&quot;. Los valores mostrados se toman del servidor. La hora se muestra en formato UTC.
+* **lastModified (datetime)**: este atributo proporciona información sobre la fecha y hora de la última modificación. Tiene el formulario &quot;Fecha y hora&quot;. Los valores mostrados se toman del servidor. El tiempo se muestra en formato UTC.
 * **library (boolean)**: uso del esquema como biblioteca y no como entidad. Por lo tanto, otros esquemas pueden hacer referencia a este esquema gracias a los atributos &quot;@ref&quot; y &quot;@template&quot;.
 * **mappingType (cadena)**:
 
    * &quot;sql&quot;: asignación de bases de datos
    * &quot;textFile&quot;: asignación de archivos de texto
    * &quot;xmlFile&quot;: Asignación de archivos de texto en formato XML
-   * &quot;binaryFile&quot;: asignación de archivos binarios
+   * &quot;archivo binario&quot;: asignación de archivos binarios
 
 * **modifiedBy-id (long)**: coincide con el identificador del operador que cambió el esquema.
 * **name (string)**: nombre de esquema único.
 * **área de nombres (cadena)**: área de nombres del esquema (predeterminado: nms, xtk, nl). Al crear un nuevo esquema para un proyecto, le recomendamos que utilice una Área de nombres dedicada.
-* **useRecycleBin (boolean)**: activa la función de papelera en la aplicación. Los registros eliminados se colocarán en la papelera antes de la eliminación final. Esta función solo está disponible en modo &quot;Envío&quot;.
+* **useRecycleBin (booleano)**: activa la característica de papelera en la aplicación. Los registros eliminados se colocarán en la papelera antes de la eliminación final. Esta función solo está disponible en modo &quot;Envío&quot;.
 * **vista (booleana)**: si se activa (@vista=&quot;true&quot;), el esquema se utilizará como vista. El asistente para la actualización de la estructura de la base de datos no tendrá en cuenta el esquema. Esta opción se utiliza principalmente para hacer referencia a tablas externas.
 * **xtkschema (string)**: nombre del esquema que define la gramática del esquema (xtk:srcSchema de forma predeterminada).
 
@@ -1214,11 +1214,11 @@ Definición de un filtro con una condición en el atributo @name:
 
 ### Modelo de contenido {#content-model-16}
 
-value:==help
+valor:==ayuda
 
 ### Atributos {#attributes-16}
 
-* @applyIf (cadena)
+* @correspondienteIf (cadena)
 * @desc (cadena)
 * @enabledIf (cadena)
 * @img (cadena)
@@ -1240,13 +1240,13 @@ Este elemento permite definir los valores almacenados en una lista desglosada.
 
 ### Descripción del atributo {#attribute-description-16}
 
-* **applyIf (string)**: este atributo le permite convertir un valor de lista desglosada en opcional. Recibe una expresión XTK.
+* **aplicableSi (cadena)**: este atributo le permite convertir un valor de lista desglosada en opcional. Recibe una expresión XTK.
 * **desc (cadena)**: descripción del valor de lista desglosada.
-* **enabledIf (string)**: condición para activar el valor de lista desglosada.
+* **enabledIf (cadena)**: condición para activar el valor de lista desglosada.
 * **img (cadena)**: imagen vinculada a la lista desglosada en el formulario &quot;Área de nombres:nombre_imagen&quot;. La imagen debe importarse en el servidor de aplicaciones.
 * **label (string)**: del valor de lista desglosada.
 * **name (string)**: nombre interno del valor de lista desglosada.
-* **value (string)**: valor del valor de lista desglosada. El tipo de valor se define en función del tipo de lista desglosada. Si la lista desglosada es del tipo de cadena de caracteres, sólo puede contener valores de tipo de cadena de caracteres.
+* **valor (cadena)**: valor del valor de enumeración. El tipo de valor se define en función del tipo de enumeración. Si la enumeración es de tipo cadena de caracteres, sólo puede contener valores de tipo de cadena de caracteres.
 
 ### Ejemplos {#examples-13}
 
