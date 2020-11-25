@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: cb6a2247e3b7617511aecf3d2d19985af0216494
+source-git-commit: eb7e1c98f69ba20ef4222bfefea74fdaf6072397
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '349'
 ht-degree: 2%
 
 ---
@@ -41,44 +41,45 @@ Puede probar las siguientes pruebas y, si el error de conexión persiste, pónga
   </tr>
   <tr> 
    <td>¿Responde el servidor Web?</td> 
-   <td>Conéctese a la URL de acceso al servidor de Adobe Campaign mediante un explorador Web: **`http(s):// <urlserver>`**. Si no responde, el servidor web se detiene en el equipo. Póngase en contacto con el administrador del sistema de la compañía del host para reiniciar el servicio.</td>
+   <td>Conéctese a la URL de acceso al servidor de Adobe Campaign mediante un explorador Web: <b>http(s):// &lt;urlserver&gt;</b>. Si no responde, el servidor web se detiene en el equipo. Póngase en contacto con el administrador del sistema de la compañía del host para reiniciar el servicio.</td>
   </tr>
   <tr> 
    <td>¿Se ha integrado correctamente Adobe Campaign?</td> 
-   <td>Inicie sesión en el **`http(s)://<urlserver>/r/test`** URL. El servidor debe devolver el siguiente tipo de mensaje
+   <td>Inicie sesión en el <b>http(s)://&lt;urlserver&gt;/r/test</b> URL. El servidor debe devolver el siguiente tipo de mensaje:
 
-    &quot;
+    &lt;pre>
     &lt;redir status=&#39;OK&#39; date=&#39;AAAA/MM/DD HH:MM:SS&#39; build=&#39;XXXX&#39; host=&#39;&lt;hostname>&#39; localHost=&#39;&lt;server>&#39;/>
-    &quot;
+    &lt;/pre>
     
     Si no obtiene este resultado, compruebe en la configuración del servidor Web que la integración se tiene en cuenta.&lt;/td>
 </tr>
   <tr> 
    <td>¿Se ha iniciado el módulo Web de Adobe Campaign?</td> 
    <td>
-   Conéctese a la siguiente URL: **`http(s)://<URLSERVER>/nl/jsp/logon.jsp`** * Si obtiene un error de Java de Tomcat:
+   Conéctese a la siguiente URL: <b>http(s)://&gt;URLSERVER&lt;/nl/jsp/logon.jsp</b>* Si obtiene un error de Java de Tomcat:
 
     ¿Se realiza correctamente la integración de JAVA? Adobe Campaign requiere un JDK SUN.
     
-    Está integrado en el archivo **`[ruta de aplicación]`/nl6/customer.sh**
+    Está integrado en el archivo [ruta de la aplicación]/nl6/customer.sh
     
     * Si obtiene una página en blanco:
     
     ¿Se ha iniciado el módulo Web de Adobe Campaign? Debe obtener:
     
-    &quot;
+    &lt;pre>
     nlserver
     pdumpHH:MM:SS > Servidor de aplicaciones para Adobe Campaign Classic (7.X YY.R build XXX@SHA1) de DD/MM/AAAA
     [...]
     web@default (27515) - 55.2 Mb
     [...]
-    &quot;
+    &lt;/pre>
     
-    * Si no lo hace, reinícielo con el siguiente comando:
+    * Si no lo hace, reinícielo con lo siguiente comando:
     
-    &quot;
+    &lt;pre>
     
-    nlserver inicio web&quot;&lt;/td>
+    
+    nlserver inicio web&lt;/pre>&lt;/td>
 </tr>
   <tr>
   	<td>Compruebe la configuración general de las zonas de seguridad.</td>
