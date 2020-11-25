@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: ae342f41b9b74159607b313e1c29549b17488db5
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 100%
+source-wordcount: '840'
+ht-degree: 95%
 
 ---
 
@@ -66,7 +66,7 @@ Los grupos de operadores para las aprobaciones deben designarse como roles o fun
 
 ## Caducidad {#expirations}
 
-Las caducidades son transiciones específicas que se utilizan en diferentes clases de actividades y, en particular, en las autorizaciones. Se puede utilizar una caducidad para activar una acción después de un periodo determinado en ausencia de una respuesta o para llevar a cabo el flujo de trabajo (y asignar una aprobación a un grupo diferente, por ejemplo).
+Las caducidades son transiciones específicas que se utilizan en diferentes clases de actividades y, en particular, en las autorizaciones. Puede utilizar una caducidad para desencadenar una acción después de un tiempo determinado sin respuesta. También puede utilizarse, por ejemplo, para continuar el flujo de trabajo y asignar una aprobación a un grupo diferente.
 
 La segunda pestaña de las propiedades de aprobación de actividad permite definir una o varias caducidades. De hecho, puede definir varios tipos de caducidad.
 
