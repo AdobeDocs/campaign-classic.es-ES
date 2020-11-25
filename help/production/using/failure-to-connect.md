@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cb6a2247e3b7617511aecf3d2d19985af0216494
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '340'
 ht-degree: 2%
 
 ---
@@ -17,72 +17,72 @@ ht-degree: 2%
 
 # Error de conexión{#failure-to-connect}
 
-Las razones para ello pueden ser múltiples y depender de diversos contextos.
+Las razones de un problema de conexión pueden ser múltiples y depender de varios contextos.
 
-Compruebe la configuración general de las zonas de seguridad.
+Puede probar las siguientes pruebas y, si el error de conexión persiste, póngase en contacto con el servicio de soporte técnico de **Adobe Campaign**.
 
->[!NOTE]
->
->For more on configuring security zones, refer to [this section](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
-Compruebe la siguiente información:
 
-1. **Comprobaciones de red**
+<table> 
+ <thead> 
+  <tr> 
+   <th>Comprobaciones<br /> </th> 
+   <th>Resolución<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td>¿Tiene acceso a Internet desde su equipo?</td> 
+   <td>Compruebe que puede conectarse a sitios web en Internet (por ejemplo). Si no puede conectarse, el problema está en su equipo. Póngase en contacto con el administrador del sistema.</td>
+  </tr>
+  <tr> 
+   <td>¿Puede conectarse al servidor que aloja Adobe Campaign a través de otro servicio?</td> 
+   <td>Conectarse al servidor a través de SSH o por cualquier otro medio. Si esto no es posible, la compañía del host tiene un problema. Póngase en contacto con el administrador del sistema.</td>
+  </tr>
+  <tr> 
+   <td>¿Responde el servidor Web?</td> 
+   <td>Conéctese a la URL de acceso al servidor de Adobe Campaign mediante un explorador Web: **`http(s):// <urlserver>`**. Si no responde, el servidor web se detiene en el equipo. Póngase en contacto con el administrador del sistema de la compañía del host para reiniciar el servicio.</td>
+  </tr>
+  <tr> 
+   <td>¿Se ha integrado correctamente Adobe Campaign?</td> 
+   <td>Inicie sesión en el **`http(s)://<urlserver>/r/test`** URL. El servidor debe devolver el siguiente tipo de mensaje
 
-   * ¿Tiene acceso a Internet desde su equipo?
+    &quot;
+    &lt;redir status=&#39;OK&#39; date=&#39;AAAA/MM/DD HH:MM:SS&#39; build=&#39;XXXX&#39; host=&#39;&lt;hostname>&#39; localHost=&#39;&lt;server>&#39;/>
+    &quot;
+    
+    Si no obtiene este resultado, compruebe en la configuración del servidor Web que la integración se tiene en cuenta.&lt;/td>
+</tr>
+  <tr> 
+   <td>¿Se ha iniciado el módulo Web de Adobe Campaign?</td> 
+   <td>
+   Conéctese a la siguiente URL: **`http(s)://<URLSERVER>/nl/jsp/logon.jsp`** * Si obtiene un error de Java de Tomcat:
 
-      Compruebe que puede conectarse a sitios web en Internet (por ejemplo). Si no puede conectarse, el problema está en su equipo. Póngase en contacto con el administrador del sistema.
-
-   * ¿Puede conectarse al servidor que aloja Adobe Campaign a través de otro servicio?
-
-      Conectarse al servidor a través de SSH o por cualquier otro medio. Si esto no es posible, la compañía del host tiene un problema. Póngase en contacto con el administrador del sistema.
-
-1. **Comprobaciones en el servidor** Web (IIS/apache/etc.)
-
-   * ¿Responde el servidor Web?
-
-      Conéctese a la URL de acceso al servidor de Adobe Campaign mediante un explorador Web: **http(s)://`<urlserver>`**. Si no responde, el servidor web se detiene en el equipo. Póngase en contacto con el administrador del sistema de la compañía del host para reiniciar el servicio.
-
-   * ¿Se ha integrado correctamente Adobe Campaign?
-
-      Inicie sesión en el **http(s):/// `<urlserver>`/r/test** URL. El servidor debe devolver el siguiente tipo de mensaje
-
-      ```
-      <redir status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='<hostname>' localHost='<server>'/>
-      ```
-
-      Si no obtiene este resultado, compruebe en la configuración del servidor Web que se tiene en cuenta la integración.
-
-1. **Cheques en el lado de Adobe Campaign**
-
-   * ¿Se ha iniciado el módulo Web de Adobe Campaign?
-
-      Conéctese a la siguiente URL: **http(s)://`<URLSERVER>`/nl/jsp/logon.jsp**
-
-      * Si obtiene un error de Java de Tomcat:
-
-         ¿Se realiza correctamente la integración de JAVA? Adobe Campaign requiere un JDK SUN.
-
-         Está integrado en el archivo **`[path of application]`/nl6/customer.sh**
-
-      * Si obtiene una página en blanco:
-
-         ¿Se ha iniciado el módulo Web de Adobe Campaign? Debe obtener:
-
-         ```
-         nlserver pdump
-         HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
-         [...]
-         web@default (27515) - 55.2 Mb
-         [...]
-         ```
-
-      * Si no es así, reinícielo con el siguiente comando:
-
-         ```
-         nlserver start web
-         ```
->[!NOTE]
->
->Si obtiene una respuesta del tipo siguiente al realizar la lista de los módulos de Adobe Campaign: **nlserver pdump**
->HH:MM:SS > Servidor de aplicaciones para Adobe Campaign Classic (compilación 7.X YY.R XXX@SHA1) de DD/MM/AAAA Sin tareas Debe reiniciar toda la aplicación Adobe Campaign. Para ello, utilice el siguiente comando: **nlserver watdog -svc -noconsole **
+    ¿Se realiza correctamente la integración de JAVA? Adobe Campaign requiere un JDK SUN.
+    
+    Está integrado en el archivo **`[ruta de aplicación]`/nl6/customer.sh**
+    
+    * Si obtiene una página en blanco:
+    
+    ¿Se ha iniciado el módulo Web de Adobe Campaign? Debe obtener:
+    
+    &quot;
+    nlserver
+    pdumpHH:MM:SS > Servidor de aplicaciones para Adobe Campaign Classic (7.X YY.R build XXX@SHA1) de DD/MM/AAAA
+    [...]
+    web@default (27515) - 55.2 Mb
+    [...]
+    &quot;
+    
+    * Si no lo hace, reinícielo con el siguiente comando:
+    
+    &quot;
+    
+    nlserver inicio web&quot;&lt;/td>
+</tr>
+  <tr>
+  	<td>Compruebe la configuración general de las zonas de seguridad.</td>
+  	<td>Para obtener más información sobre la configuración de zonas de seguridad, consulte [esta sección](../../installation/using/configuring-campaign-server.md#define-security-zones)</td>
+  </tr>
+ </tbody> 
+</table>
