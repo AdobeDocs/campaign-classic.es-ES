@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 2cc4ab52f3cbdd00831d0b5104690b7adf6091ce
+source-git-commit: 57063c1ed0100b171bda93e273c399c40d8e980a
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 2%
@@ -61,13 +61,11 @@ Si no obtiene este resultado, compruebe en la configuración del servidor Web qu
 Está integrado en la [ruta de archivos de la aplicación]/nl6/customer.sh
 
 * Si obtiene una página en blanco:
-
 ¿Se ha iniciado el módulo Web de Adobe Campaign? Debe obtener:
 
 <pre>
 nlserver pdumpHH:MM:SS &gt; Servidor de aplicaciones para Adobe Campaign Classic (7.X YY.R build XXX@SHA1) de DD/MM/AAAA[...]web@default (27515) - 55.2 Mb[...]
 </pre>
-
 * Si no es así, reinícielo con el siguiente comando:
 
 <pre>        
