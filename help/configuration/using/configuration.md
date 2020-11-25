@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6e0741d13aa954e81fe6416663399ffd1a81012f
 workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 2%
@@ -162,7 +162,7 @@ El **`<nodemodel>`** elemento contiene la descripción del tipo de carpeta con l
 * **name**: nombre interno
 * **label**: se utiliza en el **[!UICONTROL Add new folder]** menú y como etiqueta predeterminada al insertar una carpeta.
 * **img**: imagen predeterminada al insertar una carpeta.
-* **hiddenCommands**: lista de comandos (separados por coma) que se van a enmascarar. Valores posibles: &quot;insertar&quot;, &quot;suprimir&quot;, &quot;actualizar&quot; y &quot;duplicado&quot;.
+* **hiddenCommands**: lista de comandos (separados por coma) que se van a enmascarar. Valores posibles: &quot;adbnew&quot;, &quot;adbsave&quot;, &quot;adbcancel&quot; y &quot;adbdup&quot;.
 * **newFolderShortCuts**: lista de accesos directos en modelos (**`<nodemodel>`** separados por coma) en la creación de carpetas.
 * **insertRight**, **editRight**, **deleteRight**: derechos para insertar, editar y eliminar carpetas.
 
