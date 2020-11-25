@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: eb7e1c98f69ba20ef4222bfefea74fdaf6072397
+source-git-commit: 2cc4ab52f3cbdd00831d0b5104690b7adf6091ce
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '343'
 ht-degree: 2%
 
 ---
@@ -50,36 +50,30 @@ Puede probar las siguientes pruebas y, si el error de conexión persiste, pónga
     &lt;pre>
     &lt;redir status=&#39;OK&#39; date=&#39;AAAA/MM/DD HH:MM:SS&#39; build=&#39;XXXX&#39; host=&#39;&lt;hostname>&#39; localHost=&#39;&lt;server>&#39;/>
     &lt;/pre>
-    
-    Si no obtiene este resultado, compruebe en la configuración del servidor Web que la integración se tiene en cuenta.&lt;/td>
+Si no obtiene este resultado, compruebe en la configuración del servidor Web que se tiene en cuenta la integración.</td>
 </tr>
   <tr> 
    <td>¿Se ha iniciado el módulo Web de Adobe Campaign?</td> 
-   <td>
-   Conéctese a la siguiente URL: <b>http(s)://&gt;URLSERVER&lt;/nl/jsp/logon.jsp</b>* Si obtiene un error de Java de Tomcat:
+   <td>Conéctese a la siguiente URL: <b>http(s)://&gt;URLSERVER&lt;/nl/jsp/logon.jsp</b>* Si obtiene un error de Java de Tomcat:
 
-    ¿Se realiza correctamente la integración de JAVA? Adobe Campaign requiere un JDK SUN.
-    
-    Está integrado en el archivo [ruta de la aplicación]/nl6/customer.sh
-    
-    * Si obtiene una página en blanco:
-    
-    ¿Se ha iniciado el módulo Web de Adobe Campaign? Debe obtener:
-    
-    &lt;pre>
-    nlserver
-    pdumpHH:MM:SS > Servidor de aplicaciones para Adobe Campaign Classic (7.X YY.R build XXX@SHA1) de DD/MM/AAAA
-    [...]
-    web@default (27515) - 55.2 Mb
-    [...]
-    &lt;/pre>
-    
-    * Si no lo hace, reinícielo con lo siguiente comando:
-    
-    &lt;pre>
-    
-    
-    nlserver inicio web&lt;/pre>&lt;/td>
+¿Se realiza correctamente la integración de JAVA? Adobe Campaign requiere un JDK SUN.
+
+Está integrado en la [ruta de archivos de la aplicación]/nl6/customer.sh
+
+* Si obtiene una página en blanco:
+
+¿Se ha iniciado el módulo Web de Adobe Campaign? Debe obtener:
+
+<pre>
+nlserver pdumpHH:MM:SS &gt; Servidor de aplicaciones para Adobe Campaign Classic (7.X YY.R build XXX@SHA1) de DD/MM/AAAA[...]web@default (27515) - 55.2 Mb[...]
+</pre>
+
+* Si no es así, reinícielo con el siguiente comando:
+
+<pre>        
+nlserver inicio web
+</pre>
+</td>
 </tr>
   <tr>
   	<td>Compruebe la configuración general de las zonas de seguridad.</td>
