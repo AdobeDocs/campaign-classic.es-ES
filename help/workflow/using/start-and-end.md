@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Inicio y final (Start y End)
-description: Más información sobre las actividades de flujo de trabajo de Inicio y finalización
+description: Descubra más información sobre las actividades de flujo de trabajo de Inicio y final (Start y End)
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '133'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
