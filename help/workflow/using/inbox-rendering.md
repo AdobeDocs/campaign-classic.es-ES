@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Flujo de trabajo técnico de procesamiento de bandeja de entrada
-description: Esta sección describe el flujo de trabajo técnico instalado con el paquete de procesamiento de la Bandeja de entrada
+title: Flujo de trabajo técnico de renderización de la bandeja de entrada
+description: En esta sección se describe el flujo de trabajo técnico instalado con el paquete de renderización de la bandeja de entrada
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
