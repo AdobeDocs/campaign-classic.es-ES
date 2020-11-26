@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '2917'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 las entregas se pueden crear a través del panel de la campaña, un flujo de trabajo de la campaña o directamente a través de la descripción general de las entregas.
 
-Cuando se crean a partir de una campaña, los envíos se vincularán a esta campaña y se consolidarán a nivel de campaña.
+Cuando se crean a partir de una campaña, las entregas se vincularán a esta campaña y se consolidarán en el nivel de la campaña.
 
 ![](assets/do-not-localize/how-to-video.png)[ Descubra esta función en vídeo](#create-email-video)
 
@@ -33,15 +33,15 @@ Las configuraciones sugeridas se adecúan a los diferentes tipos de envío: corr
 
 ## Selección de la población objetivo {#selecting-the-target-population}
 
-Para cada envío puede definir:
+Para cada entrega, puede definir lo siguiente:
 
-* La audiencia: Obtenga más información en [Creación de la audiencia en un flujo de trabajo](#building-the-main-target-in-a-workflow) y [Selección de la población](#selecting-the-target-population)de destinatarios.
-* Un grupo de control: Obtenga más información sobre la [definición de un grupo de control](#defining-a-control-group).
-* Direcciones semilla: Obtenga más información en [esta sección](../../delivery/using/about-seed-addresses.md).
+* Audiencia: obtenga más información sobre [Creación de la audiencia en un flujo de trabajo](#building-the-main-target-in-a-workflow) y [Selección de la población objetivo](#selecting-the-target-population).
+* Grupo de control: obtenga más información sobre [Definición de un grupo de control](#defining-a-control-group).
+* Direcciones semilla: obtenga más información sobre [esta sección](../../delivery/using/about-seed-addresses.md).
 
-Some of this information can be inherited from the [template](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+Parte de esta información se hereda de la [plantilla](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
-Para crear el destino de la entrega, puede definir criterios de filtrado para los destinatarios en la base de datos. Este modo de selección de destinatarios se presenta en [esta sección](../../delivery/using/steps-defining-the-target-population.md).
+Para crear el destino de la entrega, puede definir criterios de filtrado para los destinatarios en la base de datos. Este modo de selección de destinatario se presenta en [esta sección](../../delivery/using/steps-defining-the-target-population.md).
 
 **Ejemplo: enviar mensajes a un grupo**
 
@@ -65,7 +65,7 @@ El objetivo principal de una entrega también se puede definir en el flujo de tr
 >
 >No se pueden crear más de 28 flujos de trabajo en una campaña. Más allá de este límite, los flujos de trabajo adicionales no se ven en la interfaz y pueden dar lugar a errores.
 
-#### Crear el flujo de trabajo {#creating-a-targeting-workflow}
+#### Creación del flujo de trabajo {#creating-a-targeting-workflow}
 
 El objetivo se puede crear mediante una combinación de condiciones de filtrado en una secuencia gráfica de un flujo de trabajo. Puede crear poblaciones y subpoblaciones según lo necesite. Para mostrar el editor de flujo de trabajo, haga clic en la pestaña **[!UICONTROL Targeting and workflows]** del panel de campañas.
 
@@ -255,7 +255,7 @@ Puede definir una nueva población para utilizarla como grupo de control. Puede 
 
 ## Inicio de envíos {#starting-a-delivery}
 
-Una vez que se hayan realizado todas las aprobaciones, la entrega está listo para ser iniciado. El procedimiento de envío depende del tipo de envío. For email or mobile channel deliveries, see [Starting an online delivery](#starting-an-online-delivery), and for direct mail deliveries, see [Starting an offline delivery](#starting-an-offline-delivery).
+Una vez que se hayan realizado todas las aprobaciones, la entrega está listo para ser iniciado. El procedimiento de envío depende del tipo de envío. Para las entregas por correo electrónico o por canal móvil, consulte [Inicio de una entrega en línea](#starting-an-online-delivery) y para las entregas por correo directo, consulte [Inicio de una entrega sin conexión](#starting-an-offline-delivery).
 
 ### Inicio de una entrega en línea {#starting-an-online-delivery}
 
