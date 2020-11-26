@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Última versión
-description: Última versión de Campaign Classic  Notas
+description: Última versión de Campaign Classic   Notas
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
@@ -96,7 +96,7 @@ Obtenga más información en la [Matriz de compatibilidad de Campaign](../../rn/
 Las siguientes funciones están en desuso en 20.3:
 
 * El dominio demdex utilizado para importar y exportar audiencias a Adobe Experience Cloud está en desuso. Si utiliza el dominio demdex para sus cuentas externas de importación y exportación, deberá adaptar la implementación en consecuencia. [Más información](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
-* Activa la autenticación de integración basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización y ahora se ha cambiado y se ha movido a Adobe IO. [Más información](../../integrations/using/configuring-adobe-io.md)
+* Activa la autenticación de integración basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización y ahora se ha cambiado y se ha movido a Adobe I/O. [Más información](../../integrations/using/configuring-adobe-io.md)
 
 Obtenga más información en la página [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md).
 
