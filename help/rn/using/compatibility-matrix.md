@@ -10,22 +10,22 @@ translation-type: tm+mt
 source-git-commit: ff3d18b104a8dba7cd813aa698f9c27b4e25e244
 workflow-type: tm+mt
 source-wordcount: '537'
-ht-degree: 85%
+ht-degree: 99%
 
 ---
 
 
 # Matriz de compatibilidad{#compatibility-matrix}
 
-This document lists all systems and components supported for [the latest build](../../rn/using/latest-release.md) of **Adobe Campaign Classic**. Los productos y las versiones que no forman parte de esta lista no son compatibles con Adobe Campaign.
+Este documento enumera todos los sistemas y componentes compatibles con [la última versión](../../rn/using/latest-release.md) de **Adobe Campaign Classic**. Los productos y las versiones que no forman parte de esta lista no son compatibles con Adobe Campaign.
 
-Si es un usuario de Gold Standard, consulte la matriz [de compatibilidad de](../../rn/using/compatibility-matrix-gs.md)Gold Standard.
+Si usa Gold Standard, consulte la [matriz de compatibilidad de Gold Standard](../../rn/using/compatibility-matrix-gs.md).
 
 ## Notas importantes{#important-notes}
 
 A menos que se indique lo contrario, se admiten todas las versiones menores.
 
-In its [latest build](../../rn/using/latest-release.md), Adobe Campaign Classic is compatible with all the systems and tools listed in this page. Cuando las versiones específicas de estos sistemas y herramientas de terceros llegan al final de su vida útil (EOL) con sus respectivos creadores, Adobe Campaign ya no es compatible con ellas y se eliminan de nuestra matriz de compatibilidades en la versión posterior del producto. Para evitar problemas, compruebe que se encuentra en una versión compatible de cualquier sistema enumerado en la matriz de compatibilidad.
+En su [última versión](../../rn/using/latest-release.md), Adobe Campaign Classic es compatible con todos los sistemas y herramientas enumerados en esta página. Cuando las versiones específicas de estos sistemas y herramientas de terceros llegan al final de su vida útil (EOL) con sus respectivos creadores, Adobe Campaign ya no es compatible con ellas y se eliminan de nuestra matriz de compatibilidades en la versión posterior del producto. Para evitar problemas, compruebe que se encuentra en una versión compatible de cualquier sistema enumerado en la matriz de compatibilidad.
 
 Para obtener más información sobre los elementos obsoletos, visite [esta página](../../rn/using/deprecated-features.md).
 
@@ -134,7 +134,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <p>19c</p>
 <p>18c</p>
 <p>12c</p>
-<p>11g     R2</p>
+<p>11g      R2</p>
 </td>
 </tr>
 <tr>
@@ -192,7 +192,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <tr>
 <td>MS Dynamics</td>
 <td>
-<p>API web: Dynamics 365 In situ y en línea</p>
+<p>API web: Dynamics 365 On-premise y en línea</p>
 </td>
 </tr>
 </tbody>
@@ -331,7 +331,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 
 ## Navegadores{#Browsers}
 
-Para los siguientes exploradores, se admite la versión más reciente: Microsoft Edge, Mozilla Firefox, Google Chrome, Safari.
+En el caso de los siguientes exploradores, se admite la versión más reciente: Microsoft Edge, Mozilla Firefox, Google Chrome y Safari.
 
 Internet Explorer 11 es compatible.
 
