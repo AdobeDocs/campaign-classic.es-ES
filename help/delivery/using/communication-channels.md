@@ -10,16 +10,16 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
 # Canales de comunicación{#communication-channels}
 
-With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, LINE messages, Push notifications and direct mails, and measure their effectiveness using various dedicated [reports](../../reporting/using/delivery-reports.md). Estos mensajes están diseñados y enviados por medio de envíos y pueden personalizarse para cada destinatario.
+Con Adobe Campaign, puede enviar campañas en canales múltiples incluidos correos electrónicos, SMS, mensajes LINE, notificaciones push y correo postal y medir su eficacia mediante varios [informes](../../reporting/using/delivery-reports.md) dedicados. Estos mensajes están diseñados y enviados por medio de envíos y pueden personalizarse para cada destinatario.
 
-Las funciones principales incluyen establecimiento de objetivos, definición y personalización de mensajes, ejecución de comunicaciones y los informes operativos asociados. El punto de acceso funcional principal es el asistente de envío. Este punto de acceso lleva a varias funciones cubiertas por Adobe Campaign.
+Las funciones principales incluyen establecimiento de objetivos, definición y personalización de mensajes, ejecución de comunicaciones y los informes operativos asociados. El punto de acceso funcional principal es el asistente de envío. Este punto de acceso lleva a varias funciones incluidas en Adobe Campaign.
 
 >[!NOTE]
 >
