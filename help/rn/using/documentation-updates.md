@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9d595f41dd2b0cbf042ab768ae5897cc5ac240bb
 workflow-type: tm+mt
 source-wordcount: '3631'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -29,9 +29,9 @@ La configuración de cuenta externa se ha trasladado a [esta sección](../../ins
 
 Se ha mejorado la documentación sobre el Acceso de datos federado de campaña (FDA) con detalles para cada configuración de base de datos externa y se ha trasladado a [esta sección](../../installation/using/about-fda.md).
 
-[La versión](../../rn/using/release--20-2.md#release-20-2-3-build-9182) de campaña 20.2.3 se ha trasladado a Disponibilidad general (GA).
+[La versión 20.2.3 de Campaign ](../../rn/using/release--20-2.md#release-20-2-3-build-9182)se ha trasladado a General Availability (GA).
 
-La sección Privacidad se ha movido y enriquecido con dos páginas nuevas: [Administración](../../platform/using/privacy-management.md) de privacidad y [administración de solicitudes](../../platform/using/privacy-requests.md)de privacidad.
+The Privacy section has been moved and enriched with two new pages: [Privacy management](../../platform/using/privacy-management.md) and [Managing privacy requests](../../platform/using/privacy-requests.md).
 
 Se ha agregado una nota en la página de configuración del servidor intermediaria para especificar que el nombre interno de la cuenta externa no se debe actualizar una vez que se haya configurado el servidor. [Más información](../../installation/using/mid-sourcing-server.md)
 
@@ -58,7 +58,7 @@ Se ha actualizado la página Funciones obsoletas y eliminadas. [Más informació
 Las notas de la versión y la matriz de compatibilidad de la versión Gold Standard ya están disponibles en una sección dedicada.
 [Más información](../../rn/using/gold-standard.md#gs-10).
 
-Triggers integration originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Read more](../../integrations/using/configuring-adobe-io.md)
+Activa la integración basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización y, ahora, se ha cambiado y trasladado a Adobe I/O. [Más información](../../integrations/using/configuring-adobe-io.md)
 
 **Otras actualizaciones**
 
