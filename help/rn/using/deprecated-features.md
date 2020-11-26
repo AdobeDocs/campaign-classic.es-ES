@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1621'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -51,8 +51,8 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
    <ul>
    <li>API de Soap: On-Premise: 2007, 2015, 2016</li>
    <li>API de Soap: En línea: 2015, 2016</li>
-   <li>API web - In situ de Microsoft Dynamics CRM: Actualización 1 2016, 2016</li>
-   <li>API web - Microsoft Dynamics CRM Online: Actualización 1 2016, 2016</li>
+   <li>API web - Microsoft Dynamics CRM On-premise: 2016, actualización 1 de 2016</li>
+   <li>API web - Microsoft Dynamics CRM Online: 2016, actualización 1 de 2016</li>
    </ul>
   <p><em>Fecha de eliminación objetivo: 2021</em></p>
   </td>
@@ -73,7 +73,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
   </td>
   <tr>
   <td>Autenticación OAuth (OAuth y JWT)<br></td>
-  <td><p> A partir de la versión 20.3 de Campaign, la autenticación de integración de los activadores basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización se ha cambiado y se ha movido a Adobe IO. <p>
+  <td><p> A partir de la versión 20.3 de Campaign, la autenticación de integración de los activadores basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización se ha cambiado y se ha movido a Adobe I/O. <p>
   <p>Si utiliza la integración de los activadores, debe adaptar la implementación en consecuencia. <a href="../../integrations/using/configuring-adobe-io.md">Más información</a></p> 
   <p>Para obtener más información sobre la depreciación de la autenticación OAuth, consulte esta <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">página</a>.</p> 
   <p><em>Fecha de eliminación objetivo: abril de 2021</em></p>
@@ -131,7 +131,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
    <td>A partir de la versión 19.1 de Campaign, las API de Campaign Classic están disponibles en una página dedicada. Si utilizó el archivo jsapi.chm heredado, debería consultar la <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">nueva versión en línea</a>.</td>
   </tr> 
   <tr> 
-   <td>Organización de campañas        - Marketing predictivo</td>
+   <td>Organización de campañas         - Marketing predictivo</td>
    <td>A partir de la versión 18.10 de Campaign, las funcionalidades de marketing predictivas ya no están disponibles.</td>
   </tr> 
   <tr> 
