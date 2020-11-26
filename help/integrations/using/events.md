@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Configuración de eventos
-description: Obtenga información sobre cómo configurar eventos para la implementación personalizada
+description: Descubra más información sobre cómo configurar eventos para la implementación personalizada
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Algunas partes de esta configuración tienen un desarrollo personalizado y requi
 * Conocimientos prácticos de las API QueryDef y Writer.
 * Nociones de trabajo de cifrado y autenticación mediante claves privadas.
 
-Dado que la edición del código Javascript requiere habilidades técnicas, no lo intente sin la comprensión adecuada.
+Como la edición del código de JavaScript requiere habilidades técnicas, no lo intente sin tener la comprensión adecuada.
 
 ## Procesamiento de eventos en JavaScript {#events-javascript}
 
@@ -33,7 +33,7 @@ La canalización utiliza una función de JavaScript para procesar cada mensaje. 
 
 Se configura en la opción **[!UICONTROL NmsPipeline_Config]** bajo el atributo &quot;JSConnector&quot;. Se llama a este javascript cada vez que se recibe un evento. Está dirigido por el proceso [!DNL pipelined].
 
-El archivo JavaScript de ejemplo es cus:triggers.js.
+El archivo de JavaScript de muestra es cus:triggers.js.
 
 ### Función JavaScript {#function-js}
 
@@ -51,7 +51,7 @@ Debería devolverse como
 <undefined/>
 ```
 
-You should restart [!DNL pipelined] after editing the Javascript.
+Debe reiniciar [!DNL pipelined] después de editar el JavaScript.
 
 ### Activar formato de datos {#trigger-format}
 
@@ -129,7 +129,7 @@ Para fines de depuración y monitorización, los datos de desencadenador complet
 
 ### Análisis de los datos {#data-parsing}
 
-Este código Javascript de muestra analiza el eVar01 en los enriquecimientos.
+Este código JavaScript de muestra analiza el eVar01 en los enriquecimientos.
 
 ```
 function processPipelineMessage(xmlTrigger)
