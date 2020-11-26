@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 85%
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 85%
 
 ## Novedades
 
-* **[Actualice la integración](integrations/using/configuring-adobe-io.md)**<br/> de los activadores de Adobe Experience Cloud El servicio de autenticación de autenticación heredado ha llegado al final de su vida útil. Aprenda a migrar a E/S de Adobe
+* **[Actualice la integración de los activadores de Adobe Experience Cloud ](integrations/using/configuring-adobe-io.md)**<br/> El servicio de autenticación de autenticación heredada ha llegado al final de su vida útil. Descubra más información sobre cómo migrar a Adobe I/O
 
 * **[Pasarse a la API de proveedor de APN basada en HTTP/2.](https://helpx.adobe.com/es/campaign/kb/migrate-to-apns-http2.html)**<br/>
 Más información sobre cómo migrar del protocolo binario heredado a la API de proveedor de APN basada en HTTP/2
