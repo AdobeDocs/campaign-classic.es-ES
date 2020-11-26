@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Gestión de datos SQL
-description: Más información sobre la actividad del flujo de trabajo de Gestión de datos SQL
+description: Descubra más información sobre la actividad del flujo de trabajo Gestión de datos SQL
 audience: workflow
 content-type: reference
 topic-tags: action-activities
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
