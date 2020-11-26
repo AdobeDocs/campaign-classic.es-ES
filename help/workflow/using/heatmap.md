@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Mapa de calor del flujo de trabajo
-description: Monitoree sus Flujos de trabajo de la campaña con Workflow HeatMap
+description: Supervise los flujos de trabajo de la campaña con Workflow HeatMap
 audience: workflow
 content-type: reference
 topic-tags: use-cases
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1333'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
