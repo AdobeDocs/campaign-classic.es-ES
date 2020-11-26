@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: SMS entrante
-description: Más información sobre la actividad del flujo de trabajo de SMS entrante
+description: Descubra más información sobre la actividad del flujo de trabajo SMS entrante
 audience: workflow
 content-type: reference
 topic-tags: event-activities
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '106'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
