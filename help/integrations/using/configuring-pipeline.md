@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Configuración de la canalización
-description: Obtenga información sobre cómo configurar la canalización
+description: Descubra más información sobre cómo configurar la canalización
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '906'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -27,29 +27,29 @@ Los activadores se utilizan para la segmentación mediante un flujo de trabajo d
 
 ## Requisitos previos {#prerequisites}
 
-Antes de iniciar esta configuración, compruebe que está utilizando:
+Antes de iniciar esta configuración, compruebe que está utilizando lo siguiente:
 
-* Versión mínima de Adobe Campaign 20.3
-* Versión de Adobe Analytics Standard
+* Adobe Campaign 20.3 como mínimo
+* Versión Adobe Analytics Standard
 
-También necesitará:
+También necesitará esto:
 
-* Autenticación de proyectos de E/S de Adobe
-* un IMSOrgID válido, el identificador del cliente Experience Cloud con Adobe Analytics agregado
-* acceso de desarrollador a la organización IMS
-* se ha realizado la configuración de activadores en Adobe Analytics
+* Autenticación de proyectos de Adobe I/O
+* un ID de la organización de IMS válido, el identificador del cliente de Experience Cloud con Adobe Analytics añadido
+* acceso de desarrollador a la organización de IMS
+* configuración de activadores en Adobe Analytics
 
 ## Archivos de autenticación y configuración {#authentication-configuration}
 
 Se requiere la autenticación ya que la canalización está alojada en Adobe Experience Cloud.
 Utiliza un par de claves públicas y privadas. Este proceso tiene la misma función que un usuario/contraseña, solo que es más seguro.
-La autenticación es compatible con el Marketing Cloud mediante el proyecto de E/S de Adobe.
+La autenticación es compatible con Marketing Cloud mediante el proyecto de Adobe I/O.
 
-## Paso 1: Creación/actualización de un proyecto de E/S de Adobe {#creating-adobe-io-project}
+## Paso 1: Creación/actualización de un proyecto de Adobe I/O {#creating-adobe-io-project}
 
-Para los clientes alojados, puede crear un ticket de atención al cliente para permitir a su organización utilizar los tokens de cuenta técnica de E/S de Adobe para la integración de activadores.
+Para los clientes alojados, puede crear un ticket de servicio de atención al cliente para permitir a su organización utilizar los token de cuenta técnica de Adobe I/O para la integración de activadores.
 
-For On Premise customers, refer to the [Configuring Adobe I/O for Adobe Experience Cloud Triggers](../../integrations/using/configuring-adobe-io.md) page. Note that you need to select **[!UICONTROL Adobe Analytics]** while adding API to the Adobe I/O credential.
+Para los clientes locales, consulte la página [Configuración de Adobe I/O para los activadores de Adobe Experience Cloud](../../integrations/using/configuring-adobe-io.md). Tenga en cuenta que debe seleccionar **[!UICONTROL Adobe Analytics]** al agregar la API a la credencial de Adobe I/O.
 
 ## Paso 2: Configuración de la opción de canalización NmsPipeline_Config {#configuring-nmspipeline}
 
