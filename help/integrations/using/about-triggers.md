@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Acerca de los activadores de Adobe Experience Cloud
-description: Introducción a la implementación de Adobe Experience Cloud Triggers
+description: Introducción a la implementación de los activadores de Adobe Experience Cloud
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# Introducción a Adobe Experience Cloud Triggers{#about-adobe-experience-triggers}
+# Introducción a los activadores de Adobe Experience Cloud{#about-adobe-experience-triggers}
 
 [!DNL Triggers] es una integración entre Adobe Campaign y Adobe Analytics que utiliza la canalización. La canalización recupera las acciones o activadores de los usuarios desde el sitio web. El abandono del carro de compras es un ejemplo de activador. Los activadores se procesan en Adobe Campaign para enviar correos electrónicos en tiempo casi real.
 
