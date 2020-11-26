@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Entrega
-description: Más información sobre la actividad de flujo de trabajo de tipo Envío
+description: Descubra más información sobre la actividad del flujo de trabajo de tipo Entrega
 audience: workflow
 content-type: reference
 topic-tags: action-activities
@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # Entrega{#delivery}
 
-Una actividad de tipo **Delivery** permite crear una acción de entrega. Se puede construir utilizando elementos de entrada.
+Una actividad de tipo **Entrega** permite crear una acción de entrega. Se puede construir utilizando elementos de entrada.
 
 Para configurarlo, edite la actividad e introduzca las opciones de entrega.
 
@@ -78,10 +78,10 @@ Para configurarlo, edite la actividad e introduzca las opciones de entrega.
    Seleccione el tipo de acción que se va a realizar:
 
    * **[!UICONTROL Save]**: esta opción permite crear la entrega y guardarlo. No lo analiza ni lo envía.
-   * **[!UICONTROL Estimate the target]**: esta opción permite calcular el objetivo de la entrega para evaluar su potencial (primera fase del análisis). Esta acción equivale a seleccionar la opción **[!UICONTROL Estimate the population to be targeted]** y al hacer clic en **[!UICONTROL Analyze]** al enviar una entrega al objetivo principal mediante **Delivery**.
-   * **[!UICONTROL Prepare]**: esta opción permite ejecutar el proceso de análisis completo (cálculo del objetivo y preparación de contenido). No se manda la entrega. Esta acción equivale a seleccionar la opción **[!UICONTROL Deliver as soon as possible]** y hacer clic en **[!UICONTROL Analyze]** al enviar una entrega al objetivo principal mediante **Delivery**.
-   * **[!UICONTROL Send a proof]**: esta opción permite enviar una prueba de la entrega. Esta acción equivale a hacer clic en el botón **[!UICONTROL Send a proof]** de la barra de herramientas de una entrega con **Delivery**.
-   * **[!UICONTROL Prepare and start]**: esta opción inicia el proceso de análisis completo (cálculo del objetivo y preparación de contenido) y realiza la entrega. Esta acción equivale a hacer clic en las opciones **[!UICONTROL Deliver as soon as possible]**, **[!UICONTROL Analyze]** y **[!UICONTROL Confirm delivery]** al mandar una envío al objetivo principal con **Delivery**.
+   * **[!UICONTROL Estimate the target]**: esta opción permite calcular el objetivo de la entrega para evaluar su potencial (primera fase del análisis). Esta acción equivale a seleccionar la opción **[!UICONTROL Estimate the population to be targeted]** y al hacer clic en **[!UICONTROL Analyze]** al enviar una entrega al objetivo principal mediante **Entrega**.
+   * **[!UICONTROL Prepare]**: esta opción permite ejecutar el proceso de análisis completo (cálculo del objetivo y preparación de contenido). No se manda la entrega. Esta acción equivale a seleccionar la opción **[!UICONTROL Deliver as soon as possible]** y hacer clic en **[!UICONTROL Analyze]** al enviar una entrega al objetivo principal mediante **Entrega**.
+   * **[!UICONTROL Send a proof]**: esta opción permite enviar una prueba de la entrega. Esta acción equivale a hacer clic en el botón **[!UICONTROL Send a proof]** de la barra de herramientas de una entrega con **Entrega**.
+   * **[!UICONTROL Prepare and start]**: esta opción inicia el proceso de análisis completo (cálculo del objetivo y preparación de contenido) y realiza la entrega. Esta acción equivale a hacer clic en las opciones **[!UICONTROL Deliver as soon as possible]**, **[!UICONTROL Analyze]** y **[!UICONTROL Confirm delivery]** al mandar una envío al objetivo principal con **Entrega**.
 
    La actividad **[!UICONTROL Act on a delivery]** utilizada en el flujo de trabajo permite iniciar todos los pasos restantes necesarios para comenzar la entrega (cálculo del objetivo, preparación de contenido, entrega). Para obtener más información, consulte [Control de envíos](../../workflow/using/delivery-control.md).
 
@@ -108,7 +108,7 @@ Cree un nuevo flujo de trabajo y añada actividades como se muestra en el gráfi
 
 ![](assets/new-workflow-5.png)
 
-Abra la actividad **Delivery** y defina las propiedades como se indica a continuación:
+Abra la actividad **Entrega** y defina las propiedades como se indica a continuación:
 
 * En la sección **[!UICONTROL Delivery]**, seleccione **[!UICONTROL New, created from a template]** y, luego, una plantilla de entrega.
 * En la sección **[!UICONTROL Recipients]**, seleccione **[!UICONTROL Specified in the delivery]**.
