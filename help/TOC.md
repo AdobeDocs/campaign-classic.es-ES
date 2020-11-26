@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 9d595f41dd2b0cbf042ab768ae5897cc5ac240bb
 workflow-type: tm+mt
 source-wordcount: '2171'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -335,7 +335,7 @@ ht-degree: 97%
    + Activadores de Experience Cloud {#experience-triggers}
       + [Introducción a [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [Configuración de canalización](integrations/using/configuring-pipeline.md)
-      + [Configuración de la E/S de Adobe para Adobe Experience Cloud Triggers](integrations/using/configuring-adobe-io.md)
+      + [Configuración de Adobe I/O para los activadores de Adobe Experience Cloud](integrations/using/configuring-adobe-io.md)
       + [Configuración de eventos para la implementación personalizada](integrations/using/events.md)
       + [Supervisión de canalización](integrations/using/pipeline-monitoring.md)
       + [Solución de problemas de canalización](integrations/using/pipeline-troubleshooting.md)
