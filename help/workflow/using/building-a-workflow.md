@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Creación de un flujo de trabajo
-description: Aprenda a crear un flujo de trabajo
+description: Descubra cómo generar un flujo de trabajo
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1624'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Esta sección detalla los principios fundamentales y las prácticas recomendadas
 * Diseño del diagrama de flujo de trabajo, consulte [Adición y vinculación de actividades](#adding-and-linking-activities)
 * Acceso a parámetros y propiedades de actividades, consulte [Configuración de actividades](#configuring-activities)
 * Diseño de flujos de trabajo de objetivos, consulte [Flujos de trabajo de objetivo](#targeting-workflows)
-* Use workflows to execute a campaign, see [Campaign workflows](#campaign-workflows)
+* Uso de flujos de trabajo para ejecutar una campaña, consulte [Flujos de trabajo de campaña](#campaign-workflows)
 * Acceso y creación de flujos de trabajo técnicos, consulte [Flujos de trabajo técnicos](#technical-workflows)
 * Uso de plantillas para crear flujos de trabajo, consulte [Plantillas de flujo de trabajo](#workflow-templates)
 
@@ -142,11 +142,11 @@ Dentro del marco de una campaña, los flujos de trabajo de objetivos se almacena
 
 ### Pasos clave para crear un flujo de trabajo de segmentación {#implementation-steps-}
 
-Los pasos para crear un flujo de trabajo de objetivo se describen en las siguientes secciones:
+Los pasos para crear un flujo de trabajo de segmentación se describen en las siguientes secciones:
 
 1. **Identificar** datos en la base de datos. Consulte [Creación de consultas](../../workflow/using/targeting-data.md#creating-queries)
 1. **Preparar** datos para satisfacer las necesidades de envío. Consulte [Enriquecimiento y modificación de datos](../../workflow/using/targeting-data.md#enriching-and-modifying-data)
-1. **Usar** datos para realizar actualizaciones o dentro de un envío - Consulte [Actualización de la base de datos](../../workflow/using/how-to-use-workflow-data.md#updating-the-database)
+1. **Usar** datos para realizar actualizaciones o dentro de un envío. Consulte [Actualización de la base de datos](../../workflow/using/how-to-use-workflow-data.md#updating-the-database)
 
 Los resultados de todos los enriquecimientos y todas las gestiones realizadas durante el establecimiento de objetivos se almacenan y están accesibles en los campos personalizados, en particular para utilizarlos al crear mensajes personalizados. Para obtener más información, consulte [Datos de destinatarios](../../workflow/using/data-life-cycle.md#target-data).
 
@@ -182,7 +182,7 @@ Todos los flujos de trabajo de campaña están centralizados en el nodo **[!UICO
 
 ![](assets/campaigns_wf.png)
 
-Campaign workflows and implementation examples are detailed in [this page](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
+En [esta página](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) se describen los flujos de trabajo de campañas y ejemplos de implementación.
 
 ## Flujos de trabajo técnicos {#technical-workflows}
 
