@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Transfer to Mid-sourcing
-description: Más información acerca de la transferencia a flujos de trabajo de Intermediaria
+description: Descubra más información sobre los flujos de trabajo Transfer to Mid-sourcing
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
