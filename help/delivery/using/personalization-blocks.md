@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 100%
+source-wordcount: '896'
+ht-degree: 95%
 
 ---
 
@@ -154,8 +154,10 @@ Para crear un bloque personalizado, vaya al explorador y aplique los pasos sigui
 
    * Introduzca el contenido (en HTML, texto, JavaScript, etc.) de los bloques de personalización y haga clic en **[!UICONTROL Save]**.
 
-## Cómo personalizar correos electrónicos con bloques de contenido dinámico {#personalization-blocks-video}
+## Tutorial video {#personalization-blocks-video}
 
-Descubra cómo se crearon los bloques de contenido dinámico y cómo se utilizan para personalizar el contenido de su envío de correo electrónico.
+Obtenga información sobre cómo crear bloques de contenido dinámico y cómo utilizarlos para personalizar el contenido de su envío de correo electrónico.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
+
+Encontrará más vídeos explicativos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
