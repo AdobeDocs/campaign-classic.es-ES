@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 100%
@@ -27,7 +27,7 @@ Para configurar este caso de uso, se ha creado el siguiente flujo de trabajo de 
 
 Este flujo de trabajo (de ejecución diaria) selecciona todos los destinatarios que tienen su cumpleaños en la fecha actual.
 
-Este caso de uso también se puede encontrar en forma de vídeo. Para obtener más información, consulte el vídeo [Creación de un flujo de trabajo](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html).
+![](assets/do-not-localize/how-to-video.png) Este caso de uso también se puede encontrar en forma de vídeo. Para obtener más información, consulte el vídeo [Creación de un flujo de trabajo](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html).
 
 Para ello, cree una campaña y haga clic en la pestaña **[!UICONTROL Targeting and workflows]**. Para obtener más información sobre esto, consulte la sección [Generación del destino principal en un flujo de trabajo](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) .
 
