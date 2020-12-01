@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Acerca de los formularios web
-description: Acerca de los formularios web
+title: Introducción a los formularios web
+description: Introducción a los formularios web en Campaña
 audience: web
 content-type: reference
 topic-tags: web-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 100%
+source-wordcount: '497'
+ht-degree: 93%
 
 ---
 
 
-# Acerca de los formularios web{#about-web-forms}
+# Get started with web forms{#about-web-forms}
 
 Adobe Campaign incluye un módulo gráfico para definir y publicar formularios web para crear páginas que contengan campos de entrada y selección, y que pueden incluir datos de la base de datos. Esto le permite diseñar y publicar páginas web a las que los usuarios pueden acceder para ver o introducir información.
 
@@ -53,7 +53,7 @@ La pestaña **[!UICONTROL Edit]** le permite crear su contenido.
 
 Para definir la configuración y el contenido del formulario web, realice los siguientes pasos:
 
-* Comience por crear las páginas y comprobaciones necesarias: campos de entrada, listas desplegables, contenido HTML, etc.
+* Inicio creando las páginas y los controles necesarios: campos de entrada, listas desplegables, contenido HTML, etc.
 
    Este paso se detalla a continuación.
 
@@ -80,6 +80,7 @@ En las siguientes secciones se detalla cómo definir el contenido y el diseño d
 >
 >* Durante el diseño de la página, puede ver la renderización final en la pestaña **[!UICONTROL Preview]**. Para ver los cambios, guarde el formulario primero. Todos los errores se muestran en la pestaña **[!UICONTROL Log]**.
 >* Para asegurarse de que la visualización de página y el almacenamiento de la información se produzcan en la secuencia adecuada, active el modo de depuración en el formulario web. Para ello, vaya a la subpestaña **[!UICONTROL Preview]** y marque la casilla **[!UICONTROL Enable debug mode]**: todos los datos recopilados y los posibles errores de ejecución se muestran en la parte inferior de cada página.
+
 >
 
 
