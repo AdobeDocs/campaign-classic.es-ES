@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 49f3c123cb8e91b3a2a2a1eb6bd593a242b8bbfe
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 100%
+source-wordcount: '465'
+ht-degree: 90%
 
 ---
 
@@ -35,6 +35,8 @@ Para utilizar la opción, dichas tablas específicas deben haberse configurado e
 
 Por lo general, guardar un destino en una lista indica el final de un flujo de trabajo. De forma predeterminada, la actividad **[!UICONTROL List update]** no tiene una transición saliente. Marque la opción **[!UICONTROL Generate an outbound transition]** para agregar una.
 
+![](assets/do-not-localize/how-to-video.png) [Descubra cómo crear una lista de destinatarios desde el Explorador en vídeo](#video)
+
 ## Ejemplo: Actualización de lista {#example--list-update}
 
 En el ejemplo siguiente, la actividad de actualización de la lista sigue una consulta destinada a los hombres de más de 30 años que viven en Francia. La lista se creará inicialmente a partir de los resultados de la consulta. A continuación, se actualizará cada vez que se inicie desde el flujo de trabajo. Por ejemplo, se puede utilizar con regularidad para ofertas promocionales de objetivos para campañas.
@@ -56,8 +58,6 @@ En el ejemplo siguiente, la actividad de actualización de la lista sigue una co
 
    A continuación, se crea o actualiza la lista de destinatarios coincidentes.
 
-Para obtener más información sobre esto, consulte el vídeo [Creación de una lista de destinatarios](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html).
-
 ## Parámetros de entrada {#input-parameters}
 
 * tableName
@@ -68,3 +68,11 @@ Identifique la población que se va a guardar en el grupo.
 ## Parámetros de salida {#output-parameters}
 
 * groupId: Identificador de grupo.
+
+## Tutorial video {#video}
+
+Este vídeo muestra cómo crear una lista de destinatarios desde el Explorador.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
+
+Encontrará más vídeos explicativos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
