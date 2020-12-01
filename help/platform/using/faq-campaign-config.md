@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 100%
@@ -73,7 +73,9 @@ Adobe Campaign ofrece varios conectores CRM para vincular la plataforma de Adobe
 
 Estos conectores permiten una integración de datos rápida y sencilla: Adobe Campaign proporciona un asistente dedicado para recopilar y seleccionar de las tablas disponibles en CRM. De este modo, se garantiza la sincronización bidireccional para garantizar que los datos estén actualizados en todo momento a lo largo de los sistemas.
 
-Consulte [Configure CRM connectors](../../platform/using/crm-connectors.md) para aprender a sincronizar su herramienta CRM con Adobe Campaign. Vea este vídeo de caso de uso sobre la [integración de Adobe Campaign y Microsoft Dynamics 365](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html).
+Consulte [Configure CRM connectors](../../platform/using/crm-connectors.md) para aprender a sincronizar su herramienta CRM con Adobe Campaign.
+
+![](assets/do-not-localize/how-to-video.png) Vea este vídeo de caso de uso sobre la [integración de Adobe Campaign y Microsoft Dynamics 365](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html).
 
 ## ¿Cómo hacer el borrado de caché de software cuando los problemas son específicos del equipo o del usuario? {#perform-soft-cache-clear}
 
