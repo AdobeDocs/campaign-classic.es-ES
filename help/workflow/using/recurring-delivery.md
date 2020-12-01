@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 100%
+source-wordcount: '221'
+ht-degree: 92%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 # Entrega recurrente{#recurring-delivery}
 
 Una actividad de **[!UICONTROL Recurring delivery]** permite configurar una ocurrencia de plantilla de envío específica de una campaña.
+
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#recurring-delivery-video)
 
 Esta actividad solo está disponible en la pestaña **[!UICONTROL Targeting and workflows]** ubicada en una campaña.
 
@@ -39,11 +41,16 @@ Un **envío recurrente** creará una nueva instancia de envío cada vez que se e
 
 ![Entrega recurrente](assets/delivery_recurring.jpg)
 
-En este vídeo se explica cómo configurar un envío recurrente y una actividad de planificador.
-
->[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
-
 >[!NOTE]
 >
 >No es posible enviar una prueba desde una actividad del tipo **[!UICONTROL Recurring delivery]**.\
 >Para crear directamente una entrega a través de un flujo de trabajo de campaña, utilice las actividades específicas del canal que están preconfiguradas (por ejemplo **[!UICONTROL Email delivery]**).
+
+## Tutorial video (#recurrente-envío-video)
+
+En este vídeo se explica cómo configurar un envío recurrente y una actividad de planificador.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
+
+Encontrará más vídeos explicativos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+
