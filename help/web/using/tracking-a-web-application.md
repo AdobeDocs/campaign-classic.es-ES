@@ -7,10 +7,10 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ Las principales mejoras incluidas en esta versión son las siguientes:
 
    * **Tasa de conversión**: número de personas que han realizado todos los pasos de una ruta de navegación.
    * **Tasa de rechazo**: número de personas que solo han realizado el primer paso.
-   * **Túnel de conversión**: tasa de pérdida entre cada paso.
+   * **Canal** de conversión: tasa de pérdida entre cada paso.
 
    Además, un gráfico de tipo sectorial muestra la población según su origen.****
 
