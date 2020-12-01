@@ -7,17 +7,21 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 100%
+source-wordcount: '364'
+ht-degree: 95%
 
 ---
 
 
 # Entrega continua{#continuous-delivery}
 
-Una acción del tipo **Continuous delivery** permite agregar nuevos destinatarios a una entrega existente. Este tipo de envío evita tener que crear una nueva cada vez: este modo suele ser más eficaz, en particular para alertas de bajo volumen o notificaciones enviadas cuando es necesario. A nivel de la plantilla de envío, puede especificar un script para calcular la etiqueta (y la carpeta de la campaña) de la entrega asociado. Si la secuencia de comandos calcula una entrega que aún no existe, se crea sobre la marcha.
+Una acción del tipo **Continuous delivery** permite agregar nuevos destinatarios a una entrega existente. Este tipo de envío evita tener que crear una nueva cada vez: este modo suele ser más eficaz, en particular para alertas de bajo volumen o notificaciones enviadas cuando es necesario.
+
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#continuous-delivery-video)
+
+A nivel de la plantilla de envío, puede especificar un script para calcular la etiqueta (y la carpeta de la campaña) de la entrega asociado. Si la secuencia de comandos calcula una entrega que aún no existe, se crea sobre la marcha.
 
 ![](assets/edit_diffusion_fil.png)
 
@@ -56,6 +60,10 @@ Un envío continuo creará un envío ÚNICO y registros de envío (broadLog) y r
 
 ![Entrega continua](assets/delivery_continuous.jpg)
 
+## Tutorial video {#continuous-delivery-video}
+
 Este vídeo muestra cómo configurar un envío continuo con una consulta incremental.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
+
+Encontrará más vídeos explicativos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
