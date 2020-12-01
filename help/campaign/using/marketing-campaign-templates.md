@@ -7,7 +7,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 100%
@@ -69,7 +69,7 @@ Se proporciona una plantilla predeterminada para crear una campaña sin ninguna 
 
 La creación y la configuración de las plantillas de campaña se muestran en [Plantillas de campaña](#campaign-templates).
 
-Para obtener más información sobre la creación de campañas, consulte [este vídeo](../../campaign/using/marketing-campaign-deliveries.md#create-email-video).
+![](assets/do-not-localize/how-to-video.png) Para obtener más información sobre la creación de campañas, consulte [este vídeo](../../campaign/using/marketing-campaign-deliveries.md#create-email-video).
 
 ## Configuración de los módulos disponibles {#configuration-of-the-available-modules}
 
