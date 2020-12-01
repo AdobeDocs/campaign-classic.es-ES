@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
-source-wordcount: '1572'
-ht-degree: 100%
+source-wordcount: '1579'
+ht-degree: 98%
 
 ---
 
@@ -225,15 +225,16 @@ Se pueden utilizar **[!UICONTROL Seed addresses]** como destinatario de las prue
 
 Se puede combinar la definición de un destinatario de prueba específico y el uso de direcciones semilla con la opción **[!UICONTROL Specific target and Seed addresses]**. Las configuraciones relacionadas se definen en dos subpestañas independientes.
 
-## Administración de fuentes y pruebas en un correo electrónico {#seeds-and-proofs-video}
+Asimismo, consulte lo siguiente:
+
+* [Selección del destino de la prueba](#selecting-the-proof-target)
+* [Sobre las direcciones semilla](../../delivery/using/about-seed-addresses.md)
+* [Ejemplo de uso: selección de direcciones semilla según ciertos criterios](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+
+## Tutorial video {#seeds-and-proofs-video}
 
 En este vídeo aprenderá a añadir semillas y pruebas a un correo electrónico existente y a enviarlo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
-Asimismo, consulte lo siguiente:
-* [Selección del destino de la prueba](#selecting-the-proof-target)
-
-* [Sobre las direcciones semilla](../../delivery/using/about-seed-addresses.md)
-
-* [Ejemplo de uso: selección de direcciones semilla según ciertos criterios](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+Encontrará más vídeos explicativos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
