@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 100%
+source-wordcount: '880'
+ht-degree: 98%
 
 ---
 
@@ -118,8 +118,10 @@ El valor predeterminado es 5 segundos.
 
 Si establece esta opción en 0, no va a haber límite de tiempo para la fase de personalización.
 
-## Personalización de correos electrónicos mediante campos de personalización {#personalization-fields-video}
+## Tutorial video {#personalization-fields-video}
 
 Obtenga información sobre cómo agregar un campo de personalización a la línea de asunto y el contenido de un envío de correo electrónico.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
+
+Encontrará más vídeos explicativos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
