@@ -7,10 +7,10 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 100%
+source-wordcount: '523'
+ht-degree: 96%
 
 ---
 
@@ -39,9 +39,9 @@ En el ejemplo anterior, la renderización es la siguiente:
 
 ## Colocación de los campos en la página {#positioning-the-fields-on-the-page}
 
-El diseño del formulario web se define página por página en cada contenedor y se puede sobrecargar para cada comprobación.
+La presentación del formulario Web se define página por página en cada contenedor y se puede sobrecargar si es necesario.
 
-Las páginas se dividen en columnas: cada página contiene un determinado número de columnas. Cada campo de la página ocupa **n** celdas. Los contenedores también ocupan un determinado número de columnas y los campos que contienen ocupan un determinado número de celdas.
+Las páginas se dividen en columnas: cada página contiene un determinado número de columnas. Cada campo de la página ocupa **n** celdas. Los contenedores también ocupan un determinado número de columnas y los campos que contienen ocupan un determinado número de celdas..
 
 De forma predeterminada, las páginas se crean en una única columna y cada elemento ocupa una celda. Esto significa que los campos se muestran uno debajo de otro, cada uno de los cuales ocupa una línea entera, como se muestra a continuación:
 
