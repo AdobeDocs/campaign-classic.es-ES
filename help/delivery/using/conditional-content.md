@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 100%
+source-wordcount: '478'
+ht-degree: 96%
 
 ---
 
@@ -109,8 +109,10 @@ En el siguiente ejemplo, puede aprender a crear un correo electrónico multiling
    >
    >Como no se ha definido ninguna versión alternativa en el contenido de correo electrónico, asegúrese de filtrar la población de destino antes de enviar el correo electrónico.
 
-## Creación de una newsletter multilingüe con contenido condicional {#conditionnal-content-video}
+## Tutorial video {#conditionnal-content-video}
 
 Aprenda a añadir contenido condicional a un envío con el ejemplo de una newsletter multilingüe.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12)
+
+Encontrará más vídeos explicativos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
