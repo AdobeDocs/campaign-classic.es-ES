@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 9d595f41dd2b0cbf042ab768ae5897cc5ac240bb
+source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
 workflow-type: tm+mt
-source-wordcount: '2171'
-ht-degree: 98%
+source-wordcount: '2179'
+ht-degree: 97%
 
 ---
 
@@ -273,7 +273,7 @@ ht-degree: 98%
       + [Seguimiento de una aplicación web](web/using/tracking-a-web-application.md)
       + [Exclusión del seguimiento de aplicaciones web](web/using/web-application-tracking-opt-out.md)
    + Edición de contenido HTML {#editing-html-content}
-      + [Acerca del editor HTML de Campaign](web/using/about-campaign-html-editor.md)
+      + [Introducción al editor HTML](web/using/about-campaign-html-editor.md)
       + [Administración de plantillas](web/using/template-management.md)
       + [Interfaz del editor de contenido](web/using/content-editor-interface.md)
       + [Edición de contenido](web/using/editing-content.md)
@@ -281,7 +281,7 @@ ht-degree: 98%
       + [Creación de una página de destino](web/using/creating-a-landing-page.md)
       + [Ejemplo de uso: creación de una entrega por correo electrónico](web/using/use-case--creating-an-email-delivery.md)
    + Formularios web {#web-forms}
-      + [Acerca de los formularios web](web/using/about-web-forms.md)
+      + [Introducción a los formularios web](web/using/about-web-forms.md)
       + [Uso de una plantilla de formulario web](web/using/using-a-web-form-template.md)
       + [Adición de campos a un formulario web](web/using/adding-fields-to-a-web-form.md)
       + [Elementos estáticos de un formulario web](web/using/static-elements-in-a-web-form.md)
@@ -294,9 +294,9 @@ ht-degree: 98%
       + [Traducción de un formulario web](web/using/translating-a-web-form.md)
       + [Ejemplos de uso: formularios web](web/using/use-cases--web-forms.md)
    + Encuestas en línea {#online-surveys}
-      + [Acerca de las encuestas](web/using/about-surveys.md)
-      + [Introducción a las encuestas](web/using/getting-started-with-surveys.md)
-      + [Generación de una encuesta](web/using/building-a-survey.md)
+      + [Introducción a las encuestas](web/using/about-surveys.md)
+      + [Pasos clave para crear una encuesta](web/using/getting-started-with-surveys.md)
+      + [Diseño de una encuesta](web/using/building-a-survey.md)
       + [Gestión de respuestas](web/using/managing-answers.md)
       + [Publicación, seguimiento y utilización de datos recopilados](web/using/publish--track-and-use-collected-data.md)
       + [Configuración de encuestas](web/using/configuring-surveys.md)
