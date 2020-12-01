@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 100%
+source-wordcount: '1263'
+ht-degree: 96%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 # Configuración de campañas de marketing{#setting-up-marketing-campaigns}
 
 Las campañas incluyen acciones (envíos) y procesos (importación o extracción de archivos), así como recursos (documentos de marketing, descripciones de envíos). Todos ellos se utilizan en las campañas de marketing. Las campañas son parte de un programa y los programas se incluyen en un plan de campaña.
+
+![](assets/do-not-localize/how-to-video.png) Descubra cómo crear un plan de marketing, programas y campañas [en vídeo](#video)
 
 Para crear una campaña de marketing:
 
@@ -45,7 +47,7 @@ Para crear una campaña de marketing:
 
    Consulte [Creación de proveedores de servicios y sus estructuras de costes](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
 
-Una vez completados estos pasos, puede iniciar los envíos (consulte [Inicio de una entrega](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)), comprobar los datos, los procesos y la información relacionada con los envíos y, si es necesario, administrar los documentos asociados (consulte [Administración de documentos asociados](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)). También puede realizar un seguimiento de la ejecución de las fases de procesamiento de las campañas y envíos (consulte [Seguimiento](../../campaign/using/marketing-campaign-monitoring.md).
+Una vez completados estos pasos, puede iniciar los envíos (consulte [Inicio de una entrega](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)), comprobar los datos, los procesos y la información relacionada con los envíos y, si es necesario, administrar los documentos asociados (consulte [Administración de documentos asociados](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)). También puede realizar un seguimiento de la ejecución de las fases de procesamiento de las campañas y envíos (consulte [Seguimiento](../../campaign/using/marketing-campaign-monitoring.md)).
 
 ## Creación de la jerarquía del plan y del programa {#creating-plan-and-program-hierarchy}
 
@@ -230,3 +232,11 @@ Una campaña periódica es una campaña basada en una plantilla específica que 
    ![](assets/s_ncs_user_op_template_period_planning.png)
 
 Todas las campañas periódicas contienen los mismos elementos. Una vez creada, se administra como una campaña estándar.
+
+## Tutorial video {#video}
+
+Este vídeo muestra cómo crear un plan de marketing, programas y campañas.
+
+>[!VIDEO](https://video.tv.adobe.com/v/35132?quality=12)
+
+Encontrará más vídeos explicativos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
