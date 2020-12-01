@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: '"Ejemplo de uso: creación de una entrega por correo electrónico"'
-description: '"Ejemplo de uso: creación de una entrega por correo electrónico"'
+title: 'Caso de uso: creación de un envío de correo electrónico'
+description: Creación de un caso de uso de envío de correo electrónico
 audience: web
 content-type: reference
 topic-tags: editing-html-content
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 46aa896929c960abeb501642a5ffbbb56de4802e
 workflow-type: tm+mt
 source-wordcount: '734'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
