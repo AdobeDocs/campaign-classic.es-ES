@@ -7,7 +7,7 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
@@ -19,9 +19,7 @@ ht-degree: 100%
 
 Las ofertas se pueden presentar en varios espacios de ofertas utilizando un canal entrante o saliente. En este capítulo se detallan algunas funciones específicas de los canales entrantes.
 
->[!NOTE]
->
->También puede ver este [vídeo](https://helpx.adobe.com/campaign/classic/how-to/deliver-an-offer-on-inbound-channel-in-acv6.html) en el que se explica cómo ofrecer una oferta en un canal de entrada.
+![](assets/do-not-localize/how-to-video.png) También puede ver este [vídeo](https://helpx.adobe.com/campaign/classic/how-to/deliver-an-offer-on-inbound-channel-in-acv6.html) en el que se explica cómo ofrecer una oferta en un canal de entrada.
 
 Para que el motor de oferta pueda seleccionar una oferta, debe aprobarse y estar disponible en un entorno en directo. Para obtener más información, consulte [Aprobar y activar una oferta](../../interaction/using/approving-and-activating-an-offer.md).
 
