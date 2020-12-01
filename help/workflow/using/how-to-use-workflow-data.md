@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 translation-type: tm+mt
-source-git-commit: e43a14a8be179dd4793176d15e2c30b3e778d3e0
+source-git-commit: 49f3c123cb8e91b3a2a2a1eb6bd593a242b8bbfe
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 98%
+source-wordcount: '923'
+ht-degree: 96%
 
 ---
 
@@ -97,7 +97,7 @@ A continuación, puede utilizar comandos o código en la pestaña **[!UICONTROL 
 
 En este caso de uso, crearemos un flujo de trabajo para codificar y exportar los datos con una clave instalada en el Panel de control de Campaign.
 
-En [esta sección](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings) también hay disponible un vídeo de tutorial que muestra cómo utilizar una clave GPG para cifrar datos.
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
 Los pasos para realizar este caso de uso son los siguientes:
 
@@ -142,3 +142,10 @@ Los pasos para realizar este caso de uso son los siguientes:
 
 1. Ahora puede ejecutar el flujo de trabajo. Una vez ejecutado, el destinatario de datos de la consulta se exportará al servidor SFTP en un archivo .gpg cifrado.
 
+### Tutorial video {#video}
+
+Este vídeo muestra cómo utilizar una clave GPG para cifrar datos también está disponible en
+
+>[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
+
+Encontrará más vídeos explicativos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
