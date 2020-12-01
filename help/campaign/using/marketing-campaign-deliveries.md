@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '2917'
-ht-degree: 100%
+source-wordcount: '2925'
+ht-degree: 99%
 
 ---
 
@@ -457,8 +457,10 @@ El modelo de exportación debe estar asociado al proveedor de servicios seleccio
 >
 >Para obtener más información sobre las exportaciones, consulte la sección [Introducción](../../platform/using/generic-imports-and-exports.md).
 
-#### Creación de un correo electrónico en una campaña {#create-email-video}
+#### Tutorial video {#create-email-video}
 
 En este vídeo se explica cómo crear una campaña y un correo electrónico en Adobe Campaign Classic.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+
+Encontrará más vídeos explicativos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
