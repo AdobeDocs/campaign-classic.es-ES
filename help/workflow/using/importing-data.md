@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 translation-type: tm+mt
-source-git-commit: e43a14a8be179dd4793176d15e2c30b3e778d3e0
+source-git-commit: 49f3c123cb8e91b3a2a2a1eb6bd593a242b8bbfe
 workflow-type: tm+mt
-source-wordcount: '2473'
-ht-degree: 99%
+source-wordcount: '2476'
+ht-degree: 98%
 
 ---
 
@@ -257,7 +257,7 @@ A continuación se muestra un ejemplo en el caso de uso.
 
 En este caso de uso, crearemos un flujo de trabajo para importar datos cifrados en un sistema externo utilizando una clave generada en el Panel de control de Campaign.
 
-En [esta sección](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings) también hay disponible un vídeo de tutorial que muestra cómo utilizar una clave GPG para desencriptar datos.
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
 Los pasos para realizar este caso de uso son los siguientes:
 
@@ -302,3 +302,11 @@ Los pasos para realizar este caso de uso son los siguientes:
 1. Ahora puede ejecutar el flujo de trabajo. Una vez ejecutada, puede registrar en los registros de flujo de trabajo que el descifrado se ha ejecutado y que los datos del archivo se han importado.
 
    ![](assets/gpg_run.png)
+
+### Tutorial video {#video}
+
+Este vídeo muestra cómo utilizar una clave GPG para descifrar datos.
+
+>[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
+
+Encontrará más vídeos explicativos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
