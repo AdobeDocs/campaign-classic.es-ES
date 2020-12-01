@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 99%
+source-wordcount: '805'
+ht-degree: 97%
 
 ---
 
@@ -126,7 +126,9 @@ Puede eliminar una o varias listas de la lista de grupos del árbol de Adobe Cam
 >
 >Cuando se elimina una lista, los perfiles de la lista no se ven afectados; no obstante, los datos del perfil se actualizan.
 
-## Cómo crear una lista de destinatarios {#create-list-video}
+## Tutorial video {#create-list-video}
+
+### Cómo crear una lista de destinatarios
 
 Una lista es un conjunto estático de destinatarios que puede centrarse en acciones de envío o actualizarse durante operaciones de importación o durante la ejecución del flujo de trabajo. Una lista de destinatarios también se denomina audiencia.
 
@@ -134,8 +136,10 @@ Aprenda cómo crear una audiencia configurando una lista de destinatarios desde 
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-## Cómo crear una lista de destinatarios con un flujo de trabajo {#create-list-in-a-wf-video}
+### Cómo crear una lista de destinatarios con un flujo de trabajo {#create-list-in-a-wf-video}
 
 Aprenda cómo crear un flujo de trabajo con el fin de apuntar los destinatarios y cómo volverlo recurrente antes de utilizar la lista en un destinatario de correo electrónico.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
+
+Encontrará más vídeos explicativos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
