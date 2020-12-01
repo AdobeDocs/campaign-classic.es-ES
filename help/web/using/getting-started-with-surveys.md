@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Introducción a las encuestas
-description: Introducción a las encuestas
+title: Pasos clave para crear una encuesta
+description: Crear la primera encuesta con Campaña
 audience: web
 content-type: reference
 topic-tags: online-surveys
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 100%
+source-wordcount: '912'
+ht-degree: 98%
 
 ---
 
 
-# Introducción a las encuestas{#getting-started-with-surveys}
+# Pasos clave para crear una encuesta{#getting-started-with-surveys}
 
 A continuación se muestra una breve descripción general de los pasos principales para crear una encuesta sencilla mediante la siguiente plantilla:
 
