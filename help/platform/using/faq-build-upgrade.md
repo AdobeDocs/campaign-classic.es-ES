@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '2020'
 ht-degree: 6%
@@ -61,7 +61,7 @@ Por ejemplo, si se utiliza la información del servidor de la captura de pantall
 
 Adobe realizará una copia de seguridad del sistema antes de realizar cualquier cambio. Sin embargo, si hay un trabajo de personalización crítico en el sistema que no es de producción (servidores de ensayo o desarrollo), se RECOMIENDA MUCHO que exporte ese trabajo como paquete antes de cualquier actualización.
 
-Para obtener más información, [vea este vídeo](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).
+![](assets/do-not-localize/how-to-video.png) Para obtener más información, [vea este vídeo](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).
 
 ## ¿Cuándo se realizarán las actualizaciones?
 
