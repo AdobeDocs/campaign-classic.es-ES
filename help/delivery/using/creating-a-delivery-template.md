@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6335c1cd327a83dbc8c4d43c4ab795b84531c3e1
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 100%
+source-wordcount: '378'
+ht-degree: 96%
 
 ---
 
@@ -68,20 +68,24 @@ Para configurar una plantilla de envío, siga los siguientes pasos:
 >
 >Para evitar errores de configuración, se recomienda duplicar una plantilla nativa y modificar sus propiedades en lugar de crear una nueva plantilla.
 
-## Configuración de una plantilla de envíos {#delivery-template-video}
+## Videotutoriales {#delivery-template-video}
+
+### Configuración de una plantilla de envíos
 
 En el siguiente vídeo se muestra cómo configurar una plantilla para un envío ad hoc.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24066?quality=12)
 
-## Configuración de propiedades de plantillas de envíos
+### Configuración de propiedades de plantillas de envíos
 
 El siguiente vídeo muestra cómo configurar las propiedades de las plantillas de envíos y explica cada propiedad en detalle.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24067?quality=12)
 
-## Implementación de una plantilla de envíos ad-hoc
+### Implementación de una plantilla de envíos ad-hoc
 
 En este vídeo se explica cómo implementar una plantilla de envíos de correo electrónico ad-hoc, y se explica la diferencia entre un envío de correo electrónico y un flujo de trabajo de envío.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24065?quality=12)
+
+Encontrará más vídeos explicativos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
