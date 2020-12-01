@@ -7,10 +7,10 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
 workflow-type: tm+mt
 source-wordcount: '670'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -99,7 +99,7 @@ Si tiene que escribir una JSSP, las API de servidor están disponibles:
 
 * **NL.ServerWebTracking._displayOptOutBanner()**
 
-   Devuelve el valor verdadero si se debe mostrar el banner de exclusión después de que el administrador seleccione un banner de exclusión.
+   Devuelve &quot;true&quot; si la pancarta de exclusión debe mostrarse después de que el administrador haya seleccionado una pancarta de exclusión
 
    Se llama a este código cuando el administrador ya ha elegido utilizar el banner de exclusión del seguimiento web.
 
