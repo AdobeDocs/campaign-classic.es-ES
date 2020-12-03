@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 5%
@@ -25,12 +25,12 @@ Para ello, debe:
 
 1. Recupere el paquete que contiene el programa de instalación de la consola.
 
-   Este archivo se llama `setup-client-7.X.XXXX.exe` para v7 o `setup-client-6.X.XXXX.exe` para v6.1, donde `X` es la subversión de Adobe Campaign y `XXXX` es el número de compilación.
+   Este archivo se denomina `setup-client-7.X.XXXX.exe` para v7 o `setup-client-6.X.XXXX.exe` para v6.1, donde `X` es la subversión de Adobe Campaign y `XXXX` es el número de compilación.
 
 1. Copie y pegue este paquete en la carpeta de instalación de Adobe Campaign, en **/datakit/nl/eng/jsp**.
 1. Inicio del servidor Adobe Campaign.
 
-Los usuarios finales pueden descargar el programa de instalación de la consola a través de un explorador Web gracias a la siguiente URL:
+Los usuarios finales pueden descargar el programa de instalación de la consola a través de un navegador web gracias a la siguiente URL:
 
 ```
 https://<your Adobe Campaign server>:>port number>/nl/jsp/logon.jsp
@@ -38,7 +38,7 @@ https://<your Adobe Campaign server>:>port number>/nl/jsp/logon.jsp
 
 Esta página requiere un inicio de sesión y una contraseña definidos en la aplicación.
 
-Para descargar e instalar la consola, consulte [Instalación de la consola](../../installation/using/installing-the-client-console.md)cliente.
+Para descargar e instalar la consola, consulte [Instalación de la consola de cliente](../../installation/using/installing-the-client-console.md).
 
 Siempre que haya disponible una nueva versión de la consola de cliente, se le pedirá que la descargue.
 
@@ -49,7 +49,7 @@ Siempre que haya disponible una nueva versión de la consola de cliente, se le p
 
 Para restablecer este mensaje, siga los pasos a continuación (solo los administradores del sistema que se sientan cómodos con la edición del Registro deben realizar estos cambios):
 
-1. Abra el Editor del Registro con el comando **regedit** del **[!UICONTROL Start > Run]** menú.
+1. Abra el Editor del Registro mediante el comando **regedit** del menú **[!UICONTROL Start > Run]**.
 1. Busque el nodo y expórtelo.
 
    ```
