@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
 workflow-type: tm+mt
 source-wordcount: '2476'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -176,7 +176,7 @@ Adobe Campaign permite configurar los procesos de aprobación para las etapas pr
 
 Para las entregas de correo directo, los operadores de Adobe Campaign pueden ver el archivo de extracción antes de enviarlo al enrutador y, si es necesario, pueden cambiar el formato y volver a iniciar la extracción. Consulte [Aprobación de un archivo de extracción](#approving-an-extraction-file).
 
-Para cada campaña, puede aprobar el objetivo de entrega, los contenidos (consulte [Aprobar contenido](#approving-content)) y los costes. Los operadores de Adobe Campaign responsables de la aprobación pueden ser notificados por correo electrónico y aceptar o rechazar la aprobación a través de la consola o de una conexión web. Consulte [Aprobación de procesos](#approving-processes).
+Para cada campaña, puede aprobar el objetivo de entrega, los contenidos (consulte [Aprobar contenido](#approving-content)) y los costes. Los operadores de Adobe Campaign a cargo de la aprobación pueden ser notificados por correo electrónico y pueden aceptar o rechazar la aprobación desde la consola o a través de una conexión Web. Consulte [Aprobación de procesos](#approving-processes).
 
 Cuando se hayan completado estas fases de validación, se puede iniciar la entrega. Consulte [Inicio de una entrega](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery).
 
@@ -193,8 +193,9 @@ En este punto, el estado de la campaña es **[!UICONTROL To validate]**.
 >[!NOTE]
 >
 >* Para seleccionar los procesos sujetos a aprobación, modifique la plantilla de campaña. Para obtener más información, consulte [Plantillas de campaña](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
->
->* También consulte la sección en [Proceso de aprobación](#approval-process).
+   >
+   >
+* También consulte la sección en [Proceso de aprobación](#approval-process).
 
 
 
@@ -265,6 +266,7 @@ Para seleccionar una lista de operadores, haga clic en el vínculo **[!UICONTROL
 >* Si se define una lista de revisores, el trabajo se aprueba en cuanto un revisor lo acepte. El vínculo de aprobación correspondiente, en ese caso, ya no se ofrece en el panel. Cuando se activa la entrega de notificaciones, si otro revisor hace clic en el vínculo de aprobación incluido en el mensaje de notificación, se le notifica que otro operador ya ha aprobado el trabajo.
 >* Puede definir una programación de aprobación para la campaña en la sección inferior de la ventana de edición del revisor. De forma predeterminada, los revisores tienen tres días a partir de la fecha de entrega para aprobar un proceso. Es posible configurar un recordatorio que se envíe automáticamente a los operadores antes de la fecha límite de aprobación.
 >* Puede agregar recordatorios en esta sección.
+
 >
 
 
