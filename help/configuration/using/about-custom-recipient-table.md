@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 2%
@@ -47,16 +47,16 @@ El uso de una tabla de destinatario externa tiene las siguientes limitaciones:
 
    Recomendamos:
 
-   * Dedicar los **[!UICONTROL nms:BroadLogRcp]** esquemas y **[!UICONTROL nms:TrackingLogRcp]** los listos para usar **[!UICONTROL nms:Recipientschema]**. Estas dos tablas de registro no deben estar vinculadas a ninguna tabla de destinatario personalizada adicional.
+   * Dedicar los esquemas **[!UICONTROL nms:BroadLogRcp]** y **[!UICONTROL nms:TrackingLogRcp]** a los predeterminados **[!UICONTROL nms:Recipientschema]**. Estas dos tablas de registro no deben estar vinculadas a ninguna tabla de destinatario personalizada adicional.
    * Definición de esquemas personalizados y de registro de seguimiento para cada nuevo esquema de destinatario personalizado. Esto se puede hacer automáticamente al configurar la asignación de destino, consulte [Asignación de destino](../../configuration/using/target-mapping.md).
 
-* No puede usar el estándar **[!UICONTROL Services and Subscriptions]** ofrecido en el producto.
+* No puede utilizar el **[!UICONTROL Services and Subscriptions]** estándar ofrecido en el producto.
 
-   Esto significa que no es aplicable la operación general que se detalla en [esta sección](../../delivery/using/managing-subscriptions.md) .
+   Esto significa que la operación general detallada en [esta sección](../../delivery/using/managing-subscriptions.md) no es aplicable.
 
-* El vínculo con la **[!UICONTROL visitor]** tabla no funciona.
+* El vínculo con la tabla **[!UICONTROL visitor]** no funciona.
 
-   Por lo tanto, para utilizar el **[!UICONTROL Social Marketing]** módulo debe configurar el paso de almacenamiento para que haga referencia a la tabla correcta.
+   Por lo tanto, para utilizar el módulo **[!UICONTROL Social Marketing]** debe configurar el paso de almacenamiento para que haga referencia a la tabla correcta.
 
    Del mismo modo, al utilizar funciones de referencia, se debe adaptar la plantilla de transferencia de mensajes inicial estándar.
 
@@ -72,9 +72,9 @@ También se recomienda comprobar los valores predeterminados que se utilizan en 
 
 Por ejemplo:
 
-* Es preciso redesarrollar algunos informes estándar, en particular los que ofrecen la **interacción** y las aplicaciones **** móviles. Consulte la sección [Administración de informes](../../configuration/using/managing-reports.md) .
-* Las configuraciones predeterminadas para determinadas actividades de flujo de trabajo hacen referencia a la tabla de destinatarios estándar (**[!UICONTROL nms:recipient]**): estas configuraciones deben cambiarse cuando se utilizan en una tabla de destinatarios externos. Consulte la sección [Administración de flujos de trabajo](../../configuration/using/managing-workflows.md) .
-* Se debe adaptar el bloque de personalización estándar **[!UICONTROL Unsubscription link]** .
+* Es necesario volver a desarrollar ciertos informes estándar, en particular los que ofrecen **Interacción** y las **Aplicaciones móviles**. Consulte la sección [Administración de informes](../../configuration/using/managing-reports.md).
+* Las configuraciones predeterminadas para determinadas actividades de flujo de trabajo hacen referencia a la tabla de destinatarios estándar (**[!UICONTROL nms:recipient]**): estas configuraciones deben cambiarse cuando se utilizan en una tabla de destinatarios externos. Consulte la sección [Administración de flujos de trabajo](../../configuration/using/managing-workflows.md).
+* Se debe adaptar el bloque de personalización estándar **[!UICONTROL Unsubscription link]**.
 * Debe modificarse la asignación de destino de las Plantillas de envíos estándar.
-* Los formularios V4 no son compatibles con una tabla de destinatarios externos: debe usar Aplicaciones web.
+* Los formularios V4 no son compatibles con una tabla de destinatarios externos: debe utilizar aplicaciones Web.
 
