@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
 workflow-type: tm+mt
 source-wordcount: '3253'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -109,7 +109,7 @@ Los valores de umbral pueden ser constantes o calculados mediante una fórmula c
 
 **Ejemplo:**
 
-Puede indexar el número de mensajes autorizados según el segmento al que pertenezca el destinatario. Esto significa que un destinatario que pertenece al segmento Web puede recibir más mensajes que otros destinatarios. Una fórmula de tipo **[!UICONTROL Iif (@origin='Web', 5, 3)]** autoriza la entrega de 5 mensajes a los destinatarios y 3 para otros segmentos. La configuración resultante es la siguiente:
+Puede indexar el número de mensajes autorizados según el segmento al que pertenezca el destinatario. Esto significa que un destinatario que pertenece al segmento web puede recibir más mensajes que otros destinatarios. Una fórmula de tipo **[!UICONTROL Iif (@origin='Web', 5, 3)]** autoriza la entrega de 5 mensajes a los destinatarios y 3 para otros segmentos. La configuración resultante es la siguiente:
 
 ![](assets/campaign_opt_pressure_sample.png)
 
@@ -157,13 +157,13 @@ Por ejemplo, una regla de presión que define un umbral de 2 mensajes por semana
 >* Introducir **15d** en el campo **[!UICONTROL Concerned period]**: se tiene en cuenta en el cálculo las entregas realizadas hasta dos semanas antes de la fecha de entrega a la que se aplica la norma.
 >
 >  
->o
+o
 >
 >* Escriba **7d** en el campo **[!UICONTROL Period considered]** Y marque **[!UICONTROL Take the deliveries into account in the provisional calendar]**\
->: En el cálculo se tienen en cuenta las entregas realizadas hasta 7 días antes de la fecha de entrega y programados hasta 7 días después de la fecha de entrega en los que se aplica la regla.
+   >: En el cálculo se tienen en cuenta las entregas realizadas hasta 7 días antes de la fecha de entrega y programados hasta 7 días después de la fecha de entrega en los que se aplica la regla.
 >
 >
->La fecha de inicio depende de cómo se haya configurado la base de datos.
+La fecha de inicio depende de cómo se haya configurado la base de datos.
 
 Por ejemplo, si aplica una regla de presión de 15 días sin agrupar a una entrega con fecha del 11/12, las entregas se tendrán en cuenta entre el 27/11 y el 12/12. Si la regla de presión tiene en cuenta las entregas del calendario provisional, se tienen en cuenta todas las entregas programadas entre el 27/11 y el 27/12. Por último, si configura un grupo por mes del calendario en la regla, el umbral de cálculo tiene en cuenta todas las entregas de noviembre y diciembre (del 1/11 al 31/12).
 
