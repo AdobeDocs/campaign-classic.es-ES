@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 0%
@@ -41,14 +41,14 @@ Adobe Campaign se basa en una arquitectura orientada a servicios (SOA) y compren
 
 >[!CAUTION]
 >
->Si no se indica explícitamente lo contrario, la instalación, las actualizaciones y el mantenimiento de todos los componentes de una plataforma de Adobe Campaign son responsabilidad del administrador o administradores del equipo que los aloja. Esto incluye implementar los requisitos previos para las aplicaciones de Adobe Campaign, así como cumplir con la matriz [de](../../rn/using/compatibility-matrix.md) compatibilidad de Campaña entre los componentes.
+>Si no se indica explícitamente lo contrario, la instalación, las actualizaciones y el mantenimiento de todos los componentes de una plataforma de Adobe Campaign son responsabilidad del administrador o administradores del equipo que los aloja. Esto incluye implementar los requisitos previos para las aplicaciones de Adobe Campaign, así como cumplir con la Campaña [Tabla de compatibilidad](../../rn/using/compatibility-matrix.md) entre componentes.
 
 ## Capa de presentación {#presentation-layer}
 
 Se puede acceder a la aplicación de diferentes maneras, según las necesidades de los usuarios: Cliente enriquecido, cliente ligero o integración de API.
 
 * **Cliente** enriquecido: La interfaz de usuario principal de la aplicación es un cliente rico, es decir, una aplicación nativa (Windows) que se comunica con el servidor de aplicaciones de Adobe Campaign únicamente con protocolos de Internet estándar (SOAP, HTTP, etc.). Esta consola proporciona una buena facilidad de uso para la productividad, utiliza muy poco ancho de banda (mediante el uso de una caché local) y está diseñada para una implementación sencilla. Esta consola se puede implementar desde un navegador de Internet, se puede actualizar automáticamente y no requiere ninguna configuración de red específica porque sólo genera tráfico HTTP(S).
-* **Cliente** delgado: Se puede acceder a ciertas partes de la aplicación a través de un navegador Web sencillo utilizando una interfaz de usuario HTML, incluyendo el módulo sistema de informes, las etapas de aprobación de envíos, las funcionalidades del módulo Distributed Marketing (Marketing distribuido) (central/local), la supervisión de instancias, etc. Este modo permite incluir funcionalidades de Adobe Campaign en una intranet o extranet.
+* **Cliente** delgado: Se puede acceder a ciertas partes de la aplicación a través de un navegador web sencillo utilizando una interfaz de usuario HTML, incluyendo el módulo sistema de informes, las etapas de aprobación de envíos, las funcionalidades del módulo Distributed Marketing (Marketing distribuido) (central/local), la supervisión de instancias, etc. Este modo permite incluir funcionalidades de Adobe Campaign en una intranet o extranet.
 * **Integración mediante las API**: En algunos casos, se puede llamar al sistema desde una aplicación externa mediante las API de servicios Web expuestas mediante el protocolo SOAP.
 
 ## Capa de aplicación lógica {#logical-application-layer}
@@ -59,7 +59,7 @@ Adobe Campaign se basa en un conjunto de procesos del lado del servidor que func
 
 Los principales procesos son:
 
-**Servidor** de aplicaciones (nlserver web)
+**Servidor**  de aplicaciones (nlserver web)
 
 Este proceso expone toda la gama de funcionalidades de Adobe Campaign mediante las API de servicios Web (SOAP - HTTP + XML). Además, puede generar dinámicamente las páginas Web utilizadas para el acceso basado en HTML (informes, Formularios web, etc.). Para lograrlo, este proceso incluye un servidor JSP Apache Tomcat. Este es el proceso al que se conecta la consola.
 
@@ -79,7 +79,7 @@ Adobe Campaign tiene funcionalidad nativa de retransmisión por correo electrón
 
 Este proceso puede manejar la personalización y el envío automático a un router de terceros para SMS, fax y correo directo.
 
-**Servidor** de redirección (nlserver webmdl)
+**Servidor**  de redirección (nlserver webmdl)
 
 En el caso del correo electrónico, Adobe Campaign administra automáticamente el seguimiento de clics y de aperturas (el seguimiento de transacciones a nivel del sitio Web es otra posibilidad). Para conseguirlo, las direcciones URL incorporadas en los mensajes de correo electrónico se reescriben para que apunten a este módulo, que registra el paso del usuario de Internet antes de redirigirlo a la dirección URL requerida.
 
@@ -87,17 +87,17 @@ Para garantizar la mayor disponibilidad, este proceso es totalmente independient
 
 También hay otros procesos técnicos disponibles:
 
-**Administración de correos electrónicos** de devolución (nlserver inMail)
+**Administración de correos electrónicos**  de devolución (nlserver inMail)
 
 Este proceso le permite recoger automáticamente el correo electrónico de los buzones configurados para recibir mensajes devueltos en caso de envío fallido. A continuación, estos mensajes se someten a un procesamiento basado en reglas para determinar los motivos de no envío (destinatario desconocido, cuota excedida, etc.) y para actualizar el estado del envío en la base de datos.
 
 Todas estas operaciones son totalmente automáticas y están preconfiguradas.
 
-**Estado** de envío SMS (sms nlserver)
+**Estado**  del envío SMS(nlserver sms)
 
 Este proceso sondea el router SMS para recopilar el estado de progreso y actualizar la base de datos.
 
-**Escritura de mensajes** de registro (nlserver syslogd)
+**Escribiendo mensajes**  de registro (nlserver syslogd)
 
 Este proceso técnico captura los mensajes de registro y los seguimientos generados por los demás procesos y los escribe en el disco duro. Esto permite disponer de amplia información para el diagnóstico en caso de problemas.
 
@@ -105,15 +105,15 @@ Este proceso técnico captura los mensajes de registro y los seguimientos genera
 
 Este proceso guarda en disco los registros de seguimiento generados por el proceso de redirección.
 
-**Escritura de eventos** entrantes (nlserver interactiond)
+**Escritura de eventos**  entrantes (nlserver interactiond)
 
 Este proceso garantiza la grabación en el disco de eventos entrantes, dentro del marco de la interacción.
 
-**Módulos** de supervisión (nlserver watchdog)
+**Supervisar módulos**  (nlserver watchdog)
 
 Este proceso técnico actúa como un proceso primario que engendra a los demás. También los supervisa y los reinicia automáticamente en caso de incidentes, manteniendo así el máximo tiempo de actividad del sistema.
 
-**Servidor** de estadísticas (nlserver stat)
+**Servidor**  de estadísticas (nlserver stat)
 
 Este proceso mantiene estadísticas sobre el número de conexiones, los mensajes enviados para cada servidor de correo al que se envían los mensajes, así como sus limitaciones (el mayor número de conexiones simultáneas, mensajes por hora/ y/o conexión). También permite federar varias instancias o equipos si comparten las mismas direcciones IP públicas.
 
