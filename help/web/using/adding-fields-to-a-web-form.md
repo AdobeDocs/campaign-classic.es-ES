@@ -392,9 +392,9 @@ Cuando el usuario valida una de las páginas del formulario, puede establecer un
 
 Este campo no es visible para el usuario, pero puede utilizarse para enriquecer los datos en el perfil de usuario.
 
-To do this, place a **constant** in the page and specify the value and the storage location.
+Para ello, coloque una **constante** en la página y especifique el valor y la ubicación del almacenamiento.
 
-In the following example, the **origin** field of the recipient profile is filled in automatically whenever a user approves this page. La constante no se muestra en la página.
+En el ejemplo siguiente, el campo **origen** del perfil de destinatario se rellena automáticamente cada vez que un usuario aprueba esta página. La constante no se muestra en la página.
 
 ![](assets/s_ncs_admin_survey_constante.png)
 
