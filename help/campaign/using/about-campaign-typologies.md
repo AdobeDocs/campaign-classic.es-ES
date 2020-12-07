@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -78,7 +78,7 @@ En este vídeo se explica cómo implementar la administración de fatiga en Adob
 
 >[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12)
 
-Encontrará más vídeos explicativos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
 
 **Temas relacionados**
 
