@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -52,5 +52,5 @@ En este vídeo se explica cómo configurar un envío recurrente y una actividad 
 
 >[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
-Encontrará más vídeos explicativos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
 
