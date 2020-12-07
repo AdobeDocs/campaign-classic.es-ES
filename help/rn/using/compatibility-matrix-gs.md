@@ -1,23 +1,23 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Tabla de compatibilidad estándar Gold
-description: Tabla de compatibilidad de Campaign Classic para la versión Gold Standard
+title: Matriz de compatibilidad de Gold Standard
+description: Matriz de compatibilidades de Campaign Classic para la versión Gold Standard
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aabab5367ea4a26837fa3dc94a36fbbfa48d59e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '509'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
-# Gold Standard Compatibility matrix{#compatibility-matrix-gs}
+# Matriz de compatibilidad de Gold Standard{#compatibility-matrix-gs}
 
-Este documento lista todos los sistemas y componentes compatibles con las compilaciones de **Adobe Campaign Classic Gold Standard** 19.1. Los productos y las versiones que no forman parte de esta lista no son compatibles con Adobe Campaign.
+Este documento enumera todos los sistemas y componentes compatibles con las versiones 19.1 de **Adobe Campaign Classic Gold Standard**. Los productos y las versiones que no forman parte de esta lista no son compatibles con Adobe Campaign.
 
 ## Notas importantes{#important-notes-gs}
 
@@ -77,7 +77,7 @@ Adobe Campaign Classic es compatible con todos los sistemas y herramientas enume
 <td>Apache</td>
 <td>
 <p>2.4 para RHEL7: CentOS 7, Debian 8/9, Windows (64 bits)</p>
-<p>2.2 solo para RHEL6 - CentOS 6 (64 bits)</p>
+<p>2.2 solo para RHEL6: CentOS 6 (64 bits)</p>
 </td>
 </tr>
 </tbody>
@@ -122,7 +122,7 @@ Adobe Campaign Classic es compatible con todos los sistemas y herramientas enume
 <td>
 <p>18c</p>
 <p>12c</p>
-<p>11g     R2</p>
+<p>11g       R2</p>
 </td>
 </tr>
 <tr>
@@ -151,7 +151,7 @@ Adobe Campaign Classic es compatible con todos los sistemas y herramientas enume
 <tr>
 <td>DB2 UDB</td>
 <td>
-<p>9.7</p>
+<p>9,7</p>
 <p>Advertencia: No se permite DB2 UDB para nuevas instalaciones.</p>
 </td>
 </tr>
@@ -225,22 +225,22 @@ Adobe Campaign Classic es compatible con todos los sistemas y herramientas enume
 </tr>
 <tr><td>MySQL</td>
 <td>
-<p>5.7</p>
+<p>5,7</p>
 </td>
 </tr>
 <tr>
 <td>Teradata</td>
 <td>
-<p>16.20</p>
+<p>16,20</p>
 <p>16</p>
-<p>15.10</p>
-<p>15.0</p>
+<p>15,10</p>
+<p>15,0</p>
 </td>
 </tr>
 <tr>
 <td>Netezza</td>
 <td>
-<p>7.2</p>
+<p>7,2</p>
 </td>
 </tr>
 <tr>
@@ -310,7 +310,7 @@ Adobe Campaign Classic es compatible con todos los sistemas y herramientas enume
 
 ## Navegadores{#Browsers-gs}
 
-Para los siguientes exploradores, se admite la versión más reciente: Microsoft Edge, Mozilla Firefox, Google Chrome, Safari.
+En el caso de los siguientes exploradores, se admite la versión más reciente: Microsoft Edge, Mozilla Firefox, Google Chrome y Safari.
 
 Internet Explorer 11 es compatible.
 
