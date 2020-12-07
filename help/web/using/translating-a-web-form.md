@@ -105,7 +105,7 @@ Es posible exportar e importar cadenas de caracteres para traducirlas con una he
 
 ### Exportación de archivos {#exporting-files}
 
-1. Select the Web application(s) whose strings you want to export, right-click, then select **[!UICONTROL Actions > Export strings for translation...]**
+1. Seleccione las Aplicaciones web cuyas cadenas desee exportar, haga clic con el botón derecho y seleccione **[!UICONTROL Actions > Export strings for translation...]**
 
    ![](assets/s_ncs_admin_survey_trad_export.png)
 
