@@ -5,9 +5,9 @@ title: Creación de contenido personalizado
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1266'
 ht-degree: 100%
 
@@ -154,7 +154,7 @@ Para que sean accesibles desde el exterior, las imágenes utilizadas en los mens
 
 * Si las imágenes no se muestran, compruebe que estén disponibles en el servidor. Para ello, haga clic en la pestaña Origen del envío. Busque las imágenes, y copie y pegue la dirección URL de cada imagen en un navegador web. Si no se muestran las imágenes, póngase en contacto con el administrador de TI o con el proveedor de terceros que proporcione el contenido de envío.
 
-## Previsualice el mensaje   {#preview-msg}
+## Previsualice el mensaje    {#preview-msg}
 
 Adobe recomienda previsualizar el mensaje para comprobar su personalización y cómo verán su envío sus destinatarios.
 
