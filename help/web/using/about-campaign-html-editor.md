@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # Introducción al editor HTML de Campaña{#about-campaign-html-editor}
 
-The **Digital Content Editor (DCE)** is an HTML content editor that lets you easily create content and templates in HTML format within Adobe Campaign.
+El **Editor de contenido digital (DCE)** es un editor de contenido HTML que le permite crear fácilmente contenido y plantillas en formato HTML dentro de Adobe Campaign.
 
 Con el Editor de contenido digital, puede insertar y dar formato a elementos de página y asignar campos de base de datos con elementos de una página HTML. Este editor está disponible al crear una página para una aplicación web o al crear envíos basados en una plantilla DCE.
 
@@ -35,22 +35,22 @@ La operación general funciona de la siguiente manera:
 
 ![](assets/dce_schema.png)
 
-Para crear una aplicación **** web sencilla, debe:
+Para crear una **aplicación Web simple**, debe:
 
 1. Crear una aplicación web: [Más información](../../web/using/creating-a-landing-page.md)
-1. Select existing content or creating content from a standard template - [Learn more](../../web/using/template-management.md)
+1. Seleccionar contenido existente o crear contenido a partir de una plantilla estándar: [Más información](../../web/using/template-management.md)
 1. Editar y configurar contenido: [Más información](../../web/using/editing-content.md)
 1. Publicar la Aplicación web: [Más información](../../web/using/creating-a-landing-page.md#step-3---publishing-content)
 
 >[!NOTE]
-En [esta sección](../../web/using/creating-a-landing-page.md)encontrará un ejemplo completo de implementación en el contexto de una aplicación Web.
+En [esta sección](../../web/using/creating-a-landing-page.md) encontrará una muestra completa de la implementación en el contexto de una aplicación Web.
 
-Para crear un envío **de** correo electrónico, debe:
+Para crear un **envío de correo electrónico**, debe:
 
 1. Crear un envío a partir de una plantilla de DCE: [Más información](../../web/using/use-case--creating-an-email-delivery.md)
-1. Select an existing content or create content from a [standard template](../../web/using/template-management.md)
+1. Seleccione un contenido existente o cree contenido a partir de una [plantilla estándar](../../web/using/template-management.md)
 1. Editar y configurar contenido en línea
 1. Enviar el envío - [Más información](../../delivery/using/steps-about-delivery-creation-steps.md)
 
 >[!NOTE]
-En [este caso](../../web/using/use-case--creating-an-email-delivery.md)de uso hay disponible un ejemplo completo de implementación en el contexto de un envío de correo electrónico.
+En [este caso de uso](../../web/using/use-case--creating-an-email-delivery.md) encontrará una muestra completa de implementación en el contexto de un envío de correo electrónico.
