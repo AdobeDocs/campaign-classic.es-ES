@@ -124,4 +124,4 @@ Obtenga información sobre cómo agregar un campo de personalización a la líne
 
 >[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
 
-Encontrará más vídeos explicativos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
