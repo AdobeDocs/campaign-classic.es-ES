@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
 source-wordcount: '1263'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 96%
 
 Las campañas incluyen acciones (envíos) y procesos (importación o extracción de archivos), así como recursos (documentos de marketing, descripciones de envíos). Todos ellos se utilizan en las campañas de marketing. Las campañas son parte de un programa y los programas se incluyen en un plan de campaña.
 
-![](assets/do-not-localize/how-to-video.png) Descubra cómo crear un plan de marketing, programas y campañas [en vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) Descubra cómo crear un plan de marketing, programas y campañas  [en vídeo](#video)
 
 Para crear una campaña de marketing:
 
@@ -239,4 +239,4 @@ Este vídeo muestra cómo crear un plan de marketing, programas y campañas.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35132?quality=12)
 
-Encontrará más vídeos explicativos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
