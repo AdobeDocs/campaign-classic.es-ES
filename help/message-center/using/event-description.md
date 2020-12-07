@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Descripción del evento del centro de mensajes
-description: Más información sobre el evento de mensajería transaccional
+title: Descripción de los eventos del centro de mensajes
+description: Obtén más información sobre los eventos de mensajería transaccional
 audience: message-center
 content-type: reference
 topic-tags: introduction
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '746'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
