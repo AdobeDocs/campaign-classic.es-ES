@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
 workflow-type: tm+mt
 source-wordcount: '2179'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 97%
       + [Privacidad y consentimiento](platform/using/privacy-and-recommendations.md)
       + [Administración de la privacidad](platform/using/privacy-management.md)
       + [Solicitudes de privacidad](platform/using/privacy-requests.md)
-      + [Preguntas más frecuentes sobre privacidad](platform/using/privacy-faq.md)
+      + [Preguntas más frecuentes sobre Privacidad](platform/using/privacy-faq.md)
    + Administración de perfiles {#profile-management}
       + [Acerca de los perfiles](platform/using/about-profiles.md)
       + [Edición de perfiles](platform/using/editing-a-profile.md)
@@ -626,17 +626,17 @@ ht-degree: 97%
       + [Interacción: búfer de datos](installation/using/interaction---data-buffer.md)
       + [Configuración de cuentas externas](installation/using/external-accounts.md)
    + Acceso a una base de datos externa {#accessing-external-database}
-      + [Comenzar con FDA](installation/using/about-fda.md)
+      + [Introducción al FDA](installation/using/about-fda.md)
       + Directrices de configuración {#config-databases}
          + [Pasos de configuración](installation/using/configure-fda.md)
-         + [Configurar Snowflake](installation/using/configure-fda-snowflake.md)
-         + [Configurar Azure synapse](installation/using/configure-fda-synapse.md)
-         + [Configurar Hadoop](installation/using/configure-fda-hadoop.md)
-         + [Configurar Oracle](installation/using/configure-fda-oracle.md)
-         + [Configurar Netezza](installation/using/configure-fda-netezza.md)
-         + [Configurar Sybase IQ](installation/using/configure-fda-sybase.md)
-         + [Configurar Teradata](installation/using/configure-fda-teradata.md)
-         + [Configurar SAP HANA](installation/using/configure-fda-sap-hana.md)
+         + [Configuración de Snowflake](installation/using/configure-fda-snowflake.md)
+         + [Configuración de Azure Synapse](installation/using/configure-fda-synapse.md)
+         + [Configuración de Hadoop](installation/using/configure-fda-hadoop.md)
+         + [Configuración de Oracle](installation/using/configure-fda-oracle.md)
+         + [Configuración de Netezza](installation/using/configure-fda-netezza.md)
+         + [Configuración de Sybase IQ](installation/using/configure-fda-sybase.md)
+         + [Configuración de Teradata](installation/using/configure-fda-teradata.md)
+         + [Configuración de SAP HANA](installation/using/configure-fda-sap-hana.md)
       + [Derechos de acceso remoto](installation/using/remote-database-access-rights.md)
       + [Conexión a la base de datos](installation/using/connecting-to-database.md)
       + [Creación del esquema de datos](installation/using/creating-data-schema.md)
@@ -648,7 +648,7 @@ ht-degree: 97%
       + [Creación de nuevas instancias](installation/using/creating-new-instances.md)
       + [Lista de opciones de Campaign ](installation/using/configuring-campaign-options.md)
       + [Desinstalación de Campaign](installation/using/uninstalling-campaign.md)
-+ Guía de supervisión {#monitoring-campaign-classic}
++ Guía de monitorización {#monitoring-campaign-classic}
    + Introducción {#introduction}
       + [Prefacio](production/using/foreword.md)
       + [Arquitectura general](production/using/general-architecture.md)
