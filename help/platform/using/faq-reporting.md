@@ -6,9 +6,9 @@ description: Preguntas frecuentes sobre Campaign Classic
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Adobe Campaign no es una herramienta de informes especializada: los informes cre
 
 ## ¿Cómo se puede diseñar y compartir informes estadísticos sobre la población? {#how-can-i-design-and-share-statistic-reports-on-populations-}
 
-Los [informes de análisis descriptivos](../../reporting/using/about-descriptive-analysis.md) de Adobe Campaign le permiten diseñar y compartir informes estadísticos sobre la población, [explorar una audiencia de boletines informativos](../../reporting/using/use-cases.md#analyzing-a-population) o [crear un informe sobre la población de una transición de flujo de trabajo](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow). También puede, por ejemplo, [analizar la tasa de reacción de los destinatarios del boletín informativo](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs).
+Los [informes de análisis descriptivos](../../reporting/using/about-descriptive-analysis.md) de Adobe Campaign le permiten diseñar y compartir informes estadísticos sobre la población, [explorar una audiencia de newsletters](../../reporting/using/use-cases.md#analyzing-a-population) o [crear un informe sobre la población de una transición de flujo de trabajo](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow). También puede, por ejemplo, [analizar la tasa de reacción de los destinatarios del newsletter](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs).
 
 [Haga clic aquí para obtener más información](../../reporting/using/about-descriptive-analysis.md).
 
