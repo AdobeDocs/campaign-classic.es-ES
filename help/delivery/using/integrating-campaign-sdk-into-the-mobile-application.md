@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Integrar SDK de Campaña
-description: Descubra cómo integrar el SDK de Campaña en su aplicación móvil
+title: Integración del SDK de Campaign
+description: Descubra cómo integrar el SDK de Campaign en su aplicación móvil
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '948'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Integración del SDK de Campaña con la aplicación {#integrating-campaign-sdk-into-the-mobile-application}
+# Integración del SDK de Campaign con la aplicación {#integrating-campaign-sdk-into-the-mobile-application}
 
 Los SDK de Campaign para iOS y Android son uno de los componentes del módulo Mobile App Channel.
 
