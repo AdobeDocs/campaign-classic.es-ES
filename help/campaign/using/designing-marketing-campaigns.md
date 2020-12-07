@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -70,4 +70,4 @@ Este vídeo presenta los conceptos clave de las campañas de marketing.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
-Encontrará más vídeos explicativos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
