@@ -15,7 +15,7 @@ ht-degree: 97%
 ---
 
 
-# Get started with surveys{#about-surveys}
+# Empiece con encuestas{#about-surveys}
 
 Adobe Campaign incluye un módulo gráfico para definir y publicar aplicaciones web. Se utiliza para crear páginas, como un formulario de edición en una extranet, o formularios de notificación, incluidos datos de la base de datos con tablas, gráficos, formularios de entrada, etc. Esta funcionalidad permite diseñar y enviar páginas web donde los usuarios pueden buscar o introducir información.
 
@@ -31,7 +31,7 @@ La gestión de la aplicación web se explica en [esta sección](../../web/using/
 >
 >Por razones de privacidad, recomendamos utilizar HTTPS para todos los recursos externos.
 
-## Ámbito de la función {#campaign-surveys-scope}
+## Alcance de la función {#campaign-surveys-scope}
 
 En Adobe Campaign, las aplicaciones web en general permiten acceder a las siguientes funcionalidades:
 
