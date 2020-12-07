@@ -6,9 +6,9 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '733'
 ht-degree: 100%
 
@@ -47,6 +47,7 @@ Haga clic en el enlace **[!UICONTROL Edit configuration...]** para definir el mo
    >[!NOTE]
    >
    >Si utiliza datos externos como entrada, por ejemplo, de un archivo externo, asegúrese de seleccionar la opción **[!UICONTROL Temporary schema]**.
+
    >
    >En el siguiente paso, la opción **[!UICONTROL Other]** permite seleccionar los criterios que se van a utilizar:
 
