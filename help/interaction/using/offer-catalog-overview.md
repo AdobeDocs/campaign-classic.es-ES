@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: Descripción del catálogo de ofertas
-description: Más información sobre el catálogo de ofertas en la Campaña
+description: Más información sobre el catálogo de ofertas en Campaign
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '131'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
