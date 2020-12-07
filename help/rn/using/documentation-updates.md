@@ -6,11 +6,11 @@ description: Esta página enumera todas las nuevas funciones y actualizaciones d
 audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d595f41dd2b0cbf042ab768ae5897cc5ac240bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3631'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,23 +23,23 @@ También puede consultar las [Notas de la versión de Adobe Campaign Classic](..
 
 ## Noviembre de 2020 {#nov-2020}
 
-Se ha mejorado y reorganizado la descripción general del modelo de datos de campaña. [Más información](../../configuration/using/about-data-model.md).
+Se ha mejorado y reorganizado la descripción general del modelo de datos de Campaign. [Más información](../../configuration/using/about-data-model.md).
 
-La configuración de cuenta externa se ha trasladado a [esta sección](../../installation/using/external-accounts.md).
+La configuración de la cuenta externa se ha trasladado a [esta sección](../../installation/using/external-accounts.md).
 
-Se ha mejorado la documentación sobre el Acceso de datos federado de campaña (FDA) con detalles para cada configuración de base de datos externa y se ha trasladado a [esta sección](../../installation/using/about-fda.md).
+Se ha mejorado la documentación sobre el acceso de datos federado (FDA) de Campaign con detalles para cada configuración de base de datos externa y se ha trasladado a [esta sección](../../installation/using/about-fda.md).
 
 [La versión 20.2.3 de Campaign ](../../rn/using/release--20-2.md#release-20-2-3-build-9182)se ha trasladado a General Availability (GA).
 
-The Privacy section has been moved and enriched with two new pages: [Privacy management](../../platform/using/privacy-management.md) and [Managing privacy requests](../../platform/using/privacy-requests.md).
+La sección Privacidad se ha trasladado y enriquecido con dos páginas nuevas: [Administración de la privacidad](../../platform/using/privacy-management.md) y [Administración de solicitudes de privacidad](../../platform/using/privacy-requests.md).
 
 Se ha agregado una nota en la página de configuración del servidor intermediaria para especificar que el nombre interno de la cuenta externa no se debe actualizar una vez que se haya configurado el servidor. [Más información](../../installation/using/mid-sourcing-server.md)
 
 Se ha añadido información sobre la sintaxis que se debe utilizar al especificar una ruta a un servidor SFTP externo. [Más información](../../platform/using/sftp-server-usage.md#external-SFTP-server)
 
-La sección Datos personales y Personas se ha actualizado con un escenario de caso de uso para ilustrar cómo interactúan las distintas personas en lo que respecta a la privacidad. [Más información](../../platform/using/privacy-and-recommendations.md#use-case-scenario)
+Las secciones Datos personales y Personas se han actualizado con un escenario de caso de uso para ilustrar cómo interactúan las distintas personas en lo que respecta a la privacidad. [Más información](../../platform/using/privacy-and-recommendations.md#use-case-scenario)
 
-Se ha añadido una nueva sección que enumera las preguntas más frecuentes sobre privacidad. [Más información](../../platform/using/privacy-faq.md)
+Se ha añadido una nueva sección que enumera las preguntas más frecuentes sobre Privacidad. [Más información](../../platform/using/privacy-faq.md)
 
 ## Octubre de 2020 {#oct-2020}
 
