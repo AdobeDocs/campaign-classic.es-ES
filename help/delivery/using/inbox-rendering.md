@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Renderización de la bandeja de entrada  en Campaign
+title: Renderización de la bandeja de entrada   en Campaign
 description: Obtenga información sobre cómo capturar las renderizaciones de correo electrónico y ponerlas a disposición en un informe dedicado
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '813'
 ht-degree: 100%
 
@@ -84,6 +84,7 @@ Cada vez que se utiliza la función **[!UICONTROL Inbox rendering]** en una entr
 >
 >* Cada vez que se genera el informe de renderización de la Bandeja de entrada, se resta un token por cada cliente de mensajería: uno para la renderización de Outlook 2000, uno para la renderización de Outlook 2010, uno para la renderización de Apple Mail 9, etc.
 >* Para el mismo envío, si vuelve a generar la renderización de la bandeja de entrada, el número de tokens disponibles se reduce de nuevo según la cantidad de renderizaciones generadas.
+
 >
 
 
