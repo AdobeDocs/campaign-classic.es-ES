@@ -6,9 +6,9 @@ description: Preguntas frecuentes sobre Campaign Classic
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ Descubra cómo importar un HTML existente para crear y enviar correos electróni
 
 ## ¿Cómo puedo crear un boletín basado en suscripción en Campaign?{#how-can-i-create-a-subscription-based-newsletter-in-campaign-}
 
-[Crear un servicio de boletín informativo](../../delivery/using/managing-subscriptions.md): Pasos clave para crear un boletín informativo y gestionar suscripciones.
+[Crear un servicio de newsletter](../../delivery/using/managing-subscriptions.md): Pasos clave para crear un newsletter y gestionar suscripciones.
 
 ## ¿Cómo puedo personalizar los mensajes?{#how-can-i-personalize-messages-}
 
