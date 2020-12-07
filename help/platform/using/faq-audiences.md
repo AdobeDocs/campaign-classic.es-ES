@@ -6,9 +6,9 @@ description: Preguntas frecuentes sobre Campaign Classic
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
 ht-degree: 100%
 
@@ -48,10 +48,10 @@ Puede utilizar un flujo de trabajo para excluir el duplicado del destino de una 
 
 [Haga clic aquí para obtener más información](../../workflow/using/deduplication.md#example--identify-the-duplicates-before-a-delivery) con un ejemplo.
 
-## ¿Cómo se identifican y se segmentan los suscriptores a un boletín informativo? {#how-to-identify-and-target-subscribers-to-a-newsletter-}
+## ¿Cómo se identifican y se segmentan los suscriptores a un newsletter? {#how-to-identify-and-target-subscribers-to-a-newsletter-}
 
 Descubra la gestión de suscripciones en Campaign y aprenda a [enviar un mensaje a los suscriptores](../../delivery/using/managing-subscriptions.md).
 
-## ¿Cuál es la mejor opción para excluir perfiles de una población objetivo? {#what-is-the-best-practice-to-exclude-profiles-from-a-target-population-}
+## ¿Cuál es la práctica recomendada para excluir perfiles de una población objetivo? {#what-is-the-best-practice-to-exclude-profiles-from-a-target-population-}
 
 Consulte [esta página](../../workflow/using/read-list.md) para obtener más información sobre cómo excluir una lista de perfiles de la población objetivo.
