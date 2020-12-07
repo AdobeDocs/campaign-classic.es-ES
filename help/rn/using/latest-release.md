@@ -2,13 +2,13 @@
 solution: Campaign Classic
 product: campaign
 title: Última versión
-description: Última versión de Campaign Classic   Notas
+description: Última versión de Campaign Classic    Notas
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1820'
 ht-degree: 100%
 
