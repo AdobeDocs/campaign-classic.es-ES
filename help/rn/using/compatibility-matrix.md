@@ -6,11 +6,11 @@ description: Matriz de compatibilidades de Campaign Classic
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ff3d18b104a8dba7cd813aa698f9c27b4e25e244
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '537'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <p>19c</p>
 <p>18c</p>
 <p>12c</p>
-<p>11g      R2</p>
+<p>11g       R2</p>
 </td>
 </tr>
 <tr>
@@ -242,22 +242,22 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 </tr>
 <tr><td>MySQL</td>
 <td>
-<p>5.7</p>
+<p>5,7</p>
 </td>
 </tr>
 <tr>
 <td>Teradata</td>
 <td>
-<p>16.20</p>
+<p>16,20</p>
 <p>16</p>
-<p>15.10</p>
-<p>15.0</p>
+<p>15,10</p>
+<p>15,0</p>
 </td>
 </tr>
 <tr>
 <td>Netezza</td>
 <td>
-<p>7.2</p>
+<p>7,2</p>
 </td>
 </tr>
 <tr>
