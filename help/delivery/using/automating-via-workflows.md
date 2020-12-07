@@ -6,11 +6,11 @@ description: Automatización mediante flujos de trabajo
 audience: delivery
 content-type: reference
 topic-tags: content-management
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1188'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -270,7 +270,7 @@ Se añade un formulario semiautomático de entrada de control de edición de act
 </input>
 ```
 
-El área de edición permite introducir el nombre del archivo que se va a recuperar. La dirección URL se construye con este nombre, por ejemplo: https://myserver.adobe.com/incomin/data.xml
+El área de edición permite introducir el nombre del archivo que se va a recuperar. La dirección URL se construye a partir de este nombre, por ejemplo: https://myserver.adobe.com/incomin/data.xml
 
 El formato de los datos que se van a recuperar es el mismo que en el ejemplo 1 de automatización del flujo de trabajo. Se puede utilizar la hoja de estilo “cus:book-workflow.xsl” vista en ese ejemplo.
 
