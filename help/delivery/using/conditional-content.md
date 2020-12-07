@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -115,4 +115,4 @@ Aprenda a añadir contenido condicional a un envío con el ejemplo de una newsle
 
 >[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12)
 
-Encontrará más vídeos explicativos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
