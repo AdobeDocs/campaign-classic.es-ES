@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -160,4 +160,4 @@ Obtenga información sobre cómo crear bloques de contenido dinámico y cómo ut
 
 >[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
 
-Encontrará más vídeos explicativos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
