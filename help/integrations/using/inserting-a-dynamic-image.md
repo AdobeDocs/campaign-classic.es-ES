@@ -6,9 +6,9 @@ description: Inserción de una imagen dinámica
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '849'
 ht-degree: 100%
 
@@ -98,7 +98,7 @@ En Target, debe crear las dos audiencias en las que se clasifican las personas q
 
 1. Siga el mismo procedimiento para las audiencias restantes.
 
-## Creación de una actividad de segmentación de experiencias   {#creating-targeting-activity}
+## Creación de una actividad de segmentación de experiencias    {#creating-targeting-activity}
 
 En Target, es necesario crear una actividad de segmentación de experiencias, definir las diferentes experiencias y asociarlas a las ofertas correspondientes.
 
