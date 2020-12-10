@@ -6,9 +6,9 @@ description: Configuración y entrega de la entrega
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ A continuación, se puede cerrar el asistente de envíos y realizar un seguimien
 
 Después de enviar mensajes, puede monitorizar y realizar un seguimiento de las entregas. Para obtener más información, consulte estas secciones:
 
-* [Seguimiento de una entrega](../../delivery/using/monitoring-a-delivery.md)
+* [Seguimiento de una entrega](../../delivery/using/about-delivery-monitoring.md)
 * [Comprensión de los errores de entrega](../../delivery/using/understanding-delivery-failures.md)
 * [Acerca del seguimiento de mensajes](../../delivery/using/about-message-tracking.md)
 
@@ -139,7 +139,7 @@ Para equilibrar la carga, se pueden dividir los envíos en varios lotes. Configu
    >
    >Al configurar las últimas olas, se debe dejar un margen suficiente para realizar reintentos. Consulte [esta sección](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
 
-1. Para supervisar sus envíos, vaya a los “logs” de entrega. Consulte [esta página](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history).
+1. Para supervisar sus envíos, vaya a los “logs” de entrega. Consulte [esta página](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
 
    Se pueden ver los envíos que ya se han realizado en las olas procesadas (estado **[!UICONTROL Sent]**) y las que se envían en las olas restantes (estado **[!UICONTROL Pending]**).
 
@@ -200,4 +200,4 @@ Una vez iniciado la entrega, se pueden enviar los mensajes (y los reintentos) ha
 >
 >En el caso de instalaciones hospedadas o híbridas, si se ha actualizado a la MTA mejorada, la configuración **[!UICONTROL Delivery duration]** en sus envíos de la campaña se utilizará únicamente si se establece en **3,5** días o menos. Si define un valor superior a 3,5 días, no se tendrá en cuenta.
 >
->Todos los impactos se detallan en el documento [Mejorar el MTA de Adobe Campaign](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html).
+>Todos los impactos se detallan en el documento [Mejorar el MTA de Adobe Campaign](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
