@@ -6,9 +6,9 @@ description: Obtenga información sobre las herramientas y las directrices sobre
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 100%
 
@@ -38,10 +38,10 @@ También puede utilizar las siguientes herramientas:
    * **[!UICONTROL Soft bounces]** indican reputación. Este valor no debe ser superior al 10 % para un ISP determinado.
 
    Para obtener más información, consulte la sección [Estadísticas de envío](../../reporting/using/global-reports.md#delivery-statistics).
-* De manera más general, el [panel de envío](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard) le permite acceder a:
-   * el [resumen del envío](../../delivery/using/monitoring-a-delivery.md#delivery-summary), que muestra el detalle del envío y el [número de mensajes](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent) que se van a enviar, procesados y enviados con éxito;
-   * los [registros de envío y el historial](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history), que muestran qué destinatario se ha excluido y por qué;
-   * los [registros de seguimiento](../../delivery/using/monitoring-a-delivery.md#tracking-logs), que muestran información de seguimiento como aperturas y clics.
+* De manera más general, el [panel de envío](../../delivery/using/about-delivery-monitoring.md) le permite acceder a:
+   * el [resumen del envío](../../delivery/using/delivery-dashboard.md#delivery-summary), que muestra el detalle del envío y el número de mensajes que se van a enviar, procesados y enviados con éxito;
+   * los [registros de envío y el historial](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history), que muestran qué destinatario se ha excluido y por qué;
+   * los [registros de seguimiento](../../delivery/using/delivery-dashboard.md#tracking-logs), que muestran información de seguimiento como aperturas y clics.
 
 ## Directrices de monitorización {#monitoring-guidelines}
 
@@ -53,7 +53,7 @@ Estas son algunas directrices adicionales sobre la monitorización de la capacid
 * Compruebe el rendimiento de cada envío para asegurarse de que es coherente con la validez del contenido del envío (p. ej. las “ventas flash” deben entregarse en minutos, no en días).
 * Cuando utilice [olas](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves), compruebe que cada ola tenga tiempo suficiente para finalizar antes de que se active la siguiente.
 * Compruebe que las cantidades de errores y nuevas [cuarentenas](../../delivery/using/understanding-quarantine-management.md) sean coherentes con otros envíos.
-* Consulte cuidadosamente los [registros de envío](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) en detalle para comprobar el tipo de errores resaltados (lista de bloqueados, problemas de DNS, reglas de correo no deseado, etc.).
+* Consulte cuidadosamente los [registros de envío](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) en detalle para comprobar el tipo de errores resaltados (lista de bloqueados, problemas de DNS, reglas de correo no deseado, etc.).
 
 ## Signal Spam {#signal-spam}
 
