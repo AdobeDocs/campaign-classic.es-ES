@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 854d509315f1d8585cb041575908df896468cc77
+source-git-commit: 1818bd2aeb60689b2ce0e59cb0bd157f000de513
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2215'
 ht-degree: 98%
 
 ---
@@ -710,7 +710,24 @@ ht-degree: 98%
       + [Acerca de la referencia de esquema](configuration/using/about-schema-reference.md)
       + [Estructura del esquema](configuration/using/schema-structure.md)
       + [Asignación de base de datos](configuration/using/database-mapping.md)
-      + [Elementos y atributos](configuration/using/elements-and-attributes.md)
+      + Elementos y atributos {#elements-and-attributes}
+         + [Atributo](configuration/using/schema/attribute.md)
+         + [Cadena de caracteres](configuration/using/schema/compute-string.md)
+         + [Condición](configuration/using/schema/condition.md)
+         + [Índice de base de datos](configuration/using/schema/db-index.md)
+         + [Elemento](configuration/using/schema/element.md)
+         + [Lista desglosada](configuration/using/schema/enumeration.md)
+         + Ayuda de [](configuration/using/schema/help.md)
+         + [Unirse](configuration/using/schema/join.md)
+         + [Clave](configuration/using/schema/key.md)
+         + [Campo clave](configuration/using/schema/keyfield.md)
+         + [Método](configuration/using/schema/method.md)
+         + [Métodos](configuration/using/schema/methods.md)
+         + [Param](configuration/using/schema/param.md)
+         + [Parámetros](configuration/using/schema/parameters.md)
+         + [SrcSchema](configuration/using/schema/srcschema.md)
+         + [Sysfilter](configuration/using/schema/sysfilter.md)
+         + [Valor](configuration/using/schema/value.md)
    + Edición de esquemas {#editing-schemas}
       + [Acerca de la edición de esquema](configuration/using/about-schema-edition.md)
       + [Esquemas de datos](configuration/using/data-schemas.md)
