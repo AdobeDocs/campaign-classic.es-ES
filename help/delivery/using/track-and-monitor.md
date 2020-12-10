@@ -5,9 +5,9 @@ title: Mensajes de seguimiento y monitorización
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 Para controlar sus campañas, debe asegurarse de que el mensaje se haya enviado a sus destinatarios.
 
 Desde el panel de envíos de Campaign, puede comprobar los mensajes procesados y los registros de auditoría de envíos.
-También puede controlar el estado de los mensajes en los registros de envío. [Más información](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard).
+También puede controlar el estado de los mensajes en los registros de envío. [Más información](../../delivery/using/about-delivery-monitoring.md).
 
 ¿Qué sucede si no se entregan los envíos y su estado sigue siendo **Pendiente**?
 
@@ -65,6 +65,6 @@ Se pueden realizar acciones específicas al encontrar problemas con envíos:
 
 * [Problemas de visualización de imágenes](../../production/using/image-display-issues.md)
 
-* [Problemas de rendimiento de envíos](../../delivery/using/monitoring-a-delivery.md#performance_issues)
+* [Problemas de rendimiento de envíos](../../delivery/using/delivery-performances.md)
 
 * [Problemas con archivos temporales](../../production/using/temporary-files.md): *solo clientes in situ*
