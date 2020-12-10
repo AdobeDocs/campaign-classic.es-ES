@@ -6,9 +6,9 @@ description: Descubra los principales pasos de creación de envíos en Adobe Cam
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Los pasos clave al crear una entrega son los siguientes:
 
 1. **Realizar la entrega** [Más información](../../delivery/using/steps-sending-the-delivery.md)
 
-1. **Supervisar la entrega** (seguimiento, cuarentena, informes, etc.). Para obtener más información, consulte las secciones de [supervisión de envíos](../../delivery/using/monitoring-a-delivery.md) y [seguimiento de envíos](../../delivery/using/about-message-tracking.md).
+1. **Supervisar la entrega** (seguimiento, cuarentena, informes, etc.). Para obtener más información, consulte las secciones de [supervisión de envíos](../../delivery/using/about-delivery-monitoring.md) y [seguimiento de envíos](../../delivery/using/about-message-tracking.md).
 
 >[!NOTE]
 >
