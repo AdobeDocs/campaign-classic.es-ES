@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: introduction
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 9aa0ecd423bfbf1082e9ce5bdb36aaf1611dea54
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 10%
@@ -19,7 +19,7 @@ ht-degree: 10%
 
 ## Panel de monitorización de instancias {#instance-monitoring-dashboard}
 
-La **[!UICONTROL Monitoring]** ficha, a la que se puede acceder desde la página principal del Campaign Classic, es el principal punto de entrada para ayudarle a supervisar la instancia.
+La ficha **[!UICONTROL Monitoring]**, a la que se puede acceder desde la página principal del Campaign Classic, es el principal punto de entrada para ayudarle a supervisar la instancia.
 
 Proporciona un panel de lo que sucede en la instancia: su estado (versión de compilación, paquetes instalados, etc.), indicadores del sistema, registros, flujos de trabajo que se están ejecutando actualmente, estado de los últimos envíos enviados, etc.
 
@@ -27,7 +27,7 @@ Encontrará información detallada [aquí](../../production/using/monitoring-pro
 
 ![](assets/monitoring_tab.png)
 
-## Monitoring Campaign Classic processes {#monitoring-campaign-classic-processes}
+## Monitoreo de procesos de Campaign Classic {#monitoring-campaign-classic-processes}
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">Monitorear su instancia</a></p></td>
@@ -44,15 +44,15 @@ Existen otras formas de supervisar los diferentes procesos de Campaña. Proporci
 
 **Herramientas de supervisión automáticas**
 
-Hay varios métodos automáticos disponibles. para ayudarle a supervisar su instancia. Por ejemplo, puede configurar informes de correo electrónico con anomalías detectadas, recuperar una lista de indicadores en formato XML, etc. [Haga clic aquí](../../production/using/monitoring-processes.md#automatic-monitoring) para obtener más información.
+Hay varios métodos automáticos disponibles. para ayudarle a supervisar su instancia. Por ejemplo, puede configurar informes de correo electrónico con anomalías detectadas, recuperar una lista de indicadores en formato XML, etc. [Haga clic ](../../production/using/monitoring-processes.md#automatic-monitoring) aquí para obtener más información.
 
 **Pista de auditoría**
 
-La pista de auditoría permite visualizar el historial completo de cambios relacionados con opciones, flujos de trabajo y esquemas dentro de la instancia. [Haga clic aquí](../../production/using/audit-trail.md) para obtener más información.
+La pista de auditoría permite visualizar el historial completo de cambios relacionados con opciones, flujos de trabajo y esquemas dentro de la instancia. [Haga clic ](../../production/using/audit-trail.md) aquí para obtener más información.
 
 **Panel de control de Campaign**
 
-El Panel de control de Campaign le permite administrar varias configuraciones de la instancia: administrar permisos de URL, comprobar los detalles de la instancia como las versiones de compilación de los servidores, etc. También permite supervisar el espacio disponible en los servidores SFTP conectados a la instancia. [Haga clic aquí](https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html) para obtener más información.
+El Panel de control de Campaign le permite administrar varias configuraciones de la instancia: administrar permisos de URL, comprobar los detalles de la instancia como las versiones de compilación de los servidores, etc. También permite supervisar el espacio disponible en los servidores SFTP conectados a la instancia. [Haga clic ](https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html) aquí para obtener más información.
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ El Panel de control de Campaign le permite administrar varias configuraciones de
 
 **Mapa de calor del flujo de trabajo**
 
-El mapa de calor del flujo de trabajo proporciona una representación visual de todos los flujos de trabajo que se ejecutan en la instancia. Permite monitorear fácilmente la carga en la instancia y planificar flujos de trabajo en consecuencia. [Haga clic aquí](../../workflow/using/heatmap.md) para obtener más información.
+El mapa de calor del flujo de trabajo proporciona una representación visual de todos los flujos de trabajo que se ejecutan en la instancia. Permite monitorear fácilmente la carga en la instancia y planificar flujos de trabajo en consecuencia. [Haga clic ](../../workflow/using/heatmap.md) aquí para obtener más información.
 
 **Pista de auditoría**
 
@@ -72,11 +72,11 @@ La pista de auditoría permite visualizar todas las modificaciones realizadas en
 
 **Solución de problemas de flujos de trabajo**
 
-Se pueden realizar acciones específicas al encontrar problemas con la ejecución de un flujo de trabajo. [Haga clic aquí](../../production/using/workflow-execution.md) para obtener más información
+Se pueden realizar acciones específicas al encontrar problemas con la ejecución de un flujo de trabajo. [Haga clic ](../../production/using/workflow-execution.md) aquí para obtener más información
 
 **Monitoreo del estado del flujo de trabajo**
 
-Además del mapa de calor, puede crear un flujo de trabajo que le permitirá supervisar el estado de un conjunto de flujos de trabajo y enviar mensajes recurrentes a los supervisores. [Haga clic aquí](../../workflow/using/supervising-workflows.md) para obtener más información.
+Además del mapa de calor, puede crear un flujo de trabajo que le permitirá supervisar el estado de un conjunto de flujos de trabajo y enviar mensajes recurrentes a los supervisores. [Haga clic ](../../workflow/using/supervising-workflows.md) aquí para obtener más información.
 
 **Directrices generales**
 
@@ -94,37 +94,38 @@ Los informes SMTP muestran estadísticas de envío y errores SMTP por dominio. [
 
 **Prácticas recomendadas**
 
-[Las prácticas recomendadas para enviar y diseñar](../../delivery/using/delivery-best-practices.md) envíos pueden ayudarle a mejorar su rendimiento.
+[Las prácticas recomendadas para enviar y ](../../delivery/using/delivery-best-practices.md) diseñar envíos pueden ayudarle a mejorar su rendimiento.
 
-**Solución de problemas** de envío Se pueden realizar acciones específicas al encontrar problemas con envíos:
+**Solución de**
+problemas de envíoSe pueden realizar acciones específicas al encontrar problemas con envíos:
 * [Problemas con entregas](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [Problemas de visualización de imágenes](../../production/using/image-display-issues.md)
-* [Problemas de rendimiento de envíos](../../delivery/using/monitoring-a-delivery.md#performance_issues)
-* [Problemas](../../production/using/temporary-files.md) de archivos temporales: solo modelos de alojamiento *in situ*
+* [Problemas de rendimiento de envíos](../../delivery/using/delivery-performances.md)
+* [Problemas](../../production/using/temporary-files.md)  de archivos temporales: solo modelos de alojamiento  *in situ*
 
-### Supervisión de la base de datos {#monitoring-database}
+### Monitoreo de la base de datos {#monitoring-database}
 
 <img src="assets/do-not-localize/icon_database.svg" width="60px">
 
 **Flujo de trabajo para limpieza de bases de datos**
 
-El flujo de trabajo de limpieza de la base de datos le permite eliminar datos obsoletos de la base de datos. Se recomienda evitar el crecimiento exponencial de la base de datos. [Haga clic aquí](../../production/using/database-cleanup-workflow.md) para obtener más información.
+El flujo de trabajo de limpieza de la base de datos le permite eliminar datos obsoletos de la base de datos. Se recomienda evitar el crecimiento exponencial de la base de datos. [Haga clic ](../../production/using/database-cleanup-workflow.md) aquí para obtener más información.
 
 **Solución de problemas de rendimiento de la base de datos**
 
-Se pueden realizar acciones específicas al encontrar problemas con el rendimiento de la base de datos. [Haga clic aquí](../../production/using/database-performances.md) para obtener más información.
+Se pueden realizar acciones específicas al encontrar problemas con el rendimiento de la base de datos. [Haga clic ](../../production/using/database-performances.md) aquí para obtener más información.
 
 **Mantenimiento de la base de datos**
 
 *solo modelos de alojamiento in situ e híbridos*
 
-Le recomendamos que realice el mantenimiento regular de la base de datos para evitar un consumo excesivo de espacio en disco, afectando así el acceso a la base de datos. [Haga clic aquí](../../production/using/recommendations.md) para obtener más información.
+Le recomendamos que realice el mantenimiento regular de la base de datos para evitar un consumo excesivo de espacio en disco, afectando así el acceso a la base de datos. [Haga clic ](../../production/using/recommendations.md) aquí para obtener más información.
 
 **Backup y restauración**
 
 *solo modelos de alojamiento in situ e híbridos*
 
-La copia de seguridad es esencial para evitar la pérdida de datos en el evento de un problema (físico o relacionado con el sistema) en una máquina. [Haga clic aquí](../../production/using/backup.md) para obtener más información. El procedimiento de restauración se describe en [esta sección](../../production/using/restoration.md).
+La copia de seguridad es esencial para evitar la pérdida de datos en el evento de un problema (físico o relacionado con el sistema) en una máquina. [Haga clic ](../../production/using/backup.md) aquí para obtener más información. El procedimiento de restauración se describe en [esta sección](../../production/using/restoration.md).
 
 ## Principios técnicos del Campaign Classic {#campaign-classic-technical-principles}
 
