@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 535339b5a9b39625100d630b0b831df143dbeb01
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 72%
@@ -17,10 +17,10 @@ ht-degree: 72%
 
 # Configuración del acceso a Snowflake {#configure-access-to-snowflake}
 
-Utilice la opción **Acceso de datos federado** de Campaña (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a [!DNL Snowflake].
+Utilice la opción Campaña **Acceso de datos federado** (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a [!DNL Snowflake].
 
-1. Configurar [!DNL Snowflake] en [CentOS](#snowflake-centos), [Windows](#snowflake-windows) o [Debian](#snowflake-debian)
-1. Configure the [!DNL Snowflake] [external account](#snowflake-external) in Campaign
+1. Configure [!DNL Snowflake] en [CentOS](#snowflake-centos), [Windows](#snowflake-windows) o [Debian](#snowflake-debian)
+1. Configure la [!DNL Snowflake] [cuenta externa](#snowflake-external) en Campaña
 
 
 >[!NOTE]
@@ -31,7 +31,7 @@ Utilice la opción **Acceso de datos federado** de Campaña (FDA) para procesar 
 
 ## Snowflake en CentOS {#snowflake-centos}
 
-Para realizar la configuración [!DNL Snowflake] en CentOS, siga los pasos a continuación:
+Para configurar [!DNL Snowflake] en CentOS, siga los pasos a continuación:
 
 1. Descargue los controladores ODBC para [!DNL Snowflake]. [Haga clic aquí](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/snowflake-odbc-2.20.2.x86_64.rpm) para iniciar la descarga.
 1. A continuación, debe instalar los controladores ODBC en CentOs con el siguiente comando:
@@ -48,7 +48,7 @@ Para realizar la configuración [!DNL Snowflake] en CentOS, siga los pasos a con
    /etc/init.d/nlserver6 start
    ```
 
-1. In Campaign, you can then configure your [!DNL Snowflake] external account. For more on how to configure your external account, refer to [this section](#snowflake-external).
+1. En Campaña, puede configurar su cuenta externa [!DNL Snowflake]. Para obtener más información sobre cómo configurar su cuenta externa, consulte [esta sección](#snowflake-external).
 
 ## Snowflake en Windows {#snowflake-windows}
 
@@ -56,7 +56,7 @@ Para realizar la configuración [!DNL Snowflake] en CentOS, siga los pasos a con
 
 1. Configure el controlador ODBC. Para obtener más información, consulte [esta página](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)
 
-1. In Campaign, you can then configure your [!DNL Snowflake] external account. For more on how to configure your external account, refer to [this section](#snowflake-external).
+1. En Campaña, puede configurar su cuenta externa [!DNL Snowflake]. Para obtener más información sobre cómo configurar su cuenta externa, consulte [esta sección](#snowflake-external).
 
 ## Snowflake en Debian {#snowflake-debian}
 
@@ -76,11 +76,11 @@ Para realizar la configuración [!DNL Snowflake] en CentOS, siga los pasos a con
    systemctl start nlserver.service
    ```
 
-1. In Campaign, you can then configure your [!DNL Snowflake] external account. For more on how to configure your external account, refer to [this section](#snowflake-external).
+1. En Campaña, puede configurar su cuenta externa [!DNL Snowflake]. Para obtener más información sobre cómo configurar su cuenta externa, consulte [esta sección](#snowflake-external).
 
 ## Cuenta externa Snowflake {#snowflake-external}
 
-Debe crear una [!DNL Snowflake] cuenta externa para conectar la instancia de Campaña a la base de datos [!DNL Snowflake] externa.
+Debe crear una cuenta externa [!DNL Snowflake] para conectar la instancia de Campaña con la base de datos externa [!DNL Snowflake].
 
 1. En la Campaña **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
 
