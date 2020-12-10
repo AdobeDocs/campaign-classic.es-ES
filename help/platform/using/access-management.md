@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 647a872d71d19802d7334a6e8f881f8d7ad94d13
 workflow-type: tm+mt
-source-wordcount: '2953'
-ht-degree: 100%
+source-wordcount: '2950'
+ht-degree: 99%
 
 ---
 
@@ -203,7 +203,7 @@ De forma predeterminada, el operador técnico “webapp” tiene el derecho asig
 
 >[!NOTE]
 >
->Para obtener más información sobre pautas de seguridad consulte la [Lista de comprobación de configuración de seguridad de Adobe Campaign](https://helpx.adobe.com/es/campaign/kb/acc-security.html).
+>Para obtener más información sobre pautas de seguridad consulte la [Lista de comprobación de configuración de seguridad de Adobe Campaign](https://helpx.adobe.com/campaign/kb/acc-security.html).
 
 ## Grupos de operadores {#operator-groups}
 
@@ -349,7 +349,7 @@ Los grupos predeterminados y los derechos asignados permiten a los operadores ac
 
 La matriz de derechos de acceso a Adobe Campaign está disponible [aquí](/help/platform/using/assets/access-rights-matrix.pdf).
 
-[![imagen](assets/do-not-localize/user_management.png)](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/getting-started/administration-basics/assets/access-rights-matrix.pdf)
+[![imagen](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf?lang=en)
 
 ## Administración de acceso a carpetas {#folder-access-management}
 
