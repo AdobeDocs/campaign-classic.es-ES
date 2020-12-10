@@ -6,9 +6,9 @@ description: Acerca del seguimiento de mensajes
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ En el contexto de una entrega por correo electrónico, el seguimiento permite ra
 
 Las métricas de seguimiento pueden consultarse en los informes **[!UICONTROL URLs and click streams]**, **[!UICONTROL Tracking statistics]** y **[!UICONTROL Hot clicks]**, y en la pestaña **[!UICONTROL Tracking]** del envío.
 
-El panel de envío es fundamental para controlar las entregas y los problemas que se puedan detectar durante la entrega de mensajes. Para obtener más información, consulte [esta sección](../../delivery/using/monitoring-a-delivery.md).
+El panel de envío es fundamental para controlar las entregas y los problemas que se puedan detectar durante la entrega de mensajes. Para obtener más información, consulte [esta sección](../../delivery/using/delivery-dashboard.md).
 
 **Temas relacionados**:
 
