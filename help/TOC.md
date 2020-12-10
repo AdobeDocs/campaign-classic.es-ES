@@ -9,7 +9,7 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 1818bd2aeb60689b2ce0e59cb0bd157f000de513
+source-git-commit: 1b498e9f47dc3cfc108ee182829b83442819629d
 workflow-type: tm+mt
 source-wordcount: '2215'
 ht-degree: 98%
@@ -710,7 +710,7 @@ ht-degree: 98%
       + [Acerca de la referencia de esquema](configuration/using/about-schema-reference.md)
       + [Estructura del esquema](configuration/using/schema-structure.md)
       + [Asignación de base de datos](configuration/using/database-mapping.md)
-      + Elementos y atributos {#elements-and-attributes}
+      + [Elementos y atributos](configuration/using/elements-and-attributes.md)
          + [Atributo](configuration/using/schema/attribute.md)
          + [Cadena de caracteres](configuration/using/schema/compute-string.md)
          + [Condición](configuration/using/schema/condition.md)
