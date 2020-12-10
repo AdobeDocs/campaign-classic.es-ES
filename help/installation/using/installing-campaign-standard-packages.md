@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 11%
@@ -15,7 +15,7 @@ ht-degree: 11%
 ---
 
 
-# Installing Campaign Classic built-in packages{#installing-campaign-standard-packages}
+# Instalación de paquetes integrados Campaign Classic{#installing-campaign-standard-packages}
 
 ## Acerca de los paquetes integrados {#campaign-standard-packages}
 
@@ -45,7 +45,7 @@ Para instalar un paquete integrado:
 
 Los paquetes ya están instalados.
 
-### List of out-of-the-box Packages {#list-of-standard-packages}
+### Lista de paquetes listos para usar {#list-of-standard-packages}
 
 La siguiente tabla lista todos los paquetes integrados de Campaña.
 
@@ -60,7 +60,7 @@ La siguiente tabla lista todos los paquetes integrados de Campaña.
  <tbody> 
   <tr> 
    <td> Entrega<br /> </td> 
-   <td> Supervisa los envíos y los problemas que se detectan al enviar mensajes. <a href="../../delivery/using/monitoring-a-delivery.md">Más información</a><br /> </td> 
+   <td> Supervisa los envíos y los problemas que se detectan al enviar mensajes. <a href="../../delivery/using/about-delivery-monitoring.md">Más información</a><br /> </td> 
    <td> Todo</td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ La siguiente tabla lista todos los paquetes integrados de Campaña.
    <td> Mercadotecnia</td>
   </tr> 
   <tr> 
-   <td> Marketing resources (MRM)<br /> </td> 
+   <td> Recursos de marketing (MRM)<br /> </td> 
    <td> Controla las acciones de mercadotecnia en modo colaborativo proporcionando administración y seguimiento de las tareas, presupuestos y recursos de marketing. <a href="../../campaign/using/about-marketing-resource-management.md">Más información</a> <br /> </td> 
    <td> Mercadotecnia</td> 
   </tr> 
@@ -100,7 +100,7 @@ La siguiente tabla lista todos los paquetes integrados de Campaña.
    <td> Todo</td> 
   </tr> 
   <tr> 
-   <td> Control de mensajes transaccionales (Centro de mensajes - Control)<br /> </td> 
+   <td> Control de mensaje transaccional (Centro de mensajes - Control)<br /> </td> 
    <td> Gestiona los mensajes de activación generados a partir de eventos activados desde sistemas de información. Opcional. <a href="../../message-center/using/about-transactional-messaging.md">Más información</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
@@ -115,7 +115,7 @@ La siguiente tabla lista todos los paquetes integrados de Campaña.
    <td> Todo<br /> </td> 
   </tr> 
   <tr> 
-   <td> Direct Mail channel<br /> </td> 
+   <td> canal de correo postal<br /> </td> 
    <td> Envía envíos mediante el canal de correo directo con Adobe Campaign. Opcional. <a href="../../delivery/using/about-direct-mail-channel.md">Más información</a><br /> </td> 
    <td> Todo<br /> </td>
   </tr> 
@@ -140,7 +140,7 @@ La siguiente tabla lista todos los paquetes integrados de Campaña.
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
-   <td> Análisis de marketing<br /> </td> 
+   <td> Marketing Analytics<br /> </td> 
    <td> Permite analizar y medir datos, calcular estadísticas, simplificar y optimizar la creación y el cálculo de informes. Además, puede crear informes y generar poblaciones de destinatarios. Opcional. <a href="../../reporting/using/about-cubes.md">Más información</a><br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
@@ -165,7 +165,7 @@ La siguiente tabla lista todos los paquetes integrados de Campaña.
    <td> Todo </td> 
   </tr> 
   <tr> 
-   <td> Gestión de cupones<br /> </td> 
+   <td> Administración de cupones<br /> </td> 
    <td> Crea un conjunto de cupones para agregarlos a las próximas ofertas de marketing. Opcional. <a href="../../delivery/using/personalized-coupons.md">Más información</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
@@ -190,7 +190,7 @@ La siguiente tabla lista todos los paquetes integrados de Campaña.
    <td> Mercadotecnia </td> 
   </tr> 
   <tr> 
-   <td> Integración AEM<br /> </td> 
+   <td> Integración de AEM<br /> </td> 
    <td> Le permite administrar el contenido de sus envíos de correo electrónico, así como los formularios directamente en Adobe Experience Manager, para beneficiarse de las funcionalidades de edición de contenido de AEM, así como de las capacidades de envío de Adobe Campaign. <a href="../../integrations/using/about-adobe-experience-manager.md">Más información</a> <br /> </td> 
    <td> Mercadotecnia</td> 
   </tr> 
@@ -210,7 +210,7 @@ La siguiente tabla lista todos los paquetes integrados de Campaña.
    <td> Todo</td> 
   </tr> 
   <tr> 
-   <td> Transfer to Mid-Sourcing <br /> </td> 
+   <td> Transferencia al Intermediaria <br /> </td> 
    <td> Detalla la instalación y configuración de un servidor intermediaria, así como la implementación de una instancia que permite a terceros enviar mensajes en modo intermediaria. Opcional. <a href="../../installation/using/mid-sourcing-server.md">Más información</a> <br /> </td> 
    <td> Mercadotecnia </td> 
   </tr> 
@@ -236,14 +236,14 @@ La siguiente tabla lista todos los paquetes integrados de Campaña.
 
 Debe instalar canales de envío (correo electrónico, canal móvil, canal de aplicaciones móviles, etc.) antes de instalar la mensajería transaccional (paquete de centro de mensajes). Si ha iniciado un proyecto de centro de mensajes de solo correo electrónico y necesita agregar un nuevo canal después, debe seguir estos pasos:
 
-1. Install the new channel, for example the **Mobile channel**, using the package import wizard ( **[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**).
+1. Instale el nuevo canal, por ejemplo el **canal móvil**, utilizando el asistente de importación del paquete ( **[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**).
 1. Importe el archivo ( **[!UICONTROL Tools > Advanced > Import package > File]**) y seleccione:
 
    ```
    \datakit\nms\[Your language]\package\messageCenter.xml
    ```
 
-1. En el **[!UICONTROL XML data content to import]**, mantenga solo la Plantilla de envíos del centro de mensajes correspondiente al canal relacionado. For example, if you have added the **Mobile channel**, keep only the **entities** element corresponding to the **[!UICONTROL Mobile transactional message]** (smsTriggerMessage) template. If you have added the **Mobile App Channel**, keep only the **iOS transactional message** templates (iosTriggerMessage) and **Android transactional message** (androidTriggerMessage).
+1. En **[!UICONTROL XML data content to import]**, mantenga sólo la Plantilla de envíos del centro de mensajes correspondiente al canal relacionado. Por ejemplo, si ha agregado el **canal móvil**, mantenga solo el elemento **entidades** correspondiente a la plantilla **[!UICONTROL Mobile transactional message]** (smsTriggerMessage). Si ha agregado el **Canal de aplicaciones móviles**, mantenga solo las plantillas **mensaje transaccional de iOS** (iosTriggerMessage) y **mensaje transaccional de Android** (androidTriggerMessage).
 
    ![](assets/messagecenter_install_channel.png)
 
