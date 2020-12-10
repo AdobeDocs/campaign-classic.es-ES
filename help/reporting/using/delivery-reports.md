@@ -6,11 +6,11 @@ description: Informes de entrega
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '1451'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
+source-wordcount: '1443'
+ht-degree: 97%
 
 ---
 
@@ -68,7 +68,7 @@ Este informe combina los indicadores clave para realizar un seguimiento del comp
 * **[!UICONTROL Distinct opens for the population reached]** : Estimación del número de destinatarios objetivo que han abierto un mensaje al menos una vez. Se tienen en cuenta los clics en los vínculos de baja de suscripción y en las páginas espejo.
 * **[!UICONTROL Sum of opens for the population reached]** : Estimación del número total de aperturas de los destinatarios objetivo.
 * **[!UICONTROL Clicks on opt-out link]** : Número de clics en el vínculo de baja de suscripción.
-* **[!UICONTROL Clicks on the mirror page link]** : Número de clics en el vínculo de página espejo. Para que se tenga en cuenta un vínculo, este debe definirse como tal en el asistente de envíos (direcciones URL rastreadas). Consulte [esta página](../../delivery/using/monitoring-a-delivery.md).
+* **[!UICONTROL Clicks on the mirror page link]** : Número de clics en el vínculo de página espejo. Para que se tenga en cuenta un vínculo, este debe definirse como tal en el asistente de envíos (direcciones URL rastreadas). Consulte [esta página](../../delivery/using/about-delivery-monitoring.md).
 * **[!UICONTROL Estimation of forwards]** : Estimación del número de correos electrónicos reenviados por los destinatarios objetivo. Este valor se calcula restando el número de personas diferentes y el número de destinatarios diferentes que hicieron clic en el correo electrónico.
 
    >[!NOTE]
@@ -124,7 +124,7 @@ Este informe muestra la lista de páginas visitadas después de una entrega.
 
 ![](assets/s_ncs_user_url_report.png)
 
-Se puede configurar el contenido de este informe seleccionando el gráfico de puntuación que se desea mostrar, el filtro de tiempo (desde el inicio de la acción en las 6 horas siguientes al lanzamiento, etc.) y el modo de visualización de datos (por etiqueta, por dirección URL, por categoría; para obtener más información, consulte [esta página](../../delivery/using/monitoring-a-delivery.md)). Haga clic en **[!UICONTROL Refresh]** para confirmar la selección.
+Puede configurar el contenido de este informe seleccionando: el gráfico de puntuación que se va a mostrar, el filtro de tiempo (desde el inicio de la acción, durante las primeras 6 horas después del inicio, etc.) y el modo de visualización de datos (por etiqueta, por dirección URL, por categoría). Haga clic en **[!UICONTROL Refresh]** para confirmar la selección.
 
 Las siguientes tasas se muestran en la sección superior del informe:
 
