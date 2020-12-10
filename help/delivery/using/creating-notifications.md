@@ -6,9 +6,9 @@ description: Aprenda a crear notificaciones push
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 100%
 
@@ -95,7 +95,7 @@ Para enviar una prueba y realizar la entrega final, utilice el mismo proceso que
 Después de enviar mensajes, puede monitorizar y realizar un seguimiento de las entregas. Para obtener más información, consulte estas secciones:
 
 * [Cuarentena de notificaciones push](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)
-* [Seguimiento de una entrega](../../delivery/using/monitoring-a-delivery.md)
+* [Seguimiento de una entrega](../../delivery/using/about-delivery-monitoring.md)
 * [Comprensión de los errores de entrega](../../delivery/using/understanding-delivery-failures.md)
 
 ## Envío de notificaciones en Android {#sending-notifications-on-android}
@@ -138,5 +138,5 @@ El proceso detallado para validar y realizar una entrega se presenta en las sigu
 Después de enviar mensajes, puede monitorizar y realizar un seguimiento de las entregas. Para obtener más información, consulte estas secciones:
 
 * [Cuarentena de notificaciones push](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)
-* [Seguimiento de una entrega](../../delivery/using/monitoring-a-delivery.md)
+* [Seguimiento de una entrega](../../delivery/using/about-delivery-monitoring.md)
 * [Comprensión de los errores de entrega](../../delivery/using/understanding-delivery-failures.md)
