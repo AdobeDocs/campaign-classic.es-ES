@@ -6,9 +6,9 @@ description: Obtenga más información sobre la administración de la capacidad 
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ El inicio de una plataforma suele ocurrir cuando se utiliza una lista de direcci
 * **Limite la velocidad de rendimiento** limitando el número de equipos. Para obtener más información sobre cómo ajustar esta configuración técnica, póngase en contacto con el administrador de Adobe Campaign.
 * **Aumente progresivamente los volúmenes enviados** para evitar ser marcados como correo no deseado. Evite asignar toda la base de datos desde el mismo inicio; sino, añada una fracción adicional de la lista cada vez que envíe. Esto debería permitirle aumentar el volumen en cada paso y reducir al mismo tiempo la tasa global de direcciones no válidas. Para garantizar un desarrollo fluido de la fase de inicio, puede utilizar olas. Para obtener más información, consulte [Envío mediante varias olas](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves).
 * **Envíe regularmente**. En cierta medida, es mejor enviar pequeñas tomas con regularidad que grandes campañas esporádicamente.
-* **Preste mucha atención a los informes de envío**. Los indicadores de error altos pueden significar que una configuración técnica está mal configurada. Para obtener más información sobre esto, consulte [Monitorización de un envío](../../delivery/using/monitoring-a-delivery.md).
+* **Preste mucha atención a los informes de envío**. Los indicadores de error altos pueden significar que una configuración técnica está mal configurada. Para obtener más información sobre esto, consulte [Monitorización de un envío](../../delivery/using/about-delivery-monitoring.md).
 
 **Temas relacionados**:
 * [Aumente su reputación de correo electrónico con el calentamiento de IP](https://helpx.adobe.com/es/campaign/kb/increase-email-rep-ip-warming.html)
