@@ -7,9 +7,9 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 translation-type: tm+mt
-source-git-commit: a469d275fdd768fbd098a0027b5096872dbf6d89
+source-git-commit: 4c3a2184ab09b1e1ed91d0127adc636a51808aec
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1007'
 ht-degree: 9%
 
 ---
@@ -146,12 +146,13 @@ Ejemplo de definición de un valor predeterminado:
 
 ```
 <attribute name="transactionDate" label="Transaction Date" type="datetime" default="GetDate()"/>
-`
+```
 
-Example of using a common attribute as a template for a field also marked as mandatory:
+Ejemplo de uso de un atributo común como plantilla para un campo también marcado como obligatorio:
+
 ```
 <attribute name="mobile" label="Mobile" template="nms:common:phone" required="true" />
-"
+```
 
 Ejemplo de un campo calculado que está oculto mediante el atributo **@advanced**:
 
