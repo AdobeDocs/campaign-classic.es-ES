@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 13cc481606ffb78f9a755ef8aa8a9d7cbb5d44c2
+source-git-commit: 854d509315f1d8585cb041575908df896468cc77
 workflow-type: tm+mt
-source-wordcount: '2179'
+source-wordcount: '2196'
 ht-degree: 98%
 
 ---
@@ -153,7 +153,12 @@ ht-degree: 98%
       + [Administración de suscripciones](delivery/using/managing-subscriptions.md)
       + [Marketing viral y social](delivery/using/viral-and-social-marketing.md)
    + Seguimiento de entregas {#monitoring-deliveries}
-      + [Seguimiento de una entrega](delivery/using/monitoring-a-delivery.md)
+      + [Introducción a la supervisión de envíos](delivery/using/about-delivery-monitoring.md)
+      + [Acceso a la lista de envíos](delivery/using/list-of-deliveries.md)
+      + [Panel de entregas](delivery/using/delivery-dashboard.md)
+      + [Prácticas recomendadas de rendimiento de envío](delivery/using/delivery-performances.md)
+      + [Solución de problemas de envío](delivery/using/delivery-troubleshooting.md)
+      + [Estados de entrega](delivery/using/delivery-statuses.md)
       + [Comprensión de los errores de entrega](delivery/using/understanding-delivery-failures.md)
       + [Comprensión de la gestión de la cuarentena](delivery/using/understanding-quarantine-management.md)
    + Seguimiento de mensajes {#tracking-messages}
