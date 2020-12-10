@@ -6,9 +6,9 @@ description: Preguntas más frecuentes sobre Adobe Campaign Classic
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ La interfaz de autoservicio de zonas de seguridad se puede utilizar para adminis
 
 Adobe Campaign incluye un conjunto de paneles y herramientas para monitorizar las entregas de correo electrónico.
 
-[Haga clic aquí para aprender](../../delivery/using/monitoring-a-delivery.md) cómo corroborar que sus mensajes están siendo enviados, controlar la ejecución y actuar en consecuencia si se produce un error.
+[Haga clic aquí para aprender](../../delivery/using/about-delivery-monitoring.md) cómo corroborar que sus mensajes están siendo enviados, controlar la ejecución y actuar en consecuencia si se produce un error.
 
 ## 5. ¿Puedo supervisar la ejecución del flujo de trabajo? {#can-i-monitor-workflow-execution}
 
