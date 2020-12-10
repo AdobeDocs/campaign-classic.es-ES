@@ -6,9 +6,9 @@ description: Publicación en Twitter
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ La pestaña **[!UICONTROL Preview]** permite controlar la renderización del twe
 
 El seguimiento se puede ver en los informes de entrega y en la pestaña **[!UICONTROL Edit > Tracking]** de la entrega y el servicio.
 
-La configuración de seguimiento es la misma que para una entrega de correo electrónico. Para obtener más información, consulte [esta sección](../../delivery/using/monitoring-a-delivery.md).
+La configuración de seguimiento es la misma que para una entrega de correo electrónico. Para obtener más información, consulte [esta sección](../../delivery/using/about-delivery-monitoring.md).
 
 >[!NOTE]
 >
