@@ -718,7 +718,7 @@ ht-degree: 98%
          + [Índice de base de datos](configuration/using/schema/db-index.md)
          + [Elemento](configuration/using/schema/element.md)
          + [Lista desglosada](configuration/using/schema/enumeration.md)
-         + Ayuda de [](configuration/using/schema/help.md)
+         + [Ayuda de](configuration/using/schema/help.md)
          + [Unirse](configuration/using/schema/join.md)
          + [Clave](configuration/using/schema/key.md)
          + [Campo clave](configuration/using/schema/keyfield.md)
