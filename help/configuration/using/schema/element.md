@@ -7,15 +7,15 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 translation-type: tm+mt
-source-git-commit: 1818bd2aeb60689b2ce0e59cb0bd157f000de513
+source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2012'
 ht-degree: 0%
 
 ---
 
 
-# `<element>` Elemento {#element--element}
+# elemento del elemento {#element--element}
 
 ## Modelo de contenido {#content-model-4}
 
@@ -139,7 +139,7 @@ Hay cuatro tipos de `<element>` elementos en Adobe Campaign:
 
 * **noDbIndex (boolean)**: permite especificar que el elemento no se indizará.
 * **ordered (booleano)**: si el atributo está activado (ordered=&quot;true&quot;), Adobe Campaign mantiene la secuencia de declaraciones de elementos en un elemento de recopilación XML.
-* **pkSequence (cadena)**: recibe el nombre de la secuencia que se va a utilizar para calcular una clave de aumento automático. Este atributo solo puede utilizarse si se define una clave de aumento automático en el elemento raíz del esquema.
+* **pkSequence (cadena)**: recibe el nombre de la secuencia que se va a utilizar para calcular una clave de aumento automático. Este atributo solo se puede utilizar si se define una clave de aumento automático en el elemento raíz del esquema.
 * **pkgStatus (string)**: durante las exportaciones de paquetes, los valores se tendrán en cuenta como función del valor de este atributo:
 
    * &quot;always&quot;: el elemento siempre estará presente
