@@ -7,15 +7,15 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 translation-type: tm+mt
-source-git-commit: c366326f6a439dabaa42fdd799ec2e55c180a929
+source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 2%
+source-wordcount: '454'
+ht-degree: 1%
 
 ---
 
 
-# `<srcschema>` Elemento {#srcschema--element}
+# elemento srcschema {#srcschema--element}
 
 ## Modelo de contenido {#content-model-14}
 
