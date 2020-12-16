@@ -6,11 +6,11 @@ description: Creación de una campaña local
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1567'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -51,27 +51,27 @@ En la ventana de la campaña, haga clic en la pestaña **[!UICONTROL Edit]** y l
 
 En la pestaña **Distributed Marketing**, se puede elegir el tipo de interfaz web y especificar los valores y parámetros predeterminados que se introducen cuando una entidad local realiza una solicitud.
 
-La interfaz web corresponde a un formulario que debe rellenar la entidad local al ordenar la campaña.
+La interfaz web corresponde a un formulario que la entidad local rellena al solicitar la campaña.
 
 Seleccione el tipo de interfaz web que se aplicará a las campañas creadas a partir de la plantilla:
 
 ![](assets/mkt_distr_1.png)
 
-Existen cuatro tipos de interfaces web disponibles:
+Hay cuatro tipos de interfaces web disponibles:
 
 * **[!UICONTROL By brief]**: la entidad local debe proporcionar una descripción de las configuraciones de campaña. Una vez aprobada la solicitud, la entidad central se configura y ejecuta la campaña en su totalidad.
 
    ![](assets/mkt_distr_6.png)
 
-* **[!UICONTROL By form]** :: entidad local tiene acceso a un formulario web en el que, en función de la plantilla utilizada, pueden editar el contenido, el destinatario, su tamaño máximo, así como las fechas de creación y extracción mediante campos de personalización. Entidad local puede evaluar el destinatario y el contenido de previsualización desde este formulario web.
+* **[!UICONTROL By form]**: la entidad local tiene acceso a un formulario web en el que, según la plantilla utilizada, pueden editar el contenido, el destinatario, su tamaño máximo, así como las fechas de creación y extracción utilizando campos de personalización. La entidad local puede evaluar el destinatario y obtener una vista previa del contenido desde este formulario web.
 
    ![](assets/mkt_distr_8.png)
 
-   El formulario ofrecido se especifica en una aplicación web que debe seleccionarse en una lista desplegable del campo **[!UICONTROL web Interface]** del vínculo **[!UICONTROL Advanced campaign settings...]** de la plantilla. Consulte [Creación de una campaña local (por formulario) ](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
+   El formulario ofrecido se especifica en una aplicación web que debe estar seleccionada de la lista desplegable del campo **[!UICONTROL web Interface]** en el vínculo **[!UICONTROL Advanced campaign settings...]** de la plantilla. Consulte [Creación de una campaña local (por formulario) ](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
 
    >[!NOTE]
    >
-   >La aplicación web utilizada en este ejemplo es un ejemplo. Debe crear una aplicación web específica para poder utilizar un formulario. Consulte la [API](../../configuration/using/about-web-services.md).
+   >La aplicación web utilizada es un ejemplo. Debe crear una aplicación web específica para poder utilizar un formulario. Consulte la [API](../../configuration/using/about-web-services.md).
 
    ![](assets/mkt_distr_7.png)
 
