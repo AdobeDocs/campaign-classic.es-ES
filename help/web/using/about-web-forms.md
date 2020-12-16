@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: Introducción a los formularios web
-description: Introducción a los formularios web en Campaña
+description: Introducción a los formularios web en Campaign
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ La pestaña **[!UICONTROL Edit]** le permite crear su contenido.
 
 Para definir la configuración y el contenido del formulario web, realice los siguientes pasos:
 
-* Inicio creando las páginas y los controles necesarios: campos de entrada, listas desplegables, contenido HTML, etc.
+* Comience por crear las páginas y los controles necesarios: campos de entrada, listas desplegables, contenido HTML, etc.
 
    Este paso se detalla a continuación.
 
