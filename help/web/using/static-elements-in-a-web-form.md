@@ -6,11 +6,11 @@ description: Elementos estáticos de un formulario web
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1269'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -174,7 +174,7 @@ Utilice los campos de personalización para volver a introducir el nombre de usu
 
 >[!NOTE]
 >
->Por motivos de seguridad, el valor introducido en la fórmula **`<%=`** se sustituye por caracteres de escape.
+>Por motivos de seguridad, el valor ingresado en la fórmula **`<%=`** se reemplaza por caracteres de escape.
 
 En nuestro ejemplo, el nombre y los apellidos del destinatario se almacenan en un campo de la base de datos, mientras que la marca de su coche se almacena en una variable. La sintaxis del mensaje personalizado en la página 2 es la siguiente:
 
@@ -210,19 +210,19 @@ Por ejemplo, puede crear un campo de **Contacto** que le permita mostrar la cade
 
    >[!CAUTION]
    >
-   >Si introduce estos caracteres en el editor HTML, los campos **&lt;** y **** se reemplazarán por sus caracteres de escape. En este caso, debe corregir el código fuente haciendo clic en el icono **[!UICONTROL Display source code]** del editor de texto HTML.
+   >Si ingresa estos caracteres en el editor HTML, los campos **&lt;** y **>** se sustituyen con los caracteres de escape. En este caso, debe corregir el código fuente haciendo clic en el icono **[!UICONTROL Display source code]** del editor de texto HTML.
 
 1. Abra la etiqueta **[!UICONTROL Preview]** del formulario para ver el valor introducido en el HTML:
 
    ![](assets/s_ncs_admin_survey_html_content_preview.png)
 
-Este modo operativo permite definir el texto de los Formularios web una sola vez y administrar las traducciones con la herramienta de traducción integrada. Para obtener más información, consulte [Traducción de un formulario web](../../web/using/translating-a-web-form.md).
+Este modo operativo permite definir el texto de los formularios web solo una vez y administrar las traducciones mediante la herramienta de traducción integrada. Para obtener más información, consulte [Traducción de un formulario web](../../web/using/translating-a-web-form.md).
 
 ## Inserción de imágenes {#inserting-images}
 
 Para que las imágenes se incluyan en los formularios, deben guardarse en un servidor que sea accesible externamente.
 
-Seleccione el menú **[!UICONTROL Static elements]** > **[!UICONTROL Image]**.
+Seleccione el menú **[!UICONTROL Static elements]** > **[!UICONTROL Image]** .
 
 Seleccione el origen de la imagen que desea insertar: puede proceder de la biblioteca de recursos públicos o estar almacenada en un servidor externo accesible externamente.
 
