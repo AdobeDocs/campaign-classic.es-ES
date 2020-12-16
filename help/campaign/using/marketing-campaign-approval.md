@@ -6,11 +6,11 @@ description: Aprobación de campañas de marketing
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2476'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -176,7 +176,7 @@ Adobe Campaign permite configurar los procesos de aprobación para las etapas pr
 
 Para las entregas de correo directo, los operadores de Adobe Campaign pueden ver el archivo de extracción antes de enviarlo al enrutador y, si es necesario, pueden cambiar el formato y volver a iniciar la extracción. Consulte [Aprobación de un archivo de extracción](#approving-an-extraction-file).
 
-Para cada campaña, puede aprobar el objetivo de entrega, los contenidos (consulte [Aprobar contenido](#approving-content)) y los costes. Los operadores de Adobe Campaign a cargo de la aprobación pueden ser notificados por correo electrónico y pueden aceptar o rechazar la aprobación desde la consola o a través de una conexión Web. Consulte [Aprobación de procesos](#approving-processes).
+Para cada campaña, puede aprobar el objetivo de entrega, los contenidos (consulte [Aprobar contenido](#approving-content)) y los costes. Los operadores de Adobe Campaign responsables de la aprobación pueden ser notificados por correo electrónico y aceptar o rechazar la aprobación a través de la consola o de una conexión web. Consulte [Aprobación de procesos](#approving-processes).
 
 Cuando se hayan completado estas fases de validación, se puede iniciar la entrega. Consulte [Inicio de una entrega](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery).
 
