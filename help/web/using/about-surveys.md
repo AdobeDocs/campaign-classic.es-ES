@@ -2,20 +2,20 @@
 solution: Campaign Classic
 product: campaign
 title: Introducción a las encuestas
-description: Introducción a las encuestas de Campaña
+description: Introducción a las encuestas de Campaign
 audience: web
 content-type: reference
 topic-tags: online-surveys
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '590'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Empiece con encuestas{#about-surveys}
+# Introducción a las encuestas{#about-surveys}
 
 Adobe Campaign incluye un módulo gráfico para definir y publicar aplicaciones web. Se utiliza para crear páginas, como un formulario de edición en una extranet, o formularios de notificación, incluidos datos de la base de datos con tablas, gráficos, formularios de entrada, etc. Esta funcionalidad permite diseñar y enviar páginas web donde los usuarios pueden buscar o introducir información.
 
@@ -31,7 +31,7 @@ La gestión de la aplicación web se explica en [esta sección](../../web/using/
 >
 >Por razones de privacidad, recomendamos utilizar HTTPS para todos los recursos externos.
 
-## Alcance de la función {#campaign-surveys-scope}
+## Alcance del ámbito {#campaign-surveys-scope}
 
 En Adobe Campaign, las aplicaciones web en general permiten acceder a las siguientes funcionalidades:
 
