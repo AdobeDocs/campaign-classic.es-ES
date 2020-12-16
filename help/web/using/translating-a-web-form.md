@@ -6,11 +6,11 @@ description: Traducción de un formulario web
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1565'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ Es posible exportar e importar cadenas de caracteres para traducirlas con una he
 
 ### Exportación de archivos {#exporting-files}
 
-1. Seleccione las Aplicaciones web cuyas cadenas desee exportar, haga clic con el botón derecho y seleccione **[!UICONTROL Actions > Export strings for translation...]**
+1. Seleccione las aplicaciones web cuyas unidades desee exportar, haga clic con el botón derecho del ratón y seleccione **[!UICONTROL Actions > Export strings for translation...]**.
 
    ![](assets/s_ncs_admin_survey_trad_export.png)
 
