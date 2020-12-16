@@ -6,11 +6,11 @@ description: Más información sobre las entregas de campañas de marketing
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2925'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -215,7 +215,7 @@ De manera predeterminada, la configuración del grupo de control definida al niv
 
 >[!NOTE]
 >
->Si ha definido un grupo de control para una campaña y lo configura para una entrega relacionado con esta campaña, solo se aplica el grupo de control definido para la entrega.
+>Si ha definido un grupo de control para una campaña y lo configura para una entrega relacionada con esta campaña, solo se aplica el grupo de control definido para la entrega.
 
 1. Edite la entrega en cuestión y, a continuación, haga clic en el vínculo **[!UICONTROL To]** en la sección **[!UICONTROL Email parameters]**.
 
@@ -332,7 +332,7 @@ La extracción de archivos inicia dos operaciones: cálculo de presupuesto y cá
 
 * Las existencias se definen en el nodo **[!UICONTROL Administration > Campaign management > Stocks]** y las estructuras de coste en el nodo **[!UICONTROL Administration > Campaign management > Service providers]**.
 
-   Las líneas de existencias se pueden ver en la sección existencias. Para definir la existencias iniciales, abra una línea de existencias. Las existencias se reducen cada vez que se produce una entrega. Puede definir un nivel de alerta y notificaciones.
+   Las líneas de existencias se pueden ver en la sección existencias. Para definir las existencias iniciales, abra una línea de existencias. Las existencias se reducen cada vez que se produce una entrega. Puede definir un nivel de alerta y notificaciones.
 
 >[!NOTE]
 >
@@ -457,10 +457,10 @@ El modelo de exportación debe estar asociado al proveedor de servicios seleccio
 >
 >Para obtener más información sobre las exportaciones, consulte la sección [Introducción](../../platform/using/generic-imports-and-exports.md).
 
-#### Tutorial video {#create-email-video}
+#### Videotutorial {#create-email-video}
 
 En este vídeo se explica cómo crear una campaña y un correo electrónico en Adobe Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12&captions=spa)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
