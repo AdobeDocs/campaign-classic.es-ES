@@ -6,11 +6,11 @@ description: Descubra más información sobre las actividades de flujo de trabaj
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8bcfc8826a66517e6a648dbc57b681778718c33c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Las actividades **[!UICONTROL JavaScript code]** y **[!UICONTROL Advanced JavaSc
 
 ### Retraso de ejecución {#exec-delay}
 
-A partir de la versión 20.2, se ha agregado un retraso de ejecución a las actividades **[!UICONTROL JavaScript code]** y **[!UICONTROL Advanced JavaScript code]**. De forma predeterminada, la fase de ejecución no puede superar 1 hora. Tras esta demora, el proceso se anula con un mensaje de error y la ejecución de la actividad falla.
+A partir de la versión 20.2, se ha agregado un retraso de ejecución a las actividades **[!UICONTROL JavaScript code]** y **[!UICONTROL Advanced JavaScript code]**. De forma predeterminada, la fase de ejecución no puede exceder de 1 hora. Tras esta demora, el proceso se anula con un mensaje de error y la ejecución de la actividad falla.
 
 Puede cambiar esta demora en el campo **[!UICONTROL Stop execution after]** disponible en estas actividades.
 
