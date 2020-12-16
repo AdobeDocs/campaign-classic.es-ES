@@ -7,17 +7,67 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: dc345681e8d0085b4366be0afa2d8207170c716f
 workflow-type: tm+mt
-source-wordcount: '2622'
-ht-degree: 99%
+source-wordcount: '3061'
+ht-degree: 93%
 
 ---
 
 
 # Versión 19.1{#release-19-1}
 
-## ![](assets/do-not-localize/limited_2.png) Versión 19.1.7: compilación 9036 {#release-19-1-7-build-9036}
+## ![](assets/do-not-localize/limited_2.png) Versión 19.1.8: compilación 9039 {#release-19-1-8-build-9039}
+
+_16 de diciembre de 2020_
+
+>[!CAUTION]
+>
+>Esta versión incorpora un nuevo protocolo de conexión:  la actualización es obligatoria para que el servidor de Campaña y la consola del cliente puedan conectarse a Campaña después del 21 de marzo de 2020
+
+**Mejoras**
+
+* El protocolo de conexión se ha actualizado para seguir el nuevo mecanismo de autenticación IMS.
+* La autenticación de integración de activadores basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización se ha cambiado y se ha movido a Adobe I/O. [Más información](../../integrations/using/configuring-adobe-io.md)
+* Después de finalizar la compatibilidad con el protocolo binario heredado de APN de iOS, todas las instancias que utilizan este protocolo se actualizan al protocolo HTTP/2 durante la postactualización.
+* Se ha corregido un problema de seguridad que reforzaba la protección contra los problemas de falsificación de solicitudes del lado del servidor (SSRF). (NEO-27777)
+
+
+
+* Se ha corregido un problema que provocaba la desactivación del conector SMPP tras un error de conexión, lo que impedía que se enviaran otros envíos SMS y provocaba problemas de rendimiento.
+* Se ha corregido un problema que mostraba porcentajes incorrectos al generar un informe descriptivo mediante una actividad de flujo de trabajo. (NEO-14314)
+* Se corrigió un problema con la preparación de envíos cuando la opción **Excluir dirección de duplicado durante envío** no estaba seleccionada. (NEO-13240)
+* Se ha corregido un problema que podía provocar errores en los flujos de trabajo al ejecutar una actividad de **Enriquecimiento**. (NEO-17338)
+* Se corrigió un problema de los flujos de trabajo al recuperar los registros de una base de datos externa e insertarlos en la base de datos de Campaign. (NEO-26359)
+
+
+
+* Se ha corregido un problema de bloqueo del servidor al evitar la corrupción de memoria al limpiar el analizador de expresiones.
+* Se ha corregido un problema que impedía que la función **NoNull** funcionara en las bases de datos de Oracle después de actualizar a la compilación 9032. (NEO-26488)
+
+
+
+* Se ha corregido un problema que, al editar una descripción de plantilla de campaña, impedía que se mostrara el botón **Guardar** al copiar y pegar símbolos como, por ejemplo, caracteres japoneses. (NEO-27071)
+
+
+
+* Se ha corregido un problema que impedía guardar la descripción de una campaña o plantilla de campaña al hacer clic fuera de la ventana antes de hacer clic en el botón **Guardar**. (NEO-27449)
+
+
+
+* Se ha corregido un problema al nivel de configuración proxy que impedía iniciar sesión en Adobe Campaign después de la última actualización de Windows 10. (NEO-27813)
+
+
+
+* Se ha corregido un problema relacionado con la administración de líneas vacías en archivos de registro, que provocaba errores en el comportamiento del proceso de MTA y producía caídas de rendimiento en el envío de envíos.
+
+**Evoluciones técnicas**
+
+Tomcat se ha actualizado de la versión 7 (7.0.103) a la versión 8 (8.5.57). El directorio `tomcat-7` se reemplaza con un directorio `tomcat-8`. En Windows, _iis_neolane_setup.vbs_ y _apache_neolane.conf_ se instalan ahora en el directorio `conf` (en lugar de `tomcat-7/conf` anteriormente). En Linux, _apache_neolane.conf_ ahora está instalado en el directorio `conf`.
+
+En Linux, el inicio del servicio nlserver ahora utiliza una unidad sistémica en lugar de la secuencia de comandos /etc/init.d/nlserver6. La migración al nuevo esquema de inicio se realiza automáticamente al instalar el paquete 19.1.8. Aún se proporciona el /etc/init.d/nlserver6; sin embargo, para interactuar con el servicio nlserver (inicio, reinicio, parada, etc.), se recomienda utilizar el comando systemctl directamente.
+
+## ![](assets/do-not-localize/red_2.png) Versión 19.1.7: compilación 9036 {#release-19-1-7-build-9036}
 
 _15 de septiembre de 2020_
 
@@ -59,7 +109,7 @@ _15 de septiembre de 2020_
 
 * Se ha corregido una regresión que provocaba la selección de una zona horaria incorrecta al establecer la hora en una actividad de flujo de trabajo de **Planificador**.
 
-## ![](assets/do-not-localize/orange_2.png) Versión 19.1.6: compilación 9035 {#release-19-1-6-build-9035}
+## ![](assets/do-not-localize/red_2.png) Versión 19.1.6: compilación 9035 {#release-19-1-6-build-9035}
 
 >[!CAUTION]
 >
@@ -174,7 +224,7 @@ _30 de mayo de 2019_
 
 **Mejoras de seguridad, solidez y escalabilidad**
 
-* Duración: Optimización de uso de secuencia XtkNewId (las tablas más utilizadas se han movido de la secuencia de xtkNewId a secuencias dedicadas). [Más información](https://helpx.adobe.com/es/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* Duración: Optimización de uso de secuencia XtkNewId (las tablas más utilizadas se han movido de la secuencia de xtkNewId a secuencias dedicadas). [Más información](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
 * FDA sobre HTTP v2: el protocolo FDA sobre HTTP se utiliza ampliamente en implementaciones híbridas, especialmente para la recuperación del registro general y la preparación de entregas. Se ha mejorado la solidez para evitar problemas de red y posibles errores al recuperar o extraer datos. Esto requiere que las compilaciones en ambos extremos de la conexión estén actualizadas; de lo contrario, se utilizará el protocolo antiguo.
 * Flujo de trabajo de seguimiento: se ha mejorado la solidez del flujo de trabajo de seguimiento. Se han solucionado varios problemas relacionados con inserciones/actualizaciones del registro de seguimiento y la personalización del seguimiento de direcciones URL. Además, el flujo de trabajo de seguimiento ahora detecta el seguimiento de los problemas de registro que podrían provocar errores y detener el flujo de trabajo. Estos problemas ahora se descartan y no se procesan.
 * Flujo de trabajo de limpieza: se ha mejorado el flujo de trabajo de limpieza para evitar posibles errores y detenciones. Esto optimiza el tamaño y el rendimiento de la base de datos.
