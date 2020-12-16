@@ -6,11 +6,11 @@ description: Acerca de las tipologías de campaña
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -69,18 +69,18 @@ Durante la preparación de la entrega, los destinatarios se excluyen cuando se c
 
 En este vídeo se explica cómo implementar la administración de la fatiga en Adobe Campaign Classic mediante reglas de tipología.
 
->[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12&captions=spa)
 
 ### Configuración de la gestión de la fatiga mediante filtros predefinidos
 
 La gestión de la fatiga controla la frecuencia y la cantidad de mensajes para evitar el exceso de solicitudes de destinatarios. Si no tiene el módulo de optimización de la campaña en la instancia de campaña, puede configurar un filtro predefinido que filtrará la población de destinatarios por el número de mensajes recibidos.
 En este vídeo se explica cómo implementar la administración de fatiga en Adobe Campaign Classic mediante filtros.
 
->[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12&captions=spa)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
 
-**Temas relacionados**
+**Tema relacionado**
 
 * [Aplicar reglas comerciales automáticas a las entregas en cualquier canal](https://helpx.adobe.com/es/campaign/kb/simplifying-campaign-management-acc.html#Applyautomaticbusinessrulestodeliveriesonanychannel)
 
