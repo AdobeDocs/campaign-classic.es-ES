@@ -6,11 +6,11 @@ description: Configuración de campañas de marketing
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1263'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 Las campañas incluyen acciones (envíos) y procesos (importación o extracción de archivos), así como recursos (documentos de marketing, descripciones de envíos). Todos ellos se utilizan en las campañas de marketing. Las campañas son parte de un programa y los programas se incluyen en un plan de campaña.
 
-![](assets/do-not-localize/how-to-video.png) Descubra cómo crear un plan de marketing, programas y campañas  [en vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) Descubra cómo crear planes, programas y campañas de marketing [en vídeo](#video)
 
 Para crear una campaña de marketing:
 
@@ -233,10 +233,10 @@ Una campaña periódica es una campaña basada en una plantilla específica que 
 
 Todas las campañas periódicas contienen los mismos elementos. Una vez creada, se administra como una campaña estándar.
 
-## Tutorial video {#video}
+## Videotutorial {#video}
 
-Este vídeo muestra cómo crear un plan de marketing, programas y campañas.
+Este vídeo muestra cómo crear planes, programas y campañas de marketing.
 
->[!VIDEO](https://video.tv.adobe.com/v/35132?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35132?quality=12&captions=spa)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
