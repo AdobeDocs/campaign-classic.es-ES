@@ -6,18 +6,18 @@ description: Definición de la secuenciación de la página de formularios web
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '702'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # Definición de la secuenciación de la página de formularios web{#defining-web-forms-page-sequencing}
 
-El formulario puede contener una o más páginas. Se crea mediante un diagrama que permite secuenciar páginas, pruebas, ejecución de secuencias de comandos, saltos de página y pasos de grabación. El modo de diseño de diagrama global es el mismo que para un flujo de trabajo de Campaña.
+El formulario puede contener una o más páginas. Se crea mediante un diagrama que permite secuenciar las páginas y las pruebas, la ejecución de scripts, los saltos de página y los pasos de registro. El modo del diseño del diagrama global es el mismo que para un flujo de trabajo de la campaña.
 
 ## Sobre la página anterior y la página siguiente {#about-previous-page-and-next-page}
 
