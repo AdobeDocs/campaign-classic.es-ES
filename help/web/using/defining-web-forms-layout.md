@@ -6,11 +6,11 @@ description: Definición del diseño de los formularios web
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '523'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ En el ejemplo anterior, la renderización es la siguiente:
 
 ## Colocación de los campos en la página {#positioning-the-fields-on-the-page}
 
-La presentación del formulario Web se define página por página en cada contenedor y se puede sobrecargar si es necesario.
+El diseño del formulario web se define página por página en cada contenedor y se puede sobrecargar si es necesario.
 
 Las páginas se dividen en columnas: cada página contiene un determinado número de columnas. Cada campo de la página ocupa **n** celdas. Los contenedores también ocupan un determinado número de columnas y los campos que contienen ocupan un determinado número de celdas..
 
