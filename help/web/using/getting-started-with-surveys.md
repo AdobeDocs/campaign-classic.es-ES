@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: Pasos clave para crear una encuesta
-description: Crear la primera encuesta con Campaña
+description: Creación de la primera encuesta con Campaign
 audience: web
 content-type: reference
 topic-tags: online-surveys
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '912'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -133,7 +133,7 @@ Para que los usuarios puedan acceder a las páginas HTML, la aplicación debe es
 
    ![](assets/s_ncs_admin_survey_start_publ.png)
 
-   El estado de la encuesta cambia a **En linea**.
+   El estado de la encuesta cambia a **En línea**.
 
    ![](assets/survey_published.png)
 
