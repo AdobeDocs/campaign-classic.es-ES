@@ -6,9 +6,9 @@ description: Descubra más información sobre la administración de la privacida
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8ff5450cc35153e61048c2671f6d52fbc5ffc5b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '891'
 ht-degree: 100%
 
