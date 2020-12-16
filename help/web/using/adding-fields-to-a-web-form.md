@@ -6,11 +6,11 @@ description: Adición de campos a un formulario web
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2457'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -196,7 +196,7 @@ Los botones de opción le permiten ofrecer al usuario varias opciones exclusivas
 
 ![](assets/s_ncs_admin_survey_radio_button.png)
 
-Puede crear botones de radio individualmente (botones unitarios) o a través de una lista de opción múltiple, pero como el punto de los botones de radio es seleccionar una opción u otra, siempre crearemos al menos un par de botones de radio, nunca un solo botón.
+Puede crear botones de opción por separado (botones unitarios) o a través de una lista de selección múltiple, pero ya que el objetivo de los botones de opción es seleccionar una opción u otra, siempre creamos al menos un par de botones de opción en vez de uno solo.
 
 >[!CAUTION]
 >
@@ -251,7 +251,7 @@ Se puede dar formato al contenido de los campos del formulario para que coincida
 
 ![](assets/s_ncs_admin_survey_date_calendar.png)
 
-Para permitir que el usuario introduzca una fecha en una página de formulario, agregue un campo de entrada y seleccione el tipo **[!UICONTROL Date...]**.
+Para permitir que el usuario escriba una fecha en una página de formulario, agregue un campo de entrada y seleccione el tipo **[!UICONTROL Date...]**.
 
 Introduzca una etiqueta para el campo y configure el modo de almacenamiento de datos.
 
@@ -392,9 +392,9 @@ Cuando el usuario valida una de las páginas del formulario, puede establecer un
 
 Este campo no es visible para el usuario, pero puede utilizarse para enriquecer los datos en el perfil de usuario.
 
-Para ello, coloque una **constante** en la página y especifique el valor y la ubicación del almacenamiento.
+Para ello, coloque una **constante** en la página y especifique el valor y la ubicación de almacenamiento.
 
-En el ejemplo siguiente, el campo **origen** del perfil de destinatario se rellena automáticamente cada vez que un usuario aprueba esta página. La constante no se muestra en la página.
+En el ejemplo siguiente, el campo de **origen** del perfil de destinatario se rellena automáticamente cada vez que un usuario aprueba esta página. La constante no se muestra en la página.
 
 ![](assets/s_ncs_admin_survey_constante.png)
 
