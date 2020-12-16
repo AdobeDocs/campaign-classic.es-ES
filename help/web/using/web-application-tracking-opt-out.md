@@ -6,11 +6,11 @@ description: Exclusión del seguimiento de aplicaciones web
 audience: web
 content-type: reference
 topic-tags: web-applications
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '670'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ Si tiene que escribir una JSSP, las API de servidor están disponibles:
 
 * **NL.ServerWebTracking._displayOptOutBanner()**
 
-   Devuelve &quot;true&quot; si la pancarta de exclusión debe mostrarse después de que el administrador haya seleccionado una pancarta de exclusión
+   Devuelve el valor verdadero si se debe mostrar el banner de exclusión después de que el administrador lo seleccione.
 
    Se llama a este código cuando el administrador ya ha elegido utilizar el banner de exclusión del seguimiento web.
 
