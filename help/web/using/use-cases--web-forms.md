@@ -6,11 +6,11 @@ description: '"Ejemplos de uso: formularios web"'
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '957'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -133,7 +133,7 @@ Para realizar esto, siga los pasos a continuación:
 
 1. Configure la actividad **[!UICONTROL Storage]** para guardar la información introducida en la página del formulario.
 
-   Esta actividad le permite crear perfiles de destinatario en una carpeta temporal dedicada para separarlos de los perfiles de la base de datos a los que se pueden enviar las comunicaciones.
+   Esta actividad permite crear perfiles de destinatario en una carpeta provisional específica para separarlos de los perfiles de la base de datos a los que se pueden enviar comunicaciones.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_5g.png)
 
