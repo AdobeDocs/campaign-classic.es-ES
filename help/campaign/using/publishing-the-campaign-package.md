@@ -6,11 +6,11 @@ description: Publicación del paquete de campaña
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ A continuación, puede iniciar el proceso de aprobación haciendo clic en **[!UI
 
 ![](assets/s_advuser_mkg_dist_valid_process.png)
 
-Hecho esto, se envía un mensaje de notificación al revisor para confirmar la disponibilidad de este paquete de campaña. El mensaje contiene un vínculo para aceptar o rechazar la aprobación a través del acceso web.
+Hecho esto, se envía un mensaje de notificación al revisor para confirmar la disponibilidad de este paquete de campaña. El mensaje contiene un vínculo para aceptar o rechazar la aprobación mediante el acceso a la web.
 
 ![](assets/s_advuser_mkg_dist_valid_process1.png)
 
