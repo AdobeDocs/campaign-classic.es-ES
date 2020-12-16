@@ -6,11 +6,11 @@ description: Envíe las mejores ofertas a sus contactos en función de las regla
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ La interacción permite crear y gestionar un catálogo de ofertas y configurar l
 
 ![](assets/Offermgt2.png)
 
-![](assets/do-not-localize/how-to-video.png) Para familiarizarse con la función de interacción y la terminología utilizada en la interacción de Campaña, vea  [este vídeo](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com).
+![](assets/do-not-localize/how-to-video.png) Para familiarizarse con la función de interacción y la terminología utilizada en Campaign Interaction, vea [este vídeo](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com).
 
 ## Temas relacionados
 
