@@ -6,11 +6,11 @@ description: Seguimiento de una aplicación web
 audience: web
 content-type: reference
 topic-tags: web-applications
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '409'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Las principales mejoras incluidas en esta versión son las siguientes:
 
    * **Tasa de conversión**: número de personas que han realizado todos los pasos de una ruta de navegación.
    * **Tasa de rechazo**: número de personas que solo han realizado el primer paso.
-   * **Canal** de conversión: tasa de pérdida entre cada paso.
+   * **Canal de conversión**: tasa de pérdida entre cada paso.
 
    Además, un gráfico de tipo sectorial muestra la población según su origen.****
 
