@@ -7,21 +7,21 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
+source-git-commit: 5b35d2ffdd0f591e2fe31dc98a54be9ea0c0c18d
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2017'
 ht-degree: 6%
 
 ---
 
 
-# Build Upgrade FAQ {#build-upgrade-faq}
+# Preguntas más frecuentes sobre la actualización de la compilación {#build-upgrade-faq}
 
-Adobe Campaign se actualiza periódicamente. If you are familiar with our published [Release Notes](../../rn/using/rn-overview.md), you are probably aware of the fact that on the average 2/3 minor versions packed with new features, improvements and fixes are released every year. Además, lanzamos versiones periódicamente solamente con correcciones acumulativas. Esta cadencia habitual de actualizaciones tiene como objetivo conseguir lo último y bueno en tus manos, manteniendo tu entorno totalmente seguro y mejorando obviamente tu experiencia con nuestro producto.
+Adobe Campaign se actualiza periódicamente. Si está familiarizado con nuestras [Notas de la versión](../../rn/using/rn-overview.md) publicadas, probablemente tenga en cuenta el hecho de que, en promedio, se publican 2/3 versiones menores repletas de nuevas funciones, mejoras y correcciones cada año. Además, lanzamos versiones periódicamente solamente con correcciones acumulativas. Esta cadencia habitual de actualizaciones tiene como objetivo conseguir lo último y bueno en tus manos, manteniendo tu entorno totalmente seguro y mejorando obviamente tu experiencia con nuestro producto.
 
 Es fundamental que nuestros clientes ejecuten la versión más reciente de Adobe Campaign. También permite que el Adobe ayude de manera mucho más eficiente en caso de que se produzcan problemas: identificar, reproducir y corregir un problema en una antigua compilación suele llevar más tiempo, sin mencionar que algunos problemas que puede encontrar pueden haberse corregido ya en una compilación reciente.
 
-Por lo tanto, iniciamos el programa [Gold Standard](https://helpx.adobe.com/es/campaign/kb/gold-standard.html) para trabajar en colaboración con nuestros clientes para actualizar de forma proactiva y regular sus entornos.
+Por lo tanto, iniciamos el programa [Gold Standard](https://helpx.adobe.com/es/campaign/kb/gold-standard.html) para trabajar en colaboración con nuestros clientes a fin de actualizar de manera proactiva y regular sus entornos.
 
 ## ¿Qué es una actualización de compilación?
 
@@ -31,11 +31,11 @@ Obtenga más información [en esta sección](../../rn/using/rn-overview.md).
 
 ## ¿Cuál es la versión más reciente de Adobe Campaign Classic?
 
-La versión más reciente del Campaign Classic, incluidas las nuevas funciones y la documentación, se detalla en las últimas [notas](../../rn/using/latest-release.md)de la versión.
+La versión más reciente del Campaign Classic, que incluye nuevas funciones y documentación, se detalla en las [Notas de la versión](../../rn/using/latest-release.md) más recientes.
 
 ## ¿Cómo sé qué versión estoy ejecutando?
 
-Consulte la versión desde **[!UICONTROL Help > About...]** el menú de la consola del cliente de Adobe Campaign. El **[!UICONTROL About]** cuadro contiene información detallada sobre la versión y la compilación que está ejecutando tanto para la consola como para el servidor.
+Compruebe su versión en el menú **[!UICONTROL Help > About...]** de la consola del cliente de Adobe Campaign. El cuadro **[!UICONTROL About]** contiene información detallada sobre la versión y la compilación que está ejecutando tanto para la consola como para el servidor.
 
 Obtenga más información [en esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
@@ -61,7 +61,7 @@ Por ejemplo, si se utiliza la información del servidor de la captura de pantall
 
 Adobe realizará una copia de seguridad del sistema antes de realizar cualquier cambio. Sin embargo, si hay un trabajo de personalización crítico en el sistema que no es de producción (servidores de ensayo o desarrollo), se RECOMIENDA MUCHO que exporte ese trabajo como paquete antes de cualquier actualización.
 
-![](assets/do-not-localize/how-to-video.png) Para obtener más información, [vea este vídeo](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).
+![](assets/do-not-localize/how-to-video.png) Para obtener más información,  [vea este vídeo](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).
 
 ## ¿Cuándo se realizarán las actualizaciones?
 
@@ -83,7 +83,7 @@ La actualización de la compilación es un proceso de dos pasos:
 
 1. La actualización misma: se actualiza el entorno de producción. Esta fase se realiza generalmente en unas pocas horas. Para entornos muy complejos debe esperarse un tiempo de inactividad más largo. En el evento de que algo va mal, se define una estrategia de reversión que se puede ejecutar.
 
-For more information, [refer to this document](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html).
+Para obtener más información, [consulte este documento](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html).
 
 ## ¿Qué recursos se necesitan para la actualización de la compilación?
 
@@ -96,15 +96,15 @@ El proceso de actualización de la compilación requiere los siguientes recursos
 
 ## ¿Cómo puedo prepararme para la actualización de la compilación?
 
-En sus sistemas de desarrollo y ensayo, exporte cualquier trabajo que sea crítico y que deba preservarse. Para obtener más información, [vea este vídeo](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).
+En sus sistemas de desarrollo y ensayo, exporte cualquier trabajo que sea crítico y que deba preservarse. Para obtener más información, [vea este video](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).
 
 Actualice su conocimiento de los flujos de trabajo y envíos de ruta críticos desarrollados en los libros de ejecución (o por su equipo de consultoría o socio) mediante la revisión de la documentación proporcionada a su equipo al final de la implementación.
 
 Identifique los tiempos de bajo volumen o bajo tráfico que sean ideales para las ventanas de mantenimiento, ya que producirán el menor impacto comercial.
 
-Revise nuestra lista de comprobación de actualización de [compilación a continuación](#check-list) y sus planes de prueba y asegúrese de que los recursos que pueden realizar estas pruebas estén disponibles entre las 24 y las 48 horas. de la finalización de una actualización.
+Revise nuestra [lista de comprobación de actualización de la ](#check-list) compilación y sus planes de prueba y asegúrese de que los recursos que pueden realizar estas pruebas estén disponibles entre las 24 y las 48 horas. de la finalización de una actualización.
 
-For more information, [refer to this document](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html).
+Para obtener más información, [consulte este documento](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html).
 
 ## ¿Se pueden realizar actualizaciones de la compilación por la noche o durante las horas fuera de servicio?
 
@@ -136,7 +136,7 @@ Sí. Los clientes deben proporcionar al Adobe un punto de contacto disponible du
 
 ## ¿Debo actualizar la consola de cliente?
 
-Sí. La consola de cliente debe estar en la misma compilación o compilación más reciente que la instancia de servidor. Una vez completada la actualización, la consola de cliente debe solicitarle que actualice a la última compilación para asegurarse de que se mantiene alineada con la compilación del servidor.
+Sí. La consola de cliente debe estar en la misma compilación que la instancia de servidor. Una vez completada la actualización, la consola de cliente debe solicitarle que actualice a la última compilación para asegurarse de que se mantiene alineada con la compilación del servidor.
 
 ## ¿Cuál es el plan de reversión? ¿Se guardan los backups de mis datos?
 
@@ -148,13 +148,13 @@ Depende del tamaño de copia de seguridad de la base de datos. El tiempo promedi
 
 ## ¿Qué tipos de pruebas se realizan en mi sistema después de la actualización?
 
-Consulte la lista de comprobación de actualización de [compilación que aparece a continuación](#check-list).
+Consulte la [lista de comprobación de la actualización de la &lt;a0/>compilación a continuación](#check-list).
 
 ## ¿Qué tipo de prueba debo realizar después de la actualización?
 
 Los entornos de desarrollo y de fase se actualizan de forma secuencial o conjunta, pero se necesita una firma antes de actualizar la instancia de producción. Esto permite a cada cliente realizar pruebas exhaustivas antes de cerrar sesión en cualquier cambio en la producción.
 
-Consulte la lista de comprobación de la actualización de la [compilación de listas más abajo](#check-list). Los clientes deben ejecutar pruebas similares así como otras que puedan necesitar para el entorno.
+Consulte la lista de comprobación de la actualización de la lista [compilación más abajo](#check-list). Los clientes deben ejecutar pruebas similares así como otras que puedan necesitar para el entorno.
 
 ## ¿Con qué frecuencia debo realizar una actualización de compilación?
 
@@ -166,9 +166,9 @@ Sí. El servidor se apaga durante una actualización para garantizar que se cons
 
 ## ¿Con quién debo contactar para abrir una incidencia de actualización de compilación?
 
-Si tiene problemas tras una actualización de la compilación, póngase en contacto con el Servicio de atención al cliente de [Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). El Servicio de atención al cliente programa las fechas de compilación y abre los tickets relacionados con la actualización de compilación.
+Si tiene problemas tras una actualización de la compilación, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). El Servicio de atención al cliente programa las fechas de compilación y abre los tickets relacionados con la actualización de compilación.
 
-Obtenga más información en las opciones de [ayuda y asistencia técnica para Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support-req)
+Obtenga más información en [Opciones de ayuda y soporte para Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support-req)
 
 ## Generar lista de comprobación de actualización {#check-list}
 
@@ -185,9 +185,12 @@ Obtenga más información en las opciones de [ayuda y asistencia técnica para C
 
 * ¿Puede iniciar sesión en el servidor? Compruebe que la consola del cliente de Campaña funciona sin que aparezcan errores o advertencias.
 * Asegúrese de utilizar la misma versión de la consola que la versión de compilación después de la actualización.
-* ¿Tiene aplicaciones Web que inserten datos en la base de datos de Campaña? Si es así, ejecútelos y compruebe que pueden insertar nuevos registros a través de la API.
-* ¿Puede enviar una prueba de correo electrónico correctamente? Cree un nuevo envío con una plantilla conocida, envíela a un destinatario de prueba, verifique la personalización, dessubvincule y página espejo de todos los trabajos.
-* ¿Se están ejecutando todos los flujos de trabajo de ruta críticos? Compruebe flujos de trabajo, abra el historial de flujo de trabajo y compruebe que no hay errores.
+* ¿Tiene aplicaciones Web que inserten datos en la base de datos de Campaña? Si es así, ejecútelos y
+compruebe que pueden insertar nuevos registros a través de la API.
+* ¿Puede enviar una prueba de correo electrónico correctamente? Crear nuevo envío con una plantilla conocida, enviarla a
+un destinatario de prueba, comprobar la personalización, dessubvincular, página espejo todos funcionan.
+* ¿Se están ejecutando todos los flujos de trabajo de ruta críticos? Comprobar flujos de trabajo, abrir historial de flujo de trabajo, comprobar
+que no hay errores.
 * ¿Están todas las carpetas presentes, visibles y accesibles? Navegue por diferentes carpetas y verifique.
 todo el contenido se muestra y está presente.
 * ¿Llegan sus envíos con el huso horario correcto?
@@ -206,4 +209,4 @@ todo el contenido se muestra y está presente.
 * [Realización de una actualización de versión](../../production/using/build-upgrade.md)
 * [Notas de la versión de Campaign Classic ](../../rn/using/rn-overview.md)
 * [Opciones de ayuda y asistencia técnica para Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support-req)
-* [Programa estándar Gold](https://helpx.adobe.com/es/campaign/kb/gold-standard.html)
+* [Programa estándar Gold](https://helpx.adobe.com/campaign/kb/gold-standard.html)
