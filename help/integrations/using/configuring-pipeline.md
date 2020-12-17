@@ -7,10 +7,10 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
 translation-type: tm+mt
-source-git-commit: 7353abfe07bc177d103c83c7f2a5d57d7fb415a3
+source-git-commit: 0abdbbc33350cf6ec85488483dadb177e685818b
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 99%
+source-wordcount: '906'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Los activadores se utilizan para la segmentación mediante un flujo de trabajo d
 
 Antes de iniciar esta configuración, compruebe que está utilizando lo siguiente:
 
-* Versión mínima de Adobe Campaign 20.3 o Gold Standard 11
+* Adobe Campaign 20.3 como mínimo
 * Versión Adobe Analytics Standard
 
 También necesitará esto:
