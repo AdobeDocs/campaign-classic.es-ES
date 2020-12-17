@@ -6,11 +6,11 @@ description: Descubra más información sobre cómo configurar la canalización
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '906'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7353abfe07bc177d103c83c7f2a5d57d7fb415a3
+workflow-type: tm+mt
+source-wordcount: '909'
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,7 @@ Los activadores se utilizan para la segmentación mediante un flujo de trabajo d
 
 Antes de iniciar esta configuración, compruebe que está utilizando lo siguiente:
 
-* Adobe Campaign 20.3 como mínimo
+* Versión mínima de Adobe Campaign 20.3 o Gold Standard 11
 * Versión Adobe Analytics Standard
 
 También necesitará esto:
