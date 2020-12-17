@@ -22,10 +22,12 @@ El **editor de contenido digital (DCE)** es un editor de contenido HTML que perm
 Con el editor de contenido digital puede insertar y dar formato a elementos de página y asignar campos de base de datos con elementos de una página HTML. Este editor está disponible al crear una página para una aplicación web o al crear envíos basados en una plantilla del DCE.
 
 >[!NOTE]
+>
 >>Si necesita agregar un código JavaScript del lado del servidor, utilice bloques de personalización. [Más información](../../delivery/using/personalization-blocks.md).
 >
 >[!CAUTION]
-Es necesario hacer referencia a todos los recursos externos con una URL HTTPS.
+>
+>Es necesario hacer referencia a todos los recursos externos con una URL HTTPS.
 
 ## Pasos clave para utilizar el Editor de contenido digital {#content-editor-general-operation}
 
@@ -43,7 +45,8 @@ Para crear una **aplicación web** simple, debe hacer lo siguiente:
 1. Publicación de la aplicación web: [Más información](../../web/using/creating-a-landing-page.md#step-3---publishing-content)
 
 >[!NOTE]
-En [esta sección](../../web/using/creating-a-landing-page.md) encontrará una muestra completa de la implementación en el contexto de una aplicación web.
+>
+>En [esta sección](../../web/using/creating-a-landing-page.md) encontrará una muestra completa de la implementación en el contexto de una aplicación web.
 
 Para crear un **envío de correo electrónico**, debe hacer lo siguiente:
 
@@ -53,4 +56,5 @@ Para crear un **envío de correo electrónico**, debe hacer lo siguiente:
 1. Realización del envío: [Más información](../../delivery/using/steps-about-delivery-creation-steps.md)
 
 >[!NOTE]
-En [este ejemplo de uso](../../web/using/use-case--creating-an-email-delivery.md) encontrará una muestra completa de la implementación en el contexto de un envío de correo electrónico.
+>
+>En [este ejemplo de uso](../../web/using/use-case--creating-an-email-delivery.md) encontrará una muestra completa de la implementación en el contexto de un envío de correo electrónico.
