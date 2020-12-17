@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 5b35d2ffdd0f591e2fe31dc98a54be9ea0c0c18d
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '191'
 ht-degree: 1%
 
 ---
@@ -36,9 +36,13 @@ Adobe Campaign se basa en varios procesos ejecutados en el servidor que deberá 
 * Envío server (nlserver mta)
 * Servidor de redirección (webmdl)
 
+>[!CAUTION]
+>
+>La consola de cliente debe estar en la misma compilación que la instancia de servidor.
+
 >[!NOTE]
 >
->For more on the various Adobe Campaign processes, refer to [this section](../../installation/using/general-architecture.md#logical-application-layer).\
+>Para obtener más información sobre los distintos procesos de Adobe Campaign, consulte [esta sección](../../installation/using/general-architecture.md#logical-application-layer).\
 >Al utilizar la arquitectura de tipo Power Booster o Power Cluster, debe aplicar este proceso a todos los servidores Power Booster/Cluster.
 
 Si la nueva versión implica una modificación de la estructura de la base de datos, recomendamos reiniciar los servidores en el siguiente orden:
