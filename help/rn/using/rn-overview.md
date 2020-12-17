@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 5b35d2ffdd0f591e2fe31dc98a54be9ea0c0c18d
+source-git-commit: 0abdbbc33350cf6ec85488483dadb177e685818b
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 96%
+source-wordcount: '429'
+ht-degree: 100%
 
 ---
 
@@ -44,8 +44,6 @@ La **última versión RC**[ es Campaign Classic 20.3.](../../rn/using/latest-rel
 ## Recomendaciones{#recommendations}
 
 Para garantizar una configuración estable, le recomendamos que instale la misma versión estable en todos los servidores que se ejecuten en la misma configuración de cliente.
-
-Además, la consola de cliente debe estar en la misma compilación que la instancia de servidor.
 
 Para mantener la implementación actualizada, asegúrese de leer las páginas [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md) y [Matriz de compatibilidades](../../rn/using/compatibility-matrix.md) con cada nueva versión.
 
