@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
+source-git-commit: fa8e63051b4c8bbcfd4000a1e59fa6d91422149d
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: '2215'
 ht-degree: 99%
 
 ---
@@ -46,6 +46,7 @@ ht-degree: 99%
          + [Preguntas frecuentes](platform/using/common-questions.md)
          + [Conceptos clave](platform/using/faq-key-concepts.md)
          + [Actualización de versión](platform/using/faq-build-upgrade.md)
+         + [Privacidad](platform/using/privacy-faq.md)
          + [Audiencias](platform/using/faq-audiences.md)
          + [Diseñar mensajes](platform/using/faq-designing.md)
          + [entrega de mensajes](platform/using/faq-messages.md)
@@ -58,7 +59,6 @@ ht-degree: 99%
       + [Privacidad y consentimiento](platform/using/privacy-and-recommendations.md)
       + [Administración de la privacidad](platform/using/privacy-management.md)
       + [Solicitudes de privacidad](platform/using/privacy-requests.md)
-      + [Preguntas más frecuentes sobre Privacidad](platform/using/privacy-faq.md)
    + Administración de perfiles {#profile-management}
       + [Acerca de los perfiles](platform/using/about-profiles.md)
       + [Edición de perfiles](platform/using/editing-a-profile.md)
