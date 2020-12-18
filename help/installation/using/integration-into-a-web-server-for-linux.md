@@ -52,7 +52,7 @@ Siga estos pasos:
    a2dismod auth_basic authn_file authz_default authz_user autoindex cgi dir env negotiation userdir
    ```
 
-   Asegúrese de que los módulos **alias**, **authz_host** y **mime** siguen activados. Para ello, utilice el siguiente comando:
+   Asegúrese de que los módulos **alias**, **authz_host** y **mime** siguen habilitados. Para ello, utilice el siguiente comando:
 
    ```
    a2enmod  alias authz_host mime
@@ -78,13 +78,13 @@ Siga estos pasos:
     a2enmod nlsrv
    ```
 
-   Si está utilizando el módulo **mod_rewrite** para páginas de Adobe Campaign, debe cambiar el nombre de los archivos **nlsrv.load** y **nlsrv.conf** a **zz-nlsrv.load** y **zz-nlsrv.conf**. Para activar el módulo, ejecute el siguiente comando:
+   Si utiliza el módulo **mod_rewrite** para las páginas de Adobe Campaign, debe cambiar el nombre de los archivos **nlsrv.load** y **nlsrv.conf** a **zz-nlsrv.load** y **zz-nlsrv.conf a9/>.** Para activar el módulo, ejecute el siguiente comando:
 
    ```
    a2enmod zz-nlsrv
    ```
 
-1. Edite el archivo **/etc/apache2/envvars** y agregue las siguientes líneas:
+1. Edite el archivo **/etc/apache2/envvars** y agregue las líneas siguientes:
 
    ```
    # Added Neolane
@@ -113,7 +113,7 @@ Este procedimiento se aplica si ha instalado y asegurado Apache en un paquete ba
 
 Siga estos pasos:
 
-1. En el `httpd.conf` archivo, active los siguientes módulos de Apache:
+1. En el archivo `httpd.conf`, active los siguientes módulos Apache:
 
    ```
    alias
@@ -152,7 +152,7 @@ Siga estos pasos:
    ForceLanguagePriority
    ```
 
-1. Cree un archivo de configuración específico de Adobe Campaign en la `/etc/httpd/conf.d/` carpeta. Por ejemplo `CampaignApache.conf`
+1. Cree un archivo de configuración específico de Adobe Campaign en la carpeta `/etc/httpd/conf.d/`. Por ejemplo `CampaignApache.conf`
 
 1. Para **RHEL7**, agregue las siguientes instrucciones en el archivo:
 
@@ -163,7 +163,7 @@ Siga estos pasos:
 
 1. Para **RHEL7**:
 
-   Añada el `/etc/systemd/system/httpd.service` archivo con el siguiente contenido:
+   Añada el archivo `/etc/systemd/system/httpd.service` con el siguiente contenido:
 
    ```
    .include /usr/lib/systemd/system/httpd.service
