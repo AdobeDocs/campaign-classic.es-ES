@@ -17,9 +17,9 @@ ht-degree: 11%
 
 # Administración de flujos de trabajo{#managing-workflows}
 
-De forma predeterminada, los nuevos flujos de trabajo se basan en una plantilla de flujo de trabajo preconfigurada y basada en una tabla de destinatario (nms:destinatario). Para que se basen automáticamente en la tabla personalizada de destinatarios a la que se hace referencia en la opción **Nms_DefaultRcpSchema** (consulte [Configuración de la sección de interfaz](../../configuration/using/configuring-the-interface.md) ), debe crear una nueva plantilla de flujo de trabajo.
+De forma predeterminada, los nuevos flujos de trabajo se basan en una plantilla de flujo de trabajo preconfigurada y basada en una tabla de destinatario (nms:destinatario). Para que se basen automáticamente en la tabla personalizada de destinatarios a la que se hace referencia en la opción **Nms_DefaultRcpSchema** (consulte [Configuración de la interfaz](../../configuration/using/configuring-the-interface.md)), debe crear una nueva plantilla de flujo de trabajo.
 
-Create a new template via the **[!UICONTROL Resources > Templates > Workflow templates]** node. En las propiedades de la plantilla, las dimensiones proporcionadas coinciden con la tabla de destinatarios externos.
+Cree una nueva plantilla a través del nodo **[!UICONTROL Resources > Templates > Workflow templates]**. En las propiedades de la plantilla, las dimensiones proporcionadas coinciden con la tabla de destinatarios externos.
 
 Al basar sus nuevos flujos de trabajo en una plantilla creada recientemente, la tabla personalizada se seleccionará de forma predeterminada para las dimensiones de filtrado y objetivos globales del flujo de trabajo.
 
