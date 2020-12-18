@@ -38,7 +38,7 @@ Antes de usar las API de Adobe Campaign, debe conocer los siguientes temas:
 
 ## Uso de las API de Adobe Campaign {#using-adobe-campaign-apis}
 
-Adobe Campaign utiliza dos tipos de API:
+Adobe Campaign uses two types of APIs:
 
 * API de acceso a datos genéricos para consultar los datos del modelo de datos. Consulte [API orientadas a datos](../../configuration/using/data-oriented-apis.md).
 * API empresariales específicas que le permiten actuar en cada objeto: envíos, flujos de trabajo, suscripciones, etc. Consulte [API orientadas al negocio](../../configuration/using/business-oriented-apis.md).
