@@ -29,7 +29,7 @@ La siguiente lista contiene únicamente las tablas más sujetas a fragmentación
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Nombre de tabla </strong><br /> </th> 
+   <th> <strong>Nombre de tabla  </strong><br /> </th> 
    <th> <strong>Tamaño</strong><br /> </th> 
    <th> <strong>Tipo principal de actividad</strong><br /> </th> 
    <th> <strong>Comentarios</strong><br /> </th> 
@@ -44,7 +44,7 @@ La siguiente lista contiene únicamente las tablas más sujetas a fragmentación
   </tr> 
   <tr> 
    <td> NmsDeliveryPart<br /> </td> 
-   <td> Medio<br /> </td> 
+   <td> Media<br /> </td> 
    <td> Inserciones, actualizaciones, eliminaciones<br /> </td> 
    <td> Tabla de trabajo en la que se insertan los registros durante la preparación del envío. Después se actualizan durante el envío y se eliminan una vez finalizado el envío.<br /> Esta tabla tiende a fragmentarse rápidamente aunque su tamaño promedio sea bastante limitado.<br /> </td> 
   </tr> 
@@ -56,13 +56,13 @@ La siguiente lista contiene únicamente las tablas más sujetas a fragmentación
   </tr> 
   <tr> 
    <td> NmsDeliveryStat<br /> </td> 
-   <td> Medio<br /> </td> 
+   <td> Media<br /> </td> 
    <td> Inserciones, actualizaciones, eliminaciones<br /> </td> 
    <td> Esta tabla contiene estadísticas sobre el proceso de envío. Sus registros se actualizan periódicamente. <br /> </td> 
   </tr> 
   <tr> 
    <td> NmsAddress<br /> </td> 
-   <td> Medio<br /> </td> 
+   <td> Media<br /> </td> 
    <td> Actualizaciones, inserciones<br /> </td> 
    <td> Esta tabla contiene información sobre las direcciones de correo electrónico. Se actualiza con frecuencia como parte del proceso de cuarentena (los registros se crean con el primer error de envío, se actualizan cuando los contadores cambian y se eliminan cuando el envío se realiza correctamente). <br /> </td> 
   </tr> 
@@ -70,7 +70,7 @@ La siguiente lista contiene únicamente las tablas más sujetas a fragmentación
    <td> XtkWorkflow<br /> </td> 
    <td> Pequeño<br /> </td> 
    <td> Actualizaciones<br /> </td> 
-   <td> Hay un registro por instancia de flujo de trabajo, por lo que hay muy pocos registros. Sin embargo, la tabla se actualiza periódicamente para reflejar el estado y el progreso.<br /> </td> 
+   <td> Hay un registro por instancia de flujo de trabajo, por lo que hay muy pocos registros. Sin embargo, la tabla se actualiza regularmente para reflejar el estado y el progreso.<br /> </td> 
   </tr> 
   <tr> 
    <td> XtkWorkflowTask<br /> </td> 
@@ -92,7 +92,7 @@ La siguiente lista contiene únicamente las tablas más sujetas a fragmentación
   </tr> 
   <tr> 
    <td> NmsBroadLog<br /> </td> 
-   <td> Más grande<br /> </td> 
+   <td> Mayor<br /> </td> 
    <td> Inserciones, actualizaciones, eliminaciones<br /> </td> 
    <td> Ésta es la tabla más grande del sistema. Hay un registro por mensaje enviado, y estos registros se insertan, actualizan para rastrear el estado del envío y se eliminan al depurar el historial. <br /> </td> 
   </tr> 
@@ -110,7 +110,7 @@ La siguiente lista contiene únicamente las tablas más sujetas a fragmentación
   </tr> 
   <tr> 
    <td> NmsEmailErrorStat<br /> </td> 
-   <td> Medio<br /> </td> 
+   <td> Media<br /> </td> 
    <td> Inserciones, actualizaciones, eliminaciones<br /> </td> 
    <td> Esta tabla contiene los agregados de los errores SMTP ordenados por dominio. En un principio contiene información detallada que la tarea de limpieza agrega una vez que está desactualizada. <br /> </td> 
   </tr> 
@@ -127,7 +127,7 @@ La siguiente lista contiene únicamente las tablas más sujetas a fragmentación
    <td> Ésta es la tabla más grande del sistema. Hay un registro por mensaje enviado, y estos registros se insertan, actualizan para rastrear el estado del envío y se eliminan al depurar el historial. Tenga en cuenta que en 5.10, esta tabla es más pequeña que el equivalente en 4.05 (NmsBroadLog), ya que el texto del mensaje SMTP se factoriza en la tabla NmsBroadLogMsg de la versión 5.10. Sin embargo, sigue siendo esencial volver a indexar esta tabla con regularidad (cada dos semanas para inicios) y reconstruirla completamente de vez en cuando (una vez al mes o cuando el rendimiento se ve afectado). <br /> </td> 
   </tr> 
   <tr> 
-   <td> AAAABroadLogXxx (cuando se utiliza una tabla de destinatario externa)<br /> </td> 
+   <td> YyyBroadLogXxx (cuando se utiliza una tabla de destinatario externa)<br /> </td> 
    <td> Grande<br /> </td> 
    <td> Inserciones, actualizaciones, eliminaciones<br /> </td> 
    <td> Igual que NmsBroadLogRcp pero con una tabla de destinatario externa. Adapte AAAA y Xxx con los valores de la asignación de envíos. <br /> </td> 
@@ -148,13 +148,13 @@ La siguiente lista contiene únicamente las tablas más sujetas a fragmentación
    <td> NmsBroadLogRtEvent (instancia de ejecución del centro de mensajes)<br /> </td> 
    <td> Grande<br /> </td> 
    <td> Inserciones, actualizaciones, eliminaciones<br /> </td> 
-   <td> Es similar a las otras tablas de registro extensivo, pero con NmsRtEvent en lugar de NmsRecipient.<br /> </td> 
+   <td> Similar a las otras tablas de registro extenso, pero con NmsRtEvent en lugar de NmsRecipient.<br /> </td> 
   </tr> 
   <tr> 
-   <td> NmsTrackingLogRtEvent(instancia de ejecución del centro de mensajes)<br /> </td> 
+   <td> NmsTrackingLogRtEvent( instancia de ejecución del centro de mensajes)<br /> </td> 
    <td> Grande<br /> </td> 
    <td> Inserciones, eliminaciones<br /> </td> 
-   <td> Similar a las otras tablas trackingLog, pero con la tabla NmsRtEvent en lugar de NmsRecipient.<br /> </td> 
+   <td> Similar a otras tablas trackingLog, pero con la tabla NmsRtEvent en lugar de NmsRecipient.<br /> </td> 
   </tr> 
   <tr> 
    <td> NmsRtEvent (instancia de ejecución del centro de mensajes)<br /> </td> 
@@ -184,13 +184,13 @@ La siguiente lista contiene únicamente las tablas más sujetas a fragmentación
    <td> NmsBroadLogAppSubRcp<br /> </td> 
    <td> Grande<br /> </td> 
    <td> Inserciones, actualizaciones, eliminaciones<br /> </td> 
-   <td> Similar a las otras tablas de registro masivo, pero con NmsappSubscriptionRcp en lugar de NmsRecipient.<br /> </td> 
+   <td> Similar a las otras tablas de bitlog, pero con NmsappSubscriptionRcp en lugar de NmsRecipient.<br /> </td> 
   </tr> 
   <tr> 
    <td> NmsTrackingLogAppSubRcp<br /> </td> 
    <td> Grande<br /> </td> 
    <td> Inserciones, eliminaciones<br /> </td> 
-   <td> Similar a las otras tablas trackingLog, pero con la tabla NmsappSubscriptionRcp en lugar de NmsRecipient.<br /> </td> 
+   <td> Similar a otras tablas trackingLog, pero con la tabla NmsappSubscriptionRcp en lugar de NmsRecipient.<br /> </td> 
   </tr> 
   <tr> 
    <td> XtkSessionInfo<br /> </td> 
