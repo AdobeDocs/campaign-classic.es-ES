@@ -23,16 +23,16 @@ Existen dos escenarios posibles:
 
 * Contraseña perdida por un operador de Adobe Campaign.
 
-   En este caso, puede cambiar la contraseña del operador en cuestión. Para ello, conecte mediante un operador con derechos de administrador, haga clic con el botón derecho en un operador, seleccione **[!UICONTROL Actions]** > **[!UICONTROL Reset password]** y defina la nueva contraseña del operador. Recomendamos que los operadores cambien su contraseña cuando vuelvan a conectarse por primera vez.
+   En este caso, puede cambiar la contraseña del operador en cuestión. Para ello, conéctese mediante un operador con derechos de administrador, haga clic con el botón derecho en un operador, seleccione **[!UICONTROL Actions]** > **[!UICONTROL Reset password]** y establezca la nueva contraseña del operador. Recomendamos que los operadores cambien su contraseña cuando vuelvan a conectarse por primera vez.
 
    ![](assets/operator-passwd.png)
 
-* **Pérdida interna** de contraseñas (solo clientes locales).
+* **Pérdida de contraseña** interna (sólo clientes locales).
 
-   Si se pierde la contraseña **interna** , debe reinicializarla. Para ello, siga el procedimiento siguiente:
+   Si se pierde la contraseña **interna**, debe reinicializarla. Para ello, siga el procedimiento siguiente:
 
-   1. Edite el archivo **/usr/local/neolane/nl6/conf/serverConf.xml** .
-   1. Vaya a la línea **internalPassword** .
+   1. Edite el archivo **/usr/local/neolane/nl6/conf/serverConf.xml**.
+   1. Vaya a la línea **internalPassword**.
 
       ```
       <!-- XTK authentication mode internalPassword : Password of internal account -->
@@ -61,5 +61,5 @@ Existen dos escenarios posibles:
       Confirmation 
       ```
 
-   1. Ahora puede utilizar su nueva contraseña para conectarse en modo **interno** .
+   1. Ahora puede utilizar su nueva contraseña para conectarse en modo **Interno**.
 
