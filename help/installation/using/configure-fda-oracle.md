@@ -17,10 +17,10 @@ ht-degree: 74%
 
 # Configuración del acceso a Oracle {#configure-access-to-oracle}
 
-Utilice la opción [Acceso de datos federado](../../installation/using/about-fda.md) de Campaña (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Oracle.
+Utilice la opción Campaña [Acceso de datos federado](../../installation/using/about-fda.md) (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Oracle.
 
 1. Configurar Oracle en [Linux](#oracle-linux) o [Windows](#azure-windows)
-1. Configurar la [cuenta externa](#oracle-external) de Oracle en Campaña
+1. Configurar la cuenta externa [de Oracle](#oracle-external) en Campaña
 
 ## Oracle en Linux {#oracle-linux}
 
@@ -62,7 +62,7 @@ La conexión a una base de datos externa de Oracle en FDA requiere ciertas confi
       yum install libaio1
       ```
 
-1. En Campaign Classic, puede configurar la cuenta externa [!DNL Oracle]. For more on how to configure your external account, refer to [this section](#oracle-external).
+1. En Campaign Classic, puede configurar la cuenta externa [!DNL Oracle]. Para obtener más información sobre cómo configurar su cuenta externa, consulte [esta sección](#oracle-external).
 
 ## Oracle en Windows {#oracle-windows}
 
@@ -74,11 +74,11 @@ La conexión a una base de datos externa de Oracle en FDA requiere ciertas confi
 
 1. Añada una variable de entorno TNS_ADMIN con C:\Oracle como valor y reinicie el equipo.
 
-1. En Campaign Classic, puede configurar la cuenta externa [!DNL Oracle]. For more on how to configure your external account, refer to [this section](#oracle-external).
+1. En Campaign Classic, puede configurar la cuenta externa [!DNL Oracle]. Para obtener más información sobre cómo configurar su cuenta externa, consulte [esta sección](#oracle-external).
 
 ## Cuenta externa de Oracle {#oracle-external}
 
-The [!DNL Oracle] external account allows you to connect your Campaign instance to your Oracle external database.
+La cuenta externa [!DNL Oracle] permite conectar la instancia de Campaña a la base de datos externa de Oracle.
 
 1. En la Campaña **[!UICONTROL Explorer]**, seleccione **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
 
