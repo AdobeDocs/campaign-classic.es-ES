@@ -17,10 +17,10 @@ ht-degree: 81%
 
 # Configuración del acceso a Hadoop {#configure-access-to-hadoop}
 
-Utilice la opción **Acceso de datos federado** de Campaña (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Hadoop.
+Utilice la opción Campaña **Acceso de datos federado** (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Hadoop.
 
-1. Configurar la base de datos de [Hadoop](#configuring-hadoop)
-1. Configurar la [cuenta externa](#hadoop-external) de Hadoop en Campaña
+1. Configurar [base de datos de Hadoop](#configuring-hadoop)
+1. Configurar la cuenta externa [de Hadoop](#hadoop-external) en Campaña
 
 ## Configuración de Hadoop 3.0 {#configuring-hadoop}
 
@@ -37,7 +37,7 @@ La conexión a una base de datos externa de Hadoop en FDA requiere las siguiente
    systemctl start nlserver.service
    ```
 
-1. En Campaign Classic, puede configurar la cuenta externa [!DNL Hadoop]. For more on how to configure your external account, refer to [this section](#hadoop-external).
+1. En Campaign Classic, puede configurar la cuenta externa [!DNL Hadoop]. Para obtener más información sobre cómo configurar su cuenta externa, consulte [esta sección](#hadoop-external).
 
 ## Cuenta externa de Hadoop {#hadoop-external}
 
@@ -74,7 +74,7 @@ El conector admite las siguientes opciones de ODBC:
 
 El conector también admite las siguientes opciones de Hive:
 
-| Name | Valor | Descripción |
+| Nombre | Valor | Descripción |
 |---|---|---|
 | bulkKey | Clave de acceso de Azure blob o DataLake | Para cargadores masivos wasb:// o wasbs:// (es decir, si la herramienta de carga masiva inicio con wasb:// o wasbs://). <br>Es la clave de acceso para blob o el bloque DataLake para la carga masiva. |
 | hdfsPort | número de puerto <br>establecido de forma predeterminada en 8020. | Para la carga masiva de HDFS (es decir, si la herramienta de carga masiva inicia con webhdfs:// o webhdfss://). |
@@ -100,7 +100,7 @@ Si necesita conectarse a Hadoop 2.1, siga los pasos descritos a continuación pa
    User/Password: admin/<your password here>
    ```
 
-1. Create the Hadoop external account, as detailed in [this section](#hadoop-external).
+1. Cree la cuenta externa de Hadoop, tal como se detalla en [esta sección](#hadoop-external).
 
 ### Hadoop 2.1 para Linux {#for-linux}
 
@@ -110,7 +110,7 @@ Si necesita conectarse a Hadoop 2.1, siga los pasos descritos a continuación pa
    apt-get install unixodbc
    ```
 
-1. Download and install ODBC drivers for Apache Hive from HortonWorks: [https://www.cloudera.com/downloads.html](https://www.cloudera.com/downloads.html).
+1. Descargue e instale controladores ODBC para Apache Hive desde HortonWorks: [https://www.cloudera.com/downloads.html](https://www.cloudera.com/downloads.html).
 
    ```
    dpkg -i hive-odbc-native_2.1.10.1014-2_amd64.deb
@@ -187,5 +187,5 @@ Si necesita conectarse a Hadoop 2.1, siga los pasos descritos a continuación pa
    isql vorac -v
    ```
 
-1. Create the Hadoop external account, as detailed in [this section](#hadoop-external).
+1. Cree la cuenta externa de Hadoop, tal como se detalla en [esta sección](#hadoop-external).
 
