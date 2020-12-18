@@ -17,11 +17,11 @@ ht-degree: 4%
 
 # Administración de informes{#managing-reports}
 
-Los informes basados en un esquema específico de los destinatarios predeterminados de Adobe Campaign (vinculados mediante nm:destinatario o esquema) deben redesarrollarse para tener en cuenta los datos de la tabla personalizada y sus tablas vinculadas mediante la asignación de destino (consulte la sección de [Asignación de destino](../../configuration/using/target-mapping.md) ).
+Los informes basados en un esquema específico de los destinatarios predeterminados de Adobe Campaign (nm:destinatario o esquema vinculados) deben redesarrollarse para tener en cuenta los datos de la tabla personalizada y sus tablas vinculadas mediante la asignación de destino (consulte la sección [Asignación de destino](../../configuration/using/target-mapping.md)).
 
 Para crear nuevos informes, consulte [esta sección](../../reporting/using/about-reports-creation-in-campaign.md).
 
-En algunos casos, también debe poner en marcha nuevos cubos específicos de estas tablas. Cubes are detailed in [this section](../../reporting/using/about-cubes.md).
+En algunos casos, también debe poner en marcha nuevos cubos específicos de estas tablas. Los cubos se detallan en [esta sección](../../reporting/using/about-cubes.md).
 
 Se trata de los siguientes informes:
 
