@@ -27,7 +27,7 @@ Existen tres umbrales diferentes:
 
    * Lado de Tomcat: todas las consultas que llegan en realidad al cliente Adobe Campaign Tomcat.
 
-      Este umbral se configura en el archivo **nl6/tomcat-8/conf/server.xml** . El atributo **maxThread** permite aumentar el umbral del número de consultas procesadas a la vez. Se puede cambiar a 250, por ejemplo.
+      Este umbral se configura en el archivo **nl6/tomcat-8/conf/server.xml**. El atributo **maxThwords** permite aumentar el umbral del número de consultas procesadas a la vez. Se puede cambiar a 250, por ejemplo.
 
       ```
       <Connector protocol="HTTP/1.1" port="8080"
@@ -43,7 +43,7 @@ Existen tres umbrales diferentes:
 
    * Base de datos: conjunto de todas las conexiones abiertas al mismo tiempo en la base de datos mediante un proceso.
 
-      Este umbral se configura en el archivo **nl6/conf/serverConf.xml**. El atributo **maxCnx** ubicado en el grupo **de** orígenes de datos permite aumentar el umbral de consultas procesadas simultáneamente.
+      Este umbral se configura en el archivo **nl6/conf/serverConf.xml**. El atributo **maxCnx** ubicado en **grupo de orígenes de datos** permite aumentar el umbral de consultas procesadas simultáneamente.
 
       ```
           <!-- Data source
