@@ -23,7 +23,7 @@ Algunos clientes necesitan que los usuarios de mercadotecnia puedan acceder a lo
 
 ## Implementación {#implementation}
 
-Se ha agregado un nuevo atributo que se puede aplicar a cualquier elemento o atributo a las esquemas, que complementa el atributo existente **[!UICONTROL visibleIf]** . Este atributo es: **[!UICONTROL accessibleIf]** . Al contener una expresión XTK relacionada con el contexto de usuario actual, puede aprovechar **[!UICONTROL HasNamedRight]** o **[!UICONTROL $(login)]** , por ejemplo.
+Se ha agregado un nuevo atributo que se puede aplicar a cualquier elemento o atributo a las esquemas, que complementa el atributo existente **[!UICONTROL visibleIf]**. Este atributo es: **[!UICONTROL accessibleIf]** . Al contener una expresión XTK relacionada con el contexto de usuario actual, puede aprovechar **[!UICONTROL HasNamedRight]** o **[!UICONTROL $(login)]** , por ejemplo.
 
 Puede encontrar una muestra de una extensión de esquema de destinatario que muestra este uso a continuación:
 
@@ -43,7 +43,7 @@ Puede encontrar una muestra de una extensión de esquema de destinatario que mue
 Las propiedades principales son:
 
 * **[!UICONTROL visibleIf]** :: oculta los campos de los metadatos, por lo que no se puede acceder a ellos desde una vista de esquema, una selección de columnas o un generador de expresiones. Sin embargo, esto no oculta ningún dato, si el nombre del campo se introduce manualmente en una expresión, se mostrará el valor.
-* **[!UICONTROL accessibleIf]** :: oculta los datos (reemplazándolos por valores vacíos) de la consulta resultante. Si visibleSi está vacío, obtiene la misma expresión que **[!UICONTROL accessibleIf]** .
+* **[!UICONTROL accessibleIf]** :: oculta los datos (reemplazándolos por valores vacíos) de la consulta resultante. Si visibleSi está vacío, obtiene la misma expresión que **[!UICONTROL accessibleIf]**.
 
 Estas son las consecuencias de usar este atributo en la Campaña:
 
@@ -58,7 +58,7 @@ Estas son las consecuencias de usar este atributo en la Campaña:
 
 ## Recomendaciones {#recommendations}
 
-En cada envío, las direcciones de correo electrónico se copian en las **[!UICONTROL broadLog]** tablas y **[!UICONTROL forecastLog]** : como consecuencia, estos campos también deben protegerse.
+En cada envío, las direcciones de correo electrónico se copian en las tablas **[!UICONTROL broadLog]** y **[!UICONTROL forecastLog]**: como consecuencia, estos campos también deben protegerse.
 
 A continuación se muestra una muestra de la extensión de la tabla de registro para implementarla:
 
