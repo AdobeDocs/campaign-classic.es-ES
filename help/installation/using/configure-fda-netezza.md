@@ -17,10 +17,10 @@ ht-degree: 81%
 
 # Configuración del acceso a Netezza {#configure-access-to-netezza}
 
-Utilice la opción [Acceso de datos federado](../../installation/using/about-fda.md) de Campaña (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Netezza.
+Utilice la opción Campaña [Acceso de datos federado](../../installation/using/about-fda.md) (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Netezza.
 
-1. Instalación y configuración de controladores [Netezza](#netezza-config)
-1. Configurar la [cuenta externa](#netezza-external) de Netezza en Campaña
+1. Instalar y configurar [controladores de Netezza](#netezza-config)
+1. Configurar la cuenta externa [de Netezza](#netezza-external) en Campaña
 
 ## Configuración de netezza {#netezza-config}
 
@@ -69,7 +69,7 @@ La conexión a una base de datos externa de Netezza en FDA requiere ciertas conf
    * **ODBCINI**: ubicación del archivo odbc.ini (por ejemplo, /etc/odbc.ini).
    * **NZ_ODBC_INI_PATH**: ubicación del archivo odbc.ini. Netezza también requiere esta segunda variable para utilizar el archivo odbc.ini.
 
-## Cuenta externa netezza {#netezza-external}
+## Cuenta externa de netezza {#netezza-external}
 
 La cuenta externa de Netezza permite conectar la instancia de Campaña a la base de datos externa de Netezza.
 
