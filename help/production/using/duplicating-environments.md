@@ -61,14 +61,14 @@ Para que este proceso funcione, los entornos de origen y destinatario deben tene
 
 ### Procedimiento de transferencia {#transfer-procedure}
 
-Esta sección le ayudará a comprender los pasos necesarios para transferir un entorno de origen a un entorno de destinatario a través de un caso práctico: nuestro objetivo aquí es restaurar un entorno de producción (**prod** instance) a un entorno de desarrollo (**dev** instance) para trabajar en un contexto lo más cercano posible a la plataforma &#39;live&#39;.
+Esta sección le ayudará a comprender los pasos necesarios para transferir un entorno de origen a un entorno de destinatario a través de un caso práctico: nuestro objetivo aquí es restaurar un entorno de producción (**prod** instancia) a un entorno de desarrollo (**dev** instancia) para que funcione en un contexto lo más cercano posible a la plataforma &#39;live&#39;.
 
 Los siguientes pasos deben realizarse con atención buena: es posible que algunos procesos sigan en curso cuando se copian las bases de datos de entorno de origen. La cauterización (paso 3 a continuación) evita que los mensajes se envíen dos veces y mantiene la coherencia de los datos.
 
 >[!IMPORTANT]
 >
 >* El siguiente procedimiento es válido en lenguaje PostgreSQL. Si el lenguaje SQL es diferente (por ejemplo, Oracle), las consultas SQL deben adaptarse.
->* Los siguientes comandos se aplican en el contexto de una instancia de **prod** y una instancia de **dev** en PostgreSQL.
+>* Los comandos siguientes se aplican en el contexto de una instancia **prod** y una instancia **dev** en PostgreSQL.
 
 >
 
@@ -111,7 +111,7 @@ Compruebe que el número de opciones/cuentas exportadas es igual al número de l
 >
 >Cuando se exporta la tabla nmsextaccount, no se exportan las contraseñas relacionadas con las cuentas externas (por ejemplo, contraseñas para Intermediarias, Ejecución de centros de mensajes, SMPP, IMS y otras cuentas externas). Asegúrese de que tiene acceso a las contraseñas correctas con antelación, ya que es posible que sea necesario volver a introducirlas después de que las cuentas externas vuelvan a importarse en el entorno.
 
-### Paso 3 - Detener el entorno del destinatario (dev) {#step-3---stop-the-target-environment--dev-}
+### Paso 3: Detenga el entorno del destinatario (dev) {#step-3---stop-the-target-environment--dev-}
 
 Debe detener los procesos de Adobe Campaign en todos los servidores de entorno de destinatario. Esta operación depende del sistema operativo.
 
@@ -145,8 +145,8 @@ También puede comprobar que no hay procesos del sistema en ejecución.
 
 Para ello, utilice el proceso siguiente:
 
-* En Windows: abra el administrador **de** Tareas y compruebe que no hay procesos **nlserver.exe** .
-* En Linux: ejecutar **ps aux | grep nlserver** y compruebe que no hay procesos **nlserver** .
+* En Windows: abra el **administrador de Tareas** y compruebe que no haya procesos **nlserver.exe**.
+* En Linux: ejecute **ps aux | grep nlserver** y compruebe que no hay procesos **nlserver**.
 
 ### Paso 4: Restaure las bases de datos en el entorno de destinatario (dev) {#step-4---restore-the-databases-in-the-target-environment--dev-}
 
@@ -156,7 +156,7 @@ Para restaurar las bases de datos de origen en el entorno de destinatario, utili
 psql mydatabase < mydatabase.sql
 ```
 
-### Paso 5 - Cauterizar el entorno del destinatario (dev) {#step-5---cauterize-the-target-environment--dev-}
+### Paso 5: Cauterizar el entorno de destinatario (dev) {#step-5---cauterize-the-target-environment--dev-}
 
 Para evitar errores de funcionamiento, los procesos vinculados al envío de envíos y la ejecución del flujo de trabajo no deben ejecutarse automáticamente cuando se activa el entorno de destinatario.
 
@@ -193,9 +193,9 @@ En el entorno de destinatario, vuelva a realizar el inicio de los procesos de Ad
 
 >[!NOTE]
 >
->Antes de reiniciar Adobe Campaign en el entorno de **desarrollo** , puede aplicar un procedimiento de seguridad adicional: inicio únicamente del módulo **web** .
+>Antes de reiniciar Adobe Campaign en el entorno **dev**, puede aplicar un procedimiento de seguridad adicional: inicio sólo el módulo **web**.
 >  
->Para ello, edite el archivo de configuración de su instancia (**config-dev.xml**) y luego agregue el carácter &quot;_&quot; antes de las opciones autoStart=&quot;true&quot; para cada módulo (mta, stat, etc.).
+>Para ello, edite el archivo de configuración de la instancia (**config-dev.xml**) y luego agregue el carácter &quot;_&quot; antes de las opciones autoStart=&quot;true&quot; para cada módulo (mta, stat, etc.).
 
 Ejecute el siguiente comando para inicio del proceso Web:
 
@@ -224,11 +224,11 @@ Para importar la configuración desde la base de datos de destinatario entorno (
 1. Abra la consola de administración de la base de datos y purgue las cuentas externas (tabla nms:extAccount) cuyo ID no sea 0 (@id &lt;> 0).
 1. En la consola de Adobe Campaign, importe el paquete options_dev.xml creado anteriormente mediante la funcionalidad de paquetes de importación.
 
-   Compruebe que las opciones se hayan actualizado en el **[!UICONTROL Administration > Platform > Options]** nodo.
+   Compruebe que las opciones se hayan actualizado en el nodo **[!UICONTROL Administration > Platform > Options]**.
 
 1. En la consola de Adobe Campaign, importe extaccount_dev.xml creado anteriormente mediante la funcionalidad de paquetes de importación
 
-   Compruebe que las bases de datos externas se hayan importado en la **[!UICONTROL Administration > Platform > External accounts]** .
+   Compruebe que las bases de datos externas se hayan importado en **[!UICONTROL Administration > Platform > External accounts]**.
 
 ### Paso 9: Reinicie todos los procesos y cambie los usuarios (dev) {#step-9---restart-all-processes-and-change-users--dev-}
 
