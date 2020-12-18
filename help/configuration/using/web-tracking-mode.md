@@ -31,7 +31,7 @@ Cada modo tiene características específicas. El modo de Seguimiento web &quot;
 >
 >En cualquier momento, el modo predeterminado se puede cambiar en el asistente de implementación de instancias.
 
-Tenga en cuenta que si utiliza el modo de seguimiento web **** permanente o **anónimo** , debe agregar un índice a la columna &quot;sourceID&quot; (uuid230) en las tablas de seguimiento (trackingLogXXX):
+Tenga en cuenta que si utiliza el modo de seguimiento **web permanente** o **anónimo**, debe agregar un índice a la columna &quot;sourceID&quot; (uuid230) en las tablas de seguimiento (trackingLogXXX):
 
 1. Identifique las tablas de seguimiento afectadas por el seguimiento permanente.
 1. Amplíe los esquemas que coinciden con estas tablas agregando las líneas siguientes:
@@ -42,9 +42,9 @@ Tenga en cuenta que si utiliza el modo de seguimiento web **** permanente o **an
 </dbindex>
 ```
 
-**Los modos de Seguimiento web Permanente** y **Anónimo** incluyen dos opciones: **Envío** forzado y **último envío**.
+**Los modos de seguimiento** permanente y  **** AnonymousWeb incluyen dos opciones:  **Entrega forzada** y  **último envío**.
 
-La opción envío **** forzado permite especificar el identificador del envío (@jobid) durante el seguimiento.
+La opción **envío forzado** permite especificar el identificador del envío (@jobid) durante el seguimiento.
 
 La opción **Último envío** permite vincular el registro de seguimiento actual al último envío rastreado.
 
@@ -81,7 +81,7 @@ Este modo es el más costoso en términos de cálculo y volumen.
 
 >[!NOTE]
 >
->Si el **[!UICONTROL Leads]** paquete está instalado, debe hacer lo mismo con la tabla de actividad (**crm:entranteLead**)
+>Si el paquete **[!UICONTROL Leads]** está instalado, debe hacer lo mismo con la tabla de actividad (**crm:entranteLead**)
 
 El siguiente esquema resume las funcionalidades de los tres modos de Seguimiento web:
 
