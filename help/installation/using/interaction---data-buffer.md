@@ -21,13 +21,13 @@ ht-degree: 3%
 >
 >Algunas configuraciones sólo pueden ser realizadas por Adobe para implementaciones alojadas en Adobe. Por ejemplo, para acceder a los archivos de configuración de instancia y servidor. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Hosting models](../../installation/using/hosting-models.md) o [esta página](../../installation/using/capability-matrix.md).
 
-En Adobe Campaign, se ha introducido una zona **de búfer de** datos en el módulo Interacción. Esto le permite **aumentar el rendimiento** de la interacción de entrada desincronizando los cálculos de existencias y ofertas.
+En Adobe Campaign, se ha introducido una **zona de búfer de datos** en el módulo Interacción. Esto le permite **aumentar el rendimiento** de la interacción de entrada desincronizando los cálculos de oferta y existencias.
 
 Solo se refiere a la interacción de entrada, ya sea por una llamada (con o sin datos de llamada) o por una actualización de estado (updateStatus).
 
-Para evitar una cola al escribir propuestas relacionadas con un destinatario, un nuevo proceso w genera una zona **de búfer de** datos que permite que las propuestas se **escriban asincrónicamente**. Esta zona del búfer de datos se lee y vacía periódicamente. El período predeterminado es de aproximadamente un segundo.Por lo tanto, se agrupa la redacción de propuestas.
+Para evitar una cola al escribir propuestas relacionadas con un destinatario, un nuevo proceso w genera una **zona de búfer de datos** que permite que las propuestas se **escriban asincrónicamente**. Esta zona del búfer de datos se lee y vacía periódicamente. El período predeterminado es de aproximadamente un segundo.Por lo tanto, se agrupa la redacción de propuestas.
 
-La **configuración** de la zona del búfer de datos se puede realizar en el archivo de configuración de la instancia (config-Instance.xml).
+La zona del búfer de datos **configuración** se puede realizar en el archivo de configuración de la instancia (config-Instance.xml).
 
 >[!NOTE]
 >
