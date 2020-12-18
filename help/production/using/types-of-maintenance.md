@@ -19,7 +19,7 @@ ht-degree: 2%
 
 ## Mantenimiento de aplicaciones {#application-maintenance}
 
-Adobe Campaign proporciona un flujo de trabajo integrado que le permite programar determinadas tareas de mantenimiento de la base de datos: flujo de trabajo **de limpieza de la base de datos**. Este flujo de trabajo lleva a cabo las siguientes tareas:
+Adobe Campaign proporciona un flujo de trabajo integrado que le permite programar determinadas tareas de mantenimiento de la base de datos: el **flujo de trabajo de limpieza de la base de datos**. Este flujo de trabajo lleva a cabo las siguientes tareas:
 
 * eliminación de registros caducados,
 * eliminación de registros huérfanos y reinicialización de estado para objetos caducados,
@@ -41,7 +41,7 @@ Estos procedimientos de mantenimiento deberán llevarse a cabo de forma periódi
 * volver a indexar las tablas actualizadas con frecuencia,
 * compactar/reconstruir las tablas para evitar la fragmentación.
 
-### Calendario de mantenimiento {#maintenance-schedule}
+### Programa de mantenimiento {#maintenance-schedule}
 
 Debe encontrar las ranuras adecuadas para realizar estas actividades de mantenimiento. Pueden tener un gran impacto en el rendimiento de la base de datos mientras se ejecuta o incluso bloquear la aplicación (debido al bloqueo).
 
@@ -49,7 +49,7 @@ Estas tareas suelen ejecutarse una vez a la semana durante un período de baja a
 
 Se puede realizar un mantenimiento más profundo, como las reconstrucciones completas de tablas, una vez al mes, preferiblemente con las aplicaciones totalmente detenidas, ya que el sistema no se puede utilizar de todos modos.
 
-### Reconstrucción de una tabla {#rebuilding-a-table}
+### Reconstruyendo una tabla {#rebuilding-a-table}
 
 Hay varias estrategias disponibles:
 
@@ -67,7 +67,7 @@ Hay varias estrategias disponibles:
    <td> Desfragmentación en línea<br /> </td> 
    <td> La mayoría de los motores de base de datos proporcionan métodos de desfragmentación.<br /> </td> 
    <td> Utilice simplemente el método de desfragmentación de la base de datos. Estos métodos generalmente se ocupan de los problemas de integridad al bloquear los datos durante la desfragmentación.<br /> </td> 
-   <td> Dependiendo de la base de datos, estos métodos de desfragmentación pueden proporcionarse como una opción RDBMS (Oracle) y no siempre son la manera más eficiente de tratar tablas más grandes.<br /> </td> 
+   <td> Según la base de datos, estos métodos de desfragmentación se pueden proporcionar como opción RDBMS (Oracle) y no siempre son la manera más eficiente de tratar tablas más grandes.<br /> </td> 
   </tr> 
   <tr> 
    <td> Volcar y restaurar<br /> </td> 
@@ -76,8 +76,8 @@ Hay varias estrategias disponibles:
    <td> Dado que la tabla se elimina y se vuelve a crear, la aplicación no se puede dejar en línea, ni siquiera en modo de solo lectura (la tabla no está disponible durante la fase de restauración).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Duplicado, cambio de nombre y colocación<br /> </td> 
-   <td> De este modo, se crea una copia de una tabla y sus índices y, a continuación, se elimina la existente y se cambia el nombre de la copia para que ocupe su lugar.<br /> </td> 
+   <td> Duplicado, cambiar el nombre y soltar<br /> </td> 
+   <td> Esto crea una copia de una tabla y sus índices, luego coloca el existente y cambia el nombre de la copia para que ocupe su lugar.<br /> </td> 
    <td> Este método es más rápido que el primer método, ya que genera menos E/S (sin copia como archivo y lectura desde este archivo).<br /> </td> 
    <td> Requiere el doble de espacio.<br /> Todos los procesos activos que escriben en la tabla durante el proceso deben detenerse. Sin embargo, los procesos de lectura no se verán afectados, ya que la tabla se intercambiará en el último momento una vez reconstruida. <br /> </td> 
   </tr> 
