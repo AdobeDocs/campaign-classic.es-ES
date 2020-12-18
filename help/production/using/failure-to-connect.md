@@ -19,14 +19,14 @@ ht-degree: 2%
 
 Las razones de un problema de conexión pueden ser múltiples y depender de varios contextos.
 
-Puede probar las siguientes pruebas y, si el error de conexión persiste, póngase en contacto con el servicio de soporte técnico de **Adobe Campaign**.
+Puede probar las siguientes pruebas y, si el error de conexión persiste, póngase en contacto con el **soporte técnico de Adobe Campaign**.
 
 
 
 <table> 
 <thead> 
 <tr> 
-<th>Comprobaciones<br /> </th> 
+<th>Cheques<br /> </th> 
 <th>Resolución<br /> </th> 
 </tr> 
 </thead> 
@@ -45,7 +45,8 @@ Puede probar las siguientes pruebas y, si el error de conexión persiste, pónga
 </tr>
 <tr> 
 <td>¿Se ha integrado correctamente Adobe Campaign?</td> 
-<td>Inicie sesión en el <b>http(s)://&lt;urlserver&gt;/r/test</b> URL. El servidor debe devolver el siguiente tipo de mensaje: &lt;redir status='OK' date='AAAA/MM/DD HH:MM:SS' build='XXXX' host='&lt;hostname&gt;' localHost='&lt;server&gt;'/&gt;Si no obtiene este resultado, compruebe en la configuración del servidor Web que la integración se tiene en cuenta.</td>
+<td>Inicie sesión en el <b>http(s)://&lt;urlserver&gt;/r/test</b> URL. El servidor debe devolver el siguiente tipo de mensaje: &lt;redir status='OK' date='AAAA/MM/DD HH:MM:SS' build='XXXX' host='&lt;hostname&gt;' localHost='&lt;server&gt;'/&gt;
+Si no obtiene este resultado, compruebe en la configuración del servidor Web que se tiene en cuenta la integración.</td>
 </tr>
 <tr> 
 <td>Conéctese a la siguiente URL: <b>http(s)://&lt;URLSERVER&gt;/nl/jsp/logon.jsp</b></td>
@@ -57,7 +58,7 @@ Puede probar las siguientes pruebas y, si el error de conexión persiste, pónga
 </tr>
 <tr>
 <td>Compruebe la configuración general de las zonas de seguridad.</td>
-<td>For more on configuring security zones, refer to <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=en#configuring-campaign-server"/>this section.</a></td>
+<td>Para obtener más información sobre la configuración de zonas de seguridad, consulte <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=en#configuring-campaign-server"/>esta sección.</a></td>
 </tr>
 <tr>
 <td>El comando nlserver pdump devuelve <b>Sin tareas</b></td>
