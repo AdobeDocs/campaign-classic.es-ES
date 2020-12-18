@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Las API orientadas a datos le permiten abordar todo el modelo de datos.
 
-## Descripción general del modelo de datos {#overview-of-the-datamodel}
+## Visión general del modelo de datos {#overview-of-the-datamodel}
 
 Adobe Campaign no oferta una API de lectura dedicada por entidad (sin la función getRecipient o getDelivery, etc.). Utilice los métodos de lectura y modificación de datos CONSULTA y WRITER para acceder a los datos del modelo.
 
@@ -33,9 +33,9 @@ Los documentos XML se almacenan en campos de tipo MEMO de la base de datos.
 
 Debe estar familiarizado con el modelo de datos de Adobe Campaign para poder abordar los campos de la base de datos en las secuencias de comandos.
 
-Para ver una presentación del modelo de datos, consulte la descripción [del modelo de datos de](../../configuration/using/data-model-description.md)Adobe Campaign.
+Para ver una presentación del modelo de datos, consulte la [descripción del modelo de datos de Adobe Campaign](../../configuration/using/data-model-description.md).
 
-Para generar su estructura, consulte este artículo: [Cómo generar un modelo de datos o un diccionario](https://helpx.adobe.com/campaign/kb/generate-data-model.html)de datos.
+Para generar su estructura, consulte este artículo: [Cómo generar un modelo de datos o un diccionario de datos](https://helpx.adobe.com/campaign/kb/generate-data-model.html).
 
 ## Consulta y escritor {#query-and-writer}
 
@@ -53,11 +53,11 @@ Para obtener más información sobre esto, consulte [Ejemplo sobre el método &#
 
 El método **ExecuteQuery** se presenta en [ExecuteQuery (xtk:queryDef)](#executequery--xtk-querydef-).
 
-### Escritura {#write}
+### Escribir {#write}
 
 Los comandos de escritura permiten escribir documentos simples o complejos, con entradas en una o varias tablas de la base.
 
-Las API transaccionales permiten administrar las conciliaciones mediante el comando **updateOrInsert** : un comando permite crear o actualizar datos. También puede configurar la combinación de modificaciones (**combinar**): este modo operativo permite autorizar actualizaciones parciales.
+Las API transaccionales permiten administrar las conciliaciones mediante el comando **updateOrInsert**: un comando permite crear o actualizar datos. También puede configurar la combinación de modificaciones (**combinar**): este modo operativo permite autorizar actualizaciones parciales.
 
 La estructura XML oferta una vista lógica de los datos y permite evitar la estructura física de la tabla SQL.
 
@@ -115,9 +115,9 @@ La estructura del documento XML de la consulta se describe en el esquema &quot;x
 </queryDef>
 ```
 
-Se puede definir una subconsulta ( `<subquery>` ) en un `<condition> ` elemento. La sintaxis de un `<subquery> ` elemento se basa en la sintaxis de un `<querydef>`.
+Se puede definir una subconsulta ( `<subquery>` ) en un elemento `<condition> `. La sintaxis de un   `<subquery> `   se basa en la sintaxis de un    `<querydef>`.
 
-Example of a `<subquery>  : </subquery>`
+Ejemplo de un `<subquery>  : </subquery>`
 
 ```
 <condition setOperator="NOT IN" expr="@id" enabledIf="$(/ignored/@ownerType)=1">
@@ -133,16 +133,16 @@ Example of a `<subquery>  : </subquery>`
   
 ```
 
-Una consulta debe hacer referencia a un esquema de inicio desde el atributo **esquema** .
+Una consulta debe hacer referencia a un esquema de inicio desde el atributo **esquema**.
 
-El tipo de operación deseada se introduce en el atributo de **operación** y contiene uno de los siguientes valores:
+El tipo de operación deseada se introduce en el atributo **operation** y contiene uno de los siguientes valores:
 
 * **get**: recupera un registro de la tabla y devuelve un error si los datos no existen,
 * **getIfExists**: recupera un registro de la tabla y devuelve un documento vacío si los datos no existen,
 * **seleccionar**: crea un cursor para devolver varios registros y devuelve un documento vacío si no hay datos,
 * **count**: devuelve un recuento de datos.
 
-La sintaxis de **XPath** se utiliza para localizar datos basados en el esquema de entrada. Para obtener más información sobre XPath, consulte esquemas [de datos](../../configuration/using/data-schemas.md).
+La sintaxis **XPath** se utiliza para ubicar los datos según el esquema de entrada. Para obtener más información sobre XPath, consulte [esquemas de datos](../../configuration/using/data-schemas.md).
 
 #### Ejemplo con la operación &#39;get&#39; {#example-with-the--get--operation}
 
@@ -190,7 +190,7 @@ Devuelve la lista de destinatarios filtrados en una carpeta y el dominio de corr
 
 Las expresiones pueden ser campos simples o expresiones complejas, como operaciones aritméticas o la concatenación de cadenas.
 
-Para limitar el número de registros que se van a devolver, agregue el atributo **lineCount** al `<querydef>` elemento .
+Para limitar el número de registros que se van a devolver, agregue el atributo **lineCount** al elemento `<querydef>`.
 
 Para limitar el número de registros devueltos por la consulta a 100:
 
@@ -199,7 +199,7 @@ Para limitar el número de registros devueltos por la consulta a 100:
 ...
 ```
 
-Para recuperar los 100 registros siguientes, vuelva a ejecutar la misma consulta y agregue el atributo **startLine** .
+Para recuperar los 100 registros siguientes, vuelva a ejecutar la misma consulta y agregue el atributo **startLine**.
 
 ```
 <queryDef schema="nms:recipient" operation="select" lineCount="100" startLine="100">
@@ -221,9 +221,9 @@ Para contar el número de registros de una consulta:
 
 >[!NOTE]
 >
->Nuevamente, usamos la condición del ejemplo anterior. No se utilizan las cláusulas `<select>` y. `</select>`
+>Nuevamente, usamos la condición del ejemplo anterior. Las cláusulas `<select>` y no se utilizan. `</select>`
 
-#### Data grouping {#data-grouping}
+#### Agrupación de datos {#data-grouping}
 
 Para recuperar las direcciones de correo electrónico a las que se hace referencia más de una vez:
 
@@ -257,7 +257,7 @@ La consulta se puede simplificar agregando el atributo **groupBy** directamente 
 
 >[!NOTE]
 >
->Ya no es necesario rellenar el `<groupby>` elemento.
+>Ya no es necesario rellenar el elemento `<groupby>`.
 
 #### Bracketing en condiciones {#bracketing-in-conditions}
 
@@ -322,7 +322,7 @@ Esta sintaxis simplifica la consulta cuando se utilizan más de dos datos en la 
    </select>
    ```
 
-* Vínculos de colección (1N): el filtrado en los campos de una tabla de recopilación debe realizarse mediante el operador **EXISTS** o **NOT EXISTS** .
+* Vínculos de colección (1N): el filtrado en los campos de una tabla de recopilación debe realizarse mediante el operador **EXISTS** o **NOT EXISTS**.
 
    Para filtrar a los destinatarios que se han suscrito al servicio informativo &#39;Newsletter&#39;:
 
@@ -344,7 +344,7 @@ Esta sintaxis simplifica la consulta cuando se utilizan más de dos datos en la 
    </select>
    ```
 
-   Es posible recuperar una sublista que contenga los elementos de un vínculo de recopilación en la `<select>` cláusula. Los XPath de los campos a los que se hace referencia están contextuales a partir del elemento de recopilación.
+   Es posible recuperar una sublista que contenga los elementos de un vínculo de recopilación en la cláusula `<select>`. Los XPath de los campos a los que se hace referencia están contextuales a partir del elemento de recopilación.
 
    Los elementos de filtrado ( `<orderby>` ) y restricción ( `<where>` ) se pueden agregar al elemento de recopilación.
 
@@ -374,7 +374,7 @@ Esta sintaxis simplifica la consulta cuando se utilizan más de dos datos en la 
 
 El enlace de parámetros permite al motor establecer los valores de los parámetros utilizados en la consulta. Esto es muy útil, ya que el motor está a cargo del escape de los valores, y existe la ventaja adicional de una caché para los parámetros que se van a recuperar.
 
-Cuando se construye una consulta, los valores &quot;enlazados&quot; se reemplazan por un carácter (?? en ODBC, `#[index]#` en pósters...) en el cuerpo de la consulta SQL.
+Cuando se construye una consulta, los valores &quot;enlazados&quot; se reemplazan por un carácter (?? en ODBC, `#[index]#` en postgres...) en el cuerpo de la consulta SQL.
 
 ```
 <select>
@@ -393,7 +393,7 @@ Para evitar enlazar un parámetro, el atributo &quot;noSqlBind&quot; debe rellen
 
 #### Sugerencia de creación de consultas: {#query-building-tip-}
 
-Para ayudarle con la sintaxis de una consulta, puede escribir la consulta mediante el editor de consultas genérico en la consola cliente de Adobe Campaign ( **[!UICONTROL Tools/ Generic query editor...]** menú). Para ello:
+Para ayudarle con la sintaxis de una consulta, puede escribir la consulta mediante el editor de consultas genérico en la consola de cliente de Adobe Campaign ( menú **[!UICONTROL Tools/ Generic query editor...]**). Para ello:
 
 1. Seleccione los datos que desea recuperar:
 
@@ -504,7 +504,7 @@ En lugar de:
    </SOAP-ENV:Envelope>
    ```
 
-## Write/WriteCollection (xtk:session) {#write---writecollection--xtk-session-}
+## Write / WriteCollection (xtk:session) {#write---writecollection--xtk-session-}
 
 Estos servicios se utilizan para insertar, actualizar o eliminar una entidad (método &quot;Write&quot;) o una colección de entidades (método &quot;WriteCollection&quot;).
 
@@ -537,7 +537,7 @@ Definición de los métodos &quot;Write&quot; y &quot;WriteCollection&quot; en e
 
 La reconciliación de datos funciona según la definición de las claves ingresadas en el esquema asociado. El procedimiento de escritura busca la primera clave elegible en función de los datos introducidos en el documento de entrada. La entidad se inserta o actualiza en función de su existencia en la base de datos.
 
-La clave del esquema de la entidad que se va a actualizar se completa en función del atributo **xtkschema** .
+La clave del esquema de la entidad que se va a actualizar se completa en función del atributo **xtkschema**.
 
 Por lo tanto, la clave de reconciliación se puede forzar con el atributo **_key** que contiene la lista de XPath que conforma la clave (separada por comas).
 
@@ -583,7 +583,7 @@ Actualizar o insertar para varios destinatarios:
 
 ### Ejemplo en vínculos {#example-on-links}
 
-#### Example 1 {#example-1}
+#### Ejemplo 1 {#example-1}
 
 Asociación de la carpeta con un destinatario en función de su nombre interno (@name).
 
@@ -595,13 +595,13 @@ Asociación de la carpeta con un destinatario en función de su nombre interno (
 
 Los atributos &quot;_key&quot; y &quot;_operation&quot; se pueden introducir en un elemento vinculado. El comportamiento en este elemento es el mismo que en el elemento principal del esquema de entrada.
 
-La definición de la clave de la entidad principal (&quot;nms:destinatario&quot;) consiste en un campo de una tabla vinculada ( `<folder>` esquema del elemento &quot;xtk:folder&quot;) y del correo electrónico.
+La definición de la clave de la entidad principal (&quot;nms:destinatario&quot;) consiste en un campo de una tabla vinculada (elemento `<folder>` esquema &quot;xtk:folder&quot;) y el correo electrónico.
 
 >[!NOTE]
 >
 >La operación &quot;ninguno&quot; introducida en el elemento de carpeta define una reconciliación en la carpeta sin actualizar ni insertar.
 
-#### Example 2 {#example-2}
+#### Ejemplo 2 {#example-2}
 
 Actualización de la compañía (tabla vinculada en el esquema &quot;cus:compañía&quot;) desde un destinatario:
 
@@ -611,7 +611,7 @@ Actualización de la compañía (tabla vinculada en el esquema &quot;cus:compañ
 </recipient>
 ```
 
-#### Example 3 {#example-3}
+#### Ejemplo 3 {#example-3}
 
 Añadir un destinatario en un grupo con la tabla de relación de grupo (&quot;nms:rcpGrpRel&quot;):
 
@@ -625,9 +625,9 @@ Añadir un destinatario en un grupo con la tabla de relación de grupo (&quot;nm
 
 >[!NOTE]
 >
->La definición de la clave no se introduce en el `<rcpgroup>` elemento porque una clave implícita basada en el nombre del grupo se define en el esquema &quot;nms:group&quot;.
+>La definición de la clave no se introduce en el elemento `<rcpgroup>` porque una clave implícita basada en el nombre del grupo se define en el esquema &quot;nms:group&quot;.
 
-### Elementos de la colección XML {#xml-collection-elements}
+### Elementos de recopilación XML {#xml-collection-elements}
 
 De forma predeterminada, todos los elementos de la colección deben rellenarse para actualizar los elementos de la colección XML. Los datos de la base de datos se reemplazarán con los datos del documento de entrada. Si el documento contiene sólo los elementos que se van a actualizar, debe rellenar el atributo &quot;_operation&quot; en todos los elementos de recopilación que se van a actualizar para forzar una combinación con los datos XML de la base de datos.
 
