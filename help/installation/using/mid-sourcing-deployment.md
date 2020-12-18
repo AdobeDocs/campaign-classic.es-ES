@@ -64,4 +64,4 @@ La comunicación general entre servidores y procesos se realiza según el siguie
 
 ### Instalación y configuración (implementación de intermediaria) {#installing-and-configuring--mid-sourcing-deployment-}
 
-Consulte el servidor [Intermediaria](../../installation/using/mid-sourcing-server.md).
+Consulte [servidor Intermediaria](../../installation/using/mid-sourcing-server.md).
