@@ -17,18 +17,18 @@ ht-degree: 11%
 
 # Seguimiento de pila en Linux{#stack-trace-in-linux}
 
-Un seguimiento **de** pila representa un seguimiento contenido en un archivo de tipo **principal** . Este archivo se genera en el evento de un error de equipo. Puede identificar el origen del error.
+Un **seguimiento de pila** representa un seguimiento contenido en un archivo de tipo **core**. Este archivo se genera en el evento de un error de equipo. Puede identificar el origen del error.
 
 >[!NOTE]
 >
->* Un archivo **principal** se denomina **core.`<num>`**.
->* **gdb - El depurador** GNU debe estar instalado en la máquina.
+>* Un archivo **core** se denomina **core.`<num>`**.
+>* **gdb - El** depurador GNU debe estar instalado en la máquina.
 
 >
 
 
 
-La asistencia técnica de Adobe Campaign puede solicitarle este seguimiento **de pila**. Para obtenerlo, introduzca los siguientes comandos en Linux:
+El soporte técnico de Adobe Campaign puede solicitarle este **rastreo de pila**. Para obtenerlo, introduzca los siguientes comandos en Linux:
 
 ```
 su - neolane
