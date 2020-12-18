@@ -17,10 +17,10 @@ ht-degree: 73%
 
 # Configuración del acceso a Sybase IQ {#configure-access-to-sybase-iq}
 
-Utilice la opción **Acceso de datos federado** de Campaña (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Sybase IQ.
+Utilice la opción Campaña **Acceso de datos federado** (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Sybase IQ.
 
-1. Configurar la base de datos de [Sybase IQ](#configuring-sybase)
-1. Configurar la [cuenta externa](#sybase-external) de Sybase IQ en Campaña
+1. Configurar [base de datos de Sybase IQ](#configuring-sybase)
+1. Configurar la cuenta externa [de Sybase IQ](#sybase-external) en Campaña
 
 ## Configuración de sybase IQ {#configuring-sybase}
 
@@ -28,7 +28,7 @@ La conexión a una base de datos externa de Sybase IQ en FDA requiere determinad
 
 >[!NOTE]
 >
->Before starting, make sure the **unixodbc** package is on the server.
+>Antes de comenzar, asegúrese de que el paquete **unixodbc** está en el servidor.
 
 1. Instale **iq_odbc**. Se puede producir un error al final de la instalación. Puede ignorar este error.
 
@@ -66,7 +66,7 @@ La conexión a una base de datos externa de Sybase IQ en FDA requiere determinad
    * Si utiliza un archivo customer.sh para declarar la ruta: añada la ruta /opt/sybase/IQ-16_0/lib64 para la variable LD_LIBRARY_PATH.
    * En caso contrario, utilice un comando Unix.
 
-## cuenta externa sybase IQ {#sybase-external}
+## cuenta externa de sybase IQ {#sybase-external}
 
 La cuenta externa de Sybase IQ permite conectar la instancia de Campaña a la base de datos externa de Sybase IQ.
 
