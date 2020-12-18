@@ -23,7 +23,7 @@ La vista mostrada es una lista asociada con un esquema y un formulario de entrad
 
 ![](assets/d_ncs_integration_navigation.png)
 
-Para agregar una nueva carpeta al árbol, haga clic con el botón derecho en la carpeta de la rama en la que desee insertar una carpeta y seleccione **[!UICONTROL Add new folder]** . En el menú contextual, seleccione el tipo de archivo que desea crear.
+Para agregar una nueva carpeta al árbol, haga clic con el botón derecho en la carpeta de la rama donde desee insertar una carpeta y seleccione **[!UICONTROL Add new folder]** . En el menú contextual, seleccione el tipo de archivo que desea crear.
 
 ![](assets/d_ncs_integration_navigation_create.png)
 
