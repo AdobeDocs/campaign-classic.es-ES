@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Configuraciones específicas en la versión 6.02{#specific-configurations-in-v6-02}
 
-En la siguiente sección se detalla la configuración adicional necesaria para migrar desde la versión 6.02. También debe configurar las opciones detalladas en la sección Configuraciones [](../../migration/using/general-configurations.md) generales.
+En la siguiente sección se detalla la configuración adicional necesaria para migrar desde la versión 6.02. También debe configurar las opciones detalladas en la sección [Configuraciones generales](../../migration/using/general-configurations.md).
 
 ## Aplicaciones web {#web-applications}
 
@@ -43,7 +43,7 @@ Si ha modificado estas aplicaciones web y desea seguir usándolas en v7, debe ac
 
 >[!IMPORTANT]
 >
->Si desea seguir utilizando aplicaciones web de tipo general v6.02, debe activar la opción **allowSQLInjection** en las diferentes zonas de seguridad antes de la actualización posterior. Refer to [Web applications](#web-applications).
+>Si desea seguir utilizando aplicaciones web de tipo general v6.02, debe activar la opción **allowSQLInjection** en las diferentes zonas de seguridad antes de la posactualización. Consulte [Aplicaciones web](#web-applications).
 
 Tras una migración desde la versión 6.02, la página de inicio de Adobe Campaign v6.02 ya no se muestra, pero sigue siendo accesible y compatible con Adobe Campaign v7.
 
@@ -51,9 +51,9 @@ Para continuar usando la página principal v6.02, debe instalar un paquete de &q
 
 Para ello, importe el paquete de compatibilidad:
 
-Haga clic en **[!UICONTROL Tools > Advanced > Import package]** y elija el paquete **campaignMigration.xml** en la **`\nl\datakit\nms\[Your language]\package\optional`**.
+Haga clic en **[!UICONTROL Tools > Advanced > Import package]** y elija el paquete **campaignMigration.xml** en **`\nl\datakit\nms\[Your language]\package\optional`**.
 
-Para permitir el acceso a las interfaces de tipo de Aplicación web v6.02, la opción de configuración del servidor **sessionTokenOnly** debe activarse en el archivo **serverConf.xml** :
+Para permitir el acceso a las interfaces de tipo de Aplicación web v6.02, la opción de configuración del servidor **sessionTokenOnly** debe activarse en el archivo **serverConf.xml**:
 
 ```
 sessionTokenOnly="true"
@@ -75,8 +75,8 @@ Si desea agregar otra información general configurada en v6.02, debe agregarla 
 >
 >Recuerde desconectar y volver a conectar la consola para registrar las modificaciones.
 
-## Message Center {#message-center}
+## Centro de mensajes {#message-center}
 
 Después de una migración de instancia de control a Message Center, debe volver a publicar las Plantillas de mensaje transaccional para que funcionen.
 
-En v7, los nombres de Plantillas de mensaje transaccional en instancias de ejecución han cambiado. Actualmente llevan el prefijo el nombre del operador que corresponde a la instancia de control en la que se crean, por ejemplo, **control1_template1_rt** (donde **control1** es el nombre del operador). Si tiene un volumen significativo de plantillas, le recomendamos que elimine las plantillas antiguas de las instancias de control.
+En v7, los nombres de Plantillas de mensaje transaccional en instancias de ejecución han cambiado. Actualmente llevan el prefijo el nombre del operador que corresponde a la instancia de control en la que se crean, por ejemplo **control1_template1_rt** (donde **control1** es el nombre del operador). Si tiene un volumen significativo de plantillas, le recomendamos que elimine las plantillas antiguas de las instancias de control.
