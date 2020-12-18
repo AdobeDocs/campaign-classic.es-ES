@@ -25,7 +25,7 @@ Adobe Campaign utiliza una secuencia de ID que se debe consumir en consecuencia:
 
 Cuando la secuencia llega a más de 2 mil millones (2,147,483,648 es el número exacto), regresa a cero. Debe evitarse y crear problemas, razón por la cual debe supervisarse esta secuencia.
 
-Para evitar esto con tablas grandes, considere el uso de una secuencia específica. Esto se puede hacer con el **atributo pkSequence** en el esquema.
+Para evitar esto con tablas grandes, considere el uso de una secuencia específica. Esto se puede hacer con el atributo **pkSequence** en el esquema.
 
 Los flujos de trabajo de alta frecuencia que crean muchos registros consumirán muchos ID. Por lo tanto, se recomienda evitar demasiados registros y frecuencias altas en flujos de trabajo.
 
@@ -47,7 +47,7 @@ Los envíos mayores de dos años deben ser purgados de la instancia.
 
 El número de archivos en el disco del servidor de aplicaciones no debe aumentar indefinidamente.
 
-Los flujos de trabajo de importación crean archivos y, por lo tanto, provocan la expansión del disco. Esto se puede evitar mediante la actividad de [Recolector de ficheros](../../workflow/using/file-collector.md) estándar. El selector de archivos mueve los archivos a una carpeta temporal y los purga automáticamente.
+Los flujos de trabajo de importación crean archivos y, por lo tanto, provocan la expansión del disco. Esto se puede evitar mediante la actividad estándar [Recolector de ficheros](../../workflow/using/file-collector.md). El selector de archivos mueve los archivos a una carpeta temporal y los purga automáticamente.
 
 Si un flujo de trabajo importa archivos y no utiliza las funciones estándar, debe purgarse para reducir al mínimo el espacio en disco.
 
