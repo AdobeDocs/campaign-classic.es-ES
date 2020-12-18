@@ -27,7 +27,7 @@ Debe tener un entorno de prueba/desarrollo para realizar pruebas de migración. 
 1. Realice una copia de seguridad de la base de datos de entorno de desarrollo.
 1. Detenga todos los procesos de Adobe Campaign en la instancia de desarrollo.
 1. Realice una copia de seguridad de la base de datos de entorno de producción y restauítela como entorno de desarrollo.
-1. Antes de iniciar los servicios de Adobe Campaign, ejecute la secuencia de comandos de **cauterización de congelaciónInstance.js** , que permite borrar la base de datos de cualquier objeto que se ejecutara cuando se inició la copia de seguridad.
+1. Antes de iniciar los servicios de Adobe Campaign, ejecute la **secuencia de comandos de cauterización de &lt;a0/>congelarInstance.js**, la cual le permite borrar la base de datos de cualquier objeto que se estuviera ejecutando cuando se inició la copia de seguridad.
 
    ```
    nlserver javascript nms:freezeInstance.js -instance:<instance> -arg:<run|dry>
@@ -35,12 +35,12 @@ Debe tener un entorno de prueba/desarrollo para realizar pruebas de migración. 
 
    >[!NOTE]
    >
-   >El comando se inicia de forma predeterminada en modo **seco** y lista todas las solicitudes ejecutadas por ese comando, sin iniciarlas. Para ejecutar solicitudes de cauterización, utilice **ejecutar** en el comando.
+   >El comando se inicia de forma predeterminada en el modo **dry** y lista todas las solicitudes ejecutadas por ese comando, sin iniciarlas. Para ejecutar solicitudes de cauterización, utilice **ejecutar** en el comando.
 
 1. Asegúrese de que las copias de seguridad sean correctas, intentando restaurarlas. Asegúrese de tener acceso a la base de datos, las tablas, los datos, etc.
 1. Pruebe el procedimiento de migración en el entorno de desarrollo.
 
-   Los procedimientos completos se detallan en la sección Requisitos [previos para la migración a Adobe Campaign 7](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md) .
+   Los procedimientos completos se detallan en la sección [Requisitos previos para la migración a Adobe Campaign 7](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md).
 
 1. Si la migración del entorno de desarrollo es correcta, puede migrar el entorno de producción.
 
@@ -50,13 +50,13 @@ Debe tener un entorno de prueba/desarrollo para realizar pruebas de migración. 
 
 >[!NOTE]
 >
->El comando de actualización de Adobe Campaign (**después de la actualización**) le permite sincronizar recursos y actualizar esquemas y la base de datos. Esta operación solo se puede realizar una vez y solo en el servidor de aplicaciones. Después de sincronizar los recursos, el comando **postupgrade** permite detectar si la sincronización genera errores o advertencias.
+>El comando de actualización de Adobe Campaign (**postupgrade**) le permite sincronizar recursos y actualizar esquemas y la base de datos. Esta operación solo se puede realizar una vez y solo en el servidor de aplicaciones. Después de sincronizar los recursos, el comando **postupgrade** permite detectar si la sincronización genera errores o advertencias.
 
 ## Herramientas de migración {#migration-tools}
 
 Varias opciones permiten medir el impacto de una migración e identificar los problemas potenciales. Estas opciones se van a ejecutar:
 
-* en el comando **config** :
+* en el comando **config**:
 
    ```
    nlserver.exe config <option> -instance:<instanceName>
@@ -70,9 +70,9 @@ Varias opciones permiten medir el impacto de una migración e identificar los pr
 
 >[!NOTE]
 >
->Debe usar la **-instancia:`<instanceame>`** , seleccione una opción. No se recomienda utilizar la opción **-todas las instancias** .
+>Debe utilizar la opción **-instance:`<instanceame>`**. No se recomienda utilizar la opción **-allinstance**.
 
-### Opciones -showCustomEntities y -showDeletedEntities {#showcustomentities-and--showdeletedentities-options}
+### -showCustomEntities y las opciones -showDeletedEntities {#showcustomentities-and--showdeletedentities-options}
 
 * La opción **-showCustomEntities** muestra la lista de todos los objetos no estándar:
 
@@ -118,7 +118,7 @@ Se buscan las siguientes expresiones (distinguen entre mayúsculas y minúsculas
  <thead> 
   <tr> 
    <th> Expresión<br /> </th> 
-   <th> Error code<br /> </th> 
+   <th> Código de error<br /> </th> 
    <th> Tipo de registro<br /> </th> 
    <th> Comentarios<br /> </th> 
   </tr> 
@@ -140,13 +140,13 @@ Se buscan las siguientes expresiones (distinguen entre mayúsculas y minúsculas
    <td> login(<br /> </td> 
    <td> PU-0003<br /> </td> 
    <td> Aviso<br /> </td> 
-   <td> Este método de conexión ya no debe usarse. Consulte <a href="../../migration/using/general-configurations.md#identified-web-applications" target="_blank">Aplicaciones</a>Web identificadas.<br /> </td> 
+   <td> Este método de conexión ya no debe usarse. Consulte <a href="../../migration/using/general-configurations.md#identified-web-applications" target="_blank">Aplicaciones Web identificadas</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> new SoapMethodCall(<br /> </td> 
+   <td> nuevo SoapMethodCall(<br /> </td> 
    <td> PU-0004<br /> </td> 
    <td> Aviso<br /> </td> 
-   <td> Esta función solo se admite cuando se utiliza en código JavaScript ejecutado desde una zona de seguridad en modo <strong>sessionTokenOnly</strong> .<br /> </td> 
+   <td> Esta función solo se admite cuando se utiliza en código JavaScript ejecutado desde una zona de seguridad en modo <strong>sessionTokenOnly</strong>.<br /> </td> 
   </tr> 
   <tr> 
    <td> sql=<br /> </td> 
@@ -158,14 +158,14 @@ Se buscan las siguientes expresiones (distinguen entre mayúsculas y minúsculas
    <td> SQLDATA<br /> </td> 
    <td> PU-0006<br /> </td> 
    <td> Error<br /> </td> 
-   <td> Este tipo de error provoca un error de migración. Consulte <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. Si obtiene registros de errores de aplicación web de tipo información general (migración desde v6.02), consulte <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Aplicaciones web</a>.<br /> </td> 
+   <td> Este tipo de error provoca un error de migración. Consulte <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. Si obtiene registros de errores de aplicación Web de tipo overview (migración desde v6.02), consulte <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Aplicaciones web</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 También se realiza una comprobación de la coherencia de la base de datos y el esquema.
 
-### Opción Restauración {#restoration-option}
+### Opción de restauración {#restoration-option}
 
 Esta opción le permite restaurar objetos listos para usar si se han modificado. Para cada objeto restaurado, se almacena una copia de seguridad de los cambios en la carpeta seleccionada:
 
@@ -177,6 +177,6 @@ nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<insta
 >
 >Se recomienda encarecidamente utilizar rutas absolutas de carpeta y mantener la estructura del árbol de carpetas. Por ejemplo: backupFolder\nms\srcSchema\billing.xml.
 
-### Reanudación de la migración {#resuming-migration}
+### Reanudando la migración {#resuming-migration}
 
 Si reinicia la posactualización después de un error de migración, se reanuda desde el mismo lugar donde se detuvo.
