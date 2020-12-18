@@ -79,7 +79,8 @@ La siguiente tabla proporciona una lista de parámetros especiales admitidos por
                               <p>Parámetro de URL</p> 
                            </td>
                            <td>
-                              <p>Identificador de envío que se utilizará si no hay una cookie de sesión. Este valor se expresa en hexadecimal.
+                              <p>Identificador de envío que se utilizará si no hay una cookie de sesión. Este valor debe ser
+                                 expresado en hexadecimal.
                               </p> 
                            </td> 
                         </tr>
@@ -91,7 +92,9 @@ La siguiente tabla proporciona una lista de parámetros especiales admitidos por
                               <p>Parámetro de URL</p> 
                            </td>
                            <td>
-                              <p>Parámetro utilizado para identificar al usuario de Internet. El formato de este parámetro es "name=value", donde el nombre es un campo del esquema de destinatario. Este parámetro tiene prioridad sobre el identificador contenido en la cookie de sesión.
+                              <p>Parámetro utilizado para identificar al usuario de Internet. El formato de este parámetro es "name=value",
+                                 donde el nombre es un campo del esquema de destinatario. Este parámetro tiene prioridad sobre
+                                 el identificador contenido en la cookie de sesión.
                               </p> 
                            </td> 
                         </tr> 
@@ -128,6 +131,6 @@ La siguiente tabla proporciona una lista de parámetros especiales admitidos por
 
 Los siguientes métodos son posibles:
 
-* Inserción de la URL en el atributo **&quot;src&quot;** de una **`<img>`** etiqueta HTML incorporada en la página web que desea rastrear.
+* Insertando la dirección URL en el atributo **&quot;src&quot;** de una etiqueta HTML **`<img>`** incorporada en la página web que desee rastrear.
 * Llamada directa al servidor de redirección cuando se genera la página web que desea rastrear.
 
