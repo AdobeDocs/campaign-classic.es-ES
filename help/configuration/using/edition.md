@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Edición{#edition}
 
-Se puede acceder a la pantalla para crear y configurar los documentos de configuración de la jerarquía de navegación a través del **[!UICONTROL Administration > Configuration > Navigation hierarchies]** nodo:
+Se puede acceder a la pantalla para crear y configurar los documentos de configuración de la jerarquía de navegación a través del nodo **[!UICONTROL Administration > Configuration > Navigation hierarchies]**:
 
 ![](assets/d_ncs_integration_navigation_arbo.png)
 
@@ -29,7 +29,7 @@ El campo de edición proporciona el contenido del documento XML:
 
 >[!NOTE]
 >
->El control de edición &quot;Nombre&quot; permite introducir la clave de documento que consta del nombre y la Área de nombres. The &quot;name&quot; and &quot;namespace&quot; attributes of the **`<navtree>`** element are automatically updated in the XML edit field of the schema.
+>El control de edición &quot;Nombre&quot; permite introducir la clave de documento que consta del nombre y la Área de nombres. Los atributos &quot;name&quot; y &quot;Área de nombres&quot; del elemento **`<navtree>`** se actualizan automáticamente en el campo de edición XML del esquema.
 
 La previsualización genera automáticamente el documento combinado que contiene la configuración completa:
 
