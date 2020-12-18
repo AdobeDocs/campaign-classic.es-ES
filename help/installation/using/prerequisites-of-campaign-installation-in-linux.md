@@ -21,16 +21,16 @@ ht-degree: 2%
 
 En esta sección se detallan los pasos de configuración preliminares necesarios antes de instalar Adobe Campaign.
 
-La configuración técnica y de software necesaria para instalar Adobe Campaign se detalla en la matriz [de](../../rn/using/compatibility-matrix.md)compatibilidad.
+La configuración técnica y de software necesaria para instalar Adobe Campaign se detalla en la [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
 
 Como recordatorio, es necesario instalar y configurar correctamente los siguientes componentes:
 
-* Apache, consulte la matriz [de](../../rn/using/compatibility-matrix.md)compatibilidad,
+* Apache, consulte [Tabla de compatibilidad](../../rn/using/compatibility-matrix.md),
 * Java JDK y OpenJDK, consulte [Java Development Kit - JDK](../../installation/using/application-server.md#java-development-kit---jdk),
 * Bibliotecas, consulte [Bibliotecas](#libraries),
-* Capas de acceso a la base de datos, consulte las capas [de acceso a la](#database-access-layers)base de datos,
-* LibreOffice, referido a [Instalando LibreOffice para Debian](#installing-libreoffice-for-debian) e [Instalando LibreOffice para CentOS](#installing-libreoffice-for-centos),
-* Fuentes, consulte [Fuentes para estadísticas](#fonts-for-mta-statistics) de MTA y [Fuentes para instancias](#fonts-for-japanese-instances)japonesas.
+* Capas de acceso a la base de datos, consulte [Capas de acceso a la base de datos](#database-access-layers),
+* LibreOffice, consulte [Instalación de LibreOffice para Debian](#installing-libreoffice-for-debian) y [Instalación de LibreOffice para CentOS](#installing-libreoffice-for-centos),
+* Fuentes, consulte [Fuentes para estadísticas de MTA](#fonts-for-mta-statistics) y [Fuentes para instancias japonesas](#fonts-for-japanese-instances).
 
 >[!NOTE]
 >
@@ -42,17 +42,17 @@ Para instalar Adobe Campaign en Linux, asegúrese de tener las bibliotecas neces
 
 * La biblioteca C debe poder admitir el modo TLS (Almacenamiento local de subprocesos). Este modo está activo en la mayoría de los casos excepto con algunos núcleos para los que se ha deshabilitado la compatibilidad con Xen.
 
-   Para comprobar esto, puede utilizar el **nombre -a | grep xen** , por ejemplo.
+   Para comprobar esto, puede utilizar el **nombre -a | grep xen**, por ejemplo.
 
    Si el comando no devuelve nada (línea vacía), significa que la configuración es correcta.
 
-* Debe tener **la versión 0.9.8** o **1.0** de OpenSSL.
+* Debe tener **versión 0.9.8** o **1.0** de OpenSSL.
 
    Para distribuciones RHEL 7, se requiere la versión 1.0 de OpenSSL.
 
-* Para usar Adobe Campaign, necesita tener instalada la biblioteca **libicu** .
+* Para utilizar Adobe Campaign, debe tener instalada la biblioteca **libicu**.
 
-   Se admiten las siguientes versiones de **libicu** (32 o 64 bits):
+   Se admiten las siguientes versiones de **libicu** (32 bits o 64 bits):
 
    * RHEL 7, CentOS 7: libicu50
    * Debian 8: libicu52
@@ -80,7 +80,7 @@ Para ello, inicie sesión como raíz e introduzca el siguiente comando:
 echo 0 >/selinux/enforce
 ```
 
-Además de esto, en el archivo **/etc/sysconfig/httpd** , se agregó la línea siguiente para hacer referencia al script de configuración de Adobe Campaign entorno:
+Además de esto, en el archivo **/etc/sysconfig/httpd** se agregó la línea siguiente para hacer referencia al script de configuración de Adobe Campaign entorno:
 
 ```
 . ~neolane/nl6/env.sh
@@ -162,13 +162,13 @@ Las siguientes configuraciones son necesarias con CentOS:
    yum install ipa-gothic-fonts ipa-mincho-fonts
    ```
 
-## Capas de acceso a la base de datos {#database-access-layers}
+## Capas de acceso a base de datos {#database-access-layers}
 
 Las capas de acceso para el motor de base de datos que está utilizando deben estar instaladas en el servidor y ser accesibles a través de la cuenta de Adobe Campaign. Las versiones y los modos de instalación pueden variar en función del motor de base de datos utilizado.
 
-La versión piloto admitida se detalla en la matriz [de](../../rn/using/compatibility-matrix.md)compatibilidad.
+La versión piloto admitida se detalla en la [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
 
-Consulte también la sección [Base de datos](../../installation/using/database.md) general.
+Consulte también la sección general [Base de datos](../../installation/using/database.md).
 
 ### PostgreSQL {#postgresql}
 
@@ -184,7 +184,7 @@ Puede obtener un paquete RPM de Linux de la red de tecnología Oracle.
 
 >[!NOTE]
 >
->Si ya ha instalado el cliente de Oracle pero el entorno global (por ejemplo: /etc/perfil) no está configurado correctamente, puede agregar la información que falta a la secuencia de comandos **nl6/customer.sh** Para obtener más información al respecto, consulte las variables [de](../../installation/using/installing-packages-with-linux.md#environment-variables)Entorno.
+>Si ya ha instalado el cliente de Oracle pero el entorno global (por ejemplo: /etc/perfil) no está configurado correctamente, puede agregar la información que falta a la **nl6/customer.sh** secuencia de comandos Para obtener más información sobre esto, consulte [Variables de Entorno](../../installation/using/installing-packages-with-linux.md#environment-variables).
 
 **Solución de problemas y prácticas recomendadas**
 
@@ -192,17 +192,17 @@ Los problemas pueden aparecer después de una actualización de un cliente de Or
 
 Si observa en la consola del cliente que hay retrasos inesperados (una o más horas) en los registros, en el último procesamiento del flujo de trabajo, en el siguiente procesamiento, etc., es posible que haya un problema entre la biblioteca del cliente Oracle y el servidor Oracle. Para evitar esos problemas
 
-1. Asegúrese de utilizar el cliente **** completo.
+1. Asegúrese de utilizar el **cliente completo**.
 
    Se han identificado varios problemas al usar la versión de Oracle Instant Client. Además, es imposible cambiar el archivo de zona horaria en el cliente instantáneo.
 
-1. Asegúrese de que la versión **del** cliente y la versión **del servidor** de la base de datos sean la **misma**.
+1. Asegúrese de que la **versión del cliente** y la **versión del servidor de la base de datos** son **iguales**.
 
    Se sabe que la mezcla de versiones a pesar de la matriz de compatibilidad de Oracle y la recomendación de alinear versiones de cliente y servidor causa problemas.
 
    Compruebe también el valor de ORACLE_HOME para asegurarse de que apunta a la versión del cliente esperada (en caso de que se instalen varias versiones en el equipo).
 
-1. Asegúrese de que el cliente y el servidor utilizan el mismo archivo **de** zona horaria.
+1. Asegúrese de que el cliente y el servidor utilicen el mismo **archivo de zona horaria**.
 
 ### DB2 {#db2}
 
@@ -217,4 +217,4 @@ El proceso de instalación se describe en este capítulo. Los pasos de instalaci
 * Paso 1: Instalación del servidor de aplicaciones, consulte [Instalación de paquetes con Linux](../../installation/using/installing-packages-with-linux.md).
 * Paso 2: Integración con un servidor web (opcional, según los componentes implementados).
 
-Una vez completados los pasos de instalación, debe configurar las instancias, la base de datos y el servidor. For more on this, refer to [About initial configuration](../../installation/using/about-initial-configuration.md).
+Una vez completados los pasos de instalación, debe configurar las instancias, la base de datos y el servidor. Para obtener más información sobre esto, consulte [Acerca de la configuración inicial](../../installation/using/about-initial-configuration.md).
