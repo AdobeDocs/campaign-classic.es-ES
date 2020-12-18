@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## Filtros del sistema {#system-filters}
 
-Puede filtrar el acceso de esquema a usuarios específicos en función de sus permisos. Los filtros del sistema le permiten administrar los permisos de lectura y escritura de las entidades detalladas en esquemas, mediante parámetros **readAccess** y **writeAccess** .
+Puede filtrar el acceso de esquema a usuarios específicos en función de sus permisos. Los filtros del sistema le permiten administrar los permisos de lectura y escritura de las entidades detalladas en los esquemas, mediante parámetros **readAccess** y **writeAccess**.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Puede filtrar el acceso de esquema a usuarios específicos en función de sus pe
 
 * **writeAccess**: proporciona acceso de escritura a los datos de esquema.
 
-Estos filtros se introducen en el nivel de **elemento** principal de los esquemas y, como se muestra en los ejemplos siguientes, se pueden formar para restringir el acceso.
+Estos filtros se introducen en el nivel principal **elemento** de los esquemas y, como se muestra en los ejemplos siguientes, se pueden formar para restringir el acceso.
 
 * Restringir permisos de escritura
 
@@ -45,7 +45,7 @@ Estos filtros se introducen en el nivel de **elemento** principal de los esquema
 
 * Restringir permisos de lectura y escritura:
 
-   Aquí, el filtro se utiliza para no permitir permisos de lectura y escritura en el esquema para todos los operadores. Solo la cuenta **interna** , representada por la expresión &quot;$(loginId)!=0&quot;, tiene estos permisos.
+   Aquí, el filtro se utiliza para no permitir permisos de lectura y escritura en el esquema para todos los operadores. Solo la cuenta **interna**, representada por la expresión &quot;$(loginId)!=0&quot;, tiene estos permisos.
 
    ```
    <sysFilter name="readAccess"> 
@@ -57,7 +57,7 @@ Estos filtros se introducen en el nivel de **elemento** principal de los esquema
    </sysFilter>
    ```
 
-   Los posibles valores de atributos **expr** utilizados para definir la condición son TRUE o FALSE.
+   Los valores de atributo **expr** posibles utilizados para definir la condición son TRUE o FALSE.
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ De forma predeterminada, los esquemas integrados solo son accesibles con permiso
 
 >[!IMPORTANT]
 >
->Los permisos de lectura y escritura para el esquema **xtk:sessionInfo** solo son accesibles desde la cuenta interna de una instancia de Adobe Campaign.
+>Los permisos de lectura y escritura para el esquema **xtk:sessionInfo** solo son accesibles mediante la cuenta interna de una instancia de Adobe Campaign.
 
 ## Modificación de filtros del sistema de esquemas integrados {#modifying-system-filters-of-built-in-schemas}
 
@@ -112,5 +112,5 @@ Aún puede modificar los filtros del sistema de los esquemas predeterminados que
 
 1. Cree una extensión para el esquema en cuestión o abra una extensión existente.
 1. Añada un elemento secundario **`<sysfilter name="<filter name>" _operation="delete"/>`** en el elemento principal para eliminar la aplicación del filtro debajo del mismo en el esquema de origen.
-1. Si lo desea, puede agregar un nuevo filtro, como se detalla en filtros [del sistema](#system-filters).
+1. Si lo desea, puede agregar un nuevo filtro, como se detalla en [filtros del sistema](#system-filters).
 
