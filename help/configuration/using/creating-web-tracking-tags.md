@@ -24,7 +24,7 @@ Cada página del sitio que desee rastrear debe ser referenciada en su plataforma
 
 ## Definición de las direcciones URL que se rastrearán en la aplicación {#defining-the-urls-to-be-tracked-in-the-application}
 
-Este método permite definir manualmente las páginas que se rastrearán y, a continuación, generar un ejemplo de la etiqueta de seguimiento Web asociada. Esta operación se define en el **[!UICONTROL Campaign execution>Resources>Web tracking tags]** nodo de la consola de cliente.
+Este método permite definir manualmente las páginas que se rastrearán y, a continuación, generar un ejemplo de la etiqueta de seguimiento Web asociada. Esta operación se define en el nodo **[!UICONTROL Campaign execution>Resources>Web tracking tags]** de la consola de cliente.
 
 ![](assets/d_ncs_integration_webtracking_screen.png)
 
@@ -33,13 +33,13 @@ Para generar el código HTML que se va a insertar en la página:
 * Introduzca la etiqueta de la etiqueta: se mostrará en los registros de seguimiento,
 * Indique la dirección URL de origen: este campo sirve para fines informativos y le permite indicar la página rastreada (opcional),
 * Si es necesario, introduzca un período de validez.
-* Haga clic en **[!UICONTROL Generate]** Código HTML.
+* Haga clic en **[!UICONTROL Generate]** código HTML.
 
 A continuación, copie el código generado y péguelo en la página que desee rastrear.
 
 ## Creación sobre la marcha de direcciones URL para rastrear {#on-the-fly-creation-of-urls-to-be-tracked}
 
-Puede crear las direcciones URL de seguimiento web sobre la marcha agregando información al valor del parámetro **tagid** :
+Puede crear las direcciones URL de seguimiento web sobre la marcha agregando información al valor del parámetro **tagid**:
 
 * Tipo de página rastreada: &#39;w&#39; para WEB o &#39;t&#39; para TRANSACCIONES,
 * El nombre interno de la carpeta en la que se debe crear la dirección URL.
