@@ -23,15 +23,15 @@ Para cada una de estas versiones, Adobe Campaign incluye un paquete: **nlserver*
 
 Los comandos de instalación le permiten:
 
-* Copiar los archivos en **/usr/local/neolane**
-* Crear una cuenta de Adobe Campaign Linux (y el grupo asociado), que se crea con **/usr/local/neolane** como directorio de inicio
+* Copie los archivos en **/usr/local/neolane**
+* Cree una cuenta de Adobe Campaign Linux (y el grupo asociado), que se crea con **/usr/local/neolane** como directorio principal
 * Cree una secuencia de comandos automática **/etc/init.d/nlserver6** para utilizarla durante el inicio o cree una unidad sistémica (a partir de 20.1).
 
 >[!NOTE]
 >
->El usuario del sistema **neolane** no debe haber sido creado antes de ejecutar el comando. El usuario **neolano** se crea automáticamente durante la instalación.
+>El usuario del sistema **neolane** no debe haberse creado antes de ejecutar el comando. El usuario **neolane** se crea automáticamente durante la instalación.
 >
->El directorio **principal** vinculado al usuario **neolano** también se crea automáticamente en **[!UICONTROL /usr/local/neolane]**. Asegúrese de que haya suficiente espacio en el **[!UICONTROL /usr/local]** disco (varios GB).
+>El directorio **home** vinculado al usuario **neolane** también se crea automáticamente en **[!UICONTROL /usr/local/neolane]**. Asegúrese de que haya suficiente espacio en el disco **[!UICONTROL /usr/local]** (varios GB).
 
 Puede ejecutar el comando **ping`hostname`** para asegurarse de que el servidor se pueda conectar a sí mismo.
 
@@ -43,8 +43,8 @@ Para instalar Adobe Campaign en un sistema operativo RPM (RHEL, CentOS y SUSE), 
 
    El nombre del archivo es el siguiente, donde **XXXX** es el número de compilación de Adobe Campaign:
 
-   * **nlserver6-v7-XXXX-0.x86_64.rpm** para v7.
-   * **nlserver6-XXXX-0.x86_64.rpm** para v6.1.
+   * **nlserver6-v7-XXXX-0.x86_64.** rpmfor v7.
+   * **nlserver6-XXXX-0.x86_64.** rpmfor v6.1.
 
    >[!CAUTION]
    >
@@ -64,7 +64,7 @@ Para instalar Adobe Campaign en un sistema operativo RPM (RHEL, CentOS y SUSE), 
 
 El comando &#39;bc&#39;, necesario para ejecutar netreport (consulte [esta sección](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts) para obtener más información), no está disponible de forma predeterminada en todas las distribuciones de Linux. Para comprobar si el comando está disponible, ejecute el comando &#39;what bc&#39;. Si no es así, tiene que instalarlo.
 
-Con CentOS, debe instalar el paquete bc.x86_64: conecte como **raíz** y ejecute el siguiente comando:
+Con CentOS, debe instalar el paquete bc.x86_64: conecte como **root** y ejecute el siguiente comando:
 
 ```
 yum install bc.x86_64
@@ -78,10 +78,10 @@ Para instalar Adobe Campaign de 64 bits en un sistema operativo Debian de 64 bit
 
 1. Primero debe obtener el paquete de Adobe Campaign.
 
-   * **nlserver6-v7-XXXX-linux-2.6-amd64.deb** para v7.
-   * **nlserver6-XXXX-linux-2.6-amd64.deb** para v6.1.
+   * **nlserver6-v7-XXXX-linux-2.6-amd64.** debfor v7.
+   * **nlserver6-XXXX-linux-2.6-amd64.** debfor v6.1.
 
-   **XXXX** es el número de compilación de Adobe Campaign.
+   **** XXXX es el número de compilación de Adobe Campaign.
 
    >[!CAUTION]
    >
@@ -130,9 +130,9 @@ Cuando instale Adobe Campaign en un sistema operativo Debian 8/9, tenga en cuent
 
 ## Personalización de parámetros {#personalizing-parameters}
 
-Algunos parámetros se pueden personalizar mediante el archivo **customer.sh** .
+Algunos parámetros se pueden personalizar mediante el archivo **customer.sh**
 
-Si está realizando la instalación por primera vez, es posible que el archivo **customer.sh** aún no exista en el servidor. Crearla y asegurarse de que tiene derechos de ejecución. Si no es así, introduzca el siguiente comando:
+Si está realizando la instalación por primera vez, es posible que el archivo **customer.sh** no exista en el servidor. Crearla y asegurarse de que tiene derechos de ejecución. Si no es así, introduzca el siguiente comando:
 
 ```
 chmod +x /usr/local/neolane/nl6/customer.sh
@@ -146,7 +146,7 @@ De forma predeterminada, el servidor se inicia en un entorno iso8859-15. Sin emb
 >
 >Este cambio afecta a las interacciones con el sistema de archivos (archivos cargados mediante un flujo de trabajo o una secuencia de comandos de JavaScript) y a la codificación de archivos. Por lo tanto, recomendamos utilizar el entorno predeterminado.
 
-Sin embargo, para crear una instancia **** japonesa, debe utilizar un entorno UTF-8.
+Sin embargo, para crear una **instancia de japonés**, debe utilizar un entorno UTF-8.
 
 Para habilitar el entorno UTF-8, utilice el siguiente comando:
 
@@ -155,7 +155,7 @@ mkdir -p /usr/local/neolane/nl6
 touch /usr/local/neolane/nl6/unicodeenv
 ```
 
-### Idioma predeterminado del servidor {#default-language-for-the-server}
+### Idioma predeterminado para el servidor {#default-language-for-the-server}
 
 La instalación admite inglés y francés. El inglés se utiliza de forma predeterminada.
 
@@ -180,7 +180,7 @@ Las siguientes variables de entorno deben definirse correctamente.
 
 Determinadas combinaciones requieren cambios en el entorno utilizado para ejecutar Adobe Campaign. Se puede crear y editar un archivo específico (`/usr/local/neolane/nl6/customer.sh`) para agregar modificaciones específicas al entorno de Adobe Campaign.
 
-Si es necesario, edite el archivo **customer.sh** mediante el comando **vi customer.sh** y adapte la configuración o agregue las líneas que faltan:
+Si es necesario, edite el archivo **customer.sh** utilizando el comando **vi customer.sh** y adapte la configuración o agregue las líneas que faltan:
 
 * Para el cliente Oracle:
 
@@ -192,7 +192,7 @@ Si es necesario, edite el archivo **customer.sh** mediante el comando **vi custo
 
    El contenido de la variable de entorno ORACLE_HOME coincide con el directorio de instalación de Oracle.
 
-   El contenido de la variable TNS_ADMIN debe coincidir con la ubicación del archivo **tnsnames.ora** .
+   El contenido de la variable TNS_ADMIN debe coincidir con la ubicación del archivo **tnsnames.ora**.
 
 * Para LibreOffice:
 
@@ -200,7 +200,7 @@ Si es necesario, edite el archivo **customer.sh** mediante el comando **vi custo
 
    * Debian
 
-      Se proporcionan los valores predeterminados para OOO_INSTALL_DIR, OOO_BASIS_INSTALL_DIR, OOO_URE_INSTALL_DIR. Puedes ignorarlos en **customer.sh** si tu diseño de la instalación de LibreOffice es diferente:
+      Se proporcionan los valores predeterminados para OOO_INSTALL_DIR, OOO_BASIS_INSTALL_DIR, OOO_URE_INSTALL_DIR. Puede anularlos en **customer.sh** si su diseño de la instalación de LibreOffice es diferente:
 
       ```
       export OOO_BASIS_INSTALL_DIR=/usr/lib/libreoffice/ 
@@ -252,7 +252,7 @@ systemctl stop nlserver
 systemctl start nlserver
 ```
 
-### Oracle Client en Linux {#oracle-client-in-linux}
+### Cliente de oracle en Linux {#oracle-client-in-linux}
 
 Al utilizar Oracle con Adobe Campaign, debe configurar las capas de cliente de Oracle en Linux.
 
@@ -270,11 +270,11 @@ Al utilizar Oracle con Adobe Campaign, debe configurar las capas de cliente de O
 
 * Variables de entorno
 
-   Consulte las variables [de](../../installation/using/installing-packages-with-linux.md#environment-variables)Entorno.
+   Consulte [variables de Entorno](../../installation/using/installing-packages-with-linux.md#environment-variables).
 
 * Configuración para Adobe Campaign
 
-   Para finalizar la instalación del cliente de Oracle para Adobe Campaign, debe crear un vínculo simbólico para el archivo **.so** que utiliza Adobe Campaign.
+   Para finalizar la instalación del cliente de Oracle para Adobe Campaign, debe crear un vínculo simbólico para el archivo **.so** utilizado por Adobe Campaign.
 
    Para ello, utilice los siguientes comandos:
 
@@ -283,7 +283,7 @@ Al utilizar Oracle con Adobe Campaign, debe configurar las capas de cliente de O
    ln -s libclntsh.so.10.1 libclntsh.so
    ```
 
-Si se produce un problema, asegúrese de que los paquetes enumerados en la documentación [de instalación de](https://www.oracle.com/pls/db112/portal.portal_db?selected=11) Oracle están correctamente instalados.
+Si se produce un problema, asegúrese de que los paquetes enumerados en la [documentación de instalación de Oracle](https://www.oracle.com/pls/db112/portal.portal_db?selected=11) están correctamente instalados.
 
 ## Comprobaciones de instalación {#installation-checks}
 
@@ -320,7 +320,7 @@ A continuación se muestra la siguiente información:
 17:11:08 >   Web server stop(pid=17546, tid=-151316352)...
 ```
 
-Estos comandos le permiten crear archivos de configuración **config-default.xml** y **serverConf.xml** . Todos los parámetros disponibles en **serverConf.xml** se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
+Estos comandos le permiten crear **archivos de configuración config-default.xml** y **serverConf.xml**. Todos los parámetros disponibles en **serverConf.xml** se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
 
 Pulse **Ctrl+C** para detener el proceso y, a continuación, introduzca el siguiente comando:
 
@@ -355,8 +355,8 @@ A continuación se muestra la siguiente información:
 12:18:31 >   Web server stopped (pid=29188, tid=-1224824320)...
 ```
 
-## Contraseña del identificador interno {#password-for-the-internal-identifier}
+## Contraseña para el identificador interno {#password-for-the-internal-identifier}
 
-El servidor de Adobe Campaign define un inicio de sesión técnico denominado **interno** que tiene todos los derechos en todas las instancias. Justo después de la instalación, el inicio de sesión no tiene contraseña. Es obligatorio definir uno.
+El servidor de Adobe Campaign define un inicio de sesión técnico denominado **internal** que tiene todos los derechos en todas las instancias. Justo después de la instalación, el inicio de sesión no tiene contraseña. Es obligatorio definir uno.
 
-Consulte la sección Identificador [interno](../../installation/using/campaign-server-configuration.md#internal-identifier).
+Consulte la sección [Identificador interno](../../installation/using/campaign-server-configuration.md#internal-identifier).
