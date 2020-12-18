@@ -17,12 +17,12 @@ ht-degree: 71%
 
 # Configuración de acceso a SAP HANA {#configure-access-to-sap-hana}
 
-Utilice la opción [Acceso de datos federado](../../installation/using/about-fda.md) de Campaña (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a SAP HANA.
+Utilice la opción Campaña [Acceso de datos federado](../../installation/using/about-fda.md) (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a SAP HANA.
 
-1. Configurar la base de datos de [SAP HANA](#sap-config)
-1. Configurar la [cuenta externa](#sap-external) de SAP HANA en Campaña
+1. Configurar [base de datos de SAP HANA](#sap-config)
+1. Configurar la cuenta externa [de SAP HANA](#sap-external) en Campaña
 
-## Controladores SAP HANA {#sap-config}
+## Controladores de SAP HANA {#sap-config}
 
 La conexión a una base de datos externa de SAP HANA en FDA requiere determinadas configuraciones adicionales en el servidor de Adobe Campaign:
 
@@ -60,7 +60,7 @@ La conexión a una base de datos externa de SAP HANA en FDA requiere determinada
    * **LD_LIBRARY_PATH**: Debe incluir el enlace a su cliente de SAP Hana (/usr/sap/hdbclient/libodbcHDB.so) de forma predeterminada).
    * **ODBCINI**: ubicación del archivo odbc.ini (por ejemplo, /etc/odbc.ini).
 
-## CUENTA EXTERNA SAP HANA{#sap-external}
+## CUENTA EXTERNA de SAP HANA{#sap-external}
 
 La cuenta externa de SAP HANA permite conectar la instancia de Campaña a la base de datos externa de SAP HANA.
 
