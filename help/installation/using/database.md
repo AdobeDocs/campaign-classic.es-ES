@@ -21,13 +21,13 @@ El servidor de base de datos puede ejecutarse en cualquier sistema operativo, in
 
 El sistema operativo del servidor de la base de datos no es importante mientras esté disponible la conectividad con los diferentes componentes de Adobe Campaign.
 
-Compruebe también la sección Capas [de acceso a la](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers) base de datos.
+Compruebe también la sección [Capas de acceso a la base de datos](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers).
 
 ## Microsoft SQL Server {#microsoft-sql-server}
 
 El cliente nativo debe estar instalado en los servidores de aplicaciones de Adobe Campaign.
 
-Puede buscar el cliente nativo en el servidor mediante el panel de configuración del controlador ODBC, en el cliente nativo de **SQL Server 11.0**.
+Puede buscar el cliente nativo en el servidor mediante el panel de configuración del controlador ODBC, en **Cliente nativo de SQL Server 11.0**.
 
 Debe estar presente el siguiente archivo DLL de acceso: **sqlncli11.dll**.
 
@@ -47,7 +47,7 @@ Los parámetros **NLS_NCHAR_CHARACTERSET** y **NLS_CHARACTERSET** deben configur
 
 Adobe Campaign utiliza la codificación Oracle predeterminada. El uso de otra codificación puede desencadenar problemas de compatibilidad: en este caso, póngase en contacto con el servicio de asistencia técnica.
 
-Para obtener información sobre la codificación, utilice el siguiente **comando sqlplus** :
+Para obtener información sobre la codificación, utilice el siguiente comando **sqlplus**:
 
 ```
 SELECT * FROM nls_database_parameters ;
@@ -74,12 +74,12 @@ sqlplus
 [login] [password]
 ```
 
-También puede consultar el cliente de [Oracle en Linux](../../installation/using/installing-packages-with-linux.md#oracle-client-in-linux).
+También puede referirse a [Oracle Client en Linux](../../installation/using/installing-packages-with-linux.md#oracle-client-in-linux).
 
 ## PostgresSQL {#postgressql}
 
 Le recomendamos que instale la compatibilidad con UTF-8 al instalar el motor de procesamiento de la base de datos. De esta manera podrá crear bases de datos Unicode.
 
-**Temas relacionados**
+**Tema relacionado**
 
 * [Opción sin registrar en tablas de Adobe Campaign Classic](https://helpx.adobe.com/campaign/kb/unlogged-tables-classic.html)
