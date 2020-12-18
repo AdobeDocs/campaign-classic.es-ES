@@ -18,7 +18,7 @@ ht-degree: 3%
 # Advertencias de migración{#migration-warnings}
 
 * El proceso de migración está reservado para usuarios expertos. Debe contar con la asistencia de al menos un experto en bases de datos, un administrador del sistema y un desarrollador de aplicaciones de Adobe Campaign.
-* Antes de iniciar la migración, compruebe que los sistemas y los componentes del sistema que utiliza son compatibles con la versión 7. Consulte la matriz [de](../../rn/using/compatibility-matrix.md)compatibilidad.
+* Antes de iniciar la migración, compruebe que los sistemas y los componentes del sistema que utiliza son compatibles con la versión 7. Consulte la [matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
 * Si utiliza Adobe Campaign Cloud Messaging (anteriormente intermediaria), póngase en contacto con Adobe Campaign antes de iniciar el procedimiento de migración completo.
 * Antes de iniciar un proceso de migración, **debe** realizar una copia de seguridad de los datos.
 * El proceso de migración puede tardar varios días en completarse.
@@ -26,5 +26,5 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->También debe consultar la sección [Antes de iniciar la migración](../../migration/using/before-starting-migration.md) .
+>También debe consultar la sección [Antes de iniciar la migración](../../migration/using/before-starting-migration.md).
 
