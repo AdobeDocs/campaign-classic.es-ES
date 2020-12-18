@@ -33,7 +33,7 @@ export TRACE_ADDR=localhost:<listening port>
 
 ### En Windows {#in-windows}
 
-Debe crear la variable de entorno **TRACE_ADDR.** con el valor **localhost** : **`<listening port="" />`**.
+Debe crear la variable de entorno **TRACE_ADDR.** con el valor **localhost**: **`<listening port="" />`**.
 
 >[!IMPORTANT]
 >
@@ -41,8 +41,8 @@ Debe crear la variable de entorno **TRACE_ADDR.** con el valor **localhost** : *
 
 ## Configuración de zonas de seguridad {#configuring-security-zones}
 
-Cada operador debe estar vinculado a una zona para iniciar sesión en una instancia y la IP del operador debe incluirse en las direcciones o conjuntos de direcciones definidos en la zona de seguridad. La configuración de la zona técnica se realiza en el archivo de configuración del servidor de Adobe Campaign. La vinculación de un operador a una zona de seguridad debe definirse en la consola ( **[!UICONTROL Administration > Access management > Operators]** nodo).
+Cada operador debe estar vinculado a una zona para iniciar sesión en una instancia y la IP del operador debe incluirse en las direcciones o conjuntos de direcciones definidos en la zona de seguridad. La configuración de la zona técnica se realiza en el archivo de configuración del servidor de Adobe Campaign. La vinculación de un operador a una zona de seguridad debe definirse en el nodo de la consola ( **[!UICONTROL Administration > Access management > Operators]**).
 
 >[!NOTE]
 >
->For more on configuring security zones, refer to [this section](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+>Para obtener más información sobre la configuración de zonas de seguridad, consulte [esta sección](../../installation/using/configuring-campaign-server.md#defining-security-zones).
