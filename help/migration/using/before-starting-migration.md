@@ -24,7 +24,7 @@ ht-degree: 2%
 ## Advertencias {#warnings}
 
 * El proceso de migración solo debe realizarlo un usuario experto. Debe contar con la asistencia de al menos un experto en bases de datos, un administrador del sistema y un desarrollador de aplicaciones de Adobe Campaign.
-* Antes de iniciar la migración, compruebe que los sistemas y los componentes del sistema que utiliza son compatibles con la versión 7. Consulte la matriz [de](../../rn/using/compatibility-matrix.md)compatibilidad.
+* Antes de iniciar la migración, compruebe que los sistemas y los componentes del sistema que utiliza son compatibles con la versión 7. Consulte la [matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
 * Si utiliza Adobe Campaign Cloud Messaging (intermediaria), póngase en contacto con Adobe antes de iniciar el procedimiento de migración completo.
 * Antes de iniciar un proceso de migración, **debe** realizar una copia de seguridad de los datos.
 * El proceso de migración puede tardar varios días en completarse.
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 Antes de migrar, debe instalar la última compilación de la versión actual que está utilizando.
 
-Compruebe la versión en el servidor accediendo al **[!UICONTROL Help> About]** menú de la consola cliente mediante el comando **nlserver pdump** .
+Compruebe la versión del servidor en el menú **[!UICONTROL Help> About]** de la consola del cliente mediante el comando **nlserver pdump**.
 
 ### Backup de datos {#data-backup}
 
@@ -51,17 +51,17 @@ Dado que el procedimiento de migración es delicado, recomendamos encarecidament
 
 ## Pasos de migración {#migration-steps}
 
-El procedimiento de migración debe llevarse a cabo en **todos** los servidores y en un orden determinado.
+El procedimiento de migración debe realizarse en **todos** servidores y en un orden determinado.
 
-* En el caso de una plataforma **** independiente (modo de una sola máquina), la aplicación se migra por completo.
-* En el caso de una plataforma **** estándar (empresa), los pasos de migración son los siguientes:
+* En el caso de una **plataforma independiente** (modo de una sola máquina), la aplicación se migra en su totalidad.
+* En el caso de una **plataforma estándar** (empresa), los pasos de migración son los siguientes:
 
    1. Migrar el servidor de marketing.
    1. Migrar el servidor de correo (mta).
    1. Migrar los servidores de redirección y seguimiento (Apache / IIS).
 
-* En el caso de una plataforma **de mensajería** en la nube, los servidores de ejecución están alojados en Adobe Campaign. Póngase en contacto con Adobe Campaign para coordinar la migración entre diferentes servidores.
-* En el caso de una plataforma **** Power Booster o Power Cluster, los pasos de migración son los siguientes:
+* En el caso de una **plataforma de mensajería en la nube**, los servidores de ejecución se alojan en Adobe Campaign. Póngase en contacto con Adobe Campaign para coordinar la migración entre diferentes servidores.
+* En el caso de una **plataforma de Power Booster o Power Cluster**, los pasos de migración son los siguientes:
 
    1. Migrar los servidores de redirección y seguimiento (Apache / IIS).
    1. Migrar los servidores Power Booster/Cluster.
@@ -69,7 +69,7 @@ El procedimiento de migración debe llevarse a cabo en **todos** los servidores 
 
 ## Contraseñas de usuario {#user-passwords}
 
-En v7, la conexión de operador **interno** y de **administrador** debe estar protegida con una contraseña. Se recomienda encarecidamente asignar contraseñas a estas cuentas y a todas las cuentas de operador **antes de la migración**. Si no ha especificado una contraseña para **interno**, no podrá conectarse. Para asignar una contraseña a **interno**, escriba el siguiente comando:
+En v7, la conexión del operador **internal** y **admin** debe estar asegurada mediante una contraseña. Se recomienda encarecidamente asignar contraseñas a estas cuentas y a todas las cuentas de operador, **antes de la migración**. Si no ha especificado una contraseña para **internal**, no podrá conectarse. Para asignar una contraseña a **internal**, introduzca el siguiente comando:
 
 ```
 nlserver config -internalpassword
@@ -77,5 +77,5 @@ nlserver config -internalpassword
 
 >[!IMPORTANT]
 >
->La contraseña **interna** debe ser idéntica para todos los servidores de seguimiento. Para obtener más información, consulte las secciones Identificador [](../../installation/using/campaign-server-configuration.md#internal-identifier) interno y [Acerca de los permisos](../../platform/using/access-management.md#about-permissions) .
+>La contraseña **interna** debe ser idéntica para todos los servidores de seguimiento. Para obtener más información, consulte las secciones [Identificador interno](../../installation/using/campaign-server-configuration.md#internal-identifier) y [Acerca de los permisos](../../platform/using/access-management.md#about-permissions).
 
