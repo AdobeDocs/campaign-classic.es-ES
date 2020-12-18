@@ -17,23 +17,23 @@ ht-degree: 1%
 
 # Actualización a una nueva compilación (in situ){#upgrading}
 
-Antes de iniciar el proceso de actualización, determine y confirme a qué versión de Adobe Campaign se va a actualizar y consulte las [Notas](../../rn/using/latest-release.md) de la versión.
+Antes de iniciar el proceso de actualización, determine y confirme a qué versión de Adobe Campaign se va a actualizar y consulte las [Notas de la versión](../../rn/using/latest-release.md).
 
 >[!IMPORTANT]
 >
->Se recomienda encarecidamente realizar una copia de seguridad de la base de datos en cada instancia antes de la actualización. Para obtener más información, consulte [Copia de seguridad](../../production/using/backup.md).\
+>Se recomienda encarecidamente realizar una copia de seguridad de la base de datos en cada instancia antes de la actualización. Para obtener más información, consulte [Backup](../../production/using/backup.md).\
 >Para realizar una actualización, asegúrese de que tiene la capacidad y los permisos para acceder a instancias y registros.
 
 >[!NOTE]
 >
->Consulte también la guía [de](../../installation/using/general-architecture.md) instalación y la introducción de la actualización [de la](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) compilación.
+>Consulte también la [guía de instalación](../../installation/using/general-architecture.md) y la [actualización de la compilación](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) introducción.
 
 ## Windows {#in-windows}
 
 Para actualizar Adobe Campaign en una nueva versión al enviar una nueva compilación, se debe aplicar el siguiente procedimiento en Windows:
 
 * [Cerrar servicios](#shut-down-services),
-* [Actualice la aplicación](#upgrade-the-adobe-campaign-server-application)de servidor de Adobe Campaign,
+* [Actualice la aplicación](#upgrade-the-adobe-campaign-server-application) de servidor de Adobe Campaign,
 * [Sincronizar recursos](#synchronize-resources),
 * [Reinicie los servicios](#restart-services).
 
@@ -52,9 +52,9 @@ Para reemplazar todos los archivos con la nueva versión, debe cerrar todas las 
    * Servicio Adobe Campaign: **net stop nlserver6**
    >[!IMPORTANT]
    >
-   >También debe asegurarse de que el servidor de redirección (webmdl) está detenido, para que el archivo **nlsrvmod.dll** que utiliza IIS pueda reemplazarse por la nueva versión.
+   >También debe asegurarse de que el servidor de redirección (webmdl) está detenido, de modo que el archivo **nlsrvmod.dll** utilizado por IIS pueda reemplazarse por la nueva versión.
 
-1. Compruebe que no hay tareas activas ejecutando el comando **nlserver pdump** . Debe presentarse lo siguiente:
+1. Compruebe que no hay tareas activas ejecutando el comando **nlserver pdump**. Debe presentarse lo siguiente:
 
    ```
    C:<installation path>Adobe Campaign v7bin>nlserver pdump
@@ -64,17 +64,17 @@ Para reemplazar todos los archivos con la nueva versión, debe cerrar todas las 
 
    Puede utilizar el Administrador de Tareas de Windows para asegurarse de que se detienen todos los procesos.
 
-### Actualización de la aplicación de servidor Adobe Campaign {#upgrade-the-adobe-campaign-server-application}
+### Actualizar la aplicación de servidor de Adobe Campaign {#upgrade-the-adobe-campaign-server-application}
 
 Para ejecutar el archivo de actualización, siga los pasos siguientes:
 
 1. Ejecute **setup.exe**.
 
-   Para descargar este archivo, conéctese al portal [de distribución de](https://experience.adobe.com/downloads) software con sus credenciales de usuario. Learn more about Software distribution in [this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
+   Para descargar este archivo, conéctese al [portal de distribución de software](https://experience.adobe.com/downloads) con sus credenciales de usuario. Obtenga más información sobre la distribución de software en [esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
 
-1. Seleccione el modo de instalación: elegir **[!UICONTROL Update or repair]**
-1. Haga clic en **[!UICONTROL Next]** .
-1. Haga clic en **[!UICONTROL Finish]** .
+1. Seleccione el modo de instalación: elija **[!UICONTROL Update or repair]**
+1. Haga clic en **[!UICONTROL Next]**.
+1. Haga clic en **[!UICONTROL Finish]**.
 
    A continuación, el programa de instalación copia los nuevos archivos.
 
@@ -94,9 +94,9 @@ Esto le permitirá realizar las siguientes operaciones:
 
 >[!NOTE]
 >
->Esta operación debe realizarse una sola vez y solo en un servidor de aplicaciones (**servidor web**).
+>Esta operación debe realizarse sólo una vez y sólo en un servidor de aplicaciones (**nlserver web**).
 
-A continuación, compruebe si la sincronización ha generado errores o advertencias. Para obtener más información sobre esto, consulte [Resolución de conflictos](#resolving-upgrade-conflicts)de actualización.
+A continuación, compruebe si la sincronización ha generado errores o advertencias. Para obtener más información sobre esto, consulte [Resolución de conflictos de actualización](#resolving-upgrade-conflicts).
 
 ### Reiniciar servicios {#restart-services}
 
@@ -112,9 +112,9 @@ Los servicios que se reiniciarán son:
 
 Para actualizar Adobe Campaign en una nueva versión cuando se entrega una nueva compilación, el procedimiento para Linux es el siguiente:
 
-* [Obtener paquetes](#obtain-updated-packages)actualizados,
+* [Obtener paquetes](#obtain-updated-packages) actualizados,
 * [Realizar una actualización](#perform-an-update),
-* [Reinicie el servidor](#reboot-the-web-server)web.
+* [Reinicie el servidor](#reboot-the-web-server) web.
 
 Para saber cómo actualizar la consola de cliente, consulte [esta sección](../../installation/using/client-console-availability-for-linux.md).
 
@@ -124,7 +124,7 @@ Para saber cómo actualizar la consola de cliente, consulte [esta sección](../.
 
 ### Obtener paquetes actualizados {#obtain-updated-packages}
 
-Inicio recuperando los dos paquetes actualizados de Adobe Campaign: conéctese al portal [de distribución de](https://experience.adobe.com/downloads) software con sus credenciales de usuario. Learn more about Software distribution in [this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
+Inicio recuperando los dos paquetes actualizados de Adobe Campaign: conéctese al [portal de distribución de software](https://experience.adobe.com/downloads) con sus credenciales de usuario. Obtenga más información sobre la distribución de software en [esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
 
 El archivo es **nlserver6-v7-XXX.rpm**
 
@@ -156,7 +156,7 @@ El archivo es **nlserver6-v7-XXX.rpm**
 
 >[!NOTE]
 >
->Los procedimientos de instalación completos se detallan en [esta sección](../../installation/using/installing-campaign-standard-packages.md). Los recursos se sincronizan automáticamente, pero es necesario asegurarse de que no se produzca ningún error. Para obtener más información sobre esto, consulte [Resolución de conflictos](#resolving-upgrade-conflicts)de actualización.
+>Los procedimientos de instalación completos se detallan en [esta sección](../../installation/using/installing-campaign-standard-packages.md). Los recursos se sincronizan automáticamente, pero es necesario asegurarse de que no se produzca ningún error. Para obtener más información sobre esto, consulte [Resolución de conflictos de actualización](#resolving-upgrade-conflicts).
 
 ### Reinicie el servidor Web {#reboot-the-web-server}
 
@@ -170,7 +170,7 @@ Para ello, ejecute el siguiente comando:
 
 >[!IMPORTANT]
 >
->* Es posible que la secuencia de comandos se llame **httpd** en lugar de **apache**.
+>* La secuencia de comandos puede llamarse **httpd** en lugar de **apache**.
 >* DEBE ejecutar este comando hasta que obtenga la siguiente respuesta:
 
    >
@@ -192,7 +192,7 @@ Durante la sincronización de recursos, el comando **postupgrade** permite detec
 
 Existen dos formas de ver el resultado de la sincronización:
 
-* En la interfaz de la línea de comandos, los errores se materializan con un triple elemento **>>>** y la sincronización se detiene automáticamente. Las advertencias son materializadas por un doble chevron **>>** y deben resolverse una vez finalizada la sincronización. Al final de la posactualización, se muestra un resumen en el símbolo del sistema. Puede tener este aspecto:
+* En la interfaz de la línea de comandos, los errores se materializan mediante un triple chevron **>>** y la sincronización se detiene automáticamente. Las advertencias son materializadas por un elemento de doble **>** y deben resolverse una vez finalizada la sincronización. Al final de la posactualización, se muestra un resumen en el símbolo del sistema. Puede tener este aspecto:
 
    ```
    2013-04-09 07:48:39.749Z 00002E7A 1 info log =========Summary of the update==========
@@ -205,7 +205,7 @@ Existen dos formas de ver el resultado de la sincronización:
 
    Si la advertencia se refiere a un conflicto de recursos, se requiere la atención del usuario para resolverlo.
 
-* El archivo de registro **postupgrade_`<server version number>_<time of postupgrade>`.log** contiene el resultado de la sincronización. Está disponible de forma predeterminada en el siguiente directorio: **`<installation directory>/var/<instance/postupgrade`**. Los errores y las advertencias se indican mediante los atributos de error y advertencia.
+* El archivo de registro **post-upgrade_`<server version number>_<time of postupgrade>`.log** contiene el resultado de la sincronización. Está disponible de forma predeterminada en el siguiente directorio: **`<installation directory>/var/<instance/postupgrade`**. Los errores y las advertencias se indican mediante los atributos de error y advertencia.
 
 ### Resolución de conflictos {#resolving-conflicts}
 
@@ -226,15 +226,15 @@ Existen tres maneras de resolver un conflicto:
 
 Si ha elegido resolver el conflicto manualmente, siga este procedimiento:
 
-1. En la sección inferior de la ventana, busque la cadena de **_conflicto_** para localizar las entidades con conflictos. La entidad instalada con la nueva versión contiene el **nuevo** argumento; la entidad que coincide con la versión anterior contiene el argumento **cus** .
+1. En la sección inferior de la ventana, busque la cadena **_conflicto_** para localizar las entidades con conflictos. La entidad instalada con la nueva versión contiene el argumento **new**, la entidad que coincide con la versión anterior contiene el argumento **cus**.
 
    ![](assets/s_ncs_production_conflict002.png)
 
-1. Elimine la versión que no desee conservar. Elimine la cadena **_Conflict_argumento_** de la entidad que mantiene.
+1. Elimine la versión que no desee conservar. Elimine la cadena **_argumento_conflicto_** de la entidad que mantiene.
 
    ![](assets/s_ncs_production_conflict003.png)
 
-1. Vaya al conflicto que ha resuelto. Click the **[!UICONTROL Actions]** icon and select **[!UICONTROL Declare as resolved]** .
+1. Vaya al conflicto que ha resuelto. Haga clic en el icono **[!UICONTROL Actions]** y seleccione **[!UICONTROL Declare as resolved]**.
 1. Guarde los cambios: el conflicto ya está resuelto.
 
 ### Prácticas recomendadas {#best-practices}
@@ -243,25 +243,25 @@ Se puede vincular un error de actualización a la configuración de la base de d
 
 Por ejemplo, una base de datos Unicode no sólo debe autorizar el almacenamiento de datos LATIN1, etc.
 
-## Avisar a las consolas de cliente de la actualización disponible {#warn-the-client-consoles-of-the-available-update}
+## Advertir a las consolas de cliente de la actualización disponible {#warn-the-client-consoles-of-the-available-update}
 
 ### Windows {#in-windows-1}
 
-En el equipo en el que está instalado el servidor de aplicaciones (**nlserver web**) de Adobe Campaign, descargue y copie el archivo
+En el equipo en el que está instalado el servidor de aplicaciones de Adobe Campaign (**nlserver web**), descargue y copie el archivo
 
 **setup-client-6.XXXX.exe**
 
-en **[path de la aplicación]**datakitnlongjsp
+en **[ruta de acceso de la aplicación]**datakitnlongjsp
 
 La próxima vez que se conecten las consolas de cliente, una ventana informará a los usuarios sobre la disponibilidad de una actualización y les oferta la posibilidad de descargarlas e instalarlas.
 
 >[!NOTE]
 >
->Asegúrese de que el usuario de IIS_XPG tiene los derechos de lectura adecuados para este archivo de instalación y consulte la guía [de](../../installation/using/general-architecture.md) instalación para obtener más información.
+>Asegúrese de que el usuario IIS_XPG tiene los derechos de lectura adecuados para este archivo de instalación y consulte la [guía de instalación](../../installation/using/general-architecture.md) para obtener más información.
 
 ### Linux {#in-linux-1}
 
-En el equipo en el que está instalado el servidor de aplicaciones de Adobe Campaign (**servidor Web**), recupere el siguiente paquete:
+En el equipo en el que está instalado el servidor de aplicaciones de Adobe Campaign (**nlserver web**), recupere el siguiente paquete:
 
 **setup-client-6.XXXX.exe**
 
@@ -275,5 +275,5 @@ La próxima vez que se conecten las consolas de cliente, una ventana informará 
 
 >[!NOTE]
 >
->Asegúrese de que el usuario de Apache tiene los derechos de lectura correspondientes para este archivo de instalación y consulte la guía [de](../../installation/using/general-architecture.md) instalación para obtener más información.
+>Asegúrese de que el usuario de Apache tiene los derechos de lectura correspondientes para este archivo de instalación y consulte la [guía de instalación](../../installation/using/general-architecture.md) para obtener más información.
 
