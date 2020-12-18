@@ -49,13 +49,13 @@ Para crear una nueva cuenta externa, siga los pasos a continuación. La configur
 
    ![](assets/ext_account_2.png)
 
-1. Enter a **[!UICONTROL Label]** and an **[!UICONTROL Internal Name]**.
+1. Escriba un **[!UICONTROL Label]** y un **[!UICONTROL Internal Name]**.
 1. Seleccione la cuenta externa **[!UICONTROL Type]** que desee crear.
 1. Configure el acceso a la cuenta especificando las credenciales según el tipo de cuenta externa elegida.
 
    La información necesaria suele ser proporcionada por el proveedor del servidor al que está conectándose.
 
-1. Marque la **[!UICONTROL Enabled]** opción para activar la conexión.
+1. Active la opción **[!UICONTROL Enabled]** para activar la conexión.
 1. Haga clic en **[!UICONTROL Save]**.
 
 La cuenta externa se crea y se agrega a la lista de cuentas externas.
@@ -140,22 +140,22 @@ Para saber dónde ubicar estas credenciales, consulte esta [página](https://hel
 
 ## Cuenta externa de la base de datos externa {#external-database-external-account}
 
-Utilice la cuenta externa de tipo de base de datos **** externa para conectarse a una base de datos externa. Obtenga más información sobre la opción Acceso de datos federado (FDA) en [esta sección](../../installation/using/about-fda.md).
+Utilice la cuenta externa de tipo **Base de datos externa** para conectarse a una base de datos externa. Obtenga más información sobre la opción Acceso de datos federado (FDA) en [esta sección](../../installation/using/about-fda.md).
 
-Las bases de datos externas compatibles con la Campaña se enumeran en la matriz de [compatibilidad](../../rn/using/compatibility-matrix.md)
+Las bases de datos externas compatibles con la Campaña se enumeran en la [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md)
 
 ![](assets/ext_account_11.png)
 
 La configuración de la cuenta externa depende del motor de procesamiento de la base de datos. Obtenga más información en las siguientes secciones:
 
-* Configure access to [Azure Synapse](../../installation/using/configure-fda-synapse.md)
-* Configure access to [Hadoop](../../installation/using/configure-fda-hadoop.md)
-* Configure access to [Oracle](../../installation/using/configure-fda-oracle.md)
-* Configure access to [Netezza](../../installation/using/configure-fda-netezza.md)
-* Configure access to [SAP HANA](../../installation/using/configure-fda-sap-hana.md)
-* Configure access to [Snowflake](../../installation/using/configure-fda-snowflake.md)
-* Configure access to [Sybase IQ](../../installation/using/configure-fda-sybase.md)
-* Configure access to [Teradata](../../installation/using/configure-fda-teradata.md)
+* Configurar el acceso a [Azure synapse](../../installation/using/configure-fda-synapse.md)
+* Configurar el acceso a [Hadoop](../../installation/using/configure-fda-hadoop.md)
+* Configurar el acceso a [Oracle](../../installation/using/configure-fda-oracle.md)
+* Configurar el acceso a [Netezza](../../installation/using/configure-fda-netezza.md)
+* Configurar el acceso a [SAP HANA](../../installation/using/configure-fda-sap-hana.md)
+* Configurar el acceso a [Snowflake](../../installation/using/configure-fda-snowflake.md)
+* Configurar el acceso a [Sybase IQ](../../installation/using/configure-fda-sybase.md)
+* Configurar el acceso a [Teradata](../../installation/using/configure-fda-teradata.md)
 
 ## Cuenta externa de Web Analytics {#web-analytics-external-account}
 
