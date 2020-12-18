@@ -30,11 +30,11 @@ Compruebe que la configuración inicial de la plataforma Adobe Campaign sigue si
 
 >[!NOTE]
 >
->Puede consultar la guía de tamaño de hardware de [Adobe Campaign](https://helpx.adobe.com/es/campaign/kb/hardware-sizing-guide.html) para obtener información.
+>Puede consultar [Guía de tamaño de hardware de Adobe Campaign](https://helpx.adobe.com/es/campaign/kb/hardware-sizing-guide.html) para obtener más información.
 
 ## Configuración de plataforma {#platform-configuration}
 
-Una configuración inadecuada puede afectar al rendimiento de la plataforma. Le recomendamos que compruebe la configuración de red, las opciones de entrega de plataforma y la configuración de MTA en el archivo **serverConf.xml** .
+Una configuración inadecuada puede afectar al rendimiento de la plataforma. Le recomendamos que compruebe la configuración de red, las opciones de entrega de plataforma y la configuración de MTA en el archivo **serverConf.xml**.
 
 ## Mantenimiento de la base de datos {#database-maintenance}
 
@@ -60,9 +60,9 @@ Para obtener más información, consulte [esta sección](../../production/using/
 
 Verifique el número y el tamaño de las tablas de trabajo. Cuando superan un tamaño determinado, el rendimiento de la base de datos se ve afectado. Estas tablas se crean mediante flujos de trabajo y envíos. Permanecen en la base de datos mientras los flujos de trabajo y envíos están activos. Para limitar el tamaño de las tablas de trabajo, puede realizar las siguientes operaciones:
 
-* detenga o elimine envíos con los siguientes estados: **[!UICONTROL Failed]** , **[!UICONTROL In progress]** , **[!UICONTROL Ready for delivery]** , o **[!UICONTROL Paused]** .
+* detenga o elimine envíos con los siguientes estados: **[!UICONTROL Failed]** , **[!UICONTROL In progress]** , **[!UICONTROL Ready for delivery]** o **[!UICONTROL Paused]** .
 * detener o eliminar flujos de trabajo en pausa debido a un error,
-* detengan todos los flujos de trabajo utilizados para los ensayos que no contengan una **[!UICONTROL End]** actividad y cuyo estado se mantenga **[!UICONTROL Paused]** .
+* detenga todos los flujos de trabajo utilizados para pruebas que no contengan una actividad **[!UICONTROL End]** y cuyo estado permanezca por tanto **[!UICONTROL Paused]**.
 
 >[!IMPORTANT]
 >
@@ -72,10 +72,10 @@ Verifique el número y el tamaño de las tablas de trabajo. Cuando superan un ta
 
 Según la configuración de la instalación de Adobe Campaign, se pueden utilizar dos herramientas para la supervisión de plataformas:
 
-* la página de producción de la instancia. For more on this, refer to [Manual monitoring](../../production/using/monitoring-processes.md#manual-monitoring).
-* la secuencia de comandos netreport. Para obtener más información sobre esto, consulte Supervisión [automática mediante scripts](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts)de Adobe Campaign.
+* la página de producción de la instancia. Para obtener más información sobre esto, consulte [Monitoreo manual](../../production/using/monitoring-processes.md#manual-monitoring).
+* la secuencia de comandos netreport. Para obtener más información sobre esto, consulte [Monitoreo automático mediante scripts de Adobe Campaign](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts).
 
-## Specifics {#specifics}
+## Especifica {#specifics}
 
 Puede que sea necesario realizar un diagnóstico en tiempo real para identificar la causa del problema. Inicio comprobando el proceso y los archivos de registro de la plataforma, luego monitoree la actividad de la base de datos mientras vuelve a crear el problema. Preste especial atención a lo siguiente:
 
