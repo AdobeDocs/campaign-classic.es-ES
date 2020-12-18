@@ -17,7 +17,7 @@ ht-degree: 4%
 
 # Configuraciones específicas en la versión 5.11{#specific-configurations-in-v5-11}
 
-Esta sección detalla la configuración adicional requerida al migrar desde la versión 5.11. También debe configurar las opciones detalladas en la sección Configuraciones [](../../migration/using/general-configurations.md) generales.
+Esta sección detalla la configuración adicional requerida al migrar desde la versión 5.11. También debe configurar las opciones detalladas en la sección [Configuraciones generales](../../migration/using/general-configurations.md).
 
 ## Aplicaciones web {#web-applications}
 
@@ -66,16 +66,16 @@ mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root mysql
 
 >[!NOTE]
 >
->Para obtener más información, consulte la página [https://dev.mysql.com/doc/refman/8.0/en/time-zone-support.html](https://dev.mysql.com/doc/refman/8.0/en/time-zone-support.html) .
+>Para obtener más información, consulte la página [https://dev.mysql.com/doc/refman/8.0/en/time-zone-support.html](https://dev.mysql.com/doc/refman/8.0/en/time-zone-support.html).
 
-Si se han realizado modificaciones en la estructura de la base de datos, durante la configuración, por ejemplo (creación de índices específicos, creación de vistas SQL, etc.), se deben tomar ciertas precauciones al migrar. De hecho, algunas modificaciones pueden generarse a partir de incompatibilidades con el procedimiento de migración. Por ejemplo, la creación de vistas SQL que contengan campos de **marca de tiempo** no es compatible con la opción **usetimestamptz** . Por lo tanto, le aconsejamos que siga las siguientes recomendaciones:
+Si se han realizado modificaciones en la estructura de la base de datos, durante la configuración, por ejemplo (creación de índices específicos, creación de vistas SQL, etc.), se deben tomar ciertas precauciones al migrar. De hecho, algunas modificaciones pueden generarse a partir de incompatibilidades con el procedimiento de migración. Por ejemplo, la creación de vistas SQL que contengan campos **Timestamp** no es compatible con la opción **usetimestamptz**. Por lo tanto, le aconsejamos que siga las siguientes recomendaciones:
 
 1. Antes de iniciar la migración, realice una copia de seguridad de la base de datos.
 1. Eliminar cambios SQL.
-1. Realice la postactualización según el procedimiento detallado en la sección Requisitos [previos para la migración a Adobe Campaign 7](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md) .
+1. Realice la postactualización según el procedimiento detallado en la sección [Requisitos previos para la migración a Adobe Campaign 7](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md).
    >[!NOTE]
    >
-   >Es imperativo que siga los pasos de migración que se muestran en la sección Requisitos [previos para la migración a Adobe Campaign 7](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md) .
+   >Es imperativo que siga los pasos de migración que se indican en la sección [Requisitos previos para la migración a Adobe Campaign 7](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md).
 1. Reintegrar cambios SQL.
 
 En este ejemplo, se ha creado una vista **NmcTrackingLogMessages** que tiene un campo **Timestamp** denominado **tslog**. En este caso, el procedimiento de migración falla y aparece el siguiente mensaje de error:
@@ -90,7 +90,7 @@ Para asegurarse de que la postactualización funciona, debe eliminar la vista an
 
 ## Seguimiento {#tracking}
 
-Se modificó la fórmula de seguimiento. Al migrar, la fórmula antigua (v5) se sustituye por la nueva (v7). Si utiliza una fórmula personalizada en Adobe Campaign v5, esta configuración debe adaptarse en Adobe Campaign v7 (opciones **NmsTracking_ClickFormula** y **NmsTracking_OpenFormula** ).
+Se modificó la fórmula de seguimiento. Al migrar, la fórmula antigua (v5) se sustituye por la nueva (v7). Si utiliza una fórmula personalizada en Adobe Campaign v5, esta configuración debe adaptarse en Adobe Campaign v7 (**NmsTracking_ClickFormula** y **NmsTracking_OpenFormula** opciones).
 
 También se ha modificado la administración de seguimientos web. Una vez que se ha realizado la migración a v7, debe inicio del asistente de implementación para finalizar la configuración del seguimiento web.
 
@@ -98,19 +98,19 @@ También se ha modificado la administración de seguimientos web. Una vez que se
 
 Hay tres modos disponibles:
 
-* **Seguimiento** web de sesión: Si el **[!UICONTROL Leads]** paquete no se ha instalado, esta opción está seleccionada de forma predeterminada. Esta opción es la más ideal en términos de rendimiento y le permite limitar el tamaño de los registros de seguimiento.
+* **Seguimiento** web de sesión: Si el  **[!UICONTROL Leads]** paquete no se ha instalado, esta opción está seleccionada de forma predeterminada. Esta opción es la más ideal en términos de rendimiento y le permite limitar el tamaño de los registros de seguimiento.
 * **Seguimiento web Permanente**
-* **Seguimiento web** anónimo: Si el **[!UICONTROL Leads]** paquete está instalado, esta opción está seleccionada de forma predeterminada. Es la opción que más consume recursos. Como se ha indicado anteriormente, la columna **sSourceId** debe indizarse (en la tabla de seguimiento y en la tabla **CrmInomingLead** ).
+* **Seguimiento web** anónimo: Si el  **[!UICONTROL Leads]** paquete está instalado, esta opción está seleccionada de forma predeterminada. Es la opción que más consume recursos. Como se ha indicado anteriormente, la columna **sSourceId** debe indizarse (en la tabla de seguimiento y en la tabla **CrmInomingLead**).
 
 >[!NOTE]
 >
->For more information on these three modes, refer to [this section](../../configuration/using/about-web-tracking.md).
+>Para obtener más información sobre estos tres modos, consulte [esta sección](../../configuration/using/about-web-tracking.md).
 
 ## Estructura de árbol de Adobe Campaign v7 {#campaign-vseven-tree-structure}
 
 Durante la migración, la estructura de árbol se reorganiza automáticamente según los estándares de la versión 7. Se añaden las nuevas carpetas, se eliminan las carpetas obsoletas y su contenido se coloca en la carpeta &quot;Para mover&quot;. Todos los elementos de esta carpeta deben comprobarse después de la migración y el consultor debe decidir mantenerla o eliminarla. Los elementos que se van a conservar deben trasladarse al lugar adecuado.
 
-Se ha agregado una opción para desactivar la migración automática del árbol de navegación. Esta operación ahora es manual. Las carpetas obsoletas no se eliminan y no se agregan nuevas carpetas. Esta opción solo debe utilizarse si el árbol de navegación v5 predeterminado ha sufrido demasiados cambios. Añada la opción a la consola, antes de migrar, en el **[!UICONTROL Administration > Options]** nodo:
+Se ha agregado una opción para desactivar la migración automática del árbol de navegación. Esta operación ahora es manual. Las carpetas obsoletas no se eliminan y no se agregan nuevas carpetas. Esta opción solo debe utilizarse si el árbol de navegación v5 predeterminado ha sufrido demasiados cambios. Añada la opción en la consola, antes de migrar, en el nodo **[!UICONTROL Administration > Options]**:
 
 * Nombre interno: NlMigration_KeepFolderStructure
 * Tipo de datos: Entero
