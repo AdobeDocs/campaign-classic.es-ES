@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Administración{#administration}
 
-Inicio automático de los módulos de Adobe Campaign (**web**, **mta**, **wfserver**, etc.) es proporcionado por el **servidor** nlserver.
+Inicio automático de los módulos de Adobe Campaign (**web**, **mta**, **wfserver**, etc.) es proporcionado por el servidor **nlserver**.
 
 La instalación de Adobe Campaign configura automáticamente el equipo para que el servicio **nlserver** se inicio durante la secuencia de inicio.
 
@@ -35,16 +35,16 @@ Los siguientes comandos se utilizan para realizar inicios y apagar el servicio A
 
 >[!NOTE]
 >
->A partir de 20.1, se recomienda utilizar el siguiente comando en su lugar (para Linux): **syctl inicio nlserver** / **systemctl stop nlserver**
+>A partir de 20.1, se recomienda utilizar el siguiente comando en su lugar (para Linux): **inicio de sistema nlserver** / **systemctl stop nlserver**
 
 Esta es una lista de los comandos de administración habituales accesibles en Linux (como **Adobe Campaign**):
 
-* Mostrar todos los módulos de Adobe Campaign iniciados: **/etc/init.dón de archivos** o archivos . **o/etc/init.d/nlserver6**
+* Mostrar todos los módulos de Adobe Campaign iniciados: **/etc/init.d/nlserver6 pdump** o **/etc/init.d/nlserver6 status**
 
    >[!NOTE]
    >
-   >Añadir el parámetro **-who** al comando **pdump** permite recopilar información sobre las conexiones actuales (usuarios y procesos).\
-   >El **comando de estado** /etc/init.d/nlserver6 (sin el parámetro &quot;-who&quot;) devolverá:
+   >Añadir el parámetro **-who** en el comando **pdump** permite recopilar información sobre las conexiones actuales (usuarios y procesos).\
+   >El comando **/etc/init.d/nlserver6 status** (sin el parámetro &quot;-who&quot;) devolverá:
    >
    >    * 0 si se están ejecutando todos los procesos.
    >    * 1 si falta un proceso.
@@ -52,7 +52,7 @@ Esta es una lista de los comandos de administración habituales accesibles en Li
    >    * otro valor si hay un error.
 
 
-* Inicio/parada de un módulo de instancia múltiple o mono (**web**, **trackinglogd**, **syslogd**, **mta**, **wfserver******, inmail):
+* Inicio/parada de un módulo de varias instancias o de una instancia (**web**, **trackinglogd**, **syslogd**, **mta**, **wfserver**, &lt;a 10/>inmail **):**
 
    **inicio nlserver`<module>[@<instance>]`**
 
@@ -77,9 +77,9 @@ Esta es una lista de los comandos de administración habituales accesibles en Li
    >[!NOTE]
    > 
    >    * Si no se especifica la instancia, se utilizará la instancia &quot;predeterminada&quot;.
-   >    * En el evento de una emergencia, utilice la opción **-inmediata** para forzar una parada inmediata del proceso (equivalente al comando de Unix **kill -9**).
-   >    * Utilice la opción **-noconsole** para asegurarse de que el módulo iniciado no se mostrará en la consola. Sus registros se escribirán en el disco a través del **módulo syslogd** .
-   >    * Utilice la opción **-verbose** para mostrar información adicional sobre las acciones de proceso.
+   >    * En el evento de una emergencia, utilice la opción **-inmediata** para forzar una parada inmediata del proceso (equivalente al comando Unix **kill -9**).
+   >    * Utilice la opción **-noconsole** para asegurarse de que el módulo iniciado no muestre nada en la consola. Sus registros se escribirán en el disco mediante el módulo **syslogd**.
+   >    * Utilice la opción **-verbose** para mostrar información adicional sobre las acciones del proceso.
 
       >    
       >      
@@ -95,15 +95,15 @@ Esta es una lista de los comandos de administración habituales accesibles en Li
       Esta opción agrega registros adicionales. Recomendamos volver a iniciar los procesos sin la opción **-verbose** una vez que haya encontrado la información deseada, para evitar la sobrecarga de registros.
 
 
-* Inicio de todos los procesos de Adobe Campaign (equivalente a iniciar el servicio **nlserver6** ):
+* Inicio de todos los procesos de Adobe Campaign (equivalente a iniciar el servicio **nlserver6**):
 
    **nlserver watchdog -noconsole**
 
-* Cierre todos los procesos de Adobe Campaign (equivalente a cerrar el servicio **nlserver6** ):
+* Cierre todos los procesos de Adobe Campaign (equivalente a cerrar el servicio **nlserver6**):
 
    **apagado de nlserver**
 
-* Vuelva a cargar la configuración del módulo web **** nlserver (y el módulo de extensión del servidor web, cuando proceda) cuando se hayan editado los **archivos serverConf.xml** y **config-`<instance>  .xml </instance>`** .
+* Vuelva a cargar la configuración del módulo **nlserver web** (y el módulo de extensión del servidor web, cuando proceda) cuando se hayan editado los archivos **serverConf.xml** y **config-`<instance>  .xml </instance>`**.
 
    **nlserver config -reload**
 
