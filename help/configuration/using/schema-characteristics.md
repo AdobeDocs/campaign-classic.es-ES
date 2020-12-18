@@ -29,16 +29,16 @@ Las características de un esquema que hace referencia a una tabla existente son
 
 ## El atributo de vista {#the-view-attribute}
 
-Los esquemas de origen aceptan el atributo de **vista** para el elemento raíz **srcSchema** . Debe utilizarse cuando Adobe Campaign se manipula en tablas personalizadas. El atributo **vista=&quot;true&quot;** indica al asistente para la actualización de la estructura de la base de datos que ignore este esquema. Por lo tanto, se prohíbe a la aplicación sincronizar la tabla, sus columnas y sus índices con el esquema correspondiente.
+Los esquemas de origen aceptan el atributo **vista** para el elemento raíz **srcSchema**. Debe utilizarse cuando Adobe Campaign se manipula en tablas personalizadas. El atributo **vista=&quot;true&quot;** indica al asistente de actualización de la estructura de la base de datos que ignore este esquema. Por lo tanto, se prohíbe a la aplicación sincronizar la tabla, sus columnas y sus índices con el esquema correspondiente.
 
-Cuando este atributo se establece en **true**, el esquema solo se utiliza para generar consultas SQL para acceder a los datos de esta tabla.
+Cuando este atributo se establece en **true**, el esquema se utiliza solamente para generar consultas SQL para acceder a los datos de esta tabla.
 
 ## Nombres de tablas y columnas {#names-of-tables-and-columns}
 
 Cuando el asistente para la actualización de tablas crea tablas, los nombres de las tablas y las columnas se generan automáticamente en función de los nombres de los esquemas y atributos respectivos. Sin embargo, es posible forzar el uso de los nombres SQL introduciendo los atributos siguientes:
 
-* **sqltable** dentro del elemento principal del esquema, para especificar la tabla,
-* **sqlname** dentro de cada atributo, para especificar las columnas.
+* **** sqltabledentro del elemento principal del esquema, para especificar la tabla,
+* **nombre** sqlname en cada atributo, para especificar las columnas.
 
 **Ejemplo**:
 
@@ -59,7 +59,7 @@ En este ejemplo, si los nombres de las tablas y columnas no se hubieran especifi
 
 En un esquema, es posible rellenar solo una parte de las columnas de una tabla existente. Las columnas no rellenadas no serán accesibles para el usuario.
 
-## Campos indizados {#indexed-fields}
+## Campos indexados {#indexed-fields}
 
 Al ordenar los registros de una lista desde la consola del cliente, se obtiene un mejor rendimiento ordenando los campos indexados. La declaración de un índice en un esquema hace que la consola muestre los campos indexados con una línea roja debajo de la flecha de orden a la izquierda del rótulo de columna, como se muestra a continuación:
 
@@ -77,7 +77,7 @@ En un esquema, un índice se define de la siguiente manera:
 
 Por eso es importante declarar los índices existentes de la tabla personalizada en el esquema coincidente.
 
-Se declara implícitamente un índice para cada declaración de clave y vínculo del esquema de origen. La declaración de índice se puede evitar especificando el atributo **noDbIndex=&quot;true&quot;** :
+Se declara implícitamente un índice para cada declaración de clave y vínculo del esquema de origen. La declaración de índice se puede evitar especificando el atributo **noDbIndex=&quot;true&quot;**:
 
 **Ejemplo**:
 
