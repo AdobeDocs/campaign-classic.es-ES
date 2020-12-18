@@ -38,7 +38,7 @@ Los pasos de instalación para el servidor Adobe Campaign son los siguientes:
    * **[!UICONTROL Installation of a client]** :: Instalación de los componentes necesarios para el cliente Adobe Campaign.
    * **[!UICONTROL Custom installation]** :: El usuario elige los elementos que se van a instalar.
 
-   Seleccione **Instalación de un servidor** de aplicaciones y siga los diferentes pasos como se muestra a continuación:
+   Seleccione **Instalación de un servidor de aplicaciones** y siga los diferentes pasos como se muestra a continuación:
 
    ![](assets/s_ncs_install_installer_02.png)
 
@@ -46,7 +46,7 @@ Los pasos de instalación para el servidor Adobe Campaign son los siguientes:
 
    ![](assets/s_ncs_install_installer_03.png)
 
-1. Haga clic **[!UICONTROL Finish]** para inicio de la instalación:
+1. Haga clic en **[!UICONTROL Finish]** para inicio de la instalación:
 
    ![](assets/s_ncs_install_installer_04.png)
 
@@ -80,7 +80,7 @@ No task
 
 ## Primer inicio del servidor {#first-start-up-of-the-server}
 
-Una vez finalizada la prueba de instalación, abra un símbolo del sistema a través del **[!UICONTROL Start > Programs > Adobe Campaign]** menú e introduzca el siguiente comando:
+Una vez finalizada la prueba de instalación, abra un símbolo del sistema mediante el menú **[!UICONTROL Start > Programs > Adobe Campaign]** e introduzca el siguiente comando:
 
 ```
 nlserver web
@@ -135,13 +135,13 @@ Se muestra la siguiente información:
 12:18:31 >   Web server stopped (pid=29188, tid=-1224824320)...
 ```
 
-## Contraseña del identificador interno {#password-for-the-internal-identifier}
+## Contraseña para el identificador interno {#password-for-the-internal-identifier}
 
-El servidor de Adobe Campaign define un inicio de sesión técnico denominado **interno** que tiene todos los derechos en todas las instancias. Justo después de la instalación, el inicio de sesión no tiene contraseña. Es obligatorio definir uno.
+El servidor de Adobe Campaign define un inicio de sesión técnico denominado **internal** que tiene todos los derechos en todas las instancias. Justo después de la instalación, el inicio de sesión no tiene contraseña. Es obligatorio definir uno.
 
-Consulte la sección Identificador [interno](../../installation/using/campaign-server-configuration.md#internal-identifier).
+Consulte la sección [Identificador interno](../../installation/using/campaign-server-configuration.md#internal-identifier).
 
-## Starting Adobe Campaign services {#starting-adobe-campaign-services}
+## Iniciando servicios de Adobe Campaign {#starting-adobe-campaign-services}
 
 Para inicio de los servicios de Adobe Campaign, puede utilizar el administrador de servicios o introducir lo siguiente en la línea de comandos (con los derechos correspondientes):
 
