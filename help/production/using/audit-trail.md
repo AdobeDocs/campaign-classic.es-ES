@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Pista de auditoría{#audit-trail}
 
-En Adobe Campaign, **[!UICONTROL Audit trail]** le permite acceder al historial completo de cambios realizados en la instancia.
+En Adobe Campaign, **[!UICONTROL Audit trail]** le permite acceder al historial completo de cambios realizados en su instancia.
 
 **[!UICONTROL Audit trail]** captura, en tiempo real, una lista completa de acciones y eventos que se producen en la instancia de Adobe Campaign. Incluye una forma de autoservicio de acceder a un historial de datos para responder preguntas como: qué les pasó a sus flujos de trabajo y quién los actualizó por última vez o qué hicieron los usuarios en la instancia.
 
@@ -30,7 +30,7 @@ La pista de auditoría consta de tres componentes:
 
 * **Pista** de auditoría de esquema: Compruebe las actividades y las últimas modificaciones realizadas a sus esquemas.
 
-   For more information on schemas, refer to this [page](../../configuration/using/data-schemas.md).
+   Para obtener más información sobre esquemas, consulte esta [página](../../configuration/using/data-schemas.md).
 
 * **Pista** de auditoría de flujo de trabajo: Compruebe las actividades y las últimas modificaciones realizadas en los flujos de trabajo, y además, el estado de sus flujos de trabajo, como:
 
@@ -43,30 +43,30 @@ La pista de auditoría consta de tres componentes:
    * Despertar que es igual a la acción Ejecutar tareas pendientes ahora
    * Interrupción incondicional
 
-   For more information on workflows, refer to this [page](../../workflow/using/about-workflows.md).
+   Para obtener más información sobre flujos de trabajo, consulte esta [página](../../workflow/using/about-workflows.md).
 
-   For more on how to monitor workflows, refer to the [dedicated section](../../workflow/using/monitoring-workflow-execution.md).
+   Para obtener más información sobre cómo supervisar flujos de trabajo, consulte la [sección dedicada](../../workflow/using/monitoring-workflow-execution.md).
 
 * **Pista** de auditoría de opciones: Compruebe las actividades y las últimas modificaciones realizadas en las opciones.
 
-   For more information on options, refer to this [page](../../installation/using/configuring-campaign-options.md).
+   Para obtener más información sobre las opciones, consulte esta [página](../../installation/using/configuring-campaign-options.md).
 
-## Acceso a pista de auditoría {#accessing-audit-trail}
+## Acceso a la pista de auditoría {#accessing-audit-trail}
 
-Para acceder a la sección **[!UICONTROL Audit trail]** :
+Para acceder a la **[!UICONTROL Audit trail]** instancia de:
 
-1. Acceda al **[!UICONTROL Explorer]** menú de su instancia.
-1. En el **[!UICONTROL Administration]** menú, seleccione **[!UICONTROL Audit]** .
+1. Acceda al menú **[!UICONTROL Explorer]** de la instancia.
+1. En el menú **[!UICONTROL Administration]**, seleccione **[!UICONTROL Audit]** .
 
    ![](assets/audit_trail_1.png)
 
-1. La **[!UICONTROL Audit trail]** ventana se abre con la lista de las entidades. Adobe Campaign auditará las acciones de creación, edición y eliminación de flujos de trabajo, opciones y esquemas.
+1. La ventana **[!UICONTROL Audit trail]** se abre con la lista de las entidades. Adobe Campaign auditará las acciones de creación, edición y eliminación de flujos de trabajo, opciones y esquemas.
 
    Seleccione una de las entidades para obtener más información sobre las últimas modificaciones.
 
    ![](assets/audit_trail_2.png)
 
-1. La **[!UICONTROL Audit entity]** ventana proporciona información más detallada sobre la entidad elegida, como:
+1. La ventana **[!UICONTROL Audit entity]** proporciona información más detallada sobre la entidad elegida, como:
 
    * **[!UICONTROL Type]** :: Flujo de trabajo, opciones o Esquemas.
    * **[!UICONTROL Entity]** :: Nombre interno de sus actividades.
@@ -80,16 +80,16 @@ Para acceder a la sección **[!UICONTROL Audit trail]** :
 
 >[!NOTE]
 >
->De forma predeterminada, el período de retención se establece en 180 días para **[!UICONTROL Audit logs]** . Para obtener más información sobre cómo cambiar el período de retención, consulte esta [página](../../production/using/database-cleanup-workflow.md#deployment-wizard).
+>De forma predeterminada, el período de retención se establece en 180 días para **[!UICONTROL Audit logs]**. Para obtener más información sobre cómo cambiar el período de retención, consulte esta [página](../../production/using/database-cleanup-workflow.md#deployment-wizard).
 
-## Habilitar o deshabilitar la pista de auditoría {#enable-disable-audit-trail}
+## Habilitar/deshabilitar la pista de auditoría {#enable-disable-audit-trail}
 
 La pista de auditoría se puede activar o desactivar fácilmente para una actividad específica si, por ejemplo, desea ahorrar espacio en la base de datos.
 
 Para ello:
 
-1. Acceda al **[!UICONTROL Explorer]** menú de su instancia.
-1. En el **[!UICONTROL Administration]** menú, seleccione **[!UICONTROL Platform]** y luego **[!UICONTROL Options]** .
+1. Acceda al menú **[!UICONTROL Explorer]** de la instancia.
+1. En el menú **[!UICONTROL Administration]**, seleccione **[!UICONTROL Platform]** y luego **[!UICONTROL Options]** .
 
    ![](assets/audit_trail_4.png)
 
@@ -102,9 +102,9 @@ Para ello:
 
    ![](assets/audit_trail_5.png)
 
-1. Cambie el **[!UICONTROL Value]** a 1 si desea habilitar la entidad o a 0 si desea deshabilitarla.
+1. Cambie **[!UICONTROL Value]** a 1 si desea habilitar la entidad o a 0 si desea deshabilitarla.
 
    ![](assets/audit_trail_6.png)
 
-1. Haga clic en **[!UICONTROL Save]** .
+1. Haga clic en **[!UICONTROL Save]**.
 
