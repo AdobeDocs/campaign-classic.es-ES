@@ -30,7 +30,7 @@ La mayoría de los datos están en la base de datos. Esto representa el 99% de l
 
 Los archivos se dividen en varias categorías:
 
-* Archivos de configuración, ubicados en **nl6/conf**
+* Archivos de configuración ubicados en **nl6/conf**
 
    Esto le permite volver a configurar Adobe Campaign muy rápidamente.
 
