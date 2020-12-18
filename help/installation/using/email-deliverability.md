@@ -25,26 +25,26 @@ En la siguiente sección se proporciona una descripción general de la configura
 >
 >Algunas configuraciones sólo pueden ser realizadas por Adobe para implementaciones alojadas en Adobe, por ejemplo, para acceder al servidor y a los archivos de configuración de instancias. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Hosting models](../../installation/using/hosting-models.md) o [esta página](../../installation/using/capability-matrix.md).
 
-Para obtener más información sobre los conceptos y las optimizaciones relacionadas con la capacidad de entrega, consulte esta [sección](../../delivery/using/about-deliverability.md).
+Para obtener más información sobre los conceptos y las prácticas recomendadas relacionados con la entregabilidad, consulte esta [sección](../../delivery/using/about-deliverability.md).
 
-Todas las recomendaciones técnicas relativas al envío y recepción eficientes de correos electrónicos por una plataforma de Adobe Campaign están disponibles en esta [sección](../../delivery/using/technical-recommendations.md).
+En esta [sección](../../delivery/using/technical-recommendations.md) están disponibles todas las recomendaciones técnicas relativas al envío y recepción eficientes de correos electrónicos por parte de una plataforma de Adobe Campaign.
 
 ## Principio de funcionamiento {#operating-principle}
 
-Es posible controlar el resultado de una o varias instancias de Adobe Campaign para restringir el número de correos electrónicos enviados en función de un dominio. Por ejemplo, puede restringir la salida a 20.000 por hora para las direcciones de **yahoo.com** , mientras configura 100.000 mensajes por hora para todos los demás dominios.
+Es posible controlar el resultado de una o varias instancias de Adobe Campaign para restringir el número de correos electrónicos enviados en función de un dominio. Por ejemplo, puede restringir la salida a 20.000 por hora para las direcciones **yahoo.com**, mientras configura 100.000 mensajes por hora para todos los demás dominios.
 
-Es necesario controlar la salida de los mensajes para cada dirección IP utilizada por los servidores de envío (**mta**). Varios **metadatos** desglosados en varios equipos y pertenecientes a varias instancias de Adobe Campaign pueden compartir la misma dirección IP para el envío de correo electrónico: es necesario configurar un proceso para coordinar el uso de estas direcciones IP.
+Es necesario controlar la salida de los mensajes para cada dirección IP utilizada por los servidores de envío (**mta**). Varios **mta** desglosados en varios equipos y pertenecientes a varias instancias de Adobe Campaign pueden compartir la misma dirección IP para el envío de correo electrónico: es necesario configurar un proceso para coordinar el uso de estas direcciones IP.
 
-Esto es lo que hace el módulo **stat** : reenvía todas las solicitudes de conexión y mensajes para enviarlos a los servidores de correo para un conjunto de direcciones IP. El servidor de estadísticas realiza un seguimiento de los envíos y puede habilitar o deshabilitar el envío según las cuotas establecidas.
+Esto es lo que hace el módulo **stat**: reenvía todas las solicitudes de conexión y mensajes para enviarlos a los servidores de correo para un conjunto de direcciones IP. El servidor de estadísticas realiza un seguimiento de los envíos y puede habilitar o deshabilitar el envío según las cuotas establecidas.
 
 ![](assets/s_ncs_install_mta.png)
 
 * El servidor de estadísticas (**stat**) está vinculado a una base de Adobe Campaign para cargar su configuración.
-* Los servidores envío (**mta**) utilizan un UDP para ponerse en contacto con un servidor de estadísticas que no siempre pertenece a su propia instancia.
+* Los servidores de envío (**mta**) utilizan un UDP para comunicarse con un servidor de estadísticas que no siempre pertenece a su propia instancia.
 
 ### Servidores envío {#delivery-servers}
 
-El **módulo mta** distribuye mensajes a sus módulos secundarios **integrados** . Cada **equipo** prepara mensajes antes de solicitar una autorización al servidor de estadísticas y enviarlos.
+El módulo **mta** distribuye mensajes a sus **módulos secundarios**. Cada **mtachild** prepara mensajes antes de solicitar una autorización del servidor de estadísticas y enviarlos.
 
 Los pasos son los siguientes:
 
@@ -54,7 +54,7 @@ Los pasos son los siguientes:
 
 ![](assets/s_ncs_install_email_traffic_shaper.png)
 
-### Estadísticas y limitaciones del servidor de correo electrónico {#email-server-statistics-and-limitations}
+### Limitaciones y estadísticas del servidor de correo electrónico {#email-server-statistics-and-limitations}
 
 El servidor de estadísticas mantiene las siguientes estadísticas para cada servidor de correo electrónico que recibe mensajes:
 
@@ -75,7 +75,7 @@ El servidor de estadísticas puede combinar varias instancias o varios equipos c
 
 Las estadísticas de envío se conservan para cada destinatario MX y para cada IP de origen. Por ejemplo, si el dominio de destino tiene 5 MX y la plataforma puede utilizar 3 direcciones IP diferentes, el servidor puede administrar hasta 15 series de indicadores para este dominio.
 
-La dirección IP de origen coincide con la dirección IP pública, es decir, la dirección tal como la ve el servidor de correo electrónico remoto. Esta dirección IP puede ser diferente de la dirección de la máquina que aloja el **mta**, si se proporciona un router NAT. Por este motivo, el servidor de estadísticas utiliza un identificador que coincide con la IP pública (**publicId**). La asociación entre la dirección local y este identificador se declara en el archivo de configuración **serverConf.xml** . Todos los parámetros disponibles en **serverConf.xml** se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
+La dirección IP de origen coincide con la dirección IP pública, es decir, la dirección tal como la ve el servidor de correo electrónico remoto. Esta dirección IP puede ser diferente de la dirección del equipo que aloja el **mta**, si se proporciona un router NAT. Por este motivo, el servidor de estadísticas utiliza un identificador que coincide con la IP pública (**publicId**). La asociación entre la dirección local y este identificador se declara en el archivo de configuración **serverConf.xml**. Todos los parámetros disponibles en **serverConf.xml** se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
 
 ## Control de salida de envío {#delivery-output-controlling}
 
@@ -85,7 +85,7 @@ Antes de enviar mensajes, el módulo solicita &#39;tokens&#39; desde el servidor
 
 El servidor guarda todas las estadísticas relacionadas con conexiones y envíos. En caso de reiniciar, la información se pierde temporalmente: cada cliente guarda una copia local de sus estadísticas de envío y las devuelve al servidor de forma regular (cada 2 minutos). El servidor puede volver a acumulado los datos.
 
-Las siguientes secciones describen el procesamiento de un mensaje mediante el componente **Carácter de tráfico de correo electrónico** .
+Las siguientes secciones describen el procesamiento de un mensaje mediante el componente **Generador de tráfico de correo electrónico**.
 
 ### Envío de mensajes {#message-delivery}
 
@@ -93,17 +93,17 @@ Cuando se envía un mensaje, hay 3 resultados posibles:
 
 1. **Correcto**: el mensaje se envió correctamente. Se actualiza el mensaje.
 1. **Error** del mensaje: el servidor contactado rechazó el mensaje para el destinatario elegido. Este resultado coincide con los códigos de retorno 550 a 599, pero se pueden definir excepciones.
-1. **Error** de sesión (para 5.11 hacia arriba): si el **mta** recibe una respuesta para este mensaje, el mensaje se abandona (consulte Abandono [de mensaje](#message-abandonment)). El mensaje se envía a otra ruta o se define como pendiente si no hay otras rutas disponibles (consulte [Mensaje pendiente](#message-pending)).
+1. **Error**  de sesión (para 5.11 hacia arriba): si el mensaje  **** recibe una respuesta para este mensaje, se abandona el mensaje (consulte  [Abandono](#message-abandonment) de mensaje). El mensaje se envía a otra ruta o se establece en pendiente si no hay otras rutas disponibles (consulte [Mensaje pendiente](#message-pending)).
 
    >[!NOTE]
    >
-   >Una **ruta** es una conexión entre el **mta** de Adobe Campaign y el **mta** de destinatario. Adobe Campaign **mta** puede elegir entre varias IP de inicio y varias IP de dominio de destinatario.
+   >Una **ruta** es una conexión entre Adobe Campaign **mta** y el destinatario **mta**. Adobe Campaign **mta** puede elegir entre varias IP de inicio y varias IP de dominio de destinatario.
 
 ### Abandono de mensajes {#message-abandonment}
 
-Los mensajes abandonados se devuelven al **mta** y ya no son gestionados por el **mtachild**.
+Los mensajes abandonados se devuelven al **mta** y ya no son administrados por el **mtachild**.
 
-El **Estado miembro** decidirá el procedimiento para este mensaje (recuperación, abandono, cuarentena, etc.) según el código de respuesta y las reglas.
+El **mta** decide el procedimiento para este mensaje (recuperación, abandono, cuarentena, etc.) según el código de respuesta y las reglas.
 
 ### Mensaje pendiente {#message-pending}
 
@@ -123,7 +123,7 @@ De forma predeterminada, se inicia el módulo **stat** para cada instancia. Cuan
 
 ### Definición del puerto del servidor {#definition-of-the-server-port}
 
-De forma predeterminada, el servidor de estadísticas escucha en el puerto 7777. Este puerto se puede modificar en el archivo **serverConf.xml** . Todos los parámetros disponibles en **serverConf.xml** se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
+De forma predeterminada, el servidor de estadísticas escucha en el puerto 7777. Este puerto se puede modificar en el archivo **serverConf.xml**. Todos los parámetros disponibles en **serverConf.xml** se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
 
 ```
 <stat port="1234"/>
@@ -210,16 +210,16 @@ Estos mensajes se envían lo más rápidamente posible.
 
 ### Configuración de la gestión de MX {#configuring-mx-management}
 
-Las reglas que deben cumplirse para MX se definen en el **[!UICONTROL MX management]** documento del **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** nodo del árbol.
+Las reglas que deben cumplirse para MX se definen en el documento **[!UICONTROL MX management]** del nodo **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** del árbol.
 
-Si el **[!UICONTROL MX management]** documento no existe en el nodo, puede crearlo manualmente. Para ello:
+Si el documento **[!UICONTROL MX management]** no existe en el nodo, puede crearlo manualmente. Para ello:
 
 1. Cree un nuevo conjunto de reglas de correo.
-1. Choose the **[!UICONTROL MX management]** mode.
+1. Elija el modo **[!UICONTROL MX management]**.
 
    ![](assets/s_ncs_install_mx_mgt_rule.png)
 
-1. Introduzca **defaultMXRules** en el **[!UICONTROL Internal name]** campo.
+1. Escriba **defaultMXRules** en el campo **[!UICONTROL Internal name]**.
 
 Para que los cambios se tengan en cuenta, debe reiniciar el servidor de estadísticas.
 
@@ -231,7 +231,7 @@ Para volver a cargar la configuración sin reiniciar el servidor de estadística
 
 ### Configuración de reglas MX {#configuring-mx-rules}
 
-El **[!UICONTROL MX management]** documento lista todos los dominios vinculados a una regla MX.
+El documento **[!UICONTROL MX management]** lista todos los dominios vinculados a una regla MX.
 
 Estas reglas se aplican de forma secuencial: se aplica la primera regla cuya máscara MX es compatible con el MX de destino.
 
@@ -260,7 +260,7 @@ Los siguientes parámetros disponibles para cada regla son:
    gmail.com mail exchanger = 30 alt3.gmail-smtp-in.l.google.com.
    ```
 
-   In this case the MX rule `*.google.com` will be used. Como puede ver, la máscara de regla MX no necesariamente coincide con el dominio del mensaje. Las reglas MX aplicadas a las direcciones de correo electrónico de gmail.com son las que tienen la máscara `*.google.com`.
+   En este caso, se utilizará la regla MX `*.google.com`. Como puede ver, la máscara de regla MX no necesariamente coincide con el dominio del mensaje. Las reglas MX aplicadas a las direcciones de correo electrónico de gmail.com son las que tienen la máscara `*.google.com`.
 
 * **[!UICONTROL Range of identifiers]**:: esta opción permite indicar los rangos de identificadores (publicID) para los que se aplica la regla. Puede especificar:
 
@@ -306,30 +306,30 @@ Ejemplo de configuración:
 
 Puede definir el formato de los mensajes enviados para que el contenido mostrado se adapte automáticamente según el dominio de la dirección de cada destinatario.
 
-Para ello, vaya al **[!UICONTROL Management of email formats]** documento, que se encuentra en **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Non deliverables management]** > **[!UICONTROL Mail rule sets]**.
+Para ello, vaya al documento **[!UICONTROL Management of email formats]**, que se encuentra en **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Non deliverables management]** > **[!UICONTROL Mail rule sets]**.
 
-Este documento contiene una lista de todos los dominios predefinidos que corresponden a los formatos japoneses administrados por Adobe Campaign. For more information, refer to [this document](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
+Este documento contiene una lista de todos los dominios predefinidos que corresponden a los formatos japoneses administrados por Adobe Campaign. Para obtener más información, consulte [este documento](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
 
 ![](assets/mail_rule_sets.png)
 
-El parámetro de estructura **** MIME (Extensiones de correo de Internet multipropósito) permite definir la estructura de mensajes que se enviará a los distintos clientes de correo. Hay tres opciones disponibles:
+El parámetro **estructura MIME** (Extensiones multipropósito de correo de Internet) permite definir la estructura de mensajes que se enviará a los diferentes clientes de correo. Hay tres opciones disponibles:
 
 * **Multiparte**: El mensaje se envía en formato texto o HTML. Si no se acepta el formato HTML, el mensaje podrá mostrarse en formato de texto.
 
-   De forma predeterminada, la estructura de varias partes es **multiparte/alternativa**, pero automáticamente pasa a ser **multiparte/relacionada** cuando se agrega una imagen al mensaje. Algunos proveedores esperan el formato **multiparte/relacionado** de forma predeterminada, la **[!UICONTROL Force multipart/related]** opción impone este formato aunque no se adjunte ninguna imagen.
+   De forma predeterminada, la estructura de varias partes es **multipart/alternativa**, pero automáticamente pasa a ser **multipart/related** cuando se agrega una imagen al mensaje. Algunos proveedores esperan el formato **multipart/related** de forma predeterminada, la opción **[!UICONTROL Force multipart/related]** impone este formato aunque no haya ninguna imagen adjunta.
 
 * **HTML**: Se envía un mensaje de solo HTML. Si no se acepta el formato HTML, el mensaje no se mostrará.
 * **Texto**: Se envía un mensaje en formato de solo texto. La ventaja de los mensajes de formato de texto es que tienen un tamaño muy pequeño.
 
-Si la **[!UICONTROL Image inclusion]** opción está activada, se muestran directamente en el cuerpo del mensaje de correo electrónico. Las imágenes se cargarán y los vínculos URL se reemplazarán por su contenido.
+Si la opción **[!UICONTROL Image inclusion]** está habilitada, se muestran directamente en el cuerpo del mensaje de correo electrónico. Las imágenes se cargarán y los vínculos URL se reemplazarán por su contenido.
 
-Esta opción es especialmente utilizada por el mercado japonés de **Deco-mail**, **Decore Mail** o **Decoration Mail**. Para obtener más información, consulte [este documento](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
+Esta opción la utiliza especialmente el mercado japonés para **Deco-mail**, **Decore Mail** o **Decoration Mail**. Para obtener más información, consulte [este documento](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
 
 >[!IMPORTANT]
 >
 >La inserción de imágenes en un correo electrónico aumenta considerablemente su tamaño.
 
-## Configuración del servidor envío {#delivery-server-configuration}
+## Configuración del servidor de envío {#delivery-server-configuration}
 
 ### Sincronización de reloj {#clock-synchronization}
 
@@ -337,9 +337,9 @@ Los relojes de todos los servidores que componen la plataforma Adobe Campaign (i
 
 ### Coordenadas del servidor de estadísticas {#coordinates-of-the-statistics-server}
 
-La dirección del servidor de estadísticas debe indicarse en el **mta**.
+La dirección del servidor de estadísticas debe proporcionarse en **mta**.
 
-La propiedad **statServerAddress** del **elemento mta** de la configuración permite especificar la dirección y el número del puerto que se va a utilizar.
+La propiedad **statServerAddress** del elemento **mta** de la configuración permite especificar la dirección y el número del puerto que se va a utilizar.
 
 ```
 <mta statServerAddress="emailStatServer:7777">
@@ -347,7 +347,7 @@ La propiedad **statServerAddress** del **elemento mta** de la configuración per
  </mta>
 ```
 
-Para utilizar el servidor de estadísticas en el mismo equipo, debe introducir al menos el nombre del equipo con el valor **localhost** :
+Para utilizar el servidor de estadísticas en el mismo equipo, debe introducir al menos el nombre del equipo con el valor **localhost**:
 
 ```
  <mta statServerAddress="localhost">
@@ -357,11 +357,11 @@ Para utilizar el servidor de estadísticas en el mismo equipo, debe introducir a
 >
 >Si este campo no se rellena, el **mta** no se inicio.
 
-### Lista de las direcciones IP para usar {#list-of-ip-addresses-to-use}
+### Lista de direcciones IP para usar {#list-of-ip-addresses-to-use}
 
 La configuración relativa a la administración de tráfico se encuentra en el elemento **mta/child/smtp** del archivo de configuración.
 
-Para cada elemento **IPAffinity** , debe declarar las direcciones IP que se pueden usar en el equipo.
+Para cada elemento **IPAffinity**, debe declarar las direcciones IP que se pueden usar para el equipo.
 
 Ejemplo:
 
@@ -378,7 +378,7 @@ Los parámetros son los siguientes:
 * **dirección**: es la dirección IP del equipo host MTA que se va a utilizar.
 * **heloHost**: este identificador representa la dirección IP tal como la verá el servidor SMTP.
 
-* **publicId**: esta información es útil cuando varias **mtas** de Adobe Campaign comparten una dirección IP tras un enrutador NAT. El servidor de estadísticas utiliza este identificador para memorizar la conexión y enviar estadísticas entre este punto de partida y el servidor de destinatario.
+* **publicId**: esta información es útil cuando una dirección IP es compartida por varios  **** mtasback de Adobe Campaign en un router NAT. El servidor de estadísticas utiliza este identificador para memorizar la conexión y enviar estadísticas entre este punto de partida y el servidor de destinatario.
 * **peso**: permite definir la frecuencia relativa de uso de la dirección. De forma predeterminada, todas las direcciones tienen un peso igual a 1.
 
 >[!NOTE]
@@ -396,28 +396,28 @@ Si, por ejemplo, la primera dirección no se puede utilizar para un MX determina
     * &quot;2&quot;: 5 / (5+1) = 83%
     * &quot;3&quot;: 1 / (5+1) = 17%
 
-* **includeDomains**: le permite reservar esta dirección IP para correos electrónicos que pertenecen a un dominio específico. Es una lista de máscaras que puede contener uno o más comodines (&#39;*&#39;). Si no se especifica el atributo, todos los dominios pueden utilizar esta dirección IP.
+* **includeDomains**: permite reservar esta dirección IP para los correos electrónicos que pertenecen a un dominio específico. Es una lista de máscaras que puede contener uno o más comodines (&#39;*&#39;). Si no se especifica el atributo, todos los dominios pueden utilizar esta dirección IP.
 
    Ejemplo: **includeDomains=&quot;wanadoo.com,naranja.com,yahoo*&quot;**
 
-* **excludeDomains**: excluye una lista de dominios para esta dirección IP. Este filtro se aplica después del filtro **includeDomains** .
+* **excludeDomains**: excluye una lista de dominios para esta dirección IP. Este filtro se aplica después del filtro **includeDomains**.
 
    ![](assets/s_ncs_install_mta_ips.png)
 
-## Optimización del envío de correo electrónico {#email-sending-optimization}
+## Optimización de envío de correo electrónico {#email-sending-optimization}
 
-La arquitectura interna del **mta** de Adobe Campaign afecta a la configuración para optimizar el envío de correo electrónico. A continuación se ofrecen algunos consejos para mejorar sus envíos.
+La arquitectura interna de Adobe Campaign **mta** tiene un impacto en la configuración para optimizar el envío de correo electrónico. A continuación se ofrecen algunos consejos para mejorar sus envíos.
 
-### Ajustar el parámetro maxWaitingMessages {#adjust-the-maxwaitingmessages-parameter}
+### Ajuste el parámetro maxWaitingMessages {#adjust-the-maxwaitingmessages-parameter}
 
 El parámetro **maxWaitingMessages** indica el mayor número de mensajes preparados por adelantado por el **mtachild**. Los mensajes solo se eliminan de esta lista una vez que se han enviado o abandonado.
 
 Este parámetro es muy importante y particularmente crítico si los mensajes no se ordenan por dominio.
 
-Una vez alcanzado el umbral **maxWorkingSetMb** (256), el servidor de envío deja de enviar mensajes. El rendimiento disminuirá significativamente hasta que el **equipo** vuelva a inicio. Para evitar este problema, puede aumentar el umbral del parámetro **maxWorkingSetMb** o reducir el umbral del parámetro **maxWaitingMessages** .
+Una vez alcanzado el umbral **maxWorkingSetMb** (256), el servidor de envío deja de enviar mensajes. El rendimiento disminuirá significativamente hasta que **mtachild** vuelva a inicio. Para evitar este problema, puede aumentar el umbral del parámetro **maxWorkingSetMb** o reducir el umbral del parámetro **maxWaitingMessages**.
 
 El parámetro **maxWorkingSetMb** se calcula empíricamente multiplicando el número máximo de mensajes por el tamaño medio del mensaje y multiplicando el resultado por 2,5. Por ejemplo, si un mensaje tiene un tamaño promedio de 50 kB y el parámetro **maxWaitingMessages** es igual a 1000, la memoria utilizada será de 125 MB como promedio.
 
 ### Ajustar el número de mtachild {#adjust-the-number-of-mtachild}
 
-El número de niños no debe superar el número de procesadores en la máquina (aprox. 1000 sesiones). Le recomendamos que no supere los 8 **equipos**. A continuación, puede aumentar el número de mensajes por **niño** (**maxMsgPerChild**) para lograr una vida útil suficiente.
+El número de niños no debe superar el número de procesadores en la máquina (aprox. 1000 sesiones). Le recomendamos que no supere 8 **mtachild**. A continuación, puede aumentar el número de mensajes por **secundario** (**maxMsgPerChild**) para lograr una vida útil suficiente.
