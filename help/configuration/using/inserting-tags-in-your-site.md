@@ -19,7 +19,7 @@ ht-degree: 5%
 
 ## Método simple {#simple-method}
 
-Este método consiste en enviar una llamada HTTP al servidor de redirección mediante la inserción de una etiqueta **`<img>`** HTML en el código fuente HTML de la página web que desea rastrear.
+Este método consiste en enviar una llamada HTTP al servidor de redirección mediante la inserción de una etiqueta HTML **`<img>`** en el código fuente HTML de la página web que desee rastrear.
 
 >[!IMPORTANT]
 >
@@ -87,7 +87,7 @@ Inserción de una etiqueta de seguimiento web de tipo TRANSACTION en la página 
 </html>
 ```
 
-### Generación dinámica de etiquetas de seguimiento web {#dynamic-generation-of-web-tracking-tags}
+### Generación dinámica de etiquetas de seguimiento Web {#dynamic-generation-of-web-tracking-tags}
 
 Cuando las páginas web se generan de forma dinámica, puede agregar la etiqueta de seguimiento web en el momento de generar la página.
 
@@ -124,11 +124,11 @@ Cuando las páginas web se generan de forma dinámica, puede agregar la etiqueta
 </html>
 ```
 
-## Optimum, método {#optimum-method-}
+## Optimum method {#optimum-method-}
 
 Si desea controlar la información enviada al servidor de redirección, la forma más fiable es realizar la consulta HTTP sincrónicamente con un lenguaje de generación de páginas.
 
-La dirección URL que cree debe obedecer las reglas de sintaxis definidas en la [Etiqueta de seguimiento web: definición](../../configuration/using/web-tracking-tag--definition.md).
+La dirección URL que cree debe obedecer las reglas de sintaxis definidas en la Etiqueta de seguimiento web [: definition](../../configuration/using/web-tracking-tag--definition.md).
 
 ![](assets/d_ncs_integration_webtracking_structure3.png)
 
