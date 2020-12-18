@@ -23,7 +23,7 @@ Para ello, inicie sesión en una base de datos existente y aplique los siguiente
 
 1. Declarar una nueva instancia
 
-   Vaya a **[!UICONTROL Tools > Advanced > Declare a new instance...]** inicio del asistente.
+   Vaya a **[!UICONTROL Tools > Advanced > Declare a new instance...]** para inicio del asistente.
 
    ![](assets/s_ncs_install_declare_instance_menu.png)
 
