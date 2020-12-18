@@ -23,17 +23,17 @@ Hay muchos módulos de Adobe Campaign. Algunos funcionan de forma continua, mien
 
 Existen tres tipos de módulos de Adobe Campaign:
 
-* Módulos de varias instancias: se ejecuta un solo proceso para todas las instancias. Esto se aplica a los siguientes módulos: **web**, **syslogd**, **trackinglogd** y **watchdog** (actividades del archivo **config-default.xml** ).
-* Módulos de monoinstancia: se ejecuta un proceso por instancia. Esto se aplica a los siguientes módulos: **mta**, **wfserver**, **inMail**, **sms** y **stat** (actividades del archivo **`<instance>`** config-xml).
-* Módulos de utilidades: son módulos que se ejecutan ocasionalmente para realizar operaciones ocasionales o recurrentes (**limpieza**, **configuración**, descarga de registros de seguimiento, etc.).
+* Módulos de varias instancias: se ejecuta un solo proceso para todas las instancias. Esto se aplica a los siguientes módulos: **web**, **syslogd**, **trackinglogd** y **watchdog** (actividades del archivo **config-default.xml**).
+* Módulos de monoinstancia: se ejecuta un proceso por instancia. Esto se aplica a los siguientes módulos: **mta**, **wfserver**, **inMail**, **sms** y **stat** (actividades del archivo **config-`<instance>`.xml**) ...
+* Módulos de utilidades: estos son módulos que se ejecutan ocasionalmente para realizar operaciones ocasionales o recurrentes (**limpiar**, **config**, descargar registros de seguimiento, etc.).
 
 La administración del módulo se realiza mediante la herramienta de línea de comandos **nlserver** instalada en el directorio **bin** de la carpeta de instalación.
 
 La sintaxis general de la herramienta **nlserver** es la siguiente:
 
-**nlserver `<command>``<command arguments>`**
+**nlserver  `<command>``<command arguments>`**
 
-Para la lista de módulos disponibles, utilice el **comando nlserver** .
+Para la lista de módulos disponibles, utilice el comando **nlserver**.
 
 Los módulos disponibles se detallan en la siguiente tabla:
 
