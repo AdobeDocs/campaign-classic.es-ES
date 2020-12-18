@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # Estructura de un esquema de datos{#structure-of-a-data-schema}
 
-La estructura de un esquema de datos se muestra en forma de estructura de árbol. Para vista gráfica en la consola de cliente de Adobe Campaign, seleccione el esquema de destino y haga clic en la **[!UICONTROL Structure]** subficha.
+La estructura de un esquema de datos se muestra en forma de estructura de árbol. Para vista gráfica en la consola de cliente de Adobe Campaign, seleccione el esquema de destino y haga clic en la subficha **[!UICONTROL Structure]**.
 
 ![](assets/d_ncs_integration_schema_arbo.png)
 
