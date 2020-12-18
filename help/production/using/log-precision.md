@@ -39,7 +39,7 @@ Adobe Campaign puede funcionar con dos niveles de registro:
    nlserver restart <MODULE_NAME> -noconsole
    ```
 
-1. El modo **TraceFilter** , que permite guardar el número bueno de registros. Se activa mediante el siguiente comando:
+1. El modo **TraceFilter**, que permite guardar el número bueno de registros. Se activa mediante el siguiente comando:
 
    ```
    nlserver stop <MODULE_NAME>; nlserver <MODULE_NAME> -verbose -tracefilter:*
@@ -48,8 +48,8 @@ Adobe Campaign puede funcionar con dos niveles de registro:
    >[!NOTE]
    >
    >Si utiliza **tracefilter:***, se activan todos los tipos de registro: ncm, rdr, nms, jst, temporización, wdbc, ldap, soap, xtk, xtkquery, sesión, xtkwriter, red, pop3, inmail\
-   Los tipos de registro más útiles son: **wdbc** (muestra todas las consultas SQL), **soap** (muestra todas las llamadas SOAP), **ldap** (muestra todas las consultas LDAP después de la autenticación), **xtkquery** (muestra la lista de toda la querydef).\
-   Puede utilizarlos individualmente (**tracefilter:soap,wdbc** , por ejemplo). También puede activarlas todas y elegir excluir otras: **-tracefilter:*,!soap**
+   Los tipos de registro más útiles son: **wdbc** (muestra todas las consultas SQL), **soap** (muestra todas las llamadas SOAP), **ldap** (muestra todas las consultas LDAP después de la autenticación), **xtkquery** (muestra la lista de todas las consultas).\
+   Puede utilizarlos individualmente (**tracefilter:soap,wdbc** por ejemplo). También puede activarlas todas y elegir excluir otras: **-tracefilter:*,!soap**
 
    Compruebe que el error se ha producido realmente y, a continuación, reinicie el proceso de la forma normal:
 
@@ -68,7 +68,7 @@ Antes de enviar este comando, compruebe que no se verá afectado ningún trabajo
 nlserver pdump -who
 ```
 
-A continuación, apague y reinicie el módulo en modo **TraceFilter** .
+A continuación, apague y reinicie el módulo en modo **TraceFilter**.
 
 ```
 nlserver stop web; LD_PRELOAD=libjsig.so nlserver web -tomcat -verbose -tracefilter:* -tracefile:web_debug@default
@@ -81,7 +81,7 @@ nlserver stop mta@<INSTANCE_NAME>; nlserver mta -instance:<INSTANCE_NAME> -trace
 ```
 
 >[!NOTE]
-El modo **Archivo** de seguimiento permite guardar los registros. En los ejemplos anteriores, los registros se guardan en los archivos **var/`<instance-name>`/mta_debug.log** y **var/default/web_debug.log** .
+El modo **Archivo de seguimiento** permite guardar los registros. En los ejemplos anteriores, los registros se guardan en los archivos **var/`<instance-name>`/mta_debug.log** y **var/default/web_debug.log**.
 
 >[!IMPORTANT]
 En Windows, no agregue la opción LD_PRELOAD. Basta con el siguiente comando:\
