@@ -23,9 +23,9 @@ Ciertos procesos de la aplicación necesitan comunicarse con otros o acceder a l
 
 Utilice el puerto integrado Apache Tomcat como prioridad (8080 de forma predeterminada) para las comunicaciones internas entre los distintos servidores de aplicaciones de una plataforma Adobe Campaign.
 
-### Envío Server {#delivery-server}
+### Servidor de envío {#delivery-server}
 
-Para el servidor envío (mta **** nlserver), deben abrirse los puertos siguientes:
+Para el servidor envío (**nlserver mta**), deben abrirse los puertos siguientes:
 
 <table> 
  <tbody> 
@@ -47,7 +47,7 @@ Para el servidor envío (mta **** nlserver), deben abrirse los puertos siguiente
   <tr> 
    <td> 38000/tcp (puerto predeterminado)<br /> </td> 
    <td> Puerta de enlace SMS<br /> </td> 
-   <td> Se utiliza para enviar tráfico SMS al router SMS NetSize [opción].<br /> </td> 
+   <td> Se utiliza para enviar tráfico SMS al enrutador SMS NetSize [opción].<br /> </td> 
   </tr> 
   <tr> 
    <td> 7777/udp<br /> </td> 
@@ -59,7 +59,7 @@ Para el servidor envío (mta **** nlserver), deben abrirse los puertos siguiente
 
 ### Correo entrante {#inbound-mail}
 
-Para el proceso de recuperación de correo entrante (**nlserver inMail**), deben abrirse los puertos siguientes:
+Para el proceso de recuperación de correo entrante (**nlserver enMail**), deben abrirse los puertos siguientes:
 
 <table> 
  <tbody> 
@@ -116,7 +116,7 @@ Para rastrear envíos SMS (**nlserver sms**), debe estar abierto el siguiente pu
   <tr> 
    <td> 38000/tcp (puerto predeterminado)<br /> </td> 
    <td> Puerta de enlace SMS<br /> </td> 
-   <td> Consulta el estado de la cola de envíos administrada por la puerta de enlace SMS NetSize [opción].<br /> </td> 
+   <td> Consulta el estado de la cola de envíos administrada por la puerta de enlace SMS de NetSize [opción].<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -226,7 +226,7 @@ Este servidor aloja Formularios web, páginas espejo, etc. Es necesario abrir lo
 
 ## Integración con Adobe Experience Manager {#integration-with-adobe-experience-manager}
 
-La integración entre Adobe Campaign y Adobe Experience Manager requiere abrir varios puertos si la instalación está &quot;in situ&quot;. Para obtener más información sobre la configuración de esta integración, consulte la documentación [](../../integrations/using/about-adobe-experience-manager.md)detallada.
+La integración entre Adobe Campaign y Adobe Experience Manager requiere abrir varios puertos si la instalación está &quot;in situ&quot;. Para obtener más información sobre la configuración de esta integración, consulte la [documentación detallada](../../integrations/using/about-adobe-experience-manager.md).
 
 <table> 
  <tbody> 
