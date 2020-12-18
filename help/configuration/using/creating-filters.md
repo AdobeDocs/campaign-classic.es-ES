@@ -23,7 +23,7 @@ Estos filtros estarán disponibles en la ventana de selección de destinatarios 
 
 1. Vaya al nodo **[!UICONTROL Administration > Configuration > Predefined filters]**.
 1. Cree un nuevo filtro.
-1. Introduzca el valor **[!UICONTROL Label]** del filtro y, a continuación, seleccione el esquema que coincida con la tabla de destinatarios externos del **[!UICONTROL Document type]** campo.
-1. Cree su **[!UICONTROL filtering conditions]** base en los campos del esquema.
+1. Introduzca el **[!UICONTROL Label]** del filtro y, a continuación, seleccione el esquema que coincida con la tabla de destinatario externo en el campo **[!UICONTROL Document type]**.
+1. Cree su **[!UICONTROL filtering conditions]** basándose en los campos del esquema.
 1. Guarde el filtro.
 
