@@ -27,21 +27,21 @@ Una vez agregadas estas funciones, aparecerán en el editor de expresiones como 
 
 >[!IMPORTANT]
 >
->Las llamadas a funciones SQL en la consola ya no se envían de forma natural al servidor. Por lo tanto, el mecanismo descrito aquí se convierte en **la única manera de llamar** al servidor de funciones SQL no planificado.
+>Las llamadas a funciones SQL en la consola ya no se envían de forma natural al servidor. Por lo tanto, el mecanismo descrito aquí se convierte en **la única manera de llamar a** en el servidor de funciones SQL no planificado.
 
 ## Instalación {#installation}
 
-Las funciones que se van a agregar se encuentran en un archivo **&quot;paquete&quot; en formato** XML, cuya estructura se detalla en el párrafo siguiente.
+Las funciones que se van a agregar se encuentran en un archivo **&quot;package&quot; en formato XML**, cuya estructura se detalla en el siguiente párrafo.
 
-Para instalarlo desde la consola, seleccione las opciones de paquete **Herramientas/Avanzadas/Importar en el menú, luego el** **[!UICONTROL Install from file]** y siga las instrucciones del asistente de importación.
+Para instalarlo desde la consola, seleccione las opciones **Herramientas/Avanzado/Importar paquete** del menú, luego la **[!UICONTROL Install from file]** y siga las instrucciones del asistente de importación.
 
 >[!IMPORTANT]
 >
 >Advertencia: aunque la lista de funciones importadas aparezca en el editor de funciones inmediatamente, no se podrán utilizar hasta que se haya reiniciado Adobe Campaign.
 
-## Estructura general del paquete que se va a importar {#general-structure-of-package-to-import}
+## Estructura general del paquete para importar {#general-structure-of-package-to-import}
 
-Las funciones que se van a agregar se encuentran en el archivo **** &quot;package&quot; en formato XML. Este es un ejemplo.
+Las funciones que se van a agregar se encuentran en el archivo **&quot;package&quot;** en formato XML. Este es un ejemplo.
 
 ```
 <?xml version="1.0" encoding='ISO-8859-1' ?>
@@ -68,14 +68,14 @@ Las funciones que se van a agregar se encuentran en el archivo **** &quot;packag
 </package>
 ```
 
-* El **nombre**, la **Área de nombres** y el **rótulo** son únicamente para fines informativos. Permiten vista de un resumen del paquete en la lista de paquetes instalados (Explorer/Administración/Administración de paquetes/paquetes instalados).
+* El **nombre**, **Área de nombres** y **etiqueta** se utilizan únicamente con fines informativos. Permiten vista de un resumen del paquete en la lista de paquetes instalados (Explorer/Administración/Administración de paquetes/paquetes instalados).
 * Los campos **buildVersion** y **buildNumber** son obligatorios. Deben corresponder al número de servidor al que está conectada la consola. Esta información se encuentra en el cuadro &quot;Ayuda/Acerca de&quot;.
-* Los siguientes bloques, **entidades** y **funclístas** son obligatorios. En funcList, los campos &quot;nombre&quot; y &quot;Área de nombres&quot; son obligatorios, pero su nombre queda en manos del usuario para que lo decida y ellos designan de forma exclusiva la lista de la función.
+* Los siguientes bloques, **entidades** y **funclist** son obligatorios. En funcList, los campos &quot;nombre&quot; y &quot;Área de nombres&quot; son obligatorios, pero su nombre queda en manos del usuario para que lo decida y ellos designan de forma exclusiva la lista de la función.
 
    Esto significa que si se importa otra lista de funciones con el mismo par Área de nombres/nombre (aquí &quot;cus::myList&quot;), se eliminarán las funciones importadas anteriormente. Por el contrario, si cambia este par Área de nombres/nombre, la nueva serie de funciones importadas se agregará a la anterior.
 
 * El elemento **group** permite especificar el grupo de funciones en el que aparecerán las funciones importadas en el editor de funciones. El atributo @name puede ser un nombre que ya existe (en cuyo caso las funciones se agregarán al grupo considerado) o un nuevo nombre (en cuyo caso aparecerá en un nuevo grupo).
-* Recordatorio: los valores posibles para el atributo @name en el `<group>` elemento son:
+* Recordatorio: los valores posibles para el atributo @name en el elemento `<group>` son:
 
    ```
      name="aggregate"      ( label="Aggregates"         )
@@ -93,11 +93,11 @@ Las funciones que se van a agregar se encuentran en el archivo **** &quot;packag
 
 Si desea agregar funciones a varios grupos diferentes, puede hacer que varios `<group>` elementos se rastreen en la misma lista.
 
-Finalmente, un `<group>` elemento puede contener la definición de una o varias funciones, es decir, el propósito del archivo del paquete. El `<function>` elemento se detalla en el párrafo siguiente.
+Finalmente, un elemento `<group>` puede contener la definición de una o varias funciones, es decir, el propósito del archivo del paquete. El `<function>`   se detalla en el siguiente párrafo.
 
 ## Descriptor de funciones &lt;function>&lt;/function> {#function-descriptor--function-}
 
-El caso que se presenta aquí es un caso general en el que deseamos proporcionar la **función de ejecución**.
+El caso presentado aquí es un caso general en el que deseamos proporcionar la **implementación de funciones**.
 
 A continuación se muestra un ejemplo de la función de &quot;madurez relativa&quot; que, utilizando una edad, indica cuántos años se ha considerado madura a la persona.
 
@@ -111,8 +111,8 @@ A continuación se muestra un ejemplo de la función de &quot;madurez relativa&q
 
 El campo **@name** hace referencia al nombre de la función y &quot;args&quot; es la lista de parámetros que se mostrarán en la descripción. En este caso, la función aparecerá como &quot;relativeMatrity ( `<age>` )&quot; en la ventana de selección de funciones.
 
-* **help** es el campo que se muestra en la parte inferior de la ventana del editor de expresiones.
-* **@display** es un mensaje informativo.
+* **La** ayuda es el campo que se muestra en la parte inferior de la ventana del editor de expresiones.
+* **@** displayis es un mensaje informativo.
 
    >[!NOTE]
    >
@@ -122,8 +122,8 @@ El campo **@name** hace referencia al nombre de la función y &quot;args&quot; e
    >
    >La descripción debe ser una cadena de caracteres XML válidos: tenga en cuenta el uso de &#39;&lt;&#39; y &#39;>&#39; en lugar de &lt; y >.
 
-* **@type** es el tipo de devolución de función y es un valor estándar (long, string, byte, datetime...). Si se omite, el servidor determina el mejor tipo entre los tipos disponibles dentro de la expresión que implementa la función.
-* **@minArgs** y **maxArgs** designan el número de parámetros (mínimo y máximo) para un parámetro. Por ejemplo, para una función con 2 parámetros, minArgs y maxArgs serán 2 y 2. Para 3 parámetros, más 1 opcional, serán 3 y 4 respectivamente.
+* **@** typeis el tipo de devolución de la función y es un valor estándar (long, string, byte, datetime...). Si se omite, el servidor determina el mejor tipo entre los tipos disponibles dentro de la expresión que implementa la función.
+* **@** minArgand  **** maxArgsdesigna el número de parámetros (mínimo y máximo) para un parámetro. Por ejemplo, para una función con 2 parámetros, minArgs y maxArgs serán 2 y 2. Para 3 parámetros, más 1 opcional, serán 3 y 4 respectivamente.
 * Finalmente, el elemento **providerPart** proporciona la implementación de la función.
 
    * El atributo **provider** es obligatorio, especifica los sistemas de base de datos para los que se proporciona la implementación. Como se muestra en el ejemplo, cuando la sintaxis de expresiones o las funciones subyacentes difieren, se pueden proporcionar implementaciones alternativas según la base de datos.
@@ -133,9 +133,9 @@ El campo **@name** hace referencia al nombre de la función y &quot;args&quot; e
    >
    >Si es probable que sólo una o dos bases de datos sean consultadas por la función definida, siempre podemos proporcionar solamente las definiciones correspondientes a estas bases de datos.
 
-## Descriptor de la función &#39;Pass-through&#39; {#pass-through--function-descriptor}
+## Descriptor de función &#39;Pass-through&#39; {#pass-through--function-descriptor}
 
-Un descriptor de función especial es el bloque **&quot;pass-through&quot;** , con un sistema de base de datos &quot;provider&quot; no especificado. En este caso, la implementación &quot;body&quot; solo puede contener una llamada a una función con una sintaxis que no dependa de la base de datos utilizada. Mientras tanto, el bloque &quot;ProviderPart&quot; es único.
+Un descriptor de función especial es el bloque **&quot;pass-through&quot;**, con un sistema de base de datos &quot;provider&quot; no especificado. En este caso, la implementación &quot;body&quot; solo puede contener una llamada a una función con una sintaxis que no dependa de la base de datos utilizada. Mientras tanto, el bloque &quot;ProviderPart&quot; es único.
 
 ```
     <function name="CountAll" args="()" help="Counts the values returned (all fields together)"
