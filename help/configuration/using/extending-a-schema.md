@@ -20,8 +20,8 @@ ht-degree: 10%
 >[!IMPORTANT]
 >
 >Algunos esquemas integrados no deben ampliarse: principalmente aquellos para los que se definen los siguientes ajustes:\
->**dataSource=&quot;file&quot;** y **mappingType=&quot;xmlFile&quot;**.\
->Los siguientes esquemas no deben ampliarse: **xtk:entityBackupNew**, **xtk:entityBackupOriginal**, **xtk:entityOriginal**, **xtk:form**, **xtk:srcSchema**, **ncm:publishing, xtk:entityOriginal**, **xtk:form************************************:remoteTracking, nmsRules:userAgentxtk:builder,xtk:Connectionsxtk, dbxtk:Init, xtk:cList, xtk:fusiónxtk,xtk: jst**, **xtk:navtree**, **xtk:queryDef**, **xtk:resourceMenu**, **xtk:esquema**, **xtk:scriptContext, xtk session, xtk:sqlSchemaAsistente**, ************xtk:cadenasxtk:Presión.
+>**dataSource=&quot;file&quot;** and  **mappingType=&quot;xmlFile&quot;**.\
+>Los siguientes esquemas no deben ampliarse: **xtk:entityBackupNew**, **xtk:entityBackupOriginal**, **xtk:entityOriginal**, **xtk:form**, **xtk:srcSchema**, **>ncm:publishing**, **nl:Monitoring**, **nms:calendar**, **nms:remoteTracking**, **nms:userAgentRules&lt;a111 9/>,** xtk:builder **,** xtk:Connections **,** xtk:dbInit **,** xtk:funcList **, a28/>xtk:fusion**, **xtk: jst**, **xtk:navtree**, **xtk:queryDef**, **xtk:resourceMenu**, **xtk:esquema&lt;a38 39/>,** xtk:scriptContext **,** xtk:session **,** xtk:sqlSchema **,** xtk:strings **.******
 >Esta lista no es exhaustiva.
 
 Existen dos métodos para ampliar un esquema existente:
@@ -37,7 +37,7 @@ Existen dos métodos para ampliar un esquema existente:
    >
    >No se le permite modificar los esquemas integrados de la aplicación, sino el mecanismo de extensión de esquema. De lo contrario, los esquemas modificados no se actualizarán en el momento de futuras actualizaciones de la aplicación. Esto puede provocar fallos de funcionamiento en el uso de Adobe Campaign.
 
-   **Ejemplo**: extensión del esquema **nms:destinatario** .
+   **Ejemplo**: extensión del esquema  **nms:** recipientschema.
 
    ```
    <srcSchema extendedSchema="nms:recipient" name="recipient" namespace="cus">
@@ -47,7 +47,7 @@ Existen dos métodos para ampliar un esquema existente:
    </srcSchema>
    ```
 
-   El **esquema ampliado nms:destinatario** se rellena con el campo rellenado en el esquema de extensión:
+   El esquema extendido **nms:destinatario** se rellena con el campo rellenado en el esquema de extensión:
 
    ```
    <schema dependingSchemas="cus:recipient" name="recipient" namespace="nms">
@@ -59,10 +59,10 @@ Existen dos métodos para ampliar un esquema existente:
 
    El atributo **Dependencias** del elemento raíz del esquema hace referencia a las dependencias de los esquemas de extensión.
 
-   El atributo **perteneceA** del campo rellena el esquema donde se declara.
+   El atributo **perteneceTo** del campo rellena el esquema donde se declara.
 
 >[!IMPORTANT]
 >
->Para que las modificaciones se tengan en cuenta, es necesario volver a generar esquemas. For more on this, refer to the [Regenerating schemas](../../configuration/using/regenerating-schemas.md) section.\
+>Para que las modificaciones se tengan en cuenta, es necesario volver a generar esquemas. Para obtener más información sobre esto, consulte la sección [Regeneración de esquemas](../../configuration/using/regenerating-schemas.md).\
 >Si las modificaciones afectan a la estructura de la base de datos, debe ejecutar una actualización. Para obtener más información, consulte la sección [Actualización de la estructura de la base de datos](../../configuration/using/updating-the-database-structure.md).
 
