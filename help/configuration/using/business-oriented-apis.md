@@ -30,7 +30,7 @@ La API comercial es específica para cada tipo de objeto. Tienen un efecto en:
    * inicio de un flujo de trabajo,
    * verificación de procesos, etc.
 
-      Consulte Métodos [SOAP en JavaScript](../../configuration/using/soap-methods-in-javascript.md).
+      Consulte [Métodos SOAP en JavaScript](../../configuration/using/soap-methods-in-javascript.md).
 
 * Gestión de contenido
 * Administración de suscripciones, consulte [Suscribirse (nms:suscripción)](#subscribe--nms-subscription-) y [Cancelar suscripción (nms:suscripción)](#unsubscribe--nms-subscription-).
@@ -40,9 +40,9 @@ Esta sección detalla el uso de los servicios &quot;Suscribirse&quot;, &quot;Can
 
 >[!IMPORTANT]
 >
->[La documentación](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html) JSAPI de campaña contiene información adicional sobre las llamadas SOAP y el uso de Javascript en Adobe Campaign, así como una referencia completa a todos los métodos y funciones utilizados en la aplicación.
+>[La ](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html) documentación de JSAPI de campaña contiene información adicional sobre las llamadas SOAP y el uso de Javascript en Adobe Campaign, así como una referencia completa a todos los métodos y funciones utilizados en la aplicación.
 
-## Suscribirse (nms:suscripción) {#subscribe--nms-subscription-}
+## Suscripción (nms:suscripción) {#subscribe--nms-subscription-}
 
 Este servicio le permite suscribirse a un destinatario en un servicio informativo y actualizar el perfil de destinatario.
 
@@ -65,7 +65,7 @@ Descripción del método &quot;subscription&quot; en el esquema &quot;nms:suscri
 </method>
 ```
 
-La definición de la clave de reconciliación debe introducirse mediante el atributo _**key** en el `<recipient>` elemento del documento XML. El contenido de este atributo es una lista XPath separada por comas.
+La definición de la clave de reconciliación debe introducirse mediante el atributo _**key** en el elemento `<recipient>` del documento XML. El contenido de este atributo es una lista XPath separada por comas.
 
 Esta llamada no devuelve datos, excepto errores.
 
@@ -136,7 +136,7 @@ Descripción del método &quot;Cancelar suscripción&quot; en el esquema &quot;n
 </method>
 ```
 
-La definición de la clave de reconciliación debe introducirse mediante el atributo _key en el `<recipient>` elemento del documento XML. El contenido de este atributo es una lista XPath separada por comas.
+La definición de la clave de reconciliación debe introducirse mediante el atributo _key en el elemento `<recipient>` del documento XML. El contenido de este atributo es una lista XPath separada por comas.
 
 Si el destinatario no está presente en la base de datos o no está suscrito al servicio informativo correspondiente, el servicio no realiza ninguna acción y no genera un error.
 
@@ -207,7 +207,7 @@ Esta llamada no devuelve datos, excepto errores.
 
 ### Ejemplo de documento XML {#xml-document-example}
 
-Este ejemplo se basa en una Plantilla de envíos personalizada de un origen de datos externo (un archivo en este caso). La configuración se describe completamente en la Plantilla de envíos, de modo que todo lo que queda por enviar cuando se produce la llamada es el contenido del archivo del `<externalsource>` elemento.
+Este ejemplo se basa en una Plantilla de envíos personalizada de un origen de datos externo (un archivo en este caso). La configuración se describe completamente en la Plantilla de envíos, de modo que todo lo que queda por enviar cuando se produce la llamada es el contenido del archivo del elemento `<externalsource>`.
 
 ```
 <delivery>
