@@ -19,15 +19,15 @@ ht-degree: 1%
 
 Las capas de acceso a la base de datos necesarias deben estar instaladas en el servidor y ser accesibles desde la cuenta de Adobe Campaign.
 
-## Java Development Kit - JDK {#java-development-kit---jdk}
+## Kit de desarrollo de Java - JDK {#java-development-kit---jdk}
 
 El generador dinámico de páginas Web utiliza la tecnología JSP 1.2. Para esto, se incluye un motor Tomcat (de Apache) en la aplicación. Requiere un kit de desarrollo de Java (JDK), instalado en todos los servidores en los que está instalada la aplicación de Adobe Campaign.
 
-En primer lugar, debe instalar un JDK en los equipos en los que desea ejecutar el servidor de aplicaciones de Adobe Campaign (proceso web **de** nlserver) porque incorpora un contenedor servlet, Apache Tomcat, que se utiliza para generar páginas Web dinámicas (informes, Formularios web, etc.).
+En primer lugar, debe instalar un JDK en los equipos en los que desea ejecutar el servidor de aplicaciones de Adobe Campaign (**proceso Web** nlserver) porque incorpora un contenedor servlet, Apache Tomcat, que se utiliza para generar páginas Web dinámicas (informes, Formularios web, etc.).
 
-The application has been approved for the Java Development Kit (JDK) developed by Oracle as well as for **OpenJDK**.
+La aplicación ha sido aprobada para el kit de desarrollo Java (JDK) desarrollado por Oracle, así como para **OpenJDK**.
 
-The supported versions are detailed in Campaign [Compatibility matrix](../../rn/using/compatibility-matrix.md).
+Las versiones admitidas se detallan en la Campaña [Tabla de compatibilidad](../../rn/using/compatibility-matrix.md).
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ The supported versions are detailed in Campaign [Compatibility matrix](../../rn/
 >  
 >Al realizar la instalación, no es necesario que realice la integración con los exploradores Web.
 >
->En un equipo que solo ejecuta agentes de envío (**proceso mta** de nlserver) o el servidor de flujo de trabajo (proceso wfserver **de** nlserver), no es necesario instalar un JDK.
+>En un equipo que sólo ejecuta agentes de envío (**proceso mta** nlserver) o el servidor de flujo de trabajo (**proceso wfserver**), no es necesario instalar un JDK.
 
 Para descargar Java JDK, conéctese a: [https://www.oracle.com/technetwork/java/javase/downloads/index.html](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
@@ -61,15 +61,15 @@ yum install java-1.8.0-openjdk
 
 ## OpenSSL {#openssl}
 
-En Linux, se debe instalar OpenSSL. Las versiones compatibles con Adobe Campaign son **OpenSSL 1.0.1** y **OpenSSL 0.9.8**. Se aceptan las subversiones 0.9.8g a 0.9.8o.
+En Linux, se debe instalar OpenSSL. Las versiones admitidas por Adobe Campaign son **OpenSSL 1.0.1** y **OpenSSL 0.9.8**. Se aceptan las subversiones 0.9.8g a 0.9.8o.
 
 ## Exportación de informes {#exporting-reports}
 
-Adobe Campaign permite exportar informes de plataforma en formato Microsoft Excel y Adobe PDF. Para el formato de Microsoft Excel, Adobe Campaign utiliza **LibreOffice**. Para el formato Adobe PDF, Adobe Campaign utiliza el convertidor **PhantomJS** . PhantomJs está incluido en el paquete de fábrica y LibreOffice debe estar instalado en las máquinas en las que se ejecuta el servidor de aplicaciones de Adobe Campaign (proceso web **** nlserver).
+Adobe Campaign permite exportar informes de plataforma en formato Microsoft Excel y Adobe PDF. Para el formato de Microsoft Excel, Adobe Campaign utiliza **LibreOffice**. Para el formato Adobe PDF, Adobe Campaign utiliza el convertidor **PhantomJS**. PhantomJs está incluido en el paquete de fábrica y LibreOffice debe estar instalado en los equipos en los que se ejecuta el servidor de aplicaciones de Adobe Campaign (**nlserver web** proceso).
 
 >[!NOTE]
 >
->Para Linux, necesitará agregar fuentes. Para obtener más información sobre esto, consulte [Fuentes para estadísticas](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#fonts-for-mta-statistics)de MTA.
+>Para Linux, necesitará agregar fuentes. Para obtener más información sobre esto, consulte [Fuentes para estadísticas de MTA](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#fonts-for-mta-statistics).
 
 ## SpamAssassin {#spamassassin}
 
@@ -77,7 +77,7 @@ SpamAssassin le permite asignar una puntuación a los correos electrónicos para
 
 La calificación de los correos electrónicos como indeseables por SpamAssassin se basa completamente en reglas de filtrado y puntuación. Por lo tanto, estas reglas deben actualizarse al menos una vez al día para que la instalación de SpamAssassin y su integración en Adobe Campaign sean completamente funcionales y para garantizar la relevancia de las puntuaciones asignadas a sus envíos antes de enviarlas. Esta actualización es responsabilidad del administrador del servidor que aloja SpamAssassin.
 
-La versión mínima admitida es: **3,4**
+La versión mínima admitida es: **3.4**
 
 SpamAssassin requiere acceso HTTP a Internet (tcp/80).
 
