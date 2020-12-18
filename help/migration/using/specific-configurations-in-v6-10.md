@@ -25,4 +25,4 @@ Si va a realizar la migración desde una plataforma 6.10 y la consola de cliente
 >
 >Si rechaza la actualización, no podrá conectarse.
 
-Si va a realizar la migración desde una plataforma v6.10 anterior a la compilación 8104, también debe consultar la sección [Nuevas funciones de v7](../../migration/using/general-configurations.md#new-features-in-v7) .
+Si va a realizar la migración desde una plataforma v6.10 anterior a la compilación 8104, también debe consultar la sección [Nuevas funciones de v7](../../migration/using/general-configurations.md#new-features-in-v7).
