@@ -19,7 +19,7 @@ ht-degree: 2%
 
 ## Ampliación de una tabla {#extending-a-table}
 
-Para ampliar la tabla de destinatario de esquema **nms:destinatario** , siga el procedimiento siguiente:
+Para extender la tabla de destinatario de esquema **nms:destinatario**, aplique el procedimiento siguiente:
 
 1. Cree el esquema de extensión (**cus:extension**) con los siguientes datos:
 
@@ -42,7 +42,7 @@ Para ampliar la tabla de destinatario de esquema **nms:destinatario** , siga el 
    </srcSchema>
    ```
 
-   En este ejemplo, se agrega un campo indexado (**fidelidad**) y el elemento de **ubicación** (que ya existía en el esquema **nms:destinatario** ) se completa con un campo enumerado (**área**).
+   En este ejemplo, se agrega un campo indexado (**fidelidad**) y el elemento **ubicación** (que ya existía en el esquema **nms:destinatario**) se completa con un campo enumerado (**área**).
 
    >[!IMPORTANT]
    >
@@ -84,7 +84,7 @@ Para ampliar la tabla de destinatario de esquema **nms:destinatario** , siga el 
    CREATE INDEX NmsRecipient_area ON NmsRecipient(sArea);
    ```
 
-## Tabla de colección vinculada {#linked-collection-table}
+## Tabla de recopilación vinculada {#linked-collection-table}
 
 En esta sección se describe cómo crear una tabla de pedidos vinculada a la tabla de destinatarios con cardinalidad 1-N.
 
@@ -103,7 +103,7 @@ Esquema de origen de tabla de pedido:
 </srcSchema>
 ```
 
-El tipo de tabla es **autoprueba** para crear una clave principal generada automáticamente que se utilizará con la combinación del vínculo a la tabla de destinatario.
+El tipo de tabla es **autopk** para crear una clave principal generada automáticamente que se utilizará con la unión del vínculo a la tabla de destinatario.
 
 Esquema generado:
 
@@ -149,7 +149,7 @@ INSERT INTO CusOrder (iOrderId) VALUES (0);
 >
 >El comando SQL INSERT INTO al final de la secuencia de comandos permite insertar un registro de identificador definido en 0 para simular uniones externas.
 
-## Tabla de extensiones {#extension-table}
+## Tabla de extensión {#extension-table}
 
 Una tabla de extensión permite ampliar el contenido de una tabla existente en una tabla vinculada de cardinalidad 1-1.
 
@@ -237,7 +237,7 @@ CREATE UNIQUE INDEX CusOverflow2_id ON CusOverflow2(iRecipientId);
 
 Una tabla de relaciones permite vincular dos tablas con la cardinalidad N-N. Esta tabla contiene solamente las claves externas de las tablas que se van a vincular.
 
-Ejemplo de tabla de relación entre grupos (**nms:group**) y destinatarios (**nms:destinatario**).
+Ejemplo de una tabla de relación entre grupos (**nms:group**) y destinatarios (**nms:destinatario**).
 
 Esquema de origen de la tabla de relación:
 
@@ -321,7 +321,7 @@ xtkschema="xtk:srcSchema">
 </srcSchema>
 ```
 
-En cualquier tabla que utilice esta tabla de referencia, defina un vínculo y agregue el atributo **displayAsField=&quot;true&quot;** .
+En cualquier tabla que utilice esta tabla de referencia, defina un vínculo y agregue el atributo **displayAsField=&quot;true&quot;**.
 
 ```
 <element displayAsField="true" label="Bank" name="bank" target="cus:bank" type="link" noDbIndex="true"/>
