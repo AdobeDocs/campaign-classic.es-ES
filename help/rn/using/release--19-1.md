@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: dc345681e8d0085b4366be0afa2d8207170c716f
+source-git-commit: f9584342d81b53ad5854b30b7c4970b0aba6d4ff
 workflow-type: tm+mt
 source-wordcount: '3061'
 ht-degree: 93%
