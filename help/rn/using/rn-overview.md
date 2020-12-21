@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 0abdbbc33350cf6ec85488483dadb177e685818b
+source-git-commit: cf4dbb59f7fb2df31ec3e034bb687e9a070c63bc
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 100%
+source-wordcount: '434'
+ht-degree: 94%
 
 ---
 
@@ -37,13 +37,13 @@ Las **últimas versiones de GA** son: [Gold Standard 10](../../rn/using/gold-sta
 
 La **última versión RC**[ es Campaign Classic 20.3.](../../rn/using/latest-release.md)
 
-![](assets/do-not-localize/orange3.png) **Ya no está disponible**: se requiere la actualización a una versión más reciente.
-
-![](assets/do-not-localize/red3.png) **Obsoleto**: la actualización a una versión más reciente es obligatoria.
+![](assets/do-not-localize/red3.png) **Desaprobado** : sin implementación. Se deben actualizar las implementaciones existentes.
 
 ## Recomendaciones{#recommendations}
 
 Para garantizar una configuración estable, le recomendamos que instale la misma versión estable en todos los servidores que se ejecuten en la misma configuración de cliente.
+
+Además, la consola de cliente debe estar en la misma compilación que la instancia de servidor.
 
 Para mantener la implementación actualizada, asegúrese de leer las páginas [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md) y [Matriz de compatibilidades](../../rn/using/compatibility-matrix.md) con cada nueva versión.
 
