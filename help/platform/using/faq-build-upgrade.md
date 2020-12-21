@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 0abdbbc33350cf6ec85488483dadb177e685818b
+source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2017'
 ht-degree: 6%
 
 ---
@@ -136,7 +136,7 @@ Sí. Los clientes deben proporcionar al Adobe un punto de contacto disponible du
 
 ## ¿Debo actualizar la consola de cliente?
 
-Sí. La consola de cliente debe estar en la misma compilación o compilación más reciente que la instancia de servidor. Una vez completada la actualización, la consola de cliente debe solicitarle que actualice a la última compilación para asegurarse de que se mantiene alineada con la compilación del servidor.
+Sí. La consola de cliente debe estar en la misma compilación que la instancia de servidor. Una vez completada la actualización, la consola de cliente debe solicitarle que actualice a la última compilación para asegurarse de que se mantiene alineada con la compilación del servidor.
 
 ## ¿Cuál es el plan de reversión? ¿Se guardan los backups de mis datos?
 
