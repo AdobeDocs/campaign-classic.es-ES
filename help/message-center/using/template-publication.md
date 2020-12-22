@@ -6,26 +6,28 @@ description: Publicación de plantilla de mensaje transaccional
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '206'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 02dee9c4cc03784ccc20f147f816798248bd10f2
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 45%
 
 ---
 
 
 # Publicación de plantilla{#template-publication}
 
-Una vez completada la plantilla de mensaje creada en la instancia de control, se puede publicarla en todas las instancias de ejecución. La publicación permite crear automáticamente dos plantillas de mensajes en la instancia de ejecución, lo que permite enviar mensajes relacionados con los eventos en tiempo real y por lotes.
+When the message template created on the control instance is complete, you can publish it. Este proceso también lo publicará en todas las instancias de ejecución.
 
->[!IMPORTANT]
->
->Recuerde publicar la plantilla cuando realice cambios en ella para que estos cambios puedan ser efectivos durante la entrega del mensaje transaccional.
+Publication lets you automatically create two message templates on the execution instances, which will allow you to send messages linked to real-time and batch events.
 
 >[!NOTE]
 >
->Al publicar plantillas de mensaje transaccional, las reglas de tipología se publican automáticamente en las instancias de ejecución.
+>Al publicar Plantillas de mensaje transaccional, las reglas de tipología también se publican automáticamente en las instancias de ejecución.
+
+>[!IMPORTANT]
+>
+>Siempre que realice cambios en una plantilla, asegúrese de publicarla de nuevo para que estos cambios sean efectivos durante el envío de mensaje transaccional.
 
 1. En la instancia de control, vaya a la carpeta **[!UICONTROL Message Center > Transactional message templates]** del árbol.
 1. Seleccione la plantilla que desee publicar en las instancias de ejecución.
@@ -37,6 +39,10 @@ Una vez terminada la publicación, las dos plantillas de mensaje que se aplican 
 
 ![](assets/messagecenter_deployed_model_001.png)
 
+Una vez publicada una plantilla, si se activa el evento correspondiente, la instancia de ejecución recibirá el evento, lo vinculará a la plantilla transaccional y enviará el mensaje transaccional correspondiente a cada destinatario.
+
 >[!NOTE]
 >
->Si se sustituye un campo existente de la plantilla de mensaje transaccional, como la dirección del remitente, con un valor vacío, el campo correspondiente de las instancias de ejecución no se actualizará una vez que se vuelva a publicar el mensaje transaccional. Aún contiene el valor anterior. Sin embargo, si se agrega un valor no vacío, el campo correspondiente se actualiza de la forma habitual después de la siguiente publicación.
+>Si se sustituye un campo existente de la plantilla de mensaje transaccional, como la dirección del remitente, con un valor vacío, el campo correspondiente de las instancias de ejecución no se actualizará una vez que se vuelva a publicar el mensaje transaccional. Aún contiene el valor anterior.
+>
+>Sin embargo, si se agrega un valor no vacío, el campo correspondiente se actualiza de la forma habitual después de la siguiente publicación.
