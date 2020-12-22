@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
+source-git-commit: 450889f845b7c5adad1085d7eba70e23030e6609
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 98%
@@ -110,7 +110,7 @@ Como controlador de datos, deberá asegurarse de que cuando reciba una solicitud
 
 ## Volver a adherirse {#opt-in-again}
 
-**¿Puede un sujeto de datos, cuyos datos se han borrado de Adobe Campaign, volver a adhesión más tarde?**
+### ¿Puede un sujeto de datos, cuyos datos se han borrado de Adobe Campaign, volver a adhesión más tarde?
 
 Es posible que un sujeto de datos vuelva a incluirse o se añada como un nuevo destinatario después de que sus datos se hayan borrado de Adobe Campaign.
 
