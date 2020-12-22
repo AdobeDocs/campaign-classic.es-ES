@@ -1,23 +1,27 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Acerca de los flujos de trabajo técnicos
-description: Lista de flujos de trabajo técnicos de Campaign
+title: 'Los flujos de trabajo técnicos '
+description: Obtenga más información sobre los flujos de trabajo técnicos disponibles con los paquetes de Campaign Classic.
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '137'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3f2e984f85e517777751e3c36dc96437eefb3010
+workflow-type: tm+mt
+source-wordcount: '1839'
+ht-degree: 71%
 
 ---
 
 
-# Acerca de los flujos de trabajo técnicos{#about-technical-workflows}
+# Flujos de trabajo técnicos{#about-technical-workflows}
 
-Los flujos de trabajo detallados en esta sección se instalan con los distintos paquetes integrados de Adobe Campaign. Estos paquetes, y los flujos de trabajo técnicos relacionados, dependen del acuerdo de licencia. De forma predeterminada, están disponibles en una subcarpeta del siguiente nodo: **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
+## Acerca de los flujos de trabajo técnicos {#overview}
+
+Los flujos de trabajo detallados en esta sección se instalan con los distintos paquetes integrados de Adobe Campaign. Estos paquetes, y los flujos de trabajo técnicos relacionados, dependen del acuerdo de licencia. Los paquetes integrados se detallan en [esta sección](../../installation/using/installing-campaign-standard-packages.md).
+
+De forma predeterminada, los flujos de trabajo técnicos están disponibles en una subcarpeta del nodo siguiente: **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
 
 >[!NOTE]
 >
@@ -25,23 +29,55 @@ Los flujos de trabajo detallados en esta sección se instalan con los distintos 
 
 Para obtener más información sobre la monitorización de flujos de trabajo técnicos, consulte la [sección dedicada](../../workflow/using/monitoring-technical-workflows.md).
 
-Esta sección incluye información sobre los flujos de trabajo técnicos que implican los siguientes paquetes:
+## Lista de flujos de trabajo técnicos {#list-technical-workflows}
 
-* [Entregas](../../workflow/using/deliveries.md)
-* [Campaign](../../workflow/using/campaign.md)
-* [Web Analytics](../../workflow/using/web-analytics.md)
-* [Distributed Marketing](../../workflow/using/distributed-marketing.md)
-* [Monitorización de la capacidad de entrega (capacidad de entrega por correo electrónico)](../../workflow/using/email-deliverability.md)
-* [Renderización de la bandeja de entrada (IR)](../../workflow/using/inbox-rendering.md)
-* [Interacción](../../workflow/using/interaction.md)
-* [Control del motor de oferta](../../workflow/using/control-of-offer-engine.md)
-* [Centro de mensajes (Control)](../../workflow/using/message-center--control-.md)
-* [Message Center (Execution)](../../workflow/using/message-center--execution-.md)
-* [Canal de aplicaciones móviles](../../workflow/using/mobile-app-channel.md)
-* [Canal LINE](../../workflow/using/line-channel.md)
-* [Recurso de Marketing (MRM)](../../workflow/using/marketing-resources--mrm-.md)
-* [Social Marketing](../../workflow/using/social-marketing.md)
-* [Integración con las soluciones de Adobe Experience Cloud](../../workflow/using/integrations-with-adobe-experience-cloud-solutions.md)
-* [Reglamento de protección de datos de privacidad](../../workflow/using/general-data-protection-regulation--gdpr-.md)
-* [Transfer to Mid-sourcing](../../workflow/using/transfer-to-mid-sourcing.md)
-* [Mid-sourcing platform](../../workflow/using/mid-sourcing-platform.md)
+| Flujo de trabajo técnico | Paquete | Descripción |
+|------|--------|-----------|
+| **Limpieza**  de alias(aliasCleansing) | Entrega | Este flujo de trabajo estandariza los valores de enumeración. Se activa cada día a la 3 de la mañana de forma predeterminada. |
+| **Facturación**  (facturación) | Entrega | Este flujo de trabajo envía el informe de actividad del sistema al operador “facturación” por correo electrónico. De forma predeterminada, se activa el día 25 de cada mes. |
+| **Cálculo de estadísticas**  de Twitter(statsTwitter) | Redes sociales (Social Marketing) | Este flujo de trabajo calcula las estadísticas vinculadas a los retweets y las visitas en Twitter. |
+| **Trabajos**  de campaña(operationMgt) | Campañas de marketing (Campaña) | Este flujo de trabajo administra los trabajos de las campañas de marketing (inicia los objetivos, la extracción de archivos, etc.). También crea flujos de trabajo relacionados con campañas recurrentes y periódicas. |
+| **Recopilar solicitudes**  de privacidad (collectPrivacyRequests) | Reglamento de protección de datos de privacidad | Este flujo de trabajo genera los datos del destinatario almacenados en Adobe Campaign y lo hace disponibles para su descarga en la pantalla de la solicitud de privacidad. |
+| **Cálculo**  de costo(budgetMgt) | Campañas de marketing (Campaña) | Este flujo de trabajo inicia el cálculo de las líneas de gastos y de costes sobre presupuestos, planes, programas, campañas, envíos y tareas. |
+| **Limpieza**  de base de datos (limpieza) | Entrega | Este flujo de trabajo es el del mantenimiento de la base de datos: realiza diferentes cálculos en las estadísticas y procesos y elimina los datos obsoletos de la base de datos según la configuración definida en el asistente de implementación. Se activa cada día a las 4 a. m. de manera predeterminada. Para obtener más información, consulte [esta página](../../production/using/database-cleanup-workflow.md#monitoring-campaign-classic). |
+| **Eliminar usuarios**  LINE bloqueados(deleteBlockedLineUsersV2) | Canal LINE | Este flujo de trabajo garantiza que los datos de los usuarios de LINE V2 se eliminen después de haber bloqueado la cuenta oficial de LINE durante 180 días. |
+| **Eliminar datos**  de solicitudes de privacidad(deletePrivacyRequestsData) | Reglamento de protección de datos de privacidad | Este flujo de trabajo elimina los datos del destinatario almacenados en Adobe Campaign. |
+| **Indicadores**  de envío (indicadores de entrega) | Mid-sourcing platform | Este flujo de trabajo actualiza los indicadores de seguimiento de una entrega. De forma predeterminada, este flujo de trabajo se activa cada hora. |
+| **Procesos**  del foro de discusión (newsgroupMgt) | Recursos de marketing (MRM) | Este flujo de trabajo gestiona el envío de notificaciones de los foros de debate. Se activa cuando se recibe una señal de aprobación |
+| **Procesos**  de mercadotecnia distribuidos (centralLocalMgt) | Marketing central/local (Distributed Marketing (Marketing distribuido)) | Este flujo de trabajo comienza con el proceso vinculado al uso del módulo de marketing distribuido. Inicia la creación de las campañas locales y gestiona las notificaciones vinculadas a los pedidos y a la disponibilidad del paquete de campaña. |
+| **Depuración**  de evento(webAnalyticsPurgeWebEvents) | Conectores de Web Analytics | This workflow lets you delete every event from the database field according to the period configured in the Lifespan field. |
+| **Exportar audiencias al Adobe Experience Cloud** (exportSharedAudience) | Integration with Adobe Experience Cloud | Este flujo de trabajo exporta audiencias como audiencias o segmentos compartidos. Estas audiencias pueden utilizarse con las diferentes soluciones de Adobe Experience Cloud que utiliza. |
+| **Previsión**  (previsión) | Entrega | Este flujo de trabajo analiza las entregas guardados en el calendario provisional (crea registros provisionales). Se activa cada día a la 1 de la mañana de forma predeterminada. |
+| **Cálculo acumulado completo (cubo propositionrcp)** (agg_nmspropositionrcp_full) | Motor de oferta (interacción) | Este flujo de trabajo actualiza el acumulado Completo del cubo Propuesta de oferta. Se activa todos los días a las 6 a. m. de manera predeterminada. Este acumulado captura las siguientes dimensiones: Canal, Entrega, Oferta de mercadotecnia y Fecha. Luego se utiliza el cubo Propuesta de oferta para generar informes basados en ofertas. Puede obtener más información sobre los cubos en [esta sección](../../reporting/using/about-cubes.md). |
+| **Identificación de los contactos**  convertidos(webAnalyticsFindConverted) | Conectores de Web Analytics | Este flujo de trabajo lista a los visitantes del sitio que han finalizado su compra después de la campaña de remarketing. Se puede acceder a los datos recuperados por este flujo de trabajo en el informe de eficacia de la remercadotecnia (consulte esta página). |
+| **Importar audiencias desde el Adobe Experience Cloud** (importSharedAudience) | Integration with Adobe Experience Cloud | Este flujo de trabajo permite importar audiencias y segmentos de distintas soluciones de Adobe Experience Cloud en Adobe Campaign. |
+| **Trabajos en envíos en campañas** (deliveryMgt) | Campañas de marketing (Campaña) | Este flujo de trabajo activa las entregas aprobadas e inicia el posprocesado del proveedor de servicios para una entrega externo. También envía notificaciones de aprobación y recordatorios. |
+| **Trabajos en proveedores de servicio** (providerMgt) | Campañas de marketing (Campaña) | Este flujo de trabajo comienza a procesar el proveedor (correo electrónico al enrutador y posprocesado) una vez que se aprueban las entregas. |
+| **Actualización**  de token de acceso LINE V2(updateLineV2AccessToken) | Canal LINE | Este flujo de trabajo actualiza el token de acceso a LINE V2. |
+| **Migración**  de MID a LineUserID (MIDToUserIDMigration) | Canal LINE | Este flujo de trabajo genera las ID de los usuarios de LINE V2 para la migración de LINE V1 a LINE V2. |
+| **Notificaciones**  de recurso de marketing(assetMgt) | Recursos de marketing (MRM) | Este flujo de trabajo gestiona las notificaciones vinculadas a la aprobación y publicación de los recursos de marketing. |
+| **Centro de mensajes  &lt;external_account_name>** (mcSynch_&lt;external_account_name>) | Control de mensajes transaccionales (Centro de mensajes - Control) | Este flujo de trabajo: <ul><li>recupera la lista de eventos procesados por las operaciones.</li><li>se sincroniza con la tabla NmsBroadLogMsg para poder recuperar los atributos del mensaje de la entrega.</li><li>recupera los registros de envío de eventos en cuanto se completa la sincronización con la tabla NmsBroadLogMsg.</li><li>se sincroniza con la tabla NmsTrackingUrl para recuperar el seguimiento de las URL de la entrega.</li><li>recupera las URL de seguimiento de eventos en cuanto se completa la sincronización con la tabla NmsTrackingUrl.</li><li>permite recuperar todas las direcciones de correo electrónico puestas en cuarentena cada tres horas después de realizar una entrega.</ul> |
+| **Cálculo**  acumulado completo de MessageCenter(agg_messageCenter_full) | Motor de oferta (interacción) | Este flujo de trabajo actualiza el acumulado completo para el cubo del centro de mensajes. Se activa cada día a la 3 de la mañana de forma predeterminada. Este acumulado captura las siguientes dimensiones: canal, fecha, estado y tipo de evento. El cubo de centro de mensajes se utiliza para generar informes basados en eventos. Puede obtener más información sobre cubos en [esta sección](../../reporting/using/about-cubes.md) |
+| **Intermediaria (contadores de envío)** (defaultMidSourcingDlv) | Transfer to Mid-sourcing | Este flujo de trabajo recopila información de recuento para las entregas en el servidor de mid-sourcing. La información de recuento incluye indicadores de envío generales como el número de envíos realizados, etc. No se incluye la información de seguimiento como las aperturas. De forma predeterminada, se activa cada diez minutos. |
+| **Intermediaria (registros de envío)** (defaultMidSourcingLog) | Transferencia al Intermediaria | Este flujo de trabajo recopila los registros de envío en el servidor de mid-sourcing. Se activa cada hora de forma predeterminada. |
+| **Administración**  de exclusión de NMAC (mobileAppOptOutMgt) | Canal de aplicaciones móviles | Este flujo de trabajo actualiza las bajas de las notificaciones en los dispositivos móviles. Se activa cada 6 horas entre la medianoche y la 1 a. m. Para obtener más información, consulte [esta sección](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines). |
+| **Number of active billing profiles** (billingActiveContactCount) | Motor de oferta (Interacción) | Este flujo de trabajo cuenta la cantidad de perfiles activos. Se activa cada noche a la 1 a. m. de forma predeterminada. Un “perfil” es un registro de información (por ejemplo, un registro de la tabla nmsRecipient o una tabla externa que contiene una ID de cookie, ID de cliente, ID móvil u otra información relacionada con un canal determinado) que representa a un cliente final, a un cliente potencial o a un contacto. La facturación solo abarca los perfiles que están “activos”. Un perfil se considera “activo” si este ha recibido comunicaciones o mensajes en los últimos 12 meses a través de cualquier canal. Los canales de Facebook y Twitter no se tienen en cuenta. Puede obtener una vista general del Number of active profiles en el menú Administration > Campaign Management > Customer metrics. |
+| **Notificación**  de oferta(offerMgt) | Entrega | Este flujo de trabajo implementa las ofertas aprobadas en el entorno en línea, así como todas las categorías incluidas en el catálogo de ofertas. |
+| **Limpieza**  de flujos de trabajo en pausa (clearPausedWorkflows) | Entrega | Este flujo de trabajo analiza los flujos de trabajo en pausa con opción de gravedad definida en normal y activa las advertencias y notificaciones cuando dichos flujos llevan demasiado tiempo en pausa. Tras un mes, los flujos de trabajo técnicos en pausa se detienen de manera incondicional. De forma predeterminada, se activa todos los lunes a las 5 a. m. Para obtener más información, consulte [Gestión de flujos de trabajo en pausa](../../workflow/using/monitoring-workflow-execution.md#handling-of-paused-workflows). |
+| **Limpieza**  de la solicitud de privacidad(clearPrivacyRequests) | Reglamento de protección de datos de privacidad | Este flujo de trabajo borra los archivos de solicitud de acceso anteriores a 90 días. |
+| **Processing batch events** (batchEventsProcessing) | Ejecución de mensaje transaccional (Centro de mensajes - Ejecución) | Este flujo de trabajo permite colocar eventos en lote en cola antes de asociarlos con una plantilla de mensaje. |
+| **Eventos en tiempo real**  de procesamiento(rtEventsProcessing) | Ejecución de mensaje transaccional (Centro de mensajes - Ejecución) | Este flujo de trabajo permite colocar eventos en tiempo real en cola antes de asociarlos con una plantilla de mensaje. |
+| **Sincronización**  de proposiciones (propositionSynch) | Control del motor de oferta con instancia de ejecución | Este flujo de trabajo sincroniza las propuestas entre la instancia de marketing y la instancia de ejecución utilizada para las interacciones. |
+| **Recuperación de eventos**  web (webAnalyticsGetWebEvents) | Conectores de Web Analytics | Cada hora, este flujo de trabajo descarga segmentos sobre el comportamiento de los usuarios de Internet en un sitio determinado, los integra en la base de datos de Adobe Campaign e inicia el flujo de trabajo de remarketing. |
+| **Actualizar para la entregabilidad** (deliveryUpdate) | Monitorización de la capacidad de entrega (capacidad de entrega por correo electrónico) | Una vez instalado el paquete de supervisión de la entrega (Entregabilidad por correo electrónico), este flujo de trabajo se ejecuta todas las noches para actualizar regularmente la lista de las reglas y permite administrar de forma activa la entrega de la plataforma. |
+| **Agregados**  de sistemas de informes(reportingAggregates) | Entrega | Este flujo de trabajo actualiza los agregados que se utilizan en los informes. Se activa cada día a la 2 de la mañana de forma predeterminada. |
+| **Envío de indicadores y atributos**  de campaña (webAnalyticsSendMetrics) | Conectores de Web Analytics | Este flujo de trabajo permite enviar indicadores de campaña por correo electrónico desde Adobe Campaign a Adobe Experience Cloud Suite a través del conector Adobe® Genesis. Los indicadores correspondientes son los siguientes: Enviado (enviado), Recuento total de aperturas (iTotalRecipientOpen), Número total de destinatarios que hicieron clic (iTotalRecipientClick), Errores (iError), Opción de exclusión (exclusión) (iOptOut). |
+| **Stock: Pedidos y alertas** (stockMgt) | Campañas de marketing (Campaña) | Este flujo de trabajo inicia el cálculo de existencias en las líneas de pedido y administra los umbrales de alertas de advertencia. |
+| **Sincronización de seguidores**  de Facebook (syncFacebookFans) | Redes sociales (Social Marketing) | Este flujo de trabajo importa los seguidores de Facebook en Adobe Campaign todos los días a las 7 a. m. |
+| **Sincronización de páginas**  de Facebook (syncFacebook) | Redes sociales (Social Marketing) | Este flujo de trabajo sincroniza las páginas de Facebook con Adobe Campaign todos los días a las 7 a. m. |
+| **Sincronización de páginas**  de Twitter (syncTwitter) | Redes sociales (Social Marketing) | Este flujo de trabajo importa los seguidores de Twitter en Adobe Campaign todos los días a las 7 a. m. |
+| **Notificación**  de tarea(taskMgt) | Recursos de marketing (MRM) | Este flujo de trabajo le permite enviar mensajes de notificación sobre las tareas de las campañas de marketing. |
+| **Seguimiento** (seguimiento) | Entrega | Este flujo de trabajo realiza la recuperación y la consolidación de la información de seguimiento. También garantiza que se recalculen las estadísticas de seguimiento y envío, especialmente las utilizadas por los flujos de trabajo de archivado del Centro de mensajes. De forma predeterminada se activa una vez cada hora. |
+| **Actualizar estado**  de evento(updateEventsStatus) | Ejecución de mensaje transaccional (Centro de mensajes - Ejecución) | Este flujo de trabajo permite asignar un estado a un evento. Los estados de eventos son los siguientes:<ul><li>Pendiente: el evento está en cola. Aún no se le ha asociado ninguna plantilla de mensaje.</li><li>Envío pendiente: el evento está en cola, se le ha asociado una plantilla de mensaje y la entrega se está procesando en ese momento.</li><li>Enviado: este estado se copia desde los “logs” de envío. Significa que la entrega se realizó.</li><li>Envío ignorado: este estado se copia desde los “logs” de envío. Significa que la entrega se ha ignorado.</li><li>Error de envío: este estado se copia desde los “logs” de envío. Significa que la entrega ha fallado.</li><li>Evento no cubierto: el evento no se ha podido asociar con una plantilla de mensaje. El evento no se vuelve a procesar.</li></ul> |
+| **Actualización para la entregabilidad** (deliveryUpdate) | Entrega | Este flujo de trabajo le permite crear la lista de reglas de los atributos del correo rechazado, así como la lista de dominios y los MX de la plataforma. Este flujo de trabajo solo funciona si el puerto HTTPS está abierto. Estas listas no se actualizan a menos que se instale el módulo Deliverability. |
+| **Actualizar la red raíz para el procesamiento**  de la bandeja de entrada (updateRenderingSeeds) | Renderización de la bandeja de entrada (IR) | Este flujo de trabajo actualiza las direcciones de correo electrónico utilizadas para el procesamiento de la Bandeja de entrada y solo funciona si el puerto HTTPS está abierto para delivery.neolane.net. |
