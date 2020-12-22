@@ -5,11 +5,11 @@ title: Definición de la audiencia correcta
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '474'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe7ff64d24113e026a47aa1c9f08daacce2b383e
+workflow-type: tm+mt
+source-wordcount: '480'
+ht-degree: 97%
 
 ---
 
@@ -63,7 +63,10 @@ Es importante evitar tener direcciones de correo electrónico duplicadas, ya que
 
 Las direcciones duplicadas protegen su reputación de envío y garantizan una buena gestión de cuarentena.
 
-Obtenga más información [en este caso de uso](../../workflow/using/deduplication.md#example--identify-the-duplicates-before-a-delivery).
+**Temas relacionados:**
+
+* [Actividad](../../workflow/using/deduplication.md) de deduplicación.
+* [Caso de uso: Uso de la funcionalidad de combinación de la actividad de Deduplicación](../../workflow/using/deduplication-merge.md)
 
 ## Indexación de direcciones de correo electrónico {#index-addresses}
 
