@@ -6,11 +6,11 @@ description: Recopilación de eventos
 audience: message-center
 content-type: reference
 topic-tags: event-processing
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '104'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d1130691e40c0cac183db37a4c0b410d00bb696a
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 75%
 
 ---
 
@@ -25,3 +25,7 @@ Los eventos que genera el sistema de información se pueden recopilar mediante d
 Una vez recopilados, los eventos se desglosan, por flujos de trabajo técnicos, entre colas en tiempo real y por lotes de las instancias de ejecución, mientras esperan vincularse a una plantilla de mensaje.
 
 ![](assets/messagecenter_events_queues_001.png)
+
+>[!NOTE]
+>
+>En las instancias de ejecución, las carpetas **[!UICONTROL Real time events]** o **[!UICONTROL Batch events]** no deben configurarse como vistas, ya que esto podría provocar [problemas con el derecho de acceso](../../platform/using/access-management.md#about-permissions). Para obtener más información sobre la configuración de una carpeta como vista, consulte [Acerca de las vistas](../../platform/using/access-management.md#about-views).
