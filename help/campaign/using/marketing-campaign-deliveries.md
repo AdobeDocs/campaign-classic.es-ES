@@ -6,11 +6,11 @@ description: Más información sobre las entregas de campañas de marketing
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: ht
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: ht
-source-wordcount: '2925'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+workflow-type: tm+mt
+source-wordcount: '2926'
+ht-degree: 99%
 
 ---
 
@@ -281,7 +281,7 @@ Una vez concedidas todas las aprobaciones, el estado de entrega cambia a **[!UIC
 
 >[!NOTE]
 >
->Los flujos de trabajo técnicos relacionados con los procesos de campaña se presentan en [List of campaign process workflows](../../workflow/using/campaign.md).
+>Los flujos de trabajo técnicos relacionados con el paquete de Campaña se presentan en [Lista de flujos de trabajo técnicos](../../workflow/using/about-technical-workflows.md).
 
 **Paso 1: Aprobación de archivos**
 
@@ -461,6 +461,6 @@ El modelo de exportación debe estar asociado al proveedor de servicios seleccio
 
 En este vídeo se explica cómo crear una campaña y un correo electrónico en Adobe Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
