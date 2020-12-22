@@ -6,11 +6,11 @@ description: Creación de una conexión compartida
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 5bc6c8a824929c6a61cf562fc961e5bdd1867837
+workflow-type: tm+mt
 source-wordcount: '998'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 100%
 >
 >* Las extensiones de esquema realizadas en los esquemas utilizados por [flujos de trabajo técnicos del centro de mensajes](../../message-center/using/technical-workflows.md) en cualquiera de las instancias de control o de ejecución deben duplicarse en las demás instancias que utiliza el módulo de mensajería transaccional de Adobe Campaign.
 >* La instancia de control y las instancias de ejecución deben estar instaladas en diferentes equipos. No pueden compartir la misma instancia de Campaign.
+
 >
 
 
@@ -90,7 +91,7 @@ Para crear una cuenta externa de tipo instancia de ejecución, siga los siguient
 
 ## Instancia de ejecución {#execution-instance}
 
-Para que la instancia de control pueda conectarse a la instancia de ejecución sin tener que proporcionar una contraseña, simplemente introduzca la dirección IP de la instancia de control en la sección de derechos de acceso del **centro de mensajes.** Sin embargo, las contraseñas vacías están prohibidas de forma predeterminada.
+Para que la instancia de control pueda conectarse a la instancia de ejecución sin tener que dar una contraseña, simplemente ingrese la dirección IP de la instancia de control en la sección de derechos de acceso **Centro de mensajes**. Sin embargo, las contraseñas vacías están prohibidas de forma predeterminada.
 
 Para utilizar una contraseña vacía, vaya a las instancias de ejecución y defina una zona de seguridad limitada a la dirección IP del sistema de información que envía los eventos. Esta zona de seguridad debe permitir contraseñas vacías y aceptar conexiones tipo `<identifier> / <password>`. Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
