@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
+source-git-commit: c511c1ac4b9fccff30f73fcfd0db650d860514d2
 workflow-type: tm+mt
 source-wordcount: '2539'
 ht-degree: 99%
@@ -33,7 +33,7 @@ La conexión a CRM se realiza mediante actividades de flujo de trabajo dedicadas
 
 Los CRM enumerados a continuación se pueden integrar en Adobe Campaign.
 
-Supported versions are detailed in Campaign [Compatibility matrix](../../rn/using/compatibility-matrix.md).
+Las versiones admitidas se detallan en la Campaña [Tabla de compatibilidad](../../rn/using/compatibility-matrix.md).
 
 * **Salesforce.com**
 
@@ -186,13 +186,13 @@ Para configurar el conector de Microsoft Dynamics para que funcione con Adobe Ca
 
    Adobe Campaign Classic es compatible con la interfaz Dynamics 365 REST con el protocolo de autenticación OAuth.
 
-   Si selecciona una implementación **[!UICONTROL WebAPI]**, es necesario registrar una aplicación en Azure Directory y obtener la **clientId** del directorio. Este registro está documentado en [esta página](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/mt622431(v=crm.8)?redirectedfrom=MSDN).
+   Si selecciona una implementación **[!UICONTROL WebAPI]**, es necesario registrar una aplicación en Azure Directory y obtener la **clientId** del directorio. Este registro está documentado en [esta página](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory).
 
    >[!NOTE]
    >
    >Adobe Campaign Classic no requiere el parámetro redirectURL.
 
-   El valor **clientId** se utiliza con el nombre de usuario y la contraseña para obtener el token de portador mediante la contraseña de tipo de concesión. Esto se denomina **Concesión de credenciales de contraseña de propietario de recursos**. Para obtener más información, consulte [esta página](https://blogs.msdn.microsoft.com/wushuai/2016/09/25/resource-owner-password-credentials-grant-in-azure-ad-oauth/).
+   El valor **clientId** se utiliza con el nombre de usuario y la contraseña para obtener el token de portador mediante la contraseña de tipo de concesión. Esto se denomina **Concesión de credenciales de contraseña de propietario de recursos**. Para obtener más información, consulte [esta página](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth-ropc).
 
    ![](assets/crm_connectors_msdynamics_01_3.png)
 
