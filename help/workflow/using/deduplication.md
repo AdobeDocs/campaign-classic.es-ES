@@ -6,11 +6,11 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '733'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 55e2297c5c60a48be230d06a3c1880d79b8ea5f2
+workflow-type: tm+mt
+source-wordcount: '1089'
+ht-degree: 65%
 
 ---
 
@@ -18,6 +18,29 @@ ht-degree: 100%
 # Deduplicación{#deduplication}
 
 La deduplicación elimina los duplicados de los resultados de las actividades entrantes. La deduplicación se puede realizar en la dirección de correo electrónico, el número de teléfono u otro campo.
+
+La actividad **[!UICONTROL Deduplication]** se utiliza para eliminar filas de duplicado de un conjunto de datos. Por ejemplo, los registros que se muestran a continuación pueden considerarse duplicados, ya que tienen la misma dirección de correo electrónico y el mismo teléfono móvil o doméstico.
+
+| Fecha de la última modificación | Nombre | Apellido | Correo electrónico | Teléfono móvil | Teléfono |
+-----|------------|-----------|-------|--------------|------
+| 03/02/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
+| 19/05/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 22/07/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+
+La actividad **[!UICONTROL Deduplication]** tiene la capacidad de mantener una fila entera como registro único después de identificar duplicados. Por ejemplo, en el caso de uso anterior, si la actividad está configurada para mantener sólo el registro con el **[!UICONTROL Date]** más antiguo, el resultado sería:
+
+| Fecha | Nombre | Apellido | Correo electrónico | Teléfono móvil | Teléfono |
+-----|----------|------------|-------|--------------|------
+| 03/02/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
+
+El registro maestro seleccionado reenviará los datos sin combinar los datos de campo con otros datos relevantes en las filas de duplicado.
+
+Complemento:
+
+| Fecha | Nombre | Apellido | Correo electrónico | Teléfono móvil | Teléfono |
+-----|------------|-----------|-------|--------------|------
+| 19/05/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 22/07/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 
 ## Prácticas recomendadas {#best-practices}
 
@@ -34,27 +57,26 @@ Esta cuestión debe solucionarse de la siguiente manera:
 
 Para configurar una deduplicación, introduzca su etiqueta, el método, los criterios de deduplicación y las opciones relativas al resultado.
 
-Haga clic en el enlace **[!UICONTROL Edit configuration...]** para definir el modo de anulación de duplicación.
+1. Haga clic en el enlace **[!UICONTROL Edit configuration...]** para definir el modo de anulación de duplicación.
 
-![](assets/s_user_segmentation_dedup_param.png)
+   ![](assets/s_user_segmentation_dedup_param.png)
 
-1. Selección de objetivo
-
-   Seleccione el tipo de objetivo para esta actividad (de forma predeterminada, la deduplicación hace referencia a los destinatarios) y el criterio que se utilizará, es decir, el campo para el que los valores idénticos permiten identificar duplicados: direcciones de correo electrónico, número de teléfono o móvil, número de fax o dirección de correo directo.
-
-   ![](assets/s_user_segmentation_dedup_param2.png)
+1. Seleccione el tipo de destinatario para esta actividad (de forma predeterminada, la deduplicación está vinculada a destinatarios) y el criterio que se utilizará, es decir, el campo para el que valores idénticos le permiten identificar duplicados.
 
    >[!NOTE]
    >
    >Si utiliza datos externos como entrada, por ejemplo, de un archivo externo, asegúrese de seleccionar la opción **[!UICONTROL Temporary schema]**.
+
    >
    >En el siguiente paso, la opción **[!UICONTROL Other]** permite seleccionar los criterios que se van a utilizar:
 
+   ![](assets/s_user_segmentation_dedup_param2.png)
+
+1. En el paso siguiente, la opción **[!UICONTROL Other]** permite seleccionar los criterios que se utilizarán en caso de valores idénticos.
+
    ![](assets/s_user_segmentation_dedup_param3.png)
 
-1. Métodos de deduplicación
-
-   En la lista desplegable, seleccione el método de deduplicación que desea utilizar e introduzca el número de duplicados que desea conservar.
+1. En la lista desplegable, seleccione el método de deduplicación que desea utilizar e introduzca el número de duplicados que desea conservar.
 
    ![](assets/s_user_segmentation_dedup_param4.png)
 
@@ -72,7 +94,11 @@ Haga clic en el enlace **[!UICONTROL Edit configuration...]** para definir el mo
    * **[!UICONTROL Using an expression]**: permite mantener los registros con el valor más bajo (o el más alto) de la expresión dada.
 
       ![](assets/s_user_segmentation_dedup_param7.png)
-   Haga clic en **[!UICONTROL Finish]** para aprobar el método de deduplicación seleccionado.
+   >[!NOTE]
+   >
+   >La funcionalidad **[!UICONTROL Merge]**, a la que se puede acceder mediante el vínculo **[!UICONTROL Advanced parameters]**, permite configurar un conjunto de reglas para combinar un campo o grupo de campos en un único registro de datos resultante. Para obtener más información sobre esto, consulte [Combinación de campos en un único registro](#merging-fields-into-single-record).
+
+1. Haga clic en **[!UICONTROL Finish]** para aprobar el método de deduplicación seleccionado.
 
    La sección de en medio de la ventana resume la configuración definida.
 
@@ -80,7 +106,7 @@ Haga clic en el enlace **[!UICONTROL Edit configuration...]** para definir el mo
 
    ![](assets/s_user_segmentation_dedup_param8.png)
 
-   Seleccione la opción **[!UICONTROL Generate complement]** si desea utilizar la población restante. El complemento está formado por todos los duplicados. A continuación, se agregará una transición adicional a la actividad de la siguiente manera:
+1. Seleccione la opción **[!UICONTROL Generate complement]** si desea utilizar la población restante. El complemento está formado por todos los duplicados. A continuación, se agregará una transición adicional a la actividad de la siguiente manera:
 
    ![](assets/s_user_segmentation_dedup_param9.png)
 
@@ -109,6 +135,32 @@ Los duplicados identificados también se incorporarán a una lista de duplicados
 1. Seleccione el modo de deduplicación **[!UICONTROL Choose for me]** para que los registros guardados en caso de duplicados identificados se elijan aleatoriamente y, a continuación, haga clic en **[!UICONTROL Finish]**.
 
 Al ejecutar el flujo de trabajo, todos los destinatarios identificados como duplicados se excluyen del resultado (y, por lo tanto, de la entrega) y se añaden a la lista de duplicados. Esta lista puede utilizarse de nuevo en lugar de tener que volver a identificar los duplicados.
+
+## Combinación de campos en un único registro de datos {#merging-fields-into-single-record}
+
+La funcionalidad **[!UICONTROL Merge]** permite configurar un conjunto de reglas para la deduplicación para definir un campo o grupo de campos que se combinarán en un único registro de datos resultante.
+
+Por ejemplo, con un conjunto de registros de duplicado, puede elegir mantener el número de teléfono más antiguo o el nombre más reciente.
+
+Hay un caso de uso que aprovecha esta función en [esta sección](../../workflow/using/deduplication-merge.md).
+
+Para ello, siga estos pasos:
+
+1. En el paso de selección **[!UICONTROL Deduplication method]**, haga clic en el vínculo **[!UICONTROL Advanced Parameters]**.
+
+   ![](assets/dedup1.png)
+
+1. Seleccione la opción **[!UICONTROL Merge records]** para activar la funcionalidad.
+
+   Si desea agrupar varios campos de datos en cada condición de combinación, active la opción **[!UICONTROL Use several record merging criteria]**.
+
+   ![](assets/dedup2.png)
+
+1. Después de activar la funcionalidad, se agrega una ficha **[!UICONTROL Merge]** a la actividad **[!UICONTROL Deduplication]**. Permite definir grupos de campos para combinar y sus reglas asociadas.
+
+   Para obtener más información sobre esto, consulte el caso de uso dedicado disponible en [esta sección](../../workflow/using/deduplication-merge.md).
+
+   ![](assets/dedup3.png)
 
 ## Parámetros de entrada {#input-parameters}
 
