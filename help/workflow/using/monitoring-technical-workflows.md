@@ -6,9 +6,9 @@ description: Monitorización de flujos de trabajo técnicos
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ En el caso de **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]*
 
 En el caso de **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**:
 
-1. Observe todos los flujos de trabajo ubicados en la carpeta **[!UICONTROL Campaign process]**. Para obtener más información, consulte [esta página](../../workflow/using/campaign.md).
+1. Observe todos los flujos de trabajo ubicados en la carpeta **[!UICONTROL Campaign process]**. Para obtener más información, consulte [esta página](../../workflow/using/about-technical-workflows.md).
 1. Compruebe que los flujos de trabajo se ejecutan como está planificado y que el historial no destaca errores recurrentes.
 
 ## Monitorización del flujo de trabajo {#workflow-supervision}
