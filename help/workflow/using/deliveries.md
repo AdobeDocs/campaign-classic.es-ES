@@ -6,18 +6,18 @@ description: Descubra más información sobre los flujos de trabajo Entregas
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '436'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7cd76b5a31ed9fc0e64a650316ea29293c628233
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 96%
 
 ---
 
 
 # Entregas{#deliveries}
 
-Los flujos de trabajo detallados a continuación están instalados de forma predeterminada.
+Los flujos de trabajo detallados a continuación se instalan con el módulo **Envíos** de forma predeterminada.
 
 <table> 
  <tbody> 
@@ -37,7 +37,7 @@ Los flujos de trabajo detallados a continuación están instalados de forma pred
    <td> Este flujo de trabajo envía el informe de actividad del sistema al operador “facturación” por correo electrónico. De forma predeterminada, se activa el día 25 de cada mes.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Number of active billing profiles</span> <br /> </td> 
+   <td> <span class="uicontrol">Facturación (perfiles activos)</span> <br /> </td> 
    <td> <span class="uicontrol">billingActiveContactCount</span> <br /> </td> 
    <td> <p>Este flujo de trabajo cuenta la cantidad de perfiles activos. Se activa cada noche a la 1 a. m. de forma predeterminada.</p> <p>Un “<strong>perfil</strong>” es un registro de información (por ejemplo, un registro de la tabla nmsRecipient o una tabla externa que contiene una ID de cookie, ID de cliente, ID móvil u otra información relacionada con un canal determinado) que representa a un cliente final, a un cliente potencial o a un contacto. La facturación solo abarca los perfiles que están “activos”. Un perfil se considera “activo” si este ha recibido comunicaciones o mensajes en los últimos 12 meses a través de cualquier canal.</p> <p>Los canales de Facebook y Twitter no se tienen en cuenta.</p> <p>Puede obtener una vista general del <span class="uicontrol">Number of active profiles</span> en el menú <span class="uicontrol">Administration</span> &gt; <span class="uicontrol">Campaign Management</span> &gt; <span class="uicontrol">Customer metrics</span>.</p> </td> 
   </tr> 
@@ -67,8 +67,8 @@ Los flujos de trabajo detallados a continuación están instalados de forma pred
    <td> Este flujo de trabajo implementa las ofertas aprobadas en el entorno en línea, así como todas las categorías incluidas en el catálogo de ofertas.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Preview</span> <br /> </td> 
-   <td> <span class="uicontrol">forecasting</span> <br /> </td> 
+   <td> <span class="uicontrol">Previsión</span> <br /> </td> 
+   <td> <span class="uicontrol">previsión</span> <br /> </td> 
    <td> Este flujo de trabajo analiza las entregas guardados en el calendario provisional (crea registros provisionales). Se activa cada día a la 1 de la mañana de forma predeterminada.<br /> </td> 
   </tr> 
   <tr> 
