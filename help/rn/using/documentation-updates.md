@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
+source-git-commit: b1d75ff748bab08b45c55621b63e7565564e113d
 workflow-type: tm+mt
-source-wordcount: '3668'
-ht-degree: 98%
+source-wordcount: '3729'
+ht-degree: 97%
 
 ---
 
@@ -28,6 +28,12 @@ La sección de supervisión del envío se ha reorganizado en temas temáticos. [
 Se ha agregado un caso de uso sobre cómo agregar las direcciones IP de los remitentes a los registros de envío. [Más información](../../delivery/using/delivery-dashboard.md#use-case)
 
 Las preguntas más frecuentes sobre privacidad se han trasladado a [esta sección](../../platform/using/privacy-faq.md).
+
+Se ha añadido un caso de uso sobre cómo utilizar la funcionalidad Combinar de la actividad de Deduplicación. [Más información](../../workflow/using/deduplication-merge.md)
+
+La página de configuración y protocolo del conector SMS se ha movido [aquí](../../delivery/using/sms-protocol.md).
+
+Se ha agregado una nota a la sección de mensajería Transactional para advertir que las carpetas de evento no deben configurarse como vistas en las instancias de ejecución, a fin de evitar problemas de derechos de acceso. [Más información](../../message-center/using/event-collection.md)
 
 ## Noviembre de 2020 {#nov-2020}
 
