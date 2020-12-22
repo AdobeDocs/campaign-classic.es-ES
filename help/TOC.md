@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
+source-git-commit: c55897a4daf184b886d4e626d9216a4d43581ea1
 workflow-type: tm+mt
-source-wordcount: '2215'
-ht-degree: 99%
+source-wordcount: '2181'
+ht-degree: 98%
 
 ---
 
@@ -114,6 +114,8 @@ ht-degree: 99%
    + Envío de mensajes en móviles {#sending-messages-on-mobiles}
       + [Canal de SMS](delivery/using/sms-channel.md)
       + [Canal LINE](delivery/using/line-channel.md)
+      + [Configuración y protocolo del conector SMS](delivery/using/sms-protocol.md)
+      + [Solución de problemas de SMS](delivery/using/troubleshooting-sms.md)
    + Envío de notificaciones push {#sending-push-notifications}
       + [Acerca del canal de aplicaciones móviles](delivery/using/about-mobile-app-channel.md)
       + [Integración del SDK de Campaign en la aplicación móvil](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
@@ -438,6 +440,8 @@ ht-degree: 99%
          + [Creación de la lista de resumen](workflow/using/creating-a-summary-list.md)
          + [Enriquecimiento de datos](workflow/using/enriching-data.md)
          + [Uso de agregados](workflow/using/using-aggregates.md)
+         + [Uso de la funcionalidad de combinación de la actividad de Deduplicación](workflow/using/deduplication-merge.md)
+      + Diseño de consultas {#designing-queries}
          + [Actualización de lista trimestral con una consulta incremental](workflow/using/quarterly-list-update.md)
       + Segmentación {#designing-queries}
          + [Consulta de la tabla de destinatarios](workflow/using/querying-recipient-table.md)
@@ -461,26 +465,7 @@ ht-degree: 99%
       + [Gestión de imágenes de actividad](workflow/using/managing-activity-images.md)
       + [Gestión de tendencias](workflow/using/managing-propensity.md)
       + [Gestión de zonas horarias](workflow/using/managing-time-zones.md)
-   + Flujos de trabajo técnicos {#technical-workflows}
-      + [Acerca de los flujos de trabajo técnicos](workflow/using/about-technical-workflows.md)
-      + [Entregas](workflow/using/deliveries.md)
-      + [Campaign](workflow/using/campaign.md)
-      + [Web Analytics](workflow/using/web-analytics.md)
-      + [Distributed Marketing](workflow/using/distributed-marketing.md)
-      + [Seguimiento de la capacidad de entrega](workflow/using/email-deliverability.md)
-      + [Renderización de la bandeja de entrada](workflow/using/inbox-rendering.md)
-      + [Interacción](workflow/using/interaction.md)
-      + [Control del motor de oferta](workflow/using/control-of-offer-engine.md)
-      + [Centro de mensajes (Control)](workflow/using/message-center--control-.md)
-      + [Message Center (Execution)](workflow/using/message-center--execution-.md)
-      + [Canal de aplicaciones móviles](workflow/using/mobile-app-channel.md)
-      + [Canal LINE](workflow/using/line-channel.md)
-      + [Recurso de Marketing (MRM)](workflow/using/marketing-resources--mrm-.md)
-      + [Social Marketing](workflow/using/social-marketing.md)
-      + [Integración con las soluciones de Adobe Experience Cloud](workflow/using/integrations-with-adobe-experience-cloud-solutions.md)
-      + [Reglamento de protección de datos de privacidad](workflow/using/general-data-protection-regulation--gdpr-.md)
-      + [Transfer to Mid-sourcing](workflow/using/transfer-to-mid-sourcing.md)
-      + [Mid-sourcing platform](workflow/using/mid-sourcing-platform.md)
+      + [Flujos de trabajo técnicos](workflow/using/about-technical-workflows.md)
 + Administración de ofertas {#managing-offers}
    + Introducción a la interacción{#interaction-overview}
       + [Interacción y gestión de ofertas](interaction/using/interaction-and-offer-management.md)
@@ -619,7 +604,7 @@ ht-degree: 99%
       + [Creación y configuración de la base de datos](installation/using/creating-and-configuring-the-database.md)
       + [Configuración del servidor de Campaign](installation/using/campaign-server-configuration.md)
       + [Implementación de una instancia](installation/using/deploying-an-instance.md)
-      + [Instalación de paquetes estándar de Campaign Classic](installation/using/installing-campaign-standard-packages.md)
+      + [Instalación de paquetes integrados Campaign Classic](installation/using/installing-campaign-standard-packages.md)
    + Configuraciones adicionales {#additional-configurations}
       + [Configuración del servidor de Campaign](installation/using/configuring-campaign-server.md)
       + [Conexión mediante LDAP](installation/using/connecting-through-ldap.md)
