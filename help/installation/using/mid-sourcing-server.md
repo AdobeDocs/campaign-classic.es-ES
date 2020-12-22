@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 0%
@@ -25,7 +25,7 @@ La instalación de un servidor intermediaria sigue el mismo proceso que la insta
 
 >[!CAUTION]
 >
->Una vez configurado el servidor intermediaria y ejecutados los [flujos de trabajo de sincronización](../../workflow/using/transfer-to-mid-sourcing.md) por primera vez, asegúrese de no actualizar el nombre interno de las cuentas externas intermediaria.
+>Una vez configurado el servidor intermediaria y ejecutados los [flujos de trabajo de sincronización](../../workflow/using/about-technical-workflows.md) por primera vez, asegúrese de no actualizar el nombre interno de las cuentas externas intermediaria.
 
 ## Pasos para instalar y configurar una instancia {#steps-for-installing-and-configuring-an-instance}
 
