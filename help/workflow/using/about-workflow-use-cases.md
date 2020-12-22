@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: about-workflows-and-data-management
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '195'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe7ff64d24113e026a47aa1c9f08daacce2b383e
+workflow-type: tm+mt
+source-wordcount: '201'
+ht-degree: 97%
 
 ---
 
@@ -55,6 +55,7 @@ Le ayudarán a descubrir los diferentes contextos en los que se pueden utilizar 
 * [Importación de datos cifrados con una clave generada por el Panel de control de Campaign](../../workflow/using/importing-data.md#use-case-gpg-decrypt)
 * [Codificación y exportación de datos con una clave instalada en el Panel de control de Campaign](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
 * [Actualización de lista trimestral con una consulta incremental](../../workflow/using/quarterly-list-update.md)
+* [Uso de la funcionalidad de combinación de la actividad de Deduplicación](../../workflow/using/deduplication-merge.md)
 
 ## Segmentación {#designing-queries}
 
