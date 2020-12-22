@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 13%
@@ -32,7 +32,7 @@ En algunos casos, los flujos de trabajo ejecutados desde una campaña no tienen 
 
 Puede haber varias causas para este problema, siga los pasos a continuación para solucionarlo:
 
-1. Compruebe el estado del [**[!UICONTROL operationMgt]**](../../workflow/using/campaign.md) flujo de trabajo técnico. Este flujo de trabajo administra trabajos o flujos de trabajo dentro de una campaña. Si falla, esto resultará en flujos de trabajo de no inicio o parada. Reinícielo para reanudar la ejecución de flujos de trabajo de la campaña.
+1. Compruebe el estado del [**[!UICONTROL operationMgt]**](../../workflow/using/about-technical-workflows.md) flujo de trabajo técnico. Este flujo de trabajo administra trabajos o flujos de trabajo dentro de una campaña. Si falla, esto resultará en flujos de trabajo de no inicio o parada. Reinícielo para reanudar la ejecución de flujos de trabajo de la campaña.
 
    Para obtener más información sobre la supervisión de flujos de trabajo técnicos, consulte [esta página](../../workflow/using/monitoring-technical-workflows.md).
 
@@ -97,7 +97,7 @@ Para comprobar esto e iniciar el módulo si es necesario, aplique los siguientes
    [...]
    ```
 
-   Para obtener más información sobre cómo supervisar los módulos, consulte [esta sección](../../production/using/usual-commands.md#monitoring-commands-).
+   For more on how to monitor modules, refer to [this section](../../production/using/usual-commands.md#monitoring-commands-).
 
 1. Si el módulo no se está ejecutando, póngase en contacto con el Servicio de atención al cliente de Adobe. Si tiene una instalación local, un administrador debe reiniciarla mediante el comando siguiente.
 
@@ -117,5 +117,5 @@ Para comprobar esto e iniciar el módulo si es necesario, aplique los siguientes
 Si se produce un error en un flujo de trabajo, realice los siguientes pasos:
 
 1. Compruebe el historial del flujo de trabajo. Para obtener más información sobre esto, consulte las secciones [Supervisión de la ejecución del flujo de trabajo](../../workflow/using/monitoring-workflow-execution.md) y [Visualización de registros](../../workflow/using/monitoring-workflow-execution.md#displaying-logs).
-1. Monitorear flujos de trabajo técnicos. Para obtener más información sobre esto, consulte la [sección](../../workflow/using/monitoring-technical-workflows.md).
+1. Monitorear flujos de trabajo técnicos. For more on this refer to the [this section](../../workflow/using/monitoring-technical-workflows.md).
 1. Busque errores en las actividades de flujo de trabajo individuales.
