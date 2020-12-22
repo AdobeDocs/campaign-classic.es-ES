@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: 647a872d71d19802d7334a6e8f881f8d7ad94d13
+source-git-commit: d1130691e40c0cac183db37a4c0b410d00bb696a
 workflow-type: tm+mt
-source-wordcount: '2950'
-ht-degree: 99%
+source-wordcount: '2984'
+ht-degree: 98%
 
 ---
 
@@ -451,3 +451,7 @@ En el ejemplo siguiente, se muestra cómo crear nuevas carpetas para mostrar dat
 Las siguientes entregas se muestran en la vista:
 
 ![](assets/s_ncs_user_add_folder_exple02.png)
+
+>[!NOTE]
+>
+>Al administrar eventos [de mensajería transaccional](../../message-center/using/about-transactional-messaging.md), las carpetas **[!UICONTROL Real time events]** o **[!UICONTROL Batch events]** no deben configurarse como vistas en las instancias de ejecución, ya que esto podría generar problemas de derechos de acceso. Para obtener más información sobre la colección de eventos, consulte [esta sección](../../message-center/using/event-collection.md).
