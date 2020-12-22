@@ -6,9 +6,9 @@ description: Flujos de trabajo técnicos
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d1130691e40c0cac183db37a4c0b410d00bb696a
+workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 100%
 
@@ -51,4 +51,3 @@ En la instancia de ejecución, se puede acceder a los flujos de trabajo técnico
    * **[!UICONTROL Ignored by the delivery]** : este estado se copia desde los registros de envío. Significa que la entrega se ha omitido.
    * **[!UICONTROL Delivery failed]** : este estado se copia desde los registros de envío. Significa que la entrega ha fallado.
    * **[!UICONTROL Event not taken into account]**: el evento no se ha podido relacionar con una plantilla de mensaje. El evento no se va a procesar.
-
