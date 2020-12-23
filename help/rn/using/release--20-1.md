@@ -7,15 +7,29 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: cf4dbb59f7fb2df31ec3e034bb687e9a070c63bc
+source-git-commit: d7c590333b03b2448d37e58e194f3b9d1383fbb7
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 99%
+source-wordcount: '1403'
+ht-degree: 95%
 
 ---
 
 
 # Versión 20.1{#release-20-1}
+
+## ![](assets/do-not-localize/limited_2.png) Versión 20.1.4: compilación 9126 {#release-20-1-4-build-9126}
+
+_23 de diciembre de 2020_
+
+>[!CAUTION]
+>
+>Esta versión incorpora un nuevo protocolo de conexión:  la actualización es obligatoria para que el servidor de Campaña y la consola del cliente puedan conectarse a Campaña después del 21 de marzo de 2020
+
+* El protocolo de conexión se ha actualizado para seguir el nuevo mecanismo de autenticación IMS.
+* Se ha corregido un problema de seguridad que reforzaba la protección contra los problemas de falsificación de solicitudes del lado del servidor (SSRF). (NEO-27777)
+
+
+
 
 ## ![](assets/do-not-localize/red_2.png) Versión 20.1.3: compilación 9124{#release-20-1-3-build-9124}
 
