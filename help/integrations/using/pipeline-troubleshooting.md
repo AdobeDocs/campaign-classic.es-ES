@@ -6,11 +6,11 @@ description: Configuración de la integración
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
+workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 La versión de Adobe Campaign Classic no admite la canalización.
 
 1. Compruebe si el [!DNL pipelined] elemento está presente en el archivo de configuración. Si no, significa que no es compatible.
-1. Actualice a la versión 6.11 compilación 8705 o posterior.
+1. Actualice a Campaña 20.3 o Gold Standard 11.
 
 **La canalización produce el error &#39;&#39; aurait dû commencer par `[` ou `{` (iRc=16384)&quot;**
 
@@ -31,7 +31,7 @@ Establezca la configuración JSON en la opción **NmsPipeline_Config**. Consulte
 
 **La canalización produce el error &quot;el sujeto debe ser una organización o cliente válido&quot;**
 
-La configuración de IMSOrgid no es válida.
+La configuración del identificador de organización no es válida.
 
 1. Compruebe que IMSOrgId esté establecido en serverConf.xml.
 1. Busque un IMSOrgId vacío en el archivo de configuración de instancia que pueda anular el valor predeterminado. Si es así, elimínelo.
@@ -85,4 +85,3 @@ Generalmente, un activador puede tardar entre 15 y 90 minutos en iniciar una cam
 1. Busque errores en pipelined.log que puedan causar reintentos. Corrija los errores, si corresponde.
 1. Compruebe el tamaño de la cola en la página [!DNL pipelined] de estado. Si el tamaño de la cola es grande, mejore el rendimiento del JS.
 1. Dado que un retraso parece aumentar con el volumen, configure los activadores en Analytics con menos mensajes.
-Anexos
