@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 787beef89325340cc1d46faa03e9cfae7f1c705c
+source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
 workflow-type: tm+mt
-source-wordcount: '1852'
-ht-degree: 98%
+source-wordcount: '1875'
+ht-degree: 97%
 
 ---
 
@@ -65,6 +65,10 @@ _27 de octubre de 2020_
 </tbody> 
 </table>
 
+>[!CAUTION]
+>
+>Esta versión incorpora un nuevo protocolo de conexión: la actualización es obligatoria tanto para el servidor de Campaña como para la consola de cliente para poder conectarse a Campaña después del 21 de marzo de 2021.
+
 **Mejoras de seguridad**
 
 * Carga segura de bibliotecas: para protegerse de los ataques de precarga de DLL, Campaign ahora carga las DLL de Windows únicamente desde la ruta de acceso predeterminada de la DLL del sistema de Windows al cargar el cliente de Campaign (nlclient). [Más información](https://support.microsoft.com/en-us/help/2389418/secure-loading-of-libraries-to-prevent-dll-preloading-attacks) (NEO-24147)
@@ -103,11 +107,7 @@ Obtenga más información en la página [Funciones obsoletas y eliminadas](../..
 **Mejoras**
 
 * Se han realizado varias mejoras en la **consola de Cliente**:
-   * El protocolo de conexión se ha actualizado para seguir el nuevo mecanismo de autenticación IMS.
-
-      >[!CAUTION]
-      >
-      >Tras la actualización del protocolo de conexión, la actualización es obligatoria (servidor y consola) para poder conectarse a partir del 21 de marzo de 2020.
+   * El protocolo de conexión se ha actualizado para seguir el nuevo mecanismo de autenticación IMS. La actualización del servidor y la consola de cliente es obligatoria para poder conectarse después del 21 de marzo de 2021.
    * Para evitar incompatibilidades con algunas restricciones de las reglas GPO de seguridad de internet, la pantalla de inicio de sesión de la consola de cliente de Campaign se ha sustituido por un formulario estándar integrado de Windows.
    * Se ha corregido un problema que se producía al copiar/pegar actividades en un flujo de trabajo con la consola de cliente de 64 bits. (NEO-27635)
 
