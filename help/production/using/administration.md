@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 9c78d8f469bade41717eb854e8cec00859c1d4e3
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 1%
@@ -75,23 +75,23 @@ Esta es una lista de los comandos de administración habituales accesibles en Li
    **nlserver reinicie web**
 
    >[!NOTE]
-   > 
-   >    * Si no se especifica la instancia, se utilizará la instancia &quot;predeterminada&quot;.
-   >    * En el evento de una emergencia, utilice la opción **-inmediata** para forzar una parada inmediata del proceso (equivalente al comando Unix **kill -9**).
-   >    * Utilice la opción **-noconsole** para asegurarse de que el módulo iniciado no muestre nada en la consola. Sus registros se escribirán en el disco mediante el módulo **syslogd**.
-   >    * Utilice la opción **-verbose** para mostrar información adicional sobre las acciones del proceso.
+   >
+   >* Si no se especifica la instancia, se utilizará la instancia &quot;predeterminada&quot;.
+   >* En el evento de una emergencia, utilice la opción **-inmediata** para forzar una parada inmediata del proceso (equivalente al comando Unix **kill -9**).
+   >* Utilice la opción **-noconsole** para asegurarse de que el módulo iniciado no muestre nada en la consola. Sus registros se escribirán en el disco mediante el módulo **syslogd**.
+   >* Utilice la opción **-verbose** para mostrar información adicional sobre las acciones del proceso.
 
-      >    
-      >      
+      >
+      >   
       Ejemplo:
-      >    
-      >      
+      >
+      >   
       **nlserver Restart web -verbose**
-      >    
-      >      
+      >
+      >   
       **nlserver inicio mta@myinstance -verbose**
-      >    
-      >      
+      >
+      >   
       Esta opción agrega registros adicionales. Recomendamos volver a iniciar los procesos sin la opción **-verbose** una vez que haya encontrado la información deseada, para evitar la sobrecarga de registros.
 
 
