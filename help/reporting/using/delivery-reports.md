@@ -6,11 +6,11 @@ description: Informes de entrega
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1443'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -124,7 +124,7 @@ Este informe muestra la lista de páginas visitadas después de una entrega.
 
 ![](assets/s_ncs_user_url_report.png)
 
-Puede configurar el contenido de este informe seleccionando: el gráfico de puntuación que se va a mostrar, el filtro de tiempo (desde el inicio de la acción, durante las primeras 6 horas después del inicio, etc.) y el modo de visualización de datos (por etiqueta, por dirección URL, por categoría). Haga clic en **[!UICONTROL Refresh]** para confirmar la selección.
+Se puede configurar el contenido de este informe seleccionando el gráfico de puntuación que se desea mostrar, el filtro de tiempo (desde el inicio de la acción hasta las 6 horas siguientes al lanzamiento, etc.) y el modo de visualización de datos (por etiqueta, por dirección URL, por categoría). Haga clic en **[!UICONTROL Refresh]** para confirmar la selección.
 
 Las siguientes tasas se muestran en la sección superior del informe:
 
