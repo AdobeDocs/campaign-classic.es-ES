@@ -1,28 +1,28 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Prácticas recomendadas de rendimiento de envío
-description: Obtenga más información sobre el rendimiento de los envíos y las prácticas recomendadas.
+title: Prácticas recomendadas sobre el rendimiento de las entregas
+description: Obtenga más información sobre el rendimiento de las entregas y las prácticas recomendadas.
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5b43412286762977c416665d296908a9bfc9b20a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '452'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
-# Prácticas recomendadas de rendimiento de envío {#delivery-performances}
+# Prácticas recomendadas sobre el rendimiento de las entregas {#delivery-performances}
 
-Recomendamos seguir las directrices que se indican a continuación para garantizar que sus envíos funcionan bien, así como las comprobaciones que se realizan en caso de que surjan problemas con los envíos.
+Recomendamos seguir las directrices que se indican a continuación para garantizar que sus entregas, así como las comprobaciones que se realizan en caso de que surjan problemas con estas, se llevan a cabo correctamente.
 
 **Temas relacionados:**
 
 * [Panel de entregas](../../delivery/using/delivery-dashboard.md)
-* [Solución de problemas de envío](../../delivery/using/delivery-troubleshooting.md)
+* [Solución de problemas de entregas](../../delivery/using/delivery-troubleshooting.md)
 * [Acerca de la capacidad de la entrega](../../delivery/using/about-deliverability.md)
 
 ## Prácticas recomendadas para el rendimiento {#best-practices-performance}
