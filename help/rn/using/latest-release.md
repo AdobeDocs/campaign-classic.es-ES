@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Última versión
-description: Última versión de Campaign Classic    Notas
+description: Última versión de Campaign Classic     Notas
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
 workflow-type: tm+mt
 source-wordcount: '1875'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -67,7 +67,7 @@ _27 de octubre de 2020_
 
 >[!CAUTION]
 >
->Esta versión incorpora un nuevo protocolo de conexión: la actualización es obligatoria tanto para el servidor de Campaña como para la consola de cliente para poder conectarse a Campaña después del 21 de marzo de 2021.
+>Esta versión incorpora un nuevo protocolo de conexión: la actualización es obligatoria para que el servidor de Campaign y la consola del cliente puedan conectarse a Campaign después del 21 de marzo de 2021.
 
 **Mejoras de seguridad**
 
