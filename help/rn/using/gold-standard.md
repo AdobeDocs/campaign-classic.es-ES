@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ _22 de diciembre de 2020_
 
 >[!CAUTION]
 >
->Esta versión incorpora un nuevo protocolo de conexión: la actualización es obligatoria tanto para el servidor de Campaña como para la consola de cliente para poder conectarse a Campaña después del 21 de marzo de 2021.
+>Esta versión incorpora un nuevo protocolo de conexión: la actualización es obligatoria para que el servidor de Campaign y la consola del cliente puedan conectarse a Campaign después del 21 de marzo de 2021.
 
 La versión 9032@2a2a028 incluye las siguientes mejoras y correcciones:
 
@@ -41,7 +41,7 @@ La versión 9032@2a2a028 incluye las siguientes mejoras y correcciones:
 
 * Después de finalizar la compatibilidad con el protocolo binario heredado de APN de iOS, todas las instancias que utilizan este protocolo se actualizan al protocolo HTTP/2 durante la postactualización.
 
-* Se ha corregido un problema de seguridad que reforzaba la protección contra los problemas de falsificación de solicitudes del lado del servidor (SSRF). (NEO-27777)
+* Se ha corregido un problema de seguridad para reforzar la protección contra los problemas de falsificación de solicitudes del lado del servidor (SSRF). (NEO-27777)
 
 
 
