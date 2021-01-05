@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
 workflow-type: tm+mt
 source-wordcount: '1403'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,10 +23,10 @@ _23 de diciembre de 2020_
 
 >[!CAUTION]
 >
->Esta versión incorpora un nuevo protocolo de conexión:  la actualización es obligatoria tanto para el servidor de Campaña como para la consola de cliente para poder conectarse a Campaña después del 21 de marzo de 2021.
+>Esta versión incorpora un nuevo protocolo de conexión: la actualización es obligatoria para que el servidor de Campaign y la consola del cliente puedan conectarse a Campaign después del 21 de marzo de 2021.
 
 * El protocolo de conexión se ha actualizado para seguir el nuevo mecanismo de autenticación IMS.
-* Se ha corregido un problema de seguridad que reforzaba la protección contra los problemas de falsificación de solicitudes del lado del servidor (SSRF). (NEO-27777)
+* Se ha corregido un problema de seguridad para reforzar la protección contra los problemas de falsificación de solicitudes del lado del servidor (SSRF). (NEO-27777)
 
 
 
@@ -58,7 +58,7 @@ _lunes, 17 de febrero de 2020_
  <tbody> 
   <tr> 
    <td> <p>Snowflake es un almacén de datos en la nube completamente gestionado, diseñado para escalar tanto en almacenamiento como en computación. Con este nuevo conector, Adobe Campaign ahora puede aprovechar el poder de Snowflake para realizar la segmentación de Big Data. Este conector está disponible para todos los clientes, incluido Adobe.</p>
-    <p>Para obtener más información, consulte la <a href="../../installation/using/configure-fda-snowflake.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">videotutorial</a>.</p>
+    <p>Para obtener más información, consulte la <a href="../../installation/using/configure-fda-snowflake.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/es/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">videotutorial</a>.</p>
    </td> 
   </tr> 
  </tbody> 
