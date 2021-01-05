@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 3%
@@ -21,11 +21,13 @@ Para los servidores con gran carga, puede que se supere el umbral de conexión. 
 
 Existen tres umbrales diferentes:
 
-1. El umbral de conexión Web, configurado en el servidor Web. Para modificarlo, póngase en contacto con el administrador del sistema.
-1. Umbral de conexión de base de datos. Para modificarla, póngase en contacto con el administrador de la base de datos.
-1. El umbral de conexión de Adobe Campaign, disponible en dos lugares:
+* El **umbral de conexión Web**, configurado en el servidor Web. Para modificarlo, póngase en contacto con el administrador del sistema.
 
-   * Lado de Tomcat: todas las consultas que llegan en realidad al cliente Adobe Campaign Tomcat.
+* El **umbral de conexión de base de datos**. Para modificarla, póngase en contacto con el administrador de la base de datos.
+
+* El **umbral de conexión de Adobe Campaign**, disponible en dos lugares:
+
+   * **** Tomcatside: todas las consultas que llegan en realidad al cliente Adobe Campaign Tomcat.
 
       Este umbral se configura en el archivo **nl6/tomcat-8/conf/server.xml**. El atributo **maxThwords** permite aumentar el umbral del número de consultas procesadas a la vez. Se puede cambiar a 250, por ejemplo.
 
@@ -41,7 +43,7 @@ Existen tres umbrales diferentes:
                   unpackWARs="true" autoDeploy="true">
       ```
 
-   * Base de datos: conjunto de todas las conexiones abiertas al mismo tiempo en la base de datos mediante un proceso.
+   * **Base de datos**: conjunto de todas las conexiones abiertas al mismo tiempo en la base de datos mediante un proceso.
 
       Este umbral se configura en el archivo **nl6/conf/serverConf.xml**. El atributo **maxCnx** ubicado en **grupo de orígenes de datos** permite aumentar el umbral de consultas procesadas simultáneamente.
 
