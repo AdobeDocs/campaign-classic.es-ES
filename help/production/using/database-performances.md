@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 8%
@@ -15,14 +15,14 @@ ht-degree: 8%
 ---
 
 
-# Rendimientos de la base de datos{#database-performances}
+# Rendimiento de la base de datos{#database-performances}
 
 La mayoría de los problemas de rendimiento están vinculados al mantenimiento de la base de datos. Estos son cuatro leads principales que le ayudarán a encontrar la causa del rendimiento lento:
 
-* Configuración,
-* Instalación y configuración de la plataforma Adobe Campaign,
-* Mantenimiento de la base de datos,
-* Diagnóstico en tiempo real.
+* Configuración
+* Instalación y configuración de la plataforma Adobe Campaign
+* Mantenimiento de la base de datos
+* Diagnóstico en tiempo real
 
 ## Configuración {#configuration}
 
