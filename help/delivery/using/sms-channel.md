@@ -6,9 +6,9 @@ description: Canal de SMS
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3149'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ Para realizar esto, siga los pasos a continuación:
 
    Sin embargo, dado que determinados proveedores requieren el uso del prefijo “+”. se recomienda que se ponga en contacto con su proveedor y que este le recomiende si es necesario activar esta opción.
 
-   La casilla de verificación **[!UICONTROL Enable TLS over SMPP]** permite cifrar el tráfico de SMPP. Para obtener más información, consulte este [artículo técnico](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
+   La casilla de verificación **[!UICONTROL Enable TLS over SMPP]** permite cifrar el tráfico de SMPP. Para obtener más información, consulte este [artículo técnico](https://helpx.adobe.com/es/campaign/kb/sms-connector-protocol-and-settings.html).
 
 1. Si está configurando un conector **[!UICONTROL Extended generic SMPP]**, puede configurar respuestas automáticas.
 
