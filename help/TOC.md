@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: c55897a4daf184b886d4e626d9216a4d43581ea1
+source-git-commit: 404ff67207f8c126e44736fe565cf57afcc6397e
 workflow-type: tm+mt
-source-wordcount: '2181'
-ht-degree: 99%
+source-wordcount: '2202'
+ht-degree: 98%
 
 ---
 
@@ -669,23 +669,31 @@ ht-degree: 99%
       + [Tipos de mantenimiento](production/using/types-of-maintenance.md)
       + [Recomendaciones específicas de RDBMS](production/using/rdbms-specific-recommendations.md)
       + [Objetos de aplicación](production/using/application-objects.md)
-   + Resolución de problemas {#troubleshooting}
-      + [Problemas de rendimiento y producción](production/using/performance-and-throughput-issues.md)
-      + [Falta de imágenes](production/using/images-missing.md)
-      + [Problemas de visualización de imágenes](production/using/image-display-issues.md)
-      + [Archivos temporales](production/using/temporary-files.md)
-      + [Rendimientos de la base de datos](production/using/database-performances.md)
-      + [Módulos y problemas frecuentes](production/using/modules-and-frequent-issues.md)
-      + [Precisión de registro](production/using/log-precision.md)
-      + [Problemas de registro de seguimiento](production/using/tracking-logs-issues.md)
-      + [Ejecución del flujo de trabajo](production/using/workflow-execution.md)
-      + [Error de conexión](production/using/failure-to-connect.md)
-      + [Umbrales de conexión](production/using/connection-thresholds.md)
-      + [Seguimiento de pila en Linux](production/using/stack-trace-in-linux.md)
-      + [Codificación de la base de datos Oracle](production/using/encoding-of-the-oracle-database.md)
-      + [Actualización de la consola](production/using/console-update.md)
-      + [Contraseña perdida](production/using/lost-password.md)
-      + [Comportamiento de JSP](production/using/jsp-behavior.md)
+   + Resolución de problemas {#troubleshooting-toc}
+      + [Production troubleshooting overview](production/using/troubleshooting.md)
+      + Problemas comunes y generales {#common-general-issues-toc}
+         + [Módulos y problemas frecuentes](production/using/modules-and-frequent-issues.md)
+         + [Ejecución del flujo de trabajo](production/using/workflow-execution.md)
+         + [Contraseña perdida](production/using/lost-password.md)
+         + [Actualización de la consola](production/using/console-update.md)
+      + Solución de problemas de envío {#delivery-troubleshooting-toc}
+         + [Problemas de rendimiento y producción](production/using/performance-and-throughput-issues.md)
+         + [Problemas de visualización de imágenes](production/using/image-display-issues.md)
+         + [Falta de imágenes](production/using/images-missing.md)
+         + [Archivos temporales](production/using/temporary-files.md)
+      + Uso de registros {#working-with-log-toc}
+         + [Precisión de registro](production/using/log-precision.md)
+         + [Problemas de registro de seguimiento](production/using/tracking-logs-issues.md)
+      + Problemas con la base de datos {#database-issues-toc}
+         + [Rendimiento de la base de datos](production/using/database-performances.md)
+         + [Codificación de la base de datos Oracle](production/using/encoding-of-the-oracle-database.md)
+      + Mejoras de conexión {#connection-improvements-toc}
+         + [Error de conexión](production/using/failure-to-connect.md)
+         + [Umbrales de conexión](production/using/connection-thresholds.md)
+      + Solución de problemas técnicos {#technical-troubleshooting-toc}
+         + [Seguimiento de pila en Linux](production/using/stack-trace-in-linux.md)
+         + [Comportamiento de JSP](production/using/jsp-behavior.md)
+         + [Localización de la versión de Tomcat](production/using/locate-tomcat-version.md)
 + Guía para desarrolladores {#configuring-campaign-classic}
    + Modelo de datos {#data-model}
       + [Acerca del modelo de datos](configuration/using/about-data-model.md)
