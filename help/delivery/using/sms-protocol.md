@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 8f45fcc57062e6f13bc674c72f53788483de93fb
+source-git-commit: 09a79330e1ff951898d1559d5765818c12dc497a
 workflow-type: tm+mt
-source-wordcount: '8399'
+source-wordcount: '8424'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # Protocolo y configuración del conector SMS {#sms-connector-protocol}
 
 >[!NOTE]
+>
+>El protocolo de conector **SMS y la configuración** para Adobe Campaign Standard se encuentran en esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-sms/sms-protocol.html#administrating).
 >
 >A través de este documento, todas las referencias a los detalles sobre el protocolo, los nombres de campo y los valores se refieren a la especificación [SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
@@ -138,11 +140,11 @@ Campos notables en un `BIND_* PDU`:
 
 * **password**: Contraseña utilizada para la autenticación. Se configura en la cuenta externa.
 
-* **system_type**: Required to be set at a specific value for some providers. Se configura en la cuenta externa, disponible en todas las versiones. A menudo distingue entre diferentes tipos de contratos, canales, países, etc.
+* **system_type**: Necesario para establecerse en un valor específico para algunos proveedores. Se configura en la cuenta externa, disponible en todas las versiones. A menudo distingue entre diferentes tipos de contratos, canales, países, etc.
 
 * **addr_** tonand  **addr_npi**: Requerido por algunos proveedores. Establecida por la configuración `Bind TON` y `Bind NPI` en la cuenta externa.
 
-* **address_range**: Required by some providers. La mayoría de las veces, esta es una lista de códigos abreviados permitidos en esta conexión. Se configura en la cuenta externa.
+* **address_range**: Requerido por algunos proveedores. La mayoría de las veces, esta es una lista de códigos abreviados permitidos en esta conexión. Se configura en la cuenta externa.
 
 `BIND_*_RESP` no tiene un campo específico, confirma si la conexión se realizó correctamente o no.
 
@@ -160,7 +162,7 @@ Campos notables en una PDU `SUBMIT_SM`:
 
 * **service_type**: requerido por algunos proveedores. Se establece en las propiedades de envío.
 
-* **source_addr_ton** and  **source_addr_npi**: indicates what kind of source address is transmitted. El significado de estos campos está estandarizado, pero dado que algunos proveedores lo utilizan de manera diferente, debe solicitar al proveedor su valor correcto. Se configura en la cuenta externa.
+* **source_addr_** tonand  **source_addr_npi**: indica qué tipo de dirección de origen se transmite. El significado de estos campos está estandarizado, pero dado que algunos proveedores lo utilizan de manera diferente, debe solicitar al proveedor su valor correcto. Se configura en la cuenta externa.
 
 * **source_addr**: la dirección de origen / oADC del MT. Se mostrará en el teléfono móvil. Establecido en la cuenta externa y el envío, el valor del envío tiene prioridad sobre el valor de la cuenta externa.
 
@@ -176,15 +178,15 @@ Campos notables en una PDU `SUBMIT_SM`:
 
 * **register_envío**: indica si se solicita o no un SR. Adobe Campaign siempre establece este indicador excepto para las respuestas automáticas. Para los mensajes de varias partes, el indicador solo se establece para la primera parte. Todas las versiones tienen el mismo comportamiento.
 
-* **data_coding**: indicates the encoding used in the text field. Consulte la sección [Codificación de texto SMS](../../delivery/using/sms-protocol.md#sms-text-encoding) para obtener más información.
+* **data_coding**: indica la codificación utilizada en el campo de texto. Consulte la sección [Codificación de texto SMS](../../delivery/using/sms-protocol.md#sms-text-encoding) para obtener más información.
 
 * **short_message**: el texto del mensaje. Si se utiliza UDH, también contiene el encabezado UHD.
 
 Adobe Campaign admite estos campos opcionales:
 
-* **dest_addr_subunit**: used to specify the target of the SMS: flash, mobile or SIM card. Se establece en las propiedades de envío.
+* **dest_addr_subunit**: utilizado para especificar el destinatario del SMS: flash, móvil o tarjeta SIM. Se establece en las propiedades de envío.
 
-* **message_payload**: when enabled in the external account, long messages will be sent in a single PDU and the text will be transmitted in this field rather than the  `short_message` field.
+* **message_payload**: cuando se habilita en la cuenta externa, los mensajes largos se envían en una sola PDU y el texto se transmite en este campo en lugar de en el  `short_message` campo.
 
 #### SUBMIT_SM_RESP {#submit-sm-resp}
 
