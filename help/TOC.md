@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: c55897a4daf184b886d4e626d9216a4d43581ea1
 workflow-type: tm+mt
 source-wordcount: '2181'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -92,14 +92,14 @@ ht-degree: 98%
    + [Introducción a los mensajes](delivery/using/communication-channels.md)
    + Prácticas recomendadas relacionadas con las entregas {#delivery-bestpractices}
       + [Conozca las prácticas recomendadas](delivery/using/delivery-best-practices.md)
-      + [Optimización del envío](delivery/using/optimize-delivery.md)
+      + [Optimización de las entregas](delivery/using/optimize-delivery.md)
       + [Uso de plantillas](delivery/using/use-templates.md)
       + [Creación de contenido personalizado](delivery/using/design-and-personalize.md)
       + [Definición de la audiencia correcta](delivery/using/define-the-right-audience.md)
       + [Comprobación antes de enviar](delivery/using/check-before-sending.md)
       + [Seguimiento y monitorización](delivery/using/track-and-monitor.md)
    + Pasos clave al crear una entrega {#key-steps-when-creating-a-delivery}
-      + [Introducción a envíos](delivery/using/steps-about-delivery-creation-steps.md)
+      + [Introducción a entregas](delivery/using/steps-about-delivery-creation-steps.md)
       + [Creación e identificación de la entrega](delivery/using/steps-create-and-identify-the-delivery.md)
       + [Definición de la población objetivo](delivery/using/steps-defining-the-target-population.md)
       + [Validación de la entrega](delivery/using/steps-validating-the-delivery.md)
@@ -132,7 +132,7 @@ ht-degree: 98%
       + [Validación](delivery/using/validating.md)
    + Uso de plantillas de entrega {#using-delivery-templates}
       + [Acerca de las plantillas](delivery/using/about-templates.md)
-      + [Creación de una plantilla de envíos](delivery/using/creating-a-delivery-template.md)
+      + [Creación de una plantilla de entrega](delivery/using/creating-a-delivery-template.md)
       + [Selección de una asignación de destino](delivery/using/selecting-a-target-mapping.md)
       + [Creación de una entrega a partir de una plantilla](delivery/using/creating-a-delivery-from-a-template.md)
    + Personalización de entregas {#personalizing-deliveries}
@@ -155,11 +155,11 @@ ht-degree: 98%
       + [Administración de suscripciones](delivery/using/managing-subscriptions.md)
       + [Marketing viral y social](delivery/using/viral-and-social-marketing.md)
    + Seguimiento de entregas {#monitoring-deliveries}
-      + [Introducción a la supervisión de envíos](delivery/using/about-delivery-monitoring.md)
-      + [Acceso a la lista de envíos](delivery/using/list-of-deliveries.md)
+      + [Introducción a la monitorización de entregas](delivery/using/about-delivery-monitoring.md)
+      + [Acceso a la lista de entregas](delivery/using/list-of-deliveries.md)
       + [Panel de entregas](delivery/using/delivery-dashboard.md)
-      + [Prácticas recomendadas de rendimiento de envío](delivery/using/delivery-performances.md)
-      + [Solución de problemas de envío](delivery/using/delivery-troubleshooting.md)
+      + [Prácticas recomendadas sobre el rendimiento de las entregas](delivery/using/delivery-performances.md)
+      + [Solución de problemas de entrega](delivery/using/delivery-troubleshooting.md)
       + [Estados de entrega](delivery/using/delivery-statuses.md)
       + [Comprensión de los errores de entrega](delivery/using/understanding-delivery-failures.md)
       + [Comprensión de la gestión de la cuarentena](delivery/using/understanding-quarantine-management.md)
@@ -702,14 +702,14 @@ ht-degree: 98%
          + [Condición](configuration/using/schema/condition.md)
          + [Índice de base de datos](configuration/using/schema/db-index.md)
          + [Elemento](configuration/using/schema/element.md)
-         + [Lista desglosada](configuration/using/schema/enumeration.md)
+         + [Enumeración](configuration/using/schema/enumeration.md)
          + Ayuda de [](configuration/using/schema/help.md)
          + [Unirse](configuration/using/schema/join.md)
          + [Clave](configuration/using/schema/key.md)
          + [Campo clave](configuration/using/schema/keyfield.md)
          + [Método](configuration/using/schema/method.md)
          + [Métodos](configuration/using/schema/methods.md)
-         + [Param](configuration/using/schema/param.md)
+         + [Parám.](configuration/using/schema/param.md)
          + [Parámetros](configuration/using/schema/parameters.md)
          + [SrcSchema](configuration/using/schema/srcschema.md)
          + [Sysfilter](configuration/using/schema/sysfilter.md)
