@@ -6,11 +6,11 @@ description: AND-join
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '172'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3eecc16442a11849c12819cf83392f60c5b82a13
+workflow-type: tm+mt
+source-wordcount: '190'
+ht-degree: 90%
 
 ---
 
@@ -22,6 +22,10 @@ Una unión activa su transición saliente solo cuando se activan todas las trans
 Por ejemplo, puede utilizar una actividad AND-join en el contexto de la creación de contenido y la automatización de entrega de envíos para asegurarse de que un envío se inicie solo cuando se hayan completado los pasos de consultas de destinatario y actualizaciones de contenido. Hay un caso de uso específico en [esta sección](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content).
 
 ![](assets/and-join-usage.png)
+
+>[!NOTE]
+>
+>Tenga en cuenta que las transiciones entrantes configuradas con diferentes dimensiones de segmentación no se pueden unir mediante una actividad **[!UICONTROL AND-join]**.
 
 La población enviada de la actividad se determina seleccionando un conjunto principal entre las transiciones entrantes de la actividad.
 
