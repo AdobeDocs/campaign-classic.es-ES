@@ -6,11 +6,11 @@ description: Descubra más información sobre cómo configurar la canalización
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '909'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
