@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: b1d75ff748bab08b45c55621b63e7565564e113d
 workflow-type: tm+mt
 source-wordcount: '3729'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -23,11 +23,11 @@ También puede consultar las [Notas de la versión de Adobe Campaign Classic](..
 
 ## Diciembre de 2020 {#dec-2020}
 
-La sección de supervisión del envío se ha reorganizado en temas temáticos. [Más información](../../delivery/using/about-delivery-monitoring.md)
+La sección de monitorización de entregas se ha reorganizado por temas. [Más información](../../delivery/using/about-delivery-monitoring.md)
 
-Se ha agregado un caso de uso sobre cómo agregar las direcciones IP de los remitentes a los registros de envío. [Más información](../../delivery/using/delivery-dashboard.md#use-case)
+Se ha agregado un caso de uso sobre cómo agregar las direcciones IP de los remitentes a los registros de entrega. [Más información](../../delivery/using/delivery-dashboard.md#use-case)
 
-Las preguntas más frecuentes sobre privacidad se han trasladado a [esta sección](../../platform/using/privacy-faq.md).
+Las preguntas frecuentes sobre privacidad se han trasladado a [esta sección](../../platform/using/privacy-faq.md).
 
 Se ha añadido un caso de uso sobre cómo utilizar la funcionalidad Combinar de la actividad de Deduplicación. [Más información](../../workflow/using/deduplication-merge.md)
 
