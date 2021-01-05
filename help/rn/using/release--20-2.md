@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
 workflow-type: tm+mt
 source-wordcount: '2483'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -25,18 +25,18 @@ _22 de diciembre de 2020_
 
 >[!CAUTION]
 >
->Esta versión incorpora un nuevo protocolo de conexión:  la actualización es obligatoria tanto para el servidor de Campaña como para la consola de cliente para poder conectarse a Campaña después del 21 de marzo de 2021.
+>Esta versión incorpora un nuevo protocolo de conexión: la actualización es obligatoria para que el servidor de Campaign y la consola del cliente puedan conectarse a Campaign después del 21 de marzo de 2021.
 
 **Mejoras**
 
 * El protocolo de conexión se ha actualizado para seguir el nuevo mecanismo de autenticación IMS.
-* La autenticación de integración de activadores basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización se ha cambiado y se ha movido a Adobe I/O. [Más información](../../integrations/using/configuring-adobe-io.md)
+* Activa la autenticación de integración basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización, que se ha cambiado y se ha movido a Adobe I/O. [Más información](../../integrations/using/configuring-adobe-io.md)
 * Después de finalizar la compatibilidad con el protocolo binario heredado de APN de iOS, todas las instancias que utilizan este protocolo se actualizan al protocolo HTTP/2 durante la postactualización.
-* Se ha corregido un problema de seguridad que reforzaba la protección contra los problemas de falsificación de solicitudes del lado del servidor (SSRF). (NEO-27777)
+* Se ha corregido un problema de seguridad para reforzar la protección contra los problemas de falsificación de solicitudes del lado del servidor (SSRF). (NEO-27777)
 
 
 
-* Se ha corregido un problema que provocaba la desactivación del conector SMPP tras un error de conexión, lo que impedía que se enviaran otros envíos SMS y provocaba problemas de rendimiento. (NEO-28609)
+* Se ha corregido un problema que provocaba la desactivación del conector SMPP tras un error de conexión, lo que impedía otros envíos SMS y provocaba problemas de rendimiento. (NEO-28609)
 
 
 
@@ -54,8 +54,8 @@ _22 de diciembre de 2020_
 
 
 * Se ha corregido un problema en la administración de subprocesos POSIX que generaba archivos de volcado de núcleo grandes en la instancia de marketing. (NEO-28117, NEO-29281)
-* Se han corregido problemas que podían provocar que el proceso web se bloqueara al preparar envíos o con previsualización recurrente de envíos. (NEO-27790, NEO-27517)
-* Se corrigió un problema que ocasionaba que fallara el envío de envíos o pruebas cuando se activaba mediante un operador que no era administrador. (NEO-28597)
+* Se han corregido problemas que podían provocar que el proceso web se bloqueara al preparar entregas o con previsualización recurrente de entregas. (NEO-27790, NEO-27517)
+* Se ha corregido un problema que ocasionaba que fallaran los envíos de entregas o pruebas cuando se activaba mediante un operador que no era administrador. (NEO-28597)
 
 
 
@@ -64,7 +64,7 @@ _22 de diciembre de 2020_
 
 _11 de septiembre de 2020_
 
-* Se ha corregido una regresión que ocasionaba que la preparación del envío se bloqueara debido a una única función errónea en la parte del envío que provocó una sobrecarga de memoria. (NEO-27346)
+* Se ha corregido una regresión que ocasionaba que la preparación de la entrega se bloqueara debido a una única función errónea en la parte de la entrega que provocó una sobrecarga de memoria. (NEO-27346)
 
 
 
