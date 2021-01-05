@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: Estados de entrega
-description: Obtenga más información sobre los estados disponibles en su panel de envío.
+description: Obtenga más información sobre los estados disponibles en su panel de entregas.
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: de0e4555d3e2c5dff8d86a22ff4db85953105db1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '592'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -21,19 +21,19 @@ ht-degree: 79%
 
 ajouter screenshot -->
 
-Una vez que se ha enviado un envío, el panel de envío muestra un estado que le permite supervisar si el envío se ha realizado correctamente. Los estados posibles se detallan en la sección siguiente.
+Una vez que realizada una entrega, el panel de entregas muestra un estado que le permite monitorizar si la entrega se ha realizado correctamente. Los estados posibles se detallan en la sección siguiente.
 
 ![](assets/delivery-status.png)
 
-Para obtener más información sobre los diferentes errores de envío que puede encontrar y cómo resolverlos, consulte [esta página](../../delivery/using/understanding-delivery-failures.md).
+Para obtener más información sobre los diferentes errores de entrega que pueden surgir y cómo resolverlos, consulte [esta página](../../delivery/using/understanding-delivery-failures.md).
 
 **Temas relacionados:**
 
 * [Panel de entregas](../../delivery/using/delivery-dashboard.md)
-* [Solución de problemas de envío](../../delivery/using/delivery-troubleshooting.md)
+* [Solución de problemas de entregas](../../delivery/using/delivery-troubleshooting.md)
 * [Acerca de la capacidad de la entrega](../../delivery/using/about-deliverability.md)
 
-## Lista de los estados de envío {#list-delivery-statuses}
+## Lista de estados de entrega {#list-delivery-statuses}
 
 <table> 
  <thead> 
@@ -53,7 +53,7 @@ Para obtener más información sobre los diferentes errores de envío que puede 
   </tr> 
   <tr> 
    <td> Error<br /> </td> 
-   <td> La entrega no ha podido llegar al destinatario debido a una dirección no válida o a que la bandeja de entrada estaba llena. También puede estar relacionado con un problema con los bloques de personalización, ya que pueden generar errores cuando los esquemas no coinciden con la asignación de entregas. Consulte <a href="../../delivery/using/understanding-delivery-failures.md" target="_blank">Explicación de los errores de envío</a><br /> </td> 
+   <td> La entrega no ha podido llegar al destinatario debido a una dirección no válida o a que la bandeja de entrada estaba llena. También puede estar relacionado con un problema con los bloques de personalización, ya que pueden generar errores cuando los esquemas no coinciden con la asignación de entregas. Consulte <a href="../../delivery/using/understanding-delivery-failures.md" target="_blank">Comprensión de los errores de entrega</a><br /> </td> 
   </tr>
   <tr> 
    <td> Pendiente<br /> </td> 
@@ -103,7 +103,7 @@ Si la entrega no se realiza y su estado sigue siendo **[!UICONTROL Pending]**, p
 
    >[!NOTE]
    >
-   >Esta operación se puede realizar con un modelo de alojamiento **in situ** o **híbrido** con acceso al servidor de Campaña (consulte [modelos de hospedaje](../../installation/using/hosting-models.md)).
+   >Esta operación se puede realizar con un modelo de alojamiento **on-premise** o **híbrido** con acceso al servidor de Campaign (consulte [modelos de alojamiento](../../installation/using/hosting-models.md)).
 
    1. Compruebe que los módulos `mta@<instance>` se inicien en los servidores MTA.
 
@@ -129,11 +129,11 @@ Si la entrega no se realiza y su estado sigue siendo **[!UICONTROL Pending]**, p
 
    En este caso, compruebe la configuración de la administración de tráfico (afinidad de IP) y utilice el campo **[!UICONTROL Managing affinities with IP addresses]** para relacionar las entregas al MTA que administra la afinidad. Para obtener más información sobre las afinidades, consulte [esta sección](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
-* Cuando se ejecutan demasiadas campañas, el estado del envío permanece en estado &quot;Pendiente&quot;.
+* Cuando se ejecutan demasiadas campañas, el estado de la entrega permanece en estado Pendiente.
 
    El límite de campañas simultáneas se define en la opción **[!UICONTROL NmsOperation_LimitConcurrency]**. El valor predeterminado es 10.
 
-   Obtenga más información sobre las opciones de [esta página](../../installation/using/configuring-campaign-options.md).
+   Obtenga más información sobre las opciones en [esta página](../../installation/using/configuring-campaign-options.md).
 
 
 **Temas relacionados:**
