@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 450889f845b7c5adad1085d7eba70e23030e6609
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -96,9 +96,9 @@ Técnicamente, se eliminarán todos los datos vinculados al sujeto de datos con�
 
 Como controlador de datos, tiene la opción de personalizarlos cambiando la integridad de los vínculos definidos en los esquemas de datos (por ejemplo, si tiene una justificación comercial para no eliminar determinados datos).
 
-### ¿En qué afecta a los informes cuando se eliminan envíos y registros de seguimiento?
+### ¿En qué afecta a los informes cuando se eliminan entregas y registros de seguimiento?
 
-Los informes de Adobe Campaign se basan en indicadores calculados a partir de los datos agregados de envíos y registros de seguimiento. Como resultado, la eliminación de los registros individuales no debería afectar a las métricas de los informes.
+Los informes de Adobe Campaign se basan en indicadores calculados a partir de los datos agregados de entregas y registros de seguimiento. Como resultado, la eliminación de los registros individuales no debería afectar a las métricas de los informes.
 
 ## Volver a importar datos {#re-import-data}
 
@@ -110,7 +110,7 @@ Como controlador de datos, deberá asegurarse de que cuando reciba una solicitud
 
 ## Volver a adherirse {#opt-in-again}
 
-### ¿Puede un sujeto de datos, cuyos datos se han borrado de Adobe Campaign, volver a adhesión más tarde?
+### ¿Puede un sujeto de datos, cuyos datos se han borrado de Adobe Campaign, incluirse nuevamente más adelante?
 
 Es posible que un sujeto de datos vuelva a incluirse o se añada como un nuevo destinatario después de que sus datos se hayan borrado de Adobe Campaign.
 
