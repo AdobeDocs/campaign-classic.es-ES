@@ -2,24 +2,24 @@
 solution: Campaign Classic
 product: campaign
 title: Resolución de problemas
-description: Obtenga más información sobre el rendimiento de los envíos y cómo solucionar problemas relacionados con la supervisión de envíos.
+description: Obtenga más información sobre el rendimiento de las entregas y cómo solucionar problemas relacionados con la monitorización de entregas.
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f3ba836bbb5a5f82d6a7868dcb15edc8e61b9a5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '789'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
-# Envío envía solución de problemas {#delivery-troubleshooting}
+# Solución de problemas con entregas{#delivery-troubleshooting}
 
-Esta sección lista problemas comunes que puede encontrar al enviar envíos y cómo solucionarlos.
+Esta sección lista problemas comunes que pueden surgir al realizar entregas y cómo solucionarlos.
 
-Además, asegúrese de seguir las optimizaciones y la lista de comprobación detallada en [esta página](../../delivery/using/delivery-performances.md) para asegurarse de que sus envíos funcionan bien.
+Además, debe asegurarse de seguir las optimizaciones y la lista de comprobación detallada en [esta página](../../delivery/using/delivery-performances.md) para asegurarse de que sus entregas funcionan bien.
 
 **Temas relacionados:**
 
@@ -55,13 +55,13 @@ Si el estado de una entrega de correo electrónico es **[!UICONTROL Failed]**, p
 
 Los registros de entregas son esenciales para saber por qué ha fallado una entrega. Estos son los posibles errores que puede detectar en los registros de entregas:
 
-* Los mensajes de destinatario fallan con un error &quot;Inaccesible&quot; que indica:
+* Si los mensajes al destinatario fallan e indican el error “inaccesible”:
 
    ```
    Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
    ```
 
-   La causa de este problema es casi siempre una personalización dentro del HTML que intenta llamar a una tabla o campo que no se ha definido o asignado en la segmentación por secuencias o en la asignación de destino del envío.
+   La causa de este problema es casi siempre una personalización dentro del HTML que intenta llamar a una tabla o campo que no se ha definido o asignado en el objetivo ascendente o en la asignación de destino de la entrega.
 
    Para corregir esto, es necesario revisar el flujo de trabajo y el contenido de la entrega para determinar específicamente qué personalización está intentando llamar a la tabla en cuestión y si se puede asignar o no la tabla. Desde este punto, la forma de resolver el problema sería eliminar la llamada a esta tabla en el HTML o corregir la asignación a la entrega.
 
@@ -77,7 +77,7 @@ Los registros de entregas son esenciales para saber por qué ha fallado una entr
 
    También debe reiniciar todos los flujos de trabajo con una actividad programada y todos los flujos de trabajo en estado fallido. Consulte [esta sección](../../workflow/using/scheduler.md).
 
-* Cuando un envío falla, el siguiente error puede aparecer en los “logs” de envío:
+* Cuando una entrega falla, el siguiente error puede aparecer en los “logs” de envío:
 
    ```
    DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.
