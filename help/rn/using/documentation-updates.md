@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: b1d75ff748bab08b45c55621b63e7565564e113d
+source-git-commit: 88172a79aad37e6a311b144f4ea685bb4846825b
 workflow-type: tm+mt
-source-wordcount: '3729'
-ht-degree: 98%
+source-wordcount: '3814'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,16 @@ ht-degree: 98%
 Esta página enumera todas las nuevas funciones y actualizaciones de la documentación por mes y por versión de Campaign.
 
 También puede consultar las [Notas de la versión de Adobe Campaign Classic](../../rn/using/latest-release.md) para ver más actualizaciones.
+
+## Enero de 2021 {#jan,2021}
+
+La sección de actividad **[!UICONTROL Fork]** se ha enriquecido con información adicional. Se ha añadido una nota para especificar que las transiciones salientes no se ejecutan simultáneamente y que, por lo tanto, la actividad no debe utilizarse para mejorar el rendimiento de los flujos de trabajo. [Más información](../../workflow/using/fork.md)
+
+La sección de la versión de Locating Tomcat se ha movido [aquí](../../production/using/locate-tomcat-version.md).
+
+La lista de flujos de trabajo técnicos con sus paquetes asociados se ha reorganizado en una sola página. [Más información](../../workflow/using/about-technical-workflows.md)
+
+La sección de solución de problemas de la guía de supervisión se ha reorganizado y mejorado con una página de aterrizaje. [Más información](../../production/using/troubleshooting.md).
 
 ## Diciembre de 2020 {#dec-2020}
 
@@ -149,7 +159,7 @@ Las [notas de la versión](../../rn/using/latest-release.md) se han reorganizado
 
 Se ha añadido una nueva sección con directrices relacionadas con la supervisión de Campaign Classic. [Más información](../../production/using/monitoring-guidelines.md)
 
-La sección Privacidad y consentimiento se ha mejorado con información más detallada y vínculos útiles. [Más información](../../platform/using/privacy-and-recommendations.md).
+La sección Privacidad y consentimiento se ha mejorado con información más detallada y vínculos útiles. [Más información](../../platform/using/privacy-and-recommendations.md)
 
 La página Administración de privacidad en Campaign Classic se ha actualizado con información sobre el campo &quot;Regulación&quot;, que ahora está disponible al utilizar la API y permite configurar el proceso de solicitud de privacidad automática. [Más información](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
