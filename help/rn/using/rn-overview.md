@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 86dab2e03aa7a07d88d9a1df5e4015b001451d2e
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign se actualiza periódicamente. En promedio, cada año se publican 
 
 Esta frecuencia regular de actualizaciones tiene como objetivo ofrecerle lo más novedoso y lo mejor, mantener el entorno seguro y mejorar su experiencia con nuestro producto.
 
-Esta es la razón por la que creemos que es fundamental que ejecute la versión más reciente de Adobe Campaign. También le asegurará una mejor experiencia de asistencia, ya que la identificación, reproducción y corrección de un problema en una compilación reciente suele ser mucho más rápida. Además, muchos problemas que puede encontrar ya se han corregido en las versiones más recientes.
+Esta es la razón por la que creemos que es fundamental que ejecute la versión más reciente de Adobe Campaign. También le asegurará una mejor experiencia de asistencia, ya que la identificación, reproducción y corrección de un problema en una compilación reciente suele ser mucho más rápida. Además, muchos problemas que puede encontrar ya se han corregido en las compilaciones más recientes.
 
 ## Estados de las versiones{#rn-statuses}
 
@@ -37,13 +37,13 @@ Las **últimas versiones de GA** son: [Gold Standard 10](../../rn/using/gold-sta
 
 La **última versión RC**[ es Campaign Classic 20.3.](../../rn/using/latest-release.md)
 
-![](assets/do-not-localize/red3.png) **Desaprobado** : sin implementación. Se deben actualizar las implementaciones existentes.
+![](assets/do-not-localize/red3.png) **Obsoleto**: sin implementación. Se deben actualizar las implementaciones existentes.
 
 ## Recomendaciones{#recommendations}
 
 Para garantizar una configuración estable, le recomendamos que instale la misma versión estable en todos los servidores que se ejecuten en la misma configuración de cliente.
 
-Además, la consola de cliente debe estar en la misma compilación que la instancia de servidor.
+Además, la consola de cliente debe contar con la misma versión que la instancia de servidor.
 
 Para mantener la implementación actualizada, asegúrese de leer las páginas [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md) y [Matriz de compatibilidades](../../rn/using/compatibility-matrix.md) con cada nueva versión.
 
