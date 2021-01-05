@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
 workflow-type: tm+mt
 source-wordcount: '3061'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,27 +23,27 @@ _16 de diciembre de 2020_
 
 >[!CAUTION]
 >
->Esta versión incorpora un nuevo protocolo de conexión:  la actualización es obligatoria tanto para el servidor de Campaña como para la consola de cliente para poder conectarse a Campaña después del 21 de marzo de 2021.
+>Esta versión incorpora un nuevo protocolo de conexión: la actualización es obligatoria para que el servidor de Campaign y la consola del cliente puedan conectarse a Campaign después del 21 de marzo de 2021.
 
 **Mejoras**
 
 * El protocolo de conexión se ha actualizado para seguir el nuevo mecanismo de autenticación IMS.
-* La autenticación de integración de activadores basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización se ha cambiado y se ha movido a Adobe I/O. [Más información](../../integrations/using/configuring-adobe-io.md)
+* Activa la autenticación de integración basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización, que se ha cambiado y se ha movido a Adobe I/O. [Más información](../../integrations/using/configuring-adobe-io.md)
 * Después de finalizar la compatibilidad con el protocolo binario heredado de APN de iOS, todas las instancias que utilizan este protocolo se actualizan al protocolo HTTP/2 durante la postactualización.
-* Se ha corregido un problema de seguridad que reforzaba la protección contra los problemas de falsificación de solicitudes del lado del servidor (SSRF). (NEO-27777)
+* Se ha corregido un problema de seguridad para reforzar la protección contra los problemas de falsificación de solicitudes del lado del servidor (SSRF). (NEO-27777)
 
 
 
-* Se ha corregido un problema que provocaba la desactivación del conector SMPP tras un error de conexión, lo que impedía que se enviaran otros envíos SMS y provocaba problemas de rendimiento.
+* Se ha corregido un problema que provocaba la desactivación del conector SMPP tras un error de conexión, lo que impedía otros envíos SMS y provocaba problemas de rendimiento.
 * Se ha corregido un problema que mostraba porcentajes incorrectos al generar un informe descriptivo mediante una actividad de flujo de trabajo. (NEO-14314)
-* Se corrigió un problema con la preparación de envíos cuando la opción **Excluir dirección de duplicado durante envío** no estaba seleccionada. (NEO-13240)
+* Se ha corregido un problema con la preparación de la entrega cuando la opción **Exclude duplicate address during delivery** no está seleccionada. (NEO-13240)
 * Se ha corregido un problema que podía provocar errores en los flujos de trabajo al ejecutar una actividad de **Enriquecimiento**. (NEO-17338)
 * Se corrigió un problema de los flujos de trabajo al recuperar los registros de una base de datos externa e insertarlos en la base de datos de Campaign. (NEO-26359)
 
 
 
 * Se ha corregido un problema de bloqueo del servidor al evitar la corrupción de memoria al limpiar el analizador de expresiones.
-* Se ha corregido un problema que impedía que la función **NoNull** funcionara en las bases de datos de Oracle después de actualizar a la compilación 9032. (NEO-26488)
+* Se ha corregido un problema que impedía que la función **NoNull** funcionara en las bases de datos de Oracle después de actualizar a la versión 9032. (NEO-26488)
 
 
 
@@ -59,7 +59,7 @@ _16 de diciembre de 2020_
 
 
 
-* Se ha corregido un problema relacionado con la administración de líneas vacías en archivos de registro, que provocaba errores en el comportamiento del proceso de MTA y producía caídas de rendimiento en el envío de envíos.
+* Se ha corregido un problema relacionado con la administración de líneas vacías en archivos de registro, que provocaba errores en el comportamiento del proceso de MTA y producía caídas de rendimiento en la realización de entregas.
 
 **Evoluciones técnicas**
 
@@ -186,7 +186,7 @@ _30 de mayo de 2019_
   </tr> 
     <tr> 
    <td> Pista de auditoría<br /> </td> 
-   <td> <p>Como administrador, aumente la productividad controlando y gestionando los cambios realizados en la instancia de Adobe Campaign Classic. La pista de auditoría registrará las acciones realizadas en los esquemas de fuentes, flujos de trabajo y opciones. Puede ver rápidamente si un elemento se ha creado, modificado o eliminado.</p><p>Para obtener más información, consulte la <a href="../../production/using/audit-trail.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/monitoring/audit-trail.html">videotutorial</a>.</p></td> 
+   <td> <p>Como administrador, aumente la productividad controlando y gestionando los cambios realizados en la instancia de Adobe Campaign Classic. La pista de auditoría registrará las acciones realizadas en los esquemas de fuentes, flujos de trabajo y opciones. Puede ver rápidamente si un elemento se ha creado, modificado o eliminado.</p><p>Para obtener más información, consulte la <a href="../../production/using/audit-trail.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/es/campaign-classic-learn/tutorials/monitoring/audit-trail.html">videotutorial</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Seguridad, solidez y escalabilidad<br /> </td> 
