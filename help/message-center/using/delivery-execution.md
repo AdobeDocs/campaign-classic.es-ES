@@ -7,10 +7,10 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 translation-type: tm+mt
-source-git-commit: 5bc6c8a824929c6a61cf562fc961e5bdd1867837
+source-git-commit: 1788346f7dfe2c18c490363c90358fcb737f1646
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 97%
+source-wordcount: '236'
+ht-degree: 55%
 
 ---
 
@@ -37,11 +37,17 @@ De forma predeterminada, se clasifican en subcarpetas por mes de envío. Esta or
 >
 >En el caso de instalaciones alojadas o híbridas, si se ha actualizado a la MTA mejorada, todos los mensajes transaccionales también se pueden enviar con la MTA mejorada de Adobe Campaign para mejorar la capacidad de envío, el rendimiento y la gestión de rechazos. Todos los impactos son los mismos que para los mensajes de marketing estándar y se detallan en el documento [MTA mejorado de Adobe Campaign](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html).
 
-<!--## Transactional message monitoring {#transactional-message-monitoring}
+## Monitoreo de mensajes transaccionales {#transactional-message-monitoring}
 
-To monitor your transactional messages, check the delivery logs. Accessing the delivery logs is presented in [this section](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history).
+Para supervisar sus mensajes transaccionales, compruebe los registros de envío. El acceso a los registros de envío se presenta en [esta sección](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
 
-The transactional deliveries sent from the execution instance are synchronized back to the control instance as follows.
+Los envíos transaccionales enviados desde la instancia de ejecución se sincronizan con la instancia de control a través de un flujo de trabajo técnico (**[!UICONTROL Message Center execution instance]**) que se ejecuta cada hora.
+
+>[!NOTE]
+>
+>Los envíos acumulan semanalmente los eventos en función de la actualización de eventos más reciente y no en la fecha de creación del evento. Por lo tanto, al extraer registros de envío de mensajería transaccional de la instancia de control, el ID de envío asociado con cada ID de registro de envío puede cambiar con el tiempo a medida que se actualiza el registro (por ejemplo, cuando se recibe una devolución de entrada para el evento).
+
+<!--The transactional deliveries sent from the execution instance are synchronized back to the control instance as follows.
 
 Let's take a [delivery template](../../message-center/using/introduction.md) labelled *Template_1*.
 
