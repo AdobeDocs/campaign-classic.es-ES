@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 7%
@@ -17,13 +17,13 @@ ht-degree: 7%
 
 # Problemas de rendimiento y producción{#performance-and-throughput-issues}
 
->[!NOTE]
->
->En primer lugar, debe comprobar que tiene instalada la última compilación. Esto garantiza que dispone de las últimas funciones y correcciones de errores. Consulte las [Notas de la versión](../../rn/using/latest-release.md) para obtener más información sobre el contenido de cada versión.
+En primer lugar, debe comprobar que tiene instalada la última compilación. Esto garantiza que dispone de las últimas funciones y correcciones de errores.
+
+Consulte las [Notas de la versión](../../rn/using/latest-release.md) para obtener más información sobre el contenido de cada versión.
 
 ## Hardware e infraestructura {#hardware-and-infrastructure}
 
-En este [artículo](https://helpx.adobe.com/es/campaign/kb/hardware-sizing-guide.html) se detallan las directrices generales para los requisitos de hardware para el Campaign Classic local.
+En esta [página](https://helpx.adobe.com/es/campaign/kb/hardware-sizing-guide.html) se detallan las directrices generales para los requisitos de hardware para el Campaign Classic local.
 
 El equipo de consultoría puede proporcionar a los clientes alojados una herramienta que le permite realizar vistas sencillas sobre el espacio que utilizan los distintos tipos de tablas de la base de datos, así como sobre el espacio utilizado en el sitio SFTP. Además, proporciona herramientas que le permiten limpiar datos innecesarios. Póngase en contacto con los equipos de asesoría o asistencia si necesita implementar esta herramienta. A continuación se indican algunos aspectos importantes que hay que comprobar con esta herramienta:
 
@@ -33,7 +33,7 @@ El equipo de consultoría puede proporcionar a los clientes alojados una herrami
 
 Adobe Campaign también proporciona una [herramienta](../../production/using/monitoring-processes.md#manual-monitoring) para comprobar el uso de CPU y RAM. Utilice esta herramienta y observe indicadores específicos como: **Memoria**, **Intercambiar memoria**, **Disco**, **Procesos activos**. Si los valores son demasiado altos, puede intentar reducir el número de flujos de trabajo o programar flujos de trabajo a inicios en diferentes momentos.
 
-## Rendimientos de la base de datos {#database-performances}
+## Comprobación de base de datos {#database-performances}
 
 La mayoría de las veces, los problemas de rendimiento están vinculados al mantenimiento de la base de datos. Estos son los elementos principales para comprobar:
 
@@ -68,4 +68,3 @@ A continuación se muestra una lista de las prácticas recomendadas y los artíc
 >[!NOTE]
 >
 >Consulte también la sección [Puntos clave de entrega](../../delivery/using/deliverability-key-points.md).
-
