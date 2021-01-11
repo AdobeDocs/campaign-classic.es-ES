@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
+source-git-commit: 5b7639e7e64d4cb42d3ae77b04ba90a45fb58159
 workflow-type: tm+mt
-source-wordcount: '1875'
-ht-degree: 99%
+source-wordcount: '1911'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,17 @@ Esta página lista las nuevas funcionalidades, mejoras y correcciones que se pro
 
 Para la versión Gold Standard de Campaign Classic (versión más reciente de GA), [consulte esta página](../../rn/using/gold-standard.md).
 
-## ![](assets/do-not-localize/blue_2.png) Versión 20.3.1: compilación 9228 {#release-20-3-1-build-9228}
+## ![](assets/do-not-localize/blue_2.png) Versión 20.3.3: compilación 9234 {#release-20-3-3-build-9234}
+
+_11 de enero de 2021_
+
+* Se ha corregido un problema de seguridad para reforzar la protección contra los problemas de falsificación de solicitudes del lado del servidor (SSRF). (NEO-27777)
+
+
+
+* Se ha corregido un problema de regresión relacionado con el proceso de generación de logs de banda ancha que podía provocar el bloqueo del proceso de MTA.
+
+## ![](assets/do-not-localize/red_2.png) Versión 20.3.1: compilación 9228 {#release-20-3-1-build-9228}
 
 _27 de octubre de 2020_
 
@@ -256,5 +266,6 @@ En Linux, _apache_neolane.conf_ ahora está instalado en el directorio `conf`.
 
 
 * Se corrigió un problema en la actividad de enriquecimiento en el cual los usuarios no administradores definían variables de instancia. (NEO-25653)
+
 
 
