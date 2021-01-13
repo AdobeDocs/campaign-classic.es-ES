@@ -6,11 +6,11 @@ description: Descubra más información sobre la administración de la privacida
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: ht
-source-git-commit: 8ff5450cc35153e61048c2671f6d52fbc5ffc5b9
-workflow-type: ht
-source-wordcount: '891'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c86b2d377c66e79cf4f10053f588796b95e6877e
+workflow-type: tm+mt
+source-wordcount: '887'
+ht-degree: 97%
 
 ---
 
@@ -19,23 +19,16 @@ ht-degree: 100%
 
 Adobe Campaign ofrece un conjunto de herramientas para que cumpla con las [normas de privacidad](#privacy-management-regulations) (incluye el RGPD, la CCPA, la PDPA y la LGPD).
 
-Estas son las cinco funcionalidades principales que ofrece Adobe Campaign para garantizar la preparación del RGPD y otras normas de privacidad:
+Estas son las cinco funciones principales que ofrece Adobe Campaign para garantizar la preparación del RGPD y otras normas de privacidad:
+* **Derecho al acceso**
+* **Derecho a eliminar**
+* **Gestión de consentimiento**
+* **Retención de datos**
+* **Gestión de derechos**
 
 ![](assets/privacy-gdpr-use-cases.png)
 
-* **Derecho al acceso**
-
-* **Derecho a eliminar**
-
-Para más información, vea [Derecho al acceso y Derecho a ser olvidado](#right-access-forgotten).
-
-* **Administración de consentimientos**
-
-* **Retención de datos**
-
-* **Administración de derechos**
-
-Para obtener más información, consulte [Consentimiento, retención y funciones](#consent-retention-roles).
+Para obtener más información sobre esto, consulte [Derecho de acceso y derecho a ser olvidado](#right-access-forgotten) y [Consentimiento, retención y funciones](#consent-retention-roles).
 
 <!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
 
