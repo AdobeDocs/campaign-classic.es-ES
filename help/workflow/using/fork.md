@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 translation-type: tm+mt
-source-git-commit: 3eecc16442a11849c12819cf83392f60c5b82a13
+source-git-commit: d35b22386bd2681ba02e4379c627821b35a7d04e
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 16%
@@ -26,7 +26,7 @@ Por ejemplo, puede utilizar la actividad después de una consulta para realizar 
 
 También puede utilizar la actividad en el contexto de la creación de contenido y la automatización del envío de envíos, para iniciar el cálculo de destinatarios y la creación de contenido en paralelo. Hay un caso de uso específico en [esta sección](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content).
 
->[!WARNING]
+>[!IMPORTANT]
 >
 >Tenga en cuenta que las transiciones de salida agregadas después de una actividad de horquilla no se ejecutarán simultáneamente.
 >
