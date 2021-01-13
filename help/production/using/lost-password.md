@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: b7f44f4c18bef4cc412af878846b2c4305a17787
+source-git-commit: f24642223a2ec9f3d8e78e2f7e71a55bf14b80c7
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 9%
@@ -20,7 +20,7 @@ ht-degree: 9%
 Puede cambiar o recuperar una contraseña perdida.
 Existen dos escenarios posibles:
 
-* **Contraseña perdida por un operador de Adobe Campaign**
+**Contraseña perdida por un operador de Adobe Campaign**
 
 En este caso, puede cambiar la contraseña del operador en cuestión.
 Para realizar esto, siga los pasos a continuación:
@@ -33,7 +33,7 @@ Para realizar esto, siga los pasos a continuación:
 
 1. Establezca la nueva contraseña del operador. Se recomienda que los operadores cambien su contraseña la primera vez que se vuelvan a conectar.
 
-* **Pérdida interna de contraseña (solo clientes locales)**
+**Pérdida interna de contraseña (solo clientes locales)**
 
 Si se pierde la contraseña interna, debe reinicializarla.
 Para ello, siga el procedimiento siguiente:
