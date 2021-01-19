@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 37%
+ht-degree: 38%
 
 ---
 
@@ -33,8 +33,8 @@ Los diferentes modelos de alojamiento se introducen [en esta sección](../../ins
 | Administración de la plataforma Intermediaria | Bajo demanda | Bajo demanda | Disponible | [Más información](../../installation/using/mid-sourcing-server.md) |
 | Procesamiento de bandeja de entrada mediante Litmus | Bajo demanda | Bajo demanda | Disponible | [Más información](../../delivery/using/inbox-rendering.md) |
 | Integración con IMS (Adobe ID) | Bajo demanda | Bajo demanda | Bajo demanda | [Más información](../../integrations/using/about-adobe-id.md) |
-| Cifrado y descifrado de datos para transferencias de archivos | Bajo demanda | Disponible | Disponible | [Más información](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing) |
-| Impresión/descompresión de archivos | Bajo demanda | Disponible | Disponible | [Más información](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing) |
+| Cifrado y descifrado de datos para transferencias de archivos | Bajo demanda | Disponible | Disponible | [Más información](../../platform/using/unzip-decrypt.md) |
+| Impresión/descompresión de archivos | Bajo demanda | Disponible | Disponible | [Más información](../../platform/using/unzip-decrypt.md) |
 | Delegación de nombres de dominio | Bajo demanda | Bajo demanda | No disponible | [Más información](https://helpx.adobe.com/es/campaign/kb/domain-name-delegation.html) |
 | Instalación de SpamAssassin | Bajo demanda | Disponible | Disponible | [Más información](../../delivery/using/spamassassin.md) |
 | Acceso a los informes de entregabilidad | Disponible | Bajo demanda | Disponible | [Más información](../../delivery/using/monitoring-deliverability.md) |
@@ -57,4 +57,4 @@ Adobe Campaign proporciona la opción **Acceso de Datos Federados** (FDA) para p
 * [Actualizaciones de Campaign Classic](../../rn/using/rn-overview.md)
 * [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md)
 * [Versiones de Gold Standard](../../rn/using/gold-standard.md)
-* [Programa estándar Gold](https://helpx.adobe.com/es/campaign/kb/gold-standard.html)
+* [Programa Gold Standard](https://helpx.adobe.com/es/campaign/kb/gold-standard.html)
