@@ -6,11 +6,11 @@ description: Matriz de compatibilidades de Campaign Classic
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: ht
-source-git-commit: ff3d18b104a8dba7cd813aa698f9c27b4e25e244
-workflow-type: ht
-source-wordcount: '537'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2838ced5f5d562914c0791e6a0b8f02dd61006b4
+workflow-type: tm+mt
+source-wordcount: '524'
+ht-degree: 99%
 
 ---
 
@@ -55,8 +55,8 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <tr>
 <td>RHEL</td>
 <td>
-<p>8.x (64 bits)</p>
-<p>7.x (64 bits)</p>
+<p>8,x (64 bits)</p>
+<p>7,x (64 bits)</p>
 <p><strong>Importante:</strong> Si está utilizando RHEL, debe estar dispuesto a deshabilitar SELinux o a que sus arquitectos escriban reglas SELinux personalizadas para comprobar que un SELinux habilitado no está causando problemas con las operaciones de Campaign.</p>
 </td>
 </tr>
@@ -178,19 +178,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 </td>
 </tr>
 <tr>
-<td>API de SFDC</td>
-<td>
-<p>Versión de API 21</p>
-<p>Versión de API 15</p>
-</td>
-</tr>
-<tr><td>API de Oracle On Demand</td>
-<td>
-<p>API de Web Services 1.0</p>
-</td>
-</tr>
-<tr>
-<td>MS Dynamics</td>
+<td>Conector de Microsoft Dynamics</td>
 <td>
 <p>API web: Dynamics 365 On-premise y en línea</p>
 </td>
