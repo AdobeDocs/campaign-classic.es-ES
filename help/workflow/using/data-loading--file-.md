@@ -6,9 +6,9 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Puede definir un proceso previo para que se ejecute durante la importación de a
 
 ![](assets/preprocessing-dataloading.png)
 
-Para obtener más información, consulte esta sección: [Descompresión o desencriptado de un archivo antes de procesarlo](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing).
+Para obtener más información, consulte esta sección: [Descompresión o desencriptado de un archivo antes de procesarlo](../../platform/using/unzip-decrypt.md).
 
 ## Definición del formato del archivo {#defining-the-file-format}
 
@@ -113,7 +113,7 @@ El ejemplo siguiente permite recopilar un fichero en el servidor todos los días
    * la primera columna contiene un código que coincide con el evento: compra (más o menos que 3000 euros), sin compras ni reembolsos en una o más compras.
    * Las cuatro columnas siguientes contienen el nombre, apellido, correo electrónico y número de cuenta del cliente.
 
-   La configuración del formato del archivo que se va a cargar coincide con el definido durante una importación de datos en Adobe Campaign. Para obtener más información, consulte [esta sección](../../platform/using/importing-data.md#step-2---source-file-selection).
+   La configuración del formato del archivo que se va a cargar coincide con el definido durante una importación de datos en Adobe Campaign. Para obtener más información, consulte [esta sección](../../platform/using/executing-import-jobs.md#step-2---source-file-selection).
 
 1. En la actividad dividida, especifique los subconjuntos que desea crear, según el valor de la columna **Event**.
 
