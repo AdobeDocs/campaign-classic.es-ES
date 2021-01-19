@@ -6,9 +6,9 @@ description: Publicación, seguimiento y utilización de datos recopilados
 audience: web
 content-type: reference
 topic-tags: online-surveys
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 100%
 
@@ -111,7 +111,7 @@ Las respuestas a una encuesta se pueden exportar a un archivo externo para su pr
 
    >[!NOTE]
    >
-   >En [esta sección](../../platform/using/generic-imports-and-exports.md) se describen las exportaciones de datos y las fases de su configuración.
+   >En [esta sección](../../platform/using/about-generic-imports-exports.md) se describen las exportaciones de datos y las fases de su configuración.
 
 ## Uso de los datos recopilados {#using-the-collected-data}
 
