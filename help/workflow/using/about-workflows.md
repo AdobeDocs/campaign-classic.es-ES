@@ -6,9 +6,9 @@ description: Automatice los procesos con flujos de trabajo, administre datos y a
 audience: workflow
 content-type: reference
 topic-tags: introduction
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
+workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Consulte estas secciones para ver instrucciones y prácticas recomendadas para a
 
 * Obtenga más información sobre las actividades de flujo de trabajo en [esta página](../../workflow/using/how-to-use-workflow-data.md).
 * Obtenga información sobre cómo crear un flujo de trabajo en [esta sección](../../workflow/using/building-a-workflow.md).
-* Descubra cómo utilizar flujos de trabajo para importar datos en Campaign en [esta sección](../../workflow/using/importing-data.md).
+* Descubra cómo utilizar flujos de trabajo para importar datos en Campaign en [esta sección](../../platform/using/import-export-workflows.md).
 * Las prácticas recomendadas sobre los flujos de trabajo se detallan en [esta página](../../workflow/using/workflow-best-practices.md).
 * Encontrará instrucciones sobre la ejecución de flujos de trabajo en [esta sección](../../workflow/using/starting-a-workflow.md).
 * Obtenga información sobre cómo monitorizar flujos de trabajo en [esta página](../../workflow/using/monitoring-workflow-execution.md).
