@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 404ff67207f8c126e44736fe565cf57afcc6397e
+source-git-commit: ef502c023918baa1ae56b9619c7ab488ddf909e3
 workflow-type: tm+mt
-source-wordcount: '2202'
-ht-degree: 98%
+source-wordcount: '2293'
+ht-degree: 94%
 
 ---
 
@@ -68,10 +68,22 @@ ht-degree: 98%
       + [Exportación e importación de perfiles](platform/using/exporting-and-importing-profiles.md)
       + [Creación y administración de listas](platform/using/creating-and-managing-lists.md)
    + Importación y exportación de datos {#importing-and-exporting-data}
-      + [Importación y exportación genéricas](platform/using/generic-imports-and-exports.md)
-      + [Exportación de datos](platform/using/exporting-data.md)
-      + [Importación de datos](platform/using/importing-data.md)
-      + [Uso del servidor SFTP](platform/using/sftp-server-usage.md)
+      + [Introducción a la importación y exportación de datos](platform/using/get-started-data-import-export.md)
+      + [Importación y exportación de datos mediante flujos de trabajo](platform/using/import-export-workflows.md)
+      + Trabajar con importaciones y exportaciones genéricas {generic-import-export}
+         + [Introducción a las importaciones y exportaciones genéricas](platform/using/about-generic-imports-exports.md)
+         + [Creación de plantillas de importación y exportación](platform/using/creating-import-export-templates.md)
+         + [Creación de trabajos de importación y exportación](platform/using/creating-import-export-jobs.md)
+         + [Configuración de trabajos de importación](platform/using/executing-import-jobs.md)
+         + [Configuración de los trabajos de exportación](platform/using/executing-export-jobs.md)
+         + [Supervisión de la ejecución de trabajos](platform/using/monitoring-jobs-execution.md)
+         + [Muestras de importación genéricas](platform/using/import-operations-samples.md)
+      + Administración del cifrado y la compresión de datos {administración-datos-encriptación-compresión}
+         + [Descompresión o desencriptado de un archivo antes de procesarlo](platform/using/unzip-decrypt.md)
+         + [Cifrado o extracción de un archivo antes de procesarlo](platform/using/zip-encrypt.md)
+      + Prácticas recomendadas y solución de problemas {prácticas recomendadas}
+         + [Prácticas recomendadas de importación y exportación](platform/using/import-export-best-practices.md)
+         + [Prácticas recomendadas y solución de problemas del servidor SFTP](platform/using/sftp-server-usage.md)
    + Filtrado de datos {#filtering-data}
       + [Filtrado de opciones](platform/using/filtering-options.md)
       + [Creación de filtros](platform/using/creating-filters.md)
@@ -86,7 +98,10 @@ ht-degree: 98%
       + [Administración de enumeraciones](platform/using/managing-enumerations.md)
    + Conectores {#connectors}
       + [Acerca de los conectores](platform/using/about-connectors.md)
-      + [Conectores CRM](platform/using/crm-connectors.md)
+      + Conectores CRM{#crm-connectors}
+         + [Introducción a los conectores CRM](platform/using/crm-connectors.md)
+         + [Conectar con Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
+         + [Sincronizar datos con CRM](platform/using/crm-data-sync.md)
       + [Conectores de datos de Adobe Analytics](platform/using/adobe-analytics-data-connector.md)
 + Envío de mensajes {#sending-messages}
    + [Introducción a los mensajes](delivery/using/communication-channels.md)
@@ -347,13 +362,11 @@ ht-degree: 98%
       + [Supervisión de canalización](integrations/using/pipeline-monitoring.md)
       + [Solución de problemas de canalización](integrations/using/pipeline-troubleshooting.md)
 + Automatización con flujos de trabajo {#automating-with-workflows}
-   + Introducción {#introduction}
-      + [Introducción a los flujos de trabajo](workflow/using/about-workflows.md)
+   + Introducción a flujos de trabajo {#introduction}
+      + [Acerca de los flujos de trabajo](workflow/using/about-workflows.md)
       + [Acerca de las actividades](workflow/using/about-activities.md)
-   + Funcionamiento general {#general-operation}
       + [Creación de un flujo de trabajo](workflow/using/building-a-workflow.md)
       + [Datos de objetivos](workflow/using/targeting-data.md)
-      + [Importación de datos](workflow/using/importing-data.md)
       + [Cómo utilizar los datos de flujo de trabajo](workflow/using/how-to-use-workflow-data.md)
       + [Prácticas recomendadas del flujo de trabajo](workflow/using/workflow-best-practices.md)
    + Ejecución de un flujo de trabajo {#executing-a-workflow}
@@ -441,6 +454,7 @@ ht-degree: 98%
          + [Enriquecimiento de datos](workflow/using/enriching-data.md)
          + [Uso de agregados](workflow/using/using-aggregates.md)
          + [Uso de la funcionalidad de combinación de la actividad de Deduplicación](workflow/using/deduplication-merge.md)
+         + [Configuración de un flujo de trabajo de importación recurrente](workflow/using/recurring-import-workflow.md)
       + Diseño de consultas {#designing-queries}
          + [Actualización de lista trimestral con una consulta incremental](workflow/using/quarterly-list-update.md)
       + Segmentación {#designing-queries}
@@ -670,7 +684,7 @@ ht-degree: 98%
       + [Recomendaciones específicas de RDBMS](production/using/rdbms-specific-recommendations.md)
       + [Objetos de aplicación](production/using/application-objects.md)
    + Resolución de problemas {#troubleshooting-toc}
-      + [Production troubleshooting overview](production/using/troubleshooting.md)
+      + [Visión general de la solución de problemas de producción](production/using/troubleshooting.md)
       + Problemas comunes y generales {#common-general-issues-toc}
          + [Módulos y problemas frecuentes](production/using/modules-and-frequent-issues.md)
          + [Ejecución del flujo de trabajo](production/using/workflow-execution.md)
