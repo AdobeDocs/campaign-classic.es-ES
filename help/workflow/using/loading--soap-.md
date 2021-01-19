@@ -6,9 +6,9 @@ description: Carga (SOAP)
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ La operación es la siguiente:
 
    Si desea actualizar el ejemplo, seleccione **[!UICONTROL Re-analyze the example]**.
 
-   También puede personalizar el formato de los datos de la columna a través del vínculo **[!UICONTROL Advanced parameters]**. Para obtener más información sobre formatear datos importados, consulte esta [sección](../../platform/using/importing-data.md#import-wizard).
+   También puede personalizar el formato de los datos de la columna a través del vínculo **[!UICONTROL Advanced parameters]**. Para obtener más información sobre formatear datos importados, consulte esta [sección](../../platform/using/executing-import-jobs.md).
 
 1. Puede utilizar el número de línea como identificador o especificar que la llamada SOAP devuelva varios elementos.
 1. Introduzca los siguientes scripts de pestañas según su función:
