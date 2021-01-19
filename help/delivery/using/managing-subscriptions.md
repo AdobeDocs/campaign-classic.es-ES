@@ -6,9 +6,9 @@ description: Administración de suscripciones
 audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+workflow-type: tm+mt
 source-wordcount: '1099'
 ht-degree: 100%
 
@@ -130,7 +130,7 @@ Para registrar a los destinatarios en un servicio informativo, puede:
 * Suscribir automáticamente a un conjunto de destinatarios a este servicio. Puede obtener una lista de destinatarios a través de una operación de filtrado, un grupo, una carpeta, una importación o una selección directa usando el ratón. Para suscribir a estos destinatarios, haga clic con el botón derecho del ratón. Seleccione **[!UICONTROL Actions > Subscribe selection to a service...]**, el servicio correspondiente y ejecute la operación.
 * Importación de destinatarios y subscripción automática a un servicio informativo. Para ello, seleccione el servicio correspondiente en el último paso del asistente para importar.
 
-   Para obtener más información, consulte [esta sección](../../platform/using/importing-data.md#import-wizard).
+   Para obtener más información, consulte [esta sección](../../platform/using/executing-import-jobs.md).
 
 * Uso de un formulario web para que los destinatarios puedan suscribirse a un servicio.
 
