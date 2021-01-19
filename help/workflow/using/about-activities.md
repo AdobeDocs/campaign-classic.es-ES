@@ -6,10 +6,10 @@ description: Acerca de las actividades
 audience: workflow
 content-type: reference
 topic-tags: introduction
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '96'
+translation-type: tm+mt
+source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
+workflow-type: tm+mt
+source-wordcount: '94'
 ht-degree: 100%
 
 ---
@@ -28,6 +28,5 @@ En los flujos de trabajo de campaña, la actividad **[!UICONTROL Events]** se ha
 Más información:
 
 * [Acerca de las actividades de segmentación](../../workflow/using/about-targeting-activities.md)
-* [Importación de datos](../../workflow/using/importing-data.md)
 * [Ejecución de un flujo de trabajo](../../workflow/using/starting-a-workflow.md)
 * [Prácticas recomendadas del flujo de trabajo](../../workflow/using/workflow-best-practices.md)
