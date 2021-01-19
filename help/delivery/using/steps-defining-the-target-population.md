@@ -6,9 +6,9 @@ description: Definición de la población objetivo
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: ht
-source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 100%
 
@@ -104,7 +104,7 @@ Para ello:
 
 1. Al importar los destinatarios, haga clic en enlace **[!UICONTROL File format definition...]** para seleccionar y configurar el archivo externo.
 
-   Para obtener más información sobre la importación de datos, consulte [esta sección](../../platform/using/importing-data.md#step-2---source-file-selection).
+   Para obtener más información sobre la importación de datos, consulte [esta sección](../../platform/using/executing-import-jobs.md#step-2---source-file-selection).
 
 1. Haga clic en **[!UICONTROL Finish]** y configure la entrega como entrega estándar.
 
@@ -235,6 +235,6 @@ Asimismo, consulte lo siguiente:
 
 En este vídeo aprenderá a añadir semillas y pruebas a un correo electrónico existente y a enviarlo.
 
->[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
