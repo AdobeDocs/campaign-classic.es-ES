@@ -6,11 +6,11 @@ description: Más información sobre la configuración de las propiedades del in
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '458'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 43037b2b6b4e3b42f4b666d85a664b9fb117a015
+workflow-type: tm+mt
+source-wordcount: '441'
+ht-degree: 97%
 
 ---
 
@@ -70,7 +70,7 @@ El idioma de edición es el idioma en el que se escribe. Cuando se añade un idi
 
 En la pestaña **[!UICONTROL Rendering]**, se puede personalizar el modo de visualización de datos de la página. Puede seleccionar:
 
-* Motor de renderización de gráficos: Adobe Campaign ofrece dos modos diferentes para generar la renderización de gráficos. De forma predeterminada, el motor de renderización es HTML 5. Si es necesario, puede seleccionar la renderización Flash.
+* Motor de procesamiento de gráficos: de forma predeterminada, el motor de procesamiento es HTML 5.
 * El tipo de navegación en el informe es mediante botones o vínculos.
 * La posición predeterminada de las etiquetas para los elementos del informe. Esta posición se puede sobrecargar para cada elemento.
 * La plantilla o tema utilizado para generar páginas del informe.
