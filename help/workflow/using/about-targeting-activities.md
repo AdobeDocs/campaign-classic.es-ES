@@ -6,9 +6,9 @@ description: Acerca de las actividades de segmentación
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
+workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Estas actividades permiten crear uno o más objetivos definiendo conjuntos y div
 
 * **Query**: permite ejecutar una consulta. Consulte [Creación de una consulta](../../workflow/using/query.md#creating-a-query).
 * **Incremental query**: permite realizar una consulta y planificar su ejecución. Consulte la sección [Consulta incremental](../../workflow/using/incremental-query.md).
-* **Read List**: permite utilizar datos contenidos en una lista. Consulte la sección [Uso de datos de una lista: Leer lista](../../workflow/using/importing-data.md#using-data-from-a-list--read-list).
+* **Read List**: permite utilizar datos contenidos en una lista. Consulte la sección [Uso de datos de una lista: Leer lista](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list).
 * **Union**: permite agrupar el resultado de varias actividades en un solo destino. Consulte la sección [Unión](../../workflow/using/union.md).
 * **Intersection**: permite extraer solo la población con los mismos resultados de la actividad entrante. Consulte la sección [Intersección](../../workflow/using/intersection.md).
 * **Exclusion**: permite crear un objetivo basado en un objetivo principal del que se extraen uno o más objetivos. Consulte la sección [Intersección](../../workflow/using/intersection.md).
