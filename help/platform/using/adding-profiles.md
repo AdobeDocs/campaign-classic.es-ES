@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Añadir perfiles{#adding-profiles}
 
-En la mayoría de los casos, los perfiles [se importan a Campaign a través de un flujo de trabajo](../../workflow/using/importing-data.md). Sin embargo, puede añadir uno o varios perfiles directamente desde la interfaz, haciendo clic en el botón **[!UICONTROL Create]** . A continuación, se añadirán a la base de datos.
+En la mayoría de los casos, los perfiles [se importan a Campaign a través de un flujo de trabajo](../../platform/using/import-export-workflows.md). Sin embargo, puede añadir uno o varios perfiles directamente desde la interfaz, haciendo clic en el botón **[!UICONTROL Create]** . A continuación, se añadirán a la base de datos.
 
 ![](assets/s_ncs_user_profile_add.png)
 
