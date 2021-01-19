@@ -6,9 +6,9 @@ description: Descubra más información sobre los datos de objetivos en un flujo
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
+workflow-type: tm+mt
 source-wordcount: '1904'
 ht-degree: 100%
 
@@ -135,7 +135,7 @@ La actividad de exclusión permite excluir los elementos de un objetivo desde un
 
 Si es necesario, se pueden manipular las tablas entrantes. De hecho, para excluir un objetivo de otra dimensión, se debe devolver este objetivo a la misma dimensión objetivo que el objetivo principal. Para ello, haga clic en el botón **[!UICONTROL Add]** y especifique las condiciones del cambio de dimensión.
 
-La reconciliación de datos se lleva a cabo mediante un identificador, un eje de cambio o una unión. Hay un ejemplo disponible en [Uso de datos de una lista: Lista de lectura](../../workflow/using/importing-data.md#using-data-from-a-list--read-list).
+La reconciliación de datos se lleva a cabo mediante un identificador, un eje de cambio o una unión. Hay un ejemplo disponible en [Uso de datos de una lista: Lista de lectura](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list).
 
 ![](assets/exclusion_edit_add_rule_01.png)
 
