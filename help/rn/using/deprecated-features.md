@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 82c5f4f4c37f295a6c206eb33616ae9223740f36
-workflow-type: ht
-source-wordcount: '1626'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4efe5f8a9130e7925194e56e088b3745c0cbd11a
+workflow-type: tm+mt
+source-wordcount: '1632'
+ht-degree: 99%
 
 ---
 
@@ -47,12 +47,13 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
   </tr>
   <tr>
   <td>Conectores CRM<br></td>
-   <td><p>A partir de la versión Campaign 20.3, los siguientes conectores CRM quedan obsoletos:</p>
+   <td><p>A partir de la versión 20.3 de la Campaña, los siguientes conectores CRM quedan obsoletos con la Campaña:</p>
    <ul>
    <li>API de Soap: On-Premise: 2007, 2015, 2016</li>
    <li>API de Soap: En línea: 2015, 2016</li>
    <li>API web - Microsoft Dynamics CRM On-premise: 2016, actualización 1 de 2016</li>
    <li>API web - Microsoft Dynamics CRM Online: 2016, actualización 1 de 2016</li>
+   <li>API de Oracle On Demand</li>
    </ul>
   <p><em>Fecha de eliminación objetivo: abril de 2021</em></p>
   </td>
