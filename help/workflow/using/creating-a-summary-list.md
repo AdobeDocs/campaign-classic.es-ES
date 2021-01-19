@@ -6,9 +6,9 @@ description: Creación de la lista de resumen
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
+workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ Estos datos se incluyen en un archivo de texto “Compras.txt”.
 
    La actividad **Carga de datos (archivo)** permite enriquecer la tabla de trabajo del flujo de trabajo con los datos recopilados.
 
-   Para obtener más información sobre esta actividad, consulte [Carga de datos desde un archivo](../../workflow/using/importing-data.md#loading-data-from-a-file).
+   Para obtener más información sobre esta actividad, consulte [Carga de datos desde un archivo](../../platform/using/import-export-workflows.md#loading-data-from-a-file).
 
 1. Configure la actividad **Recolección de archivos** para recopilar archivos de texto (*.txt) del directorio seleccionado.
 
