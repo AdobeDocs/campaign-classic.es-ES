@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 88172a79aad37e6a311b144f4ea685bb4846825b
+source-git-commit: 759346587e3ce98c408a0a17218341118dbceb82
 workflow-type: tm+mt
-source-wordcount: '3814'
-ht-degree: 96%
+source-wordcount: '3869'
+ht-degree: 94%
 
 ---
 
@@ -19,31 +19,39 @@ ht-degree: 96%
 
 Esta página enumera todas las nuevas funciones y actualizaciones de la documentación por mes y por versión de Campaign.
 
-También puede consultar las [Notas de la versión de Adobe Campaign Classic](../../rn/using/latest-release.md) para ver más actualizaciones.
+Consulte las [Notas de la versión de Adobe Campaign Classic](../../rn/using/latest-release.md) para ver las actualizaciones relacionadas con la versión.
 
-## Enero de 2021 {#jan,2021}
+## Enero de 2021 {#jan-2021}
 
-La sección de actividad **[!UICONTROL Fork]** se ha enriquecido con información adicional. Se ha añadido una nota para especificar que las transiciones salientes no se ejecutan simultáneamente y que, por lo tanto, la actividad no debe utilizarse para mejorar el rendimiento de los flujos de trabajo. [Más información](../../workflow/using/fork.md)
+La sección de actividad **[!UICONTROL Fork]** se ha enriquecido con optimizaciones. [Más información](../../workflow/using/fork.md)
 
-La sección de la versión de Locating Tomcat se ha movido [aquí](../../production/using/locate-tomcat-version.md).
+La sección **Conectores de CRM** se ha actualizado, mejorado y reorganizado. [Más información](../../platform/using/crm-connectors.md).
 
-La lista de flujos de trabajo técnicos con sus paquetes asociados se ha reorganizado en una sola página. [Más información](../../workflow/using/about-technical-workflows.md)
+Los pasos para conectar **Adobe Campaign y Microsoft Dynamics** ahora se detallan en una página dedicada. [Más información](../../platform/using/crm-ms-dynamics.md).
 
-La sección de solución de problemas de la guía de supervisión se ha reorganizado y mejorado con una página de aterrizaje. [Más información](../../production/using/troubleshooting.md).
+La API de oracle On Demand ya no se utiliza como CRM conectado con la Campaña. [Más información](../../rn/using/deprecated-features.md).
+
+Conozca cómo averiguar la versión actual del servlet web integrado de Tomcat utilizado en una instancia de Adobe Campaign [aquí](../../production/using/locate-tomcat-version.md).
+
+La lista de flujos de trabajo técnicos con sus paquetes asociados se ha mejorado y centralizado en una sola página. [Más información](../../workflow/using/about-technical-workflows.md)
+
+La sección de solución de problemas de la guía **Monitoreo** se ha reorganizado y mejorado con una página de aterrizaje. [Más información](../../production/using/troubleshooting.md).
+
+Hay una nueva sección **Importación y exportación de datos** disponible con nuevas páginas relacionadas con flujos de trabajo, compresión de datos, cifrado y optimizaciones de importación. [Más información](../../platform/using/get-started-data-import-export.md)
 
 ## Diciembre de 2020 {#dec-2020}
 
-La sección de monitorización de entregas se ha reorganizado por temas. [Más información](../../delivery/using/about-delivery-monitoring.md)
+La sección **Supervisión del Envío** se ha reorganizado en temas temáticos. [Más información](../../delivery/using/about-delivery-monitoring.md)
 
 Se ha agregado un caso de uso sobre cómo agregar las direcciones IP de los remitentes a los registros de entrega. [Más información](../../delivery/using/delivery-dashboard.md#use-case)
 
 Las preguntas frecuentes sobre privacidad se han trasladado a [esta sección](../../platform/using/privacy-faq.md).
 
-Se ha añadido un caso de uso sobre cómo utilizar la funcionalidad Combinar de la actividad de Deduplicación. [Más información](../../workflow/using/deduplication-merge.md)
+Se ha agregado un caso de uso sobre cómo utilizar la funcionalidad de combinación de la actividad **[!UICONTROL Deduplication]**. [Más información](../../workflow/using/deduplication-merge.md)
 
-La página de configuración y protocolo del conector SMS se ha movido [aquí](../../delivery/using/sms-protocol.md).
+La descripción completa del protocolo y la página de configuración del conector SMS ahora está disponible [aquí](../../delivery/using/sms-protocol.md).
 
-Se ha agregado una nota a la sección de mensajería Transactional para advertir que las carpetas de evento no deben configurarse como vistas en las instancias de ejecución, a fin de evitar problemas de derechos de acceso. [Más información](../../message-center/using/event-collection.md)
+Se ha agregado una nota a la sección **Mensajería transaccional** para advertir que las carpetas de evento no deben configurarse como vistas en las instancias de ejecución, para evitar problemas de derechos de acceso. [Más información](../../message-center/using/event-collection.md)
 
 ## Noviembre de 2020 {#nov-2020}
 
@@ -173,7 +181,7 @@ Se han añadido las prácticas recomendadas en la **[!UICONTROL Scheduler]** sec
 
 Se ha actualizado la sección Eliminación de una dirección en cuarentena. Esto incluye la aclaración de los casos en que las direcciones se quitan automáticamente de la lista de cuarentena. [Más información](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-Se han agregado casos de uso sobre cómo [cifrar](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt) y [descifrar](../../workflow/using/importing-data.md#use-case-gpg-decrypt) datos mediante el Panel de control de Campaign y los Flujos de trabajo de la campaña.
+Se han agregado casos de uso sobre cómo [cifrar](../../platform/using/zip-encrypt.md) y [descifrar](../../platform/using/unzip-decrypt.md) datos mediante el Panel de control de Campaign y los Flujos de trabajo de la campaña.
 
 La página de integración de Activadores de Experience Cloud y Adobe Campaign Classic se ha movido [aquí](../../integrations/using/about-triggers.md).
 
