@@ -6,11 +6,11 @@ description: Preguntas frecuentes sobre Campaign Classic
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '366'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
+workflow-type: tm+mt
+source-wordcount: '362'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Obtenga información sobre cómo organizar procesos y tareas con los flujos de t
 
 ## ¿Cómo se puede importar datos en Campaign?{#how-can-i-import-data-in-campaign-}
 
-Consulte las prácticas recomendadas para importar datos a través de un flujo de trabajo de Campaign [en esta sección](../../workflow/using/importing-data.md).
+Conozca las prácticas recomendadas para importar datos en [esta sección](../../platform/using/import-export-best-practices.md).
 
 ## ¿Se puede monitorizar la ejecución del flujo de trabajo?{#can-i-monitor-workflow-execution-}
 
@@ -59,7 +59,7 @@ Aprenda a dividir un destino en varios subconjuntos [en esta sección](../../wor
 
 Puede modificar ciertos campos de una tabla en Campaign con valores de un archivo de texto externo.
 
-[Haga clic aquí para aprender cómo](../../platform/using/importing-data.md#example--enrich-the-values-with-those-of-an-external-file).
+[Haga clic aquí para aprender cómo](../../platform/using/import-operations-samples.md#example--enrich-the-values-with-those-of-an-external-file).
 
 ## ¿Cómo se puede identificar y segmentar nuevos destinatarios?{#how-can-i-identify-and-target-new-recipients-}
 
