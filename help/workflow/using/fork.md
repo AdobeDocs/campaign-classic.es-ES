@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 translation-type: tm+mt
-source-git-commit: d35b22386bd2681ba02e4379c627821b35a7d04e
+source-git-commit: e5f718908d0bb6893e54c51700865ecda09c80db
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 16%
+source-wordcount: '196'
+ht-degree: 9%
 
 ---
 
@@ -28,11 +28,9 @@ También puede utilizar la actividad en el contexto de la creación de contenido
 
 >[!IMPORTANT]
 >
->Tenga en cuenta que las transiciones de salida agregadas después de una actividad de horquilla no se ejecutarán simultáneamente.
->
->Por lo tanto, la actividad no debe utilizarse para mejorar el rendimiento del flujo de trabajo, sino para ejecutar varias actividades de forma independiente y, finalmente, unirlas antes de ejecutar el resto del flujo de trabajo.
+>Las transiciones salientes agregadas después de una actividad **[!UICONTROL Fork]** **no se ejecutarán** simultáneamente. Este comportamiento puede afectar al rendimiento del flujo de trabajo. Utilice esta actividad si necesita ejecutar varias actividades de forma independiente y, finalmente, únelas antes de ejecutar el resto del flujo de trabajo.
 
-Para configurar la actividad, ábrala y defina el número y la etiqueta de las transiciones de salida que desee.
+Para configurar la actividad **[!UICONTROL Fork]**, ábrala y defina el número y la etiqueta de las transiciones salientes.
 
 ![](assets/s_user_segmentation_fork.png)
 
