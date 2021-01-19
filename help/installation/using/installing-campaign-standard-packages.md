@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+source-git-commit: 44f2aed49a12d51bb3b38f304e6b922f0faf68cc
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1173'
 ht-degree: 11%
 
 ---
@@ -101,7 +101,7 @@ La siguiente tabla lista todos los paquetes integrados de Campaña.
   </tr> 
   <tr> 
    <td> Control de mensaje transaccional (Centro de mensajes - Control)<br /> </td> 
-   <td> Gestiona los mensajes de activación generados a partir de eventos activados desde sistemas de información. Opcional. <a href="../../message-center/using/about-transactional-messaging.md">Más información</a> <br /> </td> 
+   <td> Gestiona los mensajes de déclencheur generados a partir de eventos activados desde sistemas de información. Opcional. <a href="../../message-center/using/about-transactional-messaging.md">Más información</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -122,6 +122,11 @@ La siguiente tabla lista todos los paquetes integrados de Campaña.
   <tr> 
    <td> Canal móvil (SMS) <br /> </td> 
    <td> Envía envíos mediante el canal móvil/SMS con Adobe Campaign. Opcional. <a href="../../delivery/using/sms-channel.md">Más información</a> <br /> </td> 
+   <td> Todo<br /> </td> 
+  </tr> 
+   <tr> 
+   <td> Canal de teléfono<br /> </td> 
+   <td> Envía envíos mediante el canal telefónico con Adobe Campaign. Se utiliza para el centro de llamadas. Opcional. <a href="../../delivery/using/communication-channels.md">Más información</a> <br /> </td> 
    <td> Todo<br /> </td> 
   </tr> 
   <tr> 
