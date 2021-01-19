@@ -7,9 +7,9 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 43037b2b6b4e3b42f4b666d85a664b9fb117a015
 workflow-type: tm+mt
-source-wordcount: '2820'
+source-wordcount: '2786'
 ht-degree: 0%
 
 ---
@@ -616,11 +616,11 @@ Todos los informes estándar utilizan actualmente el motor de procesamiento v6.x
 
 ### Informes personalizados {#personalized-reports}
 
-Si desea que la pancarta azul de la versión 7 (que le permita acceder a los universos), debe volver a publicar los informes. Si tiene problemas, puede forzar el motor de procesamiento v6.0. Para ello, vaya a **[!UICONTROL Properties]** dentro del informe, haga clic en **[!UICONTROL Rendering]** y elija el motor de procesamiento **[!UICONTROL Version 6.0 (Flash & OpenOffice)]**.
+<!--If you want to have the blue banner from v7 (allowing you access to the universes), you must republish reports. If you encounter problems, you can force the v6.0 rendering engine. To do this, go to **[!UICONTROL Properties]** within the report, click **[!UICONTROL Rendering]** and choose the **[!UICONTROL Version 6.0 (Flash & OpenOffice)]** rendering engine.
 
 ![](assets/migration_reports_1.png)
-
-Si desea beneficiarse de las nuevas funcionalidades del informe, debe seleccionar el motor de procesamiento v.6.x. En este caso, compruebe todos los scripts y cámbielos si es necesario. En cuanto a la exportación a PDF, si ha agregado una secuencia de comandos específica para OpenOffice, ya no funcionará con el nuevo motor de exportación a PDF (PhantomJS).
+-->
+Si desea beneficiarse de las nuevas funcionalidades del informe, debe volver a publicar los informes. Para ello, edite el informe **[!UICONTROL Properties]**, haga clic en **[!UICONTROL Rendering]** y seleccione el motor de procesamiento v.6.x. En este caso, compruebe todos los scripts y cámbielos si es necesario. En cuanto a la exportación a PDF, si ha agregado una secuencia de comandos específica para Open Office, ya no funcionará con el nuevo motor de exportación a PDF (PhantomJS).
 
 ## Aplicaciones web {#web-applications}
 
