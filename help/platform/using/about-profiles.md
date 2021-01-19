@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 99%
@@ -45,7 +45,7 @@ Los métodos principales para crear perfiles de destinatario son los siguientes:
 
 >[!NOTE]
 >
->Para saber cómo se importan los archivos y los formularios web, consulte [Importar y exportar genéricas](../../platform/using/generic-imports-and-exports.md).
+>Para saber cómo se importan los archivos y los formularios web, consulte [Importar y exportar genéricas](../../platform/using/get-started-data-import-export.md).
 
 ## Perfiles y público objetivo {#profiles-and-targets}
 
@@ -58,7 +58,7 @@ También le proporciona acceso a:
 * listas; consulte [Creación y gestión de listas](../../platform/using/creating-and-managing-lists.md),
 * servicios de suscripción; consulte [esta página](../../delivery/using/managing-subscriptions.md),
 * aplicaciones web; consulte [esta página](../../web/using/about-web-applications.md),
-* importaciones y exportaciones (puestos de trabajo); consulte [importaciones y exportaciones genéricas](../../platform/using/generic-imports-and-exports.md),
+* importaciones y exportaciones (puestos de trabajo); consulte [importaciones y exportaciones genéricas](../../platform/using/about-generic-imports-exports.md),
 * flujos de trabajo de destinatarios; consulte [esta página](../../workflow/using/building-a-workflow.md#implementation-steps-).
 
 La página de destinatarios permite realizar operaciones frecuentes en los perfiles, como ediciones, actualizaciones, adiciones, eliminaciones y operaciones de ordenación.
