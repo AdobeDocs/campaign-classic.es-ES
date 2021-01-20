@@ -78,10 +78,10 @@ ht-degree: 94%
          + [Configuración de los trabajos de exportación](platform/using/executing-export-jobs.md)
          + [Supervisión de la ejecución de trabajos](platform/using/monitoring-jobs-execution.md)
          + [Muestras de importación genéricas](platform/using/import-operations-samples.md)
-      + Administración del cifrado y la compresión de datos {administración-datos-encriptación-compresión}
+      + Administración del cifrado y la compresión de datos {managing-data-encryption-compression}
          + [Descompresión o desencriptado de un archivo antes de procesarlo](platform/using/unzip-decrypt.md)
          + [Cifrado o extracción de un archivo antes de procesarlo](platform/using/zip-encrypt.md)
-      + Prácticas recomendadas y solución de problemas {prácticas recomendadas}
+      + Prácticas recomendadas y solución de problemas {best-practices}
          + [Prácticas recomendadas de importación y exportación](platform/using/import-export-best-practices.md)
          + [Prácticas recomendadas y solución de problemas del servidor SFTP](platform/using/sftp-server-usage.md)
    + Filtrado de datos {#filtering-data}
