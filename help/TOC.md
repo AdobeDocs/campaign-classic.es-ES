@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: ef502c023918baa1ae56b9619c7ab488ddf909e3
+source-git-commit: 048ceef9e4498b557601f3eb2db839e415d6e8c5
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2290'
 ht-degree: 94%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 94%
    + Importación y exportación de datos {#importing-and-exporting-data}
       + [Introducción a la importación y exportación de datos](platform/using/get-started-data-import-export.md)
       + [Importación y exportación de datos mediante flujos de trabajo](platform/using/import-export-workflows.md)
-      + Trabajar con importaciones y exportaciones genéricas {generic-import-export}
+      + Trabajar con importaciones y exportaciones genéricas {#generic-imports-exports}
          + [Introducción a las importaciones y exportaciones genéricas](platform/using/about-generic-imports-exports.md)
          + [Creación de plantillas de importación y exportación](platform/using/creating-import-export-templates.md)
          + [Creación de trabajos de importación y exportación](platform/using/creating-import-export-jobs.md)
@@ -78,10 +78,10 @@ ht-degree: 94%
          + [Configuración de los trabajos de exportación](platform/using/executing-export-jobs.md)
          + [Supervisión de la ejecución de trabajos](platform/using/monitoring-jobs-execution.md)
          + [Muestras de importación genéricas](platform/using/import-operations-samples.md)
-      + Administración del cifrado y la compresión de datos {managing-data-encryption-compression}
+      + Administración del cifrado y la compresión de datos {#managing-data-encryption-compression}
          + [Descompresión o desencriptado de un archivo antes de procesarlo](platform/using/unzip-decrypt.md)
          + [Cifrado o extracción de un archivo antes de procesarlo](platform/using/zip-encrypt.md)
-      + Prácticas recomendadas y solución de problemas {best-practices}
+      + Prácticas recomendadas y solución de problemas {#best-practices}
          + [Prácticas recomendadas de importación y exportación](platform/using/import-export-best-practices.md)
          + [Prácticas recomendadas y solución de problemas del servidor SFTP](platform/using/sftp-server-usage.md)
    + Filtrado de datos {#filtering-data}
