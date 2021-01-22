@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 translation-type: tm+mt
-source-git-commit: 7478ae37aee5e8b0d9c904f5b9d810375d9d6481
+source-git-commit: 521bc3bf9b2507947007d7f458679275d407f910
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 4%
+source-wordcount: '958'
+ht-degree: 5%
 
 ---
 
@@ -188,3 +188,22 @@ Campaña y Microsoft Dynamics ahora están conectados. Puede configurar la sincr
 Vea este vídeo para aprender a integrar Dynamics 365 con Adobe Campaign Classic en el contexto de una implementación de Office 365.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23837?quality=12)
+
+
+## Tipos de datos de campo admitidos {#ms-dyn-supported-types}
+
+Para Microsoft Dynamics 365, los tipos de atributos admitidos o no admitidos se enumeran a continuación:
+
+
+| Tipo de atributo | Admitido |
+| --------------------------------------------------------------------------------- | --------- |
+| Tipos básicos: booleano, datetime, decimal, flotante, doble, entero, bigint, cadena | Sí |
+| Dinero (como doble) | Sí |
+| memo, entityname, primarykey, uniqueidentifier (como cadenas) | Sí |
+| Estado, lista de selección (almacenamos los valores posibles en listas desglosadas), estado (cadena) | Sí |
+| propietario (como cadena) | Sí |
+| Búsqueda (solo búsquedas de referencia de entidad única) | Sí |
+| cliente | No |
+| Acerca de | No |
+| PartyList | No |
+| ManagedProperty | No |
