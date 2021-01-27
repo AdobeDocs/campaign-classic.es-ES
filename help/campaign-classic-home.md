@@ -5,9 +5,9 @@ product: campaign
 title: Documentación del producto Adobe Campaign Classic
 topic: Premium
 translation-type: tm+mt
-source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
+source-git-commit: f6099fa9c8d1df7bc82dd9be0b575ca7f20b6645
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '292'
 ht-degree: 82%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 82%
 
 * **[¿Conectarse a través de IMS/Adobe ID? Actualice a las últimas compilaciones](integrations/using/about-adobe-id.md)**<br/> Si utiliza IMS para conectarse a Campaña, debe actualizar para poder conectarse a Campaña después del** 21 de marzo de 2021 **.
 
-* **[Boletín de seguridad ](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)**<br/> de campañaActualice a las últimas compilaciones para proteger su plataforma de Campaña.
+* **[Proteja sus ](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)**<br/> instancias de CampañaActualice a las últimas compilaciones para proteger su plataforma de Campaña.
 
 * **[Eliminación de rebotes duros incorrectos](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Obtenga información sobre cómo actualizar los rebotes duros incorrectos tras la interrupción de Gmail
 
