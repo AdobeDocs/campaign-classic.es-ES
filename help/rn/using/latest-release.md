@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 5b7639e7e64d4cb42d3ae77b04ba90a45fb58159
+source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
 workflow-type: tm+mt
-source-wordcount: '1911'
-ht-degree: 98%
+source-wordcount: '1937'
+ht-degree: 97%
 
 ---
 
@@ -29,11 +29,22 @@ _11 de enero de 2021_
 
 
 
-* Se ha corregido un problema de regresión relacionado con el proceso de generación de logs de banda ancha que podía provocar el bloqueo del proceso de MTA.
+* Se ha corregido un problema de regresión relacionado con el proceso de generación de registros de banda ancha que podía provocar el bloqueo del proceso de MTA.
 
 ## ![](assets/do-not-localize/red_2.png) Versión 20.3.1: compilación 9228 {#release-20-3-1-build-9228}
 
 _27 de octubre de 2020_
+
+>[!CAUTION]
+>
+> * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaña a través de Adobe Identity Service (IMS), la actualización es obligatoria tanto para el servidor de Campaña como para la consola cliente para poder conectarse a la Campaña después del **21 de marzo de 2021**.
+   >
+   > 
+* Esta versión incluye una corrección de seguridad: la actualización es obligatoria para reforzar la seguridad de su entorno.
+
+>
+
+
 
 **Novedades**
 
@@ -74,10 +85,6 @@ _27 de octubre de 2020_
 </tr> 
 </tbody> 
 </table>
-
->[!CAUTION]
->
->Esta versión incorpora un nuevo protocolo de conexión: la actualización es obligatoria para que el servidor de Campaign y la consola del cliente puedan conectarse a Campaign después del 21 de marzo de 2021.
 
 **Mejoras de seguridad**
 
@@ -126,7 +133,7 @@ Obtenga más información en la página [Funciones obsoletas y eliminadas](../..
    * En el menú **Acerca**, se ha añadido información para distinguir las consolas de 64 y 32 bits.
 * El identificador de flujo de trabajo ahora se muestra en los registros al reanudar un flujo de trabajo, lo que le permite identificar mejor qué flujo de trabajo se ha reanudado.
 * Se ha introducido una nueva cookie permanente: nllastdelid. Esta cookie (que no sea UUID230) almacenará deliveryId. Cuando la cookie de sesión no está presente, la información del broadlog se tomaría de deliveryId presente en esta cookie.
-Este cambio corrige un problema que se producía al finalizar la sesión del explorador: se eliminó la cookie de sesión que contenía deliveryId y BroadlogId. Sin deliveryId, no se pudo encontrar la información de broadlog y faltaría la información de la tabla de seguimiento en caso de un seguimiento permanente (último envío).
+Este cambio corrige un problema que se producía al finalizar la sesión del explorador: se eliminó la cookie de sesión que contenía deliveryId y broadlogId. Sin deliveryId, no se pudo encontrar la información de broadlog y faltaría la información de la tabla de seguimiento en caso de un seguimiento permanente (último envío).
 Obtenga más información sobre las cookies en [esta sección](../../platform/using/privacy-and-recommendations.md#cookies).
 * Se mejoró el rendimiento de la producción del envío de gran volumen con el servidor de entrega al reiniciar el proceso de MTA antes de los envíos.
 
