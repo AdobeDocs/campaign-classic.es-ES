@@ -6,16 +6,18 @@ description: Obtenga más información sobre la integración de Adobe IMS
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '152'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
+workflow-type: tm+mt
+source-wordcount: '194'
+ht-degree: 68%
 
 ---
 
 
 # Acerca de la Adobe ID{#about-adobe-id}
+
+Adobe Identity Management System (IMS) ayuda a los administradores a crear y administrar el acceso del usuario a aplicaciones y servicios. Para obtener más información sobre los distintos tipos de ID de Adobe, consulte [esta página](https://helpx.adobe.com/es/enterprise/using/identity.html).
 
 Los usuarios de la campaña pueden conectarse a la consola de Adobe Campaign con su Adobe ID. La integración proporciona las siguientes ventajas:
 
@@ -24,11 +26,21 @@ Los usuarios de la campaña pueden conectarse a la consola de Adobe Campaign con
 * Política de gestión segura de contraseñas.
 * Uso de cuentas de ID federadas (proveedor de ID externo).
 
-Adobe Identity Management System (IMS) ayuda a los administradores a crear y administrar el acceso del usuario a aplicaciones y servicios. Para obtener más información sobre los distintos tipos de ID de Adobe, consulte [esta página](https://helpx.adobe.com/es/enterprise/using/identity.html).
 
 >[!IMPORTANT]
 >
->La implementación IMS de Adobe está estrictamente reservada para los administradores técnicos de Adobe. Póngase en contacto con su ejecutivo de Adobe para iniciar el proceso de implementación.
+>Si se está conectando a Campaña a través de Adobe Identity Service (IMS), debe actualizar a la última compilación para poder conectarse a Campaña después del **21 de marzo de 2021**. Esta actualización es obligatoria tanto para el servidor de Campaña como para la consola del cliente. Según la versión actual, debe actualizar a una de las siguientes versiones:
+>
+> * [Campaña Gold Standard 11](../../rn/using/gold-standard.md)
+> * [Campaña 20.3.3](../../rn/using/latest-release.md)
+> * [Campaña 20.2.4](../../rn/using/release--20-2.md)
+> * [Campaña 20.1.4](../../rn/using/release--20-1.md)
+> * [Campaña 19.2.4](../../rn/using/release--19-2.md)
+> * [Campaña 19.1.8](../../rn/using/release--19-1.md)
+
+>
+
+
 
 ## Temas relacionados
 
