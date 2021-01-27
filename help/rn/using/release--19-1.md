@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
+source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
 workflow-type: tm+mt
-source-wordcount: '3061'
-ht-degree: 100%
+source-wordcount: '3087'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,15 @@ _16 de diciembre de 2020_
 
 >[!CAUTION]
 >
->Esta versión incorpora un nuevo protocolo de conexión: la actualización es obligatoria para que el servidor de Campaign y la consola del cliente puedan conectarse a Campaign después del 21 de marzo de 2021.
+> * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaña a través de Adobe Identity Service (IMS), la actualización es obligatoria tanto para el servidor de Campaña como para la consola cliente para poder conectarse a la Campaña después del **21 de marzo de 2021**.
+   >
+   > 
+* Esta versión incluye una corrección de seguridad: la actualización es obligatoria para reforzar la seguridad de su entorno.
+
+>
+
+
+
 
 **Mejoras**
 
