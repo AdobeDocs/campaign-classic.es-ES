@@ -6,11 +6,11 @@ description: Más información sobre las actualizaciones de Campaign Classic
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 51993e6f606132e425553da67687aca76e166dbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Como usuario On-Premise, puede realizar la actualización. Para ello, debe [desc
 
 ### Gold Standard{#upgrade-for-gold-standard-users}
 
-Como usuario de Gold Standard alojado, se beneficiará automáticamente de la actualización de Gold Standard con la [última compilación de GA Gold Standard](../../rn/using/gold-standard.md#gs-10) sin ninguna acción. [Más información](https://helpx.adobe.com/es/campaign/kb/gold-standard.html).
+Como usuario de Gold Standard, se beneficiará automáticamente de la actualización de Gold Standard [con la última versión de GA Gold Standard ](../../rn/using/gold-standard.md#gs-10) sin tener que realizar ninguna acción. [Más información](https://helpx.adobe.com/es/campaign/kb/gold-standard.html).
 
 >[!NOTE]
 >La matriz de compatibilidad para Gold Standard está disponible en la [matriz de compatibilidad de GA](../../rn/using/compatibility-matrix-gs.md).
