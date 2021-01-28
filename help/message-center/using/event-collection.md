@@ -6,11 +6,11 @@ description: Recopilación de eventos
 audience: message-center
 content-type: reference
 topic-tags: event-processing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d1130691e40c0cac183db37a4c0b410d00bb696a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -28,4 +28,4 @@ Una vez recopilados, los eventos se desglosan, por flujos de trabajo técnicos, 
 
 >[!NOTE]
 >
->En las instancias de ejecución, las carpetas **[!UICONTROL Real time events]** o **[!UICONTROL Batch events]** no deben configurarse como vistas, ya que esto podría provocar [problemas con el derecho de acceso](../../platform/using/access-management.md#about-permissions). Para obtener más información sobre la configuración de una carpeta como vista, consulte [Acerca de las vistas](../../platform/using/access-management.md#about-views).
+>En las instancias de ejecución, las carpetas **[!UICONTROL Real time events]** o **[!UICONTROL Batch events]** no deben configurarse como vistas, ya que esto podría provocar problemas con el [derecho de acceso](../../platform/using/access-management.md#about-permissions). Para obtener más información sobre la configuración de una carpeta como vista, consulte [Acerca de las vistas](../../platform/using/access-management.md#about-views).
