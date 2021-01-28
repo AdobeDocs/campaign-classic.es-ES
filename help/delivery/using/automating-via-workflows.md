@@ -6,11 +6,11 @@ description: Automatización mediante flujos de trabajo
 audience: delivery
 content-type: reference
 topic-tags: content-management
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3eecc16442a11849c12819cf83392f60c5b82a13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1186'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -200,7 +200,7 @@ Este ejemplo utiliza el mismo concepto que el primero; solo genera la acción de
 
 La primera tarea de **Create delivery** crea la acción de entrega.
 
-La actividad de la bifurcación permite iniciar el cálculo del destinatario y la creación de la instancia de contenido en paralelo.
+La actividad de ramificación permite iniciar el cálculo de segmentación y la creación de la instancia de contenido al mismo tiempo.
 
 Una vez ejecutadas las tareas, el cuadro AND-join activa la tarea de **Delivery** para iniciar la entrega creada previamente para el contenido y el destino.
 
