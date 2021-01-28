@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
 workflow-type: tm+mt
 source-wordcount: '2926'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -281,7 +281,7 @@ Una vez concedidas todas las aprobaciones, el estado de entrega cambia a **[!UIC
 
 >[!NOTE]
 >
->Los flujos de trabajo técnicos relacionados con el paquete de Campaña se presentan en [Lista de flujos de trabajo técnicos](../../workflow/using/about-technical-workflows.md).
+>Los flujos de trabajo técnicos relacionados con el paquete de Campaign se presentan en [Lista de flujos de trabajo técnicos](../../workflow/using/about-technical-workflows.md).
 
 **Paso 1: Aprobación de archivos**
 
