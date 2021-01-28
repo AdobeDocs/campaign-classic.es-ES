@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 048ceef9e4498b557601f3eb2db839e415d6e8c5
 workflow-type: tm+mt
 source-wordcount: '2290'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -453,10 +453,10 @@ ht-degree: 94%
          + [Creación de la lista de resumen](workflow/using/creating-a-summary-list.md)
          + [Enriquecimiento de datos](workflow/using/enriching-data.md)
          + [Uso de agregados](workflow/using/using-aggregates.md)
-         + [Uso de la funcionalidad de combinación de la actividad de Deduplicación](workflow/using/deduplication-merge.md)
+         + [Uso de la funcionalidad de combinación en la actividad de Deduplicación](workflow/using/deduplication-merge.md)
          + [Configuración de un flujo de trabajo de importación recurrente](workflow/using/recurring-import-workflow.md)
       + Diseño de consultas {#designing-queries}
-         + [Actualización de lista trimestral con una consulta incremental](workflow/using/quarterly-list-update.md)
+         + [Actualización trimestral de la lista con una consulta incremental](workflow/using/quarterly-list-update.md)
       + Segmentación {#designing-queries}
          + [Consulta de la tabla de destinatarios](workflow/using/querying-recipient-table.md)
          + [Consulta de información de entrega](workflow/using/querying-delivery-information.md)
@@ -618,7 +618,7 @@ ht-degree: 94%
       + [Creación y configuración de la base de datos](installation/using/creating-and-configuring-the-database.md)
       + [Configuración del servidor de Campaign](installation/using/campaign-server-configuration.md)
       + [Implementación de una instancia](installation/using/deploying-an-instance.md)
-      + [Instalación de paquetes integrados Campaign Classic](installation/using/installing-campaign-standard-packages.md)
+      + [Instalación de paquetes integrados de Campaign Classic](installation/using/installing-campaign-standard-packages.md)
    + Configuraciones adicionales {#additional-configurations}
       + [Configuración del servidor de Campaign](installation/using/configuring-campaign-server.md)
       + [Conexión mediante LDAP](installation/using/connecting-through-ldap.md)
@@ -684,7 +684,7 @@ ht-degree: 94%
       + [Recomendaciones específicas de RDBMS](production/using/rdbms-specific-recommendations.md)
       + [Objetos de aplicación](production/using/application-objects.md)
    + Resolución de problemas {#troubleshooting-toc}
-      + [Visión general de la solución de problemas de producción](production/using/troubleshooting.md)
+      + [Descripción general de la solución de problemas de producción](production/using/troubleshooting.md)
       + Problemas comunes y generales {#common-general-issues-toc}
          + [Módulos y problemas frecuentes](production/using/modules-and-frequent-issues.md)
          + [Ejecución del flujo de trabajo](production/using/workflow-execution.md)
