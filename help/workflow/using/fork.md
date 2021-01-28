@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e5f718908d0bb6893e54c51700865ecda09c80db
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 9%
+ht-degree: 54%
 
 ---
 
@@ -22,9 +22,9 @@ La actividad **[!UICONTROL Fork]** le permite crear varias transiciones saliente
 Por ejemplo, puede utilizar la actividad después de una consulta para realizar dos acciones en paralelo:
 
 * Guarde el resultado de la consulta en una audiencia,
-* Ejecute una segmentación en el resultado para enviar varios envíos.
+* Ejecute una segmentación en el resultado para entregar varios envíos.
 
-También puede utilizar la actividad en el contexto de la creación de contenido y la automatización del envío de envíos, para iniciar el cálculo de destinatarios y la creación de contenido en paralelo. Hay un caso de uso específico en [esta sección](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content).
+También puede utilizar la actividad en el contexto de la creación de contenido y la automatización de entregas de envíos para iniciar el cálculo de destinatarios y la creación de contenido al mismo tiempo. Hay un caso de uso específico en [esta sección](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content).
 
 >[!IMPORTANT]
 >
