@@ -5,11 +5,11 @@ title: Definición de la audiencia correcta
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe7ff64d24113e026a47aa1c9f08daacce2b383e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -65,8 +65,8 @@ Las direcciones duplicadas protegen su reputación de envío y garantizan una bu
 
 **Temas relacionados:**
 
-* [Actividad](../../workflow/using/deduplication.md) de deduplicación.
-* [Caso de uso: Uso de la funcionalidad de combinación de la actividad de Deduplicación](../../workflow/using/deduplication-merge.md)
+* [Actividad de anulación de duplicación](../../workflow/using/deduplication.md).
+* [Caso de uso: Uso de la funcionalidad de combinación de la actividad de anulación de duplicación](../../workflow/using/deduplication-merge.md)
 
 ## Indexación de direcciones de correo electrónico {#index-addresses}
 
