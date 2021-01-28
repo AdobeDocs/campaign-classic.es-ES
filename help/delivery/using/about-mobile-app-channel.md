@@ -6,11 +6,11 @@ description: Esta sección proporciona información general específica del cana
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '755'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
