@@ -6,11 +6,11 @@ description: AND-join
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3eecc16442a11849c12819cf83392f60c5b82a13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
