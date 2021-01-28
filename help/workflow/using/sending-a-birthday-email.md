@@ -6,11 +6,11 @@ description: Descubra más información sobre cómo enviar un correo electrónic
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '881'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -204,7 +204,7 @@ Agregue una actividad de **Recurring delivery** basada en la plantilla de correo
 
 >[!CAUTION]
 >
->Para que los flujos de trabajo se ejecuten, deben iniciarse los flujos de trabajo técnicos relativos al paquete de Campaña. Para obtener más información sobre esto, consulte la sección [Lista de flujos de trabajo técnicos](../../workflow/using/about-technical-workflows.md).
+>Para que se ejecuten los flujos de trabajo, se deben iniciar los flujos de trabajo técnicos relacionados con el paquete de Campaign. Para obtener más información sobre esto, consulte la sección [Lista de flujos de trabajo técnicos](../../workflow/using/about-technical-workflows.md).
 >
 >Si los pasos de aprobación están habilitados para la campaña, las entregas solo se realizan una vez que estén confirmados los pasos. Para obtener más información sobre esto, consulte la sección [Elección de los procesos que se van a aprobar](../../campaign/using/marketing-campaign-approval.md#choosing-the-processes-to-be-approved) .
 
