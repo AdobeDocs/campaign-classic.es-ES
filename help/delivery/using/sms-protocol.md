@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: Configuración y protocolo del conector SMS
-description: Obtenga más información sobre el conector SMS y cómo configurarlo.
+description: Obtenga más información sobre el conector de SMS y cómo configurarlo.
 audience: delivery
 content-type: reference
 topic-tags: configuring-channels
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9a104fdc7bed89f56178d5ab638e1440e6342efc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8424'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->El protocolo de conector **SMS y la configuración** para Adobe Campaign Standard se encuentran en esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-sms/sms-protocol.html#administrating).
+>El **protocolo de conector SMS y la configuración** para Adobe Campaign Standard se encuentran en esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-sms/sms-protocol.html?lang=es#administrating).
 >
->A través de este documento, todas las referencias a los detalles sobre el protocolo, los nombres de campo y los valores se refieren a la especificación [SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
+>A través de este documento, todas las referencias a los detalles sobre el protocolo, los nombres de campo y los valores se refieren a la [especificación SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
 ## Información general {#overview}
 
@@ -29,8 +29,8 @@ Los SMS pueden limitarse a enviar mensajes de texto cortos sin formato, pero su 
 Existen dos maneras principales de enviar un SMS:
 
 * Enviarlo manualmente desde un teléfono, la forma habitual de comunicarse directamente entre personas.
-* Envíalo desde Internet, de la forma en que Adobe Campaign envía mensajes. Para eso, necesitas un proveedor de servicio de SMS que conecte Internet a la red móvil.
-Adobe Campaign utiliza el protocolo SMPP para enviar SMS a un proveedor de servicio.
+* Enviarlo desde Internet, la forma en que Adobe Campaign envía mensajes. Para eso, se necesita un proveedor de servicios de SMS que conecte Internet a la red móvil.
+Adobe Campaign utiliza el protocolo SMPP para enviar SMS a un proveedor de servicios.
 
 Este documento le guiará a través de la conexión configurada entre Adobe Campaign y un proveedor SMPP.
 
@@ -40,48 +40,48 @@ Los proveedores de SMPP a veces pueden desviarse de la especificación oficial, 
 >
 >La configuración de una conexión con un nuevo proveedor puede requerir algunas habilidades técnicas, conocimientos de TCP, representación binaria, hexadecimal y codificaciones de texto. También requerirá una cooperación activa con el proveedor.
 
-### Tipos SMS {#sms-types}
+### Tipos de SMS {#sms-types}
 
-Al enviar SMS masivos a través de un proveedor de SMS, te encontrarás con tres tipos diferentes de SMS:
+Al enviar SMS masivos a través de un proveedor de SMS, se encontrará con tres tipos diferentes de SMS:
 
 * **SMS MT (móvil finalizado)**: un SMS emitido por Adobe Campaign hacia los teléfonos móviles a través del proveedor de SMPP.
 
 * **SMS MO (móvil original)**: un SMS que un móvil envía a Adobe Campaign a través del proveedor de SMPP.
 
-* **SMS SR (informe de estado) o DR o DLR (recibo de Envío)**: un recibo de devolución enviado por el móvil a Adobe Campaign a través del proveedor de SMPP que indica que el SMS se ha recibido correctamente. Adobe Campaign también puede recibir SR indicando que el mensaje no se pudo entregar, a menudo con una descripción del error.
+* **SMS SR (informe de estado) o DR o DLR (recibo de envío)**: un recibo de devolución enviado por el móvil a Adobe Campaign a través del proveedor de SMPP que indica que el SMS se ha recibido correctamente. Adobe Campaign también puede recibir SR indicando que el mensaje no se pudo entregar, a menudo con una descripción del error.
 
-Debe distinguir entre reconocimientos (RESP PDU, parte del protocolo SMPP) y SR: SR es un tipo de SMS que se envía a través de la red de extremo a extremo, mientras que un reconocimiento es sólo una confirmación de que una transferencia ha sido exitosa.
+Debe distinguir entre reconocimientos (RESP PDU, parte del protocolo SMPP) y SR: SR es un tipo de SMS que se envía a través de la red de extremo a extremo, mientras que un reconocimiento es solo una confirmación de que una transferencia se ha realizado con éxito.
 
-Tanto los reconocimientos como SR pueden déclencheur errores, si se distinguen entre los dos se ayudará a solucionar los problemas.
+Tanto los reconocimientos como SR pueden desencadenar errores. Si se distingue entre los dos, se ayudará a solucionar los problemas.
 
 ### Información transmitida por un SMS {#information-sms}
 
-Un SMS lleva más información que texto. Aquí una lista de lo que puedes esperar encontrar en un SMS:
+Un SMS lleva más información que texto. Aquí hay una lista de lo que puede encontrar en un SMS:
 
-* El texto, que está limitado a 140 bytes, significa entre 70 y 160 caracteres en función de la codificación. Consulte [Codificación de texto SMS](../../delivery/using/sms-protocol.md#sms-text-encoding) a continuación para obtener detalles y limitaciones.
+* El texto está limitado a 140 bytes, lo que significa entre 70 y 160 caracteres en función de la codificación. Consulte [Codificación de texto SMS](../../delivery/using/sms-protocol.md#sms-text-encoding) a continuación para obtener detalles y limitaciones.
 
 * Una dirección de destinatario, a veces denominada `ADC` o `MSISDN`. Ese es el número del móvil que recibirá el SMS.
 
-* Una dirección de remitente, que puede llamarse `oADC` o a veces `sender id`. Puede ser un número de teléfono de uso diario, un código corto cuando se envía a través de un proveedor o un nombre. El nombre es una característica opcional, en ese caso no puedes responder al mensaje de texto.
+* Una dirección de remitente, que puede llamarse `oADC` o, a veces, `sender id`. Puede ser un número de teléfono de uso diario, un código corto cuando se envía a través de un proveedor o un nombre. El nombre es una característica opcional, en ese caso no puede responder al mensaje de texto.
 
-* Un indicador que indica si el mensaje es un mensaje flash. Un mensaje flash es una ventana emergente que no se almacena en la memoria.
+* Un indicador que señala si el mensaje es un mensaje flash. Un mensaje flash es una ventana emergente que no se almacena en la memoria.
 
-* Un indicador que indica si se espera o no un SR.
+* Un indicador que señala si se espera o no un SR.
 
-* Una fecha de validez, después de la cual no se permite volver a intentar ningún equipo de red.
+* Una fecha de validez, después de la cual no se permite reintentar ningún equipo de red.
 
-* Campo `data_coding` que indica la codificación del texto.
+* Un campo `data_coding` que indica la codificación del texto.
 
 ## Protocolo SMPP {#smpp-protocol}
 
-Adobe Campaign Classic admite la versión 3.4 del protocolo SMPP. Este es un protocolo muy extendido que permite enviar SMS a un proveedor (SMSC) y recibir SMS, así como recibos. Para obtener más información sobre esto, consulte la [documentación de SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
+Adobe Campaign Classic admite la versión 3.4 del protocolo SMPP. Este es un protocolo muy extendido que permite enviar SMS a un proveedor (SMSC) y recibir SMS, así como recibos. Para obtener más información, consulte la [documentación de SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
-El equipo de red en el lado del proveedor de servicio SMS es a menudo llamado SMSC.
+El equipo de red en el lado del proveedor de servicios SMS suele conocerse como SMSC.
 
 ### Conexiones SMPP {#smpp-connections}
 
-Adobe Campaign se conecta al equipo de red del proveedor de servicio SMS a través de TCP. El protocolo SMPP establece conexiones TCP permanentes de Adobe Campaign al proveedor. Las conexiones TCP siempre son iniciadas por Adobe Campaign, incluso para recibir mensajes.
-SMPP abre 1 ó 2 conexiones TCP, dependiendo de su modo. Adobe Campaign siempre inicia todas las conexiones.
+Adobe Campaign se conecta al equipo de red del proveedor de servicios SMS a través de TCP. El protocolo SMPP establece conexiones TCP permanentes desde Adobe Campaign al proveedor. Adobe Campaign siempre inicia las conexiones TCP, incluso para recibir mensajes.
+SMPP abre 1 o 2 conexiones TCP, dependiendo de su modo. Adobe Campaign siempre inicia todas las conexiones.
 
 El protocolo SMPP puede funcionar en dos modos:
 
@@ -106,43 +106,43 @@ Por ejemplo, al enviar un mensaje MT, se utiliza la conexión del transmisor y e
 
 En Adobe Campaign Classic, para vincular SR con su MT correspondiente, SMSC devuelve un ID con los pasos `SUBMIT_SM_RESP` y `DELIVER_SM`. El identificador se almacena en el campo `providerId` de la tabla `nms::providerMsgId` y está vinculado a `broadLogId` y `deliveryId`. Esta operación de coincidencia se realiza mediante el proceso SMS al escribir en la base de datos.
 
-Un `SUBMIT_SM_RESP PDU` déclencheur correctamente el estado del mensaje &quot;enviado&quot; en el registro de envío, mientras que un `DELIVER_SM (SR) PDU` déclencheur correctamente el estado del mensaje &quot;recibido&quot;.
+Un `SUBMIT_SM_RESP PDU` exitoso activa el estado de mensaje &quot;enviado&quot; en el registro de envío, mientras que un `DELIVER_SM (SR) PDU` exitoso activa el estado de mensaje &quot;recibido&quot;.
 
 ### Aspectos de seguridad {#security-aspects}
 
 El protocolo en sí no está cifrado. La mayoría de los proveedores implementan una variante de IP en la lista de permitidos, por lo que las direcciones IP del servidor Adobe Campaign deben declararse al proveedor.
 
-Adobe Campaign permite pasar un inicio de sesión y una contraseña durante la fase de enlace. También admite SMPP a través de TLS. Cabe señalar que los certificados son necesarios para garantizar la debida seguridad. Aunque el conector SMPP permite omitir las comprobaciones de certificados, solo debe utilizarse para pruebas, ya que TLS sin certificados proporciona un nivel de seguridad significativamente inferior.
+Adobe Campaign permite pasar un inicio de sesión y una contraseña durante la fase de enlace. También admite SMPP a través de TLS. Cabe señalar que los certificados son necesarios para garantizar la seguridad adecuada. Aunque el conector SMPP permite omitir las comprobaciones de certificados, solo debe utilizarse para pruebas, ya que TLS sin certificados proporciona un nivel de seguridad significativamente inferior.
 
-El conector utiliza los certificados predeterminados proporcionados por la biblioteca `openssl` del sistema. Generalmente es proporcionado por el directorio `/etc/ssl/certs` en Debian. Este directorio es proporcionado por el paquete &quot;ca-certificates&quot; de manera predeterminada, pero puede ser personalizado.
+El conector utiliza los certificados predeterminados proporcionados por la biblioteca `openssl` del sistema. Generalmente lo proporciona el directorio `/etc/ssl/certs` en Debian. Este directorio lo proporciona el paquete “ca-certificates” de manera predeterminada, pero se puede personalizar.
 
 ### Información en cada tipo de PDU {#information-pdu}
 
-Cada tipo de PDU tiene campos distintos que llevan diferentes partes de información. Estas PDU se detallan en la especificación [SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
+Cada tipo de PDU tiene campos distintos que llevan diferentes partes de información. Estas PDU se detallan en la [especificación SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
 Cada sección a continuación describe la PDU y su respuesta sincrónica (`*_RESP PDU`). Todas las PDU deben ser reconocidas por una `RESP` correspondiente, es una parte obligatoria de la especificación.
 
-Las PDU pueden tener campos opcionales. Aquí solo se describen los campos más comunes. Consulte la especificación [SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) para obtener más información.
+Las PDU pueden tener campos opcionales. Aquí solo se describen los campos más comunes. Consulte la [especificación SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) para obtener más información.
 
 **BIND_TRANSMITTER / BIND_RECEIVER / BIND_TRANSCEIVER**
 
-Esta PDU se utiliza para iniciar una conexión al SMSC. **Los modos Transmitter**,  **** Receiverand  **** Transceivermode sólo cambian el tipo de SMS que se permite transferir a través de esta conexión, específicamente:
+Esta PDU se utiliza para iniciar una conexión al SMSC. Los modos **Transmisor**, **Receptor** y **Transceptor** solo cambian el tipo de SMS que se permite transferir a través de esta conexión, específicamente:
 
-| Modo | Se permiten clases de SMS |
+| Modo | Clases de SMS admitidos |
 |:-:|:-:|
 | Transmisor | MT |
 | Receptor | MO + SR |
-| Transceiver | MT + MO + SR |
+| Transceptor | MT + MO + SR |
 
-Campos notables en un `BIND_* PDU`:
+Campos notables en una `BIND_* PDU`:
 
-* **system_id**: Inicio de sesión utilizado para la autenticación. Se configura en la cuenta externa.
+* **system_id**: Credenciales utilizadas para la autenticación. Se configura en la cuenta externa.
 
-* **password**: Contraseña utilizada para la autenticación. Se configura en la cuenta externa.
+* **contraseña**: Contraseña utilizada para la autenticación. Se configura en la cuenta externa.
 
 * **system_type**: Necesario para establecerse en un valor específico para algunos proveedores. Se configura en la cuenta externa, disponible en todas las versiones. A menudo distingue entre diferentes tipos de contratos, canales, países, etc.
 
-* **addr_** tonand  **addr_npi**: Requerido por algunos proveedores. Establecida por la configuración `Bind TON` y `Bind NPI` en la cuenta externa.
+* **addr_ton** y **addr_npi**: Requerido por algunos proveedores. Establecido por la configuración `Bind TON` y `Bind NPI` en la cuenta externa.
 
 * **address_range**: Requerido por algunos proveedores. La mayoría de las veces, esta es una lista de códigos abreviados permitidos en esta conexión. Se configura en la cuenta externa.
 
@@ -150,7 +150,7 @@ Campos notables en un `BIND_* PDU`:
 
 #### UNBIND {#unbind}
 
-El sistema debe enviar esta PDU antes de desconectarla. Debe esperar la PDU `UNBIND_RESP` correspondiente antes de cerrar la conexión.
+El sistema debe enviar esta PDU antes de desconectarse. Debe esperar la PDU correspondiente `UNBIND_RESP` antes de cerrar la conexión.
 
 La conformidad con SMSC no debe cerrar la conexión, la conexión TCP está controlada por el conector Adobe Campaign.
 
@@ -162,31 +162,31 @@ Campos notables en una PDU `SUBMIT_SM`:
 
 * **service_type**: requerido por algunos proveedores. Se establece en las propiedades de envío.
 
-* **source_addr_** tonand  **source_addr_npi**: indica qué tipo de dirección de origen se transmite. El significado de estos campos está estandarizado, pero dado que algunos proveedores lo utilizan de manera diferente, debe solicitar al proveedor su valor correcto. Se configura en la cuenta externa.
+* **source_addr_ton** y **source_addr_npi**: indica qué tipo de dirección de origen se transmite. El significado de estos campos está estandarizado, pero dado que algunos proveedores lo utilizan de manera diferente, debe solicitar al proveedor su valor correcto. Se configura en la cuenta externa.
 
 * **source_addr**: la dirección de origen / oADC del MT. Se mostrará en el teléfono móvil. Establecido en la cuenta externa y el envío, el valor del envío tiene prioridad sobre el valor de la cuenta externa.
 
-* **dest_addr_** tonand  **dest_addr_npi**: indica qué tipo de dirección de destino se transmite (por ejemplo, formato local o internacional). El significado de estos campos está estandarizado, pero dado que algunos proveedores lo utilizan de manera diferente, debe solicitar al proveedor su valor correcto. Se configura en la cuenta externa.
+* **dest_addr_ton** y **dest_addr_npi**: indica qué tipo de dirección de destino se transmite (por ejemplo, formato local o internacional). El significado de estos campos está estandarizado, pero dado que algunos proveedores lo utilizan de manera diferente, debe solicitar al proveedor su valor correcto. Se configura en la cuenta externa.
 
-* **destination_addr**: Dirección de destinatario, número de teléfono o MSISDN.
+* **destination_addr**: dirección de destinatario, número de teléfono o MSISDN.
 
-* **esm_class**: se utiliza para indicar si se utiliza UDH o no en el campo de texto. Habilitado automáticamente por el conector para SMS dividido si no se utiliza el modo `message_payload`.
+* **esm_class**: se utiliza para indicar si se usa UDH o no en el campo de texto. Habilitado automáticamente por el conector para SMS dividido si no se utiliza el modo `message_payload`.
 
 * **priority_flag**: prioridad de este mensaje sobre otros. Esto está ligado a la prioridad del propio envío.
 
-* **valid_period**: marca de tiempo después de la cual no se debe intentar ningún reintento. En el envío mismo.
+* **validity_period**: marca de tiempo después de la cual no se debe reintentar. Establecido en el envío mismo.
 
-* **register_envío**: indica si se solicita o no un SR. Adobe Campaign siempre establece este indicador excepto para las respuestas automáticas. Para los mensajes de varias partes, el indicador solo se establece para la primera parte. Todas las versiones tienen el mismo comportamiento.
+* **registered_delivery**: indica si se solicita o no un SR. Adobe Campaign siempre establece este indicador excepto para las respuestas automáticas. Para los mensajes de varias partes, el indicador solo se establece para la primera parte. Todas las versiones tienen el mismo comportamiento.
 
 * **data_coding**: indica la codificación utilizada en el campo de texto. Consulte la sección [Codificación de texto SMS](../../delivery/using/sms-protocol.md#sms-text-encoding) para obtener más información.
 
-* **short_message**: el texto del mensaje. Si se utiliza UDH, también contiene el encabezado UHD.
+* **short_message**: el texto del mensaje. Si se usa UDH, también contiene el encabezado de UHD.
 
 Adobe Campaign admite estos campos opcionales:
 
 * **dest_addr_subunit**: utilizado para especificar el destinatario del SMS: flash, móvil o tarjeta SIM. Se establece en las propiedades de envío.
 
-* **message_payload**: cuando se habilita en la cuenta externa, los mensajes largos se envían en una sola PDU y el texto se transmite en este campo en lugar de en el  `short_message` campo.
+* **message_payload**: cuando se habilita en la cuenta externa, los mensajes largos se envían en una sola PDU y el texto se transmitirá en este campo en lugar de en el campo `short_message`.
 
 #### SUBMIT_SM_RESP {#submit-sm-resp}
 
@@ -194,7 +194,7 @@ Esta PDU contendrá el ID del MT. Esto resulta útil para relacionarlo con SR en
 
 >[!IMPORTANT]
 >
->Muchos proveedores transmiten el MT ID en formato hexadecimal. Asegúrese de establecer correctamente el formato **ID en la configuración de confirmación de MT** en la cuenta externa.
+>Muchos proveedores transmiten el ID de MT en formato hexadecimal. Asegúrese de establecer correctamente el formato de ID **en la configuración de confirmación de MT** en la cuenta externa.
 
 Algunos proveedores envían `SUBMIT_SM_RESP` después de enviar el SR. Para tener en cuenta ese comportamiento, Adobe Campaign espera 30 segundos antes de responder **ID de mensaje no válido** a un SR con un ID desconocido.
 
@@ -210,7 +210,7 @@ La mayoría de los campos tienen el mismo significado que su contraparte `SUBMIT
 
 * **esm_class**: se usa para saber si la PDU es un MO o un SR.
 
-* **short_message**: del mensaje. Para SR, contiene datos descritos en el apéndice B de la especificación del protocolo SMPP. Consulte [Administración de errores de SR](../../delivery/using/sms-protocol.md#sr-error-management) para obtener más detalles.
+* **short_message**: texto del mensaje. Para SR, contiene datos descritos en el apéndice B de la especificación del protocolo SMPP. Consulte [Administración de errores de SR](../../delivery/using/sms-protocol.md#sr-error-management) para obtener más detalles.
 
 Adobe Campaign puede leer el ID del mensaje en el campo opcional `receipted_message_id` con alguna configuración.
 
@@ -220,13 +220,13 @@ Adobe Campaign envía esta PDU para reconocer SR y MO.
 
 Adobe Campaign Classic reconoce SR y MO una vez insertados en la base de datos. Algunos errores de procesamiento pueden ocurrir incluso si se ha enviado una PDU `DELIVER_SM_RESP` correcta. Esta limitación se debe a la arquitectura de software de Adobe Campaign Classic.
 
-#### INQUIRE_LINK {#enquire-links}
+#### ENQUIRE_LINK {#enquire-links}
 
-Esta PDU sólo se utiliza para comprobar que la conexión está activa. Su frecuencia debe establecerse de acuerdo con las necesidades del proveedor.
+Esta PDU solo se utiliza para comprobar que la conexión está activa. Su frecuencia debe establecerse de acuerdo con las necesidades del proveedor.
 
 Los 60 segundos predeterminados deben coincidir con la mayoría de las configuraciones establecidas en la cuenta externa.
 
-#### INQUIRE_LINK_RESP {#enquire-links-resp}
+#### ENQUIRE_LINK_RESP {#enquire-links-resp}
 
 Esta PDU reconoce que la conexión está activa.
 
@@ -234,40 +234,40 @@ Esta PDU reconoce que la conexión está activa.
 
 Los SMS de varias partes, o SMS largos, son SMS que se envían en varias partes. Debido a limitaciones técnicas en el protocolo de red móvil, un SMS no puede superar los 140 bytes o deberá dividirse. Consulte la sección [Codificación de texto SMS](../../delivery/using/sms-protocol.md#sms-text-encoding) para obtener más información sobre el número de caracteres que pueden caber en un SMS.
 
-Cada parte de un mensaje largo es un SMS individual. Estas partes viajan independientemente en la red y son montadas por el teléfono móvil receptor. Para gestionar reintentos y problemas de conectividad, Adobe Campaign envía estas piezas en orden inverso y solicita un SR únicamente en la primera parte del mensaje, la última vez que se envía. Dado que el teléfono móvil solo muestra un mensaje cuando se recibe la primera parte, los reintentos de partes adicionales no producirán duplicados en el teléfono móvil.
+Cada parte de un mensaje largo es un SMS individual. Estas partes viajan independientemente en la red y son montadas por el teléfono móvil receptor. Para gestionar reintentos y problemas de conectividad, Adobe Campaign envía estas piezas en orden inverso y solicita un SR únicamente en la primera parte del último mensaje que se envía. Dado que el teléfono móvil solo muestra un mensaje cuando se recibe la primera parte, los reintentos de partes adicionales no producirán duplicados en el teléfono móvil.
 
-Se puede establecer el número máximo de SMS por mensaje por envío mediante la configuración **Número máximo de SMS por mensaje** en la **Plantilla de envíos**. Los mensajes que superen este límite fallarán al enviar un mensaje SMS con una razón de error demasiado larga.
+Se puede establecer el número máximo de SMS por mensaje por envío mediante la configuración **Número máximo de SMS por mensaje** en la **Plantilla de envíos**. Los mensajes que superen este límite fallarán al enviar un mensaje de error con el motivo SMS demasiado largo.
 
 Hay dos maneras de enviar mensajes largos:
 
-* **UDH**: la forma predeterminada y recomendada de enviar mensajes largos. En este modo, el conector divide el mensaje en varios `SUBMIT_SM PDU`s con información UDH en ellos. Este protocolo es el que utilizan los propios teléfonos móviles. Esto significa que Adobe Campaign tiene el mayor control sobre la generación de mensajes, lo que le permite calcular exactamente cuántas partes se enviaron y cómo se dividieron.
+* **UDH**: la forma predeterminada y recomendada de enviar mensajes largos. En este modo, el conector divide el mensaje en varios `SUBMIT_SM PDU` con información UDH en ellos. Este protocolo es el que utilizan los propios teléfonos móviles. Esto significa que Adobe Campaign tiene el mayor control sobre la generación de mensajes, lo que le permite calcular exactamente cuántas partes se enviaron y cómo se dividieron.
 
-* **message_payload**: la manera de enviar el mensaje largo completo en un solo  `SUBMIT_SM PDU`. El proveedor tendrá que dividirlo, lo que significa que es imposible para Adobe Campaign saber exactamente cuántas partes se han enviado. Algunos proveedores requieren este modo, pero le aconsejamos que lo utilice únicamente si no admiten UDH.
+* **message_payload**: la manera de enviar el mensaje largo completo en un solo `SUBMIT_SM PDU`. El proveedor tendrá que dividirlo, lo que significa que es imposible para Adobe Campaign saber exactamente cuántas partes se han enviado. Algunos proveedores requieren este modo, pero le aconsejamos que lo utilice únicamente si no admiten UDH.
 
-Consulte la descripción de los campos `esm_class`, `short_message` y `message_payload` de la [PDU SUBMIT_SM](../../delivery/using/sms-protocol.md#information-pdu) para obtener más detalles sobre el protocolo y los formatos.
+Consulte la descripción de los campos `esm_class`, `short_message` y `message_payload` de la [SUBMIT_SM PDU](../../delivery/using/sms-protocol.md#information-pdu) para obtener más detalles sobre el protocolo y los formatos.
 
 ### Límite de rendimiento y ventanas {#throughput-capping}
 
 La mayoría de los proveedores requieren un límite de rendimiento para cada conexión SMPP. Esto se puede lograr estableciendo un número de SMS en la cuenta externa. Tenga en cuenta que la limitación del rendimiento se produce por conexión, el rendimiento efectivo total es el límite por conexión multiplicado por el número total de conexiones. Esto se detalla en la sección [Conexiones simultáneas](../../delivery/using/sms-protocol.md#connection-settings).
 
-Para alcanzar el máximo rendimiento posible, tendrá que ajustar la ventana de envío máxima. La ventana de envío es el número de `SUBMIT_SM PDU`s que se puede enviar sin esperar a `SUBMIT_SM_RESP`. Consulte la sección [Configuración de la ventana de envío](../../delivery/using/sms-protocol.md#throughput-timeouts) para obtener más detalles.
+Para alcanzar el máximo rendimiento posible, tendrá que ajustar la ventana de envío máxima. La ventana de envío es el número de `SUBMIT_SM PDU` que se puede enviar sin esperar a `SUBMIT_SM_RESP`. Consulte la sección [Configuración de la ventana de envío](../../delivery/using/sms-protocol.md#throughput-timeouts) para obtener más detalles.
 
 ### SR y administración de errores (&quot;Apéndice B&quot;) {#sr-error-management}
 
-El protocolo SMPP define errores sincrónicos estándar en `RESP PDU`s, pero no define códigos de error para SR. Cada proveedor utiliza sus propios códigos de error con su significado.
+El protocolo SMPP define errores sincrónicos estándar en `RESP PDU`, pero no define códigos de error para SR. Cada proveedor utiliza sus propios códigos de error con su significado.
 
-Se recomienda en la sección del apéndice B de la especificación del protocolo [SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (página 167), pero esto no lista los códigos de error reales ni su significado.
+Se realiza una recomendación en la sección del apéndice B de la [especificación del protocolo SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (página 167), pero esto no incluye los códigos de error reales ni su significado.
 
 Para adaptarse a la administración de errores, se ha aprovechado el sistema de mensajes de banda ancha de Adobe Campaign para aprovisionar correctamente los errores y su gravedad (difícil, suave, etc.).
 
 Como se mencionó anteriormente, hay dos tipos diferentes de errores:
 
 * respuestas sincrónicas en el `SUBMIT_SM_RESP` que se producen inmediatamente después de enviar el mensaje al SMSC
-* las recepciones que pueden llegar mucho más tarde cuando el dispositivo móvil recibe el mensaje o cuando se agota el tiempo de espera del mensaje. En ese caso, el error se encuentra en un SR.
+* los recibos que pueden llegar mucho más tarde cuando el dispositivo móvil recibe el mensaje o cuando se agota el tiempo de espera del mensaje. En ese caso, el error se encuentra en un SR.
 
-Cuando se recibe un SR, el estado y el error se pueden encontrar en su campo `short_message` (por ejemplo, para implementaciones conformes con el Apéndice B). El campo `short_message` de la PDU se denomina generalmente campo de texto **** porque contiene texto en MT. En el caso de SR, contiene información técnica más un subcampo denominado **Texto**. Estos 2 campos son diferentes y `short_message` en realidad contiene el campo **Texto** y otra información.
+Cuando se recibe un SR, el estado y el error se pueden encontrar en su campo `short_message` (por ejemplo, para implementaciones conformes con el Apéndice B). El campo `short_message` de la PDU se denomina generalmente **campo de texto** porque contiene texto en MT. En el caso de SR, contiene información técnica más un subcampo denominado **Texto**. Estos 2 campos son diferentes y `short_message` en realidad contiene el campo **Texto** y otra información.
 
-Los conectores de Adobe Campaign Classic (excepto Extended SMPP) utilizan un comportamiento codificado que depende del proveedor seleccionado. El SMPP genérico sólo distingue entre éxito y error, sin ningún detalle. El registro de envíos puede contener información que no está garantizada.
+Los conectores de Adobe Campaign Classic (excepto Extended SMPP) utilizan un comportamiento codificado que depende del proveedor seleccionado. El SMPP genérico solo distingue entre éxito y error, sin ningún detalle. El registro de envíos puede contener información que no está garantizada.
 
 #### Formato de campo de texto SR {#sr-text-field-format}
 
@@ -281,17 +281,17 @@ id:1234567890 sub:001 dlvrd:001 submit date:1608011415 done date:1608011417 stat
 
 El campo id es el ID recibido en el `SUBMIT_SM_RESP PDU`, el reconocimiento del MT.
 
-`sub` y  `dlvrd` se supone que deben contar la cantidad de piezas entregadas y mensajes entregados, pero Adobe Campaign no lo utiliza, ya que el sistema de banda ancha proporciona una información mejor y más integrada.
+`sub` y `dlvrd` deberían contar la cantidad de piezas enviadas y mensajes enviados, pero Adobe Campaign no lo utiliza, ya que el sistema de banda ancha proporciona una información mejor y más integrada.
 
-`submit date` y  `done date` los campos son marcas de hora indicativas de cuándo se envió el mensaje MT y cuándo el mensaje SR fue enviado por el dispositivo móvil. Se esperan algunos problemas con los husos horarios o incluso marcas de hora incorrectas proporcionadas por los móviles con una fecha establecida incorrectamente.
+Los campos `submit date` y `done date` son marcas de hora indicativas de cuándo se envió el mensaje MT y cuándo el dispositivo móvil envió el mensaje SR. Se esperan algunos problemas con los husos horarios o incluso marcas de hora incorrectas proporcionadas por los móviles con una fecha establecida incorrectamente.
 
-El campo stat es importante porque indica el estado del mensaje. El único estado importante es `DELIVRD`, `UNDELIV` y `REJECTD`. El estado `DELIVRD` indica un éxito, los otros dos indican un error. Otros valores son posibles, pero suelen ser notificaciones intermedias, por ejemplo, el MT llegó al operador de telefonía móvil, pero no el teléfono móvil. Adobe Campaign ignora estas notificaciones intermedias.
+El campo stat es importante porque indica el estado del mensaje. El único estado importante es `DELIVRD`, `UNDELIV` y `REJECTD`. El estado `DELIVRD` indica un resultado exitoso, los otros dos indican un error. Otros valores son posibles, pero suelen ser notificaciones intermedias, por ejemplo, el MT llegó al operador de telefonía móvil, pero no el teléfono móvil. Adobe Campaign ignora estas notificaciones intermedias.
 
 El campo err contiene el código de error específico del proveedor. El proveedor debe proporcionar una tabla de posibles códigos de error junto con su significado para poder interpretar este valor.
 
-Finalmente, el campo de texto generalmente contiene el principio del texto de MT. Adobe Campaign lo ignora y algunos proveedores no lo transmiten para evitar fugas de PII y consumo de ancho de banda de la red. Se puede utilizar durante la resolución de problemas para localizar el SR que coincide con un MT de prueba más fácilmente leyendo este campo.
+Finalmente, el campo de texto en general contiene el principio del texto de MT. Adobe Campaign lo ignora y algunos proveedores no lo transmiten para evitar fugas de PII y consumo de ancho de banda de la red. Se puede utilizar durante la resolución de problemas para localizar el SR que coincide con un MT de prueba más fácilmente leyendo este campo.
 
-### Ejemplo de procesamiento SR en Adobe Campaign Classic Extended SMPP genérico {#sr-processing}
+### Ejemplo de procesamiento SR en SMPP genérico de Adobe Campaign Classic Extended {#sr-processing}
 
 Este ejemplo muestra el caso de una implementación que sigue a la recomendación del Apéndice B, los valores predeterminados en la cuenta externa y un mensaje SMS MT correcto.
 
@@ -299,35 +299,35 @@ Este ejemplo muestra el caso de una implementación que sigue a la recomendació
 id:1234567890 sub:001 dlvrd:001 submit date:1608011415 done date:1608011417 stat:DELIVRD err:000 Text:Hello Adobe world
 ```
 
-En primer lugar, el regex `id extraction` se aplica para extraer el ID y reconciliarlo con el MT correspondiente.
+En primer lugar, la regex `id extraction` se aplica para extraer el ID y reconciliarlo con el MT correspondiente.
 
-A continuación, el regex `status extraction` y el regex `error code extraction` se aplican para extraer estos campos y se anexan a la cadena.
+A continuación, la regex `status extraction` y la regex `error code extraction` se aplican para extraer estos campos y se anexan a la cadena.
 
-El mensaje de registro ampliado se construye con esta información y la cadena original sin modificar se anexa como referencia:
+El mensaje del &quot;broadlog&quot; se construye con esta información y la cadena original sin modificar se anexa como referencia:
 
 ```
 SR ExampleProvider DELIVRD 000|MESSAGE=id:1234567890 sub:001 dlvrd:001 submit date:1608011415 done date:1608011417 stat:DELIVRD err:000 Text:Hello Adobe world
 ```
 
-A continuación, el mensaje se normaliza, eliminando la parte MESSAGE para poder hacer coincidir varios mensajes con los mismos códigos de estado y error.
+A continuación, el mensaje se normaliza, eliminando la parte MENSAJE para poder hacer coincidir varios mensajes con los mismos códigos de estado y error.
 
 ```
 SR ExampleProvider DELIVRD 000|#MESSAGE#
 ```
 
-Si el mensaje no se ha aprovisionado ya en la tabla de mensajes de registro extensivo, se creará una nueva entrada, con todo el mensaje como **firstText** y el mensaje normalizado. A continuación, el conector utiliza el parámetro success y `error` regex para determinar si fue un éxito o un error:
+Si el mensaje no se ha aprovisionado ya en la tabla de mensajes de &quot;broadlog&quot;, se creará una nueva entrada, con todo el mensaje como **firstText** y el mensaje normalizado. A continuación, el conector utiliza el éxito y la regex `error` para determinar si ha sido un éxito o un error:
 
-* Si coincide con el regex `success`, se considerará un éxito.
+* Si coincide con la regex `success`, se considera un éxito.
 
-* Si coincide con el regex `error`, el mensaje se califica como error.
+* Si coincide con la regex `error`, el mensaje se califica como un error.
 
-* Si ninguno de estos dos regex coincide, se ignora el SR. Podría tratarse de una notificación intermedia, que Adobe Campaign no gestiona.
+* Si ninguna de estas dos regex coincide, se ignora el SR. Podría ser una notificación intermedia, que Adobe Campaign no gestiona.
 
-De forma predeterminada, todos los errores se aprovisionan como errores suaves. Esto significa que los errores graves deben aprovisionarse a mano.
+De forma predeterminada, todos los errores se aprovisionan como errores leves. Esto significa que los errores graves deben aprovisionarse a mano.
 
 ### Codificación de texto SMS {#sms-text-encoding}
 
-Siempre debe **ponerse en contacto con el proveedor SMSC en caso de problemas de codificación**. Sólo los proveedores de SMSC tienen conocimiento de la codificación que admiten y de las reglas especiales que pueden aplicarse debido a limitaciones en su plataforma técnica.
+Siempre debe **ponerse en contacto con el proveedor SMSC en caso de problemas de codificación**. Solo los proveedores de SMSC tienen conocimiento de la codificación que admiten y de las reglas especiales que pueden aplicarse debido a las limitaciones en su plataforma técnica.
 
 Los mensajes SMS utilizan una codificación especial de 7 bits, a menudo denominada codificación GSM7.
 
@@ -337,9 +337,9 @@ En caso de problemas de codificación, hay que comprobar algunos aspectos import
 
 * Asegúrese de saber qué caracteres pertenecen a cada codificación. GSM7 no admite completamente marcas o acentos diacríticos. Especialmente en francés, donde é y è son parte de GSM7, pero ê, â o ï no lo son. Lo mismo se aplica al español.
 
-* La C con cedilla (ç) está presente solamente en mayúsculas en el alfabeto GSM7, pero algunos teléfonos la procesan en minúsculas o en mayúsculas &quot;inteligentes&quot;. La recomendación general es que se evite completamente y se elimine la cedilla o se cambie a UCS-2.
+* La C con cedilla (ç) está presente solamente en mayúsculas en el alfabeto GSM7, pero algunos teléfonos la procesan en minúsculas o en mayúsculas &quot;inteligentes&quot;. La recomendación general es que se evite completamente y se quite la cedilla o se cambie a UCS-2.
 
-* **No utilice ASCII en** SMS a menos que lo solicite explícitamente el proveedor SMSC. Esta codificación desperdicia espacio porque tiene caracteres de 8 bits y menos cobertura que GSM7. Esta codificación puede ser necesaria para las redes CDMA, utilizadas en Norteamérica.
+* **No utilice ASCII en SMS** a menos que lo solicite explícitamente el proveedor SMSC. Esta codificación desperdicia espacio porque tiene caracteres de 8 bits y menos cobertura que GSM7. Esta codificación puede ser necesaria para las redes CDMA, utilizadas en Norteamérica.
 
 * Latin-1 no siempre es compatible. Compruebe la compatibilidad con su proveedor SMSC antes de intentar usar Latin-1.
 
@@ -347,13 +347,13 @@ En caso de problemas de codificación, hay que comprobar algunos aspectos import
 
 * UCS-2 y UTF-16 suelen mezclarse por teléfono. Este problema se produce cuando se utilizan emojis y otros caracteres no presentes en UCS-2.
 
-* La mayoría de los teléfonos no tienen glifos de fuentes para todos los caracteres UCS-2. Los smartphones suelen ser capaces de mostrar caracteres raros con bastante facilidad, pero los teléfonos de características generalmente tienen un apoyo limitado a lo que es útil en la lengua nativa del país en el que fueron comprados. Si desea usar emoji o ASCII-art, pruébelo en una amplia variedad de teléfonos antes de enviar. La previsualización de Adobe Campaign no simula los glifos que faltan y muestra los símbolos disponibles en el navegador web.
+* La mayoría de los teléfonos no tienen glifos de fuentes para todos los caracteres UCS-2. Los teléfonos inteligentes suelen ser capaces de mostrar caracteres raros con bastante facilidad, pero los teléfonos funcionales generalmente tienen una compatibilidad limitada con lo que es útil en la lengua nativa del país en el que se compraron. Si desea usar emoji o ASCII-art, pruébelo en una amplia variedad de teléfonos antes de enviarlo. La previsualización de Adobe Campaign no simula los glifos que faltan y muestra los símbolos disponibles en el navegador web.
 
 El campo `data_coding` indica qué codificación se utiliza. Un problema importante es que el valor 0 significa codificación SMSC predeterminada en la especificación, que suele referirse a GSM7. Consulte con el socio de SMSC la codificación asociada con `data_coding` = 0 que solo admite Adobe Campaign. Otros valores `data_coding` tienden a seguir la especificación, pero la única manera de estar seguros es consultar con el proveedor SMSC.
 
 El tamaño máximo de un mensaje depende de su codificación. Esta tabla resume toda la información relevante:
 
-| Codificación | Data_coding habitual | Tamaño del mensaje (caracteres) | Tamaño de pieza para SMS de varias partes | Caracteres disponibles |
+| Codificación | Data_coding habitual | Tamaño del mensaje (caracteres) | Tamaño de la parte para SMS de varias partes | Caracteres disponibles |
 |:-:|:-:|:-:|:-:|:-:|
 | GSM7 | 0 | 160 | 152 | Conjunto de caracteres básico GSM7 + extensión (los caracteres extendidos tienen 2 caracteres) |
 | Latin-1 | 3 | 140 | 134 | ISO-8859-1 |
@@ -371,7 +371,7 @@ Es posible establecer un límite en el número de instancias de MTA permitidas p
 
 Esta opción permite un control más preciso del número de conexiones; consulte [Conexiones simultáneas](../../delivery/using/sms-protocol.md#connection-settings).
 
-Si establece un valor mayor que el número de MTAs en ejecución, todos los MTAs se ejecutarán como normales: esta opción es sólo un límite y no puede generar MTA adicionales.
+Si establece un valor mayor que el número de MTA en ejecución, todos los MTA se ejecutarán normalmente: esta opción es solo un límite y no puede generar MTA adicionales.
 
 Si necesita controlar con precisión el número de conexiones, por ejemplo, el requisito del proveedor, se recomienda establecer siempre esta opción aunque la implementación actual tenga el número correcto de MTA en ejecución. Si después se agregan MTA adicionales, se respetará el límite de conexión.
 
@@ -379,7 +379,7 @@ Si necesita controlar con precisión el número de conexiones, por ejemplo, el r
 
 #### Nombre de implementación de SMSC {#smsc-implementation-name}
 
-Define el nombre de la implementación de SMSC. Debe configurarse en el nombre de su proveedor. Póngase en contacto con el administrador o con el equipo de entregabilidad para saber qué agregar en este campo. La función de este campo se describe en la sección [SR error management](../../delivery/using/sms-protocol.md#sr-error-management).
+Define el nombre de la implementación de SMSC. Debe configurarse con el nombre de su proveedor. Póngase en contacto con el administrador o con el equipo de entrega para saber qué añadir en este campo. La función de este campo se describe en la sección [gestión de errores SR](../../delivery/using/sms-protocol.md#sr-error-management).
 
 #### Servidor {#server}
 
@@ -405,7 +405,7 @@ Valor pasado en el campo `system_id` de la PDU BIND. Algunos proveedores necesit
 
 En Adobe Campaign Classic, define el número de conexiones por elemento secundario MTA.
 
-El conector SMPP ampliado de Adobe Campaign Classic puede controlar el número de conexiones por elemento secundario de MTA. Para controlar el límite global de conexiones, tendrá que limitar el número de procesos secundarios de MTA, lo que a menudo significa tener una plataforma de intermediaria dedicada para SMS.
+El conector SMPP extendido de Adobe Campaign Classic puede controlar el número de conexiones por elemento secundario de MTA. Para controlar el límite global de conexiones, tendrá que limitar el número de procesos secundarios de MTA, lo que a menudo significa tener una plataforma intermediaria dedicada para SMS.
 
 Para Adobe Campaign Classic, puede haber un número diferente de conexiones de receptor y transmisor:
 
@@ -433,13 +433,13 @@ Esta sección solo está visible en el modo separado **transmisor+receptor**.
 
 #### Usar parámetros diferentes para el receptor {#receiver-parameters}
 
-Cuando la casilla está desactivada, se utilizan los mismos ajustes para el transmisor y el receptor.
+Cuando la casilla está desactivada, se utiliza la misma configuración para el transmisor y el receptor.
 
-Cuando la casilla está marcada, la configuración de la sección **Configuración de conexión** se aplicará al transmisor y la configuración de la **conexión del receptor** se aplicará al receptor.
+Cuando la casilla está activada, la configuración de la sección **Configuración de conexión** se aplicará al transmisor y la configuración en los ajustes de **conexión del receptor** se aplicará al receptor.
 
 **Servidor receptor, puerto, cuenta, contraseña, tipo de sistema**
 
-Estos ajustes se aplican al receptor cuando se encuentra en modo transmisor+receptor. Funcionan como la parte del transmisor, ver arriba para más detalles.
+Esta configuración se aplica al receptor cuando se encuentra en modo transmisor+receptor. Funcionan como la parte del transmisor, ver arriba para más detalles.
 
 ### Configuración de canal SMPP {#smpp-channel-settings}
 
@@ -463,7 +463,7 @@ Adobe Campaign Classic siempre almacena todos los MO en la base de datos de inSM
 
 Cuando se habilita, los KPI se actualizan en tiempo real en la página de envío principal cuando se recibe un SR de error.
 
-La desventaja puede ser de bajo rendimiento debido al contenido de la base de datos que genera. Si se deshabilita, las estadísticas se actualizan mediante el flujo de trabajo **syncfromexec**, que se ejecuta cada 20 minutos.
+La desventaja puede ser un bajo rendimiento debido al contenido de la base de datos que genera. Si se deshabilita, las estadísticas se actualizan mediante el flujo de trabajo **syncfromexec**, que se ejecuta cada 20 minutos.
 
 Adobe Campaign Classic tiene un mecanismo completamente diferente para los KPI, por lo que esta opción no está disponible.
 
@@ -483,27 +483,27 @@ Especificar código corto resulta útil para dos funciones:
 
 * La previsualización mostrará el código corto si no se proporciona ningún número de origen. Reflejará el comportamiento real en el teléfono móvil.
 
-* La configuración de lista de bloqueados de la función de respuesta automática sólo envía al usuario una cuarentena de un código corto específico.
+* La configuración de lista de bloqueados de la función de respuesta automática solo envía a poner en cuarentena al usuario por un código corto específico.
 
 #### TON/NPI de origen, TON de destino/NPI {#ton-npi}
 
-El TON (Tipo de Número) y el NPI (Indicador del Plan de Numeración) se describen en la sección 5.2.5 de la especificación [SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (página 117). Estos valores deben configurarse según las necesidades del proveedor.
+El TON (Tipo de número) y el NPI (Indicador del plan de numeración) se describen en la sección 5.2.5 de la [especificación SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (página 117). Estos valores deben configurarse según las necesidades del proveedor.
 
-Se transmiten tal cual en los campos `source_addr_ton`, `source_addr_npi`, `dest_addr_ton` y `dest_addr_npi` de los campos `SUBMIT_SM PDU`.
+Se transmiten tal como están en los campos `source_addr_ton`, `source_addr_npi`, `dest_addr_ton` y `dest_addr_npi` de `SUBMIT_SM PDU`.
 
 #### Tipo de servicio {#service-type}
 
-Este campo se transmite tal cual en el campo `service_type` del `SUBMIT_SM PDU`. Configure esto según las necesidades del proveedor.
+Este campo se transmite tal como está en el campo `service_type` del `SUBMIT_SM PDU`. Configure esto según las necesidades del proveedor.
 
-### Tiempo de espera y tiempo de espera {#throughput-timeouts}
+### Rendimiento y tiempo de espera {#throughput-timeouts}
 
-Esta configuración controla todos los aspectos de tiempo del canal SMPP. Algunos proveedores requieren un control muy preciso de la velocidad de mensajes, la ventana y los tiempos de reintentos. Esta configuración debe establecerse en valores que coincidan con la capacidad del proveedor y las condiciones indicadas en su contrato.
+Esta configuración controla todos los aspectos de tiempo del canal SMPP. Algunos proveedores requieren un control muy preciso de la velocidad de mensajes, la ventana y los tiempos de reintento. Esta configuración debe establecerse en valores que coincidan con la capacidad del proveedor y las condiciones indicadas en su contrato.
 
-#### Enviando ventana {#sending-window}
+#### Ventana de envío {#sending-window}
 
-La ventana es el número de `SUBMIT_SM PDU`s que se puede enviar sin esperar a que `SUBMIT_SM_RESP` coincida.
+La ventana es el número de `SUBMIT_SM PDU` que se pueden enviar sin esperar una `SUBMIT_SM_RESP` coincidente.
 
-Ejemplo de una caja de cambios con una ventana máxima de 4:
+Ejemplo de una transmisión con una ventana máxima de 4:
 
 ![](assets/do-not-localize/sms_protocol_2.png)
 
@@ -511,7 +511,7 @@ La ventana ayuda a aumentar el rendimiento cuando el vínculo de red tiene una l
 en segundos, de modo que el conector nunca está esperando un `SUBMIT_SM_RESP` antes de enviar el siguiente mensaje.
 Si la ventana es demasiado grande, puede enviar más mensajes de duplicado en caso de problemas de conexión. Además, la mayoría de los proveedores tienen un límite muy estricto para la ventana y rechazan los mensajes que sobrepasan el límite.
 
-Cómo calcular la fórmula óptima de la ventana de envío:
+Calcular la fórmula óptima de la ventana de envío:
 
 * Mida la latencia máxima entre `SUBMIT_SM` y `SUBMIT_SM_RESP`.
 
@@ -521,7 +521,7 @@ Ejemplo: Si tiene 300 SMS/s configurados en el rendimiento máximo de MT y hay u
 
 #### Rendimiento máximo de MT {#max-mt-throughput}
 
-Número máximo de MT por segundo y por conexión. Esta configuración se aplica estrictamente, el MTA nunca insertará mensajes más rápido que este límite. Resulta útil para los proveedores que requieren una limitación precisa.
+Número máximo de MT por segundo y por conexión. Esta configuración se aplica estrictamente y el MTA nunca insertará mensajes más rápido que este límite. Resulta útil para los proveedores que requieren una limitación precisa.
 
 Para conocer el límite de rendimiento total, multiplique este número por el número total de conexiones, tal como se detalla en la fórmula anterior.
 
@@ -535,19 +535,19 @@ Cuando se pierde la conexión TCP, el conector esperará este número de segundo
 
 #### Período de caducidad del MT {#expiration-period}
 
-Tiempo de espera entre `SUBMIT_SM` y su coincidencia `SUBMIT_SM_RESP`. Si el `RESP` no se recibe a tiempo, el mensaje se considerará fallido y se aplicará la directiva de reintentos global del MTA.
+Tiempo de espera entre `SUBMIT_SM` y su coincidencia `SUBMIT_SM_RESP`. Si el `RESP` no se recibe a tiempo, el mensaje se considerará fallido y se aplicará la política de reintentos global del MTA.
 
 #### Tiempo de espera de enlace {#bind-timeout}
 
 Tiempo de espera entre el intento de conexión TCP y la respuesta `BIND_*_RESP`. Cuando se agota el tiempo de espera, la conexión se cierra mediante el conector de Adobe Campaign y esperará tiempo antes de volver a conectarse antes de intentarlo de nuevo.
 
-#### período de inquire_link {#enquire-link-period}
+#### período enquire_link {#enquire-link-period}
 
-`enquire_link` es un tipo especial de PDU enviado para mantener la conexión viva. Este período es en segundos. El conector de campaña sólo envía `enquire_link` cuando la conexión está inactiva para conservar el ancho de banda. Si no se recibe ningún RESP después de dos veces este período, la conexión se considerará muerta y se activará un proceso de reconexión.
+`enquire_link` es un tipo especial de PDU enviado para mantener la conexión viva. Este período es en segundos. El conector de campaña solo envía `enquire_link` cuando la conexión está inactiva para conservar el ancho de banda. Si no se recibe ningún RESP después de dos veces este período, la conexión se considerará muerta y se activará un proceso de reconexión.
 
 ### Detalles de SMSC {#SMSC-specifics}
 
-Estos ajustes son ajustes avanzados que adaptan el conector de Adobe Campaign a la mayoría de las peculiaridades de implementación de SMPP.
+Estas configuraciones son ajustes avanzados que adaptan el conector de Adobe Campaign a la mayoría de las peculiaridades de implementación de SMPP.
 
 **Definir una asignación específica de codificaciones**
 
@@ -555,13 +555,13 @@ Consulte la sección [Codificación de texto SMS](../../delivery/using/sms-proto
 
 Esta configuración le permite definir una asignación de codificación personalizada, diferente de la especificación. Podrá declarar una lista de codificaciones, junto con su valor `data_coding`.
 
-El MTA intentará codificar usando la primera codificación de la lista. Si falla, intentará usar la siguiente codificación en la lista, etc. Si no se puede utilizar ninguna codificación para codificar el mensaje, se producirá un error. Una vez encontrada la codificación, el MTA creará el `SUBMIT_SM PDU` con el texto codificado y el campo `data_coding` establecido con el valor especificado en la tabla.
+El MTA intentará codificar usando la primera codificación de la lista. Si falla, intentará usar la siguiente codificación en la lista, etc. Si no se puede utilizar ninguna codificación para codificar el mensaje, se producirá un error. Una vez encontrada la codificación, el MTA creará el `SUBMIT_SM PDU` con el texto codificado y el campo establecido `data_coding` con el valor especificado en la tabla.
 
-El orden de los elementos de la tabla es importante: las codificaciones son intentos de arriba abajo. Debe colocar la codificación más barata o recomendada en la parte superior de la lista, seguida de codificaciones más y más caras.
+El orden de los elementos de la tabla es importante: las codificaciones prueban de arriba abajo. Debe colocar la codificación más barata o recomendada en la parte superior de la lista, seguida de codificaciones más y más caras.
 
-Tenga en cuenta que UCS-2 nunca fallará, ya que puede codificar todos los caracteres admitidos en Adobe Campaign y que la longitud máxima de un SMS UCS-2 es mucho menor: Solo 70 caracteres.
+Tenga en cuenta que la UCS-2 nunca fallará, ya que puede codificar todos los caracteres admitidos en Adobe Campaign y que la longitud máxima de un SMS UCS-2 es mucho menor: solo 70 caracteres.
 
-También puede utilizar esta configuración para forzar que una codificación específica se utilice siempre declarando sólo 1 línea en la tabla de asignación.
+También puede utilizar esta configuración para forzar que una codificación específica se utilice siempre declarando solo 1 línea en la tabla de asignación.
 
 La asignación predeterminada que se utiliza cuando la casilla de verificación no está marcada equivale a la siguiente tabla:
 
@@ -578,41 +578,41 @@ Si el mensaje no se puede codificar en GSM, se codificará en UCS-2 y se estable
 
 Cuando no se selecciona, los SMS largos se dividen por el MTA y se envían en múltiples `SUBMIT_SM PDU`s con UDH. El mensaje será recompuesto por el teléfono móvil según los datos UDH.
 
-Cuando se selecciona, se enviará SMS largos en una PDU SUBMIT_SM, colocando el texto en el campo opcional message_payload. Consulte la [especificación SMPP](../../delivery/using/sms-protocol.md#ACS-SMPP-connector) para obtener más información sobre esto.
+Cuando se selecciona, se envían SMS largos en una PDU SUBMIT_SM, colocando el texto en el campo opcional message_payload. Consulte la [especificación del SMPP](../../delivery/using/sms-protocol.md#ACS-SMPP-connector) para obtener más información al respecto.
 
-Si esta función está habilitada, Adobe Campaign no podrá contar las piezas de SMS de forma individual: todos los mensajes se contarán como enviados en una parte.
+Si esta función está habilitada, Adobe Campaign no podrá contar las partes del SMS de forma individual: todos los mensajes se contarán como enviados en una parte.
 
 #### Enviar el número de teléfono completo {#send-full-phone-number}
 
-Cuando esta casilla de verificación no está activada, sólo se envían dígitos del número de teléfono al proveedor (`destination_addr` campo del campo `SUBMIT_SM`). Este es el comportamiento predeterminado, ya que el indicador de número internacional, normalmente un prefijo +, se sustituye por los campos TON y NPI en SMPP.
+Cuando esta casilla de verificación no está activada, solo se envían dígitos del número de teléfono al proveedor (`destination_addr` campo del campo `SUBMIT_SM`). Este es el comportamiento predeterminado, ya que el indicador de número internacional, normalmente un prefijo +, se sustituye por los campos TON y NPI en el SMPP.
 
-Cuando se marca la casilla de verificación, el número de teléfono se envía tal cual, sin preprocesamiento ni espacios potenciales, + prefijo o signos de almohadilla/hash/estrella.
+Cuando se marca la casilla de verificación, el número de teléfono se envía tal cual, sin preprocesamiento ni espacios potenciales, + prefijo o signos de almohadilla/asterisco.
 
-Esta función también afecta al comportamiento de la función de respuesta automática lista de bloqueados: cuando la casilla de verificación no está marcada, se agregará un prefijo + a los números de teléfono insertados en la tabla de cuarentena para compensar la eliminación del prefijo + del número de teléfono por el protocolo SMPP mismo.
+Esta función también afecta al comportamiento de la función de respuesta automática de la lista de bloqueados: cuando la casilla de verificación no está marcada, se agrega un prefijo + a los números de teléfono insertados en la tabla de cuarentena para compensar la eliminación del prefijo + del número de teléfono por el protocolo SMPP mismo.
 
 #### Omitir comprobación de certificado TLS {#skip-tls}
 
-Cuando TLS está habilitado, omita todas las comprobaciones de certificado.
+Cuando TLS está habilitado, omitir todas las comprobaciones de certificado.
 
-Cuando se selecciona, la conexión ya no es segura, no debe habilitarse en producción.
+Cuando se selecciona, la conexión ya no es segura, por lo que no debe habilitarse en producción.
 
 Puede resultar útil para depurar o probar.
 
 #### Enlazar TON/NPI {#bind-ton-npi}
 
-TON (tipo de número) y NPI (indicador del plan de numeración) descritos en la sección 5.2.5 de la especificación [SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (página 117). Estos valores deben configurarse en cualquier cosa que el proveedor necesite.
+TON (tipo de número) y NPI (indicador del plan de numeración) descritos en la sección 5.2.5 de la especificación [del SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (página 117). Estos valores deben ajustarse a lo que el proveedor necesite.
 
-Se transmiten tal cual en los campos `addr_ton` y `addr_npi` de la PDU BIND.
+Se transmiten tal cual en los campos `addr_ton` y `addr_npi` de la BIND PDU.
 
 #### Intervalo de direcciones {#address-range}
 
-Se envía tal cual en el campo address_range de la PDU BIND. Este valor debe configurarse en cualquier cosa que necesite el proveedor.
+Se envía tal cual en el campo address_range del BIND PDU. Este valor debe ajustarse a lo que necesite el proveedor.
 
-#### Número de reconocimiento de ID no válido {#invalid-id}
+#### Cuenta de reconocimiento de ID no válida {#invalid-id}
 
-Limita el número de **ID de mensaje no válido** `DELIVER_SM_RESP` que se puede enviar para un único SR.
+Limita el número de **Mensaje de ID no válido** `DELIVER_SM_RESP` que se puede enviar para un único SR.
 
-**Esto solo debe usarse para solucionar problemas como** alternativa y se establece en 0 en condiciones normales.
+**Esto solo debe usarse para solucionar problemas como solución alternativa** y se establece en 0 en condiciones normales.
 
 Ejemplo de Fox, cuando se establece en 2:
 
@@ -620,63 +620,63 @@ Ejemplo de Fox, cuando se establece en 2:
 
 * No se encontró el ID &quot;1234&quot; en la base de datos.
 
-* El conector cuenta el error 1 **ID no válido** para ese ID, por lo que envía `DELIVER_SM_RESP` con el código de error &quot;ID del mensaje no válido&quot; (comportamiento normal).
+* El conector cuenta 1 error **ID no válido** para ese ID, por lo que envía `DELIVER_SM_RESP` con el código de error &quot;ID del mensaje no válido&quot; (comportamiento normal).
 
-* El proveedor reintentos el mismo SR con el ID &quot;1234&quot;.
+* El proveedor reintenta el mismo SR con el ID &quot;1234&quot;.
 
 * El ID &quot;1234&quot; aún no se encuentra en la base de datos.
 
-* El conector cuenta el error 2 **ID no válido** para ese ID, por lo que envía `DELIVER_SM_RESP` &quot;OK&quot;, aunque no se haya procesado correctamente.
+* El conector cuenta 2 errores **ID no válido** para ese ID, por lo que envía `DELIVER_SM_RESP` &quot;OK&quot;, aunque no se haya procesado correctamente.
 
 * Esta función está diseñada para vaciar los búferes SR en el lado del proveedor cuando el bloque SR no válido legitima que los mensajes no se puedan procesar.
 
 Si este campo se establece en 0, se deshabilita el mecanismo donde **ID de mensaje no válido** siempre se devuelve, este es un comportamiento normal.
 
-Al establecer este campo en 1, el conector siempre responde &quot;OK&quot; aunque el ID no sea válido. Esto debe establecerse en 1 solamente bajo supervisión, para la resolución de problemas y durante el mínimo tiempo, por ejemplo para recuperarse de un problema del lado del proveedor.
+Al establecer este campo en 1, el conector siempre responde &quot;OK&quot; aunque el ID no sea válido. Esto debe establecerse en 1 solamente bajo supervisión, para la resolución de problemas y durante el mínimo tiempo, p. ej.: para recuperarse de un problema del lado del proveedor.
 
-#### regex de extracción del ID en el SR {#regex-extraction}
+#### Extracción del regex del ID en el SR {#regex-extraction}
 
-El formato SR no se aplica estrictamente en la especificación de protocolo SMPP. Es sólo una recomendación descrita en el [Apéndice B](../../delivery/using/sms-protocol.md#sr-error-management) (página 167) del pliego de condiciones. Algunos implementadores SMPP dan un formato diferente a este campo, por lo que Adobe Campaign necesita una forma de extraer el campo correcto.
+El formato SR no se aplica estrictamente en la especificación de protocolo SMPP. Es solo una recomendación descrita en el [Apéndice B](../../delivery/using/sms-protocol.md#sr-error-management) (página 167) del pliego de condiciones. Algunos implementadores SMPP dan un formato diferente a este campo, por lo que Adobe Campaign necesita una forma de extraer el campo correcto.
 
 De forma predeterminada, captura hasta 10 caracteres alfanuméricos después de `id:`.
 
-El regex debe tener exactamente un grupo de captura con una parte incluida entre paréntesis. Los paréntesis deben rodear la parte de ID. El formato regex es PCRE.
+El regex debe tener exactamente un grupo de captura con una parte incluida entre paréntesis. Los paréntesis deben rodear la parte del ID. El formato regex es PCRE.
 
-Al ajustar esta configuración, asegúrese de incluir el mayor contexto posible para evitar déclencheur falsos. Si hay prefijos específicos, como `id:` en el estándar, inclúyalos en el regex. Utilice también delimitadores de palabras (\b) tanto como sea posible para evitar capturar texto en medio de una palabra.
+Al ajustar esta configuración, asegúrese de incluir el mayor contexto posible para evitar activaciones falsas. Si hay prefijos específicos, como `id:` en el estándar, inclúyalos en la regex. Utilice también delimitadores de palabras (\b) tanto como sea posible para evitar capturar texto en medio de una palabra.
 
-No incluir suficiente contexto en el regex puede introducir un pequeño defecto de seguridad: el contenido real del mensaje puede incluirse en el SR. Si solo coincide con un formato de ID específico sin contexto, por ejemplo, un UUID, es posible que esté analizando el contenido de texto real, por ejemplo, un UUID incrustado en el campo de texto, en lugar del ID.
+No incluir suficiente contexto en la regex puede introducir un pequeño defecto de seguridad: el contenido real del mensaje puede incluirse en el SR. Si solo coincide con un formato de ID específico sin contexto, p. ej., un UUID, es posible que esté analizando el contenido de texto real, p. ej., un UUID incrustado en el campo de texto, en lugar del ID.
 
-#### Regex aplicado para determinar el estado correcto/de error {#regex-applied}
+#### Regex aplicada para determinar el estado correcto/de error {#regex-applied}
 
-Cuando se encuentran mensajes con una combinación de campo stat/err desconocida, estos regex se aplican en el campo stat para determinar si el SR fue un éxito o un error. Se omiten los valores de SR con los valores de stat que no coinciden con ninguno de estos anexos.
+Cuando se encuentran mensajes con una combinación de campo stat/err desconocida, estas regex se aplican en el campo estadísticas (&quot;stat&quot;) para determinar si el SR fue un éxito o un error. Se omiten los valores de SR con los valores estadísticos que no coinciden con ninguna de estas expresiones regulares.
 
-De forma predeterminada, los valores de stat comienzan por `DELIV`, por ejemplo: `DELIVRD` en el [Apéndice B](../../delivery/using/sms-protocol.md#sr-error-management), se considerará que se ha entregado correctamente y todos los valores de estado que coincidan con errores, por ejemplo: `REJECTED`, `UNDELIV`, se consideran errores.
+De forma predeterminada, los valores de estadística comienzan por `DELIV`, p. ej.: `DELIVRD` en el [Apéndice B](../../delivery/using/sms-protocol.md#sr-error-management), se considera que se ha entregado correctamente y todos los valores de estadística que coincidan con errores, p. ej.: `REJECTED`, `UNDELIV`, se consideran errores.
 
-#### Formato de ID en confirmación MT {#id-format-mt}
+#### Formato de ID en reconocimiento MT {#id-format-mt}
 
 Indica el formato del ID devuelto en el campo `message_id` del `SUBMIT_SM_RESP PDU`.
 
-* **No modificar**: El ID se almacena tal cual en la base de datos, como texto con codificación ASCII. No se produce ningún procesamiento previo ni filtrado.
+* **No modificar**: El ID se almacena tal cual en la base de datos, como texto con codificación ASCII. No hay ningún procesamiento previo ni filtrado.
 
-* **Número** decimal: Se espera que el ID sea un número decimal en formato ASCII. Cuando se utiliza este ajuste, se eliminan los espacios iniciales y finales y los ceros al inicio.
+* **Número decimal** : Se espera que el ID sea un número decimal en formato ASCII. Cuando se utiliza este ajuste, se eliminan los espacios iniciales y finales y los ceros al inicio.
 
-* **Número** hexadecimal: Se espera que el ID sea un número hexadecimal en formato ASCII, sin 0x inicial ni h final. El ID se convierte a continuación en un número decimal antes de almacenarse en la base de datos.
+* **Número hexadecimal**: Se espera que el ID sea un número hexadecimal en formato ASCII, sin 0x inicial ni h final. El ID se convierte a continuación en un número decimal antes de almacenarse en la base de datos.
 
-* **Cadena** hexadecimal: Se espera que el ID sea un texto con codificación ASCII que es en sí mismo una cadena de bytes codificados como hexadecimales. Por ejemplo: en la PDU encontrará `0x34 0x31 0x34 0x32 0x34 0x33`, que se traduce como ASCII &quot;414243&quot;. A continuación, esta cadena se descodifica como una cadena hexadecimal de bytes y se obtiene &quot;ABC&quot; como resultado: almacenará el ID &quot;ABC&quot; en la base de datos.
+* **Cadena hexadecimal**: Se espera que el ID sea un texto con codificación ASCII que es en sí mismo una cadena de bytes codificados como hexadecimales. P. ej.: en la PDU encontrará `0x34 0x31 0x34 0x32 0x34 0x33`, que se traduce como ASCII &quot;414243&quot;. A continuación, esta cadena se descodifica como una cadena hexadecimal de bytes y se obtiene &quot;ABC&quot; como resultado: almacenará el ID &quot;ABC&quot; en la base de datos.
 
 #### Formato de ID en SR {#id-format-sr}
 
-Esto indica el formato del ID capturado por el regex `Extraction` del ID en el SR. Los valores tienen el mismo significado y el mismo comportamiento que el formato de MT anterior.
+Esto indica el formato del ID capturado por la regex `Extraction` del ID en el SR. Los valores tienen el mismo significado y el mismo comportamiento que el formato de MT anterior.
 
-**Id. SR o código de error en el campo opcional**
+**ID de SR o código de error en el campo opcional**
 
 >[!NOTE]
 >
->Solo disponible en el conector SMPP ampliado de Adobe Campaign Classic.
+>Solo disponible en el conector del SMPP ampliado de Adobe Campaign Classic.
 
-Si se selecciona, el contenido de los campos opcionales se anexará al texto procesado por los anexos anteriores. El texto tendrá el formato `0xTAG:VALUE`, `0xTAG` siendo el valor hexadecimal de 4 dígitos de la etiqueta en mayúsculas, por ejemplo. `0x002E`.
+Si se selecciona, el contenido de los campos opcionales se anexará al texto procesado por las expresiones regulares anteriores. El texto tendrá el formato `0xTAG:VALUE`, `0xTAG` siendo el valor hexadecimal de 4 dígitos de la etiqueta en mayúsculas, p. ej.: `0x002E`.
 
-Por ejemplo, es posible que desee capturar el ID en el campo `receipted_message_id`. Para ello, active esta casilla de verificación y se agregará el siguiente texto al estado:
+Por ejemplo, es posible que desee capturar el ID en el campo `receipted_message_id`. Para ello, active esta casilla de verificación y el siguiente texto se agrega al estado:
 
 ```
 0x001E:05e3299e-8d37-49d0-97c6-8e4fe60c7739
@@ -684,7 +684,7 @@ Por ejemplo, es posible que desee capturar el ID en el campo `receipted_message_
 
 En este ejemplo, 0x001E es la etiqueta del campo opcional y UUID es el valor del campo.
 
-Para capturar este valor, ahora puede establecer el siguiente regex en el regex de Extracción del ID en el campo SR:
+Para capturar este valor, ahora puede establecer la siguiente regex en la regex de Extracción del ID en el campo SR:
 
 ```
 \b0x001E:([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b
@@ -694,53 +694,53 @@ Para capturar este valor, ahora puede establecer el siguiente regex en el regex 
 >
 >Solo puede capturar campos opcionales que tengan valores de texto (ASCII/UTF-8). Concretamente, los campos binarios no se pueden capturar de forma fiable con el sistema regex actual.
 
-**Id. SR o código de error en el campo de texto**
+**ID de SR o código de error en el campo de texto**
 
 Si se selecciona, el campo **Texto** se mantendrá durante el procesamiento del texto de estado del SR.
 
 Esto resulta útil si el proveedor coloca datos importantes en este campo, como el ID o el estado. Normalmente, este campo se puede descartar de forma segura, ya que puede contener texto con una codificación que no sea ASCII e interrumpir el procesamiento de regex.
 
-Si se habilita esta opción, puede que se produzca un error de seguridad muy pequeño si el regex `Extraction` del ID en el campo SR no es lo suficientemente específico. El contenido del campo **Texto** puede analizarse como un ID y un atacante puede utilizarlo para inyectar ID falsificados, lo que puede conducir a una situación de denegación de servicio parcial.
+Si se habilita esta opción, puede que se produzca un error de seguridad muy pequeño si la regex del ID `Extraction` en el campo SR no es lo suficientemente específico. El contenido del campo **Texto** puede analizarse como un ID y un atacante puede utilizarlo para inyectar ID falsificados, lo que puede conducir a una situación de denegación de servicio parcial.
 
 **Etiqueta de ID de servicio**
 
-Permite agregar un TLV personalizado. Este campo establece la porción de etiqueta. El valor se puede personalizar por envío en el valor **ID de servicio o programa** en los parámetros avanzados del envío.
+Permite añadir un TLV personalizado. Este campo establece la porción de etiqueta. El valor se puede personalizar por envío en el valor **ID de servicio o programa** en los parámetros avanzados del envío.
 
-Esta configuración solo permite agregar una opción TLV por mensaje.
+Esta configuración solo permite añadir una opción TLV por mensaje.
 
 ### Respuesta automática enviada al MO {#automatic-reply}
 
 >[!IMPORTANT]
 >
->En Adobe Campaign Classic y en una arquitectura híbrida, la aplicación de la respuesta automática para el conector SMPP ampliado requiere agregar acceso de escritura para el operador medio en la carpeta **Cuenta externa**.
+>En Adobe Campaign Classic y en una arquitectura híbrida, la aplicación de la respuesta automática para el conector del SMPP ampliado requiere añadir acceso de escritura para el operador medio en la carpeta **Cuenta externa**.
 
-Esta función permite responder texto rápidamente a MO y controlar el envío de código por corto a la lista de bloqueados.
+Esta función permite responder texto rápidamente a MO y controlar el envío de código corto a la lista de bloqueados.
 
-Las columnas **Palabra clave** y **Código corto** definen condiciones para el déclencheur de la respuesta automática. Si coinciden ambos campos, se envía el objeto MO y se activa la acción adicional. Para especificar un comodín, debe dejar el campo vacío. La palabra clave coincide con la primera palabra alfanumérica del texto MO, omitiendo la puntuación y los espacios iniciales. Significa que el campo **Palabra clave** no puede contener espacios y debe ser una sola palabra.
+Las columnas **Palabra clave** y **Código corto** definen condiciones para la activación de la respuesta automática. Si coinciden ambos campos, se envía el MO y se activa la acción adicional. Para especificar un comodín, debe dejar el campo vacío. La palabra clave coincide con la primera palabra alfanumérica del texto MO, omitiendo la puntuación y los espacios iniciales. Esto significa que el campo **Palabra clave** no puede contener espacios y debe ser una sola palabra.
 
-La configuración **palabra clave** es un prefijo. Por ejemplo, si especifica &quot;AD&quot;, coincidirá con &quot;AD&quot;, &quot;ADAPT&quot; y &quot;ADOBE&quot;. Si tiene varias palabras clave con un prefijo común, debe prestar atención al pedido, ya que las palabras clave se procesan de arriba abajo.
+La configuración **Palabra clave** es un prefijo. Por ejemplo, si especifica &quot;AD&quot;, coincidirá con &quot;AD&quot;, &quot;ADAPT&quot; y &quot;ADOBE&quot;. Si tiene varias palabras clave con un prefijo común, debe prestar atención al orden, ya que las palabras clave se procesan de arriba a abajo.
 
-La columna **Responder** es el texto que se va a responder. No hay personalización disponible en este campo. Si deja este campo vacío, no se responderá ningún mensaje, pero la acción adicional se activará de todos modos.
+La columna **Respuesta** es el texto que se va a responder. No hay personalización disponible en este campo. Si deja este campo vacío, no se responderá ningún mensaje, pero la acción adicional se activará de todos modos.
 
-La columna **Acción adicional** proporciona una acción adicional cuando tanto **Palabra clave** como **Código corto** coinciden, el código corto vacío coincide con todos los códigos cortos. Puede enviar a la cuarentena o quitar de la cuarentena el valor ninguno responde al texto. Si especifica una **acción adicional** pero deja vacío el campo **Responder**, la acción se ejecutará pero no se enviará ninguna respuesta. La cuarentena solo se aplica al código corto especificado o a todos los códigos cortos si el campo se deja vacío.
+La columna **Acción adicional** proporciona una acción adicional cuando tanto la **Palabra clave** como el **Código corto** coinciden, el código corto vacío coincide con todos los códigos cortos. Puede enviar a la cuarentena o quitar de la cuarentena, ningún valor responde al texto. Si especifica una **Acción adicional** pero deja vacío el campo **Respuesta**, la acción se ejecutará pero no se enviará ninguna respuesta. La cuarentena solo se aplica al código corto especificado o a todos los códigos cortos si el campo se deja vacío.
 
 >[!IMPORTANT]
 >
 >La configuración del número de teléfono completo de envío afecta al comportamiento del mecanismo de cuarentena de respuesta automática: si el número de teléfono de envío completo no está marcado, el número de teléfono puesto en cuarentena estará marcado con un signo más (&quot;+&quot;) para que sea compatible con el formato de número de teléfono internacional.
 
-Todas las entradas de la tabla se procesan en el orden especificado, hasta que una regla coincida. Si varias reglas coinciden con un objeto MO, solo se aplicará la regla superior.
+Todas las entradas de la tabla se procesan en el orden especificado, hasta que una regla coincida. Si varias reglas coinciden con un MO, solo se aplicará la regla superior.
 
-## Parámetros de Plantilla de envíos SMS {#sms-delivery-template-parameters}
+## Parámetros de plantilla de envíos de SMS {#sms-delivery-template-parameters}
 
-Algunos parámetros se pueden definir por Plantilla de envíos.
+Algunos parámetros se pueden definir por la plantilla de envíos.
 
 ### Del campo {#from-field}
 
 Este campo es opcional. Permite anular la dirección del remitente (oADC). El contenido de este campo se coloca en el campo `source_addr` del `SUBMIT_SM PDU`.
 
-El campo está limitado a 21 caracteres por la especificación SMPP, pero algunos proveedores pueden permitir valores más largos. Tenga en cuenta también que en algunos países se pueden aplicar restricciones muy estrictas, como longitud, contenido, caracteres permitidos.
+El campo está limitado a 21 caracteres por la especificación del SMPP, pero algunos proveedores pueden permitir valores más largos. Tenga en cuenta también que en algunos países se pueden aplicar restricciones muy estrictas, como longitud, contenido, caracteres permitidos.
 
-### Parámetros de entrega {#delivery-parameters}
+### Parámetros de envío {#delivery-parameters}
 
 #### Número máximo de SMS por mensaje {#maximum-sms}
 
@@ -748,7 +748,7 @@ Esta configuración solo funciona si la configuración **Carga útil del mensaje
 
 El protocolo SMS limita los SMS a 255 partes, pero algunos teléfonos móviles tienen problemas para reunir mensajes largos con más de 10 partes, el límite depende del modelo exacto. Le recomendamos que no pase más de 5 partes por mensaje.
 
-Debido al funcionamiento de los mensajes personalizados en Adobe Campaign, el tamaño de los mensajes puede variar. Tener una buena cantidad de mensajes largos podría aumentar los costos de envío.
+Debido a cómo funcionan los mensajes personalizados en Adobe Campaign, el tamaño de los mensajes puede variar. Si tiene una gran cantidad de mensajes largos, el coste del envío podría aumentar.
 
 #### Modo de transmisión {#transmission-mode}
 
@@ -756,19 +756,19 @@ Este campo indica el tipo de SMS que desea transferir: mensajes normales o flash
 
 Esta configuración se transmite en el campo opcional `dest_addr_subunit` de `SUBMIT_SM PDU`.
 
-* **** No especificado no envía ningún campo opcional en la PDU.
+* **Sin especificar** no envía ningún campo opcional en la PDU.
 
-* **** Flashestablece el valor en 1. Envía un mensaje flash que aparece en el dispositivo móvil y no se almacena en la memoria.
+* **Flash** establece el valor en 1. Envía un mensaje flash que aparece en el dispositivo móvil y no se almacena en la memoria.
 
-* **** Normalmente establece el valor en 0. Envía un mensaje normal.
+* **Normal** establece el valor en 0. Envía un mensaje normal.
 
-* **Guardar en** móviles establece el valor en 2. Le dice al teléfono que almacene el SMS en la memoria interna.
+* **Guardar en un móvil** establece el valor en 2. Le dice al teléfono que almacene el SMS en la memoria interna.
 
-* **Guardar en** terminalestablece el valor en 3. Le dice al teléfono que almacene el SMS en la tarjeta SIM.
+* **Guardar en un terminal** establece el valor en 3. Le dice al teléfono que almacene el SMS en la tarjeta SIM.
 
 #### Período de validez {#validity-period}
 
-El período de validez se transmite en el campo `validity_period` del `SUBMIT_SM PDU`. La fecha siempre tiene el formato de formato de hora UTC absoluta, el campo de fecha finalizará con &quot;00+&quot;.
+El período de validez se transmite en el campo `validity_period` del `SUBMIT_SM PDU`. La fecha siempre está formateada con un formato de hora UTC absoluta, el campo de fecha finalizará con &quot;00+&quot;.
 
 ## Conector SMPP genérico extendido {#acc-extended-connector}
 
@@ -776,66 +776,66 @@ El período de validez se transmite en el campo `validity_period` del `SUBMIT_SM
 
 Las flechas representan flujos de datos.
 
-Al enviar piezas de envío, el MTA genera elementos secundarios de MTA. El número de procesos secundarios de MTA es dinámico y depende de una configuración en serverConf.xml. Cada elemento secundario de MTA crea una instancia del conector `CSmppConnectorWorker` que se conecta al proveedor de SMPP. Las conexiones se mantienen vivas mientras el elemento secundario de MTA se mantenga vivo, también se puede configurar en serverConf.xml.
+Al enviar partes de envío, el MTA genera elementos secundarios de MTA. El número de procesos secundarios de MTA es dinámico y depende de una configuración en serverConf.xml. Cada elemento secundario de MTA crea una instancia del conector `CSmppConnectorWorker` que se conecta al proveedor del SMPP. Las conexiones se mantienen activas mientras el elemento secundario de MTA se mantenga activo, también se puede configurar en serverConf.xml.
 
-El proceso SMS sólo procesa SR, se conecta al proveedor y deja la conexión abierta. El proceso se vuelve a conectar cada 10 minutos para volver a cargar la nueva configuración, lo cual es normal.
+El proceso del SMS solo procesa SR, se conecta al proveedor y deja la conexión abierta. El proceso se vuelve a conectar cada 10 minutos para volver a cargar la nueva configuración, lo cual es normal.
 
-### Entradas MT, SR y de registro de banda ancha {#matching-mt} que coinciden
+### Entradas de MT, SR y &quot;broadlog&quot; que coinciden {#matching-mt}
 
-Se utiliza una tabla intermedia `nmsProviderMsgId` para almacenar los datos MT y SR temporalmente antes de enviarse asincrónicamente al diario.
+Se utiliza una tabla intermedia `nmsProviderMsgId` para almacenar los datos de MT y SR temporalmente antes de enviarse asincrónicamente al &quot;broadlog&quot;.
 
 `nmsProviderMsgId` tiene 3 grupos de columnas:
 
-* Columnas actualizadas cuando se envía y se acepta un mensaje MT: `iBroadLogId`, `iDeliveryId`
+* Columnas actualizadas cuando se envía y se reconoce un mensaje MT: `iBroadLogId`, `iDeliveryId`
 
 * Columnas actualizadas cuando se recibe un SR: `iMsgId`, `iStatus`
 
 * Columnas que siempre se actualizan: `tsCreated`, `sProviderId`
 
-Cuando haya terminado el procesamiento de MT y SR, debe tener líneas completas, con información de registro de banda ancha e información de estado.
+Cuando haya terminado el procesamiento de MT y SR, debe tener líneas completas, con información de &quot;broadlog&quot; e información de estado.
 
 Aquí, `iMsgId` está vinculado a la tabla `nmsBroadLogMsg`, lo que indica el mensaje de estado/error completo.
 
 El proceso de SMS busca líneas completas cada minuto y luego las procesa asincrónicamente:
 
-* Se lee la línea completa.
-* El proceso SMS calcula el nombre de la tabla de diarios extendidos en función de la asignación de envíos.
-* El proceso de SMS actualiza la tabla de diarios extendidos con el ID del mensaje y el estado.
+* se lee la línea completa.
+* El proceso del SMS calcula el nombre de la tabla de &quot;broadlog&quot; en función de la asignación de envíos.
+* El proceso del SMS actualiza la tabla de &quot;broadlog&quot; con el ID del mensaje y el estado.
 
 **Conexión en paralelo y de rendimiento**
 
-Cada elemento secundario de MTA crea una cantidad configurable de conexiones, por lo que limitar el número de elementos secundarios de MTA limitará el número de conexiones. Debido a que la correlación entre los procesos secundarios de MTA y el tráfico está correlacionada, esto puede estar controlado de alguna manera pero aún es un poco impredecible.
+Cada elemento secundario de MTA crea una cantidad configurable de conexiones, por lo que si se limita el número de elementos secundarios de MTA se limita el número de conexiones. Debido a que la correlación entre los procesos secundarios de MTA y el tráfico está correlacionado, se puede controlar de alguna manera pero sigue siendo impredecible.
 
 ## Antes de empezar a usar {#checklist}
 
-Esta lista de comprobación proporciona una lista de las cosas que debe comprobar antes de activarse. Una configuración incompleta puede provocar muchos problemas.
+Esta lista de verificación le proporciona una lista de las cosas que debe comprobar antes de empezar a usarlo. Una configuración incompleta puede provocar muchos problemas.
 
-### Buscar conflictos de cuenta externa {#external-account-conflict}
+### Compruebe si hay conflictos en la cuenta externa {#external-account-conflict}
 
-Compruebe que no tiene cuentas externas SMS antiguas. Si deja desactivada la cuenta de prueba, corre el riesgo de que se vuelva a habilitar en el sistema de producción y se generen posibles conflictos.
+Compruebe que no tiene cuentas externas de SMS antiguas. Si deja desactivada la cuenta de prueba, corre el riesgo de que se vuelva a habilitar en el sistema de producción y se generen posibles conflictos.
 
-Si tiene varias cuentas en la misma instancia de Adobe Campaign que se conectan al mismo proveedor, póngase en contacto con el proveedor para asegurarse de que realmente distinguen conexiones entre estas cuentas. Tener varias cuentas con el mismo inicio de sesión requiere una configuración adicional.
+Si tiene varias cuentas en la misma instancia de Adobe Campaign que se conectan al mismo proveedor, póngase en contacto con el proveedor para asegurarse de que realmente se distinguen las conexiones entre estas cuentas. Si tiene varias cuentas con el mismo inicio de sesión necesita una configuración adicional.
 
-### Habilitar los seguimientos SMPP detallados durante las comprobaciones {#enable-verbose}
+### Habilite los seguimientos detallados del SMPP durante las comprobaciones {#enable-verbose}
 
-Siempre debe habilitar los seguimientos SMPP detallados durante las comprobaciones.
-Incluso si no puede comprobar los registros usted mismo, será más fácil para la asistencia técnica ayudarlo.
+Siempre debe habilitar los seguimientos detallados del SMPP durante las comprobaciones.
+Incluso si no puede comprobar los registros usted mismo, será más fácil para la asistencia técnica ayudarle.
 
-### Probar su SMS {#test}
+### Pruebe su SMS {#test}
 
-* **Enviar SMS con todo tipo de**
-caracteresSi necesitas enviar SMS con caracteres que no sean GSM o ASCII, intenta enviar algunos mensajes con tantos caracteres diferentes como sea posible. Si configura una tabla de asignación de caracteres personalizada, envíe al menos un SMS para todo lo posible 
-`data_coding` values.
+* **Envíe SMS con todo tipo de caracteres**
+Si necesita enviar un SMS con caracteres que no sean GSM o ASCII, intente enviar algunos mensajes con tantos caracteres diferentes como sea posible. Si configura una tabla de asignación de caracteres personalizada, envíe al menos un SMS para todos los posibles 
+`data_coding` valores.
 
-* **Verifique que SR se**
-procesen correctamenteEl SMS debe marcarse como recibido en el registro de envíos. El registro de envíos debe tener el siguiente aspecto:
+* **Verifique que SR se procesa correctamente**
+El SMS debe marcarse como recibido en el registro de envíos. El registro de envíos debe tener el siguiente aspecto:
 
 Compruebe que ha cambiado el nombre del proveedor de envío. El registro de envíos nunca debe contener    `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
-Compruebe que ha cambiado el nombre del proveedor de envío. El registro de envíos nunca debe contener **SR Generic** en entornos de producción.
+Compruebe que ha cambiado el nombre del proveedor de envío. El registro de envíos nunca debe contener **SR genérico** en entornos de producción.
 
-* **Compruebe que se**
-procesan los MOsSi necesita procesar los MO (respuestas automáticas, almacenar los MO en la base de datos, etc.) intente realizar algunas pruebas. Envíe algunos SMS para todas las palabras clave de respuesta automática y compruebe si la respuesta es lo suficientemente rápida, no más de unos segundos.
-Compruebe el registro en el que Adobe Campaign responde correctamente 
+* **Compruebe que se procesan los MO**
+Si necesita procesar los MO (respuestas automáticas, almacenar los MO en la base de datos, etc.) intente realizar algunas pruebas. Envíe algunos SMS para cada una de las palabras clave de respuesta automática y compruebe si la respuesta es lo suficientemente rápida, no más de unos segundos.
+Compruebe en el registro que Adobe Campaign responde correctamente 
 `DELIVER_SM_RESP` (command_status=0).
 
 ### Compruebe las PDU {#check-pdus}
@@ -846,17 +846,17 @@ Este paso es necesario cuando se conecta a un proveedor que no estaba conectado 
 
 #### BIND {#bind}
 
-Verifique que `BIND_* PDUs` se envíen correctamente. Lo más importante que hay que comprobar es que el proveedor siempre devuelve `BIND_*_RESP PDUs` (command_status = 0) exitoso.
+Verifique que `BIND_* PDUs` se envíen correctamente. Lo más importante que hay que comprobar es que el proveedor siempre devuelve `BIND_*_RESP PDUs` (command_status = 0) correctamente.
 
-Compruebe que no hay demasiados `BIND_* PDU`s. Si hay demasiados, podría indicar que la conexión es inestable. Consulte la sección [Problemas con conexiones inestables](../../delivery/using/sms-protocol.md#issues-unstable-connection) para obtener más información.
+Compruebe que no hay demasiadas `BIND_* PDU`. Si hay demasiados, podría indicar que la conexión es inestable. Consulte la sección [Problemas con conexiones inestables](../../delivery/using/sms-protocol.md#issues-unstable-connection) para obtener más información.
 
-#### INQUIRE_LINK {#enquire-link-pdus}
+#### ENQUIRE_LINK {#enquire-link-pdus}
 
-Compruebe que `ENQUIRE_LINK PDU`s se intercambian regularmente cuando la conexión está inactiva.
+Compruebe que las `ENQUIRE_LINK PDU` se intercambian regularmente cuando la conexión está inactiva.
 
 **SUBMIT_SM / DELIVER_SM**
 
-Envíe un mensaje y luego busque en los registros sus correspondientes `SUBMIT_SM`, `SUBMIT_SM_RESP`, `DELIVER_SM` y `DELIVER_SM_RESP PDU`s.
+Envíe un mensaje y luego busque en los registros sus correspondientes `SUBMIT_SM`, `SUBMIT_SM_RESP`, `DELIVER_SM` y `DELIVER_SM_RESP PDU`.
 
 Con el `SUBMIT_SM PDU`:
 
@@ -871,10 +871,10 @@ Con el `SUBMIT_SM_RESP PDU`:
 Con el `DELIVER_SM PDU`:
 
 * Descodificar el campo hexadecimal `short_message`.
-* Compruebe con una herramienta de comprobación de regex que el regex definido en `Extraction` regex del ID en el SR devuelve exactamente un grupo de captura y que captura el ID completo en el mensaje.
+* Compruebe con una herramienta de comprobación de regex que la expresión regular definida en la regex `Extraction` del ID en el SR devuelve exactamente un grupo de captura y que captura el ID completo en el mensaje.
 * Compruebe que el ID extraído coincide con el de `SUBMIT_SM_RESP`.
-* Compruebe que el regex definido en `Extraction` regex del estado en el SR devuelve el contenido del campo stat.
-* Compruebe que el regex definido en `Extraction` regex del error en el SR devuelve el contenido del campo err.
+* Compruebe que la expresión regular definida en la regex `Extraction` del estado en el SR devuelve el contenido del campo de estadística.
+* Compruebe que la expresión regular definida en la regex `Extraction` del error en el SR devuelve el contenido del campo error.
 
 Con el `DELIVER_SM_RESP PDU`:
 
@@ -883,8 +883,8 @@ Con el `DELIVER_SM_RESP PDU`:
 
 ### Consulte con su proveedor {#provider}
 
-Aunque tu SMS sea exitoso, ponte en contacto con el proveedor para ver si todo está en orden.
+Aunque el SMS se haya enviado correctamente, póngase en contacto con el proveedor para ver si todo está en orden.
 
-### Deshabilitar los seguimientos SMPP detallados {#disable-verbose}
+### Deshabilite los seguimientos detallados del SMPP {#disable-verbose}
 
-Una vez completadas todas las comprobaciones, lo último es **Deshabilitar los seguimientos SMPP detallados** para no generar demasiados registros. Puede volver a activarlos para solucionar problemas incluso en sistemas de producción.
+Una vez completadas todas las comprobaciones, lo último que debe hacer es **Deshabilitar los seguimientos detallados del SMPP** para no generar demasiados registros. Puede volver a activarlos para solucionar los problemas incluso en sistemas de producción.
