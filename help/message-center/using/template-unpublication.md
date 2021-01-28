@@ -6,11 +6,11 @@ description: Publicación de plantilla
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 02dee9c4cc03784ccc20f147f816798248bd10f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -49,6 +49,6 @@ Una vez finalizada la cancelación de la publicación:
 
    Ya no aparecen en la carpeta **[!UICONTROL Administration > Production > Message Center Execution > Default > Transactional message templates]** (consulte [esta sección](../../message-center/using/template-publication.md)).
 
-* Una vez cancelada la publicación de una plantilla, puede eliminarla de la instancia de control.
+* Una vez cancelada la publicación de una plantilla, puede eliminarla de la instancia de control si es necesario.
 
    Para ello, selecciónela en la lista y haga clic en el botón **[!UICONTROL Delete]** situado en la parte superior derecha de la pantalla.
