@@ -6,11 +6,11 @@ description: Creación de una conexión compartida
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5bc6c8a824929c6a61cf562fc961e5bdd1867837
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '998'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ Para crear una cuenta externa de tipo instancia de ejecución, siga los siguient
 
 ## Instancia de ejecución {#execution-instance}
 
-Para que la instancia de control pueda conectarse a la instancia de ejecución sin tener que dar una contraseña, simplemente ingrese la dirección IP de la instancia de control en la sección de derechos de acceso **Centro de mensajes**. Sin embargo, las contraseñas vacías están prohibidas de forma predeterminada.
+Para que la instancia de control pueda conectarse a la instancia de ejecución sin tener que proporcionar una contraseña, simplemente introduzca la dirección IP de la instancia de control en la sección de derechos de acceso del **Centro de mensajes**. Sin embargo, las contraseñas vacías están prohibidas de forma predeterminada.
 
 Para utilizar una contraseña vacía, vaya a las instancias de ejecución y defina una zona de seguridad limitada a la dirección IP del sistema de información que envía los eventos. Esta zona de seguridad debe permitir contraseñas vacías y aceptar conexiones tipo `<identifier> / <password>`. Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
