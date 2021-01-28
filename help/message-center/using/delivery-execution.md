@@ -6,11 +6,11 @@ description: Ejecución de entrega
 audience: message-center
 content-type: reference
 topic-tags: event-processing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1788346f7dfe2c18c490363c90358fcb737f1646
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 55%
 
 ## Mensaje transaccional que envía {#transactional-message-send}
 
-En la instancia de ejecución, una vez que se haya completado la etapa de enriquecimiento y se haya vinculado una plantilla de envío al evento, se realiza el envío.
+En la instancia de ejecución, una vez que se haya completado la fase de enriquecimiento y se haya vinculado una plantilla de envíos al evento, se realiza el envío.
 
 >[!NOTE]
 >
 >El MTA prioriza el procesamiento de los mensajes transaccionales sobre cualquier otro envío.
 
-Todos las entregas se agrupan en la carpeta **[!UICONTROL Administration > Production > Message Center > Default > Deliveries]**.
+Todos los envíos se agrupan en la carpeta **[!UICONTROL Administration > Production > Message Center > Default > Deliveries]**.
 
 ![](assets/messagecenter_deliveries_execinstances_001.png)
 
@@ -37,7 +37,7 @@ De forma predeterminada, se clasifican en subcarpetas por mes de envío. Esta or
 >
 >En el caso de instalaciones alojadas o híbridas, si se ha actualizado a la MTA mejorada, todos los mensajes transaccionales también se pueden enviar con la MTA mejorada de Adobe Campaign para mejorar la capacidad de envío, el rendimiento y la gestión de rechazos. Todos los impactos son los mismos que para los mensajes de marketing estándar y se detallan en el documento [MTA mejorado de Adobe Campaign](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html).
 
-## Monitoreo de mensajes transaccionales {#transactional-message-monitoring}
+## Supervisión de mensajes transaccionales {#transactional-message-monitoring}
 
 Para supervisar sus mensajes transaccionales, compruebe los registros de envío. El acceso a los registros de envío se presenta en [esta sección](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
 
