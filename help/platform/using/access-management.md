@@ -6,11 +6,11 @@ description: Gestión de acceso
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d1130691e40c0cac183db37a4c0b410d00bb696a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2984'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -203,7 +203,7 @@ De forma predeterminada, el operador técnico “webapp” tiene el derecho asig
 
 >[!NOTE]
 >
->Para obtener más información sobre pautas de seguridad consulte la [Lista de comprobación de configuración de seguridad de Adobe Campaign](https://helpx.adobe.com/campaign/kb/acc-security.html).
+>Para obtener más información sobre pautas de seguridad consulte la [Lista de comprobación de configuración de seguridad de Adobe Campaign](https://helpx.adobe.com/es/campaign/kb/acc-security.html).
 
 ## Grupos de operadores {#operator-groups}
 
