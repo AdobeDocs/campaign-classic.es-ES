@@ -6,20 +6,20 @@ description: Depuración de eventos
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5bc6c8a824929c6a61cf562fc961e5bdd1867837
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '90'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
 
 # Depuración de eventos{#purging-events}
 
-Puede utilizar el [asistente de implementación](../../production/using/database-cleanup-workflow.md#deployment-wizard) para configurar cuánto tiempo se almacenarán los datos en la base de datos.
+Se puede utilizar el [asistente de implementación](../../production/using/database-cleanup-workflow.md#deployment-wizard) para configurar cuánto tiempo se guardan los datos en la base de datos.
 
-La depuración de eventos se realiza automáticamente mediante el [flujo de trabajo de limpieza de bases de datos](../../production/using/database-cleanup-workflow.md). Este flujo de trabajo depura los eventos recibidos y almacenados en las instancias de ejecución y los eventos archivados en una instancia de control.
+El [flujo de trabajo de limpieza de la base de datos](../../production/using/database-cleanup-workflow.md) lleva a cabo la depuración de eventos automáticamente. Este flujo de trabajo depura los eventos recibidos y almacenados en las instancias de ejecución y los eventos archivados en una instancia de control.
 
 Utilice las flechas según corresponda para modificar la configuración de depuración.
 
