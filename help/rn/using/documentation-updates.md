@@ -23,21 +23,21 @@ Consulte las [Notas de la versión de Adobe Campaign Classic](../../rn/using/lat
 
 ## Enero de 2021 {#jan-2021}
 
-La sección de actividad **[!UICONTROL Fork]** se ha enriquecido con optimizaciones. [Más información](../../workflow/using/fork.md)
+La sección de actividad **[!UICONTROL Fork]** se ha enriquecido con optimizaciones. [Puede obtener más información](../../workflow/using/fork.md)
 
-La sección **Conectores de CRM** se ha actualizado, mejorado y reorganizado. [Más información](../../platform/using/crm-connectors.md).
+La sección **Conectores de CRM** se ha actualizado, mejorado y reorganizado. [Obtenga más información](../../platform/using/crm-connectors.md).
 
-Los pasos para conectar **Adobe Campaign y Microsoft Dynamics** ahora se detallan en una página dedicada. [Más información](../../platform/using/crm-ms-dynamics.md).
+Los pasos para conectar **Adobe Campaign y Microsoft Dynamics** ahora se detallan en una página dedicada. [Obtenga más información](../../platform/using/crm-ms-dynamics.md).
 
-La API de oracle On Demand ya no se utiliza como CRM conectado con la Campaña. [Más información](../../rn/using/deprecated-features.md).
+La API de oracle On Demand ya no se utiliza como CRM conectado con la Campaña. [Obtenga más información](../../rn/using/deprecated-features.md).
 
 Conozca cómo averiguar la versión actual del servlet web integrado de Tomcat utilizado en una instancia de Adobe Campaign [aquí](../../production/using/locate-tomcat-version.md).
 
-La lista de flujos de trabajo técnicos con sus paquetes asociados se ha mejorado y centralizado en una sola página. [Más información](../../workflow/using/about-technical-workflows.md)
+La lista de flujos de trabajo técnicos con sus paquetes asociados se ha mejorado y centralizado en una sola página. [Puede obtener más información](../../workflow/using/about-technical-workflows.md)
 
-La sección de solución de problemas de la guía **Monitoreo** se ha reorganizado y mejorado con una página de aterrizaje. [Más información](../../production/using/troubleshooting.md).
+La sección de solución de problemas de la guía **Monitoreo** se ha reorganizado y mejorado con una página de aterrizaje. [Obtenga más información](../../production/using/troubleshooting.md).
 
-Hay una nueva sección **Importación y exportación de datos** disponible con nuevas páginas relacionadas con flujos de trabajo, compresión de datos, cifrado y optimizaciones de importación. [Más información](../../platform/using/get-started-data-import-export.md)
+Hay una nueva sección **Importación y exportación de datos** disponible con nuevas páginas relacionadas con flujos de trabajo, compresión de datos, cifrado y optimizaciones de importación. [Puede obtener más información](../../platform/using/get-started-data-import-export.md)
 
 ## Diciembre de 2020 {#dec-2020}
 
@@ -47,7 +47,7 @@ Se ha agregado un caso de uso sobre cómo agregar las direcciones IP de los remi
 
 Las preguntas frecuentes sobre privacidad se han trasladado a [esta sección](../../platform/using/privacy-faq.md).
 
-Se ha agregado un caso de uso sobre cómo utilizar la funcionalidad de combinación de la actividad **[!UICONTROL Deduplication]**. [Más información](../../workflow/using/deduplication-merge.md)
+Se ha agregado un caso de uso sobre cómo utilizar la funcionalidad de combinación de la actividad **[!UICONTROL Deduplication]**. [Puede obtener más información](../../workflow/using/deduplication-merge.md)
 
 La descripción completa del protocolo y la página de configuración del conector SMS ahora está disponible [aquí](../../delivery/using/sms-protocol.md).
 
@@ -167,7 +167,7 @@ Las [notas de la versión](../../rn/using/latest-release.md) se han reorganizado
 
 Se ha añadido una nueva sección con directrices relacionadas con la supervisión de Campaign Classic. [Más información](../../production/using/monitoring-guidelines.md)
 
-La sección Privacidad y consentimiento se ha mejorado con información más detallada y vínculos útiles. [Más información](../../platform/using/privacy-and-recommendations.md)
+La sección Privacidad y consentimiento se ha mejorado con información más detallada y vínculos útiles. [Obtenga más información](../../platform/using/privacy-and-recommendations.md)
 
 La página Administración de privacidad en Campaign Classic se ha actualizado con información sobre el campo &quot;Regulación&quot;, que ahora está disponible al utilizar la API y permite configurar el proceso de solicitud de privacidad automática. [Más información](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
@@ -197,8 +197,7 @@ Leyes de privacidad de Tailandia y Brasil: [Más información](https://helpx.ado
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
-La nueva opción que permite cancelar la publicación de una plantilla de mensaje transaccional se documenta en
-[esta sección](../../message-center/using/template-unpublication.md).
+La nueva opción que permite cancelar la publicación de una plantilla de mensaje transaccional se documenta en [esta sección](../../message-center/using/template-unpublication.md).
 
 Se han añadido a la lista de opciones de Campaign Classic las nuevas opciones que permiten establecer limitaciones al enviar correos electrónicos que incluyen imágenes descargadas de una URL personalizada y archivos adjuntos. [Más información](../../installation/using/configuring-campaign-options.md#delivery)
 
