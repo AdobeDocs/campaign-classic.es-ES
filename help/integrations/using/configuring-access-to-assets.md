@@ -6,11 +6,11 @@ description: Configuración del acceso a Assets
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d5d4b87bae44ce0a93458f79179434a5bf315c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -68,6 +68,6 @@ Al insertar imágenes en el contenido de una entrega basándose en esta plantill
 
 >[!NOTE]
 >
->Si el paquete **[!UICONTROL Integration with the Adobe Experience Cloud]** también está instalado en la instancia de Adobe Campaign, solo podrá utilizar los recursos disponibles en la biblioteca de Adobe Experience Cloud. Para acceder también a los recursos de la biblioteca AEM Assets, se deben sincronizar AEM Assets y Adobe Experience Cloud. Los recursos de AEM Assets también están disponibles en la biblioteca de Adobe Experience Cloud. En este caso, no es necesario crear una plantilla de envío específica. Para obtener más información sobre la sincronización entre AEM Assets y Adobe Experience Cloud, consulte la [documentación detallada](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/configure-assets-cc-integration.html#integration).
+>Si el paquete **[!UICONTROL Integration with the Adobe Experience Cloud]** también está instalado en la instancia de Adobe Campaign, solo podrá utilizar los recursos disponibles en la biblioteca de Adobe Experience Cloud. Para acceder también a los recursos de la biblioteca AEM Assets, se deben sincronizar AEM Assets y Adobe Experience Cloud. Los recursos de AEM Assets también están disponibles en la biblioteca de Adobe Experience Cloud. En este caso, no es necesario crear una plantilla de envío específica. Para obtener más información sobre la sincronización entre AEM Assets y Adobe Experience Cloud, consulte la [documentación detallada](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/configure-assets-cc-integration.html?lang=es#integration).
 
 
