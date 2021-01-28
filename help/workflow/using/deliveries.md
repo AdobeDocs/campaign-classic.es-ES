@@ -6,16 +6,16 @@ description: Descubra más información sobre los flujos de trabajo Entregas
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7cd76b5a31ed9fc0e64a650316ea29293c628233
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# Entregas{#deliveries}
+# Envíos{#deliveries}
 
 Los flujos de trabajo detallados a continuación se instalan con el módulo **Envíos** de forma predeterminada.
 
