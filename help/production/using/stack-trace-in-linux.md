@@ -23,7 +23,6 @@ Un **seguimiento de pila** representa un seguimiento contenido en un archivo de 
 >
 >* Un archivo **core** se denomina **core.`<num>`**.
 >* **gdb - El** depurador GNU debe estar instalado en la máquina.
-
 >
 
 

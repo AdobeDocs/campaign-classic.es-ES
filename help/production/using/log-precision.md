@@ -48,8 +48,8 @@ Adobe Campaign puede funcionar con dos niveles de registro:
    >[!NOTE]
    >
    >Si utiliza **tracefilter:***, se activan todos los tipos de registro: ncm, rdr, nms, jst, temporización, wdbc, ldap, soap, xtk, xtkquery, sesión, xtkwriter, red, pop3, inmail\
-   Los tipos de registro más útiles son: **wdbc** (muestra todas las consultas SQL), **soap** (muestra todas las llamadas SOAP), **ldap** (muestra todas las consultas LDAP después de la autenticación), **xtkquery** (muestra la lista de todas las consultas).\
-   Puede utilizarlos individualmente (**tracefilter:soap,wdbc** por ejemplo). También puede activarlas todas y elegir excluir otras: **-tracefilter:*,!soap**
+   >Los tipos de registro más útiles son: **wdbc** (muestra todas las consultas SQL), **soap** (muestra todas las llamadas SOAP), **ldap** (muestra todas las consultas LDAP después de la autenticación), **xtkquery** (muestra la lista de todas las consultas).\
+   >Puede utilizarlos individualmente (**tracefilter:soap,wdbc** por ejemplo). También puede activarlas todas y elegir excluir otras: **-tracefilter:*,!soap**
 
    Compruebe que el error se ha producido realmente y, a continuación, reinicie el proceso de la forma normal:
 
@@ -58,7 +58,8 @@ Adobe Campaign puede funcionar con dos niveles de registro:
    ```
 
 >[!IMPORTANT]
-Los registros de estos comandos se almacenan en el archivo de registro del módulo.
+>
+>Los registros de estos comandos se almacenan en el archivo de registro del módulo.
 
 Este es un ejemplo específico del módulo Web. Los demás módulos funcionan como se ha indicado anteriormente.
 
@@ -81,11 +82,13 @@ nlserver stop mta@<INSTANCE_NAME>; nlserver mta -instance:<INSTANCE_NAME> -trace
 ```
 
 >[!NOTE]
-El modo **Archivo de seguimiento** permite guardar los registros. En los ejemplos anteriores, los registros se guardan en los archivos **var/`<instance-name>`/mta_debug.log** y **var/default/web_debug.log**.
+>
+>El modo **Archivo de seguimiento** permite guardar los registros. En los ejemplos anteriores, los registros se guardan en los archivos **var/`<instance-name>`/mta_debug.log** y **var/default/web_debug.log**.
 
 >[!IMPORTANT]
-En Windows, no agregue la opción LD_PRELOAD. Basta con el siguiente comando:\
-nlserver web -tomcat -verbose -tracefilter:*
+>
+>En Windows, no agregue la opción LD_PRELOAD. Basta con el siguiente comando:\
+>nlserver web -tomcat -verbose -tracefilter:*
 
 Compruebe que el problema vuelve a producirse y, a continuación, reinicie el módulo:
 
