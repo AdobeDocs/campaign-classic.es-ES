@@ -6,11 +6,11 @@ description: Obtenga información sobre las herramientas y las directrices sobre
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: ht
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
-workflow-type: ht
-source-wordcount: '786'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 11377b0218e20da9b1a5398539ebaa192801b283
+workflow-type: tm+mt
+source-wordcount: '773'
+ht-degree: 93%
 
 ---
 
@@ -71,17 +71,12 @@ La información se proporciona en tiempo real, lo que permite una asistencia pro
 
 ## Informe de monitorización de la capacidad de envío técnica {#technical-deliverability-monitoring}
 
-El informe de monitorización de capacidad de envío técnica se actualiza diariamente y está disponible. Para ello, vaya a **[!UICONTROL Monitoring]** > **[!UICONTROL Overview]** y, en la pestaña **[!UICONTROL Home]** de Adobe Campaign, haga clic en el enlace **[!UICONTROL Technical monitoring]**. Incluye una serie de indicadores de calidad de envío para su plataforma.
+El **informe de supervisión técnica de la entrega** incluye una serie de indicadores de calidad de la entrega para su plataforma. Puede recibir este informe diario por correo electrónico. Para solicitarlo, abra un [Caso de soporte](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) específico y especifique:
 
-Estos indicadores se actualizan diariamente a las 9 a. m.
+* el nombre de la instancia
+* las direcciones de correo electrónico a las que enviar el informe
 
->[!NOTE]
->
->Además, puede recibir un informe diario por correo electrónico en una dirección específica. Infórmenos de la dirección de correo electrónico solicitada por correo electrónico o a través de la Extranet de Adobe Campaign.
-
-![](assets/s_tn_del_monitoring.png)
-
-En el informe se usan los siguientes indicadores:
+Este informe contiene los siguientes indicadores:
 
 * **[!UICONTROL Reverse DNS]** : Adobe Campaign comprueba si se ha proporcionado un DNS inverso para una dirección IP y que este señala correctamente a la dirección IP.
 
@@ -92,6 +87,9 @@ En el informe se usan los siguientes indicadores:
 * **[!UICONTROL IP and RBL domain]** (Lista de agujeros negros en tiempo real): una lista de direcciones IP y dominios que han sido marcados por organizaciones de lista de bloqueados por mala reputación en los envíos. Organizaciones dedicadas como Spamhaus, Spamcop, SURBL/URIBL, etc. mantienen estas listas. Adobe Campaign procesa actualmente comprobaciones con RBL que tienen un impacto significativo en la capacidad de entrega. Estos RBL reflejan su reputación y los ISP pueden consultarlos antes de aceptar recibir sus correos electrónicos.
 
 * **[!UICONTROL SNDS]** (Servicios de datos de red inteligente): [Servicio antispam de Windows Live Hotmail](https://sendersupport.olc.protection.outlook.com/snds/FAQ.aspx). Hotmail es el único ISP que proporciona este tipo de información. Las puntuaciones de referencia son un resultado de filtro verde, una tasa de quejas de menos del 0,1 % y cero trampas no deseadas.
+
+Estos indicadores se actualizan diariamente a las 9 a. m.
+
 
 <!--### Delivery Reports - Broadcast Statistics {#broadcast-statistics}
 
