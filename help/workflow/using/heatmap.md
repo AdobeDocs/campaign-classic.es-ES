@@ -6,10 +6,10 @@ description: Supervise los flujos de trabajo de la campaña con Workflow HeatMap
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '1333'
+translation-type: tm+mt
+source-git-commit: d34435b0b8714a87add6a5e3f82e4f94376f205b
+workflow-type: tm+mt
+source-wordcount: '1189'
 ht-degree: 100%
 
 ---
@@ -41,23 +41,6 @@ Más precisamente, ayuda a los administradores de la plataforma a:
 El uso del mapa de calor del flujo de trabajo requiere comprender bien los siguientes conceptos: Optimizaciones para [Flujos de trabajo](../../workflow/using/about-workflows.md), [Actividades](../../workflow/using/about-activities.md) y [Flujos de trabajo](../../workflow/using/workflow-best-practices.md).
 
 El mapa de calor del flujo de trabajo está disponible de forma predeterminada en Adobe Campaign a partir de la versión 18.10. Si tiene una compilación entre 8700 y 8977 (18.10), también puede beneficiarse de esta capacidad. Para solicitar el paquete correspondiente, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) y siga las instrucciones de [esta página](https://helpx.adobe.com/es/campaign/kb/install-workflow-heatmap-package.html) para saber cómo instalarlo.
-
-Cuando acceda por primera vez al Mapa de calor del flujo de trabajo, aparecerá la siguiente ventana emergente. Este acuerdo permite la transferencia y almacenamiento en Estados Unidos, lo que permite a Adobe Campaign:
-
-* supervisar instancias para investigar cualquier problema de rendimiento.
-* recopilar datos para la detección de anomalías.
-
-Tenga en cuenta que la transferencia de datos solo está disponible para los usuarios que se conecten a Adobe Campaign con su Adobe ID.
-
-![](assets/wf_monitoring_agreement.png)
-
-Hay tres opciones disponibles:
-
-* **[!UICONTROL Accept]**: Al aceptar este acuerdo, autoriza a Adobe Campaign a recopilar sus datos y a transferirlos a los Estados Unidos para que puedan ayudarle en caso de detección de anomalías.
-* **[!UICONTROL Refuse]**: Al rechazar el acuerdo, los datos no se transferirán, pero aún puede utilizar el mapa de calor del flujo de trabajo.
-* **[!UICONTROL Do not show this message again]**: Al hacer clic en **[!UICONTROL Do not show this message again]**, la ventana emergente dejará de mostrarse al acceder al mapa de calor del flujo de trabajo, pero aún está disponible desde el botón **[!UICONTROL Term of use]**.
-
-Esta opción no es final, pues siempre puede cambiarla haciendo clic en el botón **[!UICONTROL Term of use]**.
 
 ## Uso del mapa de calor {#using-the-heatmap}
 
