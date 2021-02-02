@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
+source-git-commit: 075bb4f97899053a664576c447605f17a033d5d9
 workflow-type: tm+mt
-source-wordcount: '2509'
-ht-degree: 97%
+source-wordcount: '2556'
+ht-degree: 95%
 
 ---
 
@@ -26,12 +26,8 @@ _22 de diciembre de 2020_
 >[!CAUTION]
 >
 > * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaña a través de Adobe Identity Service (IMS), la actualización es obligatoria tanto para el servidor de Campaña como para la consola cliente para poder conectarse a la Campaña después del **21 de marzo de 2021**.
-   >
-   > 
-* Esta versión incluye una corrección de seguridad: la actualización es obligatoria para reforzar la seguridad de su entorno.
-
->
-
+> * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
+> * Si está utilizando la integración de Déclencheur de Experience Cloud mediante la autenticación oAuth, debe desplazarse a Adobe I/O como se describe [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación oAuth heredado se retirará el **30 de abril de 2021**.
 
 
 
@@ -39,7 +35,7 @@ _22 de diciembre de 2020_
 
 * El protocolo de conexión se ha actualizado para seguir el nuevo mecanismo de autenticación IMS.
 * Activa la autenticación de integración basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización, que se ha cambiado y se ha movido a Adobe I/O. [Más información](../../integrations/using/configuring-adobe-io.md)
-* Después de finalizar la compatibilidad con el protocolo binario heredado de APN de iOS, todas las instancias que utilizan este protocolo se actualizan al protocolo HTTP/2 durante la postactualización.
+* Después del [fin de la compatibilidad con el protocolo binario heredado APN de iOS](https://developer.apple.com/news/?id=c88acm2b), todas las instancias que utilizan este protocolo se actualizan al protocolo HTTP/2 durante la posactualización.
 * Se ha corregido un problema de seguridad para reforzar la protección contra los problemas de falsificación de solicitudes del lado del servidor (SSRF). (NEO-27777)
 
 
