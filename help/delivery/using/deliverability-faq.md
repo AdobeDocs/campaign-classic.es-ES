@@ -6,11 +6,11 @@ description: ¿Cuáles son los puntos clave que hay que comprobar al administrar
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '1341'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
+workflow-type: tm+mt
+source-wordcount: '1343'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ Si siempre recibe el mismo mensaje de error para un ISP, es posible que el ISP h
 * Actualice los formularios de suscripción para detectar cualquier error en los nombres de dominio introducidos (por ejemplo: gmaul.com o yaho.com).
 * Si nota errores que indican que sus mensajes están declarados como correo no deseado o que sus mensajes están bloqueados constantemente, intente excluir los destinatarios que no han abierto o hecho clic en uno de sus mensajes en los últimos 12 meses desde el destinatario.
 
-Si el problema persiste, póngase en contacto con los servicios comerciales o de envío, con el Servicio de atención al cliente de Adobe Campaign o con la asistencia de Adobe Campaign.
+Si el problema persiste, póngase en contacto con los servicios comerciales o de entrega, [Adobe Customer Care](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ## Lista de bloqueados frente a cuarentena {#denylist-versus-quarantine}
 
