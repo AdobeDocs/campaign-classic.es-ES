@@ -6,11 +6,11 @@ description: Aprenda a comprender los errores de entrega
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: ht
-source-git-commit: 9ee7ef1faf06c31ec6659734582caac099a01bc1
-workflow-type: ht
-source-wordcount: '2440'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
+workflow-type: tm+mt
+source-wordcount: '2446'
+ht-degree: 99%
 
 ---
 
@@ -242,12 +242,15 @@ Los correos electrónicos rechazados pueden tener el siguiente estado de clasifi
 >Para instalaciones hospedadas o híbridas, si ha actualizado a MTA mejorado:
 >
 >* Las cualificaciones de rechazo de la tabla **[!UICONTROL Delivery log qualification]** ya no se utilizan para los mensajes de error de error de envío sincrónico. El MTA mejorado determina el tipo de rechazo y la calificación, y envía esa información a Campaign.
+   >
+   >
+* Las devoluciones asincrónicas siguen siendo calificadas por el proceso enMail a través de las **[!UICONTROL Inbound email]** reglas. Para obtener más información, consulte [Reglas de gestión de correo electrónico](#email-management-rules).
+   >
+   >
+* En el caso de instancias que utilicen el MTA mejorado sin **Webhooks/EFS**, las **[!UICONTROL Inbound email]** reglas también se utilizan para procesar los correos electrónicos rechazados sincrónicos procedentes del MTA mejorado, utilizando la misma dirección de correo electrónico que para los correos electrónicos rechazados asincrónicos.
 >
->* Las devoluciones asincrónicas siguen siendo calificadas por el proceso enMail a través de las **[!UICONTROL Inbound email]** reglas. Para obtener más información, consulte [Reglas de gestión de correo electrónico](#email-management-rules).
 >
->* En el caso de instancias que utilicen el MTA mejorado sin **Webhooks/EFS**, las **[!UICONTROL Inbound email]** reglas también se utilizan para procesar los correos electrónicos rechazados sincrónicos procedentes del MTA mejorado, utilizando la misma dirección de correo electrónico que para los correos electrónicos rechazados asincrónicos.
->
->Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte [este documento](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html).
+Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte [este documento](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html).
 
 ### Reglas de gestión de correo electrónico {#email-management-rules}
 
@@ -283,7 +286,7 @@ Para obtener más información sobre la calificación de correo rechazado, consu
 >
 >En el caso de instalaciones hospedadas o híbridas, si ha actualizado al MTA mejorado, y si su instancia tiene la funcionalidad **Webhooks/EFS**, las **[!UICONTROL Inbound email]** reglas ya no se utilizan para los mensajes de error de envío sincrónico. Para obtener más información, consulte [esta sección](#bounce-mail-qualification).
 >
->Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte [este documento](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html).
+>Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte [este documento](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
 
 #### Administración de dominios {#domain-management}
 
@@ -294,13 +297,13 @@ El servidor de mensajería de Adobe Campaign aplica una sola regla de **Administ
 * Se puede elegir si activar o no determinadas normas de identificación y claves de cifrado para comprobar el nombre del dominio como, por ejemplo, **ID de remitente**, **DomainKeys**, **DKIM** y **S/MIME**.
 * **SMTP relay**: permite configurar la dirección IP y el puerto de un servidor de transmisión para un dominio determinado. Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#smtp-relay).
 
-Si los mensajes se muestran en Outlook con **[!UICONTROL on behalf of]** en la dirección del remitente, asegúrese de no firmar los mensajes de correo electrónico con el **ID del remitente**, que es el estándar de autenticación de correo electrónico propietario obsoleto de Microsoft. Si la opción **[!UICONTROL Sender ID]** está activada, desmarque la casilla correspondiente y póngase en contacto con el servicio de soporte técnico de Adobe Campaign. La capacidad de envío no se ve afectada.
+Si los mensajes se muestran en Outlook con **[!UICONTROL on behalf of]** en la dirección del remitente, asegúrese de no firmar los mensajes de correo electrónico con el **ID del remitente**, que es el estándar de autenticación de correo electrónico propietario obsoleto de Microsoft. Si la opción **[!UICONTROL Sender ID]** está habilitada, desmarque la casilla correspondiente y póngase en contacto con [Adobe Customer Care](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). La capacidad de envío no se ve afectada.
 
 >[!IMPORTANT]
 >
 >En el caso de instalaciones alojadas o híbridas, si se ha actualizado a la MTA mejorada, ya no se utilizan las reglas de **[!UICONTROL Domain management]**. La firma de autenticación por correo electrónico de **DKIM (DomainKeys Identified Mail)** se realiza mediante el MTA mejorado para todos los mensajes con todos los dominios. No se firma con **el ID del remitente**, **DomainKeys** o **S/MIME** a menos que se especifique lo contrario en el nivel de MTA mejorado.
 >
->Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte [este documento](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html).
+>Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte [este documento](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
 
 #### Administración MX {#mx-management}
 
@@ -316,4 +319,4 @@ Para obtener más información sobre gestión MX, consulte [esta sección](../..
 >
 >En el caso de instalaciones alojadas o híbridas, si se ha actualizado a la MTA mejorada, ya no se utilizan las **[!UICONTROL MX management]** reglas de rendimiento de envíos. El MTA mejorado utiliza sus propias reglas MX que le permiten personalizar el rendimiento por dominio en función de su propia reputación histórica de correo electrónico y de los comentarios en tiempo real procedentes de los dominios a los que envía correos electrónicos.
 >
->Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte [este documento](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html).
+>Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte [este documento](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
