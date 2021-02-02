@@ -6,11 +6,11 @@ description: Prueba A/B
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '1347'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 98a2c5aa01b4d45ceeb14fb1ad7a607b236c2817
+workflow-type: tm+mt
+source-wordcount: '1337'
+ht-degree: 96%
 
 ---
 
@@ -34,6 +34,7 @@ Para crear la prueba A/B, siga los siguientes pasos:
 * [Paso 3: Creación de dos plantillas de entrega](#step-3--creating-two-delivery-templates)
 * [Paso 4: Configuración de los envíos en el flujo de trabajo](#step-4--configuring-the-deliveries-in-the-workflow)
 * [Paso 5: Creación del presupuesto](#step-5--creating-the-script)
+* [Paso 6: Definición de la entrega final](#step-6--defining-the-final-delivery)
 * [Paso 7: Inicio del flujo de trabajo](#step-7--starting-the-workflow)
 * [Paso 8: Analizando el resultado](#step-8--analyzing-the-result).
 
@@ -49,7 +50,7 @@ Se debe crear el flujo de trabajo en la pestaña **[!UICONTROL Targeting and Wor
 
    ![](assets/use_case_abtesting_targetwkfl_002.png)
 
-1. Cambie la etiqueta del flujo de trabajo existente o haga clic en **[!UICONTROL Add]** para crear una nueva (para obtener más información, consulte esta [sección](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population)).
+1. Cambie la etiqueta del flujo de trabajo existente o haga clic en **[!UICONTROL Add]** para crear uno nuevo.
 
    ![](assets/use_case_abtesting_targetwkfl_003.png)
 
@@ -183,7 +184,7 @@ La elección del contenido de entrega destinado a la población restante se calc
 
 ### Ejemplo de secuencia de comandos {#example-of-a-script}
 
-La siguiente secuencia de comandos se puede utilizar como se encuentra en el flujo de trabajo de objetivos. Para obtener más información, consulte [Implementación](#implementation).
+La siguiente secuencia de comandos se puede utilizar tal cual en el flujo de trabajo de determinación de objetivos (consulte [Configuración de la secuencia de comandos](../../workflow/using/a-b-testing.md#configuring-script)).
 
 ```
  // query the database to find the winner (best open rate)
@@ -229,12 +230,12 @@ La siguiente secuencia de comandos se puede utilizar como se encuentra en el flu
    vars.deliveryId = delivery.id
 ```
 
-Para obtener una explicación detallada del script, consulte [Detalles del script](#details-of-the-script).
+Para obtener una explicación detallada del script, consulte [esta sección](../../workflow/using/a-b-testing.md#details-of-the-script).
 
-### Implementación {#implementation}
+### Configuración de la secuencia de comandos {#configuring-script}
 
 1. Abra la actividad **[!UICONTROL JavaScript code]**.
-1. Copie la secuencia de comandos ofrecida en [Ejemplo de secuencia de comandos](#example-of-a-script) en la ventana **[!UICONTROL JavaScript code]**.
+1. Copie la secuencia de comandos presentada [anteriormente](../../workflow/using/a-b-testing.md#example-of-a-script) en la ventana **[!UICONTROL JavaScript code]**.
 
    ![](assets/use_case_abtesting_configscript_002.png)
 
