@@ -6,11 +6,11 @@ description: Obtenga información sobre cómo iniciar la configuración de la ap
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: ht
-source-git-commit: 1d7d48f52f69e4902eafa6806c2cd9170c21fe5a
-workflow-type: ht
-source-wordcount: '273'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
+workflow-type: tm+mt
+source-wordcount: '280'
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ Para enviar notificaciones push en Adobe Campaign, debe:
 
 ![](assets/do-not-localize/how-to-video.png) [Obtenga información sobre cómo instalar el paquete de la aplicación móvil con este vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html?lang=es#sending-messages)
 
-Como cliente híbrido/alojado, póngase en contacto con el equipo de atención al cliente de Adobe para acceder al canal de notificaciones push en Campaign.
+Como cliente híbrido/alojado, póngase en contacto con el equipo de [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para acceder al canal de notificaciones push en la Campaña.
 
 Como cliente On-Premise, debe realizar los siguientes pasos de instalación:
 
