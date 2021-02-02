@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 7%
+source-wordcount: '692'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ Consulte las [Notas de la versión](../../rn/using/latest-release.md) para obten
 
 En esta [página](https://helpx.adobe.com/es/campaign/kb/hardware-sizing-guide.html) se detallan las directrices generales para los requisitos de hardware para el Campaign Classic local.
 
-El equipo de consultoría puede proporcionar a los clientes alojados una herramienta que le permite realizar vistas sencillas sobre el espacio que utilizan los distintos tipos de tablas de la base de datos, así como sobre el espacio utilizado en el sitio SFTP. Además, proporciona herramientas que le permiten limpiar datos innecesarios. Póngase en contacto con los equipos de asesoría o asistencia si necesita implementar esta herramienta. A continuación se indican algunos aspectos importantes que hay que comprobar con esta herramienta:
+El equipo de consultoría puede proporcionar a los clientes alojados una herramienta que le permite realizar vistas sencillas sobre el espacio que utilizan los distintos tipos de tablas de la base de datos, así como sobre el espacio utilizado en el sitio SFTP. Además, proporciona herramientas que le permiten limpiar datos innecesarios. Póngase en contacto con [Adobe Customer Care](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) si necesita implementar esta herramienta. A continuación se indican algunos aspectos importantes que hay que comprobar con esta herramienta:
 
 * Si el tamaño de índice es mayor que el tamaño de tabla, se requiere un vacío.
 * Compruebe las tablas que tienen el máximo brillo. Si estas tablas se utilizan con frecuencia, deben aspirarse.
