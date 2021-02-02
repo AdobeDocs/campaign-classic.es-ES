@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 97%
+source-wordcount: '538'
+ht-degree: 93%
 
 ---
 
@@ -27,7 +27,7 @@ Para poder hacerlo:
    >
    >Panel de control de Campaign está disponible para todos los clientes alojados en AWS (excepto para los clientes que alojan sus instancias de marketing on-Premise).
 
-1. Si Adobe aloja la instalación de Adobe Campaign contáctese con atención al cliente de Adobe para que instalen las herramientas necesarias en el servidor.
+1. Si la instalación de Adobe Campaign está alojada en Adobe, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para tener instaladas las utilidades necesarias en el servidor.
 1. Si la instalación de Adobe Campaign está in situ: instale la utilidad que desee utilizar (por ejemplo: GPG, GZIP) así como las claves necesarias (clave de cifrado) en el servidor de aplicaciones.
 
 A continuación, puede utilizar comandos o código en la pestaña **[!UICONTROL Script]** de la actividad o en una actividad **[!UICONTROL JavaScript code]** . A continuación se muestra un ejemplo en el caso de uso.
