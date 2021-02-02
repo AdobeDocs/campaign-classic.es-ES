@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
+source-git-commit: 075bb4f97899053a664576c447605f17a033d5d9
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 96%
+source-wordcount: '1416'
+ht-degree: 95%
 
 ---
 
@@ -26,10 +26,7 @@ _23 de diciembre de 2020_
 > * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaña a través de Adobe Identity Service (IMS), la actualización es obligatoria tanto para el servidor de Campaña como para la consola cliente para poder conectarse a la Campaña después del **21 de marzo de 2021**.
    >
    > 
-* Esta versión incluye una corrección de seguridad: la actualización es obligatoria para reforzar la seguridad de su entorno.
-
->
-
+* Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
 
 
 
@@ -148,7 +145,7 @@ Asegúrese de que está en las versiones compatibles de cualquier sistema que se
 
 _Campaign Mobile SDK_
 
-Ya está disponible la compilación 1.0.26 del SDK para iOS. En esta nueva compilación, se ha añadido la compatibilidad con iOS 13. Esta nueva versión ahora admite la prioridad de notificación y el nuevo proceso de administración de token de registro para las notificaciones push de iOS 13. Si está ejecutando aplicaciones en una versión anterior del SDK, debe volver a compilar las aplicaciones con el nuevo SDK. Para obtener el SDK, póngase en contacto con el Servicio de atención al cliente de Adobe.
+Ya está disponible la compilación 1.0.26 del SDK para iOS. En esta nueva compilación, se ha añadido la compatibilidad con iOS 13. Esta nueva versión ahora admite la prioridad de notificación y el nuevo proceso de administración de token de registro para las notificaciones push de iOS 13. Si está ejecutando aplicaciones en una versión anterior del SDK, debe volver a compilar las aplicaciones con el nuevo SDK. Para obtener el SDK, póngase en contacto con [Adobe Customer Care](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Parches**
 
