@@ -6,11 +6,11 @@ description: Obtenga más información sobre el conector de SMS y cómo configur
 audience: delivery
 content-type: reference
 topic-tags: configuring-channels
-translation-type: ht
-source-git-commit: 96ad3208c792efb47097768bc779bec59d9ca313
-workflow-type: ht
-source-wordcount: '2745'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
+workflow-type: tm+mt
+source-wordcount: '2751'
+ht-degree: 99%
 
 ---
 
@@ -203,7 +203,7 @@ Con hexadecimal, puede distinguir entre caracteres similares. Una L minúscula, 
 
 Para convertir unicode a hexadecimal, puede utilizar herramientas en línea como el sitio web [Convertidor de código Unicode](https://r12a.github.io/app-conversion/). Escriba el texto, asegúrese de que no haya PII como números de teléfono y haga clic en **Convertir**. Verá los valores hexadecimales en la parte inferior (zona UTF-32).
 
-Al abrir tickets por problemas de codificación, ya sea con el proveedor o con la asistencia de Adobe Campaign, siempre incluya una versión hexadecimal de lo que escribe y lo que ve.
+Al abrir tickets sobre problemas de codificación, ya sea con el proveedor o [Adobe Customer Care](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html), incluya siempre una versión hexadecimal de lo que escribe y lo que ve.
 
 **Paso 3: Saber lo que debe enviar**
 
