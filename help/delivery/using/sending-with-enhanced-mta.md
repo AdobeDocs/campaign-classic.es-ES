@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
+source-git-commit: 07ed17a093cb6fb2d7aae376325a127c61b1dcc2
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 6%
@@ -147,7 +147,7 @@ Por lo tanto, debe esperar hasta el final del período de validez para ver el po
 
 <!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
 
-## Rendimiento de entrega
+### Rendimiento de entrega
 
 El gráfico de rendimiento del Envío de Campaña ya no mostrará el rendimiento de los destinatarios de correo electrónico. Ese gráfico ahora mostrará la velocidad de transferencia para el reenvío de sus mensajes desde la Campaña hasta el MTA mejorado.
 
@@ -163,7 +163,7 @@ Una vez que un mensaje ha estado en la cola de MTA mejorada durante 3,5 días y 
 
 Para obtener más información sobre el período de validez, consulte [esta sección](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period).
 
-## Firma de DKIM
+### Firma de DKIM
 
 La autenticación por correo electrónico de DKIM (DomainKeys Identified Mail) se realiza mediante el MTA mejorado. La firma de DKIM por parte del MTA de Campaign nativo se desactiva en la tabla de administración Domain management como parte de la actualización de MTA mejorada.
 Para obtener más información sobre DKIM, consulte [esta sección](../../delivery/using/technical-recommendations.md#dkim).
