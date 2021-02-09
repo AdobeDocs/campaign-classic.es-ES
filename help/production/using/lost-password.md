@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: f24642223a2ec9f3d8e78e2f7e71a55bf14b80c7
+source-git-commit: 1fdee02e98ce66ec184d8587d0838557f027cf75
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 9%
+source-wordcount: '171'
+ht-degree: 8%
 
 ---
 
@@ -20,20 +20,27 @@ ht-degree: 9%
 Puede cambiar o recuperar una contraseña perdida.
 Existen dos escenarios posibles:
 
-**Contraseña perdida por un operador de Adobe Campaign**
+* [Contraseña perdida por un operador de Adobe Campaign](#password-lost-by-campaign-operator)
+* [Contraseña interna perdida](#internal-password-lost)  (solo clientes locales)
 
-En este caso, puede cambiar la contraseña del operador en cuestión.
+## Contraseña perdida por un operador de Campaña {#password-lost-by-campaign-operator}
+
+Si un operador de Adobe Campaign pierde su contraseña, puede cambiarla.
 Para realizar esto, siga los pasos a continuación:
 
 1. Conéctese mediante un operador con derechos de administrador.
-1. Haga clic con el botón derecho en un operador.
+1. Haga clic con el botón secundario en un operador.
 1. Seleccione **[!UICONTROL Actions]** > **[!UICONTROL Reset password]**.
 
    ![](assets/operator-passwd.png)
 
-1. Establezca la nueva contraseña del operador. Se recomienda que los operadores cambien su contraseña la primera vez que se vuelvan a conectar.
+1. Establezca la nueva contraseña del operador. Se recomienda que el operador cambie su contraseña la primera vez que se vuelva a conectar.
 
-**Pérdida interna de contraseña (solo clientes locales)**
+## Contraseña interna perdida {#internal-password-lost}
+
+>[!NOTE]
+>
+>Esta sección solo se aplica a los clientes locales.
 
 Si se pierde la contraseña interna, debe reinicializarla.
 Para ello, siga el procedimiento siguiente:
