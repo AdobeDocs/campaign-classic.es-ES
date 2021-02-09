@@ -6,16 +6,16 @@ description: Obtenga información sobre cómo definir el contenido del correo el
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '2887'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe4262a1da011cb155651c5e786f19188139cff1
+workflow-type: tm+mt
+source-wordcount: '1990'
+ht-degree: 99%
 
 ---
 
 
-# Definición del contenido del correo electrónico{#defining-the-email-content}
+# Definición del contenido del correo electrónico {#defining-the-email-content}
 
 ## Remitente {#sender}
 
@@ -111,42 +111,29 @@ Los mensajes se envían en formato HTML o texto de forma predeterminada, según 
 
    ![](assets/s_ncs_user_wizard_email01_142.png)
 
-### Inserción de emoticonos en un correo electrónico {#inserting-emoticons}
+<!--## Selecting message formats {#selecting-message-formats}
 
-Puede insertar emoticonos en el contenido del correo electrónico.
-
-1. Haga clic en el icono **[!UICONTROL Insert emoticon]**.
-1. En la ventana emergente, seleccione un emoticono.
-
-   ![](assets/emoticon_4.png)
-
-1. Haga clic en el botón **[!UICONTROL Close]** cuando termine.
-
-Para personalizar la lista de emoticonos, consulte esta [página](../../delivery/using/customizing-emoticon-list.md).
-
-## Selección de los formatos de mensaje {#selecting-message-formats}
-
-Puede cambiar el formato de los mensajes de correo electrónico enviados. Para ello, edite las propiedades de la entrega y haga clic en la pestaña **[!UICONTROL Delivery]**.
+You can change the format of email messages sent. To do this, edit the delivery properties and click the **[!UICONTROL Delivery]** tab.
 
 ![](assets/s_ncs_user_wizard_email_param.png)
 
-Seleccione el formato del correo electrónico en la sección inferior de la ventana:
+Select the format of the email in the lower section of the window:
 
-* **[!UICONTROL Use recipient preferences]** (modo predeterminado)
+* **[!UICONTROL Use recipient preferences]** (default mode)
 
-   El formato de mensaje se define según los datos almacenados en el perfil de destinatario y se almacena de forma predeterminada en el campo **[!UICONTROL email format]** (@emailFormat). Si un destinatario desea recibir mensajes en un formato determinado, este es el formato enviado. Si el campo no está rellenado, se envía un mensaje multipart-alternative (consulte a continuación).
+  The message format is defined according to the data stored in the recipient profile and stored by default in the **[!UICONTROL email format]** field (@emailFormat). If a recipient wishes to receive messages in a certain format, this is the format sent. If the field is not filled in, a multipart-alternative message is sent (see below).
 
 * **[!UICONTROL Let recipient mail client choose the most appropriate format]**
 
-   El mensaje contiene ambos formatos: texto y HTML. El formato que se muestra al recibirlo depende de la configuración del software de correo del destinatario (multipart-alternative).
+  The message contains both formats: text and HTML. The format displayed on reception depends on the configuration of the recipient's mail software (multipart-alternative).
 
-   >[!IMPORTANT]
-   >
-   >Esta opción incluye ambas versiones del documento. Por lo tanto, esto afecta a la tasa de entrega ya que el tamaño del mensaje es mayor.
+  >[!IMPORTANT]
+  >
+  >This option includes both versions of the document. It therefore impacts the delivery rate, because the message size is greater.
 
 * **[!UICONTROL Send all messages in text format]**
 
-   El mensaje se envía en formato de texto. El formato HTML no se envía, pero se utiliza solo para la página espejo cuando el destinatario hace clic en el mensaje.
+  The message is sent in text format. HTML format will not be sent, but used for the mirror page only when the recipient clicks on the message.-->
 
 ## Definición del contenido interactivo {#amp-for-email-format}
 
@@ -167,6 +154,19 @@ Una pestaña adicional permite introducir contenido que se integra y formatea au
 >[!NOTE]
 >
 >Para obtener más información sobre la administración de contenido en Adobe Campaign, consulte [esta sección](../../delivery/using/about-content-management.md).
+
+## Inserción de iconos gestuales {#inserting-emoticons}
+
+Puede insertar emoticonos en el contenido del correo electrónico.
+
+1. Haga clic en el icono **[!UICONTROL Insert emoticon]**.
+1. En la ventana emergente, seleccione un emoticono.
+
+   ![](assets/emoticon_4.png)
+
+1. Haga clic en el botón **[!UICONTROL Close]** cuando termine.
+
+Para personalizar la lista de emoticonos, consulte esta [página](../../delivery/using/customizing-emoticon-list.md).
 
 ## Adición de imágenes {#adding-images}
 
@@ -324,98 +324,97 @@ Una vez configurados estos elementos, puede finalizar su el correo electrónico 
 
 ![](assets/barcode_insert_11.png)
 
-## Envío de correos electrónicos en móviles japoneses {#sending-emails-on-japanese-mobiles}
+<!--## Sending emails on Japanese mobiles {#sending-emails-on-japanese-mobiles}
 
-### Formatos de correo electrónico para móviles japoneses {#email-formats-for-japanese-mobiles}
+### Email formats for Japanese mobiles {#email-formats-for-japanese-mobiles}
 
-Adobe Campaign administra tres formatos japoneses específicos para el correo electrónico en móviles: **Deco-mail** (móviles DoCoMo), **Decore Mail** (móviles Softbank) y **Decoration Mail** (móviles KDDI AU). Estos formatos imponen restricciones particulares de codificación, estructura y tamaño. Obtenga más información sobre las limitaciones y recomendaciones en [esta sección](#limitations-and-recommendations).
+Adobe Campaign manages three specific Japanese formats for email on mobiles: **Deco-mail** (DoCoMo mobiles), **Decore Mail** (Softbank mobiles) and **Decoration Mail** (KDDI AU mobiles). These formats impose particular coding, structure, and size constraints. Learn more about limitations and recommendations in [this section](#limitations-and-recommendations).
 
-Para que el destinatario reciba mensajes correctamente en uno de estos formatos, se recomienda seleccionar **[!UICONTROL Deco-mail (DoCoMo)]**, **[!UICONTROL Decore Mail (Softbank)]** o **[!UICONTROL Decoration Mail (KDDI AU)]** en el perfil correspondiente:
+In order for the recipient to correctly receive messages in one of these formats, we recommend selecting **[!UICONTROL Deco-mail (DoCoMo)]**, **[!UICONTROL Decore Mail (Softbank)]** or **[!UICONTROL Decoration Mail (KDDI AU)]** in the corresponding profile:
 
 ![](assets/deco-mail_03.png)
 
-Sin embargo, si deja la opción **[!UICONTROL Email format]** como **[!UICONTROL Unknown]**, **[!UICONTROL HTML]** o **[!UICONTROL Text]**, Adobe Campaign detecta (cuando envíe el correo electrónico) el formato japonés que debe usar de modo que el mensaje se muestre correctamente.
+However, if you leave the **[!UICONTROL Email format]** option as **[!UICONTROL Unknown]**, **[!UICONTROL HTML]** or **[!UICONTROL Text]**, Adobe Campaign will automatically detect (when sending the email) the Japanese format to use so that the message is correctly displayed.
 
-Este sistema de detección automática se basa en la lista de dominios predefinidos definidos en el conjunto de reglas de correo **[!UICONTROL Management of Email Formats]**. Para obtener más información sobre la gestión de formatos de correo electrónico, consulte [esta página](../../installation/using/email-deliverability.md#managing-email-formats).
+This automatic detection system is based on the list of predefined domains defined in the **[!UICONTROL Management of Email Formats]** mail rule set. For more on managing email formats, refer to [this page](../../installation/using/email-deliverability.md#managing-email-formats).
 
-### Limitaciones y recomendaciones {#limitations-and-recommendations}
+### Limitations and recommendations {#limitations-and-recommendations}
 
-Se aplican una serie de restricciones en la entrega de correos electrónico que se pueden leer en un móvil gestionado por un proveedor japonés (Softbank, DoCoMo, KDDI AU).
+A certain number of constraints apply for sending emails that will be read on a mobile operated by a Japanese provider (Softbank, DoCoMo, KDDI AU).
 
-Por lo tanto, debe:
+Therefore, you must:
 
-* Usar imágenes en formato JPEG o GIF.
-* Crear una entrega con secciones de texto y HTML que sean inferiores a los 10 000 bytes (para KDDI AU y DoCoMo).
-* Utilizar imágenes con un tamaño total inferior a 100 KB (antes de la codificación).
-* No utilizar más de 20 imágenes por mensaje.
-* Utilizar un formato HTML de tamaño reducido (hay un número limitado de etiquetas disponibles para cada operador).
+* Only use images in JPEG or GIF format
+* Create a delivery with text and HTML sections that are strictly lower than 10 000 bytes (for KDDI AU and DoCoMo)
+* Use images with a total size (before encoding) that is lower than 100 KB
+* Do not use more than 20 images per message
+* Use a reduced size HTML format (a limited number of tags are available for each operator)
 
 >[!NOTE]
 >
->Al crear el mensaje, se deben tener en cuenta las restricciones específicas de cada operador. Consulte:
+>Limitations specific to each operator are to be taken into account when creating your message. Refer to:  
 >
->* Para obtener más información sobre DoCoMo, consulte [esta página](https://www.nttdocomo.co.jp/service/developer/make/content/deco_mail/index.html).
->* Para obtener más información sobre KDDI AU, consulte [esta página](https://www.au.com/ezfactory/tec/spec/decorations/template.html)
->* Para obtener más información sobre Softbank, consulte [esta página](https://www.support.softbankmobile.co.jp/partner/home_tech3/index.cfm)
+>* For DoCoMo, refer to [this page](https://www.nttdocomo.co.jp/service/developer/make/content/deco_mail/index.html)
+>* For KDDI AU, refer to [this page](https://www.au.com/ezfactory/tec/spec/decorations/template.html)
+>* For Softbank, refer to [this page](https://www.support.softbankmobile.co.jp/partner/home_tech3/index.cfm)
 
+### Testing the email content {#testing-the-email-content}
 
-### Prueba del contenido de correo electrónico {#testing-the-email-content}
+#### Previewing the message {#previewing-the-message}
 
-#### Previsualización del mensaje {#previewing-the-message}
+Adobe Campaign allows you to check that your message format is adapted to be sent to a Japanese mobile.
 
-Adobe Campaign le permite comprobar que su formato de mensaje está adaptado a un móvil japonés.
+Once you have defined your content and entered the email subject, you can check the display and formatting when the message is created.
 
-Una vez que haya definido el contenido y haya introducido el asunto del correo electrónico, puede comprobar la visualización y el formato cuando se cree el mensaje.
+In the **[!UICONTROL Preview]** tab of the content editing window, clicking **[!UICONTROL More... > Deco-mail diagnostic]** allows you to:
 
-En la pestaña **[!UICONTROL Preview]** de la ventana de edición de contenido, hacer clic en **[!UICONTROL More... > Deco-mail diagnostic]** le permite:
+* Check that the HTML content tags conform to the Japanese format restrictions
+* Check that the number of images in the message does not exceed the limit imposed by the format (20 images)
+* Check the total message size (less than 100kB)
 
-* Comprobar que las etiquetas de contenido HTML cumplan las restricciones de formato japonés
-* Comprobar que el número de imágenes del mensaje no supere el límite impuesto por el formato (20 imágenes)
-* Comprobar el tamaño total del mensaje (menor que 100 kB)
+  ![](assets/deco-mail_06.png)
 
-   ![](assets/deco-mail_06.png)
+#### Running typology rule {#running-typology-rule}
 
-#### Ejecución de las reglas de tipología {#running-typology-rule}
-
-Además del diagnóstico de la previsualización, se realiza una segunda comprobación al enviar una prueba o una entrega: una regla de tipología específica, **[!UICONTROL Deco-mail check]**, se inicia durante el análisis.
+In addition to the previewing diagnosis, a second check is carried out when sending a proof or a delivery: a specific typology rule, **[!UICONTROL Deco-mail check]**, is started during the analysis.
 
 >[!IMPORTANT]
 >
->Esta regla de tipología solo se ejecuta si al menos uno de los destinatarios está configurado para recibir correos electrónicos en formato **[!UICONTROL Deco-mail (DoCoMo)]**, **[!UICONTROL Decore Mail (Softbank)]** o **[!UICONTROL Decoration Mail (KDDI AU)]**.
+>This typology rule is only executed if at least one of the recipients is configured to receive emails in **[!UICONTROL Deco-mail (DoCoMo)]**, **[!UICONTROL Decore Mail (Softbank)]** or **[!UICONTROL Decoration Mail (KDDI AU)]** format.
 
-Esta regla de tipología le permite asegurarse de que la entrega respeta las [limitaciones de formato](#limitations-and-recommendations) definidas por los operadores japoneses, especialmente en relación con el tamaño total del correo electrónico, el tamaño de las secciones HTML y de texto, el número de imágenes de los mensajes y las etiquetas del contenido HTML.
+This typology rule allows you to make sure that the delivery respects the [format constraints](#limitations-and-recommendations) defined by the Japanese operators, particularly in relation to the total size of the email, the size of the HTML and text sections, the number of images in the messages, and the tags in the HTML content.
 
-#### Envío de pruebas {#sending-proofs}
+#### Sending proofs {#sending-proofs}
 
-Puede realizar pruebas para probar su entrega. Cuando envíe la prueba, si utiliza direcciones de sustitución, introduzca direcciones que correspondan al formato de correo electrónico del perfil utilizado.
+You can send proofs to test your delivery. When you send the proof, if you are using substitution addresses, please enter addresses that correspond to the email format of the profile used.
 
-Por ejemplo, puede reemplazar la dirección de un perfil por test@softbank.ne.jp si el formato de correo electrónico de este perfil se ha definido previamente en **[!UICONTROL Decore Mail (Softbank)]**.
+For example, you can replace a profile's address by test@softbank.ne.jp if the email format for this profile was defined beforehand on **[!UICONTROL Decore Mail (Softbank)]**.
 
 ![](assets/deco-mail_05.png)
 
-### Envío de mensajes {#sending-messages}
+### Sending messages {#sending-messages}
 
-Para enviar un correo electrónico a los destinatarios con formatos de correo electrónico japoneses con Campaign, existen dos opciones:
+To send an email to recipients with Japanese email formats with Campaign, two options are possible:
 
-* Crear dos entregas: uno solo para los destinatarios japoneses y otro para otros destinatarios. Consulte [esta sección](#designing-a-specific-delivery-for-japanese-formats).
-* Crear una única entrega, y Adobe Campaign detecta automáticamente el formato que debe utilizar. Consulte [esta sección](#designing-a-delivery-for-all-formats).
+* Create two deliveries: one only for Japanese recipients and another for other recipients - refer to [this section](#designing-a-specific-delivery-for-japanese-formats).
+* Create a single delivery and Adobe Campaign will automatically detect the format to use - refer to [this section](#designing-a-delivery-for-all-formats).
 
-#### Diseño de una entrega específico para formatos japoneses {#designing-a-specific-delivery-for-japanese-formats}
+#### Designing a specific delivery for Japanese formats {#designing-a-specific-delivery-for-japanese-formats}
 
-Puede crear un flujo de trabajo que contenga dos entregas: uno para su lectura en un dispositivo móvil japonés y otro para los destinatarios con un formato de correo electrónico estándar.
+You can create a workflow that contains two deliveries: one to be read on a Japanese mobile and another for recipients with a standard email format.
 
-Para ello, utilice la actividad **[!UICONTROL Split]** de su flujo de trabajo y defina los formatos de correo electrónico japoneses (Deco-mail, Decoration Mail y Decore Mail) como condiciones de filtrado.
+To do this, use the **[!UICONTROL Split]** activity in your workflow and define the Japanese email formats (Deco-mail, Decoration Mail and Decore Mail) as filtering conditions.
 
 ![](assets/deco-mail_08.png)
 
 ![](assets/deco-mail_07.png)
 
-#### Diseño de una entrega para todos los formatos {#designing-a-delivery-for-all-formats}
+#### Designing a delivery for all formats {#designing-a-delivery-for-all-formats}
 
-Cuando Adobe Campaign administra de forma dinámica los formatos según el dominio (perfiles con formatos de correo electrónico definidos como **[!UICONTROL Unknown]**, **[!UICONTROL HTML]** o **[!UICONTROL Text]** ), puede realizar el mismo envío a todos los destinatarios.
+When Adobe Campaign dynamically manages the formats according to the domain (profiles with email formats defined as **[!UICONTROL Unknown]**, **[!UICONTROL HTML]** or **[!UICONTROL Text]** ), you can send the same delivery to all of your recipients.
 
-El mensaje de contacto se muestra correctamente para los usuarios de móviles japoneses del mismo modo que para los destinatarios estándar.
+The message contact will display correctly for the users on Japanese mobiles, just as for the standard recipients.
 
 >[!IMPORTANT]
 >
->Asegúrese de respetar las funciones especiales asociadas a cada formato de correo electrónico japonés (Deco-mail, Decoration Mail y Decore Mail). Para obtener más información sobre las limitaciones, consulte [esta sección](#limitations-and-recommendations).
+>Make sure to respect the special features associated with each Japanese email format (Deco-mail, Decoration Mail, and Decore Mail). For more information on limitations, refer to [this section](#limitations-and-recommendations).-->
