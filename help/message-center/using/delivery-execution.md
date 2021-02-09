@@ -6,11 +6,11 @@ description: Ejecución de entrega
 audience: message-center
 content-type: reference
 topic-tags: event-processing
-translation-type: ht
-source-git-commit: 1788346f7dfe2c18c490363c90358fcb737f1646
-workflow-type: ht
-source-wordcount: '236'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fd6195ca447fa0345189f3153f44ad2f9a067210
+workflow-type: tm+mt
+source-wordcount: '220'
+ht-degree: 85%
 
 ---
 
@@ -35,7 +35,7 @@ De forma predeterminada, se clasifican en subcarpetas por mes de envío. Esta or
 
 >[!NOTE]
 >
->En el caso de instalaciones alojadas o híbridas, si se ha actualizado a la MTA mejorada, todos los mensajes transaccionales también se pueden enviar con la MTA mejorada de Adobe Campaign para mejorar la capacidad de envío, el rendimiento y la gestión de rechazos. Todos los impactos son los mismos que para los mensajes de marketing estándar y se detallan en el documento [MTA mejorado de Adobe Campaign](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html).
+>Para instalaciones hospedadas o híbridas, si ha actualizado a [MTA mejorado](../../delivery/using/sending-with-enhanced-mta.md), todos los mensajes transaccionales también se pueden enviar con el MTA mejorado de Adobe Campaign para mejorar la capacidad de entrega, el rendimiento y la gestión de devoluciones. Todos los impactos son los mismos que con los mensajes de marketing estándar.
 
 ## Supervisión de mensajes transaccionales {#transactional-message-monitoring}
 
