@@ -5,9 +5,9 @@ title: Comprobación antes de enviar
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1330d4658d039f27a98535bf9885bffbfa0be3c9
+workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Si tiene varios contenidos para un envío de correo electrónico, puede utilizar
 
 * Seleccione el que tenga la tasa de éxito más alta y envíelo al resto de destinatarios
 
-Obtenga más información [en esta sección](../../workflow/using/a-b-testing.md).
+Obtenga más información [en esta sección](../../delivery/using/get-started-a-b-testing.md).
 
 ## Asegúrese de que el mensaje se haya enviado {#make-sure-your-message-is-delivered}
 
