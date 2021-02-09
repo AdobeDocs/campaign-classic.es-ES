@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 759346587e3ce98c408a0a17218341118dbceb82
+source-git-commit: 7473a64a7f3865d1e1eefde9607c539c2f632138
 workflow-type: tm+mt
-source-wordcount: '3869'
-ht-degree: 94%
+source-wordcount: '3914'
+ht-degree: 93%
 
 ---
 
@@ -20,6 +20,14 @@ ht-degree: 94%
 Esta página enumera todas las nuevas funciones y actualizaciones de la documentación por mes y por versión de Campaign.
 
 Consulte las [Notas de la versión de Adobe Campaign Classic](../../rn/using/latest-release.md) para ver las actualizaciones relacionadas con la versión.
+
+## Febrero de 2021 {#feb-2021}
+
+Se ha añadido una nueva sección con información detallada sobre cómo realizar pruebas A/B con flujos de trabajo. [Puede obtener más información](../../delivery/using/get-started-a-b-testing.md)
+
+La sección MTA mejorada de Adobe Campaign se ha movido [aquí](../../delivery/using/sending-with-enhanced-mta.md).
+
+La sección **Envío de un mensaje de correo electrónico** se ha reorganizado y aclarado con nuevas subsecciones. [Puede obtener más información](../../delivery/using/sending-messages.md)
 
 ## Enero de 2021 {#jan-2021}
 
