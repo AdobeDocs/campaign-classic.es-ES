@@ -1,6 +1,6 @@
 ---
 audience: end-user
-breadcrumb-title: Campaign Classic
+breadcrumb-title: Centro de ayuda
 product: campaign
 title: Guía de Campaign Classic
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 048ceef9e4498b557601f3eb2db839e415d6e8c5
+source-git-commit: 7351912ed34525479401ef4983a0bc8a78de85f8
 workflow-type: tm+mt
-source-wordcount: '2290'
-ht-degree: 96%
+source-wordcount: '2347'
+ht-degree: 95%
 
 ---
 
@@ -124,7 +124,11 @@ ht-degree: 96%
       + [Creación de una entrega de correo electrónico](delivery/using/creating-an-email-delivery.md)
       + [Definición del contenido del correo electrónico](delivery/using/defining-the-email-content.md)
       + [ Definición del contenido interactivo ](delivery/using/defining-interactive-content.md)
-      + [Envío de mensajes](delivery/using/sending-messages.md)
+      + Envío de correos electrónicos {#sending-an-email}
+         + [Confirmación del envío de correo electrónico](delivery/using/sending-messages.md)
+         + [Parámetros de correo electrónico](delivery/using/email-parameters.md)
+         + [Envío con el MTA mejorado](delivery/using/sending-with-enhanced-mta.md)
+         + [Enviando en móviles japoneses](delivery/using/sending-emails-on-japanese-mobiles.md)
       + [Archivos adjuntos](delivery/using/attaching-files.md)
    + Envío de mensajes en móviles {#sending-messages-on-mobiles}
       + [Canal de SMS](delivery/using/sms-channel.md)
@@ -165,6 +169,19 @@ ht-degree: 96%
       + [Uso de una lista de distribución externa](delivery/using/using-an-external-recipient-table.md)
       + [Ejemplo de uso: selección de direcciones semilla según ciertos criterios](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
       + [Ejemplo de uso: Configuración de la sustitución de campos](delivery/using/use-case--configuring-the-field-substitution.md)
+   + Prueba A/B {#a-b-testing}
+      + [Introducción a la prueba A/B](delivery/using/get-started-a-b-testing.md)
+      + [Configuración de la prueba A/B](delivery/using/configuring-a-b-testing.md)
+      + Ejemplo de uso {#use-case}
+         + [Acerca de este caso de uso](delivery/using/a-b-testing-use-case.md)
+         + [Creación de un flujo de trabajo de objetivos](delivery/using/a-b-testing-uc-targeting-workflow.md)
+         + [Configuración de muestras de población](delivery/using/a-b-testing-uc-population-samples.md)
+         + [Creación de Plantillas de envíos](delivery/using/a-b-testing-uc-delivery-templates.md)
+         + [Configuración de los envíos](delivery/using/a-b-testing-uc-configuring-deliveries.md)
+         + [Creación de la secuencia de comandos](delivery/using/a-b-testing-uc-script.md)
+         + [Definición del envío final](delivery/using/a-b-testing-uc-final-delivery.md)
+         + [Inicio del flujo de trabajo](delivery/using/a-b-testing-uc-start-workflow.md)
+         + [Análisis del resultado](delivery/using/a-b-testing-uc-analyzing.md)
    + Suscripciones y recomendaciones {#subscriptions-and-referrals}
       + [Acerca de los servicios y las suscripciones](delivery/using/about-services-and-subscriptions.md)
       + [Administración de suscripciones](delivery/using/managing-subscriptions.md)
@@ -195,7 +212,7 @@ ht-degree: 96%
       + [Renderización de la bandeja de entrada](delivery/using/inbox-rendering.md)
       + [SpamAssassin](delivery/using/spamassassin.md)
       + [Prácticas recomendadas para renovación de participación](delivery/using/re-engagement-best-practices.md)
-      + [Bases de datos de listas de bloqueados](delivery/using/block-list-databases.md)
+      + [Bases de datos de la lista de bloqueados](delivery/using/block-list-databases.md)
       + [Resolución de problemas](delivery/using/deliverability-faq.md)
    + Módulo de administración de contenido {#content-management}
       + [Acerca de la gestión del contenido](delivery/using/about-content-management.md)
@@ -439,7 +456,6 @@ ht-degree: 96%
       + [Acerca de los casos de uso de flujos de trabajo](workflow/using/about-workflow-use-cases.md)
       + Entregas {#deliveries}
          + [Uso de la actividad de aprobación local](workflow/using/using-the-local-approval-activity.md)
-         + [Prueba A/B](workflow/using/a-b-testing.md)
          + [Envío de correo electrónico de cumpleaños](workflow/using/sending-a-birthday-email.md)
          + [Carga de contenido de entrega](workflow/using/loading-delivery-content.md)
          + [Flujo de trabajo de entrega por canales cruzados](workflow/using/cross-channel-delivery-workflow.md)
