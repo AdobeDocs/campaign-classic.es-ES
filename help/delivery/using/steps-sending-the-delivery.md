@@ -6,11 +6,11 @@ description: Configuración y entrega de la entrega
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: ht
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
+workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -19,9 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Solo el propietario de la entrega puede iniciar una entrega. Para que otro operador (o grupo de operadores) pueda iniciar una entrega, debe añadirlos como revisores en el campo **[!UICONTROL Delivery start:]**.
->
->Consulte [esta sección](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers) para obtener más información.
+>Solo el propietario de la entrega puede iniciar una entrega. Para que otro operador (o grupo de operadores) pueda iniciar una entrega, debe añadirlos como revisores en el campo **[!UICONTROL Delivery start:]**. Para obtener más información, consulte [esta sección](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
 
 ## Parámetros adicionales de entrega {#delivery-additiona-parameters}
 
@@ -33,25 +31,29 @@ Antes de realizar el envío, se pueden definir los parámetros de envío en las 
 
 * **[!UICONTROL Message batch quantity]**: Esta opción permite definir el número de mensajes agrupados dentro del mismo paquete de envío XML. Si el parámetro se establece en 0, los mensajes se agrupan automáticamente. El tamaño del paquete se define mediante el cálculo `<delivery size>/1024`, con un mínimo de 8 y un máximo de 256 mensajes por paquete.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Cuando se duplica la entrega, se restablece el parámetro.
 
-* **[!UICONTROL Send using multiple waves]**: Para obtener más información, consulte [Enviar usando múltiples ondas](#sending-using-multiple-waves).
+* **[!UICONTROL Send using multiple waves]**:: Para obtener más información sobre esto, consulte  [Envío mediante varias olas](#sending-using-multiple-waves).
 
 * **[!UICONTROL Test SMTP delivery]**: Esta opción permite probar la realización de un envío a través de SMTP. La entrega se procesa hasta la conexión con el servidor SMTP, pero no se envía.
 
    >[!NOTE]
    >
-   >No se recomienda utilizar esta opción al instalar con mid-sourcing para no llamar al MTA.
-   >
-   >Para obtener más información sobre la configuración de un servidor SMTP, consulte [esta sección](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
+   >No se recomienda utilizar esta opción al instalar con mid-sourcing para no llamar al MTA. Para obtener más información sobre cómo configurar un servidor SMTP, consulte [esta sección](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
 * **[!UICONTROL Email BCC]**: Esta opción permite almacenar correos electrónicos en un sistema externo como CCO simplemente añadiendo una dirección de correo electrónico CCO al objetivo del mensaje. Para obtener más información, consulte [esta sección](../../delivery/using/sending-messages.md#archiving-emails).
 
-Una vez configurada la entrega y lista para enviarla, asegúrese de ejecutar [Análisis de entrega](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery). Una vez finalizado, haga clic en **[!UICONTROL Confirm delivery]** para iniciar el envío de mensajes.
+## Confirmación de envío {#confirming-delivery}
+
+Cuando el envío esté configurado y listo para enviarse, asegúrese de que ha ejecutado la análisis de envío.
+
+Para ello, haga clic en **[!UICONTROL Send]**, seleccione la acción que desee y haga clic en **[!UICONTROL Analyze]**. Para obtener más información sobre esto, consulte [Inicio de la análisis](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
 
 ![](assets/s_ncs_user_email_del_send.png)
+
+Una vez finalizado, haga clic en **[!UICONTROL Confirm delivery]** para iniciar el envío de mensajes.
 
 A continuación, se puede cerrar el asistente de envíos y realizar un seguimiento de la ejecución del envío desde la pestaña **[!UICONTROL Delivery]**, a la que se puede acceder mediante el detalle del envío o a través de la lista de envíos.
 
@@ -73,7 +75,7 @@ Puede retrasar la entrega de mensajes para programar su fecha o manejar la presi
 
 1. A continuación, puede iniciar el análisis de entrega y confirmar la entrega de la entrega. Sin embargo, la entrega del envío no comenzará hasta la fecha indicada en el campo **[!UICONTROL Contact date]**.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Una vez iniciado el análisis, la fecha de contacto definida queda fijada. Si se modifica esta fecha, es necesario reiniciar el análisis para que se tengan en cuenta las modificaciones.
 
@@ -133,7 +135,7 @@ Para equilibrar la carga, se pueden dividir los envíos en varios lotes. Configu
       ![](assets/s_ncs_user_wizard_waves_create.png)
    Una regla de tipología específica, **[!UICONTROL Wave scheduling check]**, garantiza que la última ola se programe antes del límite de validez del envío. Las tipologías de campaña y sus reglas, configuradas en la pestaña **[!UICONTROL Typology]** de las propiedades de envío, se muestran en [Proceso de validación con tipologías](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Asegúrese de que las últimas olas no superen la fecha límite de envío, que se define en la pestaña **[!UICONTROL Validity]**. En caso contrario, es posible que algunos mensajes no se envíen.
    >
@@ -169,18 +171,15 @@ Los siguientes dos ejemplos son los casos más comunes para usar varias olas.
 
 Para los mensajes que no se hayan enviado temporalmente debido a un error **leve** o **ignorado**, se realiza un reintento automático. Los tipos y motivos del error de entrega se presentan en esta [sección](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
-La sección central de la pestaña **[!UICONTROL Delivery]** para los parámetros de envío indica la cantidad de reintentos que deben realizarse el día después del envío y el retardo mínimo entre los reintentos.
+>[!IMPORTANT]
+>
+>Para instalaciones hospedadas o híbridas, si ha actualizado a [MTA](../../delivery/using/sending-with-enhanced-mta.md) mejorado, la configuración de reintentos en el envío ya no se utiliza en la Campaña. Los reintentos de devoluciones en blanco y el periodo entre ellos están determinados por el MTA mejorado en función del tipo y la gravedad de las respuestas de devoluciones procedentes del dominio de correo electrónico del mensaje.
+
+En el caso de instalaciones locales e instalaciones hospedadas/híbridas que utilizan el MTA de Campaña heredado, la sección central de la ficha **[!UICONTROL Delivery]** para parámetros de envío indica cuántos reintentos deben realizarse al día siguiente del envío y el retraso mínimo entre reintentos.
 
 ![](assets/s_ncs_user_wizard_retry_param.png)
 
-De manera predeterminada, se programan cinco reintentos para el primer día de la entrega con un intervalo mínimo de una hora distribuidos durante las 24 horas del día. Después de ello, se programa un reintento por día hasta la fecha límite de envío, que se define en la pestaña **[!UICONTROL Validity]** (consulte [Definir periodo de validez](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)).
-
->[!NOTE]
->
->En el caso de instalaciones hospedadas o híbridas, si ha actualizado a la MTA mejorada, la configuración de reintentos de la entrega ya no se utiliza en Campaign. Los reintentos de devoluciones en blanco y el periodo entre ellos están determinados por el MTA mejorado en función del tipo y la gravedad de las respuestas de devoluciones procedentes del dominio de correo electrónico del mensaje.
->
->Todos los impactos se detallan en el documento [Mejorar el MTA de Adobe Campaign](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html).
-
+De manera predeterminada, se programan cinco reintentos para el primer día de la entrega con un intervalo mínimo de una hora distribuidos durante las 24 horas del día. Después de ello, se programa un reintento por día hasta la fecha límite de envío, que se define en la pestaña **[!UICONTROL Validity]** (consulte [Definir periodo de validez](#defining-validity-period)).
 
 ## Definición del periodo de validez {#defining-validity-period}
 
@@ -192,12 +191,10 @@ Una vez iniciado la entrega, se pueden enviar los mensajes (y los reintentos) ha
 
    Asimismo, puede especificar fechas. Para ello, seleccione **[!UICONTROL Explicitly set validity dates]**. En este caso, las fechas de entrega y de límite de validez también permiten especificar el tiempo. El tiempo actual se utiliza de forma predeterminada, pero puede modificarse directamente en el campo de entrada.
 
+   >[!IMPORTANT]
+   >
+   >Para instalaciones hospedadas o híbridas, si ha actualizado a [MTA](../../delivery/using/sending-with-enhanced-mta.md) mejorado, la configuración **[!UICONTROL Delivery duration]** de los envíos de correo electrónico de la Campaña se utilizará solamente si se establece en **3,5 días o menos**. Si define un valor superior a 3,5 días, no se tendrá en cuenta.
+
 * **Límite de validez de los recursos**: El campo **[!UICONTROL Validity limit]** se utiliza para los recursos cargados, principalmente para la página espejo y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado (para ahorrar espacio en el disco).
 
    Los valores de este campo se pueden expresar en las unidades enumeradas en [esta sección](../../platform/using/adobe-campaign-workspace.md#default-units).
-
->[!NOTE]
->
->En el caso de instalaciones hospedadas o híbridas, si se ha actualizado a la MTA mejorada, la configuración **[!UICONTROL Delivery duration]** en sus envíos de la campaña se utilizará únicamente si se establece en **3,5** días o menos. Si define un valor superior a 3,5 días, no se tendrá en cuenta.
->
->Todos los impactos se detallan en el documento [Mejorar el MTA de Adobe Campaign](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html).
