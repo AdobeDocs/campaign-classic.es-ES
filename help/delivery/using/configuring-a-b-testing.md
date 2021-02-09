@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 1330d4658d039f27a98535bf9885bffbfa0be3c9
+source-git-commit: a341980e9d940857388bb2755e5eaa74824cf6ea
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
@@ -23,7 +23,7 @@ En esta sección se explica cómo crear un flujo de trabajo para realizar prueba
 
 1. Añada una actividad [Split](../../workflow/using/split.md) para dividir la población objetivo en varios subconjuntos.
 
-1. Abra la actividad y luego configure cada subconjunto según sus necesidades. Para obtener más información sobre cómo configurar una actividad **[!UICONTROL Split]**, consulte esta sección.
+1. Abra la actividad y luego configure cada subconjunto según sus necesidades. Para obtener más información sobre cómo configurar una actividad **[!UICONTROL Split]**, consulte [esta sección](../../workflow/using/split.md).
 
    En este ejemplo, queremos probar dos temas nuevos para un boletín de noticias presentando cada uno de ellos al 10 % de la población objetivo.
 
