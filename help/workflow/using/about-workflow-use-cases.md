@@ -9,7 +9,7 @@ topic-tags: about-workflows-and-data-management
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
+source-git-commit: 346b72d522c947b2a2552176b910ded8d622f3ab
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 97%
@@ -28,7 +28,7 @@ Le ayudarán a descubrir los diferentes contextos en los que se pueden utilizar 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 * [Uso de la actividad de aprobación local](../../workflow/using/using-the-local-approval-activity.md)
-* [Prueba A/B](../../workflow/using/a-b-testing.md)
+* [Prueba A/B](../../delivery/using/a-b-testing-use-case.md)
 * [Envío de correo electrónico de cumpleaños](../../workflow/using/sending-a-birthday-email.md)
 * [Carga de contenido de entrega](../../workflow/using/loading-delivery-content.md)
 * [Flujo de trabajo de entrega por canales cruzados](../../workflow/using/cross-channel-delivery-workflow.md)
