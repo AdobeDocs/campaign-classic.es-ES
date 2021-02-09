@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
+source-git-commit: 1fdee02e98ce66ec184d8587d0838557f027cf75
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 8%
@@ -46,9 +46,9 @@ Asegúrese de que la tarea de limpieza de la base de datos esté operativa. Para
 
 Asegúrese de que el mantenimiento de la base de datos se programe y ejecute correctamente. Para ello, póngase en contacto con el administrador de la base de datos para obtener más información sobre:
 
-* su calendario de mantenimiento,
-* planes de mantenimiento ejecutados anteriormente,
-* vista de los registros de secuencias de comandos.
+* Su calendario de mantenimiento
+* Planes de mantenimiento ejecutados anteriormente
+* Visualización de los registros de secuencias de comandos
 
 Para obtener más información, consulte [esta sección](../../production/using/recommendations.md).
 
@@ -60,9 +60,9 @@ Para obtener más información, consulte [esta sección](../../production/using/
 
 Verifique el número y el tamaño de las tablas de trabajo. Cuando superan un tamaño determinado, el rendimiento de la base de datos se ve afectado. Estas tablas se crean mediante flujos de trabajo y envíos. Permanecen en la base de datos mientras los flujos de trabajo y envíos están activos. Para limitar el tamaño de las tablas de trabajo, puede realizar las siguientes operaciones:
 
-* detenga o elimine envíos con los siguientes estados: **[!UICONTROL Failed]** , **[!UICONTROL In progress]** , **[!UICONTROL Ready for delivery]** o **[!UICONTROL Paused]** .
-* detener o eliminar flujos de trabajo en pausa debido a un error,
-* detenga todos los flujos de trabajo utilizados para pruebas que no contengan una actividad **[!UICONTROL End]** y cuyo estado permanezca por tanto **[!UICONTROL Paused]**.
+* Detenga o elimine envíos con los siguientes estados: **[!UICONTROL Failed]**, **[!UICONTROL In progress]**, **[!UICONTROL Ready for delivery]** o **[!UICONTROL Paused]**.
+* Detenga o elimine flujos de trabajo en pausa debido a un error.
+* Detenga todos los flujos de trabajo utilizados para pruebas que no contienen una actividad **[!UICONTROL End]** y cuyo estado permanece **[!UICONTROL Paused]**.
 
 >[!IMPORTANT]
 >
@@ -72,14 +72,13 @@ Verifique el número y el tamaño de las tablas de trabajo. Cuando superan un ta
 
 Según la configuración de la instalación de Adobe Campaign, se pueden utilizar dos herramientas para la supervisión de plataformas:
 
-* la página de producción de la instancia. Para obtener más información sobre esto, consulte [Monitoreo manual](../../production/using/monitoring-processes.md#manual-monitoring).
-* la secuencia de comandos netreport. Para obtener más información sobre esto, consulte [Monitoreo automático mediante scripts de Adobe Campaign](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts).
+* La página de producción de la instancia. Para obtener más información sobre esto, consulte [Monitoreo manual](../../production/using/monitoring-processes.md#manual-monitoring).
+* La secuencia de comandos *netreport*. Para obtener más información sobre esto, consulte [Monitoreo automático mediante scripts de Adobe Campaign](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts).
 
 ## Especifica {#specifics}
 
 Puede que sea necesario realizar un diagnóstico en tiempo real para identificar la causa del problema. Inicio comprobando el proceso y los archivos de registro de la plataforma, luego monitoree la actividad de la base de datos mientras vuelve a crear el problema. Preste especial atención a lo siguiente:
 
-* el plan de ejecución del mantenimiento,
-* CONSULTAS SQL que se están ejecutando,
-* si los procesos externos se ejecutan o no al mismo tiempo (limpieza, importaciones, cálculo acumulado, etc.).
-
+* Plan de ejecución de mantenimiento
+* CONSULTAS SQL en ejecución
+* Indica si los procesos externos se ejecutan al mismo tiempo (limpieza, importaciones, cálculo acumulado, etc.).
