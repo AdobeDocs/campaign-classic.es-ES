@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: fd6195ca447fa0345189f3153f44ad2f9a067210
 workflow-type: tm+mt
 source-wordcount: '2973'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -131,15 +131,15 @@ De forma predeterminada, el servidor de estadísticas escucha en el puerto 7777.
 
 ## Configuración MX {#mx-configuration}
 
+>[!IMPORTANT]
+>
+>Para instalaciones hospedadas o híbridas, si ha actualizado a [MTA](../../delivery/using/sending-with-enhanced-mta.md) mejorado, ya no se utilizan las reglas de rendimiento de envío **[!UICONTROL MX management]**. El MTA mejorado utiliza sus propias reglas MX que le permiten personalizar el rendimiento por dominio en función de su propia reputación histórica de correo electrónico y de los comentarios en tiempo real procedentes de los dominios a los que envía correos electrónicos.
+
+Las secciones siguientes solo se aplican a instalaciones locales e instalaciones hospedadas/híbridas que utilizan el MTA de Campaña heredado.
+
 ### Acerca de las reglas MX {#about-mx-rules}
 
 Las reglas MX (Mail eXchanger) son las reglas que administran la comunicación entre un servidor emisor y un servidor receptor.
-
->[!IMPORTANT]
->
->En el caso de instalaciones alojadas o híbridas, si se ha actualizado a la MTA mejorada, ya no se utilizan las **[!UICONTROL MX management]** reglas de rendimiento de envíos. El MTA mejorado utiliza sus propias reglas MX que le permiten personalizar el rendimiento por dominio en función de su propia reputación histórica de correo electrónico y de los comentarios en tiempo real procedentes de los dominios a los que envía correos electrónicos.
->
->Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte este [documento](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html).
 
 Estas reglas se recargan automáticamente todas las mañanas a las 6:00 (hora del servidor) para poder suministrar regularmente la instancia del cliente.
 
