@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 7351912ed34525479401ef4983a0bc8a78de85f8
+source-git-commit: efa36dc08ce4dd59805bb9eba63a4249e14609d7
 workflow-type: tm+mt
-source-wordcount: '2347'
-ht-degree: 95%
+source-wordcount: '2349'
+ht-degree: 94%
 
 ---
 
@@ -201,6 +201,7 @@ ht-degree: 95%
       + [Personalización del seguimiento de direcciones URL](delivery/using/personalizing-url-tracking.md)
       + [Acceso a los registros de seguimiento](delivery/using/accessing-the-tracking-logs.md)
       + [Seguimiento de pruebas](delivery/using/testing-tracking.md)
+      + [Solución de problemas de seguimiento](delivery/using/tracking-troubleshooting.md)
    + Administración de la capacidad de entrega {#deliverability-management}
       + [Acerca de la capacidad de la entrega](delivery/using/about-deliverability.md)
       + [Puntos clave que comprobar](delivery/using/deliverability-key-points.md)
