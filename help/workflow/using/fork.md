@@ -6,11 +6,11 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e5f718908d0bb6893e54c51700865ecda09c80db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -28,10 +28,10 @@ También puede utilizar la actividad en el contexto de la creación de contenido
 
 >[!IMPORTANT]
 >
->Las transiciones salientes agregadas después de una actividad **[!UICONTROL Fork]** **no se ejecutarán** simultáneamente. Este comportamiento puede afectar al rendimiento del flujo de trabajo. Utilice esta actividad si necesita ejecutar varias actividades de forma independiente y, finalmente, únelas antes de ejecutar el resto del flujo de trabajo.
+>Las transiciones salientes agregadas después de una actividad **[!UICONTROL Fork]** **no se ejecutarán** simultáneamente. Este comportamiento puede afectar al rendimiento del flujo de trabajo. Utilice esta actividad si necesita ejecutar varias actividades de forma independiente y, finalmente, únalas antes de ejecutar el resto del flujo de trabajo.
 
-Para configurar la actividad **[!UICONTROL Fork]**, ábrala y defina el número y la etiqueta de las transiciones salientes.
+Para configurar la actividad **[!UICONTROL Fork]**, ábrala y defina el número y la etiqueta de las transiciones de salida que desee.
 
 ![](assets/s_user_segmentation_fork.png)
 
-A continuación, puede configurar cada transición de salida y luego unirlas mediante una actividad [AND-join](../../workflow/using/and-join.md), si es necesario. De este modo, el resto del flujo de trabajo se ejecutará sólo una vez finalizadas las transiciones salientes de la actividad **[!UICONTROL Fork]**.
+A continuación, puede configurar cada transición de salida y, luego, unirlas mediante una actividad [AND-join](../../workflow/using/and-join.md) si es necesario. De este modo, el resto del flujo de trabajo se ejecutará solo cuando finalicen las transacciones salientes de la actividad **[!UICONTROL Fork]**.
