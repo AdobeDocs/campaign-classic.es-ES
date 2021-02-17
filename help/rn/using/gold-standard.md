@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 3105372bc020057727e28d26e7969c31ac290115
 workflow-type: tm+mt
 source-wordcount: '1039'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -31,13 +31,13 @@ _22 de diciembre de 2020_
 
 >[!CAUTION]
 >
-> * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaña a través de Adobe Identity Service (IMS), la actualización es obligatoria tanto para el servidor de Campaña como para la consola cliente para poder conectarse a la Campaña después del **31 de marzo de 2021**.
+> * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaign a través de Adobe Identity Service (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **31 de marzo de 2021**.
 > * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
-> * Si está utilizando la integración de Déclencheur de Experience Cloud mediante la autenticación oAuth, debe desplazarse a Adobe I/O como se describe [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación oAuth heredado se retirará el **30 de abril de 2021**.
+> * Si está utilizando la integración de Experience Cloud Triggers mediante la oAuth authentication, debe desplazarse a Adobe I/O como se describe [en esta página](../../integrations/using/configuring-adobe-io.md). El modo oAuth authentication heredado se eliminará el **30 de abril de 2021**.
 
 >
 >
-Obtenga más información en las [Preguntas más frecuentes sobre la actualización a Gold Standard 11](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html).
+Obtenga más información en las [Preguntas frecuentes sobre la actualización a Gold Standard 11](https://helpx.adobe.com/es/campaign/kb/sms-connector-protocol-and-settings.html).
 
 La versión 9032@d3b452f incluye las siguientes mejoras y correcciones:
 
@@ -45,7 +45,7 @@ La versión 9032@d3b452f incluye las siguientes mejoras y correcciones:
 
 * Activa la autenticación de integración, basada originalmente en la configuración de autenticación oAUTH, para acceder al canal que ahora se ha cambiado y se ha movido a Adobe I/O. [Más información](../../integrations/using/configuring-adobe-io.md)
 
-* Después del [fin de la compatibilidad con el protocolo binario heredado APN de iOS](https://developer.apple.com/news/?id=c88acm2b), todas las instancias que utilizan este protocolo se actualizan al protocolo HTTP/2 durante la posactualización.
+* Después de finalizar [la compatibilidad con el protocolo binario heredado de APN de iOS](https://developer.apple.com/news/?id=c88acm2b), todas las instancias que utilizan este protocolo se actualizan al protocolo HTTP/2 durante la postactualización.
 
 * Se ha corregido un problema de seguridad para reforzar la protección contra los problemas de falsificación de solicitudes del lado del servidor (SSRF). (NEO-27777)
 
