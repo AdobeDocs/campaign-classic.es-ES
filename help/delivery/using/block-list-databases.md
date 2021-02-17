@@ -6,11 +6,11 @@ description: Bases de datos de la lista de bloqueados
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '392'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ A continuación se muestra una lista de los RBL más utilizados. Para obtener un
 
    Consulte [https://www.spamhaus.org/](https://www.spamhaus.org/)
 
-   La base de datos es más importante. En general, encontrarse clasificado en esta lista es una situación muy grave. Si esto sucede, debe actuar INMEDIATAMENTE y advertir a los servicios comerciales, la posibilidad de entrega y [Adobe Customer Care](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+   La base de datos es más importante. En general, encontrarse clasificado en esta lista es una situación muy grave. Si esto ocurre, debe actuar inmediatamente y advertir a los servicios comerciales, a las entregas y al [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 * **SpamCop**
 
@@ -43,13 +43,13 @@ A continuación se muestra una lista de los RBL más utilizados. Para obtener un
 
    Consulte [https://www.uribl.com/](https://www.uribl.com/)
 
-   Esta lista identifica los dominios que aparecen con regularidad en los mensajes declarados como correo no deseado. Si su dominio aparece en la lista, puede afectar en gran medida a sus envíos. Debe informar inmediatamente a los servicios de entrega y [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+   Esta lista identifica los dominios que aparecen con regularidad en los mensajes declarados como correo no deseado. Si su dominio aparece en la lista, puede afectar en gran medida a sus envíos. Debe informar a los servicios de entrega y al [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) inmediatamente.
 
 * **SURBL**
 
-   Consulte [ http://www.surbl.org/ ](http://www.surbl.org/)
+   Consulte [http://www.surbl.org/ ](http://www.surbl.org/)
 
-   SURBL identifica los sitios web que aparecen con regularidad en el correo no deseado. Si su dominio aparece en la lista, puede afectar en gran medida a sus envíos. Debe informar inmediatamente a los servicios de entrega y [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+   SURBL identifica los sitios web que aparecen con regularidad en el correo no deseado. Si su dominio aparece en la lista, puede afectar en gran medida a sus envíos. Debe informar a los servicios de entrega y al [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) inmediatamente.
 
 * **iX Manitu**
 
