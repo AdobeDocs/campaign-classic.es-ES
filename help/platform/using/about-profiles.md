@@ -6,11 +6,11 @@ description: Acerca de los perfiles
 audience: platform
 content-type: reference
 topic-tags: profile-management
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '952'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ Los perfiles que se excluyen durante la preparación de la entrega (reglas de ti
 
 Puede obtener una descripción general del **[!UICONTROL Number of active profiles]** en el menú **[!UICONTROL Administration > Campaign Management > Customer metrics]** de Campaign Standard. El recuento real lo lleva a cabo el **[!UICONTROL Number of active billing profiles]** (**[!UICONTROL billingActiveContactCount]**) [flujo de trabajo ](../../workflow/using/about-technical-workflows.md), que se ejecuta todos los días y añade nuevos datos al informe existente del periodo actual en el menú **[!UICONTROL Customer metrics]** Cada periodo dura 12 meses.
 
-## Videotutorial {#create-profiles-video}
+## Vídeo tutorial {#create-profiles-video}
 
 Obtenga información sobre cómo acceder a los datos de perfiles, ordenar y filtrar perfiles, y crear y administrar manualmente perfiles.
 
@@ -115,11 +115,11 @@ Este vídeo también explica la conformidad de Adobe Campaign Classic con las Re
 
 >[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
 
-Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
+Puede encontrar disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
 
 **Consulte también**
 
-* [Administración de privacidad en Campaña](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html)
+* [Administración de la privacidad en Campaign](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html)
 
 * [Definición de la población objetivo](../../delivery/using/define-the-right-audience.md).
 
