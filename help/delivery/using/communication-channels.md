@@ -6,11 +6,11 @@ description: Cree envíos para enviar mensajes personalizados en diferentes cana
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 44f2aed49a12d51bb3b38f304e6b922f0faf68cc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1210'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -88,11 +88,11 @@ Los canales en línea permiten crear los mensajes (correo electrónico, SMS, env
 
 ## Otros canales {#other-channels}
 
-Plantilla de envíos telefónica de ofertas de Adobe Campaign, que se utiliza para crear envíos externos. El uso de este canal implica la configuración de metodologías dedicadas para procesar archivos de salida. Los pasos de configuración son los mismos que para el [canal de correo postal](../../delivery/using/about-direct-mail-channel.md).
+Plantilla de envíos telefónicos de ofertas de Adobe Campaign, que se utiliza para crear envíos externos. El uso de este canal implica la configuración de metodologías dedicadas para procesar archivos de salida. Los pasos de configuración son los mismos que para el [canal de correo directo](../../delivery/using/about-direct-mail-channel.md).
 
 >[!NOTE]
 >
->El canal telefónico no está disponible de forma predeterminada. Su implementación requiere la participación de un asesor de Adobe o un socio de Adobe. Para obtener más información, póngase en contacto con su representante de Adobe.
+>El canal telefónico no está disponible de forma predeterminada. Su implementación requiere la participación de un asesor o un socio de Adobe. Para obtener más información, póngase en contacto con su representante de Adobe.
 
 Además, las entregas de tipo “Otros” utilizan una plantilla técnica específica que no ejecuta un proceso: esto les permite administrar las acciones de marketing ejecutadas fuera de la plataforma de Adobe Campaign.
 
