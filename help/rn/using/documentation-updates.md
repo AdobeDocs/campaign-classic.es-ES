@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 55cc09c0446e389029890e45b790bb5ec6ffdc27
 workflow-type: tm+mt
 source-wordcount: '3947'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -35,35 +35,35 @@ La sección **Envío de un mensaje de correo electrónico** se ha reorganizado y
 
 ## Enero de 2021 {#jan-2021}
 
-La sección de actividad **[!UICONTROL Fork]** se ha enriquecido con optimizaciones. [Puede obtener más información](../../workflow/using/fork.md)
+La sección de actividad **[!UICONTROL Fork]** se ha enriquecido con prácticas recomendadas. [Puede obtener más información](../../workflow/using/fork.md)
 
 La sección **Conectores de CRM** se ha actualizado, mejorado y reorganizado. [Obtenga más información](../../platform/using/crm-connectors.md).
 
 Los pasos para conectar **Adobe Campaign y Microsoft Dynamics** ahora se detallan en una página dedicada. [Obtenga más información](../../platform/using/crm-ms-dynamics.md).
 
-La API de oracle On Demand ya no se utiliza como CRM conectado con la Campaña. [Obtenga más información](../../rn/using/deprecated-features.md).
+La API de Oracle bajo demanda ya no se utiliza como CRM conectado con Campaign. [Obtenga más información](../../rn/using/deprecated-features.md).
 
 Conozca cómo averiguar la versión actual del servlet web integrado de Tomcat utilizado en una instancia de Adobe Campaign [aquí](../../production/using/locate-tomcat-version.md).
 
 La lista de flujos de trabajo técnicos con sus paquetes asociados se ha mejorado y centralizado en una sola página. [Puede obtener más información](../../workflow/using/about-technical-workflows.md)
 
-La sección de solución de problemas de la guía **Monitoreo** se ha reorganizado y mejorado con una página de aterrizaje. [Obtenga más información](../../production/using/troubleshooting.md).
+La sección de solución de problemas de la guía de **Supervisión** se ha reorganizado y mejorado con una página de aterrizaje. [Obtenga más información](../../production/using/troubleshooting.md).
 
-Hay una nueva sección **Importación y exportación de datos** disponible con nuevas páginas relacionadas con flujos de trabajo, compresión de datos, cifrado y optimizaciones de importación. [Puede obtener más información](../../platform/using/get-started-data-import-export.md)
+Hay una nueva sección de **Importación y exportación de datos** disponible con nuevas páginas relacionadas con flujos de trabajo, compresión de datos, cifrado y prácticas recomendadas de importación. [Puede obtener más información](../../platform/using/get-started-data-import-export.md)
 
 ## Diciembre de 2020 {#dec-2020}
 
-La sección **Supervisión del Envío** se ha reorganizado en temas temáticos. [Más información](../../delivery/using/about-delivery-monitoring.md)
+La sección **Supervisión de entregas** se ha reorganizado por temas. [Más información](../../delivery/using/about-delivery-monitoring.md)
 
 Se ha agregado un caso de uso sobre cómo agregar las direcciones IP de los remitentes a los registros de entrega. [Más información](../../delivery/using/delivery-dashboard.md#use-case)
 
 Las preguntas frecuentes sobre privacidad se han trasladado a [esta sección](../../platform/using/privacy-faq.md).
 
-Se ha agregado un caso de uso sobre cómo utilizar la funcionalidad de combinación de la actividad **[!UICONTROL Deduplication]**. [Puede obtener más información](../../workflow/using/deduplication-merge.md)
+Se ha añadido un caso de uso sobre cómo utilizar la funcionalidad Combinar de la actividad **[!UICONTROL Deduplication]**. [Puede obtener más información](../../workflow/using/deduplication-merge.md)
 
-La descripción completa del protocolo y la página de configuración del conector SMS ahora está disponible [aquí](../../delivery/using/sms-protocol.md).
+La descripción completa de la página de configuración y el protocolo del conector SMS ahora está disponible [aquí](../../delivery/using/sms-protocol.md).
 
-Se ha agregado una nota a la sección **Mensajería transaccional** para advertir que las carpetas de evento no deben configurarse como vistas en las instancias de ejecución, para evitar problemas de derechos de acceso. [Más información](../../message-center/using/event-collection.md)
+Se ha añadido una nota a la sección **Mensajería transaccional** para advertir que las carpetas de evento no deben configurarse como vistas en las instancias de ejecución, a fin de evitar problemas de derechos de acceso. [Más información](../../message-center/using/event-collection.md)
 
 ## Noviembre de 2020 {#nov-2020}
 
@@ -253,7 +253,7 @@ La sección que describe el modelo de datos integrado de Adobe Campaign se ha ac
 
 Los casos de uso del flujo de trabajo se han actualizado y reorganizado en secciones temáticas. [Más información](../../workflow/using/about-workflow-use-cases.md)
 
-Las secciones de [Certificación de correo rechazado ](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) y [reglas de administración de correo electrónico](../../delivery/using/understanding-delivery-failures.md#email-management-rules) se han mejorado con información actualizada.
+Las secciones de [Certificación de correo rechazado](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) y [reglas de administración de correo electrónico](../../delivery/using/understanding-delivery-failures.md#email-management-rules) se han mejorado con información actualizada.
 
 Se ha actualizado el artículo de MTA mejorado de Adobe Campaign. Ahora solo se aplica a Campaign Classic. [Más información](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html)
 
