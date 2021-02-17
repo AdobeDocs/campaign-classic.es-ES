@@ -6,11 +6,11 @@ description: Obtenga más información sobre las importaciones genéricas que pu
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 37cc6cd8b71ec82cd4e6a910d6664a51ed5c091e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '995'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Para crear y ofrecer una lista de destinatarios de la descripción general de la
 
    ![](assets/s_ncs_user_import_example00_03.png)
 
-## Importar nuevos registros de un archivo de texto {#example--import-new-records-from-a-text-file-}
+## Importación de registros nuevos desde un archivo de texto {#example--import-new-records-from-a-text-file-}
 
 Para importar nuevos perfiles de destinatario almacenados en un archivo de texto en la base de datos de Adobe Campaign, aplique los pasos siguientes:
 
