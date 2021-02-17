@@ -6,11 +6,11 @@ description: Obtenga información sobre las herramientas y las directrices sobre
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11377b0218e20da9b1a5398539ebaa192801b283
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '773'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ La información se proporciona en tiempo real, lo que permite una asistencia pro
 
 ## Informe de monitorización de la capacidad de envío técnica {#technical-deliverability-monitoring}
 
-El **informe de supervisión técnica de la entrega** incluye una serie de indicadores de calidad de la entrega para su plataforma. Puede recibir este informe diario por correo electrónico. Para solicitarlo, abra un [Caso de soporte](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) específico y especifique:
+El informe **Control de la capacidad de envío técnica** incluye una serie de indicadores de calidad de capacidad de envío para su plataforma. Puede recibir este informe diario por correo electrónico. Para solicitarlo, abra un [Caso de soporte](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) específico y especifique:
 
 * el nombre de la instancia
 * las direcciones de correo electrónico a las que enviar el informe
