@@ -6,18 +6,18 @@ description: Obtenga información sobre cómo configurar una plantilla de flujo 
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1023'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# Configuración de un flujo de trabajo de importación recurrente {#setting-up-a-recurring-import}
+# Configuración de una importación recurrente {#setting-up-a-recurring-import}
 
-El uso de una plantilla de flujo de trabajo es una práctica recomendada si necesita importar archivos de forma regular con la misma estructura.
+El uso de una plantilla de flujo de trabajo es una práctica recomendada si necesita importar con regularidad archivos con la misma estructura.
 
 Este ejemplo muestra cómo se puede predefinir un flujo de trabajo para reutilizarlo a la hora de importar perfiles provenientes de un CRM en la base de datos de Adobe Campaign. Para obtener más información sobre todos los ajustes posibles de cada actividad, consulte esta [sección](../../workflow/using/about-activities.md).
 
@@ -43,7 +43,7 @@ Este ejemplo muestra cómo se puede predefinir un flujo de trabajo para reutiliz
 
    * En la sección **[!UICONTROL Name of the file to load]** , seleccione **[!UICONTROL Upload a file from the local machine]** y deje el campo en blanco. Cada vez que cree un nuevo flujo de trabajo a partir de esta plantilla, puede especificar aquí el archivo que desee, siempre que se corresponda con la estructura definida.
 
-      Puede utilizar cualquiera de las opciones, pero debe modificar la plantilla según corresponda. Por ejemplo, si selecciona **[!UICONTROL Specified in the transition]**, puede añadir una actividad de **[!UICONTROL File Transfer]** antes de recuperar el archivo de importación de un servidor FTP/SFTP. Con la conexión S3 o SFTP, también puede importar datos de segmentos a Adobe Campaign con la plataforma de datos del cliente en tiempo real de Adobe. Para obtener más información, consulte [Documentación](https://docs.adobe.com/content/help/es-ES/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html).
+      Puede utilizar cualquiera de las opciones, pero debe modificar la plantilla según corresponda. Por ejemplo, si selecciona **[!UICONTROL Specified in the transition]**, puede añadir una actividad de **[!UICONTROL File Transfer]** antes de recuperar el archivo de importación de un servidor FTP/SFTP. Con la conexión S3 o SFTP, también puede importar datos de segmentos a Adobe Campaign con la plataforma de datos del cliente en tiempo real de Adobe. Para obtener más información, consulte [Documentación](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html?lang=es).
 
       ![](assets/import_template_example1.png)
 
