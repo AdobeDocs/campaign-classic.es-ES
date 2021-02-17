@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: Conectores CRM
-description: Introducción a Conectores CRM en Campaña
+description: Introducción a los conectores CRM en Campaign
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2838ced5f5d562914c0791e6a0b8f02dd61006b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -30,24 +30,24 @@ Estos conectores permiten una integración de datos rápida y sencilla: Adobe Ca
 
 ### Sistemas compatibles {#compatible-crm-systems-and-limitations}
 
-Las versiones y CRM admitidas se detallan en la Campaña [Tabla de compatibilidad](../../rn/using/compatibility-matrix.md).
+Los CRM y versiones compatibles se detallan en la [matriz de compatibilidad de Campaign](../../rn/using/compatibility-matrix.md).
 
 >[!NOTE]
 >
->Los conectores de CRM solo funcionan con una URL segura (https).
+>Los conectores CRM solo funcionan con una URL segura (https).
 
 ### Pasos de implementación {#crm-implementation-steps}
 
-Aprenda el procedimiento paso a paso para conectar Campaña y Microsoft Dynamics [en esta sección](../../platform/using/crm-ms-dynamics.md)
+Aprenda el procedimiento paso a paso para conectar Campaign y Microsoft Dynamics [en esta sección](../../platform/using/crm-ms-dynamics.md)
 
 En general, para utilizar los conectores CRM en Adobe Campaign, siga estos pasos:
 
 1. Cree una nueva cuenta externa a través del nodo **[!UICONTROL Administration > Platform > External accounts]** en el árbol de Adobe Campaign.
-1. Seleccione el sistema CRM al que debe conectar la Campaña.
+1. Seleccione el sistema CRM al que debe conectar Campaign.
 1. Introduzca la configuración para activar la conexión.
 1. Ejecute el asistente de configuración para generar la tabla CRM disponible: el asistente de configuración permite recopilar tablas y crear el esquema correspondiente.
 
-   Ejemplo del asistente de configuración **Salesforce**:
+   Ejemplo del asistente de configuración de **Salesforce**:
 
    ![](assets/crm_connectors_sfdc_launch.png)
 
@@ -57,7 +57,7 @@ En general, para utilizar los conectores CRM en Adobe Campaign, siga estos pasos
 
 1. Compruebe el esquema generado en Adobe Campaign en el nodo **[!UICONTROL Administration > Configuration > Data schemas]**.
 
-   Ejemplo de esquema **Salesforce**:
+   Ejemplo de esquema de **Salesforce**:
 
    ![](assets/crm_connectors_sfdc_table.png)
 
@@ -69,7 +69,7 @@ En general, para utilizar los conectores CRM en Adobe Campaign, siga estos pasos
    >
    >Puede reemplazar todos los valores de una enumeración de Adobe Campaign con los del CRM: para hacerlo, seleccione **[!UICONTROL Yes]** en la columna **[!UICONTROL Replace]**.
 
-   Ejemplo de listas desglosadas **Salesforce**:
+   Ejemplo de enumeraciones de **Salesforce**:
 
    ![](assets/crm_connectors_sfdc_enum.png)
 
@@ -81,10 +81,10 @@ En general, para utilizar los conectores CRM en Adobe Campaign, siga estos pasos
 
    >[!NOTE]
    >
-   > No se admiten varias listas desglosadas de selección en Salesforce.
+   > No se admiten enumeraciones de varias selecciones en Salesforce.
 
 1. Para sincronizar datos entre los datos de Adobe Campaign y el sistema CRM, debe crear un flujo de trabajo y utilizar la actividad **[!UICONTROL CRM connector]**.
 
    ![](assets/crm_connectors_sfdc_wf.png)
 
-   Obtenga más información sobre la sincronización de datos [en esta página](../../platform/using/crm-data-sync.md).
+   Obtenga más información acerca de la sincronización de datos [en esta página](../../platform/using/crm-data-sync.md).
