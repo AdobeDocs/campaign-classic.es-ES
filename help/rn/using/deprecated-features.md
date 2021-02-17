@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4efe5f8a9130e7925194e56e088b3745c0cbd11a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1632'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,13 +47,13 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
   </tr>
   <tr>
   <td>Conectores CRM<br></td>
-   <td><p>A partir de la versión 20.3 de la Campaña, los siguientes conectores CRM quedan obsoletos con la Campaña:</p>
+   <td><p>A partir de la versión Campaign 20.3, los siguientes conectores CRM quedan obsoletos:</p>
    <ul>
    <li>API de Soap: On-Premise: 2007, 2015, 2016</li>
    <li>API de Soap: En línea: 2015, 2016</li>
    <li>API web - Microsoft Dynamics CRM On-premise: 2016, actualización 1 de 2016</li>
    <li>API web - Microsoft Dynamics CRM Online: 2016, actualización 1 de 2016</li>
-   <li>API de Oracle On Demand</li>
+   <li>API de Oracle bajo demanda</li>
    </ul>
   <p><em>Fecha de eliminación objetivo: abril de 2021</em></p>
   </td>
@@ -132,7 +132,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
    <td>A partir de la versión 19.1 de Campaign, las API de Campaign Classic están disponibles en una página dedicada. Si utilizó el archivo jsapi.chm heredado, debería consultar la <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">nueva versión en línea</a>.</td>
   </tr> 
   <tr> 
-   <td>Organización de campañas           - Marketing predictivo</td>
+   <td>Organización de campañas - Marketing predictivo</td>
    <td>A partir de la versión 18.10 de Campaign, las funcionalidades de marketing predictivas ya no están disponibles.</td>
   </tr> 
   <tr> 
@@ -212,7 +212,7 @@ A partir de la versión de primavera (19.1), Adobe Campaign deja de ser compatib
 
 Adobe no admite los siguientes motores de bases de datos, ya que su editor los ha desaprobado. Los clientes que ejecutan estas versiones deben actualizar a la versión más reciente o pasar a otra.
 
-Consulte la [Matriz de compatibilidades de Campaign ](../../rn/using/compatibility-matrix.md) para acceder a la lista de versiones compatibles.
+Consulte la [Matriz de compatibilidades de Campaign](../../rn/using/compatibility-matrix.md) para acceder a la lista de versiones compatibles.
 
 **Acceso de datos federado (FDA)**
 
