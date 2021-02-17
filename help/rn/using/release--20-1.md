@@ -6,11 +6,11 @@ description: Versión 20.1
 audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1435'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ _23 de diciembre de 2020_
 
 >[!CAUTION]
 >
-> * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaña a través de Adobe Identity Service (IMS), la actualización es obligatoria tanto para el servidor de Campaña como para la consola cliente para poder conectarse a la Campaña después del **31 de marzo de 2021**.
+> * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaign a través de Adobe Identity Service (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola de cliente para poder conectarse a Campaign después del **31 de marzo de 2021**.
    >
    > 
 * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
