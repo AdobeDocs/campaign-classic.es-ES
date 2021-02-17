@@ -6,11 +6,11 @@ description: Obtenga información sobre cómo crear plantillas de importación y
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 37cc6cd8b71ec82cd4e6a910d6664a51ed5c091e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '128'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ De forma predeterminada, hay tres plantillas de importación y una plantilla de 
 
 ![](assets/s_ncs_user_export_wizard_template_create.png)
 
-Puede crear duplicados de plantillas existentes para crear sus propias plantillas o crear una nueva mediante el menú **[!UICONTROL New > Import template]** / **[!UICONTROL Export template]**.
+Puede duplicarlas para crear sus propias plantillas o crear una nueva plantilla a través del menú **[!UICONTROL New > Import template]** / **[!UICONTROL Export template]**.
 
 El proceso para configurar una plantilla es el mismo que el que se presenta en estas secciones:
 
