@@ -6,11 +6,11 @@ description: Obtenga información sobre cómo importar y exportar datos mediante
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '261'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Los datos enviados en un flujo de trabajo pueden provenir de listas, por lo que 
 
 Esta lista puede haberse creado directamente en Adobe Campaign o importado mediante la opción **[!UICONTROL Import a list]**. Para obtener más información sobre esta opción, consulte esta [página](../../platform/using/about-generic-imports-exports.md).
 
-Para obtener más información sobre el uso de la actividad de lista de lectura en un flujo de trabajo, consulte [esta página](../../workflow/using/read-list.md).
+Para obtener más información sobre el uso de la actividad de la lista de lectura en un flujo de trabajo, consulte [esta página](../../workflow/using/read-list.md).
 
 ### Carga de datos de un archivo {#loading-data-from-a-file}
 
@@ -45,10 +45,10 @@ Smith;Clara;08/02/1989;hayden.smith@example.com;124567
 Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ```
 
-Una vez recopilados los datos, puede utilizarlos en sus flujos de trabajo, por ejemplo para enriquecer un envío o actualizar la base de datos. Para obtener más información, consulte [esta página](../../workflow/using/how-to-use-workflow-data.md).
+Una vez recopilados los datos, puede utilizarlos en sus flujos de trabajo, por ejemplo para enriquecer una entrega o actualizar la base de datos. Para obtener más información, consulte [esta página](../../workflow/using/how-to-use-workflow-data.md).
 
 ## Exportación de datos {#exporting-data-via-a-workflow}
 
-Los flujos de trabajo pueden ser una forma útil de automatizar algunos de los procesos de exportación o de exportar conjuntos de datos precisos después de utilizar algunas de las actividades disponibles de gestión de datos para transformar los datos.
+Los flujos de trabajo pueden ser una forma útil de automatizar algunos de los procesos de exportación o de exportar conjuntos de datos precisos después de usar algunas de las actividades disponibles de administración de datos para transformar sus datos.
 
-Las operaciones de exportación se realizan mediante **[!UICONTROL Data extraction (file) activity]**. Para obtener más información sobre cómo configurar y utilizar la actividad, consulte [esta página](../../workflow/using/extraction--file-.md).
+Las operaciones de exportación se realizan mediante una **[!UICONTROL Data extraction (file) activity]**. Para obtener más información sobre cómo configurar y utilizar la actividad, consulte [esta página](../../workflow/using/extraction--file-.md).
