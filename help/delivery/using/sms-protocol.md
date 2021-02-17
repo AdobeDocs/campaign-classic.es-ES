@@ -819,7 +819,7 @@ Si tiene varias cuentas en la misma instancia de Adobe Campaign que se conectan 
 ### Habilite los seguimientos detallados del SMPP durante las comprobaciones {#enable-verbose}
 
 Siempre debe habilitar los seguimientos detallados del SMPP durante las comprobaciones.
-Incluso si no puede comprobar los registros usted mismo, será más fácil para [Adobe Customer Care](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) ayudarlo.
+Incluso si no puede comprobar los registros usted mismo, será más fácil para el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) ayudarle.
 
 ### Pruebe su SMS {#test}
 
