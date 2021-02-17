@@ -6,11 +6,11 @@ description: Descubra más información sobre cómo configurar la integración d
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '563'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Es necesario configurar una zona de seguridad para que este operador se conecte 
 >
 >Recomendamos encarecidamente que cree una zona de seguridad específica de AEM para evitar problemas de seguridad. Para obtener más información, consulte la [Guía](../../installation/using/configuring-campaign-server.md#defining-security-zones) de instalación.
 
-Si la instancia de Campaña está alojada en Adobe, póngase en contacto con el equipo de [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Si utiliza Campaign en modo local, siga los pasos siguientes:
+Si la instancia de Campaign está alojada en Adobe, póngase en contacto con el equipo del [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Si utiliza Campaign en modo local, siga los pasos siguientes:
 
 1. Abra el archivo de configuración **serverConf.xml**.
 1. Acceda al atributo **allowUserPassword** de la zona de seguridad seleccionada y configúrela como **true**.
