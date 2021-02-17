@@ -6,11 +6,11 @@ description: Exportación e importación de perfiles
 audience: platform
 content-type: reference
 topic-tags: profile-management
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '145'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Puede [utilizar flujos de trabajo](#use-workflows) para importar perfiles de des
 
 ## Uso de flujos de trabajo{#use-workflows}
 
-Las exportaciones y las importaciones se configuran en plantillas dedicadas que se ejecutan mediante flujos de trabajo mediante actividades de importación y exportación. Se pueden repetir automáticamente según un programa, por ejemplo, para automatizar el intercambio de datos entre varios sistemas de información. [Más información](../../platform/using/import-export-workflows.md#best-practices-when-importing-data)
+Las exportaciones e importaciones se configuran en plantillas dedicadas ejecutadas a través de flujos de trabajo mediante las actividades de importación y exportación. Se pueden repetir automáticamente según un programa, por ejemplo, para automatizar el intercambio de datos entre varios sistemas de información. [Más información](../../platform/using/import-export-workflows.md#best-practices-when-importing-data)
 
 Si es necesario, puede crear un trabajo ocasional de importación o exportación mediante la **[!UICONTROL Generic imports and exports]** función que se describe a continuación.
 
@@ -40,4 +40,4 @@ En este vídeo, se explica cómo importar perfiles en Adobe Campaign para realiz
 
 >[!VIDEO](https://video.tv.adobe.com/v/25608?quality=12)
 
-Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
+Puede encontrar disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
