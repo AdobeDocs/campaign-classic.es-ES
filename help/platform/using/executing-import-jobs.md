@@ -6,24 +6,24 @@ description: Obtenga información sobre cómo configurar y ejecutar trabajos de 
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2958'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
 # Configuración de trabajos de importación {#executing-import-jobs}
 
-Adobe Campaign permite importar datos a la base de datos desde uno o más archivos en formato texto, CSV, TAB o XML. Estos archivos están asociados a una tabla (principal o vinculada) y cada campo del archivo de origen se asocia a un campo de la base de datos.
+Adobe Campaign permite importar datos a la base de datos desde uno o varios archivos de texto, CSV, TAB o formato XML. Estos archivos están asociados a una tabla (principal o vinculada) y cada campo del archivo de origen se asocia a un campo de la base de datos.
 
 >[!NOTE]
 >
 >Puede importar datos sin asignarlos con los datos de la base de datos mediante la función **[!UICONTROL Import a list]**. Posteriormente, los datos se pueden utilizar exclusivamente en flujos de trabajo mediante el objeto **[!UICONTROL Read list]**. Para obtener más información, consulte [esta página](../../workflow/using/read-list.md).
 
-El asistente de importación permite configurar una importación, definir sus opciones (como la transformación de datos) e iniciar la ejecución. Es una serie de pantallas cuyo contenido depende del tipo de importación (simple o múltiple) y de los derechos del operador.
+El asistente de importación permite configurar la importación, definir sus opciones (como la transformación de datos) e iniciar la ejecución. Es una serie de pantallas cuyo contenido depende del tipo de importación (simple o múltiple) y de los derechos del operador.
 
 El asistente de importación se muestra después de crear un nuevo trabajo de importación (consulte [Creación de trabajos de importación y exportación](../../platform/using/creating-import-export-jobs.md).
 
@@ -335,4 +335,4 @@ El último paso del asistente le permite iniciar la importación de datos. Para 
 
 ![](assets/s_ncs_user_import_wizard06_1.png)
 
-A continuación, puede supervisar la ejecución del trabajo de importación (consulte [Supervisión de la ejecución de trabajos](../../platform/using/monitoring-jobs-execution.md).
+A continuación, puede monitorizar la ejecución del trabajo de importación (consulte [Supervisión de la ejecución de trabajos](../../platform/using/monitoring-jobs-execution.md).
