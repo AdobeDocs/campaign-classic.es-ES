@@ -6,11 +6,11 @@ description: Gestión de acceso
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c24cdd21c2426ea12a1cbd76d78154256bc814c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3019'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ El enlace **[!UICONTROL Edit the access parameters...]** permite acceder a las s
 
    >[!NOTE]
    >
-   >Aunque su cuenta esté deshabilitada, el operador puede recibir alertas o notificaciones de Campaña. Para dejar de enviar notificaciones de Campaña a este operador, Adobe recomienda eliminar la dirección de correo electrónico de su perfil.
+   >Aunque su cuenta esté deshabilitada, el operador puede recibir alertas o notificaciones de Campaign. Para dejar de enviar notificaciones de Campaign a este operador, Adobe recomienda eliminar la dirección de correo electrónico de su perfil.
 
 * La opción **[!UICONTROL Forbid access from the rich client]** permite restringir el uso de Adobe Campaign al [acceso Web](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) o a través de API: el acceso a la consola del cliente de Adobe Campaign ya no está disponible.
 * Es posible vincular una zona de seguridad al operador. Para obtener más información, consulte [esta página](../../installation/using/configuring-campaign-server.md#defining-security-zones).
@@ -208,7 +208,7 @@ De forma predeterminada, el operador técnico “webapp” tiene el derecho asig
 
 >[!NOTE]
 >
->Para obtener más información sobre pautas de seguridad consulte la [Lista de comprobación de configuración de seguridad de Adobe Campaign](https://helpx.adobe.com/campaign/kb/acc-security.html).
+>Para obtener más información sobre pautas de seguridad consulte la [Lista de comprobación de configuración de seguridad de Adobe Campaign](https://helpx.adobe.com/es/campaign/kb/acc-security.html).
 
 ## Grupos de operadores {#operator-groups}
 
