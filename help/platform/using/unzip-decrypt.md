@@ -1,33 +1,33 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Descomprimir o descifrar un archivo
-description: Obtenga información sobre cómo descomprimir o descifrar un archivo en el Campaign Classic antes de procesarlo.
+title: Descompresión o descifrado de un archivo
+description: Obtenga información sobre cómo descomprimir o descifrar un archivo en Campaign Classic antes de procesarlo.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '661'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# Descomprimiendo o descifrando un archivo {#unzipping-or-decrypting-a-file-before-processing}
+# Descompresión o descifrado de un archivo {#unzipping-or-decrypting-a-file-before-processing}
 
 Adobe Campaign permite importar archivos comprimidos o encriptados. Antes de que se puedan leer en una actividad [Data loading (file)](../../workflow/using/data-loading--file-.md), puede definir un procesamiento previo para descomprimir o desencriptar el archivo.
 
 Para poder hacerlo:
 
-1. Utilice el [Panel de control de Campaign](https://docs.adobe.com/content/help/es-ES/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) para generar un par de claves pública y privada.
+1. Utilice el [Panel de control de Campaign](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) para generar un par de claves pública y privada.
 
    >[!NOTE]
    >
    >Panel de control de Campaign está disponible para todos los clientes alojados en AWS (excepto para los clientes que alojan sus instancias de marketing on-Premise).
 
-1. Si la instalación de Adobe Campaign está alojada en Adobe, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para tener instaladas las utilidades necesarias en el servidor.
+1. Si Adobe aloja la instalación de Adobe Campaign, contacte con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para que instalen las herramientas necesarias en el servidor.
 1. Si la instalación de Adobe Campaign está in situ: instale la utilidad que desee utilizar (por ejemplo: GPG, GZIP) así como las claves necesarias (clave de cifrado) en el servidor de aplicaciones.
 
 A continuación, puede utilizar los comandos de preprocesamiento deseados en los flujos de trabajo:
@@ -54,7 +54,7 @@ En este caso de uso, crearemos un flujo de trabajo para importar datos cifrados 
 
 Los pasos para realizar este caso de uso son los siguientes:
 
-1. Utilice el Panel de control de Campaign para generar un par de claves (pública/privada). Encontrará los pasos detallados en la documentación [del](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) Panel de control de Campaign.
+1. Utilice el Panel de control de Campaign para generar un par de claves (pública/privada). Encontrará los pasos detallados en la documentación [del](https://docs.adobe.com/content/help/es-ES/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) Panel de control de Campaign.
 
    * La clave pública se comparte con el sistema externo, que la utiliza para cifrar los datos que se enviarán a Campaign.
    * Campaign Classic utiliza la clave privada para descifrar los datos cifrados entrantes.
