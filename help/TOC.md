@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: efa36dc08ce4dd59805bb9eba63a4249e14609d7
 workflow-type: tm+mt
 source-wordcount: '2349'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 94%
    + Importación y exportación de datos {#importing-and-exporting-data}
       + [Introducción a la importación y exportación de datos](platform/using/get-started-data-import-export.md)
       + [Importación y exportación de datos mediante flujos de trabajo](platform/using/import-export-workflows.md)
-      + Trabajar con importaciones y exportaciones genéricas {#generic-imports-exports}
+      + Uso de importaciones y exportaciones genéricas {#generic-imports-exports}
          + [Introducción a las importaciones y exportaciones genéricas](platform/using/about-generic-imports-exports.md)
          + [Creación de plantillas de importación y exportación](platform/using/creating-import-export-templates.md)
          + [Creación de trabajos de importación y exportación](platform/using/creating-import-export-jobs.md)
@@ -80,7 +80,7 @@ ht-degree: 94%
          + [Muestras de importación genéricas](platform/using/import-operations-samples.md)
       + Administración del cifrado y la compresión de datos {#managing-data-encryption-compression}
          + [Descompresión o desencriptado de un archivo antes de procesarlo](platform/using/unzip-decrypt.md)
-         + [Cifrado o extracción de un archivo antes de procesarlo](platform/using/zip-encrypt.md)
+         + [Compresión o cifrado de un archivo antes de procesarlo](platform/using/zip-encrypt.md)
       + Prácticas recomendadas y solución de problemas {#best-practices}
          + [Prácticas recomendadas de importación y exportación](platform/using/import-export-best-practices.md)
          + [Prácticas recomendadas y solución de problemas del servidor SFTP](platform/using/sftp-server-usage.md)
@@ -100,8 +100,8 @@ ht-degree: 94%
       + [Acerca de los conectores](platform/using/about-connectors.md)
       + Conectores CRM{#crm-connectors}
          + [Introducción a los conectores CRM](platform/using/crm-connectors.md)
-         + [Conectar con Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
-         + [Sincronizar datos con CRM](platform/using/crm-data-sync.md)
+         + [Conexión con Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
+         + [Sincronización de datos con CRM](platform/using/crm-data-sync.md)
       + [Conectores de datos de Adobe Analytics](platform/using/adobe-analytics-data-connector.md)
 + Envío de mensajes {#sending-messages}
    + [Introducción a los mensajes](delivery/using/communication-channels.md)
