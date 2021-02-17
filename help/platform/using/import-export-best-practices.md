@@ -2,26 +2,26 @@
 solution: Campaign Standard
 product: campaign
 title: Prácticas recomendadas de importación y exportación
-description: Obtenga más información sobre las prácticas recomendadas a seguir al importar o exportar datos.
+description: Obtenga más información acerca las prácticas recomendadas que seguir al importar o exportar datos.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2a99135bdd74d87c04262b53e074b6aa05e7915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 
-# Importar y exportar optimizaciones {#import-export-best-practices}
+# Prácticas recomendadas de importación y exportación {#import-export-best-practices}
 
 Tenga cuidado y siga las sencillas reglas detalladas debajo, ya que le pueden ayudar a garantizar la coherencia de los datos en la base de datos y a evitar errores comunes durante la actualización o las exportaciones de datos.
 
 ## Uso de plantillas de flujo de trabajo {#using-import-templates}
 
-La mayoría de los flujos de trabajo destinados a la importación de datos deben contener las siguientes actividades: **[!UICONTROL Load file]**, **[!UICONTROL Reconciliation]**, **[!UICONTROL Segmentation]**, **[!UICONTROL Deduplication]**, **[!UICONTROL Update data]**.
+La mayoría de los flujos de trabajo destinados a la importación de datos deben contener las siguientes actividades: **[!UICONTROL Load file]**, **[!UICONTROL Reconciliation]**, **[!UICONTROL Segmentation]**, **[!UICONTROL Deduplication]** y **[!UICONTROL Update data]**.
 
 El uso de plantillas de flujo de trabajo facilita la preparación de importaciones similares y garantiza la coherencia de los datos en la base de datos.
 
@@ -29,7 +29,7 @@ En muchos proyectos, las importaciones se crean sin actividad de **[!UICONTROL D
 
 No dé por hecho que los datos entrantes son coherentes y correctos, o que el departamento de TI o el iniciador de Adobe Campaign se pueden encargar de ello. Durante el proyecto, tenga en cuenta la limpieza de los datos. Deduplique, reconcilie y mantenga la coherencia al importar datos.
 
-Un ejemplo de una plantilla de flujo de trabajo genérica diseñada para importar datos está disponible en el [Ejemplo: Plantilla de flujo de trabajo para importar datos](../../platform/using/creating-import-export-templates.md).
+Un ejemplo de una plantilla de flujo de trabajo genérica diseñada para importar datos está disponible en el [Ejemplo: Plantilla de flujo de trabajo para importar la sección datos](../../platform/using/creating-import-export-templates.md).
 
 ## Uso de formatos de archivo plano {#using-flat-file-formats}
 
@@ -42,7 +42,7 @@ Por ejemplo:
 * Sin delimitador de cadenas
 * Formato de fecha: AAAA/MM/DD HH:mm:SS
 
-Ejemplo del archivo que se va a importar:
+Ejemplo de archivo para importar:
 
 ```
 lastname;firstname;birthdate;email;crmID
@@ -54,7 +54,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 ## Uso de compresión {#using-compression}
 
-Utilice archivos comprimidos para importar y exportar cuando sea posible. GZIP es compatible de forma predeterminada. Puede agregar preprocesamiento al importar archivos o posprocesamiento al extraer datos, respectivamente, en las actividades de flujo de trabajo **[!UICONTROL Load file]** y **[!UICONTROL Extract file]**.
+Utilice archivos comprimidos para importar y exportar cuando sea posible. GZIP es compatible de forma predeterminada. Puede añadir preprocesamiento al importar archivos o posprocesamiento al extraer datos, respectivamente, en las actividades de flujo de trabajo **[!UICONTROL Load file]** y **[!UICONTROL Extract file]**.
 
 **Temas relacionados:**
 
