@@ -6,11 +6,11 @@ description: Obtenga información sobre cómo configurar y ejecutar trabajos de 
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '926'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 87%
 
 Los trabajos de exportación permiten acceder a la base de datos y extraer datos de ella: contactos, clientes, listas, segmentos, etc.
 
-Por ejemplo: puede resultar útil utilizar datos de seguimiento de campañas (historial de seguimiento, etc.) en una hoja de cálculo. Los datos de salida pueden estar en formato txt, csv, tab o xml.
+Por ejemplo: puede resultar útil utilizar datos de seguimiento de campañas (historial de seguimiento, etc.) en una hoja de cálculo. Los datos de salida pueden estar en formato txt, CSV, TAB o formato XML.
 
 El asistente de exportación permite configurar una exportación, definir sus opciones e iniciar la ejecución. Es una serie de pantallas cuyo contenido depende del tipo de exportación (simple o múltiple) y de los derechos del operador.
 
@@ -131,4 +131,4 @@ Haga clic en **[!UICONTROL Start]** para iniciar la exportación de datos.
 
 ![](assets/s_ncs_user_export_wizard08.png)
 
-A continuación, puede supervisar la ejecución del trabajo de importación (consulte [Supervisión de la ejecución de trabajos](../../platform/using/monitoring-jobs-execution.md).
+A continuación, puede supervisar la ejecución del trabajo de importación (consulte [Supervisión de la ejecución de trabajos](../../platform/using/monitoring-jobs-execution.md)).
