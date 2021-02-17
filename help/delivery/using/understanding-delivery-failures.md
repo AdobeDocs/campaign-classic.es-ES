@@ -315,7 +315,7 @@ Para instalaciones locales e instalaciones hospedadas/híbridas que utilizan el 
 * Se puede elegir si activar o no determinadas normas de identificación y claves de cifrado para comprobar el nombre del dominio como, por ejemplo, **ID de remitente**, **DomainKeys**, **DKIM** y **S/MIME**.
 * **SMTP relay**: permite configurar la dirección IP y el puerto de un servidor de transmisión para un dominio determinado. Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#smtp-relay).
 
-Si los mensajes se muestran en Outlook con **[!UICONTROL on behalf of]** en la dirección del remitente, asegúrese de no firmar los mensajes de correo electrónico con el **ID del remitente**, que es el estándar de autenticación de correo electrónico propietario obsoleto de Microsoft. Si la opción **[!UICONTROL Sender ID]** está habilitada, desmarque la casilla correspondiente y póngase en contacto con [Adobe Customer Care](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). La capacidad de envío no se ve afectada.
+Si los mensajes se muestran en Outlook con **[!UICONTROL on behalf of]** en la dirección del remitente, asegúrese de no firmar los mensajes de correo electrónico con el **ID del remitente**, que es el estándar de autenticación de correo electrónico propietario obsoleto de Microsoft. Si la opción **[!UICONTROL Sender ID]** está activada, desmarque la casilla correspondiente y póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). La capacidad de envío no se ve afectada.
 
 #### Administración MX {#mx-management}
 
