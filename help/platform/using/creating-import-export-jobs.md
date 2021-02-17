@@ -6,18 +6,18 @@ description: Obtenga información sobre cómo crear trabajos de importación y e
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 37cc6cd8b71ec82cd4e6a910d6664a51ed5c091e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '133'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
 
 # Creación de trabajos de importación y exportación {#creating-import-export-jobs}
 
-Una vez configuradas las plantillas, las operaciones de importación y exportación se pueden iniciar en varios contextos de Adobe Campaign.
+Una vez configuradas las plantillas, se pueden iniciar operaciones de importación y exportación en varios contextos en Adobe Campaign.
 
 * En la sección **[!UICONTROL Profiles and targets]** del espacio de trabajo de Adobe Campaign, haga clic en el vínculo **[!UICONTROL Jobs]**: esto le lleva a la lista de importaciones y exportaciones existentes.
 
@@ -25,11 +25,11 @@ Una vez configuradas las plantillas, las operaciones de importación y exportaci
 
    ![](assets/s_ncs_user_import_from_home.png)
 
-* También puede iniciar importaciones y exportaciones desde la sección **[!UICONTROL Monitoring]** del espacio de trabajo: dos vínculos dedicados le permiten realizar inicios en la importación o exportación directamente.
+* También puede iniciar importaciones y exportaciones desde la sección **[!UICONTROL Monitoring]** del espacio de trabajo: dos vínculos dedicados le permiten iniciar la importación o exportación directamente.
 
    ![](assets/s_ncs_user_import_from_production.png)
 
-* Por último, las importaciones y las exportaciones pueden iniciarse desde el explorador Adobe Campaign.
+* Las importaciones y exportaciones también se pueden iniciar desde el explorador de Adobe Campaign.
 
    ![](assets/s_ncs_user_export_wizard_launch_from_menu.png)
 
