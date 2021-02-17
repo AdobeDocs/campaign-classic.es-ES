@@ -6,11 +6,11 @@ description: Versión 20.2
 audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2556'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ _22 de diciembre de 2020_
 
 >[!CAUTION]
 >
-> * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaña a través de Adobe Identity Service (IMS), la actualización es obligatoria tanto para el servidor de Campaña como para la consola cliente para poder conectarse a la Campaña después del **31 de marzo de 2021**.
+> * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaign a través de Adobe Identity Service (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **31 de marzo de 2021**.
 > * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
-> * Si está utilizando la integración de Déclencheur de Experience Cloud mediante la autenticación oAuth, debe desplazarse a Adobe I/O como se describe [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación oAuth heredado se retirará el **30 de abril de 2021**.
+> * Si está utilizando la integración de Experience Cloud Triggers mediante la oAuth authentication, debe desplazarse a Adobe I/O como se describe [en esta página](../../integrations/using/configuring-adobe-io.md). El modo oAuth authentication heredado se eliminará el **30 de abril de 2021**.
 
 
 
@@ -35,7 +35,7 @@ _22 de diciembre de 2020_
 
 * El protocolo de conexión se ha actualizado para seguir el nuevo mecanismo de autenticación IMS.
 * Activa la autenticación de integración basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización, que se ha cambiado y se ha movido a Adobe I/O. [Más información](../../integrations/using/configuring-adobe-io.md)
-* Después del [fin de la compatibilidad con el protocolo binario heredado APN de iOS](https://developer.apple.com/news/?id=c88acm2b), todas las instancias que utilizan este protocolo se actualizan al protocolo HTTP/2 durante la posactualización.
+* Después de [finalizar la compatibilidad con el protocolo binario heredado de APN de iOS](https://developer.apple.com/news/?id=c88acm2b), todas las instancias que utilizan este protocolo se actualizan al protocolo HTTP/2 durante la postactualización.
 * Se ha corregido un problema de seguridad para reforzar la protección contra los problemas de falsificación de solicitudes del lado del servidor (SSRF). (NEO-27777)
 
 
@@ -113,10 +113,10 @@ _22 de julio de 2020_
 * Se ha mejorado el conector HTTP2 de iOS (actualizaciones de terceros y administración de errores). (NEO-25904, NEO-25903)
 * Se ha actualizado la lista jarsToSkip en catalina.properties para eliminar la referencia a un archivo jar que ya no se utilizaba (notificaciones de iOS).
 * Se ha corregido un problema que bloqueaba la preparación del envío después de la actualización.
-* Después del cambio al [nuevo mecanismo de ID de secuencia](https://helpx.adobe.com/es/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence), todas las aplicaciones web que actualizan la tabla de destinatario se vuelven a publicar después de la actualización.
+* Después del cambio al [nuevo mecanismo de ID de secuencia](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence), todas las aplicaciones web que actualizan la tabla de destinatario se vuelven a publicar después de la actualización.
 * Se ha corregido una potencial vulnerabilidad XSS en el contenido de envío. (NEO-17987, NEO-26073)
 
-![](assets/do-not-localize/cp-icon.png) **Nuevo lanzamiento del Panel de control de Campaign en junio** con monitorización de perfiles activos, auditoría de entregas de subdominios y administración de claves GPG. [Más información](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nuevo lanzamiento del Panel de control de Campaign en junio** con monitorización de perfiles activos, auditoría de entregas de subdominios y administración de claves GPG. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
 
 ## ![](assets/do-not-localize/red_2.png) Versión 20.2.1: compilación 9178 {#release-20-2-1-build-9178}
 
