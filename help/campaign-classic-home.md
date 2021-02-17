@@ -1,14 +1,14 @@
 ---
-keywords: Campaign Classic;inicio;temas populares
+keywords: Campaign Classic, inicio, temas populares
 solution: Campaign Classic
 product: campaign
 title: Documentación del producto Adobe Campaign Classic
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 81%
 
 ## Novedades
 
-* **[¿Conectarse a través de IMS/Adobe ID? Actualice a las últimas compilaciones](integrations/using/about-adobe-id.md)**<br/> Si utiliza IMS para conectarse a Campaña, debe actualizar para poder conectarse a Campaña después del** 31 de marzo de 2021 **.
+* **[¿Conexión a través de IMS/ID de Adobe? Actualice a las últimas compilaciones](integrations/using/about-adobe-id.md)**<br/> Si utiliza IMS para conectarse a Campaign, debe actualizar para poder seguir conectándose después del** 31 de marzo de 2021 **.
 
-* **[Proteja sus ](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)**<br/> instancias de CampañaActualice a las últimas compilaciones para proteger su plataforma de Campaña.
+* **[Proteja sus instancias de Campaign](https://helpx.adobe.com/es/campaign/kb/sms-connector-protocol-and-settings.html)**<br/> Actualice a las últimas compilaciones para proteger su plataforma de Campaign.
 
 * **[Eliminación de rebotes duros incorrectos](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Obtenga información sobre cómo actualizar los rebotes duros incorrectos tras la interrupción de Gmail
 
-* **[Actualice la integración de los activadores de Adobe Experience Cloud ](integrations/using/configuring-adobe-io.md)**<br/> El servicio de autenticación de autenticación heredada ha llegado al final de su vida útil. Descubra más información sobre cómo migrar a Adobe I/O.
+* **[Actualice la integración de los activadores de Adobe Experience Cloud](integrations/using/configuring-adobe-io.md)**<br/> El servicio de autenticación de autenticación heredada ha llegado al final de su vida útil. Descubra más información sobre cómo migrar a Adobe I/O.
 
 * **[Pasarse a la API de proveedor de APN basada en HTTP/2](https://helpx.adobe.com/es/campaign/kb/migrate-to-apns-http2.html)**<br/> Más información sobre cómo migrar del protocolo binario heredado a la API de proveedor de APN basada en HTTP/2.
 
@@ -87,6 +87,6 @@ ht-degree: 81%
 | [Videotutoriales](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es) | [Modelo de datos de Campaign](configuration/using/about-data-model.md) |
 | [Matriz de compatibilidad](rn/using/compatibility-matrix.md) | [JSAPI de Campaign](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | [Introducción a Campaign](platform/using/about-adobe-campaign-classic.md) | [Guía de implementación](https://helpx.adobe.com/es/campaign/kb/acc-implementation.html) |
-| [Actualización a Gold Standard ](https://helpx.adobe.com/campaign/kb/gold-standard.html) | [Guía de seguimiento](https://helpx.adobe.com/es/campaign/kb/acc-tracking.html) |
+| [Actualización a Gold Standard ](https://helpx.adobe.com/es/campaign/kb/gold-standard.html) | [Guía de seguimiento](https://helpx.adobe.com/es/campaign/kb/acc-tracking.html) |
 | [Funciones obsoletas](rn/using/deprecated-features.md) | [Lista de comprobación de seguridad y privacidad](https://helpx.adobe.com/es/campaign/kb/acc-security.html) |
 | [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es) | [Directrices de monitorización](production/using/monitoring-guidelines.md) |
