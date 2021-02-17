@@ -1,31 +1,31 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Sincronización de datos de CRM Connectors
-description: Administrar datos entre la Campaña y su CRM
+title: Sincronización de datos de conectores CRM
+description: Administrar datos entre Campaign y su CRM
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2838ced5f5d562914c0791e6a0b8f02dd61006b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1531'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
-# Sincronización de datos entre Campaña y CRM {#data-synchronization}
+# Sincronización de datos entre Campaign y CRM {#data-synchronization}
 
-La sincronización de datos entre Adobe Campaign y CRM se realiza mediante una actividad de flujo de trabajo dedicada: [Conector CRM](../../workflow/using/crm-connector.md).
+La sincronización de datos entre Adobe Campaign y CRM se lleva a cabo mediante una actividad de flujo de trabajo dedicada: [conector de CRM](../../workflow/using/crm-connector.md).
 
-Por ejemplo, para importar los datos de Microsoft Dynamics a Adobe Campaign, cree el siguiente tipo de flujo de trabajo:
+Por ejemplo, para importar los datos de Microsoft Dynamics en Adobe Campaign, cree el siguiente tipo de flujo de trabajo:
 
 ![](assets/crm_connectors_msdynamics_07.png)
 
 Este flujo de trabajo importa los contactos a través de Microsoft Dynamics, los sincroniza con los datos de Adobe Campaign existentes, elimina los contactos duplicados y actualiza la base de datos de Adobe Campaign.
 
-La actividad **[!UICONTROL CRM Connector]** debe configurarse para sincronizar los datos.
+Debe configurarse la actividad **[!UICONTROL CRM Connector]** para sincronizar los datos.
 
 ![](assets/crm_connectors_msdynamics_08.png)
 
@@ -38,7 +38,7 @@ Con esta actividad puede:
 
 ![](assets/crm_task_select_op.png)
 
-Seleccione la cuenta externa que coincida con la CRM con la que desea configurar la sincronización y, a continuación, seleccione el objeto que desea sincronizar: cuentas, oportunidades, posibles clientes, contactos, etc.
+Seleccione la cuenta externa que coincide con el CRM con el que desea configurar la sincronización y, a continuación, seleccione el objeto que se va a sincronizar: cuentas, oportunidades, posibles clientes, contactos, etc.
 
 ![](assets/crm_task_select_obj.png)
 
@@ -126,7 +126,7 @@ Para garantizar una operación eficaz con los distintos CRM, es necesario crear 
 * No se admiten comparaciones JOIN.
 * La expresión de la columna de la izquierda debe ser un campo. No puede ser una combinación de varias expresiones, un número, etc.
 
-Por ejemplo, las siguientes condiciones de filtrado NO serán válidas para una importación de CRM, ya que el operador O se coloca en el mismo nivel que los operadores Y:
+Por ejemplo, las siguientes condiciones de filtrado NO serán válidas para una importación de CRM, ya que el operador OR se coloca en el mismo nivel que los operadores AND:
 
 * El operador OR se coloca en el mismo nivel que los operadores AND
 * Las comparaciones se llevan a cabo en cadenas de texto
@@ -161,14 +161,14 @@ Para exportar datos a CRM, debe crear el siguiente tipo de flujo de trabajo:
 
 ![](assets/crm_export_diagram.png)
 
-Para una exportación, aplique la siguiente configuración a la actividad **[!UICONTROL CRM Connector]**:
+Para una exportación, aplique la configuración siguiente en la actividad **[!UICONTROL CRM Connector]**:
 
 1. Seleccione una operación **[!UICONTROL Export to CRM]**.
 1. Ir a la lista desplegable **[!UICONTROL Remote object]** y seleccionar el objeto afectado en el proceso. Este objeto coincide con una de las tablas creadas en Adobe Campaign durante la configuración del conector.
 
    >[!IMPORTANT]
    >
-   >La función de exportación de la actividad **[!UICONTROL CRM Connector]** puede insertar o actualizar campos en el lado de CRM. Para activar las actualizaciones de campo en el CRM, debe especificar la clave principal de la tabla remota. Si falta la clave, se insertan los datos (en lugar de actualizarse).
+   >La función de exportación de la actividad **[!UICONTROL CRM Connector]** puede insertar o actualizar campos en el lado del CRM. Para activar las actualizaciones de campo en el CRM, debe especificar la clave principal de la tabla remota. Si falta la clave, se insertan los datos (en lugar de actualizarse).
 
 1. En la sección **[!UICONTROL Mapping]**, especifique los campos que se exportan y su asignación en CRM.
 
@@ -224,7 +224,7 @@ Los rechazos se recopilan junto con el código de error y el mensaje relacionado
 >
 >Incluso cuando la opción **[!UICONTROL Process rejects]** no está activada, se genera una advertencia para cada columna rechazada con un código de error y un mensaje.
 
-La transición de salida **[!UICONTROL Reject]** permite acceder al esquema de salida que contiene las columnas específicas de los mensajes de error y los códigos. Para Salesforce.com, esta columna es **errorSymbol** (símbolo de error, diferente del código de error), **errorMessage** (descripción del contexto de error).
+La transición de salida **[!UICONTROL Reject]** permite acceder al esquema de salida que contiene las columnas específicas de los mensajes de error y los códigos. Para Salesforce.com, esta columna es **errorSymbol** (símbolo de error, distinto del código de error), **errorMessage** (descripción del contexto del error).
 
 ## Importación de objetos eliminados en CRM {#importing-objects-deleted-in-the-crm}
 
