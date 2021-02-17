@@ -6,11 +6,11 @@ description: Obtenga información sobre cómo supervisar la ejecución de trabaj
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '189'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Puede realizar un seguimiento de la ejecución de los trabajos de importación y
 * La pestaña **[!UICONTROL Journal]** permite ver los mensajes de registro relacionados con la ejecución.
 * La pestaña **[!UICONTROL Rejects]** contiene los registros rechazados. Consulte [Comportamiento en caso de error](../../platform/using/executing-import-jobs.md#behavior-in-the-event-of-an-error).
 
-En la ficha **[!UICONTROL General]**, el campo **[!UICONTROL Status]** indica el estado actual de un trabajo.
+En la pestaña **[!UICONTROL General]**, el campo **[!UICONTROL Status]** indica el estado actual de un trabajo.
 
 Cada estado aparece representado mediante un icono especial y una etiqueta. Los estados y sus iconos se enumeran a continuación:
 
