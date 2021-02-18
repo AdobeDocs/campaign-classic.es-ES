@@ -37,7 +37,6 @@ Los usuarios de la campaña pueden conectarse a la consola de Adobe Campaign con
 > * [Campaign 20.1.4](../../rn/using/release--20-1.md)
 > * [Campaign 19.2.4](../../rn/using/release--19-2.md)
 > * [Campaign 19.1.8](../../rn/using/release--19-1.md)
-
 >
 
 
