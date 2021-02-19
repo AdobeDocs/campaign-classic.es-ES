@@ -6,9 +6,9 @@ description: Automatización mediante flujos de trabajo
 audience: delivery
 content-type: reference
 topic-tags: content-management
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3eecc16442a11849c12819cf83392f60c5b82a13
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 100%
 
