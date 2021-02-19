@@ -6,9 +6,9 @@ description: Formato
 audience: delivery
 content-type: reference
 topic-tags: content-management
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Los atributos y elementos del contenido se representan como objetos JavaScript y
 **Ejemplo**:
 
 * **content.@name**: recupera el valor del atributo “name” del elemento principal.
-* **content.@`['name']`**: idéntico al **content.@name** sintaxis
+* **contenido.@`['name']`**: idéntico al **content.@name** sintaxis
 * **content.chapter.length**: devuelve el número de elementos en el elemento de colección `<chapter`.
 * **content.chapter`[0]`.@name**: recupera el nombre del primer elemento `<chapter>`.
 * **chapter.name()**: devuelve el nombre del elemento `<chapter>`.
