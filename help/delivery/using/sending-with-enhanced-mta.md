@@ -133,7 +133,7 @@ Para obtener más información sobre la calificación de devoluciones, consulte 
 
 En la vista **[!UICONTROL Summary]** de un envío de correo electrónico [panel](../../delivery/using/delivery-dashboard.md), el inicio **[!UICONTROL Success]** se eleva al 100% y luego se desciende progresivamente a lo largo del período de validez [envío](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period), a medida que los rebotes no deseados y duros se informan desde el MTA mejorado a la Campaña.
 
-De hecho, todos los mensajes se muestran como **[!UICONTROL Sent]** en los [registros de envío](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) en cuanto se retransmiten correctamente desde la Campaña al MTA mejorado. Permanecen en ese estado a menos o hasta que una [devolución](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) para ese mensaje se comunique de vuelta del MTA mejorado a la Campaña.
+De hecho, todos los mensajes se muestran como **[!UICONTROL Sent]** en los [registros de envío](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) en cuanto se retransmiten correctamente desde la Campaña al MTA mejorado. Permanecen en ese estado a menos o hasta que un [rebote](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) para ese mensaje se comunique de vuelta del MTA mejorado a la Campaña.
 
 Cuando se generan informes de los mensajes de rebote desde el MTA mejorado, su estado cambia de **[!UICONTROL Sent]** a **[!UICONTROL Failed]** y el porcentaje **[!UICONTROL Success]** disminuye en consecuencia.
 
