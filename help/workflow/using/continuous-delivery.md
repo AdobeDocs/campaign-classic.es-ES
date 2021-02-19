@@ -6,9 +6,9 @@ description: Entrega continua
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%
 
@@ -64,6 +64,6 @@ Un envío continuo creará un envío ÚNICO y registros de envío (broadLog) y r
 
 Este vídeo muestra cómo configurar un envío continuo con una consulta incremental.
 
->[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
