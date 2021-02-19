@@ -70,7 +70,7 @@ El nombre del índice de la base de datos se calcula concatenando el nombre de l
 
 ## Ejemplos {#examples-3}
 
-Creación de un índice en el campo &quot;id&quot;. (el atributo &quot;@unique&quot; en el elemento `<dbindex>` desencadena la adición de la palabra clave SQL &quot;ÚNICA&quot; cuando se crea el índice en la base de datos (consulta)).
+Creación de un índice en el campo &quot;id&quot;. (el atributo &quot;@unique&quot; en los déclencheur del elemento `<dbindex>` que agregan la palabra clave SQL &quot;ÚNICA&quot; cuando se crea el índice en la base de datos (consulta)).
 
 ```
 <element label="Sample" name="Sample">
