@@ -75,7 +75,7 @@ Este modo es costoso en términos de cálculo durante la reconciliación de regi
 
 **Características del modo de Seguimiento web anónimo:**
 
-Este modo de Seguimiento web permite recuperar un registro de seguimiento vinculado a la navegación anónima en Adobe Campaign. Se crea automáticamente un registro de seguimiento para cada clic en una dirección URL rastreada. Este registro solo tiene el valor de uuid230. Durante una campaña de marketing, se crea automáticamente un registro de seguimiento con toda la información de identificación (consulte el seguimiento de sesiones). Adobe Campaign buscará automáticamente en los registros anteriores un valor &quot;uuid230&quot; igual al valor del registro de seguimiento de esta campaña de mercadotecnia. Si se encuentran valores idénticos, todos los registros de seguimiento anteriores se introducen con toda la información del registro de seguimiento de campañas de marketing.
+Este modo de Seguimiento web permite recuperar un registro de seguimiento vinculado a la navegación anónima en Adobe Campaign. Se crea automáticamente un registro de seguimiento por cada clic en una dirección URL rastreada. Este registro solo tiene el valor de uuid230. Durante una campaña de marketing, se crea automáticamente un registro de seguimiento con toda la información de identificación (consulte el seguimiento de sesiones). Adobe Campaign buscará automáticamente en los registros anteriores un valor &quot;uuid230&quot; igual al valor del registro de seguimiento de esta campaña de mercadotecnia. Si se encuentran valores idénticos, todos los registros de seguimiento anteriores se introducen con toda la información del registro de seguimiento de campañas de marketing.
 
 Este modo es el más costoso en términos de cálculo y volumen.
 
