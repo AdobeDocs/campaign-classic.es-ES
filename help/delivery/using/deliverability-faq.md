@@ -6,9 +6,9 @@ description: ¿Cuáles son los puntos clave que hay que comprobar al administrar
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 100%
 
