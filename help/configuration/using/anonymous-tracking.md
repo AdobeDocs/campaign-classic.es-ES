@@ -21,7 +21,7 @@ Adobe Campaign le permite vincular la información recopilada sobre los Seguimie
 
 >[!IMPORTANT]
 >
->La configuración de seguimientos anónimos en un sitio web puede desencadenar la recopilación de una cantidad significativa de registros de seguimiento, afectando así el funcionamiento de la base de datos. Configúrelo con cuidado.\
+>La configuración de seguimientos anónimos en un sitio web puede generar déclencheur en la recopilación de una cantidad significativa de registros de seguimiento, afectando así el funcionamiento de la base de datos. Configúrelo con cuidado.\
 >Los registros de seguimiento se guardan en la base de datos hasta que se purgan los datos de seguimiento. Utilice el asistente de implementación para configurar la frecuencia de purga. Para obtener más información, consulte [esta sección](../../installation/using/deploying-an-instance.md#purging-data).
 
 Para habilitar el Seguimiento web anónimo en la instancia, deben configurarse los siguientes elementos:
