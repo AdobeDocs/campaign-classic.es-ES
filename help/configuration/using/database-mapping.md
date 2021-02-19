@@ -403,7 +403,7 @@ Los vínculos obedecen las siguientes reglas:
 
 * Un vínculo hace referencia a uno o varios campos de la tabla de origen a la tabla de destino. Los campos que componen el elemento de unión ( `<join>`) no necesitan rellenarse porque se deducen automáticamente de forma predeterminada mediante la clave interna del esquema de destinatario.
 * Se agrega automáticamente un índice a la clave externa del vínculo en el esquema extendido.
-* Un vínculo consiste en dos semicírculos, donde el primero se declara desde el esquema de origen y el segundo se crea automáticamente en el esquema extendido del esquema de destinatario.
+* Un vínculo consiste en dos semiclumbros, donde el primero se declara desde el esquema de origen y el segundo se crea automáticamente en el esquema extendido del esquema de destinatario.
 * Una unión puede ser una unión externa si se agrega el atributo **externalJoin**, con el valor &quot;true&quot; (admitido en PostgreSQL).
 
 >[!NOTE]
@@ -496,7 +496,7 @@ En este ejemplo, declararemos un vínculo hacia la tabla de esquema &quot;nms:ad
 <element integrity="own" label="Extension" name="extension" revCardinality="single" revLink="recipient" target="cus:extension" type="link"/>
 ```
 
-### Ejemplo 4 {#example-4}
+### Ejemplo 5 {#example-4}
 
 Vínculo a una carpeta ( esquema &quot;xtk:folder&quot;):
 
@@ -506,7 +506,7 @@ Vínculo a una carpeta ( esquema &quot;xtk:folder&quot;):
 
 El valor predeterminado devuelve el identificador del primer archivo de tipo de parámetro válido introducido en la función &quot;DefaultFolder(&#39;nmsFolder&#39;)&quot;.
 
-### Ejemplo 4 {#example-5}
+### Ejemplo 5 {#example-5}
 
 En este ejemplo, deseamos crear una clave en un vínculo (&quot;compañía&quot; al esquema &quot;cus:compañía&quot;) con el atributo **xlink** y un campo de la tabla (&quot;correo electrónico&quot;):
 
