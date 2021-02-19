@@ -174,7 +174,7 @@ Pueden producirse varios casos:
 
    ![](assets/8101_proxy3.png)
 
-Las direcciones IP de los proxies que probablemente tengan acceso al servidor de Adobe Campaign deben ingresarse en la **`<subnetwork>`** red de &lt;a0/> concernida y en la subred de primer nivel **`<subnetwork name="all"/>`**. Por ejemplo, aquí para un proxy cuya dirección IP es 10.131.146.102:
+Las direcciones IP de los proxies que probablemente tengan acceso al servidor de Adobe Campaign deben ingresarse en la **`<subnetwork>`** red de  concernida y en la subred de primer nivel **`<subnetwork name="all"/>`**. Por ejemplo, aquí para un proxy cuya dirección IP es 10.131.146.102:
 
 ```
 <securityZone allowDebug="false" allowHTTP="false" label="Public Network" 
@@ -492,7 +492,7 @@ Cuando se utilizan varios servidores para la redirección, deben poder comunicar
 
 >[!NOTE]
 >
->Al utilizar la arquitectura estándar o empresarial, se debe autorizar al servidor de aplicaciones principal para que cargue información de seguimiento en cada equipo.
+>Cuando se utiliza la arquitectura estándar o empresarial, se debe autorizar al servidor de aplicaciones principal para que cargue información de seguimiento en cada equipo.
 
 Las direcciones URL de los servidores redundantes deben especificarse en la configuración de redirección, mediante el archivo **serverConf.xml**. Todos los parámetros disponibles en **serverConf.xml** se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
 
