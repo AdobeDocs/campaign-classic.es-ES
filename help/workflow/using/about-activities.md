@@ -6,9 +6,9 @@ description: Acerca de las actividades
 audience: workflow
 content-type: reference
 topic-tags: introduction
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 100%
 
