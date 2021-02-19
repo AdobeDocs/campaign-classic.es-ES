@@ -6,9 +6,9 @@ description: Obtenga información sobre cómo configurar una plantilla de flujo 
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 100%
 
