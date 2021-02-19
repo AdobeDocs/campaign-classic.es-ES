@@ -6,9 +6,9 @@ description: Matriz de compatibilidades de Campaign Classic para la versión Gol
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9d1f5561098bb867b8a62e8bcdb14f60829be1ea
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Adobe Campaign Classic es compatible con todos los sistemas y herramientas enume
 <tr>
 <td>RHEL</td>
 <td>
-<p>7.x (64 bits)</p>
+<p>7,x (64 bits)</p>
 <p><strong>Importante:</strong> Si está utilizando RHEL, debe estar dispuesto a deshabilitar SELinux o a que sus arquitectos escriban reglas SELinux personalizadas para comprobar que un SELinux habilitado no está causando problemas con las operaciones de Campaign.</p>
 </td>
 </tr>
@@ -178,7 +178,7 @@ Adobe Campaign Classic es compatible con todos los sistemas y herramientas enume
 <p>Versión de API 15</p>
 </td>
 </tr>
-<tr><td>API de Oracle On Demand</td>
+<tr><td>API de Oracle bajo demanda</td>
 <td>
 <p>API de Web Services 1.0</p>
 </td>
@@ -207,7 +207,7 @@ Adobe Campaign Classic es compatible con todos los sistemas y herramientas enume
 <td>Oracle</td>
 <td>
 <p>12c</p>
-<p>11g</p>
+<p>11 g</p>
 </td>
 </tr>
 <tr>
