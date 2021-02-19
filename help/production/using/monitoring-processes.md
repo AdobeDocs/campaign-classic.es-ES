@@ -28,7 +28,7 @@ Vaya a **[!UICONTROL Monitoring]** y haga clic en el vínculo **[!UICONTROL Over
 La página mostrada permite la vista del estado de la instancia conectada, es decir:
 
 * información sobre la instancia: version, name, motor de base de datos, paquetes instalados, indicadores del sistema del servidor,
-* la lista de los procesos y la información de ejecución que faltan (fecha de inicio, PID, etc.),
+* la lista de procesos faltantes e información de ejecución (fecha de inicio, PID, etc.),
 * una vista de flujos de trabajo y envíos.
 
 En [esta página](../../production/using/monitoring-guidelines.md) se presentan formas adicionales de monitorizar los diferentes procesos de Campaign.
@@ -163,7 +163,7 @@ La lista de los indicadores del sistema le permite mostrar información relativa
 
    **[!UICONTROL Alert]** :: este indicador se muestra cuando el número de segmentos de memoria alcanza 2.
 
-* **[!UICONTROL Number of processes too old]** :: información relativa a los procesos que han estado activos durante más de un día.
+* **[!UICONTROL Number of processes too old]** :: información relativa a procesos que han estado activos durante más de un día.
 
    **[!UICONTROL Current value]** :: número de procesos actualmente activos.
 
@@ -255,6 +255,7 @@ Se agrupan en **Monitoreo** > &#39;Monitoreo SMTP&#39;.
 >
 >* La información relacionada con la supervisión SMTP solo está disponible si se ha activado el canal de correo electrónico.
 >* El **[!UICONTROL SMTP sending statistics]** solo se ofrece si se inicia el servidor de estadísticas en la instancia.
+
 >
 
 
