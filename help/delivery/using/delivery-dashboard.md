@@ -6,9 +6,9 @@ description: Obtenga más información acerca de cómo utilizar el panel de entr
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3c82e30cdc1057be6357d48170b959fb89c79528
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 100%
 
