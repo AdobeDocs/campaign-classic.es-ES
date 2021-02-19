@@ -6,9 +6,9 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 100%
 
