@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: c5c881d6919a8715e6588fb39793f562a16873bb
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 78%
+ht-degree: 97%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 78%
 
 >[!CAUTION]
 >
->Si utiliza una versión anterior de la integración de los activadores mediante autenticación oAuth, **debe pasar a Adobe I/O como se describe a continuación**. El modo de autenticación oAuth heredado se retirará el 30 de abril de 2021. [Obtenga más información](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
+>Si utiliza una versión anterior de la integración de los activadores mediante autenticación oAuth, **debe pasar a Adobe I/O como se describe a continuación**. El modo oAuth authentication heredado se eliminará el 30 de abril de 2021. [Obtenga más información](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
 >
->Tenga en cuenta que durante este cambio a Adobe I/O, es posible que se pierdan algunos déclencheur entrantes.
+>Tenga en cuenta que durante este cambio a Adobe I/O, es posible que se pierdan algunos activadores entrantes.
 
 ## Requisitos previos {#adobe-io-prerequisites}
 
@@ -43,7 +43,7 @@ Antes de iniciar esta implementación, compruebe lo siguiente:
    >
    > Asegúrese de haber iniciado sesión en el portal correcto de la Organización.
 
-1. Extraiga el identificador de cliente de integración existente (ID de cliente) del archivo de configuración de instancia ims/authIMSTAClientId. El atributo no existente o vacío indica que el ID del cliente no está configurado.
+1. Extraiga el ID del cliente de integración existente del archivo de configuración de instancia ims/authIMSTAClientId. El atributo no existente o vacío indica que el ID del cliente no está configurado.
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ Antes de iniciar esta implementación, compruebe lo siguiente:
 
    ![](assets/do-not-localize/adobe_io_3.png)
 
-1. Si el ID de cliente estaba vacío, seleccione **[!UICONTROL Generate a key pair]** para crear un par de claves pública y privada.
+1. Si el ID del cliente está vacío, seleccione **[!UICONTROL Generate a key pair]** para crear un par de claves pública y privada.
 
    ![](assets/do-not-localize/adobe_io_4.png)
 
@@ -99,7 +99,7 @@ nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_
 
 >[!NOTE]
 >
->Debe codificar la clave privada en formato UTF-8 base64. Recuerde quitar la nueva línea de la clave antes de codificarla, excepto la clave privada. La clave privada debe ser la misma que se utilizó para crear la integración. Para probar la codificación base64 de la clave privada, puede utilizar [este sitio Web](https://www.base64encode.org/).
+>Debe codificar la clave privada en formato UTF-8 base64. Recuerde quitar la nueva línea de la clave antes de codificarla, excepto de la clave privada. La clave privada debe ser la misma que se utilizó para crear la integración. Para probar la codificación base64 de la clave privada, puede utilizar [este sitio web](https://www.base64encode.org/).
 
 ## Paso 3: Actualización de la etiqueta canalizada {#update-pipelined-tag}
 
