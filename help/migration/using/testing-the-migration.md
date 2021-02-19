@@ -27,7 +27,7 @@ Debe tener un entorno de prueba/desarrollo para realizar pruebas de migración. 
 1. Realice una copia de seguridad de la base de datos de entorno de desarrollo.
 1. Detenga todos los procesos de Adobe Campaign en la instancia de desarrollo.
 1. Realice una copia de seguridad de la base de datos de entorno de producción y restauítela como entorno de desarrollo.
-1. Antes de iniciar los servicios de Adobe Campaign, ejecute la **secuencia de comandos de cauterización de &lt;a0/>congelarInstance.js**, la cual le permite borrar la base de datos de cualquier objeto que se estuviera ejecutando cuando se inició la copia de seguridad.
+1. Antes de iniciar los servicios de Adobe Campaign, ejecute la **secuencia de comandos de cauterización de congelarInstance.js**, la cual le permite borrar la base de datos de cualquier objeto que se estuviera ejecutando cuando se inició la copia de seguridad.
 
    ```
    nlserver javascript nms:freezeInstance.js -instance:<instance> -arg:<run|dry>
