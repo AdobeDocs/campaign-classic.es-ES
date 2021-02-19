@@ -6,9 +6,9 @@ description: Automatice los procesos con flujos de trabajo, administre datos y a
 audience: workflow
 content-type: reference
 topic-tags: introduction
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 100%
 
