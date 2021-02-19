@@ -96,10 +96,10 @@ Para iniciar sesión en una instancia existente, siga los pasos a continuación:
 * [Creación de una instancia e inicio de sesión](../../installation/using/creating-an-instance-and-logging-on.md).
 * [Matriz de compatibilidad](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
-## Videotutorial
+## Vídeo tutorial
 
 Este vídeo muestra cómo instalar y configurar el cliente de Adobe Campaign.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35124?quality=12)
 
-Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
+Puede encontrar disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
