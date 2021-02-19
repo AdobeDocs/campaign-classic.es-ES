@@ -6,9 +6,9 @@ description: Sincronización de audiencias
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 100%
 
@@ -139,7 +139,7 @@ Mediante la creación de un flujo de trabajo de entrega en Campaign Standard, es
 
 ## Realización y monitorización de su entrega {#send-and-monitor-your-delivery}
 
-Una vez que la entrega y el contenido estén listos, realice la entrega tal y como se describe más detalladamente en [esta sección](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html):
+Una vez que la entrega y el contenido estén listos, realice la entrega tal y como se describe más detalladamente en [esta sección](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html):
 
 1. Ejecute el flujo de trabajo de entrega. Este paso prepara la entrega del correo electrónico.
 1. En el panel de entrega, confirme manualmente que la entrega se puede realizar.
