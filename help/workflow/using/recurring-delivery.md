@@ -6,9 +6,9 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Un **envío recurrente** creará una nueva instancia de envío cada vez que se e
 
 En este vídeo se explica cómo configurar un envío recurrente y una actividad de planificador.
 
->[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
 
