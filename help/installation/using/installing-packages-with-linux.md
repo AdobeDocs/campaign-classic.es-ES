@@ -180,7 +180,7 @@ Las siguientes variables de entorno deben definirse correctamente.
 
 Determinadas combinaciones requieren cambios en el entorno utilizado para ejecutar Adobe Campaign. Se puede crear y editar un archivo específico (`/usr/local/neolane/nl6/customer.sh`) para agregar modificaciones específicas al entorno de Adobe Campaign.
 
-Si es necesario, edite el archivo **customer.sh** utilizando el comando **vi customer.sh** y adapte la configuración o agregue las líneas que faltan:
+Si es necesario, edite el archivo **customer.sh** mediante el comando **vi customer.sh** y adapte la configuración o agregue las líneas que faltan:
 
 * Para el cliente Oracle:
 
