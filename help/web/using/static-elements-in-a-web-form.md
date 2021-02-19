@@ -6,9 +6,9 @@ description: Elementos estáticos de un formulario web
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 43037b2b6b4e3b42f4b666d85a664b9fb117a015
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1266'
 ht-degree: 100%
 
