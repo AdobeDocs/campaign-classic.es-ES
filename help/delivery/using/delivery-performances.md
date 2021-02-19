@@ -6,9 +6,9 @@ description: Obtenga más información sobre el rendimiento de las entregas y la
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5b43412286762977c416665d296908a9bfc9b20a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 100%
 
