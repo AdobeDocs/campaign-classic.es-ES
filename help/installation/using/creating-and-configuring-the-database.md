@@ -63,7 +63,7 @@ Según el motor de base de datos seleccionado, la información de identificació
 
    >[!CAUTION]
    >
-   > A partir de la versión 20.3, la autenticación de Windows NT se cierra. **[!UICONTROL SQL Server authentication]** es ahora el único modo de autenticación disponible para Microsoft SQL Server. [Más información](../../rn/using/deprecated-features.md)
+   > A partir de la versión 20.3, la autenticación de Windows NT se cierra. **[!UICONTROL SQL Server authentication]** es ahora el único modo de autenticación disponible para Microsoft SQL Server. [Puede obtener más información](../../rn/using/deprecated-features.md)
 
    ![](assets/s_ncs_install_db_mssql_creation01.png)
 
