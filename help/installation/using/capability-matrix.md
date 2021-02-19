@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 38%
+ht-degree: 39%
 
 ---
 
@@ -27,23 +27,23 @@ Los diferentes modelos de alojamiento se introducen [en esta sección](../../ins
 
 | Capacidad | Alojado | Híbrido | In situ | Detalles |
 |-----------------------------------------------|------------------|-----------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Configuración del servidor de Campaña | Bajo demanda | Disponible | Disponible | [Más información](../../installation/using/the-server-configuration-file.md) |
-| Correo electrónico CCO | Bajo demanda | Bajo demanda | Disponible | [Más información](../../installation/using/email-archiving.md) |
-| Administrar la instancia de ejecución del centro de mensajes | Bajo demanda | Bajo demanda | Disponible | [Más información](../../message-center/using/about-transactional-messaging.md) |
-| Administración de la plataforma Intermediaria | Bajo demanda | Bajo demanda | Disponible | [Más información](../../installation/using/mid-sourcing-server.md) |
-| Procesamiento de bandeja de entrada mediante Litmus | Bajo demanda | Bajo demanda | Disponible | [Más información](../../delivery/using/inbox-rendering.md) |
-| Integración con IMS (Adobe ID) | Bajo demanda | Bajo demanda | Bajo demanda | [Más información](../../integrations/using/about-adobe-id.md) |
-| Cifrado y descifrado de datos para transferencias de archivos | Bajo demanda | Disponible | Disponible | [Más información](../../platform/using/unzip-decrypt.md) |
-| Impresión/descompresión de archivos | Bajo demanda | Disponible | Disponible | [Más información](../../platform/using/unzip-decrypt.md) |
-| Delegación de nombres de dominio | Bajo demanda | Bajo demanda | No disponible | [Más información](https://helpx.adobe.com/es/campaign/kb/domain-name-delegation.html) |
-| Instalación de SpamAssassin | Bajo demanda | Disponible | Disponible | [Más información](../../delivery/using/spamassassin.md) |
-| Acceso a los informes de entregabilidad | Disponible | Bajo demanda | Disponible | [Más información](../../delivery/using/monitoring-deliverability.md) |
-| Configuración de la autenticación LDAP | No disponible | Disponible | Disponible | [Más información](../../installation/using/connecting-through-ldap.md) |
+| Configuración del servidor de Campaña | Bajo demanda | Disponible | Disponible | [Obtenga más información](../../installation/using/the-server-configuration-file.md) |
+| Correo electrónico CCO | Bajo demanda | Bajo demanda | Disponible | [Obtenga más información](../../installation/using/email-archiving.md) |
+| Administrar la instancia de ejecución del centro de mensajes | Bajo demanda | Bajo demanda | Disponible | [Obtenga más información](../../message-center/using/about-transactional-messaging.md) |
+| Administración de la plataforma Intermediaria | Bajo demanda | Bajo demanda | Disponible | [Obtenga más información](../../installation/using/mid-sourcing-server.md) |
+| Procesamiento de bandeja de entrada mediante Litmus | Bajo demanda | Bajo demanda | Disponible | [Obtenga más información](../../delivery/using/inbox-rendering.md) |
+| Integración con IMS (Adobe ID) | Bajo demanda | Bajo demanda | Bajo demanda | [Obtenga más información](../../integrations/using/about-adobe-id.md) |
+| Cifrado y descifrado de datos para transferencias de archivos | Bajo demanda | Disponible | Disponible | [Obtenga más información](../../platform/using/unzip-decrypt.md) |
+| Impresión/descompresión de archivos | Bajo demanda | Disponible | Disponible | [Obtenga más información](../../platform/using/unzip-decrypt.md) |
+| Delegación de nombres de dominio | Bajo demanda | Bajo demanda | No disponible | [Obtenga más información](https://helpx.adobe.com/es/campaign/kb/domain-name-delegation.html) |
+| Instalación de SpamAssassin | Bajo demanda | Disponible | Disponible | [Obtenga más información](../../delivery/using/spamassassin.md) |
+| Acceso a los informes de entregabilidad | Disponible | Bajo demanda | Disponible | [Obtenga más información](../../delivery/using/monitoring-deliverability.md) |
+| Configuración de la autenticación LDAP | No disponible | Disponible | Disponible | [Obtenga más información](../../installation/using/connecting-through-ldap.md) |
 
 
 ## acceso de datos federado{#fda}
 
-Adobe Campaign proporciona la opción **Acceso de Datos Federados** (FDA) para procesar la información almacenada en una o más bases de datos externas: puede acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign. [Más información](../../installation/using/about-fda.md)
+Adobe Campaign proporciona la opción **Acceso de Datos Federados** (FDA) para procesar la información almacenada en una o más bases de datos externas: puede acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign. [Obtenga más información](../../installation/using/about-fda.md)
 
 >[!CAUTION]
 >
@@ -56,5 +56,5 @@ Adobe Campaign proporciona la opción **Acceso de Datos Federados** (FDA) para p
 * [Notas de la versión](../../rn/using/latest-release.md)
 * [Actualizaciones de Campaign Classic](../../rn/using/rn-overview.md)
 * [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md)
-* [Versiones de Gold Standard](../../rn/using/gold-standard.md)
+* [Versiones Gold Standard](../../rn/using/gold-standard.md)
 * [Programa Gold Standard](https://helpx.adobe.com/es/campaign/kb/gold-standard.html)
