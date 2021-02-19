@@ -65,7 +65,7 @@ Esta es una lista de los módulos afectados por problemas frecuentes:
   </tr> 
   <tr> 
    <td> trackinglogd </td> 
-   <td> Seguimiento de la escritura y depuración del registro del servidor<br /> </td> 
+   <td> Seguimiento del servidor de depuración y escritura del registro<br /> </td> 
    <td> Compruebe este módulo si los registros de seguimiento ya no se reenvían y no hay rastros de registros en los archivos del servidor. Consulte <a href="../../production/using/tracking-logs-issues.md" target="_blank">problemas de Registros de seguimiento</a>.<br /> </td> 
   </tr> 
   <tr> 
@@ -76,7 +76,7 @@ Esta es una lista de los módulos afectados por problemas frecuentes:
   <tr> 
    <td> web </td> 
    <td> Servidor de aplicaciones (HTTP y SOAP)<br /> </td> 
-   <td> Compruebe este módulo si la consola y las conexiones web no funcionan y active un error de tipo <strong>xtk:session</strong><br /> </td> 
+   <td> Compruebe este módulo si la consola y las conexiones web no funcionan y déclencheur un error de tipo <strong>xtk:session</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> wfserver </td> 
