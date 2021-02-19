@@ -36,7 +36,7 @@ Adobe Campaign le ofrece dos conjuntos de opciones de arquitectura preempaquetad
 Las siguientes aplicaciones pueden utilizar las opciones Power Booster y Power Cluster:
 
 * Campaña
-* Entrega
+* Envío
 * Centro de mensajes
 
 ## Matriz de recomendaciones arquitectónicas {#matrix-of-architectural-recommendations}
