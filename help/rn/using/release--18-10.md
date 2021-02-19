@@ -58,7 +58,7 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. Actualice [a la versión](../../production/using/build-upgrade.md) más reciente o póngase en contacto con el Servicio de atención al cliente de [Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Se ha retirado esta compilación. Actualice [a la versión más reciente](../../production/using/build-upgrade.md) o póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Mejoras**
 
@@ -82,7 +82,7 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. Actualice [a la versión](../../production/using/build-upgrade.md) más reciente o póngase en contacto con el Servicio de atención al cliente de [Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Se ha retirado esta compilación. Actualice [a la versión más reciente](../../production/using/build-upgrade.md) o póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Mejoras**
 
@@ -104,7 +104,7 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. Actualice [a la versión](../../production/using/build-upgrade.md) más reciente o póngase en contacto con el Servicio de atención al cliente de [Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Se ha retirado esta compilación. Actualice [a la versión más reciente](../../production/using/build-upgrade.md) o póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Novedades**
 
