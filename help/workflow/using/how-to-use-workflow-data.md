@@ -6,9 +6,9 @@ description: Descubra cómo utilizar los datos de flujo de trabajo
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1901db70fde2b7b3c2789154bd93160012cd4c29
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 100%
 
