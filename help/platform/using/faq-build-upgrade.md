@@ -6,9 +6,9 @@ description: Preguntas frecuentes relacionadas con las actualizaciones de las co
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2017'
 ht-degree: 100%
 
@@ -96,7 +96,7 @@ El proceso de actualización de la compilación requiere los siguientes recursos
 
 ## ¿Cómo puedo prepararme para la actualización de la compilación?
 
-En sus sistemas de desarrollo y ensayo, exporte cualquier trabajo que sea crítico y que deba preservarse. Para obtener más información, [vea este vídeo](https://helpx.adobe.com/es/campaign/classic/how-to/generate-packages-in-acv6.html).
+En sus sistemas de desarrollo y ensayo, exporte cualquier trabajo que sea crítico y que deba preservarse. Para obtener más información, [vea este vídeo](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).
 
 Actualice su conocimiento en cuanto a los flujos de trabajo y las entregas de ruta críticos desarrollados en los libros de ejecución (o por su equipo de consultoría o socio) mediante la revisión de la documentación proporcionada a su equipo al final de la implementación.
 
@@ -104,7 +104,7 @@ Identifique los tiempos de bajo volumen o bajo tráfico que sean ideales para la
 
 Revise nuestra [lista de comprobación de actualización de compilaciones ](#check-list) a continuación, así como sus planes de prueba, y asegúrese de que los recursos que pueden realizar estas pruebas estén disponibles entre 24 y 48 horas tras la finalización de una actualización.
 
-Para obtener más información, [consulte este documento](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html).
+Para obtener más información, [consulte este documento](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html).
 
 ## ¿Se pueden realizar actualizaciones de la compilación por la noche o durante las horas fuera de servicio?
 
@@ -208,5 +208,5 @@ que todo el contenido se muestra y está presente.
 
 * [Realización de una actualización de versión](../../production/using/build-upgrade.md)
 * [Notas de la versión de Campaign Classic ](../../rn/using/rn-overview.md)
-* [Opciones de ayuda y asistencia para Campaign Classic](https://helpx.adobe.com/es/campaign/kb/ac-support.html#acc-support-req)
-* [Programa Gold Standard](https://helpx.adobe.com/es/campaign/kb/gold-standard.html)
+* [Opciones de ayuda y asistencia para Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support-req)
+* [Programa Gold Standard](https://helpx.adobe.com/campaign/kb/gold-standard.html)
