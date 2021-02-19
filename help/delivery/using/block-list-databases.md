@@ -6,9 +6,9 @@ description: Bases de datos de la lista de bloqueados
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
 
@@ -43,13 +43,13 @@ A continuación se muestra una lista de los RBL más utilizados. Para obtener un
 
    Consulte [https://www.uribl.com/](https://www.uribl.com/)
 
-   Esta lista identifica los dominios que aparecen con regularidad en los mensajes declarados como correo no deseado. Si su dominio aparece en la lista, puede afectar en gran medida a sus envíos. Debe informar a los servicios de entrega y al [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) inmediatamente.
+   Esta lista identifica los dominios que aparecen con regularidad en los mensajes declarados como correo no deseado. Si su dominio aparece en la lista, puede afectar en gran medida a sus envíos. Debe informar a los servicios de entrega y al [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) inmediatamente.
 
 * **SURBL**
 
    Consulte [http://www.surbl.org/ ](http://www.surbl.org/)
 
-   SURBL identifica los sitios web que aparecen con regularidad en el correo no deseado. Si su dominio aparece en la lista, puede afectar en gran medida a sus envíos. Debe informar a los servicios de entrega y al [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) inmediatamente.
+   SURBL identifica los sitios web que aparecen con regularidad en el correo no deseado. Si su dominio aparece en la lista, puede afectar en gran medida a sus envíos. Debe informar a los servicios de entrega y al [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) inmediatamente.
 
 * **iX Manitu**
 
