@@ -6,9 +6,9 @@ description: Versión 19.1
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3127'
 ht-degree: 100%
 
@@ -228,7 +228,7 @@ _30 de mayo de 2019_
 
 **Mejoras de seguridad, solidez y escalabilidad**
 
-* Duración: Optimización de uso de secuencia XtkNewId (las tablas más utilizadas se han movido de la secuencia de xtkNewId a secuencias dedicadas). [Más información](https://helpx.adobe.com/es/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* Duración: Optimización de uso de secuencia XtkNewId (las tablas más utilizadas se han movido de la secuencia de xtkNewId a secuencias dedicadas). [Más información](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
 * FDA sobre HTTP v2: el protocolo FDA sobre HTTP se utiliza ampliamente en implementaciones híbridas, especialmente para la recuperación del registro general y la preparación de entregas. Se ha mejorado la solidez para evitar problemas de red y posibles errores al recuperar o extraer datos. Esto requiere que las compilaciones en ambos extremos de la conexión estén actualizadas; de lo contrario, se utilizará el protocolo antiguo.
 * Flujo de trabajo de seguimiento: se ha mejorado la solidez del flujo de trabajo de seguimiento. Se han solucionado varios problemas relacionados con inserciones/actualizaciones del registro de seguimiento y la personalización del seguimiento de direcciones URL. Además, el flujo de trabajo de seguimiento ahora detecta el seguimiento de los problemas de registro que podrían provocar errores y detener el flujo de trabajo. Estos problemas ahora se descartan y no se procesan.
 * Flujo de trabajo de limpieza: se ha mejorado el flujo de trabajo de limpieza para evitar posibles errores y detenciones. Esto optimiza el tamaño y el rendimiento de la base de datos.
