@@ -416,7 +416,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Syntax</strong><br /> </td> 
+   <td> <strong>Sintaxis</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull2</strong><br /> </td> 
@@ -563,7 +563,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Syntax</strong><br /> </td> 
+   <td> <strong>Sintaxis</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AddDays</strong><br /> </td> 
@@ -794,7 +794,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Syntax</strong><br /> </td> 
+   <td> <strong>Sintaxis</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Abs</strong><br /> </td> 
@@ -876,7 +876,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Syntax</strong><br /> </td> 
+   <td> <strong>Sintaxis</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ConvertCurrency</strong><br /> </td> 
@@ -898,7 +898,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Syntax</strong><br /> </td> 
+   <td> <strong>Sintaxis</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Distance</strong><br /> </td> 
@@ -915,7 +915,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Syntax</strong><br /> </td> 
+   <td> <strong>Sintaxis</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
@@ -1002,7 +1002,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Syntax</strong><br /> </td> 
+   <td> <strong>Sintaxis</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
