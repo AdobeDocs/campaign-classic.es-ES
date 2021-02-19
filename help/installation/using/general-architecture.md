@@ -25,7 +25,7 @@ La implementación típica de la solución Adobe Campaign consiste en los siguie
 
 * **Entorno de desarrollo**
 
-   Software del lado del servidor que ejecuta las campañas de marketing a través de canales de comunicación elegidos, incluyendo correos electrónicos, SMS, notificaciones push, correo directo, web o social, según las reglas y flujos de trabajo definidos en la interfaz de usuario.
+   Software del lado del servidor que ejecuta las campañas de marketing a través de canales de comunicación elegidos, incluidos correos electrónicos, SMS, notificaciones push, correo directo, web o social, en función de las reglas y flujos de trabajo definidos en la interfaz de usuario.
 
 * **Contenedores de base de datos**
 
