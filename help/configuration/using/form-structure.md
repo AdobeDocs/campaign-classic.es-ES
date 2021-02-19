@@ -136,7 +136,7 @@ Se agregó un texto de ayuda con la etiqueta `<static>` con el tipo de ayuda. El
 
 ## Contenedores {#containers}
 
-Los contenedores permiten agrupar un conjunto de controles. Están representados por el elemento **`<container>`**. Se utilizaron arriba para dar formato a los controles en varias columnas.
+Los contenedores permiten agrupar un conjunto de controles. Están representados por el elemento **`<container>`**. Se utilizaron anteriormente para dar formato a los controles en varias columnas.
 
 El atributo **xpath** de un `<container>` permite simplificar la referencia de los controles secundarios. La referencia de los controles es relativa al elemento principal `<container>`.
 
@@ -401,7 +401,7 @@ El atributo **xpathChoiceTarget** le permite iniciar un formulario de selección
 * **toolbarAlign**: modifica la geometría vertical u horizontal de la barra de herramientas (valores posibles: &quot;vertical&quot;|&quot;horizontal&quot;)
 * **img**: muestra la imagen asociada con la lista
 * **formulario**: sobrecarga el formulario de edición del elemento de destino
-* **zoom**: adds the  **[!UICONTROL Zoom]** button to edit the targeted element
+* **zoom**: agrega el  **[!UICONTROL Zoom]** botón para editar el elemento de destino
 * **xpathEditTarget**: establece la edición en el vínculo introducido
 * **xpathChoiceTarget**: además, inicia el formulario de selección en el vínculo introducido
 
@@ -606,7 +606,7 @@ La etiqueta **`<check expr="<condition>" />`** combinada con la etiqueta **`<err
 
 ## Asistentes {#wizards}
 
-Un asistente lo guía a través de un conjunto de pasos de entrada de datos en forma de páginas. Los datos introducidos se guardan al validar el formulario.
+Un asistente lo guiará a través de un conjunto de pasos de entrada de datos en forma de páginas. Los datos introducidos se guardan al validar el formulario.
 
 Un asistente tiene la siguiente estructura:
 
