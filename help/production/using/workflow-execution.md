@@ -97,7 +97,7 @@ Para comprobar esto e iniciar el módulo si es necesario, aplique los siguientes
    [...]
    ```
 
-   For more on how to monitor modules, refer to [this section](../../production/using/usual-commands.md#monitoring-commands-).
+   Para obtener más información sobre cómo supervisar los módulos, consulte [esta sección](../../production/using/usual-commands.md#monitoring-commands-).
 
 1. Si el módulo no se está ejecutando, póngase en contacto con el Servicio de atención al cliente de Adobe. Si tiene una instalación local, un administrador debe reiniciarla mediante el comando siguiente.
 
@@ -117,5 +117,5 @@ Para comprobar esto e iniciar el módulo si es necesario, aplique los siguientes
 Si se produce un error en un flujo de trabajo, realice los siguientes pasos:
 
 1. Compruebe el historial del flujo de trabajo. Para obtener más información sobre esto, consulte las secciones [Supervisión de la ejecución del flujo de trabajo](../../workflow/using/monitoring-workflow-execution.md) y [Visualización de registros](../../workflow/using/monitoring-workflow-execution.md#displaying-logs).
-1. Monitorear flujos de trabajo técnicos. For more on this refer to the [this section](../../workflow/using/monitoring-technical-workflows.md).
+1. Monitorear flujos de trabajo técnicos. Para obtener más información sobre esto, consulte la [sección](../../workflow/using/monitoring-technical-workflows.md).
 1. Busque errores en las actividades de flujo de trabajo individuales.
