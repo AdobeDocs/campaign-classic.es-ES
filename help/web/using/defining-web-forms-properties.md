@@ -6,9 +6,9 @@ description: Definición de las propiedades de los formularios web
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1205'
 ht-degree: 100%
 
