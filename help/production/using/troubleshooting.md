@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 0f2986f88f72c191262248029ec620fad538c218
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 13%
+ht-degree: 21%
 
 ---
 
@@ -22,7 +22,7 @@ Esta sección contiene procedimientos de resolución de problemas relacionados c
 ## Problemas comunes y generales {#common-and-general-issues}
 
 * Esta [página](../../production/using/modules-and-frequent-issues.md) presenta los problemas más frecuentes encontrados para los módulos enumerados.
-* Esta [página](../../production/using/workflow-execution.md) lista procedimientos comunes de solución de problemas que debe seguir cuando se enfrentan problemas con la ejecución del flujo de trabajo.
+* Esta [página](../../production/using/workflow-execution.md) lista los procedimientos comunes de solución de problemas que debe seguir cuando se enfrentan problemas con la ejecución del flujo de trabajo.
 * Esta [página](../../production/using/lost-password.md) detalla cómo cambiar o recuperar una contraseña perdida.
 * Esta [página](../../production/using/console-update.md) detalla cómo reactivar la solicitud de actualización de la consola si desactivó la opción correspondiente.
 
