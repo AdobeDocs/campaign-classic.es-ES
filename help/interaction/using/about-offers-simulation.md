@@ -6,9 +6,9 @@ description: Acerca de la simulación de ofertas
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 100%
 
