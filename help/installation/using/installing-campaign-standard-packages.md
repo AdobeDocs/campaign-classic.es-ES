@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Instalación de paquetes integrados Campaign Classic
+title: Instalación de paquetes integrados de Campaign Classic
 description: Obtenga información sobre cómo instalar los paquetes integrados de Campaña
 audience: installation
 content-type: reference
@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 44f2aed49a12d51bb3b38f304e6b922f0faf68cc
 workflow-type: tm+mt
 source-wordcount: '1173'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
 
-# Instalación de paquetes integrados Campaign Classic{#installing-campaign-standard-packages}
+# Instalación de paquetes integrados de Campaign Classic{#installing-campaign-standard-packages}
 
 ## Acerca de los paquetes integrados {#campaign-standard-packages}
 
@@ -60,21 +60,21 @@ La siguiente tabla lista todos los paquetes integrados de Campaña.
  <tbody> 
   <tr> 
    <td> Entrega<br /> </td> 
-   <td> Supervisa los envíos y los problemas que se detectan al enviar mensajes. <a href="../../delivery/using/about-delivery-monitoring.md">Más información</a><br /> </td> 
+   <td> Supervisa los envíos y los problemas que se detectan al enviar mensajes. <a href="../../delivery/using/about-delivery-monitoring.md">Obtenga más información</a><br /> </td> 
    <td> Todo</td> 
   </tr> 
   <tr> 
-   <td> Campañas de marketing (Campaña)<br /> </td> 
+   <td> Campañas de marketing (Campaign)<br /> </td> 
    <td> Define, optimiza, ejecuta y analiza las comunicaciones y las campañas de marketing. <a href="../../campaign/using/designing-marketing-campaigns.md">Más información</a><br /> </td> 
    <td> Mercadotecnia</td>
   </tr> 
   <tr> 
-   <td> Recursos de marketing (MRM)<br /> </td> 
+   <td> Recursos de Marketing (MRM)<br /> </td> 
    <td> Controla las acciones de mercadotecnia en modo colaborativo proporcionando administración y seguimiento de las tareas, presupuestos y recursos de marketing. <a href="../../campaign/using/about-marketing-resource-management.md">Más información</a> <br /> </td> 
    <td> Mercadotecnia</td> 
   </tr> 
   <tr> 
-   <td> Motor de oferta (interacción)<br /> </td> 
+   <td> Motor de ofertas (interacción)<br /> </td> 
    <td> Responde en tiempo real durante una interacción con un determinado contacto (cliente o destinatario) al convertirlos en una o varias ofertas adaptadas.  Opcional. <a href="../../interaction/using/interaction-and-offer-management.md#packages-configuration">Más información</a> <br /> </td> 
    <td> Todo<br /> </td> 
   </tr> 
@@ -95,12 +95,12 @@ La siguiente tabla lista todos los paquetes integrados de Campaña.
    <td> Optional, <a href="https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html">Learn More</a> </td> 
   </tr--> 
   <tr> 
-   <td> Redes sociales (Social Marketing) <br /> </td> 
+   <td> Redes sociales (Marketing social) <br /> </td> 
    <td> Sincroniza Adobe Campaign con Twitter y Facebook. <a href="../../social/using/about-social-marketing.md">Más información</a> <br /> </td> 
    <td> Todo</td> 
   </tr> 
   <tr> 
-   <td> Control de mensaje transaccional (Centro de mensajes - Control)<br /> </td> 
+   <td> Control de mensajes transaccionales (Centro de mensajes - Control)<br /> </td> 
    <td> Gestiona los mensajes de déclencheur generados a partir de eventos activados desde sistemas de información. Opcional. <a href="../../message-center/using/about-transactional-messaging.md">Más información</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
@@ -180,7 +180,7 @@ La siguiente tabla lista todos los paquetes integrados de Campaña.
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
-   <td> Marketing central/local (Distributed Marketing (Marketing distribuido))<br /> </td> 
+   <td> Marketing central/local (Marketing distribuido)<br /> </td> 
    <td> Implementa campañas de cooperación entre entidades centrales (sede, departamentos de mercadotecnia, etc.) y entidades locales (puntos de venta, agencias regionales, etc.). Opcional. <a href="../../campaign/using/about-distributed-marketing.md">Más información</a><br /> </td> 
    <td> Mercadotecnia </td> 
   </tr> 
@@ -190,7 +190,7 @@ La siguiente tabla lista todos los paquetes integrados de Campaña.
    <td> Mercadotecnia</td> 
   </tr> 
   <tr> 
-   <td> Conectores de Web Analytics<br /> </td> 
+   <td> Conectores de análisis web<br /> </td> 
    <td> Permite que Adobe Campaign y Adobe Analytics interactúen a través del paquete de conectores de Web Analytics. No es compatible con la mensajería transaccional (paquete de centro de mensajes). <a href="../../platform/using/adobe-analytics-data-connector.md">Más información</a><br /> </td> 
    <td> Mercadotecnia </td> 
   </tr> 
