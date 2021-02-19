@@ -84,7 +84,7 @@ Indique los siguientes parámetros:
 * **[!UICONTROL Reply address]** :: La dirección de correo electrónico que se utilizará cuando el destinatario haga clic en el  **[!UICONTROL Reply]** botón del software cliente de correo electrónico,
 * **[!UICONTROL Error address]** :: Dirección de correo electrónico de los mensajes con errores. Esta es la dirección técnica que se utiliza para gestionar el correo de devolución, incluidos los correos electrónicos recibidos por el servidor de Adobe Campaign debido a que no existen direcciones de destinatario.
 
-Además de esto, puede especificar las **máscaras** autorizadas para la dirección del remitente y la dirección de error. Si es necesario, estas máscaras se pueden separar mediante comas. Esta configuración es opcional. Cuando se introducen campos, Adobe Campaign comprueba en el momento del envío (durante la análisis, si la dirección no incluye variables) que las direcciones son válidas. Este modo operativo garantiza que no se utilice ninguna dirección que pueda desencadenar problemas de envío. Las direcciones de envío deben configurarse en el servidor de envío.
+Además de esto, puede especificar las **máscaras** autorizadas para la dirección del remitente y la dirección de error. Si es necesario, estas máscaras se pueden separar mediante comas. Esta configuración es opcional. Cuando se introducen campos, Adobe Campaign comprueba en el momento del envío (durante la análisis, si la dirección no incluye variables) que las direcciones son válidas. Este modo operativo garantiza que no se utilicen direcciones que puedan dar déclencheur a problemas de envío. Las direcciones de envío deben configurarse en el servidor de envío.
 
 ### Caracteres autorizados en direcciones {#characters-authorized-in-addresses}
 
@@ -96,7 +96,7 @@ Aquí puede definir los caracteres autorizados (&#39;política de datos&#39;) en
 
 Hay dos listas disponibles: **Solo europeo** o **sólo EE.UU.**. Si es necesario, se pueden añadir otros caracteres.
 
-### Parámetros de entrega {#delivery-parameters}
+### Parámetros de envío {#delivery-parameters}
 
 Parámetros **avanzados...** le permite acceder a opciones de envío, parámetros vinculados a reintentos y cuarentenas.
 
