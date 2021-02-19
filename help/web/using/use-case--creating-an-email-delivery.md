@@ -6,9 +6,9 @@ description: Ejemplo de uso de una creación de un envío por correo electrónic
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 46aa896929c960abeb501642a5ffbbb56de4802e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 100%
 
