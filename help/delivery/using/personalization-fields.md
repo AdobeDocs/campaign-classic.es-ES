@@ -6,9 +6,9 @@ description: Campos personalizados
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 100%
 
@@ -122,6 +122,6 @@ Si establece esta opción en 0, no va a haber límite de tiempo para la fase de 
 
 Obtenga información sobre cómo agregar un campo de personalización a la línea de asunto y el contenido de un envío de correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
