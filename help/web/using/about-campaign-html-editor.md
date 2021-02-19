@@ -6,9 +6,9 @@ description: Introducción al DCE de Campaign
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f6099fa9c8d1df7bc82dd9be0b575ca7f20b6645
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
 
