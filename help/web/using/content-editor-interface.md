@@ -6,9 +6,9 @@ description: Interfaz del editor de contenido
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c93931820887306c0ef64ef05d4f0ba2ca5a98aa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 100%
 
