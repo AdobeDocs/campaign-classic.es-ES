@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
 workflow-type: tm+mt
 source-wordcount: '2368'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -414,5 +414,5 @@ Estos son los pasos para realizar una combinación compleja:
 
 * [Preguntas frecuentes sobre la actualización de versiones](../../platform/using/faq-build-upgrade.md)
 * [Notas de la versión de Campaign Classic ](../../rn/using/rn-overview.md)
-* [Opciones de ayuda y asistencia técnica para Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support-req)
-* [Programa estándar Gold](https://helpx.adobe.com/es/campaign/kb/gold-standard.html)
+* [Opciones de ayuda y asistencia para Campaign Classic](https://helpx.adobe.com/es/campaign/kb/ac-support.html#acc-support-req)
+* [Programa Gold Standard](https://helpx.adobe.com/es/campaign/kb/gold-standard.html)
