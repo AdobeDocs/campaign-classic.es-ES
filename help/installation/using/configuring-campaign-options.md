@@ -643,7 +643,7 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
-   <td> Permite configurar una base de datos independiente para tablas de trabajo en Microsoft SQL Server, con el fin de optimizar las copias de seguridad y la replicación. La opción corresponde al nombre de la base de datos temporal: Las tablas de trabajo se escribirán en esta base de datos si se especifican. Ejemplo: 'tempdb.dbo'. (tenga en cuenta que el nombre debe terminar con un punto). <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">Más información</a> <br /> </td> 
+   <td> Permite configurar una base de datos independiente para tablas de trabajo en Microsoft SQL Server, con el fin de optimizar las copias de seguridad y la replicación. La opción corresponde al nombre de la base de datos temporal: Las tablas de trabajo se escribirán en esta base de datos si se especifican. Ejemplo: 'tempdb.dbo'. (tenga en cuenta que el nombre debe terminar con un punto). <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">Puede obtener más información</a> <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 
@@ -716,7 +716,7 @@ Algunos de ellos están integrados al instalar Campaña y otros se pueden agrega
   </tr> 
   <tr> 
    <td> <span class="uicontrol">nmsPipeline_config</span> <br /> </td> 
-   <td> Permite configurar activadores de Experience Cloud. El tipo de datos es "texto largo" y debe tener el formato JSON. Consulte <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Cómo usar activadores de Experience Cloud con Adobe Campaign Classic</a>.<br /> </td> 
+   <td> Permite configurar Déclencheur de Experience Cloud. El tipo de datos es "texto largo" y debe tener el formato JSON. Consulte <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Cómo usar Déclencheur de Experience Cloud con Adobe Campaign Classic</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</span> <br /> </td> 
