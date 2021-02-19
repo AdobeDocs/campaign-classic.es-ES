@@ -26,4 +26,4 @@ Una vez que la secuencia de comandos se ha creado para seleccionar el ganador de
 
    ![](assets/ab_test_final_delivery.png)
 
-Al preparar la entrega especificada en la transición (definida a través de la actividad **[!UICONTROL Javascript Code]**),  ), se puede aprobar dicha actividad y comenzar la entrega, tal y como se describe en el paso siguiente.
+Al preparar la entrega especificada en la transición (definida a través de la actividad **[!UICONTROL Javascript Code]**), se puede aprobar dicha actividad y comenzar la entrega, tal y como se describe en el paso siguiente.
