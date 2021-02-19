@@ -5,9 +5,9 @@ title: Definición de la audiencia correcta
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: fe7ff64d24113e026a47aa1c9f08daacce2b383e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
 
