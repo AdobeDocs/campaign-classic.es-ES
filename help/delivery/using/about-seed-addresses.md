@@ -6,9 +6,9 @@ description: Sobre las direcciones semilla
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 100%
 
@@ -47,6 +47,7 @@ En las entregas por correo postal, las direcciones semilla se añaden durante la
 >
 >* No se debe utilizar la opción **[!UICONTROL Handle groupings (GROUP BY+HAVING)]**.
 >* Si se extraen colecciones de datos, estos campos deben tener un valor vacío para las direcciones semilla, a menos que se seleccione la opción **[!UICONTROL Single row (expert user)]**. Para obtener más información, consulte [esta sección](../../platform/using/executing-export-jobs.md#step-7---data-formatting).
+
 >
 
 
