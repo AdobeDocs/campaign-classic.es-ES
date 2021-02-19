@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '805'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -126,7 +126,7 @@ Puede eliminar una o varias listas de la lista de grupos del árbol de Adobe Cam
 >
 >Cuando se elimina una lista, los perfiles de la lista no se ven afectados; no obstante, los datos del perfil se actualizan.
 
-## Tutorial video {#create-list-video}
+## Vídeo tutorial {#create-list-video}
 
 ### Cómo crear una lista de destinatarios
 
@@ -142,4 +142,4 @@ Aprenda cómo crear un flujo de trabajo con el fin de apuntar los destinatarios 
 
 >[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
 
-Encontrará más vídeos explicativos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+Puede encontrar disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
