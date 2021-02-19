@@ -6,9 +6,9 @@ description: Creación de una conexión compartida
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5bc6c8a824929c6a61cf562fc961e5bdd1867837
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 100%
 
@@ -21,6 +21,7 @@ ht-degree: 100%
 >
 >* Las extensiones de esquema realizadas en los esquemas utilizados por [flujos de trabajo técnicos del centro de mensajes](../../message-center/using/technical-workflows.md) en cualquiera de las instancias de control o de ejecución deben duplicarse en las demás instancias que utiliza el módulo de mensajería transaccional de Adobe Campaign.
 >* La instancia de control y las instancias de ejecución deben estar instaladas en diferentes equipos. No pueden compartir la misma instancia de Campaign.
+
 >
 
 
