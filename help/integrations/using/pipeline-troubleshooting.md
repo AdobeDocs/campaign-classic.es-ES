@@ -6,9 +6,9 @@ description: Configuración de la integración
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 100%
 
