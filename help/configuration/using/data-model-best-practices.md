@@ -148,7 +148,7 @@ Por lo tanto, un cliente que envía 6.000 millones de correos electrónicos anua
 
 Cuando se crea una tabla personalizada en Adobe Campaign con una clave principal como autoPK, se debe asociar sistemáticamente una secuencia dedicada personalizada con esa tabla.
 
-De forma predeterminada, una secuencia personalizada tendrá valores que oscilarán entre +1000 y +2,1BB. Técnicamente, es posible obtener una gama completa de 4BB habilitando identificadores negativos. Debe utilizarse con cuidado y se perderá una identificación al pasar de números negativos a positivos: adobe campaign classic suele ignorar el registro 0 en las consultas SQL generadas.
+De forma predeterminada, una secuencia personalizada tendrá valores que oscilarán entre +1000 y +2,1BB. Técnicamente, es posible obtener una gama completa de 4BB habilitando identificadores negativos. Debe utilizarse con cuidado y se perderá una identificación al pasar de números negativos a positivos: Adobe Campaign Classic suele ignorar el registro 0 en las consultas SQL generadas.
 
 **Temas relacionados:**
 * Para obtener más información sobre la función **Generación automática de secuencia**, consulte [este documento](https://helpx.adobe.com/es/campaign/kb/sequence_auto_generation.html).
