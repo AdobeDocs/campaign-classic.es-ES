@@ -6,9 +6,9 @@ description: Descubra cómo administrar las solicitudes de privacidad
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2444'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Adobe Campaign ofrece a los controladores de datos dos posibilidades para realiz
 
 ### Requisitos previos {#prerequesites}
 
-Adobe Campaign ofrece las herramientas de los controladores de datos para crear y procesar solicitudes de privacidad de datos almacenados en Adobe Campaign. Sin embargo, es responsabilidad del controlador de datos administrar la relación con el sujeto de datos (correo electrónico, atención al cliente o un portal web).
+Adobe Campaign oferta las herramientas de los controladores de datos para crear y procesar solicitudes de privacidad de datos almacenados en Adobe Campaign. Sin embargo, es responsabilidad del controlador de datos administrar la relación con el sujeto de datos (correo electrónico, atención al cliente o un portal web).
 
 Por ello, es responsabilidad del controlador de datos confirmar la identidad del sujeto de datos que realiza la solicitud y confirmar que la información devuelta al solicitante sea sobre el sujeto de datos.
 
@@ -133,8 +133,8 @@ Si ha creado tablas personalizadas que tienen un vínculo a la tabla de destinat
 
 Estos son los distintos estados de las solicitudes de privacidad:
 
-* **[!UICONTROL New]** / **[!UICONTROL Retry pending]**: en curso; el flujo de trabajo aún no ha procesado la solicitud.
-* **[!UICONTROL Processing]** / **[!UICONTROL Retry in progress]**: el flujo de trabajo está procesando la solicitud.
+* **[!UICONTROL New]** / **[!UICONTROL Retry pending]**: en curso, el flujo de trabajo aún no ha procesado la solicitud.
+* **[!UICONTROL Processing]**/**[!UICONTROL Retry in progress]**: el flujo de trabajo está procesando la solicitud.
 * **[!UICONTROL Delete pending]**: el flujo de trabajo ha identificado todos los datos de destinatario que se van a eliminar.
 * **[!UICONTROL Delete in progress]**: el flujo de trabajo está procesando la eliminación.
 * **[!UICONTROL Delete Confirmation Pending]**(Modo de procesamiento de solicitud de eliminación en 2 pasos): el flujo de trabajo ha procesado la solicitud de acceso. Se solicita confirmación manual para realizar la eliminación. El botón está disponible durante 15 días.
@@ -380,9 +380,9 @@ Aquí se muestra un ejemplo de cómo puede invocar la API desde un JS dentro de 
 
 ## Exclusión para la venta de información personal (CCPA) {#sale-of-personal-information-ccpa}
 
-La **CCPA (Ley de privacidad del consumidor de California)** proporciona a los residentes de California nuevos derechos respecto a su información personal e impone responsabilidades de protección de datos para las entidades que operen en California.
+La **CCPA** (Ley de Privacidad del Consumidor de California) proporciona a los residentes de California nuevos derechos respecto a su información personal e impone responsabilidades de protección de datos para las entidades que operen en California.
 
-La configuración y el uso de las solicitudes de Acceso y Eliminación son comunes para el RGPD y la CCPA. Esta sección presenta la exclusión de la venta de datos personales, que es específica de la CCPA.
+La configuración y el uso de las solicitudes de Acceso y Eliminación son comunes para el RGPD, la y la CCPA. Esta sección presenta la exclusión de la venta de datos personales, que es específica de la CCPA.
 
 Además de las herramientas de [administración de consentimientos](../../platform/using/privacy-management.md#consent-management) proporcionadas por Adobe Campaign, puede realizar un seguimiento si el consumidor se ha excluido de la venta de Información personal.
 
@@ -430,7 +430,7 @@ Para más información sobre cómo crear un campo nuevo, consulte la [documentac
 
 ### Uso {#usage}
 
-Rellenar el valor del campo y seguir las reglas y directrices de la CCPA relacionadas con la venta de datos es responsabilidad del controlador de datos.
+Rellenar el valor del campo y seguir las reglas y directrices de la CCPA relacionadas con la venta de datos es responsabilidad del cliente.
 
 Para rellenar estos valores, se pueden usar varios métodos:
 
