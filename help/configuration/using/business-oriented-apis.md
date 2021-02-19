@@ -207,7 +207,7 @@ Esta llamada no devuelve datos, excepto errores.
 
 ### Ejemplo de documento XML {#xml-document-example}
 
-Este ejemplo se basa en una Plantilla de envíos personalizada de un origen de datos externo (un archivo en este caso). La configuración se describe completamente en la Plantilla de envíos, de modo que todo lo que queda por enviar cuando se produce la llamada es el contenido del archivo del elemento `<externalsource>`.
+Este ejemplo se basa en una Plantilla de envíos personalizada de un origen de datos externo (un archivo en este caso). La configuración se describe completamente en la Plantilla de envíos, de modo que todo lo que queda por enviar cuando se produce la llamada es el contenido del archivo desde el elemento `<externalsource>`.
 
 ```
 <delivery>
