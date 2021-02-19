@@ -323,7 +323,7 @@ Esta tarea purga cada instancia de flujo de trabajo utilizando su identificador 
 
 >[!NOTE]
 >
->La frecuencia de purga del historial se especifica para cada flujo de trabajo en el campo **Historial en días** (valor predeterminado 30 días). Este campo se encuentra en la ficha **Ejecución** de las propiedades del flujo de trabajo. Para obtener más información, consulte [esta sección](../../workflow/using/workflow-properties.md#execution).
+>La frecuencia de purga del historial se especifica para cada flujo de trabajo en el campo **Historial en días** (valor predeterminado: 30 días). Este campo se encuentra en la ficha **Ejecución** de las propiedades del flujo de trabajo. Para obtener más información, consulte [esta sección](../../workflow/using/workflow-properties.md#execution).
 
 1. Para recuperar la lista de flujos de trabajo que deben eliminarse, se utiliza la siguiente consulta:
 
