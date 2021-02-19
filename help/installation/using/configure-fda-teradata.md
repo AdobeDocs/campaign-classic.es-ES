@@ -95,7 +95,7 @@ La cuenta externa Teradata permite conectar la instancia de Campaign a la base d
 
    * **[!UICONTROL Options]**: Opciones que pasan por Teradata. Utilice el siguiente formato: &#39;parameter=value&#39;. Utilice una semicolumna como separador entre valores.
 
-   * **[!UICONTROL Timezone]**: Zona horaria definida en Teradata. [Más información](#timezone)
+   * **[!UICONTROL Timezone]**: Zona horaria definida en Teradata. [Obtenga más información](#timezone)
 
 ### Banda de consultas
 
