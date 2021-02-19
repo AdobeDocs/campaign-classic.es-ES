@@ -43,12 +43,12 @@ Además de la documentación del producto, puede acceder a los recursos de autoa
 
 ### Videotutoriales
 
-Descubra las principales funciones de Adobe Campaign en vídeo. [Más información](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/overview.html)
+Descubra las principales funciones de Adobe Campaign en vídeo. [Obtenga más información](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/overview.html)
 
 ### Sesiones de formación y vídeos
 
-Además de estos breves y detallados vídeos, puede encontrar cursos [de](https://learning.adobe.com/catalog.html) formación y ver vídeos [de](https://www.adobe.com/training/video.html) presentación de funciones en Adobe.com.
+Además de estos breves y detallados vídeos, puede encontrar [cursos de capacitación](https://learning.adobe.com/catalog.html) y ver los [vídeos de presentación](https://www.adobe.com/training/video.html) en Adobe.com.
 
 ### Cursos de Experience League
 
-También puede visitar los cursos [recomendados](https://experienceleague.adobe.com/?lang=en#dashboard/learning) para Adobe Campaign Classic: los cursos son colecciones de lecciones cuidadosamente depuradas que le ayudan a adquirir habilidades y conocimientos rápidamente.
+También puede visitar los [cursos recomendados](https://experienceleague.adobe.com/?lang=en#dashboard/learning) para Adobe Campaign Classic: los cursos son colecciones de lecciones cuidadosamente depuradas que le ayudan a adquirir habilidades y conocimientos rápidamente.
