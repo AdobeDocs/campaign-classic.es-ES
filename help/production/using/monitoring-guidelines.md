@@ -90,7 +90,7 @@ Las siguientes directrices y prácticas recomendadas al usar flujos de trabajo p
 
 **Informes SMTP**
 
-Los informes SMTP muestran estadísticas de envío y errores SMTP por dominio. [Más información](../../production/using/monitoring-processes.md)
+Los informes SMTP muestran estadísticas de envío y errores SMTP por dominio. [Obtenga más información](../../production/using/monitoring-processes.md)
 
 **Prácticas recomendadas**
 
