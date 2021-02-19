@@ -250,6 +250,6 @@ La integración entre Adobe Campaign y Adobe Experience Manager requiere abrir v
 Otro parámetro clave de la configuración de red que se debe tener en cuenta. Es casi siempre saliente y muy demandado durante las retransmisiones de correo electrónico. Estos son algunos ejemplos de configuraciones basadas en nuestra experiencia:
 
 * 1 Mb/s por 10.000 correos electrónicos por hora (tamaño medio de 30 Kb)
-* 8 a 10 Mb/s por 100.000 correos electrónicos por hora (tamaño medio de 30 Kb)
+* De 8 a 10 Mb/s por 100.000 correos electrónicos por hora (tamaño medio de 30 Kb)
 
 Si tiene restricciones en términos de ancho de banda, es posible programar campañas para que se ejecuten durante la noche cuando la demanda sea menor.
