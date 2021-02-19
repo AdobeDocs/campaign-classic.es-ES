@@ -6,9 +6,9 @@ description: Obtenga información sobre cómo crear trabajos de importación y e
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 37cc6cd8b71ec82cd4e6a910d6664a51ed5c091e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 100%
 
