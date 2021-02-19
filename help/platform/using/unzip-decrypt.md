@@ -6,9 +6,9 @@ description: Obtenga información sobre cómo descomprimir o descifrar un archiv
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ En este caso de uso, crearemos un flujo de trabajo para importar datos cifrados 
 
 Los pasos para realizar este caso de uso son los siguientes:
 
-1. Utilice el Panel de control de Campaign para generar un par de claves (pública/privada). Encontrará los pasos detallados en la documentación [del](https://docs.adobe.com/content/help/es-ES/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) Panel de control de Campaign.
+1. Utilice el Panel de control de Campaign para generar un par de claves (pública/privada). Encontrará los pasos detallados en la documentación [del](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) Panel de control de Campaign.
 
    * La clave pública se comparte con el sistema externo, que la utiliza para cifrar los datos que se enviarán a Campaign.
    * Campaign Classic utiliza la clave privada para descifrar los datos cifrados entrantes.
