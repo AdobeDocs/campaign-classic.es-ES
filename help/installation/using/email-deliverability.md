@@ -27,7 +27,7 @@ En la siguiente sección se proporciona una descripción general de la configura
 
 Para obtener más información sobre los conceptos y las prácticas recomendadas relacionados con la entregabilidad, consulte esta [sección](../../delivery/using/about-deliverability.md).
 
-En esta [sección](../../delivery/using/technical-recommendations.md) están disponibles todas las recomendaciones técnicas relativas al envío y recepción eficientes de correos electrónicos por parte de una plataforma de Adobe Campaign.
+Todas las recomendaciones técnicas relativas al envío y recepción eficientes de correos electrónicos por una plataforma de Adobe Campaign están disponibles en esta [sección](../../delivery/using/technical-recommendations.md).
 
 ## Principio de funcionamiento {#operating-principle}
 
@@ -396,7 +396,7 @@ Si, por ejemplo, la primera dirección no se puede utilizar para un MX determina
     * &quot;2&quot;: 5 / (5+1) = 83%
     * &quot;3&quot;: 1 / (5+1) = 17%
 
-* **includeDomains**: permite reservar esta dirección IP para los correos electrónicos que pertenecen a un dominio específico. Es una lista de máscaras que puede contener uno o más comodines (&#39;*&#39;). Si no se especifica el atributo, todos los dominios pueden utilizar esta dirección IP.
+* **includeDomains**: le permite reservar esta dirección IP para correos electrónicos que pertenecen a un dominio específico. Es una lista de máscaras que puede contener uno o más comodines (&#39;*&#39;). Si no se especifica el atributo, todos los dominios pueden utilizar esta dirección IP.
 
    Ejemplo: **includeDomains=&quot;wanadoo.com,naranja.com,yahoo*&quot;**
 
