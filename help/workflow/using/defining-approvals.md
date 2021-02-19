@@ -6,9 +6,9 @@ description: Las aprobaciones permiten a los operadores tomar las decisiones que
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ae342f41b9b74159607b313e1c29549b17488db5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 100%
 
