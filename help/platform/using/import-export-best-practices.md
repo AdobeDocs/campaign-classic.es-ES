@@ -6,9 +6,9 @@ description: Obtenga más información acerca las prácticas recomendadas que se
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a2a99135bdd74d87c04262b53e074b6aa05e7915
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 100%
 
