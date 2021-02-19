@@ -6,9 +6,9 @@ description: Descubra los principales pasos de creación de envíos en Adobe Cam
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 100%
 
