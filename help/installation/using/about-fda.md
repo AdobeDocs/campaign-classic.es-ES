@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 40%
+ht-degree: 41%
 
 ---
 
@@ -25,7 +25,7 @@ La opción FDA le permite ampliar el modelo de datos en una base de datos de ter
 
 Para utilizar esta capacidad, los requisitos previos se enumeran a continuación:
 
-* **Configuración**: excepto para el Snowflake, necesita un modelo  **de alojamiento** local o  **** híbrido para configurar el Acceso de datos federado. [Más información](../../installation/using/hosting-models.md)
+* **Configuración**: excepto para el Snowflake, necesita un modelo  **de alojamiento** local o  **** híbrido para configurar el Acceso de datos federado. [Obtenga más información](../../installation/using/hosting-models.md)
 * **Versión** de base de datos externa: necesita tener una base de datos externa que sea compatible con el módulo de Adobe Campaign FDA. La lista de los sistemas de bases de datos y las versiones compatibles se detalla en la Campaña [Tabla de compatibilidad](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA).
 * **Permisos**: los usuarios también deben tener los  [permisos ](../../installation/using/remote-database-access-rights.md) necesarios en Adobe Campaign y en la base de datos externa.
 
