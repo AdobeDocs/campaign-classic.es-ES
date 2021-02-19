@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: a469d275fdd768fbd098a0027b5096872dbf6d89
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 15%
+ht-degree: 27%
 
 ---
 
@@ -28,14 +28,14 @@ Lista de referencia:
 * [Condición](schema/condition.md)
 * [Índice de base de datos](schema/db-index.md)
 * [Elemento](schema/element.md)
-* [Lista desglosada](schema/enumeration.md)
+* [Enumeración](schema/enumeration.md)
 * Ayuda de [](schema/help.md)
 * [Unirse](schema/join.md)
 * [Clave](schema/key.md)
 * [Campo clave](schema/keyfield.md)
 * [Método](schema/method.md)
 * [Métodos](schema/methods.md)
-* [Param](schema/param.md)
+* [Parám.](schema/param.md)
 * [Parámetros](schema/parameters.md)
 * [SrcSchema](schema/srcschema.md)
 * [Sysfilter](schema/sysfilter.md)
