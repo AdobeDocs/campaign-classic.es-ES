@@ -6,9 +6,9 @@ description: Descubra más información sobre cómo utilizar la actividad de apr
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1272'
 ht-degree: 100%
 
