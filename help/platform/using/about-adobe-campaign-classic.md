@@ -9,8 +9,8 @@ topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
 source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '911'
+ht-degree: 97%
 
 ---
 
@@ -87,10 +87,10 @@ Estas son las funcionalidades disponibles. Según el acuerdo de licencia, alguna
 * [Servicios web](../../configuration/using/about-web-services.md): Utilice Campaign a través de API y Web Services.
 * [Informes](../../reporting/using/about-adobe-campaign-reporting-tools.md): acceda a informes integrados, analice la información y diseñe sus propios informes.
 
-## Videotutorial {#video}
+## Vídeo tutorial {#video}
 
 Este vídeo presenta las funciones y funciones principales del Campaign Classic.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
 
-Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
+Puede encontrar disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
