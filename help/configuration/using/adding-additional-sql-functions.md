@@ -99,7 +99,7 @@ Finalmente, un elemento `<group>` puede contener la definición de una o varias 
 
 El caso presentado aquí es un caso general en el que deseamos proporcionar la **implementación de funciones**.
 
-A continuación se muestra un ejemplo de la función de &quot;madurez relativa&quot; que, utilizando una edad, indica cuántos años se ha considerado madura a la persona.
+A continuación se muestra un ejemplo de una función de &quot;madurez relativa&quot; que, utilizando una edad, indica cuántos años se ha considerado madura a la persona.
 
 ```
  <function name="relativeMaturity" type="long" args="(<Âge>)" help="Returns the difference between a date and 18 years"
