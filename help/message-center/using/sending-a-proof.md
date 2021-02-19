@@ -6,9 +6,9 @@ description: Envío de una prueba
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 100%
 
