@@ -70,7 +70,7 @@ La presentación de esquema está disponible en [Acerca de la referencia de esqu
 
 * **modifiedBy-id (long)**: coincide con el identificador del operador que cambió el esquema.
 * **name (string)**: nombre de esquema único.
-* **área de nombres (cadena)**: área de nombres del esquema (predeterminado: nms, xtk, nl). Al crear un nuevo esquema para un proyecto, le recomendamos que utilice una Área de nombres dedicada.
+* **Área de nombres (cadena)**: Área de nombres del esquema (predeterminado: nms, xtk, nl). Al crear un nuevo esquema para un proyecto, le recomendamos que utilice una Área de nombres dedicada.
 * **useRecycleBin (boolean)**: activa la función de papelera en la aplicación. Los registros eliminados se colocarán en la papelera antes de la eliminación final. Esta función solo está disponible en modo &quot;Envío&quot;.
 * **vista (booleana)**: si se activa (@vista=&quot;true&quot;), el esquema se utilizará como vista. El asistente para la actualización de la estructura de la base de datos no tendrá en cuenta el esquema. Esta opción se utiliza principalmente para hacer referencia a tablas externas.
 * **xtkschema (string)**: nombre del esquema que define la gramática del esquema (xtk:srcSchema de forma predeterminada).
