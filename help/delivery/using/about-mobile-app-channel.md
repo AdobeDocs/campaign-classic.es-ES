@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 translation-type: tm+mt
-source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+source-git-commit: 22f44f5723ab35e95caa438583fe06314c763ba1
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 100%
+source-wordcount: '674'
+ht-degree: 93%
 
 ---
 
@@ -56,7 +56,7 @@ Puede definir el comportamiento de la aplicación para las situaciones en las qu
 
 El flujo de trabajo de **[!UICONTROL NMAC opt-out management]** (mobileAppOptOutMgt) actualiza la notificación de las bajas de suscripción en dispositivos móviles. Para obtener más información sobre este flujo de trabajo, consulte la [lista de flujos de trabajo técnicos](../../workflow/using/about-technical-workflows.md).
 
-Adobe Campaign es compatible con APNS tanto de tipo binario como HTTP/2. Para obtener más información sobre los pasos de configuración, consulte la sección [Configuración de una aplicación móvil en Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md) .
+Adobe Campaign es compatible con APN HTTP/2. Para obtener más información sobre los pasos de configuración, consulte la sección [Configuración de una aplicación móvil en Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md) .
 
 ## Ruta de datos {#data-path}
 
@@ -85,14 +85,7 @@ La siguiente información está disponible en Adobe Campaign:
 
 ![](assets/nmac_delivery_view.png)
 
-El servidor de Adobe Campaign debe poder comunicarse con el servidor APNS en los puertos siguientes:
-
-* 2195 (envío) y 2186 (servicio de comentarios) para el conector binario de iOS
-* 443 para el conector HTTP/2 de iOS
-
-   >[!NOTE]
-   >
-   > A partir de la versión 20.3 de Campaign, el conector binario heredado de iOS está en desuso. Si utiliza este conector, debe adaptar la implementación en consecuencia. [Más información](https://helpx.adobe.com/es/campaign/kb/migrate-to-apns-http2.html)
+El servidor de Adobe Campaign debe poder ponerse en contacto con el servidor APN del puerto 443 para el conector HTTP/2 de iOS.
 
 Para comprobar si funciona correctamente, utilice los siguientes comandos:
 
@@ -108,7 +101,5 @@ Para comprobar si funciona correctamente, utilice los siguientes comandos:
    telnet gateway.push.apple.com
    ```
 
-Si se utiliza un conector binario de iOS, el MTA y el servidor web deben poder comunicarse con el APNS en el puerto 2195 (envío) y el servidor de flujo de trabajo debe poder comunicarse con el APNS en el puerto 2196 (servicio de comentarios).
-
-Si se utiliza un conector HTTP/2 de iOS, el MTA, el servidor de flujo de trabajo y el servidor web deben poder comunicarse con el APNS en el puerto 443.
+Con el conector HTTP/2 de iOS, el MTA, el servidor web y el servidor de flujo de trabajo deben poder comunicarse con los APN del puerto 443.
 
