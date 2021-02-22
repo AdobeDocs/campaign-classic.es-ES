@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-#  Configuración general{#general-configurations}
+# Configuración general{#general-configurations}
 
 Esta sección detalla la configuración que se realizará en Adobe Campaign v7 si va a realizar la migración desde una versión 5.11 o v6.02.
 
@@ -456,7 +456,8 @@ Existen tres maneras posibles de resolver un conflicto:
 * **[!UICONTROL Keep the current version]**:: significa que se rechaza la actualización.
 
    >[!IMPORTANT]
-   Si selecciona este modo de resolución, corre el riesgo de perder parches en la nueva versión. Por lo tanto, se recomienda encarecidamente que esta opción no se utilice ni se reserve únicamente a los operadores expertos.
+   >
+   >Si selecciona este modo de resolución, corre el riesgo de perder parches en la nueva versión. Por lo tanto, se recomienda encarecidamente que esta opción no se utilice ni se reserve únicamente a los operadores expertos.
 
 Si decide resolver manualmente el conflicto, siga este procedimiento:
 
@@ -502,12 +503,14 @@ $(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
 En v7, el contenido de la oferta se ha movido. En v6.02, el contenido estaba en cada esquema de representación (**nms:emailOfferView**). En v7, el contenido ahora está en el esquema de oferta. Después de la actualización, el contenido no será visible en la interfaz. Después de la actualización, debe volver a crear el contenido de la oferta o desarrollar una secuencia de comandos que mueva automáticamente el contenido del esquema de representación al esquema de oferta.
 
 >[!IMPORTANT]
-Si algunos envíos que utilizan ofertas configuradas se enviarán después de la migración, debe eliminar y volver a crear todos estos envíos en v7. Si no puede hacerlo, se ofrece un &quot;modo de compatibilidad&quot;. Este modo no se recomienda porque no se beneficiará de todas las nuevas funciones de Interacción v7. Este es un modo de transición que le permite completar campañas continuas antes de la migración real de 6.1. Para más información sobre este modo, por favor contacte con nosotros.
+>
+>Si algunos envíos que utilizan ofertas configuradas se enviarán después de la migración, debe eliminar y volver a crear todos estos envíos en v7. Si no puede hacerlo, se ofrece un &quot;modo de compatibilidad&quot;. Este modo no se recomienda porque no se beneficiará de todas las nuevas funciones de Interacción v7. Este es un modo de transición que le permite completar campañas continuas antes de la migración real de 6.1. Para más información sobre este modo, por favor contacte con nosotros.
 
 Hay disponible un ejemplo de una secuencia de comandos de movimiento (**interactiveTo610_full_XX.js**) en la carpeta **Migration** de la carpeta Adobe Campaign v7. Este archivo muestra un ejemplo de una secuencia de comandos para un cliente que utiliza una sola representación por correo electrónico por oferta (los campos **[!UICONTROL htmlSource]** y **[!UICONTROL textSource]**). El contenido que estaba en la tabla **NmsEmailOfferView** se ha movido a la tabla de oferta.
 
 >[!NOTE]
-El uso de esta secuencia de comandos no le permite beneficiarse de las opciones &quot;gestor de contenido&quot; y &quot;funciones de representación&quot;. Para beneficiarse de estas funciones, debe reconsiderar las ofertas del catálogo, especialmente el contenido de la oferta y los espacios de configuración.
+>
+>El uso de esta secuencia de comandos no le permite beneficiarse de las opciones &quot;gestor de contenido&quot; y &quot;funciones de representación&quot;. Para beneficiarse de estas funciones, debe reconsiderar las ofertas del catálogo, especialmente el contenido de la oferta y los espacios de configuración.
 
 ```
 loadLibrary("/nl/core/shared/nl.js");
@@ -606,7 +609,8 @@ Este es el procedimiento a seguir después de mover el contenido de la oferta si
 1. Realice pruebas exhaustivas.
 
    >[!NOTE]
-   Los nombres de las categorías y ofertas en línea se modifican después de activarse. En el canal entrante, actualice todas las referencias a ofertas y categorías.
+   >
+   >Los nombres de las categorías y ofertas en línea se modifican después de activarse. En el canal entrante, actualice todas las referencias a ofertas y categorías.
 
 ## Informes {#reports}
 
@@ -634,7 +638,8 @@ Existen dos familias de aplicaciones web:
 Al igual que para los informes (consulte [Informes](#reports)), si ha agregado JavaScript, debe comprobar y adaptar si es necesario. Si desea beneficiarse de la pancarta azul v7 (que contiene los universos), debe volver a publicar la aplicación web. Si el código JavaScript funciona, puede seleccionar el motor de procesamiento v6.x. Si no es así, puede utilizar el motor de procesamiento v6.0 mientras adapta el código y, a continuación, utilizar el motor de procesamiento v6.x.
 
 >[!NOTE]
-Los pasos para seleccionar el motor de procesamiento son los mismos que para seleccionar informes. Consulte [Informes personalizados](#personalized-reports).
+>
+>Los pasos para seleccionar el motor de procesamiento son los mismos que para seleccionar informes. Consulte [Informes personalizados](#personalized-reports).
 
 Los métodos de conexión de aplicación web han cambiado en v7. Si encuentra algún problema de conexión en las aplicaciones web identificadas, debe activar temporalmente las opciones **allowUserPassword** y **sessionTokenOnly** en el archivo **serverConf.xml**. Después de la actualización, modifique los siguientes valores de opción:
 
@@ -667,7 +672,8 @@ sessionTokenOnly="false"
 Si tiene algún problema, vuelva a publicar la aplicación web. Si el problema persiste, puede seleccionar el motor de procesamiento v6.0. Si no ha agregado JavaScript, puede seleccionar el motor de procesamiento v6.x y beneficiarse de sus nuevas funciones.
 
 >[!NOTE]
-Los pasos para seleccionar el motor de procesamiento son los mismos que para seleccionar informes. Consulte [Informes personalizados](#personalized-reports).
+>
+>Los pasos para seleccionar el motor de procesamiento son los mismos que para seleccionar informes. Consulte [Informes personalizados](#personalized-reports).
 
 ## Red-Hat {#red-hat}
 

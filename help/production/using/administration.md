@@ -80,19 +80,14 @@ Esta es una lista de los comandos de administración habituales accesibles en Li
    >* En el evento de una emergencia, utilice la opción **-inmediata** para forzar una parada inmediata del proceso (equivalente al comando Unix **kill -9**).
    >* Utilice la opción **-noconsole** para asegurarse de que el módulo iniciado no muestre nada en la consola. Sus registros se escribirán en el disco mediante el módulo **syslogd**.
    >* Utilice la opción **-verbose** para mostrar información adicional sobre las acciones del proceso.
-
-      >
-      >   
-      Ejemplo:
-      >
-      >   
-      **nlserver Restart web -verbose**
-      >
-      >   
-      **nlserver inicio mta@myinstance -verbose**
-      >
-      >   
-      Esta opción agrega registros adicionales. Recomendamos volver a iniciar los procesos sin la opción **-verbose** una vez que haya encontrado la información deseada, para evitar la sobrecarga de registros.
+   >
+   >   Ejemplo:
+   >
+   >   **nlserver Restart web -verbose**
+   >
+   >   **nlserver inicio mta@myinstance -verbose**
+   >
+   >   Esta opción agrega registros adicionales. Recomendamos volver a iniciar los procesos sin la opción **-verbose** una vez que haya encontrado la información deseada, para evitar la sobrecarga de registros.
 
 
 * Inicio de todos los procesos de Adobe Campaign (equivalente a iniciar el servicio **nlserver6**):

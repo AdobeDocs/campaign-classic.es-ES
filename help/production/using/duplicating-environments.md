@@ -69,7 +69,6 @@ Los siguientes pasos deben realizarse con atención buena: es posible que alguno
 >
 >* El siguiente procedimiento es válido en lenguaje PostgreSQL. Si el lenguaje SQL es diferente (por ejemplo, Oracle), las consultas SQL deben adaptarse.
 >* Los comandos siguientes se aplican en el contexto de una instancia **prod** y una instancia **dev** en PostgreSQL.
-
 >
 
 

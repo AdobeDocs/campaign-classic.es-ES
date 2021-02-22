@@ -255,7 +255,6 @@ Se agrupan en **Monitoreo** > &#39;Monitoreo SMTP&#39;.
 >
 >* La información relacionada con la supervisión SMTP solo está disponible si se ha activado el canal de correo electrónico.
 >* El **[!UICONTROL SMTP sending statistics]** solo se ofrece si se inicia el servidor de estadísticas en la instancia.
-
 >
 
 
