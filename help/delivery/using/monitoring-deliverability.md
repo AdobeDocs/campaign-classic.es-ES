@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 translation-type: tm+mt
-source-git-commit: 11377b0218e20da9b1a5398539ebaa192801b283
+source-git-commit: fa5679d91808edb8e3916d5f0e0f54c73198e934
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '479'
 ht-degree: 100%
 
 ---
@@ -25,14 +25,12 @@ Utilice las funciones que ofrece Adobe Campaign para monitorizar la capacidad de
 
 El paquete de capacidad de envío permite acceder a:
 
-* Informe de seguimiento técnico para el rendimiento diario de la capacidad de envío (monitorización técnica). Este informe, disponible bajo demanda, le permite recibir un informe diario por correo electrónico en una dirección especificada. Para obtener más información, póngase en contacto con el equipo de atención al cliente de Adobe.
 * El [informe de procesamiento de las bandejas de entrada](../../delivery/using/inbox-rendering.md), que permite realizar previsualizaciones de los mensajes en los principales clientes de correo electrónico para analizar el contenido y la reputación.
 * Descripción general de la calidad del mensaje (bandeja de entrada, correo no deseado).
 
 También puede utilizar las siguientes herramientas:
 
 * El informe **[!UICONTROL Delivery throughput]** proporciona una visión general del rendimiento de toda la plataforma durante un período determinado. Para obtener más información, consulte [esta sección](../../reporting/using/global-reports.md#delivery-throughput).
-* El informe **[!UICONTROL Technical deliverability monitoring]** incluye una serie de indicadores de calidad de capacidad de envío para su plataforma. Para obtener más información, consulte [esta sección](#technical-deliverability-monitoring).
 * Cada envío genera un informe de estadísticas de difusión para los diferentes proveedores de servicio de Internet (ISP). Muestra algunas métricas de calidad de datos y reputación que pueden afectar la capacidad de envío, incluidas las siguientes cifras:
    * **[!UICONTROL Hard bounces]** indican la calidad de los datos. Este valor debe ser inferior al 2 %.
    * **[!UICONTROL Soft bounces]** indican reputación. Este valor no debe ser superior al 10 % para un ISP determinado.
@@ -68,28 +66,6 @@ Signal Spam es un servicio francés que ofrece el sistema de informes de bucle d
 [250ok](https://250ok.com/) es una solución de monitorización complementaria de las herramientas internas de capacidad de envío de Adobe que proporciona IP, lista de bloqueados e indicadores de reputación.
 
 La información se proporciona en tiempo real, lo que permite una asistencia proactiva.
-
-## Informe de monitorización de la capacidad de envío técnica {#technical-deliverability-monitoring}
-
-El informe **Control de la capacidad de envío técnica** incluye una serie de indicadores de calidad de capacidad de envío para su plataforma. Puede recibir este informe diario por correo electrónico. Para solicitarlo, abra un [Caso de soporte](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) específico y especifique:
-
-* el nombre de la instancia
-* las direcciones de correo electrónico a las que enviar el informe
-
-Este informe contiene los siguientes indicadores:
-
-* **[!UICONTROL Reverse DNS]** : Adobe Campaign comprueba si se ha proporcionado un DNS inverso para una dirección IP y que este señala correctamente a la dirección IP.
-
-* **[!UICONTROL SPF]** (Marco de Política del Remitente): Mecanismo de autenticación que permite a los ISP y proveedores de buzones de correo comprobar si el remitente del correo electrónico está autorizado en el dominio de envío.
-
-* **[!UICONTROL DomainKeys]**: Servicio desarrollado por Yahoo! y pensado para certificar la identidad de un remitente de correo electrónico.
-
-* **[!UICONTROL IP and RBL domain]** (Lista de agujeros negros en tiempo real): una lista de direcciones IP y dominios que han sido marcados por organizaciones de lista de bloqueados por mala reputación en los envíos. Organizaciones dedicadas como Spamhaus, Spamcop, SURBL/URIBL, etc. mantienen estas listas. Adobe Campaign procesa actualmente comprobaciones con RBL que tienen un impacto significativo en la capacidad de entrega. Estos RBL reflejan su reputación y los ISP pueden consultarlos antes de aceptar recibir sus correos electrónicos.
-
-* **[!UICONTROL SNDS]** (Servicios de datos de red inteligente): [Servicio antispam de Windows Live Hotmail](https://sendersupport.olc.protection.outlook.com/snds/FAQ.aspx). Hotmail es el único ISP que proporciona este tipo de información. Las puntuaciones de referencia son un resultado de filtro verde, una tasa de quejas de menos del 0,1 % y cero trampas no deseadas.
-
-Estos indicadores se actualizan diariamente a las 9 a. m.
-
 
 <!--### Delivery Reports - Broadcast Statistics {#broadcast-statistics}
 
