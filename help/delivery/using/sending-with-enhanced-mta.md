@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: 07ed17a093cb6fb2d7aae376325a127c61b1dcc2
+source-git-commit: c64b6eccd0ad45ebcf4ecc18150f4409f5c66bc2
 workflow-type: tm+mt
-source-wordcount: '1398'
-ht-degree: 6%
+source-wordcount: '1880'
+ht-degree: 5%
 
 ---
 
@@ -28,6 +28,10 @@ Se implementa para mejorar la escalabilidad, aumentar el rendimiento del envío 
 Si se le proporcionó una instancia de Campaign Classic después de septiembre de 2018, está utilizando el MTA mejorado. Para todos los demás clientes Campaign Classic, consulte las [preguntas más frecuentes](#enhanced-mta-faq) a continuación.
 
 La implementación de MTA mejorada puede afectar a algunas de las funcionalidades de Campaña existentes. Para obtener más información sobre esto, consulte las [especificidades de MTA mejoradas](#enhanced-mta-impacts).
+
+>[!NOTE]
+>
+>Si es un usuario final de Adobe Campaign y desea saber si su instancia se ha actualizado a la MTA mejorada, póngase en contacto con el administrador de Campañas internas.
 
 ## Preguntas frecuentes {#enhanced-mta-faq}
 
@@ -129,24 +133,6 @@ Las cualificaciones de devoluciones de la tabla de Campaña **[!UICONTROL Delive
 
 Para obtener más información sobre la calificación de devoluciones, consulte [esta sección](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
-### Estado enviado con MTA mejorado
-
-En la vista **[!UICONTROL Summary]** de un envío de correo electrónico [panel](../../delivery/using/delivery-dashboard.md), el inicio **[!UICONTROL Success]** se eleva al 100% y luego se desciende progresivamente a lo largo del período de validez [envío](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period), a medida que los rebotes no deseados y duros se informan desde el MTA mejorado a la Campaña.
-
-De hecho, todos los mensajes se muestran como **[!UICONTROL Sent]** en los [registros de envío](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) en cuanto se retransmiten correctamente desde la Campaña al MTA mejorado. Permanecen en ese estado a menos o hasta que un [rebote](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) para ese mensaje se comunique de vuelta del MTA mejorado a la Campaña.
-
-Cuando se generan informes de los mensajes de rebote desde el MTA mejorado, su estado cambia de **[!UICONTROL Sent]** a **[!UICONTROL Failed]** y el porcentaje **[!UICONTROL Success]** disminuye en consecuencia.
-
-Cuando los mensajes de devolución en pantalla vuelven a informarse desde el MTA mejorado, siguen mostrándose como **[!UICONTROL Sent]** y el porcentaje **[!UICONTROL Success]** aún no se ha actualizado. A continuación, los mensajes de rebote en pantalla se [reintentan](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) durante todo el período de validez del envío:
-
-* Si un reintento se realiza correctamente antes del final del período de validez, el estado del mensaje permanece como **[!UICONTROL Sent]** y el porcentaje **[!UICONTROL Success]** permanece sin cambios.
-
-* De lo contrario, el estado cambia a **[!UICONTROL Failed]** y el porcentaje **[!UICONTROL Success]** disminuye en consecuencia.
-
-Por lo tanto, debe esperar hasta el final del período de validez para ver el porcentaje final **[!UICONTROL Success]** y el número final de mensajes **[!UICONTROL Sent]** y **[!UICONTROL Failed]**.
-
-<!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
-
 ### Rendimiento de entrega
 
 El gráfico de rendimiento del Envío de Campaña ya no mostrará el rendimiento de los destinatarios de correo electrónico. Ese gráfico ahora mostrará la velocidad de transferencia para el reenvío de sus mensajes desde la Campaña hasta el MTA mejorado.
@@ -167,3 +153,78 @@ Para obtener más información sobre el período de validez, consulte [esta secc
 
 La autenticación por correo electrónico de DKIM (DomainKeys Identified Mail) se realiza mediante el MTA mejorado. La firma de DKIM por parte del MTA de Campaign nativo se desactiva en la tabla de administración Domain management como parte de la actualización de MTA mejorada.
 Para obtener más información sobre DKIM, consulte [esta sección](../../delivery/using/technical-recommendations.md#dkim).
+
+### Sistema de informes de éxito de envío
+
+En la vista **[!UICONTROL Summary]** de un envío de correo electrónico [panel](../../delivery/using/delivery-dashboard.md), el inicio **[!UICONTROL Success]** se eleva al 100% y luego se desciende progresivamente a lo largo del período de validez [envío](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period), a medida que los rebotes no deseados y duros se informan desde el MTA mejorado a la Campaña.
+
+De hecho, todos los mensajes se muestran como **[!UICONTROL Sent]** en los [registros de envío](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) en cuanto se retransmiten correctamente desde la Campaña al MTA mejorado. Permanecen en ese estado a menos o hasta que un [rebote](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) para ese mensaje se comunique de vuelta del MTA mejorado a la Campaña.
+
+Cuando se generan informes de los mensajes de rebote desde el MTA mejorado, su estado cambia de **[!UICONTROL Sent]** a **[!UICONTROL Failed]** y el porcentaje **[!UICONTROL Success]** disminuye en consecuencia.
+
+Cuando los mensajes de devolución en pantalla vuelven a informarse desde el MTA mejorado, siguen mostrándose como **[!UICONTROL Sent]** y el porcentaje **[!UICONTROL Success]** aún no se ha actualizado. A continuación, los mensajes de rebote en pantalla se [reintentan](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) durante todo el período de validez del envío:
+
+* Si un reintento se realiza correctamente antes del final del período de validez, el estado del mensaje permanece como **[!UICONTROL Sent]** y el porcentaje **[!UICONTROL Success]** permanece sin cambios.
+
+* De lo contrario, el estado cambia a **[!UICONTROL Failed]** y el porcentaje **[!UICONTROL Success]** disminuye en consecuencia.
+
+Por lo tanto, debe esperar hasta el final del período de validez para ver el porcentaje final **[!UICONTROL Success]** y el número final de mensajes **[!UICONTROL Sent]** y **[!UICONTROL Failed]**.
+
+<!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
+
+### Servicio de comentarios de correo electrónico (beta) {#email-feedback-service}
+
+Con la capacidad del servicio de comentarios de correo electrónico (EFS), el estado de cada correo electrónico se informa con precisión, ya que los comentarios se capturan directamente desde el MTA mejorado (Agente de transferencia de mensajes).
+
+>[!IMPORTANT]
+>
+>El servicio de comentarios de correo electrónico está disponible actualmente como una capacidad beta.
+>
+>Si está interesado en participar en este programa beta, rellene [este formulario](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) y le responderemos.
+
+Una vez que se ha iniciado el envío, no se produce ningún cambio en el porcentaje **[!UICONTROL Success]** cuando el mensaje se transmite correctamente de la Campaña al MTA mejorado.
+
+<!--![](assets/efs-sending.png)-->
+
+Los registros de envío muestran el estado **[!UICONTROL Taken into account by the service provider]** de cada dirección de destino.
+
+<!--![](assets/efs-pending.png)-->
+
+Cuando el mensaje se envía realmente a los perfiles objetivo y una vez que esta información se reporta en tiempo real desde el MTA mejorado, los registros de envío muestran el estado **[!UICONTROL Sent]** de cada dirección que recibió el mensaje correctamente. El porcentaje **[!UICONTROL Success]** se incrementa en consecuencia con cada envío exitoso.
+
+Cuando los mensajes de devolución en firme se devuelven desde el MTA mejorado, su estado de registro cambia de **[!UICONTROL Taken into account by the service provider]** a **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
+
+Cuando los mensajes de devolución en pantalla vuelven a informarse desde el MTA mejorado, su estado de registro permanece sin cambios (**[!UICONTROL Taken into account by the service provider]**): sólo se actualiza[razón de error](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. El porcentaje **[!UICONTROL Success]** permanece sin cambios. A continuación, se vuelven a intentar los mensajes de devolución en pantalla a lo largo del envío [período de validez](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period):
+
+* Si un reintento se realiza correctamente antes del final del período de validez, el estado del mensaje cambia a **[!UICONTROL Sent]** y el porcentaje **[!UICONTROL Success]** se incrementa en consecuencia.
+
+* De lo contrario, el estado cambia a **[!UICONTROL Failed]**. El porcentaje **[!UICONTROL Success]** <!--and **[!UICONTROL Bounces + errors]** -->permanece sin cambios.
+
+>[!NOTE]
+>
+>Para obtener más información acerca de las devoluciones en bruto y en blanco, consulte [esta sección](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>
+>Para obtener más información sobre reintentos después de un error temporal de envío, consulte [esta sección](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+
+
+Las siguientes tablas muestran los cambios en los KPI y los estados de envío de registros introducidos por la capacidad de EFS.
+
+**Con servicio de comentarios de correo electrónico**
+
+| Paso en el proceso de envío | Resumen de KPI | Estado de envío de registros |
+|--- |--- |--- |
+| El mensaje se retransmite correctamente desde la Campaña al MTA mejorado | **[!UICONTROL Success]** no se muestra el porcentaje (inicios en 0 %) | Tenido en cuenta por el proveedor de servicios |
+| Los mensajes de devolución del hardware se informan desde el MTA mejorado | No hay cambios en el porcentaje **[!UICONTROL Success]** | Error |
+| Los mensajes de devolución en pantalla se informan desde el MTA mejorado | No hay cambios en el porcentaje **[!UICONTROL Success]** | Tenido en cuenta por el proveedor de servicios |
+| Los reintentos de mensajes de devolución en pantalla se realizan correctamente | **[!UICONTROL Success]** el porcentaje se incrementa en consecuencia | Enviado |
+| Fallan los reintentos de mensajes de devolución en pantalla | No hay cambios en el porcentaje **[!UICONTROL Success]** | Error |
+
+**Sin servicio de comentarios de correo electrónico**
+
+| Paso en el proceso de envío | Resumen de KPI | Estado de envío de registros |
+|--- |--- |--- |
+| El mensaje se retransmite correctamente desde la Campaña al MTA mejorado | **[!UICONTROL Success]** inicios porcentuales en 100% | Enviado |
+| Los mensajes de devolución del hardware se informan desde el MTA mejorado | **[!UICONTROL Success]** el porcentaje disminuye en consecuencia | Error |
+| Los mensajes de devolución en pantalla se informan desde el MTA mejorado | No hay cambios en el porcentaje **[!UICONTROL Success]** | Enviado |
+| Los reintentos de mensajes de devolución en pantalla se realizan correctamente | No hay cambios en el porcentaje **[!UICONTROL Success]** | Enviado | **[!UICONTROL Success]** el porcentaje se incrementa en consecuencia | Enviado |
+| Fallan los reintentos de mensajes de devolución en pantalla | **[!UICONTROL Success]** el porcentaje disminuye en consecuencia | Error |
