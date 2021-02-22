@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: 4efe5f8a9130e7925194e56e088b3745c0cbd11a
+source-git-commit: f00c0bda0ab3f2e07c015f4cfe5e3942f5620841
 workflow-type: tm+mt
 source-wordcount: '1525'
 ht-degree: 89%
@@ -147,7 +147,7 @@ Las bases de datos externas compatibles con la Campaña se enumeran en la [Matri
 
 La configuración de la cuenta externa depende del motor de procesamiento de la base de datos. Obtenga más información en las siguientes secciones:
 
-* Configurar el acceso a [Azure synapse](../../installation/using/configure-fda-synapse.md)
+* Configurar el acceso a [Azure Synapse](../../installation/using/configure-fda-synapse.md)
 * Configurar el acceso a [Hadoop](../../installation/using/configure-fda-hadoop.md)
 * Configurar el acceso a [Oracle](../../installation/using/configure-fda-oracle.md)
 * Configurar el acceso a [Netezza](../../installation/using/configure-fda-netezza.md)
@@ -408,7 +408,7 @@ Para configurar la cuenta externa de Salesforce CRM para que funcione con Adobe 
 
 * **[!UICONTROL API version]**
 
-   Versión de la API entre **[!UICONTROL Version 37]**, **[!UICONTROL Version 21]** o **[!UICONTROL Version 15]**.
+   Versión de la API entre **[!UICONTROL Version 49]**, **[!UICONTROL Version 37]**, **[!UICONTROL Version 21]** o **[!UICONTROL Version 15]**.
 
 Para esta cuenta externa, debe configurar Salesforce CRM con el asistente para configuración.
 
