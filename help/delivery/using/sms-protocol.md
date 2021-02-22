@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 32db73de8308670dfd74d974072bd96b3a22fc31
+source-git-commit: a157082070b22e3621cb81411a5ddde387fd5fcf
 workflow-type: tm+mt
-source-wordcount: '8432'
+source-wordcount: '8458'
 ht-degree: 99%
 
 ---
@@ -597,6 +597,12 @@ Cuando TLS está habilitado, omitir todas las comprobaciones de certificado.
 Cuando se selecciona, la conexión ya no es segura, por lo que no debe habilitarse en producción.
 
 Puede resultar útil para depurar o probar.
+
+Puede elegir entre tres valores diferentes para la validación del certificado:
+
+* Comprobación de certificación completa (incluido el nombre de host), predeterminada.
+* Omita la verificación del nombre de host.
+* Omita la verificación del certificado.
 
 #### Enlazar TON/NPI {#bind-ton-npi}
 
