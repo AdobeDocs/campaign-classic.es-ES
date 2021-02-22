@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 2aa1a1c5da7b552cae916885c011aa4aaf9b61db
 workflow-type: tm+mt
 source-wordcount: '1266'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -158,6 +158,6 @@ Para que sean accesibles desde el exterior, las imágenes utilizadas en los mens
 
 Adobe recomienda previsualizar el mensaje para comprobar su personalización y cómo verán su envío sus destinatarios.
 
-* En el asistente de envíos, la subpestaña **[!UICONTROL Preview]** permite ver la renderización de cada contenido para un destinatario. Los campos personalizados y los elementos condicionales del contenido se sustituyen por la información correspondiente del perfil seleccionado. [Más información](../../delivery/using/defining-the-email-content.md#message-content)
+* En el asistente de envíos, la subficha **[!UICONTROL Preview]** permite realizar vistas en la representación de cada contenido para un destinatario. Los campos personalizados y los elementos condicionales del contenido se sustituyen por la información correspondiente del perfil seleccionado. [Más información](../../delivery/using/defining-the-email-content.md#message-content)
 
 * Durante cada previsualización se realiza una comprobación automática del contenido no deseado. En la subpestaña **[!UICONTROL Preview]**, marque la puntuación de spam [SpamAssassin](../../delivery/using/spamassassin.md).  Haga clic en **[!UICONTROL More...]** para obtener más información sobre la advertencia.  Antes de hacerlo, asegúrese de que SpamAssassin está correctamente instalado y configurado en el servidor de aplicaciones de Adobe Campaign. [Más información](../../installation/using/configuring-spamassassin.md)
