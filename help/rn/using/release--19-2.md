@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
+source-git-commit: 97546a5a49880c5af51754fb5d7b02359f3d556c
 workflow-type: tm+mt
 source-wordcount: '1415'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -24,8 +24,9 @@ _23 de diciembre de 2020_
 >[!CAUTION]
 >
 > * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaign a través de Adobe Identity Service (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola de cliente para poder conectarse a Campaign después del **31 de marzo de 2021**.
->
-> * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
+   >
+   > 
+* Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
 
 
 
@@ -37,7 +38,7 @@ _23 de diciembre de 2020_
 
 ## ![](assets/do-not-localize/red_2.png) Versión 19.2.3: compilación 9081 {#release-19-2-3-build-9081}
 
-_viernes, 7 de febrero de 2020_
+_7 de febrero de 2020_
 
 **Mejoras**
 
@@ -46,7 +47,7 @@ _viernes, 7 de febrero de 2020_
 
 ## ![](assets/do-not-localize/red_2.png) Versión 19.2: compilación 9080 {#release-19-2-build-9080}
 
-_lunes, 2 de diciembre de 2019_
+_2 de diciembre de 2019_
 
 **Novedades**
 
