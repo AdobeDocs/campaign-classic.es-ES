@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 1%
+source-wordcount: '1166'
+ht-degree: 2%
 
 ---
 
@@ -50,7 +50,6 @@ Para reemplazar todos los archivos con la nueva versión, debe cerrar todas las 
       **iisreset /stop**
 
    * Servicio Adobe Campaign: **net stop nlserver6**
-
    >[!IMPORTANT]
    >
    >También debe asegurarse de que el servidor de redirección (webmdl) está detenido, de modo que el archivo **nlsrvmod.dll** utilizado por IIS pueda reemplazarse por la nueva versión.
@@ -71,7 +70,7 @@ Para ejecutar el archivo de actualización, siga los pasos siguientes:
 
 1. Ejecute **setup.exe**.
 
-   Para descargar este archivo, conéctese al [portal de distribución de software](https://experience.adobe.com/downloads) con sus credenciales de usuario. Obtenga más información sobre la distribución de software en [esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
+   Para descargar este archivo, conéctese al [portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) con sus credenciales de usuario. Obtenga más información sobre la distribución de software en [esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
 
 1. Seleccione el modo de instalación: elija **[!UICONTROL Update or repair]**
 1. Haga clic en **[!UICONTROL Next]**.
@@ -125,7 +124,7 @@ Para saber cómo actualizar la consola de cliente, consulte [esta sección](../.
 
 ### Obtener paquetes actualizados {#obtain-updated-packages}
 
-Inicio recuperando los dos paquetes actualizados de Adobe Campaign: conéctese al [portal de distribución de software](https://experience.adobe.com/downloads) con sus credenciales de usuario. Obtenga más información sobre la distribución de software en [esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
+Inicio recuperando los dos paquetes actualizados de Adobe Campaign: conéctese al [portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) con sus credenciales de usuario. Obtenga más información sobre la distribución de software en [esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
 
 El archivo es **nlserver6-v7-XXX.rpm**
 
@@ -173,8 +172,10 @@ Para ello, ejecute el siguiente comando:
 >
 >* La secuencia de comandos puede llamarse **httpd** en lugar de **apache**.
 >* DEBE ejecutar este comando hasta que obtenga la siguiente respuesta:
->
->   Esta operación es necesaria para que Apache aplique la nueva biblioteca.
+
+   >
+   >   
+   Esta operación es necesaria para que Apache aplique la nueva biblioteca.
 
 
 A continuación, reinicie Apache:
