@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 55cc09c0446e389029890e45b790bb5ec6ffdc27
+source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
 workflow-type: tm+mt
-source-wordcount: '3947'
-ht-degree: 98%
+source-wordcount: '4045'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,19 @@ Esta página enumera todas las nuevas funciones y actualizaciones de la document
 
 Consulte las [Notas de la versión de Adobe Campaign Classic](../../rn/using/latest-release.md) para ver las actualizaciones relacionadas con la versión.
 
-## Febrero de 2021 {#feb-2021}
+## Febrero de 2021 {#release-21.1}
+
+**Actualizaciones de documentación incluidas en la versión 21.1**
+
+La nueva capacidad **Servicio de comentarios de correo electrónico** (beta privada) está documentada [aquí](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service).
+
+La sección **Archivo de configuración del servidor** se ha actualizado con los parámetros de configuración necesarios para que la Campaña se conecte a otro servicio mediante IMS. [Puede obtener más información](../../installation/using/the-server-configuration-file.md#ims)
+
+En lista de los estados de envío, se ha actualizado la descripción de **que el proveedor de servicio** ha tenido en cuenta: este estado ahora también se utiliza para los envíos de correo electrónico enviados mediante el [servicio de comentarios de correo electrónico](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service). [Puede obtener más información](../../delivery/using/delivery-statuses.md#list-delivery-statuses)
+
+Los métodos abreviados de teclado disponibles en la nueva pantalla de inicio de sesión para conectarse a Adobe Campaign ya están documentados. [Puede obtener más información](../../platform/using/launching-adobe-campaign.md#connecting-to-adobe-campaign)
+
+**Otras actualizaciones**
 
 Se ha añadido una nueva sección con información detallada sobre cómo realizar pruebas A/B con flujos de trabajo. [Puede obtener más información](../../delivery/using/get-started-a-b-testing.md)
 
@@ -100,7 +112,7 @@ Se ha actualizado la matriz de compatibilidad. [Más información](../../rn/usin
 Se ha actualizado la página Funciones obsoletas y eliminadas. [Más información](../../rn/using/deprecated-features.md)
 
 Las notas de la versión y la matriz de compatibilidad de la versión Gold Standard ya están disponibles en una sección dedicada.
-[Más información](../../rn/using/gold-standard.md#gs-10).
+[Más información](../../rn/using/gold-standard.md#gs-11).
 
 Activa la integración basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización y, ahora, se ha cambiado y trasladado a Adobe I/O. [Más información](../../integrations/using/configuring-adobe-io.md)
 
