@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
+source-git-commit: 97546a5a49880c5af51754fb5d7b02359f3d556c
 workflow-type: tm+mt
 source-wordcount: '1435'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -24,8 +24,9 @@ _23 de diciembre de 2020_
 >[!CAUTION]
 >
 > * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaign a través de Adobe Identity Service (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola de cliente para poder conectarse a Campaign después del **31 de marzo de 2021**.
->
-> * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
+   >
+   > 
+* Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
 
 
 * El protocolo de conexión se ha actualizado para seguir el nuevo mecanismo de autenticación IMS.
@@ -36,19 +37,19 @@ _23 de diciembre de 2020_
 
 ## ![](assets/do-not-localize/red_2.png) Versión 20.1.3: compilación 9124{#release-20-1-3-build-9124}
 
-_miércoles, 6 de mayo de 2020_
+_6 de mayo de 2020_
 
 * Se ha corregido un problema con la actividad **File Transfer** que impedía que la autenticación basada en claves SFTP funcionara en Debian 9. (NEO-23183)
 
 ## ![](assets/do-not-localize/red_2.png) Versión 20.1.2: compilación 9123{#release-20-1-2-build-9123}
 
-_viernes, 13 de marzo de 2020_
+_13 de marzo de 2020_
 
 * Se ha corregido un problema que impedía la implementación de versiones en servidores de Red Hat 7. (NEO-23332)
 
 ## ![](assets/do-not-localize/red_2.png) Versión 20.1: compilación 9122{#release-20-1-build-9122}
 
-_lunes, 17 de febrero de 2020_
+_17 de febrero de 2020_
 
 **Novedades**
 
