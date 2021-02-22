@@ -9,10 +9,10 @@ topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4efe5f8a9130e7925194e56e088b3745c0cbd11a
+source-git-commit: 425b2e5748703a8349b6f70968d1ef4c71f72b21
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 100%
+source-wordcount: '1717'
+ht-degree: 95%
 
 ---
 
@@ -45,6 +45,14 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
    <td><strong>Función</strong></td>
    <td><strong>Sustitución</strong></td>
   </tr>
+    <tr>
+  <td>Informe de monitorización de la capacidad de envío técnica<br></td>
+   <td><p>A partir de la versión 21.1 de Campaña, el informe de supervisión técnica de la entrega queda obsoleto.</p>
+   <p>Si es necesario, puede recibir este informe diariamente por correo electrónico hasta la fecha de eliminación de la función. Para solicitarlo, abra un <a href="https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Caso de soporte</a> específico y especifique el nombre de la instancia y las direcciones de correo electrónico a las que enviar el informe.</p> 
+   <p>Adobe recomienda que se involucre con el equipo de entrega para definir las mejores herramientas para monitorear el rendimiento de la entrega de instancias.</p>
+  <p><em>Fecha de eliminación del destinatario: Finales de 2021</em></p>
+  </td>
+ </tr>
   <tr>
   <td>Conectores CRM<br></td>
    <td><p>A partir de la versión Campaign 20.3, los siguientes conectores CRM quedan obsoletos:</p>
@@ -83,7 +91,6 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
   <td>Conectores SMS<br></td>
   <td><p> A partir de la versión Campaign 20.2, los siguientes conectores SMS quedan obsoletos.<p>
    <ul>
-   <li>NetSize</li>
    <li>SMPP genérico (SMPP versión 3.4 compatible con modo binario)</li>
    <li>Sybase365 (SAP SMS 365)</li>
    <li>Comunicaciones de CLX</li>
