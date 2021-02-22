@@ -7,11 +7,11 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Diseñe, planifique, ejecute, administre y optimice campañas de marketing entre canales que proporcionen un alto retorno en la inversión en marketing.
 solution: Campaign Classic
 sub-product: Adobe Campaign Classic
-type: Documentation
+type: Documentación
 translation-type: tm+mt
-source-git-commit: efa36dc08ce4dd59805bb9eba63a4249e14609d7
+source-git-commit: 4030eb1cf9aa78a10daffe9ea849aa205660e359
 workflow-type: tm+mt
-source-wordcount: '2349'
+source-wordcount: '2351'
 ht-degree: 98%
 
 ---
@@ -28,6 +28,7 @@ ht-degree: 98%
       + [Notas de la versión Gold Standard](rn/using/gold-standard.md)
       + [Matriz de compatibilidad de Gold Standard](rn/using/compatibility-matrix-gs.md)
    + Versiones anteriores {#previous-releases}
+      + [Versión 20.3](rn/using/release--20-3.md)
       + [Versión 20.2](rn/using/release--20-2.md)
       + [Versión 20.1](rn/using/release--20-1.md)
       + [Versión 19.2](rn/using/release--19-2.md)
