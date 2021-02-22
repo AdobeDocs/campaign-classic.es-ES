@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 86%
+source-wordcount: '558'
+ht-degree: 78%
 
 ---
 
@@ -33,7 +33,7 @@ Puede conectarse a Adobe Campaign con su Adobe ID. Para obtener más informació
 
 También puede conectarse con un nombre de usuario y contraseña específicos:
 
-1. Introduzca el identificador de la cuenta del operador en el campo de **[!UICONTROL login]**.
+1. Introduzca el identificador de la cuenta del operador en el campo de **[!UICONTROL Login]**.
 
    El administrador de la plataforma Adobe Campaign proporciona su identificador.
 
@@ -41,9 +41,14 @@ También puede conectarse con un nombre de usuario y contraseña específicos:
 
    La primera vez que acceda a la base de datos, la contraseña es la que le proporciona el administrador. Una vez que esté conectado, puede cambiar la contraseña mediante el menú **[!UICONTROL Tools > Change password...]**. Los detalles sobre operadores y conexiones están disponibles en [Administración de acceso](../../platform/using/access-management.md).
 
-1. Haga clic en **[!UICONTROL LOG IN]** para confirmar.
+1. Haga clic en **[!UICONTROL LOG IN]** para confirmar.<!--You can also press the **Enter** key to launch connection.-->
 
 Ahora puede acceder al [espacio de trabajo de Adobe Campaign](../../platform/using/adobe-campaign-workspace.md).
+
+Algunos métodos abreviados de teclado están disponibles en **[!UICONTROL Sign in screen]**:
+* Todos los elementos procesables se pueden seleccionar mediante las teclas **Tab** (de arriba abajo) o **Tab** + **Mayús** (de abajo arriba).
+* Para iniciar la conexión, también puede presionar la tecla **Intro**.
+* Puede utilizar la clave **Escape** para restablecer los campos **[!UICONTROL Login]** y **[!UICONTROL Password]** a los últimos valores de conexión correctos.
 
 ## Configuración de las conexiones {#setting-up-connections}
 
@@ -101,5 +106,5 @@ Consulte [este artículo](https://helpx.adobe.com/es/campaign/kb/gold-standard.h
 **Temas relacionados**:
 
 * [Opciones de ayuda y asistencia técnica de Adobe Campaign](https://helpx.adobe.com/es/campaign/kb/ac-support.html#acc-support)
-* [Distribución de software de Adobe](https://docs.adobe.com/content/help/es-ES/experience-cloud/software-distribution/home.html)
+* [Distribución de software de Adobe Campaign](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html)
 * [Sesiones de expertos y asistencia técnica de Adobe Experience Cloud](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
