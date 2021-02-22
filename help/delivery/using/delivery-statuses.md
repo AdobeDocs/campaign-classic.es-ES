@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 translation-type: tm+mt
-source-git-commit: de0e4555d3e2c5dff8d86a22ff4db85953105db1
+source-git-commit: 29801740c10dc182bdb5f00114298d04385a3e1b
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 100%
+source-wordcount: '617'
+ht-degree: 94%
 
 ---
 
@@ -69,7 +69,7 @@ Para obtener más información sobre los diferentes errores de entrega que puede
   </tr> 
   <tr> 
    <td> Tenido en cuenta por el proveedor de servicios<br /> </td> 
-   <td> El proveedor de servicios SMS recibió la entrega.<br /> </td> 
+   <td> El proveedor de servicios SMS recibió la entrega.<br /> En el caso de instalaciones hospedadas o híbridas, si se ha actualizado a la MTA <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank"> </a>mejorada, el mensaje se ha retransmitido correctamente desde la Campaña a la MTA mejorada.</td> 
   </tr> 
   <tr> 
    <td> Se ha recibido en dispositivos móviles<br /> </td> 
@@ -129,7 +129,7 @@ Si la entrega no se realiza y su estado sigue siendo **[!UICONTROL Pending]**, p
 
    En este caso, compruebe la configuración de la administración de tráfico (afinidad de IP) y utilice el campo **[!UICONTROL Managing affinities with IP addresses]** para relacionar las entregas al MTA que administra la afinidad. Para obtener más información sobre las afinidades, consulte [esta sección](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
-* Cuando se ejecutan demasiadas campañas, el estado de la entrega permanece en estado Pendiente.
+* Cuando se están ejecutando demasiadas campañas, el estado del envío permanece en estado &quot;Pendiente&quot;.
 
    El límite de campañas simultáneas se define en la opción **[!UICONTROL NmsOperation_LimitConcurrency]**. El valor predeterminado es 10.
 
