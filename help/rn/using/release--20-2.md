@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
+source-git-commit: 97546a5a49880c5af51754fb5d7b02359f3d556c
 workflow-type: tm+mt
 source-wordcount: '2556'
 ht-degree: 100%
@@ -120,7 +120,7 @@ _22 de julio de 2020_
 
 ## ![](assets/do-not-localize/red_2.png) Versión 20.2.1: compilación 9178 {#release-20-2-1-build-9178}
 
-_lunes, 8 de junio de 2020_
+_8 de junio de 2020_
 
 **Novedades**
 
