@@ -9,10 +9,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 425b2e5748703a8349b6f70968d1ef4c71f72b21
+source-git-commit: 333d2221d4f86fe18232473385653ed8409adf54
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 97%
+source-wordcount: '526'
+ht-degree: 80%
 
 ---
 
@@ -96,9 +96,19 @@ Para añadir las credenciales del proyecto en Adobe Campaign, ejecute el siguien
 nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
 ```
 
->[!NOTE]
->
->Debe codificar la clave privada en formato UTF-8 base64. Recuerde quitar la nueva línea de la clave antes de codificarla, excepto de la clave privada. La clave privada debe ser la misma que se utilizó para crear la integración. Para probar la codificación base64 de la clave privada, puede utilizar [este sitio web](https://www.base64encode.org/).
+La clave privada debe codificarse en formato UTF-8 base64. Para ello:
+
+1. Utilice la clave privada generada en el [Paso 1: Cree o actualice la sección Proyecto de Adobe I/O](#creating-adobe-io-project). La clave privada debe ser la misma que la utilizada para crear la integración.
+
+1. Con este [sitio Web](https://www.base64encode.org/), copie y pegue la clave privada en el campo correspondiente.
+
+   >[!NOTE]
+   >
+   >A veces se puede agregar automáticamente una línea adicional al copiar/pegar la clave privada. Recuerde eliminarla antes de codificar la clave privada.
+
+1. Haga clic en **[!UICONTROL Encode]**.
+
+1. Utilice la clave privada recién generada codificada en formato UTF-8 base64 para ejecutar el comando detallado anteriormente.
 
 ## Paso 3: Actualización de la etiqueta canalizada {#update-pipelined-tag}
 
