@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 55cc09c0446e389029890e45b790bb5ec6ffdc27
+source-git-commit: 5e6a30cd70c6eb21398fda4ac0572fcefa780e0d
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '685'
 ht-degree: 24%
 
 ---
@@ -57,7 +57,7 @@ Las opciones de seguimiento se pueden configurar activando o desactivando las di
 
 **Personalización de vínculos rastreados**
 
-Las funciones de seguimiento de Campaign Classic le permiten agregar vínculos en correos electrónicos que se pueden personalizar y que admiten el seguimiento. [Obtenga más información](https://helpx.adobe.com/campaign/kb/tracking-personnalized-links.html)
+Las funciones de seguimiento de Campaign Classic le permiten agregar vínculos en correos electrónicos que se pueden personalizar y que admiten el seguimiento. [Obtenga más información](../../delivery/using/tracking-personalized-links.md)
 
 **Registros de seguimiento**
 
