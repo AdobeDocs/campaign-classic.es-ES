@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 5e6a30cd70c6eb21398fda4ac0572fcefa780e0d
+source-git-commit: 9f898e28b981ea4257c9f4b73a579d322ddbba89
 workflow-type: tm+mt
 source-wordcount: '4066'
 ht-degree: 95%
@@ -45,6 +45,8 @@ Se ha agregado una sección de solución de problemas para ayudarle a resolver p
 
 La sección **Envío de un mensaje de correo electrónico** se ha reorganizado y aclarado con nuevas subsecciones. [Puede obtener más información](../../delivery/using/sending-messages.md)
 
+Se ha agregado información sobre cómo agregar vínculos en correos electrónicos que se pueden personalizar y que admiten el seguimiento. [Obtenga más información](../../delivery/using/tracking-personalized-links.md).
+
 ## Enero de 2021 {#jan-2021}
 
 La sección de actividad **[!UICONTROL Fork]** se ha enriquecido con prácticas recomendadas. [Puede obtener más información](../../workflow/using/fork.md)
@@ -62,8 +64,6 @@ La lista de flujos de trabajo técnicos con sus paquetes asociados se ha mejorad
 La sección de solución de problemas de la guía de **Supervisión** se ha reorganizado y mejorado con una página de aterrizaje. [Obtenga más información](../../production/using/troubleshooting.md).
 
 Hay una nueva sección de **Importación y exportación de datos** disponible con nuevas páginas relacionadas con flujos de trabajo, compresión de datos, cifrado y prácticas recomendadas de importación. [Puede obtener más información](../../platform/using/get-started-data-import-export.md)
-
-Se ha agregado información sobre cómo agregar vínculos en correos electrónicos que se pueden personalizar y que admiten el seguimiento. [Obtenga más información](../../delivery/using/tracking-personalized-links.md).
 
 ## Diciembre de 2020 {#dec-2020}
 
