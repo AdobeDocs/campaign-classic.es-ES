@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 177b4e74c75e4fcca70dc90b5ff2c0406181e0f7
+source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 73%
+source-wordcount: '92'
+ht-degree: 59%
 
 ---
 
@@ -31,3 +31,5 @@ Ahora, se desea crear dos plantillas de entrega. Se hará referencia a cada plan
 1. Repita este proceso para crear una plantilla para la entrega B.
 
    ![](assets/use_case_abtesting_deliverymodel_003.png)
+
+Ahora puede configurar los envíos en el flujo de trabajo (consulte [Paso 4: Configure los envíos en el flujo de trabajo](../../delivery/using/a-b-testing-uc-configuring-deliveries.md)).
