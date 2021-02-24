@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 151667637a12667f5eda1590e64e01de493be9ce
+source-git-commit: 9f898e28b981ea4257c9f4b73a579d322ddbba89
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 1%
@@ -59,7 +59,7 @@ Donde:
 
 El objeto puede ser:
 
-* *&quot;envío&quot;: para el envío actual (vea los detalles y las restricciones en la subsección siguiente).
+* &quot;envío&quot;: para el envío actual (vea los detalles y las restricciones en la subsección siguiente).
 * &quot;proveedor&quot;: para el proveedor/enrutamiento de envío actual (nms:externalAccount).
 * Un objeto de secuencia de comandos adicional: si un objeto se carga en el contexto mediante: **Propiedades** > **Personalización** > **Añadir objetos en el contexto de ejecución**.
 * Elemento del bucle foreach: consulte la sección [Foreach](#<%@-foreach) a continuación.
