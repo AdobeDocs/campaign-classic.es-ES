@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Personalización del seguimiento de direcciones URL
-description: Personalización del seguimiento de direcciones URL
+title: Configuración de las opciones de seguimiento de URL
+description: Configuración de las opciones de seguimiento de URL
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 019c982dcf040fb2dc2a1c82d4a2ff5a964ec5fa
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '164'
+ht-degree: 92%
 
 ---
 
 
-# Personalización del seguimiento de direcciones URL{#personalizing-url-tracking}
+# Configuración de las opciones de seguimiento de URL{#personalizing-url-tracking}
 
 Es posible acceder a los ajustes avanzados de seguimiento de mensajes mediante el icono **[!UICONTROL Tracking & Images]** de la barra de herramientas del asistente de envío.
 
