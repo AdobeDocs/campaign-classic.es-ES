@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
+source-git-commit: 5e6a30cd70c6eb21398fda4ac0572fcefa780e0d
 workflow-type: tm+mt
-source-wordcount: '4045'
-ht-degree: 96%
+source-wordcount: '4066'
+ht-degree: 95%
 
 ---
 
@@ -62,6 +62,8 @@ La lista de flujos de trabajo técnicos con sus paquetes asociados se ha mejorad
 La sección de solución de problemas de la guía de **Supervisión** se ha reorganizado y mejorado con una página de aterrizaje. [Obtenga más información](../../production/using/troubleshooting.md).
 
 Hay una nueva sección de **Importación y exportación de datos** disponible con nuevas páginas relacionadas con flujos de trabajo, compresión de datos, cifrado y prácticas recomendadas de importación. [Puede obtener más información](../../platform/using/get-started-data-import-export.md)
+
+Se ha agregado información sobre cómo agregar vínculos en correos electrónicos que se pueden personalizar y que admiten el seguimiento. [Obtenga más información](../../delivery/using/tracking-personalized-links.md).
 
 ## Diciembre de 2020 {#dec-2020}
 
