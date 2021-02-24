@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 177b4e74c75e4fcca70dc90b5ff2c0406181e0f7
+source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 92%
+source-wordcount: '174'
+ht-degree: 85%
 
 ---
 
@@ -80,3 +80,5 @@ Esta actividad permite crear varias poblaciones: la que recibe la entrega A, la 
    * Cambie la etiqueta para especificar que esta población no incluye A ni B y haga clic en **[!UICONTROL OK]** para cerrar la actividad.
 
       ![](assets/use_case_abtesting_createrecipients_013.png)
+
+Ahora puede crear las dos Plantillas de envíos (consulte [Paso 3: Cree dos Plantillas de envíos](../../delivery/using/a-b-testing-uc-delivery-templates.md)).
