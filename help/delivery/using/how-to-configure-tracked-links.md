@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 5e6a30cd70c6eb21398fda4ac0572fcefa780e0d
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 100%
+source-wordcount: '478'
+ht-degree: 92%
 
 ---
 
@@ -19,11 +19,14 @@ ht-degree: 100%
 
 Para cada entrega, puede hacer un seguimiento de la recepción de mensajes y la activación de los vínculos insertados en el contenido del mensaje. Esto permite hacer un seguimiento del comportamiento de los destinatarios haciendo un seguimiento de las acciones de entrega para las que se segmentaron.
 
+El seguimiento se aplica a los mensajes, pero el seguimiento web permite controlar cómo los destinatarios navegan por un sitio web (páginas visitadas, compras). La configuración del seguimiento web se presenta en [esta sección](../../configuration/using/about-web-tracking.md).
+
 >[!NOTE]
 >
->El seguimiento se aplica a los mensajes, pero el seguimiento web permite controlar cómo los destinatarios navegan por un sitio web (páginas visitadas, compras).
->
->La configuración del seguimiento web se presenta en [esta sección](../../configuration/using/about-web-tracking.md).
+>Los vínculos del contenido del correo electrónico que contienen personalización necesitan rastrearse con una sintaxis específica. Para obtener más información sobre cómo agregar vínculos en correos electrónicos que se pueden personalizar y que admitan el seguimiento, consulte [esta sección](../../delivery/using/tracking-personalized-links.md).
+
+
+
 
 El seguimiento de mensajes está activado de forma predeterminada. Para personalizar cómo se realiza el seguimiento de las direcciones URL, siga los pasos a continuación:
 
