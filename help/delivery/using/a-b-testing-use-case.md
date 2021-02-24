@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 346b72d522c947b2a2552176b910ded8d622f3ab
+source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 52%
+source-wordcount: '244'
+ht-degree: 51%
 
 ---
 
@@ -29,13 +29,14 @@ Además, la prueba detallada en este caso de uso se relaciona solamente con dos 
 
 Los pasos principales para realizar este caso de uso son:
 
-* [Paso 1: Crear un flujo de trabajo de objetivo](#step-1--creating-a-targeting-workflow)
-* [Paso 2: Configurar muestras de población](#step-2--configuring-population-samples)
-* [Paso 3: Crear dos Plantillas de envíos](#step-3--creating-two-delivery-templates)
-* [Paso 4: Configurar los envíos en el flujo de trabajo](#step-4--configuring-the-deliveries-in-the-workflow)
-* [Paso 5: Creación de la secuencia de comandos](#step-5--creating-the-script)
-* [Paso 7: Inicio del flujo de trabajo](#step-7--starting-the-workflow)
-* [Paso 8: Analizar el resultado](#step-8--analyzing-the-result).
+* [Paso 1: Crear un flujo de trabajo de objetivo](../../delivery/using/a-b-testing-uc-targeting-workflow.md)
+* [Paso 2: Configurar muestras de población](../../delivery/using/a-b-testing-uc-population-samples.md)
+* [Paso 3: Crear dos Plantillas de envíos](../../delivery/using/a-b-testing-uc-delivery-templates.md)
+* [Paso 4: Configurar los envíos en el flujo de trabajo](../../delivery/using/a-b-testing-uc-configuring-deliveries.md)
+* [Paso 5: Creación de la secuencia de comandos](../../delivery/using/a-b-testing-uc-script.md)
+* [Paso 6: Definir el envío final](../../delivery/using/a-b-testing-uc-final-delivery.md)
+* [Paso 7: Inicio del flujo de trabajo](../../delivery/using/a-b-testing-uc-start-workflow.md)
+* [Paso 8: Analizar el resultado](../../delivery/using/a-b-testing-uc-analyzing.md)
 
 **Temas relacionados:**
 
