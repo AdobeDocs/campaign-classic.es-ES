@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 177b4e74c75e4fcca70dc90b5ff2c0406181e0f7
+source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 88%
+source-wordcount: '111'
+ht-degree: 79%
 
 ---
 
@@ -27,3 +27,5 @@ Una vez que la secuencia de comandos se ha creado para seleccionar el ganador de
    ![](assets/ab_test_final_delivery.png)
 
 Al preparar la entrega especificada en la transición (definida a través de la actividad **[!UICONTROL Javascript Code]**), se puede aprobar dicha actividad y comenzar la entrega, tal y como se describe en el paso siguiente.
+
+Ahora puede realizar el inicio del flujo de trabajo (consulte [Paso 7: Inicio del flujo de trabajo](../../delivery/using/a-b-testing-uc-start-workflow.md)).
