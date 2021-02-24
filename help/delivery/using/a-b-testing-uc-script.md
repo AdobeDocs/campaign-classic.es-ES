@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 177b4e74c75e4fcca70dc90b5ff2c0406181e0f7
+source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 96%
+source-wordcount: '335'
+ht-degree: 92%
 
 ---
 
@@ -169,3 +169,5 @@ El ejemplo de arriba permite seleccionar el contenido de una entrega según la t
 * Número de páginas visitadas después de la recepción de un mensaje: `[indicators/@totalWebPage]`,
 * Tasa mínima de cancelación de suscripciones: `[indicators/@optOutRatio]`,
 * Cantidad de transacciones: `[indicators/@amount]`.
+
+Ahora puede definir el envío final (consulte [Paso 6: Defina el envío final](../../delivery/using/a-b-testing-uc-final-delivery.md)).
