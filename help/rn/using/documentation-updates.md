@@ -7,9 +7,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 9f898e28b981ea4257c9f4b73a579d322ddbba89
+source-git-commit: add0efb4efd5a37129c649b942799622947f3143
 workflow-type: tm+mt
-source-wordcount: '4066'
+source-wordcount: '4092'
 ht-degree: 95%
 
 ---
@@ -21,31 +21,35 @@ Esta página enumera todas las nuevas funciones y actualizaciones de la document
 
 Consulte las [Notas de la versión de Adobe Campaign Classic](../../rn/using/latest-release.md) para ver las actualizaciones relacionadas con la versión.
 
+## Marzo de 2021 {#march-2021}
+
+Se ha añadido información en la sección de actividad **[!UICONTROL Advanced JavaScript]** sobre cómo utilizar el método task.setCompleted() para finalizar la tarea y evitar futuras recuperaciones. [Puede obtener más información](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
+
 ## Febrero de 2021 {#release-21.1}
 
-**Actualizaciones de documentación incluidas en la versión 21.1**
+**Actualizaciones de la documentación incluidas en la versión 21.1**
 
-La nueva capacidad **Servicio de comentarios de correo electrónico** (beta privada) está documentada [aquí](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service).
+La nueva capacidad **Email Feedback Service** (beta privada) está documentada [aquí](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service).
 
-La sección **Archivo de configuración del servidor** se ha actualizado con los parámetros de configuración necesarios para que la Campaña se conecte a otro servicio mediante IMS. [Puede obtener más información](../../installation/using/the-server-configuration-file.md#ims)
+La sección **Archivo de configuración del servidor** se ha actualizado con los parámetros de configuración necesarios para que Campaign se conecte a otro servicio mediante IMS. [Puede obtener más información](../../installation/using/the-server-configuration-file.md#ims)
 
-En lista de los estados de envío, se ha actualizado la descripción de **que el proveedor de servicio** ha tenido en cuenta: este estado ahora también se utiliza para los envíos de correo electrónico enviados mediante el [servicio de comentarios de correo electrónico](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service). [Puede obtener más información](../../delivery/using/delivery-statuses.md#list-delivery-statuses)
+En la lista de estados de envío, se ha actualizado la descripción de **Taken into account by the service provider**: este estado ahora se utiliza también para envíos de correo electrónico realizados mediante el [servicio de comentarios de correo electrónico](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service). [Puede obtener más información](../../delivery/using/delivery-statuses.md#list-delivery-statuses)
 
 Los métodos abreviados de teclado disponibles en la nueva pantalla de inicio de sesión para conectarse a Adobe Campaign ya están documentados. [Puede obtener más información](../../platform/using/launching-adobe-campaign.md#connecting-to-adobe-campaign)
 
 **Otras actualizaciones**
 
-Se ha añadido una nueva sección con información detallada sobre cómo realizar pruebas A/B con flujos de trabajo. [Puede obtener más información](../../delivery/using/get-started-a-b-testing.md)
+Se ha añadido una nueva sección con información detallada sobre cómo realizar pruebas A/B mediante flujos de trabajo. [Puede obtener más información](../../delivery/using/get-started-a-b-testing.md)
 
-La sección MTA mejorada de Adobe Campaign se ha movido [aquí](../../delivery/using/sending-with-enhanced-mta.md).
+La sección MTA mejorado de Adobe Campaign se ha movido [aquí](../../delivery/using/sending-with-enhanced-mta.md).
 
-Se ha agregado una nueva página para proporcionar una visión general de las capacidades de seguimiento en [!DNL Campaign Classic]. [Puede obtener más información](../../delivery/using/about-message-tracking.md)
+Se ha añadido una nueva página para proporcionar una descripción general de las capacidades de seguimiento en [!DNL Campaign Classic]. [Puede obtener más información](../../delivery/using/about-message-tracking.md)
 
-Se ha agregado una sección de solución de problemas para ayudarle a resolver problemas comunes relacionados con el seguimiento. [Puede obtener más información](../../delivery/using/tracking-troubleshooting.md)
+Se ha añadido una sección de solución de problemas para ayudarle a resolver problemas comunes relacionados con el seguimiento. [Puede obtener más información](../../delivery/using/tracking-troubleshooting.md)
 
-La sección **Envío de un mensaje de correo electrónico** se ha reorganizado y aclarado con nuevas subsecciones. [Puede obtener más información](../../delivery/using/sending-messages.md)
+La sección **Envío de un correo electrónico** se ha reorganizado y aclarado con nuevas subsecciones. [Puede obtener más información](../../delivery/using/sending-messages.md)
 
-Se ha agregado información sobre cómo agregar vínculos en correos electrónicos que se pueden personalizar y que admiten el seguimiento. [Obtenga más información](../../delivery/using/tracking-personalized-links.md).
+Se ha añadido información sobre cómo añadir vínculos en correos electrónicos que se pueden personalizar y que admiten el seguimiento. [Obtenga más información](../../delivery/using/tracking-personalized-links.md).
 
 ## Enero de 2021 {#jan-2021}
 
