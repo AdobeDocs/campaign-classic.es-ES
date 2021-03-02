@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentación
 translation-type: tm+mt
-source-git-commit: 6dbf77c29dddc4b718910835520e4480e01d0d4a
+source-git-commit: 4a56feac374506bb33ae6770aa247a197f1669fb
 workflow-type: tm+mt
-source-wordcount: '2368'
+source-wordcount: '2372'
 ht-degree: 97%
 
 ---
@@ -125,11 +125,11 @@ ht-degree: 97%
       + [Creación de una entrega de correo electrónico](delivery/using/creating-an-email-delivery.md)
       + [Definición del contenido del correo electrónico](delivery/using/defining-the-email-content.md)
       + [ Definición del contenido interactivo ](delivery/using/defining-interactive-content.md)
-      + Envío de correos electrónicos {#sending-an-email}
-         + [Confirmación del envío de correo electrónico](delivery/using/sending-messages.md)
+      + Envío del envío de correo electrónico {#sending-an-email}
+         + [Pasos principales para enviar un correo electrónico](delivery/using/sending-messages.md)
          + [Parámetros de correo electrónico](delivery/using/email-parameters.md)
          + [Envío con el MTA mejorado](delivery/using/sending-with-enhanced-mta.md)
-         + [Enviando en móviles japoneses](delivery/using/sending-emails-on-japanese-mobiles.md)
+         + [Envío en móviles japoneses](delivery/using/sending-emails-on-japanese-mobiles.md)
       + [Archivos adjuntos](delivery/using/attaching-files.md)
    + Envío de mensajes en móviles {#sending-messages-on-mobiles}
       + [Canal de SMS](delivery/using/sms-channel.md)
@@ -171,13 +171,13 @@ ht-degree: 97%
       + [Ejemplo de uso: selección de direcciones semilla según ciertos criterios](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
       + [Ejemplo de uso: Configuración de la sustitución de campos](delivery/using/use-case--configuring-the-field-substitution.md)
    + Prueba A/B {#a-b-testing}
-      + [Introducción a la prueba A/B](delivery/using/get-started-a-b-testing.md)
-      + [Configuración de la prueba A/B](delivery/using/configuring-a-b-testing.md)
+      + [Introducción a las pruebas A/B](delivery/using/get-started-a-b-testing.md)
+      + [Configuración de pruebas A/B](delivery/using/configuring-a-b-testing.md)
       + Ejemplo de uso {#use-case}
          + [Acerca de este caso de uso](delivery/using/a-b-testing-use-case.md)
          + [Creación de un flujo de trabajo de objetivos](delivery/using/a-b-testing-uc-targeting-workflow.md)
          + [Configuración de muestras de población](delivery/using/a-b-testing-uc-population-samples.md)
-         + [Creación de Plantillas de envíos](delivery/using/a-b-testing-uc-delivery-templates.md)
+         + [Creación de las plantillas de envío](delivery/using/a-b-testing-uc-delivery-templates.md)
          + [Configuración de los envíos](delivery/using/a-b-testing-uc-configuring-deliveries.md)
          + [Creación de la secuencia de comandos](delivery/using/a-b-testing-uc-script.md)
          + [Definición del envío final](delivery/using/a-b-testing-uc-final-delivery.md)
