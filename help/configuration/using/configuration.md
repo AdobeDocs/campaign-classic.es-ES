@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
 translation-type: tm+mt
-source-git-commit: 6e0741d13aa954e81fe6416663399ffd1a81012f
+source-git-commit: 04b8287dba00adbc391d611cbaf63b36a4bc3d10
 workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Configuración{#configuration}
 
-Los tipos de carpetas que utiliza la lista de navegación se describen en un documento XML que obedece la gramática del esquema **xtk:navtree**.
+Los tipos de carpetas utilizados por la lista de navegación se describen en un documento XML que sigue la gramática del esquema **xtk:navtree**.
 
 El documento XML está estructurado de la siguiente manera:
 
@@ -41,11 +41,11 @@ El documento XML está estructurado de la siguiente manera:
 </navtree>
 ```
 
-El documento XML contiene el elemento raíz **`<navtree>`** con los atributos **name** y **Área de nombres** para especificar el nombre y la Área de nombres del documento. El nombre y la Área de nombres constituyen la clave de identificación del documento.
+El documento XML contiene el elemento raíz **`<navtree>`** con los atributos **name** y **namespace** para especificar el nombre del documento y el área de nombres. El nombre y el área de nombres constituyen la clave de identificación del documento.
 
-Los comandos globales de la aplicación se declaran en el documento desde el elemento **`<commands>`**.
+Los comandos globales de la aplicación se declaran en el documento desde el elemento **`<commands>`** .
 
-La declaración de tipos de archivo está estructurada en el documento con los siguientes elementos: **`<model>`** y **`<nodemodel>`**.
+La declaración de tipos de archivo se estructura en el documento con los siguientes elementos: **`<model>`** y **`<nodemodel>`**.
 
 ## Comandos globales {#global-commands}
 
@@ -78,22 +78,22 @@ La estructura de configuración de comandos es la siguiente:
 
 La descripción de un comando global se introduce en el elemento **`<command>`** con las siguientes propiedades:
 
-* **name**: nombre interno del comando: debe introducirse el nombre y ser único
-* **label**: del comando.
+* **nombre**: nombre interno del comando: debe introducirse el nombre y ser único
+* **etiqueta**: etiqueta del comando.
 * **desc**: descripción visible desde la barra de estado de la pantalla principal.
-* **formulario**: formulario que se va a iniciar: el valor que se debe introducir es la clave de identificación del formulario de entrada (p. ej. &quot;cus:destinatario&quot;)
-* **derechos**: lista de derechos asignados (separados por coma) que permiten el acceso a este comando. Se puede acceder a la lista de derechos disponibles desde la carpeta **[!UICONTROL Administration > Access management > Named rights]**.
-* **promptLabel**: muestra un cuadro de confirmación antes de ejecutar el comando.
+* **formulario**: formulario que se va a iniciar: el valor que se va a introducir es la clave de identificación del formulario de entrada (p. ej. &quot;cus:recipient&quot;)
+* **derechos**: lista de derechos asignados (separados por una coma) que permiten el acceso a este comando. Se puede acceder a la lista de derechos disponibles desde la carpeta **[!UICONTROL Administration > Access management > Named rights]** .
+* **requestLabel**: muestra un cuadro de confirmación antes de ejecutar el comando.
 
-Un elemento **`<command>`** puede contener subelementos **`<command>`**. En este caso, el elemento principal permite mostrar un submenú compuesto por estos elementos secundarios.
+Un elemento **`<command>`** puede contener **`<command>`** subelementos. En este caso, el elemento principal permite mostrar un submenú compuesto por estos elementos secundarios.
 
 Los comandos se muestran en el mismo orden en que se declaran en el documento XML.
 
-Un separador de comandos permite mostrar una barra de separación entre comandos. Se identifica mediante el valor **&#39;-&#39;** contenido en la etiqueta de comando.
+Un separador de comandos permite mostrar una barra de separación entre los comandos. Se identifica con el valor **&#39;-&#39;** contenido en la etiqueta de comando.
 
-La presencia opcional de la etiqueta **`<soapcall>`** con sus parámetros de entrada define la llamada de un método SOAP que se va a ejecutar. Para obtener más información sobre la API de SOAP, consulte la [documentación de JSAPI de Campaña](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
+La presencia opcional de la etiqueta **`<soapcall>`** con sus parámetros de entrada define la llamada de un método SOAP que se va a ejecutar. Para obtener más información sobre la API SOAP, consulte [Documentación de JSAPI de Campaign](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
 
-El contexto del formulario se puede actualizar al inicializarlo desde la etiqueta **`<enter>`**. Para obtener más información sobre esta etiqueta, consulte la documentación sobre los formularios de entrada.
+El contexto del formulario se puede actualizar en la inicialización desde la etiqueta **`<enter>`** . Para obtener más información sobre esta etiqueta, consulte la documentación sobre los formularios de entrada.
 
 **Ejemplo**:
 
@@ -103,7 +103,7 @@ El contexto del formulario se puede actualizar al inicializarlo desde la etiquet
    <command desc="Start the data import wizard" form="xtk:import" label="&amp;Data import..." name="import" rights="import,recipientImport"/>
    ```
 
-   Se declara un método abreviado de teclado en el carácter &#39;I&#39; mediante la presencia de **&amp;** en la etiqueta de comando.
+   Se declara una combinación de teclas en el carácter &#39;I&#39; mediante la presencia de **&amp;** en la etiqueta de comando.
 
 * Ejemplo de un submenú con un separador:
 
@@ -159,19 +159,19 @@ Los atributos **name** y **label** rellenan el nombre interno del elemento y la 
 
 El elemento **`<nodemodel>`** contiene la descripción del tipo de carpeta con las siguientes propiedades:
 
-* **name**: nombre interno
-* **label**: se utiliza en el  **[!UICONTROL Add new folder]** menú y como etiqueta predeterminada al insertar una carpeta.
+* **nombre**: nombre interno
+* **etiqueta**: etiqueta utilizada en el  **[!UICONTROL Add new folder]** menú y como etiqueta predeterminada al insertar una carpeta.
 * **img**: imagen predeterminada al insertar una carpeta.
-* **hiddenCommands**: lista de comandos (separados por coma) que se van a enmascarar. Valores posibles: &quot;adbnew&quot;, &quot;adbsave&quot;, &quot;adbcancel&quot; y &quot;adbdup&quot;.
+* **hiddenCommands**: lista de comandos (separados por una coma) que se van a ocultar. Valores posibles: &quot;adbnew&quot;, &quot;adbsave&quot;, &quot;adbcancel&quot; y &quot;adbdup&quot;.
 * **newFolderShortCuts**: lista de accesos directos en modelos (**`<nodemodel>`** separados por coma) en la creación de carpetas.
 * **insertRight**,  **editRight**,  **deleteRight**: derechos para insertar, editar y eliminar carpetas.
 
-El elemento **`<view>`** del elemento **`<nodemodel>`** contiene la configuración de la lista asociada con la vista. El esquema de la lista se introduce en el atributo **esquema** del elemento **`<view>`**.
+El elemento **`<view>`** del elemento **`<nodemodel>`** contiene la configuración de la lista asociada a la vista. El esquema de la lista se introduce en el atributo **schema** del elemento **`<view>`**.
 
 Para editar los registros de la lista, se utiliza implícitamente el formulario de entrada con el mismo nombre que el esquema de lista. El atributo **type** del elemento **`<view>`** afecta a la visualización del formulario. Los valores posibles son:
 
 * **listdet**: muestra el formulario en la parte inferior de la lista.
-* **lista**: muestra la lista sola. El formulario se inicia haciendo clic con el doble o mediante la opción &quot;Abrir&quot; del menú al seleccionar la lista.
+* **lista**: muestra la lista sola. El formulario se inicia haciendo doble clic o a través de la opción &quot;Abrir&quot; del menú al seleccionar la lista.
 * **formulario**: muestra un formulario de solo lectura.
 * **editForm**: muestra un formulario en modo de edición.
 
@@ -179,9 +179,9 @@ Para editar los registros de la lista, se utiliza implícitamente el formulario 
 >
 >El nombre del formulario de entrada se puede sobrecargar introduciendo el atributo **form** en el elemento **`<view>`**.
 
-La configuración predeterminada de las columnas de lista se introduce mediante el elemento **`<columns>`**. Se declara una columna en un elemento **`<node>`** que contiene el atributo **xpath** con el campo al que se hará referencia en su esquema como su valor.
+La configuración predeterminada de las columnas de la lista se introduce mediante el elemento **`<columns>`** . Se declara una columna en un elemento **`<node>`** que contiene el atributo **xpath** con el campo al que se hace referencia en su esquema como su valor.
 
-**Ejemplo**: declaración de un tipo de carpeta en el esquema &quot;nms:destinatario&quot;.
+**Ejemplo**: declaración de un tipo de carpeta en el esquema &quot;nms:recipient&quot;.
 
 ```
 <model label="Profiles and targets" name="nmsProfiles">
@@ -201,11 +201,11 @@ La configuración predeterminada de las columnas de lista se introduce mediante 
 </model>
 ```
 
-El menú de inserción de carpetas correspondiente:
+El menú de inserción de la carpeta correspondiente:
 
 ![](assets/d_ncs_integration_navigation_exemple2.png)
 
-El filtrado y la ordenación se pueden aplicar al cargar la lista:
+El filtrado y la ordenación se pueden aplicar cuando se carga la lista:
 
 ```
 <view name="listdet" schema="nms:recipient" type="listdet">
@@ -224,7 +224,7 @@ El filtrado y la ordenación se pueden aplicar al cargar la lista:
 
 ### Comandos de acceso directo {#shortcut-commands}
 
-Un comando de método abreviado permite iniciar una acción al seleccionar la lista. La acción puede ser un formulario de entrada o una llamada SOAP.
+Un comando de acceso directo permite iniciar una acción al seleccionar la lista. La acción puede ser un formulario de entrada o una llamada SOAP.
 
 Se puede acceder a los comandos desde el menú **[!UICONTROL Action]** de la lista o desde el botón de menú asociado.
 
@@ -247,26 +247,26 @@ La estructura de configuración de comandos es la siguiente:
 
 La descripción de un comando se introduce en el elemento **`<command>`** con las siguientes propiedades:
 
-* **name**: nombre interno del comando: el nombre debe escribirse y ser único.
-* **label**: del comando.
+* **nombre**: nombre interno del comando: el nombre debe introducirse y ser único.
+* **etiqueta**: etiqueta del comando.
 * **desc**: descripción visible desde la barra de estado de la pantalla principal.
-* **formulario**: formulario que se va a iniciar: el valor que se debe introducir es la clave de identificación del formulario de entrada (p. ej. &quot;cus:destinatario&quot;).
-* **derechos**: lista de derechos asignados (separados por coma) que permiten el acceso a este comando. Se puede acceder a la lista de derechos disponibles desde la carpeta **[!UICONTROL Administration > Access management > Named rights]**.
-* **promptLabel**: muestra un cuadro de confirmación antes de ejecutar el comando
+* **formulario**: formulario que se va a iniciar: el valor que se va a introducir es la clave de identificación del formulario de entrada (p. ej. &quot;cus:recipient&quot;).
+* **derechos**: lista de derechos asignados (separados por una coma) que permiten el acceso a este comando. Se puede acceder a la lista de derechos disponibles desde la carpeta **[!UICONTROL Administration > Access management > Named rights]** .
+* **requestLabel**: muestra un cuadro de confirmación antes de ejecutar el comando
 * **monoSelection**: fuerza la selección mono (selección múltiple de forma predeterminada).
-* **refreshView**: fuerza la recarga de la lista después de ejecutar el comando.
+* **refreshView**: fuerza la recarga de la lista después de la ejecución del comando.
 * **enabledIf**: activa el comando en función de la expresión introducida.
-* **img**: introduce una imagen que permite acceder al comando desde la barra de herramientas de lista.
+* **img**: introduce una imagen que permite acceder al comando desde la barra de herramientas de la lista.
 
-Un elemento **`<command>`** puede contener subelementos **`<command>`**. En este caso, el elemento principal permite mostrar un submenú compuesto por estos elementos secundarios.
+Un elemento **`<command>`** puede contener **`<command>`** subelementos. En este caso, el elemento principal permite mostrar un submenú compuesto por estos elementos secundarios.
 
 Los comandos se muestran en el mismo orden en que se declaran en el documento XML.
 
-Un separador de comandos permite mostrar una barra de separación entre comandos. Se identifica mediante el valor **&#39;-&#39;** contenido en la etiqueta de comando.
+Un separador de comandos permite mostrar una barra de separación entre los comandos. Se identifica con el valor **&#39;-&#39;** contenido en la etiqueta de comando.
 
-La presencia opcional de la etiqueta **`<soapcall>`** con sus parámetros de entrada define la llamada de un método SOAP que se va a ejecutar. Para obtener más información sobre las API de SOAP, consulte [documentación de JSAPI de Campaña](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
+La presencia opcional de la etiqueta **`<soapcall>`** con sus parámetros de entrada define la llamada de un método SOAP que se va a ejecutar. Para obtener más información sobre las API de SOAP, consulte [Documentación de JSAPI de Campaign](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
 
-El contexto del formulario se puede actualizar al inicializarlo mediante la etiqueta **`<enter>`**. Para obtener más información sobre esta etiqueta, consulte la documentación del formulario de entrada.
+El contexto del formulario se puede actualizar en la inicialización mediante la etiqueta **`<enter>`** . Para obtener más información sobre esta etiqueta, consulte la documentación del formulario de entrada.
 
 **Ejemplo**:
 
@@ -289,18 +289,18 @@ El contexto del formulario se puede actualizar al inicializarlo mediante la etiq
 
 Existen dos tipos de operaciones de administración de carpetas:
 
-1. La carpeta es una vista: la lista muestra todos los registros asociados con el esquema, con la posibilidad de que el sistema filtre los datos introducidos en las propiedades de la carpeta.
-1. La carpeta está vinculada: los registros de la lista se filtran implícitamente en el vínculo de la carpeta.
+1. La carpeta es una vista: la lista muestra todos los registros asociados al esquema, con la posibilidad de que el sistema filtre introducidos en las propiedades de la carpeta.
+1. La carpeta está vinculada: los registros de la lista se filtran implícitamente en el vínculo de carpeta.
 
-Para una carpeta vinculada, debe rellenarse el atributo **folderLink** del elemento **`<nodemodel>`**. Este atributo contiene el nombre del vínculo de la carpeta configurada en el esquema de datos.
+Para una carpeta vinculada, el atributo **folderLink** del elemento **`<nodemodel>`** debe rellenarse. Este atributo contiene el nombre del vínculo en la carpeta configurada en el esquema de datos.
 
 Ejemplo de declaración de una carpeta vinculada en el esquema de datos:
 
 ```
-<element default="DefaultFolder('nmsFolder')" label="Folder" name="folder" revDesc="Recipients in the folder" revIntegrity="own" revLabel="Recipients" target="xtk:folder" type="link"/>
+<element default="DefaultFolder('nmsFolder', [@_folder-id])" label="Folder" name="folder" revDesc="Recipients in the folder" revIntegrity="define" revLabel="Recipients" target="xtk:folder" type="link"/>
 ```
 
-La configuración de **`<nodemodel>`** en el vínculo de la carpeta denominada &quot;folder&quot; es la siguiente:
+La configuración del **`<nodemodel>`** en el enlace de la carpeta denominada &quot;folder&quot; es la siguiente:
 
 ```
 <nodeModel deleteRight="folderDelete" editRight="folderEdit" folderLink="folder"
