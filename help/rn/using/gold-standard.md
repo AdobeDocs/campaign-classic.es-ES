@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 3105372bc020057727e28d26e7969c31ac290115
+source-git-commit: 23ba4091a1ffaa0245c58e8d346c60b54f79b4a2
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 100%
+source-wordcount: '1112'
+ht-degree: 92%
 
 ---
 
@@ -27,15 +27,30 @@ Para obtener más información sobre el programa de Gold Standard de Campaign, [
 
 ## ![](assets/do-not-localize/green_2.png) Versión Gold Standard 11{#gs-11}
 
+_2 de marzo de 2021_
+
+La versión 9032@10c2709 incluye la siguiente corrección:
+
+* Se ha corregido una regresión que impedía el uso de algunos componentes de la consola, como el selector de fechas y la administración de imágenes en los envíos. (NEO-31453, NEO-31454)
+
+**Solo es obligatorio actualizar la consola. No se requiere ninguna actualización del servidor.**
+
+>[!NOTE]
+>
+> Conéctese a [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) para descargar la nueva versión. Aprenda a proponer la actualización de la consola a todos los usuarios finales [en esta página](../../installation/using/client-console-availability-for-windows.md).
+
+
 _22 de diciembre de 2020_
 
 >[!CAUTION]
 >
-> * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaign a través de Adobe Identity Service (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **31 de marzo de 2021**.
+> * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaign a través de Adobe Identity Service (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola de cliente para poder conectarse a Campaign después del **31 de marzo de 2021**.
 > * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
-> * Si está utilizando la integración de Experience Cloud Triggers mediante la oAuth authentication, debe desplazarse a Adobe I/O como se describe [en esta página](../../integrations/using/configuring-adobe-io.md). El modo oAuth authentication heredado se eliminará el **30 de abril de 2021**.
+> * Si utiliza la integración de los activadores de Experience Cloud mediante la autenticación oAuth, debe pasar a Adobe I/O como se describe [en esta página](../../integrations/using/configuring-adobe-io.md). El modo oAuth authentication heredado se eliminará el **30 de abril de 2021**.
+
 >
->Obtenga más información en las [Preguntas frecuentes sobre la actualización a Gold Standard 11](https://helpx.adobe.com/es/campaign/kb/sms-connector-protocol-and-settings.html).
+>
+Obtenga más información en las [Preguntas frecuentes sobre la actualización a Gold Standard 11](https://helpx.adobe.com/es/campaign/kb/sms-connector-protocol-and-settings.html).
 
 La versión 9032@d3b452f incluye las siguientes mejoras y correcciones:
 
@@ -111,7 +126,7 @@ La versión 9032@3a9dc9c incluye las siguientes correcciones:
 
 ## ![](assets/do-not-localize/red_2.png) Versión Gold Standard 6{#gs-6}
 
-_9 de marzo de 2020_
+_viernes, 9 de marzo de 2020_
 
 La versión 9032@19f73c5 incluye la siguiente corrección:
 
