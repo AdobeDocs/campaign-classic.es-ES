@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: 97546a5a49880c5af51754fb5d7b02359f3d556c
+source-git-commit: 571821ce775a7c354d01404d14faee8d2a21c170
 workflow-type: tm+mt
 source-wordcount: '1435'
 ht-degree: 99%
@@ -37,19 +37,19 @@ _23 de diciembre de 2020_
 
 ## ![](assets/do-not-localize/red_2.png) Versión 20.1.3: compilación 9124{#release-20-1-3-build-9124}
 
-_6 de mayo de 2020_
+_miércoles, 6 de mayo de 2020_
 
 * Se ha corregido un problema con la actividad **File Transfer** que impedía que la autenticación basada en claves SFTP funcionara en Debian 9. (NEO-23183)
 
 ## ![](assets/do-not-localize/red_2.png) Versión 20.1.2: compilación 9123{#release-20-1-2-build-9123}
 
-_13 de marzo de 2020_
+_viernes, 13 de marzo de 2020_
 
 * Se ha corregido un problema que impedía la implementación de versiones en servidores de Red Hat 7. (NEO-23332)
 
 ## ![](assets/do-not-localize/red_2.png) Versión 20.1: compilación 9122{#release-20-1-build-9122}
 
-_17 de febrero de 2020_
+_lunes, 17 de febrero de 2020_
 
 **Novedades**
 
