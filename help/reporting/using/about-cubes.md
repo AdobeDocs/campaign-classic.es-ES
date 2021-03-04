@@ -7,15 +7,15 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 100%
+source-wordcount: '733'
+ht-degree: 99%
 
 ---
 
 
-# Acerca de los cubos{#about-cubes}
+# Introducción a cubos{#about-cubes}
 
 La exploración de datos en la base de datos se ofrece mediante el módulo **Marketing Analytics.** Permite analizar y medir los datos, calcular las estadísticas y simplificar y optimizar la creación y el cálculo del informe. Además, Marketing Analytics permite crear informes y generar poblaciones de público objetivo. Una vez identificados, se almacenan en listas que se pueden utilizar en Adobe Campaign (establecimiento de objetivos, segmentación, etc.).
 
