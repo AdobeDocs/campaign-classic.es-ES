@@ -7,15 +7,15 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 100%
+source-wordcount: '619'
+ht-degree: 99%
 
 ---
 
 
-# Ejemplo de uso: creación de un formulario de “recomendar a un amigo”{#use-case-creating-a-refer-a-friend-form}
+# Caso de uso: crear un formulario de referencia{#use-case-creating-a-refer-a-friend-form}
 
 En este ejemplo queremos ofrecer una competencia a los destinatarios de la base de datos. El formulario web incluye una sección para introducir respuestas y otra para recomendar a un amigo introduciendo su dirección de correo electrónico.
 
