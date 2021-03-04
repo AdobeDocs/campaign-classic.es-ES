@@ -7,15 +7,15 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 14513d5ecbfdd5637b764c8f19bc01358e63c130
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 100%
+source-wordcount: '1101'
+ht-degree: 99%
 
 ---
 
 
-# Canal LINE{#line-channel}
+# Creación de entregas LINE{#line-channel}
 
 LINE es una aplicación gratuita de mensajería instantánea, llamadas de voz y vídeo, disponible en todos los teléfonos inteligentes (iPhone, Android, Windows Phone, Blackberry, Nokia) y PC. Adobe Campaign le permite enviar mensajes por LINE.
 
