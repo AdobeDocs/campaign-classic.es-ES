@@ -7,15 +7,15 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 
-# Diseño de una aplicación web{#designing-a-web-application}
+# Diseñar una aplicación web{#designing-a-web-application}
 
 Las aplicaciones web se crean y se administran según el mismo principio que las [encuestas en línea](../../web/using/about-surveys.md).
 
