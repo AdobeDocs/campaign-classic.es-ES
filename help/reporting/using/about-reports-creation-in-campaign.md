@@ -7,15 +7,15 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 100%
+source-wordcount: '167'
+ht-degree: 96%
 
 ---
 
 
-# Acerca de la creación de informes en Campaign{#about-reports-creation-in-campaign}
+# Pasos clave para crear un informe{#about-reports-creation-in-campaign}
 
 Para generar estadísticas sobre los datos de la base de datos de Campaign, puede crear informes y adaptar su contenido y diseño según sus necesidades. Estos informes se pueden compartir con otros operadores.
 
