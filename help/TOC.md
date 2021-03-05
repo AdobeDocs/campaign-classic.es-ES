@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentación
 translation-type: tm+mt
-source-git-commit: 14513d5ecbfdd5637b764c8f19bc01358e63c130
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '2381'
+source-wordcount: '2391'
 ht-degree: 60%
 
 ---
@@ -237,10 +237,12 @@ ht-degree: 60%
       + [Diseño de campañas de marketing](campaign/using/designing-marketing-campaigns.md)
       + [Acceso a campañas de marketing](campaign/using/accessing-marketing-campaigns.md)
    + Organización de campañas {#orchestrate-campaigns}
-      + [Configuración de campañas de marketing](campaign/using/setting-up-marketing-campaigns.md)
-      + [Plantillas de campañas de marketing](campaign/using/marketing-campaign-templates.md)
-      + [Entregas de campañas de marketing](campaign/using/marketing-campaign-deliveries.md)
-      + [Aprobación de campañas de marketing](campaign/using/marketing-campaign-approval.md)
+      + [Introducción a las campañas de marketing](campaign/using/setting-up-marketing-campaigns.md)
+      + [Creación y configuración de plantillas](campaign/using/marketing-campaign-templates.md)
+      + [Añadir entregas](campaign/using/marketing-campaign-deliveries.md)
+      + [Seleccionar la audiencia](campaign/using/marketing-campaign-target.md)
+      + [Administrar documentos y recursos](campaign/using/marketing-campaign-assets.md)
+      + [Configuración y administración de aprobaciones](campaign/using/marketing-campaign-approval.md)
       + [Monitorización de campañas](campaign/using/marketing-campaign-monitoring.md)
       + [Proveedores, stock y presupuestos](campaign/using/providers--stocks-and-budgets.md)
    + Tareas, recursos y presupuestos {#tasks--resources-and-budgets}
