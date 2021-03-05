@@ -6,22 +6,32 @@ description: Plantillas de campañas de marketing
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: ht
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: ht
-source-wordcount: '1124'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
+workflow-type: tm+mt
+source-wordcount: '1128'
+ht-degree: 80%
 
 ---
 
 
-# Plantillas de campañas de marketing {#campaign-templates}
+# Crear y configurar plantillas de campaña {#campaign-templates}
 
-Las plantillas de campaña están centralizadas en el nodo **[!UICONTROL Resources > Templates > Campaign templates]**. Se proporciona una plantilla predeterminada como estándar. Permite crear una nueva campaña utilizando todos los módulos disponibles (documentos, tareas, direcciones semilla, etc.); sin embargo, los módulos ofrecidos dependen de los derechos y de la configuración de la plataforma de Adobe Campaign.
+Todas las campañas de marketing se basan en una plantilla que almacena las características y capacidades principales. Las plantillas de campaña están centralizadas en el nodo **[!UICONTROL Resources > Templates > Campaign templates]**. Se proporciona una plantilla predeterminada como estándar. Permite crear una nueva campaña utilizando todos los módulos disponibles (documentos, tareas, direcciones semilla, etc.); sin embargo, los módulos ofrecidos dependen de los derechos y de la configuración de la plataforma de Adobe Campaign.
 
-## Creación o duplicación de una plantilla de campaña {#creating-or-duplicating-a-campaign-template}
+![](assets/s_ncs_user_campaign_op_template_node.png)
 
-Para crear una nueva plantilla, realice los pasos siguientes:
+>[!NOTE]
+>
+>El árbol se muestra al hacer clic en el icono **[!UICONTROL Explorer]** de la página de inicio.
+
+Se proporciona una plantilla integrada para crear una campaña para la que no se ha definido ninguna configuración específica. Puede crear y configurar las plantillas de campañas y luego crear campañas a partir de estas plantillas.
+
+![](assets/do-not-localize/how-to-video.png) Para obtener más información sobre la creación de campañas, consulte [este vídeo](../../campaign/using/marketing-campaign-deliveries.md#create-email-video).
+
+## Crear una plantilla de campaña {#creating-or-duplicating-a-campaign-template}
+
+Para crear una plantilla de campaña, siga los pasos a continuación:
 
 1. Abra el **Explorer** de Campaign.
 1. En **Resources > Templates > Campaign templates**, haga clic en **New** en la barra de herramientas de la lista de plantillas.
@@ -47,39 +57,19 @@ Para crear una nueva plantilla, realice los pasos siguientes:
 1. Cree su flujo de trabajo según sus necesidades.
 1. Haga clic en **Save**. La plantilla está lista para utilizarse en una campaña.
 
-También puede duplicar la plantilla predeterminada para reutilizar y adaptar su configuración.
+También puede **duplicar** la plantilla predeterminada para reutilizar y adaptar su configuración.
 
 Las distintas pestañas y subpestañas de la plantilla de campaña permiten acceder a su configuración, tal y como se describe en [Configuración general](#general-configuration).
 
 ![](assets/s_ncs_user_new_op_template_duplicate.png)
 
-## Configuración de una plantilla de campaña {#configuring-a-campaign-template}
+## Seleccionar módulos {#select-modules}
 
-Las campañas se basan en modelos que comparten un conjunto de parámetros predefinidos.
-
-En una configuración predeterminada, las plantillas de campaña están centralizadas en el nodo **[!UICONTROL Resources > Templates > Campaign templates]** del árbol de Adobe Campaign.
-
-![](assets/s_ncs_user_campaign_op_template_node.png)
-
->[!NOTE]
->
->El árbol se muestra al hacer clic en el icono **[!UICONTROL Explorer]** de la página de inicio.
-
-Se proporciona una plantilla predeterminada para crear una campaña sin ninguna configuración específica definida. Puede crear y configurar las plantillas de campañas y luego crear campañas a partir de estas plantillas.
-
-La creación y la configuración de las plantillas de campaña se muestran en [Plantillas de campaña](#campaign-templates).
-
-![](assets/do-not-localize/how-to-video.png) Para obtener más información sobre la creación de campañas, consulte [este vídeo](../../campaign/using/marketing-campaign-deliveries.md#create-email-video).
-
-## Configuración de los módulos disponibles {#configuration-of-the-available-modules}
-
-### Selección de módulos {#module-selection}
-
-El vínculo **[!UICONTROL Advanced campaign settings...]** permite habilitar y deshabilitar los trabajos de las campañas en función de esta plantilla. Seleccione las funciones que desee habilitar en las campañas creadas en función de esta plantilla.
+El vínculo **[!UICONTROL Advanced campaign settings...]** permite habilitar y deshabilitar los trabajos de las campañas en función de esta plantilla. Seleccione las capacidades que desee habilitar en las campañas creadas en función de esta plantilla.
 
 ![](assets/s_ncs_user_op_template_tab1.3.png)
 
-Si no se selecciona una función, los elementos correspondientes del proceso (menús, iconos, opciones, pestañas, subpestañas, etc.) no aparecen en la interfaz de la plantilla ni en las campañas basadas en esta plantilla. Las pestañas a la izquierda de los detalles de la campaña generalmente coinciden con los procesos seleccionados en la plantilla. Por ejemplo: si no se selecciona **Expenses and Objectives**, la pestaña correspondiente **[!UICONTROL Budget]** no se muestra en las campañas basadas en esta plantilla.
+Si no se selecciona una capacidad, los elementos correspondientes al proceso (menús, iconos, opciones, pestañas, subpestañas, etc.) no aparecen en la interfaz de la plantilla ni en las campañas basadas en esta plantilla. Las pestañas a la izquierda de los detalles de la campaña generalmente coinciden con los procesos seleccionados en la plantilla. Por ejemplo: si no se selecciona **Expenses and Objectives**, la pestaña correspondiente **[!UICONTROL Budget]** no se muestra en las campañas basadas en esta plantilla.
 
 Además, los accesos directos a las ventanas de configuración se añaden al panel de campañas. Cuando una funcionalidad está habilitada, un vínculo directo le permite acceder a ella desde el panel de campañas.
 
@@ -103,35 +93,35 @@ Se muestran los siguientes vínculos y pestañas:
 
 ![](assets/s_ncs_user_op_template_tab2.3ex.png)
 
-### Tipología de módulos habilitados {#typology-of-enabled-modules}
+## Tipología de módulos {#typology-of-enabled-modules}
 
 * **Grupo de control**
 
-   Cuando se selecciona este módulo, se añade una pestaña adicional a la configuración avanzada de la plantilla y a las campañas basadas en esta plantilla. La configuración se puede definir mediante la plantilla o por separado para cada campaña.
+   Cuando se selecciona este módulo, se añade una pestaña adicional a la configuración avanzada de la plantilla y a las campañas basadas en esta plantilla. La configuración se puede definir mediante la plantilla o por separado para cada campaña. Obtenga más información sobre los grupos de control en [esta sección](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
    ![](assets/s_ncs_user_op_template_activate_1.png)
 
 * **Direcciones semilla**
 
-   Cuando se selecciona este módulo, se añade una pestaña adicional a la configuración avanzada de la plantilla y a las campañas basadas en esta plantilla. La configuración se puede definir mediante la plantilla o por separado para cada campaña.
+   Cuando se selecciona este módulo, se añade una pestaña adicional a la configuración avanzada de la plantilla y a las campañas basadas en esta plantilla. La configuración se puede definir mediante la plantilla o por separado para cada campaña. Obtenga más información sobre las direcciones semilla en [esta sección](../../delivery/using/about-seed-addresses.md).
 
    ![](assets/s_ncs_user_op_template_activate_2.png)
 
 * **Documentos**
 
-   Cuando se selecciona este módulo, se añade una pestaña adicional a la pestaña **[!UICONTROL Edition]** de la plantilla y a las campañas basadas en esta plantilla. Los documentos adjuntos se pueden agregar desde la plantilla o individualmente para cada campaña.
+   Cuando se selecciona este módulo, se añade una pestaña adicional a la pestaña **[!UICONTROL Edition]** de la plantilla y a las campañas basadas en esta plantilla. Los documentos adjuntos se pueden agregar desde la plantilla o individualmente para cada campaña. Obtenga más información sobre los documentos en [esta sección](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents).
 
    ![](assets/s_ncs_user_op_template_activate_3.png)
 
 * **Descripción**
 
-   Cuando se selecciona este módulo, se añade una pestaña adicional de **[!UICONTROL Delivery outlines]** a la pestaña de **[!UICONTROL Documents]** para definir los esquemas de entrega de la campaña.
+   Cuando se selecciona este módulo, se añade una pestaña adicional de **[!UICONTROL Delivery outlines]** a la pestaña de **[!UICONTROL Documents]** para definir los esquemas de entrega de la campaña. Obtenga más información sobre los esquemas de entrega en [esta sección](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
    ![](assets/s_ncs_user_op_template_activate_4.png)
 
 * **Establecimiento de objetivos y flujos de trabajo**
 
-   Al seleccionar el módulo de **[!UICONTROL Targeting and workflows]**, se añade una pestaña para permitirle crear uno o más flujos de trabajo para las campañas basadas en esta plantilla. Los flujos de trabajo también se pueden configurar individualmente para cada campaña basada en esta plantilla.
+   Al seleccionar el módulo de **[!UICONTROL Targeting and workflows]**, se añade una pestaña para permitirle crear uno o más flujos de trabajo para las campañas basadas en esta plantilla. Los flujos de trabajo también se pueden configurar individualmente para cada campaña basada en esta plantilla. Obtenga más información sobre los flujos de trabajo de campaña en [esta sección](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 
    ![](assets/s_ncs_user_op_template_activate_5.png)
 
@@ -141,9 +131,13 @@ Se muestran los siguientes vínculos y pestañas:
 
 * **Aprobación**
 
-   Si selecciona **[!UICONTROL Approval]**, puede seleccionar los procesos de aprobación, así como los operadores asignados al proceso de aprobación.
+   Si selecciona **[!UICONTROL Approval]**, puede seleccionar los procesos de aprobación, así como los operadores asignados al proceso de aprobación. Obtenga más información sobre las aprobaciones en [esta sección](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
 
    ![](assets/s_ncs_user_op_template_activate_5b.png)
+
+   Puede elegir si desea habilitar o no la aprobación del proceso mediante la pestaña **[!UICONTROL Approvals]** de la sección de configuración avanzada de plantillas. Los trabajos para los que se ha seleccionado la aprobación deben estar aprobados para poder autorizar la entrega de los mensajes.
+
+   Debe asociar un operador revisor o un grupo de operadores a cada aprobación habilitada.
 
 * **Gastos y objetivos**
 
@@ -151,13 +145,7 @@ Se muestran los siguientes vínculos y pestañas:
 
    ![](assets/s_ncs_user_op_template_activate_7.png)
 
-### Aprobación de trabajos {#approval-of-jobs}
-
-Puede elegir si desea habilitar o no la aprobación del proceso mediante la pestaña **[!UICONTROL Approvals]** de la sección de configuración avanzada de plantillas. Los trabajos para los que se ha seleccionado la aprobación deben estar aprobados para poder autorizar la entrega de los mensajes.
-
-Debe asociar un operador revisor o un grupo de operadores a cada aprobación habilitada.
-
-## Configuración general {#general-configuration}
+## Propiedades y ejecución {#general-configuration}
 
 ### Propiedades de plantilla {#template-properties}
 
@@ -172,7 +160,7 @@ Cuando crea una plantilla de campaña, debe introducir la siguiente información
    >
    >Para obtener más información sobre las enumeraciones, consulte la sección [Introducción](../../platform/using/managing-enumerations.md).
 
-* Seleccione el **tipo de campaña**: única, recurrente o periódica. De manera predeterminada, las plantillas de campaña se aplican a las campañas únicas. Las campañas recurrentes y periódicas se detallan en: [Campañas recurrentes y periódicas](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns).
+* Seleccione el **tipo de campaña**: única, recurrente o periódica. De manera predeterminada, las plantillas de campaña se aplican a las campañas únicas. Las campañas recurrentes y periódicas se detallan en [esta sección](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns).
 * Especifique la duración de la campaña, es decir, el número de días durante los que se desarrolla la campaña. Al crear una campaña basada en esta plantilla, las fechas de inicio y finalización de la campaña se rellenan automáticamente.
 
    Si la campaña es recurrente, debe especificar las fechas de inicio y finalización de la campaña directamente en la plantilla.
@@ -185,9 +173,9 @@ El vínculo **[!UICONTROL Advanced campaign settings...]** permite configurar la
 
 ![](assets/s_ncs_user_op_template_tab1.2.png)
 
-## Programación inversa de la campaña {#campaign-reverse-scheduling}
+## Seguimiento de la ejecución de campañas{#campaign-reverse-scheduling}
 
-Puede crear una programación inversa para una campaña, como por ejemplo para preparar un evento cuya fecha se conoce de antemano. Las plantillas de campaña ahora le permiten calcular la fecha de inicio de una tarea según la fecha de finalización de una campaña.
+Puede crear una programación para una campaña y rastrear logros, por ejemplo, para preparar una programación de evento para una fecha específica. Las plantillas de campaña ahora le permiten calcular la fecha de inicio de una tarea según la fecha de finalización de una campaña.
 
 En el cuadro de configuración de tarea, vaya al área **[!UICONTROL Implementation schedule]** y marque la casilla **[!UICONTROL The start date is calculated based on the campaign end date]**. (en este caso, “fecha de inicio” es la fecha de inicio de la tarea). Vaya al campo **[!UICONTROL Start]** e introduzca un intervalo: la tarea comienza antes de la fecha de finalización de la campaña. Si introduce un periodo más largo que el establecido para la campaña, la tarea comenzará antes de la campaña.
 
