@@ -1,29 +1,29 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Diseño de campañas de marketing
+title: Diseño y ejecución de campañas de marketing
 description: Defina, optimice, ejecute y analice campañas de marketing.
 audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 translation-type: tm+mt
-source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: '443'
+ht-degree: 92%
 
 ---
 
 
-# Diseño de campañas de marketing{#designing-marketing-campaigns}
+# Diseñe y ejecute campañas de marketing{#designing-marketing-campaigns}
 
-Adobe Campaign permite definir, optimizar, ejecutar y analizar las comunicaciones y las campañas de marketing. Adobe Campaign es un centro unificado y un centro de ejecución para estrategias de marketing. Para obtener más información, consulte [Acceso a campañas](../../campaign/using/accessing-campaigns.md) y [Configuración de campañas de marketing](../../campaign/using/setting-up-marketing-campaigns.md).
+Adobe Campaign permite definir, optimizar, ejecutar y analizar las comunicaciones y las campañas de marketing. Adobe Campaign es un centro unificado y un centro de ejecución para estrategias de marketing. Para obtener más información, consulte [Acceso a campañas](../../campaign/using/accessing-campaigns.md) y [Creación de campañas de marketing](../../campaign/using/setting-up-marketing-campaigns.md).
 
 Además, el módulo **Marketing Resource Management (MRM)** permite controlar las acciones de marketing en un modo cooperativo mediante la administración completa y el seguimiento en tiempo real de las tareas, los presupuestos y los recursos de marketing involucrados. La Administración de recursos de marketing permite optimizar y regular la administración de procesos internos y externos, recursos y campañas de marketing, así como relaciones de terceros (agencias, imprentas, etc.). Para obtener más información, consulte [esta sección](../../campaign/using/about-marketing-resource-management.md).
 
 >[!NOTE]
 >
->Para obtener más información sobre las funcionalidades básicas de Adobe Campaign, consulte la sección [Introducción](../../platform/using/about-adobe-campaign-classic.md).\
+>Para obtener más información sobre las funcionalidades principales de Adobe Campaign, consulte [esta sección](../../platform/using/about-adobe-campaign-classic.md) .\
 >En [esta sección](../../delivery/using/steps-about-delivery-creation-steps.md) se describen las capacidades relacionadas con la segmentación de públicos objetivo, la personalización y entrega de mensajes en los diversos canales.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra los conceptos clave de las campañas de marketing en vídeo](#video)
@@ -62,7 +62,7 @@ Los siguientes conceptos son esenciales para conocer mejor Campaign:
 
    Un perfil de envío es una descripción estructurada de la entrega. Cada envío puede hacer referencia a un perfil de envío que contiene, por ejemplo, las ofertas relacionadas, documentos que se van a adjuntar o un vínculo que lleve a las tiendas. Se puede hacer referencia a una oferta en la entrega según la descripción del envío seleccionada.
 
-   Para obtener más información, consulte [Asociación y estructuración de recursos relacionados a través de un esquema de envío](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+   Para obtener más información, consulte [esta sección](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 ## Tutorial {#video}
 
