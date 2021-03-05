@@ -6,16 +6,16 @@ description: Seguimiento de campañas de marketing
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '250'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
+workflow-type: tm+mt
+source-wordcount: '245'
+ht-degree: 93%
 
 ---
 
 
-# Seguimiento de campañas de marketing {#monitoring-marketing-campaigns}
+# Monitorización de campañas de marketing {#monitoring-marketing-campaigns}
 
 ## Seguimiento de una campaña {#tracking-a-campaign}
 
@@ -29,7 +29,7 @@ En cada campaña, la pestaña **[!UICONTROL Tracking]** permite ver todos los tr
 
    ![](assets/s_ncs_user_op_edit_exe_tab_b.png)
 
-* La subpestaña **[!UICONTROL Tasks]** agrupa todas las tareas vinculadas a la campaña. Esta vista permite editarlas o eliminarlas. Las tareas están disponibles mediante la aplicación MRM. Se detallan en [Creación y administración de tareas](../../campaign/using/creating-and-managing-tasks.md).
+* La subpestaña **[!UICONTROL Tasks]** agrupa todas las tareas vinculadas a la campaña. Esta vista permite editarlas o eliminarlas. Las tareas están disponibles mediante la aplicación MRM. Se detallan en [esta sección](../../campaign/using/creating-and-managing-tasks.md).
 
    ![](assets/s_ncs_user_op_edit_exe_tab_e.png)
 
@@ -49,10 +49,10 @@ Para comprobar el estado de una entrega, edite y vea su panel y pestañas.
 
 >[!NOTE]
 >
->La información sobre los detalles de la entrega está disponible en la sección [envío de mensajes](../../delivery/using/about-message-tracking.md).
+>La información sobre los detalles del envío está disponible en la sección [esta sección](../../delivery/using/about-message-tracking.md).
 
 ## Seguimiento de ejecución {#execution-tracking}
 
 Puede consultar el estado de las entregas haciendo clic en **[!UICONTROL Deliveries]**, desde la página principal de Adobe Campaign. Consulte [Seguimiento de envíos](#delivery-tracking).
 
-La información sobre los procesos ejecutados en una campaña se recopila en la pestaña **[!UICONTROL Edit > Audit]** de la campaña. Ahí puede ver la lista de envíos en la campaña. Consulte [Seguimiento de una campaña](#tracking-a-campaign).
+La información sobre los procesos ejecutados en una campaña se recopila en la pestaña **[!UICONTROL Edit > Audit]** de la campaña. Ahí puede ver la lista de envíos en la campaña. [Más información](#tracking-a-campaign).
