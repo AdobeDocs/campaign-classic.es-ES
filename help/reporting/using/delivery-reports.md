@@ -7,10 +7,10 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '1443'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Se puede realizar un seguimiento de la ejecución de los envíos a través de diversos informes accesibles desde la información general de entrega. Para visualizar informes, siga el siguiente procedimiento:
 
-1. Vaya al entorno **[!UICONTROL Campaigns]** y haga clic en el vínculo **[!UICONTROL Delivery]** para mostrar la lista de envíos.
+1. Vaya a la pestaña **[!UICONTROL Campaigns]** y haga clic en el enlace **[!UICONTROL Delivery]** para mostrar la lista de envíos.
 1. Haga clic en el nombre de la entrega que desee visualizar para mostrar sus detalles.
 
    ![](assets/s_ncs_user_detailled_report.png)
