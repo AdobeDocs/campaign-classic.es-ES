@@ -6,11 +6,11 @@ description: Simulaciones en Campaign
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '1243'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+workflow-type: tm+mt
+source-wordcount: '1242'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ La simulación permite controlar y comparar el impacto de los envíos.
 
 Para crear una simulación, aplique los pasos siguientes:
 
-1. Vaya al entorno **[!UICONTROL Campaigns]**, dentro de la sección **[!UICONTROL More]** haga clic en el vínculo **[!UICONTROL Create]** y seleccione la opción **[!UICONTROL Simulation]**.
+1. Abra la pestaña **[!UICONTROL Campaigns]**, haga clic en el enlace **[!UICONTROL More]** dentro de la sección **[!UICONTROL Create]** y seleccione la opción **[!UICONTROL Simulation]**.
 
    ![](assets/simu_campaign_opti_01.png)
 
