@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ Los pasos de implementación principales para este caso de uso son:
 
 ## Paso 1: Crear la lista de destinatarios {#step-1--creating-the-recipient-list}
 
-Vaya al entorno **[!UICONTROL Profiles and targets]**, haga clic en el vínculo **[!UICONTROL Lists]** y, a continuación, en el botón **[!UICONTROL Create]**. Seleccione **[!UICONTROL New list]** y cree una nueva lista de destinatarios a los que enviar el informe.
+Vaya a la pestaña **[!UICONTROL Profiles and targets]** , haga clic en el enlace **[!UICONTROL Lists]** y luego en el botón **[!UICONTROL Create]** . Seleccione **[!UICONTROL New list]** y cree una nueva lista de destinatarios a los que enviar el informe.
 
 ![](assets/use_case_report_1.png)
 
