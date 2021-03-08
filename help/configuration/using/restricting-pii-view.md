@@ -7,23 +7,23 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 
-# Restricción de la vista PII{#restricting-pii-view}
+# Restringir vista de IP{#restricting-pii-view}
 
 ## Información general {#overview}
 
-Algunos clientes necesitan que los usuarios de mercadotecnia puedan acceder a los registros de datos, pero no desean que vean Información de identificación personal (PII), como el nombre, los apellidos o la dirección de correo electrónico. Adobe Campaign propone una forma de proteger la privacidad e impedir que los operadores de campaña habituales utilicen indebidamente los datos.
+Algunos clientes necesitan que los usuarios de marketing puedan acceder a los registros de datos, pero no desean que vean información de identificación personal (PII), como nombre, apellido o dirección de correo electrónico. Adobe Campaign propone una forma de proteger la privacidad e impedir que los operadores de campaña habituales utilicen incorrectamente los datos.
 
 ## Implementación {#implementation}
 
-Se ha agregado un nuevo atributo que se puede aplicar a cualquier elemento o atributo a las esquemas, que complementa el atributo existente **[!UICONTROL visibleIf]**. Este atributo es: **[!UICONTROL accessibleIf]** . Al contener una expresión XTK relacionada con el contexto de usuario actual, puede aprovechar **[!UICONTROL HasNamedRight]** o **[!UICONTROL $(login)]** , por ejemplo.
+Se ha añadido a los esquemas un nuevo atributo que se puede aplicar a cualquier elemento o atributo, que complementa el atributo existente **[!UICONTROL visibleIf]** . Este atributo es: **[!UICONTROL accessibleIf]** . Cuando contiene una expresión XTK relacionada con el contexto de usuario actual, puede aprovechar **[!UICONTROL HasNamedRight]** o **[!UICONTROL $(login)]** , por ejemplo.
 
 Puede encontrar una muestra de una extensión de esquema de destinatario que muestra este uso a continuación:
 
@@ -42,25 +42,25 @@ Puede encontrar una muestra de una extensión de esquema de destinatario que mue
 
 Las propiedades principales son:
 
-* **[!UICONTROL visibleIf]** :: oculta los campos de los metadatos, por lo que no se puede acceder a ellos desde una vista de esquema, una selección de columnas o un generador de expresiones. Sin embargo, esto no oculta ningún dato, si el nombre del campo se introduce manualmente en una expresión, se mostrará el valor.
-* **[!UICONTROL accessibleIf]** :: oculta los datos (reemplazándolos por valores vacíos) de la consulta resultante. Si visibleSi está vacío, obtiene la misma expresión que **[!UICONTROL accessibleIf]**.
+* **[!UICONTROL visibleIf]** : oculta los campos de los metadatos, por lo que no se puede acceder a ellos desde una vista de esquema, una selección de columnas o un generador de expresiones. Sin embargo, esto no oculta ningún dato, si el nombre del campo se introduce manualmente en una expresión, el valor aparecerá.
+* **[!UICONTROL accessibleIf]** : oculta los datos (reemplazándolos por valores vacíos) de la consulta resultante. Si visibleIf está vacío, obtiene la misma expresión que **[!UICONTROL accessibleIf]** .
 
-Estas son las consecuencias de usar este atributo en la Campaña:
+Estas son las consecuencias de utilizar este atributo en Campaign:
 
-* Los datos no se mostrarán con editor de consultas genérico en la consola,
-* Los datos no estarán visibles en las listas de información general ni en la lista de registros (consola).
-* Los datos pasarán a ser de sólo lectura en vista detallada.
-* Los datos solo se podrán utilizar dentro de filtros (lo que significa que, si se utilizan algunas estrategias de dicotomía, todavía se pueden adivinar los valores).
+* Los datos no se mostrarán mediante el editor de consultas genérico de la consola.
+* Los datos no serán visibles en las listas de información general ni en la lista de registros (consola).
+* Los datos pasarán a ser de solo lectura en la vista detallada.
+* Los datos solo se pueden utilizar dentro de filtros (lo que significa que, al usar algunas estrategias de dicotomía, aún puede adivinar los valores).
 * Cualquier expresión creada con un campo restringido también se verá restringida: lower(@email) se vuelve tan accesible como @email.
-* En un flujo de trabajo, puede agregar la columna restringida a la población objetivo como una columna adicional de la transición, pero los usuarios de Adobe Campaign siguen sin tener acceso a ella.
-* Al almacenar la población objetivo en un grupo (lista), las características de los campos almacenados son las mismas que la fuente de datos.
-* El código JS no tiene acceso a los datos de forma predeterminada.
+* En un flujo de trabajo, puede añadir la columna restringida a la población objetivo como una columna adicional de la transición, pero sigue siendo inaccesible para los usuarios de Adobe Campaign.
+* Al almacenar la población de destino en un grupo (lista), las características de los campos almacenados son las mismas que la fuente de datos.
+* El código JS no puede acceder a los datos de forma predeterminada.
 
 ## Recomendaciones {#recommendations}
 
-En cada envío, las direcciones de correo electrónico se copian en las tablas **[!UICONTROL broadLog]** y **[!UICONTROL forecastLog]**: como consecuencia, estos campos también deben protegerse.
+En cada envío, las direcciones de correo electrónico se copian en las tablas **[!UICONTROL broadLog]** y **[!UICONTROL forecastLog]** : como consecuencia, estos campos también deben protegerse.
 
-A continuación se muestra una muestra de la extensión de la tabla de registro para implementarla:
+A continuación se muestra un ejemplo de la extensión de la tabla de registro para implementar esto:
 
 ```
 <srcSchema entitySchema="xtk:srcSchema" extendedSchema="nms:broadLogRcp" img="nms:broadLog.png"
