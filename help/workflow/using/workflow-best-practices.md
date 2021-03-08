@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '1609'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -120,7 +120,7 @@ En las propiedades del flujo de trabajo, seleccione un grupo de Supervisor, ya s
 
 Antes de empezar a crear un flujo de trabajo, recuerde establecer los supervisores del flujo de trabajo. Se les notifica por correo electrónico en caso de errores. Para obtener más información, consulte [Administración de errores](../../workflow/using/monitoring-workflow-execution.md#managing-errors).
 
-Compruebe con regularidad el entorno **[!UICONTROL Monitoring]** para ver el estado general de los flujos de trabajo activos. Para obtener más información, consulte [Supervisión de instancias](../../workflow/using/monitoring-workflow-execution.md#instance-supervision).
+Compruebe con regularidad la pestaña **[!UICONTROL Monitoring]** para ver el estado general de los flujos de trabajo activos. Para obtener más información, consulte [Supervisión de instancias](../../workflow/using/monitoring-workflow-execution.md#instance-supervision).
 
 El HeatMap de flujo de trabajo permite a los administradores de la plataforma de Adobe Campaign controlar la carga en la instancia y planificar los flujos de trabajo en consecuencia. Para obtener más información, consulte [Monitoreo de flujos de trabajo](../../workflow/using/heatmap.md).
 
