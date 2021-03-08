@@ -7,10 +7,10 @@ audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,7 @@ Para aprender a simular una oferta, lea los pasos a continuación.
 
 Para ejecutar una simulación de ofertas, siga los siguientes pasos:
 
-1. En el entorno **[!UICONTROL Profiles and Targets]**, haga clic en el vínculo **[!UICONTROL Simulations]**, luego, haga clic en **[!UICONTROL Create]**.
+1. En la pestaña **[!UICONTROL Profiles and Targets]**, haga clic en el enlace **[!UICONTROL Simulations]** y, a continuación, haga clic en el botón **[!UICONTROL Create]**.
 
    ![](assets/offer_simulation_001.png)
 
