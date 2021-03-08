@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 68%
+ht-degree: 66%
 
 ---
 
@@ -98,7 +98,7 @@ Una descripción puede contener elementos y campos de personalización, recursos
 
    ![](assets/s_ncs_user_op_add_composition_field_button.png)
 
-* Los recursos son recursos de marketing generados en el panel de recursos de marketing, al que se accede mediante el enlace **[!UICONTROL Resources]** en el entorno de **[!UICONTROL Campaigns]**.
+* Los recursos son recursos de marketing generados en el panel de recursos de marketing, al que se accede mediante el enlace **[!UICONTROL Resources]** de la pestaña **[!UICONTROL Campaigns]**.
 
    ![](assets/s_ncs_user_mkg_resource_ovv.png)
 
