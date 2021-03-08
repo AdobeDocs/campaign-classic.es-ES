@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: 571821ce775a7c354d01404d14faee8d2a21c170
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
 source-wordcount: '2556'
 ht-degree: 98%
@@ -225,7 +225,7 @@ Obtenga más información en la [Matriz de compatibilidad de Campaign](https://h
 
 * Ya no puede utilizar su propia cuenta de Litmus para aprovisionar y utilizar la renderización de la Bandeja de entrada en Adobe Campaign. [Más información](../../delivery/using/inbox-rendering.md).
 
-* Para distinguir mejor las vistas de las carpetas, se ha cambiado el color de los nombres de vistas de azul oscuro a cian oscuro. [Más información](../../platform/using/access-management.md#about-views)
+* Para distinguir mejor las vistas de las carpetas, se ha cambiado el color de los nombres de vistas de azul oscuro a cian oscuro. [Más información](../../platform/using/access-management-folders.md)
 
 * Ahora, Campaign Classic puede conectarse a cuentas de Microsoft Dynamics CRM alojadas en las regiones de Reino Unido, India y Canadá. Esto se aplica a los tipos de implementación de Office 365 y Locales (Dynamics 2015).
 
