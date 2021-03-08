@@ -7,10 +7,10 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '956'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Marketing Analytics facilita la creación de informes y la identificación y sel
 
 ### Paso 1: Creación de un informe basado en un cubo {#step-1---creating-a-report-based-on-a-cube}
 
-Para crear un informe basado en un cubo, haga clic en el botón **[!UICONTROL Create]** del entorno **[!UICONTROL Reports]** y seleccione el cubo que desee utilizar.
+Para crear un informe basado en un cubo, haga clic en el botón **[!UICONTROL Create]** en la pestaña **[!UICONTROL Reports]** y seleccione el cubo que desee utilizar.
 
 El proceso se detalla aquí: [Creación de un informe basado en un cubo](../../reporting/using/creating-indicators.md#creating-a-report-based-on-a-cube).
 
@@ -152,7 +152,7 @@ Para agrupar una población en una lista, siga los siguientes pasos:
 
    Puede guardar el contenido del carro o vaciarlo.
 
-   Se accede a la lista relevante a través del entorno **[!UICONTROL Profiles and targets]**.
+   Se accede a la lista relevante a través de la pestaña **[!UICONTROL Profiles and targets]**.
 
    ![](assets/s_advuser_cube_in_report_config_02g.png)
 
