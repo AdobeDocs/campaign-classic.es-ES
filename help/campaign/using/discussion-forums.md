@@ -6,9 +6,9 @@ description: Foros de debate
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
 
@@ -95,7 +95,7 @@ La suscripción a un foro le permite seguir las conversaciones. Recibe una notif
 
    ![](assets/platform_dashboard_operator_subscr_forums.png)
 
-   Para obtener más información acerca de los paneles personales, consulte [esta sección](../../platform/using/access-management.md#operators).
+   Para obtener más información acerca de los paneles personales, consulte [esta sección](../../platform/using/access-management-operators.md).
 
 * Para ver quién está suscrito a un foro, haga clic en el vínculo **[!UICONTROL List of subscribers to this discussion forum]** situado encima de la lista de mensajes.
 
