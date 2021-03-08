@@ -7,35 +7,35 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 
-# Filtrado de esquemas{#filtering-schemas}
+# Filtrar esquemas{#filtering-schemas}
 
 ## Filtros del sistema {#system-filters}
 
-Puede filtrar el acceso de esquema a usuarios específicos en función de sus permisos. Los filtros del sistema le permiten administrar los permisos de lectura y escritura de las entidades detalladas en los esquemas, mediante parámetros **readAccess** y **writeAccess**.
+Puede filtrar el acceso al esquema para usuarios específicos, según sus permisos. Los filtros de sistema permiten administrar los permisos de lectura y escritura de las entidades detalladas en los esquemas mediante parámetros **readAccess** y **writeAccess**.
 
 >[!NOTE]
 >
 >Esta restricción solo se aplica a usuarios no técnicos: un usuario técnico, con permisos relacionados o utilizando un flujo de trabajo, podrá recuperar y actualizar datos.
 
-* **readAccess**: proporciona acceso de solo lectura a los datos de esquema.
+* **readAccess**: proporciona acceso de solo lectura a los datos del esquema.
 
    **Advertencia** : Todas las tablas vinculadas deben configurarse con la misma restricción. Esta configuración puede afectar al rendimiento.
 
-* **writeAccess**: proporciona acceso de escritura a los datos de esquema.
+* **writeAccess**: proporciona acceso de escritura a los datos del esquema.
 
-Estos filtros se introducen en el nivel principal **elemento** de los esquemas y, como se muestra en los ejemplos siguientes, se pueden formar para restringir el acceso.
+Estos filtros se introducen en el nivel principal **element** de los esquemas y, como se muestra en los ejemplos siguientes, se pueden formar para restringir el acceso.
 
-* Restringir permisos de escritura
+* Restringir permisos de ESCRITURA
 
-   Aquí, el filtro se utiliza para no permitir permisos de ESCRITURA en el esquema para los operadores sin el permiso de ADMINISTRACIÓN. Esto significa que solo los administradores tendrán permisos de escritura en las entidades descritas en este esquema.
+   En este caso, el filtro se utiliza para no permitir permisos WRITE en el esquema para operadores sin el permiso ADMINISTRATION. Esto significa que solo los administradores tendrán permisos de escritura en las entidades descritas por este esquema.
 
    ```
    <sysFilter name="writeAccess">      
@@ -45,7 +45,7 @@ Estos filtros se introducen en el nivel principal **elemento** de los esquemas y
 
 * Restringir permisos de lectura y escritura:
 
-   Aquí, el filtro se utiliza para no permitir permisos de lectura y escritura en el esquema para todos los operadores. Solo la cuenta **interna**, representada por la expresión &quot;$(loginId)!=0&quot;, tiene estos permisos.
+   En este caso, el filtro se utiliza para no permitir permisos de lectura y escritura en el esquema para todos los operadores. Solo la cuenta **internal**, representada por la expresión &quot;$(loginId)!=0&quot;, tiene estos permisos.
 
    ```
    <sysFilter name="readAccess"> 
@@ -57,18 +57,18 @@ Estos filtros se introducen en el nivel principal **elemento** de los esquemas y
    </sysFilter>
    ```
 
-   Los valores de atributo **expr** posibles utilizados para definir la condición son TRUE o FALSE.
+   Los posibles valores de atributo **expr** utilizados para definir la condición son TRUE o FALSE.
 
 >[!NOTE]
 >
 >Si no se especifica ningún filtro, todos los operadores tendrán permisos de lectura y escritura en el esquema.
 
-## Protección de esquemas integrados {#protecting-built-in-schemas}
+## Proteja los esquemas integrados {#protecting-built-in-schemas}
 
-De forma predeterminada, los esquemas integrados solo son accesibles con permisos de ESCRITURA para los operadores con derechos de ADMINISTRACIÓN:
+De forma predeterminada, los esquemas integrados solo son accesibles con permisos WRITE para operadores con derechos de ADMINISTRACIÓN:
 
-* ncm:publicación
-* nl:supervisión
+* ncm:publishing
+* nl:monitorización
 * nms:calendar
 * xtk:builder
 * xtk:conexiones
@@ -78,7 +78,7 @@ De forma predeterminada, los esquemas integrados solo son accesibles con permiso
 * xtk:entityOriginal
 * xtk:form
 * xtk:funcList
-* xtk:fusion
+* xtk:fusión
 * xtk:image
 * xtk:javascript
 * xtk:jssp
@@ -89,28 +89,28 @@ De forma predeterminada, los esquemas integrados solo son accesibles con permiso
 * xtk:queryDef
 * xtk:resourceMenu
 * xtk:rights
-* xtk:esquema
+* xtk:schema
 * xtk:scriptContext
-* xtk:especificaciónFile
+* xtk:specFile
 * xtk:sql
 * xtk:sqlSchema
 * xtk:srcSchema
-* xtk:cadenas
+* xtk:strings
 * xtk:xslt
 
 >[!IMPORTANT]
 >
->Los permisos de lectura y escritura para el esquema **xtk:sessionInfo** solo son accesibles mediante la cuenta interna de una instancia de Adobe Campaign.
+>Los permisos de lectura y escritura para el esquema **xtk:sessionInfo** solo son accesibles desde la cuenta interna de una instancia de Adobe Campaign.
 
-## Modificación de filtros del sistema de esquemas integrados {#modifying-system-filters-of-built-in-schemas}
+## Modificar filtros del sistema de esquemas integrados {#modifying-system-filters-of-built-in-schemas}
 
-Aún puede modificar los filtros del sistema de los esquemas predeterminados que están protegidos de forma predeterminada debido a problemas de compatibilidad con versiones anteriores.
+Puede seguir modificando los filtros del sistema de los esquemas predeterminados que están protegidos por defecto debido a problemas de compatibilidad con versiones anteriores.
 
 >[!NOTE]
 >
 >Sin embargo, Adobe recomienda no modificar los parámetros predeterminados para garantizar una seguridad óptima.
 
-1. Cree una extensión para el esquema en cuestión o abra una extensión existente.
-1. Añada un elemento secundario **`<sysfilter name="<filter name>" _operation="delete"/>`** en el elemento principal para eliminar la aplicación del filtro debajo del mismo en el esquema de origen.
-1. Si lo desea, puede agregar un nuevo filtro, como se detalla en [filtros del sistema](#system-filters).
+1. Cree una extensión para el esquema correspondiente o abra una extensión existente.
+1. Agregue un elemento secundario **`<sysfilter name="<filter name>" _operation="delete"/>`** en el elemento principal para eliminar la aplicación del filtro en el mismo esquema de origen.
+1. Si lo desea, puede agregar un nuevo filtro, como se detalla en [Filtros del sistema](#system-filters).
 
