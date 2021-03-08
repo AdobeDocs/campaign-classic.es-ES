@@ -6,11 +6,11 @@ description: Gestión de los recursos de marketing
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '1384'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+workflow-type: tm+mt
+source-wordcount: '1383'
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ Puede rastrear el estado y el historial de cualquier recurso de marketing gestio
 
 ## Adición de un recurso de marketing {#adding-a-marketing-resource}
 
-Se accede a los recursos de marketing a través del entorno de Campaign.
+Se accede a los recursos de marketing a través de la pestaña **[!UICONTROL Campaigns]**.
 
 Para agregar un recurso, haga clic en el botón **[!UICONTROL Create]**.
 
