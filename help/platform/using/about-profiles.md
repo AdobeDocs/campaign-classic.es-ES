@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 100%
@@ -83,7 +83,7 @@ El diseño general del explorador de Adobe Campaign se presenta en [Uso del expl
 >
 >También puede mostrar una vista avanzada de esta lista del árbol de Adobe Campaign haciendo clic en el vínculo **[!UICONTROL Profiles and targets > Recipients]** . La visualización de la lista se puede configurar para adaptarla a sus necesidades. Puede agregar o eliminar columnas, definir el orden de las columnas, ordenar datos, etc. La configuración de visualización de lista se describe en [Usar el explorador de Adobe Campaign](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).
 >
->También puede definir las vistas de los destinatarios. Para obtener más información sobre esta funcionalidad, consulte [Carpetas y vistas](../../platform/using/access-management.md#folders-and-views).
+>También puede definir las vistas de los destinatarios. Para obtener más información sobre esta funcionalidad, consulte [Carpetas y vistas](../../platform/using/access-management-folders.md).
 
 ## Perfiles activos {#active-profiles}
 
