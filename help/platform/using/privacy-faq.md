@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 450889f845b7c5adad1085d7eba70e23030e6609
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 100%
+source-wordcount: '797'
+ht-degree: 97%
 
 ---
 
@@ -74,7 +74,7 @@ En los casos en que se necesite el consentimiento para determinadas actividades 
 
 Puede incluso haber casos en los que sea necesario actualizar ciertos consentimientos para poder seguir utilizando datos a partir de ahora.
 
-En lugar de pensar en estos requisitos de consentimiento mejorado como un riesgo para el entorno comercializable, los expertos en marketing podrían adoptarlos como verdaderos indicadores de participación y lealtad de la marca, así como de satisfacción y confianza de los clientes.
+Los especialistas en marketing deben adoptar estos requisitos de consentimiento mejorados como un verdadero indicador de la participación y lealtad de la marca, así como de la satisfacción y la confianza de los clientes.
 
 ## Administración del consentimiento {#manage-consent}
 
