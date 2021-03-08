@@ -7,10 +7,10 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 translation-type: tm+mt
-source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '733'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
@@ -89,7 +89,7 @@ Los cubos se almacenan en el nodo **[!UICONTROL Administration > Configuration >
 
 Los principales contextos de uso de los cubos son los siguientes:
 
-* Las exportaciones de datos se pueden realizar directamente en un informe y diseñar en el entorno **[!UICONTROL Reports]** de la plataforma de Adobe Campaign.
+* Las exportaciones de datos se pueden realizar directamente en un informe y diseñar en la pestaña **[!UICONTROL Reports]** de la plataforma de Adobe Campaign.
 
    Para ello, cree un nuevo informe y seleccione el cubo que desee utilizar.
 
