@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
-source-wordcount: '1998'
-ht-degree: 100%
+source-wordcount: '2000'
+ht-degree: 98%
 
 ---
 
@@ -111,7 +111,7 @@ Las tablas de trabajo del flujo de trabajo se eliminan automáticamente cuando e
 
 ## Gestión de errores {#managing-errors}
 
-Cuando se produce un error, el flujo de trabajo se detiene y la actividad que se está ejecutando cuando se produce el error parpadea en rojo. En la descripción general del flujo de trabajo (entorno **[!UICONTROL Monitoring]**, vínculo **[!UICONTROL Workflows]**), puede mostrar solo los flujos de trabajo con errores, como se muestra a continuación.
+Cuando se produce un error, el flujo de trabajo se detiene y la actividad que se está ejecutando cuando se produce el error parpadea en rojo. En la descripción general del flujo de trabajo, en el enlace **[!UICONTROL Monitoring]** tab - **[!UICONTROL Workflows]** , puede mostrar solo los flujos de trabajo con errores, como se muestra a continuación.
 
 ![](assets/wf-global-view_filter_only_errors.png)
 
@@ -169,7 +169,7 @@ Si es posible, se recomienda reiniciar el flujo de trabajo después de realizar 
 
 La página **[!UICONTROL Instance supervision]** permite ver la actividad del servidor de Adobe Campaign y mostrar la lista de flujos de trabajo y entregas con errores.
 
-Para acceder a esta página, vaya al entorno **[!UICONTROL Monitoring]** y haga clic en el vínculo **[!UICONTROL General view]**.
+Para acceder a esta página, vaya a la pestaña **[!UICONTROL Monitoring]** y haga clic en el enlace **[!UICONTROL General view]**.
 
 ![](assets/wf-monitoring_from-homepage.png)
 
