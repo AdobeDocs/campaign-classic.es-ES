@@ -6,11 +6,11 @@ description: Creación y administración de tareas
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '3733'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+workflow-type: tm+mt
+source-wordcount: '3732'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ Se pueden crear, ver y monitorizar las tareas de la lista de tareas o del panel 
 
 Las tareas se adjuntan a la campaña y pueden tener dependencias, es decir, tareas asociadas. Cada tarea tiene un estado, prioridad, carga estimada y costes relacionados.
 
-Todas las tareas se agrupan en una lista accesible a través del entorno de **Campaign.** Para obtener más información, consulte [Acceder a tareas](#accessing-tasks).
+Todas las tareas se agrupan en una lista accesible a través de la pestaña **Campaigns**. Para obtener más información, consulte [Acceder a tareas](#accessing-tasks).
 
 Pueden mostrarse en la programación del programa al que pertenecen.
 
@@ -35,7 +35,7 @@ Pueden mostrarse en la programación del programa al que pertenecen.
 
 ### Visualización de tareas {#displaying-tasks}
 
-Las tareas se muestran en la lista de tareas a la que se puede acceder mediante el entorno **[!UICONTROL Campaigns]**.
+Las tareas se muestran en la lista de tareas a la que se puede acceder mediante la pestaña **[!UICONTROL Campaigns]**.
 
 ![](assets/s_ncs_user_task_edit_view.png)
 
@@ -57,7 +57,7 @@ Haga clic en una tarea para editarla.
 
 ## Creación de una columna nueva {#creating-a-new-task}
 
-Para crear una tarea, haga clic en el enlace **[!UICONTROL Tasks]** del entorno de Campaigns y seleccione **[!UICONTROL Create]**.
+Para crear una tarea, haga clic en el enlace **[!UICONTROL Tasks]** en la pestaña **[!UICONTROL Campaigns]** y seleccione **[!UICONTROL Create]**.
 
 ![](assets/s_ncs_user_task_create_new.png)
 
@@ -436,6 +436,7 @@ Una tarea puede ser: **[!UICONTROL Scheduled]**, **[!UICONTROL In progress]**, *
 >
 >* El estado de la tarea se actualiza automáticamente.
 >* Incluso si el periodo de validez ha terminado, las tareas que no se hayan cerrado aparecen en la lista de tareas en curso. Una advertencia notifica a los operadores de que la tarea está atrasada.
+
 >
 
 
