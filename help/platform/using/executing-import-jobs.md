@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
-source-wordcount: '2958'
-ht-degree: 100%
+source-wordcount: '2960'
+ht-degree: 99%
 
 ---
 
@@ -291,7 +291,7 @@ El siguiente paso del asistente para importar le permite seleccionar o crear la 
 
       >[!NOTE]
       >
-      >La carpeta predeterminada de un operador es la primera carpeta para la que el operador tiene acceso de escritura. Consulte [Administración de acceso a carpetas](../../platform/using/access-management.md#folder-access-management).
+      >La carpeta predeterminada de un operador es la primera carpeta para la que el operador tiene acceso de escritura. Obtenga más información en [Administración de acceso a carpetas](../../platform/using/access-management-folders.md).
 
       Para seleccionar la carpeta de importación, haga clic en la flecha a la derecha del campo **[!UICONTROL Folder]** y seleccione la carpeta correspondiente. También puede utilizar el icono **[!UICONTROL Select link]** para mostrar el árbol en una nueva ventana o crear una carpeta nueva.
 
