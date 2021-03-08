@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '229'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ Cada nodo coincide con una carpeta. Los datos de cada carpeta deben considerarse
 
 >[!NOTE]
 >
->Para mostrar la lista de todos los destinatarios de la base de datos, debe crear una vista. Consulte [Carpetas y vistas](../../platform/using/access-management.md#folders-and-views).
+>Para mostrar la lista de todos los destinatarios de la base de datos, debe crear una vista. Obtenga más información en [Carpetas y vistas](../../platform/using/access-management-folders.md).
 
 ## Mover destinatarios {#moving-recipients}
 
