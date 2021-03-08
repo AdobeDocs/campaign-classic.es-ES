@@ -6,11 +6,11 @@ description: Creación de una campaña de colaboración
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-translation-type: ht
-source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+workflow-type: tm+mt
 source-wordcount: '912'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ En la pestaña **[!UICONTROL Edit]**, haga clic en el vínculo **[!UICONTROL Adv
 
 Seleccione la interfaz web **Por formulario**. Este tipo de interfaz le permite crear campos de personalización que se utilizarán en entidades locales cuando se solicite una campaña. Consulte [Creación de una campaña local (por formulario) ](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
 
-Guarde la campaña. Ahora puede usarlo desde la vista **Campaign packages** en el entorno **Campaign**, haciendo clic en el botón **[!UICONTROL Create]**.
+Guarde la campaña. Ahora puede usarlo desde la vista **Campaign packages** en la pestaña **Campaign**, haciendo clic en el botón **[!UICONTROL Create]**.
 
 La vista **[!UICONTROL Campaign Package]** permite utilizar plantillas de campañas locales (ya sean predeterminadas o duplicadas), así como campañas de referencia para campañas de colaboración con el objetivo de crear campañas para diferentes entidades de organización.
 
