@@ -7,9 +7,9 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
-source-wordcount: '2786'
+source-wordcount: '2787'
 ht-degree: 0%
 
 ---
@@ -616,7 +616,7 @@ Todos los informes estándar utilizan actualmente el motor de renderización v6.
 
 ### Informes personalizados {#personalized-reports}
 
-<!--If you want to have the blue banner from v7 (allowing you access to the universes), you must republish reports. If you encounter problems, you can force the v6.0 rendering engine. To do this, go to **[!UICONTROL Properties]** within the report, click **[!UICONTROL Rendering]** and choose the **[!UICONTROL Version 6.0 (Flash & OpenOffice)]** rendering engine.
+<!--If you want to have the blue banner from v7 (allowing you access to the tabs), you must republish reports. If you encounter problems, you can force the v6.0 rendering engine. To do this, go to **[!UICONTROL Properties]** within the report, click **[!UICONTROL Rendering]** and choose the **[!UICONTROL Version 6.0 (Flash & OpenOffice)]** rendering engine.
 
 ![](assets/migration_reports_1.png)
 -->
@@ -631,7 +631,7 @@ Hay dos familias de aplicaciones web:
 
 ### Aplicaciones web identificadas {#identified-web-applications}
 
-Al igual que para los informes (consulte [Reports](#reports)), si ha añadido JavaScript, debe comprobar y adaptar si es necesario. Si desea beneficiarse del banner azul v7 (que contiene los universos), debe volver a publicar la aplicación web. Si el código JavaScript está funcionando, puede seleccionar el motor de renderización v6.x. Si no es así, puede utilizar el motor de renderización v6.0 mientras adapta su código y, a continuación, utilizar el motor de renderización v6.x.
+Al igual que para los informes ([más información](#reports)), si ha añadido JavaScript, debe comprobar y adaptar si es necesario. Si desea beneficiarse del banner azul v7 (que contiene las pestañas azules), debe volver a publicar la aplicación web. Si el código JavaScript está funcionando, puede seleccionar el motor de renderización v6.x. Si no es así, puede utilizar el motor de renderización v6.0 mientras adapta su código y, a continuación, utilizar el motor de renderización v6.x.
 
 >[!NOTE]
 Los pasos para seleccionar el motor de renderización son los mismos que para seleccionar informes. Consulte [Informes personalizados](#personalized-reports).
