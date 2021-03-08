@@ -6,11 +6,11 @@ description: Proveedores, stock y presupuestos
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+workflow-type: tm+mt
 source-wordcount: '1902'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -206,7 +206,7 @@ El procedimiento para configurar la gestión de stock y de pedidos en Adobe Camp
 
 ### Gestión de stock {#stock-management}
 
-Adobe Campaign puede alertar a un grupo de operadores si el stock se han agotado o han alcanzado un límite mínimo. A través del vínculo **[!UICONTROL Stocks]** del área de navegación, es posible acceder a los niveles de stock desde el vínculo **[!UICONTROL Campaigns]** del entorno de **[!UICONTROL Other choices]**.
+Adobe Campaign puede alertar a un grupo de operadores si el stock se han agotado o han alcanzado un límite mínimo. Se puede acceder a los niveles de stock a través del enlace **[!UICONTROL Stocks]** de la pestaña **[!UICONTROL Campaigns]** a través del enlace **[!UICONTROL Other choices]** del área de navegación.
 
 ![](assets/s_ncs_user_stocks_view.png)
 
