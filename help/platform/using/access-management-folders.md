@@ -7,17 +7,17 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: d6993725ed4060f2affce98c4a8a5211bda03bdf
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 96%
+source-wordcount: '747'
+ht-degree: 92%
 
 ---
 
 
 # Administrar el acceso a las carpetas{#folder-access-management}
 
-Cada carpeta del árbol tiene asociados derechos de acceso de lectura, escritura y eliminación. Para acceder a un archivo, un operador o un grupo de operadores deben tener al menos acceso de lectura.
+Cada carpeta del árbol de navegación del Explorador tiene asociados derechos de acceso de lectura, escritura y eliminación. Para acceder a un archivo, un operador o un grupo de operadores deben tener al menos acceso de lectura.
 
 ## Permisos en una carpeta
 
@@ -71,7 +71,7 @@ Las carpetas son nodos del árbol de Adobe Campaign. Estos nodos se crean hacien
 
 ![](assets/s_ncs_user_add_folder_in_tree.png)
 
-Puede conceder permisos a estas carpetas en todas las demás carpetas del árbol. Consulte [Administración de acceso a carpetas](#folder-access-management).
+Puede personalizar el árbol de navegación del Explorador. Conozca los pasos de configuración y las prácticas recomendadas [en esta sección](adobe-campaign-workspace.md).
 
 ### Acerca de las vistas {#about-views}
 
