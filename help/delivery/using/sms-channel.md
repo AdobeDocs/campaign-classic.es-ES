@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 translation-type: tm+mt
-source-git-commit: 2aa1a1c5da7b552cae916885c011aa4aaf9b61db
+source-git-commit: f78fa94fb4fb9236222886a167a46d252497b2aa
 workflow-type: tm+mt
-source-wordcount: '3148'
-ht-degree: 99%
+source-wordcount: '3131'
+ht-degree: 98%
 
 ---
 
@@ -33,14 +33,14 @@ Para enviar a un teléfono móvil, necesita:
 
 1. una cuenta externa que especifique un conector y el tipo de mensaje.
 
-   Tenga en cuenta que los siguientes conectores quedarán obsoletos a partir de la versión 20.2: SMPP genérico (SMPP versión 3.4 compatible con modo binario), Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2 e iOS. Durante este periodo, las funcionalidades van a seguir disponibles, pero no se van a actualizar, mejorar ni documentar. Para obtener más información, consulte [esta página](https://helpx.adobe.com/es/campaign/kb/deprecated-and-removed-features.html).
+   Tenga en cuenta que los siguientes conectores quedan obsoletos a partir de la versión 20.2: SMPP genérico (SMPP versión 3.4 compatible con modo binario), Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2 e iOS. Durante este periodo, las funcionalidades van a seguir disponibles, pero no se van a actualizar, mejorar ni documentar. Para obtener más información, consulte [esta página](https://helpx.adobe.com/es/campaign/kb/deprecated-and-removed-features.html).
 
 1. Una plantilla de envíos en la que se haga referencia a esta cuenta externa.
 
 ### Creación de una cuenta externa SMPP {#creating-an-smpp-external-account}
 
 Para enviar un SMS a un teléfono móvil, primero debe crear una cuenta externa SMPP.
-Para obtener más información sobre el protocolo y la configuración SMS, consulte esta [nota técnica](https://helpx.adobe.com/es/campaign/kb/sms-connector-protocol-and-settings.html).
+Para obtener más información sobre el protocolo y la configuración SMS, consulte esta [página](../../delivery/using/sms-protocol.md).
 
 Para realizar esto, siga los pasos a continuación:
 
@@ -56,7 +56,7 @@ Para realizar esto, siga los pasos a continuación:
 
    >[!CAUTION]
    >
-   > A partir de la versión 20.2, los conectores heredados quedan obsoletos y no son compatibles. Se recomienda utilizar el conector **[!UICONTROL Extended generic SMPP]**. Para obtener más información sobre cómo migrar al conector recomendado, consulte esta [página](https://helpx.adobe.com/es/campaign/kb/sms-connector.html).
+   > A partir de la versión 20.2, los conectores heredados quedan obsoletos y no son compatibles. Se recomienda utilizar el conector **[!UICONTROL Extended generic SMPP]**. Para obtener más información sobre cómo migrar al conector recomendado, consulte esta [página](../../delivery/using/unsupported-connector-migration.md).
 
 1. La opción **[!UICONTROL Enable verbose SMPP traces in the log file]** permite volcar todo el tráfico SMPP en los archivos de registro. Esta opción debe habilitarse para solucionar los problemas del conector y comparar el tráfico que ve el proveedor.
 
@@ -94,7 +94,7 @@ Para realizar esto, siga los pasos a continuación:
 
    Sin embargo, dado que determinados proveedores requieren el uso del prefijo “+”. se recomienda que se ponga en contacto con su proveedor y que este le recomiende si es necesario activar esta opción.
 
-   La casilla de verificación **[!UICONTROL Enable TLS over SMPP]** permite cifrar el tráfico de SMPP. Para obtener más información, consulte este [artículo técnico](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
+   La casilla de verificación **[!UICONTROL Enable TLS over SMPP]** permite cifrar el tráfico de SMPP. Para obtener más información, consulte [esta página](../../delivery/using/sms-protocol.md).
 
 1. Si está configurando un conector **[!UICONTROL Extended generic SMPP]**, puede configurar respuestas automáticas.
 
