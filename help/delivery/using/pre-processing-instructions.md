@@ -2,12 +2,12 @@
 solution: Campaign Classic
 product: campaign
 title: Instrucciones de preprocesamiento para direcciones URL rastreadas
-description: Obtenga más información sobre las instrucciones de preprocesamiento que se utilizarán para crear secuencias de comandos de la dirección URL de un correo electrónico y que se seguirá rastreando.
+description: Obtenga más información sobre las instrucciones de preprocesamiento para utilizarlas para crear un script con la dirección URL de un correo electrónico y rastrearlas.
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 9f898e28b981ea4257c9f4b73a579d322ddbba89
+source-git-commit: 3454af2faffacd43fa1ad852529dad175340a237
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 1%
@@ -17,25 +17,25 @@ ht-degree: 1%
 
 # Instrucciones de preprocesamiento {#pre-processing-instructions}
 
-Las instrucciones de &lt;%@ no son JavaScript, esta sintaxis es específica de Adobe Campaign.
+Las instrucciones &lt;%@ no son JavaScript, esta sintaxis es específica de Adobe Campaign.
 
-Solo se aplican en el contexto del contenido de envío. Es la única forma de crear una secuencia de comandos de la dirección URL de un correo electrónico y seguir su seguimiento (además de los parámetros de URL). Se pueden ver como una copia/pegado automático aplicado durante la análisis de envío antes de detectar los vínculos que se van a rastrear.
+Solo se aplican en el contexto del contenido de la entrega. Es la única forma de crear una secuencia de comandos de la dirección URL de un correo electrónico y de seguir realizándolo (además de los parámetros de URL). Se pueden ver como una copia y pegado automáticos aplicados durante el análisis de envío antes de detectar los vínculos que se van a rastrear.
 
 Existen tres tipos de instrucciones:
 
-* &quot;**incluir**&quot;: principalmente para factorizar algunas opciones de código, bloques de personalización, archivos externos o páginas
-* &quot;**valor**&quot;: para dar acceso a los campos del envío, las variables de envío y los objetos personalizados cargados en el envío
-* &quot;**foreach**&quot;: para crear un bucle de una matriz cargada como un objeto personalizado.
+* &quot;**include**&quot;: principalmente para factorizar algunas opciones de código en , bloques de personalización, archivos externos o páginas
+* &quot;**valor**&quot;: para proporcionar acceso a los campos de la entrega, las variables de entrega y los objetos personalizados cargados en la entrega
+* &quot;**foreach**&quot;: para crear un bucle de una matriz cargada como objeto personalizado.
 
-Pueden probarse directamente desde el asistente de envíos. Se aplican en la previsualización de contenido y cuando hace clic en el botón de seguimiento para ver la lista de las direcciones URL.
+Se pueden probar directamente desde el asistente de envíos. Se aplican en la vista previa del contenido y al hacer clic en el botón de seguimiento para ver la lista de las direcciones URL.
 
-## &lt;>{#<%@-include}
+## &lt;>{#include}
 
-Los siguientes ejemplos se encuentran entre los más utilizados:
+Los siguientes ejemplos están entre los más utilizados:
 
 * Incluido el vínculo de página espejo: `<%@ include view="MirrorPage" %>`
-* URL de página espejo: &quot;Vista como `<a href="<%@ include view='MirrorPageUrl' %>" _label="Mirror Page" _type="mirrorPage">web page"`
-* Dirección URL baja lista para usar: `<%@ include option='NmsServer_URL' %>/webApp/unsub?id=<%= escapeUrl(recipient.cryptedId)%>`
+* URL de página espejo: &quot;Ver como `<a href="<%@ include view='MirrorPageUrl' %>" _label="Mirror Page" _type="mirrorPage">web page"`
+* URL de baja predeterminada: `<%@ include option='NmsServer_URL' %>/webApp/unsub?id=<%= escapeUrl(recipient.cryptedId)%>`
 * Otros ejemplos:
    * `<%@ include file='http://www.google.com' %>`
    * `<%@ include file='file:///X:/france/service/test.html' %>`
@@ -43,9 +43,9 @@ Los siguientes ejemplos se encuentran entre los más utilizados:
 
 Utilice el botón de personalización del asistente de envíos para obtener la sintaxis correcta.
 
-## &lt;%@ value {#<%@-value}
+## &lt;%@ value {#value}
 
-Esta instrucción proporciona acceso a parámetros del envío que son constantes para todos los destinatarios.
+Esta instrucción proporciona acceso a parámetros de la entrega que son constantes para todos los destinatarios.
 
 Syntax:
 
@@ -55,36 +55,36 @@ Donde:
 
 * &quot;object&quot;: nombre del objeto (ejemplo: envío, proveedor, etc.).
 * &quot;xpath&quot;: xpath del campo.
-* &quot;index&quot; (opcional): si &quot;object&quot; es una matriz (para objetos de secuencia de comandos adicionales), índice de elementos en la matriz (Inicios en 0).
+* &quot;index&quot; (opcional): si &quot;object&quot; es una matriz (para objetos de secuencia de comandos adicionales), índice de elementos en la matriz (Comienza en 0).
 
 El objeto puede ser:
 
-* &quot;envío&quot;: para el envío actual (vea los detalles y las restricciones en la subsección siguiente).
-* &quot;proveedor&quot;: para el proveedor/enrutamiento de envío actual (nms:externalAccount).
-* Un objeto de secuencia de comandos adicional: si un objeto se carga en el contexto mediante: **Propiedades** > **Personalización** > **Añadir objetos en el contexto de ejecución**.
-* Elemento del bucle foreach: consulte la sección [Foreach](#<%@-foreach) a continuación.
+* &quot;entrega&quot;: para la entrega actual (consulte los detalles y restricciones en la subsección siguiente).
+* &quot;provider&quot;: para el proveedor/enrutamiento de envío actual (nms:externalAccount).
+* Un objeto de secuencia de comandos adicional: si un objeto se carga en el contexto mediante: **Propiedades** > **Personalización** > **Agregar objetos en el contexto de ejecución**.
+* Elemento del bucle foreach: consulte la sección [Foreach](#foreach) a continuación.
 
-### Objeto &quot;envío&quot; {#delivery-object}
+### objeto &quot;envío&quot; {#delivery-object}
 
-Para la personalización del correo electrónico, el objeto envío es accesible de dos formas:
+Para la personalización del correo electrónico, se puede acceder al objeto de envío de dos maneras:
 
 * En JavaScript. Por ejemplo: `<%= delivery.myField %>`.
 
-   En el envío de objetos JavaScript no se admiten campos personalizados. Funcionan en la previsualización, pero no en el MTA porque el MTA sólo puede acceder al esquema de envío incorporado.
+   En la entrega de objetos JavaScript no se admiten campos personalizados. Funcionan en la vista previa, pero no en el MTA porque el MTA solo puede acceder al esquema de envío predeterminado.
 
-* Mediante `<%@ value object="delivery"` preprocesamiento.
+* Mediante el procesamiento previo `<%@ value object="delivery"`.
 
-Para la instrucción `<%@ value object="delivery" xpath="@myCustomField" %>`, existe otra limitación para los envíos enviados por intermediaria. El campo personalizado @myCustomField debe agregarse al esquema nms:envío en las plataformas de marketing y intermediaria.
+Para la instrucción `<%@ value object="delivery" xpath="@myCustomField" %>`, existe otra limitación para los envíos enviados mediante intermediarios. El campo personalizado @myCustomField debe agregarse al esquema nms:delivery tanto en plataformas de marketing como de fuentes intermedias.
 
 >[!NOTE]
 >
->Para parámetros/variables de envío, utilice la sintaxis siguiente (con el objeto envío):
+>Para parámetros y variables de entrega, utilice la siguiente sintaxis (con el objeto de envío):
 >
 >`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
 
-### &lt;>{#<%@-value-in-javascript}
+### &lt;>{#value-in-javascript}
 
-Para permitir el uso del valor &lt;%@ en secciones de secuencias de comandos, se reemplazan dos objetos especiales con &lt;% y %>:
+Para permitir el uso del valor &lt;%@ en secciones de secuencias de comandos, se reemplazan dos objetos especiales por &lt;% y %>:
 
 * `<%@ value object='startScript' %>`
 * `<%@ value object='endScript' %>`
@@ -96,9 +96,9 @@ Por ejemplo:
 `<%@ value object='endScript' %> is expanded in something like <% var iMode = 1 if(iMode == 1) { ... } else { ... } %>.
 ```
 
-## &lt;>{#<%@-foreach}
+## &lt;>{#foreach}
 
-Esta instrucción permite la iteración en una matriz de objetos cargados en el envío para rastrear vínculos individuales relacionados con los objetos.
+Esta instrucción permite la iteración en una matriz de objetos cargados en la entrega para rastrear vínculos individuales relacionados con los objetos.
 
 Sintaxis:
 
@@ -106,14 +106,14 @@ Sintaxis:
 
 Donde:
 
-* &quot;object&quot;: nombre del objeto desde el que se va a realizar el inicio, normalmente un objeto de secuencia de comandos adicional, pero puede ser un envío.
+* &quot;object&quot;: nombre del objeto desde el que se va a iniciar, normalmente un objeto de secuencia de comandos adicional, pero puede ser una entrega.
 * &quot;xpath&quot; (opcional): xpath de la colección en la que se va a realizar un bucle. El valor predeterminado es &quot;.&quot;, lo que significa que el objeto es la matriz en la que se debe realizar el bucle.
-* &quot;index&quot; (opcional): si xpath no es &quot;.&quot; y el objeto es una matriz en sí, índice de elementos del objeto (inicios en 0).
-* &quot;item&quot; (opcional): nombre de un nuevo objeto accesible con un valor &lt;%@ dentro del bucle foreach. Predeterminado con el nombre del vínculo en el esquema.
+* &quot;index&quot; (opcional): si xpath no es &quot;.&quot; y el objeto es una matriz en sí, índice de elemento del objeto (comienza en 0).
+* &quot;elemento&quot; (opcional): nombre de un nuevo objeto accesible con valor &lt;%@ dentro del bucle foreach. Predeterminado con el nombre del vínculo en el esquema.
 
 Ejemplo:
 
-En las propiedades/personalización de envío, cargue una matriz de artículos y una tabla de relación entre destinatario y artículos.
+En las propiedades/personalización de la entrega, cargue una matriz de artículos y una tabla de relación entre el destinatario y los artículos.
 
 La visualización de vínculos a estos artículos se puede realizar simplemente con un JavaScript de la siguiente manera:
 
@@ -126,12 +126,12 @@ La visualización de vínculos a estos artículos se puede realizar simplemente 
 %>
 ```
 
-Con esta solución, los vínculos a todos los artículos se rastrean sin distinción. Puede saber que un destinatario ha hecho clic en un vínculo del artículo, pero no puede saber en qué artículo.
+Con esa solución, los vínculos a todos los artículos se rastrean sin distinción. Puede saber que un destinatario ha hecho clic en un vínculo de artículo, pero no puede saber en qué artículo.
 
 La solución es:
 
-1. Precargue todos los artículos posibles en una matriz de scripts adicional del envío (articleList[]), lo que significa que debe haber un número finito de artículos posibles.
-1. Escriba una función de JavaScript al principio del contenido.
+1. Precargar todos los artículos posibles en una matriz de scripts extra de la entrega - articleList[] - lo que significa que debe haber un número finito de artículos posibles.
+1. Escriba una función JavaScript al principio del contenido.
 
    ```
    <%@ value object='startScript' %>
