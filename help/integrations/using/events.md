@@ -6,10 +6,10 @@ description: Descubra más información sobre cómo configurar eventos para la i
 audience: integrations
 content-type: reference
 translation-type: tm+mt
-source-git-commit: d7de46abb71ca25ef765c6fb5443f6e338fba56e
+source-git-commit: d6327cb5307ab5d37c15afa45dfd180ef04cb5a2
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -217,7 +217,7 @@ Los eventos se pueden mostrar con un formulario sencillo basado en el esquema de
 
 >[!NOTE]
 >
->El nodo Evento de canalización no está integrado y debe añadirse, así como el formulario relacionado debe crearse en Campaign. Estas operaciones están restringidas únicamente a usuarios expertos. Para obtener más información, consulte estas secciones: [Jerarquía](../../configuration/using/about-navigation-hierarchy.md) de navegación y [edición de formularios](../../configuration/using/editing-forms.md).
+>El nodo Evento de canalización no está integrado y debe añadirse, así como el formulario relacionado debe crearse en Campaign. Estas operaciones están restringidas únicamente a usuarios expertos. Para obtener más información, consulte estas secciones: [Jerarquía de navegación](../../platform/using/adobe-campaign-workspace.md#about-navigation-hierarchy). y [Edición de formularios](../../configuration/using/editing-forms.md).
 
 ![](assets/triggers_7.png)
 
