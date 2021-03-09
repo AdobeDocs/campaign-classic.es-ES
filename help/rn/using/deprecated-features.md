@@ -9,9 +9,9 @@ topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 425b2e5748703a8349b6f70968d1ef4c71f72b21
+source-git-commit: f78fa94fb4fb9236222886a167a46d252497b2aa
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1712'
 ht-degree: 95%
 
 ---
@@ -47,10 +47,10 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
   </tr>
     <tr>
   <td>Informe de monitorización de la capacidad de envío técnica<br></td>
-   <td><p>A partir de la versión 21.1 de Campaña, el informe de supervisión técnica de la entrega queda obsoleto.</p>
+   <td><p>A partir de la versión 21.1 de Campaign, el informe de monitorización de capacidad de envío técnica queda obsoleto.</p>
    <p>Si es necesario, puede recibir este informe diariamente por correo electrónico hasta la fecha de eliminación de la función. Para solicitarlo, abra un <a href="https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Caso de soporte</a> específico y especifique el nombre de la instancia y las direcciones de correo electrónico a las que enviar el informe.</p> 
-   <p>Adobe recomienda que se involucre con el equipo de entrega para definir las mejores herramientas para monitorear el rendimiento de la entrega de instancias.</p>
-  <p><em>Fecha de eliminación del destinatario: Finales de 2021</em></p>
+   <p>Adobe recomienda colaborar con el equipo de entrega para definir las mejores herramientas para monitorizar el rendimiento de entrega de la instancia.</p>
+  <p><em>Fecha de eliminación del objetivo: Finales de 2021</em></p>
   </td>
  </tr>
   <tr>
@@ -99,7 +99,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
    <li>iOS</li>
    </ul>
   <p>Si utiliza uno de estos conectores, debe adaptar la implementación en consecuencia. <a href="../../delivery/using/sms-channel.md">Más información</a></p> 
-  <p>Descubra cómo migrar los conectores heredados en <a href="https://helpx.adobe.com/es/campaign/kb/sms-connector.html">esta nota técnica</a>.</p>
+  <p>Descubra cómo migrar los conectores heredados en <a href="../../delivery/using/unsupported-connector-migration.md">esta nota técnica</a>.</p>
   <p><em>Fecha de eliminación objetivo: abril de 2021</em></p>
   </td> 
  </tr>
