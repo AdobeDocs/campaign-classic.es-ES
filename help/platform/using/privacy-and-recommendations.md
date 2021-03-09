@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+source-git-commit: 660b9ad4351fe611d99962f2b163858b1f70bc84
 workflow-type: tm+mt
-source-wordcount: '2043'
+source-wordcount: '2038'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ Adobe Campaign es una potente herramienta para recopilar y procesar cantidades e
 
 * Absténgase de enviar correos electrónicos no solicitados, notificaciones push y mensajes SMS (&quot;spam&quot;). Adobe cree firmemente en los principios del marketing autorizado para fomentar la lealtad y el valor de tiempo de vida del cliente; por lo tanto, Adobe prohíbe estrictamente el uso de Adobe Campaign para la entrega de mensajes no solicitados.
 
-Tómese el tiempo necesario para ver la [Lista de control de seguridad y privacidad](https://helpx.adobe.com/es/campaign/kb/acc-security.html) y conocer los elementos clave que debe comprobar en materia de seguridad y privacidad.
+Tómese el tiempo necesario para ver la [Lista de control de seguridad y privacidad](../../installation/using/get-started-security-privacy.md) y conocer los elementos clave que debe comprobar en materia de seguridad y privacidad.
 
 ### Normas de privacidad {#privacy-regulations}
 
