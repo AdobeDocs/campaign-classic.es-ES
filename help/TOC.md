@@ -9,7 +9,7 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentación
 translation-type: tm+mt
-source-git-commit: c256899e9b04c42df1b5938b5b0513079319cd6b
+source-git-commit: 60b4565ec6dc3e7ffc4ffcff69fbcca9fa870614
 workflow-type: tm+mt
 source-wordcount: '2457'
 ht-degree: 58%
@@ -45,18 +45,18 @@ ht-degree: 58%
       + Espacio de trabajo de Adobe Campaign{#campaign-workspace}
          + [Introducción a la interfaz de usuario de Campaign](platform/using/adobe-campaign-workspace.md)
          + [Examinar y personalizar listas](platform/using/adobe-campaign-ui-lists.md)
-         + Preguntas frecuentes {#faq}
-            + [ preguntas frecuentes](platform/using/common-questions.md)
-            + [Conceptos globales](platform/using/faq-key-concepts.md)
-            + [Actualización de versión](platform/using/faq-build-upgrade.md)
-            + [Privacidad](platform/using/privacy-faq.md)
-            + [Audiencias](platform/using/faq-audiences.md)
-            + [Diseñar mensajes](platform/using/faq-designing.md)
-            + [entrega de mensajes](platform/using/faq-messages.md)
-            + [Flujos de trabajo](platform/using/faq-workflows.md)
-            + [Configuración](platform/using/faq-campaign-config.md)
-            + [Informes](platform/using/faq-reporting.md)
-            + [Desarrollo](platform/using/faq-developers.md)
+      + Preguntas frecuentes {#faq}
+         + [ preguntas frecuentes](platform/using/common-questions.md)
+         + [Conceptos globales](platform/using/faq-key-concepts.md)
+         + [Actualización de versión](platform/using/faq-build-upgrade.md)
+         + [Privacidad](platform/using/privacy-faq.md)
+         + [Audiencias](platform/using/faq-audiences.md)
+         + [Diseñar mensajes](platform/using/faq-designing.md)
+         + [entrega de mensajes](platform/using/faq-messages.md)
+         + [Flujos de trabajo](platform/using/faq-workflows.md)
+         + [Configuración](platform/using/faq-campaign-config.md)
+         + [Informes](platform/using/faq-reporting.md)
+         + [Desarrollo](platform/using/faq-developers.md)
          + [Tutoriales](platform/using/tutorials.md)
    + Privacidad {#privacy}
       + [Privacidad y consentimiento](platform/using/privacy-and-recommendations.md)
