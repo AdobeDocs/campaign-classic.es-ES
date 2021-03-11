@@ -6,10 +6,10 @@ description: Nota técnica
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 87844fae046dff69193d3462c802057499f406ef
+source-git-commit: 248c74485e8e5889ca630c8f60ac2fa085204c51
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 11%
+source-wordcount: '896'
+ht-degree: 16%
 
 ---
 
@@ -69,23 +69,33 @@ El servicio de identidad de Adobe (IMS) dejará de admitir versiones antiguas de
 
 **¿Estás afectado?**
 
-Si se está conectando a Campaign [a través de un Adobe ID](../integrations/using/about-adobe-id.md), a través del servicio de identidad de Adobe (IMS), la actualización a una de las nuevas versiones enumeradas anteriormente es obligatoria tanto para el servidor de Campaign como para la consola del cliente para poder conectarse a Campaign después del **30 de junio de 2021**.
+Si se está conectando a Campaign [a través de un Adobe ID](../integrations/using/about-adobe-id.md), a través del servicio de identidad de Adobe (IMS), la actualización a una de las nuevas versiones enumeradas anteriormente es obligatoria. Esta versión incluye un nuevo protocolo de conexión: la actualización es obligatoria para que el servidor de Campaign y la consola del cliente puedan conectarse a Campaign después del **30 de junio de 2021**.
 
 **¿Cómo se actualiza?**
 
 Como cliente alojado, no es necesario realizar ninguna acción: Adobe ya ha actualizado las instancias a una versión más reciente.
 
-Como cliente local/híbrido, debe actualizar a una de las versiones más recientes para beneficiarse de la nueva consola de cliente y garantizar una transición sin problemas **antes del 31 de marzo de 2021**.
+Como cliente local/híbrido, debe actualizar a una de las versiones más recientes para beneficiarse de la nueva consola de cliente y garantizar una transición sin problemas **antes del 30 de junio de 2021**.
+
+Una vez que todas las instancias se hayan actualizado, la consola de cliente también deberá actualizarse a esta versión.
+
+* Obtenga información sobre cómo acceder a [Adobe Software Distribution](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
+
+* [Obtenga información sobre cómo instalar la consola de cliente de Campaign](../installation/using/installing-the-client-console.md).
 
 ## Integración con Déclencheur de Experience Cloud
 
-El servicio de autenticación oAuth heredado ha llegado al final de su vida útil; se retirará el 30 de junio de 2021. [Más información](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411).
+El servicio de autenticación oAuth heredado ha llegado al final de su vida útil. La autenticación de integración de déclencheur, basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización, se ha trasladado a Adobe I/O. Se retirará el 30 de junio de 2021. [Más información](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411).
 
 **¿Estás afectado?**
 
 Si utiliza una versión anterior de la integración de Déclencheur mediante autenticación oAuth, **debe pasar a Adobe I/O**.
 
 **¿Cómo se actualiza?**
+
+Una vez que las instancias se actualizan a una versión más reciente, todos los clientes deben seguir el procedimiento [para pasar al nuevo modo de autenticación](../integrations/using/configuring-adobe-io.md). Esto requiere generar el nuevo token de Adobe I/O y utilizarlo en la implementación.  
+
+Además, en el caso de entornos híbridos, los clientes deben asegurarse de que la canalización esté configurada en una instancia intermediaria. [Más información](../integrations/using/configuring-pipeline.md).
 
 [Descubra más información sobre cómo migrar a Adobe I/O](../integrations/using/configuring-adobe-io.md).
 
@@ -119,4 +129,4 @@ Como cliente alojado, no es necesario realizar ninguna acción: Adobe ya ha inco
 
 Como cliente local/híbrido, debe actualizar la configuración para garantizar una transición sin problemas **antes del 29 de marzo de 2021**.
 
-[Aprenda a incorporar el nuevo certificado](ios-certificate-update.md)
+[Aprenda a incorporar el nuevo certificado](ios-certificate-update.md).
