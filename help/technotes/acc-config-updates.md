@@ -6,7 +6,7 @@ description: Nota técnica
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 93dc5a16ce4880c132f4f91c72794892b00e7259
+source-git-commit: 87844fae046dff69193d3462c802057499f406ef
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 11%
@@ -38,16 +38,17 @@ Como cliente local/híbrido, debe actualizar a una de las versiones anteriores. 
 
 Las últimas versiones de Campaign incluyen una corrección de seguridad que refuerza la protección contra los problemas de falsificación de solicitudes del lado del servidor (SSRF). Obtenga más información [en esta página](https://helpx.adobe.com/security/products/campaign/apsb21-04.html).
 
-### ¿Estás afectado?
+**¿Estás afectado?**
 
 Si su entorno se encuentra en una compilación inferior a Campaign 21.1, se verá afectado.
 
-## ¿Cómo se actualiza?
+**¿Cómo se actualiza?**
 
 Debe actualizar a una de las compilaciones más recientes que se enumeran arriba.
 
 * Como cliente híbrido, Adobe actualizará la instancia de intermediario a la nueva versión y se le recomienda actualizar también su instancia de marketing.
-La nueva compilación es compatible con al menos la versión 17.9 de Campaign Classic, pero para evitar lagunas de seguridad, Adobe recomienda encarecidamente actualizar todas las instancias a una nueva versión. 
+
+   La nueva compilación es compatible con al menos la versión 17.9 de Campaign Classic, pero para evitar lagunas de seguridad, Adobe recomienda encarecidamente actualizar todas las instancias a una nueva versión. 
 
 * Como cliente local, se le solicita que actualice las instancias de marketing y intermediario a una nueva versión.
 
@@ -64,13 +65,13 @@ La última versión de Gold Standard 11 corrige una regresión que impedía el u
 
 ## Conectarse a Campaign a través de IMS
 
-El servicio de identidad de Adobe (IMS) dejará de admitir versiones antiguas de Internet Explorer a partir del 31 de marzo de 2021. [Más información](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html). La consola de Campaign se ha actualizado para garantizar la compatibilidad con IMS.
+El servicio de identidad de Adobe (IMS) dejará de admitir versiones antiguas de Internet Explorer a partir del 30 de junio de 2021. [Más información](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html). La consola de Campaign se ha actualizado para garantizar la compatibilidad con IMS.
 
-### ¿Estás afectado?
+**¿Estás afectado?**
 
-Si se está conectando a Campaign [a través de un Adobe ID](../integrations/using/about-adobe-id.md), a través del servicio de identidad de Adobe (IMS), la actualización a una de las nuevas versiones enumeradas anteriormente es obligatoria para que el servidor de Campaign y la consola del cliente puedan conectarse a Campaign después del **31 de marzo de 2021**.
+Si se está conectando a Campaign [a través de un Adobe ID](../integrations/using/about-adobe-id.md), a través del servicio de identidad de Adobe (IMS), la actualización a una de las nuevas versiones enumeradas anteriormente es obligatoria tanto para el servidor de Campaign como para la consola del cliente para poder conectarse a Campaign después del **30 de junio de 2021**.
 
-### ¿Cómo se actualiza?
+**¿Cómo se actualiza?**
 
 Como cliente alojado, no es necesario realizar ninguna acción: Adobe ya ha actualizado las instancias a una versión más reciente.
 
@@ -78,13 +79,13 @@ Como cliente local/híbrido, debe actualizar a una de las versiones más recient
 
 ## Integración con Déclencheur de Experience Cloud
 
-El servicio de autenticación oAuth heredado ha llegado al final de su vida útil; se retirará el 30 de abril de 2021. [Más información](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411).
+El servicio de autenticación oAuth heredado ha llegado al final de su vida útil; se retirará el 30 de junio de 2021. [Más información](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411).
 
-### ¿Estás afectado?
+**¿Estás afectado?**
 
 Si utiliza una versión anterior de la integración de Déclencheur mediante autenticación oAuth, **debe pasar a Adobe I/O**.
 
-### ¿Cómo se actualiza?
+**¿Cómo se actualiza?**
 
 [Descubra más información sobre cómo migrar a Adobe I/O](../integrations/using/configuring-adobe-io.md).
 
@@ -92,11 +93,11 @@ Si utiliza una versión anterior de la integración de Déclencheur mediante aut
 
 A partir del 31 de marzo de 2021, el servicio de notificaciones push de Apple (APN) ya no admitirá el protocolo binario heredado. [Obtenga más información](https://developer.apple.com/news/?id=c88acm2b).
 
-### ¿Estás afectado?
+**¿Estás afectado?**
 
 Si las instancias se ejecutan en una versión anterior a Campaign 21.1 y envían notificaciones push con el protocolo binario heredado de Apple, debe actualizar a la API del proveedor de APNS basada en HTTP/2.
 
-### ¿Cómo se actualiza?
+**¿Cómo se actualiza?**
 
 Como cliente alojado, no es necesario realizar ninguna acción: Adobe ya ha actualizado sus instancias a la API basada en HTTP/2.
 
@@ -108,11 +109,11 @@ El 29 de marzo de 2021, la actualización de la infraestructura del servicio de 
 
 Obtenga más información sobre los cambios de APNS [en esta página](https://developer.apple.com/news/?id=7gx0a2lp).
 
-### ¿Estás afectado?
+**¿Estás afectado?**
 
 Si utiliza Campaign para enviar notificaciones push a dispositivos iOS, se verá afectado.
 
-### ¿Cómo se actualiza?
+**¿Cómo se actualiza?**
 
 Como cliente alojado, no es necesario realizar ninguna acción: Adobe ya ha incorporado el nuevo certificado raíz a su entorno.
 
