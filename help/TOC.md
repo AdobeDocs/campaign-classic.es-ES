@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentación
 translation-type: tm+mt
-source-git-commit: de017afc1e5d30b561ed2bb7485756f30ef8778a
+source-git-commit: 2a82c1f67d8bc6d8499383a600a003480e82510f
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: '2464'
 ht-degree: 58%
 
 ---
@@ -40,6 +40,7 @@ ht-degree: 58%
    + [Matriz de compatibilidad](rn/using/compatibility-matrix.md)
    + [Notas técnicas](technotes/technote.md)
    + [Actualización de certificados de iOS](technotes/ios-certificate-update.md)
+   + [Actualizaciones de configuración de Campaign](technotes/acc-config-updates.md)
 + Introducción {#getting-started}
    + Comience con Adobe Campaign {#starting-with-adobe-campaign}
       + [Introducción a Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
@@ -362,7 +363,7 @@ ht-degree: 58%
    + [Acerca de las integraciones de Campaign](integrations/using/about-campaign-integrations.md)
    + Uso compartido de audiencias {#audience-sharing}
       + [Compartir audiencias con [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
-      + [Enviar solicitud a Adobe](integrations/using/submitting-request-to-adobe.md)
+      + [Enviar solicitud al Adobe](integrations/using/submitting-request-to-adobe.md)
       + [Configurar la integración de audiencias compartidas en [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
       + [Resolución de problemas](integrations/using/troubleshooting.md)
       + [Importar y exportar audiencias](integrations/using/importing-and-exporting-audiences.md)
@@ -381,7 +382,7 @@ ht-degree: 58%
    + Conectarse a través de un Adobe ID {#connecting-via-an-adobe-id}
       + [Acerca de [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
       + [Configurar Adobe [!DNL IMS]](integrations/using/configuring-ims.md)
-      + [Implementación de Adobe [!DNL IMS]](integrations/using/implementing-ims.md)
+      + [Implementar Adobe [!DNL IMS]](integrations/using/implementing-ims.md)
       + [Solución de problemas de IMS](integrations/using/ims-troubleshooting.md)
    + Conector ACS {#acs-connector}
       + [[!DNL ACS Connector] Principios y ciclo de datos](integrations/using/acs-connector-principles-and-data-cycle.md)
@@ -392,7 +393,7 @@ ht-degree: 58%
    + Activadores de Adobe Experience Cloud {#experience-triggers}
       + [Introducción a [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [Configurar canalización](integrations/using/configuring-pipeline.md)
-      + [Configuración de Adobe I/O para [!DNL Experience Cloud Triggers]](integrations/using/configuring-adobe-io.md)
+      + [Configure el Adobe I/O para [!DNL Experience Cloud Triggers]](integrations/using/configuring-adobe-io.md)
       + [Configurar eventos para la implementación personalizada](integrations/using/events.md)
       + [Supervisión de canalización](integrations/using/pipeline-monitoring.md)
       + [Solución de problemas de canalización](integrations/using/pipeline-troubleshooting.md)
