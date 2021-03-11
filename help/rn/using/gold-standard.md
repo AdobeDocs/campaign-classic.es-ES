@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 23ba4091a1ffaa0245c58e8d346c60b54f79b4a2
+source-git-commit: 91313fdc7aed6597d8d54d65b747c835e0cd9ccb
 workflow-type: tm+mt
 source-wordcount: '1112'
-ht-degree: 92%
+ht-degree: 88%
 
 ---
 
@@ -44,9 +44,9 @@ _22 de diciembre de 2020_
 
 >[!CAUTION]
 >
-> * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaign a través de Adobe Identity Service (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola de cliente para poder conectarse a Campaign después del **31 de marzo de 2021**.
+> * Esta versión incorpora un nuevo protocolo de conexión: si se conecta a Campaign a través del servicio de identidad de Adobe (IMS), la actualización es obligatoria para que el servidor de Campaign y la consola del cliente puedan conectarse a Campaign después del **30 de junio de 2021**.
 > * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
-> * Si utiliza la integración de los activadores de Experience Cloud mediante la autenticación oAuth, debe pasar a Adobe I/O como se describe [en esta página](../../integrations/using/configuring-adobe-io.md). El modo oAuth authentication heredado se eliminará el **30 de abril de 2021**.
+> * Si está utilizando la integración de Déclencheur de Experience Cloud mediante autenticación oAuth, debe pasar a Adobe I/O como se describe [en esta página](../../integrations/using/configuring-adobe-io.md). El modo oAuth authentication heredado se eliminará el **30 de abril de 2021**.
 
 >
 >
