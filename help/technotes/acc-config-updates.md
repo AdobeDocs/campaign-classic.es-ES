@@ -6,7 +6,7 @@ description: Nota técnica
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 087abb5765b089aa707f3d3a6d33ad0949b26bc8
+source-git-commit: df04057716726a74196add3fbc400fffaca26fc9
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 16%
@@ -85,7 +85,7 @@ Una vez que todas las instancias se hayan actualizado, la consola de cliente tam
 
 ## Integración con Déclencheur de Experience Cloud
 
-El servicio de autenticación oAuth heredado ha llegado al final de su vida útil. La autenticación de integración de déclencheur, basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización, se ha trasladado a Adobe I/O. Se retirará el 30 de junio de 2021. [Más información](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411).
+El servicio de autenticación oAuth heredado ha llegado al final de su vida útil. La autenticación de integración de déclencheur, basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización, se ha trasladado a Adobe I/O. Se retirará el **30 de abril de 2021**. [Más información](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411).
 
 **¿Estás afectado?**
 
