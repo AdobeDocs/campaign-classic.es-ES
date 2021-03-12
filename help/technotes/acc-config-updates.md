@@ -6,9 +6,9 @@ description: Nota técnica
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: df04057716726a74196add3fbc400fffaca26fc9
+source-git-commit: 26d6e52a03d6123092c811a93612c8d05f75f6fb
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '905'
 ht-degree: 16%
 
 ---
@@ -30,9 +30,9 @@ Los usuarios de Campaign deben actualizar a una de las versiones más recientes 
 
 Estas compilaciones garantizan la continuidad de ciertos servicios de Campaign: Integración de Déclencheur de Experience Cloud, autenticación APNS y el nuevo protocolo de conexión que afecta al mecanismo de autenticación del servicio Identity Management de Adobe (IMS).
 
-Como cliente alojado, no es necesario realizar ninguna acción: Adobe es propietario de las actualizaciones de actualización y configuración de la compilación.
+Como cliente alojado, el Adobe le informará de las actualizaciones de compilación necesarias a intervalos regulares. Debe actualizar de acuerdo con las recomendaciones para garantizar el cumplimiento.
 
-Como cliente local/híbrido, debe actualizar a una de las versiones anteriores. Además, debe realizar algunas tareas manuales para asegurarse de que el entorno sea seguro y esté listo para los próximos cambios de sistemas de Adobe o de terceros.
+Como cliente local/híbrido, debe actualizar a una de las versiones anteriores. Además, se deben realizar algunas tareas manuales para asegurarse de que el entorno sea seguro y esté listo para los próximos cambios de sistemas de Adobe o de terceros.
 
 ## Actualizaciones de seguridad
 
