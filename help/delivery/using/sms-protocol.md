@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: a157082070b22e3621cb81411a5ddde387fd5fcf
+source-git-commit: 74610fa197dd9ef27342e08dd0ba3403c1a9acc0
 workflow-type: tm+mt
 source-wordcount: '8458'
 ht-degree: 99%
@@ -483,7 +483,7 @@ Especificar código corto resulta útil para dos funciones:
 
 * La previsualización mostrará el código corto si no se proporciona ningún número de origen. Reflejará el comportamiento real en el teléfono móvil.
 
-* La configuración de  de lista de bloqueados de la función de respuesta automática sólo envía al usuario una cuarentena de un código corto específico.
+* La configuración de lista de bloqueados de la función de respuesta automática solo envía a cuarentena al usuario de un código corto específico.
 
 #### TON/NPI de origen, TON de destino/NPI {#ton-npi}
 
@@ -718,9 +718,9 @@ Esta configuración solo permite añadir una opción TLV por mensaje.
 
 >[!IMPORTANT]
 >
->En Adobe Campaign Classic y en una arquitectura híbrida, la aplicación de la respuesta automática para el conector del SMPP ampliado requiere añadir acceso de escritura para el operador medio en la carpeta **Cuenta externa**.
+>En Adobe Campaign Classic y en una arquitectura híbrida, la aplicación de la respuesta automática para el conector SMPP extendido requiere añadir acceso de escritura para el operador mid en la carpeta **External account**.
 
-Esta función permite responder texto rápidamente a MO y controlar el envío de código por corto a lista de bloqueados.
+Esta función permite responder texto rápidamente a MO y controlar el envío de código corto a la lista de bloqueados.
 
 Las columnas **Palabra clave** y **Código corto** definen condiciones para la activación de la respuesta automática. Si coinciden ambos campos, se envía el MO y se activa la acción adicional. Para especificar un comodín, debe dejar el campo vacío. La palabra clave coincide con la primera palabra alfanumérica del texto MO, omitiendo la puntuación y los espacios iniciales. Esto significa que el campo **Palabra clave** no puede contener espacios y debe ser una sola palabra.
 
