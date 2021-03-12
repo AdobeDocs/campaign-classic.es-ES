@@ -6,10 +6,10 @@ description: Nota técnica
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 26d6e52a03d6123092c811a93612c8d05f75f6fb
+source-git-commit: 74610fa197dd9ef27342e08dd0ba3403c1a9acc0
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 16%
+source-wordcount: '918'
+ht-degree: 17%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 16%
 
 Debe mantener la infraestructura y la configuración actualizadas con las últimas versiones y correcciones de productos. Estas correcciones son obligatorias para garantizar la continuidad y seguridad del servicio.
 
-Los usuarios de Campaign deben actualizar a una de las versiones más recientes a continuación:
+Los usuarios de Campaign deben actualizar a una de las últimas versiones siguientes:
 
 * Gold Standard 11. [Obtenga más información](../rn/using/gold-standard.md)
 * Versión 21.1.1 de Campaign. [Obtenga más información](../rn/using/latest-release.md)
@@ -34,6 +34,10 @@ Como cliente alojado, el Adobe le informará de las actualizaciones de compilaci
 
 Como cliente local/híbrido, debe actualizar a una de las versiones anteriores. Además, se deben realizar algunas tareas manuales para asegurarse de que el entorno sea seguro y esté listo para los próximos cambios de sistemas de Adobe o de terceros.
 
+>[!NOTE]
+>
+>Para cualquier pregunta sobre estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+
 ## Actualizaciones de seguridad
 
 Las últimas versiones de Campaign incluyen una corrección de seguridad que refuerza la protección contra los problemas de falsificación de solicitudes del lado del servidor (SSRF). Obtenga más información [en esta página](https://helpx.adobe.com/security/products/campaign/apsb21-04.html).
@@ -48,13 +52,13 @@ Debe actualizar a una de las compilaciones más recientes que se enumeran arriba
 
 * Como cliente híbrido, Adobe actualizará la instancia de intermediario a la nueva versión y se le recomienda actualizar también su instancia de marketing.
 
-   La nueva compilación es compatible con al menos la versión 17.9 de Campaign Classic, pero para evitar lagunas de seguridad, Adobe recomienda encarecidamente actualizar todas las instancias a una nueva versión. 
+   La nueva compilación es compatible con al menos la versión 17.9 de Campaign Classic, pero para evitar lagunas de seguridad, Adobe recomienda actualizar todas las instancias a una nueva compilación. 
 
 * Como cliente local, se le solicita que actualice las instancias de marketing y intermediario a una versión más reciente.
 
 >[!CAUTION]
 >
->Si no puede actualizar por ahora, **debe ponerse en contacto con el equipo de atención al cliente de Adobe para aplicar manualmente una corrección de seguridad en sus instancias**.
+>Si no puede actualizar por ahora, **debe ponerse en contacto con el equipo de atención al cliente de Adobe para aplicar manualmente una corrección de seguridad en las instancias**.
 
 
 ## Actualización de la consola del cliente de Campaign
@@ -69,7 +73,7 @@ El servicio de identidad de Adobe (IMS) dejará de admitir versiones antiguas de
 
 **¿Estás afectado?**
 
-Si se está conectando a Campaign [a través de un Adobe ID](../integrations/using/about-adobe-id.md), a través del servicio de identidad de Adobe (IMS), la actualización a una de las nuevas versiones enumeradas anteriormente es obligatoria. Esta versión incluye un nuevo protocolo de conexión: la actualización es obligatoria para que el servidor de Campaign y la consola del cliente puedan conectarse a Campaign después del **30 de junio de 2021**.
+Si se está conectando a Campaign [a través de un Adobe ID](../integrations/using/about-adobe-id.md), a través del servicio de identidad de Adobe (IMS), la actualización a una de las nuevas versiones enumeradas anteriormente es obligatoria. Estas versiones incluyen un nuevo protocolo de conexión: la actualización es obligatoria para que el servidor de Campaign y la consola del cliente puedan conectarse a Campaign después del **30 de junio de 2021**.
 
 **¿Cómo se actualiza?**
 
