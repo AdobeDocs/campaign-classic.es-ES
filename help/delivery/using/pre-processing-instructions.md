@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 7a58da8fd20abbff9dcf8361536310de49a7905f
+source-git-commit: 8aab4bc23d688aa225cfc636936cf2835840e410
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 81%
+ht-degree: 76%
 
 ---
 
@@ -24,8 +24,8 @@ Solo se aplican en el contexto del contenido de envío. Es la única forma de cr
 Existen tres tipos de instrucciones:
 
 * **[!DNL include]**: principalmente para factorizar algún código en opciones, bloques de personalización, archivos externos o páginas. [Obtenga más información](#include)
-* &quot;**[!DNL value]**&quot;: para proporcionar acceso a los campos de la entrega, las variables de entrega y los objetos personalizados cargados en la entrega. [Obtenga más información](#value)
-* &quot;**[!DNL foreach]**&quot;: para crear un bucle de una matriz cargada como un objeto personalizado. [Obtenga más información](#foreach)
+* **[!DNL value]**: para proporcionar acceso a los campos de la entrega, las variables de entrega y los objetos personalizados cargados en la entrega. [Obtenga más información](#value)
+* **[!DNL foreach]**: para crear un bucle de una matriz cargada como un objeto personalizado. [Obtenga más información](#foreach)
 
 Pueden probarse directamente desde el asistente de envíos. Se aplican en la previsualización de contenido y cuando hace clic en el botón de seguimiento para ver la lista de las direcciones URL.
 
@@ -75,8 +75,8 @@ Donde:
 
 * **[!DNL object]**: nombre del objeto (ejemplo: envío, proveedor, etc.).
 El objeto puede ser:
-   * &quot;delivery&quot;: para el envío actual (vea los detalles y las restricciones en la subsección siguiente).
-   * &quot;provider&quot;: para el proveedor/enrutamiento de envío actual (nms:externalAccount).
+   * **[!DNL delivery]**: para el envío actual (vea los detalles y las restricciones en la subsección siguiente).
+   * **[!DNL provider]**: para el proveedor/enrutamiento de envío actual (nms:externalAccount).
    * Un objeto de secuencia de comandos adicional: si un objeto se carga en el contexto mediante: **Propiedades** > **Personalización** > **Añadir objetos en el contexto de ejecución**.
    * Elemento del bucle foreach: consulte la sección [Foreach](#foreach) a continuación.
 * **[!DNL xpath]**: xpath del campo.
@@ -101,22 +101,28 @@ Para la personalización del correo electrónico, el objeto de envío es accesib
    ```
 
 
->[!NOTE]
->
->* Para la instrucción `<%@ value object="delivery" xpath="@myCustomField" %>`, existe otra limitación para los envíos enviados por intermediarios. El campo personalizado @myCustomField debe añadirse al esquema nms:delivery en las plataformas de marketing y del intermediario.
-   >
-   >
-* Para parámetros/variables de envío, utilice la sintaxis siguiente (con el objeto de envío):
->
->
-`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
+**Precaución**
+
+Si utiliza la siguiente instrucción para las entregas enviadas mediante intermediario, el campo personalizado **@myCustomField** debe agregarse al esquema nms:delivery en las plataformas de marketing y de intermediario:
+
+```
+<%@ value object="delivery" xpath="@myCustomField" %>
+```
+
+Para parámetros/variables de envío, utilice la sintaxis siguiente (con el objeto de envío):
+
+```
+<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>
+```
 
 ### [!DNL value] en una sección de Javascript  {#value-in-javascript}
 
 Para permitir el uso del valor &lt;%@ en las secciones de Javascript, se reemplazan dos objetos especiales por &lt;% y %>:
 
-* `<%@ value object='startScript' %>`
-* `<%@ value object='endScript' %>`
+```
+<%@ value object='startScript' %>
+<%@ value object='endScript' %>
+```
 
 Por ejemplo:
 
