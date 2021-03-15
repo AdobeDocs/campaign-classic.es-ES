@@ -6,10 +6,10 @@ description: Nota técnica
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 74610fa197dd9ef27342e08dd0ba3403c1a9acc0
+source-git-commit: c9e3d12f8975b2c87f6f4aaf306fae71803786ad
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 17%
+source-wordcount: '941'
+ht-degree: 16%
 
 ---
 
@@ -44,7 +44,7 @@ Las últimas versiones de Campaign incluyen una corrección de seguridad que ref
 
 **¿Estás afectado?**
 
-Si su entorno se encuentra en una compilación inferior a Campaign 21.1, se verá afectado.
+Si su entorno se encuentra en una compilación inferior a Campaign 19.1.8, 19.2.4, 20.1.4, 20.2.4, 20.3.3 o Gold Standard 11, se verá afectado.
 
 **¿Cómo se actualiza?**
 
@@ -66,6 +66,11 @@ Debe actualizar a una de las compilaciones más recientes que se enumeran arriba
 La última versión de Gold Standard 11 corrige una regresión que impedía el uso de algunos componentes de la consola, como el selector de fechas y la administración de imágenes en los envíos. La actualización de la consola es obligatoria.
 
 [Más información](../rn/using/gold-standard.md).
+
+
+>[!NOTE]
+>
+>Pronto habrá actualizaciones disponibles para otras versiones.
 
 ## Conectarse a Campaign a través de IMS
 
@@ -93,7 +98,7 @@ El servicio de autenticación oAuth heredado ha llegado al final de su vida úti
 
 **¿Estás afectado?**
 
-Si utiliza una versión anterior de la integración de Déclencheur mediante autenticación oAuth, **debe pasar a Adobe I/O**.
+Si su entorno se encuentra en una versión inferior a Campaign 19.1.8, 20.2.4, Gold Standard 11, está utilizando una versión anterior de la integración de Déclencheur mediante autenticación oAuth: **debe pasar a Adobe I/O**.
 
 **¿Cómo se actualiza?**
 
