@@ -7,31 +7,35 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 151667637a12667f5eda1590e64e01de493be9ce
+source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 0%
+source-wordcount: '214'
+ht-degree: 88%
 
 ---
 
 
-# Comience con el seguimiento de vínculos personalizados {#tracking-personalized-links}
+# Introducción al seguimiento de vínculos personalizados {#tracking-personalized-links}
 
 Los vínculos del contenido del correo electrónico que contienen personalización necesitan rastrearse con una sintaxis específica.
 
 El uso de JavaScript en el contenido del correo electrónico (HTML o texto) le permite generar y enviar contenido dinámico a los destinatarios, con dos limitaciones:
 
 * La secuencia de comandos no puede acceder directamente a la base de datos (la función SQL y las funciones API no están disponibles),
-* Adobe Campaign debe poder detectar direcciones URL para poder rastrear los vínculos (objetivo de este documento).
+* Adobe Campaign debe poder detectar las direcciones URL para poder realizar el seguimiento de los vínculos. [Obtenga más información](detecting-tracking-urls.md)
 
-Para la detección de seguimiento, Adobe Campaign incrusta [Tidy](http://www.html-tidy.org/) para analizar el origen HTML y detectar el patrón. Lista todas las direcciones URL del contenido para que se puedan rastrear individualmente. Adobe Campaign utiliza nuevamente Tidy para reemplazar la dirección URL (`http://myurl.com`) por una dirección URL que apunte al servidor de redirección de Adobe Campaign.
+Puede agregar [instrucciones específicas de preprocesamiento](pre-processing-instructions.md) en estas direcciones URL
+
+instrucciones de procesamiento previo.
+
+Para la detección de seguimiento, Adobe Campaign incrusta [Tidy](http://www.html-tidy.org/) para analizar la fuente HTML y detectar el patrón. Enumera todas las direcciones URL del contenido para que se puedan rastrear individualmente. Adobe Campaign utiliza de nuevo Tidy para reemplazar la dirección URL (`http://myurl.com`) por otra URL que apunte al servidor de redirección de Adobe Campaign.
 
 Por ejemplo, en el contenido inicial: `http://myurl.com/a.php?name=<%=escapeUrl(recipient.lastName)%>` se sustituye por un destinatario en particular con: `http://emailing.customer.com/r/?id=h617791,71ffa3,71ffa8&p1=CustomerName`
 
 Donde:
 
 * &quot;h&quot; significa contenido HTML (o &quot;t&quot; para contenido de texto).
-* 617791 es el ID del mensaje / el ID de amplioLog (hexadecimal).
-* 71ffa3 es la ID de NmsDelivery (hexadecimal).
+* 617791 es el ID del mensaje/el ID de broadLog (hexadecimal).
+* 71ffa3 es el ID de NmsDelivery (hexadecimal).
 * 71ffa8 es el ID de NmsTrackingUrl (hexadecimal).
 * p1, p2, etc., son todos los parámetros que se sustituirán en la dirección URL.
