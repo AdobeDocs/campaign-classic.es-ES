@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
+source-git-commit: 7a58da8fd20abbff9dcf8361536310de49a7905f
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 85%
+source-wordcount: '642'
+ht-degree: 81%
 
 ---
 
@@ -23,9 +23,9 @@ Solo se aplican en el contexto del contenido de envío. Es la única forma de cr
 
 Existen tres tipos de instrucciones:
 
-* &quot;**include**&quot;: principalmente para factorizar algún código en opciones, bloques de personalización, archivos externos o páginas
-* &quot;**valor**&quot;: para dar acceso a los campos del envío, las variables de envío y los objetos personalizados cargados en el envío
-* &quot;**foreach**&quot;: para crear un bucle de una matriz cargada como un objeto personalizado.
+* **[!DNL include]**: principalmente para factorizar algún código en opciones, bloques de personalización, archivos externos o páginas. [Obtenga más información](#include)
+* &quot;**[!DNL value]**&quot;: para proporcionar acceso a los campos de la entrega, las variables de entrega y los objetos personalizados cargados en la entrega. [Obtenga más información](#value)
+* &quot;**[!DNL foreach]**&quot;: para crear un bucle de una matriz cargada como un objeto personalizado. [Obtenga más información](#foreach)
 
 Pueden probarse directamente desde el asistente de envíos. Se aplican en la previsualización de contenido y cuando hace clic en el botón de seguimiento para ver la lista de las direcciones URL.
 
@@ -33,15 +33,33 @@ Pueden probarse directamente desde el asistente de envíos. Se aplican en la pre
 
 Los siguientes ejemplos se encuentran entre los más utilizados:
 
-* Incluir el vínculo de la página espejo: `<%@ include view="MirrorPage" %>`
-* URL de la página espejo: &quot;Ver como `<a href="<%@ include view='MirrorPageUrl' %>" _label="Mirror Page" _type="mirrorPage">web page"`
-* Dirección URL de baja: `<%@ include option='NmsServer_URL' %>/webApp/unsub?id=<%= escapeUrl(recipient.cryptedId)%>`
-* Otros ejemplos:
-   * `<%@ include file='http://www.google.com' %>`
-   * `<%@ include file='file:///X:/france/service/test.html' %>`
-   * `<%@ include option='NmsServer_URL' %>`
+* Incluir el vínculo de la página espejo:
 
-Utilice el botón de personalización del asistente de envíos para obtener la sintaxis correcta.
+   ```
+   <%@ include view="MirrorPage" %>  
+   ```
+
+* URL de página espejo:
+
+   ```
+   View as a <a href="<%@ include view='MirrorPageUrl' %>" _label="Mirror Page" _type="mirrorPage">web page.
+   ```
+
+* Dirección URL de baja:
+
+   ```
+   <%@ include option='NmsServer_URL' %>/webApp/unsub?id=<%= escapeUrl(recipient.cryptedId)%>
+   ```
+
+* Otros ejemplos:
+
+   ```
+   <%@ include file='http://www.google.com' %>
+   <%@ include file='file:///X:/france/service/test.html' %>
+   <%@ include option='NmsServer_URL' %>
+   ```
+
+   Utilice el botón de personalización del asistente de envíos para obtener la sintaxis correcta.
 
 ## [!DNL value] {#value}
 
@@ -49,7 +67,9 @@ Esta instrucción proporciona acceso a parámetros del envío que son constantes
 
 Sintaxis:
 
-`<%@ value object="myObject" xpath="@myField" index="1" %>`
+```
+<%@ value object="myObject" xpath="@myField" index="1" %>
+```
 
 Donde:
 
@@ -66,19 +86,30 @@ El objeto puede ser:
 
 Para la personalización del correo electrónico, el objeto de envío es accesible de dos formas:
 
-* En JavaScript. Por ejemplo: `<%= delivery.myField %>`.
+* Uso de JavaScript:
+
+   ```
+   <%= delivery.myField %>`.
+   ```
 
    En el envío de objetos JavaScript no se admiten campos personalizados. Funcionan en la previsualización, pero no en el servidor de correo, porque este solo puede acceder al esquema de envío listo para usar.
 
-* Mediante `<%@ value object="delivery"` preprocesamiento.
+* Uso de un procesamiento previo:
 
-Para la instrucción `<%@ value object="delivery" xpath="@myCustomField" %>`, existe otra limitación para los envíos enviados por intermediarios. El campo personalizado @myCustomField debe añadirse al esquema nms:delivery en las plataformas de marketing y del intermediario.
+   ```
+   <%@ value object="delivery"
+   ```
+
 
 >[!NOTE]
 >
->Para parámetros/variables de envío, utilice la sintaxis siguiente (con el objeto de envío):
+>* Para la instrucción `<%@ value object="delivery" xpath="@myCustomField" %>`, existe otra limitación para los envíos enviados por intermediarios. El campo personalizado @myCustomField debe añadirse al esquema nms:delivery en las plataformas de marketing y del intermediario.
+   >
+   >
+* Para parámetros/variables de envío, utilice la sintaxis siguiente (con el objeto de envío):
 >
->`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
+>
+`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
 
 ### [!DNL value] en una sección de Javascript  {#value-in-javascript}
 
@@ -100,14 +131,16 @@ Esta instrucción permite la iteración en una matriz de objetos cargados en el 
 
 Síntaxis:
 
-`<%@ foreach object="myObject" xpath="myLink" index="3" item="myItem" %> <%@ end %>`
+```
+<%@ foreach object="myObject" xpath="myLink" index="3" item="myItem" %> <%@ end %>
+```
 
 Donde:
 
-* &quot;object&quot;: nombre del objeto desde el que se va a realizar el inicio, normalmente un objeto de secuencia de comandos adicional, pero puede ser un envío.
-* &quot;xpath&quot; (opcional): xpath de la colección en la que se va a realizar un bucle. El valor predeterminado es &quot;.&quot;, lo que significa que el objeto es la matriz en la que se debe realizar el bucle.
-* &quot;index&quot; (opcional): si xpath no es &quot;.&quot; y el objeto es una matriz en sí, índice de elementos del objeto (inicia en 0).
-* &quot;item&quot; (opcional): nombre de un nuevo objeto accesible con un valor &lt;%@ dentro del bucle foreach. Predeterminado con el nombre del vínculo en el esquema.
+* **[!DNL object]**: nombre del objeto desde el que se va a realizar el inicio, normalmente un objeto de secuencia de comandos adicional, pero puede ser un envío.
+* **[!DNL xpath]** (opcional): xpath de la colección en la que se va a realizar un bucle. El valor predeterminado es &quot;.&quot;, lo que significa que el objeto es la matriz en la que se debe realizar el bucle.
+* **[!DNL index]** (opcional): si xpath no es &quot;.&quot; y el objeto es una matriz en sí, índice de elementos del objeto (inicia en 0).
+* **[!DNL item]** (opcional): nombre de un nuevo objeto accesible con un valor &lt;%@ dentro del bucle foreach. Predeterminado con el nombre del vínculo en el esquema.
 
 Ejemplo:
 
