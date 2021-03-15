@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
+source-git-commit: 6b81d0ea22bf9d8f33e486535b4ce02fbae7b9ae
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 88%
+source-wordcount: '219'
+ht-degree: 87%
 
 ---
 
@@ -24,9 +24,7 @@ El uso de JavaScript en el contenido del correo electrónico (HTML o texto) le p
 * La secuencia de comandos no puede acceder directamente a la base de datos (la función SQL y las funciones API no están disponibles),
 * Adobe Campaign debe poder detectar las direcciones URL para poder realizar el seguimiento de los vínculos. [Obtenga más información](detecting-tracking-urls.md)
 
-Puede agregar [instrucciones específicas de preprocesamiento](pre-processing-instructions.md) en estas direcciones URL
-
-instrucciones de procesamiento previo.
+Puede agregar instrucciones de preprocesamiento específicas para crear una secuencia de comandos de la dirección URL y rastrearla. [Obtenga más información](pre-processing-instructions.md)
 
 Para la detección de seguimiento, Adobe Campaign incrusta [Tidy](http://www.html-tidy.org/) para analizar la fuente HTML y detectar el patrón. Enumera todas las direcciones URL del contenido para que se puedan rastrear individualmente. Adobe Campaign utiliza de nuevo Tidy para reemplazar la dirección URL (`http://myurl.com`) por otra URL que apunte al servidor de redirección de Adobe Campaign.
 
