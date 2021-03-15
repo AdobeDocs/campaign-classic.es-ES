@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 translation-type: tm+mt
-source-git-commit: f03554302c77a39a3ad68d47417ed930f43302b7
+source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 26%
+source-wordcount: '772'
+ht-degree: 27%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 26%
 
 Adobe Campaign ofrece un conjunto de herramientas que le ayudan a cumplir con la privacidad de RGPD y CCPA.
 
-Consulte [esta página](../../platform/using/privacy-management.md) para obtener información general sobre qué es la administración de privacidad y los pasos de implementación de Adobe Campaign. También encontrará recomendaciones e información general del proceso y de los perfiles del usuario.
+Consulte [esta página](../../platform/using/privacy-management.md) para obtener información general sobre qué es la administración de privacidad y los pasos de implementación en Adobe Campaign. También encontrará recomendaciones e información general del proceso y de los perfiles del usuario.
 
-## Personalización de la URL
+## Personalización de la URL {#url-personalization}
 
 Al añadir enlaces personalizados al contenido, evite siempre cualquier personalización en la parte del nombre de host de la dirección URL para evitar posibles lagunas de seguridad. Los siguientes ejemplos nunca deben utilizarse en todos los atributos de URL &lt;`a href="">` o `<img src="">`:
 
@@ -57,7 +57,7 @@ Para mejorar la seguridad, en la versión 19.1.4 (9032@3a9dc9c) se ha introducid
 >
 >Cuando se hace clic en una dirección URL firmada con formato incorrecto, se obtiene el siguiente error: &quot;No se encontró la dirección URL solicitada &#39;... &#39;.&quot;
 
-Además, los clientes alojados e híbridos de la versión 19.1.4 (9032@3a9dc9c y 9032@800be2e) y de Campaign 20.2 pueden utilizar una mejora para deshabilitar las direcciones URL generadas a partir de compilaciones anteriores. Esta opción está desactivada de forma predeterminada. Puede ponerse en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para habilitar esta función.
+Además, a partir de Campaign 20.2 y la versión Gold Standard, los clientes alojados e híbridos pueden utilizar una mejora para deshabilitar las direcciones URL generadas a partir de compilaciones anteriores. Esta opción está desactivada de forma predeterminada. Puede ponerse en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para habilitar esta función.
 
 Para activar este nuevo mecanismo, los clientes locales deben seguir estos pasos en todos los servidores de Campaign:
 
@@ -65,7 +65,7 @@ Para activar este nuevo mecanismo, los clientes locales deben seguir estos pasos
 1. Reinicie el servicio **nlserver**.
 1. En el servidor de seguimiento, reinicie el servidor web (apache2 en Debian, httpd en CentOS/RedHat, IIS en Windows).
 
-Los clientes que ejecutan la versión 19.1.4 (9032@3a9dc9c) pueden experimentar problemas con los envíos de notificaciones push mediante el vínculo de seguimiento o con los envíos que utilizan etiquetas de anclaje. Si es así, Adobe recomienda desactivar el nuevo mecanismo de firma para el seguimiento de vínculos:
+Los clientes que ejecutan Gold Standard 19.1.4 pueden experimentar problemas con los envíos de notificaciones push mediante el vínculo de seguimiento o con los envíos que utilizan etiquetas de anclaje. Si es así, Adobe recomienda desactivar el nuevo mecanismo de firma para el seguimiento de vínculos:
 
 **Los** clientes alojados e híbridos deben ponerse en contacto con el  [Servicio de ](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) atención al cliente para deshabilitar este mecanismo.
 
