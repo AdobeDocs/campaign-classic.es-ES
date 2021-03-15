@@ -6,10 +6,10 @@ description: Nota técnica
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 504a948daa60155b7c4970be24bd6d2049e5395b
+source-git-commit: 1233eef1d7b454daea021e1e3077890284813d9a
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 15%
+source-wordcount: '1026'
+ht-degree: 16%
 
 ---
 
@@ -105,7 +105,15 @@ El servicio de autenticación oAuth heredado ha llegado al final de su vida úti
 
 **¿Estás afectado?**
 
-Si las instancias se ejecutan en una versión **anterior a Campaign 19.1.8, 20.2.4, Gold Standard 11**, está utilizando una versión anterior de la integración de Déclencheur mediante autenticación oAuth: **debe pasar a Adobe I/O**.
+Si las instancias se ejecutan en una versión **anterior a Campaign 19.1.8, 20.2.4, Gold Standard 11**, está utilizando una versión anterior de la integración de Déclencheur mediante autenticación oAuth: **debe actualizar a una versión más reciente y pasar a Adobe I/O**.
+
+La actualización a una de las nuevas versiones que se enumeran a continuación es obligatoria:
+
+* Gold Standard 11. [Obtenga más información](../rn/using/gold-standard.md)
+* Versión 21.1.1 de Campaign. [Obtenga más información](../rn/using/latest-release.md)
+* Versión 20.3.3 de Campaign. [Obtenga más información](../rn/using/release--20-3.md)
+* Versión 20.2.4 de Campaign. [Obtenga más información](../rn/using/release--20-2.md)
+* Versión 19.1.8 de Campaign. [Obtenga más información](../rn/using/release--19-1.md)
 
 **¿Cómo se actualiza?**
 
