@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
+source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2015'
 ht-degree: 100%
 
 ---
@@ -168,7 +168,7 @@ Sí. El servidor se apaga durante la actualización para garantizar que se conse
 
 Si tiene problemas tras una actualización de compilación, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). El Servicio de atención al cliente programa las fechas de compilación y abre los tickets relacionados con la actualización de compilación.
 
-Obtenga más información en [Opciones de ayuda y asistencia para Campaign Classic](https://helpx.adobe.com/es/campaign/kb/ac-support.html#acc-support-req)
+Obtenga más información en [Opciones de ayuda y asistencia para Campaign Classic](https://helpx.adobe.com/es/campaign/kb/ac-support.html)
 
 ## Generar lista de comprobación de actualizaciones {#check-list}
 
@@ -208,5 +208,5 @@ que todo el contenido se muestra y está presente.
 
 * [Realización de una actualización de versión](../../production/using/build-upgrade.md)
 * [Notas de la versión de Campaign Classic ](../../rn/using/rn-overview.md)
-* [Opciones de ayuda y asistencia para Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support-req)
+* [Opciones de ayuda y asistencia para Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html)
 * [Programa Gold Standard](https://helpx.adobe.com/campaign/kb/gold-standard.html)
