@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentación
 translation-type: tm+mt
-source-git-commit: 2a82c1f67d8bc6d8499383a600a003480e82510f
+source-git-commit: 4552b8c73f0d547a9bb2dc7d8489927ea687f575
 workflow-type: tm+mt
-source-wordcount: '2464'
+source-wordcount: '2467'
 ht-degree: 58%
 
 ---
@@ -114,6 +114,7 @@ ht-degree: 58%
          + [Conexión con Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
          + [Sincronización de datos con CRM](platform/using/crm-data-sync.md)
       + [Conectores de datos de Adobe Analytics](platform/using/adobe-analytics-data-connector.md)
+   + [Opciones de ayuda y asistencia](support.md)
 + Crear y enviar mensajes {#sending-messages}
    + [Introducción a los mensajes](delivery/using/communication-channels.md)
    + Pasos clave al crear una entrega {#key-steps-when-creating-a-delivery}
@@ -181,10 +182,10 @@ ht-degree: 58%
       + [Usar una tabla de destinatarios externa](delivery/using/using-an-external-recipient-table.md)
       + [Caso de uso: seleccionar direcciones semilla según ciertos criterios](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
       + [Caso de uso: configuración de la sustitución de campos](delivery/using/use-case--configuring-the-field-substitution.md)
-   + Prueba A/B {#a-b-testing}
+   + Pruebas A/B {#a-b-testing}
       + [Introducción a las pruebas A/B](delivery/using/get-started-a-b-testing.md)
       + [Configuración de pruebas A/B](delivery/using/configuring-a-b-testing.md)
-      + Ejemplo de uso {#use-case}
+      + Caso de uso {#use-case}
          + [Acerca de este caso de uso](delivery/using/a-b-testing-use-case.md)
          + [Creación de un flujo de trabajo de objetivos](delivery/using/a-b-testing-uc-targeting-workflow.md)
          + [Configuración de muestras de población](delivery/using/a-b-testing-uc-population-samples.md)
@@ -562,7 +563,7 @@ ht-degree: 58%
       + [Enlaces](interaction/using/hooks.md)
       + [Arquitecturas distribuidas](interaction/using/distributed-architectures.md)
       + [Zona de búfer de datos](interaction/using/data-buffer-zone.md)
-   + Ejemplo de uso {#case-study}
+   + Caso de uso {#case-study}
       + [Reglas de presentación](interaction/using/presentation-rules.md)
       + [Ofertas en un canal entrante](interaction/using/offers-on-an-inbound-channel.md)
       + [Ofertas en un canal saliente](interaction/using/offers-on-an-outbound-channel.md)
