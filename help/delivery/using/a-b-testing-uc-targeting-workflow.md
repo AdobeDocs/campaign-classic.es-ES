@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Creación de un flujo de trabajo de objetivos
+title: Creación de un flujo de trabajo de segmentación
 description: Obtenga información sobre cómo realizar pruebas A/B mediante un caso de uso dedicado.
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '136'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 
-# Creación de un flujo de trabajo de objetivos {#step-1--creating-a-targeting-workflow}
+# Creación de un flujo de trabajo de segmentación {#step-1--creating-a-targeting-workflow}
 
 Se debe crear el flujo de trabajo en la pestaña **[!UICONTROL Targeting and Workflows]** de una campaña. Se compone de una actividad **[!UICONTROL Query]**, una actividad **[!UICONTROL Split]** vinculada a dos actividades **[!UICONTROL Email delivery]**, una actividad **[!UICONTROL Wait]**, una actividad **[!UICONTROL JavaScript code]** y una actividad **[!UICONTROL Delivery]**.
 
@@ -35,4 +35,4 @@ Se debe crear el flujo de trabajo en la pestaña **[!UICONTROL Targeting and Wor
 
 ![](assets/use_case_abtesting_targetwkfl_004.png)
 
-Ahora puede configurar los ejemplos de población (consulte [Paso 2: Configure muestras de población](../../delivery/using/a-b-testing-uc-population-samples.md)).
+Ahora puede configurar las muestras de población (consulte [Paso 2: Configuración de muestras de población](../../delivery/using/a-b-testing-uc-population-samples.md)).
