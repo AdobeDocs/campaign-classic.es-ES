@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: f78fa94fb4fb9236222886a167a46d252497b2aa
 workflow-type: tm+mt
 source-wordcount: '3131'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ Para enviar a un teléfono móvil, necesita:
 
 1. una cuenta externa que especifique un conector y el tipo de mensaje.
 
-   Tenga en cuenta que los siguientes conectores quedan obsoletos a partir de la versión 20.2: SMPP genérico (SMPP versión 3.4 compatible con modo binario), Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2 e iOS. Durante este periodo, las funcionalidades van a seguir disponibles, pero no se van a actualizar, mejorar ni documentar. Para obtener más información, consulte [esta página](https://helpx.adobe.com/es/campaign/kb/deprecated-and-removed-features.html).
+   Recuerde que los siguientes conectores quedan obsoletos a partir de la versión 20.2:, Generic SMPP (SMPP versión 3.4 compatible con modo binario), Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2 e iOS. Durante este periodo, las funcionalidades van a seguir disponibles, pero no se van a actualizar, mejorar ni documentar. Para obtener más información, consulte [esta página](https://helpx.adobe.com/es/campaign/kb/deprecated-and-removed-features.html).
 
 1. Una plantilla de envíos en la que se haga referencia a esta cuenta externa.
 
