@@ -6,11 +6,11 @@ description: Ejecución de entrega
 audience: message-center
 content-type: reference
 topic-tags: event-processing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fd6195ca447fa0345189f3153f44ad2f9a067210
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '220'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -29,13 +29,13 @@ Todos los envíos se agrupan en la carpeta **[!UICONTROL Administration > Produc
 
 ![](assets/messagecenter_deliveries_execinstances_001.png)
 
-De forma predeterminada, se clasifican en subcarpetas por mes de envío. Esta ordenación se puede cambiar en las propiedades de la plantilla de mensaje como se muestra a continuación.
+De forma predeterminada, se clasifican en subcarpetas por mes de envío. Este orden se puede cambiar en las propiedades de la plantilla de mensaje como se muestra a continuación.
 
 ![](assets/messagecenter_deliveries_properties_001.png)
 
 >[!NOTE]
 >
->Para instalaciones hospedadas o híbridas, si ha actualizado a [MTA mejorado](../../delivery/using/sending-with-enhanced-mta.md), todos los mensajes transaccionales también se pueden enviar con el MTA mejorado de Adobe Campaign para mejorar la capacidad de entrega, el rendimiento y la gestión de devoluciones. Todos los impactos son los mismos que con los mensajes de marketing estándar.
+>En el caso de instalaciones alojadas o híbridas, si se ha actualizado al [servidor de correo mejorado](../../delivery/using/sending-with-enhanced-mta.md), todos los mensajes transaccionales también se pueden enviar con el servidor de correo mejorado de Adobe Campaign para mejorar la capacidad de envío, el rendimiento y la gestión de rechazos. Todos los impactos son los mismos que con los mensajes de marketing estándar.
 
 ## Supervisión de mensajes transaccionales {#transactional-message-monitoring}
 
