@@ -7,34 +7,39 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 3%
+source-wordcount: '299'
+ht-degree: 17%
 
 ---
 
 
 # Interacción: búfer de datos{#interaction-data-buffer}
 
+Se puede configurar una zona de búfer de datos para aumentar el rendimiento de interacción entrante desincronizando los cálculos de propuesta de oferta. Esta configuración se debe llevar a cabo en el archivo de configuración propio de la instancia (config-Instance.xml).
+
+En Adobe Campaign, se ha introducido una **zona de búfer de datos** en el módulo Interacción. Esto le permite **aumentar el rendimiento** de la interacción entrante desincronizando los cálculos de existencias y ofertas.
+
+Solo se refiere a la interacción entrante, ya sea por una llamada (con o sin datos de llamada) o por una actualización de estado (updateStatus).
+
+Para evitar una cola al escribir propuestas relacionadas con un destinatario, un nuevo proceso w genera una **zona de búfer de datos** que permite que las propuestas se **escriban asincrónicamente**. Esta zona de búfer de datos se lee y vacía periódicamente. El periodo predeterminado es de aproximadamente un segundo. Por lo tanto, la escritura de propuestas se agrupa.
+
 >[!NOTE]
 >
->Algunas configuraciones sólo pueden ser realizadas por Adobe para implementaciones alojadas en Adobe. Por ejemplo, para acceder a los archivos de configuración de instancia y servidor. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Hosting models](../../installation/using/hosting-models.md) o [esta página](../../installation/using/capability-matrix.md).
+>Este parámetro es esencial si se utiliza interacción con una arquitectura distribuida.
 
-En Adobe Campaign, se ha introducido una **zona de búfer de datos** en el módulo Interacción. Esto le permite **aumentar el rendimiento** de la interacción de entrada desincronizando los cálculos de oferta y existencias.
+La zona de búfer de datos **configuración** se puede realizar en el archivo de configuración de la instancia (config-Instance.xml).
 
-Solo se refiere a la interacción de entrada, ya sea por una llamada (con o sin datos de llamada) o por una actualización de estado (updateStatus).
-
-Para evitar una cola al escribir propuestas relacionadas con un destinatario, un nuevo proceso w genera una **zona de búfer de datos** que permite que las propuestas se **escriban asincrónicamente**. Esta zona del búfer de datos se lee y vacía periódicamente. El período predeterminado es de aproximadamente un segundo.Por lo tanto, se agrupa la redacción de propuestas.
-
-La zona del búfer de datos **configuración** se puede realizar en el archivo de configuración de la instancia (config-Instance.xml).
-
->[!NOTE]
+>[!CAUTION]
+>
+>Algunas configuraciones solo se pueden realizar mediante Adobe para implementaciones alojadas en Adobe. Por ejemplo, para acceder a los archivos de configuración del servidor y de la instancia. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Modelos de alojamiento](../../installation/using/hosting-models.md) o [esta página](../../installation/using/capability-matrix.md).
 >
 >Cualquier cambio realizado en la configuración requiere un reinicio del servidor web (Apache:IIS) y de los procesos de Adobe Campaign.\
->Después de configurar la zona del búfer de datos, asegúrese de que hay una configuración de hardware adaptada disponible. (cantidad de memoria presente).
+>Después de configurar la zona de búfer de datos, asegúrese de que hay disponible una configuración de hardware adaptada. (cantidad de memoria presente).
 
-Después de configurar la zona del búfer de datos, asegúrese de que hay una configuración de hardware adaptada disponible. (cantidad de memoria presente).
+
+Después de configurar la zona de búfer de datos, asegúrese de que hay disponible una configuración de hardware adaptada. (cantidad de memoria presente).
 
 La definición de un demonio de escritura (proceso denominado: interacción) es la siguiente:
 
@@ -44,7 +49,7 @@ maxProcessMemoryWarningMb="1600" maxSharedEntries="25000" nextOffersSize="0"
 processRestartTime="06:00:00" runLevel="10" targetKeySize="16"/>
 ```
 
-Si utiliza Interacción entrante, el atributo @autostart debe ser &quot;true&quot; para iniciar automáticamente el proceso cuando se inicie el servidor de Adobe Campaign.
+Si utiliza la interacción entrante, el atributo @autostart debe ser &quot;true&quot; para iniciar automáticamente el proceso cuando se inicie el servidor de Adobe Campaign.
 
 Detalles del argumento:
 
