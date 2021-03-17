@@ -6,11 +6,11 @@ description: Obtenga información sobre cómo realizar pruebas A/B mediante un c
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '335'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
