@@ -27,7 +27,7 @@ _11 de enero de 2021_
 
 * Se ha corregido un problema de regresión relacionado con el proceso de generación de registros de banda ancha que podía provocar el bloqueo del proceso de MTA.
 
-## ![](assets/do-not-localize/red_2.png) Versión 20.3.1: compilación 9228 {#release-20-3-1-build-9228}
+## ![](assets/do-not-localize/red_2.png) Versión 20.3.1 - Compilación 9228 {#release-20-3-1-build-9228}
 
 _27 de octubre de 2020_
 
