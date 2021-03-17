@@ -6,11 +6,11 @@ description: Obtenga información sobre las opciones y la configuración especí
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e84387c7c396c60c429c3f625870a97a7fdaef5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '888'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Para obtener más información sobre la configuración y las prácticas recomend
 >
 >El correo electrónico CCO es una capacidad opcional. Compruebe el acuerdo de licencia y póngase en contacto con el administrador de cuentas para activarlo.
 
-Al crear un nuevo envío o una plantilla de envíos, el correo electrónico CCO no está habilitado de forma predeterminada. Debe habilitarlo manualmente en el nivel de envío o Plantilla de envíos de correo electrónico.
+Al crear un nuevo envío o una plantilla de envíos, el correo electrónico CCO no está habilitado de forma predeterminada. Debe habilitarlo manualmente en el nivel de envío o de plantilla de envíos de correo electrónico.
 
 Para habilitar el correo electrónico CCO para una plantilla de envíos de correo electrónico, siga los pasos a continuación:
 
@@ -91,9 +91,9 @@ En las propiedades de la entrega, el campo **[!UICONTROL Mode]** de la pestaña 
 
 Además del modo predeterminado, también están disponibles las siguientes opciones:
 
-* **[!UICONTROL Force the generation of the mirror page]**: incluso si no se inserta ningún vínculo a la página espejo en la entrega, se creará la página espejo.
-* **[!UICONTROL Do not generate the mirror page]**: no se genera ninguna página espejo, aunque el vínculo esté presente en la entrega.
-* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: esta opción permite acceder al contenido de la página duplicada, con información de personalización, en la ventana del “log” de envío. Para ello, tras finalizar la entrega, haga clic en la pestaña **[!UICONTROL Delivery]** y seleccione la línea del destinatario cuya página duplicada desee ver. Haga clic en el vínculo **[!UICONTROL Display the mirror page for this message...]**.
+* **[!UICONTROL Force the generation of the mirror page]**: Incluso si no se inserta ningún vínculo a la página espejo en el envío, esta se creará.
+* **[!UICONTROL Do not generate the mirror page]**: No se genera ninguna página espejo, aunque el vínculo esté presente en el envío.
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: Esta opción permite acceder al contenido de la página espejo, con información de personalización, en la ventana de registro de envío. Para ello, tras finalizar la entrega, haga clic en la pestaña **[!UICONTROL Delivery]** y seleccione la línea del destinatario cuya página duplicada desee ver. Haga clic en el vínculo **[!UICONTROL Display the mirror page for this message...]**.
 
    ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
@@ -115,11 +115,11 @@ La pestaña **[!UICONTROL SMTP]** de los parámetros de envío permite configura
 
 De forma predeterminada, los correos electrónicos rechazados se reciben en el cuadro de error predeterminado de la plataforma, pero se puede definir una dirección de error específica para una entrega.
 
-Desde esta pantalla, también puede definir una dirección específica para investigar los motivos de rechazo de los correos electrónicos cuando la aplicación no pueda calificarlos automáticamente. Para cada uno de estos campos, el icono **Añadir campos personalizados** permite agregar parámetros de personalización.
+Desde esta pantalla, también puede definir una dirección específica para investigar los motivos de rechazo de los correos electrónicos cuando la aplicación no pueda calificarlos automáticamente. Para cada uno de estos campos, el icono **Añadir campos personalizados** le permite añadir parámetros de personalización.
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab.png)
 
-Para obtener más información sobre la administración de correo de devoluciones, consulte [esta sección](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
+Para obtener más información sobre la gestión de correo rechazado, consulte [esta sección](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
 
 ## Añadir encabezados SMTP {#adding-smtp-headers}
 
