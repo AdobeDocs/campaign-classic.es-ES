@@ -6,11 +6,11 @@ description: Obtenga más información sobre los estados disponibles en su panel
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 29801740c10dc182bdb5f00114298d04385a3e1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '617'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -68,8 +68,8 @@ Para obtener más información sobre los diferentes errores de entrega que puede
    <td> Un operador ha cancelado la entrega.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tenido en cuenta por el proveedor de servicios<br /> </td> 
-   <td> El proveedor de servicios SMS recibió la entrega.<br /> En el caso de instalaciones hospedadas o híbridas, si se ha actualizado a la MTA <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank"> </a>mejorada, el mensaje se ha retransmitido correctamente desde la Campaña a la MTA mejorada.</td> 
+   <td> El proveedor de servicios lo tiene en cuenta<br /> </td> 
+   <td> El proveedor de servicios SMS recibió el envío.<br /> En el caso de instalaciones hospedadas o híbridas, si se ha actualizado al servidor de correo <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank"> </a>mejorado, el mensaje se ha retransmitido correctamente desde Campaign al servidor de correo mejorado.</td> 
   </tr> 
   <tr> 
    <td> Se ha recibido en dispositivos móviles<br /> </td> 
@@ -129,7 +129,7 @@ Si la entrega no se realiza y su estado sigue siendo **[!UICONTROL Pending]**, p
 
    En este caso, compruebe la configuración de la administración de tráfico (afinidad de IP) y utilice el campo **[!UICONTROL Managing affinities with IP addresses]** para relacionar las entregas al MTA que administra la afinidad. Para obtener más información sobre las afinidades, consulte [esta sección](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
-* Cuando se están ejecutando demasiadas campañas, el estado del envío permanece en estado &quot;Pendiente&quot;.
+* Cuando se ejecutan demasiadas campañas, el estado de la entrega permanece en estado Pendiente.
 
    El límite de campañas simultáneas se define en la opción **[!UICONTROL NmsOperation_LimitConcurrency]**. El valor predeterminado es 10.
 
