@@ -6,11 +6,11 @@ description: Obtenga información sobre cómo definir el contenido del correo el
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe4262a1da011cb155651c5e786f19188139cff1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1990'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -137,7 +137,7 @@ Select the format of the email in the lower section of the window:
 
 ## Definición del contenido interactivo {#amp-for-email-format}
 
-Adobe Campaign le permite probar el nuevo formato [AMP interactivo para correo electrónico](https://amp.dev/about/email/), que permite enviar correos electrónicos dinámicos en ciertas condiciones.
+Adobe Campaign le permite probar el nuevo formato [AMP interactivo para correo electrónico](https://amp.dev/es/about/email/), que permite enviar correos electrónicos dinámicos en ciertas condiciones.
 
 Para obtener más información, consulte [esta sección](../../delivery/using/defining-interactive-content.md).
 
@@ -155,7 +155,7 @@ Una pestaña adicional permite introducir contenido que se integra y formatea au
 >
 >Para obtener más información sobre la administración de contenido en Adobe Campaign, consulte [esta sección](../../delivery/using/about-content-management.md).
 
-## Inserción de iconos gestuales {#inserting-emoticons}
+## Inserción de emoticonos {#inserting-emoticons}
 
 Puede insertar emoticonos en el contenido del correo electrónico.
 
