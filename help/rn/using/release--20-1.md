@@ -35,7 +35,7 @@ _23 de diciembre de 2020_
 
 
 
-## ![](assets/do-not-localize/red_2.png) Versión 20.1.3: compilación 9124{#release-20-1-3-build-9124}
+## ![](assets/do-not-localize/red_2.png) Versión 20.1.3 - Compilación 9124{#release-20-1-3-build-9124}
 
 _miércoles, 6 de mayo de 2020_
 
