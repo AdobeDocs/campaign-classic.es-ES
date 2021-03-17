@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: f7e4f129a96e80ec169428057f661165d8b967c9
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 66%
@@ -25,7 +25,7 @@ Adobe Campaign le permite definir y administrar los derechos asignados a los dis
 
 Los permisos se aplican a perfiles de operador o grupos de operadores.
 
-Se completan por parámetros de seguridad vinculados al modo de conexión del operador a Adobe Campaign. Para obtener más información sobre las zonas de seguridad en [esta página](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+Se completan por parámetros de seguridad vinculados al modo de conexión del operador a Adobe Campaign. Para obtener más información sobre las zonas de seguridad en [esta página](../../installation/using/security-zones.md).
 
 Existen dos tipos de permisos que puede conceder a un usuario:
 
