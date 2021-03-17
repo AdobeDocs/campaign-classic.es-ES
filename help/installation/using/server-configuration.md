@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 translation-type: tm+mt
-source-git-commit: f03554302c77a39a3ad68d47417ed930f43302b7
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1156'
 ht-degree: 14%
 
 ---
@@ -23,14 +23,12 @@ ht-degree: 14%
 >
 >A partir de la versión 8977, la interfaz de usuario de autoservicio de zonas de seguridad ya no está disponible.
 >
->* Si está alojado en AWS, la adición de IP a la lista de permitidos debe realizarse en el Panel de control de Campaign. Para obtener más información, consulte la [documentación especializada](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html).
+>* Si está alojado en AWS, la adición de IP a la lista de permitidos debe realizarse en Panel de control de Campaign. Para obtener más información, consulte la [documentación especializada](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html).
 >* Si no está alojado en AWS, póngase en contacto con el equipo de asistencia de Adobe para añadir la IP a la lista de permitidos.
 
 >
 >
 Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
-
-Para aprender a utilizar la interfaz de usuario de las zonas de seguridad para administrar entradas en la configuración de la zona de seguridad de VPN, consulte [esta nota técnica](https://helpx.adobe.com/es/campaign/kb/configuring-security-zones-self-service.html).
 
 * Asegúrese de que el proxy inverso no esté permitido en subNetwork. Si es así, se detectará **todo** tráfico procedente de esta IP local, por lo que se confiará en él.
 
@@ -94,7 +92,7 @@ Existen tres modos de protección de conexión:
 
 * **Bloqueo** : todas las direcciones URL que no pertenecen a la lista de permitidos están bloqueadas, con un mensaje de error. Es el modo predeterminado después de una posactualización.
 * **Permisivo** : se permiten todas las direcciones URL que no pertenecen a la lista de permitidos.
-* **Advertencia** : se permiten todas las direcciones URL que no estén en la lista de permitidos, pero el intérprete JS emite una advertencia para que el administrador pueda recopilarlas. Este modo añade mensajes de advertencia JST-310027.
+* **Advertencia** : se permiten todas las direcciones URL que no están en la lista de permitidos, pero el intérprete JS emite una advertencia para que el administrador pueda recopilarlas. Este modo añade mensajes de advertencia JST-310027.
 
 ```
 <urlPermission action="warn" debugTrace="true">
@@ -116,7 +114,7 @@ Varios comandos se incluyen en la lista negra y no se pueden ejecutar mediante l
 
 Puede agregar encabezados HTTP adicionales para todas las páginas (para obtener más información, consulte [esta página](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands)):
 
-* Puede agregar algunos encabezados adicionales, como HSTS, X-FRAME-OPTIONS, CSP...
+* Puede añadir algunos encabezados adicionales, como HSTS, OPTIONS X-FRAME, CSP...
 * Debe probarlos en un entorno de prueba antes de aplicarlos en producción.
 
    >[!IMPORTANT]
@@ -127,6 +125,6 @@ Adobe Campaign permite establecer una contraseña sin formato en el elemento `<d
 
 De forma predeterminada, Adobe Campaign no vincula una sesión a una IP específica, pero puede activarla para evitar que se robe la sesión. Para ello, en el archivo [serverConf.xml](../../installation/using/the-server-configuration-file.md), establezca el atributo checkIPConsistent en **true** en el nodo `<authentication>`.
 
-De forma predeterminada, el MTA de Adobe Campaign no utiliza una conexión segura para enviar contenido al servidor SMTP. Debe activar esta función (puede reducir la velocidad de envío). Para ello, establezca enableTLS en tr**ue en el nodo `<smtp ...>`.
+De forma predeterminada, el MTA de Adobe Campaign no utiliza una conexión segura para enviar contenido al servidor SMTP. Debe activar esta función (puede reducir la velocidad de envío). Para ello, establezca **enableTLS** en **true** en el nodo `<smtp ...>`.
 
 Puede reducir la duración de una sesión en el nodo de autenticación (atributo sessionTimeOutSec).
