@@ -230,12 +230,10 @@ En el caso de instalaciones on-premise e instalaciones alojadas/híbridas que ut
 >Para instalaciones hospedadas o híbridas, si ha actualizado al [servidor de correo mejorado](../../delivery/using/sending-with-enhanced-mta.md):
 >
 >* Las cualificaciones de rechazo de la tabla **[!UICONTROL Delivery log qualification]** ya no se utilizan para los mensajes de error de envío **síncronos**. El servidor de correo mejorado determina el tipo de rechazo y la calificación, y envía esa información a Campaign.
-   >
-   >
-* Las devoluciones **asíncronas** siguen siendo calificadas por el proceso inMail a través de las reglas de **[!UICONTROL Inbound email]**. Para obtener más información, consulte [Reglas de gestión de correo electrónico](#email-management-rules).
-   >
-   >
-* En el caso de instancias que utilicen el servidor de correo mejorado **sin Webhooks/EFS**, las reglas de **[!UICONTROL Inbound email]** también se utilizan para procesar los correos electrónicos rechazados síncronos procedentes del servidor de correo mejorado, utilizando la misma dirección de correo electrónico que para los correos electrónicos rechazados asíncronos.
+>
+>* Las devoluciones **asíncronas** siguen siendo calificadas por el proceso inMail a través de las reglas de **[!UICONTROL Inbound email]**. Para obtener más información, consulte [Reglas de gestión de correo electrónico](#email-management-rules).
+>
+>* En el caso de instancias que utilicen el servidor de correo mejorado **sin Webhooks/EFS**, las reglas de **[!UICONTROL Inbound email]** también se utilizan para procesar los correos electrónicos rechazados síncronos procedentes del servidor de correo mejorado, utilizando la misma dirección de correo electrónico que para los correos electrónicos rechazados asíncronos.
 
 
 En el caso de instalaciones on-premise e instalaciones alojadas/híbridas que utilizan el servidor de correo de Campaign heredado, cuando se produce un error en el envío de un correo electrónico, el servidor de envío de Adobe Campaign recibe un mensaje de error del servidor de mensajería o del servidor DNS remoto. La lista de errores se compone de cadenas de caracteres incluidas en el mensaje rechazado por el servidor remoto. Los tipos y los motivos del error se asignan a cada mensaje.
