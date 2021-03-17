@@ -6,11 +6,11 @@ description: Aprenda a configurar, diseñar y enviar correos electrónicos que s
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe4262a1da011cb155651c5e786f19188139cff1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
