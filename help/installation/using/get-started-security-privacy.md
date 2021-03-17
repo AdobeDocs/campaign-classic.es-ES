@@ -7,17 +7,17 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 translation-type: tm+mt
-source-git-commit: 45a77d3fc143ab9c6f9f17ab6118f8816254f6fd
+source-git-commit: 922603492d2c98d751683d3aa481e9ab19bca70c
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 20%
+source-wordcount: '450'
+ht-degree: 19%
 
 ---
 
 
 # Introducción a la seguridad y la privacidad {#get-started-security-privacy}
 
-Esta sección le muestra los elementos clave que debe comprobar en relación con la seguridad y la privacidad.
+Esta sección le muestra los elementos clave que debe comprobar en relación con la seguridad y la privacidad. Algunas configuraciones solo pueden realizarlas los clientes locales.
 
 ## Privacidad
 
@@ -30,7 +30,7 @@ La configuración y el endurecimiento de la privacidad son elementos clave de la
 * Asegúrese de que las contraseñas cifradas estén restringidas.
 * Proteja las páginas que puedan contener información personal, como páginas espejo, aplicaciones web, etc.
 
-[Puede obtener más información](../../installation/using/privacy.md)
+[Obtenga más información](../../installation/using/privacy.md)
 
 ## Gestión de acceso
 
@@ -42,21 +42,21 @@ La gestión del acceso es una parte importante del refuerzo de la seguridad. Est
 * Compruebe que cada operador tenga los derechos de acceso adecuados
 * Evite utilizar el operador de administrador y evite tener demasiados operadores en el grupo de administración
 
-[Puede obtener más información](../../installation/using/access-management.md)
+[Obtenga más información](../../installation/using/access-management.md)
 
 ## Directrices de secuencias de comandos y codificación
 
 <img src="assets/do-not-localize/icon_scripting.svg" width="60px">
 
-Al desarrollar en Adobe Campaign (flujos de trabajo, Javascript, JSSP, etc.), siga siempre estas directrices:
+Cuando desarrolle en Adobe Campaign (flujos de trabajo, JavaScript, JSSP, etc.), siga siempre estas directrices:
 
 * **Secuencias de comandos**: Intente evitar las declaraciones SQL, utilice funciones parametrizadas en lugar de concatenaciones de cadenas, evite la inyección de SQL al añadir funciones SQL para usar en la lista de permitidos.
 
-* **Protección del modelo** de datos: usar derechos asignados para limitar las acciones de operadores, agregar filtros de sistema (sysFilter)
+* **Proteja el modelo** de datos: usar derechos asignados para limitar las acciones de operadores, agregar filtros de sistema (sysFilter)
 
 * **Añadir captchas en aplicaciones** web: obtenga información sobre cómo añadir captchas en las páginas de aterrizaje y de suscripción públicas.
 
-[Puede obtener más información](../../installation/using/scripting-coding-guidelines.md)
+[Obtenga más información](../../installation/using/scripting-coding-guidelines.md)
 
 ## Red, base de datos y SSL/TLS
 
@@ -66,7 +66,7 @@ Una cosa muy importante que debe comprobar al implementar un tipo de arquitectur
 
 También es imprescindible que siga la seguridad del motor de la base de datos.
 
-[Puede obtener más información](../../installation/using/network-database.md)
+[Obtenga más información](../../installation/using/network-database.md)
 
 ## Configuración del servidor
 
@@ -84,7 +84,7 @@ La configuración debe realizarse en todos los servidores. Los archivos de confi
 
 * También puede agregar encabezados HTTP adicionales, activar checkIPConsistent, enableTLS, sessionTimeOutSec, etc. Consulte la [documentación de configuración del servidor de Campaign](../../installation/using/configuring-campaign-server.md) y la [Descripción del archivo de configuración del servidor](../../installation/using/the-server-configuration-file.md) para obtener más información.
 
-[Puede obtener más información](../../installation/using/server-configuration.md)
+[Obtenga más información](../../installation/using/server-configuration.md)
 
 ## Configuración del servidor web
 
@@ -92,9 +92,9 @@ La configuración debe realizarse en todos los servidores. Los archivos de confi
 
 Se deben seguir varias prácticas recomendadas al configurar el servidor web (Apache/IIS):
 
-* Deshabilite la versión SSL y las cifras anteriores:
-* Elimine el método TRACE:
-* Elimine el banner:
-* Limite el tamaño de la consulta para evitar que se carguen archivos importantes:
+* Desactive las versiones y cifrados de SSL anteriores
+* Eliminación del método del TRACE
+* Quitar el banner
+* Limitar el tamaño de la consulta para evitar que se carguen archivos importantes
 
-[Puede obtener más información](../../installation/using/web-server-configuration.md)
+[Obtenga más información](../../installation/using/web-server-configuration.md)
