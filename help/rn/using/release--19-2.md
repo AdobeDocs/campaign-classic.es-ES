@@ -36,7 +36,7 @@ _23 de diciembre de 2020_
 
 
 
-## ![](assets/do-not-localize/red_2.png) Versión 19.2.3: compilación 9081 {#release-19-2-3-build-9081}
+## ![](assets/do-not-localize/red_2.png) Versión 19.2.3 - Compilación 9081 {#release-19-2-3-build-9081}
 
 _lunes, 7 de febrero de 2020_
 
@@ -45,7 +45,7 @@ _lunes, 7 de febrero de 2020_
 * Se ha corregido un problema de regresión debido a la implementación de la certificación SSL que hacía que la conexión del usuario fallara en el servidor de Windows. (NEO-20629)
 * Se ha corregido un problema que mostraba un número de etiqueta de versión incorrecto en el menú **Acerca de**.
 
-## ![](assets/do-not-localize/red_2.png) Versión 19.2: compilación 9080 {#release-19-2-build-9080}
+## ![](assets/do-not-localize/red_2.png) Versión 19.2 - Compilación 9080 {#release-19-2-build-9080}
 
 _2 de diciembre de 2019_
 
