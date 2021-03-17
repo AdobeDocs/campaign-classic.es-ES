@@ -7,7 +7,7 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 translation-type: tm+mt
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
 source-wordcount: '2787'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Para utilizar el modo TIMESTAMP WITH TIMEZONE, también debe añadir la opción 
 
 ### Oracle {#oracle}
 
-Si recibe un error **ORA 01805** durante la posactualización, significa que los archivos de zona horaria de Oracle entre el servidor de aplicaciones y el servidor de base de datos no están sincronizados. Para volver a sincronizarlos, siga los siguientes pasos:
+Si recibe un error **ORA 01805** durante la actualización, significa que los archivos de zona horaria de Oracle entre el servidor de aplicaciones y el servidor de base de datos no están sincronizados. Para volver a sincronizarlos, siga los siguientes pasos:
 
 1. Para identificar el archivo de zona horaria utilizado, ejecute el siguiente comando:
 
@@ -58,7 +58,7 @@ Si recibe un error **ORA 01805** durante la posactualización, significa que los
 
 Para obtener más información, visite: [https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004](https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004).
 
-Un desajuste de zona horaria entre cliente y servidor también puede causar algunos desfases. Por este motivo, recomendamos utilizar la misma versión de la biblioteca Oracle en el lado del cliente y del servidor; ambas zonas horarias deben ser las mismas.
+Un desajuste de zona horaria entre cliente y servidor también puede causar algunos desfases. Por este motivo, recomendamos utilizar la misma versión de la biblioteca de Oracle en el lado del cliente y del servidor, ya que ambas zonas horarias deben ser las mismas.
 
 Para comprobar si ambos lados están en las mismas zonas horarias:
 
@@ -84,7 +84,7 @@ Para comprobar si ambos lados están en las mismas zonas horarias:
 
 >[!IMPORTANT]
 >
->Por motivos de seguridad, ya no se puede acceder a la plataforma de Adobe Campaign de forma predeterminada: debe configurar las zonas de seguridad y, por lo tanto, recopilar las direcciones IP del operador.
+>Por motivos de seguridad, ya no se puede acceder a la plataforma Adobe Campaign de forma predeterminada: debe configurar las zonas de seguridad y, por lo tanto, recopilar las direcciones IP del operador.
 
 Adobe Campaign v7 incluye el concepto de **zonas de seguridad**. Cada usuario debe estar asociado a una zona para iniciar sesión en una instancia y la dirección IP del usuario debe incluirse en las direcciones o intervalos de direcciones definidos en la zona de seguridad. La configuración de las zonas de seguridad se puede realizar en el archivo de configuración del servidor de Adobe Campaign. La zona de seguridad a la que está asociado un usuario debe definirse en la consola (**[!UICONTROL Administration > Access management > Operators]**).
 
@@ -92,7 +92,7 @@ Adobe Campaign v7 incluye el concepto de **zonas de seguridad**. Cada usuario de
 
 **Después de la actualización posterior**  (antes del reinicio del servidor), debe configurar las zonas de seguridad.
 
-La configuración de la zona de seguridad se encuentra en [esta sección](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+La configuración de la zona de seguridad se encuentra en [esta sección](../../installation/using/security-zones.md).
 
 ### Contraseñas de usuario {#user-passwords}
 
@@ -246,7 +246,7 @@ Ya no se puede utilizar un atributo XML como clave de tabla.
 
 ### SQLData {#sqldata}
 
-Para reforzar la seguridad de la instancia, se ha introducido una nueva sintaxis en Adobe Campaign v7 para reemplazar la sintaxis basada en SQLData. Si utiliza estos elementos de código con esta sintaxis, debe modificarlos. Los principales elementos son:
+Para reforzar la seguridad de las instancias, se ha introducido una nueva sintaxis en Adobe Campaign v7 para reemplazar la sintaxis basada en SQLData. Si utiliza estos elementos de código con esta sintaxis, debe modificarlos. Los principales elementos son:
 
 * Filtrado por subconsulta: la nueva sintaxis se basa en el elemento `<subQuery>` para definir una subconsulta
 * Agregados: la nueva sintaxis es &quot;aggregate function(collection)&quot;
@@ -504,7 +504,7 @@ En la versión 7, el contenido de la oferta se ha movido. En la versión 6.02, e
 >[!IMPORTANT]
 Si algunas entregas que utilizan ofertas configuradas se enviaran después de la migración, debe eliminar y volver a crear todas estas entregas en v7. Si no puede hacerlo, se ofrece un &quot;modo de compatibilidad&quot;. No se recomienda este modo porque no se beneficiará de todas las nuevas funciones de Interaction v7. Este es un modo de transición que le permite completar las campañas en curso antes de la migración real a la versión 6.1. Para obtener más información sobre este modo, póngase en contacto con nosotros.
 
-Hay disponible un ejemplo de secuencia de comandos de movimiento (**interactionTo610_full_XX.js**) en la carpeta **Migration** dentro de la carpeta Adobe Campaign v7. Este archivo muestra un ejemplo de una secuencia de comandos para un cliente que utiliza una sola representación de correo electrónico por oferta (los campos **[!UICONTROL htmlSource]** y **[!UICONTROL textSource]** ). El contenido que estaba en la tabla **NmsEmailOfferView** se ha movido a la tabla de ofertas.
+Hay disponible un ejemplo de secuencia de comandos de movimiento (**interactionTo610_full_XX.js**) en la carpeta **Migration** de la carpeta Adobe Campaign v7. Este archivo muestra un ejemplo de una secuencia de comandos para un cliente que utiliza una sola representación de correo electrónico por oferta (los campos **[!UICONTROL htmlSource]** y **[!UICONTROL textSource]** ). El contenido que estaba en la tabla **NmsEmailOfferView** se ha movido a la tabla de ofertas.
 
 >[!NOTE]
 El uso de esta secuencia de comandos no permite beneficiarse de las opciones &quot;gestión de contenido&quot; y &quot;funciones de renderización&quot;. Para beneficiarse de estas funciones, debe reconsiderar las ofertas del catálogo, especialmente el contenido de las ofertas y los espacios de configuración.
