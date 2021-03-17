@@ -1,60 +1,60 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Tabla de campaña in situ, híbrida y alojada
-description: Conocer las principales diferencias entre las implementaciones alojadas y las in situ
+title: Matriz de capacidades locales, híbridas y alojadas de Campaign
+description: Conozca las principales diferencias entre implementaciones alojadas y locales
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 translation-type: tm+mt
-source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 39%
+source-wordcount: '305'
+ht-degree: 38%
 
 ---
 
 
-# Matriz de capacidades {#capability-matrix-per-model}
+# Matriz de capacidades por modelo{#capability-matrix-per-model}
 
-Adobe Campaign Classic incluye un conjunto de módulos y opciones. La disponibilidad de estos módulos y su uso pueden depender del tipo de implementación de la instalación. Este artículo comparte algunos detalles sobre las principales diferencias para determinadas funciones entre implementaciones totalmente alojadas (Managed Services) y locales.
+Adobe Campaign Classic incluye un conjunto de módulos y opciones. La disponibilidad de estos módulos y su uso pueden depender del tipo de implementación de la instalación. Este artículo comparte algunos detalles sobre las principales diferencias para ciertas funciones entre implementaciones totalmente alojadas (Managed Services) y locales.
 
-Esta página muestra las principales diferencias entre las implementaciones alojadas (Managed Services) y las in situ. Las características específicas de las implementaciones híbridas dependen de los elementos alojados en Adobe y alojados en sus instalaciones.
+Esta página muestra las principales diferencias entre las implementaciones alojadas (Managed Services) y locales. Las características específicas de las implementaciones híbridas dependen de los elementos alojados por Adobe y alojados en sus instalaciones.
 
-Los diferentes modelos de alojamiento se introducen [en esta sección](../../installation/using/hosting-models.md).
+Los diferentes modelos de alojamiento se presentan [en esta sección](../../installation/using/hosting-models.md).
 
 ## Disponibilidad por modelo de implementación {#capability-matrix}
 
-| Capacidad | Alojado | Híbrido | In situ | Detalles |
+| Capacidad | Alojado | Híbrido | On-Premise | Detalles |
 |-----------------------------------------------|------------------|-----------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Configuración del servidor de Campaña | Bajo demanda | Disponible | Disponible | [Obtenga más información](../../installation/using/the-server-configuration-file.md) |
+| Configuración del servidor de Campaign | Bajo demanda | Disponible | Disponible | [Obtenga más información](../../installation/using/the-server-configuration-file.md) |
 | Correo electrónico CCO | Bajo demanda | Bajo demanda | Disponible | [Obtenga más información](../../installation/using/email-archiving.md) |
-| Administrar la instancia de ejecución del centro de mensajes | Bajo demanda | Bajo demanda | Disponible | [Obtenga más información](../../message-center/using/about-transactional-messaging.md) |
-| Administración de la plataforma Intermediaria | Bajo demanda | Bajo demanda | Disponible | [Obtenga más información](../../installation/using/mid-sourcing-server.md) |
-| Procesamiento de bandeja de entrada mediante Litmus | Bajo demanda | Bajo demanda | Disponible | [Obtenga más información](../../delivery/using/inbox-rendering.md) |
+| Administrar instancia de ejecución del centro de mensajes | Bajo demanda | Bajo demanda | Disponible | [Obtenga más información](../../message-center/using/about-transactional-messaging.md) |
+| Administración de la plataforma intermediaria | Bajo demanda | Bajo demanda | Disponible | [Obtenga más información](../../installation/using/mid-sourcing-server.md) |
+| Renderización de la bandeja de entrada mediante Litmus | Bajo demanda | Bajo demanda | Disponible | [Obtenga más información](../../delivery/using/inbox-rendering.md) |
 | Integración con IMS (Adobe ID) | Bajo demanda | Bajo demanda | Bajo demanda | [Obtenga más información](../../integrations/using/about-adobe-id.md) |
-| Cifrado y descifrado de datos para transferencias de archivos | Bajo demanda | Disponible | Disponible | [Obtenga más información](../../platform/using/unzip-decrypt.md) |
-| Impresión/descompresión de archivos | Bajo demanda | Disponible | Disponible | [Obtenga más información](../../platform/using/unzip-decrypt.md) |
+| Cifrar/descifrar datos para transferencias de archivos | Bajo demanda | Disponible | Disponible | [Obtenga más información](../../platform/using/unzip-decrypt.md) |
+| Comprimir/descomprimir archivos | Bajo demanda | Disponible | Disponible | [Obtenga más información](../../platform/using/unzip-decrypt.md) |
 | Delegación de nombres de dominio | Bajo demanda | Bajo demanda | No disponible | [Obtenga más información](https://helpx.adobe.com/es/campaign/kb/domain-name-delegation.html) |
 | Instalación de SpamAssassin | Bajo demanda | Disponible | Disponible | [Obtenga más información](../../delivery/using/spamassassin.md) |
-| Acceso a los informes de entregabilidad | Disponible | Bajo demanda | Disponible | [Obtenga más información](../../delivery/using/monitoring-deliverability.md) |
+| Acceso a los informes de capacidad de envío | Disponible | Bajo demanda | Disponible | [Obtenga más información](../../delivery/using/monitoring-deliverability.md) |
 | Configuración de la autenticación LDAP | No disponible | Disponible | Disponible | [Obtenga más información](../../installation/using/connecting-through-ldap.md) |
 
 
-## acceso de datos federado{#fda}
+## Acceso de datos federado{#fda}
 
 Adobe Campaign proporciona la opción **Acceso de Datos Federados** (FDA) para procesar la información almacenada en una o más bases de datos externas: puede acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign. [Obtenga más información](../../installation/using/about-fda.md)
 
 >[!CAUTION]
 >
->El acceso a una base de datos externa mediante FDA sólo es posible para instalaciones in situ o híbridas, excepto con el [conector del Snowflake](../../installation/using/configure-fda-snowflake.md).
+>El acceso a una base de datos externa a través de FDA solo es posible para instalaciones locales o híbridas, excepto con el [conector del Snowflake](../../installation/using/configure-fda-snowflake.md).
 
 
 **Consulte también**
 
 * [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md)
 * [Notas de la versión](../../rn/using/latest-release.md)
-* [Actualizaciones de Campaign Classic](../../rn/using/rn-overview.md)
+* [actualizaciones de Campaign Classic](../../rn/using/rn-overview.md)
 * [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md)
 * [Versiones Gold Standard](../../rn/using/gold-standard.md)
 * [Programa Gold Standard](https://helpx.adobe.com/es/campaign/kb/gold-standard.html)
