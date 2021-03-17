@@ -6,11 +6,11 @@ description: Configuración y entrega de la entrega
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1521'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -35,21 +35,21 @@ Antes de realizar el envío, se pueden definir los parámetros de envío en las 
    >
    >Cuando se duplica la entrega, se restablece el parámetro.
 
-* **[!UICONTROL Send using multiple waves]**:: Para obtener más información sobre esto, consulte  [Envío mediante varias olas](#sending-using-multiple-waves).
+* **[!UICONTROL Send using multiple waves]**: Para obtener más información, consulte [Envío mediante varias olas](#sending-using-multiple-waves).
 
 * **[!UICONTROL Test SMTP delivery]**: Esta opción permite probar la realización de un envío a través de SMTP. La entrega se procesa hasta la conexión con el servidor SMTP, pero no se envía.
 
    >[!NOTE]
    >
-   >No se recomienda utilizar esta opción al instalar con mid-sourcing para no llamar al MTA. Para obtener más información sobre cómo configurar un servidor SMTP, consulte [esta sección](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
+   >No se recomienda utilizar esta opción al instalar usando un intermediario para no llamar al servidor de correo. Para obtener más información sobre la configuración de un servidor SMTP, consulte [esta sección](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
 * **[!UICONTROL Email BCC]**: Esta opción permite almacenar correos electrónicos en un sistema externo como CCO simplemente añadiendo una dirección de correo electrónico CCO al objetivo del mensaje. Para obtener más información, consulte [esta sección](../../delivery/using/sending-messages.md#archiving-emails).
 
-## Confirmación de envío {#confirming-delivery}
+## Confirmación del envío {#confirming-delivery}
 
-Cuando el envío esté configurado y listo para enviarse, asegúrese de que ha ejecutado la análisis de envío.
+Una vez configurada la entrega y lista para enviarla, asegúrese de haber ejecutado el análisis de entrega.
 
-Para ello, haga clic en **[!UICONTROL Send]**, seleccione la acción que desee y haga clic en **[!UICONTROL Analyze]**. Para obtener más información sobre esto, consulte [Inicio de la análisis](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+Para ello, haga clic en **[!UICONTROL Send]**, seleccione la acción que desee y haga clic en **[!UICONTROL Analyze]**. Para obtener más información sobre esto, consulte [Inicio del análisis](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
 
 ![](assets/s_ncs_user_email_del_send.png)
 
@@ -173,9 +173,9 @@ Para los mensajes que no se hayan enviado temporalmente debido a un error **leve
 
 >[!IMPORTANT]
 >
->Para instalaciones hospedadas o híbridas, si ha actualizado a [MTA](../../delivery/using/sending-with-enhanced-mta.md) mejorado, la configuración de reintentos en el envío ya no se utiliza en la Campaña. Los reintentos de devoluciones en blanco y el periodo entre ellos están determinados por el MTA mejorado en función del tipo y la gravedad de las respuestas de devoluciones procedentes del dominio de correo electrónico del mensaje.
+>En el caso de instalaciones hospedadas o híbridas, si ha actualizado al [servidor de correo mejorado](../../delivery/using/sending-with-enhanced-mta.md), la configuración de reintentos de la entrega ya no se utiliza en Campaign. Los reintentos de rebote suave y el periodo entre ellos los determina el servidor de correo mejorado en función del tipo y la gravedad de las respuestas de devoluciones procedentes del dominio de correo electrónico del mensaje.
 
-En el caso de instalaciones locales e instalaciones hospedadas/híbridas que utilizan el MTA de Campaña heredado, la sección central de la ficha **[!UICONTROL Delivery]** para parámetros de envío indica cuántos reintentos deben realizarse al día siguiente del envío y el retraso mínimo entre reintentos.
+En el caso de instalaciones on-premise e instalaciones hospedadas/híbridas que utilizan el servidor de correo de Campaign heredado, la sección central de la pestaña **[!UICONTROL Delivery]** para parámetros de envío indica cuántos reintentos deben realizarse al día siguiente del envío y el margen mínimo entre reintentos.
 
 ![](assets/s_ncs_user_wizard_retry_param.png)
 
@@ -193,7 +193,7 @@ Una vez iniciado la entrega, se pueden enviar los mensajes (y los reintentos) ha
 
    >[!IMPORTANT]
    >
-   >Para instalaciones hospedadas o híbridas, si ha actualizado a [MTA](../../delivery/using/sending-with-enhanced-mta.md) mejorado, la configuración **[!UICONTROL Delivery duration]** de los envíos de correo electrónico de la Campaña se utilizará solamente si se establece en **3,5 días o menos**. Si define un valor superior a 3,5 días, no se tendrá en cuenta.
+   >En el caso de instalaciones hospedadas o híbridas, si se ha actualizado al [servidor de correo mejorado](../../delivery/using/sending-with-enhanced-mta.md), la configuración **[!UICONTROL Delivery duration]** en sus envíos de correo electrónico de Campaign se utilizará únicamente si se establece en **3,5 días o menos**. Si define un valor superior a 3,5 días, no se tendrá en cuenta.
 
 * **Límite de validez de los recursos**: El campo **[!UICONTROL Validity limit]** se utiliza para los recursos cargados, principalmente para la página espejo y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado (para ahorrar espacio en el disco).
 
