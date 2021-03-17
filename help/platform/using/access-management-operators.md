@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 97%
@@ -33,7 +33,7 @@ Para más información sobre la integración de Adobe Campaign y LDAP, consulte 
 
 >[!IMPORTANT]
 >
->Los operadores deben vincularse a una zona de seguridad para iniciar sesión en una instancia. Para más información sobre las zonas de seguridad en Adobe Campaign, consulte [esta página](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+>Los operadores deben vincularse a una zona de seguridad para iniciar sesión en una instancia. Para más información sobre las zonas de seguridad en Adobe Campaign, consulte [esta página](../../installation/using/security-zones.md).
 
 Los usuarios también pueden conectarse directamente a Adobe Campaign utilizando su Adobe ID. Para obtener más información, consulte [esta página](../../integrations/using/about-adobe-id.md).
 
@@ -106,7 +106,7 @@ El enlace **[!UICONTROL Edit the access parameters...]** permite acceder a las s
    >Aunque su cuenta esté deshabilitada, el operador puede recibir alertas o notificaciones de Campaign. Para dejar de enviar notificaciones de Campaign a este operador, Adobe recomienda eliminar la dirección de correo electrónico de su perfil.
 
 * La opción **[!UICONTROL Forbid access from the rich client]** permite restringir el uso de Adobe Campaign al [acceso Web](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) o a través de API: el acceso a la consola del cliente de Adobe Campaign ya no está disponible.
-* Es posible vincular una zona de seguridad al operador. Para obtener más información, consulte [esta página](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+* Es posible vincular una zona de seguridad al operador. Para obtener más información, consulte [esta página](../../installation/using/security-zones.md).
 * También puede definir una máscara IP de confianza mediante el vínculo apropiado.
 
    El operador puede conectarse a Adobe Campaign sin introducir su contraseña si su dirección IP está en la lista.
