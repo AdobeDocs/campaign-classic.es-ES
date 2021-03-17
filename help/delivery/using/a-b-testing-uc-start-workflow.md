@@ -6,11 +6,11 @@ description: Obtenga información sobre cómo realizar pruebas A/B mediante un c
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '88'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -31,4 +31,4 @@ ht-degree: 73%
 
 1. Una vez determinado el contenido de la tercera entrega, apruebe el objetivo y el contenido.
 
-Ahora puede analizar el resultado (consulte [Paso 8: Analizar el resultado](../../delivery/using/a-b-testing-uc-analyzing.md)).
+Ahora puede analizar el resultado (consulte [Paso 8: Análisis del resultado](../../delivery/using/a-b-testing-uc-analyzing.md)).
