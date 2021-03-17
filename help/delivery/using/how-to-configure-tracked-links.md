@@ -6,11 +6,11 @@ description: Configuración de los vínculos rastreados
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5e6a30cd70c6eb21398fda4ac0572fcefa780e0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 92%
 
 Para cada entrega, puede hacer un seguimiento de la recepción de mensajes y la activación de los vínculos insertados en el contenido del mensaje. Esto permite hacer un seguimiento del comportamiento de los destinatarios haciendo un seguimiento de las acciones de entrega para las que se segmentaron.
 
-El seguimiento se aplica a los mensajes, pero el seguimiento web permite controlar cómo los destinatarios navegan por un sitio web (páginas visitadas, compras). La configuración del seguimiento web se presenta en [esta sección](../../configuration/using/about-web-tracking.md).
+El seguimiento se aplica a los mensajes, pero el seguimiento web permite controlar cómo navegan los destinatarios por un sitio web (páginas visitadas, compras). La configuración del seguimiento web se presenta en [esta sección](../../configuration/using/about-web-tracking.md).
 
 >[!NOTE]
 >
->Los vínculos del contenido del correo electrónico que contienen personalización necesitan rastrearse con una sintaxis específica. Para obtener más información sobre cómo agregar vínculos en correos electrónicos que se pueden personalizar y que admitan el seguimiento, consulte [esta sección](../../delivery/using/tracking-personalized-links.md).
+>Los vínculos del contenido del correo electrónico que contienen personalización necesitan una sintaxis específica para poder rastrearse. Para obtener más información sobre cómo añadir vínculos en correos electrónicos que se pueden personalizar y que admitan el seguimiento, consulte [esta sección](../../delivery/using/tracking-personalized-links.md).
 
 
 
