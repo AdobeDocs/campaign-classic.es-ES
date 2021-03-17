@@ -6,9 +6,9 @@ description: Matriz de compatibilidades de Campaign Classic
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 07a13f206ada24dbfe54be754afe4f97834a23e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
 ht-degree: 100%
 
@@ -55,8 +55,8 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <tr>
 <td>RHEL</td>
 <td>
-<p>8,x (64 bits)</p>
-<p>7,x (64 bits)</p>
+<p>8.x (64 bits)</p>
+<p>7.x (64 bits)</p>
 <p><strong>Importante:</strong> Si está utilizando RHEL, debe estar dispuesto a deshabilitar SELinux o a que sus arquitectos escriban reglas SELinux personalizadas para comprobar que un SELinux habilitado no está causando problemas con las operaciones de Campaign.</p>
 </td>
 </tr>
@@ -205,7 +205,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <p>19c</p>
 <p>18c</p>
 <p>12c</p>
-<p>11 g</p>
+<p>11g</p>
 </td>
 </tr>
 <tr>
