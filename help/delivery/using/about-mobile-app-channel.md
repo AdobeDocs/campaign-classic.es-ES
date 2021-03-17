@@ -6,11 +6,11 @@ description: Esta sección proporciona información general específica del cana
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 22f44f5723ab35e95caa438583fe06314c763ba1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ La siguiente información está disponible en Adobe Campaign:
 
 ![](assets/nmac_delivery_view.png)
 
-El servidor de Adobe Campaign debe poder ponerse en contacto con el servidor APN del puerto 443 para el conector HTTP/2 de iOS.
+El servidor de Adobe Campaign debe poder ponerse en contacto con el servidor APN en el puerto 443 del conector HTTP/2 de iOS.
 
 Para comprobar si funciona correctamente, utilice los siguientes comandos:
 
@@ -101,5 +101,5 @@ Para comprobar si funciona correctamente, utilice los siguientes comandos:
    telnet gateway.push.apple.com
    ```
 
-Con el conector HTTP/2 de iOS, el MTA, el servidor web y el servidor de flujo de trabajo deben poder comunicarse con los APN del puerto 443.
+Si se utiliza un conector HTTP/2 de iOS, el servidor de correo, el servidor de flujo de trabajo y el servidor web deben poder comunicarse con los APN en el puerto 443.
 
