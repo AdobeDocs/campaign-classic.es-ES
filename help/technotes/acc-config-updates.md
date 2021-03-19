@@ -6,7 +6,7 @@ description: Nota técnica
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 587daebd8a779bb9d0917fd2dfab4144494809e3
+source-git-commit: cac3e22dd9aa8220f6980bef0d57c11d47c91163
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 15%
@@ -47,7 +47,7 @@ Si su entorno se encuentra en una compilación menor que las enumeradas a contin
 
 Debe actualizar a una de las compilaciones más recientes que se enumeran arriba.
 
-* Como cliente híbrido, Adobe actualizará la instancia de intermediario a la nueva versión y se le recomienda actualizar también su instancia de marketing.
+* Como cliente híbrido, Adobe actualizará la instancia de marketing a la nueva versión y se le recomienda actualizar también su instancia de marketing.
 
    La nueva compilación es compatible con al menos la versión 17.9 de Campaign Classic, pero para evitar lagunas de seguridad, Adobe recomienda actualizar todas las instancias a una nueva compilación. 
 
