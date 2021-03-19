@@ -1,16 +1,19 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Versión 18.6
-description: Versión 18.6
+title: Notas de la versión de Campaign 18.6
+description: Notas de la versión 18.6 de Campaign
 audience: rn
 content-type: reference
 topic-tags: latest-release-notes
+feature: Información general
+role: Profesional empresarial
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 98%
+source-wordcount: '803'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +26,7 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. Actualice [a la versión más reciente](../../production/using/build-upgrade.md) o póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Se ha retirado esta compilación. [actualice a la última versión](../../production/using/build-upgrade.md) o póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Novedades**
 
