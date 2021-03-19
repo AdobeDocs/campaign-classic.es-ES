@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: Versión 19.2
-description: Versión 19.2
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+description: Notas de la versión de Campaign 19.2
+feature: null
+role: null
+level: null
 translation-type: tm+mt
-source-git-commit: 91313fdc7aed6597d8d54d65b747c835e0cd9ccb
+source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
 workflow-type: tm+mt
-source-wordcount: '1415'
-ht-degree: 97%
+source-wordcount: '1418'
+ht-degree: 96%
 
 ---
 
