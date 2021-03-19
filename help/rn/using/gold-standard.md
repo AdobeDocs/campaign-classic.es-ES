@@ -7,15 +7,15 @@ feature: Información general
 role: Profesional empresarial
 level: Principiante
 translation-type: tm+mt
-source-git-commit: 1f718e26aeaa5ed5a58dfd0e3bc29d2dd9e995ee
+source-git-commit: 0ce968d8acdd0aea0211da248a085f05dfe70ae7
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1056'
 ht-degree: 85%
 
 ---
 
 
-# Versiones Gold Standard{#gold-standard}
+# Notas de la versión de Gold Standard {#gold-standard}
 
 Esta página enumera las versiones de Gold Standard. Obtenga más información sobre Campaign Gold Standard [en esta página](gs-overview.md).
 
