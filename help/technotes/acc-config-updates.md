@@ -6,7 +6,7 @@ description: Nota técnica
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 849a95c718f9dc58aeabc8a49d3bf8290ea79b86
+source-git-commit: 3fe7cc4863fe512d433c3f0b0f25e912999b1876
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 15%
@@ -25,6 +25,7 @@ Como cliente local/híbrido, por motivos de seguridad, debe actualizar a una de 
 >[!NOTE]
 >
 >Para cualquier pregunta sobre estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+
 
 ## Actualizaciones de seguridad
 
@@ -101,7 +102,7 @@ Una vez actualizadas todas las instancias, la consola de cliente también debe a
 
 ## Integración con Déclencheur de Experience Cloud
 
-El servicio de autenticación oAuth heredado ha llegado al final de su vida útil. La autenticación de integración de Déclencheur, basada originalmente en la configuración de autenticación oAuth para acceder a la canalización, se ha trasladado a Adobe I/O. Se retirará el **30 de abril de 2021**. [Más información](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email).
+El servicio de autenticación oAuth heredado ha llegado al final de su vida útil. La autenticación de integración de déclencheur, basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización, se ha trasladado a Adobe I/O. Se retirará el **30 de noviembre de 2021**. [Más información](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email).
 
 **¿Estás afectado?**
 
