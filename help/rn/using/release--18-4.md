@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Versión 18.4
-description: Versión 18.4
-audience: rn
-content-type: reference
-topic-tags: latest-release-notes
+title: Notas de la versión de Campaign 18.4
+description: Notas de la versión 18.4 de Campaign
+feature: null
+role: null
+level: null
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
 workflow-type: tm+mt
-source-wordcount: '2262'
-ht-degree: 100%
+source-wordcount: '2267'
+ht-degree: 99%
 
 ---
 
