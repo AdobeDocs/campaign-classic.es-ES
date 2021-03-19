@@ -1,29 +1,23 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 'Versión Gold Standard '
-description: Notas de la versión Gold Standard de Campaign Classic
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+title: 'Notas de la versión de Gold Standard '
+description: Notas de la versión de Campaign Classic Gold Standard
+feature: Información general
+role: Profesional empresarial
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 91313fdc7aed6597d8d54d65b747c835e0cd9ccb
+source-git-commit: 1f718e26aeaa5ed5a58dfd0e3bc29d2dd9e995ee
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 88%
+source-wordcount: '1055'
+ht-degree: 85%
 
 ---
 
 
 # Versiones Gold Standard{#gold-standard}
 
-Gold Standard es la versión de asistencia a largo plazo de Campaign Classic. Como usuario de Gold Standard, se beneficia automáticamente de la actualización de Gold Standard con la última versión estable sin tener que realizar ninguna acción. Los clientes locales e híbridos también pueden beneficiarse de las versiones de Gold Standard.
-
-Si migra desde una versión antigua, le recomendamos que la actualice primero a esta versión.
-
-Esta página enumera las versiones de Gold Standard.
-
-Para obtener más información sobre el programa de Gold Standard de Campaign, [consulte este artículo](https://helpx.adobe.com/es/campaign/kb/gold-standard.html).
+Esta página enumera las versiones de Gold Standard. Obtenga más información sobre Campaign Gold Standard [en esta página](gs-overview.md).
 
 ## ![](assets/do-not-localize/green_2.png) Versión Gold Standard 11{#gs-11}
 
@@ -46,7 +40,7 @@ _22 de diciembre de 2020_
 >
 > * Esta versión incorpora un nuevo protocolo de conexión: si se conecta a Campaign a través del servicio de identidad de Adobe (IMS), la actualización es obligatoria para que el servidor de Campaign y la consola del cliente puedan conectarse a Campaign después del **30 de junio de 2021**.
 > * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
-> * Si está utilizando la integración de Déclencheur de Experience Cloud mediante autenticación oAuth, debe pasar a Adobe I/O como se describe [en esta página](../../integrations/using/configuring-adobe-io.md). El modo oAuth authentication heredado se eliminará el **30 de abril de 2021**.
+> * Si está utilizando la integración de Déclencheur de Experience Cloud mediante autenticación oAuth, debe pasar a Adobe I/O como se describe [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación oAuth heredado con Campaign se eliminará el **30 de noviembre de 2021**.
 
 >
 >
