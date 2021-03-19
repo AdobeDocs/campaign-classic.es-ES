@@ -9,10 +9,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 42166334d361ffdac13842cd9d07ca7c9859bbb2
+source-git-commit: 3fe7cc4863fe512d433c3f0b0f25e912999b1876
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 75%
+source-wordcount: '579'
+ht-degree: 74%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 75%
 
 >[!CAUTION]
 >
->Si utiliza una versión anterior de la integración de los activadores mediante autenticación oAuth, **debe pasar a Adobe I/O como se describe a continuación**. El modo oAuth authentication heredado se eliminará el **30 de abril de 2021**. [Más información](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email).
+>Si utiliza una versión anterior de la integración de los activadores mediante autenticación oAuth, **debe pasar a Adobe I/O como se describe a continuación**. El modo de autenticación oAuth heredado con Campaign con Campaign se eliminará el 30 de noviembre de 2021. [Obtenga más información](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
 >
 >Tenga en cuenta que durante este cambio a [!DNL Adobe I/O], es posible que se pierdan algunos déclencheur entrantes.
 
