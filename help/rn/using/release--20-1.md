@@ -3,13 +3,13 @@ solution: Campaign Classic
 product: campaign
 title: Versión 20.1
 description: Versión 20.1
-audience: rns
-content-type: reference
-topic-tags: campaign-release-notes, latest-release-notes
+feature: Información general
+role: Profesional empresarial
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 91313fdc7aed6597d8d54d65b747c835e0cd9ccb
+source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1439'
 ht-degree: 97%
 
 ---
