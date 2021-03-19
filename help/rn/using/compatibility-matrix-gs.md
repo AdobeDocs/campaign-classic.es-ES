@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Matriz de compatibilidad de Gold Standard
+title: Matriz de compatibilidad para Campaign Gold Standard
 description: Matriz de compatibilidades de Campaign Classic para la versión Gold Standard
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+feature: Información general
+role: Profesional empresarial
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 9d1f5561098bb867b8a62e8bcdb14f60829be1ea
+source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 100%
+source-wordcount: '520'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Campaign Classic es compatible con todos los sistemas y herramientas enume
 <tr>
 <td>RHEL</td>
 <td>
-<p>7,x (64 bits)</p>
+<p>7.x (64 bits)</p>
 <p><strong>Importante:</strong> Si está utilizando RHEL, debe estar dispuesto a deshabilitar SELinux o a que sus arquitectos escriban reglas SELinux personalizadas para comprobar que un SELinux habilitado no está causando problemas con las operaciones de Campaign.</p>
 </td>
 </tr>
@@ -207,7 +207,7 @@ Adobe Campaign Classic es compatible con todos los sistemas y herramientas enume
 <td>Oracle</td>
 <td>
 <p>12c</p>
-<p>11 g</p>
+<p>11g</p>
 </td>
 </tr>
 <tr>
