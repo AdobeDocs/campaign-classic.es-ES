@@ -7,23 +7,23 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 95d0686c4ddeb4e25eb918ca92cbd6a0b1aa1f3c
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 5%
+source-wordcount: '167'
+ht-degree: 3%
 
 ---
 
 
-# Acerca de la configuración inicial{#about-initial-configuration}
+# Pasos clave para configurar e implementar su instancia{#about-initial-configuration}
 
-Una vez completada la instalación de Adobe Campaign, debe configurarla para asegurarse de que funciona de manera eficiente con sus restricciones y arquitectura técnica. Los pasos para configurar una instancia de Adobe Campaign se detallan en este capítulo, en la siguiente secuencia:
+Una vez finalizada la instalación de Adobe Campaign, debe configurarla para asegurarse de que funciona de forma eficaz con sus restricciones y arquitectura técnica. Los pasos para configurar una instancia de Adobe Campaign se detallan en este capítulo, en la siguiente secuencia:
 
-1. Crear la instancia y la conexión relacionada, consulte [Creación de una instancia e inicio de sesión](../../installation/using/creating-an-instance-and-logging-on.md).
-1. Creación y configuración de la base de datos, consulte [Creación y configuración de la base de datos](../../installation/using/creating-and-configuring-the-database.md).
-1. Configuración del servidor Adobe Campaign, consulte [configuración del servidor de Campaña](../../installation/using/campaign-server-configuration.md).
-1. Implementación de la instancia, consulte [Implementación de una instancia](../../installation/using/deploying-an-instance.md).
+1. Cree la instancia y la conexión relacionada, consulte [Creación de una instancia e inicio de sesión](../../installation/using/creating-an-instance-and-logging-on.md).
+1. Cree y configure la base de datos, consulte [Creación y configuración de la base de datos](../../installation/using/creating-and-configuring-the-database.md).
+1. Configure el servidor Adobe Campaign, consulte [Configuración del servidor de Campaign](../../installation/using/campaign-server-configuration.md).
+1. Implemente la instancia, consulte [Implementación de una instancia](../../installation/using/deploying-an-instance.md).
 
-Configurar la instancia implica habilitar procesos (web, mta, wfserver, etc.) para que se inicie en el servidor y configure módulos para enviar correo electrónico, para seguimiento, etc. En cada caso, los procesos de Adobe Campaign se activan en el servidor. Para obtener más información sobre esto, consulte [Habilitación de procesos](../../installation/using/campaign-server-configuration.md#enabling-processes).
+La configuración de la instancia implica la activación de procesos (web, mta, wfserver, etc.) que se inicie en el servidor y configure módulos para enviar correo electrónico, para seguimiento, etc. Para cada instancia, los procesos de Adobe Campaign se activan en el servidor. Para obtener más información, consulte [Activación de procesos](../../installation/using/campaign-server-configuration.md#enabling-processes).
 
-Se pueden necesitar configuraciones adicionales para cada instancia (dependiendo de los módulos utilizados, su arquitectura y sus necesidades) a fin de optimizar el funcionamiento de Adobe Campaign.
+Se pueden necesitar configuraciones adicionales para cada instancia (según los módulos utilizados, la arquitectura y las necesidades) para optimizar el funcionamiento de Adobe Campaign.
