@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 95d0686c4ddeb4e25eb918ca92cbd6a0b1aa1f3c
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 2%
@@ -17,19 +17,19 @@ ht-degree: 2%
 
 # Configuración del servidor de Campaign{#campaign-server-configuration}
 
-Las siguientes secciones detallan las configuraciones obligatorias del servidor que garantizarán el funcionamiento eficiente de Adobe Campaign para la mayoría de las configuraciones.
+Las siguientes secciones detallan las configuraciones de servidor obligatorias que garantizarán el funcionamiento eficiente de Adobe Campaign para la mayoría de las configuraciones.
 
-Se ofrecen configuraciones adicionales en [Configuración del servidor de Campaña](../../installation/using/configuring-campaign-server.md).
+Se ofrecen configuraciones adicionales en [Configuración del servidor de Campaign](../../installation/using/configuring-campaign-server.md).
 
 >[!NOTE]
 >
->Las configuraciones del lado del servidor sólo pueden ser realizadas por Adobe para implementaciones alojadas en Adobe. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Hosting models](../../installation/using/hosting-models.md) o [la matriz de capacidades](../../installation/using/capability-matrix.md).
+>Las configuraciones del lado del servidor solo se pueden realizar mediante Adobe para implementaciones alojadas en Adobe. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Hosting models](../../installation/using/hosting-models.md) o [the capacity matrix](../../installation/using/capability-matrix.md).
 
 ## Identificador interno {#internal-identifier}
 
-El identificador **interno** es un inicio de sesión técnico que se utiliza con fines de instalación, administración y mantenimiento. Este inicio de sesión no está asociado a una instancia.
+El identificador **internal** es un inicio de sesión técnico que se utilizará con fines de instalación, administración y mantenimiento. Este inicio de sesión no está asociado a una instancia.
 
-Los operadores conectados mediante este inicio de sesión tendrán todos los derechos en todas las instancias. Este inicio de sesión no tendrá una contraseña en el caso de una nueva instalación. Debe definir manualmente esta contraseña.
+Los operadores conectados mediante este inicio de sesión tendrán todos los derechos en todas las instancias. Este inicio de sesión no tendrá contraseña en el caso de una nueva instalación. Debe definir manualmente esta contraseña.
 
 Utilice el siguiente comando:
 
@@ -37,7 +37,7 @@ Utilice el siguiente comando:
 nlserver config -internalpassword
 ```
 
-A continuación se muestra la siguiente información. Introduzca y confirme la contraseña:
+A continuación, se muestra la siguiente información. Introduzca y confirme la contraseña:
 
 ```
 17:33:57 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
@@ -53,10 +53,10 @@ Confirmation: XXXX
 
 Los archivos de configuración se almacenan en la carpeta **conf** de la carpeta de instalación de Adobe Campaign. La configuración se distribuye en dos archivos:
 
-* **`config-<instance>.xml`** (donde  **** instanceis es el nombre de la instancia): configuración específica de la instancia. Si comparte el servidor entre varias instancias, introduzca los parámetros específicos de cada instancia en el archivo correspondiente.
-* **serverConf.xml**: configuración general para todas las instancias. Este archivo combina los parámetros técnicos del servidor de Adobe Campaign: todas las instancias las comparten. La descripción de algunos de estos parámetros se detalla a continuación. Consulte el propio archivo para vista de todos los parámetros disponibles. Los diferentes nodos y parámetros que se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
+* **`config-<instance>.xml`** (donde  **** instancia es el nombre de la instancia): configuración específica de la instancia. Si comparte el servidor entre varias instancias, introduzca los parámetros específicos de cada instancia en su archivo correspondiente.
+* **serverConf.xml**: configuración general para todas las instancias. Este archivo combina los parámetros técnicos del servidor Adobe Campaign: todas las instancias las comparten. A continuación se detalla la descripción de algunos de estos parámetros. Consulte el archivo para ver todos los parámetros disponibles. Los diferentes nodos y parámetros y enumerados en esta [sección](../../installation/using/the-server-configuration-file.md).
 
-Puede configurar el directorio de almacenamiento (**var** directorio) de los datos de Adobe Campaign (registros, descargas, redirecciones, etc.). Para ello, utilice la variable del sistema **XTK_VAR_DIR**:
+Puede configurar el directorio de almacenamiento (directorio **var**) de datos de Adobe Campaign (registros, descargas, redirecciones, etc.). Para ello, utilice la variable del sistema **XTK_VAR_DIR**:
 
 * En Windows, indique el siguiente valor en la variable de sistema **XTK_VAR_DIR**
 
@@ -64,13 +64,13 @@ Puede configurar el directorio de almacenamiento (**var** directorio) de los dat
    D:\log\AdobeCampaign
    ```
 
-* En Linux, vaya al archivo **customer.sh** e indique: **exporte XTK_VAR_DIR=/app/log/AdobeCampaign**.
+* En Linux, vaya al archivo **customer.sh** e indique: **exportar XTK_VAR_DIR=/app/log/AdobeCampaign**.
 
-   Para obtener más información sobre esto, consulte [Personalización de parámetros](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
+   Para obtener más información, consulte [Personalize parameters](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
 
-## Habilitando procesos {#enabling-processes}
+## Habilitar procesos {#enabling-processes}
 
-Los procesos de Adobe Campaign en el servidor están habilitados (y deshabilitados) mediante los archivos **config-default.xml** y **`config-<instance>.xml`**.
+Los procesos de Adobe Campaign en el servidor están habilitados (y deshabilitados) a través de los archivos **config-default.xml** y **`config-<instance>.xml`** .
 
 Para aplicar los cambios a estos archivos, si se inicia el servicio de Adobe Campaign, debe ejecutar el comando **nlserver config -reload**.
 
@@ -80,7 +80,7 @@ Existen dos tipos de procesos: instancia múltiple y instancia única.
 
    La habilitación se puede configurar desde el archivo **config-default.xml**.
 
-   Declaración de un servidor de Adobe Campaign para acceder a las consolas de cliente y para redirección (seguimiento):
+   Declaración de un servidor de Adobe Campaign para acceder a las consolas de cliente y para la redirección (seguimiento):
 
    ```
    vi nl6/conf/config-default.xml
@@ -93,13 +93,13 @@ Existen dos tipos de procesos: instancia múltiple y instancia única.
 
 * **instancia** mono: se inicia un proceso para cada instancia (módulos:  **mta**,  **wfserver**,  **inMail**,  **** smand  **stat**).
 
-   La habilitación se puede configurar mediante el archivo de configuración de la instancia:
+   La habilitación se puede configurar utilizando el archivo de configuración de la instancia:
 
    ```
    config-<instance>.xml
    ```
 
-   Declaración de un servidor para envío, ejecución de instancias de flujo de trabajo y recuperación de correo de devolución:
+   Declarar un servidor para su envío, ejecutar instancias de flujo de trabajo y recuperar el correo rechazado:
 
    ```
    <mta autoStart="true" statServerAddress="localhost"/>
@@ -112,16 +112,16 @@ Existen dos tipos de procesos: instancia múltiple y instancia única.
 
 Los parámetros de envío deben configurarse en la carpeta **serverConf.xml**.
 
-* **Configuración** DNS: especifique el dominio de envío y las direcciones IP (o host) de los servidores DNS utilizados para responder a consultas DNS de tipo MX realizadas por el módulo MTA a partir de  **`<dnsconfig>`** entonces.
+* **Configuración** de DNS: especifique el dominio de entrega y las direcciones IP (o host) de los servidores DNS utilizados para responder a consultas DNS de tipo MX realizadas por el módulo MTA a partir de  **`<dnsconfig>`** entonces.
 
    >[!NOTE]
    >
-   >El parámetro **nameServers** es esencial para una instalación en Windows. Para una instalación en Linux, debe quedar vacía.
+   >El parámetro **nameServers** es esencial para una instalación en Windows. Para una instalación en Linux, debe dejarse vacía.
 
    ```
    <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
    ```
 
-Los demás parámetros de envío disponibles en este archivo se presentan en [Personalización de parámetros de envío](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
+Los demás parámetros de envío disponibles en este archivo se presentan en [Personalize delivery parameters](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
-Consulte también [Entregabilidad por correo electrónico](../../installation/using/email-deliverability.md).
+Consulte también [Email deliverability](../../installation/using/email-deliverability.md).
