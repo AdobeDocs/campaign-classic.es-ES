@@ -7,10 +7,10 @@ feature: null
 role: null
 level: null
 translation-type: tm+mt
-source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
+source-git-commit: 96f5709b4c67d1979286cc1f71069a64435c5c70
 workflow-type: tm+mt
-source-wordcount: '1418'
-ht-degree: 96%
+source-wordcount: '1484'
+ht-degree: 93%
 
 ---
 
@@ -18,6 +18,16 @@ ht-degree: 96%
 # Versión 19.2{#release-19-2}
 
 ## ![](assets/do-not-localize/limited_2.png) Versión 19.2.4: compilación 9082 {#release-19-2-4-build-9082}
+
+_22 de marzo de 2021_
+
+* Se ha corregido una regresión que impedía el uso de algunos componentes de la consola, como el selector de fechas y la administración de imágenes en los envíos. (NEO-31453, NEO-31454)
+
+**Solo es obligatorio actualizar la consola. No se requiere ninguna actualización del servidor.**
+
+>[!NOTE]
+>
+> Conéctese a [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) para descargar la nueva versión. Aprenda a proponer la actualización de la consola a todos los usuarios finales [en esta página](../../installation/using/client-console-availability-for-windows.md).
 
 _23 de diciembre de 2020_
 
