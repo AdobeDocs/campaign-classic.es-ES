@@ -7,10 +7,10 @@ feature: Información general
 role: Profesional empresarial
 level: Principiante
 translation-type: tm+mt
-source-git-commit: 3fe7cc4863fe512d433c3f0b0f25e912999b1876
+source-git-commit: d41119e61ee2088e1b8cab65354547420f8e7737
 workflow-type: tm+mt
-source-wordcount: '4194'
-ht-degree: 96%
+source-wordcount: '4250'
+ht-degree: 95%
 
 ---
 
@@ -37,6 +37,8 @@ Aprenda a crear y administrar sus campañas a través de estas nuevas páginas:
 * [Configuración y administración del proceso de aprobación](../../campaign/using/marketing-campaign-approval.md)
 
 Se ha añadido información en la sección de actividad **[!UICONTROL Advanced JavaScript]** sobre cómo utilizar el método task.setCompleted() para finalizar la tarea y evitar futuras recuperaciones. [Obtenga más información](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
+
+La sección [Deliverability](../../delivery/using/about-deliverability.md) se ha actualizado y ahora incluye vínculos a la nueva [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html). Toda la información genérica relacionada con la capacidad de envío que se puede aplicar a varias soluciones de Adobe se ha trasladado al [Apéndice de la Guía de prácticas recomendadas](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
 
 ## Febrero de 2021 {#release-21.1}
 
@@ -130,8 +132,8 @@ Se ha actualizado la matriz de compatibilidad. [Más información](../../rn/usin
 
 Se ha actualizado la página Funciones obsoletas y eliminadas. [Más información](../../rn/using/deprecated-features.md)
 
-Las notas de la versión y la matriz de compatibilidad de la versión Gold Standard ya están disponibles en una sección dedicada.
-[Más información](../../rn/using/gold-standard.md#gs-11).
+Las notas de la versión y la matriz de compatibilidad de la versión [!DNL Gold Standard] ya están disponibles en una sección dedicada.
+[Obtenga más información](../../rn/using/gold-standard.md#gs-11).
 
 Activa la integración basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización y, ahora, se ha cambiado y trasladado a Adobe I/O. [Más información](../../integrations/using/configuring-adobe-io.md)
 
@@ -167,7 +169,7 @@ Se ha añadido una nota sobre el uso de datos adicionales con direcciones semill
 
 Conozca las prácticas recomendadas relacionadas con el diseño de envíos y el envío con Campaign en una sección dedicada. [Más información](../../delivery/using/delivery-best-practices.md)
 
-Se ha mejorado la página de aterrizaje de prácticas recomendadas sobre la capacidad de entrega para facilitar el acceso a las subsecciones. [Más información](../../delivery/using/deliverability-key-points.md)
+Se ha mejorado la página de aterrizaje de prácticas recomendadas sobre la capacidad de entrega para facilitar el acceso a las subsecciones. [Más información](../../delivery/using/about-deliverability.md)
 
 Los vídeos de procedimientos ya están disponibles para los siguientes temas:
 
@@ -206,7 +208,7 @@ La sección de la actividad **[!UICONTROL AND-join]** se ha enriquecido con info
 
 Se ha añadido un caso de uso sobre cómo actualizar automáticamente una lista mediante una consulta incremental de los casos de uso del flujo de trabajo. [Más información](../../workflow/using/about-workflow-use-cases.md)
 
-Las [notas de la versión](../../rn/using/latest-release.md) se han reorganizado: se ha añadido una [página de información general](../../rn/using/latest-release.md) con información sobre los estados de las versiones, el proceso de actualización, las recomendaciones y los vínculos importantes. También se ha añadido una página dedicada a las [versiones de Gold Standard](../../rn/using/gold-standard.md) y se ha integrado la [matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
+Las [notas de la versión](../../rn/using/latest-release.md) se han reorganizado: se ha añadido una [página de información general](../../rn/using/latest-release.md) con información sobre los estados de las versiones, el proceso de actualización, las recomendaciones y los vínculos importantes. También se ha añadido una página dedicada a las [[!DNL Gold Standard] versiones de ](../../rn/using/gold-standard.md) y se ha integrado la [matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
 
 Se ha añadido una nueva sección con directrices relacionadas con la supervisión de Campaign Classic. [Más información](../../production/using/monitoring-guidelines.md)
 
@@ -266,7 +268,7 @@ Se ha movido y mejorado la sección Monitorización de la capacidad de envío. [
 
 Se ha movido y mejorado la sección de Solución de problemas de la capacidad de envío. [Más información](../../delivery/using/deliverability-faq.md)
 
-Se han mejorado las directrices de capacidad de envío al iniciar una nueva sección de plataforma. [Más información](../../delivery/using/starting-new-platform.md)
+Se han mejorado las directrices de capacidad de entrega al iniciar una nueva plataforma. [Más información](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html#transition-process)
 
 Se ha movido y actualizado la sección Envío de correos electrónicos transaccionales con archivos adjuntos. [Más información](../../message-center/using/transactional-email-with-attachments.md)
 
@@ -476,7 +478,7 @@ Se ha añadido una sección que describe los pasos de instalación y configuraci
 
 Se ha agregado una sección que describe los pasos de desinstalación del servidor Campaign. [Más información](../../installation/using/uninstalling-campaign.md)
 
-Se han actualizado las guías de introducción a la [seguridad](https://helpx.adobe.com/es/campaign/kb/acc-security.html), la [capacidad de envío](../../delivery/using/deliverability-key-points.md) y la [privacidad](../../platform/using/privacy-management.md).
+Se han actualizado las guías de introducción a la [seguridad](https://helpx.adobe.com/es/campaign/kb/acc-security.html), la [capacidad de envío](../../delivery/using/about-deliverability.md) y la [privacidad](../../platform/using/privacy-management.md).
 
 La descripción de la opción de flujo de trabajo previo al proceso se ha actualizado para reflejar los cambios del producto. [Más información](../../workflow/using/data-loading--file-.md)
 
