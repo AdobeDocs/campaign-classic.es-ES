@@ -6,25 +6,27 @@ description: Nota técnica
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: b036dccc012b1948837549492d9a1b0726af459d
+source-git-commit: 01f4e4ee841a797f4be61ffc01096b7f651ce963
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 16%
+source-wordcount: '1114'
+ht-degree: 14%
 
 ---
 
 
 # Actualizaciones de configuración de Adobe Campaign: marzo de 2021 {#acc-config-updates}
 
-Debe mantener la infraestructura y la configuración actualizadas con las últimas versiones y correcciones de productos. Estas correcciones son obligatorias para garantizar la continuidad y seguridad del servicio. Además, debe adaptar la implementación para que se ajuste a los cambios de terceros.
+La infraestructura y la configuración deben actualizarse regularmente con las últimas versiones y correcciones de productos. Estas correcciones son necesarias para garantizar la continuidad del servicio y la seguridad. Además, se necesitarán actualizaciones para alinearse con los cambios de terceros.
 
-Como cliente alojado, el Adobe le informará de las actualizaciones de compilación necesarias a intervalos regulares. Debe actualizar de acuerdo con las recomendaciones para garantizar el cumplimiento.
+Como **cliente alojado o de Managed Services**, el Adobe le informará de las actualizaciones de la compilación a intervalos regulares. Se le pedirá que actualice según las recomendaciones para garantizar el cumplimiento.
 
-Como cliente local/híbrido, por motivos de seguridad, debe actualizar a una de las versiones enumeradas en esta página. Además, se deben realizar algunas tareas manuales para asegurarse de que el entorno sea seguro y esté listo para los próximos cambios de sistemas de Adobe o de terceros.
+Como **cliente On-Premise o híbrido**, debe actualizar su implementación a intervalos regulares en línea con las últimas versiones publicadas.
+
+Por motivos de seguridad, debe actualizar a una de las versiones que se indican a continuación. Además de los pasos de actualización estándar, se deben realizar algunas tareas manuales para asegurarse de que el entorno sea seguro y esté listo para los próximos cambios de sistemas de Adobe o de terceros.
 
 >[!NOTE]
 >
->Para cualquier pregunta sobre estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Para cualquier pregunta acerca de estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 
 ## Actualizaciones de seguridad
@@ -49,20 +51,20 @@ Aprenda a comprobar su versión [en esta sección](../platform/using/launching-a
 
 Debe actualizar a una de las compilaciones más recientes que se enumeran arriba.
 
-* Como cliente híbrido, Adobe actualizará la instancia de marketing a la nueva versión y se le recomienda actualizar también su instancia de marketing.
+* Como cliente híbrido, el Adobe le informará de las fechas de actualización programadas para sus instancias intermediarias. Adobe recomienda encarecidamente que actualice la instancia de marketing también.
 
-   La nueva compilación es compatible con al menos la versión 17.9 de Campaign Classic, pero para evitar lagunas de seguridad, Adobe recomienda actualizar todas las instancias a una nueva compilación. 
+   La nueva compilación es compatible con la versión 17.9 de Campaign Classic, pero Adobe recomienda encarecidamente una actualización en todas las instancias para abordar las vulnerabilidades de seguridad
 
-* Como cliente local, se le solicita que actualice las instancias de marketing y intermediario a una versión más reciente.
+* Como cliente local, se le solicita que actualice las instancias de marketing y intermediario a la última versión.
 
 >[!CAUTION]
 >
->Si no puede actualizar por ahora, **debe ponerse en contacto con el equipo de atención al cliente de Adobe para aplicar manualmente una corrección de seguridad en las instancias**.
+>Si no puede actualizar dentro del intervalo de tiempo recomendado, **debe ponerse en contacto con el equipo de atención al cliente de Adobe para aplicar una corrección de seguridad manual a corto plazo en las instancias**.
 
 
-## Actualización de la consola del cliente de Campaign
+## Actualización de la consola del cliente del Campaign Classic
 
-Las siguientes versiones corrigen una regresión que impedía el uso de algunos componentes de la consola del cliente, como el selector de fechas y la administración de imágenes en los envíos. **La** actualización de la consola es obligatoria.
+Las **ahora disponibles** versiones de la consola que se muestran a continuación deben instalarse para resolver una regresión identificada recientemente. Esta regresión impedía el uso de algunos componentes de la consola del cliente, como el selector de fechas y la administración de imágenes en los envíos. **La** actualización de la consola es obligatoria.
 
 * Última compilación de Gold Standard 11 9032@10c2709. [Obtenga más información](../rn/using/gold-standard.md)
 * Versión 20.1.4 de Campaign. [Obtenga más información](../rn/using/release--20-1.md)
@@ -73,7 +75,7 @@ Las siguientes versiones corrigen una regresión que impedía el uso de algunos 
 
 El servicio de identidad de Adobe (IMS) dejará de admitir versiones antiguas de Internet Explorer a partir del **30 de junio de 2021**. [Más información](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html).
 
-La consola de cliente de Campaign se ha actualizado para garantizar la compatibilidad con IMS de Adobe.
+Se requiere una actualización de la consola del cliente de Campaign para garantizar la compatibilidad con IMS de Adobe.
 
 **¿Estás afectado?**
 
@@ -93,7 +95,7 @@ Aprenda a comprobar su versión [en esta sección](../platform/using/launching-a
 
 **¿Cómo se actualiza?**
 
-Como cliente alojado, no es necesario realizar ninguna acción: Adobe ya ha actualizado las instancias a una versión más reciente.
+Como cliente alojado, Adobe trabajará con usted para actualizar sus instancias a la versión más reciente en breve.
 
 Como cliente local/híbrido, debe actualizar a una de las versiones más recientes para beneficiarse de la nueva consola de cliente y garantizar una transición sin problemas **antes del 30 de junio de 2021**.
 
@@ -123,7 +125,7 @@ Aprenda a comprobar su versión [en esta sección](../platform/using/launching-a
 
 **¿Cómo se actualiza?**
 
-Una vez que las instancias se actualizan a una versión más reciente, todos los clientes deben seguir el procedimiento [para pasar al nuevo modo de autenticación](../integrations/using/configuring-adobe-io.md). Esto requiere generar el nuevo token de Adobe I/O y utilizarlo en la implementación.  
+Una vez que las instancias se actualizan a una versión más reciente, todos los clientes deben seguir el procedimiento [para pasar al nuevo modo de autenticación](../integrations/using/configuring-adobe-io.md). Esto requiere que genere el nuevo token de Adobe I/O y lo utilice en la implementación.  
 
 Además, en el caso de entornos híbridos, los clientes deben asegurarse de que la canalización esté configurada en una instancia intermediaria. [Más información](../integrations/using/configuring-pipeline.md).
 
@@ -137,13 +139,13 @@ El servicio de notificaciones push de Apple (APNS) dejará de ser compatible con
 
 **¿Estás afectado?**
 
-Si las instancias se ejecutan en una versión **anterior a Campaign 21.1,** y envían notificaciones push con el protocolo binario heredado de Apple, debe actualizar a la API del proveedor de APNS basada en HTTP/2.
+Si las instancias se ejecutan en una versión **anterior a Campaign 21.1,** y envía notificaciones push con el protocolo binario heredado de Apple, debe actualizar a la API del proveedor de APNS basada en HTTP/2.
 
 Aprenda a comprobar su versión [en esta sección](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 **¿Cómo se actualiza?**
 
-Como cliente alojado, no es necesario realizar ninguna acción: Adobe ya ha actualizado sus instancias a la API basada en HTTP/2.
+Como cliente alojado, si ha actualizado a la nueva compilación, Adobe ya ha actualizado sus instancias a la API basada en HTTP/2.
 
 Como cliente local/alojado, debe actualizar su configuración. [Aprenda a migrar a HTTP/2](https://helpx.adobe.com/es/campaign/kb/migrate-to-apns-http2.html)
 
