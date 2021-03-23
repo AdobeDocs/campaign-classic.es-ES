@@ -7,9 +7,9 @@ feature: Información general
 role: Arquitecto
 level: Principiante
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 09bd634142f643206c38ac5f881302a5d489ecaf
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '626'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Como cliente alojado, la mayoría de los pasos de instalación y configuración 
 
 * Configure el seguimiento y las direcciones URL de páginas espejo por marca. Para los mensajes transaccionales, consulte [esta sección](../../message-center/using/configuring-multibranding.md).
 * Instale la consola del cliente: consulte [a esta sección](../../installation/using/installing-the-client-console.md).
-* Para obtener más información sobre las herramientas de envío y las prácticas recomendadas, lea la [guía de introducción](../../delivery/using/deliverability-key-points.md) y la [documentación detallada](../../delivery/using/about-deliverability.md).
+* Para obtener más información sobre las herramientas de envío y las prácticas recomendadas, lea la [documentación detallada](../../delivery/using/about-deliverability.md).
 * Configure las opciones de Campaign: consulte [a esta sección](../../installation/using/configuring-campaign-options.md).
 * Configurar conectores CRM: consulte [a esta sección](../../platform/using/crm-connectors.md).
 
@@ -65,7 +65,7 @@ Como cliente híbrido, la mayoría de los pasos de instalación y configuración
 * Configure el seguimiento y las direcciones URL de páginas espejo por marca. Para los mensajes transaccionales, consulte [esta sección](../../message-center/using/configuring-multibranding.md).
 * Instale la consola del cliente: consulte [a esta sección](../../installation/using/installing-the-client-console.md).
 * Instale paquetes integrados: consulte [a esta sección](../../installation/using/installing-campaign-standard-packages.md).
-* Capacidad de entrega: configure [reglas MX](../../installation/using/email-deliverability.md#mx-configuration) y [formatos de correo electrónico](../../installation/using/email-deliverability.md#managing-email-formats). Para obtener más información sobre las herramientas de envío y las prácticas recomendadas, lea la [guía de introducción](../../delivery/using/deliverability-key-points.md) y la [documentación detallada](../../delivery/using/about-deliverability.md).
+* Capacidad de entrega: configure [reglas MX](../../installation/using/email-deliverability.md#mx-configuration) y [formatos de correo electrónico](../../installation/using/email-deliverability.md#managing-email-formats). Para obtener más información sobre las herramientas de envío y las prácticas recomendadas, lea la [documentación detallada](../../delivery/using/about-deliverability.md).
 * Configure las opciones de Campaign: consulte [a esta sección](../../installation/using/configuring-campaign-options.md).
 * Configurar una base de datos externa (acceso de datos federado): consulte [a esta sección](../../installation/using/about-fda.md).
 * Configuración de conectores CRM: consulte [a esta sección](../../platform/using/crm-connectors.md).
