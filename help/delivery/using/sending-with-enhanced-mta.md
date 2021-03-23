@@ -6,11 +6,11 @@ description: Obtenga información acerca del ámbito y las características espe
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-translation-type: ht
-source-git-commit: c64b6eccd0ad45ebcf4ecc18150f4409f5c66bc2
-workflow-type: ht
-source-wordcount: '1880'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+workflow-type: tm+mt
+source-wordcount: '1892'
+ht-degree: 98%
 
 ---
 
@@ -152,7 +152,7 @@ Para obtener más información sobre el período de validez, consulte [esta secc
 ### Firma DKIM
 
 La autenticación por correo electrónico DKIM (DomainKeys Identified Mail) la realiza el servidor de correo mejorado. La firma DKIM por parte del servidor de correo de Campaign nativo se desactiva en la tabla de administración del dominio como parte de la actualización del servidor de correo mejorado.
-Para obtener más información sobre DKIM, consulte [esta sección](../../delivery/using/technical-recommendations.md#dkim).
+Para obtener más información sobre DKIM, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
 
 ### Sistema de informes de éxito de envío
 
