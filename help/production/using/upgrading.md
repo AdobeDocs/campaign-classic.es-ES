@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: ae4b2ba6db140cdfb9ec4a38231fcc3e54b1478c
+source-git-commit: cb24bc78b5cc09307ca470470464f204d9f41278
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 2%
+source-wordcount: '1149'
+ht-degree: 3%
 
 ---
 
@@ -21,19 +21,20 @@ Antes de iniciar el proceso de actualización, determine y confirme a qué versi
 
 >[!IMPORTANT]
 >
->Se recomienda realizar una copia de seguridad de la base de datos en cada instancia antes de actualizar. Para obtener más información, consulte [Copia de seguridad](../../production/using/backup.md).\
->Para realizar una actualización, asegúrese de que tiene la capacidad y los permisos para acceder a instancias y registros.
+>* Adobe recomienda encarecidamente realizar una copia de seguridad de la base de datos en cada instancia antes de la actualización. Para obtener más información, consulte [esta sección](../../production/using/backup.md).
+>* Para realizar una actualización, asegúrese de que tiene la capacidad y los permisos para acceder a instancias y registros.
+>* Lea [esta sección](../../installation/using/general-architecture.md) y el capítulo [actualización de compilación](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) antes de empezar.
 
->[!NOTE]
 >
->Consulte también la [guía de instalación](../../installation/using/general-architecture.md) y la [actualización de compilación](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) introducción.
+
+
 
 ## Windows {#in-windows}
 
-Para actualizar Adobe Campaign en una nueva versión al enviar una nueva compilación, se debe aplicar el siguiente procedimiento en Windows:
+En un entorno de Windows, siga los pasos a continuación para actualizar Adobe Campaign a una nueva versión:
 
 * [Apagar servicios](#shut-down-services),
-* [Actualice la aplicación](#upgrade-the-adobe-campaign-server-application) de servidor de Adobe Campaign,
+* [Actualizar el servidor de aplicaciones](#upgrade-the-adobe-campaign-server-application),
 * [Sincronizar recursos](#synchronize-resources),
 * [Reinicie los servicios](#restart-services).
 
@@ -88,9 +89,9 @@ Utilice la siguiente línea de comandos:
 
 Esto le permite llevar a cabo las siguientes operaciones:
 
-* Sincronizar recursos,
-* actualizar esquemas,
-* actualice la base de datos.
+* Sincronizar recursos
+* Actualizar esquemas
+* actualizar la base de datos
 
 >[!NOTE]
 >
@@ -110,10 +111,10 @@ Los servicios que se van a reiniciar son:
 
 ## Linux {#in-linux}
 
-Para actualizar Adobe Campaign en una nueva versión cuando se entrega una nueva compilación, el procedimiento para Linux es el siguiente:
+En un entorno Linux, siga los pasos a continuación para actualizar Adobe Campaign a una nueva versión:
 
-* [Obtenga paquetes](#obtain-updated-packages) actualizados,
-* [Realizar una actualización](#perform-an-update),
+* [Descargue los paquetes](#obtain-updated-packages) actualizados,
+* [Realice la actualización](#perform-an-update),
 * [Reinicie el servidor](#reboot-the-web-server) web.
 
 [Obtenga más información sobre la disponibilidad](../../installation/using/client-console-availability-for-windows.md) de la consola de cliente.
@@ -138,7 +139,7 @@ El archivo es **nlserver6-v7-XXX.rpm**
    $rpm -Uvh nlserver6-v7-XXXX.rpm
    ```
 
-   donde XXX es la versión del archivo.
+   Donde XXX es la versión del archivo.
 
    El archivo rpm tiene dependencias en paquetes que puede encontrar en distribuciones de CentOS/Red Hat. Si no desea utilizar algunas de estas dependencias, es posible que tenga que utilizar la opción &quot;nodeps&quot; de rpm:
 
@@ -184,7 +185,7 @@ A continuación, reinicie Apache:
 /etc/init.d/apache start
 ```
 
-## Resolución de conflictos de actualización {#resolving-upgrade-conflicts}
+## Resolver conflictos de actualización {#resolving-upgrade-conflicts}
 
 Durante la sincronización de recursos, el comando **postupgrade** permite detectar si la sincronización ha generado errores o advertencias.
 
@@ -207,7 +208,7 @@ Existen dos formas de ver el resultado de la sincronización:
 
 * El archivo de registro **postupgrade_`<server version number>_<time of postupgrade>`.log** contiene el resultado de la sincronización. Está disponible de forma predeterminada en el siguiente directorio: **`<installation directory>/var/<instance/postupgrade`**. Los errores y las advertencias se indican mediante los atributos de error y advertencia.
 
-### Resolución de conflictos {#resolving-conflicts}
+### Resolver conflictos {#resolving-conflicts}
 
 Para resolver conflictos, siga el siguiente proceso:
 
@@ -247,11 +248,7 @@ Por ejemplo, una base de datos Unicode no solo debe autorizar el almacenamiento 
 
 ### Windows {#in-windows-1}
 
-En el equipo en el que está instalado el servidor de aplicaciones de Adobe Campaign (**nlserver web**), descargue y copie el archivo
-
-**setup-client-6.XXXX.exe**
-
-en **[ruta de la aplicación]**datakitnlongjsp
+En el equipo en el que está instalado el servidor de aplicaciones de Adobe Campaign (**nlserver web**), descargue y copie el archivo **setup-client-6.XXXX.exe** en **[ruta de acceso de la aplicación]/datakit/nl/eng/jsp**.
 
 La próxima vez que se conecten consolas de cliente, una ventana informará a los usuarios sobre la disponibilidad de una actualización y les ofrecerá la posibilidad de descargarlas e instalarlas.
 
@@ -261,11 +258,7 @@ La próxima vez que se conecten consolas de cliente, una ventana informará a lo
 
 ### Linux {#in-linux-1}
 
-En el equipo donde está instalado el servidor de aplicaciones de Adobe Campaign (**nlserver web**), recupere el siguiente paquete:
-
-**setup-client-6.XXXX.exe**
-
-y cópielo, guardando como **/usr/local/neolane/nl6/datakit/nl/eng/jsp**:
+En el equipo en el que está instalado el servidor de aplicaciones de Adobe Campaign (**nlserver web**), recupere el paquete **setup-client-6.XXXX.exe** y cópielo, guardando como **/usr/local/neolane/nl6/datakit/nl/eng/jsp**:
 
 ```
  cp setup-client-6.XXXX.exe /usr/local/neolane/nl6/datakit/nl/eng/jsp
