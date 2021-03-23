@@ -5,10 +5,10 @@ product: campaign
 title: Documentación del producto Adobe Campaign Classic
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 91313fdc7aed6597d8d54d65b747c835e0cd9ccb
+source-git-commit: 5097eea4cf842b93af77ee828693f76a7182a8fe
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 83%
+source-wordcount: '300'
+ht-degree: 82%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 83%
 
 * **[¿Conexión a través de IMS/ID de Adobe? Actualice a las últimas versiones](integrations/using/about-adobe-id.md)**<br/> Si utiliza IMS para conectarse a Campaign, debe actualizarlo para poder conectarse a Campaign después del** 30 de junio de 2021 **.
 
-* **[Proteja sus instancias de Campaign](https://helpx.adobe.com/es/campaign/kb/sms-connector-protocol-and-settings.html)**<br/> Actualice a las últimas compilaciones para proteger su plataforma de Campaign.
+* **[Proteja sus instancias de Campaign](technotes/acc-config-updates.md)**<br/> Actualice a las últimas compilaciones para proteger su plataforma de Campaign.
 
 * **[Eliminación de rebotes duros incorrectos](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Obtenga información sobre cómo actualizar los rebotes duros incorrectos tras la interrupción de Gmail
 
@@ -88,6 +88,6 @@ ht-degree: 83%
 | [Notas de la versión](/help/rn/using/latest-release.md) | [Lista de mensajes de error](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Videotutoriales](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es) | [Modelo de datos de Campaign](configuration/using/about-data-model.md) |
 | [Matriz de compatibilidad](rn/using/compatibility-matrix.md) | [JSAPI de Campaign](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
-| [Actualización a Gold Standard ](https://helpx.adobe.com/es/campaign/kb/gold-standard.html) | [Guía de seguimiento](https://helpx.adobe.com/es/campaign/kb/acc-tracking.html) |
+| [[!DNL Gold Standard] actualización](rn/using/gs-overview.md) | [Guía de seguimiento](https://helpx.adobe.com/es/campaign/kb/acc-tracking.html) |
 | [Funciones obsoletas](rn/using/deprecated-features.md) | [Lista de comprobación de seguridad y privacidad](https://helpx.adobe.com/es/campaign/kb/acc-security.html) |
 | [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es) | [Directrices de monitorización](production/using/monitoring-guidelines.md) |
