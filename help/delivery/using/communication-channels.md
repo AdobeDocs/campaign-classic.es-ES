@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 translation-type: tm+mt
-source-git-commit: 44f2aed49a12d51bb3b38f304e6b922f0faf68cc
+source-git-commit: 8bf1b5b1a6763cf933d86f2af61b2bb68e870222
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1204'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ Las funciones principales incluyen establecimiento de objetivos, definición y p
 
 >[!NOTE]
 >
->Adobe Campaign ofrece un conjunto de herramientas para supervisar su capacidad de envío y optimizar la entrega por correo electrónico. Para obtener más información, consulte [Introducción a las entregas](../../delivery/using/deliverability-key-points.md) y [Gestión de envíos](../../delivery/using/about-deliverability.md).
+>Adobe Campaign ofrece un conjunto de herramientas para supervisar su capacidad de envío y optimizar la entrega por correo electrónico. Obtenga más información en [esta sección](../../delivery/using/about-deliverability.md).
 
 El envío puede automatizarse al preparar una entrega o al enviarlo en el proceso de un flujo de trabajo. Para obtener más información sobre las actividades de tipo envío en los flujos de trabajo, consulte [esta sección](../../workflow/using/about-action-activities.md).
 
