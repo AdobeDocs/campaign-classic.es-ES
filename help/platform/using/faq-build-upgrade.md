@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
+source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
-source-wordcount: '2015'
-ht-degree: 100%
+source-wordcount: '2034'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign se actualiza periódicamente. Si conoce nuestras [Notas de la ver
 
 Es fundamental que nuestros clientes usen la versión más reciente de Adobe Campaign. Esto permite a Adobe ayudarle de manera mucho más eficiente en caso de que se produzcan problemas: identificar, reproducir y corregir un problema en una compilación antigua suele llevar más tiempo, sin mencionar que algunos problemas pueden haberse corregido ya en una versión reciente.
 
-Por lo tanto, iniciamos el programa [Gold Standard](https://helpx.adobe.com/es/campaign/kb/gold-standard.html) para colaborar con nuestros clientes a fin de actualizar de manera proactiva y regular sus entornos.
+[!DNL Gold Standard] es la versión de soporte a largo plazo de Campaign Classic. Como usuario [!DNL Gold Standard] alojado, se beneficia automáticamente de la actualización [!DNL Gold Standard] con la última versión estable sin ninguna acción. Los clientes locales e híbridos también pueden beneficiarse de las versiones [!DNL Gold Standard]. Si migra desde una versión antigua, le recomendamos que la actualice primero a esta versión. [Más información](../../rn/using/gs-overview.md).
 
 ## ¿Qué es una actualización de compilación?
 
@@ -209,4 +209,4 @@ que todo el contenido se muestra y está presente.
 * [Realización de una actualización de versión](../../production/using/build-upgrade.md)
 * [Notas de la versión de Campaign Classic ](../../rn/using/rn-overview.md)
 * [Opciones de ayuda y asistencia para Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html)
-* [Programa Gold Standard](https://helpx.adobe.com/campaign/kb/gold-standard.html)
+* [[!DNL Gold Standard] programa](../../rn/using/gs-overview.md)
