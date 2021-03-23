@@ -6,11 +6,11 @@ description: Aprenda a comprender los errores de entrega
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: ht
-source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
-workflow-type: ht
-source-wordcount: '2572'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+workflow-type: tm+mt
+source-wordcount: '2580'
+ht-degree: 99%
 
 ---
 
@@ -205,7 +205,7 @@ Un mensaje puede fallar inmediatamente (error sincrónico), o más tarde, despu�
    >
    >La configuración del buzón de rechazos se detalla en [esta sección](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
 
-   El [bucle de comentarios](../../delivery/using/technical-recommendations.md#feedback-loop) funciona como los correos electrónicos rechazados. Cuando un usuario clasifica un correo electrónico como correo no deseado, puede configurar las reglas de correo en Adobe Campaign para bloquear todas las entregas a este usuario. Los mensajes enviados a los usuarios que han clasificado un correo electrónico como no deseado se redireccionan automáticamente a una bandeja de correo creada específicamente para este fin. Las direcciones de estos usuarios se incluyen en la lista de bloqueados aunque no hayan hecho clic en el vínculo de baja. Las direcciones se incluyen en la lista de bloqueados en la tabla de cuarentena (**NmsAddress**) en vez de en la tabla de destinatarios (**NmsRecipient**).
+   El [bucle de comentarios](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) funciona como los correos electrónicos rechazados. Cuando un usuario clasifica un correo electrónico como correo no deseado, puede configurar las reglas de correo en Adobe Campaign para bloquear todas las entregas a este usuario. Los mensajes enviados a los usuarios que han clasificado un correo electrónico como no deseado se redireccionan automáticamente a una bandeja de correo creada específicamente para este fin. Las direcciones de estos usuarios se incluyen en la lista de bloqueados aunque no hayan hecho clic en el vínculo de baja. Las direcciones se incluyen en la lista de bloqueados en la tabla de cuarentena (**NmsAddress**) en vez de en la tabla de destinatarios (**NmsRecipient**).
 
    >[!NOTE]
    >
@@ -230,10 +230,12 @@ En el caso de instalaciones on-premise e instalaciones alojadas/híbridas que ut
 >Para instalaciones hospedadas o híbridas, si ha actualizado al [servidor de correo mejorado](../../delivery/using/sending-with-enhanced-mta.md):
 >
 >* Las cualificaciones de rechazo de la tabla **[!UICONTROL Delivery log qualification]** ya no se utilizan para los mensajes de error de envío **síncronos**. El servidor de correo mejorado determina el tipo de rechazo y la calificación, y envía esa información a Campaign.
->
->* Las devoluciones **asíncronas** siguen siendo calificadas por el proceso inMail a través de las reglas de **[!UICONTROL Inbound email]**. Para obtener más información, consulte [Reglas de gestión de correo electrónico](#email-management-rules).
->
->* En el caso de instancias que utilicen el servidor de correo mejorado **sin Webhooks/EFS**, las reglas de **[!UICONTROL Inbound email]** también se utilizan para procesar los correos electrónicos rechazados síncronos procedentes del servidor de correo mejorado, utilizando la misma dirección de correo electrónico que para los correos electrónicos rechazados asíncronos.
+   >
+   >
+* Las devoluciones **asíncronas** siguen siendo calificadas por el proceso inMail a través de las reglas de **[!UICONTROL Inbound email]**. Para obtener más información, consulte [Reglas de gestión de correo electrónico](#email-management-rules).
+   >
+   >
+* En el caso de instancias que utilicen el servidor de correo mejorado **sin Webhooks/EFS**, las reglas de **[!UICONTROL Inbound email]** también se utilizan para procesar los correos electrónicos rechazados síncronos procedentes del servidor de correo mejorado, utilizando la misma dirección de correo electrónico que para los correos electrónicos rechazados asíncronos.
 
 
 En el caso de instalaciones on-premise e instalaciones alojadas/híbridas que utilizan el servidor de correo de Campaign heredado, cuando se produce un error en el envío de un correo electrónico, el servidor de envío de Adobe Campaign recibe un mensaje de error del servidor de mensajería o del servidor DNS remoto. La lista de errores se compone de cadenas de caracteres incluidas en el mensaje rechazado por el servidor remoto. Los tipos y los motivos del error se asignan a cada mensaje.
