@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 100%
+source-wordcount: '758'
+ht-degree: 95%
 
 ---
 
@@ -41,9 +41,9 @@ Como usuario experto, puede configurar las funcionalidades de seguimiento en la 
 
 ## ¿Cómo configurar la entrega del correo electrónico? {#how-to-configure-email-deliverability-}
 
-Además de la sección de [Configuración de la capacidad de envío](../../delivery/using/about-deliverability.md#configuration), lea las recomendaciones técnicas de la capacidad de envío para comprender cómo configurar la instancia a fin de maximizar las capacidades de envío de Campaign.
+Además de la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html), lea las recomendaciones técnicas de envío para comprender cómo configurar su instancia para maximizar las funcionalidades de entrega de Campaign.
 
-[Haga clic aquí para obtener más información](../../delivery/using/technical-recommendations.md).
+[Haga clic aquí para obtener más información](../../delivery/using/about-deliverability.md).
 
 ## ¿Cómo puedo implementar la aprobación de contenido? {#how-can-i-implement-content-approval-}
 
