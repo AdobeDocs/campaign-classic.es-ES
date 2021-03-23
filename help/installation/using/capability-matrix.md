@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 38%
+source-wordcount: '296'
+ht-degree: 36%
 
 ---
 
@@ -56,5 +56,5 @@ Adobe Campaign proporciona la opción **Acceso de Datos Federados** (FDA) para p
 * [Notas de la versión](../../rn/using/latest-release.md)
 * [actualizaciones de Campaign Classic](../../rn/using/rn-overview.md)
 * [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md)
-* [Versiones Gold Standard](../../rn/using/gold-standard.md)
-* [Programa Gold Standard](https://helpx.adobe.com/es/campaign/kb/gold-standard.html)
+* [[!DNL Gold Standard] versiones](../../rn/using/gold-standard.md)
+* [[!DNL Gold Standard] programa](../../rn/using/gs-overview.md)
