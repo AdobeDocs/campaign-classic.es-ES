@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '711'
 ht-degree: 8%
 
 ---
@@ -23,24 +23,24 @@ Consulte las [Notas de la versión](../../rn/using/latest-release.md) para obten
 
 ## Hardware e infraestructura {#hardware-and-infrastructure}
 
-En esta [página](https://helpx.adobe.com/es/campaign/kb/hardware-sizing-guide.html) se detallan las directrices generales para los requisitos de hardware para el Campaign Classic local.
+Las directrices generales para los requisitos de hardware para el Campaign Classic local se detallan en esta [página](https://helpx.adobe.com/es/campaign/kb/hardware-sizing-guide.html).
 
-El equipo de consultoría puede proporcionar a los clientes alojados una herramienta que le permite realizar vistas sencillas sobre el espacio que utilizan los distintos tipos de tablas de la base de datos, así como sobre el espacio utilizado en el sitio SFTP. Además, proporciona herramientas que le permiten limpiar datos innecesarios. Póngase en contacto con [Adobe Customer Care](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) si necesita implementar esta herramienta. A continuación se indican algunos aspectos importantes que hay que comprobar con esta herramienta:
+El equipo de consultoría puede proporcionar a los clientes alojados una herramienta que le permite ver fácilmente cuánto espacio utilizan los distintos tipos de tablas de la base de datos, así como el espacio utilizado en el sitio SFTP. Además, proporciona herramientas que le permiten limpiar datos innecesarios. Póngase en contacto con [Adobe Customer Care](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) si necesita implementar esta herramienta. Estas son algunas cosas importantes que debe comprobar mediante esta herramienta:
 
-* Si el tamaño de índice es mayor que el tamaño de tabla, se requiere un vacío.
-* Compruebe las tablas que tienen el máximo brillo. Si estas tablas se utilizan con frecuencia, deben aspirarse.
-* El bloqueo de la base de datos puede hacer que los mensajes de correo electrónico dejen de enviarse.
+* Si el tamaño del índice es mayor que el tamaño de la tabla, se requiere un vacío.
+* Compruebe las tablas que tienen el máximo peso. Si estas tablas se utilizan con frecuencia, necesitan ser aspiradas.
+* El bloqueo de bases de datos puede hacer que los correos electrónicos dejen de enviarse.
 
-Adobe Campaign también proporciona una [herramienta](../../production/using/monitoring-processes.md#manual-monitoring) para comprobar el uso de CPU y RAM. Utilice esta herramienta y observe indicadores específicos como: **Memoria**, **Intercambiar memoria**, **Disco**, **Procesos activos**. Si los valores son demasiado altos, puede intentar reducir el número de flujos de trabajo o programar flujos de trabajo a inicios en diferentes momentos.
+Adobe Campaign también proporciona una [herramienta](../../production/using/monitoring-processes.md#manual-monitoring) para comprobar el uso de la CPU y la RAM. Utilice esta herramienta y observe indicadores específicos como: **Memoria**, **Intercambiar memoria**, **Disco**, **Procesos activos**. Si los valores son demasiado altos, puede intentar reducir el número de flujos de trabajo o programar flujos de trabajo para que se inicien en momentos diferentes.
 
-## Comprobación de base de datos {#database-performances}
+## Comprobación de la base de datos {#database-performances}
 
 La mayoría de las veces, los problemas de rendimiento están vinculados al mantenimiento de la base de datos. Estos son los elementos principales para comprobar:
 
-* Configuración: recomendamos comprobar la configuración inicial de la plataforma Adobe Campaign y ejecutar una comprobación completa de hardware.
-* Instalación y configuración de la plataforma Adobe Campaign: compruebe las opciones de configuración de red y de entrega de plataforma.
-* Mantenimiento de la base de datos: asegúrese de que la tarea de limpieza de la base de datos está en funcionamiento y de que el mantenimiento de la base de datos está correctamente programado y ejecutado. Compruebe el número y el tamaño de las tablas de trabajo.
-* Diagnóstico en tiempo real: compruebe el proceso y los archivos de registro de la plataforma y, a continuación, supervise la actividad de la base de datos mientras vuelve a crear el problema.
+* Configuración: recomendamos comprobar la configuración inicial de la plataforma Adobe Campaign y ejecutar una comprobación de hardware completa.
+* Instalación y configuración de la plataforma Adobe Campaign: compruebe las opciones de configuración de red y envío de plataforma.
+* Mantenimiento de la base de datos: asegúrese de que la tarea de limpieza de la base de datos esté operativa y de que el mantenimiento de la base de datos esté correctamente programado y se ejecute. Compruebe el número y el tamaño de las tablas de trabajo.
+* Diagnóstico en tiempo real: compruebe los archivos de registro de proceso y plataforma y, a continuación, supervise la actividad de la base de datos mientras vuelve a crear el problema.
 
 >[!NOTE]
 >
@@ -48,23 +48,23 @@ La mayoría de las veces, los problemas de rendimiento están vinculados al mant
 
 ## Configuración de la aplicación {#application-configuration}
 
-A continuación se muestra una lista de los artículos relacionados con las optimizaciones de configuración de la aplicación:
+A continuación se muestra una lista de artículos relacionados con las prácticas recomendadas de configuración de aplicaciones:
 
-* Procesos y memoria MTA y MTAChild: el módulo **mta** distribuye mensajes a sus **módulos secundarios**. Cada **mtachild** prepara mensajes antes de solicitar una autorización del servidor de estadísticas y enviarlos. Consulte esta [página](../../installation/using/email-deliverability.md) para obtener más información.
-* Configuración TLS: no se recomienda habilitar TLS de forma global porque puede reducir el rendimiento. En su lugar, la configuración de TLS por dominio, administrada por el equipo de entregabilidad, debe ajustarse según las necesidades. Consulte esta [página](../../installation/using/email-deliverability.md#mx-configuration) para obtener más información.
-* DKIM: para asegurar el nivel de seguridad del DKIM, 1024b es el tamaño de codificación recomendado de optimizaciones. La mayoría de los proveedores de acceso no consideran válidas las claves DKIM menores. Consulte esta [página](../../delivery/using/technical-recommendations.md#dkim) y esta [nota técnica](https://helpx.adobe.com/es/campaign/kb/domain-name-delegation.html).
+* Procesos y memoria MTA y MTAChild: el módulo **mta** distribuye mensajes a sus módulos secundarios **mtachild**. Cada **mtachild** prepara los mensajes antes de solicitar una autorización al servidor de estadísticas y enviarlos. Consulte esta [página](../../installation/using/email-deliverability.md) para obtener más información.
+* Configuración de TLS: no se recomienda habilitar TLS globalmente porque puede reducir el rendimiento. En su lugar, la configuración de TLS por dominio, administrada por el equipo de entrega, debe ajustarse según las necesidades. Consulte esta [página](../../installation/using/email-deliverability.md#mx-configuration) para obtener más información.
+* DKIM: para asegurar el nivel de seguridad del DKIM, el tamaño de cifrado recomendado es 1024b. La mayoría de los proveedores de acceso no consideran válidas las claves DKIM menores. Consulte [esta página](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
 
 ## Problemas con entregas {#deliverability-issues}
 
-A continuación se muestra una lista de las prácticas recomendadas y los artículos relacionados con la posibilidad de entrega:
+Esta es una lista de prácticas recomendadas y artículos relacionados con la capacidad de envío:
 
-* Conocimiento de IP: si la reputación de IP no es lo suficientemente buena, habrá un impacto en el rendimiento. El módulo **de supervisión de la entrega** oferta varias herramientas para rastrear el rendimiento de la entrega de la plataforma. Consulte [esta página](../../delivery/using/monitoring-deliverability.md).
-* calentamiento de IP: el equipo de entrega realiza el calentamiento de IP. Esto implica un aumento gradual del número de correos electrónicos a través de nuevas direcciones IP durante un período de pocas semanas.
-* Configuración de afinidad IP: una configuración de afinidad IP incorrecta puede detener los mensajes de correo electrónico por completo (nombre de operador/afinidad incorrecto en la configuración) o reducir el rendimiento (número reducido de IP en la afinidad). Consulte [esta página](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use).
-* Tamaño del correo electrónico: el tamaño del correo electrónico juega un papel importante en el rendimiento. El tamaño máximo recomendado de correo electrónico es de 60 KB. Consulte [esta página](https://helpx.adobe.com/legal/product-descriptions/campaign.html). En el informe [rendimiento del Envío](../../reporting/using/global-reports.md#delivery-throughput), compruebe el número de bytes transferidos por hora.
+* Conocimiento de IP: si la reputación de la IP no es lo suficientemente buena, habrá un impacto en el rendimiento. El módulo **Deliverability Monitoring** ofrece varias herramientas para rastrear el rendimiento de envío de su plataforma. Consulte [esta página](../../delivery/using/monitoring-deliverability.md).
+* Calificación de IP: el equipo de entrega realiza la preparación de la IP. Esto implica aumentar gradualmente el número de correos electrónicos a través de nuevas direcciones IP durante un periodo de pocas semanas.
+* Configuración de afinidad IP: una configuración de afinidad de IP incorrecta puede detener los correos electrónicos por completo (nombre de operador/afinidad incorrecto en la configuración) o reducir el rendimiento (número pequeño de IP en la afinidad). Consulte [esta página](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use).
+* Tamaño del correo electrónico: el tamaño del correo electrónico juega un papel importante en el rendimiento. El tamaño máximo recomendado del correo electrónico es de 60 KB. Consulte [esta página](https://helpx.adobe.com/legal/product-descriptions/campaign.html). En el informe [Delivery throughput](../../reporting/using/global-reports.md#delivery-throughput), compruebe el número de bytes transferidos por hora.
 * Gran número de destinatarios no válidos: cuando hay un gran número de destinatarios no válidos, puede afectar al rendimiento. El MTA sigue reintentando enviar correos electrónicos a destinatarios no válidos. Asegúrese de que la base de datos esté bien mantenida.
-* Cantidad de personalización: si un envío permanece en &quot;Personalización en curso&quot;, compruebe el JavaScript utilizado en bloques de personalización.
+* Cantidad de personalización: si una entrega permanece en &quot;Personalization in progress&quot;, compruebe el JavaScript utilizado en los bloques de personalización.
 
 >[!NOTE]
 >
->Consulte también la sección [Puntos clave de entrega](../../delivery/using/deliverability-key-points.md).
+>Consulte también la sección [Deliverability](../../delivery/using/about-deliverability.md). Para profundizar en la capacidad de envío, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
