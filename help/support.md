@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: latest-release-notes
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 3a65bc08fd3b6cedfd7ef05a51fd8378f19daa85
+source-git-commit: 1d9c96d1cd8ba2a8099271165a1671d5589230fb
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 60%
+source-wordcount: '686'
+ht-degree: 63%
 
 ---
 
@@ -38,50 +38,58 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
 
 ¿Cómo actualizar a una nueva compilación? ¿Cómo monitorizar la ejecución del flujo de trabajo? ¿Qué es el flujo de trabajo para limpieza de bases de datos? [Lea las 10 preguntas principales](platform/using/common-questions.md).
 
-### Preguntas y respuestas sobre temas
-
-Lea un conjunto de preguntas y respuestas específicas por temas:
-
-* [Conceptos clave](platform/using/faq-key-concepts.md)
-* [Ajustes de Campaign](platform/using/faq-campaign-config.md)
-* [Creación de informes](platform/using/faq-reporting.md)
-* [Actualización de versión](platform/using/faq-build-upgrade.md)
-* [Prueba, envío y seguimiento de mensajes](platform/using/faq-messages.md)
-* [Flujos de trabajo](platform/using/faq-workflows.md)
-* [Desarrolladores](platform/using/faq-developers.md)
-* [Capacidad de entrega](delivery/using/monitoring-deliverability.md)
-
-### Problemas comunes
-
-* [Problemas de rendimiento y producción](production/using/performance-and-throughput-issues.md)
-* [Rendimiento de envíos](delivery/using/delivery-performances.md)
-* [Optimización del rendimiento de los flujos de trabajo](workflow/using/workflow-best-practices.md)
-* [Solución de problemas de ejecución del flujo de trabajo](workflow/using/monitoring-workflow-execution.md)
-* [Uso del servidor SFTP](platform/using/sftp-server-usage.md)
-* [Comprensión de los errores de entrega](delivery/using/understanding-delivery-failures.md)
-
-### Prácticas recomendadas
-
-* [Prácticas recomendadas de los flujos de trabajo](workflow/using/workflow-best-practices.md)
-* [Monitorización técnica del flujo de trabajo](workflow/using/monitoring-technical-workflows.md)
-* [Comprensión de la administración del seguimiento](delivery/using/about-message-tracking.md)
-* [Herramientas de monitorización de Discover](production/using/monitoring-guidelines.md)
-* [Importación de datos con flujos de trabajo](platform/using/import-export-workflows.md)
-* [Enviar mensajes en varias olas  ](delivery/using/steps-sending-the-delivery.md)
-* [Diseño de contenido de correos electrónicos](delivery/using/defining-the-email-content.md)
-* [Prácticas recomendadas relacionadas con las entregas](delivery/using/delivery-best-practices.md)
-
-### Instrucciones
-
-* [Actualice a la última versión](production/using/build-upgrade.md)
-* [Preguntas frecuentes sobre la actualización de versiones](platform/using/faq-build-upgrade.md)
-* [Monitorización de un envío](delivery/using/about-delivery-monitoring.md)
-* [Comprensión de la administración de cuarentenas](delivery/using/understanding-quarantine-management.md)
-* [Lista de comprobación de seguridad y privacidad](installation/using/get-started-security-privacy.md)
-* [Administración de la privacidad y el consentimiento](platform/using/privacy-management.md)
-* [Diseño de una consulta](platform/using/steps-to-create-a-query.md)
-* [Ejemplos de consultas](workflow/using/querying-recipient-table.md)
-* [Creación de un flujo de trabajo](workflow/using/building-a-workflow.md)
+<table>
+    <tr><td><strong>Preguntas y respuestas sobre temas</strong></td><td><strong>Problemas comunes</strong></td><td><strong>Prácticas recomendadas</strong></td><td><strong>Instrucciones</strong></td></tr>
+    <tr>
+    <td valign="top">
+        <ul>
+        <li><a href="platform/using/faq-key-concepts.md">Conceptos clave</a></li>
+        <li><a href="platform/using/faq-campaign-config.md">Ajustes de Campaign</a></li>
+        <li><a href="platform/using/faq-reporting.md">Creación de informes</a></li>
+        <li><a href="platform/using/faq-build-upgrade.md">Actualización de versión</a></li>
+        <li><a href="platform/using/faq-messages.md">Prueba, envío y seguimiento de mensajes</a></li>
+        <li><a href="platform/using/faq-workflows.md">Flujos de trabajo</a></li>
+        <li><a href="platform/using/faq-developers.md">Desarrolladores</a></li>
+        <li><a href="delivery/using/monitoring-deliverability.md">Capacidad de entrega</a></li>
+        </ul>
+    </td>
+    <td valign="top">
+        <ul>
+        <li><a href="production/using/performance-and-throughput-issues.md">Problemas de rendimiento y producción</a></li>
+        <li><a href="delivery/using/delivery-performances.md">Rendimiento de envíos</a></li>
+        <li><a href="workflow/using/workflow-best-practices.md">Optimización del rendimiento de los flujos de trabajo</a></li>
+        <li><a href="workflow/using/monitoring-workflow-execution.md">Solución de problemas de ejecución del flujo de trabajo</a></li>
+        <li><a href="platform/using/sftp-server-usage.md">Uso del servidor SFTP</a></li>
+        <li><a href="delivery/using/understanding-delivery-failures.md">Comprensión de los errores de entrega</a></li>
+        </ul>
+    </td>
+   <td valign="top">
+        <ul>
+        <li><a href="workflow/using/workflow-best-practices.md">Prácticas recomendadas de los flujos de trabajo</a></li>
+        <li><a href="workflow/using/monitoring-technical-workflows.md">Monitorización técnica del flujo de trabajo</a></li>
+        <li><a href="delivery/using/about-message-tracking.md">Comprensión de la administración del seguimiento</a></li>
+        <li><a href="production/using/monitoring-guidelines.md">Herramientas de monitorización de Discover</a></li>
+        <li><a href="platform/using/import-export-workflows.md">Importación de datos con flujos de trabajo</a></li>
+        <li><a href="delivery/using/steps-sending-the-delivery.md">Enviar mensajes en varias olas</a></li>
+        <li><a href="delivery/using/defining-the-email-content.md">Diseño de contenido de correos electrónicos</a></li>
+        <li><a href="delivery/using/delivery-best-practices.md">Prácticas recomendadas relacionadas con las entregas</a></li>
+        </ul>
+    </td>
+    <td valign="top">
+        <ul>
+        <li><a href="production/using/build-upgrade.md">Actualice a la última versión</a></li>
+        <li><a href="platform/using/faq-build-upgrade.md">Preguntas frecuentes sobre la actualización de versiones</a></li>
+        <li><a href="delivery/using/about-delivery-monitoring.md">Monitorización de un envío</a></li>
+        <li><a href="delivery/using/understanding-quarantine-management.md">Comprensión de la administración de cuarentenas</a></li>
+        <li><a href="installation/using/get-started-security-privacy.md">Lista de comprobación de seguridad y privacidad</a></li>
+        <li><a href="platform/using/privacy-management.md">Administración de la privacidad y el consentimiento</a></li>
+        <li><a href="platform/using/steps-to-create-a-query.md">Diseño de una consulta</a></li>
+        <li><a href="workflow/using/querying-recipient-table.md">Ejemplos de consultas</a></li>
+        <li><a href="workflow/using/building-a-workflow.md">Creación de un flujo de trabajo</a></li>
+        </ul>
+    </td>
+    </tr>
+</table>
 
 ## Panel de control de Campaign {#control-panel}
 
@@ -130,17 +138,11 @@ El nuevo sistema de tickets se ha iniciado a través de [Adobe Admin Console](ht
 
 ### Acceso al Centro de descargas de Campaign
 
-A partir de junio de 2020, la solución Software Distribution de Experience Cloud reemplazará al antiguo Centro de descargas de Neolane, y proporcionará una experiencia más eficiente para encontrar y descargar software, paquetes y herramientas.
-
-[](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html)Haga clic aquí para acceder a la distribución de software de Experience Cloud.
+A partir de junio de 2020, la solución Software Distribution de Experience Cloud reemplazará al antiguo Centro de descargas de Neolane, y proporcionará una experiencia más eficiente para encontrar y descargar software, paquetes y herramientas. [](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html)Haga clic aquí para acceder a la distribución de software de Experience Cloud.
 Obtenga más información sobre el nuevo Centro de descargas [en esta página](https://docs.adobe.com/content/heexperience-cloud/software-distribution/home.html).
 
 ### Creación de un ticket o inicio de una conversación
 
-La creación de un caso le permite ponerse en contacto con el equipo del Servicio de atención al cliente de Adobe para conocer cualquier problema que tenga con sus productos de Adobe.
+La creación de un caso le permite ponerse en contacto con el equipo del Servicio de atención al cliente de Adobe para conocer cualquier problema que tenga con sus productos de Adobe. Para ayudarle a resolver sus problemas, Adobe Admin Console le permitirá hablar con el Servicio de atención al cliente de Adobe.
 
-Para ayudarle a resolver sus problemas, Adobe Admin Console le permitirá hablar con [Asistencia al cliente de Adobe](https://adminconsole.adobe.com/overview).
-
-Para registrar un problema o iniciar una sesión de chat en ese nuevo sistema, conéctese a [Adobe Admin Console](https://adminconsole.adobe.com/overview).
-
-Siga el procedimiento detallado descrito en [esta página](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+Para registrar un problema o iniciar una sesión de chat en ese nuevo sistema, conéctese a [Adobe Admin Console](https://adminconsole.adobe.com/overview). Siga el procedimiento detallado descrito en [esta página](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
