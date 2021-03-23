@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 translation-type: tm+mt
-source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
+source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '768'
 ht-degree: 27%
 
 ---
@@ -57,7 +57,7 @@ Para mejorar la seguridad, en la versión 19.1.4 (9032@3a9dc9c) se ha introducid
 >
 >Cuando se hace clic en una dirección URL firmada con formato incorrecto, se obtiene el siguiente error: &quot;No se encontró la dirección URL solicitada &#39;... &#39;.&quot;
 
-Además, a partir de Campaign 20.2 y la versión Gold Standard, los clientes alojados e híbridos pueden utilizar una mejora para deshabilitar las direcciones URL generadas a partir de compilaciones anteriores. Esta opción está desactivada de forma predeterminada. Puede ponerse en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para habilitar esta función.
+Además, a partir de la versión 20.2 y [!DNL Gold Standard] de Campaign, los clientes alojados e híbridos pueden utilizar una mejora para deshabilitar las direcciones URL generadas a partir de compilaciones anteriores. Esta opción está desactivada de forma predeterminada. Puede ponerse en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para habilitar esta función.
 
 Para activar este nuevo mecanismo, los clientes locales deben seguir estos pasos en todos los servidores de Campaign:
 
@@ -65,7 +65,7 @@ Para activar este nuevo mecanismo, los clientes locales deben seguir estos pasos
 1. Reinicie el servicio **nlserver**.
 1. En el servidor de seguimiento, reinicie el servidor web (apache2 en Debian, httpd en CentOS/RedHat, IIS en Windows).
 
-Los clientes que ejecutan Gold Standard 19.1.4 pueden experimentar problemas con los envíos de notificaciones push mediante el vínculo de seguimiento o con los envíos que utilizan etiquetas de anclaje. Si es así, Adobe recomienda desactivar el nuevo mecanismo de firma para el seguimiento de vínculos:
+Los clientes que ejecutan [!DNL Gold Standard] 19.1.4 pueden experimentar problemas con los envíos de notificaciones push mediante el vínculo de seguimiento o con los envíos que utilizan etiquetas de anclaje. Si es así, Adobe recomienda desactivar el nuevo mecanismo de firma para el seguimiento de vínculos:
 
 **Los** clientes alojados e híbridos deben ponerse en contacto con el  [Servicio de ](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) atención al cliente para deshabilitar este mecanismo.
 
