@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 8bf1b5b1a6763cf933d86f2af61b2bb68e870222
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 100%
@@ -50,7 +50,7 @@ Para llegar a la bandeja de entrada de sus destinatarios sin rebotar ni ser marc
 
    * Al comprobar la tasa de envíos de sus correos electrónicos, debe centrarse en cuatro categorías principales: calidad de los datos, mensaje y contenido, infraestructuras de envío y reputación. Para profundizar en este tema, consulte [esta sección](../../delivery/using/about-deliverability.md).
 
-* Aplique las recomendaciones detalladas [en este documento](../../delivery/using/deliverability-key-points.md).
+* Aplique las recomendaciones detalladas [en este documento](../../delivery/using/about-deliverability.md).
 
 * Póngase en contacto con su representante de Adobe para obtener ayuda.
 
