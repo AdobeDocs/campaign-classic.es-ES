@@ -6,11 +6,11 @@ description: Comprensión de la gestión de la cuarentena
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: ht
-source-git-commit: 22f44f5723ab35e95caa438583fe06314c763ba1
-workflow-type: ht
-source-wordcount: '2605'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+workflow-type: tm+mt
+source-wordcount: '2613'
+ht-degree: 98%
 
 ---
 
@@ -70,7 +70,7 @@ La siguiente información está disponible para cada dirección:
 >El aumento del número de cuarentenas es un efecto normal, relacionado con el “desgaste” de la base de datos. Por ejemplo, si se considera que la duración de una dirección de correo electrónico es de tres años y la lista de distribución aumenta en un 50 % cada año, el aumento de la cuarentena se puede calcular de la siguiente manera:
 >
 >Fin de año 1: (1*0,33)/(1+0,5) = 22 %.
->Fin de año 2: ((1,22*0,33)+0,33)/(1,5+0,75) = 32,5 %.
+Fin de año 2: ((1,22*0,33)+0,33)/(1,5+0,75) = 32,5 %.
 
 ### Identificación de direcciones en cuarentena en informes de entrega {#identifying-quarantined-addresses-in-delivery-reports}
 
@@ -113,8 +113,7 @@ Las direcciones se eliminan automáticamente de la lista de cuarentena en los si
 A continuación, su estado cambia a **[!UICONTROL Valid]**.
 
 >[!IMPORTANT]
->
->Los destinatarios con una dirección en un estado **[!UICONTROL Quarantine]** o **[!UICONTROL On denylist]** nunca se eliminarán, aunque reciban un correo electrónico.
+Los destinatarios con una dirección en un estado **[!UICONTROL Quarantine]** o **[!UICONTROL On denylist]** nunca se eliminarán, aunque reciban un correo electrónico.
 
 Puede modificar el número de errores y el periodo entre dos errores. Para ello, cambie la configuración correspondiente en el asistente de implementación (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**). Para obtener más información sobre el asistente de implementación, consulte [esta sección](../../installation/using/deploying-an-instance.md).
 
@@ -126,7 +125,7 @@ Adobe Campaign administra la cuarentena según el tipo de error de entrega y el 
 * **Error grave:** la dirección de correo electrónico correspondiente se envía inmediatamente a la cuarentena.
 * **Error leve**: los errores leves no envían inmediatamente una dirección a la cuarentena, sino que se suman a un contador de errores. Para obtener más información, consulte [Gestión de errores en software](#soft-error-management).
 
-Si un usuario clasifica un correo electrónico como correo no deseado ([bucle de comentarios](../../delivery/using/technical-recommendations.md#feedback-loop)), el mensaje se redirige automáticamente a un buzón de correo técnico administrado por Adobe. A continuación, la dirección de correo electrónico del usuario se envía automáticamente a la cuarentena.
+Si un usuario clasifica un correo electrónico como correo no deseado ([bucle de comentarios](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)), el mensaje se redirige automáticamente a un buzón técnico administrado por el Adobe. A continuación, la dirección de correo electrónico del usuario se envía automáticamente a la cuarentena.
 
 En la lista de direcciones en cuarentena, el campo **[!UICONTROL Error reason]** indica por qué la dirección seleccionada se envía a cuarentena. La cuarentena en Adobe Campaign distingue entre mayúsculas y minúsculas. Asegúrese de importar las direcciones de correo electrónico en minúsculas para que no se redireccionen más adelante.
 
@@ -254,11 +253,10 @@ El flujo de trabajo **[!UICONTROL mobileAppOptOutMgt]** se ejecuta cada 6 horas 
 Durante el análisis de la entrega, todos los dispositivos excluidos del destino se añaden automáticamente a la tabla **excludeLogAppSubRcp**.
 
 >[!NOTE]
->
->Para los clientes que utilicen el conector Baidu, los distintos tipos de errores son:
->* Problema de conexión al principio del envío: tipo de error **[!UICONTROL Undefined]**, motivo del error **[!UICONTROL Unreachable]**, con reintento.
->* Se ha perdido la conexión durante un envío: error de software, motivo del error **[!UICONTROL Refused]**, con reintento.
->* Error sincrónico devuelto por Baidu durante el envío: error de hardware, motivo del error **[!UICONTROL Refused]**, sin reintento.
+Para los clientes que utilicen el conector Baidu, los distintos tipos de errores son:
+* Problema de conexión al principio del envío: tipo de error **[!UICONTROL Undefined]**, motivo del error **[!UICONTROL Unreachable]**, con reintento.
+* Se ha perdido la conexión durante un envío: error de software, motivo del error **[!UICONTROL Refused]**, con reintento.
+* Error sincrónico devuelto por Baidu durante el envío: error de hardware, motivo del error **[!UICONTROL Refused]**, sin reintento.
 
 Adobe Campaign se pone en contacto con el servidor Baidu cada 10 minutos para recuperar el estado del mensaje enviado y actualiza los broadlogs. Si se declara un mensaje como enviado, el estado del mensaje en los broadlogs se establece en **[!UICONTROL Received]**. Si Baidu declara un error, el estado se establece en **[!UICONTROL Failed]**.
 
@@ -415,7 +413,7 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
     <tr> 
    <td> Autenticación: el cliente no tiene autorización para recuperar los token de acceso mediante este método o no está autorizado para ninguno de los ámbitos solicitados.<br /> </td> 
    <td> Fallo<br /> </td> 
-   <td> unauthorized_client </td> 
+   <td> authorized_client </td> 
    <td> Ignorado</td>
    <td> Rechazado<br /> </td> 
    <td> No<br /> </td> 
@@ -455,7 +453,7 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
     <tr> 
    <td> Autenticación: audiencia de ámbito de OAuth o token de ID no válida proporcionada<br /> </td> 
    <td> Fallo<br /> </td> 
-   <td> unauthorized_client</td> 
+   <td> authorized_client</td> 
    <td> Ignorado</td> 
    <td> Rechazado<br /> </td> 
    <td> No<br /> </td> 
@@ -478,8 +476,7 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
 El mecanismo de cuarentena para mensajes SMS es el mismo a nivel global que el proceso general. Consulte [Acerca de las cuarentenas](#about-quarantines). Las particularidades para los SMS se enumeran a continuación.
 
 >[!NOTE]
->
->La tabla **[!UICONTROL Delivery log qualification]** no se aplica al conector **Extended generic SMPP**.
+La tabla **[!UICONTROL Delivery log qualification]** no se aplica al conector **Extended generic SMPP**.
 
 <table> 
  <tbody> 
@@ -537,9 +534,8 @@ El conector SMPP recupera los datos del mensaje de SR (informe de estado) que se
 Antes de que se clasifique un nuevo tipo de error, el motivo del error se establece siempre como **Rechazado** de forma predeterminada.
 
 >[!NOTE]
->
->Los tipos de errores y los motivos del error son los mismos que para los correos electrónicos. Consulte [Tipos y motivos de errores de entrega](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
->Solicite a su proveedor una lista de estados y códigos de error para establecer tipos y motivos de error adecuados para los errores en la tabla de clasificación de registros de entregas.
+Los tipos de errores y los motivos del error son los mismos que para los correos electrónicos. Consulte [Tipos y motivos de errores de entrega](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+Solicite a su proveedor una lista de estados y códigos de error para establecer tipos y motivos de error adecuados para los errores en la tabla de clasificación de registros de entregas.
 
 Ejemplo de mensaje generado:
 
