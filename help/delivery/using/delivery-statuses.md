@@ -6,11 +6,11 @@ description: Obtenga más información sobre los estados disponibles en su panel
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: ht
-source-git-commit: 29801740c10dc182bdb5f00114298d04385a3e1b
-workflow-type: ht
-source-wordcount: '617'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8bf1b5b1a6763cf933d86f2af61b2bb68e870222
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 94%
 
 ---
 
@@ -87,7 +87,7 @@ Para obtener más información sobre los diferentes errores de entrega que puede
  </tbody> 
 </table>
 
-Para aprender a optimizar la entrega de los correos electrónicos de Adobe Campaign, consulte la [Guía de prácticas recomendadas de entrega](../../delivery/using/deliverability-key-points.md) de Adobe Campaign y [esta página](../../delivery/using/about-deliverability.md).
+Para aprender a optimizar la entrega de los correos electrónicos de Adobe Campaign, consulte [esta sección](../../delivery/using/about-deliverability.md). Para profundizar en la capacidad de envío, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
 ## Estado pendiente {#pending-status}
 
