@@ -6,17 +6,17 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+source-git-commit: 53e239c04f9c4239a5c32e4f25549cbc5f6ece50
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 
 # Seguimiento y monitorización {#track-and-monitor}
 
-¿Ha hecho clic en el botón Enviar? Veamos qué pasa. Una vez entregado el envío, Adobe Campaign le permite realizar un seguimiento de los mensajes enviados y descubrir cómo reaccionan sus destinatarios al envío. Esto le ayudará a mejorar los envíos futuros y a optimizar sus próximas campañas.
+¿Ha hecho clic en el botón **Send**? Veamos qué pasa. Una vez entregado el envío, Adobe Campaign le permite realizar un seguimiento de los mensajes enviados y descubrir cómo reaccionan sus destinatarios al envío. Esto le ayudará a mejorar los envíos futuros y a optimizar sus próximas campañas.
 
 ## Seguimiento de entregas {#monitoring-deliveries}
 
