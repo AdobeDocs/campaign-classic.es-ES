@@ -6,7 +6,7 @@ description: Nota técnica
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 01f4e4ee841a797f4be61ffc01096b7f651ce963
+source-git-commit: bdd746120f2162cf48eeb9d519513656bd4e75aa
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 14%
@@ -29,7 +29,7 @@ Por motivos de seguridad, debe actualizar a una de las versiones que se indican 
 >Para cualquier pregunta acerca de estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 
-## Actualizaciones de seguridad
+## Actualizaciones de seguridad {#acc-security-updates}
 
 Las últimas versiones de Campaign incluyen una corrección de seguridad que refuerza la protección contra los problemas de falsificación de solicitudes del lado del servidor (SSRF). Obtenga más información [en esta página](https://helpx.adobe.com/security/products/campaign/apsb21-04.html).
 
@@ -62,7 +62,7 @@ Debe actualizar a una de las compilaciones más recientes que se enumeran arriba
 >Si no puede actualizar dentro del intervalo de tiempo recomendado, **debe ponerse en contacto con el equipo de atención al cliente de Adobe para aplicar una corrección de seguridad manual a corto plazo en las instancias**.
 
 
-## Actualización de la consola del cliente del Campaign Classic
+## Actualización de la consola del cliente del Campaign Classic {#acc-cc-updates}
 
 Las **ahora disponibles** versiones de la consola que se muestran a continuación deben instalarse para resolver una regresión identificada recientemente. Esta regresión impedía el uso de algunos componentes de la consola del cliente, como el selector de fechas y la administración de imágenes en los envíos. **La** actualización de la consola es obligatoria.
 
@@ -105,7 +105,7 @@ Una vez actualizadas todas las instancias, la consola de cliente también debe a
 
 * [Obtenga información sobre cómo instalar Campaign Client Console](../installation/using/installing-the-client-console.md).
 
-## Integración con Déclencheur de Experience Cloud
+## Integración con los Déclencheur del Experience Cloud {#acc-triggers-updates}
 
 El servicio de autenticación oAuth heredado ha llegado al final de su vida útil. La autenticación de integración de déclencheur, basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización, se ha trasladado a Adobe I/O. Se retirará el **30 de noviembre de 2021**. [Más información](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email).
 
@@ -131,7 +131,7 @@ Además, en el caso de entornos híbridos, los clientes deben asegurarse de que 
 
 [Descubra más información sobre cómo migrar a Adobe I/O](../integrations/using/configuring-adobe-io.md).
 
-## Actualizaciones de APNS
+## Actualizaciones de APNS {#acc-apns-updates}
 
 ### API de proveedor de APNS basada en HTTP/2
 
