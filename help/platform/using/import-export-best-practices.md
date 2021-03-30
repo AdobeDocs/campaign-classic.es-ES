@@ -7,10 +7,10 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: a2a99135bdd74d87c04262b53e074b6aa05e7915
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ No dé por hecho que los datos entrantes son coherentes y correctos, o que el de
 
 Un ejemplo de una plantilla de flujo de trabajo genérica diseñada para importar datos está disponible en el [Ejemplo: Plantilla de flujo de trabajo para importar la sección datos](../../platform/using/creating-import-export-templates.md).
 
-## Uso de formatos de archivo plano {#using-flat-file-formats}
+## Usar formatos de archivo plano {#using-flat-file-formats}
 
 El formato más eficaz para las importaciones es un archivo plano. Los archivos planos se pueden importar en modo masivo a nivel de base de datos.
 
@@ -52,7 +52,7 @@ Smith;Clara;08/02/1989;hayden.smith@example.com;124567
 Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ```
 
-## Uso de compresión {#using-compression}
+## Utilizar compresión {#using-compression}
 
 Utilice archivos comprimidos para importar y exportar cuando sea posible. GZIP es compatible de forma predeterminada. Puede añadir preprocesamiento al importar archivos o posprocesamiento al extraer datos, respectivamente, en las actividades de flujo de trabajo **[!UICONTROL Load file]** y **[!UICONTROL Extract file]**.
 
@@ -61,13 +61,13 @@ Utilice archivos comprimidos para importar y exportar cuando sea posible. GZIP e
 * [Actividad de carga de datos (archivo)](../../workflow/using/data-loading--file-.md)
 * [Actividad de extracción de datos (archivo)](../../workflow/using/extraction--file-.md)
 
-## Importación en modo Delta {#importing-in-delta-mode}
+## Importar en modo Delta {#importing-in-delta-mode}
 
 Las importaciones regulares deben realizarse en modo delta. Esto significa que solo se envían datos modificados o nuevos a Adobe Campaign, en lugar de toda la tabla de una sentada.
 
 Las importaciones completas deben utilizarse únicamente para la carga inicial.
 
-## Mantenimiento de la coherencia {#maintaining-consistency}
+## Mantener coherencia {#maintaining-consistency}
 
 Para mantener la coherencia de los datos en la base de datos de Adobe Campaign, siga los principios siguientes:
 
