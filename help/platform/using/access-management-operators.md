@@ -3,14 +3,14 @@ solution: Campaign Classic
 product: campaign
 title: Introducción a los operadores de Campaign
 description: Obtenga información sobre cómo crear y administrar usuarios de campañas
-audience: platform
-content-type: reference
-topic-tags: administration-basics
+feature: Gestión de acceso
+role: Profesional empresarial, administrador
+level: Principiante
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 97%
+source-wordcount: '1152'
+ht-degree: 96%
 
 ---
 
