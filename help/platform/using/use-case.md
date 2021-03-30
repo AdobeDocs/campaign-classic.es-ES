@@ -7,17 +7,17 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 
 # Ejemplo de uso{#use-case}
 
-## Creación de un filtro sobre el formato de correo electrónico de los suscriptores {#creating-a-filter-on-the-email-format-of-subscribers}
+## Cree un filtro sobre el formato de correo electrónico de los suscriptores {#creating-a-filter-on-the-email-format-of-subscribers}
 
 Este ejemplo muestra cómo crear un filtro para ordenar suscripciones de boletín basándose en el formato de correo electrónico del destinatario.
 
@@ -44,7 +44,7 @@ Siga estos pasos:
 
    ![](assets/s_ncs_user_filter_view_schema.png)
 
-   Puede acceder a estos campos para definir las condiciones de filtro en el cuerpo del editor de filtros. Un filtro de aplicación se define exactamente igual que un filtro avanzado. Consulte [Creación de un filtro avanzado](../../platform/using/creating-filters.md#creating-an-advanced-filter)
+   Puede acceder a estos campos para definir las condiciones de filtro en el cuerpo del editor de filtros. Un filtro de aplicación se define exactamente igual que un filtro avanzado. Consulte [Crear un filtro avanzado](../../platform/using/creating-filters.md#creating-an-advanced-filter).
 
 1. Crear un nuevo filtro en las suscripciones para mostrar solo las suscripciones con un formato de correo electrónico no definido:
 
