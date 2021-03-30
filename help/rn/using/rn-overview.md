@@ -7,9 +7,9 @@ feature: Información general
 role: Profesional empresarial
 level: Principiante
 translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+source-git-commit: 7b1e6dd00943e10dff693d78b3aa7cf2ad3e6727
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '418'
 ht-degree: 93%
 
 ---
@@ -62,7 +62,7 @@ Como usuario [!DNL Gold Standard] alojado, se beneficiará automáticamente de l
 
 ## Asistencia y otros vínculos útiles{#support}
 
-* [Ayuda y asistencia](https://helpx.adobe.com/es/campaign/kb/ac-support.html)
+* [Ayuda y asistencia](../../support.md)
 * [Versiones del Panel de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html)
 * [Últimas actualizaciones de la documentación](../../rn/using/documentation-updates.md)
 * [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md)
