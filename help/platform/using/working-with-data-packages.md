@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
-source-wordcount: '2458'
-ht-degree: 100%
+source-wordcount: '2442'
+ht-degree: 94%
 
 ---
 
@@ -83,15 +83,15 @@ El atributo **`operation`** con el valor &quot;ninguno&quot; define un vínculo 
 
 Un paquete de datos puede crearse manualmente desde cualquier editor de texto. Asegúrese de que la estructura del documento XML cumple con el esquema de datos &quot;xtk:navtree&quot;. La consola de Adobe Campaign tiene un módulo de exportación e importación de paquete de datos.
 
-## Exportación de paquetes {#exporting-packages}
+## Exportar paquetes {#exporting-packages}
 
 ### Acerca de la exportación de paquetes {#about-package-export}
 
 Los paquetes se pueden exportar de tres formas diferentes:
 
-* **[!UICONTROL Package Export Wizard]** permite exportar un conjunto de objetos en un solo paquete. Para obtener más información, consulte [Exportación de un conjunto de objetos en un paquete](#exporting-a-set-of-objects-in-a-package).
+* **[!UICONTROL Package Export Wizard]** permite exportar un conjunto de objetos en un solo paquete. Para obtener más información, consulte [Exportación de un conjunto de objetos en un paquete](#exporting-a-set-of-objects-in-a-package)
 * Un **objeto único** se puede exportar en un paquete directamente haciendo clic con el botón derecho en él y seleccionando **[!UICONTROL Actions > Export in a package]**.
-* Las **definiciones de paquetes** permiten crear una estructura de paquetes en la que se añaden objetos que se pueden exportar posteriormente en un paquete. Para obtener más información, consulte [Administración de definiciones de paquetes](#managing-package-definitions).
+* Las **definiciones de paquetes** permiten crear una estructura de paquetes en la que se añaden objetos que se pueden exportar posteriormente en un paquete. Para obtener más información, consulte [Administrar definiciones de paquetes](#managing-package-definitions)
 
 Una vez exportado el paquete, puede importarlo, junto a todas las entidades añadidas, en otra instancia de campaña.
 
@@ -141,7 +141,7 @@ Para los tres tipos de paquete, el asistente ofrece los siguientes pasos:
 
    ![](assets/ncs_datapackage_export7.png)
 
-### Administración de dependencias {#managing-dependencies}
+### Administrar dependencias {#managing-dependencies}
 
 El mecanismo de exportación permite que Adobe Campaign rastree los vínculos entre los distintos elementos exportados.
 
@@ -222,20 +222,18 @@ Finalmente, el atributo **@pkgStatus** permite definir las reglas de exportació
 >
 >El valor **preCreate** solo se admite para eventos de tipo vínculo. Permite crear o señalar una entidad que no se ha cargado todavía en el paquete exportado.
 
-## Administración de definiciones de paquetes {#managing-package-definitions}
-
-### Acerca de las definiciones de paquetes {#about-package-definitions}
+## Administrar definiciones de paquetes {#managing-package-definitions}
 
 Las definiciones de paquete permiten crear una estructura de paquetes en la que se añaden entidades que se exportan posteriormente en un solo paquete. Después puede importar este paquete y todas las entidades añadidas en otra instancia de Campaign.
 
 **Temas relacionados:**
 
-* [Creación de una definición de paquete](#creating-a-package-definition)
-* [Adición de entidades a una definición de paquete](#adding-entities-to-a-package-definition)
-* [Configuración de la generación de definiciones de paquetes](#configuring-package-definitions-generation)
+* [Crear una definición de paquete](#creating-a-package-definition)
+* [Añadir entidades a una definición de paquete](#adding-entities-to-a-package-definition)
+* [Configurar la generación de definiciones de paquetes](#configuring-package-definitions-generation)
 * [Exportación de paquetes desde una definición de paquete](#exporting-packages-from-a-package-definition)
 
-### Creación de una definición de paquete {#creating-a-package-definition}
+### Crear una definición de paquete {#creating-a-package-definition}
 
 Se puede acceder a las definiciones de paquetes desde el menú **[!UICONTROL Administration > Configuration > Package management > Package definitions]**.
 
@@ -247,13 +245,13 @@ A continuación, se pueden añadir entidades a la definición del paquete y expo
 
 **Temas relacionados:**
 
-* [Adición de entidades a una definición de paquete](#adding-entities-to-a-package-definition)
-* [Configuración de la generación de definiciones de paquetes](#configuring-package-definitions-generation)
+* [Añadir entidades a una definición de paquete](#adding-entities-to-a-package-definition)
+* [Configurar la generación de definiciones de paquetes](#configuring-package-definitions-generation)
 * [Exportación de paquetes desde una definición de paquete](#exporting-packages-from-a-package-definition)
 
-### Adición de entidades a una definición de paquete {#adding-entities-to-a-package-definition}
+### Agregar entidades a una definición de paquete {#adding-entities-to-a-package-definition}
 
-En la pestaña **[!UICONTROL Content]**, haga clic en el botón **[!UICONTROL Add]** para seleccionar las entidades que desea exportar con el paquete. Las prácticas recomendadas al seleccionar entidades se presentan en la sección [Exportación de un conjunto de objetos de un paquete](#exporting-a-set-of-objects-in-a-package).
+En la pestaña **[!UICONTROL Content]**, haga clic en el botón **[!UICONTROL Add]** para seleccionar las entidades que desea exportar con el paquete. Las prácticas recomendadas al seleccionar entidades se presentan en la sección [esta sección](#exporting-a-set-of-objects-in-a-package).
 
 ![](assets/packagedefinition_addentities.png)
 
@@ -267,11 +265,11 @@ Las entidades se pueden añadir a una definición de paquete directamente desde 
 
    ![](assets/packagedefinition_packageselection.png)
 
-1. La entidad se añade a la definición del paquete, se exporta con el paquete (consulte [Exportación de paquetes desde una definición de paquete](#exporting-packages-from-a-package-definition)).
+1. La entidad se añade a la definición del paquete, se exporta con el paquete (consulte [esta sección](#exporting-packages-from-a-package-definition)).
 
    ![](assets/packagedefinition_entityadded.png)
 
-### Configuración de la generación de definiciones de paquetes {#configuring-package-definitions-generation}
+### Configurar la generación de definiciones de paquetes {#configuring-package-definitions-generation}
 
 La generación de paquetes se puede configurar desde la pestaña de **[!UICONTROL Content]** de definición del paquete. Para ello, haga clic en el vínculo **[!UICONTROL Generation parameters]**.
 
@@ -291,7 +289,7 @@ La generación de paquetes se puede configurar desde la pestaña de **[!UICONTRO
    >
    >En ese caso, la selección de la opción **[!UICONTROL Include default values]** impide que las versiones se fusionen, ya que todos los atributos de la instancia anterior se exportan con el paquete.
 
-### Exportación de paquetes desde una definición de paquete {#exporting-packages-from-a-package-definition}
+### Exportar paquetes de una definición de paquete {#exporting-packages-from-a-package-definition}
 
 Para exportar un paquete desde una definición de paquete, siga los pasos siguientes:
 
@@ -301,9 +299,7 @@ Para exportar un paquete desde una definición de paquete, siga los pasos siguie
 
    ![](assets/packagedefinition_packageexport.png)
 
-## Importación de paquetes {#importing-packages}
-
-### Acerca de la importación de paquetes {#about-package-import}
+## Importar paquetes {#importing-packages}
 
 Se puede acceder al asistente de importación de paquetes a través del menú principal **[!UICONTROL Tools > Advanced > Package import...]** de la consola del cliente de Adobe Campaign.
 
@@ -311,7 +307,7 @@ Se puede importar un paquete desde una exportación realizada anteriormente, por
 
 ![](assets/ncs_datapackage_import.png)
 
-### Instalación de un paquete desde un archivo {#installing-a-package-from-a-file}
+### Instalar un paquete desde un archivo {#installing-a-package-from-a-file}
 
 Para importar un paquete de datos existente, seleccione el archivo XML y haga clic en **[!UICONTROL Open]**.
 
@@ -323,7 +319,7 @@ Haga clic en **[!UICONTROL Next]** y después en **[!UICONTROL Start]** para ini
 
 ![](assets/ncs_datapackage_import_2.png)
 
-### Instalación de un paquete integrado {#installing-a-standard-package}
+### Instale un paquete integrado {#installing-a-standard-package}
 
 Los paquetes estándar son paquetes integrados y se instalan cuando se configura Adobe Campaign. Dependiendo de los permisos y del modelo de implementación, puede importar nuevos paquetes estándar si adquiere nuevas opciones o complementos, o si actualiza a una oferta nueva.
 
