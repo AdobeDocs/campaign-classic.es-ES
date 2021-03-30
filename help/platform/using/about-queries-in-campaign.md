@@ -3,19 +3,19 @@ solution: Campaign Classic
 product: campaign
 title: Acerca de las consultas en Campaign
 description: Acerca de las consultas en Campaign
-audience: platform
-content-type: reference
-topic-tags: creating-queries
+feature: Editor de consultas
+role: Profesional empresarial, arquitecto de datos
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 100%
+source-wordcount: '184'
+ht-degree: 94%
 
 ---
 
 
-# Acerca de las consultas en Campaign{#about-queries-in-campaign}
+# Introducción a las consultas{#about-queries-in-campaign}
 
 La herramienta de consulta de Adobe Campaign se encuentra en varios niveles del software: para crear una población objetivo, segmentar clientes, extraer y filtrar logs de seguimiento, crear filtros, etc.
 
