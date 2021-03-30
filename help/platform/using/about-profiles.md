@@ -3,23 +3,25 @@ solution: Campaign Classic
 product: campaign
 title: Acerca de los perfiles
 description: Acerca de los perfiles
-audience: platform
-content-type: reference
-topic-tags: profile-management
+feature: Perfiles, audiencias
+role: Profesional empresarial, arquitecto de datos
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: 564eaedb09282c85593f638617baded0a63494a0
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 100%
+source-wordcount: '999'
+ht-degree: 76%
 
 ---
 
 
-# Acerca de los perfiles{#about-profiles}
+# Introducción a perfiles{#about-profiles}
 
-Los perfiles (clientes, clientes potenciales, suscriptores de boletines informativos, etc.) están centralizados en la base de datos de Adobe Campaign. Existen muchos mecanismos para adquirir perfiles y crear esta base de datos: recopilación en línea a través de formularios web, importación manual o automática de archivos de texto, replicación con bases de datos de fabricantes u otros sistemas de información. Con Adobe Campaign, puede incorporar el historial de marketing, la información de compra, las preferencias, los datos CRM y cualquier dato PI relevante en una vista consolidada para analizar y actuar en consecuencia.
+Los perfiles están centralizados en la base de datos de Adobe Campaign. Existen muchos mecanismos para adquirir perfiles y crear esta base de datos: recopilación en línea a través de formularios web, importación manual o automática de archivos de texto, replicación con bases de datos de fabricantes u otros sistemas de información. Con Adobe Campaign, puede incorporar el historial de marketing, la información de compra, las preferencias, los datos CRM y cualquier dato PI relevante en una vista consolidada para analizar y actuar en consecuencia.
 
-En Adobe Campaign, los destinatarios son los perfiles seleccionados por defecto para enviarles contenido (correos electrónicos, SMS, etc.). Gracias a los datos de los destinatarios almacenados en la base de datos, podrá filtrar quiénes reciben la entrega y añadir datos que personalicen los contenidos que quiere enviar. Existen otros tipos de perfiles en la base de datos. Están diseñados para usos diferentes. Por ejemplo, se crean perfiles semilla para probar el contenido antes de enviarlo al público objetivo final.
+Un “**perfil**” es un registro de información (por ejemplo, un registro de la tabla nmsRecipient o una tabla externa que contiene una ID de cookie, ID de cliente, ID móvil u otra información relacionada con un canal determinado) que representa a un cliente final, a un cliente potencial o a un contacto.
+
+En Adobe Campaign, los destinatarios son los perfiles seleccionados por defecto para enviarles contenido (correos electrónicos, SMS, etc.). Los datos de destinatario almacenados en la base de datos permiten filtrar el destinatario que recibirá cualquier entrega dado y añadir datos de personalización en el contenido de la entrega. Existen otros tipos de perfiles en la base de datos. Están diseñados para usos diferentes. Por ejemplo, se crean perfiles semilla para probar el contenido antes de enviarlo al público objetivo final.
 
 ![](assets/do-not-localize/how-to-video.png) [Comprensión del concepto de perfiles en vídeo](#create-profiles-video)
 
@@ -55,11 +57,11 @@ El vínculo **[!UICONTROL Profiles and targets]** permite mostrar los destinatar
 
 También le proporciona acceso a:
 
-* listas; consulte [Creación y gestión de listas](../../platform/using/creating-and-managing-lists.md),
-* servicios de suscripción; consulte [esta página](../../delivery/using/managing-subscriptions.md),
-* aplicaciones web; consulte [esta página](../../web/using/about-web-applications.md),
-* importaciones y exportaciones (puestos de trabajo); consulte [importaciones y exportaciones genéricas](../../platform/using/about-generic-imports-exports.md),
-* flujos de trabajo de destinatarios; consulte [esta página](../../workflow/using/building-a-workflow.md#implementation-steps-).
+* listas: [Más información](../../platform/using/creating-and-managing-lists.md)
+* servicios de suscripción: [Más información](../../delivery/using/managing-subscriptions.md)
+* aplicaciones web: [Más información](../../web/using/about-web-applications.md)
+* importaciones y exportaciones (trabajos): [Más información](../../platform/using/about-generic-imports-exports.md)
+* flujos de trabajo de objetivos: [Más información](../../workflow/using/building-a-workflow.md#implementation-steps-)
 
 La página de destinatarios permite realizar operaciones frecuentes en los perfiles, como ediciones, actualizaciones, adiciones, eliminaciones y operaciones de ordenación.
 
@@ -67,35 +69,37 @@ Para realizar manipulaciones de perfiles más avanzadas, debe editar el árbol d
 
 De forma predeterminada, los destinatarios se almacenan en el nodo **[!UICONTROL Profiles and Targets > Recipients]** del árbol de Puede crear destinatarios a partir de esta vista, así como:
 
-* ordenar y filtrar los perfiles de la base de datos; consulte [Opciones de filtro](../../platform/using/filtering-options.md),
-* mover, copiar o eliminar perfiles de la base de datos; consulte [Gestor de perfiles](../../platform/using/managing-profiles.md),
-* actualizar perfiles; consulte [Actualización de datos](../../platform/using/updating-data.md),
-* destinatarios de la exportación; consulte [Exportar e importar perfiles](../../platform/using/exporting-and-importing-profiles.md),
-* crear grupos de destinatarios; consulte [Crear y gestionar listas](../../platform/using/creating-and-managing-lists.md).
+* ordenar y filtrar los perfiles de la base de datos: [Más información](../../platform/using/filtering-options.md)
+* mover, copiar o eliminar perfiles de la base de datos: [Más información](../../platform/using/managing-profiles.md),
+* actualizar perfiles: [Más información](../../platform/using/updating-data.md)
+* exportar destinatarios: [Más información](../../platform/using/exporting-and-importing-profiles.md)
+* crear grupos de destinatarios: [Más información](../../platform/using/creating-and-managing-lists.md)
 
 Para acceder a las funcionalidades y configuraciones avanzadas, debe hacer clic en el icono **[!UICONTROL Explorer]** .
 
 ![](assets/d_ncs_user_interface01.png)
 
-El diseño general del explorador de Adobe Campaign se presenta en [Uso del explorador de Adobe Campaign](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).
+El diseño general del explorador de Adobe Campaign se presenta en [esta sección](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).
 
 >[!NOTE]
 >
->También puede mostrar una vista avanzada de esta lista del árbol de Adobe Campaign haciendo clic en el vínculo **[!UICONTROL Profiles and targets > Recipients]** . La visualización de la lista se puede configurar para adaptarla a sus necesidades. Puede agregar o eliminar columnas, definir el orden de las columnas, ordenar datos, etc. La configuración de visualización de lista se describe en [Usar el explorador de Adobe Campaign](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).
+>También puede mostrar una vista avanzada de esta lista del árbol de Adobe Campaign haciendo clic en el vínculo **[!UICONTROL Profiles and targets > Recipients]** . La visualización de la lista se puede configurar para adaptarla a sus necesidades. Puede agregar o eliminar columnas, definir el orden de las columnas, ordenar datos, etc. La configuración de visualización de lista se describe en [esta sección](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).
 >
->También puede definir las vistas de los destinatarios. Para obtener más información sobre esta funcionalidad, consulte [Carpetas y vistas](../../platform/using/access-management-folders.md).
+>También puede definir las vistas de los destinatarios. Para obtener más información sobre esta funcionalidad, consulte [esta sección](../../platform/using/access-management-folders.md).
 
 ## Perfiles activos {#active-profiles}
 
 Los perfiles activos son los perfiles que se toman en cuenta con fines de facturación.
 
+El recuento de perfiles activos solo está disponible para **instancias de marketing**. No está disponible para Instancias de ejecución, es decir, instancias de MID (fuentes intermedias) y RT (mensajería en tiempo real/centro de mensajes).
+
+Si está alojado en AWS, también puede supervisar el número de perfiles activos utilizados en las instancias directamente desde el Panel de control de Campaign. Para obtener más información, consulte la [documentación del Panel de control de Campaign](https://docs.adobe.com/content/help/es-ES/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+
 >[!NOTE]
 >
->Si está alojado en AWS y utiliza Campaign Classic desde la compilación 8931, también puede supervisar el número de perfiles activos utilizados en las instancias directamente desde el Panel de control de Campaign. Para obtener más información, consulte la [documentación del Panel de control de Campaign](https://docs.adobe.com/content/help/es-ES/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>Todos los usuarios administradores pueden acceder a Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
 >
->Tenga en cuenta que el recuento de perfiles activos solo está disponible para las **instancias de Marketing**. No está disponible para Instancias de ejecución, es decir, instancias de MID (fuentes intermedias) y RT (mensajería en tiempo real/centro de mensajes).
-
-Un “**perfil**” es un registro de información (por ejemplo, un registro de la tabla nmsRecipient o una tabla externa que contiene una ID de cookie, ID de cliente, ID móvil u otra información relacionada con un canal determinado) que representa a un cliente final, a un cliente potencial o a un contacto.
+>Tenga en cuenta que la instancia debe alojarse en AWS y actualizarse con la última versión de [Gold Standard](../../rn/using/gs-overview.md) o la [última versión de GA (21.1)](../../rn/using/latest-release.md). Aprenda a comprobar su versión en [esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
 
 La facturación solo abarca los perfiles que están **activos**. Un perfil se considera activo si este se ha identificado o comunicado en los últimos 12 meses a través de cualquier canal.
 
