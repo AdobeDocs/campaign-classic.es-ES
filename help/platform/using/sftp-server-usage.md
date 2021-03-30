@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
+source-git-commit: 564eaedb09282c85593f638617baded0a63494a0
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 100%
+source-wordcount: '1158'
+ht-degree: 93%
 
 ---
 
@@ -43,9 +43,11 @@ Para evitar estos problemas, Adobe recomienda seguir las prácticas recomendadas
 
 >[!NOTE]
 >
->Si la instancia está alojada en AWS, puede supervisar el almacenamiento del servidor SFTP con el [Panel de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/sftp-management/sftp-storage-management.html) de Campaign Classic.
+>Si la instancia está alojada en AWS, puede supervisar el almacenamiento del servidor SFTP con el [Panel de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/sftp-management/sftp-storage-management.html) de Campaign Classic. Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
 >
->Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta sección](https://docs.adobe.com/content/help/es-ES/control-panel/using/faq.html#ims-org-id) .
+>Todos los usuarios administradores pueden acceder a Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>
+>Tenga en cuenta que la instancia debe actualizarse con la última versión de [Gold Standard](../../rn/using/gs-overview.md) o la [última versión de GA (21.1)](../../rn/using/latest-release.md). Aprenda a comprobar su versión en [esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 * Las capacidades del tamaño del servidor varían según la licencia. En cualquier caso, mantenga la menor cantidad de datos posible y mantenga los datos solamente durante el tiempo necesario (15 días es el límite máximo de tiempo).
 
