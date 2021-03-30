@@ -7,7 +7,7 @@ feature: null
 role: null
 level: null
 translation-type: tm+mt
-source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
+source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 99%
@@ -144,7 +144,7 @@ ht-degree: 99%
 * Se ha restaurado la capacidad para que los administradores definan o restablezcan la contraseña de cualquier operador. Para ello, haga clic con el botón derecho del ratón en un operador, seleccione **[!UICONTROL Actions]** >**[!UICONTROL Reset password]** y establezca la nueva contraseña del operador. Recomendamos que los operadores cambien su contraseña cuando vuelvan a conectarse por primera vez. Para obtener más información, consulte la [documentación detallada](../../production/using/lost-password.md).
 * Para admitir la nueva función de inquilinos múltiples en Adobe Target, ahora se puede añadir un nuevo parámetro “at_property” a las URL al configurar opciones y cuentas externas para la integración con Target. El valor que se utiliza para este parámetro se puede encontrar en Adobe Target y se utilizará Campaign al realizar llamadas a Target. Para obtener más información, consulte la [documentación detallada](../../integrations/using/inserting-a-dynamic-image.md).
 * Ahora puede especificar una página de aterrizaje predeterminada para abrirla al hacer clic en una imagen ofrecida por Adobe Target. Anteriormente, al hacer clic en la imagen principal el conjunto de imágenes predeterminado al crear el correo electrónico. Para obtener más información, consulte la [documentación detallada](../../integrations/using/inserting-a-dynamic-image.md).
-* Se agregó la casilla de verificación **Habilitar los trazos** de niebla en la cuenta externa para forzar el seguimiento de la salida. Para obtener más información, consulte la [documentación detallada](../../delivery/using/sms-channel.md#creating-an-smpp-external-account).
+* Se agregó la casilla de verificación **Habilitar los trazos** de niebla en la cuenta externa para forzar el seguimiento de la salida. Para obtener más información, consulte la [documentación detallada](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
 
 **Evoluciones técnicas**
 
