@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -35,4 +35,4 @@ Hay dos tipos de plantillas:
 
 >[!NOTE]
 >
->Las plantillas disponibles dependen de los derechos de acceso, de la configuración de la instancia y del contexto. Por ejemplo, al crear un servicio informativo, puede vincular una plantilla de envío a los mensajes de confirmación: así solo puede acceder a las plantillas cuyo destino de mapeo sea la asignación de suscripción. Para obtener más información, consulte [Selección de una asignación de destino](../../delivery/using/selecting-a-target-mapping.md) y [Acerca de los servicios y las suscripciones](../../delivery/using/about-services-and-subscriptions.md).
+>Las plantillas disponibles dependen de los derechos de acceso, de la configuración de la instancia y del contexto. Por ejemplo, al crear un servicio informativo, puede vincular una plantilla de envío a los mensajes de confirmación: así solo puede acceder a las plantillas cuyo destino de mapeo sea la asignación de suscripción. Para obtener más información, consulte [Select a target mapping](../../delivery/using/selecting-a-target-mapping.md) y [Acerca de los servicios y las suscripciones](../../delivery/using/about-services-and-subscriptions.md).
