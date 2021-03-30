@@ -7,15 +7,15 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 
-# Acceso a los registros de seguimiento{#accessing-the-tracking-logs}
+# Acceda a los registros de seguimiento{#accessing-the-tracking-logs}
 
 Cuando se realiza el envío y el seguimiento está activado, el flujo de trabajo técnico **[!UICONTROL Tracking]** recopila los datos de seguimiento. Se ejecuta cada hora de forma predeterminada.
 
