@@ -7,15 +7,15 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 100%
+source-wordcount: '335'
+ht-degree: 89%
 
 ---
 
 
-# Adición de direcciones semilla{#adding-seed-addresses}
+# Añadir direcciones semilla{#adding-seed-addresses}
 
 ## Direcciones semilla en una entrega {#seed-addresses-in-a-delivery}
 
@@ -31,7 +31,7 @@ Hay tres modos de inserción posibles:
 
 1. Importación de plantillas de direcciones y adaptación a sus necesidades.
 
-   Para ello, haga clic en el enlace **[!UICONTROL Import seed templates...]** y seleccione la carpeta que contiene las plantillas de dirección. Para obtener más información, consulte [Creación de plantillas de direcciones semilla](../../delivery/using/creating-seed-addresses.md#creating-seed-address-templates).
+   Para ello, haga clic en el enlace **[!UICONTROL Import seed templates...]** y seleccione la carpeta que contiene las plantillas de dirección. Para obtener más información, consulte [esta sección](../../delivery/using/creating-seed-addresses.md#creating-seed-address-templates).
 
    Si es necesario, una vez añadidas, se puede hacer doble clic en ellas o hacer clic en el botón **[!UICONTROL Detail...]** para adaptar el contenido de cada dirección.
 
@@ -39,13 +39,13 @@ Hay tres modos de inserción posibles:
 
    Para ello, haga clic en el enlace **[!UICONTROL Edit the dynamic condition...]** e introduzca los parámetros de selección de las direcciones semilla. Por ejemplo, puede incluir todas las direcciones semilla que contenga una carpeta específica o las pertenecientes a un departamento específico de su organización.
 
-   En esta sección se presenta un ejemplo de esto: [Caso de uso: seleccionar direcciones semilla en los criterios](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md).
+   En esta sección se presenta un ejemplo de esto: [Caso de uso: seleccione direcciones semilla en criteria](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md).
 
 >[!NOTE]
 >
 >Esta opción se utiliza cuando la tabla de destinatarios utilizada no es la tabla predeterminada **nms:recipient** y está utilizando la funcionalidad de renderización de la bandeja de entrada proporcionada con el módulo **[!UICONTROL Deliverability]** de Adobe Campaign.
 >
->Para obtener más información, consulte [Uso de una tabla de destinatarios externa](../../delivery/using/using-an-external-recipient-table.md) y la documentación sobre la [Renderización de la bandeja de entrada](../../delivery/using/inbox-rendering.md).
+>Para obtener más información, consulte [Use an external recipient table](../../delivery/using/using-an-external-recipient-table.md) y la documentación sobre [Inbox rendering](../../delivery/using/inbox-rendering.md).
 
 Para las entregas, también se puede personalizar la forma en que se insertan las direcciones en los archivos de extracción. De forma predeterminada, se insertan en el orden de clasificación del archivo de salida, pero se puede elegir insertarlos al final o al principio del archivo o aleatoriamente entre los receptores del destino principal.
 
