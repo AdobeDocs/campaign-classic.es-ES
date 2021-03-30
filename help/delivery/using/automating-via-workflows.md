@@ -7,15 +7,15 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 translation-type: tm+mt
-source-git-commit: 3eecc16442a11849c12819cf83392f60c5b82a13
+source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
 workflow-type: tm+mt
-source-wordcount: '1186'
-ht-degree: 100%
+source-wordcount: '1185'
+ht-degree: 97%
 
 ---
 
 
-# Automatización mediante flujos de trabajo{#automating-via-workflows}
+# Automatizar con flujos de trabajo{#automating-via-workflows}
 
 ## Actividad de gestión de contenido {#content-management-activity}
 
@@ -78,7 +78,7 @@ La opción **Generar una transición de salida** le permite añadir una transici
 
 ## Ejemplos {#examples}
 
-### Automatización de la creación y la entrega de contenido {#automating-content-creation-and-delivery}
+### Automatice la creación y el envío de contenido {#automating-content-creation-and-delivery}
 
 El siguiente ejemplo automatiza la creación y la entrega de un bloque de contenido.
 
@@ -160,7 +160,7 @@ El contenido de la entrega se rellena mediante el evento entrante.
 
 El último paso para completar la actividad son la preparación y el inicio de la entrega.
 
-### Creación de contenido y posterior publicación {#creating-content-and-publishing-it-later}
+### Crear contenido para publicación posterior {#creating-content-and-publishing-it-later}
 
 En este ejemplo se crea un bloque de contenido y se inicia la publicación de archivos después de un tiempo específico de retardo.
 
@@ -192,7 +192,7 @@ La actividad **JavaScript Code** recupera el nombre completo de cada archivo gen
 
 ![](assets/d_ncs_content_workflow9.png)
 
-### Creación de la entrega y su contenido {#creating-the-delivery-and-its-content}
+### Cree el envío y su contenido {#creating-the-delivery-and-its-content}
 
 Este ejemplo utiliza el mismo concepto que el primero; solo genera la acción de entrega en el primer paso.
 
@@ -214,11 +214,11 @@ El contenido de la entrega se rellena mediante el evento entrante.
 
 La acción final de la actividad es la preparación y el inicio de la entrega.
 
-### Importación de contenido desde FTP {#importing-content-from-ftp}
+### Importar contenido desde FTP {#importing-content-from-ftp}
 
 Si el contenido de su entrega está disponible en un archivo HTML ubicado en servidores FTP o SFTP, puede cargar fácilmente este contenido en los envíos de Adobe Campaign. Consulte [este ejemplo](../../workflow/using/loading-delivery-content.md).
 
-### Importación de contenido desde el conector Amazon Simple Storage Service (S3){#importing-content-from-amazon-simple-storage-service--s3--connector}
+### Importar contenido desde el conector {#importing-content-from-amazon-simple-storage-service--s3--connector} de Amazon Simple Storage Service (S3)
 
 Si el contenido de su entrega está ubicado en bloques de Amazon Simple Storage Service (S3), puede cargar fácilmente este contenido en los envíos de Adobe Campaign. Consulte [este ejemplo](../../workflow/using/loading-delivery-content.md).
 
