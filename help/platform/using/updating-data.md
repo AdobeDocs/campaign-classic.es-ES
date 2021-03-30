@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 100%
 
 Los datos vinculados al perfil de un destinatario se pueden actualizar de forma manual o automática.
 
-## Configuración de una actualización automática {#setting-up-an-automatic-update}
+## Configurar una actualización automática {#setting-up-an-automatic-update}
 
 Se puede configurar una actualización automática mediante un flujo de trabajo. Para obtener más información, consulte [esta sección](../../workflow/using/update-data.md).
 
-## Realización de una actualización masiva {#performing-a-mass-update}
+## Realizar una actualización masiva {#performing-a-mass-update}
 
 Para realizar actualizaciones manuales, haga clic con el botón derecho en los destinatarios seleccionados para utilizar el menú de acceso directo **[!UICONTROL Actions]** o utilice el icono **[!UICONTROL Actions]**.
 
@@ -79,7 +79,7 @@ Haga clic en **[!UICONTROL Compute]** para mostrar el resultado de su elección.
 
 Compruebe las columnas **[!UICONTROL Result]** de ambas secciones de la ventana y haga clic en **[!UICONTROL Finish]** para ejecutar la combinación.
 
-## Exportación de datos {#exporting-data}
+## Exportar datos {#exporting-data}
 
 Se puede exportar el contenido de una lista. Para configurar y ejecutar la exportación:
 
