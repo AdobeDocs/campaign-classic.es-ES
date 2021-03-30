@@ -3,15 +3,12 @@ solution: Campaign Classic
 product: campaign
 title: 'Opciones de ayuda y asistencia para el Campaign Classic '
 description: ¿Necesita asistencia para el Campaign Classic? ¡Está en el lugar correcto!
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 1d9c96d1cd8ba2a8099271165a1671d5589230fb
+source-git-commit: 108f6cf912bb855fd34263d9e069260769a3ef6a
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 63%
+source-wordcount: '771'
+ht-degree: 54%
 
 ---
 
@@ -45,7 +42,7 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
         <ul>
         <li><a href="platform/using/faq-key-concepts.md">Conceptos clave</a></li>
         <li><a href="platform/using/faq-campaign-config.md">Ajustes de Campaign</a></li>
-        <li><a href="platform/using/faq-reporting.md">Creación de informes</a></li>
+        <li><a href="platform/using/faq-reporting.md">Sistema de informes</a></li>
         <li><a href="platform/using/faq-build-upgrade.md">Actualización de versión</a></li>
         <li><a href="platform/using/faq-messages.md">Prueba, envío y seguimiento de mensajes</a></li>
         <li><a href="platform/using/faq-workflows.md">Flujos de trabajo</a></li>
@@ -58,7 +55,7 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
         <li><a href="production/using/performance-and-throughput-issues.md">Problemas de rendimiento y producción</a></li>
         <li><a href="delivery/using/delivery-performances.md">Rendimiento de envíos</a></li>
         <li><a href="workflow/using/workflow-best-practices.md">Optimización del rendimiento de los flujos de trabajo</a></li>
-        <li><a href="workflow/using/monitoring-workflow-execution.md">Solución de problemas de ejecución del flujo de trabajo</a></li>
+        <li><a href="workflow/using/monitoring-workflow-execution.md">Solución de problemas de ejecución de flujos de trabajo</a></li>
         <li><a href="platform/using/sftp-server-usage.md">Uso del servidor SFTP</a></li>
         <li><a href="delivery/using/understanding-delivery-failures.md">Comprensión de los errores de entrega</a></li>
         </ul>
@@ -97,12 +94,18 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
 
 ### ¿Qué es el Panel de control?
 
-El Panel de control le ayuda a aumentar la eficacia de su trabajo como administrador de productos de Campaign Classic, lo que le permite administrar la configuración y rastrear los usos de cada una de sus instancias.
-[Haga clic ](https://docs.adobe.com/content/hecontrol-panel/using/discover-control-panel/key-features.html) aquí para obtener más información.
+El Panel de control de Campaign de Campaign le ayuda a aumentar la eficacia de su trabajo como administrador de productos de Campaign Classic, lo que le permite administrar la configuración y rastrear los usos de cada una de sus instancias.
+[Haga clic aquí](https://docs.adobe.com/content/hecontrol-panel/using/discover-control-panel/key-features.html) para obtener más información.
+
+>[!NOTE]
+>
+>Todos los usuarios administradores pueden acceder a Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>
+>Tenga en cuenta que la instancia debe alojarse en AWS y actualizarse con la última versión de [Gold Standard](rn/using/gs-overview.md) o la [última versión de GA (21.1)](rn/using/latest-release.md). Aprenda a comprobar su versión en [esta sección](platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
 
 ### ¿Cómo usar el Panel control de acceso?
 
- El Panel de control está disponible directamente desde Adobe Experience Cloud. Solo son accesibles para los usuarios administradores. [Haga clic ](https://docs.adobe.com/content/hecontrol-panel/using/discover-control-panel/accessing-control-panel.html) aquí para obtener más información.
+ El Panel de control está disponible directamente desde Adobe Experience Cloud. Solo pueden acceder a él los usuarios administradores. [Haga clic ](https://docs.adobe.com/content/hecontrol-panel/using/discover-control-panel/accessing-control-panel.html) aquí para obtener más información.
 
 ### Preguntas frecuentes sobre el Panel de control de Campaign
 
@@ -110,7 +113,7 @@ El Panel de control le ayuda a aumentar la eficacia de su trabajo como administr
 
 ### Administración SFTP
 
-En el Panel de control de Campaign, puede interactuar con todos los servidores SFTP conectados a instancias de Campaign a las que tiene acceso. Puede monitorizar su capacidad de almacenamiento, y administrar las direcciones IP en la lista de permitidos y las claves SSH públicas. [Haga clic ](https://docs.adobe.com/content/hecontrol-panel/using/sftp-management/about-sftp-management.html) aquí para obtener más información.
+En el Panel de control, puede interactuar con todos los servidores SFTP conectados a instancias de Campaign a las que tiene acceso. Puede monitorizar su capacidad de almacenamiento, y administrar las direcciones IP en la lista de permitidos y las claves SSH públicas. [Haga clic ](https://docs.adobe.com/content/hecontrol-panel/using/sftp-management/about-sftp-management.html) aquí para obtener más información.
 
 ### Subdominios y certificados
 
@@ -145,4 +148,4 @@ Obtenga más información sobre el nuevo Centro de descargas [en esta página](h
 
 La creación de un caso le permite ponerse en contacto con el equipo del Servicio de atención al cliente de Adobe para conocer cualquier problema que tenga con sus productos de Adobe. Para ayudarle a resolver sus problemas, Adobe Admin Console le permitirá hablar con el Servicio de atención al cliente de Adobe.
 
-Para registrar un problema o iniciar una sesión de chat en ese nuevo sistema, conéctese a [Adobe Admin Console](https://adminconsole.adobe.com/overview). Siga el procedimiento detallado descrito en [esta página](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+Para registrar un problema o iniciar una sesión de chat en el nuevo sistema, conéctese a [Adobe Admin Console](https://adminconsole.adobe.com/overview). Siga el procedimiento detallado descrito en [esta página](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
