@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentación
 translation-type: tm+mt
-source-git-commit: 0b3bc9547d756352f4af5dac713f85666c96c425
+source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
 workflow-type: tm+mt
-source-wordcount: '2448'
+source-wordcount: '2462'
 ht-degree: 56%
 
 ---
@@ -144,13 +144,16 @@ ht-degree: 56%
          + [Enviar en móviles japoneses](delivery/using/sending-emails-on-japanese-mobiles.md)
       + [Adjuntar archivos](delivery/using/attaching-files.md)
    + Enviar SMS {#sending-messages-on-mobiles}
-      + [Canal de SMS](delivery/using/sms-channel.md)
+      + [Introducción a SMS](delivery/using/sms-channel.md)
+      + [Configurar canal de SMS](delivery/using/sms-set-up.md)
+      + [Creación de un SMS](delivery/using/sms-create.md)
+      + [Envío y seguimiento de SMS](delivery/using/sms-send.md)
       + [Configuración y protocolo del conector SMS](delivery/using/sms-protocol.md)
       + [Solución de problemas de SMS](delivery/using/troubleshooting-sms.md)
       + [Migrar al conector genérico SMPP extendido](delivery/using/unsupported-connector-migration.md)
    + [Enviar mensajes de LINE](delivery/using/line-channel.md)
    + Envío de notificaciones push {#sending-push-notifications}
-      + [Acerca del canal de aplicaciones móviles](delivery/using/about-mobile-app-channel.md)
+      + [Introducción al canal de aplicaciones móviles](delivery/using/about-mobile-app-channel.md)
       + [Integración del SDK de Campaign en la aplicación móvil](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + Configurar la aplicación móvil{#configure-the-mobile-app}
          + [Introducción a la configuración de la aplicación](delivery/using/get-started-app-config.md)
