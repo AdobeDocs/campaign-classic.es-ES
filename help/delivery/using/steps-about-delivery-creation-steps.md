@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 100%
@@ -24,7 +24,7 @@ Los pasos clave al crear una entrega son los siguientes:
 1. **Definir el contenido de entrega**. La definición del contenido de la entrega es específica para cada canal. Para obtener más información, consulte la sección dedicada:
 
    * [Canal de correo electrónico](../../delivery/using/defining-the-email-content.md)
-   * [Canal de SMS](../../delivery/using/sms-channel.md#defining-the-sms-content)
+   * [Canal de SMS](../../delivery/using/sms-create.md#defining-the-sms-content)
    * [Canal de correo postal](../../delivery/using/defining-the-direct-mail-content.md)
    * [Canal de aplicaciones móviles](../../delivery/using/about-mobile-app-channel.md)
 
