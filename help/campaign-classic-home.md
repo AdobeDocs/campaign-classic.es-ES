@@ -5,10 +5,10 @@ product: campaign
 title: Documentación del producto Adobe Campaign Classic
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 9ce945af1ed1cabd5041a28812e540f814211071
+source-git-commit: 9f1c4110ef49c87719f1cc84ad08f687865561d1
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 82%
+source-wordcount: '295'
+ht-degree: 81%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 82%
 
 * **[Pasarse a la API de proveedor de APN basada en HTTP/2](https://helpx.adobe.com/es/campaign/kb/migrate-to-apns-http2.html)**<br/> Más información sobre cómo migrar del protocolo binario heredado a la API de proveedor de APN basada en HTTP/2.
 
-* **[Obtener ayuda](https://helpx.adobe.com/es/campaign/kb/ac-support.html)**<br/> Acceso a preguntas frecuentes, prácticas recomendadas, recursos de ayuda y solicitudes de ayuda.
+* **[Obtener ayuda](support.md)**<br/> Acceso a preguntas frecuentes, prácticas recomendadas, recursos de ayuda y solicitudes de ayuda.
 
 [Más actualizaciones](/help/rn/using/documentation-updates.md)
 
