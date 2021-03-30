@@ -7,17 +7,17 @@ audience: platform
 content-type: reference
 topic-tags: creating-queries
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
 source-wordcount: '3229'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 
-# Definición de condiciones de filtro{#defining-filter-conditions}
+# Definir condiciones de filtro{#defining-filter-conditions}
 
-## Selección del operador {#choosing-the-operator}
+## Seleccione el operador {#choosing-the-operator}
 
 Dentro de las condiciones de filtrado, es necesario vincular dos valores mediante un operador.
 
@@ -117,7 +117,7 @@ A continuación se muestra una lista de los operadores disponibles:
  </tbody> 
 </table>
 
-## Uso de AND, OR, EXCEPT {#using-and--or--except}
+## Utilice AND, OR, EXCEPT {#using-and--or--except}
 
 Para consultas que utilizan varias condiciones de filtro, debe definir los vínculos entre las condiciones. Hay tres vínculos posibles:
 
@@ -146,7 +146,7 @@ Este ejemplo muestra un filtro que le permite mostrar: los destinatarios que hab
 
 ![](assets/query_editor_nveau_31.png)
 
-## Condiciones de priorización {#prioritizing-conditions}
+## Condiciones de prioridad {#prioritizing-conditions}
 
 Esta sección explica cómo priorizar las condiciones gracias a las flechas azules de la barra de herramientas.
 
@@ -165,7 +165,7 @@ Sitúe el cursor en la condición de filtrado **[!UICONTROL Gender (@gender) equ
 
 Ahora la condición **[!UICONTROL Gender (@gender) equal to Male]** está fuera de su paréntesis. Se ha movido al mismo nivel que la condición “Ciudad igual a Londres”. Estas condiciones se vinculan entre sí (**[!UICONTROL And]**).
 
-## Selección de datos que desea extraer {#selecting-data-to-extract}
+## Seleccionar datos para extraer {#selecting-data-to-extract}
 
 Los campos disponibles varían de una tabla a otra. Todos los campos se almacenan en un nodo principal denominado **[!UICONTROL Main element]**. En el siguiente ejemplo, los campos disponibles se encuentran en la tabla de destinatarios. Los campos siempre se muestran por orden alfabético.
 
@@ -259,13 +259,13 @@ Enlace a una tabla y elemento de colección:
 
 >[!NOTE]
 >
->* Utilice el botón **[!UICONTROL Add]** (encima de la barra de iconos laterales) para añadir una columna de salida en la que deseamos editar la expresión. Para obtener más información sobre cómo editar una expresión, consulte [Crear expresiones](#building-expressions).
+>* Utilice el botón **[!UICONTROL Add]** (encima de la barra de iconos laterales) para añadir una columna de salida en la que deseamos editar la expresión. Para obtener más información sobre la edición de una expresión, consulte [esta sección](#building-expressions).
 >* Elimine una columna de salida haciendo clic en la “x” roja (**Eliminar**).
 >* Cambie el orden de las columnas de salida mediante las flechas.
 >* La **[!UICONTROL Distribution of values]** sirve para ver la distribución de los valores del campo seleccionado (por ejemplo, las distribuciones vinculadas a las ciudades de los destinatarios, los lenguajes de los destinatarios, etc.).
 
 
-## Creación de campos calculados {#creating-calculated-fields}
+## Crear campos calculados {#creating-calculated-fields}
 
 Si es necesario, agregue una columna durante el formato de datos. Un campo calculado añade una columna a la sección de previsualización de datos. Haga clic **[!UICONTROL Add a calculated field]**.
 
@@ -306,7 +306,7 @@ Para eliminar este campo calculado, haga clic en **[!UICONTROL Remove the calcul
 
 ![](assets/query_editor_nveau_58.png)
 
-## Creación de expresiones {#building-expressions}
+## Generar expresiones {#building-expressions}
 
 La herramienta de edición de expresiones permite calcular acumulaciones, generar funciones o editar una fórmula con una expresión.
 
