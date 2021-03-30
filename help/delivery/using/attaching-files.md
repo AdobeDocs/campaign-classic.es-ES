@@ -7,15 +7,15 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 100%
+source-wordcount: '928'
+ht-degree: 99%
 
 ---
 
 
-# Archivos adjuntos{#attaching-files}
+# Adjuntar archivos a un correo electrónico{#attaching-files}
 
 ## Acerca de los archivos adjuntos por correo electrónico {#about-email-attachments}
 
