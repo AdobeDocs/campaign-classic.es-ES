@@ -7,15 +7,15 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 translation-type: tm+mt
-source-git-commit: 2838ced5f5d562914c0791e6a0b8f02dd61006b4
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
-source-wordcount: '1531'
-ht-degree: 100%
+source-wordcount: '1530'
+ht-degree: 98%
 
 ---
 
 
-# Sincronización de datos entre Campaign y CRM {#data-synchronization}
+# Sincronizar datos entre Campaign y CRM {#data-synchronization}
 
 La sincronización de datos entre Adobe Campaign y CRM se lleva a cabo mediante una actividad de flujo de trabajo dedicada: [conector de CRM](../../workflow/using/crm-connector.md).
 
@@ -82,9 +82,9 @@ Para una actividad de importación, los pasos de configuración de la actividad 
 
    Para obtener más información, consulte [Administración variable](#variable-management).
 
-### Administración de variables {#variable-management}
+### Administrar variables {#variable-management}
 
-La activación de la opción **[!UICONTROL Automatic index]** solo permite recopilar objetos modificados desde la última importación.
+Active la opción **[!UICONTROL Automatic index]** para recopilar solo los objetos modificados desde la última importación.
 
 ![](assets/crm_task_import_option.png)
 
@@ -115,7 +115,7 @@ La activación de la opción **[!UICONTROL Automatic index]** genera tres variab
    >
    >Estas fechas se muestran en el siguiente formato: **aaaa/MM/dd hh:mm:ss**.
 
-### Filtrado de datos {#filtering-data}
+### Filtrar datos {#filtering-data}
 
 Para garantizar una operación eficaz con los distintos CRM, es necesario crear filtros con las siguientes reglas:
 
