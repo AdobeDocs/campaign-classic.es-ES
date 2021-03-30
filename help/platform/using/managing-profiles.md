@@ -7,15 +7,15 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
 
-# Administración de perfiles{#managing-profiles}
+# Administrar perfiles{#managing-profiles}
 
 ## Árbol de destinatario {#recipient-tree}
 
@@ -33,11 +33,11 @@ Cada nodo coincide con una carpeta. Los datos de cada carpeta deben considerarse
 
 Puede seleccionar uno o varios destinatarios, arrastrarlos de la lista de destinatarios y colocarlos en la carpeta deseada. Un mensaje de advertencia le pedirá que confirme esta acción.
 
-## Copia de destinatarios {#copying-a-recipient}
+## Copiar un destinatario {#copying-a-recipient}
 
 Puede copiar un destinatario en la misma carpeta haciendo clic con el botón derecho en el destinatario deseado y seleccionando **[!UICONTROL Copy]**.
 
-## Eliminación de destinatarios {#deleting-recipients}
+## Eliminar destinatarios {#deleting-recipients}
 
 Para eliminar destinatarios, muévalos a una carpeta específica y, a continuación, depure el contenido de esta carpeta. **Se recomienda no utilizar** la opción **[!UICONTROL Delete]** en este caso.
 
