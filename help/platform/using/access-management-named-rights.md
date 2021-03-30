@@ -3,14 +3,14 @@ solution: Campaign Classic
 product: campaign
 title: Usar derechos asignados para configurar permisos
 description: Obtenga información sobre cómo utilizar derechos asignados para configurar permisos
-audience: platform
-content-type: reference
-topic-tags: administration-basics
+feature: Gestión de acceso
+role: Profesional empresarial, administrador
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 95%
+source-wordcount: '509'
+ht-degree: 94%
 
 ---
 
