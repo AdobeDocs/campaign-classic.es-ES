@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+source-git-commit: 6eb29742d5884096f2d06b763823aede48f5dcb3
 workflow-type: tm+mt
-source-wordcount: '1892'
-ht-degree: 98%
+source-wordcount: '1921'
+ht-degree: 96%
 
 ---
 
@@ -98,7 +98,7 @@ Para los clientes que utilizan la funcionalidad de mensajería transaccional de 
 
 ### Encabezados de servidor de correo mejorado
 
-Las últimas instancias de Campaign Classic incluyen código que agrega los encabezados de servidor de correo mejorado necesarios a cada mensaje. Si utiliza Adobe Campaign 19.1 (compilación 9032) o superior y no es el caso, debe añadir el parámetro &quot;useMomentum=true&quot; a la configuración de la instancia de marketing (en el archivo [serverConf.xml](../../installation/using/the-server-configuration-file.md#mta)).
+Las últimas instancias de Campaign Classic incluyen código que agrega los encabezados de servidor de correo mejorado necesarios a cada mensaje. Si utiliza Adobe Campaign 19.1 (compilación 9032) o superior y este no es el caso, debe solicitar al [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) que añada el parámetro &quot;useMomentum=true&quot; a la configuración de la instancia de ejecución (en el archivo [serverConf.xml](../../installation/using/the-server-configuration-file.md#mta)), que puede ser su instancia de marketing, &lt;a4/ instancia-sourcing](../../installation/using/mid-sourcing-server.md) o [instancia de ejecución de mensajería transaccional](../../message-center/using/creating-a-shared-connection.md#execution-instance), según la configuración.[
 
 Sin embargo, si está utilizando una instancia anterior que no incluye este código, se debe añadir una nueva regla de tipología denominada **[!UICONTROL Typology Rule for Enhanced MTAs]** a todas las tipologías existentes en la instancia de Campaign.
 Esta regla se añade mediante un paquete **[!UICONTROL Typology]** instalado como parte de la actualización al servidor de correo mejorado.
