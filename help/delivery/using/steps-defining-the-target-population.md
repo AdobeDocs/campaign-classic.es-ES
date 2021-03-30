@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+source-git-commit: 8e0c6951be9d2f9fb0e58af213cb8db4079f2225
 workflow-type: tm+mt
-source-wordcount: '1579'
-ht-degree: 100%
+source-wordcount: '1599'
+ht-degree: 95%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 100%
 
 ## Acerca de las poblaciones objetivo {#about-target-populations}
 
-Para cada entrega se pueden definir varios tipos de destinatarios. La sección siguiente proporciona más información sobre cómo seleccionar:
+Para cada envío, puede definir varios tipos de poblaciones objetivo:
 
-* Destinatarios principales de la entrega. [Más información](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
-* Los destinatarios de los mensajes de prueba para configurar un ciclo de validación. [Más información](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
-
-Además, si el envío se incluye en una campaña de marketing, también puede definir [direcciones semilla](../../delivery/using/about-seed-addresses.md) y [grupos de control](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+* **Audiencia** principal: perfiles que recibirán mensajes. [Obtenga más información](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
+* **Prueba**: destinatarios de mensajes de prueba implicados en el ciclo de validación. [Obtenga más información](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
+* **Direcciones** semilla: destinatarios que estén fuera del objetivo de la entrega pero que reciban la entrega (solo en el contexto de una campaña de marketing). [Obtenga más información](../../delivery/using/about-seed-addresses.md)
+* **Grupos** de control: población que no recibe la entrega, se utiliza para realizar el seguimiento del comportamiento y el impacto de la campaña (solo en el contexto de una campaña de marketing). [Más información](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
 
 ## Selección de los principales destinatarios de la entrega {#selecting-the-main-target}
 
