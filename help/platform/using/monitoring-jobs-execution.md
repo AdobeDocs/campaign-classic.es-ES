@@ -7,22 +7,22 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 100%
+source-wordcount: '184'
+ht-degree: 98%
 
 ---
 
 
-# Supervisión de la ejecución de trabajos {#monitoring-job-execution}
+# Monitorización de la ejecución de trabajos {#monitoring-job-execution}
 
 Puede realizar un seguimiento de la ejecución de los trabajos de importación y exportación directamente desde la lista de los trabajos de importación y exportación.
 
 ![](assets/s_ncs_user_export_list_and_details.png)
 
 * La pestaña **[!UICONTROL Journal]** permite ver los mensajes de registro relacionados con la ejecución.
-* La pestaña **[!UICONTROL Rejects]** contiene los registros rechazados. Consulte [Comportamiento en caso de error](../../platform/using/executing-import-jobs.md#behavior-in-the-event-of-an-error).
+* La pestaña **[!UICONTROL Rejects]** contiene los registros rechazados. Consulte [esta sección](../../platform/using/executing-import-jobs.md#behavior-in-the-event-of-an-error).
 
 En la pestaña **[!UICONTROL General]**, el campo **[!UICONTROL Status]** indica el estado actual de un trabajo.
 
