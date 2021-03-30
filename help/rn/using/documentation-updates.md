@@ -7,10 +7,10 @@ feature: Información general
 role: Profesional empresarial
 level: Principiante
 translation-type: tm+mt
-source-git-commit: d41119e61ee2088e1b8cab65354547420f8e7737
+source-git-commit: 57c1ca827beac9a3c95e63ca17fdb43be237eb28
 workflow-type: tm+mt
-source-wordcount: '4250'
-ht-degree: 95%
+source-wordcount: '4275'
+ht-degree: 94%
 
 ---
 
@@ -23,7 +23,9 @@ Consulte las [Notas de la versión de Adobe Campaign Classic](../../rn/using/lat
 
 ## Marzo de 2021 {#march-2021}
 
-Se ha añadido una nueva página con directrices y referencias para obtener asistencia sobre el Campaign Classic. [Obtenga más información](https://helpx.adobe.com/es/campaign/kb/ac-support.html)
+Se ha reorganizado y mejorado la sección [Introducción a SMS](../../delivery/using/sms-channel.md). Ahora puede aprender a [configurar el canal SMS](../../delivery/using/sms-set-up.md), [crear un SMS](../../delivery/using/sms-create.md), [enviar y rastrear SMS](../../delivery/using/sms-send.md) en secciones dedicadas.
+
+La página &quot;Opciones de ayuda y asistencia&quot; del Campaign Classic se ha integrado en la documentación principal. [Obtenga más información](../../support.md)
 
 Se ha añadido una nueva sección con prácticas recomendadas y comprobaciones para realizar con respecto a la seguridad y la privacidad. [Obtenga más información](../../installation/using/get-started-security-privacy.md)
 
@@ -440,7 +442,7 @@ Se ha añadido una nueva página de prácticas recomendadas para el conector de 
 
 La guía de introducción a las prácticas recomendadas de entrega se ha movido y actualizado. [Más información](../../delivery/using/delivery-best-practices.md)
 
-Se ha agregado una recomendación a la documentación del canal SMS para evitar problemas al utilizar varias cuentas externas que aprovechan el conector SMPP genérico ampliado con la misma cuenta de proveedor. [Más información](../../delivery/using/sms-channel.md#automatic-reply)
+Se ha agregado una recomendación a la documentación del canal SMS para evitar problemas al utilizar varias cuentas externas que aprovechan el conector SMPP genérico ampliado con la misma cuenta de proveedor. [Más información](../../delivery/using/sms-set-up.md#automatic-reply)
 
 Se agregó información en la documentación de actividad del Planificador sobre cómo evitar la ejecución simultánea de un flujo de trabajo. [Más información](../../workflow/using/scheduler.md)
 
