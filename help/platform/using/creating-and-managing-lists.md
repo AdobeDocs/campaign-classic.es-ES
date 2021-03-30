@@ -2,22 +2,22 @@
 solution: Campaign Classic
 product: campaign
 title: Creación y administración de listas
-description: Aprenda a crear y administrar listas
-audience: platform
-content-type: reference
-topic-tags: profile-management
+description: Obtenga información sobre cómo crear y administrar listas
+feature: Perfiles
+role: Profesional empresarial
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 99%
+source-wordcount: '808'
+ht-degree: 94%
 
 ---
 
 
-# Creación y administración de listas{#creating-and-managing-lists}
+# Crear y administrar listas{#creating-and-managing-lists}
 
-## Acerca de las listas en Adobe Campaign {#about-lists-in-adobe-campaign}
+## ¿Qué es una lista? {#about-lists-in-adobe-campaign}
 
 Una lista es un conjunto estático de perfiles que puede centrarse en acciones de envío o actualizarse durante operaciones de importación o durante la ejecución del flujo de trabajo. Por ejemplo, una población extraída de la base de datos mediante una consulta puede proporcionar una lista.
 
@@ -37,7 +37,7 @@ En Adobe Campaign, hay disponibles dos tipos de listas:
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#create-list-video)
 
-## Creación de una lista de perfiles a partir de un grupo {#creating-a-profile-list-from-a-group}
+## Crear una lista de perfiles a partir de un grupo {#creating-a-profile-list-from-a-group}
 
 Las listas de tipo **[!UICONTROL Group]** creadas mediante el vínculo **[!UICONTROL Profiles and targets]** se deben basar en la tabla de perfil de Adobe Campaign predeterminada (nms:destinatario).
 
@@ -69,7 +69,7 @@ Puede crear nuevos perfiles directamente desde la ventana Add profiles, haciendo
 
 ![](assets/s_ncs_user_new_recipient_from_group.png)
 
-La lista de perfiles se puede configurar del mismo modo que otras listas. Consulte [Configuración de listas](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
+La lista de perfiles se puede configurar del mismo modo que otras listas. Consulte [esta sección](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
 
 ## Vinculación de datos a una lista {#linking-data-to-a-list}
 
@@ -106,7 +106,7 @@ También puede editar la lista a través de la página principal de Adobe Campai
 
 ![](assets/s_ncs_user_add_selection_to_group_5.png)
 
-## Eliminación de perfiles de una lista {#removing-a-profile-from-a-list}
+## Eliminación de un perfil de una lista {#removing-a-profile-from-a-list}
 
 Para eliminar un perfil de una lista, puede:
 
@@ -118,7 +118,7 @@ Para eliminar un perfil de una lista, puede:
 
    ![](assets/recipient_remove_a_list.png)
 
-## Eliminación de una lista de perfiles {#deleting-a-list-of-profiles}
+## Eliminar una lista de perfiles {#deleting-a-list-of-profiles}
 
 Puede eliminar una o varias listas de la lista de grupos del árbol de Adobe Campaign. Para ello, edite el árbol a través del vínculo **[!UICONTROL Advanced > Explorer]** en la página principal de Adobe Campaign. Seleccione el grupo respectivo y haga clic con el botón derecho. Seleccione **[!UICONTROL Delete]**. Un mensaje de advertencia le pedirá que confirme la eliminación.
 
@@ -136,7 +136,7 @@ Aprenda cómo crear una audiencia configurando una lista de destinatarios desde 
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-### Cómo crear una lista de destinatarios con un flujo de trabajo {#create-list-in-a-wf-video}
+### Cómo utilizar un flujo de trabajo para crear una lista de destinatarios {#create-list-in-a-wf-video}
 
 Aprenda cómo crear un flujo de trabajo con el fin de apuntar los destinatarios y cómo volverlo recurrente antes de utilizar la lista en un destinatario de correo electrónico.
 
