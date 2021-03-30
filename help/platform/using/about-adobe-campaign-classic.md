@@ -3,13 +3,13 @@ solution: Campaign Classic
 product: campaign
 title: Acerca de Adobe Campaign Classic
 description: Descubra las funcionalidades clave, la interfaz de usuario y las directrices globales.
-audience: platform
-content-type: reference
-topic-tags: starting-with-adobe-campaign
+feature: Información general
+role: Profesional empresarial
+level: Principiante
 translation-type: tm+mt
-source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
+source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '915'
 ht-degree: 97%
 
 ---
@@ -23,7 +23,7 @@ Adobe Campaign permite coordinar la creación de campañas de marketing conversa
 
 >[!NOTE]
 >
->Adobe Campaign Classic está disponible en las versiones 6.11 y 7. Excepto cuando se menciona, los materiales de ayuda se aplican a ambas versiones, en la [última compilación](../../rn/using/latest-release.md). Las capturas de pantalla reflejan la interfaz de usuario de Campaign Classic v7.
+>Adobe Campaign Classic está disponible en las versiones 6.11 y 7. Salvo que se indique lo contrario, los materiales de ayuda se aplican a ambas versiones, en la [última versión](../../rn/using/latest-release.md). Las capturas de pantalla reflejan la interfaz de usuario de Campaign Classic v7.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra las funciones y características principales en vídeo](#video)
 
@@ -89,7 +89,7 @@ Estas son las funcionalidades disponibles. Según el acuerdo de licencia, alguna
 
 ## Vídeo tutorial {#video}
 
-Este vídeo presenta las funciones y funciones principales del Campaign Classic.
+Este vídeo presenta las funciones y características principales del Campaign Classic.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
 
