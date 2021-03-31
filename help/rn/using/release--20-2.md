@@ -7,10 +7,10 @@ feature: Información general
 role: Profesional empresarial
 level: Principiante
 translation-type: tm+mt
-source-git-commit: 1f718e26aeaa5ed5a58dfd0e3bc29d2dd9e995ee
+source-git-commit: a25f9464a762defa5d9a3b45bb60a387c65b7c97
 workflow-type: tm+mt
-source-wordcount: '2562'
-ht-degree: 97%
+source-wordcount: '2833'
+ht-degree: 89%
 
 ---
 
@@ -19,7 +19,26 @@ ht-degree: 97%
 
 ![](assets/do-not-localize/cp-icon.png) **la nueva versión de Panel de control de Campaign de octubre** con configuración de dominio mediante CNAME y nuevas funciones de supervisión de bases de datos. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
 
-## ![](assets/do-not-localize/green_2.png) Versión 20.2.4: compilación 9187 {#release-20-2-4-build-9187}
+## ![](assets/do-not-localize/green_2.png) Versión 20.2.5 - Compilación 9188 {#release-20-2-5-build-9188}
+
+_viernes, 31 de marzo de 2020_
+
+**Mejoras**
+
+* Se ha realizado una mejora para evitar bloqueos en llamadas de jabón no válidas. Esto podría hacer que la instancia deje de funcionar al intentar ejecutar consultas complejas específicas. (NEO-28796, NEO-30553)
+* Se ha corregido una regresión que impedía que se enviaran envíos SMS con TLS debido a la verificación del nombre de host. (NEO-29581)
+* Se ha corregido un problema que impedía que los vínculos de seguimiento firmados funcionaran en algunos clientes de correo electrónico. (NEO-28414, NEO-29615)
+* Se ha corregido una secuencia de id de seguimiento al usar etiquetas de seguimiento de webApp que podía provocar conflictos con ID duplicados. (NEO-27931)
+* Se ha corregido un problema que provocaba que los flujos de trabajo en ejecución se detuvieran al reiniciar el servidor wfserver diario. (NEO-30047)
+* Se ha corregido un problema de seguridad que se producía al intentar sincronizar plantillas de Adobe Experience Manager mediante llamadas API realizadas por usuarios no administradores. (NEO-32389, NEO-23487)
+* Se ha corregido un problema que hacía que la consola se bloqueara al cerrar un cuadro de diálogo de envío en una entrega creada con a partir de una plantilla. (NEO-31547)
+* Se ha corregido un problema que se producía al crear y guardar un envío en la pestaña **Targeting &amp; Workflow** de una campaña: la vista previa fallaría con el siguiente error. (NEO-29440)
+* Se ha corregido un problema por el que Tomcat 8.5 enviaba respuestas no válidas que causaban errores en los registros de mensajería transaccional. (NEO-30858)
+* Se ha corregido un problema de regresión que provocaba daños en la memoria en la administración de subprocesos externos e impactaba en el rendimiento.
+* Se ha corregido un problema que podría provocar que el flujo de trabajo de facturación falle al usar una asignación de destino personalizada. La clave principal del esquema personalizado se almacena en la columna &quot;sourceId&quot;, que solo permitía valores enteros. Ahora permite valores enteros y de cadena. (NEO-25914, NEO-28146)
+* Se ha corregido una regresión que impedía el uso de algunos componentes de la consola, como el selector de fechas y la administración de imágenes en los envíos. (NEO-31453)
+
+## ![](assets/do-not-localize/red_2.png) Versión 20.2.4: compilación 9187 {#release-20-2-4-build-9187}
 
 _22 de diciembre de 2020_
 
@@ -28,7 +47,6 @@ _22 de diciembre de 2020_
 > * Esta versión incorpora un nuevo protocolo de conexión: si se conecta a Campaign a través del servicio de identidad de Adobe (IMS), la actualización es obligatoria para que el servidor de Campaign y la consola del cliente puedan conectarse a Campaign después del **30 de junio de 2021**.
 > * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
 > * Si está utilizando la integración de Déclencheur de Experience Cloud mediante autenticación oAuth, debe pasar a Adobe I/O como se describe [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación oAuth heredado con Campaign se eliminará el **30 de noviembre de 2021**.
-
 
 
 **Mejoras**
