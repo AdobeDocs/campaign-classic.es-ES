@@ -6,14 +6,14 @@ description: Última versión de Campaign Classic Notas
 feature: Información general
 role: Profesional empresarial
 level: Principiante
+exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 translation-type: tm+mt
-source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
+source-git-commit: 3db426580ba72668cd9fa274b57f925600eda27b
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 97%
+source-wordcount: '905'
+ht-degree: 96%
 
 ---
-
 
 # Última versión{#latest-release}
 
@@ -21,12 +21,7 @@ Esta página lista las nuevas funcionalidades, mejoras y correcciones que se pro
 
 >[!NOTE]
 >
->Las **compilaciones de GA** de Campaign son:
->* [[!DNL Gold Standard] Versión 11](../../rn/using/gold-standard.md#gs-11)
->* [Versión 20.2.4 de Campaign](../../rn/using/release--20-2.md#release-20-2-4-build-9187)
-
->
-
+>Las compilaciones de **General Availability (GA) de Campaign** son: [[!DNL Gold Standard] Versión 11](../../rn/using/gold-standard.md#gs-11) y [Versión de Campaign 20.2.5](../../rn/using/release--20-2.md).
 
 
 ## ![](assets/do-not-localize/blue_2.png) Versión 21.1.1 - Compilación 9277 {#release-21-1-1-build-9277}
