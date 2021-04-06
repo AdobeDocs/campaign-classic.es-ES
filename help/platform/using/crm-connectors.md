@@ -6,14 +6,14 @@ description: Introducción a los conectores CRM en Campaign
 audience: platform
 content-type: reference
 topic-tags: connectors
+exl-id: 7ccab3a4-f323-464a-9ec4-dd597279d0eb
 translation-type: tm+mt
-source-git-commit: 2838ced5f5d562914c0791e6a0b8f02dd61006b4
+source-git-commit: 37802e52f1d1d38d9c3d59c439f23114a594bfef
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '158'
+ht-degree: 93%
 
 ---
-
 
 # Conectores CRM{#crm-connectors}
 
@@ -40,51 +40,5 @@ Los CRM y versiones compatibles se detallan en la [matriz de compatibilidad de C
 
 Aprenda el procedimiento paso a paso para conectar Campaign y Microsoft Dynamics [en esta sección](../../platform/using/crm-ms-dynamics.md)
 
-En general, para utilizar los conectores CRM en Adobe Campaign, siga estos pasos:
 
-1. Cree una nueva cuenta externa a través del nodo **[!UICONTROL Administration > Platform > External accounts]** en el árbol de Adobe Campaign.
-1. Seleccione el sistema CRM al que debe conectar Campaign.
-1. Introduzca la configuración para activar la conexión.
-1. Ejecute el asistente de configuración para generar la tabla CRM disponible: el asistente de configuración permite recopilar tablas y crear el esquema correspondiente.
-
-   Ejemplo del asistente de configuración de **Salesforce**:
-
-   ![](assets/crm_connectors_sfdc_launch.png)
-
-   >[!NOTE]
-   >
-   >Para aprobar la configuración, debe cerrar la sesión y volver a iniciarla en la consola de Adobe Campaign.
-
-1. Compruebe el esquema generado en Adobe Campaign en el nodo **[!UICONTROL Administration > Configuration > Data schemas]**.
-
-   Ejemplo de esquema de **Salesforce**:
-
-   ![](assets/crm_connectors_sfdc_table.png)
-
-1. Una vez creado el esquema, puede sincronizar las enumeraciones automáticamente con Adobe Campaign a través de CRM.
-
-   Para ello, haga clic en el enlace  **[!UICONTROL Synchronizing enumerations...]** y seleccione la lista desglosada de Adobe Campaign que coincida con la de CRM.
-
-   >[!NOTE]
-   >
-   >Puede reemplazar todos los valores de una enumeración de Adobe Campaign con los del CRM: para hacerlo, seleccione **[!UICONTROL Yes]** en la columna **[!UICONTROL Replace]**.
-
-   Ejemplo de enumeraciones de **Salesforce**:
-
-   ![](assets/crm_connectors_sfdc_enum.png)
-
-   Haga clic en **[!UICONTROL Next]** y a continuación **[!UICONTROL Start]** para iniciar la importación de la lista.
-
-1. Compruebe los valores importados en el menú **[!UICONTROL Administration > Platform > Enumerations]**.
-
-   ![](assets/crm_connectors_sfdc_exe.png)
-
-   >[!NOTE]
-   >
-   > No se admiten enumeraciones de varias selecciones en Salesforce.
-
-1. Para sincronizar datos entre los datos de Adobe Campaign y el sistema CRM, debe crear un flujo de trabajo y utilizar la actividad **[!UICONTROL CRM connector]**.
-
-   ![](assets/crm_connectors_sfdc_wf.png)
-
-   Obtenga más información acerca de la sincronización de datos [en esta página](../../platform/using/crm-data-sync.md).
+Aprenda el procedimiento paso a paso para conectar Campaign y Salesforce [en esta sección](../../platform/using/crm-sfdc.md)
