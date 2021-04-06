@@ -6,14 +6,14 @@ description: Conozca las prácticas recomendadas y las limitaciones al trabajar 
 audience: platform
 content-type: reference
 topic-tags: connectors
+exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
 translation-type: tm+mt
-source-git-commit: 0a92ebd6c9400f8caf43da8f633c7755a3fb77ce
+source-git-commit: 3b5a6e6f03d9cb26ed372c3df069cbada36756a2
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 37%
 
 ---
-
 
 # Prácticas recomendadas y limitaciones
 
@@ -60,4 +60,3 @@ Evite en la medida de lo posible las operaciones que requieran utilizar tanto Ad
 Si desea personalizar las entregas utilizando datos de la base de datos externa, recopile los datos para utilizarlos en un flujo de trabajo para que estén disponibles en una tabla temporal. A continuación, utilice los datos de la tabla temporal para personalizar su envío.
 
 La opción FDA está sujeta a las limitaciones del sistema de base de datos externo que utilice.
-
