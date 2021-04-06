@@ -6,14 +6,14 @@ description: Aprenda a comprender los errores de entrega
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
+exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 translation-type: tm+mt
-source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+source-git-commit: b7a3046600845781a7393a9d1e9659550d9bfcdd
 workflow-type: tm+mt
-source-wordcount: '2580'
-ht-degree: 99%
+source-wordcount: '2614'
+ht-degree: 98%
 
 ---
-
 
 # Comprensión de los errores de entrega{#understanding-delivery-failures}
 
@@ -263,6 +263,10 @@ Los correos electrónicos rechazados pueden tener el siguiente estado de clasifi
 * **[!UICONTROL Ignore]** : el correo rechazado es ignorado por el MTA de Campaign, lo que significa que esta devolución nunca hará que la dirección del destinatario se ponga en cuarentena. El flujo de trabajo de **actualización para la entrega** no lo usará y no se enviará a las instancias de cliente.
 
 ![](assets/deliverability_qualif_status.png)
+
+>[!NOTE]
+>
+>En caso de una interrupción de un ISP, los correos electrónicos enviados a través de Campaign se marcan erróneamente como rechazos. Para corregir esto, debe actualizar la calificación de devoluciones. Para obtener más información, consulte [esta página](../../delivery/using/update-bounce-qualification.md).
 
 ### Reglas de gestión de correo electrónico {#email-management-rules}
 
