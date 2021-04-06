@@ -1,19 +1,19 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Capacidad de entrega de correos electrónicos
-description: Capacidad de entrega de correos electrónicos
+title: Configuración técnica de correo electrónico
+description: Obtenga información sobre cómo configurar Campaign para controlar el resultado de las instancias al enviar correos electrónicos.
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 515adad2-6129-450a-bb9e-fc80127835af
 translation-type: tm+mt
-source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+source-git-commit: c62caeacd374b31f597f3c4b23318b8705fbda61
 workflow-type: tm+mt
-source-wordcount: '2993'
-ht-degree: 21%
+source-wordcount: '3022'
+ht-degree: 20%
 
 ---
-
 
 # Configuraciones técnicas de correo electrónico{#email-deliverability}
 
@@ -27,7 +27,7 @@ En la siguiente sección se proporciona una descripción general de la configura
 
 Para obtener más información sobre los conceptos y las prácticas recomendadas relacionadas con la capacidad de envío con Adobe Campaign, consulte esta [sección](../../delivery/using/about-deliverability.md).
 
-Para profundizar en lo que es la capacidad de envío, incluidas todas las recomendaciones técnicas relacionadas con la entrega y recepción eficientes de correos electrónicos por parte de una plataforma de Adobe, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+Para profundizar en lo que es la capacidad de envío, incluidas todas las recomendaciones técnicas relacionadas con la entrega y recepción eficientes de correos electrónicos por parte de una plataforma de Adobe, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es).
 
 ## Principio de funcionamiento {#operating-principle}
 
@@ -135,9 +135,11 @@ De forma predeterminada, el servidor de estadísticas escucha en el puerto 7777.
 >
 >En el caso de instalaciones alojadas o híbridas, si se ha actualizado al [servidor de correo mejorado](../../delivery/using/sending-with-enhanced-mta.md), ya no se utilizan las reglas de rendimiento de envíos **[!UICONTROL MX management]**. El servidor de correo mejorado utiliza sus propias reglas MX que le permiten personalizar el rendimiento por dominio en función de su propia reputación histórica de correo electrónico y de los comentarios en tiempo real procedentes de los dominios a los que envía correos electrónicos.
 
-Las secciones siguientes solo se aplican a instalaciones locales e instalaciones alojadas/híbridas que utilizan el MTA de Campaign heredado.
-
 ### Acerca de las reglas MX {#about-mx-rules}
+
+>[!NOTE]
+>
+>Esta sección y las secciones siguientes solo se aplican a instalaciones locales e instalaciones alojadas/híbridas que utilizan el MTA de Campaign heredado.
 
 Las reglas MX (Mail eXchanger) son las reglas que administran la comunicación entre un servidor emisor y un servidor receptor.
 
@@ -301,6 +303,10 @@ Los siguientes parámetros disponibles para cada regla son:
 Ejemplo de configuración:
 
 ![](assets/s_ncs_install_mx_mgt_rule_details.png)
+
+>[!NOTE]
+>
+>Para obtener más información sobre el uso de servidores MX con Adobe Campaign, consulte [esta sección](../../installation/using/using-mx-servers.md).
 
 ### Administración de formatos de correo electrónico {#managing-email-formats}
 
