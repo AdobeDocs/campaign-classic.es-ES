@@ -6,11 +6,11 @@ description: Acceso a campañas de marketing
 audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1045'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ Una vez que se conecte a Adobe Campaign, verá la página principal.
 
 ![](assets/campaign_global_view.png)
 
-Haga clic en los vínculos de la barra de navegación para acceder a las distintas funciones.
+Haga clic en los vínculos en la barra de navegación para acceder a las distintas funcionalidades.
 
-Los elementos de campaña se encuentran en la pestaña **[!UICONTROL Campaigns]**: aquí puede ver una descripción general de los programas y campañas de marketing, así como sus subconjuntos. Un programa de marketing consta de campañas, que están formadas por envíos, tareas, recursos vinculados, etc. En el contexto de la administración de campañas de marketing mediante Campaign, la información sobre los envíos, los presupuestos, los revisores y los documentos vinculados se encuentran en las campañas.
+Los elementos de Campaign se encuentran en la pestaña **[!UICONTROL Campaigns]**: aquí puede ver una descripción general de los programas y las campañas de marketing, así como sus subconjuntos. Un programa de marketing consta de campañas, que están formadas por envíos, tareas, recursos vinculados, etc. En el contexto de la administración de campañas de marketing mediante Campaign, la información sobre los envíos, los presupuestos, los revisores y los documentos vinculados se encuentran en las campañas.
 
 El bloque **[!UICONTROL Browsing]** de la pestaña **[!UICONTROL Campaigns]** ofrece varias entradas, según los módulos instalados en la instancia. Por ejemplo, puede acceder a:
 
@@ -46,7 +46,7 @@ El bloque **[!UICONTROL Browsing]** de la pestaña **[!UICONTROL Campaigns]** of
 
 ### Calendario de campañas {#campaign-calendar}
 
-Cada campaña pertenece a un programa que, a su vez, pertenece a un plan. Se accede a los planes, programas y campañas a través del menú **[!UICONTROL Campaign calendar]** en la pestaña **Campaigns**.
+Cada campaña pertenece a un programa que, a su vez, pertenece a un plan. Se accede a los planes, programas y campañas a través del menú **[!UICONTROL Campaign calendar]** de la pestaña **Campañas**.
 
 Para editar un plan, programa, campaña o entrega, haga clic en su nombre en el calendario y luego haga clic en **[!UICONTROL Open...]** A continuación se muestra en una nueva pestaña, como se muestra a continuación:
 
@@ -95,7 +95,7 @@ Se puede acceder a las campañas a través del calendario de campañas, de la pe
    ![](assets/campaign_op_edit.png)
 
 1. A través de la pestaña **[!UICONTROL Schedule]** del programa, la forma de editarlo es la misma que a través del calendario de campañas.
-1. Mediante el enlace **[!UICONTROL Campaigns]** de la pestaña **[!UICONTROL Campaigns]**, haga clic en el nombre de la campaña que desee editar.
+1. Mediante el vínculo **[!UICONTROL Campaigns]** de la pestaña **[!UICONTROL Campaigns]**, haga clic en el nombre de la campaña que desee editar.
 
    ![](assets/campaign_edit_from_list.png)
 
