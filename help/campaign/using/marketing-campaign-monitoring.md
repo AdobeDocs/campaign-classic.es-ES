@@ -6,11 +6,11 @@ description: Seguimiento de campañas de marketing
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '245'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Para comprobar el estado de una entrega, edite y vea su panel y pestañas.
 
 >[!NOTE]
 >
->La información sobre los detalles del envío está disponible en la sección [esta sección](../../delivery/using/about-message-tracking.md).
+>La información sobre los detalles del envío está disponible en [esta sección](../../delivery/using/about-message-tracking.md).
 
 ## Seguimiento de ejecución {#execution-tracking}
 
