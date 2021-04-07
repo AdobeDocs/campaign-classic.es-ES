@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Administrar permisos de flujo de trabajo
+title: Administración de permisos de flujo de trabajo
 description: Obtenga información sobre cómo administrar los permisos de flujo de trabajo
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '321'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# Administrar permisos de flujo de trabajo{#managing-rights}
+# Administración de permisos de flujo de trabajo{#managing-rights}
 
 Si no son administradores, los operadores de Adobe Campaign necesitan derechos de acceso para crear, ejecutar o modificar los flujos de trabajo.
 
