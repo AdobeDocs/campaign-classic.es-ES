@@ -6,11 +6,11 @@ description: Más información sobre la configuración de las propiedades del in
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Las opciones posibles son:
 
 * **[!UICONTROL Anonymous access]**: esta opción habilita el acceso al informe sin restricciones. Sin embargo, no es posible realizar ninguna manipulación.
 
-   Los permisos del operador técnico &quot;webapp&quot; se utilizan para mostrar los elementos del informe. Obtenga más información [en esta sección](../../platform/using/access-management-operators.md).
+   Los derechos del operador técnico “webapp” se utilizan para mostrar los elementos del informe. Obtenga más información [en esta sección](../../platform/using/access-management-operators.md).
 
 * **[!UICONTROL Access control]**: esta opción permite a los operadores de Adobe Campaign acceder una vez que han iniciado sesión.
 * **[!UICONTROL Specific account]**: esta opción permite ejecutar el informe con los derechos del operador seleccionado en el campo **[!UICONTROL Operator]**.
