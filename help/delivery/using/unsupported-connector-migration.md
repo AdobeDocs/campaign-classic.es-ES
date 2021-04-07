@@ -1,20 +1,20 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Migración de conectores SMS no admitida
+title: Migración de conectores SMS no compatibles
 description: Migración de conectores SMS no compatibles al conector genérico SMPP extendido
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 hidefromtoc: true
+exl-id: 60acf80c-8506-410b-ab2c-4f67a5677b43
 translation-type: tm+mt
-source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
-
 
 # Migración de conectores SMS no compatibles al conector genérico SMPP extendido{#unsupported-connector-migration}
 
@@ -22,7 +22,7 @@ A partir de la versión 20.2, los conectores heredados quedan obsoletos. Este do
 
 >[!CAUTION]
 >
->Esta migración no es obligatoria, pero la Adobe la recomienda y le garantizará que está ejecutando la última versión compatible del software.
+>Esta migración no es obligatoria, pero Adobe la recomienda y le garantizará que está ejecutando la última versión compatible del software.
 
 ## Acerca de los conectores SMS {#about-sms-connectors}
 
@@ -35,19 +35,19 @@ Los siguientes conectores quedan obsoletos a partir de la versión 20.2:
 * **[!UICONTROL O2]**
 * **[!UICONTROL iOS]**
 
-Las funciones obsoletas siguen estando disponibles y son compatibles, pero no se mejorarán aún más. Se recomienda utilizar el conector **[!UICONTROL Extended generic SMPP]**.
+Las funciones obsoletas siguen estando disponibles y son compatibles, pero no se seguirán mejorando. Se recomienda utilizar el conector **[!UICONTROL Extended generic SMPP]**.
 
 Para obtener más información sobre las funciones obsoletas y eliminadas, consulte esta [página](../../rn/using/deprecated-features.md).
 
-Los conectores SMS antiguos utilizan el conector SMS de Java que sobrecarga el proceso web. Al migrar al nuevo conector **[!UICONTROL Extended Generic SMPP]**, se moverá esta carga al MTA que puede admitirla.
+Los conectores SMS antiguos utilizan el conector SMS de Java que sobrecarga el proceso web. Al migrar al nuevo conector **[!UICONTROL Extended Generic SMPP]**, se moverá esta carga al servidor de correo que puede admitirla.
 
 ## Migración al conector genérico SMPP extendido {#migrating-extended-generic-smpp}
 
 >[!CAUTION]
 >
->Incluso si puede transponer los parámetros, la configuración del conector **[!UICONTROL Extended Generic SMPP]** requiere que hable con su proveedor, que le proporcionará la información necesaria para rellenar el resto de los parámetros. Para obtener más información, consulte [esta página](../../delivery/using/sms-protocol.md).
+>Incluso si puede transponer los parámetros, la configuración del conector **[!UICONTROL Extended Generic SMPP]** requiere que hable con su proveedor, que le proporcionará la información necesaria para rellenar el resto de los parámetros. Para obtener más información, consulte esta [página](../../delivery/using/sms-protocol.md).
 
-En primer lugar, debe crear una nueva cuenta externa **[!UICONTROL Extended Generic SMPP]** y, a continuación, puede transponer algunos de los parámetros. Puede encontrar los pasos detallados en esta [página](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
+En primer lugar, debe crear una cuenta externa **[!UICONTROL Extended Generic SMPP]** nueva y, a continuación, puede transponer algunos de los parámetros. Puede encontrar los pasos detallados en esta [página](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
 
 Ahora debe rellenar los parámetros de la pestaña **[!UICONTROL Mobile]** de la cuenta externa **[!UICONTROL Extended Generic SMPP]** recién creada, según el conector anterior.
 
@@ -96,8 +96,8 @@ En la pestaña **[!UICONTROL Mapping of Encoding]**:
 
 En la pestaña **[!UICONTROL SMSC specificities]**:
 
-* **[!UICONTROL Coding when sending]** corresponde a  **[!UICONTROL ID Format in MT acknowledgement]**
-* **[!UICONTROL Coding when receiving]** corresponde a  **[!UICONTROL ID Format in the SR]**
+* **[!UICONTROL Coding when sending]** corresponde a **[!UICONTROL ID Format in MT acknowledgement]**
+* **[!UICONTROL Coding when receiving]** corresponde a **[!UICONTROL ID Format in the SR]**
 
 ### Desde el conector Sybase365 {#from-sybase}
 
@@ -133,8 +133,8 @@ En la pestaña **[!UICONTROL SMPP Channel Settings]**:
 
 En la pestaña **[!UICONTROL SMSC specificities]**:
 
-* **[!UICONTROL Coding when sending]** corresponde a  **[!UICONTROL ID Format in MT acknowledgement]**
-* **[!UICONTROL Coding when receiving]** corresponde a  **[!UICONTROL ID Format in the SR]**
+* **[!UICONTROL Coding when sending]** corresponde a **[!UICONTROL ID Format in MT acknowledgement]**
+* **[!UICONTROL Coding when receiving]** corresponde a **[!UICONTROL ID Format in the SR]**
 
 ### Desde el conector Tele2 {#from-tele2}
 
