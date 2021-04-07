@@ -6,11 +6,11 @@ description: Integración de una oferta mediante el asistente
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '803'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Para presentar una oferta durante una campaña de marketing, simplemente cree un
 
 ![](assets/offer_delivery_009.png)
 
-Obtenga más información sobre los envíos de correo postal [en esta sección](../../delivery/using/about-direct-mail-channel.md). Obtenga más información sobre campañas de marketing [en esta sección](../../campaign/using/setting-up-marketing-campaigns.md).
+Obtenga más información sobre los envíos de correo postal [en esta sección](../../delivery/using/about-direct-mail-channel.md). Obtenga más información acerca de las campañas de marketing [en esta sección](../../campaign/using/setting-up-marketing-campaigns.md).
 
 ### Pasos principales para insertar una oferta en una entrega {#main-steps-for-inserting-an-offer-into-a-delivery}
 
