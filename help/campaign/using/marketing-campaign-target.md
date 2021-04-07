@@ -6,24 +6,24 @@ description: Aprenda a definir la audiencia de las campañas de marketing
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1485'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
-# Seleccione la audiencia de las campañas {#marketing-campaign-deliveries}
+# Selección de la audiencia de las campañas {#marketing-campaign-deliveries}
 
-En una campaña de marketing, para cada entrega, puede definir:
+En una campaña de marketing, puede definir lo siguiente por envío:
 
-* Audiencia: obtenga más información sobre [Creación de la audiencia en un flujo de trabajo](#building-the-main-target-in-a-workflow) y [Selección de la población objetivo](#selecting-the-target-population).
+* Audiencia: obtenga más información sobre la [Creación de la audiencia en un flujo de trabajo](#building-the-main-target-in-a-workflow) y [Selección de la población objetivo](#selecting-the-target-population).
 * Un grupo de control: obtenga más información en [esta sección](#defining-a-control-group).
-* Direcciones semilla: obtenga más información sobre [esta sección](../../delivery/using/about-seed-addresses.md).
+* Direcciones semilla: obtenga más información en [esta sección](../../delivery/using/about-seed-addresses.md).
 
-Parte de esta información se puede heredar de la [plantilla de campaña](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+Parte de esta información se hereda de la [plantilla de campaña](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
 Para crear el destino de la entrega, puede definir criterios de filtrado para los destinatarios en la base de datos. Este modo de selección de destinatario se presenta en [esta sección](../../delivery/using/steps-defining-the-target-population.md).
 
@@ -31,7 +31,7 @@ Para crear el destino de la entrega, puede definir criterios de filtrado para lo
 
 Puede importar una población a una lista y luego establecer como objetivo esta lista en las entregas. Para realizar esto, siga los pasos a continuación:
 
-1. Edite la entrega correspondiente y haga clic en el enlace **[!UICONTROL To]** para cambiar la población de destino.
+1. Para ello, edite la entrega correspondiente y haga clic en el vínculo **[!UICONTROL To]** para cambiar la población de destino.
 
 1. En la pestaña **[!UICONTROL Main target]**, seleccione la opción **[!UICONTROL Defined via the database]** y haga clic en **[!UICONTROL Add]** para seleccionar destinatarios.
 
@@ -41,9 +41,9 @@ Puede importar una población a una lista y luego establecer como objetivo esta 
 
 ![](assets/s_user_target_group_next.png)
 
-## Crear la audiencia en un flujo de trabajo de campaña {#building-the-main-target-in-a-workflow}
+## Creación de la audiencia en un flujo de trabajo de campaña {#building-the-main-target-in-a-workflow}
 
-El objetivo principal de una entrega también se puede definir en el flujo de trabajo de la campaña: este entorno gráfico permite crear un objetivo mediante consultas, pruebas y operadores: unión, deduplicación, uso compartido, etc.
+El objetivo principal de una entrega también se puede definir en el flujo de trabajo de campaña: este entorno gráfico permite crear un objetivo utilizando consultas, pruebas y operadores: unión, deduplicación, uso compartido, etc.
 
 >[!IMPORTANT]
 >
@@ -169,15 +169,15 @@ Los iconos de la barra de herramientas permiten realizar acciones en cuanto a la
 
    ![](assets/s_user_segmentation_stop_unconditional.png)
 
-## Agregar un grupo de control {#defining-a-control-group}
+## Adición de un grupo de control {#defining-a-control-group}
 
 Un grupo de control es una población que no recibe la entrega; se utiliza para rastrear el comportamiento tras la entrega y el impacto de la campaña estableciendo una comparación con el comportamiento de la población de destino que recibió la entrega.
 
 El grupo de control se puede extraer del objetivo principal o provenir de un grupo o consulta específicos.
 
-### Activar el grupo de control para una campaña {#activating-the-control-group-for-a-campaign}
+### Activación del grupo de control para una campaña {#activating-the-control-group-for-a-campaign}
 
-Puede definir un grupo de control al nivel de la campaña, en cuyo caso se aplica el grupo de control a cada entrega de la campaña correspondiente.
+Puede definir un grupo de control en el nivel de la campaña, en cuyo caso se aplica el grupo de control a cada entrega de la campaña correspondiente.
 
 1. Edite la campaña en cuestión y haga clic en la pestaña **[!UICONTROL Edit]** .
 1. Haga clic **[!UICONTROL Advanced campaign settings]**.
@@ -191,7 +191,7 @@ Puede definir un grupo de control al nivel de la campaña, en cuyo caso se aplic
 
 El procedimiento de configuración se presenta en [Extracción del grupo de control a partir del objetivo principal](#extracting-the-control-group-from-the-main-target) y [Adición de una población](#adding-a-population).
 
-### Activación del grupo de control para un envío {#activating-the-control-group-for-a-delivery}
+### Activación del grupo de control para una entrega {#activating-the-control-group-for-a-delivery}
 
 Puede definir un grupo de control al nivel de la entrega, en cuyo caso se aplica el grupo de control a cada entrega de la campaña correspondiente.
 
@@ -210,7 +210,7 @@ De manera predeterminada, la configuración del grupo de control definida al niv
 
 El procedimiento de configuración se presenta en [Extracción del grupo de control a partir del objetivo principal](#extracting-the-control-group-from-the-main-target) y [Adición de una población](#adding-a-population).
 
-### Extraer el grupo de control del destino principal {#extracting-the-control-group-from-the-main-target}
+### Extracción del grupo de control a partir del objetivo principal {#extracting-the-control-group-from-the-main-target}
 
 Puede extraer destinatarios del objetivo principal de la entrega. En este caso, los destinatarios se toman del objetivo de las acciones de envío afectadas por esta configuración. Esta extracción puede ser aleatoria o puede ser el resultado de la ordenación de los destinatarios.
 
@@ -227,7 +227,7 @@ Haga clic en **[!UICONTROL Next]** para definir el orden de clasificación (si e
 
 Esta configuración equivale a una actividad de uso compartido en el flujo de trabajo, lo que permite desglosar el objetivo en subconjuntos. El grupo de control es uno de estos subconjuntos. Consulte [esta sección](../../workflow/using/architecture.md) para obtener más información.
 
-### Usar una nueva población como grupo de control {#adding-a-population}
+### Uso de una nueva población como grupo de control {#adding-a-population}
 
 Puede definir una nueva población para utilizarla como grupo de control. Puede crear esta población a partir de un grupo de destinatarios o a través de una consulta específica.
 
@@ -238,7 +238,7 @@ Puede definir una nueva población para utilizarla como grupo de control. Puede 
 >El editor de consultas de Adobe Campaign se muestra en [esta sección](../../workflow/using/query.md).
 
 
-#### Vídeo tutorial {#create-email-video}
+#### Videotutorial {#create-email-video}
 
 En este vídeo se explica cómo crear una campaña y un correo electrónico en Adobe Campaign.
 
