@@ -6,14 +6,14 @@ description: Preguntas más frecuentes sobre Adobe Campaign Classic
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
+exl-id: 9f1b0974-f8bd-430f-88fe-9c09b0074d3b
 translation-type: tm+mt
-source-git-commit: 7b1e6dd00943e10dff693d78b3aa7cf2ad3e6727
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 97%
 
 ---
-
 
 # Preguntas frecuentes{#common-questions}
 
@@ -75,4 +75,3 @@ Un subdominio es una división de su dominio que puede utilizarse para aislar su
 En el marco de la oferta de Adobe Campaign Cloud Marketing, Adobe tiene en consideración el Sistema de Nombres de Dominio (DNS) para la entrega por correo electrónico, que permite al cliente mantener su imagen de marca utilizando un alias DNS con sus nombres de dominio y a Adobe implementar de forma autónoma todas las mejores prácticas técnicas que le permitan optimizar la tasa de entrega durante la entrega de correo electrónico.
 
 [Haga clic aquí para obtener más información](https://helpx.adobe.com/es/campaign/kb/domain-name-delegation.html).
-
