@@ -6,11 +6,11 @@ description: Uso de cubos para explorar datos
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '956'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Marketing Analytics facilita la creación de informes y la identificación y sel
 
 ### Paso 1: Creación de un informe basado en un cubo {#step-1---creating-a-report-based-on-a-cube}
 
-Para crear un informe basado en un cubo, haga clic en el botón **[!UICONTROL Create]** en la pestaña **[!UICONTROL Reports]** y seleccione el cubo que desee utilizar.
+Para crear un informe basado en un cubo, haga clic en el botón **[!UICONTROL Create]** de la pestaña **[!UICONTROL Reports]** y seleccione el cubo que desee utilizar.
 
 El proceso se detalla aquí: [Creación de un informe basado en un cubo](../../reporting/using/creating-indicators.md#creating-a-report-based-on-a-cube).
 
