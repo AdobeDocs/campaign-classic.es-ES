@@ -6,16 +6,16 @@ description: Plantillas de campañas de marketing
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1128'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
-# Crear y configurar plantillas de campaña {#campaign-templates}
+# Creación y configuración de plantillas de campaña {#campaign-templates}
 
 Todas las campañas de marketing se basan en una plantilla que almacena las características y capacidades principales. Las plantillas de campaña están centralizadas en el nodo **[!UICONTROL Resources > Templates > Campaign templates]**. Se proporciona una plantilla predeterminada como estándar. Permite crear una nueva campaña utilizando todos los módulos disponibles (documentos, tareas, direcciones semilla, etc.); sin embargo, los módulos ofrecidos dependen de los derechos y de la configuración de la plataforma de Adobe Campaign.
 
@@ -25,13 +25,13 @@ Todas las campañas de marketing se basan en una plantilla que almacena las cara
 >
 >El árbol se muestra al hacer clic en el icono **[!UICONTROL Explorer]** de la página de inicio.
 
-Se proporciona una plantilla integrada para crear una campaña para la que no se ha definido ninguna configuración específica. Puede crear y configurar las plantillas de campañas y luego crear campañas a partir de estas plantillas.
+Se proporciona una plantilla para crear una campaña sin ninguna configuración específica definida. Puede crear y configurar las plantillas de campañas y luego crear campañas a partir de estas plantillas.
 
-![](assets/do-not-localize/how-to-video.png) Para obtener más información sobre la creación de campañas, consulte [este vídeo](../../campaign/using/marketing-campaign-deliveries.md#create-email-video).
+![](assets/do-not-localize/how-to-video.png) Para obtener más información sobre la creación de campañas, vea [este vídeo](../../campaign/using/marketing-campaign-deliveries.md#create-email-video).
 
-## Crear una plantilla de campaña {#creating-or-duplicating-a-campaign-template}
+## Creación de una plantilla de campaña {#creating-or-duplicating-a-campaign-template}
 
-Para crear una plantilla de campaña, siga los pasos a continuación:
+Para crear una plantilla de campaña, siga estos pasos:
 
 1. Abra el **Explorer** de Campaign.
 1. En **Resources > Templates > Campaign templates**, haga clic en **New** en la barra de herramientas de la lista de plantillas.
@@ -63,13 +63,13 @@ Las distintas pestañas y subpestañas de la plantilla de campaña permiten acce
 
 ![](assets/s_ncs_user_new_op_template_duplicate.png)
 
-## Seleccionar módulos {#select-modules}
+## Selección de módulos {#select-modules}
 
-El vínculo **[!UICONTROL Advanced campaign settings...]** permite habilitar y deshabilitar los trabajos de las campañas en función de esta plantilla. Seleccione las capacidades que desee habilitar en las campañas creadas en función de esta plantilla.
+El vínculo **[!UICONTROL Advanced campaign settings...]** permite habilitar y deshabilitar los trabajos de las campañas en función de esta plantilla. Seleccione las funciones que desee habilitar en las campañas creadas en función de esta plantilla.
 
 ![](assets/s_ncs_user_op_template_tab1.3.png)
 
-Si no se selecciona una capacidad, los elementos correspondientes al proceso (menús, iconos, opciones, pestañas, subpestañas, etc.) no aparecen en la interfaz de la plantilla ni en las campañas basadas en esta plantilla. Las pestañas a la izquierda de los detalles de la campaña generalmente coinciden con los procesos seleccionados en la plantilla. Por ejemplo: si no se selecciona **Expenses and Objectives**, la pestaña correspondiente **[!UICONTROL Budget]** no se muestra en las campañas basadas en esta plantilla.
+Si no se selecciona una capacidad, los elementos correspondientes al proceso (menús, iconos, opciones, pestañas, subpestañas, etc.) no aparecerán en la interfaz de la plantilla ni en las campañas basadas en esta plantilla. Las pestañas a la izquierda de los detalles de la campaña generalmente coinciden con los procesos seleccionados en la plantilla. Por ejemplo: si no se selecciona **Expenses and Objectives**, la pestaña correspondiente **[!UICONTROL Budget]** no se muestra en las campañas basadas en esta plantilla.
 
 Además, los accesos directos a las ventanas de configuración se añaden al panel de campañas. Cuando una funcionalidad está habilitada, un vínculo directo le permite acceder a ella desde el panel de campañas.
 
@@ -97,31 +97,31 @@ Se muestran los siguientes vínculos y pestañas:
 
 * **Grupo de control**
 
-   Cuando se selecciona este módulo, se añade una pestaña adicional a la configuración avanzada de la plantilla y a las campañas basadas en esta plantilla. La configuración se puede definir mediante la plantilla o por separado para cada campaña. Obtenga más información sobre los grupos de control en [esta sección](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+   Cuando se selecciona este módulo, se añade una pestaña adicional a la configuración avanzada de la plantilla y a las campañas basadas en esta plantilla. La configuración se puede definir mediante la plantilla o bien por separado para cada campaña. Obtenga más información sobre los grupos de control en [esta sección](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
    ![](assets/s_ncs_user_op_template_activate_1.png)
 
 * **Direcciones semilla**
 
-   Cuando se selecciona este módulo, se añade una pestaña adicional a la configuración avanzada de la plantilla y a las campañas basadas en esta plantilla. La configuración se puede definir mediante la plantilla o por separado para cada campaña. Obtenga más información sobre las direcciones semilla en [esta sección](../../delivery/using/about-seed-addresses.md).
+   Cuando se selecciona este módulo, se añade una pestaña adicional a la configuración avanzada de la plantilla y a las campañas basadas en esta plantilla. La configuración se puede definir mediante la plantilla o bien por separado para cada campaña. Obtenga más información sobre las direcciones semilla en [esta sección](../../delivery/using/about-seed-addresses.md).
 
    ![](assets/s_ncs_user_op_template_activate_2.png)
 
 * **Documentos**
 
-   Cuando se selecciona este módulo, se añade una pestaña adicional a la pestaña **[!UICONTROL Edition]** de la plantilla y a las campañas basadas en esta plantilla. Los documentos adjuntos se pueden agregar desde la plantilla o individualmente para cada campaña. Obtenga más información sobre los documentos en [esta sección](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents).
+   Cuando se selecciona este módulo, se añade una pestaña adicional a la pestaña **[!UICONTROL Edition]** de la plantilla y a las campañas basadas en esta plantilla. Los documentos adjuntos se pueden agregar desde la plantilla o bien por separado para cada campaña. Obtenga más información sobre los documentos en [esta sección](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents).
 
    ![](assets/s_ncs_user_op_template_activate_3.png)
 
 * **Descripción**
 
-   Cuando se selecciona este módulo, se añade una pestaña adicional de **[!UICONTROL Delivery outlines]** a la pestaña de **[!UICONTROL Documents]** para definir los esquemas de entrega de la campaña. Obtenga más información sobre los esquemas de entrega en [esta sección](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+   Cuando se selecciona este módulo, se añade una subpestaña **[!UICONTROL Delivery outlines]** a la pestaña **[!UICONTROL Documents]** para definir los esquemas de entrega de la campaña. Obtenga más información sobre los esquemas de entrega en [esta sección](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
    ![](assets/s_ncs_user_op_template_activate_4.png)
 
 * **Establecimiento de objetivos y flujos de trabajo**
 
-   Al seleccionar el módulo de **[!UICONTROL Targeting and workflows]**, se añade una pestaña para permitirle crear uno o más flujos de trabajo para las campañas basadas en esta plantilla. Los flujos de trabajo también se pueden configurar individualmente para cada campaña basada en esta plantilla. Obtenga más información sobre los flujos de trabajo de campaña en [esta sección](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
+   Al seleccionar el módulo de **[!UICONTROL Targeting and workflows]**, se añade una pestaña para permitirle crear uno o más flujos de trabajo para las campañas basadas en esta plantilla. Los flujos de trabajo también se pueden configurar por separado para cada campaña basada en esta plantilla. Obtenga más información sobre los flujos de trabajo de campañas en [esta sección](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 
    ![](assets/s_ncs_user_op_template_activate_5.png)
 
@@ -131,7 +131,7 @@ Se muestran los siguientes vínculos y pestañas:
 
 * **Aprobación**
 
-   Si selecciona **[!UICONTROL Approval]**, puede seleccionar los procesos de aprobación, así como los operadores asignados al proceso de aprobación. Obtenga más información sobre las aprobaciones en [esta sección](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
+   Si selecciona **[!UICONTROL Approval]**, puede seleccionar los procesos de aprobación, así como los operadores asignados al proceso de aprobación. Obtenga más información sobre aprobaciones en [esta sección](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
 
    ![](assets/s_ncs_user_op_template_activate_5b.png)
 
@@ -141,7 +141,7 @@ Se muestran los siguientes vínculos y pestañas:
 
 * **Gastos y objetivos**
 
-   Cuando se selecciona este módulo, se añade una pestaña de **[!UICONTROL Budget]** a los detalles de la plantilla y a las campañas basadas en esta plantilla, de modo que se pueda seleccionar el presupuesto asociado.
+   Cuando se selecciona este módulo, se añade una pestaña **[!UICONTROL Budget]** a los detalles de la plantilla y las campañas basadas en esta plantilla, de modo que se pueda seleccionar el presupuesto asociado.
 
    ![](assets/s_ncs_user_op_template_activate_7.png)
 
