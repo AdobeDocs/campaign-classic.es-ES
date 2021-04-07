@@ -6,9 +6,9 @@ description: Obtenga más información sobre las directrices generales para el s
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e52d1963b72593c5dab8ced9e459d25b05044022
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '685'
 ht-degree: 100%
 
