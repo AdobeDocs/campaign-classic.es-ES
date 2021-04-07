@@ -6,11 +6,11 @@ description: Creación de una campaña local
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1564'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -151,7 +151,7 @@ Localice el código HTML de la entrega. Por ejemplo, en **[!UICONTROL Delivery >
 
 ![](assets/mkt_dist_local_campaign_localize_html.png)
 
-Guarde la plantilla de campaña. Ahora puede usarlo desde la vista **[!UICONTROL Campaign packages]** en la pestaña **[!UICONTROL Campaigns]** haciendo clic en el botón **[!UICONTROL Create]**.
+Guarde la plantilla de campaña. Ahora puede usarlo desde la vista **[!UICONTROL Campaign packages]** en la pestaña **[!UICONTROL Campaigns]**, haciendo clic en el botón **[!UICONTROL Create]**.
 
 ![](assets/mkt_distr_9.png)
 
@@ -270,7 +270,7 @@ Para solicitar una campaña:
 
    Para obtener más información, consulte la sección [Proceso de aprobación](#approval-process).
 
-1. El operador local recibe una notificación cuando la campaña está disponible: la disponibilidad de la campaña se puede encontrar en la lista de paquetes de campañas dentro de la pestaña **Campaigns**. La campaña entonces se puede utilizar. Para obtener más información, consulte [Acceso a campañas](../../campaign/using/accessing-campaigns.md).
+1. El operador local recibe una notificación cuando la campaña está disponible: la disponibilidad de la campaña puede encontrarse en la lista de paquetes de campañas en la pestaña **Campañas**. La campaña entonces se puede utilizar. Para obtener más información, consulte [Acceso a campañas](../../campaign/using/accessing-campaigns.md).
 
    La opción **[!UICONTROL Start targeting with order approval]** permite que la entidad local ejecute la campaña en cuanto se apruebe la solicitud.
 
@@ -280,7 +280,7 @@ Para solicitar una campaña:
 
 Para confirmar una solicitud de campaña, la entidad central debe aprobarla.
 
-La información general **[!UICONTROL Campaign orders]**, a la que se accede a través de la pestaña **Campaigns**, permite ver el estado de las solicitudes de campaña y aprobarlas.
+La vista general de **[!UICONTROL Campaign orders]**, a la que se accede a través de la pestaña **Campañas**, permite ver el estado de las solicitudes de campaña y aprobarlas.
 
 >[!NOTE]
 >
