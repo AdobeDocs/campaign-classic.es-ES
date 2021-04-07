@@ -6,16 +6,16 @@ description: Uso de una plantilla de formulario web
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Usar una plantilla de formulario web{#using-a-web-form-template}
+# Uso de una plantilla de formulario web{#using-a-web-form-template}
 
 Las plantillas de formulario son configuraciones reutilizables que permiten crear formularios nuevos. De forma predeterminada, las plantillas de formulario se almacenan con las plantillas de aplicación web en el nodo **[!UICONTROL Resources > Templates > Web application templates]**.
 
