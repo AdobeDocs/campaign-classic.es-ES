@@ -6,11 +6,11 @@ description: Administración de plantillas
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '114'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Para añadir una plantilla, consulte [Opciones globales](../../web/using/content
 
 Después de configurar una entrega, puede guardarla como plantilla para reutilizarla en futuras entregas.
 
-En la pestaña **Campaigns**, abra el envío seleccionado. Haga clic en el botón **Guardar como plantilla**, asigne un nombre a la plantilla y guárdela.
+En la pestaña **Campañas**, abra la entrega seleccionada. Haga clic en el botón **Guardar como plantilla**, asigne un nombre a la plantilla y guárdela.
 
 ![](assets/dce_save_model.png)
 
