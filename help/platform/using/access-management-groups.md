@@ -1,27 +1,27 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Crear y administrar grupos de operadores
-description: Obtenga información sobre cómo conceder acceso a grupos de operadores
+title: Creación y administración de grupos de operadores
+description: Aprenda a conceder acceso a grupos de operadores
 feature: Gestión de acceso
-role: Profesional empresarial, administrador
-level: Principiante
+role: Business Practitioner, Administrator
+level: Beginner
+exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
 translation-type: tm+mt
-source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 94%
+source-wordcount: '500'
+ht-degree: 99%
 
 ---
 
-
-# Crear y administrar grupos de operadores {#operator-groups}
+# Creación y administración de grupos de operadores {#operator-groups}
 
 Los grupos de operadores se crean mediante el nodo **[!UICONTROL Administration > Access management > Operator groups]** del árbol.
 
-## Crear un nuevo grupo de operadores {#creating-a-new-operator-group}
+## Creación de un grupo de operadores nuevo {#creating-a-new-operator-group}
 
-Para crear un grupo de operadores nuevo siga los siguientes pasos:
+Para crear un grupo de operadores nuevo, siga estos pasos:
 
 1. Haga clic en el botón **[!UICONTROL New]** situado a la derecha de la lista de grupos o haga clic con el botón derecho en la lista y elija **[!UICONTROL New]**.
 1. En la parte inferior de la ventana, en la pestaña **[!UICONTROL General]**, introduzca el nombre y una descripción para este grupo en los campos correspondientes.
