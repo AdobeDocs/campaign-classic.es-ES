@@ -6,14 +6,14 @@ description: Conozca las prácticas recomendadas sobre la capacidad de entrega
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
+exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
 translation-type: tm+mt
-source-git-commit: 0420de856d1506ab92d8f0e0824bf439e0ac7dc7
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
 source-wordcount: '716'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
-
 
 # ¿Qué es la capacidad de envío{#about-deliverability}?
 
@@ -21,7 +21,7 @@ La capacidad de entrega permite medir el éxito de las campañas que llegan a la
 
 Más precisamente, la capacidad de envío de correo electrónico se refiere al conjunto de características que determinan la capacidad de un mensaje para llegar a su destino a través de una dirección de correo electrónico personal, en poco tiempo y con la calidad esperada en términos de contenido y formato.
 
-Para profundizar en lo que es la capacidad de envío y obtener más información sobre los términos, conceptos y enfoques clave de la capacidad de envío, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+Para profundizar en lo que es la capacidad de envío y obtener más información sobre los términos, conceptos y enfoques clave de la capacidad de envío, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es).
 
 ## Cómo mejorar la capacidad de envío {#deliverability-key-points}
 
@@ -59,7 +59,7 @@ Adobe Campaign proporciona varias herramientas para rastrear y mejorar el rendim
 
 Al configurar, diseñar y probar el mensaje, asegúrese de seguir las prácticas recomendadas que se mencionan en las secciones a continuación. El uso de todas las funciones que proporciona Adobe Campaign le ayuda a mejorar la capacidad de envío.
 
-* [Prácticas recomendadas relacionadas con las entregas](../../delivery/using/delivery-best-practices.md)
+* [Prácticas recomendadas sobre entregas](../../delivery/using/delivery-best-practices.md)
 * [Control del contenido del correo electrónico](../../delivery/using/control-message-content.md)
 * [Renderización de la bandeja de entrada](../../delivery/using/inbox-rendering.md)
 * [Envío de una prueba](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)
