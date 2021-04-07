@@ -6,9 +6,9 @@ description: Aprenda a definir contenido de correo electrónico dinámico e inte
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1578'
 ht-degree: 100%
 
