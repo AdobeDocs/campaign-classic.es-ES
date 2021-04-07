@@ -4,16 +4,16 @@ product: campaign
 title: Introducción a las actualizaciones
 description: Más información sobre las actualizaciones de Campaign Classic
 feature: Información general
-role: Profesional empresarial
-level: Principiante
+role: Business Practitioner
+level: Beginner
+exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 translation-type: tm+mt
-source-git-commit: 7b1e6dd00943e10dff693d78b3aa7cf2ad3e6727
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '415'
 ht-degree: 93%
 
 ---
-
 
 # Introducción a las actualizaciones{#rn-overview}
 
@@ -35,7 +35,7 @@ Las **últimas versiones de GA** son: [[!DNL Gold Standard]  11](../../rn/using/
 
 ![](assets/do-not-localize/blue3.png) **Versión Candidate** (RC): la última versión con nuevas funcionalidades.
 
-La **última versión RC**[ es Campaign Classic 21.1.](../../rn/using/latest-release.md)
+La **última compilación RC** es [Campaign Classic 21.1.](../../rn/using/latest-release.md)
 
 ![](assets/do-not-localize/red3.png) **Obsoleto**: sin implementación. Se deben actualizar las implementaciones existentes.
 
