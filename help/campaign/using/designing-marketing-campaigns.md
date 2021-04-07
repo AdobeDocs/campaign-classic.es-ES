@@ -6,16 +6,16 @@ description: Defina, optimice, ejecute y analice campañas de marketing.
 audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '443'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
-# Diseñe y ejecute campañas de marketing{#designing-marketing-campaigns}
+# Diseño y ejecución de campañas de marketing{#designing-marketing-campaigns}
 
 Adobe Campaign permite definir, optimizar, ejecutar y analizar las comunicaciones y las campañas de marketing. Adobe Campaign es un centro unificado y un centro de ejecución para estrategias de marketing. Para obtener más información, consulte [Acceso a campañas](../../campaign/using/accessing-campaigns.md) y [Creación de campañas de marketing](../../campaign/using/setting-up-marketing-campaigns.md).
 
@@ -23,8 +23,8 @@ Además, el módulo **Marketing Resource Management (MRM)** permite controlar la
 
 >[!NOTE]
 >
->Para obtener más información sobre las funcionalidades principales de Adobe Campaign, consulte [esta sección](../../platform/using/about-adobe-campaign-classic.md) .\
->En [esta sección](../../delivery/using/steps-about-delivery-creation-steps.md) se describen las capacidades relacionadas con la segmentación de públicos objetivo, la personalización y entrega de mensajes en los diversos canales.
+>Para obtener más información sobre las funcionalidades principales de Adobe Campaign, consulte [esta sección](../../platform/using/about-adobe-campaign-classic.md).\
+>En [esta sección](../../delivery/using/steps-about-delivery-creation-steps.md) se describen las capacidades relacionadas con la segmentación de públicos objetivo, la personalización y envío de mensajes en los diversos canales.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra los conceptos clave de las campañas de marketing en vídeo](#video)
 
