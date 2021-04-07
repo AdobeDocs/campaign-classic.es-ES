@@ -4,16 +4,16 @@ product: campaign
 title: '[!DNL Gold Standard] notas de la versión'
 description: Notas de la versión para el Campaign Classic [!DNL Gold Standard]
 feature: Información general
-role: Profesional empresarial
-level: Principiante
+role: Business Practitioner
+level: Beginner
+exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 83%
+source-wordcount: '1023'
+ht-degree: 96%
 
 ---
-
 
 # [!DNL Gold Standard] notas de la versión{#gold-standard}
 
@@ -23,7 +23,7 @@ Esta página enumera las [!DNL Gold Standard] versiones. Obtenga más informaci�
 
 _2 de marzo de 2021_
 
-La versión 9032@10c2709 incluye la siguiente corrección:
+La compilación 9032@10c2709 incluye la siguiente corrección:
 
 * Se ha corregido una regresión que impedía el uso de algunos componentes de la consola, como el selector de fechas y la administración de imágenes en los envíos. (NEO-31453, NEO-31454)
 
@@ -38,9 +38,9 @@ _22 de diciembre de 2020_
 
 >[!CAUTION]
 >
-> * Esta versión incorpora un nuevo protocolo de conexión: si se conecta a Campaign a través del servicio de identidad de Adobe (IMS), la actualización es obligatoria para que el servidor de Campaign y la consola del cliente puedan conectarse a Campaign después del **30 de junio de 2021**.
+> * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**.
 > * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
-> * Si está utilizando la integración de Déclencheur de Experience Cloud mediante autenticación oAuth, debe pasar a Adobe I/O como se describe [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación oAuth heredado con Campaign se eliminará el **30 de noviembre de 2021**.
+> * Si está utilizando la integración de Experience Cloud Triggers mediante autenticación oAuth, debe ir a Adobe I/O como se detalla [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación oAuth heredado con Campaign se eliminará el **30 de noviembre de 2021**.
 
 >
 >
@@ -65,7 +65,7 @@ La versión 9032@d3b452f incluye las siguientes mejoras y correcciones:
 
 _7 de julio de 2020_
 
-La versión 9032@efd8a94 incluye la siguiente corrección:
+La compilación 9032@efd8a94 incluye la siguiente corrección:
 
 Se ha corregido un problema que impedía que el seguimiento funcionara cuando la función de firma estaba deshabilitada. (NEO-26411)
 
@@ -120,7 +120,7 @@ La versión 9032@3a9dc9c incluye las siguientes correcciones:
 
 ## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] versión 6{#gs-6}
 
-_viernes, 9 de marzo de 2020_
+_9 de marzo de 2020_
 
 La versión 9032@19f73c5 incluye la siguiente corrección:
 
