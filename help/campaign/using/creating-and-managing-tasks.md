@@ -6,11 +6,11 @@ description: Creación y administración de tareas
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3732'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Se pueden crear, ver y monitorizar las tareas de la lista de tareas o del panel 
 
 Las tareas se adjuntan a la campaña y pueden tener dependencias, es decir, tareas asociadas. Cada tarea tiene un estado, prioridad, carga estimada y costes relacionados.
 
-Todas las tareas se agrupan en una lista accesible a través de la pestaña **Campaigns**. Para obtener más información, consulte [Acceder a tareas](#accessing-tasks).
+Todas las tareas se agrupan en una lista accesible a través de la pestaña **Campañas**. Para obtener más información, consulte [Acceder a tareas](#accessing-tasks).
 
 Pueden mostrarse en la programación del programa al que pertenecen.
 
@@ -57,7 +57,7 @@ Haga clic en una tarea para editarla.
 
 ## Creación de una columna nueva {#creating-a-new-task}
 
-Para crear una tarea, haga clic en el enlace **[!UICONTROL Tasks]** en la pestaña **[!UICONTROL Campaigns]** y seleccione **[!UICONTROL Create]**.
+Para crear una tarea, haga clic en el vínculo **[!UICONTROL Tasks]** en la pestaña **[!UICONTROL Campaigns]** y seleccione **[!UICONTROL Create]**.
 
 ![](assets/s_ncs_user_task_create_new.png)
 
