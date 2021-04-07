@@ -6,11 +6,11 @@ description: Obtenga más información acerca del patrón recomendado para rastr
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Después de procesar las instrucciones `<%@`, la dirección URL que se va a rast
 
 Al añadir enlaces personalizados al contenido, evite siempre cualquier personalización en la parte del nombre de host de la dirección URL para evitar posibles lagunas de seguridad. Obtenga más información en [esta página](../../installation/using/privacy.md#url-personalization).
 
-Por ejemplo, la sintaxis `<a href="http://<%=myURL%>">` es **no segura** y debe evitarse.
+Por ejemplo, la sintaxis `<a href="http://<%=myURL%>">` **no es segura** y debe evitarse.
 
 * El uso de esta sintaxis puede dar lugar a problemas de seguridad si el vínculo generado por Adobe Campaign contiene uno o varios parámetros.
 * Tidy puede corregir incorrectamente algunos de los vínculos, lo que puede ocurrir al azar. El síntoma típico es un fragmento de HTML visible en las pruebas de correo electrónico, pero no en la vista previa.
