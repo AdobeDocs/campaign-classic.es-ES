@@ -4,16 +4,16 @@ product: campaign
 title: '[!DNL Gold Standard] actualización'
 description: 'Aprenda qué es el Campaign Classic [!DNL Gold Standard] '
 feature: Información general
-role: Profesional empresarial
-level: Principiante
+role: Business Practitioner
+level: Beginner
+exl-id: c36a78f6-3332-465d-92f5-48f70b8bdddd
 translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 74%
+source-wordcount: '556'
+ht-degree: 88%
 
 ---
-
 
 # [!DNL Gold Standard] versiones  {#gs-overviews}
 
@@ -27,7 +27,7 @@ Adobe Campaign Classic, en concreto, utiliza una amplia gama de tecnologías par
 
 ## ¿Por qué necesita mi organización esta actualización?
 
-Como cliente alojado, si se ha identificado que su cuenta necesita actualizar una o más de las tecnologías relacionadas con Campaign Classic, así como actualizar la versión y/o compilación actual, se le notificará directamente en mediante Adobe.
+Como cliente alojado, si se ha detectado que su cuenta debe actualizar una o más de las tecnologías relacionadas con Campaign Classic, así como actualizar la versión y/o la compilación actual, Adobe le notificará directamente.
 
 Como cliente On-Premise o híbrido que se ejecuta en una versión anterior, Adobe le anima a pasar a la más reciente [!DNL Gold Standard].
 
@@ -53,7 +53,7 @@ Nos comprometemos a garantizar que dispone de la información de contacto y del 
     <li>La combinación de tecnologías para impulsar Adobe Campaign Classic funciona de manera conjunta con el fin de ofrecer valor.</li>
     <li>Todas las instancias deben actualizarse para garantizar la seguridad.</li>
     <li>La seguridad necesita un enfoque constante y mantenimiento proactivo.</li>
-    <li>Los riesgos de seguridad son omnipresentes y no se pueden ignorar: cada actualización para Campaign Classic mejora la seguridad.</li>
+    <li>Los riesgos de seguridad son omnipresentes y no se pueden pasar por alto: cada actualización para Campaign Classic mejora la seguridad.</li>
     </ul>
   </td>
 
@@ -63,7 +63,7 @@ Nos comprometemos a garantizar que dispone de la información de contacto y del 
     <strong>Compatibilidad mejorada</strong>
     </div>
     <ul>
-    <li>La mayoría de los problemas críticos se resuelven con las actualizaciones y se pueden evitar.</li>
+    <li>La mayoría de los problemas más graves se pueden evitar y se resuelven con las actualizaciones.</li>
     <li>Las actualizaciones regulares ayudan a reducir los desafíos y aumentar la eficiencia al eliminarlos.</li>
     <li>El volumen del Servicio de atención al cliente se reducirá, lo que permitirá una resolución más rápida y una mayor atención a los problemas que no están relacionados con las actualizaciones.</li>
     </ul>
@@ -84,7 +84,7 @@ Nos comprometemos a garantizar que dispone de la información de contacto y del 
   </td>
 
 <td>
-      <img alt="Generar actualización" src="assets/do-not-localize/upgrades.png" />
+      <img alt="Actualización de compilación" src="assets/do-not-localize/upgrades.png" />
     <div>
     <strong>Actualizaciones más sencillas</strong>
     </a>
@@ -101,5 +101,5 @@ Nos comprometemos a garantizar que dispone de la información de contacto y del 
 ## Recursos adicionales
 
 * [[!DNL Gold Standard] notas de la versión](gold-standard.md)
-* [Preguntas frecuentes sobre la actualización de versiones](../../platform/using/faq-build-upgrade.md)
+* [Preguntas frecuentes sobre la actualización de compilaciones](../../platform/using/faq-build-upgrade.md)
 * [[!DNL Gold Standard] matriz de compatibilidad](compatibility-matrix-gs.md)
