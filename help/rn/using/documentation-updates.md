@@ -2,18 +2,18 @@
 solution: Campaign Classic
 product: campaign
 title: Actualizaciones de documentación de Adobe Campaign Classic
-description: Esta página enumera todas las nuevas funciones y actualizaciones de la documentación de Adobe Campaign Classic
+description: Esta página enumera todas las funciones nuevas y las actualizaciones de la documentación de Adobe Campaign Classic
 feature: Información general
-role: Profesional empresarial
-level: Principiante
+role: Business Practitioner
+level: Beginner
+exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 translation-type: tm+mt
-source-git-commit: 57c1ca827beac9a3c95e63ca17fdb43be237eb28
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
-source-wordcount: '4275'
-ht-degree: 94%
+source-wordcount: '4272'
+ht-degree: 96%
 
 ---
-
 
 # Actualizaciones de documentación{#documentation-updates}
 
@@ -25,20 +25,20 @@ Consulte las [Notas de la versión de Adobe Campaign Classic](../../rn/using/lat
 
 Se ha reorganizado y mejorado la sección [Introducción a SMS](../../delivery/using/sms-channel.md). Ahora puede aprender a [configurar el canal SMS](../../delivery/using/sms-set-up.md), [crear un SMS](../../delivery/using/sms-create.md), [enviar y rastrear SMS](../../delivery/using/sms-send.md) en secciones dedicadas.
 
-La página &quot;Opciones de ayuda y asistencia&quot; del Campaign Classic se ha integrado en la documentación principal. [Obtenga más información](../../support.md)
+La página &quot;Opciones de ayuda y asistencia&quot; del Campaign Classic se ha integrado en la documentación principal. [Más información](../../support.md)
 
-Se ha añadido una nueva sección con prácticas recomendadas y comprobaciones para realizar con respecto a la seguridad y la privacidad. [Obtenga más información](../../installation/using/get-started-security-privacy.md)
+Se ha añadido una nueva sección con prácticas recomendadas y comprobaciones para realizar con respecto a la seguridad y la privacidad. [Más información](../../installation/using/get-started-security-privacy.md)
 
-El [capítulo de administración de permisos](../../platform/using/access-management.md) se ha mejorado y dividido en secciones, que incluyen detalles sobre [Operators](../../platform/using/access-management-operators.md) , [Grupos de operadores](../../platform/using/access-management-groups.md) , [Named rights](../../platform/using/access-management-named-rights.md) y [Folder management](../../platform/using/access-management-folders.md) .
+El [capítulo de administración de permisos](../../platform/using/access-management.md) se ha mejorado y se ha dividido en secciones, que incluyen detalles sobre [Operadores](../../platform/using/access-management-operators.md), [Grupos de operadores](../../platform/using/access-management-groups.md), [Derechos asignados](../../platform/using/access-management-named-rights.md) y [Administración de carpetas](../../platform/using/access-management-folders.md).
 
 Aprenda a crear y administrar sus campañas a través de estas nuevas páginas:
 * [Creación y configuración de plantillas de campaña](../../campaign/using/marketing-campaign-templates.md)
 * [Entregas de campañas de marketing](../../campaign/using/marketing-campaign-deliveries.md)
-* [Seleccionar la audiencia de las campañas](../../campaign/using/marketing-campaign-target.md)
-* [Administrar documentos asociados](../../campaign/using/marketing-campaign-assets.md)
+* [Selección de la audiencia de las campañas](../../campaign/using/marketing-campaign-target.md)
+* [Administración de documentos asociados](../../campaign/using/marketing-campaign-assets.md)
 * [Configuración y administración del proceso de aprobación](../../campaign/using/marketing-campaign-approval.md)
 
-Se ha añadido información en la sección de actividad **[!UICONTROL Advanced JavaScript]** sobre cómo utilizar el método task.setCompleted() para finalizar la tarea y evitar futuras recuperaciones. [Obtenga más información](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
+Se ha añadido información en la sección de la actividad **[!UICONTROL Advanced JavaScript]** sobre cómo utilizar el método task.setCompleted() para finalizar la tarea e impedir futuras recuperaciones. [Más información](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
 
 La sección [Deliverability](../../delivery/using/about-deliverability.md) se ha actualizado y ahora incluye vínculos a la nueva [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html). Toda la información genérica relacionada con la capacidad de envío que se puede aplicar a varias soluciones de Adobe se ha trasladado al [Apéndice de la Guía de prácticas recomendadas](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
 
