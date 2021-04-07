@@ -6,11 +6,11 @@ description: Creación de indicadores
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '718'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ Una vez configurado el cubo, se puede utilizar como plantilla para crear un nuev
 
 Para ello:
 
-1. Haga clic en el botón **[!UICONTROL Create]** de la pestaña **[!UICONTROL Reports]** y seleccione el cubo que acaba de crear.
+1. En la pestaña **[!UICONTROL Reports]**, haga clic en el botón **[!UICONTROL Create]** y seleccione el cubo recién creado.
 
    ![](assets/s_advuser_cube_wz_14.png)
 
