@@ -4,14 +4,14 @@ product: campaign
 title: Última versión
 description: Última versión de Campaign Classic Notas
 feature: Información general
-role: Profesional empresarial
-level: Principiante
+role: Business Practitioner
+level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 translation-type: tm+mt
 source-git-commit: 3db426580ba72668cd9fa274b57f925600eda27b
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 96%
+source-wordcount: '902'
+ht-degree: 98%
 
 ---
 
@@ -85,7 +85,7 @@ Si desea participar en esta versión beta privada, rellene este [formulario](htt
 IOB-090020 Error in SSL library: 'IOB-090013 error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed (code 336134278)'
 ```
 
-* Se ha corregido un problema que impedía que se enviaran nuevos envíos con personalización de datos de destino (NEO-30323).
+* Se ha corregido un problema que impedía que se enviaran nuevos envíos con personalización de datos de destinatario (NEO-30323).
 * Se ha corregido un problema en el cual se producían varios bloqueos en la instancia de marketing que causaban archivos principales.
 * Se ha corregido un problema que ocasionaba que el flujo de trabajo de **Seguimiento** diera el siguiente error (NEO-25206):
 
