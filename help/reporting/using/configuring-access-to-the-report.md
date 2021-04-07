@@ -6,11 +6,11 @@ description: Configuración del acceso al informe
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '754'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ El acceso al informe se puede limitar a un contexto específico o a un espacio d
 
 * **[!UICONTROL Single selection]** : solo se puede acceder al informe cuando se selecciona una entidad específica.
 * **[!UICONTROL Multiple selection]** : se accede al informe cuando se seleccionan varias entidades.
-* **[!UICONTROL Global]** : se accede al informe a través de la lista de informes disponibles en la  **[!UICONTROL Reports]** pestaña .
+* **[!UICONTROL Global]**: se accede al informe a través de la lista de informes disponibles en la pestaña **[!UICONTROL Reports]**.
 
 ### Secuencia de visualización {#display-sequence}
 
@@ -63,7 +63,7 @@ El informe también se puede compartir con operadores o grupos de operadores esp
 
 ### Definición de las opciones de filtrado {#defining-the-filtering-options}
 
-La pestaña **[!UICONTROL Reports]** muestra todos los informes disponibles en la plataforma y para los que el operador conectado tiene derecho de acceso.
+La pestaña **[!UICONTROL Reports]** muestra todos los informes disponibles en la plataforma y para los que el operador conectado cuenta con un derecho de acceso.
 
 De forma predeterminada se clasifican por relevancia, pero puede aplicar otros tipos de filtros: alfabético, por edad, etc.
 
