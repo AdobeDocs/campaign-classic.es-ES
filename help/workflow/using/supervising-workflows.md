@@ -6,16 +6,16 @@ description: Descubra cómo supervisar flujos de trabajo de campañas
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Caso de uso: supervisar los flujos de trabajo{#supervising-workflows}
+# Caso de uso: Supervisión de flujos de trabajo{#supervising-workflows}
 
 Este caso de uso detalla la creación de un flujo de trabajo que permite monitorizar el estado de un conjunto de flujos de trabajo que están “en pausa”, “detenidos” o “con errores”.
 
