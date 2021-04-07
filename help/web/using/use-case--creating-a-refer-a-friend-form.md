@@ -6,16 +6,16 @@ description: '“Ejemplo de uso: creación de un formulario de recomendar a un a
 audience: web
 content-type: reference
 topic-tags: online-surveys
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '619'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Caso de uso: crear un formulario de referencia{#use-case-creating-a-refer-a-friend-form}
+# Ejemplo de uso: creación de un formulario de referencia{#use-case-creating-a-refer-a-friend-form}
 
 En este ejemplo queremos ofrecer una competencia a los destinatarios de la base de datos. El formulario web incluye una sección para introducir respuestas y otra para recomendar a un amigo introduciendo su dirección de correo electrónico.
 
