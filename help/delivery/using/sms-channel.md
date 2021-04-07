@@ -6,14 +6,14 @@ description: Introducción al canal SMS
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
+exl-id: 6fc2ab09-8ea7-4865-88ad-bd45eee68958
 translation-type: tm+mt
-source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
 source-wordcount: '154'
-ht-degree: 32%
+ht-degree: 34%
 
 ---
-
 
 # Introducción al canal SMS{#sms-channel}
 
@@ -43,4 +43,3 @@ Para obtener información general sobre la creación de envíos, consulte [esta 
 >Adobe Campaign también permite enviar notificaciones a los terminales móviles a través de su opción **Adobe Campaign Mobile App Channel (NMAC)**.
 > 
 >Para obtener más información, consulte la sección [Introducción al canal de aplicaciones móviles](../../delivery/using/about-mobile-app-channel.md) .
-
