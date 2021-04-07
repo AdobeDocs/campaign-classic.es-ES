@@ -4,16 +4,16 @@ product: campaign
 title: Introducción a los permisos
 description: Obtenga información sobre cómo conceder acceso a las funciones de Campaign
 feature: Gestión de acceso
-role: Profesional empresarial, administrador
-level: Principiante
+role: Business Practitioner, Administrator
+level: Beginner
+exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
 translation-type: tm+mt
-source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 65%
+source-wordcount: '255'
+ht-degree: 99%
 
 ---
-
 
 # Introducción a los permisos{#access-management}
 
@@ -25,11 +25,11 @@ Adobe Campaign le permite definir y administrar los derechos asignados a los dis
 
 Los permisos se aplican a perfiles de operador o grupos de operadores.
 
-Se completan por parámetros de seguridad vinculados al modo de conexión del operador a Adobe Campaign. Para obtener más información sobre las zonas de seguridad en [esta página](../../installation/using/security-zones.md).
+Se completan por parámetros de seguridad vinculados al modo de conexión del operador a Adobe Campaign. Obtenga más información sobre las zonas de seguridad en [esta página](../../installation/using/security-zones.md).
 
 Existen dos tipos de permisos que puede conceder a un usuario:
 
-* Puede definir grupos de operadores a los que desee atribuir derechos y luego asociar los operadores con uno o varios grupos. Esto permite reutilizar derechos y hacer que los perfiles de operador sean más coherentes. También facilita la administración y el mantenimiento de los perfiles. La creación y administración de grupos se presentan en [esta sección](access-management-groups.md).
+* Puede definir grupos de operadores a los que desee atribuir derechos y luego asociar los operadores con uno o varios grupos. Esto permite reutilizar derechos y hacer que los perfiles de operador sean más coherentes. También facilita la administración y el mantenimiento de los perfiles. La creación y la gestión de grupos se presentan en [esta sección](access-management-groups.md).
 
 * Puede atribuir los derechos asignados directamente a los usuarios, en algunos casos para sobrecargar los derechos asignados a través de grupos. Estos derechos se presentan en [esta página](access-management-named-rights.md).
 
@@ -39,13 +39,13 @@ Existen dos tipos de permisos que puede conceder a un usuario:
 
 Obtenga información sobre cómo conceder acceso y configurar permisos en estas secciones:
 
-* [Crear operadores](access-management-operators.md)
+* [Creación de operadores](access-management-operators.md)
 
-* [Definir grupos](access-management-groups.md)
+* [Definición de grupos](access-management-groups.md)
 
-* [Agregar derechos asignados](access-management-named-rights.md)
+* [Adición de derechos asignados](access-management-named-rights.md)
 
-* [Administrar acceso a carpetas de Campaign](access-management-folders.md)
+* [Administración de acceso a carpetas de Campaign](access-management-folders.md)
 
 * [Matriz de derechos de acceso](access-management-named-rights.md#access-rights-matrix)
 
@@ -53,7 +53,7 @@ Obtenga información sobre cómo conceder acceso y configurar permisos en estas 
 Asimismo, consulte lo siguiente:
 
 * [Administración de permisos para flujos de trabajo](../../workflow/using/managing-rights.md)
-* [Administrar permisos para marketing distribuido](../../campaign/using/about-distributed-marketing.md#operators-and-entities)
-* [Administrar permisos para el módulo de interacción](../../interaction/using/operator-profiles.md)
-* [Filtrar el acceso a los esquemas](../../configuration/using/filtering-schemas.md)
+* [Administración de permisos para marketing distribuido](../../campaign/using/about-distributed-marketing.md#operators-and-entities)
+* [Administración de permisos para el módulo de interacción](../../interaction/using/operator-profiles.md)
+* [Filtro del acceso a los esquemas](../../configuration/using/filtering-schemas.md)
 * [Restricción de la vista PI](../../configuration/using/restricting-pii-view.md)
