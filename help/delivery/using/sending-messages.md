@@ -6,18 +6,18 @@ description: Obtenga información sobre cómo confirmar el envío de un mensaje 
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4a56feac374506bb33ae6770aa247a197f1669fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '215'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
 # Pasos principales para enviar un correo electrónico {#confirming-email-delivery}
 
-Una vez creado y configurado el correo electrónico, puede enviarlo al destinatario principal. Esta sección presenta los pasos principales para comprobar y confirmar la entrega de un correo electrónico.
+Una vez creado y configurado el correo electrónico, puede enviarlo al destinatario principal. Esta sección presenta los pasos principales para comprobar y confirmar el envío de un correo electrónico.
 
 1. Asegúrese de configurar todas las opciones específicas del envío de correo electrónico. Para obtener más información, consulte [Parámetros de correo electrónico](../../delivery/using/email-parameters.md).
 1. Cuando el correo electrónico esté listo, antes de enviarlo al destinatario principal, se recomienda detectar cualquier posible error enviando pruebas. Para obtener más información sobre esto, consulte [Envío de una prueba](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
