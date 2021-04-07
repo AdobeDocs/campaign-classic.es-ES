@@ -6,11 +6,11 @@ description: Configuración de una publicación en Twitter
 audience: social
 content-type: reference
 topic-tags: configuration
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '710'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Este paso requiere acceso simultáneo a la consola de Adobe Campaign y a un expl
 
    ![](assets/social_twitter_service_002.png)
 
-* **Adobe Campaign**: vaya a la  **[!UICONTROL Profiles and targets]** pestaña , haga clic en el  **[!UICONTROL Services and Subscriptions]** vínculo y haga clic en el  **[!UICONTROL Create]** botón .
+* **Adobe Campaign**: vaya a la pestaña **[!UICONTROL Profiles and targets]**, haga clic en el vínculo **[!UICONTROL Services and Subscriptions]** y haga clic en el botón **[!UICONTROL Create]**.
 
    ![](assets/social_twitter_service_007.png)
 
