@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: Funciones obsoletas y eliminadas de Campaign Classic
-description: Esta página enumera las funciones en desuso y eliminadas de Adobe Campaign Classic
+description: Esta página lista las funciones obsoletas y eliminadas de Adobe Campaign Classic
 feature: Información general
 role: Profesional empresarial
 level: Principiante
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1716'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
