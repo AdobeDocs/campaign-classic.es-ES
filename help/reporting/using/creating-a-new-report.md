@@ -6,16 +6,16 @@ description: Obtenga información sobre los pasos clave para crear un nuevo info
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '923'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Crear un nuevo informe{#creating-a-new-report}
+# Creación de un informe nuevo{#creating-a-new-report}
 
 Para crear un informe, siga los pasos siguientes:
 
