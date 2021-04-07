@@ -6,11 +6,11 @@ description: Acerca de Distributed Marketing
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1129'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ Si una entidad local se registra para una campaña, esto se convierte en una sol
 
 ## Espacio de trabajo {#workspace}
 
-Se puede acceder a la lista de paquetes de campañas desde la pestaña **Campaigns**: haga clic en el enlace **[!UICONTROL Campaign packages]**.
+Se puede acceder a la lista de paquetes de campañas desde la pestaña **Campañas**: haga clic en el vínculo **[!UICONTROL Campaign packages]**.
 
 ![](assets/mkg_dist_home_local_op.png)
 
