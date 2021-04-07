@@ -6,16 +6,16 @@ description: Obtenga información sobre cómo crear y ejecutar campañas de mark
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1253'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
-# Introducción a campañas de marketing{#setting-up-marketing-campaigns}
+# Introducción a las campañas de marketing{#setting-up-marketing-campaigns}
 
 Las campañas incluyen acciones (envíos) y procesos (importación o extracción de archivos), así como recursos (documentos de marketing, descripciones de envíos). Todos ellos se utilizan en las campañas de marketing. Las campañas son parte de un programa y los programas se incluyen en un plan de campaña.
 
@@ -23,9 +23,9 @@ Las campañas incluyen acciones (envíos) y procesos (importación o extracción
 
 Para crear una campaña de marketing:
 
-1. Crear una campaña: descubra campañas y sus características: etiqueta, tipo, fechas de inicio y finalización, presupuesto, recursos asociados, administradores y participantes. [Más información](#creating-a-campaign).
+1. Crear una campaña: descubra las campañas y sus características; etiqueta, tipo, fechas de inicio y finalización, presupuesto, recursos asociados, administradores y participantes. [Más información](#creating-a-campaign).
 
-1. Defina la población(es) objetivo: cree un flujo de trabajo con consultas de objetivo. [Más información](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population).
+1. Defina las poblaciones objetivo: cree un flujo de trabajo con consultas de direccionamiento. [Más información](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population).
 
 1. Cree entregas: seleccione los canales y defina el contenido que desee enviar. [Más información](../../campaign/using/marketing-campaign-deliveries.md#creating-deliveries).
 
@@ -35,9 +35,9 @@ Para crear una campaña de marketing:
 
 1. Planifique campañas y costes asociados. [Más información](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
 
-Una vez completados estos pasos, puede iniciar los envíos (consulte [esta sección](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)), comprobar los datos, los procesos y la información relacionada con los envíos y, si es necesario, administrar los documentos asociados (consulte [esta sección](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)). También puede rastrear la ejecución de las fases de procesamiento de las campañas y envíos (consulte [esta sección](../../campaign/using/marketing-campaign-monitoring.md)).
+Una vez completados estos pasos, puede iniciar los envíos (consulte [esta sección](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)), comprobar los datos, los procesos y la información relacionada con los envíos y, si es necesario, administrar los documentos asociados (consulte [esta sección](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)). También puede realizar un seguimiento de la ejecución de las fases de procesamiento de las campañas y envíos (consulte [esta sección](../../campaign/using/marketing-campaign-monitoring.md)).
 
-## Crear jerarquía de plan y programa {#creating-plan-and-program-hierarchy}
+## Creación de la jerarquía del plan y del programa {#creating-plan-and-program-hierarchy}
 
 Para configurar la jerarquía de carpetas para planes y programas de marketing:
 
@@ -59,7 +59,7 @@ Para configurar la jerarquía de carpetas para planes y programas de marketing:
 
 ## Creación de una campaña {#creating-a-campaign}
 
-### Agregar una campaña {#adding-a-campaign}
+### Adición de una campaña {#adding-a-campaign}
 
 Puede crear una campaña a través de la lista de campañas. Para mostrar esta vista, seleccione el menú **[!UICONTROL Campaigns]** en el panel **[!UICONTROL Campaigns]**.
 
@@ -87,7 +87,7 @@ Haga clic en **[!UICONTROL OK]** para crear la campaña. Se agrega al calendario
 
 ![](assets/s_ncs_user_program_planning_filter.png)
 
-### Editar y configurar una campaña {#editing-and-configuring-a-campaign}
+### Edición y configuración de una campaña {#editing-and-configuring-a-campaign}
 
 Luego puede editar la campaña que acaba de crear y definir sus parámetros.
 
@@ -103,11 +103,11 @@ Una campaña recurrente es una campaña basada en una plantilla específica, cuy
 
 Una campaña periódica es una campaña creada automáticamente según la programación de ejecución de su plantilla.
 
-### Crear una campaña recurrente {#creating-a-recurring-campaign}
+### Creción de una campaña recurrente {#creating-a-recurring-campaign}
 
-Las campañas recurrentes se crean a partir de una plantilla específica que define la plantilla de flujo de trabajo que se va a ejecutar y la programación de ejecución.
+Las campañas recurrentes se crean a partir de una plantilla específica que define la plantilla de flujo de trabajo que se va a ejecutar y el cronograma de ejecución.
 
-#### Cree una plantilla para campañas recurrentes {#creating-the-campaign-template}
+#### Creación de una plantilla para campañas recurrentes {#creating-the-campaign-template}
 
 1. Cree una plantilla de campaña **[!UICONTROL Recurring]**.
 
@@ -181,11 +181,11 @@ Para crear la campaña recurrente y ejecutar sus flujos de trabajo según la pro
    >La fecha de inicio de la línea de programación asociada al flujo de trabajo está disponible en una variable del flujo de trabajo con la siguiente sintaxis:\
    >`$date(instance/vars/@startPlanningDate)`
 
-### Crear una campaña periódica {#creating-a-periodic-campaign}
+### Creación de una campaña periódica {#creating-a-periodic-campaign}
 
 Una campaña periódica es una campaña basada en una plantilla específica que le permite crear instancias de campaña basadas en una programación de ejecución. Las instancias de campaña se crean automáticamente en función de una plantilla de campaña periódica, dependiendo de la frecuencia definida en la programación de plantillas.
 
-#### Cree la plantilla de campaña {#creating-the-campaign-template-1}
+#### Creación de la plantilla de campaña {#creating-the-campaign-template-1}
 
 1. Cree una plantilla de campaña **[!UICONTROL Periodic]**, preferiblemente mediante la duplicación de una plantilla de campaña existente.
 
