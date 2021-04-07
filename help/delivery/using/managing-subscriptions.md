@@ -6,11 +6,11 @@ description: Administración de suscripciones
 audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1098'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Hay tres modos de suscripción/baja del servicio:
 
 Puede crear y gestionar suscripciones a los servicios informativos con mensajes de confirmación o envíos automáticos asociados a los suscriptores.
 
-Para acceder al mapa de servicios informativos, abra la pestaña **[!UICONTROL Profiles and Targets]** y haga clic en el enlace **[!UICONTROL Services and Subscriptions]**.
+Para acceder al mapa de servicios informativos, abra la pestaña **[!UICONTROL Profiles and Targets]** y haga clic en el vínculo **[!UICONTROL Services and Subscriptions]**.
 
 ![](assets/s_ncs_user_services_new.png)
 
