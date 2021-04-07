@@ -6,11 +6,11 @@ description: Creación de una oferta
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '803'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 Para crear una oferta, aplique los pasos siguientes:
 
-1. Vaya a la pestaña **[!UICONTROL Campaigns]** y haga clic en el enlace **[!UICONTROL Offers]**.
+1. Vaya a la pestaña **[!UICONTROL Campaigns]** y haga clic en el vínculo **[!UICONTROL Offers]**.
 
    ![](assets/offer_create_001.png)
 
