@@ -6,16 +6,16 @@ description: Obtenga más información sobre los documentos de campañas de mark
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '755'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
 
-# Administrar documentos asociados {#managing-associated-documents}
+# Administración de documentos asociados {#managing-associated-documents}
 
 Puede asociar varios documentos a una campaña: informes, fotos, páginas web, diagramas, etc. Estos documentos pueden tener cualquier formato (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc.).
 
@@ -23,15 +23,15 @@ Puede asociar varios documentos a una campaña: informes, fotos, páginas web, d
 >
 >Esta capacidad está reservada para documentos y recursos pequeños.
 
-En una campaña también puede hacer referencia a otros elementos, como cupones promocionales, ofertas especiales relacionadas con una marca o tienda específica, etc. Cuando estos elementos se incluyen en una descripción, pueden asociarse con una entrega de correo postal. Consulte [Asociación y estructura de recursos vinculados a través de una descripción de envío](#associating-and-structuring-resources-linked-via-a-delivery-outline).
+En una campaña también se puede hacer referencia a otros elementos, como cupones promocionales, ofertas especiales relacionadas con una marca o tienda específica, etc. Cuando estos elementos se incluyen en una descripción, pueden asociarse con una entrega de correo postal. Consulte [Asociación y estructuración de recursos vinculados a través de una descripción de entrega](#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 >[!NOTE]
 >
->Si utiliza el módulo Gestión de recursos de marketing de Campaign, también puede administrar una biblioteca de recursos de marketing disponibles para varios usuarios para trabajar en colaboración. [Más información](../../campaign/using/managing-marketing-resources.md).
+>Si está utilizando el módulo Campaign Marketing Resource Management, también puede administrar una biblioteca de recursos de marketing disponibles para varios participantes para trabajar en colaboración. [Más información](../../campaign/using/managing-marketing-resources.md).
 
-## Agregar documentos {#adding-documents}
+## Adición de documentos {#adding-documents}
 
-Los documentos se pueden asociar a nivel de campaña (documentos contextuales) o a nivel de programa (documentos generales).
+Los documentos se pueden asociar en el nivel de campaña (documentos contextuales) o en el de programa (documentos generales).
 
 La pestaña **[!UICONTROL Documents]** contiene:
 
@@ -56,19 +56,19 @@ En el panel, los documentos asociados a la campaña se agrupan en la sección **
 
 También pueden editarse y modificarse desde esta vista.
 
-## Asociar y estructurar recursos vinculados a través de una descripción de envío {#associating-and-structuring-resources-linked-via-a-delivery-outline}
+## Asociación y estructuración de recursos vinculados a través de una descripción del envío {#associating-and-structuring-resources-linked-via-a-delivery-outline}
 
 >[!NOTE]
 >
 >Las definiciones de la entrega se utilizan principalmente en el contexto de las campañas de correo directo.
 
-Una descripción de la entrega denota un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.) creado por la empresa y para una campaña en particular.
+Una descripción de la entrega denota un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.) creado por la compañía y para una campaña en particular.
 
-Estos elementos se agrupan en descripciones de envío y cada descripción de envío se asocia a una entrega; se hace referencia a él en el archivo de extracción enviado al **proveedor de servicios** para que se asocie al envío. Por ejemplo, puede crear una descripción de envío que haga referencia a una filial y a los folletos de marketing que utiliza.
+Estos elementos se agrupan en descripciones de envío y cada descripción de envío concreta se asocia a un envío; se hace referencia en el archivo de extracción enviado al **proveedor de servicios** para que se asocie al envío. Por ejemplo, puede crear una descripción de envío que haga referencia a una filial y a los folletos de marketing que utiliza.
 
 Para una campaña, las descripciones de envío permiten estructurar los elementos externos que deben asociarse al envío según determinados criterios: sucursal relacionada, oferta promocional concedida, invitación a un evento local, etc.
 
-### Crear un esquema {#creating-an-outline}
+### Creación de una descripción {#creating-an-outline}
 
 Para crear una descripción, haga clic en la subpestaña **[!UICONTROL Delivery outlines]** dentro de la pestaña **[!UICONTROL Edit > Documents]** de la campaña correspondiente.
 
@@ -98,15 +98,15 @@ Una descripción puede contener elementos y campos de personalización, recursos
 
    ![](assets/s_ncs_user_op_add_composition_field_button.png)
 
-* Los recursos son recursos de marketing generados en el panel de recursos de marketing, al que se accede mediante el enlace **[!UICONTROL Resources]** de la pestaña **[!UICONTROL Campaigns]**.
+* Los recursos son recursos de marketing generados en el panel de recursos de marketing, al que se accede mediante el vínculo **[!UICONTROL Resources]** de la pestaña **[!UICONTROL Campaigns]**.
 
    ![](assets/s_ncs_user_mkg_resource_ovv.png)
 
    >[!NOTE]
    >
-   >Para obtener más información sobre los recursos de marketing, consulte [esta sección](../../campaign/using/managing-marketing-resources.md).
+   >Para obtener más información sobre recursos de marketing, consulte [esta sección](../../campaign/using/managing-marketing-resources.md).
 
-### Seleccionar un esquema {#selecting-an-outline}
+### Selección de una descripción {#selecting-an-outline}
 
 Para cada envío, puede seleccionar la descripción que desea asociar desde la sección reservada para la descripción de la extracción, como en el siguiente ejemplo:
 
@@ -132,4 +132,4 @@ El modelo de exportación debe estar asociado al proveedor de servicios seleccio
 
 >[!NOTE]
 >
->Para obtener más información sobre las exportaciones, consulte la sección [esta sección](../../platform/using/get-started-data-import-export.md).
+>Para obtener más información, consulte [esta sección](../../platform/using/get-started-data-import-export.md).
