@@ -6,18 +6,18 @@ description: Aprenda a utilizar y personalizar el espacio de trabajo de Campaign
 feature: Información general
 role: Ingeniero de datos
 level: Principiante
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c91d9c39d92779ed0366905a944f065c427b1e5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1260'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 
 # Espacio de trabajo de Adobe Campaign{#adobe-campaign-workspace}
 
-## Explorar la interfaz de Adobe Campaign {#about-adobe-campaign-interface}
+## Explore la interfaz de Adobe Campaign {#about-adobe-campaign-interface}
 
 Una vez que esté conectado a la base de datos, accederá a la página principal de Adobe Campaign, que es un panel compuesto por vínculos y accesos directos que permiten acceder a las funcionalidades, según la instalación y las configuraciones de la plataforma general.
 
@@ -71,7 +71,7 @@ Para obtener más información sobre cómo crear una instancia, consulte esta [p
 
 ## Conceptos básicos de navegación {#navigation-basics}
 
-### Examinar páginas {#browsing-pages}
+### Examen de páginas {#browsing-pages}
 
 Las distintas funcionalidades de la plataforma se dividen en funcionalidades principales (utilice los vínculos que ve en la sección superior de la interfaz para acceder a ellas).
 
@@ -85,9 +85,9 @@ Las listas están disponibles a través del vínculo **[!UICONTROL Lists]** en l
 
 ![](assets/recipient_list_overview.png)
 
-### Usar pestañas {#using-tabs}
+### Uso de pestañas {#using-tabs}
 
-* Al hacer clic en una funcionalidad principal o en un vínculo, la página relevante reemplaza a la página actual. Para volver a la página anterior, haga clic en el botón **[!UICONTROL Back]** de la barra de herramientas. Para volver a la página principal, haga clic en el botón **[!UICONTROL Home]**.
+* Al hacer clic en una funcionalidad principal o en un vínculo, la página correspondiente reemplaza a la página actual. Para volver a la página anterior, haga clic en el botón **[!UICONTROL Back]** de la barra de herramientas. Para volver a la página principal, haga clic en el botón **[!UICONTROL Home]**.
 
    ![](assets/d_ncs_user_interface_back_home_buttons.png)
 
@@ -95,7 +95,7 @@ Las listas están disponibles a través del vínculo **[!UICONTROL Lists]** en l
 
    ![](assets/d_ncs_user_interface_tabs.png)
 
-### Crear un elemento {#creating-an-element}
+### Creación de un elemento {#creating-an-element}
 
 Cada sección de la funcionalidad principal le permite navegar entre los elementos disponibles. Para ello, utilice los accesos directos de la sección **[!UICONTROL Browsing]**. El vínculo **[!UICONTROL Other choices]** le permite acceder a todas las demás páginas, independientemente del entorno.
 
@@ -105,7 +105,7 @@ Por ejemplo, en la página de entrega, utilice el botón **[!UICONTROL Create]**
 
 ![](assets/d_ncs_user_interface_tab_add_del.png)
 
-## Usar el explorador de Adobe Campaign {#using-adobe-campaign-explorer}
+## Uso del explorador de Adobe Campaign {#using-adobe-campaign-explorer}
 
 Es posible acceder al explorador de Adobe Campaign mediante el icono de la barra de herramientas. Le permite acceder a todas las funcionalidades de Adobe Campaign, a las pantallas de configuración y a una vista más detallada de algunos de los elementos de la plataforma.
 
@@ -113,7 +113,7 @@ El espacio de trabajo de **[!UICONTROL Explorer]** se divide en tres zonas:
 
 ![](assets/s_ncs_user_navigation.png)
 
-**1 - Árbol**: Puede personalizar el contenido del árbol (añadir, mover o eliminar nodos). Este procedimiento está diseñado para usuarios expertos. Para obtener más información, consulte [esta sección](#about-navigation-hierarchy).).
+**1 - Árbol**: Puede personalizar el contenido del árbol (añadir, mover o eliminar nodos). Este procedimiento está diseñado para usuarios expertos. Para obtener más información, consulte [esta sección](#about-navigation-hierarchy)).
 
 **2 - Lista**: Puede filtrar esta lista, ejecutar búsquedas, añadir información u ordenar datos. [Más información](adobe-campaign-ui-lists.md).
 
@@ -127,7 +127,7 @@ La vista mostrada es una lista asociada con un esquema y un formulario de entrad
 
 ![](assets/d_ncs_integration_navigation.png)
 
-Para añadir una carpeta nueva al árbol, haga clic con el botón derecho en la carpeta de la rama en la que desea insertar una carpeta y seleccione **[!UICONTROL Add new folder]** . En el menú contextual, seleccione el tipo de archivo que desea crear.
+Para añadir una carpeta nueva al árbol, haga clic con el botón derecho en la carpeta de la rama en la que desea insertar una carpeta y seleccione **[!UICONTROL Add new folder]**. En el menú contextual, seleccione el tipo de archivo que desea crear.
 
 ![](assets/d_ncs_integration_navigation_create.png)
 
@@ -137,24 +137,24 @@ Aprenda a configurar permisos en carpetas [en esta sección](access-management-f
 
 ### Prácticas recomendadas para la configuración de carpetas
 
-* **Usar carpetas integradas**
+* **Uso de carpetas integradas**
 
-   El uso de las carpetas integradas facilita a las personas que no participan en el proyecto el uso, el mantenimiento y la resolución de problemas de la aplicación. No debe crear estructuras de carpetas personalizadas para destinatarios, listas, envíos, etc., sino utilizar las carpetas estándar como Administration, Profiles &amp; Targets, Campaign management.
+   El uso de las carpetas integradas facilita a las personas que no participan en el proyecto el uso, el mantenimiento y la resolución de problemas de la aplicación. No debe crear estructuras de carpetas personalizadas para destinatarios, listas, envíos, etc., sino utilizar las carpetas estándar como Administración, Perfiles y Objetivos, y Administración de campaña.
 
-* **Crear subcarpetas**
+* **Creación de subcarpetas**
 
-   Coloque los flujos de trabajo técnicos en la carpeta estándar: Administración / Producción / Flujos de trabajo técnicos y creación de subdirectorios por tipo de flujo de trabajo.
+   Coloque los flujos de trabajo técnicos en la carpeta estándar: Administración/Producción/Flujos de trabajo técnicos y cree subdirectorios por tipo de flujo de trabajo.
 
-* **Definir una convención de nombres**
+* **Definición de una convención de nombres**
 
    Por ejemplo, puede asignar un nombre a los flujos de trabajo en orden alfabético, de modo que aparezcan ordenados en orden de ejecución.
 
    Por ejemplo:
 
-   * A1 - importar destinatarios, comienza a las 10:00;
-   * A2 - importar entradas, empieza a las 11:00.
+   * A1 – importar destinatarios, comienza a las 10:00;
+   * A2 – importar tickets, empieza a las 11:00.
 
-* **Cree plantillas para que los usuarios empiecen con**
+* **Creación de plantillas para que los usuarios empiecen con ellas**
 
    Cree plantillas de envío, plantillas de flujo de trabajo y plantillas de campaña específicas para los usuarios. Esta estructura puede ahorrar tiempo y garantizar que se utilicen la asignación de envíos y las tipologías adecuadas para cada usuario.
 
@@ -164,13 +164,13 @@ Para conseguir la mejor navegación y una gran facilidad de uso, Adobe recomiend
 
 >[!CAUTION]
 >
->Adobe Campaign admite resoluciones inferiores a 1600 x 900 píxeles.
+>Adobe Campaign admite resoluciones inferiores a 1600x900 píxeles.
 
-En el espacio de trabajo del **[!UICONTROL Explorer]**, si algunas partes de la zona de **[!UICONTROL Details]** aparecen truncadas, puede expandirlas utilizando la flecha situada en la parte superior de la zona o haciendo clic en el botón **[!UICONTROL Enlarge]**.
+En el espacio de trabajo de **[!UICONTROL Explorer]**, si algunas partes de la zona de **[!UICONTROL Details]** aparecen truncadas, puede expandirlas utilizando la flecha situada en la parte superior de la zona o haciendo clic en el botón **[!UICONTROL Enlarge]**.
 
 ![](assets/s_ncs_user_resolution.png)
 
-### Examinar y personalizar listas {#browsing-lists}
+### Examen y personalización de listas {#browsing-lists}
 
 Aprenda a examinar, administrar y personalizar listas [en esta sección](adobe-campaign-ui-lists.md).
 
