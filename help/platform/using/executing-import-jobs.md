@@ -6,16 +6,16 @@ description: Obtenga información sobre cómo configurar y ejecutar trabajos de 
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
+exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
 translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
 source-wordcount: '2955'
 ht-degree: 97%
 
 ---
 
-
-# Configurar trabajos de importación {#executing-import-jobs}
+# Configuración de trabajos de importación {#executing-import-jobs}
 
 Adobe Campaign permite importar datos a la base de datos desde uno o varios archivos de texto, CSV, TAB o formato XML. Estos archivos están asociados a una tabla (principal o vinculada) y cada campo del archivo de origen se asocia a un campo de la base de datos.
 
