@@ -6,11 +6,11 @@ description: Creación de una conexión compartida
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '999'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -138,7 +138,7 @@ En el árbol de todas las instancias de ejecución, cree una carpeta por cada op
 
 Para utilizar varias instancias de control, esta configuración debe realizarse en TODAS las instancias de ejecución.
 
-1. Cree una carpeta por operador en el nodo **[!UICONTROL Administration > Production > Message Center]** : **Folder 1** y **Folder 2**. Para obtener más información sobre la creación de carpetas y vistas, consulte [esta página](../../platform/using/access-management-folders.md).
+1. Cree una carpeta por operador en el nodo **[!UICONTROL Administration > Production > Message Center]** : **Folder 1** y **Folder 2**. Para obtener más información sobre la creación de carpetas y vistas, consulte esta [página](../../platform/using/access-management-folders.md).
 
    ![](assets/messagecenter_multi_control_3.png)
 
