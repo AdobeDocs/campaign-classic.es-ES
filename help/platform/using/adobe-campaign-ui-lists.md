@@ -1,25 +1,25 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Administrar y personalizar listas
-description: Obtenga información sobre cómo examinar y configurar listas
+title: Administración y personalización de listas
+description: Aprenda a examinar y configurar listas
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6327cb5307ab5d37c15afa45dfd180ef04cb5a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1151'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# Administrar y personalizar listas{#manage-and-customize-lists}
+# Administración y personalización de listas{#manage-and-customize-lists}
 
-Puede acceder a las listas de registros de la base de datos de Campaign mediante el Explorador. Puede filtrar estas listas, ejecutar búsquedas, agregar información, filtrar y ordenar datos.
+Puede acceder a las listas de registros de la base de datos de Campaign mediante el Explorador. Puede filtrar estas listas, ejecutar búsquedas, añadir información, filtrar y ordenar datos.
 
-## Contar registros {#counting-records}
+## Recuento de registros {#counting-records}
 
 De forma predeterminada, Adobe Campaign carga los 200 primeros registros de una lista. Esto significa que la vista no muestra necesariamente todos los registros de la tabla que está viendo. Puede ejecutar un recuento del número de registros en la lista y cargar más registros.
 
@@ -27,9 +27,9 @@ En la parte inferior derecha de la pantalla de la lista, un **[!UICONTROL counte
 
 ![](assets/s_ncs_user_nb_200_0.png)
 
-Si aparece un &quot;**?**&quot; en lugar del número a la derecha, haga clic en el contador para iniciar el cálculo.
+Si aparece un símbolo **?** en lugar del número a la derecha, haga clic en el contador para iniciar el cálculo.
 
-### Cargar más registros {#loading-more-records}
+### Carga de más registros {#loading-more-records}
 
 Para cargar (y mostrar) registros adicionales (200 líneas por defecto), haga clic en **[!UICONTROL Continue loading]**.
 
@@ -51,7 +51,7 @@ En la ventana de configuración de la lista, haga clic en **[!UICONTROL Advanced
 
 ![](assets/s_ncs_user_configurelist_advancedparam.png)
 
-## Configurar listas {#configuring-lists}
+## Configuración de listas {#configuring-lists}
 
 ### Insertar columnas {#add-columns}
 
@@ -84,7 +84,7 @@ Otra forma de añadir columnas, por ejemplo, si desea mostrar datos que no se mu
    >
    >Utilice el campo **Search** para realizar una búsqueda en los campos disponibles. Para obtener más información, consulte [esta sección](#sorting-a-list).
    >
-   >Los campos se identifican mediante iconos específicos: Campos SQL, tablas vinculadas, campos calculados, etc. La descripción de cada campo seleccionado se muestra en la lista de campos disponibles. [Más información](#configuring-lists).
+   >Los campos se identifican mediante iconos específicos: campos SQL, tablas vinculadas, campos calculados, etc. La descripción de cada campo seleccionado se muestra en la lista de campos disponibles. [Más información](#configuring-lists).
    >
    >También puede ordenar y filtrar datos. Consulte [esta sección](../../platform/using/filtering-options.md).
 
@@ -122,7 +122,7 @@ Repita el proceso para cada columna que quiera ocultar. Haga clic en **[!UICONTR
 
 Cuando una lista está activa, es decir, cuando se selecciona al menos una línea, puede utilizar F9 para ajustar el ancho de las columnas de modo que todas las columnas se puedan mostrar en pantalla.
 
-### Mostrar datos en subcarpetas {#display-sub-folders-records}
+### Visualización de datos en subcarpetas {#display-sub-folders-records}
 
 Las listas pueden mostrar:
 
@@ -133,7 +133,7 @@ Para cambiar de un modo de visualización a otro, haga clic en **[!UICONTROL Dis
 
 ![](assets/s_ncs_user_display_children_icon.png)
 
-## Guardar una configuración de lista {#saving-a-list-configuration}
+## Cómo guardar una configuración de lista {#saving-a-list-configuration}
 
 Las configuraciones de la lista se definen localmente en el nivel de la estación de trabajo. Cuando se borra la memoria caché local, las configuraciones locales se desactivan.
 
@@ -165,7 +165,7 @@ Haga clic en **[!UICONTROL Save]** en la ventana de propiedades de la carpeta. L
 
 ## Exportación de una lista {#exporting-a-list}
 
-Para exportar datos de una lista, debe utilizar un asistente para exportar. Para acceder a él, seleccione los elementos que desea exportar de la lista, haga clic con el botón derecho del ratón y seleccione **[!UICONTROL Export...]**.
+Para exportar datos de una lista, debe utilizar un asistente de exportación. Para acceder a él, seleccione los elementos que desea exportar de la lista, haga clic con el botón derecho del ratón y seleccione **[!UICONTROL Export...]**.
 
 El uso de las funciones de importación y exportación se explica en [Importaciones y exportaciones genéricas](../../platform/using/about-generic-imports-exports.md).
 
@@ -173,7 +173,7 @@ El uso de las funciones de importación y exportación se explica en [Importacio
 >
 >Los elementos de una lista no se deben exportar mediante la función Copiar/Pegar.
 
-## Ordenar una lista {#sorting-a-list}
+## Ordenación de una lista {#sorting-a-list}
 
 Las listas pueden contener una gran cantidad de datos. Puede clasificar estos datos o aplicar filtros simples o avanzados. La clasificación le permite mostrar los datos en orden ascendente o descendente. Los filtros permiten definir y combinar criterios para mostrar solo los datos seleccionados.
 
