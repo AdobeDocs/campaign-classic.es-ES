@@ -4,16 +4,16 @@ product: campaign
 title: Matriz de compatibilidad para Campaign [!DNL Gold Standard]
 description: 'Matriz de compatibilidad del Campaign Classic para la versión [!DNL Gold Standard] '
 feature: Información general
-role: Profesional empresarial
-level: Principiante
+role: Business Practitioner
+level: Beginner
+exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
 translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '509'
 ht-degree: 98%
 
 ---
-
 
 # [!DNL Gold Standard] Matriz de compatibilidad{#compatibility-matrix-gs}
 
