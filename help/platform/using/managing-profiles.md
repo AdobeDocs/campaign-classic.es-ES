@@ -6,16 +6,16 @@ description: Administración de perfiles
 audience: platform
 content-type: reference
 topic-tags: profile-management
+exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
 translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
-
-# Administrar perfiles{#managing-profiles}
+# Administración de perfiles{#managing-profiles}
 
 ## Árbol de destinatario {#recipient-tree}
 
@@ -48,4 +48,3 @@ Para purgar una carpeta, utilice el menú **[!UICONTROL Actions > Purge folder]*
 Haga clic en **[!UICONTROL Start]** para iniciar la operación. La sección central de la ventana muestra el estado de progreso, como se muestra a continuación:
 
 ![](assets/s_ncs_user_purge_folder_start.png)
-
