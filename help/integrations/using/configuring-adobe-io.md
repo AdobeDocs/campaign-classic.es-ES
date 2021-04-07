@@ -8,22 +8,22 @@ content-type: reference
 index: y
 internal: n
 snippet: y
+exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
-
 
 # Configuración de Adobe I/O para los activadores de Adobe Experience Cloud {#configuring-adobe-io}
 
 >[!CAUTION]
 >
->Si utiliza una versión anterior de la integración de los activadores mediante autenticación oAuth, **debe pasar a Adobe I/O como se describe a continuación**. El modo de autenticación oAuth heredado con Campaign con Campaign se eliminará el 30 de noviembre de 2021. [Obtenga más información](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
+>Si utiliza una versión anterior de la integración de los activadores mediante autenticación oAuth, **debe pasar a Adobe I/O como se describe a continuación**. El modo de autenticación oAuth heredado con Campaign se eliminará el 30 de noviembre de 2021. [Obtenga más información](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
 >
->Tenga en cuenta que durante este cambio a [!DNL Adobe I/O], es posible que se pierdan algunos déclencheur entrantes.
+>Tenga en cuenta que durante este cambio a [!DNL Adobe I/O], es posible que se pierdan algunos activadores entrantes.
 
 ## Requisitos previos {#adobe-io-prerequisites}
 
@@ -36,11 +36,11 @@ Antes de iniciar esta implementación, compruebe lo siguiente:
 
 ## Paso 1: Crear/actualizar proyecto de Adobe I/O {#creating-adobe-io-project}
 
-1. Acceda a [!DNL Adobe I/O] e inicie sesión con el administrador del sistema correspondiente a la organización IMS.
+1. Acceda a [!DNL Adobe I/O] e inicie sesión con el derecho de administrador del sistema correspondiente a la organización IMS.
 
    >[!NOTE]
    >
-   > Asegúrese de haber iniciado sesión en el portal correcto de la Organización.
+   > Asegúrese de haber iniciado sesión en el portal correcto de la organización.
 
 1. Extraiga el ID del cliente de integración existente del archivo de configuración de instancia ims/authIMSTAClientId. El atributo no existente o vacío indica que el ID del cliente no está configurado.
 
@@ -76,7 +76,7 @@ Antes de iniciar esta implementación, compruebe lo siguiente:
 
 1. Elija cualquier **[!UICONTROL Product profile]** existente o cree uno nuevo si es necesario. A continuación, haga clic en **[!UICONTROL Save configured API]**.
 
-   Para obtener más información sobre [!DNL Analytics] **[!UICONTROL Product Profiles]**, consulte [Documentación de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html#admin-console).
+   Para obtener más información sobre [!DNL Analytics] **[!UICONTROL Product Profiles]**, consulte la [Documentación de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=es#admin-console).
 
    ![](assets/do-not-localize/adobe_io_6.png)
 
@@ -109,7 +109,7 @@ La clave privada debe codificarse en formato UTF-8 base64. Para ello:
 
    >[!NOTE]
    >
-   >A veces se pueden añadir líneas adicionales automáticamente al copiar/pegar la clave privada. Recuerde eliminarla antes de codificar la clave privada.
+   >A veces, se pueden añadir automáticamente líneas adicionales al copiar/pegar la clave privada. Recuerde eliminarlas antes de codificar la clave privada.
 
 1. Utilice la clave privada recién generada codificada en formato UTF-8 base64 para ejecutar el comando detallado anteriormente.
 
