@@ -6,11 +6,11 @@ description: Ofertas en un canal saliente
 audience: interaction
 content-type: reference
 topic-tags: case-study
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '445'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ En nuestra base de datos, existe una categoría de ofertas de viajes a África. 
 
 ## Realizar una simulación de oferta {#perform-an-offer-simulation}
 
-1. En la pestaña **[!UICONTROL Profiles and Targets]**, haga clic en el enlace **[!UICONTROL Simulations]** y, a continuación, haga clic en el botón **[!UICONTROL Create]**.
+1. En la pestaña **[!UICONTROL Profiles and Targets]**, haga clic en el vínculo **[!UICONTROL Simulations]** y, luego, haga clic en el botón **[!UICONTROL Create]**.
 
    ![](assets/offer_simulation_001.png)
 
