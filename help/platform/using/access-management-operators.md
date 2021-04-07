@@ -4,20 +4,20 @@ product: campaign
 title: Introducción a los operadores de Campaign
 description: Obtenga información sobre cómo crear y administrar usuarios de campañas
 feature: Gestión de acceso
-role: Profesional empresarial, administrador
-level: Principiante
+role: Business Practitioner, Administrator
+level: Beginner
+exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 translation-type: tm+mt
-source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 96%
+source-wordcount: '1148'
+ht-degree: 99%
 
 ---
 
+# Creación y administración de operadores {#operators}
 
-# Crear y administrar operadores {#operators}
-
-## Introducción a los operadores de Campaign {#about-operators}
+## Introducción a los operadores de Campaign {#about-operators}
 
 Un operador es un usuario de Adobe Campaign que tiene permisos para iniciar sesión y realizar acciones.
 
@@ -37,7 +37,7 @@ Para más información sobre la integración de Adobe Campaign y LDAP, consulte 
 
 Los usuarios también pueden conectarse directamente a Adobe Campaign utilizando su Adobe ID. Para obtener más información, consulte [esta página](../../integrations/using/about-adobe-id.md).
 
-## Crear un operador {#creating-an-operator}
+## Creación de un operador {#creating-an-operator}
 
 Para crear un operador nuevo y conceder permisos, siga los pasos a continuación:
 
@@ -77,7 +77,7 @@ Una vez que se ha creado el perfil del operador, puede agregar o actualizar su i
 >
 >El campo **[!UICONTROL Session timeout]** permite ajustar el retraso antes del tiempo de espera de sesión FDA. Para más información, consulte [Acerca del acceso de datos federado](../../installation/using/about-fda.md).
 
-## Defina la zona horaria del operador {#time-zone-of-the-operator}
+## Definición de la zona horaria del operador {#time-zone-of-the-operator}
 
 En la ficha **[!UICONTROL General]**, se puede seleccionar la zona horaria del operador. De forma predeterminada, los operadores funcionan en la zona horaria del servidor. Sin embargo, es posible seleccionar otra zona horaria con la lista desplegable.
 
@@ -91,7 +91,7 @@ La configuración de las zonas horarias se describe en [esta página](../../inst
 
 Además, la lista desplegable **[!UICONTROL Regional settings]** permite seleccionar el formato para mostrar las fechas y los números.
 
-## Agregar permisos {#access-rights-options}
+## Adición de permisos {#access-rights-options}
 
 Utilice la pestaña **[!UICONTROL Access rights]** para actualizar los grupos y los derechos asignados vinculados al operador.
 
@@ -127,7 +127,7 @@ El enlace **[!UICONTROL Edit the access parameters...]** permite acceder a las s
    >
    >Se trata de una restricción muy estricta y debe utilizarse con precaución. Un operador registrado con este tipo de derechos puede ver el contenido de la carpeta especificada y no tiene acceso a ningún otro nodo del árbol mediante el navegador. Sin embargo, según las funcionalidades a las que tenga acceso (por ejemplo: flujos de trabajo), puede mostrar datos que normalmente se almacenan en nodos que no puede ver.
 
-### Comprobar configuración {#check-settings}
+### Comprobación de configuración {#check-settings}
 
 La pestaña **[!UICONTROL Audit]** permite ver información relacionada con el operador. Las distintas pestañas se añaden automáticamente en función de la configuración definida en el área de intervención del operador.
 
