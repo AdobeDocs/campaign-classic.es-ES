@@ -6,14 +6,14 @@ description: Supervise los flujos de trabajo de la campaña con Workflow HeatMap
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
 translation-type: tm+mt
-source-git-commit: d34435b0b8714a87add6a5e3f82e4f94376f205b
+source-git-commit: 5b1c4426a0d59861aa61a7e53154b9adfda31d71
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1128'
 ht-degree: 100%
 
 ---
-
 
 # Mapa de calor del flujo de trabajo {#workflow-heatmap}
 
@@ -40,7 +40,7 @@ Más precisamente, ayuda a los administradores de la plataforma a:
 
 El uso del mapa de calor del flujo de trabajo requiere comprender bien los siguientes conceptos: Optimizaciones para [Flujos de trabajo](../../workflow/using/about-workflows.md), [Actividades](../../workflow/using/about-activities.md) y [Flujos de trabajo](../../workflow/using/workflow-best-practices.md).
 
-El mapa de calor del flujo de trabajo está disponible de forma predeterminada en Adobe Campaign a partir de la versión 18.10. Si tiene una compilación entre 8700 y 8977 (18.10), también puede beneficiarse de esta capacidad. Para solicitar el paquete correspondiente, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) y siga las instrucciones de [esta página](https://helpx.adobe.com/es/campaign/kb/install-workflow-heatmap-package.html) para saber cómo instalarlo.
+<!--The Workflow HeatMap is available by default in Adobe Campaign starting 18.10 release. If you have a build between 8700 and 8977 (18.10), you can also benefit from this capability. To request the corresponding package, contact the [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) and follow the instructions from [this page](https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html) to understand how to install it.-->
 
 ## Uso del mapa de calor {#using-the-heatmap}
 
