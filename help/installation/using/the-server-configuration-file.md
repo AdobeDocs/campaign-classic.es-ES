@@ -6,14 +6,14 @@ description: El archivo de configuración del servidor
 audience: installation
 content-type: reference
 topic-tags: appendices
+exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 0c83c989c7e3718a989a4943f5cde7ad4717fddc
 workflow-type: tm+mt
 source-wordcount: '7970'
 ht-degree: 8%
 
 ---
-
 
 # El archivo de configuración del servidor{#the-server-configuration-file}
 
@@ -2193,7 +2193,7 @@ Estos son los diferentes parámetros del nodo **Repair**. Esta es la configuraci
 
 Estos son los diferentes parámetros del nodo **securityZone**.
 
-Para obtener más información, consulte [Definición de zonas de seguridad](../../installation/using/security-zones.md).
+Para obtener más información, consulte [Definir zonas de seguridad](../../installation/using/security-zones.md).
 
 <table> 
  <thead> 
@@ -2291,7 +2291,7 @@ Esta es la configuración predeterminada:
 
 Estos son los diferentes parámetros del nodo **securityZone > subNetwork**.
 
-Para obtener más información, consulte [Definición de zonas de seguridad](../../installation/using/security-zones.md).
+Para obtener más información, consulte [Definir zonas de seguridad](../../installation/using/security-zones.md).
 
 <table> 
  <thead> 
@@ -3486,4 +3486,3 @@ Para obtener más información, consulte [Flujos de trabajo y afinidades de alta
   </tr> 
  </tbody> 
 </table>
-
