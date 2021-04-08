@@ -8,10 +8,10 @@ role: Business Practitioner, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 translation-type: tm+mt
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 76%
+ht-degree: 78%
 
 ---
 
@@ -79,11 +79,11 @@ Para acceder a las funcionalidades y configuraciones avanzadas, debe hacer clic 
 
 ![](assets/d_ncs_user_interface01.png)
 
-El diseño general del explorador de Adobe Campaign se presenta en [esta sección](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).
+El diseño general del explorador de Adobe Campaign se presenta en [esta página](../../platform/using/adobe-campaign-explorer.md).
 
 >[!NOTE]
 >
->También puede mostrar una vista avanzada de esta lista del árbol de Adobe Campaign haciendo clic en el vínculo **[!UICONTROL Profiles and targets > Recipients]** . La visualización de la lista se puede configurar para adaptarla a sus necesidades. Puede agregar o eliminar columnas, definir el orden de las columnas, ordenar datos, etc. La configuración de visualización de lista se describe en [esta sección](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).
+>También puede mostrar una vista avanzada de esta lista del árbol de Adobe Campaign haciendo clic en el vínculo **[!UICONTROL Profiles and targets > Recipients]** . La visualización de la lista se puede configurar para adaptarla a sus necesidades. Puede agregar o eliminar columnas, definir el orden de las columnas, ordenar datos, etc. La configuración de visualización de lista se describe en [esta página](../../platform/using/adobe-campaign-ui-lists.md).
 >
 >También puede definir las vistas de los destinatarios. Para obtener más información sobre esta funcionalidad, consulte [esta sección](../../platform/using/access-management-folders.md).
 
@@ -97,7 +97,7 @@ Si está alojado en AWS, también puede supervisar el número de perfiles activo
 
 >[!NOTE]
 >
->Todos los usuarios administradores pueden acceder a Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>Todos los usuarios administradores pueden acceder al Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 >
 >Tenga en cuenta que la instancia debe alojarse en AWS y actualizarse con la última versión de [Gold Standard](../../rn/using/gs-overview.md) o la [última versión de GA (21.1)](../../rn/using/latest-release.md). Aprenda a comprobar su versión en [esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
 
