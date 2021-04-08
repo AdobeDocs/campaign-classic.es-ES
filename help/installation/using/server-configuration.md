@@ -6,58 +6,16 @@ description: Obtenga más información sobre las prácticas recomendadas de conf
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
+exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
 translation-type: tm+mt
-source-git-commit: 564eaedb09282c85593f638617baded0a63494a0
+source-git-commit: e31d386af4def80cdf258457fc74205b1ca823b3
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 12%
+source-wordcount: '620'
+ht-degree: 15%
 
 ---
 
-
 # Configuración del servidor {#server-configuration}
-
-## Configuración de zonas de seguridad
-
-A partir de la versión 8977, la interfaz de usuario de autoservicio de zonas de seguridad ya no está disponible. Si no está alojado en AWS, póngase en contacto con el equipo de asistencia de Adobe para añadir la IP a la lista de permitidos. De lo contrario, la adición de IP a la lista de permitidos debe realizarse en [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html).
-
-Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
-
->[!NOTE]
-> 
->Todos los usuarios administradores pueden acceder a Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
->
->Tenga en cuenta que la instancia debe alojarse en AWS y actualizarse con la última versión de [Gold Standard](../../rn/using/gs-overview.md) o la [última versión de GA (21.1)](../../rn/using/latest-release.md). Aprenda a comprobar su versión en [esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
-
-
-* Asegúrese de que el proxy inverso no esté permitido en subNetwork. Si es así, se detectará **todo** tráfico procedente de esta IP local, por lo que se confiará en él.
-
-* Minimice el uso de sessionTokenOnly=&quot;true&quot;:
-
-   * Advertencia: Si este atributo se establece en true, el operador se puede exponer a un **ataque CRSF**.
-   * Además, la cookie sessionToken no está configurada con un indicador httpOnly, por lo que parte del código javascript del lado del cliente puede leerla.
-   * Sin embargo, el Centro de mensajes en varias celdas de ejecución necesita sessionTokenOnly: cree una nueva zona de seguridad con sessionTokenOnly configurada como &quot;true&quot; y añada **solo las IP necesarias** en esta zona.
-
-* Cuando sea posible, establezca todos allowHTTP, showErrors como falsos (no para localhost) y compruébelos.
-
-   * allowHTTP = &quot;false&quot;: fuerza a los operadores a utilizar HTTPS
-   * showErrors = &quot;false&quot;: oculta errores técnicos (incluidos los SQL). Evita mostrar demasiada información, pero reduce la capacidad del experto en marketing para resolver errores (sin solicitar más información a un administrador)
-
-* Establezca allowDebug en true solo en las IP utilizadas por los usuarios/administradores de marketing que necesiten crear estudios, webApps e informes (de hecho, previsualizarlos). Este indicador permite que estas IP obtengan reglas de transmisión mostradas y las depuren.
-
-* Nunca establezca allowEmptyPassword, allowUserPassword, allowSQLInjection como verdadero. Estos atributos solo están aquí para permitir una migración sin problemas desde las versiones 5 y 6.0:
-
-   * **Los operadores** allowEmptyPasswordlets tienen una contraseña vacía. Si este es el caso, notifique a todos los operadores para que les pidan que establezcan una contraseña con una fecha límite. Una vez que haya pasado esta fecha límite, cambie este atributo a false.
-
-   * **** Los operadores allowUserPasswordlets envían sus credenciales como parámetros (por lo que se registrarán mediante apache/IIS/proxy). Esta función se utilizaba en el pasado para simplificar el uso de la API. Puede consultar la guía (o la especificación) si algunas aplicaciones de terceros utilizan esto. Si es así, debe notificarles que deben cambiar la forma en que utilizan nuestra API y, lo antes posible, eliminar esta función.
-
-   * **** allowSQLInjectionpermite al usuario realizar inyecciones SQL utilizando una sintaxis antigua. Lo antes posible, realice las correcciones descritas en [esta página](../../migration/using/general-configurations.md) para poder establecer este atributo en false. Puede utilizar /nl/jsp/ping.jsp?zones=true para comprobar la configuración de su zona de seguridad. Esta página muestra el estado activo de las medidas de seguridad (calculadas con estos indicadores de seguridad) para la IP actual.
-
-* HttpOnly cookie/useSecurityToken: consulte el indicador **sessionTokenOnly** .
-
-* Minimizar las direcciones IP agregadas a la lista de permitidos: en las zonas de seguridad, hemos agregado los 3 rangos para redes privadas. Es poco probable que utilice todas estas direcciones IP. Por lo tanto, mantenga solamente los que necesite.
-
-* Actualice el operador webApp/internal para que solo sea accesible en localhost.
 
 ## Protección de carga de archivos
 
