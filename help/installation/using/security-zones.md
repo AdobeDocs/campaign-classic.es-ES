@@ -6,20 +6,30 @@ description: Obtenga información sobre cómo configurar las zonas de seguridad
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 830ec0ed80fdc6e27a8cc782b0e4b79abf033450
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 0%
+source-wordcount: '1013'
+ht-degree: 2%
 
 ---
 
 
-# Definir zonas de seguridad {#defining-security-zones}
+# Definición de zonas de seguridad {#defining-security-zones}
 
 Cada operador debe estar vinculado a una zona para iniciar sesión en una instancia y la IP del operador debe incluirse en las direcciones o conjuntos de direcciones definidos en la zona de seguridad. La configuración de la zona de seguridad se realiza en el archivo de configuración del servidor de Adobe Campaign.
 
-Los operadores están vinculados a una zona de seguridad desde su perfil en la consola (nodo **[!UICONTROL Administration > Access management > Operators]** ). Obtenga información sobre cómo vincular zonas a operadores de Campaign en [esta sección](#linking-a-security-zone-to-an-operator).
+Los operadores están vinculados a una zona de seguridad desde su perfil en la consola, accesible en el nodo **[!UICONTROL Administration > Access management > Operators]**. [Más información](#linking-a-security-zone-to-an-operator).
+
+>[!NOTE]
+>
+>Este procedimiento está restringido a **implementaciones locales**.
+>
+>Como cliente **alojado**, si puede acceder al [Panel de control de Campaign de campaña](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es), puede utilizar la interfaz de autoservicio de la zona de seguridad. [Obtenga más información](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)
+>
+>Otros clientes **híbridos/alojados** deben ponerse en contacto con Adobe para configurar las zonas de seguridad para su instancia.
+
 
 ## Crear zonas de seguridad {#creating-security-zones}
 
@@ -199,7 +209,7 @@ Una vez definidas las zonas y configurada la enumeración **[!UICONTROL Security
 
 1. Haga clic en el nodo **[!UICONTROL Administration > Access management > Operators]**.
 1. Seleccione el operador al que desea vincular una zona de seguridad y haga clic en la pestaña **[!UICONTROL Edit]**.
-1. Vaya a la pestaña **[!UICONTROL Access rights]** y haga clic en el enlace **[!UICONTROL Edit access parameters...]**.
+1. Vaya a la pestaña **[!UICONTROL Access rights]** y haga clic en el vínculo **[!UICONTROL Edit access parameters...]**.
 
    ![](assets/zone_operator.png)
 
