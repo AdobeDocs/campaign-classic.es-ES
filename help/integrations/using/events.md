@@ -5,14 +5,14 @@ title: Configuración de eventos
 description: Descubra más información sobre cómo configurar eventos para la implementación personalizada
 audience: integrations
 content-type: reference
-translation-type: ht
-source-git-commit: d6327cb5307ab5d37c15afa45dfd180ef04cb5a2
-workflow-type: ht
+exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
+translation-type: tm+mt
+source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
+workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 100%
 
 ---
-
 
 # Configuración de eventos para la implementación personalizada {#events}
 
@@ -217,7 +217,7 @@ Los eventos se pueden mostrar con un formulario sencillo basado en el esquema de
 
 >[!NOTE]
 >
->El nodo Evento de canalización no está integrado y debe añadirse, así como el formulario relacionado debe crearse en Campaign. Estas operaciones están restringidas únicamente a usuarios expertos. Para obtener más información, consulte estas secciones: [Jerarquía de navegación](../../platform/using/adobe-campaign-workspace.md#about-navigation-hierarchy) y [Edición de formularios](../../configuration/using/editing-forms.md).
+>El nodo Evento de canalización no está integrado y debe añadirse, así como el formulario relacionado debe crearse en Campaign. Estas operaciones están restringidas únicamente a usuarios expertos. Para obtener más información, consulte estas secciones: [Jerarquía de navegación](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy) y [Edición de formularios](../../configuration/using/editing-forms.md).
 
 ![](assets/triggers_7.png)
 
