@@ -5,14 +5,14 @@ title: Nota técnica
 description: Nota técnica
 hide: true
 hidefromtoc: true
+exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 translation-type: tm+mt
-source-git-commit: bdd746120f2162cf48eeb9d519513656bd4e75aa
+source-git-commit: 2c47a3e42260a0f04d2c9a665f28c532212997f8
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 14%
 
 ---
-
 
 # Actualizaciones de configuración de Adobe Campaign: marzo de 2021 {#acc-config-updates}
 
@@ -26,7 +26,7 @@ Por motivos de seguridad, debe actualizar a una de las versiones que se indican 
 
 >[!NOTE]
 >
->Para cualquier pregunta acerca de estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Para cualquier pregunta acerca de estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html).
 
 
 ## Actualizaciones de seguridad {#acc-security-updates}
@@ -118,7 +118,7 @@ La actualización a una de las nuevas versiones que se enumeran a continuación 
 * Gold Standard 11. [Obtenga más información](../rn/using/gold-standard.md)
 * Versión 21.1.1 de Campaign. [Obtenga más información](../rn/using/latest-release.md)
 * Versión 20.3.3 de Campaign. [Obtenga más información](../rn/using/release--20-3.md)
-* Versión 20.2.4 de Campaign. [Obtenga más información](../rn/using/release--20-2.md)
+* Versión 20.2.5 de Campaign. [Obtenga más información](../rn/using/release--20-2.md)
 * Versión 19.1.8 de Campaign. [Obtenga más información](../rn/using/release--19-1.md)
 
 Aprenda a comprobar su versión [en esta sección](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
@@ -147,7 +147,7 @@ Aprenda a comprobar su versión [en esta sección](../platform/using/launching-a
 
 Como cliente alojado, si ha actualizado a la nueva compilación, Adobe ya ha actualizado sus instancias a la API basada en HTTP/2.
 
-Como cliente local/alojado, debe actualizar su configuración. [Aprenda a migrar a HTTP/2](https://helpx.adobe.com/es/campaign/kb/migrate-to-apns-http2.html)
+Como cliente local/híbrido, debe actualizar la configuración. [Aprenda a migrar a HTTP/2](https://helpx.adobe.com/es/campaign/kb/migrate-to-apns-http2.html)
 
 ### Actualizaciones de certificados raíz de APNS
 
@@ -170,6 +170,6 @@ Como cliente local/híbrido, debe actualizar la configuración para garantizar u
 ## Vínculos útiles
 
 * [Actualice su entorno](../production/using/build-upgrade.md)
-* [Preguntas frecuentes sobre la actualización de versiones](../platform/using/faq-build-upgrade.md)
+* [Preguntas frecuentes sobre la actualización de compilaciones](../platform/using/faq-build-upgrade.md)
 * [Descargar compilación del Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html)
 * [Poner la nueva consola de cliente a disposición de los usuarios](../installation/using/client-console-availability-for-windows.md)
