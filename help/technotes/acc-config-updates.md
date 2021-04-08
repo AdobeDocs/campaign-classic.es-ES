@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 translation-type: tm+mt
-source-git-commit: 2c47a3e42260a0f04d2c9a665f28c532212997f8
+source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1107'
 ht-degree: 14%
 
 ---
@@ -117,7 +117,6 @@ La actualización a una de las nuevas versiones que se enumeran a continuación 
 
 * Gold Standard 11. [Obtenga más información](../rn/using/gold-standard.md)
 * Versión 21.1.1 de Campaign. [Obtenga más información](../rn/using/latest-release.md)
-* Versión 20.3.3 de Campaign. [Obtenga más información](../rn/using/release--20-3.md)
 * Versión 20.2.5 de Campaign. [Obtenga más información](../rn/using/release--20-2.md)
 * Versión 19.1.8 de Campaign. [Obtenga más información](../rn/using/release--19-1.md)
 
@@ -135,7 +134,7 @@ Además, en el caso de entornos híbridos, los clientes deben asegurarse de que 
 
 ### API de proveedor de APNS basada en HTTP/2
 
-El servicio de notificaciones push de Apple (APNS) dejará de ser compatible con el protocolo binario heredado a partir del **31 de marzo de 2021**. [Obtenga más información](https://developer.apple.com/news/?id=c88acm2b).
+Desde el **31 de marzo de 2021**, el servicio de notificaciones push de Apple (APNS) ya no es compatible con el protocolo binario heredado. [Obtenga más información](https://developer.apple.com/news/?id=c88acm2b).
 
 **¿Estás afectado?**
 
@@ -151,7 +150,7 @@ Como cliente local/híbrido, debe actualizar la configuración. [Aprenda a migra
 
 ### Actualizaciones de certificados raíz de APNS
 
-El 29 de marzo de 2021, la actualización de la infraestructura del servicio de notificaciones push de Apple (APNS) afectará al canal iOS de Adobe Campaign Classic. Un cambio en la configuración del sistema operativo es **obligatorio** para evitar la interrupción del canal push de iOS.
+El 29 de marzo de 2021, una actualización de la infraestructura del servicio de notificaciones push de Apple (APNS) afectó al canal iOS de Adobe Campaign Classic. Un cambio en la configuración del sistema operativo es **obligatorio** para evitar la interrupción del canal push de iOS.
 
 Obtenga más información sobre los cambios de APNS [en esta página](https://developer.apple.com/news/?id=7gx0a2lp).
 
