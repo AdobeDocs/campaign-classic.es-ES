@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 37802e52f1d1d38d9c3d59c439f23114a594bfef
+source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
 workflow-type: tm+mt
-source-wordcount: '2480'
+source-wordcount: '2483'
 ht-degree: 98%
 
 ---
@@ -48,6 +48,7 @@ ht-degree: 98%
       + [Inicio de Adobe Campaign](platform/using/launching-adobe-campaign.md)
       + Espacio de trabajo de Adobe Campaign{#campaign-workspace}
          + [Introducción a la IU de Campaign](platform/using/adobe-campaign-workspace.md)
+         + [Uso del explorador de Campaign](platform/using/adobe-campaign-explorer.md)
          + [Navegación y personalización de listas](platform/using/adobe-campaign-ui-lists.md)
       + Preguntas frecuentes {#faq}
          + [Preguntas clave](platform/using/common-questions.md)
