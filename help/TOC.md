@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2489'
 ht-degree: 97%
 
 ---
@@ -659,7 +659,9 @@ ht-degree: 97%
       + [Configuración del servidor de Campaign](installation/using/configuring-campaign-server.md)
       + [Definición de zonas de seguridad](installation/using/security-zones.md)
       + [Definir permisos de URL](installation/using/url-permissions.md)
+      + [Archivos y recursos](installation/using/file-res-management.md)
       + [Configurar Tomcat](installation/using/configure-tomcat.md)
+      + [Configuración de la entrega](installation/using/configure-delivery-settings.md)
       + [Configuraciones técnicas de correo electrónico](installation/using/email-deliverability.md)
       + [Uso de servidores MX con Campaign](installation/using/using-mx-servers.md)
       + [Configuración del CCO del correo electrónico](installation/using/email-archiving.md)
