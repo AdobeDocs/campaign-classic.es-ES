@@ -6,14 +6,14 @@ description: Descubra cómo administrar las solicitudes de privacidad
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
+exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 5b1c4426a0d59861aa61a7e53154b9adfda31d71
 workflow-type: tm+mt
-source-wordcount: '2444'
+source-wordcount: '2415'
 ht-degree: 100%
 
 ---
-
 
 # Administración de solicitudes de privacidad {#privacy-requests}
 
@@ -21,11 +21,9 @@ Para una presentación general sobre la Administración de la privacidad, consul
 
 Esta información se aplica al RGPD, la CCPA, la PDPA y la LGPD. Para obtener más información sobre estas normativas, consulte [esta sección](../../platform/using/privacy-management.md#privacy-management-regulations).
 
-La opción de exclusión de la Venta de información personal, que es específica de la CCPA, se explica en [esta sección](#sale-of-personal-information-ccpa).
+La opción de exclusión de la Venta de información personal, que es específica de la CCPA, se explica en esta [sección](#sale-of-personal-information-ccpa).
 
->[!IMPORTANT]
->
->Los procedimientos de instalación descritos en este documento son aplicables a partir de Campaign Classic 18.4 (versión 8931 o superior). Si está ejecutando una versión anterior, consulte esta [nota técnica](https://helpx.adobe.com/es/campaign/kb/how-to-install-gdpr-package-on-legacy-versions.html).
+<!--Installation procedures described in this document are applicable starting Campaign Classic 18.4 (build 8931+). If you are running on a previous version, refer to this [technote](https://helpx.adobe.com/campaign/kb/how-to-install-gdpr-package-on-legacy-versions.html).-->
 
 ## Acerca de las solicitudes de privacidad {#about-privacy-requests}
 
