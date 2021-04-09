@@ -6,14 +6,14 @@ description: Antes de iniciar la migración
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
+exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 2%
 
 ---
-
 
 # Antes de iniciar la migración{#before-starting-migration}
 
@@ -25,10 +25,10 @@ ht-degree: 2%
 
 * El proceso de migración solo deben realizarlo usuarios expertos. Debe contar con la asistencia de al menos un experto en bases de datos, un administrador del sistema y un desarrollador de aplicaciones de Adobe Campaign.
 * Antes de iniciar la migración, compruebe que los sistemas y los componentes del sistema que utiliza son compatibles con la versión 7. Consulte la [matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
-* Si utiliza la mensajería en la nube de Adobe Campaign (intermediaria), póngase en contacto con Adobe antes de iniciar el procedimiento de migración completo.
+* Si utiliza Adobe Campaign Cloud Messaging (intermediario), póngase en contacto con el Adobe antes de iniciar el procedimiento de migración completo.
 * Antes de iniciar un proceso de migración, **debe** realizar una copia de seguridad de los datos.
 * El proceso de migración puede tardar varios días en completarse.
-* Adobe Campaign v7 es más estricto que las versiones 5.11 y 6.02 en términos de configuración. Esto sirve principalmente para evitar problemas como la corrupción de datos y para preservar la integridad de los datos en la base de datos. Por consiguiente, es posible que algunas de las funciones ofrecidas en las versiones 5.11 y 6.02 ya no funcionen en la versión 7 y, por tanto, deban adaptarse después de la migración. Antes de poner en producción algo, le sugerimos que pruebe sistemáticamente todas las configuraciones, especialmente los flujos de trabajo necesarios para utilizar Adobe Campaign.
+* Adobe Campaign v7 es más estricto que las versiones 5.11 y 6.02 en términos de configuración. Esto sirve principalmente para evitar problemas como la corrupción de datos y para preservar la integridad de los datos en la base de datos. Por consiguiente, es posible que algunas de las funciones ofrecidas en las versiones 5.11 y 6.02 ya no funcionen en la versión 7 y, por tanto, deban adaptarse después de la migración. Antes de poner en producción cualquier cosa, le sugerimos que pruebe sistemáticamente todas las configuraciones, especialmente los flujos de trabajo necesarios para utilizar Adobe Campaign.
 
 ### Versión instalada {#installed-version}
 
@@ -42,7 +42,7 @@ Antes de iniciar un proceso de migración, **debe** realizar una copia de seguri
 
 ### Entorno {#environment}
 
-* No es posible cambiar el tipo de motor de la base de datos (DBMS). Por ejemplo, no se puede cambiar de un motor PostgreSQL a un motor Oracle. Sin embargo, puede cambiar de un motor Oracle 8 a un motor Oracle 10.
+* No es posible cambiar el tipo de motor de la base de datos (DBMS). Por ejemplo, no se puede cambiar de un motor PostgreSQL a un motor de Oracle. Sin embargo, puede cambiar de un motor de Oracle 8 a un motor de Oracle 10.
 * No es posible pasar de una base de datos no Unicode a una base de datos Unicode.
 
 ### Recomendación {#recommendation}
@@ -60,7 +60,7 @@ El procedimiento de migración debe llevarse a cabo en **todos** los servidores 
    1. Migrar el servidor de correo (mta).
    1. Migre los servidores de redirección y seguimiento (Apache/IIS).
 
-* En el caso de una **Cloud Messaging platform**, los servidores de ejecución se alojan en Adobe Campaign. Póngase en contacto con Adobe Campaign para coordinar la migración entre diferentes servidores.
+* En el caso de una **plataforma de mensajería en la nube**, los servidores de ejecución se alojan en Adobe Campaign. Póngase en contacto con Adobe Campaign para coordinar la migración entre diferentes servidores.
 * En el caso de una **plataforma Power Booster o Power Cluster**, los pasos de migración son los siguientes:
 
    1. Migre los servidores de redirección y seguimiento (Apache/IIS).
@@ -77,5 +77,4 @@ nlserver config -internalpassword
 
 >[!IMPORTANT]
 >
->La contraseña **internal** debe ser idéntica para todos los servidores de seguimiento. Para obtener más información, consulte las secciones [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier) y [Permissions](../../platform/using/access-management.md).
-
+>La contraseña **internal** debe ser idéntica para todos los servidores de seguimiento. Para obtener más información, consulte las secciones [Internal identifier](../../installation/using/configuring-campaign-server.md#internal-identifier) y [Permissions](../../platform/using/access-management.md).
