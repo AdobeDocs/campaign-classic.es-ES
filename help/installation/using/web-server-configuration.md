@@ -6,14 +6,14 @@ description: Obtenga más información sobre las prácticas recomendadas princip
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
+exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
 translation-type: tm+mt
-source-git-commit: f03554302c77a39a3ad68d47417ed930f43302b7
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '325'
 ht-degree: 1%
 
 ---
-
 
 # Configuración del servidor web {#web-server-configuration}
 
@@ -58,7 +58,7 @@ A continuación encontrará algunas de las principales prácticas recomendadas r
    * ServerSignature **Desactivado**
    * ServerTokens **Prod**
 
-   **En IIS**  (consulte la  [documentación](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs)), realice la configuración siguiente:
+   **En IIS**, realice la siguiente configuración:
 
    * Instale **URLScan**.
    * Edite el archivo **Urlscan.ini** para que tenga **RemoveServerHeader=1**
@@ -66,7 +66,7 @@ A continuación encontrará algunas de las principales prácticas recomendadas r
 
 * Limite el tamaño de la consulta para evitar que se carguen archivos importantes:
 
-   **En Apache**  (consulte la  [documentación](http://httpd.apache.org/docs/2.2/mod/core.html#limitrequestbody)), añada la directiva  **** LimitRequestBodyaddress (tamaño en bytes) en el directorio / .
+   **En Apache**, añada la directiva  **** LimitRequestBodyaddress (tamaño en bytes) en el directorio / .
 
    ```
    <Directory />
