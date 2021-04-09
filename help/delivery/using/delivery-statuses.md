@@ -6,14 +6,14 @@ description: Obtenga más información sobre los estados disponibles en su panel
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
+exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 translation-type: tm+mt
-source-git-commit: 8bf1b5b1a6763cf933d86f2af61b2bb68e870222
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
-
 
 # Estados de entrega {#delivery-statuses}
 
@@ -87,7 +87,7 @@ Para obtener más información sobre los diferentes errores de entrega que puede
  </tbody> 
 </table>
 
-Para aprender a optimizar la entrega de los correos electrónicos de Adobe Campaign, consulte [esta sección](../../delivery/using/about-deliverability.md). Para profundizar en la capacidad de envío, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+Para aprender a optimizar la entrega de los correos electrónicos de Adobe Campaign, consulte [esta sección](../../delivery/using/about-deliverability.md). Para profundizar en la capacidad de envío, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es).
 
 ## Estado pendiente {#pending-status}
 
@@ -127,7 +127,7 @@ Si la entrega no se realiza y su estado sigue siendo **[!UICONTROL Pending]**, p
 
 * La entrega puede estar utilizando una afinidad no configurada en el servidor remitente.
 
-   En este caso, compruebe la configuración de la administración de tráfico (afinidad de IP) y utilice el campo **[!UICONTROL Managing affinities with IP addresses]** para relacionar las entregas al MTA que administra la afinidad. Para obtener más información sobre las afinidades, consulte [esta sección](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
+   En este caso, compruebe la configuración de la administración de tráfico (afinidad de IP) y utilice el campo **[!UICONTROL Managing affinities with IP addresses]** para relacionar las entregas al MTA que administra la afinidad. Para obtener más información sobre las afinidades, consulte [esta sección](../../installation/using/configuring-campaign-server.md#delivery-settings).
 
 * Cuando se ejecutan demasiadas campañas, el estado de la entrega permanece en estado Pendiente.
 
