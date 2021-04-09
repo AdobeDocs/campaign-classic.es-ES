@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
 translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 15%
@@ -28,7 +28,7 @@ Compruebe con los usuarios operativos qué tipo de archivos se cargan en el serv
 * ETL (txt, csv, tab, ...)
 * Etc.
 
-Añádalos todos en serverConf/shared/datastore/@uploadAllowlist (expresión regular java válida). Obtenga más información en [esta página](../../installation/using/configuring-campaign-server.md#limiting-uploadable-files).
+Añádalos todos en serverConf/shared/datastore/@uploadAllowlist (expresión regular java válida). Obtenga más información en [esta página](../../installation/using/file-res-management.md).
 
 Adobe Campaign no restringe el tamaño del archivo. Pero puede hacerlo configurando IIS/Apache. Obtenga más información en [esta sección](../../installation/using/web-server-configuration.md).
 
