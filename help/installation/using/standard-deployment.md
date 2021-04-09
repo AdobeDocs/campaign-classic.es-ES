@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: deployment-types-
 exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
 translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 4%
@@ -131,7 +131,7 @@ Los pasos son los siguientes:
       >
       >El parámetro **nameServers** solo se usa en Windows.
 
-      Para obtener más información, consulte [Configuración de envío](configuring-campaign-server.md#delivery-settings).
+      Para obtener más información, consulte [Configuración de envío](configure-delivery-settings.md).
 
    * los servidores de seguimiento redundantes en los parámetros de redirección:
 
@@ -140,7 +140,7 @@ Los pasos son los siguientes:
       <spareServer enabledIf="$(hostname)!='front_srv2'" id="2" url="https://front_srv2:8080"/>
       ```
 
-      Para obtener más información, consulte [Seguimiento redundante](../../installation/using/configuring-campaign-server.md#redundant-tracking).
+      Para obtener más información, consulte [Seguimiento redundante](configuring-campaign-server.md#redundant-tracking).
 
 1. Inicie el sitio web y pruebe la redirección desde la dirección URL: [https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test).
 
