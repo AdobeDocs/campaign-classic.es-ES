@@ -8,7 +8,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
 translation-type: tm+mt
-source-git-commit: 65662a49aefdd6b5f85b39677908696f093779e8
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
 source-wordcount: '2830'
 ht-degree: 92%
@@ -233,7 +233,7 @@ Obtenga más información en la [Matriz de compatibilidad de Campaign](https://h
 
 * Los certificados para aplicaciones móviles iOS con el conector HTTP2 de iOS ahora se validan antes de enviar las notificaciones push, lo que evita que los envíos produzcan errores debido a certificados caducados.
 
-* Se ha mejorado la administración de las conexiones proxy HTTP. [Más información](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration).
+* Se ha mejorado la administración de las conexiones proxy HTTP. [Más información](../../installation/using/file-res-management.md).
 
 * Nueva opción en las actividades de flujo de trabajo **[!UICONTROL Javascript Code]** y **[!UICONTROL Advanced Javascript Code]** para detener la ejecución después de cierto límite. El valor predeterminado es de 1 hora. [Más información](../../workflow/using/sql-code-and-javascript-code.md#javascript-code).
 
