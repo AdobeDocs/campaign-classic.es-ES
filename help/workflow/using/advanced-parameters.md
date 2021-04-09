@@ -6,14 +6,14 @@ description: Parámetros avanzados
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
+exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '488'
 ht-degree: 100%
 
 ---
-
 
 # Parámetros avanzados{#advanced-parameters}
 
@@ -49,7 +49,10 @@ Generalmente, estas opciones se seleccionan en el carro haciendo clic con el bot
 
 ## Afinidad {#affinity}
 
-Este campo le permite forzar la ejecución de una actividad en un equipo específico. Para obtener más información, consulte [Gestor de propensión](../../workflow/using/managing-propensity.md).
+Puede optar por forzar la ejecución de un flujo de trabajo o actividad de flujo de trabajo en un equipo concreto. Para ello, debe definir una o más tendencias al nivel del flujo de trabajo o la actividad pertinente.
+
+En esta [sección](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities) se detalla la configuración del flujo de trabajo de alta disponibilidad.
+
 
 ## Max. periodo de ejecución {#max--execution-period}
 
