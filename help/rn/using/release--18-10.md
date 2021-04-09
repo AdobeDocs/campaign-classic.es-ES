@@ -4,16 +4,16 @@ product: campaign
 title: Notas de la versión de Campaign 18.10
 description: Notas de la versión de Campaign 18.10
 feature: Información general
-role: Profesional empresarial
-level: Principiante
+role: Business Practitioner
+level: Beginner
+exl-id: 57996f77-4ac2-402a-95db-b75d4bea4eeb
 translation-type: tm+mt
-source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2372'
 ht-degree: 98%
 
 ---
-
 
 # Versión 18.10{#release-18-10}
 
@@ -148,7 +148,7 @@ ht-degree: 98%
 
 * Las API de Campaign Classic están ahora disponibles en una [página dedicada](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html). Si utilizó el archivo jsapi.chm, debería consultar la nueva versión en línea.
 * Ahora admite PostgreSQL 10, Debian 9 y Teradata 16.20. Consulte la [matriz de compatibilidades](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html).
-* Al crear una conexión SFTP, ahora puede utilizar la autenticación proxy. Para obtener más información, consulte la [documentación detallada](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration) (NEO-9868).
+* Al crear una conexión SFTP, ahora puede utilizar la autenticación proxy. Para obtener más información, consulte la [documentación detallada](../../installation/using/file-res-management.md) (NEO-9868).
 * La opción de **fórmula de cálculo de fecha** está disponible en las propiedades de entrega al crear una única entrega con la plantilla de envíos de correo postal. (NEO-9792)
 * La administración de nombres de dominio se ha mejorado para el seguimiento de cookies y las aplicaciones Web. Para obtener más información, consulte la sección “Evoluciones técnicas”.
 * La importación de activos compartidos de Adobe Marketing Cloud en una página de entrega o de aterrizaje se ha mejorado en términos de seguridad y rendimiento.
@@ -240,4 +240,3 @@ Estos cambios de índice pueden producir un aumento del tiempo necesario para re
 * Se ha corregido un error de Oracle que se producía cuando se guardó una nueva composición de distribución después de seleccionar un elemento de un esquema específico **basado en una vista SQL**. (NEO-11682)
 * Se ha corregido un problema que provocaba que generaba archivos rechazados que contienen los falsos positivos al procesar un archivo zip que contiene un .csv a través de una actividad de archivo de carga.
 * xtkjoblog ahora se depura por la limpieza.
-
