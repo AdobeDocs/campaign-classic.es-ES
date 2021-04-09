@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 95%
@@ -127,7 +127,7 @@ Si la entrega no se realiza y su estado sigue siendo **[!UICONTROL Pending]**, p
 
 * La entrega puede estar utilizando una afinidad no configurada en el servidor remitente.
 
-   En este caso, compruebe la configuración de la administración de tráfico (afinidad de IP) y utilice el campo **[!UICONTROL Managing affinities with IP addresses]** para relacionar las entregas al MTA que administra la afinidad. Para obtener más información sobre las afinidades, consulte [esta sección](../../installation/using/configuring-campaign-server.md#delivery-settings).
+   En este caso, compruebe la configuración de la administración de tráfico (afinidad de IP) y utilice el campo **[!UICONTROL Managing affinities with IP addresses]** para relacionar las entregas al MTA que administra la afinidad. Para obtener más información sobre las afinidades, consulte [esta sección](../../installation/using/configure-delivery-settings.md).
 
 * Cuando se ejecutan demasiadas campañas, el estado de la entrega permanece en estado Pendiente.
 
