@@ -6,14 +6,14 @@ description: Configuración y entrega de la entrega
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: ht
-source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
-workflow-type: ht
+exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
+translation-type: tm+mt
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 100%
 
 ---
-
 
 # Configuración y entrega de la entrega {#configuring-and-sending-the-delivery}
 
@@ -41,7 +41,7 @@ Antes de realizar el envío, se pueden definir los parámetros de envío en las 
 
    >[!NOTE]
    >
-   >No se recomienda utilizar esta opción al instalar usando un intermediario para no llamar al servidor de correo. Para obtener más información sobre la configuración de un servidor SMTP, consulte [esta sección](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
+   >No se recomienda utilizar esta opción al instalar usando un intermediario para no llamar al servidor de correo. Para obtener más información sobre la configuración de un servidor SMTP, consulte [esta sección](../../installation/using/configuring-campaign-server.md#delivery-settings).
 
 * **[!UICONTROL Email BCC]**: Esta opción permite almacenar correos electrónicos en un sistema externo como CCO simplemente añadiendo una dirección de correo electrónico CCO al objetivo del mensaje. Para obtener más información, consulte [esta sección](../../delivery/using/sending-messages.md#archiving-emails).
 
