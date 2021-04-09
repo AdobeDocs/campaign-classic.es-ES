@@ -8,21 +8,31 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
 translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: 8ab0aab42accbd1253d53e8133f5af0a38c724ea
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 36%
+source-wordcount: '338'
+ht-degree: 32%
 
 ---
 
 
-# Configuración de permisos de URL {#url-permissions}
+# Configuración de permisos de URL (locales){#url-permissions}
 
 La lista predeterminada de direcciones URL a las que pueden llamar los códigos JavaScript (flujos de trabajo, etc.) a través de instancias de Campaign Classic es limitada. Son direcciones URL que permiten que las instancias funcionen correctamente.
 
 De forma predeterminada, las instancias no pueden conectarse a direcciones URL externas. Sin embargo, es posible añadir algunas direcciones URL externas a la lista de direcciones URL autorizadas para que la instancia pueda conectarse a ellas. Esto le permite conectar las instancias de Campaign a sistemas externos como, por ejemplo, servidores SFTP o sitios web para habilitar la transferencia de datos o archivos.
 
+>[!NOTE]
+>
+>Este procedimiento está restringido a **implementaciones locales**.
+>
+>Como cliente **alojado**, si puede acceder al [Panel de control de Campaign de campaña](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es), puede utilizar la interfaz de autoservicio de permisos de URL. [Obtenga más información](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html)
+>
+>Otros clientes **híbridos/alojados** deben ponerse en contacto con el equipo de asistencia de Adobe para agregar IP a la lista de permitidos.
+
+
 Para implementaciones **Hybrid** y **On-premise**, el administrador debe hacer referencia a un nuevo **urlPermission** en el archivo **serverConf.xml**.
+
 
 Hay tres modos de protección de conexión disponibles:
 
@@ -46,7 +56,7 @@ Hay tres modos de protección de conexión disponibles:
 
 Para obtener más información, consulte estas secciones:
 
-* [Documentación del Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es)
+* [Documentación del Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 * [Modelos de alojamiento](hosting-models.md)
 * [Configuración del servidor de Campaign](configuring-campaign-server.md)
 * [Parámetros del archivo de configuración del servidor de Campaign](the-server-configuration-file.md)
