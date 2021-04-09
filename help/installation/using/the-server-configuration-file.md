@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 translation-type: tm+mt
-source-git-commit: e165af411d2580d69694f1730116cb198418bfe2
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
 source-wordcount: '7970'
 ht-degree: 8%
@@ -201,7 +201,7 @@ Estos son los diferentes parámetros del nodo **dataStore**. Aquí es donde se d
   </tr> 
   <tr> 
    <td> uploadAllowlist<br /> </td> 
-   <td> Los archivos autorizados se descargarán separados por ','. La cadena debe ser una expresión java normal válida. Consulte <a href="../../installation/using/configuring-campaign-server.md#limiting-uploadable-files" target="_blank">Limitación de archivos cargables</a>.<br /> </td> 
+   <td> Los archivos autorizados se descargarán separados por ','. La cadena debe ser una expresión java normal válida. Consulte <a href="file-res-management.md" target="_blank">Limitación de archivos cargables</a>.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> '.+' <br /> </td> 
   </tr> 
@@ -425,7 +425,7 @@ En el nodo **dataStore > dataSource > pool**, configure los parámetros del grup
 
 Estos son los diferentes parámetros del nodo **dataStore > virtualDir**. Esta es la configuración del directorio virtual a la asignación de directorio real.
 
-Para obtener más información, consulte [Administración de recursos públicos](../../installation/using/configuring-campaign-server.md#managing-public-resources).
+Para obtener más información, consulte [Administración de recursos públicos](file-res-management.md).
 
 <table> 
  <thead> 
@@ -867,7 +867,7 @@ Estos son los diferentes parámetros del nodo **ooconv**. Esta es la configuraci
 
 Estos son los diferentes parámetros del nodo **proxyConfig**. Esta es la configuración de los parámetros proxy.
 
-Para obtener más información, consulte [Configuración de conexión proxy](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration).
+Para obtener más información, consulte [Configuración de conexión proxy](file-res-management.md).
 
 <table> 
  <thead> 
@@ -904,7 +904,7 @@ Para obtener más información, consulte [Configuración de conexión proxy](../
 
 En el nodo **proxyConfig > proxy HTTP / proxy seguro**, configure los siguientes parámetros.
 
-Para obtener más información, consulte [Configuración de conexión proxy](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration).
+Para obtener más información, consulte [Configuración de conexión proxy](file-res-management.md).
 
 <table> 
  <thead> 
