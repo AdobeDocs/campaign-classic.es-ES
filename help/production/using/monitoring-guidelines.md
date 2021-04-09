@@ -6,14 +6,14 @@ description: Descubra las directrices y las prácticas recomendadas para supervi
 audience: production
 content-type: reference
 topic-tags: introduction
+exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
 translation-type: tm+mt
-source-git-commit: 564eaedb09282c85593f638617baded0a63494a0
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 9%
+source-wordcount: '770'
+ht-degree: 20%
 
 ---
-
 
 # Directrices de monitorización {#monitoring-guidelines}
 
@@ -48,15 +48,15 @@ Hay varios métodos automáticos disponibles. para ayudarle a supervisar su inst
 
 **Pista de auditoría**
 
-La pista de auditoría permite visualizar el historial completo de cambios relacionados con las opciones, flujos de trabajo y esquemas dentro de la instancia. [Haga clic ](../../production/using/audit-trail.md) aquí para obtener más información.
+La pista de auditoría permite visualizar el historial completo de cambios relacionados con las opciones, flujos de trabajo y esquemas dentro de la instancia. [Haga clic aquí](../../production/using/audit-trail.md) para obtener más información.
 
 **Panel de control de Campaign**
 
-El Panel de control de Campaign le permite administrar varias configuraciones de su instancia: administre permisos de URL, compruebe los detalles de su instancia como las versiones de compilación de sus servidores, etc. También le permite supervisar el espacio disponible en los servidores SFTP conectados a su instancia. [Haga clic ](https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html) aquí para obtener más información.
+El Panel de control de Campaign le permite administrar varias configuraciones de su instancia: administre permisos de URL, compruebe los detalles de su instancia como las versiones de compilación de sus servidores, etc. También le permite supervisar el espacio disponible en los servidores SFTP conectados a su instancia. [Haga clic aquí](https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html) para obtener más información.
 
 >[!NOTE]
 >
->Todos los usuarios administradores pueden acceder a Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>Todos los usuarios administradores pueden acceder al Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 >
 >Tenga en cuenta que la instancia debe alojarse en AWS y actualizarse con la última versión de [Gold Standard](../../rn/using/gs-overview.md) o la [última versión de GA (21.1)](../../rn/using/latest-release.md). Aprenda a comprobar su versión en [esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
 
@@ -66,7 +66,7 @@ El Panel de control de Campaign le permite administrar varias configuraciones de
 
 **Mapa de calor del flujo de trabajo**
 
-El mapa de calor del flujo de trabajo proporciona una representación visual de todos los flujos de trabajo que se ejecutan en la instancia. Permite monitorizar fácilmente la carga en la instancia y planificar los flujos de trabajo en consecuencia. [Haga clic ](../../workflow/using/heatmap.md) aquí para obtener más información.
+El mapa de calor del flujo de trabajo proporciona una representación visual de todos los flujos de trabajo que se ejecutan en la instancia. Permite monitorizar fácilmente la carga en la instancia y planificar los flujos de trabajo en consecuencia. [Haga clic aquí](../../workflow/using/heatmap.md) para obtener más información.
 
 **Pista de auditoría**
 
@@ -78,7 +78,7 @@ Se pueden realizar acciones específicas al encontrar problemas con una ejecuci�
 
 **Monitorización del estado del flujo de trabajo**
 
-Además del mapa de calor, puede crear un flujo de trabajo que le permita supervisar el estado de un conjunto de flujos de trabajo y enviar mensajes recurrentes a los supervisores. [Haga clic ](../../workflow/using/supervising-workflows.md) aquí para obtener más información.
+Además del mapa de calor, puede crear un flujo de trabajo que le permita supervisar el estado de un conjunto de flujos de trabajo y enviar mensajes recurrentes a los supervisores. [Haga clic aquí](../../workflow/using/supervising-workflows.md) para obtener más información.
 
 **Directrices generales**
 
@@ -111,17 +111,17 @@ entregaSe pueden realizar acciones específicas al encontrar problemas con los e
 
 **Flujo de trabajo para limpieza de bases de datos**
 
-El flujo de trabajo Database cleanup permite eliminar datos obsoletos de la base de datos. Se recomienda evitar el crecimiento exponencial de la base de datos. [Haga clic ](../../production/using/database-cleanup-workflow.md) aquí para obtener más información.
+El flujo de trabajo Database cleanup permite eliminar datos obsoletos de la base de datos. Se recomienda evitar el crecimiento exponencial de la base de datos. [Haga clic aquí](../../production/using/database-cleanup-workflow.md) para obtener más información.
 
 **Solución de problemas de rendimiento de la base de datos**
 
-Se pueden realizar acciones específicas al encontrar problemas con el rendimiento de la base de datos. [Haga clic ](../../production/using/database-performances.md) aquí para obtener más información.
+Se pueden realizar acciones específicas al encontrar problemas con el rendimiento de la base de datos. [Haga clic aquí](../../production/using/database-performances.md) para obtener más información.
 
 **Mantenimiento de la base de datos**
 
 *solo modelos de alojamiento locales e híbridos*
 
-Se recomienda realizar el mantenimiento de la base de datos de forma regular para evitar el consumo excesivo de espacio en disco, lo que afecta al acceso a la base de datos. [Haga clic ](../../production/using/recommendations.md) aquí para obtener más información.
+Se recomienda realizar el mantenimiento de la base de datos de forma regular para evitar el consumo excesivo de espacio en disco, lo que afecta al acceso a la base de datos. [Haga clic aquí](../../production/using/recommendations.md) para obtener más información.
 
 **Copia de seguridad y restauración**
 
@@ -142,7 +142,7 @@ Los recursos técnicos están disponibles en la documentación de Campaign Class
 
 *Modelos de alojamiento locales e híbridos únicamente*
 
-* [Configuraciones de servidor obligatorias](../../installation/using/campaign-server-configuration.md)
+* [Configuraciones del servidor](../../installation/using/configuring-campaign-server.md)
 * [Configuración del archivo Serverconf.xml](../../installation/using/the-server-configuration-file.md)
 * [Configuración del servidor para la entrega](../../installation/using/email-deliverability.md)
 * [Líneas de comandos para crear una instancia y declarar una base de datos](../../installation/using/command-lines.md)
