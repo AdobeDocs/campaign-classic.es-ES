@@ -8,10 +8,10 @@ role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 translation-type: tm+mt
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+source-git-commit: 815648f97d2f5e15c1d5ddc340d384d440d0d6b2
 workflow-type: tm+mt
-source-wordcount: '4272'
-ht-degree: 96%
+source-wordcount: '4304'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 96%
 Esta página enumera todas las nuevas funciones y actualizaciones de la documentación por mes y por versión de Campaign.
 
 Consulte las [Notas de la versión de Adobe Campaign Classic](../../rn/using/latest-release.md) para ver las actualizaciones relacionadas con la versión.
+
+## 2 de abril 21 {#april-2021}
+
+Se ha incluido una nueva sección sobre cómo trabajar con fuentes y destinos de Adobe Experience Platform para compartir datos entre Campaign Classic y la plataforma de datos del cliente en tiempo real de Adobe (RTCDP). [Más información](../../integrations/using/get-started-sources-destinations.md)
 
 ## Marzo de 2021 {#march-2021}
 
@@ -40,7 +44,7 @@ Aprenda a crear y administrar sus campañas a través de estas nuevas páginas:
 
 Se ha añadido información en la sección de la actividad **[!UICONTROL Advanced JavaScript]** sobre cómo utilizar el método task.setCompleted() para finalizar la tarea e impedir futuras recuperaciones. [Más información](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
 
-La sección [Deliverability](../../delivery/using/about-deliverability.md) se ha actualizado y ahora incluye vínculos a la nueva [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html). Toda la información genérica relacionada con la capacidad de envío que se puede aplicar a varias soluciones de Adobe se ha trasladado al [Apéndice de la Guía de prácticas recomendadas](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
+La sección [Entrega](../../delivery/using/about-deliverability.md) se ha actualizado y ahora incluye vínculos a la nueva [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es). Toda la información genérica relacionada con la capacidad de envío que se puede aplicar a varias soluciones de Adobe se ha trasladado al [Apéndice de la Guía de prácticas recomendadas](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=es#additional-resources).
 
 ## Febrero de 2021 {#release-21.1}
 
