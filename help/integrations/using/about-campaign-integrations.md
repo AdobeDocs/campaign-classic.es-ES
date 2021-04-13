@@ -6,14 +6,14 @@ description: Utilice otras soluciones de Adobe y combine sus diferentes capacida
 audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
+exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 326ccbad77f3bd03a8eba22d7714084d52d2f02b
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '772'
 ht-degree: 100%
 
 ---
-
 
 # Introducción a las integraciones de Adobe Campaign {#about-campaign-integrations}
 
@@ -60,7 +60,7 @@ La siguiente tabla permite acceder a la documentación de integración de Experi
  <tbody> 
   <tr> 
    <td> <strong>Plataforma de datos de clientes en tiempo real de Adobe (RTCDP)</strong><br /> </td> 
-   <td> La integración entre Adobe Campaign y la plataforma de datos del cliente en tiempo real de Adobe (RTCDP) le permite compartir datos de segmentos e importar audiencias a Adobe Campaign.<br /> <p><a href="https://docs.adobe.com/content/help/es-ES/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html">Obtenga más información</a> sobre Campaign: integración de la plataforma de datos del cliente en tiempo real de Adobe.</p><br /> </td> 
+   <td> La integración entre Adobe Campaign y la plataforma de datos del cliente en tiempo real de Adobe (RTCDP) le permite compartir datos de segmentos e importar audiencias a Adobe Campaign.<br /> <p><a href="../../integrations/using/get-started-sources-destinations.md">Obtenga más información</a> sobre Campaign: integración de la plataforma de datos del cliente en tiempo real de Adobe.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Identity Management System (IMS), Adobe ID</strong><br /> </td> 
@@ -96,4 +96,3 @@ La siguiente tabla permite acceder a la documentación de integración de Experi
   </tr> 
  </tbody> 
 </table>
-
