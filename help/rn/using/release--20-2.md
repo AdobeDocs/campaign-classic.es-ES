@@ -8,16 +8,26 @@ role: Business Practitioner
 level: Beginner
 exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
 translation-type: tm+mt
-source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
+source-git-commit: 1c59afc7021af604559184cd0c21129af3759a8c
 workflow-type: tm+mt
-source-wordcount: '2830'
-ht-degree: 92%
+source-wordcount: '2970'
+ht-degree: 91%
 
 ---
 
 # Versión 20.2{#release-20-2}
 
 ## ![](assets/do-not-localize/green_2.png) Versión 20.2.5 - Compilación 9188 {#release-20-2-5-build-9188}
+
+_15 de abril de 2021_
+
+* Se ha corregido una regresión de la consola del cliente que provocaba mensajes de error persistentes en la pantalla de conexión IMS. (NEO-34821)
+
+**Solo es obligatorio actualizar la consola. No se requiere ninguna actualización del servidor.**
+
+>[!NOTE]
+>
+> Conéctese a [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) para descargar la nueva versión. Aprenda a proponer la actualización de la consola a todos los usuarios finales [en esta página](../../installation/using/client-console-availability-for-windows.md).
 
 _31 de marzo de 2021_
 
@@ -37,6 +47,17 @@ _31 de marzo de 2021_
 * Se ha corregido una regresión que impedía el uso de algunos componentes de la consola, como el selector de fechas y la administración de imágenes en los envíos. (NEO-31453)
 
 ## ![](assets/do-not-localize/red_2.png) Versión 20.2.4: compilación 9187 {#release-20-2-4-build-9187}
+
+_15 de abril de 2021_
+
+* Se ha corregido una regresión de la consola del cliente que provocaba mensajes de error persistentes en la pantalla de conexión IMS. (NEO-34821)
+* Se ha corregido una regresión que impedía el uso de algunos componentes de la consola, como el selector de fechas y la administración de imágenes en los envíos. (NEO-31453, NEO-31454)
+
+**Solo es obligatorio actualizar la consola. No se requiere ninguna actualización del servidor.**
+
+>[!NOTE]
+>
+> Conéctese a [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) para descargar la nueva versión. Aprenda a proponer la actualización de la consola a todos los usuarios finales [en esta página](../../installation/using/client-console-availability-for-windows.md).
 
 _22 de diciembre de 2020_
 
