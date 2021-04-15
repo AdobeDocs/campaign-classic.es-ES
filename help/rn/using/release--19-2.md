@@ -8,16 +8,26 @@ role: null
 level: null
 exl-id: 3c529e4e-8787-41d2-b85d-3feaa5432196
 translation-type: tm+mt
-source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
+source-git-commit: 6f5a536a5ac1286cdf6f1c9f53377fe8d0f55bed
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 99%
+source-wordcount: '1542'
+ht-degree: 98%
 
 ---
 
 # Versión 19.2{#release-19-2}
 
 ## ![](assets/do-not-localize/limited_2.png) Versión 19.2.4: compilación 9082 {#release-19-2-4-build-9082}
+
+_15 de abril de 2021_
+
+* Se ha corregido una regresión de la consola del cliente que provocaba mensajes de error persistentes en la pantalla de conexión IMS. (NEO-34821)
+
+**Solo es obligatorio actualizar la consola. No se requiere ninguna actualización del servidor.**
+
+>[!NOTE]
+>
+> Conéctese a [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) para descargar la nueva versión. Aprenda a proponer la actualización de la consola a todos los usuarios finales [en esta página](../../installation/using/client-console-availability-for-windows.md).
 
 _22 de marzo de 2021_
 
@@ -27,7 +37,7 @@ _22 de marzo de 2021_
 
 >[!NOTE]
 >
-> Conéctese a [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) para descargar la nueva versión. Aprenda a proponer la actualización de la consola a todos los usuarios finales [en esta página](../../installation/using/client-console-availability-for-windows.md).
+> Conéctese a [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) para descargar la nueva versión. Aprenda a proponer la actualización de la consola a todos los usuarios finales [en esta página](../../installation/using/client-console-availability-for-windows.md).
 
 _23 de diciembre de 2020_
 
