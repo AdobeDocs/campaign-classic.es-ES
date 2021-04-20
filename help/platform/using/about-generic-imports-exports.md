@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: Acerca de importación y exportación genéricas
 description: Obtenga más información sobre las importaciones y exportaciones genéricas.
-feature: Información general
-role: Profesional empresarial, arquitecto de datos
-level: Principiante
+feature: Overview
+role: Business Practitioner, Data Architect
+level: Beginner
 translation-type: tm+mt
 source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt

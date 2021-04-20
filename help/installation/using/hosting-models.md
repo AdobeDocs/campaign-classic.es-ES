@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: Modelos de alojamiento
 description: Descubra los modelos de alojamiento de Campaign
-feature: Información general
-role: Arquitecto
-level: Principiante
+feature: Overview
+role: Architect
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 09bd634142f643206c38ac5f881302a5d489ecaf
 workflow-type: tm+mt

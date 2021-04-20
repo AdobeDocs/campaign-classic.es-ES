@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: Creación y administración de listas
 description: Obtenga información sobre cómo crear y administrar listas
-feature: Perfiles
-role: Profesional empresarial
-level: Principiante
+feature: Profiles
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt

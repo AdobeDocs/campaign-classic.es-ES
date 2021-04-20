@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: Añadir perfiles
 description: Añadir perfiles
-feature: Perfiles
-role: Profesional empresarial
-level: Principiante
+feature: Profiles
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt

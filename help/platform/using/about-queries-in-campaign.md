@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: Acerca de las consultas en Campaign
 description: Acerca de las consultas en Campaign
-feature: Editor de consultas
-role: Profesional empresarial, arquitecto de datos
-level: Principiante
+feature: Query Editor
+role: Business Practitioner, Data Architect
+level: Beginner
 translation-type: tm+mt
 source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt

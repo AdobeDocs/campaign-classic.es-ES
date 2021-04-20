@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Administración del acceso a las carpetas de Campaign
 description: Obtenga información sobre cómo conceder acceso a carpetas de Campaign y crear vistas
-feature: Configuración de la aplicación
+feature: Application Settings
 role: Business Practitioner, Administrator
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3

@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Uso de derechos asignados para configurar permisos
 description: Obtenga información sobre cómo utilizar derechos asignados para configurar permisos
-feature: Gestión de acceso
+feature: Access Management
 role: Business Practitioner, Administrator
 level: Beginner
 exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0

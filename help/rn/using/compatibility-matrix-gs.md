@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Matriz de compatibilidad para Campaign [!DNL Gold Standard]
 description: 'Matriz de compatibilidad del Campaign Classic para la versión [!DNL Gold Standard] '
-feature: Información general
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c

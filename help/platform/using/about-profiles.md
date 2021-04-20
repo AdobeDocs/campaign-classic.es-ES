@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Acerca de los perfiles
 description: Acerca de los perfiles
-feature: Perfiles, audiencias
+feature: Profiles, Audiences
 role: Business Practitioner, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
