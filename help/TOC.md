@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 60ab99d006599edfcb997829ea0c452a2daea219
+source-git-commit: b741b10fd1d3a94a3e6c71e95ff43cc0ee54ebc7
 workflow-type: tm+mt
-source-wordcount: '2516'
-ht-degree: 96%
+source-wordcount: '2519'
+ht-degree: 97%
 
 ---
 
@@ -42,6 +42,7 @@ ht-degree: 96%
    + [Notas técnicas](technotes/technote.md)
    + [Actualización de certificados de iOS](technotes/ios-certificate-update.md)
    + [Actualizaciones de configuración de Campaign](technotes/acc-config-updates.md)
+   + [Actualización de direcciones URL rastreadas](technotes/tracked-urls.md)
 + Introducción {#getting-started}
    + Introducción a Adobe Campaign {#starting-with-adobe-campaign}
       + [Introducción a Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
@@ -394,10 +395,10 @@ ht-degree: 96%
       + [Configuración de eventos para la implementación personalizada](integrations/using/events.md)
       + [Supervisión de canalización](integrations/using/pipeline-monitoring.md)
       + [Solución de problemas de canalización](integrations/using/pipeline-troubleshooting.md)
-   + Orígenes y destinos de Adobe Experience Platform {#aep-sources-destinations}
-      + [Introducción a Fuentes y destinos](integrations/using/get-started-sources-destinations.md)
+   + Fuentes y destinos de Adobe Experience Platform {#aep-sources-destinations}
+      + [Introducción a fuentes y destinos](integrations/using/get-started-sources-destinations.md)
       + [Ingesta de audiencias de Adobe Experience Platform en Campaign](integrations/using/ingest-aep-data.md)
-      + [Exportar datos de Campaign a Adobe Experience Platform](integrations/using/export-campaign-data.md)
+      + [Exportación de datos de Campaign a Adobe Experience Platform](integrations/using/export-campaign-data.md)
 + Automatización con flujos de trabajo {#automating-with-workflows}
    + Introducción a flujos de trabajo {#introduction}
       + [Acerca de los flujos de trabajo](workflow/using/about-workflows.md)
