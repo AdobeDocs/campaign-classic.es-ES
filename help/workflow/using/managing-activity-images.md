@@ -6,14 +6,14 @@ description: Gestión de imágenes de actividad
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: cafdbc10-9c10-4d42-a485-c9880df8d371
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '152'
 ht-degree: 100%
 
 ---
-
 
 # Gestión de imágenes de actividad{#managing-activity-images}
 
@@ -48,4 +48,3 @@ Las imágenes utilizadas en los diagramas de los distintos flujos de trabajo pue
 >Las imágenes guardadas en el nodo **[!UICONTROL Administration > Configuration > Images]** del árbol se pueden seleccionar.
 >  
 >Las imágenes deben tener formato PNG, con 48x48 píxeles, 16 millones de colores y un fondo transparente.
-
