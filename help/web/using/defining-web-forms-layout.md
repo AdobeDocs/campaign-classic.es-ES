@@ -6,14 +6,14 @@ description: Definición del diseño de los formularios web
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
-source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+exl-id: 23ca17f8-de1a-4f9c-8357-3965dc3329b1
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '523'
 ht-degree: 100%
 
 ---
-
 
 # Definición del diseño de los formularios web{#defining-web-forms-layout}
 
@@ -91,4 +91,3 @@ Se admiten las siguientes alineaciones:
 * Izquierda/derecha: la etiqueta se coloca a la derecha o a la izquierda del campo,
 * Encima/debajo: la etiqueta se coloca encima o debajo del campo,
 * Oculta: la etiqueta no se muestra.
-
