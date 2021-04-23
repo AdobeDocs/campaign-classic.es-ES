@@ -6,14 +6,14 @@ description: Informes sobre entregas
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 69b810f3-aa8b-4ab5-95c1-831257d7fcb9
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '701'
 ht-degree: 100%
 
 ---
-
 
 # Personas y destinatarios {#person-people-and-recipients}
 
@@ -100,7 +100,7 @@ Debido a que el navegador de este destinatario acepta cookies, podemos ver que e
 | John | - | - | - |
 | Marie | - | - | +1 |
 | Florian | +1 | +1 | +1 |
-| Total intermedio | 3 | 1 | 2 |
+| Total intermedio | 1 | 1 | 2 |
 
 Los siguientes “logs” coinciden con la apertura y los dos clics de la persona a la que Florian reenvió el correo electrónico:
 
@@ -173,3 +173,4 @@ Las reacciones sin procesar y la estimación de los reenvíos se calculan de la 
 >* A representa el indicador **[!UICONTROL Clicks]** (destinatarios que hicieron clic).
 >* B representa el indicador **[!UICONTROL Distinct clicks for the population reached]** (personas que hicieron clic).
 >* C representa el indicador **[!UICONTROL Distinct opens for the population reached]** (destinatarios que lo abrieron).
+
