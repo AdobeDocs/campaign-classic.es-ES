@@ -6,14 +6,14 @@ description: Obtenga más información acerca de las pruebas A/B en Campaign Cla
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
+exl-id: ae046ef6-d850-4222-b82c-8ef5b3da7037
 translation-type: ht
-source-git-commit: 346b72d522c947b2a2552176b910ded8d622f3ab
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '350'
 ht-degree: 100%
 
 ---
-
 
 # Introducción a las pruebas A/B {#get-started-a-b-testing}
 
@@ -39,4 +39,4 @@ Los pasos principales son los siguientes:
 
 >[!NOTE]
 >
->Los flujos de trabajo también le permiten automatizar los procesos al identificar automáticamente la variante de envío que tuvo un mejor rendimiento y, a continuación, enviarla a la población restante. Para obtener más información al respecto, consulte este [caso de uso](../../delivery/using/a-b-testing-use-case.md).
+>Los flujos de trabajo también le permiten automatizar los procesos al identificar automáticamente la variante de envío que tuvo un mejor rendimiento y, a continuación, enviarla a la población restante. Para obtener más información al respecto, consulte este [caso de uso paso a paso](../../delivery/using/a-b-testing-use-case.md).
