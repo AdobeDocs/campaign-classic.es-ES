@@ -6,20 +6,20 @@ description: Ejemplo de uso
 audience: platform
 content-type: reference
 topic-tags: filtering-data
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-
 # Ejemplo de uso{#use-case}
 
-## Cree un filtro sobre el formato de correo electrónico de los suscriptores {#creating-a-filter-on-the-email-format-of-subscribers}
+## Creación de un filtro con el formato de correo electrónico de los suscriptores {#creating-a-filter-on-the-email-format-of-subscribers}
 
-Este ejemplo muestra cómo crear un filtro para ordenar suscripciones de boletín basándose en el formato de correo electrónico del destinatario.
+Este ejemplo muestra cómo crear un filtro para ordenar suscripciones de newsletter basándose en el formato de correo electrónico del destinatario.
 
 Para ello, es necesario utilizar un filtro predefinido: estos filtros están vinculados a un tipo de documento y se accede a ellos a través del nodo **[!UICONTROL Administration > Configuration > Predefined filters]**. Estos filtros de datos se pueden utilizar para cada tipo de editor (o documento) de la aplicación.
 
@@ -44,9 +44,9 @@ Siga estos pasos:
 
    ![](assets/s_ncs_user_filter_view_schema.png)
 
-   Puede acceder a estos campos para definir las condiciones de filtro en el cuerpo del editor de filtros. Un filtro de aplicación se define exactamente igual que un filtro avanzado. Consulte [Crear un filtro avanzado](../../platform/using/creating-filters.md#creating-an-advanced-filter).
+   Puede acceder a estos campos para definir las condiciones de filtro en el cuerpo del editor de filtros. Un filtro de aplicación se define exactamente igual que un filtro avanzado. Consulte [Creación de un filtro avanzado](../../platform/using/creating-filters.md#creating-an-advanced-filter).
 
-1. Crear un nuevo filtro en las suscripciones para mostrar solo las suscripciones con un formato de correo electrónico no definido:
+1. Crear un nuevo filtro de suscripciones para mostrar solo las suscripciones con un formato de correo electrónico no definido:
 
    ![](assets/s_ncs_user_filter_parameters.png)
 
@@ -58,4 +58,3 @@ Siga estos pasos:
    El nombre del filtro actual se muestra encima de la lista. Para cancelar el filtro, haga clic en el icono **[!UICONTROL Delete this filter]**.
 
    ![](assets/s_ncs_user_filter_on_subscriptions.png)
-
