@@ -6,14 +6,14 @@ description: Introducción a las plantillas de mensajes transaccionales
 audience: message-center
 content-type: reference
 topic-tags: message-templates
+exl-id: f87c77e1-2b7c-4b83-8761-73d2fb132b0f
 translation-type: ht
-source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '103'
 ht-degree: 100%
 
 ---
-
 
 # Acerca de las plantillas de mensajes transaccionales{#introduction}
 
