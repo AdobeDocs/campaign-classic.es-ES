@@ -6,14 +6,14 @@ description: Descubra cómo configurar su aplicación móvil para iOS
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
+exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
 translation-type: ht
-source-git-commit: 22f44f5723ab35e95caa438583fe06314c763ba1
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '789'
 ht-degree: 100%
 
 ---
-
 
 # Pasos de configuración para iOS {#configuring-the-mobile-application-in-adobe-campaign-ios}
 
