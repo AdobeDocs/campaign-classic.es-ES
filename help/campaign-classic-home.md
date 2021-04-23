@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: bd6f77606517a0d3ceaa3c2b398733521af3ae43
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 95%
 
 ## Novedades
 
-* **[Actualice el ](technotes/ios-certificate-update.md)**<br/> certificado de APNS El 29 de marzo de 2021, una actualización de APNS afectó al canal de iOS de Campaign. Debe actualizar la configuración para evitar la interrupción del canal push de iOS.
+* **[Actualice el certificado de APN](technotes/ios-certificate-update.md)**<br/> El 29 de marzo de 2021, una actualización de APN afectó al canal de iOS de Campaign. Debe actualizar la configuración para evitar la interrupción del canal push de iOS.
 
 * **[¿Conexión a través de IMS/ID de Adobe? Actualice a las últimas compilaciones](integrations/using/about-adobe-id.md)**<br/> Si utiliza IMS para conectarse a Campaign, debe actualizar para poder seguir conectándose después del** 30 de junio de 2021 **.
 
@@ -28,9 +28,9 @@ ht-degree: 95%
 
 * **[Actualice la integración de los activadores de Adobe Experience Cloud](integrations/using/configuring-adobe-io.md)**<br/> El servicio de autenticación de autenticación heredada ha llegado al final de su vida útil. Descubra más información sobre cómo migrar a Adobe I/O.
 
-* **[Pasarse a la API de proveedor de APN basada en HTTP/2](https://helpx.adobe.com/es/campaign/kb/migrate-to-apns-http2.html)**<br/> Más información sobre cómo migrar del protocolo binario heredado a la API de proveedor de APN basada en HTTP/2.
+* **[Pasarse a la API de proveedor de APN basada en HTTP/2](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html?lang=es)**<br/> Más información sobre cómo migrar del protocolo binario heredado a la API de proveedor de APN basada en HTTP/2.
 
-* **[Obtener ayuda](support.md)**<br/> Acceso a preguntas frecuentes, prácticas recomendadas, recursos de ayuda y solicitudes de ayuda.
+* **[Obtenga ayuda](support.md)**<br/> Acceso a preguntas frecuentes, prácticas recomendadas, recursos de ayuda y solicitudes de ayuda.
 
 [Más actualizaciones](/help/rn/using/documentation-updates.md)
 
@@ -87,6 +87,6 @@ ht-degree: 95%
 | [Notas de la versión](/help/rn/using/latest-release.md) | [Lista de mensajes de error](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Videotutoriales](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es) | [Modelo de datos de Campaign](configuration/using/about-data-model.md) |
 | [Matriz de compatibilidad](rn/using/compatibility-matrix.md) | [JSAPI de Campaign](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
-| [[!DNL Gold Standard] actualización](rn/using/gs-overview.md) | [Guía de seguimiento](https://helpx.adobe.com/es/campaign/kb/acc-tracking.html) |
+| Actualización de [[!DNL Gold Standard] ](rn/using/gs-overview.md) | [Guía de seguimiento](https://helpx.adobe.com/es/campaign/kb/acc-tracking.html) |
 | [Funciones obsoletas](rn/using/deprecated-features.md) | [Lista de comprobación de seguridad y privacidad](https://helpx.adobe.com/es/campaign/kb/acc-security.html) |
 | [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es) | [Directrices de monitorización](production/using/monitoring-guidelines.md) |
