@@ -6,18 +6,18 @@ description: Obtenga información sobre cómo crear SMS con Campaign
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
-translation-type: tm+mt
-source-git-commit: 5a084ebe5295d19de24cf92c721d4692f0f5deb8
-workflow-type: tm+mt
+exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '432'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
-
 # Creación de un envío de SMS {#creating-a-sms-delivery}
 
-## Seleccione el canal de envío {#selecting-the-delivery-channel}
+## Selección del canal de envío {#selecting-the-delivery-channel}
 
 Para diseñar una entrega de SMS nuevo, siga los pasos a continuación:
 
@@ -26,7 +26,7 @@ Para diseñar una entrega de SMS nuevo, siga los pasos a continuación:
 >En [esta sección](../../delivery/using/steps-about-delivery-creation-steps.md) se exponen conceptos globales sobre la creación de envíos.
 
 1. Cree un nuevo envío, por ejemplo, desde el panel Envío.
-1. Seleccione la plantilla de envíos **Enviado a móviles (NetSize)** creada anteriormente. Para obtener más información, consulte la sección [Change the delivery template](sms-set-up.md#changing-the-delivery-template) .
+1. Seleccione la plantilla de envíos **Enviado a móviles (NetSize)** creada anteriormente. Para obtener más información, consulte la sección [Modificación de la plantilla de entrega](sms-set-up.md#changing-the-delivery-template).
 
    ![](assets/s_user_mobile_wizard.png)
 
@@ -57,7 +57,7 @@ Para crear el contenido del SMS, siga los pasos a continuación:
 
    >[!NOTE]
    >
-   >Los mensajes SMS se limitan a una longitud de 160 caracteres si se utiliza la página de códigos Latin-1 (ISO-8859-1). Si el mensaje se escribe en Unicode, no debe exceder los 70 caracteres. Algunos caracteres especiales pueden afectar la longitud del mensaje. Para obtener más información sobre la longitud del mensaje, consulte la sección [Transliteración de caracteres SMS](#about-character-transliteration) .
+   >Los mensajes SMS se limitan a una longitud de 160 caracteres si se utiliza la página de códigos Latin-1 (ISO-8859-1). Si el mensaje se escribe en Unicode, no debe exceder los 70 caracteres. Algunos caracteres especiales pueden afectar la longitud del mensaje. Para obtener más información sobre la longitud del mensaje, consulte la sección [Acerca de la transliteración de caracteres](#about-character-transliteration).
    >
    >Cuando hay campos de personalización o campos de contenido condicionados, el tamaño del mensaje varía según el destinatario. La longitud del mensaje debe evaluarse cuando se haya realizado la personalización.
    >
@@ -65,11 +65,10 @@ Para crear el contenido del SMS, siga los pasos a continuación:
 
 1. Si utiliza el conector NetSize o un conector SMPP, puede personalizar el nombre del remitente de la entrega. Para obtener más información, consulte [Parámetros avanzados](#advanced-parameters).
 
-## Seleccione la población objetivo {#selecting-the-target-population}
+## Selección de la población objetivo {#selecting-the-target-population}
 
 En [esta sección](../../delivery/using/steps-defining-the-target-population.md) se describe el proceso detallado al seleccionar la población objetivo de una entrega.
 
 Para obtener más información sobre el uso de los campos de personalización, consulte [esta sección](../../delivery/using/about-personalization.md).
 
-Para obtener más información sobre la inclusión de una lista de reasignación, consulte [esta página](../../delivery/using/about-seed-addresses.md).
-
+Para obtener más información sobre la integración de una lista semilla, consulte [esta página](../../delivery/using/about-seed-addresses.md).
