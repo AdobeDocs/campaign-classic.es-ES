@@ -6,14 +6,14 @@ description: Reglas de filtrado
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
+exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
 translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '503'
 ht-degree: 100%
 
 ---
-
 
 # Reglas de filtrado{#filtering-rules}
 
@@ -93,4 +93,3 @@ El objetivo de esto es evitar que se incluya el servicio en una lista de bloquea
 >[!NOTE]
 >
 >Las direcciones y los nombres de dominio contenidos en la lista de supresión global están ocultos. En los registros de análisis de envío solo se indica el número de destinatarios excluidos.
-
