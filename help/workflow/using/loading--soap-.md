@@ -6,14 +6,14 @@ description: Carga (SOAP)
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
-workflow-type: tm+mt
+exl-id: 20414e73-2ba9-44f9-8e16-cb6604933ee0
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '251'
 ht-degree: 100%
 
 ---
-
 
 # Carga (SOAP){#loading-soap}
 
@@ -54,4 +54,3 @@ La operación es la siguiente:
       Adobe Campaign llama al código de esta pestaña hasta que devuelva un objeto XML nulo.
 
    * **[!UICONTROL Finalization]**: cierra la conexión o libera otros recursos creados durante el procesamiento.
-
