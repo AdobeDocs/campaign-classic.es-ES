@@ -3,15 +3,15 @@ solution: Campaign Classic
 product: campaign
 title: Introducción a los permisos
 description: Obtenga información sobre cómo conceder acceso a las funciones de Campaign
-feature: Access Management
+feature: Administración de acceso
 role: Business Practitioner, Administrator
 level: Beginner
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
