@@ -6,14 +6,14 @@ description: Glosario
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 9e199b7c-9307-4797-bf86-7940388555bc
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1094'
 ht-degree: 100%
 
 ---
-
 
 # Glosario{#glossary}
 
@@ -78,4 +78,3 @@ A continuación, se presenta la definición de los principales elementos de inte
 * **Predefined filters**: las reglas de filtrado predefinidas pueden tener en cuenta los parámetros de oferta (por ejemplo, un código de oferta). Se pueden reutilizar una vez creadas las ofertas.
 * **Offer representation**: información utilizada por el canal para mostrar la oferta. La representación de la oferta puede crearse a partir de la función de procesamiento del espacio en el que la oferta se representa o se introduce directamente en la interfaz (por ejemplo, en el bloque HTML). Una oferta puede representarse por el espacio.
 * **Changeover process**: un proceso activado en un entorno identificado, responsable de dirigir la llamada a un entorno anónimo si el contacto no se ha identificado explícitamente o está identificado de forma implícita.
-
