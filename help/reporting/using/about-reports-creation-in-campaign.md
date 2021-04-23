@@ -6,14 +6,14 @@ description: Acerca de la creación de informes en Campaign
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
+exl-id: 262c1469-94b4-4f81-9f6f-5c7f481765da
 translation-type: ht
-source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '167'
 ht-degree: 100%
 
 ---
-
 
 # Pasos clave para crear una encuesta{#about-reports-creation-in-campaign}
 
@@ -31,4 +31,3 @@ Para crear, publicar y enviar un informe de análisis sobre los datos, siga los 
 1. Configure las opciones de visualización: tipo de visualización, informes compartidos: consulte [Contexto de visualización de informes](../../reporting/using/configuring-access-to-the-report.md#report-display-context), [Definición de contenido condicional](../../reporting/using/defining-a-conditional-content.md) y [Configuración del acceso al informe](../../reporting/using/configuring-access-to-the-report.md).
 1. Publique el informe (asistente de publicación): consulte [Publicación del informe](../../reporting/using/configuring-access-to-the-report.md#publishing-the-report).
 1. Convierta el informe: exportación, historial, visualización en un navegador: consulte [Acciones sobre informes](../../reporting/using/actions-on-reports.md).
-
