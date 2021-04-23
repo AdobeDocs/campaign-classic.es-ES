@@ -6,14 +6,14 @@ description: Descubra más información sobre cómo enviar alertas personalizada
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '343'
 ht-degree: 100%
 
 ---
-
 
 # Envío de alertas personalizadas a operadores{#sending-personalized-alerts-to-operators}
 
@@ -100,4 +100,3 @@ for each (var item in items){
 >Puede agregar tantos campos como desee, siempre que se hayan insertado en el código JavaScript.
 
 ![](assets/uc_operator_8.png)
-
