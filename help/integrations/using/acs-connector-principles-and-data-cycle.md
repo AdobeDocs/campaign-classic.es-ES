@@ -6,14 +6,14 @@ description: Principios y ciclo de datos del conector ACS
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1990'
 ht-degree: 100%
 
 ---
-
 
 # Principios y ciclo de datos del conector ACS{#acs-connector-principles-and-data-cycle}
 
@@ -327,4 +327,3 @@ Con la implementación básica, se duplica la tabla de destinatarios ya existent
 
 1. Si la administración de derechos se basa en carpetas, vaya a **[!UICONTROL Administration > ACS Connector > Rights management > Folder mapping]** y defina un grupo de seguridad para las carpetas asociadas a las tablas personalizadas. Consulte [Conversión de derechos](#rights-conversion).
 1. Utilice el flujo de trabajo **[!UICONTROL New replication]** (no la plantilla, sino la propia instancia del flujo de trabajo) para incluir la tabla personalizada y los campos que desea duplicar. Consulte [Flujos de trabajo técnicos y de duplicación](#technical-and-replication-workflows).
-
