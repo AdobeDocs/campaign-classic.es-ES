@@ -6,14 +6,14 @@ description: Solución de problemas del conector ACS
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '781'
 ht-degree: 100%
 
 ---
-
 
 # Solución de problemas del conector ACS{#troubleshooting-the-acs-connector}
 
@@ -112,4 +112,3 @@ Según su implementación, puede enfrentarse a varios problemas comunes.
 * **No puedo editar un perfil, una audiencia o una página de destino en Campaign Standard. ¿Qué significa?**
 
    Los recursos sincronizados desde Campaign v7 se encuentran en modo de solo lectura en Campaign Standard para garantizar la coherencia de los datos. Si necesita editar uno de estos elementos, puede hacerlo en Campaign v7 y luego duplicar el cambio en Campaign Standard.
-
