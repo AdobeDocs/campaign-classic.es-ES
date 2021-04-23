@@ -6,14 +6,14 @@ description: Lista de informes
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1007'
 ht-degree: 100%
 
 ---
-
 
 # Lista de informes{#list-of-reports}
 
@@ -38,22 +38,22 @@ Para más información sobre el contenido de estos informes, consulte [esta secc
   <tr> 
    <td> Rendimiento de entrega (throughput)<br /> </td> 
    <td> Gráficos de rendimiento de entrega, en mensajes por hora y Mbits/s.<br /> </td> 
-   <td> nms:envío<br /> </td> 
+   <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
    <td> Errores y rechazos (errors)<br /> </td> 
    <td> Rechazos y no entregables por motivo y por dominio.<br /> </td> 
-   <td> nms:envío<br /> </td> 
+   <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
    <td> Indicadores de seguimiento (deliveryFeedback)<br /> </td> 
    <td> Resumen de indicadores clave para el seguimiento del comportamiento de los destinatarios.<br /> </td> 
-   <td> nms:envío<br /> </td> 
+   <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
    <td> Indicadores de seguimiento (mobileAppDeliveryFeedback)<br /> </td> 
    <td> Indicadores de seguimiento de una entrega a una aplicación móvil.<br /> </td> 
-   <td> nms:envío<br /> </td> 
+   <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
    <td> Navegadores (browserStatistics)<br /> </td> 
@@ -63,42 +63,42 @@ Para más información sobre el contenido de estos informes, consulte [esta secc
   <tr> 
    <td> Difusión en redes sociales (deliveryForward)<br /> </td> 
    <td> Actividad de difusión en redes y estadísticas de apertura de correos.<br /> </td> 
-   <td> nms:envío<br /> </td> 
+   <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
    <td> Clics activos (hoturls)<br /> </td> 
    <td> Muestra el mensaje y las tasas de clic superpuestas.<br /> </td> 
-   <td> nms:envío<br /> </td> 
+   <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
    <td> Informe de hipótesis (deliveryHypothesis)<br /> </td> 
    <td> Muestra el resumen de medidas sobre la hipótesis de entrega.<br /> </td> 
-   <td> nms:envío<br /> </td> 
+   <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
    <td> Estadísticas de entrega (statisticsPerDelivery)<br /> </td> 
    <td> Estadísticas (mensajes procesados, mensajes enviados, rechazos graves, rechazos leves, clics, bajas de suscripción) por dominio del correo electrónico.<br /> </td> 
-   <td> nms:envío<br /> </td> 
+   <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
    <td> Estadísticas de actividad de difusión (forwardActivities)<br /> </td> 
    <td> Análisis de actividades de difusión, aperturas y suscripciones por periodo.<br /> </td> 
-   <td> nms:envío<br /> </td> 
+   <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
    <td> Estadísticas de seguimiento (trackingStatistics)<br /> </td> 
    <td> Informe de tasas de apertura, clics y transacciones.<br /> </td> 
-   <td> nms:envío<br /> </td> 
+   <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
    <td> Resumen de envíos (deliverySending)<br /> </td> 
    <td> Resumen de indicadores de entrega: destino, exclusión y mensajes enviados.<br /> </td> 
-   <td> nms:envío<br /> </td> 
+   <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
    <td> Resumen de entrega (deliveryStatistics)<br /> </td> 
    <td> Tabla de resumen de los envíos seleccionados: Objetivos, exclusiones y mensajes enviados.<br /> </td> 
-   <td> nms:envío<br /> </td> 
+   <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
    <td> Sistemas operativos (osStatistics)<br /> </td> 
@@ -108,12 +108,12 @@ Para más información sobre el contenido de estos informes, consulte [esta secc
   <tr> 
    <td> Tasa de reacción (deliveryFeedbackSocial)<br /> </td> 
    <td> Tasa de reacción a los envíos y desglose de reacciones.<br /> </td> 
-   <td> nms:envío<br /> </td> 
+   <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
    <td> URL y clics de rendimiento (topUrlDelivery)<br /> </td> 
    <td> Las URL más reactivas y las secuencias de clics asociadas.<br /> </td> 
-   <td> nms:envío<br /> </td> 
+   <td> nms:delivery<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -262,7 +262,7 @@ Para más información sobre el contenido de estos informes, consulte [esta secc
   <tr> 
    <td> Exploración de las líneas de coste (budgetExplorerProgram)<br /> </td> 
    <td> Análisis descriptivo de las líneas de coste.<br /> </td> 
-   <td> nms:programa<br /> </td> 
+   <td> nms:program<br /> </td> 
   </tr> 
   <tr> 
    <td> Resumen de los presupuestos (budget)<br /> </td> 
@@ -371,4 +371,3 @@ También se incluyen los siguientes informes. Para más información al respecto
   </tr> 
  </tbody> 
 </table>
-
