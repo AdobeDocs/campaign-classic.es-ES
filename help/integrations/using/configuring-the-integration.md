@@ -5,14 +5,14 @@ title: Configuración de la integración de Adobe Experience Manager
 description: Descubra más información sobre cómo configurar la integración de Campaign y AEM
 audience: integrations
 content-type: reference
+exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f
 translation-type: ht
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '563'
 ht-degree: 100%
 
 ---
-
 
 # Configuración de la integración{#configuring-the-integration}
 
@@ -130,4 +130,3 @@ Siga los pasos a continuación para iniciar la configuración en Adobe Experienc
 1. Configure el **servicio externalizador**.
 
    Para aprender a configurarlo, consulte la [documentación](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/externalizer.html) de Adobe Experience Manager.
-
