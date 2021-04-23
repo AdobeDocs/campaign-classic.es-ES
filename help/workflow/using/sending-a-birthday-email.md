@@ -6,14 +6,14 @@ description: Descubra más información sobre cómo enviar un correo electrónic
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: tm+mt
-source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
-workflow-type: tm+mt
+exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '881'
 ht-degree: 100%
 
 ---
-
 
 # Envío de correo electrónico de cumpleaños{#sending-a-birthday-email}
 
