@@ -6,14 +6,14 @@ description: Tiempo de procesamiento del centro de mensajería
 audience: message-center
 content-type: reference
 topic-tags: reports
+exl-id: c797fd94-0c8d-480b-b22a-1489ac331e77
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '212'
 ht-degree: 100%
 
 ---
-
 
 # Tiempo de procesamiento del centro de mensajería{#message-center-processing-time}
 
@@ -33,4 +33,3 @@ Al igual que para el informe **[!UICONTROL Message Center service level]**, pued
 >[!NOTE]
 >
 >Los umbrales de los indicadores de advertencia (naranja) y alerta (rojo) pueden configurarse en el Asistente para la implementación de Adobe Campaign. Consulte [Umbrales de monitorización](../../message-center/using/monitoring-thresholds.md).
-
