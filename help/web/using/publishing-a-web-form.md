@@ -6,14 +6,14 @@ description: Publicación de un formulario web
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
-source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '995'
 ht-degree: 100%
 
 ---
-
 
 # Publicación de un formulario web{#publishing-a-web-form}
 
@@ -160,4 +160,3 @@ Puede procesar los “logs” de respuesta proporcionados en las consultas, por 
 >[!NOTE]
 >
 >Para obtener un seguimiento completo de las respuestas proporcionadas, exportar las respuestas y ver o crear informes específicos, utilice el módulo opcional de **Encuesta.** Para obtener más información, consulte [esta sección](../../web/using/about-surveys.md).
-
