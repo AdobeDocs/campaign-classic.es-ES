@@ -6,16 +6,16 @@ description: Validación de la entrega
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: tm+mt
-source-git-commit: ba50892f7b9578cface142184a287d95c0e11370
-workflow-type: tm+mt
+exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1663'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-
-# Validar el envío {#validating-the-delivery}
+# Validación de la entrega {#validating-the-delivery}
 
 Cuando se ha creado y configurado una entrega, se debe validar antes de enviarlo al objetivo principal.
 
@@ -25,11 +25,11 @@ Para ello:
 
    Las reglas aplicadas durante el análisis se presentan en [esta sección](#validation-process-with-typologies). Los modos de validación disponibles se detallan en la sección [Cambio del modo de aprobación](#changing-the-approval-mode).
 
-1. **Envíe pruebas**: este paso permite controlar el contenido, las direcciones URL, la personalización, etc. Obtenga más información en [Send a proof](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) y [Define a specific proof target](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
+1. **Envío de pruebas**: este paso permite controlar el contenido, las direcciones URL, la personalización, etc. Obtenga más información en [Envío de pruebas](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) y [Definición de un objetivo de prueba específico](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
 >[!IMPORTANT]
 >
->Los dos pasos anteriores DEBEN ejecutarse después de cada modificación en el contenido del mensaje.
+>Los dos pasos anteriores DEBEN ejecutarse después de cada modificación del contenido del mensaje.
 
 ## Analice la entrega {#analyzing-the-delivery}
 
@@ -92,15 +92,15 @@ La pestaña **[!UICONTROL Analysis]** de los parámetros de envío permite defin
 Esta pestaña proporciona acceso a las siguientes opciones:
 
 * **[!UICONTROL Label and code of the delivery]**: las opciones de esta sección se utilizan para calcular los valores de estos campos durante la fase de análisis de envío. El campo **[!UICONTROL Compute the execution folder during the delivery analysis]** calcula el nombre de la carpeta que debe contener esta acción de entrega durante la fase de análisis.
-* **[!UICONTROL Approval mode]**: este campo permite definir el envío manual o automático una vez finalizado el análisis. Los modos de validación se presentan en la sección [Change the approval mode](#changing-the-approval-mode).
+* **[!UICONTROL Approval mode]**: este campo permite definir el envío manual o automático una vez finalizado el análisis. Los modos de validación se presentan en la sección [Cambio del modo de aprobación](#changing-the-approval-mode).
 * **[!UICONTROL Prepare the delivery parts in the database]**: esta opción permite mejorar el rendimiento del análisis de envío. Para obtener más información, consulte [esta sección](#improving-delivery-analysis).
 * **[!UICONTROL Prepare the personalization data with a workflow]**: esta opción 
-permite preparar los datos de personalización contenidos en el envío en un flujo de trabajo automático, lo que permite obtener un aumento significativo del rendimiento para ejecutar la personalización. Para obtener más información, consulte [Optimizar personalización](../../delivery/using/personalization-fields.md#optimizing-personalization).
+permite preparar los datos de personalización contenidos en el envío en un flujo de trabajo automático, lo que permite obtener un aumento significativo del rendimiento para ejecutar la personalización. Para obtener más información, consulte [Optimización de la personalización](../../delivery/using/personalization-fields.md#optimizing-personalization).
 * **[!UICONTROL Start job in a detached process]**: esta opción permite iniciar el análisis de envío en un proceso independiente. La función de análisis utiliza el proceso del servidor de aplicaciones de Adobe Campaign (web nlserver) de forma predeterminada. Al seleccionar esta opción, se asegura de que el análisis se complete incluso en caso de que falle el servidor de aplicaciones.
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]**: esta opción añade los registros de consulta SQL al diario de entrega durante la fase de análisis.
 * **[!UICONTROL Ignore personalization scripts during sending]**: esta opción permite evitar la interpretación de las directrices de JavaScript que se encuentran en el contenido HTML. Se visualizan tal y como están en los contenidos enviados. Estas directivas se introducen con la etiqueta **&lt;%=**.
 
-### Mejore el rendimiento del análisis de envío {#improving-delivery-analysis}
+### Mejora del rendimiento del análisis de envío {#improving-delivery-analysis}
 
 Para acelerar la preparación del envío, puede marcar la opción **[!UICONTROL Prepare the delivery parts in the database]** antes de iniciar el análisis.
 
@@ -112,7 +112,7 @@ Actualmente, esta opción solo está disponible cuando se cumplen las siguientes
 * No se puede direccionar hacia una población procedente de un archivo externo. Para un solo envío, haga clic en el enlace **[!UICONTROL To]** desde el **[!UICONTROL Email parameters]** y compruebe que la **[!UICONTROL Defined in the database]** opción está seleccionada. Para un envío utilizado en un flujo de trabajo, compruebe que los destinatarios están **[!UICONTROL Specified by the inbound event(s)]** en la pestaña **[!UICONTROL Delivery]**.
 * Debe estar utilizando una base de datos PostgreSQL.
 
-### Configure la prioridad de análisis {#analysis-priority-}
+### Configuración de la prioridad de análisis {#analysis-priority-}
 
 Cuando la entrega forma parte de una campaña, la pestaña **[!UICONTROL Advanced]** ofrece una opción adicional. Esto permite organizar el orden de procesamiento de los envíos en la misma campaña.
 
@@ -128,14 +128,14 @@ Si una entrega es demasiado grande, es mejor asignarle una prioridad baja para e
 >
 >Para garantizar que los análisis de entrega más grandes no ralenticen el progreso de los flujos de trabajo, se puede programar su ejecución marcando **[!UICONTROL Schedule execution for a time of low activity]**.
 
-## Enviar una prueba {#sending-a-proof}
+## Envío de una prueba {#sending-a-proof}
 
 Para detectar posibles errores en la configuración del mensaje, Adobe recomienda configurar un ciclo de validación de entrega. Asegúrese de que el contenido se aprueba con la frecuencia necesaria al enviar pruebas a los destinatarios de prueba. Se debe enviar una prueba cada vez que se realiza un cambio para aprobar el contenido.
 
 >[!NOTE]
 >
->* Los modos de validación disponibles se detallan en [Cambiar el modo de aprobación](../../delivery/using/steps-validating-the-delivery.md#changing-the-approval-mode).
->* La configuración del objetivo de prueba se explica en [Define a specific proof target](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
+>* Los modos de validación disponibles se detallan en [Cambio del modo de aprobación](../../delivery/using/steps-validating-the-delivery.md#changing-the-approval-mode).
+>* La configuración del objetivo de prueba se explica en [Definición de un objetivo de prueba específico](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
 >
 
@@ -143,13 +143,13 @@ Para detectar posibles errores en la configuración del mensaje, Adobe recomiend
 
 Para enviar una prueba, siga los pasos a continuación:
 
-1. Asegúrese de que el objetivo de prueba se haya configurado tal como se describe en [Define a specific proof target](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
+1. Asegúrese de que el objetivo de prueba se ha configurado tal como se describe en [Definición de un objetivo de prueba específico](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 1. En la barra superior del asistente de envíos, haga clic en **[!UICONTROL Send a proof]**.
 
    ![](assets/s_ncs_user_email_del_send_proof.png)
 
-1. Inicie el análisis del mensaje. Consulte [Analizar el envío](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
-1. Ahora puede realizar el envío (consulte [Send the delivery](../../delivery/using/steps-sending-the-delivery.md)).
+1. Inicie el análisis del mensaje. Consulte [Análisis de la entrega](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+1. Ahora puede enviar la entrega (consulte [Envío de la entrega](../../delivery/using/steps-sending-the-delivery.md)).
 
    Una vez que se envía la entrega, la prueba aparece en la lista de entrega y se crea y numera automáticamente. Se puede editar si se desea acceder a su contenido y sus propiedades. Para obtener más información, consulte [esta página](../../delivery/using/about-delivery-monitoring.md).
 
@@ -176,7 +176,7 @@ La pestaña **[!UICONTROL Advanced]** de propiedades de la entrega permite defin
 Estas son las opciones disponibles:
 
 * La primera opción permite mantener las pruebas duplicadas.
-* Las dos opciones siguientes permiten mantener los destinatarios que están en la lista de bloqueados y las direcciones en cuarentena. Consulte la descripción de estas opciones para el objetivo principal en [Personalizar configuración de exclusión](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). A diferencia del objetivo de una entrega, donde estas direcciones se excluyen de forma predeterminada, se mantienen de forma predeterminada para el objetivo de una prueba.
+* Las dos opciones siguientes permiten mantener los destinatarios que están en la lista de bloqueados y las direcciones en cuarentena. Consulte la descripción de estas opciones para el objetivo principal en [Personalización de la configuración de exclusión](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). A diferencia del objetivo de una entrega, donde estas direcciones se excluyen de forma predeterminada, se mantienen de forma predeterminada para el objetivo de una prueba.
 * La opción **[!UICONTROL Keep the delivery code for the proof]** permite dar a la prueba el mismo código de entrega que el definido para la entrega con el que se relaciona. Este código se especifica en el primer paso del asistente de envíos.
 * De forma predeterminada, el asunto de la prueba incluye el prefijo “Proof #”, donde # es el número de la prueba. Se puede cambiar este prefijo en el campo **[!UICONTROL Label prefix]**.
 
@@ -212,7 +212,7 @@ La pestaña **[!UICONTROL Rule]** proporciona una lista de las reglas de tipolog
 >
 >Las tipologías de tipo **[!UICONTROL Arbitration]** se utilizan dentro del marco de gestión de la presión de ventas. Para obtener más información, consulte [esta sección](../../campaign/using/about-marketing-resource-management.md).
 
-## Cambiar el modo de aprobación {#changing-the-approval-mode}
+## Cambio del modo de aprobación {#changing-the-approval-mode}
 
 La pestaña **[!UICONTROL Analysis]** para las propiedades de entrega permite seleccionar el modo de validación. Si se generan advertencias durante el análisis (por ejemplo, si se acentúan ciertos caracteres en el asunto de la entrega, etc.), puede configurar la entrega para definir si se debe ejecutar o no. De forma predeterminada, el usuario debe confirmar la entrega de los mensajes al final de la fase de análisis: esta es la validación **manual**.
 
