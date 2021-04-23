@@ -6,14 +6,14 @@ description: Descubra más información sobre las actividades de flujo de trabaj
 audience: workflow
 content-type: reference
 topic-tags: action-activities
+exl-id: 729a2010-c2d8-481b-8c9e-780b9e5f97ef
 translation-type: ht
-source-git-commit: add0efb4efd5a37129c649b942799622947f3143
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '261'
 ht-degree: 100%
 
 ---
-
 
 # Código SQL y código JavaScript{#sql-code-and-javascript-code}
 
