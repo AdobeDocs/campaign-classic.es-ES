@@ -6,14 +6,14 @@ description: Obtenga información sobre cómo realizar pruebas A/B mediante un c
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
+exl-id: bc23a444-a872-48fb-8bba-64b301541089
 translation-type: ht
-source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '111'
 ht-degree: 100%
 
 ---
-
 
 # Definición del envío final {#step-6--defining-the-final-delivery}
 
