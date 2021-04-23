@@ -6,18 +6,18 @@ description: Definición de condiciones de filtro
 audience: platform
 content-type: reference
 topic-tags: creating-queries
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '3229'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
+# Definición de condiciones de filtro{#defining-filter-conditions}
 
-# Definir condiciones de filtro{#defining-filter-conditions}
-
-## Seleccione el operador {#choosing-the-operator}
+## Selección del operador {#choosing-the-operator}
 
 Dentro de las condiciones de filtrado, es necesario vincular dos valores mediante un operador.
 
@@ -117,7 +117,7 @@ A continuación se muestra una lista de los operadores disponibles:
  </tbody> 
 </table>
 
-## Utilice AND, OR, EXCEPT {#using-and--or--except}
+## Uso de AND, OR, EXCEPT {#using-and--or--except}
 
 Para consultas que utilizan varias condiciones de filtro, debe definir los vínculos entre las condiciones. Hay tres vínculos posibles:
 
@@ -165,7 +165,7 @@ Sitúe el cursor en la condición de filtrado **[!UICONTROL Gender (@gender) equ
 
 Ahora la condición **[!UICONTROL Gender (@gender) equal to Male]** está fuera de su paréntesis. Se ha movido al mismo nivel que la condición “Ciudad igual a Londres”. Estas condiciones se vinculan entre sí (**[!UICONTROL And]**).
 
-## Seleccionar datos para extraer {#selecting-data-to-extract}
+## Selección de los datos que desea extraer {#selecting-data-to-extract}
 
 Los campos disponibles varían de una tabla a otra. Todos los campos se almacenan en un nodo principal denominado **[!UICONTROL Main element]**. En el siguiente ejemplo, los campos disponibles se encuentran en la tabla de destinatarios. Los campos siempre se muestran por orden alfabético.
 
@@ -259,13 +259,13 @@ Enlace a una tabla y elemento de colección:
 
 >[!NOTE]
 >
->* Utilice el botón **[!UICONTROL Add]** (encima de la barra de iconos laterales) para añadir una columna de salida en la que deseamos editar la expresión. Para obtener más información sobre la edición de una expresión, consulte [esta sección](#building-expressions).
+>* Utilice el botón **[!UICONTROL Add]** (encima de la barra de iconos laterales) para añadir una columna de salida en la que deseamos editar la expresión. Para obtener más información sobre cómo editar una expresión, consulte [esta sección](#building-expressions).
 >* Elimine una columna de salida haciendo clic en la “x” roja (**Eliminar**).
 >* Cambie el orden de las columnas de salida mediante las flechas.
 >* La **[!UICONTROL Distribution of values]** sirve para ver la distribución de los valores del campo seleccionado (por ejemplo, las distribuciones vinculadas a las ciudades de los destinatarios, los lenguajes de los destinatarios, etc.).
 
 
-## Crear campos calculados {#creating-calculated-fields}
+## Creación de campos calculados {#creating-calculated-fields}
 
 Si es necesario, agregue una columna durante el formato de datos. Un campo calculado añade una columna a la sección de previsualización de datos. Haga clic **[!UICONTROL Add a calculated field]**.
 
@@ -306,7 +306,7 @@ Para eliminar este campo calculado, haga clic en **[!UICONTROL Remove the calcul
 
 ![](assets/query_editor_nveau_58.png)
 
-## Generar expresiones {#building-expressions}
+## Expresiones de compilación {#building-expressions}
 
 La herramienta de edición de expresiones permite calcular acumulaciones, generar funciones o editar una fórmula con una expresión.
 
@@ -416,7 +416,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull2</strong><br /> </td> 
@@ -563,7 +563,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AddDays</strong><br /> </td> 
@@ -794,7 +794,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Abs</strong><br /> </td> 
@@ -876,7 +876,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ConvertCurrency</strong><br /> </td> 
@@ -898,7 +898,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Distance</strong><br /> </td> 
@@ -915,7 +915,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
@@ -1002,7 +1002,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
