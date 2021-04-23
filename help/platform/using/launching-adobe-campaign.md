@@ -7,11 +7,11 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '543'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 La consola del cliente de Campaign es un cliente enriquecido que le permite conectarse a sus servidores de aplicaciones de Campaign. Obtenga información sobre cómo descargar y configurar la consola del cliente en [esta página](../../installation/using/installing-the-client-console.md).
 
-## Iniciar Adobe Campaign {#starting-adobe-campaign}
+## Inicio de Adobe Campaign {#starting-adobe-campaign}
 
 Puede iniciar Adobes Campaign seleccionando **[!UICONTROL Start / All Programs / Adobe Campaign v.X / Adobe Campaign client console]**.
 
@@ -27,7 +27,7 @@ La ventana de conexión de la consola del cliente le permite seleccionar o confi
 
 ![](assets/acc-logon.png)
 
-## Conectarse a Adobe Campaign {#connecting-to-adobe-campaign}
+## Conexión a Adobe Campaign {#connecting-to-adobe-campaign}
 
 Puede conectarse a Adobe Campaign con su Adobe ID. Para obtener más información, consulte [esta página](../../integrations/using/about-adobe-id.md).
 
@@ -74,7 +74,7 @@ Los identificadores y contraseñas de operadores con acceso al software y sus re
 
 Esta funcionalidad se detalla en la sección [Administración de acceso](../../platform/using/access-management.md).
 
-## Desconectar de Adobe Campaign {#disconnecting-from-adobe-campaign}
+## Desconexión de Adobe Campaign {#disconnecting-from-adobe-campaign}
 
 Para desconectarse de Adobe Campaign, utilice el primer icono de la barra de iconos.
 
@@ -84,7 +84,7 @@ Para desconectarse de Adobe Campaign, utilice el primer icono de la barra de ico
 >
 >También puede cerrar la aplicación sin cerrar sesión primero.
 
-## Obtenga su versión de Adobe Campaign {#getting-your-campaign-version}
+## Averiguar su versión de Adobe Campaign {#getting-your-campaign-version}
 
 El menú **[!UICONTROL Help > About...]** le permite acceder a la siguiente información:
 
@@ -101,10 +101,10 @@ Si está ejecutando la versión de [ [!DNL Gold Standard] Campaign ](../../rn/us
 
 ![](assets/about-acc-gs.png)
 
-Obtenga más información sobre [!DNL Gold Standard] [en este artículo](../../rn/using/gs-overview.md)).
+Para obtener más información acerca de [!DNL Gold Standard], consulte [este artículo](../../rn/using/gs-overview.md)).
 
 **Temas relacionados**:
 
 * [Consulte las opciones de ayuda y asistencia técnica de Adobe Campaign](../../support.md)
-* [Distribución de software de Adobe Campaign](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html)
+* [Distribución de software de Adobe Campaign](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
 * [Sesiones de expertos y de asistencia de Adobe Experience Cloud](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
