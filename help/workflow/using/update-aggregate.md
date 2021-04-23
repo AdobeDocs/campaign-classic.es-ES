@@ -6,14 +6,14 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: d2b26af0-30a1-4852-acd5-996795f198a1
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '96'
 ht-degree: 100%
 
 ---
-
 
 # Actualizar acumulado{#update-aggregate}
 
@@ -30,4 +30,3 @@ De forma predeterminada, se lleva a cabo una actualización completa durante cad
 **Good practice**: se puede utilizar una actividad **[!UICONTROL Scheduler]** para especificar la frecuencia de las actualizaciones de cálculo.
 
 ![](assets/s_advuser_cube_agregate_04.png)
-
