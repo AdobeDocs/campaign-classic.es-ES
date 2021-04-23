@@ -6,14 +6,14 @@ description: Foros de debate
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
+exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
 translation-type: ht
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '723'
 ht-degree: 100%
 
 ---
-
 
 # Foros de debate{#discussion-forums}
 
@@ -111,6 +111,4 @@ Si los operadores suscritos a un foro no reciben notificaciones como se espera:
 
    * En la página de inicio de Adobe Campaign, vaya a **[!UICONTROL Campaigns > Navigation > Deliveries]** y, a continuación, abra la entrega **[!UICONTROL Discussion forum notification]**.
    * En el explorador, vaya a **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]**, luego haga clic en **[!UICONTROL Discussion forum notifications]**.
-
    En el cuadro **[!UICONTROL Discussion forum notifications]**, los registros de envío se encuentran en la pestaña **[!UICONTROL Edit > Delivery]**. También puede ver las pestañas **[!UICONTROL Tracking > Log]** y **[!UICONTROL Exclusion causes]**.
-
