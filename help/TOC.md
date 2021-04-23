@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: b741b10fd1d3a94a3e6c71e95ff43cc0ee54ebc7
 workflow-type: tm+mt
 source-wordcount: '2519'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -24,10 +24,10 @@ ht-degree: 97%
 + Notas de la versión {#release-notes}
    + [Introducción a las actualizaciones](rn/using/rn-overview.md)
    + [Última versión](rn/using/latest-release.md)
-   + [!DNL Gold Standard] versión  {#gs-release}
-      + [¿Qué es [!DNL Gold Standard]](rn/using/gs-overview.md)
-      + [[!DNL Gold Standard] notas de la versión](rn/using/gold-standard.md)
-      + [[!DNL Gold Standard] matriz de compatibilidad](rn/using/compatibility-matrix-gs.md)
+   + Versión [!DNL Gold Standard]{#gs-release}
+      + [¿Qué es [!DNL Gold Standard]](rn/using/gs-overview.md)?
+      + Notas de la versión [[!DNL Gold Standard] ](rn/using/gold-standard.md)
+      + Matriz de compatibilidad de [[!DNL Gold Standard] ](rn/using/compatibility-matrix-gs.md)
    + Versiones anteriores {#previous-releases}
       + [Versión 20.3](rn/using/release--20-3.md)
       + [Versión 20.2](rn/using/release--20-2.md)
@@ -88,7 +88,7 @@ ht-degree: 97%
          + [Monitorización de la ejecución de trabajos](platform/using/monitoring-jobs-execution.md)
          + [Muestras de importación genéricas](platform/using/import-operations-samples.md)
       + Administración del cifrado y la compresión de datos {#managing-data-encryption-compression}
-         + [Descompresión  o descrifrado de un archivo antes de procesarlo](platform/using/unzip-decrypt.md)
+         + [Descompresióno descrifrado de un archivo antes de procesarlo](platform/using/unzip-decrypt.md)
          + [Compresión o cifrado de un archivo antes de procesarlo](platform/using/zip-encrypt.md)
       + Prácticas recomendadas y solución de problemas {#best-practices}
          + [Prácticas recomendadas de importación y exportación](platform/using/import-export-best-practices.md)
@@ -115,7 +115,7 @@ ht-degree: 97%
       + Conectores CRM{#crm-connectors}
          + [Introducción a los conectores CRM](platform/using/crm-connectors.md)
          + [Conexión con Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
-         + [Conéctese con Salesforce.com](platform/using/crm-sfdc.md)
+         + [Conexión con Salesforce.com](platform/using/crm-sfdc.md)
          + [Sincronización de datos con CRM](platform/using/crm-data-sync.md)
       + [Conector de datos de Adobe Analytics](platform/using/adobe-analytics-data-connector.md)
    + [Opciones de ayuda y asistencia](support.md)
@@ -148,7 +148,7 @@ ht-degree: 97%
       + [Cómo adjuntar archivos](delivery/using/attaching-files.md)
    + Envío de SMS {#sending-messages-on-mobiles}
       + [Introducción a SMS](delivery/using/sms-channel.md)
-      + [Configurar canal de SMS](delivery/using/sms-set-up.md)
+      + [Configuración de canal de SMS](delivery/using/sms-set-up.md)
       + [Creación de un SMS](delivery/using/sms-create.md)
       + [Envío y seguimiento de SMS](delivery/using/sms-send.md)
       + [Configuración y protocolo del conector SMS](delivery/using/sms-protocol.md)
@@ -228,7 +228,7 @@ ht-degree: 97%
       + [Seguimiento de pruebas](delivery/using/testing-tracking.md)
       + [Solución de problemas de seguimiento](delivery/using/tracking-troubleshooting.md)
    + Administración de la capacidad de entrega {#deliverability-management}
-      + [¿Qué es la capacidad de envío?](delivery/using/about-deliverability.md)
+      + [¿Qué es la capacidad de entrega?](delivery/using/about-deliverability.md)
       + [Contenido de mensajes de control](delivery/using/control-message-content.md)
       + [Supervisión de la capacidad de entrega](delivery/using/monitoring-deliverability.md)
       + [Renderización de la bandeja de entrada](delivery/using/inbox-rendering.md)
@@ -663,9 +663,9 @@ ht-degree: 97%
    + Configuración de Campaign {#additional-configurations}
       + [Configuración del servidor de Campaign](installation/using/configuring-campaign-server.md)
       + [Definición de zonas de seguridad](installation/using/security-zones.md)
-      + [Definir permisos de URL](installation/using/url-permissions.md)
+      + [Definición de permisos de URL](installation/using/url-permissions.md)
       + [Archivos y recursos](installation/using/file-res-management.md)
-      + [Configurar Tomcat](installation/using/configure-tomcat.md)
+      + [Configuración de Tomcat](installation/using/configure-tomcat.md)
       + [Configuración de la entrega](installation/using/configure-delivery-settings.md)
       + [Configuraciones técnicas de correo electrónico](installation/using/email-deliverability.md)
       + [Uso de servidores MX con Campaign](installation/using/using-mx-servers.md)
