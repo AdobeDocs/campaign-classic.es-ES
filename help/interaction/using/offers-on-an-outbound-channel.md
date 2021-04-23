@@ -6,14 +6,14 @@ description: Ofertas en un canal saliente
 audience: interaction
 content-type: reference
 topic-tags: case-study
+exl-id: 77fee343-09d1-4d60-be43-efe02953a70c
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '445'
 ht-degree: 100%
 
 ---
-
 
 # Ofertas en un canal saliente{#offers-on-an-outbound-channel}
 
@@ -126,4 +126,3 @@ En nuestra base de datos, existe una categoría de ofertas de viajes a África. 
 1. Para guardar los datos de simulación, utilice las funciones del historial o de exportación disponibles en el informe.
 
    ![](assets/offer_simulation_example_013.png)
-
