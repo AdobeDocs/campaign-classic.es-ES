@@ -6,14 +6,14 @@ description: Descubra más información sobre las actividades de flujo de trabaj
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 56dfbaf3-93de-4ade-b4ad-9b54d239c7a5
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '133'
 ht-degree: 100%
 
 ---
-
 
 # Inicio y final (Start y End){#start-and-end}
 
@@ -34,4 +34,3 @@ Las actividades **[!UICONTROL Start]** y **[!UICONTROL End]** permiten marcar de
    Los datos de la tabla de trabajo se eliminan automáticamente cuando se activa la actividad final. Si no es necesario y para evitar cargas innecesarias, puede optar por deshabilitar la transición en la última salida de actividad. Por ejemplo, en una salida de envío, si no hay ningún proceso programado, anule la selección de la opción correspondiente como se muestra a continuación:
 
    ![](assets/s_advuser_delivery_option_no_output.png)
-
