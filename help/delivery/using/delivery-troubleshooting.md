@@ -6,14 +6,14 @@ description: Obtenga más información sobre el rendimiento de las entregas y c�
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: tm+mt
-source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
-workflow-type: tm+mt
+exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '789'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # Solución de problemas con entregas{#delivery-troubleshooting}
 
@@ -37,7 +37,7 @@ Tras hacer clic en el botón **[!UICONTROL Send]**, la entrega parece tardar má
 
 * Es posible que se haya activado una restricción dentro del MTA de Adobe Campaign. Esto se debe a:
 
-   * Mensajes pendientes (mensaje **[!UICONTROL quotas met]**): se han cumplido las cuotas declaradas por las reglas de MX definidas en Campaign. Para obtener más información sobre este mensaje, consulte [esta página](../../delivery/using/deliverability-faq.md). Para obtener más información sobre las reglas MX, consulte [esta sección](../../installation/using/email-deliverability.md#about-mx-rules).
+   * Mensajes pendientes (mensaje **[!UICONTROL quotas met]**): se han cumplido las cuotas declaradas por las reglas de MX definidas en Campaign. Para obtener más información acerca de este mensaje, consulte [esta página](../../delivery/using/deliverability-faq.md). Para obtener más información acerca de las reglas MX, consulte [esta sección](../../installation/using/email-deliverability.md#about-mx-rules).
 
    * Mensajes pendientes (mensaje **[!UICONTROL dynamic flow control]**): el MTA de Campaign ha detectado errores al intentar enviar mensajes para un ISP determinado, lo que provoca una ralentización para evitar una gran densidad de errores y, por lo tanto, la posible inclusión en una lista de bloqueados.
 
