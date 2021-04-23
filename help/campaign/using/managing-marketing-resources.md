@@ -6,14 +6,14 @@ description: Gestión de los recursos de marketing
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
+exl-id: f661e1d1-de2f-4c6a-bbff-e3ffcd1831f0
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1383'
 ht-degree: 100%
 
 ---
-
 
 # Gestión de los recursos de marketing{#managing-marketing-resources}
 
@@ -223,4 +223,3 @@ Puede añadir los siguientes recursos desde esta vista:
 * HTML
 * Texto
 * URL
-
