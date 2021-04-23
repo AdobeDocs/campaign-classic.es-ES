@@ -6,14 +6,14 @@ description: Obtenga más información sobre la importación y exportación de d
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: d6055d97-75fc-4ed7-89bd-8336157454eb
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '325'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # Introducción a la importación y exportación de datos {#get-started-data-import-export}
 
@@ -56,8 +56,8 @@ Estas operaciones se realizan dentro de flujos de trabajo mediante la aplicació
 
 Para obtener más información, consulte estas secciones:
 
-* [Descomprimir o desencriptar un archivo](../../platform/using/unzip-decrypt.md)
-* [Comprimir o encriptar un archivo](../../platform/using/zip-encrypt.md)
+* [Descompresión o descifrado de un archivo](../../platform/using/unzip-decrypt.md)
+* [Compresión o cifrado de un archivo](../../platform/using/zip-encrypt.md)
 
 ## Prácticas recomendadas y solución de problemas {#best-practices-troubleshooting}
 
