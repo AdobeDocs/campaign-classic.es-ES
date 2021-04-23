@@ -6,14 +6,14 @@ description: Creación e identificación de la entrega
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: tm+mt
-source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
-workflow-type: tm+mt
+exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '271'
 ht-degree: 100%
 
 ---
-
 
 # Creación e identificación de la entrega {#create-and-identify-the-delivery}
 
@@ -55,4 +55,3 @@ El contenido de la entrega está listo para configurarse. La definición del con
 * [Definición del contenido del SMS](../../delivery/using/sms-create.md#defining-the-sms-content)
 * [Definición del contenido de correo postal](../../delivery/using/defining-the-direct-mail-content.md)
 * [Notificaciones push](../../delivery/using/about-mobile-app-channel.md)
-
