@@ -6,14 +6,14 @@ description: Administración de las plantillas de oferta
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: e4a6cc22-05bd-4b8a-984d-d0706fc210e1
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '165'
 ht-degree: 100%
 
 ---
-
 
 # Administración de las plantillas de oferta{#managing-offer-templates}
 
@@ -44,4 +44,3 @@ Para duplicar una plantilla de oferta (preestablecida o no), siga estos pasos:
 Esta plantilla se ofrecerá ahora al crear una oferta.
 
 ![](assets/offer_modelcreated_001.png)
-
