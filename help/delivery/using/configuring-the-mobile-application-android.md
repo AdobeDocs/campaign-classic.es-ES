@@ -9,14 +9,14 @@ topic-tags: sending-push-notifications
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
-source-git-commit: 1d7d48f52f69e4902eafa6806c2cd9170c21fe5a
-workflow-type: tm+mt
+exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1648'
 ht-degree: 100%
 
 ---
-
 
 # Pasos de configuración para Android
 
@@ -173,7 +173,7 @@ A continuación se muestran los nombres de carga útil de FCM para personalizar 
 
 | Tipo de mensaje | Elemento de mensaje configurable (nombre de carga útil de FCM) | Opciones configurables (nombre de carga útil de FCM) |
 |:-:|:-:|:-:|
-| mensaje de datos | N/D | dryRun |
+| mensaje de datos | N/A | dryRun |
 | mensaje de notificación | title, body, android_channel_id, icon, sound, tag, color, click_action <br> | dryRun |
 
 <br>
