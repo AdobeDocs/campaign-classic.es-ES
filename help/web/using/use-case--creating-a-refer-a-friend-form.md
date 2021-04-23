@@ -6,14 +6,14 @@ description: '“Ejemplo de uso: creación de un formulario de recomendar a un a
 audience: web
 content-type: reference
 topic-tags: online-surveys
+exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
 translation-type: ht
-source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '619'
 ht-degree: 100%
 
 ---
-
 
 # Ejemplo de uso: creación de un formulario de referencia{#use-case-creating-a-refer-a-friend-form}
 
@@ -126,4 +126,3 @@ Para configurar y crear el bloque de recomendación, siga estos pasos:
    ![](assets/s_ncs_admin_survey_viral_sample_9.png)
 
    Su perfil contiene la información introducida por el remitente del reenvío. Se almacena en función de las configuraciones introducidas en la secuencia de comandos del formulario. Si decide suscribirse al boletín informativo, se guardan en la tabla de destinatarios.
-
