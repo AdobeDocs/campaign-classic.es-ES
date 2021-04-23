@@ -6,14 +6,14 @@ description: Proveedores, stock y presupuestos
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
+exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1902'
 ht-degree: 100%
 
 ---
-
 
 # Proveedores, stock y presupuestos{#providers-stocks-and-budgets}
 
@@ -292,4 +292,3 @@ En una campaña, cuando seleccione el presupuesto, debe introducir la cantidad i
 >[!NOTE]
 >
 >El procedimiento para crear presupuestos se presenta en [Creación de un presupuesto](../../campaign/using/controlling-costs.md#creating-a-budget).
-
