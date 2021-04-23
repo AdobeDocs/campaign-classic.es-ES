@@ -6,14 +6,14 @@ description: Definición del contenido de correo postal
 audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
-translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
-workflow-type: tm+mt
+exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '164'
 ht-degree: 100%
 
 ---
-
 
 # Definición del contenido de correo postal{#defining-the-direct-mail-content}
 
