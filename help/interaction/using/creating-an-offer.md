@@ -6,14 +6,14 @@ description: Creación de una oferta
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
+exl-id: c6dd2709-06e3-4227-bbec-99f3d80144fe
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '803'
 ht-degree: 100%
 
 ---
-
 
 # Creación de una oferta{#creating-an-offer}
 
@@ -186,4 +186,3 @@ Se hace referencia a las hipótesis realizadas en una propuesta de oferta en la 
 La creación de la hipótesis se detalla en [esta página](../../campaign/using/about-response-manager.md).
 
 ![](assets/offer_hypothesis_001.png)
-
