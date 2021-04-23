@@ -6,14 +6,14 @@ description: Aplicación de reglas
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
+exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
 translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '977'
 ht-degree: 100%
 
 ---
-
 
 # Aplicación de reglas{#applying-rules}
 
@@ -146,4 +146,3 @@ La pestaña **[!UICONTROL Distributed Marketing]** permite definir la reasignaci
 >
 >En las tipologías y en las reglas de tipologías, se añade la pestaña **[!UICONTROL Distributed Marketing]** si la licencia incluye esta opción: compruebe el contrato de licencia.\
 >Para obtener más información sobre marketing distribuido, consulte [Acerca de marketing distribuido](../../campaign/using/about-distributed-marketing.md).
-
