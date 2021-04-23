@@ -6,14 +6,14 @@ description: Respuestas de formularios web
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '860'
 ht-degree: 100%
 
 ---
-
 
 # Respuestas de formularios web{#web-forms-answers}
 
@@ -142,4 +142,3 @@ Puede seleccionar una carpeta de búsqueda para la reconciliación y una carpeta
 >Las operaciones posibles son: **[!UICONTROL Simple reconciliation]**, **[!UICONTROL Update or insertion]**, **[!UICONTROL Insertion]**, **[!UICONTROL Update]**, **[!UICONTROL Deletion]**.\
 >La carpeta predeterminada de un operador es la primera carpeta para la que el operador tiene permiso de escritura.\
 >Consulte [esta sección](../../platform/using/access-management.md).
-
