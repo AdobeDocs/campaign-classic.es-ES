@@ -5,14 +5,14 @@ title: Creación de contenido personalizado
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-translation-type: tm+mt
-source-git-commit: 40edacce1812a1722e5a23e5db7da11687c44ac8
-workflow-type: tm+mt
+exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1278'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # Creación de contenido personalizado {#build-personalized-content}
 
@@ -114,7 +114,7 @@ Para evitar errores comunes de formato, consulte los siguientes elementos:
 
 * Uso de **caracteres autorizados** en correos electrónicos: la lista de caracteres válidos para las direcciones de correo electrónico se define en la opción &quot;XtkEmail_Characters&quot;. Obtenga información sobre cómo acceder a las opciones de Campaign [en esta sección](../../installation/using/configuring-campaign-options.md). Para gestionar correctamente caracteres especiales, Adobe Campaign debe estar instalado en Unicode.
 
-* Configuración de la **autenticación por correo electrónico**: asegúrese de que los encabezados de correo electrónico contienen la firma DKIM. La autenticación DKIM (Domain Keys Identified Mail) permite al servidor de recepción de correos electrónicos verificar que un mensaje fue enviado por la persona o entidad por la que afirma que fue enviado, y si el contenido del mensaje se alteró entre el momento en que se envió originalmente (y “firmado” por DKIM) y la hora en que se recibió. Este estándar suele utilizar el dominio en el encabezado De o Remitente. Para obtener más información, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
+* Configuración de la **autenticación por correo electrónico**: asegúrese de que los encabezados de correo electrónico contienen la firma DKIM. La autenticación DKIM (Domain Keys Identified Mail) permite al servidor de recepción de correos electrónicos verificar que un mensaje fue enviado por la persona o entidad por la que afirma que fue enviado, y si el contenido del mensaje se alteró entre el momento en que se envió originalmente (y “firmado” por DKIM) y la hora en que se recibió. Este estándar suele utilizar el dominio en el encabezado De o Remitente. Para obtener más información, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#authentication).
 
 ### Diseño de correo electrónico interactivo
 
@@ -154,7 +154,7 @@ Para que sean accesibles desde el exterior, las imágenes utilizadas en los mens
 
 * Si las imágenes no se muestran, compruebe que estén disponibles en el servidor. Para ello, haga clic en la pestaña Origen del envío. Busque las imágenes, y copie y pegue la dirección URL de cada imagen en un navegador web. Si no se muestran las imágenes, póngase en contacto con el administrador de TI o con el proveedor de terceros que proporcione el contenido de envío.
 
-## Previsualice el mensaje    {#preview-msg}
+## Previsualice el mensaje {#preview-msg}
 
 Adobe recomienda previsualizar el mensaje para comprobar su personalización y cómo verán su envío sus destinatarios.
 
