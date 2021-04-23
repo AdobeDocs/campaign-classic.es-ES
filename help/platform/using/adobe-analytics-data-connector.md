@@ -3,17 +3,17 @@ solution: Campaign Classic
 product: campaign
 title: Conectores de datos de Adobe Analytics
 description: Conectores de datos de Adobe Analytics
-feature: Overview
+feature: Información general
 role: Business Practitioner, Administrator
 level: Beginner
-translation-type: tm+mt
-source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
-workflow-type: tm+mt
-source-wordcount: '1662'
-ht-degree: 99%
+exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
+source-wordcount: '1658'
+ht-degree: 100%
 
 ---
-
 
 # Conectores de datos de Adobe Analytics{#adobe-analytics-data-connector}
 
@@ -282,4 +282,3 @@ Adobe Campaign proporciona plantillas de entrega personalizadas que puede utiliz
 Puede acceder al informe de **[!UICONTROL Re-marketing efficiency]** a través de la página de informes globales. Permite ver la cantidad de contactos convertidos (por ejemplo: aquellos que han comprado algo) en relación con el número de abandonos del carro de la compra después del relanzamiento de la campaña de marketing de Adobe Campaign. La tasa de conversión se calcula por semana, mes o desde el inicio de la sincronización entre las herramientas de Adobe Campaign y Web Analytics.
 
 ![](assets/webanalytics_reporting.png)
-
