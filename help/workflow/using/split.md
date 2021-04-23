@@ -6,14 +6,14 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1935'
 ht-degree: 100%
 
 ---
-
 
 # División{#split}
 
