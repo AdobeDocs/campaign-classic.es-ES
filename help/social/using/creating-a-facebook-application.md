@@ -6,14 +6,14 @@ description: Creación de una aplicación de Facebook
 audience: social
 content-type: reference
 topic-tags: configuration
+exl-id: 5c11bd0f-2df7-4c7f-b682-955fedf8e664
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '983'
 ht-degree: 100%
 
 ---
-
 
 # Creación de una aplicación de Facebook{#creating-a-facebook-application}
 
@@ -166,4 +166,3 @@ Puede configurar las aplicaciones de Facebook para que se muestren como pestaña
 1. Seleccione la página de Facebook a la que desee añadir la pestaña y haga clic en **[!UICONTROL Add Page Tab]**.
 
    ![](assets/social_webapp_fb_0011.png)
-
