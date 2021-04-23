@@ -6,14 +6,14 @@ description: Descubra más información sobre las propiedades del flujo de traba
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: c7bff902-4f5d-4783-aec4-13561fa7d242
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '547'
 ht-degree: 100%
 
 ---
-
 
 # Propiedades del flujo de trabajo{#workflow-properties}
 
@@ -83,4 +83,3 @@ Esta sección solo aparece en los flujos de trabajo de la campaña.
    La plantilla predeterminada **[!UICONTROL Notification to a workflow supervisor]** incluye un vínculo para acceder a la consola de Adobe Campaign a través de la web para que el destinatario pueda solucionar el problema una vez que haya iniciado sesión.
 
    Para crear una plantilla personalizada, vaya a **[!UICONTROL Administration>Campaign management>Technical deliveries and templates]**.
-
