@@ -6,16 +6,16 @@ description: Acceso a los registros de seguimiento
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-translation-type: tm+mt
-source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
-workflow-type: tm+mt
+exl-id: df494786-5950-4646-aa9c-4dde45845057
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '89'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-
-# Acceda a los registros de seguimiento{#accessing-the-tracking-logs}
+# Acceso a los registros de seguimiento{#accessing-the-tracking-logs}
 
 Cuando se realiza el envío y el seguimiento está activado, el flujo de trabajo técnico **[!UICONTROL Tracking]** recopila los datos de seguimiento. Se ejecuta cada hora de forma predeterminada.
 
