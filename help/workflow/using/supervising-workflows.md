@@ -6,14 +6,14 @@ description: Descubra cómo supervisar flujos de trabajo de campañas
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: ca6d4bf4-7b3a-4d36-9fc3-0b83531d0132
 translation-type: ht
-source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '646'
 ht-degree: 100%
 
 ---
-
 
 # Caso de uso: Supervisión de flujos de trabajo{#supervising-workflows}
 
@@ -181,4 +181,3 @@ Haga doble clic en la actividad de **Envío** y seleccione las siguientes opcion
 Cuando se inicia este flujo de trabajo de monitorización, envía el siguiente resumen al destinatario:
 
 ![](assets/uc_monitoring_workflow_mailfinal.png)
-
