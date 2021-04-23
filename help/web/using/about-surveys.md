@@ -6,14 +6,14 @@ description: Introducción a las encuestas de Campaign
 audience: web
 content-type: reference
 topic-tags: online-surveys
-translation-type: tm+mt
-source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
-workflow-type: tm+mt
+exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '590'
 ht-degree: 100%
 
 ---
-
 
 # Introducción a las encuestas{#about-surveys}
 
@@ -84,4 +84,3 @@ Las encuestas se almacenan en el nodo **[!UICONTROL Resources > Online > Web App
 >[!NOTE]
 >
 >La información de configuración está disponible en [esta sección](../../web/using/about-web-forms.md).
-
