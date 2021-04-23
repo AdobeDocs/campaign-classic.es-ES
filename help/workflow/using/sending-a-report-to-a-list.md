@@ -6,14 +6,14 @@ description: Descubra más información sobre cómo enviar un informe a una list
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '623'
 ht-degree: 100%
 
 ---
-
 
 # Envío de informes a una lista{#sending-a-report-to-a-list}
 
@@ -128,6 +128,4 @@ El siguiente flujo de trabajo se creó para este caso de uso. Tiene tres activid
    * Para los campos **[!UICONTROL Recipients]** y **[!UICONTROL Content]** , seleccione **[!UICONTROL Specified in the delivery]**.
    * **[!UICONTROL Action to execute]**: Seleccione **[!UICONTROL Prepare and start]**.
    * Desmarque **[!UICONTROL Generate an outbound transition]** y **[!UICONTROL Process errors]**.
-
    ![](assets/use_case_report_11.png)
-
