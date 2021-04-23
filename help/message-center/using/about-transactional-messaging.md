@@ -6,14 +6,14 @@ description: 'Envíe mensajes desencadenadores basados en eventos generados a pa
 audience: message-center
 content-type: reference
 topic-tags: introduction
-translation-type: tm+mt
-source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
-workflow-type: tm+mt
+exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '171'
 ht-degree: 100%
 
 ---
-
 
 # Acerca de la mensajería transaccional{#about-transactional-messaging}
 
