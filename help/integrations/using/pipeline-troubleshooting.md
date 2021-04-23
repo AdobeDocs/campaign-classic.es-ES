@@ -5,14 +5,14 @@ title: Configuración de la integración
 description: Configuración de la integración
 audience: integrations
 content-type: reference
-translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
-workflow-type: tm+mt
+exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # Solución de problemas de canalización {#pipeline-troubleshooting}
 
