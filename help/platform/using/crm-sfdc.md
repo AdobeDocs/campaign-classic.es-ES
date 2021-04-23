@@ -2,30 +2,30 @@
 solution: Campaign Classic
 product: campaign
 title: Campaign - Conector de Salesforce CRM
-description: Connect Campaign y Salesforce.com
+description: Conectar Campaign y Salesforce.com
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 94a1f00d-e952-4edd-9012-f71c87b897ca
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3b5a6e6f03d9cb26ed372c3df069cbada36756a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
 # Conectar Campaign y Microsoft Dynamics 365{#connect-to-msdyn}
 
-En esta página, aprenderá a conectar el Campaign Classic a **Salesforce**.
+En esta página, aprenderá a conectar Campaign Classic a **Salesforce**.
 
 La sincronización de datos se realiza mediante una actividad de flujo de trabajo dedicada. [Más información](../../platform/using/crm-data-sync.md).
 
 
-La cuenta externa  permite importar y exportar datos de Salesforce a Adobe Campaign.
+La cuenta externa le permite importar y exportar datos de Salesforce a Adobe Campaign.
 Para configurar el conector CRM para Salesforce, siga los pasos a continuación:
 
-1. Cree una nueva cuenta externa a través del nodo **[!UICONTROL Administration > Platform > External accounts]** en el árbol de Adobe Campaign.
+1. Cree una nueva cuenta externa a través del nodo **[!UICONTROL Administration > Platform > External accounts]** del árbol de Adobe Campaign.
 1. Seleccione **[!UICONTROL Salesforce.com]**.
 1. Introduzca la configuración para activar la conexión.
 
@@ -61,9 +61,9 @@ Seleccione la versión de la API.
 
    ![](assets/crm_connectors_sfdc_table.png)
 
-1. Una vez creado el esquema, puede sincronizar las enumeraciones automáticamente de Salesforce a Adobe Campaign.
+1. Una vez creado el esquema, puede sincronizar las enumeraciones automáticamente con Adobe Campaign a través de Salesforce.
 
-   Para ello, haga clic en el vínculo **[!UICONTROL Synchronizing enumerations...]** y seleccione la enumeración de Adobe Campaign que coincida con la enumeración de Salesforce.
+   Para ello, haga clic en el enlace **[!UICONTROL Synchronizing enumerations...]** y seleccione la lista desglosada de Adobe Campaign que coincida con la de Salesforce.
 
 
 
@@ -82,11 +82,11 @@ Seleccione la versión de la API.
 
    >[!NOTE]
    >
-   > No se admiten varias enumeraciones de selección.
+   > No se admiten enumeraciones de varias selecciones.
 
 Campaign y Salesforce.com ya están conectados. Puede configurar la sincronización de datos entre los dos sistemas.
 
-Para sincronizar datos entre datos de Adobe Campaign y SFDC, debe crear un flujo de trabajo y utilizar la actividad **[!UICONTROL CRM connector]** .
+Para sincronizar datos entre los datos de Adobe Campaign y el sistema CRM, debe crear un flujo de trabajo y utilizar la actividad **[!UICONTROL CRM connector]**.
 
 ![](assets/crm_connectors_sfdc_wf.png)
 
