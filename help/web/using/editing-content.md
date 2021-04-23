@@ -6,14 +6,14 @@ description: Edición de contenido
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-translation-type: tm+mt
-source-git-commit: 43037b2b6b4e3b42f4b666d85a664b9fb117a015
-workflow-type: tm+mt
+exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1214'
 ht-degree: 100%
 
 ---
-
 
 # Edición de contenido{#editing-content}
 
@@ -137,6 +137,7 @@ Los bloques y campos de personalización solo se pueden insertar en bloques de t
 >* Nueva ventana (_blank)
 >* Ventana actual (_self)
 >* Comportamiento predeterminado del navegador
+
 >
 
 
@@ -202,8 +203,9 @@ Las opciones disponibles son las siguientes:
 >[!NOTE]
 >
 >* Icono **Eliminar**: elimina el bloque y todo su contenido.
->
->* Icono **Duplicar**: duplica el bloque y todos los estilos relacionados con el bloque.
+   >
+   >
+* Icono **Duplicar**: duplica el bloque y todos los estilos relacionados con el bloque.
 
 
 ## Administración de imágenes y animaciones {#managing-images-and-animations}
