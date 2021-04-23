@@ -6,14 +6,14 @@ description: Reglas de presión
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
+exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 translation-type: ht
-source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '3253'
 ht-degree: 100%
 
 ---
-
 
 # Reglas de presión{#pressure-rules}
 
@@ -156,12 +156,14 @@ Por ejemplo, una regla de presión que define un umbral de 2 mensajes por semana
 >
 >* Introducir **15d** en el campo **[!UICONTROL Concerned period]**: se tiene en cuenta en el cálculo las entregas realizadas hasta dos semanas antes de la fecha de entrega a la que se aplica la norma.
 >
->  o
+>  
+o
 >
 >* Escriba **7d** en el campo **[!UICONTROL Period considered]** Y marque **[!UICONTROL Take the deliveries into account in the provisional calendar]**\
->: En el cálculo se tienen en cuenta las entregas realizadas hasta 7 días antes de la fecha de entrega y programados hasta 7 días después de la fecha de entrega en los que se aplica la regla.
+   >: En el cálculo se tienen en cuenta las entregas realizadas hasta 7 días antes de la fecha de entrega y programados hasta 7 días después de la fecha de entrega en los que se aplica la regla.
 >
->La fecha de inicio depende de cómo se haya configurado la base de datos.
+>
+La fecha de inicio depende de cómo se haya configurado la base de datos.
 
 Por ejemplo, si aplica una regla de presión de 15 días sin agrupar a una entrega con fecha del 11/12, las entregas se tendrán en cuenta entre el 27/11 y el 12/12. Si la regla de presión tiene en cuenta las entregas del calendario provisional, se tienen en cuenta todas las entregas programadas entre el 27/11 y el 27/12. Por último, si configura un grupo por mes del calendario en la regla, el umbral de cálculo tiene en cuenta todas las entregas de noviembre y diciembre (del 1/11 al 31/12).
 
