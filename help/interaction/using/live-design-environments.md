@@ -6,14 +6,14 @@ description: Entornos en directo/de diseño
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 965c4a6a-6535-454d-bd37-e9c8312b4d13
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '447'
 ht-degree: 100%
 
 ---
-
 
 # Entornos en directo/de diseño{#live-design-environments}
 
@@ -67,4 +67,3 @@ De forma predeterminada, la interacción viene con un entorno preconfigurado par
 >[!NOTE]
 >
 >Para obtener más información sobre interacciones anónimas en un canal entrante, consulte [Interacciones anónimas](../../interaction/using/anonymous-interactions.md).
-
