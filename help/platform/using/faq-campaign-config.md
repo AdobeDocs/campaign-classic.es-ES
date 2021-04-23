@@ -6,14 +6,14 @@ description: Preguntas frecuentes sobre Campaign Classic
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
-source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
-workflow-type: tm+mt
+exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '758'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # Preguntas más frecuentes sobre la configuración de campañas {#settings-faq}
 
@@ -41,7 +41,7 @@ Como usuario experto, puede configurar las funcionalidades de seguimiento en la 
 
 ## ¿Cómo configurar la entrega del correo electrónico? {#how-to-configure-email-deliverability-}
 
-Además de la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html), lea las recomendaciones técnicas de envío para comprender cómo configurar su instancia para maximizar las funcionalidades de entrega de Campaign.
+Además de la sección de la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es), lea las recomendaciones técnicas de la capacidad de envío para comprender cómo configurar la instancia a fin de maximizar las capacidades de envío de Campaign.
 
 [Haga clic aquí para obtener más información](../../delivery/using/about-deliverability.md).
 
