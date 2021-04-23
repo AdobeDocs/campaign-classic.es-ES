@@ -6,14 +6,14 @@ description: Cree envíos para enviar mensajes personalizados en diferentes cana
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: tm+mt
-source-git-commit: 8bf1b5b1a6763cf933d86f2af61b2bb68e870222
-workflow-type: tm+mt
+exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1204'
 ht-degree: 100%
 
 ---
-
 
 # Canales de comunicación{#communication-channels}
 
