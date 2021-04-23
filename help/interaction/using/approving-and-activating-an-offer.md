@@ -6,14 +6,14 @@ description: Aprobación y activación de una oferta
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '622'
 ht-degree: 100%
 
 ---
-
 
 # Aprobación y activación de una oferta{#approving-and-activating-an-offer}
 
@@ -130,4 +130,3 @@ También puede deshabilitar directamente una categoría si accede a la pestaña 
 >Cuando se elimina una oferta en un entorno de diseño, se desactiva automáticamente en el entorno en línea relacionado. Tras un periodo de retención de propuestas, las ofertas desactivadas se eliminan del entorno en línea.
 
 ![](assets/offer_preview_deactivate.png)
-
