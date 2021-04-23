@@ -6,16 +6,16 @@ description: Edición de perfiles
 audience: platform
 content-type: reference
 topic-tags: profile-management
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '471'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-
-# Editar un perfil{#editing-a-profile}
+# Edición de un perfil{#editing-a-profile}
 
 Para ver información relacionada con un perfil, haga clic en su nombre en la lista de perfiles.
 
@@ -67,7 +67,7 @@ Esta pantalla muestra los grupos a los que pertenece el perfil seleccionado. Hag
 
 ![](assets/s_ncs_user_profile_groups_tab_details.png)
 
-Para obtener más información, consulte [Crear y administrar listas](../../platform/using/creating-and-managing-lists.md).
+Para obtener más información sobre esto, consulte [Creación y administración de listas](../../platform/using/creating-and-managing-lists.md).
 
 ## Ficha Subscriptions {#subscriptions-tab}
 
@@ -98,4 +98,3 @@ La lista se puede configurar y normalmente contiene la dirección URL, la fecha 
 >[!NOTE]
 >
 >Para obtener más información sobre la funcionalidad de seguimiento, consulte [esta página](../../delivery/using/delivery-dashboard.md).
-
