@@ -6,24 +6,24 @@ description: Actualización de datos
 audience: platform
 content-type: reference
 topic-tags: profile-management
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '705'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # Actualización de datos{#updating-data}
 
 Los datos vinculados al perfil de un destinatario se pueden actualizar de forma manual o automática.
 
-## Configurar una actualización automática {#setting-up-an-automatic-update}
+## Configuración de una actualización automática {#setting-up-an-automatic-update}
 
 Se puede configurar una actualización automática mediante un flujo de trabajo. Para obtener más información, consulte [esta sección](../../workflow/using/update-data.md).
 
-## Realizar una actualización masiva {#performing-a-mass-update}
+## Realización de una actualización masiva {#performing-a-mass-update}
 
 Para realizar actualizaciones manuales, haga clic con el botón derecho en los destinatarios seleccionados para utilizar el menú de acceso directo **[!UICONTROL Actions]** o utilice el icono **[!UICONTROL Actions]**.
 
@@ -79,7 +79,7 @@ Haga clic en **[!UICONTROL Compute]** para mostrar el resultado de su elección.
 
 Compruebe las columnas **[!UICONTROL Result]** de ambas secciones de la ventana y haga clic en **[!UICONTROL Finish]** para ejecutar la combinación.
 
-## Exportar datos {#exporting-data}
+## Exportación de datos {#exporting-data}
 
 Se puede exportar el contenido de una lista. Para configurar y ejecutar la exportación:
 
@@ -127,4 +127,3 @@ Para comprobar el proceso, diríjase a la pestaña **[!UICONTROL Subscriptions]*
 >[!NOTE]
 >
 >Para obtener más información sobre la creación y configuración de los servicios de información, consulte [esta página](../../delivery/using/managing-subscriptions.md).
-
