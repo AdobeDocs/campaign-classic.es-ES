@@ -6,16 +6,16 @@ description: Administrar datos entre Campaign y su CRM
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1530'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-
-# Sincronizar datos entre Campaign y CRM {#data-synchronization}
+# Sincronización de datos entre Campaign y CRM {#data-synchronization}
 
 La sincronización de datos entre Adobe Campaign y CRM se lleva a cabo mediante una actividad de flujo de trabajo dedicada: [conector de CRM](../../workflow/using/crm-connector.md).
 
@@ -46,7 +46,7 @@ La configuración de esta actividad depende del proceso que se realice. A contin
 
 ## Importación desde CRM {#importing-from-the-crm}
 
-Para importar datos a través de CRM en Adobe Campaign, debe crear el siguiente tipo de flujo de trabajo:
+Para importar datos del CRM a Adobe Campaign, debe crear el siguiente tipo de flujo de trabajo:
 
 ![](assets/crm_wf_import.png)
 
@@ -82,9 +82,9 @@ Para una actividad de importación, los pasos de configuración de la actividad 
 
    Para obtener más información, consulte [Administración variable](#variable-management).
 
-### Administrar variables {#variable-management}
+### Administración de variables {#variable-management}
 
-Active la opción **[!UICONTROL Automatic index]** para recopilar solo los objetos modificados desde la última importación.
+La activación de la opción **[!UICONTROL Automatic index]** solo permite recopilar objetos modificados desde la última importación.
 
 ![](assets/crm_task_import_option.png)
 
@@ -115,7 +115,7 @@ La activación de la opción **[!UICONTROL Automatic index]** genera tres variab
    >
    >Estas fechas se muestran en el siguiente formato: **aaaa/MM/dd hh:mm:ss**.
 
-### Filtrar datos {#filtering-data}
+### Filtrado de datos {#filtering-data}
 
 Para garantizar una operación eficaz con los distintos CRM, es necesario crear filtros con las siguientes reglas:
 
@@ -242,9 +242,9 @@ Para ello, siga los siguientes pasos:
    >
    >El periodo de eliminación de elementos debe coincidir con las limitaciones específicas del CRM. Esto significa que para Salesforce.com, por ejemplo, los elementos eliminados hace más de 30 días no se pueden recuperar.
 
-## Eliminación de objetos en CRM {#deleting-objects-in-the-crm}
+## Eliminación de objetos del CRM {#deleting-objects-in-the-crm}
 
-Para eliminar objetos en CRM, debe especificar la clave principal de los elementos remotos que desea eliminar.
+Para eliminar objetos del CRM, debe especificar la clave primaria de los elementos remotos que desea eliminar.
 
 ![](assets/crm_delete_in_crm.png)
 
