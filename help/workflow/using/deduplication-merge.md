@@ -12,14 +12,14 @@ discoiquuid: 4113c3fe-a279-4fe1-be89-ea43c96edc34
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
-source-git-commit: 32a14eb99847dc04a582623204bc856c29fa4359
-workflow-type: tm+mt
+exl-id: a6b10585-7bf9-4fef-b886-db081b6d3acc
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '550'
 ht-degree: 100%
 
 ---
-
 
 # Uso de la funcionalidad Combinar de la actividad de anulación de duplicación {#deduplication-merge}
 
