@@ -6,14 +6,14 @@ description: Plantillas de Hipótesis
 audience: campaign
 content-type: reference
 topic-tags: response-manager
+exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
 translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1435'
 ht-degree: 100%
 
 ---
-
 
 # Plantillas de Hipótesis{#hypothesis-templates}
 
@@ -235,4 +235,3 @@ En este ejemplo, vamos a crear una plantilla de hipótesis para una entrega de c
    La plantilla creada le permite ejecutar hipótesis sobre los productos o artículos de la tabla de compra.
 
 1. Haga clic en **[!UICONTROL Save]** para guardar la plantilla.
-
