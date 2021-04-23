@@ -6,14 +6,14 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: b4dee085-ccc4-43fd-850d-1501a99272aa
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '267'
 ht-degree: 100%
 
 ---
-
 
 # Descripción de la entrega{#delivery-outline}
 
@@ -48,4 +48,3 @@ La actividad **Descripción de entrega**, disponible en los flujos de trabajo de
    La vista previa tiene en cuenta el número de ofertas especificadas en la entrega. Cuando se ejecuta un flujo de trabajo, se tiene en cuenta el número especificado en el esquema de entrega.
 
    ![](assets/int_compo_offre_wf1.png)
-
