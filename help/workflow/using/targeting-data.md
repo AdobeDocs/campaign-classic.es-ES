@@ -6,14 +6,14 @@ description: Descubra más información sobre los datos de objetivos en un flujo
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-translation-type: tm+mt
-source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
-workflow-type: tm+mt
+exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1904'
 ht-degree: 100%
 
 ---
-
 
 # Datos de objetivos{#targeting-data}
 
@@ -256,4 +256,3 @@ Los datos identificados y recopilados se pueden enriquecer, añadir y manipular 
 * La actividad **[!UICONTROL Enrichment]** permite añadir rápidamente columnas a un esquema, así como añadir información a ciertos elementos. Se detalla en la sección [Enrichment](../../workflow/using/enrichment.md) del repositorio de actividades.
 * La actividad **[!UICONTROL Edit schema]** permite modificar la estructura de un esquema. Se detalla en la sección [Edit schema](../../workflow/using/edit-schema.md) del repositorio de actividades.
 * La actividad **[!UICONTROL Change dimension]** permite cambiar la dimensión objetivo durante el ciclo de construcción del mismo. Se detalla en la sección [Change dimension](../../workflow/using/change-dimension.md).
-
