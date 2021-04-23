@@ -6,14 +6,14 @@ description: Descubra más información sobre cómo utilizar la actividad de apr
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1272'
 ht-degree: 100%
 
 ---
-
 
 # Uso de la actividad de aprobación local{#using-the-local-approval-activity}
 
@@ -219,4 +219,3 @@ Esta pestaña muestra la siguiente información:
 La pestaña **[!UICONTROL Targeted]** del registro de aprobación muestra la lista de destinatarios objetivo y su estado de aprobación. Se puede cambiar este estado si es necesario.
 
 ![](assets/local_validation_admin_6.png)
-
