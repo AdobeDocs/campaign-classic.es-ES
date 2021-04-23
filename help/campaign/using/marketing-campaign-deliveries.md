@@ -6,14 +6,14 @@ description: Más información sobre las entregas de campañas de marketing
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
+exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1487'
 ht-degree: 100%
 
 ---
-
 
 # Entregas de campañas de marketing {#marketing-campaign-deliveries}
 
@@ -132,7 +132,7 @@ En una campaña también puede hacer referencia a otros elementos, tales como cu
 
 ### Adición de documentos {#adding-documents}
 
-Los documentos se pueden asociar a nivel de campaña (documentos contextuales) o a nivel de programa (documentos generales).
+Los documentos se pueden asociar en el nivel de campaña (documentos contextuales) o en el de programa (documentos generales).
 
 La pestaña **[!UICONTROL Documents]** contiene:
 
