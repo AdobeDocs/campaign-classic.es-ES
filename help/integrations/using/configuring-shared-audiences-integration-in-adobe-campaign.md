@@ -6,14 +6,14 @@ description: Obtenga información sobre cómo configurar la integración de audi
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '484'
 ht-degree: 100%
 
 ---
-
 
 # Configuración de la integración de audiencias compartidas en Adobe Campaign{#configuring-shared-audiences-integration-in-adobe-campaign}
 
