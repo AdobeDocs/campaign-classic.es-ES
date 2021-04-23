@@ -6,18 +6,18 @@ description: Obtenga información sobre las herramientas y las directrices sobre
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: tm+mt
-source-git-commit: 5d1a653a9a164c34bb70efcc86ff2d7bdf1130a2
-workflow-type: tm+mt
+exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '531'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-
 # Supervisión de la capacidad de entrega{#monitoring-deliverability}
 
-A continuación encontrará detalles sobre las diferentes herramientas de monitorización que proporciona Adobe Campaign, así como algunas directrices adicionales para aprovechar las funciones que ofrece Adobe Campaign para monitorizar la capacidad de envío de su plataforma.
+A continuación, encontrará detalles sobre las diferentes herramientas de monitorización que proporciona Adobe Campaign, así como algunas directrices adicionales para aprovechar las funciones que ofrece para monitorizar la capacidad de envío de su plataforma.
 
 ## Seguimiento de la capacidad de entrega {#configuration}
 
@@ -28,7 +28,7 @@ Esta función está disponible a través de un paquete dedicado en Adobe Campaig
 
 En Adobe Campaign Classic, la **supervisión de la entrega** se administra mediante el flujo de trabajo de **[!UICONTROL Refresh for deliverability]**. El flujo de trabajo se instala de manera predeterminada en todas las instancias y le permite inicializar la lista de reglas de cualificación de correos rechazados, la lista de dominios y la lista de MX. Una vez que se ha instalado el paquete **[!UICONTROL Deliverability monitoring (Email Deliverability)]**, este flujo de trabajo se ejecuta todas las noches para actualizar regularmente la lista de reglas y permite administrar de forma activa la capacidad de envío de la plataforma.
 
-El paquete de capacidad de envío permite acceder a:
+El paquete de capacidad de entrega permite acceder a lo siguiente:
 
 * El [informe de procesamiento de las bandejas de entrada](../../delivery/using/inbox-rendering.md), que permite realizar previsualizaciones de los mensajes en los principales clientes de correo electrónico para analizar el contenido y la reputación.
 * Descripción general de la calidad del mensaje (bandeja de entrada, correo no deseado).
@@ -55,7 +55,7 @@ Estas son algunas directrices adicionales sobre la monitorización de la capacid
 * Compruebe regularmente el [rendimiento del envío](../../reporting/using/global-reports.md#delivery-throughput) de toda la plataforma para comprobar si es coherente con la configuración original.
 * Compruebe que [los reintentos](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) estén correctamente configurados (30 minutos para el periodo de reintento y más de 20 reintentos) en plantillas de envíos.
 * Compruebe periódicamente si puede acceder al buzón de [rechazados](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management) y que la cuenta no esté a punto de caducar.
-* Compruebe el rendimiento de cada envío, accesible desde el [delivery dashboard](../../delivery/using/delivery-dashboard.md), para asegurarse de que es coherente con la validez del contenido del envío (p. ej. las &quot;ventas flash&quot; deben entregarse en minutos, no en días).
+* Compruebe el rendimiento de cada entrega, accesible desde el [panel de entrega](../../delivery/using/delivery-dashboard.md), para asegurarse de que es coherente con la validez de su contenido (por ejemplo, las “ventas flash” deben entregarse en minutos, no en días).
 * Cuando utilice [olas](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves), compruebe que cada ola tenga tiempo suficiente para finalizar antes de que se active la siguiente.
 * Compruebe que las cantidades de errores y nuevas [cuarentenas](../../delivery/using/understanding-quarantine-management.md) sean coherentes con otros envíos.
 * Consulte cuidadosamente los [registros de envío](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) en detalle para comprobar el tipo de errores resaltados (lista de bloqueados, problemas de DNS, reglas de correo no deseado, etc.).
