@@ -6,14 +6,14 @@ description: Obtenga información acerca del ámbito y las características espe
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-translation-type: tm+mt
-source-git-commit: 6eb29742d5884096f2d06b763823aede48f5dcb3
-workflow-type: tm+mt
+exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1921'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # Envío con el servidor de correo mejorado {#sending-with-enhanced-mta}
 
@@ -98,7 +98,7 @@ Para los clientes que utilizan la funcionalidad de mensajería transaccional de 
 
 ### Encabezados de servidor de correo mejorado
 
-Las últimas instancias de Campaign Classic incluyen código que agrega los encabezados de servidor de correo mejorado necesarios a cada mensaje. Si utiliza Adobe Campaign 19.1 (compilación 9032) o superior y este no es el caso, debe solicitar al [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) que añada el parámetro &quot;useMomentum=true&quot; a la configuración de la instancia de ejecución (en el archivo [serverConf.xml](../../installation/using/the-server-configuration-file.md#mta)), que puede ser su instancia de marketing, &lt;a4/ instancia-sourcing](../../installation/using/mid-sourcing-server.md) o [instancia de ejecución de mensajería transaccional](../../message-center/using/creating-a-shared-connection.md#execution-instance), según la configuración.[
+Las últimas instancias de Campaign Classic incluyen código que agrega los encabezados de servidor de correo mejorado necesarios a cada mensaje. Si utiliza Adobe Campaign 19.1 (compilación 9032) o superior y este no es el caso, debe solicitar al [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) que añada el parámetro useMomentum=true a la configuración de la instancia de ejecución (en el archivo [serverConf.xml](../../installation/using/the-server-configuration-file.md#mta)), que puede ser su instancia de marketing, [instancia de intermediario](../../installation/using/mid-sourcing-server.md) o [instancia de ejecución de mensajería transaccional](../../message-center/using/creating-a-shared-connection.md#execution-instance), según la configuración.
 
 Sin embargo, si está utilizando una instancia anterior que no incluye este código, se debe añadir una nueva regla de tipología denominada **[!UICONTROL Typology Rule for Enhanced MTAs]** a todas las tipologías existentes en la instancia de Campaign.
 Esta regla se añade mediante un paquete **[!UICONTROL Typology]** instalado como parte de la actualización al servidor de correo mejorado.
@@ -152,7 +152,7 @@ Para obtener más información sobre el período de validez, consulte [esta secc
 ### Firma DKIM
 
 La autenticación por correo electrónico DKIM (DomainKeys Identified Mail) la realiza el servidor de correo mejorado. La firma DKIM por parte del servidor de correo de Campaign nativo se desactiva en la tabla de administración del dominio como parte de la actualización del servidor de correo mejorado.
-Para obtener más información sobre DKIM, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
+Para obtener más información sobre DKIM, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#authentication).
 
 ### Sistema de informes de éxito de envío
 
@@ -186,15 +186,15 @@ Una vez que se ha iniciado el envío, no se produce ningún cambio en el porcent
 
 <!--![](assets/efs-sending.png)-->
 
-Los registros de envío muestran el estado **[!UICONTROL Taken into account by the service provider]** de cada dirección de destino.
+Los registros de envío muestran el estado **[!UICONTROL Taken into account by the service provider]** de cada dirección de destino.
 
 <!--![](assets/efs-pending.png)-->
 
-Cuando el mensaje se envía realmente a los perfiles objetivo y una vez que se transmite esta información en tiempo real desde el servidor de correo mejorado, los registros de envío muestran el estado **[!UICONTROL Sent]** para cada dirección que recibió el mensaje correctamente. El porcentaje de **[!UICONTROL Success]** se incrementa en consecuencia con cada envío correcto.
+Cuando el mensaje se envía realmente a los perfiles objetivo y una vez que se transmite esta información en tiempo real desde el servidor de correo mejorado, los registros de envío muestran el estado **[!UICONTROL Sent]** para cada dirección que recibió el mensaje correctamente. El porcentaje de **[!UICONTROL Success]** se incrementa en consecuencia con cada envío correcto.
 
 Cuando el servidor de correo mejorado devuelve mensajes de rebote duro, su estado de registro cambia de **[!UICONTROL Taken into account by the service provider]** a **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
 
-Cuando los mensajes de rebote suaves vuelven a informarse desde el servidor de correo mejorado, su estado de registro permanece sin cambios (**[!UICONTROL Taken into account by the service provider]**): solo se actualiza[la razón de error](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. El porcentaje de **[!UICONTROL Success]** permanece sin cambios. A continuación, se vuelven a intentar los mensajes de devolución suave a lo largo del [período de validez del envío](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period):
+Cuando los mensajes de rebote suaves vuelven a informarse desde el servidor de correo mejorado, su estado de registro permanece sin cambios (**[!UICONTROL Taken into account by the service provider]**): solo se actualiza[la razón de error](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. El porcentaje de **[!UICONTROL Success]** permanece sin cambios. A continuación, se vuelven a intentar los mensajes de devolución suave a lo largo del [período de validez del envío](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period):
 
 * Si un reintento se realiza correctamente antes del final del período de validez, el estado del mensaje cambia a **[!UICONTROL Sent]** y el porcentaje de **[!UICONTROL Success]** sube en consecuencia.
 
@@ -216,7 +216,7 @@ Las siguientes tablas muestran los cambios en los KPI y los estados de envío de
 | El mensaje se retransmite correctamente desde Campaign al servidor de correo mejorado | **[!UICONTROL Success]** no se muestra el porcentaje (comienza en 0 %) | El proveedor de servicios lo tiene en cuenta |
 | Los mensajes de devolución dura se informan desde el servidor de correo mejorado | No hay cambios en el porcentaje de **[!UICONTROL Success]** | Error |
 | Los mensajes de devolución suave se informan desde el servidor de correo mejorado | No hay cambios en el porcentaje de **[!UICONTROL Success]** | El proveedor de servicios lo tiene en cuenta |
-| Los reintentos de mensajes de devolución suave se realizan correctamente | El porcentaje de **[!UICONTROL Success]** sube en consecuencia | Enviado |
+| Los reintentos de mensajes de devolución suave se realizan correctamente | El porcentaje de **[!UICONTROL Success]** sube en consecuencia | Enviado |
 | Error en los reintentos de mensajes de devolución suave | No hay cambios en el porcentaje de **[!UICONTROL Success]** | Error |
 
 **Sin servicio de comentarios de correo electrónico**
