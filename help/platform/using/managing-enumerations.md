@@ -6,16 +6,16 @@ description: Administración de enumeraciones
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: 2ece058d-b493-4fea-b3db-322cf7ea7f4f
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '875'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-
-# Administrar enumeraciones{#managing-enumerations}
+# Administración de enumeraciones{#managing-enumerations}
 
 Una enumeración (también conocida como “lista desglosada”) es una lista de valores sugeridos por el sistema para llenar ciertos campos. Las enumeraciones permiten estandarizar los valores de estos campos y ayudar con la entrada o el uso de los datos en las consultas.
 
@@ -70,7 +70,7 @@ La opción **[!UICONTROL Alias cleansing]** permite utilizar un alias para la li
 
 ![](assets/s_ncs_user_itemized_list_alias_option.png)
 
-#### Crear un alias {#creating-an-alias}
+#### Creación de un alias {#creating-an-alias}
 
 Para crear un alias, haga clic en **[!UICONTROL Add]**.
 
@@ -88,7 +88,7 @@ Compruebe los parámetros antes de confirmar esta operación.
 
 ![](assets/s_ncs_user_itemized_list_alias_create_3.png)
 
-Por lo tanto, cuando un usuario introduce el valor **NEILSEN** en un campo “empresa” (en la consola de Adobe Campaign o en un formulario), este se sustituye automáticamente por el valor **NIELSEN Ltd**. El flujo de trabajo de **Limpieza de alias** lleva a cabo el reemplazo del valor. Consulte [Ejecutar limpieza de datos](#running-data-cleansing).
+Por lo tanto, cuando un usuario introduce el valor **NEILSEN** en un campo “empresa” (en la consola de Adobe Campaign o en un formulario), este se sustituye automáticamente por el valor **NIELSEN Ltd**. El flujo de trabajo de **Limpieza de alias** lleva a cabo el reemplazo del valor. Consulte [Ejecución de la limpieza de datos](#running-data-cleansing).
 
 ![](assets/s_ncs_user_itemized_list_alias_use.png)
 
@@ -110,15 +110,15 @@ Una vez finalizada la ejecución, el alias se añade a la lista de alias.
 
 ![](assets/s_ncs_user_itemized_list_alias_detail2.png)
 
-#### Recuperar visitas de alias {#retrieving-alias-hits}
+#### Recuperación de visitas de alias {#retrieving-alias-hits}
 
 Los valores introducidos por los usuarios se pueden convertir en alias. De hecho, cuando el usuario introduce un valor que no está incluido en la lista desglosada, el valor se almacena en la pestaña **[!UICONTROL Alias]**.
 
-El flujo de trabajo técnico de **Limpieza de alias** recupera estos valores cada noche a fin de actualizar la lista desglosada. Consulte [Ejecutar limpieza de datos](#running-data-cleansing)
+El flujo de trabajo técnico de **Limpieza de alias** recupera estos valores cada noche a fin de actualizar la lista desglosada. Consulte [Ejecución de la limpieza de datos](#running-data-cleansing)
 
-Si es necesario, la columna **[!UICONTROL Hits]** puede mostrar el número de veces que se introdujo este valor. El cálculo de este valor puede consumir tiempo y memoria. Para obtener más información, consulte [Calcular ocurrencias de entrada](#calculating-entry-occurrences).
+Si es necesario, la columna **[!UICONTROL Hits]** puede mostrar el número de veces que se introdujo este valor. El cálculo de este valor puede consumir tiempo y memoria. Para obtener más información, consulte [Cálculo de ocurrencias de entrada](#calculating-entry-occurrences).
 
-### Ejecutar limpieza de datos {#running-data-cleansing}
+### Ejecución de limpieza de datos {#running-data-cleansing}
 
 La limpieza de datos se realiza mediante el flujo de trabajo técnico **[!UICONTROL Alias cleansing]**. Las configuraciones definidas para las enumeraciones se aplican durante la ejecución. Consulte [Flujo de trabajo de limpieza de alias](#alias-cleansing-workflow).
 
@@ -132,7 +132,7 @@ El vínculo **[!UICONTROL Advanced parameters...]** permite establecer la fecha 
 
 Haga clic en el botón **[!UICONTROL Start]** para ejecutar la limpieza de datos.
 
-#### Calcular las ocurrencias de entrada {#calculating-entry-occurrences}
+#### Cálculo de las ocurrencias de entrada {#calculating-entry-occurrences}
 
 La subpestaña **[!UICONTROL Alias]** de una lista desglosada puede mostrar el número de apariciones de un alias entre todos los valores introducidos. Esta información es una estimación y se muestra en la columna **[!UICONTROL Hits]**.
 
@@ -161,4 +161,3 @@ El flujo de trabajo de **Limpieza de alias** ejecuta la limpieza de los valores 
 Se accede a través del nodo **[!UICONTROL Administration > Production > Technical workflows]**.
 
 ![](assets/s_ncs_user_itemized_list_alias_wf.png)
-
