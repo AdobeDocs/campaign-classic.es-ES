@@ -6,14 +6,14 @@ description: Diseño de una aplicación web
 audience: web
 content-type: reference
 topic-tags: web-applications
+exl-id: dcdf6afc-321e-4027-a350-fff6bbf22e71
 translation-type: ht
-source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '361'
 ht-degree: 100%
 
 ---
-
 
 # Diseño de una aplicación web{#designing-a-web-application}
 
