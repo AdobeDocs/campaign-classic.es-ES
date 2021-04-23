@@ -6,14 +6,14 @@ description: Recomendaciones para la edición de contenido
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: c1eccb48-59bf-412f-9c18-9cda2a022096
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '548'
 ht-degree: 100%
 
 ---
-
 
 # Recomendaciones para la edición de contenido{#content-editing-best-practices}
 
@@ -94,4 +94,3 @@ La sección superior del editor muestra mensajes relacionados con el estado del 
 * Hay “n” campos o bloques de personalización para configurar.
 * El contenido de la entrega está listo. Vuelva a ejecutar el análisis para aplicar los cambios.
 * El envío está listo para ejecutarse.
-
