@@ -6,14 +6,14 @@ description: Preguntas frecuentes sobre Campaign Classic
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
-workflow-type: tm+mt
+exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '735'
 ht-degree: 100%
 
 ---
-
 
 # Validación, envío y seguimiento de mensajes {#validate-send-track}
 
