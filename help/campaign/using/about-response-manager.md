@@ -6,14 +6,14 @@ description: Acerca del gestor de respuestas
 audience: campaign
 content-type: reference
 topic-tags: response-manager
+exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
 translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '438'
 ht-degree: 100%
 
 ---
-
 
 # Acerca del gestor de respuestas{#about-response-manager}
 
@@ -58,4 +58,3 @@ Para definir y crear hipótesis de medición, aplique el siguiente proceso:
 
 1. Compruebe los resultados de las hipótesis. Consulte [Seguimiento de hipótesis](../../campaign/using/hypothesis-tracking.md).
 1. Vuelva a lanzar las hipótesis si es necesario. Consulte [Creación de una hipótesis sobre la marcha en una entrega](../../campaign/using/creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery).
-
