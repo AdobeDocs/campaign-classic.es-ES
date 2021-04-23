@@ -6,16 +6,16 @@ description: Obtenga información sobre cómo configurar y ejecutar trabajos de 
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '926'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-
-# Configurar trabajos de exportación {#executing-export-jobs}
+# Configuración de trabajos de exportación {#executing-export-jobs}
 
 Los trabajos de exportación permiten acceder a la base de datos y extraer datos de ella: contactos, clientes, listas, segmentos, etc.
 
@@ -25,7 +25,7 @@ El asistente de exportación permite configurar una exportación, definir sus op
 
 El asistente de exportación se muestra después de crear un nuevo trabajo de exportación (consulte [Creación de trabajos de importación y exportación](../../platform/using/creating-import-export-jobs.md).
 
-## Paso 1: Elija la plantilla de exportación {#step-1---choosing-the-export-template}
+## Paso 1: Selección de la plantilla de exportación {#step-1---choosing-the-export-template}
 
 Al iniciar el asistente de exportación, primero debe seleccionar una plantilla. Por ejemplo, para configurar la exportación de destinatarios que se hayan registrado recientemente, siga los pasos a continuación:
 
@@ -131,4 +131,4 @@ Haga clic en **[!UICONTROL Start]** para iniciar la exportación de datos.
 
 ![](assets/s_ncs_user_export_wizard08.png)
 
-A continuación, puede supervisar la ejecución del trabajo de importación (consulte [Monitorización de la ejecución de trabajos](../../platform/using/monitoring-jobs-execution.md).
+A continuación, puede monitorizar la ejecución del trabajo de importación (consulte [Supervisión de la ejecución de trabajos](../../platform/using/monitoring-jobs-execution.md).
