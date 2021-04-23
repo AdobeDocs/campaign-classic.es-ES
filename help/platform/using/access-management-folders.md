@@ -3,15 +3,15 @@ solution: Campaign Classic
 product: campaign
 title: Administración del acceso a las carpetas de Campaign
 description: Obtenga información sobre cómo conceder acceso a carpetas de Campaign y crear vistas
-feature: Application Settings
+feature: Configuración de la aplicación
 role: Business Practitioner, Administrator
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '753'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Cada carpeta del árbol de navegación del Explorador tiene asociados derechos d
 
 ## Carpetas y vistas {#folders-and-views}
 
-### Qué es una carpeta {#about-folders}
+### ¿Qué es una carpeta? {#about-folders}
 
 Las carpetas son nodos del árbol de Adobe Campaign. Estos nodos se crean haciendo clic con el botón derecho en el árbol, a través del menú **[!UICONTROL Add new folder]**. De forma predeterminada, el primer menú permite añadir la carpeta correspondiente al contexto actual.
 
@@ -29,7 +29,7 @@ Las carpetas son nodos del árbol de Adobe Campaign. Estos nodos se crean hacien
 
 Puede personalizar el árbol de navegación del Explorador. Conozca los pasos de configuración y las prácticas recomendadas [en esta sección](adobe-campaign-workspace.md).
 
-### Qué es una vista {#about-views}
+### ¿Qué es una vista? {#about-views}
 
 Además, puede crear vistas para restringir el acceso a los datos y organizar el contenido del árbol para adaptarlo a sus necesidades. A continuación, puede asignar derechos a las vistas.
 
@@ -47,7 +47,7 @@ Para distinguir vistas de carpetas, el nombre de cada vista se muestra en un col
 
 ![](assets/s_ncs_user_view_name_color.png)
 
-### Añadir carpetas y crear vistas {#adding-folders-and-creating-views}
+### Adición de carpetas y creación de vistas {#adding-folders-and-creating-views}
 
 En el ejemplo siguiente, se muestra cómo crear nuevas carpetas para mostrar datos específicos:
 
