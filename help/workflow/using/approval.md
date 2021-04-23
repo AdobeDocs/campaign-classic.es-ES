@@ -6,14 +6,14 @@ description: Aprobación
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 7ff5da71-ef82-48a2-a608-06a4ca188bb9
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '546'
 ht-degree: 100%
 
 ---
-
 
 # Aprobación{#approval}
 
@@ -76,4 +76,3 @@ Se muestra un ejemplo de aprobación en [Definición de aprobaciones](../../work
 * **[!UICONTROL responseOperator]**
 
    Identificador del operador que ha respondido. Este campo es un valor numérico, pero un campo **[!UICONTROL String]**.
-
