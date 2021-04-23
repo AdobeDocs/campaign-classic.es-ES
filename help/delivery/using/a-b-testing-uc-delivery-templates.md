@@ -6,14 +6,14 @@ description: Obtenga información sobre cómo realizar pruebas A/B mediante un c
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
+exl-id: 77b3a906-b76e-49e1-b524-b6f1ae537259
 translation-type: ht
-source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '92'
 ht-degree: 100%
 
 ---
-
 
 # Creación de las plantillas de envío {#step-3--creating-two-delivery-templates}
 
