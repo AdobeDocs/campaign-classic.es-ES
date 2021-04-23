@@ -6,14 +6,14 @@ description: Creación y administración de tareas
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
+exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '3732'
 ht-degree: 100%
 
 ---
-
 
 # Creación y administración de tareas{#creating-and-managing-tasks}
 
@@ -436,6 +436,7 @@ Una tarea puede ser: **[!UICONTROL Scheduled]**, **[!UICONTROL In progress]**, *
 >
 >* El estado de la tarea se actualiza automáticamente.
 >* Incluso si el periodo de validez ha terminado, las tareas que no se hayan cerrado aparecen en la lista de tareas en curso. Una advertencia notifica a los operadores de que la tarea está atrasada.
+
 >
 
 
@@ -510,4 +511,3 @@ A continuación, se muestran las fases del ciclo de vida completo de una tarea p
    >[!NOTE]
    >
    >Una vez finalizada la tarea, la persona a cargo puede reiniciar el ciclo de vida. Para ello, abra la tarea y haga clic en el enlace **[!UICONTROL Reset task to execute it again...]** en la parte inferior del panel.
-
