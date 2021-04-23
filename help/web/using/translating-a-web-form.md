@@ -6,14 +6,14 @@ description: Traducción de un formulario web
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
-source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+exl-id: 72959141-ca18-4512-80c7-239efd31f711
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1565'
 ht-degree: 100%
 
 ---
-
 
 # Traducción de un formulario web{#translating-a-web-form}
 
@@ -477,4 +477,3 @@ Para traducir aplicaciones web a idiomas distintos de los predeterminados (consu
 1. Haga clic en el botón **[!UICONTROL Add]** y, a continuación, introduzca el **[!UICONTROL Internal name]**, **[!UICONTROL Label]** y el identificador de la imagen (indicador). Para añadir una nueva imagen, póngase en contacto con el administrador.
 
    ![](assets/s_ncs_admin_survey_trad_new_itemized_list_2.png)
-
