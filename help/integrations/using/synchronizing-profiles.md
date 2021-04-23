@@ -6,14 +6,14 @@ description: Sincronización de perfiles
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1201'
 ht-degree: 100%
 
 ---
-
 
 # Sincronización de perfiles{#synchronizing-profiles}
 
@@ -61,7 +61,7 @@ Los pasos siguientes para cambiar un único punto de datos proporcionan un ejemp
 
    ![](assets/acs_connect_profile_sync_03.png)
 
-1. Confirme que el nombre del destinatario se ha actualizado en Campaign Standard. Para saber dónde encontrar los perfiles en Campaign Standard, consulte [Conceptos básicos de navegación](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html).
+1. Confirme que el nombre del destinatario se ha actualizado en Campaign Standard. Para saber dónde encontrar los perfiles en Campaign Standard, consulte [Conceptos básicos de navegación](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html).
 
    ![](assets/acs_connect_profile_sync_04.png)
 
@@ -174,7 +174,6 @@ Siga las instrucciones de [Creación de un flujo de trabajo](#creating-a-workflo
 
    ![](assets/acs_connect_profile_sync_22.png)
 
-1. Vaya a Campaign Standard y abra los detalles del perfil del destinatario. Confirme que aparece una casilla de verificación junto a **[!UICONTROL No longer contact (by any channel)]**. Para saber dónde encontrar los perfiles en Campaign Standard, consulte [Conceptos básicos de navegación](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html).
+1. Vaya a Campaign Standard y abra los detalles del perfil del destinatario. Confirme que aparece una casilla de verificación junto a **[!UICONTROL No longer contact (by any channel)]**. Para saber dónde encontrar los perfiles en Campaign Standard, consulte [Conceptos básicos de navegación](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html).
 
    ![](assets/acs_connect_profile_sync_23.png)
-
