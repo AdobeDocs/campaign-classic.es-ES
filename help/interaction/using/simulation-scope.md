@@ -6,14 +6,14 @@ description: Ámbito de la simulación
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 4f6b3de2-3fdf-441d-925d-476e20e75c6f
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '236'
 ht-degree: 100%
 
 ---
-
 
 # Ámbito de la simulación{#simulation-scope}
 
@@ -51,4 +51,3 @@ Se puede mejorar el análisis de la simulación añadiendo ejes de informe al de
 Para ello, haga clic en el botón **[!UICONTROL Add]** y seleccione los campos adecuados. Los ejes se utilizan para determinar la simulación y se visualizan en el informe de análisis. Para obtener más información, consulte [Simulación de seguimiento](../../interaction/using/simulation-tracking.md).
 
 ![](assets/offer_simulation_011.png)
-
