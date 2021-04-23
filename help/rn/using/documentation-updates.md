@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Actualizaciones de documentación de Adobe Campaign Classic
 description: Esta página enumera todas las funciones nuevas y las actualizaciones de la documentación de Adobe Campaign Classic
-feature: Overview
+feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 69630f1450241e15d385dc03a3a2b02f6f7c850b
 workflow-type: tm+mt
 source-wordcount: '4304'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ Esta página enumera todas las nuevas funciones y actualizaciones de la document
 
 Consulte las [Notas de la versión de Adobe Campaign Classic](../../rn/using/latest-release.md) para ver las actualizaciones relacionadas con la versión.
 
-## de abril de 2021 {#april-2021}
+## Abril de 2021 {#april-2021}
 
 Se ha incluido una nueva sección sobre cómo trabajar con fuentes y destinos de Adobe Experience Platform para compartir datos entre Campaign Classic y la plataforma de datos del cliente en tiempo real de Adobe (RTCDP). [Más información](../../integrations/using/get-started-sources-destinations.md)
 
@@ -29,7 +29,7 @@ Se ha incluido una nueva sección sobre cómo trabajar con fuentes y destinos de
 
 Se ha reorganizado y mejorado la sección [Introducción a SMS](../../delivery/using/sms-channel.md). Ahora puede aprender a [configurar el canal SMS](../../delivery/using/sms-set-up.md), [crear un SMS](../../delivery/using/sms-create.md), [enviar y rastrear SMS](../../delivery/using/sms-send.md) en secciones dedicadas.
 
-La página &quot;Opciones de ayuda y asistencia&quot; del Campaign Classic se ha integrado en la documentación principal. [Más información](../../support.md)
+La página Opciones de ayuda y asistencia de Campaign Standard se ha integrado en la documentación principal. [Más información](../../support.md)
 
 Se ha añadido una nueva sección con prácticas recomendadas y comprobaciones para realizar con respecto a la seguridad y la privacidad. [Más información](../../installation/using/get-started-security-privacy.md)
 
@@ -139,7 +139,7 @@ Se ha actualizado la matriz de compatibilidad. [Más información](../../rn/usin
 Se ha actualizado la página Funciones obsoletas y eliminadas. [Más información](../../rn/using/deprecated-features.md)
 
 Las notas de la versión y la matriz de compatibilidad de la versión [!DNL Gold Standard] ya están disponibles en una sección dedicada.
-[Obtenga más información](../../rn/using/gold-standard.md#gs-11).
+[Más información](../../rn/using/gold-standard.md#gs-11).
 
 Activa la integración basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización y, ahora, se ha cambiado y trasladado a Adobe I/O. [Más información](../../integrations/using/configuring-adobe-io.md)
 
@@ -214,7 +214,7 @@ La sección de la actividad **[!UICONTROL AND-join]** se ha enriquecido con info
 
 Se ha añadido un caso de uso sobre cómo actualizar automáticamente una lista mediante una consulta incremental de los casos de uso del flujo de trabajo. [Más información](../../workflow/using/about-workflow-use-cases.md)
 
-Las [notas de la versión](../../rn/using/latest-release.md) se han reorganizado: se ha añadido una [página de información general](../../rn/using/latest-release.md) con información sobre los estados de las versiones, el proceso de actualización, las recomendaciones y los vínculos importantes. También se ha añadido una página dedicada a las [[!DNL Gold Standard] versiones de ](../../rn/using/gold-standard.md) y se ha integrado la [matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
+Las [notas de la versión](../../rn/using/latest-release.md) se han reorganizado: se ha añadido una [página de información general](../../rn/using/latest-release.md) con información sobre los estados de las versiones, el proceso de actualización, las recomendaciones y los vínculos importantes. También se ha añadido una página dedicada a las versiones [[!DNL Gold Standard] ](../../rn/using/gold-standard.md) y se ha integrado la [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
 
 Se ha añadido una nueva sección con directrices relacionadas con la supervisión de Campaign Classic. [Más información](../../production/using/monitoring-guidelines.md)
 
@@ -274,7 +274,7 @@ Se ha movido y mejorado la sección Monitorización de la capacidad de envío. [
 
 Se ha movido y mejorado la sección de Solución de problemas de la capacidad de envío. [Más información](../../delivery/using/deliverability-faq.md)
 
-Se han mejorado las directrices de capacidad de entrega al iniciar una nueva plataforma. [Más información](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html#transition-process)
+Se han mejorado las directrices de capacidad de envío al iniciar una nueva plataforma. [Más información](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es#transition-process)
 
 Se ha movido y actualizado la sección Envío de correos electrónicos transaccionales con archivos adjuntos. [Más información](../../message-center/using/transactional-email-with-attachments.md)
 
