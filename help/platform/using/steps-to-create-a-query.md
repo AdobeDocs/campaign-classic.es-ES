@@ -6,14 +6,14 @@ description: Pasos para crear una consulta
 audience: platform
 content-type: reference
 topic-tags: creating-queries
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '841'
 ht-degree: 100%
 
 ---
-
 
 # Pasos para crear una consulta{#steps-to-create-a-query}
 
@@ -138,4 +138,3 @@ En este ejemplo, los datos se ordenan de forma ascendente según la edad del des
 >[!NOTE]
 >
 >De forma predeterminada, solo se muestran las 200 primeras líneas en la ventana **[!UICONTROL Data preview]**. Para cambiar esto, introduzca un número en el cuadro **[!UICONTROL Lines to display]** y haga clic en **[!UICONTROL Start the preview of the data]**.
-
