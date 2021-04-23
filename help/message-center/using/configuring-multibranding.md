@@ -6,14 +6,14 @@ description: Configuración de marcas múltiples
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: aa2e7ef7-fe69-41c8-9c90-bfb1533031a5
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '234'
 ht-degree: 100%
 
 ---
-
 
 # Configuración de marcas múltiples{#configuring-multibranding}
 
@@ -81,4 +81,3 @@ En la instancia de control, se deben vincular las plantillas de envío y las cue
 1. Crear una cuenta externa por marca con el mismo nombre interno que se define en el paso 1.
 1. Crear una plantilla de envío predeterminada por cada marca.
 1. En **[!UICONTROL Properties]** de la plantilla de envío, configure el enrutamiento en la cuenta externa de la marca.
-
