@@ -3,17 +3,17 @@ solution: Campaign Classic
 product: campaign
 title: Acerca de importación y exportación genéricas
 description: Obtenga más información sobre las importaciones y exportaciones genéricas.
-feature: Overview
+feature: Información general
 role: Business Practitioner, Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
-workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 91%
+exl-id: 9ac13db3-552f-43cc-ab67-3aea82e0519e
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
+source-wordcount: '118'
+ht-degree: 100%
 
 ---
-
 
 # Introducción a los trabajos de importación y exportación {#about-generic-imports-exports}
 
@@ -29,5 +29,3 @@ Los pasos para realizar operaciones genéricas de importación y exportación so
 1. [Cree un trabajo de importación o exportación](../../platform/using/creating-import-export-jobs.md).
 1. Configure y ejecute el trabajo de [importación](../../platform/using/executing-import-jobs.md) o [exportación](../../platform/using/executing-export-jobs.md).
 1. [Monitorice](../../platform/using/monitoring-jobs-execution.md) la ejecución del trabajo.
-
-
