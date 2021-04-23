@@ -6,14 +6,14 @@ description: Obtenga información sobre cómo definir el contenido del correo el
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
+exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
 translation-type: ht
-source-git-commit: fe4262a1da011cb155651c5e786f19188139cff1
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1990'
 ht-degree: 100%
 
 ---
-
 
 # Definición del contenido del correo electrónico {#defining-the-email-content}
 
