@@ -6,14 +6,14 @@ description: Integración de una oferta mediante el asistente
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
+exl-id: 64aea8b9-7f06-4db0-a3e6-6a0e17c3ddcb
 translation-type: ht
-source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '803'
 ht-degree: 100%
 
 ---
-
 
 # Integración de una oferta mediante el asistente{#integrating-an-offer-via-the-wizard}
 
@@ -117,4 +117,3 @@ Para obtener más información sobre la descripción de las entregas, consulte l
    >[!NOTE]
    >
    >La información relativa a las clasificaciones y relevancia de la oferta solo se guarda en la lista de propuestas si las ofertas son generadas directamente en la entrega.
-
