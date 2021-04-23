@@ -6,14 +6,14 @@ description: Acerca de la gestión de recursos de marketing
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
+exl-id: 8cf4d30d-f914-438d-8836-030202b6a449
 translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '402'
 ht-degree: 100%
 
 ---
-
 
 # Acerca de la gestión de recursos de marketing{#about-marketing-resource-management}
 
@@ -60,4 +60,3 @@ Además, los planes y programas de Adobe Campaign ofrecen funciones adicionales:
 * Administración de tareas. Para obtener más información sobre esto, consulte [Creación y administración de tareas](../../campaign/using/creating-and-managing-tasks.md)
 
 * Gestión de recursos de marketing. Para obtener más información, consulte [Administración de recursos de marketing](../../campaign/using/managing-marketing-resources.md),
-
