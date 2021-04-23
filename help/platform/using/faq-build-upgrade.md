@@ -7,11 +7,11 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2024'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign se actualiza periódicamente. Si conoce nuestras [Notas de la ver
 
 Es fundamental que nuestros clientes usen la versión más reciente de Adobe Campaign. Esto permite a Adobe ayudarle de manera mucho más eficiente en caso de que se produzcan problemas: identificar, reproducir y corregir un problema en una compilación antigua suele llevar más tiempo, sin mencionar que algunos problemas pueden haberse corregido ya en una versión reciente.
 
-[!DNL Gold Standard] es la versión de soporte a largo plazo de Campaign Classic. Como usuario [!DNL Gold Standard] alojado, se beneficia automáticamente de la actualización [!DNL Gold Standard] con la última versión estable sin ninguna acción. Los clientes locales e híbridos también pueden beneficiarse de las versiones [!DNL Gold Standard]. Si migra desde una versión antigua, le recomendamos que la actualice primero a esta versión. [Más información](../../rn/using/gs-overview.md).
+[!DNL Gold Standard] es la versión de soporte a largo plazo de Campaign Classic. Como usuario de [!DNL Gold Standard], se beneficia automáticamente de la actualización de [!DNL Gold Standard] con la última versión estable sin tener que realizar ninguna acción. Los clientes on-premise e híbridos también pueden beneficiarse de las versiones de [!DNL Gold Standard]. Si migra desde una compilación antigua, le recomendamos que la actualice primero a esta versión. [Más información](../../rn/using/gs-overview.md).
 
 ## ¿Qué es una actualización de compilación?
 
@@ -96,7 +96,7 @@ El proceso de actualización de la compilación requiere los siguientes recursos
 
 ## ¿Cómo puedo prepararme para la actualización de la compilación?
 
-En sus sistemas de desarrollo y ensayo, exporte cualquier trabajo que sea crítico y que deba preservarse. Para obtener más información, [vea este vídeo](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).
+En sus sistemas de desarrollo y ensayo, exporte cualquier trabajo que sea crítico y que deba preservarse. Para obtener más información, [vea este vídeo](https://helpx.adobe.com/es/campaign/classic/how-to/generate-packages-in-acv6.html).
 
 Actualice su conocimiento en cuanto a los flujos de trabajo y las entregas de ruta críticos desarrollados en los libros de ejecución (o por su equipo de consultoría o socio) mediante la revisión de la documentación proporcionada a su equipo al final de la implementación.
 
@@ -104,7 +104,7 @@ Identifique los tiempos de bajo volumen o bajo tráfico que sean ideales para la
 
 Revise nuestra [lista de comprobación de actualización de compilaciones ](#check-list) a continuación, así como sus planes de prueba, y asegúrese de que los recursos que pueden realizar estas pruebas estén disponibles entre 24 y 48 horas tras la finalización de una actualización.
 
-Para obtener más información, [consulte este documento](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html).
+Para obtener más información, [consulte este documento](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html).
 
 ## ¿Se pueden realizar actualizaciones de la compilación por la noche o durante las horas fuera de servicio?
 
@@ -209,4 +209,4 @@ que todo el contenido se muestra y está presente.
 * [Realización de una actualización de versión](../../production/using/build-upgrade.md)
 * [Notas de la versión de Campaign Classic ](../../rn/using/rn-overview.md)
 * [Opciones de ayuda y asistencia para Campaign Classic](../../support.md)
-* [[!DNL Gold Standard] programa](../../rn/using/gs-overview.md)
+* Programa de [[!DNL Gold Standard] ](../../rn/using/gs-overview.md)
