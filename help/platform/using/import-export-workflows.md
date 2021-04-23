@@ -6,22 +6,22 @@ description: Obtenga información sobre cómo importar y exportar datos mediante
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: 266ecd49-7101-4ff1-941f-1f9b39b44955
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '261'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-
-# Importar y exportar datos mediante flujos de trabajo {#import-export-workflows}
+# Importación y exportación de datos mediante flujos de trabajo {#import-export-workflows}
 
 ## Recopilación de datos {#collecting-data-workflows}
 
 Los flujos de trabajo pueden ser una forma útil de automatizar algunos de los procesos de importación. Tanto si se importan datos desde un archivo local como desde un SFTP, puede utilizar flujos de trabajo para estandarizar los procedimientos de gestión de datos.
 
-### Usar datos de una lista: Lista de lectura {#using-data-from-a-list--read-list}
+### Uso de datos de una lista: lista de lectura {#using-data-from-a-list--read-list}
 
 Los datos enviados en un flujo de trabajo pueden provenir de listas, por lo que los datos se han preparado y estructurado previamente.
 
@@ -29,7 +29,7 @@ Esta lista puede haberse creado directamente en Adobe Campaign o importado media
 
 Para obtener más información sobre el uso de la actividad de la lista de lectura en un flujo de trabajo, consulte [esta página](../../workflow/using/read-list.md).
 
-### Cargar datos de un archivo {#loading-data-from-a-file}
+### Carga de datos desde un archivo {#loading-data-from-a-file}
 
 Los datos procesados en un flujo de trabajo se pueden extraer de un archivo estructurado para que se puedan importar en Adobe Campaign.
 
@@ -47,7 +47,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 Una vez recopilados los datos, puede utilizarlos en sus flujos de trabajo, por ejemplo para enriquecer una entrega o actualizar la base de datos. Para obtener más información, consulte [esta página](../../workflow/using/how-to-use-workflow-data.md).
 
-## Exportar datos {#exporting-data-via-a-workflow}
+## Exportación de datos {#exporting-data-via-a-workflow}
 
 Los flujos de trabajo pueden ser una forma útil de automatizar algunos de los procesos de exportación o de exportar conjuntos de datos precisos después de usar algunas de las actividades disponibles de administración de datos para transformar sus datos.
 
