@@ -6,14 +6,14 @@ description: Publicación en Facebook
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
-translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
-workflow-type: tm+mt
+exl-id: 84d6cb2e-c7f9-43d7-a98c-22613d456193
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1148'
 ht-degree: 100%
 
 ---
-
 
 # Publicación en Facebook{#publishing-on-facebook}
 
@@ -223,4 +223,3 @@ La entrega de la prueba es idéntico a los envíos por correo electrónico. Cons
 1. Haga clic en **[!UICONTROL Confirm delivery]**, luego en **[!UICONTROL Yes]**.
 
    ![](assets/social_facebook_delivery_016.png)
-
