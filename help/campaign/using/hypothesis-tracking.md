@@ -6,14 +6,14 @@ description: Seguimiento de hipótesis
 audience: campaign
 content-type: reference
 topic-tags: response-manager
+exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
 translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '448'
 ht-degree: 100%
 
 ---
-
 
 # Seguimiento de hipótesis{#hypothesis-tracking}
 
