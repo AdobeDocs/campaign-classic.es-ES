@@ -6,14 +6,14 @@ description: Acerca de la gestión del contenido
 audience: delivery
 content-type: reference
 topic-tags: content-management
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '245'
 ht-degree: 100%
 
 ---
-
 
 # Acerca de la gestión del contenido{#about-content-management}
 
@@ -45,4 +45,3 @@ Sin embargo, este modo de creación de contenido implica varias restricciones, i
 
 * Libertad limitada sobre el diseño final del documento.
 * El análisis de los requisitos debe ser riguroso para que los usuarios finales no se vean limitados por en caso de que falte una función.
-
