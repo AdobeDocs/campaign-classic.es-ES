@@ -6,14 +6,14 @@ description: Principios fundamentales
 audience: interaction
 content-type: reference
 topic-tags: general-operation
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: b13ecfc9-1723-42b2-ab30-d5637cc3d0dd
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '338'
 ht-degree: 100%
 
 ---
-
 
 # Principios fundamentales{#fundamental-principles}
 
@@ -42,4 +42,3 @@ Estos dos tipos de interacciones se pueden llevar a cabo tanto en modo unitario 
 En cuanto se puede, o se debe, presentar una oferta (según las configuraciones llevadas a cabo), el motor de oferta realiza la función de intermediario: calcula automáticamente la mejor oferta posible para un contacto entre las disponibles combinando los datos recibidos sobre dicho contacto y las diferentes reglas que se pueden aplicar según lo especificado en la propuesta.
 
 ![](assets/architecture_interaction2.png)
-
