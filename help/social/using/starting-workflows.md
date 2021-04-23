@@ -6,14 +6,14 @@ description: Inicio de flujos de trabajo
 audience: social
 content-type: reference
 topic-tags: configuration
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: a104d8ce-1c28-4da9-bcbf-c17adb1c85c1
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '88'
 ht-degree: 100%
 
 ---
-
 
 # Inicio de flujos de trabajo {#starting-workflows}
 
@@ -26,4 +26,3 @@ La primera vez que utilice Social Marketing, estos flujos de trabajo se detendr�
 Si hay una red social que no desea utilizar, le recomendamos que no inicie los flujos de trabajo coincidentes. Para evitar recibir una advertencia que indique que los flujos de trabajo de producción están detenidos, seleccione el nivel de gravedad **[!UICONTROL Normal]** en la pestaña **[!UICONTROL Execution]** de las propiedades de los flujos de trabajo correspondientes.
 
 ![](assets/social_start_workflows2.png)
-
