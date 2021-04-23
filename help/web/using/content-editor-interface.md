@@ -6,14 +6,14 @@ description: Interfaz del editor de contenido
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-translation-type: tm+mt
-source-git-commit: c93931820887306c0ef64ef05d4f0ba2ca5a98aa
-workflow-type: tm+mt
+exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '533'
 ht-degree: 100%
 
 ---
-
 
 # Interfaz del editor de contenido{#content-editor-interface}
 
@@ -87,4 +87,3 @@ La barra de herramientas es un **elemento emergente** de la interfaz del DCE que
 >[!CAUTION]
 >
 >Algunas funciones de la barra de herramientas permiten dar formato al contenido HTML. Sin embargo, si la página contiene una hoja de estilos CSS, las **instrucciones** de la hoja de estilo pueden tener **prioridad** sobre las instrucciones especificadas con la barra de herramientas.
-
