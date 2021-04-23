@@ -3,17 +3,17 @@ solution: Campaign Classic
 product: campaign
 title: Acerca de los conectores
 description: Acerca de los conectores
-feature: Overview
+feature: Información general
 role: Business Practitioner, Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
-workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 90%
+exl-id: 05080d7f-f2d6-4ffe-b112-05b26a3a8a1d
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
+source-wordcount: '198'
+ht-degree: 100%
 
 ---
-
 
 # Introducción a los conectores{#about-connectors}
 
@@ -33,5 +33,4 @@ También puede integrar Campaign con múltiples sistemas, como:
 
 >[!NOTE]
 >
->La disponibilidad de estos módulos y su uso pueden depender del tipo de implementación de la instalación. Consulte la [matriz de capacidades alojadas on-premise de Campaign](../../installation/using/capability-matrix.md).
-
+>La disponibilidad de estos módulos y su uso pueden depender del tipo de implementación de la instalación. Consulte la [Matriz de funciones on-premise/alojadas de Campaign](../../installation/using/capability-matrix.md).
