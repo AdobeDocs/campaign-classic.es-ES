@@ -6,14 +6,14 @@ description: Diseño de una encuesta
 audience: web
 content-type: reference
 topic-tags: online-surveys
-translation-type: tm+mt
-source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
-workflow-type: tm+mt
+exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '796'
 ht-degree: 100%
 
 ---
-
 
 # Diseño de una encuesta{#building-a-survey}
 
@@ -137,4 +137,3 @@ Cuando se actualiza la página, las preguntas mostradas no son las mismas.
 >[!CAUTION]
 >
 >Cuando visualice una pregunta de forma aleatoria (opción **[!UICONTROL Display randomly]** activada en la página), asegúrese de no utilizar preguntas de opción múltiple para las que una o más selecciones sean obligatorias.
-
