@@ -6,14 +6,14 @@ description: Configuración de la integración con Adobe Target
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: ae8c680f-52a6-4d00-91cd-44d1c3807546
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '175'
 ht-degree: 100%
 
 ---
-
 
 # Configuración de la integración con Adobe Target{#configuring-the-integration-with-adobe-target}
 
@@ -34,6 +34,4 @@ Para configurar Adobe Campaign:
 
    * **[!UICONTROL TNT_EdgeServer]** : Servidor de Adobe Target utilizado para la integración. Esta opción está seleccionada de forma predeterminada. Este valor corresponde al **[!UICONTROL Domain Server]** de Adobe Target, seguido del valor **/m2**. Por ejemplo: **tt.omtrdc.net/m2**.
    * **[!UICONTROL TNT_TenantName]** : Nombre de la organización de Adobe Target. Este valor corresponde al nombre de **[!UICONTROL Client]** de Adobe Target.
-
    ![](assets/tar_options.png)
-
