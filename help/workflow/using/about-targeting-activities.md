@@ -6,14 +6,14 @@ description: Acerca de las actividades de segmentación
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: tm+mt
-source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
-workflow-type: tm+mt
+exl-id: 5028ad4c-e427-4e78-962d-c5ea54390db5
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '404'
 ht-degree: 100%
 
 ---
-
 
 # Acerca de las actividades de segmentación{#about-targeting-activities}
 
@@ -39,4 +39,3 @@ Estas actividades permiten crear uno o más objetivos definiendo conjuntos y div
 * **List update**: registra el resultado de las actividades entrantes en una lista. Consulte la sección [Actualización de lista](../../workflow/using/list-update.md).
 * **Update data**: permite actualizar los datos en la base de datos. Consulte la sección [Actualizar datos](../../workflow/using/update-data.md).
 * **CRM connector**: permite configurar la sincronización entre Adobe Campaign y un CRM. Consulte la sección [Conector CRM](../../workflow/using/crm-connector.md).
-
