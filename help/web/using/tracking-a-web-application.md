@@ -6,14 +6,14 @@ description: Seguimiento de una aplicación web
 audience: web
 content-type: reference
 topic-tags: web-applications
+exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
 translation-type: ht
-source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '411'
 ht-degree: 100%
 
 ---
-
 
 # Seguimiento de visitas en una aplicación web{#tracking-a-web-application}
 
@@ -74,4 +74,3 @@ Al utilizar la interfaz web, se deben insertar las etiquetas de seguimiento desd
 El icono **[!UICONTROL Display blocks]** permite ver el número de etiquetas de seguimiento establecidas para la página.
 
 ![](assets/trackers_4.png)
-
