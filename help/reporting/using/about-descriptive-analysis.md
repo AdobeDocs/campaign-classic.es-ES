@@ -6,14 +6,14 @@ description: Acerca del análisis descriptivo
 audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 19920058-e8e8-4e17-9cc3-24ddf9f96d04
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '195'
 ht-degree: 100%
 
 ---
-
 
 # Acerca del análisis descriptivo{#about-descriptive-analysis}
 
@@ -46,4 +46,3 @@ Los asistentes de análisis descriptivos no son tan potentes como los informes d
 >[!CAUTION]
 >
 >Un análisis descriptivo no permite explorar los volúmenes de datos grandes.
-
