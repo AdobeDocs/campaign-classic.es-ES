@@ -6,14 +6,14 @@ description: Reglas de coherencia
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
+exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
 translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '759'
 ht-degree: 100%
 
 ---
-
 
 # Reglas de coherencia{#consistency-rules}
 
