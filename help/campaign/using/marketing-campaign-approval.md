@@ -6,14 +6,14 @@ description: Descubra cómo administrar las aprobaciones de campañas de marketi
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
+exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 translation-type: ht
-source-git-commit: 67364f80ddc51d4792e73bbf39d388bdf4297005
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '2434'
 ht-degree: 100%
 
 ---
-
 
 # Configuración y administración del proceso de aprobación {#approving-marketing-campaigns}
 
@@ -253,6 +253,7 @@ Para seleccionar una lista de operadores, haga clic en el vínculo **[!UICONTROL
 >* Si se define una lista de revisores, el trabajo se aprueba en cuanto un revisor lo acepte. El vínculo de aprobación correspondiente, en ese caso, ya no se ofrece en el panel. Cuando se activa la entrega de notificaciones, si otro revisor hace clic en el vínculo de aprobación incluido en el mensaje de notificación, se le notifica que otro operador ya ha aprobado el trabajo.
 >* Puede definir una programación de aprobación para la campaña en la sección inferior de la ventana de edición del revisor. De forma predeterminada, los revisores tienen tres días a partir de la fecha de entrega para aprobar un proceso. Es posible configurar un recordatorio que se envíe automáticamente a los operadores antes de la fecha límite de aprobación.
 >* Puede agregar recordatorios en esta sección.
+
 >
 
 
