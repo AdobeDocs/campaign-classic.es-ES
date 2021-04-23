@@ -6,14 +6,14 @@ description: Uso compartido con Adobe Experience Cloud
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
-translation-type: tm+mt
-source-git-commit: 40abbf1f981331b8a19d3607c57624aac22c91f2
-workflow-type: tm+mt
+exl-id: 1c90e913-3375-476c-ab60-89f20239eb0d
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
-
 
 # Uso compartido con Adobe Experience Cloud{#sharing-audiences-with-adobe-experience-cloud}
 
@@ -39,6 +39,6 @@ Esta integración es compatible con dos tipos de Adobe ID Experience Cloud:
 
    >[!NOTE]
    >
-   > Ahora, la fuente de datos de ID declarada también se puede utilizar con la integración del servicio principal Personas.
+   > Ahora, la fuente de datos de ID declarado también se puede utilizar con la integración del servicio principal Personas.
    >
    >Si utiliza la integración del servicio principal Personas y desea añadir la integración de Audience Manager, necesitará la ayuda de un consultor de Adobe Audience Manager para evitar perder todas las sincronizaciones de ID recopiladas al realizar la transición al uso de esta fuente de datos de ID declarados en un contexto de Adobe Audience Manager.
