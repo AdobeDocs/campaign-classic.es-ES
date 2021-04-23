@@ -6,14 +6,14 @@ description: Creación de la lista de resumen
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: tm+mt
-source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
-workflow-type: tm+mt
+exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '974'
 ht-degree: 100%
 
 ---
-
 
 # Creación de la lista de resumen{#creating-a-summary-list}
 
@@ -188,4 +188,3 @@ Una vez ejecutado el flujo de trabajo, la lista incluye:
 * una columna “Zip Code Reference” para todas las tiendas incluidas en el esquema de referencia de tiendas.
 
 ![](assets/uc2_enrich_listfinal.png)
-
