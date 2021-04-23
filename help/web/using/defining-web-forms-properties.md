@@ -6,14 +6,14 @@ description: Definición de las propiedades de los formularios web
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
-source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1205'
 ht-degree: 100%
 
 ---
-
 
 # Definición de las propiedades de los formularios web{#defining-web-forms-properties}
 
@@ -175,4 +175,3 @@ Para configurar este formulario, cree un cuadro de prueba y colóquelo al princi
 El cuadro de prueba permite configurar las condiciones de secuenciación de página:
 
 ![](assets/s_ncs_admin_survey_test_box.png)
-
