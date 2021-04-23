@@ -6,14 +6,14 @@ description: Ejemplo de extensión
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: d4acf99b-cef4-48f7-b4cd-c032ec12592f
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '153'
 ht-degree: 100%
 
 ---
-
 
 # Ejemplo de extensión{#extension-example}
 
@@ -32,4 +32,3 @@ En el caso de un contacto entrante (centro de llamadas o sitio web), las ofertas
    ![](assets/s_ncs_configuration_offer_context.png)
 
 * Al configurar las llamadas SOAP, inserte el elemento XML **context** para hacer referencia a la información contextual añadida en el esquema de interacción. Para obtener más información, consulte [Integración mediante SOAP (servidor)](../../interaction/using/integration-via-soap--server-side-.md).
-
