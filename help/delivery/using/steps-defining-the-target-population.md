@@ -6,25 +6,25 @@ description: Definición de la población objetivo
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: tm+mt
-source-git-commit: 8e0c6951be9d2f9fb0e58af213cb8db4079f2225
-workflow-type: tm+mt
+exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1599'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # Definición de la población objetivo {#defining-the-target-population}
 
 ## Acerca de las poblaciones objetivo {#about-target-populations}
 
-Para cada envío, puede definir varios tipos de poblaciones objetivo:
+Para cada entrega, se pueden definir varios tipos de destinatarios:
 
-* **Audiencia** principal: perfiles que recibirán mensajes. [Obtenga más información](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
+* **Audiencia principal**: perfiles que recibirán mensajes. [Obtenga más información](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
 * **Prueba**: destinatarios de mensajes de prueba implicados en el ciclo de validación. [Obtenga más información](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
-* **Direcciones** semilla: destinatarios que estén fuera del objetivo de la entrega pero que reciban la entrega (solo en el contexto de una campaña de marketing). [Obtenga más información](../../delivery/using/about-seed-addresses.md)
-* **Grupos** de control: población que no recibe la entrega, se utiliza para realizar el seguimiento del comportamiento y el impacto de la campaña (solo en el contexto de una campaña de marketing). [Más información](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
+* **Direcciones semilla**: destinatarios que estén fuera del objetivo de la entrega, pero que reciban la entrega (solo en el contexto de una campaña de marketing). [Obtenga más información](../../delivery/using/about-seed-addresses.md)
+* **Grupos de control**: población que no recibe la entrega, se utiliza para realizar el seguimiento del comportamiento y el impacto de la campaña (solo en el contexto de una campaña de marketing). [Más información](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
 
 ## Selección de los principales destinatarios de la entrega {#selecting-the-main-target}
 
