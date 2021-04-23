@@ -6,18 +6,18 @@ description: Esta sección proporciona información general específica del cana
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: tm+mt
-source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
-workflow-type: tm+mt
+exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '659'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-
 # Introducción al canal de aplicaciones móviles{#about-mobile-app-channel}
 
-El **Mobile App Channel** permite utilizar la plataforma de Adobe Campaign para enviar notificaciones push personalizadas a los terminales iOS y Android a través de aplicaciones.
+El **canal de aplicaciones móviles** permite utilizar la plataforma de Adobe Campaign para enviar notificaciones personalizadas a los terminales iOS y Android a través de aplicaciones.
 
 >[!CAUTION]
 >
@@ -55,7 +55,7 @@ Puede definir el comportamiento de la aplicación para las situaciones en las qu
 
 El flujo de trabajo de **[!UICONTROL NMAC opt-out management]** (mobileAppOptOutMgt) actualiza la notificación de las bajas de suscripción en dispositivos móviles. Para obtener más información sobre este flujo de trabajo, consulte la [lista de flujos de trabajo técnicos](../../workflow/using/about-technical-workflows.md).
 
-Adobe Campaign es compatible con APN HTTP/2. Para obtener más información sobre los pasos de configuración, consulte la sección [esta sección](../../delivery/using/configuring-the-mobile-application.md).
+Adobe Campaign es compatible con APN HTTP/2. Para obtener más información sobre los pasos de configuración, consulte [esta sección](../../delivery/using/configuring-the-mobile-application.md).
 
 Para obtener más información sobre la creación de entregas, consulte [esta sección](../../delivery/using/steps-about-delivery-creation-steps.md).
 
@@ -103,4 +103,3 @@ Para comprobar si funciona correctamente, utilice los siguientes comandos:
    ```
 
 Si se utiliza un conector HTTP/2 de iOS, el servidor de correo, el servidor de flujo de trabajo y el servidor web deben poder comunicarse con los APN en el puerto 443.
-
