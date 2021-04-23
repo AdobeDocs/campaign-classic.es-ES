@@ -6,14 +6,14 @@ description: Seguimiento de la simulación
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 490ebbea-9bdc-453e-8a02-c02b095e55e9
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '138'
 ht-degree: 100%
 
 ---
-
 
 # Seguimiento de la simulación{#simulation-tracking}
 
@@ -32,4 +32,3 @@ Una tabla dinámica proporciona una vista rápida de los desgloses de la oferta 
 Para obtener más información, consulte [esta sección](../../reporting/using/actions-on-reports.md).
 
 ![](assets/offer_simulation_013.png)
-
