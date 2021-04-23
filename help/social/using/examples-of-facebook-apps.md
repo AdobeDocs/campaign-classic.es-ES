@@ -6,14 +6,14 @@ description: Ejemplos de aplicaciones de Facebook
 audience: social
 content-type: reference
 topic-tags: annexes
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 3b8c7db4-9c55-42f6-8e09-e5ab781efe8f
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1981'
 ht-degree: 100%
 
 ---
-
 
 # Ejemplos de aplicaciones de Facebook{#examples-of-facebook-apps}
 
@@ -308,4 +308,3 @@ La aplicación **[!UICONTROL Social Marketing]** también permite agregar un bot
 >[!NOTE]
 >
 >Antes de empezar a utilizar esta función, debe crear una aplicación de Facebook y una cuenta externa de tipo **[!UICONTROL Facebook Connect]**. Para más información, consulte [Configuración de cuentas externas](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
-
