@@ -7,11 +7,11 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2955'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ El asistente de importación se muestra después de crear un nuevo trabajo de im
 
 En el archivo de origen, cada línea coincide con un registro. Los datos de los registros están separados por delimitadores (espacio, tabulación, carácter, etc.). Esto significa que los datos se recuperan en forma de columnas y cada columna está asociada a un campo de la base de datos.
 
-## Paso 1: Elija la plantilla de importación {#step-1---choosing-the-import-template}
+## Paso 1: Selección de la plantilla de importación {#step-1---choosing-the-import-template}
 
 Al iniciar el asistente para importar, primero debe seleccionar una plantilla. Por ejemplo, para configurar la importación de destinatarios que recibieron un boletín, siga los pasos a continuación:
 
@@ -85,7 +85,7 @@ El enlace **[!UICONTROL Advanced parameters]** permite acceder a las siguientes 
 
    * **[!UICONTROL Do not update enumerations]**
 
-      Seleccione esta opción para evitar enriquecer la lista de valores numéricos en la base de datos. Consulte [Administrar enumeraciones](../../platform/using/managing-enumerations.md).
+      Seleccione esta opción para evitar enriquecer la lista de valores numéricos en la base de datos. Consulte [Administración de enumeraciones](../../platform/using/managing-enumerations.md).
 
 * **[!UICONTROL Variables]** Ficha
 
@@ -115,7 +115,7 @@ Utilice las opciones que se ofrecen en la parte superior de esta vista para conf
 * **[!UICONTROL Auto-detect format]** se utiliza para reiniciar el formato del origen de datos. Esta opción permite volver a aplicar los formatos originales a los datos con formato a través de la opción **[!UICONTROL Click here to change the file format...]**.
 * El enlace **[!UICONTROL Advanced parameters]** permite filtrar los datos de origen y acceder a las opciones avanzadas. Desde esta pantalla, puede elegir importar solo parte del archivo. También puede definir un filtro, por ejemplo, para importar únicamente los usuarios de tipo “Candidato” o “Cliente”, según el valor de la línea correspondiente. Estas opciones solo deben utilizarlas usuarios expertos en JavaScript.
 
-### Cambiar el formato de archivo {#changing-the-file-format}
+### Cambio del formato del archivo {#changing-the-file-format}
 
 La opción **[!UICONTROL Click here to change the file format...]** permite dar formato a los datos del archivo de origen y, en concreto, especificar el separador de columnas y el tipo de datos de cada campo. Esta configuración se realiza a través de la siguiente ventana:
 
@@ -244,7 +244,7 @@ La deduplicación afecta a un registro que está presente tanto en el archivo de
 
 Las opciones **[!UICONTROL Reject]** e **[!UICONTROL Ignore]** funcionan como se ha mostrado anteriormente.
 
-### En caso de error {#behavior-in-the-event-of-an-error}
+### En caso de errores {#behavior-in-the-event-of-an-error}
 
 La mayoría de las operaciones de transferencia de datos generan varios tipos de errores (formato de línea incoherente, dirección de correo electrónico no válida, etc.). Todos los errores y todas las advertencias generadas por el motor de importación se almacenan y vinculan a la instancia de importación.
 
@@ -311,7 +311,7 @@ El siguiente paso del asistente para importar le permite seleccionar o crear la 
 
       ![](assets/s_ncs_user_import_wizard05_5.png)
 
-      Puede crear una lista nueva para estos destinatarios haciendo clic en **[!UICONTROL Select link]** y luego en **[!UICONTROL Create]**. La creación y administración de listas se presentan en [esta sección](../../platform/using/creating-and-managing-lists.md).
+      Puede crear una lista nueva para estos destinatarios haciendo clic en **[!UICONTROL Select link]** y luego en **[!UICONTROL Create]**. La creación y administración de listas se muestran en [esta sección](../../platform/using/creating-and-managing-lists.md).
 
       ![](assets/s_ncs_user_import_wizard05_6.png)
 
@@ -329,10 +329,10 @@ El siguiente paso del asistente para importar le permite seleccionar o crear la 
 
 Haga clic en **[!UICONTROL Next]** para validar este paso y mostrar el siguiente paso.
 
-## Paso 6: Iniciar la importación {#step-6---launching-the-import}
+## Paso 6: Inicio de la importación {#step-6---launching-the-import}
 
 El último paso del asistente le permite iniciar la importación de datos. Para ello, haga clic en el botón **[!UICONTROL Start]**.
 
 ![](assets/s_ncs_user_import_wizard06_1.png)
 
-A continuación, puede supervisar la ejecución del trabajo de importación (consulte [Monitorización de la ejecución de trabajos](../../platform/using/monitoring-jobs-execution.md).
+A continuación, puede monitorizar la ejecución del trabajo de importación (consulte [Supervisión de la ejecución de trabajos](../../platform/using/monitoring-jobs-execution.md).
