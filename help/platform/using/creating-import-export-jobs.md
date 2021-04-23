@@ -6,16 +6,16 @@ description: Obtenga información sobre cómo crear trabajos de importación y e
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: 85c48712-3704-41db-a255-a07ca8d02ec4
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '133'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-
-# Crear trabajos de importación y exportación {#creating-import-export-jobs}
+# Creación de trabajos de importación y exportación {#creating-import-export-jobs}
 
 Una vez configuradas las plantillas, se pueden iniciar operaciones de importación y exportación en varios contextos en Adobe Campaign.
 
