@@ -6,14 +6,14 @@ description: '"Ejemplos de uso: creación de gestión de contenido"'
 audience: delivery
 content-type: reference
 topic-tags: content-management
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1173'
 ht-degree: 100%
 
 ---
-
 
 # Ejemplos de uso: creación de gestión de contenido{#use-case-creating-content-management}
 
