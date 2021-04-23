@@ -6,14 +6,14 @@ description: Implementación de IMS
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 58552d6e-fbed-4944-85c4-9c14bf60d823
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '51'
 ht-degree: 100%
 
 ---
-
 
 # Implementación de IMS{#implementing-ims}
 
@@ -32,4 +32,3 @@ ht-degree: 100%
 Para desactivar la conexión a través del Adobe ID, desconecte, haga clic en **[!UICONTROL File > Connections]** y desmarque **[!UICONTROL Connect with an Adobe ID]**.
 
 ![](assets/ims_4.png)
-
