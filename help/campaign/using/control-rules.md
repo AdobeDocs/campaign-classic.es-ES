@@ -6,14 +6,14 @@ description: Reglas de control
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
+exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331
 translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '353'
 ht-degree: 100%
 
 ---
-
 
 # Reglas de control{#control-rules}
 
@@ -73,4 +73,3 @@ Siga estos pasos:
    Al final del análisis, el botón **[!UICONTROL Confirm delivery]** deja de estar disponible.
 
    ![](assets/campaign_opt_create_control_06.png)
-
