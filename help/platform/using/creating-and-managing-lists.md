@@ -3,19 +3,19 @@ solution: Campaign Classic
 product: campaign
 title: Creación y administración de listas
 description: Obtenga información sobre cómo crear y administrar listas
-feature: Profiles
+feature: Perfiles
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 94%
+exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
+source-wordcount: '805'
+ht-degree: 100%
 
 ---
 
-
-# Crear y administrar listas{#creating-and-managing-lists}
+# Creación y administración de listas{#creating-and-managing-lists}
 
 ## ¿Qué es una lista? {#about-lists-in-adobe-campaign}
 
@@ -37,7 +37,7 @@ En Adobe Campaign, hay disponibles dos tipos de listas:
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#create-list-video)
 
-## Crear una lista de perfiles a partir de un grupo {#creating-a-profile-list-from-a-group}
+## Creación de una lista de perfiles a partir de un grupo {#creating-a-profile-list-from-a-group}
 
 Las listas de tipo **[!UICONTROL Group]** creadas mediante el vínculo **[!UICONTROL Profiles and targets]** se deben basar en la tabla de perfil de Adobe Campaign predeterminada (nms:destinatario).
 
@@ -106,9 +106,9 @@ También puede editar la lista a través de la página principal de Adobe Campai
 
 ![](assets/s_ncs_user_add_selection_to_group_5.png)
 
-## Eliminación de un perfil de una lista {#removing-a-profile-from-a-list}
+## Eliminación de perfiles de una lista {#removing-a-profile-from-a-list}
 
-Para eliminar un perfil de una lista, puede:
+Para quitar un perfil de una lista, puede:
 
 * Editar la lista, seleccionar el perfil en la ficha **[!UICONTROL Content]** y, a continuación, hacer clic en el icono **[!UICONTROL Delete]**.
 
@@ -118,7 +118,7 @@ Para eliminar un perfil de una lista, puede:
 
    ![](assets/recipient_remove_a_list.png)
 
-## Eliminar una lista de perfiles {#deleting-a-list-of-profiles}
+## Eliminación de una lista de perfiles {#deleting-a-list-of-profiles}
 
 Puede eliminar una o varias listas de la lista de grupos del árbol de Adobe Campaign. Para ello, edite el árbol a través del vínculo **[!UICONTROL Advanced > Explorer]** en la página principal de Adobe Campaign. Seleccione el grupo respectivo y haga clic con el botón derecho. Seleccione **[!UICONTROL Delete]**. Un mensaje de advertencia le pedirá que confirme la eliminación.
 
@@ -126,7 +126,7 @@ Puede eliminar una o varias listas de la lista de grupos del árbol de Adobe Cam
 >
 >Cuando se elimina una lista, los perfiles de la lista no se ven afectados; no obstante, los datos del perfil se actualizan.
 
-## Vídeo tutorial {#create-list-video}
+## Tutorial en vídeo {#create-list-video}
 
 ### Cómo crear una lista de destinatarios
 
@@ -138,7 +138,7 @@ Aprenda cómo crear una audiencia configurando una lista de destinatarios desde 
 
 ### Cómo utilizar un flujo de trabajo para crear una lista de destinatarios {#create-list-in-a-wf-video}
 
-Aprenda cómo crear un flujo de trabajo con el fin de apuntar los destinatarios y cómo volverlo recurrente antes de utilizar la lista en un destinatario de correo electrónico.
+Aprenda cómo crear un flujo de trabajo con el fin de dirigrse a los destinatarios y cómo volverlo recurrente antes de utilizar la lista en un destinatario de correo electrónico.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
 
