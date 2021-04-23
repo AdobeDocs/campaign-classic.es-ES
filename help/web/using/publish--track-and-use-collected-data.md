@@ -6,14 +6,14 @@ description: Publicación, seguimiento y utilización de datos recopilados
 audience: web
 content-type: reference
 topic-tags: online-surveys
-translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
-workflow-type: tm+mt
+exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '838'
 ht-degree: 100%
 
 ---
-
 
 # Publicación, seguimiento y utilización de datos recopilados{#publish-track-and-use-collected-data}
 
