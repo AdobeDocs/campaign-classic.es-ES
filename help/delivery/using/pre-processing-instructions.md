@@ -6,14 +6,14 @@ description: Obtenga más información sobre las instrucciones de preprocesamien
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
+exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
 translation-type: ht
-source-git-commit: 8aab4bc23d688aa225cfc636936cf2835840e410
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '642'
 ht-degree: 100%
 
 ---
-
 
 # Instrucciones de preprocesamiento {#pre-processing-instructions}
 
@@ -185,7 +185,6 @@ La solución es:
    }
    <%@ value object='endScript' %>
    ```
-
 1. Muestre el artículo llamando a la función.
 
    ```
@@ -196,4 +195,3 @@ La solución es:
    }
    %>
    ```
-
