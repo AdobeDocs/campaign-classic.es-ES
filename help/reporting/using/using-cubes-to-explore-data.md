@@ -6,14 +6,14 @@ description: Uso de cubos para explorar datos
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
+exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '956'
 ht-degree: 100%
 
 ---
-
 
 # Uso de cubos para explorar datos{#using-cubes-to-explore-data}
 
@@ -169,4 +169,3 @@ Para crear una tabla y explorar los datos de un cubo, siga los siguientes pasos:
    ![](assets/s_advuser_cube_in_report_02.png)
 
    Esto permite generar el informe que se desea mostrar. Para más información, consulte [Paso 2 - Selección de líneas y columnas](#step-2---selecting-lines-and-columns).
-
