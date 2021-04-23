@@ -6,14 +6,14 @@ description: Obtenga información sobre cómo realizar pruebas A/B mediante un c
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
+exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
 translation-type: ht
-source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '335'
 ht-degree: 100%
 
 ---
-
 
 # Creación de la secuencia de comandos {#step-5--creating-the-script}
 
