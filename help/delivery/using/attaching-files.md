@@ -7,17 +7,17 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '928'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Adjuntar archivos a un correo electrónico{#attaching-files}
 
-## Acerca de los archivos adjuntos por correo electrónico {#about-email-attachments}
+## Acerca de los archivos adjuntos de correo electrónico {#about-email-attachments}
 
 Puede adjuntar uno o varios archivos a una entrega de correo electrónico.
 
