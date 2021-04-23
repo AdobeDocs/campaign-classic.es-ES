@@ -6,14 +6,14 @@ description: Obtenga más información sobre los documentos de campañas de mark
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
+exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '755'
 ht-degree: 100%
 
 ---
-
 
 # Administración de documentos asociados {#managing-associated-documents}
 
