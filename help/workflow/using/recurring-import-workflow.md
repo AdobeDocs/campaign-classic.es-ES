@@ -6,14 +6,14 @@ description: Obtenga información sobre cómo configurar una plantilla de flujo 
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: tm+mt
-source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
-workflow-type: tm+mt
+exl-id: e6e140cb-8de0-4ab9-bddc-95abe04124c6
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1023'
 ht-degree: 100%
 
 ---
-
 
 # Configuración de una importación recurrente {#setting-up-a-recurring-import}
 
