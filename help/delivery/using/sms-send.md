@@ -6,22 +6,22 @@ description: Obtenga información sobre cómo enviar, monitorizar y rastrear SMS
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
-translation-type: tm+mt
-source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
-workflow-type: tm+mt
+exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '958'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
+# Envío, monitorización y seguimiento de envíos de SMS{#sms-properties}
 
-# Envío, monitorización y seguimiento de envíos SMS{#sms-properties}
-
-## Enviar mensajes SMS {#sending-sms-messages}
+## Envío de mensajes SMS {#sending-sms-messages}
 
 Para aprobar el mensaje y enviarlo a los destinatarios de la entrega que está creando, haga clic en **[!UICONTROL Send]**.
 
-El proceso detallado para validar y realizar una entrega se presenta en las siguientes secciones:
+El proceso detallado para validar y realizar un envío se detalla en las siguientes secciones:
 
 * [Validación de la entrega](../../delivery/using/steps-validating-the-delivery.md)
 * [Realización de la entrega](../../delivery/using/steps-sending-the-delivery.md)
@@ -58,15 +58,15 @@ Estas son las opciones disponibles:
 
 * **Cantidad máxima de SMS por mensaje**: esta opción le permite establecer la cantidad de SMS que debe utilizar para enviar un mensaje. Si el número se establece en 0, puede utilizar un SMS para enviar el mensaje. Si el número de SMS se establece en 1 o 2 por ejemplo y el mensaje supera este umbral, no se envía.
 
-## Supervisión y seguimiento de SMS {#monitoring-and-tracking-sms-deliveries}
+## Monitorización y seguimiento de SMS {#monitoring-and-tracking-sms-deliveries}
 
 Después de enviar mensajes, puede monitorizar y realizar un seguimiento de las entregas. Para obtener más información, consulte estas secciones:
 
 * [Monitorización de un envío](../../delivery/using/about-delivery-monitoring.md)
-* [Comprensión de los errores de entrega](../../delivery/using/understanding-delivery-failures.md)
+* [Comprensión de los errores de envío](../../delivery/using/understanding-delivery-failures.md)
 * [Acerca del seguimiento de mensajes](../../delivery/using/about-message-tracking.md)
 
-## Procesar mensajes entrantes {#processing-inbound-messages}
+## Procesamiento de mensajes entrantes {#processing-inbound-messages}
 
 El módulo **nlserver sms** consulta al enrutador SMS a intervalos regulares. Esto permite a Adobe Campaign realizar un seguimiento del progreso de las entregas y controlar los informes de estado y las solicitudes de baja de los destinatarios.
 
@@ -110,7 +110,7 @@ El esquema InSMS contiene información relacionada con los SMS entrantes. Una de
 * **operatorCode**: código de red del operador.
 * **linkedSmsId**: Identificador de Adobe Campaign (broadlogId) asociado al SMS saliente, donde el SMS es la respuesta.
 
-## Administrar respuestas automáticas (normativa estadounidense) {#managing-automatic-replies--american-regulation-}
+## Administración de respuestas automáticas (normativa de Estados Unidos) {#managing-automatic-replies--american-regulation-}
 
 Cuando los suscriptores responden a un mensaje SMS enviado a través de Adobe Campaign y utilizan una palabra clave como STOP, HELP o YES, es necesario en el mercado estadounidense configurar los mensajes que se envían automáticamente.
 
@@ -120,7 +120,7 @@ El nombre del remitente para este tipo de mensaje es un breve código que suele 
 
 >[!IMPORTANT]
 >
->El siguiente procedimiento detallado solo es válido para conectores SMPP, excepto para el conector SMPP genérico extendido. Para obtener más información, consulte la sección [Crear una cuenta externa de SMPP](sms-set-up.md#creating-an-smpp-external-account) .
+>El siguiente procedimiento detallado solo es válido para conectores SMPP, excepto para el conector SMPP genérico extendido. Para obtener más información sobre esto, consulte la sección [Creación de una cuenta externa de SMPP](sms-set-up.md#creating-an-smpp-external-account).
 >
 >Esto forma parte del proceso de certificación llevado a cabo por los operadores estadounidenses para las campañas de marketing en los Estados Unidos. Estas respuestas a mensajes SMS de suscriptores que contienen la palabra clave deben enviarse al suscriptor inmediatamente después de recibir un mensaje de ellos.
 
