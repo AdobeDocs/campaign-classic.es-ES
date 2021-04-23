@@ -6,14 +6,14 @@ description: Administración de la presentación de ofertas
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 6158ffaa-cb08-4f77-82b8-b3e5e1bf7fd7
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '996'
 ht-degree: 100%
 
 ---
-
 
 # Administración de la presentación de ofertas{#managing-offer-presentation}
 
@@ -157,4 +157,3 @@ Para especificar las propuestas que se van a contar mediante una consulta, haga 
 En el ejemplo siguiente, las propuestas que se van a contar después de dos presentaciones son las de la categoría **Ofertas especiales**, para el espacio del **centro de llamadas**, con un peso inferior a **20**.
 
 ![](assets/offer_typology_013.png)
-
