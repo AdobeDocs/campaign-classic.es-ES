@@ -6,14 +6,14 @@ description: Creación de una conexión compartida
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
+exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
 translation-type: ht
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '999'
 ht-degree: 100%
 
 ---
-
 
 # Creación de una conexión compartida{#creating-a-shared-connection}
 
@@ -21,6 +21,7 @@ ht-degree: 100%
 >
 >* Las extensiones de esquema realizadas en los esquemas utilizados por [flujos de trabajo técnicos del centro de mensajes](../../message-center/using/technical-workflows.md) en cualquiera de las instancias de control o de ejecución deben duplicarse en las demás instancias que utiliza el módulo de mensajería transaccional de Adobe Campaign.
 >* La instancia de control y las instancias de ejecución deben estar instaladas en diferentes equipos. No pueden compartir la misma instancia de Campaign.
+
 >
 
 
@@ -156,4 +157,3 @@ Para utilizar varias instancias de control, esta configuración debe realizarse 
 1. Asigne a cada operador permisos de lectura y escritura para su carpeta. Para ello, haga clic con el botón derecho del ratón en la carpeta y seleccione **[!UICONTROL Properties]**. A continuación, seleccione la pestaña **[!UICONTROL Security]** y añada el operador correspondiente (**mc1** para **Folder 1** y **mc2** para **Folder 2**). Asegúrese de que las casillas **[!UICONTROL Read/Write data]** estén marcadas.
 
    ![](assets/messagecenter_multi_control_6.png)
-
