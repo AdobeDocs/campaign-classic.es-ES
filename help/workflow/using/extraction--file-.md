@@ -6,14 +6,14 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 06eafedd-6386-498f-a80d-7f57ddcccad6
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '324'
 ht-degree: 100%
 
 ---
-
 
 # Extracción de datos (archivo){#extraction-file}
 
@@ -66,4 +66,3 @@ A continuación, se muestra una lista de funciones acumuladas disponibles:
 * **[!UICONTROL Minimum value]** para calcular los valores mínimos de un campo (numérico o de otro tipo),
 * **[!UICONTROL Maximum value]** para calcular los valores máximos de un campo (numérico o de otro tipo),
 * **[!UICONTROL Average]** para calcular el promedio de los valores de un campo numérico,
-
