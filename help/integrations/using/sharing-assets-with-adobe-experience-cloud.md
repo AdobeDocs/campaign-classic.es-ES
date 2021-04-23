@@ -6,14 +6,14 @@ description: Uso compartido de activos con Adobe Experience Cloud
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: b28aa5a5-afba-458b-8a85-375493c6c836
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '173'
 ht-degree: 100%
 
 ---
-
 
 # Uso compartido de activos con Adobe Experience Cloud{#sharing-assets-with-adobe-experience-cloud}
 
@@ -33,4 +33,3 @@ Consulte la sección [Configurar el acceso a los activos para obtener más infor
 >[!NOTE]
 >
 >En el contexto de un entorno On-Premise de Adobe Campaign, la integración con el servicio principal de recursos y con AEM Assets no está disponible, a no ser que AEM Assets también disponga de instalación On-Premise.
-
