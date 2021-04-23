@@ -6,14 +6,14 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: tm+mt
-source-git-commit: 55e2297c5c60a48be230d06a3c1880d79b8ea5f2
-workflow-type: tm+mt
+exl-id: 38add4fe-6238-45de-863e-895ebca189b7
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1089'
 ht-degree: 100%
 
 ---
-
 
 # Deduplicación{#deduplication}
 
@@ -66,6 +66,7 @@ Para configurar una deduplicación, introduzca su etiqueta, el método, los crit
    >[!NOTE]
    >
    >Si utiliza datos externos como entrada, por ejemplo, de un archivo externo, asegúrese de seleccionar la opción **[!UICONTROL Temporary schema]**.
+
    >
    >En el siguiente paso, la opción **[!UICONTROL Other]** permite seleccionar los criterios que se van a utilizar:
 
