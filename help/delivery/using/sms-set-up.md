@@ -6,14 +6,14 @@ description: Obtenga información sobre cómo configurar el canal SMS en Campaig
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
-translation-type: tm+mt
-source-git-commit: 5a084ebe5295d19de24cf92c721d4692f0f5deb8
-workflow-type: tm+mt
+exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1677'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # Configurar el canal SMS {#setting-up-sms-channel}
 
@@ -21,14 +21,14 @@ Para enviar a un teléfono móvil, necesita:
 
 1. una cuenta externa que especifique un conector y el tipo de mensaje.
 
-   Tenga en cuenta que los conectores heredados ya no se utilizan. Durante este periodo, las funcionalidades van a seguir disponibles, pero no se van a actualizar, mejorar ni documentar. Obtenga más información [en esta página](../../rn/using/deprecated-features.md).
+   Tenga en cuenta que los conectores heredados ya no se utilizan. Las funcionalidades van a seguir estando disponibles, pero no se van a mejorar ni admitir. Obtenga más información [en esta página](../../rn/using/deprecated-features.md).
 
 1. Una plantilla de envíos en la que se haga referencia a esta cuenta externa.
 
-## Crear una cuenta externa de SMPP {#creating-an-smpp-external-account}
+## Creación de una cuenta externa SMPP {#creating-an-smpp-external-account}
 
 Para enviar un SMS a un teléfono móvil, primero debe crear una cuenta externa SMPP.
-Para obtener más información sobre el protocolo y la configuración SMS, consulte esta [página](../../delivery/using/sms-protocol.md).
+Para obtener más información sobre el protocolo y la configuración de SMS, consulte esta [página](../../delivery/using/sms-protocol.md).
 
 Para realizar esto, siga los pasos a continuación:
 
@@ -82,7 +82,7 @@ Para realizar esto, siga los pasos a continuación:
 
    Sin embargo, dado que determinados proveedores requieren el uso del prefijo “+”. se recomienda que se ponga en contacto con su proveedor y que este le recomiende si es necesario activar esta opción.
 
-   La casilla de verificación **[!UICONTROL Enable TLS over SMPP]** permite cifrar el tráfico de SMPP. Para obtener más información, consulte [esta página](../../delivery/using/sms-protocol.md).
+   La casilla de verificación **[!UICONTROL Enable TLS over SMPP]** permite cifrar el tráfico de SMPP. Para obtener más información, consulte esta [página](../../delivery/using/sms-protocol.md).
 
 1. Si está configurando un conector **[!UICONTROL Extended generic SMPP]**, puede configurar respuestas automáticas.
 
@@ -343,9 +343,9 @@ Para evitarlo, aplique una de las siguientes soluciones, según el proveedor que
 
    ![](assets/extended_smpp_system-type.png)
 
-Los pasos para configurar una cuenta externa mediante el conector SMPP genérico extendido se detallan en la sección [Create an SMPP external account](#creating-an-smpp-external-account).
+Los pasos para configurar una cuenta externa mediante el conector SMPP genérico extendido se detallan en la sección [Creación de una cuenta externa de SMPP](#creating-an-smpp-external-account).
 
-## Cambiar la plantilla de envío {#changing-the-delivery-template}
+## Modificación de la plantilla de envíos {#changing-the-delivery-template}
 
 Adobe Campaign proporciona una plantilla para las entregas a móviles. Esta plantilla está disponible en el nodo **[!UICONTROL Resources > Templates > Delivery templates]**. Para obtener más información, consulte la sección [Acerca de las plantillas](../../delivery/using/about-templates.md).
 
