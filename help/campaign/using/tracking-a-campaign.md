@@ -6,14 +6,14 @@ description: Seguimiento de una campaña
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
+exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '409'
 ht-degree: 100%
 
 ---
-
 
 # Seguimiento de una campaña{#tracking-a-campaign}
 
@@ -104,4 +104,3 @@ Los paquetes de campañas que ya se han publicado se pueden reiniciar, modificar
 >[!NOTE]
 >
 >También puede reiniciar paquetes de campañas canceladas.
-
