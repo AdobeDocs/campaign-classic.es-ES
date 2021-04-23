@@ -6,22 +6,22 @@ description: Creación de filtros
 audience: platform
 content-type: reference
 topic-tags: filtering-data
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1963'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-
-# Crear filtros{#creating-filters}
+# Creación de filtros{#creating-filters}
 
 Cuando navega por el árbol de Adobe Campaign (en el menú **[!UICONTROL Explorer]** de la página principal), los datos contenidos en la base de datos se muestran en listas. Estas listas se pueden configurar para mostrar solo los datos necesarios para el operador. Se pueden realizar acciones sobre los datos filtrados. La configuración del filtro permite seleccionar datos de una lista **[!UICONTROL dynamically]**. Al modificar los datos, los datos filtrados se actualizan.
 
 >[!NOTE]
 >
->Los ajustes de configuración de la interfaz de usuario se definen localmente en el dispositivo. A veces puede ser necesario limpiar estos datos, especialmente si surgen problemas al actualizar los datos. Para ello, utilice el menú **[!UICONTROL File > Clear the local cache]**.
+>Los ajustes de configuración de la interfaz de usuario se definen localmente en el dispositivo. A veces puede ser necesario limpiar estos datos, especialmente si surgen problemas al actualizarlos. Para ello, utilice el menú **[!UICONTROL File > Clear the local cache]**.
 
 ## Tipología de filtros disponibles {#typology-of-available-filters}
 
@@ -41,7 +41,7 @@ En Adobe Campaign, están disponibles estos tipos de filtros:
   >
   >The **%** character replaces any character string. For example, the string `%@yahoo.com` lets you display all the profiles with an e-mail address in the domain "yahoo.com".
 -->
-Puede cambiar el filtro predeterminado de una lista. Para obtener más información, consulte [Cambiar el filtro predeterminado](#altering-the-default-filter).
+Puede cambiar el filtro predeterminado de una lista. Para más información, consulte [Modificación del filtro predeterminado](#altering-the-default-filter).
 
 * **Filtros simples**
 
@@ -51,27 +51,27 @@ Puede cambiar el filtro predeterminado de una lista. Para obtener más informaci
 
    ![](assets/filters_recipient_simple_filter.png)
 
-   Los filtros simples se detallan en [Crear un filtro simple](#creating-a-simple-filter).
+   Los filtros simples se detallan en [Creación de un filtro simple](#creating-a-simple-filter).
 
 * **Filtros avanzados**
 
    Los **filtros avanzados** se crean mediante una consulta o una combinación de consultas sobre los datos.
 
-   Para obtener más información sobre la creación de un filtro avanzado, consulte [Crear un filtro avanzado](#creating-an-advanced-filter).
+   Para obtener más información sobre la creación de un filtro avanzado, consulte [Creación de un filtro avanzado](#creating-an-advanced-filter).
 
-   Puede utilizar funciones para definir el contenido del filtro. Para obtener más información, consulte [Crear un filtro avanzado con funciones](#creating-an-advanced-filter-with-functions).
+   Puede utilizar funciones para definir el contenido del filtro. Para obtener más información sobre esto, consulte [Creación de un filtro avanzado con funciones](#creating-an-advanced-filter-with-functions).
 
    >[!NOTE]
    >
    >Para obtener más información sobre la creación de consultas en Adobe Campaign, consulte [esta sección](../../platform/using/about-queries-in-campaign.md).
 
-* **Filtros para usuarios**
+* **Filtros de usuario**
 
    Un **filtro de aplicación** es un filtro avanzado que se ha guardado para utilizar y compartir su configuración con otros operadores.
 
-   El botón **[!UICONTROL Filters]** situado encima de las listas ofrece un conjunto de filtros de aplicación que pueden combinarse para restringir el filtrado. El método para crear estos filtros se muestra en [Save a filter](#saving-a-filter).
+   El botón **[!UICONTROL Filters]** situado encima de las listas ofrece un conjunto de filtros de aplicación que pueden combinarse para restringir el filtrado. El método para crear estos filtros se muestra en [Guardado de un filtro](#saving-a-filter).
 
-## Cambiar el filtro predeterminado {#altering-the-default-filter}
+## Modificación del filtro predeterminado {#altering-the-default-filter}
 
 Para cambiar el filtro predeterminado de una lista de destinatarios, haga clic en el nodo **[!UICONTROL Profiles and Targets > Pre-defined filters]** en el árbol.
 
@@ -92,9 +92,9 @@ Siga estos pasos:
 
    >[!NOTE]
    >
-   >La ventana de definición del filtro se detalla en [Crear un filtro avanzado](#creating-an-advanced-filter) y [Guardar un filtro](#saving-a-filter).
+   >La ventana de definición del filtro se detalla en [Creación de un filtro avanzado](#creating-an-advanced-filter) y [Guardado de un filtro](#saving-a-filter).
 
-## Crear un filtro simple {#creating-a-simple-filter}
+## Creación de un filtro simple {#creating-a-simple-filter}
 
 Para crear un **filtro simple**, siga los siguientes pasos:
 
@@ -128,7 +128,7 @@ Si el campo en el que desea filtrar los datos no se muestra en forma de perfil, 
 
    ![](assets/s_ncs_user_delete_filter.png)
 
-## Crear un filtro avanzado {#creating-an-advanced-filter}
+## Creación de un filtro avanzado {#creating-an-advanced-filter}
 
 Para crear un **filtro avanzado**, siga los siguientes pasos:
 
@@ -168,9 +168,9 @@ Para cancelar este filtro, haga clic en el icono **[!UICONTROL Remove this filte
 
 ![](assets/s_ncs_user_filter_adv_remove.png)
 
-Se puede guardar un filtro avanzado para utilizarlo en el futuro. Para obtener más información sobre este tipo de filtro, consulte [Guardar un filtro](#saving-a-filter).
+Se puede guardar un filtro avanzado para utilizarlo en el futuro. Para obtener más información acerca de este tipo de filtro, consulte [Guardado de un filtro](#saving-a-filter).
 
-### Crear un filtro avanzado con funciones {#creating-an-advanced-filter-with-functions}
+### Creación de filtros avanzados con funciones {#creating-an-advanced-filter-with-functions}
 
 Los filtros avanzados pueden utilizar funciones; los **filtros con funciones** se crean mediante un editor de expresiones que permite crear fórmulas con los datos de la base de datos y las funciones avanzadas. Para crear un filtro con funciones, repita los pasos 1, 2 y 3 de creación de filtros avanzados y luego siga este procedimiento:
 
@@ -183,7 +183,7 @@ Los filtros avanzados pueden utilizar funciones; los **filtros con funciones** s
 
    * **[!UICONTROL Field only]** para seleccionar un campo. Este es el modo predeterminado.
    * **[!UICONTROL Aggregate]** para seleccionar la fórmula de adición que se va a utilizar (cuenta, suma, promedio, máximo, mínimo).
-   * **[!UICONTROL User filter]** para seleccionar uno de los filtros de usuario existentes. Los filtros de usuario se detallan en [Guardar un filtro](#saving-a-filter).
+   * **[!UICONTROL User filter]** para seleccionar uno de los filtros de usuario existentes. Los filtros de usuario se detallan en [Guardado de un filtro](#saving-a-filter).
    * **[!UICONTROL Expression]** para acceder al editor de expresiones.
 
       El editor de expresiones permite definir un filtro avanzado. Tiene el siguiente aspecto:
@@ -196,7 +196,7 @@ Los filtros avanzados pueden utilizar funciones; los **filtros con funciones** s
       >
       >Para ver un ejemplo de creación de filtros basado en una expresión, consulte [esta sección](../../workflow/using/sending-a-birthday-email.md#identifying-recipients-whose-birthday-it-is).
 
-## Guardar un filtro {#saving-a-filter}
+## Guardado de un filtro {#saving-a-filter}
 
 Los filtros son específicos de cada operador y se reinician cada vez que el operador borra la caché de su consola de cliente.
 
@@ -220,9 +220,9 @@ Se pueden combinar los filtros haciendo clic en el botón **[!UICONTROL Filters]
 
 ![](assets/s_ncs_user_filter_combination.png)
 
-## Filtrar destinatarios {#filtering-recipients}
+## Filtrado de destinatarios {#filtering-recipients}
 
-Los filtros predefinidos (consulte [Save a filter](#saving-a-filter)) permiten filtrar los perfiles de los destinatarios contenidos en la base de datos. Puede editar filtros desde el nodo del árbol **[!UICONTROL Profiles and Targets > Predefined filters]**. Los filtros se muestran en la sección superior del espacio de trabajo, a través del botón **[!UICONTROL Filters]**.
+Los filtros predefinidos (consulte [Guardado de un filtro](#saving-a-filter)) permiten filtrar los perfiles de los destinatarios que contiene la base de datos. Puede editar filtros desde el nodo del árbol **[!UICONTROL Profiles and Targets > Predefined filters]**. Los filtros se muestran en la sección superior del espacio de trabajo, a través del botón **[!UICONTROL Filters]**.
 
 Seleccione un filtro para mostrar su definición y para acceder a una previsualización de los datos filtrados.
 
@@ -377,4 +377,3 @@ Haga clic en la pestaña **[!UICONTROL Settings]** para acceder a las siguientes
    Esta opción está habilitada para los filtros “Destinatarios de una entrega” y “Destinatarios de entregas pertenecientes a una carpeta”, los cuales se ofrecen en el asistente de entregas y que no se pueden sobrecargar.
 
    ![](assets/s_ncs_user_filter_advanced_param.png)
-
