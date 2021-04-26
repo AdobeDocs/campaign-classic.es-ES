@@ -436,7 +436,6 @@ Una tarea puede ser: **[!UICONTROL Scheduled]**, **[!UICONTROL In progress]**, *
 >
 >* El estado de la tarea se actualiza automáticamente.
 >* Incluso si el periodo de validez ha terminado, las tareas que no se hayan cerrado aparecen en la lista de tareas en curso. Una advertencia notifica a los operadores de que la tarea está atrasada.
-
 >
 
 

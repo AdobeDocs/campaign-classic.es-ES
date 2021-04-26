@@ -50,10 +50,10 @@ En Campaign Classic:
 
 
 >[!CAUTION]
+>
 > Al conectar Adobe Campaign con Microsoft Dynamics, las limitaciones son:
 > * La instalación de complementos puede cambiar el comportamiento de CRM, lo que puede dar lugar a problemas de compatibilidad con Adobe Campaign
 > * Seleccionar varias enumeraciones
-
 >
 
 
