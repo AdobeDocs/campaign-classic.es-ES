@@ -9,27 +9,22 @@ topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 translation-type: tm+mt
-source-git-commit: 98f55ee27a1172ce4a0590f46affe8947fd58d0f
+source-git-commit: 7c161862a4ce2e86e7968fd61af6b8ca28d6623f
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 62%
+source-wordcount: '425'
+ht-degree: 59%
 
 ---
 
-# Actualización de la calificación de devoluciones después de una interrupción del ISP {#update-bounce-qualification.md}
+# Actualizar devoluciones duras incorrectas después de la interrupción de Apple {#update-bounce-qualification.md}
 
 ## Contexto
 
-En caso de interrupción de un ISP, los correos electrónicos enviados a través de Campaign no se pueden enviar correctamente a su destinatario: estos correos electrónicos se marcarán erróneamente como rechazos.
-
-El 26 de abril de 2021, un problema global en Apple provocó que algunos mensajes de correo electrónico enviados a direcciones de correo electrónico válidas de Apple se devolvieran incorrectamente como direcciones de correo electrónico no válidas por parte de servidores de Apple con la siguiente respuesta de rechazo:
-
-
-```
-“550 5.1.1 <email address>: user lookup success but no user record found.”
-```
+El 26 de abril de 2021, un problema global en Apple provocó que algunos mensajes de correo electrónico enviados a direcciones de correo electrónico válidas de Apple se devolvieran incorrectamente como direcciones de correo electrónico no válidas por parte de servidores de Apple con la siguiente respuesta de rechazo:  &quot;550 5.1.1 <email address>: la búsqueda del usuario se ha realizado correctamente, pero no se ha encontrado ningún registro de usuario&quot;.
 
 Este problema ocurrió el 26 de abril y duró de 7 a. m. a 1 p. m. hora del Este.
+
+En caso de interrupción de un ISP, los correos electrónicos enviados a través de Campaign no se pueden enviar correctamente a su destinatario: estos correos electrónicos se marcarán erróneamente como rechazos.
 
 >[!NOTE]
 >
