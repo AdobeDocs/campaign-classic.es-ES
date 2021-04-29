@@ -9,7 +9,7 @@ topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 translation-type: tm+mt
-source-git-commit: 378be6d4ef4ff69818d45c608a61b9a3506398be
+source-git-commit: 9260b467119475e9e0352b6e521d6f2ca426165c
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 59%
@@ -24,11 +24,11 @@ El 26 de abril de 2021, un problema global en Apple provocó que algunos mensaje
 
 Este problema ocurrió el 26 de abril y duró de 7 a. m. a 1 p. m. hora del Este.
 
-En caso de interrupción de un ISP, los correos electrónicos enviados a través de Campaign no se pueden enviar correctamente a su destinatario: estos correos electrónicos se marcarán erróneamente como rechazos.
-
 >[!NOTE]
 >
 >Puede consultar el Panel de estado del sistema de Apple en [esta página](https://www.apple.com/support/systemstatus/).
+
+En caso de interrupción de un ISP, los correos electrónicos enviados a través de Campaign no se pueden enviar correctamente a su destinatario: estos correos electrónicos se marcarán erróneamente como rechazos.
 
 Por lógica de gestión de devoluciones estándar, Adobe Campaign añadió automáticamente estos destinatarios a la lista de cuarentena con una configuración **[!UICONTROL Status]** de **[!UICONTROL Quarantine]**. Para corregir esto, debe actualizar la tabla de cuarentena en Campaign buscando y quitando estos destinatarios o cambiando su **[!UICONTROL Status]** a **[!UICONTROL Valid]** para que el flujo de trabajo de limpieza nocturno los elimine.
 
