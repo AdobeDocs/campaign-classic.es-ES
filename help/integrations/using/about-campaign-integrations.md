@@ -7,9 +7,9 @@ audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 326ccbad77f3bd03a8eba22d7714084d52d2f02b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '772'
 ht-degree: 100%
 
