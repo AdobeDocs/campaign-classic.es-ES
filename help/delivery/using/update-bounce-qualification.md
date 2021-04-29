@@ -9,9 +9,9 @@ topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 translation-type: tm+mt
-source-git-commit: 7c161862a4ce2e86e7968fd61af6b8ca28d6623f
+source-git-commit: 378be6d4ef4ff69818d45c608a61b9a3506398be
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '427'
 ht-degree: 59%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 59%
 
 ## Contexto
 
-El 26 de abril de 2021, un problema global en Apple provocó que algunos mensajes de correo electrónico enviados a direcciones de correo electrónico válidas de Apple se devolvieran incorrectamente como direcciones de correo electrónico no válidas por parte de servidores de Apple con la siguiente respuesta de rechazo:  &quot;550 5.1.1 <email address>: la búsqueda del usuario se ha realizado correctamente, pero no se ha encontrado ningún registro de usuario&quot;.
+El 26 de abril de 2021, un problema global en Apple provocó que algunos mensajes de correo electrónico enviados a direcciones de correo electrónico válidas de Apple se devolvieran incorrectamente como direcciones de correo electrónico no válidas por parte de servidores de Apple con la siguiente respuesta de rechazo:  &quot;550 5.1.1 &#39;dirección de correo electrónico&#39;: la búsqueda del usuario se ha realizado correctamente, pero no se ha encontrado ningún registro de usuario&quot;.
 
 Este problema ocurrió el 26 de abril y duró de 7 a. m. a 1 p. m. hora del Este.
 
