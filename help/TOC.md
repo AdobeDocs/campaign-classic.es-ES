@@ -25,9 +25,9 @@ ht-degree: 100%
    + [Introducción a las actualizaciones](rn/using/rn-overview.md)
    + [Última versión](rn/using/latest-release.md)
    + Versión [!DNL Gold Standard]{#gs-release}
-      + [¿Qué es [!DNL Gold Standard]](rn/using/gs-overview.md)?
-      + Notas de la versión [[!DNL Gold Standard] ](rn/using/gold-standard.md)
-      + Matriz de compatibilidad de [[!DNL Gold Standard] ](rn/using/compatibility-matrix-gs.md)
+      + [¿Qué es [!DNL Gold Standard]?](rn/using/gs-overview.md)
+      + [Notas de la versión [!DNL Gold Standard] ](rn/using/gold-standard.md)
+      + [Matriz de compatibilidad de [!DNL Gold Standard] ](rn/using/compatibility-matrix-gs.md)
    + Versiones anteriores {#previous-releases}
       + [Versión 20.3](rn/using/release--20-3.md)
       + [Versión 20.2](rn/using/release--20-2.md)
@@ -778,7 +778,7 @@ ht-degree: 100%
          + [Índice de base de datos](configuration/using/schema/db-index.md)
          + [Elemento](configuration/using/schema/element.md)
          + [Enumeración](configuration/using/schema/enumeration.md)
-         + Ayuda de [](configuration/using/schema/help.md)
+         + [Ayuda de ](configuration/using/schema/help.md)
          + [Unirse](configuration/using/schema/join.md)
          + [Clave](configuration/using/schema/key.md)
          + [Campo clave](configuration/using/schema/keyfield.md)
@@ -850,7 +850,7 @@ ht-degree: 100%
       + [Migración en Windows para Adobe Campaign 7](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
       + [Migración en Linux para Adobe Campaign v7](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
    + Configuración {#configuration}
-      +  [Configuración general](migration/using/general-configurations.md)
+      + [Configuración general](migration/using/general-configurations.md)
       + [Configuraciones específicas en la versión 5.11](migration/using/specific-configurations-in-v5-11.md)
       + [Configuraciones específicas en la versión 6.02](migration/using/specific-configurations-in-v6-02.md)
       + [Configuraciones específicas en la versión 6.10](migration/using/specific-configurations-in-v6-10.md)
