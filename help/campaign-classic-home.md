@@ -4,11 +4,11 @@ solution: Campaign Classic
 product: campaign
 title: Documentación del producto Adobe Campaign Classic
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-translation-type: ht
-source-git-commit: bd6f77606517a0d3ceaa3c2b398733521af3ae43
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 52341396fd85e470257e37a1d9404eae775acda8
+workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 100%
 
 ## Novedades
 
+* **[Eliminar ](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> devoluciones duras incorrectasObtenga información sobre cómo actualizar devoluciones duras incorrectas después de la interrupción de Apple
+
 * **[Actualice el certificado de APN](technotes/ios-certificate-update.md)**<br/> El 29 de marzo de 2021, una actualización de APN afectó al canal de iOS de Campaign. Debe actualizar la configuración para evitar la interrupción del canal push de iOS.
 
 * **[¿Conexión a través de IMS/ID de Adobe? Actualice a las últimas compilaciones](integrations/using/about-adobe-id.md)**<br/> Si utiliza IMS para conectarse a Campaign, debe actualizar para poder seguir conectándose después del** 30 de junio de 2021 **.
 
 * **[Proteja sus instancias de Campaign](technotes/acc-config-updates.md)**<br/> Actualice a las últimas compilaciones para proteger su plataforma de Campaign.
-
-* **[Eliminación de rebotes duros incorrectos](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Obtenga información sobre cómo actualizar los rebotes duros incorrectos tras la interrupción de Gmail
 
 * **[Actualice la integración de los activadores de Adobe Experience Cloud](integrations/using/configuring-adobe-io.md)**<br/> El servicio de autenticación de autenticación heredada ha llegado al final de su vida útil. Descubra más información sobre cómo migrar a Adobe I/O.
 
