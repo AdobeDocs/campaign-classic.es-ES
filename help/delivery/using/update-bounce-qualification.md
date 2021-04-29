@@ -9,10 +9,10 @@ topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 translation-type: tm+mt
-source-git-commit: ad7f0725a5ce1dea9b5b3ab236c839a816b29382
+source-git-commit: 98f55ee27a1172ce4a0590f46affe8947fd58d0f
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 61%
+source-wordcount: '417'
+ht-degree: 62%
 
 ---
 
@@ -22,7 +22,14 @@ ht-degree: 61%
 
 En caso de interrupción de un ISP, los correos electrónicos enviados a través de Campaign no se pueden enviar correctamente a su destinatario: estos correos electrónicos se marcarán erróneamente como rechazos.
 
-El 26 de abril de 2021, un problema global en Apple provocó que algunos mensajes de correo electrónico enviados a direcciones de correo electrónico válidas de Apple se devolvieran incorrectamente como direcciones de correo electrónico no válidas por parte de servidores de Apple con la siguiente respuesta de rechazo: *&quot;550 5.1.1 <email address>: la búsqueda del usuario se ha realizado correctamente, pero no se ha encontrado ningún registro de usuario&quot;.*Este problema ocurrió el 26 de abril y duró de 7 a. m. a 1 p. m. hora del Este.
+El 26 de abril de 2021, un problema global en Apple provocó que algunos mensajes de correo electrónico enviados a direcciones de correo electrónico válidas de Apple se devolvieran incorrectamente como direcciones de correo electrónico no válidas por parte de servidores de Apple con la siguiente respuesta de rechazo:
+
+
+```
+“550 5.1.1 <email address>: user lookup success but no user record found.”
+```
+
+Este problema ocurrió el 26 de abril y duró de 7 a. m. a 1 p. m. hora del Este.
 
 >[!NOTE]
 >
@@ -44,7 +51,7 @@ En función del periodo de tiempo del problema, se indican a continuación las d
 
 * Para instancias de Campaign con información de respuesta de rechazo SMTP en el campo **[!UICONTROL Error text]** de la lista de cuarentena:
 
-   * **El texto del error (texto de cuarentena)**  contiene &quot;Búsqueda de usuario correcta pero no se ha encontrado ningún registro de usuario&quot; Y el texto del  **error (texto de cuarentena)**  contiene &quot;support.apple.com&quot; **
+   * **El texto del error (texto de cuarentena)**  contiene &quot;éxito de búsqueda del usuario pero no se ha encontrado ningún registro del usuario&quot; Y el texto del  **error (texto de cuarentena)**  contiene &quot;support.apple.com&quot;
    * **Estado de la actualización (@lastModified)** el 26/4/2021 a las 07:00:00 h, o después.
    * **Estado de la actualización (@lastModified)** el 26/4/2021 o antes de las 01:00:00 PM
 
