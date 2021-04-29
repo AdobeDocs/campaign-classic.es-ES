@@ -7,11 +7,11 @@ feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: abd5c7430c3f7a1a056a014ad46a0b94157e259f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Esta página lista las nuevas funcionalidades, mejoras y correcciones que se pro
 >
 >Las compilaciones de **General Availability (GA)** de Campaign son: [[!DNL Gold Standard]  versión 11](../../rn/using/gold-standard.md#gs-11) y [Campaign 20.2.5](../../rn/using/release--20-2.md).
 
-## ![](assets/do-not-localize/blue_2.png) Versión 21.1.2 - Compilación 9282 {#release-21-1-2-build-9282}
+## ![](assets/do-not-localize/blue_2.png) Versión 21.1.2, compilación 9282 {#release-21-1-2-build-9282}
 
 _15 de abril de 2021_
 
