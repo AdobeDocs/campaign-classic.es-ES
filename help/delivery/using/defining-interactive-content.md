@@ -7,11 +7,11 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
+workflow-type: tm+mt
 source-wordcount: '1578'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -49,7 +49,7 @@ Para obtener más información sobre la AMP para los requisitos y especificacion
 ## Pasos clave para utilizar AMP para correo electrónico con Adobe Campaign {#key-steps-to-use-amp}
 
 Para probar y enviar correctamente un correo electrónico de AMP con Adobe Campaign, siga los pasos a continuación:
-1. Instale el paquete **[!UICONTROL AMP support]**. Consulte [Instalación de paquetes estándar de Campaign](../../installation/using/installing-campaign-standard-packages.md).
+1. Instale el paquete **[!UICONTROL AMP support]**. Consulte [Instalación de paquetes integrados de Campaign](../../installation/using/installing-campaign-standard-packages.md).
 1. Cree un correo electrónico y su contenido de AMP en Adobe Campaign. Consulte [Creación de contenido de correo electrónico de AMP con Adobe Campaign](#build-amp-email-content).
 1. Asegúrese de seguir todos los requisitos de entrega de los proveedores de correo electrónico que admiten el formato AMP. Consulte [requisitos de AMP para entrega por correo electrónico](#amp-for-email-delivery-requirements).
 1. Al definir el objetivo, asegúrese de seleccionar los destinatarios que podrán visualizar el formato AMP. Consulte [Objetivización de un correo electrónico AMP](#targeting-amp-email).
