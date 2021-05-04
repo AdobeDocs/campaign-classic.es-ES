@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: schema-reference
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
 translation-type: tm+mt
-source-git-commit: 6768e9ac518ab0c5642241d1fd2086de5b1e6892
+source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
 workflow-type: tm+mt
-source-wordcount: '4010'
+source-wordcount: '4009'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Este documento proporciona casos de uso comunes y prácticas recomendadas para a
 
 ## Arquitectura del modelo de datos {#data-model-architecture}
 
-Adobe Campaign Standard es un potente sistema de administración de campañas en canales múltiples que puede ayudarle a alinear sus estrategias en línea y sin conexión para crear experiencias personalizadas con los clientes.
+Adobe Campaign es un potente sistema de administración de campañas en canales múltiples que puede ayudarle a alinear sus estrategias en línea y sin conexión para crear experiencias personalizadas con los clientes.
 
 ### Enfoque centrado en el cliente {#customer-centric-approach}
 
