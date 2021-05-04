@@ -6,7 +6,7 @@ description: Nota técnica
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: e1b09767a8eed3a7dc90e4db0429238d86d39570
+source-git-commit: 51773f48bac90febe44c6796b8cc08fce072bab3
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 7%
@@ -30,7 +30,7 @@ Si su entorno se ejecuta en una de las versiones enumeradas a continuación, pue
 * Gold Standard 8 a 11. [Obtenga más información](../rn/using/gold-standard.md#gs-8)
 * Versiones de Campaign 21.1.1 (compilación 9277) a 21.1.2 (compilación 9282). [Obtenga más información](../rn/using/latest-release.md)
 * Versiones de Campaign 20.3.1 (compilación 9228) a 20.3.3 (compilación 9234). [Obtenga más información](../rn/using/release--20-3.md)
-* Versiones de Campaign 20.2.1 (compilación 9178) a 20.2.3 (compilación 9182). [Obtenga más información](../rn/using/release--20-2.md)
+* Versiones de Campaign 20.2.1 (versión 9178) a 20.2.4 (versión 9187). [Obtenga más información](../rn/using/release--20-2.md)
 * Versiones de Campaign 20.1.1 (compilación 9122) a 21.1.3 (compilación 9124). [Obtenga más información](../rn/using/release--20-1.md)
 * Versiones de Campaign 19.2.2 (compilación 9080) a 19.2.3 (compilación 9081). [Obtenga más información](../rn/using/release--19-2.md)
 * Versiones de Campaign 19.1.5 (compilación 9033) a 19.1.7 (compilación 9036). [Obtenga más información](../rn/using/release--19-1.md)
