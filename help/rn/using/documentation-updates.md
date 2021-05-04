@@ -7,11 +7,11 @@ feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-translation-type: ht
-source-git-commit: 69630f1450241e15d385dc03a3a2b02f6f7c850b
-workflow-type: ht
-source-wordcount: '4304'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
+workflow-type: tm+mt
+source-wordcount: '4297'
+ht-degree: 99%
 
 ---
 
@@ -336,7 +336,7 @@ Las guías de [instalación](../../installation/using/general-architecture.md), 
 
 La guía de instalación se ha actualizado y sincronizado con la última versión de la matriz de compatibilidad. Se han agregado nuevos sistemas admitidos. Se han eliminado las ocurrencias a sistemas obsoletos y no admitidos. [Más información](../../installation/using/general-architecture.md)
 
-La matriz de compatibilidad se ha actualizado con los conectores Hadoop 3.0 y Snowflake FDA. [Más información](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)
+La matriz de compatibilidad se ha actualizado con los conectores Hadoop 3.0 y Snowflake FDA. [Más información](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
 Se ha añadido una práctica recomendada sobre la afinidad de IP a la guía de instalación. [Más información](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
@@ -354,7 +354,7 @@ El nuevo parámetro para la configuración de informes de direcciones URL se ha 
 
 La página **matriz de funciones On-Premise y alojadas de Campaign Classic** se ha actualizado con los nuevos conectores de FDA. [Más información](../../installation/using/capability-matrix.md).
 
-Se ha actualizado la página **matriz de funciones de Campaign Classic**. [Más información](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)
+Se ha actualizado la página **matriz de funciones de Campaign Classic**. [Más información](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
 El nuevo flujo de trabajo **[!UICONTROL Cleanup of Nmsaddress]** se ha documentado [aquí](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress).
 
@@ -404,7 +404,7 @@ Mensajería SMS segura (TLS): [Más información](https://helpx.adobe.com/es/cam
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
-Ya está disponible la documentación de MTA mejorada de Adobe Campaign. [Más información](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html)
+Ya está disponible la documentación de MTA mejorada de Adobe Campaign. [Más información](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
 
 Se ha añadido una nueva sección sobre cómo solucionar problemas de un flujo de trabajo que permanece en el estado &quot;Iniciar lo antes posible&quot; dentro de una campaña. [Más información](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 
@@ -436,7 +436,7 @@ Se ha actualizado la guía de introducción a las prácticas recomendadas de ent
 
 ## Octubre de 2019 {#october-2019}
 
-Se ha actualizado la lista de mensajes de error para Campaign Standard y Campaign Classic. [Más información](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
+Se ha actualizado la lista de mensajes de error para Campaign. [Más información](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
 
 La guía de introducción al RGPD se ha mejorado y enriquecido. Ahora es una documentación de administración de la privacidad que incluye el RGPD y la CCPA. [Más información](https://helpx.adobe.com/content/help/es/campaign/kb/campaign-privacy.html)
 
@@ -466,7 +466,7 @@ Se han actualizado las prácticas recomendadas para mejorar el rendimiento de lo
 
 **Nuevas funciones incluidas en la versión 19.1**
 
-Panel de control: [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html)
+Panel de control: [Más información](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 Pista de auditoría: [Más información](../../production/using/audit-trail.md)
 
@@ -474,7 +474,7 @@ Pista de auditoría: [Más información](../../production/using/audit-trail.md)
 
 Se ha creado una nueva pregunta frecuente sobre la actualización de la compilación. [Más información](https://helpx.adobe.com/es/campaign/kb/build-upgrade-faq.html)
 
-Se ha actualizado la [matriz de compatibilidad](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html). Se ha actualizado la lista de sistemas de base de datos admitidos, así como las versiones de Android/iOS y los SDK relacionados. Se ha archivado la [matriz de compatibilidad 19.0](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix-19-0.html).
+Se ha actualizado la [matriz de compatibilidad](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html). Se ha actualizado la lista de sistemas de base de datos admitidos, así como las versiones de Android/iOS y los SDK relacionados. Se ha archivado la [matriz de compatibilidad 19.0](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix-19-0.html).
 
 Se ha actualizado la página “Funciones obsoletas y eliminadas en Campaign Classic”. [Más información](https://helpx.adobe.com/es/campaign/kb/deprecated-and-removed-features.html)
 
@@ -496,7 +496,7 @@ Se ha agregado más información sobre los métodos de autenticación SOAP para 
 
 Se han actualizado los pasos de configuración de Apache. [Más información](../../installation/using/integration-into-a-web-server-for-linux.md)
 
-Se ha agregado una nueva página que incluye la lista de puntos finales de Campaign Standard y Classic. [Más información](../../installation/using/campaign-network-endpoints.md)
+Se ha añadido una nueva página que incluye la lista de puntos finales para Classic. [Más información](../../installation/using/campaign-network-endpoints.md)
 
 Se ha actualizado el artículo Prácticas recomendadas del paquete de datos. [Más información](../../configuration/using/data-model-best-practices.md)
 
@@ -529,7 +529,7 @@ Se agregó información sobre el informe Facturación.
 Se ha actualizado la documentación sobre la integración de audiencias compartidas.
 [Más información](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 
-Se han actualizado las siguientes notas técnicas: [protocolo de conector SMS y configuración](https://helpx.adobe.com/es/campaign/kb/sms-connector-protocol-and-settings.html) y [generación automática de secuencia](https://helpx.adobe.com/es/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
+Se han actualizado las siguientes notas técnicas: [protocolo de conector SMS y configuración](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) y [generación automática de secuencia](https://helpx.adobe.com/es/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
 
 Se ha actualizado la sección Flujos de trabajo técnicos. [Más información](../../workflow/using/about-technical-workflows.md)
 
