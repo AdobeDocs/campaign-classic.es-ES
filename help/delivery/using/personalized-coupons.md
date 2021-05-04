@@ -7,11 +7,11 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
+workflow-type: tm+mt
 source-wordcount: '877'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -115,7 +115,7 @@ En el siguiente ejemplo, la entrega se crea desde la página principal. Para obt
 
       ![](assets/deliv_coup_11.png)
 
-      El cupón se inserta en el mensaje como código en lugar de con el nombre asignado. El código se utiliza en el modelo de datos estándar de Campaign.
+      El cupón se inserta en el mensaje como código en lugar de con el nombre asignado. El código se utiliza dentro del modelo de datos ootb de Campaign.
    ![](assets/deliv_coup_12.png)
 
 1. Ejecute una prueba para confirmar el nombre asignado al cupón. Vaya a la pestaña **[!UICONTROL Preview]** y haga clic en **[!UICONTROL Test personalization]**. Seleccione un destinatario para la prueba.
