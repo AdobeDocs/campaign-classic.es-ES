@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9781e313e03489d203e14ab0c426aa1001c7a257
+workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ Para ayudarle a facilitar su preparación para la privacidad, Adobe Campaign le 
 Para obtener información sobre cómo crear solicitudes de **acceso** y **eliminación**, y saber cómo las procesa Adobe Campaign, consulte los pasos de [implementación](../../platform/using/privacy-requests.md).
 
 <!--Tutorials on Privacy management in Campaign Standard are also available [here](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
-https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en-->
+https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en-->
 
 ## Consentimiento, retención y funciones {#consent-retention-roles}
 
