@@ -8,7 +8,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 translation-type: tm+mt
-source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
+source-git-commit: 9781e313e03489d203e14ab0c426aa1001c7a257
 workflow-type: tm+mt
 source-wordcount: '4297'
 ht-degree: 99%
@@ -44,7 +44,7 @@ Aprenda a crear y administrar sus campañas a través de estas nuevas páginas:
 
 Se ha añadido información en la sección de la actividad **[!UICONTROL Advanced JavaScript]** sobre cómo utilizar el método task.setCompleted() para finalizar la tarea e impedir futuras recuperaciones. [Más información](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
 
-La sección [Entrega](../../delivery/using/about-deliverability.md) se ha actualizado y ahora incluye vínculos a la nueva [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es). Toda la información genérica relacionada con la capacidad de envío que se puede aplicar a varias soluciones de Adobe se ha trasladado al [Apéndice de la Guía de prácticas recomendadas](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=es#additional-resources).
+La sección [Entrega](../../delivery/using/about-deliverability.md) se ha actualizado y ahora incluye vínculos a la nueva [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es). Toda la información genérica relacionada con la capacidad de envío que se puede aplicar a varias soluciones de Adobe se ha trasladado al [Apéndice de la Guía de prácticas recomendadas](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
 
 ## Febrero de 2021 {#release-21.1}
 
