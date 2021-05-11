@@ -6,45 +6,45 @@ description: Obtenga información sobre cómo instalar la consola del cliente
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
+exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
 translation-type: tm+mt
-source-git-commit: c96a7faf5c65848a3f383a5721bfa45048ecea57
+source-git-commit: 2ce19e135ce1eb47d760c5407446312bc2d3c303
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 7%
+source-wordcount: '973'
+ht-degree: 6%
 
 ---
 
-
 # Instalación y actualización de la consola del cliente de Campaign{#installing-the-client-console}
-
 
 La consola del cliente de Campaign es un cliente enriquecido que le permite conectarse a sus servidores de aplicaciones de Campaign.
 
-Antes de empezar, debe comprobar la [Matriz de compatibilidad](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html) de Campaign, obtener la URL del servidor de Campaign y las credenciales de usuario.
+Antes de comenzar a instalar la consola de cliente, debe:
 
->[!CAUTION]
->
->La consola del cliente de Campaign y el servidor de aplicaciones de Campaign deben ejecutarse en la misma versión del producto. Adobe también recomienda utilizar la misma compilación de producto.
-
-![](assets/do-not-localize/how-to-video.png) Descubra cómo instalar y configurar el cliente de Adobe Campaign en  [vídeo](#video)
+* Compruebe la compatibilidad del sistema y las herramientas con Adobe Campaign en la [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)
+* Obtener la URL del servidor de Campaign
+* Obtención de credenciales de usuario
 
 El proceso para instalar o actualizar la consola del cliente varía según la implementación de Adobe Campaign Classic.
 Consulte los detalles a continuación para comprender qué es lo que se requiere para la implementación.
 
+![](assets/do-not-localize/how-to-video.png) Descubra cómo instalar y configurar el cliente de Adobe Campaign en  [vídeo](#video)
+
+>[!CAUTION]
+>
+>La consola del cliente de Campaign y el servidor de aplicaciones de Campaign deben ejecutar **en la misma versión del producto**. Adobe también recomienda encarecidamente utilizar la **misma compilación de producto**. Obtenga información sobre cómo comprobar las versiones de cliente y servidor de Campaign en [esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 ## Implementaciones alojadas en Adobe {#hosted-customers}
 
-Para instalar o actualizar las consolas de cliente:
+Anuncio a un cliente alojado, tiene dos opciones para instalar o actualizar sus consolas de cliente:
 
 1. Adobe puede implementarse directamente. Una vez actualizada la consola, se pedirá a los usuarios que descarguen la última versión de la consola del cliente en una ventana emergente.
 
-1. Puede descargar en las consolas de cliente desde [Distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html)
+1. Puede descargar en las consolas de cliente desde [Distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
 
    **Los usuarios necesitarán acceso de administrador para completar la actualización. Si los usuarios no tienen derechos de administrador, un administrador del sistema deberá implementar en todas las consolas de cliente**
 
-
-
-## Implementaciones híbridas y totalmente locales {#hybrid-onprem-customers}
+## Implementaciones híbridas y locales {#hybrid-onprem-customers}
 
 Para que los usuarios de Adobe Campaign puedan iniciar sesión en la instancia que ha creado y configurado, deben utilizar la consola del cliente.
 
@@ -62,9 +62,10 @@ Para ello, debe:
 
 1. Inicie el servidor de Adobe Campaign.
 
->[!CAUTION]
->
->  Adobe recomienda dejar la opción **[!UICONTROL No longer ask this question]** sin seleccionar para asegurarse de que todos los usuarios reciban alertas cuando haya una nueva versión de la consola disponible.  Si se selecciona esta opción, no se informará al usuario de las nuevas versiones disponibles.
+
+### Ya no se puede hacer esta pregunta
+
+Adobe recomienda dejar la opción **[!UICONTROL No longer ask this question]** sin seleccionar para asegurarse de que todos los usuarios reciban alertas cuando haya una nueva versión de la consola disponible.  Si se selecciona esta opción, no se informará al usuario de las nuevas versiones disponibles.
 
 Si se ha seleccionado **[!UICONTROL No longer ask this question]**, puede restablecer este mensaje. Solo los administradores del sistema que estén cómodos con la edición de Windows Registry deben realizar estos cambios:
 
@@ -82,14 +83,14 @@ Si se ha seleccionado **[!UICONTROL No longer ask this question]**, puede restab
 >
 >Si está aplicando una consola actualizada a una implementación existente, los usuarios recibirán automáticamente un mensaje para actualizar su consola de cliente. Si va a implementar Campaign por primera vez, los usuarios deberán descargar la consola. Consulte a continuación los detalles sobre ambas opciones
 
-### Actualizar la consola: implementación existente{#update-the-client-console}
+### Actualizar la consola para la implementación existente{#update-the-client-console}
 
 Una vez que la consola esté disponible en la carpeta del servidor de Campaign, se pedirá a los usuarios que descarguen la última versión de la consola del cliente en una ventana emergente.
 
 **Los usuarios necesitarán acceso de administrador para completar la actualización. Si los usuarios no tienen derechos de administrador, un administrador del sistema deberá implementar en todas las consolas de cliente**
 
 
-### Descargar la consola: nueva implementación{#download-the-client-console}
+### Descargue la consola para una nueva implementación{#download-the-client-console}
 
 Los usuarios deben descargar e instalar la consola siguiendo los pasos a continuación:
 
@@ -150,16 +151,15 @@ Para iniciar sesión en una instancia existente, siga los pasos a continuación:
 1. Introduzca sus credenciales de inicio de sesión de usuario y haga clic en **[!UICONTROL Log in]**
 
 
-
 **Temas relacionados**
 
 * [Creación de una instancia e inicio de sesión](../../installation/using/creating-an-instance-and-logging-on.md).
-* [Matriz de compatibilidad](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+* [Matriz de compatibilidad](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)
 
-## Vídeo tutorial
+## Tutorial en vídeo
 
 Este vídeo muestra cómo instalar y configurar el cliente de Adobe Campaign.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35124?quality=12)
 
-Puede encontrar disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
+Puede encontrar disponibles más vídeos de procedimientos de Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
