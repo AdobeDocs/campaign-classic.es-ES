@@ -7,11 +7,11 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2000'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -261,7 +261,7 @@ Estas son las opciones disponibles:
 * **[!UICONTROL Running]**: enumera todos los flujos de trabajo en ejecución.
 * **[!UICONTROL Paused]**: enumera todos los flujos de trabajo pausados.
 * **[!UICONTROL Failed]**: enumera todos los flujos de trabajo con errores.
-* **[!UICONTROL Start Pending]**: lista todos los flujos de trabajo que están a la espera de ser iniciados por el proceso operationMgt. Esta vista solo está disponible con el paquete **Marketing campaign** (consulte [Instalación de paquetes integrados de Campaign](../../installation/using/installing-campaign-standard-packages.md)).
+* **[!UICONTROL Start Pending]**: lista todos los flujos de trabajo que están a la espera de ser iniciados por el proceso operationMgt. Esta vista solo está disponible con el paquete **Campañas de marketing** (consulte [Instalación de paquetes integrados de Campaign](../../installation/using/installing-campaign-standard-packages.md)).
 
 ![](assets/workflow-monitoring-views.png)
 
