@@ -8,16 +8,15 @@ user-guide-description: Diseñe, planifique, ejecute, administre y optimice camp
 solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
-translation-type: ht
-source-git-commit: b741b10fd1d3a94a3e6c71e95ff43cc0ee54ebc7
-workflow-type: ht
-source-wordcount: '2519'
-ht-degree: 100%
+source-git-commit: 42040c519a9430ff0529913c1d567e9315b1a95d
+workflow-type: tm+mt
+source-wordcount: '2521'
+ht-degree: 99%
 
 ---
 
 
-# Guía de Adobe Campaign Classic {#using}
+# Guía de Adobe Campaign Classic v7 {#using}
 
 + [Documentación del producto](campaign-classic-home.md)
 + [Últimas actualizaciones](rn/using/documentation-updates.md)
@@ -26,8 +25,8 @@ ht-degree: 100%
    + [Última versión](rn/using/latest-release.md)
    + Versión [!DNL Gold Standard]{#gs-release}
       + [¿Qué es [!DNL Gold Standard]?](rn/using/gs-overview.md)
-      + [Notas de la versión [!DNL Gold Standard] ](rn/using/gold-standard.md)
-      + [Matriz de compatibilidad de [!DNL Gold Standard] ](rn/using/compatibility-matrix-gs.md)
+      + [Notas de la versión de [!DNL Gold Standard]](rn/using/gold-standard.md)
+      + [Matriz de compatibilidad de [!DNL Gold Standard]](rn/using/compatibility-matrix-gs.md)
    + Versiones anteriores {#previous-releases}
       + [Versión 20.3](rn/using/release--20-3.md)
       + [Versión 20.2](rn/using/release--20-2.md)
@@ -50,7 +49,7 @@ ht-degree: 100%
       + Espacio de trabajo de Adobe Campaign{#campaign-workspace}
          + [Introducción a la IU de Campaign](platform/using/adobe-campaign-workspace.md)
          + [Uso del explorador de Campaign](platform/using/adobe-campaign-explorer.md)
-         + [Navegación y personalización de listas](platform/using/adobe-campaign-ui-lists.md)
+         + [Examen y personalización de listas](platform/using/adobe-campaign-ui-lists.md)
       + Preguntas frecuentes {#faq}
          + [Preguntas clave](platform/using/common-questions.md)
          + [Conceptos globales](platform/using/faq-key-concepts.md)
@@ -96,7 +95,7 @@ ht-degree: 100%
    + Filtrado de datos {#filtering-data}
       + [Filtrado de opciones](platform/using/filtering-options.md)
       + [Creación de filtros](platform/using/creating-filters.md)
-      + [Caso de uso](platform/using/use-case.md)
+      + [Ejemplo de uso](platform/using/use-case.md)
    + Creación de consultas {#creating-queries}
       + [Acerca de las consultas en Campaign](platform/using/about-queries-in-campaign.md)
       + [Pasos para crear una consulta](platform/using/steps-to-create-a-query.md)
@@ -106,7 +105,7 @@ ht-degree: 100%
       + [Creación y administración de operadores](platform/using/access-management-operators.md)
       + [Creación y administración de grupos](platform/using/access-management-groups.md)
       + [Uso de derechos asignados para configurar permisos](platform/using/access-management-named-rights.md)
-      + [Administración de acceso a carpetas](platform/using/access-management-folders.md)
+      + [Administración del acceso a las carpetas](platform/using/access-management-folders.md)
    + Paquetes de datos y enumeraciones {#administration-basics}
       + [Paquetes de datos](platform/using/working-with-data-packages.md)
       + [Enumeraciones](platform/using/managing-enumerations.md)
@@ -117,7 +116,7 @@ ht-degree: 100%
          + [Conexión con Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
          + [Conexión con Salesforce.com](platform/using/crm-sfdc.md)
          + [Sincronización de datos con CRM](platform/using/crm-data-sync.md)
-      + [Conector de datos de Adobe Analytics](platform/using/adobe-analytics-data-connector.md)
+      + [Conectores de datos de Adobe Analytics](platform/using/adobe-analytics-data-connector.md)
    + [Opciones de ayuda y asistencia](support.md)
 + Creación y envío de mensajes {#sending-messages}
    + [Introducción a los mensajes](delivery/using/communication-channels.md)
@@ -137,8 +136,8 @@ ht-degree: 100%
          + [Seguimiento y monitorización](delivery/using/track-and-monitor.md)
    + Envío de correos electrónicos {#sending-emails}
       + [Acerca del canal de correo electrónico](delivery/using/about-email-channel.md)
-      + [Creación de un envío de correo electrónico](delivery/using/creating-an-email-delivery.md)
-      + [Definición del contenido del correo electrónico](delivery/using/defining-the-email-content.md)
+      + [Creación de una entrega de correo electrónico](delivery/using/creating-an-email-delivery.md)
+      + [Defina el contenido del correo electrónico](delivery/using/defining-the-email-content.md)
       + [Definición del contenido interactivo](delivery/using/defining-interactive-content.md)
       + Realización del envío de correo electrónico {#sending-an-email}
          + [Pasos principales para enviar un correo electrónico](delivery/using/sending-messages.md)
@@ -183,7 +182,7 @@ ht-degree: 100%
       + [Generación de documentos PDF personalizados](delivery/using/generating-personalized-pdf-documents.md)
       + [Personalización de la lista de emoticonos](delivery/using/customizing-emoticon-list.md)
    + Uso de direcciones semilla {#using-seed-addresses}
-      + [Acerca de las direcciones semilla](delivery/using/about-seed-addresses.md)
+      + [Sobre las direcciones semilla](delivery/using/about-seed-addresses.md)
       + [Creación de direcciones semilla](delivery/using/creating-seed-addresses.md)
       + [Adición de direcciones semilla](delivery/using/adding-seed-addresses.md)
       + [Uso de una lista de destinatarios externa](delivery/using/using-an-external-recipient-table.md)
@@ -200,7 +199,7 @@ ht-degree: 100%
          + [Configuración de envíos](delivery/using/a-b-testing-uc-configuring-deliveries.md)
          + [Creación de la secuencia de comandos](delivery/using/a-b-testing-uc-script.md)
          + [Definición del envío final](delivery/using/a-b-testing-uc-final-delivery.md)
-         + [Inicio del flujo de trabajo](delivery/using/a-b-testing-uc-start-workflow.md)
+         + [Inicie el flujo de trabajo](delivery/using/a-b-testing-uc-start-workflow.md)
          + [Análisis del resultado](delivery/using/a-b-testing-uc-analyzing.md)
    + Servicios y suscripciones {#subscriptions-and-referrals}
       + [Acerca de los servicios y las suscripciones](delivery/using/about-services-and-subscriptions.md)
@@ -211,7 +210,7 @@ ht-degree: 100%
       + [Acceso a la lista de envíos](delivery/using/list-of-deliveries.md)
       + [Panel de entregas](delivery/using/delivery-dashboard.md)
       + [Prácticas recomendadas sobre el rendimiento de las entregas](delivery/using/delivery-performances.md)
-      + [Solución de problemas de entrega](delivery/using/delivery-troubleshooting.md)
+      + [Solución de problemas de envío](delivery/using/delivery-troubleshooting.md)
       + [Estados de entrega](delivery/using/delivery-statuses.md)
       + [Comprensión de los errores de envío](delivery/using/understanding-delivery-failures.md)
       + [Actualización de la calificación de devoluciones después de una interrupción del ISP](delivery/using/update-bounce-qualification.md)
@@ -231,7 +230,7 @@ ht-degree: 100%
       + [¿Qué es la capacidad de entrega?](delivery/using/about-deliverability.md)
       + [Contenido de mensajes de control](delivery/using/control-message-content.md)
       + [Supervisión de la capacidad de entrega](delivery/using/monitoring-deliverability.md)
-      + [Renderización de la bandeja de entrada](delivery/using/inbox-rendering.md)
+      + [Renderización de la bandeja de entrada  ](delivery/using/inbox-rendering.md)
       + [SpamAssassin](delivery/using/spamassassin.md)
       + [Resolución de problemas](delivery/using/deliverability-faq.md)
    + Módulo de administración de contenido {#content-management}
@@ -273,13 +272,13 @@ ht-degree: 100%
       + [Aplicación de reglas](campaign/using/applying-rules.md)
       + [Simulaciones en Campaign](campaign/using/campaign-simulations.md)
    + Marketing distribuido {#distributed-marketing}
-      + [Acerca del marketing distribuido](campaign/using/about-distributed-marketing.md)
+      + [Acerca de Distributed Marketing](campaign/using/about-distributed-marketing.md)
       + [Creación de una campaña local](campaign/using/creating-a-local-campaign.md)
       + [Creación de una campaña colaborativa](campaign/using/creating-a-collaborative-campaign.md)
       + [Publicación del paquete de campaña](campaign/using/publishing-the-campaign-package.md)
       + [Acceso a campañas](campaign/using/accessing-campaigns.md)
       + [Seguimiento de una campaña](campaign/using/tracking-a-campaign.md)
-      + [Casos de uso](campaign/using/examples.md)
+      + [Ejemplos de uso](campaign/using/examples.md)
    + Gestor de respuestas {#response-manager}
       + [Introducción al gestor de respuestas](campaign/using/about-response-manager.md)
       + [Configuración](campaign/using/configuration.md)
@@ -304,7 +303,7 @@ ht-degree: 100%
       + [Acerca del análisis descriptivo](reporting/using/about-descriptive-analysis.md)
       + [Uso del asistente de análisis descriptivo](reporting/using/using-the-descriptive-analysis-wizard.md)
       + [Configuración de informes](reporting/using/processing-a-report.md)
-      + [Casos de uso](reporting/using/use-cases.md)
+      + [Ejemplos de uso](reporting/using/use-cases.md)
    + Creación de informes nuevos {#creating-new-reports}
       + [Pasos clave para diseñar un informe](reporting/using/about-reports-creation-in-campaign.md)
       + [Creación de un informe nuevo](reporting/using/creating-a-new-report.md)
@@ -361,7 +360,7 @@ ht-degree: 100%
       + [Administración de respuestas](web/using/managing-answers.md)
       + [Publicación, seguimiento y utilización de datos recopilados](web/using/publish--track-and-use-collected-data.md)
       + [Configuración de encuestas](web/using/configuring-surveys.md)
-      + [Caso de uso: Creación de un formulario de referencia](web/using/use-case--creating-a-refer-a-friend-form.md)
+      + [Ejemplo de uso: creación de un formulario de referencia](web/using/use-case--creating-a-refer-a-friend-form.md)
 + Integración con Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
    + [Acerca de las integraciones de Campaign](integrations/using/about-campaign-integrations.md)
    + Uso compartido de audiencias {#audience-sharing}
@@ -396,7 +395,7 @@ ht-degree: 100%
       + [Supervisión de canalización](integrations/using/pipeline-monitoring.md)
       + [Solución de problemas de canalización](integrations/using/pipeline-troubleshooting.md)
    + Fuentes y destinos de Adobe Experience Platform {#aep-sources-destinations}
-      + [Introducción a fuentes y destinos](integrations/using/get-started-sources-destinations.md)
+      + [Introducción a orígenes y destinos](integrations/using/get-started-sources-destinations.md)
       + [Ingesta de audiencias de Adobe Experience Platform en Campaign](integrations/using/ingest-aep-data.md)
       + [Exportación de datos de Campaign a Adobe Experience Platform](integrations/using/export-campaign-data.md)
 + Automatización con flujos de trabajo {#automating-with-workflows}
@@ -406,7 +405,7 @@ ht-degree: 100%
       + [Creación de un flujo de trabajo](workflow/using/building-a-workflow.md)
       + [Datos de destino](workflow/using/targeting-data.md)
       + [Uso de datos de flujo de trabajo](workflow/using/how-to-use-workflow-data.md)
-      + [Prácticas recomendadas de flujos de trabajo](workflow/using/workflow-best-practices.md)
+      + [Prácticas recomendadas con flujos de trabajo](workflow/using/workflow-best-practices.md)
    + Ejecutar un flujo de trabajo {#executing-a-workflow}
       + [Inicio de un flujo de trabajo](workflow/using/starting-a-workflow.md)
       + [Ciclo de vida del flujo de trabajo](workflow/using/workflow-life-cycle.md)
@@ -451,7 +450,7 @@ ht-degree: 100%
       + [Tarea](workflow/using/task.md)
    + Actividades de acción {#action-activities}
       + [Acerca de las actividades de acción](workflow/using/about-action-activities.md)
-      + [Entrega](workflow/using/delivery.md)
+      + [Envío](workflow/using/delivery.md)
       + [Control de entregas](workflow/using/delivery-control.md)
       + [Entrega continua](workflow/using/continuous-delivery.md)
       + [Entrega recurrente](workflow/using/recurring-delivery.md)
@@ -481,7 +480,7 @@ ht-degree: 100%
          + [Carga de contenido de entrega](workflow/using/loading-delivery-content.md)
          + [Flujo de trabajo de entrega por canales cruzados](workflow/using/cross-channel-delivery-workflow.md)
          + [Enriquecimiento de correo electrónico con campos de datos personalizados](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Monitoreo {#monitoring}
+      + Monitorización {#monitoring}
          + [Envío de un informe a una lista](workflow/using/sending-a-report-to-a-list.md)
          + [Supervisión de los flujos de trabajo](workflow/using/supervising-workflows.md)
          + [Envío de alertas personalizadas a operadores](workflow/using/sending-personalized-alerts-to-operators.md)
@@ -493,7 +492,7 @@ ht-degree: 100%
          + [Uso de la funcionalidad de combinación de la actividad de anulación de duplicación](workflow/using/deduplication-merge.md)
          + [Configuración de un flujo de trabajo de importación recurrente](workflow/using/recurring-import-workflow.md)
       + Consultas de diseño {#designing-queries}
-         + [Actualización trimestral de la lista con una consulta incremental](workflow/using/quarterly-list-update.md)
+         + [Actualización de lista trimestral con una consulta incremental](workflow/using/quarterly-list-update.md)
       + Consulta y filtro {#designing-queries}
          + [Consulta de la tabla de destinatarios](workflow/using/querying-recipient-table.md)
          + [Información de envío de consulta](workflow/using/querying-delivery-information.md)
@@ -531,7 +530,7 @@ ht-degree: 100%
       + [Creación de espacios de oferta](interaction/using/creating-offer-spaces.md)
       + [Creación de filtros predefinidos](interaction/using/creating-predefined-filters.md)
    + Administración de un catálogo de ofertas {#managing-an-offer-catalog}
-      + [Descripción general del catálogo de ofertas](interaction/using/offer-catalog-overview.md)
+      + [Descripción del catálogo de ofertas](interaction/using/offer-catalog-overview.md)
       + [Creación de categorías de oferta](interaction/using/creating-offer-categories.md)
       + [Recomendación de una categoría](interaction/using/recommending-a-category.md)
       + [Creación de una oferta](interaction/using/creating-an-offer.md)
@@ -588,7 +587,7 @@ ht-degree: 100%
       + [Datos de personalización](message-center/using/personalization-data.md)
       + [Vista previa del mensaje transaccional](message-center/using/transactional-message-preview.md)
       + [Envío de una prueba](message-center/using/sending-a-proof.md)
-      + [Publicación de la plantilla](message-center/using/template-publication.md)
+      + [Publicación de plantilla](message-center/using/template-publication.md)
       + [Cancelación de publicación de una plantilla](message-center/using/template-unpublication.md)
    + Procesamiento de eventos {#event-processing}
       + [Acerca del procesamiento de eventos](message-center/using/about-event-processing.md)
@@ -600,14 +599,14 @@ ht-degree: 100%
       + [Historial de eventos del Centro de mensajería](message-center/using/history-of-message-center-events.md)
       + [Nivel del servicio del centro de mensajes](message-center/using/message-center-service-level.md)
       + [Tiempo de procesamiento del centro de mensajería](message-center/using/message-center-processing-time.md)
-   + Ejemplo de uso {#use-case}
+   + Caso de uso {#use-case}
       + [Envío de correos electrónicos transaccionales con datos adjuntos](message-center/using/transactional-email-with-attachments.md)
 + Integración con medios sociales {#integrating-with-social-media}
    + [Acerca del marketing social](social/using/about-social-marketing.md)
    + Configuración {#configuration}
       + [Inicio de flujos de trabajo](social/using/starting-workflows.md)
       + [Publicación en muros de Facebook](social/using/publishing-on-facebook-walls.md)
-      + [Creación de una aplicación de Facebook](social/using/creating-a-facebook-application.md)
+      + [Cree una aplicación de Facebook](social/using/creating-a-facebook-application.md)
       + [Configuración de publicaciones en Twitter](social/using/configuring-publishing-on-twitter.md)
    + Publicación en medios sociales {#publishing-on-facebook-twitter}
       + [Información general](social/using/overview.md)
