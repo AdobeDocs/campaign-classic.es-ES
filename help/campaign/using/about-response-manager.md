@@ -7,21 +7,18 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '438'
-ht-degree: 100%
+source-git-commit: dc3151a77350aa2b2acd989a57f5b489c1a98962
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 91%
 
 ---
 
-# Acerca del gestor de respuestas{#about-response-manager}
+# Introducción a Campaign Response Manager{#about-response-manager}
 
-## Objetivos {#objectives}
+Adobe Campaign ofrece un complemento de gestión de respuestas que le permite medir el éxito y la rentabilidad de las campañas de marketing u ofrecer propuestas a través de los canales de comunicación: correo electrónico, móvil, correo postal, etc.
 
-Adobe Campaign ofrece una aplicación de gestión de respuestas (Response Manager) que le permite medir el éxito y la rentabilidad de las campañas de marketing u ofrecer propuestas para todos los canales de comunicación (correo electrónico, móvil, teléfono, correo postal, fax, agencia, etc.).
-
-## Concepto de hipótesis {#hypothesis-concept}
+## Hipótesis {#hypothesis-concept}
 
 Las Hipótesis se pueden configurar en un periodo determinado desde la fecha de contacto para deducir el comportamiento de los usuarios después de recibir una entrega. Estas hipótesis se basan en una tabla de **transacción** que guarda compras y detalles de estas compras.
 
@@ -41,7 +38,7 @@ También puede calcular todas las reacciones de todo el hogar del destinatario q
 
 Cada hipótesis está vinculada a una única tabla de transacción. Una entrega u oferta se puede vincular a varias hipótesis.
 
-## Método {#method}
+## Pasos de implementación {#method}
 
 Antes de comenzar a utilizar el Gestor de respuestas, consulte [Configuration](../../campaign/using/configuration.md) y realice las configuraciones necesarias.
 
