@@ -1,23 +1,26 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Acerca de Distributed Marketing
-description: Acerca de Distributed Marketing
+title: Marketing distribuido de Campaign
+description: Introducción al marketing distribuido
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 exl-id: c166409b-e040-491e-840a-a41310935d75
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '1129'
-ht-degree: 100%
+source-git-commit: 42040c519a9430ff0529913c1d567e9315b1a95d
+workflow-type: tm+mt
+source-wordcount: '1132'
+ht-degree: 98%
 
 ---
 
-# Acerca de Distributed Marketing{#about-distributed-marketing}
+# Introducción a marketing distribuido{#about-distributed-marketing}
 
-## Introducción {#introduction}
+<!--
+>[!AVAILABILITY]
+>
+>:warning: This capability is not available in Campaign v8. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html)
+-->
 
 Adobe Campaign ofrece una aplicación de **Marketing distribuido** para implementar campañas cooperativas entre entidades centrales (sede central, Departamentos de Marketing, etc.) y entidades locales (puntos de ventas, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **[!UICONTROL list of campaign packages]**, donde las entidades locales pueden encontrar plantillas de campañas creadas de forma centralizada y diferentes instancias.
 
@@ -29,55 +32,55 @@ La entidad central proporciona campañas que entidades locales pueden utilizar. 
 
 ## Terminología {#terminology}
 
-### Entidades centrales {#central-entities}
+* **Entidades centrales**
 
-Las entidades centrales están formadas por operadores de marketing responsables de especificar comunicaciones y ayudar a las entidades locales a ejecutar su campaña de marketing.
+   Las entidades centrales están formadas por operadores de marketing responsables de especificar comunicaciones y ayudar a las entidades locales a ejecutar su campaña de marketing.
 
-El módulo de Distributed Marketing permite que la entidad central:
+   El módulo de Distributed Marketing permite que la entidad central:
 
-* configure paquetes de campañas de marketing para entidades locales,
-* aumente el grado de autonomía de las entidades locales respecto a la elección de la comunicación para clientes o posibles clientes, así como su segmentación, contenido, etc.
-* administre y controle los costes,
-* gestione una red de agencias.
+   * configure paquetes de campañas de marketing para entidades locales,
+   * aumente el grado de autonomía de las entidades locales respecto a la elección de la comunicación para clientes o posibles clientes, así como su segmentación, contenido, etc.
+   * administre y controle los costes,
+   * gestione una red de agencias.
 
-### Entidades locales {#local-entities}
+* **Entidades locales**
 
-Las entidades locales pueden ser agencias, tiendas o grupos de operadores locales específicos (directores de país o región, administradores de marcas, etc.).
+   Las entidades locales pueden ser agencias, tiendas o grupos de operadores locales específicos (directores de país o región, administradores de marcas, etc.).
 
-Distributed Marketing permite que las entidades locales tengan más autonomía al optimizar los costes de ejecución.
+   Distributed Marketing permite que las entidades locales tengan más autonomía al optimizar los costes de ejecución.
 
-### Localización {#localization}
+* **Localización**
 
-La localización es la capacidad de una entidad local para modificar los destinatarios y el contenido de una campaña. El nivel de localización posible depende del tipo de campaña y de su implementación.
+   La localización es la capacidad de una entidad local para modificar los destinatarios y el contenido de una campaña. El nivel de localización posible depende del tipo de campaña y de su implementación.
 
-### Lista de paquetes de campañas {#list-of-campaign-packages}
+* **Lista de paquetes de campañas**
 
-La lista de paquetes de campañas contiene las campañas disponibles para las entidades locales.
+   La lista de paquetes de campañas contiene las campañas disponibles para las entidades locales.
 
-### Paquete de campañas {#campaign-package}
+* **Paquete de campañas**
 
-Plantilla (o instancia de campaña) creada por una entidad central y disponible para un conjunto de entidades locales.
+   Plantilla (o instancia de campaña) creada por una entidad central y disponible para un conjunto de entidades locales.
 
-### Campaña local {#local-campaign}
+* **Campaña local**
 
-Una campaña local es una instancia creada a partir de una plantilla a la que se hace referencia en la lista de **[!UICONTROL campaign packages]** con una **programación de ejecución determinada**. Su objetivo es utilizar una comunicación local mediante una plantilla de campaña configurada por la entidad central.
+   Una campaña local es una instancia creada a partir de una plantilla a la que se hace referencia en la lista de **[!UICONTROL campaign packages]** con una **programación de ejecución determinada**. Su objetivo es utilizar una comunicación local mediante una plantilla de campaña configurada por la entidad central.
 
-El grado de autonomía de la entidad local depende de la implementación utilizada.
+   El grado de autonomía de la entidad local depende de la implementación utilizada.
 
-Consulte [Creación de una campaña local](../../campaign/using/creating-a-local-campaign.md).
+   Consulte [Creación de una campaña local](../../campaign/using/creating-a-local-campaign.md).
 
-### Campaña de colaboración {#collaborative-campaign}
+* **Campaña de colaboración**
 
-Una campaña de colaboración es aquella que pueden utilizar las entidades locales y cuya **programación de ejecución** queda a cargo de la entidad central. El contenido es el mismo para cada entidad local pero se comparten los costes. Para participar, las entidades locales deben suscribirse a la campaña de colaboración.
+   Una campaña de colaboración es aquella que pueden utilizar las entidades locales y cuya **programación de ejecución** queda a cargo de la entidad central. El contenido es el mismo para cada entidad local pero se comparten los costes. Para participar, las entidades locales deben suscribirse a la campaña de colaboración.
 
-* **[!UICONTROL Collaborative campaign (by form)]**: recomendado para campañas que impliquen hasta 300 entidades locales. La entidad local puede escribir los parámetros predefinidos para la personalización del contenido y los objetivos en un formulario web. El formulario puede ser un formulario de Adobe Campaign o un formulario externo (cliente de extranet). Un administrador funcional puede definir y configurar el formulario basado en una plantilla de formulario definida por el integrador. Para solicitar la campaña, la entidad local solo necesita tener acceso a la web.
-* **[!UICONTROL Collaborative campaign (by campaign)]**: recomendado para campañas destinadas a decenas de entidades locales. Este tipo de campaña crea campañas secundarias para cada entidad local. Una vez que la entidad central aprueba la **[!UICONTROL collaborative campaign (by campaign)]**, la campaña está disponible para la entidad local, que puede modificarla. La ejecución se realiza automáticamente entre las campañas principales y secundarias. La entidad local debe tener acceso a una instancia para solicitar una campaña y participar en ella.
-* **[!UICONTROL Collaborative campaign (by target approval)]**: recomendado para campañas destinadas a miles de entidades locales. La entidad local recibe una lista de contactos predefinida por la entidad central. La entidad local decide si se deben o no conservar ciertos contactos según el contenido de la campaña, a través de un formulario web. Las entidades locales se obtienen de la lista de contactos seleccionados. Para participar en la campaña, la entidad local solo necesita tener acceso a la web.
-* **[!UICONTROL Collaborative campaign (simple)]**: este modo garantiza la compatibilidad con los procesos de ejecución específicos de versiones anteriores.
+   * **[!UICONTROL Collaborative campaign (by form)]**: recomendado para campañas que impliquen hasta 300 entidades locales. La entidad local puede escribir los parámetros predefinidos para la personalización del contenido y los objetivos en un formulario web. El formulario puede ser un formulario de Adobe Campaign o un formulario externo (cliente de extranet). Un administrador funcional puede definir y configurar el formulario basado en una plantilla de formulario definida por el integrador. Para solicitar la campaña, la entidad local solo necesita tener acceso a la web.
+   * **[!UICONTROL Collaborative campaign (by campaign)]**: recomendado para campañas destinadas a decenas de entidades locales. Este tipo de campaña crea campañas secundarias para cada entidad local. Una vez que la entidad central aprueba la **[!UICONTROL collaborative campaign (by campaign)]**, la campaña está disponible para la entidad local, que puede modificarla. La ejecución se realiza automáticamente entre las campañas principales y secundarias. La entidad local debe tener acceso a una instancia para solicitar una campaña y participar en ella.
+   * **[!UICONTROL Collaborative campaign (by target approval)]**: recomendado para campañas destinadas a miles de entidades locales. La entidad local recibe una lista de contactos predefinida por la entidad central. La entidad local decide si se deben o no conservar ciertos contactos según el contenido de la campaña, a través de un formulario web. Las entidades locales se obtienen de la lista de contactos seleccionados. Para participar en la campaña, la entidad local solo necesita tener acceso a la web.
+   * **[!UICONTROL Collaborative campaign (simple)]**: este modo garantiza la compatibilidad con los procesos de ejecución específicos de versiones anteriores.
 
-Consulte [Creación de una campaña de colaboración](../../campaign/using/creating-a-collaborative-campaign.md).
+   Consulte [Creación de una campaña de colaboración](../../campaign/using/creating-a-collaborative-campaign.md).
 
-### Solicitud de paquetes de campaña {#ordering-campaign-packages}
+**Solicitud de paquetes de campaña**
 
 Si una entidad local se registra para una campaña, esto se convierte en una solicitud que reagrupa toda la información relativa a la localización de la campaña.
 
@@ -129,7 +132,7 @@ La entidad central es la encargada de crear y publicar las campañas de Distribu
 
 El procedimiento de implementación depende del tipo de paquete de campaña utilizado y de los niveles de delegación de entidades locales.
 
-### Lado integrador {#integrator-side}
+### Tareas integradoras {#integrator-side}
 
 1. Cree entidades locales.
 1. Vincule los destinatarios con los operadores que administran las entidades locales.
@@ -148,7 +151,7 @@ El procedimiento de implementación depende del tipo de paquete de campaña util
 
    Para **las campañas colaborativas (por aprobación de objetivo)**, cree la tabla donde se guardarán las aprobaciones de cada entidad local.
 
-### Lado funcional del administrador {#functional-administrator-side}
+### Tareas funcionales de administrador {#functional-administrator-side}
 
 Estos pasos deben llevarse a cabo al crear cada campaña.
 
@@ -157,7 +160,7 @@ Estos pasos deben llevarse a cabo al crear cada campaña.
 1. Configure la campaña con los campos de localización y la referencia de formulario.
 1. Publique la campaña.
 
-### Lado del operador local {#local-operator-side}
+### Tareas del operador local {#local-operator-side}
 
 Estos pasos deben llevarse a cabo para cada campaña.
 
