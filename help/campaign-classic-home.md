@@ -2,13 +2,12 @@
 keywords: Campaign Classic, inicio, temas populares
 solution: Campaign Classic
 product: campaign
-title: Documentación del producto Adobe Campaign Classic
+title: Documentación del producto de Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-translation-type: ht
-source-git-commit: 9260b467119475e9e0352b6e521d6f2ca426165c
-workflow-type: ht
-source-wordcount: '288'
-ht-degree: 100%
+source-git-commit: 42040c519a9430ff0529913c1d567e9315b1a95d
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 97%
 
 ---
 
