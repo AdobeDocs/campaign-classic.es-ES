@@ -7,11 +7,10 @@ feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
-translation-type: tm+mt
 source-git-commit: 69f6fcd21b27f095781bca4a62153086382f3d7f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -273,7 +272,7 @@ Adobe Campaign Classic es compatible con todos los sistemas y herramientas enume
 
 ## Consola del cliente {#ClientConsoleoperatingsystems}
 
-:advertencia: Se requieren los siguientes sistemas operativos y exploradores para utilizar la Consola de cliente de Campaign.
+:advertencia: Se requieren los siguientes sistemas operativos y exploradores para utilizar la Consola del cliente de Campaign.
 
 ### Sistemas operativos
 
@@ -311,7 +310,7 @@ Adobe Campaign Classic es compatible con todos los sistemas y herramientas enume
 </tbody>
 </table>
 
-## Mobile SDK{#MobileSDK}
+## SDK móvil{#MobileSDK}
 
 <table>
 <tbody>
@@ -381,9 +380,9 @@ Los siguientes exploradores son compatibles con Campaign for Web Access.
 </tbody>
 </table>
 
-## Más parecido a esto{#Morelikethis-gs}
+## Páginas similares{#Morelikethis-gs}
 
 * [Notas de la versión de Campaign Classic](../../rn/using/latest-release.md)
 * [Guía de instalación](../../installation/using/general-architecture.md)
 * [Funcionalidades y sistemas obsoletos](../../rn/using/deprecated-features.md)
-* [Generar procedimiento de actualización](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html)
+* [Procedimiento de actualización de la versión](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html)
