@@ -7,11 +7,10 @@ feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-translation-type: tm+mt
 source-git-commit: 69f6fcd21b27f095781bca4a62153086382f3d7f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '554'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -180,7 +179,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <tr>
 <td>Conector de Microsoft Dynamics</td>
 <td>
-<p>API web: Dynamics 365 On-premise y en línea</p>
+<p>API web: Dynamics 365 On-Premise y en línea</p>
 </td>
 </tr>
 </tbody>
@@ -277,7 +276,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 
 ## Consola del cliente {#ClientConsoleoperatingsystems}
 
-:advertencia: Se requieren los siguientes sistemas operativos y exploradores para utilizar la Consola de cliente de Campaign.
+:advertencia: Se requieren los siguientes sistemas operativos y exploradores para utilizar la Consola del cliente de Campaign.
 
 ### Sistemas operativos
 
@@ -316,7 +315,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 </table>
 
 
-## Mobile SDK{#MobileSDK}
+## SDK móvil{#MobileSDK}
 
 <table>
 <tbody>
@@ -387,9 +386,9 @@ Los siguientes exploradores son compatibles con Campaign for Web Access.
 </table>
 
 
-## Más parecido a esto{#Morelikethis}
+## Páginas similares{#Morelikethis}
 
 * [Notas de la versión de Campaign Classic](../../rn/using/latest-release.md)
 * [Guía de instalación](../../installation/using/general-architecture.md)
 * [Funcionalidades y sistemas obsoletos](../../rn/using/deprecated-features.md)
-* [Generar procedimiento de actualización](../../production/using/build-upgrade.md)
+* [Procedimiento de actualización de la versión](../../production/using/build-upgrade.md)
