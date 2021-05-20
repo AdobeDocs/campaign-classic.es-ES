@@ -7,11 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
-translation-type: tm+mt
 source-git-commit: 2c275751ab86e98652820bf461c617442480c725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -110,6 +109,6 @@ Para obtener más información acerca de [!DNL Gold Standard], consulte [este ar
 
 **Temas relacionados**:
 
-* [Consulte las opciones de ayuda y asistencia técnica de Adobe Campaign](../../support.md)
+* [Opciones de ayuda y asistencia técnica de Adobe Campaign](../../support.md)
 * [Distribución de software de Adobe Campaign](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
 * [Sesiones de expertos y de asistencia de Adobe Experience Cloud](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
