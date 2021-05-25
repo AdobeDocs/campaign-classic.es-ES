@@ -7,25 +7,26 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-translation-type: tm+mt
-source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
+source-git-commit: 3413a54b1f45d23dcec9bf363bcf714a94642245
 workflow-type: tm+mt
-source-wordcount: '3927'
+source-wordcount: '3941'
 ht-degree: 3%
 
 ---
 
 # Lista de opciones de Campaign Classic{#configuring-campaign-options}
 
-El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar las opciones de Adobe Campaign.
+El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar las opciones de Adobe Campaign. Algunos de ellos están integrados al instalar Campaign, mientras que otros se pueden agregar manualmente cuando sea necesario. Las opciones disponibles varían según los paquetes instalados con la instancia.
 
->[!NOTE]
+>[!CAUTION]
 >
->La modificación o actualización de las opciones de Adobe Campaign solo pueden realizarla usuarios expertos.
+>* Las opciones que no aparecen en esta página son solo internas y **no se deben modificar**.
+   >
+   >
+* La modificación o actualización de las opciones de Adobe Campaign solo pueden realizarla usuarios expertos.
 
-Algunos de ellos están integrados al instalar Campaign, mientras que otros se pueden agregar manualmente cuando sea necesario. Las opciones disponibles varían según los paquetes instalados con la instancia.
 
-## Entrega {#delivery}
+## Envío {#delivery}
 
 <table> 
  <thead> 
