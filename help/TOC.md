@@ -8,17 +8,17 @@ user-guide-description: Diseñe, planifique, ejecute, administre y optimice camp
 solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
-source-git-commit: 0bb3e853299c3ce0dc1bcbc2fd8a0bd4ef110bee
+source-git-commit: a9a32b383d4709d9f0adf1e886d2ec3a9d601652
 workflow-type: tm+mt
-source-wordcount: '2521'
+source-wordcount: '2522'
 ht-degree: 99%
 
 ---
 
 
-# Guía de Adobe Campaign Classic v7 {#using}
+# Documentación de Adobe Campaign Classic v7 {#using}
 
-+ [Documentación del producto](campaign-classic-home.md)
++ [Documentación de Campaign v7](campaign-classic-home.md)
 + [Últimas actualizaciones](rn/using/documentation-updates.md)
 + Notas de la versión {#release-notes}
    + [Introducción a las actualizaciones](rn/using/rn-overview.md)
