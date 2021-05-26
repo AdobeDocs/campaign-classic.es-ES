@@ -7,10 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
-translation-type: tm+mt
-source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
 workflow-type: tm+mt
-source-wordcount: '1580'
+source-wordcount: '1578'
 ht-degree: 2%
 
 ---
@@ -27,7 +26,7 @@ Para implementaciones **alojadas**, la configuración del lado del servidor solo
 
 Para obtener más información, consulte estas secciones:
 
-* [Documentación del Panel de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html)
+* [Documentación del Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es)
 * [Modelos de alojamiento](../../installation/using/hosting-models.md)
 * [Matriz de capacidades alojadas y locales del Campaign Classic](../../installation/using/capability-matrix.md)
 
