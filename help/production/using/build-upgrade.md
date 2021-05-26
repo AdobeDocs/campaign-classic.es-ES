@@ -6,14 +6,13 @@ description: Conozca los pasos clave para actualizar a una nueva versión
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-translation-type: tm+mt
-source-git-commit: 7b1e6dd00943e10dff693d78b3aa7cf2ad3e6727
+exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2353'
 ht-degree: 4%
 
 ---
-
 
 # Realización de una actualización de versión{#performing-a-build-upgrade}
 
@@ -84,7 +83,7 @@ Antes de iniciar la actualización de la compilación, los clientes locales debe
 
 1. Obtenga la última versión de su [archivo de configuración del servidor](../../installation/using/the-server-configuration-file.md).
 
-1. [Descargue la última versión](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html). [Más información](https://docs.adobe.com/content/help/es-ES/experience-cloud/software-distribution/home.html).
+1. [Descargue la última versión](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). [Más información](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es).
 
 También necesita conocer todas las [líneas de comandos útiles](../../installation/using/command-lines.md) antes de iniciar una actualización de compilación:
 
@@ -226,7 +225,7 @@ Cuando la mensajería transaccional (centro de mensajes) está habilitada en la 
 1. Ejecute los scripts posteriores a la actualización.
 1. Ejecute pruebas y asegúrese de que los correos electrónicos se reciben correctamente a través de la instancia de producción del Centro de mensajes.
 1. Actualice los clientes y borre la caché.
-1. Exportar paquetes:
+1. Exportación de paquetes:
    * Exportación de paquetes mediante la herramienta de exportación de paquetes de cliente
    * Importar paquete de esquema
    * Desconecte y vuelva a conectar el cliente
@@ -415,4 +414,4 @@ Estos son los pasos para realizar una combinación compleja:
 * [Preguntas frecuentes sobre la actualización de versiones](../../platform/using/faq-build-upgrade.md)
 * [Notas de la versión de Campaign Classic ](../../rn/using/rn-overview.md)
 * [Opciones de ayuda y asistencia para Campaign Classic](../../support.md)
-* [[!DNL Gold Standard] programa](../../rn/using/gs-overview.md)
+* [Programa de [!DNL Gold Standard]](../../rn/using/gs-overview.md)
