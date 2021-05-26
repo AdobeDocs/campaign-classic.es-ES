@@ -7,11 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '1816'
-ht-degree: 100%
+source-git-commit: 214838cabeaec082080b3378f7eba837b8af89ad
+workflow-type: tm+mt
+source-wordcount: '1818'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +33,7 @@ Para obtener más información sobre la supervisión de flujos de trabajo técni
 | Flujo de trabajo técnico | Paquete | Descripción |
 |------|--------|-----------|
 | **Limpieza de alias** (aliasCleansing) | Envío | Este flujo de trabajo estandariza los valores de enumeración. Se activa cada día a la 3 de la mañana de forma predeterminada. |
-| **Facturación** (facturación) | Envío | Este flujo de trabajo envía el informe de actividad del sistema al operador “facturación” por correo electrónico. De forma predeterminada, se activa el día 25 de cada mes. |
+| **Facturación** (facturación) | Envío | Este flujo de trabajo envía el informe de actividad del sistema al operador “facturación” por correo electrónico. Se activa el día 25 de cada mes en la instancia de Marketing. |
 | **Cálculo de las estadísticas de Twitter** (statsTwitter) | Redes sociales (Marketing social) | Este flujo de trabajo calcula las estadísticas vinculadas a los retweets y las visitas en Twitter. |
 | **Trabajos de Campaign** (operationMgt) | Campañas de marketing (Campaign) | Este flujo de trabajo administra los trabajos de las campañas de marketing (inicia la segmentación, la extracción de archivos, etc.). También crea flujos de trabajo relacionados con campañas recurrentes y periódicas. |
 | **Recopilación de datos para el servicio HeatMap** (collectDataHeatMapService) | Instalado de forma predeterminada | Este flujo de trabajo recupera los datos requeridos por el servicio HeatMap. |
