@@ -7,9 +7,9 @@ feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 3413a54b1f45d23dcec9bf363bcf714a94642245
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
 workflow-type: tm+mt
-source-wordcount: '4369'
+source-wordcount: '4367'
 ht-degree: 98%
 
 ---
@@ -441,7 +441,7 @@ La sección Administración de acceso se ha actualizado con el **Derecho de dato
 
 Se agregó información para especificar que el contenido de los campos de personalización no puede exceder los 1024 caracteres. [Más información](../../delivery/using/personalization-fields.md)
 
-La documentación del Panel de control se ha integrado en el nuevo conjunto de documentos de colaboración. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html)
+La documentación del Panel de control se ha integrado en el nuevo conjunto de documentos de colaboración. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es)
 
 Se ha actualizado la guía de introducción a las prácticas recomendadas de entrega. [Más información](../../delivery/using/delivery-best-practices.md)
 
@@ -477,7 +477,7 @@ Se han actualizado las prácticas recomendadas para mejorar el rendimiento de lo
 
 **Nuevas funciones incluidas en la versión 19.1**
 
-Panel de control: [Más información](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+Panel de control: [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html)
 
 Pista de auditoría: [Más información](../../production/using/audit-trail.md)
 
