@@ -7,11 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '603'
-ht-degree: 100%
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '541'
+ht-degree: 92%
 
 ---
 
@@ -21,13 +20,11 @@ Adobe Campaign permite exportar archivos comprimidos o cifrados. Al definir una 
 
 Para poder hacerlo:
 
-1. Instale un par de claves GPG para su instancia mediante el [Panel de control de Campaign](https://docs.adobe.com/content/help/es/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
+1. Instale un par de claves GPG para su instancia mediante el [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=en#encrypting-data).
 
    >[!NOTE]
    >
-   >Todos los usuarios administradores pueden acceder al Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
-   >
-   >Tenga en cuenta que la instancia debe alojarse en AWS y actualizarse con la última versión de [Gold Standard](../../rn/using/gs-overview.md) o la [última versión de GA (21.1)](../../rn/using/latest-release.md). Aprenda a comprobar su versión en [esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es).
+   >El Panel de control de Campaign está restringido a los usuarios administradores y solo está disponible para determinadas versiones de Campaign. [Obtenga más información](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html)
 
 1. Si Adobe aloja la instalación de Adobe Campaign, contacte con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para que instalen las herramientas necesarias en el servidor.
 1. Si la instalación de Adobe Campaign está in situ: instale la utilidad que desee utilizar (por ejemplo: GPG, GZIP) así como las claves necesarias (clave de cifrado) en el servidor de aplicaciones.
@@ -36,7 +33,7 @@ A continuación, puede utilizar comandos o código en la pestaña **[!UICONTROL 
 
 **Temas relacionados:**
 
-* [Descompresión o descifrado de un archivo antes de procesarlo](../../platform/using/unzip-decrypt.md)
+* [Descompresióno descrifrado de un archivo antes de procesarlo](../../platform/using/unzip-decrypt.md)
 * [Actividad de extracción de datos (archivo)](../../workflow/using/extraction--file-.md).
 
 ## Caso de uso: cifrado y exportación de datos con una clave instalada en el Panel de control de Campaign {#use-case-gpg-encrypt}
@@ -47,7 +44,7 @@ En este caso de uso, crearemos un flujo de trabajo para codificar y exportar los
 
 Los pasos para realizar este caso de uso son los siguientes:
 
-1. genere un par de claves GPG (públicas/privadas) utilizando una utilidad GPG, luego instale la clave pública en Panel de control de Campaign. Encontrará los pasos detallados en la documentación [del](https://docs.adobe.com/content/help/es-ES/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data) Panel de control de Campaign.
+1. genere un par de claves GPG (públicas/privadas) utilizando una utilidad GPG, luego instale la clave pública en Panel de control de Campaign. Encontrará los pasos detallados en la documentación [del](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=en#encrypting-data) Panel de control de Campaign.
 
 1. En Campaign Classic, genere un flujo de trabajo para exportar los datos y cifrarlos con la clave privada que se ha instalado mediante el Panel de control de Campaign. Para ello, crearemos un flujo de trabajo de la siguiente manera:
 
@@ -88,7 +85,7 @@ Los pasos para realizar este caso de uso son los siguientes:
 
 1. Ahora puede ejecutar el flujo de trabajo. Una vez ejecutado, el destinatario de datos de la consulta se exportará al servidor SFTP en un archivo .gpg cifrado.
 
-## Videotutorial {#video}
+## Tutorial en vídeo {#video}
 
 Este vídeo muestra cómo utilizar una clave GPG para cifrar datos y también está disponible en
 
