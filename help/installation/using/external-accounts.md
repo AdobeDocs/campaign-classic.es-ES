@@ -7,11 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-translation-type: tm+mt
-source-git-commit: 37802e52f1d1d38d9c3d59c439f23114a594bfef
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
 workflow-type: tm+mt
-source-wordcount: '1543'
-ht-degree: 80%
+source-wordcount: '1541'
+ht-degree: 78%
 
 ---
 
@@ -21,7 +20,7 @@ Adobe Campaign viene con un conjunto de cuentas externas predefinidas. Para conf
 
 Los procesos técnicos utilizan las cuentas externas como flujos de trabajo técnicos o flujos de trabajo de campaña. Por ejemplo, al configurar una transferencia de archivos en un flujo de trabajo o un intercambio de datos con cualquier otra aplicación (Adobe Target, Experience Manager, etc.), debe seleccionar una cuenta externa.
 
-## Crear una cuenta externa {#creating-an-external-account}
+## Creación de una cuenta externa {#creating-an-external-account}
 
 Para crear una nueva cuenta externa, siga los pasos a continuación. La configuración detallada depende del tipo de cuenta externa.
 
@@ -87,7 +86,7 @@ Se pueden configurar los siguientes canales:
 * [Correo electrónico](../../installation/using/deploying-an-instance.md#email-channel-parameters)
 * [Móvil (SMS)](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)
 * [Teléfono](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
-* [Correo postal](../../delivery/using/about-direct-mail-channel.md)
+* [Correo directo](../../delivery/using/about-direct-mail-channel.md)
 * [Agencia](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [Facebook](../../social/using/publishing-on-facebook-walls.md#delegating-write-access-to-adobe-campaign)
 * [Twitter](../../social/using/configuring-publishing-on-twitter.md)
@@ -189,7 +188,7 @@ La configuración de cuentas externas depende del motor de la base de datos. Obt
 * Configuración del acceso a [Sybase IQ](../../installation/using/configure-fda-sybase.md)
 * Configuración del acceso al [Teradata](../../installation/using/configure-fda-teradata.md)
 
-### Conexión de Facebook {#facebook-connect-external-account}
+### Conexión de facebook {#facebook-connect-external-account}
 
 La cuenta externa de **[!UICONTROL Facebook Connect]** permite mostrar contenido personalizado en las aplicaciones de Facebook, lo que facilita la adquisición de clientes potenciales mediante esta red social.
 
@@ -243,7 +242,7 @@ Para conectarse a la consola de Adobe Campaign mediante un Adobe ID, debe config
 
 * **[!UICONTROL IMS organization ID]**
 
-   ID de la organización IMS Para encontrar su ID de la organización, consulte [esta página](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/faq.html) (**¿Dónde puedo encontrar mi ID de organización IMS?**).
+   ID de la organización IMS Para encontrar su ID de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html) (**Dónde puedo encontrar mi ID de organización de IMS?**).
 
 * **[!UICONTROL Association mask]**
 
@@ -257,7 +256,7 @@ Para conectarse a la consola de Adobe Campaign mediante un Adobe ID, debe config
 
    Nombre su inquilino de Adobe Experience Cloud.
 
-Para obtener más información sobre esta configuración, consulte esta [página](../../integrations/using/configuring-ims.md).
+Para obtener más información sobre esta configuración, consulte [esta página](../../integrations/using/configuring-ims.md).
 
 ## Web Analytics {#web-analytics-external-account}
 
