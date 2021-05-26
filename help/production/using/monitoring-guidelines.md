@@ -7,11 +7,10 @@ audience: production
 content-type: reference
 topic-tags: introduction
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
-translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 20%
+source-wordcount: '768'
+ht-degree: 27%
 
 ---
 
@@ -52,13 +51,13 @@ La pista de auditoría permite visualizar el historial completo de cambios relac
 
 **Panel de control de Campaign**
 
-El Panel de control de Campaign le permite administrar varias configuraciones de su instancia: administre permisos de URL, compruebe los detalles de su instancia como las versiones de compilación de sus servidores, etc. También le permite supervisar el espacio disponible en los servidores SFTP conectados a su instancia. [Haga clic aquí](https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html) para obtener más información.
+El Panel de control de Campaign le permite administrar varias configuraciones de su instancia: administre permisos de URL, compruebe los detalles de su instancia como las versiones de compilación de sus servidores, etc. También le permite supervisar el espacio disponible en los servidores SFTP conectados a su instancia. [Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es) para obtener más información.
 
 >[!NOTE]
 >
 >Todos los usuarios administradores pueden acceder al Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 >
->Tenga en cuenta que la instancia debe alojarse en AWS y actualizarse con la última versión de [Gold Standard](../../rn/using/gs-overview.md) o la [última versión de GA (21.1)](../../rn/using/latest-release.md). Aprenda a comprobar su versión en [esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
+>Tenga en cuenta que la instancia debe alojarse en AWS y actualizarse con la última versión de [Gold Standard](../../rn/using/gs-overview.md) o la [última versión de GA (21.1)](../../rn/using/latest-release.md). Aprenda a comprobar su versión en [esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es).
 
 ### Monitorización de flujos de trabajo {#monitoring-workflows}
 
