@@ -7,10 +7,9 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '567'
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '508'
 ht-degree: 100%
 
 ---
@@ -28,7 +27,7 @@ Esta sección detalla los pasos de configuración necesarios en Adobe Campaign p
 
 >[!NOTE]
 >
->Si se instalan los dos paquetes (**[!UICONTROL AEM Integration]** y **[!UICONTROL Integration with the Adobe Experience Cloud]**), solo se podrán utilizar los activos disponibles en la biblioteca de Adobe Experience Cloud. Para acceder también a los recursos de la biblioteca AEM Assets, se deben sincronizar AEM Assets y Adobe Experience Cloud. Los recursos de AEM Assets también están disponibles en la biblioteca de Adobe Experience Cloud. Para obtener más información sobre la sincronización de AEM Assets y Adobe Experience Cloud, consulte la [documentación detallada](https://docs.adobe.com/docs/en/aod/overview/collaborating/aem-assets-aod-sync.html).
+>Si se instalan los dos paquetes (**[!UICONTROL AEM Integration]** y **[!UICONTROL Integration with the Adobe Experience Cloud]**), solo se podrán utilizar los activos disponibles en la biblioteca de Adobe Experience Cloud.
 
 ## Integración con Experience Cloud Assets {#integrating-with-experience-cloud-assets}
 
