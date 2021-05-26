@@ -7,11 +7,10 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '1153'
-ht-degree: 100%
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '1131'
+ht-degree: 96%
 
 ---
 
@@ -139,15 +138,15 @@ Mediante la creación de un flujo de trabajo de entrega en Campaign Standard, es
 
 ## Realización y monitorización de su entrega {#send-and-monitor-your-delivery}
 
-Una vez que la entrega y el contenido estén listos, realice la entrega tal y como se describe más detalladamente en [esta sección](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html):
+Una vez que la entrega y el contenido estén listos, realice la entrega:
 
 1. Ejecute el flujo de trabajo de entrega. Este paso prepara la entrega del correo electrónico.
 1. En el panel de entrega, confirme manualmente que la entrega se puede realizar.
 1. Monitorice los informes y “logs” de entrega
 
-   * **En Campaign Standard**: Aceda a [informes](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html) y [registros](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html) relacionados a la entrega como para cualquier entrega.
+   * **En Campaign Standard**: Aceda a [informes](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html) y [registros](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html) relacionados a la entrega como para cualquier entrega.
    * **en Campaign v7 y Campaign Standard**: Las ID de entrega, los registros generales de correo electrónico y los registros de seguimiento de correo electrónico se sincronizan con Campaign v7. A continuación, puede obtener una visualización a 360 grados de sus campañas de marketing desde Campaign v7.
 
       Las cuarentenas se sincronizan automáticamente con Campaign v7. Esto permite tener en cuenta la información que no se debe enviar de cara a la siguiente actividad de objetivos realizada en Campaign v7.
 
-      Puede encontrar más información sobre la administración de la cuarentena en Campaign Standard en [esta sección](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
+      Puede encontrar más información sobre la administración de la cuarentena en Campaign Standard en [esta sección](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en).
