@@ -7,11 +7,10 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '1990'
-ht-degree: 100%
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '1988'
+ht-degree: 99%
 
 ---
 
@@ -85,7 +84,7 @@ La duplicación de ID de entregas y “logs” de correo electrónico permite ac
 
 El conector ACS sincroniza cuarentenas entre Campaign v7 y Campaign Standard.
 
-Por ejemplo, un perfil que se ha duplicado de Campaign v7 a Campaign Standard incluye una dirección de correo electrónico. Si la dirección de correo electrónico está en cuarentena en Campaign Standard, los datos se pasan a Campaign v7 durante la siguiente sincronización. Para obtener más información sobre las cuarentenas, consulte [Administración de cuarentenas](../../delivery/using/understanding-quarantine-management.md) y [Cuarentenas de Campaign Standard](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
+Por ejemplo, un perfil que se ha duplicado de Campaign v7 a Campaign Standard incluye una dirección de correo electrónico. Si la dirección de correo electrónico está en cuarentena en Campaign Standard, los datos se pasan a Campaign v7 durante la siguiente sincronización. Para obtener más información sobre las cuarentenas, consulte [Administración de cuarentenas](../../delivery/using/understanding-quarantine-management.md) y [Cuarentenas de Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
 
 ### Uso de perfiles duplicados {#using-replicated-profiles}
 
