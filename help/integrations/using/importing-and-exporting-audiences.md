@@ -7,11 +7,10 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: c2293fc5-c9ba-4a73-8f39-fa7cdd06e8dd
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '629'
-ht-degree: 100%
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '628'
+ht-degree: 95%
 
 ---
 
@@ -47,7 +46,7 @@ El proceso de importación tarda en sincronizarse de 24 a 36 horas cuando los se
 >
 >Si se están importando audiencias de Adobe Analytics a Adobe Campaign, dichas audiencias deben compartirse primero en el servicio principal Personas o en Audience Manager. Este proceso tarda de 12 a 24 horas, que se deben añadir a la sincronización de 24 a 36 horas con Campaign.
 >
->En ese caso específico, el tiempo que tarda en compartirse la audiencia puede alcanzar las 60 horas. Para obtener más información sobre el uso compartido de las audiencias de Adobe Analytics en el servicio principal Personas y Audience Manager, consulte esta [documentación](https://docs.adobe.com/content/help/es-ES/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
+>En ese caso específico, el tiempo que tarda en compartirse la audiencia puede alcanzar las 60 horas. Para obtener más información sobre el uso compartido de audiencias de Adobe Analytics en el servicio principal People y Audience Manager, consulte la [documentación de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
 
 Los datos de audiencias se sustituyen por completo cada vez que se sincronizan. Solo se pueden importar segmentos. No se admiten datos granulares, lo que incluye pares de valor clave, características y reglas.
 
