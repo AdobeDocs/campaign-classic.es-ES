@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
-source-git-commit: 42040c519a9430ff0529913c1d567e9315b1a95d
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 100%
+source-wordcount: '483'
+ht-degree: 98%
 
 ---
 
@@ -89,6 +89,5 @@ Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí]
 
 * [Aplicar reglas comerciales automáticas a las entregas en cualquier canal](https://helpx.adobe.com/es/campaign/kb/simplifying-campaign-management-acc.html#Applyautomaticbusinessrulestodeliveriesonanychannel)
 
-* [Acerca de las tipologías de campaña](../../campaign/using/pressure-rules.md)
+* [Introducción a la administración de tipologías y fatiga](../../campaign/using/pressure-rules.md)
 
-* [Administración de la fatiga comercial con reglas de presión](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)
