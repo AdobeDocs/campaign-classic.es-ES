@@ -7,11 +7,10 @@ feature: Perfiles, Audiencias
 role: Business Practitioner, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
-translation-type: ht
-source-git-commit: c733b68a06fba9bb24cd1c1995ffc99a1277be87
-workflow-type: ht
-source-wordcount: '906'
-ht-degree: 100%
+source-git-commit: 214838cabeaec082080b3378f7eba837b8af89ad
+workflow-type: tm+mt
+source-wordcount: '899'
+ht-degree: 93%
 
 ---
 
@@ -91,10 +90,6 @@ El diseño general del explorador de Adobe Campaign se presenta en [esta página
 
 Los perfiles activos son los perfiles que se toman en cuenta con fines de facturación.
 
-Tenga en cuenta que el recuento de perfiles principales solo está disponible para las **instancias de marketing**. No está disponible para Instancias de ejecución; es decir, instancias de MID (fuentes intermedias) y RT (mensajería en tiempo real/centro de mensajes).
-
-Si está alojado en AWS, también puede monitorizar el número de perfiles activos utilizados en las instancias directamente desde el Panel de control de Campaign. Para obtener más información, consulte la [documentación del Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=es#performance-monitoring).
-
 La facturación solo abarca los perfiles que están **activos**. Un perfil se considera activo si este se ha identificado o comunicado en los últimos 12 meses a través de cualquier canal.
 
 Los perfiles que se excluyen durante la preparación de la entrega (reglas de tipología, cuarentena) no se tienen en cuenta. Un perfil identificado por varios envíos solo se contará una vez.
@@ -103,7 +98,13 @@ Los perfiles que se excluyen durante la preparación de la entrega (reglas de ti
 >
 >Los canales de Facebook y Twitter no se tienen en cuenta.
 
-Puede obtener una descripción general del **[!UICONTROL Number of active profiles]** en el menú Campaign **[!UICONTROL Administration > Campaign Management > Customer metrics]**. El recuento real lo lleva a cabo el **[!UICONTROL Number of active billing profiles]** (**[!UICONTROL billingActiveContactCount]**) [flujo de trabajo ](../../workflow/using/about-technical-workflows.md), que se ejecuta todos los días y añade nuevos datos al informe existente del periodo actual en el menú **[!UICONTROL Customer metrics]** Cada periodo dura 12 meses.
+Desde el explorador de Campaign, vaya a **[!UICONTROL Administration > Campaign Management > Customer metrics]** para obtener una descripción general del número de perfiles activos. El recuento real lo realiza el **[!UICONTROL Number of active billing profiles]** ([!UICONTROL billingActiveContactCount]) [flujo de trabajo técnico](../../workflow/using/about-technical-workflows.md). Este flujo de trabajo se ejecuta todos los días y agrega los nuevos datos al informe existente para el periodo actual en la carpeta **[!UICONTROL Customer metrics]**.
+
+Tenga en cuenta que el recuento de perfiles principales solo está disponible para las **instancias de marketing**. No está disponible para Instancias de ejecución; es decir, instancias de MID (fuentes intermedias) y RT (mensajería en tiempo real/centro de mensajes).
+
+>[!NOTE]
+>
+>También puede monitorizar el número de perfiles activos en su instancia directamente desde Campaign Panel de control de Campaign. Para obtener más información, consulte la [documentación del Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=es#performance-monitoring).
 
 ## Vídeo tutorial {#create-profiles-video}
 
@@ -119,7 +120,7 @@ Puede encontrar disponibles más vídeos de procedimientos para Campaign Classic
 
 * [Administración de la privacidad en Campaign](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html)
 
-* [Definición de la población objetivo](../../delivery/using/define-the-right-audience.md).
+* [Definición de la población objetivo.](../../delivery/using/define-the-right-audience.md)
 
 * [Creación de consultas y datos de segmentos en flujos de trabajo](../../workflow/using/targeting-data.md)
 
