@@ -7,11 +7,10 @@ feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-translation-type: ht
-source-git-commit: 8294b522efb51cb1b961c9284675c7966132e957
-workflow-type: ht
-source-wordcount: '415'
-ht-degree: 100%
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 98%
 
 ---
 
@@ -63,7 +62,7 @@ Como usuario de [!DNL Gold Standard], se beneficiará automáticamente de la act
 ## Asistencia y otros vínculos útiles{#support}
 
 * [Ayuda y asistencia](../../support.md)
-* [Versiones del Panel de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html)
+* [Versiones del Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)
 * [Últimas actualizaciones de la documentación](../../rn/using/documentation-updates.md)
 * [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md)
 
