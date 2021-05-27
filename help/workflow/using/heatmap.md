@@ -1,22 +1,22 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Mapa de calor del flujo de trabajo de campaña
-description: Monitorizar los flujos de trabajo con Workflow HeatMap
+title: Mapa de calor del flujo de trabajo de Campaign
+description: Monitorice los flujos de trabajo con el mapa de calor del flujo de trabajo
 audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
 source-git-commit: e6969a3ed61bde692b2f72b3711f12ce46a0025f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1128'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Mapa de calor del flujo de trabajo {#workflow-heatmap}
 
-El mapa de calor del flujo de trabajo de Campaign consiste en una representación gráfica con códigos de color de todos los flujos de trabajo que se están ejecutando actualmente. Solo está disponible para **Administradores de campaña**.
+El mapa de calor del flujo de trabajo de Campaign consiste en una representación gráfica con códigos de color de todos los flujos de trabajo que se están ejecutando actualmente. Solo está disponible para **Administradores de Campaign**.
 
 Descubra formas adicionales de monitorizar los procesos de Campaign en [esta página](../../production/using/monitoring-guidelines.md).
 
@@ -30,7 +30,7 @@ Más precisamente, ayuda a los administradores de la plataforma a:
 * Filtrar flujos de trabajo por duración para ver qué flujos de trabajo pueden encontrar problemas
 * Filtrar actividades por duración para ver qué actividades pueden encontrar problemas
 * Encuentre fácilmente flujos de trabajo individuales y todas las actividades relacionadas (con su duración)
-* Filtrar por tipo de flujo de trabajo: [flujos de trabajo técnicos](../../workflow/using/building-a-workflow.md#technical-workflows) o [flujos de trabajo de campaña](../../workflow/using/building-a-workflow.md#campaign-workflows)
+* Filtrar por tipo de flujo de trabajo: [flujos de trabajo técnicos](../../workflow/using/building-a-workflow.md#technical-workflows) o [flujos de trabajo de la campaña](../../workflow/using/building-a-workflow.md#campaign-workflows)
 * Buscar un flujo de trabajo específico para analizar
 
 >[!NOTE]
@@ -39,7 +39,7 @@ Más precisamente, ayuda a los administradores de la plataforma a:
 
 El uso del mapa de calor del flujo de trabajo requiere comprender bien los siguientes conceptos: Optimizaciones para [Flujos de trabajo](../../workflow/using/about-workflows.md), [Actividades](../../workflow/using/about-activities.md) y [Flujos de trabajo](../../workflow/using/workflow-best-practices.md).
 
-## Personalizar el mapa de calor del flujo de trabajo {#using-the-heatmap}
+## Personalización del mapa de calor del flujo de trabajo {#using-the-heatmap}
 
 >[!NOTE]
 >
@@ -111,13 +111,13 @@ En el ejemplo siguiente, entre las 8:00 y las 8:05 de la mañana, se están ejec
 1. Haga clic en el nombre o ID del flujo de trabajo para abrir directamente un flujo de trabajo.
 1. Para volver a la vista **[!UICONTROL Campaign Workflow HeatMap]**, haga clic en el botón **[!UICONTROL Home]**.
 
-## Casos de uso: use el mapa de calor para realizar acciones {#use-cases--using-the-heatmap-to-take-actions}
+## Casos de uso: Uso del mapa de calor para realizar acciones {#use-cases--using-the-heatmap-to-take-actions}
 
-Existen dos casos principales en los que el mapa de calor del flujo de trabajo de campaña puede resultar útil.
+Existen dos casos principales en los que el mapa de calor del flujo de trabajo de Campaign puede resultar útil.
 
-### Reducir el número de flujos de trabajo simultáneos {#reducing-the-number-of-concurrent-workflows}
+### Reducción del número de flujos de trabajo simultáneos {#reducing-the-number-of-concurrent-workflows}
 
-Como administrador de campañas, el mapa de calor del flujo de trabajo puede ayudarle a comprender la carga de la instancia y a planificar los flujos de trabajo existentes o nuevos en los momentos adecuados.
+Como administrador de Campaign, el mapa de calor del flujo de trabajo puede ayudarle a comprender la carga de la instancia y a planificar los flujos de trabajo existentes o nuevos en los momentos adecuados.
 
 1. En la vista **[!UICONTROL Campaign Workflow HeatMap]**, haga clic en el botón **[!UICONTROL Filters]**.
 1. Establezca la duración en unos segundos o en unos minutos.
@@ -130,9 +130,9 @@ Como administrador de campañas, el mapa de calor del flujo de trabajo puede ayu
    * Si se producen problemas de rendimiento y se muestran una o más celdas rojas en la cuadrícula, considere la posibilidad de cambiar los tiempos de inicio de varios flujos de trabajo. Pida a los usuarios de mercadotecnia que pasen manualmente los flujos de trabajo de los períodos ocupados (&quot;activos&quot;) a los más disponibles. Esto debería mantener un nivel de actividad estable durante el día.
    * Para evitar picos y evitar que la instancia se sobrecargue, consulte el mapa de calor antes de planificar nuevos flujos de trabajo y elija el mejor momento. Considere los espacios de tiempo correspondientes a las celdas grises o verdes de la cuadrícula para iniciar nuevos flujos de trabajo.
 
-### Busque flujos de trabajo de larga duración que afecten al rendimiento {#finding-long-running-workflows-that-impact-performance}
+### Búsqueda de flujos de trabajo de larga duración que afectan al rendimiento {#finding-long-running-workflows-that-impact-performance}
 
-Como administrador de campañas, el mapa de calor del flujo de trabajo le ayuda a encontrar los flujos de trabajo más largos que pueden ralentizar la actividad.
+Como administrador de Campaign, el mapa de calor del flujo de trabajo le ayuda a encontrar los flujos de trabajo más largos que pueden ralentizar la actividad.
 
 1. En la vista **[!UICONTROL Campaign Workflow HeatMap]**, haga clic en el botón **[!UICONTROL Filters]**.
 1. Establezca la duración en 1 hora.
@@ -146,7 +146,7 @@ Como administrador de campañas, el mapa de calor del flujo de trabajo le ayuda 
    * Aconseje a los usuarios de marketing que dividan los flujos de trabajo más largos para reducir el tiempo de procesamiento.
    * Inicie un análisis más profundo de flujos de trabajo específicos y actividades específicas (como JavaScript, importación, exportación, etc.) para aislar los problemas y resolverlos más fácilmente.
 
-## Utilice el mapa de calor para mejorar la planificación del flujo de trabajo {#example--using-the-heatmap-to-improve-workflow-planning}
+## Uso del mapa de calor para mejorar la planificación del flujo de trabajo {#example--using-the-heatmap-to-improve-workflow-planning}
 
 El ejemplo siguiente muestra cómo la planificación puede ser más eficiente y cómo se puede mejorar el rendimiento al utilizar el mapa de calor del flujo de trabajo de Adobe Campaign.
 
