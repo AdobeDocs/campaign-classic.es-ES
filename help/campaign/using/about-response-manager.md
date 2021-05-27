@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: response-manager
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
 source-git-commit: dc3151a77350aa2b2acd989a57f5b489c1a98962
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# Introducción a Campaign Response Manager{#about-response-manager}
+# Introducción al Gestor de respuestas de Campaign{#about-response-manager}
 
-Adobe Campaign ofrece un complemento de gestión de respuestas que le permite medir el éxito y la rentabilidad de las campañas de marketing u ofrecer propuestas a través de los canales de comunicación: correo electrónico, móvil, correo postal, etc.
+Adobe Campaign ofrece una aplicación de gestión de respuestas que le permite medir el éxito y la rentabilidad de las campañas de marketing u ofrecer propuestas para todos los canales de comunicación: correo electrónico, móvil, correo directo, etc.
 
 ## Hipótesis {#hypothesis-concept}
 
