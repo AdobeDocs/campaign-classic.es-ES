@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: distributed-marketing
 exl-id: c166409b-e040-491e-840a-a41310935d75
 source-git-commit: 42040c519a9430ff0529913c1d567e9315b1a95d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1132'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Introducción a marketing distribuido{#about-distributed-marketing}
+# Introducción al marketing distribuido{#about-distributed-marketing}
 
 <!--
 >[!AVAILABILITY]
@@ -22,7 +22,7 @@ ht-degree: 98%
 >:warning: This capability is not available in Campaign v8. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html)
 -->
 
-Adobe Campaign ofrece una aplicación de **Marketing distribuido** para implementar campañas cooperativas entre entidades centrales (sede central, Departamentos de Marketing, etc.) y entidades locales (puntos de ventas, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **[!UICONTROL list of campaign packages]**, donde las entidades locales pueden encontrar plantillas de campañas creadas de forma centralizada y diferentes instancias.
+Adobe Campaign ofrece una aplicación de **marketing distribuido** para implementar campañas cooperativas entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de ventas, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **[!UICONTROL list of campaign packages]**, donde las entidades locales pueden encontrar plantillas de campañas creadas de forma centralizada y diferentes instancias.
 
 La entidad central proporciona campañas que entidades locales pueden utilizar. Las campañas se materializan mediante paquetes que corresponden a campañas locales o de colaboración. Para utilizar una campaña, la entidad local debe pedirla y se debe aprobar la solicitud.
 
@@ -82,7 +82,7 @@ La entidad central proporciona campañas que entidades locales pueden utilizar. 
 
 **Solicitud de paquetes de campaña**
 
-Si una entidad local se registra para una campaña, esto se convierte en una solicitud que reagrupa toda la información relativa a la localización de la campaña.
+Si una entidad local se registra para una campaña, esto se convierte en un pedido que reagrupa toda la información relativa a la localización de la campaña.
 
 ## Espacio de trabajo {#workspace}
 
