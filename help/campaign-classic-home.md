@@ -5,9 +5,9 @@ product: campaign
 title: Documentación del producto de Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: 42040c519a9430ff0529913c1d567e9315b1a95d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '289'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 97%
 
 * **[Actualice la integración de los activadores de Adobe Experience Cloud](integrations/using/configuring-adobe-io.md)**<br/> El servicio de autenticación de autenticación heredada ha llegado al final de su vida útil. Descubra más información sobre cómo migrar a Adobe I/O.
 
-* **[Pasarse a la API de proveedor de APN basada en HTTP/2](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html?lang=es)**<br/> Más información sobre cómo migrar del protocolo binario heredado a la API de proveedor de APN basada en HTTP/2.
+* **[Pasarse a la API de proveedor de APN basada en HTTP/2](https://helpx.adobe.com/es/campaign/kb/migrate-to-apns-http2.html)**<br/> Más información sobre cómo migrar del protocolo binario heredado a la API de proveedor de APN basada en HTTP/2.
 
 * **[Obtenga ayuda](support.md)**<br/> Acceso a preguntas frecuentes, prácticas recomendadas, recursos de ayuda y solicitudes de ayuda.
 
