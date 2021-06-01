@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Deduplicación
 description: Descubra más información sobre la actividad del flujo de trabajo Deduplicación
@@ -7,15 +6,14 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 100%
 
 ---
 
-# Deduplicación{#deduplication}
+# Anulación de duplicación{#deduplication}
 
 La deduplicación elimina los duplicados de los resultados de las actividades entrantes. La deduplicación se puede realizar en la dirección de correo electrónico, el número de teléfono u otro campo.
 
@@ -66,6 +64,7 @@ Para configurar una deduplicación, introduzca su etiqueta, el método, los crit
    >[!NOTE]
    >
    >Si utiliza datos externos como entrada, por ejemplo, de un archivo externo, asegúrese de seleccionar la opción **[!UICONTROL Temporary schema]**.
+
    >
    >En el siguiente paso, la opción **[!UICONTROL Other]** permite seleccionar los criterios que se van a utilizar:
 
