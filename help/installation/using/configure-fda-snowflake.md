@@ -1,26 +1,24 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuración del acceso a Snowflake
 description: Obtenga información sobre cómo configurar el acceso al Snowflake en FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
-source-git-commit: 535339b5a9b39625100d630b0b831df143dbeb01
+exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 72%
 
 ---
 
-
 # Configuración del acceso a Snowflake {#configure-access-to-snowflake}
 
-Utilice la opción Campaña **Acceso de datos federado** (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a [!DNL Snowflake].
+Utilice la opción **Federated Data Access** (FDA) de Campaign para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a [!DNL Snowflake].
 
 1. Configure [!DNL Snowflake] en [CentOS](#snowflake-centos), [Windows](#snowflake-windows) o [Debian](#snowflake-debian)
-1. Configure la [!DNL Snowflake] [cuenta externa](#snowflake-external) en Campaña
+1. Configurar la [!DNL Snowflake] [cuenta externa](#snowflake-external) en Campaign
 
 
 >[!NOTE]
@@ -48,7 +46,7 @@ Para configurar [!DNL Snowflake] en CentOS, siga los pasos a continuación:
    /etc/init.d/nlserver6 start
    ```
 
-1. En Campaña, puede configurar su cuenta externa [!DNL Snowflake]. Para obtener más información sobre cómo configurar su cuenta externa, consulte [esta sección](#snowflake-external).
+1. En Campaign, puede configurar la cuenta externa [!DNL Snowflake] . Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#snowflake-external).
 
 ## Snowflake en Windows {#snowflake-windows}
 
@@ -56,7 +54,7 @@ Para configurar [!DNL Snowflake] en CentOS, siga los pasos a continuación:
 
 1. Configure el controlador ODBC. Para obtener más información, consulte [esta página](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)
 
-1. En Campaña, puede configurar su cuenta externa [!DNL Snowflake]. Para obtener más información sobre cómo configurar su cuenta externa, consulte [esta sección](#snowflake-external).
+1. En Campaign, puede configurar la cuenta externa [!DNL Snowflake] . Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#snowflake-external).
 
 ## Snowflake en Debian {#snowflake-debian}
 
@@ -76,13 +74,13 @@ Para configurar [!DNL Snowflake] en CentOS, siga los pasos a continuación:
    systemctl start nlserver.service
    ```
 
-1. En Campaña, puede configurar su cuenta externa [!DNL Snowflake]. Para obtener más información sobre cómo configurar su cuenta externa, consulte [esta sección](#snowflake-external).
+1. En Campaign, puede configurar la cuenta externa [!DNL Snowflake] . Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#snowflake-external).
 
 ## Cuenta externa Snowflake {#snowflake-external}
 
-Debe crear una cuenta externa [!DNL Snowflake] para conectar la instancia de Campaña con la base de datos externa [!DNL Snowflake].
+Debe crear una cuenta externa [!DNL Snowflake] para conectar la instancia de Campaign a la base de datos externa [!DNL Snowflake].
 
-1. En la Campaña **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
+1. En Campaña **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
 
 1. Haga clic en **[!UICONTROL New]**.
 
