@@ -6,10 +6,10 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 80%
+source-wordcount: '1092'
+ht-degree: 76%
 
 ---
 
@@ -35,7 +35,7 @@ Para instalar los paquetes de mensajes transaccionales deben tomarse varias prec
 >
 >La instancia de control y las instancias de ejecución deben estar instaladas en diferentes equipos. No pueden compartir la misma instancia de Campaign.
 
-Si necesita utilizar varios canales, debe instalar y configurar los paquetes relacionados antes de instalar los paquetes de los mensajes transaccionales. Para obtener más información, consulte [Adición de un canal de envío](#adding-a-delivery-channel).
+Si necesita utilizar varios canales, debe instalar y configurar los paquetes relacionados antes de instalar los paquetes de los mensajes transaccionales. Para obtener más información, consulte [Añadir un canal de envío](#adding-a-delivery-channel).
 
 ## Instancia de control {#control-instance}
 
@@ -181,7 +181,7 @@ Para utilizar el módulo de mensaje transaccional con LINE, se necesitan los sig
 
 * Instale el paquete **[!UICONTROL LINE Connect]** en ambas instancias.
 * Instale el paquete **[!UICONTROL Transactional message control]** en la instancia de marketing y el paquete **[!UICONTROL Transactional message execution]** en la instancia de ejecución.
-* Cree una **cuenta externa** y un **servicio** de LINE en ambas instancias con un nombre idéntico para que se sincronicen. Para obtener más información sobre cómo crear una cuenta externa y un servicio de LINE, consulte esta [página](../../delivery/using/line-channel.md#creating-a-line-account-and-an-external-account-).
+* Cree una **cuenta externa** y un **servicio** de LINE en ambas instancias con un nombre idéntico para que se sincronicen. Para obtener más información sobre cómo crear una cuenta externa y un servicio de LINE, consulte [esta sección](../../delivery/using/line-channel.md#setting-up-line-channel).
 
 A continuación, desde **[!UICONTROL Explorer]**, en **[!UICONTROL Platform]** > **[!UICONTROL External account]**, debe configurar diferentes cuentas externas en ambas instancias:
 
@@ -248,4 +248,4 @@ A continuación, desde **[!UICONTROL Explorer]**, en **[!UICONTROL Platform]** >
 
 
 
-1. Ahora puede empezar a crear mensajes transaccionales. Para obtener más información, consulte [esta página](../../message-center/using/creating-the-message-template.md).
+1. Ahora puede comenzar [creando mensajes transaccionales](../../message-center/using/creating-the-message-template.md).
