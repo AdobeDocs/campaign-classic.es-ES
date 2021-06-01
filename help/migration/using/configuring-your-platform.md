@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuración de la plataforma
 description: Configuración de la plataforma
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
-translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 2%
 
 ---
-
 
 # Configuración de la plataforma{#configuring-your-platform}
 
@@ -130,4 +128,3 @@ Después de ejecutar **postupgrade**, se deben tener en cuenta los siguientes el
 * Interacción
 
    Si utiliza **Interaction**, debe ajustar los parámetros después de la migración. Para obtener más información, consulte la sección [Interacción](../../migration/using/general-configurations.md#interaction) .
-
