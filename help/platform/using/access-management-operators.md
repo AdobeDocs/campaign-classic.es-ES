@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Introducción a los operadores de Campaign
 description: Obtenga información sobre cómo crear y administrar usuarios de campañas
@@ -7,9 +6,8 @@ feature: Administración de acceso
 role: Business Practitioner, Administrator
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 100%
 
