@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Plantillas y secuencias de comandos de JavaScript
 description: Plantillas y secuencias de comandos de JavaScript
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 100%
 
@@ -87,7 +85,7 @@ Eventos son las variables más utilizadas, que deben utilizarse con preferencia 
 
 Las distintas actividades modifican o leen ciertas variables de evento. Todas son variables de tipo cadena. Por ejemplo, una exportación establece la variable **[!UICONTROL vars.filename]** con el nombre completo del archivo que acaba de exportarse. Todas estas variables leídas o modificadas se documentan en [Acerca de actividades](../../workflow/using/about-activities.md), en las secciones **Parámetros de entrada** y **Parámetros de salida** de las actividades.
 
-### Ejemplos de uso {#example}
+### Casos de uso {#example}
 
 >[!NOTE]
 >
