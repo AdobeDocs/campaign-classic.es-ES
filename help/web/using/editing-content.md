@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Edición de contenido
 description: Edición de contenido
@@ -7,9 +6,8 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 100%
 
@@ -137,6 +135,7 @@ Los bloques y campos de personalización solo se pueden insertar en bloques de t
 >* Nueva ventana (_blank)
 >* Ventana actual (_self)
 >* Comportamiento predeterminado del navegador
+
 >
 
 
@@ -202,8 +201,9 @@ Las opciones disponibles son las siguientes:
 >[!NOTE]
 >
 >* Icono **Eliminar**: elimina el bloque y todo su contenido.
->
->* Icono **Duplicar**: duplica el bloque y todos los estilos relacionados con el bloque.
+   >
+   >
+* Icono **Duplicar**: duplica el bloque y todos los estilos relacionados con el bloque.
 
 
 ## Administración de imágenes y animaciones {#managing-images-and-animations}
