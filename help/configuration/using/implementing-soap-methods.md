@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Implementación de métodos SOAP
 description: Implementación de métodos SOAP
 audience: configuration
 content-type: reference
 topic-tags: api
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 441a0e5c-fa7f-46c8-a65a-5cca4c846d43
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 4%
 
 ---
-
 
 # Implementación de métodos SOAP{#implementing-soap-methods}
 
@@ -25,22 +23,22 @@ Estos métodos SOAP se comportan del mismo modo que los definidos de forma nativ
 
 ## Definición de una biblioteca de métodos {#defining-a-method-library}
 
-La creación de una biblioteca de métodos implica dos etapas:
+La creación de una biblioteca de métodos consta de dos etapas:
 
 * La declaración del método SOAP,
 * Definición (o implementación) en JavaScript.
 
 ### Declaración {#declaration}
 
-Inicio declarando los métodos en los esquemas (para obtener más información sobre cómo crear y editar esquemas, consulte [esta sección](../../configuration/using/about-schema-edition.md)).
+Comience declarando los métodos en los esquemas (para obtener más información sobre cómo crear y editar esquemas, consulte [esta sección](../../configuration/using/about-schema-edition.md)).
 
-Su declaración es similar a la de los métodos nativos, excepto que debe agregar el atributo &#39;library&#39; especificando el nombre de la biblioteca de métodos donde se encuentra la definición.
+Su declaración es similar a la de los métodos nativos, excepto que debe añadir el atributo &quot;library&quot; que especifique el nombre de la biblioteca de métodos en la que se encuentra la definición.
 
-Este nombre coincide con el nombre (con la Área de nombres) de la entidad de tipo &#39;Código JavaScript&#39;.
+Este nombre coincide con el nombre (con el área de nombres) de la entidad de tipo &quot;Código JavaScript&quot;.
 
 Ejemplo:
 
-El método testLog(msg) se declara en una extensión nms:destinatario
+El método testLog(msg) se declara en una extensión nms:recipient
 
 ```
 <method name="testLog" static="true" library="cus:test">
@@ -52,7 +50,7 @@ El método testLog(msg) se declara en una extensión nms:destinatario
 
 >[!NOTE]
 >
->La Área de nombres y el nombre utilizados para la biblioteca son independientes del nombre de la Área de nombres y del esquema donde se encuentra la declaración.
+>El espacio de nombres y el nombre utilizado para la biblioteca son independientes del espacio de nombres y el nombre de esquema donde se encuentra la declaración.
 
 ### Definición {#definition}
 
@@ -74,7 +72,7 @@ El nombre de la función debe cumplir el siguiente formato:
 
 Ejemplo:
 
-La siguiente función de JavaScript es la implementación del método descrito anteriormente. Se definirá en la entidad de tipo &quot;Código JavaScript&quot; utilizando el nombre &#39;cus:test&#39;.
+La siguiente función JavaScript es la implementación del método descrito anteriormente. Se debe definir en la entidad de tipo &quot;JavaScript Code&quot; utilizando el nombre &quot;cus:test&quot;.
 
 ```
 function nms_recipient_testLog(message)
@@ -85,16 +83,16 @@ function nms_recipient_testLog(message)
 
 **2. Firma**
 
-La firma de la función debe incluir un argumento para cada parámetro &#39;in&#39; o &#39;inout&#39; de la declaración.
+La firma de la función debe incluir un argumento para cada parámetro &quot;in&quot; o &quot;inout&quot; de la declaración.
 
 Casos específicos:
 
-* **métodos** no estáticos: la función debe incluir primero un argumento adicional, coincidiendo con la entidad XML pasada en forma de objeto de tipo &#39;xml&#39; (E4X).
-* **Métodos** de tipo &quot;solo clave&quot;: la función debe incluir primero un argumento adicional, coincidiendo con la clave pasada en forma de cadenas de caracteres.
+* **métodos** no estáticos: la función debe incluir primero un argumento adicional, que coincida con la entidad XML transferida en forma de objeto de tipo &quot;xml&quot; (E4X).
+* **métodos** de tipo &quot;clave solamente&quot;: la función debe incluir primero un argumento adicional, que coincida con la clave pasada en forma de cadenas de caracteres.
 
 **3. Valores devueltos**
 
-La función debe devolver un valor para cada parámetro de tipo &#39;out&#39; o &#39;inout&#39;. Caso específico: Si el método se declara sin ninguno de los atributos &#39;static&#39;, &#39;key only&#39; o &#39;const&#39;, el primer valor devuelto debe coincidir con la entidad modificada. Es posible devolver un nuevo objeto o devolver el primer parámetro modificado.
+La función debe devolver un valor para cada parámetro de tipo &quot;out&quot; o &quot;inout&quot;. Caso específico: Si el método se declara sin ninguno de los atributos &quot;static&quot;, &quot;key only&quot; o &quot;const&quot;, el primer valor devuelto debe coincidir con la entidad modificada. Es posible devolver un objeto nuevo o el primer parámetro modificado.
 
 Por ejemplo:
 
@@ -106,7 +104,7 @@ function nms_recipient_setLastName(self, name)
  }
 ```
 
-Cuando se devuelven varios valores, deben mostrarse en una tabla.
+Cuando se van a devolver varios valores, deben mostrarse en una tabla.
 
 Ejemplo:
 
@@ -116,4 +114,3 @@ function nms_recipient_getKey(self)
    return [self.@firstName, self.@lastName]
  }
 ```
-
