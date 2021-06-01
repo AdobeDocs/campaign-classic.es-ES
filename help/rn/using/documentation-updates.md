@@ -7,7 +7,7 @@ feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: b211948f1b6a64d0734d1d23f6df4951af88445a
 workflow-type: tm+mt
 source-wordcount: '4367'
 ht-degree: 98%
@@ -113,7 +113,7 @@ Se ha añadido un caso de uso sobre cómo utilizar la funcionalidad Combinar de 
 
 La descripción completa de la página de configuración y el protocolo del conector SMS ahora está disponible [aquí](../../delivery/using/sms-protocol.md).
 
-Se ha añadido una nota a la sección **Mensajería transaccional** para advertir que las carpetas de evento no deben configurarse como vistas en las instancias de ejecución, a fin de evitar problemas de derechos de acceso. [Más información](../../message-center/using/event-collection.md)
+Se ha añadido una nota a la sección **Mensajería transaccional** para advertir que las carpetas de evento no deben configurarse como vistas en las instancias de ejecución, a fin de evitar problemas de derechos de acceso. [Más información](../../message-center/using/about-event-processing.md#event-collection)
 
 ## Noviembre de 2020 {#nov-2020}
 
@@ -259,7 +259,7 @@ Leyes de privacidad de Tailandia y Brasil: [Más información](https://helpx.ado
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
-La nueva opción que permite cancelar la publicación de una plantilla de mensaje transaccional se documenta en [esta sección](../../message-center/using/template-unpublication.md).
+La nueva opción que permite cancelar la publicación de una plantilla de mensaje transaccional se documenta en [esta sección](../../message-center/using/publishing-message-templates.md#template-unpublication).
 
 Se han añadido a la lista de opciones de Campaign Classic las nuevas opciones que permiten establecer limitaciones al enviar correos electrónicos que incluyen imágenes descargadas de una URL personalizada y archivos adjuntos. [Más información](../../installation/using/configuring-campaign-options.md#delivery)
 
@@ -519,7 +519,7 @@ La sección de actividad de subflujo de trabajo se ha mejorado con un ejemplo de
 
 La página [matriz de capacidades alojadas y On-Premise de Campaign Classic](../../installation/using/capability-matrix.md) se ha actualizado con información relacionada con el CCO de los correos electrónicos.
 
-La documentación de Mensajería transaccional se ha actualizado con una nota relativa a la publicación de plantillas. [Más información](../../message-center/using/template-publication.md)
+La documentación de Mensajería transaccional se ha actualizado con una nota relativa a la publicación de plantillas. [Más información](../../message-center/using/publishing-message-templates.md#template-publication)
 
 La sección Correos de devolución sin procesar se ha actualizado con más detalles sobre los campos Dirección de reenvío y Dirección para los errores. [Más información](../../installation/using/deploying-an-instance.md)
 
