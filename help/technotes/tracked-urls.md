@@ -1,27 +1,25 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Nota técnica
 description: Nota técnica
 hide: true
 hidefromtoc: true
-translation-type: tm+mt
-source-git-commit: 51773f48bac90febe44c6796b8cc08fce072bab3
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 7%
+ht-degree: 36%
 
 ---
 
 # Problema de firma de URL rastreadas {#tracked-urls}
 
-Tras los cambios recientes, las direcciones URL rastreadas pueden fallar cuando la firma de URL está activa en Campaign. Algunos buzones pueden verse más afectados que otros, ya que algunas empresas cuentan con herramientas de seguridad específicas que pueden afectar a los vínculos y alterar el mecanismo de firma de la dirección URL.
+Tras los cambios recientes, las direcciones URL rastreadas pueden fallar cuando la firma de URL está activa en Campaign. Algunos buzones pueden verse más afectados que otros, ya que algunas empresas cuentan con herramientas de seguridad específicas que pueden afectar a los vínculos y alterar el mecanismo de firma de las URL.
 
 Como consecuencia, Adobe recomienda desactivar el mecanismo de firma para el seguimiento de vínculos. Este procedimiento corrige los vínculos de seguimiento antiguos, excepto los recibidos con una doble omisión.
 
-Tenga en cuenta que los vínculos de baja pueden fallar como cualquier otro vínculo, la frecuencia es variable de host a host pero es inferior al 1%.
+Tenga en cuenta que los vínculos de baja pueden dar error como los demás. La frecuencia es variable en función del host, pero es inferior al 1 %.
 
-**¿Estás afectado?**
+**¿Se ha visto afectado?**
 
 Para mejorar la seguridad, el mecanismo de firma para el seguimiento de vínculos en correos electrónicos se ha introducido en [Campaign Gold Standard 8](../rn/using/gold-standard.md#gs8) - Abril de 2020 - y está habilitado de forma predeterminada para todos los clientes a partir de la versión 19.1.4 (9032@3a9dc9c) y Campaign 20.2.
 
@@ -37,7 +35,7 @@ Si su entorno se ejecuta en una de las versiones enumeradas a continuación, pue
 
 Aprenda a comprobar su versión [en esta sección](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
-**¿Cómo se actualiza?**
+**¿Cómo realizar la actualización?**
 
 Como **cliente alojado**, Adobe trabajará con usted para actualizar su configuración en breve.
 
@@ -58,13 +56,13 @@ Siga el paso siguiente:
 >El archivo **config-`<instance>`.xml** anula la configuración de **serverConf.xml**. Si el **signEmailLinks** está presente en el **config-`<instance>`.xml** (donde **instance** es el nombre de su instancia), también debe convertirse en **false**.
 
 
-**¿Cuál es el impacto?**
+**¿Cuáles son las consecuencias?**
 
-El mantenimiento requiere un tiempo de inactividad máximo de 25 minutos y durante este periodo todas las entregas, los vínculos de seguimiento y las llamadas a la API no funcionarán.
+Las tareas de mantenimiento requieren un tiempo de inactividad máximo de 25 minutos y, durante este periodo, todas las entregas, los vínculos de seguimiento y las llamadas a la API no funcionarán.
 
-Una vez completada la actualización, todos los vínculos funcionan según lo esperado.
+Una vez completada la actualización, todos los vínculos funcionarán según lo esperado.
 
 >[!NOTE]
 >
->Para cualquier pregunta acerca de estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>En caso de que tenga preguntas acerca de estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
