@@ -7,7 +7,7 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 3d85866a-6339-458c-807a-b267cce772b8
-source-git-commit: d39b15b0efc6cbd6ab24e074713be6f8fc90e5fc
+source-git-commit: c41ca3d518391a648629ebc3fcd4c916e92c3a79
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 45%
@@ -23,6 +23,7 @@ Este evento contiene datos vinculados al evento, como su [tipo](../../message-ce
 Ejemplo de datos de eventos:
 
 ![](assets/messagecenter_events_request_001.png)
+
 ## Pasos del procesamiento de eventos {#event-processing}
 
 Para procesar los eventos de mensajería transaccional, se aplican los siguientes pasos a las instancias de ejecución:
