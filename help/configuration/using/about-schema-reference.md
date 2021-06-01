@@ -1,31 +1,29 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Acerca de la referencia de esquema en Adobe Campaign Classic
 description: Obtenga información sobre cómo configurar esquemas de extensión para ampliar el modelo de datos conceptuales de la base de datos de Adobe Campaign Classic.
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 7%
 
 ---
 
-
 # Acerca de la referencia de esquema{#about-schema-reference}
 
 En este capítulo se describe cómo configurar esquemas de extensión para ampliar el modelo de datos conceptuales de la base de datos de Adobe Campaign.
 
-Para comprender mejor las tablas integradas de Campaña y su interacción, consulte el [modelo de datos de Campaign Classic](https://helpx.adobe.com/es/campaign/kb/acc-datamodel.html).
+Para comprender mejor las tablas integradas de Campaign y su interacción, consulte el [modelo de datos del Campaign Classic](https://helpx.adobe.com/es/campaign/kb/acc-datamodel.html).
 
-La estructura física y lógica de los datos que se llevan en la aplicación se describe en XML. Obedece a una gramática específica de Adobe Campaign, denominada **esquema**.
+La estructura física y lógica de los datos que se llevan en la aplicación se describe en XML. Obedece a una gramática específica de Adobe Campaign, denominada **schema**.
 
 Un esquema es un documento XML asociado a una tabla de base de datos. Define la estructura de datos y describe la definición SQL de la tabla:
 
-* El nombre de la tabla
+* Nombre de la tabla
 * Campos
 * Índices
 * Vínculos con otras tablas
@@ -38,9 +36,9 @@ También describe la estructura XML utilizada para almacenar datos:
 * Valores predeterminados
 * Etiquetas, descripciones y otras propiedades.
 
-Las esquemas permiten definir una entidad en la base de datos. Hay un esquema para cada entidad.
+Los esquemas permiten definir una entidad en la base de datos. Hay un esquema para cada entidad.
 
-La siguiente ilustración muestra la ubicación de esquemas en el sistema de datos de Adobe Campaign:
+La siguiente ilustración muestra la ubicación de los esquemas en el sistema de datos de Adobe Campaign:
 
 ![](assets/reference_schema_intro.png)
 
@@ -72,22 +70,22 @@ Las etiquetas **`<element>`** definen los nombres de los elementos de entidad. *
 
 ## Identificación de un esquema {#identification-of-a-schema}
 
-Un esquema de datos se identifica por su nombre y su Área de nombres.
+Un esquema de datos se identifica con su nombre y área de nombres.
 
-Una Área de nombres permite agrupar un conjunto de esquemas por área de interés. Por ejemplo, la Área de nombres **cus** se utiliza para la configuración específica del cliente (**customers**).
+Un área de nombres permite agrupar un conjunto de esquemas por área de interés. Por ejemplo, el espacio de nombres **cus** se utiliza para la configuración específica del cliente (**customers**).
 
 >[!IMPORTANT]
 >
->Como estándar, el nombre de la Área de nombres debe ser conciso y contener sólo caracteres autorizados de acuerdo con las reglas de nomenclatura XML.
+>Como estándar, el nombre del área de nombres debe ser conciso y contener únicamente caracteres autorizados de acuerdo con las reglas de nomenclatura XML.
 >
 >Los identificadores no deben comenzar con caracteres numéricos.
 
-Algunas Áreas de nombres están reservadas para las descripciones de las entidades del sistema necesarias para el funcionamiento de la aplicación Adobe Campaign:
+Algunas áreas de nombres están reservadas para descripciones de las entidades del sistema necesarias para el funcionamiento de la aplicación Adobe Campaign:
 
 * **xtk**: sobre los datos del sistema de plataforma,
 * **nl**: sobre el uso global de la solicitud,
-* **nms**: en relación con el envío (destinatario, envío, seguimiento, etc.),
-* **ncm**: sobre el gestor de contenido,
+* **nms**: sobre la entrega (destinatario, entrega, seguimiento, etc.),
+* **ncm**: sobre la gestión de contenido,
 * **temp**: reservado para esquemas temporales.
 
-La clave de identificación de un esquema es una cadena creada con la Área de nombres y el nombre separados por dos puntos; por ejemplo: **cus:destinatario**.
+La clave de identificación de un esquema es una cadena creada con el área de nombres y el nombre separado por dos puntos; por ejemplo: **cus:recipient**.
