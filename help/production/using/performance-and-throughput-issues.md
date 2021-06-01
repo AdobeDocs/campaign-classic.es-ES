@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Problemas de rendimiento y producción
 description: Problemas de rendimiento y producción
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: tm+mt
-source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+exl-id: fe69efda-a052-4f67-9c13-665f011d0a2b
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '711'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
-
 
 # Problemas de rendimiento y producción{#performance-and-throughput-issues}
 
@@ -52,7 +50,7 @@ A continuación se muestra una lista de artículos relacionados con las práctic
 
 * Procesos y memoria MTA y MTAChild: el módulo **mta** distribuye mensajes a sus módulos secundarios **mtachild**. Cada **mtachild** prepara los mensajes antes de solicitar una autorización al servidor de estadísticas y enviarlos. Consulte esta [página](../../installation/using/email-deliverability.md) para obtener más información.
 * Configuración de TLS: no se recomienda habilitar TLS globalmente porque puede reducir el rendimiento. En su lugar, la configuración de TLS por dominio, administrada por el equipo de entrega, debe ajustarse según las necesidades. Consulte esta [página](../../installation/using/email-deliverability.md#mx-configuration) para obtener más información.
-* DKIM: para asegurar el nivel de seguridad del DKIM, el tamaño de cifrado recomendado es 1024b. La mayoría de los proveedores de acceso no consideran válidas las claves DKIM menores. Consulte [esta página](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
+* DKIM: para asegurar el nivel de seguridad del DKIM, el tamaño de cifrado recomendado es 1024b. La mayoría de los proveedores de acceso no consideran válidas las claves DKIM menores. Consulte [esta página](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#authentication).
 
 ## Problemas con entregas {#deliverability-issues}
 
@@ -67,4 +65,4 @@ Esta es una lista de prácticas recomendadas y artículos relacionados con la ca
 
 >[!NOTE]
 >
->Consulte también la sección [Deliverability](../../delivery/using/about-deliverability.md). Para profundizar en la capacidad de envío, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+>Consulte también la sección [Deliverability](../../delivery/using/about-deliverability.md). Para profundizar en la capacidad de entrega, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es).
