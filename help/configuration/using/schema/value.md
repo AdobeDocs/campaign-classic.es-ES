@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Elementos y atributos
 description: Elementos y atributos
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
+exl-id: bad7fb4b-43d9-4033-ae0d-cf191d89114b
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 5%
 
 ---
-
 
 # elemento de valor {#value--element}
 
@@ -41,17 +39,17 @@ value:==help
 
 ## Descripción {#description-16}
 
-Este elemento permite definir los valores almacenados en una lista desglosada.
+Este elemento permite definir los valores almacenados en una enumeración.
 
-## Descripción del atributo {#attribute-description-16}
+## Descripción de atributo {#attribute-description-16}
 
-* **applyIf (string)**: este atributo le permite convertir un valor de lista desglosada en opcional. Recibe una expresión XTK.
-* **desc (cadena)**: descripción del valor de lista desglosada.
-* **enabledIf (string)**: condición para activar el valor de lista desglosada.
-* **img (cadena)**: imagen vinculada a la lista desglosada en el formulario &quot;Área de nombres:nombre_imagen&quot;. La imagen debe importarse en el servidor de aplicaciones.
-* **label (string)**: del valor de lista desglosada.
-* **name (string)**: nombre interno del valor de lista desglosada.
-* **value (string)**: valor del valor de lista desglosada. El tipo de valor se define en función del tipo de lista desglosada. Si la lista desglosada es del tipo de cadena de caracteres, sólo puede contener valores de tipo de cadena de caracteres.
+* **applyIf (cadena)**: este atributo permite hacer que un valor de enumeración sea opcional. Recibe una expresión XTK.
+* **desc (cadena)**: descripción del valor de enumeración.
+* **enabledIf (cadena)**: condición para activar el valor de enumeración.
+* **img (cadena)**: imagen vinculada a la enumeración en el formulario &quot;namespace:image_name&quot;. La imagen debe importarse en el servidor de aplicaciones.
+* **label (cadena)**: etiqueta del valor de enumeración.
+* **nombre (cadena)**: nombre interno del valor de enumeración.
+* **valor (cadena)**: del valor de enumeración. El tipo de valor se define en función del tipo de enumeración. Si la enumeración es de tipo cadena de caracteres, solo puede contener valores de tipo cadena de caracteres.
 
 ## Ejemplos {#examples-13}
 
