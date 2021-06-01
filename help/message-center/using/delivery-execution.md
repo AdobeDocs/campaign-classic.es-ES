@@ -2,20 +2,19 @@
 solution: Campaign Classic
 product: campaign
 title: Ejecución de entrega
-description: Ejecución de entrega
+description: Obtenga más información sobre la ejecución y supervisión del envío de mensajes transaccionales.
 audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '220'
-ht-degree: 100%
+source-git-commit: d39b15b0efc6cbd6ab24e074713be6f8fc90e5fc
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 85%
 
 ---
 
-# Ejecución de entrega{#delivery-execution}
+# Ejecución de entrega {#delivery-execution}
 
 ## Mensaje transaccional que envía {#transactional-message-send}
 
@@ -39,7 +38,7 @@ De forma predeterminada, se clasifican en subcarpetas por mes de envío. Este or
 
 ## Supervisión de mensajes transaccionales {#transactional-message-monitoring}
 
-Para supervisar sus mensajes transaccionales, compruebe los registros de envío. El acceso a los registros de envío se presenta en [esta sección](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
+Para monitorizar los mensajes transaccionales, compruebe los [registros de envío](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
 
 Los envíos transaccionales enviados desde la instancia de ejecución se sincronizan con la instancia de control a través de un flujo de trabajo técnico (**[!UICONTROL Message Center execution instance]**) que se ejecuta cada hora.
 
@@ -73,3 +72,5 @@ Let's take a [delivery template](../../message-center/using/introduction.md) lab
 To summarize, the deliveries weekly accumulate the events based on the latest event update, and not on the event creation date.
 
 Therefore, when extracting transactional messaging delivery logs from the control instance, the delivery ID associated with each delivery log ID changes every week.-->
+
+Para monitorizar la actividad y ejecución de las instancias de ejecución, consulte [Informes de mensajería transaccional](../../message-center/using/about-transactional-messaging-reports.md).
