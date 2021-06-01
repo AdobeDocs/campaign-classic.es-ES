@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Privacidad
 description: Obtenga más información sobre las prácticas recomendadas a seguir con respecto a la privacidad.
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+exl-id: 0a3473bf-0528-486d-a799-8db86fece522
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 27%
 
 ---
-
 
 # Privacidad {#privacy}
 
@@ -39,7 +37,7 @@ Para validar y asegurarse de que no está utilizando lo anterior, ejecute una co
 
 Ejemplo:
 
-1. Cree un flujo de trabajo y añada una actividad Query . Obtenga más información.
+1. Cree un flujo de trabajo y añada una actividad Query . Más información.
 
 1. Abra la actividad Query y cree un filtro en la tabla nmsTrackingUrl de la siguiente manera: la URL de origen comienza con http://&lt;% o la URL de origen comienza con https://&lt;%.
 
