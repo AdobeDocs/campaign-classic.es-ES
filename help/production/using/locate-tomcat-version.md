@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Localización de la versión de Tomcat en Adobe Campaign
 description: Aprenda a averiguar la versión actual del servlet web integrado Tomcat utilizado en una instancia de Adobe Campaign.
@@ -7,8 +6,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
-translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
