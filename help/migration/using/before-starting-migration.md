@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Antes de iniciar la migración
 description: Antes de iniciar la migración
@@ -7,8 +6,7 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
-translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 2%
