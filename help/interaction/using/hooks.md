@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Enlaces
 description: Enlaces
@@ -7,17 +6,16 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: e1d7d7c2-61e7-40d6-a8ce-69bc976f8c73
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Enlaces{#hooks}
 
-Los vínculos en interacción permiten modificar el **comportamiento del motor estándar**.
+Enlaces en Interacción permite modificar el **comportamiento del motor estándar**.
 
 Los vínculos **[!UICONTROL Target loading]** y **[!UICONTROL Proposition post-processing]** están configurados, en Adobe Campaign, en el espacio de oferta:
 
