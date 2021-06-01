@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Filtrado de esquemas
 description: Filtrado de esquemas
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 0%
 
 ---
-
 
 # Filtrar esquemas{#filtering-schemas}
 
@@ -63,7 +61,7 @@ Estos filtros se introducen en el nivel principal **element** de los esquemas y,
 >
 >Si no se especifica ningún filtro, todos los operadores tendrán permisos de lectura y escritura en el esquema.
 
-## Proteja los esquemas integrados {#protecting-built-in-schemas}
+## Esquemas integrados de Protect {#protecting-built-in-schemas}
 
 De forma predeterminada, los esquemas integrados solo son accesibles con permisos WRITE para operadores con derechos de ADMINISTRACIÓN:
 
@@ -113,4 +111,3 @@ Puede seguir modificando los filtros del sistema de los esquemas predeterminados
 1. Cree una extensión para el esquema correspondiente o abra una extensión existente.
 1. Agregue un elemento secundario **`<sysfilter name="<filter name>" _operation="delete"/>`** en el elemento principal para eliminar la aplicación del filtro en el mismo esquema de origen.
 1. Si lo desea, puede agregar un nuevo filtro, como se detalla en [Filtros del sistema](#system-filters).
-
