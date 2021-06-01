@@ -6,10 +6,10 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: a52bc140-072e-4f81-b6da-f1b38662bce5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 78%
+source-wordcount: '498'
+ht-degree: 72%
 
 ---
 
@@ -19,9 +19,9 @@ Para asegurarse de que cada evento se pueda cambiar a un mensaje personalizado, 
 
 >[!IMPORTANT]
 >
->Los tipos de eventos deben crearse de antemano. Para obtener más información, consulte [Creación de tipos de eventos](../../message-center/using/creating-event-types.md).
+>Los tipos de eventos deben crearse de antemano. Para obtener más información, consulte [Crear tipos de eventos](../../message-center/using/creating-event-types.md).
 
-Las plantillas de mensajes transaccionales contienen la información necesaria para personalizar el mensaje transaccional. También puede utilizar plantillas para probar la vista previa del mensaje y enviar pruebas utilizando las direcciones semilla antes de enviar al destinatario final. Para obtener más información, consulte [Prueba de plantillas de mensajes transaccionales](../../message-center/using/testing-message-templates.md).
+Las plantillas de mensajes transaccionales contienen la información necesaria para personalizar el mensaje transaccional. También puede utilizar plantillas para probar la vista previa del mensaje y enviar pruebas utilizando las direcciones semilla antes de enviar al destinatario final. Para obtener más información, consulte [Probar plantillas de mensajes transaccionales](../../message-center/using/testing-message-templates.md).
 
 ## Creación de la plantilla del mensaje {#creating-message-template}
 
@@ -41,19 +41,19 @@ Las plantillas de mensajes transaccionales contienen la información necesaria p
 
    ![](assets/messagecenter_create_model_003.png)
 
-   Es necesario crear previamente los tipos de eventos en la consola. Para obtener más información, consulte [Creación de tipos de eventos](../../message-center/using/creating-event-types.md).
+   Es necesario crear previamente los tipos de eventos en la consola. Para obtener más información, consulte [Crear tipos de eventos](../../message-center/using/creating-event-types.md).
 
    >[!IMPORTANT]
    >
    >Un tipo de evento no se puede vincular a más de una plantilla.
 
-1. Introduzca una naturaleza y una descripción y, a continuación, haga clic en **[!UICONTROL Continue]** para crear el cuerpo del mensaje (consulte [Creación del contenido del mensaje](#creating-message-content)).
+1. Introduzca una naturaleza y una descripción y, a continuación, haga clic en **[!UICONTROL Continue]** para crear el cuerpo del mensaje (consulte [Create the message content](#creating-message-content)).
 
    ![](assets/messagecenter_create_model_004.png)
 
 ## Crear el contenido del mensaje {#creating-message-content}
 
-La definición del contenido de mensajería transaccional es la misma que para las entregas normales en Adobe Campaign. Por ejemplo, para una entrega de correo electrónico, puede crear contenido en formato HTML o texto, añadir archivos adjuntos o personalizar el objeto de envío. Para obtener más información, consulte el capítulo en [Envío de correo electrónico](../../delivery/using/about-email-channel.md).
+La definición del contenido de mensajería transaccional es la misma que para las entregas normales en Adobe Campaign. Por ejemplo, para una entrega de correo electrónico, puede crear contenido en formato HTML o texto, añadir archivos adjuntos o personalizar el objeto de envío. Para obtener más información, consulte el capítulo [Email delivery](../../delivery/using/about-email-channel.md) .
 
 >[!IMPORTANT]
 >
