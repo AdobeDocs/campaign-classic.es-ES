@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Acceso a la lista de entregas
 description: Obtenga información sobre cómo acceder a la lista de entregas creadas.
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 6c0fd76f-3d79-4b69-b911-f8d99dd18c4b
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%
 
@@ -33,5 +31,5 @@ De forma predeterminada, la lista de entregas contiene los nombres y estados de 
 
 **Temas relacionados:**
 
-* [Panel de entregas](../../delivery/using/delivery-dashboard.md)
+* [Tablero de entregas](../../delivery/using/delivery-dashboard.md)
 * [Estados de entrega](../../delivery/using/delivery-statuses.md)
