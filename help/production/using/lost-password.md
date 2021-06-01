@@ -1,49 +1,47 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Contraseña perdida
 description: Contraseña perdida
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: tm+mt
-source-git-commit: 1fdee02e98ce66ec184d8587d0838557f027cf75
+exl-id: 064eb41f-6685-4ac1-adc5-40f9d5a2f96d
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 8%
 
 ---
 
-
 # Contraseña perdida{#lost-password}
 
 Puede cambiar o recuperar una contraseña perdida.
-Existen dos escenarios posibles:
+Hay dos escenarios posibles:
 
 * [Contraseña perdida por un operador de Adobe Campaign](#password-lost-by-campaign-operator)
-* [Contraseña interna perdida](#internal-password-lost)  (solo clientes locales)
+* [Se ha perdido la contraseña interna](#internal-password-lost)  (solo clientes locales)
 
-## Contraseña perdida por un operador de Campaña {#password-lost-by-campaign-operator}
+## Contraseña perdida por un operador de Campaign {#password-lost-by-campaign-operator}
 
 Si un operador de Adobe Campaign pierde su contraseña, puede cambiarla.
 Para realizar esto, siga los pasos a continuación:
 
 1. Conéctese mediante un operador con derechos de administrador.
-1. Haga clic con el botón secundario en un operador.
+1. Haga clic con el botón derecho en un operador.
 1. Seleccione **[!UICONTROL Actions]** > **[!UICONTROL Reset password]**.
 
    ![](assets/operator-passwd.png)
 
-1. Establezca la nueva contraseña del operador. Se recomienda que el operador cambie su contraseña la primera vez que se vuelva a conectar.
+1. Establezca la nueva contraseña del operador. Se recomienda que el operador cambie su contraseña cuando vuelva a conectarse por primera vez.
 
-## Contraseña interna perdida {#internal-password-lost}
+## Se ha perdido la contraseña interna {#internal-password-lost}
 
 >[!NOTE]
 >
->Esta sección solo se aplica a los clientes locales.
+>Esta sección solo se aplica a clientes locales.
 
-Si se pierde la contraseña interna, debe reinicializarla.
-Para ello, siga el procedimiento siguiente:
+Si se pierde la contraseña interna, debe reiniciarla.
+Para ello, siga el siguiente procedimiento:
 
 1. Edite el archivo **/usr/local/neolane/nl6/conf/serverConf.xml**.
 
@@ -56,7 +54,7 @@ Para ello, siga el procedimiento siguiente:
 
 1. Elimine la cadena entre comillas, en este caso: **myPassword**
 
-   De este modo, obtiene la siguiente línea:
+   Por lo tanto, obtiene la siguiente línea:
 
    ```
    !-- XTK authentication mode internalPassword : Password of internal account -->
@@ -77,4 +75,4 @@ Para ello, siga el procedimiento siguiente:
    Confirmation 
    ```
 
-1. Ahora puede utilizar su nueva contraseña para conectarse en modo **Interno**.
+1. Ahora puede utilizar su nueva contraseña para conectarse en modo **Internal**.
