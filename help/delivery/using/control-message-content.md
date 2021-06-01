@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Acerca de la capacidad de envío en Adobe Campaign Classic
 description: Obtenga más información sobre la administración de la capacidad de envío en Adobe Campaign Classic.
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 100%
 
