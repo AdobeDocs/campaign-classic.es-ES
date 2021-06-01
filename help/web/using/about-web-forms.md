@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Introducción a los formularios web
 description: Introducción a los formularios web en Campaign
@@ -7,9 +6,8 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 63602bed-ace6-4632-a735-5d268a7d72d0
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 100%
 
@@ -80,6 +78,7 @@ En las siguientes secciones se detalla cómo definir el contenido y el diseño d
 >
 >* Durante el diseño de la página, puede ver la renderización final en la pestaña **[!UICONTROL Preview]**. Para ver los cambios, guarde el formulario primero. Todos los errores se muestran en la pestaña **[!UICONTROL Log]**.
 >* Para asegurarse de que la visualización de página y el almacenamiento de la información se produzcan en la secuencia adecuada, active el modo de depuración en el formulario web. Para ello, vaya a la subpestaña **[!UICONTROL Preview]** y marque la casilla **[!UICONTROL Enable debug mode]**: todos los datos recopilados y los posibles errores de ejecución se muestran en la parte inferior de cada página.
+
 >
 
 
