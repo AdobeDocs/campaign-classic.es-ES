@@ -1,21 +1,19 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Elementos y atributos
 description: Elementos y atributos
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
+exl-id: a7ca0300-d250-429c-8ae1-2ae7dee82cf5
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 4%
 
 ---
 
-
-# elemento de unión {#join--element}
+# unir elemento {#join--element}
 
 ## Modelo de contenido {#content-model-7}
 
@@ -37,33 +35,33 @@ Ninguno
 
 ## Descripción {#description-7}
 
-Permite definir los campos que crean una combinación entre tablas SQL.
+Permite definir los campos que crean un vínculo entre tablas SQL.
 
 ## Uso y contexto de uso {#use-and-context-of-use-5}
 
-Un elemento `<join>` sólo se puede usar si el elemento principal `<element>` es de tipo &#39;link&#39;. Esto significa que el elemento principal debe tener declarado el atributo &quot;@type=link&quot;.
+Un elemento `<join>` solo se puede usar si el elemento principal `<element>` es de tipo &quot;vínculo&quot;. Esto significa que el elemento principal debe tener declarado el atributo &quot;@type=link&quot;.
 
-No es necesario especificar el nombre y la Área de nombres de la tabla remota en el elemento `<join>`. Deben especificarse en el elemento principal `<element>`.
+No es necesario especificar el nombre y el área de nombres de la tabla remota en el elemento `<join>` . Deben especificarse en el `<element>` principal.
 
 Por convención, los vínculos se definen al final del esquema.
 
-Si no se especifica el elemento `<join>` cuando se define el elemento de tipo de vínculo, el vínculo se colocará automáticamente en las claves principales de ambas tablas.
+Si el elemento `<join>` no se especifica cuando se define el elemento de tipo vínculo, el vínculo se coloca automáticamente en las claves principales de ambas tablas.
 
-## Descripción del atributo {#attribute-description-7}
+## Descripción de atributo {#attribute-description-7}
 
-* **dstFilterExpr (cadena)**: este atributo permite restringir el número de valores elegibles en la tabla remota.
-* **xpath-dst (string)**: este atributo recibe un atributo Xpath (@name de la tabla remota).
-* **xpath-src (string)**: este atributo recibe un atributo Xpath (@name en el esquema actual).
+* **dstFilterExpr (cadena)**: este atributo permite restringir el número de valores aptos en la tabla remota.
+* **xpath-dst (cadena)**: este atributo recibe un Xpath (@name attribute de la tabla remota).
+* **xpath-src (cadena)**: este atributo recibe un atributo Xpath (@name attribute en el esquema actual).
 
 ## Ejemplos {#examples-6}
 
-Vínculo entre el campo &#39;correo electrónico&#39; de la tabla actual y el campo &quot;@compagny-id&quot; de la tabla remota:
+Enlace entre el campo &quot;correo electrónico&quot; de la tabla actual y el campo &quot;@compagny-id&quot; de la tabla remota:
 
 ```
 <join xpath-dst="@compagny-id" xpath-src="@email"/>
 ```
 
-Vínculo filtrado hacia la tabla &quot;cus:Country&quot; basado en el contenido del campo &quot;@country&quot; que debe contener el valor &#39;EN&#39;:
+Vínculo filtrado hacia la tabla &quot;cus:Country&quot; basado en el contenido del campo &quot;@country&quot; que debe contener el valor &quot;EN&quot;:
 
 ```
 <element name="StockEN" type="link" label="MyLink" target="cus:Stock">
