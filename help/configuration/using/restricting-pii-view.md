@@ -1,21 +1,19 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Restricción de la vista PII
 description: Restricción de la vista PII
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-
-# Restringir vista de IP{#restricting-pii-view}
+# Restringir la vista IP{#restricting-pii-view}
 
 ## Información general {#overview}
 
@@ -52,7 +50,7 @@ Estas son las consecuencias de utilizar este atributo en Campaign:
 * Los datos pasarán a ser de solo lectura en la vista detallada.
 * Los datos solo se pueden utilizar dentro de filtros (lo que significa que, al usar algunas estrategias de dicotomía, aún puede adivinar los valores).
 * Cualquier expresión creada con un campo restringido también se verá restringida: lower(@email) se vuelve tan accesible como @email.
-* En un flujo de trabajo, puede añadir la columna restringida a la población objetivo como una columna adicional de la transición, pero sigue siendo inaccesible para los usuarios de Adobe Campaign.
+* En un flujo de trabajo, se puede añadir la columna restringida a la población objetivo como una columna adicional de la transición, pero los usuarios de Adobe Campaign siguen sin tener acceso a ella.
 * Al almacenar la población de destino en un grupo (lista), las características de los campos almacenados son las mismas que la fuente de datos.
 * El código JS no puede acceder a los datos de forma predeterminada.
 
@@ -92,4 +90,3 @@ A continuación se muestra un ejemplo de la extensión de la tabla de registro p
 >[!NOTE]
 >
 >Esta restricción se aplica a los usuarios no técnicos: un usuario técnico, con permisos relacionados, podrá recuperar datos. Por lo tanto, este método no es 100% seguro.
-
