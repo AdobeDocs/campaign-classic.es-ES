@@ -1,35 +1,33 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Elementos y atributos
 description: Elementos y atributos
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: a469d275fdd768fbd098a0027b5096872dbf6d89
+exl-id: 5745fc60-9df3-4ad0-bbeb-f6ae8c86a5aa
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 27%
 
 ---
 
-
 # Referencia de esquema {#schema-reference}
 
-Al editar un esquema, hay disponible un sistema de aprobación basado en el esquema de origen (xtk:srcSchema). También se pueden detectar algunos errores al actualizar la base de datos mediante la &quot;actualización de la estructura de la base de datos...&quot;. asistente.
+Al editar un esquema, hay disponible un sistema de aprobación basado en el esquema de origen (xtk:srcSchema). También se pueden detectar algunos errores al actualizar la base de datos utilizando la &quot;Actualización de estructura de la base de datos...&quot; asistente.
 
 De forma predeterminada, en los esquemas de Adobe Campaign, todos los atributos de tipo booleano son &quot;false&quot;. Para activarlos, debe especificar el atributo en el esquema y establecer su valor en &quot;true&quot;.
 
 Lista de referencia:
 
 * [Atributo](schema/attribute.md)
-* [Cadena de caracteres](schema/compute-string.md)
+* [Cadena Compute](schema/compute-string.md)
 * [Condición](schema/condition.md)
 * [Índice de base de datos](schema/db-index.md)
 * [Elemento](schema/element.md)
-* [Enumeración](schema/enumeration.md)
-* Ayuda de [](schema/help.md)
+* [Lista desglosada](schema/enumeration.md)
+* [Ayuda](schema/help.md)
 * [Unirse](schema/join.md)
 * [Clave](schema/key.md)
 * [Campo clave](schema/keyfield.md)
