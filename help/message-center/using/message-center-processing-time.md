@@ -6,10 +6,10 @@ audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: c797fd94-0c8d-480b-b22a-1489ac331e77
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 88%
+ht-degree: 86%
 
 ---
 
@@ -34,4 +34,4 @@ Los indicadores que se muestran en la sección **[!UICONTROL Indicators over the
 
 >[!NOTE]
 >
->Los umbrales de los indicadores de advertencia (naranja) y alerta (rojo) pueden configurarse en el Asistente para la implementación de Adobe Campaign. Consulte [Umbrales de monitorización](../../message-center/using/additional-configurations.md#monitoring-thresholds).
+>Los umbrales de los indicadores de advertencia (naranja) y alerta (rojo) pueden configurarse en el Asistente para la implementación de Adobe Campaign. Consulte [Umbrales del monitor](../../message-center/using/additional-configurations.md#monitoring-thresholds).
