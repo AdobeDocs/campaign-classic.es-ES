@@ -6,10 +6,10 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 3d85866a-6339-458c-807a-b267cce772b8
-source-git-commit: b46a483594f210c4530a934194c6d2b73deaeaf9
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
 source-wordcount: '691'
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
@@ -85,7 +85,7 @@ De forma predeterminada, el enrutamiento depende de la siguiente información:
    * Un evento que acaba de recopilarse y que aún no se ha procesado. La columna **[!UICONTROL Number of errors]** muestra el valor 0. La plantilla de correo electrónico aún no se ha vinculado.
    * Un evento procesado pero cuya confirmación es errónea. La columna **[!UICONTROL Number of errors]** muestra un valor que no es 0. Para saber cuándo se volverá a procesar este evento, consulte la columna **[!UICONTROL Process requested on]**.
 
-* **Entrega** pendiente: El evento se procesó y la plantilla de envío está vinculada. El correo electrónico está pendiente de envío y se aplica el proceso de envío clásico. Para obtener más información, puede abrir el [delivery](../../delivery/using/about-message-tracking.md).
+* **Entrega** pendiente: El evento se procesó y la plantilla de envío está vinculada. El correo electrónico está pendiente de envío y se aplica el proceso de envío clásico. Abra la entrega para obtener más información.
 * **Enviado**,  **** Ignorado y  **Error** de envío: Estos estados de entrega se recuperan mediante el flujo de trabajo  **** updateEventsStatus . Para obtener más información, se puede abrir la entrega correspondiente.
 * **Evento no cubierto**: Error en la fase de enrutamiento de mensajería transaccional. Por ejemplo, Adobe Campaign no encontró el correo electrónico que actúa como plantilla para el evento.
 * **Evento caducado**: Se ha alcanzado el número máximo de intentos de envío. El evento se considera nulo.
