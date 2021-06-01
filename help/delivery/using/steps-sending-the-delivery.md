@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuración y entrega de la entrega
 description: Configuración y entrega de la entrega
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-translation-type: ht
-source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 100%
 
