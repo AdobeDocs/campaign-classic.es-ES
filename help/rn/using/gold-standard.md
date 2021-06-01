@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Notas de la versión de [!DNL Gold Standard]
 description: Notas de la versión de Campaign Classic [!DNL Gold Standard]
@@ -7,9 +6,8 @@ feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-translation-type: ht
-source-git-commit: 113a3535cd197f9b654fc1e50e20886e76ee886a
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 100%
 
@@ -48,8 +46,10 @@ _22 de diciembre de 2020_
 > * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**.
 > * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
 > * Si está utilizando la integración de Experience Cloud Triggers mediante autenticación oAuth, debe ir a Adobe I/O como se detalla [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación oAuth heredado con Campaign se eliminará el **30 de noviembre de 2021**.
+
 >
->Obtenga más información en las Preguntas frecuentes sobre la actualización a [[!DNL Gold Standard] 11](https://helpx.adobe.com/es/campaign/kb/sms-connector-protocol-and-settings.html).
+>
+Obtenga más información en las Preguntas frecuentes sobre la actualización a [[!DNL Gold Standard] 11](https://helpx.adobe.com/es/campaign/kb/sms-connector-protocol-and-settings.html).
 
 La versión 9032@d3b452f incluye las siguientes mejoras y correcciones:
 
@@ -104,11 +104,11 @@ _29 de abril de 2020_
 
 La versión 9032@3a9dc9c incluye las siguientes correcciones:
 
-* Se ha mejorado la seguridad en el seguimiento de enlaces en el correo electrónico. Esta opción está habilitada de forma predeterminada para todos los clientes. Hay disponible una función de seguridad adicional y mejorada que se puede habilitar si se pone en contacto con el Servicio de atención al cliente. Encuentre más detalles sobre la función y los pasos para que los clientes que no están alojados puedan habilitarla en la [Lista de comprobación de seguridad y privacidad](https://helpx.adobe.com/es/campaign/kb/acc-security.html#signature-mechanism).
+* Se ha mejorado la seguridad en el seguimiento de enlaces en el correo electrónico. Esta opción está habilitada de forma predeterminada para todos los clientes. Hay disponible una función de seguridad adicional y mejorada que se puede habilitar si se pone en contacto con el Servicio de atención al cliente. Encuentre más detalles sobre la función y los pasos para que los clientes que no están alojados puedan habilitarla en la [Lista de comprobación de seguridad y privacidad](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism).
 
 >[!CAUTION]
 >
->Si tiene problemas con las notificaciones push mediante vínculos de seguimiento o con envíos que utilizan etiquetas de anclaje, le recomendamos que desactive el nuevo mecanismo de firma para el seguimiento de vínculos. El procedimiento se detalla [en esta página](https://helpx.adobe.com/es/campaign/kb/acc-security.html#signature-mechanism).
+>Si tiene problemas con las notificaciones push mediante vínculos de seguimiento o con envíos que utilizan etiquetas de anclaje, le recomendamos que desactive el nuevo mecanismo de firma para el seguimiento de vínculos. El procedimiento se detalla [en esta página](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism).
 
 * Se ha corregido un problema que podía impedir que las imágenes se mostraran en envíos de línea. (NEO-23207)
 * Se ha corregido un problema con la actividad **File Transfer** que impedía que la autenticación basada en claves SFTP funcionara en Debian 9. (NEO-23183)
