@@ -6,10 +6,10 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
 source-wordcount: '560'
-ht-degree: 64%
+ht-degree: 67%
 
 ---
 
@@ -57,7 +57,7 @@ Una vez creadas las direcciones, puede mostrar su vista previa y personalizació
 
 ## Datos de personalización {#personalization-data}
 
-Es posible utilizar los datos en la plantilla de mensaje para probar la personalización del mensaje transaccional. Esta funcionalidad se utiliza para generar una vista previa o enviar una prueba. También puede mostrar la renderización del mensaje para varios proveedores de acceso a Internet. Para obtener más información, consulte [renderización de la bandeja de entrada](../../delivery/using/inbox-rendering.md).
+Es posible utilizar los datos en la plantilla de mensaje para probar la personalización del mensaje transaccional. Esta funcionalidad se utiliza para generar una vista previa o enviar una prueba. También puede mostrar la renderización del mensaje para varios proveedores de acceso a Internet. Para obtener más información, consulte [Procesamiento de bandeja de entrada](../../delivery/using/inbox-rendering.md).
 
 La finalidad de estos datos es probar los mensajes antes de la entrega final. Estos mensajes no coinciden con los datos reales que se van a procesar. Sin embargo, la estructura XML debe ser idéntica a la del evento almacenado en la instancia de ejecución, como se muestra a continuación:
 
@@ -91,7 +91,7 @@ Una vez que haya creado una o varias direcciones semilla y el cuerpo del mensaje
 
    ![](assets/messagecenter_create_seedaddr_009.png)
 
-Con las direcciones semilla, también se puede mostrar la renderización del mensaje para varios proveedores de acceso a Internet. Para obtener más información, consulte [renderización de la bandeja de entrada](../../delivery/using/inbox-rendering.md).
+Con las direcciones semilla, también se puede mostrar la renderización del mensaje para varios proveedores de acceso a Internet. Para obtener más información, consulte [Procesamiento de bandeja de entrada](../../delivery/using/inbox-rendering.md).
 
 ## Envío de una prueba {#sending-a-proof}
 
