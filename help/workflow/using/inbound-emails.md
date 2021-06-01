@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Correos electrónicos entrantes
 description: Descubra más información sobre la actividad del flujo de trabajo Correos electrónicos entrantes
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: b2a05e07-a7d7-436b-b2c6-90ab55d031cd
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
 
