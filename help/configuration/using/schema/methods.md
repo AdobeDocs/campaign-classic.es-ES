@@ -1,25 +1,23 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Elementos y atributos
 description: Elementos y atributos
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
+exl-id: f45e32ce-6534-4df2-ac7c-ba1134f0ffc8
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 22%
 
 ---
 
-
 # elemento de métodos {#methods--element}
 
 ## Modelo de contenido {#content-model-11}
 
-métodos:==método
+métodos:==method
 
 ## Atributos {#attributes-11}
 
@@ -37,7 +35,7 @@ method
 
 Este elemento permite definir un elemento `<method>`. Es obligatorio para declarar un método.
 
-## Descripción del atributo {#attribute-description-11}
+## Descripción de atributo {#attribute-description-11}
 
 Este elemento no tiene atributos.
 
