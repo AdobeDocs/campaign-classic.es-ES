@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Espacio de trabajo de Adobe Campaign
 description: Aprenda a utilizar y personalizar el espacio de trabajo de Campaign
@@ -7,9 +6,8 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-translation-type: ht
-source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 100%
 
@@ -166,7 +164,7 @@ En los campos que expresan una duración (por ejemplo, un periodo de validez de 
 
 ![](assets/enter_unit_sample.png)
 
-## Vídeo tutorial {#video}
+## Tutorial en vídeo {#video}
 
 Este vídeo presenta el espacio de trabajo de Campaign Classic.
 
