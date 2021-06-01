@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Creación e identificación de la entrega
 description: Creación e identificación de la entrega
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%
 
@@ -53,5 +51,5 @@ El contenido de la entrega está listo para configurarse. La definición del con
 
 * [Definición del contenido del correo electrónico](../../delivery/using/defining-the-email-content.md)
 * [Definición del contenido del SMS](../../delivery/using/sms-create.md#defining-the-sms-content)
-* [Definición del contenido de correo postal](../../delivery/using/defining-the-direct-mail-content.md)
+* [Definición del contenido de correo directo](../../delivery/using/defining-the-direct-mail-content.md)
 * [Notificaciones push](../../delivery/using/about-mobile-app-channel.md)
