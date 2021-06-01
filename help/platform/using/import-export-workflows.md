@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Importación y exportación de datos mediante flujos de trabajo
 description: Obtenga información sobre cómo importar y exportar datos mediante flujos de trabajo en Campaign Classic.
@@ -7,9 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 266ecd49-7101-4ff1-941f-1f9b39b44955
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 100%
 
