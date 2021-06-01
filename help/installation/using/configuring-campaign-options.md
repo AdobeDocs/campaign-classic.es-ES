@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuración de opciones de Campaign
 description: Obtenga información sobre cómo configurar las opciones de Campaign
@@ -7,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 3413a54b1f45d23dcec9bf363bcf714a94642245
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '3941'
 ht-degree: 3%
@@ -26,7 +25,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
 * La modificación o actualización de las opciones de Adobe Campaign solo pueden realizarla usuarios expertos.
 
 
-## Envío {#delivery}
+## Entrega {#delivery}
 
 <table> 
  <thead> 
