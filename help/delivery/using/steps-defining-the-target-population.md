@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Definición de la población objetivo
 description: Definición de la población objetivo
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 100%
 
@@ -228,7 +226,7 @@ Se puede combinar la definición de un destinatario de prueba específico y el u
 Asimismo, consulte lo siguiente:
 
 * [Selección del destino de la prueba](#selecting-the-proof-target)
-* [Sobre las direcciones semilla](../../delivery/using/about-seed-addresses.md)
+* [Acerca de las direcciones semilla](../../delivery/using/about-seed-addresses.md)
 * [Ejemplo de uso: selección de direcciones semilla según ciertos criterios](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
 
 ## Videotutorial {#seeds-and-proofs-video}
