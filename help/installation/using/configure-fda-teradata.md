@@ -1,31 +1,29 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuración del acceso a Teradata
-description: Obtenga información sobre cómo configurar el acceso a Teradata en FDA
+description: Obtenga información sobre cómo configurar el acceso al Teradata en FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 83%
 
 ---
 
-
 # Configuración del acceso a Teradata {#configure-access-to-teradata}
 
-Utilice la opción Campaña [Acceso de datos federado](../../installation/using/about-fda.md) (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Teradata.
+Utilice la opción [Federated Data Access](../../installation/using/about-fda.md) (FDA) de Campaign para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso al Teradata.
 
-1. Instalar y configurar [controladores de Teradata](#teradata-config)
-1. Configurar la cuenta externa [de Teradata](#teradata-external) en Campaña
-1. Configure [configuración adicional](#teradata-additional-configurations) para Teradata y el servidor de Campaña
+1. Instale y configure [controladores de Teradata](#teradata-config)
+1. Configuración de la [cuenta externa](#teradata-external) del Teradata en Campaign
+1. Configure [configuración adicional](#teradata-additional-configurations) para el Teradata y el servidor de Campaign
 
 ## Configuración de teradata {#teradata-config}
 
-Debe instalar controladores para Teradata para que la conexión a la Campaña esté implementada.
+Debe instalar controladores para que el Teradata tenga implementada la conexión con Campaign.
 
 1. Instale [el controlador ODBC para Teradata](https://downloads.teradata.com/download/connectivity/odbc-driver/linux).
 
@@ -75,7 +73,7 @@ Debe instalar controladores para Teradata para que la conexión a la Campaña es
 
 La cuenta externa Teradata permite conectar la instancia de Campaign a la base de datos externa Teradata.
 
-1. En la Campaña **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+1. En Campaña **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
 1. Haga clic en **[!UICONTROL New]** y seleccione **[!UICONTROL External database]** como **[!UICONTROL Type]**.
 
@@ -83,7 +81,7 @@ La cuenta externa Teradata permite conectar la instancia de Campaign a la base d
 
 1. Para configurar la cuenta externa **[!UICONTROL Teradata]**, debe especificar:
 
-   * **[!UICONTROL Type]**:: Elija el  **[!UICONTROL Teradata]** tipo.
+   * **[!UICONTROL Type]**: Elija el  **[!UICONTROL Teradata]** tipo .
 
    * **[!UICONTROL Server]**: URL o nombre del servidor Teradata
 
@@ -91,7 +89,7 @@ La cuenta externa Teradata permite conectar la instancia de Campaign a la base d
 
    * **[!UICONTROL Password]**: Contraseña utilizada para conectarse a la base de datos Teradata
 
-   * **[!UICONTROL Database]**:: Nombre de la base de datos (opcional)
+   * **[!UICONTROL Database]**: Nombre de la base de datos (opcional)
 
    * **[!UICONTROL Options]**: Opciones que pasan por Teradata. Utilice el siguiente formato: &#39;parameter=value&#39;. Utilice una semicolumna como separador entre valores.
 
@@ -103,15 +101,15 @@ Cuando varios usuarios de Adobe Campaign se conectan con la misma cuenta externa
 
 ![](assets/ext_account_20.png)
 
-Cuando se configura esta opción, cada vez que un usuario de Campaña realiza una consulta en la base de datos de Teradata, Adobe Campaign envía metadatos, que consisten en una lista de claves, asociados a este usuario. Los administradores de Teradata pueden utilizar estos datos para fines de auditoría o para administrar los derechos de acceso.
+Cuando se configura esta opción, cada vez que un usuario de Campaign realiza una consulta en la base de datos de Teradata, Adobe Campaign envía metadatos que consisten en una lista de claves asociada a este usuario. Los administradores de Teradata pueden utilizar estos datos para fines de auditoría o para administrar los derechos de acceso.
 
 >[!NOTE]
 >
 >Para obtener más información sobre **[!UICONTROL Query banding]**, consulte la [Documentación oficial de Teradata](https://docs.teradata.com/reader/cY5B~oeEUFWjgN2kBnH3Vw/a5G1iz~ve68yTMa24kVjVw).
 
-Para configurar las bandas de Consulta, siga los pasos a continuación:
+Para configurar la banda de Consulta, siga los pasos a continuación:
 
-1. Utilice **[!UICONTROL Default]** para introducir una banda de consulta predeterminada que se utilizará si un usuario no tiene una banda de consulta asociada. Si este campo se deja vacío, los usuarios sin banda de consulta no podrán utilizar Teradata.
+1. Utilice la **[!UICONTROL Default]** para introducir una banda de consulta predeterminada que se utilizará si un usuario no tiene ninguna banda de consulta asociada. Si este campo se deja vacío, los usuarios sin banda de consulta no podrán utilizar Teradata.
 
 1. Utilice el campo **[!UICONTROL Users]** para especificar una banda de consulta para cada usuario. Puede agregar todos los pares clave/valor que necesite, por ejemplo, priority=1;workload=high. Si el usuario no tiene ninguna banda de consulta asignada, se aplica el campo **[!UICONTROL Default]**.
 
@@ -123,9 +121,9 @@ Si aparece el siguiente error al probar la conexión **TIM-030008 Date &#39;2&#3
 
 Error de ODBC **ODB-240000: [no se encontró el nombre del origen de datos de Microsoft][ODBC Driver Manager] y no se especificó ningún controlador predeterminado.** se produce con Windows si se utiliza un controlador 16.X. Adobe Campaign espera que el nombre de Teradata sea &#39;{teradata}&#39; en odbcinst.ini.
 
-* A partir de la Campaña 18.10, puede agregar ODBCDRiverName=&quot;Teradata Database ODBC Driver 16.10&quot; en las opciones de la cuenta externa. El número de versión puede cambiar, y se puede encontrar el nombre exacto ejecutando odbcad32.exe y accediendo a la pestaña Controladores.
+* A partir de Campaign 18.10, puede añadir ODBCDriverName=&quot;Teradata Database ODBC Driver 16.10&quot; en las opciones de la cuenta externa. El número de versión puede cambiar, y se puede encontrar el nombre exacto ejecutando odbcad32.exe y accediendo a la pestaña Controladores.
 
-* Si utiliza una versión de Campaña anterior, deberá copiar la sección Teradata de odbcinst.ini creada por la instalación del controlador en una nueva sección denominada Teradata. Regedit se puede utilizar en este caso. Si su base está en latin1, deberá agregar **APICharSize=1** en las opciones.
+* Si utiliza una versión anterior de Campaign, deberá copiar la sección de Teradata de odbcinst.ini creada por la instalación del controlador en una nueva sección denominada Teradata. Regedit se puede utilizar en este caso. Si la base está en latin1, tendrá que agregar **APICharSize=1** en las opciones.
 
 ## Configuraciones adicionales {#teradata-additional-configurations}
 
@@ -152,7 +150,7 @@ Customers with a Latin-1 Teradata database migrating to a recent Campaign Classi
 
 ### Configuración del usuario {#user-configuration}
 
-Se requieren los siguientes derechos en la base de datos externa: cree/suelte/ejecute procedimientos personalizados, cree/suelte/inserte/seleccione tablas. También es posible que tenga que crear funciones de modo de usuario si desea utilizar las funciones md5 y sha2 en la instancia de Adobe Campaign.
+Se requieren los siguientes derechos en la base de datos externa: cree, suelte o ejecute procedimientos personalizados, cree, suelte, inserte o seleccione tablas. También es posible que tenga que crear funciones de modo de usuario si desea utilizar las funciones md5 y sha2 en la instancia de Adobe Campaign.
 
 Asegúrese de configurar la zona horaria específica. Debe coincidir con el que se establecerá en la cuenta externa creada en la instancia de Adobe Campaign.
 
