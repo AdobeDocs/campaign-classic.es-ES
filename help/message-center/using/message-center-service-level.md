@@ -6,10 +6,10 @@ audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: b8dc9891-84c8-445d-ad6a-d06048c8faaf
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
@@ -34,4 +34,4 @@ Los indicadores que se muestran en la sección **[!UICONTROL Indicators over the
 
 >[!NOTE]
 >
->Los umbrales del indicador de advertencia (naranja) y alerta (rojo) pueden configurarse en el asistente de implementación. Consulte [Umbrales de monitorización](../../message-center/using/additional-configurations.md#monitoring-thresholds).
+>Los umbrales del indicador de advertencia (naranja) y alerta (rojo) pueden configurarse en el asistente de implementación. Consulte [Umbrales del monitor](../../message-center/using/additional-configurations.md#monitoring-thresholds).
