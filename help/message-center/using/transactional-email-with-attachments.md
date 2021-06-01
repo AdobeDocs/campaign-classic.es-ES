@@ -1,27 +1,26 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Añadir archivos adjuntos a mensajes transaccionales con Adobe Campaign Classic
-description: Aprenda a enviar correos electrónicos transaccionales con archivos adjuntos individuales o personalizados mediante Adobe Campaign Classic
+title: Envío de correos electrónicos transaccionales con adjuntos
+description: Aprenda a enviar correos electrónicos transaccionales con archivos adjuntos individuales o personalizados mediante Adobe Campaign Classic.
 audience: message-center
 content-type: reference
 topic-tags: use-case
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '629'
-ht-degree: 100%
+source-git-commit: d39b15b0efc6cbd6ab24e074713be6f8fc90e5fc
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 84%
 
 ---
 
-# Caso de uso: envío de correos electrónicos transaccionales con archivos adjuntos{#transactional-email-with-attachments}
+# Caso de uso: Enviar correos electrónicos transaccionales con archivos adjuntos {#transactional-email-with-attachments}
 
 El propósito de este caso de uso es añadir archivos adjuntos de los correos electrónicos sobre la marcha a las entregas salientes.
 
 ## Pasos clave {#key-steps}
 
-En este escenario, veremos cómo enviar correos electrónicos de transacciones con archivos adjuntos individuales o personalizados. Los archivos adjuntos no se precargan en el servidor de mensajería transaccional sino que se generan sobre la marcha.
+En este escenario, veremos cómo enviar correos electrónicos de transacciones con archivos adjuntos individuales o personalizados. Los archivos adjuntos no se precargan en el servidor de mensajería transaccional: en su lugar, se generarán sobre la marcha.
 
 Al capturar las interacciones o los detalles del cliente, es posible que necesite volver a enviar esta información al cliente al final del proceso, por ejemplo, en un archivo PDF adjunto a un correo electrónico.
 
@@ -48,8 +47,8 @@ En este caso, los archivos adjuntos no se generan previamente sino que se añade
 Antes de implementar este escenario, lea atentamente las directrices siguientes:
 
 * Las instancias de mensajería transaccional no deben utilizarse para almacenar, exportar o cargar archivos o datos. Solo se pueden utilizar para datos de evento e información relacionada. No deben considerarse como un sistema de almacenamiento de archivos.
-* Dado que no hay acceso directo a las instancias o al servidor de mensajería transaccional fuera de Adobe, no hay una forma estándar de insertar dichos archivos en estos servidores (sin acceso a FTP).
-* No es correcto contractualmente utilizar el espacio en disco en instancias de mensaje transaccional para almacenar archivos de cualquier tipo, ni siquiera para los archivos adjuntos.
+* Dado que no hay acceso directo a las instancias o los servidores de mensajería transaccional fuera del Adobe, no hay una forma estándar de insertar estos archivos en estos servidores (sin acceso a FTP).
+* No es correcto contractualmente utilizar el espacio en disco en las instancias de mensajería transaccional para almacenar archivos de cualquier tipo, ni siquiera para los archivos adjuntos.
 * Para hospedar estos archivos debe utilizar otro sistema de discos en línea. Necesita un acceso FTP a este sistema y poder escribir y eliminar archivos.
 
 >[!NOTE]
