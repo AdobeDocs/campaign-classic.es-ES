@@ -1,26 +1,24 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuración del acceso a Hadoop
-description: Obtenga información sobre cómo configurar el acceso a Hadoop en FDA
+description: Obtenga información sobre cómo configurar el acceso al Hadoop en FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: e3a97e55-dd8b-41e1-b48c-816d973f62a8
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 81%
 
 ---
 
-
 # Configuración del acceso a Hadoop {#configure-access-to-hadoop}
 
-Utilice la opción Campaña **Acceso de datos federado** (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Hadoop.
+Utilice la opción **Federated Data Access** (FDA) de Campaign para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Hadoop.
 
 1. Configurar [base de datos de Hadoop](#configuring-hadoop)
-1. Configurar la cuenta externa [de Hadoop](#hadoop-external) en Campaña
+1. Configurar el Hadoop [cuenta externa](#hadoop-external) en Campaign
 
 ## Configuración de Hadoop 3.0 {#configuring-hadoop}
 
@@ -37,7 +35,7 @@ La conexión a una base de datos externa de Hadoop en FDA requiere las siguiente
    systemctl start nlserver.service
    ```
 
-1. En Campaign Classic, puede configurar la cuenta externa [!DNL Hadoop]. Para obtener más información sobre cómo configurar su cuenta externa, consulte [esta sección](#hadoop-external).
+1. En Campaign Classic, puede configurar la cuenta externa [!DNL Hadoop]. Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#hadoop-external).
 
 ## Cuenta externa de Hadoop {#hadoop-external}
 
@@ -188,4 +186,3 @@ Si necesita conectarse a Hadoop 2.1, siga los pasos descritos a continuación pa
    ```
 
 1. Cree la cuenta externa de Hadoop, tal como se detalla en [esta sección](#hadoop-external).
-
