@@ -1,14 +1,12 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Notas de la versión de Campaign 18.10
 description: Notas de la versión de Campaign 18.10
-feature: Overview
+feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: 57996f77-4ac2-402a-95db-b75d4bea4eeb
-translation-type: tm+mt
-source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '2372'
 ht-degree: 98%
