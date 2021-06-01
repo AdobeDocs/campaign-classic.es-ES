@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Envío, monitorización y seguimiento de SMS
 description: Obtenga información sobre cómo enviar, monitorizar y rastrear SMS en Campaign
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 100%
 
@@ -24,7 +22,7 @@ Para aprobar el mensaje y enviarlo a los destinatarios de la entrega que está c
 El proceso detallado para validar y realizar un envío se detalla en las siguientes secciones:
 
 * [Validación de la entrega](../../delivery/using/steps-validating-the-delivery.md)
-* [Realización de la entrega](../../delivery/using/steps-sending-the-delivery.md)
+* [Envío de la entrega](../../delivery/using/steps-sending-the-delivery.md)
 
 ## Parámetros avanzados {#advanced-parameters}
 
@@ -62,8 +60,8 @@ Estas son las opciones disponibles:
 
 Después de enviar mensajes, puede monitorizar y realizar un seguimiento de las entregas. Para obtener más información, consulte estas secciones:
 
-* [Monitorización de un envío](../../delivery/using/about-delivery-monitoring.md)
-* [Comprensión de los errores de envío](../../delivery/using/understanding-delivery-failures.md)
+* [Monitorización de una entrega](../../delivery/using/about-delivery-monitoring.md)
+* [Comprensión de los errores de entrega](../../delivery/using/understanding-delivery-failures.md)
 * [Acerca del seguimiento de mensajes](../../delivery/using/about-message-tracking.md)
 
 ## Procesamiento de mensajes entrantes {#processing-inbound-messages}
