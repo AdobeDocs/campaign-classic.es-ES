@@ -6,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 13%
@@ -40,7 +40,7 @@ Las capacidades de mensajería transaccional están diseñadas para admitir la e
 
 El módulo de mensajería transaccional de Adobe Campaign se integra en un sistema de información que devuelve eventos que se deben cambiar a mensajes transaccionales personalizados. Estos mensajes se pueden enviar por separado o en serie por correo electrónico, SMS o notificaciones push.
 
-Esta función se basa en una arquitectura específica, donde la **instancia de ejecución** está separada de la **instancia de control**. Esta distribución garantiza una mayor disponibilidad y una mejor administración de la carga. Para obtener más información, consulte [Instancias de mensajería transaccional](../../message-center/using/transactional-messaging-architecture.md).
+Esta función se basa en una arquitectura específica, donde la **instancia de ejecución** está separada de la **instancia de control**. Esta distribución garantiza una mayor disponibilidad y una mejor administración de la carga. Para obtener más información, consulte [Arquitectura de mensajería transaccional](../../message-center/using/transactional-messaging-architecture.md).
 
 >[!NOTE]
 >
@@ -81,8 +81,8 @@ En la **instancia de control**, debe realizar las siguientes acciones:
 
 Una vez que haya diseñado y publicado la plantilla de mensaje transaccional, si se activa un evento correspondiente, los pasos principales a continuación se realizan en la **instancia de ejecución**:
 
-1. Cuando el sistema de información externa genera el evento, los datos relevantes se envían a Campaign mediante los métodos **PushEvent** y **PushEvents**. Consulte [Recopilación de eventos](#event-collection).
-1. El evento está vinculado a la plantilla de mensaje adecuada. Consulte [Enrutamiento hacia una plantilla](#routing-towards-a-template).
+1. Cuando el sistema de información externa genera el evento, los datos relevantes se envían a Campaign mediante los métodos **PushEvent** y **PushEvents**. Consulte [Recopilación de eventos](../../message-center/using/about-event-processing.md#event-collection).
+1. El evento está vinculado a la plantilla de mensaje adecuada. Consulte [Enrutamiento hacia una plantilla](../../message-center/using/about-event-processing.md#routing-towards-a-template).
 1. Una vez finalizada la fase de enriquecimiento, se realiza la entrega. Consulte [Ejecución de envío](../../message-center/using/delivery-execution.md). Cada destinatario objetivo recibe un mensaje personalizado.
 
 ## Temas relacionados {#related-topics}
@@ -90,4 +90,4 @@ Una vez que haya diseñado y publicado la plantilla de mensaje transaccional, si
 * [Introducción a los canales de comunicación](../../delivery/using/communication-channels.md)
 * [Pasos clave de creación de entregas](../../delivery/using/steps-about-delivery-creation-steps.md)
 * [Arquitectura de la mensajería transaccional](../../message-center/using/transactional-messaging-architecture.md)
-* [Acerca de los informes de mensajería transaccional](../../message-center/using/about-transactional-messaging-reports.md)
+* [Acceso a informes de mensajería transaccional](../../message-center/using/about-transactional-messaging-reports.md)
