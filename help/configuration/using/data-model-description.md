@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Descripción del modelo de datos de Adobe Campaign Classic
 description: Este documento describe el modelo de datos de Adobe Campaign.
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
+exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '2374'
 ht-degree: 1%
 
 ---
-
 
 # Descripción del modelo de datos de Campaign{#data-model-description}
 
@@ -31,7 +29,7 @@ Para acceder a la descripción de cada tabla, vaya a **[!UICONTROL Admin > Confi
 
 Adobe Campaign se basa en una base de datos relacional que contiene tablas vinculadas.
 
-El diagrama siguiente muestra las uniones entre las principales tablas comerciales del modelo de datos de Adobe Campaign y los campos principales de cada una.
+En el diagrama siguiente se muestran las uniones entre las principales tablas comerciales del modelo de datos de Adobe Campaign y los campos principales de cada una.
 
 <!--![](assets/data-model_diagram.png)-->
 
@@ -262,12 +260,12 @@ Este conjunto de tablas está vinculado al **Mobile App Channel**, que permite e
 
 ## Módulo de marketing social {#social-marketing-module}
 
-Este conjunto de tablas está vinculado al módulo **Administración de redes sociales** , que permite interactuar con clientes y posibles clientes a través de Facebook y Twitter. Para obtener más información, consulte [Acerca del marketing social](../../social/using/about-social-marketing.md).
+Este conjunto de tablas está vinculado al módulo **Managing social networks** , que permite interactuar con clientes y posibles clientes a través de Facebook y Twitter. Para obtener más información, consulte [Acerca del marketing social](../../social/using/about-social-marketing.md).
 
 ![](assets/data-model_social.png)
 
 * **NmsVisitor**: Esta tabla coincide con el esquema  **nms:** visitorschema. Contiene información sobre los visitantes.
-* **NmsVisitorSub**: Esta tabla coincide con el  **nms:** visitorSubschema. Permite vincular a un visitante a los servicios a los que se ha suscrito (Twitter o Facebook).
+* **NmsVisitorSub**: Esta tabla coincide con el  **nms:** visitorSubschema. Le permite vincular a un visitante a los servicios a los que se ha suscrito (Twitter o Facebook).
 * **NmsFriendSendRel**: Esta tabla coincide con el  **nms:** friendlyRelschema. Permite vincular visitantes con sus amigos en el contexto del servicio de Facebook.
 * **NmsVisitorInterestRel**: Esta tabla coincide con el  **nms:** visitorInterestRelschema. Permite vincular visitantes con sus intereses.
 * **NmsInterest**: Esta tabla coincide con el esquema  **nms:** interestschema. Contiene la lista de intereses de cada visitante.
