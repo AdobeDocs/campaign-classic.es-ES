@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Adición de campos a un formulario web
 description: Adición de campos a un formulario web
@@ -7,9 +6,8 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '2457'
 ht-degree: 100%
 
@@ -381,6 +379,7 @@ Se puede almacenar el vínculo a estos archivos en una variable local o en un ca
 >* Adobe Campaign no controla el tamaño ni el tipo de recurso cargado: por lo tanto, se recomienda encarecidamente utilizar campos de carga únicamente para sitios de intranet de tipo seguro.
 >* Si hay varios servidores vinculados a la instancia (“equilibrio de carga”), debe asegurarse de que las llamadas al formulario web lleguen al mismo servidor.
 >* Estas implementaciones requieren la asistencia del equipo de consultoría de Adobe Campaign.
+
 >
 
 
