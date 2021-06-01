@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Líneas de comandos
 description: Líneas de comandos
 audience: installation
 content-type: reference
 topic-tags: appendices
-translation-type: tm+mt
-source-git-commit: 95d0686c4ddeb4e25eb918ca92cbd6a0b1aa1f3c
+exl-id: 5cd4abb0-2bd2-4b23-902c-41b08a1d2f7a
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 4%
 
 ---
-
 
 # Líneas de comandos{#command-lines}
 
@@ -51,4 +49,3 @@ El siguiente comando configura la instancia **demo** con el servidor de tipo SQL
 ```
  nlserver config -setdblogin:db:campaign:myBase/password@dbServer -instance:demo
 ```
-
