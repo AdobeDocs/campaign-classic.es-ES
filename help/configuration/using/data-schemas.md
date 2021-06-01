@@ -1,29 +1,27 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Esquemas de datos
 description: Esquemas de datos
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 2%
 
 ---
 
-
 # Esquemas de datos{#data-schemas}
 
 ## Principios {#principles}
 
-Para editar, crear y configurar los esquemas, haga clic en el nodo **[!UICONTROL Administration > Configuration > Data schemas]** de la consola cliente de Adobe Campaign.
+Para editar, crear y configurar los esquemas, haga clic en el nodo **[!UICONTROL Administration > Configuration > Data schemas]** de la consola del cliente de Adobe Campaign.
 
 >[!NOTE]
 >
->Los esquemas de datos predeterminados solo pueden eliminarlos los administradores de la consola de Adobe Campaign Classic.
+>Los esquemas de datos predeterminados solo se pueden eliminar mediante un administrador de la consola de Adobe Campaign Classic.
 
 ![](assets/d_ncs_integration_schema_navtree.png)
 
@@ -33,38 +31,38 @@ El campo de edición muestra el contenido XML del esquema de origen:
 
 >[!NOTE]
 >
->El control de edición &quot;Nombre&quot; permite introducir la clave de esquema compuesta por el nombre y la Área de nombres. Los atributos &quot;name&quot; y &quot;Área de nombres&quot; del elemento raíz del esquema se actualizan automáticamente en la zona de edición XML del esquema.
+>El control de edición &quot;Name&quot; permite introducir la clave de esquema formada por el nombre y el área de nombres. Los atributos &quot;name&quot; y &quot;namespace&quot; del elemento raíz del esquema se actualizan automáticamente en la zona de edición XML del esquema.
 
-La previsualización genera automáticamente el esquema extendido:
+La vista previa genera automáticamente el esquema extendido:
 
 ![](assets/d_ncs_integration_schema_edition2.png)
 
 >[!NOTE]
 >
->Cuando se guarda el esquema de origen, la generación del esquema extendido se inicia automáticamente.
+>Cuando se guarda el esquema de origen, se inicia automáticamente la generación del esquema ampliado.
 
-Si necesita comprobar la estructura completa de un esquema, puede utilizar la ficha previsualización. Si el esquema se ha ampliado, podrá visualizar todas sus extensiones. Como complemento, la ficha Documentación muestra todos los atributos y elementos de esquema, así como sus propiedades (Campo SQL, tipo/longitud, etiqueta, descripción). La ficha Documentación solo se aplica a esquemas generados. Para obtener más información sobre esto, consulte la sección [Regeneración de esquemas](../../configuration/using/regenerating-schemas.md).
+Si necesita comprobar la estructura completa de un esquema, puede utilizar la pestaña preview . Si el esquema se ha ampliado, podrá visualizar todas sus extensiones. Como complemento, la pestaña Documentation muestra todos los atributos y elementos del esquema, así como sus propiedades (campo SQL, tipo/longitud, etiqueta, descripción). La pestaña Documentation solo se aplica a esquemas generados. Para obtener más información, consulte la sección [Regeneración de esquemas](../../configuration/using/regenerating-schemas.md) .
 
 ## Ejemplo: creación de una tabla de contrato {#example--creating-a-contract-table}
 
-En el siguiente ejemplo, queremos crear una nueva tabla para **contratos** en el modelo de base de datos de la base de datos de Adobe Campaign. Esta tabla le permite almacenar los nombres y apellidos y las direcciones de correo electrónico de los titulares y cotenedores para cada contrato.
+En el siguiente ejemplo, deseamos crear una nueva tabla para **contratos** en el modelo de base de datos de la base de datos de Adobe Campaign. Esta tabla permite almacenar los nombres y apellidos y las direcciones de correo electrónico de los titulares y cotitulares de cada contrato.
 
 Para ello, debe crear el esquema de la tabla y actualizar la estructura de la base de datos para generar la tabla correspondiente. Siga estos pasos:
 
 1. Edite el nodo **[!UICONTROL Administration > Configuration > Data schemas]** del árbol de Adobe Campaign y haga clic en **[!UICONTROL New]** .
-1. Elija la opción **[!UICONTROL Create a new table in the data model]** y haga clic en **[!UICONTROL Next]**.
+1. Elija la opción **[!UICONTROL Create a new table in the data model]** y haga clic en **[!UICONTROL Next]** .
 
    ![](assets/s_ncs_configuration_create_new_schema.png)
 
-1. Especifique un nombre para la tabla y una Área de nombres.
+1. Especifique un nombre para la tabla y un área de nombres.
 
    ![](assets/s_ncs_configuration_create_new_param.png)
 
    >[!NOTE]
    >
-   >De forma predeterminada, los esquemas creados por los usuarios se almacenan en la Área de nombres &#39;cus&#39;. Para obtener más información sobre esto, consulte [Identificación de un esquema](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
+   >De forma predeterminada, los esquemas creados por los usuarios se almacenan en el espacio de nombres &quot;cus&quot;. Para obtener más información, consulte [Identificación de un esquema](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
 
-1. Cree el contenido de la tabla. Se recomienda utilizar el asistente de entrada para asegurarse de que no falte ninguna configuración. Para ello, haga clic en el botón **[!UICONTROL Insert]** y elija el tipo de configuración que desee agregar.
+1. Cree el contenido de la tabla. Se recomienda utilizar el asistente de entrada para asegurarse de que no falte ninguna configuración. Para ello, haga clic en el botón **[!UICONTROL Insert]** y seleccione el tipo de configuración que desea añadir.
 
    ![](assets/s_ncs_configuration_create_new_content.png)
 
@@ -120,5 +118,4 @@ Para ello, debe crear el esquema de la tabla y actualizar la estructura de la ba
 
    ![](assets/s_ncs_configuration_structure.png)
 
-1. Actualice la estructura de la base de datos para crear la tabla a la que se vinculará el esquema. Para obtener más información sobre esto, consulte [Actualización de la estructura de la base de datos](../../configuration/using/updating-the-database-structure.md).
-
+1. Actualice la estructura de la base de datos para crear la tabla a la que se vinculará el esquema. Para obtener más información, consulte [Actualización de la estructura de la base de datos](../../configuration/using/updating-the-database-structure.md).
