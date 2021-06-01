@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Actualización a una nueva compilación
 description: Conozca los pasos técnicos para actualizar a una nueva versión
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-translation-type: tm+mt
-source-git-commit: cb24bc78b5cc09307ca470470464f204d9f41278
+exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 3%
 
 ---
-
 
 # Actualización a una nueva compilación (local){#upgrading}
 
@@ -71,7 +69,7 @@ Para ejecutar el archivo de actualización, siga los siguientes pasos:
 
 1. Ejecute **setup.exe**.
 
-   Para descargar este archivo, conéctese al [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) con sus credenciales de usuario. Obtenga más información sobre la distribución de software en [esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
+   Para descargar este archivo, conéctese al [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) con sus credenciales de usuario. Obtenga más información sobre la distribución de software en [esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
 
 1. Seleccione el modo de instalación: elija **[!UICONTROL Update or repair]**
 1. Haga clic en **[!UICONTROL Next]** .
@@ -269,4 +267,3 @@ La próxima vez que se conecten consolas de cliente, una ventana informará a lo
 >[!NOTE]
 >
 >Asegúrese de que el usuario de Apache tiene los derechos de lectura adecuados para este archivo de instalación y consulte la [guía de instalación](../../installation/using/general-architecture.md) para obtener más información.
-
