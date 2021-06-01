@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Requisitos previos para la instalación de Campaign en Linux
 description: Requisitos previos para la instalación de Campaign en Linux
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
-translation-type: tm+mt
-source-git-commit: ae4b2ba6db140cdfb9ec4a38231fcc3e54b1478c
+exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 1%
 
 ---
-
 
 # Requisitos previos para instalar Campaign en Linux{#prerequisites-of-campaign-installation-in-linux}
 
