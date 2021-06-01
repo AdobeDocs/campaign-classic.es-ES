@@ -6,10 +6,10 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 59%
+source-wordcount: '1222'
+ht-degree: 53%
 
 ---
 
@@ -75,7 +75,7 @@ Para crear una cuenta externa de tipo **[!UICONTROL Execution instance]** , apli
 
    >[!NOTE]
    >
-   >Para evitar introducir una contraseña cada vez que se inicia sesión en la instancia, se puede especificar la dirección IP de la instancia de control en la instancia de ejecución. Para obtener más información, consulte [Configuración de las instancias de ejecución](#execution-instance).
+   >Para evitar introducir una contraseña cada vez que se inicia sesión en la instancia, se puede especificar la dirección IP de la instancia de control en la instancia de ejecución. Para obtener más información sobre esto, consulte [Configuración de las instancias de ejecución](#execution-instance).
 
 1. Especifique el método de recuperación que utilizará la instancia de ejecución. Los datos que se recuperan se transfieren a la instancia de control mediante la instancia de la ejecución, para añadir al mensaje transaccional y los archivos de eventos.
 
@@ -91,7 +91,7 @@ Para crear una cuenta externa de tipo **[!UICONTROL Execution instance]** , apli
 
    ![](assets/messagecenter_create_extaccount_008.png)
 
-   Para obtener más información sobre el acceso a datos federados (FDA), consulte [Acceso a una base de datos externa](../../installation/using/about-fda.md).
+   Para obtener más información sobre el acceso de datos federado (FDA), consulte [esta sección](../../installation/using/about-fda.md).
 
 1. Haga clic en **[!UICONTROL Test the connection]** para asegurarse de que la instancia de control y la instancia de ejecución estén relacionadas.
 
@@ -162,7 +162,7 @@ En el árbol de todas las instancias de ejecución, cree una carpeta por cada op
 >
 >Los pasos siguientes deben realizarse **en las instancias de control**.
 
-1. En la instancia de control **Control 1**, cree una cuenta externa por cada instancia de ejecución e introduzca el operador **mc1** en cada cuenta externa. El operador **mc1** se crea posteriormente en todas las instancias de ejecución (consulte [Configurar instancias de ejecución](#configuring-execution-instances)).
+1. En la instancia de control **Control 1** , cree una cuenta externa por cada instancia de ejecución e introduzca el operador **mc1** en cada cuenta externa. El operador **mc1** se crea posteriormente en todas las instancias de ejecución (consulte [Configurar instancias de ejecución](#configuring-execution-instances)).
 
    ![](assets/messagecenter_multi_control_1.png)
 
