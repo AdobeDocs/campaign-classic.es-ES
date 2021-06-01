@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Red, base de datos y SSL/TLS
 description: Obtenga más información sobre las prácticas recomendadas de configuración de red, base de datos y SSL/TLS.
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-translation-type: tm+mt
-source-git-commit: 63b2e6b95812f1649e636580984a1f0dcc9c5c53
+exl-id: 2a66dfaa-7fff-48de-bdd4-62f3ebfbab19
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
-
 
 # Red, base de datos y SSL/TLS {#network-database}
 
