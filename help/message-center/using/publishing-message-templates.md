@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 'Publicación de plantillas de mensaje '
 description: Obtenga información sobre la publicación y cancelación de publicación de plantillas de mensaje transaccional en Adobe Campaign Classic.
@@ -7,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 1d55f42b-64bf-4b1f-a317-c1f7456aa5b3
-source-git-commit: d39b15b0efc6cbd6ab24e074713be6f8fc90e5fc
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 85%
