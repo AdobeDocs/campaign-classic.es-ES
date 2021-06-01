@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuración de conectores FDA
 description: Descubra los pasos de configuración para FDA
@@ -7,8 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
-translation-type: tm+mt
-source-git-commit: 7ce5a01b57092043b8d9b52761b243f771cf74f2
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 44%
@@ -31,9 +29,9 @@ Como regla general, debe instalar la capa del cliente correspondiente en la base
 Para configurar el acceso a una base de datos externa con FDA, los pasos de configuración son:
 
 1. Instale los controladores y configure la cuenta externa que corresponda a su base de datos en el servidor de Adobe Campaign. Consulte las páginas específicas de la base de datos [enumeradas a continuación](#fda-specific-configuration)
-1. Pruebe la cuenta externa o cree una conexión temporal entre Adobe Campaign y la base de datos externa. [Más información](../../installation/using/connecting-to-database.md)
-1. Crear el esquema de la base de datos externa en Adobe Campaign. Esto permite identificar la estructura de datos de la base de datos externa. [Más información](../../installation/using/creating-data-schema.md)
-1. Si es necesario, cree una nueva asignación de destino a partir del esquema creado anteriormente. Esto es necesario si los destinatarios de los envíos proceden de la base de datos externa. Esta implementación incluye limitaciones relacionadas con la personalización de mensajes. [Más información](../../installation/using/defining-data-mapping.md)
+1. Pruebe la cuenta externa o cree una conexión temporal entre Adobe Campaign y la base de datos externa. [Obtenga más información](../../installation/using/connecting-to-database.md)
+1. Crear el esquema de la base de datos externa en Adobe Campaign. Esto permite identificar la estructura de datos de la base de datos externa. [Obtenga más información](../../installation/using/creating-data-schema.md)
+1. Si es necesario, cree una nueva asignación de destino a partir del esquema creado anteriormente. Esto es necesario si los destinatarios de los envíos proceden de la base de datos externa. Esta implementación incluye limitaciones relacionadas con la personalización de mensajes. [Obtenga más información](../../installation/using/defining-data-mapping.md)
 
 Una vez que se haya creado el esquema, los datos se pueden procesar en los flujos de trabajo de Adobe Campaign. Para obtener más información, consulte [esta sección](../../workflow/using/accessing-an-external-database--fda-.md).
 
