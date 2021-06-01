@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuración del servidor de Campaign
 description: Configuración del servidor de Campaign
@@ -7,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '1578'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -22,7 +21,7 @@ En este capítulo se detallan las configuraciones del lado del servidor que se p
 
 Estos procedimientos están restringidos a **implementaciones locales**/**híbridas** y requieren permisos de administración.
 
-Para implementaciones **alojadas**, la configuración del lado del servidor solo se puede configurar mediante Adobe. Sin embargo, algunas configuraciones se pueden configurar dentro de [Panel de control de Campaign de campaña](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html), como administración de listas de permitidos IP o permisos de URL. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html).
+Para implementaciones **alojadas**, la configuración del lado del servidor solo se puede configurar mediante Adobe. Sin embargo, algunas configuraciones se pueden configurar dentro de [Panel de control de Campaign de campaña](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es), como administración de listas de permitidos IP o permisos de URL. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=es).
 
 Para obtener más información, consulte estas secciones:
 
@@ -39,7 +38,7 @@ Los archivos de configuración del Campaign Classic se almacenan en la carpeta *
 
 ## Ámbito de configuración
 
-Configure o adapte el servidor de Campaign según sus necesidades y configuración. Puede:
+Configure o adapte el servidor de Campaign según sus necesidades y configuración. Puede hacer lo siguiente:
 
 * Asegurar el [identificador interno](#internal-identifier)
 * Habilitar [Procesos de campaña](#enabling-processes)
