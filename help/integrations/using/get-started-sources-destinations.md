@@ -1,14 +1,12 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Introducción a orígenes y destinos
 description: Obtenga más información sobre orígenes y destinos de Adobe Experience Platform.
 audience: integrations
 content-type: reference
 exl-id: 8cee52c7-ea56-4701-8ebb-eb18afffea51
-translation-type: ht
-source-git-commit: 44ea4acb384fd7cb9de8b5be8132446ee0023cfe
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 100%
 
