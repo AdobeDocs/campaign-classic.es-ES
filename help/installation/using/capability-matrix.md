@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Matriz de capacidades locales, híbridas y alojadas de Campaign
 description: Conozca las principales diferencias entre implementaciones alojadas y locales
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
-translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 36%
+ht-degree: 38%
 
 ---
-
 
 # Matriz de capacidades por modelo{#capability-matrix-per-model}
 
@@ -56,5 +54,5 @@ Adobe Campaign proporciona la opción **Acceso de Datos Federados** (FDA) para p
 * [Notas de la versión](../../rn/using/latest-release.md)
 * [actualizaciones de Campaign Classic](../../rn/using/rn-overview.md)
 * [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md)
-* [[!DNL Gold Standard] versiones](../../rn/using/gold-standard.md)
-* [[!DNL Gold Standard] programa](../../rn/using/gs-overview.md)
+* [Versiones de [!DNL Gold Standard]](../../rn/using/gold-standard.md)
+* [Programa de [!DNL Gold Standard]](../../rn/using/gs-overview.md)
