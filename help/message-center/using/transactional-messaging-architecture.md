@@ -1,36 +1,52 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Arquitectura de mensajería transaccional de Adobe Campaign Classic
-description: Esta sección describe la arquitectura de mensajería transaccional de Adobe Campaign Classic.
+title: Arquitectura de la mensajería transaccional
+description: En esta sección se describe la arquitectura de mensajería transaccional de Adobe Campaign Classic y los canales disponibles para enviar mensajes transaccionales.
 audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '1025'
-ht-degree: 100%
+source-git-commit: a9054fb8e10bef37675922b2f81c7615cd04c1bb
+workflow-type: tm+mt
+source-wordcount: '1100'
+ht-degree: 80%
 
 ---
 
-# Arquitectura de mensajería transaccional{#transactional-messaging-architecture}
+# Arquitectura de mensajería transaccional {#transactional-messaging-architecture}
 
-## Acerca de las instancias de ejecución y control {#about-execution-and-control-instances}
+La mensajería transaccional se basa en una arquitectura específica, que consta de varias instancias:
 
-En Adobe Campaign, las funcionalidades de la mensajería transaccional (también conocidas como Centro de Mensajes) se diseñaron para apoyar la escalabilidad y proporcionar un servicio de 24 horas al día. Están formadas por varias instancias:
+* Una **instancia de control**, en la que se crean las plantillas de mensaje.
 
-* una instancia de control, en la que se crean las plantillas de mensajes,
-* una o más instancias de ejecución que reciben eventos y envían mensajes.
-
-Para utilizar estas funcionalidades, los usuarios de Adobe Campaign inician sesión en la instancia de control para crear plantillas de mensajes transaccionales, generar la vista previa del mensaje utilizando una lista de semilla, mostrar informes y supervisar instancias de ejecución.
-
-Las instancias de ejecución reciben eventos, los vinculan a plantillas de mensajes transaccionales y envían un mensaje personalizado a cada destinatario.
+* Una o más **instancias de ejecución**, que reciben eventos y envían mensajes.
 
 ![](assets/messagecenter_diagram.png)
 
-## Soporte de varias instancias de control {#supporting-several-control-instances}
+| Instancia de control | Instancia de ejecución |
+|--- |--- |
+| Los usuarios de Adobe Campaign inician sesión en la instancia de control para: <ul><li>Crear plantillas de mensaje transaccional</li><li>Generar la vista previa del mensaje mediante una lista de reasignación</li><li>Mostrar informes</li><li>Monitorización de las instancias de ejecución</li></ul> | Las instancias de ejecución están aquí para: <ul><li>Recibir eventos</li><li>Vincularlos a plantillas de mensajes transaccionales</li><li>Enviar un mensaje personalizado a cada destinatario</li></ul> |
+
+## Instancias de instalación {#installing-instances}
+
+Para instalar los paquetes de mensajes transaccionales deben tomarse varias precauciones. Adobe recomienda trabajar en un entorno de prueba antes de realizar la producción. También necesita disponer de una licencia compatible con Adobe Campaign. Para obtener más información, póngase en contacto con su administrador de cuentas de Adobe.
+
+>[!IMPORTANT]
+>
+>La instancia de control y las instancias de ejecución deben estar instaladas en diferentes equipos. No pueden compartir la misma instancia de Campaign.
+
+Si necesita utilizar varios canales, debe instalar y configurar los paquetes relacionados antes de instalar los paquetes de los mensajes transaccionales. Para obtener más información, consulte [Adición de un canal de envío](#adding-a-delivery-channel).
+
+## Instancia de control {#control-instance}
+
+Para instalar la instancia de control en el equipo, seleccione el paquete **[!UICONTROL Transactional message control]** mediante el menú **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]**. Para obtener más información, consulte [Instalación de paquetes estándar de Campaign Classic](../../installation/using/installing-campaign-standard-packages.md).
+
+![](assets/messagecenter_install_controlinstance_001.png)
+
+Los pasos detallados para configurar la instancia de control se presentan en [esta sección](../../message-center/using/configuring-instances.md#control-instance).
+
+### Admite varias instancias de control {#supporting-several-control-instances}
 
 >[!IMPORTANT]
 >
@@ -42,31 +58,27 @@ Es posible compartir un clúster de ejecución entre varias instancias de contro
 
 >[!NOTE]
 >
->Para obtener más información sobre la configuración necesaria, consulte [Usar varias instancias de control](../../message-center/using/creating-a-shared-connection.md#using-several-control-instances).
+>Para obtener más información sobre la configuración necesaria, consulte [Usar varias instancias de control](../../message-center/using/configuring-instances.md#using-several-control-instances).
 
-## Instalación de instancias {#installing-instances}
+## Instancia de ejecución {#execution-instance}
 
-Para instalar los paquetes de mensajes transaccionales deben tomarse varias precauciones. Adobe recomienda trabajar en un entorno de prueba antes de realizar la producción. También necesita disponer de una licencia compatible con Adobe Campaign. Para obtener más información, póngase en contacto con su administrador de cuentas de Adobe.
+Para instalar una instancia de ejecución en el equipo, seleccione el paquete **[!UICONTROL Transactional message execution]** mediante el menú **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]**. Para obtener más información, consulte [Instalación de paquetes estándar de Campaign Classic](../../installation/using/installing-campaign-standard-packages.md).
+
+![](assets/messagecenter_install_executioninstance_001.png)
+
+Los pasos detallados para configurar una instancia de ejecución se describen en [esta sección](../../message-center/using/configuring-instances.md#execution-instance).
+
+## Canales de envío disponibles
+
+El canal de correo electrónico está disponible de forma predeterminada. Para enviar los mensajes transaccionales en varios canales, puede agregar otros canales (canal móvil, canal de aplicación móvil, etc.).
 
 >[!IMPORTANT]
 >
->La instancia de control y las instancias de ejecución deben estar instaladas en diferentes equipos. No pueden compartir la misma instancia de Campaign.
+>La adición de un canal de entrega (canal móvil, canal de aplicación móvil, etc.) debe realizarse antes de instalar el paquete de mensajes transaccionales.
 
-Si necesita utilizar varios canales, debe instalar y configurar los paquetes relacionados antes de instalar los paquetes de los mensajes transaccionales. Consulte [Añadir un canal de entrega](#adding-a-delivery-channel).
+### Añadir un canal de envío {#adding-a-delivery-channel}
 
-* Para instalar la instancia de control en el equipo, seleccione el módulo **[!UICONTROL Transactional message control]**.
-
-   ![](assets/messagecenter_install_controlinstance_001.png)
-
-* Para instalar la instancia de ejecución en el equipo, seleccione el módulo **[!UICONTROL Transactional message execution]**.
-
-   ![](assets/messagecenter_install_executioninstance_001.png)
-
-## Adición de un canal de entrega {#adding-a-delivery-channel}
-
-La adición de un canal de entrega (canal móvil, canal de aplicación móvil, etc.) debe realizarse antes de instalar el paquete de mensajes transaccionales.
-
-Adobe recomienda añadir siempre el paquete de canal de envío antes de instalar el paquete de Mensaje transaccional.
+Adobe recomienda **añadir siempre el paquete del canal de envío antes de instalar el paquete de mensajes transaccionales**.
 
 Si ha iniciado un proyecto de mensajería transaccional en el canal de correo electrónico, y decide durante el proyecto agregar un canal nuevo, debe seguir estos pasos.
 
@@ -115,7 +127,7 @@ Create your delivery templates the way you would for an email campaign:
 
 You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](../../interaction/using/creating-offer-spaces.md).-->
 
-## Mensajería transaccional y notificaciones “push”{#transactional-messaging-and-push-notifications}
+### Notificaciones push transaccionales {#transactional-messaging-and-push-notifications}
 
 Cuando se combina con el módulo de canal de aplicaciones móviles, la mensajería transaccional permite enviar mensajes transaccionales mediante notificaciones en dispositivos móviles.
 
@@ -162,7 +174,7 @@ A continuación se muestra un ejemplo de un evento que contiene esta informació
 >
 >La creación de las plantillas de mensajes sigue siendo la misma.
 
-## Mensajería transaccional y LINE {#transactional-messaging-and-line}
+### Mensajería transaccional y LINE {#transactional-messaging-and-line}
 
 Combinados con el canal LINE, los mensajes transaccionales le permiten enviar mensajes en tiempo real en la aplicación LINE instalada en los dispositivos de los consumidores. Se utiliza para enviar el mensaje de bienvenida cuando un usuario de LINE añade la página de la marca.
 
@@ -237,4 +249,4 @@ A continuación, desde **[!UICONTROL Explorer]**, en **[!UICONTROL Platform]** >
 
 
 
-1. Ahora puede empezar a crear mensajes transaccionales. Para obtener más información, consulte [esta página](../../message-center/using/introduction.md).
+1. Ahora puede empezar a crear mensajes transaccionales. Para obtener más información, consulte [esta página](../../message-center/using/creating-the-message-template.md).
