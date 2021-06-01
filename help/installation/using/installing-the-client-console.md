@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Instalación de la consola del cliente
 description: Obtenga información sobre cómo instalar la consola del cliente
@@ -7,8 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-translation-type: tm+mt
-source-git-commit: 2ce19e135ce1eb47d760c5407446312bc2d3c303
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 6%
