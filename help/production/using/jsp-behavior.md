@@ -1,23 +1,21 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Comportamiento de JSP
 description: Comportamiento de JSP
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 858d00d0-7c65-43be-8bae-f0f945f71f1a
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '36'
 ht-degree: 16%
 
 ---
 
-
 # Comportamiento de JSP{#jsp-behavior}
 
-Si ciertos trabajos **jsp** no se ejecutan correctamente, debe forzarlos a volver a compilarlos.
+Si ciertos trabajos **jsp** no se ejecutan correctamente, debe obligarlos a volver a compilar.
 
 Para ello, introduzca los siguientes comandos:
 
