@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Instalación de un servidor intermediario en Campaign
 description: Esta sección detalla la instalación y configuración de un servidor de mid-sourcing en Campaign
@@ -7,8 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
-translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 1%
