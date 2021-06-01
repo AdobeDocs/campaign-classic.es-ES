@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Introducción a la personalización
 description: Obtenga información sobre cómo personalizar mensajes y utilizar contenido condicional en Campaign
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 555082a2-1b62-4aa4-b80c-77b1a1ef9491
-translation-type: ht
-source-git-commit: d3ef2783409a3a36badbd3f8248ba1bdf6acae7e
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
 
