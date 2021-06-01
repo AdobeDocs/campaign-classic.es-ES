@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Uso de una plantilla de contenido
 description: Uso de una plantilla de contenido
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
 
