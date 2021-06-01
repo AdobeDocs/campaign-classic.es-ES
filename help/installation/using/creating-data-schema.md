@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Acceso a una base de datos externa
 description: Acceso a una base de datos externa
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 8702499b-1700-4d1f-a0e0-f7a9dfb4b88f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 100%
 
 ---
-
 
 # Creación del esquema de datos {#creating-the-data-schema}
 
