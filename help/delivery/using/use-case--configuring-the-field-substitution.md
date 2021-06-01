@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: '"Ejemplo de uso: Configuración de la sustitución de campos"'
 description: '"Ejemplo de uso: Configuración de la sustitución de campos"'
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 100%
 
