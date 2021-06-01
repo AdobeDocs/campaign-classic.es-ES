@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Introducción a la monitorización de entregas
 description: Obtenga más información sobre las funciones de monitorización de entregas de Campaign Classic.
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 100%
 
@@ -30,7 +28,7 @@ La lista de entregas permite ver todas las entregas creadas en una sola ubicaci�
 Cada entrega tiene de un panel especializado. Le permite monitorizar los posibles problemas que surjan durante la entrega, así como diversos tipos de información con respecto a esta: informes, páginas espejo, exclusiones, registros de seguimiento, procesamiento, etc.
 
 * [Acceso a la lista de entregas](../../delivery/using/list-of-deliveries.md)
-* [Panel de entregas](../../delivery/using/delivery-dashboard.md)
+* [Tablero de entregas](../../delivery/using/delivery-dashboard.md)
 
 <img src="assets/do-not-localize/icon_guidelines.svg" width="60px">
 
