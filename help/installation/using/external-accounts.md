@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 54d503e97a4374927c4ebe3ba4e0ec05e51d47db
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 78%
@@ -112,7 +112,7 @@ Si tiene una arquitectura desglosada, es necesario especificar las instancias de
 
    Contraseña de la cuenta tal como se define en la carpeta del operador.
 
-Para obtener más información sobre esta configuración, consulte esta [página](../../message-center/using/creating-a-shared-connection.md#control-instance).
+Para obtener más información sobre esta configuración, consulte esta [página](../../message-center/using/configuring-instances.md#control-instance).
 
 
 ## Acceso a cuentas externas de sistemas externos
