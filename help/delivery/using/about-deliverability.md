@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Acerca de la capacidad de envío en Campaign
 description: Conozca las prácticas recomendadas sobre la capacidad de entrega
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 100%
 
@@ -33,7 +31,7 @@ Los problemas de entrega suelen estar vinculados a medidas de protección contra
 
 >[!NOTE]
 >
->Debido a que los proveedores de servicios de Internet están obligados a desarrollar continuamente nuevas técnicas sofisticadas de filtrado para proteger a sus clientes de los remitentes de spam, la capacidad de envío del correo electrónico se caracteriza por criterios y reglas que cambian constantemente. Asegúrese de consultar la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es), que se actualiza regularmente.
+>Debido a que los proveedores de servicios de Internet están obligados a desarrollar continuamente nuevas técnicas sofisticadas de filtrado para proteger a sus clientes de los remitentes de spam, la capacidad de envío del correo electrónico se caracteriza por criterios y reglas que cambian constantemente. Asegúrese de consultar la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html), que se actualiza regularmente.
 
 ### Tasa de entrega
 
@@ -59,9 +57,9 @@ Adobe Campaign proporciona varias herramientas para rastrear y mejorar el rendim
 
 Al configurar, diseñar y probar el mensaje, asegúrese de seguir las prácticas recomendadas que se mencionan en las secciones a continuación. El uso de todas las funciones que proporciona Adobe Campaign le ayuda a mejorar la capacidad de envío.
 
-* [Prácticas recomendadas sobre entregas](../../delivery/using/delivery-best-practices.md)
+* [Prácticas recomendadas de entregas](../../delivery/using/delivery-best-practices.md)
 * [Control del contenido del correo electrónico](../../delivery/using/control-message-content.md)
-* [Renderización de la bandeja de entrada](../../delivery/using/inbox-rendering.md)
+* [Procesamiento de la bandeja de entrada](../../delivery/using/inbox-rendering.md)
 * [Envío de una prueba](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)
 
 ### Verificación del consentimiento mediante la doble inclusión {#double-opt-in}
