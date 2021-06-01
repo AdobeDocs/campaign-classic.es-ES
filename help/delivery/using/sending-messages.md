@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Envío de un correo electrónico con Adobe Campaign Classic
 description: Obtenga información sobre cómo confirmar el envío de un mensaje de correo electrónico y descubrir las características específicas del envío de mensajes.
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: c75a5ea2-8d62-4f98-bccd-7116a4d404fd
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 100%
 
