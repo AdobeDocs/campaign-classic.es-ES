@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Acerca de las integraciones de Campaign
 description: Utilice otras soluciones de Adobe y combine sus diferentes capacidades con Campaign.
@@ -7,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 96%
