@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: SMS entrante
 description: Descubra más información sobre la actividad del flujo de trabajo SMS entrante
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: 94a9d50b-4ead-4815-8d12-942fa78b4e8a
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 100%
 
