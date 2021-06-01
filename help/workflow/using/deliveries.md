@@ -1,13 +1,11 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Entregas
 description: Descubra más información sobre los flujos de trabajo Entregas
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-translation-type: tm+mt
-source-git-commit: 7cd76b5a31ed9fc0e64a650316ea29293c628233
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 100%
@@ -15,7 +13,7 @@ ht-degree: 100%
 ---
 
 
-# Envíos{#deliveries}
+# Entregas{#deliveries}
 
 Los flujos de trabajo detallados a continuación se instalan con el módulo **Envíos** de forma predeterminada.
 
