@@ -3,17 +3,16 @@ solution: Campaign Classic
 product: campaign
 title: Modelos de alojamiento
 description: Descubra los modelos de alojamiento de Campaign
-feature: Overview
+feature: Información general
 role: Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 09bd634142f643206c38ac5f881302a5d489ecaf
+exl-id: a06b1365-d487-4df1-8f4a-7268b871a427
+source-git-commit: 54d503e97a4374927c4ebe3ba4e0ec05e51d47db
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '624'
 ht-degree: 2%
 
 ---
-
 
 # Modelos de alojamiento{#hosting-models}
 
@@ -31,7 +30,7 @@ Adobe Campaign se puede implementar como un servicio administrado: todos los com
 
 Como cliente alojado, la mayoría de los pasos de instalación y configuración los realiza Adobe. Puede acceder a las secciones siguientes para personalizar la implementación:
 
-* Configure el seguimiento y las direcciones URL de páginas espejo por marca. Para los mensajes transaccionales, consulte [esta sección](../../message-center/using/configuring-multibranding.md).
+* Configure el seguimiento y las direcciones URL de páginas espejo por marca. Para los mensajes transaccionales, consulte [esta sección](../../message-center/using/additional-configurations.md#configuring-multibranding).
 * Instale la consola del cliente: consulte [a esta sección](../../installation/using/installing-the-client-console.md).
 * Para obtener más información sobre las herramientas de envío y las prácticas recomendadas, lea la [documentación detallada](../../delivery/using/about-deliverability.md).
 * Configure las opciones de Campaign: consulte [a esta sección](../../installation/using/configuring-campaign-options.md).
@@ -62,7 +61,7 @@ Cuando se implementa como un modelo híbrido, el software de la solución Adobe 
 Como cliente híbrido, la mayoría de los pasos de instalación y configuración se realizan mediante Adobe. Puede acceder a las secciones siguientes para personalizar la implementación:
 
 * Configure los mensajes transaccionales: consulte [a esta sección](../../message-center/using/transactional-messaging-architecture.md).
-* Configure el seguimiento y las direcciones URL de páginas espejo por marca. Para los mensajes transaccionales, consulte [esta sección](../../message-center/using/configuring-multibranding.md).
+* Configure el seguimiento y las direcciones URL de páginas espejo por marca. Para los mensajes transaccionales, consulte [esta sección](../../message-center/using/additional-configurations.md#configuring-multibranding).
 * Instale la consola del cliente: consulte [a esta sección](../../installation/using/installing-the-client-console.md).
 * Instale paquetes integrados: consulte [a esta sección](../../installation/using/installing-campaign-standard-packages.md).
 * Capacidad de entrega: configure [reglas MX](../../installation/using/email-deliverability.md#mx-configuration) y [formatos de correo electrónico](../../installation/using/email-deliverability.md#managing-email-formats). Para obtener más información sobre las herramientas de envío y las prácticas recomendadas, lea la [documentación detallada](../../delivery/using/about-deliverability.md).
