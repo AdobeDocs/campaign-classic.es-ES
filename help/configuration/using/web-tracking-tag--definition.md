@@ -1,31 +1,29 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: '"Etiqueta de seguimiento web: definición"'
 description: '"Etiqueta de seguimiento web: definición"'
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 4%
 
 ---
 
-
 # Etiqueta de seguimiento web: definición{#web-tracking-tag-definition}
 
-Una etiqueta de seguimiento web es simplemente una dirección URL creada con los parámetros adecuados, que se envía al servidor de redirección mediante una consulta HTTP.
+Una etiqueta de seguimiento web es simplemente una URL construida con los parámetros apropiados, enviada al servidor de redirección a través de una consulta HTTP.
 
-## Formato de los datos que se enviarán {#format-of-the-data-to-be-sent}
+## Formato de los datos a enviar {#format-of-the-data-to-be-sent}
 
 El formato de una URL de seguimiento web es el siguiente: **https://`<name_of_redirection_server>`:`<port>`/r/`<random_number>`?`<parameters>`**
 
 >[!NOTE]
 >
->El número aleatorio agregado a la dirección URL evita los problemas causados por los navegadores que almacenan en caché páginas web.
+>El número aleatorio añadido a la dirección URL evita problemas causados por el almacenamiento en caché de las páginas web de los exploradores.
 
 La siguiente tabla proporciona una lista de parámetros especiales admitidos por el servidor de redirección.
 
@@ -46,7 +44,7 @@ La siguiente tabla proporciona una lista de parámetros especiales admitidos por
                               <p>Cookie de sesión</p> 
                            </td>
                            <td>
-                              <p>Identificador de envío e identificador de destinatario.</p> 
+                              <p>Identificador de entrega e identificador de destinatario.</p> 
                            </td> 
                         </tr>
                         <tr>
@@ -57,7 +55,7 @@ La siguiente tabla proporciona una lista de parámetros especiales admitidos por
                               <p>Cookie permanente</p> 
                            </td>
                            <td>
-                              <p>Identificador de destinatario (útil si no hay una cookie de sesión).</p> 
+                              <p>Identificador de destinatario (útil si no hay cookie de sesión).</p> 
                            </td> 
                         </tr>
                         <tr>
@@ -79,7 +77,7 @@ La siguiente tabla proporciona una lista de parámetros especiales admitidos por
                               <p>Parámetro de URL</p> 
                            </td>
                            <td>
-                              <p>Identificador de envío que se utilizará si no hay una cookie de sesión. Este valor debe ser
+                              <p>Identificador de envío que se utilizará si no hay ninguna cookie de sesión. Este valor debe ser
                                  expresado en hexadecimal.
                               </p> 
                            </td> 
@@ -101,9 +99,9 @@ La siguiente tabla proporciona una lista de parámetros especiales admitidos por
                      </tbody>  
                   </table>
 
-**Algunas direcciones URL de seguimiento web**
+**Algunas URL de seguimiento web**
 
-* Visita a una página de identificador &#39;principal&#39;
+* Visita a una página de identificador &quot;principal&quot;
 
    **https://myserver.adobe.com/r/9862?tagid=home**
 
@@ -115,22 +113,21 @@ La siguiente tabla proporciona una lista de parámetros especiales admitidos por
 
    **https://myserver.adobe.com/r/2353?tagid=home&amp;rcpid=saccount%3D10**
 
-   Se envía a la página de inicio un destinatario cuyo número de cuenta sea 10.
+   Se envía a la página principal un destinatario cuyo número de cuenta sea 10.
 
-* Uso de un envío predeterminado
+* Uso de una entrega predeterminado
 
    **https://myserver.adobe.com/r/2456?tagid=home&amp;jobid=e6**
 
-   Se envía un destinatario a la página de inicio. Esta información se almacenará en el envío con el identificador 230 (e6 en la base de datos 16) a menos que se envíe una cookie de sesión con un identificador de envío con esta consulta.
+   Se envía un destinatario a la página principal. Esta información se almacena en el envío con el identificador 230 (e6 en la base de datos 16) a menos que se envíe una cookie de sesión que contenga un identificador de envío con esta consulta.
 
 >[!NOTE]
 >
->Todos los valores enviados al servidor de redirección mediante parámetros de URL deben tener codificación de URL. En los ejemplos dados, tenga en cuenta que los caracteres &#39;=&#39; y &#39;|&#39; están codificados como &#39;%3D&#39; y &#39;%7C&#39; respectivamente.
+>Todos los valores enviados al servidor de redirección mediante parámetros de URL deben codificarse con URL. En los ejemplos dados, tenga en cuenta que los caracteres &#39;=&#39; y &#39;|&#39; están codificados como &#39;%3D&#39; y &#39;%7C&#39; respectivamente.
 
 ## Métodos de transmisión de datos {#data-transmission-methods}
 
 Los siguientes métodos son posibles:
 
-* Insertando la dirección URL en el atributo **&quot;src&quot;** de una etiqueta HTML **`<img>`** incorporada en la página web que desee rastrear.
+* Inserción de la URL en el atributo **&quot;src&quot;** de una etiqueta HTML **`<img>`** incorporada en la página web que desea rastrear.
 * Llamada directa al servidor de redirección cuando se genera la página web que desea rastrear.
-
