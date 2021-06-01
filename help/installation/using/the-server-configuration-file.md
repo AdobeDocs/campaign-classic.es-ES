@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: El archivo de configuración del servidor
 description: El archivo de configuración del servidor
@@ -7,8 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-translation-type: tm+mt
-source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '7970'
 ht-degree: 8%
@@ -56,7 +54,7 @@ Los primeros parámetros se encuentran dentro del nodo **shared**. Están relaci
 * [sms](#sms)
 * [stat](#stat)
 * [syslogd](#syslogd)
-* [tracking](#tracking)
+* [seguimiento](#tracking)
 * [trackinglogd](#trackinglogd)
 * [web](#web)
 * [wfserver](#wfserver)
@@ -1076,7 +1074,7 @@ Estos son los diferentes parámetros del nodo **xtkJobs**. Esta es la configurac
  </tbody> 
 </table>
 
-## archivado {#archiving}
+## archivar {#archiving}
 
 Estos son los diferentes parámetros del nodo **archiving**. Esta es la configuración de las operaciones de archivado ejecutadas en segundo plano.
 
@@ -1652,7 +1650,7 @@ Estos son los diferentes parámetros del nodo **mta**. Esta es la configuración
  </tbody> 
 </table>
 
-### caché {#cache}
+### cache {#cache}
 
 En el nodo **cache**, configure los siguientes parámetros. Esta es la configuración de la caché del archivo local.
 
@@ -2590,7 +2588,7 @@ Estos son los diferentes parámetros del nodo **syslogd**. Esta es la configurac
  </tbody> 
 </table>
 
-## tracking {#tracking}
+## seguimiento {#tracking}
 
 Estos son los diferentes parámetros del nodo **tracking**. Esta es la configuración del servidor de seguimiento.
 
