@@ -1,17 +1,15 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Versión 20.1
 description: Versión 20.1
-feature: Overview
+feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: 7e4234c9-3d8f-4014-a870-75e91cfad725
-translation-type: tm+mt
-source-git-commit: da87e8aac5d5419c8b21803e4041da166d8ffde9
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '1560'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +25,7 @@ _15 de abril de 2021_
 
 >[!NOTE]
 >
-> Conéctese a [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) para descargar la nueva versión. Aprenda a proponer la actualización de la consola a todos los usuarios finales [en esta página](../../installation/using/client-console-availability-for-windows.md).
+> Conéctese a [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) para descargar la nueva versión. Aprenda a proponer la actualización de la consola a todos los usuarios finales [en esta página](../../installation/using/client-console-availability-for-windows.md).
 
 _22 de marzo de 2021_
 
