@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Acerca de los casos de uso de flujos de trabajo
 description: Obtenga más información sobre los casos de uso que puede realizar con los flujos de trabajo de Campaign Classic.
@@ -9,9 +8,8 @@ topic-tags: about-workflows-and-data-management
 internal: n
 snippet: y
 exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 100%
 
@@ -31,20 +29,20 @@ Le ayudarán a descubrir los diferentes contextos en los que se pueden utilizar 
 * [Prueba A/B](../../delivery/using/a-b-testing-use-case.md)
 * [Envío de correo electrónico de cumpleaños](../../workflow/using/sending-a-birthday-email.md)
 * [Carga de contenido de entrega](../../workflow/using/loading-delivery-content.md)
-* [Flujo de trabajo de entrega por canales cruzados](../../workflow/using/cross-channel-delivery-workflow.md)
+* [Flujo de trabajo de entrega en canales múltiples](../../workflow/using/cross-channel-delivery-workflow.md)
 * [Enriquecimiento de correo electrónico con campos de datos personalizados](../../workflow/using/email-enrichment-with-custom-date-fields.md)
 * [Automatización de la creación, edición y publicación de contenido](../../delivery/using/automating-via-workflows.md#examples)
 
-## Monitoreo {#monitoring}
+## Monitorización {#monitoring}
 
 <img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
 
 * [Envío de informes a una lista](../../workflow/using/sending-a-report-to-a-list.md)
 * [Supervisión de flujos de trabajo](../../workflow/using/supervising-workflows.md)
 * [Envío de alertas personalizadas a operadores](../../workflow/using/sending-personalized-alerts-to-operators.md)
-* [Configuración de un proceso de aprobación de destinatarios antes de entregar un envío](../../workflow/using/using-the-local-approval-activity.md)
+* [Configuración de un proceso de aprobación de destinatarios antes de enviar un envío](../../workflow/using/using-the-local-approval-activity.md)
 
-## Gestión de datos {#management}
+## Administración de datos {#management}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
@@ -68,7 +66,7 @@ Le ayudarán a descubrir los diferentes contextos en los que se pueden utilizar 
 * [Realización de consultas mediante la administración de agrupación](../../workflow/using/querying-using-grouping-management.md)
 * [Realización de consultas con una relación de varios a varios ](../../workflow/using/querying-using-many-to-many-relationship.md)
 * [Adición de un campo calculado de tipo de lista desglosada](../../workflow/using/adding-enumeration-type-calculated-field.md)
-* [Creación de un filtro](../../workflow/using/creating-a-filter.md)
+* [Creación de filtros](../../workflow/using/creating-a-filter.md)
 * [Filtrado de destinatarios duplicados](../../workflow/using/filtering-duplicated-recipients.md)
 * [Llamada a una variable de instancia en una consulta](../../workflow/using/javascript-scripts-and-templates.md#calling-an-instance-variable-in-a-query)
 * [Aplicación de un porcentaje dividido a una población](../../workflow/using/javascript-scripts-and-templates.md#example)
