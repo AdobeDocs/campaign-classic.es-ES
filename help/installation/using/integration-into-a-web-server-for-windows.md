@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Integración en un servidor web para Windows
 description: Integración en un servidor web para Windows
@@ -7,8 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
-translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 4%
