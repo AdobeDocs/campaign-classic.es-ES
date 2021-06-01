@@ -1,25 +1,23 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Ejemplos de la edición de esquemas
 description: Ejemplos de la edición de esquemas
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 2%
 
 ---
 
-
 # Ejemplos de la edición de esquemas{#examples-of-schemas-edition}
 
 ## Ampliación de una tabla {#extending-a-table}
 
-Para extender la tabla de destinatario de esquema **nms:destinatario**, aplique el procedimiento siguiente:
+Para ampliar la tabla de destinatarios del esquema **nms:recipient** , siga el siguiente procedimiento:
 
 1. Cree el esquema de extensión (**cus:extension**) con los siguientes datos:
 
@@ -42,13 +40,13 @@ Para extender la tabla de destinatario de esquema **nms:destinatario**, aplique 
    </srcSchema>
    ```
 
-   En este ejemplo, se agrega un campo indexado (**fidelidad**) y el elemento **ubicación** (que ya existía en el esquema **nms:destinatario**) se completa con un campo enumerado (**área**).
+   En este ejemplo, se agrega un campo indexado (**fidelity**) y el elemento **location** (que ya existía en el esquema **nms:recipient**) se completa con un campo enumerado (**area**).
 
    >[!IMPORTANT]
    >
-   >Recuerde agregar el atributo **expandedSchema** para hacer referencia al esquema de extensión.
+   >Recuerde añadir el atributo **ExtendedSchema** para hacer referencia al esquema de extensión.
 
-1. Compruebe que el esquema extendido es el esquema **nms:destinatario** y que los datos adicionales están presentes:
+1. Compruebe que el esquema extendido es el esquema **nms:recipient** y que los datos adicionales están presentes:
 
    ```
    <schema dependingSchemas="cus:extension" mappingType="sql" name="recipient" namespace="nms" xtkschema="xtk:schema">
@@ -74,7 +72,7 @@ Para extender la tabla de destinatario de esquema **nms:destinatario**, aplique 
    </schema>
    ```
 
-   La secuencia de comandos SQL generada a partir del asistente para la actualización de la base de datos es la siguiente:
+   El script SQL generado a partir del asistente de actualización de base de datos es el siguiente:
 
    ```
    ALTER TABLE NmsRecipient ADD iFidelity INTEGER;
@@ -84,11 +82,11 @@ Para extender la tabla de destinatario de esquema **nms:destinatario**, aplique 
    CREATE INDEX NmsRecipient_area ON NmsRecipient(sArea);
    ```
 
-## Tabla de recopilación vinculada {#linked-collection-table}
+## Tabla de colección vinculada {#linked-collection-table}
 
 En esta sección se describe cómo crear una tabla de pedidos vinculada a la tabla de destinatarios con cardinalidad 1-N.
 
-Esquema de origen de tabla de pedido:
+Ordenar esquema de origen de tabla:
 
 ```
 <srcSchema label="Order" name="order" namespace="cus" xtkschema="xtk:srcSchema">  
@@ -103,7 +101,7 @@ Esquema de origen de tabla de pedido:
 </srcSchema>
 ```
 
-El tipo de tabla es **autopk** para crear una clave principal generada automáticamente que se utilizará con la unión del vínculo a la tabla de destinatario.
+El tipo de tabla es **autopk** para crear una clave principal generada automáticamente que se utilizará al unir el vínculo a la tabla de destinatarios.
 
 Esquema generado:
 
@@ -136,7 +134,7 @@ Esquema generado:
 </schema>
 ```
 
-La secuencia de comandos SQL de creación de tabla es la siguiente:
+El script SQL de creación de tabla es el siguiente:
 
 ```
 CREATE TABLE CusOrder(dTotal DOUBLE PRECISION NOT NULL Default 0, iOrderId INTEGER NOT NULL Default 0, iRecipientId INTEGER NOT NULL Default 0, sNumber VARCHAR(128), tsDate TIMESTAMP Default NULL);
@@ -147,15 +145,15 @@ INSERT INTO CusOrder (iOrderId) VALUES (0);
 
 >[!NOTE]
 >
->El comando SQL INSERT INTO al final de la secuencia de comandos permite insertar un registro de identificador definido en 0 para simular uniones externas.
+>El comando SQL INSERT INTO al final de la secuencia de comandos permite insertar un registro de identificador establecido en 0 para simular las uniones externas.
 
 ## Tabla de extensión {#extension-table}
 
 Una tabla de extensión permite ampliar el contenido de una tabla existente en una tabla vinculada de cardinalidad 1-1.
 
-El propósito de una tabla de extensión es evitar limitaciones en el número de campos admitidos en una tabla o optimizar el espacio ocupado por los datos, que se consumen a petición.
+El propósito de una tabla de extensión es evitar limitaciones en el número de campos admitidos en una tabla o optimizar el espacio ocupado por los datos, que se consumen bajo demanda.
 
-Creación del esquema de la tabla de extensión (**cus:feature**):
+Creación del esquema de la tabla de extensiones (**cus:feature**):
 
 ```
 <srcSchema mappingType="sql" name="feature" namespace="cus" xtkschema="xtk:srcSchema">  
@@ -179,7 +177,7 @@ Creación de un esquema de extensión en la tabla de destinatarios para añadir 
 
 >[!NOTE]
 >
->La definición del vínculo entre la tabla de destinatario y la tabla de extensión debe rellenarse desde el esquema que contiene la clave externa.
+>La definición del vínculo entre la tabla de destinatarios y la tabla de extensiones debe rellenarse desde el esquema que contiene la clave externa.
 
 La secuencia de comandos SQL para crear la tabla de extensión es la siguiente:
 
@@ -189,7 +187,7 @@ CREATE UNIQUE INDEX CusFeature_id ON CusFeature(iFeatureId);
 INSERT INTO CusFeature (iFeatureId) VALUES (0); 
 ```
 
-El script de actualización SQL de la tabla de destinatario es el siguiente:
+El script de actualización SQL de la tabla de destinatarios es el siguiente:
 
 ```
 ALTER TABLE NmsRecipient ADD iFeatureId INTEGER;
@@ -203,7 +201,7 @@ CREATE INDEX NmsRecipient_featureId ON NmsRecipient(iFeatureId);
 
 Una tabla de desbordamiento es una tabla de extensión (cardinalidad 1-1), pero la declaración del vínculo a la tabla que se va a ampliar se rellena en el esquema de la tabla de desbordamiento.
 
-La tabla de desbordamiento contiene la clave externa de la tabla que se va a ampliar. Por lo tanto, no se modifica el cuadro que debe ampliarse. La relación entre las dos tablas es el valor de la clave principal de la tabla que se va a ampliar.
+La tabla de desbordamiento contiene la clave externa de la tabla que se va a ampliar. Por lo tanto, no se modifica la tabla que se va a ampliar. La relación entre las dos tablas es el valor de la clave principal de la tabla que se va a ampliar.
 
 Creación del esquema de tabla de desbordamiento (**cus:overflow**):
 
@@ -224,9 +222,9 @@ Creación del esquema de tabla de desbordamiento (**cus:overflow**):
 
 >[!NOTE]
 >
->La clave principal de la tabla de desbordamiento es el vínculo a la tabla que se va a ampliar (esquema &quot;nms:destinatario&quot; en nuestro ejemplo).
+>La clave principal de la tabla de desbordamiento es el vínculo a la tabla que se va a ampliar (esquema &quot;nms:recipient&quot; en nuestro ejemplo).
 
-La secuencia de comandos SQL de creación de tabla es la siguiente:
+El script SQL de creación de tabla es el siguiente:
 
 ```
 CREATE TABLE CusOverflow(iChildren NUMERIC(3) NOT NULL Default 0, iRecipientId INTEGER NOT NULL Default 0, iSingle NUMERIC(3) NOT NULL Default 0, sSpouseFirstName VARCHAR(100));
@@ -235,9 +233,9 @@ CREATE UNIQUE INDEX CusOverflow2_id ON CusOverflow2(iRecipientId);
 
 ## Tabla de relación {#relationship-table}
 
-Una tabla de relaciones permite vincular dos tablas con la cardinalidad N-N. Esta tabla contiene solamente las claves externas de las tablas que se van a vincular.
+Una tabla de relación permite vincular dos tablas con la cardinalidad N-N. Esta tabla contiene solo las claves externas de las tablas que se van a vincular.
 
-Ejemplo de una tabla de relación entre grupos (**nms:group**) y destinatarios (**nms:destinatario**).
+Ejemplo de una tabla de relación entre grupos (**nms:group**) y destinatarios (**nms:recipient**).
 
 Esquema de origen de la tabla de relación:
 
@@ -291,7 +289,7 @@ El esquema generado es el siguiente:
 </schema>
 ```
 
-La secuencia de comandos SQL de creación de tabla es la siguiente:
+El script SQL de creación de tabla es el siguiente:
 
 ```
 CREATE TABLE CusRcpGrpRel( iRcpGroupId INTEGER NOT NULL Default 0, iRecipientId INTEGER NOT NULL Default 0);
@@ -301,11 +299,11 @@ CREATE INDEX CusRcpGrpRel_recipientId ON CusRcpGrpRel(iRecipientId);
 
 ## Caso de uso: vincular un campo a una tabla de referencia existente {#uc-link}
 
-Este caso de uso muestra cómo se puede utilizar una tabla de referencia existente como alternativa a los mecanismos de lista desglosada integrados de Adobe Campaign (enum, userEnum o dbEnum).
+Este caso de uso demuestra cómo se puede usar una tabla de referencia existente como alternativa a los mecanismos de enumeración integrados de Adobe Campaign (enum, userEnum o dbEnum).
 
-También puede utilizar una tabla de referencia existente como lista desglosada en sus esquemas. Esto se puede lograr creando un vínculo entre una tabla y la tabla de referencia, y agregando el atributo **displayAsField=&quot;true&quot;**.
+También puede utilizar una tabla de referencia existente como una enumeración en los esquemas. Esto se puede lograr creando un vínculo entre una tabla y la tabla de referencia, y agregando el atributo **displayAsField=&quot;true&quot;**.
 
-En este ejemplo, la tabla de referencia contiene una lista de nombres e identificadores de bancos:
+En este ejemplo, la tabla de referencia contiene una lista de identificadores y nombres de bancos:
 
 ```
 <srcSchema entitySchema="xtk:srcSchema" img="cus:bank16x16.png" label="Bank" mappingType="sql" name="bank" namespace="cus"
@@ -321,24 +319,24 @@ xtkschema="xtk:srcSchema">
 </srcSchema>
 ```
 
-En cualquier tabla que utilice esta tabla de referencia, defina un vínculo y agregue el atributo **displayAsField=&quot;true&quot;**.
+En cualquier tabla que utilice esta tabla de referencia, defina un vínculo y añada el atributo **displayAsField=&quot;true&quot;**.
 
 ```
 <element displayAsField="true" label="Bank" name="bank" target="cus:bank" type="link" noDbIndex="true"/>
 ```
 
-La interfaz de usuario no mostrará un vínculo sino un campo. Cuando el usuario selecciona ese campo, puede seleccionar un valor de la tabla de referencia o utilizar la función de autocompletar.
+La interfaz de usuario no muestra ningún vínculo, sino un campo. Cuando el usuario selecciona ese campo, puede seleccionar un valor de la tabla de referencia o utilizar la función de autocompletar.
 
 ![](assets/schema-edition-ex.png)
 
 * Para que se complete automáticamente, debe definir una cadena de cálculo en la tabla de referencia.
 
-* Añada el atributo **noDbIndex=&quot;true&quot;** en la definición del vínculo para evitar que Adobe Campaign cree un índice en los valores almacenados en la tabla de origen del vínculo.
+* Añada el atributo **noDbIndex=&quot;true&quot;** en la definición del vínculo para evitar que Adobe Campaign cree un índice sobre los valores almacenados en la tabla de origen del vínculo.
 
 ## Temas relacionados
 
-* [Uso de listas desglosadas](../../platform/using/managing-enumerations.md)
+* [Uso de enumeraciones](../../platform/using/managing-enumerations.md)
 
-* [Introducción a los esquemas de Campaña](../../configuration/using/about-schema-edition.md)
+* [Introducción a los esquemas de Campaign](../../configuration/using/about-schema-edition.md)
 
 * [Actualización de la estructura de la base de datos](../../configuration/using/updating-the-database-structure.md)
