@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Uso de una lista de distribución externa
 description: Uso de una lista de distribución externa
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: b6aabc68-707d-4c6c-b008-277609166c6c
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 100%
 
