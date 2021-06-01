@@ -1,14 +1,13 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 'Opciones de ayuda y asistencia para el Campaign Classic '
 description: ¿Necesita asistencia para el Campaign Classic? ¡Está en el lugar correcto!
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 75%
+ht-degree: 86%
 
 ---
 
@@ -32,7 +31,7 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
 
 ### Preguntas frecuentes
 
-¿Cómo actualizar a una nueva compilación? ¿Cómo monitorizar la ejecución del flujo de trabajo? ¿Qué es el flujo de trabajo para limpieza de bases de datos? [Lea las 10 preguntas principales](platform/using/common-questions.md).
+¿Cómo actualizar a una nueva versión? ¿Cómo monitorizar la ejecución del flujo de trabajo? ¿Qué es el flujo de trabajo para limpieza de bases de datos? [Lea las 10 preguntas principales](platform/using/common-questions.md).
 
 <table>
     <tr><td><strong>Preguntas y respuestas sobre temas</strong></td><td><strong>Problemas comunes</strong></td><td><strong>Prácticas recomendadas</strong></td><td><strong>Instrucciones</strong></td></tr>
@@ -56,7 +55,7 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
         <li><a href="workflow/using/workflow-best-practices.md">Optimización del rendimiento de los flujos de trabajo</a></li>
         <li><a href="workflow/using/monitoring-workflow-execution.md">Solución de problemas de ejecución de flujos de trabajo</a></li>
         <li><a href="platform/using/sftp-server-usage.md">Uso del servidor SFTP</a></li>
-        <li><a href="delivery/using/understanding-delivery-failures.md">Comprensión de los errores de envío</a></li>
+        <li><a href="delivery/using/understanding-delivery-failures.md">Comprensión de los errores de entrega</a></li>
         </ul>
     </td>
    <td valign="top">
@@ -94,7 +93,7 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
 ### ¿Qué es el Panel de control?
 
 El Panel de control de Campaign de Campaign le ayuda a aumentar la eficacia de su trabajo como administrador de productos de Campaign Classic, lo que le permite administrar la configuración y rastrear los usos de cada una de sus instancias.
-[Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html) para obtener más información.
+[Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es) para obtener más información.
 
 >[!NOTE]
 >
@@ -104,7 +103,7 @@ El Panel de control de Campaign de Campaign le ayuda a aumentar la eficacia de s
 
 ### ¿Cómo acceder al Panel de control?
 
-El Panel de control está disponible directamente en Adobe Experience Cloud. Solo pueden acceder a él los usuarios administradores. [Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html) para obtener más información.
+El Panel de control está disponible directamente en Adobe Experience Cloud. Solo pueden acceder a él los usuarios administradores. [Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=es) para obtener más información.
 
 ### Preguntas frecuentes sobre el Panel de control
 
@@ -117,17 +116,17 @@ En el Panel de control, puede interactuar con todos los servidores SFTP conectad
 ### Subdominios y certificados
 
 Puede monitorizar los subdominios y sus certificados. Obtenga más información en estas páginas:
-* [Promoción de la marca de subdominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
-* [Configuración de un nuevo subdominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html)
-* [Monitorización de certificados SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html)
+* [Promoción de la marca de subdominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es)
+* [Configuración de un nuevo subdominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es)
+* [Monitorización de certificados SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=es)
 
 ### Configuración de instancias
 
 Obtenga información sobre cómo administrar la configuración de las instancias de Campaign Classic en el Panel de control. Obtenga más información en estas páginas:
-* [Añadir IP en la lista de permitidos para ](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html) acceder a las instancias de Campaign
-* [Administrar permisos de URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html)
-* [Detalles de instancias de acceso](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html)
-* [Administrar claves GPG para el cifrado de datos](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html)
+* [Añadir IP en la lista de permitidos para ](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=es) acceder a las instancias de Campaign
+* [Administrar permisos de URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=es)
+* [Detalles de instancias de acceso](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=es)
+* [Administrar claves GPG para el cifrado de datos](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=es)
 
 ## Solicitud de ayuda {#support}
 
@@ -141,11 +140,11 @@ El nuevo sistema de tickets se ha iniciado a través de [Adobe Admin Console](ht
 
 ### Acceso al Centro de descargas de Campaign
 
-A partir de junio de 2020, la solución Software Distribution de Experience Cloud reemplazará al antiguo Centro de descargas de Neolane, y proporcionará una experiencia más eficiente para encontrar y descargar software, paquetes y herramientas. [](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html)Haga clic aquí para acceder a la distribución de software de Experience Cloud.
+A partir de junio de 2020, la solución Software Distribution de Experience Cloud reemplazará al antiguo Centro de descargas de Neolane, y proporcionará una experiencia más eficiente para encontrar y descargar software, paquetes y herramientas. [Haga clic aquí](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) para acceder a la distribución de software de Experience Cloud.
 Obtenga más información sobre el nuevo Centro de descargas [en esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es).
 
 ### Creación de un ticket o inicio de una conversación
 
 La creación de un caso le permite ponerse en contacto con el equipo de Asistencia al cliente de Adobe en relación con cualquier problema que tenga con sus productos de Adobe. Para ayudarle a resolver sus problemas, Adobe Admin Console le permitirá hablar con Asistencia al cliente de Adobe.
 
-Para registrar un problema o iniciar una sesión de chat en el nuevo sistema, conéctese a [Adobe Admin Console](https://adminconsole.adobe.com/overview). Siga el procedimiento detallado descrito en [esta página](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+Para registrar un problema o iniciar una sesión de chat en el nuevo sistema, conéctese a [Adobe Admin Console](https://adminconsole.adobe.com/overview). Siga el procedimiento detallado descrito en [esta página](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
