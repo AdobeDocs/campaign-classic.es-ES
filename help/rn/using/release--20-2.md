@@ -3,21 +3,20 @@ solution: Campaign Classic
 product: campaign
 title: Versión 20.2
 description: Versión 20.2
-feature: Overview
+feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
-translation-type: tm+mt
-source-git-commit: 1c59afc7021af604559184cd0c21129af3759a8c
+source-git-commit: b211948f1b6a64d0734d1d23f6df4951af88445a
 workflow-type: tm+mt
 source-wordcount: '2970'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
 # Versión 20.2{#release-20-2}
 
-## ![](assets/do-not-localize/green_2.png) Versión 20.2.5 - Compilación 9188 {#release-20-2-5-build-9188}
+## ![](assets/do-not-localize/green_2.png) Versión 20.2.5, compilación 9188 {#release-20-2-5-build-9188}
 
 _15 de abril de 2021_
 
@@ -27,7 +26,7 @@ _15 de abril de 2021_
 
 >[!NOTE]
 >
-> Conéctese a [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) para descargar la nueva versión. Aprenda a proponer la actualización de la consola a todos los usuarios finales [en esta página](../../installation/using/client-console-availability-for-windows.md).
+> Conéctese a [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) para descargar la nueva versión. Aprenda a proponer la actualización de la consola a todos los usuarios finales [en esta página](../../installation/using/client-console-availability-for-windows.md).
 
 _31 de marzo de 2021_
 
@@ -236,7 +235,7 @@ Obtenga más información en la [Matriz de compatibilidad de Campaign](https://h
 
 **Mejoras**
 
-* La mensajería transaccional se ha mejorado para mejorar la experiencia del usuario. Ahora puede cancelar la publicación de una plantilla de mensaje transaccional, que la elimina de las instancias de ejecución. [Más información](../../message-center/using/template-unpublication.md).
+* La mensajería transaccional se ha mejorado para mejorar la experiencia del usuario. Ahora puede cancelar la publicación de una plantilla de mensaje transaccional, que la elimina de las instancias de ejecución. [Más información](../../message-center/using/publishing-message-templates.md#template-unpublication).
 
 * Hay nuevas opciones disponibles para establecer limitaciones al enviar correos electrónicos que incluyen imágenes o archivos adjuntos. Estas protecciones pueden evitar problemas de rendimiento, lo que resulta especialmente útil con la mensajería transaccional. [Más información](../../installation/using/configuring-campaign-options.md#delivery)
 
