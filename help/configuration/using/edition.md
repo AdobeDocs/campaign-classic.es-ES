@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Edición
 description: Edición
 audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
-translation-type: tm+mt
-source-git-commit: d6993725ed4060f2affce98c4a8a5211bda03bdf
+exl-id: 204d4a24-267c-4976-90d9-7bf5bee8d116
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 1%
 
 ---
-
 
 # Editar árbol de navegación del explorador de Campaign{#edition}
 
@@ -34,4 +32,3 @@ El campo de edición proporciona el contenido del documento XML:
 La vista previa genera automáticamente el documento combinado que contiene la configuración completa:
 
 ![](assets/d_ncs_integration_navigation_preview.png)
-
