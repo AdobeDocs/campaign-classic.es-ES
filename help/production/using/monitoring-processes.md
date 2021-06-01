@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
-source-git-commit: 214838cabeaec082080b3378f7eba837b8af89ad
+source-git-commit: b211948f1b6a64d0734d1d23f6df4951af88445a
 workflow-type: tm+mt
 source-wordcount: '3606'
 ht-degree: 1%
@@ -44,7 +44,8 @@ La lista de indicadores del sistema permite mostrar información sobre la máqui
 
 #### Windows {#in-windows}
 
-* **[!UICONTROL Pending events queued]** : indicador específico del  **centro de mensajes**. Consulte [esta sección](../../message-center/using/monitoring-thresholds.md) para obtener más información.
+* **[!UICONTROL Pending events queued]** : indicador específico del  **centro de mensajes**. Consulte [esta sección](../../message-center/using/additional-configurations.md#monitoring-thresholds) para obtener más información.
+
 * **[!UICONTROL Memory]** : información sobre la memoria física (RAM).
 
    **[!UICONTROL Current value]** : consumo real de memoria.
@@ -101,7 +102,8 @@ La lista de indicadores del sistema permite mostrar información sobre la máqui
 
 ![](assets/production_system_indicators_linux_001.png)
 
-* **[!UICONTROL Pending events queued]** : indicador específico del  **centro de mensajes**. Consulte [esta sección](../../message-center/using/monitoring-thresholds.md) para obtener más información.
+* **[!UICONTROL Pending events queued]** : indicador específico del  **centro de mensajes**. Consulte [esta sección](../../message-center/using/additional-configurations.md#monitoring-thresholds) para obtener más información.
+
 * **[!UICONTROL Load average (1/5/15 minutes)]** : información sobre la carga, es decir, la velocidad de uso del procesador por los procesos que se ejecutan en el equipo durante el último minuto, cinco minutos o quince minutos
 
    **[!UICONTROL Current value]** : carga real de la máquina.
