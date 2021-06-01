@@ -1,35 +1,33 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Umbrales de conexión
 description: Umbrales de conexión
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: tm+mt
-source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
+exl-id: 4ee05559-e719-4e6e-b42c-1e82df428871
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 3%
 
 ---
 
-
 # Umbrales de conexión{#connection-thresholds}
 
-Para los servidores con gran carga, puede que se supere el umbral de conexión. En cualquier evento, es útil averiguar por qué.
+En los servidores cargados de forma intensiva, es posible que se supere el umbral de conexión. En cualquier caso, es útil averiguar por qué.
 
-Existen tres umbrales diferentes:
+Hay tres umbrales diferentes:
 
-* El **umbral de conexión Web**, configurado en el servidor Web. Para modificarlo, póngase en contacto con el administrador del sistema.
+* El **umbral de conexión web**, configurado en el servidor web. Para modificarlo, póngase en contacto con el administrador del sistema.
 
-* El **umbral de conexión de base de datos**. Para modificarla, póngase en contacto con el administrador de la base de datos.
+* El **umbral de conexión a la base de datos**. Para modificarlo, póngase en contacto con el administrador de la base de datos.
 
 * El **umbral de conexión de Adobe Campaign**, disponible en dos lugares:
 
-   * **** Tomcatside: todas las consultas que llegan en realidad al cliente Adobe Campaign Tomcat.
+   * **** Tomcatside: todas las consultas que llegan realmente al cliente Tomcat de Adobe Campaign.
 
-      Este umbral se configura en el archivo **nl6/tomcat-8/conf/server.xml**. El atributo **maxThwords** permite aumentar el umbral del número de consultas procesadas a la vez. Se puede cambiar a 250, por ejemplo.
+      Este umbral se configura en el archivo **nl6/tomcat-8/conf/server.xml**. El atributo **maxThreads** permite aumentar el umbral del número de consultas procesadas a la vez. Se puede cambiar a 250, por ejemplo.
 
       ```
       <Connector protocol="HTTP/1.1" port="8080"
@@ -45,7 +43,7 @@ Existen tres umbrales diferentes:
 
    * **Base de datos**: conjunto de todas las conexiones abiertas al mismo tiempo en la base de datos mediante un proceso.
 
-      Este umbral se configura en el archivo **nl6/conf/serverConf.xml**. El atributo **maxCnx** ubicado en **grupo de orígenes de datos** permite aumentar el umbral de consultas procesadas simultáneamente.
+      Este umbral se configura en el archivo **nl6/conf/serverConf.xml**. El atributo **maxCnx** ubicado en **datasource pool** permite aumentar el umbral de consultas procesadas simultáneamente.
 
       ```
           <!-- Data source
@@ -58,4 +56,3 @@ Existen tres umbrales diferentes:
               <pool aliveTestDelaySec="600" freeCnx="0" maxCnx="90" maxIdleDelaySec="1200"/>
             </dataSource>
       ```
-
