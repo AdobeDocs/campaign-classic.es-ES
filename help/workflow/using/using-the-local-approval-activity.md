@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Uso de la actividad de aprobación local
 description: Descubra más información sobre cómo utilizar la actividad de aprobación local
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1272'
 ht-degree: 100%
 
