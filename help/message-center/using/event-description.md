@@ -1,25 +1,24 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Descripción de los eventos del centro de mensajes
-description: Obtén más información sobre los eventos de mensajería transaccional
+title: Descripción del evento
+description: Descubra cómo se administran los eventos de mensajería transaccional en Adobe Campaign Classic mediante los métodos SOAP.
 audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '746'
-ht-degree: 100%
+source-git-commit: d39b15b0efc6cbd6ab24e074713be6f8fc90e5fc
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 94%
 
 ---
 
-# Descripción del evento{#event-description}
+# Descripción del evento {#event-description}
 
-## Acerca del modelo de datos de mensajería transaccional {#about-transactional-messaging-datamodel}
+## Modelo de datos de mensajería transaccional {#about-transactional-messaging-datamodel}
 
-La mensajería transaccional se basa en el modelo de datos de Adobe Campaign y utiliza dos tablas independientes adicionales. Estas [tablas](../../configuration/using/data-model-description.md#message-center-module), **NmsRtEvent** y **NmsBatchEvent**, contienen los mismos campos y permiten gestionar eventos en tiempo real por un lado y eventos por lotes por otro.
+La mensajería transaccional se basa en el modelo de datos de Adobe Campaign y utiliza dos tablas independientes adicionales. Estas [tablas](../../configuration/using/data-model-description.md#message-center-module), **NmsRtEvent** y **NmsBatchEvent** contienen los mismos campos y permiten administrar eventos en tiempo real por un lado y eventos por lotes por otro.
 
 ## Métodos SOAP {#soap-methods}
 
