@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Creación de campañas de marketing
 description: Obtenga información sobre cómo crear y ejecutar campañas de marketing
@@ -7,9 +6,8 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 100%
 
@@ -221,7 +219,7 @@ Una campaña periódica es una campaña basada en una plantilla específica que 
 
 Todas las campañas periódicas contienen los mismos elementos. Una vez creada, se administra como una campaña estándar.
 
-## Videotutorial {#video}
+## Tutorial en vídeo {#video}
 
 Este vídeo muestra cómo crear planes, programas y campañas de marketing.
 
