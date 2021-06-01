@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Conectores de datos de Adobe Analytics
 description: Conectores de datos de Adobe Analytics
@@ -7,9 +6,8 @@ feature: Información general
 role: Business Practitioner, Administrator
 level: Beginner
 exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1658'
 ht-degree: 100%
 
