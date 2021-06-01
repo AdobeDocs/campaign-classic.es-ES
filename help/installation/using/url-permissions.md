@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuración de permisos de URL
 description: Obtenga información sobre cómo configurar los permisos de URL
@@ -7,11 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814,6fe8da3b-57b9-4a69-8602-a03993630b27
-translation-type: tm+mt
-source-git-commit: 5d8d9e6ba41f94179bbf5f6d41f86267381b9b93
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 32%
+ht-degree: 34%
 
 ---
 
@@ -25,7 +23,7 @@ De forma predeterminada, las instancias no pueden conectarse a direcciones URL e
 >
 >Este procedimiento está restringido a **implementaciones locales**.
 >
->Como cliente **alojado**, si puede acceder al [Panel de control de Campaign de campaña](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es), puede utilizar la interfaz de autoservicio de permisos de URL. [Obtenga más información](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html)
+>Como cliente **alojado**, si puede acceder al [Panel de control de Campaign de campaña](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es), puede utilizar la interfaz de autoservicio de permisos de URL. [Obtenga más información](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=es)
 >
 >Otros clientes **híbridos/alojados** deben ponerse en contacto con el equipo de asistencia de Adobe para agregar IP a la lista de permitidos.
 
