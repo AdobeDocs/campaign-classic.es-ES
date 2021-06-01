@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Notas de la versión de Campaign 18.4
 description: Notas de la versión 18.4 de Campaign
 feature: null
 role: null
 level: null
-translation-type: tm+mt
-source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
+exl-id: bbad81ba-a09f-4d67-9309-628ea7a08c9b
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 99%
 
 ---
-
 
 # Versión 18.4{#release-18-4}
 
