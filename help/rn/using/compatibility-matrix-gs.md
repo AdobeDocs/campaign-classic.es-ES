@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Matriz de compatibilidad para Campaign [!DNL Gold Standard]
 description: 'Matriz de compatibilidad de Campaign Classic para la versión [!DNL Gold Standard] '
@@ -7,7 +6,7 @@ feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 100%
