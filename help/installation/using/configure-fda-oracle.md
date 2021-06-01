@@ -1,26 +1,24 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuración del acceso a Oracle
-description: Obtenga información sobre cómo configurar el acceso a Oracle en FDA
+description: Obtenga información sobre cómo configurar el acceso al Oracle en FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 320bfbb4-533b-4c45-a46f-c3c8dd68221f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 74%
 
 ---
 
-
 # Configuración del acceso a Oracle {#configure-access-to-oracle}
 
-Utilice la opción Campaña [Acceso de datos federado](../../installation/using/about-fda.md) (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Oracle.
+Utilice la opción [Federated Data Access](../../installation/using/about-fda.md) (FDA) de Campaign para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Oracle.
 
-1. Configurar Oracle en [Linux](#oracle-linux) o [Windows](#azure-windows)
-1. Configurar la cuenta externa [de Oracle](#oracle-external) en Campaña
+1. Configurar el Oracle en [Linux](#oracle-linux) o [Windows](#azure-windows)
+1. Configurar el Oracle [cuenta externa](#oracle-external) en Campaign
 
 ## Oracle en Linux {#oracle-linux}
 
@@ -62,7 +60,7 @@ La conexión a una base de datos externa de Oracle en FDA requiere ciertas confi
       yum install libaio1
       ```
 
-1. En Campaign Classic, puede configurar la cuenta externa [!DNL Oracle]. Para obtener más información sobre cómo configurar su cuenta externa, consulte [esta sección](#oracle-external).
+1. En Campaign Classic, puede configurar la cuenta externa [!DNL Oracle]. Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#oracle-external).
 
 ## Oracle en Windows {#oracle-windows}
 
@@ -74,13 +72,13 @@ La conexión a una base de datos externa de Oracle en FDA requiere ciertas confi
 
 1. Añada una variable de entorno TNS_ADMIN con C:\Oracle como valor y reinicie el equipo.
 
-1. En Campaign Classic, puede configurar la cuenta externa [!DNL Oracle]. Para obtener más información sobre cómo configurar su cuenta externa, consulte [esta sección](#oracle-external).
+1. En Campaign Classic, puede configurar la cuenta externa [!DNL Oracle]. Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#oracle-external).
 
 ## Cuenta externa de Oracle {#oracle-external}
 
-La cuenta externa [!DNL Oracle] permite conectar la instancia de Campaña a la base de datos externa de Oracle.
+La cuenta externa [!DNL Oracle] permite conectar la instancia de Campaign a la base de datos externa de Oracle.
 
-1. En la Campaña **[!UICONTROL Explorer]**, seleccione **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
+1. En Campaña **[!UICONTROL Explorer]**, seleccione **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
 
 1. Elija **[!UICONTROL New]**.
 
@@ -97,6 +95,4 @@ La cuenta externa [!DNL Oracle] permite conectar la instancia de Campaña a la b
    * **[!UICONTROL Password]**: Contraseña de la cuenta de usuario
 
    * **[!UICONTROL Time zone]**: Zona horaria del servidor
-
    ![](assets/oracle_config.png)
-
