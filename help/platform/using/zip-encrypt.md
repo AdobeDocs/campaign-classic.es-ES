@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Compresión o cifrado de un archivo
 description: Obtenga información sobre cómo comprimir o cifrar un archivo en Campaign Classic antes de procesarlo.
@@ -7,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -24,7 +23,7 @@ Para poder hacerlo:
 
    >[!NOTE]
    >
-   >El Panel de control de Campaign está restringido a los usuarios administradores y solo está disponible para determinadas versiones de Campaign. [Obtenga más información](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html)
+   >El Panel de control de Campaign está restringido a los usuarios administradores y solo está disponible para determinadas versiones de Campaign. [Obtenga más información](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es)
 
 1. Si Adobe aloja la instalación de Adobe Campaign, contacte con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para que instalen las herramientas necesarias en el servidor.
 1. Si la instalación de Adobe Campaign está in situ: instale la utilidad que desee utilizar (por ejemplo: GPG, GZIP) así como las claves necesarias (clave de cifrado) en el servidor de aplicaciones.
@@ -33,7 +32,7 @@ A continuación, puede utilizar comandos o código en la pestaña **[!UICONTROL 
 
 **Temas relacionados:**
 
-* [Descompresióno descrifrado de un archivo antes de procesarlo](../../platform/using/unzip-decrypt.md)
+* [Descompresión o descifrado de un archivo antes de procesarlo](../../platform/using/unzip-decrypt.md)
 * [Actividad de extracción de datos (archivo)](../../workflow/using/extraction--file-.md).
 
 ## Caso de uso: cifrado y exportación de datos con una clave instalada en el Panel de control de Campaign {#use-case-gpg-encrypt}
