@@ -1,33 +1,32 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Seguimiento de pila en Linux
 description: Seguimiento de pila en Linux
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 91662d6d-2177-4440-b31f-7b031bd953cb
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 11%
 
 ---
 
-
 # Seguimiento de pila en Linux{#stack-trace-in-linux}
 
-Un **seguimiento de pila** representa un seguimiento contenido en un archivo de tipo **core**. Este archivo se genera en el evento de un error de equipo. Puede identificar el origen del error.
+Una **traza de pila** representa una traza contenida en un archivo de tipo **core**. Este archivo se genera en caso de error del equipo. Puede identificar el origen del error.
 
 >[!NOTE]
 >
 >* Un archivo **core** se denomina **core.`<num>`**.
->* **gdb - El** depurador GNU debe estar instalado en la máquina.
+>* **gdb - El GNU** Debuggerer debe estar instalado en la máquina.
+
 >
 
 
 
-El soporte técnico de Adobe Campaign puede solicitarle este **rastreo de pila**. Para obtenerlo, introduzca los siguientes comandos en Linux:
+El soporte técnico de Adobe Campaign puede solicitarle este **seguimiento de pila**. Para obtenerlo, introduzca los siguientes comandos en Linux:
 
 ```
 su - neolane
@@ -54,7 +53,7 @@ gdb nlserver <coreFile>
 #16 0x5565918a in clone () from /lib/tls/libc.so.6
 ```
 
-La asistencia técnica de Adobe Campaign puede solicitarle que ejecute este comando utilizando un archivo ejecutable específico (que nosotros proporcionaremos).
+El servicio de asistencia técnica de Adobe Campaign puede solicitarle que ejecute este comando utilizando un ejecutable específico (que nosotros proporcionaremos).
 
 En este caso, simplemente ejecute el siguiente comando reemplazando **nlserver** por el ejecutable proporcionado por Adobe Campaign:
 
@@ -67,4 +66,3 @@ Por ejemplo:
 ```
 gdb nlserver.1823 <coreFile>
 ```
-
