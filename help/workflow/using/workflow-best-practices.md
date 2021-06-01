@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Prácticas recomendadas del flujo de trabajo
 description: Descubra las prácticas recomendadas del flujo de trabajo Campaña
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1609'
 ht-degree: 100%
 
@@ -23,7 +21,7 @@ A continuación se detallan las directrices generales para optimizar el rendimie
 
 Las directrices para la resolución de problemas relacionadas con la ejecución de flujos de trabajo también están disponibles en [esta sección](../../production/using/workflow-execution.md).
 
-### “Logs”{#logs}
+### “Logs” {#logs}
 
 El método JavaScript **[!UICONTROL logInfo()]** es una excelente solución para depurar un flujo de trabajo. Es útil, pero debe utilizarse con cuidado, especialmente para actividades que se ejecutan con frecuencia: puede sobrecargar los registros y aumentar significativamente el tamaño de la tabla de registro. Sin embargo, también puede necesitar más que **[!UICONTROL logInfo()]**.
 
