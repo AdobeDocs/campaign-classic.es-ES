@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuración técnica de correo electrónico
 description: Obtenga información sobre cómo configurar Campaign para controlar el resultado de las instancias al enviar correos electrónicos.
@@ -7,8 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-translation-type: tm+mt
-source-git-commit: c62caeacd374b31f597f3c4b23318b8705fbda61
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '3022'
 ht-degree: 20%
