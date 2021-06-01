@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Introducción a la seguridad y la privacidad
 description: Obtenga más información sobre los elementos clave para comprobar la seguridad y la privacidad.
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-translation-type: tm+mt
-source-git-commit: 922603492d2c98d751683d3aa481e9ab19bca70c
+exl-id: ec40498e-e673-4792-8dcf-8bb7e852b532
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 19%
+ht-degree: 24%
 
 ---
-
 
 # Introducción a la seguridad y la privacidad {#get-started-security-privacy}
 
@@ -30,7 +28,7 @@ La configuración y el endurecimiento de la privacidad son elementos clave de la
 * Asegúrese de que las contraseñas cifradas estén restringidas.
 * Proteja las páginas que puedan contener información personal, como páginas espejo, aplicaciones web, etc.
 
-[Obtenga más información](../../installation/using/privacy.md)
+[Más información](../../installation/using/privacy.md)
 
 ## Gestión de acceso
 
@@ -42,9 +40,9 @@ La gestión del acceso es una parte importante del refuerzo de la seguridad. Est
 * Compruebe que cada operador tenga los derechos de acceso adecuados
 * Evite utilizar el operador de administrador y evite tener demasiados operadores en el grupo de administración
 
-[Obtenga más información](../../installation/using/access-management.md)
+[Más información](../../installation/using/access-management.md)
 
-## Directrices de secuencias de comandos y codificación
+## Directrices de script y código
 
 <img src="assets/do-not-localize/icon_scripting.svg" width="60px">
 
@@ -56,7 +54,7 @@ Cuando desarrolle en Adobe Campaign (flujos de trabajo, JavaScript, JSSP, etc.),
 
 * **Añadir captchas en aplicaciones** web: obtenga información sobre cómo añadir captchas en las páginas de aterrizaje y de suscripción públicas.
 
-[Obtenga más información](../../installation/using/scripting-coding-guidelines.md)
+[Más información](../../installation/using/scripting-coding-guidelines.md)
 
 ## Red, base de datos y SSL/TLS
 
@@ -66,7 +64,7 @@ Una cosa muy importante que debe comprobar al implementar un tipo de arquitectur
 
 También es imprescindible que siga la seguridad del motor de la base de datos.
 
-[Obtenga más información](../../installation/using/network-database.md)
+[Más información](../../installation/using/network-database.md)
 
 ## Configuración del servidor
 
@@ -84,7 +82,7 @@ La configuración debe realizarse en todos los servidores. Los archivos de confi
 
 * También puede agregar encabezados HTTP adicionales, activar checkIPConsistent, enableTLS, sessionTimeOutSec, etc. Consulte la [documentación de configuración del servidor de Campaign](../../installation/using/configuring-campaign-server.md) y la [Descripción del archivo de configuración del servidor](../../installation/using/the-server-configuration-file.md) para obtener más información.
 
-[Obtenga más información](../../installation/using/server-configuration.md)
+[Más información](../../installation/using/server-configuration.md)
 
 ## Configuración del servidor web
 
@@ -97,4 +95,4 @@ Se deben seguir varias prácticas recomendadas al configurar el servidor web (Ap
 * Quitar el banner
 * Limitar el tamaño de la consulta para evitar que se carguen archivos importantes
 
-[Obtenga más información](../../installation/using/web-server-configuration.md)
+[Más información](../../installation/using/web-server-configuration.md)
