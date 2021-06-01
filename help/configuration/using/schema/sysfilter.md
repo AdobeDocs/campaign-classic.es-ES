@@ -1,21 +1,19 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Elementos y atributos
 description: Elementos y atributos
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
+exl-id: a0069688-fd05-42e9-91dd-adc10bea3461
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 20%
 
 ---
 
-
-# sysfilter elemento {#sysfilter--element}
+# elemento sysfilter {#sysfilter--element}
 
 ## Modelo de contenido {#content-model-15}
 
@@ -37,7 +35,7 @@ Ninguno
 
 Este elemento permite definir un filtro.
 
-## Descripción del atributo {#attribute-description-15}
+## Descripción de atributo {#attribute-description-15}
 
 Este elemento no tiene atributos.
 
