@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuración
 description: Configuración
 audience: production
 content-type: reference
 topic-tags: production-procedures
-translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+exl-id: 80d388fd-873c-4a08-b8b6-697988f2a18c
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 1%
 
 ---
-
 
 # Configuración{#configuration}
 
