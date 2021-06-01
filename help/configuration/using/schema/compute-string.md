@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Elementos y atributos
 description: Elementos y atributos
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
+exl-id: 8a079bb8-3f53-4144-a065-5bd402649cc7
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 10%
 
 ---
-
 
 # elemento compute-string {#compute-string--element}
 
@@ -35,15 +33,15 @@ Ninguno
 
 ## Descripción {#description-1}
 
-El elemento `<compute-string>` permite generar una cadena basada en una expresión XTK para mostrar una etiqueta &quot;integrada&quot; en la interfaz basada en varios valores.
+El elemento `<compute-string>` permite generar una cadena basada en una expresión XTK para mostrar una etiqueta &quot;creada&quot; en la interfaz basada en varios valores.
 
 ## Uso y contexto de uso {#use-and-context-of-use-1}
 
-Cuando no se define `<compute-string>`, se introduce un elemento `<compute-string>` de forma predeterminada con los valores de la clave principal en el esquema.
+Cuando no se define `<compute-string>` , se introduce un elemento `<compute-string>` de forma predeterminada con los valores de la clave principal en el esquema.
 
-## Descripción del atributo {#attribute-description-1}
+## Descripción de atributo {#attribute-description-1}
 
-* **expr (cadena)**: Expresión XTK y/o Xpath
+* **expr (cadena)**: XTK o expresión Xpath
 
 ## Ejemplos {#examples-1}
 
