@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Elementos y atributos
 description: Elementos y atributos
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
+exl-id: 0fb74318-fe09-473c-8e33-1f3afd66b4cc
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 3%
 
 ---
-
 
 # elemento de método {#method--element}
 
@@ -23,7 +21,7 @@ método:==( help | parámetros)
 
 ## Atributos {#attributes-10}
 
-* @_operation (string)
+* @_operation (cadena)
 * @access (cadena)
 * @const (booleano)
 * @hidden (booleano)
@@ -31,7 +29,7 @@ método:==( help | parámetros)
 * @library (cadena)
 * @name (MNTOKEN)
 * @pkonly (booleano)
-* @static (boolean)
+* @static (booleano)
 
 ## Padres {#parents-10}
 
@@ -48,22 +46,22 @@ Este elemento permite definir un método SOAP.
 
 ## Uso y contexto de uso {#use-and-context-of-use-7}
 
-Los métodos SOAP habilitan procesos de aplicación.
+Los métodos SOAP permiten procesos de aplicación.
 
-&quot;@library&quot; es necesario para declarar un nuevo método (no nativo): la Área de nombres y el nombre utilizados para la biblioteca son independientes de la Área de nombres y el nombre del esquema en el que se encuentra la declaración.
+La &quot;@library&quot; es necesaria para declarar un nuevo método (no nativo): el espacio de nombres y el nombre utilizado para la biblioteca son independientes del espacio de nombres y el nombre del esquema donde está la declaración.
 
-## Descripción del atributo {#attribute-description-10}
+## Descripción de atributo {#attribute-description-10}
 
-* **access (cadena)**: este atributo define el control de acceso para utilizar el método. Si falta este atributo, la identificación es obligatoria. Los valores disponibles son: &#39;anónimo&#39;, &#39;admin&#39; y &#39;sql&#39;.
-* **const (booleano)**: si se activa, este atributo significa que el método declarado alterará la entidad
-* **label (string)**: del método.
-* **library (string)**: este método no es nativo de la aplicación. Este atributo toma el valor de la biblioteca de métodos en la que se encuentra la definición de método (nms:mylibrary.js).
-* **name (MNTOKEN)**: nombre de método único.
-* **static (boolean)**: si este atributo está activado, el método se considera autónomo, se deben especificar todos los parámetros del método cuando se llame a él.
+* **acceso (cadena)**: este atributo define el control de acceso para el uso del método . Si falta este atributo, la identificación es obligatoria. Los valores disponibles son: &#39;anonymous&#39;, &#39;admin&#39; y &#39;sql&#39;.
+* **const (booleano)**: si está activado, este atributo significa que el método declarado alterará la entidad
+* **label (cadena)**: etiqueta del método .
+* **biblioteca (cadena)**: este método no es nativo de la aplicación. Este atributo toma el valor de la biblioteca de métodos donde se encuentra la definición del método (nms:mylibrary.js).
+* **nombre (MNTOKEN)**: nombre de método único.
+* **estático (booleano)**: si este atributo está activado, el método se considera autónomo, se deben especificar todos los parámetros del método cuando se llame a él.
 
 ## Ejemplos {#examples-7}
 
-Definición del método &quot;Subscribe&quot; out of box:
+Definición del método &quot;Suscribirse&quot; fuera de la caja:
 
 ```
  
