@@ -1,30 +1,28 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Copia de seguridad
 description: Copia de seguridad
 audience: production
 content-type: reference
 topic-tags: data-processing
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: e5ef6aba-dc22-4c8d-9fbb-13d507181b65
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 2%
 
 ---
 
-
 # Copia de seguridad{#backup}
 
-La copia de seguridad es esencial para evitar la pérdida de datos en el evento de un problema (físico o relacionado con el sistema) en una máquina.
+La copia de seguridad es esencial para evitar la pérdida de datos en caso de problemas (físicos o relacionados con el sistema) en una máquina.
 
-Los datos se almacenan en dos ubicaciones distintas:
+Los datos se almacenan en dos ubicaciones diferentes:
 
-* los archivos físicos se almacenan en los directorios de Adobe Campaign,
+* los archivos físicos se almacenan en los directorios Adobe Campaign,
 * otros datos se almacenan en la base de datos.
 
-La mayoría de los datos están en la base de datos. Esto representa el 99% de la información a la que se debe hacer backup.
+La mayoría de los datos están en la base de datos. Representa el 99 % de la información a la que se va a realizar una copia de seguridad.
 
 ## Archivos físicos {#physical-files}
 
@@ -32,17 +30,17 @@ Los archivos se dividen en varias categorías:
 
 * Archivos de configuración ubicados en **nl6/conf**
 
-   Esto le permite volver a configurar Adobe Campaign muy rápidamente.
+   Esto le permite reconfigurar Adobe Campaign muy rápidamente.
 
 * Archivos de redirección ** nl6/var/`<instancename>`/redir**
 
-   Están en los servidores de seguimiento (a menudo llamados &quot;frontales&quot;) e incluyen todas las redirecciones de campaña anteriores. Las campañas anteriores siguen usándolas.
+   Están en los servidores de seguimiento (a menudo denominados &quot;frontales&quot;) e incluyen todas las redirecciones de campañas anteriores. Las campañas anteriores siguen usándolas.
 
 * Archivos de registro: **nl6/var/`<instancename>`/log**
 
-   Se pueden usar para rastrear problemas.
+   Pueden utilizarse para rastrear problemas.
 
-Por lo tanto, los directorios a los que se debe hacer una copia de seguridad son:
+Por lo tanto, los directorios a los que se va a realizar una copia de seguridad son:
 
 * nl6/conf
 
@@ -58,6 +56,6 @@ Por lo tanto, los directorios a los que se debe hacer una copia de seguridad son
 
 ## Database {#database}
 
-La base de datos contiene toda la información que se muestra en la consola de cliente enriquecida de Adobe Campaign, así como todos los datos de la línea de negocios.
+La base de datos contiene toda la información mostrada en la consola de cliente enriquecida de Adobe Campaign, así como todos los datos de la línea de negocios.
 
-La compañía de alojamiento, y los administradores de base de datos en particular, son responsables de esta operación.
+Su empresa de alojamiento y, en particular, sus administradores de base de datos, son responsables de esta operación.
