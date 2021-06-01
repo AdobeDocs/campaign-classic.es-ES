@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Acerca de la configuración inicial
 description: Acerca de la configuración inicial
@@ -7,8 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: f77ba178-0dfb-4a2e-b33b-971765d42298
-translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 8%
