@@ -7,10 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: ae6eb4b0-b419-4661-9d63-e758f0242a0f
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '335'
+source-git-commit: b211948f1b6a64d0734d1d23f6df4951af88445a
+workflow-type: tm+mt
+source-wordcount: '327'
 ht-degree: 100%
 
 ---
@@ -27,7 +26,7 @@ Hay tres modos de inserción posibles:
 
 1. Introducción de direcciones semilla individuales.
 
-   Para ello, haga clic en el botón **[!UICONTROL Add]** y defina el contenido de los campos de dirección. Repita este proceso para cada dirección. Para obtener más información, consulte [esta sección](../../message-center/using/managing-seed-addresses-in-transactional-messages.md#creating-a-seed-address).
+   Para ello, haga clic en el botón **[!UICONTROL Add]** y defina el contenido de los campos de dirección. Repita este proceso para cada dirección.
 
 1. Importación de plantillas de direcciones y adaptación a sus necesidades.
 
