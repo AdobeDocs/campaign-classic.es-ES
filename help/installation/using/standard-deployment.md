@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Implementación estándar
 description: Implementación estándar
@@ -7,11 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
-translation-type: tm+mt
-source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '832'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -156,7 +154,7 @@ Los pasos son los siguientes:
    <redir status="OK" date="AAAA/MM/JJ HH:MM:SS" build="XXXX" host="tracking.campaign.net" localHost="front_srv2"/>
    ```
 
-   Para obtener más información, consulte las secciones siguientes:
+   Para obtener más información, consulte las siguientes secciones:
 
    * Para Linux: [Inicio del servidor web y prueba de la configuración](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
    * Para Windows: [Inicio del servidor web y prueba de la configuración](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
