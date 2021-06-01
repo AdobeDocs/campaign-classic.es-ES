@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Uso de servidores MX con Campaign
 description: Descubra cómo funcionan los servidores MX con Adobe Campaign Classic.
@@ -8,11 +7,10 @@ content-type: reference
 topic-tags: additional-configurations
 hidefromtoc: true
 exl-id: 47f50bf5-4d5b-4c07-af71-de4390177cf5
-translation-type: tm+mt
-source-git-commit: 3b5a6e6f03d9cb26ed372c3df069cbada36756a2
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '806'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -88,5 +86,5 @@ El modo Personalizado es para clientes avanzados que desean establecer sus propi
 **Temas relacionados:**
 * [Configuración MX](../../installation/using/email-deliverability.md#mx-configuration)
 * [Configuración técnica de correo electrónico](../../installation/using/email-deliverability.md)
-* [Comprender los errores de entrega](../../delivery/using/understanding-delivery-failures.md)
+* [Comprensión de los errores de envío](../../delivery/using/understanding-delivery-failures.md)
 * [Campaign Classic: Recommendations técnico](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/acc-technical-recommendations.html)
