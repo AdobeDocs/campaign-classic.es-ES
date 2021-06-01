@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Acerca de la edición de esquema
 description: Introducción a la edición de esquema
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-translation-type: tm+mt
-source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
+exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 9%
 
 ---
-
 
 # Acerca de la edición de esquema{#about-schema-edition}
 
@@ -136,7 +134,7 @@ La lista completa de atributos está disponible en la sección [`<attribute>` el
 * **@xml**
 * **@type**
 
-   Para ver una tabla con las asignaciones para los tipos de datos generados por Adobe Campaign para los diferentes sistemas de administración de bases de datos, consulte la sección [Mapping the types of Adobe Campaign/DBMS data](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data) .
+   Para ver una tabla que enumera las asignaciones para los tipos de datos generados por Adobe Campaign para los diferentes sistemas de administración de bases de datos, consulte la sección [Mapping the types of Adobe Campaign/DBMS data](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data) .
 
 Para obtener más información sobre cada atributo, consulte la sección [Descripción del atributo](../../configuration/using/schema/attribute.md).
 
@@ -225,4 +223,3 @@ Para obtener más información, consulte la sección [Actualización de la estru
 >[!NOTE]
 >
 >Cuando las modificaciones no afectan a la estructura de la base de datos, solo es necesario volver a generar los esquemas. Para ello, seleccione los esquemas que desea actualizar, haga clic con el botón derecho y elija **[!UICONTROL Actions > Regenerate selected schemas...]** . Para obtener más información, consulte la sección [Regeneración de esquemas](../../configuration/using/regenerating-schemas.md) .
-
