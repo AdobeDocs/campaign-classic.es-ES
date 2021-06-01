@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Introducción a las actualizaciones
 description: Más información sobre las actualizaciones de Campaign Classic
@@ -7,7 +6,7 @@ feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 98%
