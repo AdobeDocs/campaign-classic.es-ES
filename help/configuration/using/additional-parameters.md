@@ -1,32 +1,30 @@
 ---
-solution: Campaign Classic
 product: campaign
-title: Parámetros adicionales de seguimiento Web
-description: Más información sobre los parámetros del seguimiento web
+title: Parámetros de seguimiento web adicionales
+description: Obtenga más información sobre los parámetros del seguimiento web
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
 
 ---
 
-
 # Parámetros adicionales{#additional-parameters}
 
 ## Definición de parámetros {#definition-of-parameters}
 
-La plataforma Adobe Campaign oferta dos parámetros de seguimiento web de tipo TRANSACTION como estándar:
+La plataforma de Adobe Campaign ofrece dos parámetros de seguimiento web de tipo TRANSACCIÓN como estándar:
 
-* **importe**: representa el importe de una transacción,
-* **artículo**: representa el número de artículos de una transacción.
+* **importe**: representa la cantidad de una transacción,
+* **artículo**: representa el número de elementos de una transacción.
 
-Estos parámetros se definen en el esquema **nms:webTrackingLog** y son algunos de los indicadores que se ven en sistema de informes.
+Estos parámetros se definen en el esquema **nms:webTrackingLog** y son algunos de los indicadores que se ven en los informes.
 
-Para definir parámetros adicionales, debe extender este esquema.
+Para definir parámetros adicionales, debe ampliar este esquema.
 
 **Ejemplo**:
 
@@ -42,7 +40,7 @@ Para definir parámetros adicionales, debe extender este esquema.
 </srcSchema>
 ```
 
-Puede mostrar los valores de estos parámetros configurando la lista del registro de seguimiento (de un envío o destinatario).
+Puede mostrar los valores de estos parámetros configurando la lista de registro de seguimiento (de un envío o destinatario).
 
 ## Configuración del servidor de redirección {#redirection-server-configuration}
 
@@ -50,15 +48,15 @@ En la configuración del servidor, puede definir el número máximo de caractere
 
 >[!IMPORTANT]
 >
->El aumento del número máximo de caracteres que se deben tener en cuenta puede afectar al rendimiento del seguimiento web de la plataforma.
+>Aumentar el número máximo de caracteres que se deben tener en cuenta puede afectar al rendimiento del seguimiento web de su plataforma.
 
 Para ello, modifique el atributo **webTrackingParamSize** del elemento **`<trackinglogd>`** en el archivo **serverConf.xml**. Este archivo se guarda en el subdirectorio **conf** del directorio de instalación de Adobe Campaign.
 
 **Ejemplo**:
 
-El valor predeterminado es de 64 caracteres. Este valor le permite tener en cuenta los parámetros estándar **amount** y **article** (&quot;amount=xxxxxxxxx&amp;article=xxxxxxxx&quot;).
+El valor predeterminado es de 64 caracteres. Este valor permite tener en cuenta los parámetros estándar **amount** y **article** (&quot;amount=xxxxxxxx&amp;article=xxxxxxxxx&quot;).
 
-Teniendo en cuenta los dos parámetros (tamaño del nombre + tamaño del valor) indicados en el ejemplo de esquema de extensión anterior, puede modificar la configuración para tener en cuenta 100 caracteres (&quot;amount=xxxxxxxx&amp;article=xxxxxxxx&amp;mode=xxxxxxxxxx&amp;code=xxxx&quot;).
+Teniendo en cuenta ambos parámetros (tamaño del nombre + tamaño del valor) indicados en el ejemplo del esquema de extensión anterior, puede modificar la configuración para tener en cuenta 100 caracteres (&quot;amount=xxxxxxxx&amp;article=xxxxxxxxxxxx&amp;mode=xxxxxxxxxxx&amp;code=xxxx&quot;).
 
 ```
 <trackinglogd args="" autoStart="false" initScript="" maxCreateFileRetry="5" maxLogsSizeOnDiskMb="500"
@@ -67,7 +65,7 @@ processRestartTime="06:00:00" purgeLogsPeriod="50000" runLevel="10"
 webTrackingParamSize="64"/>
 ```
 
-Cuando se haya modificado la configuración, deberá:
+Cuando se haya modificado la configuración, debe:
 
 * Detenga el servidor web que aloja el módulo de redirección (Apache, IIS, etc.),
 * Detenga el servidor de Adobe Campaign: **net stop nlserver6** en Windows, **/etc/init.d/nlserver6 stop** en Linux,
@@ -77,11 +75,11 @@ Cuando se haya modificado la configuración, deberá:
    >A partir de 20.1, se recomienda utilizar el siguiente comando en su lugar (para Linux): **systemctl stop nlserver**
 
 * En Linux, elimine los segmentos de memoria compartida mediante el comando **ipcrm**,
-* Reinicie el servidor de Adobe Campaign: **net inicio nlserver6** en Windows, **/etc/init.d/nlserver6 inicio** en Linux,
+* Reinicie el servidor de Adobe Campaign: **net start nlserver6** en Windows, **/etc/init.d/nlserver6 start** en Linux,
 
    >[!NOTE]
    >
-   >A partir de 20.1, se recomienda utilizar el siguiente comando en su lugar (para Linux): **inicio de sistema nlserver**
+   >A partir de 20.1, se recomienda utilizar el siguiente comando en su lugar (para Linux): **systemctl start nlserver**
 
 * Reinicie el servidor web.
 
@@ -112,4 +110,3 @@ adobe@selma:~$ systemctl start apache2
 >[!NOTE]
 >
 >Para Linux, si aumenta el tamaño de los parámetros **webTrackingParamSize** o **maxSharedLogs**, es posible que tenga que aumentar el tamaño de la memoria compartida (SHM).
-
