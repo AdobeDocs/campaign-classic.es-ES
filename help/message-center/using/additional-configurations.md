@@ -6,10 +6,10 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 85%
+source-wordcount: '747'
+ht-degree: 81%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 85%
 
 ## Umbrales de monitor {#monitoring-thresholds}
 
-Puede configurar los umbrales de advertencia (naranja) y los umbrales de alerta (rojo) de los indicadores que aparecen en los informes **Nivel de servicio del Centro de mensajes** y **Tiempo de procesamiento del Centro de mensajes** (consulte).[](../../message-center/using/about-transactional-messaging-reports.md)
+Puede configurar los umbrales de advertencia (naranja) y los umbrales de alerta (rojo) de los indicadores que aparecen en los informes **Message Center service level** y **Message Center processing time** (consulte [Access transactional messaging reports](../../message-center/using/about-transactional-messaging-reports.md)).
 
 Para realizar esto, siga los pasos a continuación:
 
@@ -109,7 +109,7 @@ En las instancias de ejecución, siga los pasos a continuación:
 
    >[!NOTE]
    >
-   >Obtenga información sobre cómo crear una cuenta externa de tipo instancia de ejecución en la sección [Control instance](../../message-center/using/configuring-instances.md#control-instance).
+   >Obtenga información sobre cómo crear una cuenta externa de tipo instancia de ejecución en [esta sección](../../message-center/using/configuring-instances.md#control-instance).
 
 1. Amplíe el esquema nms:extAccount para añadir la URL de seguimiento:
 
