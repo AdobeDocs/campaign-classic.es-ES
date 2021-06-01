@@ -7,9 +7,8 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 54d503e97a4374927c4ebe3ba4e0ec05e51d47db
+workflow-type: tm+mt
 source-wordcount: '1921'
 ht-degree: 100%
 
@@ -98,7 +97,7 @@ Para los clientes que utilizan la funcionalidad de mensajería transaccional de 
 
 ### Encabezados de servidor de correo mejorado
 
-Las últimas instancias de Campaign Classic incluyen código que agrega los encabezados de servidor de correo mejorado necesarios a cada mensaje. Si utiliza Adobe Campaign 19.1 (compilación 9032) o superior y este no es el caso, debe solicitar al [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) que añada el parámetro useMomentum=true a la configuración de la instancia de ejecución (en el archivo [serverConf.xml](../../installation/using/the-server-configuration-file.md#mta)), que puede ser su instancia de marketing, [instancia de intermediario](../../installation/using/mid-sourcing-server.md) o [instancia de ejecución de mensajería transaccional](../../message-center/using/creating-a-shared-connection.md#execution-instance), según la configuración.
+Las últimas instancias de Campaign Classic incluyen código que agrega los encabezados de servidor de correo mejorado necesarios a cada mensaje. Si utiliza Adobe Campaign 19.1 (compilación 9032) o superior y este no es el caso, debe solicitar al [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) que añada el parámetro useMomentum=true a la configuración de la instancia de ejecución (en el archivo [serverConf.xml](../../installation/using/the-server-configuration-file.md#mta)), que puede ser su instancia de marketing, [instancia de intermediario](../../installation/using/mid-sourcing-server.md) o [instancia de ejecución de mensajería transaccional](../../message-center/using/configuring-instances.md#execution-instance), según la configuración.
 
 Sin embargo, si está utilizando una instancia anterior que no incluye este código, se debe añadir una nueva regla de tipología denominada **[!UICONTROL Typology Rule for Enhanced MTAs]** a todas las tipologías existentes en la instancia de Campaign.
 Esta regla se añade mediante un paquete **[!UICONTROL Typology]** instalado como parte de la actualización al servidor de correo mejorado.
