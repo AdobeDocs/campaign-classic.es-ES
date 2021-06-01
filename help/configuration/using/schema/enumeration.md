@@ -1,29 +1,27 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Elementos y atributos
 description: Elementos y atributos
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
+exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 6%
 
 ---
 
-
-# Elemento de lista desglosada {#enumeration--element}
+# elemento de enumeración {#enumeration--element}
 
 ## Modelo de contenido {#content-model-5}
 
-lista desglosada:==(ayuda| valor)
+enumeration:==(help| value)
 
 ## Atributos {#attributes-5}
 
-* @basetype (string)
+* @basetype (cadena)
 * @default (cadena)
 * @desc (cadena)
 * @label (cadena)
@@ -41,17 +39,17 @@ lista desglosada:==(ayuda| valor)
 
 ## Descripción {#description-5}
 
-Este elemento nos permite definir una lista desglosada de valor. Una lista desglosada pertenece al esquema en el que está definida, pero se puede acceder a ella a través de otro esquema.
+Este elemento permite definir una enumeración de valores. Una enumeración pertenece al esquema en el que está definida, pero se puede acceder a ella a través de otro esquema.
 
 ## Uso y contexto de uso {#use-and-context-of-use-4}
 
-Las listas desglosadas se definen en el inicio de un esquema (antes de definir el elemento principal).
+Las enumeraciones se definen al principio de un esquema (antes de que se defina el elemento principal).
 
-## Descripción del atributo {#attribute-description-5}
+## Descripción de atributo {#attribute-description-5}
 
-* **basetype (string)**: tipo de los valores almacenados en la lista desglosada.
+* **basetype (cadena)**: tipo de los valores almacenados en la enumeración .
 
-   Lista de los tipos disponibles:
+   Lista de tipos disponibles:
 
    * CUALQUIER
    * bin
@@ -65,12 +63,12 @@ Las listas desglosadas se definen en el inicio de un esquema (antes de definir e
    * date
    * DOMDocument
    * DOMElement
-   * doble
+   * double
    * enum
    * float
    * html
    * int64
-   * link
+   * vínculo
    * long
    * memo
    * MNTOKEN
@@ -82,15 +80,15 @@ Las listas desglosadas se definen en el inicio de un esquema (antes de definir e
    * timespan
    * uuid
 
-* **default (string)**: Valor predeterminado. El valor predeterminado también puede ser uno de los valores definidos en la lista desglosada.
-* **desc (cadena)**: Descripción de la lista desglosada.
-* **label (string)**: Etiqueta de lista desglosada.
-* **name (string)**: nombre interno de la lista desglosada.
-* **template (string)**: este atributo define una referencia a un  `<enumeration>` elemento compartido por varios esquemas. La definición se copia automáticamente en el esquema actual.
+* **predeterminado (cadena)**: Valor predeterminado. El valor predeterminado también puede ser uno de los valores definidos en la enumeración.
+* **desc (cadena)**: descripción de la enumeración.
+* **label (cadena)**: etiqueta de enumeración.
+* **nombre (cadena)**: nombre interno de la enumeración.
+* **plantilla (cadena)**: este atributo define una referencia a un  `<enumeration>` elemento compartido por varios esquemas. La definición se copia automáticamente en el esquema actual.
 
 ## Ejemplos {#examples-4}
 
-Ejemplo de valores de lista desglosada cuyos valores se almacenan en la base de datos:
+Ejemplo de valores de enumeración cuyos valores se almacenan en la base de datos:
 
 ```
     <enumeration name="myEnum">
@@ -103,7 +101,7 @@ Ejemplo de valores de lista desglosada cuyos valores se almacenan en la base de 
     </element>
 ```
 
-Definición de una lista desglosada con un valor predeterminado:
+Definición de una enumeración con un valor predeterminado:
 
 ```
  <enumeration basetype="byte" default="email" name="canal">
