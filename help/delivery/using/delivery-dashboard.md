@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Panel de entregas
 description: Obtenga más información acerca de cómo utilizar el panel de entregas para monitorizar las entregas.
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 100%
 
@@ -24,7 +22,7 @@ Permite recuperar información de una entrega y editarla si es necesario. Tenga 
 A continuación, se muestra la información que puede monitorizar en las distintas pestañas disponibles en el panel:
 
 * [Resumen de entregas](#delivery-summary)
-* [Informes de entrega](#delivery-reports)
+* [Informes de envío](#delivery-reports)
 * [Registros de entregas, páginas espejo y exclusiones](#delivery-logs-and-history)
 * [Registros de entregas e historial](#tracking-logs)
 * [Representación de entregas](#delivery-rendering)
@@ -36,7 +34,7 @@ A continuación, se muestra la información que puede monitorizar en las distint
 
 * [Comprensión de los errores de entrega](../../delivery/using/understanding-delivery-failures.md)
 * [Comprensión de la gestión de la cuarentena](../../delivery/using/understanding-quarantine-management.md)
-* [Prácticas recomendadas relacionadas con las entregas](../../delivery/using/delivery-best-practices.md)
+* [Prácticas recomendadas de entregas](../../delivery/using/delivery-best-practices.md)
 * [Administración de entregas](../../delivery/using/about-deliverability.md)
 
 ## Resumen de entregas {#delivery-summary}
