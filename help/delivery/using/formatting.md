@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Formato
 description: Formato
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 100%
 
@@ -69,7 +67,7 @@ Los atributos y elementos del contenido se representan como objetos JavaScript y
 **Ejemplo**:
 
 * **content.@name**: recupera el valor del atributo “name” del elemento principal.
-* **content.@`['name']`**: idéntico al **content.@name** sintaxis
+* **contenido.@`['name']`**: idéntico al **content.@name** sintaxis
 * **content.chapter.length**: devuelve el número de elementos en el elemento de colección `<chapter`.
 * **content.chapter`[0]`.@name**: recupera el nombre del primer elemento `<chapter>`.
 * **chapter.name()**: devuelve el nombre del elemento `<chapter>`.
