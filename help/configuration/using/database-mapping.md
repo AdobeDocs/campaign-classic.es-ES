@@ -494,7 +494,7 @@ Relación 1-1 con la tabla de esquema &quot;cus:extension&quot;:
 <element integrity="own" label="Extension" name="extension" revCardinality="single" revLink="recipient" target="cus:extension" type="link"/>
 ```
 
-### Ejemplo 5 {#example-4}
+### Ejemplo 4 {#example-4}
 
 Enlace a una carpeta (esquema &quot;xtk:folder&quot;):
 
@@ -504,7 +504,7 @@ Enlace a una carpeta (esquema &quot;xtk:folder&quot;):
 
 El valor predeterminado devuelve el identificador del primer archivo de tipo de parámetro apto introducido en la función &quot;DefaultFolder(&#39;nmsFolder&#39;)&quot;.
 
-### Ejemplo 4 {#example-5}
+### Ejemplo 5 {#example-5}
 
 En este ejemplo, deseamos crear una clave en un vínculo (&quot;empresa&quot; al esquema &quot;cus:empresa&quot;) con el atributo **xlink** y un campo de la tabla (&quot;correo electrónico&quot;):
 
