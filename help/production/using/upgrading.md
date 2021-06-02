@@ -22,7 +22,6 @@ Antes de iniciar el proceso de actualización, determine y confirme a qué versi
 >* Adobe recomienda encarecidamente realizar una copia de seguridad de la base de datos en cada instancia antes de la actualización. Para obtener más información, consulte [esta sección](../../production/using/backup.md).
 >* Para realizar una actualización, asegúrese de que tiene la capacidad y los permisos para acceder a instancias y registros.
 >* Lea [esta sección](../../installation/using/general-architecture.md) y el capítulo [actualización de compilación](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) antes de empezar.
-
 >
 
 
@@ -49,6 +48,7 @@ Para reemplazar todos los archivos con la nueva versión, debe cerrar todas las 
       **iisreset /stop**
 
    * Servicio de Adobe Campaign: **net stop nlserver6**
+
    >[!IMPORTANT]
    >
    >También debe asegurarse de que el servidor de redirección (webmdl) esté detenido, de modo que el archivo **nlsrvmod.dll** utilizado por IIS pueda reemplazarse por la nueva versión.
@@ -171,10 +171,8 @@ Para ello, ejecute el siguiente comando:
 >
 >* Su script puede llamarse **httpd** en lugar de **apache**.
 >* DEBE ejecutar este comando hasta que obtenga la siguiente respuesta:
-
-   >
-   >   
-   Esta operación es necesaria para que Apache aplique la nueva biblioteca.
+>
+>   Esta operación es necesaria para que Apache aplique la nueva biblioteca.
 
 
 A continuación, reinicie Apache:

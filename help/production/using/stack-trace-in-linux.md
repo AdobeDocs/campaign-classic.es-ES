@@ -21,7 +21,6 @@ Una **traza de pila** representa una traza contenida en un archivo de tipo **cor
 >
 >* Un archivo **core** se denomina **core.`<num>`**.
 >* **gdb - El GNU** Debuggerer debe estar instalado en la máquina.
-
 >
 
 
