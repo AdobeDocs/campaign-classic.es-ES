@@ -9,7 +9,7 @@ exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 Adobe Experience Cloud es un conjunto completo de las mejores soluciones integradas en una plataforma de datos común con un conjunto de servicios principales potentes.
 
-Obtenga información sobre las integraciones funcionales disponibles entre Adobe Campaign y [Soluciones Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/marketing-cloud-integrations.html) y [servicios principales](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html). Puede modernizar las implementaciones de soluciones e implementar Experience Cloud para que pueda utilizar funciones como atributos y audiencias del cliente.
+Obtenga información sobre las integraciones funcionales disponibles entre Adobe Campaign y [Soluciones Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/marketing-cloud-integrations.html?lang=es) y [servicios principales](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html?lang=es). Puede modernizar las implementaciones de soluciones e implementar Experience Cloud para que pueda utilizar funciones como atributos y audiencias del cliente.
 
 ![](assets/ExCloud-solutions.png)
 
@@ -36,13 +36,13 @@ Se detalla la administración de la organización y los vínculos de las cuentas
 
 ## Administración de cookies e identidades {#id-and-cookies}
 
-Cuando se instala Adobe Campaign o se integra una instalación existente con Adobe Experience Cloud, se activa el [Servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). Este servicio reemplaza la cookie permanente que utiliza principalmente Adobe Campaign para las funciones de seguimiento.
+Cuando se instala Adobe Campaign o se integra una instalación existente con Adobe Experience Cloud, se activa el [Servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es). Este servicio reemplaza la cookie permanente que utiliza principalmente Adobe Campaign para las funciones de seguimiento.
 
 El Servicio de identidad de Adobe Experience Cloud (servicio de ID) proporciona un ID universal y persistente que identifica sus visitantes en todas las soluciones de Experience Cloud.
 
 Se asigna una ID único de visitante a los destinatarios que generen registros de seguimiento. Esta ID se guarda en el campo **[!UICONTROL Requester UUID (@sourceID)]** de la tabla **[!UICONTROL nms:trackingLogRcp]**. **Por lo tanto, ya no se pueden utilizar los datos de seguimiento de los destinatarios existentes antes de implementar el servicio de ID de visitante**.
 
-Las otras soluciones de Adobe Experience Cloud reconocen entonces la ID con el mismo CNAME. [Obtenga más información](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html)
+Las otras soluciones de Adobe Experience Cloud reconocen, por consiguiente, el ID con el mismo CNAME. [Más información](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=es)
 
 ## Integraciones de Experience Cloud {#experience-cloud-integrations}
 
