@@ -9,7 +9,7 @@ exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '899'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -97,13 +97,13 @@ Los perfiles que se excluyen durante la preparación de la entrega (reglas de ti
 >
 >Los canales de Facebook y Twitter no se tienen en cuenta.
 
-Desde el explorador de Campaign, vaya a **[!UICONTROL Administration > Campaign Management > Customer metrics]** para obtener una descripción general del número de perfiles activos. El recuento real lo realiza el **[!UICONTROL Number of active billing profiles]** ([!UICONTROL billingActiveContactCount]) [flujo de trabajo técnico](../../workflow/using/about-technical-workflows.md). Este flujo de trabajo se ejecuta todos los días y agrega los nuevos datos al informe existente para el periodo actual en la carpeta **[!UICONTROL Customer metrics]**.
+Desde el explorador de Campaign, vaya a **[!UICONTROL Administration > Campaign Management > Customer metrics]** para obtener una vista general del número de perfiles activos. El recuento real lo realiza el **[!UICONTROL Number of active billing profiles]** ([!UICONTROL billingActiveContactCount]) [flujo de trabajo técnico](../../workflow/using/about-technical-workflows.md). Este flujo de trabajo se ejecuta todos los días y agrega los nuevos datos al informe existente correspondiente al periodo actual en la carpeta **[!UICONTROL Customer metrics]**.
 
 Tenga en cuenta que el recuento de perfiles principales solo está disponible para las **instancias de marketing**. No está disponible para Instancias de ejecución; es decir, instancias de MID (fuentes intermedias) y RT (mensajería en tiempo real/centro de mensajes).
 
 >[!NOTE]
 >
->También puede monitorizar el número de perfiles activos en su instancia directamente desde Campaign Panel de control de Campaign. Para obtener más información, consulte la [documentación del Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=es#performance-monitoring).
+>También puede monitorizar el número de perfiles activos en su instancia directamente desde el Panel de control de Campaign. Para obtener más información, consulte la [Documentación del Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=es#performance-monitoring).
 
 ## Vídeo tutorial {#create-profiles-video}
 
@@ -119,7 +119,7 @@ Puede encontrar disponibles más vídeos de procedimientos para Campaign Classic
 
 * [Administración de la privacidad en Campaign](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html)
 
-* [Definición de la población objetivo.](../../delivery/using/define-the-right-audience.md)
+* [Definición de la población objetivo](../../delivery/using/define-the-right-audience.md)
 
 * [Creación de consultas y datos de segmentos en flujos de trabajo](../../workflow/using/targeting-data.md)
 
