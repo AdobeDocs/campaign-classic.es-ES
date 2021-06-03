@@ -9,7 +9,7 @@ exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '847'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ En este correo electrónico, queremos que una de las imágenes cambie de manera 
 Para que esto funcione, se deben realizar los dos pasos siguientes en Adobe Campaign y Target:
 
 1. [Inserción de la oferta dinámica en un mensaje de correo electrónico](../../integrations/using/inserting-a-dynamic-image.md#inserting-dynamic-offer)
-1. [Creación de ofertas personalizadas](../../integrations/using/inserting-a-dynamic-image.md#create-redirect-offers)
+1. [Creación de ofertas de redirección](../../integrations/using/inserting-a-dynamic-image.md#create-redirect-offers)
 1. [Creación de audiencias](../../integrations/using/inserting-a-dynamic-image.md#audiences-target)
-1. [Creación de una actividad de segmentación de experiencias   ](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
+1. [Creación de una actividad de segmentación de experiencias](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
 1. [Previsualización y envío del correo electrónico](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
 
 ## Inserción de la oferta dinámica en un mensaje de correo electrónico {#inserting-dynamic-offer}
@@ -58,7 +58,7 @@ En Adobe Campaign, hay dos formas de insertar una imagen dinámica desde Target 
 * **[!UICONTROL Landing Page]**: Si desea que la imagen predeterminada se redirija a una página de aterrizaje predeterminada. Esta URL es opcional y solo para aquellos casos en que la imagen predeterminada se muestra en el mensaje de correo electrónico final.
 * **[!UICONTROL Additional decision parameters]**: especifique la asignación entre los campos definidos en los segmentos de Adobe Target y los campos de Adobe Campaign. Los campos de Adobe Campaign utilizados deben haberse especificado en el “rawbox”. En el ejemplo, añadimos el campo País.
 
-Si utiliza permisos de empresa en la configuración de Adobe Target, añada la propiedad correspondiente en este campo. Obtenga más información sobre los permisos de empresa de Target en [esta página](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html).
+Si utiliza permisos de empresa en la configuración de Adobe Target, añada la propiedad correspondiente en este campo. Obtenga más información sobre los permisos de empresa de Target en [esta página](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=es).
 
 ![](assets/target_13.png)
 
