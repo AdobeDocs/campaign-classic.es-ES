@@ -9,7 +9,7 @@ exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ La **última compilación RC** es [Campaign Classic 21.1.](../../rn/using/latest
 
 ## Recomendaciones{#recommendations}
 
-Para garantizar una configuración estable, le recomendamos que instale la misma versión estable en todos los servidores que se ejecuten en la misma configuración de cliente.
+Para garantizar una configuración estable, le recomendamos que instale la misma versión estable en todos los servidores que se ejecuten con la misma configuración de cliente.
 
 Además, la consola de cliente debe contar con la misma versión que la instancia de servidor.
 
@@ -61,8 +61,8 @@ Como usuario de [!DNL Gold Standard], se beneficiará automáticamente de la act
 ## Asistencia y otros vínculos útiles{#support}
 
 * [Ayuda y asistencia](../../support.md)
-* [Versiones del Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)
+* [Versiones del Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=es)
 * [Últimas actualizaciones de la documentación](../../rn/using/documentation-updates.md)
 * [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md)
 
-Para recibir información sobre las nuevas versiones de la solución Experience Cloud, suscríbase a la [actualización de producto prioritaria de Adobe](https://www.adobe.com/es/subscription/priority-product-update.html).
+Para recibir información sobre las nuevas versiones de la solución Experience Cloud, suscríbase para recibir la [actualización de producto prioritaria de Adobe](https://www.adobe.com/es/subscription/priority-product-update.html).
