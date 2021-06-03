@@ -9,7 +9,7 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 8d535439923d6753777b7edd7fb768f685ec5522
 workflow-type: tm+mt
 source-wordcount: '4396'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -29,9 +29,9 @@ Se ha actualizado y mejorado la documentación del informe de mapa de calor del 
 
 Los requisitos de la consola del cliente de Campaign se han actualizado en la matriz de compatibilidad. [Más información](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)
 
-Se ha mejorado y aclarado la instalación de la consola del cliente de Campaign para obtener más información. [Más información](../../installation/using/installing-the-client-console.md)
+Se ha mejorado y aclarado la instalación de la consola del cliente de Campaign para conocer todos los pasos. [Más información](../../installation/using/installing-the-client-console.md)
 
-Se ha creado una nueva nota técnica sobre el problema de firma de URL rastreadas. [Más información](../../technotes/tracked-urls.md)
+Se ha creado una nueva nota técnica acerca del problema de firma de URL rastreadas. [Más información](../../technotes/tracked-urls.md)
 
 ## Abril de 2021 {#april-2021}
 
@@ -424,7 +424,7 @@ Se ha añadido una nueva sección sobre cómo solucionar problemas de un flujo d
 
 Las nuevas opciones &quot;NmsOperation_DeliveryPreparationWindow&quot; y &quot;WdbcKillSessionPolicy&quot; se han agregado a la lista de opciones de Campaign. [Más información](../../installation/using/configuring-campaign-options.md)
 
-Ya está disponible un nuevo documento que describe los conceptos básicos del modelo de datos de Adobe Campaign Classic. [Más información](https://helpx.adobe.com/es/campaign/kb/acc-datamodel.html)
+Ya está disponible un nuevo documento que describe los conceptos básicos del modelo de datos de Adobe Campaign Classic. [Más información](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/about-data-model.html?lang=es)
 
 La nueva opción **Maximum personalization run time** en las propiedades de entrega se documenta en esta [sección](../../delivery/using/personalization-fields.md#timing-out-personalization).
 
