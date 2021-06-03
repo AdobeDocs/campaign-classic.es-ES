@@ -9,7 +9,7 @@ exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -42,6 +42,6 @@ Los usuarios de la campaña pueden conectarse a la consola de Adobe Campaign con
 
 | Páginas útiles | Recursos adicionales |
 |---|---|
-| [Configuración de IMS](../../integrations/using/configuring-ims.md) | [Preguntas frecuentes sobre Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html) |
+| [Configuración de IMS](../../integrations/using/configuring-ims.md) | [Preguntas frecuentes sobre Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html?lang=es) |
 | [Implementación de IMS](../../integrations/using/implementing-ims.md) | [Gestión de acceso](../../platform/using/access-management.md) |
 | [Solución de problemas de IMS](../../integrations/using/ims-troubleshooting.md) | [Instalación de paquetes de Campaign](../../installation/using/installing-campaign-standard-packages.md) |
