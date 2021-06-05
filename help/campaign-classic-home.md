@@ -3,10 +3,10 @@ keywords: Campaign Classic, inicio, temas populares
 product: campaign
 title: Documentación del producto de Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 28083eb0271c8c148955fa33978479dc3683eaed
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 100%
+source-wordcount: '250'
+ht-degree: 94%
 
 ---
 
@@ -16,17 +16,15 @@ ht-degree: 100%
 
 ## Novedades
 
+* **[¡El lanzamiento de junio está activo!](rn/using/latest-release.md)**<br/> Descubra nuevas funciones, mejoras y correcciones en las Notas de la versión
+
 * **[Eliminación de devoluciones graves incorrectas](delivery/using/update-bounce-qualification.md)**<br/> Aprenda a actualizar las devoluciones graves incorrectas tras la interrupción de Apple
 
-* **[Actualice el certificado de APN](technotes/ios-certificate-update.md)**<br/> El 29 de marzo de 2021, una actualización de APN afectó al canal de iOS de Campaign. Debe actualizar la configuración para evitar la interrupción del canal push de iOS.
+* **[¿Conexión a través de IMS/ID de Adobe? Actualice a las últimas compilaciones](integrations/using/about-adobe-id.md)**<br/> Si utiliza IMS para conectarse a Campaign, debe actualizar para poder seguir conectándose después del** 30 de junio de 2021 **
 
-* **[¿Conexión a través de IMS/ID de Adobe? Actualice a las últimas compilaciones](integrations/using/about-adobe-id.md)**<br/> Si utiliza IMS para conectarse a Campaign, debe actualizar para poder seguir conectándose después del** 30 de junio de 2021 **.
-
-* **[Proteja sus instancias de Campaign](technotes/acc-config-updates.md)**<br/> Actualice a las últimas compilaciones para proteger su plataforma de Campaign.
+* **[Proteja sus instancias de Campaign](technotes/acc-config-updates.md)**<br/> Actualice a las últimas compilaciones para proteger su plataforma de Campaign
 
 * **[Actualice la integración de los activadores de Adobe Experience Cloud](integrations/using/configuring-adobe-io.md)**<br/> El servicio de autenticación de autenticación heredada ha llegado al final de su vida útil. Descubra más información sobre cómo migrar a Adobe I/O.
-
-* **[Pasarse a la API de proveedor de APN basada en HTTP/2](https://helpx.adobe.com/es/campaign/kb/migrate-to-apns-http2.html)**<br/> Más información sobre cómo migrar del protocolo binario heredado a la API de proveedor de APN basada en HTTP/2.
 
 * **[Obtenga ayuda](support.md)**<br/> Acceso a preguntas frecuentes, prácticas recomendadas, recursos de ayuda y solicitudes de ayuda.
 
