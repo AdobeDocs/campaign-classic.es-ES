@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 16%
@@ -58,7 +58,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
  <tbody> 
   <tr> 
    <td> Entrega<br /> </td> 
-   <td> Supervisa los envíos y los problemas que puedan producirse al enviar los mensajes. <a href="../../delivery/using/about-delivery-monitoring.md">Obtenga más información</a><br /> </td> 
+   <td> Supervisa los envíos y los problemas que puedan producirse al enviar los mensajes. <a href="../../delivery/using/about-delivery-monitoring.md">Más información</a><br /> </td> 
    <td> Todo</td> 
   </tr> 
   <tr> 
@@ -189,7 +189,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Conectores de análisis web<br /> </td> 
-   <td> Permite que Adobe Campaign y Adobe Analytics interactúen mediante el paquete de conectores de Web Analytics. No es compatible con la mensajería transaccional (paquete del centro de mensajes). <a href="../../platform/using/adobe-analytics-data-connector.md">Más información</a><br /> </td> 
+   <td> Permite que Adobe Campaign y Adobe Analytics interactúen mediante el paquete de conectores de Web Analytics. No es compatible con la mensajería transaccional (paquete del centro de mensajes). <a href="../../platform/using/adobe-analytics-connector.md">Más información</a><br /> </td> 
    <td> Marketing </td> 
   </tr> 
   <tr> 
