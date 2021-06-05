@@ -6,10 +6,10 @@ feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 8d535439923d6753777b7edd7fb768f685ec5522
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '4396'
-ht-degree: 99%
+source-wordcount: '4421'
+ht-degree: 98%
 
 ---
 
@@ -32,6 +32,10 @@ Los requisitos de la consola del cliente de Campaign se han actualizado en la ma
 Se ha mejorado y aclarado la instalación de la consola del cliente de Campaign para conocer todos los pasos. [Más información](../../installation/using/installing-the-client-console.md)
 
 Se ha creado una nueva nota técnica acerca del problema de firma de URL rastreadas. [Más información](../../technotes/tracked-urls.md)
+
+**Actualizaciones de la documentación incluidas en la versión 21.1.3**
+
+La descripción técnica del flujo de trabajo &quot;Facturación (facturación)&quot; incluye ahora las tareas realizadas originalmente por el &quot;Número de perfiles de facturación activos (billingActiveContactCount)&quot;. [Más información](../../workflow/using/about-technical-workflows.md)
 
 ## Abril de 2021 {#april-2021}
 
@@ -456,7 +460,7 @@ La guía de introducción al RGPD se ha mejorado y enriquecido. Ahora es una doc
 
 Se ha agregado una nueva página de solución de problemas para el seguimiento en Campaign Classic. [Más información](https://helpx.adobe.com/es/campaign/kb/classic-tracking-troubleshooting.html).
 
-Se ha añadido una nueva página de prácticas recomendadas para el conector de datos de Adobe Analytics. [Más información sobre el conector de datos de Adobe Analytics](../../platform/using/adobe-analytics-data-connector.md)
+Se ha añadido una nueva página de prácticas recomendadas para Adobe Analytics Connector. [Más información sobre Adobe Analytics Connector](../../platform/using/adobe-analytics-connector.md)
 
 La guía de introducción a las prácticas recomendadas de entrega se ha movido y actualizado. [Más información](../../delivery/using/delivery-best-practices.md)
 
@@ -534,8 +538,8 @@ Se agregaron dos nuevas opciones a la lista de opciones de Campaign: XtkSecurity
 Se ha añadido información sobre las distintas cuentas externas disponibles en Campaign Classic y sobre cómo configurarlas.
 [Más información](../../installation/using/external-accounts.md)
 
-Se ha actualizado la sección Conector de datos de Analytics para reflejar los cambios de la interfaz.
-[Más información](../../platform/using/adobe-analytics-data-connector.md)
+Se ha actualizado la sección Conector de Analytics para reflejar los cambios en la interfaz.
+[Más información](../../platform/using/adobe-analytics-connector.md)
 
 Se agregó información sobre el informe Facturación.
 [Más información](../../production/using/monitoring-processes.md)
