@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 7%
+source-wordcount: '381'
+ht-degree: 8%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 En este capítulo se describe cómo configurar esquemas de extensión para ampliar el modelo de datos conceptuales de la base de datos de Adobe Campaign.
 
-Para comprender mejor las tablas integradas de Campaign y su interacción, consulte el [modelo de datos del Campaign Classic](https://helpx.adobe.com/es/campaign/kb/acc-datamodel.html).
+Para comprender mejor las tablas integradas de Campaign y su interacción, consulte el [modelo de datos del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/about-data-model.html?lang=es).
 
 La estructura física y lógica de los datos que se llevan en la aplicación se describe en XML. Obedece a una gramática específica de Adobe Campaign, denominada **schema**.
 
@@ -74,18 +74,13 @@ Un esquema de datos se identifica con su nombre y área de nombres.
 
 Un área de nombres permite agrupar un conjunto de esquemas por área de interés. Por ejemplo, el espacio de nombres **cus** se utiliza para la configuración específica del cliente (**customers**).
 
+La clave de identificación de un esquema es una cadena creada con el área de nombres y el nombre separado por dos puntos; por ejemplo: **cus:recipient**.
+
 >[!IMPORTANT]
 >
->Como estándar, el nombre del área de nombres debe ser conciso y contener únicamente caracteres autorizados de acuerdo con las reglas de nomenclatura XML.
+>El nombre del área de nombres debe ser conciso y contener solo caracteres autorizados de acuerdo con las reglas de nomenclatura XML.
 >
 >Los identificadores no deben comenzar con caracteres numéricos.
+>
+>Las siguientes áreas de nombres están reservadas para descripciones de las entidades del sistema necesarias para el funcionamiento de la aplicación Adobe Campaign y no deben usarse: **xtk**, **nl**, **nms**, **ncm**, **temp**, **ncl**, **crm&lt;a11 3/>,** xxl **.**
 
-Algunas áreas de nombres están reservadas para descripciones de las entidades del sistema necesarias para el funcionamiento de la aplicación Adobe Campaign:
-
-* **xtk**: sobre los datos del sistema de plataforma,
-* **nl**: sobre el uso global de la solicitud,
-* **nms**: sobre la entrega (destinatario, entrega, seguimiento, etc.),
-* **ncm**: sobre la gestión de contenido,
-* **temp**: reservado para esquemas temporales.
-
-La clave de identificación de un esquema es una cadena creada con el área de nombres y el nombre separado por dos puntos; por ejemplo: **cus:recipient**.
