@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 6f5e91a719553fbeb97811d30ce6318f857bec80
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 100%
+source-wordcount: '722'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Campaign permite importar archivos comprimidos o encriptados. Antes de que
 
 Para poder hacerlo:
 
-1. Utilice el [Panel de control de Campaign](https://docs.adobe.com/content/help/es/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) para generar un par de claves pública y privada.
+1. Utilice el [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) para generar un par de claves pública y privada.
 
    >[!NOTE]
    >
@@ -27,7 +27,7 @@ Para poder hacerlo:
    >
    >Tenga en cuenta que la instancia debe alojarse en AWS y actualizarse con la última versión de [Gold Standard](../../rn/using/gs-overview.md) o la [última versión de GA (21.1)](../../rn/using/latest-release.md). Aprenda a comprobar su versión en [esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es).
 
-1. Si Adobe aloja la instalación de Adobe Campaign, contacte con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para que instalen las herramientas necesarias en el servidor.
+1. Si Adobe aloja la instalación de Adobe Campaign, contacte con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html) para que instalen las herramientas necesarias en el servidor.
 1. Si la instalación de Adobe Campaign está in situ: instale la utilidad que desee utilizar (por ejemplo: GPG, GZIP) así como las claves necesarias (clave de cifrado) en el servidor de aplicaciones.
 
 A continuación, puede utilizar los comandos de preprocesamiento deseados en los flujos de trabajo:
@@ -54,7 +54,7 @@ En este caso de uso, crearemos un flujo de trabajo para importar datos cifrados 
 
 Los pasos para realizar este caso de uso son los siguientes:
 
-1. Utilice el Panel de control de Campaign para generar un par de claves (pública/privada). Encontrará los pasos detallados en la documentación [del](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) Panel de control de Campaign.
+1. Utilice el Panel de control de Campaign para generar un par de claves (pública/privada). Encontrará los pasos detallados en la documentación [del](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) Panel de control de Campaign.
 
    * La clave pública se comparte con el sistema externo, que la utiliza para cifrar los datos que se enviarán a Campaign.
    * Campaign Classic utiliza la clave privada para descifrar los datos cifrados entrantes.
