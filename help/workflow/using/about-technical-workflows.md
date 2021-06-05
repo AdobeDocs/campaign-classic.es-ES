@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '1818'
-ht-degree: 100%
+source-wordcount: '1700'
+ht-degree: 98%
 
 ---
 
@@ -60,7 +60,6 @@ Para obtener más información sobre la supervisión de flujos de trabajo técni
 | **Intermediario (contadores de envíos)** (defaultMidSourcingDlv) | Transferir a Intermediario | Este flujo de trabajo recopila información de recuento para los envíos en el servidor intermediario. La información de recuento incluye indicadores de envío generales como el número de envíos realizados, etc. No se incluye la información de seguimiento como las aperturas. De forma predeterminada, se activa cada diez minutos. |
 | **Intermediario (registros de envío)** (defaultMidSourcingLog) | Transferir a Intermediario | Este flujo de trabajo recopila los registros de envío en el servidor intermediario. Se activa cada hora de forma predeterminada. |
 | **Administración de exclusión de NMAC** (mobileAppOptOutMgt) | Canal de aplicaciones móviles | Este flujo de trabajo actualiza las bajas de las notificaciones en los dispositivos móviles. Se activa cada 6 horas entre la medianoche y la 1 a. m. Para obtener más detalles, consulte [esta sección](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines). |
-| **Número de perfiles de facturación activos** (billingActiveContactCount) | Envío | Este flujo de trabajo cuenta la cantidad de perfiles activos. Se activa cada noche a la 1 a. m. de forma predeterminada. Un “perfil” es un registro de información (por ejemplo, un registro de la tabla nmsRecipient o una tabla externa que contiene una ID de cookie, ID de cliente, ID móvil u otra información relacionada con un canal determinado) que representa a un cliente final, a un cliente potencial o principal. La facturación solo abarca los perfiles que están “activos”. Un perfil se considera “activo” si este ha recibido comunicaciones o mensajes en los últimos 12 meses a través de cualquier canal. Los canales de Facebook y Twitter no se tienen en cuenta. Puede obtener una vista general del número de perfiles activos en el menú de métricas del cliente de Administración de >gestión de la campaña>. |
 | **Notificación de ofertas** (offerMgt) | Envío | Este flujo de trabajo implementa las ofertas aprobadas en el entorno en línea, así como todas las categorías incluidas en el catálogo de ofertas. |
 | **Limpieza de flujos de trabajo en pausa** (cleanupPausedWorkflows) | Envío | Este flujo de trabajo analiza los flujos de trabajo en pausa con opción de gravedad definida en normal y activa las advertencias y notificaciones cuando dichos flujos llevan demasiado tiempo en pausa. Tras un mes, los flujos de trabajo técnicos en pausa se detienen de manera incondicional. De forma predeterminada, se activa todos los lunes a las 5 a. m. Para obtener más información, consulte [Gestión de flujos de trabajo en pausa](../../workflow/using/monitoring-workflow-execution.md#handling-of-paused-workflows). |
 | **Limpieza de solicitud de privacidad** (cleanupPrivacyRequests) | Reglamento de protección de datos de privacidad | Este flujo de trabajo borra los archivos de solicitud de acceso anteriores a 90 días. |
@@ -69,7 +68,7 @@ Para obtener más información sobre la supervisión de flujos de trabajo técni
 | **Sincronización de propuestas** (propositionSynch) | Control del motor de oferta con instancia de ejecución | Este flujo de trabajo sincroniza las propuestas entre la instancia de marketing y la instancia de ejecución utilizada para las interacciones. |
 | **Recuperación de eventos en la web** (webAnalyticsGetWebEvents) | Conectores de análisis web | Cada hora, este flujo de trabajo descarga segmentos sobre el comportamiento de los usuarios de Internet en un sitio determinado, los integra en la base de datos de Adobe Campaign e inicia el flujo de trabajo de remarketing. |
 | **Sistema de informes de acumulados** (reportingAggregates) | Envío | Este flujo de trabajo actualiza los acumulados que se utilizan en los informes. Se activa cada día a la 2 de la mañana de forma predeterminada. |
-| **Envío de indicadores y atributos de campañas** (webAnalyticsSendMetrics) | Conectores de análisis web | Este flujo de trabajo permite enviar indicadores de campaña por correo electrónico desde Adobe Campaign a Adobe Experience Cloud Suite a través del conector Adobe® Genesis. Los indicadores correspondientes son los siguientes: Enviado (iSent), Número total de aperturas (iTotalRecipientOpen), Número total de destinatarios que hicieron clic (iTotalRecipientClick), Errores (iError), Exclusión (opt-out) (iOptOut). |
+| **Envío de indicadores y atributos de campañas** (webAnalyticsSendMetrics) | Conectores de análisis web | Este flujo de trabajo permite enviar indicadores de campaña de correo electrónico de Adobe Campaign a Adobe Experience Cloud Suite a través del conector de Adobe® Analytics. Los indicadores correspondientes son los siguientes: Enviado (iSent), Número total de aperturas (iTotalRecipientOpen), Número total de destinatarios que hicieron clic (iTotalRecipientClick), Errores (iError), Exclusión (opt-out) (iOptOut). |
 | **Stock: pedidos y alertas** (stockMgt) | Campañas de marketing (Campaign) | Este flujo de trabajo inicia el cálculo de stock en las líneas de pedido y administra los umbrales de alertas de advertencia. |
 | **Sincronización de seguidores de Facebook** (syncFacebookFans) | Redes sociales (Marketing social) | Este flujo de trabajo importa los seguidores de Facebook en Adobe Campaign todos los días a las 7 a. m. |
 | **Sincronización de páginas de Facebook** (syncFacebook) | Redes sociales (Marketing social) | Este flujo de trabajo sincroniza las páginas de Facebook con Adobe Campaign todos los días a las 7 a. m. |
