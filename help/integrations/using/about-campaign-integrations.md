@@ -6,10 +6,10 @@ audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 100%
+source-wordcount: '757'
+ht-degree: 94%
 
 ---
 
@@ -89,8 +89,8 @@ La siguiente tabla permite acceder a la documentación de integración de Experi
    <td> La integración entre <strong>el servicio principal de activadores</strong> y Adobe Campaign permite enviar mensajes de correo electrónico personalizados a sus clientes como una reacción ante comportamientos específicos rastreados en el sitio web mediante Adobe Analytics.<br /> <p><a href="https://helpx.adobe.com/es/campaign/kb/triggers-and-campaign.html">Obtenga más información</a> sobre la integración de Adobe Campaign con los activadores de Experience Cloud.</p><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Adobe Analytics: Conectores de datos</strong><br /> </td> 
-   <td> <strong>Conectores de datos</strong> (anteriormente conocidos como Adobe Genesis) permite que Adobe Campaign y Adobe Analytics interactúen mediante segmentos en relación con el comportamiento del usuario tras una campaña de correos electrónicos. Por el contrario, envía indicadores y atributos de las campañas de correo electrónico que envía Adobe Campaign a Adobe Analytics: conector de datos.<br /> <p><a href="../../platform/using/adobe-analytics-data-connector.md">Obtenga más información</a> sobre la integración de Campaign con los conectores de datos.</p><br /> </td> 
+   <td> <strong>Conector de Adobe Analytics</strong><br /> </td> 
+   <td> <strong>Adobe Analytics </strong> Connector permite que Adobe Campaign y Adobe Analytics interactúen mediante segmentos en relación con el comportamiento del usuario tras una campaña de correo electrónico. Por el contrario, envía indicadores y atributos de las campañas de correo electrónico que envía Adobe Campaign a Adobe Analytics.<br /> <p><a href="../../platform/using/adobe-analytics-connector.md">Obtenga </a> más información sobre la integración de Campaign con los conectores de Analytics.</p><br /> </td> 
   </tr> 
  </tbody> 
 </table>
