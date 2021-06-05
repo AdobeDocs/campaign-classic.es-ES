@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1540'
 ht-degree: 78%
 
 ---
@@ -241,7 +241,7 @@ Para conectarse a la consola de Adobe Campaign mediante un Adobe ID, debe config
 
 * **[!UICONTROL IMS organization ID]**
 
-   ID de la organización IMS Para encontrar su ID de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html) (**Dónde puedo encontrar mi ID de organización de IMS?**).
+   ID de la organización IMS Para encontrar su ID de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html?lang=es) (**Dónde puedo encontrar mi ID de organización de IMS?**).
 
 * **[!UICONTROL Association mask]**
 
@@ -259,11 +259,11 @@ Para obtener más información sobre esta configuración, consulte [esta página
 
 ## Web Analytics {#web-analytics-external-account}
 
-La cuenta externa **[!UICONTROL Web Analytics (Adobe Analytics - Data connector)]** permite reenviar datos de Adobe Analytics a Adobe Campaign en forma de segmentos. Por el contrario, envía indicadores y atributos de las campañas de correo electrónico que envía Adobe Campaign a Adobe Analytics: conector de datos.
+La cuenta externa **[!UICONTROL Web Analytics]** permite reenviar datos de Adobe Analytics a Adobe Campaign en forma de segmentos. Por el contrario, envía indicadores y atributos de las campañas de correo electrónico que envía Adobe Campaign al conector de Adobe Analytics.
 
 ![](assets/ext_account_10.png)
 
-Para esta cuenta externa, la fórmula de cálculo para URL rastreadas debe ser enriquecida y la conexión entre las dos soluciones debe ser aprobada. Para obtener más información, consulte [esta página](../../platform/using/adobe-analytics-data-connector.md#step-2--create-the-external-account-in-campaign).
+Para esta cuenta externa, la fórmula de cálculo para URL rastreadas debe ser enriquecida y la conexión entre las dos soluciones debe ser aprobada. Para obtener más información, consulte [esta página](../../platform/using/adobe-analytics-connector.md#external-account-classic).
 
 ### Adobe Experience Manager {#adobe-experience-manager-external-account}
 
