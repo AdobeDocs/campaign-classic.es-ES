@@ -6,9 +6,9 @@ feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: da699fbba527a44a048d5562a8311e70c00f74fd
+source-git-commit: 778f0a9436f26c10b266019f761b499ab7547be1
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1633'
 ht-degree: 95%
 
 ---
@@ -220,7 +220,8 @@ Campaign Classic no es compatible con los siguientes servidores de acceso de dat
 
 **Servidor RDBMS**
 
-Adobe Campaign no es compatible con los siguientes servidores RDBMS:
+A partir de la versión de primavera (19.1), Adobe Campaign deja de ser compatible con los siguientes servidores RDBMS:
+
 * Oracle 10GR2
 * PostgreSQL 9.0 a 9.3
 * SQL Server 2005
