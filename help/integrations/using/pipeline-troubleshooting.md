@@ -5,10 +5,10 @@ description: Configuración de la integración
 audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 45a84e1bf43678bbc31d8bac15a7e6520204fdc2
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 100%
+source-wordcount: '647'
+ht-degree: 89%
 
 ---
 
@@ -82,3 +82,9 @@ Generalmente, un activador puede tardar entre 15 y 90 minutos en iniciar una cam
 1. Busque errores en pipelined.log que puedan causar reintentos. Corrija los errores, si corresponde.
 1. Compruebe el tamaño de la cola en la página [!DNL pipelined] de estado. Si el tamaño de la cola es grande, mejore el rendimiento del JS.
 1. Dado que un retraso parece aumentar con el volumen, configure los activadores en Analytics con menos mensajes.
+
+**Actualización de instancias de etapa de autenticación heredada a autenticación de E/S de Adobe**
+
+Cambiar la autenticación de integración en la instancia de etapa no afectará a la configuración de la instancia de producción. Puede elegir actualizar la instancia de stage y actualizar la autenticación a Adobe IO y probar las déclencheur en la instancia de stage.
+
+La instancia de producción seguirá utilizando la autenticación heredada y no se verá afectada por este cambio.
