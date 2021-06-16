@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 615b56c5f4362b0f47ec5700be7d170c0e108f4c
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 100%
+source-wordcount: '290'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ Para enviar notificaciones push en Adobe Campaign, debe:
 
 * Cree un servicio de información de tipo **[!UICONTROL Mobile application]** para la aplicación móvil Neotrips. Consulte [esta sección para iOS](../../delivery/using/configuring-the-mobile-application.md#configuring-ios-service). Y [esta sección para Android](../../delivery/using/configuring-the-mobile-application-android.md#configuring-android-service).
 * Añada a este servicio las versiones de iOS y Android de la aplicación.
-* Cree un envío tanto para iOS como para Android. [Consulte esta página](../../delivery/using/creating-notifications.md).
+* Cree un envío para [iOS](create-notifications-ios.md) y [Android](create-notifications-android.md).
 
 ![](assets/nmac_service_diagram.png)
 
@@ -29,7 +29,7 @@ Para enviar notificaciones push en Adobe Campaign, debe:
 >
 >Vaya a la pestaña **[!UICONTROL Subscriptions]** para ver la lista de suscriptores del servicio, es decir, todas las personas que hayan instalado la aplicación en su móvil y hayan aceptado recibir notificaciones.
 
-## Instalación del paquete {#installing-package-ios}
+## Instale el paquete {#installing-package-ios}
 
 ![](assets/do-not-localize/how-to-video.png) [Obtenga información sobre cómo instalar el paquete de la aplicación móvil con este vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html?lang=es#sending-messages)
 
