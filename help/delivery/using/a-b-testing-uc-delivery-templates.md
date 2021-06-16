@@ -6,18 +6,18 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 77b3a906-b76e-49e1-b524-b6f1ae537259
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 100%
+source-wordcount: '86'
+ht-degree: 84%
 
 ---
 
-# Creación de las plantillas de envío {#step-3--creating-two-delivery-templates}
+# Creación de plantillas de envíos {#step-3--creating-two-delivery-templates}
 
-Ahora, queremos crear dos plantillas de envío. Se hará referencia a cada plantilla en una actividad **[!UICONTROL Email delivery]** vinculada a la actividad **[!UICONTROL Split]**. Para obtener más información, consulte [esta sección](../../delivery/using/about-templates.md).
+Ahora, queremos crear dos plantillas de envío. Se hará referencia a cada plantilla en una actividad **[!UICONTROL Email delivery]** vinculada a la actividad **[!UICONTROL Split]**. Para obtener más información, consulte [esta sección](about-templates.md).
 
-1. Vaya a la carpeta **[!UICONTROL Resources > Delivery template]**.
+1. Vaya a la carpeta **[!UICONTROL Resources > Delivery template]** .
 1. Duplique la plantilla de entrega **[!UICONTROL Email]**.
 
    ![](assets/use_case_abtesting_deliverymodel_001.png)
@@ -30,4 +30,4 @@ Ahora, queremos crear dos plantillas de envío. Se hará referencia a cada plant
 
    ![](assets/use_case_abtesting_deliverymodel_003.png)
 
-Ahora puede configurar los envíos en el flujo de trabajo (consulte [Paso 4: Configurar los envíos en el flujo de trabajo](../../delivery/using/a-b-testing-uc-configuring-deliveries.md)).
+Ahora puede configurar los envíos en el flujo de trabajo. [Más información](a-b-testing-uc-configuring-deliveries.md).
