@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Acerca de este caso de uso
+title: Caso de uso de prueba AB
 description: Obtenga información sobre cómo realizar pruebas A/B mediante un caso de uso dedicado.
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 4eb139a0-5342-4084-9f6d-d736e05bf1c6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
