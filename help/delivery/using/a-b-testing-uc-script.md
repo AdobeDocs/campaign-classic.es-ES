@@ -6,20 +6,20 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 100%
+source-wordcount: '330'
+ht-degree: 97%
 
 ---
 
-# Creación de la secuencia de comandos {#step-5--creating-the-script}
+# Creación de script {#step-5--creating-the-script}
 
 La elección del contenido de entrega destinado a la población restante se calcula mediante una secuencia de comandos. Esta secuencia de comandos recupera la información relativa a la entrega con la mayor tasa de apertura y copia el contenido en la entrega final.
 
 ## Ejemplo de secuencia de comandos {#example-of-a-script}
 
-La siguiente secuencia de comandos se puede utilizar como se encuentra en el flujo de trabajo de objetivos. Para obtener más información, consulte [Implementación](#implementation).
+La siguiente secuencia de comandos se puede utilizar como se encuentra en el flujo de trabajo de objetivos. Para obtener más información, consulte [esta sección](#implementation).
 
 ```
  // query the database to find the winner (best open rate)
@@ -65,7 +65,7 @@ La siguiente secuencia de comandos se puede utilizar como se encuentra en el flu
    vars.deliveryId = delivery.id
 ```
 
-Para obtener una explicación detallada del script, consulte [Detalles del script](#details-of-the-script).
+Para ver un ejemplo detallado de la secuencia de comandos, consulte [esta sección](#details-of-the-script).
 
 ## Implementación {#implementation}
 
@@ -168,4 +168,4 @@ El ejemplo de arriba permite seleccionar el contenido de una entrega según la t
 * Tasa mínima de cancelación de suscripciones: `[indicators/@optOutRatio]`,
 * Cantidad de transacciones: `[indicators/@amount]`.
 
-Ahora puede definir el envío final (consulte [Paso 6: Defina el envío final](../../delivery/using/a-b-testing-uc-final-delivery.md)).
+Ahora puede definir la entrega final. [Más información](a-b-testing-uc-final-delivery.md).
