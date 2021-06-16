@@ -1,21 +1,21 @@
 ---
 product: campaign
-title: Configuración de los envíos
-description: Obtenga información sobre cómo realizar pruebas A/B mediante un caso de uso dedicado.
+title: Configuración de envíos
+description: Obtenga información sobre cómo realizar pruebas A/B mediante un caso de uso dedicado
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 809de30b-7d08-40de-bf3e-dc80d62eae80
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 61%
 
 ---
 
-# Configuración de los envíos en el flujo de trabajo {#step-4--configuring-the-deliveries-in-the-workflow}
+# Configurar los envíos en el flujo de trabajo {#step-4--configuring-the-deliveries-in-the-workflow}
 
-El siguiente paso es configurar los envíos. Están destinados a las tres poblaciones creadas durante la etapa anterior: [Paso 2: Configuración de muestras de población](#step-2--configuring-population-samples). Los dos primeros envíos permiten enviar contenido distinto a las poblaciones A y B. La tercera entrega está destinada a la población que no ha recibido A ni B. Su contenido se calcula mediante una secuencia de comandos y es idéntico a A o B, dependiendo de cuál obtuvo la tasa de apertura más alta. Es necesario configurar un periodo de espera para la tercera entrega, para averiguar el resultado de los envíos A y B. Esta es la razón por la que la tercera entrega incluye una actividad **[!UICONTROL Wait]**.
+Una vez que [se hayan creado las poblaciones](a-b-testing-uc-population-samples.md), puede configurar los envíos. En este caso de uso, las dos primeras entregas permiten enviar contenido diferente a las poblaciones A y B. La tercera entrega es la entrega posterior: se envía a los destinatarios que no pertenecen a A ni B. Su contenido se calcula mediante una secuencia de comandos y es idéntico a A o B, dependiendo de cuál obtuvo la tasa de apertura más alta. Es necesario configurar un periodo de espera para la tercera entrega, para averiguar el resultado de los envíos A y B. Esta es la razón por la que la tercera entrega incluye una actividad **[!UICONTROL Wait]**.
 
 1. Vaya a la actividad **[!UICONTROL Split]** y vincule la transición destinada a la población A a uno de los envíos de correo electrónico que ya se encuentran en el flujo de trabajo.
 
@@ -50,4 +50,4 @@ El siguiente paso es configurar los envíos. Están destinados a las tres poblac
 
    ![](assets/use_case_abtesting_createdeliveries_008.png)
 
-Ahora puede crear la secuencia de comandos (consulte [Paso 5: Creación de la secuencia de comandos](../../delivery/using/a-b-testing-uc-script.md)).
+Ahora puede crear la secuencia de comandos. [Más información](a-b-testing-uc-script.md).
