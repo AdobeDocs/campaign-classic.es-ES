@@ -5,10 +5,10 @@ description: Descubra más información sobre cómo configurar la canalización
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: cf102a5e669ffe136e6ec2429343725ec6c3722e
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 100%
+source-wordcount: '914'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,11 @@ Los activadores se utilizan para la segmentación mediante un flujo de trabajo d
 
 Antes de iniciar esta configuración, compruebe que está utilizando lo siguiente:
 
-* Mínimo Adobe Campaign 20.3, 20.2.4, 19.1.8 o [!DNL Gold Standard] 11
+* Como mínimo, una de las siguientes compilaciones de Adobe Campaign:
+   * 19.1.8.9039
+   * 19.1.4.9032.GS.11
+   * 20.2.4.9187
+   * 20.3.1
 * Versión Adobe Analytics Standard
 
 También necesitará esto:
