@@ -6,14 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: bc23a444-a872-48fb-8bba-64b301541089
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '108'
 ht-degree: 100%
 
 ---
 
-# Definición del envío final {#step-6--defining-the-final-delivery}
+# Definición de la entrega final {#step-6--defining-the-final-delivery}
 
 Una vez que la secuencia de comandos se ha creado para seleccionar el ganador de la prueba A/B, se puede definir los parámetros de la entrega final.
 
@@ -26,4 +26,4 @@ Una vez que la secuencia de comandos se ha creado para seleccionar el ganador de
 
 Al preparar la entrega especificada en la transición (definida a través de la actividad **[!UICONTROL Javascript Code]**), se puede aprobar dicha actividad y comenzar la entrega, tal y como se describe en el paso siguiente.
 
-Ahora puede realizar el inicio del flujo de trabajo (consulte [Paso 7: Inicio del flujo de trabajo](../../delivery/using/a-b-testing-uc-start-workflow.md)).
+Ahora puede iniciar el flujo de trabajo. [Más información](a-b-testing-uc-start-workflow.md).
