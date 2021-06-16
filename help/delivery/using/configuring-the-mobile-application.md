@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: fb2f1769aadbc128d76f343a5fa58ee4e3bda72a
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 100%
+source-wordcount: '656'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,16 @@ Una vez que el paquete esté instalado, puede definir la configuración de la ap
 
 >[!NOTE]
 >
->Para obtener información sobre cómo configurar la aplicación para Android y cómo crear un envío para Android, consulte esta [sección](../../delivery/using/configuring-the-mobile-application-android.md).
+>Para obtener información sobre cómo configurar la aplicación para Android y cómo crear un envío para Android, consulte esta [sección](configuring-the-mobile-application-android.md).
+
+Los pasos clave son:
+
+1. [Configuración de la cuenta externa de iOS](#configuring-external-account-ios)
+1. [Configuración del servicio iOS](#configuring-ios-service)
+1. [Integración de la aplicación móvil de iOS en Campaign](#creating-ios-app)
+
+A continuación, podrá [crear una notificación push para dispositivos iOS](create-notifications-ios.md).
+
 
 ## Configuración de la cuenta externa de iOS {#configuring-external-account-ios}
 
@@ -37,7 +46,7 @@ Para configurar este conector, siga estos pasos:
 
 Ya está configurado el conector de iOS. Puede crear su servicio.
 
-## Configuración del servicio iOS {#configuring-ios-service}
+## Configurar el servicio iOS {#configuring-ios-service}
 
 >[!CAUTION]
 >
@@ -66,7 +75,7 @@ Ya está configurado el conector de iOS. Puede crear su servicio.
 
 ## Creación de una aplicación móvil de iOS {#creating-ios-app}
 
-Después de crear el servicio, debe crear la aplicación de iOS:
+Después de crear el servicio, cree la aplicación de iOS en Campaign. Siga estos pasos:
 
 1. En el servicio recién creado, haga clic en el botón **[!UICONTROL Add]** para seleccionar el tipo de aplicación.
 
@@ -118,40 +127,3 @@ En el siguiente ejemplo, se añaden **mediaURl** y **mediaExt** para crear notif
 1. Haga clic en **[!UICONTROL Finish]**.
 
 La aplicación de iOS ya está lista para su uso en Campaign Classic.
-
-## Creación de una notificación enriquecida de iOS {#creating-ios-delivery}
-
-Con iOS 10 o posterior, es posible generar notificaciones rich. Adobe Campaign puede enviar notificaciones mediante variables que permiten al dispositivo mostrar una notificación rich.
-
-Debe crear un nuevo envío y vincularlo a la aplicación móvil creada.
-
-1. Vaya a **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
-
-1. Haga clic **[!UICONTROL New]**.
-
-   ![](assets/nmac_android_3.png)
-
-1. Seleccione **[!UICONTROL Deliver on iOS (ios)]** en la lista desplegable **[!UICONTROL Delivery template]**. Añada un **[!UICONTROL Label]** al envío.
-
-1. Haga clic en **[!UICONTROL To]** para definir la población en destinatario. De forma predeterminada, se aplica la asignación de destino **[!UICONTROL Subscriber application]**. Haga clic en **[!UICONTROL Add]** para seleccionar el servicio creado anteriormente.
-
-   ![](assets/nmac_ios_9.png)
-
-1. En la ventana **[!UICONTROL Target type]**, seleccione **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]** y haga clic en **[!UICONTROL Next]**.
-
-1. En la lista desplegable **[!UICONTROL Service]**, seleccione el servicio creado anteriormente, luego la aplicación a la que desee dirigirse y haga clic en **[!UICONTROL Finish]**.
-Las **[!UICONTROL Application variables]** se añaden automáticamente en función de lo que se añadió durante los pasos de configuración.
-
-   ![](assets/nmac_ios_6.png)
-
-1. Edite la notificación enriquecida.
-
-   ![](assets/nmac_ios_7.png)
-
-1. Marque la casilla **[!UICONTROL Mutable content]** en la ventana de notificación de edición para permitir que la aplicación móvil descargue contenido de medios.
-
-1. Haga clic en **[!UICONTROL Save]** y realice la entrega.
-
-La imagen y la página web deben aparecer en la notificación push cuando se reciban en los dispositivos móviles iOS de los suscriptores.
-
-![](assets/nmac_ios_8.png)
