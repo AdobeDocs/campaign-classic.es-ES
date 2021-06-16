@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 100%
+source-wordcount: '284'
+ht-degree: 81%
 
 ---
 
@@ -17,21 +17,21 @@ ht-degree: 100%
 
 Los envíos multicanal están disponibles en la pestaña **[!UICONTROL Deliveries]** de las actividades de flujo de trabajo de la campaña.
 
-Permiten crear una entrega específica a un canal concreto. Puede especificar la plantilla en la que desea basar su envío, así como su contenido, del mismo modo que con un asistente de envíos clásico.
-
 Los varios canales disponibles son:
 
 * [Correo electrónico](../../delivery/using/about-email-channel.md)
-* [Correo postal](../../delivery/using/about-direct-mail-channel.md)
+* [Correo directo](../../delivery/using/about-direct-mail-channel.md)
 * [Móvil](../../delivery/using/sms-channel.md)
 * [Twitter](../../social/using/publishing-on-twitter.md)
 * [Facebook](../../social/using/publishing-on-facebook.md)
-* [iOS](../../delivery/using/creating-notifications.md#sending-notifications-on-ios)
-* [Android](../../delivery/using/creating-notifications.md#sending-notifications-on-android)
+* [iOS](../../delivery/using/create-notifications-ios.md)
+* [Android](../../delivery/using/create-notifications-android.md)
+
+Seleccione la plantilla en la que desea basar la entrega y defina su contenido.
 
 Puede especificar un público objetivo para la entrega ascendente del flujo de trabajo utilizando las distintas actividades de objetivos.
 
-Por ejemplo, aquí podemos crear un flujo de trabajo para enviar un correo electrónico o un SMS a los suscriptores de las notificaciones push una semana más tarde. Para ello:
+En el siguiente ejemplo, crearemos un flujo de trabajo para enviar un correo electrónico o un SMS a los suscriptores de las notificaciones push una semana después. Para ello:
 
 1. Cree una campaña.
 1. En la pestaña **[!UICONTROL Targeting and workflows]** de la campaña, añada **[!UICONTROL Query]** al flujo de trabajo.
@@ -39,7 +39,7 @@ Por ejemplo, aquí podemos crear un flujo de trabajo para enviar un correo elect
 
    >[!NOTE]
    >
-   >Para las notificaciones push, recuerde utilizar la dimensión objetivo **suscriber applications**.
+   >Para las notificaciones push, utilice la dimensión de destino **subscriber applications**.
 
    ![](assets/cross_channel_delivery_1.png)
 
