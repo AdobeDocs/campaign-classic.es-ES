@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Se admiten las siguientes extensiones: “.docx”, “.doc” y “.odt”.
 
 Para personalizar los documentos, se encuentran disponibles las mismas funcionalidades de JavaScript que para la personalización del correo electrónico.
 
-Debe activar la opción **[!UICONTROL "The content of the file is personalized and converted to PDF during the delivery of each message"]**. Esta opción está accesible al adjuntar el archivo al correo electrónico de envío. Para obtener más información sobre cómo adjuntar un archivo calculado, consulte la sección [Colocación de archivos](../../delivery/using/attaching-files.md).
+Debe activar la opción **[!UICONTROL "The content of the file is personalized and converted to PDF during the delivery of each message"]**. Esta opción está accesible al adjuntar el archivo al correo electrónico de envío. Para obtener más información sobre cómo adjuntar un archivo calculado, consulte la sección [Colocación de archivos](attaching-files.md).
 
 Ejemplo de personalización de encabezado de factura:
 
