@@ -6,14 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 100%
 
 ---
 
-# Panel de entregas {#delivery-dashboard}
+# Tablero de entregas {#delivery-dashboard}
 
 El **panel de entregas** es fundamental para controlar las entregas y los problemas que puedan ser detectados durante la entrega de mensajes.
 
@@ -32,16 +32,16 @@ A continuación, se muestra la información que puede monitorizar en las distint
 
 **Temas relacionados:**
 
-* [Comprensión de los errores de entrega](../../delivery/using/understanding-delivery-failures.md)
-* [Comprensión de la gestión de la cuarentena](../../delivery/using/understanding-quarantine-management.md)
-* [Prácticas recomendadas de entregas](../../delivery/using/delivery-best-practices.md)
-* [Administración de entregas](../../delivery/using/about-deliverability.md)
+* [Comprensión de los errores de entrega](understanding-delivery-failures.md)
+* [Comprensión de la gestión de la cuarentena](understanding-quarantine-management.md)
+* [Prácticas recomendadas de entregas](delivery-best-practices.md)
+* [Administración de envíos](about-deliverability.md)
 
 ## Resumen de entregas {#delivery-summary}
 
 La pestaña **[!UICONTROL Summary]** contiene las características de la entrega: estado de entrega, canal utilizado, información sobre el remitente, asunto, información sobre la ejecución.
 
-## Informes de entrega {#delivery-reports}
+## Informes de envío {#delivery-reports}
 
 El vínculo **[!UICONTROL Reports]** le permite ver un conjunto de informes relativos a la acción de entrega: informes de entregas generales, informes detallados, informes de entregas, distribución de mensajes fallidos, tasa de apertura, clics y transacciones, etc.**[!UICONTROL Summary]**
 
@@ -53,7 +53,7 @@ El contenido de esta pestaña se puede configurar según sus necesidades. Para o
 
 La pestaña **[!UICONTROL Delivery]** ofrece un historial de los sucesos en esta entrega. Contiene los registros de entregas, es decir, la lista de mensajes enviados y su estado y los mensajes asociados.
 
-Para una entrega, puede mostrar, por ejemplo, solo los destinatarios con una entrega fallido o una dirección en cuarentena. Para ello, haga clic en el botón **[!UICONTROL Filters]** y seleccione **[!UICONTROL By state]**. Seleccione el estado en la lista desplegable. En [esta página](../../delivery/using/delivery-statuses.md) se enumeran varios estados.
+Para una entrega, puede mostrar, por ejemplo, solo los destinatarios con una entrega fallido o una dirección en cuarentena. Para ello, haga clic en el botón **[!UICONTROL Filters]** y seleccione **[!UICONTROL By state]**. Seleccione el estado en la lista desplegable. En [esta página](delivery-statuses.md) se enumeran varios estados.
 
 >[!NOTE]
 >
@@ -63,11 +63,11 @@ Para una entrega, puede mostrar, por ejemplo, solo los destinatarios con una ent
 
 El enlace **[!UICONTROL Display the mirror page for this message...]** permite ver la página espejo del contenido de la entrega seleccionado en la lista en una nueva ventana.
 
-La página espejo solo está disponible para las entregas para los que se ha definido contenido HTML. Para obtener más información, consulte [Generación de la página espejo](../../delivery/using/sending-messages.md#generating-the-mirror-page).
+La página espejo solo está disponible para las entregas para los que se ha definido contenido HTML. Para obtener más información, consulte [Generación de la página espejo](sending-messages.md#generating-the-mirror-page).
 
 ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
-## Registros de entregas e historial{#tracking-logs}
+## Registros de entregas e historial {#tracking-logs}
 
 La pestaña **[!UICONTROL Tracking]** enumera el historial de seguimiento de esta entrega. Esta pestaña muestra los datos de seguimiento de los mensajes enviados, es decir, todas las direcciones URL sobre las que Adobe Campaign realiza un seguimiento. Los datos de seguimiento se actualizan cada hora.
 
@@ -75,19 +75,19 @@ La pestaña **[!UICONTROL Tracking]** enumera el historial de seguimiento de est
 >
 >Si el seguimiento no está habilitado para una entrega, esta pestaña no se muestra.
 
-La configuración de seguimiento se realiza en el escenario adecuado del asistente de entregas. Consulte [Configuración de los vínculos rastreados](../../delivery/using/how-to-configure-tracked-links.md).
+La configuración de seguimiento se realiza en el escenario adecuado del asistente de entregas. Consulte [Configuración de los vínculos rastreados](how-to-configure-tracked-links.md).
 
 Los datos de **[!UICONTROL Tracking]** se interpretan en los informes de entrega. Consulte [esta sección](../../reporting/using/delivery-reports.md).
 
 ![](assets/s_ncs_user_delivery_tracking_tab.png)
 
-## Renderización de la bandeja de entrada {#delivery-rendering}
+## Procesamiento de la bandeja de entrada {#delivery-rendering}
 
 La pestaña **[!UICONTROL Inbox rendering]** le permite obtener una previsualización del mensaje en los diferentes contextos en los que se puede recibir y comprobar la compatibilidad en las aplicaciones y los escritorios principales.
 
 Así, puede asegurarse de que su mensaje se mostrará a los destinatarios de una forma óptima en una gran variedad de clientes, correos web y dispositivos.
 
-Para obtener más información sobre la renderización de la bandeja de entrada, consulte [esta página](../../delivery/using/inbox-rendering.md).
+Para obtener más información sobre la renderización de la bandeja de entrada, consulte [esta página](inbox-rendering.md).
 
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
@@ -97,7 +97,7 @@ La pestaña **[!UICONTROL Audit]** contiene el registro de entregas y todos los 
 
 El botón **[!UICONTROL Refresh]** permite actualizar los datos. Utilice el botón **[!UICONTROL Filters]** para definir un filtro en los datos.
 
-Los iconos especiales permiten identificar errores o advertencias. Consulte [Análisis de la entrega](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+Los iconos especiales permiten identificar errores o advertencias. Consulte [Análisis de la entrega](steps-validating-the-delivery.md#analyzing-the-delivery).
 
 La subpestaña **[!UICONTROL Proofs]** permite ver la lista de pruebas que se han enviado.
 
