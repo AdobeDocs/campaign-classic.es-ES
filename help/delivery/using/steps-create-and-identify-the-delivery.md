@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%
@@ -30,7 +30,7 @@ Se proporciona una plantilla predeterminada para cada canal instalado: correo po
 >
 >Los canales ofrecidos en la lista dependen del contrato de licencia.
 
-Puede crear nuevas plantillas de envío para preconfigurar parámetros específicos que se adapten a sus necesidades. Para obtener más información sobre las plantillas, consulte [esta sección](../../delivery/using/about-templates.md).
+Puede crear nuevas plantillas de envío para preconfigurar parámetros específicos que se adapten a sus necesidades. Para obtener más información sobre las plantillas, consulte [esta sección](about-templates.md).
 
 ## Identificación de la entrega {#identifying-the-delivery}
 
@@ -49,7 +49,7 @@ Debe completar los parámetros para identificar la entrega. Para ello:
 
 El contenido de la entrega está listo para configurarse. La definición del contenido de la entrega es específica para cada canal. Para obtener más información, consulte la sección dedicada:
 
-* [Definición del contenido del correo electrónico](../../delivery/using/defining-the-email-content.md)
-* [Definición del contenido del SMS](../../delivery/using/sms-create.md#defining-the-sms-content)
-* [Definición del contenido de correo directo](../../delivery/using/defining-the-direct-mail-content.md)
-* [Notificaciones push](../../delivery/using/about-mobile-app-channel.md)
+* [Definición del contenido del correo electrónico](defining-the-email-content.md)
+* [Definición del contenido del SMS](sms-create.md#defining-the-sms-content)
+* [Definición del contenido de correo directo](defining-the-direct-mail-content.md)
+* [Notificaciones push](about-mobile-app-channel.md)
