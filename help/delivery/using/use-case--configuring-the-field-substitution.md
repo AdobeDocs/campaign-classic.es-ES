@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 100%
@@ -32,7 +32,7 @@ Para utilizar la sustitución de campos aleatoria debe tener:
 
 ## Creación de envíos {#step-1---creating-a-delivery}
 
-Los pasos para crear una entrega se detallan en la sección [Creación de una entrega por correo electrónico](../../delivery/using/creating-an-email-delivery.md).
+Los pasos para crear una entrega se detallan en la sección [Creación de una entrega por correo electrónico](creating-an-email-delivery.md).
 
 En este ejemplo, el administrador de envíos ha creado el boletín informativo.
 
@@ -51,7 +51,7 @@ En este ejemplo, el esquema de datos de las direcciones semilla toma un valor cr
 
 Esta enumeración permite al usuario especificar el género literario favorito de sus clientes.
 
-Para que esta modificación del esquema de datos pueda verse en el **formulario de entrada** de las direcciones semilla, debe actualizarlo. Consulte la sección [Actualización del formulario de entrada](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form).
+Para que esta modificación del esquema de datos pueda verse en el **formulario de entrada** de las direcciones semilla, debe actualizarlo. Consulte la sección [Actualización del formulario de entrada](use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form).
 
 ## Configuración de personalización {#configuring-personalization}
 
@@ -61,7 +61,7 @@ Para que esta modificación del esquema de datos pueda verse en el **formulario 
 
    ![](assets/dlv_seeds_usecase_25.png)
 
-1. Configure la lista de envío y las direcciones semilla. Consulte [Identificación de poblaciones objetivo](../../delivery/using/steps-defining-the-target-population.md).
+1. Configure la lista de envío y las direcciones semilla. Consulte [Identificación de poblaciones objetivo](steps-defining-the-target-population.md).
 
    En este ejemplo, el usuario selecciona a los usuarios cuyo **género literario favorito** sea ciencia ficción como población objetivo principal.
 
@@ -73,7 +73,7 @@ Para que esta modificación del esquema de datos pueda verse en el **formulario 
 
    >[!NOTE]
    >
-   >Para obtener más información sobre el vínculo **[!UICONTROL Edit the dynamic condition...]**, consulte [Caso de uso: selección de direcciones semilla según ciertos criterios](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+   >Para obtener más información sobre el vínculo **[!UICONTROL Edit the dynamic condition...]**, consulte [Caso de uso: selección de direcciones semilla según ciertos criterios](use-case--selecting-seed-addresses-on-criteria.md)
 
 1. Haga clic en la pestaña **[!UICONTROL Preview]** y seleccione una dirección semilla para probar la personalización.
 
