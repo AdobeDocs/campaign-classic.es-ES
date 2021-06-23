@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: ae046ef6-d850-4222-b82c-8ef5b3da7037
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 100%
@@ -23,7 +23,7 @@ En el ejemplo siguiente, el destinatario del envío se ha dividido en dos grupos
 
 ![](assets/a-b-testing-schema.png)
 
-Con Campaign Classic, las pruebas A/B se implementan mediante flujos de trabajo, donde se especifica la población objetivo, así como los grupos que recibirán cada variante (consulte [Configuración de las pruebas A/B](../../delivery/using/configuring-a-b-testing.md)).
+Con Campaign Classic, las pruebas A/B se implementan mediante flujos de trabajo, donde se especifica la población objetivo, así como los grupos que recibirán cada variante (consulte [Configuración de las pruebas A/B](configuring-a-b-testing.md)).
 
 Los pasos principales son los siguientes:
 
@@ -37,4 +37,4 @@ Los pasos principales son los siguientes:
 
 >[!NOTE]
 >
->Los flujos de trabajo también le permiten automatizar los procesos al identificar automáticamente la variante de envío que tuvo un mejor rendimiento y, a continuación, enviarla a la población restante. Para obtener más información al respecto, consulte este [caso de uso paso a paso](../../delivery/using/a-b-testing-use-case.md).
+>Los flujos de trabajo también le permiten automatizar los procesos al identificar automáticamente la variante de envío que tuvo un mejor rendimiento y, a continuación, enviarla a la población restante. Para obtener más información al respecto, consulte este [caso de uso paso a paso](a-b-testing-use-case.md).
