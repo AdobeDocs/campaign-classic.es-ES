@@ -6,14 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 94e609f3df94c553e2ec84ee427887a767b9af21
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1574'
 ht-degree: 100%
 
 ---
 
-# Definición del contenido interactivo {#defining-interactive-content}
+# Definición del contenido interactivo{#defining-interactive-content}
 
 Adobe Campaign le permite usar el nuevo formato [AMP interactivo del correo electrónico](https://amp.dev/about/email/), que permite enviar correos electrónicos dinámicos en ciertas condiciones.
 
@@ -27,7 +27,8 @@ Esta función está disponible a través de un paquete dedicado en Adobe Campaig
 
 >[!NOTE]
 >
-> Para las arquitecturas híbridas y alojadas, el paquete debe instalarse en todos los servidores, incluidos el [servidor intermediario](../../installation/using/mid-sourcing-server.md) y la [instancia de ejecución](../../message-center/using/configuring-instances.md#execution-instance). Póngase en contacto con el ejecutivo de cuentas.
+> Para las arquitecturas híbridas y alojadas, el paquete debe instalarse en todos los servidores, incluidos el [servidor intermediario](../../installation/using/mid-sourcing-server.md) y la [instancia de ejecución](../../message-center/using/configuring-instances.md#execution-instance).
+
 
 ## Acerca de AMP para correo electrónico {#about-amp-for-email}
 
@@ -201,7 +202,7 @@ Por ejemplo, si ha incluido una lista de productos en el correo electrónico, al
 >
 >De forma predeterminada, la opción **[!UICONTROL AMP inclusion]** está configurada en **[!UICONTROL No]**.
 
-## Videotutorial {#amp-email-video}
+## Tutorial en vídeo {#amp-email-video}
 
 El siguiente vídeo explica cómo activar AMP en Adobe Campaign y cómo usarlo.
 
