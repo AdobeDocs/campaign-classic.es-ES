@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 100%
@@ -29,7 +29,7 @@ Esta acción crea una plantilla de envío a partir de la entrega seleccionado. D
 
 ![](assets/s_ncs_user_campaign_save_as_scenario_a.png)
 
-Para obtener más información sobre el modo de configuración, consulte [Vinculación de la plantilla a una entrega](../../delivery/using/creating-a-delivery-from-a-template.md#linking-the-template-to-a-delivery).
+Para obtener más información sobre el modo de configuración, consulte [Vinculación de la plantilla a una entrega](creating-a-delivery-from-a-template.md#linking-the-template-to-a-delivery).
 
 ## Creación de una nueva plantilla {#creating-a-new-template}
 
@@ -66,7 +66,7 @@ Para configurar una plantilla de envío, siga los siguientes pasos:
 >
 >Para evitar errores de configuración, se recomienda duplicar una plantilla nativa y modificar sus propiedades en lugar de crear una nueva plantilla.
 
-## Videotutoriales {#delivery-template-video}
+## Tutoriales en vídeo {#delivery-template-video}
 
 ### Configuración de una plantilla de envíos
 
