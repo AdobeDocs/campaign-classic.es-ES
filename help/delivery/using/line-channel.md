@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1162'
 ht-degree: 34%
@@ -58,9 +58,9 @@ Para crear su servicio [!DNL LINE]:
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-Para obtener más información sobre suscripciones y servicios, consulte [Administración de suscripciones](../../delivery/using/managing-subscriptions.md).
+Para obtener más información sobre suscripciones y servicios, consulte [Administración de suscripciones](managing-subscriptions.md).
 
-### Configuración de la cuenta externa de LINE {#configure-line-external}
+### Configuración de la cuenta externa LINE {#configure-line-external}
 
 Después de crear el servicio [!DNL LINE], debe configurar la cuenta externa [!DNL LINE] en Adobe Campaign:
 
@@ -87,7 +87,7 @@ Después de crear el servicio [!DNL LINE], debe configurar la cuenta externa [!D
 
 El [!DNL LINE] ahora está configurado en Adobe Campaign, puede empezar a crear y enviar envíos de LINE a los suscriptores.
 
-## Crear entrega de LINE {#creating-the-delivery}
+## Creación de una entrega LINE {#creating-the-delivery}
 
 >[!NOTE]
 >
@@ -103,13 +103,13 @@ Para crear una entrega de [!DNL LINE], debe seguir estos pasos:
 
    ![](assets/line_message_01.png)
 
-1. Identifique su envío con **[!UICONTROL Label]**, **[!UICONTROL Delivery code]** y **[!UICONTROL Description]**. Para obtener más información, consulte [esta sección](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery).
+1. Identifique su envío con **[!UICONTROL Label]**, **[!UICONTROL Delivery code]** y **[!UICONTROL Description]**. Para obtener más información, consulte [esta sección](steps-create-and-identify-the-delivery.md#identifying-the-delivery).
 
 1. Haga clic en **[!UICONTROL Continue]** para crear su entrega.
 
 1. En el editor de envíos, seleccione **[!UICONTROL To]** para dirigirse a los destinatarios del envío [!DNL LINE]. El establecimiento de destinos se realiza en **[!UICONTROL Visitor subscriptions (nms:visitorSub)]**.
 
-   Para obtener más información, consulte [Identificación de poblaciones de destinatarios](../../delivery/using/steps-defining-the-target-population.md).
+   Para obtener más información, consulte [Identificación de poblaciones de destinatarios](steps-defining-the-target-population.md).
 
    ![](assets/line_message_08.png)
 
@@ -131,13 +131,13 @@ Para crear una entrega de [!DNL LINE], debe seguir estos pasos:
 
 1. Cuando la entrega se haya creado y configurado correctamente, puede enviarlo al objetivo definido anteriormente.
 
-   Para obtener más información sobre cómo realizar un envío, consulte [Enviar mensajes](../../delivery/using/sending-messages.md).
+   Para obtener más información sobre cómo realizar un envío, consulte [Enviar mensajes](sending-messages.md).
 
 1. Después de enviar el mensaje, acceda al informe para medir la eficacia de su envío.
 
    Para obtener más información sobre los informes [!DNL LINE], consulte [Informes de acceso](#accessing-reports).
 
-## Defina el tipo de contenido {#defining-the-content}
+## Definición del tipo de contenido {#defining-the-content}
 
 Para definir el contenido de un envío [!DNL LINE], primero debe añadir el tipo de mensaje al envío. Cada envío [!DNL LINE] puede contener hasta 5 mensajes.
 
@@ -157,7 +157,7 @@ Un envío **[!UICONTROL Text message]** [!DNL LINE] es un mensaje enviado a los 
 
 ![](assets/line_message_02.png)
 
-La configuración de este tipo de mensaje es similar a la configuración de **[!UICONTROL Text]** en un mensaje de correo electrónico. Para obtener más información, consulte esta [página](../../delivery/using/defining-the-email-content.md#message-content).
+La configuración de este tipo de mensaje es similar a la configuración de **[!UICONTROL Text]** en un mensaje de correo electrónico. Para obtener más información, consulte esta [página](defining-the-email-content.md#message-content).
 
 ### Configuración de una entrega de imagen y vínculo {#configuring-an-image-and-link-delivery}
 
@@ -199,7 +199,7 @@ Puede utilizar:
 
    ![](assets/line_message_05.png)
 
-### Configuración de un envío de mensaje de vídeo {#configuring-a-video-message-delivery}
+### Configuración de una entrega de mensaje de vídeo {#configuring-a-video-message-delivery}
 
 Un envío **[!UICONTROL Video message]** [!DNL LINE] es un mensaje enviado a los destinatarios en forma de vídeo que puede contener una dirección URL.
 
@@ -239,7 +239,7 @@ En este ejemplo, se crea y configura un mensaje de texto y una imagen que contie
 
 1. En la ventana de configuración de la entrega, seleccione la población objetivo.
 
-   Para obtener más información, consulte [Identificación de poblaciones de destinatarios](../../delivery/using/steps-defining-the-target-population.md).
+   Para obtener más información, consulte [Identificación de poblaciones de destinatarios](steps-defining-the-target-population.md).
 
    ![](assets/line_usecase_02.png)
 
