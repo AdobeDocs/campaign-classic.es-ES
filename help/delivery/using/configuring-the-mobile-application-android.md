@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-source-git-commit: fb2f1769aadbc128d76f343a5fa58ee4e3bda72a
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 94%
@@ -58,7 +58,7 @@ Para elegir el conector que desea utilizar, siga estos pasos:
 
    * **maxGCMConnectPerChild**: Límite máximo de solicitudes HTTP paralelas al FCM iniciado por cada servidor secundario (8 por defecto).
 
-## Configurar un servicio de Android {#configuring-android-service}
+## Configuración de un servicio de Android {#configuring-android-service}
 
 ![](assets/do-not-localize/how-to-video.png) [Obtenga información sobre cómo configurar un servicio de Android en vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=es#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign)
 
@@ -79,9 +79,9 @@ Para elegir el conector que desea utilizar, siga estos pasos:
 
    ![](assets/nmac_service_2.png)
 
-1. Cree la aplicación de Android. Para obtener más información, consulte [esta sección](../../delivery/using/configuring-the-mobile-application-android.md#creating-android-app).
+1. Cree la aplicación de Android. Para obtener más información, consulte [esta sección](configuring-the-mobile-application-android.md#creating-android-app).
 
-## Crear la aplicación móvil de Android {#creating-android-app}
+## Creación de la aplicación móvil de Android {#creating-android-app}
 
 Después de crear el servicio, debe crear la aplicación de Android:
 
@@ -93,7 +93,7 @@ Después de crear el servicio, debe crear la aplicación de Android:
 
    ![](assets/nmac_android.png)
 
-1. Asegúrese de que se ha definido la misma **[!UICONTROL Integration key]** en Adobe Campaign y en el código de la aplicación a través del SDK. Para obtener más información, consulte [esta sección](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md).
+1. Asegúrese de que se ha definido la misma **[!UICONTROL Integration key]** en Adobe Campaign y en el código de la aplicación a través del SDK. Para obtener más información, consulte [esta sección](integrating-campaign-sdk-into-the-mobile-application.md).
 
    >[!NOTE]
    >
@@ -111,8 +111,8 @@ De forma predeterminada, Adobe Campaign guarda una clave en el campo **[!UICONTR
 
 Después de crear el servicio y una nueva aplicación móvil, debe configurar la aplicación móvil según la versión de API elegida.
 
-* **La configuración HTTP v1** se detalla en  [esta sección](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
-* **La configuración HTTP (heredada)**  se detalla en  [esta sección](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http).
+* **La configuración HTTP v1** se detalla en  [esta sección](configuring-the-mobile-application-android.md#android-service-httpv1).
+* **La configuración HTTP (heredada)**  se detalla en  [esta sección](configuring-the-mobile-application-android.md#android-service-http).
 
 #### Configuración de la API HTTP v1{#android-service-httpv1}
 
@@ -188,4 +188,4 @@ Debe ampliar **appsubscriptionRcp** para definir nuevos campos que almacenen par
 
    >[!CAUTION]
    >
-   >Asegúrese de que los nombres de configuración en la pestaña **[!UICONTROL Subscription parameters]** sean los mismos que los del código de la aplicación móvil. Consulte [esta sección](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md).
+   >Asegúrese de que los nombres de configuración en la pestaña **[!UICONTROL Subscription parameters]** sean los mismos que los del código de la aplicación móvil. Consulte [esta sección](integrating-campaign-sdk-into-the-mobile-application.md).
