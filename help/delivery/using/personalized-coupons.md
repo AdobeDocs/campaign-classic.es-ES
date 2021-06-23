@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 100%
@@ -73,7 +73,7 @@ Los valores de **[!UICONTROL channel]**, **[!UICONTROL status]** y **[!UICONTROL
 
 ## Inserción de un cupón en una entrega de correo electrónico {#inserting-a-coupon-into-an-email-delivery}
 
-En el siguiente ejemplo, la entrega se crea desde la página principal. Para obtener instrucciones detalladas sobre la creación de una entrega, consulte [esta sección](../../delivery/using/about-email-channel.md). También puede añadir un cupón a una entrega en un flujo de trabajo.
+En el siguiente ejemplo, la entrega se crea desde la página principal. Para obtener instrucciones detalladas sobre la creación de una entrega, consulte [esta sección](about-email-channel.md). También puede añadir un cupón a una entrega en un flujo de trabajo.
 
 1. Vaya a **[!UICONTROL Campaigns]** y elija **[!UICONTROL Deliveries]**.
 1. Haga clic en **[!UICONTROL Create]**.
