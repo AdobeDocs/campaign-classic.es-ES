@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1663'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Para ello:
 
    Las reglas aplicadas durante el análisis se presentan en [esta sección](#validation-process-with-typologies). Los modos de validación disponibles se detallan en la sección [Cambio del modo de aprobación](#changing-the-approval-mode).
 
-1. **Envío de pruebas**: este paso permite controlar el contenido, las direcciones URL, la personalización, etc. Obtenga más información en [Envío de pruebas](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) y [Definición de un objetivo de prueba específico](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
+1. **Envío de pruebas**: este paso permite controlar el contenido, las direcciones URL, la personalización, etc. Obtenga más información en [Envío de pruebas](steps-validating-the-delivery.md#sending-a-proof) y [Definición de un objetivo de prueba específico](steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
 >[!IMPORTANT]
 >
@@ -48,7 +48,7 @@ El análisis es la fase durante la cual se calcula la población objetivo y se p
 
    >[!NOTE]
    >
-   >Las reglas de validación utilizadas durante el análisis se describen en la sección [Proceso de validación con tipologías](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
+   >Las reglas de validación utilizadas durante el análisis se describen en la sección [Proceso de validación con tipologías](steps-validating-the-delivery.md#validation-process-with-typologies).
 
 1. Puede detener este análisis en cualquier momento haciendo clic en **[!UICONTROL Stop]**.
 
@@ -93,7 +93,7 @@ Esta pestaña proporciona acceso a las siguientes opciones:
 * **[!UICONTROL Approval mode]**: este campo permite definir el envío manual o automático una vez finalizado el análisis. Los modos de validación se presentan en la sección [Cambio del modo de aprobación](#changing-the-approval-mode).
 * **[!UICONTROL Prepare the delivery parts in the database]**: esta opción permite mejorar el rendimiento del análisis de envío. Para obtener más información, consulte [esta sección](#improving-delivery-analysis).
 * **[!UICONTROL Prepare the personalization data with a workflow]**: esta opción 
-permite preparar los datos de personalización contenidos en el envío en un flujo de trabajo automático, lo que permite obtener un aumento significativo del rendimiento para ejecutar la personalización. Para obtener más información, consulte [Optimización de la personalización](../../delivery/using/personalization-fields.md#optimizing-personalization).
+permite preparar los datos de personalización contenidos en el envío en un flujo de trabajo automático, lo que permite obtener un aumento significativo del rendimiento para ejecutar la personalización. Para obtener más información, consulte [Optimización de la personalización](personalization-fields.md#optimizing-personalization).
 * **[!UICONTROL Start job in a detached process]**: esta opción permite iniciar el análisis de envío en un proceso independiente. La función de análisis utiliza el proceso del servidor de aplicaciones de Adobe Campaign (web nlserver) de forma predeterminada. Al seleccionar esta opción, se asegura de que el análisis se complete incluso en caso de que falle el servidor de aplicaciones.
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]**: esta opción añade los registros de consulta SQL al diario de entrega durante la fase de análisis.
 * **[!UICONTROL Ignore personalization scripts during sending]**: esta opción permite evitar la interpretación de las directrices de JavaScript que se encuentran en el contenido HTML. Se visualizan tal y como están en los contenidos enviados. Estas directivas se introducen con la etiqueta **&lt;%=**.
@@ -132,23 +132,24 @@ Para detectar posibles errores en la configuración del mensaje, Adobe recomiend
 
 >[!NOTE]
 >
->* Los modos de validación disponibles se detallan en [Cambio del modo de aprobación](../../delivery/using/steps-validating-the-delivery.md#changing-the-approval-mode).
->* La configuración del objetivo de prueba se explica en [Definición de un objetivo de prueba específico](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
+>* Los modos de validación disponibles se detallan en [Cambio del modo de aprobación](steps-validating-the-delivery.md#changing-the-approval-mode).
+>* La configuración del objetivo de prueba se explica en [Definición de un objetivo de prueba específico](steps-defining-the-target-population.md#defining-a-specific-proof-target).
+
 >
 
 
 
 Para enviar una prueba, siga los pasos a continuación:
 
-1. Asegúrese de que el objetivo de prueba se ha configurado tal como se describe en [Definición de un objetivo de prueba específico](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
+1. Asegúrese de que el objetivo de prueba se ha configurado tal como se describe en [Definición de un objetivo de prueba específico](steps-defining-the-target-population.md#defining-a-specific-proof-target).
 1. En la barra superior del asistente de envíos, haga clic en **[!UICONTROL Send a proof]**.
 
    ![](assets/s_ncs_user_email_del_send_proof.png)
 
-1. Inicie el análisis del mensaje. Consulte [Análisis de la entrega](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
-1. Ahora puede enviar la entrega (consulte [Envío de la entrega](../../delivery/using/steps-sending-the-delivery.md)).
+1. Inicie el análisis del mensaje. Consulte [Análisis de la entrega](steps-validating-the-delivery.md#analyzing-the-delivery).
+1. Ahora puede enviar la entrega (consulte [Envío de la entrega](steps-sending-the-delivery.md)).
 
-   Una vez que se envía la entrega, la prueba aparece en la lista de entrega y se crea y numera automáticamente. Se puede editar si se desea acceder a su contenido y sus propiedades. Para obtener más información, consulte [esta página](../../delivery/using/about-delivery-monitoring.md).
+   Una vez que se envía la entrega, la prueba aparece en la lista de entrega y se crea y numera automáticamente. Se puede editar si se desea acceder a su contenido y sus propiedades. Para obtener más información, consulte [esta página](about-delivery-monitoring.md).
 
    ![](assets/s_ncs_user_delivery_validation_cycle_03a.png)
 
@@ -173,7 +174,7 @@ La pestaña **[!UICONTROL Advanced]** de propiedades de la entrega permite defin
 Estas son las opciones disponibles:
 
 * La primera opción permite mantener las pruebas duplicadas.
-* Las dos opciones siguientes permiten mantener los destinatarios que están en la lista de bloqueados y las direcciones en cuarentena. Consulte la descripción de estas opciones para el objetivo principal en [Personalización de la configuración de exclusión](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). A diferencia del objetivo de una entrega, donde estas direcciones se excluyen de forma predeterminada, se mantienen de forma predeterminada para el objetivo de una prueba.
+* Las dos opciones siguientes permiten mantener los destinatarios que están en la lista de bloqueados y las direcciones en cuarentena. Consulte la descripción de estas opciones para el objetivo principal en [Personalización de la configuración de exclusión](steps-defining-the-target-population.md#customizing-exclusion-settings). A diferencia del objetivo de una entrega, donde estas direcciones se excluyen de forma predeterminada, se mantienen de forma predeterminada para el objetivo de una prueba.
 * La opción **[!UICONTROL Keep the delivery code for the proof]** permite dar a la prueba el mismo código de entrega que el definido para la entrega con el que se relaciona. Este código se especifica en el primer paso del asistente de envíos.
 * De forma predeterminada, el asunto de la prueba incluye el prefijo “Proof #”, donde # es el número de la prueba. Se puede cambiar este prefijo en el campo **[!UICONTROL Label prefix]**.
 
