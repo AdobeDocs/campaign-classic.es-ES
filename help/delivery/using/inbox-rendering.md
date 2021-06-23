@@ -6,14 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 100%
 
 ---
 
-# Renderización de la bandeja de entrada{#inbox-rendering}
+# Procesamiento de la bandeja de entrada{#inbox-rendering}
 
 ## Acerca de la renderización de la bandeja de entrada {#about-inbox-rendering}
 
@@ -27,7 +27,7 @@ Los clientes móviles, de mensajería y de correo web disponibles para **Renderi
 
 >[!NOTE]
 >
->No es necesario renderizar la bandeja de entrada para probar la personalización en las entregas. La personalización puede comprobarse con las herramientas de Adobe Campaign como **[!UICONTROL Preview]** y [Proofs](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+>No es necesario renderizar la bandeja de entrada para probar la personalización en las entregas. La personalización puede comprobarse con las herramientas de Adobe Campaign como **[!UICONTROL Preview]** y [Proofs](steps-validating-the-delivery.md#sending-a-proof).
 
 ## Activación de la renderización de la bandeja de entrada{#activating-inbox-rendering}
 
@@ -82,6 +82,7 @@ Cada vez que se utiliza la función **[!UICONTROL Inbox rendering]** en una entr
 >
 >* Cada vez que se genera el informe de renderización de la Bandeja de entrada, se resta un token por cada cliente de mensajería: uno para la renderización de Outlook 2000, uno para la renderización de Outlook 2010, uno para la renderización de Apple Mail 9, etc.
 >* Para el mismo envío, si vuelve a generar la renderización de la bandeja de entrada, el número de tokens disponibles se reduce de nuevo según la cantidad de renderizaciones generadas.
+
 >
 
 
@@ -96,14 +97,14 @@ Normalmente, la función de renderización de la bandeja de entrada se utiliza p
 
 Una vez que haya creado su envío de correo electrónico y definido su contenido, así como la población de destino, siga los pasos a continuación.
 
-Para obtener más información sobre la creación, el diseño y la segmentación de los servicios de información, consulte [esta sección](../../delivery/using/about-email-channel.md).
+Para obtener más información sobre la creación, el diseño y la segmentación de los servicios de información, consulte [esta sección](about-email-channel.md).
 
 1. En la barra superior de la entrega, haga clic en el botón **[!UICONTROL Inbox rendering]**.
 1. Seleccione **[!UICONTROL Analyze]** para iniciar el proceso de captura.
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
-   Se envía una prueba. Se puede acceder a las miniaturas de renderización de esa prueba unos minutos después de enviar los mensajes de correo electrónico. Para obtener más información la entrega de pruebas, consulte [esta sección](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+   Se envía una prueba. Se puede acceder a las miniaturas de renderización de esa prueba unos minutos después de enviar los mensajes de correo electrónico. Para obtener más información la entrega de pruebas, consulte [esta sección](steps-validating-the-delivery.md#sending-a-proof).
 
 1. Una vez enviada, la prueba aparece en la lista de envío. Haga doble clic en ella.
 
