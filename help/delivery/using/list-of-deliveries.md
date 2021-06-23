@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 6c0fd76f-3d79-4b69-b911-f8d99dd18c4b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%
@@ -31,5 +31,5 @@ De forma predeterminada, la lista de entregas contiene los nombres y estados de 
 
 **Temas relacionados:**
 
-* [Tablero de entregas](../../delivery/using/delivery-dashboard.md)
-* [Estados de entrega](../../delivery/using/delivery-statuses.md)
+* [Tablero de entregas](delivery-dashboard.md)
+* [Estados de entrega](delivery-statuses.md)
