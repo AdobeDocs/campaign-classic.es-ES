@@ -5,7 +5,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 100%
@@ -14,18 +14,18 @@ ht-degree: 100%
 
 # Creación de contenido personalizado {#build-personalized-content}
 
-Al diseñar el contenido del mensaje, trate de evitar problemas comunes que podrían impedir la ejecución del envío. La mayoría de las veces, los posibles errores están relacionados con la [personalización](../../delivery/using/about-personalization.md), el [formato](../../delivery/using/defining-the-email-content.md#message-content) y las [imágenes](../../delivery/using/defining-the-email-content.md#adding-images).
+Al diseñar el contenido del mensaje, trate de evitar problemas comunes que podrían impedir la ejecución del envío. La mayoría de las veces, los posibles errores están relacionados con la [personalización](about-personalization.md), el [formato](defining-the-email-content.md#message-content) y las [imágenes](defining-the-email-content.md#adding-images).
 
 ## Optimización de la personalización {#optimize-personalization}
 
 Para evitar problemas comunes que podrían impedirle ejecutar su envío y mejorar la experiencia de sus destinatarios, Adobe Campaign le permite personalizar sus mensajes.
 
 Puede utilizar los datos de destinatarios almacenados en la base de datos de Adobe Campaign o recopilados mediante seguimiento, páginas de aterrizaje, suscripciones, etc.
-Los conceptos básicos de la personalización se presentan en [esta sección](../../delivery/using/personalization-fields.md).
+Los conceptos básicos de la personalización se presentan en [esta sección](personalization-fields.md).
 
 Asegúrese de que el contenido del mensaje esté diseñado correctamente para evitar errores, que generalmente están relacionados con la personalización.
 
-**Sugerencias**: En campos de personalización procedentes de archivos externos proporcionados por proveedores externos, el contenido HTML externo puede ser incorrecto. Para evitarlo, compruebe la sintaxis, el uso de etiquetas, los caracteres, etc. Por ejemplo, una etiqueta personalizada de Adobe Campaign siempre tiene la siguiente forma: &lt;%=table.field%>. Para obtener más información, consulte [esta sección](../../delivery/using/about-personalization.md).
+**Sugerencias**: En campos de personalización procedentes de archivos externos proporcionados por proveedores externos, el contenido HTML externo puede ser incorrecto. Para evitarlo, compruebe la sintaxis, el uso de etiquetas, los caracteres, etc. Por ejemplo, una etiqueta personalizada de Adobe Campaign siempre tiene la siguiente forma: &lt;%=table.field%>. Para obtener más información, consulte [esta sección](about-personalization.md).
 
 El uso incorrecto de parámetros en bloques de personalización puede ser un problema. Por ejemplo: las variables en JavaScript deben usarse de la siguiente manera:
 
@@ -35,9 +35,9 @@ El uso incorrecto de parámetros en bloques de personalización puede ser un pro
     
     %>
 
-Para obtener más información acerca de los bloques personalizados, consulte [esta sección](../../delivery/using/personalization-blocks.md).
+Para obtener más información acerca de los bloques personalizados, consulte [esta sección](personalization-blocks.md).
 
-Puede preparar datos de personalización en un flujo de trabajo para mejorar el análisis de preparación de envíos. Esto debe utilizarse especialmente si los datos de personalización proceden de una tabla externa a través del Acceso de datos federado (FDA). Esta opción se describe en [esta sección](../../delivery/using/personalization-fields.md#optimizing-personalization)
+Puede preparar datos de personalización en un flujo de trabajo para mejorar el análisis de preparación de envíos. Esto debe utilizarse especialmente si los datos de personalización proceden de una tabla externa a través del Acceso de datos federado (FDA). Esta opción se describe en [esta sección](personalization-fields.md#optimizing-personalization)
 
 ## Creación de contenido optimizado {#optimize-content}
 
@@ -55,7 +55,7 @@ Cuando cree sus correos electrónicos, tenga en cuenta las optimizaciones genera
 
 ### Línea de asunto
 
-Cree una [línea de asunto ](../../delivery/using/defining-the-email-content.md#message-content) para mejorar las tasas de apertura:
+Cree una [línea de asunto ](defining-the-email-content.md#message-content) para mejorar las tasas de apertura:
 
 * Evite los asuntos demasiado largos. Utilice un máximo de 50 caracteres
 
@@ -65,15 +65,15 @@ Cree una [línea de asunto ](../../delivery/using/defining-the-email-content.md#
 
 ### Página espejo
 
-Incluya siempre un vínculo de página espejo. La posición preferida es la parte superior del correo electrónico. [Más información](../../delivery/using/sending-messages.md#generating-the-mirror-page)
+Incluya siempre un vínculo de página espejo. La posición preferida es la parte superior del correo electrónico. [Más información](sending-messages.md#generating-the-mirror-page)
 
 ### Vínculo de cancelación de suscripción
 
-El vínculo de cancelación de suscripción es esencial. Debe ser visible y válido, y el formulario debe ser funcional. De forma predeterminada, cuando se analiza el mensaje, una [regla de tipología](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies) comprueba si se ha incluido un vínculo de no participación y genera una advertencia si falta.
+El vínculo de cancelación de suscripción es esencial. Debe ser visible y válido, y el formulario debe ser funcional. De forma predeterminada, cuando se analiza el mensaje, una [regla de tipología](steps-validating-the-delivery.md#validation-process-with-typologies) comprueba si se ha incluido un vínculo de no participación y genera una advertencia si falta.
 
 **Sugerencia**: Debido a que siempre es posible cometer un error humano, compruebe que el vínculo de no participación funciona correctamente antes de cada envío. Por ejemplo, al enviar la prueba, asegúrese de que el enlace es válido, que el formulario en línea está activo y que el campo No volver a enviar a destinatario cambia a Sí.
 
-Obtenga información sobre cómo insertar un vínculo de no participación [en esta sección](../../delivery/using/personalization-blocks.md#personalization-blocks-example).
+Obtenga información sobre cómo insertar un vínculo de no participación [en esta sección](personalization-blocks.md#personalization-blocks-example).
 
 ### Tamaño del correo electrónico
 
@@ -94,7 +94,7 @@ Asegúrese de probar los cambios antes del envío final
 De forma predeterminada, el número de caracteres de un SMS cumple con los estándares del GSM (Sistema Global de Comunicaciones Móviles). Los mensajes SMS con codificación GSM están limitados a 160 caracteres, o a 153 caracteres por SMS en el caso de los mensajes enviados en varias partes.
 
 La transliteración consiste en reemplazar un carácter de un SMS por otro cuando el estándar GSM no tiene en cuenta dicho carácter. Tenga en cuenta que la inserción de campos de personalización en el contenido del mensaje SMS puede introducir caracteres que no se tienen en cuenta con la codificación GSM. Puede autorizar la transliteración de caracteres marcando la casilla correspondiente en la pestaña de la configuración del canal de SMPP de la **[!UICONTROL External account]** correspondiente.
-Obtenga más información [en esta sección](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
+Obtenga más información [en esta sección](sms-set-up.md#creating-an-smpp-external-account).
 
 **Sugerencias**:
 
@@ -102,13 +102,13 @@ Obtenga más información [en esta sección](../../delivery/using/sms-set-up.md#
 
 * Sin embargo, si sus mensajes SMS contienen muchos caracteres que no se tienen en cuenta en el estándar GSM, habilite la transliteración para limitar los costes de envío de mensajes.
 
-Obtenga más información [en esta sección](../../delivery/using/sms-set-up.md#about-character-transliteration).
+Obtenga más información [en esta sección](sms-set-up.md#about-character-transliteration).
 
 ## Mejore el formato {#formatting}
 
 Para evitar errores comunes de formato, consulte los siguientes elementos:
 
-* **Formato de fecha correcto**: Adobe Campaign proporciona funciones de formato de fecha para las plantillas JavaScript y las hojas de estilo XSL. [Más información](../../delivery/using/formatting.md#date-display)
+* **Formato de fecha correcto**: Adobe Campaign proporciona funciones de formato de fecha para las plantillas JavaScript y las hojas de estilo XSL. [Más información](formatting.md#date-display)
 
 * Uso de **caracteres autorizados** en correos electrónicos: la lista de caracteres válidos para las direcciones de correo electrónico se define en la opción &quot;XtkEmail_Characters&quot;. Obtenga información sobre cómo acceder a las opciones de Campaign [en esta sección](../../installation/using/configuring-campaign-options.md). Para gestionar correctamente caracteres especiales, Adobe Campaign debe estar instalado en Unicode.
 
@@ -148,7 +148,7 @@ Para que sean accesibles desde el exterior, las imágenes utilizadas en los mens
 
 * Puede comprobar si la configuración de la instancia habilita la administración de recursos públicos. [Más información](../../installation/using/deploying-an-instance.md#managing-public-resources)
 
-* Desde el asistente de entregas, puede importar una página HTML que contenga imágenes o insertar imágenes directamente utilizando el editor HTML mediante el icono **[!UICONTROL Image]**. [Más información](../../delivery/using/defining-the-email-content.md#adding-images)
+* Desde el asistente de entregas, puede importar una página HTML que contenga imágenes o insertar imágenes directamente utilizando el editor HTML mediante el icono **[!UICONTROL Image]**. [Más información](defining-the-email-content.md#adding-images)
 
 * Si las imágenes no se muestran, compruebe que estén disponibles en el servidor. Para ello, haga clic en la pestaña Origen del envío. Busque las imágenes, y copie y pegue la dirección URL de cada imagen en un navegador web. Si no se muestran las imágenes, póngase en contacto con el administrador de TI o con el proveedor de terceros que proporcione el contenido de envío.
 
@@ -156,6 +156,6 @@ Para que sean accesibles desde el exterior, las imágenes utilizadas en los mens
 
 Adobe recomienda previsualizar el mensaje para comprobar su personalización y cómo verán su envío sus destinatarios.
 
-* En el asistente de envíos, la subpestaña **[!UICONTROL Preview]** permite ver la renderización de cada contenido para un destinatario. Los campos personalizados y los elementos condicionales del contenido se sustituyen por la información correspondiente del perfil seleccionado. [Más información](../../delivery/using/defining-the-email-content.md#message-content)
+* En el asistente de envíos, la subpestaña **[!UICONTROL Preview]** permite ver la renderización de cada contenido para un destinatario. Los campos personalizados y los elementos condicionales del contenido se sustituyen por la información correspondiente del perfil seleccionado. [Más información](defining-the-email-content.md#message-content)
 
-* Durante cada previsualización se realiza una comprobación automática del contenido no deseado. En la subpestaña **[!UICONTROL Preview]**, marque la puntuación de spam [SpamAssassin](../../delivery/using/spamassassin.md).  Haga clic en **[!UICONTROL More...]** para obtener más información sobre la advertencia.  Antes de hacerlo, asegúrese de que SpamAssassin está correctamente instalado y configurado en el servidor de aplicaciones de Adobe Campaign. [Más información](../../installation/using/configuring-spamassassin.md)
+* Durante cada previsualización se realiza una comprobación automática del contenido no deseado. En la subpestaña **[!UICONTROL Preview]**, marque la puntuación de spam [SpamAssassin](spamassassin.md).  Haga clic en **[!UICONTROL More...]** para obtener más información sobre la advertencia.  Antes de hacerlo, asegúrese de que SpamAssassin está correctamente instalado y configurado en el servidor de aplicaciones de Adobe Campaign. [Más información](../../installation/using/configuring-spamassassin.md)
