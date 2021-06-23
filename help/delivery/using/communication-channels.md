@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 100%
@@ -21,18 +21,18 @@ Las funciones principales incluyen establecimiento de objetivos, definición y p
 
 >[!NOTE]
 >
->Adobe Campaign ofrece un conjunto de herramientas para supervisar su capacidad de envío y optimizar la entrega por correo electrónico. Obtenga más información en [esta sección](../../delivery/using/about-deliverability.md).
+>Adobe Campaign ofrece un conjunto de herramientas para supervisar su capacidad de envío y optimizar la entrega por correo electrónico. Obtenga más información en [esta sección](about-deliverability.md).
 
 El envío puede automatizarse al preparar una entrega o al enviarlo en el proceso de un flujo de trabajo. Para obtener más información sobre las actividades de tipo envío en los flujos de trabajo, consulte [esta sección](../../workflow/using/about-action-activities.md).
 
 Adobe Campaign ofrece los siguientes canales de envío:
 
-1. **Canal de correo electrónico**: las entregas de correo electrónico le permiten enviar correos electrónicos personalizados a la población objetivo. Consulte [Acerca del canal de correo electrónico](../../delivery/using/about-email-channel.md).
-1. **Canal de correo postal**: las entregas de correo postal permiten generar un archivo de extracción que contenga datos sobre la población objetivo. [Acerca del canal de correo postal](../../delivery/using/about-direct-mail-channel.md).
-1. **Canal móvil**: las entregas en canales móviles permiten enviar mensajes SMS o de LINE personalizados a la población objetivo. Consulte [el canal de SMS](../../delivery/using/sms-channel.md).
-1. **Canal de aplicación móvil**: los envíos de aplicaciones móviles permiten enviar notificaciones a sistemas iOS y Android. Consulte el capítulo [canal de aplicaciones móviles](../../delivery/using/about-mobile-app-channel.md).
+1. **Canal de correo electrónico**: las entregas de correo electrónico le permiten enviar correos electrónicos personalizados a la población objetivo. Consulte [Acerca del canal de correo electrónico](about-email-channel.md).
+1. **Canal de correo postal**: las entregas de correo postal permiten generar un archivo de extracción que contenga datos sobre la población objetivo. [Acerca del canal de correo postal](about-direct-mail-channel.md).
+1. **Canal móvil**: las entregas en canales móviles permiten enviar mensajes SMS o de LINE personalizados a la población objetivo. Consulte [el canal de SMS](sms-channel.md).
+1. **Canal de aplicación móvil**: los envíos de aplicaciones móviles permiten enviar notificaciones a sistemas iOS y Android. Consulte el capítulo [canal de aplicaciones móviles](about-mobile-app-channel.md).
 
-   En [esta página](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels) se describen otros canales.
+   En [esta página](steps-about-delivery-creation-steps.md#other-channels) se describen otros canales.
 
    >[!NOTE]
    >
@@ -47,9 +47,9 @@ Dependiendo del canal, los modos de envío pueden ser:
 
 Las cuentas externas se configuran mediante el nodo **[!UICONTROL Administration > Platform > External accounts]**. Esta configuración solo deben realizarla usuarios expertos.
 
-## Envíos por correo electrónico {#email-deliveries}
+## Envíos de correo electrónico {#email-deliveries}
 
-El [canal de correo electrónico](../../delivery/using/about-email-channel.md) es uno de los canales principales de Adobe Campaign, el cual permite programar y enviar correos electrónicos personalizados a objetivos específicos.
+El [canal de correo electrónico](about-email-channel.md) es uno de los canales principales de Adobe Campaign, el cual permite programar y enviar correos electrónicos personalizados a objetivos específicos.
 
 Se pueden enviar diferentes tipos de correos electrónicos:
 
@@ -57,13 +57,13 @@ Se pueden enviar diferentes tipos de correos electrónicos:
 * Correos electrónicos recurrentes: en una campaña, envíe el mismo correo electrónico regularmente y añada cada envío y sus informes periódicamente. Se envía el mismo correo electrónico, pero normalmente a un destino diferente, en función del destino apto para el día de la entrega. Un ejemplo común es un correo electrónico de cumpleaños. Para obtener más información, consulte [envíos recurrentes](../../workflow/using/recurring-delivery.md).
 * Correos electrónicos de transacción: correos electrónicos individuales que se activan según el comportamiento de los clientes. Consulte [mensajería transaccional](../../message-center/using/about-transactional-messaging.md).
 
-Para obtener más información sobre uso de las entregas y recomendaciones, consulte [Prácticas recomendadas de envío](../../delivery/using/delivery-best-practices.md) de Campaign.
+Para obtener más información sobre uso de las entregas y recomendaciones, consulte [Prácticas recomendadas de envío](delivery-best-practices.md) de Campaign.
 
 Para obtener más información sobre los distintos tipos de envíos, consulte [esta sección](#types-of-deliveries).
 
 ## Envíos a móviles {#mobile-deliveries}
 
-Adobe Campaign le permite enviar mensajes [SMS](../../delivery/using/sms-channel.md) y de [LINE](../../delivery/using/line-channel.md) a móviles.
+Adobe Campaign le permite enviar mensajes [SMS](sms-channel.md) y de [LINE](line-channel.md) a móviles.
 
 En los mensajes SMS, puede crear, modificar y personalizar mensajes solo de formato de texto. También puede obtener una previsualización de los mensajes SMS antes de enviarlos.
 
@@ -76,17 +76,17 @@ Para enviar mensajes SMS o de LINE a un teléfono móvil se necesita:
 
 ## Notificaciones push {#push-notifications}
 
-Adobe Campaign permite enviar [notificaciones push](../../delivery/using/about-mobile-app-channel.md) personalizadas y segmentadas a dispositivos móviles iOS y Android mediante aplicaciones especializadas. Una vez realizados los pasos de configuración e integración, se pueden crear y realizar las entregas de iOS y Android. También se pueden diseñar notificaciones rich con imágenes o vídeos.
+Adobe Campaign permite enviar [notificaciones push](about-mobile-app-channel.md) personalizadas y segmentadas a dispositivos móviles iOS y Android mediante aplicaciones especializadas. Una vez realizados los pasos de configuración e integración, se pueden crear y realizar las entregas de iOS y Android. También se pueden diseñar notificaciones rich con imágenes o vídeos.
 
-## Correo postal {#direct-mail}
+## Correo directo {#direct-mail}
 
-El [correo postal](../../delivery/using/about-direct-mail-channel.md) es un canal sin conexión que le permite personalizar y generar el archivo requerido por los proveedores de correo postal. Esto le ofrece la posibilidad de mezclar canales en línea y sin conexión para los recorridos de los clientes.
+El [correo postal](about-direct-mail-channel.md) es un canal sin conexión que le permite personalizar y generar el archivo requerido por los proveedores de correo postal. Esto le ofrece la posibilidad de mezclar canales en línea y sin conexión para los recorridos de los clientes.
 
 Los canales en línea permiten crear los mensajes (correo electrónico, SMS, envío por aplicaciones móviles, etc.) y enviarlos a su público directamente desde Adobe Campaign. Con los canales sin conexión esto es diferente. Al preparar una entrega de correo postal, Adobe Campaign genera un archivo con todos los perfiles de destino y la información de contacto elegida (por ejemplo, una dirección postal). Después, puede enviar este archivo al proveedor de correo postal que se encarga de la entrega real.
 
 ## Otros canales {#other-channels}
 
-Plantilla de envíos telefónicos de ofertas de Adobe Campaign, que se utiliza para crear envíos externos. El uso de este canal implica la configuración de metodologías dedicadas para procesar archivos de salida. Los pasos de configuración son los mismos que para el [canal de correo directo](../../delivery/using/about-direct-mail-channel.md).
+Plantilla de envíos telefónicos de ofertas de Adobe Campaign, que se utiliza para crear envíos externos. El uso de este canal implica la configuración de metodologías dedicadas para procesar archivos de salida. Los pasos de configuración son los mismos que para el [canal de correo directo](about-direct-mail-channel.md).
 
 >[!NOTE]
 >
