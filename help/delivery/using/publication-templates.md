@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 100%
@@ -85,7 +85,7 @@ Estas son las opciones de publicación disponibles:
 
    >[!NOTE]
    >
-   >Para obtener más información sobre la generación de contenido, consulte [Creación de una instancia de contenido](../../delivery/using/using-a-content-template.md#creating-a-content-instance).
+   >Para obtener más información sobre la generación de contenido, consulte [Creación de una instancia de contenido](using-a-content-template.md#creating-a-content-instance).
 
 ### Entrega {#delivery}
 
@@ -95,7 +95,7 @@ Esta pestaña permite seleccionar un escenario para iniciar una entrega directam
 
 >[!NOTE]
 >
->Para ver un ejemplo de creación de envíos basado en un contenido, consulte [Creación de una instancia de contenido](../../delivery/using/using-a-content-template.md#delivering-a-content-instance).
+>Para ver un ejemplo de creación de envíos basado en un contenido, consulte [Creación de una instancia de contenido](using-a-content-template.md#delivering-a-content-instance).
 
 ### Acumulador {#aggregator}
 
