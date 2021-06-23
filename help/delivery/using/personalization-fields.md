@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Campos personalizados{#personalization-fields}
 
-Los campos personalizados se utilizan para la personalización de primer nivel del contenido de los mensajes enviados. Los campos que se inserten en un contenido principal muestran la posición en la que se deben insertar los datos desde la fuente de datos seleccionada.
+Los campos de personalización se utilizan para la personalización de primer nivel del contenido de los mensajes enviados. Los campos que se inserten en un contenido principal muestran la posición en la que se deben insertar los datos desde la fuente de datos seleccionada.
 
 Por ejemplo, el campo personalizado con la sintaxis **&lt;%= recipient.LastName %>** indica a Adobe Campaign que inserte el nombre del destinatario en la base de datos (tabla de destinatarios).
 
@@ -36,7 +36,7 @@ Los campos personalizados pueden proceder de dos tipos de fuente de datos, segú
 >
 >Una etiqueta personalizada de Adobe Campaign siempre tiene la siguiente forma **&lt;%=table.field%>**.
 
-## Inserción de un campo personalizado {#inserting-a-personalization-field}
+## Inserción de un campo de personalización. {#inserting-a-personalization-field}
 
 Para insertar campos personalizados, haga clic en el icono desplegable al que se puede acceder desde cualquier campo de edición de encabezado, asunto o cuerpo del mensaje.
 
@@ -75,7 +75,7 @@ Se crea un correo electrónico en el que primero debe insertar el nombre del des
 
 ## Optimización de la personalización {#optimizing-personalization}
 
-Puede optimizar la personalización mediante una opción dedicada: **[!UICONTROL Prepare the personalization data with a workflow]**, disponible en la pestaña **[!UICONTROL Analysis]** de las propiedades de envío. Para obtener más información sobre el análisis del envío, consulte [esta sección](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+Puede optimizar la personalización mediante una opción dedicada: **[!UICONTROL Prepare the personalization data with a workflow]**, disponible en la pestaña **[!UICONTROL Analysis]** de las propiedades de envío. Para obtener más información sobre el análisis del envío, consulte [esta sección](steps-validating-the-delivery.md#analyzing-the-delivery).
 
 Durante el análisis de envío, esta opción crea y ejecuta automáticamente un flujo de trabajo que almacena todos los datos vinculados con el objetivo en una tabla temporal, incluidos los datos de tablas vinculadas en FDA.
 
@@ -116,7 +116,7 @@ El valor predeterminado es 5 segundos.
 
 Si establece esta opción en 0, no va a haber límite de tiempo para la fase de personalización.
 
-## Videotutorial {#personalization-fields-video}
+## Tutorial en vídeo {#personalization-fields-video}
 
 Obtenga información sobre cómo agregar un campo de personalización a la línea de asunto y el contenido de un envío de correo electrónico.
 
