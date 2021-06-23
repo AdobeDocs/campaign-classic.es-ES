@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%
@@ -28,7 +28,7 @@ En Adobe Campaign Classic, la **supervisión de la entrega** se administra media
 
 El paquete de capacidad de entrega permite acceder a lo siguiente:
 
-* El [informe de procesamiento de las bandejas de entrada](../../delivery/using/inbox-rendering.md), que permite realizar previsualizaciones de los mensajes en los principales clientes de correo electrónico para analizar el contenido y la reputación.
+* El [informe de procesamiento de las bandejas de entrada](inbox-rendering.md), que permite realizar previsualizaciones de los mensajes en los principales clientes de correo electrónico para analizar el contenido y la reputación.
 * Descripción general de la calidad del mensaje (bandeja de entrada, correo no deseado).
 
 ## Herramientas de monitorización {#monitoring-tools}
@@ -41,22 +41,22 @@ También puede utilizar las siguientes herramientas:
    * **[!UICONTROL Soft bounces]** indican reputación. Este valor no debe ser superior al 10 % para un ISP determinado.
 
    Para obtener más información, consulte la sección [Estadísticas de envío](../../reporting/using/global-reports.md#delivery-statistics).
-* De manera más general, el [panel de envío](../../delivery/using/about-delivery-monitoring.md) le permite acceder a:
-   * el [resumen del envío](../../delivery/using/delivery-dashboard.md#delivery-summary), que muestra el detalle del envío y el número de mensajes que se van a enviar, procesados y enviados con éxito;
-   * los [registros de envío y el historial](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history), que muestran qué destinatario se ha excluido y por qué;
-   * los [registros de seguimiento](../../delivery/using/delivery-dashboard.md#tracking-logs), que muestran información de seguimiento como aperturas y clics.
+* De manera más general, el [panel de envío](about-delivery-monitoring.md) le permite acceder a:
+   * el [resumen del envío](delivery-dashboard.md#delivery-summary), que muestra el detalle del envío y el número de mensajes que se van a enviar, procesados y enviados con éxito;
+   * los [registros de envío y el historial](delivery-dashboard.md#delivery-logs-and-history), que muestran qué destinatario se ha excluido y por qué;
+   * los [registros de seguimiento](delivery-dashboard.md#tracking-logs), que muestran información de seguimiento como aperturas y clics.
 
 ## Directrices de monitorización {#monitoring-guidelines}
 
 Estas son algunas directrices adicionales sobre la monitorización de la capacidad de envío:
 
 * Compruebe regularmente el [rendimiento del envío](../../reporting/using/global-reports.md#delivery-throughput) de toda la plataforma para comprobar si es coherente con la configuración original.
-* Compruebe que [los reintentos](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) estén correctamente configurados (30 minutos para el periodo de reintento y más de 20 reintentos) en plantillas de envíos.
-* Compruebe periódicamente si puede acceder al buzón de [rechazados](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management) y que la cuenta no esté a punto de caducar.
-* Compruebe el rendimiento de cada entrega, accesible desde el [panel de entrega](../../delivery/using/delivery-dashboard.md), para asegurarse de que es coherente con la validez de su contenido (por ejemplo, las “ventas flash” deben entregarse en minutos, no en días).
-* Cuando utilice [olas](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves), compruebe que cada ola tenga tiempo suficiente para finalizar antes de que se active la siguiente.
-* Compruebe que las cantidades de errores y nuevas [cuarentenas](../../delivery/using/understanding-quarantine-management.md) sean coherentes con otros envíos.
-* Consulte cuidadosamente los [registros de envío](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) en detalle para comprobar el tipo de errores resaltados (lista de bloqueados, problemas de DNS, reglas de correo no deseado, etc.).
+* Compruebe que [los reintentos](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) estén correctamente configurados (30 minutos para el periodo de reintento y más de 20 reintentos) en plantillas de envíos.
+* Compruebe periódicamente si puede acceder al buzón de [rechazados](understanding-delivery-failures.md#bounce-mail-management) y que la cuenta no esté a punto de caducar.
+* Compruebe el rendimiento de cada entrega, accesible desde el [panel de entrega](delivery-dashboard.md), para asegurarse de que es coherente con la validez de su contenido (por ejemplo, las “ventas flash” deben entregarse en minutos, no en días).
+* Cuando utilice [olas](steps-sending-the-delivery.md#sending-using-multiple-waves), compruebe que cada ola tenga tiempo suficiente para finalizar antes de que se active la siguiente.
+* Compruebe que las cantidades de errores y nuevas [cuarentenas](understanding-quarantine-management.md) sean coherentes con otros envíos.
+* Consulte cuidadosamente los [registros de envío](delivery-dashboard.md#delivery-logs-and-history) en detalle para comprobar el tipo de errores resaltados (lista de bloqueados, problemas de DNS, reglas de correo no deseado, etc.).
 
 <!--### Delivery Reports - Broadcast Statistics {#broadcast-statistics}
 
