@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 3958fff140cc9bf6c371f0c4207cafc9a27bb725
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '971'
 ht-degree: 4%
 
 ---
@@ -34,7 +34,7 @@ Del mismo modo, debe utilizar un servidor web cuando desee utilizar la funcional
 >
 >Si no utiliza la funcionalidad de seguimiento, puede realizar una instalación estándar de Apache o IIS con una redirección a Campaign. El módulo de extensión del servidor web de seguimiento no es necesario.
 
-## Configuración del servidor web IIS {#configuring-the-iis-web-server}
+## Configuración del servidor Web IIS {#configuring-the-iis-web-server}
 
 El procedimiento de configuración de un servidor web IIS es principalmente gráfico. Implica utilizar un sitio web (ya creado o pendiente de creación) para acceder a los recursos del servidor de Adobe Campaign: Archivos Java (.jsp), hojas de estilo (.css, .xsl), imágenes (.png), la DLL ISAPI para redirección, etc.
 
@@ -108,6 +108,9 @@ Ahora debe comprobar si la configuración es correcta.
 Para ello, siga el siguiente procedimiento:
 
 1. Reinicie el servidor IIS utilizando la línea de comandos **iisreset**.
+
+1. Inicie el servicio Adobe Campaign y, a continuación, asegúrese de que se esté ejecutando.
+
 1. Pruebe el módulo de seguimiento insertando la siguiente URL en un explorador web:
 
    ```
@@ -164,7 +167,7 @@ En este caso, debe aumentar este límite:
 >
 >Para obtener más información sobre esta opción de IIS, consulte la sección &quot;Cómo hacerlo&quot; de la [documentación oficial](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits).
 
-### Configuración de la visualización del mensaje de error http {#configuring-http-error-message-display}
+### Configuración de la visualización de mensajes de error http {#configuring-http-error-message-display}
 
 Si utiliza un servidor IIS de la versión 6.1, los mensajes de error generados pueden ser difíciles de leer debido a que en el mensaje se muestra un código HTML no deseado.
 
