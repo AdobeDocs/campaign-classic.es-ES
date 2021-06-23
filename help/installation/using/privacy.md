@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: f31591949bb033ff250cf4b33eddcc2c1d31cc6c
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 27%
+source-wordcount: '889'
+ht-degree: 18%
 
 ---
 
@@ -47,27 +47,35 @@ Ejemplo:
 
 <img src="assets/privacy-query-dynamic-url.png">
 
-### Mecanismo de firma
+### Firma de URL
 
-Para mejorar la seguridad, en la versión 19.1.4 (9032@3a9dc9c) se ha introducido un nuevo mecanismo de firma para el seguimiento de vínculos en correos electrónicos, que está disponible en las versiones 19.1.4 (9032@3a9dc9c) y 20.2. Esta opción está habilitada de forma predeterminada para todos los clientes.
+Para mejorar la seguridad, se ha introducido un mecanismo de firma para el seguimiento de vínculos en correos electrónicos. Está disponible en la versión 19.1.4 (9032@3a9dc9c) y Campaign 20.2. Esta función está habilitada de forma predeterminada.
 
 >[!NOTE]
 >
->Cuando se hace clic en una dirección URL firmada con formato incorrecto, se obtiene el siguiente error: &quot;No se encontró la dirección URL solicitada &#39;... &#39;.&quot;
+>Cuando se hace clic en una dirección URL firmada con formato incorrecto, se devuelve este error: &quot;No se encontró la dirección URL solicitada &#39;..&#39;.&quot;
 
-Además, a partir de la versión 20.2 y [!DNL Gold Standard] de Campaign, los clientes alojados e híbridos pueden utilizar una mejora para deshabilitar las direcciones URL generadas a partir de compilaciones anteriores. Esta opción está desactivada de forma predeterminada. Puede ponerse en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para habilitar esta función.
+Además, desde Campaign 20.2 y la versión [!DNL Gold Standard], puede utilizar una mejora para deshabilitar las direcciones URL generadas en versiones anteriores. Esta función está deshabilitada de forma predeterminada. Puede ponerse en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para habilitar esta función.
 
-Para activar este nuevo mecanismo, los clientes locales deben seguir estos pasos en todos los servidores de Campaign:
+Si está ejecutando [!DNL Gold Standard] 19.1.4, puede que tenga problemas con los envíos de notificaciones push mediante vínculos de seguimiento o con los envíos que utilizan etiquetas de anclaje. Si es así, se recomienda desactivar la firma de URL.
+
+Tanto si ejecuta Campaign en las instalaciones como en una arquitectura híbrida, debe ponerse en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para que se deshabilite la firma URL.
+
+Si está ejecutando Campaign en una arquitectura híbrida, antes de habilitar la firma de URL, asegúrese de que la instancia de mid-sourcing alojada se haya actualizado de la siguiente manera:
+* Antes de la instancia de marketing local
+* A la misma versión que la instancia de marketing local o a una versión ligeramente superior
+
+De lo contrario, podrían surgir algunos de estos problemas:
+* Antes de actualizar la instancia de intermediario, las direcciones URL se envían sin firma a través de esta instancia.
+* Una vez que la instancia de intermediario se ha actualizado y la firma de URL se ha habilitado en ambas instancias, las direcciones URL que se habían enviado anteriormente sin firma se rechazan. El motivo es que los archivos de seguimiento proporcionados por la instancia de marketing solicitan una firma.
+
+Para deshabilitar las direcciones URL que se han generado en versiones anteriores, siga estos pasos en todos los servidores de Campaign al mismo tiempo:
 
 1. En el archivo de configuración del servidor (serverConf.xml), cambie **blockRedirectForUnsignedTrackingLink** a **true**.
 1. Reinicie el servicio **nlserver**.
 1. En el servidor de seguimiento, reinicie el servidor web (apache2 en Debian, httpd en CentOS/RedHat, IIS en Windows).
 
-Los clientes que ejecutan [!DNL Gold Standard] 19.1.4 pueden experimentar problemas con los envíos de notificaciones push mediante el vínculo de seguimiento o con los envíos que utilizan etiquetas de anclaje. Si es así, Adobe recomienda desactivar el nuevo mecanismo de firma para el seguimiento de vínculos:
-
-**Los** clientes alojados e híbridos deben ponerse en contacto con el  [Servicio de ](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) atención al cliente para deshabilitar este mecanismo.
-
-**Los** clientes locales pueden seguir el paso siguiente:
+Para habilitar la firma de URL, siga estos pasos en todos los servidores de Campaign al mismo tiempo:
 
 1. En el archivo de configuración del servidor (serverConf.xml), cambie **signEmailLinks** a **false**.
 1. Reinicie el servicio **nlserver**.
