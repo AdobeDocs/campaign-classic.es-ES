@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
 exl-id: eb72f19a-7669-4596-bf9b-8c0ce22b67bf
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 100%
@@ -15,9 +15,9 @@ ht-degree: 100%
 
 # Acerca de los servicios y las suscripciones{#about-services-and-subscriptions}
 
-Adobe Campaign permite crear y administrar servicios informativos, como los boletines informativos, y gestionar las suscripciones a estos servicios. Se pueden definir varios servicios en paralelo, como, por ejemplo: boletines de prueba para determinadas categorías de productos, temas o áreas de un sitio web, suscripciones a diversos tipos de mensajes de alerta y notificaciones en tiempo real. Consulte [Administración de suscripciones](../../delivery/using/managing-subscriptions.md).
+Adobe Campaign permite crear y administrar servicios informativos, como los boletines informativos, y gestionar las suscripciones a estos servicios. Se pueden definir varios servicios en paralelo, como, por ejemplo: boletines de prueba para determinadas categorías de productos, temas o áreas de un sitio web, suscripciones a diversos tipos de mensajes de alerta y notificaciones en tiempo real. Consulte [Administración de suscripciones](managing-subscriptions.md).
 
-También puede permitir que los destinatarios de las entregas puedan compartirlos con miembros de su red social o profesional. Para ello, inserte los vínculos correspondientes en la entrega. Puede hacer un seguimiento de este proceso de uso compartido, así como del número de visitas a las páginas en cuestión. Para obtener más información sobre esto, consulte [Marketing viral y social](../../delivery/using/viral-and-social-marketing.md).
+También puede permitir que los destinatarios de las entregas puedan compartirlos con miembros de su red social o profesional. Para ello, inserte los vínculos correspondientes en la entrega. Puede hacer un seguimiento de este proceso de uso compartido, así como del número de visitas a las páginas en cuestión. Para obtener más información sobre esto, consulte [Marketing viral y social](viral-and-social-marketing.md).
 
 >[!NOTE]
 >
