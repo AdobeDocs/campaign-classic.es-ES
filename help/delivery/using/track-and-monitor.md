@@ -5,7 +5,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 Para controlar sus campañas, debe asegurarse de que el mensaje se haya enviado a sus destinatarios.
 
 Desde el panel de envíos de Campaign, puede comprobar los mensajes procesados y los registros de auditoría de envíos.
-También puede controlar el estado de los mensajes en los registros de envío. [Más información](../../delivery/using/about-delivery-monitoring.md).
+También puede controlar el estado de los mensajes en los registros de envío. [Más información](about-delivery-monitoring.md).
 
 ¿Qué sucede si no se entregan los envíos y su estado sigue siendo **Pendiente**?
 
@@ -41,7 +41,7 @@ Para conocer mejor el comportamiento de sus destinatarios, puede rastrear cómo 
 
 **Sugerencia**: El seguimiento de mensajes está activado de forma predeterminada. Para configurar direcciones URL, seleccione la opción Mostrar direcciones URL en la sección inferior del asistente de envíos. Por cada dirección URL del mensaje, puede elegir si desea activar el seguimiento.
 
-Para obtener más información sobre esto, consulte la sección [Configuración del seguimiento](../../delivery/using/how-to-configure-tracked-links.md) y la descripción de los [Indicadores de seguimiento](../../reporting/using/delivery-reports.md#tracking-indicators).
+Para obtener más información sobre esto, consulte la sección [Configuración del seguimiento](how-to-configure-tracked-links.md) y la descripción de los [Indicadores de seguimiento](../../reporting/using/delivery-reports.md#tracking-indicators).
 
 ## Rendimiento de envíos {#delivery-performances}
 
@@ -55,7 +55,7 @@ Para medir la velocidad a la que se entregan los mensajes, puede controlar el re
 
 * Evite programar entregas grandes al mismo tiempo. Tenga en cuenta que la carga puede tardar entre 5 y 10 minutos en propagarse uniformemente en el sistema.
 
-## Solución de problemas de envío {#delivery-troubleshooting}
+## Solución de problemas de entrega {#delivery-troubleshooting}
 
 Se pueden realizar acciones específicas al encontrar problemas con envíos:
 
@@ -63,6 +63,6 @@ Se pueden realizar acciones específicas al encontrar problemas con envíos:
 
 * [Problemas de visualización de imágenes](../../production/using/image-display-issues.md)
 
-* [Problemas de rendimiento de envíos](../../delivery/using/delivery-performances.md)
+* [Problemas de rendimiento de envíos](delivery-performances.md)
 
 * [Problemas con archivos temporales](../../production/using/temporary-files.md): *solo clientes in situ*
