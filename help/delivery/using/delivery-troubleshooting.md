@@ -6,36 +6,36 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 100%
 
 ---
 
-# Solución de problemas con entregas{#delivery-troubleshooting}
+# Solución de problemas con entregas {#delivery-troubleshooting}
 
 Esta sección lista problemas comunes que pueden surgir al realizar entregas y cómo solucionarlos.
 
-Además, debe asegurarse de seguir las optimizaciones y la lista de comprobación detallada en [esta página](../../delivery/using/delivery-performances.md) para asegurarse de que sus entregas funcionan bien.
+Además, debe asegurarse de seguir las optimizaciones y la lista de comprobación detallada en [esta página](delivery-performances.md) para asegurarse de que sus entregas funcionan bien.
 
 **Temas relacionados:**
 
-* [Estados de entrega](../../delivery/using/delivery-statuses.md)
-* [Tablero de entregas](../../delivery/using/delivery-dashboard.md)
-* [Comprensión de los errores de entrega](../../delivery/using/understanding-delivery-failures.md)
+* [Estados de entrega](delivery-statuses.md)
+* [Tablero de entregas](delivery-dashboard.md)
+* [Comprensión de los errores de entrega](understanding-delivery-failures.md)
 
 ## Entregas lentas {#slow-deliveries}
 
 Tras hacer clic en el botón **[!UICONTROL Send]**, la entrega parece tardar más de lo normal. Esto puede deberse a diferentes elementos:
 
-* Es posible que algunos proveedores de correo electrónico hayan agregado sus direcciones IP a una lista de bloqueados. En este caso, compruebe sus broadlogs y consulte [esta sección](../../delivery/using/about-deliverability.md).
+* Es posible que algunos proveedores de correo electrónico hayan agregado sus direcciones IP a una lista de bloqueados. En este caso, compruebe sus broadlogs y consulte [esta sección](about-deliverability.md).
 
-* Su entrega puede ser demasiado grande como para procesarlo rápidamente, como puede ser el caso de una alta personalización de JavaScript o si su entrega pesa más de 60 kB. Consulte las [prácticas recomendadas relacionadas con las entregas](../../delivery/using/delivery-best-practices.md) de Adobe Campaign para obtener más información sobre las directrices de contenido.
+* Su entrega puede ser demasiado grande como para procesarlo rápidamente, como puede ser el caso de una alta personalización de JavaScript o si su entrega pesa más de 60 kB. Consulte las [prácticas recomendadas relacionadas con las entregas](delivery-best-practices.md) de Adobe Campaign para obtener más información sobre las directrices de contenido.
 
 * Es posible que se haya activado una restricción dentro del MTA de Adobe Campaign. Esto se debe a:
 
-   * Mensajes pendientes (mensaje **[!UICONTROL quotas met]**): se han cumplido las cuotas declaradas por las reglas de MX definidas en Campaign. Para obtener más información acerca de este mensaje, consulte [esta página](../../delivery/using/deliverability-faq.md). Para obtener más información acerca de las reglas MX, consulte [esta sección](../../installation/using/email-deliverability.md#about-mx-rules).
+   * Mensajes pendientes (mensaje **[!UICONTROL quotas met]**): se han cumplido las cuotas declaradas por las reglas de MX definidas en Campaign. Para obtener más información acerca de este mensaje, consulte [esta página](deliverability-faq.md). Para obtener más información acerca de las reglas MX, consulte [esta sección](../../installation/using/email-deliverability.md#about-mx-rules).
 
    * Mensajes pendientes (mensaje **[!UICONTROL dynamic flow control]**): el MTA de Campaign ha detectado errores al intentar enviar mensajes para un ISP determinado, lo que provoca una ralentización para evitar una gran densidad de errores y, por lo tanto, la posible inclusión en una lista de bloqueados.
 
