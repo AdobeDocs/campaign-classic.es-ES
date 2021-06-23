@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: 615b56c5f4362b0f47ec5700be7d170c0e108f4c
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 90%
@@ -15,7 +15,7 @@ ht-degree: 90%
 
 # Creación de notificaciones para iOS{#create-notifications-ios}
 
-Esta sección detalla los elementos específicos para la entrega de notificaciones de iOS. En [esta sección](../../delivery/using/steps-about-delivery-creation-steps.md) se exponen conceptos globales sobre la creación de envíos.
+Esta sección detalla los elementos específicos para la entrega de notificaciones de iOS. En [esta sección](steps-about-delivery-creation-steps.md) se exponen conceptos globales sobre la creación de envíos.
 
 Comience creando una nueva entrega.
 
@@ -37,7 +37,7 @@ Para crear una notificación push para dispositivos iOS, siga los pasos a contin
    >
    >Para obtener más información sobre el uso de los campos de personalización, consulte [esta sección](about-personalization.md).
    >
-   >Para obtener más información sobre la integración de una lista de reasignación, consulte [Acerca de las direcciones semilla](../../delivery/using/about-seed-addresses.md)
+   >Para obtener más información sobre la integración de una lista de reasignación, consulte [Acerca de las direcciones semilla](about-seed-addresses.md)
 
 1. Seleccione **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]**, seleccione el servicio correspondiente a su aplicación móvil (Neotrips, en este caso) y luego seleccione la versión de iOS de la aplicación.
 
@@ -63,7 +63,7 @@ Para crear una notificación push para dispositivos iOS, siga los pasos a contin
    >
    >Las notificaciones de tipo **[!UICONTROL Badge]** y **[!UICONTROL Alert and badge]** permiten modificar el valor del distintivo (el número situado encima del logotipo de la aplicación móvil). Para actualizar el distintivo, sencillamente debe introducir 0 como valor. Si el campo está vacío, el valor de la insignia no cambia.
 
-1. Haga clic en el icono **[!UICONTROL Insert emoticon]** para insertar emoticonos en la notificación push. Para personalizar la lista de emoticonos, consulte [esta sección](../../delivery/using/customizing-emoticon-list.md)
+1. Haga clic en el icono **[!UICONTROL Insert emoticon]** para insertar emoticonos en la notificación push. Para personalizar la lista de emoticonos, consulte [esta sección](customizing-emoticon-list.md)
 
 1. **[!UICONTROL Action button]** le permite definir una etiqueta para el botón de acción que aparece en las notificaciones de alerta (campo **action_loc_key** de la carga útil). Si la aplicación de iOS administra cadenas localizables (**Localizable.strings**), introduzca la clave correspondiente en este campo. Si la aplicación no administra texto localizable, introduzca la etiqueta que desea ver en el botón de acción. Para obtener más información sobre cadenas localizables, consulte la [documentación de Apple](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1).
 1. En el campo **[!UICONTROL Play a sound]**, seleccione el sonido que el terminal móvil debe reproducir cuando reciba la notificación.
@@ -92,12 +92,12 @@ Para enviar una prueba y realizar la entrega final, utilice el mismo proceso que
 
 Después de enviar mensajes, puede monitorizar y realizar un seguimiento de las entregas. Para obtener más información, consulte estas secciones:
 
-* [Cuarentena de notificaciones push](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)
-* [Seguimiento de una entrega](../../delivery/using/about-delivery-monitoring.md)
-* [Comprensión de los errores de entrega](../../delivery/using/understanding-delivery-failures.md)
+* [Cuarentena de notificaciones push](understanding-quarantine-management.md#push-notification-quarantines)
+* [Seguimiento de una entrega](about-delivery-monitoring.md)
+* [Comprensión de los errores de entrega](understanding-delivery-failures.md)
 
 
-## Crear una notificación enriquecida de iOS {#creating-ios-delivery}
+## Creación de una notificación enriquecida de iOS {#creating-ios-delivery}
 
 Con iOS 10 o posterior, es posible generar notificaciones rich. Adobe Campaign puede enviar notificaciones mediante variables que permiten al dispositivo mostrar una notificación rich.
 
