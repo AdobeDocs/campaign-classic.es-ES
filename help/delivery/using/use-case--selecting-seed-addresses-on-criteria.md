@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 100%
@@ -30,7 +30,7 @@ Para utilizar la condición dinámica, se debe contar con:
 
 ## Paso 1: Creación de una entrega {#step-1---creating-a-delivery}
 
-Los pasos para crear una entrega se detallan en la sección [Creación de una entrega por correo electrónico](../../delivery/using/creating-an-email-delivery.md).
+Los pasos para crear una entrega se detallan en la sección [Creación de una entrega por correo electrónico](creating-an-email-delivery.md).
 
 En este ejemplo, el administrador de envíos ha creado el boletín informativo y ha seleccionado los destinatarios.
 
