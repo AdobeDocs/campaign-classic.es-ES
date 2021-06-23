@@ -5,7 +5,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
@@ -24,9 +24,9 @@ Antes de entregar un envío, debe asegurarse de que sus destinatarios recibirán
 
 Este paso le permite detectar posibles errores y corregirlos antes de enviarlos a su destinatario principal.
 
-Los pasos para validar un envío se presentan [en esta sección](../../delivery/using/steps-validating-the-delivery.md).
+Los pasos para validar un envío se presentan [en esta sección](steps-validating-the-delivery.md).
 
-## Renderización de la bandeja de entrada {#inbox-and-email-rendering}
+## Procesamiento de la bandeja de entrada {#inbox-and-email-rendering}
 
 El procesamiento de la bandeja de entrada le permite realizar previsualizaciones de sus mensajes en los principales clientes de correo electrónico, analizar el contenido y la reputación, y descubrir cómo leen los destinatarios los mensajes.
 
@@ -36,13 +36,13 @@ El procesamiento de la bandeja de entrada le permite realizar previsualizaciones
 
 * Las funciones de renderización de la bandeja de entrada son esenciales para identificar si las campañas de correo electrónico superan correctamente los filtros de los principales ISP (proveedores de servicios de Internet) y servicios de correo electrónico. Estas herramientas envían una copia de un mensaje de correo electrónico a una red de bandejas de entrada de prueba, lo que le permite ver cómo se muestra el mensaje o cómo se renderiza en estos servicios. También pueden incluir informes y opciones de corrección de código que le ayudan a identificar y realizar correcciones con rapidez para mejorar la capacidad de envío.
 
-Obtenga más información [en esta sección](../../delivery/using/inbox-rendering.md).
+Obtenga más información [en esta sección](inbox-rendering.md).
 
 ## Mensajes de prueba {#proof-messages}
 
 El envío de pruebas le permite comprobar el vínculo de no participación, la página espejo y cualquier otro vínculo, validar el mensaje, comprobar que se muestran las imágenes, detectar posibles errores, etc. También es posible que desee comprobar el diseño y el procesamiento en distintos dispositivos.
 
-Obtenga más información [en esta sección](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+Obtenga más información [en esta sección](steps-validating-the-delivery.md#sending-a-proof).
 
 ## Configuración de envíos de pruebas A/B {#a-b-testing-deliveries}
 
@@ -54,7 +54,7 @@ Si tiene varios contenidos para un envío de correo electrónico, puede utilizar
 
 * Seleccione el que tenga la tasa de éxito más alta y envíelo al resto de destinatarios
 
-Obtenga más información [en esta sección](../../delivery/using/get-started-a-b-testing.md).
+Obtenga más información [en esta sección](get-started-a-b-testing.md).
 
 ## Asegúrese de que el mensaje se haya enviado {#make-sure-your-message-is-delivered}
 
@@ -66,7 +66,7 @@ Puede definir un proceso de validación completo, que incluye los operadores y g
 
 ### Uso de oleadas
 
-Puede aumentar progresivamente el volumen enviado mediante oleadas. Esto evitará que sus mensajes se marquen como correo no deseado o para limitar el número de mensajes por día. Mediante las oleadas puede dividir los envíos en varios lotes en lugar de enviar volúmenes altos de mensajes al mismo tiempo. Obtenga más información [en esta sección](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves).
+Puede aumentar progresivamente el volumen enviado mediante oleadas. Esto evitará que sus mensajes se marquen como correo no deseado o para limitar el número de mensajes por día. Mediante las oleadas puede dividir los envíos en varios lotes en lugar de enviar volúmenes altos de mensajes al mismo tiempo. Obtenga más información [en esta sección](steps-sending-the-delivery.md#sending-using-multiple-waves).
 
 ### Priorización de mensajes
 
