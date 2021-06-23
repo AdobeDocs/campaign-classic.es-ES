@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: 8be6836d-f7dc-4199-b2b2-b6a9cac9d162
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
@@ -37,7 +37,7 @@ SpamAssassin aprovecha diversas técnicas de detección de correo no deseado par
 
 Una vez que haya creado su envío de correo electrónico y haya definido su contenido, siga los pasos a continuación para evaluar los riesgos.
 
-Para obtener más información sobre la creación y configuración de los servicios de información, consulte [esta sección](../../delivery/using/about-email-channel.md).
+Para obtener más información sobre la creación y configuración de los servicios de información, consulte [esta sección](about-email-channel.md).
 
 1. Vaya a la pestaña **[!UICONTROL Preview]**.
 1. Seleccione un destinatario para obtener una previsualización de la entrega.
