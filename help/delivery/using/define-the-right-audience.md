@@ -5,7 +5,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: c0533148-b027-4158-9b95-8d2df769e963
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 La población objetivo es clave: cree sus listas con cuidado, pruebe sus correos electrónicos con clientes de correo electrónico y dispositivos móviles populares, y asegúrese de que sus listas de correos electrónicos estén actualizadas (sin direcciones desconocidas u obsoletas). También puede enviar pruebas que ayuden a configurar un ciclo de validación completo.
 
-Aprenda más sobre las poblaciones objetivo [en esta sección](../../delivery/using/steps-defining-the-target-population.md)
+Aprenda más sobre las poblaciones objetivo [en esta sección](steps-defining-the-target-population.md)
 
 ## Selección de la audiencia destino correcta {#target-the-right-audience}
 
@@ -30,26 +30,26 @@ En Campaign Classic, de forma predeterminada, las plantillas de envíos se dirig
 
 Por ejemplo, puede enviar a visitantes cuyos perfiles se hayan recopilado a través de redes sociales o a visitantes suscritos a un servicio informativo.
 
-Estas asignaciones se presentan [en esta sección](../../delivery/using/selecting-a-target-mapping.md).
+Estas asignaciones se presentan [en esta sección](selecting-a-target-mapping.md).
 
 También puede crear y utilizar una asignación de destino personalizada. Para obtener más información, consulte [esta sección](../../configuration/using/target-mapping.md).
 
 ## Destinatarios externos {#external-recipients}
 
-Puede enviar a destinatarios que estén almacenados en un archivo externo en lugar de guardarlos en la base de datos. Obtenga más información [en esta sección](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
+Puede enviar a destinatarios que estén almacenados en un archivo externo en lugar de guardarlos en la base de datos. Obtenga más información [en esta sección](steps-defining-the-target-population.md#selecting-external-recipients).
 
 ## Envíos a suscriptores {#send-to-subscribers}
 
-Para enviar mensajes a los suscriptores de una newsletter, puede enviar directamente a los destinatarios de los suscriptores al servicio informativo correspondiente. Obtenga más información [en esta sección](../../delivery/using/managing-subscriptions.md#delivering-to-the-subscribers-of-a-service).
+Para enviar mensajes a los suscriptores de una newsletter, puede enviar directamente a los destinatarios de los suscriptores al servicio informativo correspondiente. Obtenga más información [en esta sección](managing-subscriptions.md#delivering-to-the-subscribers-of-a-service).
 
 
 ## Destinatarios y direcciones semilla de prueba {#test-recipients-seed-addresses}
 
 Para probar el envío, utilice pruebas antes de enviar al destinatario principal.
 
-Asegúrese de seleccionar los destinatarios de prueba adecuados, ya que validan el formulario y el contenido del mensaje. Los pasos para definir los destinatarios de prueba se presentan [en esta sección](../../delivery/using/steps-defining-the-target-population.md#selecting-the-proof-target).
+Asegúrese de seleccionar los destinatarios de prueba adecuados, ya que validan el formulario y el contenido del mensaje. Los pasos para definir los destinatarios de prueba se presentan [en esta sección](steps-defining-the-target-population.md#selecting-the-proof-target).
 
-Las direcciones semilla se utilizan para dirigirse a los destinatarios que no coinciden con los criterios de destino definidos para probar un envío antes de enviarlo al destinatario principal. Se muestran [en esta sección](../../delivery/using/about-seed-addresses.md).
+Las direcciones semilla se utilizan para dirigirse a los destinatarios que no coinciden con los criterios de destino definidos para probar un envío antes de enviarlo al destinatario principal. Se muestran [en esta sección](about-seed-addresses.md).
 
 ## Deduplicación de direcciones {#deduplicate-addresses}
 
