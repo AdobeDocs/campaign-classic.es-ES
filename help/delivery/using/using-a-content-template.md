@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
@@ -31,7 +31,7 @@ El diseño se aplica automáticamente en función de la configuración seleccion
 
 ![](assets/s_ncs_content_deliver_a_content_html.png)
 
-Para obtener más información sobre esto, consulte el ejemplo de implementación completa: [Creación de contenido en el asistente de envío](../../delivery/using/use-case--creating-content-management.md#creating-content-in-the-delivery-wizard).
+Para obtener más información sobre esto, consulte el ejemplo de implementación completa: [Creación de contenido en el asistente de envío](use-case--creating-content-management.md#creating-content-in-the-delivery-wizard).
 
 ## Creación de una instancia de contenido {#creating-a-content-instance}
 
@@ -69,13 +69,13 @@ Siga estos pasos:
 
    >[!NOTE]
    >
-   >Se puede autorizar la generación de contenido no aceptado. Para ello, cambie la opción correspondiente en la plantilla de publicación. Para más información, consulte [Creación y configuración de la plantilla](../../delivery/using/publication-templates.md#creating-and-configuring-the-template).
+   >Se puede autorizar la generación de contenido no aceptado. Para ello, cambie la opción correspondiente en la plantilla de publicación. Para más información, consulte [Creación y configuración de la plantilla](publication-templates.md#creating-and-configuring-the-template).
 
    El HTML y los contenidos de texto se generan de forma predeterminada en la carpeta **publishing** de la instancia de Adobe Campaign. Se puede cambiar la carpeta de publicación gracias a la opción **NcmPublishingDir**.
 
 ## Entrega de una instancia de contenido {#delivering-a-content-instance}
 
-Para crear y enviar una instancia de contenido, se debe vincular una plantilla de envío a la plantilla de publicación utilizada para generar dicho contenido. Para obtener más información, consulte [Entrega](../../delivery/using/publication-templates.md#delivery).
+Para crear y enviar una instancia de contenido, se debe vincular una plantilla de envío a la plantilla de publicación utilizada para generar dicho contenido. Para obtener más información, consulte [Entrega](publication-templates.md#delivery).
 
 Además, la carpeta de almacenamiento de contenido debe estar dedicada a contenido tomado de esta plantilla de publicación (cuando una carpeta de contenido permite generar varios tipos de contenido, no se pueden crear envíos de forma automática).
 
