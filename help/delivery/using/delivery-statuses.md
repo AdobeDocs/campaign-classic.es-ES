@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 100%
@@ -23,13 +23,13 @@ Una vez que realizada una entrega, el panel de entregas muestra un estado que le
 
 ![](assets/delivery-status.png)
 
-Para obtener más información sobre los diferentes errores de entrega que pueden surgir y cómo resolverlos, consulte [esta página](../../delivery/using/understanding-delivery-failures.md).
+Para obtener más información sobre los diferentes errores de entrega que pueden surgir y cómo resolverlos, consulte [esta página](understanding-delivery-failures.md).
 
 **Temas relacionados:**
 
-* [Tablero de entregas](../../delivery/using/delivery-dashboard.md)
-* [Solución de problemas de entrega](../../delivery/using/delivery-troubleshooting.md)
-* [Acerca de la capacidad de la entrega](../../delivery/using/about-deliverability.md)
+* [Tablero de entregas](delivery-dashboard.md)
+* [Solución de problemas de entrega](delivery-troubleshooting.md)
+* [Acerca de la capacidad de la entrega](about-deliverability.md)
 
 ## Lista de estados de entrega {#list-delivery-statuses}
 
@@ -51,7 +51,7 @@ Para obtener más información sobre los diferentes errores de entrega que puede
   </tr> 
   <tr> 
    <td> Error<br /> </td> 
-   <td> La entrega no ha podido llegar al destinatario debido a una dirección no válida o a que la bandeja de entrada estaba llena. También puede estar relacionado con un problema con los bloques de personalización, ya que pueden generar errores cuando los esquemas no coinciden con la asignación de entregas. Consulte <a href="../../delivery/using/understanding-delivery-failures.md" target="_blank">Comprensión de los errores de entrega</a><br /> </td> 
+   <td> La entrega no ha podido llegar al destinatario debido a una dirección no válida o a que la bandeja de entrada estaba llena. También puede estar relacionado con un problema con los bloques de personalización, ya que pueden generar errores cuando los esquemas no coinciden con la asignación de entregas. Consulte <a href="understanding-delivery-failures.md" target="_blank">Comprensión de los errores de entrega</a><br /> </td> 
   </tr>
   <tr> 
    <td> Pendiente<br /> </td> 
@@ -67,7 +67,7 @@ Para obtener más información sobre los diferentes errores de entrega que puede
   </tr> 
   <tr> 
    <td> El proveedor de servicios lo tiene en cuenta<br /> </td> 
-   <td> El proveedor de servicios SMS recibió el envío.<br /> En el caso de instalaciones hospedadas o híbridas, si se ha actualizado al servidor de correo <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank"> </a>mejorado, el mensaje se ha retransmitido correctamente desde Campaign al servidor de correo mejorado.</td> 
+   <td> El proveedor de servicios SMS recibió el envío.<br /> En el caso de instalaciones hospedadas o híbridas, si se ha actualizado al servidor de correo <a href="sending-with-enhanced-mta.md" target="_blank"> </a>mejorado, el mensaje se ha retransmitido correctamente desde Campaign al servidor de correo mejorado.</td> 
   </tr> 
   <tr> 
    <td> Se ha recibido en dispositivos móviles<br /> </td> 
@@ -85,13 +85,13 @@ Para obtener más información sobre los diferentes errores de entrega que puede
  </tbody> 
 </table>
 
-Para aprender a optimizar la entrega de los correos electrónicos de Adobe Campaign, consulte [esta sección](../../delivery/using/about-deliverability.md). Para profundizar en la capacidad de entrega, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es).
+Para aprender a optimizar la entrega de los correos electrónicos de Adobe Campaign, consulte [esta sección](about-deliverability.md). Para profundizar en la capacidad de entrega, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es).
 
 ## Estado pendiente {#pending-status}
 
 Después de confirmar la entrega, puede ver que el estado del mismo es **[!UICONTROL Pending]**. Este estado significa que el proceso de ejecución está esperando a que estén disponibles algunos recursos.
 
-El estado **[!UICONTROL Pending]** puede significar en primer lugar que la entrega se ha programado y está pendiente hasta la fecha determinada. Para obtener más información, consulte la sección [Programación de entregas](../../delivery/using/steps-sending-the-delivery.md#scheduling-the-delivery-sending).
+El estado **[!UICONTROL Pending]** puede significar en primer lugar que la entrega se ha programado y está pendiente hasta la fecha determinada. Para obtener más información, consulte la sección [Programación de entregas](steps-sending-the-delivery.md#scheduling-the-delivery-sending).
 
 Si la entrega no se realiza y su estado sigue siendo **[!UICONTROL Pending]**, puede deberse a uno de los siguientes motivos:
 
@@ -137,5 +137,5 @@ Si la entrega no se realiza y su estado sigue siendo **[!UICONTROL Pending]**, p
 **Temas relacionados:**
 
 * [Registros de entrega e historial](#delivery-logs-and-history)
-* [Comprensión de los errores de entrega](../../delivery/using/understanding-delivery-failures.md)
-* [Tipos y motivos de errores de entrega](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)
+* [Comprensión de los errores de entrega](understanding-delivery-failures.md)
+* [Tipos y motivos de errores de entrega](understanding-delivery-failures.md#delivery-failure-types-and-reasons)
