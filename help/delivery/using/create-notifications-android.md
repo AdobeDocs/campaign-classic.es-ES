@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: fb2f1769aadbc128d76f343a5fa58ee4e3bda72a
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 94%
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 # Creación de notificaciones para Android{#create-notificaations-android}
 
-Utilice Adobe Campaign para enviar notificaciones push a dispositivos Android. En [esta sección](../../delivery/using/steps-about-delivery-creation-steps.md) se exponen conceptos globales sobre la creación de envíos.
+Utilice Adobe Campaign para enviar notificaciones push a dispositivos Android. En [esta sección](steps-about-delivery-creation-steps.md) se exponen conceptos globales sobre la creación de envíos.
 
 Comience creando una nueva entrega.
 
@@ -31,7 +31,7 @@ Con Firebase Cloud Messaging, puede elegir entre dos tipos de mensajes:
 
 Para obtener más información sobre los tipos de mensajes de Firebase Cloud Messaging, consulte la documentación [de FCM](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages).
 
-## Crear un mensaje de datos {#creating-data-message}
+## Creación de un mensaje de datos {#creating-data-message}
 
 1. Vaya a **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
 
@@ -66,11 +66,11 @@ La imagen y la página web deberían aparecer en la notificación push cuando se
 
 ![](assets/nmac_android_4.png)
 
-## Crear un mensaje de notificación {#creating-notification-message}
+## Creación de un mensaje de notificación {#creating-notification-message}
 
 >[!NOTE]
 >
->Las opciones adicionales para los mensajes de notificación solo están disponibles con la configuración de la API HTTP v1. Para obtener más información, consulte [esta sección](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
+>Las opciones adicionales para los mensajes de notificación solo están disponibles con la configuración de la API HTTP v1. Para obtener más información, consulte [esta sección](configuring-the-mobile-application-android.md#android-service-httpv1).
 
 ![](assets/do-not-localize/how-to-video.png) [Obtenga información sobre cómo crear una notificación push de Android con este vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html?lang=es#additional-resources)
 
