@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 0a80912aae4cab58b6f06918a673aaca3883fbdf
 workflow-type: tm+mt
 source-wordcount: '2415'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Administración de solicitudes de privacidad {#privacy-requests}
 
-Para una presentación general sobre la Administración de la privacidad, consulte [esta sección](../../platform/using/privacy-management.md).
+Para una presentación general sobre la Gestión de la privacidad, consulte esta [sección](../../platform/using/privacy-management.md).
 
 Esta información se aplica al RGPD, la CCPA, la PDPA y la LGPD. Para obtener más información sobre estas normativas, consulte [esta sección](../../platform/using/privacy-management.md#privacy-management-regulations).
 
@@ -25,7 +25,7 @@ La opción de exclusión de la Venta de información personal, que es específic
 
 ## Acerca de las solicitudes de privacidad {#about-privacy-requests}
 
-Para facilitarle la preparación de la privacidad, Adobe Campaign le permite gestionar solicitudes de acceso y eliminación. El **derecho al acceso** y el **derecho a ser olvidado** (solicitud de eliminación) se describen en [esta sección](../../platform/using/privacy-management.md#right-access-forgotten).
+Para ayudarle a facilitar su preparación para la privacidad, Adobe Campaign le permite gestionar solicitudes de acceso y eliminación. El **derecho al acceso** y el **derecho a ser olvidado** (solicitud de eliminación) se describen en [esta sección](../../platform/using/privacy-management.md#right-access-forgotten).
 
 Veamos cómo se pueden crear solicitudes de Acceso y Eliminación, y también cómo las procesa Adobe Campaign.
 
@@ -165,7 +165,7 @@ La información está disponible en la base de datos durante 90 días. Una vez q
 
 Este es un ejemplo del archivo de datos de un sujeto de datos:
 
-![](assets/privacy-access-file.png)
+![](assets/do-not-localize/privacy-access-file.png)
 
 Los controladores de datos pueden crear fácilmente una aplicación web que incluya la URL de JSSP correspondiente para que el archivo de datos del sujeto de datos esté disponible desde una página web.
 
@@ -257,7 +257,7 @@ En primer lugar, debe realizar la autenticación mediante la API:
 
 1. Utilice el método &quot;Logon&quot; y pase un nombre de usuario y una contraseña como parámetros en la solicitud. Recibirá una respuesta que contenga un token de sesión. A continuación, se muestra un ejemplo con SoapUI.
 
-   ![](assets/privacy-api.png)
+   ![](assets/do-not-localize/privacy-api.png)
 
 1. Utilice el token de sesión devuelto como autenticación para todas las llamadas de API posteriores. Caduca a las 24 horas.
 
@@ -269,7 +269,7 @@ A continuación, invoque la API de privacidad:
 
    A continuación, se muestra un ejemplo con **[!UICONTROL CreateRequestByName]**. Observe cómo se utiliza el token de sesión proporcionado arriba como autenticación. La respuesta es el ID de la solicitud creada.
 
-   ![](assets/privacy-api-2.png)
+   ![](assets/do-not-localize/privacy-api-2.png)
 
    Para que pueda realizar los pasos anteriores, tenga en cuenta lo siguiente:
 
@@ -388,7 +388,7 @@ Para que esto funcione, debe ampliar la tabla Perfiles y agregar un campo de **[
 
 >[!IMPORTANT]
 >
->Como controlador de datos, es su responsabilidad recibir la solicitud del sujeto de datos y realizar un seguimiento de las fechas de solicitud para CCPA. Como proveedor de tecnología, solo ofrecemos una manera de optar por la exclusión. Para obtener más información sobre su función como controlador de datos, consulte [Datos personales y Personas](../../platform/using/privacy-and-recommendations.md#personal-data).
+>Como controlador de datos, es su responsabilidad recibir la solicitud del sujeto de datos y realizar un seguimiento de las fechas de solicitud para CCPA. Como proveedor de tecnología, solo ofrecemos una manera de optar por la exclusión. Para obtener más información sobre su función como controlador de datos, consulte Datos [personales y Personas](../../platform/using/privacy-and-recommendations.md#personal-data).
 
 ### Requisito previo {#ccpa-prerequisite}
 
