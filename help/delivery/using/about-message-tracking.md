@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 100%
@@ -19,7 +19,7 @@ Gracias a sus funciones de seguimiento, Adobe Campaign le permite realizar un se
 
 Esta información se recupera en la pestaña **[!UICONTROL Tracking]** del perfil de cada destinatario de la entrega. Esta pestaña presenta todos los vínculos de URL rastreados y seleccionados por el destinatario seleccionado de la lista. Esta es la acumulación de todas las direcciones URL rastreadas en las entregas que aún están presentes en la pantalla de envío. La lista se puede configurar y normalmente contiene: la dirección URL donde se hizo clic, la fecha y la hora del clic y el documento en el que se encontró la URL. Para obtener más información, consulte [esta sección](../../platform/using/editing-a-profile.md#tracking-tab).
 
-El **panel de envío** es fundamental para monitorizar los envíos y los problemas que se puedan detectar durante el envío de mensajes. Para obtener más información, consulte [esta sección](../../delivery/using/delivery-dashboard.md).
+El **panel de envío** es fundamental para monitorizar los envíos y los problemas que se puedan detectar durante el envío de mensajes. Para obtener más información, consulte [esta sección](delivery-dashboard.md).
 
 El siguiente diagrama muestra las etapas del diálogo entre el usuario y los distintos servidores.
 
@@ -47,23 +47,23 @@ Una vez configurado el seguimiento y completadas las direcciones URL, se debe re
 
 **Vínculos seguidos**
 
-Puede realizar un seguimiento de la recepción de mensajes y de la activación de los vínculos insertados en el contenido del mensaje para comprender mejor el comportamiento de los destinatarios. [Obtenga más información](../../delivery/using/how-to-configure-tracked-links.md)
+Puede realizar un seguimiento de la recepción de mensajes y de la activación de los vínculos insertados en el contenido del mensaje para comprender mejor el comportamiento de los destinatarios. [Obtenga más información](how-to-configure-tracked-links.md)
 
 **Seguimiento de URL**
 
-Las opciones de seguimiento se pueden configurar activando o desactivando las direcciones URL rastreadas. [Obtenga más información](../../delivery/using/personalizing-url-tracking.md)
+Las opciones de seguimiento se pueden configurar activando o desactivando las direcciones URL rastreadas. [Obtenga más información](personalizing-url-tracking.md)
 
 **Personalización de vínculos rastreados**
 
-Las funciones de seguimiento de Campaign Classic le permiten añadir vínculos en correos electrónicos que se pueden personalizar y que admiten el seguimiento. [Obtenga más información](../../delivery/using/tracking-personalized-links.md)
+Las funciones de seguimiento de Campaign Classic le permiten añadir vínculos en correos electrónicos que se pueden personalizar y que admiten el seguimiento. [Obtenga más información](tracking-personalized-links.md)
 
 **Registros de seguimiento**
 
-El flujo de trabajo técnico de seguimiento recupera los datos de seguimiento una vez que se ha enviado el envío y se ha activado el seguimiento. Estos datos se encuentran en la pestaña Seguimiento del envío. [Obtenga más información](../../delivery/using/accessing-the-tracking-logs.md)
+El flujo de trabajo técnico de seguimiento recupera los datos de seguimiento una vez que se ha enviado el envío y se ha activado el seguimiento. Estos datos se encuentran en la pestaña Seguimiento del envío. [Obtenga más información](accessing-the-tracking-logs.md)
 
 **Seguimiento de pruebas**
 
-Antes de enviar los mensajes con el seguimiento, puede probar el seguimiento en su página espejo, los registros de correo electrónico y los vínculos. [Obtenga más información](../../delivery/using/testing-tracking.md)
+Antes de enviar los mensajes con el seguimiento, puede probar el seguimiento en su página espejo, los registros de correo electrónico y los vínculos. [Obtenga más información](testing-tracking.md)
 
 ## Seguimiento de aplicaciones web {#web-application-tracking}
 
@@ -105,7 +105,7 @@ Las distintas tablas proporcionan la lista de los indicadores utilizados en los 
 
 <img src="assets/do-not-localize/icon-troubleshooting.svg" width="60px">
 
-Las siguientes sugerencias de solución de problemas le ayudarán a resolver los problemas más comunes que se producen al utilizar el seguimiento en Adobe Campaign Classic. Para obtener información sobre la solución de problemas más avanzada, consulte [esta sección](../../delivery/using/tracking-troubleshooting.md).
+Las siguientes sugerencias de solución de problemas le ayudarán a resolver los problemas más comunes que se producen al utilizar el seguimiento en Adobe Campaign Classic. Para obtener información sobre la solución de problemas más avanzada, consulte [esta sección](tracking-troubleshooting.md).
 
 * Compruebe que el proceso trackinglogd se está ejecutando
 
