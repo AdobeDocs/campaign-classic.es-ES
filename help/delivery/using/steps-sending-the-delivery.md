@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 100%
@@ -41,13 +41,13 @@ Antes de realizar el envío, se pueden definir los parámetros de envío en las 
    >
    >No se recomienda utilizar esta opción al instalar usando un intermediario para no llamar al servidor de correo. Para obtener más información sobre la configuración de un servidor SMTP, consulte [esta sección](../../installation/using/configure-delivery-settings.md).
 
-* **[!UICONTROL Email BCC]**: Esta opción permite almacenar correos electrónicos en un sistema externo como CCO simplemente añadiendo una dirección de correo electrónico CCO al objetivo del mensaje. Para obtener más información, consulte [esta sección](../../delivery/using/sending-messages.md#archiving-emails).
+* **[!UICONTROL Email BCC]**: Esta opción permite almacenar correos electrónicos en un sistema externo como CCO simplemente añadiendo una dirección de correo electrónico CCO al objetivo del mensaje. Para obtener más información, consulte [esta sección](sending-messages.md#archiving-emails).
 
 ## Confirmación del envío {#confirming-delivery}
 
 Una vez configurada la entrega y lista para enviarla, asegúrese de haber ejecutado el análisis de entrega.
 
-Para ello, haga clic en **[!UICONTROL Send]**, seleccione la acción que desee y haga clic en **[!UICONTROL Analyze]**. Para obtener más información sobre esto, consulte [Inicio del análisis](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+Para ello, haga clic en **[!UICONTROL Send]**, seleccione la acción que desee y haga clic en **[!UICONTROL Analyze]**. Para obtener más información sobre esto, consulte [Inicio del análisis](steps-validating-the-delivery.md#analyzing-the-delivery).
 
 ![](assets/s_ncs_user_email_del_send.png)
 
@@ -57,9 +57,9 @@ A continuación, se puede cerrar el asistente de envíos y realizar un seguimien
 
 Después de enviar mensajes, puede monitorizar y realizar un seguimiento de las entregas. Para obtener más información, consulte estas secciones:
 
-* [Seguimiento de una entrega](../../delivery/using/about-delivery-monitoring.md)
-* [Comprensión de los errores de entrega](../../delivery/using/understanding-delivery-failures.md)
-* [Acerca del seguimiento de mensajes](../../delivery/using/about-message-tracking.md)
+* [Seguimiento de una entrega](about-delivery-monitoring.md)
+* [Comprensión de los errores de entrega](understanding-delivery-failures.md)
+* [Acerca del seguimiento de mensajes](about-message-tracking.md)
 
 ## Programación de los envíos {#scheduling-the-delivery-sending}
 
@@ -131,15 +131,15 @@ Para equilibrar la carga, se pueden dividir los envíos en varios lotes. Configu
       En el siguiente ejemplo, la primera ola representa el 25 % del número total de mensajes incluidos en la entrega y se inicia inmediatamente. Las dos olas siguientes completan la entrega y se establecen para comenzar a intervalos de seis horas.
 
       ![](assets/s_ncs_user_wizard_waves_create.png)
-   Una regla de tipología específica, **[!UICONTROL Wave scheduling check]**, garantiza que la última ola se programe antes del límite de validez del envío. Las tipologías de campaña y sus reglas, configuradas en la pestaña **[!UICONTROL Typology]** de las propiedades de envío, se muestran en [Proceso de validación con tipologías](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
+   Una regla de tipología específica, **[!UICONTROL Wave scheduling check]**, garantiza que la última ola se programe antes del límite de validez del envío. Las tipologías de campaña y sus reglas, configuradas en la pestaña **[!UICONTROL Typology]** de las propiedades de envío, se muestran en [Proceso de validación con tipologías](steps-validating-the-delivery.md#validation-process-with-typologies).
 
    >[!IMPORTANT]
    >
    >Asegúrese de que las últimas olas no superen la fecha límite de envío, que se define en la pestaña **[!UICONTROL Validity]**. En caso contrario, es posible que algunos mensajes no se envíen.
    >
-   >Al configurar las últimas olas, se debe dejar un margen suficiente para realizar reintentos. Consulte [esta sección](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
+   >Al configurar las últimas olas, se debe dejar un margen suficiente para realizar reintentos. Consulte [esta sección](steps-sending-the-delivery.md#configuring-retries).
 
-1. Para supervisar sus envíos, vaya a los “logs” de entrega. Consulte [esta página](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
+1. Para supervisar sus envíos, vaya a los “logs” de entrega. Consulte [esta página](delivery-dashboard.md#delivery-logs-and-history).
 
    Se pueden ver los envíos que ya se han realizado en las olas procesadas (estado **[!UICONTROL Sent]**) y las que se envían en las olas restantes (estado **[!UICONTROL Pending]**).
 
@@ -167,11 +167,11 @@ Los siguientes dos ejemplos son los casos más comunes para usar varias olas.
 
 ## Configuración de los reintentos {#configuring-retries}
 
-Para los mensajes que no se hayan enviado temporalmente debido a un error **leve** o **ignorado**, se realiza un reintento automático. Los tipos y motivos del error de entrega se presentan en esta [sección](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+Para los mensajes que no se hayan enviado temporalmente debido a un error **leve** o **ignorado**, se realiza un reintento automático. Los tipos y motivos del error de entrega se presentan en esta [sección](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
 >[!IMPORTANT]
 >
->En el caso de instalaciones hospedadas o híbridas, si ha actualizado al [servidor de correo mejorado](../../delivery/using/sending-with-enhanced-mta.md), la configuración de reintentos de la entrega ya no se utiliza en Campaign. Los reintentos de rebote suave y el periodo entre ellos los determina el servidor de correo mejorado en función del tipo y la gravedad de las respuestas de devoluciones procedentes del dominio de correo electrónico del mensaje.
+>En el caso de instalaciones hospedadas o híbridas, si ha actualizado al [servidor de correo mejorado](sending-with-enhanced-mta.md), la configuración de reintentos de la entrega ya no se utiliza en Campaign. Los reintentos de rebote suave y el periodo entre ellos los determina el servidor de correo mejorado en función del tipo y la gravedad de las respuestas de devoluciones procedentes del dominio de correo electrónico del mensaje.
 
 En el caso de instalaciones on-premise e instalaciones hospedadas/híbridas que utilizan el servidor de correo de Campaign heredado, la sección central de la pestaña **[!UICONTROL Delivery]** para parámetros de envío indica cuántos reintentos deben realizarse al día siguiente del envío y el margen mínimo entre reintentos.
 
@@ -191,7 +191,7 @@ Una vez iniciado la entrega, se pueden enviar los mensajes (y los reintentos) ha
 
    >[!IMPORTANT]
    >
-   >En el caso de instalaciones hospedadas o híbridas, si se ha actualizado al [servidor de correo mejorado](../../delivery/using/sending-with-enhanced-mta.md), la configuración **[!UICONTROL Delivery duration]** en sus envíos de correo electrónico de Campaign se utilizará únicamente si se establece en **3,5 días o menos**. Si define un valor superior a 3,5 días, no se tendrá en cuenta.
+   >En el caso de instalaciones hospedadas o híbridas, si se ha actualizado al [servidor de correo mejorado](sending-with-enhanced-mta.md), la configuración **[!UICONTROL Delivery duration]** en sus envíos de correo electrónico de Campaign se utilizará únicamente si se establece en **3,5 días o menos**. Si define un valor superior a 3,5 días, no se tendrá en cuenta.
 
 * **Límite de validez de los recursos**: El campo **[!UICONTROL Validity limit]** se utiliza para los recursos cargados, principalmente para la página espejo y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado (para ahorrar espacio en el disco).
 
