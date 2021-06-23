@@ -3,10 +3,10 @@ keywords: Campaign Classic, inicio, temas populares
 product: campaign
 title: Documentación del producto de Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 615b56c5f4362b0f47ec5700be7d170c0e108f4c
+source-git-commit: a9120e2db43fcb035e9760819e9c53148979da4f
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 92%
+source-wordcount: '262'
+ht-degree: 84%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 92%
 
 * **[¡El lanzamiento de junio está activo!](rn/using/latest-release.md)**<br/> Descubra nuevas funciones, mejoras y correcciones en las Notas de la versión
 
+* **[Preguntas frecuentes sobre la protección de la privacidad del correo de Apple](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> Encuentre instrucciones iniciales en respuesta al anuncio de Apple con respecto a iOS 15
+
 * **[Eliminación de devoluciones graves incorrectas](delivery/using/update-bounce-qualification.md)**<br/> Aprenda a actualizar las devoluciones graves incorrectas tras la interrupción de Apple
 
 * **[¿Conexión a través de IMS/ID de Adobe? Actualice a las últimas compilaciones](integrations/using/about-adobe-id.md)**<br/> Si utiliza IMS para conectarse a Campaign, debe actualizar para poder seguir conectándose después del** 30 de junio de 2021 **
@@ -25,8 +27,6 @@ ht-degree: 92%
 * **[Proteja sus instancias de Campaign](technotes/acc-config-updates.md)**<br/> Actualice a las últimas compilaciones para proteger su plataforma de Campaign
 
 * **[Actualice la integración de los activadores de Adobe Experience Cloud](integrations/using/configuring-adobe-io.md)**<br/> El servicio de autenticación de autenticación heredada ha llegado al final de su vida útil. Descubra más información sobre cómo migrar a Adobe I/O.
-
-* **[Obtenga ayuda](support.md)**<br/> Acceso a preguntas frecuentes, prácticas recomendadas, recursos de ayuda y solicitudes de ayuda.
 
 [Más actualizaciones](/help/rn/using/documentation-updates.md)
 
