@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
@@ -58,4 +58,4 @@ Para definir una carpeta de tipo “plantilla”, siga el siguiente proceso:
 
    ![](assets/s_ncs_user_seedlist_folder_is_model.png)
 
-   Ahora, las direcciones almacenadas en esta carpeta pueden utilizarse como plantillas de direcciones. Pueden importarse en envíos o campañas y adaptarse a las necesidades específicas de las entregas o campañas correspondientes (consulte [Adición de direcciones semilla](../../delivery/using/adding-seed-addresses.md)).
+   Ahora, las direcciones almacenadas en esta carpeta pueden utilizarse como plantillas de direcciones. Pueden importarse en envíos o campañas y adaptarse a las necesidades específicas de las entregas o campañas correspondientes (consulte [Adición de direcciones semilla](adding-seed-addresses.md)).
