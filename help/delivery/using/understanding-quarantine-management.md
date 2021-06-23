@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '2613'
 ht-degree: 100%
@@ -29,7 +29,7 @@ Los perfiles cuyas direcciones de correo electrónico o número de teléfono est
 
 Algunos proveedores de acceso a Internet consideran automáticamente los correos electrónicos como no deseados si la tasa de direcciones no válidas es demasiado alta. Por lo tanto, la cuarentena le permite evitar ser incluido en la lista de bloqueados de bloqueados por estos proveedores.
 
-Además, la cuarentena reduce el coste de entrega de los SMS mediante la exclusión en las entregas de los números de teléfono incorrectos. Para obtener más información sobre las prácticas recomendadas para proteger y optimizar las entregas, consulte [esta página](../../delivery/using/delivery-best-practices.md) .
+Además, la cuarentena reduce el coste de entrega de los SMS mediante la exclusión en las entregas de los números de teléfono incorrectos. Para obtener más información sobre las prácticas recomendadas para proteger y optimizar las entregas, consulte [esta página](delivery-best-practices.md) .
 
 ### Cuarentena frente a lista de bloqueados {#quarantine-vs-denylist}
 
@@ -49,7 +49,7 @@ Las direcciones en cuarentena pueden enumerarse para una entrega específico o p
 
 ### Identificación de direcciones en cuarentena para una entrega {#identifying-quarantined-addresses-for-a-delivery}
 
-Las direcciones en cuarentena de una entrega específico se enumeran durante la fase de preparación de la entrega, en los registros de entrega del panel de entregas (consulte [Registro e historial de entregas](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)).
+Las direcciones en cuarentena de una entrega específico se enumeran durante la fase de preparación de la entrega, en los registros de entrega del panel de entregas (consulte [Registro e historial de entregas](delivery-dashboard.md#delivery-logs-and-history)).
 
 ### Identificación de direcciones en cuarentena para toda la plataforma {#identifying-quarantined-addresses-for-the-entire-platform}
 
@@ -68,7 +68,7 @@ La siguiente información está disponible para cada dirección:
 >El aumento del número de cuarentenas es un efecto normal, relacionado con el “desgaste” de la base de datos. Por ejemplo, si se considera que la duración de una dirección de correo electrónico es de tres años y la lista de distribución aumenta en un 50 % cada año, el aumento de la cuarentena se puede calcular de la siguiente manera:
 >
 >Fin de año 1: (1*0,33)/(1+0,5) = 22 %.
->Fin de año 2: ((1,22*0,33)+0,33)/(1,5+0,75) = 32,5 %.
+Fin de año 2: ((1,22*0,33)+0,33)/(1,5+0,75) = 32,5 %.
 
 ### Identificación de direcciones en cuarentena en informes de entrega {#identifying-quarantined-addresses-in-delivery-reports}
 
@@ -111,14 +111,13 @@ Las direcciones se eliminan automáticamente de la lista de cuarentena en los si
 A continuación, su estado cambia a **[!UICONTROL Valid]**.
 
 >[!IMPORTANT]
->
->Los destinatarios con una dirección en un estado **[!UICONTROL Quarantine]** o **[!UICONTROL On denylist]** nunca se eliminarán, aunque reciban un correo electrónico.
+Los destinatarios con una dirección en un estado **[!UICONTROL Quarantine]** o **[!UICONTROL On denylist]** nunca se eliminarán, aunque reciban un correo electrónico.
 
 Puede modificar el número de errores y el periodo entre dos errores. Para ello, cambie la configuración correspondiente en el asistente de implementación (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**). Para obtener más información sobre el asistente de implementación, consulte [esta sección](../../installation/using/deploying-an-instance.md).
 
 ## Condiciones para enviar una dirección a cuarentena {#conditions-for-sending-an-address-to-quarantine}
 
-Adobe Campaign administra la cuarentena según el tipo de error de entrega y el motivo asignado durante la calificación de mensajes de error (consulte [Calificación de correos rechazados](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)) y [Los tipos y motivos de error de entrega](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+Adobe Campaign administra la cuarentena según el tipo de error de entrega y el motivo asignado durante la calificación de mensajes de error (consulte [Calificación de correos rechazados](understanding-delivery-failures.md#bounce-mail-qualification)) y [Los tipos y motivos de error de entrega](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
 * **Error ignorado**: los errores ignorados no envían una dirección a la cuarentena.
 * **Error grave:** la dirección de correo electrónico correspondiente se envía inmediatamente a la cuarentena.
@@ -136,7 +135,7 @@ A diferencia de los errores en hardware, los errores en software no envían inme
 
 * Cuando el contador de errores alcanza el umbral de límite, la dirección se pone en cuarentena.
 * En la configuración predeterminada, el umbral se establece en cinco errores, de los cuales dos errores son importantes si se producen al menos con una diferencia de 24 horas. La dirección se envía a cuarentena en el quinto error.
-* El umbral del contador de errores puede modificarse. Para obtener más información, consulte [Reintentos después de un error temporal de entrega](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+* El umbral del contador de errores puede modificarse. Para obtener más información, consulte [Reintentos después de un error temporal de entrega](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 El contador de errores se reinicia si el último error significativo se produjo hace más de 10 días. El estado de la dirección cambia a **válido** y se elimina de la lista de cuarentena mediante el flujo de trabajo de **Limpieza de la base de datos**.
 
@@ -252,11 +251,10 @@ El flujo de trabajo **[!UICONTROL mobileAppOptOutMgt]** se ejecuta cada 6 horas 
 Durante el análisis de la entrega, todos los dispositivos excluidos del destino se añaden automáticamente a la tabla **excludeLogAppSubRcp**.
 
 >[!NOTE]
->
->Para los clientes que utilicen el conector Baidu, los distintos tipos de errores son:
->* Problema de conexión al principio del envío: tipo de error **[!UICONTROL Undefined]**, motivo del error **[!UICONTROL Unreachable]**, con reintento.
->* Se ha perdido la conexión durante un envío: error de software, motivo del error **[!UICONTROL Refused]**, con reintento.
->* Error sincrónico devuelto por Baidu durante el envío: error de hardware, motivo del error **[!UICONTROL Refused]**, sin reintento.
+Para los clientes que utilicen el conector Baidu, los distintos tipos de errores son:
+* Problema de conexión al principio del envío: tipo de error **[!UICONTROL Undefined]**, motivo del error **[!UICONTROL Unreachable]**, con reintento.
+* Se ha perdido la conexión durante un envío: error de software, motivo del error **[!UICONTROL Refused]**, con reintento.
+* Error sincrónico devuelto por Baidu durante el envío: error de hardware, motivo del error **[!UICONTROL Refused]**, sin reintento.
 
 Adobe Campaign se pone en contacto con el servidor Baidu cada 10 minutos para recuperar el estado del mensaje enviado y actualiza los broadlogs. Si se declara un mensaje como enviado, el estado del mensaje en los broadlogs se establece en **[!UICONTROL Received]**. Si Baidu declara un error, el estado se establece en **[!UICONTROL Failed]**.
 
@@ -476,8 +474,7 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
 El mecanismo de cuarentena para mensajes SMS es el mismo a nivel global que el proceso general. Consulte [Acerca de las cuarentenas](#about-quarantines). Las particularidades para los SMS se enumeran a continuación.
 
 >[!NOTE]
->
->La tabla **[!UICONTROL Delivery log qualification]** no se aplica al conector **Extended generic SMPP**.
+La tabla **[!UICONTROL Delivery log qualification]** no se aplica al conector **Extended generic SMPP**.
 
 <table> 
  <tbody> 
@@ -528,16 +525,15 @@ El mecanismo de cuarentena para mensajes SMS es el mismo a nivel global que el p
 
 **Para el conector SMPP genérico extendido**
 
-Al utilizar el protocolo SMPP para enviar mensajes SMS, la administración de errores se gestiona de forma distinta. Para obtener más información sobre el conector SMPP genérico extendido, consulte [esta sección](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
+Al utilizar el protocolo SMPP para enviar mensajes SMS, la administración de errores se gestiona de forma distinta. Para obtener más información sobre el conector SMPP genérico extendido, consulte [esta sección](sms-set-up.md#creating-an-smpp-external-account).
 
 El conector SMPP recupera los datos del mensaje de SR (informe de estado) que se devuelve utilizando expresiones regulares (regex) para filtrar su contenido. Estos datos se corresponden con la información que se encuentra en la tabla **[!UICONTROL Delivery log qualification]** (disponible a través del menú **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]**).
 
 Antes de que se clasifique un nuevo tipo de error, el motivo del error se establece siempre como **Rechazado** de forma predeterminada.
 
 >[!NOTE]
->
->Los tipos de errores y los motivos del error son los mismos que para los correos electrónicos. Consulte [Tipos y motivos de errores de entrega](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
->Solicite a su proveedor una lista de estados y códigos de error para establecer tipos y motivos de error adecuados para los errores en la tabla de clasificación de registros de entregas.
+Los tipos de errores y los motivos del error son los mismos que para los correos electrónicos. Consulte [Tipos y motivos de errores de entrega](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+Solicite a su proveedor una lista de estados y códigos de error para establecer tipos y motivos de error adecuados para los errores en la tabla de clasificación de registros de entregas.
 
 Ejemplo de mensaje generado:
 
@@ -546,13 +542,13 @@ SR Generic DELIVRD 000|#MESSAGE#
 ```
 
 * Todos los mensajes de error empiezan por **SR** para distinguir entre los códigos de error de los SMS y códigos de error de los correos electrónicos.
-* La segunda parte (**Generic** en este ejemplo) del mensaje de error hace referencia al nombre de la implementación de SMSC, como se define en el campo **[!UICONTROL SMSC implementation name]** de la cuenta externa de SMS. Consulte [esta página](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
+* La segunda parte (**Generic** en este ejemplo) del mensaje de error hace referencia al nombre de la implementación de SMSC, como se define en el campo **[!UICONTROL SMSC implementation name]** de la cuenta externa de SMS. Consulte [esta página](sms-set-up.md#creating-an-smpp-external-account).
 
    Dado que el mismo código de error puede tener un significado diferente para cada proveedor, este campo permite saber qué proveedor genera el código de error. Después se puede buscar el error en la documentación del proveedor correspondiente.
 
 * La tercera parte (**DELIVRD** en este ejemplo) del mensaje de error corresponde al código de estado recuperado del SR mediante las regex de extracción de estado definidas en la cuenta externa de SMS.
 
-   Esta regex se especifica en la pestaña **[!UICONTROL SMSC specificities]** de la cuenta externa. Consulte [esta página](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
+   Esta regex se especifica en la pestaña **[!UICONTROL SMSC specificities]** de la cuenta externa. Consulte [esta página](sms-set-up.md#creating-an-smpp-external-account).
 
    ![](assets/tech_quarant_error_regex.png)
 
@@ -560,10 +556,10 @@ SR Generic DELIVRD 000|#MESSAGE#
 
 * La cuarta parte (**000** en este ejemplo) del mensaje de error corresponde al código de error extraído del SR mediante la regex de extracción de código de error definida en la cuenta externa de SMS.
 
-   Esta regex se especifica en la pestaña **[!UICONTROL SMSC specificities]** de la cuenta externa. Consulte [esta página](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
+   Esta regex se especifica en la pestaña **[!UICONTROL SMSC specificities]** de la cuenta externa. Consulte [esta página](sms-set-up.md#creating-an-smpp-external-account).
 
    De manera predeterminada, la regex extrae el campo **err:** tal y como se define en la sección **Apéndice B** de la **especificación de SMPP 3.4**.
 
-* Todo lo que aparece después del símbolo de barra vertical (|) se muestra solo en la columna **[!UICONTROL First text]** de la tabla **[!UICONTROL Delivery log qualification]**. Este contenido siempre se sustituye por **#MESSAGE#** después de normalizar el mensaje. Este proceso evita tener varias entradas para errores similares y funciona igual que para los correos electrónicos. Para obtener más información, consulte [Cualificación de correo rechazado](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification).
+* Todo lo que aparece después del símbolo de barra vertical (|) se muestra solo en la columna **[!UICONTROL First text]** de la tabla **[!UICONTROL Delivery log qualification]**. Este contenido siempre se sustituye por **#MESSAGE#** después de normalizar el mensaje. Este proceso evita tener varias entradas para errores similares y funciona igual que para los correos electrónicos. Para obtener más información, consulte [Cualificación de correo rechazado](understanding-delivery-failures.md#bounce-mail-qualification).
 
 El conector genérico extendido SMPP aplica un método heurístico para buscar valores predeterminados coherentes: si el estado comienza con **DELIV**, se considera un éxito porque coincide con los estados comunes utilizados por la mayoría de los proveedores **DELIVRD** o **DELIVERED.** Cualquier otro estado conlleva un error grave.
