@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 100%
@@ -19,9 +19,9 @@ Recomendamos seguir las directrices que se indican a continuación para garantiz
 
 **Temas relacionados:**
 
-* [Tablero de entregas](../../delivery/using/delivery-dashboard.md)
-* [Solución de problemas de entrega](../../delivery/using/delivery-troubleshooting.md)
-* [Acerca de la capacidad de la entrega](../../delivery/using/about-deliverability.md)
+* [Tablero de entregas](delivery-dashboard.md)
+* [Solución de problemas de entrega](delivery-troubleshooting.md)
+* [Acerca de la capacidad de la entrega](about-deliverability.md)
 
 ## Prácticas recomendadas para el rendimiento {#best-practices-performance}
 
@@ -51,6 +51,6 @@ Si los resultados de la entrega son malos, puede comprobar:
 
 * **El tamaño de la entrega**: Las entregas grandes pueden tardar más en completarse. Los elementos MTA secundarios se configuran para gestionar un tamaño predeterminado que funciona con la mayoría de las instancias, pero es necesario comprobar si las entregas son constantemente lentos.
 * **El destinatario de la entrega**: El rendimiento de las entregas se puede ver afectado por errores de rechazos leves que se gestionan según la configuración de reintento. Cuanto mayor sea el número de errores, más necesarios son los reintentos de entrega.
-* **La carga de la plataforma general**: Cuando se envían varias entregas de gran tamaño, la plataforma general se puede ver afectada. También puede comprobar los problemas de reputación de la IP y de capacidad de entrega. Para obtener más información, consulte [esta sección](../../delivery/using/about-deliverability.md) y la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es).
+* **La carga de la plataforma general**: Cuando se envían varias entregas de gran tamaño, la plataforma general se puede ver afectada. También puede comprobar los problemas de reputación de la IP y de capacidad de entrega. Para obtener más información, consulte [esta sección](about-deliverability.md) y la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es).
 
 El mantenimiento de la plataforma y de la base de datos también puede afectar el rendimiento de las entregas. Para obtener más información, consulte [esta página](../../production/using/database-performances.md).
