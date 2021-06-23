@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: df494786-5950-4646-aa9c-4dde45845057
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 100%
@@ -27,4 +27,4 @@ También se puede acceder a través de la pestaña **[!UICONTROL Tracking]** del
 
 >[!NOTE]
 >
->Si no ve la pestaña **[!UICONTROL Tracking]** de un envío, significa que el seguimiento no está activado. Consulte [esta sección](../../delivery/using/how-to-configure-tracked-links.md).
+>Si no ve la pestaña **[!UICONTROL Tracking]** de un envío, significa que el seguimiento no está activado. Consulte [esta sección](how-to-configure-tracked-links.md).
