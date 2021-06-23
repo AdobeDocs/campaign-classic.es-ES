@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 100%
@@ -19,7 +19,7 @@ Es posible acceder a los ajustes avanzados de seguimiento de mensajes mediante e
 
 >[!NOTE]
 >
->La administración de imágenes en correos electrónicos también se configura en esta ventana. Consulte [Añadir imágenes](../../delivery/using/defining-the-email-content.md#adding-images).
+>La administración de imágenes en correos electrónicos también se configura en esta ventana. Consulte [Añadir imágenes](defining-the-email-content.md#adding-images).
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 
@@ -37,7 +37,7 @@ Puede configurar las opciones de seguimiento:
 
 Las direcciones URL rastreadas se enumeran en la ventana central del formulario de árbol.
 
-Puede activar o desactivar el seguimiento individualmente para cada dirección URL del mensaje. Para obtener más información, consulte [esta sección](../../delivery/using/how-to-configure-tracked-links.md).
+Puede activar o desactivar el seguimiento individualmente para cada dirección URL del mensaje. Para obtener más información, consulte [esta sección](how-to-configure-tracked-links.md).
 
 La pestaña **[!UICONTROL Advanced]** permite personalizar las fórmulas de cálculo de las direcciones URL y apertura de la URL.
 
