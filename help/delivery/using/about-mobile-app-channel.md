@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 100%
@@ -53,9 +53,9 @@ Puede definir el comportamiento de la aplicación para las situaciones en las qu
 
 El flujo de trabajo de **[!UICONTROL NMAC opt-out management]** (mobileAppOptOutMgt) actualiza la notificación de las bajas de suscripción en dispositivos móviles. Para obtener más información sobre este flujo de trabajo, consulte la [lista de flujos de trabajo técnicos](../../workflow/using/about-technical-workflows.md).
 
-Adobe Campaign es compatible con APN HTTP/2. Para obtener más información sobre los pasos de configuración, consulte [esta sección](../../delivery/using/configuring-the-mobile-application.md).
+Adobe Campaign es compatible con APN HTTP/2. Para obtener más información sobre los pasos de configuración, consulte [esta sección](configuring-the-mobile-application.md).
 
-Para obtener más información sobre la creación de entregas, consulte [esta sección](../../delivery/using/steps-about-delivery-creation-steps.md).
+Para obtener más información sobre la creación de entregas, consulte [esta sección](steps-about-delivery-creation-steps.md).
 
 ## Ruta de datos {#data-path}
 
@@ -73,7 +73,7 @@ El usuario descarga la aplicación móvil desde la App Store o desde Google Play
 
 ![](assets/nmac_register_view.png)
 
-### Paso 2: Envío{#step-2--delivery}
+### Paso 2: Envío {#step-2--delivery}
 
 Los especialistas en marketing se dirigen a los suscriptores de la aplicación. El proceso de envío envía la configuración de conexión al servicio de notificaciones (certificado de iOS y clave de proyecto para Android), el ID de notificación (ID de push) y el contenido de la notificación. El servicio de notificaciones envía notificaciones a los terminales de destino.
 
