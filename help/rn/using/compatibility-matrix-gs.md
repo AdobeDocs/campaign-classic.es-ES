@@ -6,14 +6,14 @@ feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 9703e9d5cf0dba91d3f38d265756bdae69267c28
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 100%
+source-wordcount: '514'
+ht-degree: 97%
 
 ---
 
-# Matriz de compatibilidad de [!DNL Gold Standard]{#compatibility-matrix-gs}
+# [!DNL Gold Standard] Matriz de compatibilidad{#compatibility-matrix-gs}
 
 Este documento enumera todos los sistemas y componentes compatibles con las versiones 19.1 de **Adobe Campaign Classic[!DNL Gold Standard]**. Los productos y las versiones que no forman parte de esta lista no son compatibles con esta versión de Adobe Campaign.
 
@@ -176,11 +176,6 @@ Adobe Campaign Classic es compatible con todos los sistemas y herramientas enume
 <p>Versión de API 15</p>
 </td>
 </tr>
-<tr><td>API de Oracle bajo demanda</td>
-<td>
-<p>API de Web Services 1.0</p>
-</td>
-</tr>
 <tr>
 <td>Microsoft Dynamics</td>
 <td>
@@ -271,7 +266,7 @@ Adobe Campaign Classic es compatible con todos los sistemas y herramientas enume
 
 ## Consola del cliente {#ClientConsoleoperatingsystems}
 
-:advertencia: Se requieren los siguientes sistemas operativos y exploradores para utilizar la Consola del cliente de Campaign.
+:warning: Se requieren los siguientes sistemas operativos y exploradores para utilizar la Consola de cliente de Campaign.
 
 ### Sistemas operativos
 
