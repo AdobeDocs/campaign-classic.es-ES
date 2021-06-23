@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 0e0912c68d132919eeac9b91b93960e70011153e
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 100%
+source-wordcount: '582'
+ht-degree: 83%
 
 ---
 
@@ -21,10 +21,17 @@ El seguimiento se aplica a los mensajes, pero el seguimiento web permite control
 
 >[!NOTE]
 >
->Los vínculos del contenido del correo electrónico que contienen personalización necesitan una sintaxis específica para poder rastrearse. Para obtener más información sobre cómo añadir vínculos en correos electrónicos que se pueden personalizar y que admitan el seguimiento, consulte [esta sección](../../delivery/using/tracking-personalized-links.md).
+>Los vínculos del contenido del correo electrónico que contienen personalización necesitan una sintaxis específica para poder rastrearse. Para obtener más información sobre cómo añadir vínculos en correos electrónicos que se pueden personalizar y que admitan el seguimiento, consulte [esta sección](tracking-personalized-links.md).
 
+Se recomienda enfáticamente incluir direcciones URL en delimitadores en la pestaña **[!UICONTROL Text content]** antes de aplicar la fórmula de seguimiento. Adobe Campaign utiliza los delimitadores de URL que introduce en esta pestaña para identificar las direcciones URL dentro de las cadenas de caracteres. Puede utilizar estos pares de delimitadores:
+* Paréntesis ( )
+* Brackets [ ]
+* Braces { }
 
-
+En este ejemplo, la dirección URL https://www.adobe.com va seguida de un punto y coma (;). Los clientes de correo electrónico del destinatario pueden interpretar el punto y coma como parte de la dirección URL. Como resultado, el vínculo puede estar roto. Para evitar este problema, puede incluir la URL en delimitadores de una de las siguientes maneras:
+* (https://www.adobe.com);
+* [https://www.adobe.com];
+* {https://www.adobe.com};
 
 El seguimiento de mensajes está activado de forma predeterminada. Para personalizar cómo se realiza el seguimiento de las direcciones URL, siga los pasos a continuación:
 
