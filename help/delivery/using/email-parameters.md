@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 100%
@@ -71,13 +71,13 @@ Seleccione el formato del correo electrónico en la sección inferior de la vent
 
 >[!NOTE]
 >
->Para obtener más información sobre la definición del contenido del correo electrónico, consulte [esta sección](../../delivery/using/defining-the-email-content.md).
+>Para obtener más información sobre la definición del contenido del correo electrónico, consulte [esta sección](defining-the-email-content.md).
 
 ## Generación de la página espejo {#generating-mirror-page}
 
 La página espejo es una página HTML accesible en línea mediante un navegador web. Su contenido es idéntico al del correo electrónico.
 
-De forma predeterminada, la página espejo se genera si el vínculo se inserta en el contenido del correo. Para obtener más información sobre cómo personalizar la inserción de bloques, consulte [Bloques de personalización](../../delivery/using/personalization-blocks.md).
+De forma predeterminada, la página espejo se genera si el vínculo se inserta en el contenido del correo. Para obtener más información sobre cómo personalizar la inserción de bloques, consulte [Bloques de personalización](personalization-blocks.md).
 
 En las propiedades de la entrega, el campo **[!UICONTROL Mode]** de la pestaña **[!UICONTROL Validity]** permite modificar el modo de generación de esta página.
 
@@ -117,7 +117,7 @@ Desde esta pantalla, también puede definir una dirección específica para inve
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab.png)
 
-Para obtener más información sobre la gestión de correo rechazado, consulte [esta sección](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
+Para obtener más información sobre la gestión de correo rechazado, consulte [esta sección](understanding-delivery-failures.md#bounce-mail-management).
 
 ## Añadir encabezados SMTP {#adding-smtp-headers}
 
