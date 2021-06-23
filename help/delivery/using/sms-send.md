@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 100%
@@ -21,8 +21,8 @@ Para aprobar el mensaje y enviarlo a los destinatarios de la entrega que está c
 
 El proceso detallado para validar y realizar un envío se detalla en las siguientes secciones:
 
-* [Validación de la entrega](../../delivery/using/steps-validating-the-delivery.md)
-* [Envío de la entrega](../../delivery/using/steps-sending-the-delivery.md)
+* [Validación de la entrega](steps-validating-the-delivery.md)
+* [Envío de la entrega](steps-sending-the-delivery.md)
 
 ## Parámetros avanzados {#advanced-parameters}
 
@@ -60,9 +60,9 @@ Estas son las opciones disponibles:
 
 Después de enviar mensajes, puede monitorizar y realizar un seguimiento de las entregas. Para obtener más información, consulte estas secciones:
 
-* [Monitorización de una entrega](../../delivery/using/about-delivery-monitoring.md)
-* [Comprensión de los errores de entrega](../../delivery/using/understanding-delivery-failures.md)
-* [Acerca del seguimiento de mensajes](../../delivery/using/about-message-tracking.md)
+* [Monitorización de una entrega](about-delivery-monitoring.md)
+* [Comprensión de los errores de entrega](understanding-delivery-failures.md)
+* [Acerca del seguimiento de mensajes](about-message-tracking.md)
 
 ## Procesamiento de mensajes entrantes {#processing-inbound-messages}
 
@@ -165,6 +165,6 @@ El nombre del remitente para este tipo de mensaje es un breve código que suele 
 
 >[!IMPORTANT]
 >
->Estos tipos de mensajes automáticos no conservan un historial. Por lo tanto, no aparecen en el panel de envío. [Más información](../../delivery/using/delivery-dashboard.md).
+>Estos tipos de mensajes automáticos no conservan un historial. Por lo tanto, no aparecen en el panel de envío. [Más información](delivery-dashboard.md).
 >
 >Estos mensajes no se tienen en cuenta en las reglas de presión comercial. [Más información](../../campaign/using/pressure-rules.md).
