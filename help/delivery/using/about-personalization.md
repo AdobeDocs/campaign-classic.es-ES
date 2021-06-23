@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 555082a2-1b62-4aa4-b80c-77b1a1ef9491
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
@@ -17,10 +17,10 @@ ht-degree: 100%
 
 Los mensajes enviados por Adobe Campaign pueden personalizarse de varias formas diferentes, teniendo en consideración el contenido o el aspecto de los mensajes. Estas formas se pueden combinar de acuerdo con criterios tomados especialmente de los perfiles de destinatario. En el caso de las entregas de correo electrónico, se pueden definir los elementos y las condiciones de personalización de una entrega directamente en JavaScript desde la pestaña **[!UICONTROL Source]**. En general, Adobe Campaign le permite:
 
-* Personalizar el formato del mensaje. Consultar [Contenido del mensaje](../../delivery/using/defining-the-email-content.md#message-content).
-* Insertar campos personalizados dinámicos. Consultar [Personalización de campos](../../delivery/using/personalization-fields.md).
-* Insertar bloques de personalización predefinidos. Consultar [Bloques de personalización](../../delivery/using/personalization-blocks.md).
-* Cree contenido condicional. Consulte la sección [Contenido condicional](../../delivery/using/conditional-content.md).
+* Personalizar el formato del mensaje. Consultar [Contenido del mensaje](defining-the-email-content.md#message-content).
+* Insertar campos personalizados dinámicos. Consultar [Personalización de campos](personalization-fields.md).
+* Insertar bloques de personalización predefinidos. Consultar [Bloques de personalización](personalization-blocks.md).
+* Cree contenido condicional. Consulte la sección [Contenido condicional](conditional-content.md).
 
 >[!CAUTION]
 >
