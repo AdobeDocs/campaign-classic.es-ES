@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 91%
@@ -19,7 +19,7 @@ El módulo Adobe Campaign Content Manager es un Campaign Classic específico [pa
 
 >[!NOTE]
 >
->Esta sección hace referencia al módulo de Administración de contenido. Para obtener más información sobre el diseño de contenido de envíos por correo electrónico, consulte [esta sección](../../delivery/using/defining-the-email-content.md).
+>Esta sección hace referencia al módulo de Administración de contenido. Para obtener más información sobre el diseño de contenido de envíos por correo electrónico, consulte [esta sección](defining-the-email-content.md).
 
 El módulo de Administración de contenido incorpora el grupo de trabajo, el flujo de trabajo y la funcionalidad de adición de contenido. Esto permite dar formato automáticamente a un mensaje: correo electrónico, correo, SMS, web, etc.
 
