@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 100%
+source-wordcount: '1447'
+ht-degree: 98%
 
 ---
 
@@ -364,7 +364,7 @@ Este ejemplo comprende los siguientes pasos:
 
 1. Puede utilizar esta plantilla de contenido en los envíos.
 
-   Para más información, consulte [Uso de una plantilla de contenido](../../delivery/using/using-a-content-template.md).
+   Para más información, consulte [Uso de una plantilla de contenido](using-a-content-template.md).
 
 ## Hojas de estilo XSL {#xsl-stylesheets}
 
