@@ -6,14 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 100%
 
 ---
 
-# Configurar el canal SMS {#setting-up-sms-channel}
+# Configuración del canal de SMS {#setting-up-sms-channel}
 
 Para enviar a un teléfono móvil, necesita:
 
@@ -26,7 +26,7 @@ Para enviar a un teléfono móvil, necesita:
 ## Creación de una cuenta externa SMPP {#creating-an-smpp-external-account}
 
 Para enviar un SMS a un teléfono móvil, primero debe crear una cuenta externa SMPP.
-Para obtener más información sobre el protocolo y la configuración de SMS, consulte esta [página](../../delivery/using/sms-protocol.md).
+Para obtener más información sobre el protocolo y la configuración de SMS, consulte esta [página](sms-protocol.md).
 
 Para realizar esto, siga los pasos a continuación:
 
@@ -42,7 +42,7 @@ Para realizar esto, siga los pasos a continuación:
 
    >[!CAUTION]
    >
-   > A partir de la versión 20.2, los conectores heredados quedan obsoletos y no son compatibles. Se recomienda utilizar el conector **[!UICONTROL Extended generic SMPP]**. Para obtener más información sobre cómo migrar al conector recomendado, consulte esta [página](../../delivery/using/unsupported-connector-migration.md).
+   > A partir de la versión 20.2, los conectores heredados quedan obsoletos y no son compatibles. Se recomienda utilizar el conector **[!UICONTROL Extended generic SMPP]**. Para obtener más información sobre cómo migrar al conector recomendado, consulte esta [página](unsupported-connector-migration.md).
 
 1. La opción **[!UICONTROL Enable verbose SMPP traces in the log file]** permite volcar todo el tráfico SMPP en los archivos de registro. Esta opción debe habilitarse para solucionar los problemas del conector y comparar el tráfico que ve el proveedor.
 
@@ -80,7 +80,7 @@ Para realizar esto, siga los pasos a continuación:
 
    Sin embargo, dado que determinados proveedores requieren el uso del prefijo “+”. se recomienda que se ponga en contacto con su proveedor y que este le recomiende si es necesario activar esta opción.
 
-   La casilla de verificación **[!UICONTROL Enable TLS over SMPP]** permite cifrar el tráfico de SMPP. Para obtener más información, consulte esta [página](../../delivery/using/sms-protocol.md).
+   La casilla de verificación **[!UICONTROL Enable TLS over SMPP]** permite cifrar el tráfico de SMPP. Para obtener más información, consulte esta [página](sms-protocol.md).
 
 1. Si está configurando un conector **[!UICONTROL Extended generic SMPP]**, puede configurar respuestas automáticas.
 
@@ -345,7 +345,7 @@ Los pasos para configurar una cuenta externa mediante el conector SMPP genérico
 
 ## Modificación de la plantilla de envíos {#changing-the-delivery-template}
 
-Adobe Campaign proporciona una plantilla para las entregas a móviles. Esta plantilla está disponible en el nodo **[!UICONTROL Resources > Templates > Delivery templates]**. Para obtener más información, consulte la sección [Acerca de las plantillas](../../delivery/using/about-templates.md).
+Adobe Campaign proporciona una plantilla para las entregas a móviles. Esta plantilla está disponible en el nodo **[!UICONTROL Resources > Templates > Delivery templates]**. Para obtener más información, consulte la sección [Acerca de las plantillas](about-templates.md).
 
 Para realizar envíos a través del canal SMS, debe crear una plantilla en la que se haga referencia al conector de canal.
 
