@@ -6,9 +6,9 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '857'
 ht-degree: 100%
 
 ---
@@ -68,7 +68,7 @@ Para ello, es necesario insertar los siguientes bloques personalizados:
 
 >[!NOTE]
 >
->Para obtener más información sobre la generación de páginas de reflejo, consulte [Generación de la página de reflejo](../../delivery/using/sending-messages.md#generating-the-mirror-page).
+>Para obtener más información sobre la generación de páginas de reflejo, consulte [Generación de la página de reflejo](sending-messages.md#generating-the-mirror-page).
 
 1. Cree una nueva entrega o abra una entrega de tipo correo electrónico ya existente.
 1. En el asistente de envíos, haga clic en **[!UICONTROL Subject]** para editar el asunto del mensaje y escriba un asunto.
@@ -100,24 +100,12 @@ De forma predeterminada, hay disponibles una lista de bloques personalizados que
 
    >[!NOTE]
    >
-   >Para obtener más información sobre la generación de páginas de reflejo, consulte [Generación de la página de reflejo](../../delivery/using/sending-messages.md#generating-the-mirror-page).
+   >Para obtener más información sobre la generación de páginas de reflejo, consulte [Generación de la página de reflejo](sending-messages.md#generating-the-mirror-page).
 
 * **[!UICONTROL Link to mirror page]**: inserta un vínculo a la página espejo: &quot;Si no puede ver este mensaje correctamente, haga clic aquí&quot;.
 * **[!UICONTROL Unsubscription link]**: inserta un vínculo que permite cancelar la suscripción a todas las entregas (lista de bloqueados).
-* **[!UICONTROL Formatting function for proper nouns]**: genera la función JavaScript **[!UICONTROL toSmartCase]**, que cambia la primera letra de cada palabra a mayúscula. Este bloque debe insertarse en el código fuente de la entrega, entre las etiquetas **`<script>...</script>`**.
-
-   En el ejemplo siguiente, se utiliza la función para sustituir el elemento de “Encabezado” por “Nuevo encabezado” con letras mayúsculas en cada palabra:
-
-   ```
-   <h1 id="sample">My header</h1>
-   <script><%@ include view='toSmartCase'%>;
-   document.getElementById("sample").innerHTML = toSmartCase("My new header");
-   </script>
-   ```
-
-   ![](assets/s_ncs_user_personalized_block_uppercasefunction.png)
-
-* **[!UICONTROL Registration page URL]**: inserta una URL de suscripción (consulte [Acerca de los servicios y las suscripciones](../../delivery/using/about-services-and-subscriptions.md)).
+* **[!UICONTROL Formatting function for proper nouns]**: genera la función JavaScript **[!UICONTROL toSmartCase]**, que cambia la primera letra de cada palabra a mayúscula.
+* **[!UICONTROL Registration page URL]**: inserta una URL de suscripción (consulte [Acerca de los servicios y las suscripciones](about-services-and-subscriptions.md)).
 * **[!UICONTROL Registration link]**: inserta un vínculo de suscripción. El vínculo se ha definido al configurar la instancia.
 * **[!UICONTROL Registration link (with referrer)]** : inserta un enlace de suscripción que permite identificar el visitante y el envío. El vínculo se ha definido al configurar la instancia.
 
@@ -126,7 +114,7 @@ De forma predeterminada, hay disponibles una lista de bloques personalizados que
    >Este bloque se puede utilizar en envíos dirigidos solamente a visitantes.
 
 * **[!UICONTROL Registration confirmation]**: inserta un vínculo que permite confirmar la suscripción.
-* **[!UICONTROL Social network sharing links]**: Inserta botones que permiten al destinatario compartir un vínculo al contenido de la página espejo con el cliente de correo electrónico, Facebook, Twitter y LinkedIn (consulte [Marketing viral: enviar a un amigo](../../delivery/using/viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
+* **[!UICONTROL Social network sharing links]**: Inserta botones que permiten al destinatario compartir un vínculo al contenido de la página espejo con el cliente de correo electrónico, Facebook, Twitter y LinkedIn (consulte [Marketing viral: enviar a un amigo](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
 * **[!UICONTROL Style of content emails]** y **[!UICONTROL Notification style]**: genera un código que dé formato a un correo electrónico con estilos HTML predefinidos. Estos bloques deben insertarse en el código fuente de la entrega, en la sección **[!UICONTROL ...]**, entre las etiquetas **`<style>...</style>`**.
 * **[!UICONTROL Offer acceptance URL in unitary mode]**: inserta una URL que permite establecer una oferta de interacción como **[!UICONTROL Accepted]** (consulte [esta sección](../../interaction/using/offer-analysis-report.md)).
 
@@ -152,7 +140,7 @@ Para crear un bloque personalizado, vaya al explorador y aplique los pasos sigui
 
    * Introduzca el contenido (en HTML, texto, JavaScript, etc.) de los bloques de personalización y haga clic en **[!UICONTROL Save]**.
 
-## Videotutorial {#personalization-blocks-video}
+## Tutorial en vídeo {#personalization-blocks-video}
 
 Descubra cómo crear bloques de contenido dinámico y cómo utilizarlos para personalizar el contenido del envío de su correo electrónico.
 
