@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 100%
@@ -27,8 +27,8 @@ La lista de entregas permite ver todas las entregas creadas en una sola ubicaci�
 
 Cada entrega tiene de un panel especializado. Le permite monitorizar los posibles problemas que surjan durante la entrega, así como diversos tipos de información con respecto a esta: informes, páginas espejo, exclusiones, registros de seguimiento, procesamiento, etc.
 
-* [Acceso a la lista de entregas](../../delivery/using/list-of-deliveries.md)
-* [Tablero de entregas](../../delivery/using/delivery-dashboard.md)
+* [Acceso a la lista de entregas](list-of-deliveries.md)
+* [Tablero de entregas](delivery-dashboard.md)
 
 <img src="assets/do-not-localize/icon_guidelines.svg" width="60px">
 
@@ -36,8 +36,8 @@ Cada entrega tiene de un panel especializado. Le permite monitorizar los posible
 
 Se deben seguir varias directrices para garantizar el buen rendimiento de sus entregas. También existen problemas comunes que pueden surgir al realizar entregas, que le ayudarán a entregar de forma eficaz.
 
-* [Rendimiento de las entregas y mejores prácticas](../../delivery/using/delivery-performances.md)
-* [Solución de problemas con entregas](../../delivery/using/delivery-troubleshooting.md)
+* [Rendimiento de las entregas y mejores prácticas](delivery-performances.md)
+* [Solución de problemas con entregas](delivery-troubleshooting.md)
 
 <img src="assets/do-not-localize/icon_failure.svg" width="60px">
 
@@ -45,7 +45,7 @@ Se deben seguir varias directrices para garantizar el buen rendimiento de sus en
 
 Cuando una entrega no se puede enviar a un perfil, el servidor remoto envía automáticamente un mensaje de error que recoge la plataforma de Adobe Campaign para determinar si la dirección de correo electrónico o el número de teléfono deben ponerse en cuarentena.
 
-[El comprender los errores de entrega](../../delivery/using/understanding-delivery-failures.md) es un paso clave para ayudarle a mejorar sus campañas de marketing.
+[El comprender los errores de entrega](understanding-delivery-failures.md) es un paso clave para ayudarle a mejorar sus campañas de marketing.
 
 <img src="assets/do-not-localize/icon_quarantine.svg" width="60px">
 
@@ -53,4 +53,4 @@ Cuando una entrega no se puede enviar a un perfil, el servidor remoto envía aut
 
 Adobe Campaign administra una lista de direcciones en cuarentena. Los destinatarios cuya dirección se haya puesto en cuarentena se excluyen de forma predeterminada durante el análisis de la entrega y no se tendrán en cuenta para la segmentación.
 
-En [esta sección](../../delivery/using/understanding-quarantine-management.md), encontrará información sobre cómo identificar y administrar las direcciones en cuarentena, así como más información sobre las condiciones para enviar una dirección a la cuarentena.
+En [esta sección](understanding-quarantine-management.md), encontrará información sobre cómo identificar y administrar las direcciones en cuarentena, así como más información sobre las condiciones para enviar una dirección a la cuarentena.
