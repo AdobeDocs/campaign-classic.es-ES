@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1921'
 ht-degree: 100%
@@ -129,7 +129,7 @@ Las calificaciones de rechazo de la tabla **[!UICONTROL Delivery log qualificati
 >
 >El servidor de correo mejorado califica el rebote SMTP y devuelve esa calificación a Campaign en forma de código de rechazo asignado a un motivo y una calificación de Campaign.
 
-Para obtener más información sobre la calificación de correo rechazado, consulte [esta sección](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification).
+Para obtener más información sobre la calificación de correo rechazado, consulte [esta sección](understanding-delivery-failures.md#bounce-mail-qualification).
 
 ### Rendimiento del envío
 
@@ -145,7 +145,7 @@ Por ejemplo, si el período de validez se establece en el valor predeterminado d
 
 Una vez que un mensaje ha estado en la cola del servidor de correo mejorado durante 3,5 días y no se ha podido entregar, se agotará el tiempo de espera y su estado se actualizará de **[!UICONTROL Sent]** a **[!UICONTROL Failed]** en los registros de envío.
 
-Para obtener más información sobre el período de validez, consulte [esta sección](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period).
+Para obtener más información sobre el período de validez, consulte [esta sección](steps-sending-the-delivery.md#defining-validity-period).
 
 ### Firma DKIM
 
@@ -154,13 +154,13 @@ Para obtener más información sobre DKIM, consulte la [Guía de prácticas reco
 
 ### Sistema de informes de éxito de envío
 
-En la vista **[!UICONTROL Summary]** de un [panel](../../delivery/using/delivery-dashboard.md)de envío de correo electrónico, el porcentaje de **[!UICONTROL Success]** empieza en el 100 % y luego desciende progresivamente a lo largo del [período de validez](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)del envío, a medida que se informan los rebotes suaves y duros desde el servidor de correo mejorado a Campaign.
+En la vista **[!UICONTROL Summary]** de un [panel](delivery-dashboard.md)de envío de correo electrónico, el porcentaje de **[!UICONTROL Success]** empieza en el 100 % y luego desciende progresivamente a lo largo del [período de validez](steps-sending-the-delivery.md#defining-validity-period)del envío, a medida que se informan los rebotes suaves y duros desde el servidor de correo mejorado a Campaign.
 
-De hecho, todos los mensajes se muestran como **[!UICONTROL Sent]** en los [registros de envío](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) en cuanto se transmiten correctamente desde Campaign al servidor de correo mejorado. Permanecen en ese estado a menos que un [rebote](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) de ese mensaje se comunique desde el servidor de correo mejorado a Campaign, o hasta que esto ocurra.
+De hecho, todos los mensajes se muestran como **[!UICONTROL Sent]** en los [registros de envío](delivery-dashboard.md#delivery-logs-and-history) en cuanto se transmiten correctamente desde Campaign al servidor de correo mejorado. Permanecen en ese estado a menos que un [rebote](understanding-delivery-failures.md#delivery-failure-types-and-reasons) de ese mensaje se comunique desde el servidor de correo mejorado a Campaign, o hasta que esto ocurra.
 
 Cuando se generan informes de los mensajes de rebote duro desde el servidor de correo mejorado, su estado cambia de **[!UICONTROL Sent]** a **[!UICONTROL Failed]** y el porcentaje de **[!UICONTROL Success]** disminuye en consecuencia.
 
-Cuando se generan informes de los mensajes de rebote suave desde el servidor de correo mejorado, siguen mostrándose como **[!UICONTROL Sent]** y el porcentaje de **[!UICONTROL Success]** todavía no se actualiza. A continuación, la entrega de los mensajes de rebote suave se [reintenta](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) durante todo el período de validez del envío:
+Cuando se generan informes de los mensajes de rebote suave desde el servidor de correo mejorado, siguen mostrándose como **[!UICONTROL Sent]** y el porcentaje de **[!UICONTROL Success]** todavía no se actualiza. A continuación, la entrega de los mensajes de rebote suave se [reintenta](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) durante todo el período de validez del envío:
 
 * Si un reintento se realiza correctamente antes del final del período de validez, el estado del mensaje permanece como **[!UICONTROL Sent]** y el porcentaje de **[!UICONTROL Success]** permanece sin cambios.
 
@@ -192,7 +192,7 @@ Cuando el mensaje se envía realmente a los perfiles objetivo y una vez que se t
 
 Cuando el servidor de correo mejorado devuelve mensajes de rebote duro, su estado de registro cambia de **[!UICONTROL Taken into account by the service provider]** a **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
 
-Cuando los mensajes de rebote suaves vuelven a informarse desde el servidor de correo mejorado, su estado de registro permanece sin cambios (**[!UICONTROL Taken into account by the service provider]**): solo se actualiza[la razón de error](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. El porcentaje de **[!UICONTROL Success]** permanece sin cambios. A continuación, se vuelven a intentar los mensajes de devolución suave a lo largo del [período de validez del envío](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period):
+Cuando los mensajes de rebote suaves vuelven a informarse desde el servidor de correo mejorado, su estado de registro permanece sin cambios (**[!UICONTROL Taken into account by the service provider]**): solo se actualiza[la razón de error](understanding-delivery-failures.md#delivery-failure-types-and-reasons)<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. El porcentaje de **[!UICONTROL Success]** permanece sin cambios. A continuación, se vuelven a intentar los mensajes de devolución suave a lo largo del [período de validez del envío](steps-sending-the-delivery.md#defining-validity-period):
 
 * Si un reintento se realiza correctamente antes del final del período de validez, el estado del mensaje cambia a **[!UICONTROL Sent]** y el porcentaje de **[!UICONTROL Success]** sube en consecuencia.
 
@@ -200,9 +200,9 @@ Cuando los mensajes de rebote suaves vuelven a informarse desde el servidor de c
 
 >[!NOTE]
 >
->Para obtener más información acerca de las devoluciones suaves y duras, consulte [esta sección](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>Para obtener más información acerca de las devoluciones suaves y duras, consulte [esta sección](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 >
->Para obtener más información sobre reintentos después de un error temporal de envío, consulte [esta sección](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+>Para obtener más información sobre reintentos después de un error temporal de envío, consulte [esta sección](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 
 Las siguientes tablas muestran los cambios en los KPI y los estados de envío de registros introducidos por la capacidad de EFS.
