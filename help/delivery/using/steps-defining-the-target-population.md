@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 100%
@@ -19,14 +19,14 @@ ht-degree: 100%
 
 Para cada entrega, se pueden definir varios tipos de destinatarios:
 
-* **Audiencia principal**: perfiles que recibirán mensajes. [Obtenga más información](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
-* **Prueba**: destinatarios de mensajes de prueba implicados en el ciclo de validación. [Obtenga más información](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
-* **Direcciones semilla**: destinatarios que estén fuera del objetivo de la entrega, pero que reciban la entrega (solo en el contexto de una campaña de marketing). [Obtenga más información](../../delivery/using/about-seed-addresses.md)
+* **Audiencia principal**: perfiles que recibirán mensajes. [Obtenga más información](steps-defining-the-target-population.md#selecting-the-main-target)
+* **Prueba**: destinatarios de mensajes de prueba implicados en el ciclo de validación. [Obtenga más información](steps-defining-the-target-population.md#defining-a-specific-proof-target)
+* **Direcciones semilla**: destinatarios que estén fuera del objetivo de la entrega, pero que reciban la entrega (solo en el contexto de una campaña de marketing). [Obtenga más información](about-seed-addresses.md)
 * **Grupos de control**: población que no recibe la entrega, se utiliza para realizar el seguimiento del comportamiento y el impacto de la campaña (solo en el contexto de una campaña de marketing). [Más información](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
 
 ## Selección de los principales destinatarios de la entrega {#selecting-the-main-target}
 
-En la mayoría de los casos, el objetivo principal se extrae de la base de datos de Adobe Campaign (modo predeterminado). No obstante, los destinatarios también se pueden almacenar en un archivo externo. Obtenga más información en [esta sección](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
+En la mayoría de los casos, el objetivo principal se extrae de la base de datos de Adobe Campaign (modo predeterminado). No obstante, los destinatarios también se pueden almacenar en un archivo externo. Obtenga más información en [esta sección](steps-defining-the-target-population.md#selecting-external-recipients).
 
 Para seleccionar los destinatarios de un envío, siga los siguientes pasos:
 
@@ -37,7 +37,7 @@ Para seleccionar los destinatarios de un envío, siga los siguientes pasos:
 
 1. Seleccione la asignación de destino en la lista desplegable **[!UICONTROL Target mapping]**. La asignación de destino predeterminada de Adobe Campaign es **[!UICONTROL Recipients]**, según el esquema **nms:destinatario** .
 
-   Están disponibles otras asignaciones de destino, y algunos pueden relacionarse con la configuración específica. Para obtener más información sobre las asignaciones de destino, consulte [Selección de una asignación de destino](../../delivery/using/selecting-a-target-mapping.md).
+   Están disponibles otras asignaciones de destino, y algunos pueden relacionarse con la configuración específica. Para obtener más información sobre las asignaciones de destino, consulte [Selección de una asignación de destino](selecting-a-target-mapping.md).
 
 1. Haga clic en el botón **[!UICONTROL Add]** para definir los filtros de restricción.
 
@@ -96,7 +96,7 @@ Para ello:
 
    ![](assets/s_ncs_user_wizard_external_recipients.png)
 
-1. De forma predeterminada, los destinatarios se importan en la base de datos. Se debe seleccionar **[!UICONTROL Target mapping]**. Para obtener más información sobre las asignaciones de destino, consulte [Selección de una asignación de destino](../../delivery/using/selecting-a-target-mapping.md).
+1. De forma predeterminada, los destinatarios se importan en la base de datos. Se debe seleccionar **[!UICONTROL Target mapping]**. Para obtener más información sobre las asignaciones de destino, consulte [Selección de una asignación de destino](selecting-a-target-mapping.md).
 
    También puede elegir **[!UICONTROL Do not import the recipients into the database]**.
 
@@ -150,7 +150,7 @@ Estas son las opciones disponibles:
 
    >[!NOTE]
    >
-   >Para obtener más información sobre la administración de cuarentena, consulte [Explicación de la administración de cuarentena](../../delivery/using/understanding-quarantine-management.md).
+   >Para obtener más información sobre la administración de cuarentena, consulte [Explicación de la administración de cuarentena](understanding-quarantine-management.md).
 
 * **[!UICONTROL Limit delivery]** a un número determinado de mensajes. Esta opción permite introducir el número máximo de mensajes a enviar. Si el contenido del objetivo supera el número de mensajes indicados, se le aplica una selección aleatoria.
 
@@ -181,11 +181,11 @@ Para seleccionar el destino de las pruebas, siga los siguientes pasos:
 
 Al seleccionar el objetivo de la prueba, la opción **[!UICONTROL Definition of a specific proof target]** permite seleccionar los destinatarios de prueba entre los perfiles de la base de datos.
 
-Seleccione esta opción para elegir los destinatarios que utilizan el botón **[!UICONTROL Add]**, como en el caso de la definición del destinatario principal. Consulte [Selección del destinatario principal](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target).
+Seleccione esta opción para elegir los destinatarios que utilizan el botón **[!UICONTROL Add]**, como en el caso de la definición del destinatario principal. Consulte [Selección del destinatario principal](steps-defining-the-target-population.md#selecting-the-main-target).
 
 ![](assets/s_ncs_user_wizard_email01_143.png)
 
-Para obtener más información sobre la entrega de prueba, consulte [esta sección](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+Para obtener más información sobre la entrega de prueba, consulte [esta sección](steps-validating-the-delivery.md#sending-a-proof).
 
 ### Uso de la sustitución de direcciones en la prueba {#using-address-substitution-in-proof}
 
@@ -219,17 +219,17 @@ Se pueden utilizar **[!UICONTROL Seed addresses]** como destinatario de las prue
 
 >[!NOTE]
 >
->Las direcciones semilla se presentan en [Acerca de las direcciones semilla](../../delivery/using/about-seed-addresses.md).
+>Las direcciones semilla se presentan en [Acerca de las direcciones semilla](about-seed-addresses.md).
 
 Se puede combinar la definición de un destinatario de prueba específico y el uso de direcciones semilla con la opción **[!UICONTROL Specific target and Seed addresses]**. Las configuraciones relacionadas se definen en dos subpestañas independientes.
 
 Asimismo, consulte lo siguiente:
 
 * [Selección del destino de la prueba](#selecting-the-proof-target)
-* [Acerca de las direcciones semilla](../../delivery/using/about-seed-addresses.md)
-* [Ejemplo de uso: selección de direcciones semilla según ciertos criterios](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+* [Acerca de las direcciones semilla](about-seed-addresses.md)
+* [Ejemplo de uso: selección de direcciones semilla según ciertos criterios](use-case--selecting-seed-addresses-on-criteria.md)
 
-## Videotutorial {#seeds-and-proofs-video}
+## Tutorial en vídeo {#seeds-and-proofs-video}
 
 En este vídeo aprenderá a añadir semillas y pruebas a un correo electrónico existente y a enviarlo.
 
