@@ -6,14 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 100%
 
 ---
 
-# Ejemplos de uso: creación de gestión de contenido{#use-case-creating-content-management}
+# Caso de uso: Creación de administración de contenido{#use-case-creating-content-management}
 
 Para crear la gestión de contenido en Adobe Campaign, siga los siguientes pasos:
 
@@ -58,7 +58,7 @@ Un esquema de datos es un documento XML asociado al contenido. Describe la estru
 >
 >Para obtener más información sobre la creación y configuración de esquemas de datos en Adobe Campaign, consulte [esta sección](../../configuration/using/about-schema-edition.md).
 >
->Los elementos de configuración específicos para la gestión de contenido se describen en [Esquemas de datos](../../delivery/using/data-schemas.md).
+>Los elementos de configuración específicos para la gestión de contenido se describen en [Esquemas de datos](data-schemas.md).
 
 Para crear un esquema de datos, aplique los pasos siguientes:
 
@@ -82,7 +82,7 @@ Para crear un esquema de datos, aplique los pasos siguientes:
 
    ![](assets/s_ncs_content_param_schema_step2.png)
 
-   Para obtener más información, consulte [Edición de esquemas](../../delivery/using/data-schemas.md#editing-schemas).
+   Para obtener más información, consulte [Edición de esquemas](data-schemas.md#editing-schemas).
 
    Para cada elemento al que se hace referencia en el contenido, se debe seleccionar un tipo que corresponda.
 
@@ -170,7 +170,7 @@ La descripción de un formulario es un documento XML estructurado que observa la
 >
 >Para obtener más información sobre la creación y configuración de formularios en Adobe Campaign, consulte [esta sección](../../configuration/using/identifying-a-form.md).
 >
->Los elementos de configuración específicos para la administración de contenido se describen en [Formularios de entrada](../../delivery/using/input-forms.md).
+>Los elementos de configuración específicos para la administración de contenido se describen en [Formularios de entrada](input-forms.md).
 
 Para crear un formulario de entrada de la gestión de contenido, siga estos pasos:
 
@@ -220,7 +220,7 @@ En este ejemplo, deseamos utilizar una plantilla JavaScript para definir el modo
 
 >[!NOTE]
 >
->Las limitaciones relacionadas con la creación de documentos (plantillas JavaScript o XSL) se detallan en [Formato](../../delivery/using/formatting.md).
+>Las limitaciones relacionadas con la creación de documentos (plantillas JavaScript o XSL) se detallan en [Formato](formatting.md).
 
 Para utilizar una plantilla JavaScript en Adobe Campaign, siga los siguientes pasos:
 
@@ -231,7 +231,7 @@ Para utilizar una plantilla JavaScript en Adobe Campaign, siga los siguientes pa
 1. Introduzca un nombre de plantilla y seleccione el esquema que ha creado para el gestor de contenido.
 1. Importe el contenido establecido que desea mostrar en el mensaje.
 
-   Añada los elementos variables respetando la sintaxis detallada en [Plantillas de JavaScript](../../delivery/using/formatting.md#javascript-templates).
+   Añada los elementos variables respetando la sintaxis detallada en [Plantillas de JavaScript](formatting.md#javascript-templates).
 
    Para visualizar el contenido mostrado en nuestro ejemplo, la plantilla JavaScript debe contener los siguientes elementos:
 
@@ -324,7 +324,7 @@ Para utilizar una plantilla JavaScript en Adobe Campaign, siga los siguientes pa
    </html>
    ```
 
-   Llamar a una función al comienzo de una plantilla permite configurar una llamada a los datos de personalización tomados de la base de datos de Adobe Campaign (en este caso: recipient.firstName y recipient.lastName), de manera que se pueda interpretar cuando se utilice en una entrega. Para más información, consulte [Inclusión de una plantilla de JavaScript](../../delivery/using/formatting.md#including-a-javascript-template).
+   Llamar a una función al comienzo de una plantilla permite configurar una llamada a los datos de personalización tomados de la base de datos de Adobe Campaign (en este caso: recipient.firstName y recipient.lastName), de manera que se pueda interpretar cuando se utilice en una entrega. Para más información, consulte [Inclusión de una plantilla de JavaScript](formatting.md#including-a-javascript-template).
 
    En este ejemplo, la función contiene el siguiente código:
 
@@ -353,7 +353,7 @@ El siguiente paso implica la creación de una plantilla de publicación de conte
 
 >[!NOTE]
 >
->Para obtener más información sobre las plantillas de publicación de contenido, consulte [Plantillas de publicación](../../delivery/using/publication-templates.md).
+>Para obtener más información sobre las plantillas de publicación de contenido, consulte [Plantillas de publicación](publication-templates.md).
 
 En este ejemplo, los pasos son los siguientes:
 
@@ -379,7 +379,7 @@ Ahora se puede crear contenido basado en esta plantilla de publicación.
 
 >[!NOTE]
 >
->Para obtener más información sobre la creación de contenidos, consulte [Uso de una plantilla de contenido](../../delivery/using/using-a-content-template.md).
+>Para obtener más información sobre la creación de contenidos, consulte [Uso de una plantilla de contenido](using-a-content-template.md).
 
 ### Creación de contenido en el asistente de envíos {#creating-content-in-the-delivery-wizard}
 
