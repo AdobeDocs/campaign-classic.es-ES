@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 6c48cfea-6d20-4462-a485-71e1575a08a7
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e3e2ac09de6a9e846e9f9262d522b9395a725648
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 6%
+source-wordcount: '128'
+ht-degree: 7%
 
 ---
 
@@ -27,6 +27,6 @@ A continuación, puede comprobar la estructura del esquema generado en las pesta
 >
 >Si necesita forzar la regeneración de todos los esquemas, por ejemplo para resolver ciertos problemas de dependencia en los vínculos inversos, puede iniciar el siguiente comando desde el servidor de aplicaciones de Adobe Campaign:
 >
->**nlserver config -postupgrade -instance:`&lt;instance_name>&#39; -force**
+> `nlserver config -postupgrade -instance:`&lt;instance_name>` -force`
 >
 >A continuación, debe reiniciar el servidor de aplicaciones de Adobe Campaign y desconectar/volver a conectar con la consola del cliente.
