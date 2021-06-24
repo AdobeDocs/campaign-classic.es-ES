@@ -6,16 +6,16 @@ feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: e927b7fc-95cd-4e08-bab7-ceeb6e67c265
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: c0a3d9217696f5f5622a6af8f64c62b1a9fbce20
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1951'
 ht-degree: 98%
 
 ---
 
 # Versión 20.3{#release-20-3}
 
-## ![](assets/do-not-localize/red_2.png) Versión 20.3.3: compilación 9234 {#release-20-3-3-build-9234}
+## ![](assets/do-not-localize/red_2.png) Versión 20.3.3, compilación 9234 {#release-20-3-3-build-9234}
 
 _11 de enero de 2021_
 
@@ -25,13 +25,13 @@ _11 de enero de 2021_
 
 * Se ha corregido un problema de regresión relacionado con el proceso de generación de registros de banda ancha que podía provocar el bloqueo del proceso de MTA.
 
-## ![](assets/do-not-localize/red_2.png) Versión 20.3.1 - Compilación 9228 {#release-20-3-1-build-9228}
+## ![](assets/do-not-localize/red_2.png) Versión 20.3.1, compilación 9228 {#release-20-3-1-build-9228}
 
 _27 de octubre de 2020_
 
 >[!CAUTION]
 >
-> * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**.
+> * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**. [Más información](../../technotes/ims-updates.md)
 > * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
 > * Si está utilizando la integración de Experience Cloud Triggers mediante autenticación oAuth, debe ir a Adobe I/O como se detalla [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación oAuth heredado con Campaign se eliminará el **30 de noviembre de 2021**.
 
