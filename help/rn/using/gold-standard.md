@@ -6,10 +6,10 @@ feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: c0a3d9217696f5f5622a6af8f64c62b1a9fbce20
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 100%
+source-wordcount: '1060'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Esta página enumera las versiones de [!DNL Gold Standard]. Obtenga más información acerca de Campaign [!DNL Gold Standard] [en esta página](gs-overview.md).
 
-## Versión 11 de ![](assets/do-not-localize/green_2.png) [!DNL Gold Standard]{#gs-11}
+## ![](assets/do-not-localize/green_2.png) [!DNL Gold Standard] Versión 11{#gs-11}
 
 _14 de abril de 2021_
 
@@ -43,11 +43,13 @@ _22 de diciembre de 2020_
 
 >[!CAUTION]
 >
-> * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**.
+> * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**. [Más información](../../technotes/ims-updates.md)
 > * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
 > * Si está utilizando la integración de Experience Cloud Triggers mediante autenticación oAuth, debe ir a Adobe I/O como se detalla [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación oAuth heredado con Campaign se eliminará el **30 de noviembre de 2021**.
+
 >
->Obtenga más información en las Preguntas frecuentes sobre la actualización a [[!DNL Gold Standard] 11](https://helpx.adobe.com/es/campaign/kb/sms-connector-protocol-and-settings.html).
+>
+Obtenga más información en las Preguntas frecuentes sobre la actualización a [[!DNL Gold Standard] 11](https://helpx.adobe.com/es/campaign/kb/sms-connector-protocol-and-settings.html).
 
 La versión 9032@d3b452f incluye las siguientes mejoras y correcciones:
 
@@ -64,7 +66,7 @@ La versión 9032@d3b452f incluye las siguientes mejoras y correcciones:
 
 * Se ha corregido un problema que podía provocar errores en los flujos de trabajo al ejecutar una actividad de **Enriquecimiento**. (NEO-17338)
 
-## Versión 10 de ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard]{#gs-10}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] Versión 10{#gs-10}
 
 _7 de julio de 2020_
 
@@ -76,7 +78,7 @@ Se ha corregido un problema que impedía que el seguimiento funcionara cuando la
 >
 >Le recomendamos que actualice la consola de cliente con la que está disponible en esta versión. Consulte [esta página](../../installation/using/installing-the-client-console.md)
 
-## Versión 9 de ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard]{#gs-9}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] versión 9{#gs-9}
 
 _22 de junio de 2020_
 
@@ -96,7 +98,7 @@ Las siguientes correcciones están relacionadas con el mecanismo de seguridad de
 
 
 
-## Versión 8 de ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard]{#gs-8}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] versión 8{#gs-8}
 
 _29 de abril de 2020_
 
@@ -121,7 +123,7 @@ La versión 9032@3a9dc9c incluye las siguientes correcciones:
 * Se ha corregido una regresión que ocasionaba que el flujo de trabajo de limpieza se bloqueara.
 * Se ha corregido una regresión menor en los registros del flujo de trabajo de limpieza.
 
-## Versión 6 de ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard]{#gs-6}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] versión 6{#gs-6}
 
 _9 de marzo de 2020_
 
@@ -129,7 +131,7 @@ La versión 9032@19f73c5 incluye la siguiente corrección:
 
 * Se ha corregido un problema con cuentas externas que usaban FTP sobre SSL. (NEO-20498)
 
-## Versión 5 de ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard]{#gs-5}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] versión 5{#gs-5}
 
 _17 de diciembre de 2019_
 
@@ -137,7 +139,7 @@ La versión 9032@d6b8062 incluye la siguiente corrección:
 
 * Se ha corregido un problema de seguimiento en los siguientes canales de comunicación: móvil (SMS, MMS), push (iOS, Android) y redes sociales (Facebook, Twitter). (NEO-19595)
 
-## Versión 4 de ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard]{#gs-4}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] versión 4{#gs-4}
 
 _11 de diciembre de 2019_
 
@@ -145,7 +147,7 @@ La versión 9032@bc4a935 incluye la siguiente corrección:
 
 * Se ha corregido un problema de rendimiento al enviar mensajes con una base de datos MSSQL. (NEO-17558)
 
-## Versión 3 de ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard]{#gs-3}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] versión 3{#gs-3}
 
 _20 de noviembre de 2019_
 
@@ -155,7 +157,7 @@ La versión 9032@3468c7b incluye las siguientes correcciones:
 * Se ha corregido un problema al mostrar informes acumulativos en varias entregas. (NEO-18165)
 * Se ha corregido un problema que podía bloquear o colapsar el servidor web.
 
-## Versión 2 de ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard]{#gs-2}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] versión 2{#gs-2}
 
 _19 de septiembre de 2019_
 
@@ -164,7 +166,7 @@ La versión 9032@cee805c incluye las siguientes correcciones:
 * Se ha corregido un problema al usar el conector CRM para Salesforce. (NEO-17712)
 * Se ha corregido un problema de índice que podía provocar problemas de rendimiento al enviar mensajes transaccionales.
 
-## ![](assets/do-not-localize/red_2.png) Versión 19.1.4: compilación 9032{#release-19-1-4-build-9032}
+## ![](assets/do-not-localize/red_2.png) Versión 19.1.4, compilación 9032{#release-19-1-4-build-9032}
 
 _13 de agosto de 2019_
 
