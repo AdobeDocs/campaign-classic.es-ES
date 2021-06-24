@@ -6,16 +6,16 @@ feature: null
 role: null
 level: null
 exl-id: 3c529e4e-8787-41d2-b85d-3feaa5432196
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: c0a3d9217696f5f5622a6af8f64c62b1a9fbce20
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1544'
 ht-degree: 99%
 
 ---
 
 # Versión 19.2{#release-19-2}
 
-## ![](assets/do-not-localize/limited_2.png) Versión 19.2.4: compilación 9082 {#release-19-2-4-build-9082}
+## ![](assets/do-not-localize/limited_2.png) Versión 19.2.4, compilación 9082 {#release-19-2-4-build-9082}
 
 _15 de abril de 2021_
 
@@ -41,9 +41,10 @@ _23 de diciembre de 2020_
 
 >[!CAUTION]
 >
-> * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**.
->
-> * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
+> * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**. [Más información](../../technotes/ims-updates.md)
+   >
+   > 
+* Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
 
 
 
@@ -53,7 +54,7 @@ _23 de diciembre de 2020_
 
 
 
-## ![](assets/do-not-localize/red_2.png) Versión 19.2.3 - Compilación 9081 {#release-19-2-3-build-9081}
+## ![](assets/do-not-localize/red_2.png) Versión 19.2.3, compilación 9081 {#release-19-2-3-build-9081}
 
 _lunes, 7 de febrero de 2020_
 
@@ -62,7 +63,7 @@ _lunes, 7 de febrero de 2020_
 * Se ha corregido un problema de regresión debido a la implementación de la certificación SSL que hacía que la conexión del usuario fallara en el servidor de Windows. (NEO-20629)
 * Se ha corregido un problema que mostraba un número de etiqueta de versión incorrecto en el menú **Acerca de**.
 
-## ![](assets/do-not-localize/red_2.png) Versión 19.2 - Compilación 9080 {#release-19-2-build-9080}
+## ![](assets/do-not-localize/red_2.png) Versión 19.2, compilación 9080 {#release-19-2-build-9080}
 
 _2 de diciembre de 2019_
 
