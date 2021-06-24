@@ -3,7 +3,7 @@ keywords: Campaign Classic, inicio, temas populares
 product: campaign
 title: Documentación del producto de Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: a9120e2db43fcb035e9760819e9c53148979da4f
+source-git-commit: c0a3d9217696f5f5622a6af8f64c62b1a9fbce20
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 84%
@@ -20,9 +20,9 @@ ht-degree: 84%
 
 * **[Preguntas frecuentes sobre la protección de la privacidad del correo de Apple](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> Encuentre instrucciones iniciales en respuesta al anuncio de Apple con respecto a iOS 15
 
-* **[Eliminación de devoluciones graves incorrectas](delivery/using/update-bounce-qualification.md)**<br/> Aprenda a actualizar las devoluciones graves incorrectas tras la interrupción de Apple
+* **[¿Conexión a través de IMS/ID de Adobe? Actualice a las últimas compilaciones](technotes/ims-updates.md)**<br/> Si utiliza IMS para conectarse a Campaign, debe actualizar para poder seguir conectándose después del** 30 de junio de 2021 **
 
-* **[¿Conexión a través de IMS/ID de Adobe? Actualice a las últimas compilaciones](integrations/using/about-adobe-id.md)**<br/> Si utiliza IMS para conectarse a Campaign, debe actualizar para poder seguir conectándose después del** 30 de junio de 2021 **
+* **[Eliminación de devoluciones graves incorrectas](delivery/using/update-bounce-qualification.md)**<br/> Aprenda a actualizar las devoluciones graves incorrectas tras la interrupción de Apple
 
 * **[Proteja sus instancias de Campaign](technotes/acc-config-updates.md)**<br/> Actualice a las últimas compilaciones para proteger su plataforma de Campaign
 
