@@ -6,9 +6,9 @@ feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: c0a3d9217696f5f5622a6af8f64c62b1a9fbce20
 workflow-type: tm+mt
-source-wordcount: '2970'
+source-wordcount: '2972'
 ht-degree: 92%
 
 ---
@@ -44,7 +44,7 @@ _31 de marzo de 2021_
 * Se ha corregido un problema que podría provocar que el flujo de trabajo de facturación falle al usar una asignación de destino personalizada. La clave principal del esquema personalizado se almacena en la columna &quot;sourceId&quot;, que solo permitía valores enteros. Ahora permite valores enteros y de cadena. (NEO-25914, NEO-28146)
 * Se ha corregido una regresión que impedía el uso de algunos componentes de la consola, como el selector de fechas y la administración de imágenes en los envíos. (NEO-31453)
 
-## ![](assets/do-not-localize/red_2.png) Versión 20.2.4: compilación 9187 {#release-20-2-4-build-9187}
+## ![](assets/do-not-localize/red_2.png) Versión 20.2.4, compilación 9187 {#release-20-2-4-build-9187}
 
 _15 de abril de 2021_
 
@@ -61,7 +61,7 @@ _22 de diciembre de 2020_
 
 >[!CAUTION]
 >
-> * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**.
+> * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**.  [Más información](../../technotes/ims-updates.md)
 > * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
 > * Si está utilizando la integración de Experience Cloud Triggers mediante autenticación oAuth, debe ir a Adobe I/O como se detalla [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación oAuth heredado con Campaign se eliminará el **30 de noviembre de 2021**.
 
@@ -101,7 +101,7 @@ _22 de diciembre de 2020_
 
 ![](assets/do-not-localize/cp-icon.png) **la nueva versión de Panel de control de Campaign de octubre** con configuración de dominio mediante CNAME y nuevas funciones de supervisión de bases de datos. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
 
-## ![](assets/do-not-localize/red_2.png) Versión 20.2.3: compilación 9182 {#release-20-2-3-build-9182}
+## ![](assets/do-not-localize/red_2.png) Versión 20.2.3, compilación 9182 {#release-20-2-3-build-9182}
 
 _11 de septiembre de 2020_
 
@@ -126,7 +126,7 @@ _11 de septiembre de 2020_
 * La corrección de una regresión después de la actualización provoca un inicio incorrecto de nlserver (registros de errores).
 * Se ha mejorado la administración de actualizaciones para la memoria compartida. Los pasos adicionales requeridos en 20.2 ya no son necesarios.
 
-## ![](assets/do-not-localize/red_2.png) Versión 20.2.2 - Compilación 9180 {#release-20-2-2-build-9180}
+## ![](assets/do-not-localize/red_2.png) Versión 20.2.2, compilación 9180 {#release-20-2-2-build-9180}
 
 _22 de julio de 2020_
 
@@ -155,7 +155,7 @@ _22 de julio de 2020_
 
 ![](assets/do-not-localize/cp-icon.png) **Nuevo lanzamiento del Panel de control de Campaign en junio** con monitorización de perfiles activos, auditoría de entregas de subdominios y administración de claves GPG. [Más información](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
-## ![](assets/do-not-localize/red_2.png) Versión 20.2.1 - Compilación 9178 {#release-20-2-1-build-9178}
+## ![](assets/do-not-localize/red_2.png) Versión 20.2.1, compilación 9178 {#release-20-2-1-build-9178}
 
 _lunes, 8 de junio de 2020_
 
