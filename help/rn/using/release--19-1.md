@@ -6,16 +6,16 @@ feature: null
 role: null
 level: null
 exl-id: 8540b5f0-194b-45f3-b497-5d30efb318b8
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: c0a3d9217696f5f5622a6af8f64c62b1a9fbce20
 workflow-type: tm+mt
-source-wordcount: '3256'
+source-wordcount: '3258'
 ht-degree: 99%
 
 ---
 
 # Versión 19.1{#release-19-1}
 
-## ![](assets/do-not-localize/limited_2.png) Versión 19.1.8: compilación 9039 {#release-19-1-8-build-9039}
+## ![](assets/do-not-localize/limited_2.png) Versión 19.1.8, compilación 9039 {#release-19-1-8-build-9039}
 
 _15 de abril de 2021_
 
@@ -41,7 +41,7 @@ _16 de diciembre de 2020_
 
 >[!CAUTION]
 >
-> * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**.
+> * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**. [Más información](../../technotes/ims-updates.md)
 > * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
 > * Si está utilizando la integración de Experience Cloud Triggers mediante autenticación oAuth, debe ir a Adobe I/O como se detalla [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación oAuth heredado con Campaign se eliminará el **30 de noviembre de 2021**.
 
@@ -89,7 +89,7 @@ Tomcat se ha actualizado de la versión 7 (7.0.103) a la versión 8 (8.5.57). El
 
 En Linux, el inicio del servicio nlserver ahora utiliza una unidad sistémica en lugar de la secuencia de comandos /etc/init.d/nlserver6. La migración al nuevo esquema de inicio se realiza automáticamente al instalar el paquete 19.1.8. Aún se proporciona el /etc/init.d/nlserver6; sin embargo, para interactuar con el servicio nlserver (inicio, reinicio, parada, etc.), se recomienda utilizar el comando systemctl directamente.
 
-## ![](assets/do-not-localize/red_2.png) Versión 19.1.7: compilación 9036 {#release-19-1-7-build-9036}
+## ![](assets/do-not-localize/red_2.png) Versión 19.1.7, compilación 9036 {#release-19-1-7-build-9036}
 
 _15 de septiembre de 2020_
 
@@ -131,7 +131,7 @@ _15 de septiembre de 2020_
 
 * Se ha corregido una regresión que provocaba la selección de una zona horaria incorrecta al establecer la hora en una actividad de flujo de trabajo de **Planificador**.
 
-## ![](assets/do-not-localize/red_2.png) Versión 19.1.6: compilación 9035 {#release-19-1-6-build-9035}
+## ![](assets/do-not-localize/red_2.png) Versión 19.1.6, compilación 9035 {#release-19-1-6-build-9035}
 
 >[!CAUTION]
 >
@@ -147,7 +147,7 @@ _3 de octubre de 2019_
 * Se ha corregido un problema que podía hacer que el servidor intermediario no procesara determinados mensajes. (NEO-12395)
 * Se ha corregido un problema que impedía el uso completo de la actividad de Administración de datos SQL (faltaba la “Administración de datos SQL” denominada right).
 
-## ![](assets/do-not-localize/red_2.png) Versión 19.1.5: compilación 9033{#release-19-1-5-build-9033}
+## ![](assets/do-not-localize/red_2.png) Versión 19.1.5, compilación 9033{#release-19-1-5-build-9033}
 
 _13 de agosto de 2019_
 
@@ -165,14 +165,14 @@ _13 de agosto de 2019_
 
 * Se ha corregido una regresión que provocaba la selección de una zona horaria incorrecta al establecer la hora en una actividad de flujo de trabajo de Planificador.
 
-## ![](assets/do-not-localize/green_2.png) Versión 19.1.4: compilación 9032{#release-19-1-4-build-9032}
+## ![](assets/do-not-localize/green_2.png) Versión 19.1.4, compilación 9032{#release-19-1-4-build-9032}
 
 >[!NOTE]
 >
 >Las versiones 19.1.4 [!DNL Gold Standard] se enumeran en esta [página](../../rn/using/gold-standard.md).
 
 
-## ![](assets/do-not-localize/red_2.png) Versión 19.1.2: compilación 9029{#release-19-1-2-build-9029}
+## ![](assets/do-not-localize/red_2.png) Versión 19.1.2, compilación 9029{#release-19-1-2-build-9029}
 
 _21 de junio de 2019_
 
@@ -188,7 +188,7 @@ _21 de junio de 2019_
 * Ahora prohibimos la eliminación de los registros de prueba creados en Microsoft Dynamics durante el flujo de trabajo de importación.
 * Se han mejorado los permisos para ejecutar el paquete de zona de seguridad cuando utilice una cuenta interna.
 
-## ![](assets/do-not-localize/red_2.png) Versión 19.1: compilación 9026{#release-19-1-build-9026}
+## ![](assets/do-not-localize/red_2.png) Versión 19.1, compilación 9026{#release-19-1-build-9026}
 
 _30 de mayo de 2019_
 
