@@ -6,16 +6,16 @@ feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: 7e4234c9-3d8f-4014-a870-75e91cfad725
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: c0a3d9217696f5f5622a6af8f64c62b1a9fbce20
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1562'
 ht-degree: 100%
 
 ---
 
 # Versión 20.1{#release-20-1}
 
-## ![](assets/do-not-localize/limited_2.png) Versión 20.1.4: compilación 9126 {#release-20-1-4-build-9126}
+## ![](assets/do-not-localize/limited_2.png) Versión 20.1.4, compilación 9126 {#release-20-1-4-build-9126}
 
 _15 de abril de 2021_
 
@@ -41,9 +41,10 @@ _23 de diciembre de 2020_
 
 >[!CAUTION]
 >
-> * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**.
->
-> * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
+> * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**. [Más información](../../technotes/ims-updates.md)
+   >
+   > 
+* Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
 
 
 * El protocolo de conexión se ha actualizado para seguir el nuevo mecanismo de autenticación IMS.
@@ -52,19 +53,19 @@ _23 de diciembre de 2020_
 
 
 
-## ![](assets/do-not-localize/red_2.png) Versión 20.1.3 - Compilación 9124{#release-20-1-3-build-9124}
+## ![](assets/do-not-localize/red_2.png) Versión 20.1.3, compilación 9124{#release-20-1-3-build-9124}
 
 _miércoles, 6 de mayo de 2020_
 
 * Se ha corregido un problema con la actividad **File Transfer** que impedía que la autenticación basada en claves SFTP funcionara en Debian 9. (NEO-23183)
 
-## ![](assets/do-not-localize/red_2.png) Versión 20.1.2: compilación 9123{#release-20-1-2-build-9123}
+## ![](assets/do-not-localize/red_2.png) Versión 20.1.2, compilación 9123{#release-20-1-2-build-9123}
 
 _viernes, 13 de marzo de 2020_
 
 * Se ha corregido un problema que impedía la implementación de versiones en servidores de Red Hat 7. (NEO-23332)
 
-## ![](assets/do-not-localize/red_2.png) Versión 20.1: compilación 9122{#release-20-1-build-9122}
+## ![](assets/do-not-localize/red_2.png) Versión 20.1, compilación 9122{#release-20-1-build-9122}
 
 _lunes, 17 de febrero de 2020_
 
