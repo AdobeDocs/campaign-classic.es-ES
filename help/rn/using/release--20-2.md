@@ -6,9 +6,9 @@ feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
-source-git-commit: c0a3d9217696f5f5622a6af8f64c62b1a9fbce20
+source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
 workflow-type: tm+mt
-source-wordcount: '2972'
+source-wordcount: '2968'
 ht-degree: 92%
 
 ---
@@ -99,7 +99,7 @@ _22 de diciembre de 2020_
 
 
 
-![](assets/do-not-localize/cp-icon.png) **la nueva versión de Panel de control de Campaign de octubre** con configuración de dominio mediante CNAME y nuevas funciones de supervisión de bases de datos. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **la nueva versión de Panel de control de Campaign de octubre** con configuración de dominio mediante CNAME y nuevas funciones de supervisión de bases de datos. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=es).
 
 ## ![](assets/do-not-localize/red_2.png) Versión 20.2.3, compilación 9182 {#release-20-2-3-build-9182}
 
@@ -153,7 +153,7 @@ _22 de julio de 2020_
 * Después del cambio al [nuevo mecanismo de ID de secuencia](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence), todas las aplicaciones web que actualizan la tabla de destinatario se vuelven a publicar después de la actualización.
 * Se ha corregido una potencial vulnerabilidad XSS en el contenido de envío. (NEO-17987, NEO-26073)
 
-![](assets/do-not-localize/cp-icon.png) **Nuevo lanzamiento del Panel de control de Campaign en junio** con monitorización de perfiles activos, auditoría de entregas de subdominios y administración de claves GPG. [Más información](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nuevo lanzamiento del Panel de control de Campaign en junio** con monitorización de perfiles activos, auditoría de entregas de subdominios y administración de claves GPG. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
 ## ![](assets/do-not-localize/red_2.png) Versión 20.2.1, compilación 9178 {#release-20-2-1-build-9178}
 
