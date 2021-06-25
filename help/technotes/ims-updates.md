@@ -4,7 +4,7 @@ title: Actualice el entorno para conectarse a Adobe Campaign con IMS
 description: 'Campaign: Actualizaciones de IMS'
 hide: true
 hidefromtoc: true
-source-git-commit: b8f3ba60e34f6c5429c63ed934083ebae180cf43
+source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 11%
@@ -38,13 +38,13 @@ Si ya ha actualizado pero utiliza una versión antigua de Microsoft Internet Exp
    La actualización a una de las nuevas versiones que se enumeran a continuación es obligatoria:
 
    * Gold Standard 11. [Más información](../rn/using/gold-standard.md)
-   * Versión 20.3.3 de Campaign. [Más información](../rn/using/release--20-3.md)
+   * Versión 21.1.3 de Campaign. [Más información](../rn/using/latest-release.md)
    * Versión 20.2.4 de Campaign. [Más información](../rn/using/release--20-2.md)
    * Versión 20.1.4 de Campaign. [Más información](../rn/using/release--20-1.md)
    * Versión 19.2.4 de Campaign. [Más información](../rn/using/release--19-2.md)
    * Versión 19.1.8 de Campaign. [Más información](../rn/using/release--19-1.md)
 
-Estas versiones incluyen un nuevo protocolo de conexión. La actualización es obligatoria tanto para el servidor de Campaign como para la consola del cliente: una vez actualizadas todas las instancias, la consola de cliente debe actualizarse a esta versión, así como para poder conectarse a Campaign después del **30 de junio de 2021**.
+   Estas versiones incluyen un nuevo protocolo de conexión. La actualización es obligatoria tanto para el servidor de Campaign como para la consola del cliente: una vez actualizadas todas las instancias, la consola de cliente debe actualizarse a esta versión, así como para poder conectarse a Campaign después del **30 de junio de 2021**.
 
 Además, asegúrese de que la última actualización de su [versión de Windows](../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems), con **Internet Explorer 11** incorporada, esté instalada en el equipo de cada usuario.
 
