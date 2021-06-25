@@ -6,9 +6,9 @@ feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: fc40dae282c045dd73547e34ea307297f64c66fa
+source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
 workflow-type: tm+mt
-source-wordcount: '4470'
+source-wordcount: '4466'
 ht-degree: 97%
 
 ---
@@ -460,7 +460,7 @@ La documentación del Panel de control se ha integrado en el nuevo conjunto de d
 
 Se ha actualizado la guía de introducción a las prácticas recomendadas de entrega. [Más información](../../delivery/using/delivery-best-practices.md)
 
-## Octubre de 2019 {#october-2019}
+## de octubre de 2019 {#october-2019}
 
 Se ha actualizado la lista de mensajes de error para Campaign. [Más información](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
 
@@ -492,7 +492,7 @@ Se han actualizado las prácticas recomendadas para mejorar el rendimiento de lo
 
 **Nuevas funciones incluidas en la versión 19.1**
 
-Panel de control: [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html)
+Panel de control: [Más información](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 Pista de auditoría: [Más información](../../production/using/audit-trail.md)
 
@@ -567,7 +567,7 @@ Se ha actualizado la Guía de cambio de tamaño de hardware de Campaign. [Más i
 
 Se agregó información sobre la Banda de consultas para la cuenta externa de Teradata. [Más información](../../installation/using/external-accounts.md)
 
-## Enero de 2019 {#release-doc-16-01-2019}
+## de enero de 2019{#release-doc-16-01-2019}
 
 Se ha actualizado la nota técnica Marketing Cloud Triggers. [Más información](../../integrations/using/about-triggers.md)
 
@@ -599,4 +599,4 @@ La sección “Supervisión del flujo de trabajo” se ha actualizado con una no
 
 Se ha añadido un caso de uso sobre cómo enviar un correo electrónico con campos de datos personalizados mediante la actividad Enriquecimiento en un flujo de trabajo. [Más información](../../workflow/using/email-enrichment-with-custom-date-fields.md)
 
-Los vídeos de funciones se han movido [aquí](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/overview.html).
+Los vídeos de funciones se han movido [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
