@@ -8,9 +8,9 @@ level: Beginner
 exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 hidefromtoc: true
 hide: true
-source-git-commit: 6059693522850c13569b2c8f33137531276a3bd0
+source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1682'
 ht-degree: 99%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->El conector de datos de Adobe Analytics ya no se utiliza. Las funcionalidades van a seguir estando disponibles, pero no se van a mejorar ni admitir. Obtenga más información [en esta página](../../rn/using/deprecated-features.md).
+>Conectores de datos de Adobe Analytics está en desuso. Las funcionalidades van a seguir estando disponibles, pero no se van a mejorar ni admitir. Obtenga más información [en esta página](../../rn/using/deprecated-features.md).
 
 ## Acerca de la integración de conectores de datos {#about-data-connector-integration}
 
@@ -68,7 +68,7 @@ Los pasos siguientes detallan la configuración del conector de datos mediante u
 
 1. En la pestaña **[!UICONTROL Admin]**, seleccione **[!UICONTROL Data Connectors]**.
 
-   Debe tener los siguientes permisos de herramientas de Analytics para acceder al menú **[!UICONTROL Data Connectors]**. Para obtener más información, consulte [esta página](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-console/permissions/analytics-tools.html)
+   Debe tener los siguientes permisos de herramientas de Analytics para acceder al menú **[!UICONTROL Data Connectors]**. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html)
    * Integraciones (Crear)
    * Integraciones (Actualización)
    * Integraciones (Eliminar)
