@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 9f1b0974-f8bd-430f-88fe-9c09b0074d3b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '510'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ¿Necesita ayuda para trabajar con Campaign Classic? Lea las 10 preguntas más frecuentes a continuación y otras preguntas frecuentes de esa página. También puede realizar lo siguiente:
 
-* [Ver vídeos de tutoriales](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/overview.html)
+* [Ver vídeos de tutoriales](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es)
 * [Examinar opciones de autoayuda](../../platform/using/tutorials.md#how-to-videos)
 * [Leer la sección de casos de uso e introducción](../../platform/using/tutorials.md#step-by-step-guides)
 * ¿No encuentra la respuesta? [Preguntar a un experto](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
