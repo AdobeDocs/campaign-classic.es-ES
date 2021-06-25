@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
-source-git-commit: 0e0912c68d132919eeac9b91b93960e70011153e
+source-git-commit: 98bbbb36c9f8156cc34e826a024ff6e6e3f3fee3
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 83%
@@ -28,7 +28,7 @@ Se recomienda enfáticamente incluir direcciones URL en delimitadores en la pest
 * Brackets [ ]
 * Braces { }
 
-En este ejemplo, la dirección URL https://www.adobe.com va seguida de un punto y coma (;). Los clientes de correo electrónico del destinatario pueden interpretar el punto y coma como parte de la dirección URL. Como resultado, el vínculo puede estar roto. Para evitar este problema, puede incluir la URL en delimitadores de una de las siguientes maneras:
+En este ejemplo, la dirección URL https://www.adobe.com va seguida de un punto y coma. Los clientes de correo electrónico del destinatario pueden interpretar el punto y coma como parte de la dirección URL. Como resultado, el vínculo puede estar roto. Para evitar este problema, puede incluir la URL en delimitadores de una de las siguientes maneras:
 * (https://www.adobe.com);
 * [https://www.adobe.com];
 * {https://www.adobe.com};
