@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 100%
@@ -51,7 +51,7 @@ La pestaña **[!UICONTROL Translations]** permite introducir traducciones para l
 
 La primera vez que abre esta pestaña, puede ver que no contiene datos. Haga clic en el enlace **[!UICONTROL Collect the strings to translate]** para actualizar las unidades en la aplicación web.
 
-Adobe Campaign recopila etiquetas de campos y unidades definidas en las pestañas **[!UICONTROL Texts]** de todos los elementos estáticos: Bloques HTML, Javascript, etc. Los elementos estáticos se detallan en [elementos estáticos en un formulario web](../../web/using/static-elements-in-a-web-form.md).
+Adobe Campaign recopila etiquetas de campos y unidades definidas en las pestañas **[!UICONTROL Texts]** de todos los elementos estáticos: Bloques HTML, Javascript, etc. Los elementos estáticos se detallan en [elementos estáticos en un formulario web](static-elements-in-a-web-form.md).
 
 ![](assets/s_ncs_admin_survey_trad_tab.png)
 
