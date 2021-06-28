@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
 workflow-type: tm+mt
 source-wordcount: '1902'
 ht-degree: 100%
@@ -285,8 +285,8 @@ Los costes de entrega de una campaña se consolidan al nivel de campaña y los c
 
 ### Implementación {#implementation}
 
-En una campaña, cuando seleccione el presupuesto, debe introducir la cantidad inicial. Los costes calculados se actualizan de forma automática según el nivel de compromiso de las cantidades introducidas (gastos realizados, previstos, reservados, comprometidos). Consulte [Cálculo de importes](../../campaign/using/controlling-costs.md#calculating-amounts).
+En una campaña, cuando seleccione el presupuesto, debe introducir la cantidad inicial. Los costes calculados se actualizan de forma automática según el nivel de compromiso de las cantidades introducidas (gastos realizados, previstos, reservados, comprometidos). Consulte [Cálculo de importes](../../mrm/using/controlling-costs.md#calculating-amounts).
 
 >[!NOTE]
 >
->El procedimiento para crear presupuestos se presenta en [Creación de un presupuesto](../../campaign/using/controlling-costs.md#creating-a-budget).
+>El procedimiento para crear presupuestos se presenta en [Creación de un presupuesto](../../mrm/using/controlling-costs.md#creating-a-budget).
