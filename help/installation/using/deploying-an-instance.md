@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
 workflow-type: tm+mt
-source-wordcount: '3058'
+source-wordcount: '3048'
 ht-degree: 3%
 
 ---
@@ -70,7 +70,7 @@ El siguiente paso permite definir la información que se debe mostrar en los enc
 
 Estos parámetros se pueden sobrecargar en plantillas de envío e individualmente para cada envío (si los usuarios tienen los derechos requeridos).
 
-### Parámetros para correos electrónicos enviados {#parameters-for-delivered-emails}
+### Parámetros de los correos electrónicos enviados {#parameters-for-delivered-emails}
 
 ![](assets/s_ncs_install_deployment_wiz_04.png)
 
@@ -130,7 +130,7 @@ Este paso permite definir la configuración para administrar los correos electr�
 
 ![](assets/s_ncs_install_deployment_wiz_06.png)
 
-### Cuenta POP utilizada para recuperar los correos entrantes {#pop-account-used-to-retrieve-incoming-mails}
+### Cuenta POP utilizada para recuperar correos entrantes {#pop-account-used-to-retrieve-incoming-mails}
 
 Indique los parámetros que se van a conectar a la cuenta para recuperar los correos electrónicos entrantes.
 
@@ -301,7 +301,7 @@ Esta etapa permite incluir las preferencias de la política de datos.
 * **[!UICONTROL Consider all phone numbers as international ones]** : Cuando se selecciona esta opción, la aplicación aplica el formato internacional a los números de teléfono (el prefijo country es obligatorio porque el número de dígitos no se comprobará antes de aplicar el formato). Si esta opción no está seleccionada, debe anteponer el número de teléfono internacional con &quot;+&quot; o &quot;00&quot; usted mismo.
 * **[!UICONTROL Store all phone numbers using the international format]** : Esta opción solo afecta a los números de teléfono  **** nacionales importados o editados. Defina si desea utilizar un formato doméstico (como 425 555 0150) o el formato internacional (p. ej. +1 425 55 0150)
 
-## Acceso desde Internet {#access-from-the-internet}
+## Acceso a Internet {#access-from-the-internet}
 
 >[!IMPORTANT]
 >
@@ -372,7 +372,7 @@ Puede especificar varias máscaras de URL usando una coma para separar cada una 
 
 ### Modos de publicación {#publication-modes}
 
-La sección inferior del asistente le permite seleccionar las opciones de publicación de recursos públicos e imágenes. Estas opciones también están disponibles para los formularios web y las encuestas.
+La sección inferior del asistente le permite seleccionar las opciones de publicación de recursos públicos e imágenes.
 
 Están disponibles los siguientes modos de publicación:
 
