@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 100%
@@ -33,7 +33,7 @@ Adobe Campaign incluye un banner de muestra que debe adaptar a sus necesidades. 
 >
 >Para crear su propio banner, debe personalizar el banner predeterminado.
 
-Para activar el banner, debe configurar las propiedades de la aplicación web. Consulte la sección [Diseño de una aplicación web](../../web/using/designing-a-web-application.md).
+Para activar el banner, debe configurar las propiedades de la aplicación web. Consulte la sección [Diseño de una aplicación web](designing-a-web-application.md).
 
 Si el seguimiento web está activado, puede darse lo siguiente:
 
@@ -64,7 +64,7 @@ El banner predeterminado tiene la siguiente estructura:
 
 Debe reemplazar el mensaje **Introduzca el mensaje aquí** con el bloque que contiene la información de seguimiento. Este reemplazo debe ejecutarse en el nuevo bloque personalizado relacionado con el banner de exclusión.
 
-El banner incluye un CSS específico. Sin embargo, puede sobrescribir los estilos al crear y configurar una página web. Consulte [esta página](../../web/using/content-editor-interface.md).
+El banner incluye un CSS específico. Sin embargo, puede sobrescribir los estilos al crear y configurar una página web. Consulte [esta página](content-editor-interface.md).
 
 ## Configuración de la cookie de exclusión mediante API {#setting-the-opt-out-cookie-using-api}
 
