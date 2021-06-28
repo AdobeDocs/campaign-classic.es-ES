@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '1205'
 ht-degree: 100%
@@ -27,7 +27,7 @@ En la pestaña **[!UICONTROL General]** de la ventana de propiedades, se puede m
 
 ![](assets/s_ncs_admin_survey_properties_general_tab.png)
 
-La plantilla de formulario se elige durante la creación del formulario. No se puede cambiar más tarde. Para obtener más información sobre la creación y administración de plantillas de formulario, consulte [Uso de una plantilla de formulario web](../../web/using/using-a-web-form-template.md).
+La plantilla de formulario se elige durante la creación del formulario. No se puede cambiar más tarde. Para obtener más información sobre la creación y administración de plantillas de formulario, consulte [Uso de una plantilla de formulario web](using-a-web-form-template.md).
 
 ## Almacenamiento de datos de formulario {#form-data-storage}
 
@@ -53,7 +53,7 @@ El contenido de las cadenas mostradas se define en la pestaña **[!UICONTROL Err
 
 La pestaña **[!UICONTROL Localization]** permite seleccionar los idiomas de diseño y visualización del formulario web.
 
-Consulte [Traducción de un formulario web](../../web/using/translating-a-web-form.md).
+Consulte [Traducción de un formulario web](translating-a-web-form.md).
 
 ## Exploración y renderización de formularios {#form-browsing-and-rendering}
 
@@ -77,7 +77,7 @@ Estos elementos se muestran en la parte inferior de cada página. Sus posiciones
 
 El campo **[!UICONTROL Template]** de la pestaña **[!UICONTROL Rendering]** permite seleccionar un tema de los que se encuentran disponibles.
 
-Los temas se guardan en el nodo **[!UICONTROL Administration>Configuration>Form rendering]** del árbol. Consulte [Selección de la plantilla de renderización del formulario](../../web/using/form-rendering.md#selecting-the-form-rendering-template).
+Los temas se guardan en el nodo **[!UICONTROL Administration>Configuration>Form rendering]** del árbol. Consulte [Selección de la plantilla de renderización del formulario](form-rendering.md#selecting-the-form-rendering-template).
 
 En la parte inferior de la ventana de propiedades se muestra una renderización de muestra. El icono **[!UICONTROL Edit link]** permite ver la configuración del tema seleccionado:
 
@@ -85,13 +85,13 @@ En la parte inferior de la ventana de propiedades se muestra una renderización 
 
 ## Textos en el formulario {#texts-in-the-form}
 
-La pestaña **[!UICONTROL Page]** permite definir el contenido del encabezado y del pie de página del formulario. Consulte [Definición de encabezados y pies de página](../../web/using/form-rendering.md#defining-headers-and-footers).
+La pestaña **[!UICONTROL Page]** permite definir el contenido del encabezado y del pie de página del formulario. Consulte [Definición de encabezados y pies de página](form-rendering.md#defining-headers-and-footers).
 
-También permite administrar las traducciones. Consulte [Traducción de un formulario web](../../web/using/translating-a-web-form.md).
+También permite administrar las traducciones. Consulte [Traducción de un formulario web](translating-a-web-form.md).
 
 ## Accesibilidad del formulario {#accessibility-of-the-form}
 
-Los usuarios pueden acceder a un formulario web si está **[!UICONTROL Online]** y si la fecha actual se encuentra dentro de su periodo de validez. El estado del formulario se modifica durante la fase de publicación (consulte [Publicación de un formulario](../../web/using/publishing-a-web-form.md#publishing-a-form)). El estado se muestra en la sección **Project** de la pestaña **[!UICONTROL General]** de la ventana de propiedades.
+Los usuarios pueden acceder a un formulario web si está **[!UICONTROL Online]** y si la fecha actual se encuentra dentro de su periodo de validez. El estado del formulario se modifica durante la fase de publicación (consulte [Publicación de un formulario](publishing-a-web-form.md#publishing-a-form)). El estado se muestra en la sección **Project** de la pestaña **[!UICONTROL General]** de la ventana de propiedades.
 
 El periodo de validez se ejecuta desde la fecha **[!UICONTROL Start]** hasta **[!UICONTROL End date]**. Si no se especifica ninguna fecha en estos campos, el formulario tiene validez permanente.
 
@@ -150,7 +150,7 @@ Los siguientes parámetros están disponibles de forma predeterminada:
 
 ![](assets/s_ncs_admin_survey_properties_param.png)
 
-Debe especificar una ubicación de almacenamiento desde la que se recupera el valor del parámetro. Para ello, seleccione una de las opciones de almacenamiento y haga clic en la pestaña **[!UICONTROL Storage]** para seleccionar el campo o la variable que desee. Las opciones de almacenamiento se detallan en los [campos de almacenamiento de respuestas](../../web/using/web-forms-answers.md#response-storage-fields).
+Debe especificar una ubicación de almacenamiento desde la que se recupera el valor del parámetro. Para ello, seleccione una de las opciones de almacenamiento y haga clic en la pestaña **[!UICONTROL Storage]** para seleccionar el campo o la variable que desee. Las opciones de almacenamiento se detallan en los [campos de almacenamiento de respuestas](web-forms-answers.md#response-storage-fields).
 
 Después se puede añadir el estado del encuestado (0, 1 o cualquier otro valor) a la URL para acceder al formulario. Esta información se puede reutilizar en las páginas del formulario o en una casilla de prueba. Las páginas mostradas se pueden condicionar según el valor del contexto, como se muestra a continuación:
 
