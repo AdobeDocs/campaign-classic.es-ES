@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 5028ad4c-e427-4e78-962d-c5ea54390db5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 100%
@@ -26,7 +26,7 @@ Estas actividades permiten crear uno o más objetivos definiendo conjuntos y div
 * **Split**: permite dividir un objeto en varios subconjuntos. Consulte la sección [División](../../workflow/using/split.md).
 * **Cells**: proporciona una vista de los distintos subconjuntos en forma de columnas de datos y facilita la manipulación de estos subconjuntos cuando existen muchos de ellos. Para obtener más información, consulte la sección [Celdas](../../workflow/using/cells.md).
 * **Offers by cell**: permite enlazar distintas ofertas a cada subconjunto de una población. Consulte la sección [Ofertas por celda](../../workflow/using/offers-by-cell.md).
-* **Survey answers**: permite recuperar información recopilada durante un estudio. Para obtener más información, consulte [esta sección](../../web/using/getting-started-with-surveys.md).
+* **Survey answers**: permite recuperar información recopilada durante un estudio. Para obtener más información, consulte [esta sección](../../surveys/using/getting-started-with-surveys.md).
 * **Delivery outline**: permite agregar un esquema de entrega. Consulte la sección [Esquema de envío](../../workflow/using/delivery-outline.md).
 * **Enrichment**: permite agregar columnas a una tabla o a un flujo de trabajo. Consulte la sección [Enriquecimiento](../../workflow/using/enrichment.md).
 * **Edit schema**: permite transformar, estandarizar y, si es necesario, enriquecer los datos. Para obtener más información, consulte [Editar esquema](../../workflow/using/edit-schema.md).
