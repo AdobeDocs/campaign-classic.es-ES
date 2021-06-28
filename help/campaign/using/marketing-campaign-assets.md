@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 100%
@@ -25,7 +25,7 @@ En una campaña también se puede hacer referencia a otros elementos, como cupon
 
 >[!NOTE]
 >
->Si está utilizando el módulo Campaign Marketing Resource Management, también puede administrar una biblioteca de recursos de marketing disponibles para varios participantes para trabajar en colaboración. [Más información](../../campaign/using/managing-marketing-resources.md).
+>Si está utilizando el módulo Campaign Marketing Resource Management, también puede administrar una biblioteca de recursos de marketing disponibles para varios participantes para trabajar en colaboración. [Más información](../../mrm/using/managing-marketing-resources.md).
 
 ## Adición de documentos {#adding-documents}
 
@@ -102,7 +102,7 @@ Una descripción puede contener elementos y campos de personalización, recursos
 
    >[!NOTE]
    >
-   >Para obtener más información sobre recursos de marketing, consulte [esta sección](../../campaign/using/managing-marketing-resources.md).
+   >Para obtener más información sobre recursos de marketing, consulte [esta sección](../../mrm/using/managing-marketing-resources.md).
 
 ### Selección de una descripción {#selecting-an-outline}
 
