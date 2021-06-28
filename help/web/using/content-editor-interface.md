@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 100%
@@ -21,9 +21,9 @@ La ventana de edición de DCE se desglosa en tres secciones diferentes. Permiten
 
 ![](assets/dce_decoupe_window_nb.png)
 
-1. La sección **superior** es un área de visualización para mensajes al usuario. Estos mensajes indican el estado de la aplicación web o de la entrega que se está creando, así como advertencias y mensajes de error relacionados con el contenido. Para obtener más información, consulte [Estados de contenido HTML](../../web/using/content-editing-best-practices.md#html-content-statuses).
-1. La sección a la **izquierda** de la ventana es el área para editar contenido. Desde esta área, el usuario puede interactuar directamente con el contenido mediante la barra de herramientas emergente: insertar un vínculo en una imagen, cambiar la fuente, eliminar un campo, etc. Para obtener más información, consulte [Edición de formularios](../../web/using/editing-content.md#editing-forms).
-1. La sección a la **derecha** de la ventana es el área del panel de control. Esta área agrupa las distintas opciones del editor, especialmente aquellas relacionadas con la configuración del encabezado de página y las opciones generales de un bloque: añadir un borde, relacionar un campo de base de datos con una zona de entrada, acceder a las propiedades de página web, etc. Para obtener más información, consulte las secciones [Opciones globales](#global-options) y [Edición de contenido](../../web/using/editing-content.md).
+1. La sección **superior** es un área de visualización para mensajes al usuario. Estos mensajes indican el estado de la aplicación web o de la entrega que se está creando, así como advertencias y mensajes de error relacionados con el contenido. Para obtener más información, consulte [Estados de contenido HTML](content-editing-best-practices.md#html-content-statuses).
+1. La sección a la **izquierda** de la ventana es el área para editar contenido. Desde esta área, el usuario puede interactuar directamente con el contenido mediante la barra de herramientas emergente: insertar un vínculo en una imagen, cambiar la fuente, eliminar un campo, etc. Para obtener más información, consulte [Edición de formularios](editing-content.md#editing-forms).
+1. La sección a la **derecha** de la ventana es el área del panel de control. Esta área agrupa las distintas opciones del editor, especialmente aquellas relacionadas con la configuración del encabezado de página y las opciones generales de un bloque: añadir un borde, relacionar un campo de base de datos con una zona de entrada, acceder a las propiedades de página web, etc. Para obtener más información, consulte las secciones [Opciones globales](#global-options) y [Edición de contenido](editing-content.md).
 
 ## Opciones globales {#global-options}
 
@@ -71,12 +71,12 @@ La sección a la derecha del editor agrupa las opciones principales que permiten
 
 Se puede:
 
-* Determine la visualización para uno o varios bloques, consulte [Definición de una condición de visibilidad](../../web/using/editing-content.md#defining-a-visibility-condition),
-* Defina los bordes y marcos, consulte [Adición de un borde y un fondo](../../web/using/editing-content.md#adding-a-border-and-background),
-* Defina atributos de imagen (tamaño, pie de ilustración), consulte [Edición de propiedades de imágenes](../../web/using/editing-content.md#editing-image-properties),
-* Relacione la base de datos con un elemento de formulario (zona de entrada, casilla de verificación), consulte [Cambio de las propiedades de datos de un formulario](../../web/using/editing-content.md#changing-the-data-properties-for-a-form),
-* Haga que una parte de un formulario sea obligatoria, consulte [Cambio de las propiedades de datos de un formulario](../../web/using/editing-content.md#changing-the-data-properties-for-a-form),
-* Defina una acción para un botón, consulte [Adición de una acción a un botón](../../web/using/editing-content.md#adding-an-action-to-a-button).
+* Determine la visualización para uno o varios bloques, consulte [Definición de una condición de visibilidad](editing-content.md#defining-a-visibility-condition),
+* Defina los bordes y marcos, consulte [Adición de un borde y un fondo](editing-content.md#adding-a-border-and-background),
+* Defina atributos de imagen (tamaño, pie de ilustración), consulte [Edición de propiedades de imágenes](editing-content.md#editing-image-properties),
+* Relacione la base de datos con un elemento de formulario (zona de entrada, casilla de verificación), consulte [Cambio de las propiedades de datos de un formulario](editing-content.md#changing-the-data-properties-for-a-form),
+* Haga que una parte de un formulario sea obligatoria, consulte [Cambio de las propiedades de datos de un formulario](editing-content.md#changing-the-data-properties-for-a-form),
+* Defina una acción para un botón, consulte [Adición de una acción a un botón](editing-content.md#adding-an-action-to-a-button).
 
 ## Barra de herramientas de contenido {#content-toolbar}
 
