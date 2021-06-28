@@ -6,9 +6,9 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '965'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ Puede utilizar los siguientes métodos de identificación:
 
    ![](assets/s_ncs_admin_survey_preload_methods_002.png)
 
-   Los campos se pueden añadir a las propiedades del formulario mediante la pestaña **[!UICONTROL Parameters]** (consulte [Adición de parámetros](../../web/using/defining-web-forms-properties.md#adding-parameters)). Se ubican en la dirección URL del formulario o en las zonas de entrada.
+   Los campos se pueden añadir a las propiedades del formulario mediante la pestaña **[!UICONTROL Parameters]** (consulte [Adición de parámetros](defining-web-forms-properties.md#adding-parameters)). Se ubican en la dirección URL del formulario o en las zonas de entrada.
 
    >[!CAUTION]
    >
@@ -81,7 +81,7 @@ Existen tres fases en el ciclo de vida de un formulario:
 
 1. **Formulario que se está editando**
 
-   Esta es la fase inicial de diseño: Cuando se crea un nuevo formulario, se encuentra en fase de edición. El acceso al formulario, solo para fines de prueba, requiere el uso del parámetro **[!UICONTROL __uuid]** en su dirección URL. Se puede acceder a esta dirección URL desde la subpestaña **[!UICONTROL Preview]**. Consulte [Parámetros de URL del formulario](../../web/using/defining-web-forms-properties.md#form-url-parameters).
+   Esta es la fase inicial de diseño: Cuando se crea un nuevo formulario, se encuentra en fase de edición. El acceso al formulario, solo para fines de prueba, requiere el uso del parámetro **[!UICONTROL __uuid]** en su dirección URL. Se puede acceder a esta dirección URL desde la subpestaña **[!UICONTROL Preview]**. Consulte [Parámetros de URL del formulario](defining-web-forms-properties.md#form-url-parameters).
 
    >[!CAUTION]
    >
@@ -123,7 +123,7 @@ Para que los usuarios puedan acceder, el formulario debe estar en producción e 
 
 * Haga clic en el vínculo **[!UICONTROL Personalize the message displayed if the form is closed...]** para definir el mensaje de error que se muestra si el usuario intenta acceder al formulario cuando este no es válido.
 
-   Consulte [Accesibilidad del formulario](../../web/using/defining-web-forms-properties.md#accessibility-of-the-form).
+   Consulte [Accesibilidad del formulario](defining-web-forms-properties.md#accessibility-of-the-form).
 
 ### Envío de un formulario por correo electrónico {#delivering-a-form-via-email}
 
@@ -135,7 +135,7 @@ Cuando envía una invitación por correo electrónico, puede utilizar la opción
 
 En este caso, la clave de reconciliación para el almacenamiento de datos debe ser el identificador encriptado del destinatario. Para obtener más información, consulte [Precarga de los datos del formulario](#pre-loading-the-form-data).
 
-En este caso, es necesario marcar la opción **[!UICONTROL Update the preloaded record]** en la casilla de registro. Para obtener más información, consulte [Almacenamiento de respuestas de formularios web](../../web/using/web-forms-answers.md#saving-web-forms-answers).
+En este caso, es necesario marcar la opción **[!UICONTROL Update the preloaded record]** en la casilla de registro. Para obtener más información, consulte [Almacenamiento de respuestas de formularios web](web-forms-answers.md#saving-web-forms-answers).
 
 ![](assets/s_ncs_admin_survey_save_box_option.png)
 
@@ -154,7 +154,3 @@ Seleccione un destinatario y haga clic en el botón **[!UICONTROL Detail...]** p
 ![](assets/s_ncs_admin_survey_trace_edit.png)
 
 Puede procesar los “logs” de respuesta proporcionados en las consultas, por ejemplo para dirigirse solo a los no encuestados para enviarles recordatorios o para ofrecer comunicaciones específicas únicamente a los encuestados.
-
->[!NOTE]
->
->Para obtener un seguimiento completo de las respuestas proporcionadas, exportar las respuestas y ver o crear informes específicos, utilice el módulo opcional de **Encuesta.** Para obtener más información, consulte [esta sección](../../web/using/about-surveys.md).
