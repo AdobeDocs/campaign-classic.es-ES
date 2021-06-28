@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 7%
+source-wordcount: '980'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,7 @@ El modelo de datos conceptuales de la base de datos de Adobe Campaign consta de 
 
 Adobe Campaign se basa en una base de datos relacional que contiene tablas vinculadas. La estructura básica del modelo de datos de Adobe Campaign se puede describir de la siguiente manera.
 
-### Tabla de destinatario {#recipient-table}
+### Tabla de destinatarios {#recipient-table}
 
 El modelo de datos se basa en una tabla principal que, de forma predeterminada, es la tabla de destinatarios (**NmsRecipient**). Esta tabla permite almacenar todos los perfiles de marketing.
 
@@ -31,7 +31,7 @@ Para obtener más información sobre la tabla de destinatarios, consulte [esta s
 
 El modelo de datos también incluye una parte dedicada a almacenar todas las actividades de marketing. Normalmente es la tabla Delivery (**NmsDelivery**). Cada registro de esta tabla representa una acción de envío o una plantilla de envío. Contiene todos los parámetros necesarios para realizar envíos como destinatario, contenido, etc.
 
-### Registra tablas {#log-tables}
+### Tablas de registros {#log-tables}
 
 Otra parte del modelo de datos permite almacenar temporalmente todos los registros asociados con la ejecución de las campañas.
 
@@ -43,13 +43,13 @@ Los registros de envío y los registros de seguimiento se eliminan después de u
 
 Finalmente, parte del modelo de datos consta de datos técnicos utilizados para el proceso aplicativo, incluidos operadores y derechos de usuario (**NmsGroup**), carpetas (**XtkFolder**).
 
-## Uso de la tabla de destinatarios predeterminada {#default-recipient-table}
+## Uso de la tabla de destinatarios integrada {#default-recipient-table}
 
-La tabla de destinatarios predeterminada de Adobe Campaign proporciona un buen punto de partida para crear su modelo de datos. Tiene varios campos predefinidos y vínculos de tabla que se pueden ampliar fácilmente. Esto resulta especialmente útil cuando se dirige principalmente a destinatarios, ya que se ajusta a un modelo de datos sencillo centrado en los destinatarios.
+La tabla de destinatarios integrada en Adobe Campaign proporciona un buen punto de partida para crear su modelo de datos. Tiene varios campos predefinidos y vínculos de tabla que se pueden ampliar fácilmente. Esto resulta especialmente útil cuando se dirige principalmente a destinatarios, ya que se ajusta a un modelo de datos sencillo centrado en los destinatarios.
 
-Las ventajas de utilizar la tabla de destinatarios estándar son las siguientes:
+Las ventajas de utilizar la tabla de destinatarios integrada son las siguientes:
 
-* Uso de funcionalidades predeterminadas como suscripciones, listas de fuentes, encuestas, redes sociales, etc.
+* Uso de funcionalidades integradas como suscripciones, listas de semilla, etc.
 * Proporcionar una base de datos de marketing con un modelo de datos centrado en el destinatario.
 * Implementación más rápida.
 * Fácil mantenimiento por parte del apoyo y los socios.
