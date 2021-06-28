@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 100%
@@ -69,9 +69,9 @@ Para ello, utilice la pestaña **[!UICONTROL Advanced]**.
 
 Permite definir las siguientes propiedades:
 
-* **[!UICONTROL Label position]**: consulte [Definición de la posición de etiquetas](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels),
+* **[!UICONTROL Label position]**: consulte [Definición de la posición de etiquetas](defining-web-forms-layout.md#defining-the-position-of-labels),
 * **[!UICONTROL Label format]**: Ajuste de palabra o sin ajuste de palabra,
-* **[!UICONTROL Number of cells]** : consulte [Colocación de los campos en la página](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page),
+* **[!UICONTROL Number of cells]** : consulte [Colocación de los campos en la página](defining-web-forms-layout.md#positioning-the-fields-on-the-page),
 * **[!UICONTROL Horizontal alignment]** (izquierda, derecha, centrado) y **[!UICONTROL Vertical alignment]** (alto, bajo, centrado),
 * **[!UICONTROL Width]** de la zona: esto puede expresarse como porcentaje o en ems, puntos o píxeles (valor predeterminado),
 * **[!UICONTROL Length]** máxima: número máximo de caracteres permitidos (para controles de tipo texto, número y contraseña),
@@ -146,17 +146,17 @@ En la ventana de selección de campos, se puede elegir entre los siguientes dato
 
 * El directorio principal contiene los parámetros del contexto del formulario. Los parámetros predeterminados son el identificador (que coincide con el identificador encriptado del destinatario), idioma y origen.
 
-   Para obtener más información, consulte [esta página](../../web/using/defining-web-forms-properties.md#form-url-parameters).
+   Para obtener más información, consulte [esta página](defining-web-forms-properties.md#form-url-parameters).
 
 * El subdirectorio **[!UICONTROL Recipients]** contiene los campos de entrada insertados en el formulario y almacenados en la base de datos.
 
-   Para obtener más información, consulte [Almacenamiento de datos en la base de datos](../../web/using/web-forms-answers.md#storing-data-in-the-database).
+   Para obtener más información, consulte [Almacenamiento de datos en la base de datos](web-forms-answers.md#storing-data-in-the-database).
 
-* El subdirectorio **[!UICONTROL Variables]** contiene las variables disponibles para este formulario. Para obtener más información, consulte [Almacenamiento de datos en una variable local](../../web/using/web-forms-answers.md#storing-data-in-a-local-variable).
+* El subdirectorio **[!UICONTROL Variables]** contiene las variables disponibles para este formulario. Para obtener más información, consulte [Almacenamiento de datos en una variable local](web-forms-answers.md#storing-data-in-a-local-variable).
 
-Para obtener más información sobre este tema, consulte el caso de uso disponible aquí: [Mostrar diferentes opciones en función de los valores seleccionados](../../web/using/use-cases--web-forms.md#displaying-different-options-depending-on-the-selected-values).
+Para obtener más información sobre este tema, consulte el caso de uso disponible aquí: [Mostrar diferentes opciones en función de los valores seleccionados](use-cases--web-forms.md#displaying-different-options-depending-on-the-selected-values).
 
-También puede condicionar la visualización de las páginas del formulario con el objeto **[!UICONTROL Test]**. Para obtener más información, consulte [esta página](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display).
+También puede condicionar la visualización de las páginas del formulario con el objeto **[!UICONTROL Test]**. Para obtener más información, consulte esta [página](defining-web-forms-page-sequencing.md#conditional-page-display).
 
 ## Importación de elementos desde un formulario existente {#importing-elements-from-an-existing-form}
 
