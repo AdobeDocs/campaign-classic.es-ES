@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 100%
@@ -47,7 +47,7 @@ A continuación, se obtiene la siguiente secuencia:
 
 >[!NOTE]
 >
->Para obtener más información sobre la creación de una aplicación web, consulte [esta sección](../../web/using/creating-a-new-web-application.md).
+>Para obtener más información sobre la creación de una aplicación web, consulte [esta sección](creating-a-new-web-application.md).
 
 ## Paso 1: Selección y carga de plantillas {#step-1---selecting-and-loading-templates}
 
@@ -138,7 +138,7 @@ Este paso es obligatorio porque permite a la aplicación web determinar la secue
 
    ![](assets/dce_uc1_actionbouton.png)
 
-### Inserción de un campo personalizado {#inserting-a-personalization-field}
+### Inserción de un campo de personalización. {#inserting-a-personalization-field}
 
 Este paso le permite personalizar la página de agradecimiento. Para ello:
 
