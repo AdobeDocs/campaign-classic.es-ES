@@ -6,10 +6,10 @@ audience: social
 content-type: reference
 topic-tags: annexes
 exl-id: 3b8c7db4-9c55-42f6-8e09-e5ab781efe8f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
 workflow-type: tm+mt
-source-wordcount: '1981'
-ht-degree: 100%
+source-wordcount: '2222'
+ht-degree: 94%
 
 ---
 
@@ -88,7 +88,7 @@ Compruebe que la ficha de la aplicación **App01** aparece en la página de Face
 
 ![](assets/social_webapp_042.png)
 
-## ¿Cómo reenviar la configuración a una aplicación de Facebook? {#how-to-forward-settings-to-a-facebook-application-}
+## Cómo reenviar la configuración a una aplicación de Facebook? {#how-to-forward-settings-to-a-facebook-application-}
 
 >[!IMPORTANT]
 >
@@ -120,7 +120,7 @@ Para recrear este ejemplo de uso, se ha creado una aplicación web compuesta por
 
 ![](assets/social_webapp_018.png)
 
-## ¿Cómo se adquieren los datos del ventilador? {#how-to-acquire-fan-data-}
+## Cómo adquirir datos de seguidores? {#how-to-acquire-fan-data-}
 
 >[!IMPORTANT]
 >
@@ -297,7 +297,7 @@ La pantalla **[!UICONTROL Activities]** de la página de detalles de un visitant
    >
    >Para que Adobe Campaign pueda recopilar los registros de un seguidor, debe hacer clic en el botón **[!UICONTROL Subscribe]** en la pantalla de configuración del servicio. Para más información, consulte [Configuración de cuentas externas](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
-## Cómo cargar previamente los campos de un formulario mediante datos de perfil de Facebook {#how-to-pre-load-the-fields-of-a-form-using-facebook-profile-data}
+## Cómo cargar previamente un formulario mediante datos de perfil de Facebook {#how-to-pre-load-the-fields-of-a-form-using-facebook-profile-data}
 
 La aplicación **[!UICONTROL Social Marketing]** también permite agregar un botón a un formulario para precargar campos usando información de perfil de Facebook. Esta opción, que está disponible en todas las plantillas de aplicaciones web (actividades de tipo **[!UICONTROL Page]**) se detalla en [esta sección](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
 
@@ -306,3 +306,55 @@ La aplicación **[!UICONTROL Social Marketing]** también permite agregar un bot
 >[!NOTE]
 >
 >Antes de empezar a utilizar esta función, debe crear una aplicación de Facebook y una cuenta externa de tipo **[!UICONTROL Facebook Connect]**. Para más información, consulte [Configuración de cuentas externas](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+
+**Precargar los campos del formulario con datos tomados del perfil de Facebook**
+
+Se crea un formulario web y se incluyen elementos con los que el usuario no tiene interacción en las páginas del formulario; son elementos estáticos como imágenes, contenido HTML, barras horizontales o vínculos de hipertexto. Obtenga más información sobre los elementos estáticos de un formulario web en [esta página](../../web/using/static-elements-in-a-web-form.md).
+
+Al insertar un elemento estático, la opción **[!UICONTROL Preload with Facebook]** permite insertar un botón en un formulario para precargar los campos mediante la información de perfil de Facebook.
+
+![](assets/web_social_webapp_037.png)
+
+Cuando un usuario hace clic en el botón **[!UICONTROL Fill in automatically]**, se abre la ventana de solicitud de Facebook para obtener permiso.
+
+![](assets/web_social_webapp_029.png)
+
+>[!NOTE]
+>
+>Puede cambiar la lista de derechos ampliados al configurar la cuenta externa. Si no se configuran derechos ampliados, Facebook reenvía la información básica del perfil de forma predeterminada.\
+>Para ver la lista de derechos ampliados y su sintaxis, [consulte la documentación de Facebook](https://developers.facebook.com/docs/reference/api/permissions).
+
+Si el usuario acepta compartir su información, los campos del formulario se precargan.
+
+![](assets/web_social_webapp_030.png)
+
+Para este ejemplo de uso, se ha creado una aplicación web compuesta por los siguientes elementos:
+
+* una página que contiene el formulario
+* una actividad **[!UICONTROL Record]**
+* una actividad **[!UICONTROL End]**
+
+![](assets/social_webapp_031.png)
+
+Para añadir un botón de precarga, siga los siguientes pasos:
+
+1. Cree un formulario.
+
+   ![](assets/social_webapp_032.png)
+
+1. Vaya al mismo nivel que los campos del formulario y añada un vínculo.
+
+   ![](assets/social_webapp_033.png)
+
+1. Introduzca la etiqueta y seleccione el tipo **[!UICONTROL Button]**.
+
+   ![](assets/social_webapp_034.png)
+
+1. Vaya al campo **[!UICONTROL Action]** y seleccione **[!UICONTROL Preload with Facebook]**.
+
+   ![](assets/social_webapp_035.png)
+
+1. Vaya al campo **[!UICONTROL Application]** y seleccione la cuenta externa del tipo **[!UICONTROL Facebook Connect]** creada anteriormente. Para obtener más información, consulte [esta página](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+
+   ![](assets/social_webapp_036.png)
+
