@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: cbfaf6a2c187ad62f7b6c9042b69f5e522fcfd02
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
@@ -37,22 +37,22 @@ La operación general funciona de la siguiente manera:
 
 Para crear una **aplicación web** simple, debe hacer lo siguiente:
 
-1. Creación de una aplicación web: [Más información](../../web/using/creating-a-landing-page.md)
-1. Seleccione contenido existente o cree contenido desde una plantilla estándar: [Más información](../../web/using/template-management.md)
-1. Editar y configurar contenido: [Más información](../../web/using/editing-content.md)
-1. Publicación de la aplicación web: [Más información](../../web/using/creating-a-landing-page.md#step-3---publishing-content)
+1. Creación de una aplicación web: [Más información](creating-a-landing-page.md)
+1. Seleccione contenido existente o cree contenido desde una plantilla estándar: [Más información](template-management.md)
+1. Editar y configurar contenido: [Más información](editing-content.md)
+1. Publicación de la aplicación web: [Más información](creating-a-landing-page.md#step-3---publishing-content)
 
 >[!NOTE]
 >
->En [esta sección](../../web/using/creating-a-landing-page.md) encontrará una muestra completa de la implementación en el contexto de una aplicación web.
+>En [esta sección](creating-a-landing-page.md) encontrará una muestra completa de la implementación en el contexto de una aplicación web.
 
 Para crear un **envío de correo electrónico**, debe hacer lo siguiente:
 
-1. Creación de un envío a partir de una plantilla de DCE: [Más información](../../web/using/use-case--creating-an-email-delivery.md)
-1. Seleccione un contenido existente o cree contenido desde una [plantilla estándar](../../web/using/template-management.md)
+1. Creación de un envío a partir de una plantilla de DCE: [Más información](use-case--creating-an-email-delivery.md)
+1. Seleccione un contenido existente o cree contenido desde una [plantilla estándar](template-management.md)
 1. Editar y configurar contenido en línea
 1. Realización del envío: [Más información](../../delivery/using/steps-about-delivery-creation-steps.md)
 
 >[!NOTE]
 >
->En [este ejemplo de uso](../../web/using/use-case--creating-an-email-delivery.md) encontrará una muestra completa de la implementación en el contexto de un envío de correo electrónico.
+>En [este ejemplo de uso](use-case--creating-an-email-delivery.md) encontrará una muestra completa de la implementación en el contexto de un envío de correo electrónico.
