@@ -6,14 +6,14 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 100%
 
 ---
 
-# Ejemplo de uso: creación de una entrega por correo electrónico{#use-case-creating-an-email-delivery}
+# Ejemplo de uso: creación de un envío por correo electrónico{#use-case-creating-an-email-delivery}
 
 En este caso de uso, aprenderá los pasos para diseñar una entrega por correo electrónico con el Editor de contenido digital (DCE) de Adobe Campaign.
 
@@ -28,7 +28,7 @@ El objetivo final es crear una entrega con una plantilla personalizada que conte
 >
 >Antes de empezar, debe tener al menos una **plantilla HTML** configurada para alojar el contenido de las entregas futuros.
 >
->En las **[!UICONTROL Properties]** de la entrega, asegúrese de que **[!UICONTROL Content editing mode]** (pestaña **[!UICONTROL Advanced]**) está configurada como **[!UICONTROL DCE]**. Para garantizar el funcionamiento óptimo del editor, consulte las [Recomendaciones para la edición de contenido](../../web/using/content-editing-best-practices.md).
+>En las **[!UICONTROL Properties]** de la entrega, asegúrese de que **[!UICONTROL Content editing mode]** (pestaña **[!UICONTROL Advanced]**) está configurada como **[!UICONTROL DCE]**. Para garantizar el funcionamiento óptimo del editor, consulte las [Recomendaciones para la edición de contenido](content-editing-best-practices.md).
 
 ## Paso 1: Creación de una entrega {#step-1---creating-a-delivery}
 
@@ -54,7 +54,7 @@ Asimismo, se puede importar un contenido HTML creado fuera de Adobe Campaign sel
 
 ![](assets/dce_select_from_file_template.png)
 
-Se puede guardar este contenido como una plantilla para su uso futuro. Una vez creada una plantilla de contenido personalizada, se puede obtener una vista previa de la misma en la lista de plantillas. Para obtener más información, consulte [Administración de plantillas](../../web/using/template-management.md).
+Se puede guardar este contenido como una plantilla para su uso futuro. Una vez creada una plantilla de contenido personalizada, se puede obtener una vista previa de la misma en la lista de plantillas. Para obtener más información, consulte [Administración de plantillas](template-management.md).
 
 >[!CAUTION]
 >
@@ -70,7 +70,7 @@ Se puede guardar este contenido como una plantilla para su uso futuro. Una vez c
 
 * Inserción de un vínculo en una imagen
 
-   Para transferir los destinatarios de envíos a una dirección externa a través de una imagen, haga clic en la imagen correspondiente para mostrar la barra de herramientas emergente, coloque el cursor en el primer icono y haga clic en **[!UICONTROL Link to an external URL]**. Para obtener más información, consulte [Adición de un vínculo](../../web/using/editing-content.md#adding-a-link).
+   Para transferir los destinatarios de envíos a una dirección externa a través de una imagen, haga clic en la imagen correspondiente para mostrar la barra de herramientas emergente, coloque el cursor en el primer icono y haga clic en **[!UICONTROL Link to an external URL]**. Para obtener más información, consulte [Adición de un vínculo](editing-content.md#adding-a-link).
 
    ![](assets/dce_externalpage.png)
 
@@ -80,7 +80,7 @@ Se puede guardar este contenido como una plantilla para su uso futuro. Una vez c
 
 * Inserción de un vínculo en el texto
 
-   Para integrar un vínculo externo en el texto de la entrega, seleccione un texto o un bloque de texto y, a continuación, haga clic en el primer icono de la barra de herramientas emergente. Haga clic en **[!UICONTROL Link to an external URL]** e introduzca la dirección del vínculo en el campo **[!UICONTROL URL]**. Para obtener más información, consulte [Adición de un vínculo](../../web/using/editing-content.md#adding-a-link).
+   Para integrar un vínculo externo en el texto de la entrega, seleccione un texto o un bloque de texto y, a continuación, haga clic en el primer icono de la barra de herramientas emergente. Haga clic en **[!UICONTROL Link to an external URL]** e introduzca la dirección del vínculo en el campo **[!UICONTROL URL]**. Para obtener más información, consulte [Adición de un vínculo](editing-content.md#adding-a-link).
 
    El vínculo se puede cambiar en cualquier momento con la sección a la derecha de la ventana.
 
@@ -102,7 +102,7 @@ Se puede guardar este contenido como una plantilla para su uso futuro. Una vez c
 
 * Integración de un vínculo a una aplicación web
 
-   El editor de contenido permite integrar vínculos a aplicaciones web desde la consola de Adobe Campaign, como una página de destino o una página de formulario. Para obtener más información, consulte [Vínculo a una aplicación web](../../web/using/editing-content.md#link-to-a-web-application).
+   El editor de contenido permite integrar vínculos a aplicaciones web desde la consola de Adobe Campaign, como una página de destino o una página de formulario. Para obtener más información, consulte [Vínculo a una aplicación web](editing-content.md#link-to-a-web-application).
 
    Seleccione un campo de texto para enlazar a una aplicación web y, a continuación, haga clic en el primer icono. Seleccione **[!UICONTROL Link to a Web application]** y luego seleccione la aplicación deseada haciendo clic en el icono situado al final del campo **Web Application**.
 
