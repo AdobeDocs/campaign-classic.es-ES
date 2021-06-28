@@ -6,16 +6,16 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 91%
 
 ---
 
 # Seguimiento de visitas en una aplicación web{#tracking-a-web-application}
 
-Esta versión de Adobe Campaign permite realizar un seguimiento y medir las visitas en las páginas de las aplicaciones web mediante la inserción de etiquetas de seguimiento. Esta funcionalidad se puede utilizar para todos los tipos de aplicaciones web (formularios, encuestas en línea, páginas web creadas con DCE, etc.).
+Esta versión de Adobe Campaign permite realizar un seguimiento y medir las visitas en las páginas de las aplicaciones web mediante la inserción de etiquetas de seguimiento. Esta funcionalidad se puede utilizar para todos los tipos de aplicaciones web (formularios, páginas web, etc.).
 
 De este modo, se pueden definir varias rutas de navegación y evaluar su eficacia. Los datos obtenidos están disponibles en los informes de cada aplicación.
 
@@ -55,13 +55,11 @@ Para identificar el origen del tráfico en una aplicación web, Adobe Campaign e
 
 >[!NOTE]
 >
->Recuerde que el seguimiento anónimo solo es posible si se ha activado la opción correspondiente en el asistente de implementación.
->
->Para obtener más información, consulte la [Guía de instalación](../../installation/using/deploying-an-instance.md).
+>El seguimiento anónimo solo está disponible si la opción se ha activado en el asistente de implementación al instalar Campaign.
 
 ## Aplicaciones web diseñadas con el editor de contenido (DCE) {#web-applications-designed-with-digital-content-editor--dce-}
 
-Cuando se crea una aplicación web con el editor de contenido HTML **Editor de contenido digital (DCE)**, las etiquetas de seguimiento se insertan desde la pestaña **[!UICONTROL Properties]** del editor. Para obtener más información sobre el editor de contenido (DCE), consulte [esta sección](../../web/using/about-campaign-html-editor.md).
+Cuando se crea una aplicación web con el editor de contenido HTML **Editor de contenido digital (DCE)**, las etiquetas de seguimiento se insertan desde la pestaña **[!UICONTROL Properties]** del editor. Para obtener más información sobre el editor de contenido (DCE), consulte [esta sección](about-campaign-html-editor.md).
 
 ![](assets/trackers_2.png)
 
