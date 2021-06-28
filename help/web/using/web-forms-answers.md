@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 100%
@@ -115,9 +115,9 @@ Para guardar la información recopilada en las páginas de un formulario, se deb
 
 Este cuadro se puede utilizar de dos formas:
 
-* Si se accede al formulario web a través de un vínculo enviado en un correo electrónico y si el usuario que accede a la aplicación ya está en la base de datos, se puede seleccionar la opción **[!UICONTROL Update the preloaded record]**. Para obtener más información, consulte [Envío de un formulario por correo electrónico](../../web/using/publishing-a-web-form.md#delivering-a-form-via-email).
+* Si se accede al formulario web a través de un vínculo enviado en un correo electrónico y si el usuario que accede a la aplicación ya está en la base de datos, se puede seleccionar la opción **[!UICONTROL Update the preloaded record]**. Para obtener más información, consulte [Envío de un formulario por correo electrónico](publishing-a-web-form.md#delivering-a-form-via-email).
 
-   En este caso, Adobe Campaign utiliza la clave principal encriptada del perfil de usuario, un identificador único asignado a cada perfil mediante Adobe Campaign. Se debe configurar la información para precargarla mediante el cuadro de precarga. Para obtener más información, consulte [Precarga de los datos del formulario](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data).
+   En este caso, Adobe Campaign utiliza la clave principal encriptada del perfil de usuario, un identificador único asignado a cada perfil mediante Adobe Campaign. Se debe configurar la información para precargarla mediante el cuadro de precarga. Para obtener más información, consulte [Precarga de los datos del formulario](publishing-a-web-form.md#pre-loading-the-form-data).
 
    >[!CAUTION]
    >
