@@ -4,10 +4,10 @@ title: Migrar al conector de Adobe Analytics
 description: 'Campaign: Preguntas más frecuentes sobre el conector de Analytics'
 hide: true
 hidefromtoc: true
-source-git-commit: 248bd7774c01adb44ce33d0499c2b01d013e75bd
+source-git-commit: cde4ed65abb2458fc40639b92314f8d56b18b78c
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 6%
+source-wordcount: '840'
+ht-degree: 5%
 
 ---
 
@@ -22,12 +22,12 @@ Debe migrar a la nueva integración de Adobe Analytics Connector en Adobe Exchan
 
 >[!NOTE]
 >
->En caso de que tenga preguntas acerca de estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Para cualquier pregunta sobre estos cambios, lea la [FAQ](#faq-aa). Para obtener más información, póngase en contacto con [Adobe Customer Care](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 
 ## ¿Qué ha cambiado?
 
-Ya está disponible una nueva integración entre Campaign Classic y Adobe Analytics. A continuación se enumeran los principales cambios.
+Ya está disponible una nueva integración entre Campaign Classic v7 y Adobe Analytics. A continuación se enumeran los principales cambios.
 
 * La integración entre la autenticación de Adobe Campaign Classic y Adobe Analytics se ha trasladado de usuario/contraseña a servicio de Identity Management de Adobe (IMS). Como consecuencia, debe implementar el Adobe IMS y conectarse a Campaign [a través de un Adobe ID](../integrations/using/about-adobe-id.md), antes de iniciar la implementación del conector de Analytics.
 
@@ -58,7 +58,7 @@ Como cliente local/híbrido, debe actualizar a una de las versiones más recient
 Una vez actualizadas todas las instancias, podrá [implementar la nueva integración](../platform/using/adobe-analytics-connector.md) en el conector de Adobe Analytics y garantizar una transición sin problemas.
 
 
-## Preguntas frecuentes
+## Preguntas frecuentes{#faq-aa}
 
 **¿Cómo puedo obtener registros?**
 
@@ -71,17 +71,21 @@ Como usuario local, puede implementar el modo detallado de la siguiente manera:
 * Para habilitar el modo detallado para la interfaz de usuario: vuelva a ejecutar el proceso `web` en modo detallado.
 * Para habilitar el modo detallado para los flujos de trabajo de **webAnalytics**: seleccione la opción **Execute in the engine** en las propiedades del flujo de trabajo y vuelva a ejecutar `wfserver` en modo detallado.
 
-**Propietario de la integración no administrador**
+**¿Qué significa el error &quot;Propietario de la integración no administrador&quot;?**
 
 Obtenga más información sobre el error de Data Connectors &quot;Propietario de la integración no administrador&quot; en [esta página](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360035167932-Adobe-Analytics-Data-Connectors-Integration-Owner-Not-Admin-Error).
 
-**Las evars/eventos/grupos de informes existentes presentes en Analytics no están visibles en Campaign**
+**Una vez completada la migración al nuevo conector, ¿qué ocurre con los datos antiguos y los grupos de informes?**
+
+Después de la migración, un conector nuevo (migrado desde el conector antiguo) empezará a insertar los datos en ese mismo grupo de informes y los datos existentes no se verán afectados: se agregará a los datos existentes.
+
+**Algunos evars, eventos o grupos de informes existentes presentes en Analytics no son visibles en Campaign. ¿Qué debo hacer?**
 
 La integración depende de los datos del token de cuenta técnica para el funcionamiento diario. Si falta permiso para acceder a un grupo de informes/dimensiones desde el perfil de producto asociado con el usuario de cuenta técnica, las API que usemos simplemente fallarán para esas solicitudes.
 
 Si leemos los detalles de un componente de Analytics (como métricas, dimensiones, segmentos o grupos de informes), la API no devolverá estos componentes en el resultado (que pueden parecer que algo se ha eliminado en Analytics o no está presente). La API de Analytics rechazará esas solicitudes y se eliminarán los errores.
 
-La solución es actualizar el perfil de producto en el contexto de usuario de Analytics del token de usuario técnico con los componentes recién creados o que faltan añadiendo estos componentes en [Adobe Admin Console](https://adminconsole.adobe.com/).
+La solución es actualizar el **Perfil de producto** en el contexto de usuario de Analytics del token de usuario técnico con los componentes recién creados/faltantes añadiendo estos componentes en [Adobe Admin Console](https://adminconsole.adobe.com/). Para obtener más información, póngase en contacto con [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ## Vínculos útiles
 
