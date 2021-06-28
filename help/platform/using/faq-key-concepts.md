@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
-source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
+source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 98%
@@ -94,7 +94,7 @@ Aprenda a utilizar Adobe Campaign para [enviar una notificación automática per
 
 ## ¿Cómo se diseña y comparte una encuesta en línea? {#how-to-design-and-share-an-online-survey-}
 
-Aprenda a [crear una encuesta en línea](../../web/using/getting-started-with-surveys.md) con los pasos clave para diseñarla y publicarla con Campaign Classic.
+Aprenda a [crear una encuesta en línea](../../surveys/using/getting-started-with-surveys.md) con los pasos clave para diseñarla y publicarla con Campaign Classic.
 
 ## ¿Cómo se crea la página de aterrizaje? {#how-to-create-landing-page-}
 
