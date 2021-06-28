@@ -6,10 +6,10 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
 workflow-type: tm+mt
-source-wordcount: '1266'
-ht-degree: 100%
+source-wordcount: '1034'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Para insertar un campo de base de datos, utilice el botón de personalización.
 
 >[!NOTE]
 >
->Las cadenas introducidas en el editor HTML solo se traducen si se definen en la subpestaña **[!UICONTROL Texts]**. De lo contrario, no se recopilan. Para obtener más información, consulte [Traducción de un formulario web](../../web/using/translating-a-web-form.md).
+>Las cadenas introducidas en el editor HTML solo se traducen si se definen en la subpestaña **[!UICONTROL Texts]**. De lo contrario, no se recopilan. Para obtener más información, consulte [Traducción de un formulario web](translating-a-web-form.md).
 
 ### Inserción de un vínculo {#inserting-a-link}
 
@@ -85,7 +85,7 @@ Puede definir otras acciones para el vínculo, de modo que el usuario pueda hace
 
    ![](assets/s_ncs_admin_survey_link_next.png)
 
-   Puede ocultar los botones **[!UICONTROL Next]** o **[!UICONTROL Back]** si desea reemplazarlos por un vínculo. Consulte [esta página](../../web/using/defining-web-forms-page-sequencing.md).
+   Puede ocultar los botones **[!UICONTROL Next]** o **[!UICONTROL Back]** si desea reemplazarlos por un vínculo. Consulte [esta página](defining-web-forms-page-sequencing.md).
 
    El vínculo reemplaza el botón **[!UICONTROL Next]** utilizado de forma predeterminada.
 
@@ -107,60 +107,7 @@ Puede definir otras acciones para el vínculo, de modo que el usuario pueda hace
 
    >[!NOTE]
    >
-   >Para obtener más información sobre la secuenciación de páginas en un formulario web, consulte [Definición de secuenciación de páginas de formularios web](../../web/using/defining-web-forms-page-sequencing.md).
-
-* Precargar los campos del formulario con datos tomados del perfil de Facebook
-
-   >[!CAUTION]
-   >
-   >Esta función solo está disponible si ha instalado la aplicación **[!UICONTROL Social Marketing]**. Para utilizar esta opción, es necesario crear una aplicación de Facebook junto con una cuenta externa de tipo **[!UICONTROL Facebook Connect]**. Para obtener más información, consulte [esta página](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
-
-   La opción **[!UICONTROL Preload with Facebook]** permite insertar un botón en un formulario para cargar previamente los campos mediante la información de perfil de Facebook.
-
-   ![](assets/web_social_webapp_037.png)
-
-   Cuando un usuario hace clic en el botón **[!UICONTROL Fill in automatically]**, se abre la ventana de solicitud de Facebook para obtener permiso.
-
-   ![](assets/web_social_webapp_029.png)
-
-   >[!NOTE]
-   >
-   >Se puede cambiar la lista de derechos ampliados al configurar la cuenta externa. Si no se introduce ningún derecho ampliado, Facebook envía la información básica del perfil de forma predeterminada.\
-   >Para ver la lista de derechos ampliados y su sintaxis, haga clic aquí: [https://developers.facebook.com/docs/reference/api/permissions/](https://developers.facebook.com/docs/reference/api/permissions/)
-
-   Si el usuario acepta compartir su información, los campos del formulario se precargan.
-
-   ![](assets/web_social_webapp_030.png)
-
-Para este ejemplo de uso, se ha creado una aplicación web compuesta por los siguientes elementos:
-
-* una página que contiene el formulario
-* una actividad **[!UICONTROL Record]**
-* una actividad **[!UICONTROL End]**
-
-![](assets/social_webapp_031.png)
-
-Para añadir un botón de precarga, siga los siguientes pasos:
-
-1. Cree un formulario.
-
-   ![](assets/social_webapp_032.png)
-
-1. Vaya al mismo nivel que los campos del formulario y añada un vínculo.
-
-   ![](assets/social_webapp_033.png)
-
-1. Introduzca la etiqueta y seleccione el tipo **[!UICONTROL Button]**.
-
-   ![](assets/social_webapp_034.png)
-
-1. Vaya al campo **[!UICONTROL Action]** y seleccione **[!UICONTROL Preload with Facebook]**.
-
-   ![](assets/social_webapp_035.png)
-
-1. Vaya al campo **[!UICONTROL Application]** y seleccione la cuenta externa del tipo **[!UICONTROL Facebook Connect]** creada anteriormente. Para obtener más información, consulte [esta página](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
-
-   ![](assets/social_webapp_036.png)
+   >Para obtener más información sobre la secuenciación de páginas en un formulario web, consulte [Definición de secuenciación de páginas de formularios web](defining-web-forms-page-sequencing.md).
 
 ### Personalización de contenido HTML {#personalizing-html-content}
 
@@ -168,7 +115,7 @@ Puede personalizar el contenido HTML de una página de formulario con datos regi
 
 ![](assets/s_ncs_admin_survey_tag_ctx_1.png)
 
-Utilice los campos de personalización para volver a introducir el nombre de usuario y la marca seleccionada en la página siguiente. La sintaxis que se utiliza depende del modo de almacenamiento de la información. Para obtener más información, consulte [Uso de información recopilada](../../web/using/web-forms-answers.md#using-collected-information).
+Utilice los campos de personalización para volver a introducir el nombre de usuario y la marca seleccionada en la página siguiente. La sintaxis que se utiliza depende del modo de almacenamiento de la información. Para obtener más información, consulte [Uso de información recopilada](web-forms-answers.md#using-collected-information).
 
 >[!NOTE]
 >
@@ -187,11 +134,11 @@ Esto produce el resultado siguiente:
 
 ![](assets/s_ncs_admin_survey_tag_ctx_2.png)
 
-### Uso de variables de texto {#using-text-variables}
+### Usar variables de texto {#using-text-variables}
 
 La pestaña **[!UICONTROL Text]** permite crear campos variables que pueden utilizarse en el HTML entre los caracteres &lt;%= y %> con la siguiente sintaxis: **$(IDENTIFIER)**.
 
-Utilice este método para localizar fácilmente sus cadenas. Consulte [Traducción de un formulario web](../../web/using/translating-a-web-form.md).
+Utilice este método para localizar fácilmente sus cadenas. Consulte [Traducción de un formulario web](translating-a-web-form.md).
 
 Por ejemplo, puede crear un campo de **Contacto** que le permita mostrar la cadena “Fecha del último contacto:” al contenido HTML. Para realizar esto, siga los pasos a continuación:
 
@@ -214,9 +161,9 @@ Por ejemplo, puede crear un campo de **Contacto** que le permita mostrar la cade
 
    ![](assets/s_ncs_admin_survey_html_content_preview.png)
 
-Este modo operativo permite definir el texto de los formularios web solo una vez y administrar las traducciones mediante la herramienta de traducción integrada. Para obtener más información, consulte [Traducción de un formulario web](../../web/using/translating-a-web-form.md).
+Este modo operativo permite definir el texto de los formularios web solo una vez y administrar las traducciones mediante la herramienta de traducción integrada. Para obtener más información, consulte [Traducción de un formulario web](translating-a-web-form.md).
 
-## Inserción de imágenes {#inserting-images}
+## Insertar imágenes {#inserting-images}
 
 Para que las imágenes se incluyan en los formularios, deben guardarse en un servidor que sea accesible externamente.
 
