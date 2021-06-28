@@ -6,28 +6,22 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: dcdf6afc-321e-4027-a350-fff6bbf22e71
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 100%
+source-wordcount: '256'
+ht-degree: 85%
 
 ---
 
 # Diseño de una aplicación web{#designing-a-web-application}
 
-Las aplicaciones web se crean y se administran según el mismo principio que las [encuestas en línea](../../web/using/about-surveys.md).
-
-Sin embargo, las diferencias funcionales son las siguientes:
-
-* Las aplicaciones web no utilizan campos archivados. Por lo tanto, los datos solo se pueden almacenar en campos de base de datos o en variables locales.
-* No hay informes incorporados en las aplicaciones web.
-* Se ofrecen campos adicionales, principalmente para crear tablas y diagramas.
+Las aplicaciones web se crean y administran según el mismo principio que los [formularios web](about-web-forms.md).
 
 >[!CAUTION]
 >
->Es muy recomendable comprobar continuamente las configuraciones aplicadas para detectar cualquier error al comienzo del proceso de construcción de la aplicación web. Para comprobar la renderización de una modificación, guarde la aplicación y, a continuación, haga clic en la subpestaña **[!UICONTROL Preview]**.
+>Utilice la subpestaña **[!UICONTROL Preview]** para comprobar los errores durante el diseño de la aplicación web.
 >
->El usuario final no puede visualizar los cambios hasta que se publique la aplicación web.
+>Hasta que se publique la aplicación web, los cambios no estarán expuestos a los usuarios finales.
 
 ## Inserción de gráficos en una aplicación web {#inserting-charts-in-a-web-application}
 
@@ -49,7 +43,7 @@ También puede seleccionar el tipo de tabla en el menú desplegable.
 
 ![](assets/s_ncs_admin_webapps_table.png)
 
-## Aplicaciones web de tipo “descripción general”{#overview-type-web-applications}
+## Aplicaciones web de tipo “descripción general” {#overview-type-web-applications}
 
 La interfaz de Adobe Campaign utiliza muchas aplicaciones web para acceder, gestionar e interactuar con destinatarios, envíos, campañas, inventarios, etc.
 
@@ -70,4 +64,3 @@ Las aplicaciones web de edición de formularios para una extranet se caracteriza
 
    Mientras que las aplicaciones web de tipo “descripción general” tienen una sola página, los formularios de edición pueden ofrecer una secuencia de páginas según criterios específicos (testeo, variables, perfil del operador conectado, etc.).
 
-El funcionamiento de este tipo de aplicación web es similar a la de **Encuestas**, pero sin gestión del historial o archivo de campos. Los usuarios suelen acceder a ellas a través de una página de inicio de sesión donde deben identificarse.
