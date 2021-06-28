@@ -6,10 +6,10 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
 workflow-type: tm+mt
-source-wordcount: '2457'
-ht-degree: 100%
+source-wordcount: '2371'
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ Están disponibles los siguientes tipos de campo:
 * Botón Descargar. [Carga de un archivo](#uploading-a-file).
 * Constante oculta. Consulte [Inserción de una constante oculta](#inserting-a-hidden-constant).
 
-Especifique el modo de registro de respuestas: actualice un campo de la base de datos (solo se almacena el último valor guardado) o almacénelo en una variable (la respuesta no está almacenada). Para obtener más información, consulte [Campos de almacenamiento de respuesta](../../web/using/web-forms-answers.md#response-storage-fields),
+Especifique el modo de registro de respuestas: actualice un campo de la base de datos (solo se almacena el último valor guardado) o almacénelo en una variable (la respuesta no está almacenada). Para obtener más información, consulte [Campos de almacenamiento de respuesta](web-forms-answers.md#response-storage-fields),
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ Se pueden insertar cinco tipos diferentes de campos de texto en una página de f
 
 * **Número**: permite al usuario introducir un texto en una línea. Para obtener más información, consulte [Añadir números](#adding-numbers).
 
-   Cuando se aprueba la página, se comprueba el contenido del campo para asegurarse de que el valor introducido sea compatible con el campo. Para obtener más información, consulte [Definir configuraciones de control](../../web/using/form-rendering.md#defining-control-settings),
+   Cuando se aprueba la página, se comprueba el contenido del campo para asegurarse de que el valor introducido sea compatible con el campo. Para obtener más información, consulte [Definir configuraciones de control](form-rendering.md#defining-control-settings),
 
 * **Contraseña**: permite al usuario introducir texto en una sola línea. Durante la entrada de texto, los caracteres se sustituyen por puntos:
 
@@ -90,9 +90,7 @@ Se pueden insertar cinco tipos diferentes de campos de texto en una página de f
 
    >[!CAUTION]
    >
-   >Los campos de texto multilínea son campos específicos que pueden contener retornos de carro. Su espacio de almacenamiento debe estar asociado a un campo asignado a un elemento XML, no a un atributo XML. Para obtener más información sobre los tipos de datos en los esquemas, consulte el capítulo “Referencia de esquema” en [esta sección](../../configuration/using/about-schema-reference.md).
-   >   
-   >Si utiliza el módulo **Encuesta**, puede almacenar este tipo de campo en un campo archivado que se adapta automáticamente al formato. Para obtener más información, consulte [esta sección](../../web/using/about-surveys.md).
+   >Los campos de texto multilínea son campos específicos que pueden contener retornos de carro. Su espacio de almacenamiento debe estar asociado a un campo asignado a un elemento XML, no a un atributo XML.
 
 * **Texto enriquecido multilínea**: permite al usuario introducir texto con un diseño que se almacena en formato HTML.
 
@@ -118,9 +116,9 @@ El modo de almacenamiento de respuestas se puede modificar mediante el enlace **
 
 >[!NOTE]
 >
->Los modos de almacenamiento se detallan en los [Campos de almacenamiento de respuesta](../../web/using/web-forms-answers.md#response-storage-fields)
+>Los modos de almacenamiento se detallan en los [Campos de almacenamiento de respuesta](web-forms-answers.md#response-storage-fields)
 
-La pestaña **[!UICONTROL Advanced]** permite definir parámetros de visualización para el campo (posición de etiquetas, alineación, etc.). Consulte [Definición del diseño de los formularios web](../../web/using/defining-web-forms-layout.md).
+La pestaña **[!UICONTROL Advanced]** permite definir parámetros de visualización para el campo (posición de etiquetas, alineación, etc.). Consulte [Definición del diseño de los formularios web](defining-web-forms-layout.md).
 
 ## Adición de listas desplegables {#adding-drop-down-lists}
 
@@ -206,7 +204,7 @@ Para añadir un botón de opción a una página de formulario, vaya al menú **[
 
 ![](assets/s_ncs_admin_survey_radio_button_sample.png)
 
-Los botones de opción se configuran de forma similar a las casillas de verificación (consulte). [Agregar casillas de verificación](#adding-checkboxes). Sin embargo, no se asigna ningún valor si no se selecciona la opción. Para que varios botones puedan ser interdependientes, es decir, que se deseleccione uno automáticamente si se selecciona el otro, se deben almacenar en el mismo campo. Si no se almacenan en la base de datos, se debe utilizar la misma variable local para el almacenamiento temporal. Consulte [Campos de almacenamiento de respuesta](../../web/using/web-forms-answers.md#response-storage-fields).
+Los botones de opción se configuran de forma similar a las casillas de verificación (consulte). [Agregar casillas de verificación](#adding-checkboxes). Sin embargo, no se asigna ningún valor si no se selecciona la opción. Para que varios botones puedan ser interdependientes, es decir, que se deseleccione uno automáticamente si se selecciona el otro, se deben almacenar en el mismo campo. Si no se almacenan en la base de datos, se debe utilizar la misma variable local para el almacenamiento temporal. Consulte [Campos de almacenamiento de respuesta](web-forms-answers.md#response-storage-fields).
 
 ### Creación de una lista de botones {#add-a-list-of-buttons}
 
@@ -218,8 +216,8 @@ Añada tantos botones de opción como etiquetas. La ventaja de esta función es 
 
 >[!NOTE]
 >
->Los formularios web no permiten la selección de varios valores. La selección múltiple solo se puede activar para los formularios de tipo **Encuesta.** Para obtener más información, consulte [esta sección](../../web/using/about-surveys.md).\
->Sin embargo, es posible insertar un campo de texto de tipo **[!UICONTROL Multiple choice]** en una aplicación web, pero sin autorizar la selección de varios valores: las opciones ofrecidas se pueden seleccionar mediante los botones de opción.
+>No se puede habilitar la selección múltiple en una aplicación web.
+>Sin embargo, es posible insertar un campo de tipo **[!UICONTROL Multiple choice]** en una aplicación web, pero esto no permite al usuario seleccionar varios valores.
 
 ## Adición de cuadrículas {#adding-grids}
 
@@ -239,7 +237,7 @@ Solo se puede seleccionar una opción por cada línea de cuadrícula.
 
 >[!NOTE]
 >
->En este ejemplo, la etiqueta de la cuadrícula está oculta. Para ello, vaya a la pestaña **[!UICONTROL Advanced]**, y en ella puede comprobar que la pantalla **[!UICONTROL Label position]** se define como **[!UICONTROL Hidden]**. Consulte [Definición de la posición de etiquetas](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels).
+>En este ejemplo, la etiqueta de la cuadrícula está oculta. Para ello, vaya a la pestaña **[!UICONTROL Advanced]**, y en ella puede comprobar que la pantalla **[!UICONTROL Label position]** se define como **[!UICONTROL Hidden]**. Consulte [Definición de la posición de etiquetas](defining-web-forms-layout.md#defining-the-position-of-labels).
 
 ## Adición de fechas y números {#adding-dates-and-numbers}
 
@@ -265,7 +263,7 @@ Las fechas se pueden seleccionar mediante un calendario o casillas desplegables.
 
 >[!NOTE]
 >
->De forma predeterminada, las fechas utilizadas en los formularios se introducen mediante un calendario. Para los formularios multilingües, compruebe que los calendarios están disponibles en todos los idiomas utilizados. Consulte [Traducción de un formulario web](../../web/using/translating-a-web-form.md).
+>De forma predeterminada, las fechas utilizadas en los formularios se introducen mediante un calendario. Para los formularios multilingües, compruebe que los calendarios están disponibles en todos los idiomas utilizados. Consulte [Traducción de un formulario web](translating-a-web-form.md).
 
 Sin embargo, en algunos casos (para introducir fechas de nacimiento, por ejemplo), puede ser más fácil utilizar las listas desplegables.
 
@@ -323,8 +321,6 @@ El usuario se suscribe al servicio seleccionando la opción correspondiente.
 >
 >Si el usuario ya está suscrito a un servicio de información y la casilla vinculada a este servicio no está marcada al aprobar el formulario, se da de baja su suscripción.
 
-En [esta sección](../../web/using/about-surveys.md) se encuentran disponibles ejemplos de suscripciones y reentregas.
-
 ## Inserción de un captcha {#inserting-a-captcha}
 
 El propósito de las pruebas de **captcha** es evitar el uso fraudulento de los formularios web.
@@ -379,6 +375,7 @@ Se puede almacenar el vínculo a estos archivos en una variable local o en un ca
 >* Adobe Campaign no controla el tamaño ni el tipo de recurso cargado: por lo tanto, se recomienda encarecidamente utilizar campos de carga únicamente para sitios de intranet de tipo seguro.
 >* Si hay varios servidores vinculados a la instancia (“equilibrio de carga”), debe asegurarse de que las llamadas al formulario web lleguen al mismo servidor.
 >* Estas implementaciones requieren la asistencia del equipo de consultoría de Adobe Campaign.
+
 >
 
 
