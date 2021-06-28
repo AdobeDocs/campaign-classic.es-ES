@@ -6,7 +6,7 @@ feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 100%
@@ -47,13 +47,13 @@ Adobe Campaign tiene funcionalidades de segmentación y selección de objetivos 
 
 La funcionalidad avanzada de Gestión de datos amplía las características de procesamiento de datos. Simplifica y optimiza el proceso de segmentación incluyendo información que no se encuentra en la base de datos. Esta funcionalidad se detalla en [esta página](../../workflow/using/targeting-data.md#data-management).
 
-### Organización de campañas multicanal {#cross-channel-campaign-orchestration}
+### Organización de campañas en canales múltiples {#cross-channel-campaign-orchestration}
 
-Adobe Campaign le permite diseñar y organizar campañas dirigidas y personalizadas en varios canales: correo electrónico, correo postal, SMS, notificaciones push. Una sola interfaz proporciona todas las funcionalidades necesarias para programar, organizar, configurar, personalizar, automatizar, ejecutar y medir todas las campañas y comunicaciones. Para obtener más información sobre la programación y la ejecución de campañas, consulte [esta página](../../campaign/using/setting-up-marketing-campaigns.md).
+Adobe Campaign le permite diseñar y organizar campañas dirigidas y personalizadas en varios canales: correo electrónico, correo directo, SMS, notificaciones push. Una sola interfaz proporciona todas las funcionalidades necesarias para programar, organizar, configurar, personalizar, automatizar, ejecutar y medir todas las campañas y comunicaciones. Para obtener más información sobre la programación y la ejecución de campañas, consulte [esta página](../../campaign/using/setting-up-marketing-campaigns.md).
 
 ### Personalización e interacción en tiempo real {#personalization-and-real-time-interaction}
 
-Atraiga la atención de sus clientes y mejore las tasas de respuesta gracias a la personalización avanzada del contenido del mensaje y a los encabezados basados en los perfiles y las preferencias del cliente. Para obtener más información sobre la gestión y personalización de contenido de mensaje, consulte [esta página](../../delivery/using/about-personalization.md). La gestión colaborativa de contenido, las notificaciones y los circuitos de aprobación se detallan en [esta sección](../../campaign/using/about-marketing-resource-management.md).
+Atraiga la atención de sus clientes y mejore las tasas de respuesta gracias a la personalización avanzada del contenido del mensaje y a los encabezados basados en los perfiles y las preferencias del cliente. Para obtener más información sobre la gestión y personalización de contenido de mensaje, consulte [esta página](../../delivery/using/about-personalization.md). La gestión colaborativa de contenido, las notificaciones y los circuitos de aprobación se detallan en [esta sección](../../mrm/using/about-marketing-resource-management.md).
 
 ### Análisis e informes {#analysis-and-reporting}
 
@@ -71,13 +71,13 @@ Estas son las funcionalidades disponibles. Según el acuerdo de licencia, alguna
 
 * [Canales](../../delivery/using/steps-about-delivery-creation-steps.md): Diseñe y envíe contenido a través de varios canales, como por correo electrónico, SMS, Line, aplicaciones móviles, correo postal, etc.
 * [Campañas](../../campaign/using/designing-marketing-campaigns.md): Organice campañas multicanal.
-* [MRM](../../campaign/using/about-marketing-resource-management.md): gestione recursos de marketing y presupuestos.
+* [MRM](../../mrm/using/about-marketing-resource-management.md): gestione recursos de marketing y presupuestos.
 * [Interacción](../../interaction/using/interaction-and-offer-management.md): Administre ofertas con Campaign.
 * [Centro de mensajes](../../message-center/using/about-transactional-messaging.md): envíe mensajes transaccionales por correo electrónico, SMS o en aplicaciones móviles.
 * [Marketing social](../../social/using/about-social-marketing.md): Utilice redes sociales como: Facebook, Twitter,
 * [Flujo de trabajo](../../workflow/using/about-workflows.md) / Gestión de datos: Automatice procesos y gestione datos con flujos de trabajo.
 * [Aplicaciones web](../../web/using/about-web-applications.md): cree páginas web y formularios.
-* [Administrador de encuestas](../../web/using/about-surveys.md): cree encuestas en línea y sondeos.
+* [Administrador de encuestas](../../surveys/using/about-surveys.md): cree encuestas en línea y sondeos.
 * [Administrador de contenido](../../delivery/using/about-content-management.md): administre contenido de correo electrónico.
 * [Marketing distribuido](../../campaign/using/about-distributed-marketing.md): coordine campañas para agencias centrales/locales.
 * [Gestor de respuestas](../../campaign/using/about-response-manager.md): administre las respuestas del cliente.
