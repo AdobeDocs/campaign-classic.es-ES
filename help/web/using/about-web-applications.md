@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 100%
@@ -37,31 +37,31 @@ En este capítulo se ofrece información general sobre cómo administrar aplicac
 
 Las aplicaciones web de Adobe Campaign proporcionan acceso a las siguientes funcionalidades:
 
-* Creación de formularios de múltiples páginas. Para obtener más información, consulte [esta página](../../web/using/about-web-forms.md).
-* Gestión de encuestas multilingües con una herramienta de traducción integrada. Para obtener más información, consulte [esta página](../../web/using/translating-a-web-application.md).
-* Interfaz de administración de páginas gráficas, diseño de página de varias columnas. Para obtener más información, consulte [esta página](../../web/using/designing-a-web-application.md).
-* Renderización de la personalización y la posición del campo. Para obtener más información, consulte [esta página](../../web/using/editing-content.md#adding-personalization-content).
-* Visualización condicional de los campos de encuesta según las respuestas. Para obtener más información, consulte [esta página](../../web/using/form-rendering.md#defining-fields-conditional-display).
-* Visualización aleatoria de preguntas. Para obtener más información, consulte [esta página](../../web/using/building-a-survey.md#adding-questions).
-* Visualización condicional de la página. Para obtener más información, consulte [esta página](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display).
-* La información se comprueba antes de la validación según el tipo de datos esperado (número, dirección de correo electrónico, fecha, etc.) y los campos obligatorios. Para obtener más información, consulte [esta página](../../web/using/form-rendering.md#defining-control-settings).
-* Invitaciones o notificaciones por correo electrónico. Para obtener más información, consulte [esta página](../../web/using/publishing-a-web-form.md#delivering-a-form-via-email).
-* Personalización de mensajes de error y de fin. Para obtener más información, consulte [esta página](../../web/using/defining-web-forms-properties.md#setting-up-an-error-page).
-* Uso de imágenes, vídeos, vínculos de hipertexto, captcha, etc. Para obtener más información, consulte [esta página](../../web/using/editing-content.md).
-* Seguimiento de las respuestas en tiempo real. Para obtener más información, consulte [esta página](../../web/using/publish--track-and-use-collected-data.md#response-tracking).
+* Creación de formularios de múltiples páginas. Para obtener más información, consulte [esta página](about-web-forms.md).
+* Gestión de encuestas multilingües con una herramienta de traducción integrada. Para obtener más información, consulte [esta página](translating-a-web-application.md).
+* Interfaz de administración de páginas gráficas, diseño de página de varias columnas. Para obtener más información, consulte [esta página](designing-a-web-application.md).
+* Renderización de la personalización y la posición del campo. Para obtener más información, consulte [esta página](editing-content.md#adding-personalization-content).
+* Visualización condicional de los campos de encuesta según las respuestas. Para obtener más información, consulte [esta página](form-rendering.md#defining-fields-conditional-display).
+* Visualización aleatoria de preguntas. Para obtener más información, consulte [esta página](../../surveys/using/building-a-survey.md#adding-questions).
+* Visualización condicional de la página. Para obtener más información, consulte [esta página](defining-web-forms-page-sequencing.md#conditional-page-display).
+* La información se comprueba antes de la validación según el tipo de datos esperado (número, dirección de correo electrónico, fecha, etc.) y los campos obligatorios. Para obtener más información, consulte [esta página](form-rendering.md#defining-control-settings).
+* Invitaciones o notificaciones por correo electrónico. Para obtener más información, consulte [esta página](publishing-a-web-form.md#delivering-a-form-via-email).
+* Personalización de mensajes de error y de fin. Para obtener más información, consulte [esta página](defining-web-forms-properties.md#setting-up-an-error-page).
+* Uso de imágenes, vídeos, vínculos de hipertexto, captcha, etc. Para obtener más información, consulte [esta página](editing-content.md).
+* Seguimiento de las respuestas en tiempo real. Para obtener más información, consulte [esta página](../../surveys/using/publish--track-and-use-collected-data.md#response-tracking).
 
 El módulo opcional de creación **Survey** ofrece las siguientes funcionalidades adicionales:
 
-* Ampliación dinámica de la base de datos: creación de respuestas no incluidas en la plantilla de datos inicial. Para obtener más información, consulte [esta página](../../web/using/managing-answers.md#storing-collected-answers).
-* Generación de informes específicos. Para obtener más información, consulte [esta página](../../web/using/publish--track-and-use-collected-data.md#reports-on-surveys).
+* Ampliación dinámica de la base de datos: creación de respuestas no incluidas en la plantilla de datos inicial. Para obtener más información, consulte [esta página](../../surveys/using/managing-answers.md#storing-collected-answers).
+* Generación de informes específicos. Para obtener más información, consulte [esta página](../../surveys/using/publish--track-and-use-collected-data.md#reports-on-surveys).
 
 En comparación con las aplicaciones web, las encuestas tienen una interfaz gráfica simplificada con un número reducido de controles de edición.
 
 >[!NOTE]
 >
->Las encuestas se encuentran en [esta sección](../../web/using/about-surveys.md).
+>Las encuestas se encuentran en [esta sección](../../surveys/using/about-surveys.md).
 >
->Las funcionalidades generales de los formularios web en Adobe Campaign se especifican en [esta sección](../../web/using/about-web-forms.md).
+>Las funcionalidades generales de los formularios web en Adobe Campaign se especifican en [esta sección](about-web-forms.md).
 
 ## Implementación de aplicaciones web {#web-application-implementation}
 
@@ -69,7 +69,7 @@ Para crear y publicar una aplicación web, debe:
 
 1. Crear el contenido (campos, listas, tablas, gráficos, etc.).
 
-   También puede ver la sección que muestra los campos disponibles para los formularios; todos estos campos también están disponibles para las aplicaciones web. Esta información está disponible en [esta página](../../web/using/adding-fields-to-a-web-form.md).
+   También puede ver la sección que muestra los campos disponibles para los formularios; todos estos campos también están disponibles para las aplicaciones web. Esta información está disponible en [esta página](adding-fields-to-a-web-form.md).
 
 1. Si es necesario, puede añadir pasos de precarga, pruebas y almacenamiento, además de configurar el sistema de control de acceso (principalmente en el marco de una publicación en extranet).
 1. Publicación de la aplicación web para que esté disponible en una extranet o en Adobe Campaign.
@@ -80,7 +80,7 @@ La aplicación web se crea mediante el vínculo **[!UICONTROL Web Applications]*
 
 Las aplicaciones web se almacenan en el nodo **[!UICONTROL Resources > Online > Web Applications]** del directorio de Adobe Campaign. Las configuraciones se desglosan en las siguientes carpetas:
 
-* **[!UICONTROL Administration > Configuration > Form renderings]**: contiene las plantillas de renderización para la visualización del formulario web (aplicaciones y encuestas). La plantilla permite generar el formulario. También se utiliza una hoja de estilos CSS. Esta hoja de estilos se puede cargar a nivel de la plantilla. Para obtener más información, consulte [esta página](../../web/using/form-rendering.md#selecting-the-form-rendering-template).
+* **[!UICONTROL Administration > Configuration > Form renderings]**: contiene las plantillas de renderización para la visualización del formulario web (aplicaciones y encuestas). La plantilla permite generar el formulario. También se utiliza una hoja de estilos CSS. Esta hoja de estilos se puede cargar a nivel de la plantilla. Para obtener más información, consulte [esta página](form-rendering.md#selecting-the-form-rendering-template).
 * **[!UICONTROL Resources > Templates > Web application templates]**: contiene plantillas de formulario. Para crear un formulario o una aplicación web, se debe comenzar desde una plantilla.
 
 ## Plantillas de aplicaciones web {#web-application-templates}
