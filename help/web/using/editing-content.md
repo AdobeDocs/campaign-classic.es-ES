@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 100%
@@ -135,6 +135,7 @@ Los bloques y campos de personalización solo se pueden insertar en bloques de t
 >* Nueva ventana (_blank)
 >* Ventana actual (_self)
 >* Comportamiento predeterminado del navegador
+
 >
 
 
@@ -200,8 +201,9 @@ Las opciones disponibles son las siguientes:
 >[!NOTE]
 >
 >* Icono **Eliminar**: elimina el bloque y todo su contenido.
->
->* Icono **Duplicar**: duplica el bloque y todos los estilos relacionados con el bloque.
+   >
+   >
+* Icono **Duplicar**: duplica el bloque y todos los estilos relacionados con el bloque.
 
 
 ## Administración de imágenes y animaciones {#managing-images-and-animations}
@@ -241,7 +243,7 @@ Cuando se selecciona un bloque que contiene una imagen, puede acceder a las sigu
 
 ## Adición de contenido personalizado {#adding-personalization-content}
 
-### Inserción de un campo personalizado {#inserting-a-personalization-field}
+### Inserción de un campo de personalización. {#inserting-a-personalization-field}
 
 La opción **Campo personalizado** del icono de inserción permite añadir un campo de base de datos al contenido, como el nombre del destinatario. Esta opción solo está disponible para bloques de tipo texto.
 
@@ -251,7 +253,7 @@ De forma predeterminada, los campos que se ofrecen proceden de la tabla **[!UICO
 
 El nombre del campo aparece en el editor resaltado en amarillo. Se reemplaza por el perfil del destinatario objetivo cuando se genere la personalización (por ejemplo, al previsualizar una página de destino).
 
-Se presenta un ejemplo en la sección [Inserción de un campo de personalización](../../web/using/creating-a-landing-page.md#inserting-a-personalization-field).
+Se presenta un ejemplo en la sección [Inserción de un campo de personalización](creating-a-landing-page.md#inserting-a-personalization-field).
 
 ### Inserción de bloques personalizados {#inserting-a-personalization-block}
 
