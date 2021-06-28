@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '702'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Para cada página, puede eliminar los botones **[!UICONTROL Next]** o **[!UICONT
 
 ![](assets/s_ncs_admin_survey_no_next_page.png)
 
-Puede reemplazar estos botones con vínculos. Consulte [Inserción de contenido HTML](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
+Puede reemplazar estos botones con vínculos. Consulte [Inserción de contenido HTML](static-elements-in-a-web-form.md#inserting-html-content).
 
 ## Inserción de un salto {#inserting-a-jump}
 
@@ -55,7 +55,7 @@ En el ejemplo siguiente, se desea configurar un formulario web que, cuando está
 
    ![](assets/s_ncs_admin_survey_jump_sample1.png)
 
-1. En las propiedades del formulario, añada un parámetro (**siguiente**) almacenado en una variable local (**siguiente**). Las variables locales se detallan en [Almacenamiento de datos en una variable local](../../web/using/web-forms-answers.md#storing-data-in-a-local-variable).
+1. En las propiedades del formulario, añada un parámetro (**siguiente**) almacenado en una variable local (**siguiente**). Las variables locales se detallan en [Almacenamiento de datos en una variable local](web-forms-answers.md#storing-data-in-a-local-variable).
 
    ![](assets/s_ncs_admin_survey_jump_sample2.png)
 
@@ -73,7 +73,7 @@ En el ejemplo siguiente, se desea configurar un formulario web que, cuando está
 
 ## Inserción de un vínculo a otra página del formulario {#inserting-a-link-to-another-page-of-the-form}
 
-Puede insertar vínculos a otras páginas del formulario. Para ello, añada un elemento estático de tipo **[!UICONTROL Link]** a la página. Para obtener más información, consulte [Inserción de un vínculo](../../web/using/static-elements-in-a-web-form.md#inserting-a-link).
+Puede insertar vínculos a otras páginas del formulario. Para ello, añada un elemento estático de tipo **[!UICONTROL Link]** a la página. Para obtener más información, consulte [Inserción de un vínculo](static-elements-in-a-web-form.md#inserting-a-link).
 
 ## Visualización condicional de la página {#conditional-page-display}
 
@@ -89,7 +89,7 @@ Se puede almacenar esta información en un campo de la base de datos o utilizar 
 
 >[!NOTE]
 >
->Los modos de almacenamiento se detallan en los campos [Response storage fields](../../web/using/web-forms-answers.md#response-storage-fields).
+>Los modos de almacenamiento se detallan en los campos [Response storage fields](web-forms-answers.md#response-storage-fields).
 
 En este ejemplo, se desea utilizar una variable:
 
@@ -107,7 +107,7 @@ A continuación, defina la secuenciación de la página cuando una o varias de l
 
 ### Mostrar según los parámetros {#display-based-on-parameters}
 
-Asimismo, se puede personalizar la secuenciación de la página según los parámetros de inicialización del formulario web o según los valores almacenados en la base de datos. Consulte [Parámetros de URL del formulario](../../web/using/defining-web-forms-properties.md#form-url-parameters).
+Asimismo, se puede personalizar la secuenciación de la página según los parámetros de inicialización del formulario web o según los valores almacenados en la base de datos. Consulte [Parámetros de URL del formulario](defining-web-forms-properties.md#form-url-parameters).
 
 ## Adición de secuencias de comandos {#adding-scripts}
 
