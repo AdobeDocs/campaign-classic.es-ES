@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 16%
@@ -68,7 +68,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Recursos de Marketing (MRM)<br /> </td> 
-   <td> Controla las acciones de marketing en un modo cooperativo mediante la administración y el seguimiento de las tareas, los presupuestos y los recursos de marketing. <a href="../../campaign/using/about-marketing-resource-management.md">Más información</a> <br /> </td> 
+   <td> Controla las acciones de marketing en un modo cooperativo mediante la administración y el seguimiento de las tareas, los presupuestos y los recursos de marketing. <a href="../../mrm/using/about-marketing-resource-management.md">Más información</a> <br /> </td> 
    <td> Marketing</td> 
   </tr> 
   <tr> 
@@ -139,7 +139,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Encuestas en línea (Administrador de encuestas)<br /> </td> 
-   <td> Crea y administra formularios en línea para agregar o modificar información de perfil, para suscribirse, cancelar la suscripción o un formulario de entrada de competencia. Opcional. <a href="../../web/using/about-surveys.md">Más información</a> <br /> </td> 
+   <td> Crea y administra formularios en línea para agregar o modificar información de perfil, para suscribirse, cancelar la suscripción o un formulario de entrada de competencia. Opcional. <a href="../../surveys/using/about-surveys.md">Más información</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
