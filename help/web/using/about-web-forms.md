@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 63602bed-ace6-4632-a735-5d268a7d72d0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 100%
@@ -57,27 +57,28 @@ Para definir la configuración y el contenido del formulario web, realice los si
 
 * Defina la secuenciación de la página y la condición de visualización.
 
-   Este paso se detalla en [Definición de la secuencia de páginas de formularios Web](../../web/using/defining-web-forms-page-sequencing.md).
+   Este paso se detalla en [Definición de la secuencia de páginas de formularios Web](defining-web-forms-page-sequencing.md).
 
 * Si es necesario, traduzca el contenido.
 
-   Este paso se detalla en [Traducir un formulario web](../../web/using/translating-a-web-form.md).
+   Este paso se detalla en [Traducir un formulario web](translating-a-web-form.md).
 
 ## Acerca del diseño de formularios web {#about-web-forms-designing}
 
-Las páginas del formulario se crean mediante un editor específico que permite definir y configurar zonas de entrada (texto), campos de selección (listas, casillas de verificación, etc.) y elementos estáticos (imágenes, contenido HTML, etc.). Pueden agruparse en contenedores y el diseño puede modificarse para adaptarse a sus necesidades (para más información, consulte).[](../../web/using/defining-web-forms-layout.md#creating-containers)
+Las páginas del formulario se crean mediante un editor específico que permite definir y configurar zonas de entrada (texto), campos de selección (listas, casillas de verificación, etc.) y elementos estáticos (imágenes, contenido HTML, etc.). Pueden agruparse en contenedores y el diseño puede modificarse para adaptarse a sus necesidades (para más información, consulte).[](defining-web-forms-layout.md#creating-containers)
 
 En las siguientes secciones se detalla cómo definir el contenido y el diseño de las pantallas del formulario:
 
-* [Adición de campos a un formulario web](../../web/using/adding-fields-to-a-web-form.md),
-* [Inserción de contenido HTML](../../web/using/static-elements-in-a-web-form.md#inserting-html-content),
-* [Elementos estáticos de un formulario web](../../web/using/static-elements-in-a-web-form.md),
-* [Definición del diseño de los formularios web](../../web/using/defining-web-forms-layout.md).
+* [Adición de campos a un formulario web](adding-fields-to-a-web-form.md),
+* [Inserción de contenido HTML](static-elements-in-a-web-form.md#inserting-html-content),
+* [Elementos estáticos de un formulario web](static-elements-in-a-web-form.md),
+* [Definición del diseño de los formularios web](defining-web-forms-layout.md).
 
 >[!NOTE]
 >
 >* Durante el diseño de la página, puede ver la renderización final en la pestaña **[!UICONTROL Preview]**. Para ver los cambios, guarde el formulario primero. Todos los errores se muestran en la pestaña **[!UICONTROL Log]**.
 >* Para asegurarse de que la visualización de página y el almacenamiento de la información se produzcan en la secuencia adecuada, active el modo de depuración en el formulario web. Para ello, vaya a la subpestaña **[!UICONTROL Preview]** y marque la casilla **[!UICONTROL Enable debug mode]**: todos los datos recopilados y los posibles errores de ejecución se muestran en la parte inferior de cada página.
+
 >
 
 
