@@ -6,10 +6,10 @@ audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 100%
+source-wordcount: '1046'
+ht-degree: 99%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 Adobe Campaign le permite crear, configurar, ejecutar y analizar las campañas de marketing. Todas las campañas de marketing se pueden administrar desde un centro de control unificado.
 
-## Conceptos básicos del espacio de trabajo (Workspace){#workspace-basics}
+## Conceptos básicos del espacio de trabajo (Workspace) {#workspace-basics}
 
-### Página principal {#home-page}
+### Página de inicio {#home-page}
 
 Una vez que se conecte a Adobe Campaign, verá la página principal.
 
@@ -34,7 +34,7 @@ El bloque **[!UICONTROL Browsing]** de la pestaña **[!UICONTROL Campaigns]** of
 * **Campaign calendar** (calendario de campañas): calendario de planes, programas de marketing, envíos y campañas. Consulte [Calendario de campañas](#campaign-calendar).
 * **Campaigns** (campañas): acceso a las campañas contenidas en todos los programas de marketing.
 * **Deliveries** (envíos): acceso a los envíos vinculados a las campañas.
-* **Aplicaciones web**: acceso a aplicaciones web (formularios, encuestas, etc.).
+* **Aplicaciones** web: acceso a aplicaciones web (formularios, páginas de aterrizaje, etc.).
 
 >[!NOTE]
 >
@@ -125,7 +125,7 @@ Una campaña unifica un conjunto de envíos. Para cada campaña, la programació
 
 Para cada campaña, los operadores pueden intercambiar mensajes a través de un foro dedicado.
 
-Para obtener más información, consulte [Foros de debate](../../campaign/using/discussion-forums.md).
+Para obtener más información, consulte [Foros de debate](../../mrm/using/discussion-forums.md).
 
 #### Informes {#reports}
 
