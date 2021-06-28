@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
 workflow-type: tm+mt
 source-wordcount: '1663'
 ht-degree: 100%
@@ -134,6 +134,7 @@ Para detectar posibles errores en la configuración del mensaje, Adobe recomiend
 >
 >* Los modos de validación disponibles se detallan en [Cambio del modo de aprobación](steps-validating-the-delivery.md#changing-the-approval-mode).
 >* La configuración del objetivo de prueba se explica en [Definición de un objetivo de prueba específico](steps-defining-the-target-population.md#defining-a-specific-proof-target).
+
 >
 
 
@@ -207,7 +208,7 @@ La pestaña **[!UICONTROL Rule]** proporciona una lista de las reglas de tipolog
 
 >[!NOTE]
 >
->Las tipologías de tipo **[!UICONTROL Arbitration]** se utilizan dentro del marco de gestión de la presión de ventas. Para obtener más información, consulte [esta sección](../../campaign/using/about-marketing-resource-management.md).
+>Las tipologías de tipo **[!UICONTROL Arbitration]** se utilizan dentro del marco de gestión de la presión de ventas. Para obtener más información, consulte [esta sección](../../mrm/using/about-marketing-resource-management.md).
 
 ## Cambio del modo de aprobación {#changing-the-approval-mode}
 
