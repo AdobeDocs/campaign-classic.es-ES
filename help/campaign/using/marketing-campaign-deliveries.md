@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
 workflow-type: tm+mt
 source-wordcount: '1487'
 ht-degree: 100%
@@ -116,7 +116,7 @@ La extracción de archivos inicia dos operaciones: cálculo de presupuesto y cá
 
 ## Gestión de documentos asociados {#managing-associated-documents}
 
-Puede asociar varios documentos a una campaña: informe, fotografía, página web, diagrama, etc. Estos documentos pueden tener cualquier formato (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc.). Aprenda a vincular documentos con una campaña [en esta sección](../../campaign/using/marketing-campaign-assets.md).
+Puede asociar varios documentos a una campaña: informe, foto, página web, diagrama, etc. Estos documentos pueden tener cualquier formato (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc.). Aprenda a vincular documentos con una campaña [en esta sección](../../campaign/using/marketing-campaign-assets.md).
 
 >[!IMPORTANT]
 >
@@ -126,7 +126,7 @@ En una campaña también puede hacer referencia a otros elementos, tales como cu
 
 >[!NOTE]
 >
->Si está utilizando MRM, también puede administrar una biblioteca de recursos de marketing disponibles para varios participantes para trabajar en colaboración. [Gestión de los recursos de marketing](../../campaign/using/managing-marketing-resources.md).
+>Si está utilizando MRM, también puede administrar una biblioteca de recursos de marketing disponibles para varios participantes para trabajar en colaboración. [Gestión de los recursos de marketing](../../mrm/using/managing-marketing-resources.md).
 
 ### Adición de documentos {#adding-documents}
 
@@ -203,7 +203,7 @@ Una descripción puede contener elementos y campos de personalización, recursos
 
    >[!NOTE]
    >
-   >Para obtener más información sobre los recursos de mercadotecnia, consulte [Administración de recursos de marketing](../../campaign/using/managing-marketing-resources.md).
+   >Para obtener más información sobre los recursos de mercadotecnia, consulte [Administración de recursos de marketing](../../mrm/using/managing-marketing-resources.md).
 
 #### Selección de una descripción {#selecting-an-outline}
 
@@ -233,7 +233,7 @@ El modelo de exportación debe estar asociado al proveedor de servicios seleccio
 >
 >Para obtener más información sobre las exportaciones, consulte la sección [Introducción](../../platform/using/get-started-data-import-export.md).
 
-#### Videotutorial {#create-email-video}
+#### Tutorial en vídeo {#create-email-video}
 
 En este vídeo se explica cómo crear una campaña y un correo electrónico en Adobe Campaign.
 
