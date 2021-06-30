@@ -49,7 +49,7 @@ Todas estas normativas se aplican a los clientes de Adobe Campaign que poseen da
 >
 >Para obtener más información sobre los datos personales y las distintas entidades que administran los datos (controlador de datos, procesador de datos y sujeto de datos), consulte [Datos personales y personas](../../platform/using/privacy-and-recommendations.md#personal-data).
 
-## Consulte Derecho de acceso y Derecho a ser olvidado {#right-access-forgotten}
+## Derecho de acceso y Derecho a ser olvidado {#right-access-forgotten}
 
 Para ayudarle a facilitar su preparación para la privacidad, Adobe Campaign le permite gestionar solicitudes de **acceso** y **eliminación** .
 
