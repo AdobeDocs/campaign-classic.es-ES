@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Estos conectores permiten una integración de datos rápida y sencilla: Adobe Ca
 
 Consulte [Configure CRM connectors](../../platform/using/crm-connectors.md) para aprender a sincronizar su herramienta CRM con Adobe Campaign.
 
-![](assets/do-not-localize/how-to-video.png) Vea este vídeo de caso de uso sobre la [integración de Adobe Campaign y Microsoft Dynamics 365](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html).
+![](assets/do-not-localize/how-to-video.png) Vea este vídeo de caso de uso sobre la [integración de Adobe Campaign y Microsoft Dynamics 365](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/integrating/dynamics365-integration.html?lang=es).
 
 ## ¿Cómo hacer el borrado de caché de software cuando los problemas son específicos del equipo o del usuario? {#perform-soft-cache-clear}
 
