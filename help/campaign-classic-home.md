@@ -6,7 +6,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: c0a3d9217696f5f5622a6af8f64c62b1a9fbce20
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 84%
+ht-degree: 98%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 84%
 
 ## Novedades
 
-* **[¡El lanzamiento de junio está activo!](rn/using/latest-release.md)**<br/> Descubra nuevas funciones, mejoras y correcciones en las Notas de la versión
+* **[¡Ya está aquí la versión de junio!](rn/using/latest-release.md)**<br/> Descubra nuevas funcionalidades, mejoras y correcciones en las notas de la versión
 
-* **[Preguntas frecuentes sobre la protección de la privacidad del correo de Apple](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> Encuentre instrucciones iniciales en respuesta al anuncio de Apple con respecto a iOS 15
+* **[Preguntas frecuentes sobre la protección de la privacidad del correo de Apple](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=es)**<br/> Encuentre orientación básica en respuesta al anuncio de Apple sobre iOS 15
 
-* **[¿Conexión a través de IMS/ID de Adobe? Actualice a las últimas compilaciones](technotes/ims-updates.md)**<br/> Si utiliza IMS para conectarse a Campaign, debe actualizar para poder seguir conectándose después del** 30 de junio de 2021 **
+* **[¿Se conecta a través de IMS/ID de Adobe? Actualice a las últimas compilaciones](technotes/ims-updates.md)**<br/> Si utiliza IMS para conectarse a Campaign, debe actualizar para poder seguir conectándose después del** 30 de junio de 2021.**
 
-* **[Eliminación de devoluciones graves incorrectas](delivery/using/update-bounce-qualification.md)**<br/> Aprenda a actualizar las devoluciones graves incorrectas tras la interrupción de Apple
+* **[Elimine devoluciones graves incorrectas](delivery/using/update-bounce-qualification.md)**<br/> Aprenda a actualizar las devoluciones graves incorrectas tras la interrupción de Apple.
 
-* **[Proteja sus instancias de Campaign](technotes/acc-config-updates.md)**<br/> Actualice a las últimas compilaciones para proteger su plataforma de Campaign
+* **[Proteja sus instancias de Campaign](technotes/acc-config-updates.md)**<br/> Actualice a las últimas compilaciones para proteger su plataforma de Campaign.
 
 * **[Actualice la integración de los activadores de Adobe Experience Cloud](integrations/using/configuring-adobe-io.md)**<br/> El servicio de autenticación de autenticación heredada ha llegado al final de su vida útil. Descubra más información sobre cómo migrar a Adobe I/O.
 
