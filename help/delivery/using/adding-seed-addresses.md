@@ -25,7 +25,7 @@ Hay tres modos de inserción posibles:
 
 1. Introducción de direcciones semilla individuales.
 
-   Para ello, haga clic en el botón **[!UICONTROL Add]** y defina el contenido de los campos de dirección. Repita este proceso para cada dirección.
+   Para ello, haga clic en el botón **[!UICONTROL Add]** y defina el contenido de los campos de dirección. Repita este proceso con cada dirección.
 
 1. Importación de plantillas de direcciones y adaptación a sus necesidades.
 
