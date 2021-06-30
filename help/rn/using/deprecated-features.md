@@ -9,7 +9,7 @@ exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: c612b47463427751eff27d6092e371c918c87d93
 workflow-type: tm+mt
 source-wordcount: '1634'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -42,8 +42,8 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
    <td><strong>Sustitución</strong></td>
   </tr>
     <tr>
-  <td>Conectores de datos de Adobe Analytics<br></td>
-   <td><p>A partir de la versión 21.1.3 de Campaign, el conector de datos de Adobe Analytics queda obsoleto.</p>
+  <td>Conector de datos de Adobe Analytics<br></td>
+   <td><p>A partir de la versión 21.1.3 de Campaign, el Conector de datos de Adobe Analytics queda obsoleto.</p>
    <p>Si utiliza este conector, debe adaptar la implementación en consecuencia. <a href="../../platform/using/adobe-analytics-connector.md">Más información</a></p>
   <p><em>Fecha de eliminación del objetivo: 1 de marzo de 2022</em></p>
   </td>
@@ -82,7 +82,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
    <td><p>A partir de la versión 21.1.3 de Campaign, el canal de fax ya no está disponible. <a href="../../delivery/using/steps-about-delivery-creation-steps.md">Más información</a></p>
   <tr>
   <td>Dominio de Demdex<br></td>
-  <td><p> A partir de la versión 21.1.3 de Campaign, el dominio demdex utilizado para importar y exportar audiencias a Adobe Experience Cloud ya no está disponible. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">Más información</a></p> 
+  <td><p> A partir de la versión 21.1.3 de Campaign, el dominio de demdex utilizado para importar y exportar audiencias a Adobe Experience Cloud ya no está disponible. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">Más información</a></p> 
   </td>
   </td>
   </tr>
@@ -156,7 +156,7 @@ La consola del cliente de Adobe Campaign Classic ya no se puede ejecutar en los 
 
 ### Sistemas operativos {#o-s-eol}
 
-A partir de la versión 21.1.3, el soporte para Debian 8 está en desuso.
+A partir de la versión 21.1.3, el soporte para Debian 8 queda obsoleto.
 
 A partir de la versión 19.1, Adobe Campaign deja de ser compatible con los siguientes sistemas operativos.
 
@@ -178,7 +178,7 @@ A partir de la versión de primavera (19.1), Adobe Campaign deja de ser compatib
 A partir de la versión de primavera (19.1), Adobe Campaign deja de ser compatible con las siguientes herramientas.
 
 * Java JDK 7. [Más información](http://www.oracle.com/technetwork/java/javase/eol-135779.html)
-* Libre Office 3.5 / 4.3 / 5.x, excepto cuando se incrusta en otra herramienta. [Más información](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
+* Libre Office 3.5 / 4.3 / 5.x, excepto cuando se incorpora en otra herramienta. [Más información](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
 
 ### Motores de bases de datos {#dbe-eol}
 
@@ -211,14 +211,14 @@ Campaign Classic no es compatible con los siguientes servidores de acceso de dat
 * Netezza 6.02, 7.0. Netezza llegó al final de su vida. [Más información](https://en.wikipedia.org/wiki/Netezza)
 * AsterData 5.0. AsterData llegó al final de su vida. [Más información](https://en.wikipedia.org/wiki/Aster_Data_Systems)
 * Sybase IQ 15.2, 15.4, 15.5 y Sybase ASE 15.0. Las versiones más recientes de Sybase son compatibles con Acceso de datos federado (FDA). [Más información](https://sites.google.com/site/dbatipsandtricks/time-tracker)
-* Hadoop a través de HiveSQL: Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic seguirá siendo compatible con las versiones de Hadoop incluidas en la lista a través de HiveSQL a través del Acceso de datos federado (FDA), pero estas versiones se combinan con: HortonWorks (HDP 2.4.X, 2.5.x, 2.6.x) y HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)
+* Hadoop a través de HiveSQL: Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic seguirá siendo compatible con las versiones de Hadoop incluidas en la lista mediante HiveSQL a través del acceso de datos federado (FDA), pero estas versiones se combinan con: HortonWorks (HDP 2.4.X, 2.5.x, 2.6.x) y HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)
 * API de Soap: On-Premise: 2007, 2015, 2016
 * API de Soap: En línea: 2015, 2016
 * API web - Microsoft Dynamics CRM On-premise: 2016, actualización 1 de 2016
 * API web - Microsoft Dynamics CRM Online: 2016, actualización 1 de 2016
 * API de Oracle bajo demanda&lt;
 
-**Servidor RDBMS**
+**SERVIDOR RDBMS**
 
 A partir de la versión de primavera (19.1), Adobe Campaign deja de ser compatible con los siguientes servidores RDBMS:
 
