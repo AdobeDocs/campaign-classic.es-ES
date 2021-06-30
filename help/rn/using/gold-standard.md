@@ -44,7 +44,7 @@ _22 de diciembre de 2020_
 >[!CAUTION]
 >
 > * Esta versión incorpora un nuevo protocolo de conexión: si se está conectando a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**. [Más información](../../technotes/ims-updates.md)
-> * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
+> * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
 > * Si está utilizando la integración de Experience Cloud Triggers mediante autenticación oAuth, debe ir a Adobe I/O como se detalla [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación oAuth heredado con Campaign se eliminará el **30 de noviembre de 2021**.
 
 >
