@@ -7,22 +7,22 @@ content-type: reference
 topic-tags: instance-configuration
 exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
 source-git-commit: e86350cf12db37e3f2c227563057b97922601729
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1222'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
 
-# Configurar instancias {#creating-a-shared-connection}
+# Configuración de instancias {#creating-a-shared-connection}
 
-Para utilizar las funcionalidades de mensajería transaccional, debe configurar las instancias de control y ejecución. Puede utilizar:
-* [Una instancia de control ](#control-instance) asociada a una o varias instancias de ejecución
-* [Varias instancias de control ](#using-several-control-instances) asociadas con varias instancias de ejecución
+Para utilizar las funcionalidades de mensajería transaccional, debe configurar las instancias de control y ejecución. Puede usar cualquiera de estas opciones:
+* [Una instancia de control](#control-instance) asociada a una o varias instancias de ejecución
+* [Varias instancias de control](#using-several-control-instances) asociadas con varias instancias de ejecución
 
 >[!IMPORTANT]
 >
->Las extensiones de esquema afectaron a los recursos utilizados por los [flujos de trabajo técnicos del centro de mensajes](../../message-center/using/additional-configurations.md#technical-workflows) en cualquiera de las instancias de control o ejecución deben duplicarse en las demás instancias utilizadas por el módulo de mensajería transaccional.
+>Las extensiones de esquema afectadas por los esquemas que usan [Flujos de trabajo técnicos del centro de mensajes](../../message-center/using/additional-configurations.md#technical-workflows) en cualquiera de las instancias de control o de ejecución deben duplicarse en las demás instancias que utiliza el módulo de mensajería transaccional de Adobe Campaign.
 
 También debe especificar y conectar las instancias de ejecución a las instancias de control.
 
@@ -32,7 +32,7 @@ En esta sección se describen todos los pasos necesarios para configurar y conec
 >
 >La instancia de control y las instancias de ejecución deben estar instaladas en diferentes equipos. No pueden compartir la misma instancia de Campaign.
 
-## Configurar la instancia de control {#control-instance}
+## Configuración de la instancia de control {#control-instance}
 
 Para conectar la instancia de control y las instancias de ejecución, primero debe crear y configurar una cuenta externa de tipo **[!UICONTROL Execution instance]** **en la instancia de control**. Por lo tanto, una vez [publicado](../../message-center/using/publishing-message-templates.md#template-publication), las plantillas de mensajes transaccionales se pueden implementar en las instancias de ejecución.
 
@@ -42,13 +42,13 @@ Si utiliza varias instancias de ejecución, debe crear tantas cuentas externas c
 >
 >Cuando varias instancias de control utilizan instancias de ejecución, los datos se pueden dividir por carpeta y por operador. Para obtener más información, consulte [Uso de varias instancias de control](#using-several-control-instances).
 
-### Crear una cuenta externa
+### Creación de una cuenta externa
 
 >[!NOTE]
 >
 >Los pasos siguientes deben realizarse **en la instancia de control**.
 
-Para crear una cuenta externa de tipo **[!UICONTROL Execution instance]** , aplique lo siguiente:
+Para crear una cuenta externa de tipo **[!UICONTROL Execution instance]**, aplique lo siguiente:
 
 1. Vaya a la carpeta **[!UICONTROL Administration > Platform > External accounts]**.
 1. Seleccione una de las cuentas externas de tipo instancia de ejecución proporcionadas previamente con Adobe Campaign, haga clic con el botón derecho del ratón y elija **[!UICONTROL Duplicate]**.
@@ -93,7 +93,7 @@ Para crear una cuenta externa de tipo **[!UICONTROL Execution instance]** , apli
 
    Para obtener más información sobre el acceso de datos federado (FDA), consulte [esta sección](../../installation/using/about-fda.md).
 
-1. Haga clic en **[!UICONTROL Test the connection]** para asegurarse de que la instancia de control y la instancia de ejecución estén relacionadas.
+1. Haga clic en **[!UICONTROL Test the connection]** para asegurarse de que la instancia de control y la instancia de ejecución estén vinculadas.
 
    ![](assets/messagecenter_create_extaccount_006.png)
 
@@ -106,7 +106,7 @@ Cada instancia de ejecución debe asociarse con un identificador único para dif
 Este identificador se puede atribuir en cada instancia de ejecución **manualmente**. En este caso, este paso debe realizarse **en cada instancia de ejecución**. Para ello, utilice el asistente de implementación como se detalla a continuación:
 
 1. Abra el asistente de implementación en una instancia de ejecución.
-1. Vaya a la ventana **[!UICONTROL Message Center]** .
+1. Vaya a la ventana **[!UICONTROL Message Center]**.
 1. Asigne el identificador seleccionado a la instancia.
 
    ![](assets/messagecenter_id_execinstance_001.png)
@@ -117,7 +117,7 @@ El identificador también puede atribuirse **automáticamente**. Para ello, vaya
 
 ![](assets/messagecenter_create_extaccount_006bis.png)
 
-## Configurar las instancias de ejecución {#execution-instance}
+## Configuración de las instancias de ejecución {#execution-instance}
 
 >[!NOTE]
 >
@@ -148,25 +148,25 @@ Para utilizar una contraseña vacía, vaya a las instancias de ejecución y defi
 
 Cuando utilice varias instancias de ejecución, repita estos pasos para cada instancia de ejecución.
 
-## Usar varias instancias de control {#using-several-control-instances}
+## Uso de varias instancias de control {#using-several-control-instances}
 
 Se puede compartir un clúster de ejecución con varias instancias de control. Este tipo de arquitectura requiere la configuración siguiente.
 
-Por ejemplo, imaginemos que su empresa administra dos marcas, cada una con su propia instancia de control: **Control 1** y **Control 2**. También se utilizan dos instancias de ejecución. Debe introducir un operador de centro de mensajes diferente para cada instancia de control: un operador **mc1** para la instancia de **Control 1** y un operador **mc2** para la instancia de **Control 2**.
+Por ejemplo, imagine que su compañía administra dos marcas, cada una con su propia instancia de control: **Control 1** y **Control 2**. También se utilizan dos instancias de ejecución. Debe introducir un operador de centro de mensajes diferente para cada instancia de control: un operador **mc1** para la instancia de **Control 1** y un operador **mc2** para la instancia de **Control 2**.
 
 En el árbol de todas las instancias de ejecución, cree una carpeta por cada operador (**Folder 1** y **Folder 2**) y limite el acceso a los datos de cada operador a su carpeta.
 
-### Configurar instancias de control {#configuring-control-instances}
+### Configuración de instancias de control {#configuring-control-instances}
 
 >[!NOTE]
 >
 >Los pasos siguientes deben realizarse **en las instancias de control**.
 
-1. En la instancia de control **Control 1** , cree una cuenta externa por cada instancia de ejecución e introduzca el operador **mc1** en cada cuenta externa. El operador **mc1** se crea posteriormente en todas las instancias de ejecución (consulte [Configurar instancias de ejecución](#configuring-execution-instances)).
+1. En la instancia de control **Control 1**, cree una cuenta externa por cada instancia de ejecución e introduzca el operador **mc1** en cada cuenta externa. El operador **mc1** se crea posteriormente en todas las instancias de ejecución (consulte [Configuración de instancias de ejecución](#configuring-execution-instances)).
 
    ![](assets/messagecenter_multi_control_1.png)
 
-1. En la instancia de control **Control 2**, cree una cuenta externa por cada instancia de ejecución e introduzca el operador **mc2** en cada cuenta externa. El operador **mc2** se crea posteriormente en todas las instancias de ejecución (consulte [Configurar instancias de ejecución](#configuring-execution-instances)).
+1. En la instancia de control **Control 2**, cree una cuenta externa por cada instancia de ejecución e introduzca el operador **mc2** en cada cuenta externa. El operador **mc2** se crea posteriormente en todas las instancias de ejecución (consulte [Configuración de instancias de ejecución](#configuring-execution-instances)).
 
    ![](assets/messagecenter_multi_control_2.png)
 
@@ -174,7 +174,7 @@ En el árbol de todas las instancias de ejecución, cree una carpeta por cada op
    >
    >Para obtener más información sobre la configuración de una instancia de control, consulte [esta sección](#control-instance).
 
-### Configurar instancias de ejecución {#configuring-execution-instances}
+### Configuración de instancias de ejecución {#configuring-execution-instances}
 
 >[!NOTE]
 >
