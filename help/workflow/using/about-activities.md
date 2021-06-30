@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: introduction
 exl-id: 900dd30e-d4fb-452a-af3f-ae00758b0077
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '94'
 ht-degree: 100%
 
@@ -25,6 +25,6 @@ En los flujos de trabajo de campaña, la actividad **[!UICONTROL Events]** se ha
 
 Más información:
 
-* [Acerca de las actividades de segmentación](../../workflow/using/about-targeting-activities.md)
+* [Acerca de las actividades de direccionamiento](../../workflow/using/about-targeting-activities.md)
 * [Ejecución de un flujo de trabajo](../../workflow/using/starting-a-workflow.md)
 * [Prácticas recomendadas con flujos de trabajo](../../workflow/using/workflow-best-practices.md)
