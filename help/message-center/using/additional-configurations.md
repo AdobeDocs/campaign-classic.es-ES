@@ -1,23 +1,23 @@
 ---
 product: campaign
 title: Configuraciones adicionales
-description: Obtenga información sobre cómo configurar configuraciones adicionales para la mensajería transaccional en Adobe Campaign Classic.
+description: Obtenga información sobre cómo ajustar configuraciones adicionales para la mensajería transaccional en Adobe Campaign Classic.
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
 source-git-commit: e86350cf12db37e3f2c227563057b97922601729
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '747'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Configuraciones adicionales {#mc-additional-configurations}
 
-## Umbrales de monitor {#monitoring-thresholds}
+## Umbrales de monitorización {#monitoring-thresholds}
 
-Puede configurar los umbrales de advertencia (naranja) y los umbrales de alerta (rojo) de los indicadores que aparecen en los informes **Message Center service level** y **Message Center processing time** (consulte [Access transactional messaging reports](../../message-center/using/about-transactional-messaging-reports.md)).
+Puede configurar los umbrales de advertencia (naranja) y los umbrales de alerta (rojo) de los indicadores que aparecen en los informes **Nivel de servicio del Centro de mensajería** y **Tiempo de procesamiento del Centro de mensajes** (consulte [Acceso a los informes de mensajería transaccional](../../message-center/using/about-transactional-messaging-reports.md)).
 
 Para realizar esto, siga los pasos a continuación:
 
@@ -25,7 +25,7 @@ Para realizar esto, siga los pasos a continuación:
 
 1. Vaya a la página **[!UICONTROL Message Center]**.
 
-1. Utilice las flechas para cambiar los umbrales.
+1. Utilice las flechas para modificar los umbrales.
 
    ![](assets/messagecenter_monitor_events_001.png)
 
@@ -91,7 +91,7 @@ En la instancia de ejecución, se puede acceder a los flujos de trabajo técnico
 
 ## Configuración de marcas múltiples {#configuring-multibranding}
 
-Esta sección describe una solución para configurar el seguimiento y las direcciones URL de las páginas espejo por marca para los mensajes transacciones en Adobe Campaign.
+Esta sección describe una solución para configurar el seguimiento y las direcciones URL de las páginas espejo por marca para los mensajes transaccionales en Adobe Campaign.
 
 ### Requisitos previos {#prerequisites}
 
@@ -154,16 +154,16 @@ En las instancias de ejecución, siga los pasos a continuación:
 
 ### Instancia de control {#control-instance}
 
-En la instancia de control, se deben vincular las plantillas de envío y las cuentas externas.
+En la instancia de control, se deben vincular las plantillas de entrega y las cuentas externas.
 
 Para realizar esto, siga los pasos a continuación:
 
 1. Cree una cuenta externa por marca con el mismo nombre interno que se define en la [instancia de ejecución](#execution-instance) (paso 1).
 
-1. Crear una plantilla de envío predeterminada por cada marca.
+1. Cree una plantilla de envíos predeterminada por cada marca.
 
    >[!NOTE]
    >
-   >    Aprenda a crear una plantilla de envío en [esta sección](../../delivery/using/creating-a-delivery-template.md#creating-a-new-template).
+   >    Obtenga información sobre cómo crear una plantilla de envíos en [esta sección](../../delivery/using/creating-a-delivery-template.md#creating-a-new-template).
 
-1. En **[!UICONTROL Properties]** de la plantilla de envío, configure el enrutamiento en la cuenta externa de la marca.
+1. En las **[!UICONTROL Properties]** de la plantilla de envío, configure el enrutamiento en la cuenta externa de la marca.
