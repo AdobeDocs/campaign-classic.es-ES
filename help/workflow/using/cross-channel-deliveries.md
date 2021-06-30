@@ -13,7 +13,7 @@ ht-degree: 81%
 
 ---
 
-# Entregas multicanal{#cross-channel-deliveries}
+# Entregas en canales múltiples{#cross-channel-deliveries}
 
 Los envíos multicanal están disponibles en la pestaña **[!UICONTROL Deliveries]** de las actividades de flujo de trabajo de la campaña.
 
