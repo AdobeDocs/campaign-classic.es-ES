@@ -10,7 +10,7 @@ type: Documentation
 source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
 workflow-type: tm+mt
 source-wordcount: '2518'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -572,21 +572,21 @@ ht-degree: 96%
       + [Ofertas en un canal de salida](interaction/using/offers-on-an-outbound-channel.md)
 + Mensajería transaccional {#transactional-messaging}
    + [Introducción a la mensajería transaccional](message-center/using/about-transactional-messaging.md)
-   + Configurar la mensajería transaccional {#configure-transactional-messaging}
+   + Configuración de la mensajería transaccional {#configure-transactional-messaging}
       + [Arquitectura de la mensajería transaccional](message-center/using/transactional-messaging-architecture.md)
       + [Configuración de instancias](message-center/using/configuring-instances.md)
       + [Configuraciones adicionales](message-center/using/additional-configurations.md)
    + Plantillas de mensaje {#message-templates}
       + [Creación de tipos de eventos](message-center/using/creating-event-types.md)
       + [Plantillas de mensajes de diseño](message-center/using/creating-the-message-template.md)
-      + [Probar plantillas de mensajes](message-center/using/testing-message-templates.md)
+      + [Prueba de plantillas de mensajes](message-center/using/testing-message-templates.md)
       + [Publicación de plantillas de mensaje](message-center/using/publishing-message-templates.md)
    + Procesamiento de eventos transaccionales {#processing}
       + [Descripción del evento](message-center/using/event-description.md)
       + [Procesamiento de eventos](message-center/using/about-event-processing.md)
       + [Ejecución de entrega](message-center/using/delivery-execution.md)
    + Informes {#reports}
-      + [Acceso a informes de mensajería transaccional](message-center/using/about-transactional-messaging-reports.md)
+      + [Acceso a los informes de mensajería transaccional](message-center/using/about-transactional-messaging-reports.md)
       + [Historial de eventos del Centro de mensajería](message-center/using/history-of-message-center-events.md)
       + [Nivel de servicio del Centro de mensajería](message-center/using/message-center-service-level.md)
       + [Tiempo de procesamiento del Centro de mensajería](message-center/using/message-center-processing-time.md)
@@ -675,9 +675,9 @@ ht-degree: 96%
          + [Prácticas recomendadas y limitaciones](installation/using/fda-best-practices.md)
          + Directrices de configuración {#config-databases}
             + [Pasos de configuración](installation/using/configure-fda.md)
-            + [Configurar Vertica](installation/using/configure-fda-vertica.md)
+            + [Configuración de Vertica](installation/using/configure-fda-vertica.md)
             + [Configuración de Snowflake](installation/using/configure-fda-snowflake.md)
-            + [Configurar Google BigQuery](installation/using/configure-fda-google-big-query.md)
+            + [Configuración de Google BigQuery](installation/using/configure-fda-google-big-query.md)
             + [Configuración de Azure Synapse](installation/using/configure-fda-synapse.md)
             + [Configuración de Hadoop](installation/using/configure-fda-hadoop.md)
             + [Configuración de Oracle](installation/using/configure-fda-oracle.md)
