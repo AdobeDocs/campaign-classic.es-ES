@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->A través de este documento, todas las referencias a los detalles sobre el protocolo, los nombres de campo y los valores se refieren a la [especificación SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
+>En este documento, todas las referencias a los detalles acerca del protocolo, los nombres de campo y los valores se refieren a la [especificación SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
 
 ## Información general {#overview}
@@ -810,7 +810,7 @@ El proceso de SMS busca líneas completas cada minuto y luego las procesa asincr
 
 Cada elemento secundario de MTA crea una cantidad configurable de conexiones, por lo que si se limita el número de elementos secundarios de MTA se limita el número de conexiones. Debido a que la correlación entre los procesos secundarios de MTA y el tráfico está correlacionado, se puede controlar de alguna manera pero sigue siendo impredecible.
 
-## Antes de empezar a usar {#checklist}
+## Antes de empezar a usarlo {#checklist}
 
 Esta lista de verificación le proporciona una lista de las cosas que debe comprobar antes de empezar a usarlo. Una configuración incompleta puede provocar muchos problemas.
 
@@ -825,7 +825,7 @@ Si tiene varias cuentas en la misma instancia de Adobe Campaign que se conectan 
 Siempre debe habilitar los seguimientos detallados del SMPP durante las comprobaciones.
 Incluso si no puede comprobar los registros usted mismo, será más fácil para el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) ayudarle.
 
-### Pruebe su SMS {#test}
+### Prueba de SMS {#test}
 
 * **Envíe SMS con todo tipo de caracteres**
 Si necesita enviar un SMS con caracteres que no sean GSM o ASCII, intente enviar algunos mensajes con tantos caracteres diferentes como sea posible. Si configura una tabla de asignación de caracteres personalizada, envíe al menos un SMS para todos los posibles 
