@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: introduction
 exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '751'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 ## Modelo de datos de mensajería transaccional {#about-transactional-messaging-datamodel}
 
-La mensajería transaccional se basa en el modelo de datos de Adobe Campaign y utiliza dos tablas independientes adicionales. Estas [tablas](../../configuration/using/data-model-description.md#message-center-module), **NmsRtEvent** y **NmsBatchEvent** contienen los mismos campos y permiten administrar eventos en tiempo real por un lado y eventos por lotes por otro.
+La mensajería transaccional se basa en el modelo de datos de Adobe Campaign y utiliza dos tablas independientes adicionales. Estas [tablas](../../configuration/using/data-model-description.md#message-center-module), **NmsRtEvent** y **NmsBatchEvent**, contienen los mismos campos y permiten administrar eventos en tiempo real por un lado y eventos por lotes por otro.
 
 ## Métodos SOAP {#soap-methods}
 
