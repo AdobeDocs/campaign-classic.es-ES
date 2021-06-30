@@ -223,11 +223,11 @@ Se pueden utilizar **[!UICONTROL Seed addresses]** como destinatario de las prue
 
 Se puede combinar la definición de un destinatario de prueba específico y el uso de direcciones semilla con la opción **[!UICONTROL Specific target and Seed addresses]**. Las configuraciones relacionadas se definen en dos subpestañas independientes.
 
-Asimismo, consulte lo siguiente:
+Asimismo, consulte:
 
 * [Selección del destino de la prueba](#selecting-the-proof-target)
 * [Acerca de las direcciones semilla](about-seed-addresses.md)
-* [Ejemplo de uso: selección de direcciones semilla según ciertos criterios](use-case--selecting-seed-addresses-on-criteria.md)
+* [Caso de uso: Selección de direcciones semilla según ciertos criterios](use-case--selecting-seed-addresses-on-criteria.md)
 
 ## Tutorial en vídeo {#seeds-and-proofs-video}
 
