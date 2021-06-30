@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: distributed-marketing
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '912'
 ht-degree: 100%
 
@@ -129,7 +129,7 @@ Para las **campañas de colaboración**, la entidad central debe especificar el 
 
 ### Audiencia {#audience}
 
-La entidad central debe especificar las entidades locales involucradas en cada campaña en cuanto se crea la campaña de colaboración.
+La entidad central debe especificar las entidades locales involucradas en cada campaña en cuanto se cree la campaña colaborativa.
 
 ![](assets/s_advuser_mkg_dist_create_mutual_entry2.png)
 
