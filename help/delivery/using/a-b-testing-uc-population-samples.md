@@ -15,7 +15,7 @@ ht-degree: 90%
 
 # Configuración de muestras de población {#step-2--configuring-population-samples}
 
-## Configure la actividad de consulta {#configuring-the-query-activity}
+## Configurar la actividad Consulta {#configuring-the-query-activity}
 
 * Haga doble clic en la actividad **[!UICONTROL Query]**.
 
@@ -29,7 +29,7 @@ ht-degree: 90%
 
    ![](assets/use_case_abtesting_createrecipients_003.png)
 
-## Configure la actividad Split {#configuring-the-split-activity}
+## Configurar la actividad Split {#configuring-the-split-activity}
 
 Esta actividad permite crear varias poblaciones: la que recibe la entrega A, la que recibe la entrega B y la población restante. El uso de la selección aleatoria permite seleccionar solo parte de la población de cada entrega.
 
