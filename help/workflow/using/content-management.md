@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: action-activities
 exl-id: eb92a7c7-edfa-4062-b473-6d8b50d35e5f
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -101,4 +101,4 @@ Identificador del contenido que se va a utilizar si la opción **[!UICONTROL Spe
 
 ## Ejemplos {#examples}
 
-Ejemplos se proporcionan en esta [sección](../../delivery/using/automating-via-workflows.md#examples).
+Ejemplos se ofrecen en esta [sección](../../delivery/using/automating-via-workflows.md#examples).
