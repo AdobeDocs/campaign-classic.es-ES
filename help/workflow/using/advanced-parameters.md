@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: advanced-management
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '488'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ La pantalla de propiedades de una actividad tiene una pestaña **[!UICONTROL Adv
 
 Los campos que se introducen en la pestaña **[!UICONTROL Advanced]** se describen en las siguientes secciones.
 
-## Name {#name}
+## Nombre {#name}
 
 Este campo contiene el nombre interno de la actividad.
 
