@@ -1,21 +1,21 @@
 ---
 product: campaign
-title: Probar plantillas de mensaje transaccional
+title: Prueba de plantillas de mensaje transaccional
 description: Obtenga información sobre cómo administrar las direcciones semilla en mensajes transaccionales para previsualizarlos y probarlos en Adobe Campaign Classic.
 audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
 source-git-commit: e86350cf12db37e3f2c227563057b97922601729
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
-# Probar las plantillas de mensajes transaccionales {#testing-message-templates}
+# Prueba de plantillas de mensaje transaccional {#testing-message-templates}
 
-Una vez que la [plantilla de mensaje](../../message-center/using/creating-the-message-template.md) esté lista, siga los pasos a continuación para previsualizarla y probarla.
+Una vez que la [plantilla del mensaje](../../message-center/using/creating-the-message-template.md) esté lista, siga los pasos a continuación para previsualizarla y probarla.
 
 ## Administración de direcciones semilla en mensajes transaccionales {#managing-seed-addresses-in-transactional-messages}
 
@@ -59,15 +59,15 @@ Una vez creadas las direcciones, puede mostrar su vista previa y personalizació
 
 Es posible utilizar los datos en la plantilla de mensaje para probar la personalización del mensaje transaccional. Esta funcionalidad se utiliza para generar una vista previa o enviar una prueba. También puede mostrar la renderización del mensaje para varios proveedores de acceso a Internet. Para obtener más información, consulte [Procesamiento de bandeja de entrada](../../delivery/using/inbox-rendering.md).
 
-La finalidad de estos datos es probar los mensajes antes de la entrega final. Estos mensajes no coinciden con los datos reales que se van a procesar. Sin embargo, la estructura XML debe ser idéntica a la del evento almacenado en la instancia de ejecución, como se muestra a continuación:
+La finalidad de estos datos es probar los mensajes antes de la entrega final. Estos mensajes no coinciden con los datos reales que deben procesarse. Sin embargo, la estructura XML debe ser idéntica a la del evento almacenado en la instancia de ejecución, como se muestra a continuación:
 
 ![](assets/messagecenter_create_custo_006.png)
 
-Esta información le permite personalizar el contenido del mensaje mediante etiquetas de personalización (para obtener más información, consulte [Creación del contenido del mensaje](../../message-center/using/creating-the-message-template.md#creating-message-content)).
+Esta información le permite personalizar el contenido del mensaje mediante etiquetas de personalización (para obtener más información, consulte [Creación del contenido de un mensaje](../../message-center/using/creating-the-message-template.md#creating-message-content)).
 
 1. Seleccione la plantilla de mensaje transaccional.
 
-1. En la plantilla , haga clic en la pestaña **[!UICONTROL Seed addresses]** .
+1. En la plantilla del mensaje, haga clic en la pestaña **[!UICONTROL Seed addresses]**.
 
 1. En el contenido del evento, introduzca la información de prueba en formato XML.
 
@@ -75,9 +75,9 @@ Esta información le permite personalizar el contenido del mensaje mediante etiq
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-## Vista previa del mensaje transaccional {#transactional-message-preview}
+## Previsualización del mensaje transaccional {#transactional-message-preview}
 
-Una vez que haya creado una o varias direcciones semilla y el cuerpo del mensaje, puede obtener una vista previa del mensaje y comprobar su personalización.
+Una vez que haya creado una o varias direcciones semilla y el cuerpo del mensaje, puede obtener una previsualización del mensaje y comprobar su personalización.
 
 1. En la plantilla del mensaje, haga clic en la pestaña **[!UICONTROL Preview]**.
 
@@ -91,16 +91,16 @@ Una vez que haya creado una o varias direcciones semilla y el cuerpo del mensaje
 
    ![](assets/messagecenter_create_seedaddr_009.png)
 
-Con las direcciones semilla, también se puede mostrar la renderización del mensaje para varios proveedores de acceso a Internet. Para obtener más información, consulte [Procesamiento de bandeja de entrada](../../delivery/using/inbox-rendering.md).
+Con las direcciones semilla, también se puede mostrar el procesamiento del mensaje para varios proveedores de acceso a Internet. Para obtener más información, consulte [Procesamiento de bandeja de entrada](../../delivery/using/inbox-rendering.md).
 
 ## Envío de una prueba {#sending-a-proof}
 
 Puede probar la entrega de mensajes enviando una prueba a una dirección semilla creada anteriormente.
 
-El envío de una prueba implica realizar el mismo proceso que para un [envío normal](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof). Sin embargo, con la mensajería transaccional, debe llevar a cabo las siguientes operaciones de antemano:
+El envío de una prueba implica realizar el mismo proceso que para una [entrega normal](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof). Sin embargo, con la mensajería transaccional, debe llevar a cabo las siguientes operaciones de antemano:
 
 * Cree una o más [direcciones semilla](#managing-seed-addresses-in-transactional-messages) con [datos de personalización](#personalization-data).
-* [Cree el contenido del mensaje](../../message-center/using/creating-the-message-template.md#creating-message-content).
+* [Creación del contenido del mensaje](../../message-center/using/creating-the-message-template.md#creating-message-content).
 
 Para enviar la prueba:
 
@@ -118,4 +118,4 @@ Se puede acceder a las pruebas en cada plantilla a través de la pestaña **[!UI
 
 ![](assets/messagecenter_send_proof_003.png)
 
-La plantilla de mensaje ya está lista para [publicado](../../message-center/using/publishing-message-templates.md).
+La plantilla de mensaje ya está lista para [publicarse](../../message-center/using/publishing-message-templates.md).
