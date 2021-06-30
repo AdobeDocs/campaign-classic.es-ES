@@ -26,9 +26,9 @@ Antes de comenzar a enviar mensajes SMS:
 Los pasos clave para enviar un SMS son los siguientes:
 
 * [Configuración del canal SMS](sms-set-up.md)
-* [Creación de un envío de SMS](sms-create.md)
+* [Creación de una entrega de SMS](sms-create.md)
 * [Definición de la audiencia](sms-create.md#selecting-the-target-population)
-* [Defina el contenido del SMS](sms-create.md#defining-the-sms-content)
+* [Definición del contenido del SMS](sms-create.md#defining-the-sms-content)
 * [Envío, monitorización y seguimiento de SMS](sms-send.md)
 * [Resolución de problemas](troubleshooting-sms.md)
 
