@@ -1,23 +1,23 @@
 ---
 product: campaign
 title: Nivel de servicio del Centro de mensajería
-description: Obtenga más información sobre el informe de nivel de servicio del Centro de mensajes .
+description: Obtenga más información sobre el informe de nivel de servicio del Centro de mensajería.
 audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: b8dc9891-84c8-445d-ad6a-d06048c8faaf
 source-git-commit: e86350cf12db37e3f2c227563057b97922601729
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '237'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# Nivel del servicio del centro de mensajes {#message-center-service-level}
+# Nivel de servicio del Centro de mensajería {#message-center-service-level}
 
-Este informe muestra las estadísticas de envío relacionadas con los mensajes transaccionales y el desglose de errores. Puede hacer clic en un tipo de error para mostrar sus detalles.
+Este informe muestra las entrega de envío relacionadas con los mensajes transaccionales y el desglose de errores. Puede hacer clic en un tipo de error para mostrar sus detalles.
 
-También se puede acceder a este informe, dirigido a los administradores técnicos, a través de la pestaña **[!UICONTROL Monitoring]** de la instancia de control.
+También se puede acceder a este informe, dirigido a los administradores técnicos, a través de la pestaña **[!UICONTROL Monitoring]** en la instancia de control.
 
 ![](assets/mc_reports_1.png)
 
@@ -34,4 +34,4 @@ Los indicadores que se muestran en la sección **[!UICONTROL Indicators over the
 
 >[!NOTE]
 >
->Los umbrales del indicador de advertencia (naranja) y alerta (rojo) pueden configurarse en el asistente de implementación. Consulte [Umbrales del monitor](../../message-center/using/additional-configurations.md#monitoring-thresholds).
+>Los umbrales del indicador de advertencia (naranja) y alerta (rojo) pueden configurarse en el asistente de implementación. Consulte [Umbrales de monitorización](../../message-center/using/additional-configurations.md#monitoring-thresholds).
