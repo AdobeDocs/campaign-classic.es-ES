@@ -21,7 +21,7 @@ Recomendamos seguir las directrices que se indican a continuación para garantiz
 
 * [Tablero de entregas](delivery-dashboard.md)
 * [Solución de problemas de entrega](delivery-troubleshooting.md)
-* [Acerca de la capacidad de la entrega](about-deliverability.md)
+* [Acerca de la capacidad de entrega](about-deliverability.md)
 
 ## Prácticas recomendadas para el rendimiento {#best-practices-performance}
 
