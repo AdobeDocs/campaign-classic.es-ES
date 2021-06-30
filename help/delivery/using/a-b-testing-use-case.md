@@ -27,12 +27,12 @@ Además, la prueba detallada en este caso de uso implica solo dos envíos, pero 
 
 Los pasos principales para realizar este caso de uso son los siguientes:
 
-* [Paso 1: Creación de un flujo de trabajo de segmentación](a-b-testing-uc-targeting-workflow.md)
+* [Paso 1: Creación de un flujo de trabajo de direccionamiento](a-b-testing-uc-targeting-workflow.md)
 * [Paso 2: Configuración de muestras de población](a-b-testing-uc-population-samples.md)
-* [Paso 3: Creación de dos plantillas de envío](a-b-testing-uc-delivery-templates.md)
+* [Paso 3: Creación de dos plantillas de entrega](a-b-testing-uc-delivery-templates.md)
 * [Paso 4: Configuración de los envíos en el flujo de trabajo](a-b-testing-uc-configuring-deliveries.md)
 * [Paso 5: Creación de la secuencia de comando](a-b-testing-uc-script.md)
-* [Paso 6: Definición del envío final](a-b-testing-uc-final-delivery.md)
+* [Paso 6: Definición de la entrega final](a-b-testing-uc-final-delivery.md)
 * [Paso 7: Inicio del flujo de trabajo](a-b-testing-uc-start-workflow.md)
 * [Paso 8: Análisis del resultado](a-b-testing-uc-analyzing.md)
 
