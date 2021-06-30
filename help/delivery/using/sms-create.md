@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Creación de un envío de SMS {#creating-a-sms-delivery}
+# Creación de una entrega de SMS {#creating-a-sms-delivery}
 
 ## Selección del canal de envío {#selecting-the-delivery-channel}
 
@@ -31,7 +31,7 @@ Para diseñar una entrega de SMS nuevo, siga los pasos a continuación:
 1. Identifique su entrega con una etiqueta, un código y una descripción. Para obtener más información, consulte [esta sección](steps-create-and-identify-the-delivery.md#identifying-the-delivery).
 1. Haga clic en **[!UICONTROL Continue]** para confirmar esta información y mostrar la ventana de configuración de mensajes.
 
-## Defina el contenido del SMS {#defining-the-sms-content}
+## Definición del contenido del SMS {#defining-the-sms-content}
 
 Para crear el contenido del SMS, siga los pasos a continuación:
 
