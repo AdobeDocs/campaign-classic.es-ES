@@ -53,7 +53,7 @@ Esta cuestión debe solucionarse de la siguiente manera:
 
 ## Configuración {#configuration}
 
-Para configurar una deduplicación, introduzca su etiqueta, el método, los criterios de deduplicación y las opciones relativas al resultado.
+Para configurar una anulación de duplicación, introduzca su etiqueta, el método, los criterios de anulación de duplicación y las opciones relativas al resultado.
 
 1. Haga clic en el enlace **[!UICONTROL Edit configuration...]** para definir el modo de anulación de duplicación.
 
@@ -64,6 +64,7 @@ Para configurar una deduplicación, introduzca su etiqueta, el método, los crit
    >[!NOTE]
    >
    >Si utiliza datos externos como entrada, por ejemplo, de un archivo externo, asegúrese de seleccionar la opción **[!UICONTROL Temporary schema]**.
+
    >
    >En el siguiente paso, la opción **[!UICONTROL Other]** permite seleccionar los criterios que se van a utilizar:
 
