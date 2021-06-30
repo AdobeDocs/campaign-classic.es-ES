@@ -7,16 +7,16 @@ content-type: reference
 topic-tags: event-activities
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
 source-git-commit: 8c47027099559549320abf68016386cc85dcda5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '549'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 # Transferencia de archivos{#file-transfer}
 
 La actividad de **File transfer** permite recibir o enviar archivos, probar la presencia de archivos o mostrar archivos en un servidor. El protocolo utilizado es Azure Blob Storage, Amazon Simple Storage Service (S3), FTP o SFTP.
-Con S3, Azure Blob Storage o la conexión SFTP, también puede importar datos de segmentos a Adobe Campaign con la plataforma de datos del cliente en tiempo real de Adobe. Para obtener más información, consulte [Documentación](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=es#catalog).
+Con la conexión S3, Azure Blob Storage o SFTP, también puede importar datos de segmentos a Adobe Campaign con la plataforma de datos del cliente en tiempo real de Adobe. Para obtener más información, consulte esta [Documentación](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=es#catalog).
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ La configuración depende de la acción seleccionada.
 
    ![](assets/file_transfert_edit.png)
 
-   Consulte **[!UICONTROL Use an external account]** para seleccionar una cuenta de las cuentas de almacenamiento del blob de Azure, S3, FTP o SFTP configuradas en el nodo **[!UICONTROL Administration > Platform > External accounts]** del árbol. A continuación, especifique el directorio del servidor que contiene el archivo(s) que se va a descargar.
+   Consulte **[!UICONTROL Use an external account]** para seleccionar una cuenta de las cuentas configuradas en Azure Blob storage, S3, FTP o SFTP en el nodo **[!UICONTROL Administration > Platform > External accounts]** del árbol. A continuación, especifique el directorio del servidor que contiene el archivo(s) que se va a descargar.
 
    ![](assets/file_transfert_edit_external.png)
 
@@ -87,7 +87,7 @@ El enlace **[!UICONTROL Advanced parameters...]** permite acceder a las siguient
 
 * **[!UICONTROL Display the session logs]**
 
-   Permite recuperar los registros del almacenamiento del blob de Azure, S3, FTP o SFTP y para incluirlos en los registros de flujo de trabajo.
+   Permite recuperar los registros de la transferencia Azure Blob storage, S3, FTP o SFTP e incluirlos en los registros de flujo de trabajo.
 
 * **[!UICONTROL Disable passive mode]**
 
