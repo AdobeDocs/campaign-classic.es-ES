@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: -general-operation
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1609'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ A continuación se detallan las directrices generales para optimizar el rendimie
 
 Las directrices para la resolución de problemas relacionadas con la ejecución de flujos de trabajo también están disponibles en [esta sección](../../production/using/workflow-execution.md).
 
-### “Logs” {#logs}
+### Registros {#logs}
 
 El método JavaScript **[!UICONTROL logInfo()]** es una excelente solución para depurar un flujo de trabajo. Es útil, pero debe utilizarse con cuidado, especialmente para actividades que se ejecutan con frecuencia: puede sobrecargar los registros y aumentar significativamente el tamaño de la tabla de registro. Sin embargo, también puede necesitar más que **[!UICONTROL logInfo()]**.
 
@@ -147,11 +147,11 @@ El nombre de la actividad se puede encontrar en la pestaña **[!UICONTROL Advanc
 
 Quizá desee añadir JavaScript al iniciar una actividad de flujo de trabajo. Puede hacerlo mediante la pestaña **[!UICONTROL Advanced]** de la actividad.
 
-Para simplificar el flujo de trabajo, se recomienda utilizar guiones dobles al principio y al final de la etiqueta de actividad como se indica a continuación: -- Mi etiqueta --.
+Para simplificar la identificación del flujo de trabajo, se recomienda utilizar guiones dobles al principio y al final de la etiqueta de actividad como se indica a continuación: -- Mi etiqueta --.
 
 ### Señal {#signal}
 
-La mayor parte del tiempo no sabe desde dónde se llama a la señal. Para evitar este problema, utilice el campo **[!UICONTROL Comment]** dentro de la pestaña **[!UICONTROL Advanced]** de la actividad de señal para documentar el origen esperado de una señal para esta actividad.
+La mayor parte del tiempo no sabrá desde dónde se llama a la señal. Para evitar este problema, utilice el campo **[!UICONTROL Comment]** dentro de la pestaña **[!UICONTROL Advanced]** de la actividad de señal para documentar el origen esperado de una señal para esta actividad.
 
 ![](assets/workflow-signal-bp.png)
 
