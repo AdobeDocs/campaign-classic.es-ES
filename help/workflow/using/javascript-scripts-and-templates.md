@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: advanced-management
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1234'
 ht-degree: 100%
 
@@ -181,7 +181,7 @@ Por ejemplo:
 
 Además de las funciones estándar de JavaScript, existen funciones especiales disponibles para manipular archivos, leer o modificar datos de la base de datos o añadir mensajes al “log”.
 
-### Historial {#journal}
+### Diario {#journal}
 
 Se ha detallado **[!UICONTROL logInfo(message)]** en los ejemplos anteriores. Esta función añade un mensaje de información al historial.
 
