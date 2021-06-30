@@ -23,7 +23,7 @@ Los pasos clave al crear una entrega son los siguientes:
 
    * [Canal de correo electrónico](defining-the-email-content.md)
    * [Canal de SMS](sms-create.md#defining-the-sms-content)
-   * [Canal de correo postal](defining-the-direct-mail-content.md)
+   * [Canal de correo directo](defining-the-direct-mail-content.md)
    * [Canal de aplicaciones móviles](about-mobile-app-channel.md)
 
 1. **Definir la población objetivo**. [Más información](steps-defining-the-target-population.md)
