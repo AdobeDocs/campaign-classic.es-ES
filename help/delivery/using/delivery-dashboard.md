@@ -23,10 +23,10 @@ A continuación, se muestra la información que puede monitorizar en las distint
 
 * [Resumen de entregas](#delivery-summary)
 * [Informes de envío](#delivery-reports)
-* [Registros de entregas, páginas espejo y exclusiones](#delivery-logs-and-history)
-* [Registros de entregas e historial](#tracking-logs)
-* [Representación de entregas](#delivery-rendering)
-* [Auditoría de entrega](#delivery-audit-)
+* [Registros de envío, páginas espejo, exclusiones](#delivery-logs-and-history)
+* [Registros de seguimiento de entregas e historial](#tracking-logs)
+* [Procesamiento de entregas](#delivery-rendering)
+* [Auditoría de entregas](#delivery-audit-)
 
 ![](assets/s_ncs_user_del_details.png)
 
@@ -35,7 +35,7 @@ A continuación, se muestra la información que puede monitorizar en las distint
 * [Comprensión de los errores de entrega](understanding-delivery-failures.md)
 * [Comprensión de la gestión de la cuarentena](understanding-quarantine-management.md)
 * [Prácticas recomendadas de entregas](delivery-best-practices.md)
-* [Administración de envíos](about-deliverability.md)
+* [Administración de entregas](about-deliverability.md)
 
 ## Resumen de entregas {#delivery-summary}
 
@@ -67,7 +67,7 @@ La página espejo solo está disponible para las entregas para los que se ha def
 
 ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
-## Registros de entregas e historial {#tracking-logs}
+## Registros de seguimiento de entregas e historial {#tracking-logs}
 
 La pestaña **[!UICONTROL Tracking]** enumera el historial de seguimiento de esta entrega. Esta pestaña muestra los datos de seguimiento de los mensajes enviados, es decir, todas las direcciones URL sobre las que Adobe Campaign realiza un seguimiento. Los datos de seguimiento se actualizan cada hora.
 
@@ -91,7 +91,7 @@ Para obtener más información sobre la renderización de la bandeja de entrada,
 
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
-## Auditoría de entrega {#delivery-audit-}
+## Auditoría de entregas {#delivery-audit-}
 
 La pestaña **[!UICONTROL Audit]** contiene el registro de entregas y todos los mensajes correspondientes a las pruebas.
 
