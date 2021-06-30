@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
 source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2038'
 ht-degree: 100%
 
@@ -153,11 +153,11 @@ Las solicitudes de **acceso** y **eliminación** se presentan en [esta sección]
 
 Los pasos de implementación para crear estas solicitudes se detallan en [esta sección](../../platform/using/privacy-requests.md).
 
-## Capacidades de seguimiento {#tracking-capabilities}
+## Funcionalidades de seguimiento {#tracking-capabilities}
 
 ### Cookies {#cookies}
 
-Gracias a sus funciones de seguimiento, Adobe Campaign le permite rastrear la navegación de sus destinatarios de envío con tres tipos de cookies: una cookie de sesión y dos cookies permanentes.
+Gracias a sus funcionalidades de seguimiento, Adobe Campaign le permite rastrear la navegación de los destinatarios de su entrega con tres tipos de cookies: una cookie de sesión y dos cookies permanentes.
 
 * Una cookie **de sesión**: la cookie **nlid** contiene el identificador del correo electrónico enviado al contacto (**broadlogId**) y el identificador de la plantilla de mensaje (**deliveryId**). Se añade cuando el contacto hace clic en una dirección URL incluida en un correo electrónico enviado por Adobe Campaign y le permite hacer un seguimiento de su comportamiento en la web. Esta cookie de sesión se borra automáticamente cuando se cierra el explorador. El contacto puede configurar el explorador para que rechace las cookies.
 
