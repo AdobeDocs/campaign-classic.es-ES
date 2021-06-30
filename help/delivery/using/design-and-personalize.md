@@ -104,7 +104,7 @@ Obtenga más información [en esta sección](sms-set-up.md#creating-an-smpp-exte
 
 Obtenga más información [en esta sección](sms-set-up.md#about-character-transliteration).
 
-## Mejore el formato {#formatting}
+## Mejora del formato {#formatting}
 
 Para evitar errores comunes de formato, consulte los siguientes elementos:
 
