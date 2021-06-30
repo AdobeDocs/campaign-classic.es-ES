@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Ejecución de entrega
-description: Obtenga más información sobre la ejecución y supervisión del envío de mensajes transaccionales.
+description: Obtenga más información acerca de la ejecución y supervisión de la entrega de mensajes transaccionales.
 audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ De forma predeterminada, se clasifican en subcarpetas por mes de envío. Este or
 
 ## Supervisión de mensajes transaccionales {#transactional-message-monitoring}
 
-Para monitorizar los mensajes transaccionales, compruebe los [registros de envío](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
+Para supervisar los mensajes transaccionales, compruebe los [registros de envío](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
 
 Los envíos transaccionales enviados desde la instancia de ejecución se sincronizan con la instancia de control a través de un flujo de trabajo técnico (**[!UICONTROL Message Center execution instance]**) que se ejecuta cada hora.
 
