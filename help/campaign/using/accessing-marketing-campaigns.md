@@ -99,7 +99,7 @@ Se puede acceder a las campañas a través del calendario de campañas, de la pe
 
 ### Control de una campaña {#controlling-a-campaign}
 
-#### Panel {#dashboard}
+#### Tablero {#dashboard}
 
 Para cada campaña, los trabajos, recursos y envíos están centralizados en una sola pantalla, el panel, que permite administrar las acciones de marketing en colaboración con otros usuarios.
 
