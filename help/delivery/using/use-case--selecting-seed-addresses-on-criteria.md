@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Ejemplo de uso: selección de direcciones semilla según ciertos criterios{#use-case-selecting-seed-addresses-on-criteria}
+# Caso de uso: Selección de direcciones semilla según ciertos criterios{#use-case-selecting-seed-addresses-on-criteria}
 
 En el marco de trabajo de una entrega o de una campaña, el vínculo **[!UICONTROL Edit the dynamic condition...]** permite elegir las direcciones semilla basándose en criterios de selección específicos.
 
