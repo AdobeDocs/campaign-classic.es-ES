@@ -13,7 +13,7 @@ ht-degree: 61%
 
 ---
 
-# Configurar los envíos en el flujo de trabajo {#step-4--configuring-the-deliveries-in-the-workflow}
+# Configuración de los envíos en el flujo de trabajo {#step-4--configuring-the-deliveries-in-the-workflow}
 
 Una vez que [se hayan creado las poblaciones](a-b-testing-uc-population-samples.md), puede configurar los envíos. En este caso de uso, las dos primeras entregas permiten enviar contenido diferente a las poblaciones A y B. La tercera entrega es la entrega posterior: se envía a los destinatarios que no pertenecen a A ni B. Su contenido se calcula mediante una secuencia de comandos y es idéntico a A o B, dependiendo de cuál obtuvo la tasa de apertura más alta. Es necesario configurar un periodo de espera para la tercera entrega, para averiguar el resultado de los envíos A y B. Esta es la razón por la que la tercera entrega incluye una actividad **[!UICONTROL Wait]**.
 
