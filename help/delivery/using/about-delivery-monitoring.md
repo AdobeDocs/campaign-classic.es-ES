@@ -37,7 +37,7 @@ Cada entrega tiene de un panel especializado. Le permite monitorizar los posible
 Se deben seguir varias directrices para garantizar el buen rendimiento de sus entregas. También existen problemas comunes que pueden surgir al realizar entregas, que le ayudarán a entregar de forma eficaz.
 
 * [Rendimiento de las entregas y mejores prácticas](delivery-performances.md)
-* [Solución de problemas con entregas](delivery-troubleshooting.md)
+* [Solución de problemas de envíos de entregas](delivery-troubleshooting.md)
 
 <img src="assets/do-not-localize/icon_failure.svg" width="60px">
 
