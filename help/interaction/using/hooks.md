@@ -7,15 +7,15 @@ content-type: reference
 topic-tags: advanced-parameters
 exl-id: e1d7d7c2-61e7-40d6-a8ce-69bc976f8c73
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '509'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Enlaces{#hooks}
 
-Enlaces en Interacción permite modificar el **comportamiento del motor estándar**.
+Enlaces en Interacción, puede modificar el **comportamiento del motor estándar**.
 
 Los vínculos **[!UICONTROL Target loading]** y **[!UICONTROL Proposition post-processing]** están configurados, en Adobe Campaign, en el espacio de oferta:
 
