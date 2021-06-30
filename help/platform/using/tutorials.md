@@ -45,7 +45,7 @@ Descubra las principales funciones de Adobe Campaign en vídeo. [Obtenga más in
 
 ### Sesiones y vídeos de aprendizaje
 
-Además de estos vídeos cortos y detallados, puede encontrar [cursos de aprendizaje](https://learning.adobe.com/catalog.html) y ver los [vídeos de presentación](https://www.adobe.com/training/video.html?lang=es) en Adobe.com.
+Además de estos vídeos cortos y detallados, puede encontrar [cursos de aprendizaje](https://learning.adobe.com/catalog.html) y ver los [vídeos de presentación](https://experienceleague.adobe.com/docs/home-tutorials.html?lang=es) en Adobe.com.
 
 ### Cursos de Experience League
 
