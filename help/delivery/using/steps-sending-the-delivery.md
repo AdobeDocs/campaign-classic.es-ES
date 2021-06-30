@@ -57,7 +57,7 @@ A continuación, se puede cerrar el asistente de envíos y realizar un seguimien
 
 Después de enviar mensajes, puede monitorizar y realizar un seguimiento de las entregas. Para obtener más información, consulte estas secciones:
 
-* [Seguimiento de una entrega](about-delivery-monitoring.md)
+* [Monitorización de una entrega](about-delivery-monitoring.md)
 * [Comprensión de los errores de entrega](understanding-delivery-failures.md)
 * [Acerca del seguimiento de mensajes](about-message-tracking.md)
 
