@@ -7,19 +7,19 @@ content-type: reference
 topic-tags: message-templates
 exl-id: 1d55f42b-64bf-4b1f-a317-c1f7456aa5b3
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
-# Publicar plantillas de mensaje {#publishing-template-messages}
+# Publicación de plantillas de mensaje {#publishing-template-messages}
 
-## Publicación de plantilla {#template-publication}
+## Publicación de plantillas {#template-publication}
 
-Cuando la [plantilla de mensaje](../../message-center/using/creating-the-message-template.md) creada en la instancia de control esté completa y una vez que la haya [probado](../../message-center/using/testing-message-templates.md), puede publicarla. Este proceso también lo publicará en todas las instancias de ejecución.
+Cuando la [plantilla de mensaje](../../message-center/using/creating-the-message-template.md) creada en la instancia de control esté completa, y una vez que la haya [probado](../../message-center/using/testing-message-templates.md), puede publicarla. Este proceso también lo publicará en todas las instancias de ejecución.
 
-La publicación permite crear automáticamente **dos plantillas de mensaje** en las instancias de ejecución, lo que permite enviar mensajes vinculados a **eventos en tiempo real** y **eventos por lotes**.
+La publicación permite crear automáticamente **dos plantillas de mensajes** en la instancia de ejecución, lo que permite enviar mensajes relacionados con los **eventos en tiempo real** y **eventos por lotes**.
 
 >[!NOTE]
 >
