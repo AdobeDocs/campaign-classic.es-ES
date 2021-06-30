@@ -9,11 +9,11 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
 workflow-type: tm+mt
 source-wordcount: '4466'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
-# Actualizaciones de documentación{#documentation-updates}
+# Actualizaciones de la documentación{#documentation-updates}
 
 Esta página enumera todas las nuevas funciones y actualizaciones de la documentación por mes y por versión de Campaign.
 
@@ -21,19 +21,19 @@ Consulte las [Notas de la versión de Adobe Campaign Classic](../../rn/using/lat
 
 ## Junio de 2021 {#june-2021}
 
-La sección **Mensajería transaccional** se ha reorganizado y aclarado con una nueva sección de Introducción, que incluye un [esquema mejorado](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle) para una mejor comprensión del proceso. [Más información](../../message-center/using/about-transactional-messaging.md)
+La sección **Mensajería transaccional** se ha reorganizado y aclarado con una nueva sección de introducción, que incluye un [esquema mejorado](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle) para una mejor comprensión del proceso. [Más información](../../message-center/using/about-transactional-messaging.md)
 
 **Actualizaciones de la documentación incluidas en la versión 21.1.3**
 
-Integración con el Journey Orchestration de Adobe: [Más información](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html). Se presenta un caso de uso paso a paso en [esta página](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html)
+Integración con Journey Orchestration de Adobe: [más información](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=es). Se presenta un caso de uso paso a paso en [esta página](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html?lang=es)
 
-Mejoras en el canal LINE: [Más información](../../delivery/using/line-channel.md)
+Mejoras en el canal de LINE: [más información](../../delivery/using/line-channel.md)
 
-Nuevo conector de FDA de Vertica: [Más información](../../installation/using/configure-fda-vertica.md)
+Nuevo conector de FDA de Vertica: [más información](../../installation/using/configure-fda-vertica.md)
 
-Nuevo conector FDA de Google Big Query: [Más información](../../installation/using/configure-fda-google-big-query.md)
+Nuevo conector FDA de Google Big Query: [más información](../../installation/using/configure-fda-google-big-query.md)
 
-La descripción técnica del flujo de trabajo &quot;Facturación (facturación)&quot; incluye ahora las tareas realizadas originalmente por el &quot;Número de perfiles de facturación activos (billingActiveContactCount)&quot;. [Más información](../../workflow/using/about-technical-workflows.md)
+La descripción técnica del flujo de trabajo “Facturación (billing)” incluye ahora las tareas realizadas originalmente por el “Número de perfiles de facturación activos (billingActiveContactCount)”. [Más información](../../workflow/using/about-technical-workflows.md)
 
 ## Mayo de 2021 {#may-2021}
 
@@ -468,7 +468,7 @@ La guía de introducción al RGPD se ha mejorado y enriquecido. Ahora es una doc
 
 Se ha agregado una nueva página de solución de problemas para el seguimiento en Campaign Classic. [Más información](https://helpx.adobe.com/es/campaign/kb/classic-tracking-troubleshooting.html).
 
-Se ha añadido una nueva página de prácticas recomendadas para Adobe Analytics Connector. [Más información sobre Adobe Analytics Connector](../../platform/using/adobe-analytics-connector.md)
+Se ha añadido una nueva página de prácticas recomendadas para el Conector de Adobe Analytics. [Más información sobre el Conector de Adobe Analytics](../../platform/using/adobe-analytics-connector.md)
 
 La guía de introducción a las prácticas recomendadas de entrega se ha movido y actualizado. [Más información](../../delivery/using/delivery-best-practices.md)
 
@@ -546,7 +546,7 @@ Se agregaron dos nuevas opciones a la lista de opciones de Campaign: XtkSecurity
 Se ha añadido información sobre las distintas cuentas externas disponibles en Campaign Classic y sobre cómo configurarlas.
 [Más información](../../installation/using/external-accounts.md)
 
-Se ha actualizado la sección Conector de Analytics para reflejar los cambios en la interfaz.
+Se ha actualizado la sección Conector de Analytics para reflejar los cambios de la interfaz.
 [Más información](../../platform/using/adobe-analytics-connector.md)
 
 Se agregó información sobre el informe Facturación.
