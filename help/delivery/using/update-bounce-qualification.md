@@ -58,5 +58,5 @@ En función del periodo de tiempo del problema, se indican a continuación las d
 Una vez que tenga la lista de destinatarios afectados, puede aplicarles un estado **[!UICONTROL Valid]** para que el flujo de trabajo **[!UICONTROL Database cleanup]** los elimine de la lista de cuarentena, o simplemente elimínelos de la tabla.
 
 **Temas relacionados:**
-* [Comprensión de los errores de envío](understanding-delivery-failures.md)
+* [Comprensión de los errores de entrega](understanding-delivery-failures.md)
 * [Clasificación del correo rechazado](understanding-delivery-failures.md#bounce-mail-qualification)
