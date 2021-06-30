@@ -59,10 +59,10 @@ Para medir la velocidad a la que se entregan los mensajes, puede controlar el re
 
 Se pueden realizar acciones específicas al encontrar problemas con envíos:
 
-* [Problemas con entregas](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
+* [Problemas de entregas](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 
 * [Problemas de visualización de imágenes](../../production/using/image-display-issues.md)
 
 * [Problemas de rendimiento de envíos](delivery-performances.md)
 
-* [Problemas con archivos temporales](../../production/using/temporary-files.md): *solo clientes in situ*
+* [Problemas de archivos temporales](../../production/using/temporary-files.md): *solo clientes in situ*
