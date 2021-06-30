@@ -7,7 +7,7 @@ role: Business Practitioner, Administrator
 level: Beginner
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Obtenga información sobre cómo conceder acceso y configurar permisos en estas 
 * [Matriz de derechos de acceso](access-management-named-rights.md#access-rights-matrix)
 
 
-Asimismo, consulte lo siguiente:
+Asimismo, consulte:
 
 * [Administración de permisos para flujos de trabajo](../../workflow/using/managing-rights.md)
 * [Administración de permisos para marketing distribuido](../../campaign/using/about-distributed-marketing.md#operators-and-entities)
