@@ -8,7 +8,7 @@ exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
 source-git-commit: 9a126d16b394333163b974ad9690f7c93fb3034a
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 83%
+ht-degree: 92%
 
 ---
 
@@ -98,8 +98,8 @@ Generalmente, un activador puede tardar entre 15 y 90 minutos en iniciar una cam
 1. Compruebe el tamaño de la cola en la página [!DNL pipelined] de estado. Si el tamaño de la cola es grande, mejore el rendimiento del JS.
 1. Dado que un retraso parece aumentar con el volumen, configure los activadores en Analytics con menos mensajes.
 
-**Actualización de instancias de etapa de autenticación heredada a autenticación de E/S de Adobe**
+**Actualización de instancias de fase de autenticación heredada a autenticación de Adobe IO**
 
-Cambiar la autenticación de integración en la instancia de etapa no afectará a la configuración de la instancia de producción. Puede elegir actualizar la instancia de stage y actualizar la autenticación a Adobe IO y probar las déclencheur en la instancia de stage.
+Cambiar la autenticación de integración en la instancia de fase no afectará a la configuración de la instancia de producción. Puede elegir actualizar la instancia de fase y actualizar la autenticación a Adobe IO y probar los activadores en la instancia de fase.
 
 La instancia de producción seguirá utilizando la autenticación heredada y no se verá afectada por este cambio.
