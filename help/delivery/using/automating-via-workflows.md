@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: content-management
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1185'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Las propiedades de actividad se dividen en cuatro pasos:
 
 ![](assets/d_ncs_content_wf.png)
 
-### Content {#content}
+### Contenido {#content}
 
 * **Especificado por la transición**
 
