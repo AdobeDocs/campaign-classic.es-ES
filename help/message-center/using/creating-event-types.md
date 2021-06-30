@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: instance-configuration
 exl-id: 98b7c827-f31d-46a6-a28d-40a78a4b4248
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
@@ -31,18 +31,18 @@ Para crear tipos de eventos que Adobe Campaign procesará, siga los pasos a cont
 
 1. Seleccione **[!UICONTROL Event type]** en la lista.
 
-1. Haga clic en **[!UICONTROL Add]** para crear un valor de enumeración. Puede ser una confirmación de pedido, un cambio de contraseña, un cambio de entrega de pedido, etc.
+1. Haga clic en **[!UICONTROL Add]** para crear un valor de lista desglosada. Puede ser una confirmación de pedido, cambio de contraseña o de envío de pedido, etc.
 
    ![](assets/messagecenter_eventtype_enum_001.png)
 
    >[!IMPORTANT]
    >
-   >Cada tipo de evento debe coincidir con un valor de la enumeración **[!UICONTROL Event type]**.
+   >Cada tipo de evento coincide con un valor de la lista desglosada **[!UICONTROL Event type]**.
 
 1. Una vez que se hayan creado los valores de la lista desglosada, cierre la sesión y vuelva a la instancia para que la creación sea eficaz.
 
 >[!NOTE]
 >
->Obtenga más información sobre listas desglosadas en [Administración de enumeraciones](../../platform/using/managing-enumerations.md).
+>Obtenga más información sobre listas desglosadas en [Administración de listas desglosadas](../../platform/using/managing-enumerations.md).
 
 
