@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Solución de problemas con entregas {#delivery-troubleshooting}
+# Solución de problemas de envíos de entregas {#delivery-troubleshooting}
 
 Esta sección lista problemas comunes que pueden surgir al realizar entregas y cómo solucionarlos.
 
