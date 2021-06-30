@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Historial de eventos del Centro de mensajería
-description: Obtenga más información sobre el informe Historial de eventos del Centro de mensajes .
+description: Obtenga más información sobre el informe Historial de eventos del Centro de mensajería.
 audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: 04d4791b-a1dd-4361-a469-6f5aff0f41b8
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '140'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
