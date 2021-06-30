@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: -general-operation
 exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '840'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ Se asigna una aprobación a un grupo de operadores, a un operador individual o a
 
 Los grupos de operadores para las aprobaciones deben designarse como roles o funciones en lugar de como personas con nombre. Por ejemplo, es preferible un grupo “Presupuesto de campañas” en vez de “grupo de Harry”. Se recomienda incluir a al menos dos personas en un grupo que puedan aprobar una tarea. De este modo, si una de ellas está ausente, la otra puede responder.
 
-## Caducidad {#expirations}
+## Caducidades {#expirations}
 
 Las caducidades son transiciones específicas que se utilizan en diferentes clases de actividades y, en particular, en las autorizaciones. Puede utilizar un vencimiento para desencadenar una acción después de un tiempo determinado sin respuesta. También puede utilizarse, por ejemplo, para continuar el flujo de trabajo y asignar una aprobación a otro grupo.
 
