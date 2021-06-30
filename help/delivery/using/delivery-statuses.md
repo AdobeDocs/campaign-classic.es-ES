@@ -29,7 +29,7 @@ Para obtener más información sobre los diferentes errores de entrega que puede
 
 * [Tablero de entregas](delivery-dashboard.md)
 * [Solución de problemas de entrega](delivery-troubleshooting.md)
-* [Acerca de la capacidad de la entrega](about-deliverability.md)
+* [Acerca de la capacidad de entrega](about-deliverability.md)
 
 ## Lista de estados de entrega {#list-delivery-statuses}
 
