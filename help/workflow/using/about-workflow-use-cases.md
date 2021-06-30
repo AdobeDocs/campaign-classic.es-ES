@@ -9,7 +9,7 @@ internal: n
 snippet: y
 exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Le ayudarán a descubrir los diferentes contextos en los que se pueden utilizar 
 * [Envío de informes a una lista](../../workflow/using/sending-a-report-to-a-list.md)
 * [Supervisión de flujos de trabajo](../../workflow/using/supervising-workflows.md)
 * [Envío de alertas personalizadas a operadores](../../workflow/using/sending-personalized-alerts-to-operators.md)
-* [Configuración de un proceso de aprobación de destinatarios antes de enviar un envío](../../workflow/using/using-the-local-approval-activity.md)
+* [Configuración de un proceso de aprobación de destinatarios antes de enviar una entrega](../../workflow/using/using-the-local-approval-activity.md)
 
 ## Administración de datos {#management}
 
@@ -51,20 +51,20 @@ Le ayudarán a descubrir los diferentes contextos en los que se pueden utilizar 
 * [Enriquecimiento de datos](../../workflow/using/enriching-data.md)
 * [Uso de agregados](../../workflow/using/using-aggregates.md)
 * [Importación de datos cifrados con una clave generada por el Panel de control de Campaign](../../platform/using/unzip-decrypt.md)
-* [Codificación y exportación de datos con una clave instalada en el Panel de control de Campaign](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
+* [Cifrado y exportación de datos con una clave instalada en el Panel de control de Campaign](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
 * [Actualización de lista trimestral con una consulta incremental](../../workflow/using/quarterly-list-update.md)
 * [Uso de la funcionalidad de combinación de la actividad de anulación de duplicación](../../workflow/using/deduplication-merge.md)
 * [Configuración de un flujo de trabajo de importación recurrente](../../workflow/using/recurring-import-workflow.md)
 
-## Segmentación {#designing-queries}
+## Direccionamiento {#designing-queries}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
 * [Consulta de la tabla de destinatarios](../../workflow/using/querying-recipient-table.md)
 * [Consulta de información de entrega](../../workflow/using/querying-delivery-information.md)
-* [Realización de la computación agregada](../../workflow/using/performing-aggregate-computing.md)
+* [Realización de computación agregada](../../workflow/using/performing-aggregate-computing.md)
 * [Realización de consultas mediante la administración de agrupación](../../workflow/using/querying-using-grouping-management.md)
-* [Realización de consultas con una relación de varios a varios ](../../workflow/using/querying-using-many-to-many-relationship.md)
+* [Realización de consultas con una relación de varios a varios](../../workflow/using/querying-using-many-to-many-relationship.md)
 * [Adición de un campo calculado de tipo de lista desglosada](../../workflow/using/adding-enumeration-type-calculated-field.md)
 * [Creación de filtros](../../workflow/using/creating-a-filter.md)
 * [Filtrado de destinatarios duplicados](../../workflow/using/filtering-duplicated-recipients.md)
