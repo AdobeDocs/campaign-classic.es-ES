@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: 84d6cb2e-c7f9-43d7-a98c-22613d456193
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
 ht-degree: 100%
 
@@ -169,7 +169,7 @@ Introduzca los distintos campos:
 1. Comience por introducir **[!UICONTROL Album name]**.
 1. A continuación, introduzca la **[!UICONTROL Description]** que se mostrará encima de las fotos.
 1. Para agregar una foto, haga clic en el botón **[!UICONTROL Add]**, seleccione la foto y haga clic en **[!UICONTROL Open]**.
-1. Se puede añadir un rótulo a cada foto.
+1. Se puede añadir un pie de ilustración a cada foto.
 
 ![](assets/social_facebook_delivery_photos.png)
 
