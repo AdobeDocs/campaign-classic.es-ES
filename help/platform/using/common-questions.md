@@ -18,7 +18,7 @@ ht-degree: 100%
 ¿Necesita ayuda para trabajar con Campaign Classic? Lea las 10 preguntas más frecuentes a continuación y otras preguntas frecuentes de esa página. También puede realizar lo siguiente:
 
 * [Ver vídeos de tutoriales](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es)
-* [Examinar opciones de autoayuda](../../platform/using/tutorials.md#how-to-videos)
+* [Examinar las opciones de autoayuda](../../platform/using/tutorials.md#how-to-videos)
 * [Leer la sección de casos de uso e introducción](../../platform/using/tutorials.md#step-by-step-guides)
 * ¿No encuentra la respuesta? [Preguntar a un experto](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
 * ¿Necesita asistencia? [Consulte las opciones de ayuda y asistencia técnica de Campaign](../../support.md)
