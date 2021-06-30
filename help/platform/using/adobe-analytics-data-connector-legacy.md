@@ -15,11 +15,11 @@ ht-degree: 99%
 
 ---
 
-# Conectores de datos de Adobe Analytics{#adobe-analytics-data-connector-legacy}
+# Conector de datos de Adobe Analytics{#adobe-analytics-data-connector-legacy}
 
 >[!IMPORTANT]
 >
->Conectores de datos de Adobe Analytics está en desuso. Las funcionalidades van a seguir estando disponibles, pero no se van a mejorar ni admitir. Obtenga más información [en esta página](../../rn/using/deprecated-features.md).
+>El Conector de datos de Adobe Analytics ha quedado obsoleto. Las funcionalidades van a seguir estando disponibles, pero no se van a mejorar ni admitir. Obtenga más información [en esta página](../../rn/using/deprecated-features.md).
 
 ## Acerca de la integración de conectores de datos {#about-data-connector-integration}
 
@@ -153,7 +153,7 @@ La integración de Adobe Campaign en las plataformas de Analytics se lleva a cab
 
 >[!NOTE]
 >
->Si utiliza varias herramientas de medición de audiencia, puede seleccionar **[!UICONTROL Other]** en la lista desplegable **[!UICONTROL Partners]** al crear la cuenta externa. Solo puede hacer referencia a una cuenta externa en las propiedades de entrega: por lo tanto, debe adaptar la fórmula de URL rastreadas agregando los parámetros esperados por las herramientas de medición de Adobe y otras herramientas.
+>Si utiliza varias herramientas de medición de audiencia, puede seleccionar **[!UICONTROL Other]** en la lista desplegable **[!UICONTROL Partners]** al crear la cuenta externa. Solo puede hacer referencia a una cuenta externa en las propiedades de entrega; por lo tanto, debe adaptar la fórmula de las URL rastreadas añadiendo los parámetros esperados por las herramientas de medición de Adobe y otras.
 
 ### Paso 3: Sincronizar Adobe Campaign y Adobe Analytics {#step-3--synchronize-adobe-campaign-and-adobe-analytics}
 
@@ -190,7 +190,7 @@ Si se han configurado segmentos adicionales en el asistente de Conectores de dat
 
 ![](assets/webanalytics_segments_update.png)
 
-### Flujos de trabajo técnicos de procesos de Web Analytics {#technical-workflows-of-web-analytics-processes}
+### Flujos de trabajo técnicos de procesos de análisis web {#technical-workflows-of-web-analytics-processes}
 
 El intercambio de datos entre Adobe Campaign y Conectores de datos de Adobe Analytics se administra mediante cuatro flujos de trabajo técnicos que funcionan como una tarea en segundo plano.
 
