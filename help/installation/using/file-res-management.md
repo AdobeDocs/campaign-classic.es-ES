@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 939552f127207f258448b2a82bb8c4c000371694
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 1%
+source-wordcount: '612'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Por ejemplo: **uploadWhiteList=&quot;.*.png,*.jpg&quot;** le permitirá cargar f
 >
 >En Internet Explorer, la ruta completa del archivo debe verificarse mediante la expresión regular.
 
-También puede evitar que se carguen archivos importantes configurando el servidor web. [Obtenga más información](web-server-configuration.md)
+También puede evitar que se carguen archivos importantes configurando el servidor web. [Más información](web-server-configuration.md)
 
 ## Configuración de conexión proxy {#proxy-connection-configuration}
 
@@ -102,6 +102,19 @@ Si utiliza el mismo proxy para varios tipos de conexión, solo el proxyHTTP se d
 Si tiene conexiones internas que deben pasar por el proxy, agréguelas en el parámetro override.
 
 Si desea deshabilitar temporalmente la conexión proxy, establezca el parámetro habilitado en &quot;false&quot; o &quot;0&quot;.
+
+Si necesita utilizar el conector HTTP/2 de iOS a través de un proxy, se admiten los siguientes modos de proxy HTTP:
+
+* HTTP sin autenticación
+* Autenticación básica HTTP
+
+Para activar el modo proxy, el siguiente cambio debe realizarse en el archivo `serverconf.xml`:
+
+```
+<nmac useHTTPProxy="true">
+```
+
+Para obtener más información sobre este conector HTTP/2 de iOS, consulte esta [página](../../delivery/using/about-mobile-app-channel.md).
 
 ## Administrar recursos públicos {#managing-public-resources}
 
