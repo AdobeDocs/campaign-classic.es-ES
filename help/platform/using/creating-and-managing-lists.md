@@ -3,11 +3,11 @@ product: campaign
 title: Creación y administración de listas
 description: Obtenga información sobre cómo crear y administrar listas
 feature: Perfiles
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Creación y administración de listas{#creating-and-managing-lists}
 
-## ¿Qué es una lista? {#about-lists-in-adobe-campaign}
+## ¿Qué es una lista?  {#about-lists-in-adobe-campaign}
 
 Una lista es un conjunto estático de perfiles que puede centrarse en acciones de envío o actualizarse durante operaciones de importación o durante la ejecución del flujo de trabajo. Por ejemplo, una población extraída de la base de datos mediante una consulta puede proporcionar una lista.
 
