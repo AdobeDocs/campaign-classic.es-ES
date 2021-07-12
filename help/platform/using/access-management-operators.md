@@ -3,11 +3,11 @@ product: campaign
 title: Introducción a los operadores de Campaign
 description: Obtenga información sobre cómo crear y administrar usuarios de campañas
 feature: Administración de acceso
-role: Business Practitioner, Administrator
+role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Creación y administración de operadores {#operators}
 
-## Introducción a los operadores de Campaign {#about-operators}
+## Introducción a los operadores de Campaign  {#about-operators}
 
 Un operador es un usuario de Adobe Campaign que tiene permisos para iniciar sesión y realizar acciones.
 
