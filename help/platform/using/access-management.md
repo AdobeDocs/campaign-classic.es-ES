@@ -3,11 +3,11 @@ product: campaign
 title: Introducción a los permisos
 description: Obtenga información sobre cómo conceder acceso a las funciones de Campaign
 feature: Administración de acceso
-role: Business Practitioner, Administrator
+role: User, Admin
 level: Beginner
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
 
