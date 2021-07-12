@@ -3,10 +3,10 @@ product: campaign
 title: Acerca de Adobe Campaign Classic
 description: Descubra las funcionalidades clave, la interfaz de usuario y las directrices globales.
 feature: Información general
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
-source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 100%
@@ -43,7 +43,7 @@ Los conceptos básicos de gestión de perfiles se explican en [Acerca de los per
 
 ### Segmentación dirigida {#targeted-segmentation}
 
-Adobe Campaign tiene funcionalidades de segmentación y selección de objetivos potentes y fáciles de usar, que permiten crear ofertas específicas y diferenciadas. La funcionalidad de análisis descriptivo permite analizar la información de subida y de bajada de las campañas de marketing, y la funcionalidad de filtrado y del [editor gráfico de consultas](../../platform/using/about-queries-in-campaign.md) permite filtrar la población de suscriptores y la muestra, o crear grupos de destino según un número ilimitado de criterios. Las funcionalidades de análisis y de segmentación se describen en [esta página](../../reporting/using/about-descriptive-analysis.md) y en la sección [Creating filters](../../platform/using/creating-filters.md)
+Adobe Campaign tiene funcionalidades de segmentación y direccionamiento potentes y fáciles de usar que permiten crear ofertas específicas y diferenciadas. La funcionalidad de análisis descriptivo permite analizar la información de subida y de bajada de las campañas de marketing, y la funcionalidad de filtrado y del [editor gráfico de consultas](../../platform/using/about-queries-in-campaign.md) permite filtrar la población de suscriptores y la muestra, o crear grupos de destino según un número ilimitado de criterios. Las funcionalidades de análisis y de segmentación se describen en [esta página](../../reporting/using/about-descriptive-analysis.md) y en la sección [Creating filters](../../platform/using/creating-filters.md)
 
 La funcionalidad avanzada de Gestión de datos amplía las características de procesamiento de datos. Simplifica y optimiza el proceso de segmentación incluyendo información que no se encuentra en la base de datos. Esta funcionalidad se detalla en [esta página](../../workflow/using/targeting-data.md#data-management).
 
