@@ -3,11 +3,11 @@ product: campaign
 title: Creación y administración de grupos de operadores
 description: Aprenda a conceder acceso a grupos de operadores
 feature: Administración de acceso
-role: Business Practitioner, Administrator
+role: User, Admin
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%
 
