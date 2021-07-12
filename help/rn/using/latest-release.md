@@ -3,11 +3,11 @@ product: campaign
 title: Última versión
 description: Última versión de Campaign Classic Notas
 feature: Información general
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 28083eb0271c8c148955fa33978479dc3683eaed
-workflow-type: ht
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+workflow-type: tm+mt
 source-wordcount: '1953'
 ht-degree: 100%
 
@@ -165,7 +165,7 @@ _15 de abril de 2021_
 * Se ha mejorado la administración de contraseñas para optimizar la seguridad.
 * Se ha corregido un problema que podría provocar bloqueos de MTA.
 
-## ![](assets/do-not-localize/red_2.png) Versión 21.1.1 - Compilación 9277 {#release-21-1-1-build-9277}
+## ![](assets/do-not-localize/red_2.png) Versión 21.1.1, compilación 9277 {#release-21-1-1-build-9277}
 
 _22 de febrero de 2021_
 
