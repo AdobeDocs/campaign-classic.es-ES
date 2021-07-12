@@ -6,10 +6,10 @@ audience: rn
 content-type: reference
 topic-tags: latest-release-notes
 feature: Información general
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: a849ce10-0972-4c42-b10e-67a81c79bc65
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 97%
@@ -24,7 +24,7 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. [actualice a la última versión](../../production/using/build-upgrade.md) o póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Se ha retirado esta compilación. [actualice a la última versión](../../production/using/build-upgrade.md) o póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html?lang=es/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Novedades**
 
