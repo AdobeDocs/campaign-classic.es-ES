@@ -3,11 +3,11 @@ product: campaign
 title: Acerca de los perfiles
 description: Acerca de los perfiles
 feature: Perfiles, Audiencias
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 100%
 
@@ -105,7 +105,7 @@ Tenga en cuenta que el recuento de perfiles principales solo está disponible pa
 >
 >También puede monitorizar el número de perfiles activos en su instancia directamente desde el Panel de control de Campaign. Para obtener más información, consulte la [Documentación del Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=es).
 
-## Vídeo tutorial {#create-profiles-video}
+## Tutorial en vídeo {#create-profiles-video}
 
 Obtenga información sobre cómo acceder a los datos de perfiles, ordenar y filtrar perfiles, y crear y administrar manualmente perfiles.
 
