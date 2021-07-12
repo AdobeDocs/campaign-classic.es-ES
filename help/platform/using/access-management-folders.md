@@ -3,11 +3,11 @@ product: campaign
 title: Administración del acceso a las carpetas de Campaign
 description: Obtenga información sobre cómo conceder acceso a carpetas de Campaign y crear vistas
 feature: Configuración de la aplicación
-role: Business Practitioner, Administrator
+role: User, Admin
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Cada carpeta del árbol de navegación del Explorador tiene asociados derechos d
 
 ## Carpetas y vistas {#folders-and-views}
 
-### ¿Qué es una carpeta? {#about-folders}
+### ¿Qué es una carpeta?  {#about-folders}
 
 Las carpetas son nodos del árbol de Adobe Campaign. Estos nodos se crean haciendo clic con el botón derecho en el árbol, a través del menú **[!UICONTROL Add new folder]**. De forma predeterminada, el primer menú permite añadir la carpeta correspondiente al contexto actual.
 
@@ -27,7 +27,7 @@ Las carpetas son nodos del árbol de Adobe Campaign. Estos nodos se crean hacien
 
 Puede personalizar el árbol de navegación del Explorador. Conozca los pasos de configuración y las prácticas recomendadas [en esta sección](adobe-campaign-workspace.md).
 
-### ¿Qué es una vista? {#about-views}
+### ¿Qué es una vista?  {#about-views}
 
 Además, puede crear vistas para restringir el acceso a los datos y organizar el contenido del árbol para adaptarlo a sus necesidades. A continuación, puede asignar derechos a las vistas.
 
