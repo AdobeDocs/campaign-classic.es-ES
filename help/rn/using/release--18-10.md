@@ -3,13 +3,13 @@ product: campaign
 title: Notas de la versión de Campaign 18.10
 description: Notas de la versión de Campaign 18.10
 feature: Información general
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 57996f77-4ac2-402a-95db-b75d4bea4eeb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
-source-wordcount: '2372'
-ht-degree: 98%
+source-wordcount: '2370'
+ht-degree: 97%
 
 ---
 
@@ -138,7 +138,7 @@ ht-degree: 98%
 
 * Se ha corregido un problema de seguridad que podría provocar vulnerabilidades en los ataques de Forgery de solicitudes de servidor (SSRF) y ataques de denegación de servicio (DoS). (NEO-11453)
 * Ahora, Campaign ofrecerá el contenido (seguimiento de redirecciones, páginas espejo, encuestas, etc.) con el encabezado X-Robots-Tag: nocache. Esto evita la indexación de este contenido por motores de búsqueda de Internet. (NEO-11101)
-* Se solucionó un problema de inyección de XTK en API de suscripción (nms:subscription:Unsubscribe y nms:subscription:Subscribe).
+* Se ha corregido un problema de inyección de XTK en la API de suscripción (nms:subscription:Unsubscribe y nms:subscription:Subscribe).
 * Se ha corregido un problema de inyección de XTK en la aplicación web para cancelar la suscripción.
 * Se han eliminado contraseñas que se mostraban en algunos registros SMS.
 
