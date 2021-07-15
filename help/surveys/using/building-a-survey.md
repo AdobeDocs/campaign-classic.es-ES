@@ -7,15 +7,15 @@ content-type: reference
 topic-tags: online-surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
 source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '782'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # Diseño de una encuesta{#building-a-survey}
 
-## Crear una nueva encuesta {#creating-a-new-survey}
+## Creación de una nueva encuesta {#creating-a-new-survey}
 
 Este capítulo detalla el diseño de un formulario de tipo **Encuesta** utilizando Adobe Campaign, así como las opciones y configuraciones disponibles. Adobe Campaign le permite poner esta encuesta a disposición de los usuarios y recopilar y archivar respuestas en la base de datos.
 
@@ -25,13 +25,13 @@ Seleccione la plantilla de encuesta (**[!UICONTROL newSurvey]** de forma predete
 
 ![](assets/s_ncs_admin_survey_select_template.png)
 
-Las páginas del formulario se crean utilizando un editor especial que permite definir y configurar campos de entrada (texto), campos de selección (listas, casillas de verificación, etc.) y elementos estáticos (imágenes, contenido HTML, etc.). Se pueden recopilar en &quot;contenedores&quot; y mostrar según los requisitos. [Más información](#adding-questions)).
+Las páginas del formulario se crean utilizando un editor especial que permite definir y configurar campos de entrada (texto), campos de selección (listas, casillas de verificación, etc.) y elementos estáticos (imágenes, contenido HTML, etc.). Se pueden recopilar en “contenedores” y mostrar según los requisitos. [Más información](#adding-questions)).
 
 >[!NOTE]
 >
 >Para obtener más información sobre cómo definir contenido y crear diseños de pantalla para un formulario web, consulte [este documento](../../web/using/about-web-forms.md).
 
-## Añadir campos {#adding-fields}
+## Adición de campos {#adding-fields}
 
 Los campos de un formulario permiten a los usuarios introducir información y seleccionar opciones. Se crean mediante el primer botón de la barra de herramientas de cada página del formulario, con el menú **[!UICONTROL Add using the wizard]**.
 
@@ -62,7 +62,7 @@ En [esta sección](../../web/using/about-web-forms.md) se describen los distinto
 
 ## Elementos específicos de las encuestas {#survey-specific-elements}
 
-Las encuestas en línea se basan en las capacidades de las aplicaciones web. A continuación se describen las funcionalidades específicas de las encuestas.
+Las encuestas en línea están basadas en funcionalidades de las aplicaciones web. A continuación se describen las funcionalidades específicas de las encuestas.
 
 ### Opción múltiple {#multiple-choice}
 
@@ -92,7 +92,7 @@ Además, la ubicación de almacenamiento para este campo de entrada debe ser un 
 >* Esta opción no es compatible con la visualización de preguntas aleatorias. [Más información](#adding-questions).
 
 
-### Agregar preguntas {#adding-questions}
+### Adición de preguntas {#adding-questions}
 
 Existen dos tipos de contenedores: estándar y de pregunta. Los contenedores estándar se utilizan para configurar el diseño de página y la visualización condicional en una página. [Más información](../../web/using/about-web-forms.md).
 
@@ -108,7 +108,7 @@ La etiqueta de la pregunta se introduce en el campo de etiqueta. En este caso, s
 
 >[!NOTE]
 >
->Consulte [este documento](../../web/using/about-web-forms.md) para obtener más información sobre el uso del editor HTML.
+>Consulte [este documento](../../web/using/about-web-forms.md) para obtener más información sobre el uso del editor de HTML.
 
 Por ejemplo:
 
