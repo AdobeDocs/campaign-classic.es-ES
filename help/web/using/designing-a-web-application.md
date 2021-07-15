@@ -7,15 +7,15 @@ content-type: reference
 topic-tags: web-applications
 exl-id: dcdf6afc-321e-4027-a350-fff6bbf22e71
 source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # Diseño de una aplicación web{#designing-a-web-application}
 
-Las aplicaciones web se crean y administran según el mismo principio que los [formularios web](about-web-forms.md).
+Las aplicaciones web se crean y se administran según el mismo principio que los [formularios web](about-web-forms.md).
 
 >[!CAUTION]
 >
@@ -51,7 +51,7 @@ Se visualizan en la interfaz en forma de paneles con una sola página.
 
 Las aplicaciones web listas para su uso se almacenan en el nodo **[!UICONTROL Administration > Configuration > Web applications]**.
 
-## Editar aplicaciones web de tipo de formulario {#edit-forms-type-web-applications}
+## Edición de aplicaciones web de tipo de formulario {#edit-forms-type-web-applications}
 
 Las aplicaciones web de edición de formularios para una extranet se caracterizan por:
 
