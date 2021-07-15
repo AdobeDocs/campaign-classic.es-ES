@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
 source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1663'
 ht-degree: 100%
 
@@ -29,11 +29,11 @@ Para ello:
 >
 >Los dos pasos anteriores DEBEN ejecutarse después de cada modificación del contenido del mensaje.
 
-## Analice la entrega {#analyzing-the-delivery}
+## Análisis de la entrega {#analyzing-the-delivery}
 
 El análisis es la fase durante la cual se calcula la población objetivo y se prepara el contenido de entrega. Una vez finalizada, la entrega está listo para realizarse.
 
-### Inicie el análisis {#launching-the-analysis}
+### Inicio del análisis {#launching-the-analysis}
 
 1. Para iniciar el análisis de entrega, haga clic en **[!UICONTROL Send]**.
 1. Seleccione **[!UICONTROL Deliver as soon as possible]**.
@@ -81,7 +81,7 @@ Compruebe el resultado del análisis antes de hacer clic en **[!UICONTROL Confir
 >
 >Haga clic en el vínculo **[!UICONTROL Change the main delivery target]** si el número de mensajes que va a enviar no coincide con la configuración. Esto permite cambiar la definición de la población objetivo y reiniciar el análisis.
 
-### Configuración de análisis {#analysis-parameters}
+### Configuración del análisis {#analysis-parameters}
 
 La pestaña **[!UICONTROL Analysis]** de los parámetros de envío permite definir un conjunto de información relacionada con la preparación de los mensajes durante la fase de análisis.
 
@@ -98,7 +98,7 @@ permite preparar los datos de personalización contenidos en el envío en un flu
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]**: esta opción añade los registros de consulta SQL al diario de entrega durante la fase de análisis.
 * **[!UICONTROL Ignore personalization scripts during sending]**: esta opción permite evitar la interpretación de las directrices de JavaScript que se encuentran en el contenido HTML. Se visualizan tal y como están en los contenidos enviados. Estas directivas se introducen con la etiqueta **&lt;%=**.
 
-### Mejora del rendimiento del análisis de envío {#improving-delivery-analysis}
+### Mejora del rendimiento del análisis de entrega {#improving-delivery-analysis}
 
 Para acelerar la preparación del envío, puede marcar la opción **[!UICONTROL Prepare the delivery parts in the database]** antes de iniciar el análisis.
 
@@ -134,6 +134,7 @@ Para detectar posibles errores en la configuración del mensaje, Adobe recomiend
 >
 >* Los modos de validación disponibles se detallan en [Cambio del modo de aprobación](steps-validating-the-delivery.md#changing-the-approval-mode).
 >* La configuración del objetivo de prueba se explica en [Definición de un objetivo de prueba específico](steps-defining-the-target-population.md#defining-a-specific-proof-target).
+
 >
 
 
