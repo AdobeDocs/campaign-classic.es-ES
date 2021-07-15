@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
 source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3730'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Se pueden crear, ver y monitorizar las tareas de la lista de tareas o del panel 
 
 Las tareas se adjuntan a la campaña y pueden tener dependencias, es decir, tareas asociadas. Cada tarea tiene un estado, prioridad, carga estimada y costes relacionados.
 
-Todas las tareas se agrupan en una lista accesible a través de la pestaña **Campañas**. Para obtener más información, consulte [Tareas de acceso](#accessing-tasks).
+Todas las tareas se agrupan en una lista accesible a través de la pestaña **Campañas**. Para obtener más información, consulte [Acceder a tareas](#accessing-tasks).
 
 Pueden mostrarse en la programación del programa al que pertenecen.
 
@@ -51,7 +51,7 @@ Haga clic en una tarea para editarla.
 
 ![](assets/s_ncs_user_task_edit_from_view.png)
 
-## Crear una nueva tarea {#creating-a-new-task}
+## Creación de una tarea nueva {#creating-a-new-task}
 
 Para crear una tarea, haga clic en el vínculo **[!UICONTROL Tasks]** en la pestaña **[!UICONTROL Campaigns]** y seleccione **[!UICONTROL Create]**.
 
@@ -111,7 +111,7 @@ Puede ver el perfil del operador de Adobe Campaign a través del icono **[!UICON
 
 ![](assets/s_ncs_user_task_edit_resource_profile.png)
 
-El panel del operador permite comprobar la carga de trabajo (otras tareas en curso).
+El tablero del operador permite comprobar la carga de trabajo (otras tareas en curso).
 
 ![](assets/s_ncs_user_task_edit_resource_planning.png)
 
@@ -133,7 +133,7 @@ La persona responsable de la tarea puede asignarse la tarea de aprobarla, inclus
 
 ### Documentos de referencia {#documents-referenced}
 
-Es posible añadir documentos y recursos de marketing a una tarea (para obtener más información, consulte [Administrar recursos de marketing](../../mrm/using/managing-marketing-resources.md)). Para ello, abra la tarea y haga clic en el icono **[!UICONTROL Documents]** en la barra de herramientas de tareas.
+Es posible añadir documentos y recursos de marketing a una tarea (para obtener más información, consulte [Administrar recursos de marketing](../../mrm/using/managing-marketing-resources.md)) Para ello, abra la tarea y haga clic en el icono **[!UICONTROL Documents]** en la barra de herramientas de tareas.
 
 Haga clic en **[!UICONTROL Add]** y seleccione el documento que desea añadir a la tarea. Aplique el mismo proceso para los recursos de marketing.
 
@@ -191,7 +191,7 @@ Un proveedor de servicios externos puede participar en la administración de una
 
 Para ello, edite las propiedades de la tarea y seleccione el proveedor de servicios que desee. Las categorías de costes asociadas al proveedor de servicios se enumeran automáticamente en la sección central de la ventana.
 
-Para obtener más información, consulte [Crear un proveedor de servicios y sus categorías de coste](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+Para obtener más información sobre esto, consulte [Creación de un proveedor de servicios y sus categorías de costes](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 Seleccione las categorías de costes relacionadas con la ejecución de la tarea. Para ello, seleccione el tipo de costes y, si fuera necesario, añada una cantidad de recargo.
 
@@ -199,7 +199,7 @@ Seleccione las categorías de costes relacionadas con la ejecución de la tarea.
 
 >[!NOTE]
 >
->El método para administrar presupuestos y costes se presenta en [Control cost](../../mrm/using/controlling-costs.md).
+>El método para administrar presupuestos y costes se muestra en [Control de costes](../../mrm/using/controlling-costs.md).
 
 Al seleccionar un proveedor de servicios, este se muestra en el panel de tareas:
 
@@ -245,7 +245,7 @@ Para crear una tarea vinculada directamente a un programa:
 
 ### Disponibilidad de operadores {#operator-availability}
 
-En el panel de tareas, un icono junto al nombre del operador indica que ya está trabajando en otra tarea o evento durante el periodo que abarca la tarea. (Tarea en la que participa el operador o de la que está a cargo: aparece en el campo **[!UICONTROL Assigned to]** o en el cuadro **[!UICONTROL Resources]** de la tarea).
+En el panel de tareas, un icono junto al nombre del operador indica que ya está trabajando en otra tarea o evento durante el período que abarca la tarea. (Tarea en la que participa el operador o de la que está a cargo: aparece en el campo **[!UICONTROL Assigned to]** o en el cuadro **[!UICONTROL Resources]** de la tarea).
 
 ![](assets/mrm_task_alert_operator_busy.png)
 
@@ -312,7 +312,7 @@ La tarea de creación de recursos de marketing interactúa con el recurso vincul
 
 #### Configuración de una tarea de creación de recursos de marketing {#configuring-a-marketing-resource-creation-task}
 
-La persona que revisa la tarea no es necesariamente la misma persona que revisa el contenido definido en el recurso. Sin embargo, si la opción **[!UICONTROL Publish the marketing resource]** está activada (consulte a continuación), el revisor de la tarea tiene autorización para aprobar el contenido del recurso, ya que la tarea aprueba automáticamente el recurso (o, si no se ha definido ningún revisor, el administrador de tareas).
+La persona que revisa la tarea no es necesariamente la misma persona que controla el contenido definido en el recurso. Sin embargo, si la opción **[!UICONTROL Publish the marketing resource]** está activada (consulte a continuación), el revisor de la tarea tiene autorización para aprobar el contenido del recurso, ya que la tarea aprueba automáticamente el recurso (o, si no se ha definido ningún revisor, el administrador de tareas).
 
 ![](assets/mrm_task_asset_creation.png)
 
@@ -378,7 +378,7 @@ Puede agregar un archivo adjunto a la tarea y al correo electrónico de notifica
 
 ## Ciclo de vida {#life-cycle-1}
 
-### enlaces entre tareas {#links-between-tasks}
+### Vínculos entre tareas {#links-between-tasks}
 
 El botón **[!UICONTROL Properties]** de cada tarea permite definir los enlaces entre las tareas de una campaña. Puede dividir tareas en subtareas utilizando una tarea de agrupación (consulte [Tareas vinculadas](#linked-tasks)) o definir dependencias entre las tareas (véase [Tareas de agrupamiento](#grouping-tasks)).
 
@@ -449,7 +449,7 @@ Para obtener más información, consulte [Acceder a tareas](#accessing-tasks).
 
 A continuación, se muestran las fases del ciclo de vida completo de una tarea para el que la persona a cargo ha definido participantes y revisores.
 
-1. La persona a cargo crea la tarea e introduce los distintos campos. Para obtener más información, consulte [Crear una nueva tarea](#creating-a-new-task).
+1. La persona a cargo crea la tarea e introduce los distintos campos. Para más información, consulte [Crear una tarea nueva](#creating-a-new-task).
 
    Al crear y editar una tarea **programada en el futuro** (siempre que no se alcance la fecha de inicio de la tarea), es posible enviar una notificación a los participantes y a los administradores para que sepan que se ha programado una nueva tarea.
 
