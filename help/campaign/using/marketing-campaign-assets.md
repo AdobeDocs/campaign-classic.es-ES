@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
 source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '755'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ En el panel, los documentos asociados a la campaña se agrupan en la sección **
 
 También pueden editarse y modificarse desde esta vista.
 
-## Asociación y estructuración de recursos vinculados a través de una descripción del envío {#associating-and-structuring-resources-linked-via-a-delivery-outline}
+## Asociación y estructuración de recursos vinculados a través de una descripción de la entrega {#associating-and-structuring-resources-linked-via-a-delivery-outline}
 
 >[!NOTE]
 >
