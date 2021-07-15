@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
 source-git-commit: 0a80912aae4cab58b6f06918a673aaca3883fbdf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2415'
 ht-degree: 100%
 
@@ -137,7 +137,7 @@ Estos son los distintos estados de las solicitudes de privacidad:
 * **[!UICONTROL Complete]**: el procesamiento de la solicitud ha finalizado sin error.
 * **[!UICONTROL Error]**: el flujo de trabajo ha encontrado un error. La causa aparece en la lista de solicitudes de privacidad en la columna **[!UICONTROL Request status]**. Por ejemplo, **[!UICONTROL Error data not found]** significa que en la base de datos no se han encontrado datos de destinatario que coincidan con los del sujeto de datos **[!UICONTROL Reconciliation value]** .
 
-### Proceso de 2 pasos {#two-step-process}
+### Proceso de dos pasos {#two-step-process}
 
 El **procesamiento en 2 pasos** está activado de forma predeterminada. Cuando se crea una nueva solicitud de eliminación con este modo, Adobe Campaign siempre realiza primero una solicitud de acceso. Esto le permite comprobar los datos antes de confirmar la eliminación.
 
