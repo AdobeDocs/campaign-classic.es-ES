@@ -9,9 +9,9 @@ internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 source-git-commit: 934964b31c4f8f869253759eaf49961fa5589bff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '673'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -30,8 +30,8 @@ Esta integración solo se aplica a partir de **las versiones de Campaign Classic
 Antes de iniciar esta implementación, compruebe lo siguiente:
 
 * **Un identificador de organización** válido: el identificador de organización de Identity Management System (IMS) es el identificador único de Adobe Experience Cloud que se utiliza, por ejemplo, para el servicio VisitorID y el inicio de sesión único (SSO) de IMS. [Obtenga más información](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=es)
-* un **acceso para desarrolladores** para su organización. El administrador del sistema de la organización IMS debe seguir a los **desarrolladores de Add a one product profile**
-procedimiento detallado [en esta página](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html) para proporcionar acceso de desarrollador al perfil de producto `Analytics - {tenantID}` del producto de Adobe Analytics asociado a Déclencheur.
+* un **acceso para desarrolladores** para su organización. El administrador del sistema de la organización IMS debe seguir el procedimiento **Adición de desarrolladores a un único perfil de producto**
+detallado [en esta página](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html) para proporcionar acceso de desarrollador al perfil `Analytics - {tenantID}` del producto de Adobe Analytics asociado a activadores.
 
 ## Paso 1: Crear/actualizar proyecto de Adobe I/O {#creating-adobe-io-project}
 
@@ -41,13 +41,13 @@ procedimiento detallado [en esta página](https://helpx.adobe.com/es/enterprise/
    >
    > Asegúrese de haber iniciado sesión en el portal correcto de la organización.
 
-1. Extraiga el identificador de cliente (ID de cliente) de la integración existente del archivo de configuración de instancia ims/authIMSTAClientId. El atributo no existente o vacío indica que el identificador del cliente no está configurado.
+1. Extraiga el ID del cliente de integración existente del archivo de configuración de instancia ims/authIMSTAClientId. El atributo no existente o vacío indica que el identificador del cliente no está configurado.
 
    >[!NOTE]
    >
    >Si el ID del cliente está vacío, puede usar directamente la opción **[!UICONTROL Create a New project]** en Adobe I/O.
 
-1. Identifique el proyecto existente mediante el ID de cliente extraído. Busque proyectos existentes con el mismo identificador de cliente que el extraído en el paso anterior.
+1. Identifique el proyecto existente mediante el ID de cliente extraído. Busque proyectos existentes con el mismo ID de cliente que el extraído en el paso anterior.
 
    ![](assets/do-not-localize/adobe_io_8.png)
 
@@ -100,7 +100,7 @@ procedimiento detallado [en esta página](https://helpx.adobe.com/es/enterprise/
 
 >[!NOTE]
 >
->Este paso no es necesario si el identificador de cliente no estaba vacío en el [paso 1: Crear/actualizar proyecto de Adobe I/O](#creating-adobe-io-project).
+>Este paso no es necesario si el identificador de cliente no estaba vacío en el [Paso 1: Crear/actualizar proyecto de Adobe I/O](#creating-adobe-io-project).
 
 La clave privada debe codificarse en formato UTF-8 base64. Para ello:
 
@@ -124,7 +124,7 @@ La clave privada debe codificarse en formato UTF-8 base64. Para ello:
 
 >[!NOTE]
 >
->Este paso no es necesario si el identificador de cliente no estaba vacío en el [paso 1: Crear/actualizar proyecto de Adobe I/O](#creating-adobe-io-project).
+>Este paso no es necesario si el identificador de cliente no estaba vacío en el [Paso 1: Crear/actualizar proyecto de Adobe I/O](#creating-adobe-io-project).
 
 Para actualizar la etiqueta [!DNL pipelined], debe actualizar el tipo de autenticación del proyecto de Adobe I/O en el archivo de configuración **config-&lt; instance-name >.xml** como se indica a continuación:
 
