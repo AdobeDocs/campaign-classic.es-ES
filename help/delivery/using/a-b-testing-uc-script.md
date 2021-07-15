@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: a-b-testing
 exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
 source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 97%
 
 La elección del contenido de entrega destinado a la población restante se calcula mediante una secuencia de comandos. Esta secuencia de comandos recupera la información relativa a la entrega con la mayor tasa de apertura y copia el contenido en la entrega final.
 
-## Ejemplo de secuencia de comandos {#example-of-a-script}
+## Ejemplo de un script {#example-of-a-script}
 
-La siguiente secuencia de comandos se puede utilizar como se encuentra en el flujo de trabajo de objetivos. Para obtener más información, consulte [esta sección](#implementation).
+El siguiente script se puede utilizar como se encuentra en el flujo de trabajo de direccionamiento. Para obtener más información, consulte [esta sección](#implementation).
 
 ```
  // query the database to find the winner (best open rate)
@@ -65,7 +65,7 @@ La siguiente secuencia de comandos se puede utilizar como se encuentra en el flu
    vars.deliveryId = delivery.id
 ```
 
-Para ver un ejemplo detallado de la secuencia de comandos, consulte [esta sección](#details-of-the-script).
+Para ver un ejemplo detallado de un script, consulte [esta sección](#details-of-the-script).
 
 ## Implementación {#implementation}
 
@@ -85,7 +85,7 @@ Para ver un ejemplo detallado de la secuencia de comandos, consulte [esta secci�
 1. Cierre la actividad **[!UICONTROL JavaScript code]**.
 1. Guarde el flujo de trabajo.
 
-## Detalles de la secuencia de comandos {#details-of-the-script}
+## Detalles del script {#details-of-the-script}
 
 En esta sección se detallan las distintas partes de la secuencia de comandos y su modo operativo.
 
