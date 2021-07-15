@@ -11,7 +11,7 @@ hide: true
 source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '1682'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 >
 >El Conector de datos de Adobe Analytics ha quedado obsoleto. Las funcionalidades van a seguir estando disponibles, pero no se van a mejorar ni admitir. Obtenga más información [en esta página](../../rn/using/deprecated-features.md).
 
-## Acerca de la integración de conectores de datos {#about-data-connector-integration}
+## Acerca de la integración del conector de datos {#about-data-connector-integration}
 
 >[!IMPORTANT]
 >
@@ -48,7 +48,7 @@ Los campos de acción de cada herramienta son los siguientes:
 
 ## Configuración de la integración {#setting-up-the-integration}
 
-Para configurar Data connector, debe conectarse a la instancia de Adobe Campaign y realizar las siguientes operaciones:
+Para configurar el conector de datos, debe conectarse a la instancia de Adobe Campaign y realizar las siguientes operaciones:
 
 * [Paso 1: Configurar la integración en Analytics](#step-1--configure-integration-in-analytics)
 * [Paso 2: Crear la cuenta externa en Campaign](#step-2--create-the-external-account-in-campaign)
@@ -68,7 +68,7 @@ Los pasos siguientes detallan la configuración del conector de datos mediante u
 
 1. En la pestaña **[!UICONTROL Admin]**, seleccione **[!UICONTROL Data Connectors]**.
 
-   Debe tener los siguientes permisos de herramientas de Analytics para acceder al menú **[!UICONTROL Data Connectors]**. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html)
+   Debe tener los siguientes permisos de herramientas de Analytics para acceder al menú **[!UICONTROL Data Connectors]**. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=es)
    * Integraciones (Crear)
    * Integraciones (Actualización)
    * Integraciones (Eliminar)
@@ -192,7 +192,7 @@ Si se han configurado segmentos adicionales en el asistente de Conectores de dat
 
 ### Flujos de trabajo técnicos de procesos de análisis web {#technical-workflows-of-web-analytics-processes}
 
-El intercambio de datos entre Adobe Campaign y Conectores de datos de Adobe Analytics se administra mediante cuatro flujos de trabajo técnicos que funcionan como una tarea en segundo plano.
+El intercambio de datos entre Adobe Campaign y el conector de datos de Adobe Analytics se administra mediante cuatro flujos de trabajo técnicos que funcionan como una tarea en segundo plano.
 
 Están disponibles en el árbol de Adobe Campaign, en la carpeta **[!UICONTROL Administration > Production > Technical workflows > Web analytics process]**.
 
@@ -235,7 +235,7 @@ Están disponibles en el árbol de Adobe Campaign, en la carpeta **[!UICONTROL A
 
 
 
-## Seguimiento de envíos en Adobe Campaign {#tracking-deliveries-in-adobe-campaign}
+## Seguimiento de entregas en Adobe Campaign {#tracking-deliveries-in-adobe-campaign}
 
 Para que Adobe Experience Cloud pueda rastrear la actividad en los sitios una vez Adobe Campaign ha realizado la entrega, debe hacer referencia al conector coincidente en las propiedades de entrega. Para ello, siga los siguientes pasos:
 
