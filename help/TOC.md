@@ -5,12 +5,12 @@ product: campaign
 title: Guía de Campaign Classic v7
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Con Adobe Campaign, puede utilizar datos de clientes enriquecidos para crear, coordinar y ofrecer campañas dinámicas que los clientes realmente deseen mediante correo electrónico, canales móviles, sin conexión y mucho más.
-sub-product: Adobe Campaign Classic
+sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2518'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -356,7 +356,7 @@ ht-degree: 97%
       + [Definición de las propiedades de los formularios web](web/using/defining-web-forms-properties.md)
       + [Traducción de un formulario web](web/using/translating-a-web-form.md)
       + [Casos de uso: Formularios web](web/using/use-cases--web-forms.md)
-+ Crear encuestas en línea {#online-surveys}
++ Creación de encuestas en línea {#online-surveys}
    + [Introducción a las encuestas](surveys/using/about-surveys.md)
    + [Pasos clave para crear una encuesta](surveys/using/getting-started-with-surveys.md)
    + [Diseño de una encuesta](surveys/using/building-a-survey.md)
@@ -364,7 +364,7 @@ ht-degree: 97%
    + [Publicación, seguimiento y utilización de datos recopilados](surveys/using/publish--track-and-use-collected-data.md)
    + [Configuración de encuestas](surveys/using/configuring-surveys.md)
    + [Caso de uso: Creación de un formulario de referencia](surveys/using/use-case--creating-a-refer-a-friend-form.md)
-   + [Caso de uso: Visualización del informe de respuestas en una encuesta en línea](surveys/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
+   + [Caso de uso: visualización del informe de respuestas en una encuesta en línea](surveys/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
 + Integración con Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
    + [Acerca de las integraciones de Campaign](integrations/using/about-campaign-integrations.md)
    + Uso compartido de audiencias {#audience-sharing}
