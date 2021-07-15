@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: sending-emails
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
 source-git-commit: 94e609f3df94c553e2ec84ee427887a767b9af21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1574'
 ht-degree: 100%
 
@@ -142,7 +142,7 @@ En particular, deben cumplirse los siguientes requisitos:
 
 También puede consultar las [Sugerencias y las limitaciones conocidas de Gmail](https://developers.google.com/gmail/ampemail/tips) y las [prácticas recomendadas de AMP para Outlook](https://docs.microsoft.com/en-gb/outlook/amphtml/best-practices).
 
-## Objetivización de correo electrónico de AMP {#targeting-amp-email}
+## Direccionamiento de correo electrónico de AMP {#targeting-amp-email}
 
 Actualmente puede experimentar enviando un correo electrónico de AMP en dos pasos:
 
@@ -170,7 +170,7 @@ Para obtener más información, consulte la documentación para desarrolladores 
 
 Para probar el envío de un correo electrónico AMP a una dirección Mail.ru, siga los pasos de la [documentación del desarrollador de Mail.ru](https://postmaster.mail.ru/amp/?lang=en#howto) (sección **Si es un usuario**).
 
-### Envío de correos electrónicos AMP mediante registro con un proveedor de correo electrónico {#delivering-amp-emails-by-registering}
+### Envío de correos electrónicos AMP mediante el registro con un proveedor de correo electrónico {#delivering-amp-emails-by-registering}
 
 Puede experimentar enviar correos electrónicos dinámicos registrándose con los proveedores de correo electrónico admitidos para que su dominio de remitente se añada a la lista de permitidos.
 
