@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Creación de una entrega de SMS {#creating-a-sms-delivery}
 
-## Selección del canal de envío {#selecting-the-delivery-channel}
+## Selección del canal de entrega {#selecting-the-delivery-channel}
 
 Para diseñar una entrega de SMS nuevo, siga los pasos a continuación:
 
