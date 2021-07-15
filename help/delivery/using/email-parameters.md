@@ -7,17 +7,17 @@ content-type: reference
 topic-tags: sending-emails
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '888'
 ht-degree: 100%
 
 ---
 
-# Parámetros de correo electrónico {#email-parameters}
+# Parámetros del correo electrónico {#email-parameters}
 
-Esta sección presenta las opciones y los parámetros específicos del envío de correo electrónico.
+Esta sección presenta las opciones y los parámetros específicos de la entrega de correo electrónico.
 
-## Correo electrónico CCO {#email-bcc}
+## CCO del correo electrónico {#email-bcc}
 
 Adobe Campaign permite almacenar correos electrónicos en un sistema externo a través de CCO añadiendo simplemente una dirección de correo electrónico CCO al destino del mensaje.
 
