@@ -7,17 +7,17 @@ content-type: reference
 topic-tags: action-activities
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
 source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
-# Entregas en canales múltiples{#cross-channel-deliveries}
+# Entregas multicanal{#cross-channel-deliveries}
 
-Los envíos multicanal están disponibles en la pestaña **[!UICONTROL Deliveries]** de las actividades de flujo de trabajo de la campaña.
+Las entregas multicanal están disponibles en la pestaña **[!UICONTROL Deliveries]** de las actividades de flujo de trabajo de la campaña.
 
-Los varios canales disponibles son:
+Los varios canales disponibles son los siguientes:
 
 * [Correo electrónico](../../delivery/using/about-email-channel.md)
 * [Correo directo](../../delivery/using/about-direct-mail-channel.md)
@@ -29,9 +29,9 @@ Los varios canales disponibles son:
 
 Seleccione la plantilla en la que desea basar la entrega y defina su contenido.
 
-Puede especificar un público objetivo para la entrega ascendente del flujo de trabajo utilizando las distintas actividades de objetivos.
+Puede especificar un público objetivo para la entrega ascendente del flujo de trabajo utilizando las distintas actividades de direccionamiento.
 
-En el siguiente ejemplo, crearemos un flujo de trabajo para enviar un correo electrónico o un SMS a los suscriptores de las notificaciones push una semana después. Para ello:
+En el siguiente ejemplo, crearemos un flujo de trabajo para enviar un correo electrónico o un SMS a los suscriptores de las notificaciones push una semana más tarde. Para ello:
 
 1. Cree una campaña.
 1. En la pestaña **[!UICONTROL Targeting and workflows]** de la campaña, añada **[!UICONTROL Query]** al flujo de trabajo.
@@ -39,7 +39,7 @@ En el siguiente ejemplo, crearemos un flujo de trabajo para enviar un correo ele
 
    >[!NOTE]
    >
-   >Para las notificaciones push, utilice la dimensión de destino **subscriber applications**.
+   >Para las notificaciones push, recuerde utilizar la dimensión objetivo **aplicaciones del suscriptor**.
 
    ![](assets/cross_channel_delivery_1.png)
 
