@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '877'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ La pestaña Cupones solo está disponible con cupones individuales. Tras asociar
 * **[!UICONTROL Channel]**: El canal utilizado para enviar el cupón.
 * **[!UICONTROL Address]** : Las direcciones de correo electrónico de los destinatarios.
 
-Los valores de **[!UICONTROL channel]**, **[!UICONTROL status]** y **[!UICONTROL address]** se rellenan automáticamente. Sin embargo, Campaign no recupera los valores de **[!UICONTROL redeemed on]**. Se pueden rellenar importando un archivo con los detalles de canje de cupones.
+Los valores de **[!UICONTROL channel]**, **[!UICONTROL status]** y **[!UICONTROL address]** se rellenan automáticamente. Sin embargo, Campaign no recupera los valores de **[!UICONTROL redeemed on]**. Se pueden rellenar importando un archivo con los detalles del canje de cupones.
 
 ## Inserción de un cupón en una entrega de correo electrónico {#inserting-a-coupon-into-an-email-delivery}
 
