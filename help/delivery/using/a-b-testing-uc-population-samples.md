@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: a-b-testing
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
 source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 90%
 
    ![](assets/use_case_abtesting_createrecipients_003.png)
 
-## Configurar la actividad Split {#configuring-the-split-activity}
+## Configuración de la actividad División {#configuring-the-split-activity}
 
 Esta actividad permite crear varias poblaciones: la que recibe la entrega A, la que recibe la entrega B y la población restante. El uso de la selección aleatoria permite seleccionar solo parte de la población de cada entrega.
 
@@ -51,7 +51,7 @@ Esta actividad permite crear varias poblaciones: la que recibe la entrega A, la 
 
       ![](assets/use_case_abtesting_createrecipients_007.png)
 
-   * Defina el umbral en 10 % y haga clic en **[!UICONTROL Finish]**.
+   * Defina el umbral en 10 % y haga clic en **[!UICONTROL Finish]**.
 
       ![](assets/use_case_abtesting_createrecipients_008.png)
 
