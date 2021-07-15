@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 9f1b0974-f8bd-430f-88fe-9c09b0074d3b
 source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '510'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ La interfaz de autoservicio de zonas de seguridad se puede utilizar para adminis
 
 [Haga clic aquí para obtener más información](https://helpx.adobe.com/es/campaign/kb/configuring-security-zones-self-service.html) sobre la interfaz de usuario de la Zona de seguridad.
 
-## 4. ¿Cómo puedo asegurarme de que mi envío se envíe sin errores? {#how-can-i-make-sure-my-delivery-is-sent-without-errors-}
+## 4. ¿Cómo puedo asegurarme de que mi entrega se envíe sin errores? {#how-can-i-make-sure-my-delivery-is-sent-without-errors-}
 
 Adobe Campaign incluye un conjunto de paneles y herramientas para monitorizar las entregas de correo electrónico.
 
@@ -61,11 +61,11 @@ Para conectarse a Adobe Campaign Classic, debe iniciar la consola de cliente de 
 
 ## 7. ¿Con qué sistemas y componentes es compatible Campaign Classic? {#which-systems-and-components-campaign-classic-is-compatible-with-}
 
-Puede obtener la lista de todos los sistemas y componentes compatibles con la última versión de Campaign en [Adobe Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md).
+Puede obtener la lista de todos los sistemas y componentes compatibles con la última versión de Campaign en la [matriz de compatibilidad de Adobe Campaign Classic](../../rn/using/compatibility-matrix.md).
 
 ## 8. ¿Dónde se encuentran las notas de la versión de Campaign Classic? {#where-are-campaign-classic-release-notes-}
 
-Puede acceder a las notas más recientes de la versión Campaign Classic [en esta página](../../rn/using/latest-release.md).
+Puede acceder a las notas de la versión más recientes de Campaign Classic [en esta página](../../rn/using/latest-release.md).
 
 ## 9. ¿Cuál es el procedimiento para la configuración de dominios? {#what-is-the-procedure-for-domain-delegation-}
 
