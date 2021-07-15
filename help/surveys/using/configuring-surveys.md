@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: online-surveys
 exl-id: 387bc362-4064-4181-9385-8e0c3423ba3e
 source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 83%
 
 Las encuestas en línea son totalmente configurables y personalizables para satisfacer sus necesidades. Los parámetros deben introducirse en la ventana de propiedades.
 
-Los parámetros disponibles se detallan en [este documento](../../web/using/defining-web-forms-properties.md).
+Los parámetros disponibles se explican en [este documento](../../web/using/defining-web-forms-properties.md).
 
 ![](assets/s_ncs_admin_survey_properties_general.png)
 
