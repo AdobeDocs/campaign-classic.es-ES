@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '656'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ Una vez que el paquete esté instalado, puede definir la configuración de la ap
 >
 >Para obtener información sobre cómo configurar la aplicación para Android y cómo crear un envío para Android, consulte esta [sección](configuring-the-mobile-application-android.md).
 
-Los pasos clave son:
+Los pasos clave son los siguientes:
 
 1. [Configuración de la cuenta externa de iOS](#configuring-external-account-ios)
-1. [Configuración del servicio iOS](#configuring-ios-service)
+1. [Configuración del servicio de iOS](#configuring-ios-service)
 1. [Integración de la aplicación móvil de iOS en Campaign](#creating-ios-app)
 
-A continuación, podrá [crear una notificación push para dispositivos iOS](create-notifications-ios.md).
+A continuación, podrá [crear una notificación push para los dispositivos iOS](create-notifications-ios.md).
 
 
 ## Configuración de la cuenta externa de iOS {#configuring-external-account-ios}
