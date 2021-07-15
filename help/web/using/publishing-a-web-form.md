@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: web-forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
 source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '965'
 ht-degree: 100%
 
@@ -113,7 +113,7 @@ Para cambiar el estado de un formulario, debe publicarlo. Para ello, haga clic e
 
 ![](assets/webapp_publish_webform.png)
 
-### Disponibilidad de un formulario en línea {#making-a-form-available-online}
+### Publicación de un formulario en línea {#making-a-form-available-online}
 
 Para que los usuarios puedan acceder, el formulario debe estar en producción e iniciado, es decir, dentro de su periodo de validez. Las fechas de validez se introducen mediante el vínculo **[!UICONTROL Properties]** del formulario.
 
@@ -135,7 +135,7 @@ Cuando envía una invitación por correo electrónico, puede utilizar la opción
 
 En este caso, la clave de reconciliación para el almacenamiento de datos debe ser el identificador encriptado del destinatario. Para obtener más información, consulte [Precarga de los datos del formulario](#pre-loading-the-form-data).
 
-En este caso, es necesario marcar la opción **[!UICONTROL Update the preloaded record]** en la casilla de registro. Para obtener más información, consulte [Almacenamiento de respuestas de formularios web](web-forms-answers.md#saving-web-forms-answers).
+En este caso, es necesario marcar la opción **[!UICONTROL Update the preloaded record]** en la casilla de registro. Para obtener más información, consulte [Guardado de respuestas de formularios web](web-forms-answers.md#saving-web-forms-answers).
 
 ![](assets/s_ncs_admin_survey_save_box_option.png)
 
@@ -153,4 +153,4 @@ Seleccione un destinatario y haga clic en el botón **[!UICONTROL Detail...]** p
 
 ![](assets/s_ncs_admin_survey_trace_edit.png)
 
-Puede procesar los “logs” de respuesta proporcionados en las consultas, por ejemplo para dirigirse solo a los no encuestados para enviarles recordatorios o para ofrecer comunicaciones específicas únicamente a los encuestados.
+Puede procesar los registros de respuestas proporcionados en las consultas, por ejemplo para dirigirse solo a los no encuestados para enviarles recordatorios o para ofrecer comunicaciones específicas únicamente a los encuestados.
