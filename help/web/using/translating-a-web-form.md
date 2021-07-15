@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: web-forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
 source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1565'
 ht-degree: 100%
 
@@ -154,7 +154,7 @@ Una vez finalizada la traducción externa, puede importar los archivos traducido
 >
 >Las traducciones externas siempre tienen prioridad sobre las traducciones internas. En caso de conflicto, la traducción externa sobrescribe la traducción interna.
 
-## Cambio de idioma de visualización de formularios {#changing-forms-display-language}
+## Cambio del idioma de visualización de formularios {#changing-forms-display-language}
 
 Los formularios web se muestran en el idioma predeterminado especificado en la pestaña **[!UICONTROL Localization]** de las propiedades de la aplicación web. Para cambiar de idioma, debe añadir los siguientes caracteres al final de la dirección URL (donde **xx** es el símbolo del idioma):
 
@@ -437,7 +437,7 @@ Puede añadir **?lang=es** o **?lang=de** para mostrarlo en español o alemán.
 >
 >Esta sección es solo para usuarios expertos.
 
-### Traducción de cadenas del sistema {#translating-the-system-strings}
+### Traducción de las cadenas del sistema {#translating-the-system-strings}
 
 Las cadenas del sistema son cadenas de caracteres predeterminadas que se utilizan en todas las aplicaciones web. Por ejemplo: los botones **[!UICONTROL Next]** , **[!UICONTROL Previous]**, **[!UICONTROL Approve]**, mensajes **[!UICONTROL Loading]**, etc. De forma predeterminada, algunos idiomas contienen un diccionario con traducciones para estas unidades. La lista de idiomas se detalla en [Cambio del idioma de visualización de los formularios](#changing-forms-display-language).
 
