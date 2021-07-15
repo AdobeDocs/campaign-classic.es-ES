@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1599'
 ht-degree: 100%
 
@@ -108,9 +108,9 @@ Para ello:
 
 >[!CAUTION]
 >
->Al definir el contenido del mensaje para la entrega por correo electrónico, no incluya el vínculo a la página espejo; no se puede generar en este modo de entrega.
+>Al definir el contenido del mensaje para la entrega por correo electrónico, no incluya el vínculo a la página espejo. No es posible generarlo en este modo de entrega.
 
-### Configuración de exclusión {#customizing-exclusion-settings}
+### Configuración de la exclusión {#customizing-exclusion-settings}
 
 Los errores de direcciones y las clasificaciones de calidad los proporciona el proveedor de servicios (IAP). Esta información se actualiza automáticamente en el perfil de destinatario después de las acciones de entrega y con los archivos devueltos por los proveedores de servicios. Puede verse en el perfil en modo de solo lectura.
 
