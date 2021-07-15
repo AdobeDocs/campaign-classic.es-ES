@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: asset-sharing
 exl-id: b28aa5a5-afba-458b-8a85-375493c6c836
 source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Entre los servicios de activos se incluyen:
 
 Al editar una entrega por correo electrónico o una página de destino en Adobe Campaign, puede colocar activos desde las bibliotecas de Adobe Experience Cloud. En función de las soluciones que utilice, estos recursos se pueden almacenar en el servicio principal de Assets o en Adobe Experience Manager Assets.
 
-Las distintas bibliotecas disponibles aparecen detalladas en [este documento](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html).
+Las distintas bibliotecas disponibles aparecen detalladas en [este documento](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html?lang=es).
 
 Consulte la sección [Configurar el acceso a los activos para obtener más información sobre los aspectos específicos relacionados con cada biblioteca.](../../integrations/using/configuring-access-to-assets.md)
 
