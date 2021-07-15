@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '857'
 ht-degree: 100%
 
@@ -27,9 +27,9 @@ Tiene la posibilidad de definir nuevos bloques que le permitan optimizar la pers
 >
 >Los bloques personalizados también están disponibles desde **[!UICONTROL Digital Content Editor (DCE)]** Para obtener más información, consulte [esta página](../../web/using/editing-content.md#inserting-a-personalization-block).
 
-## Inserción de bloques personalizados {#inserting-personalization-blocks}
+## Inserción de bloques de personalización {#inserting-personalization-blocks}
 
-Para insertar un bloque personalizado en un mensaje, siga los pasos a continuación:
+Para insertar un bloque de personalización en un mensaje, siga los pasos a continuación:
 
 1. En el editor de contenido del asistente de envío, haga clic en el icono de campo personalizado y seleccione el menú **[!UICONTROL Include]**.
 1. Seleccione un bloque personalizado de la lista (la lista muestra los 10 últimos bloques utilizados) o haga clic en el menú **[!UICONTROL Other...]** para acceder a la lista completa.
@@ -56,7 +56,7 @@ El código fuente HTML se inserta en el contenido de envío. Por ejemplo, el blo
 
 ![](assets/s_ncs_user_personalized_block06.png)
 
-## Ejemplo de bloques personalizados {#personalization-blocks-example}
+## Ejemplo de bloques de personalización {#personalization-blocks-example}
 
 En este ejemplo, se crea un correo electrónico en el que se utilizan bloques personalizados para permitir que el destinatario vea la página espejo, compartir el boletín informativo en redes sociales y cancelar la suscripción a futuros envíos.
 
@@ -83,7 +83,7 @@ Para ello, es necesario insertar los siguientes bloques personalizados:
 
 1. Confirme que el contenido del bloque se muestra correctamente.
 
-## Bloques personalizados preestablecidos {#out-of-the-box-personalization-blocks}
+## Bloques de personalización preestablecidos {#out-of-the-box-personalization-blocks}
 
 De forma predeterminada, hay disponibles una lista de bloques personalizados que ayudan a personalizar el contenido del mensaje.
 
@@ -118,7 +118,7 @@ De forma predeterminada, hay disponibles una lista de bloques personalizados que
 * **[!UICONTROL Style of content emails]** y **[!UICONTROL Notification style]**: genera un código que dé formato a un correo electrónico con estilos HTML predefinidos. Estos bloques deben insertarse en el código fuente de la entrega, en la sección **[!UICONTROL ...]**, entre las etiquetas **`<style>...</style>`**.
 * **[!UICONTROL Offer acceptance URL in unitary mode]**: inserta una URL que permite establecer una oferta de interacción como **[!UICONTROL Accepted]** (consulte [esta sección](../../interaction/using/offer-analysis-report.md)).
 
-## Definición de bloques personalizados propios {#defining-custom-personalization-blocks}
+## Definición de bloques de personalización {#defining-custom-personalization-blocks}
 
 Se pueden definir nuevos campos personalizados para que se inserten desde el icono de campo personalizado en el menú **[!UICONTROL Include...]**. Estos campos se definen en bloques personalizados.
 
