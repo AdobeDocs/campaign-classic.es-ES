@@ -6,7 +6,7 @@ content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '729'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Para llegar a la bandeja de entrada de sus destinatarios sin rebotar ni ser marc
 
 * Póngase en contacto con su representante de Adobe para obtener ayuda.
 
-## Administración de cuarentenas {#quarantine-management}
+## Administración de cuarentena {#quarantine-management}
 
 Le conviene mantener buenos procesos de gestión de cuarentenas.
 
@@ -71,7 +71,7 @@ Al comenzar a enviar correos electrónicos en una nueva plataforma, puede utiliz
 
 * Además, la gestión de cuarentenas ayuda a reducir el coste de envío de SMS mediante la exclusión en los envíos de los números de teléfono incorrectos.
 
-## Mecanismo de selección de dobles {#double-opt-in}
+## Mecanismo de inclusión doble {#double-opt-in}
 
 Para evitar el envío de mensajes a direcciones no válidas, limitar las comunicaciones incorrectas y mejorar la reputación del remitente, Adobe recomienda implementar un mecanismo de inclusión doble para la confirmación posterior a la suscripción. Esto ayuda a garantizar la suscripción intencionada de un destinatario.
 
