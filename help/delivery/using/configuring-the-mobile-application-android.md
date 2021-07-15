@@ -10,9 +10,9 @@ internal: n
 snippet: y
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '963'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Para elegir el conector que desea utilizar, siga estos pasos:
 
    * **maxGCMConnectPerChild**: Límite máximo de solicitudes HTTP paralelas al FCM iniciado por cada servidor secundario (8 por defecto).
 
-## Configuración de un servicio de Android {#configuring-android-service}
+## Configuración del servicio de Android {#configuring-android-service}
 
 ![](assets/do-not-localize/how-to-video.png) [Obtenga información sobre cómo configurar un servicio de Android en vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=es#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign)
 
@@ -71,7 +71,7 @@ Para elegir el conector que desea utilizar, siga estos pasos:
 
    >[!NOTE]
    >
-   >La asignación de destino predeterminada **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** está relacionada con la tabla de destinatarios. Si desea utilizar una asignación de destino diferente, debe crear una nueva asignación de destino e introducirla en el campo **[!UICONTROL Target mapping]** del servicio. Para obtener más información sobre la creación de la asignación de destino, consulte [esta sección](../../configuration/using/about-custom-recipient-table.md).
+   >La asignación de destino predeterminada **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** está relacionada con la tabla de destinatarios. Si desea utilizar una asignación de destino diferente, debe crear una nueva asignación de destino e introducirla en el campo **[!UICONTROL Target mapping]** del servicio. Para obtener más información sobre la creación de asignación de destino, consulte [esta sección](../../configuration/using/about-custom-recipient-table.md).
 
    ![](assets/nmac_ios.png)
 
@@ -111,8 +111,8 @@ De forma predeterminada, Adobe Campaign guarda una clave en el campo **[!UICONTR
 
 Después de crear el servicio y una nueva aplicación móvil, debe configurar la aplicación móvil según la versión de API elegida.
 
-* **La configuración HTTP v1** se detalla en  [esta sección](configuring-the-mobile-application-android.md#android-service-httpv1).
-* **La configuración HTTP (heredada)**  se detalla en  [esta sección](configuring-the-mobile-application-android.md#android-service-http).
+* La configuración de **HTTP v1** se detalla en [esta sección](configuring-the-mobile-application-android.md#android-service-httpv1).
+* La configuración de **HTTP (heredada)** se detalla en [esta sección](configuring-the-mobile-application-android.md#android-service-http).
 
 #### Configuración de la API HTTP v1{#android-service-httpv1}
 
@@ -171,7 +171,7 @@ A continuación se muestran los nombres de carga útil de FCM para personalizar 
 
 | Tipo de mensaje | Elemento de mensaje configurable (nombre de carga útil de FCM) | Opciones configurables (nombre de carga útil de FCM) |
 |:-:|:-:|:-:|
-| mensaje de datos | N/D | dryRun |
+| mensaje de datos | N/A | dryRun |
 | mensaje de notificación | title, body, android_channel_id, icon, sound, tag, color, click_action <br> | dryRun |
 
 <br>
