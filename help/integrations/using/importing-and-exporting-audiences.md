@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: c2293fc5-c9ba-4a73-8f39-fa7cdd06e8dd
 source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '626'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Se puede exportar una audiencia de Adobe Campaign a Audience Manager o al servic
 
 A continuación, se exporta la audiencia. La actividad de guardar la audiencia tiene dos transiciones salientes. La transición principal contiene los destinatarios exportados correctamente. La transición adicional contiene los destinatarios que no pueden asignarse a una ID de visitante o a una ID declarada.
 
-La sincronización entre Adobe Campaign y el servicio principal Personas tarda de 24 a 36 horas. Después de este periodo, puede encontrar la nueva audiencia en el servicio principal Personas y reutilizarla en otras soluciones de Adobe Experience Cloud. Para obtener más información sobre el uso de una audiencia compartida de Adobe Campaign en el servicio principal Personas de Adobe, consulte la siguiente [documentación](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html).
+La sincronización entre Adobe Campaign y el servicio principal Personas tarda de 24 a 36 horas. Después de este periodo, puede encontrar la nueva audiencia en el servicio principal Personas y reutilizarla en otras soluciones de Adobe Experience Cloud. Para obtener más información sobre el uso de una audiencia compartida de Adobe Campaign en el servicio principal Personas de Adobe, consulte la siguiente [documentación](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html?lang=es).
 
 >[!NOTE]
 >
