@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
 source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1902'
 ht-degree: 100%
 
@@ -204,13 +204,13 @@ El procedimiento para configurar la gestión de stock y de pedidos en Adobe Camp
 
 ### Gestión de stock {#stock-management}
 
-Adobe Campaign puede alertar a un grupo de operadores si el stock se han agotado o han alcanzado un límite mínimo. Es posible acceder a los niveles de stock desde el vínculo **[!UICONTROL Stocks]** de la pestaña **[!UICONTROL Campaigns]** a través del vínculo **[!UICONTROL Other choices]** del área de navegación.
+Adobe Campaign puede alertar a un grupo de operadores si el stock se ha agotado o alcanzado un umbral mínimo. Es posible acceder a los niveles de stock desde el vínculo **[!UICONTROL Stocks]** de la pestaña **[!UICONTROL Campaigns]** a través del vínculo **[!UICONTROL Other choices]** del área de navegación.
 
 ![](assets/s_ncs_user_stocks_view.png)
 
-#### Creación de un inventario de stock {#creating-a-stock}
+#### Creación de un stock {#creating-a-stock}
 
-Siga los siguientes pasos para crear un nuevo inventario de stock:
+Siga los siguientes pasos para crear un nuevo stock:
 
 1. Haga clic en el botón **[!UICONTROL Create]** situado encima de la lista de stock.
 1. Introduzca la etiqueta del inventario de stock y seleccione el proveedor de servicios con el que está asociado en la lista desplegable.
@@ -239,9 +239,9 @@ Haga clic en el botón **[!UICONTROL Create]** para definir los parámetros de s
 
    ![](assets/s_ncs_user_stocks_create_line.png)
 
-* Indique el umbral desde el cual se debe avisar a los operadores para que soliciten la existencia en el campo **[!UICONTROL Alert level]**. Cuando se alcanza el nivel de alerta, aparece un mensaje de advertencia en la ventana de aprobación de entregas con este archivo.
+* Indique el umbral desde el cual se debe avisar a los operadores para que soliciten la existencia en el campo **[!UICONTROL Alert level]**. Cuando se alcanza el nivel de alerta, aparece un mensaje de advertencia en la ventana de aprobación de entregas con este stock.
 
-#### Asociación de un inventario con las categorías de coste {#associating-a-stock-with-cost-categories}
+#### Asociación de un stock con las categorías de coste {#associating-a-stock-with-cost-categories}
 
 Para un proveedor de servicios determinado, en un servicio, se puede hacer referencia a una línea de stock mediante una de las categorías de coste de la manera siguiente:
 
