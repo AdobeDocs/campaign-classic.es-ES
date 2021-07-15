@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: web-forms
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
 source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2371'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Especifique el modo de registro de respuestas: actualice un campo de la base de 
 
 ## Asistente de creación de campos {#field-creation-wizard}
 
-Para cada página del formulario, puede añadir un campo mediante el primer botón de la barra de herramientas. Para ello, vaya al menú **[!UICONTROL Add using the wizard]**.
+Para cada página del formulario, puede añadir un campo con el primer botón de la barra de herramientas. Para ello, vaya al menú **[!UICONTROL Add using the wizard]**.
 
 ![](assets/s_ncs_admin_survey_add_field_menu.png)
 
@@ -104,9 +104,9 @@ Se pueden insertar cinco tipos diferentes de campos de texto en una página de f
 
    ![](assets/webapp_enrich_text_max.png)
 
-### Configuración de campos de entrada {#configure-input-fields}
+### Configuración de los campos de entrada {#configure-input-fields}
 
-Todos los campos de entrada se configuran en función del mismo modo, con las siguientes opciones:
+Todos los campos de entrada se configuran del mismo modo, con las siguientes opciones:
 
 ![](assets/s_ncs_admin_survey_txt_param.png)
 
@@ -198,7 +198,7 @@ Puede crear botones de opción por separado (botones unitarios) o a través de u
 >
 >Para hacer la selección obligatoria, debe crear una lista de selección múltiple.
 
-### Añadir botones de opción {#add-single-buttons}
+### Añadir botones únicos {#add-single-buttons}
 
 Para añadir un botón de opción a una página de formulario, vaya al menú **[!UICONTROL Selection controls > Radio button]** de la barra de herramientas del editor de páginas y elija un modo de almacenamiento.
 
@@ -206,7 +206,7 @@ Para añadir un botón de opción a una página de formulario, vaya al menú **[
 
 Los botones de opción se configuran de forma similar a las casillas de verificación (consulte). [Agregar casillas de verificación](#adding-checkboxes). Sin embargo, no se asigna ningún valor si no se selecciona la opción. Para que varios botones puedan ser interdependientes, es decir, que se deseleccione uno automáticamente si se selecciona el otro, se deben almacenar en el mismo campo. Si no se almacenan en la base de datos, se debe utilizar la misma variable local para el almacenamiento temporal. Consulte [Campos de almacenamiento de respuesta](web-forms-answers.md#response-storage-fields).
 
-### Creación de una lista de botones {#add-a-list-of-buttons}
+### Adición de una lista de botones {#add-a-list-of-buttons}
 
 Para añadir botones de opción a través de una lista, vaya al menú **[!UICONTROL Selection controls>Multiple choice]** de la barra de herramientas del editor de páginas.
 
