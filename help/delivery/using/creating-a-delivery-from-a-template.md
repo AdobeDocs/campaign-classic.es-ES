@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: using-delivery-templates
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## Vinculación de una plantilla a una entrega {#linking-the-template-to-a-delivery}
 
-Para crear una entrega basado en una plantilla existente, seleccione la plantilla de la lista de plantillas de envío disponibles.
+Para crear una entrega basada en una plantilla existente, seleccione la plantilla de la lista de plantillas de entrega disponibles.
 
 ![](assets/s_ncs_user_wizard_select_template.png)
 
