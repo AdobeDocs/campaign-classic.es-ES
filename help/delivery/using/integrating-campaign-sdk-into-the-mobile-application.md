@@ -8,9 +8,9 @@ topic-tags: sending-push-notifications
 version: Classic v7
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '954'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ El objetivo del SDK es facilitar la integración de una aplicación móvil en la
 
 Para obtener más información sobre las diferentes versiones de iOS y Android compatibles, consulte la [matriz de compatibilidad](../../rn/using/compatibility-matrix.md#MobileSDK) .
 
-## Cargando SDK de Campaign {#loading-campaign-sdk}
+## Carga del SDK de Campaign {#loading-campaign-sdk}
 
 * **En Android**: el archivo **neolane_sdk-release.aar** debe estar vinculado al proyecto.
 
@@ -54,7 +54,7 @@ Para obtener más información sobre las diferentes versiones de iOS y Android c
    >
    >Para la versión 1.0.25 del SDK, las cuatro arquitecturas están disponibles en el archivo **Neolane_SDK.h** .
 
-## Declarar configuraciones de integración {#declaring-integration-settings}
+## Declaración de las configuraciones de integración {#declaring-integration-settings}
 
 Para integrar el SDK de Campaign en la aplicación móvil, el administrador funcional debe proporcionar la siguiente información al desarrollador:
 
@@ -290,9 +290,9 @@ La función de registro le permite:
 
    >[!NOTE]
    >
-   >En la versión 7.0, una vez que la función **application:didReceiveRemoteNotification:fetchCompletionHandler** está implementada, el sistema operativo solo llama a esta función. Por lo tanto, no se llama a la función **application:didReceiveRemoteNotification**.
+   >En la versión 7.0, una vez que la función **application:didReceiveRemoteNotification:fetchCompletionHandler** esté implementada, el sistema operativo solo llama a esta función. Por lo tanto, no se llama a la función **application:didReceiveRemoteNotification**.
 
-## Seguimiento de notificaciones silenciosas {#silent-notification-tracking}
+## Seguimiento de las notificaciones silenciosas {#silent-notification-tracking}
 
 iOS permite enviar notificaciones silenciosas, una notificación o datos que se envían directamente a una aplicación móvil sin mostrarlo. Adobe Campaign permite rastrearlas.
 
@@ -576,7 +576,7 @@ Las variables permiten definir el comportamiento de la aplicación móvil despu�
 >
 >Adobe recomienda elegir nombres de variables cortos debido a que el tamaño de notificación está limitado a 4 kB para iOS y Android.
 
-## Extensión de servicio de notificaciones {#notification-service-extension}
+## Extensión del servicio de notificaciones {#notification-service-extension}
 
 **Para iOS**
 
@@ -610,7 +610,7 @@ Los medios deben descargarse en el nivel de extensión del servicio de notificac
     // Perform the download to local storage
 ```
 
-## Extensión de contenido de notificación {#notification-content-extension}
+## Extensión del contenido de notificación {#notification-content-extension}
 
 **Para iOS**
 
