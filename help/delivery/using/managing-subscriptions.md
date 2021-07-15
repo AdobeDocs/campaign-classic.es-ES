@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: subscriptions-and-referrals
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1098'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Hay tres modos de suscripción/baja del servicio:
 
 ## Creación de un servicio informativo {#creating-an-information-service}
 
-Puede crear y gestionar suscripciones a los servicios informativos con mensajes de confirmación o envíos automáticos asociados a los suscriptores.
+Puede crear y administrar suscripciones a los servicios informativos con mensajes de confirmación o envíos automáticos asociados a los suscriptores.
 
 Para acceder al mapa de servicios informativos, abra la pestaña **[!UICONTROL Profiles and Targets]** y haga clic en el vínculo **[!UICONTROL Services and Subscriptions]**.
 
@@ -164,6 +164,6 @@ También puede configurar un flujo de trabajo para darse de baja de una poblaci�
 
 ### Seguimiento del suscriptor {#subscriber-tracking}
 
-Puede realizar un seguimiento de los cambios en las suscripciones a los servicios informativos mediante el vínculo **[!UICONTROL Reports]** en el panel.
+Puede realizar un seguimiento de los cambios en las suscripciones a los servicios informativos mediante el vínculo **[!UICONTROL Reports]** en el tablero.
 
 ![](assets/s_ncs_user_services_report.png)
