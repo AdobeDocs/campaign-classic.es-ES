@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: sending-emails
 exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Antes de comenzar a enviar correos electrónicos:
 
 * Asegúrese de que los perfiles de destinatarios contengan, al menos, una dirección de correo electrónico.
 * Obtenga más información sobre las [prácticas recomendadas de envío](delivery-best-practices.md) en Adobe Campaign.
-* Lea estas secciones para obtener más información sobre la Capacidad de entrega: [Deliverability management in Campaign](about-deliverability.md) y [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es).
+* Lea estas secciones para obtener más información sobre la Capacidad de entrega: [Gestión de la capacidad de entrega en Campaign](about-deliverability.md) y [Guía de prácticas recomendadas para la capacidad de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es).
 
 Los pasos clave para enviar un correo electrónico son los siguientes:
 
