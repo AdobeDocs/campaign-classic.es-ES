@@ -8,9 +8,9 @@ topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -45,15 +45,15 @@ En función del periodo de tiempo del problema, se indican a continuación las d
 * Para instancias de Campaign con información de respuesta de rechazo SMTP en el campo **[!UICONTROL Error text]** de la lista de cuarentena:
 
    * **El texto de error (texto de cuarentena)** contiene &quot;la búsqueda del usuario se ha realizado correctamente, pero no se ha encontrado ningún registro de usuario&quot; Y **el texto de error (texto de cuarentena)** contiene &quot;support.apple.com&quot;
-   * **Actualizar estado (@lastModified)** en o después del 26/4/2021 07:00:00 AM
-   * **Estado de la actualización (@lastModified)** en o antes del 26/4/2021 01:00:00 PM
+   * **Estado de la actualización (@lastModified)** el 26 de abril de 2021 a las 07:00:00, o después
+   * **Estado de la actualización (@lastModified)** el 26 de abril de 2021 a las 13:00:00, o antes
 
 * Para instancias de Campaign con información de regla de correo electrónico entrante en el campo **[!UICONTROL Error text]** de la lista de cuarentena:
 
    * **El texto del error (texto de cuarentena)** contiene “Momen_Code10_InvalidRecipient”
    * **Dominio de correo electrónico (@domain)** igual a icloud.com O **dominio de correo electrónico (@domain)** igual a me.com O **dominio de correo electrónico (@domain)** igual a mac.com
-   * **Actualizar estado (@lastModified)** en o después del 26/4/2021 07:00:00 AM
-   * **Estado de la actualización (@lastModified)** en o antes del 26/4/2021 01:00:00 PM
+   * **Estado de la actualización (@lastModified)** el 26 de abril de 2021 a las 07:00:00, o después
+   * **Estado de la actualización (@lastModified)** el 26 de abril de 2021 a las 13:00:00, o antes
 
 Una vez que tenga la lista de destinatarios afectados, puede aplicarles un estado **[!UICONTROL Valid]** para que el flujo de trabajo **[!UICONTROL Database cleanup]** los elimine de la lista de cuarentena, o simplemente elimínelos de la tabla.
 
