@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: configuring-channels
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2744'
 ht-degree: 100%
 
@@ -113,7 +113,7 @@ Para solucionar los problemas de estabilidad de la conexión:
 
 * Si el proveedor cierra la conexión después de enviar un error limpio como `DELIVER_SM_RESP` con un código de error, deberá corregir su conector, de lo contrario eso impedirá que se transmitan otros tipos de mensajes y activará la limitación de MTA. Esto es especialmente importante en el modo transceptor, donde el cierre de la conexión afecta tanto a MT como SR.
 
-## Problema al enviar un mensaje MT (SMS regular enviado a un usuario final){#issue-MT}
+## Problema al enviar un MT (SMS regular enviado a un usuario final){#issue-MT}
 
 * Compruebe que la conexión es estable. Una conexión SMPP debe permanecer activa durante al menos 1 hora de forma continua, excepto para los transmisores de Adobe Campaign Classic. Consulte la sección [Problema con conexiones inestables](sms-protocol.md#issues-unstable-connection).
 
@@ -145,7 +145,7 @@ Reducción de la cantidad de duplicados cuando hay un reintento:
 
 * Reduzca la ventana de envío. La ventana de envío debe ser lo suficientemente grande como para cubrir la latencia de `SUBMIT_SM_RESP`. Su valor representa la cantidad máxima de mensajes que se pueden duplicar si se produce un error mientras la ventana está llena.
 
-## Problema al procesar SR (recibos de envíos) {#issue-process-SR}
+## Problema al procesar SR (recibos de entrega) {#issue-process-SR}
 
 * Necesitará los seguimientos del SMPP activados para realizar cualquier tipo de resolución de problemas de SR.
 
@@ -177,7 +177,7 @@ Si ha corregido todo, pero algunos SR no válidos siguen en los búferes del pro
 
 * Si el `SUBMIT_SM MT PDU` que contiene la respuesta se encuentra en los seguimientos, pero el SMS no llega al teléfono móvil, tendrá que ponerse en contacto con el proveedor para obtener ayuda sobre la resolución de problemas.
 
-## Problema durante la preparación del envío sin excluir destinatarios en cuarentena (en cuarentena por la función de respuesta automática) {#issue-delivery-preparation}
+## Problema durante la preparación de la entrega sin excluir destinatarios en cuarentena (en cuarentena por la función de respuesta automática) {#issue-delivery-preparation}
 
 * Compruebe que el formato del número de teléfono es exactamente el mismo en la tabla de cuarentenas y en el registro de envíos. Si no es así, consulte esta [sección](sms-protocol.md#automatic-reply) si tiene problemas con el prefijo más del formato del número de teléfono internacional.
 
@@ -213,7 +213,7 @@ Necesitará la salida de depuración del conector para ver exactamente qué byte
 
 Envíe diferentes tipos de caracteres especiales al realizar pruebas. Por ejemplo, la codificación GSM7 tiene caracteres extendidos que son muy distintos en su forma hexadecimal; son fáciles de identificar, ya que no aparecen en ninguna otra codificación.
 
-## Elementos que se deben incluir al comunicar sobre un problema de SMS {#element-include}
+## Elementos que se deben incluir al comunicar un problema de SMS {#element-include}
 
 Siempre que busque ayuda sobre un problema de SMS, ya sea abriendo una entrada de asistencia en Adobe Campaign, al proveedor de SMS o cualquier tipo de comunicación sobre el tema, necesitará incluir la siguiente información para asegurarse de que esté debidamente clasificado. Los problemas debidamente clasificados son la clave para que se resuelvan más rápido.
 
