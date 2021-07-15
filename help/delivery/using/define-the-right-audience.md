@@ -6,7 +6,7 @@ content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: c0533148-b027-4158-9b95-8d2df769e963
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ La población objetivo es clave: cree sus listas con cuidado, pruebe sus correos
 
 Aprenda más sobre las poblaciones objetivo [en esta sección](steps-defining-the-target-population.md)
 
-## Selección de la audiencia destino correcta {#target-the-right-audience}
+## Selección de la audiencia de destino correcta {#target-the-right-audience}
 
 Cuando tenga preparado el contenido, debe definir cuidadosamente quién recibirá el mensaje.
 
