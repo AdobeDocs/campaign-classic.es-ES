@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: web-forms
 exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
 source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '702'
 ht-degree: 100%
 
@@ -109,13 +109,13 @@ A continuación, defina la secuenciación de la página cuando una o varias de l
 
 Asimismo, se puede personalizar la secuenciación de la página según los parámetros de inicialización del formulario web o según los valores almacenados en la base de datos. Consulte [Parámetros de URL del formulario](defining-web-forms-properties.md#form-url-parameters).
 
-## Adición de secuencias de comandos {#adding-scripts}
+## Adición de scripts {#adding-scripts}
 
-El objeto **[!UICONTROL Script]** permite introducir una secuencia de comandos JavaScript directamente, por ejemplo para modificar el valor de un campo, recuperar datos de la base de datos o llamar a una API de Adobe Campaign.
+El objeto **[!UICONTROL Script]** permite introducir un script JavaScript directamente, por ejemplo para modificar el valor de un campo, recuperar datos de la base de datos o llamar a una API de Adobe Campaign.
 
 ## Personalización de la página final {#personalizing-the-end-page}
 
-Se debe colocar una página final al final del diagrama. La página final se muestra cuando el usuario hace clic en el botón **[!UICONTROL Approve]** del formulario web.
+Se debe colocar una página final en el extremo del diagrama. La página final se muestra cuando el usuario hace clic en el botón **[!UICONTROL Approve]** del formulario web.
 
 Para personalizar esta página, haga doble clic en **[!UICONTROL End]** e introduzca el contenido de la página en el editor central.
 
