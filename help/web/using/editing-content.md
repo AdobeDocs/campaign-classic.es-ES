@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: editing-html-content
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
 source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1214'
 ht-degree: 100%
 
@@ -135,11 +135,12 @@ Los bloques y campos de personalización solo se pueden insertar en bloques de t
 >* Nueva ventana (_blank)
 >* Ventana actual (_self)
 >* Comportamiento predeterminado del navegador
+
 >
 
 
 
-### Enlace a una URL {#link-to-a-url}
+### Vínculo a una URL {#link-to-a-url}
 
 La opción **Enlace a una URL externa** permite abrir cualquier dirección URL del contenido de origen.
 
@@ -147,7 +148,7 @@ La opción **Enlace a una URL externa** permite abrir cualquier dirección URL d
 
 Introduzca la dirección del vínculo en cuestión en el campo **URL.** El campo URL debe introducirse como: **https://www.myURL.com**.
 
-### Enlace a una aplicación web {#link-to-a-web-application}
+### Vínculo a una aplicación web {#link-to-a-web-application}
 
 La opción **Enlace a una aplicación web** permite acceder a una aplicación web de Adobe Campaign.
 
@@ -157,7 +158,7 @@ Seleccione la aplicación web en el campo correspondiente.
 
 La lista de aplicaciones web sugeridas corresponde a las aplicaciones disponibles en el nodo **[!UICONTROL Resources > Online > Web Applications]**.
 
-### Enlace a una acción {#link-to-an-action}
+### Vínculo a una acción {#link-to-an-action}
 
 La opción **Enlace que define una acción** permite configurar una acción al hacer clic en un elemento de origen.
 
@@ -169,7 +170,7 @@ La opción **Enlace que define una acción** permite configurar una acción al h
 
 ### Eliminación de un vínculo {#delete-a-link}
 
-Cuando se inserta un vínculo, la barra de herramientas ofrece dos nuevos iconos: **Edit link** y **Break the link** que le permiten interactuar con el vínculo creado.
+Cuando se inserta un vínculo, la barra de herramientas ofrece dos nuevos iconos: **Editar vínculo** y **Romper el vínculo**, que le permiten interactuar con el vínculo creado.
 
 * **[!UICONTROL Edit link]** permite mostrar una ventana con todos los parámetros del vínculo.
 * **[!UICONTROL Break the link]** permite eliminar, tras una confirmación, el vínculo y todos los parámetros relacionados.
@@ -200,13 +201,14 @@ Las opciones disponibles son las siguientes:
 >[!NOTE]
 >
 >* Icono **Eliminar**: elimina el bloque y todo su contenido.
->
->* Icono **Duplicar**: duplica el bloque y todos los estilos relacionados con el bloque.
+   >
+   >
+* Icono **Duplicar**: duplica el bloque y todos los estilos relacionados con el bloque.
 
 
 ## Administración de imágenes y animaciones {#managing-images-and-animations}
 
-El editor de contenido permite trabajar con **cualquier tipo de imagen** compatible con los navegadores.
+El editor de contenido digital permite trabajar con **cualquier tipo de imagen** compatible con los navegadores.
 
 >[!CAUTION]
 >
