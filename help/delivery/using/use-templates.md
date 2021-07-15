@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: Uso de plantillas de envíos
+title: Uso de plantillas de envío
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ Las plantillas de envíos ofrecen una mayor eficiencia al proporcionar escenario
 
 Obtenga más información sobre las plantillas de envíos en [esta sección](creating-a-delivery-template.md).
 
-## Introducción a las plantillas de envíos {#gs-templates}
+## Introducción a las plantillas de entregas {#gs-templates}
 
 Una [plantilla de envíos](creating-a-delivery-template.md) le permite definir una vez un conjunto de propiedades técnicas y funcionales que se adaptan a sus necesidades y pueden reutilizarse en futuros envíos. A continuación, puede ahorrar tiempo y estandarizar envíos cuando sea necesario.
 
