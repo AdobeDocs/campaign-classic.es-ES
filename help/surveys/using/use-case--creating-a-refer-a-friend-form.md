@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Crear una encuesta de "recomendar a un amigo"
-description: Obtenga información sobre los pasos para crear un formulario de recomendar a un amigo
+title: Creación de una encuesta “recomendar a un amigo”
+description: Obtenga información sobre los pasos para crear un formulario “recomendar a un amigo”
 audience: web
 content-type: reference
 topic-tags: online-surveys
 exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
 source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '618'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Caso de uso: Creación de un formulario de referencia{#use-case-creating-a-refer-a-friend-form}
+# Caso de uso: creación de un formulario de referencia{#use-case-creating-a-refer-a-friend-form}
 
 En este ejemplo queremos ofrecer una competencia a los destinatarios de la base de datos. El formulario web incluye una sección para introducir respuestas y otra para recomendar a un amigo introduciendo su dirección de correo electrónico.
 
