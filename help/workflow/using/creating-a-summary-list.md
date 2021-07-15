@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: use-cases
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
 source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '974'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Para crear una lista de resumen, se debe seguir estos pasos:
 1. Enriquecimiento de los datos de “Contactos” con un cálculo agregado de la tabla “Compras”.
 1. Creación de la lista de resumen
 
-## Paso 1: Cargue el archivo y reconcilie los datos importados {#step-1--loading-the-file-and-reconciling-the-imported-data}
+## Paso 1: Cargue el archivo y concilie los datos importados {#step-1--loading-the-file-and-reconciling-the-imported-data}
 
 Los datos que se desean cargar son aquellos relacionados con las “Compras” con el siguiente formato:
 
@@ -59,7 +59,7 @@ Estos datos se incluyen en un archivo de texto “Compras.txt”.
 
    La actividad **Carga de datos (archivo)** permite enriquecer la tabla de trabajo del flujo de trabajo con los datos recopilados.
 
-   Para obtener más información sobre esta actividad, consulte [Cargar datos de un archivo](../../platform/using/import-export-workflows.md#loading-data-from-a-file).
+   Para obtener más información sobre esta actividad, consulte [Carga de datos desde un archivo](../../platform/using/import-export-workflows.md#loading-data-from-a-file).
 
 1. Configure la actividad **Recolección de archivos** para recopilar archivos de texto (*.txt) del directorio seleccionado.
 
@@ -110,7 +110,7 @@ Los datos de la tabla de trabajo del flujo de trabajo después de este enriqueci
 
 ![](assets/uc2_enrich_population1.png)
 
-## Paso 2: Escribir datos enriquecidos en la tabla &quot;Compras&quot; {#step-2--writing-enriched-data-to-the--purchases--table}
+## Paso 2: Escriba datos enriquecidos en la tabla “Compras” {#step-2--writing-enriched-data-to-the--purchases--table}
 
 Este paso detalla cómo escribir los datos importados y enriquecidos en la tabla “Purchases”. Para ello, se debe utilizar una actividad **Update data**.
 
@@ -134,7 +134,7 @@ En la actividad **Update date**, se necesita la siguiente configuración:
 
 ![](assets/uc2_enrich_miseajour.png)
 
-## Paso 3: Enriquecimiento de los datos de &quot;contacto&quot; {#step-3--enriching--contact--data-}
+## Paso 3: Enriquezca los datos de “Contacto” {#step-3--enriching--contact--data-}
 
 El esquema “Contacts” está vinculado físicamente al esquema “Purchases”. Esto significa que se puede utilizar otra opción de “Enrichment”: agregar datos vinculados al entorno de filtrado.
 
@@ -170,7 +170,7 @@ Para preparar la lista de resumen, se debe agregar campos desde “Purchases” 
 
    ![](assets/uc2_enrich_enrich8.png)
 
-## Paso 4: Crear y agregar a una lista de resumen {#step-4--creating-and-adding-to-a-summary-list}
+## Paso 4: Cree y añada a una lista de resumen {#step-4--creating-and-adding-to-a-summary-list}
 
 El último paso implica la escritura de todos los datos enriquecidos en una lista.
 
