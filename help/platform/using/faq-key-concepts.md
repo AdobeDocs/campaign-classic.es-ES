@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
 source-git-commit: 8a0535180640c63201d1a59539eac8c91a53cb8b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '876'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ Gracias a la integración con el IMS (Sistema de gestión de identidad de Adobe)
 
 ## ¿Cuál es mi versión de Campaign? {#what-is-my-version-of-campaign-}
 
-Compruebe su [versión y su número integrado](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) en el menú **Help > About...** de la consola del cliente de Campaign.
+Compruebe su [versión y su número integrado](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) en el menú **Ayuda > Acerca de...** de la consola del cliente de Campaign.
 
-## ¿Cuáles son las diferencias entre trabajar On-Premise y en un entorno alojado? {#what-are-the-differences-when-working-on-premise-vs--in-a-hosted-environment-}
+## ¿Cuáles son las diferencias entre trabajar de forma local y en un entorno alojado? {#what-are-the-differences-when-working-on-premise-vs--in-a-hosted-environment-}
 
 Adobe Campaign Classic incluye un conjunto de módulos y opciones. La disponibilidad de estos módulos y su configuración pueden depender del [tipo de implementación](../../installation/using/hosting-models.md) de la instalación: alojado (Managed Services), híbrido o local.
 
@@ -50,7 +50,7 @@ Se trata de un conjunto de derechos y restricciones que autorizan o deniegan:
 
 [Haga clic aquí para obtener más información](../../platform/using/access-management.md) sobre los permisos de usuario.
 
-## ¿Cómo se puede garantizar el cumplimiento de la privacidad con Campaign?  {#how-to-be-gdpr-compliant-with-campaign-}
+## ¿Cómo se puede garantizar el cumplimiento de la privacidad con Campaign? {#how-to-be-gdpr-compliant-with-campaign-}
 
 Adobe Campaign ofrece un conjunto de herramientas que le ayudan a cumplir con la privacidad de RGPD y CCPA.
 
@@ -60,7 +60,7 @@ Consulte [este documento](https://helpx.adobe.com/es/campaign/kb/campaign-privac
 
 Lea [esta sección](../../platform/using/adobe-campaign-workspace.md) para obtener más información sobre los conceptos básicos del espacio de trabajo de Adobe Campaign.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra en espacio de trabajo de Campaign en vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
+![](assets/do-not-localize/how-to-video.png) [Descubra en espacio de trabajo de Campaign en vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html?lang=es)
 
 ## ¿Cómo puedo seleccionar la audiencia de mis mensajes? {#how-can-i-select-the-target-population-of-my-messages-}
 
@@ -82,7 +82,7 @@ Un flujo de trabajo también puede incluir uno o varios operadores por notificar
 
 [Haga clic aquí para obtener más información](../../delivery/using/about-email-channel.md).
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esto en vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)
+![](assets/do-not-localize/how-to-video.png) [Descubra esto en vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html?lang=es)
 
 ## ¿Cómo se envían mensajes SMS? {#how-to-send-sms-messages-}
 
@@ -110,7 +110,7 @@ Obtenga más información sobre la administración de seguimiento en Campaign en
 
 ## ¿Cuáles son las prácticas recomendadas de seguridad (in situ)? {#what-are-security-best-practices--on-premise--}
 
-Lea la [lista de comprobación de la configuración de seguridad](https://helpx.adobe.com/es/campaign/kb/acc-security.html) para descubrir elementos clave, comprobar la configuración de seguridad y reforzar las implementaciones locales.
+Lea la [Lista de comprobación de la configuración de seguridad](https://helpx.adobe.com/es/campaign/kb/acc-security.html) para descubrir elementos clave, comprobar la configuración de seguridad y reforzar las implementaciones locales.
 
 ## ¿Cómo se puede traducir un mensaje de error? {#how-to-translate-an-error-message-}
 
@@ -124,10 +124,10 @@ Obtenga información sobre cómo [crear un formulario web](../../web/using/about
 
 Adobe evalúa constantemente las funcionalidades del producto y planea con el transcurso del tiempo reemplazar las funcionalidades con versiones más potentes o decide reimplementar partes seleccionadas para mejorarlas de cara a futuras expectativas o extensiones. Como Campaign funciona con herramientas de terceros, la compatibilidad se actualiza de forma regular para implementar solamente las versiones compatibles.
 
-[Haga clic aquí para obtener más información](https://helpx.adobe.com/es/campaign/kb/deprecated-and-removed-features.html).
+[Haga clic aquí para obtener más información](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html?lang=es).
 
 ## ¿Hay actualizaciones de documentación nuevas y materiales de ayuda publicados? {#are-there-new-documentation-updates-and-help-materials-released-}
 
-En esta [página](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html) se muestran las actualizaciones más recientes de la documentación de Campaign Classic.
+En esta [página](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=es) se muestran las actualizaciones más recientes de la documentación de Campaign Classic.
 
 También puede consultar las notas técnicas más recientes [en esta página](https://helpx.adobe.com/es/campaign/kb/article-list.html).
