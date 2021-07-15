@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: web-forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
 source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1205'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ La plantilla de formulario se elige durante la creación del formulario. No se p
 
 Los campos de los formularios web se almacenan en la tabla de destinatarios de forma predeterminada. Puede cambiar la tabla utilizada seleccionando una nueva tabla del campo **[!UICONTROL Document type]**. El icono **[!UICONTROL Zoom]** le permite ver el contenido de la tabla seleccionada.
 
-De forma predeterminada, las respuestas se almacenan en la tabla **Answer to a recipient form**.
+De forma predeterminada, las respuestas se almacenan en la tabla **Respuesta a un formulario de destinatario**.
 
 ## Configuración de una página de error {#setting-up-an-error-page}
 
