@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: about-marketing-campaigns
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
 source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1046'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 99%
 
 Adobe Campaign le permite crear, configurar, ejecutar y analizar las campañas de marketing. Todas las campañas de marketing se pueden administrar desde un centro de control unificado.
 
-## Conceptos básicos del espacio de trabajo (Workspace) {#workspace-basics}
+## Conceptos básicos de Workspace {#workspace-basics}
 
 ### Página de inicio {#home-page}
 
-Una vez que se conecte a Adobe Campaign, verá la página principal.
+Una vez que se conecte a Adobe Campaign, verá la página de inicio.
 
 ![](assets/campaign_global_view.png)
 
@@ -34,7 +34,7 @@ El bloque **[!UICONTROL Browsing]** de la pestaña **[!UICONTROL Campaigns]** of
 * **Campaign calendar** (calendario de campañas): calendario de planes, programas de marketing, envíos y campañas. Consulte [Calendario de campañas](#campaign-calendar).
 * **Campaigns** (campañas): acceso a las campañas contenidas en todos los programas de marketing.
 * **Deliveries** (envíos): acceso a los envíos vinculados a las campañas.
-* **Aplicaciones** web: acceso a aplicaciones web (formularios, páginas de aterrizaje, etc.).
+* **Aplicaciones web**: acceso a aplicaciones web (formularios, páginas de destino, etc.)
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ El bloque **[!UICONTROL Browsing]** de la pestaña **[!UICONTROL Campaigns]** of
 >
 >En [esta sección](../../delivery/using/steps-about-delivery-creation-steps.md) se describen todas las funcionalidades relacionadas con canales y envíos.
 
-### Calendario de campañas {#campaign-calendar}
+### Calendario de Campaign {#campaign-calendar}
 
 Cada campaña pertenece a un programa que, a su vez, pertenece a un plan. Se accede a los planes, programas y campañas a través del menú **[!UICONTROL Campaign calendar]** de la pestaña **Campañas**.
 
