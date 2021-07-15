@@ -4,9 +4,9 @@ product: campaign
 title: Documentación del producto de Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: 8a0535180640c63201d1a59539eac8c91a53cb8b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 96%
 
 * **[¿Se conecta a través de IMS/ID de Adobe? Actualice a las últimas compilaciones](technotes/ims-updates.md)**<br/> Si utiliza IMS para conectarse a Campaign, debe actualizar para poder seguir conectándose después del** 30 de junio de 2021.**
 
-* **[Elimine devoluciones graves incorrectas](delivery/using/update-bounce-qualification.md)**<br/> Aprenda a actualizar las devoluciones graves incorrectas tras la interrupción de Apple.
+* **[Quite los mensajes devueltos no válidos incorrectos](delivery/using/update-bounce-qualification.md)**<br/> Aprenda a actualizar los mensajes devueltos no válidos incorrectos tras la interrupción de Apple.
 
 * **[Proteja sus instancias de Campaign](technotes/acc-config-updates.md)**<br/> Actualice a las últimas compilaciones para proteger su plataforma de Campaign.
 
