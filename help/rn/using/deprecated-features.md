@@ -9,7 +9,7 @@ exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '1634'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Este proceso proporciona a los clientes al menos un ciclo de versiones para actu
 
 ## Funciones obsoletas {#deprecated-features}
 
-Esta sección enumera las funciones y capacidades que se han marcado como obsoletas en las últimas versiones de Campaign Classic.
+Esta sección enumera las características y funcionalidades que se han marcado como obsoletas en las últimas versiones de Campaign Classic.
 
 Por lo general, las funciones que se planea eliminar en una versión posterior se definen en primer lugar como obsoletas. Estas funciones y funcionalidades ya no están disponibles para los nuevos clientes de Campaign Classic, o no deben usarse para ninguna implementación nueva. También se eliminan de la documentación del producto.
 
@@ -43,9 +43,9 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
   </tr>
     <tr>
   <td>Conector de datos de Adobe Analytics<br></td>
-   <td><p>A partir de la versión 21.1.3 de Campaign, el Conector de datos de Adobe Analytics queda obsoleto.</p>
+   <td><p>A partir de la versión 21.1.3 de Campaign, el conector de datos de Adobe Analytics queda obsoleto.</p>
    <p>Si utiliza este conector, debe adaptar la implementación en consecuencia. <a href="../../platform/using/adobe-analytics-connector.md">Más información</a></p>
-  <p><em>Fecha de eliminación del objetivo: 1 de marzo de 2022</em></p>
+  <p><em>Fecha de eliminación del destinatario: 1 de marzo de 2022</em></p>
   </td>
  </tr>
     <tr>
@@ -67,7 +67,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
  </tbody> 
 </table>
 
-## Funciones eliminadas {#removed-features}
+## Funcionalidades eliminadas {#removed-features}
 
 Esta sección enumera las funciones y capacidades que se han eliminado de Campaign Classic.
 
@@ -103,7 +103,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
    <td>A partir de la versión 19.1 de Campaign, las API de Campaign Classic están disponibles en una página dedicada. Si utilizó el archivo jsapi.chm heredado, debería consultar la <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">nueva versión en línea</a>.</td>
   </tr> 
   <tr> 
-   <td>Organización de campañas - Marketing predictivo</td>
+   <td>Organización de campañas  - Marketing predictivo</td>
    <td>A partir de la versión 18.10 de Campaign, las funcionalidades de marketing predictivas ya no están disponibles.</td>
   </tr> 
   <tr> 
@@ -132,19 +132,19 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
 
 ## Compatibilidad obsoleta {#deprecated-compatibility}
 
-Los siguientes sistemas son obsoletos para Campaign Classic. Consulte la [Matriz de compatibilidades](../../rn/using/compatibility-matrix.md) para actualizar a una versión más reciente o pasar a un sistema nuevo antes de que finalice el periodo de compatibilidad.
+Los siguientes sistemas son obsoletos para Campaign Classic. Consulte la [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md) para actualizar a una versión más reciente o pasar a un sistema nuevo antes de que finalice el período de compatibilidad.
 
 ### Versión de Adobe Campaign 20.2 {#compat-20-2-release}
 
 A partir de la versión 20.2, los conectores SMS heredados quedan obsoletos. Consulte la sección [Funciones obsoletas](#deprecated-features)
 
-## Fin de compatibilidad {#end-of-compatibility}
+## Fin de la compatibilidad {#end-of-compatibility}
 
 >[!CAUTION]
 >
 >Adobe Campaign Classic es compatible con todos los sistemas y herramientas enumerados en la [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md). Cuando las versiones específicas de estos sistemas y herramientas de terceros llegan al final de su vida útil (EOL) con sus respectivos creadores, Adobe Campaign ya no es compatible con ellas: se anuncian como funciones obsoletas y, después, se eliminan de nuestra matriz de compatibilidad en la versión posterior del producto. Para evitar problemas, compruebe que se encuentra en una versión compatible de cualquier sistema enumerado en la matriz de compatibilidad.
 
-### Consola de cliente {#client-console-eol}
+### Consola del cliente {#client-console-eol}
 
 La consola del cliente de Adobe Campaign Classic ya no se puede ejecutar en los siguientes sistemas, ya que su editor los ha desaprobado. Los clientes que ejecuten la consola de cliente de Campaign en una de estas versiones deben actualizar a la versión más reciente antes de la fecha de eliminación objetivo. Consulte la [matriz de compatibilidades](../../rn/using/compatibility-matrix.md).
 
@@ -180,7 +180,7 @@ A partir de la versión de primavera (19.1), Adobe Campaign deja de ser compatib
 * Java JDK 7. [Más información](http://www.oracle.com/technetwork/java/javase/eol-135779.html)
 * Libre Office 3.5 / 4.3 / 5.x, excepto cuando se incorpora en otra herramienta. [Más información](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
 
-### Motores de bases de datos {#dbe-eol}
+### Motores de las bases de datos {#dbe-eol}
 
 Adobe no admite los siguientes motores de bases de datos, ya que su editor los ha desaprobado. Los clientes que ejecutan estas versiones deben actualizar a la versión más reciente o pasar a otra.
 
