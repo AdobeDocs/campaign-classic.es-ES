@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: sending-emails
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '928'
 ht-degree: 100%
 
@@ -88,7 +88,7 @@ Si el archivo adjunto es un archivo local, seleccione la opción: **[!UICONTROL 
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_01.png)
 
-A continuación, el archivo está disponible en el servidor para asociarlo a los diferentes envíos creados a partir de esta plantilla.
+A continuación, el archivo está disponible en el servidor para asociarlo a las diferentes entregas creadas a partir de esta plantilla.
 
 ### Adjuntar un mensaje personalizado {#attach-a-personalized-message}
 
