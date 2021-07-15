@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: use-cases
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
 source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -53,5 +53,5 @@ Para crear un flujo de trabajo, siga los pasos siguientes:
 
 **Temas relacionados:**
 
-* [Impedir ejecuciones múltiples simultáneas](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)
+* [Prevención de las ejecuciones múltiples simultáneas](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)
 * [Actividad Actualizar datos](../../workflow/using/update-data.md)
