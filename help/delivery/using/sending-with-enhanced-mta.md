@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: sending-emails
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1921'
 ht-degree: 100%
 
 ---
 
-# Envío con el servidor de correo mejorado {#sending-with-enhanced-mta}
+# Envío con el MTA mejorado {#sending-with-enhanced-mta}
 
 El **servidor de correo mejorado de Adobe Campaign** (MTA) proporciona una infraestructura de envío mejorada que ofrece mayor capacidad de entrega, reputación, rendimiento, sistema de informes, gestión de devoluciones, ampliación de IP y administración de la configuración de conexión.
 
@@ -92,7 +92,7 @@ Cualquier envío que se haya preparado antes de actualizar la instancia para uti
 
 Para los clientes que utilizan la funcionalidad de mensajería transaccional de Adobe Campaign, cualquier llamada de API para activar un mensaje de correo electrónico se pondrá en cola durante el corto tiempo de inactividad de la actualización y se intentará cuando se complete la actualización.
 
-## Especificaciones de servidor de correo mejorado {#enhanced-mta-impacts}
+## Especificaciones del MTA mejorado {#enhanced-mta-impacts}
 
 ### Encabezados de servidor de correo mejorado
 
