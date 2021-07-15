@@ -6,7 +6,7 @@ content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Sugerencia: Compruebe la configuración de la administración del tráfico (afin
 
 ## Seguimiento {#tracking-deliveries}
 
-Para conocer mejor el comportamiento de sus destinatarios, puede rastrear cómo reaccionan a un envío: recepción, apertura, clics en enlaces, suscripciones, etc. En Campaign Classic, esta información se muestra en la pestaña Seguimiento de los destinatarios del envío y en la pestaña Seguimiento del envío.
+Para conocer mejor el comportamiento de sus destinatarios, puede rastrear cómo reaccionan a un envío: recepción, apertura, clics en vínculos, suscripciones, etc. En Campaign Classic, esta información se muestra en la pestaña Seguimiento de los destinatarios del envío y en la pestaña Seguimiento del envío.
 
 **Sugerencia**: El seguimiento de mensajes está activado de forma predeterminada. Para configurar direcciones URL, seleccione la opción Mostrar direcciones URL en la sección inferior del asistente de envíos. Por cada dirección URL del mensaje, puede elegir si desea activar el seguimiento.
 
@@ -57,7 +57,7 @@ Para medir la velocidad a la que se entregan los mensajes, puede controlar el re
 
 ## Solución de problemas de entrega {#delivery-troubleshooting}
 
-Se pueden realizar acciones específicas al encontrar problemas con envíos:
+Se pueden realizar acciones específicas al encontrar problemas con las entregas:
 
 * [Problemas de entregas](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 
