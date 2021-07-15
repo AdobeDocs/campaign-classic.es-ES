@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: campaign-optimization
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3253'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Reglas de presión{#pressure-rules}
 
-## Acerca de la fatiga de marketing {#about-marketing-fatigue}
+## Acerca de la fatiga comercial {#about-marketing-fatigue}
 
 La implementación de la gestión de la presión de las ventas permite evitar la saturación de la población de la base de datos, también conocida como fatiga de marketing. Para ello, puede definir un número máximo de mensajes por destinatario. También le permite implementar reglas de mediación entre campañas para enviar el mejor mensaje al público objetivo.
 
@@ -39,7 +39,7 @@ De lo contrario, el destinatario es **[!UICONTROL Excluded by arbitration]**. Pa
 
 ## Creación de una regla de presión {#creating-a-pressure-rule}
 
-Para configurar la mediación entre campañas utilizando Adobe Campaign, comience creando tipologías de campaña y definiendo reglas de tipología vinculadas (Reglas de **presión**).
+Para configurar la mediación entre campañas utilizando Adobe Campaign, comience creando tipologías de campaña y definiendo reglas de tipología vinculadas (reglas de **presión**).
 
 Para crear y configurar una regla de tipología de **[!UICONTROL Pressure]**, siga los siguientes pasos:
 
@@ -137,9 +137,9 @@ En el ejemplo siguiente, queremos vincular el peso de los boletines de noticias 
 
 1. Aplique esta regla a los mensajes con el siguiente asunto: boletines informativos, ofertas especiales, etc. El peso de estos envíos y, por lo tanto, su nivel de prioridad depende de la puntuación de tendencia de cada destinatario.
 
-## Configuración del periodo {#setting-the-period}
+## Configuración del período {#setting-the-period}
 
-Las reglas de presión se definen en periodos de desplazamiento de **n** días.
+Las reglas de presión se definen en los períodos de desplazamiento de **n** días.
 
 El periodo se configura en la pestaña **[!UICONTROL Pressure]** de la regla. Puede especificar el número de días y, si es necesario, seleccionar el tipo de agrupación que desea aplicar (día, semana, mes, trimestre, etc.).
 
@@ -154,12 +154,14 @@ Por ejemplo, una regla de presión que define un umbral de 2 mensajes por semana
 >
 >* Introducir **15d** en el campo **[!UICONTROL Concerned period]**: se tiene en cuenta en el cálculo las entregas realizadas hasta dos semanas antes de la fecha de entrega a la que se aplica la norma.
 >
->  o
+>  
+o
 >
 >* Escriba **7d** en el campo **[!UICONTROL Period considered]** Y marque **[!UICONTROL Take the deliveries into account in the provisional calendar]**\
->: En el cálculo se tienen en cuenta las entregas realizadas hasta 7 días antes de la fecha de entrega y programados hasta 7 días después de la fecha de entrega en los que se aplica la regla.
+   >: En el cálculo se tienen en cuenta las entregas realizadas hasta 7 días antes de la fecha de entrega y programados hasta 7 días después de la fecha de entrega en los que se aplica la regla.
 >
->La fecha de inicio depende de cómo se haya configurado la base de datos.
+>
+La fecha de inicio depende de cómo se haya configurado la base de datos.
 
 Por ejemplo, si aplica una regla de presión de 15 días sin agrupar a una entrega con fecha del 11/12, las entregas se tendrán en cuenta entre el 27/11 y el 12/12. Si la regla de presión tiene en cuenta las entregas del calendario provisional, se tienen en cuenta todas las entregas programadas entre el 27/11 y el 27/12. Por último, si configura un grupo por mes del calendario en la regla, el umbral de cálculo tiene en cuenta todas las entregas de noviembre y diciembre (del 1/11 al 31/12).
 
@@ -216,7 +218,7 @@ Si este número supera el umbral, se aplican las reglas de mediación definidas 
 
 ### Adaptación del umbral según el criterio {#adapting-the-threshold-based-on-criterion}
 
-Queremos crear una regla de tipología para evitar la entrega de más de 4 mensajes por semana a los clientes y de más de 2 mensajes por semana a los posibles clientes.
+Queremos crear una regla de tipología para evitar la entrega de más de cuatro mensajes por semana a los clientes y de más de dos mensajes por semana a los posibles clientes.
 
 Para identificar clientes y clientes potenciales, utilice el campo **[!UICONTROL Status]**, que contiene 0 para los clientes potenciales y 1 para los clientes.
 
@@ -284,7 +286,7 @@ Durante el análisis de la entrega, los destinatarios de la entrega se excluyen 
 
    ![](assets/campaign_opt_pressure_sample_1_10.png)
 
-### Cálculo del peso de envío según el comportamiento {#calculating-the-delivery-weight-based-on-behavior}
+### Cálculo del peso de la entrega según el comportamiento {#calculating-the-delivery-weight-based-on-behavior}
 
 Puede definir reglas de presión basadas en el comportamiento del destinatario: por lo tanto, el peso de una entrega se puede adaptar a criterios que varían de un destinatario a otro. Por ejemplo: puede decidir enviar un mensaje dependiendo de si un destinatario visitó su sitio de Internet, hizo clic en una sección específica del último boletín, se suscribió a un servicio de información o incluso en función de las respuestas a un estudio, un juego en línea, etc.
 
