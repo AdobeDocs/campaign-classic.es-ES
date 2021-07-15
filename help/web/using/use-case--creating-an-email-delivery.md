@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: editing-html-content
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
 source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '734'
 ht-degree: 100%
 
 ---
 
-# Ejemplo de uso: creación de un envío por correo electrónico{#use-case-creating-an-email-delivery}
+# Ejemplo de uso: creación de una entrega por correo electrónico{#use-case-creating-an-email-delivery}
 
 En este caso de uso, aprenderá los pasos para diseñar una entrega por correo electrónico con el Editor de contenido digital (DCE) de Adobe Campaign.
 
@@ -44,7 +44,7 @@ Seleccione una plantilla de envío y asigne un nombre a la entrega. Este nombre 
 
 ## Paso 3: Selección de contenido {#step-3---selecting-a-content}
 
-El editor de contenido incluye varias plantillas predeterminadas con distintas estructuras (columnas, áreas de texto, etc.).
+El editor de contenido digital incluye varias plantillas predeterminadas con distintas estructuras (columnas, áreas de texto, etc.).
 
 Seleccione la plantilla de contenido que desea utilizar y haga clic en el botón **[!UICONTROL Start with the selected content]** para mostrar la plantilla en la entrega creada.
 
