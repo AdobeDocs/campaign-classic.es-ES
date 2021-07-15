@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: online-surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
 source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '841'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Además de los modos de almacenamiento estándar comunes a todos los formularios
 >
 >Esta opción está disponible solo para las aplicaciones web de tipo **Encuesta.** No se ofrece para otros tipos de formularios Web.
 
-### Almacenar en un campo archivado {#storing-in-an-archived-field}
+### Almacenamiento en un campo archivado {#storing-in-an-archived-field}
 
 Es fácil ampliar la plantilla de datos mediante la adición de nuevos espacios de almacenamiento para guardar las respuestas que se proporcionan en las encuestas. Para ello, seleccione la opción **[!UICONTROL Store answers to a question]** al crear el campo de entrada. Haga clic en el vínculo **[!UICONTROL New field...]** y proporcione sus propiedades:
 
@@ -97,15 +97,15 @@ Para cada formulario, las respuestas proporcionadas pueden utilizarse en campos 
 >
 >Para otros tipos de campos, la sintaxis se detalla en [esta sección](../../platform/using/about-queries-in-campaign.md).
 
-### Ajustes de almacenamiento {#storage-settings}
+### Configuración de almacenamiento {#storage-settings}
 
-Puede archivar las respuestas a las encuestas en formato XML. Esto permite guardar una copia sin procesar de las respuestas recopiladas, lo que puede resultar útil en caso de una estandarización excesiva de los datos en una lista desglosada. [Más información](../../surveys/using/publish--track-and-use-collected-data.md#standardizing-data)
+Puede archivar las respuestas a las encuestas en formato XML. Esto le permite guardar una copia sin procesar de las respuestas recopiladas, lo que puede resultar útil en caso de una estandarización excesiva de los datos en una lista desglosada. [Más información](../../surveys/using/publish--track-and-use-collected-data.md#standardizing-data)
 
 >[!CAUTION]
 >
->El archivado de las respuestas sin procesar afecta al espacio de almacenamiento necesario. Utilice esta opción con precaución.
+>El archivado de las respuestas sin procesar aumenta considerablemente el espacio de almacenamiento necesario. Utilice esta opción con cuidado.
 
-Para ello:
+Para ello, haga lo siguiente:
 
 * En la pestaña **[!UICONTROL Properties]**, edite las propiedades de la encuesta con el botón **[!UICONTROL Edit]**.
 * Haga clic en el vínculo **[!UICONTROL Advanced parameters]** y marque la opción **[!UICONTROL Save a copy of raw answers]**.
