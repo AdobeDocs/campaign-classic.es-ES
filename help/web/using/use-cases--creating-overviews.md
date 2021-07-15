@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: web-applications
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
 source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '948'
 ht-degree: 100%
 
 ---
 
-# Ejemplos de uso: creación de páginas de información general{#use-cases-creating-overviews}
+# Casos de uso: Creación de páginas de información general{#use-cases-creating-overviews}
 
 En el siguiente ejemplo, se crean aplicaciones web de tipo “descripción general” para visualizar todas las que se encuentren en la base de datos. Configure los siguientes elementos:
 
