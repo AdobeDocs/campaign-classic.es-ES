@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '880'
 ht-degree: 100%
 
@@ -98,13 +98,13 @@ Una vez finalizado el análisis, los datos de personalización se almacenan en u
 
 Este flujo de trabajo no es visible desde la interfaz de Adobe Campaign. Solo pretende ser un medio técnico para almacenar y gestionar rápidamente los datos de personalización.
 
-Una vez completado el análisis, vaya al flujo de trabajo **[!UICONTROL Properties]** y seleccione la pestaña **[!UICONTROL Variables]**. Se puede ver el nombre de la tabla temporal que se puede utilizar para realizar una llamada SQL con el fin de mostrar las ID que contiene.
+Una vez completado el análisis, vaya al flujo de trabajo **[!UICONTROL Properties]** y seleccione la pestaña **[!UICONTROL Variables]**. Se puede ver el nombre de la tabla temporal que puede utilizar para realizar una llamada SQL con el fin de mostrar los ID que contiene.
 
 ![](assets/perso_optimization_temp_table.png)
 
-## Fase de personalización de tiempo de espera {#timing-out-personalization}
+## Fase de personalización del tiempo de espera {#timing-out-personalization}
 
-Para mejorar la protección de la entrega, puede establecer un periodo de espera para la fase de personalización.
+Para mejorar la protección de la entrega, puede establecer un período de espera para la fase de personalización.
 
 En la pestaña **[!UICONTROL Delivery]** de **[!UICONTROL Delivery properties]**, seleccione un valor máximo en segundos para la opción **[!UICONTROL Maximum personalization run time]**.
 
