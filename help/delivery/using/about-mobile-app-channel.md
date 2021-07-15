@@ -73,7 +73,7 @@ El usuario descarga la aplicación móvil desde la App Store o desde Google Play
 
 ![](assets/nmac_register_view.png)
 
-### Paso 2: Envío {#step-2--delivery}
+### Paso 2: Entrega {#step-2--delivery}
 
 Los especialistas en marketing se dirigen a los suscriptores de la aplicación. El proceso de envío envía la configuración de conexión al servicio de notificaciones (certificado de iOS y clave de proyecto para Android), el ID de notificación (ID de push) y el contenido de la notificación. El servicio de notificaciones envía notificaciones a los terminales de destino.
 
