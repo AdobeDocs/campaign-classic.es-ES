@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: content-management
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ El diseño se aplica automáticamente en función de la configuración seleccion
 
 ![](assets/s_ncs_content_deliver_a_content_html.png)
 
-Para obtener más información sobre esto, consulte el ejemplo de implementación completa: [Creación de contenido en el asistente de envío](use-case--creating-content-management.md#creating-content-in-the-delivery-wizard).
+Para obtener más información sobre esto, consulte el ejemplo de implementación completa: [Creación de contenido en el asistente de envíos](use-case--creating-content-management.md#creating-content-in-the-delivery-wizard).
 
 ## Creación de una instancia de contenido {#creating-a-content-instance}
 
