@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: tracking-messages
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
 source-git-commit: 98bbbb36c9f8156cc34e826a024ff6e6e3f3fee3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '582'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -25,8 +25,8 @@ El seguimiento se aplica a los mensajes, pero el seguimiento web permite control
 
 Se recomienda enfáticamente incluir direcciones URL en delimitadores en la pestaña **[!UICONTROL Text content]** antes de aplicar la fórmula de seguimiento. Adobe Campaign utiliza los delimitadores de URL que introduce en esta pestaña para identificar las direcciones URL dentro de las cadenas de caracteres. Puede utilizar estos pares de delimitadores:
 * Paréntesis ( )
-* Brackets [ ]
-* Braces { }
+* Corchetes cuadrados [ ]
+* Corchetes { }
 
 En este ejemplo, la dirección URL https://www.adobe.com va seguida de un punto y coma. Los clientes de correo electrónico del destinatario pueden interpretar el punto y coma como parte de la dirección URL. Como resultado, el vínculo puede estar roto. Para evitar este problema, puede incluir la URL en delimitadores de una de las siguientes maneras:
 * (https://www.adobe.com);
