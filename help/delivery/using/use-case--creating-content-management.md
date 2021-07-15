@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: content-management
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1173'
 ht-degree: 100%
 
 ---
 
-# Caso de uso: Creación de administración de contenido{#use-case-creating-content-management}
+# Caso de uso: creación de administración de contenido{#use-case-creating-content-management}
 
 Para crear la gestión de contenido en Adobe Campaign, siga los siguientes pasos:
 
