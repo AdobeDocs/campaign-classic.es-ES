@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: online-surveys
 exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
 source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '916'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,15 +19,15 @@ A continuación se muestra una breve descripción general de los pasos principal
 
 ![](assets/s_ncs_admin_survey_result.png)
 
-Estos pasos son:
+Estos pasos son los siguientes:
 
 1. [Paso 1: Creación de una encuesta](#step-1---creating-a-survey),
-1. [Paso 2: Seleccione la plantilla](#step-2---selecting-the-template),
-1. [Paso 3: Cree la encuesta](#step-3---building-the-survey),
-1. [Paso 4: Creación de una página de contenido](#step-4---creating-the-page-content),
-1. [Paso 5: Almacenamiento de los datos](#step-5---storing-the-survey-data-) de la encuesta,
+1. [Paso 2: Selección de la plantilla](#step-2---selecting-the-template),
+1. [Paso 3: Generación de una encuesta](#step-3---building-the-survey),
+1. [Paso 4: Creación del contenido de la página](#step-4---creating-the-page-content),
+1. [Paso 5: Almacenamiento de los datos de la encuesta](#step-5---storing-the-survey-data-),
 1. [Paso 6: Publicación de las páginas](#step-6---publishing-the-pages),
-1. [Paso 7: Comparta la encuesta](#step-7---sharing-your-online-survey) en línea.
+1. [Paso 7: Compartir la encuesta en línea](#step-7---sharing-your-online-survey).
 
 ## Paso 1: Creación de una encuesta {#step-1---creating-a-survey}
 
@@ -58,13 +58,13 @@ Una encuesta debe contener **al menos** los tres componentes siguientes: una pá
 
    ![](assets/s_ncs_admin_survey_end.png)
 
-## Paso 4: Creación de una página de contenido {#step-4---creating-the-page-content}
+## Paso 4: Creación del contenido de una página {#step-4---creating-the-page-content}
 
 En el siguiente ejemplo se utiliza una página de tipo **[!UICONTROL Page (v5 compatibility)]**. Se accede a este tipo de página a través del menú avanzado de la pestaña **[!UICONTROL Edit]**.
 
 ![](assets/s_ncs_admin_survey_pagev5.png)
 
-* **Adición de campos de entrada**
+* **Adición de los campos de entrada**
 
    Para crear el contenido de la página, debe editarlo; para hacerlo, haga doble clic en el objeto **[!UICONTROL Page]**. Haga clic en el primer icono de la barra de herramientas para abrir el asistente de creación de campos. Para crear un campo de entrada para almacenar el nombre de usuario en el campo correspondiente del perfil del destinatario, seleccione **[!UICONTROL Edit a recipient]**.
 
@@ -84,7 +84,7 @@ En el siguiente ejemplo se utiliza una página de tipo **[!UICONTROL Page (v5 co
 
    Aplique el mismo procedimiento para añadir un campo para que el usuario introduzca una dirección de correo electrónico.
 
-* **Crear una pregunta**
+* **Creación de una pregunta**
 
    Para crear una pregunta, haga clic con el botón derecho en el último elemento del árbol y seleccione **[!UICONTROL Containers > Question]** o haga clic en el icono **[!UICONTROL Containers]** y seleccione **[!UICONTROL Question]**.
 
