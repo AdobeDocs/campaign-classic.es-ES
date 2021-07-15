@@ -6,7 +6,7 @@ content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1278'
 ht-degree: 100%
 
@@ -154,7 +154,7 @@ Para que sean accesibles desde el exterior, las imágenes utilizadas en los mens
 
 ## Previsualice el mensaje {#preview-msg}
 
-Adobe recomienda previsualizar el mensaje para comprobar su personalización y cómo verán su envío sus destinatarios.
+Adobe recomienda previsualizar el mensaje para comprobar su personalización y cómo verán los destinatarios su entrega.
 
 * En el asistente de envíos, la subpestaña **[!UICONTROL Preview]** permite ver la renderización de cada contenido para un destinatario. Los campos personalizados y los elementos condicionales del contenido se sustituyen por la información correspondiente del perfil seleccionado. [Más información](defining-the-email-content.md#message-content)
 
