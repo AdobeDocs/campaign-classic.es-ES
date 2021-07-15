@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
 source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '194'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Acerca de la Adobe ID{#about-adobe-id}
+# Acerca de Adobe ID{#about-adobe-id}
 
 Adobe Identity Management System (IMS) ayuda a los administradores a crear y administrar el acceso del usuario a aplicaciones y servicios. Para obtener más información sobre los distintos tipos de ID de Adobe, consulte [esta página](https://helpx.adobe.com/es/enterprise/using/identity.html).
 
@@ -36,7 +36,7 @@ Los usuarios de la campaña pueden conectarse a la consola de Adobe Campaign con
 * [Campaign 19.2.4](../../rn/using/release--19-2.md)
 * [Campaign 19.1.8](../../rn/using/release--19-1.md)
 
-[!DNL :bulb:] [Más información sobre las actualizaciones de IMS](../../technotes/ims-updates.md)
+[!DNL :bulb:] [Obtenga más información sobre las actualizaciones de IMS](../../technotes/ims-updates.md)
 
 
 ## Más recursos
