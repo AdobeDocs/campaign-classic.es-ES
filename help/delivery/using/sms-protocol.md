@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: configuring-channels
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8433'
 ht-degree: 100%
 
@@ -244,13 +244,13 @@ Hay dos maneras de enviar mensajes largos:
 
 Consulte la descripción de los campos `esm_class`, `short_message` y `message_payload` de la [SUBMIT_SM PDU](sms-protocol.md#information-pdu) para obtener más detalles sobre el protocolo y los formatos.
 
-### Límite de rendimiento y ventanas {#throughput-capping}
+### Límite de rendimiento y basado en ventanas {#throughput-capping}
 
 La mayoría de los proveedores requieren un límite de rendimiento para cada conexión SMPP. Esto se puede lograr estableciendo un número de SMS en la cuenta externa. Tenga en cuenta que la limitación del rendimiento se produce por conexión, el rendimiento efectivo total es el límite por conexión multiplicado por el número total de conexiones. Esto se detalla en la sección [Conexiones simultáneas](sms-protocol.md#connection-settings).
 
 Para alcanzar el máximo rendimiento posible, tendrá que ajustar la ventana de envío máxima. La ventana de envío es el número de `SUBMIT_SM PDU` que se puede enviar sin esperar a `SUBMIT_SM_RESP`. Consulte la sección [Configuración de la ventana de envío](sms-protocol.md#throughput-timeouts) para obtener más detalles.
 
-### SR y administración de errores (&quot;Apéndice B&quot;) {#sr-error-management}
+### SR y administración de errores (“Apéndice B”) {#sr-error-management}
 
 El protocolo SMPP define errores sincrónicos estándar en `RESP PDU`, pero no define códigos de error para SR. Cada proveedor utiliza sus propios códigos de error con su significado.
 
@@ -427,7 +427,7 @@ En Adobe Campaign Classic, la salida de registro se encuentra en el registro MTA
 
 ### Configuración de conexión del receptor {#receiver-connection}
 
-Esta sección solo está visible en el modo separado **transmisor+receptor**.
+Esta sección solo está visible en el modo separado **transmisor + receptor**.
 
 #### Usar parámetros diferentes para el receptor {#receiver-parameters}
 
@@ -535,7 +535,7 @@ Cuando se pierde la conexión TCP, el conector esperará este número de segundo
 
 Tiempo de espera entre `SUBMIT_SM` y su coincidencia `SUBMIT_SM_RESP`. Si el `RESP` no se recibe a tiempo, el mensaje se considerará fallido y se aplicará la política de reintentos global del MTA.
 
-#### Tiempo de espera de enlace {#bind-timeout}
+#### Tiempo de espera de vínculo {#bind-timeout}
 
 Tiempo de espera entre el intento de conexión TCP y la respuesta `BIND_*_RESP`. Cuando se agota el tiempo de espera, la conexión se cierra mediante el conector de Adobe Campaign y esperará tiempo antes de volver a conectarse antes de intentarlo de nuevo.
 
@@ -784,7 +784,7 @@ Al enviar partes de envío, el MTA genera elementos secundarios de MTA. El núme
 
 El proceso del SMS solo procesa SR, se conecta al proveedor y deja la conexión abierta. El proceso se vuelve a conectar cada 10 minutos para volver a cargar la nueva configuración, lo cual es normal.
 
-### Entradas de MT, SR y &quot;broadlog&quot; que coinciden {#matching-mt}
+### Entradas de MT, SR y “broadlog” que coinciden {#matching-mt}
 
 Se utiliza una tabla intermedia `nmsProviderMsgId` para almacenar los datos de MT y SR temporalmente antes de enviarse asincrónicamente al &quot;broadlog&quot;.
 
@@ -814,13 +814,13 @@ Cada elemento secundario de MTA crea una cantidad configurable de conexiones, po
 
 Esta lista de verificación le proporciona una lista de las cosas que debe comprobar antes de empezar a usarlo. Una configuración incompleta puede provocar muchos problemas.
 
-### Compruebe si hay conflictos en la cuenta externa {#external-account-conflict}
+### Comprobación de conflictos en la cuenta externa {#external-account-conflict}
 
 Compruebe que no tiene cuentas externas de SMS antiguas. Si deja desactivada la cuenta de prueba, corre el riesgo de que se vuelva a habilitar en el sistema de producción y se generen posibles conflictos.
 
 Si tiene varias cuentas en la misma instancia de Adobe Campaign que se conectan al mismo proveedor, póngase en contacto con el proveedor para asegurarse de que realmente se distinguen las conexiones entre estas cuentas. Si tiene varias cuentas con el mismo inicio de sesión necesita una configuración adicional.
 
-### Habilite los seguimientos detallados del SMPP durante las comprobaciones {#enable-verbose}
+### Habilitación de los seguimientos detallados del SMPP durante las comprobaciones {#enable-verbose}
 
 Siempre debe habilitar los seguimientos detallados del SMPP durante las comprobaciones.
 Incluso si no puede comprobar los registros usted mismo, será más fácil para el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) ayudarle.
@@ -854,7 +854,7 @@ Verifique que `BIND_* PDUs` se envíen correctamente. Lo más importante que hay
 
 Compruebe que no hay demasiadas `BIND_* PDU`. Si hay demasiados, podría indicar que la conexión es inestable. Consulte la sección [Problemas con conexiones inestables](sms-protocol.md#issues-unstable-connection) para obtener más información.
 
-#### INQUIRE_LINK {#enquire-link-pdus}
+#### ENQUIRE_LINK {#enquire-link-pdus}
 
 Compruebe que las `ENQUIRE_LINK PDU` se intercambian regularmente cuando la conexión está inactiva.
 
