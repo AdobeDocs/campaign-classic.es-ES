@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
 source-git-commit: 9a126d16b394333163b974ad9690f7c93fb3034a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '692'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ La clave privada tiene un formato no válido.
 1. Compruebe que la clave esté encriptada en la misma instancia.
 1. Compruebe que authPrivateKey del archivo de configuración coincida con la clave generada. <br>Asegúrese de utilizar OpenSSL para generar el par de claves. PuttyGen, por ejemplo, no genera el formato adecuado.
 
-**La canalización produce el error &quot;ya no se permite obtener el token de acceso&quot;**
+**La canalización produce el error “ya no se permite obtener el token de acceso”**
 
 Los registros deben ser los siguientes:
 
@@ -65,7 +65,7 @@ Los registros deben ser los siguientes:
 2021-05-31T08:43:09.160Z        66462   66501   1       error   log     Error while authenticating: '{"error":"This client: df73c224e5-triggers-test is no longer allowed to get access token."}' (iRc=16384)
 ```
 
-Este mensaje de error significa que la autenticación se configura con el OAuth base heredado de Omniture. Consulte la documentación de [Configuración del Adobe I/O para Adobe Experience Cloud Triggers](../../integrations/using/configuring-adobe-io.md) para actualizar la autenticación.
+Este mensaje de error significa que la autenticación se configura con el OAuth base heredado de Omniture. Consulte la documentación de [Configuración de Adobe I/O para activadores de Adobe Experience Cloud](../../integrations/using/configuring-adobe-io.md) para actualizar la autenticación.
 
 **No se recuperaron activadores**
 
