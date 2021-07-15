@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Introducción a la gestión de recursos de marketing
-description: Descubra la administración de recursos de marketing
+description: Acerca de la gestión de recursos de marketing
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 8cf4d30d-f914-438d-8836-030202b6a449
 source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -33,13 +33,13 @@ En el contexto de la gestión de recursos de marketing de Adobe Campaign, los si
 
    Una tarea corresponde a una acción que se va a llevar a cabo en el contexto de una campaña. Una tarea se asigna a un grupo o a una persona. Una tarea secundaria puede depender de una tarea principal, lo que significa que la tarea principal no se realiza hasta que se hayan completado todas las tareas secundarias. Algunos ejemplos de tareas incluyen: referencia a un sitio Web, revisión de presupuesto, informe, etc.
 
-   Para obtener más información sobre esto, consulte [Crear y administrar tareas](../../mrm/using/creating-and-managing-tasks.md).
+   Para obtener más información sobre esto, consulte [Creación y administración de tareas](../../mrm/using/creating-and-managing-tasks.md).
 
 * **Recursos de marketing**
 
    Adobe Campaign permite realizar un seguimiento del progreso de los proyectos de marketing de colaboración como, por ejemplo, medios de comunicación, planes de acciones, boletines informativos, etc. El ciclo de creación y aprobación de estos recursos de marketing se puede rastrear desde el panel de recursos hasta su publicación.
 
-   Para obtener más información, consulte [Administrar recursos de marketing](../../mrm/using/managing-marketing-resources.md).
+   Para obtener más información, consulte [Administración de recursos de marketing](../../mrm/using/managing-marketing-resources.md).
 
 >[!NOTE]
 >
