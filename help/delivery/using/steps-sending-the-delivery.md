@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1521'
 ht-degree: 100%
 
@@ -61,9 +61,9 @@ Después de enviar mensajes, puede monitorizar y realizar un seguimiento de las 
 * [Comprensión de los errores de entrega](understanding-delivery-failures.md)
 * [Acerca del seguimiento de mensajes](about-message-tracking.md)
 
-## Programación de los envíos {#scheduling-the-delivery-sending}
+## Programación de los envíos de entregas {#scheduling-the-delivery-sending}
 
-Puede retrasar la entrega de mensajes para programar su fecha o manejar la presión de ventas y evitar solicitar en exceso a una población.
+Puede retrasar la entrega de mensajes para programar su fecha o administrar la presión de ventas y evitar solicitar en exceso a una población.
 
 1. Haga clic en el botón **[!UICONTROL Send]** y seleccione la opción **[!UICONTROL Postpone delivery]**.
 
@@ -181,7 +181,7 @@ De manera predeterminada, se programan cinco reintentos para el primer día de l
 
 ## Definición del periodo de validez {#defining-validity-period}
 
-Una vez iniciado la entrega, se pueden enviar los mensajes (y los reintentos) hasta la fecha límite de entrega. Esto se indica en las propiedades de envío a través de la pestaña **[!UICONTROL Validity]**.
+Una vez iniciada la entrega, se pueden enviar los mensajes (y los reintentos) hasta la fecha límite de entrega. Esto se indica en las propiedades de envío a través de la pestaña **[!UICONTROL Validity]**.
 
 ![](assets/s_ncs_user_email_del_valid_period.png)
 
