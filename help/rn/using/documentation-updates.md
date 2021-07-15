@@ -9,7 +9,7 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '4456'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -294,7 +294,7 @@ La sección de instalación de Spam Assassin se ha actualizado con el nuevo nomb
 
 Se ha actualizado la sección sobre la duplicación de entornos. [Más información](../../production/using/duplicating-environments.md#step-2---export-the-target-environment-configuration--dev-)
 
-## Mayo 2020 {#may-2020}
+## Mayo de 2020 {#may-2020}
 
 Se ha movido y mejorado la sección Monitorización de la capacidad de envío. [Más información](../../delivery/using/monitoring-deliverability.md)
 
@@ -306,7 +306,7 @@ Se ha movido y actualizado la sección Envío de correos electrónicos transacci
 
 Se ha movido y actualizado la sección Prácticas recomendadas del paquete de datos. [Más información](../../platform/using/working-with-data-packages.md#data-package-best-practices)
 
-## de abril de 2020 {#april-2020}
+## Abril de 2020 {#april-2020}
 
 La tabla de derechos de FDA se ha movido a la documentación de Acceso a una base de datos externa (FDA). [Más información](../../installation/using/remote-database-access-rights.md)
 
@@ -460,7 +460,7 @@ La documentación del Panel de control se ha integrado en el nuevo conjunto de d
 
 Se ha actualizado la guía de introducción a las prácticas recomendadas de entrega. [Más información](../../delivery/using/delivery-best-practices.md)
 
-## de octubre de 2019 {#october-2019}
+## Octubre de 2019 {#october-2019}
 
 Se ha actualizado la lista de mensajes de error para Campaign. [Más información](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
 
@@ -484,11 +484,11 @@ Se ha agregado una nueva página para proporcionar directrices generales para ma
 
 La información relacionada con la monitorización de flujos de trabajo se ha centralizado en una nueva sección dedicada. [Más información](../../workflow/using/monitoring-workflow-execution.md).
 
-Se ha añadido una nueva página sobre las directrices generales para el seguimiento en Adobe Campaign Classic. [Más información](https://helpx.adobe.com/es/campaign/kb/acc-tracking.html).
+Se ha añadido una nueva página sobre las directrices generales para el seguimiento en Adobe Campaign Classic. [Más información](https://helpx.adobe.com/campaign/kb/acc-tracking.html?lang=es).
 
 Se han actualizado las prácticas recomendadas para mejorar el rendimiento de los flujos de trabajo y las entregas. [Obtenga más información sobre los flujos de trabajo](../../workflow/using/workflow-best-practices.md) y [más sobre las entregas](../../delivery/using/delivery-performances.md#best-practices-performance).
 
-## Mayo 2019 {#release-19-1}
+## Mayo de 2019 {#release-19-1}
 
 **Nuevas funciones incluidas en la versión 19.1**
 
@@ -567,7 +567,7 @@ Se ha actualizado la Guía de cambio de tamaño de hardware de Campaign. [Más i
 
 Se agregó información sobre la Banda de consultas para la cuenta externa de Teradata. [Más información](../../installation/using/external-accounts.md)
 
-## de enero de 2019{#release-doc-16-01-2019}
+## Enero de 2019{#release-doc-16-01-2019}
 
 Se ha actualizado la nota técnica Marketing Cloud Triggers. [Más información](../../integrations/using/about-triggers.md)
 
