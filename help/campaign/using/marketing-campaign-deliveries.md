@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1487'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Entregas de campañas de marketing {#marketing-campaign-deliveries}
 
-las entregas se pueden crear a través del panel de la campaña, un flujo de trabajo de la campaña o directamente a través de la descripción general de las entregas.
+Las entregas se pueden crear a través del tablero de la campaña, un flujo de trabajo de la campaña o directamente a través de la descripción general de las entregas.
 
 Cuando se crean a partir de una campaña, las entregas se vincularán a esta campaña y se consolidarán en el nivel de la campaña.
 
@@ -23,13 +23,13 @@ Cuando se crean a partir de una campaña, las entregas se vincularán a esta cam
 
 ## Creación de envíos {#creating-deliveries}
 
-Para crear una entrega vinculada a una campaña, haga clic en el enlace **[!UICONTROL Add a delivery]** en el panel de la campaña.
+Para crear una entrega vinculada a una campaña, haga clic en el vínculo **[!UICONTROL Add a delivery]** en el tablero de la campaña.
 
 ![](assets/campaign_op_add_delivery.png)
 
 Las configuraciones sugeridas se adecúan a los diferentes tipos de envío: correo postal, correo electrónico, canales móviles. [Más información](../../delivery/using/steps-about-delivery-creation-steps.md).
 
-## Inicio de envíos {#starting-a-delivery}
+## Inicio de entregas {#starting-a-delivery}
 
 Una vez que se hayan realizado todas las aprobaciones, la entrega está listo para ser iniciado. El procedimiento de envío depende del tipo de envío. Para las entregas por correo electrónico o por canal móvil, consulte [Inicio de una entrega en línea](#starting-an-online-delivery) y para las entregas por correo directo, consulte [Inicio de una entrega sin conexión](#starting-an-offline-delivery).
 
@@ -155,7 +155,7 @@ En el panel, los documentos asociados a la campaña se agrupan en la sección **
 
 También pueden editarse y modificarse desde esta vista.
 
-### Asociación y estructuración de recursos vinculados a través de una descripción de envío {#associating-and-structuring-resources-linked-via-a-delivery-outline}
+### Asociación y estructuración de recursos vinculados a través de una descripción del envío {#associating-and-structuring-resources-linked-via-a-delivery-outline}
 
 >[!NOTE]
 >
@@ -203,7 +203,7 @@ Una descripción puede contener elementos y campos de personalización, recursos
 
    >[!NOTE]
    >
-   >Para obtener más información sobre los recursos de mercadotecnia, consulte [Administración de recursos de marketing](../../mrm/using/managing-marketing-resources.md).
+   >Para obtener más información sobre los recursos de marketing, consulte [Administración de recursos de marketing](../../mrm/using/managing-marketing-resources.md).
 
 #### Selección de una descripción {#selecting-an-outline}
 
