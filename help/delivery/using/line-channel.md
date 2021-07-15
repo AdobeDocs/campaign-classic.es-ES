@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1162'
 ht-degree: 100%
 
@@ -87,7 +87,7 @@ Después de crear el servicio de [!DNL LINE], debe configurar la cuenta externa 
 
 [!DNL LINE] ahora está configurado en Adobe Campaign; puede empezar a crear y enviar entregas de LINE a los suscriptores.
 
-## Creación de entregas de LINE {#creating-the-delivery}
+## Creación de entregas LINE {#creating-the-delivery}
 
 >[!NOTE]
 >
