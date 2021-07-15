@@ -7,15 +7,15 @@ content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Creación de notificaciones para iOS{#create-notifications-ios}
 
-Esta sección detalla los elementos específicos para la entrega de notificaciones de iOS. En [esta sección](steps-about-delivery-creation-steps.md) se exponen conceptos globales sobre la creación de envíos.
+En esta sección se detallan los elementos específicos para la entrega de notificaciones en iOS. En [esta sección](steps-about-delivery-creation-steps.md) se exponen conceptos globales sobre la creación de envíos.
 
 Comience creando una nueva entrega.
 
@@ -49,7 +49,7 @@ Para crear una notificación push para dispositivos iOS, siga los pasos a contin
 
    >[!NOTE]
    >
-   >El modo **Silent Push** permite enviar una notificación &quot;silenciosa&quot; a una aplicación móvil. No se avisa al usuario de la llegada de la notificación. Esta se transfiere directamente a la aplicación.
+   >El modo **Push silenciosa** permite enviar una notificación “silenciosa” a una aplicación móvil. No se avisa al usuario de la llegada de la notificación. Esta se transfiere directamente a la aplicación.
 
 1. En el campo **[!UICONTROL Title]**, introduzca la etiqueta del título que desea que aparezca en la notificación. Solo aparece en la lista de notificaciones disponibles en el centro de notificaciones. Este campo permite definir el valor del parámetro **title** de la carga útil de notificación de iOS.
 
@@ -92,7 +92,7 @@ Para enviar una prueba y realizar la entrega final, utilice el mismo proceso que
 
 Después de enviar mensajes, puede monitorizar y realizar un seguimiento de las entregas. Para obtener más información, consulte estas secciones:
 
-* [Cuarentena de notificaciones push](understanding-quarantine-management.md#push-notification-quarantines)
+* [Cuarentenas de notificaciones push](understanding-quarantine-management.md#push-notification-quarantines)
 * [Seguimiento de una entrega](about-delivery-monitoring.md)
 * [Comprensión de los errores de entrega](understanding-delivery-failures.md)
 
