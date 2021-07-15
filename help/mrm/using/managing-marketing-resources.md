@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: f661e1d1-de2f-4c6a-bbff-e3ffcd1831f0
 source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1386'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ Si es necesario, también puede desbloquearlo manualmente desde el panel.
 
 La pestaña **[!UICONTROL Forum]** de cada recurso permite a los participantes intercambiar información.
 
-[Discussion forums](../../mrm/using/discussion-forums.md) explica cómo funcionan los foros de discusión en Adobe Campaign.
+[Foros de debate](../../mrm/using/discussion-forums.md) explica cómo funcionan los foros de debate en Adobe Campaign.
 
 ## Ciclo de vida de un recurso de marketing {#life-cycle-of-a-marketing-resource}
 
@@ -175,7 +175,7 @@ El botón **[!UICONTROL Details]** permite editarlo y verlo.
 
 Los recursos añadidos se muestran en el panel. También pueden editarse desde allí.
 
-### Agregar un recurso de marketing a una descripción de entrega {#adding-a-marketing-resource-to-a-delivery-outline}
+### Adición de un recurso de marketing a una descripción del envío {#adding-a-marketing-resource-to-a-delivery-outline}
 
 Los recursos de marketing se pueden asociar a los envíos a través de las descripciones de entrega.
 
