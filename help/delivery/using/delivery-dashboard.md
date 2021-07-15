@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1173'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ A continuación, se muestra la información que puede monitorizar en las distint
 
 ## Resumen de entregas {#delivery-summary}
 
-La pestaña **[!UICONTROL Summary]** contiene las características de la entrega: estado de entrega, canal utilizado, información sobre el remitente, asunto, información sobre la ejecución.
+La pestaña **[!UICONTROL Summary]** contiene las características de la entrega: estado de la entrega, canal utilizado, información sobre el remitente, asunto, información sobre la ejecución.
 
 ## Informes de envío {#delivery-reports}
 
@@ -49,7 +49,7 @@ El contenido de esta pestaña se puede configurar según sus necesidades. Para o
 
 ![](assets/delivery-report.png)
 
-## Registros de entregas, historial y exclusiones {#delivery-logs-and-history}
+## Registros de envíos, historial y exclusiones {#delivery-logs-and-history}
 
 La pestaña **[!UICONTROL Delivery]** ofrece un historial de los sucesos en esta entrega. Contiene los registros de entregas, es decir, la lista de mensajes enviados y su estado y los mensajes asociados.
 
@@ -121,7 +121,7 @@ Algunos indicadores o estados pueden ser incorrectos o no estar actualizados; es
 
 También puede rastrear las entregas con diferentes informes a través del panel de entrega. Para obtener más información, consulte [esta sección](../../reporting/using/delivery-reports.md).
 
-## Ejemplo de uso: Añadir direcciones IP de los remitentes a los registros {#use-case}
+## Ejemplo de uso: añadir a los registros direcciones IP de los remitentes {#use-case}
 
 En esta sección, aprenderá a agregar a los registros de entregas información sobre la dirección IP que envió cada correo electrónico en una entrega.
 
