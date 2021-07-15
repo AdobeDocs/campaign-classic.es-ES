@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Renderización de la bandeja de entrada   en Campaign
+title: Procesamiento de la bandeja de entrada  en Campaign
 description: Obtenga información sobre cómo capturar las renderizaciones de correo electrónico y ponerlas a disposición en un informe dedicado
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '813'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Procesamiento de la bandeja de entrada{#inbox-rendering}
 
-## Acerca de la renderización de la bandeja de entrada {#about-inbox-rendering}
+## Acerca del procesamiento de la bandeja de entrada {#about-inbox-rendering}
 
 Antes de pulsar el botón **Send**, asegúrese de que su mensaje se mostrará a los destinatarios de una forma óptima en una gran variedad de clientes, correos Web y dispositivos web.
 
@@ -29,7 +29,7 @@ Los clientes móviles, de mensajería y de correo web disponibles para **Renderi
 >
 >No es necesario renderizar la bandeja de entrada para probar la personalización en las entregas. La personalización puede comprobarse con las herramientas de Adobe Campaign como **[!UICONTROL Preview]** y [Proofs](steps-validating-the-delivery.md#sending-a-proof).
 
-## Activación de la renderización de la bandeja de entrada{#activating-inbox-rendering}
+## Activación del procesamiento de la bandeja de entrada {#activating-inbox-rendering}
 
 Para los clientes alojados e híbridos, el servicio de asistencia técnica y consultores de Adobe configuran la renderización de la Bandeja de entrada en la instancia. Para obtener más información, póngase en contacto con su administrador de cuentas de Adobe.
 
@@ -82,6 +82,7 @@ Cada vez que se utiliza la función **[!UICONTROL Inbox rendering]** en una entr
 >
 >* Cada vez que se genera el informe de renderización de la Bandeja de entrada, se resta un token por cada cliente de mensajería: uno para la renderización de Outlook 2000, uno para la renderización de Outlook 2010, uno para la renderización de Apple Mail 9, etc.
 >* Para el mismo envío, si vuelve a generar la renderización de la bandeja de entrada, el número de tokens disponibles se reduce de nuevo según la cantidad de renderizaciones generadas.
+
 >
 
 
@@ -92,7 +93,7 @@ El número de tokens disponibles restantes se muestra en **[!UICONTROL General s
 
 Normalmente, la función de renderización de la bandeja de entrada se utiliza para probar el marco HTML de un correo electrónico recién diseñado. Cada renderización requiere aproximadamente 70 tokens (dependiendo de la cantidad de entornos en los que se pruebe). Sin embargo, en algunos casos puede necesitar varios informes de renderización de la bandeja de entrada para probar al completo su envío. Por lo tanto, puede requerir más tokens para realizar varias comprobaciones.
 
-## Acceso al informe de renderización de la bandeja de entrada {#accessing-the-inbox-rendering-report}
+## Acceso al informe de procesamiento de la bandeja de entrada {#accessing-the-inbox-rendering-report}
 
 Una vez que haya creado su envío de correo electrónico y definido su contenido, así como la población de destino, siga los pasos a continuación.
 
@@ -115,7 +116,7 @@ Para obtener más información sobre la creación, el diseño y la segmentación
 
    Se muestra el informe de renderización de la bandeja de entrada.
 
-## Informe de renderización de la bandeja de entrada {#inbox-rendering-report}
+## Informe de procesamiento de la bandeja de entrada {#inbox-rendering-report}
 
 Este informe muestra las renderizaciones de la bandeja de entrada tal y como aparecen al destinatario. Las renderizaciones pueden variar en función del modo en que el destinatario abra la entrega de correo electrónico: en un navegador, en un dispositivo móvil o a través de una aplicación de correo electrónico.
 
