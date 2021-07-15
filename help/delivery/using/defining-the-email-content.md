@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: sending-emails
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1990'
 ht-degree: 100%
 
@@ -139,9 +139,9 @@ Adobe Campaign le permite probar el nuevo formato [AMP interactivo para correo e
 
 Para obtener más información, consulte [esta sección](defining-interactive-content.md).
 
-## Uso de la gestión de contenido {#using-content-management}
+## Uso de la administración de contenido {#using-content-management}
 
-Puede definir el contenido de la entrega mediante los formularios de gestión de contenido directamente en el asistente de envíos. Para ello, debe hacer referencia a la plantilla de publicación de la gestión de contenido que se va a utilizar, en la pestaña **[!UICONTROL Advanced]** de las propiedades de entrega.
+Puede definir el contenido de la entrega mediante los formularios de administración de contenido directamente en el asistente de envíos. Para ello, debe hacer referencia a la plantilla de publicación de la gestión de contenido que se va a utilizar, en la pestaña **[!UICONTROL Advanced]** de las propiedades de entrega.
 
 ![](assets/s_ncs_content_in_delivery.png)
 
