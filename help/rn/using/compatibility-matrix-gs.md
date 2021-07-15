@@ -19,7 +19,7 @@ Este documento enumera todos los sistemas y componentes compatibles con las vers
 
 ## Notas importantes{#important-notes-gs}
 
-A menos que se indique lo contrario, se admiten todas las versiones menores.
+A menos que se indique lo contrario, se admiten todas las versiones secundarias.
 
 Adobe Campaign Classic es compatible con todos los sistemas y herramientas enumerados en esta página. Cuando las versiones específicas de estos sistemas y herramientas de terceros llegan al final de su vida útil (EOL) con sus respectivos creadores, Adobe Campaign ya no es compatible con ellas y se eliminan de nuestra matriz de compatibilidades en la versión posterior del producto. Para evitar problemas, compruebe que se encuentra en una versión compatible de cualquier sistema enumerado en la matriz de compatibilidad.
 
@@ -120,7 +120,7 @@ Adobe Campaign Classic es compatible con todos los sistemas y herramientas enume
 <td>
 <p>18c</p>
 <p>12c</p>
-<p>11g R2</p>
+<p>11g  R2</p>
 </td>
 </tr>
 <tr>
@@ -157,7 +157,7 @@ Adobe Campaign Classic es compatible con todos los sistemas y herramientas enume
 
 >[!NOTE]
 >
->PostgreSQL es el servidor de bases de datos predeterminado para entornos alojados.
+>PostgreSQL es el servidor de bases de datos predeterminado para entornos hospedados.
 
 ## Conectores CRM{#CRMconnectors-gs}
 
