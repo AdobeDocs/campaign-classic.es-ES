@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: acs-connector
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
 source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1195'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Las secciones siguientes describen cómo el conector ACS ayuda a añadir y edita
 * Derechos de usuario para ejecutar flujos de trabajo en Campaign v7 y en Campaign Standard.
 * Derechos de usuario para crear y ejecutar una entrega en Campaign Standard.
 
-## Modificación del vínculo de baja de suscripción {#changing-the-unsubscription-link}
+## Modificación del vínculo de baja {#changing-the-unsubscription-link}
 
 Cuando un destinatario hace clic en el vínculo de baja de suscripción en un mensaje de correo electrónico enviado por Campaign Standard, se actualiza el perfil correspondiente en Campaign Standard. Para asegurarse de que un perfil duplicado incluya la opción para el usuario de darse baja de un servicio, la información debe enviarse a Campaign v7 en lugar de a Campaign Standard. Para ejecutar el cambio, el servicio de baja está vinculado con una aplicación web de Campaign v7 en lugar de Campaign Standard.
 
@@ -59,7 +59,7 @@ Los pasos siguientes para cambiar un único punto de datos proporcionan un ejemp
 
    ![](assets/acs_connect_profile_sync_03.png)
 
-1. Confirme que el nombre del destinatario se ha actualizado en Campaign Standard. Para saber dónde encontrar los perfiles en Campaign Standard, consulte [Conceptos básicos de navegación](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html).
+1. Confirme que el nombre del destinatario se ha actualizado en Campaign Standard. Para saber dónde encontrar los perfiles en Campaign Standard, consulte [Conceptos básicos de navegación](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=es).
 
    ![](assets/acs_connect_profile_sync_04.png)
 
@@ -156,7 +156,7 @@ Siga los pasos a continuación para añadir una entrega de correo electrónico a
 
    ![](assets/acs_connect_profile_sync_19.png)
 
-## Verificación del servicio de baja de suscripción {#verifying-the-unsubscription-service}
+## Verificación del servicio de baja {#verifying-the-unsubscription-service}
 
 Siga las instrucciones de [Creación de un flujo de trabajo](#creating-a-workflow) y de [Creación de una entrega](#creating-a-delivery) antes de pasar a los pasos que se describen a continuación.
 
@@ -172,6 +172,6 @@ Siga las instrucciones de [Creación de un flujo de trabajo](#creating-a-workflo
 
    ![](assets/acs_connect_profile_sync_22.png)
 
-1. Vaya a Campaign Standard y abra los detalles del perfil del destinatario. Confirme que aparece una casilla de verificación junto a **[!UICONTROL No longer contact (by any channel)]**. Para saber dónde encontrar los perfiles en Campaign Standard, consulte [Conceptos básicos de navegación](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html).
+1. Vaya a Campaign Standard y abra los detalles del perfil del destinatario. Confirme que aparece una casilla de verificación junto a **[!UICONTROL No longer contact (by any channel)]**. Para saber dónde encontrar los perfiles en Campaign Standard, consulte [Conceptos básicos de navegación](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=es).
 
    ![](assets/acs_connect_profile_sync_23.png)
