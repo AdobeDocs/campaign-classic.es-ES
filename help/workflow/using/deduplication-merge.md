@@ -14,7 +14,7 @@ internal: n
 snippet: y
 exl-id: a6b10585-7bf9-4fef-b886-db081b6d3acc
 source-git-commit: e3e2ac09de6a9e846e9f9262d522b9395a725648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '550'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ La actividad **[!UICONTROL Deduplication]** se utiliza para eliminar filas de du
 
 Con la funcionalidad **[!UICONTROL Merge]** de la actividad de anulación de duplicación, puede configurar un conjunto de reglas para la anulación de duplicación para definir un grupo de campos para combinar en un único registro de datos resultante. Por ejemplo, con un conjunto de registros de duplicado, puede elegir mantener el número de teléfono más antiguo o el nombre más reciente.
 
-## Activación de la funcionalidad Merge {#activating-merge}
+## Activación de la funcionalidad Combinar {#activating-merge}
 
 
 Para habilitar la funcionalidad de combinación, primero debe configurar la actividad **[!UICONTROL Deduplication]**. Para ello, siga estos pasos:
