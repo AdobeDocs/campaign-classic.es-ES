@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '838'
 ht-degree: 100%
 
@@ -40,9 +40,9 @@ En este ejemplo, el administrador de envíos ha creado el boletín informativo y
 
 Para crear un valor común como el de nuestro ejemplo (departamento de compras), primero debe extender el **esquema de datos** de las direcciones semilla y editar el formulario de entrada asociado.
 
-### Extensión del esquema de datos {#extending-the-data-schema}
+### Ampliación del esquema de datos {#extending-the-data-schema}
 
-Para obtener más información sobre las extensiones de esquema, consulte la [guía de configuración](../../configuration/using/data-schemas.md).
+Para obtener más información sobre las extensiones de esquema, consulte la [Guía de configuración](../../configuration/using/data-schemas.md).
 
 1. En el nodo **[!UICONTROL Administration > Configuration > Data schemas]**, haga clic en el icono **[!UICONTROL New]**.
 1. En la ventana **[!UICONTROL Creation of a data schema]**, seleccione la opción **[!UICONTROL Extension of a schema]** haciendo clic en **[!UICONTROL Next]**. 
