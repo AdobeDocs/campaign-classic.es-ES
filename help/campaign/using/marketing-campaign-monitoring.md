@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
 source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '245'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ En cada campaña, la pestaña **[!UICONTROL Tracking]** permite ver todos los tr
 
    ![](assets/s_ncs_user_op_edit_exe_tab_d.png)
 
-## Seguimiento de envío {#delivery-tracking}
+## Seguimiento de una entrega {#delivery-tracking}
 
 La lista de envíos está disponible a través del vínculo **[!UICONTROL Deliveries]** del nodo Campaign.
 
