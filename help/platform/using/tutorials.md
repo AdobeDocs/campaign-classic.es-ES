@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: e612a4e7-f4ef-4db4-afab-5544b73430d3
 source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Comience a utilizar Adobe Campaign consultando las instrucciones paso a paso.
 
 * [Editar el contenido de correos electrónicos con Adobe Experience Manager](https://helpx.adobe.com/es/campaign/kb/acc-aem.html): Obtenga información sobre los conceptos básicos para comenzar a utilizar la integración entre Adobe Campaign y Experience Manager.
 * [Gestión de privacidad](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html): Descubra lo que Adobe Campaign Classic proporciona para ayudarle con el cumplimiento de la privacidad al utilizar el servicio.
-* [Integración de contenido dinámico en un mensaje de correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-target/inserting-a-dynamic-image.html): Descubra los conceptos básicos para comenzar a utilizar la integración entre Campaign Classic y Target Standard.
+* [Integración de contenido dinámico en un mensaje de correo electrónico](https://experienceleague.adobe.com/es/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-target/inserting-a-dynamic-image.html): Descubra los conceptos básicos para comenzar a utilizar la integración entre Campaign Classic y Target Standard.
 * [Gestión de la tasa de entrega](../../delivery/using/about-deliverability.md): Aprenda sobre los conceptos y las prácticas recomendadas relacionadas con la entrega, así como las herramientas que ofrece Adobe Campaign Classic para optimizar la entrega de contenido.
 * [Prácticas de envío recomendadas](../../delivery/using/delivery-best-practices.md): Descubra cuáles son las mejores prácticas relacionadas con el diseño y envío de mensajes con Adobe Campaign Classic.
 * [Realización de una actualización](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html): Esta guía le presenta los pasos clave y las prácticas recomendadas para realizar una actualización con Campaign Classic.
