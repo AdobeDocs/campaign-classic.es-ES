@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: online-surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
 source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,19 +21,19 @@ Cuando se haya creado, configurado y publicado el formulario, puede publicarlo e
 >
 >El ciclo de vida de una encuesta en Adobe Campaign, así como sus modos de publicación y envío, son similares a los de los formularios web: estos se detallan en [esta sección](../../web/using/about-web-forms.md).
 
-## Panel de encuesta {#survey-dashboard}
+## Tablero de encuesta {#survey-dashboard}
 
 Cada encuesta tiene su propio panel que le permite ver su estado, descripción, dirección URL pública y programación de disponibilidad. También le permite ver los informes disponibles. [Más información](#reports-on-surveys).
 
-La URL pública de la encuesta se muestra en el panel:
+La URL pública de la encuesta se muestra en el tablero:
 
 ![](assets/survey_public_url.png)
 
 ## Seguimiento de respuestas {#response-tracking}
 
-Puede realizar un seguimiento de las respuestas a la encuesta en los “logs” e informes.
+Puede realizar un seguimiento de las respuestas a la encuesta en los registros e informes.
 
-### “Logs” de encuesta {#survey-logs}
+### Registros de la encuesta {#survey-logs}
 
 Para cada encuesta enviada, puede realizar un seguimiento de las respuestas en la pestaña **[!UICONTROL Logs]**. Esta pestaña muestra la lista de usuarios que han completado la encuesta y su origen:
 
@@ -49,7 +49,7 @@ El origen se indica en la dirección URL de la encuesta añadiendo los caractere
 
 mientras se edita la encuesta, su URL contiene el parámetro **[!UICONTROL __uuid]**, que indica que se encuentra en una fase de prueba y que todavía no está en línea. Al acceder a la encuesta a través de esta dirección URL, los archivos creados no se tienen en cuenta en el seguimiento (informes). Se fuerza el valor  en el origen **[!UICONTROL Adobe Campaign]**.
 
-Para obtener más información sobre los parámetros URL, consulte [esta página](../../web/using/defining-web-forms-properties.md#form-url-parameters).
+Para obtener más información sobre los parámetros de URL, consulte [esta página](../../web/using/defining-web-forms-properties.md#form-url-parameters).
 
 ### Informes sobre las encuestas {#reports-on-surveys}
 
@@ -71,11 +71,11 @@ Hay otros dos informes disponibles en la pestaña **[!UICONTROL Reports]** de lo
 
 * Desglose de respuestas
 
-   Este informe muestra el desglose de las respuestas por cada pregunta. Este desglose solo está disponible para las respuestas dadas a campos almacenados en contenedores de tipo **[!UICONTROL Question]**. Solo es válido para controles de selección (sin desglose en campos de texto, por ejemplo).
+   Este informe muestra el desglose de las respuestas por cada pregunta. Este desglose solo está disponible para las respuestas dadas a campos almacenados en contenedores de tipo **[!UICONTROL Question]**. Solo es válido para los controles de selección (sin desglose en campos de texto, por ejemplo).
 
    ![](assets/s_ncs_admin_survey_report_2.png)
 
-## Exportación de respuestas {#exporting-answers}
+## Exportación de las respuestas {#exporting-answers}
 
 Las respuestas a una encuesta se pueden exportar a un archivo externo para su procesado posterior. Hay dos formas de hacerlo:
 
@@ -109,11 +109,11 @@ Las respuestas a una encuesta se pueden exportar a un archivo externo para su pr
 
    >[!NOTE]
    >
-   >En [esta sección](../../platform/using/about-generic-imports-exports.md) se describen las exportaciones de datos y las fases de su configuración.
+   >En la sección](../../platform/using/about-generic-imports-exports.md) de [, se describen las exportaciones de datos y las fases de su configuración.
 
 ## Uso de los datos recopilados {#using-the-collected-data}
 
-La información recopilada mediante encuestas en línea se puede recuperar dentro del marco de un flujo de trabajo de objetivos. Para ello, utilice la casilla **[!UICONTROL Survey responses]**.
+La información recopilada mediante encuestas en línea se puede recuperar dentro del marco de un flujo de trabajo de direccionamiento. Para ello, utilice la casilla **[!UICONTROL Survey responses]**.
 
 En el siguiente ejemplo, queremos crear una oferta web especialmente para los cinco destinatarios con al menos dos hijos y con las puntuaciones más altas en la encuesta en línea. Las respuestas a esta encuesta son:
 
@@ -161,4 +161,4 @@ Edite el cuadro de división para configurarlo:
 
 ## Estandarización de datos {#standardizing-data}
 
-Se pueden configurar procesos de estandarización en Adobe Campaign para los datos recopilados mediante alias. Esto permite estandarizar los datos almacenados en la base de datos: para ello, defina alias en la lista desglosada que contengan la información relevante. [Más información](../../platform/using/managing-enumerations.md#about-enumerations)
+Se pueden configurar procesos de estandarización en Adobe Campaign para los datos recopilados mediante alias. Esto permite estandarizar los datos almacenados en la base de datos: para ello, defina un alias en la lista desglosada que contenga la información relevante. [Más información](../../platform/using/managing-enumerations.md#about-enumerations)
