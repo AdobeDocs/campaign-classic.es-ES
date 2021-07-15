@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: web-forms
 exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
 source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1034'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ Puede definir otras acciones para el vínculo, de modo que el usuario pueda hace
    >
    >Para obtener más información sobre la secuenciación de páginas en un formulario web, consulte [Definición de secuenciación de páginas de formularios web](defining-web-forms-page-sequencing.md).
 
-### Personalización de contenido HTML {#personalizing-html-content}
+### Personalización del contenido HTML {#personalizing-html-content}
 
 Puede personalizar el contenido HTML de una página de formulario con datos registrados en una página anterior. Por ejemplo, puede crear un formulario web de seguro para el coche cuya primera página le permita proporcionar información de contacto y la marca del coche.
 
@@ -134,7 +134,7 @@ Esto produce el resultado siguiente:
 
 ![](assets/s_ncs_admin_survey_tag_ctx_2.png)
 
-### Usar variables de texto {#using-text-variables}
+### Uso de las variables de texto {#using-text-variables}
 
 La pestaña **[!UICONTROL Text]** permite crear campos variables que pueden utilizarse en el HTML entre los caracteres &lt;%= y %> con la siguiente sintaxis: **$(IDENTIFIER)**.
 
@@ -163,9 +163,9 @@ Por ejemplo, puede crear un campo de **Contacto** que le permita mostrar la cade
 
 Este modo operativo permite definir el texto de los formularios web solo una vez y administrar las traducciones mediante la herramienta de traducción integrada. Para obtener más información, consulte [Traducción de un formulario web](translating-a-web-form.md).
 
-## Insertar imágenes {#inserting-images}
+## Inserción de imágenes {#inserting-images}
 
-Para que las imágenes se incluyan en los formularios, deben guardarse en un servidor que sea accesible externamente.
+Para que las imágenes se incluyan en los formularios, deben guardarse en un servidor que sea accesible de forma externa.
 
 Seleccione el menú **[!UICONTROL Static elements]** > **[!UICONTROL Image]** .
 
