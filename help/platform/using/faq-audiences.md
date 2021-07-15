@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ba8bf610-cbac-41e9-8b6e-130deb8b97e2
 source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '272'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,15 +21,15 @@ Aprenda a segmentar un grupo de población y a administrar las audiencias en Ado
 
 Puede importar destinatarios o crearlos manualmente mediante la consola del cliente de Campaign. Lea [esta sección](../../platform/using/about-profiles.md) y aprenda a crear y administrar perfiles en Campaign.
 
-## Forma de importar los perfiles? {#how-to-import-profiles-}
+## Forma de importar los perfiles {#how-to-import-profiles-}
 
 Descubra casos de uso fáciles para [importar perfiles](../../platform/using/import-operations-samples.md) en la base de datos.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/importing-profiles.html)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/importing-profiles.html?lang=es)
 
 ## ¿Cómo puedo definir el público objetivo de una campaña de marketing?  {#how-can-i-define-the-target-population-of-a-marketing-campaign-}
 
-Puede [utilizar flujos de trabajo para crear una población objetivo](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) de una campaña de marketing.
+Puede [utilizar flujos de trabajo para crear la población objetivo](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) de una campaña de marketing.
 
 
 ## ¿Cómo puedo crear una lista de perfiles?  {#how-can-i-create-a-list-of-profiles-}
@@ -38,7 +38,7 @@ Una lista es un conjunto estático de destinatarios en los que se puede centrar 
 
 [Haga clic aquí para obtener más información](../../platform/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group).
 
-![](assets/do-not-localize/how-to-video.png) Descubra esta funcionalidad [en este vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients-with-a-workflow.html) y [en este otro vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html)
+![](assets/do-not-localize/how-to-video.png) Descubra esta funcionalidad [en este vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients-with-a-workflow.html?lang=es) y [en este otro vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html?lang=es)
 
 ## ¿Cómo duplicar una población antes de enviar un mensaje?  {#how-can-i-deduplicate-a-population-before-sending-a-message-}
 
