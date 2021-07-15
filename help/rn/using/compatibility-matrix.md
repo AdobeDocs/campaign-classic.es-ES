@@ -9,7 +9,7 @@ exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Si usa [!DNL Gold Standard], consulte la matriz de compatibilidad de [[!DNL Gold
 
 ## Notas importantes{#important-notes}
 
-A menos que se indique lo contrario, se admiten todas las versiones menores.
+A menos que se indique lo contrario, se admiten todas las versiones secundarias.
 
 En su [última versión](../../rn/using/latest-release.md), Adobe Campaign Classic es compatible con todos los sistemas y herramientas enumerados en esta página. Cuando las versiones específicas de estos sistemas y herramientas de terceros llegan al final de su vida útil (EOL) con sus respectivos creadores, Adobe Campaign ya no es compatible con ellas y se eliminan de nuestra matriz de compatibilidades en la versión posterior del producto. Para evitar problemas, compruebe que se encuentra en una versión compatible de cualquier sistema enumerado en la matriz de compatibilidad.
 
@@ -131,7 +131,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <p>19c</p>
 <p>18c</p>
 <p>12c</p>
-<p>11g R2</p>
+<p>11g  R2</p>
 </td>
 </tr>
 <tr>
@@ -163,7 +163,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 
 >[!NOTE]
 >
->PostgreSQL es el servidor de bases de datos predeterminado para entornos alojados.
+>PostgreSQL es el servidor de bases de datos predeterminado para entornos hospedados.
 
 ## Conectores CRM{#CRMconnectors}
 
