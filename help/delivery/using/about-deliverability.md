@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: deliverability-management
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Más concretamente, la capacidad de entrega de correo electrónico hace referenc
 
 Para profundizar en lo que es la capacidad de envío y obtener más información sobre los términos, conceptos y enfoques clave de la capacidad de envío, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es).
 
-## Cómo mejorar la capacidad de envío {#deliverability-key-points}
+## Cómo mejorar la capacidad de entrega {#deliverability-key-points}
 
 Los problemas de entrega suelen estar vinculados a medidas de protección contra spam implementadas por los proveedores de servicios de Internet y los administradores de servidores de correo.
 
@@ -31,7 +31,7 @@ Los problemas de entrega suelen estar vinculados a medidas de protección contra
 
 >[!NOTE]
 >
->Debido a que los proveedores de servicios de Internet están obligados a desarrollar continuamente nuevas técnicas sofisticadas de filtrado para proteger a sus clientes de los remitentes de spam, la capacidad de envío del correo electrónico se caracteriza por criterios y reglas que cambian constantemente. Asegúrese de consultar la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html), que se actualiza regularmente.
+>Debido a que los proveedores de servicios de Internet están obligados a desarrollar continuamente nuevas técnicas sofisticadas de filtrado para proteger a sus clientes de los remitentes de spam, la capacidad de envío del correo electrónico se caracteriza por criterios y reglas que cambian constantemente. Asegúrese de consultar la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es), que se actualiza regularmente.
 
 ### Tasa de entrega
 
@@ -48,7 +48,7 @@ Con Adobe Campaign, la tasa de entrega depende de numerosos factores, especialme
 * Autenticación de mensajes (SPF, DKIM, DMARC): consulte [esta sección](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#authentication).
 * Reputación del remitente: para conocer cómo evalúan los principales ISP la reputación de un remitente, consulte [esta sección](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html?lang=es).
 
-## Herramientas de envío de campañas {#deliverability-tools}
+## Herramientas de entrega de campañas {#deliverability-tools}
 
 <!--Adobe Campaign provides a number of tools designed to ensure optimal deliverability.-->
 Adobe Campaign proporciona varias herramientas para rastrear y mejorar el rendimiento de envío de su plataforma. Esta página también resalta los principios generales que debe tener en cuenta para optimizar la capacidad de envío al utilizar Campaign.
