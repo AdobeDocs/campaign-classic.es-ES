@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: deliverability-management
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '762'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Para obtener más información sobre el uso de los campos de personalización en
 
 Algunas sugerencias para optimizar la personalización al crear contenido se presentan en [esta sección](design-and-personalize.md#optimize-personalization).
 
-## Formulario y vínculo de exclusión {#opt-out}
+## Formulario y vínculo de no participación {#opt-out}
 
 De forma predeterminada, cuando se analiza el mensaje, una [regla de tipología](steps-validating-the-delivery.md#validation-process-with-typologies) comprueba si se ha incluido un vínculo de no participación y genera una advertencia si falta. Puede cambiar esta regla para que se produzca un error en lugar de una simple advertencia y evitar que una entrega salga sin este vínculo.
 
