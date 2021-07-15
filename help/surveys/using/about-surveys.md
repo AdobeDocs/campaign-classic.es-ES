@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: online-surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
 source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -17,36 +17,36 @@ ht-degree: 48%
 
 Adobe Campaign incluye un módulo gráfico para definir y publicar aplicaciones web. Se utiliza para crear páginas, como un formulario de edición en una extranet, o formularios de notificación, incluidos datos de la base de datos con tablas, gráficos, formularios de entrada, etc. Utilice esta capacidad para diseñar y publicar páginas web en las que los usuarios puedan buscar o introducir información.
 
-El complemento opcional **Survey** le permite crear un nuevo tipo de aplicación web para crear y administrar cuestionarios en línea, como formularios para añadir o modificar información de perfil, para suscribirse a un servicio de información o un formulario de entrada de competencia, o para darse de baja de ellos. Cuando se hayan recopilado las respuestas, se almacenan en la base de datos o en variables locales. El modelo de datos se puede ampliar de forma dinámica a través de las respuestas a los cuestionarios. Puede ver los resultados en tiempo real, filtrar las respuestas y analizarlas con gráficos especializados.
+El complemento opcional **Encuesta** le permite crear un nuevo tipo de aplicación web para realizar y administrar cuestionarios en línea, como formularios para añadir o modificar información del perfil, para suscribirse o cancelar la suscripción a un servicio informativo o un formulario de entrada de competencia. Cuando se hayan recopilado las respuestas, se almacenan en la base de datos o en variables locales. El modelo de datos se puede ampliar de forma dinámica a través de las respuestas a los cuestionarios. Puede ver los resultados en tiempo real, filtrar las respuestas y analizarlas con gráficos especializados.
 
-Este capítulo detalla cómo crear y administrar **Encuestas**, administración de campos y páginas, modos de almacenamiento y registros.
+Este capítulo detalla cómo realizar la creación y la administración **Encuestas**, administración de campos y páginas, modos de almacenamiento y registros.
 
-[!DNL :bulb:] Aprenda a crear la primera encuesta en  [esta página](getting-started-with-surveys.md).
+[!DNL :bulb:] Aprenda a crear la primera encuesta en [esta página](getting-started-with-surveys.md).
 
 >[!NOTE]
 >
->* Los pasos detallados para crear un formulario web estándar están disponibles en [este documento](../../web/using/about-web-forms.md).
+>* Los pasos para la creación de un formulario web estándar se detallan en [este documento](../../web/using/about-web-forms.md).
    >
    >
-* La administración de aplicaciones web se detalla en [este documento](../../web/using/about-web-applications.md). Consulte este capítulo para obtener más información.
+* La administración de la aplicación web se explica en [este documento](../../web/using/about-web-applications.md). Consulte este capítulo para obtener más información.
 
 
-## Alcance del ámbito {#campaign-surveys-scope}
+## Funcionalidad del ámbito {#campaign-surveys-scope}
 
-En Adobe Campaign, utilice [Web applications](../../web/using/about-web-forms.md) para:
+En Adobe Campaign, utilice las [aplicaciones web](../../web/using/about-web-forms.md) para lo siguiente:
 
-* Crear formularios de varias páginas,
-* Administrar formularios multilingües con una herramienta de traducción integrada,
-* Administrar interfaz gráfica, diseño de página de varias columnas,
-* Añada personalización y defina la posición del campo.
-* Condición de la visualización de los campos de encuesta según las respuestas,
-* Visualización de la página Condición,
-* Compruebe la información antes de la aprobación, según el tipo de datos esperados (número, dirección de correo electrónico, fechas, etc.) y campos obligatorios,
-* Enviar invitaciones/notificaciones por correo electrónico,
-* Personalización de páginas de error y finalización,
-* Agregar imágenes, vídeos, vínculos de hipertexto, captcha, etc., en formularios
+* Crear formularios de varias páginas.
+* Administrar formularios multilingües con una herramienta de traducción integrada.
+* Administrar la interfaz gráfica, el diseño de página de varias columnas.
+* Añadir personalización y definir la posición del campo.
+* Visualización condicional de los campos de encuesta según las respuestas.
+* Visualización de la página de condición.
+* Comprobación de la información antes de la aprobación, según el tipo de datos esperado (número, dirección de correo electrónico, fechas, etc.), y campos obligatorios.
+* Enviar invitaciones/notificaciones por correo electrónico.
+* Personalización de páginas de error y finalización.
+* Agregar imágenes, vídeos, vínculos de hipertexto, captcha, etc., en formularios.
 
-El módulo opcional de creación de encuestas ofrece una interfaz de usuario fácil de usar y las siguientes funcionalidades adicionales:
+El módulo opcional de creación de encuestas ofrece una IU fácil de usar y las siguientes funcionalidades adicionales:
 
 * Ampliación dinámica de la base de datos: creación de respuestas que no forman parte del modelo de datos inicial. [Más información](../../surveys/using/managing-answers.md#storing-collected-answers).
 * Gestión de la puntuación. [Más información](../../surveys/using/managing-answers.md#score-management).
@@ -64,7 +64,7 @@ Realice los pasos siguientes para crear y enviar una encuesta y procesar sus res
 1. Publique y luego envíe el estudio a los destinatarios (p. ej., incluya un vínculo en una entrega o en un sitio web).
 1. Monitorice las respuestas y vea los informes.
 
-Para obtener más información sobre la configuración y secuenciación de estos pasos, consulte [este documento](../../web/using/about-web-forms.md). En este capítulo solo se detallan las configuraciones específicas de los estudios.
+Para obtener más información sobre la configuración y secuenciación de estos pasos, consulte [este documento](../../web/using/about-web-forms.md). En este capítulo solo se detallan las configuraciones específicas de las encuestas.
 
 >[!CAUTION]
 >
@@ -72,7 +72,7 @@ Para obtener más información sobre la configuración y secuenciación de estos
 
 ## Configuración {#settings}
 
-De forma predeterminada, las encuestas están disponibles en el nodo **[!UICONTROL Resources > Online > Web Applications]** del árbol de Adobe Campaign.
+De forma predeterminada, las encuestas se almacenan en el **[!UICONTROL Resources > Online > Web Applications]** nodo del árbol de Adobe Campaign.
 
 La configuración se almacena en las siguientes carpetas:
 
