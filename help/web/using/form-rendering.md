@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: web-forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
 source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '987'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## Selección de la plantilla de renderización del formulario {#selecting-the-form-rendering-template}
 
-La configuración de formulario permite seleccionar la plantilla utilizada para generar las páginas. Para acceder a ellas, haga clic en el botón **[!UICONTROL Settings]** de la barra de herramientas de detalles del formulario y seleccione la pestaña **[!UICONTROL Rendering]**. Existe una cantidad de plantillas (hojas de estilo) disponibles de forma predeterminada.
+La configuración del formulario permite seleccionar la plantilla utilizada para generar las páginas. Para acceder a ellas, haga clic en el botón **[!UICONTROL Settings]** de la barra de herramientas de detalles del formulario y seleccione la pestaña **[!UICONTROL Rendering]**. Existe una cantidad de plantillas (hojas de estilo) disponibles de forma predeterminada.
 
 ![](assets/s_ncs_admin_survey_rendering_select.png)
 
@@ -55,7 +55,7 @@ Los campos **[!UICONTROL Position]** permiten definir la posición de los elemen
 >[!NOTE]
 >
 >Las plantillas de renderización se guardan en el nodo **[!UICONTROL Administration > Configuration > Form rendering]**.\
->Para obtener más información, consulte [Personalización de la renderización de formularios](#customizing-form-rendering).
+>Para obtener más información, consulte [Personalización de la renderización de formularios](#customizing-form-rendering)
 
 ## Personalización de la renderización de formularios {#customizing-form-rendering}
 
@@ -92,11 +92,11 @@ El título de la ventana se debe introducir en la pestaña **[!UICONTROL Page]**
 
 Puede introducir elementos adicionales para su inserción en el encabezado HTML de una página de formulario. Para ello, introduzca los elementos en la pestaña **[!UICONTROL Header]** de la página correspondiente.
 
-Esto permite hacer referencia a un icono que se muestra en la barra de título de la página, por ejemplo.
+Esto permite, por ejemplo, hacer referencia a un icono que se muestra en la barra de título de la página.
 
 ![](assets/webform_header_page_tab.png)
 
-## Definición de una configuración de control {#defining-control-settings}
+## Definición de la configuración de control {#defining-control-settings}
 
 Cuando el usuario rellena el formulario, se realiza una comprobación automática de ciertos campos según su formato o configuración. Esto permite hacer que ciertos campos sean obligatorios (consulte [Definición de campos obligatorios](#defining-mandatory-fields)) o comprobar el formato de los datos introducidos (consulte [Comprobación del formato de datos](#checking-data-format)). Las comprobaciones se realizan durante la aprobación de la página (haciendo clic en un vínculo o en un botón que habilita una transición de salida).
 
@@ -128,7 +128,7 @@ Por ejemplo, si crea una comprobación **[!UICONTROL Number]** para almacenar el
 
 ![](assets/s_ncs_admin_survey_choose_format.png)
 
-El usuario debe introducir un número entero en el campo de formulario.
+El usuario debe escribir un número entero en el campo del formulario.
 
 ## Definición de la visualización condicional de campos {#defining-fields-conditional-display}
 
