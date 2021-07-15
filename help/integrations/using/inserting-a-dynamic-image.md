@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: adobe-target
 exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
 source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '846'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Inserción de contenido dinámico de Destinatario {#inserting-a-dynamic-image}
+# Inserción de contenido dinámico de Target {#inserting-a-dynamic-image}
 
 En esta guía, se muestra cómo integrar una oferta dinámica desde Target en un mensaje de correo electrónico en Adobe Campaign.
 
@@ -78,7 +78,7 @@ En este caso, necesitamos dos ofertas de redirección, la tercera (la predetermi
 
    ![](assets/target_6.png)
 
-1. Siga el mismo procedimiento para la oferta de redirección restante. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html).
+1. Siga el mismo procedimiento para la oferta de redirección restante. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=es).
 
 ## Creación de audiencias {#audiences-target}
 
