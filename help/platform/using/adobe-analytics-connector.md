@@ -10,19 +10,19 @@ exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '1551'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Conector de Adobe Analytics{#adobe-analytics-connector}
 
-## Acerca de la integración del Conector de Adobe Analytics {#about-analytics-connector-integration}
+## Acerca de la integración del conector de Adobe Analytics {#about-analytics-connector-integration}
 
 El Conector de Adobe Analytics permite que Adobe Campaign y Adobe Analytics interactúen mediante el paquete **[!UICONTROL Web Analytics connectors]**. Envía datos a Adobe Campaign en forma de segmentos con respecto al comportamiento del usuario tras una campaña de correo electrónico. A la inversa, envía indicadores y atributos de las campañas de correo electrónico que envía Adobe Campaign a Adobe Analytics.
 
 >[!CAUTION]
 >
->* El Conector de Adobe Analytics no es compatible con mensajes transaccionales (Centro de mensajería).
+>* El conector de Adobe Analytics no es compatible con mensajes transaccionales (Centro de mensajería).
    >
    >
 * Antes de empezar, asegúrese de que el sistema Identity Management de Adobe (IMS) está implementado en Campaign. [Obtenga más información en esta página](../../integrations/using/about-adobe-id.md).
@@ -45,7 +45,7 @@ Los campos de acción de cada herramienta son los siguientes:
 
 ## Configuración de la integración {#setting-up-the-integration}
 
-Para configurar Data connector, debe conectarse a la instancia de Adobe Campaign y realizar las siguientes operaciones:
+Para configurar el conector de datos, debe conectarse a la instancia de Adobe Campaign y realizar las siguientes operaciones:
 
 1. [Creación de un grupo de informes en Adobe Analytics](#report-suite-analytics)
 1. [Configuración de las variables de conversión y los eventos de éxito](#configure-conversion-success)
@@ -247,7 +247,7 @@ Están disponibles en el árbol de Adobe Campaign, en la carpeta **[!UICONTROL A
 
 
 
-## Seguimiento de envíos en Adobe Campaign {#tracking-deliveries-in-adobe-campaign}
+## Seguimiento de entregas en Adobe Campaign {#tracking-deliveries-in-adobe-campaign}
 
 Para que Adobe Experience Cloud pueda rastrear la actividad en los sitios una vez Adobe Campaign ha realizado la entrega, debe hacer referencia al conector coincidente en las propiedades de entrega. Para ello, siga los siguientes pasos:
 
