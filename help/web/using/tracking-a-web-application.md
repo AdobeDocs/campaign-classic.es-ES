@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: web-applications
 exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
 source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# Seguimiento de visitas en una aplicación web{#tracking-a-web-application}
+# Seguimiento de las visitas en una aplicación web{#tracking-a-web-application}
 
 Esta versión de Adobe Campaign permite realizar un seguimiento y medir las visitas en las páginas de las aplicaciones web mediante la inserción de etiquetas de seguimiento. Esta funcionalidad se puede utilizar para todos los tipos de aplicaciones web (formularios, páginas web, etc.).
 
@@ -36,9 +36,9 @@ Las principales mejoras incluidas en esta versión son las siguientes:
    * **Tasa de rechazo**: número de personas que solo han realizado el primer paso.
    * **Canal de conversión**: tasa de pérdida entre cada paso.
 
-   Además, un gráfico de tipo sectorial muestra la población según su origen.****
+   Además, un gráfico de tipo **sectorial** muestra la población según su fuente.
 
-## Identificación del origen de tráfico {#identifying-the-traffic-source}
+## Identificación de la fuente de tráfico {#identifying-the-traffic-source}
 
 Se pueden utilizar dos modos diferentes para identificar de dónde proviene el visitante al acceder a una aplicación Web:
 
@@ -57,7 +57,7 @@ Para identificar el origen del tráfico en una aplicación web, Adobe Campaign e
 >
 >El seguimiento anónimo solo está disponible si la opción se ha activado en el asistente de implementación al instalar Campaign.
 
-## Aplicaciones web diseñadas con el editor de contenido (DCE) {#web-applications-designed-with-digital-content-editor--dce-}
+## Aplicaciones web diseñadas con el editor de contenido digital (DCE) {#web-applications-designed-with-digital-content-editor--dce-}
 
 Cuando se crea una aplicación web con el editor de contenido HTML **Editor de contenido digital (DCE)**, las etiquetas de seguimiento se insertan desde la pestaña **[!UICONTROL Properties]** del editor. Para obtener más información sobre el editor de contenido (DCE), consulte [esta sección](about-campaign-html-editor.md).
 
