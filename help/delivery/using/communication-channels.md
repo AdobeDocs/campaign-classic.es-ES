@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1204'
 ht-degree: 100%
 
@@ -100,7 +100,7 @@ Este canal se ha diseñado únicamente para fines descriptivos, por ejemplo para
 
 ## Tipos de entregas{#types-of-deliveries}
 
-Existen tres tipos de objetos de envío en Campaign:
+Existen tres tipos de objetos de entrega en Campaign:
 
 ### Entrega única {#single-delivery}
 
