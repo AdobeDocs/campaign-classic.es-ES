@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Costes de control
-description: Aprenda a controlar los costes
+title: Control de los costes
+description: Aprenda a gestionar los costes de control
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
 source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2468'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ Se deben aplicar los pasos siguientes para implementar la administración del pr
 
 1. Definición del presupuesto
 
-   Para obtener más información, consulte [Crear un presupuesto](#creating-a-budget).
+   Para obtener más información sobre esto, consulte [Creación de un presupuesto](#creating-a-budget).
 
 1. Definición del método de cálculo de costes
 
-   Las estructuras de costes se definen para los proveedores de servicios. Consulte [Creación de un proveedor de servicios y sus categorías de coste](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+   Las estructuras de costes se definen para los proveedores de servicios. Consulte [Crear un proveedor de servicios y sus categorías de costes](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 1. Definición de costes de campaña (entregas/tareas)
 
@@ -43,7 +43,7 @@ Se deben aplicar los pasos siguientes para implementar la administración del pr
 
    Cuando la creación de la campaña avanza lo suficiente, el estado del progreso del presupuesto de la campaña se puede cambiar a **[!UICONTROL Specified]**. El coste calculado del programa se introduce automáticamente con el coste calculado de la campaña. [Compromiso, cálculo y cobro de costes](#cost-commitment--calculation-and-charging).
 
-## Crear un presupuesto {#creating-a-budget}
+## Creación de un presupuesto {#creating-a-budget}
 
 Los presupuestos se crean en el mapa a través del nodo **[!UICONTROL Campaign management > Budgets]**. El botón **[!UICONTROL New]** de la barra de herramientas permite crear un presupuesto.
 
@@ -118,7 +118,7 @@ Cuando un gasto genera una factura y esta se paga, su importe se introduce en el
 
 ### Categorías de gastos {#expense-categories}
 
-Las cantidades se pueden distribuir en varias categorías de gastos para facilitar la comprensión de los datos y para obtener información más detallada sobre las inversiones de marketing. Las categorías de ahorro se definen durante la creación del presupuesto, a través del nodo **[!UICONTROL Budgets]** del árbol.
+Las cantidades se pueden distribuir en varias categorías de gastos para facilitar la comprensión de los datos y para obtener un sistema de informes más detallado sobre las inversiones de marketing. Las categorías de ahorro se definen durante la creación del presupuesto, a través del nodo **[!UICONTROL Budgets]** del árbol.
 
 Para añadir una categoría, haga clic en el botón **[!UICONTROL Add]** de la sección inferior de la ventana.
 
@@ -138,7 +138,7 @@ Se agrega una pestaña adicional al presupuesto principal para mostrar la lista 
 
 Esta información se transfiere a los informes de presupuesto.
 
-## Agregar líneas de gastos {#adding-expense-lines}
+## Añadir líneas de gastos {#adding-expense-lines}
 
 Las líneas de gastos se añaden automáticamente al presupuesto. Se crean durante el análisis de entrega y cuando finaliza una tarea.
 
@@ -166,7 +166,7 @@ Según las categorías de costes seleccionadas, se aplican las estructuras de co
 
 >[!NOTE]
 >
->Las categorías y estructuras de coste se presentan en [Crear un proveedor de servicios y sus categorías de coste](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+>Las categorías y estructuras de coste se presentan en [Creación de un proveedor de servicios y sus categorías de coste](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 ## Compromiso, cálculo y cobro de costes {#cost-commitment--calculation-and-charging}
 
@@ -229,7 +229,7 @@ Creemos una campaña con:
 
 #### Paso 2: Configuración del proveedor de servicios y definición de las estructuras de coste {#step-2---configuring-the-service-provider-and-defining-the-cost-structures}
 
-1. Cree un proveedor de servicios y una plantilla de servicio con su estructura de coste del nodo **[!UICONTROL Administration > Campaigns]**. Para obtener más información, consulte [Crear un proveedor de servicios y sus categorías de coste](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+1. Cree un proveedor de servicios y una plantilla de servicio con su estructura de coste del nodo **[!UICONTROL Administration > Campaigns]**. Para obtener más información sobre esto, consulte [Creación de un proveedor de servicios y sus categorías de costes](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
    Para los envíos de correo postal, cree las categorías de coste **[!UICONTROL Envelopes]** (tipos 114 x 229 y 162 x 229), **[!UICONTROL Postage]** y **[!UICONTROL Print]** (tipos A3 y A4). A continuación, cree las siguientes estructuras de coste:
 
@@ -249,7 +249,7 @@ Creemos una campaña con:
 
    ![](assets/s_user_cost_mgmt_sample_7.png)
 
-#### Paso 3: Cargar el presupuesto en la campaña {#step-3---charging-the-budget-in-the-campaign}
+#### Paso 3: Asignación del presupuesto a la campaña {#step-3---charging-the-budget-in-the-campaign}
 
 1. Cree una campaña y seleccione el presupuesto creado en el paso 1.
 
@@ -265,7 +265,7 @@ Creemos una campaña con:
 
 1. Haga clic en **[!UICONTROL Ok]** y, a continuación, en **[!UICONTROL Save]** para confirmar esta información. El coste calculado de la campaña se actualiza con el coste provisional estimado.
 
-#### Paso 4: Creación de la entrega de correo postal {#step-4---creating-the-direct-mail-delivery}
+#### Paso 4: Creación de la entrega de correo directo {#step-4---creating-the-direct-mail-delivery}
 
 1. Cree un flujo de trabajo para la campaña y coloque las actividades de consulta para seleccionar el objetivo (deben especificarse las direcciones postales de los destinatarios).
 
@@ -299,7 +299,7 @@ Al editar el coste calculado, puede comprobar el desglose del coste y el estado 
 
 #### Paso 5: Creación de tareas {#step-5---creating-tasks}
 
-A esta campaña, agregaremos las dos tareas para las que se crearon las estructuras de coste anteriormente (consulte [Paso 2: Configurar el proveedor de servicios y definir las estructuras de coste](#step-2---configuring-the-service-provider-and-defining-the-cost-structures)). Para ello, en el panel de campañas, haga clic en el botón **[!UICONTROL Add a task]**. Asigne un nombre a la tarea y haga clic en **[!UICONTROL Save]**.
+A esta campaña, añadiremos las dos tareas para las que se crearon las estructuras de coste anteriormente (consulte [Paso 2: Configuración del proveedor de servicios y definir las estructuras de coste](#step-2---configuring-the-service-provider-and-defining-the-cost-structures)). Para ello, en el panel de campañas, haga clic en el botón **[!UICONTROL Add a task]**. Asigne un nombre a la tarea y haga clic en **[!UICONTROL Save]**.
 
 1. La tarea se agrega entonces a la lista. Debe editarla para configurarla.
 
@@ -353,7 +353,7 @@ Especifique el número de pedido, el proveedor de servicios y la cuantía total 
 
 ### Emisión y seguimiento de facturas {#issuing-and-tracking-invoices}
 
-Para cada proveedor de servicios, puede guardar facturas y definir su estado y el presupuesto cargado.
+Para cada proveedor de servicios, puede guardar las facturas y definir su estado y el presupuesto cobrado.
 
 Las facturas se crean y almacenan en el nodo **[!UICONTROL MRM > Invoices]** de Adobe Campaign.
 
