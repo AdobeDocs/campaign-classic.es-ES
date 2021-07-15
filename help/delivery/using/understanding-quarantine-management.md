@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2613'
 ht-degree: 100%
 
@@ -45,11 +45,11 @@ Al estar en la **lista de bloqueados**, no obstante, el perfil ya no se tendrá 
 
 ## Identificación de direcciones en cuarentena {#identifying-quarantined-addresses}
 
-Las direcciones en cuarentena pueden enumerarse para una entrega específico o para toda la plataforma.
+Las direcciones en cuarentena pueden enumerarse para una entrega específica o para toda la plataforma.
 
 ### Identificación de direcciones en cuarentena para una entrega {#identifying-quarantined-addresses-for-a-delivery}
 
-Las direcciones en cuarentena de una entrega específico se enumeran durante la fase de preparación de la entrega, en los registros de entrega del panel de entregas (consulte [Registro e historial de entregas](delivery-dashboard.md#delivery-logs-and-history)).
+Las direcciones en cuarentena de una entrega específica se enumeran durante la fase de preparación de la entrega, en los registros de envío del tablero de entregas (consulte [Registro e historial de entregas](delivery-dashboard.md#delivery-logs-and-history)).
 
 ### Identificación de direcciones en cuarentena para toda la plataforma {#identifying-quarantined-addresses-for-the-entire-platform}
 
@@ -68,11 +68,11 @@ La siguiente información está disponible para cada dirección:
 >El aumento del número de cuarentenas es un efecto normal, relacionado con el “desgaste” de la base de datos. Por ejemplo, si se considera que la duración de una dirección de correo electrónico es de tres años y la lista de distribución aumenta en un 50 % cada año, el aumento de la cuarentena se puede calcular de la siguiente manera:
 >
 >Fin de año 1: (1*0,33)/(1+0,5) = 22 %.
->Fin de año 2: ((1,22*0,33)+0,33)/(1,5+0,75) = 32,5 %.
+Fin de año 2: ((1,22*0,33)+0,33)/(1,5+0,75) = 32,5 %.
 
-### Identificación de direcciones en cuarentena en informes de entrega {#identifying-quarantined-addresses-in-delivery-reports}
+### Identificación de direcciones en cuarentena en informes de envío {#identifying-quarantined-addresses-in-delivery-reports}
 
-Los siguientes informes proporcionan información sobre las direcciones en cuarentena:
+Los siguientes informes proporcionan información acerca de las direcciones en cuarentena:
 
 * Para cada entrega, el informe **[!UICONTROL Delivery summary]** muestra la cantidad de direcciones en cuarentena en el destino de la entrega. Muestra:
 
@@ -90,7 +90,7 @@ Se puede buscar el estado del correo electrónico de cualquier destinatario. Par
 
 ![](assets/tech_quarant_recipients_filter.png)
 
-### Rehabilitación de una dirección en cuarentena {#removing-a-quarantined-address}
+### Eliminación de una dirección en cuarentena {#removing-a-quarantined-address}
 
 Si es necesario, puede eliminar manualmente una dirección de la lista de cuarentena. Además, el flujo de trabajo **[!UICONTROL Database cleanup]** elimina automáticamente de la lista de cuarentena las direcciones que coinciden con condiciones específicas.
 
@@ -111,8 +111,7 @@ Las direcciones se eliminan automáticamente de la lista de cuarentena en los si
 A continuación, su estado cambia a **[!UICONTROL Valid]**.
 
 >[!IMPORTANT]
->
->Los destinatarios con una dirección en un estado **[!UICONTROL Quarantine]** o **[!UICONTROL On denylist]** nunca se eliminarán, aunque reciban un correo electrónico.
+Los destinatarios con una dirección en un estado **[!UICONTROL Quarantine]** o **[!UICONTROL On denylist]** nunca se eliminarán, aunque reciban un correo electrónico.
 
 Puede modificar el número de errores y el periodo entre dos errores. Para ello, cambie la configuración correspondiente en el asistente de implementación (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**). Para obtener más información sobre el asistente de implementación, consulte [esta sección](../../installation/using/deploying-an-instance.md).
 
@@ -252,11 +251,10 @@ El flujo de trabajo **[!UICONTROL mobileAppOptOutMgt]** se ejecuta cada 6 horas 
 Durante el análisis de la entrega, todos los dispositivos excluidos del destino se añaden automáticamente a la tabla **excludeLogAppSubRcp**.
 
 >[!NOTE]
->
->Para los clientes que utilicen el conector Baidu, los distintos tipos de errores son:
->* Problema de conexión al principio del envío: tipo de error **[!UICONTROL Undefined]**, motivo del error **[!UICONTROL Unreachable]**, con reintento.
->* Se ha perdido la conexión durante un envío: error de software, motivo del error **[!UICONTROL Refused]**, con reintento.
->* Error sincrónico devuelto por Baidu durante el envío: error de hardware, motivo del error **[!UICONTROL Refused]**, sin reintento.
+Para los clientes que utilicen el conector Baidu, los distintos tipos de errores son:
+* Problema de conexión al principio del envío: tipo de error **[!UICONTROL Undefined]**, motivo del error **[!UICONTROL Unreachable]**, con reintento.
+* Se ha perdido la conexión durante un envío: error de software, motivo del error **[!UICONTROL Refused]**, con reintento.
+* Error sincrónico devuelto por Baidu durante el envío: error de hardware, motivo del error **[!UICONTROL Refused]**, sin reintento.
 
 Adobe Campaign se pone en contacto con el servidor Baidu cada 10 minutos para recuperar el estado del mensaje enviado y actualiza los broadlogs. Si se declara un mensaje como enviado, el estado del mensaje en los broadlogs se establece en **[!UICONTROL Received]**. Si Baidu declara un error, el estado se establece en **[!UICONTROL Failed]**.
 
@@ -413,7 +411,7 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
     <tr> 
    <td> Autenticación: el cliente no tiene autorización para recuperar los token de acceso mediante este método o no está autorizado para ninguno de los ámbitos solicitados.<br /> </td> 
    <td> Fallo<br /> </td> 
-   <td> authorized_client </td> 
+   <td> unauthorized_client </td> 
    <td> Ignorado</td>
    <td> Rechazado<br /> </td> 
    <td> No<br /> </td> 
@@ -453,7 +451,7 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
     <tr> 
    <td> Autenticación: audiencia de ámbito de OAuth o token de ID no válida proporcionada<br /> </td> 
    <td> Fallo<br /> </td> 
-   <td> authorized_client</td> 
+   <td> unauthorized_client</td> 
    <td> Ignorado</td> 
    <td> Rechazado<br /> </td> 
    <td> No<br /> </td> 
@@ -469,15 +467,14 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
  </tbody> 
 </table>
 
-## Cuarentena de SMS {#sms-quarantines}
+## Cuarentenas de SMS {#sms-quarantines}
 
 **Para conectores estándar**
 
 El mecanismo de cuarentena para mensajes SMS es el mismo a nivel global que el proceso general. Consulte [Acerca de las cuarentenas](#about-quarantines). Las particularidades para los SMS se enumeran a continuación.
 
 >[!NOTE]
->
->La tabla **[!UICONTROL Delivery log qualification]** no se aplica al conector **Extended generic SMPP**.
+La tabla **[!UICONTROL Delivery log qualification]** no se aplica al conector **Extended generic SMPP**.
 
 <table> 
  <tbody> 
@@ -535,9 +532,8 @@ El conector SMPP recupera los datos del mensaje de SR (informe de estado) que se
 Antes de que se clasifique un nuevo tipo de error, el motivo del error se establece siempre como **Rechazado** de forma predeterminada.
 
 >[!NOTE]
->
->Los tipos de errores y los motivos del error son los mismos que para los correos electrónicos. Consulte [Tipos y motivos de errores de entrega](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
->Solicite a su proveedor una lista de estados y códigos de error para establecer tipos y motivos de error adecuados para los errores en la tabla de clasificación de registros de entregas.
+Los tipos de errores y los motivos del error son los mismos que para los correos electrónicos. Consulte [Tipos y motivos de errores de entrega](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+Solicite a su proveedor una lista de estados y códigos de error para establecer tipos y motivos de error adecuados para los errores en la tabla de clasificación de registros de entregas.
 
 Ejemplo de mensaje generado:
 
