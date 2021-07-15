@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
 source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
 ht-degree: 100%
 
 ---
 
-# Ejemplo de uso: Visualización del informe con las respuestas a una encuesta en línea{#use-case-displaying-report-on-answers-to-an-online-survey}
+# Caso de uso: visualización del informe con las respuestas a una encuesta en línea{#use-case-displaying-report-on-answers-to-an-online-survey}
 
 Las respuestas a las encuestas de Adobe Campaign se pueden recopilar y analizar mediante informes dedicados.
 
