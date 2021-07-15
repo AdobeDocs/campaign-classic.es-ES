@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
 source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '728'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ En la casilla **[!UICONTROL Discussion forum]**:
 >
 >Una vez que se ha publicado un mensaje en el foro, ya no se puede cambiar ni eliminar.
 
-## Publicar en el foro personal de un operador {#posting-to-the-personal-forum-of-an-operator}
+## Publicación en el foro personal de un operador {#posting-to-the-personal-forum-of-an-operator}
 
 Puede enviar un mensaje al foro de un operador si, por ejemplo, el mensaje no está relacionado con una campaña específica, pero aun así desea realizar un seguimiento de la conversación en Adobe Campaign. Los foros personales son públicos y todos los operadores pueden ver el mensaje. El operador recibe un mensaje cada vez que alguien publica en su foro personal.
 
@@ -99,7 +99,7 @@ La suscripción a un foro le permite seguir las conversaciones. Recibe una notif
 
    ![](assets/mrm_forum_subscribers.png)
 
-## Comprobación de la entrega de notificaciones {#checking-notification-delivery}
+## Comprobación de la notificación de la entrega {#checking-notification-delivery}
 
 Si los operadores suscritos a un foro no reciben notificaciones como se espera:
 
