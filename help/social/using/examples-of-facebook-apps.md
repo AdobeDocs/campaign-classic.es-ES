@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: annexes
 exl-id: 3b8c7db4-9c55-42f6-8e09-e5ab781efe8f
 source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2222'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Las siguientes limitaciones están vinculadas directamente a Facebook:
 * Debe crear todas las aplicaciones web en HTTPS.
 * Una aplicación de Facebook que se muestra mediante una ficha tiene una anchura de 810 píxeles.
 
-## Inicio rápido: creación de una aplicación de Facebook en 7 pasos {#quick-start--creating-a-facebook-application-in-7-steps}
+## Inicio rápido: creación de una aplicación de Facebook en siete pasos {#quick-start--creating-a-facebook-application-in-7-steps}
 
 Este ejemplo proporciona un proceso paso a paso de cómo mostrar una aplicación creada por Adobe Campaign en Facebook. En este caso, deseamos crear una aplicación que le permita mostrar el mensaje de **bienvenida** cuando el usuario haga clic en la ficha de la aplicación (**App01**).
 
@@ -88,7 +88,7 @@ Compruebe que la ficha de la aplicación **App01** aparece en la página de Face
 
 ![](assets/social_webapp_042.png)
 
-## Cómo reenviar la configuración a una aplicación de Facebook? {#how-to-forward-settings-to-a-facebook-application-}
+## ¿Cómo puedo reenviar la configuración a una aplicación de Facebook? {#how-to-forward-settings-to-a-facebook-application-}
 
 >[!IMPORTANT]
 >
@@ -120,7 +120,7 @@ Para recrear este ejemplo de uso, se ha creado una aplicación web compuesta por
 
 ![](assets/social_webapp_018.png)
 
-## Cómo adquirir datos de seguidores? {#how-to-acquire-fan-data-}
+## ¿Cómo puedo adquirir datos de seguidores? {#how-to-acquire-fan-data-}
 
 >[!IMPORTANT]
 >
@@ -297,7 +297,7 @@ La pantalla **[!UICONTROL Activities]** de la página de detalles de un visitant
    >
    >Para que Adobe Campaign pueda recopilar los registros de un seguidor, debe hacer clic en el botón **[!UICONTROL Subscribe]** en la pantalla de configuración del servicio. Para más información, consulte [Configuración de cuentas externas](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
-## Cómo cargar previamente un formulario mediante datos de perfil de Facebook {#how-to-pre-load-the-fields-of-a-form-using-facebook-profile-data}
+## Cómo precargar un formulario mediante datos de perfil de Facebook {#how-to-pre-load-the-fields-of-a-form-using-facebook-profile-data}
 
 La aplicación **[!UICONTROL Social Marketing]** también permite agregar un botón a un formulario para precargar campos usando información de perfil de Facebook. Esta opción, que está disponible en todas las plantillas de aplicaciones web (actividades de tipo **[!UICONTROL Page]**) se detalla en [esta sección](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
 
@@ -309,9 +309,9 @@ La aplicación **[!UICONTROL Social Marketing]** también permite agregar un bot
 
 **Precargar los campos del formulario con datos tomados del perfil de Facebook**
 
-Se crea un formulario web y se incluyen elementos con los que el usuario no tiene interacción en las páginas del formulario; son elementos estáticos como imágenes, contenido HTML, barras horizontales o vínculos de hipertexto. Obtenga más información sobre los elementos estáticos de un formulario web en [esta página](../../web/using/static-elements-in-a-web-form.md).
+Puede crear un formulario web e incluir elementos con los que el usuario no interactúa en las páginas del formulario; son elementos estáticos como imágenes, contenido HTML, barras horizontales o un vínculo de hipertexto. Obtenga más información acerca de los elementos estáticos de un formulario web en [esta página](../../web/using/static-elements-in-a-web-form.md).
 
-Al insertar un elemento estático, la opción **[!UICONTROL Preload with Facebook]** permite insertar un botón en un formulario para precargar los campos mediante la información de perfil de Facebook.
+Al insertar un elemento estático, la opción **[!UICONTROL Preload with Facebook]** permite insertar un botón en un formulario para cargar previamente los campos mediante la información de perfil de Facebook.
 
 ![](assets/web_social_webapp_037.png)
 
