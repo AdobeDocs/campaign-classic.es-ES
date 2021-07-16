@@ -23,9 +23,8 @@ El Conector de Adobe Analytics permite que Adobe Campaign y Adobe Analytics inte
 >[!CAUTION]
 >
 >* El conector de Adobe Analytics no es compatible con mensajes transaccionales (Centro de mensajería).
-   >
-   >
-* Antes de empezar, asegúrese de que el sistema Identity Management de Adobe (IMS) está implementado en Campaign. [Obtenga más información en esta página](../../integrations/using/about-adobe-id.md).
+>
+>* Antes de empezar, asegúrese de que el sistema Identity Management de Adobe (IMS) está implementado en Campaign. [Obtenga más información en esta página](../../integrations/using/about-adobe-id.md).
 
 
 A través del Conector de Adobe Analytics, Adobe Campaign puede medir la audiencia de Internet (Web Analytics). Gracias a estas integraciones, Adobe Campaign puede recuperar los datos del comportamiento del visitante para uno o más sitios después de una campaña de marketing y (después del análisis) ejecutar nuevas campañas con la intención de convertirlos en compradores. Por el contrario, las herramientas de Web Analytics permiten que Adobe Campaign reenvíe indicadores y atributos de campaña a sus plataformas.

@@ -26,9 +26,8 @@ Este capítulo detalla cómo realizar la creación y la administración **Encues
 >[!NOTE]
 >
 >* Los pasos para la creación de un formulario web estándar se detallan en [este documento](../../web/using/about-web-forms.md).
-   >
-   >
-* La administración de la aplicación web se explica en [este documento](../../web/using/about-web-applications.md). Consulte este capítulo para obtener más información.
+>
+>* La administración de la aplicación web se explica en [este documento](../../web/using/about-web-applications.md). Consulte este capítulo para obtener más información.
 
 
 ## Funcionalidad del ámbito {#campaign-surveys-scope}
