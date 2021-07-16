@@ -151,7 +151,6 @@ REINDEX TABLE nmsmirrorpageinfo;
 >* Las instrucciones VACUUM y REINDEX bloquearán la tabla, lo que detiene algunos procesos mientras se realiza el mantenimiento.
 >* Para tablas muy grandes (generalmente superiores a 5 Gb), la declaración VACUUM FULL puede volverse bastante ineficiente y llevar mucho tiempo. Adobe no recomienda utilizarlo para la tabla **AAAANmsBroadLogXxx**.
 >* Esta operación de mantenimiento se puede implementar mediante un flujo de trabajo de Adobe Campaign mediante una actividad **[!UICONTROL SQL]**. Para obtener más información, consulte [esta sección](../../workflow/using/architecture.md). Asegúrese de programar el mantenimiento para un tiempo de actividad bajo que no entre en conflicto con la ventana de copia de seguridad.
-
 >
 
 
