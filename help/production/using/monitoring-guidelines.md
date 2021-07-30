@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: introduction
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 69f7b494c244fdf01a65ebe8d55c141d947a0980
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 27%
@@ -25,7 +25,7 @@ Encontrará información detallada [aquí](../../production/using/monitoring-pro
 
 ![](assets/monitoring_tab.png)
 
-## Monitorización de procesos del Campaign Classic {#monitoring-campaign-classic-processes}
+## Monitorización de los procesos del Campaign Classic {#monitoring-campaign-classic-processes}
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">Supervisión de la instancia</a></p></td>
@@ -36,7 +36,7 @@ Encontrará información detallada [aquí](../../production/using/monitoring-pro
 
 Hay maneras adicionales de monitorizar los diferentes procesos de Campaign disponibles. Proporcionan varias formas de monitorizar las instancias para asegurarse de que el sistema está en buen estado y, finalmente, solucionar problemas que pueden producirse al configurar flujos de trabajo, enviar envíos, etc.
 
-### Monitorización de la instancia {#monitoring-instance}
+### Supervisión de la instancia {#monitoring-instance}
 
 <img src="assets/do-not-localize/icon_system.svg" width="60px">
 
@@ -56,7 +56,7 @@ El Panel de control de Campaign le permite administrar varias configuraciones de
 >
 >Todos los usuarios administradores pueden acceder al Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 >
->Tenga en cuenta que la instancia debe alojarse en AWS y actualizarse con la última versión de [Gold Standard](../../rn/using/gs-overview.md) o la [última versión de GA (21.1)](../../rn/using/latest-release.md). Aprenda a comprobar su versión en [esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es).
+>Tenga en cuenta que la instancia debe alojarse en AWS y actualizarse con la última versión de [Gold Standard](../../rn/using/gs-overview.md) o la [última versión de GA (21.1.3)](../../rn/using/latest-release.md). Aprenda a comprobar su versión en [esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es).
 
 ### Monitorización de flujos de trabajo {#monitoring-workflows}
 
@@ -90,7 +90,7 @@ Las siguientes directrices y prácticas recomendadas al utilizar flujos de traba
 
 **Informes SMTP**
 
-Los informes SMTP muestran las estadísticas de entrega y los errores SMTP por dominio. [Obtenga más información](../../production/using/monitoring-processes.md)
+Los informes SMTP muestran las estadísticas de entrega y los errores SMTP por dominio. [Más información](../../production/using/monitoring-processes.md)
 
 **Prácticas recomendadas**
 
@@ -98,12 +98,12 @@ Los informes SMTP muestran las estadísticas de entrega y los errores SMTP por d
 
 **Solución de problemas de**
 entregaSe pueden realizar acciones específicas al encontrar problemas con los envíos:
-* [Problemas con entregas](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
+* [Problemas de entregas](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [Problemas de visualización de imágenes](../../production/using/image-display-issues.md)
 * [Problemas de rendimiento de envíos](../../delivery/using/delivery-performances.md)
 * [Problemas con archivos temporales](../../production/using/temporary-files.md) : solo modelos  *de alojamiento locales*
 
-### Monitorización de la base de datos {#monitoring-database}
+### Supervisión de la base de datos {#monitoring-database}
 
 <img src="assets/do-not-localize/icon_database.svg" width="60px">
 
