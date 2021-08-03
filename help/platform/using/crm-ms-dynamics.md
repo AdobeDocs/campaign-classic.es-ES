@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '947'
-ht-degree: 100%
+source-git-commit: 9fb5b1a256a7c77e64a449aea9a4489de1f9123a
+workflow-type: tm+mt
+source-wordcount: '1049'
+ht-degree: 74%
 
 ---
 
@@ -17,11 +17,7 @@ ht-degree: 100%
 
 En esta página, aprenderá a conectar Campaign Classic a **Microsoft Dynamics CRM 365**.
 
-Las implementaciones posibles son:
-
-* mediante **API web** (recomendado). Consulte [la siguiente sección](#microsoft-dynamics-implementation-step) para aprender a configurar la conexión con Microsoft Dynamics.
-* con **Office 365**. Consulte [este vídeo](#microsoft-dynamics-office-365) para conocer los pasos clave para configurar esta integración.
-* para una implementación **On-premise**, aplique los pasos clave de Office 365.
+La implementación posible se realiza mediante **Web API** (recomendado). Consulte [la siguiente sección](#microsoft-dynamics-implementation-step) para aprender a configurar la conexión con Microsoft Dynamics.
 
 La sincronización de datos se realiza mediante una actividad de flujo de trabajo dedicada. [Más información](../../platform/using/crm-data-sync.md).
 
@@ -48,19 +44,16 @@ En Campaign Classic:
 
 
 >[!CAUTION]
->
 > Al conectar Adobe Campaign con Microsoft Dynamics, las limitaciones son:
 > * La instalación de complementos puede cambiar el comportamiento de CRM, lo que puede dar lugar a problemas de compatibilidad con Adobe Campaign
 > * Seleccionar varias enumeraciones
->
-
 
 
 ## Configurar Microsoft Dynamics CRM {#config-crm-microsoft}
 
 Para generar el token de acceso y las claves para configurar la cuenta, debe iniciar sesión en [Microsoft Azure Directory](https://portal.azure.com) mediante credenciales de **administrador global**. Luego, siga los pasos descritos a continuación.
 
-### Obtener el ID de cliente de Microsoft Dynamics {#get-client-id-microsoft}
+### Obtenga el ID de cliente de Microsoft Dynamics {#get-client-id-microsoft}
 
 Para obtener el ID de cliente, debe registrar una aplicación en Azure Active Directory. El ID de cliente es el mismo que el ID de aplicación.
 
@@ -73,7 +66,7 @@ Una vez guardado, obtendrá un **ID de aplicación** que es el identificador de 
 
 Obtenga más información en [esta página](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory).
 
-### Generar secreto de cliente de Microsoft Dynamics {#config-client-secret-microsoft}
+### Genere el secreto de cliente de Microsoft Dynamics {#config-client-secret-microsoft}
 
 El secreto de cliente es la clave exclusiva del ID de cliente. Para obtener el identificador de clave de certificado, siga los pasos a continuación:
 
@@ -88,18 +81,43 @@ El secreto de cliente es la clave exclusiva del ID de cliente. Para obtener el i
    - openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout '<'private key name'>' -out '<'public certificate name'>
    ```
 
-1. Haga clic en el vínculo **manifest** para obtener el **identificador de clave de certificado** y el **identificador de clave**.
+   >[!NOTE]
+   >
+   >Puede cambiar el número de días, aquí `-days 365`, en el ejemplo de código para un periodo de validez de certificado más largo.
 
-### Configurar permisos {#config-permissions-microsoft}
+1. Luego tendrá que codificarlo en base64. Para ello, puede utilizar la ayuda de un codificador Base64 o utilizar la línea de comandos `base64 -w0 private.key` para Linux.
 
-Debe configurar los **permisos requeridos** para la aplicación que se creó.
+1. Haga clic en el enlace **Manifest** para obtener el **Identificador de clave de certificado (customKeyIdentifier)** y el **ID de clave (keyId)**.
+
+### Configure los permisos {#config-permissions-microsoft}
+
+**Paso 1**: Configure los  **permisos** requeridos para la aplicación que se creó.
 
 1. Vaya a **Azure Active Directory > Registros de aplicación** y seleccione la aplicación que se creó anteriormente.
 1. Haga clic en **Configuración** en la parte superior izquierda.
 1. En **Permisos requeridos**, haga clic en **Añadir** y, luego, en **Seleccionar una API > Dynamics CRM en línea**.
-1. A continuación, haga clic en **Seleccionar**, active la casilla **Acceder a Dynamics 365 como usuarios de la organización** y haga clic en **Seleccionar**.
+1. Haga clic en **Seleccionar**, active **Access Dynamics 365 as Organization users** y haga clic en **Seleccionar**.
+1. A continuación, desde la aplicación, seleccione el **Manifiesto** en el menú **Administrar**.
 
-### Crear un usuario de aplicación {#create-app-user-microsoft}
+1. En el editor **Manifest**, establezca la propiedad `allowPublicClient` de `null` en `true` y haga clic en **Guardar**.
+
+**Paso 2**: Conceder consentimiento de administrador
+
+1. Vaya a **Azure Active Directory > Aplicaciones empresariales**.
+
+1. Seleccione la aplicación a la que desea conceder el consentimiento de administrador para todo el usuario.
+
+1. En el menú del panel izquierdo, seleccione **Permisos** en **Seguridad**.
+
+1. Haga clic en **Conceder consentimiento de administrador**.
+
+Para obtener más información, consulte [Documentación de Azure](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/grant-admin-consent#grant-admin-consent-from-the-azure-portal).
+
+### Cree un usuario de aplicación {#create-app-user-microsoft}
+
+>[!NOTE]
+>
+> Este paso es opcional con autenticación **[!UICONTROL Password credentials]**.
 
 El usuario de la aplicación es el usuario que usará la aplicación registrada arriba. Cualquier cambio realizado en Microsoft Dynamics mediante la aplicación registrada anteriormente se realizará mediante este usuario.
 
@@ -129,27 +147,27 @@ El usuario de la aplicación es el usuario que usará la aplicación registrada 
 1. Asigne el **ID de aplicación** para [la aplicación que creó anteriormente](#get-client-id-microsoft).
 1. Haga clic en **Administrar funciones** y elija la función **Administrador del sistema** para el usuario.
 
-## Configurar Campaign {#configure-acc-for-microsoft}
+## Configuración de Campaign {#configure-acc-for-microsoft}
 
-Para conectar Microsoft Dynamics 365 y Campaign, debe crear y configurar una cuenta externa dedicada en Campaign.
+>[!NOTE]
+>
+> Tras la retirada del mercado de [RDS de Microsoft](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#microsoft-dynamics-crm-2011-endpoint), los tipos de implementaciones de CRM local y Office 365 ya no son compatibles con Campaign. Adobe Campaign ahora solo admite la implementación de API web para la versión de CRM **Dynamic CRM 365**. [Más información](../../rn/using/deprecated-features.md#crm-connectors).
+
+Para conectar Microsoft Dynamics 365 y Campaign, debe crear y configurar un **[!UICONTROL External Account]** dedicado en Campaign.
 
 1. Vaya a **[!UICONTROL Administration > Platform > External accounts]**.
 
-1. Cree una nueva cuenta externa, seleccione el tipo **[!UICONTROL Microsoft Dynamics CRM]** y la opción **[!UICONTROL Enable]**.
+1. Seleccione la cuenta externa **[!UICONTROL Microsoft Dynamics CRM]**. Marque la opción **[!UICONTROL Enabled]**.
 
-1. Seleccione el tipo de implementación **[!UICONTROL Web API]**:
-
-   Adobe Campaign Classic es compatible con la interfaz de Dynamics 365 REST con el protocolo de oAuth authentication con **[!UICONTROL Certificate]** o **[!UICONTROL Password Credentials]**.
-
-   Use la configuración [definida previamente](#get-client-id-microsoft) en Azure Directory para configurar la cuenta externa.
-
-   ![](assets/crm-ms-dynamics-ext-account.png)
+1. Rellene la información necesaria para conectar Microsoft Dynamics 365 y Campaign.
 
    >[!NOTE]
    >
-   >La configuración de cuenta externa de Microsoft Dynamics CRM se detalla [en esta sección](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account).
+   >La configuración de cuentas externas de Microsoft Dynamics CRM con cada **[!UICONTROL CRM O-Auth type]** se detalla [en esta sección](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account).
 
-1. Haga clic en el vínculo **[!UICONTROL Microsoft CRM configuration wizard...]**: Adobe Campaign detecta automáticamente las tablas de la plantilla de datos de Microsoft Dynamics.
+   ![](assets/crm-ms-dynamics-ext-account.png)
+
+1. Haga clic en el vínculo **[!UICONTROL Microsoft CRM configuration wizard...]**. Adobe Campaign detecta automáticamente las tablas de la plantilla de datos de Microsoft Dynamics.
 
    ![](assets/crm_connectors_msdynamics_02.png)
 
@@ -174,13 +192,6 @@ Para conectar Microsoft Dynamics 365 y Campaign, debe crear y configurar una cue
    ![](assets/crm_connectors_msdynamics_06.png)
 
 Campaign y Microsoft Dynamics ahora están conectados. Puede configurar la sincronización de datos entre los dos sistemas. Obtenga más información en la sección [Sincronización de datos](../../platform/using/crm-data-sync.md).
-
-## Configurar la integración de Microsoft Dynamics CRM Office 365{#microsoft-dynamics-office-365}
-
-Vea este vídeo para aprender a integrar Dynamics 365 con Adobe Campaign Classic en el contexto de una implementación de Office 365.
-
->[!VIDEO](https://video.tv.adobe.com/v/23837?quality=12)
-
 
 ## Tipos de datos de campo admitidos {#ms-dyn-supported-types}
 
