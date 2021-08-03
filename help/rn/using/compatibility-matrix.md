@@ -6,10 +6,10 @@ feature: Información general
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 571dd96d1f3bff5c3dab05dce5319f913f29a670
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 100%
+source-wordcount: '545'
+ht-degree: 99%
 
 ---
 
@@ -178,7 +178,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <tr>
 <td>Conector de Microsoft Dynamics</td>
 <td>
-<p>API web: Dynamics 365 On-Premise y en línea</p>
+<p>API web</p>
 </td>
 </tr>
 </tbody>
