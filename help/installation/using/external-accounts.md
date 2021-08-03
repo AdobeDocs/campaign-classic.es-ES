@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 11de485a97d112b308c145775537d9b6255f124f
+source-git-commit: 94664ec56d269afef926663c52b84ccaaab02480
 workflow-type: tm+mt
-source-wordcount: '1552'
-ht-degree: 77%
+source-wordcount: '1636'
+ht-degree: 72%
 
 ---
 
@@ -190,7 +190,7 @@ La configuración de cuentas externas depende del motor de la base de datos. Obt
 * Configuración del acceso a [Sybase IQ](../../installation/using/configure-fda-sybase.md)
 * Configuración del acceso al [Teradata](../../installation/using/configure-fda-teradata.md)
 
-### Conexión de facebook {#facebook-connect-external-account}
+### Facebook connect {#facebook-connect-external-account}
 
 La cuenta externa de **[!UICONTROL Facebook Connect]** permite mostrar contenido personalizado en las aplicaciones de Facebook, lo que facilita la adquisición de clientes potenciales mediante esta red social.
 
@@ -288,19 +288,17 @@ La cuenta externa **[!UICONTROL AEM (AEM instance)]** permite administrar el con
 
 Para obtener más información, consulte [esta sección](../../integrations/using/about-adobe-experience-manager.md).
 
-
-
 ## Cuentas externas del conector CRM
 
 ### Microsoft Dynamics CRM {#microsoft-dynamics-crm-external-account}
 
-La cuenta externa **[!UICONTROL Microsoft Dynamics CRM]** permite importar y exportar datos de Microsoft Dynamics en Adobe Campaign.
-
-Obtenga más información sobre Campaign - Conector de Microsoft Dynamics CRM en esta [página](../../platform/using/crm-ms-dynamics.md).
-
 >[!NOTE]
 >
 > **[!UICONTROL On-premise]** Los tipos de  **[!UICONTROL Office 365]** implementación y ya no se utilizan. [Más información](../../rn/using/deprecated-features.md).
+
+La cuenta externa **[!UICONTROL Microsoft Dynamics CRM]** permite importar y exportar datos de Microsoft Dynamics en Adobe Campaign.
+
+Obtenga más información sobre Campaign - Conector de Microsoft Dynamics CRM en esta [página](../../platform/using/crm-ms-dynamics.md).
 
 Con el tipo de implementación **[!UICONTROL Web API]** y la autenticación **[!UICONTROL Password credentials]**, debe proporcionar los siguientes detalles:
 
@@ -314,13 +312,15 @@ Con el tipo de implementación **[!UICONTROL Web API]** y la autenticación **[!
 
    URL del servidor Microsoft CRM.
 
+   Para encontrar su Microsoft CRM **[!UICONTROL Server URL]**, acceda a su cuenta de Microsoft Dynamics CRM, haga clic en **Dynamics 365** y seleccione la aplicación. A continuación, puede encontrar su **[!UICONTROL Server URL]** en la barra de direcciones de su navegador, p. ej. `https://myserver.crm.dynamics.com/`.
+
 * **[!UICONTROL Client identifier]**
 
    El ID del cliente se puede encontrar desde el portal de administración de Microsoft Azure en la categoría **[!UICONTROL Update your code]**, campo **[!UICONTROL Client ID]**.
 
 * **[!UICONTROL CRM version]**
 
-   Versión de la CRM entre **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** o **[!UICONTROL Dynamics CRM 2016]**.
+   Seleccione **[!UICONTROL Dynamics CRM 365]** versión de CRM.
 
 Con el tipo de implementación **[!UICONTROL Web API]** y la autenticación **[!UICONTROL Certificate]**, debe proporcionar los siguientes detalles:
 
@@ -330,9 +330,13 @@ Con el tipo de implementación **[!UICONTROL Web API]** y la autenticación **[!
 
    URL del servidor Microsoft CRM.
 
+   Para encontrar su Microsoft CRM **[!UICONTROL Server URL]**, acceda a su cuenta de Microsoft Dynamics CRM, haga clic en **Dynamics 365** y seleccione la aplicación. A continuación, puede encontrar su **[!UICONTROL Server URL]** en la barra de direcciones de su navegador, p. ej. `https://myserver.crm.dynamics.com/`.
+
 * **[!UICONTROL Private Key (Base64 encoded)]**
 
-   Clave privada codificada en Base64.
+   Tenga en cuenta que la clave privada debe codificarse en Base64.
+
+   Para ello, puede utilizar la ayuda de un codificador Base64 o utilizar la línea de comandos `base64 -w0 private.key` para Linux.
 
 * **[!UICONTROL Custom Key identifier]**
 
@@ -348,7 +352,7 @@ Con el tipo de implementación **[!UICONTROL Web API]** y la autenticación **[!
 
 Para obtener más información sobre esta configuración, consulte esta [página](../../platform/using/crm-connectors.md).
 
-### Salesforce.com CRM {#salesforce-crm-external-account}
+### Salesforce.com CRM  {#salesforce-crm-external-account}
 
 La cuenta externa **[!UICONTROL Salesforce CRM]** permite importar y exportar datos de Salesforce a Adobe Campaign.
 
