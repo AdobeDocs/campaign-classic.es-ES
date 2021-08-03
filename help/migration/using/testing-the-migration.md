@@ -6,10 +6,10 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 571dd96d1f3bff5c3dab05dce5319f913f29a670
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 2%
+source-wordcount: '701'
+ht-degree: 1%
 
 ---
 
@@ -156,14 +156,20 @@ Se buscan las expresiones siguientes (con distinción de mayúsculas y minúscul
    <td> SQLDATA<br /> </td> 
    <td> PU-0006<br /> </td> 
    <td> Error<br /> </td> 
-   <td> Este tipo de error provoca un error de migración. Consulte <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. Si obtiene registros de errores de aplicaciones web de tipo de visión general (migración desde v6.02), consulte <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Aplicaciones web</a>.<br /> </td> 
+   <td> Este tipo de error provoca un error de migración. Consulte <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. Si obtiene registros de errores de aplicaciones web de tipo de visión general (migración desde v6.02), consulte <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Configurar campaña</a>.<br /> </td> 
+  </tr>
+  <tr> 
+   <td> crmDeploymentType="onpremise"<br /> </td> 
+   <td> PU-0007<br /> </td> 
+   <td> Error<br /> </td> 
+   <td> Este tipo de implementación ya no es compatible. El tipo de implementación del conector Microsoft CRM local y Office 365 ya no se utiliza</a>. Para cambiar la implementación de la API web, consulte <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">Aplicaciones web</a>.<br /> </td>
   </tr> 
  </tbody> 
 </table>
 
 También se realiza una comprobación de la coherencia de la base de datos y el esquema.
 
-### Opción de restauración {#restoration-option}
+### Opción Restauración {#restoration-option}
 
 Esta opción permite restaurar objetos predeterminados si se han modificado. Para cada objeto restaurado, se almacena una copia de seguridad de los cambios en la carpeta seleccionada:
 
