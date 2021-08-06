@@ -2,9 +2,7 @@
 product: campaign
 title: Migrar al conector de Adobe Analytics
 description: 'Campaign: Preguntas más frecuentes sobre el conector de Analytics'
-hide: true
-hidefromtoc: true
-source-git-commit: 41478c656ffd4e113788149e6cca9ed00602789e
+source-git-commit: e61f9facac61f942d26b4ffcb5a84a43ede6872d
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 5%
