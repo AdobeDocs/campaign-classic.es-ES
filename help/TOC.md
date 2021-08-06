@@ -7,10 +7,10 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Con Adobe Campaign, puede utilizar datos de clientes enriquecidos para crear, coordinar y ofrecer campañas dinámicas que los clientes realmente deseen mediante correo electrónico, canales móviles, sin conexión y mucho más.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
-workflow-type: ht
-source-wordcount: '2518'
-ht-degree: 100%
+source-git-commit: a54a6f9b8afedf8a200b80b027f908163faebeaa
+workflow-type: tm+mt
+source-wordcount: '2525'
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,6 @@ ht-degree: 100%
    + [Funciones obsoletas](rn/using/deprecated-features.md)
    + [Matriz de compatibilidad](rn/using/compatibility-matrix.md)
    + [Notas técnicas](technotes/technote.md)
-   + [Preguntas frecuentes sobre el conector de Adobe Analytics](technotes/aa-connector-migration.md)
    + [Actualización de certificados de iOS](technotes/ios-certificate-update.md)
    + [Actualizaciones de configuración de Campaign](technotes/acc-config-updates.md)
    + [Actualización de direcciones URL rastreadas](technotes/tracked-urls.md)
@@ -117,8 +116,10 @@ ht-degree: 100%
          + [Conexión con Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
          + [Conexión con Salesforce.com](platform/using/crm-sfdc.md)
          + [Sincronización de datos con CRM](platform/using/crm-data-sync.md)
-      + [Conector de Adobe Analytics](platform/using/adobe-analytics-connector.md)
-      + [Conectores de datos de Adobe Analytics](platform/using/adobe-analytics-data-connector-legacy.md)
+      + Conector de Adobe Analytics{#analytics-connector}
+         + [Integración con Adobe Analytics Connector](platform/using/adobe-analytics-connector.md)
+         + [Cómo migrar al conector Adobe Analytics](technotes/aa-connector-migration.md)
+         + [Conectores de datos de Adobe Analytics](platform/using/adobe-analytics-data-connector-legacy.md)
    + [Opciones de ayuda y asistencia](support.md)
 + Creación y envío de mensajes {#sending-messages}
    + [Introducción a los mensajes](delivery/using/communication-channels.md)
