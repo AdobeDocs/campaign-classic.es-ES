@@ -4,7 +4,7 @@ title: Actualice el entorno para conectarse a Adobe Campaign con IMS
 description: 'Campaign: Actualizaciones de IMS'
 hide: true
 hidefromtoc: true
-source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
+source-git-commit: 6a5253c1aa35e904635919f6c863930d376b473f
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 11%
@@ -39,7 +39,7 @@ Si ya ha actualizado pero utiliza una versión antigua de Microsoft Internet Exp
 
    * Gold Standard 11. [Más información](../rn/using/gold-standard.md)
    * Versión 21.1.3 de Campaign. [Más información](../rn/using/latest-release.md)
-   * Versión 20.2.4 de Campaign. [Más información](../rn/using/release--20-2.md)
+   * Versión 20.2.5 de Campaign. [Más información](../rn/using/release--20-2.md)
    * Versión 20.1.4 de Campaign. [Más información](../rn/using/release--20-1.md)
    * Versión 19.2.4 de Campaign. [Más información](../rn/using/release--19-2.md)
    * Versión 19.1.8 de Campaign. [Más información](../rn/using/release--19-1.md)
@@ -83,7 +83,7 @@ Si ve esta advertencia, asegúrese de instalar las actualizaciones más reciente
 
 >[!NOTE]
 >
->En caso de que tenga preguntas acerca de estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>En caso de que tenga preguntas acerca de estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html?lang=es/enterprise/using/support-for-experience-cloud.ug.html).
 
 
 ## Vínculos útiles
@@ -93,4 +93,4 @@ Si ve esta advertencia, asegúrese de instalar las actualizaciones más reciente
 * [Poner la nueva consola de cliente a disposición de los usuarios](../installation/using/client-console-availability-for-windows.md)
 * [Instalación de la consola del cliente de Campaign](../installation/using/installing-the-client-console.md)
 * [Acceso a la distribución del software del Adobe](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en)
-* [Descargar compilación del Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
+* [Descargar compilación del Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html)
