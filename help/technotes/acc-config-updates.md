@@ -5,7 +5,7 @@ description: Nota técnica
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: 037e56040bd63edfdfee5ab6bf73b45d3a138072
+source-git-commit: 6a5253c1aa35e904635919f6c863930d376b473f
 workflow-type: tm+mt
 source-wordcount: '1099'
 ht-degree: 17%
@@ -24,12 +24,12 @@ Por motivos de seguridad, debe actualizar a una de las versiones que se indican 
 
 >[!NOTE]
 >
->En caso de que tenga preguntas acerca de estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>En caso de que tenga preguntas acerca de estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html?lang=es/enterprise/using/support-for-experience-cloud.ug.html).
 
 
 ## Actualizaciones de seguridad {#acc-security-updates}
 
-Las últimas versiones de Campaign incluyen una corrección de seguridad que refuerza la protección contra los problemas de falsificación de solicitudes del lado del servidor (SSRF). Obtenga más información [en esta página](https://helpx.adobe.com/security/products/campaign/apsb21-04.html).
+Las últimas versiones de Campaign incluyen una corrección de seguridad que refuerza la protección contra los problemas de falsificación de solicitudes del lado del servidor (SSRF). Obtenga más información [en esta página](https://helpx.adobe.com/es/security/products/campaign/apsb21-04.html).
 
 **¿Se ha visto afectado?**
 
@@ -80,7 +80,7 @@ Si se está conectando a Campaign [a través de un Adobe ID](../integrations/usi
 
 * Gold Standard 11. [Más información](../rn/using/gold-standard.md)
 * Versión 21.1.1 de Campaign. [Más información](../rn/using/latest-release.md)
-* Versión 20.2.4 de Campaign. [Más información](../rn/using/release--20-2.md)
+* Versión 20.2.5 de Campaign. [Más información](../rn/using/release--20-2.md)
 * Versión 20.1.4 de Campaign. [Más información](../rn/using/release--20-1.md)
 * Versión 19.2.4 de Campaign. [Más información](../rn/using/release--19-2.md)
 * Versión 19.1.8 de Campaign. [Más información](../rn/using/release--19-1.md)
@@ -166,5 +166,5 @@ Como cliente local/híbrido, debe actualizar la configuración para garantizar u
 
 * [Actualice su entorno](../production/using/build-upgrade.md)
 * [Preguntas frecuentes sobre la actualización de versiones](../platform/using/faq-build-upgrade.md)
-* [Descargar compilación del Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
+* [Descargar compilación del Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html)
 * [Poner la nueva consola de cliente a disposición de los usuarios](../installation/using/client-console-availability-for-windows.md)
