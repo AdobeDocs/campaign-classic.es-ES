@@ -5,10 +5,10 @@ description: Descubra más información sobre cómo configurar la canalización
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: cf102a5e669ffe136e6ec2429343725ec6c3722e
-workflow-type: ht
-source-wordcount: '914'
-ht-degree: 100%
+source-git-commit: 6a5253c1aa35e904635919f6c863930d376b473f
+workflow-type: tm+mt
+source-wordcount: '915'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ Antes de iniciar esta configuración, compruebe que está utilizando lo siguient
 
 * Como mínimo, una de las siguientes compilaciones de Adobe Campaign:
    * 19.1.8.9039
-   * 19.1.4.9032.GS.11
+   * 19.1.4.9032 - Gold Standard 11
    * 20.2.4.9187
    * 20.3.1
 * Versión Adobe Analytics Standard
