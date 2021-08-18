@@ -8,10 +8,10 @@ index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
-source-git-commit: 24030d15ec57fd10fa5c2606e6f8544a8c15f179
+source-git-commit: f4c6e416353d6b921cefced830b3380996f10751
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 100%
+source-wordcount: '682'
+ht-degree: 96%
 
 ---
 
@@ -19,9 +19,11 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Si utiliza una versión anterior de la integración de los activadores mediante autenticación oAuth, **debe pasar a Adobe I/O como se describe a continuación**. El modo de autenticación oAuth heredado con Campaign se eliminará el 30 de noviembre de 2021. [Obtenga más información](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
->
+>Si utiliza una versión anterior de la integración de los activadores mediante autenticación oAuth, **debe pasar a Adobe I/O como se describe a continuación**.
 >Tenga en cuenta que durante este cambio a [!DNL Adobe I/O], es posible que se pierdan algunos activadores entrantes.
+>
+>El modo de autenticación oAuth heredado con Campaign se eliminará el **18 de agosto de 2021** para entornos híbridos y locales y el **30 de noviembre de 2021** para entornos alojados. [Más información](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
+
 
 ## Requisitos previos {#adobe-io-prerequisites}
 
