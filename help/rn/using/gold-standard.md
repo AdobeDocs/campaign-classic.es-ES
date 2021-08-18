@@ -6,10 +6,10 @@ feature: Información general
 role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-source-git-commit: c5e1b10b82c8ea1cf8bcb617ee48fe13e16fbfd9
+source-git-commit: f4c6e416353d6b921cefced830b3380996f10751
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 95%
+source-wordcount: '1077'
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 Esta página enumera las versiones de [!DNL Gold Standard]. Obtenga más información acerca de Campaign [!DNL Gold Standard] [en esta página](gs-overview.md).
 
-## ![](assets/do-not-localize/green_2.png) [!DNL Gold Standard] Versión 11{#gs-11}
+## ![](assets/do-not-localize/green_2.png) [!DNL Gold Standard] versión 11{#gs-11}
 
 _14 de abril de 2021_
 
@@ -32,7 +32,7 @@ La compilación 9032@d030c36 incluye la siguiente corrección:
 >
 > * Si se está conectando a Campaign con su Adobe ID, a través del servicio de Identity Management de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola del cliente para poder conectarse a Campaign después del **30 de junio de 2021**. [Más información](../../technotes/ims-updates.md)
 > * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
-> * Si está utilizando la integración de Experience Cloud Triggers mediante autenticación oAuth, debe ir a Adobe I/O como se detalla [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación oAuth heredado con Campaign se eliminará el **30 de noviembre de 2021**.
+> * Si está utilizando la integración de Experience Cloud Triggers mediante autenticación oAuth, debe ir a Adobe I/O como se detalla [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación oAuth heredado con Campaign se eliminará el **18 de agosto de 2021** para entornos híbridos y locales y el **30 de noviembre de 2021** para entornos alojados.
 
 >
 >
@@ -48,7 +48,7 @@ La compilación 9032@10c2709 incluye la siguiente corrección:
 
 >[!NOTE]
 >
-> Conéctese a [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) para descargar la nueva versión. Aprenda a proponer la actualización de la consola a todos los usuarios finales [en esta página](../../installation/using/client-console-availability-for-windows.md).
+> Conéctese a [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) para descargar la nueva versión. Aprenda a proponer la actualización de la consola a todos los usuarios finales [en esta página](../../installation/using/client-console-availability-for-windows.md).
 
 _22 de diciembre de 2020_
 
@@ -88,7 +88,7 @@ Se ha corregido un problema que impedía que el seguimiento funcionara cuando la
 >
 >Le recomendamos que actualice la consola de cliente con la que está disponible en esta versión. Consulte [esta página](../../installation/using/installing-the-client-console.md)
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] versión 9{#gs-9}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] Versión 9{#gs-9}
 
 _22 de junio de 2020_
 
@@ -108,7 +108,7 @@ Las siguientes correcciones están relacionadas con el mecanismo de seguridad de
 
 
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] versión 8{#gs-8}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] Versión 8{#gs-8}
 
 _29 de abril de 2020_
 
@@ -133,7 +133,7 @@ La versión 9032@3a9dc9c incluye las siguientes correcciones:
 * Se ha corregido una regresión que ocasionaba que el flujo de trabajo de limpieza se bloqueara.
 * Se ha corregido una regresión menor en los registros del flujo de trabajo de limpieza.
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] versión 6{#gs-6}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] Versión 6{#gs-6}
 
 _9 de marzo de 2020_
 
@@ -141,7 +141,7 @@ La versión 9032@19f73c5 incluye la siguiente corrección:
 
 * Se ha corregido un problema con cuentas externas que usaban FTP sobre SSL. (NEO-20498)
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] versión 5{#gs-5}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] Versión 5{#gs-5}
 
 _17 de diciembre de 2019_
 
@@ -149,7 +149,7 @@ La versión 9032@d6b8062 incluye la siguiente corrección:
 
 * Se ha corregido un problema de seguimiento en los siguientes canales de comunicación: móvil (SMS, MMS), push (iOS, Android) y redes sociales (Facebook, Twitter). (NEO-19595)
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] versión 4{#gs-4}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] Versión 4{#gs-4}
 
 _11 de diciembre de 2019_
 
@@ -157,7 +157,7 @@ La versión 9032@bc4a935 incluye la siguiente corrección:
 
 * Se ha corregido un problema de rendimiento al enviar mensajes con una base de datos MSSQL. (NEO-17558)
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] versión 3{#gs-3}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] Versión 3{#gs-3}
 
 _20 de noviembre de 2019_
 
@@ -167,7 +167,7 @@ La versión 9032@3468c7b incluye las siguientes correcciones:
 * Se ha corregido un problema al mostrar informes acumulativos en varias entregas. (NEO-18165)
 * Se ha corregido un problema que podía bloquear o colapsar el servidor web.
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] versión 2{#gs-2}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] Versión 2{#gs-2}
 
 _19 de septiembre de 2019_
 
