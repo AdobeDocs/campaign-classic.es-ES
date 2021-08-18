@@ -5,9 +5,9 @@ description: Nota técnica
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: 6a5253c1aa35e904635919f6c863930d376b473f
+source-git-commit: f4c6e416353d6b921cefced830b3380996f10751
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1110'
 ht-degree: 17%
 
 ---
@@ -103,7 +103,7 @@ Una vez actualizadas todas las instancias, la consola de cliente también debe a
 
 ## Integración con Déclencheur de Experience Cloud {#acc-triggers-updates}
 
-El servicio de autenticación oAuth heredado ha llegado al final de su vida útil. La autenticación de integración de déclencheur, basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización, se ha trasladado a Adobe I/O. Se retirará el **30 de noviembre de 2021**. [Más información](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email).
+El servicio de autenticación oAuth heredado ha llegado al final de su vida útil. La autenticación de integración de déclencheur, basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización, se ha trasladado a Adobe I/O. Se retirará el **18 de agosto de 2021** para entornos híbridos y locales, y el **30 de noviembre de 2021** para entornos alojados. [Más información](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email).
 
 **¿Se ha visto afectado?**
 
