@@ -5,9 +5,9 @@ description: Descubra más información sobre cómo configurar la canalización
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: 6a5253c1aa35e904635919f6c863930d376b473f
+source-git-commit: b6aa797133e6f916bf085794aeb99d61a8f7bc40
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '902'
 ht-degree: 99%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 99%
 Los parámetros de autenticación como el ID de cliente, la clave privada y el extremo de autenticación se configuran en los archivos de configuración de instancia.
 La lista de activadores que se van a procesar se configura en una opción en formato JSON.
 Los activadores se utilizan para la segmentación mediante un flujo de trabajo de campaña que envía correos electrónicos. La campaña se configura de modo que un cliente que tenga ambos eventos desencadenadores reciba un correo electrónico.
-
->[!CAUTION]
->
->En caso de implementación híbrida, asegúrese de que la canalización está configurada en una instancia media.
 
 ## Requisitos previos {#prerequisites}
 
