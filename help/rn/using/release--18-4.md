@@ -2,11 +2,8 @@
 product: campaign
 title: Notas de la versión de Campaign 18.4
 description: Notas de la versión 18.4 de Campaign
-feature: null
-role: null
-level: null
 exl-id: bbad81ba-a09f-4d67-9309-628ea7a08c9b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 2a92cfc705e27332cfdf8c7357a6a03c84dc6c9f
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 99%
@@ -15,7 +12,7 @@ ht-degree: 99%
 
 # Versión 18.4{#release-18-4}
 
-## Versión 18.4.5: compilación 8937{#release-18-4-5-build-8937}
+## Versión 18.4.5, compilación 8937{#release-18-4-5-build-8937}
 
 21 de noviembre de 2018
 
@@ -42,7 +39,7 @@ ht-degree: 99%
 * Se ha mejorado el tiempo disponible de memoria compartida durante el procesamiento secundario (MTA).
 * Se ha corregido un posible bloqueo en Apache (seguimiento).
 
-## Versión 18.4.4: compilación 8936{#release-18-4-4-build-8936}
+## Versión 18.4.4, compilación 8936{#release-18-4-4-build-8936}
 
 1 de agosto de 2018
 
@@ -59,7 +56,7 @@ ht-degree: 99%
 * Se ha corregido un problema que mostraba errores no viables en el registro posterior de actualización cuando una actividad de flujo de trabajo **[!UICONTROL Survey answers]** no estaba completamente configurada.
 * Teradata FDA: Se ha corregido un problema con campos autoincrementados e índices en tablas SQL.
 
-## Versión 18.4.3: compilación 8935{#release-18-4-3-build-8935}
+## Versión 18.4.3, compilación 8935{#release-18-4-3-build-8935}
 
 22 de junio de 2018
 
@@ -73,7 +70,7 @@ ht-degree: 99%
 * Se ha corregido un problema que se producía al sincronizar los espacios de oferta de la instancia de marketing a la instancia de interacción. (NEO-11162)
 * Se ha mejorado la administración de los índices de nombres largos posterior a la actualización
 
-## Versión 18.4.2: compilación 8932{#release-18-4-2-build-8932}
+## Versión 18.4.2, compilación 8932{#release-18-4-2-build-8932}
 
 22 de mayo de 2018
 
@@ -84,7 +81,7 @@ ht-degree: 99%
 * Se ha corregido un problema de rendimiento que podría ocurrir con el proceso de inMail al utilizar un servidor de correo de rebote. (NEO-10641)
 * Se ha corregido un problema con la actualización de base de datos que se podría producir al actualizar más de 1000 esquemas.
 
-## Versión 18.4: compilación 8931{#release-18-4-build-8931}
+## Versión 18.4, compilación 8931{#release-18-4-build-8931}
 
 24 de abril de 2018
 
