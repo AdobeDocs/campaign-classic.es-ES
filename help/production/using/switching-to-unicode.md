@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4cfecf2f-cf98-42c1-b979-cdd26d5de48b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 7%
@@ -14,6 +14,8 @@ ht-degree: 7%
 ---
 
 # Cambio a Unicode{#switching-to-unicode}
+
+![](../../assets/v7-only.svg)
 
 Para una instancia **prod** existente en Linux/PostgreSQL, los pasos para cambiar a Unicode son los siguientes:
 

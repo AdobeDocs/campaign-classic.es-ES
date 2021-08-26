@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: afb11ab5-bd60-4262-9dd1-fcda19cdaca0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 100%
 
 ---
 
 # Acerca de los informes integrados de Campaign{#about-campaign-built-in-reports}
+
+![](../../assets/common.svg)
 
 Este capítulo ofrece la lista de informes integrados de Adobe Campaign, así como sus contenidos y sus contextos. La siguiente información le permite evitar crear informes que ya están disponibles en la plataforma.
 

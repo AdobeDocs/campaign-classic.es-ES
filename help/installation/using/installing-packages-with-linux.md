@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # Instalación de paquetes con Linux{#installing-packages-with-linux}
+
+![](../../assets/v7-only.svg)
 
 Para una plataforma Linux de 32 bits, instale Adobe Campaign de 32 bits. Para una plataforma Linux de 64 bits, instale Adobe Campaign de 64 bits.
 
@@ -153,7 +155,7 @@ mkdir -p /usr/local/neolane/nl6
 touch /usr/local/neolane/nl6/unicodeenv
 ```
 
-### Idioma predeterminado para el servidor {#default-language-for-the-server}
+### Idioma predeterminado del servidor {#default-language-for-the-server}
 
 La instalación admite inglés y francés. El inglés se utiliza de forma predeterminada.
 

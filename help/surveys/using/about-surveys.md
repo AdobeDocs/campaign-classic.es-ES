@@ -6,8 +6,8 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
-source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
-workflow-type: ht
+source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
+workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 100%
 
@@ -15,13 +15,15 @@ ht-degree: 100%
 
 # Introducción a las encuestas{#about-surveys}
 
+![](../../assets/v7-only.svg)
+
 Adobe Campaign incluye un módulo gráfico para definir y publicar aplicaciones web. Se utiliza para crear páginas, como un formulario de edición en una extranet, o formularios de notificación, incluidos datos de la base de datos con tablas, gráficos, formularios de entrada, etc. Utilice esta capacidad para diseñar y publicar páginas web en las que los usuarios puedan buscar o introducir información.
 
 El complemento opcional **Encuesta** le permite crear un nuevo tipo de aplicación web para realizar y administrar cuestionarios en línea, como formularios para añadir o modificar información del perfil, para suscribirse o cancelar la suscripción a un servicio informativo o un formulario de entrada de competencia. Cuando se hayan recopilado las respuestas, se almacenan en la base de datos o en variables locales. El modelo de datos se puede ampliar de forma dinámica a través de las respuestas a los cuestionarios. Puede ver los resultados en tiempo real, filtrar las respuestas y analizarlas con gráficos especializados.
 
 Este capítulo detalla cómo realizar la creación y la administración **Encuestas**, administración de campos y páginas, modos de almacenamiento y registros.
 
-[!DNL :bulb:] Aprenda a crear la primera encuesta en [esta página](getting-started-with-surveys.md).
+Aprenda a crear la primera encuesta en [esta página](getting-started-with-surveys.md).
 
 >[!NOTE]
 >

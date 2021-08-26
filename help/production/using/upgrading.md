@@ -6,14 +6,16 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1149'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 # Actualización a una nueva compilación (local){#upgrading}
+
+![](../../assets/v7-only.svg)
 
 Antes de iniciar el proceso de actualización, determine y confirme a qué versión de Adobe Campaign se va a actualizar y consulte las [Notas de la versión](../../rn/using/latest-release.md) .
 
@@ -24,7 +26,6 @@ Antes de iniciar el proceso de actualización, determine y confirme a qué versi
 >* Lea [esta sección](../../installation/using/general-architecture.md) y el capítulo [actualización de compilación](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) antes de empezar.
 
 >
-
 
 
 ## Windows {#in-windows}
@@ -63,13 +64,13 @@ Para reemplazar todos los archivos con la nueva versión, debe cerrar todas las 
 
    Puede usar el Administrador de tareas de Windows para asegurarse de que todos los procesos estén detenidos.
 
-### Actualizar la aplicación de servidor de Adobe Campaign {#upgrade-the-adobe-campaign-server-application}
+### Actualización de la aplicación de servidor de Adobe Campaign {#upgrade-the-adobe-campaign-server-application}
 
 Para ejecutar el archivo de actualización, siga los siguientes pasos:
 
 1. Ejecute **setup.exe**.
 
-   Para descargar este archivo, conéctese al [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) con sus credenciales de usuario. Obtenga más información sobre la distribución de software en [esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
+   Para descargar este archivo, conéctese al [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) con sus credenciales de usuario. Obtenga más información sobre la distribución de software en [esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es?lang=en).
 
 1. Seleccione el modo de instalación: elija **[!UICONTROL Update or repair]**
 1. Haga clic en **[!UICONTROL Next]** .
@@ -157,7 +158,7 @@ El archivo es **nlserver6-v7-XXX.rpm**
 >
 >Los procedimientos de instalación completos se detallan en [esta sección](../../installation/using/installing-campaign-standard-packages.md). Los recursos se sincronizan automáticamente, pero debe asegurarse de que no se hayan producido errores. Para obtener más información, consulte [Resolver conflictos de actualización](#resolving-upgrade-conflicts).
 
-### Reinicie el servidor web {#reboot-the-web-server}
+### Reinicio del servidor web {#reboot-the-web-server}
 
 Debe cerrar Apache para que la nueva biblioteca sea aplicable.
 
@@ -173,8 +174,7 @@ Para ello, ejecute el siguiente comando:
 >* DEBE ejecutar este comando hasta que obtenga la siguiente respuesta:
 
    >
-   >   
-   Esta operación es necesaria para que Apache aplique la nueva biblioteca.
+   >   Esta operación es necesaria para que Apache aplique la nueva biblioteca.
 
 
 A continuación, reinicie Apache:
@@ -242,7 +242,7 @@ Se puede vincular un error de actualización a la configuración de la base de d
 
 Por ejemplo, una base de datos Unicode no solo debe autorizar el almacenamiento de datos LATIN1, etc.
 
-## Advertir a las consolas de cliente de la actualización disponible {#warn-the-client-consoles-of-the-available-update}
+## Avisar a las consolas de cliente de la actualización disponible {#warn-the-client-consoles-of-the-available-update}
 
 ### Windows {#in-windows-1}
 

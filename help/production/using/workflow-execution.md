@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: b5aa5663-1902-4f50-9202-783e73a28838
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 13%
@@ -14,6 +14,8 @@ ht-degree: 13%
 ---
 
 # Ejecución del flujo de trabajo{#workflow-execution}
+
+![](../../assets/v7-only.svg)
 
 La sección siguiente presenta información sobre problemas comunes relacionados con la ejecución de flujos de trabajo y cómo solucionarlos.
 
@@ -24,7 +26,7 @@ Para obtener más información sobre los flujos de trabajo, consulte estas secci
 * [Ciclo de vida del flujo de trabajo](../../workflow/using/workflow-life-cycle.md)
 * [Prácticas recomendadas al utilizar flujos de trabajo](../../workflow/using/workflow-best-practices.md)
 
-## Comience lo antes posible en campañas {#start-as-soon-as-possible-in-campaigns}
+## Comience lo antes posible en las campañas {#start-as-soon-as-possible-in-campaigns}
 
 En algunos casos, los flujos de trabajo ejecutados desde una campaña no se inician al hacer clic en el botón **[!UICONTROL Start]**. En lugar de comenzar, pasa al estado &quot;Iniciar lo antes posible&quot;.
 

@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '2353'
 ht-degree: 4%
@@ -15,9 +15,11 @@ ht-degree: 4%
 
 # Realización de una actualización de versión{#performing-a-build-upgrade}
 
+![](../../assets/v7-only.svg)
+
 Esta sección le proporcionará un tutorial en profundidad sobre el proceso de actualización y los pasos para identificar y resolver conflictos.
 
-La actualización de la compilación debe llevarse a cabo con precaución, sus efectos deben ser considerados de antemano y el procedimiento debe completarse con un alto nivel de disciplina. Para garantizar una actualización correcta, asegúrese de que solo los usuarios expertos realicen los pasos descritos a continuación. Además, recomendamos encarecidamente que se ponga en contacto con [Adobe Customer Care](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) antes de iniciar cualquier actualización.
+La actualización de la compilación debe llevarse a cabo con precaución, sus efectos deben ser considerados de antemano y el procedimiento debe completarse con un alto nivel de disciplina. Para garantizar una actualización correcta, asegúrese de que solo los usuarios expertos realicen los pasos descritos a continuación. Además, recomendamos encarecidamente que se ponga en contacto con [Adobe Customer Care](https://helpx.adobe.com/es/enterprise/admin-guide.html?lang=es/enterprise/using/support-for-experience-cloud.ug.html) antes de iniciar cualquier actualización.
 
 Se necesitan los siguientes requisitos previos:
 
@@ -82,7 +84,7 @@ Antes de iniciar la actualización de la compilación, los clientes locales debe
 
 1. Obtenga la última versión de su [archivo de configuración del servidor](../../installation/using/the-server-configuration-file.md).
 
-1. [Descargue la última versión](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). [Más información](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es).
+1. [Descargue la última versión](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html). [Más información](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es).
 
 También necesita conocer todas las [líneas de comandos útiles](../../installation/using/command-lines.md) antes de iniciar una actualización de compilación:
 
@@ -255,7 +257,6 @@ En el contexto de un entorno de mid-sourcing, debe realizar estos pasos adiciona
 >
 >El servidor intermediario siempre debe ejecutar la misma versión (o más reciente) que para los servidores de marketing.
 
-
 ## En caso de conflicto
 
 ### Identificar conflictos
@@ -343,7 +344,6 @@ Hay tres opciones para resolver conflictos: **Acepte la nueva versión**, **Mant
 >[!IMPORTANT]
 >Es muy recomendable resolver los conflictos.
 
-
 ### Realizar una combinación{#perform-a-merge}
 
 Existen diferentes tipos de combinaciones:
@@ -407,10 +407,9 @@ Estos son los pasos para realizar una combinación compleja:
 >[!IMPORTANT]
 >Se necesitan habilidades de desarrollo para realizar combinaciones complejas.
 
-
 **Temas relacionados**
 
 * [Preguntas frecuentes sobre la actualización de versiones](../../platform/using/faq-build-upgrade.md)
-* [Notas de la versión de Campaign Classic ](../../rn/using/rn-overview.md)
-* [Opciones de ayuda y asistencia para Campaign Classic](../../support.md)
+* [Notas de la versión de Campaign Classic](../../rn/using/rn-overview.md)
+* [Opciones de ayuda y asistencia de Campaign Classic](../../support.md)
 * [Programa de [!DNL Gold Standard]](../../rn/using/gs-overview.md)

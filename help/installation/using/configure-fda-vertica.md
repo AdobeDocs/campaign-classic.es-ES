@@ -6,7 +6,7 @@ description: Aprenda a configurar el acceso a Vertica en FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-source-git-commit: a7c080fe4db72f659659c7cac8f2c02031822e04
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 19%
@@ -15,6 +15,8 @@ ht-degree: 19%
 
 
 # Configuración del acceso a Vertica {#configure-fda-vertica}
+
+![](../../assets/v7-only.svg)
 
 Utilice la opción **Federated Data Access** (FDA) de Campaign para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a [!DNL Vertica].
 

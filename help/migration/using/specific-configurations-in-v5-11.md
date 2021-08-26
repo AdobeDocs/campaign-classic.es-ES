@@ -6,7 +6,7 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 exl-id: 978e1249-f79b-4f5f-9a94-3bb2510785de
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 4%
@@ -14,6 +14,8 @@ ht-degree: 4%
 ---
 
 # Configuraciones específicas en la versión 5.11{#specific-configurations-in-v5-11}
+
+![](../../assets/v7-only.svg)
 
 Esta sección detalla la configuración adicional necesaria al migrar desde la versión 5.11. También debe configurar los ajustes detallados en la sección [Configuraciones generales](../../migration/using/general-configurations.md).
 

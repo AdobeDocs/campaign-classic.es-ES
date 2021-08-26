@@ -2,20 +2,22 @@
 product: campaign
 title: Notas de la versión de Campaign 18.10
 description: Notas de la versión de Campaign 18.10
-feature: Información general
+feature: Overview
 role: User
 level: Beginner
 exl-id: 57996f77-4ac2-402a-95db-b75d4bea4eeb
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '2370'
+source-wordcount: '2369'
 ht-degree: 97%
 
 ---
 
 # Versión 18.10{#release-18-10}
 
-## Versión 18.10.6: compilación 8985{#release-18-10-6-build-8985}
+![](../../assets/v7-only.svg)
+
+## Versión 18.10.6, compilación 8985{#release-18-10-6-build-8985}
 
 12 de julio de 2019
 
@@ -27,7 +29,7 @@ ht-degree: 97%
 * Se han mejorado los permisos para ejecutar el paquete de zona de seguridad cuando utilice una cuenta interna.
 * Se ha corregido un problema que podría provocar errores en los registros de mtachild. (NEO-8978)
 
-## Versión 18.10.5: compilación 8984{#release-18-10-5-build-8984}
+## Versión 18.10.5, compilación 8984{#release-18-10-5-build-8984}
 
 23 de abril de 2019
 
@@ -37,7 +39,7 @@ ht-degree: 97%
 * Se ha eliminado el límite de registro de 10 000 en Workflow Heatmap para solucionar un problema de ausencia de datos. (NEO-12329)
 * Se ha corregido un problema que se producía al utilizar la opción “Conservar todos los datos adicionales del conjunto principal” en una actividad de flujo de trabajo de enriquecimiento. (NEO-13291)
 
-## Versión 18.10.4: compilación 8983{#release-18-10-4-build-8983}
+## Versión 18.10.4, compilación 8983{#release-18-10-4-build-8983}
 
 15 de abril de 2019
 
@@ -50,7 +52,7 @@ ht-degree: 97%
 * En la integración de Analytics, ahora se permite la recuperación de datos del segmento AAM con caracteres %. (NEO-12025)
 * Se ha corregido un problema con el bloqueo de Tomcat al enviar notificaciones inmediatas con HTTP2. (NEO-12701)
 
-## Versión 18.10.3: compilación 8981{#release-18-10-3-build-8981}
+## Versión 18.10.3, compilación 8981{#release-18-10-3-build-8981}
 
 29 de enero de 2019
 
@@ -74,7 +76,7 @@ ht-degree: 97%
 * Se ha corregido un problema con la pérdida de caracteres al enviar notificaciones inmediatas en una aplicación móvil.
 * Se ha corregido un problema que impedía cambiar de FDA a método de sincronización SOAP en una cuenta externa intermediaria.
 
-## Versión 18.10.2: compilación 8978{#release-18-10-2-build-8978}
+## Versión 18.10.2, compilación 8978{#release-18-10-2-build-8978}
 
 6 de diciembre de 2018
 
@@ -96,7 +98,7 @@ ht-degree: 97%
 * Se ha corregido un problema con el cálculo de las duraciones del flujo de trabajo en Workflow HeatMap.
 
 
-## Versión 18.10: compilación 8977{#release-18-10-build-8977}
+## Versión 18.10, compilación 8977{#release-18-10-build-8977}
 
 5 de noviembre de 2018
 

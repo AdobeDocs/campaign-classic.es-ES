@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: ade3f1d1-2235-4148-9b6f-721d3f521a15
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 100%
 
 ---
 
 # Recursos y principios del gestor de contenido{#content-manager-resources-and-principles}
+
+![](../../assets/common.svg)
 
 Se debe definir una plantilla de publicación que contenga plantillas de transformación para cada contenido.
 

@@ -5,17 +5,19 @@ description: Descubra más información sobre el paquete Distributed Marketing
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 100%
 
 ---
 
 
-# Distributed Marketing{#distributed-marketing}
+# Marketing distribuido{#distributed-marketing}
 
-El flujo de trabajo detallado a continuación se instala con el módulo **Distributed Marketing** de forma predeterminada. Para obtener más información sobre este módulo, consulte esta [sección](../../campaign/using/about-distributed-marketing.md).
+![](../../assets/common.svg)
+
+El flujo de trabajo detallado a continuación se instala con el módulo **Distributed Marketing** de forma predeterminada. Para obtener más información sobre este módulo, consulte esta [sección](../../distributed/using/about-distributed-marketing.md).
 
 <table> 
  <tbody> 

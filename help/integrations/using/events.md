@@ -5,14 +5,16 @@ description: Descubra más información sobre cómo configurar eventos para la i
 audience: integrations
 content-type: reference
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 100%
 
 ---
 
 # Configuración de eventos para la implementación personalizada {#events}
+
+![](../../assets/common.svg)
 
 Algunas partes de esta configuración tienen un desarrollo personalizado y requieren lo siguiente:
 
@@ -190,7 +192,7 @@ Para permitir un procesamiento más rápido, se ejecutan varios subprocesos de e
 >
 >Es un ejemplo específico de varias implementaciones posibles.
 
-### esquema de evento de canalización{#pipeline-event-schema}
+### esquema de evento de canalización {#pipeline-event-schema}
 
 Los Eventos se almacenan en una tabla de la base de datos. Se utiliza en campañas de marketing para clientes de destinatario y enriquece los correos electrónicos mediante activadores.
 Aunque cada activador puede tener una estructura de datos distinta, todos los activadores se pueden guardar en una sola tabla.

@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 83%
@@ -15,13 +15,15 @@ ht-degree: 83%
 
 # Configuración del acceso a Teradata {#configure-access-to-teradata}
 
+![](../../assets/v7-only.svg)
+
 Utilice la opción [Federated Data Access](../../installation/using/about-fda.md) (FDA) de Campaign para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso al Teradata.
 
 1. Instale y configure [controladores de Teradata](#teradata-config)
 1. Configuración de la [cuenta externa](#teradata-external) del Teradata en Campaign
 1. Configure [configuración adicional](#teradata-additional-configurations) para el Teradata y el servidor de Campaign
 
-## Configuración de teradata {#teradata-config}
+## Configuración del teradata {#teradata-config}
 
 Debe instalar controladores para que el Teradata tenga implementada la conexión con Campaign.
 
@@ -68,7 +70,6 @@ Debe instalar controladores para que el Teradata tenga implementada la conexión
 >
 >La conexión a una base de datos externa de Teradata en FDA requiere pasos de configuración adicionales en el servidor Adobe Campaign. [Más información](#teradata-additional-configurations).
 
-
 ## Cuenta externa Teradata{#teradata-external}
 
 La cuenta externa Teradata permite conectar la instancia de Campaign a la base de datos externa Teradata.
@@ -93,7 +94,7 @@ La cuenta externa Teradata permite conectar la instancia de Campaign a la base d
 
    * **[!UICONTROL Options]**: Opciones que pasan por Teradata. Utilice el siguiente formato: &#39;parameter=value&#39;. Utilice una semicolumna como separador entre valores.
 
-   * **[!UICONTROL Timezone]**: Zona horaria definida en Teradata. [Obtenga más información](#timezone)
+   * **[!UICONTROL Timezone]**: Zona horaria definida en Teradata. [Más información](#timezone)
 
 ### Banda de consultas
 

@@ -6,14 +6,16 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 100%
 
 ---
 
 # Envío de la solicitud a Adobe{#submitting-request-to-adobe}
+
+![](../../assets/common.svg)
 
 >[!NOTE]
 >

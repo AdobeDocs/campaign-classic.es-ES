@@ -5,7 +5,7 @@ description: Descubra más información sobre cómo configurar la canalización
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: b6aa797133e6f916bf085794aeb99d61a8f7bc40
+source-git-commit: 84312974b9b7372c8a46fd1c7ead1148690bcd83
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 99%
@@ -13,6 +13,8 @@ ht-degree: 99%
 ---
 
 # Configuración de canalización {#configuring-pipeline}
+
+![](../../assets/common.svg)
 
 Los parámetros de autenticación como el ID de cliente, la clave privada y el extremo de autenticación se configuran en los archivos de configuración de instancia.
 La lista de activadores que se van a procesar se configura en una opción en formato JSON.

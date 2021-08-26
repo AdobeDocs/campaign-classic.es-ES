@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
-source-git-commit: 1312f7c319c96851bc83ae21501164e2688d0dff
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 98%
@@ -14,6 +14,8 @@ ht-degree: 98%
 ---
 
 # Derechos de acceso a bases de datos remotas {#remote-database-access-rights}
+
+![](../../assets/v7-only.svg)
 
 En primer lugar, para que el usuario pueda llevar a cabo operaciones en una base de datos externa a través de FDA, el último debe tener un derecho específico en Adobe Campaign.
 

@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 78c65b31-e3d9-4a46-a101-26f35d00a4ee
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 20%
@@ -14,6 +14,8 @@ ht-degree: 20%
 ---
 
 # Solución de problemas de producción{#troubleshooting}
+
+![](../../assets/v7-only.svg)
 
 Esta sección contiene procedimientos de solución de problemas relacionados con problemas generales de producción de Adobe Campaign, como ejecución de envío y flujo de trabajo, monitorización, mantenimiento de bases de datos, conexión, etc.
 
@@ -27,7 +29,7 @@ Esta sección contiene procedimientos de solución de problemas relacionados con
 ## Solución de problemas de entrega {#delivery-troubleshooting}
 
 Se pueden realizar acciones específicas al tener problemas con las entregas:
-* [Problemas con entregas](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
+* [Problemas de entregas](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [Problemas de visualización de imágenes](../../production/using/image-display-issues.md)
 * [Falta la imagen](../../production/using/images-missing.md)
 * [Problemas con archivos temporales](../../production/using/temporary-files.md)  (*solo modelos de alojamiento locales*)

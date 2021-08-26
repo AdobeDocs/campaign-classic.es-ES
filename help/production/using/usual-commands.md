@@ -6,14 +6,16 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '407'
 ht-degree: 3%
 
 ---
 
 # Comandos habituales{#usual-commands}
+
+![](../../assets/v7-only.svg)
 
 Esta sección enumera los comandos habituales en Adobe Campaign.
 
@@ -31,8 +33,7 @@ El parámetro **`<command>`** corresponde al módulo .
 >
 
 
-
-## Comandos de monitorización {#monitoring-commands-}
+## Monitorización, comandos {#monitoring-commands-}
 
 >[!NOTE]
 >
@@ -161,8 +162,5 @@ Para cambiar la contraseña **internal**: **nlserver config -internalpassword**
 >* En general, en lugar de modificar los archivos de configuración a mano, puede utilizar el comando **config**
 >* Para obtener la lista de parámetros, utilice **-?** parámetro:  **nlserver config -?**
 >* En el caso de una base de datos de Oracle, no debe especificar la cuenta. La sintaxis es la siguiente:
-
 >
->  
-nlserver config -setdblogin:Oracle:test6@dbserver
-
+>  nlserver config -setdblogin:Oracle:test6@dbserver

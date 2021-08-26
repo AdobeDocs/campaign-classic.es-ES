@@ -6,14 +6,16 @@ audience: social
 content-type: reference
 topic-tags: configuration
 exl-id: 2135a836-245f-406e-b351-c27d38e0f9fd
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 100%
 
 ---
 
 # Publicación en muros de Facebook{#publishing-on-facebook-walls}
+
+![](../../assets/v7-only.svg)
 
 Para que Adobe Campaign pueda enviar publicaciones a los muros de Facebook, debe delegar el acceso de escritura para estas páginas a Adobe Campaign. Esto implica los siguientes pasos de configuración:
 

@@ -5,14 +5,16 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
 
 ---
 
 # Realice todas las comprobaciones necesarias antes de enviar {#perform-all-checks}
+
+![](../../assets/common.svg)
 
 Cuando el mensaje esté listo, asegúrese de que su contenido se muestra correctamente en todos los dispositivos y no contiene ningún error, como por ejemplo de personalización incorrecta o enlaces rotos.
 
@@ -90,7 +92,7 @@ Puede:
 
 * Para cada elemento IPAffinity, declare las direcciones IP que se pueden usar. [Más información](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
-* En la [tipología](../../campaign/using/about-campaign-typologies.md) que elija, utilice el campo **[!UICONTROL Managing affinities with IP addresses]** para vincular envíos al servidor de envío (MTA) que administra dicha afinidad. [Más información](../../campaign/using/applying-rules.md#control-outgoing-smtp-traffic).
+* En la [tipología](../../campaign-opt/using/about-campaign-typologies.md) que elija, utilice el campo **[!UICONTROL Managing affinities with IP addresses]** para vincular envíos al servidor de envío (MTA) que administra dicha afinidad. [Más información](../../campaign-opt/using/applying-rules.md#control-outgoing-smtp-traffic).
 
 * Una vez enviado el correo electrónico, compruebe el encabezado para ver desde qué dirección IP se entregó el envío. El administrador de correo electrónico debe ayudarle a obtener la información del encabezado.
 
@@ -100,7 +102,7 @@ Puede:
 
 ### Uso de tipologías
 
-Puede utilizar reglas de tipología para excluir parte del destinatario según criterios específicos. Esto garantiza que los mensajes enviados respondan de la mejor forma a las necesidades y expectativas de los clientes, de acuerdo con las políticas de comunicación de la compañía. Por ejemplo, puede filtrar los destinatarios menores de edad del objetivo de su boletín informativo. Obtenga más información [en este ejemplo](../../campaign/using/filtering-rules.md).
+Puede utilizar reglas de tipología para excluir parte del destinatario según criterios específicos. Esto garantiza que los mensajes enviados respondan de la mejor forma a las necesidades y expectativas de los clientes, de acuerdo con las políticas de comunicación de la compañía. Por ejemplo, puede filtrar los destinatarios menores de edad del objetivo de su boletín informativo. Obtenga más información [en este ejemplo](../../campaign-opt/using/filtering-rules.md).
 
 ### Prevención de envío de archivos adjuntos
 

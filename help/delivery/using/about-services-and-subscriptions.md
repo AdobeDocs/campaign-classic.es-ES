@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
 exl-id: eb72f19a-7669-4596-bf9b-8c0ce22b67bf
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 100%
 
 ---
 
 # Acerca de los servicios y las suscripciones{#about-services-and-subscriptions}
+
+![](../../assets/common.svg)
 
 Adobe Campaign permite crear y administrar servicios informativos, como los boletines informativos, y gestionar las suscripciones a estos servicios. Se pueden definir varios servicios en paralelo, como, por ejemplo: boletines de prueba para determinadas categorías de productos, temas o áreas de un sitio web, suscripciones a diversos tipos de mensajes de alerta y notificaciones en tiempo real. Consulte [Administración de suscripciones](managing-subscriptions.md).
 

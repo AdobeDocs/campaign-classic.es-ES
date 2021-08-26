@@ -6,14 +6,16 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
-source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 100%
 
 ---
 
 # Casos de uso: Creación de páginas de información general{#use-cases-creating-overviews}
+
+![](../../assets/common.svg)
 
 En el siguiente ejemplo, se crean aplicaciones web de tipo “descripción general” para visualizar todas las que se encuentren en la base de datos. Configure los siguientes elementos:
 

@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # API orientadas a empresa{#business-oriented-apis}
+
+![](../../assets/v7-only.svg)
 
 La API empresarial es específica para cada tipo de objeto. Tienen un efecto en:
 
@@ -113,7 +115,7 @@ Actualización del destinatario y de la suscripción.
    </SOAP-ENV:Envelope>
    ```
 
-## Cancelación de suscripción (nms:subscription) {#unsubscribe--nms-subscription-}
+## Baja de suscripción (nms:subscription) {#unsubscribe--nms-subscription-}
 
 Este servicio permite cancelar la suscripción de un destinatario de un servicio informativo y actualizar el perfil del destinatario.
 

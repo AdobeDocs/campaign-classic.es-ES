@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Filtrar esquemas{#filtering-schemas}
+
+![](../../assets/v7-only.svg)
 
 ## Filtros del sistema {#system-filters}
 
@@ -100,7 +102,7 @@ De forma predeterminada, los esquemas integrados solo son accesibles con permiso
 >
 >Los permisos de lectura y escritura para el esquema **xtk:sessionInfo** solo son accesibles desde la cuenta interna de una instancia de Adobe Campaign.
 
-## Modificar filtros del sistema de esquemas integrados {#modifying-system-filters-of-built-in-schemas}
+## Modificación de los filtros del sistema de los esquemas integrados {#modifying-system-filters-of-built-in-schemas}
 
 Puede seguir modificando los filtros del sistema de los esquemas predeterminados que están protegidos por defecto debido a problemas de compatibilidad con versiones anteriores.
 

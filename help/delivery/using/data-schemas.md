@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 100%
 
 ---
 
 # Esquemas de datos{#data-schemas}
+
+![](../../assets/common.svg)
 
 A continuación se muestran algunos principios generales sobre el uso de esquemas de datos en Adobe Campaign.
 
@@ -150,7 +152,7 @@ El atributo **ref** del elemento al que se hace referencia debe completarse con 
 
 La estructura del capítulo se mueve al elemento con el nombre “sección” fuera del elemento principal. El capítulo y la sección hacen referencia al elemento “sección”.
 
-## Cadena de caracteres {#compute-string}
+## Cadena Compute {#compute-string}
 
 Una **Compute string** (cadena de caracteres) es una expresión XPath que se utiliza para construir una cadena que representa una instancia de contenido.
 

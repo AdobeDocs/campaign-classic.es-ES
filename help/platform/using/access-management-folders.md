@@ -2,18 +2,20 @@
 product: campaign
 title: Administración del acceso a las carpetas de Campaign
 description: Obtenga información sobre cómo conceder acceso a carpetas de Campaign y crear vistas
-feature: Configuración de la aplicación
+feature: Application Settings
 role: User, Admin
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '751'
 ht-degree: 100%
 
 ---
 
 # Administración del acceso a las carpetas{#folder-access-management}
+
+![](../../assets/common.svg)
 
 Cada carpeta del árbol de navegación del Explorador tiene asociados derechos de acceso de lectura, escritura y eliminación. Para acceder a un archivo, un operador o grupo de operadores debe tener al menos acceso de lectura.
 

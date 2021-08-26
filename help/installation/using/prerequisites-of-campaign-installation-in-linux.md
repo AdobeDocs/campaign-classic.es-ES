@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # Requisitos previos para instalar Campaign en Linux{#prerequisites-of-campaign-installation-in-linux}
+
+![](../../assets/v7-only.svg)
 
 ## Requisitos previos de software {#software-prerequisites}
 
@@ -96,7 +98,7 @@ En RHEL y CentOS, se observaron problemas de compatibilidad con las capas de cli
 SELINUX=disabled
 ```
 
-### Fuentes para estadísticas de MTA {#fonts-for-mta-statistics}
+### Fuentes para las estadísticas de MTA {#fonts-for-mta-statistics}
 
 Para que los informes sobre estadísticas de MTA (nms/fra/jsp/stat.jsp) se muestren correctamente, agregue fuentes.
 

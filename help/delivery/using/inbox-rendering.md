@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 100%
 
 ---
 
 # Procesamiento de la bandeja de entrada{#inbox-rendering}
+
+![](../../assets/common.svg)
 
 ## Acerca del procesamiento de la bandeja de entrada {#about-inbox-rendering}
 
@@ -82,8 +84,8 @@ Cada vez que se utiliza la función **[!UICONTROL Inbox rendering]** en una entr
 >
 >* Cada vez que se genera el informe de renderización de la Bandeja de entrada, se resta un token por cada cliente de mensajería: uno para la renderización de Outlook 2000, uno para la renderización de Outlook 2010, uno para la renderización de Apple Mail 9, etc.
 >* Para el mismo envío, si vuelve a generar la renderización de la bandeja de entrada, el número de tokens disponibles se reduce de nuevo según la cantidad de renderizaciones generadas.
->
 
+>
 
 
 El número de tokens disponibles restantes se muestra en **[!UICONTROL General summary]** de [Inbox rendering report](#inbox-rendering-report).

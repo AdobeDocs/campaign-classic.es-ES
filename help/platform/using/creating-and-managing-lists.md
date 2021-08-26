@@ -2,18 +2,20 @@
 product: campaign
 title: Creación y administración de listas
 description: Obtenga información sobre cómo crear y administrar listas
-feature: Perfiles
+feature: Profiles
 role: User
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '804'
 ht-degree: 100%
 
 ---
 
 # Creación y administración de listas{#creating-and-managing-lists}
+
+![](../../assets/common.svg)
 
 ## ¿Qué es una lista?  {#about-lists-in-adobe-campaign}
 

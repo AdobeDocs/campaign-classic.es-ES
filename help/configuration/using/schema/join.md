@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: a7ca0300-d250-429c-8ae1-2ae7dee82cf5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 4%
 
 ---
 
-# unir elemento {#join--element}
+# elemento de unión {#join--element}
+
+![](../../../assets/v7-only.svg)
 
 ## Modelo de contenido {#content-model-7}
 
@@ -25,7 +27,7 @@ join:==EMPTY
 * @xpath-dst (cadena)
 * @xpath-src (cadena)
 
-## Padres {#parents-7}
+## Principales {#parents-7}
 
 `<element>`
 
@@ -47,7 +49,7 @@ Por convención, los vínculos se definen al final del esquema.
 
 Si el elemento `<join>` no se especifica cuando se define el elemento de tipo vínculo, el vínculo se coloca automáticamente en las claves principales de ambas tablas.
 
-## Descripción de atributo {#attribute-description-7}
+## Descripción del atributo {#attribute-description-7}
 
 * **dstFilterExpr (cadena)**: este atributo permite restringir el número de valores aptos en la tabla remota.
 * **xpath-dst (cadena)**: este atributo recibe un Xpath (@name attribute de la tabla remota).

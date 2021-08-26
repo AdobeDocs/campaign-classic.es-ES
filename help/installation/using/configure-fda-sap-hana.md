@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 39bfe775-e182-4a0b-ad3c-b7a901297c90
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 71%
@@ -14,6 +14,8 @@ ht-degree: 71%
 ---
 
 # Configuración de acceso a SAP HANA {#configure-access-to-sap-hana}
+
+![](../../assets/v7-only.svg)
 
 Utilice la opción [Federated Data Access](../../installation/using/about-fda.md) (FDA) de Campaign para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso al SAP HANA.
 

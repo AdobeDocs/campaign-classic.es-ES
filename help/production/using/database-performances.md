@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 33dcfd4b-51fd-44f4-98e0-23eafb79d7da
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 8%
@@ -14,6 +14,8 @@ ht-degree: 8%
 ---
 
 # Rendimiento de la base de datos{#database-performances}
+
+![](../../assets/v7-only.svg)
 
 La mayoría de los problemas de rendimiento están vinculados al mantenimiento de la base de datos. Estos son cuatro posibles clientes principales que le ayudarán a encontrar la causa del rendimiento lento:
 

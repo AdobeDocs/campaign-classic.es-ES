@@ -5,17 +5,26 @@ description: Interacción
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '153'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 79%
 
 ---
 
 
 # Interacción{#interaction}
 
-El flujo de trabajo detallado a continuación se instala con el módulo **Offer engine (Interaction)** de forma predeterminada. Para obtener más información sobre este módulo, consulte esta [sección](../../interaction/using/interaction-and-offer-management.md).
+![](../../assets/common.svg)
+
+Los flujos de trabajo detallados a continuación se instalan con el complemento **Offer engine (Interaction)** de forma predeterminada.
+
+Para obtener más información, consulte estas secciones en función de la versión de Campaign:
+
+![](assets/do-not-localize/v7.jpeg)[  Documentación de Campaign v7](../../interaction/using/interaction-and-offer-management.md)
+
+![](assets/do-not-localize/v8.png)[  Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/interaction/interaction.html)
+
 
 <table> 
  <tbody> 

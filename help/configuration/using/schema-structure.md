@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1564'
 ht-degree: 12%
@@ -14,6 +14,8 @@ ht-degree: 12%
 ---
 
 # Estructura del esquema{#schema-structure}
+
+![](../../assets/v7-only.svg)
 
 La estructura básica de un `<srcschema>` es la siguiente:
 
@@ -486,7 +488,6 @@ Los elementos se designan por su nombre y los atributos se designan por el nombr
 >* **`[@email]`** y  **@** emailare equivalentes
 
 >
-
 
 
 También es posible definir expresiones complejas, como las siguientes operaciones aritméticas:

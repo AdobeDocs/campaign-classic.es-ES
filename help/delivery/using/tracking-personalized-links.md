@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: d0e00b40-e7dd-4484-b37c-fd3f3ac70fda
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 
 ---
 
 # Introducción al seguimiento de vínculos personalizados {#tracking-personalized-links}
+
+![](../../assets/common.svg)
 
 Los vínculos del contenido del correo electrónico que contienen personalización necesitan rastrearse con una sintaxis específica.
 

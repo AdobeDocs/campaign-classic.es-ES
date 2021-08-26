@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 100%
 
 ---
 
 # Cómo utilizar los datos de flujo de trabajo{#how-to-use-workflow-data}
+
+![](../../assets/common.svg)
 
 ## Actualización de la base de datos {#updating-the-database}
 
@@ -29,21 +31,21 @@ Los datos de la base de datos de Adobe Campaign y de las listas existentes puede
 
    ![](assets/s_user_create_list.png)
 
-   Consulte [Actualización de listas](../../workflow/using/list-update.md).
+   Consulte [Actualización de listas](list-update.md).
 
 * La actividad **[!UICONTROL Update data]** realiza una actualización en masa de los campos de la base de datos.
 
-   Para obtener más información, consulte [Actualización de datos](../../workflow/using/update-data.md).
+   Para obtener más información, consulte [Actualización de datos](update-data.md).
 
 ### Gestión de suscripciones y bajas {#subscription-unsubscription-management}
 
-Para obtener información sobre las suscripciones y las bajas de destinatarios de un servicio informativo a través de un flujo de trabajo, consulte [Servicios de suscripción](../../workflow/using/subscription-services.md).
+Para obtener información sobre las suscripciones y las bajas de destinatarios de un servicio informativo a través de un flujo de trabajo, consulte [Servicios de suscripción](subscription-services.md).
 
 ## Envío a través de un flujo de trabajo {#sending-via-a-workflow}
 
 ### Actividad de envío {#delivery-activity}
 
-La actividad de envío aparece detallada en [Envío](../../workflow/using/delivery.md).
+La actividad de envío aparece detallada en [Envío](delivery.md).
 
 ### Enriquecimiento y establecimiento de objetivos de las entregas {#enriching-and-targeting-deliveries}
 
@@ -57,7 +59,7 @@ Además de los campos de personalización habituales, puede añadir campos de pe
 
 ![](assets/s_advuser_using_additional_data.png)
 
-Los datos contenidos en la tabla de flujo de trabajo se identifican con su nombre: siempre se compone del vínculo **targetData.** Para obtener más información, consulte [Datos de destinatario](../../workflow/using/data-life-cycle.md#target-data).
+Los datos contenidos en la tabla de flujo de trabajo se identifican con su nombre: siempre se compone del vínculo **targetData.** Para obtener más información, consulte [Datos de destinatario](data-life-cycle.md#target-data).
 
 Dentro del marco de una entrega de correo electrónico, los campos de personalización también pueden utilizar datos de la extensión de grupo objetivo realizada en las fases del flujo de trabajo de objetivos, como se muestra en el ejemplo siguiente:
 

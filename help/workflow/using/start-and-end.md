@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: 56dfbaf3-93de-4ade-b4ad-9b54d239c7a5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 100%
 
 ---
 
-# Inicio y final (Start y End){#start-and-end}
+# Inicio y final{#start-and-end}
+
+![](../../assets/common.svg)
 
 Las actividades **[!UICONTROL Start]** y **[!UICONTROL End]** permiten marcar de forma gráfica el inicio y el final de un flujo de trabajo. Estas actividades no tienen impacto funcional y, por tanto, son opcionales.
 

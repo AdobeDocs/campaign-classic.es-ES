@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: reporting-in-adobe-campaign
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
 
 ---
 
-# Introducción a creación de informes {#about-adobe-campaign-reporting-tools}
+# Introducción a la creación de informes {#about-adobe-campaign-reporting-tools}
+
+![](../../assets/common.svg)
 
 Además de los [informes integrados](../../reporting/using/about-campaign-built-in-reports.md), Adobe Campaign permite generar informes en distintos contextos y satisfacer diferentes necesidades. En este documento se describen los principios de uso y los modos de implementación.
 

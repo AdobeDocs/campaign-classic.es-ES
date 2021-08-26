@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: bc4329b4-d272-4d32-bdaa-290cb9912af4
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # elemento srcschema {#srcschema--element}
+
+![](../../../assets/v7-only.svg)
 
 ## Modelo de contenido {#content-model-14}
 
@@ -23,7 +25,7 @@ srcSchema:==(attribute) | createdBy | datos | elemento | enumeración | ayuda | 
 
 created (datetime), createdBy-id (long), desc (string), entitySchema (string), ExtendedSchema (string), img (string), implementaciones (string), label (string), labelSingular (string), lastModified (datetime), library (boolean), mappingType (string), modifiedBy-id (long), name (string), namespace string), useRecycleBin (booleano), view (booleano), xtkschema (cadena)
 
-## Padres {#parents-14}
+## Principales {#parents-14}
 
 Ninguno
 
@@ -47,7 +49,7 @@ El `<srcschema>` es el elemento raíz de un esquema. Es el punto de entrada para
 
 La presentación del esquema está disponible en [Acerca de la referencia de esquema](../../../configuration/using/about-schema-reference.md) y [Estructura del esquema](../../../configuration/using/schema-structure.md).
 
-## Descripción de atributo {#attribute-description-14}
+## Descripción del atributo {#attribute-description-14}
 
 * **created (datetime)**: este atributo proporciona información sobre la fecha y hora de creación del esquema. Tiene el formulario &quot;Hora de la fecha&quot;. Los valores mostrados se toman del servidor. La hora se muestra en formato UTC.
 * **createdBy-id (long)**: es el identificador del operador que creó el esquema.

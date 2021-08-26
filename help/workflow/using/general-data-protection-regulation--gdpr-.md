@@ -5,8 +5,8 @@ description: Descubra más información sobre los flujos de trabajo Reglamento d
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 100%
 
@@ -14,6 +14,8 @@ ht-degree: 100%
 
 
 # Reglamento de protección de datos de privacidad{#general-data-protection-regulation-gdpr}
+
+![](../../assets/common.svg)
 
 Los flujos de trabajo detallados a continuación se instalan con el módulo **Reglamento general de protección de datos** de forma predeterminada. Para obtener más información sobre este módulo, consulte este [artículo](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html).
 

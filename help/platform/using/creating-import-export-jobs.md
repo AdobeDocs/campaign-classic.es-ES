@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 85c48712-3704-41db-a255-a07ca8d02ec4
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 100%
 
 ---
 
 # Creación de trabajos de importación y exportación {#creating-import-export-jobs}
+
+![](../../assets/common.svg)
 
 Una vez configuradas las plantillas, se pueden iniciar operaciones de importación y exportación en varios contextos en Adobe Campaign.
 

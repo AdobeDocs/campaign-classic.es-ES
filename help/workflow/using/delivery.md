@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 72fbdd1d-a105-4e9f-9e17-2e9d62d2bb80
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 100%
 
 ---
 
 # Entrega{#delivery}
+
+![](../../assets/common.svg)
 
 Una actividad de tipo **Entrega** permite crear una acción de entrega. Se puede construir utilizando elementos de entrada.
 
@@ -81,7 +83,7 @@ Para configurarlo, edite la actividad e introduzca las opciones de entrega.
    * **[!UICONTROL Send a proof]**: esta opción permite enviar una prueba de la entrega. Esta acción equivale a hacer clic en el botón **[!UICONTROL Send a proof]** de la barra de herramientas de una entrega con **Entrega**.
    * **[!UICONTROL Prepare and start]**: esta opción inicia el proceso de análisis completo (cálculo del objetivo y preparación de contenido) y realiza la entrega. Esta acción equivale a hacer clic en las opciones **[!UICONTROL Deliver as soon as possible]**, **[!UICONTROL Analyze]** y **[!UICONTROL Confirm delivery]** al mandar una envío al objetivo principal con **Entrega**.
 
-   La actividad **[!UICONTROL Act on a delivery]** utilizada en el flujo de trabajo permite iniciar todos los pasos restantes necesarios para comenzar la entrega (cálculo del objetivo, preparación de contenido, entrega). Para obtener más información, consulte [Control de envíos](../../workflow/using/delivery-control.md).
+   La actividad **[!UICONTROL Act on a delivery]** utilizada en el flujo de trabajo permite iniciar todos los pasos restantes necesarios para comenzar la entrega (cálculo del objetivo, preparación de contenido, entrega). Para obtener más información, consulte [Control de envíos](delivery-control.md).
 
    Las siguientes opciones también están disponibles:
 
@@ -95,7 +97,7 @@ Para configurarlo, edite la actividad e introduzca las opciones de entrega.
 
    * **[!UICONTROL Processing errors]**
 
-      Consulte [Control de envíos](../../workflow/using/delivery-control.md).
+      Consulte [Control de envíos](delivery-control.md).
    La pestaña **Script** permite modificar los parámetros de entrega.
 
    ![](assets/edit_diffusion_fil_script.png)
@@ -125,11 +127,11 @@ Abra la actividad **Approval** y defina las propiedades como se indica a continu
    Do you wish to approve delivery (<%= vars.recCount %> recipient(s))?
    ```
 
-   Este es un mensaje que incluye una expresión escrita en JavaScript: **[!UICONTROL vars.recCount]** representa el número de destinatarios objetivo de la entrega de la tarea anterior. Para obtener más información sobre las expresiones JavaScript, consulte [Plantillas y secuencias de comandos de JavaScript](../../workflow/using/javascript-scripts-and-templates.md).
+   Este es un mensaje que incluye una expresión escrita en JavaScript: **[!UICONTROL vars.recCount]** representa el número de destinatarios objetivo de la entrega de la tarea anterior. Para obtener más información sobre las expresiones JavaScript, consulte [Plantillas y secuencias de comandos de JavaScript](javascript-scripts-and-templates.md).
 
    ![](assets/new-workflow-param-validation.png)
 
-   La tarea de aprobación se detalla en [Aprobación](../../workflow/using/approval.md).
+   La tarea de aprobación se detalla en [Aprobación](approval.md).
 
 ## Parámetros de entrada {#input-parameters}
 

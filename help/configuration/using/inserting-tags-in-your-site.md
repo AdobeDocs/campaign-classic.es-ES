@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: e7fcec75-82fe-45ff-8d45-7d6e95baeb14
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 5%
@@ -14,6 +14,8 @@ ht-degree: 5%
 ---
 
 # Inserción de etiquetas en el sitio{#inserting-tags-in-your-site}
+
+![](../../assets/v7-only.svg)
 
 ## Método simple {#simple-method}
 
@@ -122,7 +124,7 @@ Cuando las páginas web se generan dinámicamente, puede agregar la etiqueta de 
 </html>
 ```
 
-## Método óptimo {#optimum-method-}
+## Método Optimum {#optimum-method-}
 
 Si desea controlar la información enviada al servidor de redirección, la forma más fiable es realizar la consulta HTTP sincrónicamente utilizando un lenguaje de generación de páginas.
 

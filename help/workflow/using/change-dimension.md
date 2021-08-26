@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: c3de99f8-089f-4c7c-be11-f375a9463eaa
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 100%
 
 ---
 
 # Dimensión cambiante{#change-dimension}
+
+![](../../assets/common.svg)
 
 La actividad para cambiar dimensión permite cambiar la dimensión de segmentación durante el ciclo de construcción del mismo. El desplazamiento de ejes depende de la plantilla de datos y de la dimensión de entrada. Esto permite, por ejemplo, cambiar de la dimensión “contratos” a la dimensión “clientes”.
 
@@ -55,7 +57,7 @@ Para configurar la actividad de la dimensión de cambio, siga los pasos siguient
 
       >[!NOTE]
       >
-      >Para obtener más información sobre la creación y administración de columnas adicionales, consulte [Adición de datos](../../workflow/using/query.md#adding-data).
+      >Para obtener más información sobre la creación y administración de columnas adicionales, consulte [Adición de datos](query.md#adding-data).
 
    * Seleccione la dimensión de segmentación anterior (antes del cambio de eje) y, en el subárbol **[!UICONTROL Zip Code]** del destinatario, seleccione **[!UICONTROL Location]** y haga clic en **[!UICONTROL Edit expression]**.
 

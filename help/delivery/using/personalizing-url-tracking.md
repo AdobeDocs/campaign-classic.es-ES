@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 100%
 
 ---
 
 # Configuración de las opciones de seguimiento de URL{#personalizing-url-tracking}
+
+![](../../assets/common.svg)
 
 Es posible acceder a los ajustes avanzados de seguimiento de mensajes mediante el icono **[!UICONTROL Tracking & Images]** de la barra de herramientas del asistente de envío.
 

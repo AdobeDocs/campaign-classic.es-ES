@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: b28aa5a5-afba-458b-8a85-375493c6c836
-source-git-commit: eb630b29dba8cc34046e2f14e9ed6ba8c017ea5d
+source-git-commit: 84312974b9b7372c8a46fd1c7ead1148690bcd83
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 86%
@@ -14,6 +14,8 @@ ht-degree: 86%
 ---
 
 # Uso compartido de activos con Adobe Experience Cloud{#sharing-assets-with-adobe-experience-cloud}
+
+![](../../assets/common.svg)
 
 Experience Cloud Assets ofrece un único repositorio centralizado de activos listos para su uso que se pueden compartir en varias soluciones. Un activo es un documento digital, imagen, vídeo o archivo de audio.
 

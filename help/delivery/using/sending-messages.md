@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: c75a5ea2-8d62-4f98-bccd-7116a4d404fd
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 100%
 
 ---
 
 # Pasos principales para enviar un correo electrónico {#confirming-email-delivery}
+
+![](../../assets/common.svg)
 
 Una vez creado y configurado el correo electrónico, puede enviarlo al destinatario principal. Esta sección presenta los pasos principales para comprobar y confirmar el envío de un correo electrónico.
 

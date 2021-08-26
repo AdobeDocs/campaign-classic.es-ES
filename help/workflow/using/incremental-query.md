@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: abc08232-1a92-41e8-90f1-02e0a673539b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 100%
 
 ---
 
 # Consulta incremental{#incremental-query}
+
+![](../../assets/common.svg)
 
 Una consulta incremental le permite seleccionar periódicamente un objetivo basado en un criterio, al mismo tiempo que excluye las personas que ya fueron destinadas por este criterio.
 
@@ -23,8 +25,8 @@ La consulta se define de la misma manera que para las consultas estándar, pero 
 
 **Temas relacionados:**
 
-* [Caso de uso: Actualización de lista trimestral con una consulta incremental](../../workflow/using/quarterly-list-update.md)
-* [Creación de una consulta](../../workflow/using/query.md#creating-a-query)
+* [Caso de uso: Actualización de lista trimestral con una consulta incremental](quarterly-list-update.md)
+* [Creación de una consulta](query.md#creating-a-query)
 
 >[!CAUTION]
 >

@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 100%
 
 ---
 
 # Edición de un perfil{#editing-a-profile}
+
+![](../../assets/common.svg)
 
 Para ver información relacionada con un perfil, haga clic en su nombre en la lista de perfiles.
 

@@ -6,14 +6,16 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: d4acf99b-cef4-48f7-b4cd-c032ec12592f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
 
 ---
 
 # Ejemplo de extensión{#extension-example}
+
+![](../../assets/v7-only.svg)
 
 En el caso de un contacto entrante (centro de llamadas o sitio web), las ofertas más relevantes se sugieren a un contacto determinado mediante un conjunto de reglas de idoneidad. Para enriquecer los criterios de idoneidad de las ofertas, amplíe el esquema **de nms:interaction**.
 

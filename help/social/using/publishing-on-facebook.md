@@ -6,14 +6,16 @@ audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: 84d6cb2e-c7f9-43d7-a98c-22613d456193
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 100%
 
 ---
 
 # Publicación en Facebook{#publishing-on-facebook}
+
+![](../../assets/v7-only.svg)
 
 Una vez completada la configuración, Social Marketing le permite publicar publicaciones en los muros de sus páginas de Facebook.
 

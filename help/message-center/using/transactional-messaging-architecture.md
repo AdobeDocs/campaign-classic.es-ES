@@ -6,14 +6,16 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
-source-git-commit: e86350cf12db37e3f2c227563057b97922601729
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 100%
 
 ---
 
-# Arquitectura de mensajería transaccional {#transactional-messaging-architecture}
+# Arquitectura de la mensajería transaccional {#transactional-messaging-architecture}
+
+![](../../assets/v7-only.svg)
 
 La mensajería transaccional se basa en una arquitectura específica, que consta de varias instancias:
 

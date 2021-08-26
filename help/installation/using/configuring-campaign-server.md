@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # Introducción a la configuración del servidor de Campaign{#gs-campaign-server-config}
+
+![](../../assets/v7-only.svg)
 
 En este capítulo se detallan las configuraciones del lado del servidor que se pueden realizar para adaptarlas a sus necesidades y a las particularidades de su entorno.
 
@@ -136,7 +138,7 @@ Puede configurar el directorio de almacenamiento (directorio **var**) de datos d
    Para obtener más información, consulte [Personalize parameters](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
 
 
-## Seguridad y relevos dinámicos de la página {#dynamic-page-security-and-relays}
+## Seguridad y relés de página dinámicos {#dynamic-page-security-and-relays}
 
 De forma predeterminada, todas las páginas dinámicas están relacionadas automáticamente con el servidor **local** Tomcat del equipo cuyo módulo web se ha iniciado. Esta configuración se introduce en la sección **`<url>`** de la configuración de la retransmisión de consulta para el archivo **ServerConf.xml**.
 
@@ -190,7 +192,7 @@ En este ejemplo, el valor **`<IP_addresses>`** coincide con la lista de direccio
 
 ### Administrar encabezados HTTP {#managing-http-headers}
 
-De forma predeterminada, todos los encabezados HTTP no se retransmiten. Puede añadir encabezados específicos en las respuestas enviadas por relé. Para ello:
+De forma predeterminada, todos los encabezados HTTP no se retransmiten. Puede añadir encabezados específicos en las respuestas enviadas por relé. Para ello, haga lo siguiente:
 
 1. Vaya al archivo **serverConf.xml**.
 1. En el nodo **`<relay>`**, vaya a la lista de encabezados HTTP reenviados.

@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: d8960a2e-6900-4346-9f06-e7dd9d7b5139
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 6%
@@ -14,6 +14,8 @@ ht-degree: 6%
 ---
 
 # elemento param {#param--element}
+
+![](../../../assets/v7-only.svg)
 
 ## Modelo de contenido {#content-model-12}
 
@@ -31,7 +33,7 @@ param:==help
 * @namespace (MNTOKEN)
 * @type (cadena)
 
-## Padres {#parents-12}
+## Principales {#parents-12}
 
 `<parameters>`
 
@@ -43,7 +45,7 @@ param:==help
 
 Este elemento permite definir un parámetro para llamar a un método SOAP.
 
-## Descripción de atributo {#attribute-description-12}
+## Descripción del atributo {#attribute-description-12}
 
 * **desc (cadena)**: descripción que afecta al  `<param>` elemento.
 * **inout (cadena)**: este atributo define si el parámetro se encuentra o no en la entrada (in) o salida (out) de la llamada SOAP. Si no se especifica este atributo, el parámetro predeterminado es input (&quot;@inout=in&quot;).

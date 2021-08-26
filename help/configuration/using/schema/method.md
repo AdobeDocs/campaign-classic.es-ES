@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 0fb74318-fe09-473c-8e33-1f3afd66b4cc
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # elemento de método {#method--element}
+
+![](../../../assets/v7-only.svg)
 
 ## Modelo de contenido {#content-model-10}
 
@@ -31,7 +33,7 @@ método:==( help | parámetros)
 * @pkonly (booleano)
 * @static (booleano)
 
-## Padres {#parents-10}
+## Principales {#parents-10}
 
 `<methods>`  ,  `<interface />`
 
@@ -50,7 +52,7 @@ Los métodos SOAP permiten procesos de aplicación.
 
 La &quot;@library&quot; es necesaria para declarar un nuevo método (no nativo): el espacio de nombres y el nombre utilizado para la biblioteca son independientes del espacio de nombres y el nombre del esquema donde está la declaración.
 
-## Descripción de atributo {#attribute-description-10}
+## Descripción del atributo {#attribute-description-10}
 
 * **acceso (cadena)**: este atributo define el control de acceso para el uso del método . Si falta este atributo, la identificación es obligatoria. Los valores disponibles son: &#39;anonymous&#39;, &#39;admin&#39; y &#39;sql&#39;.
 * **const (booleano)**: si está activado, este atributo significa que el método declarado alterará la entidad

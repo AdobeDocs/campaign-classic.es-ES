@@ -6,14 +6,16 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
-source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 100%
 
 ---
 
 # Interfaz del editor de contenido{#content-editor-interface}
+
+![](../../assets/common.svg)
 
 ## Ventana de edición {#editing-window}
 

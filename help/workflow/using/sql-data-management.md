@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '394'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '418'
+ht-degree: 95%
 
 ---
 
-# Gestión de datos SQL{#sql-data-management}
+# Administración de datos SQL{#sql-data-management}
+
+![](../../assets/common.svg)
 
 La actividad de **SQL Data Management** permite escribir sus propios scripts SQL para crear y rellenar tablas de trabajo.
 
@@ -22,7 +24,14 @@ La actividad de **SQL Data Management** permite escribir sus propios scripts SQL
 Antes de configurar la actividad, asegúrese de que se cumplan los siguientes requisitos previos:
 
 * La actividad solo está disponible para fuentes de datos remotos. Por lo tanto, el paquete **[!UICONTROL FDA]** (Acceso de datos federado) debe instalarse en su instancia. [Más información](../../installation/using/about-fda.md).
-* El esquema de salida debe existir en la base de datos y estar vinculado a una base de datos de FDA. [Más información](../../configuration/using/about-schema-reference.md).
+
+   Para obtener más información, consulte estas secciones en función de la versión de Campaign:
+
+   ![](assets/do-not-localize/v7.jpeg)[  Documentación de Campaign v7](../../installation/using/about-fda.md)
+
+   ![](assets/do-not-localize/v8.png)[  Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html)
+
+* El esquema de salida debe existir en la base de datos y estar vinculado a una base de datos de FDA.
 * El operador que ejecute el flujo de trabajo debe tener los derechos asignados de la **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]**. [Más información](../../platform/using/access-management-named-rights.md).
 
 ## Configuración de la actividad de gestión de datos SQL {#configuring-the-sql-data-management-activity}
@@ -66,7 +75,7 @@ La actividad está configurada. Está listo para ejecutarse en el flujo de traba
 >  
 >Si se reinicia la actividad, se ejecuta todo el script desde el principio, independientemente del estado de ejecución.
 
-## Ejemplos de script SQL:{#sql-script-samples}
+## Ejemplos de script SQL: {#sql-script-samples}
 
 >[!NOTE]
 >

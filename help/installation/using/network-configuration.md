@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 3%
@@ -15,13 +15,15 @@ ht-degree: 3%
 
 # Configuración de red{#network-configuration}
 
+![](../../assets/v7-only.svg)
+
 ## Comunicación entre procesos {#communication-between-processes}
 
 Ciertos procesos de la aplicación necesitan comunicarse con otros o acceder a la LAN e Internet. Esto significa que algunos puertos TCP deben estar abiertos para estos procesos.
 
 Utilice el puerto Apache Tomcat incrustado como prioridad (8080 de forma predeterminada) para las comunicaciones internas entre los distintos servidores de aplicaciones de una plataforma de Adobe Campaign.
 
-### Servidor de envío {#delivery-server}
+### Servidor de entrega {#delivery-server}
 
 Para el servidor de entrega (**nlserver mta**), deben abrirse los puertos siguientes:
 
@@ -100,7 +102,7 @@ Para el servidor de aplicaciones (**nlserver web**), deben abrirse los puertos s
 
 Cuando varios servidores de aplicaciones de una plataforma de Adobe Campaign necesiten comunicarse entre sí, recomendamos utilizar el puerto del servidor Apache Tomcat (de forma predeterminada: 8080) en lugar del puerto HTTP del servidor web con el que se realizó la integración del módulo de redirección. Esto significa que el puerto debe estar abierto entre estos servidores.
 
-### Estado del envío de SMS {#sms-delivery-status}
+### Estado de envío de SMS {#sms-delivery-status}
 
 Para realizar un seguimiento de los envíos SMS (**nlserver sms**), debe estar abierto el siguiente puerto:
 

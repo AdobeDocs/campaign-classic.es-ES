@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 100%
 
 ---
 
 # Prácticas recomendadas para cubos{#concepts-and-methodology}
+
+![](../../assets/common.svg)
 
 ## Agrupamiento de datos {#data-binning}
 

@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: d2b26af0-30a1-4852-acd5-996795f198a1
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 100%
 
 ---
 
-# Actualizar acumulado{#update-aggregate}
+# Actualización de agregado{#update-aggregate}
+
+![](../../assets/common.svg)
 
 Los agregados se especifican en el nivel de cubo para fines informativos. Una pestaña **[!UICONTROL Workflow]** está disponible al configurar un acumulado.
 

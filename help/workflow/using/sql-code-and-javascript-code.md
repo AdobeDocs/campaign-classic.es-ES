@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 729a2010-c2d8-481b-8c9e-780b9e5f97ef
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 100%
 
 ---
 
 # Código SQL y código JavaScript{#sql-code-and-javascript-code}
+
+![](../../assets/common.svg)
 
 ## Código SQL {#sql-code}
 
@@ -27,11 +29,11 @@ Una actividad de **[!UICONTROL SQL code]** ejecuta una secuencia de comandos SQL
 
 * **[!UICONTROL Processing errors]**
 
-   Consulte [Errores de procesamiento](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
+   Consulte [Errores de procesamiento](monitoring-workflow-execution.md#processing-errors).
 
 ## Código JavaScript y código JavaScript avanzado {#javascript-code}
 
-Las actividades **[!UICONTROL JavaScript code]** y **[!UICONTROL Advanced JavaScript code]** ejecutan una secuencia de comandos JavaScript en el contexto de un flujo de trabajo. Para obtener más información sobre secuencias de comandos, consulte la sección [Secuencias de comandos de JavaScript y plantillas](../../workflow/using/javascript-scripts-and-templates.md).
+Las actividades **[!UICONTROL JavaScript code]** y **[!UICONTROL Advanced JavaScript code]** ejecutan una secuencia de comandos JavaScript en el contexto de un flujo de trabajo. Para obtener más información sobre secuencias de comandos, consulte la sección [Secuencias de comandos de JavaScript y plantillas](javascript-scripts-and-templates.md).
 
 ### Retraso de ejecución {#exec-delay}
 
@@ -47,7 +49,7 @@ Para omitir este límite, debe establecer el valor en **0**.
 
 * **[!UICONTROL Script]**: El área central del editor contiene la secuencia de comandos que se va a ejecutar.
 
-* **[!UICONTROL Process errors]**: Consulte [Errores de procesamiento](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
+* **[!UICONTROL Process errors]**: Consulte [Errores de procesamiento](monitoring-workflow-execution.md#processing-errors).
 
 ### Código JavaScript avanzado {#adv-js-code-desc}
 

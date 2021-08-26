@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1963'
 ht-degree: 100%
 
 ---
 
 # Creación de filtros{#creating-filters}
+
+![](../../assets/common.svg)
 
 Cuando navega por el árbol de Adobe Campaign (en el menú **[!UICONTROL Explorer]** de la página principal), los datos contenidos en la base de datos se muestran en listas. Estas listas se pueden configurar para mostrar solo los datos necesarios para el operador. Se pueden realizar acciones sobre los datos filtrados. La configuración del filtro permite seleccionar datos de una lista **[!UICONTROL dynamically]**. Al modificar los datos, los datos filtrados se actualizan.
 

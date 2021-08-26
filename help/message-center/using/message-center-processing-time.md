@@ -6,14 +6,16 @@ audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: c797fd94-0c8d-480b-b22a-1489ac331e77
-source-git-commit: e86350cf12db37e3f2c227563057b97922601729
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 100%
 
 ---
 
-# Tiempo de procesamiento del centro de mensajería {#message-center-processing-time}
+# Tiempo de procesamiento del Centro de mensajería {#message-center-processing-time}
+
+![](../../assets/v7-only.svg)
 
 Este informe muestra los indicadores principales relacionados con la cola de tiempo real.
 

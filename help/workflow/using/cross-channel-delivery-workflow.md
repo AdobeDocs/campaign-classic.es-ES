@@ -6,16 +6,18 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 100%
 
 ---
 
-# Flujo de trabajo de entrega por canales cruzados{#cross-channel-delivery-workflow}
+# Flujo de trabajo de entrega en canales múltiples{#cross-channel-delivery-workflow}
 
-Este caso de uso presenta un ejemplo que implica un flujo de trabajo de envío por canales cruzados. En [esta sección](../../workflow/using/cross-channel-deliveries.md) se presenta el concepto general de envíos por canales cruzados.
+![](../../assets/common.svg)
+
+Este caso de uso presenta un ejemplo que implica un flujo de trabajo de envío por canales cruzados. En [esta sección](cross-channel-deliveries.md) se presenta el concepto general de envíos por canales cruzados.
 
 El objetivo es segmentar a un público de los destinatarios de la base de datos en grupos diferentes con el fin de enviar un correo electrónico a un grupo y un mensaje SMS a otro grupo.
 
@@ -36,7 +38,7 @@ Los pasos de implementación principales para este caso de uso son los siguiente
 Para definir el objetivo, cree una consulta para identificar los destinatarios.
 
 1. Cree una campaña. Para obtener más información, consulte [esta sección](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign).
-1. En la pestaña **[!UICONTROL Targeting and workflows]** de la campaña, añada una actividad **Query** al flujo de trabajo. Para obtener más información sobre esta actividad, consulte [esta sección](../../workflow/using/query.md).
+1. En la pestaña **[!UICONTROL Targeting and workflows]** de la campaña, añada una actividad **Query** al flujo de trabajo. Para obtener más información sobre esta actividad, consulte [esta sección](query.md).
 1. Defina los destinatarios que recibirán las entregas. Por ejemplo, seleccione miembros “Gold” como el entorno objetivo.
 1. Agregue condiciones de filtro a la consulta. En este ejemplo, seleccione destinatarios que tengan una dirección de correo electrónico y un número de móvil.
 
@@ -69,7 +71,7 @@ Para definir el objetivo, cree una consulta para identificar los destinatarios.
 
 Una vez identificado el objetivo y que se haya creado el primer envío, se debe segmentar el objetivo en diferentes poblaciones utilizando condiciones de filtrado.
 
-1. Agregue una actividad **Split** al flujo de trabajo y ábrala. Para obtener más información sobre esta actividad, consulte [esta sección](../../workflow/using/split.md).
+1. Agregue una actividad **Split** al flujo de trabajo y ábrala. Para obtener más información sobre esta actividad, consulte [esta sección](split.md).
 1. Cree tres segmentos a partir de la población calculada de forma ascendente en la consulta.
 
    ![](assets/wkf_cross-channel_6.png)

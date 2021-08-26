@@ -6,14 +6,16 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
-source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 100%
 
 ---
 
 # Introducción a las aplicaciones web{#about-web-applications}
+
+![](../../assets/common.svg)
 
 Adobe Campaign permite crear y publicar aplicaciones web dinámicas e interactivas con información de la base de datos y contenido adaptado a los derechos del usuario conectado.
 

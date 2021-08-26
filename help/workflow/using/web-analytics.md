@@ -5,8 +5,8 @@ description: Descubra más información sobre el paquete Web Analytics
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 100%
 
@@ -14,6 +14,8 @@ ht-degree: 100%
 
 
 # Web Analytics{#web-analytics}
+
+![](../../assets/common.svg)
 
 Los flujos de trabajo detallados a continuación se instalan con el módulo **Conectores web de Analytics** de forma predeterminada. Para obtener más información sobre este módulo, consulte esta [sección](../../platform/using/adobe-analytics-connector.md).
 

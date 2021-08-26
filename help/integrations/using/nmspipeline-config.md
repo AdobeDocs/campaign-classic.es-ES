@@ -4,8 +4,8 @@ title: Configuración de la integración
 description: Configuración de la integración
 audience: integrations
 content-type: reference
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 100%
 
@@ -13,6 +13,8 @@ ht-degree: 100%
 
 
 # Opción de canalización NmsPipeline_Config {#nmspipeline_config}
+
+![](../../assets/common.svg)
 
 Una vez que la autenticación funcione, [!DNL pipelined] puede recuperar los eventos y procesarlos. Solo procesa activadores configurados en Adobe Campaign e ignora al resto. El activador debe haberse generado desde Analytics y haber sido transferido a la canalización de antemano.
 La opción también se puede configurar con un comodín para capturar todos los activadores independientemente del nombre.

@@ -5,14 +5,16 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 100%
 
 ---
 
 # Creación de contenido personalizado {#build-personalized-content}
+
+![](../../assets/common.svg)
 
 Al diseñar el contenido del mensaje, trate de evitar problemas comunes que podrían impedir la ejecución del envío. La mayoría de las veces, los posibles errores están relacionados con la [personalización](about-personalization.md), el [formato](defining-the-email-content.md#message-content) y las [imágenes](defining-the-email-content.md#adding-images).
 

@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 8a0426c1-9e8d-4053-bc2b-6a550e2eed2f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # Database{#database}
+
+![](../../assets/v7-only.svg)
 
 El servidor de la base de datos puede ejecutarse en cualquier sistema operativo determinado independientemente del sistema operativo que utilicen el servidor de aplicaciones o los servidores, siempre que haya conectividad de red entre ellos.
 

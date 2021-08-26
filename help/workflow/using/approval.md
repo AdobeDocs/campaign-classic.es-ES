@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: 7ff5da71-ef82-48a2-a608-06a4ca188bb9
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 100%
 
 ---
 
 # Aprobación{#approval}
+
+![](../../assets/common.svg)
 
 Una tarea de **Approval** implica la participación de un operador. Al operador se le asigna una tarea y puede responder por correo electrónico, utilizando la página web vinculada en el mensaje del correo electrónico o a través de la consola.
 
@@ -63,7 +65,7 @@ Haga clic en el enlace **[!UICONTROL Advanced parameters...]** para seleccionar 
 
 Esta plantilla se puede modificar para personalizar el diseño del mensaje, pero es preferible realizar una copia. El mecanismo de objetivo (archivo externo, asignación de destino) no debe modificarse porque es necesario para que las notificaciones funcionen correctamente.
 
-Se muestra un ejemplo de aprobación en [Definición de aprobaciones](../../workflow/using/defining-approvals.md).
+Se muestra un ejemplo de aprobación en [Definición de aprobaciones](defining-approvals.md).
 
 ## Parámetros de salida {#output-parameters}
 

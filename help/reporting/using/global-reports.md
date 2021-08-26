@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '2183'
 ht-degree: 100%
 
 ---
 
 # Informes globales {#global-reports}
+
+![](../../assets/common.svg)
 
 Estos informes hacen referencia a la actividad de los datos de toda la base de datos. Para ver el tablero de informes, vaya a la pestaña **[!UICONTROL Reports]**.
 
@@ -41,7 +43,7 @@ Para mostrar los informes, haga clic en el nombre de cada uno. Los siguientes in
 * **[!UICONTROL Delivery statistics]**: consulte las [Estadísticas de entrega](#delivery-statistics).
 * **[!UICONTROL Breakdown of opens]**: consulte [Desglose de aperturas](#breakdown-of-opens).
 
-## Rendimiento de entrega {#delivery-throughput}
+## Rendimiento de la entrega {#delivery-throughput}
 
 Este informe contiene información sobre el rendimiento de entrega de toda la plataforma durante un periodo determinado. Para medir la velocidad a la que se envían los mensajes, los criterios son la cantidad de mensajes enviados por hora y el tamaño de los mensajes (en bits por segundo). En el siguiente ejemplo, el primer gráfico muestra las entregas correctas en azul y la cantidad de entregas incorrectas en naranja.
 

@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
 exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 100%
 
 ---
 
 # Ejemplos de uso{#use-cases}
+
+![](../../assets/common.svg)
 
 ## Análisis de una población {#analyzing-a-population}
 

@@ -6,14 +6,16 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: a9842e59-120c-4a35-abdf-6540a0bbdd6d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1140'
 ht-degree: 100%
 
 ---
 
 # Integración mediante JavaScript (lado del cliente){#integration-via-javascript-client-side}
+
+![](../../assets/v7-only.svg)
 
 Para llamar al motor de interacción en una página web, inserte una llamada a un código JavaScript directamente en la página. Esta llamada devuelve el contenido de la oferta en un elemento de destino.
 

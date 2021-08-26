@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 100%
 
 ---
 
 # Parámetros avanzados{#advanced-parameters}
+
+![](../../assets/common.svg)
 
 La pantalla de propiedades de una actividad tiene una pestaña **[!UICONTROL Advanced]** que permite definir un comportamiento en caso de errores, establecer el periodo de ejecución de la actividad e introducir una secuencia de comandos de inicialización. Existen dos versiones de esta pestaña:
 
@@ -33,7 +35,7 @@ Este campo contiene el nombre interno de la actividad.
 
 ## Imagen {#image}
 
-Este campo permite cambiar la imagen vinculada a una actividad. Para obtener más información, consulte [Gestor imágenes de actividad](../../workflow/using/managing-activity-images.md).
+Este campo permite cambiar la imagen vinculada a una actividad. Para obtener más información, consulte [Gestor imágenes de actividad](managing-activity-images.md).
 
 ## Ejecución {#execution}
 
@@ -65,7 +67,7 @@ Este campo permite definir el comportamiento que se debe aplicar al utilizar tar
 
 ## Zona horaria {#time-zone}
 
-Este campo permite seleccionar la zona horaria de la actividad. Para más información sobre esto: [Administración de zonas horarias](../../workflow/using/managing-time-zones.md).
+Este campo permite seleccionar la zona horaria de la actividad. Para más información sobre esto: [Administración de zonas horarias](managing-time-zones.md).
 
 ## En caso de errores {#in-case-of-errors}
 
@@ -76,7 +78,7 @@ Este campo permite definir la acción que debe llevarse a cabo cuando la activid
 
 ## Secuencia de comandos de inicialización {#initialization-script}
 
-Este campo permite inicializar las variables o modificar las propiedades de la actividad. Para obtener más información, consulte [Scripts y plantillas de JavaScript](../../workflow/using/javascript-scripts-and-templates.md).
+Este campo permite inicializar las variables o modificar las propiedades de la actividad. Para obtener más información, consulte [Scripts y plantillas de JavaScript](javascript-scripts-and-templates.md).
 
 ## Comentario {#comment}
 

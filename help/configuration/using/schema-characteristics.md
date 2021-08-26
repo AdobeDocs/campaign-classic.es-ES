@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 099161b4-b4cb-433c-aed6-71157269a536
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # Características del esquema{#schema-characteristics}
+
+![](../../assets/v7-only.svg)
 
 Las características de un esquema que hace referencia a una tabla existente son las siguientes:
 
@@ -25,7 +27,7 @@ Las características de un esquema que hace referencia a una tabla existente son
 >
 >No elimine los campos de la tabla de destinatarios estándar, aunque no sean útiles. Esto puede provocar errores de comportamiento en la base de datos de Adobe Campaign.
 
-## El atributo de vista {#the-view-attribute}
+## El atributo view {#the-view-attribute}
 
 Los esquemas de origen aceptan el atributo **view** para el elemento raíz **srcSchema**. Debe utilizarse cuando Adobe Campaign se manipula en tablas personalizadas. El atributo **view=&quot;true&quot;** indica al asistente de actualización de la estructura de la base de datos que ignore este esquema. Por lo tanto, se prohíbe a la aplicación sincronizar la tabla, sus columnas y sus índices con el esquema correspondiente.
 

@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 100%
 
 ---
 
 # Configuración del canal de SMS {#setting-up-sms-channel}
+
+![](../../assets/common.svg)
 
 Para enviar a un teléfono móvil, necesita:
 

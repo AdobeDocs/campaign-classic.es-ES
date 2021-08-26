@@ -7,9 +7,9 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Con Adobe Campaign, puede utilizar datos de clientes enriquecidos para crear, coordinar y ofrecer campañas dinámicas que los clientes realmente deseen mediante correo electrónico, canales móviles, sin conexión y mucho más.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: a54a6f9b8afedf8a200b80b027f908163faebeaa
+source-git-commit: a066eedd2ba7848f6dcefcb1476a0b834cb1d49a
 workflow-type: tm+mt
-source-wordcount: '2525'
+source-wordcount: '2522'
 ht-degree: 99%
 
 ---
@@ -37,11 +37,11 @@ ht-degree: 99%
       + [Versión 18.4](rn/using/release--18-4.md)
    + [Funciones obsoletas](rn/using/deprecated-features.md)
    + [Matriz de compatibilidad](rn/using/compatibility-matrix.md)
-   + [Notas técnicas](technotes/technote.md)
-   + [Actualización de certificados de iOS](technotes/ios-certificate-update.md)
-   + [Actualizaciones de configuración de Campaign](technotes/acc-config-updates.md)
-   + [Actualización de direcciones URL rastreadas](technotes/tracked-urls.md)
-   + [Actualizaciones de IMS](technotes/ims-updates.md)
+   + [Notas técnicas](technotes/using/technote.md)
+   + [Actualización de certificados de iOS](technotes/using/ios-certificate-update.md)
+   + [Actualizaciones de configuración de Campaign](technotes/using/acc-config-updates.md)
+   + [Actualización de direcciones URL rastreadas](technotes/using/tracked-urls.md)
+   + [Actualizaciones de IMS](technotes/using/ims-updates.md)
 + Introducción {#getting-started}
    + Introducción a Adobe Campaign {#starting-with-adobe-campaign}
       + [Introducción a Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
@@ -118,7 +118,7 @@ ht-degree: 99%
          + [Sincronización de datos con CRM](platform/using/crm-data-sync.md)
       + Conector de Adobe Analytics{#analytics-connector}
          + [Integración con Adobe Analytics Connector](platform/using/adobe-analytics-connector.md)
-         + [Cómo migrar al conector Adobe Analytics](technotes/aa-connector-migration.md)
+         + [Cómo migrar al conector Adobe Analytics](technotes/using/aa-connector-migration.md)
          + [Conectores de datos de Adobe Analytics](platform/using/adobe-analytics-data-connector-legacy.md)
    + [Opciones de ayuda y asistencia](support.md)
 + Creación y envío de mensajes {#sending-messages}
@@ -263,13 +263,13 @@ ht-degree: 99%
       + [Monitorización de campañas](campaign/using/marketing-campaign-monitoring.md)
       + [Proveedores, stock y presupuestos](campaign/using/providers--stocks-and-budgets.md)
    + Optimización de la campaña{#campaign-optimization}
-      + [Acerca de las tipologías de campaña](campaign/using/about-campaign-typologies.md)
-      + [Reglas de presión](campaign/using/pressure-rules.md)
-      + [Reglas de coherencia](campaign/using/consistency-rules.md)
-      + [Reglas de control](campaign/using/control-rules.md)
-      + [Reglas de filtrado](campaign/using/filtering-rules.md)
-      + [Aplicación de reglas](campaign/using/applying-rules.md)
-      + [Simulaciones en Campaign](campaign/using/campaign-simulations.md)
+      + [Acerca de las tipologías de campaña](campaign-opt/using/about-campaign-typologies.md)
+      + [Reglas de presión](campaign-opt/using/pressure-rules.md)
+      + [Reglas de coherencia](campaign-opt/using/consistency-rules.md)
+      + [Reglas de control](campaign-opt/using/control-rules.md)
+      + [Reglas de filtrado](campaign-opt/using/filtering-rules.md)
+      + [Aplicación de reglas](campaign-opt/using/applying-rules.md)
+      + [Simulaciones en Campaign](campaign-opt/using/campaign-simulations.md)
 + Gestión de recursos de marketing {#mrm}
    + [Acerca de la gestión de recursos de marketing](mrm/using/about-marketing-resource-management.md)
    + [Creación y administración de tareas](mrm/using/creating-and-managing-tasks.md)
@@ -277,19 +277,19 @@ ht-degree: 99%
    + [Administración de recursos de marketing](mrm/using/managing-marketing-resources.md)
    + [Foros de debate](mrm/using/discussion-forums.md)
 + Marketing distribuido {#distributed-marketing}
-   + [Acerca del marketing distribuido](campaign/using/about-distributed-marketing.md)
-   + [Creación de una campaña local](campaign/using/creating-a-local-campaign.md)
-   + [Creación de una campaña colaborativa](campaign/using/creating-a-collaborative-campaign.md)
-   + [Publicación del paquete de campaña](campaign/using/publishing-the-campaign-package.md)
-   + [Acceso a campañas](campaign/using/accessing-campaigns.md)
-   + [Seguimiento de una campaña](campaign/using/tracking-a-campaign.md)
-   + [Casos de uso](campaign/using/examples.md)
+   + [Acerca del marketing distribuido](distributed/using/about-distributed-marketing.md)
+   + [Creación de una campaña local](distributed/using/creating-a-local-campaign.md)
+   + [Creación de una campaña colaborativa](distributed/using/creating-a-collaborative-campaign.md)
+   + [Publicación del paquete de campaña](distributed/using/publishing-the-campaign-package.md)
+   + [Acceso a campañas](distributed/using/accessing-campaigns.md)
+   + [Seguimiento de una campaña](distributed/using/tracking-a-campaign.md)
+   + [Casos de uso](distributed/using/examples.md)
 + Gestor de respuestas {#response-manager}
-   + [Introducción al gestor de respuestas](campaign/using/about-response-manager.md)
-   + [Configuración](campaign/using/configuration.md)
-   + [Plantillas de hipótesis](campaign/using/hypothesis-templates.md)
-   + [Creación de hipótesis](campaign/using/creating-hypotheses.md)
-   + [Seguimiento de hipótesis](campaign/using/hypothesis-tracking.md)
+   + [Introducción al gestor de respuestas](response/using/about-response-manager.md)
+   + [Configuración](response/using/configuration.md)
+   + [Plantillas de hipótesis](response/using/hypothesis-templates.md)
+   + [Creación de hipótesis](response/using/creating-hypotheses.md)
+   + [Seguimiento de hipótesis](response/using/hypothesis-tracking.md)
 + Diseño y uso compartido de informes {#reporting}
    + Introducción a la creación de informes {#reporting-in-adobe-campaign}
       + [Herramientas de creación de informes](reporting/using/about-adobe-campaign-reporting-tools.md)

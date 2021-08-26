@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 100%
 
 ---
 
 # Consulta de información de entrega {#querying-delivery-information}
+
+![](../../assets/common.svg)
 
 ## Número de clics de una entrega específica {#number-of-clicks-for-a-specific-delivery}
 

@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: creating-queries
 exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 100%
 
 ---
 
 # Pasos para crear una consulta{#steps-to-create-a-query}
+
+![](../../assets/common.svg)
 
 Los pasos para crear una consulta en Adobe Campaign son los siguientes:
 

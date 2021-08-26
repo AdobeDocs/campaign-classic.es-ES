@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
-source-git-commit: 0a80912aae4cab58b6f06918a673aaca3883fbdf
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '2415'
 ht-degree: 100%
 
 ---
 
 # Administración de solicitudes de privacidad {#privacy-requests}
+
+![](../../assets/common.svg)
 
 Para una presentación general sobre la Gestión de la privacidad, consulte esta [sección](../../platform/using/privacy-management.md).
 

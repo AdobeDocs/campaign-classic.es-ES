@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 1%
@@ -15,9 +15,11 @@ ht-degree: 1%
 
 # Servidor de aplicaciones{#application-server}
 
+![](../../assets/v7-only.svg)
+
 Las capas de acceso a la base de datos necesarias deben estar instaladas en el servidor y ser accesibles desde la cuenta de Adobe Campaign.
 
-## Kit de desarrollo de Java - JDK {#java-development-kit---jdk}
+## Kit de desarrollo de Java: JDK {#java-development-kit---jdk}
 
 El generador de páginas web dinámicas utiliza la tecnología JSP 1.2. Para esto, se incluye un motor Tomcat (de Apache) en la aplicación. Requiere un Kit de desarrollo de Java (JDK), instalado en todos los servidores en los que está instalada la aplicación de Adobe Campaign.
 

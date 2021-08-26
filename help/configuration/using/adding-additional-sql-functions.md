@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # Adición de funciones SQL adicionales{#adding-additional-sql-functions}
+
+![](../../assets/v7-only.svg)
 
 ## Introducción {#introduction}
 
@@ -37,7 +39,7 @@ Para instalarlo desde la consola, seleccione las opciones **Tools/Advanced/Impor
 >
 >Advertencia: incluso si la lista de funciones importadas aparece en el editor de funciones inmediatamente, no se pueden utilizar hasta que se haya reiniciado Adobe Campaign.
 
-## Estructura general del paquete para importar {#general-structure-of-package-to-import}
+## Estructura general del paquete que se va a importar {#general-structure-of-package-to-import}
 
 Las funciones que se van a añadir se encuentran en el archivo **&quot;package&quot;** en formato XML. Este es un ejemplo.
 
@@ -131,7 +133,7 @@ El campo **@name** hace referencia al nombre de la función y &quot;args&quot; e
    >
    >Si es probable que solo una o dos bases de datos sean consultadas por la función definida, siempre se pueden proporcionar solamente las definiciones correspondientes a estas bases de datos.
 
-## Descriptor de función &#39;Pass-through&#39; {#pass-through--function-descriptor}
+## Descriptor de funciones &quot;Pasar a través&quot; {#pass-through--function-descriptor}
 
 Un descriptor de función especial es el bloque **&quot;pass-through&quot;**, con un sistema de base de datos &quot;provider&quot; no especificado. En este caso, la implementación &quot;body&quot; solo puede contener una llamada a una sola función con una sintaxis que no dependa de la base de datos utilizada. Mientras tanto, el bloque &quot;ProviderPart&quot; es único.
 

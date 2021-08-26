@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 100%
 
 ---
 
 # Solución de problemas de seguimiento {#tracking-troubleshooting}
+
+![](../../assets/common.svg)
 
 En esta sección, encontrará preguntas comunes relacionadas con el seguimiento de la configuración y la implementación en Adobe Campaign Classic.
 
@@ -112,7 +114,7 @@ Al intentar acceder a los vínculos de seguimiento, aparece el siguiente mensaje
 
    Deben tener al menos 644 permisos para que Apache pueda leer las direcciones URL de seguimiento para redireccionar el vínculo solicitado.
 
-## ¿Actualizando la opción NmsTracking_Pointer? {#updating-option}
+## ¿Actualizando la opción NmsTracking_Pointer?  {#updating-option}
 
 Siga estos pasos al actualizar la opción NmsTracking_Pointer:
 

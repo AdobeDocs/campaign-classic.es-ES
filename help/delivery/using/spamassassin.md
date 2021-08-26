@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: 8be6836d-f7dc-4199-b2b2-b6a9cac9d162
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
 
 ---
 
 # SpamAssassin{#spamassassin}
+
+![](../../assets/common.svg)
 
 ## Acerca de SpamAssassin {#about-spamassassin}
 

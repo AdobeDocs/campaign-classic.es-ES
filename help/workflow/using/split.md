@@ -6,8 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1935'
 ht-degree: 100%
 
@@ -15,15 +15,17 @@ ht-degree: 100%
 
 # División{#split}
 
+![](../../assets/common.svg)
+
 La actividad del tipo **Split** permite dividir un segmento en varios subconjuntos. El segmento se construye con todos los resultados recibidos: todas las actividades anteriores deben terminar para que se ejecute esta actividad.
 
 Esta actividad no desencadena una unión de poblaciones entrantes. Si varias transiciones se cruzan en una sola actividad, se recomienda que inserte una actividad **[!UICONTROL Union]** delante de ella.
 
-Para ver un ejemplo de la actividad dividida que se está utilizando, consulte [Creación de subconjuntos mediante la actividad Dividir](../../workflow/using/targeting-data.md#creating-subsets-using-the-split-activity).
+Para ver un ejemplo de la actividad dividida que se está utilizando, consulte [Creación de subconjuntos mediante la actividad Dividir](targeting-data.md#creating-subsets-using-the-split-activity).
 
-En [esta sección](../../workflow/using/cross-channel-delivery-workflow.md) se describe un ejemplo que muestra cómo usar la actividad Partición para segmentar el objetivo en diferentes poblaciones utilizando condiciones de filtrado.
+En [esta sección](cross-channel-delivery-workflow.md) se describe un ejemplo que muestra cómo usar la actividad Partición para segmentar el objetivo en diferentes poblaciones utilizando condiciones de filtrado.
 
-Un ejemplo que muestra cómo usar una variable de instancia en una actividad de división está disponible en [Campaign Knowlegde Base](../../workflow/using/javascript-scripts-and-templates.md).
+Un ejemplo que muestra cómo usar una variable de instancia en una actividad de división está disponible en [Campaign Knowlegde Base](javascript-scripts-and-templates.md).
 
 Para configurar esta actividad, defina el contenido del subconjunto y la etiqueta en la pestaña **[!UICONTROL Subsets]**, luego elija la dimensión de destino en la pestaña **[!UICONTROL General]**.
 
@@ -124,7 +126,7 @@ Por ejemplo, si selecciona el campo **[!UICONTROL Language]** como valor de grup
 
 Si los campos de agrupación contienen un número elevado de valores o si desea evitar valores de restablecimiento para cada nueva actividad dividida, Adobe Campaign permite crear una limitación por cada distribución de datos. Cuando seleccione valores de limitación de datos (para más información sobre este tema consulte la sección [Creating subsets](#creating-subsets)), seleccione la opción **[!UICONTROL By data distribution]** y seleccione una plantilla en el menú desplegable. A continuación se muestra la creación de una plantilla de distribución de datos.
 
-Para ver un ejemplo de la actividad **[!UICONTROL Local approval]** con una plantilla de distribución, consulte [Uso de la actividad de aprobación local](../../workflow/using/using-the-local-approval-activity.md).
+Para ver un ejemplo de la actividad **[!UICONTROL Local approval]** con una plantilla de distribución, consulte [Uso de la actividad de aprobación local](using-the-local-approval-activity.md).
 
 ![](assets/s_user_segmentation_partage_wz6.png)
 
@@ -148,12 +150,12 @@ La plantilla de distribución de datos permite limitar el número de registros u
    * **[!UICONTROL Targeting dimension]**: introduzca la dimensión objetivo a la que se aplicará la distribución de datos, **[!UICONTROL Recipient]** por ejemplo. Este esquema siempre debe ser compatible con los datos utilizados en el flujo de trabajo de segmentación.
    * **[!UICONTROL Distribution field]**: seleccione un campo mediante la dimensión de segmentación. Por ejemplo, si selecciona el campo **[!UICONTROL Email domain]**, la lista de destinatarios se desglosará por dominio.
    * **[!UICONTROL Distribution type]**: seleccione la forma en que se desglosará el valor de limitación del objetivo en la ficha **[!UICONTROL Distribution]**: **[!UICONTROL Percentage]** o **[!UICONTROL Set]**.
-   * **[!UICONTROL Assignment type]**: seleccione el tipo de asignación de distribución de datos. Puede elegir entre asignación por grupo u operador o asignación por entidad local. La asignación por entidad local se utiliza en **Distributed Marketing**. Para obtener más información, consulte esta [sección](../../campaign/using/about-distributed-marketing.md).
-   * **[!UICONTROL Approval storage]**: si utiliza una actividad **[!UICONTROL Local approval]** en el flujo de trabajo de objetivos (consulte [Aprobación local](../../workflow/using/local-approval.md)), introduzca el esquema en el que se guardarán los resultados de aprobación. Debe especificar un esquema de almacenamiento por esquema de segmentación. Si utiliza el esquema de segmentación **[!UICONTROL Recipients]**, introduzca el esquema de almacenamiento predeterminado **[!UICONTROL Local approval of recipients]**.
+   * **[!UICONTROL Assignment type]**: seleccione el tipo de asignación de distribución de datos. Puede elegir entre asignación por grupo u operador o asignación por entidad local. La asignación por entidad local se utiliza en **Distributed Marketing**. Para obtener más información, consulte esta [sección](../../distributed/using/about-distributed-marketing.md).
+   * **[!UICONTROL Approval storage]**: si utiliza una actividad **[!UICONTROL Local approval]** en el flujo de trabajo de objetivos (consulte [Aprobación local](local-approval.md)), introduzca el esquema en el que se guardarán los resultados de aprobación. Debe especificar un esquema de almacenamiento por esquema de segmentación. Si utiliza el esquema de segmentación **[!UICONTROL Recipients]**, introduzca el esquema de almacenamiento predeterminado **[!UICONTROL Local approval of recipients]**.
 
       Si se trata de una simple limitación de la agrupación de datos sin aprobación local, no es necesario que introduzca el campo **[!UICONTROL Approvals storage]**.
 
-1. Si está utilizando una actividad **[!UICONTROL Local approval]** (consulte [](../../workflow/using/local-approval.md)), introduzca el **[!UICONTROL Advanced settings]** para la plantilla de distribución:
+1. Si está utilizando una actividad **[!UICONTROL Local approval]** (consulte [](local-approval.md)), introduzca el **[!UICONTROL Advanced settings]** para la plantilla de distribución:
 
    ![](assets/local_validation_data_distribution_3.png)
 
@@ -189,7 +191,7 @@ La plantilla de distribución de datos permite limitar el número de registros u
       Esta columna se define mediante el campo **[!UICONTROL Distribution type]** dentro de la pestaña **[!UICONTROL General]**.
 
    * **[!UICONTROL Label]**: introduzca la etiqueta vinculada a cada valor.
-   * **[!UICONTROL Group or operator]**: si utiliza una actividad **[!UICONTROL Local approval]** (consulte [Aprobación local](../../workflow/using/local-approval.md)), seleccione el operador o el grupo de operadores asignados a cada valor de distribución.
+   * **[!UICONTROL Group or operator]**: si utiliza una actividad **[!UICONTROL Local approval]** (consulte [Aprobación local](local-approval.md)), seleccione el operador o el grupo de operadores asignados a cada valor de distribución.
 
       Si se trata de una simple limitación de la agrupación de datos sin aprobación local, no es necesario que introduzca el campo **[!UICONTROL Group or operator]**.
 
@@ -197,7 +199,7 @@ La plantilla de distribución de datos permite limitar el número de registros u
       >
       >Asegúrese de que se hayan asignado los derechos adecuados a los operadores.
 
-   * **[!UICONTROL Local entity]**: seleccione la entidad local asignada a cada valor de distribución. Las entidades locales se utilizan en **Distributed Marketing**. Para obtener más información, consulte esta [sección](../../campaign/using/about-distributed-marketing.md).
+   * **[!UICONTROL Local entity]**: seleccione la entidad local asignada a cada valor de distribución. Las entidades locales se utilizan en **Distributed Marketing**. Para obtener más información, consulte esta [sección](../../distributed/using/about-distributed-marketing.md).
 
 ## Parámetros de filtrado {#filtering-parameters}
 

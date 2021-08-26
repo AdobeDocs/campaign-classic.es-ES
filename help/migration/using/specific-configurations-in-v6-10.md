@@ -6,7 +6,7 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 exl-id: 63e515c8-4391-412e-a1ba-2444f47aa7fd
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 12%
@@ -14,6 +14,8 @@ ht-degree: 12%
 ---
 
 # Configuraciones específicas en la versión 6.10{#specific-configurations-in-v6-10}
+
+![](../../assets/v7-only.svg)
 
 Se han realizado ciertas mejoras en Adobe Campaign v7 para optimizar la seguridad.
 

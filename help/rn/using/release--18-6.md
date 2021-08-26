@@ -5,20 +5,22 @@ description: Notas de la versión 18.6 de Campaign
 audience: rn
 content-type: reference
 topic-tags: latest-release-notes
-feature: Información general
+feature: Overview
 role: User
 level: Beginner
 exl-id: a849ce10-0972-4c42-b10e-67a81c79bc65
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '799'
 ht-degree: 97%
 
 ---
 
 # Versión 18.6{#release-18-6}
 
-## Versión 18.6.2: compilación 8949{#release-18-6-3-build-8949}
+![](../../assets/v7-only.svg)
+
+## Versión 18.6.2, compilación 8949{#release-18-6-3-build-8949}
 
 22 de agosto de 2018
 
@@ -74,7 +76,7 @@ Para obtener más información sobre la banda de consultas, vea esta sección.
 * [https://docs.teradata.com/reader/cY5B~oeEUFWjgN2kBnH3Vw/a5G1iz~ve68yTMa24kVjVw](https://docs.teradata.com/reader/cY5B%7EoeEUFWjgN2kBnH3Vw/a5G1iz%7Eve68yTMa24kVjVw)
 * [https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/qVNfdszBssrZ7ttrE7AtmQ](https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/qVNfdszBssrZ7ttrE7AtmQ)
 
-## Versión 18.6: compilación 8947{#release-18-6-build-8947}
+## Versión 18.6, compilación 8947{#release-18-6-build-8947}
 
 25 de junio de 2018
 

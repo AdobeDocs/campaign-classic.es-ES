@@ -6,14 +6,16 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
-source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 100%
 
 ---
 
 # Inserción de contenido dinámico de Target {#inserting-a-dynamic-image}
+
+![](../../assets/common.svg)
 
 En esta guía, se muestra cómo integrar una oferta dinámica desde Target en un mensaje de correo electrónico en Adobe Campaign.
 

@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 100%
 
 ---
 
 # Configuración del acceso al informe{#configuring-access-to-the-report}
+
+![](../../assets/common.svg)
 
 ## Contexto de visualización del informe {#report-display-context}
 

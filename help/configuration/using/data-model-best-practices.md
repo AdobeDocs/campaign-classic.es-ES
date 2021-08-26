@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '4013'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # Prácticas recomendadas del modelo de datos{#data-model-best-practices}
+
+![](../../assets/v7-only.svg)
 
 Este documento describe las recomendaciones clave al diseñar el modelo de datos de Adobe Campaign.
 
@@ -63,7 +65,7 @@ Para tomar la decisión de si un atributo sería necesario o no en Adobe Campaig
 
 Si no se incluye en ninguno de estos parámetros, lo más probable es que no necesite este atributo en Adobe Campaign.
 
-### Opción de tipos de datos {#data-types}
+### Elección de tipos de datos {#data-types}
 
 Para garantizar una buena arquitectura y un buen rendimiento de su sistema, siga las prácticas recomendadas a continuación para configurar los datos en Adobe Campaign.
 
@@ -173,7 +175,7 @@ Sin embargo, tenga en cuenta lo siguiente:
 
 ### Ejemplo
 
-La administración de índices puede resultar muy compleja, por lo que es importante comprender cómo funcionan. Para ilustrar esta complejidad, tomemos un ejemplo básico, como buscar destinatarios filtrando el nombre y los apellidos. Para ello:
+La administración de índices puede resultar muy compleja, por lo que es importante comprender cómo funcionan. Para ilustrar esta complejidad, tomemos un ejemplo básico, como buscar destinatarios filtrando el nombre y los apellidos. Para ello, haga lo siguiente:
 1. Vaya a la carpeta que enumera todos los destinatarios de la base de datos. Para obtener más información, consulte [Administración de perfiles](../../platform/using/managing-profiles.md).
 1. Haga clic con el botón derecho en el campo **[!UICONTROL First name]**.
 1. Seleccione **[!UICONTROL Filter on this field]**.
@@ -278,7 +280,7 @@ Para garantizar un mejor rendimiento en cualquier momento, siga las prácticas r
 * Utilice una o varias tablas de referencia en lugar de duplicar un campo en cada fila. Al utilizar pares clave/valor, se prefiere elegir una clave numérica.
 * Una cadena corta sigue siendo aceptable. En caso de que las tablas de referencias ya estén implementadas en un sistema externo, reutilizar la misma facilitará la integración de datos con Adobe Campaign.
 
-### Relaciones de uno a varios {#one-to-many-relationships}
+### Relaciones &quot;uno a varios&quot; {#one-to-many-relationships}
 
 * El diseño de datos afecta a la capacidad de uso y la funcionalidad. Si diseña su modelo de datos con muchas relaciones de uno a varios, a los usuarios les resultará más difícil construir una lógica significativa en la aplicación. La lógica de filtro &quot;uno a varios&quot; puede resultar difícil para los especialistas en marketing que no son técnicos construir y comprender correctamente.
 * Es bueno tener todos los campos esenciales en una tabla porque facilita a los usuarios la creación de consultas. A veces también es bueno para el rendimiento duplicar algunos campos entre tablas si puede evitar una unión.

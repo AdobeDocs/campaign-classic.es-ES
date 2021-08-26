@@ -5,8 +5,8 @@ description: En esta sección se describe el flujo de trabajo técnico instalado
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 100%
 
@@ -14,6 +14,8 @@ ht-degree: 100%
 
 
 # Renderización de la bandeja de entrada (IR){#inbox-rendering}
+
+![](../../assets/common.svg)
 
 El flujo de trabajo detallado a continuación se instala con el módulo **Renderización de la bandeja de entrada (IR)** de forma predeterminada. Para obtener más información sobre Renderización de la bandeja de entrada, consulte esta [sección](../../delivery/using/inbox-rendering.md).
 

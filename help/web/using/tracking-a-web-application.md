@@ -6,14 +6,16 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
-source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%
 
 ---
 
 # Seguimiento de las visitas en una aplicación web{#tracking-a-web-application}
+
+![](../../assets/common.svg)
 
 Esta versión de Adobe Campaign permite realizar un seguimiento y medir las visitas en las páginas de las aplicaciones web mediante la inserción de etiquetas de seguimiento. Esta funcionalidad se puede utilizar para todos los tipos de aplicaciones web (formularios, páginas web, etc.).
 

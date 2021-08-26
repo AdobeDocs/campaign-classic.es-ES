@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 5%
@@ -14,6 +14,8 @@ ht-degree: 5%
 ---
 
 # Acerca de los servicios web{#about-web-services}
+
+![](../../assets/v7-only.svg)
 
 ## Definición de las API de Adobe Campaign {#definition-of-adobe-campaign-apis}
 
@@ -62,7 +64,7 @@ El esquema siguiente muestra los distintos recursos involucrados en el uso de la
 
 ![](assets/s_ncs_integration_webservices_schema_pres.png)
 
-## Ejemplo de mensaje SOAP en el método ExecuteQuery {#example-of-a-soap-message-on-the--executequery--method--}
+## Ejemplo de mensaje SOAP en el método &#39;ExecuteQuery&#39; {#example-of-a-soap-message-on-the--executequery--method--}
 
 En este ejemplo, una consulta SOAP invoca el método &quot;ExecuteQuery&quot;, que toma una cadena de caracteres como parámetro para la autenticación (token de sesión) y un contenido XML para la descripción de la consulta que se va a ejecutar.
 

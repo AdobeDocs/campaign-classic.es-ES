@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 4ee05559-e719-4e6e-b42c-1e82df428871
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # Umbrales de conexión{#connection-thresholds}
+
+![](../../assets/v7-only.svg)
 
 En los servidores cargados de forma intensiva, es posible que se supere el umbral de conexión. En cualquier caso, es útil averiguar por qué.
 

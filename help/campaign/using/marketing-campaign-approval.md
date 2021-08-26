@@ -6,14 +6,16 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '2434'
 ht-degree: 100%
 
 ---
 
 # Configuración y administración del proceso de aprobación {#approving-marketing-campaigns}
+
+![](../../assets/common.svg)
 
 Cada paso de un envío puede estar sujeto a aprobación para garantizar una monitorización y un control completos de los distintos procesos de la campaña: direccionamiento, contenido, presupuesto, extracción y envío de una prueba.
 
@@ -183,7 +185,6 @@ En este punto, el estado de la campaña es **[!UICONTROL To validate]**.
 >
 >Para seleccionar los procesos que requieren una aprobación, modifique la plantilla de campaña. Para obtener más información, consulte [Plantillas de campaña](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
-
 ![](assets/s_ncs_user_edit_del_to_validate.png)
 
 >[!NOTE]
@@ -251,8 +252,8 @@ Para seleccionar una lista de operadores, haga clic en el vínculo **[!UICONTROL
 >* Si se define una lista de revisores, el trabajo se aprueba en cuanto un revisor lo acepte. El vínculo de aprobación correspondiente, en ese caso, ya no se ofrece en el panel. Cuando se activa la entrega de notificaciones, si otro revisor hace clic en el vínculo de aprobación incluido en el mensaje de notificación, se le notifica que otro operador ya ha aprobado el trabajo.
 >* Puede definir una programación de aprobación para la campaña en la sección inferior de la ventana de edición del revisor. De forma predeterminada, los revisores tienen tres días a partir de la fecha de entrega para aprobar un proceso. Es posible configurar un recordatorio que se envíe automáticamente a los operadores antes de la fecha límite de aprobación.
 >* Puede agregar recordatorios en esta sección.
->
 
+>
 
 
 ![](assets/s_ncs_user_edit_op_valid_calendar.png)

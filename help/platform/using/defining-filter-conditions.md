@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: creating-queries
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '3229'
 ht-degree: 100%
 
 ---
 
 # Definición de condiciones de filtro{#defining-filter-conditions}
+
+![](../../assets/common.svg)
 
 ## Selección del operador {#choosing-the-operator}
 
@@ -414,7 +416,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Syntax</strong><br /> </td> 
+   <td> <strong>Sintaxis</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull2</strong><br /> </td> 
@@ -561,7 +563,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Syntax</strong><br /> </td> 
+   <td> <strong>Sintaxis</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AddDays</strong><br /> </td> 
@@ -792,7 +794,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Syntax</strong><br /> </td> 
+   <td> <strong>Sintaxis</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Abs</strong><br /> </td> 
@@ -874,7 +876,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Syntax</strong><br /> </td> 
+   <td> <strong>Sintaxis</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ConvertCurrency</strong><br /> </td> 
@@ -896,7 +898,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Syntax</strong><br /> </td> 
+   <td> <strong>Sintaxis</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Distance</strong><br /> </td> 
@@ -913,7 +915,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Syntax</strong><br /> </td> 
+   <td> <strong>Sintaxis</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
@@ -1000,7 +1002,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Syntax</strong><br /> </td> 
+   <td> <strong>Sintaxis</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 

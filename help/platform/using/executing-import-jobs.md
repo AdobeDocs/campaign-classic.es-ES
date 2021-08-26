@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '2955'
 ht-degree: 100%
 
 ---
 
 # Configuración de trabajos de importación {#executing-import-jobs}
+
+![](../../assets/common.svg)
 
 Adobe Campaign permite importar datos a la base de datos desde uno o varios archivos de texto, CSV, TAB o formato XML. Estos archivos están asociados a una tabla (principal o vinculada) y cada campo del archivo de origen se asocia a un campo de la base de datos.
 
@@ -271,7 +273,7 @@ Puede generar un archivo que contenga estos registros mediante el icono **[!UICO
 
 ![](assets/s_ncs_user_import_errors_export.png)
 
-## Paso 5: Paso adicional al importar destinatarios.{#step-5---additional-step-when-importing-recipients}
+## Paso 5: Paso adicional al importar destinatarios. {#step-5---additional-step-when-importing-recipients}
 
 El siguiente paso del asistente para importar le permite seleccionar o crear la carpeta en la que se importan los datos, asignar automáticamente los destinatarios importados con una lista (nueva o existente) y suscribir destinatarios a un servicio.
 

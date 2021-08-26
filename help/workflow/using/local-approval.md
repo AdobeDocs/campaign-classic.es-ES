@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 2d9cbfc8-1f99-4b38-8460-77c7c986e9ca
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 100%
 
 ---
 
 # Aprobación local{#local-approval}
+
+![](../../assets/common.svg)
 
 Cuando se integra en un flujo de trabajo de objetivos, la actividad **[!UICONTROL Local approval]** permite configurar un proceso de aprobación de destinatarios antes de la entrega.
 
@@ -23,7 +25,7 @@ Cuando se integra en un flujo de trabajo de objetivos, la actividad **[!UICONTRO
 >
 >Para utilizar esta actividad, debe haber adquirido el módulo de Distributed Marketing, que es una opción de la campaña. Compruebe el acuerdo de licencia.
 
-Para ver un ejemplo de la actividad **[!UICONTROL Local approval]** con una plantilla de distribución, consulte [Uso de la actividad de aprobación local](../../workflow/using/using-the-local-approval-activity.md).
+Para ver un ejemplo de la actividad **[!UICONTROL Local approval]** con una plantilla de distribución, consulte [Uso de la actividad de aprobación local](using-the-local-approval-activity.md).
 
 Comience introduciendo una etiqueta para la actividad y el campo **[!UICONTROL Action to execute]**:
 
@@ -33,7 +35,7 @@ Comience introduciendo una etiqueta para la actividad y el campo **[!UICONTROL A
 
    ![](assets/local_validation_intro_2.png)
 
-* **Incremental query**: permite realizar una consulta y planificar su ejecución. Consulte la sección [Consulta incremental](../../workflow/using/incremental-query.md).
+* **Incremental query**: permite realizar una consulta y planificar su ejecución. Consulte la sección [Consulta incremental](incremental-query.md).
 
    ![](assets/local_validation_intro_3.png)
 
@@ -49,7 +51,7 @@ Los campos que se deben ingresar en caso de una notificación para la aprobació
 
 * **[!UICONTROL Distribution context]**: seleccione la opción **[!UICONTROL Specified in the transition]** si utiliza una actividad de tipo **[!UICONTROL Split]** para limitar la población objetivo. En este caso, la plantilla de distribución se introduce en la actividad dividida. Si no limita la población objetivo, seleccione la opción **[!UICONTROL Explicit]** aquí e introduzca la plantilla de distribución en el campo **[!UICONTROL Data distribution]**.
 
-   Para obtener más información sobre la creación de una plantilla de distribución de datos, consulte [Limitación del número de registros de subconjuntos por distribución de datos](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution).
+   Para obtener más información sobre la creación de una plantilla de distribución de datos, consulte [Limitación del número de registros de subconjuntos por distribución de datos](split.md#limiting-the-number-of-subset-records-per-data-distribution).
 
 * **[!UICONTROL Approval management]**
 
@@ -83,7 +85,7 @@ En caso de un informe de comentarios de la entrega, se deben ingresar los siguie
 
 ## Ejemplo: Aprobación de una entrega de flujo de trabajo {#example--approving-a-workflow-delivery}
 
-Este ejemplo muestra la configuración de un proceso de aprobación para una entrega de flujo de trabajo. Para obtener más información sobre la creación de los flujos de trabajo de la entrega, consulte la sección [Ejemplo: flujo de trabajo de envíos](../../workflow/using/delivery.md#example--delivery-workflow).
+Este ejemplo muestra la configuración de un proceso de aprobación para una entrega de flujo de trabajo. Para obtener más información sobre la creación de los flujos de trabajo de la entrega, consulte la sección [Ejemplo: flujo de trabajo de envíos](delivery.md#example--delivery-workflow).
 
 Un operador puede aprobar una entrega de una de las dos maneras siguientes: con la página web enlazada en el mensaje de correo electrónico o a través de la consola.
 

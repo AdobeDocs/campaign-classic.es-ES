@@ -2,18 +2,20 @@
 product: campaign
 title: Actualizaciones de documentación de Adobe Campaign Classic
 description: Esta página enumera todas las funciones nuevas y las actualizaciones de la documentación de Adobe Campaign Classic
-feature: Información general
+feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 69f7b494c244fdf01a65ebe8d55c141d947a0980
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
-source-wordcount: '4465'
+source-wordcount: '4464'
 ht-degree: 100%
 
 ---
 
 # Actualizaciones de la documentación{#documentation-updates}
+
+![](../../assets/v7-only.svg)
 
 Esta página enumera todas las nuevas funciones y actualizaciones de la documentación por mes y por versión de Campaign.
 
@@ -48,7 +50,7 @@ Los requisitos de la consola del cliente de Campaign se han actualizado en la ma
 
 Se ha mejorado y aclarado la instalación de la consola del cliente de Campaign para conocer todos los pasos. [Más información](../../installation/using/installing-the-client-console.md)
 
-Se ha creado una nueva nota técnica acerca del problema de firma de URL rastreadas. [Más información](../../technotes/tracked-urls.md)
+Se ha creado una nueva nota técnica acerca del problema de firma de URL rastreadas. [Más información](../../technotes/using/tracked-urls.md)
 
 ## Abril de 2021 {#april-2021}
 
@@ -210,7 +212,7 @@ Se ha mejorado la página de aterrizaje de prácticas recomendadas sobre la capa
 
 Los vídeos de procedimientos ya están disponibles para los siguientes temas:
 
-* [Configuración de la gestión de la fatiga mediante reglas de tipología y filtros predefinidos](../../campaign/using/about-campaign-typologies.md)
+* [Configuración de la gestión de la fatiga mediante reglas de tipología y filtros predefinidos](../../campaign-opt/using/about-campaign-typologies.md)
 
 * [Creación de un correo electrónico en una campaña](../../campaign/using/marketing-campaign-deliveries.md)
 

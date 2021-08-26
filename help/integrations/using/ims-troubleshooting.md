@@ -6,14 +6,16 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 100%
 
 ---
 
 # Solución de problemas de IMS{#ims-troubleshooting}
+
+![](../../assets/common.svg)
 
 Las siguientes sugerencias para la solución de problemas ayudarán a los clientes **locales** a resolver los problemas más comunes que se producen al utilizar la integración con IMS. Para clientes **alojados**, póngase en contacto con Adobe.
 

@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 100%
 
 ---
 
 # Administración y personalización de listas{#manage-and-customize-lists}
+
+![](../../assets/common.svg)
 
 Puede acceder a las listas de registros de la base de datos de Campaign mediante el Explorador. Puede filtrar estas listas, ejecutar búsquedas, añadir información, filtrar y ordenar datos.
 

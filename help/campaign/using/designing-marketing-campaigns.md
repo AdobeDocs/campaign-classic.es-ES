@@ -6,8 +6,8 @@ audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
-source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
 
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # Diseño y ejecución de campañas de marketing{#designing-marketing-campaigns}
 
-Adobe Campaign permite definir, optimizar, ejecutar y analizar las comunicaciones y las campañas de marketing. Adobe Campaign es un centro unificado y un centro de ejecución para estrategias de marketing. Para obtener más información, consulte [Acceso a campañas](../../campaign/using/accessing-campaigns.md) y [Creación de campañas de marketing](../../campaign/using/setting-up-marketing-campaigns.md).
+![](../../assets/common.svg)
+
+Adobe Campaign permite definir, optimizar, ejecutar y analizar las comunicaciones y las campañas de marketing. Adobe Campaign es un centro unificado y un centro de ejecución para estrategias de marketing. Para obtener más información, consulte [Acceso a campañas](../../distributed/using/accessing-campaigns.md) y [Creación de campañas de marketing](../../campaign/using/setting-up-marketing-campaigns.md).
 
 Además, el módulo **Marketing Resource Management (MRM)** permite controlar las acciones de marketing en un modo cooperativo mediante la administración completa y el seguimiento en tiempo real de las tareas, los presupuestos y los recursos de marketing involucrados. La Administración de recursos de marketing permite optimizar y regular la administración de procesos internos y externos, recursos y campañas de marketing, así como relaciones de terceros (agencias, imprentas, etc.). Para obtener más información, consulte [esta sección](../../mrm/using/about-marketing-resource-management.md).
 

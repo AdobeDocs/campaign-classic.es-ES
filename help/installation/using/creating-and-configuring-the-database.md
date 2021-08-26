@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1296'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # Creación y configuración de la base de datos{#creating-and-configuring-the-database}
+
+![](../../assets/v7-only.svg)
 
 Al crear una base de datos, Adobe Campaign ofrece dos opciones diferentes:
 
@@ -41,7 +43,7 @@ Se trata de los siguientes pasos:
 * [Paso 5: Pasos](#step-5---creation-steps) de creación,
 * [Paso 6: Creación de la base de datos](#step-6---creating-the-database).
 
-### Paso 1: Selección del motor de base de datos {#step-1---selecting-the-database-engine}
+### Paso 1: Selección del motor de la base de datos {#step-1---selecting-the-database-engine}
 
 Seleccione el motor de base de datos entre los de la lista desplegable.
 

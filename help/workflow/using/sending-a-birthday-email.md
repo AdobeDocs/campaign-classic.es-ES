@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 100%
 
 ---
 
-# Envío de un correo electrónico de cumpleaños{#sending-a-birthday-email}
+# Envío de correo electrónico de cumpleaños{#sending-a-birthday-email}
+
+![](../../assets/common.svg)
 
 ## Introducción {#introduction}
 
@@ -202,7 +204,7 @@ Agregue una actividad de **Recurring delivery** basada en la plantilla de correo
 
 >[!CAUTION]
 >
->Para que se ejecuten los flujos de trabajo, se deben iniciar los flujos de trabajo técnicos relacionados con el paquete de Campaign. Para obtener más información sobre esto, consulte la sección [Lista de flujos de trabajo técnicos](../../workflow/using/about-technical-workflows.md).
+>Para que se ejecuten los flujos de trabajo, se deben iniciar los flujos de trabajo técnicos relacionados con el paquete de Campaign. Para obtener más información sobre esto, consulte la sección [Lista de flujos de trabajo técnicos](about-technical-workflows.md).
 >
 >Si los pasos de aprobación están habilitados para la campaña, las entregas solo se realizan una vez que estén confirmados los pasos. Para obtener más información sobre esto, consulte la sección [Elección de los procesos que se van a aprobar](../../campaign/using/marketing-campaign-approval.md#choosing-the-processes-to-be-approved) .
 

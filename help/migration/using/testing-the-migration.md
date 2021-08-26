@@ -6,7 +6,7 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
-source-git-commit: 571dd96d1f3bff5c3dab05dce5319f913f29a670
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # Prueba de la migración{#testing-the-migration}
+
+![](../../assets/v7-only.svg)
 
 ## Procedimiento general {#general-procedure}
 

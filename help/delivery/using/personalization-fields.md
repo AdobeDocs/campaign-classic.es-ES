@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 100%
 
 ---
 
 # Campos personalizados{#personalization-fields}
+
+![](../../assets/common.svg)
 
 Los campos de personalización se utilizan para la personalización de primer nivel del contenido de los mensajes enviados. Los campos que se inserten en un contenido principal muestran la posición en la que se deben insertar los datos desde la fuente de datos seleccionada.
 

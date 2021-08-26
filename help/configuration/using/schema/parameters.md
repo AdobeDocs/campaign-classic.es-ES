@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 54538c3e-3232-4bf7-a09c-dacf0f072be5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 21%
 
 ---
 
-# elemento de parámetros {#parameters--element}
+# elemento parámetros {#parameters--element}
+
+![](../../../assets/v7-only.svg)
 
 ## Modelo de contenido {#content-model-13}
 
@@ -23,7 +25,7 @@ parámetros:==param
 
 Ninguno
 
-## Padres {#parents-13}
+## Principales {#parents-13}
 
 `<method>`
 
@@ -39,7 +41,7 @@ Este elemento define un grupo de `<parameter>` elementos.
 
 Este elemento es obligatorio, incluso para un solo elemento `<param>` secundario del elemento `<method>` .
 
-## Descripción de atributo {#attribute-description-13}
+## Descripción del atributo {#attribute-description-13}
 
 Ninguno
 

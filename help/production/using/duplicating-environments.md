@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 2c933fc5-1c0a-4c2f-9ff2-90d09a79c55a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # Duplicación de entornos{#duplicating-environments}
+
+![](../../assets/v7-only.svg)
 
 ## Introducción {#introduction}
 
@@ -71,7 +73,6 @@ Los siguientes pasos deben realizarse con bueno cuidado: es posible que algunos 
 >
 
 
-
 ### Paso 1: Realizar una copia de seguridad de los datos del entorno de origen (prod) {#step-1---make-a-backup-of-the-source-environment--prod--data}
 
 Copiar las bases de datos
@@ -109,7 +110,7 @@ Compruebe que el número de opciones/cuentas exportadas sea igual al número de 
 >
 >Cuando se exporta la tabla nmsextaccount, las contraseñas relacionadas con las cuentas externas (por ejemplo, contraseñas para Mid-sourcing, Message Center Execution, SMPP, IMS y otras cuentas externas) no se exportan. Asegúrese de tener acceso a las contraseñas correctas con antelación, ya que es posible que tengan que volver a introducirse después de importar las cuentas externas de nuevo en el entorno.
 
-### Paso 3: Detenga el entorno de destino (dev) {#step-3---stop-the-target-environment--dev-}
+### Paso 3: Detener el entorno de destino (dev) {#step-3---stop-the-target-environment--dev-}
 
 Debe detener los procesos de Adobe Campaign en todos los servidores de entorno de destino. Esta operación depende del sistema operativo.
 
@@ -146,7 +147,7 @@ Para ello, utilice el proceso siguiente:
 * En Windows: abra el **Task manager** y compruebe que no haya procesos **nlserver.exe**.
 * En Linux: ejecute los **ps aux | grep nlserver** y compruebe que no hay procesos **nlserver**.
 
-### Paso 4: Restaurar las bases de datos en el entorno de destino (dev) {#step-4---restore-the-databases-in-the-target-environment--dev-}
+### Paso 4: Restauración de las bases de datos en el entorno de destino (dev) {#step-4---restore-the-databases-in-the-target-environment--dev-}
 
 Para restaurar las bases de datos de origen en el entorno de destino, utilice el siguiente comando:
 
@@ -164,7 +165,7 @@ Para ello, ejecute el siguiente comando:
 nlserver javascript nms:freezeInstance.js -instance:<dev> -arg:run
 ```
 
-### Paso 6: Compruebe la cauterización {#step-6---check-cauterization}
+### Paso 6: Comprobar la cauterización {#step-6---check-cauterization}
 
 1. Compruebe que la única parte de la entrega sea la que tiene el ID establecido en 0:
 
@@ -185,7 +186,7 @@ nlserver javascript nms:freezeInstance.js -instance:<dev> -arg:run
    SELECT iStatus, count(*) FROM neolane.xtkworkflow GROUP BY iStatus;
    ```
 
-### Paso 7: Reinicio del proceso web (dev) del entorno de destino {#step-7---restart-the-target-environment-web-process--dev-}
+### Paso 7: Reinicio del proceso web del entorno de destino (dev) {#step-7---restart-the-target-environment-web-process--dev-}
 
 En el entorno de destino, reinicie los procesos de Adobe Campaign para todos los servidores.
 

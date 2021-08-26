@@ -6,14 +6,16 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 100%
 
 ---
 
 # Configuración de la integración de audiencias compartidas en Adobe Campaign{#configuring-shared-audiences-integration-in-adobe-campaign}
+
+![](../../assets/common.svg)
 
 Una vez enviada esta solicitud, Adobe procede a ofrecer de la integración y a ponerse en contacto para proporcionar los detalles y la información necesaria para finalizar la configuración:
 
@@ -76,7 +78,7 @@ Para configurar la fuente de datos **[!UICONTROL Recipient - Visitor ID]**:
 
    ![](assets/aam_config_3.png)
 
-## Paso 3: Configuración del servidor de seguimiento de campaña {#step-3--configure-campaign-tracking-server}
+## Paso 3: Configuración del servidor de seguimiento de Campaign {#step-3--configure-campaign-tracking-server}
 
 Para la configuración de la integración con el servicio principal Personas o Audience Manager, también es necesario configurar el servidor de seguimiento de campañas.
 

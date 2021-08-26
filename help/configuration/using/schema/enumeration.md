@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 6%
@@ -14,6 +14,8 @@ ht-degree: 6%
 ---
 
 # elemento de enumeración {#enumeration--element}
+
+![](../../../assets/v7-only.svg)
 
 ## Modelo de contenido {#content-model-5}
 
@@ -28,7 +30,7 @@ enumeration:==(help| value)
 * @name (cadena)
 * @template (cadena)
 
-## Padres {#parents-5}
+## Principales {#parents-5}
 
 `<srcschema>`
 
@@ -45,7 +47,7 @@ Este elemento permite definir una enumeración de valores. Una enumeración pert
 
 Las enumeraciones se definen al principio de un esquema (antes de que se defina el elemento principal).
 
-## Descripción de atributo {#attribute-description-5}
+## Descripción del atributo {#attribute-description-5}
 
 * **basetype (cadena)**: tipo de los valores almacenados en la enumeración .
 

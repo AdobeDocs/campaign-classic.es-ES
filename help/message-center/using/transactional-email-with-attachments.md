@@ -6,14 +6,16 @@ audience: message-center
 content-type: reference
 topic-tags: use-case
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 7f4bbf3e79d6cdaf17987b9307ebf12801abad22
+workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 100%
 
 ---
 
 # Caso de uso: Envío de correos electrónicos transaccionales con archivos adjuntos {#transactional-email-with-attachments}
+
+![](../../assets/v7-only.svg)
 
 El propósito de este caso de uso es añadir archivos adjuntos de los correos electrónicos sobre la marcha a las entregas salientes.
 
@@ -75,7 +77,7 @@ Para añadir archivos adjuntos de correo electrónico sobre la marcha a un mensa
 1. En la pantalla de **[!UICONTROL Attachment definition]** introduzca el parámetro de archivo adjunto SOAP:
 
    ```
-   <%= rtEvent.ctx.attachementUrl %>
+   <%= rtEvent.ctx.attachmentUrl %>
    ```
 
 1. Cuando se procesa el mensaje, el sistema obtiene el archivo desde la ubicación remota (servidor de terceros) y lo adjunta al mensaje individual.

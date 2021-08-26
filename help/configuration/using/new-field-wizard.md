@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 4%
@@ -14,6 +14,8 @@ ht-degree: 4%
 ---
 
 # Asistente de nuevo campo{#new-field-wizard}
+
+![](../../assets/v7-only.svg)
 
 Un asistente accesible mediante **[!UICONTROL Tools > Advanced > Add new fields]** permite agregar uno o más campos a una tabla de la base de datos.
 

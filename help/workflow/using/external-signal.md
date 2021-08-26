@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: da84d3ff-1e64-45ef-bef0-da4a24d93461
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 100%
 
 ---
 
 # Señal externa{#external-signal}
+
+![](../../assets/common.svg)
 
 La actividad **External signal** permite activar la ejecución de un conjunto de tareas en un flujo de trabajo a una programación.
 
@@ -25,9 +27,9 @@ Puede configurar esta actividad para definir eventos si no se recibe ninguna se�
 
 ![](assets/edit_signal.png)
 
-La configuración de la caducidad se detalla en [Caducidad](../../workflow/using/defining-approvals.md).
+La configuración de la caducidad se detalla en [Caducidad](defining-approvals.md).
 
-El campo **Delay** permite especificar un retraso del vencimiento en las unidades que elija. Consulte [Espera](../../workflow/using/wait.md).
+El campo **Delay** permite especificar un retraso del vencimiento en las unidades que elija. Consulte [Espera](wait.md).
 
 Cada línea representa un tipo de vencimiento y coincide con una transición.
 

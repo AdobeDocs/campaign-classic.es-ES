@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 100%
 
 ---
 
 # Ejemplo de uso{#use-case}
+
+![](../../assets/common.svg)
 
 ## Creación de un filtro con el formato de correo electrónico de los suscriptores {#creating-a-filter-on-the-email-format-of-subscribers}
 

@@ -5,14 +5,16 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 41966f31-9f37-4ab7-919a-d4624f9d1178
-source-git-commit: 544658ad2dada8ca7199d5b62d09a02e2d7c28cc
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 100%
 
 ---
 
-# Conectores CRM{#crm-connector}
+# Conector CRM{#crm-connector}
+
+![](../../assets/common.svg)
 
 La actividad del **conector CRM** permite configurar la sincronización de datos entre Adobe Campaign y un sistema CRM.
 

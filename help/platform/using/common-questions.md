@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 9f1b0974-f8bd-430f-88fe-9c09b0074d3b
-source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 100%
 
 ---
 
 # Preguntas frecuentes{#common-questions}
+
+![](../../assets/common.svg)
 
 ¿Necesita ayuda para trabajar con Campaign Classic? Lea las 10 preguntas más frecuentes a continuación y otras preguntas frecuentes de esa página. También puede realizar lo siguiente:
 

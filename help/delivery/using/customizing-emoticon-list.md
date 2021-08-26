@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
 
 ---
 
 # Personalización de la lista de emoticonos {#customize-emoticons}
+
+![](../../assets/common.svg)
 
 La lista de emoticonos que se muestra en la ventana emergente se rige por una lista desglosada que permite mostrar valores en una lista para restringir las opciones que el usuario tiene para un campo determinado.
 El orden de lista de emoticonos se puede personalizar y también se pueden añadir otros emoticonos a la lista.

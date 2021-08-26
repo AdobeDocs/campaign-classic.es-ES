@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
 source-wordcount: '2012'
 ht-degree: 0%
 
 ---
 
-# elemento {#element--element}
+# elemento de elemento {#element--element}
+
+![](../../../assets/v7-only.svg)
 
 ## Modelo de contenido {#content-model-4}
 
@@ -23,7 +25,7 @@ element:==(attribute) | compute-string | dbindex | predeterminado | elemento | a
 
 _operation (cadena), avanzado (booleano), acumulado (cadena), aplicableIf (cadena), autopk (booleano), perteneceTo (cadena), convDate (cadena), dataPolicy (cadena), dataSource (cadena), dbEnum (cadena), defOnDuplicate (booleano), valor predeterminado (cadena), desc (cadena), displayAsField (booleano), doesNotSupportDiff (boolean), edit (string), emptyKeyValue (string), enum (string), enumImage (string), expandSchemaTarget (string), expr (string), externalJoin (boolean), feature (string), featureDate (boolean), filterPath (string), folderLink (string), folderModel, Process (cadena), fullLoad (booleano), hierarchy (booleano), hierarchyPath (cadena), img (cadena), inout (cadena), integridad (cadena), label (cadena), labelSingular (cadena), length (cadena), localizable (booleano), name (MNTOKEN), noDbIndex (booleano), noKey (booleano), ordenadas (booleano), sobreflexible (booleano), pkSequence (cadena), pkgStatus (cadena), ref (cadena), obligatorio (booleano), revAdvanced (booleano), revCardinality (cadena), revDesc (cadena), revExternalJoin (booleano), revIntegrity (cadena), revLabel (cadena), vLink (cadena), revTarget (cadena), revVisibleIf (cadena), sql (booleano), sqlname (cadena), sqltable (cadena), tableSpace (cadena), tableSpaceIndex (cadena), target (MNTOKEN), template (cadena), interimTable (booleano), translateDefault (cadena), translateExpr), tipo (MNTOKEN), no enlazado (booleano), usuario (booleano), userEnum (cadena), visibleIf (cadena), xml (booleano), xmlChildren (booleano)
 
-## Padres {#parents-4}
+## Principales {#parents-4}
 
 `<srcschema>`
 
@@ -51,7 +53,7 @@ Existen cuatro tipos de elementos `<element>` en Adobe Campaign:
 * Vínculo `<element>` : define un vínculo. Estos elementos deben incluir el atributo &quot;@type=link&quot;.
 * XML `<element>` : define un campo de tipo texto &quot;mData&quot;. Este elemento debe incluir el atributo &quot;@type=xml&quot;.
 
-## Descripción de atributo {#attribute-description-4}
+## Descripción del atributo {#attribute-description-4}
 
 * **_operation (cadena)**: define el tipo de escritura en la base de datos.
 

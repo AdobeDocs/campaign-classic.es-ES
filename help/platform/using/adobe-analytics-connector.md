@@ -3,18 +3,20 @@ solution: Campaign Classic
 product: campaign
 title: Conector de Adobe Analytics
 description: Más información acerca del conector Adobe Analytics
-feature: Información general
+feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1550'
 ht-degree: 100%
 
 ---
 
 # Conector de Adobe Analytics{#adobe-analytics-connector}
+
+![](../../assets/common.svg)
 
 ## Acerca de la integración del conector de Adobe Analytics {#about-analytics-connector-integration}
 
@@ -243,7 +245,6 @@ Están disponibles en el árbol de Adobe Campaign, en la carpeta **[!UICONTROL A
    * **[!UICONTROL Tag 2]** (webAnalytics/@tag2)
    * **[!UICONTROL Tag 3]** (webAnalytics/@tag3)
    * **[!UICONTROL Contact date]** (scheduling/@contactDate)
-
 
 
 ## Seguimiento de entregas en Adobe Campaign {#tracking-deliveries-in-adobe-campaign}

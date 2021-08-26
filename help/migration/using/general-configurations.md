@@ -6,14 +6,16 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '2786'
+source-wordcount: '2784'
 ht-degree: 0%
 
 ---
 
 # Configuraciones generales{#general-configurations}
+
+![](../../assets/v7-only.svg)
 
 Esta sección detalla la configuración que se realizará en Adobe Campaign v7 si va a migrar desde una versión 5.11 o 6.02.
 

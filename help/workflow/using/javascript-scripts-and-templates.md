@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 100%
 
 ---
 
 # Plantillas y secuencias de comandos de JavaScript{#javascript-scripts-and-templates}
+
+![](../../assets/common.svg)
 
 Las secuencias de comandos permiten calcular valores, intercambiar datos entre las diversas tareas del proceso y ejecutar operaciones específicas utilizando llamadas SOAP.
 
@@ -79,17 +81,17 @@ Las variables de eventos (**[!UICONTROL vars.xxx]**) permiten el intercambio de 
 
 >[!CAUTION]
 >
->En el caso de las actividades de tipo [AND-join](../../workflow/using/and-join.md), las variables se combinan, pero si se define una misma variable dos veces, se genera un conflicto y el valor se mantiene como indeterminado.
+>En el caso de las actividades de tipo [AND-join](and-join.md), las variables se combinan, pero si se define una misma variable dos veces, se genera un conflicto y el valor se mantiene como indeterminado.
 
 Eventos son las variables más utilizadas, que deben utilizarse con preferencia sobre las variables de instancia.
 
-Las distintas actividades modifican o leen ciertas variables de evento. Todas son variables de tipo cadena. Por ejemplo, una exportación establece la variable **[!UICONTROL vars.filename]** con el nombre completo del archivo que acaba de exportarse. Todas estas variables leídas o modificadas se documentan en [Acerca de actividades](../../workflow/using/about-activities.md), en las secciones **Parámetros de entrada** y **Parámetros de salida** de las actividades.
+Las distintas actividades modifican o leen ciertas variables de evento. Todas son variables de tipo cadena. Por ejemplo, una exportación establece la variable **[!UICONTROL vars.filename]** con el nombre completo del archivo que acaba de exportarse. Todas estas variables leídas o modificadas se documentan en [Acerca de actividades](about-activities.md), en las secciones **Parámetros de entrada** y **Parámetros de salida** de las actividades.
 
 ### Casos de uso {#example}
 
 >[!NOTE]
 >
->Los casos de uso de flujo de trabajo adicional están disponibles en [esta sección](../../workflow/using/about-workflow-use-cases.md).
+>Los casos de uso de flujo de trabajo adicional están disponibles en [esta sección](about-workflow-use-cases.md).
 
 **Ejemplo 1**
 

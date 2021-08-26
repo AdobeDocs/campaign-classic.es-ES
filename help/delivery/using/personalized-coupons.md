@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
+workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 100%
 
 ---
 
 # Cupones personalizados{#personalized-coupons}
+
+![](../../assets/v7-only.svg)
 
 Añadir cupones a las entregas puede proporcionar aumentar el valor de los productos y servicios para sus destinatarios. Se puede utilizar el módulo de cupones de Campaign para crear un conjunto de cupones que pretenda añadir a las próximas ofertas de marketing. Cuando esté preparado para crear una entrega, asigne los cupones aplicables. Dado que los cupones son válidos durante un periodo determinado, un cupón asignado se enlaza exclusivamente a su mensaje de envío. Además, Campaign confirma que hay suficientes cupones para la cantidad de mensajes antes de realizar la entrega.
 

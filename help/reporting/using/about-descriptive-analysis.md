@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
 exl-id: 19920058-e8e8-4e17-9cc3-24ddf9f96d04
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%
 
 ---
 
 # Acerca del análisis descriptivo{#about-descriptive-analysis}
+
+![](../../assets/common.svg)
 
 Para producir estadísticas sobre los datos de la base de datos, cree informes de análisis descriptivo con el asistente dedicado y ajuste su contenido y presentación para adaptarlos a sus necesidades.
 

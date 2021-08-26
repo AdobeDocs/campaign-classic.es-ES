@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 86036f2f-ec7c-413e-b1e1-10a71a06cd6d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 10%
@@ -14,6 +14,8 @@ ht-degree: 10%
 ---
 
 # Estructura de un esquema de datos{#structure-of-a-data-schema}
+
+![](../../assets/v7-only.svg)
 
 La estructura de un esquema de datos se muestra en forma de estructura de árbol. Para verla gráficamente en la consola del cliente de Adobe Campaign, seleccione el esquema de destino y haga clic en la subpestaña **[!UICONTROL Structure]** .
 

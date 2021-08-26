@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 100%
 
 ---
 
 # Ciclo de vida de datos {#data-life-cycle}
+
+![](../../assets/common.svg)
 
 ## Tabla de trabajo {#work-table}
 
@@ -31,7 +33,7 @@ Para ello, seleccione el menú correspondiente:
 
    ![](assets/wf-right-click-display.png)
 
-   Para obtener más información, consulte [Esquema de tablas de trabajo y flujo de trabajo](../../workflow/using/monitoring-workflow-execution.md#worktables-and-workflow-schema).
+   Para obtener más información, consulte [Esquema de tablas de trabajo y flujo de trabajo](monitoring-workflow-execution.md#worktables-and-workflow-schema).
 
 * Análisis del público objetivo
 

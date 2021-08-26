@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 4%
@@ -14,6 +14,8 @@ ht-degree: 4%
 ---
 
 # Administración de informes{#managing-reports}
+
+![](../../assets/v7-only.svg)
 
 Los informes basados en un esquema específico para los destinatarios predeterminados de Adobe Campaign (nm:recipient o esquema vinculado) deben redesarrollarse para tener en cuenta los datos de la tabla personalizada y sus tablas vinculadas a través de la asignación de destino (consulte la sección [Target mapping](../../configuration/using/target-mapping.md) ).
 

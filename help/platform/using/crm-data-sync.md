@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '1530'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '1528'
+ht-degree: 97%
 
 ---
 
 # Sincronización de datos entre Campaign y CRM {#data-synchronization}
+
+![](../../assets/common.svg)
 
 La sincronización de datos entre Adobe Campaign y CRM se lleva a cabo mediante una actividad de flujo de trabajo dedicada: [conector de CRM](../../workflow/using/crm-connector.md).
 
@@ -240,7 +242,7 @@ Para ello, siga los siguientes pasos:
    >
    >El periodo de eliminación de elementos debe coincidir con las limitaciones específicas del CRM. Esto significa que para Salesforce.com, por ejemplo, los elementos eliminados hace más de 30 días no se pueden recuperar.
 
-## Eliminación de objetos del CRM {#deleting-objects-in-the-crm}
+## Eliminación de objetos en CRM {#deleting-objects-in-the-crm}
 
 Para eliminar objetos del CRM, debe especificar la clave primaria de los elementos remotos que desea eliminar.
 
@@ -251,4 +253,3 @@ La pestaña **[!UICONTROL Behavior]** permite activar el procesamiento de los re
 >[!NOTE]
 >
 >Incluso cuando la opción **[!UICONTROL Process rejects]** está desactivada, se genera una advertencia para cada columna rechazada.
-

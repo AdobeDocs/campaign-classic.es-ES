@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 16%
@@ -14,6 +14,8 @@ ht-degree: 16%
 ---
 
 # Instalación de paquetes integrados de Campaign Classic{#installing-campaign-standard-packages}
+
+![](../../assets/v7-only.svg)
 
 ## Acerca de los paquetes integrados {#campaign-standard-packages}
 
@@ -149,7 +151,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Gestor de respuestas<br /> </td> 
-   <td> Mide el éxito y la rentabilidad de las campañas de marketing u ofertas propuestas para todos los canales de comunicación.  Opcional. <a href="../../campaign/using/about-response-manager.md">Más información</a> <br /> </td> 
+   <td> Mide el éxito y la rentabilidad de las campañas de marketing u ofertas propuestas para todos los canales de comunicación.  Opcional. <a href="../../response/using/about-response-manager.md">Más información</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -159,7 +161,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Campaign Optimization (Optimización de la campaña)<br /> </td> 
-   <td> Controla, filtra y supervisa el envío de envíos para que los mensajes enviados respondan de la mejor manera a las necesidades y expectativas de los clientes, de acuerdo con las políticas de comunicación de la empresa. Opcional. <a href="../../campaign/using/about-campaign-typologies.md">Más información</a> <br /> </td> 
+   <td> Controla, filtra y supervisa el envío de envíos para que los mensajes enviados respondan de la mejor manera a las necesidades y expectativas de los clientes, de acuerdo con las políticas de comunicación de la empresa. Opcional. <a href="../../campaign-opt/using/about-campaign-typologies.md">Más información</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -179,7 +181,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Marketing central/local (Marketing distribuido)<br /> </td> 
-   <td> Implementa campañas de cooperación entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de venta, agencias regionales, etc.). Opcional. <a href="../../campaign/using/about-distributed-marketing.md">Más información</a><br /> </td> 
+   <td> Implementa campañas de cooperación entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de venta, agencias regionales, etc.). Opcional. <a href="../../distributed/using/about-distributed-marketing.md">Más información</a><br /> </td> 
    <td> Marketing </td> 
   </tr> 
   <tr> 

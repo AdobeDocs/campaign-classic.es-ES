@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 100%
 
 ---
 
 # Uso de cubos para explorar datos{#using-cubes-to-explore-data}
+
+![](../../assets/common.svg)
 
 Marketing Analytics facilita la creación de informes y la identificación y selección de datos de la base de datos mediante cubos. Esta actividad permite:
 

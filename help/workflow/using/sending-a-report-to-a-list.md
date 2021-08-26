@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 100%
 
 ---
 
 # Envío de informes a una lista{#sending-a-report-to-a-list}
+
+![](../../assets/common.svg)
 
 Este caso de uso detalla cómo generar un informe mensual preestablecido de **[!UICONTROL Tracking indicators]** en formato PDF y cómo enviarlo a una lista de destinatarios.
 
@@ -89,7 +91,7 @@ El siguiente flujo de trabajo se creó para este caso de uso. Tiene tres activid
 
    ![](assets/use_case_report_9.png)
 
-   Para obtener más información sobre la configuración del planificador, consulte [planificador](../../workflow/using/scheduler.md).
+   Para obtener más información sobre la configuración del planificador, consulte [planificador](scheduler.md).
 
 1. A continuación, añada una actividad **[!UICONTROL JavaScript code]**.
 

@@ -13,8 +13,8 @@ index: y
 internal: n
 snippet: y
 exl-id: a6b10585-7bf9-4fef-b886-db081b6d3acc
-source-git-commit: e3e2ac09de6a9e846e9f9262d522b9395a725648
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 100%
 
@@ -22,11 +22,13 @@ ht-degree: 100%
 
 # Uso de la funcionalidad Combinar de la actividad de anulación de duplicación {#deduplication-merge}
 
+![](../../assets/common.svg)
+
 ## Acerca de este caso de uso {#about-this-use-case}
 
 Este caso de uso describe cómo utilizar la funcionalidad **[!UICONTROL Merge]** en la actividad **[!UICONTROL Deduplication]**.
 
-Para obtener más información sobre esta funcionalidad, consulte [esta sección](../../workflow/using/deduplication.md#merging-fields-into-single-record).
+Para obtener más información sobre esta funcionalidad, consulte [esta sección](deduplication.md#merging-fields-into-single-record).
 
 La actividad **[!UICONTROL Deduplication]** se utiliza para eliminar filas de duplicado de un conjunto de datos. En este caso de uso, los datos que se muestran a continuación se duplican en función del campo Correo electrónico.
 

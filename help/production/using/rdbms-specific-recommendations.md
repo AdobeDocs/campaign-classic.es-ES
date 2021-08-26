@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
-source-git-commit: 0e0912c68d132919eeac9b91b93960e70011153e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # Recomendaciones específicas de RDBMS{#rdbms-specific-recommendations}
+
+![](../../assets/v7-only.svg)
 
 Para ayudarle a configurar planes de mantenimiento, esta sección enumera algunas recomendaciones y prácticas recomendadas adaptadas a los distintos motores RDBMS que admite Adobe Campaign. Sin embargo, estas son solo recomendaciones. Depende de usted adaptarlas a sus necesidades, de acuerdo con su procedimiento interno y sus limitaciones. El administrador de la base de datos tiene la responsabilidad de crear y ejecutar estos planes.
 
@@ -151,8 +153,8 @@ REINDEX TABLE nmsmirrorpageinfo;
 >* Las instrucciones VACUUM y REINDEX bloquearán la tabla, lo que detiene algunos procesos mientras se realiza el mantenimiento.
 >* Para tablas muy grandes (generalmente superiores a 5 Gb), la declaración VACUUM FULL puede volverse bastante ineficiente y llevar mucho tiempo. Adobe no recomienda utilizarlo para la tabla **AAAANmsBroadLogXxx**.
 >* Esta operación de mantenimiento se puede implementar mediante un flujo de trabajo de Adobe Campaign mediante una actividad **[!UICONTROL SQL]**. Para obtener más información, consulte [esta sección](../../workflow/using/architecture.md). Asegúrese de programar el mantenimiento para un tiempo de actividad bajo que no entre en conflicto con la ventana de copia de seguridad.
->
 
+>
 
 
 ### Reconstrucción de una base de datos {#rebuilding-a-database}

@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1185'
 ht-degree: 100%
 
 ---
 
 # Automatización con flujos de trabajo{#automating-via-workflows}
+
+![](../../assets/common.svg)
 
 ## Actividad de gestión de contenido {#content-management-activity}
 
@@ -216,7 +218,7 @@ La acción final de la actividad es la preparación y el inicio de la entrega.
 
 Si el contenido de su entrega está disponible en un archivo HTML ubicado en servidores FTP o SFTP, puede cargar fácilmente este contenido en los envíos de Adobe Campaign. Consulte [este ejemplo](../../workflow/using/loading-delivery-content.md).
 
-### Importación de contenido desde el conector Amazon Simple Storage Service (S3) {#importing-content-from-amazon-simple-storage-service--s3--connector}
+### Importación de contenido desde el conector Amazon Simple Storage Service (S3)  {#importing-content-from-amazon-simple-storage-service--s3--connector}
 
 Si el contenido de su entrega está ubicado en bloques de Amazon Simple Storage Service (S3), puede cargar fácilmente este contenido en los envíos de Adobe Campaign. Consulte [este ejemplo](../../workflow/using/loading-delivery-content.md).
 

@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
-workflow-type: ht
-source-wordcount: '284'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '292'
+ht-degree: 96%
 
 ---
 
 # Entregas multicanal{#cross-channel-deliveries}
+
+![](../../assets/common.svg)
 
 Las entregas multicanal están disponibles en la pestaña **[!UICONTROL Deliveries]** de las actividades de flujo de trabajo de la campaña.
 
@@ -22,8 +24,8 @@ Los varios canales disponibles son los siguientes:
 * [Correo electrónico](../../delivery/using/about-email-channel.md)
 * [Correo directo](../../delivery/using/about-direct-mail-channel.md)
 * [Móvil](../../delivery/using/sms-channel.md)
-* [Twitter](../../social/using/publishing-on-twitter.md)
-* [Facebook](../../social/using/publishing-on-facebook.md)
+* [Twitter](../../social/using/publishing-on-twitter.md)  (solo Campaign Classic v7)
+* [Facebook](../../social/using/publishing-on-facebook.md)  (solo Campaign Classic v7)
 * [iOS](../../delivery/using/create-notifications-ios.md)
 * [Android](../../delivery/using/create-notifications-android.md)
 

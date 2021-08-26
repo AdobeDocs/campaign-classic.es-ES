@@ -7,14 +7,16 @@ content-type: reference
 topic-tags: sending-push-notifications
 version: Classic v7
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 100%
 
 ---
 
 # Integración del SDK de Campaign con la aplicación {#integrating-campaign-sdk-into-the-mobile-application}
+
+![](../../assets/common.svg)
 
 Los SDK de Campaign para iOS y Android son uno de los componentes del módulo Mobile App Channel.
 

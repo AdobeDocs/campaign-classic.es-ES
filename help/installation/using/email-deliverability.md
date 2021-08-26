@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '3022'
 ht-degree: 20%
@@ -14,6 +14,8 @@ ht-degree: 20%
 ---
 
 # Configuraciones técnicas de correo electrónico{#email-deliverability}
+
+![](../../assets/v7-only.svg)
 
 ## Información general {#overview}
 
@@ -40,7 +42,7 @@ Esto es lo que hace el módulo **stat**: reenvía todas las solicitudes de conex
 * El servidor de estadísticas (**stat**) está vinculado a una base de Adobe Campaign para cargar su configuración.
 * Los servidores de envío (**mta**) utilizan un UDP para comunicarse con un servidor de estadísticas que no siempre pertenece a su propia instancia.
 
-### Servidores de envío {#delivery-servers}
+### Servidores de entrega {#delivery-servers}
 
 El módulo **mta** distribuye los mensajes a sus módulos secundarios **mtachild**. Cada **mtachild** prepara los mensajes antes de solicitar una autorización al servidor de estadísticas y enviarlos.
 
@@ -75,7 +77,7 @@ Las estadísticas de entrega se conservan para cada MX de destino y para cada IP
 
 La dirección IP de origen coincide con la dirección IP pública, es decir, la dirección tal como la ve el servidor de correo electrónico remoto. Esta dirección IP puede ser diferente de la dirección del equipo que aloja el **mta**, si se proporciona un router NAT. Por este motivo, el servidor de estadísticas utiliza un identificador que coincide con la IP pública (**publicId**). La asociación entre la dirección local y este identificador se declara en el archivo de configuración **serverConf.xml**. Todos los parámetros disponibles en **serverConf.xml** se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
 
-## Control de salida de envío {#delivery-output-controlling}
+## Control de salida de entrega {#delivery-output-controlling}
 
 Para enviar mensajes a los servidores de correo electrónico, el componente **Email Traffic Share** solicita una conexión desde el servidor de estadísticas. Una vez aceptada la solicitud, se abre la conexión.
 
@@ -212,7 +214,7 @@ Estos mensajes se envían lo más rápidamente posible.
 
 Las reglas que se deben cumplir para MX se definen en el documento **[!UICONTROL MX management]** del nodo **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** del árbol.
 
-Si el documento **[!UICONTROL MX management]** no existe en el nodo, puede crearlo manualmente. Para ello:
+Si el documento **[!UICONTROL MX management]** no existe en el nodo, puede crearlo manualmente. Para ello, haga lo siguiente:
 
 1. Cree un nuevo conjunto de reglas de correo.
 1. Elija el modo **[!UICONTROL MX management]** .
@@ -361,7 +363,7 @@ Para utilizar el servidor de estadísticas en el mismo equipo, debe introducir a
 >
 >Si este campo no se rellena, el **mta** no se iniciará.
 
-### Lista de direcciones IP para usar {#list-of-ip-addresses-to-use}
+### Lista de direcciones IP que se deben usar {#list-of-ip-addresses-to-use}
 
 La configuración relativa a la administración de tráfico se encuentra en el elemento **mta/child/smtp** del archivo de configuración.
 
@@ -408,11 +410,11 @@ Si, por ejemplo, la primera dirección no se puede utilizar para un MX determina
 
    ![](assets/s_ncs_install_mta_ips.png)
 
-## Optimización de envío de correo electrónico {#email-sending-optimization}
+## Optimización del envío de correo electrónico {#email-sending-optimization}
 
 La arquitectura interna del **mta** de Adobe Campaign tiene un impacto en la configuración para optimizar el envío de correo electrónico. A continuación se ofrecen algunas sugerencias para mejorar los envíos.
 
-### Ajuste el parámetro maxWaitingMessages {#adjust-the-maxwaitingmessages-parameter}
+### Ajuste del parámetro maxWaitingMessages {#adjust-the-maxwaitingmessages-parameter}
 
 El parámetro **maxWaitingMessages** indica el número más alto de mensajes preparados de antemano por el **mtachild**. Los mensajes solo se eliminan de esta lista una vez que se han enviado o abandonado.
 
@@ -422,6 +424,6 @@ Una vez que se alcanza el umbral **maxWorkingSetMb** (256), el servidor de enví
 
 El parámetro **maxWorkingSetMb** se calcula empíricamente multiplicando el número máximo de mensajes por el tamaño medio del mensaje y multiplicando el resultado por 2,5. Por ejemplo, si un mensaje tiene un tamaño medio de 50 kB y el parámetro **maxWaitingMessages** es igual a 1.000, la memoria utilizada será el promedio 1 25 MB.
 
-### Ajuste el número de mtachild {#adjust-the-number-of-mtachild}
+### Ajustar el número de equipos {#adjust-the-number-of-mtachild}
 
 El número de niños no debe superar el número de procesadores de la máquina (aprox. 1000 sesiones). Le recomendamos que no supere 8 **mtachild**. A continuación, puede aumentar el número de mensajes por **secundario** (**maxMsgPerChild**) para lograr una vida útil suficiente.

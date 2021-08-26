@@ -7,14 +7,16 @@ content-type: reference
 topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
 
 ---
 
 # Actualizar devoluciones graves incorrectas después de la interrupción de Apple {#update-bounce-qualification.md}
+
+![](../../assets/common.svg)
 
 ## Contexto
 

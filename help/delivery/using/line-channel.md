@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1162'
 ht-degree: 100%
 
 ---
 
 # Creación de entregas LINE{#line-channel}
+
+![](../../assets/common.svg)
 
 >[!NOTE]
 >

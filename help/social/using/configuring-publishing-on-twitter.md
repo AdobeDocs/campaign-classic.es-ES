@@ -6,14 +6,16 @@ audience: social
 content-type: reference
 topic-tags: configuration
 exl-id: 2d2a6e32-587d-4a7b-ba1c-d9140da53f64
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 100%
 
 ---
 
 # Configuración de una publicación en Twitter{#configuring-publishing-on-twitter}
+
+![](../../assets/v7-only.svg)
 
 Para que Adobe Campaign pueda enviar tweets a sus cuentas de Twitter, debe delegar el acceso de escritura a Adobe Campaign para estas cuentas. Para ello, siga los siguientes pasos de configuración:
 

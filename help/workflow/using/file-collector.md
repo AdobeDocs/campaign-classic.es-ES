@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
 
 ---
 
-# Agrupamiento de archivos{#file-collector}
+# Recolector de ficheros{#file-collector}
+
+![](../../assets/common.svg)
 
 El **File collector** supervisa la llegada de uno o más archivos de un directorio y activa su transición para cada archivo recibido. Para cada evento, una variable **[!UICONTROL filename]** contiene el nombre completo del archivo recibido. Los archivos recopilados se mueven a otro directorio para fines de archivo y para asegurarse de que se cuentan solo una vez.
 
@@ -23,7 +25,7 @@ Los archivos deben estar en el servidor en el que se ejecuta el módulo wfserver
 
 ## Propiedades {#properties}
 
-La primera pestaña de la actividad **[!UICONTROL File collector]** permite seleccionar el directorio de origen y, si es necesario, filtrar los archivos recopilados. Las otras pestañas se detallan en [Inbound Emails](../../workflow/using/inbound-emails.md) (pestañas **[!UICONTROL Schedule]** y **[!UICONTROL Expiry]**).
+La primera pestaña de la actividad **[!UICONTROL File collector]** permite seleccionar el directorio de origen y, si es necesario, filtrar los archivos recopilados. Las otras pestañas se detallan en [Inbound Emails](inbound-emails.md) (pestañas **[!UICONTROL Schedule]** y **[!UICONTROL Expiry]**).
 
 ![](assets/file_collect_edit.png)
 
@@ -67,7 +69,7 @@ La primera pestaña de la actividad **[!UICONTROL File collector]** permite sele
 
 1. **Historization**
 
-   Consulte el paso **[!UICONTROL File historization]** aquí: [Web download](../../workflow/using/web-download.md).
+   Consulte el paso **[!UICONTROL File historization]** aquí: [Web download](web-download.md).
 
 El orden de procesamiento del archivo no se puede determinar. Para procesar un conjunto de archivos secuencialmente, utilice la opción **[!UICONTROL Stop as soon as a file has been processed]** y cree un bucle. En este caso, los archivos se procesan en orden alfabético. La opción **[!UICONTROL Process file nonexistence]** permite finalizar la iteración.
 

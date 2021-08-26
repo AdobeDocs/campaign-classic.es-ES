@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 91662d6d-2177-4440-b31f-7b031bd953cb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 11%
@@ -14,6 +14,8 @@ ht-degree: 11%
 ---
 
 # Seguimiento de pila en Linux{#stack-trace-in-linux}
+
+![](../../assets/v7-only.svg)
 
 Una **traza de pila** representa una traza contenida en un archivo de tipo **core**. Este archivo se genera en caso de error del equipo. Puede identificar el origen del error.
 
@@ -23,7 +25,6 @@ Una **traza de pila** representa una traza contenida en un archivo de tipo **cor
 >* **gdb - El GNU** Debuggerer debe estar instalado en la máquina.
 
 >
-
 
 
 El soporte técnico de Adobe Campaign puede solicitarle este **seguimiento de pila**. Para obtenerlo, introduzca los siguientes comandos en Linux:

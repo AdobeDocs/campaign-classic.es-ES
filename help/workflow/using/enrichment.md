@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 4c7bc0f3-5877-47dc-bd72-dc94fb7bd479
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '1295'
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '1291'
 ht-degree: 100%
 
 ---
 
 # Enriquecimiento{#enrichment}
+
+![](../../assets/common.svg)
 
 La actividad **[!UICONTROL Enrichment]** permite agregar información a una lista de perfiles y vínculos a una lista existente (creación de un nuevo vínculo). También se pueden definir criterios de comparación con los perfiles de la base de datos.
 
@@ -50,15 +52,15 @@ Existen cuatro tipos de vínculos:
 
 En estas secciones también se encuentran disponibles casos de uso que detallan el funcionamiento de actividades de Enriquecimiento en su contexto:
 
-* [Enriquecimiento de correo electrónico con campos de datos personalizados](../../workflow/using/email-enrichment-with-custom-date-fields.md).
-* [Enriquecimiento de datos](../../workflow/using/enriching-data.md)
-* [Creación de la lista de resumen](../../workflow/using/creating-a-summary-list.md)
+* [Enriquecimiento de correo electrónico con campos de datos personalizados](email-enrichment-with-custom-date-fields.md).
+* [Enriquecimiento de datos](enriching-data.md)
+* [Creación de la lista de resumen](creating-a-summary-list.md)
 
 ## Adición de información {#adding-information}
 
 Utilice la actividad **[!UICONTROL Enrichment]** para añadir columnas a una tabla de trabajo: esta actividad se puede utilizar como complemento para una actividad de consulta.
 
-La configuración de columnas adicionales se detalla en [Añadir datos](../../workflow/using/query.md#adding-data).
+La configuración de columnas adicionales se detalla en [Añadir datos](query.md#adding-data).
 
 El campo **[!UICONTROL Primary set]** permite seleccionar la transición entrante: los datos de la tabla de resultados de esta actividad se ampliarán.
 
@@ -151,13 +153,13 @@ Si se especifican varias condiciones de vínculo, todas deben verificarse para q
 
 La actividad de enriquecimiento permite añadir ofertas o vínculos a ofertas para los destinatarios de la entrega.
 
-Para obtener más información sobre la actividad de enriquecimiento, consulte esta [sección](../../workflow/using/enrichment.md).
+Para obtener más información sobre la actividad de enriquecimiento, consulte esta [sección](enrichment.md).
 
 Por ejemplo, puede ampliar los datos de una consulta al destinatario antes de una entrega.
 
 ![](assets/int_enrichment_offer1.png)
 
-Después de configurar la consulta (consulte esta [sección](../../workflow/using/query.md)):
+Después de configurar la consulta (consulte esta [sección](query.md)):
 
 1. Añada y abra una actividad de enriquecimiento.
 1. En la pestaña **[!UICONTROL Enrichment]**, seleccione **[!UICONTROL Add data]**.
@@ -176,7 +178,7 @@ Después de configurar la consulta (consulte esta [sección](../../workflow/usin
 
       ![](assets/int_enrichment_offer4.png)
 
-1. A continuación, configure una actividad de entrega que corresponda al canal elegido. Consulte [Envíos multicanal](../../workflow/using/cross-channel-deliveries.md).
+1. A continuación, configure una actividad de entrega que corresponda al canal elegido. Consulte [Envíos multicanal](cross-channel-deliveries.md).
 
    El número de propuestas disponibles para la vista previa depende de la configuración realizada en la actividad de enriquecimiento y no de cualquier configuración realizada directamente en la entrega.
 
@@ -198,7 +200,7 @@ Para ello:
 
    ![](assets/int_enrichment_link2.png)
 
-1. A continuación, configure una actividad de entrega que corresponda al canal elegido. Consulte [Envíos multicanal](../../workflow/using/cross-channel-deliveries.md).
+1. A continuación, configure una actividad de entrega que corresponda al canal elegido. Consulte [Envíos multicanal](cross-channel-deliveries.md).
 
    >[!NOTE]
    >
@@ -212,7 +214,7 @@ La actividad **[!UICONTROL Offer engine]** almacena esta información de forma p
 
 Sin embargo, se puede almacenar esta información de la siguiente manera:
 
-1. Cree un recurso al motor de oferta en una actividad ampliada colocada después de una consulta y antes de una actividad de entrega. Consulte esta [sección](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine).
+1. Cree un recurso al motor de oferta en una actividad ampliada colocada después de una consulta y antes de una actividad de entrega.
 1. En la ventana principal de la actividad, seleccione **[!UICONTROL Edit additional data...]**
 
    ![](assets/ita_enrichment_rankweight_1.png)

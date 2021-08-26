@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1663'
 ht-degree: 100%
 
 ---
 
 # Validación de la entrega {#validating-the-delivery}
+
+![](../../assets/common.svg)
 
 Cuando se ha creado y configurado una entrega, se debe validar antes de enviarlo al objetivo principal.
 
@@ -134,8 +136,8 @@ Para detectar posibles errores en la configuración del mensaje, Adobe recomiend
 >
 >* Los modos de validación disponibles se detallan en [Cambio del modo de aprobación](steps-validating-the-delivery.md#changing-the-approval-mode).
 >* La configuración del objetivo de prueba se explica en [Definición de un objetivo de prueba específico](steps-defining-the-target-population.md#defining-a-specific-proof-target).
->
 
+>
 
 
 Para enviar una prueba, siga los pasos a continuación:
@@ -195,7 +197,7 @@ Puede ver y editar las reglas de aprobación, su contenido, orden de ejecución 
 
 Puede crear nuevas reglas y definir nuevas tipologías a partir de este nodo. Sin embargo, estas tareas se reservan para los usuarios expertos que conocen JavaScript.
 
-Para obtener más información sobre las reglas de tipología, consulte [esta página](../../campaign/using/about-campaign-typologies.md).
+Para obtener más información sobre las reglas de tipología, consulte [esta página](../../campaign-opt/using/about-campaign-typologies.md).
 
 Para editar la tipología actual, haga clic en el icono **[!UICONTROL Edit link]** a la derecha del campo **[!UICONTROL Typology]**.
 

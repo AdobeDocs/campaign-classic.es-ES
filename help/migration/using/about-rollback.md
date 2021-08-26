@@ -6,7 +6,7 @@ audience: migration
 content-type: reference
 topic-tags: rollback
 exl-id: 5120a7c4-3760-48d9-94da-d587d333e8d8
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Reversión a la versión anterior{#about-rollback}
+
+![](../../assets/v7-only.svg)
 
 Después de una migración, en caso de problemas, es posible que tenga que volver a la versión anterior de Campaign.
 

@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: dccf72b200cad9ba160a496cdd13ba39c5599008
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1305'
 ht-degree: 3%
 
 ---
 
-# Correo electrónico CCO {#email-archiving}
+# Configuración del CCO del correo electrónico {#email-archiving}
+
+![](../../assets/v7-only.svg)
 
 Puede configurar Adobe Campaign para que mantenga una copia de los correos electrónicos enviados desde la plataforma.
 
@@ -135,7 +137,7 @@ Para ello, realice los siguientes cambios en el archivo **`config-<instance>.xml
 
 Una vez configurado el correo electrónico BCC, asegúrese de seleccionar la opción **[!UICONTROL Email BCC]** en la plantilla de envío o en el envío. Para obtener más información, consulte [esta sección](../../delivery/using/sending-messages.md#archiving-emails).
 
-## Prácticas recomendadas de CCO de correo electrónico {#best-practices}
+## Prácticas recomendadas de Email BCC {#best-practices}
 
 * **Buzón** de direcciones CCO: asegúrese de que tiene suficiente capacidad de recepción para archivar todos los correos electrónicos que envía el MTA.
 * **mutualización de MTA**: la función de archivado de BCC funciona en el nivel de MTA. Permite duplicar todos los correos electrónicos enviados por el MTA. Como el MTA se puede mutualizar en varias instancias (dev, test o prod, por ejemplo) o incluso en varios clientes (en un entorno de mid-sourcing), la configuración de esta función afecta a la seguridad:
@@ -145,3 +147,31 @@ Una vez configurado el correo electrónico BCC, asegúrese de seleccionar la opc
 
 * **Correos electrónicos por conexión**: El archivado de correo electrónico CCO funciona abriendo una conexión e intentando enviar todos los correos electrónicos a través de esa conexión. Adobe recomienda comprobar con el contacto técnico interno el número de correos electrónicos aceptados en una conexión determinada. Aumentar este número puede tener un impacto bueno en el rendimiento de los CCO.
 * **IP de envío de CCO**: actualmente, los correos electrónicos CCO no se envían a través de los proxies normales de MTA. En su lugar, se abre una conexión directa desde el servidor MTA al servidor de correo electrónico de destino. Esto significa que es posible que tenga que agregar direcciones IP adicionales a la lista de permitidos de la red, según la configuración del servidor de correo electrónico.
+
+<!--## Email BCC with Enhanced MTA {#email-bcc-with-enhanced-mta}
+
+For **hosted and hybrid architectures**, if you have the latest instance of Adobe Campaign, or if you have upgraded to the Enhanced MTA and using Adobe Campaign 19.2 or later, you can use Email BCC with Enhanced MTA, which is more reliable, efficient, and has lower latency.
+
+### Activating Email BCC with Enhanced MTA
+
+To activate this feature, you must contact your account executive to communicate the BCC email address to be used for archiving.
+
+>[!NOTE]
+>
+>If you were already using BCC email archiving, you can provide the same address as you were using before or use a new one. If you keep the same, you still have to contact your account executive to set it up for you.
+
+### Specificities and recommendations
+
+Email BCC with Enhanced MTA is not activated at the delivery level: once this feature is enabled, **all sent deliveries** are sent to the BCC email address. There is no need to select the **[!UICONTROL Email BCC]** option in the delivery template or in the delivery.
+
+If you were already using BCC and if you keep the same address, you could see a significant increase in the volumes sent to the BCC address.
+
+Consequently, make sure:
+* The BCC address has enough reception capacity to archive all the emails that are sent.
+* You have the required MTA infrastructure capacity to receive 100% of your email volume delivered to a single address.
+
+### Limitations
+
+* Email BCC with Enhanced MTA delivers to the BCC email address before delivering to the recipients, which can result in BCC messages being sent even though the original deliveries may have bounced. For more on bounces, see [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md).
+
+* There is no reporting available on the delivery status of the emails sent to the BCC email address.-->

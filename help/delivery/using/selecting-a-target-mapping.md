@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 100%
 
 ---
 
 # Selección de una asignación de destino{#selecting-a-target-mapping}
+
+![](../../assets/common.svg)
 
 De forma predeterminada, las plantillas de envío tienen como destino **[!UICONTROL Recipients]**. El destino de mapeo utiliza los campos de la tabla **nms:recipient.** Adobe Campaign ofrece otros destinos de mapeo para las entregas, que puede usar según sus necesidades.
 

@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 100%
 
 ---
 
 # Pasos de configuración para iOS {#configuring-the-mobile-application-in-adobe-campaign-ios}
+
+![](../../assets/common.svg)
 
 Una vez que el paquete esté instalado, puede definir la configuración de la aplicación de iOS en Adobe Campaign Classic.
 

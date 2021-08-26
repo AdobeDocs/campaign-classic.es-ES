@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 100%
 
 ---
 
 # Caso de uso: Selección de direcciones semilla según ciertos criterios{#use-case-selecting-seed-addresses-on-criteria}
+
+![](../../assets/common.svg)
 
 En el marco de trabajo de una entrega o de una campaña, el vínculo **[!UICONTROL Edit the dynamic condition...]** permite elegir las direcciones semilla basándose en criterios de selección específicos.
 

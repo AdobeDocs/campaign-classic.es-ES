@@ -6,8 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 100%
 
@@ -15,9 +15,11 @@ ht-degree: 100%
 
 # Preguntas más frecuentes sobre desarrolladores {#dev-faq}
 
+![](../../assets/common.svg)
+
 Como solución abierta, Adobe Campaign está listo para la personalización y el desarrollo de aplicaciones avanzadas.
 
-## ¿Qué es el modelo de datos de Campaign? {#what-is-the-campaign-data-model}
+## ¿Qué es el modelo de datos de Campaign?  {#what-is-the-campaign-data-model}
 
 El modelo de datos conceptuales de la base de datos de Adobe Campaign consta de un conjunto de tablas integradas y su interacción. La estructura física y lógica de los datos que se llevan en la aplicación se describe en XML. Obedece a una gramática específica de Adobe Campaign, denominada esquema. Para obtener más información sobre Adobe Campaign, [consulte esta sección](../../configuration/using/about-schema-edition.md).
 
@@ -25,7 +27,7 @@ El modelo de datos conceptuales de la base de datos de Adobe Campaign consta de 
 
 Las prácticas recomendadas se enumeran [en este artículo](https://helpx.adobe.com/es/campaign/kb/acc-data-model-best-practices.html).
 
-## ¿Cómo se trabaja con los esquemas de Campaign? {#how-to-work-with-campaign-schemas-}
+## ¿Cómo se trabaja con los esquemas de Campaign?  {#how-to-work-with-campaign-schemas-}
 
 En Adobe Campaign, los esquemas de datos se utilizan para:
 
@@ -35,13 +37,13 @@ En Adobe Campaign, los esquemas de datos se utilizan para:
 
 Lea sobre [Tablas y esquemas](../../configuration/using/about-schema-edition.md) para comprender cómo trabajar con el esquema de datos, ampliar y personalizar Campaign para satisfacer sus necesidades.
 
-## ¿Cómo se utiliza una tabla de destinatarios personalizada? {#how-to-use-a-custom-recipient-table-}
+## ¿Cómo se utiliza una tabla de destinatarios personalizada?  {#how-to-use-a-custom-recipient-table-}
 
 Puede crear e implementar una tabla de destinatarios no estándar en Campaign para enviar los mensajes.
 
 [Haga clic aquí para obtener más información](../../configuration/using/about-custom-recipient-table.md)
 
-## ¿Cuáles son las mejores prácticas para definir las consultas en Campaign? {#what-are-the-best-practices-to-define-queries-in-campaign-}
+## ¿Cuáles son las mejores prácticas para definir las consultas en Campaign?  {#what-are-the-best-practices-to-define-queries-in-campaign-}
 
 El editor de consultas de Adobe Campaign es una herramienta poderosa para explorar datos y crear segmentos.
 
@@ -53,7 +55,7 @@ Las consultas se crean utilizando campos de la tabla seleccionada o utilizando u
 
 [Haga clic aquí](../../workflow/using/query.md) para descubrir el editor de consultas de Campaign.
 
-## ¿Cómo puedo importar un paquete de datos? {#how-can-i-import-a-data-package-}
+## ¿Cómo puedo importar un paquete de datos?  {#how-can-i-import-a-data-package-}
 
 Adobe Campaign permite exportar o importar la configuración y los datos de la plataforma a través de un sistema de paquetes. Los paquetes de datos permiten que las entidades de la base de datos de Adobe Campaign se muestren mediante archivos en formato XML. Cada entidad contenida en un paquete se representa con todos sus datos.
 
@@ -61,6 +63,6 @@ El principio de los paquetes de datos es exportar una configuración de datos e 
 
 [Haga clic aquí](../../platform/using/working-with-data-packages.md) para aprender a trabajar con paquetes de datos para importar y exportar configuraciones de Campaign.
 
-## ¿Dónde puedo encontrar la lista de las API de Campaign Classic? {#where-can-i-find-the-list-of-campaign-classic-apis}
+## ¿Dónde puedo encontrar la lista de las API de Campaign Classic?  {#where-can-i-find-the-list-of-campaign-classic-apis}
 
 Todas las API de campaña, incluida su descripción completa, están disponibles en esta [documentación dedicada](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).

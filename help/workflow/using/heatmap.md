@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 100%
 
 ---
 
 # Mapa de calor del flujo de trabajo {#workflow-heatmap}
+
+![](../../assets/common.svg)
 
 El mapa de calor del flujo de trabajo de Campaign consiste en una representación gráfica con códigos de color de todos los flujos de trabajo que se están ejecutando actualmente. Solo está disponible para **Administradores de Campaign**.
 
@@ -29,14 +31,14 @@ Más precisamente, ayuda a los administradores de la plataforma a:
 * Filtrar flujos de trabajo por duración para ver qué flujos de trabajo pueden encontrar problemas
 * Filtrar actividades por duración para ver qué actividades pueden encontrar problemas
 * Encuentre fácilmente flujos de trabajo individuales y todas las actividades relacionadas (con su duración)
-* Filtrar por tipo de flujo de trabajo: [flujos de trabajo técnicos](../../workflow/using/building-a-workflow.md#technical-workflows) o [flujos de trabajo de la campaña](../../workflow/using/building-a-workflow.md#campaign-workflows)
+* Filtrar por tipo de flujo de trabajo: [flujos de trabajo técnicos](building-a-workflow.md#technical-workflows) o [flujos de trabajo de la campaña](building-a-workflow.md#campaign-workflows)
 * Buscar un flujo de trabajo específico para analizar
 
 >[!NOTE]
 >
->Además de **Mapa de calor del flujo de trabajo**, puede crear un flujo de trabajo que le permitirá supervisar el estado de un conjunto de flujos de trabajo y enviar mensajes recurrentes a los supervisores. Para obtener más información, consulte [la sección dedicada](../../workflow/using/supervising-workflows.md).
+>Además de **Mapa de calor del flujo de trabajo**, puede crear un flujo de trabajo que le permitirá supervisar el estado de un conjunto de flujos de trabajo y enviar mensajes recurrentes a los supervisores. Para obtener más información, consulte [la sección dedicada](supervising-workflows.md).
 
-El uso del mapa de calor del flujo de trabajo requiere comprender bien los siguientes conceptos: Optimizaciones para [Flujos de trabajo](../../workflow/using/about-workflows.md), [Actividades](../../workflow/using/about-activities.md) y [Flujos de trabajo](../../workflow/using/workflow-best-practices.md).
+El uso del mapa de calor del flujo de trabajo requiere comprender bien los siguientes conceptos: Optimizaciones para [Flujos de trabajo](about-workflows.md), [Actividades](about-activities.md) y [Flujos de trabajo](workflow-best-practices.md).
 
 ## Personalización del mapa de calor del flujo de trabajo {#using-the-heatmap}
 
@@ -75,8 +77,8 @@ El uso del mapa de calor del flujo de trabajo requiere comprender bien los sigui
 
 1. También puede filtrar por el **[!UICONTROL Workflow type]**:
 
-   * **[!UICONTROL Technical]**: Solo se muestran los flujos de trabajo [técnicos](../../workflow/using/building-a-workflow.md#technical-workflows) listos para usar y los flujos de trabajo [de administración de datos](../../workflow/using/targeting-data.md#data-management).
-   * **[!UICONTROL Marketing]** : Solo se muestran los flujos de trabajo vinculados a una campaña de marketing, conocidos como flujos de trabajo [de ](../../workflow/using/building-a-workflow.md#campaign-workflows)campaña.
+   * **[!UICONTROL Technical]**: Solo se muestran los flujos de trabajo [técnicos](building-a-workflow.md#technical-workflows) listos para usar y los flujos de trabajo [de administración de datos](targeting-data.md#data-management).
+   * **[!UICONTROL Marketing]** : Solo se muestran los flujos de trabajo vinculados a una campaña de marketing, conocidos como flujos de trabajo [de ](building-a-workflow.md#campaign-workflows)campaña.
 
 1. Para buscar un flujo de trabajo específico por su nombre, también puede utilizar el campo **[!UICONTROL Workflow name filter]**.
 

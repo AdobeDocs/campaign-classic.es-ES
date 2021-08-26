@@ -5,14 +5,16 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 100%
 
 ---
 
 # Uso de plantillas {#use-templates}
+
+![](../../assets/common.svg)
 
 Las plantillas de envíos ofrecen una mayor eficiencia al proporcionar escenarios listos para usar para los tipos de actividades más comunes. Con las plantillas, los especialistas en marketing pueden implementar nuevas campañas con una personalización mínima en un período de tiempo más corto.
 
@@ -66,4 +68,4 @@ En la pestaña **[!UICONTROL Typology]** de las propiedades de la plantilla, cam
 
 Por ejemplo, para controlar mejor el tráfico saliente, puede definir qué direcciones IP se pueden utilizar definiendo una afinidad por subdominio y creando una tipología por afinidad. Las afinidades se definen en el archivo de configuración de la instancia. Póngase en contacto con el administrador de Adobe Campaign.
 
-Para obtener más información sobre tipologías, consulte [esta sección](../../campaign/using/about-campaign-typologies.md).
+Para obtener más información sobre tipologías, consulte [esta sección](../../campaign-opt/using/about-campaign-typologies.md).

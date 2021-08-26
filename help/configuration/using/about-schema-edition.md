@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 9%
@@ -15,13 +15,15 @@ ht-degree: 9%
 
 # Acerca de la edición de esquema{#about-schema-edition}
 
+![](../../assets/v7-only.svg)
+
 Adobe Campaign emplea esquemas de datos para:
 
 * Definir el modo en que los objetos de datos de la aplicación están vinculados a las tablas de bases de datos subyacentes.
 * Definir vínculos entre los diferentes objetos de datos dentro de la aplicación de Campaign.
 * Definir y describir los campos individuales incluidos en cada objeto.
 
-Para comprender mejor las tablas integradas de Campaign y su interacción, consulte [esta sección](https://helpx.adobe.com/es/campaign/kb/acc-datamodel.html).
+Para comprender mejor las tablas integradas de Campaign y su interacción, consulte [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/about-data-model.html?lang=es).
 
 ## Ampliación o creación de esquemas {#extending-or-creating-schemas}
 

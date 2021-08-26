@@ -6,14 +6,16 @@ audience: social
 content-type: reference
 topic-tags: configuration
 exl-id: 5c11bd0f-2df7-4c7f-b682-955fedf8e664
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 100%
 
 ---
 
 # Creación de una aplicación de Facebook{#creating-a-facebook-application}
+
+![](../../assets/v7-only.svg)
 
 Gracias a las aplicaciones web, el marketing social le permite mostrar contenido personalizado en las aplicaciones de Facebook, lo que facilita la adquisición de prospectos mediante esta red social. Para obtener más ejemplos de aplicaciones web de tipo Facebook, consulte [Ejemplos de aplicaciones de Facebook](../../social/using/examples-of-facebook-apps.md).
 

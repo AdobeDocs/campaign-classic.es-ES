@@ -6,20 +6,22 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '1609'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '1612'
+ht-degree: 99%
 
 ---
 
-# Prácticas recomendadas del flujo de trabajo{#workflow-best-practices}
+# Prácticas recomendadas con flujos de trabajo{#workflow-best-practices}
+
+![](../../assets/common.svg)
 
 ## Ejecución y rendimiento {#execution-and-performance}
 
 A continuación se detallan las directrices generales para optimizar el rendimiento de las campañas, incluidas las prácticas recomendadas para aplicarlas a los flujos de trabajo.
 
-Las directrices para la resolución de problemas relacionadas con la ejecución de flujos de trabajo también están disponibles en [esta sección](../../production/using/workflow-execution.md).
+Las directrices para la resolución de problemas relacionadas con la ejecución de flujos de trabajo también están disponibles en la [Guía de producción de Campaign Classic v7](../../production/using/workflow-execution.md).
 
 ### Registros {#logs}
 
@@ -42,7 +44,7 @@ Hay dos soluciones adicionales disponibles para ayudarle:
    Esta opción, disponible en la pestaña **[!UICONTROL Execution]** en las propiedades del flujo de trabajo, registra todas las consultas SQL generadas por la herramienta desde las diferentes actividades. Es una buena forma de ver lo que realmente se ejecuta en la plataforma. Sin embargo, esta opción solo debe utilizarse temporalmente durante el desarrollo y no activarse en la producción.
 
 Purgue los registros cuando ya no los necesite. El historial del flujo de trabajo no se purga automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede eliminar a través del menú **[!UICONTROL File > Actions]** o haciendo clic en el botón Actions ubicado en la barra de herramientas situada encima de la lista. Seleccione Purge history.
-Para aprender a purgar los registros, consulte esta [documentación](../../workflow/using/starting-a-workflow.md).
+Para aprender a purgar los registros, consulte esta [documentación](starting-a-workflow.md).
 
 ### Planificación de flujo de trabajo {#workflow-planning}
 
@@ -110,23 +112,23 @@ Esta opción no afecta a nivel funcional a los flujos de trabajo que no sean flu
 
 Los flujos de trabajo de la campaña (los flujos de trabajo creados como parte de una campaña u operación) con una gravedad mayor se ejecutan en el caso de que la campaña tenga muchos procesos que deberían ejecutarse simultáneamente. De manera predeterminada, solo se pueden ejecutar 10 procesos simultáneamente en una campaña, según la opción NmsOperation_LimitConcurrency. Por ejemplo, si una campaña contiene 25 flujos de trabajo, los flujos de trabajo con una gravedad más alta se ejecutan en el primer grupo de 10 procesos.
 
-### Monitorización del flujo de trabajo {#workflow-monitoring}
+### Monitorización de flujos de trabajos {#workflow-monitoring}
 
 Todos los flujos de trabajo programados que se ejecuten en entornos de producción se deben monitorizar para obtener un aviso en caso de error.
 
 En las propiedades del flujo de trabajo, seleccione un grupo de Supervisor, ya sean los **[!UICONTROL Workflow supervisors]** predeterminados o un grupo personalizado. Asegúrese de que al menos un operador pertenece a este grupo y que su perfil incluye un correo electrónico.
 
-Antes de empezar a crear un flujo de trabajo, recuerde establecer los supervisores del flujo de trabajo. Se les notifica por correo electrónico en caso de errores. Para obtener más información, consulte [Administración de errores](../../workflow/using/monitoring-workflow-execution.md#managing-errors).
+Antes de empezar a crear un flujo de trabajo, recuerde establecer los supervisores del flujo de trabajo. Se les notifica por correo electrónico en caso de errores. Para obtener más información, consulte [Administración de errores](monitoring-workflow-execution.md#managing-errors).
 
-Compruebe con regularidad la pestaña **[!UICONTROL Monitoring]** para ver el estado general de los flujos de trabajo activos. Para obtener más información, consulte [Supervisión de instancias](../../workflow/using/monitoring-workflow-execution.md#instance-supervision).
+Compruebe con regularidad la pestaña **[!UICONTROL Monitoring]** para ver el estado general de los flujos de trabajo activos. Para obtener más información, consulte [Supervisión de instancias](monitoring-workflow-execution.md#instance-supervision).
 
-El HeatMap de flujo de trabajo permite a los administradores de la plataforma de Adobe Campaign controlar la carga en la instancia y planificar los flujos de trabajo en consecuencia. Para obtener más información, consulte [Monitoreo de flujos de trabajo](../../workflow/using/heatmap.md).
+El HeatMap de flujo de trabajo permite a los administradores de la plataforma de Adobe Campaign controlar la carga en la instancia y planificar los flujos de trabajo en consecuencia. Para obtener más información, consulte [Monitoreo de flujos de trabajo](heatmap.md).
 
 ## Uso de actividades {#using-activities}
 
 >[!CAUTION]
 >
->Puede copiar y pegar actividades en un mismo flujo de trabajo. Sin embargo, no se recomienda copiar y pegar actividades en diferentes flujos de trabajo. Algunas configuraciones asociadas a actividades como Deliveries y Scheduler podrían provocar conflictos y errores al ejecutar el flujo de trabajo de destino. En su lugar, le recomendamos que **duplique** los flujos de trabajo. Para obtener más información, consulte [Duplicación de flujos de trabajo](../../workflow/using/building-a-workflow.md#duplicating-workflows).
+>Puede copiar y pegar actividades en un mismo flujo de trabajo. Sin embargo, no se recomienda copiar y pegar actividades en diferentes flujos de trabajo. Algunas configuraciones asociadas a actividades como Deliveries y Scheduler podrían provocar conflictos y errores al ejecutar el flujo de trabajo de destino. En su lugar, le recomendamos que **duplique** los flujos de trabajo. Para obtener más información, consulte [Duplicación de flujos de trabajo](building-a-workflow.md#duplicating-workflows).
 
 ### Nombre de la actividad {#name-of-the-activity}
 
@@ -137,11 +139,11 @@ El nombre de la actividad se puede encontrar en la pestaña **[!UICONTROL Advanc
 ### Primeras y últimas actividades {#first-and-last-activities}
 
 * Inicie siempre el flujo de trabajo con una actividad **[!UICONTROL Start]** o una actividad **[!UICONTROL Scheduler]**. Si es relevante, también puede utilizar una actividad **[!UICONTROL External signal]**.
-* Al crear el flujo de trabajo, utilice solamente una actividad **[!UICONTROL Scheduler]** por rama. Si la misma rama de un flujo de trabajo tiene varios planificadores (vinculados entre sí), el número de tareas que se van a ejecutar se multiplica exponencialmente, lo cual sobrecarga considerablemente la base de datos. Esta regla también se aplica para todas las actividades con una pestaña de **[!UICONTROL Scheduling & History]**. Más información sobre [Programación](../../workflow/using/scheduler.md).
+* Al crear el flujo de trabajo, utilice solamente una actividad **[!UICONTROL Scheduler]** por rama. Si la misma rama de un flujo de trabajo tiene varios planificadores (vinculados entre sí), el número de tareas que se van a ejecutar se multiplica exponencialmente, lo cual sobrecarga considerablemente la base de datos. Esta regla también se aplica para todas las actividades con una pestaña de **[!UICONTROL Scheduling & History]**. Más información sobre [Programación](scheduler.md).
 
    ![](assets/wf-scheduler.png)
 
-* Utilice las actividades **[!UICONTROL End]** para cada flujo de trabajo. Esto permite a Adobe Campaign liberar espacio temporal utilizado para los cálculos dentro de los flujos de trabajo. Para obtener más información, consulte [Inicio y finalización](../../workflow/using/start-and-end.md).
+* Utilice las actividades **[!UICONTROL End]** para cada flujo de trabajo. Esto permite a Adobe Campaign liberar espacio temporal utilizado para los cálculos dentro de los flujos de trabajo. Para obtener más información, consulte [Inicio y finalización](start-and-end.md).
 
 ### Javascript dentro de una actividad {#javascript-within-an-activity}
 

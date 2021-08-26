@@ -2,18 +2,20 @@
 product: campaign
 title: Espacio de trabajo de Adobe Campaign
 description: Aprenda a utilizar y personalizar el espacio de trabajo de Campaign
-feature: Información general
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '826'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '825'
+ht-degree: 99%
 
 ---
 
 # Espacio de trabajo de Adobe Campaign{#adobe-campaign-workspace}
+
+![](../../assets/common.svg)
 
 ## Explore la interfaz de Adobe Campaign {#about-adobe-campaign-interface}
 
@@ -136,7 +138,7 @@ Las principales diferencias entre el inglés de EE. UU. y el inglés de Reino U
   <tr> 
    <td> Fecha corta con hora<br /> </td> 
    <td> <p>%2M/%2D/%4Y %I:%2N:%2S %P</p><p><strong>ex: 25/09/2018 10:47:25 PM</strong></p> </td> 
-   <td> <p>%2D/%2M/%4Y %2H:%2N:%2S</p><p><strong>ex: 25/09/2018 22:47:25</strong></p> </td> 
+   <td> <p>%2D/%2M/%4Y %2H:%2N:%2S</p><p><strong>ex: 9/25/2018 22:47:25</strong></p> </td> 
   </tr> 
  </tbody> 
 </table>

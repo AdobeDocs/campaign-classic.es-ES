@@ -6,16 +6,18 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ce2c90cd-46d9-4365-8013-5c1273b6c176
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 100%
 
 ---
 
-# Preguntas más frecuentes sobre Privacidad {#privacy-faq}
+# Preguntas frecuentes sobre privacidad {#privacy-faq}
 
-Estas son algunas de las preguntas más frecuentes sobre Privacidad y consentimiento al usar Adobe Campaign.
+![](../../assets/common.svg)
+
+Estas son algunas de las preguntas frecuentes acerca de la privacidad y el consentimiento al usar Adobe Campaign.
 
 ## Términos clave {#key-terms}
 
@@ -98,7 +100,7 @@ Como controlador de datos, tiene la opción de personalizarlos cambiando la inte
 
 Los informes de Adobe Campaign se basan en indicadores calculados a partir de los datos agregados de entregas y registros de seguimiento. Como resultado, la eliminación de los registros individuales no debería afectar a las métricas de los informes.
 
-## Volver a importar datos {#re-import-data}
+## Reimportación de datos {#re-import-data}
 
 ### ¿Debo tener en cuenta la posibilidad de volver a importar los datos más adelante?
 

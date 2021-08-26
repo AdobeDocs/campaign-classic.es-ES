@@ -6,14 +6,16 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 64aea8b9-7f06-4db0-a3e6-6a0e17c3ddcb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 100%
 
 ---
 
 # Integración de una oferta mediante el asistente{#integrating-an-offer-via-the-wizard}
+
+![](../../assets/v7-only.svg)
 
 Al crear una entrega, existen dos métodos posibles para la integración de ofertas:
 
@@ -75,7 +77,7 @@ Para insertar las propuestas de oferta en una entrega, siga los siguientes pasos
 * **[!UICONTROL Exclude non-eligible recipients]** : esta opción permite activar o desactivar la exclusión de destinatarios para los que no haya suficientes ofertas aptas. El número de propuestas puede ser inferior al número solicitado de propuestas. Si se selecciona este cuadro, los destinatarios que no tengan suficientes propuestas se excluirán de la entrega. Si no selecciona esta opción, estos destinatarios no se excluirán, pero no tendrán el número solicitado de propuestas.
 * **[!UICONTROL Do not display anything if no offer is selected]** : esta opción le permite elegir cómo se procesará el mensaje en caso de que una de las propuestas no exista. Cuando se activa esta casilla, no se muestra la representación de la propuesta que falta y no aparecerá ningún contenido en el mensaje para esta propuesta. Si el cuadro no está activado, el mensaje en sí se cancela durante la entrega y los destinatarios ya no recibirán ningún mensaje.
 
-### Inserción de una propuesta de oferta en una entrega.{#inserting-an-offer-proposition-into-a-delivery}
+### Inserción de una propuesta de oferta en una entrega. {#inserting-an-offer-proposition-into-a-delivery}
 
 La descripción de las ofertas a presentar se inserta en el cuerpo de la entrega a través de los campos combinados. El número de propuestas se define en los parámetros de acceso al motor de oferta.
 

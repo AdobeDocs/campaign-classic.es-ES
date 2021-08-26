@@ -6,18 +6,20 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 3c793dc1-9654-4289-a3d2-30c3078fd848
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '376'
 ht-degree: 4%
 
 ---
 
 # Error de conexión{#failure-to-connect}
 
+![](../../assets/v7-only.svg)
+
 Las razones de un problema de conexión pueden ser múltiples y depender de varios contextos.
 
-Puede probar las siguientes pruebas y, si el error de conexión persiste, póngase en contacto con el [Adobe del Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Puede probar las siguientes pruebas y, si el error de conexión persiste, póngase en contacto con el [Adobe del Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html?lang=es/enterprise/using/support-for-experience-cloud.ug.html).
 
 
 

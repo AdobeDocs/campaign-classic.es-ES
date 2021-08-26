@@ -6,14 +6,16 @@ audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: e030c029-d1ee-4749-94e3-6bdfc8d89a34
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 100%
 
 ---
 
 # Publicación en Twitter{#publishing-on-twitter}
+
+![](../../assets/v7-only.svg)
 
 ## Publicación en sus cuentas de Twitter {#publishing-on-your-twitter-accounts}
 

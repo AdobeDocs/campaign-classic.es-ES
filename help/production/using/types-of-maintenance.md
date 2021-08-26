@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: 08e179aa-fd83-4c0a-879e-ab7aec168d92
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # Tipos de mantenimiento{#types-of-maintenance}
+
+![](../../assets/v7-only.svg)
 
 ## Mantenimiento de aplicaciones {#application-maintenance}
 
@@ -39,7 +41,7 @@ Estos procedimientos de mantenimiento deben llevarse a cabo de forma periódica 
 * volver a indexar tablas actualizadas con frecuencia,
 * compacte/reconstruya las tablas para evitar la fragmentación.
 
-### Programación de mantenimiento {#maintenance-schedule}
+### Calendario de mantenimiento {#maintenance-schedule}
 
 Debe encontrar las ranuras adecuadas para realizar estas actividades de mantenimiento. Pueden afectar en gran medida al rendimiento de la base de datos mientras se ejecuta o incluso bloquea la aplicación (debido al bloqueo).
 

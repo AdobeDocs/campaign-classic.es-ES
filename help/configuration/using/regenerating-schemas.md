@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 6c48cfea-6d20-4462-a485-71e1575a08a7
-source-git-commit: e3e2ac09de6a9e846e9f9262d522b9395a725648
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 7%
@@ -15,7 +15,9 @@ ht-degree: 7%
 
 # Regeneración de esquemas{#regenerating-schemas}
 
-Al modificar un esquema y guardar las modificaciones, el esquema ampliado se genera automáticamente. Sin embargo, es posible que tenga que volver a generar los esquemas manualmente para aplicar las modificaciones. Para ello:
+![](../../assets/v7-only.svg)
+
+Al modificar un esquema y guardar las modificaciones, el esquema ampliado se genera automáticamente. Sin embargo, es posible que tenga que volver a generar los esquemas manualmente para aplicar las modificaciones. Para ello, haga lo siguiente:
 
 1. Seleccione los esquemas que debe regenerar.
 1. Haga clic con el botón derecho y seleccione **[!UICONTROL Actions > Regenerate selected schemas...]** .

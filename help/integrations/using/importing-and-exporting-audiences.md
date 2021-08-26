@@ -6,14 +6,16 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: c2293fc5-c9ba-4a73-8f39-fa7cdd06e8dd
-source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 100%
 
 ---
 
 # Importación y exportación de audiencias{#importing-and-exporting-audiences}
+
+![](../../assets/common.svg)
 
 ## Importación de una audiencia {#importing-an-audience}
 

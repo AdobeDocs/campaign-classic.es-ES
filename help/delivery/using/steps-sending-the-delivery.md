@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 100%
 
 ---
 
 # Configuración y entrega de la entrega {#configuring-and-sending-the-delivery}
+
+![](../../assets/common.svg)
 
 >[!NOTE]
 >

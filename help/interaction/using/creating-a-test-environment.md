@@ -6,14 +6,16 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: 49ac279b-bc67-4311-b0a4-0e23f2a99c52
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 100%
 
 ---
 
 # Creación de un entorno de prueba{#creating-a-test-environment}
+
+![](../../assets/v7-only.svg)
 
 Para crear un entorno de prueba (modo de entorno limitado), siga los siguientes pasos:
 

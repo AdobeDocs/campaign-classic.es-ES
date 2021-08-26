@@ -6,8 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 12b173e9-5068-4d45-9e1e-2aecc9866e9c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 100%
 
@@ -15,13 +15,15 @@ ht-degree: 100%
 
 # Uso de agregados{#using-aggregates}
 
+![](../../assets/common.svg)
+
 Este caso de uso detalla cómo identificar automáticamente los últimos destinatarios agregados a la base de datos.
 
 Con el proceso siguiente, la fecha de creación de los destinatarios de la base de datos se compara con la última fecha conocida en la que se creó un destinatario con un agregado. Asimismo, se seleccionan todos los destinatarios creados en el mismo día.
 
 Para realizar un filtro **Creation date = max (Creation date)** en los destinatarios, se debe ejecutar un flujo de trabajo para seguir estos pasos:
 
-1. Recupere los destinatarios de la base de datos utilizando una consulta básica. Para obtener más información, consulte [Creación de una consulta](../../workflow/using/query.md#creating-a-query).
+1. Recupere los destinatarios de la base de datos utilizando una consulta básica. Para obtener más información, consulte [Creación de una consulta](query.md#creating-a-query).
 1. Calcule la última fecha conocida en que se creó un destinatario con el resultado generado a partir de la función de agregación **max (Creation date)** .
 1. Enlace cada destinatario al resultado de la función de agregación en el mismo esquema.
 1. Filtre los destinatarios con el agregado a través del esquema editado.

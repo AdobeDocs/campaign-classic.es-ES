@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 100%
 
 ---
 
 # Creación de una entrega de SMS {#creating-a-sms-delivery}
+
+![](../../assets/common.svg)
 
 ## Selección del canal de entrega {#selecting-the-delivery-channel}
 

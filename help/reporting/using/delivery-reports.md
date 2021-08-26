@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 100%
 
 ---
 
 # Informes de entrega {#delivery-reports}
+
+![](../../assets/common.svg)
 
 Se puede realizar un seguimiento de la ejecución de los envíos a través de diversos informes accesibles desde la información general de entrega. Para visualizar informes, siga el siguiente procedimiento:
 

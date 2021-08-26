@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '2910'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # Flujo de trabajo para limpieza de bases de datos{#database-cleanup-workflow}
+
+![](../../assets/v7-only.svg)
 
 ## Introducción {#introduction}
 
@@ -75,7 +77,7 @@ Los campos de la ventana **[!UICONTROL Purge of data]** coinciden con las siguie
 
 Todas las tareas ejecutadas por el flujo de trabajo **[!UICONTROL Database cleanup]** se describen en la siguiente sección.
 
-## Tareas realizadas por el flujo de trabajo de limpieza de la base de datos {#tasks-carried-out-by-the-database-cleanup-workflow}
+## Tareas realizadas por el flujo de trabajo Limpieza de bases de datos {#tasks-carried-out-by-the-database-cleanup-workflow}
 
 En la fecha y hora definidas en el planificador de flujo de trabajo (consulte [The scheduler](#the-scheduler)), el motor de flujo de trabajo inicia el proceso de limpieza de la base de datos. La Limpieza de la Base de Datos se conecta a la base de datos y ejecuta las tareas en la secuencia que se muestra a continuación.
 
@@ -120,7 +122,7 @@ La primera tarea ejecutada por el flujo de trabajo **[!UICONTROL Database cleanu
 
    donde **$(l)** es el identificador de la lista
 
-### Limpieza de los envíos que desea eliminar o reciclar {#cleanup-of-deliveries-to-be-deleted-or-recycled}
+### Limpieza de las entregas que desea eliminar o reciclar {#cleanup-of-deliveries-to-be-deleted-or-recycled}
 
 Esta tarea purga todos los envíos que desea eliminar o reciclar.
 
@@ -170,7 +172,7 @@ Esta tarea purga todos los envíos que desea eliminar o reciclar.
 
    donde **$(l)** es el identificador del envío.
 
-#### Envíos que utilizan intermediario {#deliveries-using-mid-sourcing}
+#### Entregas que utilizan intermediario {#deliveries-using-mid-sourcing}
 
 El flujo de trabajo **[!UICONTROL Database cleanup]** también elimina los envíos en los servidores de mid-sourcing.
 
@@ -376,7 +378,7 @@ Esta tarea purga cada instancia de flujo de trabajo utilizando su identificador 
    DROP TABLE wkf15487_12;
    ```
 
-### Limpieza de los inicios de sesión del flujo de trabajo {#cleanup-of-workflow-logins}
+### Limpieza de inicios de sesión en el flujo de trabajo {#cleanup-of-workflow-logins}
 
 Esta tarea elimina los inicios de sesión del flujo de trabajo mediante la siguiente consulta:
 
@@ -402,7 +404,7 @@ DELETE FROM NmsVisitor WHERE iVisitorId IN (SELECT iVisitorId FROM NmsVisitor WH
 
 donde **$(tsDate)** es la fecha del servidor actual, desde la cual restamos el periodo definido para la opción **NmsCleanup_VisitorPurgeDelay**.
 
-### Limpieza de NPAI {#cleanup-of-npai}
+### Limpieza de la NPAI {#cleanup-of-npai}
 
 Esta tarea permite eliminar registros que coinciden con direcciones válidas de la tabla **NmsAddress**. La siguiente consulta se utiliza para realizar la eliminación masiva:
 
@@ -613,7 +615,7 @@ A continuación, la tarea recupera los nombres de las tablas vinculadas al enlac
 
 Este flujo de trabajo de limpieza también elimina todas las entradas donde indisabled = 1 que no se hayan actualizado desde la hora establecida en la opción **NmsCleanup_AppSubscriptionRcpPurgeDelay**.
 
-### Limpieza de información de sesión {#cleansing-session-information}
+### Información de la sesión de limpieza {#cleansing-session-information}
 
 Esta tarea limpia la información de la tabla **sessionInfo**, se utiliza la siguiente consulta:
 
@@ -621,7 +623,7 @@ Esta tarea limpia la información de la tabla **sessionInfo**, se utiliza la sig
  DELETE FROM XtkSessionInfo WHERE tsexpiration < $(curdate) 
 ```
 
-### Limpiar eventos caducados {#cleansing-expired-events}
+### Limpieza de eventos caducados {#cleansing-expired-events}
 
 Esta tarea limpia los eventos recibidos y almacenados en las instancias de ejecución y los eventos archivados en una instancia de control.
 

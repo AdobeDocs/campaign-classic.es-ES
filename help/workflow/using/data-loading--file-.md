@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 100%
 
 ---
 
-# Carga de datos (archivos){#data-loading-file}
+# Carga de datos (archivo){#data-loading-file}
+
+![](../../assets/common.svg)
 
 ## Uso {#use}
 
@@ -88,7 +90,7 @@ El ejemplo siguiente permite recopilar un fichero en el servidor todos los días
 
    La pestaña **[!UICONTROL Directory]** contiene información sobre los archivos que se van a recuperar. En nuestro ejemplo, se recuperarán todos los ficheros con formato de texto cuyos nombres contengan la palabra “customers” y que se almacenen en el directorio tmp/Adobe/Data/files del servidor.
 
-   El uso de **[!UICONTROL File collector]** se detalla en la sección de [Recolector de archivos](../../workflow/using/file-collector.md).
+   El uso de **[!UICONTROL File collector]** se detalla en la sección de [Recolector de archivos](file-collector.md).
 
    ![](assets/s_advuser_load_file_sample_1.png)
 
@@ -100,7 +102,7 @@ El ejemplo siguiente permite recopilar un fichero en el servidor todos los días
 
    Para ello, haga clic en el botón **[!UICONTROL Change...]** situado en la sección inferior derecha de la herramienta de edición y configure la programación.
 
-   Para obtener más información, consulte [Programador](../../workflow/using/scheduler.md).
+   Para obtener más información, consulte [Programador](scheduler.md).
 
 1. A continuación, configure la actividad de carga de datos (archivos) para indicar cómo se deben leer los ficheros recopilados. Para esto, seleccione un fichero de muestra con la misma estructura que los ficheros que se van a cargar.
 
@@ -129,4 +131,4 @@ El ejemplo siguiente permite recopilar un fichero en el servidor todos los días
 
 1. A continuación, especifique los procesos que se van a realizar para cada tipo de población. En el ejemplo, vamos a **[!UICONTROL Update the data]** en la base de datos. Para esto, coloque una actividad **[!UICONTROL Update data]** al final de cada transición saliente desde la actividad de división.
 
-   La actividad **[!UICONTROL Update data]** se detalla en la sección [Actualización de datos](../../workflow/using/update-data.md).
+   La actividad **[!UICONTROL Update data]** se detalla en la sección [Actualización de datos](update-data.md).

@@ -6,14 +6,16 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: 61bb184e-affa-430c-8571-56e911cd5a3d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 100%
 
 ---
 
 # Resolución de problemas{#troubleshooting}
+
+![](../../assets/common.svg)
 
 En caso de error, debe asegurarse de que los siguientes elementos estén correctamente configurados:
 

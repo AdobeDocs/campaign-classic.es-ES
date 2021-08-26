@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '2442'
 ht-degree: 100%
 
 ---
 
 # Trabajo con paquetes de datos{#working-with-data-packages}
+
+![](../../assets/common.svg)
 
 ## Acerca de los paquetes de datos {#about-data-packages}
 

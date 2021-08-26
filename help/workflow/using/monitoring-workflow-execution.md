@@ -6,22 +6,24 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '2000'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '2016'
+ht-degree: 96%
 
 ---
 
 # Control de la ejecución del flujo de trabajo {#monitoring-workflow-execution}
 
+![](../../assets/common.svg)
+
 Esta sección presenta información sobre cómo monitorizar la ejecución de los flujos de trabajo.
 
-En [esta sección](../../workflow/using/supervising-workflows.md#supervising-workflows) está disponible un caso de uso que detalla la creación de un flujo de trabajo que permite monitorizar el estado de un conjunto de flujos de trabajo que están “en pausa”, “detenidos” o “con errores”.
+En [esta sección](supervising-workflows.md#supervising-workflows) está disponible un caso de uso que detalla la creación de un flujo de trabajo que permite monitorizar el estado de un conjunto de flujos de trabajo que están “en pausa”, “detenidos” o “con errores”.
 
-Además, los administradores de la instancia pueden utilizar **Audit trail** para comprobar las actividades y las últimas modificaciones realizadas en los flujos de trabajo, el estado de los mismos. Para obtener más información, consulte [la sección dedicada](../../production/using/audit-trail.md).
+Además, los administradores de la instancia pueden utilizar **Audit trail** para comprobar las actividades y las últimas modificaciones realizadas en los flujos de trabajo, el estado de los mismos. Para obtener más información, consulte la [Guía de producción de Campaign Classic v7](../../production/using/audit-trail.md).
 
-En [esta página](../../production/using/monitoring-guidelines.md) se presentan formas adicionales de monitorizar los diferentes procesos de Campaign.
+En la [Guía de producción de Campaign Classic v7](../../production/using/monitoring-guidelines.md) se presentan formas adicionales de monitorizar los diferentes procesos de Campaign.
 
 ## Visualización del progreso {#displaying-progress}
 
@@ -35,7 +37,7 @@ Cuando se selecciona esta opción, las actividades ejecutadas se muestran en azu
 
 ![](assets/s_user_segmentation_results.png)
 
-## Visualización de “logs”{#displaying-logs}
+## Visualización de “logs” {#displaying-logs}
 
 El “log” contiene el historial o la pista de auditoría del flujo de trabajo. Registra todas las acciones del usuario, todas las operaciones realizadas y los errores encontrados. Se puede:
 
@@ -93,9 +95,9 @@ El “log” muestra la lista de mensajes de ejecución relacionados con las act
 
       El “log” se muestra en una ventana independiente.
 
-## Depuración de “logs”{#purging-the-logs}
+## Depuración de “logs” {#purging-the-logs}
 
-El historial del flujo de trabajo no se purga automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede eliminar a través del menú **[!UICONTROL File > Actions]****[!UICONTROL Actions]** o haciendo clic en el botón ubicado en la barra de herramientas situada encima de la lista. Seleccione **[!UICONTROL Purge history]**. Las opciones disponibles en el menú **[!UICONTROL Actions]** se detallan en la sección [Barra de herramientas de acciones](../../workflow/using/starting-a-workflow.md).
+El historial del flujo de trabajo no se purga automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede eliminar a través del menú **[!UICONTROL File > Actions]****[!UICONTROL Actions]** o haciendo clic en el botón ubicado en la barra de herramientas situada encima de la lista. Seleccione **[!UICONTROL Purge history]**. Las opciones disponibles en el menú **[!UICONTROL Actions]** se detallan en la sección [Barra de herramientas de acciones](starting-a-workflow.md).
 
 ![](assets/purge_historique.png)
 
@@ -105,7 +107,7 @@ El flujo de trabajo transmite tablas de trabajo que se pueden manipular mediante
 
 También es posible crear vínculos entre diferentes dimensiones de trabajo y definir los cambios de dimensión. Por ejemplo, para cada contrato registrado en la base de datos, diríjase al titular principal y utilice los datos del copropietario en la información adicional.
 
-Las tablas de trabajo del flujo de trabajo se eliminan automáticamente cuando el flujo de trabajo se pasiva. Si desea mantener una tabla de trabajo, guárdela en una lista a través de la actividad **[!UICONTROL List update]** (consulte [Actualización de listas](../../workflow/using/list-update.md)).
+Las tablas de trabajo del flujo de trabajo se eliminan automáticamente cuando el flujo de trabajo se pasiva. Si desea mantener una tabla de trabajo, guárdela en una lista a través de la actividad **[!UICONTROL List update]** (consulte [Actualización de listas](list-update.md)).
 
 ## Gestión de errores {#managing-errors}
 
@@ -141,7 +143,7 @@ En este caso, se anula la tarea de error. Este modo es especialmente apropiado p
 >
 >Puede aplicar esta configuración individualmente para cada actividad. Para ello, edite las propiedades de la actividad y seleccione el modo de administración de errores en la pestaña **[!UICONTROL Advanced]**.
 
-Para obtener más información sobre la resolución de problemas de la ejecución de flujos de trabajo, consulte [la sección dedicada](../../production/using/workflow-execution.md).
+Para obtener más información sobre la resolución de problemas de ejecución de flujos de trabajo, consulte la [Guía de producción de Campaign Classic v7](../../production/using/workflow-execution.md).
 
 ## Procesamiento de errores {#processing-errors}
 
@@ -228,22 +230,22 @@ Tenga en cuenta que:
    logInfo("Workflow already running, parallel execution not allowed.");
    ```
 
-En esta sección se presenta un caso de uso: [Coordinación de las actualizaciones de datos](../../workflow/using/coordinating-data-updates.md).
+En esta sección se presenta un caso de uso: [Coordinación de las actualizaciones de datos](coordinating-data-updates.md).
 
 ## Mantenimiento de la base de datos {#database-maintenance}
 
 Los flujos de trabajo utilizan muchas tablas de trabajo que consumen espacio y terminan por ralentizar la plataforma completa si no se realiza un mantenimiento. Para obtener más información sobre el mantenimiento de la base de datos, consulte [esta sección](../../production/using/tables-to-maintain.md).
 
-El flujo de trabajo **Limpieza de la base de datos**, accesible a través del nodo **Administración, Producción, Flujos de trabajo técnicos**, permite eliminar datos obsoletos para evitar el crecimiento exponencial de la base de datos. El flujo de trabajo se activa automáticamente sin intervención del usuario. Consulte esta [sección](../../production/using/database-cleanup-workflow.md).
+El flujo de trabajo **Limpieza de la base de datos**, accesible a través del nodo **Administración, Producción, Flujos de trabajo técnicos**, permite eliminar datos obsoletos para evitar el crecimiento exponencial de la base de datos. El flujo de trabajo se activa automáticamente sin intervención del usuario. Consulte la [Guía de producción de Campaign Classic v7](../../production/using/database-cleanup-workflow.md).
 
-También puede crear flujos de trabajo técnicos específicos para depurar los datos innecesarios que consumen espacio. Consulte esta [sección](../../production/using/application-objects.md) y esta [página](#purging-the-logs).
+También puede crear flujos de trabajo técnicos específicos para depurar los datos innecesarios que consumen espacio. Consulte la [Guía de producción de Campaign Classic v7](../../production/using/application-objects.md) y esta [sección](#purging-the-logs).
 
 ## Gestión de los flujos de trabajo en pausa {#handling-of-paused-workflows}
 
 De forma predeterminada, si un flujo de trabajo está en pausa, sus tablas de trabajo nunca se depuran. Desde la versión 8880, los flujos de trabajo en estado pausado durante demasiado tiempo se detienen automáticamente y se depuran sus tablas de trabajo. Este comportamiento se activa de la siguiente manera:
 
 * Los flujos de trabajo que llevan en pausa durante más de 7 días aparecen como advertencia en el panel de monitorización (y la API de monitorización) y se envía una notificación al grupo del supervisor.
-* Lo mismo ocurre cada semana, cuando se activa el flujo de trabajo técnico **[!UICONTROL cleanupPausedWorkflows]**. Para obtener más información sobre los flujos de trabajo, consulte [esta sección](../../workflow/using/delivery.md).
+* Lo mismo ocurre cada semana, cuando se activa el flujo de trabajo técnico **[!UICONTROL cleanupPausedWorkflows]**. Para obtener más información sobre los flujos de trabajo, consulte [esta sección](delivery.md).
 * Después de 4 notificaciones (es decir, un mes en estado pausado, de forma predeterminada), el flujo de trabajo se detiene incondicionalmente. Aparece un “log” en el flujo de trabajo una vez que se ha detenido. Las tablas se depuran en el siguiente flujo de trabajo de ejecución **[!UICONTROL cleanup]**.
 
 Estos periodos se pueden configurar mediante la opción NmsServer_PausedWorkflowPeriod.
@@ -259,7 +261,7 @@ Estas son las opciones disponibles:
 * **[!UICONTROL Running]**: enumera todos los flujos de trabajo en ejecución.
 * **[!UICONTROL Paused]**: enumera todos los flujos de trabajo pausados.
 * **[!UICONTROL Failed]**: enumera todos los flujos de trabajo con errores.
-* **[!UICONTROL Start Pending]**: lista todos los flujos de trabajo que están a la espera de ser iniciados por el proceso operationMgt. Esta vista solo está disponible con el paquete **Campañas de marketing** (consulte [Instalación de paquetes integrados de Campaign](../../installation/using/installing-campaign-standard-packages.md)).
+* **[!UICONTROL Start Pending]**: lista todos los flujos de trabajo que están a la espera de ser iniciados por el proceso operationMgt. Esta vista solo está disponible con el paquete **Marketing campaign** . Obtenga más información en la [Guía de instalación de Campaign Classic v7](../../installation/using/installing-campaign-standard-packages.md)).
 
 ![](assets/workflow-monitoring-views.png)
 

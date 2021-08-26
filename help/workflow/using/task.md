@@ -6,20 +6,26 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: 8549bf8c-ba23-44cb-95f2-c50f2d0f5479
-source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: ht
-source-wordcount: '90'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 77%
 
 ---
 
 # Tarea{#task}
 
+![](../../assets/common.svg)
+
+>[!AVAILABILITY]
+>
+>:warning: Esta funcionalidad solo está disponible en Campaign Classic v7. [Más información](../../mrm/using/creating-and-managing-tasks.md)
+
 En un flujo de trabajo de campaña, la actividad **[!UICONTROL Task]** permite especificar dos situaciones: la primera si la tarea se completa y la segunda si la tarea no se completa (si se marca manualmente como incompleta o si caduca).
 
 ![](assets/mrm_task_in_workflow.png)
 
-En esta [sección](../../mrm/using/creating-and-managing-tasks.md) se explica cómo configurar y manejar una tarea.
+La configuración y el funcionamiento de una tarea se detallan en [Campaign Classic v7 documentation](../../mrm/using/creating-and-managing-tasks.md).
 
 ![](assets/wkf_task_activity.png)
 

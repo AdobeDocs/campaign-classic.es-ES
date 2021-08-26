@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: c7bff902-4f5d-4783-aec4-13561fa7d242
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '547'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '551'
+ht-degree: 98%
 
 ---
 
 # Propiedades del flujo de trabajo{#workflow-properties}
+
+![](../../assets/common.svg)
 
 ## Pestaña de ejecución {#execution-tab}
 
@@ -39,7 +41,7 @@ Esta sección solo aparece en los flujos de trabajo de la campaña.
 
    Si su instalación incluye varios servidores de flujo de trabajo, utilice este campo para elegir el equipo en el que desea ejecutar el flujo de trabajo. Si el valor introducido en este campo no existe en ningún servidor, el flujo de trabajo se mantiene pendiente.
 
-   Consulte esta [sección](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities).
+   Consulte esta [guía de instalación del Campaign Classic v7](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities).
 
 * **[!UICONTROL History in days]**
 

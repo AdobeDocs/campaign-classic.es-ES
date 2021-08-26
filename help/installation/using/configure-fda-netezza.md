@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: b148d34b-4060-4c54-9cb2-9e712a7c17d7
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 81%
@@ -15,12 +15,14 @@ ht-degree: 81%
 
 # Configuración del acceso a Netezza {#configure-access-to-netezza}
 
+![](../../assets/v7-only.svg)
+
 Utilice la opción [Federated Data Access](../../installation/using/about-fda.md) (FDA) de Campaign para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Netezza.
 
 1. Instale y configure [controladores de Netezza](#netezza-config)
 1. Configurar el Netezza [cuenta externa](#netezza-external) en Campaign
 
-## Configuración de netezza {#netezza-config}
+## Configuración del netezza {#netezza-config}
 
 La conexión a una base de datos externa de Netezza en FDA requiere ciertas configuraciones adicionales en el servidor de Adobe Campaign:
 

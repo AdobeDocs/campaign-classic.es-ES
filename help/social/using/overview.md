@@ -6,14 +6,16 @@ audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: 263e5ffe-9302-4823-a814-fdc955e3f90a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
 
 ---
 
 # Información general{#overview}
+
+![](../../assets/v7-only.svg)
 
 Social Marketing permite realizar envíos a las distintas páginas de Facebook y cuentas de Twitter, en lugar de a los perfiles de los destinatarios. En Facebook, el contenido de la entrega se muestra en forma de publicaciones en los muros de la página y también aparece en la fuente de noticias de todos los seguidores de la página. En Twitter, el contenido de la entrega se muestra como tweets y aparece en la página de inicio de los seguidores de la cuenta. También puede enviar mensajes directos a los seguidores de la cuenta que recopile.
 

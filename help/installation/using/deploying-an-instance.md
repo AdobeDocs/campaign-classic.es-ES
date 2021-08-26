@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '3048'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # Implementación de una instancia{#deploying-an-instance}
+
+![](../../assets/v7-only.svg)
 
 >[!NOTE]
 >
@@ -193,7 +195,7 @@ Para garantizar la eficacia del seguimiento en esta instancia, se debe mostrar l
 
    Si no especifica una dirección URL, la dirección URL de seguimiento se utilizará de forma predeterminada.
 
-Con la arquitectura intermediaria, puede externalizar la administración del seguimiento. Para ello:
+Con la arquitectura intermediaria, puede externalizar la administración del seguimiento. Para ello, haga lo siguiente:
 
 1. Seleccione la opción **[!UICONTROL Externalize tracking management]** : esto le permite utilizar un servidor de mid-sourcing como servidor de seguimiento.
 1. Rellene los campos **[!UICONTROL External account]** y **[!UICONTROL Instance name]** para poder conectarse al servidor de mid-sourcing.

@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1881'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # API orientadas a datos{#data-oriented-apis}
+
+![](../../assets/v7-only.svg)
 
 Las API orientadas a datos le permiten abordar todo el modelo de datos.
 
@@ -35,7 +37,7 @@ Para ver una presentación del modelo de datos, consulte la [Descripción del mo
 
 Para generar su estructura, consulte este artículo: [Cómo generar un modelo de datos o un diccionario de datos](https://helpx.adobe.com/campaign/kb/generate-data-model.html).
 
-## Consulta y escritor {#query-and-writer}
+## Consulta y Escritor {#query-and-writer}
 
 El esquema de introducción siguiente detalla los intercambios de bajo nivel para leer (ExecuteQuery) y escribir (Writer) entre la base de datos y el cliente (páginas web o consola del cliente de Adobe Campaign).
 
@@ -368,7 +370,7 @@ Esta sintaxis simplifica la consulta cuando se utilizan más de dos datos en la 
    </queryDef>
    ```
 
-#### Enlace de los parámetros de las cláusulas &#39;where&#39; y &#39;select&#39; {#binding-the-parameters-of-the--where--and--select--clause}
+#### Enlace de los parámetros de la cláusula &#39;where&#39; y &#39;select&#39; {#binding-the-parameters-of-the--where--and--select--clause}
 
 El enlace de parámetros permite que el motor establezca los valores de los parámetros utilizados en la consulta. Esto es muy útil, ya que el motor se encarga del escape de los valores y existe la ventaja adicional de una caché para que se recuperen los parámetros.
 
@@ -391,7 +393,7 @@ Para evitar enlazar un parámetro, el atributo &quot;noSqlBind&quot; debe rellen
 
 #### Sugerencia de creación de consultas: {#query-building-tip-}
 
-Para ayudar con la sintaxis de una consulta, puede escribir la consulta utilizando el editor de consultas genérico en la consola del cliente de Adobe Campaign (menú **[!UICONTROL Tools/ Generic query editor...]** ). Para ello:
+Para ayudar con la sintaxis de una consulta, puede escribir la consulta utilizando el editor de consultas genérico en la consola del cliente de Adobe Campaign (menú **[!UICONTROL Tools/ Generic query editor...]** ). Para ello, haga lo siguiente:
 
 1. Seleccione los datos que desea recuperar:
 

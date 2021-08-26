@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '2972'
 ht-degree: 100%
 
 ---
 
 # Cálculo de indicador {#indicator-calculation}
+
+![](../../assets/common.svg)
 
 ## Actividades del usuario {#user-activities-1}
 

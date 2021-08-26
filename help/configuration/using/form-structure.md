@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '2384'
 ht-degree: 4%
@@ -14,6 +14,8 @@ ht-degree: 4%
 ---
 
 # Estructura del formulario{#form-structure}
+
+![](../../assets/v7-only.svg)
 
 La descripción de un formulario es un documento XML estructurado que observa la gramática del esquema del formulario **xtk:form**.
 
@@ -160,7 +162,7 @@ Ejemplo con la adición de &quot;xpath&quot; al elemento llamado &quot;location&
 
 Los contenedores se utilizan para construir controles complejos utilizando un conjunto de campos formateados en páginas.
 
-#### Contenedor de pestañas {#tab-container}
+#### Contenedor de ficha {#tab-container}
 
 Un contenedor de pestañas da formato a los datos en páginas a las que se puede acceder desde las pestañas.
 
@@ -403,7 +405,7 @@ El atributo **xpathChoiceTarget** permite iniciar un formulario de selección a 
 * **xpathEditTarget**: establece la edición en el vínculo introducido
 * **xpathChoiceTarget**: además, inicia el formulario de selección en el vínculo introducido
 
-## Controles de lista de memoria {#memory-list-controls}
+## Controles de la lista de memoria {#memory-list-controls}
 
 Las listas de memoria permiten editar los elementos de colección utilizando la precarga de datos de lista. Esta lista no se puede filtrar ni configurar.
 
@@ -516,7 +518,7 @@ Una casilla de verificación refleja un estado booleano (seleccionado o no). De 
 
 ![](assets/d_ncs_integration_form_exemple20.png)
 
-## Editar jerarquía de navegación {#navigation-hierarchy-edit}
+## Edición de la jerarquía de navegación {#navigation-hierarchy-edit}
 
 Este control crea un árbol en un conjunto de campos que se van a editar.
 
@@ -537,7 +539,7 @@ Los controles que se van a editar se agrupan en una **`<container>`** introducid
 
 ![](assets/d_ncs_integration_form_exemple18.png)
 
-## Campo de expresión {#expression-field}
+## Campo Expresión {#expression-field}
 
 Un campo de expresión actualiza un campo dinámicamente desde una expresión; la etiqueta **`<input>`** se utiliza con un atributo **xpath** para introducir la ruta del campo que se va a actualizar y un atributo **expr** que contiene la expresión de actualización.
 

@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 100%
 
 ---
 
 # Definición de la población objetivo {#defining-the-target-population}
+
+![](../../assets/common.svg)
 
 ## Acerca de las poblaciones objetivo {#about-target-populations}
 

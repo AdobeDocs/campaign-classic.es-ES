@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 100%
 
 ---
 
 # Uso del contexto{#using-the-context}
+
+![](../../assets/common.svg)
 
 Si desea representar datos en forma de **[!UICONTROL tables]** o **[!UICONTROL charts]**, puede tomarlos de dos fuentes: una nueva consulta (consulte [Definición de un filtro directo en los datos](#defining-a-direct-filter-on-data)) o el contexto del informe (consulte [Uso de datos de contexto](#using-context-data)).
 

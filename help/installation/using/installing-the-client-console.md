@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 6%
@@ -14,6 +14,8 @@ ht-degree: 6%
 ---
 
 # Instalación y actualización de la consola del cliente de Campaign{#installing-the-client-console}
+
+![](../../assets/v7-only.svg)
 
 La consola del cliente de Campaign es un cliente enriquecido que le permite conectarse a sus servidores de aplicaciones de Campaign.
 
@@ -32,13 +34,13 @@ Consulte los detalles a continuación para comprender qué es lo que se requiere
 >
 >La consola del cliente de Campaign y el servidor de aplicaciones de Campaign deben ejecutar **en la misma versión del producto**. Adobe también recomienda encarecidamente utilizar la **misma compilación de producto**. Obtenga información sobre cómo comprobar las versiones de cliente y servidor de Campaign en [esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
-## Implementaciones alojadas en Adobe {#hosted-customers}
+## Adobe Implementaciones alojadas {#hosted-customers}
 
 Anuncio a un cliente alojado, tiene dos opciones para instalar o actualizar sus consolas de cliente:
 
 1. Adobe puede implementarse directamente. Una vez actualizada la consola, se pedirá a los usuarios que descarguen la última versión de la consola del cliente en una ventana emergente.
 
-1. Puede descargar en las consolas de cliente desde [Distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
+1. Puede descargar en las consolas de cliente desde [Distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html)
 
    **Los usuarios necesitarán acceso de administrador para completar la actualización. Si los usuarios no tienen derechos de administrador, un administrador del sistema deberá implementar en todas las consolas de cliente**
 
@@ -81,14 +83,14 @@ Si se ha seleccionado **[!UICONTROL No longer ask this question]**, puede restab
 >
 >Si está aplicando una consola actualizada a una implementación existente, los usuarios recibirán automáticamente un mensaje para actualizar su consola de cliente. Si va a implementar Campaign por primera vez, los usuarios deberán descargar la consola. Consulte a continuación los detalles sobre ambas opciones
 
-### Actualizar la consola para la implementación existente{#update-the-client-console}
+### Actualizar la consola para una implementación existente{#update-the-client-console}
 
 Una vez que la consola esté disponible en la carpeta del servidor de Campaign, se pedirá a los usuarios que descarguen la última versión de la consola del cliente en una ventana emergente.
 
 **Los usuarios necesitarán acceso de administrador para completar la actualización. Si los usuarios no tienen derechos de administrador, un administrador del sistema deberá implementar en todas las consolas de cliente**
 
 
-### Descargue la consola para una nueva implementación{#download-the-client-console}
+### Descargar la consola para una nueva implementación{#download-the-client-console}
 
 Los usuarios deben descargar e instalar la consola siguiendo los pasos a continuación:
 
@@ -124,7 +126,7 @@ Una vez instalada la consola del cliente, siga los pasos a continuación para cr
 
    Por ejemplo, puede utilizar la dirección URL de tipo [`https://<machine>.<domain>.com`](https://myserver.adobe.com) .
 
-1. Si IMS de Adobe está configurado para su organización, marque la opción **[!UICONTROL Connect with an Adobe ID]**
+1. Si Adobe IMS está configurado para su organización, marque la opción **[!UICONTROL Connect with an Adobe ID]**
 
 1. Haga clic en **[!UICONTROL Ok]** para guardar la configuración.
 

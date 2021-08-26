@@ -6,14 +6,16 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cb062cb2-dfea-46aa-8d9e-580e4dc7bb25
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%
 
 ---
 
 # Recomendación de una categoría{#recommending-a-category}
+
+![](../../assets/v7-only.svg)
 
 Puede ocurrir que un destinatario no se considere apto para todas las ofertas. Para asegurarse de que todos los destinatarios reciban una propuesta de oferta, es posible añadir de forma sistemática una o varias categorías de ofertas en las recomendaciones. A diferencia de las ofertas principales, estas ofertas de “copia de seguridad” deben tener una ponderación baja (pero no de cero), de modo que solo se tengan en cuenta si ninguna oferta de ponderación alta es elegible. Además, no debe haber ninguna regla de presentación aplicada a estas ofertas para asegurarse de que se incluyen siempre en las recomendaciones. Esto significa que, durante una propuesta, si no hay una oferta de ponderación alta disponible, el destinatario recibe como mínimo una oferta de esta categoría.
 

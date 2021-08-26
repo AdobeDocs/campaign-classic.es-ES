@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 2ece058d-b493-4fea-b3db-322cf7ea7f4f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 100%
 
 ---
 
 # Administración de enumeraciones{#managing-enumerations}
+
+![](../../assets/common.svg)
 
 Una enumeración (también conocida como “lista desglosada”) es una lista de valores sugeridos por el sistema para llenar ciertos campos. Las enumeraciones permiten estandarizar los valores de estos campos y ayudar con la entrada o el uso de los datos en las consultas.
 

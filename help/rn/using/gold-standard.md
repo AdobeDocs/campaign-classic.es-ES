@@ -2,18 +2,20 @@
 product: campaign
 title: Notas de la versión de [!DNL Gold Standard]
 description: Notas de la versión de Campaign Classic [!DNL Gold Standard]
-feature: Información general
+feature: Overview
 role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-source-git-commit: 550c4afc5cc77867b56d17565bef3f18b1df12a2
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1105'
 ht-degree: 91%
 
 ---
 
 # Notas de la versión de [!DNL Gold Standard]{#gold-standard}
+
+![](../../assets/v7-only.svg)
 
 Esta página enumera las versiones de [!DNL Gold Standard]. Obtenga más información acerca de Campaign [!DNL Gold Standard] [en esta página](gs-overview.md).
 
@@ -24,19 +26,18 @@ _14 de abril de 2021_
 La compilación 9032@d030c36 incluye la siguiente corrección:
 
 * Se ha corregido una regresión de la consola del cliente que provocaba mensajes de error persistentes en la pantalla de conexión IMS. (NEO-34821)
-* Esta compilación de la consola es necesaria para mantener [el acceso IMS](../../technotes/ims-updates.md).
+* Esta compilación de la consola es necesaria para mantener [el acceso IMS](../../technotes/using/ims-updates.md).
 
 **Solo es obligatorio actualizar la consola. No se requiere ninguna actualización del servidor.**
 
 >[!CAUTION]
 >
-> * Si se está conectando a Campaign con su Adobe ID, a través del servicio de Identity Management de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola del cliente para poder conectarse a Campaign después del **30 de junio de 2021**. [Más información](../../technotes/ims-updates.md)
+> * Si se está conectando a Campaign con su Adobe ID, a través del servicio de Identity Management de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola del cliente para poder conectarse a Campaign después del **30 de junio de 2021**. [Más información](../../technotes/using/ims-updates.md)
 > * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
 > * Si está utilizando la integración de Experience Cloud Triggers mediante autenticación oAuth, debe ir a Adobe I/O como se detalla [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación oAuth heredado con Campaign [se ha eliminado](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411) el **18 de agosto de 2021**. Los entornos alojados se benefician de una extensión hasta **30 de noviembre de 2021**. Como cliente local o híbrido, póngase en contacto con el servicio de atención al cliente de Adobe para ampliar la asistencia hasta el 30 de noviembre de 2021. Debe proporcionar [el AppID de la aplicación OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) al Adobe.
 
 >
->
-Obtenga más información en las Preguntas frecuentes sobre la actualización a [[!DNL Gold Standard] 11](https://helpx.adobe.com/es/campaign/kb/sms-connector-protocol-and-settings.html)
+>Obtenga más información en las Preguntas frecuentes sobre la actualización a [[!DNL Gold Standard] 11](https://helpx.adobe.com/es/campaign/kb/sms-connector-protocol-and-settings.html)
 
 _2 de marzo de 2021_
 
@@ -55,7 +56,7 @@ _22 de diciembre de 2020_
 <!--
 >[!CAUTION]
 >
-> * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**. [Learn more](../../technotes/ims-updates.md)
+> * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**. [Learn more](../../technotes/using/ims-updates.md)
 > * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
 > * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode with Campaign will be retired on **November 30, 2021**.
 >

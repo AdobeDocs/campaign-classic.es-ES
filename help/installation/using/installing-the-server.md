@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # Instalación del servidor{#installing-the-server}
+
+![](../../assets/v7-only.svg)
 
 ## Ejecución del programa de instalación {#executing-the-installation-program}
 
@@ -139,7 +141,7 @@ El servidor de Adobe Campaign define un inicio de sesión técnico llamado **int
 
 Obtenga más información en [esta sección](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
-## Inicio de los servicios de Adobe Campaign {#starting-adobe-campaign-services}
+## Inicio de servicios de Adobe Campaign {#starting-adobe-campaign-services}
 
 Para iniciar los servicios de Adobe Campaign, puede utilizar el administrador de servicios o introducir lo siguiente en la línea de comandos (con los derechos adecuados):
 

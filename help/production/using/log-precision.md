@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: c2470098-62f3-4fee-b1c5-800ed0e91f75
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # Precisión de registro{#log-precision}
+
+![](../../assets/v7-only.svg)
 
 Puede aplicar este proceso a todos los módulos de Adobe Campaign para aumentar la precisión de registro.
 
@@ -46,8 +48,8 @@ Adobe Campaign puede operar con dos niveles de registro:
    >[!NOTE]
    >
    >Si utiliza **tracefilter:***, se activan todos los tipos de registro: ncm, rdr, nms, jst, temporización, wdbc, ldap, soap, xtk, xtkquery, sesión, xtkwriter, red, pop3, inmail\
-   >Los tipos de registro más útiles son: **wdbc** (muestra todas las consultas SQL), **soap** (muestra todas las llamadas SOAP), **ldap** (muestra todas las consultas LDAP después de la autenticación), **xtkquery** (muestra la lista de todas las consultas).\
-   >Puede utilizarlos individualmente (**tracefilter:soap,wdbc** por ejemplo). También puede activarlos todos y elegir excluir algunos otros: **-tracefilter:*,!soap**
+   Los tipos de registro más útiles son: **wdbc** (muestra todas las consultas SQL), **soap** (muestra todas las llamadas SOAP), **ldap** (muestra todas las consultas LDAP después de la autenticación), **xtkquery** (muestra la lista de todas las consultas).\
+   Puede utilizarlos individualmente (**tracefilter:soap,wdbc** por ejemplo). También puede activarlos todos y elegir excluir algunos otros: **-tracefilter:*,!soap**
 
    Compruebe que el error se haya producido realmente y, a continuación, reinicie el proceso de la forma normal:
 
@@ -56,8 +58,7 @@ Adobe Campaign puede operar con dos niveles de registro:
    ```
 
 >[!IMPORTANT]
->
->Los registros de estos comandos se almacenan en el archivo de registro del módulo.
+Los registros de estos comandos se almacenan en el archivo de registro del módulo.
 
 Este es un ejemplo específico del módulo web. Los demás módulos funcionan como se ha indicado anteriormente.
 
@@ -80,13 +81,11 @@ nlserver stop mta@<INSTANCE_NAME>; nlserver mta -instance:<INSTANCE_NAME> -trace
 ```
 
 >[!NOTE]
->
->El modo **Tracefile** permite guardar los registros. En los ejemplos anteriores, los registros se guardan en los archivos **var/`<instance-name>`/mta_debug.log** y **var/default/web_debug.log**.
+El modo **Tracefile** permite guardar los registros. En los ejemplos anteriores, los registros se guardan en los archivos **var/`<instance-name>`/mta_debug.log** y **var/default/web_debug.log**.
 
 >[!IMPORTANT]
->
->En Windows, no agregue la opción LD_PRELOAD . El siguiente comando es suficiente:\
->nlserver web -tomcat -verbose -tracefilter:*
+En Windows, no agregue la opción LD_PRELOAD . El siguiente comando es suficiente:\
+nlserver web -tomcat -verbose -tracefilter:*
 
 Compruebe que el problema vuelva a ocurrir y, a continuación, reinicie el módulo:
 

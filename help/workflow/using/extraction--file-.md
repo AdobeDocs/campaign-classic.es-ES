@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 06eafedd-6386-498f-a80d-7f57ddcccad6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 100%
 
 ---
 
 # Extracción de datos (archivo){#extraction-file}
+
+![](../../assets/common.svg)
 
 Puede extraer datos de una tabla de flujo de trabajo en un archivo externo mediante la actividad **[!UICONTROL Data extraction (file)]**.
 
@@ -48,7 +50,7 @@ Para configurar la extracción de datos, siga estos pasos:
 
 Puede definir un proceso posterior que se va a ejecutar durante la extracción de datos, permitiéndole comprimir o cifrar los archivos. Para ello, se debe agregar el comando deseado en la pestaña **[!UICONTROL Script]** de la actividad.
 
-Para obtener más información, consulte esta sección: [Descompresión o desencriptado de un archivo](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
+Para obtener más información, consulte esta sección: [Descompresión o desencriptado de un archivo](how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
 
 ![](assets/postprocessing_dataextraction.png)
 

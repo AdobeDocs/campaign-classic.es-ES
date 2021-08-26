@@ -6,14 +6,16 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: 2e29d090-b87b-4cff-a703-58e1da082f04
-source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 100%
 
 ---
 
 # Integración con Adobe Target{#integrating-with-adobe-target}
+
+![](../../assets/common.svg)
 
 La integración entre Adobe Campaign y Adobe Target (Classic y Standard) en Adobe Experience Cloud le permite incluir una oferta de Adobe Target en una entrega por correo electrónico de Adobe Campaign.
 

@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 100%
 
 ---
 
 # Creación de una lista de resumen{#creating-a-summary-list}
+
+![](../../assets/common.svg)
 
 Este caso de uso detalla la creación de un flujo de trabajo que, después de recopilar archivos y luego de varios enriquecimientos, permite crear una lista de resumen. El ejemplo se basa en una lista de contactos que realizaron compras en una tienda.
 
@@ -92,7 +94,7 @@ Agregue la actividad Enrichment y configúrela como se indica a continuación:
 
    ![](assets/uc2_enrich_enrich3.png)
 
-Para obtener más información sobre los distintos tipos de vínculos, consulte [Enriquecimiento y modificación de datos](../../workflow/using/targeting-data.md#enriching-and-modifying-data).
+Para obtener más información sobre los distintos tipos de vínculos, consulte [Enriquecimiento y modificación de datos](targeting-data.md#enriching-and-modifying-data).
 
 En la siguiente ventana, se debe crear una condición de unión seleccionando el campo de origen (en el conjunto principal) y el campo de objetivo (perteneciente al esquema “Stores”) para configurar la conciliación de datos.
 

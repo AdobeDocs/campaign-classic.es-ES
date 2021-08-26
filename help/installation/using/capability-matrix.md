@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 38%
@@ -14,6 +14,8 @@ ht-degree: 38%
 ---
 
 # Matriz de capacidades por modelo{#capability-matrix-per-model}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign Classic incluye un conjunto de módulos y opciones. La disponibilidad de estos módulos y su uso pueden depender del tipo de implementación de la instalación. Este artículo comparte algunos detalles sobre las principales diferencias para ciertas funciones entre implementaciones totalmente alojadas (Managed Services) y locales.
 
@@ -25,23 +27,23 @@ Los diferentes modelos de alojamiento se presentan [en esta sección](../../inst
 
 | Capacidad | Alojado | Híbrido | On-Premise | Detalles |
 |-----------------------------------------------|------------------|-----------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Configuración del servidor de Campaign | Bajo demanda | Disponible | Disponible | [Obtenga más información](../../installation/using/the-server-configuration-file.md) |
-| Correo electrónico CCO | Bajo demanda | Bajo demanda | Disponible | [Obtenga más información](../../installation/using/email-archiving.md) |
-| Administrar instancia de ejecución del centro de mensajes | Bajo demanda | Bajo demanda | Disponible | [Obtenga más información](../../message-center/using/about-transactional-messaging.md) |
-| Administración de la plataforma intermediaria | Bajo demanda | Bajo demanda | Disponible | [Obtenga más información](../../installation/using/mid-sourcing-server.md) |
-| Renderización de la bandeja de entrada mediante Litmus | Bajo demanda | Bajo demanda | Disponible | [Obtenga más información](../../delivery/using/inbox-rendering.md) |
-| Integración con IMS (Adobe ID) | Bajo demanda | Bajo demanda | Bajo demanda | [Obtenga más información](../../integrations/using/about-adobe-id.md) |
-| Cifrar/descifrar datos para transferencias de archivos | Bajo demanda | Disponible | Disponible | [Obtenga más información](../../platform/using/unzip-decrypt.md) |
-| Comprimir/descomprimir archivos | Bajo demanda | Disponible | Disponible | [Obtenga más información](../../platform/using/unzip-decrypt.md) |
-| Delegación de nombres de dominio | Bajo demanda | Bajo demanda | No disponible | [Obtenga más información](https://helpx.adobe.com/es/campaign/kb/domain-name-delegation.html) |
-| Instalación de SpamAssassin | Bajo demanda | Disponible | Disponible | [Obtenga más información](../../delivery/using/spamassassin.md) |
-| Acceso a los informes de capacidad de envío | Disponible | Bajo demanda | Disponible | [Obtenga más información](../../delivery/using/monitoring-deliverability.md) |
-| Configuración de la autenticación LDAP | No disponible | Disponible | Disponible | [Obtenga más información](../../installation/using/connecting-through-ldap.md) |
+| Configuración del servidor de Campaign | Bajo demanda | Disponible | Disponible | [Más información](../../installation/using/the-server-configuration-file.md) |
+| CCO del correo electrónico | Bajo demanda | Bajo demanda | Disponible | [Más información](../../installation/using/email-archiving.md) |
+| Administrar instancia de ejecución del centro de mensajes | Bajo demanda | Bajo demanda | Disponible | [Más información](../../message-center/using/about-transactional-messaging.md) |
+| Administración de la plataforma intermediaria | Bajo demanda | Bajo demanda | Disponible | [Más información](../../installation/using/mid-sourcing-server.md) |
+| Renderización de la bandeja de entrada mediante Litmus | Bajo demanda | Bajo demanda | Disponible | [Más información](../../delivery/using/inbox-rendering.md) |
+| Integración con IMS (Adobe ID) | Bajo demanda | Bajo demanda | Bajo demanda | [Más información](../../integrations/using/about-adobe-id.md) |
+| Cifrar/descifrar datos para transferencias de archivos | Bajo demanda | Disponible | Disponible | [Más información](../../platform/using/unzip-decrypt.md) |
+| Comprimir/descomprimir archivos | Bajo demanda | Disponible | Disponible | [Más información](../../platform/using/unzip-decrypt.md) |
+| Delegación de nombres de dominio | Bajo demanda | Bajo demanda | No disponible | [Más información](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=es) |
+| Instalación de SpamAssassin | Bajo demanda | Disponible | Disponible | [Más información](../../delivery/using/spamassassin.md) |
+| Acceso a los informes de capacidad de envío | Disponible | Bajo demanda | Disponible | [Más información](../../delivery/using/monitoring-deliverability.md) |
+| Configuración de la autenticación LDAP | No disponible | Disponible | Disponible | [Más información](../../installation/using/connecting-through-ldap.md) |
 
 
 ## Acceso de datos federado{#fda}
 
-Adobe Campaign proporciona la opción **Acceso de Datos Federados** (FDA) para procesar la información almacenada en una o más bases de datos externas: puede acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign. [Obtenga más información](../../installation/using/about-fda.md)
+Adobe Campaign proporciona la opción **Acceso de Datos Federados** (FDA) para procesar la información almacenada en una o más bases de datos externas: puede acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign. [Más información](../../installation/using/about-fda.md)
 
 >[!CAUTION]
 >

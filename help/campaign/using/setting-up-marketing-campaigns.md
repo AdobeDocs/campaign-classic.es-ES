@@ -6,14 +6,16 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 100%
 
 ---
 
 # Introducción a las campañas de marketing{#setting-up-marketing-campaigns}
+
+![](../../assets/common.svg)
 
 Las campañas incluyen acciones (envíos) y procesos (importación o extracción de archivos), así como recursos (documentos de marketing, descripciones de envíos). Todos ellos se utilizan en las campañas de marketing. Las campañas son parte de un programa y los programas se incluyen en un plan de campaña.
 
@@ -55,7 +57,7 @@ Para configurar la jerarquía de carpetas para planes y programas de marketing:
 1. Haga clic con el botón derecho del ratón en el plan recién creado y seleccione **Create a new “Program” folder**.
 1. Repita los pasos anteriores para cambiar el nombre de la nueva carpeta del programa y su nombre interno.
 
-## Creación de una campaña {#creating-a-campaign}
+## Cree una campaña {#creating-a-campaign}
 
 ### Adición de una campaña {#adding-a-campaign}
 

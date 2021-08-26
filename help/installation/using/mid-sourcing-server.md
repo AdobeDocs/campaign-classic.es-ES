@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # Servidor intermediario{#mid-sourcing-server}
+
+![](../../assets/v7-only.svg)
 
 Esta sección detalla la instalación y configuración de un servidor intermediario, así como la implementación de una instancia que permite a terceros enviar mensajes en modo **mid-sourcing**.
 
@@ -96,7 +98,7 @@ Desde la consola del cliente, busque el **Email routing using mid-sourcing** mid
 
    La opción **Mid-sourcing platform** crea las carpetas predeterminadas para almacenar los envíos enviados y el operador predeterminado que realiza los envíos.
 
-## Multiplexación del servidor de mid-sourcing {#multiplexing-the-mid-sourcing-server}
+## Multiplexación del servidor intermediario {#multiplexing-the-mid-sourcing-server}
 
 >[!CAUTION]
 >
@@ -139,7 +141,7 @@ El atributo &#39;@name&#39; debe respetar las siguientes reglas:
 
 &#39;affinity_group&#39; hace referencia a la subafinidad declarada en la asignación de destino utilizada en cada una de las entregas. La última parte que incluye el se ignora si no hay subafinidad. Los caracteres autorizados son `[a-z]``[A-Z]``[0-9]`.
 
-Debe detener y luego reiniciar el servidor para que se tenga en cuenta la modificación.
+Debe detener y, a continuación, reiniciar el servidor para que se tenga en cuenta la modificación.
 
 ## Configuración del seguimiento en un servidor intermediario {#configuring-tracking-on-a-mid-sourcing-server}
 

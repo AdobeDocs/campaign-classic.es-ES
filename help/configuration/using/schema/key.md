@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 3d0ef574-27a3-40f2-91a0-70e9583d9980
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # elemento clave {#key--element}
+
+![](../../../assets/v7-only.svg)
 
 ## Modelo de contenido {#content-model-8}
 
@@ -28,7 +30,7 @@ key:==keyfield
 * @name (MNTOKEN)
 * @noDbIndex (booleano)
 
-## Padres {#parents-8}
+## Principales {#parents-8}
 
 `<element>`
 
@@ -52,7 +54,7 @@ Si el elemento principal del esquema contiene el atributo &quot;@autopk=true&quo
 
 Los primeros 1000 identificadores están reservados, por lo que si es necesario definir un intervalo de valores para las claves, comience por 1000.
 
-## Descripción de atributo {#attribute-description-8}
+## Descripción del atributo {#attribute-description-8}
 
 * **allowEmptyPart (booleano)**: en el caso de una clave compuesta, si este atributo está activado, la clave se considera válida si al menos una de sus claves no está vacía. Si este es el caso, el valor de noción vacío es &quot;0&quot; (booleano o para todos los tipos de datos numéricos). De forma predeterminada, es necesario introducir todas las claves que componen una clave compuesta.
 * **applyIf (cadena)**: este atributo permite hacer que la clave sea opcional. Define la condición según la cual se aplicará la definición de clave. Este atributo recibe una expresión XTK.

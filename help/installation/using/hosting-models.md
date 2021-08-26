@@ -2,18 +2,20 @@
 product: campaign
 title: Modelos de alojamiento
 description: Descubra los modelos de alojamiento de Campaign
-feature: Información general
+feature: Overview
 role: Architect
 level: Beginner
 exl-id: a06b1365-d487-4df1-8f4a-7268b871a427
-source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '623'
 ht-degree: 2%
 
 ---
 
 # Modelos de alojamiento{#hosting-models}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign ofrece una selección de tres modelos de alojamiento, lo que proporciona flexibilidad y libertad para elegir el mejor modelo o modelos para adaptarse a las necesidades comerciales.
 

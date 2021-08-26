@@ -6,14 +6,16 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
-source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '702'
 ht-degree: 100%
 
 ---
 
 # Definición de la secuenciación de la página de formularios web{#defining-web-forms-page-sequencing}
+
+![](../../assets/common.svg)
 
 El formulario puede contener una o más páginas. Se crea mediante un diagrama que permite secuenciar las páginas y las pruebas, la ejecución de scripts, los saltos de página y los pasos de registro. El modo del diseño del diagrama global es el mismo que para un flujo de trabajo de la campaña.
 

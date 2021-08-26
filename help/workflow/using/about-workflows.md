@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: introduction
 exl-id: 51be6b90-2a7a-4757-9754-d16c540a87ff
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 100%
 
 ---
 
-# Introducción a flujos de trabajo{#gs-workflows}
+# Introducción a los flujos de trabajo{#gs-workflows}
+
+![](../../assets/common.svg)
 
 ## Acerca de los flujos de trabajo{#about-workflows}
 
@@ -27,9 +29,9 @@ Los flujos de trabajo se producen en varios contextos y etapas del proceso de ad
 
 Adobe Campaign utiliza flujos de trabajo para:
 
-* Llevar a cabo las campañas de objetivos. [Más información](../../workflow/using/building-a-workflow.md#implementation-steps-)
-* Generar campañas: para cada campaña, la pestaña **[!UICONTROL Workflow]** permite crear el objetivo y las entregas. [Más información](../../workflow/using/building-a-workflow.md#campaign-workflows)
-* Realizar procesos técnicos: limpieza, recopilación de información de seguimiento o cálculos provisionales. [Más información](../../workflow/using/building-a-workflow.md#technical-workflows)
+* Llevar a cabo las campañas de objetivos. [Más información](building-a-workflow.md#implementation-steps-)
+* Generar campañas: para cada campaña, la pestaña **[!UICONTROL Workflow]** permite crear el objetivo y las entregas. [Más información](building-a-workflow.md#campaign-workflows)
+* Realizar procesos técnicos: limpieza, recopilación de información de seguimiento o cálculos provisionales. [Más información](building-a-workflow.md#technical-workflows)
 
 Un flujo de trabajo puede significar una definición de proceso (el modelo de flujo de trabajo, que es una representación de lo que se supone que debe ocurrir) y una instancia de este proceso (una instancia de flujo de trabajo, que es una representación de lo que realmente sucede).
 
@@ -45,7 +47,7 @@ Cada flujo de trabajo contiene:
 
    En un diagrama de flujo de trabajo, una actividad determinada puede producir varias tareas, en particular cuando hay un bucle o una acción recurrente (periódica).
 
-   Todas las actividades de flujo de trabajo se enumeran en [esta sección](../../workflow/using/about-activities.md), incluidos los ejemplos de uso y las muestras.
+   Todas las actividades de flujo de trabajo se enumeran en [esta sección](about-activities.md), incluidos los ejemplos de uso y las muestras.
 
 * **[!UICONTROL Transitions]**
 
@@ -57,22 +59,22 @@ Cada flujo de trabajo contiene:
    >
    >Se puede ejecutar igualmente un flujo de trabajo que contenga transiciones no finalizadas: se genera un mensaje de advertencia y el flujo de trabajo se pausa una vez que llega a la transición, pero no genera un error. Por lo tanto, es posible iniciar un flujo de trabajo sin que haya terminado y añadirlo a medida que avanza
 
-   Para obtener más información sobre la creación de flujos de trabajo, consulte [esta sección](../../workflow/using/building-a-workflow.md).
+   Para obtener más información sobre la creación de flujos de trabajo, consulte [esta sección](building-a-workflow.md).
 
 * **[!UICONTROL Worktables]**
 
    La tabla de trabajo contiene toda la información que transmite la transición. Cada flujo de trabajo utiliza varias tablas de trabajo. Los datos transmitidos en estas tablas pueden acelerarse y utilizarse en todo el ciclo de vida del flujo de trabajo, siempre y cuando no se depure. De hecho, las tablas innecesarias se depuran cada vez que se desactiva el flujo de trabajo y posiblemente durante la ejecución de los flujos de trabajo más grandes para evitar sobrecargar el servidor.
 
-   Para obtener más información sobre los datos y las tablas de flujos de trabajo, consulte [esta sección](../../workflow/using/how-to-use-workflow-data.md).
+   Para obtener más información sobre los datos y las tablas de flujos de trabajo, consulte [esta sección](how-to-use-workflow-data.md).
 
 ## Principios fundamentales y prácticas recomendadas{#principles-workflows}
 
 Consulte estas secciones para ver instrucciones y prácticas recomendadas para automatizar procesos con flujos de trabajo:
 
-* Obtenga más información sobre las actividades de flujo de trabajo en [esta página](../../workflow/using/how-to-use-workflow-data.md).
-* Obtenga información sobre cómo crear un flujo de trabajo en [esta sección](../../workflow/using/building-a-workflow.md).
+* Obtenga más información sobre las actividades de flujo de trabajo en [esta página](how-to-use-workflow-data.md).
+* Obtenga información sobre cómo crear un flujo de trabajo en [esta sección](building-a-workflow.md).
 * Descubra cómo utilizar flujos de trabajo para importar datos en Campaign en [esta sección](../../platform/using/import-export-workflows.md).
-* Las prácticas recomendadas sobre los flujos de trabajo se detallan en [esta página](../../workflow/using/workflow-best-practices.md).
-* Encontrará instrucciones sobre la ejecución de flujos de trabajo en [esta sección](../../workflow/using/starting-a-workflow.md).
-* Obtenga información sobre cómo monitorizar flujos de trabajo en [esta página](../../workflow/using/monitoring-workflow-execution.md).
-* Obtenga información sobre cómo conceder acceso a los usuarios para que utilicen flujos de trabajo en [esta página](../../workflow/using/managing-rights.md).
+* Las prácticas recomendadas sobre los flujos de trabajo se detallan en [esta página](workflow-best-practices.md).
+* Encontrará instrucciones sobre la ejecución de flujos de trabajo en [esta sección](starting-a-workflow.md).
+* Obtenga información sobre cómo monitorizar flujos de trabajo en [esta página](monitoring-workflow-execution.md).
+* Obtenga información sobre cómo conceder acceso a los usuarios para que utilicen flujos de trabajo en [esta página](managing-rights.md).

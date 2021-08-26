@@ -6,14 +6,16 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
-source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 100%
 
 ---
 
 # Creación de una página de destino{#creating-a-landing-page}
+
+![](../../assets/common.svg)
 
 ## Acerca de la creación de páginas de destino {#about-landing-pages-creation}
 

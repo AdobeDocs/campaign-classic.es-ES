@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '2744'
 ht-degree: 100%
 
 ---
 
 # Solución de problemas de SMS {#troubleshooting-sms}
+
+![](../../assets/common.svg)
 
 ## Conflicto entre diferentes cuentas externas {#external-account-conflict}
 

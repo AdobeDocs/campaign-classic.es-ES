@@ -6,8 +6,8 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 1d55f42b-64bf-4b1f-a317-c1f7456aa5b3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 100%
 
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # Publicación de plantillas de mensaje {#publishing-template-messages}
 
-## Publicación de plantillas {#template-publication}
+![](../../assets/v7-only.svg)
+
+## Publicación de una plantilla {#template-publication}
 
 Cuando la [plantilla de mensaje](../../message-center/using/creating-the-message-template.md) creada en la instancia de control esté completa, y una vez que la haya [probado](../../message-center/using/testing-message-templates.md), puede publicarla. Este proceso también lo publicará en todas las instancias de ejecución.
 

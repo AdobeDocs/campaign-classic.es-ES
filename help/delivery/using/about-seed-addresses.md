@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 100%
 
 ---
 
 # Sobre las direcciones semilla{#about-seed-addresses}
+
+![](../../assets/common.svg)
 
 Las direcciones semilla se utilizan para dirigirse a los destinatarios que no coinciden con los criterios de destino definidos. De este modo, los destinatarios que estén fuera del alcance de la entrega pueden recibirlo como lo haría cualquier otro destinatario.
 
@@ -46,5 +48,4 @@ En las entregas por correo postal, las direcciones semilla se añaden durante la
 >* No se debe utilizar la opción **[!UICONTROL Handle groupings (GROUP BY+HAVING)]**.
 >* Si se extraen colecciones de datos, estos campos deben tener un valor vacío para las direcciones semilla, a menos que se seleccione la opción **[!UICONTROL Single row (expert user)]**. Para obtener más información, consulte [esta sección](../../platform/using/executing-export-jobs.md#step-7---data-formatting).
 >
-
 

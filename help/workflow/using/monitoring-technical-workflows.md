@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 100%
 
 ---
 
 # Monitorización de flujos de trabajo técnicos {#monitoring-technical-workflows}
+
+![](../../assets/common.svg)
 
 Es necesario supervisar los flujos de trabajo técnicos, y deben tomarse medidas cuando se producen errores.
 
@@ -37,26 +39,26 @@ Los flujos de trabajo técnicos están disponibles en **[!UICONTROL Technical wo
 
 Dependiendo del flujo de trabajo técnico, siga los pasos detallados a continuación para asegurarse de que todo funciona correctamente.
 
-Para comprender mejor qué debe hacer cada flujo de trabajo técnico, consulte esta [sección](../../workflow/using/about-technical-workflows.md).
+Para comprender mejor qué debe hacer cada flujo de trabajo técnico, consulte esta [sección](about-technical-workflows.md).
 
 En el caso de **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
 
-1. Compruebe que el flujo de trabajo **[!UICONTROL Database Cleanup]** se ejecuta y finaliza correctamente todos los días. Para obtener más información, consulte [esta página](../../workflow/using/delivery.md).
+1. Compruebe que el flujo de trabajo **[!UICONTROL Database Cleanup]** se ejecuta y finaliza correctamente todos los días. Para obtener más información, consulte [esta página](delivery.md).
 1. Observe el historial para verificar que el tiempo transcurrido es relativamente constante en el tiempo y no interfiere con otros flujos de trabajo.
 1. Para obtener más información, consulte esta [página](../../production/using/database-cleanup-workflow.md).
 
 En el caso de **[!UICONTROL Tracking workflow (‘tracking’)]**:
 
-Compruebe que el flujo de trabajo de seguimiento se ejecute como está planificado (cada hora de forma predeterminada) y que el historial no destaque errores recurrentes. Para obtener más información, consulte [esta sección](../../workflow/using/delivery.md).
+Compruebe que el flujo de trabajo de seguimiento se ejecute como está planificado (cada hora de forma predeterminada) y que el historial no destaque errores recurrentes. Para obtener más información, consulte [esta sección](delivery.md).
 
 En el caso de **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]**:
 
-1. Compruebe que el flujo de trabajo **[!UICONTROL Deliverability update]** se ejecuta y finaliza correctamente todos los días. Para obtener más información, consulte [esta página](../../workflow/using/delivery.md).
+1. Compruebe que el flujo de trabajo **[!UICONTROL Deliverability update]** se ejecuta y finaliza correctamente todos los días. Para obtener más información, consulte [esta página](delivery.md).
 1. Compruebe en el historial que las reglas se actualizan periódicamente.
 
 En el caso de **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**:
 
-1. Observe todos los flujos de trabajo ubicados en la carpeta **[!UICONTROL Campaign process]**. Para obtener más información, consulte [esta página](../../workflow/using/about-technical-workflows.md).
+1. Observe todos los flujos de trabajo ubicados en la carpeta **[!UICONTROL Campaign process]**. Para obtener más información, consulte [esta página](about-technical-workflows.md).
 1. Compruebe que los flujos de trabajo se ejecutan como está planificado y que el historial no destaca errores recurrentes.
 
 ## Monitorización del flujo de trabajo {#workflow-supervision}

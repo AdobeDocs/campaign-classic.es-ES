@@ -6,8 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: introduction
 exl-id: 900dd30e-d4fb-452a-af3f-ae00758b0077
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 100%
 
@@ -15,16 +15,18 @@ ht-degree: 100%
 
 # Acerca de las actividades{#about-activities}
 
+![](../../assets/common.svg)
+
 Esta sección describe todas las actividades disponibles. Según el nodo o el contexto en el que se haya creado o editado el flujo de trabajo, las actividades disponibles pueden variar. Por ejemplo, los flujos de trabajo creados en una campaña tienen actividades de envío específicas del canal.
 
 Las actividades de flujo de trabajo se agrupan por categoría. Hay cuatro pestañas disponibles al mismo tiempo.
 
-En los flujos de trabajo de campaña, la actividad **[!UICONTROL Events]** se ha sustituido por la pestaña **[!UICONTROL Deliveries]**. Las actividades de esta pestaña se describen en la sección [Actividades de acción](../../workflow/using/about-action-activities.md).
+En los flujos de trabajo de campaña, la actividad **[!UICONTROL Events]** se ha sustituido por la pestaña **[!UICONTROL Deliveries]**. Las actividades de esta pestaña se describen en la sección [Actividades de acción](about-action-activities.md).
 
 ![](assets/wf-activity-tabs.png)
 
 Más información:
 
-* [Acerca de las actividades de direccionamiento](../../workflow/using/about-targeting-activities.md)
-* [Ejecución de un flujo de trabajo](../../workflow/using/starting-a-workflow.md)
-* [Prácticas recomendadas con flujos de trabajo](../../workflow/using/workflow-best-practices.md)
+* [Acerca de las actividades de direccionamiento](about-targeting-activities.md)
+* [Ejecución de un flujo de trabajo](starting-a-workflow.md)
+* [Prácticas recomendadas con flujos de trabajo](workflow-best-practices.md)

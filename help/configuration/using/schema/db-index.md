@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: d7d1e427-12e0-4f07-9e01-d184dbe2ebf1
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # elemento dbindex {#dbindex--element}
+
+![](../../../assets/v7-only.svg)
 
 ## Modelo de contenido {#content-model-3}
 
@@ -27,7 +29,7 @@ dbindex:==keyfield
 * @name (MNTOKEN)
 * @unique (booleano)
 
-## Padres {#parents-3}
+## Principales {#parents-3}
 
 `<element>`
 
@@ -47,7 +49,7 @@ El orden de los `<keyfield>` elementos definidos en un `<dbindex>` es muy import
 
 El nombre del índice en la base de datos se calcula concatenando el nombre de la tabla y el nombre del índice. Por ejemplo: Nombre de tabla &quot;Ejemplo&quot;, Área de nombres &quot;Cus&quot;, nombre de índice &quot;MyIndex&quot;-> nombre del campo de índice durante la consulta de creación de índice: &quot;CusSample_myIndex&quot;.
 
-## Descripción de atributo {#attribute-description-3}
+## Descripción del atributo {#attribute-description-3}
 
 * **_operation (cadena)**: define el tipo de escritura en la base de datos.
 

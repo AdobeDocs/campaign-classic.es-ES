@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: fe69efda-a052-4f67-9c13-665f011d0a2b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 11%
@@ -14,6 +14,8 @@ ht-degree: 11%
 ---
 
 # Problemas de rendimiento y producción{#performance-and-throughput-issues}
+
+![](../../assets/v7-only.svg)
 
 En primer lugar, debe comprobar que tiene instalada la última compilación. Esto garantiza que dispone de las últimas funciones y correcciones de errores.
 
@@ -31,7 +33,7 @@ El equipo de consultoría puede proporcionar a los clientes alojados una herrami
 
 Adobe Campaign también proporciona una [herramienta](../../production/using/monitoring-processes.md#manual-monitoring) para comprobar el uso de la CPU y la RAM. Utilice esta herramienta y observe indicadores específicos como: **Memoria**, **Intercambiar memoria**, **Disco**, **Procesos activos**. Si los valores son demasiado altos, puede intentar reducir el número de flujos de trabajo o programar flujos de trabajo para que se inicien en momentos diferentes.
 
-## Comprobación de la base de datos {#database-performances}
+## Comprobación de base de datos {#database-performances}
 
 La mayoría de las veces, los problemas de rendimiento están vinculados al mantenimiento de la base de datos. Estos son los elementos principales para comprobar:
 
@@ -52,7 +54,7 @@ A continuación se muestra una lista de artículos relacionados con las práctic
 * Configuración de TLS: no se recomienda habilitar TLS globalmente porque puede reducir el rendimiento. En su lugar, la configuración de TLS por dominio, administrada por el equipo de entrega, debe ajustarse según las necesidades. Consulte esta [página](../../installation/using/email-deliverability.md#mx-configuration) para obtener más información.
 * DKIM: para asegurar el nivel de seguridad del DKIM, el tamaño de cifrado recomendado es 1024b. La mayoría de los proveedores de acceso no consideran válidas las claves DKIM menores. Consulte [esta página](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#authentication).
 
-## Problemas con entregas {#deliverability-issues}
+## Problemas de entregas {#deliverability-issues}
 
 Esta es una lista de prácticas recomendadas y artículos relacionados con la capacidad de envío:
 

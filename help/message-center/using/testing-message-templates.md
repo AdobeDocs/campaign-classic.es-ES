@@ -6,14 +6,16 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
-source-git-commit: e86350cf12db37e3f2c227563057b97922601729
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 100%
 
 ---
 
 # Prueba de plantillas de mensaje transaccional {#testing-message-templates}
+
+![](../../assets/v7-only.svg)
 
 Una vez que la [plantilla del mensaje](../../message-center/using/creating-the-message-template.md) esté lista, siga los pasos a continuación para previsualizarla y probarla.
 

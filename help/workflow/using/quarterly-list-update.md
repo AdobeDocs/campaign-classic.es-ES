@@ -6,8 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 0d3e7046-313a-42a6-9155-3365e8d60bac
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 100%
 
@@ -15,14 +15,16 @@ ht-degree: 100%
 
 # Actualización de lista trimestral con una consulta incremental {#quarterly-list-update}
 
-En el siguiente ejemplo, se utiliza una [consulta incremental](../../workflow/using/incremental-query.md) para actualizar automáticamente una lista de destinatarios. Estos destinatarios están dirigidos como parte de campañas de marketing de temporada.
+![](../../assets/common.svg)
+
+En el siguiente ejemplo, se utiliza una [consulta incremental](incremental-query.md) para actualizar automáticamente una lista de destinatarios. Estos destinatarios están dirigidos como parte de campañas de marketing de temporada.
 
 Como estas campañas se inician al comienzo de cada temporada para ofrecer actividades de deportes relevantes, estas listas se actualizan cada trimestre. Sin embargo, un destinatario solo debe ser identificado una vez cada 9 meses por esta campaña. Esto le permite espaciar la frecuencia con la que se puede seleccionar a un destinatario y ofrecerle actividades en diferentes estaciones a lo largo de los años.
 
 ![](assets/incremental_query_example.png)
 
 1. Añade una consulta incremental así como una actividad de actualización de lista en un nuevo flujo de trabajo.
-1. Configure la pestaña **[!UICONTROL Incremental query]** de la actividad según se especifica en [Creación de una consulta](../../workflow/using/query.md#creating-a-query).
+1. Configure la pestaña **[!UICONTROL Incremental query]** de la actividad según se especifica en [Creación de una consulta](query.md#creating-a-query).
 1. Seleccione la pestaña **[!UICONTROL Scheduling & History]** y luego especifique un historial de 270 días. Un destinatario que ya ha sido identificado ya no será objetivo durante un periodo de 270 días o aproximadamente 9 meses.
 
    A continuación, haga clic en el botón **[!UICONTROL Change...]** .
@@ -33,6 +35,6 @@ Como estas campañas se inician al comienzo de cada temporada para ofrecer activ
 
    ![](assets/incremental_query_example_2.png)
 
-1. Después de aprobar la consulta incremental, configure la actividad de actualización de lista como se explica en [Actualización de lista](../../workflow/using/list-update.md).
+1. Después de aprobar la consulta incremental, configure la actividad de actualización de lista como se explica en [Actualización de lista](list-update.md).
 
 Por lo tanto, el flujo de trabajo se iniciará automáticamente justo antes del inicio de cada temporada. La lista se actualizará con nuevos destinatarios aptos para recibir las ofertas.

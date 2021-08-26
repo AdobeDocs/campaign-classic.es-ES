@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: fcc51131-15d0-4d39-95cb-371d7044373b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # Actualización de listas{#list-update}
+
+![](../../assets/common.svg)
 
 Una actividad **List update** almacena la población especificada en la transición a una lista de destinatarios.
 
@@ -41,7 +43,7 @@ En el ejemplo siguiente, la actividad de actualización de la lista sigue una co
 
 1. Añada una **[!UICONTROL list update activity]** directamente después de una consulta para abrirla y editarla.
 
-   Para obtener más información sobre la creación de una consulta en el flujo de trabajo, consulte [Consulta](../../workflow/using/query.md).
+   Para obtener más información sobre la creación de una consulta en el flujo de trabajo, consulte [Consulta](query.md).
 
 1. Puede seleccionar una etiqueta para la actividad.
 1. Seleccione la opción **[!UICONTROL Create the list if necessary (Calculated name)]** para mostrar que la lista se cree una vez que se haya ejecutado el primer flujo de trabajo y se haya actualizado con las siguientes ejecuciones.

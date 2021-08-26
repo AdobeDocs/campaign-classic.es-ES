@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
 
 ---
 
 # Uso de una plantilla de contenido{#using-a-content-template}
+
+![](../../assets/common.svg)
 
 ## Acerca de las plantillas de contenido {#about-content-templates}
 

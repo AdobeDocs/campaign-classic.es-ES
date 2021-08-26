@@ -5,14 +5,16 @@ description: Obtenga más información sobre orígenes y destinos de Adobe Exper
 audience: integrations
 content-type: reference
 exl-id: 8cee52c7-ea56-4701-8ebb-eb18afffea51
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 100%
 
 ---
 
 # Introducción a orígenes y destinos {#rtcdp}
+
+![](../../assets/common.svg)
 
 ## Acerca de los orígenes y destinos
 

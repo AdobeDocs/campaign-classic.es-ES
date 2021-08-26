@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 100%
 
 ---
 
 # Coordinación de actualizaciones de datos{#coordinating-data-updates}
+
+![](../../assets/common.svg)
 
 Este caso de uso detalla la creación de un flujo de trabajo que permite administrar las actualizaciones integradas cuando se utilizan varias ejecuciones de un flujo de trabajo.
 
@@ -53,5 +55,5 @@ Para crear un flujo de trabajo, siga los pasos siguientes:
 
 **Temas relacionados:**
 
-* [Prevención de las ejecuciones múltiples simultáneas](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)
-* [Actividad Actualizar datos](../../workflow/using/update-data.md)
+* [Prevención de las ejecuciones múltiples simultáneas](monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)
+* [Actividad Actualizar datos](update-data.md)

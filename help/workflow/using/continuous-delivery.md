@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%
 
 ---
 
 # Entrega continua{#continuous-delivery}
+
+![](../../assets/common.svg)
 
 Una acción del tipo **Continuous delivery** permite agregar nuevos destinatarios a una entrega existente. Este tipo de envío evita tener que crear una nueva cada vez: este modo suele ser más eficaz, en particular para alertas de bajo volumen o notificaciones enviadas cuando es necesario.
 
@@ -58,7 +60,7 @@ Un envío continuo creará un envío ÚNICO y registros de envío (broadLog) y r
 
 ![Entrega continua](assets/delivery_continuous.jpg)
 
-## Videotutorial {#continuous-delivery-video}
+## Tutorial en vídeo {#continuous-delivery-video}
 
 Este vídeo muestra cómo configurar un envío continuo con una consulta incremental.
 

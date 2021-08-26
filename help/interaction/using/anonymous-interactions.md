@@ -6,14 +6,16 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: a8face46-a933-4f2c-8299-ccb66f05967d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 100%
 
 ---
 
 # Interacciones anónimas{#anonymous-interactions}
+
+![](../../assets/v7-only.svg)
 
 ![](assets/do-not-localize/how-to-video.png) Vea este [vídeo](https://helpx.adobe.com/campaign/classic/how-to/indetified-and-anonymous-interaction-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com) para obtener información general sobre cómo se entregan las ofertas a objetivos identificados y anónimos.
 

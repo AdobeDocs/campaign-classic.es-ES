@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1624'
 ht-degree: 100%
 
 ---
 
 # Creación de un flujo de trabajo {#building-a-workflow}
+
+![](../../assets/common.svg)
 
 Esta sección detalla los principios fundamentales y las prácticas recomendadas para crear un flujo de trabajo en Campaign.
 
@@ -55,10 +57,10 @@ A continuación debe definir las distintas actividades y vincularlas todas en el
 
 Las actividades se agrupan por categorías dentro de las diferentes pestañas de la paleta. Las pestañas y actividades disponibles pueden variar según el tipo de flujo de trabajo (técnico, de objetivos o flujo de trabajo de la campaña).
 
-* La primera pestaña contiene actividades de establecimiento de objetivos y de manipulación de datos. Estas actividades se detallan en [Actividades de establecimiento de objetivos](../../workflow/using/about-targeting-activities.md).
-* La segunda pestaña contiene las actividades de planificación, que se utilizan principalmente para coordinar otras actividades. Estas actividades se detallan en [Actividades de control de flujos](../../workflow/using/about-flow-control-activities.md).
-* La tercera pestaña contiene herramientas y acciones que se pueden utilizar en el flujo de trabajo. Estas actividades se detallan en [Actividades de acción](../../workflow/using/about-action-activities.md).
-* La cuarta pestaña contiene actividades que dependen de un evento determinado, como la recepción de un correo electrónico o la llegada de un archivo en un servidor. Estas actividades se detallan en [Actividades de eventos](../../workflow/using/about-event-activities.md).
+* La primera pestaña contiene actividades de establecimiento de objetivos y de manipulación de datos. Estas actividades se detallan en [Actividades de establecimiento de objetivos](about-targeting-activities.md).
+* La segunda pestaña contiene las actividades de planificación, que se utilizan principalmente para coordinar otras actividades. Estas actividades se detallan en [Actividades de control de flujos](about-flow-control-activities.md).
+* La tercera pestaña contiene herramientas y acciones que se pueden utilizar en el flujo de trabajo. Estas actividades se detallan en [Actividades de acción](about-action-activities.md).
+* La cuarta pestaña contiene actividades que dependen de un evento determinado, como la recepción de un correo electrónico o la llegada de un archivo en un servidor. Estas actividades se detallan en [Actividades de eventos](about-event-activities.md).
 
 Creación del diagrama
 
@@ -104,7 +106,7 @@ Puede cambiar la visualización y el diseño del gráfico mediante los siguiente
 
 * **Gestión de imágenes**
 
-   Puede personalizar la imagen de fondo del diagrama, así como las relacionadas con las distintas actividades. Consulte [Administración de imágenes de actividad](../../workflow/using/managing-activity-images.md).
+   Puede personalizar la imagen de fondo del diagrama, así como las relacionadas con las distintas actividades. Consulte [Administración de imágenes de actividad](managing-activity-images.md).
 
 ## Configuración de actividades {#configuring-activities}
 
@@ -112,7 +114,7 @@ Haga doble clic en una actividad para configurarla o haga clic con el botón der
 
 >[!NOTE]
 >
->Las actividades de flujo de trabajo de Campaign se detallan en [esta sección](../../workflow/using/about-activities.md).
+>Las actividades de flujo de trabajo de Campaign se detallan en [esta sección](about-activities.md).
 
 La primera pestaña contiene la configuración básica. La pestaña **[!UICONTROL Advanced]** contiene los parámetros adicionales, que se utilizan principalmente para definir el comportamiento cuando se encuentra un error para especificar la duración de la ejecución de una actividad y para introducir una secuencia de comandos de inicialización.
 
@@ -124,13 +126,13 @@ Para comprender mejor las actividades y mejorar la legibilidad del flujo de trab
 
 Los flujos de trabajo de objetivos permiten crear varios objetivos de entrega. Gracias a las actividades de flujo de trabajo, se pueden crear consultas, definir uniones o exclusiones basadas en criterios específicos y añadir planificaciones. El resultado de esta dirección se puede transferir automáticamente a una lista que pueda servir como objetivo de las acciones de entrega.
 
-Además de estas actividades, la gestión de datos permite manipular dichos datos y acceder a funciones avanzadas para satisfacer problemas complejos relacionados con los objetivos. Para obtener más información, consulte [Administración de datos](../../workflow/using/targeting-data.md#data-management).
+Además de estas actividades, la gestión de datos permite manipular dichos datos y acceder a funciones avanzadas para satisfacer problemas complejos relacionados con los objetivos. Para obtener más información, consulte [Administración de datos](targeting-data.md#data-management).
 
 Todas estas actividades se encuentran en la primera pestaña del flujo de trabajo.
 
 >[!NOTE]
 >
->Las actividades de segmentación se describen en esta [página](../../workflow/using/about-activities.md).
+>Las actividades de segmentación se describen en esta [página](about-activities.md).
 
 Los flujos de trabajo de objetivos se pueden crear y editar mediante el nodo **[!UICONTROL Profiles and Targets > Jobs > Targeting workflows]** del árbol de Adobe Campaign o a través del menú **[!UICONTROL Profiles and Targets > Targeting workflows]** de la página principal.
 
@@ -142,11 +144,11 @@ Dentro del marco de una campaña, los flujos de trabajo de objetivos se almacena
 
 Los pasos para crear un flujo de trabajo de segmentación se describen en las siguientes secciones:
 
-1. **Identificar** datos en la base de datos. Consulte [Creación de consultas](../../workflow/using/targeting-data.md#creating-queries)
-1. **Preparar** datos para satisfacer las necesidades de envío. Consulte [Enriquecimiento y modificación de datos](../../workflow/using/targeting-data.md#enriching-and-modifying-data)
-1. **Usar** datos para realizar actualizaciones o dentro de un envío. Consulte [Actualización de la base de datos](../../workflow/using/how-to-use-workflow-data.md#updating-the-database)
+1. **Identificar** datos en la base de datos. Consulte [Creación de consultas](targeting-data.md#creating-queries)
+1. **Preparar** datos para satisfacer las necesidades de envío. Consulte [Enriquecimiento y modificación de datos](targeting-data.md#enriching-and-modifying-data)
+1. **Usar** datos para realizar actualizaciones o dentro de un envío. Consulte [Actualización de la base de datos](how-to-use-workflow-data.md#updating-the-database)
 
-Los resultados de todos los enriquecimientos y todas las gestiones realizadas durante el establecimiento de objetivos se almacenan y están accesibles en los campos personalizados, en particular para utilizarlos al crear mensajes personalizados. Para obtener más información, consulte [Datos de destinatarios](../../workflow/using/data-life-cycle.md#target-data).
+Los resultados de todos los enriquecimientos y todas las gestiones realizadas durante el establecimiento de objetivos se almacenan y están accesibles en los campos personalizados, en particular para utilizarlos al crear mensajes personalizados. Para obtener más información, consulte [Datos de destinatarios](data-life-cycle.md#target-data).
 
 ### Establecimiento de objetivos y filtrado de dimensiones {#targeting-and-filtering-dimensions}
 
@@ -194,7 +196,7 @@ La subcarpeta **[!UICONTROL Campaign process]** centraliza los flujos de trabajo
 
 >[!NOTE]
 >
->La lista de flujos de trabajo técnicos instalados con cada módulo está disponible en una [sección específica](../../workflow/using/about-technical-workflows.md).
+>La lista de flujos de trabajo técnicos instalados con cada módulo está disponible en una [sección específica](about-technical-workflows.md).
 
 Puede crear otros flujos de trabajo técnicos en el nodo **[!UICONTROL Administration > Production > Technical workflows]** de la estructura del árbol. Sin embargo, este proceso está reservado para usuarios expertos.
 

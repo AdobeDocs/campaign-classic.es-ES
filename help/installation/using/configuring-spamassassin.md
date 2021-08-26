@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 1f1004e2-dcd2-4ec5-98ec-720c205646d5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # Configuración de SpamAssassin{#configuring-spamassassin}
+
+![](../../assets/v7-only.svg)
 
 >[!NOTE]
 >
@@ -37,7 +39,7 @@ El uso de SpamAssassin en Adobe Campaign proporciona una indicación del posible
 
 La implementación de SpamAssassin y sus módulos en Perl requiere servidores de aplicaciones de Adobe Campaign equipados con acceso a Internet a través de una conexión HTTP (flujo TCP/80).
 
-## Instalación en un equipo de Windows {#installing-on-a-windows-machine}
+## Instalación en un equipo Windows {#installing-on-a-windows-machine}
 
 Para instalar y configurar SpamAssassin en Windows para habilitar la integración con Adobe Campaign, siga los siguientes pasos:
 
@@ -46,7 +48,7 @@ Para instalar y configurar SpamAssassin en Windows para habilitar la integració
 
 ### Instalación de SpamAssassin {#installing-spamassassin}
 
-1. Conéctese al [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) utilizando sus credenciales de usuario. Obtenga más información sobre la distribución de software en [esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
+1. Conéctese al [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) utilizando sus credenciales de usuario. Obtenga más información sobre la distribución de software en [esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es?lang=en).
 1. Descargue el archivo **Neolane Spam Assassin (Instalación de Windows) (2.0)** (neolane_spamassassin.2.0.zip).
 1. Copie este archivo en el servidor de Adobe Campaign y, a continuación, descomprima el archivo.
 

@@ -5,14 +5,16 @@ description: Configuración de la integración
 audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
-source-git-commit: 9a126d16b394333163b974ad9690f7c93fb3034a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 100%
 
 ---
 
 # Solución de problemas de canalización {#pipeline-troubleshooting}
+
+![](../../assets/common.svg)
 
 **La canalización produce el error “Ninguna tarea corresponde a la máscara pipelined@&lt; instance >”**
 

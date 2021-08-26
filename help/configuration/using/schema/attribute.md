@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
 source-wordcount: '1553'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # elemento de atributo {#attribute--element}
+
+![](../../../assets/v7-only.svg)
 
 ## Modelo de contenido {#content-model}
 
@@ -41,7 +43,7 @@ _operation (cadena), avanzado (booleano), aplicableIf (cadena), autoIncrement (b
 
 La secuencia en la que se definen los elementos `<attribute>` en un `<srcschema>` no afecta a la secuencia de creación de campos en la base de datos. La secuencia de creación será alfabética.
 
-## Descripción de atributo {#attribute-description}
+## Descripción del atributo {#attribute-description}
 
 * **_operation (cadena)**: define el tipo de escritura en la base de datos.
 

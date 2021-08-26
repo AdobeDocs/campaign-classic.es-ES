@@ -6,14 +6,16 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: ed97a1b5-c870-4b67-98b6-16adc316fd46
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 100%
 
 ---
 
 # Creación de categorías de oferta{#creating-offer-categories}
+
+![](../../assets/v7-only.svg)
 
 La creación de categorías de ofertas solo puede realizarse en el entorno **[!UICONTROL Design]**. Se implementan automáticamente en el entorno **[!UICONTROL Live]** (es decir, están disponibles) cuando se aprueban las ofertas creadas o modificadas que contienen. De forma predeterminada, el entorno **[!UICONTROL Design]** una categoría para recibir todas las ofertas. Se puede crear subcategorías para añadir jerarquía a las ofertas del catálogo.
 

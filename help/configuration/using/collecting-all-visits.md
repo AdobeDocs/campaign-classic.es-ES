@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: cc554d0d-bbab-4f72-b870-5fef5a2fda9d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # Recopilación de todas las visitas{#collecting-all-visits}
+
+![](../../assets/v7-only.svg)
 
 El módulo de seguimiento web proporcionado por Adobe Campaign permite recopilar las visitas a determinadas páginas del sitio realizadas por un destinatario en el contexto del seguimiento del sitio después de un clic en un mensaje.
 
@@ -40,7 +42,7 @@ startRedirection="true" startRedirectionInModule="true" trackWebVisitors="true"
 trackingPassword=""
 ```
 
-## Configuración de una campaña {#configuring-a-default-matching-campaign} coincidente predeterminada
+## Configuración de una campaña coincidente predeterminada {#configuring-a-default-matching-campaign}
 
 Para ver la información de seguimiento a través de la consola del cliente, debe:
 

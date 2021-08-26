@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: ca6d4bf4-7b3a-4d36-9fc3-0b83531d0132
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 100%
 
 ---
 
 # Caso de uso: Supervisión de flujos de trabajo{#supervising-workflows}
+
+![](../../assets/common.svg)
 
 Este caso de uso detalla la creación de un flujo de trabajo que permite monitorizar el estado de un conjunto de flujos de trabajo que están “en pausa”, “detenidos” o “con errores”.
 
@@ -31,9 +33,9 @@ Para monitorizar el estado de un conjunto de flujos de trabajo, se debe seguir e
 
 >[!NOTE]
 >
->Además del flujo de trabajo, Campaign **Mapa de calor de flujo de trabajo** permite analizar los detalles que se están ejecutando actualmente. Para obtener más información, consulte [la sección dedicada](../../workflow/using/heatmap.md).
+>Además del flujo de trabajo, Campaign **Mapa de calor de flujo de trabajo** permite analizar los detalles que se están ejecutando actualmente. Para obtener más información, consulte [la sección dedicada](heatmap.md).
 >
->Para obtener más información sobre cómo **monitorizar la ejecución de los flujos de trabajo**, consulte [esta sección](../../workflow/using/monitoring-workflow-execution.md).
+>Para obtener más información sobre cómo **monitorizar la ejecución de los flujos de trabajo**, consulte [esta sección](monitoring-workflow-execution.md).
 
 ## Paso 1: Creación del flujo de trabajo de monitorización {#step-1--creating-the-monitoring-workflow}
 
@@ -115,7 +117,7 @@ vars.strWorkflowPaused = strPaused;
 vars.strWorkflowStop = strStop;
 ```
 
-## Paso 3: Creación de la actividad “Test”{#step-3--creating-the--test--activity}
+## Paso 3: Creación de la actividad “Test” {#step-3--creating-the--test--activity}
 
 La actividad “Prueba” permite determinar si una entrega debe ser realizado o si el flujo de trabajo de monitorización debe ejecutar otro ciclo en función de la actividad “Espera”
 

@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 100%
 
 ---
 
 # Control del contenido del mensaje{#control-message-content}
+
+![](../../assets/common.svg)
 
 Para asegurarse de que los mensajes de correo electrónico llegan a los destinatarios y mejoran la tasa de envío de correo electrónico, deben respetar una serie de reglas. De lo contrario, el contenido de ciertos mensajes puede detectarse como correo no deseado. Adobe Campaign proporciona varias herramientas para que el contenido cumpla con estas reglas.
 

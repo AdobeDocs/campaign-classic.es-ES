@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 8a079bb8-3f53-4144-a065-5bd402649cc7
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 10%
@@ -14,6 +14,8 @@ ht-degree: 10%
 ---
 
 # elemento compute-string {#compute-string--element}
+
+![](../../../assets/v7-only.svg)
 
 ## Modelo de contenido {#content-model-1}
 
@@ -23,7 +25,7 @@ compute-string:==EMPTY
 
 @expr
 
-## Padres {#parents-1}
+## Principales {#parents-1}
 
 `<element>`
 
@@ -39,7 +41,7 @@ El elemento `<compute-string>` permite generar una cadena basada en una expresi�
 
 Cuando no se define `<compute-string>` , se introduce un elemento `<compute-string>` de forma predeterminada con los valores de la clave principal en el esquema.
 
-## Descripción de atributo {#attribute-description-1}
+## Descripción del atributo {#attribute-description-1}
 
 * **expr (cadena)**: XTK o expresión Xpath
 

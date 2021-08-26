@@ -6,14 +6,16 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: e1d7d7c2-61e7-40d6-a8ce-69bc976f8c73
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 100%
 
 ---
 
 # Enlaces{#hooks}
+
+![](../../assets/v7-only.svg)
 
 Enlaces en Interacción, puede modificar el **comportamiento del motor estándar**.
 

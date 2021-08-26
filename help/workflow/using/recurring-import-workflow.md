@@ -6,18 +6,20 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: e6e140cb-8de0-4ab9-bddc-95abe04124c6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 100%
 
 ---
 
-# Configuración de una importación recurrente {#setting-up-a-recurring-import}
+# Configuración de un flujo de trabajo de importación recurrente {#setting-up-a-recurring-import}
+
+![](../../assets/common.svg)
 
 El uso de una plantilla de flujo de trabajo es una práctica recomendada si necesita importar con regularidad archivos con la misma estructura.
 
-Este ejemplo muestra cómo se puede predefinir un flujo de trabajo para reutilizarlo a la hora de importar perfiles provenientes de un CRM en la base de datos de Adobe Campaign. Para obtener más información sobre todos los ajustes posibles de cada actividad, consulte esta [sección](../../workflow/using/about-activities.md).
+Este ejemplo muestra cómo se puede predefinir un flujo de trabajo para reutilizarlo a la hora de importar perfiles provenientes de un CRM en la base de datos de Adobe Campaign. Para obtener más información sobre todos los ajustes posibles de cada actividad, consulte esta [sección](about-activities.md).
 
 1. Cree una nueva plantilla de flujo de trabajo desde **[!UICONTROL Resources > Templates > Workflow templates]**.
 1. Añada las siguientes actividades:

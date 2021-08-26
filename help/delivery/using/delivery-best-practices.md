@@ -5,14 +5,16 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: eb5ad5a4-f640-4b26-b04f-b5567761d996
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 100%
 
 ---
 
 # Prácticas recomendadas relacionadas con las entregas {#delivery-best-practices}
+
+![](../../assets/common.svg)
 
 Conozca las prácticas recomendadas relacionadas con el diseño de entregas y envíos con Adobe Campaign. Utilice los vínculos siguientes para consultar los diferentes temas y encontrar instrucciones.
 

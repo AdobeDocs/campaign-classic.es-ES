@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ba8bf610-cbac-41e9-8b6e-130deb8b97e2
-source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%
 
 ---
 
 # Preguntas frecuentes sobre perfiles y audiencias {#audiences-faq}
+
+![](../../assets/common.svg)
 
 Aprenda a segmentar un grupo de población y a administrar las audiencias en Adobe Campaign.
 

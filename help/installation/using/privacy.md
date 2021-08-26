@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: f31591949bb033ff250cf4b33eddcc2c1d31cc6c
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 18%
@@ -14,6 +14,8 @@ ht-degree: 18%
 ---
 
 # Privacidad {#privacy}
+
+![](../../assets/v7-only.svg)
 
 ## Solicitudes de privacidad
 
@@ -55,7 +57,7 @@ Para mejorar la seguridad, se ha introducido un mecanismo de firma para el segui
 >
 >Cuando se hace clic en una dirección URL firmada con formato incorrecto, se devuelve este error: &quot;No se encontró la dirección URL solicitada &#39;..&#39;.&quot;
 
-Además, desde Campaign 20.2 y la versión [!DNL Gold Standard], puede utilizar una mejora para deshabilitar las direcciones URL generadas en versiones anteriores. Esta función está deshabilitada de forma predeterminada. Puede ponerse en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para habilitar esta función.
+Además, desde Campaign 20.2 y la versión [!DNL Gold Standard], puede utilizar una mejora para deshabilitar las direcciones URL generadas en versiones anteriores. Esta función está deshabilitada de forma predeterminada. Puede ponerse en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html?lang=es/enterprise/using/support-for-experience-cloud.ug.html) para habilitar esta función.
 
 Si está ejecutando [!DNL Gold Standard] 19.1.4, puede que tenga problemas con los envíos de notificaciones push mediante vínculos de seguimiento o con los envíos que utilizan etiquetas de anclaje. Si es así, se recomienda desactivar la firma de URL.
 

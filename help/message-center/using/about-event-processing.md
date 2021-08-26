@@ -6,14 +6,16 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 3d85866a-6339-458c-807a-b267cce772b8
-source-git-commit: e86350cf12db37e3f2c227563057b97922601729
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 100%
 
 ---
 
 # Procesamiento de eventos {#about-event-processing}
+
+![](../../assets/v7-only.svg)
 
 En el contexto de los mensajes transaccionales, un sistema de información genera un evento y este se envía a Adobe Campaign mediante los métodos **[!UICONTROL PushEvent]** y **[!UICONTROL PushEvents]** (consulte [Descripción del evento](../../message-center/using/event-description.md)).
 

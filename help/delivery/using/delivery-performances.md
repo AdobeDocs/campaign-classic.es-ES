@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 100%
 
 ---
 
 # Prácticas recomendadas sobre el rendimiento de las entregas {#delivery-performances}
+
+![](../../assets/common.svg)
 
 Recomendamos seguir las directrices que se indican a continuación para garantizar que sus entregas, así como las comprobaciones que se realizan en caso de que surjan problemas con estas, se llevan a cabo correctamente.
 

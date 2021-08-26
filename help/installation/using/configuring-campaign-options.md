@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '3972'
+source-wordcount: '3991'
 ht-degree: 3%
 
 ---
 
 # Lista de opciones de Campaign Classic{#configuring-campaign-options}
+
+![](../../assets/v7-only.svg)
 
 El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar las opciones de Adobe Campaign. Algunos de ellos están integrados al instalar Campaign, mientras que otros se pueden agregar manualmente cuando sea necesario. Las opciones disponibles varían según los paquetes instalados con la instancia.
 
@@ -21,9 +23,8 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
 >[!CAUTION]
 >
 >* Las opciones que no aparecen en esta página son solo internas y **no se deben modificar**.
-   >
-   >
-* La modificación o actualización de las opciones de Adobe Campaign solo pueden realizarla usuarios expertos.
+>
+>* La modificación o actualización de las opciones de Adobe Campaign solo pueden realizarla usuarios expertos.
 
 
 ## Entrega {#delivery}
@@ -52,6 +53,10 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
    <td> <span class="uicontrol">DmRendering_SeedTargets</span> <br /> </td> 
    <td> Lista de esquemas para los que desea utilizar direcciones de prueba para la renderización de la bandeja de entrada. (los nombres de elementos están separados por comas) Por ejemplo: custom_nms_recipient.<br /> </td> 
   </tr> 
+  <tr> 
+   <td> <span class="uicontrol">EMTA_BCC_ADDRESS</span> </td> 
+   <td> Dirección de correo electrónico CCO a la que el MTA mejorado enviará una copia sin procesar de los correos electrónicos enviados. <br /> </td> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
    <td><p> Permite que el operador a cargo de la entrega confirme la entrega si se designa un operador o grupo de operadores específico para iniciar una entrega en las propiedades de la entrega.</p><p> Para ello, active la opción introduciendo "1" como valor. Para desactivar esta opción, escriba "0".</p><p> El proceso de confirmación de envío funcionará de forma predeterminada: solo el operador o grupo de operadores designados para la entrega en las propiedades de envío (o un administrador) puede confirmar y llevar a cabo la entrega. Consulte <a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">esta sección</a>.</p> </td> 
@@ -732,7 +737,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
    <td> Esta opción se utiliza al importar datos de un sistema de terceros a través de un conector CRM. La activación de la opción  solo permite recopilar objetos modificados desde la última importación. Esta opción debe crearse manualmente y rellenarse de la siguiente manera: 
     <ul> 
      <li> <p> <span class="uicontrol">Nombre</span>  interno: LASTIMPORT_&lt;&gt;_&lt;&gt;</p> </li> 
-     <li> <p> <span class="uicontrol">Valor (campo)</span> : fecha de la última importación, con el formato aaaa/MM/dd hh:mm:ss . </p> </li> 
+     <li> <p> <span class="uicontrol">Valor (campo)</span> : fecha de la última importación, con el formato aaaa/MM/dd :mm:hss . </p> </li> 
     </ul><br /> </td> 
   </tr> 
   <tr> 

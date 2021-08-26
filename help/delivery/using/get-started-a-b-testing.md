@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: ae046ef6-d850-4222-b82c-8ef5b3da7037
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 100%
 
 ---
 
 # Introducción a las pruebas A/B {#get-started-a-b-testing}
+
+![](../../assets/common.svg)
 
 Las pruebas A/B le permiten comparar varias versiones de un envío entre sí, a fin de identificar cuál tendrá mayor impacto en la población objetivo.
 

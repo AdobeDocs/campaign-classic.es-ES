@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1272'
 ht-degree: 100%
 
 ---
 
 # Uso de la actividad de aprobación local{#using-the-local-approval-activity}
+
+![](../../assets/common.svg)
 
 La actividad **[!UICONTROL Local approval]** integrada en un flujo de trabajo de objetivo permite configurar un proceso de aprobación del destinatario antes de realizar la entrega.
 
@@ -51,7 +53,7 @@ Los pasos principales del proceso de aprobación local son:
 
 La plantilla de distribución de datos permite limitar la población resultante de la segmentación en función de la agrupación de datos, así como asignar cada valor a un supervisor local. En este ejemplo, se ha definido el campo **[!UICONTROL Email address domain]** como campo de distribución y se ha asignado un dominio a cada supervisor local.
 
-Para obtener más información sobre la creación de una plantilla de distribución de datos, consulte [Limitación del número de registros de subconjuntos por distribución de datos](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution).
+Para obtener más información sobre la creación de una plantilla de distribución de datos, consulte [Limitación del número de registros de subconjuntos por distribución de datos](split.md#limiting-the-number-of-subset-records-per-data-distribution).
 
 1. Para crear la plantilla de distribución de datos, vaya al nodo **[!UICONTROL Resources > Campaign management > Data distribution]** y haga clic en **[!UICONTROL New]**.
 
@@ -106,7 +108,7 @@ Se agregaron las siguientes actividades:
 
 La segmentación ascendente se compone de dos consultas, una intersección y una división. La población resultante de la segmentación se puede limitar con una actividad **[!UICONTROL Split]** que utiliza una plantilla de distribución de datos.
 
-Para obtener más información sobre la configuración de una actividad de división, consulte [Dividir](../../workflow/using/split.md). La creación de una plantilla de distribución de datos se detalla en [Limitar el número de registros de subconjuntos por distribución de datos](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution).
+Para obtener más información sobre la configuración de una actividad de división, consulte [Dividir](split.md). La creación de una plantilla de distribución de datos se detalla en [Limitar el número de registros de subconjuntos por distribución de datos](split.md#limiting-the-number-of-subset-records-per-data-distribution).
 
 Si no desea limitar la población de la consulta, no tiene que utilizar las actividades **[!UICONTROL Query]**, **[!UICONTROL Intersection]** ni **[!UICONTROL Split]**. En este caso, complete la plantilla de distribución de datos en la primera actividad **[!UICONTROL Local approval]**.
 
@@ -134,7 +136,7 @@ En la plantilla de distribución, se ha elegido limitar la población al 10% por
 
 La actividad **[!UICONTROL Local approval]** permite enviar una notificación a cada supervisor local.
 
-Para obtener más información sobre la configuración de la actividad de **[!UICONTROL Local approval]**, consulte [Aprobación local](../../workflow/using/local-approval.md).
+Para obtener más información sobre la configuración de la actividad de **[!UICONTROL Local approval]**, consulte [Aprobación local](local-approval.md).
 
 ![](assets/local_validation_workflow_2.png)
 

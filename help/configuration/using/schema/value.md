@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: bad7fb4b-43d9-4033-ae0d-cf191d89114b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 5%
@@ -14,6 +14,8 @@ ht-degree: 5%
 ---
 
 # elemento de valor {#value--element}
+
+![](../../../assets/v7-only.svg)
 
 ## Modelo de contenido {#content-model-16}
 
@@ -29,7 +31,7 @@ value:==help
 * @name (cadena)
 * @value (cadena)
 
-## Padres {#parents-16}
+## Principales {#parents-16}
 
 `<enumeration>`
 
@@ -41,7 +43,7 @@ value:==help
 
 Este elemento permite definir los valores almacenados en una enumeración.
 
-## Descripción de atributo {#attribute-description-16}
+## Descripción del atributo {#attribute-description-16}
 
 * **applyIf (cadena)**: este atributo permite hacer que un valor de enumeración sea opcional. Recibe una expresión XTK.
 * **desc (cadena)**: descripción del valor de enumeración.

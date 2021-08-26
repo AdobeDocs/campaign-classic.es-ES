@@ -5,17 +5,23 @@ description: Descubra más información sobre los flujos de trabajo técnicos de
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '116'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 92%
 
 ---
 
 
-# Social Marketing{#social-marketing}
+# Marketing social{#social-marketing}
 
-Los flujos de trabajo detallados a continuación se instalan con el módulo **Social Marketing** de forma predeterminada. Para obtener más información sobre este módulo, consulte esta [sección](../../social/using/starting-workflows.md).
+![](../../assets/common.svg)
+
+>[!AVAILABILITY]
+>
+>:warning: Esta funcionalidad solo está disponible en Campaign Classic v7. [Más información](../../social/using/about-social-marketing.md)
+
+Los flujos de trabajo detallados a continuación se instalan con el módulo **Social Marketing** de forma predeterminada.
 
 <table> 
  <tbody> 

@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '2374'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # Descripción del modelo de datos de Campaign{#data-model-description}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign viene con un modelo de datos predefinido. Esta sección proporciona algunos detalles sobre las tablas integradas del modelo de datos de Adobe Campaign y su interacción.
 
@@ -103,7 +105,7 @@ Las carpetas están escritas: el valor del campo sModel especifica el tipo de da
 
 El árbol se administra mediante los campos iParentId e iChildCount . El campo sFullName proporciona la ruta completa de la carpeta en el árbol. Finalmente, hay un índice único en el campo que representa el nombre interno de la carpeta sName.
 
-## Envío y seguimiento {#delivery-and-tracking}
+## Entrega y seguimiento {#delivery-and-tracking}
 
 Este conjunto de tablas está vinculado al módulo **Delivery**, que permite monitorizar los envíos y los problemas que puedan ser detectados al enviar los mensajes. Para obtener más información, consulte [Monitorización de envíos](../../delivery/using/about-delivery-monitoring.md). Para obtener más información sobre el seguimiento, consulte [Seguimiento de mensajes](../../delivery/using/about-message-tracking.md).
 
@@ -127,9 +129,9 @@ Este conjunto de tablas está vinculado al módulo **Marketing campaign** , que 
 * **NmsTask**: Esta tabla coincide con el esquema  **nms:** taskschema. Contiene la definición de una tarea de marketing.
 * **NmsAsset**: Esta tabla coincide con el esquema  **nms:** assetschema. Contiene la definición de un recurso de marketing.
 
-## Coherencia de comunicación {#communication-consistency}
+## Coherencia de la comunicación {#communication-consistency}
 
-Este conjunto de tablas está vinculado al módulo **Campaign Optimization** , que permite controlar, filtrar y monitorizar los envíos. Para obtener más información, consulte [Acerca de las tipologías de campaña](../../campaign/using/about-campaign-typologies.md).
+Este conjunto de tablas está vinculado al módulo **Campaign Optimization** , que permite controlar, filtrar y monitorizar los envíos. Para obtener más información, consulte [Acerca de las tipologías de campaña](../../campaign-opt/using/about-campaign-typologies.md).
 
 ![](assets/data-model_typology.png)
 
@@ -139,9 +141,9 @@ Este conjunto de tablas está vinculado al módulo **Campaign Optimization** , q
 * **NmsVolumeLine**: Esta tabla coincide con el esquema  **nms:** volumeLineschema. Contiene el conjunto de líneas de disponibilidad de las reglas de capacidad.
 * **NmsVolumeConsumed**: Esta tabla coincide con el esquema  **nms:** volumeConsumedschema. Contiene todas las líneas de consumo de las reglas de capacidad.
 
-## Administración de respuestas {#response-management}
+## Gestión de respuestas {#response-management}
 
-Este conjunto de tablas está vinculado al módulo **Response Manager** , que permite medir el éxito y la rentabilidad de las campañas de marketing u ofrecer propuestas para todos los canales de comunicación. Para obtener más información, consulte [Acerca del gestor de respuestas](../../campaign/using/about-response-manager.md).
+Este conjunto de tablas está vinculado al módulo **Response Manager** , que permite medir el éxito y la rentabilidad de las campañas de marketing u ofrecer propuestas para todos los canales de comunicación. Para obtener más información, consulte [Acerca del gestor de respuestas](../../response/using/about-response-manager.md).
 
 ![](assets/data-model_response.png)
 

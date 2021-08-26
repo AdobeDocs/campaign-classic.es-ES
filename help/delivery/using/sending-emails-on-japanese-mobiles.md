@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 44634227-2340-49c4-b330-740c739ea551
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 100%
 
 ---
 
 # Envío de correos electrónicos en móviles japoneses {#sending-emails-on-japanese-mobiles}
+
+![](../../assets/common.svg)
 
 ## Formatos de correo electrónico para móviles japoneses {#email-formats-for-japanese-mobiles}
 

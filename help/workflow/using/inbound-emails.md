@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: b2a05e07-a7d7-436b-b2c6-90ab55d031cd
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
 
 ---
 
 # Correos electrónicos entrantes{#inbound-emails}
+
+![](../../assets/common.svg)
 
 La actividad **Inbound emails** permite descargar y procesar correos electrónicos desde un servidor de correo POP3.
 
@@ -68,7 +70,7 @@ La primera pestaña de la actividad **Inbound Emails** permite introducir los pa
 
    Para definir una programación para la actividad, haga clic en la pestaña **[!UICONTROL Scheduling]** y verifique **[!UICONTROL Plan execution]**. Haga clic en el botón **[!UICONTROL Change]** para configurar la programación.
 
-   La configuración de programación es la misma que para la actividad de programación. Consulte [Programador](../../workflow/using/scheduler.md).
+   La configuración de programación es la misma que para la actividad de programación. Consulte [Programador](scheduler.md).
 
 1. **[!UICONTROL Expiration]**
 
@@ -76,4 +78,4 @@ La primera pestaña de la actividad **Inbound Emails** permite introducir los pa
 
    ![](assets/email_rec_edit_3.png)
 
-   La configuración es la misma que para la actividad de programación. Consulte [Caducidad](../../workflow/using/defining-approvals.md).
+   La configuración es la misma que para la actividad de programación. Consulte [Caducidad](defining-approvals.md).

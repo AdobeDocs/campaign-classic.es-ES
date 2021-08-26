@@ -6,7 +6,7 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 exl-id: 7e8f8488-f3ef-4b64-9981-335d67caf372
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # Configuraciones específicas en la versión 6.02{#specific-configurations-in-v6-02}
+
+![](../../assets/v7-only.svg)
 
 La siguiente sección detalla la configuración adicional necesaria para migrar desde la versión 6.02. También debe configurar los ajustes detallados en la sección [Configuraciones generales](../../migration/using/general-configurations.md).
 
@@ -35,7 +37,7 @@ Si no ha utilizado estas aplicaciones web, ejecute el siguiente script de limpie
 Nlserver javascript -instance:[instance_name] -file [installation_path]/datakit/xtk/fra/js/removeOldWebApp.js
 ```
 
-Si ha modificado estas aplicaciones web y desea seguir usándolas en v7, debe activar la opción **allowSQLInjection** en las diferentes zonas de seguridad y volver a iniciar la actualización posterior. Consulte la sección [SQLData](../../migration/using/general-configurations.md#sqldata) para obtener más información al respecto.
+Si ha modificado estas aplicaciones web y desea seguir usándolas en v7, debe activar la opción **allowSQLInjection** en las diferentes zonas de seguridad y volver a iniciar la actualización posterior. Consulte la sección [SQLData](../../migration/using/general-configurations.md#sqldata) para obtener más información.
 
 ## Facilidad de uso: Página de inicio y navegación {#user-friendliness--home-page-and-navigation}
 

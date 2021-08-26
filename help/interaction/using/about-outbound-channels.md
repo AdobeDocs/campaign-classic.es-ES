@@ -6,14 +6,16 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 6e32dadc-097f-4380-b931-88468f3cb3b1
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 100%
 
 ---
 
 # Acerca de los canales de salida{#about-outbound-channels}
+
+![](../../assets/v7-only.svg)
 
 Las ofertas se pueden presentar en varios espacios utilizando canales entrantes o salientes. Este capítulo detalla los canales salientes.
 

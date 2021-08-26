@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 100%
 
 ---
 
 # Adjuntar archivos a un correo electrónico{#attaching-files}
+
+![](../../assets/common.svg)
 
 ## Acerca de los archivos adjuntos de correo electrónico {#about-email-attachments}
 

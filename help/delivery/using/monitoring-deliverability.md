@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%
 
 ---
 
 # Supervisión de la capacidad de entrega{#monitoring-deliverability}
+
+![](../../assets/common.svg)
 
 A continuación, encontrará detalles sobre las herramientas de monitorización que proporciona Adobe Campaign, así como algunas directrices adicionales para aprovechar las funciones que ofrece para monitorizar la capacidad de entrega de su plataforma.
 

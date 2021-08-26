@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
-source-git-commit: e3e2ac09de6a9e846e9f9262d522b9395a725648
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 100%
 
 ---
 
 # Anulación de duplicación{#deduplication}
+
+![](../../assets/common.svg)
 
 La deduplicación elimina los duplicados de los resultados de las actividades entrantes. La deduplicación se puede realizar en la dirección de correo electrónico, el número de teléfono u otro campo.
 
@@ -64,6 +66,7 @@ Para configurar una anulación de duplicación, introduzca su etiqueta, el méto
    >[!NOTE]
    >
    >Si utiliza datos externos como entrada, por ejemplo, de un archivo externo, asegúrese de seleccionar la opción **[!UICONTROL Temporary schema]**.
+
    >
    >En el siguiente paso, la opción **[!UICONTROL Other]** permite seleccionar los criterios que se van a utilizar:
 
@@ -139,7 +142,7 @@ La funcionalidad **[!UICONTROL Merge]** permite configurar un conjunto de reglas
 
 Por ejemplo, con un conjunto de registros de duplicado, puede elegir mantener el número de teléfono más antiguo o el nombre más reciente.
 
-Hay un caso de uso que aprovecha esta función en [esta sección](../../workflow/using/deduplication-merge.md).
+Hay un caso de uso que aprovecha esta función en [esta sección](deduplication-merge.md).
 
 Para ello, siga estos pasos:
 
@@ -155,7 +158,7 @@ Para ello, siga estos pasos:
 
 1. Después de activar la funcionalidad, se agrega una pestaña **[!UICONTROL Merge]** a la actividad **[!UICONTROL Deduplication]**. Permite definir grupos de campos para combinar y sus reglas asociadas.
 
-   Para obtener más información al respecto, consulte el caso de uso detallado disponible en [esta sección](../../workflow/using/deduplication-merge.md). 
+   Para obtener más información al respecto, consulte el caso de uso detallado disponible en [esta sección](deduplication-merge.md). 
 
    ![](assets/dedup3.png)
 

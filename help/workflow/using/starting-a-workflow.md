@@ -6,8 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 100%
 
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # Inicio de un flujo de trabajo {#starting-a-workflow}
 
-Un flujo de trabajo siempre se inicia manualmente. Cuando se inicia, no obstante, puede permanecer inactivo según la información especificada mediante un planificador (consulte [Scheduler](../../workflow/using/scheduler.md)) o una planificación de actividad.
+![](../../assets/common.svg)
+
+Un flujo de trabajo siempre se inicia manualmente. Cuando se inicia, no obstante, puede permanecer inactivo según la información especificada mediante un planificador (consulte [Scheduler](scheduler.md)) o una planificación de actividad.
 
 Las acciones relacionadas con la ejecución del flujo de trabajo de objetivos (inicio, detención, pausa, etc.) son procesos **asíncronos**: el comando se guarda y se aplica en cuanto el servidor esté disponible para su aplicación.
 
@@ -25,7 +27,7 @@ A continuación se detalla la lista de opciones disponibles en el menú **[!UICO
 
 >[!IMPORTANT]
 >
->Tenga en cuenta que cuando un operador realiza una acción en un flujo de trabajo (inicio, detención, pausa, etc.), la acción no se ejecuta de inmediato, sino que se coloca en una cola para que la procese el [módulo de flujo de trabajo](../../workflow/using/architecture.md).
+>Tenga en cuenta que cuando un operador realiza una acción en un flujo de trabajo (inicio, detención, pausa, etc.), la acción no se ejecuta de inmediato, sino que se coloca en una cola para que la procese el [módulo de flujo de trabajo](architecture.md).
 
 ## Barra de herramientas de acciones {#actions-toolbar}
 
@@ -57,7 +59,7 @@ Los botones de la barra de herramientas se encuentran en esta [sección](../../c
 
 * **[!UICONTROL Purge history]**
 
-   Esta acción permite depurar el historial del flujo de trabajo. Para obtener más información, consulte [Depuración de “logs”](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs).
+   Esta acción permite depurar el historial del flujo de trabajo. Para obtener más información, consulte [Depuración de “logs”](monitoring-workflow-execution.md#purging-the-logs).
 
 * **[!UICONTROL Start in simulation mode]**
 
@@ -91,7 +93,7 @@ Las siguientes opciones están disponibles en el menú del botón derecho:
 
 **[!UICONTROL Open]**: esta opción permite acceder a las propiedades de la actividad.
 
-**[!UICONTROL Display logs:]** esta opción permite ver el “log” de ejecución de la tarea para la actividad seleccionada. Consulte [Visualización de “logs”](../../workflow/using/monitoring-workflow-execution.md#displaying-logs).
+**[!UICONTROL Display logs:]** esta opción permite ver el “log” de ejecución de la tarea para la actividad seleccionada. Consulte [Visualización de “logs”](monitoring-workflow-execution.md#displaying-logs).
 
 **[!UICONTROL Execute pending task(s) now:]** esta acción permite iniciar tareas pendientes lo antes posible.
 
@@ -101,7 +103,7 @@ Las siguientes opciones están disponibles en el menú del botón derecho:
 
 **[!UICONTROL Copy as bitmap:]** esta opción permite realizar una captura de pantalla de todas las actividades.
 
-**[!UICONTROL Normal execution / Enable but do not execute / Do not enable:]** : estas opciones están disponibles en la pestaña **[!UICONTROL Advanced]** de las propiedades de actividad. Se encuentran detalladas en [Execution](../../workflow/using/advanced-parameters.md#execution).
+**[!UICONTROL Normal execution / Enable but do not execute / Do not enable:]** : estas opciones están disponibles en la pestaña **[!UICONTROL Advanced]** de las propiedades de actividad. Se encuentran detalladas en [Execution](advanced-parameters.md#execution).
 
 **[!UICONTROL Save / Cancel:]** permite guardar o cancelar los cambios realizados en un flujo de trabajo.
 

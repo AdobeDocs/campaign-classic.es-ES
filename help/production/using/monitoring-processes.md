@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '3606'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # Monitorización de procesos{#monitoring-processes}
+
+![](../../assets/v7-only.svg)
 
 El servidor de aplicaciones y el servidor de redirección (**seguimiento**) se pueden monitorizar de forma manual o automática.
 
@@ -209,7 +211,7 @@ La lista de indicadores del sistema permite mostrar información sobre la máqui
 
 #### Indicadores personalizados {#customized-indicators}
 
-Adobe Campaign permite personalizar indicadores. Para ello:
+Adobe Campaign permite personalizar indicadores. Para ello, haga lo siguiente:
 
 1. Cree un archivo **.sh** y asígnele el nombre **[!UICONTROL cust_indicators.sh]** .
 1. Añada los indicadores personalizados a este archivo. Por ejemplo:
@@ -259,7 +261,6 @@ Se agrupan en **Monitoring** > &#39;SMTP Monitoring&#39;.
 >
 
 
-
 ### Estadísticas de envío SMTP {#smtp-sending-statistics}
 
 El informe **[!UICONTROL SMTP sending statistics]** permite controlar la actividad del servidor. Muestra una síntesis de cada uno de los equipos.
@@ -292,7 +293,7 @@ La lista de indicadores para este informe se muestra debajo del gráfico.
 >
 >Este informe está relacionado con el estado del componente Capturador de tráfico de correo electrónico .
 
-### Errores SMTP por dominio {#smtp-errors-per-domain}
+### Errores de SMTP por dominio {#smtp-errors-per-domain}
 
 Este informe permite ver los errores de entrega, durante un periodo determinado, desglosados por dominio.
 
@@ -621,11 +622,11 @@ En los subelementos **ncs**, **redir** y **http**, puede añadir el atributo **i
 
 Para configurarlo, edite este archivo e indique en qué directorio está instalado JRE o JDK.
 
-### Inicio de la monitorización {#launching-monitoring}
+### Seguimiento del lanzamiento {#launching-monitoring}
 
 Para iniciar la monitorización, ejecute el archivo **netreport.bat** o **netreport.sh** a intervalos regulares mediante un script. Se envía un informe después de la primera ejecución y, a continuación, solo en caso de que se produzca un cambio de estado.
 
-### Prueba de monitorización {#testing-monitoring}
+### Supervisión de pruebas {#testing-monitoring}
 
 Para probar la monitorización, ejecute el archivo **netreport.bat** o **netreport.sh**.
 

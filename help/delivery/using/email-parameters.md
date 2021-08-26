@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
-source-wordcount: '888'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '905'
+ht-degree: 98%
 
 ---
 
 # Parámetros del correo electrónico {#email-parameters}
+
+![](../../assets/common.svg)
 
 Esta sección presenta las opciones y los parámetros específicos de la entrega de correo electrónico.
 
@@ -30,6 +32,10 @@ Para obtener más información sobre la configuración y las prácticas recomend
 >El correo electrónico CCO es una capacidad opcional. Compruebe el acuerdo de licencia y póngase en contacto con el administrador de cuentas para activarlo.
 
 Al crear un nuevo envío o una plantilla de envíos, el correo electrónico CCO no está habilitado de forma predeterminada. Debe habilitarlo manualmente en el nivel de envío o de plantilla de envíos de correo electrónico.
+
+>[!NOTE]
+>
+>Si utiliza Email BCC con MTA mejorado, esta opción se activa automáticamente para todas las entregas.
 
 Para habilitar el correo electrónico CCO para una plantilla de envíos de correo electrónico, siga los pasos a continuación:
 

@@ -6,14 +6,16 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
-source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 100%
 
 ---
 
 # Traducción de un formulario web{#translating-a-web-form}
+
+![](../../assets/common.svg)
 
 Se puede localizar una aplicación web en varios idiomas.
 

@@ -6,14 +6,16 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 100%
 
 ---
 
 # Integración de una oferta mediante un flujo de trabajo{#integrating-an-offer-via-a-workflow}
+
+![](../../assets/v7-only.svg)
 
 Fuera de la actividad de la entrega, varias actividades de flujo de trabajo permiten definir la forma en que se presentan las ofertas:
 

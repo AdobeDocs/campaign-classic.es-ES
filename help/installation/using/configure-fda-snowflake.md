@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 72%
@@ -14,6 +14,8 @@ ht-degree: 72%
 ---
 
 # Configuración del acceso a Snowflake {#configure-access-to-snowflake}
+
+![](../../assets/v7-only.svg)
 
 Utilice la opción **Federated Data Access** (FDA) de Campaign para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a [!DNL Snowflake].
 
