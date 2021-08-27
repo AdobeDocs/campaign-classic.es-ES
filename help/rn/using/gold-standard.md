@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
+source-git-commit: 2c548465a73bcd817c6d2b18853f4f074ed6adfa
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 91%
+source-wordcount: '1160'
+ht-degree: 87%
 
 ---
 
@@ -18,6 +18,15 @@ ht-degree: 91%
 ![](../../assets/v7-only.svg)
 
 Esta página enumera las versiones de [!DNL Gold Standard]. Obtenga más información acerca de Campaign [!DNL Gold Standard] [en esta página](gs-overview.md).
+
+## ![](assets/do-not-localize/limited_2.png) [!DNL Gold Standard] Versión 12{#gs-12}
+
+_27 de agosto de 2021_
+
+La versión 9032@99a3894 incluye las siguientes correcciones:
+
+* La función de firma de seguimiento se ha mejorado para evitar errores vinculados a la forma en que las herramientas de terceros (clientes de correo electrónico, navegadores de Internet, etc.) gestione caracteres especiales. Los parámetros de URL ahora están codificados.
+* Se ha corregido un problema con los selectores de fechas que podría provocar que una consola muestre un mensaje de error de bloqueador. (NEO-36345)
 
 ## ![](assets/do-not-localize/green_2.png) [!DNL Gold Standard] versión 11{#gs-11}
 
