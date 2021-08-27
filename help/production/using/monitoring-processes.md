@@ -257,7 +257,6 @@ Se agrupan en **Monitoring** > &#39;SMTP Monitoring&#39;.
 >
 >* La información relacionada con la supervisión SMTP solo está disponible si se ha activado el canal de correo electrónico.
 >* Los **[!UICONTROL SMTP sending statistics]** solo se ofrecen si el servidor de estadísticas se inicia en la instancia.
-
 >
 
 
@@ -270,7 +269,7 @@ El informe **[!UICONTROL SMTP sending statistics]** permite controlar la activid
 La lista de indicadores para este informe se muestra debajo del gráfico.
 
 1. Número total de mensajes enviados.
-1. 
+1. &#x200B;
    * Línea azul: mensajes listos para enviar que llegaron al compartidor, es decir, el último paso antes de enviar SMTP (coincide con los datos entrantes).
 
    * Línea verde: mensajes enviados correctamente (coincide con los datos salientes).
