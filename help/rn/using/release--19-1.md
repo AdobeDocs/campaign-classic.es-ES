@@ -3,7 +3,7 @@ product: campaign
 title: Notas de la versión de Campaign 19.1
 description: Notas de la versión de Campaign 19.1
 exl-id: 8540b5f0-194b-45f3-b497-5d30efb318b8
-source-git-commit: 01f91abe127629e2d3d0889172969f2f4ba09f46
+source-git-commit: d5585f0130611db399811536e80e76b61c998b9c
 workflow-type: tm+mt
 source-wordcount: '3308'
 ht-degree: 97%
@@ -19,7 +19,7 @@ ht-degree: 97%
 _15 de abril de 2021_
 
 * Se ha corregido una regresión de la consola del cliente que provocaba mensajes de error persistentes en la pantalla de conexión IMS. (NEO-34821)
-* Se ha corregido una regresión que podía bloquear la exportación de datos de flujo de trabajo a una base de datos FDA (Teradate, Snowflake).
+* Se ha corregido una regresión que podía bloquear la exportación de datos de flujo de trabajo a una base de datos FDA (Teradata, Snowflake).
 
 **Solo es obligatorio actualizar la consola. No se requiere ninguna actualización del servidor.**
 
