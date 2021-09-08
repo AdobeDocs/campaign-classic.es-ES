@@ -6,10 +6,10 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 100%
+source-wordcount: '522'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ Para crear un gráfico en un informe, siga los siguientes pasos:
 
       ![](assets/reporting_graph_add_filter.png)
 
-   * Para utilizar datos contextuales, seleccione esta opción y haga clic en el vínculo **[!UICONTROL Advanced settings...]** Seleccione los datos a los que corresponden las estadísticas.
+   * Para utilizar datos contextuales, seleccione **[!UICONTROL Context data]** en la lista desplegable **[!UICONTROL Source]** y haga clic en el enlace **[!UICONTROL Advanced settings...]**. Seleccione los datos a los que corresponden las estadísticas.
 
       ![](assets/reporting_graph_from_context.png)
 
@@ -118,32 +118,6 @@ Si es necesario, puede invertir la secuencia de visualización de los valores. P
 ### Conversión: Embudo {#conversion--funnel}
 
 Este tipo de gráfico le permite realizar un seguimiento de la tasa de conversión de los elementos medidos.
-
-### Progreso: Indicador {#progress--gauge}
-
-Este tipo de gráfico le permite mostrar el progreso de un valor comparado con un objetivo definido. En el siguiente ejemplo, la aguja negra muestra el número de envíos realizados correctamente (76) de un objetivo de 100 envíos. El indicador se divide en tres rangos que corresponden a estados específicos.
-
-![](assets/reporting_graph_type_gauge.png)
-
-Estos elementos se definen al configurar el gráfico.
-
-![](assets/reporting_graph_type_gauge1.png)
-
-* El campo **[!UICONTROL Value]** se representa mediante una aguja negra en el gráfico. Representa el progreso del elemento que desea calcular. El valor que se va a representar ya debe haberse guardado para poder utilizarse.
-* El campo **[!UICONTROL Goal]** representa el valor máximo que desea alcanzar.
-* Con el campo **[!UICONTROL Other mark]** puede añadir un segundo indicador al gráfico.
-* Los campos **[!UICONTROL Display range]** permiten especificar los valores entre los cuales se calcula el informe.
-* El campo **[!UICONTROL Value ranges]** permite atribuir estados (ninguno, malo, aceptable, bueno) a un conjunto de valores para ilustrar mejor el progreso.
-
-En la sección **[!UICONTROL Display settings]**, el campo **[!UICONTROL Change appearance...]** permite configurar el modo en que se muestra el gráfico.
-
-![](assets/reporting_graph_type_gauge2.png)
-
-La opción **[!UICONTROL Display the value below the gauge]** permite mostrar el progreso del valor debajo del gráfico.
-
-El campo **[!UICONTROL Aperture ratio]**, que debe estar entre 0 y 1, permite editar la apertura del informe en un círculo más o menos completo. En el ejemplo anterior, el valor 0,50 corresponde a un semicírculo.
-
-El campo **[!UICONTROL Width]** le permite editar el tamaño del gráfico.
 
 ## Interacción con el gráfico {#interaction-with-the-chart}
 
