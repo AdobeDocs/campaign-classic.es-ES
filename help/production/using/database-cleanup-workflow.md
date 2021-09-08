@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f232588b981d262ef67ff8b7a6f39ff3ea2505d3
 workflow-type: tm+mt
 source-wordcount: '2910'
 ht-degree: 1%
@@ -435,7 +435,7 @@ Esta tarea elimina los registros obsoletos de las tablas de seguimiento y regist
 1. La eliminación masiva se utiliza para purgar todas las tablas de la lista de tablas recuperadas anteriormente. Se utiliza la siguiente consulta:
 
    ```
-   DELETE FROM XtkTrackingLogRcp WHERE iTrackingLogId IN (SELECT iTrackingLogId FROM XtkTrackingLogRcp WHERE tsLog < $(tsDate) LIMIT 5000) 
+   DELETE FROM NmsTrackingLogRcp WHERE iTrackingLogId IN (SELECT iTrackingLogId FROM NmsTrackingLogRcp WHERE tsLog < $(tsDate) LIMIT 5000) 
    ```
 
    donde **$(tsDate)** es la fecha del servidor actual desde la que restamos el periodo definido para la opción **NmsCleanup_TrackingLogPurgeDelay**.

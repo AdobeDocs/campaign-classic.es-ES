@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7d1bb3c6-d056-4212-9500-75459a0046fa
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Preguntas frecuentes sobre flujos de trabajo {#workflows-faq}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Obtenga información sobre cómo organizar procesos y tareas con los flujos de trabajo de Adobe Campaign.
 

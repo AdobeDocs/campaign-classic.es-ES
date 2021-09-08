@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
 workflow-type: tm+mt
 source-wordcount: '2024'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Preguntas frecuentes sobre la actualización de versiones {#build-upgrade-faq}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Adobe Campaign se actualiza periódicamente. Si conoce nuestras [Notas de la versión](../../rn/using/rn-overview.md) publicadas, probablemente sea consciente de que se lanza un promedio anual de dos o tres versiones menores repletas de nuevas funciones, mejoras y correcciones. Además, lanzamos versiones periódicamente solamente con correcciones acumulativas. Esta cadencia regular de actualizaciones tiene como objetivo ofrecerle lo más novedoso y lo mejor, mantener el entorno seguro y, por supuesto, mejorar su experiencia con nuestro producto.
 

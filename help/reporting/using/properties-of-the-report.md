@@ -6,9 +6,9 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '429'
 ht-degree: 100%
 
 ---
@@ -70,7 +70,6 @@ El idioma de edición es el idioma en el que se escribe. Cuando se añade un idi
 
 En la pestaña **[!UICONTROL Rendering]**, se puede personalizar el modo de visualización de datos de la página. Puede seleccionar:
 
-* Motor de procesamiento de gráficos: de forma predeterminada, el motor de procesamiento es HTML 5.
 * El tipo de navegación en el informe es mediante botones o vínculos.
 * La posición predeterminada de las etiquetas para los elementos del informe. Esta posición se puede sobrecargar para cada elemento.
 * La plantilla o tema utilizado para generar páginas del informe.

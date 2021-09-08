@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
 workflow-type: tm+mt
-source-wordcount: '1645'
-ht-degree: 98%
+source-wordcount: '1664'
+ht-degree: 97%
 
 ---
 
@@ -80,12 +80,16 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
    <td><strong>Sustitución</strong></td> 
   </tr>
   <tr>  
+   <td>Creación de informes<br></td>
+   <td><p>Tras el fin de la vida útil del Flash Player de Adobe, el informe Medición y el motor de renderización Gráfico ya no están disponibles. <a href="../../reporting/using/creating-a-new-report.md">Más información</a></p>
+  </tr>
+  <tr>  
    <td>canal de fax<br></td>
    <td><p>A partir de la versión 21.1.3 de Campaign, el canal de fax ya no está disponible. <a href="../../delivery/using/steps-about-delivery-creation-steps.md">Más información</a></p>
+  </tr>
   <tr>
   <td>Dominio de Demdex<br></td>
   <td><p> A partir de la versión 21.1.3 de Campaign, el dominio de demdex utilizado para importar y exportar audiencias a Adobe Experience Cloud ya no está disponible. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">Más información</a></p> 
-  </td>
   </td>
   </tr>
    <tr> 
