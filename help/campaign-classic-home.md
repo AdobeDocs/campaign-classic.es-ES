@@ -3,10 +3,10 @@ keywords: Campaign Classic, inicio, temas populares
 product: campaign
 title: Documentación del producto de Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: a53ad78121c530469dc1fdc1aadd71d7d4426890
+source-git-commit: 12b191ffe3d407f1a69393278a7678a14e53d23e
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 98%
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 
 * **[Proteja sus instancias de Campaign](technotes/using/acc-config-updates.md)**<br/> Actualice a las últimas compilaciones para proteger su plataforma de Campaign.
 
-* **[Actualice la integración de los activadores de Adobe Experience Cloud](integrations/using/configuring-adobe-io.md)**<br/> El servicio de autenticación de autenticación heredada ha llegado al final de su vida útil. Descubra más información sobre cómo migrar a Adobe I/O.
+* **[Actualice la ](integrations/using/configuring-adobe-io.md)**<br/> integración de Adobe Experience Cloud TriggersEl servicio de autenticación oAuth heredado ha llegado al final de su vida útil: debe migrar a Adobe I/O.
 
 [Más actualizaciones](/help/rn/using/documentation-updates.md)
 
