@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 0c6e328087135fd9b35ca6cf0669090be0c93957
+source-git-commit: b3a3ec871bca9132f10b319ba1f93aeda80d6747
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '422'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ Se asocia un estado a cada compilación. A continuación encontrará la lista de
 
 ![](assets/do-not-localize/green3.png) **Disponibilidad general** (GA): validada en producción y recomendada por Adobe.
 
-Las **últimas versiones de GA** son: [[!DNL Gold Standard]  12](../../rn/using/gold-standard.md) y [Campaign 21.1.4](../../rn/using/latest-release.md#release-21-1-4-build-9340).
+Las **últimas versiones de GA** son: [[!DNL Gold Standard]  11](../../rn/using/gold-standard.md#gs-11) y [Campaign 21.1.4](../../rn/using/latest-release.md#release-21-1-4-build-9340).
 
 ![](assets/do-not-localize/limited3.png) **Disponibilidad limitada** (LA): solo implementación a petición.
 
