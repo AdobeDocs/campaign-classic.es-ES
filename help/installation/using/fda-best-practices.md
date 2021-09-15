@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
-source-git-commit: 1312f7c319c96851bc83ae21501164e2688d0dff
+source-git-commit: b458ac67733a2f0e508df729add37d9a78dbcbd8
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 40%
@@ -14,6 +14,8 @@ ht-degree: 40%
 ---
 
 # Prácticas recomendadas y limitaciones
+
+![](../../assets/v7-only.svg)
 
 ## Optimización de la personalización de correo electrónico con datos externos {#optimizing-email-personalization-with-external-data}
 
@@ -23,7 +25,7 @@ Durante el análisis de envío, esta opción crea y ejecuta automáticamente un 
 
 Esta opción mejora significativamente el rendimiento al ejecutar el paso de personalización.
 
-## Usar datos de una base de datos externa en un flujo de trabajo {#using-data-from-an-external-database-in-a-workflow}
+## Uso de datos de una base de datos externa en un flujo de trabajo {#using-data-from-an-external-database-in-a-workflow}
 
 En varias actividades de flujo de trabajo de Adobe Campaign, puede utilizar los datos almacenados en una base de datos externa.
 

@@ -5,14 +5,14 @@ description: Nota técnica
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: 53ac193211a1d98c45e97bf01ab0ad843b8f8f02
+source-git-commit: b458ac67733a2f0e508df729add37d9a78dbcbd8
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1130'
 ht-degree: 17%
 
 ---
 
-# Actualizaciones de configuración de Adobe Campaign: marzo de 2021 {#acc-config-updates}
+# Actualizaciones de configuración de Adobe Campaign 2021 {#acc-config-updates}
 
 ![](../../assets/v7-only.svg)
 
@@ -26,7 +26,7 @@ Por motivos de seguridad, debe actualizar a una de las versiones que se indican 
 
 >[!NOTE]
 >
->En caso de que tenga preguntas acerca de estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html?lang=es/enterprise/using/support-for-experience-cloud.ug.html).
+>En caso de que tenga preguntas acerca de estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ## Actualizaciones de seguridad {#acc-security-updates}
 

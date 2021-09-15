@@ -7,7 +7,7 @@ feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b458ac67733a2f0e508df729add37d9a78dbcbd8
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # Conector de Adobe Analytics{#adobe-analytics-connector}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## Acerca de la integración del conector de Adobe Analytics {#about-analytics-connector-integration}
 
