@@ -3,10 +3,10 @@ keywords: Campaign Classic, inicio, temas populares
 product: campaign
 title: Documentación del producto de Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 12b191ffe3d407f1a69393278a7678a14e53d23e
+source-git-commit: 1d662f2f6d4b664e1cc2977cd3207d1b71983b04
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 89%
+source-wordcount: '260'
+ht-degree: 80%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 89%
 
 * **[¡El lanzamiento de septiembre está activo!](rn/using/latest-release.md)**<br/> Descubra nuevas funcionalidades, mejoras y correcciones en las notas de la versión
 
-* **[Preguntas frecuentes sobre la protección de la privacidad del correo de Apple](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=es)**<br/> Encuentre orientación básica en respuesta al anuncio de Apple sobre iOS 15
+* **[Preguntas frecuentes y ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)**   **[](technotes/using/apple-mail-app-privacy-protection.md)**<br/> notas técnicas sobre la protección de la privacidad de Apple MailBusque la guía inicial en respuesta al anuncio de Apple con respecto a iOS 15
 
 * **[¿Se conecta a través de IMS/ID de Adobe? Actualice a las últimas compilaciones](technotes/using/ims-updates.md)**<br/> Si utiliza IMS para conectarse a Campaign, debe actualizar para poder seguir conectándose después del** 30 de junio de 2021.**
 

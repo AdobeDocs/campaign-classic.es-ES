@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
 workflow-type: tm+mt
 source-wordcount: '2442'
 ht-degree: 100%
@@ -301,7 +301,7 @@ Para exportar un paquete desde una definición de paquete, siga los pasos siguie
 
 ## Importar paquetes {#importing-packages}
 
-Se puede acceder al asistente de importación de paquetes a través del menú principal **[!UICONTROL Tools > Advanced > Package import...]** de la consola del cliente de Adobe Campaign.
+Se puede acceder al asistente de importación de paquetes a través del menú principal **[!UICONTROL Tools > Advanced > Import package]** de la consola del cliente de Adobe Campaign.
 
 Se puede importar un paquete desde una exportación realizada anteriormente, por ejemplo, desde otra instancia de Adobe Campaign o un [paquete integrado](../../installation/using/installing-campaign-standard-packages.md), en función de los términos de la licencia.
 

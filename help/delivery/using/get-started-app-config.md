@@ -6,8 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
+workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ Como cliente on-premise, debe instalar un paquete integrado.
 
 Los pasos de instalación son estos:
 
-1.  En la consola de cliente de Adobe Campaign, acceda al asistente de importación del paquete desde **[!UICONTROL Tools > Advanced > Package import...]**.
+1.  En la consola de cliente de Adobe Campaign, acceda al asistente de importación del paquete desde **[!UICONTROL Tools > Advanced > Import package]**.
 
    ![](assets/package_ios.png)
 
