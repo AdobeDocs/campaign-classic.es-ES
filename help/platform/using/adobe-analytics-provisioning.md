@@ -6,7 +6,7 @@ description: Más información acerca del conector Adobe Analytics aprovisionami
 feature: Overview
 role: User, Admin
 level: Beginner
-source-git-commit: 24cd84d37c48613aa035769514a43b6dd7aa3869
+source-git-commit: 5f596c14639e085edab9c08c2e3abba36e76acd3
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 8%
@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # Aprovisionamiento de conectores de Adobe Analytics {#adobe-analytics-connector-provisioning}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 >[!IMPORTANT]
 >
