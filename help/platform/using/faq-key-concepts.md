@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
-source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '866'
 ht-degree: 100%
 
 ---
@@ -56,7 +56,7 @@ Se trata de un conjunto de derechos y restricciones que autorizan o deniegan:
 
 Adobe Campaign ofrece un conjunto de herramientas que le ayudan a cumplir con la privacidad de RGPD y CCPA.
 
-Consulte [este documento](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-overview.html) para comprender las herramientas y las funcionalidades que proporciona Adobe Campaign, así como las prácticas recomendadas, para ayudarle a cumplir con el GDPR al utilizar nuestro servicio. Los pasos de implementación para Campaign Classic se describen en [este artículo](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html).
+Consulte [este documento](privacy-and-recommendations.md) para comprender las herramientas y las funcionalidades que proporciona Adobe Campaign, así como las prácticas recomendadas, para ayudarle a cumplir con el GDPR al utilizar nuestro servicio. Los pasos de implementación para Campaign Classic se describen en [este artículo](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html).
 
 ## ¿Cuáles son los conceptos de la interfaz de usuario de Campaign que debería conocer? {#what-are-campaign-user-interface-concepts-i-should-know-}
 
@@ -126,7 +126,7 @@ Obtenga información sobre cómo [crear un formulario web](../../web/using/about
 
 Adobe evalúa constantemente las funcionalidades del producto y planea con el transcurso del tiempo reemplazar las funcionalidades con versiones más potentes o decide reimplementar partes seleccionadas para mejorarlas de cara a futuras expectativas o extensiones. Como Campaign funciona con herramientas de terceros, la compatibilidad se actualiza de forma regular para implementar solamente las versiones compatibles.
 
-[Haga clic aquí para obtener más información](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html?lang=es).
+[Haga clic aquí para obtener más información](../../rn/using/deprecated-features.md).
 
 ## ¿Hay actualizaciones de documentación nuevas y materiales de ayuda publicados? {#are-there-new-documentation-updates-and-help-materials-released-}
 

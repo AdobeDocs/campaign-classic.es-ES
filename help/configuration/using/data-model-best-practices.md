@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '4013'
+source-wordcount: '4007'
 ht-degree: 1%
 
 ---
@@ -251,7 +251,7 @@ De forma predeterminada, los registros de envío y seguimiento de Adobe Campaign
 * Si desea mantener los registros más tiempo, esta decisión debe tomarse cuidadosamente en función del tamaño de la base de datos y el volumen de mensajes enviados. Como recordatorio, la secuencia de Adobe Campaign es un entero de 32 bits.
 * Se recomienda no tener más de mil millones de registros a la vez en estas tablas (alrededor del 50% de los 2.140 millones de id disponibles) para limitar los riesgos de consumir todos los id disponibles. Esto requerirá que algunos clientes reduzcan la duración de la retención por debajo de 180 días.
 
-Obtenga más información sobre la retención de datos en [Campaign Privacy and Security Guidelines](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-overview.html#consent).
+Obtenga más información sobre la retención de datos en [Campaign Privacy and Security Guidelines](../../platform/using/privacy-and-recommendations.md).
 
 Obtenga más información sobre el flujo de trabajo de limpieza de la base de datos de Campaign [en esta sección](../../production/using/database-cleanup-workflow.md).
 

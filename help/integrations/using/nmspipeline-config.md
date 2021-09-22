@@ -4,10 +4,10 @@ title: Configuración de la integración
 description: Configuración de la integración
 audience: integrations
 content-type: reference
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: c6d5e597a02a1210507b0c6d84ab7d170e877eb1
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 100%
+source-wordcount: '372'
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,7 @@ El parámetro &quot;Consumidor&quot; identifica la instancia como uno de estos c
 ## Cómo configurar la opción Canalización {#configure-pipeline-option}
 
 Añada o edite los activadores de Experience Cloud en la matriz &quot;activadores&quot;; no edite el resto.
-Asegúrese de que JSON sea válido con la ayuda de este [sitio web](http://jsonlint.com/).
+Asegúrese de que el JSON sea válido con la ayuda de este [sitio web](https://jsonlint.com/).
 
 * &quot;nombre&quot; es el ID del desencadenador. Un comodín &quot;*&quot; captura todos los activadores.
 * &quot;Consumidor&quot; es cualquier cadena única que identifica de forma exclusiva la instancia de nlserver. Normalmente puede ser el nombre de la instancia. Para varios entornos (dev/stage/prod), asegúrese de que sea único para cada uno de ellos para que cada instancia obtenga una copia del mensaje.

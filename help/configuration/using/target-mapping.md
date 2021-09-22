@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 38333669-5598-4811-a121-b677c1413f56
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: ed43a632a962747c9402ff8d5f0ce442c2cc6490
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 3%
@@ -96,7 +96,9 @@ Para ello, siga los siguientes pasos:
 
    Haga clic en **[!UICONTROL Define new additional fields]** para seleccionar la dimensión a la que desea dirigirse en el envío.
 
-   De forma predeterminada, la gestión de exclusión se almacena en las mismas tablas que los mensajes. Marque la casilla **Generate a storage schema for tracking** si desea configurar el almacenamiento para el seguimiento vinculado a la asignación de destino.
+   De forma predeterminada, la gestión de exclusión se almacena en la misma tabla que los mensajes.
+
+   Marque la casilla **Generate a storage schema for tracking** si desea configurar el almacenamiento para el seguimiento vinculado a la asignación de destino.
 
    ![](assets/mapping_diffusion_wizard_3.png)
 

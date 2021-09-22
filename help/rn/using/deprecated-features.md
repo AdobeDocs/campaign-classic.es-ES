@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 97%
+source-wordcount: '1657'
+ht-degree: 95%
 
 ---
 
@@ -114,7 +114,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
   </tr> 
   <tr> 
    <td>Aplicaciones web: micrositios</td>
-   <td>A partir de la versión 18.10 de Campaign, los micrositios ya no están disponibles. Puede mejorar la seguridad restringiendo el acceso solo a dominios dedicados en archivos de configuración de Adobe Campaign, y utilizar direcciones URL personalizadas en Campaign mediante alias DNS. <a href="https://helpx.adobe.com/es/campaign/kb/domain-name-delegation.html">Más información</a></td>
+   <td>A partir de la versión 18.10 de Campaign, los micrositios ya no están disponibles. Puede mejorar la seguridad restringiendo el acceso solo a dominios dedicados en archivos de configuración de Adobe Campaign, y utilizar direcciones URL personalizadas en Campaign mediante alias DNS.</td>
   </tr> 
   <tr> 
    <td>Notificaciones push: conector binario de iOS</td>
@@ -183,7 +183,7 @@ A partir de la versión de primavera (19.1), Adobe Campaign deja de ser compatib
 
 A partir de la versión de primavera (19.1), Adobe Campaign deja de ser compatible con las siguientes herramientas.
 
-* Java JDK 7. [Más información](http://www.oracle.com/technetwork/java/javase/eol-135779.html)
+* Java JDK 7. [Más información](https://www.oracle.com/technetwork/java/javase/eol-135779.html)
 * Libre Office 3.5 / 4.3 / 5.x, excepto cuando se incorpora en otra herramienta. [Más información](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
 
 ### Motores de las bases de datos {#dbe-eol}
@@ -201,14 +201,14 @@ A partir de la versión 20.2, Adobe Campaign deja de ser compatible con el sigui
 A partir de la versión de primavera (19.1), Adobe Campaign deja de ser compatible con los siguientes servidores FDA:
 
 * PostgreSQL 9.3. [Más información](https://www.postgresql.org/support/versioning)
-* MySQL 5.5. [Más información](http://www.fromdual.com/support-for-mysql-from-oracle)
-* DB2 9.5. [Más información](http://www-01.ibm.com/support/docview.wss?uid=swg21168270)
+* MySQL 5.5. [Más información](https://www.fromdual.com/support-for-mysql-from-oracle)
+* DB2 9.5. [Más información](https://www-01.ibm.com/support/docview.wss?uid=swg21168270)
 * Teradata 14 versión 14.1. [Más información](https://community.teradata.com/t5/Database/Teradata-Database-Product-Life-Cycle/td-p/35068)
 
 Campaign Classic no es compatible con los siguientes servidores de acceso de datos federado (FDA).
 
-* DB2 UDB 9.5, 9.7. La versión más reciente de DB2 es compatible mediante el acceso de datos federado (FDA). [Más información](http://www-01.ibm.com/support/docview.wss?uid=swg21168270)
-* Oracle 9i, 10G R2. Las versiones más recientes de Oracle son compatibles mediante el acceso de datos federado (FDA). [Más información](http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)
+* DB2 UDB 9.5, 9.7. La versión más reciente de DB2 es compatible mediante el acceso de datos federado (FDA). [Más información](https://www-01.ibm.com/support/docview.wss?uid=swg21168270)
+* Oracle 9i, 10G R2. Las versiones más recientes de Oracle son compatibles mediante el acceso de datos federado (FDA). [Más información](https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)
 * PostgreSQL 8.3, 8.4, 9.0, 9.1, 9.2. Las versiones más recientes de PostgreSQL son compatibles con el acceso de datos federados (FDA). [Más información](https://www.postgresql.org/support/versioning)
 * MSSQL 2000, 2005, 2008 R2. Las versiones más recientes de SQL Server son compatibles mediante el acceso de datos federado (FDA). [Más información](https://support.microsoft.com/es-es/lifecycle/search/1044)
 * MySQL 5.1. Las versiones más recientes de MySQL son compatibles mediante acceso de datos federado (FDA). [Más información](https://es.wikipedia.org/wiki/InfiniDB)

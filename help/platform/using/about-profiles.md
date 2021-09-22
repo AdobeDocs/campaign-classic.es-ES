@@ -6,10 +6,10 @@ feature: Profiles, Audiences
 role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: ed43a632a962747c9402ff8d5f0ce442c2cc6490
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 100%
+source-wordcount: '836'
+ht-degree: 98%
 
 ---
 
@@ -93,13 +93,11 @@ Los perfiles activos son los perfiles que se toman en cuenta con fines de factur
 
 La facturación solo abarca los perfiles que están **activos**. Un perfil se considera activo si este se ha identificado o comunicado en los últimos 12 meses a través de cualquier canal.
 
-Los perfiles que se excluyen durante la preparación de la entrega (reglas de tipología, cuarentena) no se tienen en cuenta. Un perfil identificado por varios envíos solo se contará una vez.
+Un perfil identificado por varios envíos se cuenta solo una vez.
 
 >[!NOTE]
 >
 >Los canales de Facebook y Twitter no se tienen en cuenta.
-
-Desde el explorador de Campaign, vaya a **[!UICONTROL Administration > Campaign Management > Customer metrics]** para obtener una vista general del número de perfiles activos. El recuento real lo realiza el **[!UICONTROL Number of active billing profiles]** ([!UICONTROL billingActiveContactCount]) [flujo de trabajo técnico](../../workflow/using/about-technical-workflows.md). Este flujo de trabajo se ejecuta todos los días y agrega los nuevos datos al informe existente correspondiente al periodo actual en la carpeta **[!UICONTROL Customer metrics]**.
 
 Tenga en cuenta que el recuento de perfiles principales solo está disponible para las **instancias de marketing**. No está disponible para Instancias de ejecución; es decir, instancias de MID (fuentes intermedias) y RT (mensajería en tiempo real/centro de mensajes).
 

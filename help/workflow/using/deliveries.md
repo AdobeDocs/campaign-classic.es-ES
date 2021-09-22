@@ -5,9 +5,9 @@ description: Descubra más información sobre los flujos de trabajo Entregas
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 794be3d196ea8292699bbf29c8a7038177763e31
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '323'
 ht-degree: 100%
 
 ---
@@ -35,11 +35,6 @@ Los flujos de trabajo detallados a continuación se instalan con el módulo **En
    <td> <span class="uicontrol">Facturación</span> <br /> </td> 
    <td> <span class="uicontrol">facturación</span> <br /> </td> 
    <td> Este flujo de trabajo envía el informe de actividad del sistema al operador “facturación” por correo electrónico. De forma predeterminada, se activa el día 25 de cada mes.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">Facturación (perfiles activos)</span> <br /> </td> 
-   <td> <span class="uicontrol">billingActiveContactCount</span> <br /> </td> 
-   <td> <p>Este flujo de trabajo cuenta la cantidad de perfiles activos. Se activa cada noche a la 1 a. m. de forma predeterminada.</p> <p>Un “<strong>perfil</strong>” es un registro de información (por ejemplo, un registro de la tabla nmsRecipient o una tabla externa que contiene una ID de cookie, ID de cliente, ID móvil u otra información relacionada con un canal determinado) que representa a un cliente final, a un cliente potencial o a un contacto. La facturación solo abarca los perfiles que están “activos”. Un perfil se considera “activo” si este ha recibido comunicaciones o mensajes en los últimos 12 meses a través de cualquier canal.</p> <p>Los canales de Facebook y Twitter no se tienen en cuenta.</p> <p>Puede obtener una vista general del <span class="uicontrol">Number of active profiles</span> en el menú <span class="uicontrol">Administration</span> &gt; <span class="uicontrol">Campaign Management</span> &gt; <span class="uicontrol">Customer metrics</span>.</p> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Alias cleansing</span> <br /> </td> 

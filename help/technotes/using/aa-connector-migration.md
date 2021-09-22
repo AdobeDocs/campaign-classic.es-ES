@@ -2,14 +2,15 @@
 product: campaign
 title: Migrar al conector de Adobe Analytics
 description: 'Campaign: Preguntas más frecuentes sobre el conector de Analytics'
-source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
+exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
+source-git-commit: 4b6fc31aefd12b3667501503fc5e10d5f1f0738f
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '850'
 ht-degree: 5%
 
 ---
 
-# Cómo migrar al conector Adobe Analytics {#acc-aa-faq}
+# Cómo migrar las integraciones de Genesis existentes a Adobe Analytics Connector {#acc-aa-faq}
 
 ![](../../assets/v7-only.svg)
 
@@ -49,12 +50,10 @@ Aprenda a comprobar su versión [en esta sección](../../platform/using/launchin
 
 Debe actualizar a Campaign 21.1.3 (o más) **antes del 1 de marzo de 2022**.
 
-Como cliente alojado, el Adobe trabajará con usted para actualizar sus instancias a la versión más reciente.
+Como cliente alojado, el Adobe trabajará con usted para actualizar sus instancias a la versión más reciente. A continuación, podrá utilizar el [Conector de Adobe Analytics](../../platform/using/adobe-analytics-connector.md).
 
 Como cliente local/híbrido, debe actualizar a una de las versiones más recientes para beneficiarse de la nueva integración.
-
-Una vez actualizadas todas las instancias, podrá [implementar la nueva integración](../../platform/using/adobe-analytics-connector.md) en el conector de Adobe Analytics y garantizar una transición sin problemas.
-
+Una vez actualizadas todas las instancias, podrá [implementar la nueva integración](../../platform/using/adobe-analytics-provisioning.md) en el conector de Adobe Analytics y garantizar una transición sin problemas.
 
 ## Preguntas frecuentes{#faq-aa}
 

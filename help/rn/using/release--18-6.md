@@ -9,9 +9,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a849ce10-0972-4c42-b10e-67a81c79bc65
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '794'
 ht-degree: 97%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. [actualice a la última versión](../../production/using/build-upgrade.md) o póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html?lang=es/enterprise/using/support-for-experience-cloud.ug.html).
+>Se ha retirado esta compilación. [actualice a la última versión](../../production/using/build-upgrade.md) o póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Novedades**
 
@@ -109,7 +109,7 @@ Para obtener más información sobre la banda de consultas, vea esta sección.
 
 decryptString
 
-La función **decryptString** ya no se utiliza. Consulte el artículo [Funciones obsoletas y eliminadas](https://helpx.adobe.com/es/campaign/kb/deprecated-and-removed-features.html).
+La función **decryptString** ya no se utiliza. Consulte el artículo [Funciones obsoletas y eliminadas](deprecated-features.md).
 
 Para nuevos clientes, esta función se utiliza ahora solamente para descifrar el ID cifrado del destinatario en las páginas de aterrizaje. Para descifrar contraseñas almacenadas en una cuenta externa, utilice la nueva función **decryptPassword**.
 

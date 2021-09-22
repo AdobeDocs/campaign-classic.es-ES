@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '2038'
+source-wordcount: '2033'
 ht-degree: 100%
 
 ---
@@ -124,7 +124,7 @@ Adobe Campaign le permite recopilar datos, incluida la información personal y c
 
 ## Administración de la privacidad {#privacy-management}
 
-La administración de la privacidad se refiere a todos los procesos y herramientas que pueden ayudarle a cumplir con las regulaciones de privacidad (RGPD, CCPA, etc.). Obtenga información general sobre qué es la administración de la privacidad en [esta página](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-overview.html).
+La administración de la privacidad se refiere a todos los procesos y herramientas que pueden ayudarle a cumplir con las regulaciones de privacidad (RGPD, CCPA, etc.). Obtenga información general sobre qué es la administración de la privacidad en [esta página](privacy-and-recommendations.md).
 
 Adobe Campaign le ofrece varios conjuntos de funciones dedicadas a la administración de la privacidad:
 * administración de consentimiento, retención de datos y funciones de usuario. Consulte [esta sección](#consent).

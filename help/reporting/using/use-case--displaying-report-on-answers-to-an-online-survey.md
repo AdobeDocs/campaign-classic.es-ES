@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 100%
@@ -41,23 +41,23 @@ Para recopilar las respuestas a la encuesta, realice los pasos siguientes:
 1. Edite la actividad y seleccione la encuesta cuyas respuestas desee analizar.
 1. Active la opción **[!UICONTROL Select all the answer data]** para recopilar toda la información.
 
-   ![](assets/reporting_usecase_1_01.png)
+   ![](../../surveys/using/assets/reporting_usecase_1_01.png)
 
 1. Seleccione las columnas que desee extraer (en este caso, seleccione: todos los campos archivados). Son los campos que contienen las respuestas.
 
-   ![](assets/reporting_usecase_1_02.png)
+   ![](../../surveys/using/assets/reporting_usecase_1_02.png)
 
 1. Una vez configurado el cuadro de recopilación de respuestas, añada una actividad de tipo **[!UICONTROL List update]** para guardar los datos.
 
-   ![](assets/reporting_usecase_1_04.png)
+   ![](../../surveys/using/assets/reporting_usecase_1_04.png)
 
    En esta actividad, especifique la lista que desea actualizar y desmarque la opción **[!UICONTROL Purge and re-use the list if it exists (otherwise add to the list)]**: las respuestas se añaden a la tabla existente. Esta opción permite hacer referencia a la lista en un cubo. El esquema vinculado a la lista no se regenera para cada actualización, lo que garantiza la integridad del cubo que utiliza esta lista.
 
-   ![](assets/reporting_usecase_1_03.png)
+   ![](../../surveys/using/assets/reporting_usecase_1_03.png)
 
 1. Inicie el flujo de trabajo para confirmar su configuración.
 
-   ![](assets/reporting_usecase_1_05.png)
+   ![](../../surveys/using/assets/reporting_usecase_1_05.png)
 
    La lista especificada se crea e incluye el esquema de las respuestas a la encuesta.
 
@@ -71,11 +71,11 @@ Después, puede crear el cubo y configurar sus medidas: se utilizan para crear l
 
 En este ejemplo, el cubo se basa en los datos de la lista suministrados por el flujo de trabajo creado anteriormente.
 
-![](assets/reporting_usecase_2_01.png)
+![](../../surveys/using/assets/reporting_usecase_2_01.png)
 
 Defina las dimensiones y las medidas que desea mostrar en el informe. Aquí queremos mostrar la fecha del contrato y el país del encuestado.
 
-![](assets/reporting_usecase_2_02.png)
+![](../../surveys/using/assets/reporting_usecase_2_02.png)
 
 La pestaña **[!UICONTROL Preview]** permite controlar la renderización del informe.
 
@@ -83,8 +83,8 @@ La pestaña **[!UICONTROL Preview]** permite controlar la renderización del inf
 
 Después, se puede crear un informe basado en este cubo y procesar los datos y la información.
 
-![](assets/reporting_usecase_3_01.png)
+![](../../surveys/using/assets/reporting_usecase_3_01.png)
 
 Adapte la información para que se muestre según sus necesidades.
 
-![](assets/reporting_usecase_3_02.png)
+![](../../surveys/using/assets/reporting_usecase_3_02.png)

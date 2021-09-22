@@ -5,11 +5,11 @@ description: Más información acerca del conector Adobe Analytics
 feature: Overview
 role: User, Admin
 level: Beginner
-exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
-source-git-commit: 0cfe8439007b56014eba497c511904c4f11b39ce
+exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
+source-git-commit: 1f6846f29c44719fdbd334327466619ed265452a
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 100%
+source-wordcount: '1515'
+ht-degree: 93%
 
 ---
 
@@ -45,33 +45,37 @@ Los campos de acción de cada herramienta son los siguientes:
 
 ## Configuración de la integración {#setting-up-the-integration}
 
+>[!IMPORTANT]
+>
+> Para implementaciones híbridas y locales, asegúrese de seguir los pasos de aprovisionamiento detallados en esta [página](../../platform/using/adobe-analytics-provisioning.md).
+
 Para configurar el conector de datos, debe conectarse a la instancia de Adobe Campaign y realizar las siguientes operaciones:
 
-1. [Creación de un grupo de informes en Adobe Analytics](#report-suite-analytics)
 1. [Configuración de las variables de conversión y los eventos de éxito](#configure-conversion-success)
 1. [Configuración de la cuenta externa en Adobe Campaign Classic](#external-account-classic)
 
-### Creación de un grupo de informes en Adobe Analytics {#report-suite-analytics}
+<!--
+### Create your Report suite in Adobe Analytics {#report-suite-analytics}
 
-Para configurar la integración de Adobe Analytics/Adobe Campaign Classic, debe conectarse a la instancia [!DNL Adobe Analytics] y realizar las siguientes operaciones:
+To set up the Adobe Analytics/Adobe Campaign Classic integration, you must connect to your [!DNL Adobe Analytics] instance and perform the following operations:
 
-1. En [!DNL Adobe Analytics], seleccione **[!UICONTROL Admin tab]** y haga clic en **[!UICONTROL All admin]**.
+1. From [!DNL Adobe Analytics], select the **[!UICONTROL Admin tab]** then click **[!UICONTROL All admin]**.
 
    ![](assets/analytics_connnector_1.png)
 
-1. Haga clic en **[!UICONTROL Report suites]**.
+1. Click **[!UICONTROL Report suites]**.
 
    ![](assets/analytics_connnector_2.png)
 
-1. En la página **[!UICONTROL Report suite manager]**, haga clic en **[!UICONTROL Create new]** y luego en **[!UICONTROL Report suite]**.
+1. From the **[!UICONTROL Report suite manager]** page, click **[!UICONTROL Create new]** then **[!UICONTROL Report suite]**.
 
-   Para ver el procedimiento detallado sobre la creación de **[!UICONTROL Report suite]**, consulte esta [sección](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=es#prerequisites).
+   For the detailed procedure on **[!UICONTROL Report suite]** creation, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=en#prerequisites).
 
    ![](assets/analytics_connnector_3.png)
 
-1. Seleccione una plantilla.
+1. Select a template. 
 
-1. Configure su nuevo grupo de informes con la siguiente información:
+1. Configure your new report suite with the following information:
 
    * **[!UICONTROL Report Suite ID]**
    * **[!UICONTROL Site Title]**
@@ -81,13 +85,14 @@ Para configurar la integración de Adobe Analytics/Adobe Campaign Classic, debe 
 
    ![](assets/analytics_connnector_4.png)
 
-1. Cuando esté configurado, haga clic en **[!UICONTROL Create report suite]**.
+1. When configured, click **[!UICONTROL Create report suite]**.
+-->
 
 ### Configuración de las variables de conversión y los eventos de éxito {#configure-conversion-success}
 
-Después de crear su **[!UICONTROL Report suite]**, debe configurar sus **[!UICONTROL Conversion variables]** y **[!UICONTROL Success events]** de la siguiente manera:
+Debe configurar sus **[!UICONTROL Conversion variables]** y **[!UICONTROL Success events]** de la siguiente manera:
 
-1. Seleccione el **[!UICONTROL Report suite]** configurado anteriormente.
+1. Seleccione el **[!UICONTROL Report suite]** que desea vincular con Adobe Campaign.
 
 1. En el botón **[!UICONTROL Edit settings]**, seleccione **[!UICONTROL Conversion]** > **[!UICONTROL Conversion variables]**.
 
@@ -118,13 +123,19 @@ Después de crear su **[!UICONTROL Report suite]**, debe configurar sus **[!UICO
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   Para aprender a configurar **[!UICONTROL Success events]**, consulte esta [sección](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html?lang=es#admin-tools)
+   Para aprender a configurar **[!UICONTROL Success events]**, consulte esta [sección](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html?lang=es#admin-tools).
+
+   >[!NOTE]
+   >
+   > Solo se admiten **[!UICONTROL Success events]** de tipo numérico.
 
    ![](assets/analytics_connnector_8.png)
 
 1. Haga clic en **[!UICONTROL Save]** cuando termine.
 
-Cuando se configure el grupo de informes, deberá configurar las **[!UICONTROL External accounts]** en Adobe Campaign Classic.
+Después de configurar **[!UICONTROL Conversion variables]** y **[!UICONTROL Success events]**, asegúrese de que las variables están incluidas en el **[!UICONTROL Product Profile]** creado para el conector de Analytics. Para obtener más información, consulte [Crear un perfil de producto de Adobe Analytics](../../platform/using/adobe-analytics-provisioning.md#analytics-product-profile).
+
+Luego tendrá que configurar el **[!UICONTROL External accounts]** en Adobe Campaign Classic.
 
 ### Configuración de la cuenta externa en Adobe Campaign Classic {#external-account-classic}
 
@@ -150,7 +161,7 @@ Para obtener más información, consulte la página [Perfiles de producto para A
 
 1. Haga clic en **[!UICONTROL Configure]** junto a la lista desplegable **[!UICONTROL Integration]**.
 
-1. Desde la ventana **[!UICONTROL Configure Analytics integration]**, asigne la cuenta externa con el grupo de informes creado anteriormente, con la siguiente información:
+1. En la ventana **[!UICONTROL Configure Analytics integration]** , asigne la cuenta externa al grupo de informes con la siguiente información:
 
    * **[!UICONTROL E-Mail]**
    * **[!UICONTROL IMS Org]**

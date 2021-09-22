@@ -5,7 +5,7 @@ description: Descubra más información sobre cómo configurar la canalización
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: 84312974b9b7372c8a46fd1c7ead1148690bcd83
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 99%
@@ -113,7 +113,7 @@ El servicio de canalización realiza un seguimiento de los mensajes recuperados 
 Para configurar la opción Canalización, debe seguir estas recomendaciones:
 
 * Añada o edite los activadores en **[!UICONTROL Triggers]**; no debe editar el resto.
-* Asegúrese de que el JSON sea válido. Puede utilizar un validador JSON, por ejemplo, consulte este [sitio web](http://jsonlint.com/) .
+* Asegúrese de que el JSON sea válido. Puede utilizar un validador JSON, por ejemplo, consulte este [sitio web](https://jsonlint.com/) .
 * “name” corresponde al ID del desencadenador. El comodín &quot;*&quot; capturará todos los activadores.
 * “Consumidor” corresponde al nombre de la instancia o aplicación que realiza la llamada.
 * La canalización también admite el tema “alias”.

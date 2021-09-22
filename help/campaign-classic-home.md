@@ -3,7 +3,7 @@ keywords: Campaign Classic, inicio, temas populares
 product: campaign
 title: Documentación del producto de Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 1d662f2f6d4b664e1cc2977cd3207d1b71983b04
+source-git-commit: acb2c4e90c4ce349ea9c1ad53d703c13195872e1
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 80%
@@ -28,7 +28,7 @@ ht-degree: 80%
 
 * **[Actualice la ](integrations/using/configuring-adobe-io.md)**<br/> integración de Adobe Experience Cloud TriggersEl servicio de autenticación oAuth heredado ha llegado al final de su vida útil: debe migrar a Adobe I/O.
 
-[Más actualizaciones](/help/rn/using/documentation-updates.md)
+[Más actualizaciones](rn/using/documentation-updates.md)
 
 ## Páginas principales
 
@@ -80,7 +80,7 @@ ht-degree: 80%
 
 | Páginas útiles | Recursos para desarrolladores |
 |---|---|
-| [Notas de la versión](/help/rn/using/latest-release.md) | [Lista de mensajes de error](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) |
+| [Notas de la versión](rn/using/latest-release.md) | [Lista de mensajes de error](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) |
 | [Videotutoriales](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es) | [Modelo de datos de Campaign](configuration/using/about-data-model.md) |
 | [Matriz de compatibilidad](rn/using/compatibility-matrix.md) | [JSAPI de Campaign](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | Actualización de [[!DNL Gold Standard] ](rn/using/gs-overview.md) | [Guía de seguimiento](https://helpx.adobe.com/es/campaign/kb/acc-tracking.html) |
