@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: advanced-management
 exl-id: c7bff902-4f5d-4783-aec4-13561fa7d242
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '551'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 ![](../../assets/common.svg)
 
-## Pestaña de ejecución {#execution-tab}
+## Pestaña Ejecución {#execution-tab}
 
 La pestaña **[!UICONTROL Execution]**, dentro de la ventana **[!UICONTROL Properties]** en un flujo de trabajo, se divide en 3 secciones:
 
@@ -41,7 +41,7 @@ Esta sección solo aparece en los flujos de trabajo de la campaña.
 
    Si su instalación incluye varios servidores de flujo de trabajo, utilice este campo para elegir el equipo en el que desea ejecutar el flujo de trabajo. Si el valor introducido en este campo no existe en ningún servidor, el flujo de trabajo se mantiene pendiente.
 
-   Consulte esta [guía de instalación del Campaign Classic v7](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities).
+   Consulte esta [guía de instalación de Campaign Classic v7](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities).
 
 * **[!UICONTROL History in days]**
 
@@ -59,7 +59,7 @@ Esta sección solo aparece en los flujos de trabajo de la campaña.
 
    Esta opción solo puede utilizarse para tareas de depuración, nunca de producción. Cuando está activada, el flujo de trabajo tiene prioridad y el resto de flujos de trabajo se detienen hasta que este haya terminado.
 
-### Gestión de errores {#error-management}
+### Administración de errores {#error-management}
 
 * **[!UICONTROL Troubleshooting]**
 
