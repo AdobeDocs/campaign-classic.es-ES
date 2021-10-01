@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: content-management
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '546'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Estas propiedades se describen en el esquema **ncm:content**.
 
 ## Tipos de datos {#data-types}
 
-A continuación, se muestra un ejemplo de esquema de gestión de contenido con los tipos rellenados:
+A continuación, se muestra un ejemplo de esquema de administración de contenido con los tipos rellenados:
 
 ```
 <srcSchema name="book" namespace="cus">
@@ -106,7 +106,7 @@ A continuación, se muestra un ejemplo de esquema con las propiedades rellenadas
 </srcSchema>
 ```
 
-## Colección de elementos {#collection-elements}
+## Elementos de colección {#collection-elements}
 
 Una colección es una lista de elementos con el mismo nombre y el mismo nivel jerárquico.
 
