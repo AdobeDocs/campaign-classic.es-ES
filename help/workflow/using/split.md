@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: targeting-activities
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1935'
 ht-degree: 100%
 
@@ -124,7 +124,7 @@ Por ejemplo, si selecciona el campo **[!UICONTROL Language]** como valor de grup
 
 ## Limitación del número de registros de subconjunto por distribución de datos {#limiting-the-number-of-subset-records-per-data-distribution}
 
-Si los campos de agrupación contienen un número elevado de valores o si desea evitar valores de restablecimiento para cada nueva actividad dividida, Adobe Campaign permite crear una limitación por cada distribución de datos. Cuando seleccione valores de limitación de datos (para más información sobre este tema consulte la sección [Creating subsets](#creating-subsets)), seleccione la opción **[!UICONTROL By data distribution]** y seleccione una plantilla en el menú desplegable. A continuación se muestra la creación de una plantilla de distribución de datos.
+Si los campos de agrupación contienen un número demasiado elevado de valores o si desea evitar valores de restablecimiento para cada nueva actividad dividida, Adobe Campaign permite crear una limitación por cada distribución de datos. Cuando seleccione valores de limitación de datos (para más información sobre este tema consulte la sección [Creating subsets](#creating-subsets)), seleccione la opción **[!UICONTROL By data distribution]** y seleccione una plantilla en el menú desplegable. A continuación se muestra la creación de una plantilla de distribución de datos.
 
 Para ver un ejemplo de la actividad **[!UICONTROL Local approval]** con una plantilla de distribución, consulte [Uso de la actividad de aprobación local](using-the-local-approval-activity.md).
 
