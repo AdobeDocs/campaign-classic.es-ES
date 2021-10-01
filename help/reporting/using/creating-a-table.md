@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: creating-new-reports
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2495'
 ht-degree: 100%
 
@@ -96,7 +96,7 @@ El ancho de las columnas se puede modificar mediante el elemento **[!UICONTROL C
 
 ### Definición del contenido de la celda {#defining-cell-content}
 
-Para editar una celda de la tabla y definir su contenido y formato, vaya a la celda y utilice el menú contextual.
+Para editar una celda de la tabla y definir su contenido y formato, vaya a la celda y utilice el menú del botón derecho.
 
 Utilice la entrada de menú **[!UICONTROL Expression]** para seleccionar los valores que se van a mostrar.
 
@@ -197,7 +197,7 @@ La pestaña **Extra** le permite vincular un campo visual a los datos, como una 
 
 ![](assets/s_advuser_ergo_listgroup_016.png)
 
-## Caso de uso: Creación de un informe con una lista de grupos {#use-case--create-a-report-with-a-group-list}
+## Caso de uso: creación de un informe con una lista de grupos {#use-case--create-a-report-with-a-group-list}
 
 En este ejemplo creamos un informe de dos páginas: la primera página contiene la lista y el total de entregas por campaña, así como el número de mensajes enviados. Los nombres de entrega son vínculos en los que puede hacer clic y le permiten ir a la segunda página del informe para ver el desglose de entregas por dominio de correo electrónico, según la entrega seleccionada, con una tabla y un gráfico. En la segunda página, la tabla sirve como una leyenda para el gráfico.
 
@@ -397,7 +397,7 @@ Queremos añadir una segunda consulta y una segunda página para mostrar el deta
 
 ### Paso 5: Creación de la segunda página {#step-5---create-the-second-page}
 
-1. Edite la página e introduzca su etiqueta: **Email domains**.
+1. Edite la página e introduzca su etiqueta: **dominios de correo electrónico**.
 1. Desmarque la opción **[!UICONTROL Enable output transitions]**: esta es la última página del informe y no va seguida de otra actividad.
 
    ![](assets/s_advuser_report_listgroup_028.png)
