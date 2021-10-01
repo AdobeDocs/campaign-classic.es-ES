@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: adobe-target
 exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '846'
 ht-degree: 100%
 
@@ -98,7 +98,7 @@ En Target, debe crear las dos audiencias en las que se clasifican las personas q
 
 1. Siga el mismo procedimiento para las audiencias restantes.
 
-## Creación de una actividad de segmentación de experiencias    {#creating-targeting-activity}
+## Creación de una actividad de segmentación de experiencias  {#creating-targeting-activity}
 
 En Target, es necesario crear una actividad de segmentación de experiencias, definir las diferentes experiencias y asociarlas a las ofertas correspondientes.
 
