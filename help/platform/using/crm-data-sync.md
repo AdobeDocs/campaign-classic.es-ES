@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1528'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ Por ejemplo, las siguientes condiciones de filtrado NO serán válidas para una 
 
 ### Ordenar por {#order-by}
 
-En Microsoft Dynamics y Salesforce.com, puede ordenar los campos remotos para que se importen en orden ascendente o descendente.
+En Microsoft Dynamics y Salesforce.com, puede ordenar los campos remotos para que se importen en orden de subida o de bajada.
 
 Para ello, haga clic en el vínculo **[!UICONTROL Order by]** y añada las columnas a la lista.
 
@@ -149,7 +149,7 @@ En lugar de importar elementos incluidos (y posiblemente filtrados) en CRM, pued
 
 Para ello, seleccione la opción **[!UICONTROL Use the population calculated upstream]** y especifique el campo que contiene el identificador remoto.
 
-A continuación, seleccione los campos de la población entrante que desea importar, como se muestra a continuación:
+Entonces, seleccione los campos de la población entrante que desea importar, como se muestra a continuación:
 
 ![](assets/crm_wf_import_calculated_population.png)
 
