@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: asset-sharing
 exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
 source-git-commit: 84312974b9b7372c8a46fd1c7ead1148690bcd83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '499'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 84%
 
 ![](../../assets/common.svg)
 
-Esta sección detalla los pasos de configuración necesarios en Adobe Campaign para utilizar las funcionalidades de integración con el servicio principal de Assets o la biblioteca de Adobe Experience Manager Assets (AEM Assets).
+Esta sección detalla los pasos de configuración necesarios en Adobe Campaign para utilizar las funcionalidades de integración con el servicio principal de Assets o la biblioteca de activos de Adobe Experience Manager (AEM Assets).
 
 >[!CAUTION]
 >
 >Estas integraciones son simultáneas. Lea detenidamente la siguiente información antes de realizar cualquier configuración.
 
 * Integración con **Experience Cloud Assets**: Esta integración permite insertar imágenes desde la biblioteca de Adobe Experience Cloud. Esta integración debe configurarse instalando el paquete integrado **[!UICONTROL Integration with the Adobe Experience Cloud]** en Adobe Campaign.
-* Integración con **AEM Assets**: esta integración permite insertar imágenes de la biblioteca de Adobe Experience Manager Assets. Esta integración debe configurarse instalando el paquete integrado **[!UICONTROL AEM Integration]** en Adobe Campaign. Tenga en cuenta que esta integración ya no está disponible a partir de Adobe Experience Manager 6.4.
+* Integración con **AEM Assets**: esta integración permite insertar imágenes de la biblioteca de recursos de Adobe Experience Manager. Esta integración debe configurarse instalando el paquete integrado **[!UICONTROL AEM Integration]** en Adobe Campaign. Tenga en cuenta que esta integración ya no está disponible a partir de Adobe Experience Manager 6.4.
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ Para activar la conexión entre Adobe Campaign y Adobe Experience Cloud, configu
 
 >[!CAUTION]
 >
->Esta funcionalidad se ha eliminado a partir de Adobe Experience Manager 6.4. [Más información](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/deprecated-removed-features.html?lang=en#removed-features)
+>Esta funcionalidad se ha eliminado a partir de Adobe Experience Manager 6.4. [Más información](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/deprecated-removed-features.html?lang=en#removed-features/es)
 
 Para integrar AEM Assets con Adobe Campaign, primero se debe configurar la integración entre Adobe Experience Manager y Adobe Campaign. Esta configuración requiere principalmente:
 
@@ -73,4 +73,4 @@ Al insertar imágenes en el contenido de una entrega basándose en esta plantill
 
 >[!NOTE]
 >
->Si el paquete **[!UICONTROL Integration with the Adobe Experience Cloud]** también está instalado en la instancia de Adobe Campaign, solo podrá utilizar los recursos disponibles en la biblioteca de Adobe Experience Cloud. Para acceder también a los recursos de la biblioteca AEM Assets, se deben sincronizar AEM Assets y Adobe Experience Cloud. Los recursos de AEM Assets también están disponibles en la biblioteca de Adobe Experience Cloud. En este caso, no es necesario crear una plantilla de envío específica.
+>Si el paquete **[!UICONTROL Integration with the Adobe Experience Cloud]** también está instalado en la instancia de Adobe Campaign, solo podrá utilizar los recursos disponibles en la biblioteca de Adobe Experience Cloud. Para acceder también a los recursos de la biblioteca AEM Assets, se deben sincronizar AEM Assets y Adobe Experience Cloud. Los recursos de AEM Assets también están disponibles en la biblioteca de Adobe Experience Cloud. En este caso, no es necesario crear una plantilla de envíos específica.
