@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 48926e87-03d9-4aa0-89cb-e3fb4f99c1f5
 source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Antes de empezar a diseñar correos electrónicos, conozca los conceptos y las p
 
 ## ¿Qué es una plantilla de envíos? {#what-is-a-delivery-template-}
 
-La configuración y los parámetros de entrega se pueden guardar en una plantilla de envíos para ser reutilizados.
+La configuración y los parámetros de entrega se pueden guardar en una plantilla de envíos para reutilizarlos.
 
 [Haga clic aquí para obtener más información](../../delivery/using/about-templates.md).
 
@@ -37,13 +37,13 @@ Descubra cómo importar un HTML existente para crear y enviar correos electróni
 
 [Haga clic aquí para obtener más información](../../delivery/using/defining-the-email-content.md#message-content).
 
-## ¿Cómo se utiliza el DCE de Campaign para crear un contenido de correo electrónico? {#how-to-use-campaign-dce-to-create-an-email-content-}
+## ¿Cómo se utiliza el DCE de Campaign para crear contenido de correo electrónico? {#how-to-use-campaign-dce-to-create-an-email-content-}
 
-[Diseñar un mensaje de correo electrónico con el editor de contenido digital de Campaign](../../web/using/use-case--creating-an-email-delivery.md): Aprenda a utilizar el DCE de Campaign para diseñar un correo electrónico a través de un ejemplo.
+[Diseñar un mensaje de correo electrónico con el editor de contenido digital de Campaign](../../web/using/use-case--creating-an-email-delivery.md): aprenda a utilizar el DCE de Campaign para diseñar un correo electrónico a través de un ejemplo.
 
-## ¿Cómo puedo crear un boletín basado en suscripción en Campaign? {#how-can-i-create-a-subscription-based-newsletter-in-campaign-}
+## ¿Cómo puedo crear una newsletter basada en suscripción en Campaign? {#how-can-i-create-a-subscription-based-newsletter-in-campaign-}
 
-[Crear un servicio de newsletter](../../delivery/using/managing-subscriptions.md): Pasos clave para crear un newsletter y gestionar suscripciones.
+[Crear un servicio de newsletter](../../delivery/using/managing-subscriptions.md): pasos clave para crear una newsletter y administrar las suscripciones.
 
 ## ¿Cómo puedo personalizar los mensajes? {#how-can-i-personalize-messages-}
 
