@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: creating-queries
 exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '841'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Los pasos para crear una consulta en Adobe Campaign son los siguientes:
 >Todos estos pasos están disponibles en el editor de consultas genérico. Cuando se crea una consulta en otro contexto, se pueden obviar algunos pasos.\
 >La actividad de consulta se muestra en [esta sección](../../workflow/using/query.md).
 
-## Paso 1: Selección de una tabla {#step-1---choose-a-table}
+## Paso 1: Seleccionar una tabla {#step-1---choose-a-table}
 
 Seleccione la tabla que contiene los datos que desea consultar en la ventana **[!UICONTROL Document type]**. Si es necesario, filtre los datos mediante el campo de filtro o el botón **[!UICONTROL Filters]**.
 
@@ -59,7 +59,7 @@ Es posible agrupar los datos de la columna de salida: para ello, vaya a la colum
 
 * La función **[!UICONTROL Remove duplicate rows (DISTINCT)]** permite deduplicar resultados idénticos obtenidos en la columna de salida. Por ejemplo, si realiza un censo seleccionando los campos Apellido, Nombre y Correo electrónico en la columna de salida, se eliminan los que tengan datos idénticos, ya que esto significa que el mismo contacto se ha introducido varias veces en la base de datos: solo se tiene en cuenta un resultado.
 
-## Paso 3: Orden de los datos {#step-3---sort-data}
+## Paso 3: Ordenar los datos {#step-3---sort-data}
 
 La ventana **[!UICONTROL Sorting]** permite ordenar el contenido de las columnas. Utilice las flechas para modificar el orden de la columna:
 
@@ -70,7 +70,7 @@ En este ejemplo, los datos se ordenan en orden ascendente según la edad del des
 
 ![](assets/query_editor_nveau_57.png)
 
-## Paso 4: Filtrado de datos {#step-4---filter-data}
+## Paso 4: Filtrar los datos {#step-4---filter-data}
 
 El editor de consultas permite filtrar los datos para restringir la búsqueda.
 
