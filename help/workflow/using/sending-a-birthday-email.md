@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: use-cases
 exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '879'
 ht-degree: 100%
 
 ---
 
-# Envío de correo electrónico de cumpleaños{#sending-a-birthday-email}
+# Envío de un correo electrónico de cumpleaños{#sending-a-birthday-email}
 
 ![](../../assets/common.svg)
 
@@ -114,7 +114,7 @@ Para configurar este caso de uso, se ha creado el siguiente flujo de trabajo de 
 
 Si el año actual **no es un año bisiesto** y el flujo de trabajo se ejecuta el 1 de marzo, se necesita seleccionar todos los destinatarios que hubieran tenido su cumpleaños el día anterior (29 de febrero) y añadirlos a la lista de destinatarios. En cualquier otro caso no se requiere ninguna acción adicional.
 
-### Paso 1: Selección de la plantilla {#step-1--selecting-the-recipients}
+### Paso 1: Selección de los destinatarios {#step-1--selecting-the-recipients}
 
 Después de configurar la actividad **[!UICONTROL Scheduler]** para que el flujo de trabajo se inicie cada día, identifique todos los destinatarios cuyo cumpleaños sea el día actual.
 
@@ -200,7 +200,7 @@ Vincule los resultados de las dos ramas de actividad **[!UICONTROL Test]** a una
 
 ## Creación de una entrega recurrente {#creating-a-recurring-delivery-in-a-targeting-workflow}
 
-Agregue una actividad de **Recurring delivery** basada en la plantilla de correo electrónico de cumpleaños que desee enviar.
+Añada una actividad de **Entrega recurrente** basada en la plantilla de correo electrónico de cumpleaños que desee enviar.
 
 >[!CAUTION]
 >
