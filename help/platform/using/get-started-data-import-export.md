@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d6055d97-75fc-4ed7-89bd-8336157454eb
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Para obtener más información sobre las importaciones y exportaciones genérica
 >[!IMPORTANT]
 >Las importaciones y exportaciones genéricas deben utilizarse únicamente para operaciones ocasionales. Para garantizar la coherencia de los datos y mejorar la eficacia, se recomienda realizar las operaciones de importación y exportación mediante flujos de trabajo.
 
-## Encriptación y compresión de datos {#data-encryption-compression}
+## Cifrado y compresión de datos {#data-encryption-compression}
 
 <img src="assets/do-not-localize/icon_encrypt.svg" width="60px">
 
