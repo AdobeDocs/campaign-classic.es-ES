@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: content-management
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '818'
 ht-degree: 100%
 
@@ -121,7 +121,7 @@ El atributo **toolbarCaption** fuerza la alineación horizontal de la barra de h
 >
 >Para que la etiqueta de elemento de colección no se muestre a la izquierda del control, agregue el atributo **nolabel=&quot;true&quot;**.
 
-#### Ampliar una lista {#zoom-in-a-list}
+#### Aumento de una lista {#zoom-in-a-list}
 
 Los datos de la lista se pueden insertar y editar en un formulario de edición por separado.
 
