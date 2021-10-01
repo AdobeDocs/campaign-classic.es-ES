@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: distributed-marketing
 exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '409'
 ht-degree: 100%
 
@@ -26,13 +26,13 @@ Esto les permite:
 * [Cancelar un paquete](#cancel-a-package),
 * [Reinicio de un paquete](#reinitializing-a-package).
 
-## Filtración de paquetes {#filter-packages}
+## Filtrado de paquetes {#filter-packages}
 
 En la pestaña **[!UICONTROL Campaigns]**, puede mostrar la lista de **[!UICONTROL Campaign packages]** que reagrupa todas las campañas de marketing distribuido existentes. Puede filtrar esta lista para que muestre solo las campañas que se han publicado, que se han retrasado, que están pendientes de aprobación, etc. Para ello, haga clic en los vínculos de la sección superior de esta vista o utilice el vínculo **[!UICONTROL Filter list]** y seleccione el estado del paquete de campaña que desea mostrar.
 
 ![](assets/mkg_dist_catalog_filter.png)
 
-## Editar paquetes {#edit-packages}
+## Edición de paquetes {#edit-packages}
 
 La página **[!UICONTROL Campaign packages]** permite ver el resumen de cada paquete.
 
@@ -58,7 +58,7 @@ El operador central puede editar la solicitud. Hay dos formas de hacerlo:
 
    ![](assets/mkg_dist_catalog_op_command_edit2.png)
 
-## Cancelar un paquete {#cancel-a-package}
+## Cancelación de un paquete {#cancel-a-package}
 
 La entidad central puede cancelar un paquete de campaña en cualquier momento.
 
