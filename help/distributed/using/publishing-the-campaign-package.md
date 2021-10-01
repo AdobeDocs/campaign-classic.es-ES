@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: distributed-marketing
 exl-id: e96add16-cbc8-43af-acff-06a95d5b7749
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
 ht-degree: 100%
 
@@ -39,9 +39,9 @@ Hecho esto, se envía un mensaje de notificación al revisor para confirmar la d
 >
 >En el nivel de la entidad organizativa, también puede especificar los revisores que deben aprobar las solicitudes. Para obtener más información, consulte [Entidades organizativas](about-distributed-marketing.md#organizational-entities).
 
-## Añadir otros revisores {#adding-other-reviewers}
+## Adición de otros revisores {#adding-other-reviewers}
 
-Puede agregar otros revisores desde el vínculo **[!UICONTROL Edit...]** que se encuentra en la pestaña **[!UICONTROL Approval parameters...]** del paquete de la campaña.
+Puede añadir otros revisores desde el vínculo **[!UICONTROL Edit...]** que se encuentra en la pestaña **[!UICONTROL Approval parameters...]** del paquete de la campaña.
 
 ![](assets/s_advuser_mkg_dist_select_op_valid.png)
 
