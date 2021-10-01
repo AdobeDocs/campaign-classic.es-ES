@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: acs-connector
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
 source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '790'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ En Campaign v7 se han creado los siguientes objetos:
 
 ## Duplicación de datos {#replicating-the-data}
 
-Para poder duplicar los datos necesarios entre Campaign v7 y Campaign Standard hay disponibles varias plantillas de flujo de trabajo de duplicación. El flujo de trabajo de **[!UICONTROL Profiles replication]** duplica automáticamente todos los destinatarios de Campaign v7 a Campaign Standard. Consulte [Flujos de trabajo técnicos y de duplicación](../../integrations/using/acs-connector-principles-and-data-cycle.md#technical-and-replication-workflows). El flujo de trabajo **[!UICONTROL Landing pages replication]** permite la duplicación de las aplicaciones web que deseamos utilizar en Campaign Standard.
+Para poder duplicar los datos necesarios entre Campaign v7 y Campaign Standard, hay disponibles varias plantillas de flujo de trabajo de duplicación. El flujo de trabajo de **[!UICONTROL Profiles replication]** duplica automáticamente todos los destinatarios de Campaign v7 a Campaign Standard. Consulte [Flujos de trabajo técnicos y de duplicación](../../integrations/using/acs-connector-principles-and-data-cycle.md#technical-and-replication-workflows). El flujo de trabajo **[!UICONTROL Landing pages replication]** permite la duplicación de las aplicaciones web que deseamos utilizar en Campaign Standard.
 
 ![](assets/acs_connect_lp_1.png)
 
