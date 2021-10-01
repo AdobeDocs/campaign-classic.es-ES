@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1491'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Para crear este tipo de agrupamiento de valores, siga los pasos siguientes:
 
    ![](assets/s_advuser_cube_class_04.png)
 
-   Siempre que se actualizan los valores de la enumeración, los grupos coincidentes se adaptan automáticamente.
+   Siempre que se actualizan los valores de la lista desglosada, los grupos coincidentes se adaptan automáticamente.
 
 ### Creación de rangos de valores {#creating-value-ranges}
 
@@ -218,7 +218,7 @@ En cada medida, se puede definir la unidad y el formato que se va a aplicar.
 
 ![](assets/s_advuser_cube_in_report_config_07.png)
 
-## Difusión de informes {#sharing-a-report}
+## Uso compartido de informes {#sharing-a-report}
 
 Una vez configurado el informe, puede guardarlo y compartirlo con otros operadores.
 
