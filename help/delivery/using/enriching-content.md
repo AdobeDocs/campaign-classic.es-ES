@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: content-management
 exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '661'
 ht-degree: 100%
 
@@ -204,7 +204,7 @@ El contenido del elemento de destino enriquece cada elemento de colección en el
 <contact id="11504982510" recipient-cs="Martinez Peter (peter.martinez@adobe.com)" recipient-id="3013"/>
 ```
 
-#### Acumulación de vínculos {#link-aggregation}
+#### Adición de vínculos {#link-aggregation}
 
 El contenido de cada vínculo al que se hace referencia se limita a la clave interna y a la **Compute string** del elemento de destino.
 
