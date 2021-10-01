@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: targeting-activities
 exl-id: 4c7bc0f3-5877-47dc-bd72-dc94fb7bd479
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1291'
 ht-degree: 100%
 
@@ -139,7 +139,7 @@ En la salida de esta actividad de ampliación, el esquema temporal contendrá el
 
 ## Comparación de datos {#data-reconciliation}
 
-La actividad de ampliación se puede utilizar para configurar la comparación de datos, incluso una vez cargados la información en la base de datos. En este caso, la pestaña **[!UICONTROL Reconciliation]** permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los de la tabla de resultados.
+La actividad de enriquecimiento se puede utilizar para configurar la comparación de datos, incluso una vez cargados la información en la base de datos. En este caso, la pestaña **[!UICONTROL Reconciliation]** permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los de la tabla de resultados.
 
 Seleccione la opción **[!UICONTROL Identify the targeting document based on work data]**, especifique el esquema al que desee agregar un vínculo y defina las condiciones del vínculo: para ello, seleccione los campos a comparar en los datos de trabajo (**[!UICONTROL Source expression]**) y en la dimensión de segmentación (**[!UICONTROL Destination expression]**).
 
@@ -208,13 +208,13 @@ Para ello:
 
 ## Almacenamiento de calificaciones y consideraciones de oferta {#storing-offer-rankings-and-weights}
 
-De forma predeterminada, cuando se utiliza una actividad **enrichment** para entregar ofertas, sus calificaciones y sus consideraciones no se almacenan en la lista de propuestas.
+De forma predeterminada, cuando se utiliza una actividad de **enriquecimiento** para entregar ofertas, sus calificaciones y sus consideraciones no se almacenan en la lista de propuestas.
 
 La actividad **[!UICONTROL Offer engine]** almacena esta información de forma predeterminada.
 
 Sin embargo, se puede almacenar esta información de la siguiente manera:
 
-1. Cree un recurso al motor de oferta en una actividad ampliada colocada después de una consulta y antes de una actividad de entrega.
+1. Cree una llamada al motor de oferta en una actividad de enriquecimiento colocada después de una consulta y antes de una actividad de entrega.
 1. En la ventana principal de la actividad, seleccione **[!UICONTROL Edit additional data...]**
 
    ![](assets/ita_enrichment_rankweight_1.png)
