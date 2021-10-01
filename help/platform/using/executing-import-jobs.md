@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2955'
 ht-degree: 100%
 
@@ -97,7 +97,7 @@ El enlace **[!UICONTROL Advanced parameters]** permite acceder a las siguientes 
 
 ## Paso 2: Selección de archivos de origen {#step-2---source-file-selection}
 
-El archivo de origen puede estar en formato de texto (txt, csv, ficha, ancho fijo) o xml.
+El archivo de origen puede estar en formato de texto (txt, csv, pestaña, ancho fijo) o xml.
 
 La **[!UICONTROL Upload file on the server]** está seleccionada de forma predeterminada. Haga clic en la carpeta situada a la derecha del campo **[!UICONTROL Local file]** para buscar en el disco local y seleccione el archivo que desea importar. Puede desmarcar esta opción para introducir la ruta de acceso y el nombre del archivo que desea importar si se encuentra en el servidor.
 
@@ -201,7 +201,7 @@ Las siguientes opciones están disponibles para cada campo de la tabla relaciona
 
 >[!NOTE]
 >
->La definición de una clave de reconciliación siempre es **obligatoria**, excepto en el caso de la inserción sin deduplicación.
+>La definición de una clave de reconciliación siempre es **obligatoria**, excepto en el caso de la inserción sin anulación de duplicación.
 
 ### Claves de reconciliación {#reconciliation-keys}
 
@@ -273,7 +273,7 @@ Puede generar un archivo que contenga estos registros mediante el icono **[!UICO
 
 ![](assets/s_ncs_user_import_errors_export.png)
 
-## Paso 5: Paso adicional al importar destinatarios. {#step-5---additional-step-when-importing-recipients}
+## Paso 5: Paso adicional al importar destinatarios {#step-5---additional-step-when-importing-recipients}
 
 El siguiente paso del asistente para importar le permite seleccionar o crear la carpeta en la que se importan los datos, asignar automáticamente los destinatarios importados con una lista (nueva o existente) y suscribir destinatarios a un servicio.
 
