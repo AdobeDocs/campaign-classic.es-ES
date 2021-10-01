@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: analyzing-populations
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1558'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Abra el asistente de análisis descriptivo seleccionando elementos y haciendo cl
 
    ![](assets/reporting_descriptive_from_deliveries.png)
 
-   A continuación se proporcionan ejemplos de análisis descriptivos de los envíos: [Análisis de una población](../../reporting/using/use-cases.md#analyzing-a-population) y : [Análisis de los registros de seguimiento de destinatarios](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs).
+   A continuación, se proporcionan ejemplos de análisis descriptivos de los envíos: [Análisis de una población](../../reporting/using/use-cases.md#analyzing-a-population) y: [Análisis de los registros de seguimiento de destinatarios](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs).
 
 ## Configuración de la plantilla de distribución cualitativa {#configuring-the-qualitative-distribution-template}
 
@@ -69,7 +69,7 @@ Cuando utiliza el asistente de análisis descriptivo para analizar los datos, la
 
 ### Agrupamiento de datos {#data-binning}
 
-Cuando se seleccionan las variables que se van a mostrar, puede definir el agrupamiento de datos, o en otras palabras, configurar criterios de agrupación para los datos seleccionados.
+Cuando se seleccionan las variables que se van a mostrar, puede definir el agrupamiento de datos o, en otras palabras, configurar criterios de agrupación para los datos seleccionados.
 
 ![](assets/s_ncs_user_report_wizard_031.png)
 
