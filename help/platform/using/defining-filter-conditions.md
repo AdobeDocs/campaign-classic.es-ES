@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: creating-queries
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3229'
 ht-degree: 100%
 
@@ -146,7 +146,7 @@ Este ejemplo muestra un filtro que le permite mostrar: los destinatarios que hab
 
 ![](assets/query_editor_nveau_31.png)
 
-## Condiciones de prioridad {#prioritizing-conditions}
+## Prioridad de las condiciones {#prioritizing-conditions}
 
 Esta sección explica cómo priorizar las condiciones gracias a las flechas azules de la barra de herramientas.
 
@@ -416,7 +416,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull2</strong><br /> </td> 
@@ -563,7 +563,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AddDays</strong><br /> </td> 
@@ -794,7 +794,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Abs</strong><br /> </td> 
@@ -876,7 +876,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ConvertCurrency</strong><br /> </td> 
@@ -898,7 +898,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Distance</strong><br /> </td> 
@@ -915,7 +915,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
@@ -1002,7 +1002,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
