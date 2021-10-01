@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2972'
 ht-degree: 100%
 
@@ -135,7 +135,7 @@ Este informe se basa en la tabla **[!UICONTROL Delivery and tracking statistics]
 
 La segunda parte del informe detalla el desglose de los mensajes fallidos por dominio de Internet, a diferencia del tipo de error. La fórmula vinculada al indicador de **error** (@value) en este caso es: Count(@status=2 y @domain=&quot;Valor del nombre de dominio&quot;), es decir, un recuento de todos los mensajes con un estado fallido para este dominio.
 
-## Navegadores {#browsers-1}
+## Exploradores {#browsers-1}
 
 Este informe se basa en la tabla **[!UICONTROL Internet Browser Statistics]** (nms:userAgentsStats).
 
@@ -205,7 +205,7 @@ Este informe se basa en la tabla **[!UICONTROL Internet Browser Statistics]** (n
  </tbody> 
 </table>
 
-## Difusión en redes sociales {#sharing-to-social-networks-1}
+## Uso compartido en redes sociales {#sharing-to-social-networks-1}
 
 Este informe se basa en las tablas **[!UICONTROL Delivery]** (nms:delivery), **[!UICONTROL Consolidated tracking]** (nms:trackingStats) y **[!UICONTROL Web tracking]** (nms:webTrackingLog).
 
@@ -342,7 +342,7 @@ Este informe se basa en las tablas **[!UICONTROL Delivery]** (nms:delivery), **[
  </tbody> 
 </table>
 
-## Estadísticas de actividades de difusión {#statistics-on-sharing-activities-1}
+## Estadísticas de actividades de uso compartido {#statistics-on-sharing-activities-1}
 
 Este informe se basa en las tablas **[!UICONTROL Delivery]** (nms:delivery), **[!UICONTROL Consolidated tracking]** (nms:trackingStats) y **[!UICONTROL Web tracking]** (nms:webTrackingLog).
 
