@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: simulating-offers
 exl-id: 4f6b3de2-3fdf-441d-925d-476e20e75c6f
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ También se puede optar por realizar la simulación en todas las ofertas o solo 
 >
 >Se debe especificar una fecha de contacto. Esto permite que el motor de interacción clasifique las ofertas en el entorno o categoría seleccionados. Si no se configura ninguna fecha, la simulación generará un error.
 
-## Adición de ejes al sistema de informes {#adding-reporting-axes}
+## Adición de ejes de informes {#adding-reporting-axes}
 
 Se puede mejorar el análisis de la simulación añadiendo ejes de informe al destino o a las propias ofertas mediante la pestaña **[!UICONTROL Calculations]**.
 
