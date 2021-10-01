@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: advanced-parameters
 exl-id: 083be073-aad4-4c81-aff2-77f5ef3e80db
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1011'
 ht-degree: 100%
 
@@ -77,7 +77,7 @@ En las instancias de control:
    * Marque la opción **[!UICONTROL Enabled]**.
    * Complete los parámetros de conexión para la instancia de ejecución.
    * Cada instancia de ejecución debe estar vinculada a una ID. Esta ID se asigna al hacer clic en el botón **[!UICONTROL Initialize connection]**.
-   * Compruebe el tipo de aplicación utilizada:  **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]** o ambas.
+   * Compruebe el tipo de aplicación utilizada: **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]** o ambas.
    * Introduzca la cuenta de FDA utilizada. Se debe crear un operador en las instancias de ejecución y debe tener los siguientes derechos de lectura y escritura en la base de datos de la instancia en cuestión:
 
       ```
