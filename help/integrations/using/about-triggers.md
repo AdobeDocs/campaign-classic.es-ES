@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 Permite integraciones más ágiles, ya que la configuración es mínima y no participa un tercero.
 También admite grandes volúmenes de tráfico sin afectar el rendimiento de las actividades de marketing. Como ejemplo, la integración puede procesar un millón de activadores por hora.
 
-## [!DNL Triggers] arquitectura {#triggers-architecture}
+## Arquitectura de los [!DNL Triggers] {#triggers-architecture}
 
 El [!DNL pipelined] proceso siempre se está ejecutando en el servidor de marketing de Adobe Campaign. Se conecta a la canalización, recupera los eventos y los procesa inmediatamente.
 
