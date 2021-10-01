@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: -general-operation
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1624'
 ht-degree: 100%
 
@@ -122,7 +122,7 @@ Para comprender mejor las actividades y mejorar la legibilidad del flujo de trab
 
 ![](assets/example1-comment.png)
 
-## Flujos de trabajo de objetivos {#targeting-workflows}
+## Flujos de trabajo de segmentación {#targeting-workflows}
 
 Los flujos de trabajo de objetivos permiten crear varios objetivos de entrega. Gracias a las actividades de flujo de trabajo, se pueden crear consultas, definir uniones o exclusiones basadas en criterios específicos y añadir planificaciones. El resultado de esta dirección se puede transferir automáticamente a una lista que pueda servir como objetivo de las acciones de entrega.
 
