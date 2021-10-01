@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: e030c029-d1ee-4749-94e3-6bdfc8d89a34
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '941'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Cree una nueva entrega basada en la plantilla de envíos de **[!UICONTROL Tweet 
 
 ### Selección del objetivo principal {#selecting-the-main-target}
 
-Seleccione las cuentas a las que desee enviar tweets.
+Seleccione las cuentas a las que desee enviar tuits.
 
 1. Haga clic en el vínculo **[!UICONTROL To]**.
 
@@ -50,7 +50,7 @@ Seleccione las cuentas a las que desee enviar tweets.
 
    ![](assets/social_twitter_delivery_007.png)
 
-1. En el campo **[!UICONTROL Folder]**, seleccione la carpeta de servicio que contiene la cuenta de Twitter. A continuación, seleccione la cuenta de Twitter a la que desee enviar el tweet.
+1. En el campo **[!UICONTROL Folder]**, seleccione la carpeta de servicio que contiene la cuenta de Twitter. A continuación, seleccione la cuenta de Twitter a la que desee enviar el tuit.
 
    ![](assets/social_twitter_delivery_011.png)
 
@@ -62,15 +62,15 @@ La pestaña **[!UICONTROL Target of the proofs]** le permite definir la cuenta d
 
 >[!NOTE]
 >
->Si utiliza la misma cuenta de prueba de Twitter para todas las entregas, puede guardar el objetivo de prueba en la plantilla de entrega de **[!UICONTROL Tweet]**, a la que se accede mediante el nodo **[!UICONTROL Resources > Templates > Delivery templates]**. El objetivo de prueba se especifica de forma predeterminada para cada nueva entrega.
+>Si utiliza la misma cuenta de prueba de Twitter para todas las entregas, puede guardar el objetivo de prueba en la plantilla de entrega de **[!UICONTROL Tweet]**, a la que se accede mediante el nodo **[!UICONTROL Resources > Templates > Delivery templates]**. El objetivo de la prueba se especifica de forma predeterminada para cada nueva entrega.
 
 ### Definición del contenido del mensaje {#defining-the-message-content}
 
-Escriba el contenido del tweet en la pestaña **[!UICONTROL Content]**.
+Escriba el contenido del tuit en la pestaña **[!UICONTROL Content]**.
 
 ![](assets/social_twitter_delivery_005.png)
 
-### Visualización de la vista previa {#viewing-the-preview}
+### Visualización de la previsualización {#viewing-the-preview}
 
 La pestaña **[!UICONTROL Preview]** permite controlar la renderización del tweet.
 
@@ -97,7 +97,7 @@ La configuración de seguimiento es la misma que para una entrega de correo elec
 
 >[!IMPORTANT]
 >
->No podemos distinguir entre robots que analizan tweets y usuarios que hacen clic.
+>No podemos distinguir entre robots que analizan tuits y usuarios que hacen clic.
 
 ### Envío de una prueba {#sending-the-proof}
 
@@ -192,7 +192,7 @@ La pestaña **[!UICONTROL Target of the proofs]** le permite seleccionar el segu
 
 >[!NOTE]
 >
->Si desea enviar todas las pruebas de los mensajes directos al mismo seguidor de Twitter, puede guardar el objetivo de prueba en la plantilla de entrega de **[!UICONTROL Tweet (Direct Message)]**, a la que se accede mediante el nodo **[!UICONTROL Resources > Templates > Delivery templates]**. El objetivo de prueba se especifica de forma predeterminada para cada nueva entrega.
+>Si desea enviar todas las pruebas de los mensajes directos al mismo seguidor de Twitter, puede guardar el objetivo de prueba en la plantilla de entrega de **[!UICONTROL Tweet (Direct Message)]**, a la que se accede mediante el nodo **[!UICONTROL Resources > Templates > Delivery templates]**. El objetivo de la prueba se especifica de forma predeterminada para cada nueva entrega.
 
 ### Definición del contenido del mensaje {#defining-message-content-}
 
