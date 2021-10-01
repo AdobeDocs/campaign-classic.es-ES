@@ -6,14 +6,14 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
 ht-degree: 100%
 
 ---
 
 
-# Integración con las soluciones de Adobe Experience Cloud{#integrations-with-adobe-experience-cloud-solutions}
+# Integraciones con las soluciones de Adobe Experience Cloud{#integrations-with-adobe-experience-cloud-solutions}
 
 ![](../../assets/common.svg)
 
