@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: creating-new-reports
 exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '621'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Para ello:
 
 Para la ejecución normal por parte del cliente, las secuencias de comandos a las que se hace referencia deben escribirse en JavaScript y ser compatibles con la mayoría de los exploradores comunes. Para obtener más información, consulte [esta sección](../../web/using/web-forms-answers.md).
 
-### Adición de una actividad de secuencia de comandos {#script-activity}
+### Adición de una actividad de script {#script-activity}
 
 Al [diseñar el informe](../../reporting/using/creating-a-new-report.md#modelizing-the-chart), utilice la actividad **[!UICONTROL Script]** para procesar los datos y crear fácilmente consultas complejas que no habiliten el lenguaje SQL. Puede introducir directamente la consulta en la ventana del script.
 
@@ -118,4 +118,4 @@ En el siguiente ejemplo de vídeo, aprenderá a agregar un parámetro &quot;_typ
 
 ## Llamada a otro informe {#calling-up-another-report}
 
-Una actividad de **salto** es como una transición sin una flecha: permite pasar de una actividad a otra u acceder a otro informe.
+Una actividad de **Salto** es como una transición sin una flecha: permite pasar de una actividad a otra u acceder a otro informe.
