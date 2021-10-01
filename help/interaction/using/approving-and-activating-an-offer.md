@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '622'
 ht-degree: 100%
 
@@ -81,13 +81,13 @@ La aprobación de los requisitos de oferta implica aceptar o rechazar los pesos 
 
    ![](assets/offer_validate_009.png)
 
-   Los distintos estados se actualizan en el panel de ofertas.
+   Los distintos estados se actualizan en el tablero de ofertas.
 
    ![](assets/offer_validate_010.png)
 
 ## Seguimiento de la aprobación {#approval-tracking}
 
-El seguimiento de la aprobación está disponible en el panel de ofertas. Haga clic en **[!UICONTROL Hide/display logs]** para acceder.
+El seguimiento de la aprobación está disponible en el tablero de ofertas. Haga clic en **[!UICONTROL Hide/display logs]** para acceder.
 
 ![](assets/offer_validate_012.png)
 
