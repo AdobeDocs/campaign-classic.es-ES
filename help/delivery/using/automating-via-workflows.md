@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: content-management
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1185'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-## Actividad de gestión de contenido {#content-management-activity}
+## Actividad de administración de contenido {#content-management-activity}
 
 La creación, edición y publicación de contenido puede automatizarse mediante un flujo de trabajo configurado a través de la interfaz de cliente de Adobe Campaign.
 
