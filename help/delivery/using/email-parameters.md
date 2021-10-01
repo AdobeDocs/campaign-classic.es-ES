@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: sending-emails
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '905'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Al crear un nuevo envío o una plantilla de envíos, el correo electrónico CCO 
 
 >[!NOTE]
 >
->Si utiliza Email BCC con MTA mejorado, esta opción se activa automáticamente para todas las entregas.
+>Si utiliza BCC (copia oculta) de correo electrónico con el MTA mejorado, esta opción se activa automáticamente para todas las entregas.
 
 Para habilitar el correo electrónico CCO para una plantilla de envíos de correo electrónico, siga los pasos a continuación:
 
