@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: case-study
 exl-id: 90afced3-465d-4370-8a33-51a7e4356135
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2088'
 ht-degree: 100%
 
@@ -127,7 +127,7 @@ Se obtiene una estructura de árbol que contiene el nuevo entorno:
    ![](assets/offer_inbound_anonymous_example_018.png)
 
 1. Vaya a la pestaña **[!UICONTROL Eligibility]** y aplique el mismo peso que para la primera oferta.
-1. Ejecute el ciclo de aprobación para cada oferta de forma que, al igual que los espacios de oferta aprobados, estén disponibles en el entorno en línea.
+1. Ejecute el ciclo de aprobación con cada oferta de forma que, al igual que sus espacios de oferta aprobados, estén disponibles en el entorno en línea.
 
 ### Configuración del espacio de ofertas web en el sitio web {#configure-the-web-offer-space-on-the-website}
 
@@ -293,7 +293,7 @@ Para crear los dos espacios de oferta, siga el mismo procedimiento que para los 
 
    ![](assets/offer_inbound_fallback_example_006.png)
 
-1. Mediante la lista desplegable, seleccione el espacio de oferta web anónimo creado anteriormente (consulte [Configuración de espacios de oferta para el entorno anónimo](#configuring-offer-spaces-for-the-anonymous-environment)).
+1. En la lista desplegable, seleccione el espacio de oferta web anónimo creado anteriormente (consulte [Configuración de espacios de oferta para el entorno anónimo](#configuring-offer-spaces-for-the-anonymous-environment)).
 
    ![](assets/offer_inbound_fallback_example_007.png)
 
@@ -315,13 +315,13 @@ En este ejemplo, la identificación de los contactos tiene lugar gracias a la di
    ![](assets/offer_inbound_fallback_example_047.png)
 
 1. Haga clic en **[!UICONTROL OK]** para cerrar la ventana **[!UICONTROL Advanced parameters]** y finalizar la configuración del espacio de oferta **Best offer**.
-1. Siga el mismo proceso para el espacio de oferta de **Partner**.
+1. Siga el mismo proceso con el espacio de oferta de **Socio**.
 
    ![](assets/offer_inbound_fallback_example_048.png)
 
 ### Creación de categorías de oferta en un entorno identificado {#creating-offer-categories-in-an-identified-environment}
 
-Va a crear dos categorías independientes: la categoría **Mejor oferta** y la categoría **Socios**, cada una con dos ofertas personalizadas.
+Vamos a crear dos categorías independientes: la categoría **Mejor oferta** y la categoría **Socios**, cada una con dos ofertas personalizadas.
 
 1.  En el entorno identificado, vaya al nodo **[!UICONTROL Offer catalogs]**.
 1. En el entorno anónimo, añada dos carpetas de **[!UICONTROL Offer category]** con las etiquetas **Mejor oferta** y **Socio**.
