@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: 84d6cb2e-c7f9-43d7-a98c-22613d456193
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Una vez completada la configuración, Social Marketing le permite publicar publicaciones en los muros de sus páginas de Facebook.
+Una vez completada la configuración, el marketing social le permite publicar publicaciones en los muros de sus páginas de Facebook.
 
 ## Limitaciones {#limitations}
 
@@ -28,7 +28,7 @@ Las siguientes limitaciones son inherentes a Facebook.
 
 ## Creación de la entrega {#creating-the-delivery}
 
-Cree una nueva entrega con la plantilla **[!UICONTROL Publish to a brand page]**.
+Cree una nueva entrega con la plantilla de envíos **[!UICONTROL Publish to a brand page]**.
 
 ![](assets/social_facebook_delivery_001.png)
 
