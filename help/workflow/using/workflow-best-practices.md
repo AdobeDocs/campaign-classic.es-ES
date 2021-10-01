@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: -general-operation
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1612'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 ## Ejecución y rendimiento {#execution-and-performance}
 
-A continuación se detallan las directrices generales para optimizar el rendimiento de las campañas, incluidas las prácticas recomendadas para aplicarlas a los flujos de trabajo.
+A continuación, se detallan las directrices generales para optimizar el rendimiento de las campañas, incluidas las prácticas recomendadas para aplicarlas a los flujos de trabajo.
 
 Las directrices para la resolución de problemas relacionadas con la ejecución de flujos de trabajo también están disponibles en la [Guía de producción de Campaign Classic v7](../../production/using/workflow-execution.md).
 
@@ -72,7 +72,7 @@ En los casos más inusuales sólo se debe utilizar la detención incondicional. 
 
 ### Ejecutar en la opción de motor {#execute-in-the-engine-option}
 
-En la ventana **[!UICONTROL Workflow properties]**, evite seleccionar la opción **[!UICONTROL Execute in the engine]**. Cuando esta opción está activada, el flujo de trabajo tiene prioridad y el motor de flujo de trabajo detiene todo el resto de flujos de trabajo hasta que este haya terminado.
+En la ventana **[!UICONTROL Workflow properties]**, evite seleccionar la opción **[!UICONTROL Execute in the engine]**. Cuando esta opción está activada, el flujo de trabajo tiene prioridad y el motor de flujos de trabajo detiene todo el resto de flujos de trabajo hasta que este haya terminado.
 
 ![](assets/wf-execute-in-engine.png)
 
@@ -134,7 +134,7 @@ El HeatMap de flujo de trabajo permite a los administradores de la plataforma de
 
 Al desarrollar el flujo de trabajo, todas las actividades tienen un nombre, como todos los objetos de Adobe Campaign. Aunque la herramienta genera el nombre, le recomendamos que cambie el nombre por uno explícito al configurarlo. El riesgo de hacerlo más tarde es que puede interrumpir el flujo de trabajo con actividades al usar el nombre de otra actividad anterior. Por lo tanto, sería difícil actualizar los nombres más adelante.
 
-El nombre de la actividad se puede encontrar en la pestaña **[!UICONTROL Advanced]**. Evite poner nombres como **[!UICONTROL query]**, **[!UICONTROL query1]**, **[!UICONTROL query11]**; asígneles nombres explícitos como **[!UICONTROL querySubscribedRecipients]**. Este nombre se muestra en el historial y, si procede, en los “logs” SQL, lo que le ayuda a depurar el flujo de trabajo al configurarlo.
+El nombre de la actividad se puede encontrar en la pestaña **[!UICONTROL Advanced]**. Evite poner nombres como **[!UICONTROL query]**, **[!UICONTROL query1]**, **[!UICONTROL query11]**; asígneles nombres explícitos como **[!UICONTROL querySubscribedRecipients]**. Este nombre se muestra en el historial y, si procede, en los registros SQL, lo que le ayuda a depurar el flujo de trabajo al configurarlo.
 
 ### Primeras y últimas actividades {#first-and-last-activities}
 
