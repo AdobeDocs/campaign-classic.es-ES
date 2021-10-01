@@ -6,9 +6,9 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 79%
 
 ![](../../assets/common.svg)
 
-Los flujos de trabajo detallados a continuación se instalan con el complemento **Offer engine (Interaction)** de forma predeterminada.
+Los flujos de trabajo detallados a continuación se instalan con el complemento **Motor de ofertas (Interacción)** de forma predeterminada.
 
 Para obtener más información, consulte estas secciones en función de la versión de Campaign:
 
 ![](assets/do-not-localize/v7.jpeg)[  Documentación de Campaign v7](../../interaction/using/interaction-and-offer-management.md)
 
-![](assets/do-not-localize/v8.png)[  Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/interaction/interaction.html)
+![](assets/do-not-localize/v8.png)[  Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/interaction/interaction.html?lang=es)
 
 
 <table> 
