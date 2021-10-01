@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2468'
 ht-degree: 100%
 
@@ -99,7 +99,7 @@ En dicha campaña, cuando el estado de creación del presupuesto se establece en
 
 ![](assets/s_user_budget_in_op_a.png)
 
-Según el nivel de compromiso del presupuesto de la campaña, la cantidad se introduce en el campo  **[!UICONTROL Planned]**, **[!UICONTROL Reserved]** o **[!UICONTROL Committed]**.
+Según el nivel de compromiso del presupuesto de la campaña, la cantidad se introduce en el campo **[!UICONTROL Planned]**, **[!UICONTROL Reserved]** o **[!UICONTROL Committed]**.
 
 Se puede modificar el nivel de compromiso:
 
