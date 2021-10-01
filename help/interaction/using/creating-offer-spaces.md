@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: managing-environments
 exl-id: bdda98f7-a083-4f3b-b691-c28ec79af780
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '981'
 ht-degree: 100%
 
@@ -79,7 +79,7 @@ Una propuesta de oferta puede tener varios estados en función de las interaccio
 >
 >El estado de la propuesta de oferta no se actualiza inmediatamente. Se lleva a cabo mediante el flujo de trabajo de seguimiento, que se activa cada hora.
 
-### Lista de estado {#status-list}
+### Lista de estados {#status-list}
 
 La interacción viene con los siguientes valores que pueden utilizarse para calificar el estado de una propuesta de oferta:
 
