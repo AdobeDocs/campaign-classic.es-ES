@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: -general-operation
 exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '840'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Las entregas creados mediante esta plantilla se almacenan en la carpeta **[!UICO
 
 ## Aprobación mediante la consola {#approval-via-the-console}
 
-En las operaciones, los elementos que se vayan a aprobar se muestran en el panel de campañas.
+En las operaciones, los elementos que se vayan a aprobar se muestran en el tablero de campañas.
 
 Para los flujos de trabajo técnicos, se puede acceder a las tareas que el usuario puede aprobar desde la estructura de árbol de la carpeta **[!UICONTROL Administration > Production > Objects created automatically > Pending approvals]**.
 
