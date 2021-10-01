@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: creating-new-reports
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
 source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Para crear un gráfico en un informe, siga los siguientes pasos:
 
       ![](assets/reporting_graph_add_filter.png)
 
-   * Para utilizar datos contextuales, seleccione **[!UICONTROL Context data]** en la lista desplegable **[!UICONTROL Source]** y haga clic en el enlace **[!UICONTROL Advanced settings...]**. Seleccione los datos a los que corresponden las estadísticas.
+   * Para utilizar datos contextuales, seleccione **[!UICONTROL Context data]** en la lista desplegable **[!UICONTROL Source]** y haga clic en el vínculo **[!UICONTROL Advanced settings...]**. Seleccione los datos a los que corresponden las estadísticas.
 
       ![](assets/reporting_graph_from_context.png)
 
@@ -115,7 +115,7 @@ Si procede, puede apilar los valores.
 
 Si es necesario, puede invertir la secuencia de visualización de los valores. Para ello, seleccione la opción **[!UICONTROL Reverse stacking]**.
 
-### Conversión: Embudo {#conversion--funnel}
+### Conversión: canal {#conversion--funnel}
 
 Este tipo de gráfico le permite realizar un seguimiento de la tasa de conversión de los elementos medidos.
 
