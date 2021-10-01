@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: web-forms
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2371'
 ht-degree: 100%
 
@@ -377,6 +377,7 @@ Se puede almacenar el vínculo a estos archivos en una variable local o en un ca
 >* Adobe Campaign no controla el tamaño ni el tipo de recurso cargado: por lo tanto, se recomienda encarecidamente utilizar campos de carga únicamente para sitios de intranet de tipo seguro.
 >* Si hay varios servidores vinculados a la instancia (“equilibrio de carga”), debe asegurarse de que las llamadas al formulario web lleguen al mismo servidor.
 >* Estas implementaciones requieren la asistencia del equipo de consultoría de Adobe Campaign.
+
 >
 
 
