@@ -7,19 +7,19 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
 source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '526'
 ht-degree: 100%
 
 ---
 
-# Preguntas más frecuentes sobre desarrolladores {#dev-faq}
+# Preguntas frecuentes para desarrolladores {#dev-faq}
 
 ![](../../assets/v7-only.svg)
 
 Como solución abierta, Adobe Campaign está listo para la personalización y el desarrollo de aplicaciones avanzadas.
 
-## ¿Qué es el modelo de datos de Campaign?  {#what-is-the-campaign-data-model}
+## ¿Qué es el modelo de datos de Campaign? {#what-is-the-campaign-data-model}
 
 El modelo de datos conceptuales de la base de datos de Adobe Campaign consta de un conjunto de tablas integradas y su interacción. La estructura física y lógica de los datos que se llevan en la aplicación se describe en XML. Obedece a una gramática específica de Adobe Campaign, denominada esquema. Para obtener más información sobre Adobe Campaign, [consulte esta sección](../../configuration/using/about-schema-edition.md).
 
@@ -27,7 +27,7 @@ El modelo de datos conceptuales de la base de datos de Adobe Campaign consta de 
 
 Las prácticas recomendadas se enumeran [en este artículo](https://helpx.adobe.com/es/campaign/kb/acc-data-model-best-practices.html).
 
-## ¿Cómo se trabaja con los esquemas de Campaign?  {#how-to-work-with-campaign-schemas-}
+## ¿Cómo se trabaja con los esquemas de Campaign? {#how-to-work-with-campaign-schemas-}
 
 En Adobe Campaign, los esquemas de datos se utilizan para:
 
@@ -37,7 +37,7 @@ En Adobe Campaign, los esquemas de datos se utilizan para:
 
 Lea sobre [Tablas y esquemas](../../configuration/using/about-schema-edition.md) para comprender cómo trabajar con el esquema de datos, ampliar y personalizar Campaign para satisfacer sus necesidades.
 
-## ¿Cómo se utiliza una tabla de destinatarios personalizada?  {#how-to-use-a-custom-recipient-table-}
+## ¿Cómo se utiliza una tabla de destinatarios personalizada? {#how-to-use-a-custom-recipient-table-}
 
 Puede crear e implementar una tabla de destinatarios no estándar en Campaign para enviar los mensajes.
 
@@ -65,4 +65,4 @@ El principio de los paquetes de datos es exportar una configuración de datos e 
 
 ## ¿Dónde puedo encontrar la lista de las API de Campaign Classic?  {#where-can-i-find-the-list-of-campaign-classic-apis}
 
-Todas las API de campaña, incluida su descripción completa, están disponibles en esta [documentación dedicada](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
+Todas las API de Campaign, con su descripción completa, están disponibles en esta [documentación dedicada](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
