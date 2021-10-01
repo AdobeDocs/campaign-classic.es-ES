@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: tracking-messages
 exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
 ht-degree: 100%
 
@@ -114,7 +114,7 @@ Al intentar acceder a los vínculos de seguimiento, aparece el siguiente mensaje
 
    Deben tener al menos 644 permisos para que Apache pueda leer las direcciones URL de seguimiento para redireccionar el vínculo solicitado.
 
-## ¿Actualizando la opción NmsTracking_Pointer?  {#updating-option}
+## ¿Actualiza la opción NmsTracking_Pointer? {#updating-option}
 
 Siga estos pasos al actualizar la opción NmsTracking_Pointer:
 
