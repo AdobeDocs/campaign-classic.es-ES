@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: web-forms
 exl-id: 7aa4646d-1325-47c2-b553-6fe375c48973
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '957'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-## Creación de un formulario de suscripción con doble adhesión {#create-a-subscription--form-with-double-opt-in}
+## Creación de un formulario de suscripción con doble inclusión {#create-a-subscription--form-with-double-opt-in}
 
 Al ofrecer servicios de información, es necesario que los destinatarios se suscriban para recibir todas las comunicaciones vinculadas. Para evitar comunicaciones incorrectas y asegurarse de que el destinatario se ha suscrito intencionadamente, se recomienda enviar una solicitud de confirmación de suscripción para crear una adhesión doble. Así, la suscripción solo es efectiva una vez que el usuario hace clic en el vínculo incluido en el mensaje de confirmación.
 
@@ -38,7 +38,7 @@ Este ejemplo se basa en el siguiente supuesto:
 
 ### Paso 2: Creación de mensajes de confirmación {#step-2---creating-confirmation-messages}
 
-Los mensajes de confirmación se envían a través de una plantilla de envío dedicada a nivel de servicio temporal.
+Los mensajes de confirmación se envían a través de una plantilla de envíos dedicada en el nivel de servicio temporal.
 
 1. En **[!UICONTROL Explorer]**, seleccione **[!UICONTROL Resources > Templates > Delivery templates]**
 1. Cree una plantilla de envío para enviar los mensajes de confirmación de suscripción.
@@ -147,7 +147,7 @@ Para realizar esto, siga los pasos a continuación:
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_5h.png)
 
-1. Una vez creado y configurado el formulario web, se puede hacer referencia a él en la plantilla de envío para enviar mensajes de confirmación.
+1. Una vez creado y configurado el formulario web, se puede hacer referencia a él en la plantilla de envíos para enviar mensajes de confirmación.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_7b.png)
 
@@ -182,7 +182,7 @@ La suscripción al boletín informativo implica los pasos siguientes:
    En Adobe Campaign se actualiza el perfil de usuario:
 
    * ya no están en lista de bloqueados,
-   * están suscritos al servicio de información.
+   * están suscritos al servicio informativo.
 
       ![](assets/s_ncs_admin_survey_double-opt-in_sample_9.png)
 
