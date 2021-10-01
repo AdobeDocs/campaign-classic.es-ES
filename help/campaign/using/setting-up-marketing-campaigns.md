@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1253'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Para configurar la jerarquía de carpetas para planes y programas de marketing:
 1. Haga clic con el botón derecho del ratón en el plan recién creado y seleccione **Create a new “Program” folder**.
 1. Repita los pasos anteriores para cambiar el nombre de la nueva carpeta del programa y su nombre interno.
 
-## Cree una campaña {#creating-a-campaign}
+## Creación de una campaña {#creating-a-campaign}
 
 ### Adición de una campaña {#adding-a-campaign}
 
@@ -103,9 +103,9 @@ Una campaña recurrente es una campaña basada en una plantilla específica, cuy
 
 Una campaña periódica es una campaña creada automáticamente según la programación de ejecución de su plantilla.
 
-### Creción de una campaña recurrente {#creating-a-recurring-campaign}
+### Creación de una campaña recurrente {#creating-a-recurring-campaign}
 
-Las campañas recurrentes se crean a partir de una plantilla específica que define la plantilla de flujo de trabajo que se va a ejecutar y el cronograma de ejecución.
+Las campañas recurrentes se crean a partir de una plantilla específica que define la plantilla de flujo de trabajo que se va a ejecutar y la programación de ejecución.
 
 #### Creación de una plantilla para campañas recurrentes {#creating-the-campaign-template}
 
