@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: creating-new-reports
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '754'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Defina el contexto de visualización del informe en la plataforma de Adobe Campa
 
 ### Tipo de selección {#selection-type}
 
-El acceso al informe se puede limitar a un contexto específico o a un espacio de oferta, por ejemplo una entrega, un destinatario, una selección de destinatarios, etc. Este acceso se configura en la sección **[!UICONTROL Selection type]** de la pestaña **[!UICONTROL Display]**.
+El acceso al informe se puede limitar a un contexto específico o a un espacio de ofertas como, por ejemplo, una entrega, un destinatario, una selección de destinatarios, etc. Este acceso se configura en la sección **[!UICONTROL Selection type]** de la pestaña **[!UICONTROL Display]**.
 
 ![](assets/s_ncs_advuser_report_visibility_4.png)
 
