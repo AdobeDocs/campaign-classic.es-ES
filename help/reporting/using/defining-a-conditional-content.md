@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: creating-new-reports
 exl-id: efee50f7-d917-4c71-add2-116c4b8f7013
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '245'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Para que los elementos específicos sean condicionales, adapte su configuración
 
 Para que la visualización de una o más páginas sea condicional, utilice una actividad de tipo **[!UICONTROL Test]**. Para obtener más información, consulte [Determinación de la visualización de la página](#conditioning-page-display).
 
-## Condicionamiento de la visualización de elementos {#conditioning-item-display}
+## Condiciones de visualización de elementos {#conditioning-item-display}
 
 Para que la visualización de parte de un informe sea condicional, debe definir sus condiciones de visibilidad: si no se cumplen, los elementos no se muestran.
 
