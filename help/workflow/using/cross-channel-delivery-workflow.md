@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: use-cases
 exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '666'
 ht-degree: 100%
 
 ---
 
-# Flujo de trabajo de entrega en canales múltiples{#cross-channel-delivery-workflow}
+# Flujo de trabajo de entrega por canales cruzados{#cross-channel-delivery-workflow}
 
 ![](../../assets/common.svg)
 
@@ -46,7 +46,7 @@ Para definir el objetivo, cree una consulta para identificar los destinatarios.
 
 1. Guarde los cambios.
 
-## Paso 2: Crear un correo electrónico que incluya una oferta {#step-2--creating-an-email-including-an-offer}
+## Paso 2: Creación de un correo electrónico que incluya una oferta {#step-2--creating-an-email-including-an-offer}
 
 1. Cree una actividad **[!UICONTROL Email delivery]** y haga doble clic en ella en el flujo de trabajo para editarla. Para obtener más información sobre la creación de correos electrónicos, consulte [esta sección](../../delivery/using/about-email-channel.md).
 1. Diseñe el mensaje e inserte un vínculo que incluya una oferta en el contenido.
@@ -67,7 +67,7 @@ Para definir el objetivo, cree una consulta para identificar los destinatarios.
 
    ![](assets/wkf_cross-channel_4.png)
 
-## Paso 3: Segmentación del público resultante {#step-3--segmenting-the-resulting-audience}
+## Paso 3: Segmentación de la audiencia resultante {#step-3--segmenting-the-resulting-audience}
 
 Una vez identificado el objetivo y que se haya creado el primer envío, se debe segmentar el objetivo en diferentes poblaciones utilizando condiciones de filtrado.
 
@@ -103,7 +103,7 @@ Una vez identificado el objetivo y que se haya creado el primer envío, se debe 
 
 1. Haga clic en **[!UICONTROL Finish]** para guardar los cambios.
 
-## Paso 4: Finalizar del flujo de trabajo {#step-4--finalizing-the-workflow}
+## Paso 4: Finalización del flujo de trabajo {#step-4--finalizing-the-workflow}
 
 1. Agregue las actividades relevantes al flujo de trabajo después de los tres subconjuntos resultantes de la actividad **[!UICONTROL Split]**:
 
