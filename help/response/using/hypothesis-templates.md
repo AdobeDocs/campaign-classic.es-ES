@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Plantillas de hipótesis
-description: Aprenda a crear plantillas de hipótesis en el Gestor de respuestas de Campaign
+description: Aprenda a crear hipótesis en el Gestor de respuestas de Campaign
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1376'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Para crear una plantilla de hipótesis, aplique los siguientes pasos:
    >
    >Este periodo se determina a partir de la fecha de contacto.
 
-1. En la pestaña **[!UICONTROL Transactions]** , especifique las tablas y los campos necesarios para el cálculo de hipótesis. [Más información](#transactions)
+1. En la pestaña **[!UICONTROL Transactions]**, especifique las tablas y los campos necesarios para el cálculo de hipótesis. [Más información](#transactions)
 1. Si la plantilla está configurada para hipótesis de **[!UICONTROL Offer]**, puede activar la opción **[!UICONTROL Update offer proposition status]**: en este caso, seleccione el estado de la propuesta de oferta que desea cambiar.
 1. Especifique el ámbito de la aplicación de hipótesis. [Más información](#hypothesis-perimeter)
 1. Si es necesario, utilice una secuencia de comandos para completar el filtrado. [Más información](#hypothesis-perimeter)
@@ -113,7 +113,7 @@ La pestaña **[!UICONTROL General]** de la plantilla también permite especifica
 
 ### Transacciones {#transactions}
 
-Esta pestaña contiene los distintos campos y tablas que permiten guardar el historial de reacciones del destinatario en términos de transacciones. Consulte esta [sección](../../configuration/using/about-schema-reference.md) para obtener más información sobre las tablas dedicadas a la administración de respuestas.
+Esta pestaña contiene los distintos campos y tablas que permiten guardar el historial de reacciones del destinatario en términos de transacciones. Consulte esta [sección](../../configuration/using/about-schema-reference.md) para obtener más información sobre las tablas dedicadas a la gestión de respuestas.
 
 * **[!UICONTROL Schema (reaction log storage)]**: seleccione la tabla de limpieza del destinatario. La tabla predeterminada de Adobe Campaign es **NmsRemaMatchRcp**.
 * **[!UICONTROL Transaction schema]**: elija la tabla a la que se referirán las hipótesis, es decir, la transacción o la tabla de compras.
@@ -127,7 +127,7 @@ Esta pestaña contiene los distintos campos y tablas que permiten guardar el his
 
    ![](assets/response_measurement_001.png)
 
-   Si la hipótesis se inicia sobre la marcha, se puede forzar si quisiera activarla inmediatamente. De lo contrario, se activa automáticamente en función de la fecha de finalización del cálculo configurada, que se basa en la fecha de creación de la hipótesis. [Más información](creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery)).
+   Si la hipótesis se inicia sobre la marcha, se puede forzar si quisiera activarla inmediatamente. De lo contrario, se activa automáticamente según el final de la fecha de cálculo configurada, que se basa en la fecha de creación de la hipótesis. [Más información](creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery)).
 
 * **[!UICONTROL Transaction/Margin amount]**: estos campos son opcionales y permiten calcular los indicadores de facturación automáticamente. [Más información](hypothesis-tracking.md#indicators)
 * **[!UICONTROL Unit amount]**: permite configurar una cantidad para calcular ingresos. [Más información](hypothesis-tracking.md#indicators)
@@ -143,7 +143,7 @@ Esta pestaña contiene los distintos campos y tablas que permiten guardar el his
 
 Una vez que haya definido la tabla de transacciones y los campos a los que se referirá la hipótesis, puede refinar el alcance de sus hipótesis especificando las transacciones y envíos específicos utilizando filtros. También puede utilizar una secuencia de comandos de JavaScript para indicar explícitamente el producto al que se hace referencia en la tabla de transacciones.
 
-* **Filtrar por transacciones**: en la  **[!UICONTROL Scope]** pestaña , puede configurar un filtro en la hipótesis. Para ello:
+* **Filtrar transacciones**: en la pestaña **[!UICONTROL Scope]**, puede configurar un filtro en la hipótesis. Para ello:
 
    1. Haga clic en el vínculo **[!UICONTROL Edit query]**.
 
@@ -181,7 +181,7 @@ Una vez que haya definido la tabla de transacciones y los campos a los que se re
 
    ![](assets/response_hypothesis_model_creation_011.png)
 
-## Ejemplo: creación de una plantilla de hipótesis en una entrega {#example--creating-a-hypothesis-template-on-a-delivery}
+## Ejemplo: Creación de una plantilla de hipótesis para una entrega {#example--creating-a-hypothesis-template-on-a-delivery}
 
 En este ejemplo, vamos a crear una plantilla de hipótesis para una entrega de correo postal. La tabla de transacciones (**Purchases** en nuestro ejemplo) en la que se basarán las hipótesis contiene líneas de compra vinculadas a artículos o productos. Queremos configurar nuestro modelo para crear hipótesis sobre artículos o productos en la tabla de compras.
 
