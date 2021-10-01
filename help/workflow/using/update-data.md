@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: targeting-activities
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '849'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Una actividad del tipo **Update data** realiza una actualización masiva de los campos de la base de datos.
+Una actividad del tipo **Fecha de actualización** realiza una actualización masiva de los campos de la base de datos.
 
 ## Tipo de operación {#operation-type}
 
@@ -118,7 +118,7 @@ Los datos de los registros secundarios están asociados al registro principal si
 
 ## Ejemplo: Actualización de datos después de un enriquecimiento {#example--update-data-following-an-enrichment}
 
-El [Paso 2: La escritura de datos enriquecidos en la sección de tabla](creating-a-summary-list.md#step-2--writing-enriched-data-to-the--purchases--table) &quot;Compras&quot; del caso de uso que detalla la creación de una lista de recapitulación ofrece un ejemplo de una actualización de datos después de una actividad de enriquecimiento.
+El [Paso 2: Escritura de datos enriquecidos en la sección de tabla](creating-a-summary-list.md#step-2--writing-enriched-data-to-the--purchases--table) “Compras” del caso de uso que detalla la creación de una lista de recapitulación ofrece un ejemplo de una actualización de datos después de una actividad de enriquecimiento.
 
 ## Parámetros de entrada {#input-parameters}
 
