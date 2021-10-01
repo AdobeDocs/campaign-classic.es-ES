@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: use-cases
 exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1272'
 ht-degree: 100%
 
@@ -87,7 +87,7 @@ Para obtener más información sobre la creación de una plantilla de distribuci
       >
       >Asegúrese de que se hayan asignado los derechos adecuados a los operadores.
 
-## Paso 2: Creación de un flujo de trabajo de objetivos {#step-2--creating-the-targeting-workflow}
+## Paso 2: Creación de un flujo de trabajo de segmentación {#step-2--creating-the-targeting-workflow}
 
 Para configurar este caso de uso, se ha creado el siguiente flujo de trabajo de objetivo:
 
@@ -128,7 +128,7 @@ Si no desea limitar la población de la consulta, no tiene que utilizar las acti
 
    ![](assets/local_validation_split_3.png)
 
-En la plantilla de distribución, se ha elegido limitar la población al 10% por valor de agrupación, lo que coincide con los valores mostrados en el flujo de trabajo (340 como entrada y 34 como salida).
+En la plantilla de distribución, se ha elegido limitar la población al 10 % por valor de agrupación, lo que coincide con los valores mostrados en el flujo de trabajo (340 como entrada y 34 como salida).
 
 ![](assets/local_validation_intro_1.png)
 
@@ -156,7 +156,7 @@ El correo electrónico de notificación que envía la actividad **[!UICONTROL Lo
 
 ### Espera {#wait}
 
-La actividad de espera permite posponer el inicio de la segunda actividad de aprobación local que envía la notificación de entrega de comentarios. En el campo **[!UICONTROL Duration]**, se ha introducido el valor **[!UICONTROL 5d]** (5 días). Las acciones que realizan los destinatarios durante 5 días después de realizarse la entrega se incluyen en la notificación de comentarios.
+La actividad de espera permite posponer el inicio de la segunda actividad de aprobación local que envía la notificación de entrega de comentarios. En el campo **[!UICONTROL Duration]**, se ha introducido el valor **[!UICONTROL 5d]** (5 días). Las acciones que realizan los destinatarios durante 5 días después del envío la entrega se incluyen en la notificación de comentarios.
 
 ![](assets/local_validation_workflow_3.png)
 
