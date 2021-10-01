@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1151'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Para cargar todos los registros, haga clic con el botón derecho en la lista y s
 >
 >En función del número de registros, el tiempo de carga de la lista completa puede ser largo.
 
-### Cambiar el número predeterminado de registros {#change-default-number-of-records}
+### Cambio del número predeterminado de registros {#change-default-number-of-records}
 
 Para cambiar el número predeterminado de registros cargados, haga clic en **[!UICONTROL Configure list]** en la esquina inferior derecha de la lista.
 
@@ -53,7 +53,7 @@ En la ventana de configuración de la lista, haga clic en **[!UICONTROL Advanced
 
 ## Configuración de listas {#configuring-lists}
 
-### Insertar columnas {#add-columns}
+### Inserción de columnas {#add-columns}
 
 Existen dos formas de añadir una columna en la lista.
 
@@ -99,14 +99,14 @@ Otra forma de añadir columnas, por ejemplo, si desea mostrar datos que no se mu
 
 1. Haga clic en **[!UICONTROL OK]** para confirmar la configuración y mostrar el resultado.
 
-### Crear una columna nueva {#create-a-new-column}
+### Creación de una columna nueva {#create-a-new-column}
 
 Puede crear nuevas columnas para mostrar campos adicionales en la lista. Para ello:
 
 1. Haga clic en **[!UICONTROL Configure the list]** en la parte inferior derecha de la lista.
 1. Haga clic en **[!UICONTROL Add]** para mostrar un nuevo campo en la lista.
 
-### Eliminar una columna {#remove-a-column}
+### Eliminación de una columna {#remove-a-column}
 
 Puede ocultar una o varias columnas de una lista de registros usando la función **[!UICONTROL Configure list]** situada en la parte inferior derecha de la lista.
 
@@ -118,9 +118,9 @@ En la ventana de configuración de la lista, seleccione la columna que desea ocu
 
 Repita el proceso para cada columna que quiera ocultar. Haga clic en **[!UICONTROL OK]** para confirmar la configuración y mostrar el resultado.
 
-### Ajustar el ancho de las columnas {#adjust-column-width}
+### Ajuste de la anchura de las columnas {#adjust-column-width}
 
-Cuando una lista está activa, es decir, cuando se selecciona al menos una línea, puede utilizar F9 para ajustar el ancho de las columnas de modo que todas las columnas se puedan mostrar en pantalla.
+Cuando una lista está activa (es decir, cuando se selecciona al menos una línea), puede utilizar F9 para ajustar la anchura de las columnas de modo que todas las columnas se puedan mostrar en pantalla.
 
 ### Visualización de datos en subcarpetas {#display-sub-folders-records}
 
