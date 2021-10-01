@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: campaign-optimization
 exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ Durante la preparación de la entrega, los destinatarios se excluyen cuando se c
 
 ## Tutoriales en vídeo {#typologies-video}
 
-### Configuración de la gestión de la fatiga mediante reglas de tipología
+### Configuración de la administración de la fatiga mediante reglas de tipología
 
 En este vídeo se explica cómo implementar la administración de la fatiga en Adobe Campaign mediante reglas de tipología.
 
