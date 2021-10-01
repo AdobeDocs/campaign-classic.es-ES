@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: use-cases
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2016'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Cuando se selecciona esta opción, las actividades ejecutadas se muestran en azu
 
 ![](assets/s_user_segmentation_results.png)
 
-## Visualización de “logs” {#displaying-logs}
+## Visualización de registros {#displaying-logs}
 
 El “log” contiene el historial o la pista de auditoría del flujo de trabajo. Registra todas las acciones del usuario, todas las operaciones realizadas y los errores encontrados. Se puede:
 
@@ -93,15 +93,15 @@ El “log” muestra la lista de mensajes de ejecución relacionados con las act
 
       ![](assets/s_user_segmentation_logs_menu.png)
 
-      El “log” se muestra en una ventana independiente.
+      El registro se muestra en una ventana independiente.
 
-## Depuración de “logs” {#purging-the-logs}
+## Depuración de registros {#purging-the-logs}
 
 El historial del flujo de trabajo no se purga automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede eliminar a través del menú **[!UICONTROL File > Actions]****[!UICONTROL Actions]** o haciendo clic en el botón ubicado en la barra de herramientas situada encima de la lista. Seleccione **[!UICONTROL Purge history]**. Las opciones disponibles en el menú **[!UICONTROL Actions]** se detallan en la sección [Barra de herramientas de acciones](starting-a-workflow.md).
 
 ![](assets/purge_historique.png)
 
-## Esquema tablas de trabajo y flujo de trabajo {#worktables-and-workflow-schema}
+## Esquema de tablas de trabajo y flujo de trabajo {#worktables-and-workflow-schema}
 
 El flujo de trabajo transmite tablas de trabajo que se pueden manipular mediante determinadas actividades. Adobe Campaign le permite, a través de las actividades de gestión de datos, modificar, cambiar el nombre y enriquecer las columnas de las tablas de trabajo del flujo de trabajo, por ejemplo, para alinearlas con la nomenclatura dependiendo de las necesidades del cliente, para recoger información adicional sobre el cobeneficiario de un contrato, etc.
 
@@ -109,7 +109,7 @@ También es posible crear vínculos entre diferentes dimensiones de trabajo y de
 
 Las tablas de trabajo del flujo de trabajo se eliminan automáticamente cuando el flujo de trabajo se pasiva. Si desea mantener una tabla de trabajo, guárdela en una lista a través de la actividad **[!UICONTROL List update]** (consulte [Actualización de listas](list-update.md)).
 
-## Gestión de errores {#managing-errors}
+## Administración de errores {#managing-errors}
 
 Cuando se produce un error, el flujo de trabajo se detiene y la actividad que se está ejecutando cuando se produce el error parpadea en rojo. En la descripción general del flujo de trabajo, en la pestaña **[!UICONTROL Monitoring]** del vínculo **[!UICONTROL Workflows]**, puede mostrar solo los flujos de trabajo con errores, como se muestra a continuación.
 
@@ -261,7 +261,7 @@ Estas son las opciones disponibles:
 * **[!UICONTROL Running]**: enumera todos los flujos de trabajo en ejecución.
 * **[!UICONTROL Paused]**: enumera todos los flujos de trabajo pausados.
 * **[!UICONTROL Failed]**: enumera todos los flujos de trabajo con errores.
-* **[!UICONTROL Start Pending]**: lista todos los flujos de trabajo que están a la espera de ser iniciados por el proceso operationMgt. Esta vista solo está disponible con el paquete **Marketing campaign** . Obtenga más información en la [Guía de instalación de Campaign Classic v7](../../installation/using/installing-campaign-standard-packages.md)).
+* **[!UICONTROL Start Pending]**: lista todos los flujos de trabajo que están a la espera de ser iniciados por el proceso operationMgt. Esta vista solo está disponible con el paquete **Campañas de marketing**. Obtenga más información en la [Guía de instalación de Campaign Classic v7](../../installation/using/installing-campaign-standard-packages.md)).
 
 ![](assets/workflow-monitoring-views.png)
 
