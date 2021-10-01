@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: use-cases
 exl-id: 12b173e9-5068-4d45-9e1e-2aecc9866e9c
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '612'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Para realizar un filtro **Creation date = max (Creation date)** en los destinata
 
    Deje la opción **[!UICONTROL Remove duplicate rows (DISTINCT)]** marcada.
 
-## Paso 2: Vincular a destinatarios con el resultado de la función de añadir {#step-2--linking-the-recipients-and-the-aggregation-function-result}
+## Paso 2: Vinculación de destinatarios con el resultado de la función de añadir {#step-2--linking-the-recipients-and-the-aggregation-function-result}
 
 Para vincular la consulta de los destinatarios a la consulta que lleva a cabo el cálculo de la función de agregación, se debe utilizar una actividad de edición de esquema.
 
