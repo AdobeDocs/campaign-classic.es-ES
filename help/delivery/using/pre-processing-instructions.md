@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: tracking-messages
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '642'
 ht-degree: 100%
 
@@ -74,7 +74,7 @@ Sintaxis:
 Donde:
 
 * **[!DNL object]**: nombre del objeto (ejemplo: envío, proveedor, etc.).
- El objeto puede ser:
+El objeto puede ser:
    * **[!DNL delivery]**: para el envío actual (vea los detalles y las restricciones en la subsección siguiente).
    * **[!DNL provider]**: para el proveedor/enrutamiento de envío actual (nms:externalAccount).
    * Un objeto de secuencia de comandos adicional: si un objeto se carga en el contexto mediante: **Propiedades** > **Personalización** > **Añadir objetos en el contexto de ejecución**.
