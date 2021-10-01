@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: targeting-activities
 exl-id: b4dee085-ccc4-43fd-850d-1501a99272aa
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
 ht-degree: 100%
 
 ---
 
-# Descripción de la entrega{#delivery-outline}
+# Descripción del envío{#delivery-outline}
 
 ![](../../assets/common.svg)
 
@@ -23,7 +23,7 @@ Para obtener más información sobre los esquemas de entrega en Adobe Campaign, 
 
 Para configurar la actividad, simplemente se debe seleccionar el esquema que desee y la fecha de contacto planificada. Se pueden agregar reglas de filtrado añadiendo tipologías o reglas tipológicas.
 
-## Inserción de una oferta mediante un esquema de entrega {#example--inserting-an-offer-via-a-delivery-outline}
+## Ejemplo: Inserción de una oferta mediante un esquema de entrega {#example--inserting-an-offer-via-a-delivery-outline}
 
 La actividad **Descripción de entrega**, disponible en los flujos de trabajo de la campaña, permite presentar ofertas especificadas en una descripción de entrega de la campaña en curso.
 
