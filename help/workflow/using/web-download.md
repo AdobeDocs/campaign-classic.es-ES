@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: event-activities
 exl-id: b6005eae-5fbc-4e22-ab3a-c9b7ed6506f6
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '405'
 ht-degree: 100%
 
@@ -67,4 +67,4 @@ La actividad **Web download** inicia la descarga de un archivo en una dirección
 
 ## Parámetros de salida {#output-parameters}
 
-* nombre de archivo: Nombre completo del archivo descargado.
+* filename: Nombre completo del archivo descargado.
