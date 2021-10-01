@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2434'
 ht-degree: 100%
 
@@ -75,7 +75,7 @@ Si no se especifica ningún revisor, el administrador de campaña es el responsa
 
 ## Modos de aprobación {#approval-modes}
 
-### Aprobación mediante el panel {#approval-via-the-dashboard}
+### Aprobación mediante el tablero {#approval-via-the-dashboard}
 
 Para aprobar un trabajo a través de la consola o la interfaz Web, haga clic en el vínculo correspondiente en el panel de campañas. Los trabajos también se pueden aprobar mediante el seguimiento de la entrega o mediante el panel de entrega.
 
@@ -229,7 +229,7 @@ En cada entrega de la campaña, puede aprobar los siguientes procesos:
 
    ![](assets/s_ncs_user_task_valid_associate.png)
 
-### Selección de aprobación de procesos {#choosing-the-processes-to-be-approved}
+### Aprobación de selección de procesos {#choosing-the-processes-to-be-approved}
 
 Las fases de aprobación se definen para la plantilla asociada a la campaña. Debe seleccionar los elementos que desea aprobar en la plantilla y especificar los operadores de Adobe Campaign responsables de estas aprobaciones. Para obtener más información sobre plantillas de envío, consulte [esta sección](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
@@ -252,6 +252,7 @@ Para seleccionar una lista de operadores, haga clic en el vínculo **[!UICONTROL
 >* Si se define una lista de revisores, el trabajo se aprueba en cuanto un revisor lo acepte. El vínculo de aprobación correspondiente, en ese caso, ya no se ofrece en el panel. Cuando se activa la entrega de notificaciones, si otro revisor hace clic en el vínculo de aprobación incluido en el mensaje de notificación, se le notifica que otro operador ya ha aprobado el trabajo.
 >* Puede definir una programación de aprobación para la campaña en la sección inferior de la ventana de edición del revisor. De forma predeterminada, los revisores tienen tres días a partir de la fecha de entrega para aprobar un proceso. Es posible configurar un recordatorio que se envíe automáticamente a los operadores antes de la fecha límite de aprobación.
 >* Puede agregar recordatorios en esta sección.
+
 >
 
 
@@ -313,7 +314,7 @@ Se puede configurar un ciclo de aprobación de contenido. Para ello, seleccione 
 
 #### Asignación de la edición de contenido {#assign-content-editing}
 
-Esta opción le permite definir a alguien a cargo de la edición de contenido, como un webmaster. Si se selecciona la opción **[!UICONTROL Assign content editing]** en la ventana de configuración de aprobación, se añaden varios pasos de aprobación entre la creación de la entrega y la entrega del correo electrónico de notificación a la persona responsable del contenido:
+Esta opción le permite definir a alguien a cargo de la edición de contenido, como un administrador web. Si se selecciona la opción **[!UICONTROL Assign content editing]** en la ventana de configuración de aprobación, se añaden varios pasos de aprobación entre la creación de la entrega y la entrega del correo electrónico de notificación a la persona responsable del contenido:
 
 1. Después de crear una nueva entrega, la persona responsable de la campaña hace clic en el vínculo **[!UICONTROL Submit content editing]** en el panel de campaña para iniciar el ciclo de edición de contenido.
 
@@ -353,7 +354,7 @@ Esta opción le permite definir a alguien a cargo de la edición de contenido, c
 
 #### Aprobación de contenido externo {#external-content-approval}
 
-Esta opción le permite definir un operador externo encargado de aprobar la representación de entrega, como coherencia de la comunicación de la marca, tasas, etc. Si se selecciona la opción **[!UICONTROL External content approval]** en la ventana de configuración de aprobación, se añaden varios pasos de aprobación entre la creación de la entrega y la entrega del correo electrónico de notificación a la persona responsable de la campaña:
+Esta opción le permite definir un operador externo encargado de aprobar el procesamiento de la entrega, como coherencia de la comunicación de la marca, tasas, etc. Si se selecciona la opción **[!UICONTROL External content approval]** en la ventana de configuración de aprobación, se añaden varios pasos de aprobación entre la creación de la entrega y la entrega del correo electrónico de notificación a la persona responsable de la campaña:
 
 1. El administrador de contenido externo recibe un mensaje de correo electrónico de notificación que indica que el contenido se ha aprobado y se solicita la aprobación externa.
 1. El correo electrónico de notificación contiene vínculos a las pruebas enviadas, lo que le permite ver el procesamiento de la entrega, y un botón para aprobar o rechazar el contenido de la entrega.
