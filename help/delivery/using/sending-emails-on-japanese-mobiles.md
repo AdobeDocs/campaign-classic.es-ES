@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: sending-emails
 exl-id: 44634227-2340-49c4-b330-740c739ea551
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
 ht-degree: 100%
 
@@ -91,7 +91,7 @@ Para enviar un correo electrónico a los destinatarios con formatos de correo el
 * Crear dos entregas: uno solo para los destinatarios japoneses y otro para otros destinatarios. Consulte [esta sección](#designing-a-specific-delivery-for-japanese-formats).
 * Crear una única entrega, y Adobe Campaign detecta automáticamente el formato que debe utilizar. Consulte [esta sección](#designing-a-delivery-for-all-formats).
 
-### Diseño de una entrega específico para formatos japoneses {#designing-a-specific-delivery-for-japanese-formats}
+### Diseño de una entrega específica para formatos japoneses {#designing-a-specific-delivery-for-japanese-formats}
 
 Puede crear un flujo de trabajo que contenga dos entregas: uno para su lectura en un dispositivo móvil japonés y otro para los destinatarios con un formato de correo electrónico estándar.
 
