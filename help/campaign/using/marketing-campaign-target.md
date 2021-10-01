@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1485'
 ht-degree: 100%
 
@@ -88,7 +88,7 @@ Puede crear varios flujos de trabajo de objetivos para una sola campaña. Para a
 1. Seleccione la plantilla **[!UICONTROL New workflow]** y asigne un nombre a este flujo de trabajo.
 1. Haga clic en **[!UICONTROL OK]** para confirmar la creación del flujo de trabajo y, a continuación, cree el diagrama para este flujo de trabajo.
 
-### Ejecución de un flujo de trabajo {#executing-a-workflow}
+### Ejecución del flujo de trabajo {#executing-a-workflow}
 
 Los flujos de trabajo de destino se pueden iniciar manualmente mediante el botón **[!UICONTROL Start]** de la barra de herramientas, siempre que tenga los derechos adecuados.
 
