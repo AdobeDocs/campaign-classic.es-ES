@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: advanced-management
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '488'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Puede optar por forzar la ejecución de un flujo de trabajo o actividad de flujo
 En esta [sección](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities) se detalla la configuración del flujo de trabajo de alta disponibilidad.
 
 
-## Max. periodo de ejecución {#max--execution-period}
+## Máx. periodo de ejecución {#max--execution-period}
 
 Este campo permite establecer una advertencia para los casos en los que la tarea tarde demasiado. No afecta a la operación del flujo de trabajo. Si la tarea no ha finalizado en el momento en que haya terminado el **[!UICONTROL Max. execution period]**, la página **[!UICONTROL Instance monitoring]** muestra una advertencia para este flujo de trabajo. Se accede a esta página a través de la pestaña **[!UICONTROL Monitoring]** de la página principal.
 
