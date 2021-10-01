@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: response-manager
 exl-id: e0b3bc9f-5e81-463f-a59e-cd972a47109b
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1003'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Existen varias formas para crear y vincular hipótesis a una oferta o un envío 
 
 Las hipótesis solo se pueden calcular una vez que se haya iniciado la campaña de marketing y los destinatarios hayan recibido la entrega. Si la hipótesis se basa en una propuesta de oferta, la última debe estar presente y permanecer activa. Las hipótesis de oferta y entrega se crean mediante la carpeta **[!UICONTROL Measurement hypotheses]** y se basan en una plantilla de hipótesis. Sin embargo, es posible hacer referencia a una hipótesis directamente en la entrega o la campaña antes de que comience la campaña. En este caso, la hipótesis se calculará automáticamente una vez que se inicie la campaña de marketing, según la configuración de ejecución. [Más información](hypothesis-templates.md#hypothesis-template-execution-settings)
 
-## Creación de una hipótesis sobre la marcha sobre un envío {#creating-a-hypothesis-on-the-fly-on-a-delivery}
+## Creación de una hipótesis sobre la marcha de un envío {#creating-a-hypothesis-on-the-fly-on-a-delivery}
 
 Para crear una hipótesis en una entrega existente, aplique el siguiente proceso:
 
@@ -38,7 +38,7 @@ Para crear una hipótesis en una entrega existente, aplique el siguiente proceso
 
    ![](assets/response_hypothesis_instance_creation_002.png)
 
-1. En la ventana de hipótesis, seleccione una plantilla creada anteriormente. [Más información](hypothesis-templates.md)
+1. En la ventana de hipótesis, seleccione una plantilla creada previamente. [Más información](hypothesis-templates.md)
 
    ![](assets/response_hypothesis_instance_creation_003.png)
 
@@ -108,11 +108,11 @@ Puede hacer referencia directamente a una hipótesis en el nivel de campaña. En
 
 Los resultados de la hipótesis pueden verse en las pestañas **[!UICONTROL General]** y **[!UICONTROL Reactions]** de la hipótesis. [Más información](hypothesis-tracking.md)
 
-Para obtener más información, consulte [este ejemplo](#example--creating-a-hypothesis-linked-to-a-delivery).
+Para obtener más información, también puede consultar [este ejemplo](#example--creating-a-hypothesis-linked-to-a-delivery).
 
-## Creación de una hipótesis sobre una oferta   {#creating-a-hypothesis-on-an-offer}
+## Creación de una hipótesis sobre una oferta {#creating-a-hypothesis-on-an-offer}
 
-Crear una hipótesis sobre una propuesta de oferta es similar a crear una hipótesis de entrega sobre la marcha. La hipótesis se puede ejecutar siempre que la oferta esté activa. El periodo de cálculo se basa en la fecha de la propuesta de oferta. Cuando la hipótesis le permite vincular un destinatario a una compra, el estado de la propuesta de oferta susceptible de ser aceptada se puede cambiar automáticamente. [Más información](hypothesis-templates.md#transactions)
+Crear una hipótesis sobre una propuesta de oferta es similar a crear una hipótesis de entrega sobre la marcha. La hipótesis se puede ejecutar siempre que la oferta esté activa. El periodo de cálculo se basa en la fecha de la propuesta de oferta. Cuando la hipótesis le permite vincular un destinatario a una compra, el estado de la propuesta de oferta susceptible de ser aceptada puede cambiar automáticamente. [Más información](hypothesis-templates.md#transactions)
 
 1. Cree uno o más **[!UICONTROL Offer]** modelos de tipo tal como se describe en [esta sección](hypothesis-templates.md#creating-a-hypothesis-model).
 1. Vaya al nodo **[!UICONTROL Campaign management > Measurement hypotheses]**.
