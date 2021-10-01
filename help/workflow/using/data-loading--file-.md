@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: action-activities
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1052'
 ht-degree: 100%
 
@@ -80,7 +80,7 @@ El formato de columna permite definir el valor de procesamiento de cada columna:
 * **[!UICONTROL Default value]**: especifica el valor predeterminado de acuerdo con el procesamiento de error seleccionado.
 * **[!UICONTROL Mapping]**: este campo solo está disponible en la configuración de los detalles de la columna (a los que se accede mediante un doble clic o a través de las opciones a la derecha de la lista de la columna). Esto transforma ciertos valores cuando se importan. Por ejemplo, se puede transformar “tres” en “3”.
 
-## Ejemplo: Recopilación de datos y carga en la base de datos {#example--collecting-data-and-loading-it-in-the-database}
+## Ejemplo: recopilación de datos y carga en la base de datos {#example--collecting-data-and-loading-it-in-the-database}
 
 El ejemplo siguiente permite recopilar un fichero en el servidor todos los días, cargar su contenido y actualizar los datos en la base de datos según la información que contenga. El archivo que se va a recopilar contiene información sobre los clientes que pueden haber realizado compras (de más o menos de 3000 euros), los que solicitaron un reembolso por una compra o realizaron una visita sin comprar nada. En función de esta información, se aplicarán varios procesos a sus perfiles en la base de datos.
 
