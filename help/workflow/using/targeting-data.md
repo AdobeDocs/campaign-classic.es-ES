@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: -general-operation
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1924'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -181,7 +181,7 @@ Para configurarlo, primero debe seleccionar unos criterios:
 
    ![](assets/do-not-localize/v7.jpeg)[  Documentación de Campaign v7](../../installation/using/about-fda.md)
 
-   ![](assets/do-not-localize/v8.png)[  Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=en)
+   ![](assets/do-not-localize/v8.png)[  Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=es)
 
 A continuación, es preciso añadir nuevos subconjuntos:
 
