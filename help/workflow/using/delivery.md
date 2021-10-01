@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: action-activities
 exl-id: 72fbdd1d-a105-4e9f-9e17-2e9d62d2bb80
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '917'
 ht-degree: 100%
 
@@ -102,7 +102,7 @@ Para configurarlo, edite la actividad e introduzca las opciones de entrega.
 
    ![](assets/edit_diffusion_fil_script.png)
 
-## Ejemplo: flujo de trabajo de la entrega {#example--delivery-workflow}
+## Ejemplo: Flujo de trabajo de la entrega {#example--delivery-workflow}
 
 Cree un nuevo flujo de trabajo y añada actividades como se muestra en el gráfico siguiente:
 
