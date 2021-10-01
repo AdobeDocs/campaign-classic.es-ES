@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: campaign-optimization
 exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '977'
 ht-degree: 100%
 
@@ -136,7 +136,7 @@ Como opción, puede utilizar el campo **[!UICONTROL Managing affinities with IP 
 >La administración de la afinidad no se aplica a tipologías de **[!UICONTROL Filtering]**.\
 >Las afinidades se definen en el archivo de configuración de la instancia, en el servidor de Adobe Campaign. Para obtener más información, consulte [esta sección](../../installation/using/about-initial-configuration.md).
 
-### Optimización de campaña y marketing distribuido {#campaign-optimization-and-distributed-marketing}
+### Optimización de la campaña y marketing distribuido {#campaign-optimization-and-distributed-marketing}
 
 La pestaña **[!UICONTROL Distributed Marketing]** permite definir la reasignación de tipologías y las reglas que se aplican cuando una campaña compartida se ha solicitado o está reservada. Las reglas o tipologías definidas para una entidad local (vinculadas a las reglas o tipologías definidas a nivel de la entidad central) sustituyen a las reglas o tipologías vinculadas a la entidad central. La reasignación le permite adaptar las reglas de la entidad central a las entidades locales que encargan la campaña.
 
