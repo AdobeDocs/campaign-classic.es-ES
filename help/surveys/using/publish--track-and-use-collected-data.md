@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: online-surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ El origen se indica en la dirección URL de la encuesta añadiendo los caractere
 ?origin=xxx
 ```
 
-mientras se edita la encuesta, su URL contiene el parámetro **[!UICONTROL __uuid]**, que indica que se encuentra en una fase de prueba y que todavía no está en línea. Al acceder a la encuesta a través de esta dirección URL, los archivos creados no se tienen en cuenta en el seguimiento (informes). Se fuerza el valor  en el origen **[!UICONTROL Adobe Campaign]**.
+mientras se edita la encuesta, su URL contiene el parámetro **[!UICONTROL __uuid]**, que indica que se encuentra en una fase de prueba y que todavía no está en línea. Al acceder a la encuesta a través de esta dirección URL, los archivos creados no se tienen en cuenta en el seguimiento (informes). Se fuerza el valor en el origen **[!UICONTROL Adobe Campaign]**.
 
 Para obtener más información sobre los parámetros de URL, consulte [esta página](../../web/using/defining-web-forms-properties.md#form-url-parameters).
 
