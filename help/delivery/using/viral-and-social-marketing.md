@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: subscriptions-and-referrals
 exl-id: 10fd561f-1b07-490e-9f66-d67e44a0def5
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '564'
 ht-degree: 100%
 
@@ -88,7 +88,7 @@ Siga estos pasos:
 
    Una vez validados, se les envía un mensaje de confirmación: el registro solo es definitivo cuando activen el vínculo en el mensaje de confirmación. Este mensaje se crea en función de la plantilla **[!UICONTROL Registration confirmation]**, que se almacena en el nodo **[!UICONTROL Administration > Campaign management > Technical delivery templates]**.
 
-   El destinatario secundario se añade a la carpeta **Recipients** de la base de datos y se suscribe (de forma predeterminada) al servicio informativo **Newsletter**.
+   El destinatario secundario se añade a la carpeta **Destinatarios** de la base de datos y se suscribe (de forma predeterminada) al servicio informativo **Newsletter**.
 
 ## Seguimiento del uso compartido en redes sociales {#tracking-social-network-sharing}
 
