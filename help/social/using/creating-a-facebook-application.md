@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: configuration
 exl-id: 5c11bd0f-2df7-4c7f-b682-955fedf8e664
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '983'
 ht-degree: 100%
 
@@ -88,7 +88,7 @@ Este paso requiere acceso a la consola de Adobe Campaign y a un explorador de In
    ![](assets/social_facebook_external_account_008.png)
 
 1. En Facebook, haga clic en el botón **[!UICONTROL Save Changes]** en la parte inferior de la página.
-1. En la consola de Adobe Campaign, haga clic en el botón **[!UICONTROL Subscribe]** para permitir que Adobe Campaign recupere los datos en tiempo real cada vez que un seguidor inicie sesión mediante esta aplicación. Para obtener más información, consulte: [Ejemplos de aplicaciones de Facebook](../../social/using/examples-of-facebook-apps.md).
+1. En la consola de Adobe Campaign, haga clic en el botón **[!UICONTROL Subscribe]** para permitir que Adobe Campaign recupere los datos en tiempo real cada vez que un seguidor inicie sesión mediante esta aplicación. Para obtener más información, consulte [Ejemplos de aplicaciones de Facebook](../../social/using/examples-of-facebook-apps.md).
 
    ![](assets/social_webapp_fb_013.png)
 
