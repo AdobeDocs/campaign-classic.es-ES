@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: use-cases
 exl-id: ab786cf1-74a4-4185-a63d-84e776a2f776
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '747'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Para crear el flujo de trabajo, siga los siguientes pasos:
 1. La actividad **[!UICONTROL Split]** permite crear subconjuntos de destinatarios en función de puntuaciones.
 1. Para cada subconjunto, se agrega una actividad **[!UICONTROL Delivery]**.
 
-## Paso 1: Composición {#step-1--targeting}
+## Paso 1: Direccionamiento {#step-1--targeting}
 
 La primera consulta permite dirigirse a los destinatarios que se agregaron a la base de datos en los últimos seis meses.
 
