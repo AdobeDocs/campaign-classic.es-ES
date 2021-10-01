@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Seguimiento de hipótesis
-description: Obtenga información sobre cómo rastrear hipótesis en el Gestor de respuestas de Campaign
+description: Aprenda a seguir hipótesis en el Gestor de respuestas de Campaign
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '455'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
