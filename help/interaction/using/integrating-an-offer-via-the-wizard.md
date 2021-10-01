@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 64aea8b9-7f06-4db0-a3e6-6a0e17c3ddcb
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '803'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Al crear una entrega, existen dos métodos posibles para la integración de ofer
 * Visualizar el motor de oferta en el cuerpo de una entrega.
 * Hacer referencia a ofertas a través de las descripciones del envío de una campaña. Este método se utiliza generalmente para campañas en papel.
 
-## Envío con visualización del motor de oferta {#delivering-with-a-call-to-the-offer-engine}
+## Envío con una llamada del motor de oferta {#delivering-with-a-call-to-the-offer-engine}
 
 Para presentar una oferta durante una campaña de marketing, simplemente cree una acción de envío clásica basada en el canal elegido. El motor de oferta se visualiza cuando se define el contenido del envío haciendo clic en el icono **[!UICONTROL Offers]** disponible en la barra de herramientas.
 
@@ -77,7 +77,7 @@ Para insertar las propuestas de oferta en una entrega, siga los siguientes pasos
 * **[!UICONTROL Exclude non-eligible recipients]** : esta opción permite activar o desactivar la exclusión de destinatarios para los que no haya suficientes ofertas aptas. El número de propuestas puede ser inferior al número solicitado de propuestas. Si se selecciona este cuadro, los destinatarios que no tengan suficientes propuestas se excluirán de la entrega. Si no selecciona esta opción, estos destinatarios no se excluirán, pero no tendrán el número solicitado de propuestas.
 * **[!UICONTROL Do not display anything if no offer is selected]** : esta opción le permite elegir cómo se procesará el mensaje en caso de que una de las propuestas no exista. Cuando se activa esta casilla, no se muestra la representación de la propuesta que falta y no aparecerá ningún contenido en el mensaje para esta propuesta. Si el cuadro no está activado, el mensaje en sí se cancela durante la entrega y los destinatarios ya no recibirán ningún mensaje.
 
-### Inserción de una propuesta de oferta en una entrega. {#inserting-an-offer-proposition-into-a-delivery}
+### Inserción de una propuesta de oferta en una entrega {#inserting-an-offer-proposition-into-a-delivery}
 
 La descripción de las ofertas a presentar se inserta en el cuerpo de la entrega a través de los campos combinados. El número de propuestas se define en los parámetros de acceso al motor de oferta.
 
@@ -85,7 +85,7 @@ El envío se puede personalizar utilizando los campos de la oferta o, en el caso
 
 ![](assets/offer_delivery_011.png)
 
-## Entrega con descripción de la entrega {#delivering-with-delivery-outlines}
+## Entrega con descripción del envío {#delivering-with-delivery-outlines}
 
 También se pueden presentar ofertas en una entrega utilizando la descripción de la entrega.
 
