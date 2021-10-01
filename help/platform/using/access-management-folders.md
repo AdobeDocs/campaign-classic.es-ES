@@ -7,7 +7,7 @@ role: User, Admin
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '751'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Cada carpeta del árbol de navegación del Explorador tiene asociados derechos d
 
 ## Carpetas y vistas {#folders-and-views}
 
-### ¿Qué es una carpeta?  {#about-folders}
+### ¿Qué es una carpeta? {#about-folders}
 
 Las carpetas son nodos del árbol de Adobe Campaign. Estos nodos se crean haciendo clic con el botón derecho en el árbol, a través del menú **[!UICONTROL Add new folder]**. De forma predeterminada, el primer menú permite añadir la carpeta correspondiente al contexto actual.
 
@@ -29,7 +29,7 @@ Las carpetas son nodos del árbol de Adobe Campaign. Estos nodos se crean hacien
 
 Puede personalizar el árbol de navegación del Explorador. Conozca los pasos de configuración y las prácticas recomendadas [en esta sección](adobe-campaign-workspace.md).
 
-### ¿Qué es una vista?  {#about-views}
+### ¿Qué es una vista? {#about-views}
 
 Además, puede crear vistas para restringir el acceso a los datos y organizar el contenido del árbol para adaptarlo a sus necesidades. A continuación, puede asignar derechos a las vistas.
 
@@ -92,7 +92,7 @@ Para editar los permisos en una carpeta específica del árbol, siga los pasos s
 
    ![](assets/s_ncs_user_folder_properties_security.png)
 
-### Modificar permisos {#modify-permissions}
+### Modificación de permisos {#modify-permissions}
 
 Para modificar los permisos, puede:
 
@@ -108,7 +108,7 @@ Para modificar los permisos, puede:
 
 ### Propagación de permisos {#propagate-permissions}
 
-Se puede propagar autorizaciones y derechos de acceso. Para ello, seleccione la opción **[!UICONTROL Propagate]** en las propiedades de la carpeta.
+Puede propagar autorizaciones y derechos de acceso. Para ello, seleccione la opción **[!UICONTROL Propagate]** en las propiedades de la carpeta.
 
 Las autorizaciones definidas en esta ventana se aplican a todas las subcarpetas del nodo actual. A continuación, se pueden sobrecargar estas autorizaciones para cada una de las subcarpetas.
 
