@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: response-manager
 exl-id: 1a115ca9-2532-4bd3-be77-814e43250c51
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '750'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ Esta sección está destinada a las personas responsables de configurar la gesti
 
 Esto le permite comprender cómo adaptar el modelo de datos estándar a la naturaleza específica de una tabla de transacciones externa a Adobe Campaign con una tabla simple. Esta tabla simple puede coincidir con tablas simples disponibles en Adobe Campaign o con otra tabla.
 
-La hipótesis de medición se lanza desde el flujo de trabajo del proceso de operación (**[!UICONTROL operationMgt]**). Cada hipótesis representa un proceso independiente ejecutado de forma asíncrona con un estado de ejecución (que se está editando, pendiente, terminado, fallido, etc.) y controlado por un programador que administra restricciones de prioridad, la restricción de la cantidad de procesos simultáneos, la página de la actividad baja y la ejecución automática con la frecuencia.
+La hipótesis de medición se lanza desde el flujo de trabajo del proceso de operación (**[!UICONTROL operationMgt]**). Cada hipótesis representa un proceso independiente ejecutado de forma asíncrona con un estado de ejecución (en edición, pendiente, terminado, fallido, etc.), y controlado por un programador que administra restricciones de prioridad, la restricción de la cantidad de procesos simultáneos, la página de la actividad baja y la ejecución automática con la frecuencia.
 
-## Configurar esquemas {#configuring-schemas}
+## Configuración de esquemas {#configuring-schemas}
 
 >[!CAUTION]
 >
@@ -57,7 +57,7 @@ El esquema siguiente muestra las uniones entre las distintas tablas una vez comp
 
 ### Gestor de respuestas y destinatarios {#response-management-with-adobe-campaign-recipients}
 
-En este ejemplo, integramos una tabla de compras en nuestro módulo de gestión de respuestas mediante la tabla de destinatarios integrada **[!UICONTROL nms:recipient]** de Adobe Campaign.
+En este ejemplo, integramos una tabla de compras en nuestro módulo de gestión de respuestas mediante la tabla de destinatarios de Adobe Campaign **[!UICONTROL nms:recipient]**.
 
 La tabla de registros de respuesta de un destinatario **[!UICONTROL nms:remaMatchRcp]** se amplía para agregar un vínculo al esquema de tabla de compras. En el ejemplo siguiente, la tabla de compra se llama **demo:purchase**.
 
@@ -104,7 +104,7 @@ name="remaMatchRcp" namespace="cus">
 
 En este ejemplo, integramos una tabla de compras en nuestro módulo de gestión de respuestas utilizando una tabla de individuos distinta a la tabla de destinatarios disponible en Adobe Campaign.
 
-* Cree un nuevo esquema de registro de respuestas derivado del esquema **[!UICONTROL nms:remaMatch]** .
+* Creación de un nuevo esquema de registro de respuestas derivado del esquema **[!UICONTROL nms:remaMatch]**.
 
    Dado que la tabla de personas es diferente de la de los destinatarios de Adobe Campaign, es necesario crear un nuevo esquema de registros de respuestas basado en el esquema **[!UICONTROL nms:remaMatch]**. Luego complételo con vínculos hacia los registros de envío y la tabla de compras.
 
@@ -127,7 +127,7 @@ En este ejemplo, integramos una tabla de compras en nuestro módulo de gestión 
    </srcSchema>
    ```
 
-* Modifique el formulario de hipótesis en el esquema **[!UICONTROL nms:remaHypothesis]**.
+* Modificación del formulario de hipótesis en el esquema **[!UICONTROL nms:remaHypothesis]**.
 
    De forma predeterminada, la lista de registros de respuestas se puede ver en los registros de destinatarios. Por lo tanto, deberá modificar el formulario de hipótesis para poder ver los nuevos registros de respuestas creados durante el paso anterior.
 
@@ -144,7 +144,7 @@ En este ejemplo, integramos una tabla de compras en nuestro módulo de gestión 
       </container> 
    ```
 
-## Administrar indicadores {#managing-indicators}
+## Administración de indicadores {#managing-indicators}
 
 El módulo Gestor de respuestas incluye una lista de indicadores predefinidos. Sin embargo, puede agregar otros indicadores de medición personalizados.
 
