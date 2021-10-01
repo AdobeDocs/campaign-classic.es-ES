@@ -6,18 +6,18 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 
-# Transferir a Intermediario{#transfer-to-mid-sourcing}
+# Transferir a intermediario{#transfer-to-mid-sourcing}
 
 ![](../../assets/common.svg)
 
-Los flujos de trabajo detallados a continuación se instalan con el módulo **Transfer to Mid-Sourcing** de forma predeterminada. Para obtener más información sobre este módulo, consulte la [Guía de instalación de Campaign Classic v7](../../installation/using/mid-sourcing-deployment.md).
+Los flujos de trabajo detallados a continuación se instalan con el módulo **Transferir a intermediario** de forma predeterminada. Para obtener más información sobre este módulo, consulte la [Guía de instalación de Campaign Classic v7](../../installation/using/mid-sourcing-deployment.md).
 
 <table> 
  <tbody> 
