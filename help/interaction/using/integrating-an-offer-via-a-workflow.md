@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1043'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Fuera de la actividad de la entrega, varias actividades de flujo de trabajo perm
 * Motor de oferta
 * Ofertas por celda
 
-## Descripción de la entrega {#delivery-outline}
+## Descripción del envío {#delivery-outline}
 
 La actividad de descripción de entrega, disponible en los flujos de trabajo de la campaña, permite presentar ofertas especificadas en una descripción de entrega de la campaña en curso.
 
@@ -115,7 +115,7 @@ Para ello, utilice el proceso siguiente:
 
 ### Almacenamiento de calificaciones y consideraciones de oferta {#storing-offer-rankings-and-weights}
 
-De forma predeterminada, cuando se utiliza una actividad **enrichment** para entregar ofertas, sus calificaciones y sus consideraciones no se almacenan en la lista de propuestas.
+De forma predeterminada, cuando se utiliza una actividad de **enriquecimiento** para entregar ofertas, sus calificaciones y sus consideraciones no se almacenan en la tabla de propuestas.
 
 >[!NOTE]
 >
