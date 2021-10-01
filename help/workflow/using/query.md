@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: targeting-activities
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1629'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ El enlace **[!UICONTROL Edit query...]** permite definir el tipo de objetivo, la
 
    ![](assets/s_user_segmentation_query_advanced.png)
 
-## Añadir datos {#adding-data}
+## Adición de datos {#adding-data}
 
 Las columnas adicionales permiten recopilar información adicional sobre la población de destino, por ejemplo, números de contrato, suscripciones a boletines o código fuente. Estos datos se pueden almacenar en la base de datos de Adobe Campaign o en una base de datos externa.
 
@@ -123,9 +123,9 @@ Para añadir una colección de información enlazada a una población de destino
 
    ![](assets/query_add_columns_collection_filter.png)
 
-1. Si ha seleccionado la opción **[!UICONTROL Limit the line count]**, defina el orden en el que se de deban filtrar los datos recopilados. Una vez que el número de líneas recopiladas es mayor que el número de líneas que especificó mantener, el orden de filtrado le permite especificar qué líneas mantener.
+1. Si ha seleccionado la opción **[!UICONTROL Limit the line count]**, defina el orden en el que se de deban filtrar los datos recopilados. Una vez que el número de líneas recopiladas sea mayor que el número de líneas que especificó que deseaba conservar, el orden de filtrado le permite especificar qué líneas mantener.
 
-## Ejemplo: Objetivización en atributos de destinatarios simples {#example--targeting-on-simple-recipient-attributes}
+## Ejemplo: Segmentación en atributos de destinatario simples {#example--targeting-on-simple-recipient-attributes}
 
 En el siguiente ejemplo, la consulta busca identificar hombres de entre 18 y 30 años que viven en Francia. Esta consulta se utilizará en un flujo de trabajo para que sea una oferta exclusiva, por ejemplo.
 
@@ -190,7 +190,7 @@ La sección siguiente ofrece prácticas recomendadas para optimizar las consulta
 
    ![](assets/do-not-localize/v7.jpeg)[  Documentación de Campaign v7](../../configuration/using/database-mapping.md)
 
-   ![](assets/do-not-localize/v8.png)[  Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html)
+   ![](assets/do-not-localize/v8.png)[  Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=es)
 
 ### Funciones {#functions}
 
