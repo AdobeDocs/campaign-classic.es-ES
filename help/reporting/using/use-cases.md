@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: analyzing-populations
 exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1316'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Los pasos de implementación se describen a continuación, y puede encontrar una
 
 ### Identificación de la población que se va a analizar {#identifying-the-population-to-analyze}
 
-En este ejemplo, deseamos explorar la población objetivo de los envíos incluidos en la carpeta **Boletines**.
+En este ejemplo, deseamos explorar la población objetivo de los envíos incluidos en la carpeta **Newsletters**.
 
 Para ello, seleccione los envíos correspondientes, haga clic con el botón derecho y seleccione **[!UICONTROL Action > Explore the target...]**
 
@@ -39,7 +39,7 @@ Para este ejemplo, seleccione la plantilla **[!UICONTROL Qualitative distributio
 
 ![](assets/reporting_descriptive_quickstart_step_1.png)
 
-### Selección de las variables que desea muestran {#selecting-the-variables-to-display}
+### Selección de las variables que desea mostrar {#selecting-the-variables-to-display}
 
 El siguiente paso permite seleccionar los datos que se van a mostrar en la tabla.
 
@@ -154,7 +154,7 @@ Puede almacenar, exportar e imprimir datos utilizando la barra de herramientas s
 
 ## Análisis de datos cuantitativo {#quantitative-data-analysis}
 
-**Objetivos**: para generar un informe de análisis cuantitativo sobre la edad de los destinatarios.
+**Objetivo**: para generar un informe de análisis cuantitativo sobre la edad de los destinatarios.
 
 1. Abra el asistente de análisis descriptivo y seleccione **[!UICONTROL Quantitative distribution]** en la lista desplegable.
 
@@ -209,7 +209,7 @@ El análisis de una población en un flujo de trabajo requiere que la población
 >La opción **[!UICONTROL Keep the result of interim populations between two executions]** solo debe utilizarse en fases de desarrollo, nunca para un entorno en producción.\
 >Las poblaciones provisionales se purgan automáticamente una vez que alcanzan su fecha límite de retención. Esta fecha límite se especifica en la pestaña de propiedades **[!UICONTROL Execution]** del flujo de trabajo.
 
-## Análisis de los “logs” de seguimiento de los destinatarios {#analyzing-recipient-tracking-logs}
+## Análisis de los registros de seguimiento de los destinatarios {#analyzing-recipient-tracking-logs}
 
 El asistente de análisis descriptivo puede generar informes sobre otras tablas de trabajo. Esto significa que puede analizar los “logs” de entrega mediante la creación de un informe dedicado.
 
@@ -271,7 +271,7 @@ Para ello, siga los siguientes pasos:
 
    ![](assets/reporting_descriptive_sample_tracking_9.png)
 
-## Análisis de los “logs” de exclusión de entrega {#analyzing-delivery-exclusion-logs}
+## Análisis de los registros de exclusiones de entrega {#analyzing-delivery-exclusion-logs}
 
 Si el análisis corresponde a una entrega, puede analizar la población excluida. Para ello, seleccione los envíos que desea analizar y haga clic con el botón derecho del ratón para acceder al menú **[!UICONTROL Action > Explore exclusions]**.
 
