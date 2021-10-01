@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1198'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Debería devolverse como
 
 Debe reiniciar [!DNL pipelined] después de editar el JavaScript.
 
-### Activar formato de datos {#trigger-format}
+### Activación del formato de datos {#trigger-format}
 
 Los datos [!DNL trigger] se pasan a la función JS en formato XML.
 
@@ -107,7 +107,7 @@ Ejemplo:
  }
 ```
 
-### Orden del procesamiento de eventos{#order-events}
+### Orden de procesamiento de eventos{#order-events}
 
 Los eventos se procesan de a uno, por orden de desplazamiento. Cada subproceso del [!DNL pipelined] procesa una partición diferente.
 
@@ -117,7 +117,7 @@ Este puntero es específico para cada instancia y cada consumidor. Por lo tanto,
 
 El parámetro **consumidor** de la opción de canalización identifica la instancia que realiza la llamada.
 
-Actualmente, no hay forma de tener diferentes colas para entornos separados como &quot;staging&quot; o &quot;dev&quot;.
+Actualmente, no hay forma de tener diferentes colas para entornos separados como “staging” o “dev”.
 
 ### Registro y gestión de errores {#logging-error-handling}
 
@@ -192,9 +192,9 @@ Para permitir un procesamiento más rápido, se ejecutan varios subprocesos de e
 >
 >Es un ejemplo específico de varias implementaciones posibles.
 
-### esquema de evento de canalización {#pipeline-event-schema}
+### Esquema de evento de canalización {#pipeline-event-schema}
 
-Los Eventos se almacenan en una tabla de la base de datos. Se utiliza en campañas de marketing para clientes de destinatario y enriquece los correos electrónicos mediante activadores.
+Los eventos se almacenan en una tabla de la base de datos. Se utiliza en campañas de marketing para clientes de destinatario y enriquece los correos electrónicos mediante activadores.
 Aunque cada activador puede tener una estructura de datos distinta, todos los activadores se pueden guardar en una sola tabla.
 El campo triggerType identifica de dónde se originan los datos.
 
@@ -240,7 +240,7 @@ Puede resultar difícil implementarlo si no se establece ningún índice en shop
 
 Los activadores se procesan dentro de la hora. El volumen puede ser de aproximadamente 1 millón de activadores por hora. Esto explica por qué se debe implementar un flujo de trabajo de depuración. La depuración se ejecuta una vez al día y elimina todos los activadores que tengan más de tres días.
 
-### Flujos de trabajo de la campaña {#campaign-workflow}
+### Flujo de trabajo de la campaña {#campaign-workflow}
 
 El flujo de trabajo de la campaña de desencadenadores suele ser similar al de otras campañas recurrentes que se han utilizado.
 Por ejemplo, puede establecer un inicio con una consulta en los activadores que buscan eventos específicos durante el último día. Ese destinatario se utiliza para enviar el correo electrónico. Los enriquecimientos o datos pueden provenir del activador. Marketing puede utilizarla de forma segura, ya que no requiere ninguna configuración.
