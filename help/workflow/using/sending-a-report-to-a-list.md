@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: use-cases
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Los pasos de implementación principales para este caso de uso son:
 * Creación de una plantilla de envío que permite generar un nuevo envío cada vez que se ejecute el flujo de trabajo (consulte [Paso 2: crear la plantilla de entrega](#step-2--creating-the-delivery-template)).
 * Creación de un flujo de trabajo que permite generar el informe en formato PDF y enviarlo a la lista de destinatarios (consulte [Paso 3: crear el flujo de trabajo](#step-3--creating-the-workflow)).
 
-## Paso 1: Crear la lista de destinatarios {#step-1--creating-the-recipient-list}
+## Paso 1: Creación de la lista de destinatarios {#step-1--creating-the-recipient-list}
 
 Vaya a la pestaña **[!UICONTROL Profiles and targets]**, haga clic en el vínculo **[!UICONTROL Lists]** y, a continuación, en el botón **[!UICONTROL Create]**. Seleccione **[!UICONTROL New list]** y cree una nueva lista de destinatarios a los que enviar el informe.
 
@@ -73,7 +73,7 @@ Para obtener más información sobre la creación de listas, consulte [esta secc
 
       ![](assets/use_case_report_6bis.png)
 
-## Paso 3: Crear el flujo de trabajo {#step-3--creating-the-workflow}
+## Paso 3: Creación del flujo de trabajo {#step-3--creating-the-workflow}
 
 El siguiente flujo de trabajo se creó para este caso de uso. Tiene tres actividades:
 
