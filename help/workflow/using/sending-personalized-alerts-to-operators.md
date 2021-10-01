@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: use-cases
 exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-En este ejemplo, deseamos enviar una alerta a un operador que contendrá el nombre de los perfiles que abrieron un boletín informativo, pero que no hicieron clic en el vínculo que contenía.
+En este ejemplo, deseamos enviar una alerta a un operador con el nombre de los perfiles que abrieron una newsletter, pero que no hicieron clic en el vínculo que contenía.
 
 Los campos de nombre y apellido de los perfiles se vinculan a la dimensión de segmentación **[!UICONTROL Recipients]**, mientras que la actividad **[!UICONTROL Alert]** está vinculada al **[!UICONTROL Operator]** de la dimensión de segmentación. Como resultado, no hay ningún campo disponible entre los dos entornos de segmentación para realizar una conciliación y recuperar los campos Nombre y Apellido, y mostrarlos en la actividad de Alerta.
 
@@ -30,7 +30,7 @@ El proceso consiste en crear un flujo de trabajo como se muestra a continuación
 
 ![](assets/uc_operator_1.png)
 
-## Registro de población en la variable de instancia {#saving-the-population-to-the-instance-variable}
+## Guardado de la población en la variable de instancia {#saving-the-population-to-the-instance-variable}
 
 Agregue el código siguiente a la actividad **[!UICONTROL JavaScript code]**.
 
@@ -63,13 +63,13 @@ Para recuperar dicha información, siga los pasos siguientes:
 
    ![](assets/uc_operator_5.png)
 
-1. Los nombres de las dimensiones y los campos de objetivos de consulta se muestran en la lista.
+1. Los nombres de las dimensiones y los campos de segmentación de consulta se muestran en la lista.
 
    ![](assets/uc_operator_6.png)
 
 ## Prueba del recuento de población {#testing-the-population-count}
 
-Agregue el código siguiente a la actividad **[!UICONTROL Test]** para comprobar si la población objetivo contiene al menos 1 perfil.
+Añada el código siguiente a la actividad **[!UICONTROL Test]** para comprobar si la población segmentada contiene al menos 1 perfil.
 
 ```
 var.recCount>0
