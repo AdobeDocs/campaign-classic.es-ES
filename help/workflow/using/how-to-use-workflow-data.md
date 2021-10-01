@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: -general-operation
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Los datos de la base de datos de Adobe Campaign y de las listas existentes puede
 
 ### Gestión de suscripciones y bajas {#subscription-unsubscription-management}
 
-Para obtener información sobre las suscripciones y las bajas de destinatarios de un servicio informativo a través de un flujo de trabajo, consulte [Servicios de suscripción](subscription-services.md).
+Para obtener información sobre las suscripciones y las bajas de un servicio informativo para los destinatarios a través de un flujo de trabajo, consulte [Servicios de suscripción](subscription-services.md).
 
 ## Envío a través de un flujo de trabajo {#sending-via-a-workflow}
 
