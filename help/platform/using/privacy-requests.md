@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2415'
 ht-degree: 100%
 
@@ -249,7 +249,7 @@ La API de JS **[!UICONTROL CreateRequestByName]** se define de la siguiente mane
 >
 >Si migra a 20.2 y ya estaba utilizando la API, debe añadir el campo &quot;Regulación&quot; como se muestra arriba. Si está utilizando una versión anterior, puede seguir utilizando la API sin el campo &quot;regulación&quot;.
 
-### Llamada a la API externamente   {#invoking-api-externally}
+### Llamada a la API externamente {#invoking-api-externally}
 
 Aquí se muestra un ejemplo de cómo puede invocar la API externamente (autenticación mediante la API y detalles específicos sobre la API de privacidad). Para obtener más información sobre la API de privacidad, consulte la [documentación de la API](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/s-nms-privacyRequest.html). También puede consultar la [documentación de llamadas al servicio web](../../configuration/using/web-service-calls.md).
 
