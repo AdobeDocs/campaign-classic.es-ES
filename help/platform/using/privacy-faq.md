@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ce2c90cd-46d9-4365-8013-5c1273b6c176
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '797'
 ht-degree: 100%
 
@@ -106,7 +106,7 @@ Los informes de Adobe Campaign se basan en indicadores calculados a partir de lo
 
 A menudo en Adobe Campaign, el registro se carga desde una fuente de datos externos.
 
-Como controlador de datos, deberá asegurarse de que cuando reciba una solicitud de eliminación, elimine todos los datos necesarios sobre el sujeto de datos de todos los sistemas.
+Como controlador de datos, deberá asegurarse de que, cuando reciba una solicitud de eliminación, elimine todos los datos necesarios sobre el sujeto de datos de todos los sistemas.
 
 ## Volver a adherirse {#opt-in-again}
 
