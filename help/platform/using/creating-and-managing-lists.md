@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '804'
 ht-degree: 100%
 
@@ -136,7 +136,7 @@ Aprenda cómo crear una audiencia configurando una lista de destinatarios desde 
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-### Cómo utilizar un flujo de trabajo para crear una lista de destinatarios {#create-list-in-a-wf-video}
+### Uso de un flujo de trabajo para crear una lista de destinatarios {#create-list-in-a-wf-video}
 
 Aprenda cómo crear un flujo de trabajo con el fin de dirigrse a los destinatarios y cómo volverlo recurrente antes de utilizar la lista en un destinatario de correo electrónico.
 
