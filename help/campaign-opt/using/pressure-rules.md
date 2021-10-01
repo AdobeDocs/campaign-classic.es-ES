@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: campaign-optimization
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3253'
 ht-degree: 100%
 
@@ -159,7 +159,7 @@ Por ejemplo, una regla de presión que define un umbral de 2 mensajes por semana
 >  o
 >
 >* Escriba **7d** en el campo **[!UICONTROL Period considered]** Y marque **[!UICONTROL Take the deliveries into account in the provisional calendar]**\
->: En el cálculo se tienen en cuenta las entregas realizadas hasta 7 días antes de la fecha de entrega y programados hasta 7 días después de la fecha de entrega en los que se aplica la regla.
+   >: En el cálculo se tienen en cuenta las entregas realizadas hasta 7 días antes de la fecha de entrega y programados hasta 7 días después de la fecha de entrega en los que se aplica la regla.
 >
 >La fecha de inicio depende de cómo se haya configurado la base de datos.
 
