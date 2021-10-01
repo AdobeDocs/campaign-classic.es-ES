@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '747'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-## Umbrales de monitor {#monitoring-thresholds}
+## Umbrales de monitorización {#monitoring-thresholds}
 
 Puede configurar los umbrales de advertencia (naranja) y los umbrales de alerta (rojo) de los indicadores que aparecen en los informes **Nivel de servicio del Centro de mensajería** y **Tiempo de procesamiento del Centro de mensajes** (consulte [Acceso a los informes de mensajería transaccional](../../message-center/using/about-transactional-messaging-reports.md)).
 
