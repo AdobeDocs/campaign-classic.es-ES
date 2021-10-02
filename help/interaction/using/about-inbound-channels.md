@@ -6,10 +6,10 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: 33247728-b865-4dfd-814f-2900965a7187
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '218'
-ht-degree: 100%
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 88%
 
 ---
 
@@ -23,7 +23,7 @@ Las ofertas se pueden presentar en varios espacios de ofertas utilizando un cana
 
 Para que el motor de oferta pueda seleccionar una oferta, debe aprobarse y estar disponible en un entorno en directo. Para obtener más información, consulte [Aprobar y activar una oferta](../../interaction/using/approving-and-activating-an-offer.md).
 
-Cuando un contacto es entrante, hay dos posibles resultados. El primero es cuando el sitio en el que está navegando no identifica el usuario y el segundo es cuando lo identifica. El motor de oferta presenta diferentes ofertas según si se identifica o no el usuario.
+Cuando un contacto es entrante, hay dos posibles resultados: el sitio web puede identificar o no al usuario que está explorando las páginas. El motor de oferta presenta diferentes ofertas según si se identifica o no el usuario.
 
 Antes de poder presentar ofertas en un canal entrante, se debe configurar la llamada del motor de oferta en la que se desee presentar las ofertas. En la mayoría de los casos de una interacción entrante, esta es la página web.
 

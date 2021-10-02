@@ -6,10 +6,10 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: a8face46-a933-4f2c-8299-ccb66f05967d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '431'
-ht-degree: 100%
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+workflow-type: tm+mt
+source-wordcount: '429'
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ Para crear categorías y espacios, aplique el mismo proceso que para los visitan
 
 Los visitantes anónimos pueden enviarse a un proceso de identificación de cookie cuando se conectan. Este reconocimiento implícito se basa en el historial del explorador del visitante.
 
-Durante este paso, se realiza una comparación entre los datos que recuperan las cookies y los de la base de datos. En algunos casos, el visitante se reconoce (se identifica de forma implícita); en otros casos, no se reconoce (y, por lo tanto, permanece anónimo).
+Durante este paso, se realiza una comparación entre los datos que recuperan las cookies y los de la base de datos. En algunos casos, los visitantes se reconocen (y luego se identifican implícitamente), en otros casos no se reconocen (y por lo tanto permanecen anónimos).
 
 Para ejecutar este análisis, para el espacio de ofertas, marque la opción **[!UICONTROL Implicitly identify the individual based on their browser history]**.
 

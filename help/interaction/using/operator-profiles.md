@@ -6,10 +6,10 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '386'
-ht-degree: 100%
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+workflow-type: tm+mt
+source-wordcount: '385'
+ht-degree: 87%
 
 ---
 
@@ -52,15 +52,15 @@ Los derechos asignados al gestor de ofertas permiten realizar las siguientes tar
 
    ![](assets/offer_operators_create_002.png)
 
-Los derechos asignados al gestor de envíos son/permiten realizar las siguientes tareas:
+Los derechos asignados a los gestores de envío les permiten llevar a cabo las siguientes tareas:
 
 * Mostrar entornos **[!UICONTROL Live]**.
 * Mostrar y modificar las categorías de oferta.
-* Aprobación de ofertas si se especifica como uno/a de sus revisores.
+* Apruebe ofertas si este administrador de envíos se especifica como uno de sus revisores.
 
    >[!NOTE]
    >
-   >El gestor de envíos solo puede aprobar una oferta si se ha definido como revisor durante la configuración de la oferta.
+   >Los administradores de envío solo pueden aprobar una oferta si se han definido como revisor durante la configuración de la oferta.
 
 ## Resumen de derechos según el operador {#recap-of-rights-according-to-operator}
 

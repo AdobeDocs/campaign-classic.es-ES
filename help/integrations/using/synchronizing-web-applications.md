@@ -6,10 +6,10 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
-source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
-workflow-type: ht
-source-wordcount: '790'
-ht-degree: 100%
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+workflow-type: tm+mt
+source-wordcount: '794'
+ht-degree: 92%
 
 ---
 
@@ -54,7 +54,7 @@ En Campaign v7 se han creado los siguientes objetos:
 
    ![](assets/acs_connect_lp_5.png)
 
-1. Vaya a **[!UICONTROL Profiles and Targets > Recipient]** y seleccione un destinatario. Puede ver que aún no se ha suscrito al servicio.
+1. Vaya a **[!UICONTROL Profiles and Targets > Recipient]** y seleccione un destinatario. Puede ver que este perfil aún no se ha suscrito al servicio.
 
    ![](assets/acs_connect_lp_6.png)
 
@@ -70,7 +70,7 @@ Para comprobar que los datos se hayan duplicado correctamente, siga estos pasos 
 
    ![](assets/acs_connect_lp_7.png)
 
-1. Busque el destinatario de Campaign v7 y compruebe que aparece en Campaign Standard.
+1. Busque el destinatario de Campaign v7 y compruebe que este destinatario aparece en el Campaign Standard.
 
    ![](assets/acs_connect_lp_8.png)
 
@@ -102,7 +102,7 @@ Los pasos para crear, diseñar y enviar el correo electrónico son los mismos qu
 
    ![](assets/acs_connect_lp_14.png)
 
-1. Añade el número de teléfono y marca la casilla de suscripción al boletín informativo.
+1. Este destinatario añade un número de teléfono y marca la casilla de suscripción al boletín informativo.
 
    ![](assets/acs_connect_lp_15.png)
 
@@ -118,7 +118,7 @@ Cuando el destinatario actualiza sus datos desde la aplicación web, Adobe Campa
 
    ![](assets/acs_connect_lp_17.png)
 
-1. En la pestaña **[!UICONTROL Subscriptions]** también podemos ver que ha suscrito al servicio de boletín informativo.
+1. En la pestaña **[!UICONTROL Subscriptions]** también podemos ver que este destinatario se ha suscrito al servicio de boletín informativo.
 
    ![](assets/acs_connect_lp_18.png)
 

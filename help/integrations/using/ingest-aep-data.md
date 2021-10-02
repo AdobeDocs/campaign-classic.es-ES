@@ -5,10 +5,10 @@ description: Aprenda a introducir audiencias de Adobe Experience Platform en Cam
 audience: integrations
 content-type: reference
 exl-id: 6db8a653-b649-402c-8814-24826edadba7
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '302'
-ht-degree: 100%
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+workflow-type: tm+mt
+source-wordcount: '303'
+ht-degree: 88%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Para introducir Adobe Experience Platform en Campaign y utilizarlo en sus flujos de trabajo, primero debe conectar Adobe Campaign como **destino** de Adobe Experience Platform y configurarlo con el segmento que exportar.
+Para ingerir audiencias de Adobe Experience Platform en Campaign y utilizarlas en sus flujos de trabajo, primero debe conectar Adobe Campaign as a Adobe Experience Platform **Destination** y configurarlo con el segmento a exportar.
 
 Una vez configurado el destino, los datos se exportan a su ubicación de almacenamiento y deberá crear un flujo de trabajo dedicado en Campaign Classic para introducirlo.
 

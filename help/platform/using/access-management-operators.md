@@ -6,10 +6,10 @@ feature: Access Management
 role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '1146'
-ht-degree: 100%
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+workflow-type: tm+mt
+source-wordcount: '1149'
+ht-degree: 96%
 
 ---
 
@@ -99,7 +99,7 @@ Utilice la pestaña **[!UICONTROL Access rights]** para actualizar los grupos y 
 
 El enlace **[!UICONTROL Edit the access parameters...]** permite acceder a las siguientes opciones:
 
-* La opción **[!UICONTROL Disable account]** permite desactivar la cuenta del operador: este deja de tener acceso a Adobe Campaign.
+* La opción **[!UICONTROL Disable account]** permite desactivar la cuenta del operador: este usuario ya no tendrá acceso a Adobe Campaign.
 
    >[!NOTE]
    >
@@ -125,7 +125,7 @@ El enlace **[!UICONTROL Edit the access parameters...]** permite acceder a las s
 
    >[!IMPORTANT]
    >
-   >Se trata de una restricción muy estricta y debe utilizarse con precaución. Un operador registrado con este tipo de derechos puede ver el contenido de la carpeta especificada y no tiene acceso a ningún otro nodo del árbol mediante el navegador. Sin embargo, según las funcionalidades a las que tenga acceso (por ejemplo: flujos de trabajo), puede mostrar datos que normalmente se almacenan en nodos que no puede ver.
+   >Se trata de una restricción muy estricta y debe utilizarse con precaución. Un operador registrado con este tipo de derechos puede ver el contenido de la carpeta especificada y no tiene acceso a ningún otro nodo del árbol mediante el navegador. Sin embargo, según las funcionalidades a las que tenga acceso este operador (por ejemplo: flujos de trabajo), el usuario puede mostrar datos que normalmente se almacenan en nodos a los que no se puede acceder.
 
 ### Comprobación de configuración {#check-settings}
 

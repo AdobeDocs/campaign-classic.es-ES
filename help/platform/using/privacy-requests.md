@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '2415'
-ht-degree: 100%
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+workflow-type: tm+mt
+source-wordcount: '2413'
+ht-degree: 99%
 
 ---
 
@@ -384,7 +384,7 @@ La configuración y el uso de las solicitudes de Acceso y Eliminación son comun
 
 Además de las herramientas de [administración de consentimientos](../../platform/using/privacy-management.md#consent-management) proporcionadas por Adobe Campaign, puede realizar un seguimiento si el consumidor se ha excluido de la venta de Información personal.
 
-Un consumidor decide, a través de su sistema, que no permite que su información personal se venda a un tercero. En Adobe Campaign, podrá almacenar y rastrear esta información.
+Los contactos pueden decidir, a través de su sistema, que no permiten que su información personal se venda a terceros. En Adobe Campaign, podrá almacenar y rastrear esta información.
 
 Para que esto funcione, debe ampliar la tabla Perfiles y agregar un campo de **[!UICONTROL Opt-Out for CCPA]**.
 
