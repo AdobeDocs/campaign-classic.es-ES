@@ -159,7 +159,7 @@ Por ejemplo, una regla de presión que define un umbral de 2 mensajes por semana
 >  o
 >
 >* Escriba **7d** en el campo **[!UICONTROL Period considered]** Y marque **[!UICONTROL Take the deliveries into account in the provisional calendar]**\
-   >: En el cálculo se tienen en cuenta las entregas realizadas hasta 7 días antes de la fecha de entrega y programados hasta 7 días después de la fecha de entrega en los que se aplica la regla.
+>: En el cálculo se tienen en cuenta las entregas realizadas hasta 7 días antes de la fecha de entrega y programados hasta 7 días después de la fecha de entrega en los que se aplica la regla.
 >
 >La fecha de inicio depende de cómo se haya configurado la base de datos.
 

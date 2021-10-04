@@ -66,7 +66,6 @@ Para configurar una anulación de duplicación, introduzca su etiqueta, el méto
    >[!NOTE]
    >
    >Si utiliza datos externos como entrada, por ejemplo, de un archivo externo, asegúrese de seleccionar la opción **[!UICONTROL Temporary schema]**.
-
    >
    >En el siguiente paso, la opción **[!UICONTROL Other]** permite seleccionar los criterios que se van a utilizar:
 
