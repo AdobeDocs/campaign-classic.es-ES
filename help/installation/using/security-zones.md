@@ -5,10 +5,10 @@ description: Obtenga información sobre cómo configurar las zonas de seguridad
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-source-git-commit: dab18d24f5471034a2169dd674e6f7000de30cac
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 3%
+source-wordcount: '1460'
+ht-degree: 2%
 
 ---
 
@@ -225,7 +225,7 @@ Una vez definidas las zonas y configurada la enumeración **[!UICONTROL Security
 * Minimice el uso de sessionTokenOnly=&quot;true&quot;:
 
    * Advertencia: Si este atributo se establece en true, el operador se puede exponer a un **ataque CRSF**.
-   * Además, la cookie sessionToken no está configurada con un indicador httpOnly, por lo que parte del código javascript del lado del cliente puede leerla.
+   * Además, la cookie sessionToken no está configurada con un indicador httpOnly, por lo que parte del código JavaScript del lado del cliente puede leerla.
    * Sin embargo, el Centro de mensajes en varias celdas de ejecución necesita sessionTokenOnly: cree una nueva zona de seguridad con sessionTokenOnly configurada como &quot;true&quot; y añada **solo las IP necesarias** en esta zona.
 
 * Cuando sea posible, establezca todos allowHTTP, showErrors como falsos (no para localhost) y compruébelos.
@@ -245,6 +245,6 @@ Una vez definidas las zonas y configurada la enumeración **[!UICONTROL Security
 
 * HttpOnly cookie/useSecurityToken: consulte el indicador **sessionTokenOnly** .
 
-* Minimizar las direcciones IP agregadas a la lista de permitidos: en las zonas de seguridad, hemos agregado los 3 rangos para redes privadas. Es poco probable que utilice todas estas direcciones IP. Por lo tanto, mantenga solamente los que necesite.
+* Minimice las IP agregadas a la lista de permitidos: De serie, en zonas de seguridad, hemos agregado los 3 rangos para redes privadas. Es poco probable que utilice todas estas direcciones IP. Por lo tanto, mantenga solamente los que necesite.
 
 * Actualice el operador webApp/internal para que solo sea accesible en localhost.

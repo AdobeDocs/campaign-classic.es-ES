@@ -2,12 +2,11 @@
 product: campaign
 title: Actualice el entorno para conectarse a Adobe Campaign con IMS
 description: 'Campaign: Actualizaciones de IMS'
-hide: true
-hidefromtoc: true
-source-git-commit: 53ac193211a1d98c45e97bf01ab0ad843b8f8f02
+exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
+source-git-commit: 1a9e0f8bf374e10af938d15dcebe943819ae327b
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -85,7 +84,7 @@ Si ve esta advertencia, asegúrese de instalar las actualizaciones más reciente
 
 >[!NOTE]
 >
->En caso de que tenga preguntas acerca de estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html?lang=es/enterprise/using/support-for-experience-cloud.ug.html).
+>En caso de que tenga preguntas acerca de estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ## Vínculos útiles
 

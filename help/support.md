@@ -4,10 +4,10 @@ title: 'Opciones de ayuda y asistencia para el Campaign Classic '
 description: ¿Necesita asistencia para el Campaign Classic? ¡Está en el lugar correcto!
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 86%
+source-wordcount: '799'
+ht-degree: 84%
 
 ---
 
@@ -111,7 +111,7 @@ El Panel de control está disponible directamente en Adobe Experience Cloud. Sol
 
 ### Administración de SFTP
 
-En el Panel de control, puede interactuar con todos los servidores SFTP conectados a instancias de Campaign a las que tiene acceso. Puede monitorizar su capacidad de almacenamiento, y administrar las direcciones IP en la lista de permitidos y las claves SSH públicas. [Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html) para obtener más información.
+En el Panel de control, puede interactuar con todos los servidores SFTP conectados a instancias de Campaign a las que tiene acceso. Puede monitorizar su capacidad de almacenamiento, administrar las direcciones IP en la lista de permitidos y las claves SSH públicas. [Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html) para obtener más información.
 
 ### Subdominios y certificados
 
@@ -123,7 +123,7 @@ Puede monitorizar los subdominios y sus certificados. Obtenga más información 
 ### Configuración de instancias
 
 Obtenga información sobre cómo administrar la configuración de las instancias de Campaign Classic en el Panel de control. Obtenga más información en estas páginas:
-* [Añadir IP en la lista de permitidos para ](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=es) acceder a las instancias de Campaign
+* [Añadir direcciones IP en la lista de ](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=es) permitidos para acceder a las instancias de Campaign
 * [Administrar permisos de URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=es)
 * [Detalles de instancias de acceso](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=es)
 * [Administrar claves GPG para el cifrado de datos](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=es)

@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7e4234c9-3d8f-4014-a870-75e91cfad725
-source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
 source-wordcount: '1559'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -122,7 +122,7 @@ _lunes, 17 de febrero de 2020_
 
 * Se ha mejorado la gestión y limpieza de cuarentenas de las tablas utilizadas por la función de notificaciones push (nms:address y nms:appSubscriptionRcp). Para iOS (solo conector HTTP2), los tokens desactivados ahora se gestionan del mismo modo que para Android. El indicador disable ahora se establece en la tabla NmsAppSubscriptionRcp. [Más información](../../production/using/database-cleanup-workflow.md#subscription-cleanup--nmac-)
 
-* Se ha añadido una nueva opción en las actividades de flujo de trabajo de **código JavaScript** y de **código JavaScript avanzado** para definir un período de tiempo de espera. Esto evita que la fase de ejecución de javascript se realice durante demasiado tiempo. Si transcurre el tiempo de espera, el flujo de trabajo se detiene. El tiempo de espera predeterminado es 1 hora. [Más información](../../workflow/using/sql-code-and-javascript-code.md)
+* Se ha añadido una nueva opción en las actividades de flujo de trabajo de **código JavaScript** y de **código JavaScript avanzado** para definir un período de tiempo de espera. Esto evita que la fase de ejecución de JavaScript se ejecute durante demasiado tiempo. Si transcurre el tiempo de espera, el flujo de trabajo se detiene. El tiempo de espera predeterminado es 1 hora. [Más información](../../workflow/using/sql-code-and-javascript-code.md)
 
 * El análisis de envío ahora se detiene cuando no se encuentra ninguna afinidad coincidente en el servidor intermediario y se muestra el mensaje de error correspondiente.
 

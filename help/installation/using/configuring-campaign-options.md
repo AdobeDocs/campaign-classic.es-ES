@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
 source-wordcount: '3991'
 ht-degree: 3%
@@ -411,7 +411,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">RestrictEditingOOTBJavascript</span> <br /> </td> 
-   <td> (a partir de la versión 21.1.3) Si se selecciona 1 (valor predeterminado), esta opción deshabilita la edición de los códigos javascript integrados.<br /> </td> 
+   <td> (a partir de la versión 21.1.3) Si se selecciona 1 (valor predeterminado), esta opción deshabilita la edición de los códigos JavaScript integrados.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkAcceptOldPasswords</span> <br /> </td> 
@@ -423,7 +423,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Allow_PrivilegeEscalation</span> <br /> </td> 
-   <td> Si se selecciona 1, esta opción permite el privilegioEscalation en javascript.<br /> </td> 
+   <td> Si se selecciona 1, esta opción permite el privilegioEscalation en JavaScript.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Disable_ControlsOnFileDownload</span> <br /> </td> 

@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+workflow-type: tm+mt
 source-wordcount: '759'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -132,7 +132,7 @@ Siga estos pasos al actualizar la opción NmsTracking_Pointer:
 
 Puede personalizar la fórmula de rastreo de clics y especificar una fórmula de seguimiento de Adobe Analytics personalizada.
 
-Este tipo de personalización debe hacerse con precaución para evitar añadir caracteres de salto de línea adicionales. Todos los caracteres de salto de línea presentes fuera de la expresión de JavaScript estarán presentes en la fórmula final.
+Este tipo de personalización debe hacerse con precaución para evitar añadir caracteres de salto de línea adicionales. Todos los caracteres de avance de línea presentes fuera de la expresión JavaScript están presentes en la fórmula final.
 
 Este tipo de caracteres de salto de línea adicionales en la URL de seguimiento dará lugar a problemas en algunos webMail (AOL, GMail, etc.).
 
@@ -159,7 +159,7 @@ Este tipo de caracteres de salto de línea adicionales en la URL de seguimiento 
    %>&cid=<%= message.delivery.internalName %>&bid=<%= message.id.toString().toLowerCase() %><% } %>
    ```
 
-Para saber dónde está la alimentación de línea adicional, puede reemplazar la expresión de JavaScript por una CADENA de cadena fija.
+Para saber dónde está la fuente de línea adicional, puede reemplazar la expresión JavaScript por una CADENA de cadena fija.
 
 ```
 // Incorrect
@@ -195,7 +195,7 @@ STRING1&cid=STRING2&bid=STRING3
    %>
    ```
 
-Para saber dónde está la alimentación de línea adicional, puede reemplazar la expresión de JavaScript por una CADENA de cadena fija.
+Para saber dónde está la fuente de línea adicional, puede reemplazar la expresión JavaScript por una CADENA de cadena fija.
 
 ```
 // Incorrect

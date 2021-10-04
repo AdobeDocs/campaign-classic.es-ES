@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 15%
+source-wordcount: '754'
+ht-degree: 6%
 
 ---
 
@@ -50,7 +50,7 @@ Si crea secuencias de comandos con flujos de trabajo, aplicaciones web, jssp, si
    cnx.dispose()
    ```
 
-Para evitar inyecciones SQL, las funciones SQL deben agregarse a la lista de permitidos para usar en Adobe Campaign. Una vez añadidos a la lista de permitidos, los operadores del editor de expresiones los verán. Consulte [esta página](../../configuration/using/adding-additional-sql-functions.md).
+Para evitar inyecciones SQL, las funciones SQL deben agregarse a la lista de permitidos que se utilizará en Adobe Campaign. Una vez añadidas a la lista de permitidos, pasan a ser visibles para los operadores del editor de expresiones. Consulte [esta página](../../configuration/using/adding-additional-sql-functions.md).
 
 >[!IMPORTANT]
 >
@@ -228,6 +228,6 @@ Para utilizar JSON.parse, debe incluir &quot;shared/json2.js&quot; en su aplicac
 
 ![](assets/scripting-captcha6.png)
 
-A partir de la versión 8797, para utilizar la URL de la API de verificación, tiene que añadirla a la lista de permitidos en el archivo serverConf añadiendo el nodo urlPermission:
+Desde la versión 8797, para utilizar la URL de la API de verificación, debe añadirla a la lista de permitidos en el archivo serverConf añadiendo el nodo urlPermission :
 
 `<url dnsSuffix="www.google.com" urlRegEx="https://www.google.com/recaptcha/api/siteverify"/>`

@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '1574'
-ht-degree: 100%
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+workflow-type: tm+mt
+source-wordcount: '1572'
+ht-degree: 96%
 
 ---
 
@@ -150,7 +150,7 @@ Actualmente puede experimentar enviando un correo electrónico de AMP en dos pas
 
 1. Adobe Campaign permite probar la entrega de un correo electrónico dinámico con tecnología AMP a las direcciones de correo electrónico seleccionadas correctamente configuradas, a fin de verificar su contenido y comportamiento. Consulte [Prueba de entrega de correo electrónico AMP para direcciones seleccionadas](#testing-amp-delivery-for-selected-addresses).
 
-1. Una vez probada, puede realizar una entrega o una campaña como parte del programa de AMP para correo electrónico registrándose con los proveedores de correo electrónico correspondientes para que se incluya en la lista de dominios de remitente añadida a la lista de permitidos. Consulte [Envío de correos electrónicos AMP mediante registro en un proveedor de correo electrónico](#delivering-amp-emails-by-registering).
+1. Una vez probada, puede realizar una entrega o una campaña como parte del programa de AMP para correo electrónico registrándose con los proveedores de correo electrónico correspondientes para que se añada su dominio de remitente a la lista de permitidos. Consulte [Envío de correos electrónicos AMP mediante registro en un proveedor de correo electrónico](#delivering-amp-emails-by-registering).
 
 ### Prueba de la entrega de correo electrónico AMP para direcciones seleccionadas {#testing-amp-delivery-for-selected-addresses}
 
@@ -174,7 +174,7 @@ Para probar el envío de un correo electrónico AMP a una dirección Mail.ru, si
 
 ### Envío de correos electrónicos AMP mediante el registro con un proveedor de correo electrónico {#delivering-amp-emails-by-registering}
 
-Puede experimentar enviar correos electrónicos dinámicos registrándose con los proveedores de correo electrónico admitidos para que su dominio de remitente se añada a la lista de permitidos.
+Puede experimentar la entrega de correos electrónicos dinámicos registrándose con los proveedores de correo electrónico admitidos para que su dominio de remitente se añada a la lista de permitidos.
 
 >[!NOTE]
 >

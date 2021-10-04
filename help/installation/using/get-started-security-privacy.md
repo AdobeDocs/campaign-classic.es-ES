@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Introducción a la seguridad y la privacidad
+title: Lista de comprobación de seguridad y privacidad
 description: Obtenga más información sobre los elementos clave para comprobar la seguridad y la privacidad.
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: ec40498e-e673-4792-8dcf-8bb7e852b532
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 24%
+source-wordcount: '487'
+ht-degree: 16%
 
 ---
 
-# Introducción a la seguridad y la privacidad {#get-started-security-privacy}
+# Lista de comprobación de seguridad y privacidad{#get-started-security-privacy}
 
 ![](../../assets/v7-only.svg)
 
@@ -50,7 +50,7 @@ La gestión del acceso es una parte importante del refuerzo de la seguridad. Est
 
 Cuando desarrolle en Adobe Campaign (flujos de trabajo, JavaScript, JSSP, etc.), siga siempre estas directrices:
 
-* **Secuencias de comandos**: Intente evitar las declaraciones SQL, utilice funciones parametrizadas en lugar de concatenaciones de cadenas, evite la inyección de SQL al añadir funciones SQL para usar en la lista de permitidos.
+* **Secuencia de comandos**: intente evitar las instrucciones SQL, utilice funciones parametrizadas en lugar de concatenación de cadenas, evite la inyección de SQL añadiendo las funciones SQL que desea utilizar a la lista de permitidos.
 
 * **Proteja el modelo** de datos: usar derechos asignados para limitar las acciones de operadores, agregar filtros de sistema (sysFilter)
 
@@ -67,6 +67,10 @@ Una cosa muy importante que debe comprobar al implementar un tipo de arquitectur
 También es imprescindible que siga la seguridad del motor de la base de datos.
 
 [Más información](../../installation/using/network-database.md)
+
+>[!CAUTION]
+>
+>A partir del 14 de julio de 2021, cualquier sistema cliente que no admita el protocolo TLS 1.2 perderá acceso a todos los productos y servicios de Adobe. Asegúrese de que todos los sistemas de usuario y cliente sean compatibles con TLS 1.2 antes de esta fecha. [Más información](https://helpx.adobe.com/in/x-productkb/multi/eol-tls-support.html)
 
 ## Configuración del servidor
 

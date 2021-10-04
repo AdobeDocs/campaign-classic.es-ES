@@ -5,10 +5,10 @@ description: Descubra más información sobre cómo configurar eventos para la i
 audience: integrations
 content-type: reference
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ Como la edición del código de JavaScript requiere habilidades técnicas, no lo
 
 La canalización utiliza una función de JavaScript para procesar cada mensaje. Esta función está definida por el usuario.
 
-Se configura en la opción **[!UICONTROL NmsPipeline_Config]** bajo el atributo &quot;JSConnector&quot;. Se llama a este javascript cada vez que se recibe un evento. Está dirigido por el proceso [!DNL pipelined].
+Se configura en la opción **[!UICONTROL NmsPipeline_Config]** bajo el atributo &quot;JSConnector&quot;. Se llama a este JavaScript cada vez que se recibe un evento. Está dirigido por el proceso [!DNL pipelined].
 
 El archivo de JavaScript de muestra es cus:triggers.js.
 
