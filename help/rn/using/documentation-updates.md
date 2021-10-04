@@ -9,7 +9,7 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
 source-wordcount: '4513'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Se ha añadido una nota sobre la integración entre Campaign y AEM Assets que se
 
 Las capturas de pantalla y los parámetros de las aplicaciones web e informes se han actualizado tras la eliminación del Flash de Adobe.
 
-Se ha eliminado el tipo de gráfico **Indicador**.
+Se ha eliminado el tipo de gráfico **Medición**.
 
 
 ## Julio de 2021 {#july-2021}

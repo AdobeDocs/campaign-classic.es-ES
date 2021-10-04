@@ -9,17 +9,17 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 12b191ffe3d407f1a69393278a7678a14e53d23e
 workflow-type: tm+mt
 source-wordcount: '2403'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
-# Última versión{#latest-release}
+# Último lanzamiento{#latest-release}
 
 ![](../../assets/v7-only.svg)
 
-Esta página enumera las nuevas funcionalidades, mejoras y correcciones que se incluyen con la **última versión del Campaign Classic**.
+Esta página lista las nuevas funcionalidades, mejoras y correcciones que se proporcionan con el **último lanzamiento de Campaign**.
 
-Comprender los estados de compilación de Campaign en [esta página](rn-overview.md).
+Descubra los estados de compilación de Campaign en [esta página](rn-overview.md).
 
 ## ![](assets/do-not-localize/green_2.png) Versión 21.1.4, compilación 9342 {#release-21-1-4-build-9342}
 
@@ -27,32 +27,32 @@ _7 de septiembre de 2021_
 
 **Mejora de la seguridad**
 
-* Se ha corregido un problema de seguridad para reforzar la protección contra ataques de recorrido de directorios. (NEO-28547)
+* Se ha corregido un problema de seguridad para reforzar la protección contra los ataques de recorrido de directorios. (NEO-28547)
 
 **Mejoras**
 
-* Tras finalizar su vida útil, el Flash se ha eliminado de todas las funciones y componentes de Campaign relacionados y se ha sustituido por HTML5. Se ha eliminado el tipo de gráfico **Medición**. (NEO-30330) [Más información](../../reporting/using/creating-a-chart.md)
+* Tras finalizar su vida útil, se ha eliminado Flash de todas las funciones y componentes de Campaign relacionados y se ha sustituido por HTML5. Se ha eliminado el tipo de gráfico **Medición**. (NEO-30330) [Más información](../../reporting/using/creating-a-chart.md)
 * Al instalar la consola del cliente en Windows, el instalador ahora comprueba si hay un nodo de registro principal y crea uno si falta. Esto evita posibles problemas al iniciar la consola. (NEO-34854)
-* La función de firma de seguimiento se ha mejorado para evitar errores vinculados a la forma en que las herramientas de terceros (clientes de correo electrónico, navegadores de Internet, etc.) gestione caracteres especiales. Los parámetros de URL ahora están codificados.
+* La función de firma de seguimiento se ha mejorado para evitar errores vinculados a la forma en que las herramientas de terceros (clientes de correo electrónico, navegadores de Internet, etc.) gestionan los caracteres especiales. Los parámetros de URL ahora están codificados.
 
 **Otros cambios**
 
-* Los conectores de Microsoft CRM obsoletos anteriormente (Office 365 e implementaciones locales) se han eliminado de la interfaz. [Más información](../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft)
+* Los conectores de Microsoft CRM anteriormente obsoletos (implementaciones Office 365 y On-premise) se han eliminado de la interfaz. [Más información](../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft)
 * Después de la migración a Tomcat 8, el script de configuración de IIS se ha actualizado para solucionar los problemas de integración de IIS. (NEO-31019)
 * Se ha agregado una protección para permitir que el [flujo de trabajo técnico de facturación](../../production/using/monitoring-processes.md#billing-report) se ejecute en la instancia de marketing.
-* La identificación de la fuente de datos se ha mejorado en las pestañas data y schema de la ventana **View population** de transiciones de flujo de trabajo.
+* La identificación de la fuente de datos se ha mejorado en las pestañas de datos y esquema de la ventana **Ver población** de las transiciones de flujo de trabajo.
 * Los índices de base de datos que faltaban se agregaron a los siguientes esquemas para evitar problemas de actualización de la base de datos: xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
 
 **Parches**
 
 * Se ha corregido un problema que impedía que el informe de clics activos funcionara cuando las ofertas estaban vinculadas al envío. (NEO-26295)
-* Se ha corregido un problema con la actividad **Sub-workflow** cuando su ejecución no generaba una tabla de salida. (NEO-36242)
-* Se han corregido varios problemas al exportar el informe **Descriptive analysis** a PDF. (NEO-25847)
+* Se ha corregido un problema con la actividad **Flujo de trabajo secundario** cuando su ejecución no generaba una tabla de salida. (NEO-36242)
+* Se han corregido varios problemas al exportar el informe **Análisis descriptivo** a PDF. (NEO-25847)
 * Se ha corregido un problema que podría provocar errores en los envíos al utilizar un envío de correo externo. (NEO-37435)
-* Se ha corregido un error al conectarse a Microsoft CRM mediante API web. El mensaje de error se ha eliminado porque las funcionalidades no se vieron afectadas.
+* Se ha corregido un error al conectarse a Microsoft CRM mediante la API web. El mensaje de error se ha eliminado porque las funcionalidades no se vieron afectadas.
 * Se ha corregido un problema de deduplicación del registro de seguimiento cuando el servidor mid se establecía como reenvío entre los servidores de seguimiento y marketing. (NEO-36285)
 * Se ha corregido una regresión que impedía que Vault se usara como almacén de código específico.
-* Se ha corregido un problema que impedía usar variables en una actividad de flujo de trabajo **Enrichment** cuando la transición entrante era de una fuente de datos FDA.
+* Se ha corregido un problema que impedía usar variables en una actividad de flujo de trabajo **Enriquecimiento** cuando la transición entrante era de una fuente de datos FDA.
 * Se ha corregido un problema que podría provocar URL rotas en los mensajes de correo electrónico.
 
 ## ![](assets/do-not-localize/orange_2.png) Versión 21.1.3, compilación 9330 {#release-21-1-3-build-9330}
@@ -71,7 +71,7 @@ _5 de junio de 2021_
 <tbody>
 <tr>
 <td>
-<p>La nueva actividad de flujo de trabajo <b>Cambiar fuente de datos</b> permite cambiar la fuente de datos de la tabla de trabajo de un flujo de trabajo. Esto proporciona una flexibilidad mejorada para administrar datos en diferentes fuentes de datos (FDA y base de datos local).</p>
+<p>La nueva actividad de flujo de trabajo <b>Cambiar fuente de datos</b> permite cambiar la fuente de datos de la tabla de trabajo de un flujo de trabajo. Esto proporciona una mayor flexibilidad para administrar datos en diferentes fuentes de datos (FDA y base de datos local).</p>
 <p>En los flujos de trabajo de Adobe Campaign, los datos se administran mediante tablas de trabajo (o temporales). A medida que se ejecuta el flujo de trabajo, las tablas de trabajo comparten datos entre las actividades de flujo de trabajo. De forma predeterminada, las tablas de trabajo se crean en la misma base de datos que el origen de los datos que consultamos.</p>
 <p>Para obtener más información, consulte la <a href="../../workflow/using/change-data-source.md">documentación detallada</a>.</p>
 </td>

@@ -6,7 +6,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: acb2c4e90c4ce349ea9c1ad53d703c13195872e1
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 80%
+ht-degree: 81%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 80%
 
 ## Novedades
 
-* **[¡El lanzamiento de septiembre está activo!](rn/using/latest-release.md)**<br/> Descubra nuevas funcionalidades, mejoras y correcciones en las notas de la versión
+* **[¡Ya está aquí la versión de septiembre!](rn/using/latest-release.md)**<br/> Descubra nuevas funcionalidades, mejoras y correcciones en las notas de la versión
 
 * **[Preguntas frecuentes y ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)**   **[](technotes/using/apple-mail-app-privacy-protection.md)**<br/> notas técnicas sobre la protección de la privacidad de Apple MailBusque la guía inicial en respuesta al anuncio de Apple con respecto a iOS 15
 

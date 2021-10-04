@@ -299,7 +299,7 @@ Para exportar un paquete desde una definición de paquete, siga los pasos siguie
 
    ![](assets/packagedefinition_packageexport.png)
 
-## Importar paquetes {#importing-packages}
+## Importación de paquetes {#importing-packages}
 
 Se puede acceder al asistente de importación de paquetes a través del menú principal **[!UICONTROL Tools > Advanced > Import package]** de la consola del cliente de Adobe Campaign.
 
@@ -421,7 +421,7 @@ Para ayudar a la importación, los paquetes de entidades deben ordenarse a medid
 
 #### Paquete 200 {#package-200}
 
-El número de paquete “200” no debe utilizarse para una campaña específica: este número se utiliza para actualizar algo que concierne a todas las campañas.
+El número de paquete 200 no debe utilizarse para una campaña específica: este número se utiliza para actualizar algo que concierne a todas las campañas.
 
 #### Actualizar paquete {#update-package}
 

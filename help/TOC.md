@@ -9,8 +9,8 @@ sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: aac596caf559b25ba3fff94aca410a66ecc08b27
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2546'
+ht-degree: 99%
 
 ---
 
@@ -118,8 +118,8 @@ ht-degree: 0%
          + [Sincronización de datos con CRM](platform/using/crm-data-sync.md)
       + Conector de Adobe Analytics{#analytics-connector}
          + [Aprovisionamiento de conectores de Adobe Analytics](platform/using/adobe-analytics-provisioning.md)
-         + [Integración con Adobe Analytics Connector](platform/using/adobe-analytics-connector.md)
-         + [Cómo migrar al conector Adobe Analytics](technotes/using/aa-connector-migration.md)
+         + [Integración del conector de Adobe Analytics](platform/using/adobe-analytics-connector.md)
+         + [Migración al conector de Adobe Analytics](technotes/using/aa-connector-migration.md)
          + [Conectores de datos de Adobe Analytics](platform/using/adobe-analytics-data-connector-legacy.md)
    + [Opciones de ayuda y asistencia](support.md)
 + Creación y envío de mensajes {#sending-messages}
@@ -429,7 +429,7 @@ ht-degree: 0%
       + [División](workflow/using/split.md)
       + [Celdas](workflow/using/cells.md)
       + [Ofertas por celda](workflow/using/offers-by-cell.md)
-      + [Descripción de la entrega](workflow/using/delivery-outline.md)
+      + [Descripción del envío](workflow/using/delivery-outline.md)
       + [Enriquecimiento](workflow/using/enrichment.md)
       + [Edición del esquema](workflow/using/edit-schema.md)
       + [Motor de oferta](workflow/using/offer-engine.md)
@@ -439,7 +439,7 @@ ht-degree: 0%
       + [Servicios de suscripción](workflow/using/subscription-services.md)
       + [Actualización de datos](workflow/using/update-data.md)
       + [Conector CRM](workflow/using/crm-connector.md)
-      + [Cambiar fuente de datos](workflow/using/change-data-source.md)
+      + [Cambio de la fuente de datos](workflow/using/change-data-source.md)
    + Actividades de control de flujo {#flow-control-activities}
       + [Acerca de las actividades de control de flujo](workflow/using/about-flow-control-activities.md)
       + [Inicio y final](workflow/using/start-and-end.md)

@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-source-git-commit: a64cf63916c4e4f220ac00f3d44d0e5e747815f4
+source-git-commit: 86eb9814fae42992b5ca0ce233f88ad90086007d
 workflow-type: tm+mt
 source-wordcount: '1191'
-ht-degree: 85%
+ht-degree: 97%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 85%
 
 Esta página enumera las versiones de [!DNL Gold Standard]. Obtenga más información acerca de Campaign [!DNL Gold Standard] [en esta página](gs-overview.md).
 
-## ![](assets/do-not-localize/limited_2.png) [!DNL Gold Standard] Versión 12{#gs-12}
+## ![](assets/do-not-localize/limited_2.png) [!DNL Gold Standard] versión 12{#gs-12}
 
 _7 de septiembre de 2021_
 
-La versión 9032@554dbcd incluye la siguiente corrección:
+La compilación 9032@554dbcd incluye la siguiente corrección:
 
 * Se ha corregido un problema que provocaba un error 500 al abrir el vínculo a una aplicación web en un envío de línea con seguimiento habilitado.
 
@@ -31,7 +31,7 @@ _27 de agosto de 2021_
 
 La versión 9032@99a3894 incluye las siguientes correcciones:
 
-* La función de firma de seguimiento se ha mejorado para evitar errores vinculados a la forma en que las herramientas de terceros (clientes de correo electrónico, navegadores de Internet, etc.) gestione caracteres especiales. Los parámetros de URL ahora están codificados.
+* La función de firma de seguimiento se ha mejorado para evitar errores vinculados a la forma en que las herramientas de terceros (clientes de correo electrónico, navegadores de Internet, etc.) gestionan los caracteres especiales. Los parámetros de URL ahora están codificados.
 * Se ha corregido un problema con los selectores de fechas que podría provocar que una consola muestre un mensaje de error de bloqueador. (NEO-36345)
 
 ## ![](assets/do-not-localize/green_2.png) [!DNL Gold Standard] versión 11{#gs-11}
@@ -41,7 +41,7 @@ _14 de abril de 2021_
 La compilación 9032@d030c36 incluye la siguiente corrección:
 
 * Se ha corregido una regresión de la consola del cliente que provocaba mensajes de error persistentes en la pantalla de conexión IMS. (NEO-34821)
-* Esta compilación de la consola es necesaria para mantener [el acceso IMS](../../technotes/using/ims-updates.md).
+* Esta compilación de la consola es necesaria para mantener el [acceso IMS](../../technotes/using/ims-updates.md).
 
 **Solo es obligatorio actualizar la consola. No se requiere ninguna actualización del servidor.**
 
@@ -49,10 +49,10 @@ La compilación 9032@d030c36 incluye la siguiente corrección:
 >
 > * Si se está conectando a Campaign con su Adobe ID, a través del servicio de Identity Management de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola del cliente para poder conectarse a Campaign después del **30 de junio de 2021**. [Más información](../../technotes/using/ims-updates.md)
 > * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
-> * Si está utilizando la integración de Experience Cloud Triggers mediante autenticación oAuth, debe ir a Adobe I/O como se detalla [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación oAuth heredado con Campaign [se ha eliminado](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411) el **18 de agosto de 2021**. Los entornos alojados se benefician de una extensión hasta **30 de noviembre de 2021**. Como cliente local o híbrido, póngase en contacto con el servicio de atención al cliente de Adobe para ampliar la asistencia hasta el 30 de noviembre de 2021. Debe proporcionar [el AppID de la aplicación OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) al Adobe.
+> * Si está utilizando la integración de Experience Cloud Triggers mediante autenticación oAuth, debe ir a Adobe I/O como se detalla [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación oAuth heredado con Campaign [se ha retirado](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=es) el **septiembre de 2021**. Los entornos alojados se benefician de una extensión hasta **23 de febrero de 2022**. Como cliente local o híbrido, póngase en contacto con el servicio de atención al cliente de Adobe para ampliar la asistencia hasta febrero de 2022. Debe proporcionar [el AppID de la aplicación OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) a Adobe.
 
 >
->Obtenga más información en las Preguntas frecuentes sobre la actualización a [[!DNL Gold Standard] 11](https://helpx.adobe.com/es/campaign/kb/sms-connector-protocol-and-settings.html)
+>Obtenga más información en las Preguntas frecuentes sobre la actualización a [[!DNL Gold Standard] 11](https://helpx.adobe.com/es/campaign/kb/gold-standard-upgrade.html)
 
 _2 de marzo de 2021_
 
@@ -68,15 +68,6 @@ La compilación 9032@10c2709 incluye la siguiente corrección:
 
 _22 de diciembre de 2020_
 
-<!--
->[!CAUTION]
->
-> * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**. [Learn more](../../technotes/using/ims-updates.md)
-> * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
-> * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode with Campaign will be retired on **November 30, 2021**.
->
->Learn more in the [[!DNL Gold Standard] 11 upgrade FAQ](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html).
--->
 La versión 9032@d3b452f incluye las siguientes mejoras y correcciones:
 
 * El protocolo de conexión se ha actualizado para seguir el nuevo mecanismo de autenticación IMS.

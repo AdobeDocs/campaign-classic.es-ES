@@ -49,7 +49,7 @@ Para mantener la implementación actualizada, asegúrese de leer las páginas [F
 
 ## Proceso de actualización{#process-upgrade}
 
-Como cliente alojado (servicio administrado o híbrido), debe ponerse en contacto con el equipo de servicio de atención al cliente para que se actualice su entorno.
+Como cliente alojado (servicio administrado o híbrido), debe ponerse en contacto con el equipo del Servicio de atención al cliente para que se actualice su entorno.
 
 Como usuario On-Premise, puede realizar la actualización. Para ello, debe [descargar la última versión estable](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) y actualizar todos sus entornos. Obtenga más información sobre el [proceso de actualización](../../production/using/build-upgrade.md) y consulte las [preguntas frecuentes sobre la actualización de la compilación](../../platform/using/faq-build-upgrade.md).
 

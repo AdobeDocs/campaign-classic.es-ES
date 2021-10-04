@@ -87,7 +87,7 @@ La [legislación principal](#privacy-regulations) hace referencia a las diferent
 
 Por lo tanto, como compañía que recopila y comparte datos personales, usted es el controlador de datos, sus clientes son los sujetos de datos y Adobe Campaign actúa como un procesador de datos al tratar sus datos personales como usted lo indica. Tenga en cuenta que, como controlador de datos, es su responsabilidad gestionar la relación con los temas de datos, como al administrar [solicitudes de privacidad](#privacy-requests).
 
-### Ejemplo de uso {#use-case-scenario}
+### Ejemplo de caso de uso {#use-case-scenario}
 
 Para ilustrar cómo interactúan las distintas personas, se muestra un ejemplo de uso de la experiencia del cliente de RGPD de alto nivel.
 

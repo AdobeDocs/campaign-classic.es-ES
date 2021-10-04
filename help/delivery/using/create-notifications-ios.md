@@ -5,8 +5,8 @@ description: Aprenda a crear notificaciones push para iOS
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
+source-git-commit: 1de1f7aafd7eb18c1160460ddd5c84ac59473664
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 100%
