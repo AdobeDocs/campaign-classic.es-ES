@@ -3,11 +3,10 @@ audience: end-user
 breadcrumb-title: Documentación de Campaign Classic v7
 product: campaign
 title: Guía de Campaign Classic v7
-breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Con Adobe Campaign, puede utilizar datos de clientes enriquecidos para crear, coordinar y ofrecer campañas dinámicas que los clientes realmente deseen mediante correo electrónico, canales móviles, sin conexión y mucho más.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 37115de5871d773dc7b97c5150ef1eab583e3104
+source-git-commit: 089ade04a7324f8052738f18b34c09b429275c00
 workflow-type: tm+mt
 source-wordcount: '2567'
 ht-degree: 98%
