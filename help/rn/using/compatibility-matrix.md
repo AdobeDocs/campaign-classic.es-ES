@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: f6f1feffbd328f9756c9cd71c4186ba7cd674d76
+source-git-commit: 235e8abcaed2659d745ebfeca24dc2f0278a6e5a
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 85%
+source-wordcount: '600'
+ht-degree: 79%
 
 ---
 
@@ -119,7 +119,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 </tbody>
 </table>
 
-## Servidores RDBMS{#RDBMSservers}
+## Sistemas de administración de bases de datos de relación (RDBMS){#RDBMSservers}
 
 <table>
 <tbody>
@@ -133,10 +133,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 </td>
 </tr>
 <tr>
-<td>
-<p>PostgreSQL</p>
-<p>Servidor de base de datos predeterminado para entornos alojados</p>
-</td>
+<td>PostgreSQL</td>
 <td>
 <p>13.x</p>
 <p>12.x</p>
@@ -145,7 +142,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <p>9.6.x</p>
 <p>9.5.x</p>
 <p>9.4.x</p>
-<p>Nota: También puede utilizar Amazon RDS para PostgreSQL con las versiones especificadas anteriormente.</p>
+<p><strong>Nota:</strong> también puede utilizar Amazon RDS para PostgreSQL con las versiones especificadas anteriormente.</p>
 </td>
 </tr>
 <tr>
@@ -156,7 +153,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <p>2016</p>
 <p>2014</p>
 <p>2012: SP1 y SP2</p>
-<p>Advertencia: Microsoft SQL Server no se admite como base de datos principal cuando el servidor de Campaign se está ejecutando en Linux. [Más información](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layer).</p>
+<p><strong>Importante:</strong>  Microsoft SQL Server no se admite como base de datos principal cuando el servidor de Campaign se está ejecutando en Linux. [Más información](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layer).</p>
 </td>
 </tr>
 </tbody>
@@ -164,7 +161,10 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 
 >[!NOTE]
 >
->El controlador RDBMS debe coincidir con la versión del servidor RDBMS.
+>* El controlador RDBMS debe coincidir con la versión del servidor RDBMS.
+>
+>* PostgreSQL es el RDBMS para entornos alojados.
+
 
 ## Conectores CRM{#CRMconnectors}
 
