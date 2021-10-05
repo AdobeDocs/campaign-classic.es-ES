@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Actualizaciones de documentación de Adobe Campaign Classic
+title: Actualizaciones de documentación de Adobe Campaign Classic v7
 description: Esta página enumera todas las funciones nuevas y las actualizaciones de la documentación de Adobe Campaign Classic
 feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: cee019432c64eaaefac86a27b731355242fd1555
 workflow-type: tm+mt
-source-wordcount: '4513'
-ht-degree: 100%
+source-wordcount: '4560'
+ht-degree: 98%
 
 ---
 
@@ -21,6 +21,22 @@ Esta página enumera todas las nuevas funciones y actualizaciones de la document
 
 Consulte las [Notas de la versión de Adobe Campaign Classic](../../rn/using/latest-release.md) para ver las actualizaciones relacionadas con la versión.
 
+## Octubre de 2021{#oct-2021}
+
+Las notas técnicas existentes se han agrupado en la nueva sección **Technote**.
+
+La página **Recomendaciones de tamaño de hardware** se ha actualizado y agregado a la sección **Notas técnicas**. [Más información](../../technotes/using/hardware-sizing.md)
+
+## Septiembre de 2021{#sept-2021}
+
+**Actualizaciones de la documentación incluidas en la versión 21.1.4**
+
+Se ha eliminado el tipo de gráfico **Medición**.
+
+Las capturas de pantalla y los parámetros de las aplicaciones web e informes se han actualizado tras la eliminación del Flash de Adobe.
+
+La descripción del [flujo de trabajo técnico de facturación](../../production/using/monitoring-processes.md#billing-report) se ha actualizado con una nueva protección.
+
 ## Agosto de 2021{#aug-2021}
 
 Se ha añadido una nueva actividad de flujo de trabajo: Cambiar fuente de datos: [Más información](../../workflow/using/change-data-source.md)
@@ -28,10 +44,6 @@ Se ha añadido una nueva actividad de flujo de trabajo: Cambiar fuente de datos:
 Se han añadido distintivos de aplicabilidad a las páginas de documentación: **Se aplica a v7** solo para las capacidades de Campaign Classic v7, y **se aplica a v7 &amp; v8** para las funciones comunes.
 
 Se ha añadido una nota sobre la integración entre Campaign y AEM Assets que se ha eliminado a partir de Adobe Experience Manager 6.4. [Más información](../../integrations/using/configuring-access-to-assets.md)
-
-Las capturas de pantalla y los parámetros de las aplicaciones web e informes se han actualizado tras la eliminación del Flash de Adobe.
-
-Se ha eliminado el tipo de gráfico **Medición**.
 
 
 ## Julio de 2021 {#july-2021}
@@ -380,7 +392,7 @@ Mejora del conector FDA de Hadoop: [Más información](../../installation/using/
 
 Las guías de [instalación](../../installation/using/general-architecture.md), [producción](../../production/using/foreword.md) y [configuración](../../configuration/using/additional-parameters.md) se han actualizado con la nueva unidad del sistema utilizada por el inicio del servicio nlserver. Puede seguir utilizando /etc/init.d/nlserver6, pero le recomendamos que ahora utilice el comando systemctl para interactuar con el servicio nlserver.
 
-La guía de instalación se ha actualizado y sincronizado con la última versión de la matriz de compatibilidad. Se han agregado nuevos sistemas admitidos. Se han eliminado las ocurrencias a sistemas obsoletos y no admitidos. [Más información](../../installation/using/general-architecture.md)
+La guía de instalación se ha actualizado y sincronizado con la última versión de la matriz de compatibilidad. Se han agregado nuevos sistemas admitidos. Se han eliminado las ocurrencias de sistemas obsoletos y no compatibles. [Más información](../../installation/using/general-architecture.md)
 
 La matriz de compatibilidad se ha actualizado con los conectores Hadoop 3.0 y Snowflake FDA. [Más información](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 

@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
-source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
+source-git-commit: 6d53ba957fb567a9a921544418a73a9bde37c97b
 workflow-type: tm+mt
 source-wordcount: '3007'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -65,7 +65,7 @@ _22 de diciembre de 2020_
 >
 > * Esta versión incorpora un nuevo protocolo de conexión: si se conecta a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**.  [Más información](../../technotes/using/ims-updates.md)
 > * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
-> * Si está utilizando la integración de Experience Cloud Triggers mediante autenticación oAuth, debe ir a Adobe I/O como se detalla [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación oAuth heredado con Campaign [se ha eliminado](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411) el **18 de agosto de 2021**. Los entornos alojados se benefician de una extensión hasta **30 de noviembre de 2021**. Como cliente local o híbrido, póngase en contacto con el servicio de atención al cliente de Adobe para ampliar la asistencia hasta el 30 de noviembre de 2021. Debe proporcionar [el AppID de la aplicación OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) al Adobe.
+> * Si está utilizando la integración de Experience Cloud Triggers mediante autenticación oAuth, debe ir a Adobe I/O como se detalla [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación oAuth heredado con Campaign [se ha retirado](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=es) el **septiembre de 2021**. Los entornos alojados se benefician de una extensión hasta **23 de febrero de 2022**. Como cliente local o híbrido, póngase en contacto con el servicio de atención al cliente de Adobe para ampliar la asistencia hasta febrero de 2022. Debe proporcionar [el AppID de la aplicación OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) a Adobe.
 
 
 **Mejoras**
@@ -355,7 +355,7 @@ Hay un ejemplo para Linux disponible en esta [página](../../configuration/using
 * Se ha corregido una regresión que ocasionaba que el flujo de trabajo de limpieza se bloqueara.
 * Se ha corregido un problema que se podía producir al publicar una plantilla en una instancia de ejecución.
 * Se ha corregido un problema que podía impedir que se ejecutara el flujo de trabajo técnico collectPrivacyRequests. (NEO-20513, NEO-25169)
-* Se han corregido problemas que podían producirse al intentar conectarse a Audience Manager después de la actualización para la compilación 9080. (NEO-20511, NEO-25167)
+* Se han corregido problemas que podían producirse al intentar conectarse al Audience Manager después de actualizar a la versión 9080. (NEO-20511, NEO-25167)
 * Se han corregido problemas que podían producirse al exportar informes en formato PDF o XLS. (NEO-20982, NEO-23493, NEO-23348)
 * Se ha corregido un problema que podía mostrar un envío dos veces en la lista de envíos después de enviarlo.
 * Se ha corregido un problema con la preparación de envíos que se podía producir cuando la configuración de enrutamiento estaba configurada para realizar el envío mediante intermediario.

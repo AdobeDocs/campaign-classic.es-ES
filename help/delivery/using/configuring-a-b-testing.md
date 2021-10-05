@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 6adf2e75-63b1-44ad-8925-03beb3bc0bdd
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -37,6 +37,6 @@ En esta sección, se explica cómo crear un flujo de trabajo para realizar prueb
 
    ![](assets/ab-testing-delivery.png)
 
-Ahora puede iniciar el flujo de trabajo. Una vez enviados los envíos, podrá rastrear el comportamiento de los tres subconjuntos en los registros de envío, para ver qué asunto ha tenido más éxito.
+Ahora puede iniciar el flujo de trabajo. Una vez enviados los envíos, puede realizar un seguimiento del comportamiento de los tres subconjuntos en los registros de envío para ver qué asunto ha tenido más éxito.
 
 Los flujos de trabajo también le permiten automatizar los procesos al identificar automáticamente la variante de envío que tuvo un mejor rendimiento y, a continuación, enviarla a la población restante. Para obtener más información al respecto, consulte este [caso de uso paso a paso](a-b-testing-use-case.md).

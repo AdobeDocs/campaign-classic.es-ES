@@ -6,10 +6,10 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '1205'
-ht-degree: 100%
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
+source-wordcount: '1206'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Los formularios web se pueden configurar y personalizar completamente para satisfacer sus necesidades. Los parámetros deben introducirse en la ventana de propiedades.
+Puede configurar y personalizar completamente los formularios web para satisfacer sus necesidades. Los parámetros deben introducirse en la ventana de propiedades.
 
 Se puede acceder a la ventana de propiedades mediante el botón **[!UICONTROL Properties]** de la barra de herramientas del formulario web. Esta ventana permite acceder a diversas configuraciones específicas del formulario web. Algunos ajustes pueden proceder de la configuración de la plantilla.
 

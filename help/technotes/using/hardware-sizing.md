@@ -2,14 +2,14 @@
 product: campaign
 title: Recomendaciones de tamaño de hardware para Campaign Classic v7
 description: Recomendaciones de tamaño de hardware para Campaign Classic v7
-source-git-commit: 3912874210ab16a132e51d9bb71508c8d244fe22
+source-git-commit: 0deb18bb0376fc5e94d063145280426ff54db786
 workflow-type: tm+mt
-source-wordcount: '2513'
+source-wordcount: '2512'
 ht-degree: 1%
 
 ---
 
-# Recomendaciones de tamaño de hardware para Campaign Classic v7 {#hardware-sizing-reco}
+# Recomendaciones de tamaño de hardware{#hardware-sizing-reco}
 
 ![](../../assets/v7-only.svg)
 
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Esta guía se proporciona únicamente como guía de ejemplo general. Debe ponerse en contacto con el administrador de éxito de los clientes de Adobe Campaign para medir el tamaño exacto de la implementación antes de iniciar el proyecto de Campaign. **No** adquiera ni implemente ninguna infraestructura o hardware hasta que esto se haga.
+>Este artículo se proporciona únicamente como guía de ejemplo general. Debe ponerse en contacto con el administrador de éxito de los clientes de Adobe Campaign para medir el tamaño exacto de la implementación antes de iniciar el proyecto de Campaign. **No** adquiera ni implemente ninguna infraestructura o hardware hasta que esto se haga.
 
-Este documento proporciona directrices generales para la implementación de Adobe Campaign Classic v7 en su centro de datos local o entorno de nube virtualizado. Este tipo de implementación, denominada **hybrid** o **mid-sourcing**, coloca la instancia de marketing de Campaign y la base de datos de marketing bajo su control operativo, mientras utiliza los servicios de mensajería de Adobe Cloud para enviar correos electrónicos, SMS o mensajes SMPP, y recopilar datos de seguimiento de aperturas, devoluciones y clics de correos electrónicos.
+Este documento proporciona recomendaciones generales para la implementación de Adobe Campaign Classic v7 en su centro de datos local o entorno de nube virtualizado. Este tipo de implementación, denominada **hybrid** o **mid-sourcing**, coloca la instancia de marketing de Campaign y la base de datos de marketing bajo su control operativo, mientras utiliza los servicios de mensajería de Adobe Cloud para enviar correos electrónicos, SMS o mensajes SMPP, y recopilar datos de seguimiento de aperturas, devoluciones y clics de correos electrónicos.
 
 La instancia de marketing es la parte de la arquitectura de Adobe Campaign que impulsa toda la actividad de marketing y almacena todos los datos de destinatario y los datos de análisis devueltos por las campañas. La instancia de marketing es un conjunto de servidores locales que ejecutan servicios de Adobe Campaign y una base de datos relacional.
 
@@ -258,5 +258,6 @@ Adobe recomienda pruebas de rendimiento para cualquier implementación virtualiz
 ## Temas relacionados
 
 * [Procesos de monitorización de campañas](../../production/using/monitoring-processes.md)
+* [Arquitectura general de Campaign](../../installation/using/general-architecture.md)
 * [Problemas de rendimiento y producción](../../production/using/performance-and-throughput-issues.md)
 * [Lista de comprobación de seguridad y privacidad](../../installation/using/get-started-security-privacy.md)

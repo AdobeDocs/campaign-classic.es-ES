@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 6%
@@ -81,7 +81,7 @@ Si se ha seleccionado **[!UICONTROL No longer ask this question]**, puede restab
 
 >[!NOTE]
 >
->Si está aplicando una consola actualizada a una implementación existente, los usuarios recibirán automáticamente un mensaje para actualizar su consola de cliente. Si va a implementar Campaign por primera vez, los usuarios deberán descargar la consola. Consulte a continuación los detalles sobre ambas opciones
+>Si está aplicando una consola actualizada a una implementación existente, los usuarios recibirán automáticamente una solicitud para actualizar su consola de cliente. Si va a implementar Campaign por primera vez, los usuarios deberán descargar la consola. Consulte a continuación los detalles sobre ambas opciones
 
 ### Actualizar la consola para una implementación existente{#update-the-client-console}
 

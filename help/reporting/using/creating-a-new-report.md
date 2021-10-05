@@ -6,10 +6,10 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '923'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -39,7 +39,7 @@ Para crear un informe, siga los pasos siguientes:
 
 1. Guarde este informe.
 
-## Modelización de un gráfico {#modelizing-the-chart}
+## Modelado del gráfico {#modelizing-the-chart}
 
 Después de guardar el informe, debería mostrarse esto. Ahora puede crear el gráfico del informe.
 

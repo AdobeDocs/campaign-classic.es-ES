@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 1%
@@ -305,7 +305,7 @@ Desde ACC 18.10, **XtkNewId** ya no es el valor predeterminado de la secuencia e
 
 >[!NOTE]
 >
->Una secuencia a la que se hace referencia en un esquema de Adobe Campaign (**NmsTrackingLogId**, por ejemplo) debe asociarse a una función SQL que devuelva el número de ID de los parámetros separados por comas. Esta función debe llamarse **GetNew** XXX **Ids**, donde **XXX** es el nombre de la secuencia (**GetNewNmsTrackingLogIds**, por ejemplo). Vea los archivos **postgres-nms.sql**, **mssql-nms.sql** o **oracle-nms.sql** proporcionados con la aplicación en el directorio **datakit/nms/eng/sql/** para recuperar el ejemplo de un Nms Creación de secuencia de TrackingLogId para cada motor de base de datos.
+>Una secuencia a la que se hace referencia en un esquema de Adobe Campaign (**NmsTrackingLogId**, por ejemplo) debe asociarse con una función SQL que devuelva el número de ID de los parámetros separados por comas. Esta función debe llamarse **GetNew** XXX **Ids**, donde **XXX** es el nombre de la secuencia (**GetNewNmsTrackingLogIds**, por ejemplo). Vea los archivos **postgres-nms.sql**, **mssql-nms.sql** o **oracle-nms.sql** proporcionados con la aplicación en el directorio **datakit/nms/eng/sql/** para recuperar el ejemplo de un &#39;NmsSQL Creación de secuencia de TrackingLogId para cada motor de base de datos.
 
 Para declarar una clave única, rellene el atributo **autopk** (con el valor &quot;true&quot;) en el elemento principal del esquema de datos.
 

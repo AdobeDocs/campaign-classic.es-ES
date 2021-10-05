@@ -6,9 +6,9 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '948'
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
+source-wordcount: '947'
 ht-degree: 100%
 
 ---
@@ -175,7 +175,7 @@ Estos dos elementos se agrupan en el mismo contenedor para que se clasifiquen gr
 
 1. Aplicar **dottedFilter**.
 
-   Este estilo se menciona en la plantilla **[!UICONTROL Single-page Web applicatio]** seleccionada anteriormente.
+   Se hace referencia a este estilo en la plantilla **[!UICONTROL Single-page Web application]** seleccionada previamente.
 
    ![](assets/s_ncs_configuration_webapp_container002.png)
 

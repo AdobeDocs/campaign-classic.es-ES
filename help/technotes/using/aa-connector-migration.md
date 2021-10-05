@@ -3,7 +3,7 @@ product: campaign
 title: Migrar al conector de Adobe Analytics
 description: 'Campaign: Preguntas más frecuentes sobre el conector de Analytics'
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
-source-git-commit: 6d3e21fa00771a47d846d502e2d4d5971aa39b29
+source-git-commit: e82bcef34ba8a9d5a7e6c4a59552d8cb7c800ca5
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 5%

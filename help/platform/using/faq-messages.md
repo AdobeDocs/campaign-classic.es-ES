@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328
-source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
-workflow-type: ht
+source-git-commit: 6d53ba957fb567a9a921544418a73a9bde37c97b
+workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -96,7 +96,7 @@ Para cada URL del mensaje, puede elegir si desea activar o no el seguimiento, ca
 
 ### ¿Dónde puedo acceder a los registros de entrega y seguimiento? {#where-can-i-access-delivery-and-tracking-logs-}
 
-Aprenda a realizar un seguimiento de las entregas y comprender el comportamiento de los destinatarios [desde esta página](../../delivery/using/delivery-dashboard.md).
+Obtenga información sobre cómo rastrear los envíos y comprender el comportamiento de los destinatarios [desde esta página](../../delivery/using/delivery-dashboard.md).
 
 ### ¿Dónde puedo obtener los informes de envío? {#where-can-i-get-delivery-reports-}
 

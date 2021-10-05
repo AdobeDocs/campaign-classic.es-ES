@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: fceb5752-dc73-4386-8c18-c4f3e6110ca5
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -31,7 +31,7 @@ El ciclo de flujo de trabajo tiene tres pasos principales.
 
    Un flujo de trabajo está “Finalizado” cuando ya no hay tareas en curso o cuando un operador ha detenido explícitamente la instancia.
 
-Por ejemplo, las actividades **Inicio** y **entrega** se destacan, mientras que la actividad de **Aprobación** parpadea en el flujo de trabajo inferior.
+Por ejemplo, las actividades **Start** y **Delivery** se describen mientras que la actividad **Approval** parpadea en el flujo de trabajo siguiente.
 
 ![](assets/new-workflow-6.png)
 

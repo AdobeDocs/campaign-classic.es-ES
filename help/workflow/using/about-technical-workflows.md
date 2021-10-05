@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-source-git-commit: 56470602e3acf777d5b00c293060c644c1fbbc37
+source-git-commit: e82bcef34ba8a9d5a7e6c4a59552d8cb7c800ca5
 workflow-type: tm+mt
-source-wordcount: '1712'
-ht-degree: 98%
+source-wordcount: '1714'
+ht-degree: 96%
 
 ---
 
@@ -80,4 +80,4 @@ Para obtener más información sobre la supervisión de flujos de trabajo técni
 | **Notificación de tareas** (taskMgt) | Recursos de Marketing (MRM) - Solo Campaign v7 | Este flujo de trabajo le permite enviar mensajes de notificación sobre las tareas de las campañas de marketing. |
 | **Seguimiento** (seguimiento) | Envío | Este flujo de trabajo realiza la recuperación y la consolidación de la información de seguimiento. También garantiza que se recalculen las estadísticas de seguimiento y envío, especialmente las utilizadas por los flujos de trabajo de archivado del Centro de mensajes. De forma predeterminada, se activa una vez cada hora. |
 | **Actualizar estado del evento** (updateEventsStatus) | Ejecución de mensaje transaccional (Centro de mensajes - Ejecución) | Este flujo de trabajo permite asignar un estado a un evento. Los estados de eventos son los siguientes:<ul><li>Pendiente: el evento está en cola. Aún no se le ha asociado ninguna plantilla de mensaje.</li><li>Envío pendiente: el evento está en cola, se le ha asociado una plantilla de mensaje y el envío lo está procesando en ese momento.</li><li>Enviado: este estado se copia desde los registros de envío. Significa que el envío se realizó.</li><li>Envío ignorado: este estado se copia desde los registros de envío. Significa que el envío se ha ignorado.</li><li>Error de envío: este estado se copia desde los registros de envío. Significa que el envío ha fallado.</li><li>Evento no cubierto: el evento no se ha podido asociar con una plantilla de mensaje. El evento no se vuelve a procesar.</li></ul> |
-| **Actualización para el envío** (deliverabilityUpdate) | Envío | Una vez instalado el paquete de supervisión del envío (Capacidad de envío por correo electrónico), este flujo de trabajo se ejecuta todas las noches y gestiona las reglas de calificación de correos electrónicos de devolución, así como la lista de dominios y MX. Esto requiere que el puerto HTTPS se abra en la plataforma |
+| **Actualización para el envío** (deliverabilityUpdate) | Envío | Una vez instalado el paquete Deliverability monitoring (Email Deliverability) , este flujo de trabajo se ejecuta todas las noches y gestiona las reglas de cualificación de correos electrónicos rechazados, así como la lista de dominios y MX. Esto requiere que el puerto HTTPS esté abierto en la plataforma. |

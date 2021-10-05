@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '629'
-ht-degree: 100%
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ajouter screenshot -->
 
-Una vez que realizada una entrega, el panel de entregas muestra un estado que le permite monitorizar si la entrega se ha realizado correctamente. Los estados posibles se detallan en la sección siguiente.
+Una vez que se ha realizado una entrega, el panel de entrega muestra un estado que le permite monitorizarlo si la entrega se ha realizado correctamente. Los estados posibles se detallan en la sección siguiente.
 
 ![](assets/delivery-status.png)
 
@@ -97,7 +97,7 @@ El estado **[!UICONTROL Pending]** puede significar en primer lugar que la entre
 
 Si la entrega no se realiza y su estado sigue siendo **[!UICONTROL Pending]**, puede deberse a uno de los siguientes motivos:
 
-* Puede que el MTA (Agente de Transferencia de Mensajes), que ejecuta módulos y procesos en el servidor de entrega y que administra la entrega por correo electrónico, no se haya iniciado o que sea necesario reiniciarlo.
+* Puede que el MTA (Agente de transferencia de mensajes), que ejecuta módulos y procesos en el servidor de entrega y que administra el envío por correo electrónico, no se haya iniciado o que sea necesario reiniciarlo.
 
    Para comprobar esto e iniciar el módulo si es necesario, aplique los siguientes pasos:
 

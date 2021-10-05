@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -149,7 +149,7 @@ Para crear este ejemplo, aplique los pasos siguientes:
 
 La transición saliente contiene destinatarios que no han abierto un correo electrónico en los últimos 7 días.
 
-Si, por el contrario, se desea filtrar los destinatarios que hayan abierto al menos un correo electrónico, la consulta debe ser la siguiente: Tenga en cuenta que, en este caso, **[!UICONTROL Filtering dimension]** se debe configurar en **[!UICONTROL Tracking logs (Recipients)]**.
+Si, por el contrario, se desea filtrar los destinatarios que hayan abierto al menos un correo electrónico, la consulta debe ser la siguiente: Tenga en cuenta que, en este caso, el **[!UICONTROL Filtering dimension]** debe establecerse en **[!UICONTROL Tracking logs (Recipients)]**.
 
 ![](assets/query_open_5.png)
 

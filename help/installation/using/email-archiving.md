@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
-source-git-commit: dccf72b200cad9ba160a496cdd13ba39c5599008
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '1305'
 ht-degree: 3%
@@ -140,7 +140,7 @@ Una vez configurado el correo electrónico BCC, asegúrese de seleccionar la opc
 ## Prácticas recomendadas de Email BCC {#best-practices}
 
 * **Buzón** de direcciones CCO: asegúrese de que tiene suficiente capacidad de recepción para archivar todos los correos electrónicos que envía el MTA.
-* **mutualización de MTA**: la función de archivado de BCC funciona en el nivel de MTA. Permite duplicar todos los correos electrónicos enviados por el MTA. Como el MTA se puede mutualizar en varias instancias (dev, test o prod, por ejemplo) o incluso en varios clientes (en un entorno de mid-sourcing), la configuración de esta función afecta a la seguridad:
+* **Agrupación de MTA**: la función de archivado de BCC funciona en el nivel de MTA. Permite duplicar todos los correos electrónicos enviados por el MTA. Como el MTA se puede agrupar en varias instancias (dev, test o prod, por ejemplo) o incluso en varios clientes (en un entorno de mid-sourcing), la configuración de esta función afecta a la seguridad:
 
    * Si comparte un MTA con varios clientes y uno de ellos tiene esta opción activada, este cliente accederá a todos los correos electrónicos de los demás clientes que comparten el mismo MTA. Para evitar esta situación, utilice un MTA diferente para cada cliente.
    * Si utiliza el mismo MTA en varias instancias (desarrollo, prueba, prod) para un único cliente, la opción dataLogPath duplicará los mensajes enviados desde las tres instancias.

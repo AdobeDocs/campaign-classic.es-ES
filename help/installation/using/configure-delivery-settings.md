@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2968d8db-2b4b-48e6-a22e-daba5ffe0576
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 5%
@@ -45,7 +45,7 @@ En este caso, estos parámetros se establecen configurando el servidor SMTP en l
 
 >[!IMPORTANT]
 >
->Este modo operativo implica serias limitaciones en las entregas, ya que puede reducir en gran medida el rendimiento debido al rendimiento intrínseco del servidor de transmisión (latencia, bandwith...). Además, la capacidad para clasificar los errores de envío sincrónico (detectados mediante el análisis del tráfico SMTP) será limitada y el envío no será posible si el servidor de transmisión no está disponible.
+>Este modo operativo implica serias limitaciones en los envíos, ya que puede reducir en gran medida el rendimiento debido al rendimiento intrínseco del servidor de transmisión (latencia, ancho de banda...). Además, la capacidad para clasificar los errores de envío sincrónico (detectados mediante el análisis del tráfico SMTP) será limitada y el envío no será posible si el servidor de transmisión no está disponible.
 
 ## Procesos secundarios de MTA {#mta-child-processes}
 

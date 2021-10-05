@@ -6,10 +6,10 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: c1eccb48-59bf-412f-9c18-9cda2a022096
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -49,7 +49,7 @@ El editor de contenido es compatible con el formato HTML: se puede volver a camb
 La función de importación del editor de contenido funciona de la siguiente manera con los siguientes formatos compatibles:
 
 * CSS: las imágenes presentes en el archivo .zip no se importan. Las referencias a estas imágenes en CSS no se actualizan.
-* JS: las imágenes presentes en el archivo .zip no se importan. No se actualizan las referencias a estas imágenes en JS.
+* JS: las imágenes presentes en el archivo .zip no se importan. Las referencias a estas imágenes en JS no se actualizan.
 * Iframe: las páginas vinculadas no se importan.
 * Páginas de destino y aplicaciones web: si falta una etiqueta **form**, aparece una advertencia. En el cuerpo del mensaje siempre debe estar presente `<form> </form>`.
 

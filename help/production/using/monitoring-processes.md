@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '3606'
 ht-degree: 1%
@@ -257,6 +257,7 @@ Se agrupan en **Monitoring** > &#39;SMTP Monitoring&#39;.
 >
 >* La información relacionada con la supervisión SMTP solo está disponible si se ha activado el canal de correo electrónico.
 >* Los **[!UICONTROL SMTP sending statistics]** solo se ofrecen si el servidor de estadísticas se inicia en la instancia.
+
 >
 
 
@@ -269,7 +270,7 @@ El informe **[!UICONTROL SMTP sending statistics]** permite controlar la activid
 La lista de indicadores para este informe se muestra debajo del gráfico.
 
 1. Número total de mensajes enviados.
-1. &#x200B;
+1. 
    * Línea azul: mensajes listos para enviar que llegaron al compartidor, es decir, el último paso antes de enviar SMTP (coincide con los datos entrantes).
 
    * Línea verde: mensajes enviados correctamente (coincide con los datos salientes).
@@ -344,7 +345,7 @@ El flujo de trabajo técnico se encuentra en una subcarpeta del nodo siguiente: 
 
 ![](assets/billing.png)
 
-Una vez que se inicie el flujo de trabajo cada 25 días del mes, el operador de facturación recibirá el siguiente informe en su bandeja de entrada.
+Una vez que el flujo de trabajo se inicie cada 25 del mes, el operador de facturación recibirá el siguiente informe en su bandeja de entrada.
 
 ![](assets/billing_2.png)
 
@@ -604,7 +605,7 @@ Este elemento configura la supervisión de un servidor determinado en el host, e
 
 * **tcp**: comprueba si el servidor está activo o inactivo. Debe introducir un número de puerto.
 * **http**: comprueba que existe el servidor web (el servidor de aplicaciones está operativo).
-* **ncs**: comprueba los procesos de la instancia introducida en el atributo &quot;instancia&quot; (errores de flujo de trabajo, uso de memoria, etc.). El atributo **include** (obligatorio) le da la opción de mostrar los procesos muertos (&quot;true&quot; o &quot;false&quot; valores).
+* **ncs**: comprueba los procesos de la instancia introducida en el atributo &quot;instancia&quot; (errores de flujo de trabajo, uso de memoria, etc.). El atributo **included** (obligatorio) le da la opción de mostrar los procesos muertos (&quot;true&quot; o &quot;false&quot; valores).
 * **redir**: comprueba el seguimiento.
 
 En la mayoría de los casos, solo se pueden conservar los subelementos **ncs** y **redir**.

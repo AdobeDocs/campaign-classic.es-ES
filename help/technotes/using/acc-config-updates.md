@@ -1,14 +1,12 @@
 ---
 product: campaign
-title: Nota técnica
-description: Nota técnica
-hide: true
-hidefromtoc: true
+title: 'Nota técnica: Actualizaciones de configuración de Adobe Campaign'
+description: Actualizaciones de configuración de Adobe Campaign
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: b458ac67733a2f0e508df729add37d9a78dbcbd8
+source-git-commit: 0c97efef21bfd3b8671847c3e1c27bb76cf167e4
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 17%
+source-wordcount: '1137'
+ht-degree: 18%
 
 ---
 
@@ -72,7 +70,7 @@ Las **ahora disponibles** versiones de la consola que se muestran a continuació
 
 El servicio de identidad de Adobe (IMS) dejará de admitir versiones antiguas de Internet Explorer a partir del **30 de junio de 2021**. [Más información](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html).
 
-Se requiere una actualización de la consola del cliente de Campaign para garantizar la compatibilidad con IMS de Adobe.
+Se requiere una actualización de la consola del cliente de Campaign para garantizar la compatibilidad con Adobe IMS.
 
 **¿Se ha visto afectado?**
 
@@ -103,7 +101,7 @@ Una vez actualizadas todas las instancias, la consola de cliente también debe a
 
 ## Integración con Déclencheur de Experience Cloud {#acc-triggers-updates}
 
-El servicio de autenticación oAuth heredado ha llegado al final de su vida útil. La autenticación de integración de déclencheur, basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización, se ha trasladado a Adobe I/O. El modo de autenticación oAuth heredado con Campaign [se ha eliminado](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411) el **18 de agosto de 2021**. Los entornos alojados se benefician de una extensión hasta **30 de noviembre de 2021**. Como cliente local o híbrido, póngase en contacto con el servicio de atención al cliente de Adobe para ampliar la asistencia hasta el 30 de noviembre de 2021. Debe proporcionar [el AppID de la aplicación OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) al Adobe.
+El servicio de autenticación oAuth heredado ha llegado al final de su vida útil. La autenticación de integración de déclencheur, basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización, se ha trasladado a Adobe I/O. El modo de autenticación oAuth heredado con Campaign [se ha retirado](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=es) el **septiembre de 2021**. Los entornos alojados se benefician de una extensión hasta **23 de febrero de 2022**. Como cliente local o híbrido, póngase en contacto con el servicio de atención al cliente de Adobe para ampliar la asistencia hasta febrero de 2022. Debe proporcionar [el AppID de la aplicación OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) a Adobe.
 
 **¿Se ha visto afectado?**
 

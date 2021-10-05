@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '2016'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Esta sección presenta información sobre cómo monitorizar la ejecución de los
 
 En [esta sección](supervising-workflows.md#supervising-workflows) está disponible un caso de uso que detalla la creación de un flujo de trabajo que permite monitorizar el estado de un conjunto de flujos de trabajo que están “en pausa”, “detenidos” o “con errores”.
 
-Además, los administradores de la instancia pueden utilizar **Audit trail** para comprobar las actividades y las últimas modificaciones realizadas en los flujos de trabajo, el estado de los mismos. Para obtener más información, consulte la [Guía de producción de Campaign Classic v7](../../production/using/audit-trail.md).
+Además, los administradores de la instancia pueden utilizar **Audit track** para comprobar las actividades y las últimas modificaciones realizadas en los flujos de trabajo, el estado de los mismos. Para obtener más información, consulte la [Guía de producción de Campaign Classic v7](../../production/using/audit-trail.md).
 
 En la [Guía de producción de Campaign Classic v7](../../production/using/monitoring-guidelines.md) se presentan formas adicionales de monitorizar los diferentes procesos de Campaign.
 
@@ -246,7 +246,7 @@ De forma predeterminada, si un flujo de trabajo está en pausa, sus tablas de tr
 
 * Los flujos de trabajo que llevan en pausa durante más de 7 días aparecen como advertencia en el panel de monitorización (y la API de monitorización) y se envía una notificación al grupo del supervisor.
 * Lo mismo ocurre cada semana, cuando se activa el flujo de trabajo técnico **[!UICONTROL cleanupPausedWorkflows]**. Para obtener más información sobre los flujos de trabajo, consulte [esta sección](delivery.md).
-* Después de 4 notificaciones (es decir, un mes en estado pausado, de forma predeterminada), el flujo de trabajo se detiene incondicionalmente. Aparece un “log” en el flujo de trabajo una vez que se ha detenido. Las tablas se depuran en el siguiente flujo de trabajo de ejecución **[!UICONTROL cleanup]**.
+* Después de 4 notificaciones (es decir, un mes en estado pausado de forma predeterminada), el flujo de trabajo se detiene incondicionalmente. Aparece un “log” en el flujo de trabajo una vez que se ha detenido. Las tablas se depuran en el siguiente flujo de trabajo de ejecución **[!UICONTROL cleanup]**.
 
 Estos periodos se pueden configurar mediante la opción NmsServer_PausedWorkflowPeriod.
 

@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 6%
@@ -54,7 +54,7 @@ Las ventajas de utilizar la tabla de destinatarios integrada son las siguientes:
 * Uso de funcionalidades integradas como suscripciones, listas de semilla, etc.
 * Proporcionar una base de datos de marketing con un modelo de datos centrado en el destinatario.
 * Implementación más rápida.
-* Fácil mantenimiento por parte del apoyo y los socios.
+* Fácil mantenimiento por parte del personal de soporte y los socios.
 
 Sin embargo, es posible ampliar la tabla Destinatario, pero no reducir el número de campos o vínculos en la tabla.
 

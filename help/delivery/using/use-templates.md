@@ -5,10 +5,10 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -50,7 +50,7 @@ Para configurar direcciones en la interfaz de Campaign, siga los pasos a continu
 
 1. En el campo **[!UICONTROL From]**, utilice un nombre fácilmente identificable por los destinatarios, como el nombre de su marca, para aumentar la velocidad de apertura de sus envíos. Para mejorar aún más la experiencia del destinatario, puede agregar el nombre de una persona como, por ejemplo, &quot;Emma de Megastore&quot;.
 
-1. En los campos **[!UICONTROL Reply address text]**, la dirección del remitente se utiliza de forma predeterminada para las respuestas. Sin embargo, Adobe recomienda utilizar una dirección real existente, como el servicio de atención al cliente de su marca. En este caso, si un destinatario envía una respuesta, el servicio de atención al cliente podrá atenderla.
+1. En los campos **[!UICONTROL Reply address text]** , la dirección del remitente se utiliza de forma predeterminada para las respuestas. Sin embargo, Adobe recomienda utilizar una dirección real existente, como el servicio de atención al cliente de su marca. En este caso, si un destinatario envía una respuesta, el servicio de atención al cliente podrá atenderla.
 
 ### Configuración de un grupo de control
 

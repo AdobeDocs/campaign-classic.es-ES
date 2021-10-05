@@ -9,8 +9,8 @@ index: y
 internal: n
 snippet: y
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 100%
 
@@ -120,7 +120,7 @@ Para configurar la versión de la API HTTP v1, siga los pasos a continuación:
 
 1. En la ventana **[!UICONTROL Mobile application creation wizard]**, seleccione **[!UICONTROL HTTPV1]** en la lista desplegable **[!UICONTROL API version]**.
 
-1. Haga clic en **[!UICONTROL Load project json file to extract projet details...]** para cargar directamente el archivo con clave JSON. Para obtener más información sobre cómo extraer el archivo JSON, consulte [esta página](https://firebase.google.com/docs/admin/setup#initialize-sdk).
+1. Haga clic en **[!UICONTROL Load project json file to extract project details...]** para cargar directamente el archivo con clave JSON. Para obtener más información sobre cómo extraer el archivo JSON, consulte [esta página](https://firebase.google.com/docs/admin/setup#initialize-sdk).
 
    También puede introducir manualmente los siguientes detalles:
    * **[!UICONTROL Project Id]**
@@ -171,7 +171,7 @@ A continuación se muestran los nombres de carga útil de FCM para personalizar 
 
 | Tipo de mensaje | Elemento de mensaje configurable (nombre de carga útil de FCM) | Opciones configurables (nombre de carga útil de FCM) |
 |:-:|:-:|:-:|
-| mensaje de datos | N/A | dryRun |
+| mensaje de datos | N/D | dryRun |
 | mensaje de notificación | title, body, android_channel_id, icon, sound, tag, color, click_action <br> | dryRun |
 
 <br>

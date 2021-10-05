@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 5%
@@ -30,7 +30,7 @@ Las API de Adobe Campaign se utilizan en JavaScript dentro de la aplicación y e
 
 ## Requisitos previos {#prerequisites}
 
-Antes de usar las API de Adobe Campaign, debe conocer los siguientes temas:
+Antes de usar las API de Adobe Campaign, debe estar familiarizado con los siguientes temas:
 
 * Javascript
 * Protocolo SOAP
@@ -40,7 +40,7 @@ Antes de usar las API de Adobe Campaign, debe conocer los siguientes temas:
 
 Adobe Campaign utiliza dos tipos de API:
 
-* API de acceso de datos genéricas para consultar los datos del modelo de datos. Consulte [API orientadas a datos](../../configuration/using/data-oriented-apis.md).
+* API de acceso a datos genéricas para consultar los datos del modelo de datos. Consulte [API orientadas a datos](../../configuration/using/data-oriented-apis.md).
 * API específicas del negocio que le permiten actuar en cada objeto: envíos, flujos de trabajo, suscripciones, etc. Consulte [API orientadas al negocio](../../configuration/using/business-oriented-apis.md).
 
 Para desarrollar API e interactuar con Adobe Campaign, debe estar familiarizado con su modelo de datos. Adobe Campaign permite generar una descripción completa de la base. Consulte [Descripción del modelo](../../configuration/using/data-oriented-apis.md#description-of-the-model).
@@ -117,7 +117,7 @@ En SOAP, los parámetros se reconocen por orden de aspecto. El primer parámetro
 
 El resultado de la consulta se introduce desde el elemento `<pdomoutput>` .
 
-## Gestión de errores {#error-management}
+## Administración de errores {#error-management}
 
 Ejemplo de respuesta de error SOAP:
 

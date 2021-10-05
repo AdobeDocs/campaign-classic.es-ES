@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+source-git-commit: 4661a65c83f3b9b7da9ea902f387155c5933e59f
 workflow-type: tm+mt
 source-wordcount: '3023'
 ht-degree: 20%
@@ -119,7 +119,7 @@ Comience definiendo la base de datos de Adobe Campaign que alojará la configura
 
 ### Iniciar configuración {#start-configuration}
 
-De forma predeterminada, el módulo **stat** se inicia para cada instancia. Cuando las instancias se mutualizan en el mismo equipo o cuando las instancias comparten la misma dirección IP, se utiliza un único servidor de estadísticas: los demás tienen que ser discapacitados.
+De forma predeterminada, el módulo **stat** se inicia para cada instancia. Cuando las instancias se agrupan en el mismo equipo o cuando las instancias comparten la misma dirección IP, se utiliza un único servidor de estadísticas: los demás tienen que ser discapacitados.
 
 ### Definición del puerto del servidor {#definition-of-the-server-port}
 

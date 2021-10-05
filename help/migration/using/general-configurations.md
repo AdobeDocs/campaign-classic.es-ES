@@ -6,9 +6,9 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: eef2a12738ce299686857720c3dc8456ffdd0c80
 workflow-type: tm+mt
-source-wordcount: '2784'
+source-wordcount: '2664'
 ht-degree: 0%
 
 ---
@@ -620,7 +620,7 @@ Todos los informes estándar utilizan actualmente el motor de renderización v6.
 
 ![](assets/migration_reports_1.png)
 -->
-Si desea beneficiarse de las nuevas funcionalidades del informe, debe volver a publicar los informes. Para ello, edite el informe **[!UICONTROL Properties]**, haga clic en **[!UICONTROL Rendering]** y seleccione el motor de renderización v.6.x. En este caso, compruebe todos los scripts y cámbielos si es necesario. Con respecto a la exportación a PDF, si ha añadido una secuencia de comandos específica para Open Office, esto ya no funcionará con el nuevo motor de exportación a PDF (PhantomJS).
+Si desea beneficiarse de las nuevas funcionalidades del informe, debe volver a publicar los informes. En este caso, compruebe todos los scripts y cámbielos si es necesario. Con respecto a la exportación a PDF, si ha añadido una secuencia de comandos específica para Open Office, esto ya no funcionará con el nuevo motor de exportación a PDF (PhantomJS).
 
 ## Aplicaciones web {#web-applications}
 
@@ -631,10 +631,7 @@ Hay dos familias de aplicaciones web:
 
 ### Aplicaciones web identificadas {#identified-web-applications}
 
-Al igual que para los informes ([más información](#reports)), si ha añadido JavaScript, debe comprobar y adaptar si es necesario. Si desea beneficiarse del banner azul v7 (que contiene las pestañas azules), debe volver a publicar la aplicación web. Si el código JavaScript está funcionando, puede seleccionar el motor de renderización v6.x. Si no es así, puede utilizar el motor de renderización v6.0 mientras adapta su código y, a continuación, utilizar el motor de renderización v6.x.
-
->[!NOTE]
-Los pasos para seleccionar el motor de renderización son los mismos que para seleccionar informes. Consulte [Informes personalizados](#personalized-reports).
+Al igual que para los informes ([más información](#reports)), si ha añadido JavaScript, debe comprobar y adaptar si es necesario. Si desea beneficiarse del banner azul v7 (que contiene las pestañas azules), debe volver a publicar la aplicación web.
 
 Los métodos de conexión de la aplicación web han cambiado en la versión 7. Si encuentra algún problema de conexión en sus aplicaciones web identificadas, debe activar temporalmente las opciones **allowUserPassword** y **sessionTokenOnly** en el archivo **serverConf.xml**. Después de la actualización, modifique estos valores de opción:
 
@@ -664,10 +661,7 @@ sessionTokenOnly="false"
 
 ### Aplicaciones web anónimas {#anonymous-web-applications}
 
-Si tiene algún problema, vuelva a publicar la aplicación web. Si el problema persiste, puede seleccionar el motor de renderización v6.0. Si no ha añadido JavaScript, puede seleccionar el motor de renderización v6.x y beneficiarse de sus nuevas funciones.
-
->[!NOTE]
-Los pasos para seleccionar el motor de renderización son los mismos que para seleccionar informes. Consulte [Informes personalizados](#personalized-reports).
+Si tiene algún problema, vuelva a publicar la aplicación web.
 
 ## Red-Hat {#red-hat}
 

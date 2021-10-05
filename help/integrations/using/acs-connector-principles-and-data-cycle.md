@@ -6,8 +6,8 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
-source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 100%
 
@@ -149,7 +149,7 @@ Los siguientes flujos de trabajo de duplicación están disponibles como plantil
 * **[!UICONTROL `[ACS] Service replication`]** (newServiceReplication): este flujo de trabajo incremental duplica los servicios seleccionados a Campaign Standard. Consulte el caso de uso [Sincronización de aplicaciones web](../../integrations/using/synchronizing-web-applications.md).
 * **[!UICONTROL `[ACS] Landing pages replication`]** (newLandingPageReplication): este flujo de trabajo incremental duplica las aplicaciones web seleccionadas en Campaign Standard. Las aplicaciones web de Campaign v7 aparecen como páginas de destino en Campaign Standard. Consulte el caso de uso [Sincronización de aplicaciones web](../../integrations/using/synchronizing-web-applications.md).
 * **[!UICONTROL `[ACS] New replication`]** (newReplication): este flujo de trabajo incremental es un ejemplo que puede utilizarse para duplicar una tabla personalizada. Consulte [Implementación avanzada](#advanced-implementation).
-* **[!UICONTROL `[ACS] Delivery-mesage replication`]** (newDlvMsgQualification): este flujo de trabajo incremental duplica los mensajes de entrega de Campaign Standard a Campaign v7.
+* **[!UICONTROL `[ACS] Delivery-message replication`]** (newDlvMsgQualification): este flujo de trabajo incremental duplica los mensajes de entrega de Campaign Standard a Campaign v7.
 * **[!UICONTROL `[ACS] Profile delivery log replication`]** (newRcpDeliveryLogReplication): este flujo de trabajo incremental duplica las ID de entrega, los “broadlogs” de correo electrónico y los “logs” de seguimiento de correo electrónico desde Campaign Standard hasta Campaign v7. Solo tiene en cuenta las entregas de cuentas realizados desde Campaign Standard a los perfiles que forman parte de la tabla nms:recipients en Campaign v7.
 * **[!UICONTROL `[ACS] New delivery log replication`]** (newRcpDeliveryLogReplication): este flujo de trabajo incremental duplica las ID de entrega, los “broadlogs” de correo electrónico y los “logs” de seguimiento de correo electrónico desde Campaign Standard hasta Campaign v7. Solo tiene en cuenta las entregas de cuentas realizados desde Campaign Standard hacia los perfiles que forman parte de una tabla específica (para definir, que no sea nms:recipients) de Campaign v7.
 

@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: introduction
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 27%
@@ -21,7 +21,7 @@ ht-degree: 27%
 
 La pestaña **[!UICONTROL Monitoring]**, a la que se puede acceder desde la página de inicio del Campaign Classic, es el principal punto de entrada para ayudarle a supervisar la instancia.
 
-Proporciona un tablero de lo que está sucediendo en la instancia: su estado (versión de compilación, paquetes instalados, etc.), indicadores del sistema, registros, flujos de trabajo que se están ejecutando actualmente, estado de los últimos envíos enviados, etc.
+Proporciona un tablero de lo que está ocurriendo en la instancia: su estado (versión de compilación, paquetes instalados, etc.), indicadores del sistema, registros, flujos de trabajo que se están ejecutando actualmente, estado de los últimos envíos enviados, etc.
 
 Encontrará información detallada [aquí](../../production/using/monitoring-processes.md).
 
@@ -31,7 +31,7 @@ Encontrará información detallada [aquí](../../production/using/monitoring-pro
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">Supervisión de la instancia</a></p></td>
-<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">Monitorización de flujos de trabajo</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#monitoring-workflows">Monitorización de flujos de trabajo</a></p></td>
 <td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">Supervise los envíos</a></p></td>
 <td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">Supervisión de la base de datos</a></p></td></tr>
 </table>

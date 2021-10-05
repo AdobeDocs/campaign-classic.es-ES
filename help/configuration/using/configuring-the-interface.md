@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 4%
@@ -39,7 +39,7 @@ La creación de un nuevo formulario permite ver y editar los datos de la tabla d
 
 1. Vaya al nodo **Administration > Configuration > Input forms** del explorador.
 1. Cree un nuevo archivo **xtk:form** de tipo **form**.
-1. Describa todas las monitorizaciones y campos que necesite según la plantilla de tabla.
+1. Describa todos los campos de monitorización y que necesite según la plantilla de tabla.
 
    >[!NOTE]
    >
@@ -66,7 +66,7 @@ La creación de un nuevo formulario permite ver y editar los datos de la tabla d
 
 1. Vaya al nodo **[!UICONTROL Administration>Configuration>Navigation hierarchies]**.
 1. Cree un nuevo documento de tipo **xtk:navtree** **navtree**.
-1. Describa todas las monitorizaciones y campos que necesite según la plantilla de tabla.
+1. Describa todos los campos de monitorización y que necesite según la plantilla de tabla.
 
    >[!NOTE]
    >

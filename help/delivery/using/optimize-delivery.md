@@ -5,10 +5,10 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '729'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ Varios factores pueden afectar directamente al rendimiento del servidor y ralent
 
 * Ejecución del flujo de trabajo: La monitorización de sus flujos de trabajo es esencial para evitar problemas de rendimiento de la plataforma. Siga las directrices enumeradas [en este documento](../../workflow/using/workflow-best-practices.md#execution-and-performance).
 
-* Como cliente elegible, puede aprovechar las [funciones del Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es) para monitorizar su plataforma mediante funciones de [monitorización del rendimiento](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es).
+* Si es elegible, puede aprovechar las [funcionalidades de Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es) para monitorizar la plataforma mediante las funcionalidades de [monitorización del rendimiento](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es).
 
 ## Comprobación de la configuración de red {#network-config}
 

@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
-source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+source-git-commit: 4661a65c83f3b9b7da9ea902f387155c5933e59f
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 12%

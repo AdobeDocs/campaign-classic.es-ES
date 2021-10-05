@@ -5,10 +5,9 @@ description: Obtenga información sobre cómo actualizar la calificación de dev
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: cee019432c64eaaefac86a27b731355242fd1555
+workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
 

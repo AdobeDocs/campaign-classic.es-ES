@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: c9d427da-6965-4945-90f0-d0770701d55e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 2%
@@ -49,7 +49,7 @@ Los archivos de registro de instancia única se enumeran en la siguiente tabla:
 | wfserver.log | Registros del módulo del servidor de flujo de trabajo |
 | runwf.log | Registros de ejecución del flujo de trabajo |
 | inMail.log | Registro del módulo de correo rechazado |
-| logins.log | Registra todos los intentos de inicio de sesión en Adobe Campaign (exitosos o no) |
+| logins.log | Registra todos los intentos de inicio de sesión en Adobe Campaign (éxito o no) |
 
 >[!IMPORTANT]
 >

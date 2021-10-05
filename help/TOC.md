@@ -6,10 +6,10 @@ title: Guía de Campaign Classic v7
 user-guide-description: Con Adobe Campaign, puede utilizar datos de clientes enriquecidos para crear, coordinar y ofrecer campañas dinámicas que los clientes realmente deseen mediante correo electrónico, canales móviles, sin conexión y mucho más.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 089ade04a7324f8052738f18b34c09b429275c00
+source-git-commit: 23c5892189c59008f82ec453c97d24efe82fd2ae
 workflow-type: tm+mt
-source-wordcount: '2567'
-ht-degree: 98%
+source-wordcount: '2566'
+ht-degree: 97%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 98%
          + [Introducción a los conectores CRM](platform/using/crm-connectors.md)
          + [Conexión con Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
          + [Conexión con Salesforce.com](platform/using/crm-sfdc.md)
-         + [Sincronización de datos con CRM](platform/using/crm-data-sync.md)
+         + [Sincronizar datos con CRM](platform/using/crm-data-sync.md)
       + Conector de Adobe Analytics{#analytics-connector}
          + [Aprovisionamiento de conectores de Adobe Analytics](platform/using/adobe-analytics-provisioning.md)
          + [Integración del conector de Adobe Analytics](platform/using/adobe-analytics-connector.md)
@@ -213,7 +213,6 @@ ht-degree: 98%
       + [Solución de problemas de entrega](delivery/using/delivery-troubleshooting.md)
       + [Estados de entrega](delivery/using/delivery-statuses.md)
       + [Comprensión de los errores de entrega](delivery/using/understanding-delivery-failures.md)
-      + [Actualización de la calificación de devoluciones después de una interrupción del ISP](delivery/using/update-bounce-qualification.md)
       + [Comprensión de la administración de cuarentenas](delivery/using/understanding-quarantine-management.md)
    + Seguimiento de mensajes {#tracking-messages}
       + [Acerca del seguimiento de mensajes](delivery/using/about-message-tracking.md)
@@ -852,6 +851,7 @@ ht-degree: 98%
    + Correos electrónicos y notificaciones push{#technotes-email}
       + [Protección de privacidad de correo en Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
       + [Preguntas frecuentes sobre la protección de la privacidad de Apple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)
+      + [Actualización de rechazos graves incorrectos](delivery/using/update-bounce-qualification.md)
       + [Actualización de certificados de iOS](technotes/using/ios-certificate-update.md)
       + [Actualización de direcciones URL rastreadas](technotes/using/tracked-urls.md)
    + Migración a Adobe Managed Services{#dc-migration}

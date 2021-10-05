@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Este caso de uso detalla la creación de un flujo de trabajo que permite administrar las actualizaciones integradas cuando se utilizan varias ejecuciones de un flujo de trabajo.
+Este caso de uso detalla la creación de un flujo de trabajo que permite administrar las actualizaciones concomitantes al utilizar varias ejecuciones de un flujo de trabajo.
 
 El objetivo es comprobar que el proceso de actualización ha finalizado antes de ejecutar otra operación de actualización. Para ello, se configura una variable de instancia y se deja que el flujo de trabajo pruebe si la instancia se está ejecutando para decidir si continuar o no con la ejecución del flujo de trabajo y realizar la actualización.
 
