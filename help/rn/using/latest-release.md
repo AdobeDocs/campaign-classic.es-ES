@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 12b191ffe3d407f1a69393278a7678a14e53d23e
+source-git-commit: 31ff1863623c088d28d9e4d15337bbc7a9843171
 workflow-type: tm+mt
-source-wordcount: '2403'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,19 @@ Esta página lista las nuevas funcionalidades, mejoras y correcciones que se pro
 
 Descubra los estados de compilación de Campaign en [esta página](rn-overview.md).
 
-## ![](assets/do-not-localize/green_2.png) Versión 21.1.4, compilación 9342 {#release-21-1-4-build-9342}
+
+## ![](assets/do-not-localize/green_2.png) Versión 21.1.4, compilación 9343 {#release-21-1-4-build-9343}
+
+_8 de octubre de 2021_
+
+**Parches**
+
+* Se ha corregido un problema que podía impedir que las propuestas de ofertas se guardaran al usar el módulo **Interaction** con la opción [Power Booster](../../installation/using/power-booster-and-power-cluster.md). (NEO-39263)
+
+* Se ha corregido el error &quot;La ipaffinity xxx no se encuentra en el servidor mid xxx&quot;, que podría ocurrir al usar más de una afinidad IP en la instancia intermediaria. (NEO-37514)
+
+
+## ![](assets/do-not-localize/orange_2.png) Versión 21.1.4, compilación 9342 {#release-21-1-4-build-9342}
 
 _7 de septiembre de 2021_
 
