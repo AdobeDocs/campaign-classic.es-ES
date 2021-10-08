@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 31ff1863623c088d28d9e4d15337bbc7a9843171
+source-git-commit: ebd5b04c30c54142433056904a5d80f5a8744ded
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2459'
+ht-degree: 97%
 
 ---
 
@@ -28,9 +28,9 @@ _8 de octubre de 2021_
 
 **Parches**
 
-* Se ha corregido un problema que podía impedir que las propuestas de ofertas se guardaran al usar el módulo **Interaction** con la opción [Power Booster](../../installation/using/power-booster-and-power-cluster.md). (NEO-39263)
+* Se ha corregido un problema que podía impedir la administración de ofertas adecuada al usar el módulo **Interaction** con la opción [Power Booster](../../installation/using/power-booster-and-power-cluster.md). (NEO-39263)
 
-* Se ha corregido el error &quot;La ipaffinity xxx no se encuentra en el servidor mid xxx&quot;, que podría ocurrir al usar más de una afinidad IP en la instancia intermediaria. (NEO-37514)
+* Se ha corregido un error &quot;La ipaffinity xxx no se encuentra en el servidor mid xxx&quot; que podría producirse al realizar envíos al usar más de una afinidad IP en una instancia de intermediario múltiple. (NEO-37514)
 
 
 ## ![](assets/do-not-localize/orange_2.png) Versión 21.1.4, compilación 9342 {#release-21-1-4-build-9342}
