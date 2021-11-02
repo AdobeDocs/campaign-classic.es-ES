@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: tracking-messages
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '582'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ El seguimiento de mensajes está activado de forma predeterminada. Para personal
    Para cada URL individual, puede definir el modo de seguimiento en uno de estos valores:
 
    * **[!UICONTROL Enabled]**: activa el seguimiento en esta dirección URL.
-   * **[!UICONTROL Not tracked]** : desactiva el seguimiento en esta dirección URL.
+   * **[!UICONTROL Not tracked]**: desactiva el seguimiento en esta dirección URL.
    * **[!UICONTROL Always enabled]**: siempre activa el seguimiento de esta dirección URL. Esta información se guarda de manera que la próxima vez, si la URL aparece de nuevo en el contenido de un mensaje futuro, el seguimiento se activa automáticamente.
    * **[!UICONTROL Never tracked]**: nunca activa el seguimiento de esta dirección URL. Esta información se guarda de manera que la próxima vez, si la URL aparece de nuevo en un mensaje futuro, su seguimiento se desactiva automáticamente.
    * **[!UICONTROL Opt-out]**: considera esta URL como una URL de exclusión o de baja.
