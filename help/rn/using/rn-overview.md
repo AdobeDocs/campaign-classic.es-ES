@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 source-git-commit: b3a3ec871bca9132f10b319ba1f93aeda80d6747
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Las **últimas versiones de GA** son: [[!DNL Gold Standard]  11](../../rn/using/
 
 ![](assets/do-not-localize/blue3.png) **Versión Candidate** (RC): la última versión con nuevas funcionalidades.
 
-![](assets/do-not-localize/orange3.png) **Ya no está disponible** : sin implementación. No se ha corregido ningún error. Se recomienda actualizar a una versión más reciente.
+![](assets/do-not-localize/orange3.png) **Ya no está disponible**: sin implementación. No se ha corregido ningún error. Se recomienda actualizar a una versión más reciente.
 
 ![](assets/do-not-localize/red3.png) **Obsoleto**: sin implementación. No se ha corregido ningún error. Se deben actualizar las implementaciones existentes.
 
