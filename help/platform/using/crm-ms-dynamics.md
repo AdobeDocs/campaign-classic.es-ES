@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1091'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Para obtener el ID de cliente, debe registrar una aplicación en Azure Active Di
 
 Una vez guardado, obtendrá un **ID de aplicación** que es el identificador de cliente para Campaign.
 
-Obtenga más información en [esta página](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory).
+Obtenga más información en [esta página](https://docs.microsoft.com/es-es/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory).
 
 ### Genere el identificador de clave de certificado de Microsoft Dynamics e ID de clave {#config-certificate-key-id}
 
@@ -115,7 +115,7 @@ El **Identificador de clave de certificado (customKeyIdentifier)** y el **ID de 
 
 1. Haga clic en **Conceder consentimiento de administrador**.
 
-Para obtener más información, consulte [Documentación de Azure](https://docs.microsoft.com/azure/active-directory/manage-apps/grant-admin-consent#grant-admin-consent-from-the-azure-portal).
+Para obtener más información, consulte [Documentación de Azure](https://docs.microsoft.com/es-es/azure/active-directory/manage-apps/grant-admin-consent#grant-admin-consent-from-the-azure-portal).
 
 ### Crear un usuario de aplicación {#create-app-user-microsoft}
 
@@ -155,7 +155,7 @@ El usuario de la aplicación es el usuario que usará la aplicación registrada 
 
 >[!NOTE]
 >
-> Tras la retirada del mercado de [RDS de Microsoft](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891%28v=crm.8%29#microsoft-dynamics-crm-2011-endpoint), los tipos de implementaciones de CRM On-Premise y Office 365 ya no son compatibles con Campaign. Adobe Campaign ahora solo admite la implementación de la API web para la versión de CRM **Dynamic CRM 365**. [Más información](../../rn/using/deprecated-features.md#crm-connectors).
+> Tras la retirada del mercado de [RDS de Microsoft](https://docs.microsoft.com/es-es/previous-versions/dynamicscrm-2016/developers-guide/dn281891%28v=crm.8%29#microsoft-dynamics-crm-2011-endpoint), los tipos de implementaciones de CRM On-Premise y Office 365 ya no son compatibles con Campaign. Adobe Campaign ahora solo admite la implementación de la API web para la versión de CRM **Dynamic CRM 365**. [Más información](../../rn/using/deprecated-features.md#crm-connectors).
 
 Para conectar Microsoft Dynamics 365 y Campaign, debe crear y configurar una cuenta **[!UICONTROL External Account]** dedicada en Campaign.
 
@@ -199,7 +199,7 @@ Campaign y Microsoft Dynamics ahora están conectados. Puede configurar la sincr
 
 >[!NOTE]
 >
-> Debe asegurarse de agregar a la lista de permitidos dos direcciones URL: la URL del servidor y `login.microsoftonline.com` en la configuración del servidor.
+> Debe asegurarse de añadir a la lista de permitidos dos direcciones URL: la del servidor y `login.microsoftonline.com` en la configuración del servidor.
 
 ## Tipos de datos de campo admitidos {#ms-dyn-supported-types}
 
