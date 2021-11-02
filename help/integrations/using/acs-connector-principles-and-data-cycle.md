@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: acs-connector
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
 source-git-commit: f007dcbf63d7a69a6d532d0be99b0fa90f4f6d7a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1988'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Este documento presenta las funcionalidades del conector ACS. Las secciones sigu
 
 >[!NOTE]
 >
->El conector ACS se incluye con Campaign v7 en el acuerdo de licencia. Para utilizar el conector ACS, asegúrese de que puede cambiar entre Campaign v7 y Campaign Standard. Si no está seguro de su versión y sus funcionalidades incluidas, póngase en contacto con el administrador.
+>El conector ACS se incluye en Campaign v7 dentro del contrato de licencia. Para utilizar el conector ACS, asegúrese de que puede cambiar entre Campaign v7 y Campaign Standard. Si no está seguro de su versión y sus funcionalidades incluidas, póngase en contacto con el administrador.
 
 ## Proceso {#process}
 
