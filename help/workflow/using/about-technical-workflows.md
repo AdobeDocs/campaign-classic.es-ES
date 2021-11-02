@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: technical-workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
 source-git-commit: f007dcbf63d7a69a6d532d0be99b0fa90f4f6d7a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1714'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## Acerca de los flujos de trabajo técnicos {#overview}
 
-Los flujos de trabajo detallados en esta sección se instalan con los distintos paquetes integrados de Adobe Campaign. Estos paquetes, y los flujos de trabajo técnicos relacionados, dependen del contrato de licencia. Los paquetes integrados se detallan en [esta sección](../../installation/using/installing-campaign-standard-packages.md).
+Los flujos de trabajo detallados en esta sección se instalan con los distintos paquetes integrados de Adobe Campaign. Estos paquetes, y los flujos de trabajo técnicos relacionados, dependen del acuerdo de licencia. Los paquetes integrados se detallan en [esta sección](../../installation/using/installing-campaign-standard-packages.md).
 
 De forma predeterminada, los flujos de trabajo técnicos están disponibles en una subcarpeta del siguiente nodo: **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
 
@@ -80,4 +80,4 @@ Para obtener más información sobre la supervisión de flujos de trabajo técni
 | **Notificación de tareas** (taskMgt) | Recursos de Marketing (MRM) - Solo Campaign v7 | Este flujo de trabajo le permite enviar mensajes de notificación sobre las tareas de las campañas de marketing. |
 | **Seguimiento** (seguimiento) | Envío | Este flujo de trabajo realiza la recuperación y la consolidación de la información de seguimiento. También garantiza que se recalculen las estadísticas de seguimiento y envío, especialmente las utilizadas por los flujos de trabajo de archivado del Centro de mensajes. De forma predeterminada, se activa una vez cada hora. |
 | **Actualizar estado del evento** (updateEventsStatus) | Ejecución de mensaje transaccional (Centro de mensajes - Ejecución) | Este flujo de trabajo permite asignar un estado a un evento. Los estados de eventos son los siguientes:<ul><li>Pendiente: el evento está en cola. Aún no se le ha asociado ninguna plantilla de mensaje.</li><li>Envío pendiente: el evento está en cola, se le ha asociado una plantilla de mensaje y el envío lo está procesando en ese momento.</li><li>Enviado: este estado se copia desde los registros de envío. Significa que el envío se realizó.</li><li>Envío ignorado: este estado se copia desde los registros de envío. Significa que el envío se ha ignorado.</li><li>Error de envío: este estado se copia desde los registros de envío. Significa que el envío ha fallado.</li><li>Evento no cubierto: el evento no se ha podido asociar con una plantilla de mensaje. El evento no se vuelve a procesar.</li></ul> |
-| **Actualización para el envío** (deliverabilityUpdate) | Envío | Una vez instalado el paquete Deliverability monitoring (Email Deliverability) , este flujo de trabajo se ejecuta todas las noches y gestiona las reglas de cualificación de correos electrónicos rechazados, así como la lista de dominios y MX. Esto requiere que el puerto HTTPS esté abierto en la plataforma. |
+| **Actualización para el envío** (deliverabilityUpdate) | Envío | Una vez instalado el paquete de monitorización de la capacidad de entrega (capacidad de entrega por correo electrónico), este flujo de trabajo se ejecuta todas las noches y gestiona las reglas de calificación de correos electrónicos de devolución, así como la lista de dominios y MX. Esto requiere que el puerto HTTPS se abra en la plataforma. |
