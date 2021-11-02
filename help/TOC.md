@@ -7,9 +7,9 @@ user-guide-description: Con Adobe Campaign, puede utilizar datos de clientes enr
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 23c5892189c59008f82ec453c97d24efe82fd2ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2566'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -109,9 +109,9 @@ ht-degree: 97%
          + [Introducción a los conectores CRM](platform/using/crm-connectors.md)
          + [Conexión con Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
          + [Conexión con Salesforce.com](platform/using/crm-sfdc.md)
-         + [Sincronizar datos con CRM](platform/using/crm-data-sync.md)
+         + [Sincronización de datos con el CRM](platform/using/crm-data-sync.md)
       + Conector de Adobe Analytics{#analytics-connector}
-         + [Aprovisionamiento de conectores de Adobe Analytics](platform/using/adobe-analytics-provisioning.md)
+         + [Aprovisionamiento del Conector de Adobe Analytics](platform/using/adobe-analytics-provisioning.md)
          + [Integración del conector de Adobe Analytics](platform/using/adobe-analytics-connector.md)
          + [Migración al conector de Adobe Analytics](technotes/using/aa-connector-migration.md)
          + [Conectores de datos de Adobe Analytics](platform/using/adobe-analytics-data-connector-legacy.md)
@@ -849,10 +849,10 @@ ht-degree: 97%
       + [Actualizaciones de configuración de Campaign](technotes/using/acc-config-updates.md)
       + [Actualizaciones de IMS](technotes/using/ims-updates.md)
    + Correos electrónicos y notificaciones push{#technotes-email}
-      + [Protección de privacidad de correo en Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
-      + [Preguntas frecuentes sobre la protección de la privacidad de Apple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)
+      + [Protección de privacidad de correo electrónico en Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
+      + [Preguntas frecuentes sobre la protección de privacidad de correo de Apple](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=es)
       + [Actualización de rechazos graves incorrectos](delivery/using/update-bounce-qualification.md)
-      + [Actualización de certificados de iOS](technotes/using/ios-certificate-update.md)
+      + [Actualización de certificado de iOS](technotes/using/ios-certificate-update.md)
       + [Actualización de direcciones URL rastreadas](technotes/using/tracked-urls.md)
    + Migración a Adobe Managed Services{#dc-migration}
       + [Migración a la nube pública](technotes/using/dc-migration.md)
