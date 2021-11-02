@@ -7,9 +7,9 @@ role: User, Admin
 level: Beginner
 exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
 source-git-commit: 1f6846f29c44719fdbd334327466619ed265452a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1515'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -133,9 +133,9 @@ Debe configurar sus **[!UICONTROL Conversion variables]** y **[!UICONTROL Succes
 
 1. Haga clic en **[!UICONTROL Save]** cuando termine.
 
-Después de configurar **[!UICONTROL Conversion variables]** y **[!UICONTROL Success events]**, asegúrese de que las variables están incluidas en el **[!UICONTROL Product Profile]** creado para el conector de Analytics. Para obtener más información, consulte [Crear un perfil de producto de Adobe Analytics](../../platform/using/adobe-analytics-provisioning.md#analytics-product-profile).
+Después de configurar **[!UICONTROL Conversion variables]** y **[!UICONTROL Success events]**, asegúrese de que las variables estén incluidas en el **[!UICONTROL Product Profile]** creado para el Conector de Analytics. Para obtener más información, consulte [Creación de un perfil de producto de Adobe Analytics](../../platform/using/adobe-analytics-provisioning.md#analytics-product-profile).
 
-Luego tendrá que configurar el **[!UICONTROL External accounts]** en Adobe Campaign Classic.
+Luego tendrá que configurar las **[!UICONTROL External accounts]** en Adobe Campaign Classic.
 
 ### Configuración de la cuenta externa en Adobe Campaign Classic {#external-account-classic}
 
@@ -161,7 +161,7 @@ Para obtener más información, consulte la página [Perfiles de producto para A
 
 1. Haga clic en **[!UICONTROL Configure]** junto a la lista desplegable **[!UICONTROL Integration]**.
 
-1. En la ventana **[!UICONTROL Configure Analytics integration]** , asigne la cuenta externa al grupo de informes con la siguiente información:
+1. Desde la ventana **[!UICONTROL Configure Analytics integration]**, asigne la cuenta externa con el grupo de informes con la siguiente información:
 
    * **[!UICONTROL E-Mail]**
    * **[!UICONTROL IMS Org]**
