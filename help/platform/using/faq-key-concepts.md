@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
 source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
 ht-degree: 100%
 
@@ -116,7 +116,7 @@ Lea la [Lista de comprobación de la configuración de seguridad](https://helpx.
 
 ## ¿Cómo se puede traducir un mensaje de error? {#how-to-translate-an-error-message-}
 
-¿Aparece un mensaje de error en un idioma extranjero? En [esta página](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) se muestran todos los mensajes de error y su traducción.
+¿Aparece un mensaje de error en un idioma extranjero? En [esta página](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=es) se muestran todos los mensajes de error y su traducción.
 
 ## ¿Puedo crear un formulario web y recopilar respuestas en Campaign? {#can-i-create-a-webform-and-collect-answers-in-campaign-}
 
