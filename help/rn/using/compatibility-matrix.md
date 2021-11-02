@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 235e8abcaed2659d745ebfeca24dc2f0278a6e5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '600'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -142,7 +142,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <p>9.6.x</p>
 <p>9.5.x</p>
 <p>9.4.x</p>
-<p><strong>Nota:</strong> también puede utilizar Amazon RDS para PostgreSQL con las versiones especificadas anteriormente.</p>
+<p><strong>Nota:</strong> También puede utilizar Amazon RDS para PostgreSQL con las versiones especificadas anteriormente.</p>
 </td>
 </tr>
 <tr>
@@ -153,7 +153,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <p>2016</p>
 <p>2014</p>
 <p>2012: SP1 y SP2</p>
-<p><strong>Importante:</strong>  Microsoft SQL Server no se admite como base de datos principal cuando el servidor de Campaign se está ejecutando en Linux. [Más información](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layer).</p>
+<p><strong>Importante:</strong> Microsoft SQL Server no se admite como base de datos principal cuando el servidor de Campaign se ejecuta en Linux. [Más información](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers).</p>
 </td>
 </tr>
 </tbody>
@@ -168,7 +168,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 
 ## Conectores CRM{#CRMconnectors}
 
-A continuación se enumeran los sistemas de administración de la relación con los clientes (CRM) compatibles con Adobe Campaign. [Obtenga ](../../platform/using/crm-connectors.md) más información sobre los conectores CRM de Campaign.
+A continuación se enumeran los sistemas de gestión de relaciones con el cliente (CRM) compatibles con Adobe Campaign. [Más información](../../platform/using/crm-connectors.md) acerca de los conectores CRM de Campaign.
 
 <table>
 <tbody>
@@ -189,7 +189,7 @@ A continuación se enumeran los sistemas de administración de la relación con 
 
 ## Acceso de datos federado (FDA){#FederatedDataAccessFDA}
 
-A continuación se enumeran las bases de datos externas compatibles con el módulo [Federated Data Access](../../installation/using/about-fda.md) de Adobe Campaign.
+A continuación se enumeran las bases de datos externas compatibles con el [módulo de acceso de datos federado](../../installation/using/about-fda.md) de Adobe Campaign.
 
 <table>
 <tbody>
@@ -289,7 +289,7 @@ A continuación se enumeran las bases de datos externas compatibles con el módu
 
 ## Consola del cliente {#ClientConsoleoperatingsystems}
 
-Los siguientes sistemas operativos y explorador son **obligatorios** para utilizar [Consola de cliente de Campaign](../../installation/using/installing-the-client-console.md).
+Se **requieren** los siguientes sistemas operativos y exploradores para utilizar la [Consola del cliente de Campaign](../../installation/using/installing-the-client-console.md).
 
 ### Sistemas operativos
 
@@ -353,7 +353,7 @@ Puede utilizar Campaign para [enviar notificaciones push](../../delivery/using/a
 
 ## Navegadores{#Browsers}
 
-Los siguientes exploradores son compatibles con Campaign para [Web Access](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
+Los siguientes exploradores son compatibles con Campaign for [Web Access](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
 
 <table>
 <tbody>
