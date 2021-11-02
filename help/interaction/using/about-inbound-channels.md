@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: unitary-interactions
 exl-id: 33247728-b865-4dfd-814f-2900965a7187
 source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Las ofertas se pueden presentar en varios espacios de ofertas utilizando un cana
 
 ![](assets/do-not-localize/how-to-video.png) También puede ver este [vídeo](https://helpx.adobe.com/campaign/classic/how-to/deliver-an-offer-on-inbound-channel-in-acv6.html) en el que se explica cómo ofrecer una oferta en un canal de entrada.
 
-Para que el motor de oferta pueda seleccionar una oferta, debe aprobarse y estar disponible en un entorno en directo. Para obtener más información, consulte [Aprobar y activar una oferta](../../interaction/using/approving-and-activating-an-offer.md).
+Para que el motor de oferta pueda seleccionar una oferta, debe aprobarse y estar disponible en un entorno en directo. Para obtener más información, consulte [Aprobación y activación de una oferta](../../interaction/using/approving-and-activating-an-offer.md).
 
 Cuando un contacto es entrante, hay dos posibles resultados: el sitio web puede identificar o no al usuario que está explorando las páginas. El motor de oferta presenta diferentes ofertas según si se identifica o no el usuario.
 
