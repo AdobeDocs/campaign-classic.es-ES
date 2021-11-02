@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Actualización de agregado
-description: Descubra más información sobre la actividad del flujo de trabajo Actualizar acumulado
+title: Actualización del agregado
+description: Descubra más información acerca de la actividad del flujo de trabajo Actualización de agregado
 audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: d2b26af0-30a1-4852-acd5-996795f198a1
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '97'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
