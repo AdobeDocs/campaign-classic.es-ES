@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 91%
 
 ![](../../assets/common.svg)
 
-Monitorizar los envíos después de haberlos enviado es un paso clave para garantizar que las campañas de marketing sean eficientes y lleguen a los clientes.
+La monitorización de las entregas una vez enviadas es un paso clave para garantizar que las campañas de marketing sean eficientes y lleguen a los clientes.
 
 En esta sección, obtendrá más información sobre lo que puede monitorizar después de enviar una entrega, así como también sobre cómo se administran los fallos y las cuarentenas de entregas.
 
