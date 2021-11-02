@@ -7,9 +7,9 @@ role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 source-git-commit: ed43a632a962747c9402ff8d5f0ce442c2cc6490
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '836'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Los perfiles activos son los perfiles que se toman en cuenta con fines de factur
 
 La facturación solo abarca los perfiles que están **activos**. Un perfil se considera activo si este se ha identificado o comunicado en los últimos 12 meses a través de cualquier canal.
 
-Un perfil identificado por varios envíos se cuenta solo una vez.
+Un perfil al que se destinan varias entregas se cuenta solo una vez.
 
 >[!NOTE]
 >
