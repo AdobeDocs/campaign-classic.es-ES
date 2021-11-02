@@ -8,9 +8,9 @@ topic-tags: sending-push-notifications
 version: Classic v7
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '954'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -340,7 +340,7 @@ Para rastrear una notificación silenciosa, siga el ejemplo a continuación:
 >
 >Tenga en cuenta que esto es exclusivo de iOS.
 
-En iOS, el protocolo delegado permite obtener el resultado de la llamada **registerDevice** y se puede utilizar para saber si se ha producido un error durante el registro.
+En iOS, este protocolo delegado permite obtener el resultado de la llamada a **registerDevice** y se puede utilizar para saber si se ha producido un error durante el registro.
 
 El prototipo de **registerDeviceStatus** es:
 
@@ -348,7 +348,7 @@ El prototipo de **registerDeviceStatus** es:
 - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status:(NSString *) errorReason;
 ```
 
-**** El estado le permite saber si un registro se ha realizado correctamente o si se ha producido un error.
+El **estado** permite saber si un registro se ha realizado correctamente o si se ha producido un error.
 
 **ErrorReason** proporciona más información sobre los errores que se han producido. Para obtener más información sobre los errores disponibles y sus descripciones, consulte la tabla siguiente.
 
