@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: acs-connector
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1129'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Una vez definido el público objetivo, puede compartirlo con ACS a través de un
 
 1. En el flujo de trabajo creado anteriormente, añada una actividad **[!UICONTROL List update]** y especifique la lista que desea actualizar o crear.
 
-   Especifique la carpeta en la que desea guardar la lista en Campaign v7. Las listas están sujetas a la asignación de carpetas definida durante la implementación, lo que puede afectar a su visibilidad una vez compartidas en el Campaign Standard. Consulte la sección [Conversión de derechos](../../integrations/using/acs-connector-principles-and-data-cycle.md#rights-conversion).
+   Especifique la carpeta en la que desea guardar la lista en Campaign v7. Las listas están sujetas a la asignación de carpetas definida durante la implementación, lo cual puede afectar a su visibilidad una vez compartidas en Campaign Standard. Consulte la sección [Conversión de derechos](../../integrations/using/acs-connector-principles-and-data-cycle.md#rights-conversion).
 
 1. Asegúrese de que la opción **[!UICONTROL Share with ACS]** esté seleccionada. Está activada de forma predeterminada.
 
@@ -123,7 +123,7 @@ Mediante la creación de un flujo de trabajo de entrega en Campaign Standard, es
 
    Esta actividad se utiliza para recuperar los datos de la audiencia seleccionada. También puede aplicar un **[!UICONTROL Source Filtering]** adicional si lo necesita utilizando la pestaña correspondiente de esta actividad.
 
-1. Añada una actividad **[!UICONTROL Email delivery]** y configúrela como cualquier otra [actividad de entrega de correo electrónico](https://experienceleague.adobe.com/es_ES/docs/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html).
+1. Añada una actividad **[!UICONTROL Email delivery]** y configúrela como cualquier otra [actividad de entrega de correo electrónico](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html?lang=es).
 1. Abra el contenido de la entrega.
 1. Añada un campo personalizado. En la ventana emergente, busque el nodo **[!UICONTROL Additional data (targetData)]**. Este nodo contiene los datos adicionales de la audiencia que se calcularon en el flujo de trabajo inicial de objetivo. Puede utilizarlos como cualquier otro campo personalizado.
 
