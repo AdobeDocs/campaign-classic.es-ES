@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: using-delivery-templates
 exl-id: d943898c-06fe-451d-aa28-8a95665f4112
 source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Hay dos tipos de plantillas:
 
 1. Plantillas de envío predeterminadas
 
-   El administrador de Adobe Campaign puede crear nuevas plantillas de envío. Pueden reutilizarlas los operadores (los que tengan los derechos de acceso correspondientes) o, de forma automática, los procesos del servidor. Por ejemplo, se puede configurar una plantilla de envío de correo electrónico y, cuando los usuarios crean una entrega con esta plantilla, simplemente tienen que introducir el texto o el contenido HTML y luego enviarlo; el administrador ya ha definido las demás opciones.
+   El administrador de Adobe Campaign puede crear nuevas plantillas de envío. Pueden reutilizarlas los operadores (los que tengan los derechos de acceso correspondientes) o, de forma automática, los procesos del servidor. Por ejemplo, puede configurar una plantilla de envíos por correo electrónico. Cuando el usuario cree un envío con esta plantilla, este solo debe introducir el texto o el contenido HTML y, a continuación, enviarlo; el administrador ya ha definido el resto de las opciones.
 
 >[!NOTE]
 >
