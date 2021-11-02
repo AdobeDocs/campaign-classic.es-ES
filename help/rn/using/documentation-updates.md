@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Actualizaciones de documentación de Adobe Campaign Classic v7
-description: Esta página enumera todas las funciones nuevas y las actualizaciones de la documentación de Adobe Campaign Classic
+description: Esta página enumera todas las nuevas funciones y las actualizaciones de la documentación de Adobe Campaign Classic
 feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: cee019432c64eaaefac86a27b731355242fd1555
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4560'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Consulte las [Notas de la versión de Adobe Campaign Classic](../../rn/using/lat
 
 ## Octubre de 2021{#oct-2021}
 
-Las notas técnicas existentes se han agrupado en la nueva sección **Technote**.
+Las notas técnicas existentes se han agrupado en la nueva sección **Notas técnicas**.
 
-La página **Recomendaciones de tamaño de hardware** se ha actualizado y agregado a la sección **Notas técnicas**. [Más información](../../technotes/using/hardware-sizing.md)
+La página **Recomendaciones de tamaño de hardware** se ha actualizado y añadido a la sección **Notas técnicas**. [Más información](../../technotes/using/hardware-sizing.md)
 
 ## Septiembre de 2021{#sept-2021}
 
@@ -392,9 +392,9 @@ Mejora del conector FDA de Hadoop: [Más información](../../installation/using/
 
 Las guías de [instalación](../../installation/using/general-architecture.md), [producción](../../production/using/foreword.md) y [configuración](../../configuration/using/additional-parameters.md) se han actualizado con la nueva unidad del sistema utilizada por el inicio del servicio nlserver. Puede seguir utilizando /etc/init.d/nlserver6, pero le recomendamos que ahora utilice el comando systemctl para interactuar con el servicio nlserver.
 
-La guía de instalación se ha actualizado y sincronizado con la última versión de la matriz de compatibilidad. Se han agregado nuevos sistemas admitidos. Se han eliminado las ocurrencias de sistemas obsoletos y no compatibles. [Más información](../../installation/using/general-architecture.md)
+La guía de instalación se ha actualizado y sincronizado con la última versión de la matriz de compatibilidad. Se han añadido nuevos sistemas admitidos. Se han eliminado las ocurrencias a sistemas obsoletos y no admitidos. [Más información](../../installation/using/general-architecture.md)
 
-La matriz de compatibilidad se ha actualizado con los conectores Hadoop 3.0 y Snowflake FDA. [Más información](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+La matriz de compatibilidad se ha actualizado con los conectores Hadoop 3.0 y Snowflake FDA. [Más información](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)
 
 Se ha añadido una práctica recomendada sobre la afinidad de IP a la guía de instalación. [Más información](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
@@ -412,7 +412,7 @@ El nuevo parámetro para la configuración de informes de direcciones URL se ha 
 
 La página **matriz de funciones On-Premise y alojadas de Campaign Classic** se ha actualizado con los nuevos conectores de FDA. [Más información](../../installation/using/capability-matrix.md).
 
-Se ha actualizado la página **matriz de funciones de Campaign Classic**. [Más información](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+Se ha actualizado la página **matriz de funciones de Campaign Classic**. [Más información](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)
 
 El nuevo flujo de trabajo **[!UICONTROL Cleanup of Nmsaddress]** se ha documentado [aquí](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress).
 
@@ -462,7 +462,7 @@ Mensajería SMS segura (TLS): [Más información](https://helpx.adobe.com/es/cam
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
-Ya está disponible la documentación de MTA mejorada de Adobe Campaign. [Más información](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
+Ya está disponible la documentación de MTA mejorada de Adobe Campaign. [Más información](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html)
 
 Se ha añadido una nueva sección sobre cómo solucionar problemas de un flujo de trabajo que permanece en el estado &quot;Iniciar lo antes posible&quot; dentro de una campaña. [Más información](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 
@@ -494,7 +494,7 @@ Se ha actualizado la guía de introducción a las prácticas recomendadas de ent
 
 ## Octubre de 2019 {#october-2019}
 
-Se ha actualizado la lista de mensajes de error para Campaign. [Más información](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
+Se ha actualizado la lista de mensajes de error para Campaign. [Más información](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=es)
 
 La guía de introducción al RGPD se ha mejorado y enriquecido. Ahora es una documentación de administración de la privacidad que incluye el RGPD y la CCPA. [Más información](https://helpx.adobe.com/content/help/es/campaign/kb/campaign-privacy.html)
 
@@ -516,7 +516,7 @@ Se ha agregado una nueva página para proporcionar directrices generales para ma
 
 La información relacionada con la monitorización de flujos de trabajo se ha centralizado en una nueva sección dedicada. [Más información](../../workflow/using/monitoring-workflow-execution.md).
 
-Se ha añadido una nueva página sobre las directrices generales para el seguimiento en Adobe Campaign Classic. [Más información](https://helpx.adobe.com/campaign/kb/acc-tracking.html?lang=es).
+Se ha añadido una nueva página sobre las directrices generales para el seguimiento en Adobe Campaign Classic. [Más información](https://helpx.adobe.com/es/campaign/kb/acc-tracking.html).
 
 Se han actualizado las prácticas recomendadas para mejorar el rendimiento de los flujos de trabajo y las entregas. [Obtenga más información sobre los flujos de trabajo](../../workflow/using/workflow-best-practices.md) y [más sobre las entregas](../../delivery/using/delivery-performances.md#best-practices-performance).
 
@@ -524,7 +524,7 @@ Se han actualizado las prácticas recomendadas para mejorar el rendimiento de lo
 
 **Nuevas funciones incluidas en la versión 19.1**
 
-Panel de control: [Más información](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
+Panel de control: [Más información](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es)
 
 Pista de auditoría: [Más información](../../production/using/audit-trail.md)
 
@@ -548,7 +548,7 @@ La descripción de la opción de flujo de trabajo previo al proceso se ha actual
 
 Se ha actualizado la nota técnica Marketing Cloud Triggers. [Más información](../../integrations/using/about-triggers.md)
 
-Se ha actualizado la lista de mensajes de error. [Más información](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
+Se ha actualizado la lista de mensajes de error. [Más información](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=es)
 
 Se ha agregado más información sobre los métodos de autenticación SOAP para la mensajería transaccional. [Más información](../../message-center/using/event-description.md)
 
@@ -587,7 +587,7 @@ Se agregó información sobre el informe Facturación.
 Se ha actualizado la documentación sobre la integración de audiencias compartidas.
 [Más información](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 
-Se han actualizado las siguientes notas técnicas: [protocolo de conector SMS y configuración](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) y [generación automática de secuencia](https://helpx.adobe.com/es/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
+Se han actualizado las siguientes notas técnicas: [protocolo de conector SMS y configuración](https://helpx.adobe.com/es/campaign/kb/sms-connector-protocol-and-settings.html) y [generación automática de secuencia](https://helpx.adobe.com/es/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
 
 Se ha actualizado la sección Flujos de trabajo técnicos. [Más información](../../workflow/using/about-technical-workflows.md)
 
