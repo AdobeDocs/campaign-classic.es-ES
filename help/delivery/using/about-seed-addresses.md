@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
 source-git-commit: 1113afb573bad958ec7cc2cf008f71c8e751e8f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 83%
 
 Las direcciones semilla se utilizan para dirigirse a los destinatarios que no coinciden con los criterios de destino definidos. De este modo, los destinatarios que estén fuera del alcance de la entrega pueden recibirlo como lo haría cualquier otro destinatario.
 
-Una de las razones principales para utilizarlas es **la protección de su lista de correo**. La inserción de direcciones semilla en la lista de correo permite comprobar si la está utilizando un tercero, ya que las direcciones semilla que contiene reciben los envíos enviados a la lista de correo.
+Una de las razones principales para utilizarlas es **la protección de su lista de correo**. La inclusión de direcciones semilla en la lista de la campaña de correo le permite recibir una notificación si la está utilizando un tercero, ya que las direcciones que contiene reciben las entregas enviadas a la misma.
 
-Además, las direcciones semilla permiten **previsualizar y probar la personalización y renderización de los envíos** antes de su envío, enviando pruebas (consulte [Uso de direcciones semilla como prueba](steps-defining-the-target-population.md#using-seed-addresses-as-proof)).
+Además, las direcciones semilla permiten **previsualizar y probar la personalización y el procesamiento de entregas** antes del envío mediante la entrega de pruebas (consulte [Uso de direcciones semilla como prueba](steps-defining-the-target-population.md#using-seed-addresses-as-proof)).
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](steps-defining-the-target-population.md#seeds-and-proofs-video)
 
