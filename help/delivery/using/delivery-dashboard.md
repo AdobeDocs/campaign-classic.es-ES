@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1174'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -192,7 +192,7 @@ Para realizar esto, siga los pasos a continuación:
 
 >[!NOTE]
 >
->Una vez completada correctamente la actualización de la estructura física de la base de datos, debe desconectarse y volver a conectarse para que se tengan en cuenta las modificaciones.
+>Una vez que la actualización de la estructura física de la base de datos se haya completado correctamente, debe desconectarse y volver a conectarse para que se tengan en cuenta las modificaciones.
 
 ### Paso 3: Validación de la modificación
 
