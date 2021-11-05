@@ -9,7 +9,7 @@ exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
 source-git-commit: 6d53ba957fb567a9a921544418a73a9bde37c97b
 workflow-type: tm+mt
 source-wordcount: '3007'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -40,7 +40,7 @@ _31 de marzo de 2021_
 * Se ha corregido un problema que provocaba que los flujos de trabajo en ejecución se detuvieran al reiniciar el servidor wfserver diario. (NEO-30047)
 * Se ha corregido un problema de seguridad que se producía al intentar sincronizar plantillas de Adobe Experience Manager mediante llamadas API realizadas por usuarios no administradores. (NEO-32389, NEO-23487)
 * Se ha corregido un problema que hacía que la consola se bloqueara al cerrar un cuadro de diálogo de envío en una entrega creada con a partir de una plantilla. (NEO-31547)
-* Se ha corregido un problema que se producía al crear y guardar un envío en la pestaña **Targeting &amp; Workflow** de una campaña: la vista previa fallaría con el siguiente error. (NEO-29440)
+* Se ha corregido un problema que se producía al crear y guardar una entrega dentro de la función **Segmentación y flujo de trabajo** de una campaña: la vista previa fallaría con el siguiente error. (NEO-29440)
 * Se ha corregido un problema por el que Tomcat 8.5 enviaba respuestas no válidas que causaban errores en los registros de mensajería transaccional. (NEO-30858)
 * Se ha corregido un problema de regresión que provocaba daños en la memoria en la administración de subprocesos externos e impactaba en el rendimiento.
 * Se ha corregido un problema que podría provocar que el flujo de trabajo de facturación falle al usar una asignación de destino personalizada. La clave principal del esquema personalizado se almacena en la columna &quot;sourceId&quot;, que solo permitía valores enteros. Ahora permite valores enteros y de cadena. (NEO-25914, NEO-28146)
@@ -65,7 +65,7 @@ _22 de diciembre de 2020_
 >
 > * Esta versión incorpora un nuevo protocolo de conexión: si se conecta a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**.  [Más información](../../technotes/using/ims-updates.md)
 > * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
-> * Si está utilizando la integración de Experience Cloud Triggers mediante autenticación oAuth, debe ir a Adobe I/O como se detalla [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación oAuth heredado con Campaign [se ha retirado](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=es) el **septiembre de 2021**. Los entornos alojados se benefician de una extensión hasta **23 de febrero de 2022**. Como cliente local o híbrido, póngase en contacto con el servicio de atención al cliente de Adobe para ampliar la asistencia hasta febrero de 2022. Debe proporcionar [el AppID de la aplicación OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) a Adobe.
+> * Si está utilizando la integración de Experience Cloud Triggers mediante autenticación oAuth, debe ir a Adobe I/O como se detalla [en esta página](../../integrations/using/configuring-adobe-io.md). Modo de autenticación oAuth heredado con Campaign [ha sido retirado](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=es) en **Septiembre de 2021**. Los entornos alojados se benefician de una extensión hasta el **23 de febrero de 2022**. Como cliente on-premise o híbrido, póngase en contacto con el Servicio de atención al cliente de Adobe para ampliar la asistencia hasta febrero de 2022. Debe proporcionar [el AppID de la aplicación OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) a Adobe.
 
 
 **Mejoras**
@@ -115,7 +115,7 @@ _11 de septiembre de 2020_
 
 
 
-* Se ha corregido una regresión en la administración de plantillas HTML que provocaba que las direcciones URL de seguimiento se volvieran visibles debido a una interpretación errónea de las pestañas. (NEO-25909)
+* Se ha corregido una regresión en la administración de plantillas de HTML que provocaba que las direcciones URL de seguimiento se volvieran visibles debido a una interpretación errónea de las pestañas. (NEO-25909)
 
 
 

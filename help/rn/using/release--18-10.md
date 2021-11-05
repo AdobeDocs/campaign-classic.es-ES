@@ -58,7 +58,7 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. [actualice a la última versión](../../production/using/build-upgrade.md) o póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Se ha retirado esta compilación. Por favor [actualizar a la última versión](../../production/using/build-upgrade.md)  o póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Mejoras**
 
@@ -82,7 +82,7 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. [actualice a la última versión](../../production/using/build-upgrade.md) o póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Se ha retirado esta compilación. Por favor [actualizar a la última versión](../../production/using/build-upgrade.md) o póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Mejoras**
 
@@ -104,7 +104,7 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. [actualice a la última versión](../../production/using/build-upgrade.md) o póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Se ha retirado esta compilación. Por favor [actualizar a la última versión](../../production/using/build-upgrade.md) o póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Novedades**
 
@@ -140,7 +140,7 @@ ht-degree: 97%
 
 * Se ha corregido un problema de seguridad que podría provocar vulnerabilidades en los ataques de Forgery de solicitudes de servidor (SSRF) y ataques de denegación de servicio (DoS). (NEO-11453)
 * Ahora, Campaign ofrecerá el contenido (seguimiento de redirecciones, páginas espejo, encuestas, etc.) con el encabezado X-Robots-Tag: nocache. Esto evita la indexación de este contenido por motores de búsqueda de Internet. (NEO-11101)
-* Se ha corregido un problema de inyección de XTK en la API de suscripción (nms:subscription:Unsubscribe y nms:subscription:Subscribe).
+* Se ha corregido un problema de inyección de XTK en la API de suscripción (nms):subscription:Cancelación de suscripción y nms:subscription:Suscribirse).
 * Se ha corregido un problema de inyección de XTK en la aplicación web para cancelar la suscripción.
 * Se han eliminado contraseñas que se mostraban en algunos registros SMS.
 

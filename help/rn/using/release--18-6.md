@@ -26,7 +26,7 @@ ht-degree: 96%
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. [actualice a la última versión](../../production/using/build-upgrade.md) o póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Se ha retirado esta compilación. Por favor [actualizar a la última versión](../../production/using/build-upgrade.md) o póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Novedades**
 
@@ -54,7 +54,7 @@ ht-degree: 96%
 * Se ha corregido un problema que se producía al utilizar campos calculados en una actividad de flujo de trabajo **[!UICONTROL Survey answers]**. (NEO-11382)
 * Se ha actualizado Tomcat para evitar la explotación de vulnerabilidades. (NEO-11503)
 * Se ha corregido un error con la codificación LATIN1 al utilizar una conexión de FDA con una base de datos PostgreSQL. (NEO-11299)
-* Se ha corregido un problema que se producía al utilizar la opción de envío **[!UICONTROL Prepare the personalization data with a workflow]** . (NEO-11047)
+* Se ha corregido un problema que se producía al usar la variable **[!UICONTROL Prepare the personalization data with a workflow]** opción de envío. (NEO-11047)
 * Se ha corregido un problema posterior a la actualización que impedía la entrega de SMS al utilizar un conector extendido.
 * Se mejoró la importación/exportación de paquetes (se han añadido registros y regiones en la interfaz).
 * Se ha corregido un problema que mostraba errores no viables en el registro posterior de actualización cuando una actividad de flujo de trabajo **[!UICONTROL Survey answers]** no estaba completamente configurada.

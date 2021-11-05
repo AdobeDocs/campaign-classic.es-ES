@@ -50,7 +50,7 @@ ht-degree: 99%
 * Se han mejorado los registros de archivos de correo electrónico, lo que facilita la comprobación de los mensajes de correo electrónico que se han entregado o no se han enviado correctamente a través del archivo BCC. (NEO-10675)
 * Se ha corregido un problema que provocaba la visualización de las direcciones IP del equilibrador de carga en lugar de las direcciones IP del cliente en los registros de seguimiento. (NEO-11295)
 * Se ha corregido un error con la codificación LATIN1 al utilizar una conexión de FDA con una base de datos PostgreSQL. (NEO-11299)
-* Se ha corregido un problema que se producía al utilizar la opción de envío **[!UICONTROL Prepare the personalization data with a workflow]** . (NEO-11047, NEO-11301)
+* Se ha corregido un problema que se producía al usar la variable **[!UICONTROL Prepare the personalization data with a workflow]** opción de envío. (NEO-11047, NEO-11301)
 * Se ha corregido un problema aleatorio que ocasionaba que las propiedades de una entrega se sobrescriban erróneamente. (NEO-11015)
 * Se ha corregido un problema que se producía al utilizar campos calculados en una actividad de flujo de trabajo **[!UICONTROL Survey answers]**. (NEO-11382)
 * Se ha corregido un problema que se producía al utilizar datos almacenados en XML en una actividad de flujo de trabajo **[!UICONTROL Survey answers]**. (NEO-10816)
