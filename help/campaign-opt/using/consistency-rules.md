@@ -6,8 +6,8 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
+workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Reglas de coherencia{#consistency-rules}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 ## Acerca de las reglas de coherencia {#about-consistency-rules}
 

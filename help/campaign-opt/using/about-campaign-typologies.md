@@ -6,8 +6,8 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
+workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Acerca de las tipologías de campaña{#about-campaign-typologies}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 Campaign Optimization (optimización de la campaña) es el módulo de Adobe Campaign que permite controlar, filtrar y monitorizar las entregas. Para evitar conflictos entre campañas, Adobe Campaign puede probar distintas combinaciones mediante la aplicación de reglas de restricción específicas. Esto garantiza que los mensajes enviados respondan de la mejor forma a las necesidades y expectativas de los clientes, de acuerdo con las políticas de comunicación de la compañía.
 

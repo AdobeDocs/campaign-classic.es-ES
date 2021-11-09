@@ -6,9 +6,9 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 9ba2199eabf91381e87661f30c9af8aa0ce4cc26
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '729'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Debe tener un entorno de prueba/desarrollo para realizar pruebas de migración. 
 1. Haga una copia de seguridad de la base de datos del entorno de desarrollo.
 1. Detenga todos los procesos de Adobe Campaign en la instancia de desarrollo.
 1. Haga una copia de seguridad de la base de datos del entorno de producción y restablézcala como un entorno de desarrollo.
-1. Antes de iniciar los servicios de Adobe Campaign, ejecute el script de cauterización **frozenInstance.js** que permite borrar la base de datos de cualquier objeto que se ejecutara cuando se inició la copia de seguridad.
+1. Antes de iniciar los servicios de Adobe Campaign, ejecute el **frozenInstance.js** secuencia de comandos de cauterización que permite borrar la base de datos de cualquier objeto que se estuviera ejecutando cuando se inició la copia de seguridad.
 
    ```
    nlserver javascript nms:freezeInstance.js -instance:<instance> -arg:<run|dry>
@@ -35,12 +35,12 @@ Debe tener un entorno de prueba/desarrollo para realizar pruebas de migración. 
 
    >[!NOTE]
    >
-   >El comando se inicia de forma predeterminada en modo **dry** y enumera todas las solicitudes ejecutadas por ese comando, sin iniciarlas. Para ejecutar solicitudes de cauterización, utilice **run** en el comando.
+   >El comando se inicia de forma predeterminada en **seca** y enumera todas las solicitudes ejecutadas por ese comando, sin iniciarlas. Para ejecutar solicitudes de cauterización, utilice **run** en el comando .
 
 1. Asegúrese de que las copias de seguridad sean correctas al intentar restaurarlas. Asegúrese de tener acceso a la base de datos, las tablas, los datos, etc.
 1. Pruebe el procedimiento de migración en el entorno de desarrollo.
 
-   Los procedimientos completos se detallan en la sección [Requisitos previos para la migración a Adobe Campaign 7](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md).
+   Los procedimientos completos se detallan en la [Requisitos previos para la migración a Adobe Campaign 7](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md) para obtener más información.
 
 1. Si la migración del entorno de desarrollo se realiza correctamente, puede migrar el entorno de producción.
 
@@ -50,13 +50,13 @@ Debe tener un entorno de prueba/desarrollo para realizar pruebas de migración. 
 
 >[!NOTE]
 >
->El comando Adobe Campaign update (**postupgrade**) permite sincronizar recursos y actualizar esquemas y la base de datos. Esta operación solo se puede realizar una vez y solo en el servidor de aplicaciones. Después de sincronizar los recursos, el comando **postupgrade** permite detectar si la sincronización genera errores o advertencias.
+>El comando de actualización de Adobe Campaign (**postupgrade**) le permite sincronizar recursos y actualizar esquemas y la base de datos. Esta operación solo se puede realizar una vez y solo en el servidor de aplicaciones. Después de sincronizar los recursos, la variable **postupgrade** permite detectar si la sincronización genera errores o advertencias.
 
 ## Herramientas de migración {#migration-tools}
 
 Varias opciones permiten medir el impacto de una migración e identificar los posibles problemas. Estas opciones se deben ejecutar:
 
-* en el comando **config**:
+* en el **config** comando:
 
    ```
    nlserver.exe config <option> -instance:<instanceName>
@@ -70,11 +70,11 @@ Varias opciones permiten medir el impacto de una migración e identificar los po
 
 >[!NOTE]
 >
->Debe utilizar la opción **-instance:`<instanceame>`**. No se recomienda utilizar la opción **-allinstances**.
+>Debe usar la variable **-instancia:`<instanceame>`** . No se recomienda usar la variable **-allinstances** .
 
 ### Opciones -showCustomEntities y -showDeletedEntities {#showcustomentities-and--showdeletedentities-options}
 
-* La opción **-showCustomEntities** muestra la lista de todos los objetos no estándar:
+* La variable **-showCustomEntities** muestra la lista de todos los objetos no estándar:
 
    ```
    nlserver.exe config -showCustomEntities -instance:<instanceName>
@@ -86,7 +86,7 @@ Varias opciones permiten medir el impacto de una migración e identificar los po
    xtk_migration:opsecurity2 xtk:entity
    ```
 
-* La opción **-showDeletedEntities** muestra la lista de todos los objetos estándar que faltan en la base de datos o en el sistema de archivos. Para cada objeto que falta, se especifica la ruta.
+* La variable **-showDeletedEntities** muestra la lista de todos los objetos estándar que faltan en la base de datos o en el sistema de archivos. Para cada objeto que falta, se especifica la ruta.
 
    ```
    nlserver.exe config -showDeletedEntities -instance:<instanceName>
@@ -134,7 +134,7 @@ Se buscan las expresiones siguientes (con distinción de mayúsculas y minúscul
    <td> common.js<br /> </td> 
    <td> PU-0002<br /> </td> 
    <td> Aviso<br /> </td> 
-   <td> Esta biblioteca no debe usarse.<br /> </td> 
+   <td> Esta biblioteca no debe utilizarse.<br /> </td> 
   </tr> 
   <tr> 
    <td> logon(<br /> </td> 
@@ -143,10 +143,10 @@ Se buscan las expresiones siguientes (con distinción de mayúsculas y minúscul
    <td> Este método de conexión ya no debe utilizarse. Consulte <a href="../../migration/using/general-configurations.md#identified-web-applications" target="_blank">Aplicaciones web identificadas</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> nuevo SoapMethodCall(<br /> </td> 
+   <td> new SoapMethodCall(<br /> </td> 
    <td> PU-0004<br /> </td> 
    <td> Aviso<br /> </td> 
-   <td> Esta función solo se admite cuando se utiliza en código JavaScript ejecutado desde una zona de seguridad en modo <strong>sessionTokenOnly</strong>.<br /> </td> 
+   <td> Esta función solo se admite cuando se utiliza en código JavaScript ejecutado desde una zona de seguridad incluida en <strong>sessionTokenOnly</strong> en el menú contextual.<br /> </td> 
   </tr> 
   <tr> 
    <td> sql=<br /> </td> 
@@ -158,13 +158,15 @@ Se buscan las expresiones siguientes (con distinción de mayúsculas y minúscul
    <td> SQLDATA<br /> </td> 
    <td> PU-0006<br /> </td> 
    <td> Error<br /> </td> 
-   <td> Este tipo de error provoca un error de migración. Consulte <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. Si obtiene registros de errores de aplicaciones web de tipo de visión general (migración desde v6.02), consulte <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Configurar campaña</a>.<br /> </td> 
+   <td> Este tipo de error provoca un error de migración. Consulte <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. Si obtiene registros de errores de aplicaciones web de tipo "descripción general" (migración de la versión 6.02), consulte <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Configuración de Campaign</a>.<br /> </td> 
   </tr>
   <tr> 
    <td> crmDeploymentType="onpremise"<br /> </td> 
    <td> PU-0007<br /> </td> 
    <td> Error<br /> </td> 
-   <td> Este tipo de implementación ya no es compatible. El tipo de implementación del conector Microsoft CRM local y Office 365 ya no se utiliza</a>. Para cambiar la implementación de la API web, consulte <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">Aplicaciones web</a>.<br /> </td>
+   <td> Este tipo de implementación ya no es compatible. El tipo de implementación del conector Microsoft CRM local y de Office 365 ya no se utiliza. 
+   </br>Si está utilizando uno de estos tipos de implementación obsoletos en una cuenta externa, esta cuenta externa debe eliminarse y luego debe ejecutar el <b>postupgrade</b> comando. 
+   </br>Para cambiar a la implementación de API web, consulte <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">Aplicaciones web</a>.<br /> </td>
   </tr> 
  </tbody> 
 </table>
