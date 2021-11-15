@@ -29,7 +29,6 @@ El parámetro **`<command>`** corresponde al módulo .
 >
 >* En cualquier caso, puede añadir el argumento **-noconsole** para eliminar los comentarios que se muestran una vez que se inician los módulos.
 >* Por el contrario, puede agregar el argumento **-verbose** para mostrar más información.
-
 >
 
 
