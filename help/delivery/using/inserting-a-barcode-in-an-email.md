@@ -5,15 +5,15 @@ description: Inserción de un código de barras en un correo electrónico
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: 3b8d685642fc74d918a0e312c66d5e4f7b424192
+workflow-type: tm+mt
 source-wordcount: '513'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 
-# Inserción de un código de barras en un correo electrónico{#inserting-a-barcode-in-an-email}
+# Inserción de un código de barras en un correo electrónico{#insert-a-barcode-in-an-email}
 
 ![](../../assets/common.svg)
 

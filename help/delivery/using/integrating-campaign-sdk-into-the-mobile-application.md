@@ -7,10 +7,10 @@ content-type: reference
 topic-tags: sending-push-notifications
 version: Classic v7
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: ht
-source-wordcount: '954'
-ht-degree: 100%
+source-git-commit: c58daacb76f90478e218fe97008f3e263d8c76a1
+workflow-type: tm+mt
+source-wordcount: '1016'
+ht-degree: 92%
 
 ---
 
@@ -22,11 +22,17 @@ Los SDK de Campaign para iOS y Android son uno de los componentes del módulo Mo
 
 >[!NOTE]
 >
->Para obtener el SDK de Campaign (anteriormente denominado SDK de Neolane), póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Para obtener el SDK de Campaign (anteriormente denominado SDK de Neolane), póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
 El objetivo del SDK es facilitar la integración de una aplicación móvil en la plataforma de Adobe Campaign.
 
-Para obtener más información sobre las diferentes versiones de iOS y Android compatibles, consulte la [matriz de compatibilidad](../../rn/using/compatibility-matrix.md#MobileSDK) .
+Para obtener más información sobre las diferentes versiones de iOS y Android compatibles, consulte la [matriz de compatibilidad](../../rn/using/compatibility-matrix.md#MobileSDK).
+
+>[!NOTE]
+>
+>También puede utilizar el SDK móvil de Adobe Experience Platform configurando la extensión de Adobe Campaign en Adobe Launch. [Obtenga más información en la documentación de Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic){target=&quot;_blank&quot;}.
+>
+>Obtenga información sobre cómo configurar e instalar el SDK de Adobe Experience Platform Mobile [en este vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/configure-push-using-aep-mobile-sdk.html?lang=en){target=&quot;_blank&quot;}.
 
 ## Carga del SDK de Campaign {#loading-campaign-sdk}
 

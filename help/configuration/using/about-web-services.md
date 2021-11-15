@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 5%
+source-wordcount: '655'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ Las API de Adobe Campaign se utilizan en JavaScript dentro de la aplicación y e
 >[!IMPORTANT]
 >
 >El número de llamadas al motor autorizadas por día varía según el contrato de licencia. Para obtener más información, consulte [esta página](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-classic---product-description.html).\
->Una lista de todas las API, incluida su descripción completa, está disponible en [esta documentación dedicada](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
+>Una lista de todas las API, incluida su descripción completa, está disponible en [esta documentación dedicada](https://experienceleague.adobe.com/developer/campaign-api/api/index.html.
 
 ## Requisitos previos {#prerequisites}
 
@@ -92,13 +92,13 @@ Para obtener más información, consulte [ExecuteQuery (xtk:queryDef)](../../con
 </SOAP-ENV:Envelope>
 ```
 
-El elemento `<soap-env:envelope>` es el primer elemento del mensaje que representa el sobre SOAP.
+La variable `<soap-env:envelope>` es el primer elemento del mensaje que representa el sobre SOAP.
 
-El elemento `<soap-env:body>` es el primer elemento secundario del sobre. Contiene la descripción del mensaje, es decir, el contenido de la consulta o la respuesta.
+La variable `<soap-env:body>` es el primer elemento secundario del sobre. Contiene la descripción del mensaje, es decir, el contenido de la consulta o la respuesta.
 
-El método que se va a invocar se introduce en el elemento `<executequery>` del cuerpo del mensaje SOAP.
+El método que se va a invocar se introduce en la variable `<executequery>` del cuerpo del mensaje SOAP.
 
-En SOAP, los parámetros se reconocen por orden de aspecto. El primer parámetro, `<__sessiontoken>`, toma la cadena de autenticación, el segundo parámetro es la descripción XML de la consulta del elemento `<querydef>`.
+En SOAP, los parámetros se reconocen por orden de aspecto. El primer parámetro, `<__sessiontoken>`, toma la cadena de autenticación, el segundo parámetro es la descripción XML de la consulta desde el `<querydef>` elemento.
 
 ### Respuesta SOAP {#soap-response}
 
@@ -115,7 +115,7 @@ En SOAP, los parámetros se reconocen por orden de aspecto. El primer parámetro
 </SOAP-ENV:Envelope>
 ```
 
-El resultado de la consulta se introduce desde el elemento `<pdomoutput>` .
+El resultado de la consulta se introduce desde el `<pdomoutput>` elemento.
 
 ## Administración de errores {#error-management}
 
@@ -135,7 +135,7 @@ ODBC error: [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has bee
 </SOAP-ENV:Envelope>
 ```
 
-El elemento `<soap-env:fault>` del cuerpo del mensaje SOAP se utiliza para transmitir las señales de error que se producen durante el procesamiento del servicio web. Se compone de los siguientes subelementos:
+La variable `<soap-env:fault>` en el cuerpo del mensaje SOAP se utiliza para transmitir las señales de error que surgen durante el procesamiento del servicio web. Se compone de los siguientes subelementos:
 
 * `<faultcode>` : indica el tipo de error. Los tipos de error son:
 
@@ -147,7 +147,7 @@ El elemento `<soap-env:fault>` del cuerpo del mensaje SOAP se utiliza para trans
 * `<faultstring>` : mensaje que describe el error
 * `<detail>` : mensaje de error largo
 
-El éxito o el error de la invocación del servicio se identifica cuando se verifica el elemento `<faultcode>`.
+El éxito o el error de la invocación del servicio se identifica cuando la variable `<faultcode>` se verifica.
 
 >[!IMPORTANT]
 >
@@ -177,4 +177,4 @@ La URL del servidor es la siguiente:
 
 https://serverName/nl/jsp/soaprouter.jsp
 
-Con **`<server>`** el servidor de aplicaciones de Adobe Campaign (**nlserver web**).
+con **`<server>`** el servidor de aplicaciones de Adobe Campaign (**nlserver web**).

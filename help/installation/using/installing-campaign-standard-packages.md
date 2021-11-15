@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
+source-git-commit: 6c23dadb5b6523e17e242de43a908ca86ed7cc23
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1188'
 ht-degree: 16%
 
 ---
@@ -28,6 +28,8 @@ Los paquetes integrados contienen un conjunto de funciones que se pueden instala
 >La instalación de un nuevo paquete puede afectar a toda la plataforma: debe probarse y validarse antes de la implementación final.
 >
 >Una vez instalado un paquete, no puede desinstalarlo.
+>
+>Como cliente alojado o híbrido, póngase en contacto con el Adobe para implementar un nuevo paquete integrado.
 
 Para instalar un paquete integrado:
 
@@ -86,7 +88,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   <tr> 
    <td> Motor de oferta para instancias de ejecución. Opcional.<br /> </td> 
    <td> Paquete para instalar en instancias de ejecución para Offer engine (interacción). <a href="../../interaction/using/distributed-architectures.md">Más información</a> </td> 
-   <td> Mid, Ejecución <br /> </td>  
+   <td> Mid, Execution <br /> </td>  
   </tr> 
   <!--tr> 
    <td> Lead Management (Leads) (deprecated)<br /> </td> 
@@ -125,13 +127,13 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
    <td> Todo<br /> </td> 
   </tr> 
    <tr> 
-   <td> Canal de teléfono<br /> </td> 
+   <td> Canal telefónico<br /> </td> 
    <td> Envía envíos utilizando el canal telefónico con Adobe Campaign. Se utiliza para el centro de llamadas. Opcional. <a href="../../delivery/using/communication-channels.md">Más información</a> <br /> </td> 
    <td> Todo<br /> </td> 
   </tr> 
   <tr> 
    <td> Canal de aplicaciones móviles<br /> </td> 
-   <td> Utiliza la plataforma de Adobe Campaign para enviar notificaciones personalizadas a los terminales iOS y Android a través de aplicaciones. Opcional. <a href="../../delivery/using/about-mobile-app-channel.md">Más información</a> <br /> </td> 
+   <td> Utiliza la plataforma de Adobe Campaign para enviar notificaciones personalizadas a los terminales de iOS y Android a través de aplicaciones. Opcional. <a href="../../delivery/using/about-mobile-app-channel.md">Más información</a> <br /> </td> 
    <td> Todo<br /> </td> 
   </tr> 
   <tr> 
@@ -155,7 +157,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
-   <td> Acceso a datos externos (acceso de datos federado)<br /> </td> 
+   <td> Acceso a datos externos (Acceso de datos federado)<br /> </td> 
    <td> Proporciona la opción Acceso de Datos Federados (FDA) para procesar la información almacenada en una o más bases de datos externas de modo que pueda acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign.  Opcional. <a href="../../workflow/using/accessing-an-external-database--fda-.md">Más información</a> <br /> </td> 
    <td> Todo<br /> </td> 
   </tr> 
@@ -170,7 +172,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
    <td> Todo </td> 
   </tr> 
   <tr> 
-   <td> Administración de cupones<br /> </td> 
+   <td> Gestión de cupones<br /> </td> 
    <td> Crea un conjunto de cupones para añadirlos a las próximas ofertas de marketing. Opcional. <a href="../../delivery/using/personalized-coupons.md">Más información</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
@@ -195,7 +197,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
    <td> Marketing </td> 
   </tr> 
   <tr> 
-   <td> Integración de AEM<br /> </td> 
+   <td> Integración AEM<br /> </td> 
    <td> Permite administrar el contenido de los envíos de los correos electrónicos y los formularios directamente en Adobe Experience Manager para beneficiarse de AEM funcionalidades de edición de contenido, así como de las capacidades de envío de Adobe Campaign. <a href="../../integrations/using/about-adobe-experience-manager.md">Más información</a> <br /> </td> 
    <td> Marketing</td> 
   </tr> 
@@ -241,14 +243,14 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
 
 Debe instalar canales de envío (correo electrónico, canal móvil, canal de aplicación móvil, etc.) antes de instalar la mensajería transaccional (paquete del centro de mensajes). Si ha iniciado un proyecto de Centro de mensajes solo de correo electrónico y necesita agregar un canal nuevo posteriormente, debe seguir estos pasos:
 
-1. Instale el nuevo canal, por ejemplo el **Mobile channel**, mediante el asistente de importación de paquetes ( **[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**).
+1. Instale el nuevo canal, por ejemplo el **Canal móvil**, con el asistente de importación de paquetes ( **[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**).
 1. Importe el archivo ( **[!UICONTROL Tools > Advanced > Import package > File]**) y seleccione:
 
    ```
    \datakit\nms\[Your language]\package\messageCenter.xml
    ```
 
-1. En **[!UICONTROL XML data content to import]**, mantenga solamente la plantilla de envío del Centro de mensajes correspondiente al canal relacionado. Por ejemplo, si ha agregado el **canal móvil**, mantenga solamente el elemento **entidades** correspondiente a la plantilla **[!UICONTROL Mobile transactional message]** (smsTriggerMessage). Si ha añadido el **Mobile App Channel**, mantenga únicamente las plantillas **iOS transactional message** (iosTriggerMessage) y **Android transactional message** (androidTriggerMessage).
+1. En el **[!UICONTROL XML data content to import]**, mantenga solo la plantilla de entrega del Centro de mensajes correspondiente al canal relacionado. Por ejemplo, si ha añadido la variable **Canal móvil**, mantenga solo el **entities** elemento correspondiente a la variable **[!UICONTROL Mobile transactional message]** (smsTriggerMessage) . Si ha añadido la variable **Canal de aplicaciones móviles**, mantenga solo el **Mensaje transaccional de iOS** plantillas (iosTriggerMessage) y **Mensaje transaccional de Android** (androidTriggerMessage).
 
    ![](assets/messagecenter_install_channel.png)
 

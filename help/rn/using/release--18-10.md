@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 57996f77-4ac2-402a-95db-b75d4bea4eeb
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
-source-wordcount: '2369'
+source-wordcount: '2366'
 ht-degree: 97%
 
 ---
@@ -146,7 +146,7 @@ ht-degree: 97%
 
 **Mejoras**
 
-* Las API de Campaign Classic están ahora disponibles en una [página dedicada](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html). Si utilizó el archivo jsapi.chm, debería consultar la nueva versión en línea.
+* Las API de Campaign Classic están ahora disponibles en una [página dedicada](https://experienceleague.adobe.com/developer/campaign-api/api/index.html). Si utilizó el archivo jsapi.chm, debería consultar la nueva versión en línea.
 * Ahora admite PostgreSQL 10, Debian 9 y Teradata 16.20. Consulte la [matriz de compatibilidades](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html).
 * Al crear una conexión SFTP, ahora puede utilizar la autenticación proxy. Para obtener más información, consulte la [documentación detallada](../../installation/using/file-res-management.md) (NEO-9868).
 * La opción de **fórmula de cálculo de fecha** está disponible en las propiedades de entrega al crear una única entrega con la plantilla de envíos de correo postal. (NEO-9792)

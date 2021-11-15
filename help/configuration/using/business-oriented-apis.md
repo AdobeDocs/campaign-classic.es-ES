@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 3%
+source-wordcount: '632'
+ht-degree: 2%
 
 ---
 
@@ -30,17 +30,17 @@ La API empresarial es específica para cada tipo de objeto. Tienen un efecto en:
    * inicio de un flujo de trabajo,
    * verificación de procesos, etc.
 
-      Consulte los métodos [SOAP en JavaScript](../../configuration/using/soap-methods-in-javascript.md).
+      Consulte [Métodos SOAP en JavaScript](../../configuration/using/soap-methods-in-javascript.md).
 
 * Gestión de contenido
-* Gestión de suscripciones, consulte [Suscribirse (nms:subscription)](#subscribe--nms-subscription-) y [Cancelar suscripción (nms:subscription)](#unsubscribe--nms-subscription-).
+* Gestión de suscripciones, consulte [Suscribirse (nms:subscription)](#subscribe--nms-subscription-) y [Baja de suscripción (nms:subscription)](#unsubscribe--nms-subscription-).
 * Procesos de datos: importaciones, exportaciones.
 
 Esta sección detalla el uso de los servicios &quot;Subscribe&quot;, &quot;Unsubscribe&quot; y &quot;SubmitDelivery&quot;.
 
 >[!IMPORTANT]
 >
->[La ](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html) documentación de JSAPI de Campaign contiene información adicional sobre las llamadas SOAP y el uso de Javascript en Adobe Campaign, así como una referencia completa a todos los métodos y funciones utilizados en la aplicación.
+>[Documentación de JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html) contiene información adicional sobre las llamadas SOAP y el uso de Javascript en Adobe Campaign, así como una referencia completa a todos los métodos y funciones utilizados en la aplicación.
 
 ## Suscribirse (nms:subscription) {#subscribe--nms-subscription-}
 
@@ -65,7 +65,7 @@ Descripción del método &quot;subscribe&quot; en el esquema &quot;nms:subscript
 </method>
 ```
 
-La definición de la clave de reconciliación debe introducirse mediante el atributo _**key** en el elemento `<recipient>` del documento XML. El contenido de este atributo es una lista XPath separada por comas.
+La definición de la clave de reconciliación debe introducirse mediante _**key** en la variable `<recipient>` elemento del documento XML. El contenido de este atributo es una lista XPath separada por comas.
 
 Esta llamada no devuelve ningún dato, excepto errores.
 
@@ -136,7 +136,7 @@ Descripción del método &quot;Unsubscribe&quot; en el esquema &quot;nms:subscri
 </method>
 ```
 
-La definición de la clave de reconciliación debe introducirse mediante el atributo _key en el elemento `<recipient>` del documento XML. El contenido de este atributo es una lista XPath separada por comas.
+La definición de la clave de reconciliación debe introducirse mediante el atributo _key en la variable `<recipient>` elemento del documento XML. El contenido de este atributo es una lista XPath separada por comas.
 
 Si el destinatario no está presente en la base de datos o no está suscrito al servicio informativo correspondiente, el servicio no realiza ninguna acción y no genera ningún error.
 
@@ -207,7 +207,7 @@ Esta llamada no devuelve ningún dato, excepto errores.
 
 ### Ejemplo de documento XML {#xml-document-example}
 
-Este ejemplo se basa en una plantilla de envío personalizada de una fuente de datos externa (un archivo en este caso). La configuración se describe completamente en la plantilla de envío, por lo que todo lo que queda por enviar cuando se produce la llamada es el contenido del archivo del elemento `<externalsource>` .
+Este ejemplo se basa en una plantilla de envío personalizada de una fuente de datos externa (un archivo en este caso). La configuración se describe completamente en la plantilla de envío, por lo que todo lo que queda por enviar cuando se produce la llamada es el contenido del archivo desde el `<externalsource>` elemento.
 
 ```
 <delivery>

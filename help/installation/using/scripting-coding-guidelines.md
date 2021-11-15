@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
-source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 6%
+source-wordcount: '748'
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 ## Secuencia de comandos
 
-Para obtener más información, consulte [Documentación de JSAPI de Campaign](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
+Para obtener más información, consulte [Documentación de JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html).
 
 Si crea secuencias de comandos con flujos de trabajo, aplicaciones web, jssp, siga estas prácticas recomendadas:
 
@@ -54,9 +54,9 @@ Para evitar inyecciones SQL, las funciones SQL deben agregarse a la lista de per
 
 >[!IMPORTANT]
 >
->Si utiliza una compilación anterior a la 8140, la opción **XtkPassUnknownSQLFunctionsToRDBMS** podría establecerse en &quot;1&quot;. Si desea proteger la base de datos, elimine esta opción (o establézcala en &#39;0&#39;).
+>Si utiliza una compilación anterior a 8140, la variable **XtkPassUnknownSQLFunctionsToRDBMS** se puede establecer en &quot;1&quot;. Si desea proteger la base de datos, elimine esta opción (o establézcala en &#39;0&#39;).
 
-Si utiliza la entrada del usuario para crear filtros en consultas o instrucciones SQL, siempre debe escaparlos (consulte [Campaign JSAPI documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html) - Data protection: funciones de escape). Estas funciones son:
+Si utiliza la entrada del usuario para crear filtros en consultas o instrucciones SQL, siempre tiene que escaparlas (consulte [Documentación de JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html) - Protección de datos: funciones de escape). Estas funciones son:
 
 * NL.XML.escape(data)
 * NL.SQL.escape(data)
@@ -76,7 +76,7 @@ Consulte estas páginas:
 
 Además del modelo de seguridad basado en carpetas, puede utilizar derechos asignados para limitar las acciones del operador:
 
-* Puede agregar algunos filtros del sistema (sysFilter) para evitar que se lean o escriban en sus datos (consulte [esta página](../../configuration/using/filtering-schemas.md)).
+* Puede agregar algunos filtros del sistema (sysFilter) para evitar que se lean o escriban en los datos (consulte [esta página](../../configuration/using/filtering-schemas.md)).
 
    ```
    <sysFilter name="writeAccess">    
@@ -110,17 +110,17 @@ La pantalla carga la entidad completa y también puede mostrarla en la definici�
 
 Se recomienda añadir un captcha en páginas de aterrizaje o de suscripción públicas. Desafortunadamente, añadir un captcha en las páginas del DCE (editor de contenido digital) no es fácil. Le mostraremos cómo añadir un captcha v5 o un reCAPTCHA de Google.
 
-La forma general de añadir un captcha en el DCE es crear un bloque personalizado para incluirlo fácilmente dentro del contenido de la página. Deberá agregar una actividad **Script** y una **Prueba**.
+La forma general de añadir un captcha en el DCE es crear un bloque personalizado para incluirlo fácilmente dentro del contenido de la página. Tendrá que agregar una **Secuencia de comandos** actividad y **Prueba**.
 
 ### Bloque personalizado
 
 1. Vaya a **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Personalization blocks]** y cree uno nuevo.
 
-1. Utilice el tipo de contenido **[!UICONTROL Web application]** y marque **[!UICONTROL Visible in the customization menus]**.
+1. Utilice la variable **[!UICONTROL Web application]** tipo de contenido y comprobar **[!UICONTROL Visible in the customization menus]**.
 
    Para obtener más información, consulte [esta página](../../delivery/using/personalization-blocks.md).
 
-   Este es un ejemplo de **Campaign captcha**:
+   Este es un ejemplo de **Captcha de campaña**:
 
    ```javascript
    <%
@@ -146,7 +146,7 @@ La forma general de añadir un captcha en el DCE es crear un bloque personalizad
    * Antes de usar Google reCAPTCHA, debe registrarse en Google y crear un nuevo sitio reCAPTCHA.
 
       `<div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>`
-   Debería poder desactivar el botón de validación, pero como no tenemos ningún botón o vínculo estándar, es mejor hacerlo en el propio HTML. Para aprender a hacerlo, consulte [esta página](https://developers.google.com/recaptcha/).
+   Debe poder desactivar el botón de validación, pero como no tenemos ningún botón o vínculo estándar, es mejor hacerlo en el propio HTML. Para aprender a hacerlo, consulte [esta página](https://developers.google.com/recaptcha/).
 
 ### Actualización de la aplicación web
 
@@ -154,13 +154,13 @@ La forma general de añadir un captcha en el DCE es crear un bloque personalizad
 
    ![](assets/scripting-captcha.png)
 
-1. Entre la última página y la actividad **[!UICONTROL Storage]**, añada **[!UICONTROL Script]** y **[!UICONTROL Test]**.
+1. Entre la última página y la **[!UICONTROL Storage]** actividad, añada un **[!UICONTROL Script]** y **[!UICONTROL Test]**.
 
-   Conecte la rama **[!UICONTROL True]** a **[!UICONTROL Storage]** y la otra a la página que tendrá el captcha.
+   Conectar la rama **[!UICONTROL True]** a **[!UICONTROL Storage]** y el otro a la página que tendrá el captcha.
 
    ![](assets/scripting-captcha2.png)
 
-1. Edite la condición de la rama True con `"[vars/captchaValid]"` es igual a True.
+1. Editar la condición de la rama True con `"[vars/captchaValid]"` es igual a True.
 
    ![](assets/scripting-captcha3.png)
 
@@ -174,7 +174,7 @@ La forma general de añadir un captcha en el DCE es crear un bloque personalizad
 
 >[!IMPORTANT]
 >
->Para la integración de reCAPTCHA, debe añadir JavaScript del lado del cliente en el HTML (en `<head>...</head>`):
+>Para la integración de reCAPTCHA, debe agregar JavaScript del lado del cliente en el HTML (en `<head>...</head>`):
 >
 >`<script src="https://www.google.com/recaptcha/api.js" async defer></script>`
 

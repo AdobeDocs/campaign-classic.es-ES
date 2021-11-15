@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: 3b8d685642fc74d918a0e312c66d5e4f7b424192
+workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -53,5 +53,5 @@ El contenido de la entrega está listo para configurarse. La definición del con
 
 * [Definición del contenido del correo electrónico](defining-the-email-content.md)
 * [Definición del contenido del SMS](sms-create.md#defining-the-sms-content)
-* [Definición del contenido de correo directo](defining-the-direct-mail-content.md)
+* [Definición del contenido de correo postal](defining-the-direct-mail-content.md)
 * [Notificaciones push](about-mobile-app-channel.md)

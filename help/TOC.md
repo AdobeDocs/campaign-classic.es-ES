@@ -6,10 +6,10 @@ title: Guía de Campaign Classic v7
 user-guide-description: Con Adobe Campaign, puede utilizar datos de clientes enriquecidos para crear, coordinar y ofrecer campañas dinámicas que los clientes realmente deseen mediante correo electrónico, canales móviles, sin conexión y mucho más.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 23c5892189c59008f82ec453c97d24efe82fd2ae
+source-git-commit: 3b8d685642fc74d918a0e312c66d5e4f7b424192
 workflow-type: tm+mt
 source-wordcount: '2566'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -166,8 +166,8 @@ ht-degree: 100%
    + Envío de correo directo {#sending-direct-mail}
       + [Acerca del canal de correo directo](delivery/using/about-direct-mail-channel.md)
       + [Creación de una entrega de correo directo](delivery/using/creating-a-direct-mail-delivery.md)
-      + [Definición del contenido de correo directo](delivery/using/defining-the-direct-mail-content.md)
-      + [Validación](delivery/using/validating.md)
+      + [Definición del contenido de correo postal](delivery/using/defining-the-direct-mail-content.md)
+      + [Validar](delivery/using/validating.md)
    + Uso de plantillas de entrega {#using-delivery-templates}
       + [Acerca de las plantillas](delivery/using/about-templates.md)
       + [Creación de una plantilla de entregas](delivery/using/creating-a-delivery-template.md)
