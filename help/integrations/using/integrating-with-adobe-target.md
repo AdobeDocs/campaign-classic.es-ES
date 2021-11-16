@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Integración con Adobe Target
-description: Integración con Adobe Target
+title: Trabajar con Adobe Campaign y Adobe Target
+description: Obtenga información sobre cómo integrar Adobe Campaign con Adobe Target
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: 2e29d090-b87b-4cff-a703-58e1da082f04
-source-git-commit: b6e24c63ece12f25b7dafe3fede9e38b3aab2427
+source-git-commit: af40fe822c69979a478604595790d4deefd6d5b0
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 40%
+source-wordcount: '198'
+ht-degree: 32%
 
 ---
 
-# Integración con Adobe Target{#integrating-with-adobe-target}
+# Trabajo con Campaign y Target{#integrating-with-adobe-target}
 
 ![](../../assets/common.svg)
 

@@ -5,14 +5,14 @@ description: Acerca de Adobe Experience Manager
 audience: integrations
 content-type: reference
 exl-id: e9756046-fc67-4afd-b7a9-c8d73614f02e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '160'
-ht-degree: 100%
+source-git-commit: af40fe822c69979a478604595790d4deefd6d5b0
+workflow-type: tm+mt
+source-wordcount: '162'
+ht-degree: 96%
 
 ---
 
-# Acerca de Adobe Experience Manager{#about-adobe-experience-manager}
+# Trabajar con Campaign y el Experience Manager{#about-adobe-experience-manager}
 
 ![](../../assets/common.svg)
 
