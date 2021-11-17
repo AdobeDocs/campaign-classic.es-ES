@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: ht
-source-wordcount: '1234'
-ht-degree: 100%
+source-git-commit: 8e6ebec9af0b7865616cf3904c8d400094567bdb
+workflow-type: tm+mt
+source-wordcount: '1242'
+ht-degree: 99%
 
 ---
 
@@ -196,3 +196,6 @@ En determinadas condiciones, se puede modificar una propiedad de una actividad e
 La mayoría de las propiedades de las actividades se pueden calcular dinámicamente, ya sea mediante una plantilla JavaScript o porque las propiedades de flujo de trabajo permiten el cálculo del valor mediante una secuencia de comandos.
 
 Sin embargo, para otras propiedades, debe utilizar la secuencia de comandos de inicialización. Esta secuencia de comandos se evalúa antes de que se ejecute la tarea. La variable **[!UICONTROL activity]** hace referencia a la actividad correspondiente a la tarea. Las propiedades de esta actividad se pueden modificar y afectan solo a esta tarea.
+
+**Temas relacionados**
+[Ejemplos de código JavaScript en flujos de trabajo](javascript-in-workflows.md)
