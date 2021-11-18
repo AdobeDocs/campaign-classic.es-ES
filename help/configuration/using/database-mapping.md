@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 1%
@@ -28,7 +28,7 @@ La asignación SQL de nuestro esquema de ejemplo proporciona el siguiente docume
   </enumeration>  
 
   <element name="recipient" sqltable="CusRecipient">    
-    <attribute desc="Recipient e-mail address" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
+    <attribute desc="Recipient email address" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
     <attribute default="GetDate()" label="Date of creation" name="created" sqlname="tsCreated" type="datetime"/>    
     <attribute enum="gender" label="Gender" name="gender" sqlname="iGender" type="byte"/>    
     <element label="Location" name="location">      
@@ -40,7 +40,7 @@ La asignación SQL de nuestro esquema de ejemplo proporciona el siguiente docume
 
 ## Descripción {#description}
 
-El elemento raíz del esquema ya no es **`<srcschema>`**, sino **`<schema>`**.
+El elemento raíz del esquema ya no es **`<srcschema>`**, pero **`<schema>`**.
 
 Esto nos lleva a otro tipo de documento, que se genera automáticamente a partir del esquema de origen, denominado simplemente esquema. La aplicación Adobe Campaign utilizará este esquema.
 
@@ -50,7 +50,7 @@ Las reglas de nomenclatura SQL son las siguientes:
 
 * tabla: concatenación del área de nombres y nombre del esquema
 
-   En nuestro ejemplo, el nombre de la tabla se introduce mediante el elemento principal del esquema en el atributo **sqltable**:
+   En nuestro ejemplo, el nombre de la tabla se introduce mediante el elemento principal del esquema en la variable **sqltable** atributo:
 
    ```
    <element name="recipient" sqltable="CusRecipient">
@@ -58,10 +58,10 @@ Las reglas de nomenclatura SQL son las siguientes:
 
 * campo: nombre del elemento precedido por un prefijo definido según el tipo (&quot;i&quot; para integer, &quot;d&quot; para double, &quot;s&quot; para string, &quot;ts&quot; para dates, etc.)
 
-   El nombre del campo se introduce mediante el atributo **sqlname** para cada **`<attribute>`** y **`<element>`** escritos:
+   El nombre del campo se introduce mediante la variable **sqlname** atributo para cada tipo **`<attribute>`** y **`<element>`**:
 
    ```
-   <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
+   <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
    ```
 
 >[!NOTE]
@@ -85,9 +85,9 @@ Las restricciones de campo SQL son las siguientes:
 
 ## Campos XML {#xml-fields}
 
-De forma predeterminada, cualquier elemento escrito **`<attribute>`** y **`<element>`** se asigna a un campo SQL de la tabla de esquema de datos. Sin embargo, puede hacer referencia a este campo en XML en lugar de SQL, lo que significa que los datos se almacenan en un campo memo (&quot;mData&quot;) de la tabla que contiene los valores de todos los campos XML. El almacenamiento de estos datos es un documento XML que observa la estructura del esquema.
+De forma predeterminada, cualquier tipo escrito **`<attribute>`** y **`<element>`** se asigna a un campo SQL de la tabla de esquema de datos. Sin embargo, puede hacer referencia a este campo en XML en lugar de SQL, lo que significa que los datos se almacenan en un campo memo (&quot;mData&quot;) de la tabla que contiene los valores de todos los campos XML. El almacenamiento de estos datos es un documento XML que observa la estructura del esquema.
 
-Para rellenar un campo en XML, debe añadir el atributo **xml** con el valor &quot;true&quot; al elemento correspondiente.
+Para rellenar un campo en XML, debe agregar la variable **xml** con el valor &quot;true&quot; al elemento correspondiente.
 
 **Ejemplo**: aquí hay dos ejemplos de uso de campos XML.
 
@@ -97,13 +97,13 @@ Para rellenar un campo en XML, debe añadir el atributo **xml** con el valor &qu
    <element name="comment" xml="true" type="memo" label="Comment"/>
    ```
 
-* Descripción de los datos en formato HTML:
+* Descripción de los datos en formato de HTML:
 
    ```
    <element name="description" xml="true" type="html" label="Description"/>
    ```
 
-   El tipo &quot;html&quot; permite almacenar el contenido HTML en una etiqueta CDATA y mostrar una comprobación de edición HTML especial en la interfaz del cliente de Adobe Campaign.
+   El tipo &quot;html&quot; permite almacenar el contenido del HTML en una etiqueta CDATA y mostrar una comprobación de edición especial del HTML en la interfaz del cliente de Adobe Campaign.
 
 El uso de campos XML permite añadir campos sin necesidad de modificar la estructura física de la base de datos. Otra ventaja es que se utilizan menos recursos (tamaño asignado a campos SQL, límite en el número de campos por tabla, etc.).
 
@@ -126,7 +126,7 @@ Se declara un índice a partir del elemento principal del esquema de datos.
 Los índices obedecen las siguientes reglas:
 
 * Un índice puede hacer referencia a uno o varios campos de la tabla.
-* Un índice puede ser único (para evitar duplicados) en todos los campos si el atributo **unique** contiene el valor &quot;true&quot;.
+* Un índice puede ser único (para evitar duplicados) en todos los campos si la variable **único** contiene el valor &quot;true&quot;.
 * El nombre SQL del índice se determina a partir del nombre SQL de la tabla y el nombre del índice.
 
 >[!NOTE]
@@ -139,7 +139,7 @@ Los índices obedecen las siguientes reglas:
 
 **Ejemplo**:
 
-* Añadir un índice a la dirección de correo electrónico y a la ciudad:
+* Añadir un índice a la dirección de correo electrónico y la ciudad:
 
    ```
    <srcSchema name="recipient" namespace="cus">
@@ -149,7 +149,7 @@ Los índices obedecen las siguientes reglas:
          <keyfield xpath="location/@city"/> 
        </dbindex>
    
-       <attribute name="email" type="string" length="80" label="Email" desc="E-mail address of recipient"/>
+       <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
        <element name="location" label="Location">
          <attribute name="city" type="string" length="50" label="City" userEnum="city"/>
        </element>
@@ -171,7 +171,7 @@ Los índices obedecen las siguientes reglas:
        </dbindex>
    
        <attribute name="id" type="long" label="Identifier"/>
-       <attribute name="email" type="string" length="80" label="Email" desc="E-mail address of recipient"/>
+       <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
      </element>
    </srcSchema>
    ```
@@ -193,8 +193,8 @@ Se declara una clave a partir del elemento principal del esquema de datos.
 Las claves obedecen las siguientes reglas:
 
 * Una clave puede hacer referencia a uno o varios campos de la tabla.
-* Una clave se conoce como &#39;primary&#39; (o &#39;priority&#39;) cuando es la primera del esquema que se rellena o si contiene el atributo **internal** con el valor &quot;true&quot;.
-* Un índice único se declara implícitamente para cada definición de clave. La creación de un índice en la clave se puede evitar añadiendo el atributo **noDbIndex** con el valor &quot;true&quot;.
+* Una clave se conoce como &#39;primary&#39; (o &#39;priority&#39;) cuando es la primera del esquema que se rellena o si contiene la variable **internal** con el valor &quot;true&quot;.
+* Un índice único se declara implícitamente para cada definición de clave. La creación de un índice en la clave se puede evitar añadiendo la variable **noDbIndex** con el valor &quot;true&quot;.
 
 >[!NOTE]
 >
@@ -216,7 +216,7 @@ Las claves obedecen las siguientes reglas:
          <keyfield xpath="location/@city"/> 
        </key>
    
-       <attribute name="email" type="string" length="80" label="Email" desc="E-mail address of recipient"/>
+       <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
        <element name="location" label="Location">
          <attribute name="city" type="string" length="50" label="City" userEnum="city"/>
        </element>
@@ -239,7 +239,7 @@ Las claves obedecen las siguientes reglas:
        <keyfield xpath="location/@city"/>    
       </key>    
    
-      <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
+      <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
       <element label="Location" name="location">      
         <attribute label="City" length="50" name="city" sqlname="sCity" type="string" userEnum="city"/>    
       </element>  
@@ -261,7 +261,7 @@ Las claves obedecen las siguientes reglas:
        </key>
    
        <attribute name="id" type="long" label="Identifier"/>
-       <attribute name="email" type="string" length="80" label="Email" desc="E-mail address of recipient"/>
+       <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
      </element>
    </srcSchema>
    ```
@@ -284,18 +284,18 @@ Las claves obedecen las siguientes reglas:
        </key>    
    
        <attribute label="Identifier" name="id" sqlname="iRecipientId" type="long"/>    
-       <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>  
+       <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>  
      </element>
    </schema>
    ```
 
 ### Clave incremental automática {#auto-incremental-key}
 
-La clave principal de la mayoría de las tablas de Adobe Campaign es un entero de 32 bits de longitud autogenerado por el motor de base de datos. El cálculo del valor clave depende de una secuencia (de forma predeterminada, la función **XtkNewId** SQL) que genere un número único en toda la base de datos. El contenido de la clave se introduce automáticamente al insertar el registro.
+La clave principal de la mayoría de las tablas de Adobe Campaign es un entero de 32 bits de longitud autogenerado por el motor de base de datos. El cálculo del valor clave depende de una secuencia (de forma predeterminada, la variable **XtkNewId** función SQL) generando un número único en toda la base de datos. El contenido de la clave se introduce automáticamente al insertar el registro.
 
 La ventaja de una clave incremental es que proporciona una clave técnica no modificable para las uniones entre tablas. Además, esta clave no ocupa mucha memoria porque utiliza un entero de doble byte.
 
-Puede especificar en el esquema de origen el nombre de la secuencia que se utilizará con el atributo **pkSequence**. Si este atributo no se proporciona en el esquema de origen, se utilizará la secuencia predeterminada **XtkNewId**. La aplicación utiliza secuencias dedicadas para los esquemas **nms:broadLog** y **nms:trackingLog** (**NmsBroadLogId** y **NmsTrackingLogId** respectivamente) porque estas son las tablas que contienen la mayoría de los registros.
+Puede especificar en el esquema de origen el nombre de la secuencia que se utilizará con la variable **pkSequence** atributo. Si este atributo no se proporciona en el esquema de origen, la variable **XtkNewId** se utilizará la secuencia predeterminada. La aplicación utiliza secuencias dedicadas para el **nms:broadLog** y **nms:trackingLog** esquemas (**NmsBroadLogId** y **NmsTrackingLogId** respectivamente) porque son las tablas que contienen la mayoría de los registros.
 
 Desde ACC 18.10, **XtkNewId** ya no es el valor predeterminado de la secuencia en los esquemas predeterminados. Ahora puede crear un esquema o ampliar el esquema existente con una secuencia dedicada.
 
@@ -305,9 +305,9 @@ Desde ACC 18.10, **XtkNewId** ya no es el valor predeterminado de la secuencia e
 
 >[!NOTE]
 >
->Una secuencia a la que se hace referencia en un esquema de Adobe Campaign (**NmsTrackingLogId**, por ejemplo) debe asociarse con una función SQL que devuelva el número de ID de los parámetros separados por comas. Esta función debe llamarse **GetNew** XXX **Ids**, donde **XXX** es el nombre de la secuencia (**GetNewNmsTrackingLogIds**, por ejemplo). Vea los archivos **postgres-nms.sql**, **mssql-nms.sql** o **oracle-nms.sql** proporcionados con la aplicación en el directorio **datakit/nms/eng/sql/** para recuperar el ejemplo de un &#39;NmsSQL Creación de secuencia de TrackingLogId para cada motor de base de datos.
+>Secuencia a la que se hace referencia en un esquema de Adobe Campaign (**NmsTrackingLogId** por ejemplo) debe asociarse con una función SQL que devuelva el número de ID de los parámetros separados por comas. Se debe llamar a esta función **GetNew** XXX **Id**, donde **XXX** es el nombre de la secuencia (**GetNewNmsTrackingLogIds** por ejemplo). Consulte la **postgres-nms.sql**, **mssql-nms.sql** o **oracle-nms.sql** archivos proporcionados con la aplicación en la **datakit/nms/eng/sql/** para recuperar el ejemplo de creación de secuencia &#39;NmsTrackingLogId&#39; para cada motor de base de datos.
 
-Para declarar una clave única, rellene el atributo **autopk** (con el valor &quot;true&quot;) en el elemento principal del esquema de datos.
+Para declarar una clave única, rellene la variable **autopk** (con el valor &quot;true&quot;) en el elemento principal del esquema de datos.
 
 **Ejemplo**:
 
@@ -382,29 +382,29 @@ Se debe declarar un vínculo en el esquema que contenga la clave externa de la t
 
 Los vínculos obedecen a las siguientes reglas:
 
-* La definición de un vínculo se introduce en **link**-type **`<element>`** con los siguientes atributos:
+* La definición de un vínculo se introduce en una **vínculo**-type **`<element>`** con los siguientes atributos:
 
-   * **nombre**: nombre del vínculo de la tabla de origen,
+   * **name**: nombre del vínculo de la tabla de origen,
    * **target**: nombre del esquema de destino,
-   * **etiqueta**: etiqueta del vínculo,
-   * **revLink**  (opcional): nombre del vínculo inverso del esquema de destino (deducido automáticamente de forma predeterminada),
-   * **integridad**  (opcional): integridad referencial de la aparición de la tabla de origen a la aparición de la tabla de destino. Los valores posibles son los siguientes:
+   * **label**: etiqueta del vínculo,
+   * **revLink** (opcional): nombre del vínculo inverso del esquema de destino (deducido automáticamente de forma predeterminada),
+   * **integridad** (opcional): integridad referencial de la aparición de la tabla de origen a la aparición de la tabla de destino. Los valores posibles son los siguientes:
 
-      * **definir**: es posible eliminar la incidencia de origen si ya no se hace referencia a ella en una incidencia de destino,
+      * **define**: es posible eliminar la incidencia de origen si ya no se hace referencia a ella en una incidencia de destino,
       * **normal**: al eliminar la ocurrencia de origen, se inicializan las claves del vínculo a la ocurrencia de destino (modo predeterminado), este tipo de integridad inicializa todas las claves externas,
-      * **propio**: la eliminación de la ocurrencia de origen conduce a la eliminación de la ocurrencia de destino,
-      * **Descargar**: igual que  **own**  (en caso de eliminación) o duplica los sucesos (en caso de duplicación),
-      * **neutro**: no hace nada.
-   * **revIntegrity**  (opcional): integridad en el esquema de destino (opcional, &quot;normal&quot; de forma predeterminada),
-   * **revCardinality**  (opcional): con el valor &quot;simple&quot; rellena la cardinalidad con el tipo 1-1 (1-N de forma predeterminada).
-   * **externalJoin**  (opcional): fuerza la unión exterior
-   * **revExternalJoin**  (opcional): fuerza la unión exterior en el enlace inverso
+      * **own**: la eliminación de la ocurrencia de origen conduce a la eliminación de la ocurrencia de destino,
+      * **Descargar**: el mismo **own** (en caso de eliminación) o duplica los sucesos (en caso de duplicación),
+      * **neutral**: no hace nada.
+   * **revIntegrity** (opcional): integridad en el esquema de destino (opcional, &quot;normal&quot; de forma predeterminada),
+   * **revCardinality** (opcional): con el valor &quot;simple&quot; rellena la cardinalidad con el tipo 1-1 (1-N de forma predeterminada).
+   * **externalJoin** (opcional): fuerza la unión exterior
+   * **revExternalJoin** (opcional): fuerza la unión exterior en el enlace inverso
 
 
-* Un vínculo hace referencia a uno o varios campos de la tabla de origen a la tabla de destino. Los campos que componen la unión (elemento `<join>` ) no necesitan rellenarse porque se deducen automáticamente de forma predeterminada mediante la clave interna del esquema de destino.
+* Un vínculo hace referencia a uno o varios campos de la tabla de origen a la tabla de destino. Los campos que componen la unión ( `<join>`  element) no es necesario rellenarlos porque se deducen automáticamente de forma predeterminada mediante la clave interna del esquema de destino.
 * Se añade automáticamente un índice a la clave externa del vínculo en el esquema extendido.
 * Un vínculo consta de dos vínculos intermedios, donde el primero se declara desde el esquema de origen y el segundo se crea automáticamente en el esquema ampliado del esquema de destino.
-* Una unión puede ser una unión externa si se agrega el atributo **externalJoin** con el valor &quot;true&quot; (compatible con PostgreSQL).
+* Una unión puede ser una unión externa si la variable **externalJoin** se agrega, con el valor &quot;true&quot; (compatible con PostgreSQL).
 
 >[!NOTE]
 >
@@ -467,7 +467,7 @@ Esquema ampliado del objetivo (&quot;cus:company&quot;):
 
 Se ha añadido un vínculo inverso a la tabla &quot;cus:recipient&quot; con los siguientes parámetros:
 
-* **nombre**: deducido automáticamente del nombre del esquema de origen (se puede forzar con el atributo &quot;revLink&quot; en la definición del vínculo en el esquema de origen)
+* **name**: deducido automáticamente del nombre del esquema de origen (se puede forzar con el atributo &quot;revLink&quot; en la definición del vínculo en el esquema de origen)
 * **revLink**: nombre del vínculo inverso
 * **target**: clave del esquema vinculado (&quot;cus:recipient&quot; schema)
 * **unbound**: el vínculo se declara como un elemento de recopilación para una cardinalidad 1-N (de forma predeterminada)
@@ -508,7 +508,7 @@ El valor predeterminado devuelve el identificador del primer archivo de tipo de 
 
 ### Ejemplo 5 {#example-5}
 
-En este ejemplo, deseamos crear una clave en un vínculo (&quot;empresa&quot; al esquema &quot;cus:empresa&quot;) con el atributo **xlink** y un campo de la tabla (&quot;correo electrónico&quot;):
+En este ejemplo, deseamos crear una clave en un vínculo (&quot;empresa&quot; a esquema &quot;cus:empresa&quot;) con la variable **xlink** y un campo de la tabla (&quot;correo electrónico&quot;):
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -543,7 +543,7 @@ El esquema generado:
       <keyfield xpath="@company-id"/>    
     </key>
 
-    <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>
+    <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>
     <element label="Company" name="company" revLink="recipient" target="sfa:company" type="link">      
       <join xpath-dst="@id" xpath-src="@company-id"/>    
     </element>    

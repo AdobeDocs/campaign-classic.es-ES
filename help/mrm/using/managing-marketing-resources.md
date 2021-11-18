@@ -6,8 +6,8 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: f661e1d1-de2f-4c6a-bbff-e3ffcd1831f0
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+workflow-type: tm+mt
 source-wordcount: '1386'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Puede modificar y actualizar un recurso de marketing y, si fuera necesario, info
 
 >[!NOTE]
 >
->La pestaña **[!UICONTROL History]** contiene el registro de descargas y actualizaciones del recurso. El botón **[!UICONTROL Details]** permite ver la versión seleccionada:
+>La pestaña **[!UICONTROL History]** contiene el registro de descargas y actualizaciones del recurso. El botón **[!UICONTROL Details]** permite ver la versión seleccionada.
 
 ### Bloqueo/desbloqueo de un recurso {#locking-unlocking-a-resource}
 

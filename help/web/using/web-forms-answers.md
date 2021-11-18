@@ -6,10 +6,10 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -123,13 +123,13 @@ Este cuadro se puede utilizar de dos formas:
 
    >[!CAUTION]
    >
-   >Esta opción anula los datos del usuario, incluso la dirección de correo electrónico si hay un campo en el que pueda introducirla. No se puede utilizar para crear perfiles nuevos y requiere el uso de un cuadro de precarga en el formulario.
+   >Esta opción anula los datos del usuario, incluida la dirección de correo electrónico si hay un campo en el que pueda introducirla. No se puede utilizar para crear perfiles nuevos y requiere el uso de un cuadro de precarga en el formulario.
 
 * Para enriquecer los datos de los destinatarios en la base de datos, edite el cuadro de almacenamiento y seleccione la clave de reconciliación. Para uso interno (normalmente un sistema intranet) o para un formulario utilizado para crear perfiles nuevos, se pueden seleccionar los campos de reconciliación. El cuadro ofrece todos los campos de la base de datos utilizados en las distintas páginas de la aplicación web:
 
    ![](assets/s_ncs_admin_survey_save_box_edit.png)
 
-De forma predeterminada, los datos se importan en la base de datos mediante una operación **[!UICONTROL Update or insertion]**: si existe en la base de datos, el elemento se actualiza (por ejemplo, el boletín informativo seleccionado o la dirección de correo electrónico ingresada). Si no existe, se añade la información.
+De forma predeterminada, los datos se importan en la base de datos mediante un **[!UICONTROL Update or insertion]** operación: si existe en la base de datos, el elemento se actualiza (por ejemplo, el boletín informativo seleccionado o la dirección de correo electrónico ingresada). Si no existe, se añade la información.
 
 Sin embargo, se puede cambiar este comportamiento. Para ello, seleccione la raíz del elemento y la operación que desea ejecutar en la lista desplegable:
 

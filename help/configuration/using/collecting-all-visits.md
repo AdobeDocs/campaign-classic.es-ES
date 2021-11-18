@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: cc554d0d-bbab-4f72-b870-5fef5a2fda9d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 3%
@@ -29,11 +29,11 @@ Un usuario conocido por la plataforma es un destinatario que ya ha sido identifi
 
 ## Configuración del servidor {#server-configuration}
 
-Los servidores se configuran sobrecargando ciertos elementos del archivo **serverConf.xml**. Estos archivos se guardan en el subdirectorio **conf** del directorio de instalación de Adobe Campaign.
+Los servidores se configuran sobrecargando ciertos elementos de la variable **serverConf.xml** archivo. Estos archivos se guardan en la variable **conf** subdirectorio del directorio de instalación de Adobe Campaign.
 
 ### Servidor de redirección {#redirection-server}
 
-Para el servidor de redirección, establezca el atributo **trackWebVisitors** del elemento **redirección** en **true**.
+Para el servidor de redirección, establezca la variable **trackWebVisitors** del **redirección** elemento a **true**.
 
 ```
 <redirection P3PCompactPolicy="CAO DSP COR CURa DEVa TAIa OUR BUS IND UNI COM NAV"
@@ -46,7 +46,7 @@ trackingPassword=""
 
 Para ver la información de seguimiento a través de la consola del cliente, debe:
 
-* Crear un **envío ficticio** (la asignación de envío debe ser idéntica a la asignación del esquema de destino),
-* Introduzca el **internal name** de este envío en la opción **NmsTracking_WebTrackingDelivery**.
+* Cree un **envío ficticio** (la asignación de entrega debe ser idéntica a la asignación del esquema de destino),
+* Introduzca la variable **nombre interno** de esta entrega en la variable **NmsTracking_WebTrackingDelivery** .
 
-Toda la información de seguimiento del sitio que no sea directamente posterior a un clic en un mensaje de correo electrónico se puede ver en el envío ficticio creado.
+Toda la información de seguimiento del sitio que no sea directamente posterior a un clic en un correo electrónico se puede ver en la entrega ficticia creada.

@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: 91c31703-75e6-47a4-a877-35682dd687a9
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 4%
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 Además del seguimiento estándar que muestra el comportamiento de un usuario de Internet al hacer clic en un vínculo de un mensaje de correo electrónico, la plataforma de Adobe Campaign permite recopilar información sobre cómo los usuarios de Internet exploran el sitio web. Esta recopilación de datos se realiza mediante el módulo de seguimiento web.
 
-Cuando un usuario de Internet hace clic en un vínculo rastreado en un correo electrónico de una entrega determinada, el servidor de redirección contactado deposita una cookie de sesión que contiene el identificador de broadlog (broadlogId) y el identificador de la entrega (deliveryId).
+Cuando un usuario de Internet hace clic en un vínculo rastreado en un correo electrónico desde un envío determinado, el servidor de redirección contactado deposita una cookie de sesión que contiene el identificador de broadlog (broadlogId) y el identificador de envío (deliveryId).
 
 A continuación, el cliente web envía esta cookie al servidor cada vez que el usuario visita una página que contiene una etiqueta de seguimiento web. Esto continúa durante toda la sesión, es decir, hasta que se cierra el cliente web.
 

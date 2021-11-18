@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 3%
@@ -25,7 +25,7 @@ Utilice el puerto Apache Tomcat incrustado como prioridad (8080 de forma predete
 
 ### Servidor de entrega {#delivery-server}
 
-Para el servidor de entrega (**nlserver mta**), deben abrirse los puertos siguientes:
+Para el servidor de entrega (**mta nlserver**), los puertos siguientes deben estar abiertos:
 
 <table> 
  <tbody> 
@@ -37,7 +37,7 @@ Para el servidor de entrega (**nlserver mta**), deben abrirse los puertos siguie
   <tr> 
    <td> 25/tcp (smtp)<br /> </td> 
    <td> Anywhere<br /> </td> 
-   <td> Tráfico SMTP para difusión por correo electrónico.<br /> </td> 
+   <td> Tráfico SMTP para la difusión por correo electrónico.<br /> </td> 
   </tr> 
   <tr> 
    <td> 53/udp (dominio)<br /> </td> 
@@ -59,7 +59,7 @@ Para el servidor de entrega (**nlserver mta**), deben abrirse los puertos siguie
 
 ### Correo entrante {#inbound-mail}
 
-Para el proceso de recuperación de correo entrante (**nlserver inMail**), deben abrirse los puertos siguientes:
+Para el proceso de recuperación de correo entrante (**nlserver inMail**), los puertos siguientes deben estar abiertos:
 
 <table> 
  <tbody> 
@@ -83,7 +83,7 @@ Para el proceso de recuperación de correo entrante (**nlserver inMail**), deben
 
 ### Servidor de aplicaciones {#application-server}
 
-Para el servidor de aplicaciones (**nlserver web**), deben abrirse los puertos siguientes:
+Para el servidor de aplicaciones (**nlserver web**), los puertos siguientes deben estar abiertos:
 
 <table> 
  <tbody> 
@@ -95,7 +95,7 @@ Para el servidor de aplicaciones (**nlserver web**), deben abrirse los puertos s
   <tr> 
    <td> 80/tcp (http)<br /> 443/tcp (https)<br /> </td> 
    <td> Anywhere<br /> </td> 
-   <td> Tráfico HTTP o HTTPS (incluida la oferta de capacidad de envío).<br /> </td> 
+   <td> Tráfico HTTP o HTTPS (incluido para la oferta de capacidad de envío).<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -104,7 +104,7 @@ Cuando varios servidores de aplicaciones de una plataforma de Adobe Campaign nec
 
 ### Estado de envío de SMS {#sms-delivery-status}
 
-Para realizar un seguimiento de los envíos SMS (**nlserver sms**), debe estar abierto el siguiente puerto:
+Para rastrear envíos de SMS (**nlserver sms**), el siguiente puerto debe estar abierto:
 
 <table> 
  <tbody> 
@@ -116,14 +116,14 @@ Para realizar un seguimiento de los envíos SMS (**nlserver sms**), debe estar a
   <tr> 
    <td> 38000/tcp (puerto predeterminado)<br /> </td> 
    <td> Puerta de enlace SMS<br /> </td> 
-   <td> Consulta el estado de la cola de entrega administrada por la puerta de enlace de SMS NetSize [opción].<br /> </td> 
+   <td> Consulta el estado de la cola de entrega gestionada por la puerta de enlace SMS NetSize [opción].<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Cliente enriquecido {#rich-client}
 
-Para el cliente enriquecido de Adobe Campaign (**nlclient**), deben abrirse los puertos siguientes:
+Para el cliente enriquecido de Adobe Campaign (**nlclient**), los puertos siguientes deben estar abiertos:
 
 <table> 
  <tbody> 
@@ -204,7 +204,7 @@ Este servidor aloja formularios web, páginas espejo, etc. Los puertos siguiente
   </tr> 
   <tr> 
    <td><p> 80/tcp (http)</p><p> 443/tcp (https)</p><br /> </td> 
-   <td> En cualquier parte. Necesario cuando los formularios web se administran directamente desde la plataforma Adobe Campaign o cuando se utilizan páginas espejo.<br /> </td> 
+   <td> En cualquier parte. Necesario cuando los formularios web se administran directamente desde la plataforma de Adobe Campaign o cuando se utilizan páginas espejo.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -236,18 +236,18 @@ La integración entre Adobe Campaign y Adobe Experience Manager requiere la aper
   </tr> 
   <tr> 
    <td> 80<br /> </td> 
-   <td> AEM conexión con Adobe Campaign<br /> </td> 
+   <td> AEM conexión a Adobe Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td><p> 4502</p><p> 4503</p><br /> </td> 
-   <td> Conexión de Adobe Campaign a AEM instancias de "creación" y "publicación". Los puertos que se van a abrir pueden ser diferentes de los puertos predeterminados, según la configuración de AEM.<br /> </td> 
+   <td> Conexión de Adobe Campaign a AEM instancias de "creación" y "publicación". Los puertos que se van a abrir pueden ser diferentes de los puertos predeterminados, según la configuración AEM.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Ancho de banda {#bandwidth}
 
-Otro parámetro clave de la configuración de red a tener en cuenta. Es casi siempre saliente y muy demandada durante las transmisiones de correo electrónico. A continuación se muestran algunos ejemplos de configuraciones basadas en nuestra experiencia:
+Otro parámetro clave de la configuración de red a tener en cuenta. Es casi siempre saliente y está muy demandado durante las transmisiones de correo electrónico. A continuación se muestran algunos ejemplos de configuraciones basadas en nuestra experiencia:
 
 * 1 Mb/s para 10.000 correos electrónicos por hora (tamaño medio de 30 Kb)
 * 8 a 10 Mb/s para 100.000 correos electrónicos por hora (tamaño medio de 30 Kb)

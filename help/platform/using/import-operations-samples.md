@@ -6,8 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4582b524-2b6d-484c-bace-29d2e69f60e9
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 100%
 
@@ -177,7 +177,7 @@ Siga estos pasos:
    * Mantenga la opción **[!UICONTROL Management of duplicates]** en modo **[!UICONTROL Update]** para que los registros existentes en la base de datos se actualicen con los datos del archivo de texto.
    * Coloque el cursor en el nodo **[!UICONTROL Last name (@lastName)]** seleccione la opción **[!UICONTROL Update only if destination is empty]**.
    * Repita esta operación para el nodo **[!UICONTROL Company (@company)]**.
-   * Asigne una clave de reconciliación a los campos **[!UICONTROL Birth date]**, **[!UICONTROL E-mail]** y **[!UICONTROL First name]**.
+   * Asigne una clave de reconciliación a los campos **[!UICONTROL Birth date]**, **[!UICONTROL Email]** y **[!UICONTROL First name]**.
 
       ![](assets/s_ncs_user_import_example04_03.png)
 
@@ -225,7 +225,7 @@ En este ejemplo puede comprobar que ciertos campos del archivo de texto tienen u
    * Seleccione la opción **[!UICONTROL Reject entity]** en el campo **[!UICONTROL Management of doubles]**.
    * Deje la opción **[!UICONTROL Management of duplicates]** en modo **[!UICONTROL Update]** para que los registros existentes de la base de datos se modifiquen con los datos del archivo de texto.
    * Coloque el cursor en el nodo **[!UICONTROL Account number (@account)]** seleccione la opción **[!UICONTROL Take empty values into account]**.
-   * Seleccione los campos **[!UICONTROL Birth date]**, **[!UICONTROL E-mail]** y **[!UICONTROL First name]** y asígneles una clave de reconciliación.
+   * Seleccione los campos **[!UICONTROL Birth date]**, **[!UICONTROL Email]** y **[!UICONTROL First name]** y asígneles una clave de reconciliación.
 
       ![](assets/s_ncs_user_import_example04_04.png)
 

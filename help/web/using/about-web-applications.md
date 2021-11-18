@@ -6,10 +6,10 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+workflow-type: tm+mt
 source-wordcount: '689'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -46,7 +46,7 @@ Las aplicaciones web de Adobe Campaign proporcionan acceso a las siguientes func
 * Visualización condicional de los campos de encuesta según las respuestas. Para obtener más información, consulte [esta página](form-rendering.md#defining-fields-conditional-display).
 * Visualización aleatoria de preguntas. Para obtener más información, consulte [esta página](../../surveys/using/building-a-survey.md#adding-questions).
 * Visualización condicional de la página. Para obtener más información, consulte [esta página](defining-web-forms-page-sequencing.md#conditional-page-display).
-* La información se comprueba antes de la validación según el tipo de datos esperado (número, dirección de correo electrónico, fecha, etc.) y los campos obligatorios. Para obtener más información, consulte [esta página](form-rendering.md#defining-control-settings).
+* La información se comprueba antes de la validación según el tipo de datos esperado (número, dirección de correo electrónico, fecha, etc.) y los campos obligatorios. Para obtener más información, consulte esta [página](form-rendering.md#defining-control-settings).
 * Invitaciones o notificaciones por correo electrónico. Para obtener más información, consulte [esta página](publishing-a-web-form.md#delivering-a-form-via-email).
 * Personalización de mensajes de error y de fin. Para obtener más información, consulte [esta página](defining-web-forms-properties.md#setting-up-an-error-page).
 * Uso de imágenes, vídeos, vínculos de hipertexto, captcha, etc. Para obtener más información, consulte [esta página](editing-content.md).

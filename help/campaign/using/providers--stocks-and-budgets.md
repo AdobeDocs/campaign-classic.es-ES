@@ -6,10 +6,10 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+workflow-type: tm+mt
 source-wordcount: '1902'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -72,11 +72,11 @@ Para crear una plantilla de servicio y definir su contenido, aplique los siguien
 
    ![](assets/s_ncs_user_supplier_node_create_template.png)
 
-1. Cree las categorías de coste para cada tipo de proceso (entrega por correo directo, por correo electrónico, etc. o tarea). Para ello, haga clic en la pestaña **[!UICONTROL Cost categories]** y luego en el botón **[!UICONTROL Add]** e introduzca los parámetros de cada categoría de coste.
+1. Cree las categorías de coste para cada tipo de proceso (envío por correo postal, correo electrónico, etc.). o tarea). Para ello, haga clic en la pestaña **[!UICONTROL Cost categories]** y luego en el botón **[!UICONTROL Add]** e introduzca los parámetros de cada categoría de coste.
 
    ![](assets/s_ncs_user_supplier_node_03.png)
 
-   * Introduzca una etiqueta para esta categoría de coste y seleccione el tipo de proceso correspondiente: Envío por **[!UICONTROL Direct mail]**, **[!UICONTROL E-mail]**, **[!UICONTROL Mobile]**, **[!UICONTROL Telephone]** o **[!UICONTROL Task]**.
+   * Introduzca una etiqueta para esta categoría de coste y seleccione el tipo de proceso correspondiente: Envío por **[!UICONTROL Direct mail]**, **[!UICONTROL Email]**, **[!UICONTROL Mobile]**, **[!UICONTROL Telephone]** o **[!UICONTROL Task]**.
    * Haga clic en el botón **[!UICONTROL Add]** para definir los tipos de coste asociados a esta categoría.
    * Si es necesario, asocie una línea de stock con cada tipo de coste para que las cantidades utilizadas se relacionen automáticamente con el stock disponible.
 
@@ -151,7 +151,7 @@ Para ello, haga clic en la pestaña **[!UICONTROL Processes]** para configurar l
 
    ![](assets/s_ncs_user_supplier_node_02a.png)
 
-* La sección **[!UICONTROL Notification e-mail]** permite especificar la plantilla para enviar una notificación a los proveedores de servicios después de enviar los archivos. Seleccione la plantilla utilizada para crear el mensaje de alerta y el grupo de destinatarios.
+* La sección **[!UICONTROL Notification email]** permite especificar la plantilla para enviar una notificación a los proveedores de servicios después de enviar los archivos. Seleccione la plantilla utilizada para crear el mensaje de alerta y el grupo de destinatarios.
 
    De forma predeterminada, las plantillas de entrega de los mensajes de notificación se guardan en el nodo **[!UICONTROL Administration > Campaign management > Technical delivery templates]**, al que se puede acceder desde la vista general.
 
@@ -161,11 +161,11 @@ Para ello, haga clic en la pestaña **[!UICONTROL Processes]** para configurar l
 
 Los servicios están asociados a campañas a través de entregas o tareas. Los proveedores de servicios están vinculados a plantillas de entrega para ofrecer sus servicios en las entregas creados mediante esta plantilla.
 
-Cuando se selecciona un servicio, las categorías de coste correspondientes al tipo de entrega (correo electrónico, correo directo, etc.) se indican automáticamente en la tabla central junto con las opciones de procesamiento definidas.
+Cuando se selecciona un servicio, las categorías de coste correspondientes al tipo de envío (correo postal, correo electrónico, etc.) se indican automáticamente en la tabla central junto con las opciones de procesamiento que se han definido.
 
 >[!NOTE]
 >
->Si no se muestra ninguna categoría de coste cuando se selecciona un servicio, significa que no se definió ninguna categoría de costes para ese tipo de proceso. Por ejemplo, para una entrega por correo electrónico, si no se ha definido ninguna categoría de coste de tipo **[!UICONTROL E-mail]**, no se muestra ninguna categoría y seleccionar el servicio no causa ningún efecto.
+>Si no se muestra ninguna categoría de coste cuando se selecciona un servicio, significa que no se definió ninguna categoría de costes para ese tipo de proceso. Por ejemplo, para una entrega por correo electrónico, si no se ha definido ninguna categoría de coste de tipo **[!UICONTROL Email]**, no se muestra ninguna categoría y seleccionar el servicio no causa ningún efecto.
 
 * Para una entrega por correo directo, se puede seleccionar el servicio en la ventana de configuración.
 

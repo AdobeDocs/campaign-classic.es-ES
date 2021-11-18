@@ -6,10 +6,10 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+workflow-type: tm+mt
 source-wordcount: '2434'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -171,7 +171,7 @@ Adobe Campaign permite configurar los procesos de aprobación para las etapas pr
 
 Para las entregas de correo directo, los operadores de Adobe Campaign pueden ver el archivo de extracción antes de enviarlo al enrutador y, si es necesario, pueden cambiar el formato y volver a iniciar la extracción. Consulte [Aprobación de un archivo de extracción](#approving-an-extraction-file).
 
-Para cada campaña, puede aprobar el objetivo de entrega, los contenidos (consulte [Aprobación de contenido](#approving-content)) y los costes. Los operadores de Adobe Campaign responsables de la aprobación pueden ser notificados por correo electrónico y aceptar o rechazar la aprobación a través de la consola o de una conexión web. Consulte [Pasos para aprobar un envío](#approving-processes).
+Para cada campaña, puede aprobar el objetivo de entrega, los contenidos (consulte [Aprobación de contenido](#approving-content)) y los costes. Los operadores de Adobe Campaign responsables de la aprobación pueden recibir notificaciones por correo electrónico y aceptar o rechazar la aprobación a través de la consola o de una conexión web. Consulte [Pasos para aprobar un envío](#approving-processes).
 
 Cuando se hayan completado estas fases de validación, se puede iniciar el envío. [Más información](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery).
 
@@ -252,6 +252,7 @@ Para seleccionar una lista de operadores, haga clic en el vínculo **[!UICONTROL
 >* Si se define una lista de revisores, el trabajo se aprueba en cuanto un revisor lo acepte. El vínculo de aprobación correspondiente, en ese caso, ya no se ofrece en el panel. Cuando se activa la entrega de notificaciones, si otro revisor hace clic en el vínculo de aprobación incluido en el mensaje de notificación, se le notifica que otro operador ya ha aprobado el trabajo.
 >* Puede definir una programación de aprobación para la campaña en la sección inferior de la ventana de edición del revisor. De forma predeterminada, los revisores tienen tres días a partir de la fecha de entrega para aprobar un proceso. Es posible configurar un recordatorio que se envíe automáticamente a los operadores antes de la fecha límite de aprobación.
 >* Puede agregar recordatorios en esta sección.
+
 >
 
 

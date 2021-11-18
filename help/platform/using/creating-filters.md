@@ -6,8 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+workflow-type: tm+mt
 source-wordcount: '1963'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ En Adobe Campaign, están disponibles estos tipos de filtros:
 <!--
   >[!NOTE]
   >
-  >The **%** character replaces any character string. For example, the string `%@yahoo.com` lets you display all the profiles with an e-mail address in the domain "yahoo.com".
+  >The **%** character replaces any character string. For example, the string `%@yahoo.com` lets you display all the profiles with an email address in the domain "yahoo.com".
 -->
 Puede cambiar el filtro predeterminado de una lista. Para más información, consulte [Modificación del filtro predeterminado](#altering-the-default-filter).
 
