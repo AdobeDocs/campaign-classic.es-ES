@@ -19,7 +19,7 @@ ht-degree: 9%
 
 ## Configuración de red
 
-Una cosa muy importante que debe comprobar al implementar un tipo de arquitectura local es la [configuración de red](../../installation/using/network-configuration.md). Asegúrese de que NO se pueda acceder directamente al servidor Tomcat desde fuera del servidor:
+Un aspecto muy importante que debe comprobar al implementar un tipo de arquitectura local es la [configuración de red](../../installation/using/network-configuration.md). Asegúrese de que NO se pueda acceder directamente al servidor Tomcat desde fuera del servidor:
 
 * Cierre el puerto Tomcat (8080) en direcciones IP externas (debe funcionar en localhost)
 * No asigne el puerto HTTP estándar (80) al puerto Tomcat (8080)
@@ -50,7 +50,7 @@ openssl x509 -noout -subject -dates
 nmap --script ssl-enum-ciphers -p ${REMPORT} ${REMHOST}
 ```
 
-También puede utilizar un script de Python [sslyze](https://github.com/nabla-c0d3/sslyze/releases) que haga ambos.
+También puede usar un [sslyze](https://github.com/nabla-c0d3/sslyze/releases) script python que hace ambos.
 
 ```
 python sslyze.py --sslv2 --sslv3 --tlsv1 --reneg --resum --certinfo=basic --hide_rejected_ciphers --sni=SNI myserver.com

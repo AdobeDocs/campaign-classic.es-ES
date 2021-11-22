@@ -21,25 +21,25 @@ La plataforma de Adobe Campaign se basa en el concepto de instancias, similar al
 
 Para un servidor determinado, hay dos elementos que son comunes a todas las instancias de Adobe Campaign:
 
-* La contraseña **internal**: es la contraseña general del administrador. Es común a todas las instancias de un servidor de aplicaciones en particular.
+* La variable **internal** contraseña: es la contraseña general del administrador. Es común a todas las instancias de un servidor de aplicaciones en particular.
 
    >[!IMPORTANT]
    >
-   >Para iniciar sesión con el identificador **Internal**, debe haber definido previamente una contraseña. Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#internal-identifier).
+   >Para iniciar sesión con el **Internas** , debe haber definido previamente una contraseña. Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 * Varias configuraciones técnicas del servidor: estas configuraciones se pueden sobrecargar en la configuración específica de una instancia.
 
-Los archivos de configuración se guardan en el directorio **conf** del directorio de instalación. La configuración se divide en tres archivos:
+Los archivos de configuración se guardan en la variable **conf** del directorio de instalación. La configuración se divide en tres archivos:
 
 * **serverConf.xml**: configuración general para todas las instancias.
-* **config-**`<instance>`**.xml**  (donde  **`<instance>`** es el nombre de instancia): configuración específica de una instancia.
+* **config-**`<instance>`**.xml** (donde **`<instance>`** es el nombre de instancia): configuración específica de una instancia.
 * **serverConf.xml.diff**: delta entre la configuración inicial y la configuración actual. La aplicación genera automáticamente este archivo y no debe modificarse manualmente. Se utiliza para propagar automáticamente las modificaciones del usuario al actualizar una versión de compilación.
 
 Una configuración de instancia se carga de la siguiente manera:
 
-* El módulo carga el archivo **serverConf.xml** para obtener los parámetros compartidos por todas las instancias.
-* A continuación, carga el archivo **config-**`<instance>`**.xml**. Los valores encontrados en este archivo tienen prioridad sobre los valores contenidos en **serverConf.xml**.
+* El módulo carga la variable **serverConf.xml** para obtener los parámetros compartidos por todas las instancias.
+* Luego carga el **config-**`<instance>`**.xml** archivo. Los valores encontrados en este archivo tienen prioridad sobre los valores contenidos en **serverConf.xml**.
 
-   Estos dos archivos tienen el mismo formato. Cualquier valor de **serverConf.xml** puede sobrecargarse para una instancia determinada en el archivo **config-`<instance>`.xml**.
+   Estos dos archivos tienen el mismo formato. Cualquier valor de **serverConf.xml** se puede sobrecargar para una instancia determinada en el **config-`<instance>`.xml** archivo.
 
 Este modo operativo proporciona buena flexibilidad para las configuraciones.

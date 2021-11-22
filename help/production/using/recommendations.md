@@ -17,10 +17,10 @@ ht-degree: 2%
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaign es un sistema altamente transaccional (base de datos OLTP). Esto significa que la base de datos subyacente se actualizará con frecuencia, lo que provoca una degradación del rendimiento a lo largo del tiempo. Para evitar este tipo de problema, es necesario realizar un mantenimiento regular de la base de datos.
+Adobe Campaign is a highly transactional system (OLTP database). Esto significa que la base de datos subyacente se actualizará con frecuencia, lo que provoca una degradación del rendimiento a lo largo del tiempo. Para evitar este tipo de problema, es necesario realizar un mantenimiento regular de la base de datos.
 
 >[!IMPORTANT]
 >
->Una base de datos solo funcionará de forma óptima si se mantiene de forma regular. El mantenimiento automático ofrecido por algunos RDBMS no es suficiente y no sustituye el mantenimiento en profundidad, como ocurre con los sistemas de gestión transaccional de bases de datos relacionales.
+>A database will only perform optimally if it is maintained on a regular basis. The automatic maintenance offered by some RDBMS is not sufficient and does not replace in-depth maintenance, as for any relational database transactional management systems.
 >  
->Los procedimientos descritos en este documento son recomendaciones. Los planes de mantenimiento son responsabilidad del administrador de la base de datos, que debe ser su primer contacto en caso de problemas.
+>Los procedimientos descritos en este documento son recomendaciones. Maintenance plans are the responsibility of your database administrator, who must be your first contact in case of problems.

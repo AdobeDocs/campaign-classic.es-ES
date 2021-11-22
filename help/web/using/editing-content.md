@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: editing-html-content
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 100%
 
@@ -137,6 +137,7 @@ Los bloques y campos de personalización solo se pueden insertar en bloques de t
 >* Nueva ventana (_blank)
 >* Ventana actual (_self)
 >* Comportamiento predeterminado del navegador
+
 >
 
 

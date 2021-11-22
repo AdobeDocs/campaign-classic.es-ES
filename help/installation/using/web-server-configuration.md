@@ -28,45 +28,45 @@ A continuación encontrará algunas de las principales prácticas recomendadas r
    * SSLProcol todo -SSLv2 -SSLv3 -TLSv1
    * SSLCipherSuite HIGH:MEDIUM:!aNULL:!MD5:!SSLv3:!SSLv2:!TLSv1
 
-   **En IIS**  (consulte la  [documentación](https://support.microsoft.com/en-us/kb/245030)), realice la configuración siguiente:
+   **En IIS** (consulte la [documentación](https://support.microsoft.com/en-us/kb/245030)), realice la configuración siguiente:
 
    * Añadir subclave del Registro en HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL
-   * Para permitir que el sistema utilice los protocolos que no se negocian de forma predeterminada (como TLS 1.2), cambie los datos del valor DWORD del valor DisabledByDefault a 0x0 en las siguientes claves de registro en la clave **Protocolos** :
+   * Para permitir que el sistema utilice los protocolos que no se negocian de forma predeterminada (como TLS 1.2), cambie los datos del valor DWORD del valor DisabledByDefault a 0x0 en las siguientes claves de registro en la sección **Protocolos** clave:
 
-      SCHANNEL\Protocols\TLS 1.2\Client
+      CANAL\Protocolos\TLS 1.2\Cliente
 
-      SCHANNEL\Protocols\TLS 1.2\Server
+      CANAL\Protocolos\TLS 1.2\Servidor
    **Deshabilitar SSL x.0**
 
-   SCHANNEL\Protocols\SSL 3.0\Client: DisabledByDefault: Valor DWORD (32 bits) a 1
+   SCHANNEL\Protocolos\SSL 3.0\Cliente: DisabledByDefault: Valor DWORD (32 bits) a 1
 
-   SCHANNEL\Protocols\SSL 3.0\Server: Habilitado: Valor DWORD (32 bits) a 0
+   SCHANNEL\Protocolos\SSL 3.0\Servidor: Habilitado: Valor DWORD (32 bits) a 0
 
-* Elimine el método **TRACE**:
+* Elimine el **TRACE** método:
 
-   **En Apache**, edite en /etc/apache2/conf.d/security: TraceEnable  **Off**
+   **En Apache**, edite en /etc/apache2/conf.d/security: TraceEnable **Off**
 
-   **En IIS**  (consulte la  [documentación](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs)), realice la configuración siguiente:
+   **En IIS** (consulte la [documentación](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs)), realice la configuración siguiente:
 
-   * Asegúrese de que está instalado el servicio de rol o la función **Filtrado de solicitudes**.
-   * En el panel **Solicitar filtrado**, haga clic en la ficha Verbos HTTP y, a continuación, haga clic en Denegar verbo. En el panel Acciones, introduzca TRACE en el cuadro de diálogo abierto.
+   * Asegúrese de que **Filtrado de solicitudes** está instalado el servicio de rol o la función .
+   * En el **Filtrado de solicitudes** , haga clic en la ficha Verbos HTTP y, a continuación, haga clic en Denegar verbo. En el panel Acciones, introduzca TRACE en el cuadro de diálogo abierto.
 
 * Elimine el banner:
 
    **En Apache**, edite /etc/apache2/conf.d/security:
 
-   * ServerSignature **Desactivado**
+   * ServerSignature **Off**
    * ServerTokens **Prod**
 
-   **En IIS**, realice la siguiente configuración:
+   **En IIS**, realice la configuración siguiente:
 
-   * Instale **URLScan**.
-   * Edite el archivo **Urlscan.ini** para que tenga **RemoveServerHeader=1**
+   * Instalar **URLScan**.
+   * Edite el **Urlscan.ini** archivo que se va a tener **RemoveServerHeader=1**
 
 
 * Limite el tamaño de la consulta para evitar que se carguen archivos importantes:
 
-   **En Apache**, añada la directiva  **** LimitRequestBodyaddress (tamaño en bytes) en el directorio / .
+   **En Apache**, añada la variable **LimitRequestBody** directiva (tamaño en bytes) en el directorio /.
 
    ```
    <Directory />
@@ -76,9 +76,9 @@ A continuación encontrará algunas de las principales prácticas recomendadas r
    </Directory>
    ```
 
-   **En IIS**  (consulte la  [documentación](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits)), establezca  **maxAllowedContentLength**  (longitud máxima permitida del contenido) en las opciones de filtrado de contenido.
+   **En IIS** (consulte la [documentación](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits)), establezca la variable **maxAllowedContentLength** (longitud máxima del contenido permitida) en las opciones de filtrado de contenido.
 
 Temas relacionados:
 
-* [Información general sobre el cumplimiento de Adobe Marketing Cloud](https://experienceleague.adobe.com/docs/core-services/assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)  (PDF)
-* [Información general sobre la seguridad de Adobe Campaign](https://wwwimages.adobe.com/content/dam/acom/en/marketing-cloud/campaign/pdfs/54658.en.campaign.wp.adb-security.pdf)  (PDF)
+* [Información general sobre el cumplimiento de Adobe Marketing Cloud](https://experienceleague.adobe.com/docs/core-services/assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf) (PDF)
+* [Información general sobre la seguridad de Adobe Campaign](https://wwwimages.adobe.com/content/dam/acom/en/marketing-cloud/campaign/pdfs/54658.en.campaign.wp.adb-security.pdf) (PDF)

@@ -23,7 +23,7 @@ Cuando el sistema se pone en producción, pueden aparecer mensajes de error como
 
 La causa es la siguiente:
 
-Adobe Campaign genera archivos temporales en **/tmp** y, a continuación, los cambia de nombre para moverlos a **/usr/local/neolane/nl6/var**. Este error se produce cuando ambas carpetas (**/tmp** y **/usr/local/neolane/nl6/var**, que en realidad es un enlace simbólico a **/var/nl6**) corresponden a diferentes dispositivos. El comando **df** se utiliza para la verificación.
+Adobe Campaign genera archivos temporales en **/tmp** y, a continuación, cambie su nombre para que se muevan a **/usr/local/neolane/nl6/var**. Este error se produce cuando ambas carpetas (**/tmp** y **/usr/local/neolane/nl6/var**, que en realidad es un vínculo simbólico a **/var/nl6**) corresponden a distintos dispositivos. La variable **df** se utiliza para la verificación.
 
 Para solucionar este problema, los archivos temporales deben generarse en el mismo dispositivo que el destino.
 

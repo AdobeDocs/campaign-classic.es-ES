@@ -24,22 +24,22 @@ Se debe hacer referencia a cada página del sitio que se desea rastrear en la pl
 
 ## Definición de las URL que se rastrearán en la aplicación {#defining-the-urls-to-be-tracked-in-the-application}
 
-Este método permite definir manualmente las páginas que se van a rastrear y, a continuación, generar un ejemplo de la etiqueta de seguimiento web asociada. Esta operación se define en el nodo **[!UICONTROL Campaign execution>Resources>Web tracking tags]** de la consola del cliente.
+Este método permite definir manualmente las páginas que se van a rastrear y, a continuación, generar un ejemplo de la etiqueta de seguimiento web asociada. Esta operación se define en la variable **[!UICONTROL Campaign execution>Resources>Web tracking tags]** de la consola del cliente.
 
 ![](assets/d_ncs_integration_webtracking_screen.png)
 
-Para generar el código HTML que se va a insertar en la página:
+Para generar el código de HTML que se insertará en la página:
 
 * Introduzca la etiqueta de la etiqueta: se muestra en los registros de seguimiento,
 * Indique la dirección URL de origen: este campo es informativo y permite indicar la página rastreada (opcional).
 * Si es necesario, introduzca un periodo de validez,
-* Haga clic en **[!UICONTROL Generate]** código HTML.
+* Haga clic en **[!UICONTROL Generate]** código del HTML.
 
 A continuación, copie el código generado y péguelo en la página para rastrear.
 
 ## Creación sobre la marcha de direcciones URL a rastrear {#on-the-fly-creation-of-urls-to-be-tracked}
 
-Puede crear las URL de seguimiento web sobre la marcha añadiendo información al valor del parámetro **tagid**:
+Puede crear las URL de seguimiento web sobre la marcha añadiendo información al valor de la variable **tagid** parámetro:
 
 * Tipo de página rastreada: &quot;w&quot; para WEB o &quot;t&quot; para TRANSACCIONES,
 * El nombre interno de la carpeta donde se debe crear la URL.
@@ -52,7 +52,7 @@ tagid=<identifier>|<type>|<foldername>
 
 >[!IMPORTANT]
 >
->Recuerde codificar el valor del parámetro **tagid** cuando se utiliza como parámetro de URL.
+>Recuerde codificar el valor de la variable **tagid** cuando se utiliza como parámetro de URL.
 
 **Ejemplo**: creación de una URL de seguimiento web de tipo de transacción.
 

@@ -17,13 +17,13 @@ ht-degree: 8%
 
 ![](../../assets/v7-only.svg)
 
-La configuración general de Adobe Campaign se define en el archivo **serverConf.xml** , ubicado en el directorio **conf** del directorio de instalación. Esta sección enumera todos los nodos y parámetros diferentes del archivo **serverConf.xml**.
+La configuración general de Adobe Campaign se define en la variable **serverConf.xml** archivo, ubicado en la variable **conf** del directorio de instalación. Esta sección enumera todos los nodos y parámetros de la variable **serverConf.xml** archivo.
 
 >[!NOTE]
 >
->Las configuraciones del lado del servidor solo se pueden realizar mediante Adobe para implementaciones alojadas en Adobe. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Modelos de alojamiento](../../installation/using/hosting-models.md) o [esta página](../../installation/using/capability-matrix.md). Los pasos de instalación y configuración para los modelos alojados e híbridos se presentan en esta [sección](../../installation/using/hosting-models.md).
+>Las configuraciones del lado del servidor solo se pueden realizar mediante Adobe para implementaciones alojadas en Adobe. Para obtener más información sobre las diferentes implementaciones, consulte la [Modelos de alojamiento](../../installation/using/hosting-models.md) o [esta página](../../installation/using/capability-matrix.md). Los pasos de instalación y configuración para los modelos alojados e híbridos se presentan en esta [sección](../../installation/using/hosting-models.md).
 
-Los primeros parámetros se encuentran dentro del nodo **shared**. Están relacionados con la instancia de . Se utilizan potencialmente en todos los comandos nlserver (nlserver web, nlserver wfserver, etc.). Las otras secciones están relacionadas con un subcomando nlserver específico.
+Los primeros parámetros se encuentran dentro de la variable **shared** nodo . Están relacionados con la instancia de . Se utilizan potencialmente en todos los comandos nlserver (nlserver web, nlserver wfserver, etc.). Las otras secciones están relacionadas con un subcomando nlserver específico.
 
 **Parámetros compartidos**
 
@@ -63,7 +63,7 @@ Los primeros parámetros se encuentran dentro del nodo **shared**. Están relaci
 
 ## autenticación {#authentication}
 
-Estos son los diferentes parámetros del nodo **authentication**:
+Estos son los diferentes parámetros de la variable **autenticación** nodo:
 
 <table> 
  <thead> 
@@ -77,7 +77,7 @@ Estos son los diferentes parámetros del nodo **authentication**:
  <tbody> 
   <tr> 
    <td> checkIPConsistent<br /> </td> 
-   <td> Habilitar la comprobación de direcciones IP.<br /> </td> 
+   <td> Habilite la comprobación de direcciones IP.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -116,7 +116,7 @@ Estos son los diferentes parámetros del nodo **authentication**:
 
 ### XTK {#xtk}
 
-Estos son los diferentes parámetros del nodo **authentication > XTK**:
+Estos son los diferentes parámetros de la variable **autenticación > XTK** nodo:
 
 <table> 
  <thead> 
@@ -145,7 +145,7 @@ Estos son los diferentes parámetros del nodo **authentication > XTK**:
 
 ## dataStore {#datastore}
 
-Estos son los diferentes parámetros del nodo **dataStore**. Aquí es donde se definen las fuentes de datos del servidor.
+Estos son los diferentes parámetros de la variable **dataStore** nodo . Aquí es donde se definen las fuentes de datos del servidor.
 
 <table> 
  <thead> 
@@ -207,7 +207,7 @@ Estos son los diferentes parámetros del nodo **dataStore**. Aquí es donde se d
   </tr> 
   <tr> 
    <td> useVault<br /> </td> 
-   <td> Almacene secretos en Vault: usar Hashicorp Vault.<br /> </td> 
+   <td> Almacene secretos en Vault: use Hashicorp Vault.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -246,7 +246,7 @@ Estos son los diferentes parámetros del nodo **dataStore**. Aquí es donde se d
 
 ### proxyAjustar {#proxyadjust}
 
-Estos son los diferentes parámetros del nodo **dataStore > proxyAjustar**. Las direcciones URL que coinciden con la expresión regular se regeneran según la dirección URL definida en urlBase.
+Estos son los diferentes parámetros de la variable **dataStore > proxyFit** nodo . Las direcciones URL que coinciden con la expresión regular se regeneran según la dirección URL definida en urlBase.
 
 <table> 
  <thead> 
@@ -272,7 +272,7 @@ Estos son los diferentes parámetros del nodo **dataStore > proxyAjustar**. Las 
 
 ### dataSource {#datasource}
 
-Estos son los diferentes parámetros del nodo **dataStore > dataSource**.
+Estos son los diferentes parámetros de la variable **dataStore > dataSource** nodo .
 
 <table> 
  <thead> 
@@ -293,7 +293,7 @@ Estos son los diferentes parámetros del nodo **dataStore > dataSource**.
  </tbody> 
 </table>
 
-En el nodo **dataStore > dataSource > dbcnx**, configure los ajustes de conexión:
+En el **dataStore > dataSource > dbcnx** , configure los ajustes de conexión:
 
 <table> 
  <thead> 
@@ -307,7 +307,7 @@ En el nodo **dataStore > dataSource > dbcnx**, configure los ajustes de conexió
  <tbody> 
   <tr> 
    <td> NChar<br /> </td> 
-   <td> Almacenamiento Unicode<br /> </td> 
+   <td> almacenamiento Unicode<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> </td> 
   </tr> 
@@ -318,13 +318,13 @@ En el nodo **dataStore > dataSource > dbcnx**, configure los ajustes de conexió
    <td> </td> 
   </tr> 
   <tr> 
-   <td> encryption<br /> </td> 
+   <td> cifrados<br /> </td> 
    <td> Contraseña cifrada<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> login<br /> </td> 
+   <td> inicio de sesión<br /> </td> 
    <td> Cuenta<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> </td> 
@@ -349,7 +349,7 @@ En el nodo **dataStore > dataSource > dbcnx**, configure los ajustes de conexió
   </tr> 
   <tr> 
    <td> timezone<br /> </td> 
-   <td> Zona horaria: consulte <a href="../../installation/using/time-zone-management.md" target="_blank">Administración de husos horarios</a>.<br /> </td> 
+   <td> Zona horaria: see <a href="../../installation/using/time-zone-management.md" target="_blank">Administración de husos horarios</a>.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> </td> 
   </tr> 
@@ -361,14 +361,14 @@ En el nodo **dataStore > dataSource > dbcnx**, configure los ajustes de conexió
   </tr> 
   <tr> 
    <td> useTimestampTZ<br /> </td> 
-   <td> Campos de fecha con zona horaria: consulte <a href="../../installation/using/time-zone-management.md" target="_blank">Administración de husos horarios</a>.<br /> </td> 
+   <td> Campos de fecha con zona horaria: see <a href="../../installation/using/time-zone-management.md" target="_blank">Administración de husos horarios</a>.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
-En el nodo **dataStore > dataSource > sqlParams**, configure los parámetros SQL:
+En el **dataStore > dataSource > sqlParams** , configure los parámetros SQL:
 
 <table> 
  <thead> 
@@ -387,7 +387,7 @@ En el nodo **dataStore > dataSource > sqlParams**, configure los parámetros SQL
  </tbody> 
 </table>
 
-En el nodo **dataStore > dataSource > pool**, configure los parámetros del grupo de conexiones asociadas:
+En el **dataStore > dataSource > pool** , configure los parámetros del grupo de conexiones asociadas:
 
 <table> 
  <thead> 
@@ -405,7 +405,7 @@ En el nodo **dataStore > dataSource > pool**, configure los parámetros del grup
   </tr> 
   <tr> 
    <td> freeCnx<br /> </td> 
-   <td> Número de conexión gratuita mantenida en el grupo.<br /> </td> 
+   <td> Número de conexiones gratuitas mantenidas en la piscina.<br /> </td> 
    <td> Corto<br /> </td> 
   </tr> 
   <tr> 
@@ -423,7 +423,7 @@ En el nodo **dataStore > dataSource > pool**, configure los parámetros del grup
 
 ### virtualDir {#virtualdir}
 
-Estos son los diferentes parámetros del nodo **dataStore > virtualDir**. Esta es la configuración del directorio virtual a la asignación de directorio real.
+Estos son los diferentes parámetros de la variable **dataStore > virtualDir** nodo . Esta es la configuración del directorio virtual a la asignación de directorio real.
 
 Para obtener más información, consulte [Administración de recursos públicos](file-res-management.md).
 
@@ -442,7 +442,7 @@ Para obtener más información, consulte [Administración de recursos públicos]
    <td> Cadena<br /> </td> 
   </tr> 
   <tr> 
-   <td> path<br /> </td> 
+   <td> ruta<br /> </td> 
    <td> Ruta completa del directorio real<br /> </td> 
    <td> Cadena<br /> </td> 
   </tr> 
@@ -459,7 +459,7 @@ Esta es la configuración predeterminada:
 
 ### preprocessCommand {#preprocesscommand}
 
-Estos son los diferentes parámetros del nodo **dataStore > preprocessCommand**. Estos son los comandos autorizados para el preprocesamiento de la actividad de flujo de trabajo &quot;Cargar archivo&quot;.
+Estos son los diferentes parámetros de la variable **dataStore > preprocessCommand** nodo . Estos son los comandos autorizados para el preprocesamiento de la actividad de flujo de trabajo &quot;Cargar archivo&quot;.
 
 <table> 
  <thead> 
@@ -497,7 +497,7 @@ Esta es la configuración predeterminada:
 
 ## dnsConfig {#dnsconfig}
 
-Estos son los diferentes parámetros del nodo **dnsConfig** (configuración DNS).
+Estos son los diferentes parámetros de la variable **dnsConfig** (Configuración de DNS).
 
 Para obtener más información, consulte esta [sección](../../installation/using/configuring-campaign-server.md).
 
@@ -546,7 +546,7 @@ Para obtener más información, consulte esta [sección](../../installation/usin
 >utilizado por el MTA para obtener el intercambiador de correo declarado para
 >un dominio.
 >
->Si no se define este valor, el MTA busca esta información en la configuración de red del host. Si es posible que haya varios DNS, las distintas direcciones DNS deben separarse con una coma (por ejemplo: 212.155.207.1,212.155.207.2). Si el servidor de entrega tiene varias interfaces de red, la lista DNS utilizada por el MTA es la primera. En este caso, se recomienda especificar el parámetro **nameServer** para evitar cualquier ambigüedad.
+>Si no se define este valor, el MTA busca esta información en la configuración de red del host. Si es posible que haya varios DNS, las distintas direcciones DNS deben separarse con una coma (por ejemplo: 212.155.207.1,212.155.207.2). Si el servidor de entrega tiene varias interfaces de red, la lista DNS utilizada por el MTA es la primera. En este caso, se recomienda especificar la variable **nameServer** para evitar cualquier ambigüedad.
 
 >[!CAUTION]
 >
@@ -554,9 +554,9 @@ Para obtener más información, consulte esta [sección](../../installation/usin
 
 ## exec {#exec}
 
-Estos son los diferentes parámetros del nodo **exec** (ejecución del comando).
+Estos son los diferentes parámetros de la variable **exec** (ejecución del comando).
 
-Para obtener más información, consulte [Restricting authorized external command](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands).
+Para obtener más información, consulte [Restricción de comandos externos autorizados](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands).
 
 <table> 
  <thead> 
@@ -573,8 +573,8 @@ Para obtener más información, consulte [Restricting authorized external comman
    <td> Cadena<br /> </td> 
   </tr> 
   <tr> 
-   <td> user<br /> </td> 
-   <td> Ejecute comandos como un usuario diferente.<br /> </td> 
+   <td> usuario<br /> </td> 
+   <td> Ejecute los comandos como un usuario diferente.<br /> </td> 
    <td> Cadena<br /> </td> 
   </tr> 
  </tbody> 
@@ -582,7 +582,7 @@ Para obtener más información, consulte [Restricting authorized external comman
 
 ## htmlToPdf {#htmltopdf}
 
-Estos son los diferentes parámetros del nodo **htmlToPdf**. Esta es la configuración del servicio para convertir páginas web en documentos PDF.
+Estos son los diferentes parámetros de la variable **htmlToPdf** nodo . Esta es la configuración del servicio para convertir páginas web en documentos PDF.
 
 <table> 
  <thead> 
@@ -641,7 +641,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 ## ims {#ims}
 
-Estos son los diferentes parámetros del nodo **ims**. Esta es la configuración para Campaign que se conecta a otro servicio mediante [IMS](../../integrations/using/about-adobe-id.md).
+Estos son los diferentes parámetros de la variable **ims** nodo . Esta es la configuración para que Campaign se conecte a otro servicio mediante [IMS](../../integrations/using/about-adobe-id.md).
 
 <table> 
  <thead> 
@@ -679,7 +679,7 @@ Estos son los diferentes parámetros del nodo **ims**. Esta es la configuración
   </tr> 
   <tr> 
    <td> authIMSTAClientId<br /> </td> 
-   <td> ID de cliente de cuenta técnica<br /> </td> 
+   <td> ID del cliente de cuenta técnica<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -706,9 +706,9 @@ Estos son los diferentes parámetros del nodo **ims**. Esta es la configuración
 
 ## JavaScript {#javascript}
 
-Estos son los diferentes parámetros del nodo **javaScript**. Esta es la configuración del intérprete de JavaScript.
+Estos son los diferentes parámetros de la variable **javaScript** nodo . Esta es la configuración del intérprete de JavaScript.
 
-Para obtener más información, consulte la [Documentación de informes](../../reporting/using/actions-on-reports.md#memory-allocation) y esta [nota técnica](https://helpx.adobe.com/campaign/kb/out-of-memory-error-in-js-code-activity-in-workflows.html).
+Para obtener más información, consulte [Documentación de informes](../../reporting/using/actions-on-reports.md#memory-allocation) y [nota técnica](https://helpx.adobe.com/campaign/kb/out-of-memory-error-in-js-code-activity-in-workflows.html).
 
 <table> 
  <thead> 
@@ -737,7 +737,7 @@ Para obtener más información, consulte la [Documentación de informes](../../r
 
 ## mailExchange {#mailexchanger}
 
-Estos son los diferentes parámetros del nodo **mailExchange**. Esta es la configuración del servidor SMTP.
+Estos son los diferentes parámetros de la variable **mailExchange** nodo . Esta es la configuración del servidor SMTP.
 
 <table> 
  <thead> 
@@ -766,7 +766,7 @@ Estos son los diferentes parámetros del nodo **mailExchange**. Esta es la confi
 
 ## módulo {#module}
 
-Estos son los diferentes parámetros del nodo **module**. Esta es la configuración para el módulo xtk del módulo de restricciones de áreas de nombres.
+Estos son los diferentes parámetros de la variable **módulo** nodo . Esta es la configuración para el módulo xtk del módulo de restricciones de áreas de nombres.
 
 <table> 
  <thead> 
@@ -780,7 +780,7 @@ Estos son los diferentes parámetros del nodo **module**. Esta es la configuraci
  <tbody> 
   <tr> 
    <td> defaultNameSpace<br /> </td> 
-   <td> Área de nombres predeterminada utilizada al crear una nueva entidad.<br /> </td> 
+   <td> Área de nombres predeterminada que se utiliza al crear una nueva entidad.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> 'cus'<br /> </td> 
   </tr> 
@@ -789,7 +789,7 @@ Estos son los diferentes parámetros del nodo **module**. Esta es la configuraci
 
 ## monitorización {#monitoring}
 
-Estos son los diferentes parámetros del nodo **monitoring**. Esta es la configuración del servicio de monitoreo.
+Estos son los diferentes parámetros de la variable **monitorización** nodo . Esta es la configuración del servicio de monitoreo.
 
 <table> 
  <thead> 
@@ -824,7 +824,7 @@ Estos son los diferentes parámetros del nodo **monitoring**. Esta es la configu
 
 ## ooconv {#ooconv}
 
-Estos son los diferentes parámetros del nodo **ooconv**. Esta es la configuración del servidor de conversión de documentos.
+Estos son los diferentes parámetros de la variable **ooconv** nodo . Esta es la configuración del servidor de conversión de documentos.
 
 <table> 
  <thead> 
@@ -865,7 +865,7 @@ Estos son los diferentes parámetros del nodo **ooconv**. Esta es la configuraci
 
 ## proxyConfig {#proxyconfig}
 
-Estos son los diferentes parámetros del nodo **proxyConfig**. Esta es la configuración de los parámetros proxy.
+Estos son los diferentes parámetros de la variable **proxyConfig** nodo . Esta es la configuración de los parámetros proxy.
 
 Para obtener más información, consulte [Configuración de conexión proxy](file-res-management.md).
 
@@ -887,7 +887,7 @@ Para obtener más información, consulte [Configuración de conexión proxy](fil
   </tr> 
   <tr> 
    <td> override<br /> </td> 
-   <td> Excepciones: lista de direcciones para las que se deben ignorar los parámetros proxy.<br /> </td> 
+   <td> Excepciones: lista de direcciones para las que se deben ignorar los parámetros de proxy.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> 'localhost*' <br /> </td> 
   </tr> 
@@ -902,7 +902,7 @@ Para obtener más información, consulte [Configuración de conexión proxy](fil
 
 ### Proxy HTTP/proxy seguro {#http-proxy---secure-proxy-}
 
-En el nodo **proxyConfig > proxy HTTP / proxy seguro**, configure los siguientes parámetros.
+En el **proxyConfig > proxy HTTP/proxy seguro** configure los siguientes parámetros.
 
 Para obtener más información, consulte [Configuración de conexión proxy](file-res-management.md).
 
@@ -921,7 +921,7 @@ Para obtener más información, consulte [Configuración de conexión proxy](fil
    <td> Cadena<br /> </td> 
   </tr> 
   <tr> 
-   <td> login<br /> </td> 
+   <td> inicio de sesión<br /> </td> 
    <td> Inicio de sesión para la conexión con el servidor proxy<br /> </td> 
    <td> Cadena<br /> </td> 
   </tr> 
@@ -931,7 +931,7 @@ Para obtener más información, consulte [Configuración de conexión proxy](fil
    <td> Cadena<br /> </td> 
   </tr> 
   <tr> 
-   <td> port<br /> </td> 
+   <td> puerto<br /> </td> 
    <td> Puerto del servidor proxy<br /> </td> 
    <td> Corto<br /> </td> 
   </tr> 
@@ -940,7 +940,7 @@ Para obtener más información, consulte [Configuración de conexión proxy](fil
 
 ## threadPool {#threadpool}
 
-Estos son los diferentes parámetros del nodo **threadPool**.
+Estos son los diferentes parámetros de la variable **threadPool** nodo .
 
 <table> 
  <thead> 
@@ -963,7 +963,7 @@ Estos son los diferentes parámetros del nodo **threadPool**.
 
 ## urlPermission {#urlpermission}
 
-Estos son los diferentes parámetros del nodo **urlPermission**. Esta es la lista de direcciones URL a las que puede acceder el código Javascript.
+Estos son los diferentes parámetros de la variable **urlPermission** nodo . Esta es la lista de direcciones URL a las que puede acceder el código Javascript.
 
 Lista de dominios y expresiones regulares que especifican si el servidor de Adobe Campaign puede utilizar o no una URL encontrada en el código JavaScript.
 
@@ -982,14 +982,14 @@ Para obtener más información, consulte [Protección de conexión saliente](../
  </thead> 
  <tbody> 
   <tr> 
-   <td> action<br /> </td> 
+   <td> acción<br /> </td> 
    <td> Acción predeterminada si la dirección URL no está en la lista autorizada (enumeración). Los valores posibles son 'ignorar' (autorizar sin mensaje de advertencia, esto requiere deshabilitar la protección), 'advertir' (autorizar y emitir un mensaje de advertencia) y 'denegar' (prohibir el acceso a la dirección URL).<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> deny<br /> </td> 
   </tr> 
   <tr> 
    <td> debugTrace<br /> </td> 
-   <td> Seguimiento de depuración del mecanismo de selección de URL: emite mensajes adicionales durante el proceso de verificación de la dirección URL.<br /> </td> 
+   <td> Seguimiento de depuración del mecanismo de selección de URL: emite mensajes adicionales durante el proceso de verificación de la URL.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -998,7 +998,7 @@ Para obtener más información, consulte [Protección de conexión saliente](../
 
 ### url {#url}
 
-Para cada URL, agregue un nodo **url** con los siguientes parámetros:
+Para cada URL, agregue un **url** con los siguientes parámetros:
 
 Para obtener más información, consulte [Protección de conexión saliente](../../installation/using/configuring-campaign-server.md#url-permissions).
 
@@ -1024,7 +1024,7 @@ Para obtener más información, consulte [Protección de conexión saliente](../
  </tbody> 
 </table>
 
-Si un registro satisface **dnsSuffix** pero no **urlRegEx**, se examina el siguiente registro.
+Si un registro cumple **dnsSuffix** pero no **urlRegEx**, se examina el siguiente registro.
 
 Por ejemplo, para autorizar el acceso a todas las direcciones URL del dominio business.com, podemos definir dos registros:
 
@@ -1055,7 +1055,7 @@ Esta es la configuración predeterminada:
 
 ## xtkJobs {#xtkjobs}
 
-Estos son los diferentes parámetros del nodo **xtkJobs**. Esta es la configuración de los trabajos del servidor.
+Estos son los diferentes parámetros de la variable **xtkJobs** nodo . Esta es la configuración de los trabajos del servidor.
 
 <table> 
  <thead> 
@@ -1078,7 +1078,7 @@ Estos son los diferentes parámetros del nodo **xtkJobs**. Esta es la configurac
 
 ## archivar {#archiving}
 
-Estos son los diferentes parámetros del nodo **archiving**. Esta es la configuración de las operaciones de archivado ejecutadas en segundo plano.
+Estos son los diferentes parámetros de la variable **archivar** nodo . Esta es la configuración de las operaciones de archivado ejecutadas en segundo plano.
 
 Para obtener más información, consulte [Activación del archivado de correo electrónico (local)](../../installation/using/email-archiving.md#activating-email-archiving--on-premise-).
 
@@ -1100,7 +1100,7 @@ Para obtener más información, consulte [Activación del archivado de correo el
   </tr> 
   <tr> 
    <td> archivingType<br /> </td> 
-   <td> Estrategia de archivado de los mensajes enviados (enumeración). Los valores posibles son '0' (sin archivado) y '1' (transfiere el archivado de los mensajes enviados a un servidor SMTP).<br /> </td> 
+   <td> Estrategia de archivado de los mensajes enviados (enumeración). Los valores posibles son '0' (sin archivado) y '1' (transfiere el archivado de mensajes enviados a un servidor SMTP).<br /> </td> 
    <td> Byte<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
@@ -1124,13 +1124,13 @@ Para obtener más información, consulte [Activación del archivado de correo el
   </tr> 
   <tr> 
    <td> compressionFormat<br /> </td> 
-   <td> Formato de compresión utilizado durante el archivado (enumeración). Los valores posibles son '0' (sin compresión) y '1' (comprimir los mensajes enviados con formato zip).<br /> </td> 
+   <td> Formato de compresión utilizado durante el archivado (enumeración). Los valores posibles son '0' (sin compresión) y '1' (comprima los mensajes enviados con formato zip).<br /> </td> 
    <td> Byte<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> expirationDelay<br /> </td> 
-   <td> Retraso antes del archivado automático de correos electrónicos no procesados: número de días antes de que se archiven los correos electrónicos sin procesar.<br /> </td> 
+   <td> Retraso antes del archivado automático de correos electrónicos no procesados: número de días antes de archivar los correos electrónicos no procesados.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 2<br /> </td> 
   </tr> 
@@ -1162,7 +1162,7 @@ Para obtener más información, consulte [Activación del archivado de correo el
    <td> processRestartTime<br /> </td> 
    <td> Hora del día en que se reinicia automáticamente el proceso. Consulte <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Reinicio automático del proceso</a>.<br /> </td> 
    <td> Cadena<br /> </td> 
-   <td> '06:00:00' <br /> </td> 
+   <td> "06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> purgeArchivesDelay<br /> </td> 
@@ -1211,7 +1211,7 @@ Para obtener más información, consulte [Activación del archivado de correo el
 
 ## inMail {#inmail}
 
-Estos son los diferentes parámetros del nodo **inMail**. Esta es la configuración del módulo de administración de correo electrónico entrante.
+Estos son los diferentes parámetros de la variable **inMail** nodo . Esta es la configuración del módulo de administración de correo electrónico entrante.
 
 <table> 
  <thead> 
@@ -1309,7 +1309,7 @@ Estos son los diferentes parámetros del nodo **inMail**. Esta es la configuraci
   </tr> 
   <tr> 
    <td> popQueueSize<br /> </td> 
-   <td> Tamaño de cola de mensajes de lectura<br /> </td> 
+   <td> Tamaño de cola de mensajes leídos<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 100<br /> </td> 
   </tr> 
@@ -1323,7 +1323,7 @@ Estos son los diferentes parámetros del nodo **inMail**. Esta es la configuraci
    <td> processRestartTime<br /> </td> 
    <td> Hora del día en que se reinicia automáticamente el proceso. Consulte <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Reinicio automático del proceso</a>.<br /> </td> 
    <td> Cadena<br /> </td> 
-   <td> '06:00:00' <br /> </td> 
+   <td> "06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> reloadPeriodSec<br /> </td> 
@@ -1342,7 +1342,7 @@ Estos son los diferentes parámetros del nodo **inMail**. Esta es la configuraci
 
 ### msgDump {#msgdump}
 
-En el nodo **inMail > msgDump**, configure los siguientes parámetros. Esta es la configuración del volcado de mensajes procesados.
+En el **inMail > msgDump** configure los siguientes parámetros. Esta es la configuración del volcado de mensajes procesados.
 
 <table> 
  <thead> 
@@ -1355,7 +1355,7 @@ En el nodo **inMail > msgDump**, configure los siguientes parámetros. Esta es l
  </thead> 
  <tbody> 
   <tr> 
-   <td> dump<br /> </td> 
+   <td> volcado<br /> </td> 
    <td> Guarde todos los mensajes entrantes en formato de texto. <br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
@@ -1371,7 +1371,7 @@ En el nodo **inMail > msgDump**, configure los siguientes parámetros. Esta es l
 
 ## interactiond {#interactiond}
 
-Estos son los diferentes parámetros del nodo **interactiond**. Esta es la configuración del daemon de escritura para eventos de interacción entrantes.
+Estos son los diferentes parámetros de la variable **interactiond** nodo . Esta es la configuración del daemon de escritura para eventos de interacción entrantes.
 
 Para obtener más información, consulte [Interacción: búfer de datos](../../installation/using/interaction---data-buffer.md).
 
@@ -1429,7 +1429,7 @@ Para obtener más información, consulte [Interacción: búfer de datos](../../i
   </tr> 
   <tr> 
    <td> nextOffersSize<br /> </td> 
-   <td> Número máximo de ofertas aptas ordenadas justo después de las propuestas, que se almacenarán para las estadísticas.<br /> </td> 
+   <td> Número máximo de ofertas aptas ordenadas justo después de las propuestas, que se van a almacenar para obtener estadísticas.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
@@ -1437,7 +1437,7 @@ Para obtener más información, consulte [Interacción: búfer de datos](../../i
    <td> processRestartTime<br /> </td> 
    <td> Hora del día en que se reinicia automáticamente el proceso. Consulte <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Reinicio automático del proceso</a>.<br /> </td> 
    <td> Cadena<br /> </td> 
-   <td> '06:00:00' <br /> </td> 
+   <td> "06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
@@ -1447,7 +1447,7 @@ Para obtener más información, consulte [Interacción: búfer de datos](../../i
   </tr> 
   <tr> 
    <td> statsPeriod<br /> </td> 
-   <td> Duración de agregación en segundos para las estadísticas de tiempo de respuesta. 0 significa que el almacenamiento estadístico se desactivó.<br /> </td> 
+   <td> Duración de agregación en segundos para las estadísticas de tiempo de respuesta. 0 significa que se desactivó el almacenamiento estadístico.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -1462,7 +1462,7 @@ Para obtener más información, consulte [Interacción: búfer de datos](../../i
 
 ## mta {#mta}
 
-Estos son los diferentes parámetros del nodo **mta**. Esta es la configuración de los agentes de envío.
+Estos son los diferentes parámetros de la variable **mta** nodo . Esta es la configuración de los agentes de envío.
 
 <table> 
  <thead> 
@@ -1518,7 +1518,7 @@ Estos son los diferentes parámetros del nodo **mta**. Esta es la configuración
   </tr> 
   <tr> 
    <td> logEmailErrors<br /> </td> 
-   <td> Generar estadísticas de error y almacenarlas en la base de datos.<br /> </td> 
+   <td> Genere estadísticas de error y guárdelas en la base de datos.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> true<br /> </td> 
   </tr> 
@@ -1554,7 +1554,7 @@ Estos son los diferentes parámetros del nodo **mta**. Esta es la configuración
   </tr> 
   <tr> 
    <td> minErrorsToLog<br /> </td> 
-   <td> Umbral de error a tener en cuenta: no se generan estadísticas de error para una ruta determinada si el número total de errores para el periodo especificado por errorPeriodSec es estrictamente inferior al umbral.<br /> </td> 
+   <td> Umbral de error a tener en cuenta: no se generan estadísticas de error para una ruta determinada si el número total de errores para el periodo especificado por errorPeriodSec es estrictamente menor que el umbral.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
@@ -1566,7 +1566,7 @@ Estos son los diferentes parámetros del nodo **mta**. Esta es la configuración
   </tr> 
   <tr> 
    <td> notifRelay<br /> </td> 
-   <td> Relé de notificaciones: HostName:Puerto utilizado para retransmitir notificaciones.<br /> </td> 
+   <td> Relé de notificaciones: HostName:puerto utilizado para retransmitir notificaciones.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1574,17 +1574,17 @@ Estos son los diferentes parámetros del nodo **mta**. Esta es la configuración
    <td> processRestartTime<br /> </td> 
    <td> Hora del día en que se reinicia automáticamente el proceso. Consulte <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Reinicio automático del proceso</a>.<br /> </td> 
    <td> Cadena<br /> </td> 
-   <td> '06:00:00' <br /> </td> 
+   <td> "06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> purgeDataLogDelay<br /> </td> 
-   <td> Retraso antes de que se eliminen los correos electrónicos archivados: número de días antes de que se depuren los correos electrónicos archivados en el directorio especificado en dataLogPath.<br /> </td> 
+   <td> Retraso antes de que se eliminen los correos electrónicos archivados: número de días antes de que se purguen los correos electrónicos archivados en el directorio especificado en dataLogPath.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 15<br /> </td> 
   </tr> 
   <tr> 
    <td> retryLostMessages<br /> </td> 
-   <td> Reintentar mensajes perdidos: partes de los envíos se volverán a intentar si el proceso secundario está muerto.<br /> </td> 
+   <td> Reintentar mensajes perdidos: si el proceso secundario está muerto, se volverán a intentar partes de los envíos.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> true<br /> </td> 
   </tr> 
@@ -1603,7 +1603,7 @@ Estos son los diferentes parámetros del nodo **mta**. Esta es la configuración
   <tr> 
    <td> statServerAddress<br /> </td> 
    <td> Dirección del servidor de estadísticas de envío, dada como 
-    &lt;dns o ip&gt; 
+    &lt;dns or="" ip=""&gt; 
       <code>[</code>: 
      &lt;port&gt; 
        <code>]</code>. Consulte 
@@ -1627,13 +1627,13 @@ Estos son los diferentes parámetros del nodo **mta**. Esta es la configuración
   </tr> 
   <tr> 
    <td> useMomentum<br /> </td> 
-   <td> Si se establece en "true", la instancia utiliza el <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">MTA mejorado</a>.<br /> </td> 
+   <td> Si se establece en "true", la instancia utiliza la variable <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">MTA mejorado</a>.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> <br /> </td>b 
   </tr>
   <tr> 
    <td> verifyMode<br /> </td> 
-   <td> Modo de verificación: activa el modo de verificación (sin transmisión física de mensajes; se utiliza para simulación y pruebas).<br /> </td> 
+   <td> Modo de verificación: activa el modo de verificación (sin transmisión física de mensajes; utilizado para simulación y pruebas).<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1654,7 +1654,7 @@ Estos son los diferentes parámetros del nodo **mta**. Esta es la configuración
 
 ### cache {#cache}
 
-En el nodo **cache**, configure los siguientes parámetros. Esta es la configuración de la caché del archivo local.
+En el **cache** configure los siguientes parámetros. Esta es la configuración de la caché de archivos local.
 
 <table> 
  <thead> 
@@ -1668,7 +1668,7 @@ En el nodo **cache**, configure los siguientes parámetros. Esta es la configura
  <tbody> 
   <tr> 
    <td> maxPeriodSec<br /> </td> 
-   <td> Reciclado después de: punto, expresado en segundos, después del cual el archivo se elimina automáticamente de la caché para recuperar el almacenamiento.<br /> </td> 
+   <td> Reciclado después de: , expresado en segundos, después del cual el archivo se elimina automáticamente de la caché para recuperar el almacenamiento.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 244800<br /> </td> 
   </tr> 
@@ -1680,7 +1680,7 @@ En el nodo **cache**, configure los siguientes parámetros. Esta es la configura
   </tr> 
   <tr> 
    <td> purgePeriodSec<br /> </td> 
-   <td> Frecuencia de depuración: período en segundos entre ejecuciones del mecanismo de depuración de caché.<br /> </td> 
+   <td> Frecuencia de depuración: periodo en segundos entre ejecuciones del mecanismo de depuración de caché.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 3600<br /> </td> 
   </tr> 
@@ -1689,11 +1689,11 @@ En el nodo **cache**, configure los siguientes parámetros. Esta es la configura
 
 ### relé {#relay}
 
-En el nodo **mta > relay**, configure los siguientes parámetros. Esta es la configuración del servidor de correo para la entrega de mensajes.
+En el **mta > relé** configure los siguientes parámetros. Esta es la configuración del servidor de correo para la entrega de mensajes.
 
 La lista se gestionará del mismo modo que una lista de MX devuelta por una consulta DNS MX, normalmente el primer MX se utiliza siempre que esté disponible, luego se utiliza el siguiente, etc.
 
-Para obtener más información, consulte [SMTP relay](../../installation/using/configuring-campaign-server.md#smtp-relay).
+Para obtener más información, consulte [Retransmisión SMTP](../../installation/using/configuring-campaign-server.md#smtp-relay).
 
 <table> 
  <thead> 
@@ -1712,7 +1712,7 @@ Para obtener más información, consulte [SMTP relay](../../installation/using/c
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> port<br /> </td> 
+   <td> puerto<br /> </td> 
    <td> Puerto IP del servidor SMTP.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 25<br /> </td> 
@@ -1722,7 +1722,7 @@ Para obtener más información, consulte [SMTP relay](../../installation/using/c
 
 ### maestro {#master}
 
-En el nodo **mta > master**, configure los siguientes parámetros. Esta es la configuración del servidor principal.
+En el **mta > master** configure los siguientes parámetros. Esta es la configuración del servidor principal.
 
 Para obtener más información, consulte esta [sección](../../installation/using/configuring-campaign-server.md#mta-child-processes).
 
@@ -1744,7 +1744,7 @@ Para obtener más información, consulte esta [sección](../../installation/usin
   </tr> 
   <tr> 
    <td> dataBaseRetryDelaySec<br /> </td> 
-   <td> Período de espera después de un error de conexión a la base de datos. Un error de conexión a la base de datos suele deberse al propio servidor de la base de datos. El servidor también se puede detener por motivos de mantenimiento, por ejemplo. El parámetro DataBaseRetryDelay define la duración entre dos intentos de conexión en caso de que se produzca un error en la conexión a la base de datos.<br /> </td> 
+   <td> Período de espera después de un error de conexión a la base de datos. Un error de conexión a la base de datos suele deberse al propio servidor de la base de datos. El servidor también se puede detener por motivos de mantenimiento, por ejemplo. El parámetro DataBaseRetryDelay define la duración entre dos intentos de conexión en caso de fallo de conexión a la base de datos.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
@@ -1768,7 +1768,7 @@ Para obtener más información, consulte esta [sección](../../installation/usin
   </tr> 
   <tr> 
    <td> startSpareServers<br /> </td> 
-   <td> Número de servidor secundario al inicio. Se supervisa dinámicamente el número de servidores secundarios; cuando se inicia el MTA, crea tantos servidores secundarios como indica este valor. Normalmente, los servidores secundarios no se pueden iniciar más rápido que un servidor por segundo para guardar los recursos del host. Sin embargo, cuando se inicia el MTA, esta limitación se anula para que los servidores secundarios estén disponibles lo antes posible.<br /> </td> 
+   <td> Número de servidor secundario al inicio. Se supervisa dinámicamente el número de servidores secundarios; cuando se inicia el MTA, crea tantos servidores secundarios como indica este valor. Normalmente, los servidores secundarios no se pueden iniciar más rápido que un servidor por segundo para ahorrar recursos de host. Sin embargo, cuando se inicia el MTA, esta limitación se anula para que los servidores secundarios estén disponibles lo antes posible.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
@@ -1777,9 +1777,9 @@ Para obtener más información, consulte esta [sección](../../installation/usin
 
 ### secundario {#child}
 
-En el nodo **mta > child**, configure los siguientes parámetros. Esta es la configuración de los servidores secundarios.
+En el **mta > secundario** configure los siguientes parámetros. Esta es la configuración de los servidores secundarios.
 
-Para obtener más información, consulte [Optimización de envío de correo electrónico](../../installation/using/email-deliverability.md#email-sending-optimization).
+Para obtener más información, consulte [Optimización del envío de correo electrónico](../../installation/using/email-deliverability.md#email-sending-optimization).
 
 <table> 
  <thead> 
@@ -1854,7 +1854,7 @@ Para obtener más información, consulte [Optimización de envío de correo elec
  </tbody> 
 </table>
 
-En el nodo **mta > child > smtp**, configure los siguientes parámetros. Esta es la configuración de las sesiones SMTP.
+En el **mta > child > smtp** configure los siguientes parámetros. Esta es la configuración de las sesiones SMTP.
 
 <table> 
  <thead> 
@@ -1868,7 +1868,7 @@ En el nodo **mta > child > smtp**, configure los siguientes parámetros. Esta es
  <tbody> 
   <tr> 
    <td> enableTLS<br /> </td> 
-   <td> Activa el envío de correos electrónicos en modo seguro (STARTTLS/SMTPS) cuando lo admite el servidor remoto.<br /> </td> 
+   <td> Activa la entrega de correos electrónicos en modo seguro (STARTTLS/SMTPS) cuando el servidor remoto los admite.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1893,9 +1893,9 @@ En el nodo **mta > child > smtp**, configure los siguientes parámetros. Esta es
  </tbody> 
 </table>
 
-En el nodo **mta > child > smtp > IPAffinity**, configure los siguientes parámetros. Esta es la configuración de la administración de afinidades con direcciones IP para el tráfico SMTP saliente optimizado.
+En el **mta > child > smtp > IPAffinity** configure los siguientes parámetros. Esta es la configuración de la administración de afinidades con direcciones IP para el tráfico SMTP saliente optimizado.
 
-Para obtener más información, consulte [Lista de direcciones IP para utilizar](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use) y [Administración del tráfico SMTP saliente con afinidades](../../installation/using/configuring-campaign-server.md#managing-outbound-smtp-traffic-with-affinities).
+Para obtener más información, consulte [Lista de direcciones IP que se deben usar](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use) y [Administración del tráfico SMTP saliente con afinidades](../../installation/using/configuring-campaign-server.md#managing-outbound-smtp-traffic-with-affinities).
 
 <table> 
  <thead> 
@@ -1919,9 +1919,9 @@ Para obtener más información, consulte [Lista de direcciones IP para utilizar]
  </tbody> 
 </table>
 
-En el nodo **mta > child > smtp > IP**, configure los siguientes parámetros.
+En el **mta > child > smtp > IP** configure los siguientes parámetros.
 
-Para obtener más información, consulte [Lista de direcciones IP para utilizar](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use).
+Para obtener más información, consulte [Lista de direcciones IP que se deben usar](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use).
 
 <table> 
  <thead> 
@@ -1944,12 +1944,12 @@ Para obtener más información, consulte [Lista de direcciones IP para utilizar]
   </tr> 
   <tr> 
    <td> ponderación<br /> </td> 
-   <td> Especifica la frecuencia de uso para esta IP, en relación con otras IP (los pesos más grandes conducen a frecuencias más altas).<br /> </td> 
+   <td> Especifica la frecuencia de uso para esta IP, en relación con otras IP (los pesos más altos conducen a frecuencias más altas).<br /> </td> 
    <td> Largo<br /> </td> 
   </tr> 
   <tr> 
    <td> includeDomains<br /> </td> 
-   <td> Lista separada por comas de las máscaras de dominio que se van a incluir.<br /> </td> 
+   <td> Lista separada por comas de las máscaras de dominio que desea incluir.<br /> </td> 
    <td> Cadena<br /> </td> 
   </tr> 
   <tr> 
@@ -1967,7 +1967,7 @@ Para obtener más información, consulte [Lista de direcciones IP para utilizar]
 
 ## nmac {#nmac}
 
-Estos son los diferentes parámetros del nodo **nmac**. Esta es la configuración de para las entregas de notificaciones push.
+Estos son los diferentes parámetros de la variable **nmac** nodo . Esta es la configuración de para las entregas de notificaciones push.
 
 <table> 
  <thead> 
@@ -1990,7 +1990,7 @@ Estos son los diferentes parámetros del nodo **nmac**. Esta es la configuració
 
 ### relé {#relay-1}
 
-Estos son los diferentes parámetros del nodo **nmac > relay**. Esto configura el uso de un relé para la entrega de mensajes (conector http2 de ios).
+Estos son los diferentes parámetros de la variable **nmac > relé** nodo . Esto configura el uso de un relé para la entrega de mensajes (conector http2 de ios).
 
 <table> 
  <thead> 
@@ -2009,14 +2009,14 @@ Estos son los diferentes parámetros del nodo **nmac > relay**. Esto configura e
    <td> </td> 
   </tr> 
   <tr> 
-   <td> port<br /> </td> 
-   <td> Puerto de transmisión<br /> </td> 
+   <td> puerto<br /> </td> 
+   <td> Puerto de retransmisión<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 443<br /> </td> 
   </tr> 
   <tr> 
    <td> trustedCertsChain<br /> </td> 
-   <td> Cadena de certificados (archivo PEM). Útil cuando se utiliza un servidor de prueba.<br /> </td> 
+   <td> Cadena de certificados (archivo PEM). Útil cuando se utiliza un servidor ficticio.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2025,7 +2025,7 @@ Estos son los diferentes parámetros del nodo **nmac > relay**. Esto configura e
 
 ## canalización {#pipelined}
 
-Estos son los diferentes parámetros del nodo **canalizado**. Esta es la configuración del módulo de procesamiento de eventos para los servicios de canalización.
+Estos son los diferentes parámetros de la variable **canalización** nodo . Esta es la configuración del módulo de procesamiento de eventos para los servicios de canalización.
 
 <table> 
  <thead> 
@@ -2075,7 +2075,7 @@ Estos son los diferentes parámetros del nodo **canalizado**. Esta es la configu
   </tr> 
   <tr> 
    <td> discoverPipelineEndpoint<br /> </td> 
-   <td> URL para descubrir la dirección URL de los servicios de canalización.<br /> </td> 
+   <td> URL para descubrir la URL de los servicios de canalización.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> 'https://producer-pipeline-pnw.adobe.net'<br /> </td> 
   </tr> 
@@ -2131,11 +2131,11 @@ Estos son los diferentes parámetros del nodo **canalizado**. Esta es la configu
    <td> processRestartTime<br /> </td> 
    <td> Hora del día en que se reinicia automáticamente el proceso. Consulte <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Reinicio automático del proceso</a>.<br /> </td> 
    <td> Cadena<br /> </td> 
-   <td> '06:00:00' <br /> </td> 
+   <td> "06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> processingJSThreads<br /> </td> 
-   <td> Número de subprocesos para el procesamiento de eventos con un conector personalizado de JavaScript.<br /> </td> 
+   <td> Número de subprocesos para el procesamiento de eventos con un conector de JavaScript personalizado.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 4<br /> </td> 
   </tr> 
@@ -2168,7 +2168,7 @@ Estos son los diferentes parámetros del nodo **canalizado**. Esta es la configu
 
 ## reparación {#repair}
 
-Estos son los diferentes parámetros del nodo **Repair**. Esta es la configuración del módulo de reparación de la base de datos.
+Estos son los diferentes parámetros de la variable **reparación** nodo . Esta es la configuración del módulo de reparación de la base de datos.
 
 <table> 
  <thead> 
@@ -2191,7 +2191,7 @@ Estos son los diferentes parámetros del nodo **Repair**. Esta es la configuraci
 
 ## securityZone {#securityzone}
 
-Estos son los diferentes parámetros del nodo **securityZone**.
+Estos son los diferentes parámetros de la variable **securityZone** nodo .
 
 Para obtener más información, consulte [Definir zonas de seguridad](../../installation/using/security-zones.md).
 
@@ -2213,7 +2213,7 @@ Para obtener más información, consulte [Definir zonas de seguridad](../../inst
   </tr> 
   <tr> 
    <td> allowEmptyPassword<br /> </td> 
-   <td> Autorice al usuario para que utilice la aplicación sin contraseña.<br /> </td> 
+   <td> Autorice al usuario para utilizar la aplicación sin contraseña.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -2289,7 +2289,7 @@ Esta es la configuración predeterminada:
 
 ### subNetwork {#subnetwork}
 
-Estos son los diferentes parámetros del nodo **securityZone > subNetwork**.
+Estos son los diferentes parámetros de la variable **securityZone > subNetwork** nodo .
 
 Para obtener más información, consulte [Definir zonas de seguridad](../../installation/using/security-zones.md).
 
@@ -2332,7 +2332,7 @@ Para obtener más información, consulte [Definir zonas de seguridad](../../inst
 
 ## sms {#sms}
 
-Estos son los diferentes parámetros del nodo **sms**. Esta es la configuración del módulo de administración de SMS entrante.
+Estos son los diferentes parámetros de la variable **sms** nodo . Esta es la configuración del módulo de administración de SMS entrante.
 
 <table> 
  <thead> 
@@ -2376,7 +2376,7 @@ Estos son los diferentes parámetros del nodo **sms**. Esta es la configuración
   </tr> 
   <tr> 
    <td> keepAlivePeriod<br /> </td> 
-   <td> Periodicidad del marco de continuidad de la sesión: max. período en segundos entre dos fotogramas para notificar que la sesión de recepción sigue habilitada.<br /> </td> 
+   <td> Periodicidad del marco de continuidad de la sesión: max. periodo en segundos entre dos fotogramas para notificar que la sesión de recepción sigue activada.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 25<br /> </td> 
   </tr> 
@@ -2394,7 +2394,7 @@ Estos son los diferentes parámetros del nodo **sms**. Esta es la configuración
   </tr> 
   <tr> 
    <td> pollPeriod<br /> </td> 
-   <td> Frecuencia de búsqueda: Período de encuesta de la cuenta SMS.<br /> </td> 
+   <td> Frecuencia de búsqueda: Período de encuesta de la cuenta de SMS.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
@@ -2402,7 +2402,7 @@ Estos son los diferentes parámetros del nodo **sms**. Esta es la configuración
    <td> processRestartTime<br /> </td> 
    <td> Hora del día en que se reinicia automáticamente el proceso. Consulte <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Reinicio automático del proceso</a>.<br /> </td> 
    <td> Cadena<br /> </td> 
-   <td> '06:00:00' <br /> </td> 
+   <td> "06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> reloadPeriod<br /> </td> 
@@ -2433,7 +2433,7 @@ Estos son los diferentes parámetros del nodo **sms**. Esta es la configuración
 
 ### netsize {#netsize}
 
-Estos son los diferentes parámetros del nodo **sms > netsize**.
+Estos son los diferentes parámetros de la variable **sms > netsize** nodo .
 
 <table> 
  <thead> 
@@ -2456,7 +2456,7 @@ Estos son los diferentes parámetros del nodo **sms > netsize**.
 
 ## stat {#stat}
 
-Estos son los diferentes parámetros del nodo **stat**. Esta es la configuración del módulo de estadísticas de MTA.
+Estos son los diferentes parámetros de la variable **stat** nodo . Esta es la configuración del módulo de estadísticas de MTA.
 
 <table> 
  <thead> 
@@ -2499,7 +2499,7 @@ Estos son los diferentes parámetros del nodo **stat**. Esta es la configuració
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
-   <td> port<br /> </td> 
+   <td> puerto<br /> </td> 
    <td> Puerto de escucha del servidor. Consulte esta <a href="../../installation/using/email-deliverability.md#definition-of-the-server-port">sección</a>.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> <br /> </td> 
@@ -2508,7 +2508,7 @@ Estos son los diferentes parámetros del nodo **stat**. Esta es la configuració
    <td> processRestartTime<br /> </td> 
    <td> Hora del día en que se reinicia automáticamente el proceso. Consulte <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Reinicio automático del proceso</a>.<br /> </td> 
    <td> Cadena<br /> </td> 
-   <td> '06:00:00' <br /> </td> 
+   <td> "06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
@@ -2521,7 +2521,7 @@ Estos son los diferentes parámetros del nodo **stat**. Esta es la configuració
 
 ## syslogd {#syslogd}
 
-Estos son los diferentes parámetros del nodo **syslogd**. Esta es la configuración del módulo de administración de registros.
+Estos son los diferentes parámetros de la variable **syslogd** nodo . Esta es la configuración del módulo de administración de registros.
 
 <table> 
  <thead> 
@@ -2579,7 +2579,7 @@ Estos son los diferentes parámetros del nodo **syslogd**. Esta es la configurac
    <td> processRestartTime<br /> </td> 
    <td> Hora del día en que se reinicia automáticamente el proceso. Consulte <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Reinicio automático del proceso</a>.<br /> </td> 
    <td> Cadena<br /> </td> 
-   <td> '06:00:00' <br /> </td> 
+   <td> "06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
@@ -2592,7 +2592,7 @@ Estos son los diferentes parámetros del nodo **syslogd**. Esta es la configurac
 
 ## seguimiento {#tracking}
 
-Estos son los diferentes parámetros del nodo **tracking**. Esta es la configuración del servidor de seguimiento.
+Estos son los diferentes parámetros de la variable **seguimiento** nodo . Esta es la configuración del servidor de seguimiento.
 
 <table> 
  <thead> 
@@ -2642,13 +2642,13 @@ Estos son los diferentes parámetros del nodo **tracking**. Esta es la configura
   </tr> 
   <tr> 
    <td> errorIgnorePeriod<br /> </td> 
-   <td> Actualizar indicadores de error: duración máxima antes de que se recompongan los indicadores de error.<br /> </td> 
+   <td> Actualizar indicadores de error: duración máxima antes de recomendar los indicadores de error.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 86400<br /> </td> 
   </tr> 
   <tr> 
    <td> indicatorsDuration<br /> </td> 
-   <td> Calcular indicadores durante: duración después de la fecha de validez de un envío después de la cual ya no se calculan los indicadores consolidados.<br /> </td> 
+   <td> Calcular indicadores durante: duración después de la fecha de validez de una entrega tras la cual ya no se calculan los indicadores consolidados.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 2592000<br /> </td> 
   </tr> 
@@ -2692,7 +2692,7 @@ Estos son los diferentes parámetros del nodo **tracking**. Esta es la configura
    <td> processRestartTime<br /> </td> 
    <td> Hora del día en que se reinicia automáticamente el proceso. Consulte <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Reinicio automático del proceso</a>.<br /> </td> 
    <td> Cadena<br /> </td> 
-   <td> '06:00:00' <br /> </td> 
+   <td> "06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
@@ -2723,7 +2723,7 @@ Estos son los diferentes parámetros del nodo **tracking**. Esta es la configura
 
 ## trackinglogd {#trackinglogd}
 
-Estos son los diferentes parámetros del nodo **trackinglogd**. Esta es la configuración del demonio de escritura del registro de seguimiento.
+Estos son los diferentes parámetros de la variable **trackinglogd** nodo . Esta es la configuración del demonio de escritura del registro de seguimiento.
 
 <table> 
  <thead> 
@@ -2779,7 +2779,7 @@ Estos son los diferentes parámetros del nodo **trackinglogd**. Esta es la confi
   </tr> 
   <tr> 
    <td> maxSharedLogs<br /> </td> 
-   <td> Recuento máximo de registros: número máximo de registros almacenados en la memoria compartida. No puede ser menor que 10000. <br /> </td> 
+   <td> Recuento máximo de registros: número máximo de registros almacenados en la memoria compartida. No puede ser inferior a 10000. <br /> </td> 
    <td> Largo<br /> </td> 
    <td> 25000<br /> </td> 
   </tr> 
@@ -2787,7 +2787,7 @@ Estos son los diferentes parámetros del nodo **trackinglogd**. Esta es la confi
    <td> processRestartTime<br /> </td> 
    <td> Hora del día en que se reinicia automáticamente el proceso. Consulte <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Reinicio automático del proceso</a>.<br /> </td> 
    <td> Cadena<br /> </td> 
-   <td> '06:00:00' <br /> </td> 
+   <td> "06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> purgeLogsPeriod<br /> </td> 
@@ -2812,7 +2812,7 @@ Estos son los diferentes parámetros del nodo **trackinglogd**. Esta es la confi
 
 ## web {#web}
 
-Estos son los diferentes parámetros del nodo **web**. Esta es la configuración del módulo web.
+Estos son los diferentes parámetros de la variable **web** nodo . Esta es la configuración del módulo web.
 
 Para obtener más información, consulte esta [sección](configuring-campaign-server.md#default-port-for-tomcat).
 
@@ -2828,7 +2828,7 @@ Para obtener más información, consulte esta [sección](configuring-campaign-se
  <tbody> 
   <tr> 
    <td> JVMOptions<br /> </td> 
-   <td> Opciones de la JVM transferidas como una cadena.<br /> </td> 
+   <td> Las opciones de la JVM se pasan como una cadena.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2902,7 +2902,7 @@ Para obtener más información, consulte esta [sección](configuring-campaign-se
    <td> processRestartTime<br /> </td> 
    <td> Hora del día en que se reinicia automáticamente el proceso. Consulte <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Reinicio automático del proceso</a>.<br /> </td> 
    <td> Cadena<br /> </td> 
-   <td> '06:00:00' <br /> </td> 
+   <td> "06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
@@ -2921,7 +2921,7 @@ Para obtener más información, consulte esta [sección](configuring-campaign-se
 
 ### jsp {#jsp}
 
-Estos son los diferentes parámetros del nodo **web > jsp**. Esta es la configuración de los parámetros utilizados por los JSP.
+Estos son los diferentes parámetros de la variable **web > jsp** nodo . Esta es la configuración de los parámetros utilizados por los JSP.
 
 <table> 
  <thead> 
@@ -2934,14 +2934,14 @@ Estos son los diferentes parámetros del nodo **web > jsp**. Esta es la configur
  </thead> 
  <tbody> 
   <tr> 
-   <td> debug<br /> </td> 
+   <td> depurar<br /> </td> 
    <td> Ejecución de JSP en modo de depuración o no.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> downloadPath<br /> </td> 
-   <td> Descargar carpeta: ruta de descarga de programas de instalación para consolas de cliente.<br /> </td> 
+   <td> Descargar carpeta: ruta de descarga de los programas de instalación para las consolas de cliente.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> '$(XTK_INSTALL_DIR)/datakit/nl/eng/jsp'<br /> </td> 
   </tr> 
@@ -2960,7 +2960,7 @@ Estos son los diferentes parámetros del nodo **web > jsp**. Esta es la configur
  </tbody> 
 </table>
 
-El nodo **web > jsp > classpath** contiene la lista de todas las rutas de clase que se deben utilizar al iniciar JVM. Esta es la configuración predeterminada:
+La variable **web > jsp > ruta de clase** contiene la lista de todas las rutas de clase que se deben usar al iniciar JVM. Esta es la configuración predeterminada:
 
 ```
 '$(XTK_INSTALL_DIR)/tomcat-8/bin/bootstrap.jar
@@ -3001,7 +3001,7 @@ El nodo **web > jsp > classpath** contiene la lista de todas las rutas de clase 
 
 ### jssp {#jssp}
 
-Estos son los diferentes parámetros del nodo **web > jssp**. Esta es la configuración de los parámetros utilizados por los JSSP.
+Estos son los diferentes parámetros de la variable **web > jssp** nodo . Esta es la configuración de los parámetros utilizados por los JSSP.
 
 <table> 
  <thead> 
@@ -3028,11 +3028,11 @@ Estos son los diferentes parámetros del nodo **web > jssp**. Esta es la configu
  </tbody> 
 </table>
 
-El nodo **web > jsp > classpath** contiene la lista de todas las rutas de clase que se deben utilizar al iniciar JVM.
+La variable **web > jsp > ruta de clase** contiene la lista de todas las rutas de clase que se deben usar al iniciar JVM.
 
 ### relé {#relay-2}
 
-Estos son los diferentes parámetros del nodo **web > relay**. Esta es la configuración de la retransmisión para solicitudes HTTP entre dos zonas.
+Estos son los diferentes parámetros de la variable **web > relé** nodo . Esta es la configuración de la retransmisión para solicitudes HTTP entre dos zonas.
 
 Para obtener más información, consulte esta [sección](../../installation/using/deploying-an-instance.md#synchronizing-public-resources).
 
@@ -3048,7 +3048,7 @@ Para obtener más información, consulte esta [sección](../../installation/usin
  <tbody> 
   <tr> 
    <td> debugRelay<br /> </td> 
-   <td> Inicie el módulo de transmisión HTTP dentro del servidor web en modo de depuración.<br /> </td> 
+   <td> Inicie el módulo HTTP relay dentro del servidor web en modo de depuración.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -3066,13 +3066,13 @@ Para obtener más información, consulte esta [sección](../../installation/usin
   </tr> 
   <tr> 
    <td> modDir<br /> </td> 
-   <td> Valor de la opción del módulo 'mod_dir': lista de archivos que se utilizarán durante una consulta en una carpeta.<br /> </td> 
+   <td> Valor de la opción del módulo 'mod_dir': lista de archivos que se van a utilizar durante una consulta en una carpeta.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> 'index.md' <br /> </td> 
   </tr> 
   <tr> 
    <td> startRelay<br /> </td> 
-   <td> Inicie el módulo de transmisión HTTP.<br /> </td> 
+   <td> Inicie el módulo de retransmisión HTTP.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -3086,14 +3086,14 @@ Para obtener más información, consulte esta [sección](../../installation/usin
    <td> timeout<br /> </td> 
    <td> Espere un tiempo antes de eliminar la dirección URL prohibida.<br /> </td> 
    <td> Cadena<br /> </td> 
-   <td> '60'<br /> </td> 
+   <td> "60"<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Añada un nodo **web > relay > url** para cada URL que se reenviará (el orden de inserción define la prioridad) con los siguientes parámetros.
+Agregue un **web > relay > url** para cada URL que se reenvía (el orden de inserción define la prioridad) con los siguientes parámetros.
 
-Para obtener más información, consulte [Seguridad dinámica de la página y relés](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays) y [sección](../../installation/using/deploying-an-instance.md#synchronizing-public-resources).
+Para obtener más información, consulte [Seguridad y relés de página dinámicos](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays) y [sección](../../installation/using/deploying-an-instance.md#synchronizing-public-resources).
 
 <table> 
  <thead> 
@@ -3143,7 +3143,7 @@ Para obtener más información, consulte [Seguridad dinámica de la página y re
   </tr> 
   <tr> 
    <td> status<br /> </td> 
-   <td> Estado de sincronización de un recurso público (enumeración). Los valores posibles son 'normal' (ejecución normal), 'blacklist' (url agregada a lista de bloqueados en caso de error 404) y 'spare' (carga de archivos en el servidor de repuesto si existe).<br /> </td> 
+   <td> Estado de sincronización de un recurso público (enumeración). Los valores posibles son 'normal' (ejecución normal), 'blacklist' (url agregada a lista de bloqueados en caso de error 404) y 'spare' (carga de archivos en el servidor de reserva si existe).<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> normal<br /> </td> 
   </tr> 
@@ -3233,7 +3233,7 @@ Esta es la configuración predeterminada:
      timeout="" status="spare" httpAllowed="true" urlPath="/*.jpg"/>
 ```
 
-Agregue un nodo **web > relay > responseHeader** para cada encabezado HTTP para añadir a las respuestas reenviadas a la retransmisión.
+Agregue un **web > relay > responseHeader** para cada encabezado HTTP que se agregará a las respuestas reenviadas a la retransmisión.
 
 Para obtener más información, consulte [Administración de encabezados HTTP](../../installation/using/configuring-campaign-server.md#managing-http-headers).
 
@@ -3267,7 +3267,7 @@ Esta es la configuración predeterminada:
 
 ### redirección {#redirection}
 
-Estos son los diferentes parámetros del nodo **web > redirección**. Esta es la configuración del módulo de redirección.
+Estos son los diferentes parámetros de la variable **web > redirección** nodo . Esta es la configuración del módulo de redirección.
 
 Para obtener más información, consulte esta [sección](../../installation/using/deploying-an-instance.md#synchronizing-public-resources).
 
@@ -3283,7 +3283,7 @@ Para obtener más información, consulte esta [sección](../../installation/usin
  <tbody> 
   <tr> 
    <td> IMSOrgId<br /> </td> 
-   <td> Identificador de organización del sistema Identity Management (IMS): identificador de organización único dentro de Adobe Experience Cloud, utilizado en particular para el servicio VisitorID y el SSO IMS. <br /> </td> 
+   <td> Identificador de organización del sistema Identity Management (IMS): identificador de organización único dentro de Adobe Experience Cloud, utilizado en particular para el servicio VisitorID y el SSO de IMS. <br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3301,7 +3301,7 @@ Para obtener más información, consulte esta [sección](../../installation/usin
   </tr> 
   <tr> 
    <td> databaseId<br /> </td> 
-   <td> Identificador de base de datos asociado con la instancia de seguimiento.<br /> </td> 
+   <td> Identificador de base de datos asociado a la instancia de seguimiento.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3319,7 +3319,7 @@ Para obtener más información, consulte esta [sección](../../installation/usin
   </tr> 
   <tr> 
    <td> maxJobsInCache<br /> </td> 
-   <td> Recuento máximo de trabajos: número máximo de acciones de envío en la caché. Puede que no sea inferior a 50. <br /> </td> 
+   <td> Recuento máximo de trabajos: número máximo de acciones de envío en la caché. Puede no ser inferior a 50. <br /> </td> 
    <td> Largo<br /> </td> 
    <td> 100<br /> </td> 
   </tr> 
@@ -3350,7 +3350,7 @@ Para obtener más información, consulte esta [sección](../../installation/usin
  </tbody> 
 </table>
 
-Estos son los diferentes parámetros del nodo **web > redirección > spareServer**.
+Estos son los diferentes parámetros de la variable **web > redirección > spareServer** nodo .
 
 Para obtener más información, consulte [Seguimiento redundante](../../installation/using/configuring-campaign-server.md#redundant-tracking).
 
@@ -3378,7 +3378,7 @@ Para obtener más información, consulte [Seguimiento redundante](../../installa
   </tr> 
   <tr> 
    <td> url<br /> </td> 
-   <td> URL del servidor de redirección adicional<br /> </td> 
+   <td> URL de servidor de redirección extra<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3387,7 +3387,7 @@ Para obtener más información, consulte [Seguimiento redundante](../../installa
 
 ### spamCheck {#spamcheck}
 
-Estos son los diferentes parámetros del nodo **web > spamCheck**. Esta es la configuración de los parámetros de evaluación de puntuación de correo electrónico no deseado.
+Estos son los diferentes parámetros de la variable **web > spamCheck** nodo . Esta es la configuración de los parámetros de evaluación de puntuación de correo electrónico no deseado.
 
 Para obtener más información, consulte [Configuración de SpamAssassin](../../installation/using/configuring-spamassassin.md).
 
@@ -3410,7 +3410,7 @@ Para obtener más información, consulte [Configuración de SpamAssassin](../../
 
 ## wfserver {#wfserver}
 
-Estos son los diferentes parámetros del nodo **wfserver**. Esta es la configuración del proceso del flujo de trabajo.
+Estos son los diferentes parámetros de la variable **wfserver** nodo . Esta es la configuración del proceso del flujo de trabajo.
 
 Para obtener más información, consulte [Flujos de trabajo y afinidades de alta disponibilidad](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities).
 
@@ -3476,7 +3476,7 @@ Para obtener más información, consulte [Flujos de trabajo y afinidades de alta
    <td> processRestartTime<br /> </td> 
    <td> Hora del día en que se reinicia automáticamente el proceso. Consulte <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Reinicio automático del proceso</a>.<br /> </td> 
    <td> Cadena<br /> </td> 
-   <td> '06:00:00' <br /> </td> 
+   <td> "06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 

@@ -46,12 +46,12 @@ _operation (cadena), avanzado (booleano), acumulado (cadena), aplicableIf (caden
 
 ## Descripción {#description-4}
 
-Existen cuatro tipos de elementos `<element>` en Adobe Campaign:
+Existen cuatro tipos de `<element>`  elementos en Adobe Campaign:
 
-* Raíz `<element>` : define el nombre de la tabla SQL que coincide con el esquema.
-* Estructura `<element>` : define un grupo de `<element>`   o   `<attribute>`    elementos.
-* Vínculo `<element>` : define un vínculo. Estos elementos deben incluir el atributo &quot;@type=link&quot;.
-* XML `<element>` : define un campo de tipo texto &quot;mData&quot;. Este elemento debe incluir el atributo &quot;@type=xml&quot;.
+* Raíz `<element>`  : define el nombre de la tabla SQL que coincide con el esquema.
+* Estructura `<element>`  : define un grupo de  `<element>`   o   `<attribute>`    elementos.
+* Vínculo `<element>`  : define un vínculo. Estos elementos deben incluir el atributo &quot;@type=link&quot;.
+* XML `<element>`  : define un campo de tipo texto &quot;mData&quot;. Este elemento debe incluir el atributo &quot;@type=xml&quot;.
 
 ## Descripción del atributo {#attribute-description-4}
 
@@ -68,7 +68,7 @@ Existen cuatro tipos de elementos `<element>` en Adobe Campaign:
    * &quot;eliminar&quot;: eliminación. Esto significa que Adobe Campaign recuperará y eliminará los elementos.
 
 * **avanzado (booleano)**: cuando esta opción está activada (@advanced=&quot;true&quot;), permite ocultar el atributo en la lista de campos disponibles accesibles para configurar una lista en un formulario.
-* **acumulado (cadena)**: permite copiar la definición de un  `<element>`  mediante otro esquema. Este atributo recibe una declaración de esquema en forma de &quot;namespace:name&quot;.
+* **aggregate (string)**: permite copiar la definición de un `<element>`  mediante otro esquema. Este atributo recibe una declaración de esquema en forma de &quot;namespace:name&quot;.
 * **applyIf (cadena)**: condición para aplicar el índice. Este atributo recibe una expresión XTK.
 * **autopk (booleano)**: si esta opción está activada (autopk=&quot;true&quot;), se definirá automáticamente una clave única. Esta opción solo se puede utilizar en el elemento principal del esquema. Advertencia, Adobe Campaign solo garantiza que la clave generada sea única. No se garantiza que los valores clave sean consecutivos e incrementales.
 * **dataPolicy (cadena)**: permite especificar restricciones de aprobación en valores permitidos en el campo SQL. Los valores de este atributo son:
@@ -82,11 +82,11 @@ Existen cuatro tipos de elementos `<element>` en Adobe Campaign:
    * &quot;identificador&quot;: nombre del identificador
    * &quot;resIdentifier&quot;: nombre de archivo
 
-* **dbEnum (cadena)**: recibe el nombre interno de una enumeración &quot;cerrada&quot;. Los valores de enumeración deben definirse en `<srcschema>`.
+* **dbEnum (cadena)**: recibe el nombre interno de una enumeración &quot;cerrada&quot;. Los valores de enumeración deben definirse en la variable `<srcschema>`.
 * **defOnDuplicate (booleano)**: si este atributo está activado, cuando se duplica un registro, el valor predeterminado (definido en @default) se vuelve a aplicar automáticamente al registro.
-* **predeterminado (cadena)**: permite definir el comportamiento del elemento (llamada a una función, valor predeterminado). Este atributo recibe una expresión XTK.
+* **default (cadena)**: permite definir el comportamiento del elemento (llamada a una función, valor predeterminado). Este atributo recibe una expresión XTK.
 * **desc (cadena)**: permite insertar una descripción del elemento. Esta descripción se muestra en la barra de estado de la interfaz.
-* **displayAsField (booleano)**: si este atributo está activado, se  `<element>`  mostrará un tipo &quot;vínculo&quot; como campo en la vista de árbol de los esquemas (pestaña &quot;Estructura&quot;). De este modo, es posible mostrar un vínculo como campo local y cambiar su comportamiento durante una consulta. Cuando el elemento se encuentra en el SELECT de una consulta, se utiliza el valor del destino del vínculo. Cuando el elemento se encuentra en el WHERE de una consulta, se utiliza la clave subyacente del vínculo.
+* **displayAsField (booleano)**: si este atributo está activado, se denomina &quot;vínculo&quot; `<element>`  se muestra como un campo en la vista de árbol de los esquemas (pestaña &quot;Estructura&quot;). De este modo, es posible mostrar un vínculo como campo local y cambiar su comportamiento durante una consulta. Cuando el elemento se encuentra en el SELECT de una consulta, se utiliza el valor del destino del vínculo. Cuando el elemento se encuentra en el WHERE de una consulta, se utiliza la clave subyacente del vínculo.
 * **editar (cadena)**: este atributo especifica el tipo de entrada que se utilizará en el formulario vinculado al esquema.
 * **enum (cadena)**: recibe el nombre de la enumeración vinculada al campo. La enumeración puede insertarse en el mismo esquema o en un esquema remoto.
 * **expr (cadena)**: este atributo define un campo calculado para el que no se almacena ninguna definición en la tabla. Recibe una expresión Xpath o XTK (cadena).
@@ -126,7 +126,7 @@ Existen cuatro tipos de elementos `<element>` en Adobe Campaign:
 * **labelSingular (cadena)**: etiqueta (forma singular) del elemento utilizado en algunas partes de la interfaz.
 * **length (string)**: max. número de caracteres autorizados para un valor del campo SQL de tipo &quot;cadena&quot;.
 * **localizable (booleano)**: si está activado, este atributo indica a la herramienta de recopilación que recupere el valor del atributo &quot;@label&quot; para la traducción (uso interno).
-* **nombre (MNTOKEN)**: nombre interno del elemento que coincide con el nombre de la tabla. El valor del atributo &quot;@name&quot; debe ser corto, preferiblemente en inglés, y cumplir con las restricciones de nomenclatura vinculadas a XML.
+* **name (MNTOKEN)**: nombre interno del elemento que coincide con el nombre de la tabla. El valor del atributo &quot;@name&quot; debe ser corto, preferiblemente en inglés, y cumplir con las restricciones de nomenclatura vinculadas a XML.
 
    Cuando se escribe el esquema en la base de datos, Adobe Campaign agrega automáticamente los prefijos al nombre del campo.
 
@@ -162,15 +162,15 @@ Existen cuatro tipos de elementos `<element>` en Adobe Campaign:
 * **revExternalJoin (booleano)**: cuando se activa, este atributo permite forzar la unión externa en el vínculo opuesto.
 * **revIntegrity (cadena)**: este atributo define la integridad en el esquema de destino. Se autorizan los mismos valores que el atributo &quot;@integridad&quot;. De forma predeterminada, Adobe Campaign le da el valor &quot;normal&quot; a este atributo.
 * **revLabel (cadena)**: etiqueta del vínculo opuesto.
-* **revLink (cadena)**: nombre del vínculo opuesto. Si el valor es &quot;_NONE_&quot;, no se creará ningún vínculo opuesto en el esquema de destino.
+* **revLink (cadena)**: nombre del vínculo opuesto. Si el valor es &quot;_NINGUNO_&quot;, no se creará ningún vínculo opuesto en el esquema de destino.
 * **revTarget (cadena)**: objetivo del vínculo opuesto.
 * **sql (booleano)**: si este atributo está activado (@sql=&quot;true&quot;), fuerza el almacenamiento del elemento SQL, aunque el elemento tenga la propiedad xml=&quot;true&quot;.
 * **sqlname (cadena)**: nombre del campo durante la creación de la tabla. Si no se especifica &quot;@sqlname&quot;, el valor del atributo &quot;@name&quot; se utiliza de forma predeterminada. Al escribir el esquema en la tabla, los prefijos se añaden automáticamente según el tipo de campo.
 * **sqltable (cadena)**: para el elemento principal del esquema, este atributo sobrecarga el nombre de la tabla SQL generada de forma predeterminada. Si no se especifica &quot;@sqltable&quot;, el nombre predeterminado se estructurará de esta manera: espacio de nombres (primera letra en mayúsculas) seguido del valor de SrcSchema &quot;@name&quot;.
-* **tableSpace (cadena)**: este atributo permite especificar un nuevo tablespace de almacenamiento de datos para una tabla (válido en la raíz  `<element>`).
-* **tableSpaceIndex (cadena)**: este atributo permite especificar un nuevo tablespace de almacenamiento de índices para una tabla (válido en la raíz  `<element>`).
+* **tableSpace (cadena)**: este atributo permite especificar un nuevo tablespace de almacenamiento de datos para una tabla (válido en la raíz `<element>`).
+* **tableSpaceIndex (cadena)**: este atributo permite especificar un nuevo tablespace de almacenamiento de índices para una tabla (válido en la raíz `<element>`).
 * **target (MNTOKEN)**: recibe el nombre del esquema de destino al crear un vínculo entre tablas. Este atributo solo está activo para elementos de tipo &quot;vínculo&quot;.
-* **plantilla (cadena)**: este atributo define una referencia a un  `<element>` elemento compartido por varios esquemas. La definición se copia automáticamente en el esquema actual.
+* **plantilla (cadena)**: este atributo define una referencia a un `<element>` elemento compartido por varios esquemas. La definición se copia automáticamente en el esquema actual.
 * **translateDefault (cadena)**: si se encuentra un atributo &quot;@default&quot;, &quot;@translateDefault&quot; le permitirá redefinir una expresión que coincida con la definida en @default, que la herramienta de traducción (uso interno) recopilará.
 * **translateExpr (cadena)**: si se encuentra un atributo &quot;@expr&quot;, el atributo &quot;@translateExpr&quot; permite redefinir una expresión que coincida con la definida en &quot;@expr&quot; y que la herramienta de traducción (uso interno) recopilará.
 * **tipo (MNTOKEN)**: define el tipo de datos almacenados en el elemento .
@@ -207,4 +207,4 @@ Existen cuatro tipos de elementos `<element>` en Adobe Campaign:
 * **unbound (booleano)**: si el atributo está activado (unbound=&quot;true&quot;), el vínculo se declara como un elemento de recopilación para una cardinalidad 1-N.
 * **userEnum (cadena)**: recibe el nombre interno de una enumeración &quot;open&quot;. El usuario puede definir los valores de enumeración en la interfaz.
 * **xml (booleano)**: si esta opción está activada, todos los valores definidos en el elemento se almacenan en XML en un campo TEXT type &quot;mData&quot; . Esto significa que no habrá filtrado ni ordenación en estos campos.
-* **xmlChildren (booleano)**: fuerza el almacenamiento de cada niño (  `<element>  or  <attribute>   ) of the   <element>    element in an XML document.   </element>  </attribute> </element>`
+* **xmlChildren (booleano)**: fuerza el almacenamiento de cada niño ( `<element>  or  <attribute>   ) of the   <element>    element in an XML document.   </element>  </attribute> </element>`

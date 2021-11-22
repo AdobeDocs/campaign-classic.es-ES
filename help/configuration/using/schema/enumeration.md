@@ -82,11 +82,11 @@ Las enumeraciones se definen al principio de un esquema (antes de que se defina 
    * timespan
    * uuid
 
-* **predeterminado (cadena)**: Valor predeterminado. El valor predeterminado también puede ser uno de los valores definidos en la enumeración.
+* **default (cadena)**: Valor predeterminado. El valor predeterminado también puede ser uno de los valores definidos en la enumeración.
 * **desc (cadena)**: descripción de la enumeración.
 * **label (cadena)**: etiqueta de enumeración.
-* **nombre (cadena)**: nombre interno de la enumeración.
-* **plantilla (cadena)**: este atributo define una referencia a un  `<enumeration>` elemento compartido por varios esquemas. La definición se copia automáticamente en el esquema actual.
+* **name (cadena)**: nombre interno de la enumeración.
+* **plantilla (cadena)**: este atributo define una referencia a un `<enumeration>` elemento compartido por varios esquemas. La definición se copia automáticamente en el esquema actual.
 
 ## Ejemplos {#examples-4}
 

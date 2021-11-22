@@ -21,16 +21,16 @@ ht-degree: 1%
 
 Esta sección detalla los pasos de las configuraciones preliminares necesarios antes de instalar Adobe Campaign.
 
-La configuración técnica y de software necesaria para instalar Adobe Campaign se detalla en la [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
+La configuración técnica y de software necesaria para instalar Adobe Campaign se detalla en la sección [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
 
 Como recordatorio, es necesario instalar y configurar correctamente los siguientes componentes:
 
 * Apache, consulte [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md),
-* Java JDK y OpenJDK, consulte [Kit de desarrollo de Java - JDK](../../installation/using/application-server.md#java-development-kit---jdk),
+* Java JDK y OpenJDK, consulte [Kit de desarrollo de Java: JDK](../../installation/using/application-server.md#java-development-kit---jdk),
 * Bibliotecas, consulte [Bibliotecas](#libraries),
 * Capas de acceso a bases de datos, consulte [Capas de acceso a bases de datos](#database-access-layers),
 * LibreOffice, consulte [Instalación de LibreOffice para Debian](#installing-libreoffice-for-debian) y [Instalación de LibreOffice para CentOS](#installing-libreoffice-for-centos),
-* Fuentes, consulte [Fuentes para estadísticas de MTA](#fonts-for-mta-statistics) y [Fuentes para instancias japonesas](#fonts-for-japanese-instances).
+* Fuentes, consulte [Fuentes para las estadísticas de MTA](#fonts-for-mta-statistics) y [Fuentes para instancias japonesas](#fonts-for-japanese-instances).
 
 >[!NOTE]
 >
@@ -40,19 +40,19 @@ Como recordatorio, es necesario instalar y configurar correctamente los siguient
 
 Para instalar Adobe Campaign en Linux, asegúrese de que dispone de las bibliotecas necesarias.
 
-* La biblioteca C debe ser compatible con el modo TLS (Almacenamiento local de subprocesos). Este modo está activo en la mayoría de los casos, excepto con algunos kernels para los que se ha desactivado la compatibilidad con Xen.
+* La biblioteca C debe ser compatible con el modo TLS (Almacenamiento local de subprocesos). Este modo está activo en la mayoría de los casos, excepto con algunos núcleos para los que se ha desactivado la compatibilidad con Xen.
 
-   Para comprobar esto, puede utilizar el **uname -a | grep xen**, por ejemplo.
+   Para comprobar esto, puede usar la variable **uname -a | grep xen** por ejemplo.
 
    Si el comando no devuelve nada (línea vacía), significa que la configuración es correcta.
 
-* Debe tener **versión 0.9.8** o **1.0** de OpenSSL.
+* Debe tener **versión 0.9.8** o **1,0** de OpenSSL.
 
    Para distribuciones RHEL 7, se requiere la versión 1.0 de OpenSSL.
 
-* Para utilizar Adobe Campaign, debe tener instalada la biblioteca **libicu**.
+* Para usar Adobe Campaign, debe tener la variable **libicu** biblioteca instalada.
 
-   Se admiten las siguientes versiones de **libicu** (32 bits o 64 bits):
+   Las siguientes versiones de **libicu** son compatibles (32 o 64 bits):
 
    * RHEL 7, CentOS 7: libicu50
    * Debian 8: libicu52
@@ -80,7 +80,7 @@ Para ello, inicie sesión como root e introduzca el siguiente comando:
 echo 0 >/selinux/enforce
 ```
 
-Además de esto, en el archivo **/etc/sysconfig/httpd** se agregó la línea siguiente para hacer referencia al script de configuración del entorno de Adobe Campaign:
+Además de esto, en la **/etc/sysconfig/httpd** , se agregó la siguiente línea para hacer referencia al script de configuración de entorno de Adobe Campaign:
 
 ```
 . ~neolane/nl6/env.sh
@@ -90,7 +90,7 @@ En RHEL y CentOS, se observaron problemas de compatibilidad con las capas de cli
 
 **Siga este proceso:**
 
-* Edite el archivo **/etc/selinux/config**
+* Editar el archivo **/etc/selinux/config**
 
 * Modifique la línea SELINUX de la siguiente manera:
 
@@ -116,7 +116,7 @@ yum install xorg-x11-fonts-base xorg-x11-fonts-75dpi bitstream-vera-fonts dejavu
 
 ### Fuentes para instancias japonesas {#fonts-for-japanese-instances}
 
-Las fuentes de caracteres específicos son necesarias para las instancias japonesas a fin de exportar los informes al formato PDF.
+Las fuentes de caracteres específicos son necesarias para las instancias japonesas a fin de exportar los informes al formato de PDF.
 
 En Debian, añada el comando:
 
@@ -166,15 +166,15 @@ Las siguientes configuraciones son necesarias con CentOS:
 
 Las capas de acceso para el motor de base de datos que está utilizando deben estar instaladas en el servidor y ser accesibles a través de la cuenta de Adobe Campaign. Las versiones y los modos de instalación pueden variar en función del motor de base de datos utilizado.
 
-La versión piloto admitida se detalla en la [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
+La versión piloto admitida se detalla en la sección [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
 
-Compruebe también la sección general [Database](../../installation/using/database.md).
+Compruebe también el [Base de datos](../../installation/using/database.md) para obtener más información.
 
 ### PostgreSQL {#postgresql}
 
 Adobe Campaign admite todas las versiones de las bibliotecas de cliente PostgreSQL de la versión 7.2: (**libpq.so.5**, **libpq.so.4**, **libpq.so.3.2** y **libpq.so.3.1**).
 
-El uso de PostgreSQL con Adobe Campaign también requiere la instalación de las bibliotecas **pgcrypto** correspondientes.
+El uso de PostgreSQL con Adobe Campaign también requiere la instalación del **pgcrypto** bibliotecas.
 
 ### Oracle {#oracle}
 
@@ -184,7 +184,7 @@ Puede obtener un paquete RPM de Linux de la Red de Tecnología de Oracle.
 
 >[!NOTE]
 >
->Si ya ha instalado el cliente de Oracle pero el entorno global (por ejemplo: /etc/profile) no está configurado correctamente, puede agregar información que falta al script **nl6/customer.sh** Para obtener más información, consulte [Variables de entorno](../../installation/using/installing-packages-with-linux.md#environment-variables).
+>Si ya ha instalado el cliente de Oracle pero el entorno global (por ejemplo: /etc/profile) no está configurado correctamente, puede agregar información que falte a la variable **nl6/customer.sh** script Para obtener más información, consulte [Variables de entorno](../../installation/using/installing-packages-with-linux.md#environment-variables).
 
 **Solución de problemas y prácticas recomendadas**
 
@@ -192,21 +192,21 @@ Los problemas pueden aparecer después de un cliente de Oracle o una actualizaci
 
 Si observa en la consola del cliente que hay retrasos de tiempo inesperados (una o más horas) en los registros, el último procesamiento del flujo de trabajo, el siguiente procesamiento, etc., puede haber un problema entre la biblioteca del cliente de Oracle y el servidor de Oracle. Para evitar estos problemas
 
-1. Asegúrese de utilizar el **cliente completo**.
+1. Asegúrese de utilizar la variable **cliente completo**.
 
    Se han identificado varios problemas al utilizar la versión de cliente instantáneo de Oracle. Además, es imposible cambiar el archivo de zona horaria en el cliente instantáneo.
 
-1. Asegúrese de que **client version** y **database server version** sean **same**.
+1. Asegúrese de que la variable **versión del cliente** y **versión del servidor de base de datos** son las **same**.
 
    Se sabe que la combinación de versiones a pesar de la matriz de compatibilidad de Oracle y la recomendación de alinear las versiones de cliente y servidor causa problemas.
 
    Compruebe también el valor de ORACLE_HOME para asegurarse de que señala a la versión del cliente esperada (en caso de que se instalen varias versiones en el equipo).
 
-1. Asegúrese de que el cliente y el servidor utilizan el mismo **archivo de zona horaria**.
+1. Asegúrese de que el cliente y el servidor utilicen el mismo **archivo de zona horaria**.
 
 ### DB2 {#db2}
 
-La versión de biblioteca admitida es **libdb2.so**.
+La versión de la biblioteca admitida es **libdb2.so**.
 
 ## Pasos de implementación {#implementation-steps}
 

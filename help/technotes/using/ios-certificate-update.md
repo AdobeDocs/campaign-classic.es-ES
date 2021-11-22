@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 'Nota técnica: actualización del certificado del servidor del servicio de notificaciones push de Apple'
-description: Actualización del certificado del servidor del servicio de notificaciones push de Apple
+title: 'Nota técnica: Actualización de certificados del servidor del servicio de notificaciones push de Apple'
+description: Actualización de certificados del servidor del servicio de notificaciones push de Apple
 exl-id: 263fb4b5-ca62-4b92-a82d-8820ee998296
 source-git-commit: 0c97efef21bfd3b8671847c3e1c27bb76cf167e4
 workflow-type: tm+mt
@@ -10,13 +10,13 @@ ht-degree: 0%
 
 ---
 
-# Actualización del certificado del servidor del servicio de notificaciones push de Apple {#apns-certificate-update}
+# Actualización de certificados del servidor del servicio de notificaciones push de Apple {#apns-certificate-update}
 
 ![](../../assets/v7-only.svg)
 
-El 29 de marzo de 2021, una actualización de la infraestructura del servicio de notificaciones push de Apple (APNS) afectó al canal iOS de Adobe Campaign Classic. Un cambio en la configuración del sistema operativo es **obligatorio** para evitar la interrupción del canal push de iOS.
+El 29 de marzo de 2021, una actualización de la infraestructura del servicio de notificaciones push de Apple (APNS) afectó al canal iOS de Adobe Campaign Classic. Un cambio en la configuración de SO es **mandatory** para evitar la interrupción del canal push de iOS.
 
-Obtenga más información sobre los cambios de APNS [en esta página](https://developer.apple.com/news/?id=7gx0a2lp).
+Más información sobre los cambios de APNS [en esta página](https://developer.apple.com/news/?id=7gx0a2lp).
 
 Como cliente alojado, no es necesario realizar ninguna acción: Adobe ya ha incorporado el nuevo certificado raíz a su entorno.
 

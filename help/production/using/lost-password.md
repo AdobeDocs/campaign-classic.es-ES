@@ -21,7 +21,7 @@ Puede cambiar o recuperar una contraseña perdida.
 Hay dos escenarios posibles:
 
 * [Contraseña perdida por un operador de Adobe Campaign](#password-lost-by-campaign-operator)
-* [Se ha perdido la contraseña interna](#internal-password-lost)  (solo clientes locales)
+* [Se ha perdido la contraseña interna](#internal-password-lost) (solo clientes locales)
 
 ## Contraseña perdida por un operador de Campaign {#password-lost-by-campaign-operator}
 
@@ -45,9 +45,9 @@ Para realizar esto, siga los pasos a continuación:
 Si se pierde la contraseña interna, debe reiniciarla.
 Para ello, siga el siguiente procedimiento:
 
-1. Edite el archivo **/usr/local/neolane/nl6/conf/serverConf.xml**.
+1. Edite el **/usr/local/neolane/nl6/conf/serverConf.xml** archivo.
 
-1. Vaya a la línea **internalPassword**.
+1. Vaya a la **internalPassword** línea.
 
    ```
    <!-- XTK authentication mode internalPassword : Password of internal account -->
@@ -77,4 +77,4 @@ Para ello, siga el siguiente procedimiento:
    Confirmation 
    ```
 
-1. Ahora puede utilizar su nueva contraseña para conectarse en modo **Internal**.
+1. Ahora puede utilizar su nueva contraseña para conectarse a **Internas** en el menú contextual.

@@ -58,7 +58,7 @@ Estas son las consecuencias de utilizar este atributo en Campaign:
 
 ## Recomendaciones {#recommendations}
 
-En cada envío, las direcciones de correo electrónico se copian en las tablas **[!UICONTROL broadLog]** y **[!UICONTROL forecastLog]** : como consecuencia, estos campos también deben protegerse.
+En cada envío, las direcciones de correo electrónico se copian en la variable **[!UICONTROL broadLog]** y **[!UICONTROL forecastLog]** tablas: como consecuencia, estos campos también deben protegerse.
 
 A continuación se muestra un ejemplo de la extensión de la tabla de registro para implementar esto:
 

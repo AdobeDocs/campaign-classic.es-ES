@@ -19,21 +19,21 @@ ht-degree: 17%
 
 Se puede configurar una zona de búfer de datos para aumentar el rendimiento de interacción entrante desincronizando los cálculos de propuesta de oferta. Esta configuración se debe llevar a cabo en el archivo de configuración propio de la instancia (config-Instance.xml).
 
-En Adobe Campaign, se ha introducido una **zona de búfer de datos** en el módulo Interacción. Esto le permite **aumentar el rendimiento** de la interacción entrante desincronizando los cálculos de existencias y ofertas.
+En Adobe Campaign, una **zona de búfer de datos** se ha introducido en el módulo Interacción. Esto le permite **aumentar el rendimiento** de interacción entrante desincronizando los cálculos de stock y oferta.
 
 Solo se refiere a la interacción entrante, ya sea por una llamada (con o sin datos de llamada) o por una actualización de estado (updateStatus).
 
-Para evitar una cola al escribir propuestas relacionadas con un destinatario, un nuevo proceso w genera una **zona de búfer de datos** que permite que las propuestas se **escriban asincrónicamente**. Esta zona de búfer de datos se lee y vacía periódicamente. El periodo predeterminado es de aproximadamente un segundo. Por lo tanto, la escritura de propuestas se agrupa.
+Para evitar una cola al escribir propuestas relacionadas con un destinatario, un nuevo proceso genera un **zona de búfer de datos** que permite que las propuestas sean **escrito asincrónicamente**. Esta zona de búfer de datos se lee y vacía periódicamente. El periodo predeterminado es de aproximadamente un segundo. Por lo tanto, la escritura de propuestas se agrupa.
 
 >[!NOTE]
 >
 >Este parámetro es esencial si se utiliza interacción con una arquitectura distribuida.
 
-La zona de búfer de datos **configuración** se puede realizar en el archivo de configuración de la instancia (config-Instance.xml).
+Zona de búfer de datos **configuración** se puede realizar en el archivo de configuración de la instancia (config-Instance.xml).
 
 >[!CAUTION]
 >
->Algunas configuraciones solo se pueden realizar mediante Adobe para implementaciones alojadas en Adobe. Por ejemplo, para acceder a los archivos de configuración del servidor y de la instancia. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Modelos de alojamiento](../../installation/using/hosting-models.md) o [esta página](../../installation/using/capability-matrix.md).
+>Algunas configuraciones solo se pueden realizar mediante Adobe para implementaciones alojadas en Adobe. Por ejemplo, para acceder a los archivos de configuración del servidor y de la instancia. Para obtener más información sobre las diferentes implementaciones, consulte la [Modelos de alojamiento](../../installation/using/hosting-models.md) o [esta página](../../installation/using/capability-matrix.md).
 >
 >Cualquier cambio realizado en la configuración requiere un reinicio del servidor web (Apache:IIS) y de los procesos de Adobe Campaign.\
 >Después de configurar la zona de búfer de datos, asegúrese de que hay disponible una configuración de hardware adaptada. (cantidad de memoria presente).

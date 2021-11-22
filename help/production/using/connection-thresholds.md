@@ -21,15 +21,15 @@ En los servidores cargados de forma intensiva, es posible que se supere el umbra
 
 Hay tres umbrales diferentes:
 
-* El **umbral de conexión web**, configurado en el servidor web. Para modificarlo, póngase en contacto con el administrador del sistema.
+* La variable **Umbral de conexión web**, configurado en el servidor web. Para modificarlo, póngase en contacto con el administrador del sistema.
 
-* El **umbral de conexión a la base de datos**. Para modificarlo, póngase en contacto con el administrador de la base de datos.
+* La variable **umbral de conexión de base de datos**. Para modificarlo, póngase en contacto con el administrador de la base de datos.
 
-* El **umbral de conexión de Adobe Campaign**, disponible en dos lugares:
+* La variable **Umbral de conexión de Adobe Campaign**, disponible en dos lugares:
 
-   * **** Tomcatside: todas las consultas que llegan realmente al cliente Tomcat de Adobe Campaign.
+   * **Tomcat** lado: todas las consultas que llegan realmente al cliente Tomcat de Adobe Campaign.
 
-      Este umbral se configura en el archivo **nl6/tomcat-8/conf/server.xml**. El atributo **maxThreads** permite aumentar el umbral del número de consultas procesadas a la vez. Se puede cambiar a 250, por ejemplo.
+      Este umbral se configura en la variable **nl6/tomcat-8/conf/server.xml** archivo. La variable **maxThreads** permite aumentar el umbral del número de consultas procesadas a la vez. Se puede cambiar a 250, por ejemplo.
 
       ```
       <Connector protocol="HTTP/1.1" port="8080"
@@ -45,7 +45,7 @@ Hay tres umbrales diferentes:
 
    * **Base de datos**: conjunto de todas las conexiones abiertas al mismo tiempo en la base de datos mediante un proceso.
 
-      Este umbral se configura en el archivo **nl6/conf/serverConf.xml**. El atributo **maxCnx** ubicado en **datasource pool** permite aumentar el umbral de consultas procesadas simultáneamente.
+      Este umbral se configura en el archivo **nl6/conf/serverConf.xml**. La variable **maxCnx** atributo ubicado en **grupo de orígenes de datos** permite aumentar el umbral de consultas procesadas simultáneamente.
 
       ```
           <!-- Data source

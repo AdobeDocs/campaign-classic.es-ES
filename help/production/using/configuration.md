@@ -19,13 +19,13 @@ ht-degree: 1%
 
 ## Cambio del puerto de escucha syslogd {#changing-the-syslogd-listening-port}
 
-De forma predeterminada, el puerto de escucha **syslogd** es 666 (udp). Puede modificarla con una variable de entorno si es necesario.
+De forma predeterminada, la variable **syslogd** el puerto de escucha es 666 (udp). Puede modificarla con una variable de entorno si es necesario.
 
 Una vez configurada, todos los módulos de Adobe Campaign tienen en cuenta esta variable.
 
 ### En Linux {#in-linux}
 
-Edite el archivo **customer.sh** y añada la línea siguiente:
+Edite el **customer.sh** y agregue la línea siguiente:
 
 ```
 export TRACE_ADDR=localhost:<listening port>
@@ -33,7 +33,7 @@ export TRACE_ADDR=localhost:<listening port>
 
 ### En Windows {#in-windows}
 
-Debe crear la variable de entorno **TRACE_ADDR** con el valor **localhost**: **`<listening port="" />`**.
+Debe crear la variable **TRACE_ADDR** variable de entorno con la variable **localhost** valor: **`<listening port="" />`**.
 
 >[!IMPORTANT]
 >
@@ -41,8 +41,8 @@ Debe crear la variable de entorno **TRACE_ADDR** con el valor **localhost**: **`
 
 ## Configuración de zonas de seguridad {#configuring-security-zones}
 
-Cada operador debe estar vinculado a una zona para iniciar sesión en una instancia y la IP del operador debe incluirse en las direcciones o conjuntos de direcciones definidos en la zona de seguridad. La configuración de la zona técnica se realiza en el archivo de configuración del servidor de Adobe Campaign. La vinculación de un operador a una zona de seguridad debe definirse en la consola (nodo **[!UICONTROL Administration > Access management > Operators]**).
+Cada operador debe estar vinculado a una zona para iniciar sesión en una instancia y la IP del operador debe incluirse en las direcciones o conjuntos de direcciones definidos en la zona de seguridad. La configuración de la zona técnica se realiza en el archivo de configuración del servidor de Adobe Campaign. La vinculación de un operador a una zona de seguridad debe definirse en la consola ( **[!UICONTROL Administration > Access management > Operators]** nodo ).
 
 >[!NOTE]
 >
->Para obtener más información sobre la configuración de zonas de seguridad, consulte [esta sección](../../installation/using/security-zones.md).
+>Para obtener más información sobre la configuración de las zonas de seguridad, consulte [esta sección](../../installation/using/security-zones.md).

@@ -5,7 +5,7 @@ description: Configuración de la integración
 audience: integrations
 content-type: reference
 source-git-commit: c6d5e597a02a1210507b0c6d84ab7d170e877eb1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 100%
 

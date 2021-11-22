@@ -25,13 +25,13 @@ Adobe Campaign ofrece una selección de tres modelos de alojamiento, lo que prop
 
 ## Managed Services / Alojado
 
-Adobe Campaign se puede implementar como un servicio administrado: todos los componentes de Adobe Campaign, incluida la interfaz de usuario, el motor de administración de ejecución y la base de datos de Campaign del cliente, están totalmente alojados en Adobe, incluida la ejecución de correo electrónico, las páginas espejo, el servidor de seguimiento y los componentes web orientados externamente, como la cancelación de la suscripción a la página o al centro de preferencias y las páginas de aterrizaje.
+Adobe Campaign se puede implementar as a Managed Service: todos los componentes de Adobe Campaign, incluida la interfaz de usuario, el motor de administración de ejecución y la base de datos de Campaign del cliente, están totalmente alojados en Adobe, incluida la ejecución de correo electrónico, las páginas espejo, el servidor de seguimiento y los componentes web orientados externamente, como la cancelación de la suscripción a la página o al centro de preferencias y las páginas de aterrizaje.
 
 ![](assets/deployment_hosted.png)
 
 Como cliente alojado, la mayoría de los pasos de instalación y configuración los realiza Adobe. Puede acceder a las secciones siguientes para personalizar la implementación:
 
-* Configure el seguimiento y las direcciones URL de páginas espejo por marca. Para los mensajes transaccionales, consulte [esta sección](../../message-center/using/additional-configurations.md#configuring-multibranding).
+* Configure el seguimiento y las direcciones URL de páginas espejo por marca. Para los mensajes transaccionales, consulte [a esta sección](../../message-center/using/additional-configurations.md#configuring-multibranding).
 * Instale la consola del cliente: consulte [a esta sección](../../installation/using/installing-the-client-console.md).
 * Para obtener más información sobre las herramientas de envío y las prácticas recomendadas, lea la [documentación detallada](../../delivery/using/about-deliverability.md).
 * Configure las opciones de Campaign: consulte [a esta sección](../../installation/using/configuring-campaign-options.md).
@@ -45,13 +45,13 @@ Adobe Campaign se puede implementar in situ: todos los componentes de Adobe Camp
 
 Como cliente On-Premise, antes de comenzar a implementar el Campaign Classic, debe cumplir los siguientes requisitos previos y recomendaciones:
 
-* Lea la [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md) que enumera todas las versiones de los sistemas y componentes compatibles con Adobe Campaign.
-* En función de su entorno, lea los [requisitos previos para Windows](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) y [requisitos previos para Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md).
-* Consulte las recomendaciones relacionadas con los motores de base de datos [en esta sección](../../installation/using/database.md).
+* Lea el [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md) que enumera todas las versiones de los sistemas y componentes compatibles con Adobe Campaign.
+* En función de su entorno, lea la [requisitos previos para Windows](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) y [requisitos previos para Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md).
+* Conozca las recomendaciones relacionadas con los motores de base de datos [en esta sección](../../installation/using/database.md).
 * Compruebe que las capas de acceso a la base de datos necesarias estén instaladas en el servidor y sean accesibles desde la cuenta de Adobe Campaign. [Más información](../../installation/using/application-server.md).
-* Configure sus redes, ya que algunos procesos necesitan comunicarse con otros o acceder a la LAN y a Internet. Esto significa que algunos puertos TCP deben estar abiertos para estos procesos. [Obtenga ](../../installation/using/network-configuration.md) más información sobre los requisitos de configuración de red.
-* Lea la [Lista de comprobación de seguridad y privacidad de Campaign](https://helpx.adobe.com/es/campaign/kb/acc-security.html).
-* Consulte las directrices generales para estimar los requisitos de hardware para la implementación local [en este artículo](https://helpx.adobe.com/es/campaign/kb/hardware-sizing-guide.html).
+* Configure sus redes, ya que algunos procesos necesitan comunicarse con otros o acceder a la LAN y a Internet. Esto significa que algunos puertos TCP deben estar abiertos para estos procesos. [Más información](../../installation/using/network-configuration.md) acerca de los requisitos de configuración de red.
+* Leer [Lista de comprobación de seguridad y privacidad de Campaign](https://helpx.adobe.com/es/campaign/kb/acc-security.html).
+* Consulte las directrices generales para estimar los requisitos de hardware para la implementación local. [en este artículo](https://helpx.adobe.com/es/campaign/kb/hardware-sizing-guide.html).
 
 ## Híbrido
 
@@ -62,11 +62,11 @@ Cuando se implementa como un modelo híbrido, el software de la solución Adobe 
 Como cliente híbrido, la mayoría de los pasos de instalación y configuración se realizan mediante Adobe. Puede acceder a las secciones siguientes para personalizar la implementación:
 
 * Configure los mensajes transaccionales: consulte [a esta sección](../../message-center/using/transactional-messaging-architecture.md).
-* Configure el seguimiento y las direcciones URL de páginas espejo por marca. Para los mensajes transaccionales, consulte [esta sección](../../message-center/using/additional-configurations.md#configuring-multibranding).
+* Configure el seguimiento y las direcciones URL de páginas espejo por marca. Para los mensajes transaccionales, consulte [a esta sección](../../message-center/using/additional-configurations.md#configuring-multibranding).
 * Instale la consola del cliente: consulte [a esta sección](../../installation/using/installing-the-client-console.md).
 * Instale paquetes integrados: consulte [a esta sección](../../installation/using/installing-campaign-standard-packages.md).
-* Capacidad de entrega: configure [reglas MX](../../installation/using/email-deliverability.md#mx-configuration) y [formatos de correo electrónico](../../installation/using/email-deliverability.md#managing-email-formats). Para obtener más información sobre las herramientas de envío y las prácticas recomendadas, lea la [documentación detallada](../../delivery/using/about-deliverability.md).
+* Capacidad de entrega: configure [Reglas MX](../../installation/using/email-deliverability.md#mx-configuration) y [formatos de correo electrónico](../../installation/using/email-deliverability.md#managing-email-formats). Para obtener más información sobre las herramientas de envío y las prácticas recomendadas, lea la [documentación detallada](../../delivery/using/about-deliverability.md).
 * Configure las opciones de Campaign: consulte [a esta sección](../../installation/using/configuring-campaign-options.md).
 * Configurar una base de datos externa (acceso de datos federado): consulte [a esta sección](../../installation/using/about-fda.md).
 * Configuración de conectores CRM: consulte [a esta sección](../../platform/using/crm-connectors.md).
-* Para obtener más información sobre los principios de implementación de mid-sourcing, consulte [esta sección](../../installation/using/mid-sourcing-deployment.md).
+* Para obtener más información sobre los principios de implementación de mid-sourcing, consulte [a esta sección](../../installation/using/mid-sourcing-deployment.md).

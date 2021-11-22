@@ -23,7 +23,7 @@ Realizar una migración puede ser una oportunidad para actualizar su entorno (mo
 
 Las bases de datos y los sistemas operativos de la versión de 32 bits siguen siendo compatibles con la versión 7, pero ya no serán compatibles con las futuras versiones de Adobe Campaign. Le recomendamos encarecidamente que actualice su plataforma a 64 bits lo antes posible.
 
-En la versión 6.02, el modo &quot;multi timezone&quot; solo estaba disponible para motores de base de datos PostgreSQL. Ahora se ofrece independientemente del tipo de motor de base de datos que se utilice. Le recomendamos encarecidamente que transforme su base en una base de &quot;zona horaria múltiple&quot;. Para obtener más información, consulte la sección [Husos horarios](../../migration/using/general-configurations.md#time-zones).
+En la versión 6.02, el modo &quot;multi timezone&quot; solo estaba disponible para motores de base de datos PostgreSQL. Ahora se ofrece independientemente del tipo de motor de base de datos que se utilice. Le recomendamos encarecidamente que transforme su base en una base de &quot;zona horaria múltiple&quot;. Para obtener más información, consulte la [Zonas horarias](../../migration/using/general-configurations.md#time-zones) para obtener más información.
 
 >[!IMPORTANT]
 >
@@ -33,16 +33,16 @@ En la versión 6.02, el modo &quot;multi timezone&quot; solo estaba disponible p
 
 ## Pasos clave de migración {#key-migration-steps}
 
-El procedimiento general para migrar a Adobe Campaign v7 se detalla en la sección [Antes de iniciar la migración](../../migration/using/before-starting-migration.md).
+El procedimiento general para migrar a Adobe Campaign v7 se detalla en la sección [Antes de iniciar la migración](../../migration/using/before-starting-migration.md) para obtener más información.
 
-Los pasos de implementación para la migración a Adobe Campaign v7 se detallan en la sección [Requisitos previos para la migración a Adobe Campaign 7](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md).
+Los pasos de implementación para la migración a Adobe Campaign v7 se detallan en la sección [Requisitos previos para la migración a Adobe Campaign 7](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md) para obtener más información.
 
-Las configuraciones necesarias dependen de las configuraciones existentes y de la versión inicial de la plataforma. Se describen en la sección [Configuraciones generales](../../migration/using/general-configurations.md).
+Las configuraciones necesarias dependen de las configuraciones existentes y de la versión inicial de la plataforma. Estos se describen en la sección [Configuraciones generales](../../migration/using/general-configurations.md) para obtener más información.
 
 ## Configuraciones específicas {#specific-configurations}
 
 Los cambios que produce Adobe Campaign v7 también pueden significar que tiene que adaptar ciertas configuraciones específicas desarrolladas en versiones anteriores. Por lo tanto, puede ser necesario realizar una auditoría de todas las configuraciones antes de la migración: póngase en contacto con Adobe Campaign para obtener ayuda.
 
-Por ejemplo, se debe prestar especial atención a la configuración específica de las aplicaciones web, las extensiones de esquema con SQLdata o la clonación de esquema predeterminada. Para obtener más información, consulte la sección [Configuración de la plataforma](../../migration/using/configuring-your-platform.md) .
+Por ejemplo, se debe prestar especial atención a la configuración específica de las aplicaciones web, las extensiones de esquema con SQLdata o la clonación de esquema predeterminada. Para obtener más información, consulte [Configuración de la plataforma](../../migration/using/configuring-your-platform.md) para obtener más información.
 
 Del mismo modo, para responder al aumento de la seguridad dentro de Adobe Campaign, se han modificado algunos mecanismos internos: debe adaptar estas configuraciones correspondientes.

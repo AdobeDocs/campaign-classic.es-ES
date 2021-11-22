@@ -17,10 +17,10 @@ ht-degree: 79%
 
 ![](../../assets/v7-only.svg)
 
-Utilice la opción [Federated Data Access](../../installation/using/about-fda.md) (FDA) de Campaign para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Microsoft Azure synapse Analytics.
+Uso de Campaign [Acceso de datos federado](../../installation/using/about-fda.md) (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Microsoft Azure synapse Analytics.
 
-1. Configure el Azure synapse en [CentOS](#azure-centos), [Windows](#azure-windows) o [Debian](#azure-debian)
-1. Configurar el Azure synapse [cuenta externa](#azure-external) en Campaign
+1. Configurar Azure synapse en [CentOS](#azure-centos), [Windows](#azure-windows) o [Debian](#azure-debian)
+1. Configuración del Azure synapse [cuenta externa](#azure-external) en Campaign
 
 ## Azure Synapse en CentOS {#azure-centos}
 
@@ -87,7 +87,7 @@ Para configurar el Azure synapse en CentOS, siga los pasos a continuación:
    /opt/mssql-tools/bin/sqlcmd -S yourServer -U yourUserName -P yourPassword -q "your query" # for example -q "select 1"
    ```
 
-1. En Campaign, puede configurar la cuenta externa [!DNL Azure Synapse] . Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#azure-external).
+1. En Campaign, puede configurar la [!DNL Azure Synapse] cuenta externa. Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#azure-external).
 
 1. Dado que Azure Synapse Analytics se comunica a través del puerto TCP 1433, debe abrir este puerto en el cortafuegos. Utilice el siguiente comando:
 
@@ -196,9 +196,9 @@ Para configurar Azure Synapse en Debian:
 
 La cuenta externa [!DNL Azure Synapse] permite conectar la instancia de Campaign a la base de datos externa Azure Synapse.
 
-Para crear su cuenta externa [!DNL Azure Synapse], siga los pasos a continuación:
+Para crear [!DNL Azure Synapse] cuenta externa siga los pasos a continuación:
 
-1. En Campaña **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
+1. Desde campaña **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
 
 1. Haga clic en **[!UICONTROL New]**.
 

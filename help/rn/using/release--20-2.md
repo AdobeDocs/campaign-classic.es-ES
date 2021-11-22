@@ -37,7 +37,7 @@ _31 de marzo de 2021_
 * Se ha corregido una regresión que impedía que se enviaran envíos SMS con TLS debido a la verificación del nombre de host. (NEO-29581)
 * Se ha corregido un problema que impedía que los vínculos de seguimiento firmados funcionaran en algunos clientes de correo electrónico. (NEO-28414, NEO-29615)
 * Se ha corregido una secuencia de id de seguimiento al usar etiquetas de seguimiento de webApp que podía provocar conflictos con ID duplicados. (NEO-27931)
-* Se ha corregido un problema que provocaba que los flujos de trabajo en ejecución se detuvieran al reiniciar el servidor wfserver diario. (NEO-30047)
+* Se ha corregido un problema que provocaba que el reinicio diario del servidor wfserver detuviera los flujos de trabajo en ejecución. (NEO-30047)
 * Se ha corregido un problema de seguridad que se producía al intentar sincronizar plantillas de Adobe Experience Manager mediante llamadas API realizadas por usuarios no administradores. (NEO-32389, NEO-23487)
 * Se ha corregido un problema que hacía que la consola se bloqueara al cerrar un cuadro de diálogo de envío en una entrega creada con a partir de una plantilla. (NEO-31547)
 * Se ha corregido un problema que se producía al crear y guardar una entrega dentro de la función **Segmentación y flujo de trabajo** de una campaña: la vista previa fallaría con el siguiente error. (NEO-29440)

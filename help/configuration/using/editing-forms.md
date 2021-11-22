@@ -17,7 +17,7 @@ ht-degree: 41%
 
 ![](../../assets/v7-only.svg)
 
-Se puede acceder a la pantalla de creación y configuración del formulario de entrada desde la carpeta **[!UICONTROL Administration]> [!UICONTROL Configuration] >[!UICONTROL Input forms]** de la consola del cliente de Adobe Campaign:
+Se puede acceder a la pantalla de creación y configuración del formulario de entrada desde la **[!UICONTROL Administration]> [!UICONTROL Configuration] >[!UICONTROL Input forms]** carpeta de la consola del cliente de Adobe Campaign:
 
 ![](assets/d_ncs_integration_form_arbo.png)
 

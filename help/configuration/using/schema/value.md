@@ -50,8 +50,8 @@ Este elemento permite definir los valores almacenados en una enumeración.
 * **enabledIf (cadena)**: condición para activar el valor de enumeración.
 * **img (cadena)**: imagen vinculada a la enumeración en el formulario &quot;namespace:image_name&quot;. La imagen debe importarse en el servidor de aplicaciones.
 * **label (cadena)**: etiqueta del valor de enumeración.
-* **nombre (cadena)**: nombre interno del valor de enumeración.
-* **valor (cadena)**: del valor de enumeración. El tipo de valor se define en función del tipo de enumeración. Si la enumeración es de tipo cadena de caracteres, solo puede contener valores de tipo cadena de caracteres.
+* **name (cadena)**: nombre interno del valor de enumeración.
+* **value (string)**: del valor de enumeración. El tipo de valor se define en función del tipo de enumeración. Si la enumeración es de tipo cadena de caracteres, solo puede contener valores de tipo cadena de caracteres.
 
 ## Ejemplos {#examples-13}
 

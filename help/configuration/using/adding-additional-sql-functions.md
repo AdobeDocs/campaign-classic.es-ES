@@ -27,13 +27,13 @@ Una vez agregadas estas funciones, aparecerán en el editor de expresiones como 
 
 >[!IMPORTANT]
 >
->Las llamadas a funciones SQL en la consola ya no se envían de forma natural al servidor. Por lo tanto, el mecanismo descrito aquí se convierte en **la única manera de llamar a** en el servidor de funciones SQL no planificado.
+>Las llamadas a funciones SQL en la consola ya no se envían de forma natural al servidor. Por lo tanto, el mecanismo descrito aquí se convierte en **la única forma de llamar a** en el servidor de funciones SQL no planificado.
 
 ## Instalación {#installation}
 
-Las funciones que se agregan se encuentran en un archivo **&quot;package&quot; en formato XML**, cuya estructura se detalla en el siguiente párrafo.
+Las funciones que se agregan se encuentran en una **archivo &quot;package&quot; en formato XML**, cuya estructura se detalla en el párrafo siguiente.
 
-Para instalarlo desde la consola, seleccione las opciones **Tools/Advanced/Import package** del menú, luego **[!UICONTROL Install from file]** y siga las instrucciones del asistente de importación.
+Para instalarlo desde la consola, seleccione la opción **Paquete Herramientas/Avanzado/Importar** del menú y, a continuación, la **[!UICONTROL Install from file]** y siga las instrucciones del asistente de importación.
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,7 @@ Para instalarlo desde la consola, seleccione las opciones **Tools/Advanced/Impor
 
 ## Estructura general del paquete que se va a importar {#general-structure-of-package-to-import}
 
-Las funciones que se van a añadir se encuentran en el archivo **&quot;package&quot;** en formato XML. Este es un ejemplo.
+Las funciones que se agregan se encuentran en la **archivo &quot;package&quot;** en formato XML. Este es un ejemplo.
 
 ```
 <?xml version="1.0" encoding='ISO-8859-1' ?>
@@ -68,14 +68,14 @@ Las funciones que se van a añadir se encuentran en el archivo **&quot;package&q
 </package>
 ```
 
-* **name**, **namespace** y **label** solo tienen fines informativos. Permiten ver un resumen del paquete en la lista de paquetes instalados (Explorer/Administration/Package management/Installed packages).
-* Los campos **buildVersion** y **buildNumber** son obligatorios. Deben corresponder al número de servidor al que está conectada la consola. Esta información se encuentra en el cuadro &quot;Ayuda/Acerca de&quot;.
-* Los siguientes bloques, **entities** y **funclist** son obligatorios. En funcList, los campos &quot;nombre&quot; y &quot;área de nombres&quot; son obligatorios, pero su nombre depende del usuario para decidir y ellos designan de forma exclusiva la lista de funciones.
+* La variable **name**, **namespace** y **label** son únicamente con fines informativos. Permiten ver un resumen del paquete en la lista de paquetes instalados (Explorer/Administration/Package management/Installed packages).
+* La variable **buildVersion** y **buildNumber** los campos son obligatorios. Deben corresponder al número de servidor al que está conectada la consola. Esta información se encuentra en el cuadro &quot;Ayuda/Acerca de&quot;.
+* Los siguientes bloques, **entities** y **funclista** son obligatorios. En funcList, los campos &quot;nombre&quot; y &quot;área de nombres&quot; son obligatorios, pero su nombre depende del usuario para decidir y ellos designan de forma exclusiva la lista de funciones.
 
    Esto significa que si se importa otra lista de funciones con el mismo espacio de nombres/par de nombres (aquí &quot;cus::myList&quot;), se eliminarán las funciones importadas anteriormente. Por el contrario, si cambia este par de área de nombres/nombre, la nueva serie de funciones importadas se agregará a la anterior.
 
-* El elemento **group** permite especificar el grupo de funciones en el que aparecerán las funciones importadas en el editor de funciones. El atributo @name puede ser un nombre que ya exista (en cuyo caso las funciones se añadirán al grupo considerado) o un nombre nuevo (en cuyo caso aparecerá en un grupo nuevo).
-* Recordatorio: los valores posibles del atributo @name en el elemento `<group>` son:
+* La variable **grupo** element permite especificar el grupo de funciones en el que aparecerán las funciones importadas en el editor de funciones. El atributo @name puede ser un nombre que ya exista (en cuyo caso las funciones se añadirán al grupo considerado) o un nombre nuevo (en cuyo caso aparecerá en un grupo nuevo).
+* Recordatorio: valores posibles del atributo @name en la variable `<group>` son:
 
    ```
      name="aggregate"      ( label="Aggregates"         )
@@ -91,13 +91,13 @@ Las funciones que se van a añadir se encuentran en el archivo **&quot;package&q
 >
 >Asegúrese de completar el atributo @label: este es el nombre que se mostrará en la lista de funciones disponibles. Si no introduce nada, el grupo no tendrá un nombre. Sin embargo, si introduce un nombre que no sea el existente, cambiará el nombre de todo el grupo.
 
-Si desea agregar funciones a varios grupos diferentes, puede hacer que varios elementos `<group>` se rastreen en la misma lista.
+Si desea agregar funciones a varios grupos diferentes, puede realizar varias `<group>`  los elementos se rastrean en la misma lista.
 
-Finalmente, un elemento `<group>` puede contener la definición de una o varias funciones, que es el propósito del archivo del paquete. El `<function>`   se detalla en el párrafo siguiente.
+Por último, una `<group>` puede contener la definición de una o varias funciones, que es el propósito del archivo del paquete. La variable  `<function>`   se detalla en el párrafo siguiente.
 
 ## Descriptor de funciones &lt;function>&lt;/function> {#function-descriptor--function-}
 
-El caso presentado aquí es un caso general en el que deseamos proporcionar la **implementación de la función**.
+El caso presentado aquí es un caso general en el que deseamos proporcionar la **implementación de funciones**.
 
 A continuación se muestra un ejemplo de una función de &quot;madurez relativa&quot; que, utilizando una edad, indica durante cuántos años se ha considerado madura a la persona.
 
@@ -109,10 +109,10 @@ A continuación se muestra un ejemplo de una función de &quot;madurez relativa&
     </function>
 ```
 
-El campo **@name** hace referencia al nombre de la función y &quot;args&quot; es la lista de parámetros que se mostrarán en la descripción. En este caso, la función aparecerá como &quot;relativoVencimiento ( `<age>` )&quot; en la ventana de selección de funciones.
+La variable **@name** field hace referencia al nombre de la función y &quot;args&quot; es la lista de parámetros que se mostrarán en la descripción. En este caso, la función aparecerá como &quot;relativoVencimiento ( `<age>` )&quot; en la ventana de selección de funciones.
 
-* **** ayuda es el campo que se muestra en la parte inferior de la ventana del editor de expresiones.
-* **@** displayis es un mensaje informativo.
+* **help** es el campo mostrado en la parte inferior de la ventana del editor de expresiones.
+* **@display** es un mensaje informativo.
 
    >[!NOTE]
    >
@@ -122,12 +122,12 @@ El campo **@name** hace referencia al nombre de la función y &quot;args&quot; e
    >
    >La descripción debe ser una cadena de caracteres XML válidos: tenga en cuenta el uso de &#39;&lt;&#39; y &#39;>&#39; en lugar de &lt; y >.
 
-* **@** typees el tipo de devolución de función y es un valor estándar (long, string, byte, datetime...). Si se omite, el servidor determina el mejor tipo entre los tipos disponibles dentro de la expresión que implementa la función.
-* **@** minArgand  **** maxArgsdesigna el número de parámetros (mínimo y máximo) para un parámetro. Por ejemplo, para una función con 2 parámetros, minArgs y maxArgs serán 2 y 2. Para 3 parámetros, más 1 opcional, serán 3 y 4 respectivamente.
-* Finalmente, el elemento **providerPart** proporciona la implementación de la función.
+* **@type** es el tipo de devolución de función y es un valor estándar (long, string, byte, datetime...). Si se omite, el servidor determina el mejor tipo entre los tipos disponibles dentro de la expresión que implementa la función.
+* **@minArgs** y **maxArgs** designa el número de parámetros (mínimo y máximo) de un parámetro. Por ejemplo, para una función con 2 parámetros, minArgs y maxArgs serán 2 y 2. Para 3 parámetros, más 1 opcional, serán 3 y 4 respectivamente.
+* Por último, la variable **providerPart** proporciona la implementación de la función .
 
-   * El atributo **provider** es obligatorio, especifica los sistemas de base de datos para los que se proporciona la implementación. Como se muestra en el ejemplo, cuando las sintaxis de las expresiones o las funciones subyacentes difieren, se pueden proporcionar implementaciones alternativas según la base de datos.
-   * El atributo **@body** contiene la implementación de la función. Tenga en cuenta: esta implementación debe ser una expresión, en lenguaje de base de datos (no un bloque de código). Dependiendo de las bases de datos, las expresiones pueden ser subconsultas (&quot;(seleccionar columna de tabla donde...)&quot;) que devuelvan un solo valor. Por ejemplo, este es el caso en el Oracle (la consulta debe escribirse entre corchetes).
+   * La variable **provider** es obligatorio, especifica los sistemas de base de datos para los que se proporciona la implementación. Como se muestra en el ejemplo, cuando las sintaxis de las expresiones o las funciones subyacentes difieren, se pueden proporcionar implementaciones alternativas según la base de datos.
+   * La variable **@body** contiene la implementación de la función . Tenga en cuenta: esta implementación debe ser una expresión, en lenguaje de base de datos (no un bloque de código). Dependiendo de las bases de datos, las expresiones pueden ser subconsultas (&quot;(seleccionar columna de tabla donde...)&quot;) que devuelvan un solo valor. Por ejemplo, este es el caso en el Oracle (la consulta debe escribirse entre corchetes).
 
    >[!NOTE]
    >
@@ -135,7 +135,7 @@ El campo **@name** hace referencia al nombre de la función y &quot;args&quot; e
 
 ## Descriptor de funciones &quot;Pasar a través&quot; {#pass-through--function-descriptor}
 
-Un descriptor de función especial es el bloque **&quot;pass-through&quot;**, con un sistema de base de datos &quot;provider&quot; no especificado. En este caso, la implementación &quot;body&quot; solo puede contener una llamada a una sola función con una sintaxis que no dependa de la base de datos utilizada. Mientras tanto, el bloque &quot;ProviderPart&quot; es único.
+Un descriptor de función especial es **&quot;paso a través&quot;** con un sistema de base de datos &quot;proveedor&quot; no especificado. En este caso, la implementación &quot;body&quot; solo puede contener una llamada a una sola función con una sintaxis que no dependa de la base de datos utilizada. Mientras tanto, el bloque &quot;ProviderPart&quot; es único.
 
 ```
     <function name="CountAll" args="()" help="Counts the values returned (all fields together)"

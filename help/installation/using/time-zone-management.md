@@ -23,11 +23,11 @@ Adobe Campaign permite expresar fechas en función de su huso horario: esto perm
 
 Para permitir el uso de la plataforma Adobe Campaign a escala internacional, todas las fechas utilizadas por los sistemas deben poder vincularse a una zona horaria. Por lo tanto, una fecha cuya zona horaria se conozca se puede importar en cualquier otra zona horaria o independientemente de la zona horaria.
 
-Adobe Campaign permite almacenar fechas y horas en formato UTC (hora universal coordinada). Cuando se exponen los datos, estos se convierten a la fecha y hora locales del operador. La conversión se realiza automáticamente cuando la base de datos está configurada en UTC (consulte [Configuration](#configuration)). Si la base de datos no está configurada en UTC, la información sobre la zona horaria de las fechas en la plataforma se almacena en una opción.
+Adobe Campaign permite almacenar fechas y horas en formato UTC (hora universal coordinada). Cuando se exponen los datos, estos se convierten a la fecha y hora locales del operador. La conversión se realiza automáticamente cuando la base de datos está configurada en UTC (consulte [Configuración](#configuration)). Si la base de datos no está configurada en UTC, la información sobre la zona horaria de las fechas en la plataforma se almacena en una opción.
 
-Las principales funcionalidades de la plataforma con respecto a la administración de huso horario son: importar/exportar datos y administración de operadores y flujos de trabajo. El **concepto de herencia** está disponible para importaciones/exportaciones o flujos de trabajo. De forma predeterminada, están configuradas para la zona horaria del servidor de la base de datos, aunque puede redefinir nuevas zonas horarias para un flujo de trabajo e incluso para una sola actividad.
+Las principales funcionalidades de la plataforma con respecto a la administración de huso horario son: importar/exportar datos y administración de operadores y flujos de trabajo. La variable **concepto de herencia** está disponible para importaciones/exportaciones o flujos de trabajo. De forma predeterminada, están configuradas para la zona horaria del servidor de la base de datos, aunque puede redefinir nuevas zonas horarias para un flujo de trabajo e incluso para una sola actividad.
 
-**** Los operadores pueden modificar las zonas horarias durante la  **configuración de la** entrega y pueden especificar el huso horario en el que se ejecutará la entrega.
+**Operadores** puede modificar las zonas horarias durante **configuración de envío** y puede especificar el huso horario en el que se ejecutará la entrega.
 
 >[!IMPORTANT]
 >
@@ -41,18 +41,18 @@ Cuando la plataforma Adobe Campaign no requiere administración de huso horario,
 
 Las zonas horarias combinan varias realidades: la expresión puede describir un lapso de tiempo constante con la fecha UTC, o las horas de una región que pueden cambiar dos veces al año (horario de verano).
 
-Por ejemplo, en postgreSQL, el comando **SET TIME ZONE &#39;Europe/Paris&#39;;** tendrá en cuenta los tiempos de verano e invierno: la fecha se expresará en UTC+1 o UTC+2 según la hora del año.
+Por ejemplo, en postgreSQL, la variable **ESTABLECER LA ZONA HORARIA &quot;Europa/París&quot;;** tendrá en cuenta los tiempos de verano e invierno: la fecha se expresará en UTC+1 o UTC+2 según la hora del año.
 
-Sin embargo, si utiliza el comando **SET TIME ZONE 0200;**, el retraso siempre será UTC+2.
+Sin embargo, si usa la variable **ESTABLECER ZONA HORARIA 0200;** , el intervalo de tiempo siempre será UTC+2.
 
 ## Configuración {#configuration}
 
-El modo de almacenamiento de fechas y horas está seleccionado durante la creación de la base de datos (consulte [Creación de una nueva instancia](#creating-a-new-instance)). En caso de una migración, las horas vinculadas a las fechas se convierten en fechas y horas locales (consulte [Migración](#migration)).
+El modo de almacenamiento de fechas y horas se selecciona durante la creación de la base de datos (consulte [Creación de una nueva instancia](#creating-a-new-instance)). En caso de una migración, las horas vinculadas a las fechas se convierten en fechas y horas locales (consulte [Migración](#migration)).
 
-Desde un punto de vista técnico, existen dos maneras de almacenar la información de tipo **Date+time** en la base de datos:
+Desde el punto de vista técnico, existen dos maneras de almacenar **Fecha y hora** información de tipo en la base de datos:
 
 1. MARCA DE TIEMPO CON formato DE ZONA HORARIA: el motor de base de datos almacena fechas en UTC. Cada sesión abierta tendrá un huso horario y las fechas se convertirán según él.
-1. Formato local + zona horaria local: todas las fechas se almacenan en el formato local (sin administración de retraso) y se les asigna una sola zona horaria. La zona horaria se almacena en la opción **WdbcTimeZone** de la instancia de Adobe Campaign y se puede cambiar mediante el menú **[!UICONTROL Administration > Platform > Options]** del árbol.
+1. Formato local + zona horaria local: todas las fechas se almacenan en el formato local (sin administración de retraso) y se les asigna una sola zona horaria. La zona horaria se almacena en la variable **WdbcTimeZone** de la instancia de Adobe Campaign y se puede cambiar mediante la función **[!UICONTROL Administration > Platform > Options]** del árbol.
 
 >[!IMPORTANT]
 >
@@ -60,21 +60,21 @@ Desde un punto de vista técnico, existen dos maneras de almacenar la informaci�
 
 ### Creación de una nueva instancia {#creating-a-new-instance}
 
-Para que varios usuarios internacionales trabajen en la misma instancia, debe configurar las zonas horarias al crear la instancia para administrar los desfases horarios entre países. Durante la creación de instancias, seleccione el modo de administración de fecha y hora en la sección **[!UICONTROL Time zone]** de la fase de configuración de la base de datos.
+Para que varios usuarios internacionales trabajen en la misma instancia, debe configurar las zonas horarias al crear la instancia para administrar los desfases horarios entre países. Durante la creación de instancias, seleccione el modo de administración de fecha y hora en la **[!UICONTROL Time zone]** de la fase de configuración de la base de datos.
 
-Marque la opción **[!UICONTROL UTC database (date fields with time zone)]** para almacenar todos los datos con fechas y horas en formato UTC (campos SQL y campos XML).
+Marque la **[!UICONTROL UTC database (date fields with time zone)]** para almacenar todos los datos con fechas y horas en formato UTC (campos SQL y campos XML).
 
 ![](assets/install_wz_select_utc_option.png)
 
 >[!IMPORTANT]
 >
->Si utiliza **Oracle**, los archivos de zona horaria (.dat) de las capas de cliente de Oracle deben ser compatibles con los archivos de zonas horarias instalados en el servidor.
+>Si está utilizando **Oracle**, los archivos de zona horaria (.dat) de las capas de cliente de Oracle deben ser compatibles con los archivos de zonas horarias instalados en el servidor.
 
 Si la base de datos no es UTC, puede seleccionar una de las zonas horarias ofrecidas en la lista desplegable. También puede utilizar la zona horaria del servidor o seleccionar la opción UTC (hora universal coordinada).
 
 ![](assets/install_wz_unselect_utc_option.png)
 
-Cuando se selecciona la opción **[!UICONTROL UTC Database (date fields with time zone)]**, los campos SQL se almacenan en formato TIMESTAMP WITH TIMEZONE .
+Cuando la variable **[!UICONTROL UTC Database (date fields with time zone)]** está seleccionada, los campos SQL se almacenan en formato TIMESTAMP WITH TIMEZONE .
 
 De lo contrario, se almacenan en el formato local y debe seleccionar la zona horaria que desea aplicar a la base de datos.
 
@@ -82,11 +82,11 @@ De lo contrario, se almacenan en el formato local y debe seleccionar la zona hor
 
 Al migrar a una versión anterior (sin administración de huso horario), deberá definir el modo de almacenamiento de fechas en la base de datos.
 
-Para garantizar la compatibilidad con herramientas externas que tienen acceso a la base de datos de Adobe Campaign, los campos SQL de tipo **Date+time** se almacenan en formato local de forma predeterminada.
+Para garantizar la compatibilidad con herramientas externas que acceden a la base de datos de Adobe Campaign, la variable **Fecha y hora** Los campos SQL de tipo se almacenan en formato local de forma predeterminada.
 
 Los campos XML que contienen fechas ahora se almacenan en UTC. Durante la carga, los campos que no están en formato UTC se convierten automáticamente mediante la zona horaria de los servidores. Esto significa que todos los campos XML se convertirán progresivamente al formato UTC.
 
-Para utilizar una instancia existente, añada la opción **WdbcTimeZone** e introduzca la zona horaria de la instancia.
+Para utilizar una instancia existente, agregue la variable **WdbcTimeZone** e introduzca la zona horaria de la instancia.
 
 >[!IMPORTANT]
 >

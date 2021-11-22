@@ -29,7 +29,7 @@ Como regla general, debe instalar la capa del cliente correspondiente en la base
 
 Para configurar el acceso a una base de datos externa con FDA, los pasos de configuración son:
 
-1. Instale los controladores y configure la cuenta externa que corresponda a su base de datos en el servidor de Adobe Campaign. Consulte las páginas específicas de la base de datos [enumeradas a continuación](#fda-specific-configuration)
+1. Instale los controladores y configure la cuenta externa que corresponda a su base de datos en el servidor de Adobe Campaign. Consulte las páginas específicas de la base de datos [a continuación](#fda-specific-configuration)
 1. Pruebe la cuenta externa o cree una conexión temporal entre Adobe Campaign y la base de datos externa. [Más información](../../installation/using/connecting-to-database.md)
 1. Crear el esquema de la base de datos externa en Adobe Campaign. Esto permite identificar la estructura de datos de la base de datos externa. [Más información](../../installation/using/creating-data-schema.md)
 1. Si es necesario, cree una nueva asignación de destino a partir del esquema creado anteriormente. Esto es necesario si los destinatarios de los envíos proceden de la base de datos externa. Esta implementación incluye limitaciones relacionadas con la personalización de mensajes. [Más información](../../installation/using/defining-data-mapping.md)
@@ -42,22 +42,22 @@ En función de las bases de datos externas a las que desee tener acceso desde Ad
 
 Para obtener más información, siga los vínculos siguientes:
 
-* Conectar Campaign y [Vertica](../../installation/using/configure-fda-vertica.md)
+* Connect Campaign y [Vertica](../../installation/using/configure-fda-vertica.md)
 
-* Conectar Campaign y [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
+* Connect Campaign y [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
 
-* Conectar Campaign y [Azure synapse](../../installation/using/configure-fda-synapse.md)
+* Connect Campaign y [azure synapse](../../installation/using/configure-fda-synapse.md)
 
-* Conectar Campaign y [Snowflake](../../installation/using/configure-fda-snowflake.md)
+* Connect Campaign y [Snowflake](../../installation/using/configure-fda-snowflake.md)
 
-* Conectar Campaign y [Hadoop](../../installation/using/configure-fda-hadoop.md)
+* Connect Campaign y [Hadoop](../../installation/using/configure-fda-hadoop.md)
 
-* Conectar Campaign y [Oracle](../../installation/using/configure-fda-oracle.md)
+* Connect Campaign y [Oracle](../../installation/using/configure-fda-oracle.md)
 
-* Conectar Campaign y [Netezza](../../installation/using/configure-fda-netezza.md)
+* Connect Campaign y [Netezza](../../installation/using/configure-fda-netezza.md)
 
-* Conectar Campaign y [Sybase IQ](../../installation/using/configure-fda-sybase.md)
+* Connect Campaign y [sybase IQ](../../installation/using/configure-fda-sybase.md)
 
-* Conectar Campaign y [Teradata](../../installation/using/configure-fda-teradata.md)
+* Connect Campaign y [Teradata](../../installation/using/configure-fda-teradata.md)
 
-* Conectar Campaign y [SAP HANA](../../installation/using/configure-fda-sap-hana.md)
+* Connect Campaign y [SAP HANA](../../installation/using/configure-fda-sap-hana.md)

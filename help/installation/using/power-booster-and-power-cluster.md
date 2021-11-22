@@ -65,13 +65,13 @@ Las opciones Power Booster y Power Cluster pueden ser utilizadas por las siguien
    <td> Disponibilidad<br /> </td> 
    <td> El de la base de datos principal<br /> </td> 
    <td> 24/7 excepto las ventanas de mantenimiento y los tiempos de inactividad para la instancia de ejecución<br /> </td> 
-   <td> 24/7/365 servicio posible<br /> </td> 
+   <td> Servicio posible las 24 horas, los 7 días de la semana y los 365<br /> </td> 
   </tr> 
   <tr> 
    <td> Seguridad<br /> </td> 
-   <td> El data mart es potencialmente accesible desde el internet público<br /> </td> 
-   <td> El data mart está aislado de componentes frontales orientados a Internet<br /> </td> 
-   <td> El data mart está aislado de componentes frontales orientados a Internet<br /> </td> 
+   <td> Se puede acceder al centro de datos desde la red pública<br /> </td> 
+   <td> El centro de datos está aislado de componentes frontales orientados a Internet<br /> </td> 
+   <td> El centro de datos está aislado de componentes frontales orientados a Internet<br /> </td> 
   </tr> 
   <tr> 
    <td> Plantilla de implementación<br /> </td> 
@@ -84,6 +84,6 @@ Las opciones Power Booster y Power Cluster pueden ser utilizadas por las siguien
 
 ## Recomendaciones {#recommendations}
 
-* Una instancia de ejecución debe estar dedicada a un servicio. No puede instalar un paquete para un servicio al que no se ha suscrito. Por ejemplo, si se suscribe a la opción **Power Booster** para el servicio **Message Center**, solo puede instalar el paquete **[!UICONTROL Execution of transactional messages]** en la instancia de ejecución dedicada. Compruebe el acuerdo de licencia.
+* Una instancia de ejecución debe estar dedicada a un servicio. No puede instalar un paquete para un servicio al que no se ha suscrito. Por ejemplo, si se suscribe al **Power Booster** para la variable **Centro de mensajes** solo puede instalar el **[!UICONTROL Execution of transactional messages]** en la instancia de ejecución dedicada. Compruebe el acuerdo de licencia.
 * Dado que las instancias (o clústeres) dedicadas son instancias de Adobe Campaign, las recomendaciones son las mismas que para una instancia principal. Para obtener más información, consulte [este documento](../../production/using/foreword.md).
 * Para configurar correctamente la instancia desde el punto de vista de los componentes de hardware/base de datos, póngase en contacto con Adobe Campaign Professional Services.

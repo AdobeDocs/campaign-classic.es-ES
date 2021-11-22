@@ -48,7 +48,7 @@ Es el proceso que utiliza Adobe Campaign para procesar errores durante las comun
 
 La dirección de error procesa las devoluciones enviadas por los ISP. El proceso analizará diferentes códigos de error SMTP y aplicará la acción correcta según el estándar RegEx.
 
-Por ejemplo, una dirección de correo electrónico tiene un comentario &quot;550 User Unknown&quot; enviado por un ISP. Este código de error lo procesa la dirección de error de Adobe Campaign (dirección de ruta de retorno). Este error se compara con el estándar RegEx y se aplica la regla correcta. El correo electrónico se considera un *rechazo grave* (que coincide con el tipo) y, a continuación, *Desconocido del usuario* (que coincide con el motivo) y se envía a cuarentena después del primer bucle al sistema.
+Por ejemplo, una dirección de correo electrónico tiene un comentario &quot;550 User Unknown&quot; enviado por un ISP. Este código de error lo procesa la dirección de error de Adobe Campaign (dirección de ruta de retorno). Este error se compara con el estándar RegEx y se aplica la regla correcta. El correo electrónico se considera un *Rechazo grave* (que coinciden con el tipo ) y *Usuario desconocido* (que coincide con el motivo) y se envía a cuarentena después del primer bucle al sistema.
 
 ### ¿Cómo lo gestiona Adobe Campaign?
 
@@ -78,12 +78,12 @@ El modo Personalizado es para clientes avanzados que desean establecer sus propi
 
 ## Ejemplos de rebote
 
-* **Usuario desconocido**  (rechazo grave): 550 5.1.1 ... El usuario es desconocido {mx003}
-* **Buzón lleno**  (rechazo suave): 550 5.2.2 Superación de la cuota de usuario
-* **Buzón inactivo**  (rechazo suave): 550 5.7.1: Dirección de destinatario rechazada: MailBox inactivo, sin agrupar durante más de 6 meses
-* **Dominio no válido**  (devolución suave): Error en la consulta DNS para &quot;ourdan.com&quot;
-* **Rechazado**  (devolución suave): Rechazo de correo electrónico entrante (la regla &#39;Feedback_loop_Hotmail&#39; coincide con este rechazo)
-* **Inaccesible**  (devolución suave): 421 4.16.55  [TS01]  Mensajes de x.x.x.x aplazados temporalmente debido a quejas excesivas del usuario
+* **Usuario desconocido** (rechazo grave): 550 5.1.1 ... El usuario es desconocido {mx003}
+* **Buzón de correo lleno** (devolución suave): 550 5.2.2 Superación de la cuota de usuario
+* **Buzón de correo inactivo** (devolución suave): 550 5.7.1: Dirección de destinatario rechazada: MailBox inactivo, sin agrupar durante más de 6 meses
+* **Dominio no válido** (devolución suave): Error en la consulta DNS para &quot;ourdan.com&quot;
+* **Rechazado** (devolución suave): Rechazo de correo electrónico entrante (la regla &#39;Feedback_loop_Hotmail&#39; coincide con este rechazo)
+* **Inaccesible** (devolución suave): 421 4.16.55 [TS01] Mensajes de x.x.x.x aplazados temporalmente debido a quejas excesivas del usuario
 
 **Temas relacionados:**
 * [Configuración MX](../../installation/using/email-deliverability.md#mx-configuration)

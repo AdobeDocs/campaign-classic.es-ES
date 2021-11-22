@@ -35,7 +35,7 @@ Al añadir enlaces personalizados al contenido, evite siempre cualquier personal
 
 ### Recomendación
 
-Para validar y asegurarse de que no está utilizando lo anterior, ejecute una consulta en la tabla de URL de seguimiento a través del [Editor de consultas genérico de campaña](../../platform/using/steps-to-create-a-query.md) o cree un flujo de trabajo con criterios de filtro en la [actividad de consulta](../../workflow/using/query.md).
+Para validar y asegurarse de que no está utilizando lo anterior, ejecute una consulta en la tabla URL de seguimiento mediante [Editor de consultas genérico de campaña](../../platform/using/steps-to-create-a-query.md) o crear un flujo de trabajo con criterios de filtro en la variable [actividad de consulta](../../workflow/using/query.md).
 
 Ejemplo:
 
@@ -57,11 +57,11 @@ Para mejorar la seguridad, se ha introducido un mecanismo de firma para el segui
 >
 >Cuando se hace clic en una dirección URL firmada con formato incorrecto, se devuelve este error: &quot;No se encontró la dirección URL solicitada &#39;..&#39;.&quot;
 
-Además, desde Campaign 20.2 y la versión [!DNL Gold Standard], puede utilizar una mejora para deshabilitar las direcciones URL generadas en versiones anteriores. Esta función está deshabilitada de forma predeterminada. Puede ponerse en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para habilitar esta función.
+Además, desde Campaign 20.2 y el [!DNL Gold Standard] versión, puede utilizar una mejora para deshabilitar las direcciones URL generadas en compilaciones anteriores. Esta función está deshabilitada de forma predeterminada. Puede ponerse en contacto con [Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para activar esta función.
 
-Si está ejecutando [!DNL Gold Standard] 19.1.4, puede que tenga problemas con los envíos de notificaciones push mediante vínculos de seguimiento o con los envíos que utilizan etiquetas de anclaje. Si es así, se recomienda desactivar la firma de URL.
+Si se está ejecutando [!DNL Gold Standard] 19.1.4, es posible que tenga problemas con las entregas de notificaciones push mediante vínculos de seguimiento o con las entregas que utilizan etiquetas de anclaje. Si es así, se recomienda desactivar la firma de URL.
 
-Tanto si ejecuta Campaign en las instalaciones como en una arquitectura híbrida, debe ponerse en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para que se deshabilite la firma URL.
+Tanto si ejecuta Campaign en sus instalaciones como en una arquitectura híbrida, debe ponerse en contacto con [Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para que la firma URL esté deshabilitada.
 
 Si está ejecutando Campaign en una arquitectura híbrida, antes de habilitar la firma de URL, asegúrese de que la instancia de mid-sourcing alojada se haya actualizado de la siguiente manera:
 * Antes de la instancia de marketing local
@@ -91,15 +91,15 @@ Esta restricción permite eliminar los campos con contraseñas, pero permite a l
 
 1. Vaya a **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
 
-1. Cree un nuevo **[!UICONTROL Extension of a schema]**.
+1. Cree una nueva **[!UICONTROL Extension of a schema]**.
 
    ![](assets/privacy-data-restriction.png)
 
-1. Seleccione **[!UICONTROL External Account]** (extAccount).
+1. Choose **[!UICONTROL External Account]** (extAccount).
 
 1. En la última pantalla del asistente, puede editar el nuevo srcSchema para restringir el acceso a todos los campos de contraseña:
 
-   Puede reemplazar el elemento principal (`<element name="extAccount" ... >`) por:
+   Puede reemplazar el elemento principal (`<element name="extAccount" ... >`) de:
 
    ```
    <element name="extAccount">
@@ -152,7 +152,7 @@ Esta restricción permite eliminar los campos con contraseñas, pero permite a l
 
    >[!NOTE]
    >
-   >Puede reemplazar `$(loginId) = 0 or $(login) = 'admin'` por `hasNamedRight('admin')` para permitir que todos los usuarios con derechos de administrador vean estas contraseñas.
+   >Puede reemplazar `$(loginId) = 0 or $(login) = 'admin'` con `hasNamedRight('admin')` para permitir que todos los usuarios con derechos de administrador vean estas contraseñas.
 
 ## Protección de páginas que contienen PII
 
@@ -178,8 +178,8 @@ Para proteger sus páginas, siga estos pasos:
 
    Para Apache, puede colocar el archivo en **/var/www/robots.txt** (Debian).
 
-1. A veces, añadir un archivo **robots.txt** no es suficiente en términos de seguridad. Por ejemplo, si otro sitio web contiene un vínculo a la página, puede aparecer en un resultado de búsqueda.
+1. A veces, añadir un **robots.txt** no es suficiente en términos de seguridad. Por ejemplo, si otro sitio web contiene un vínculo a la página, puede aparecer en un resultado de búsqueda.
 
-Además del archivo **robots.txt**, se recomienda añadir un encabezado **X-Robots-Tag**. Puede hacerlo en Apache o IIS y en el archivo de configuración **serverConf.xml**.
+Además del **robots.txt** , se recomienda añadir un **X-Robots-Tag** encabezado. Puede hacerlo en Apache o IIS y en la **serverConf.xml** archivo de configuración.
 
 Para obtener más información, consulte [este artículo](https://developers.google.com/search/reference/robots_meta_tag).

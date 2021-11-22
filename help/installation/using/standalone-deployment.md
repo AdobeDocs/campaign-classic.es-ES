@@ -75,18 +75,18 @@ A medida que aumenta el volumen, una variante de esta arquitectura mueve el serv
 En los ejemplos siguientes, los parámetros de la instancia son:
 
 * Nombre de la instancia: **demostración**
-* Máscara DNS: **console.campaign.net*** (solo para conexiones de consola de cliente e informes)
+* Máscara DNS: **console.campaign.net*** (solo para conexiones de consola del cliente y para informes)
 * Base de datos: **campaña:demo@dbsrv**
 
 ### Instalación y configuración (un solo equipo) {#installing-and-configuring--single-machine-}
 
 Siga estos pasos:
 
-1. Siga el procedimiento de instalación del servidor Adobe Campaign: Paquete **nlserver** en Linux o **setup.exe** en Windows.
+1. Siga el procedimiento de instalación del servidor Adobe Campaign: **nlserver** paquete en Linux o **setup.exe** en Windows.
 
-   Para obtener más información sobre esto, consulte [Requisitos previos para la instalación de Campaign en Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md) (Linux) y [Requisitos previos para la instalación de Campaign en Windows](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) (Windows).
+   Para obtener más información, consulte [Requisitos previos para la instalación de Campaign en Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md) (Linux) y [Requisitos previos para la instalación de Campaign en Windows](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) (Windows).
 
-1. Una vez instalado el servidor de Adobe Campaign, inicie el servidor de aplicaciones (web) utilizando el comando **nlserver web -tomcat** (el módulo web le permite iniciar Tomcat en modo de servidor web independiente escuchando en el puerto 8080) y asegurarse de que Tomcat se inicie correctamente:
+1. Una vez instalado el servidor de Adobe Campaign, inicie el servidor de aplicaciones (web) con el comando **nlserver web -tomcat** (el módulo web le permite iniciar Tomcat en modo de servidor web independiente escuchando en el puerto 8080) y asegurarse de que Tomcat se inicia correctamente:
 
    ```
    12:08:18 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
@@ -97,16 +97,16 @@ Siga estos pasos:
 
    >[!NOTE]
    >
-   >La primera vez que se ejecuta el módulo web, se crean los archivos **config-default.xml** y **serverConf.xml** en el directorio **conf** en la carpeta de instalación. Todos los parámetros disponibles en **serverConf.xml** se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
+   >La primera vez que se ejecuta el módulo web, se crea la variable **config-default.xml** y **serverConf.xml** los archivos de **conf** en la carpeta de instalación. Todos los parámetros disponibles en la **serverConf.xml** aparecen en esta lista [sección](../../installation/using/the-server-configuration-file.md).
 
-   Pulse **Ctrl+C** para detener el servidor.
+   Press **Ctrl + C** para detener el servidor.
 
    Para obtener más información, consulte las siguientes secciones:
 
    * Para Linux: [Primer inicio del servidor](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server),
    * Para Windows: [Primer inicio del servidor](../../installation/using/installing-the-server.md#first-start-up-of-the-server).
 
-1. Cambie la contraseña **internal** mediante el comando :
+1. Cambie el **internal** contraseña mediante el comando :
 
    ```
    nlserver config -internalpassword
@@ -114,7 +114,7 @@ Siga estos pasos:
 
    Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
-1. Cree la instancia **demo** con las máscaras DNS para el seguimiento (en este caso, **tracking.campaign.net**) y el acceso a las consolas de cliente (en este caso, **console.campaign.net**). Hay dos formas de hacerlo:
+1. Cree la variable **demostración** instancia con las máscaras DNS para el seguimiento (en este caso, **tracking.campaign.net**) y acceso a las consolas de cliente (en este caso, **console.campaign.net**). Hay dos formas de hacerlo:
 
    * Cree la instancia a través de la consola:
 
@@ -132,7 +132,7 @@ Siga estos pasos:
 
       Para obtener más información, consulte [Creación de una instancia](../../installation/using/command-lines.md#creating-an-instance).
 
-1. Edite el archivo **config-demo.xml** (creado en el paso anterior junto a **config-default.xml**) y asegúrese de **mta** (envío), **wfserver** (flujo de trabajo), **inMail** (correos rechazados) y Los procesos a10/>stat **(estadísticas) están habilitados.** A continuación, configure la dirección del servidor de estadísticas:
+1. Edite el **config-demo.xml** (creado en el paso anterior junto a **config-default.xml**) y asegúrese de que la variable **mta** (entrega), **wfserver** (flujo de trabajo), **inMail** (correos rechazados) y **stat** Los procesos (estadísticas) están habilitados. A continuación, configure la dirección del servidor de estadísticas:
 
    ```
    <?xml version='1.0'?>
@@ -152,7 +152,7 @@ Siga estos pasos:
 
    Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
-1. Edite el archivo **serverConf.xml** y especifique el dominio de envío y, a continuación, especifique las direcciones IP (o host) de los servidores DNS utilizados por el módulo MTA para responder consultas DNS de tipo MX.
+1. Edite el **serverConf.xml** y especifique el dominio de entrega y, a continuación, especifique las direcciones IP (o host) de los servidores DNS utilizados por el módulo MTA para responder consultas DNS de tipo MX.
 
    ```
    <dnsConfig localDomain="campaign.com" nameServers="192.0.0.1, 192.0.0.2"/>
@@ -160,11 +160,11 @@ Siga estos pasos:
 
    >[!NOTE]
    >
-   >El parámetro **nameServers** solo se usa en Windows.
+   >La variable **nameServers** solo se usa en Windows.
 
    Para obtener más información, consulte [Configuración del servidor de Campaign](../../installation/using/configuring-campaign-server.md).
 
-1. Copie el programa de configuración de la consola del cliente (**setup-client-7.XX**, **YYYY.exe** para v7 o **setup-client-6.XX**, **YYYY.exe** para v6.1) en **/datakit/nl carpeta eng/jsp**. [Más información](../../installation/using/client-console-availability-for-windows.md).
+1. Copie el programa de configuración de la consola del cliente (**setup-client-7.XX**, **YYYY.exe** para v7 o **setup-client-6.XX**, **YYYY.exe** para la versión 6.1) de **/datakit/nl/eng/jsp** carpeta. [Más información](../../installation/using/client-console-availability-for-windows.md).
 
 1. Siga el procedimiento de integración del servidor web (IIS, Apache) descrito en las siguientes secciones:
 
@@ -203,15 +203,15 @@ Siga estos pasos:
 
    Este comando también le permite conocer la versión y el número de compilación del servidor de Adobe Campaign instalado en el equipo.
 
-1. Pruebe el módulo **nlserver web** utilizando la URL: https://console.campaign.net/nl/jsp/logon.jsp
+1. Pruebe la **nlserver web** usando la dirección URL: https://console.campaign.net/nl/jsp/logon.jsp
 
    Esta URL le permite acceder a la página de descarga del programa de configuración del cliente.
 
-   Introduzca el inicio de sesión **internal** y la contraseña asociada cuando llegue a la página de control de acceso. [Más información](../../installation/using/client-console-availability-for-windows.md).
+   Introduzca la variable **internal** inicio de sesión y contraseña asociada cuando llegue a la página de control de acceso. [Más información](../../installation/using/client-console-availability-for-windows.md).
 
    ![](assets/s_ncs_install_access_client.png)
 
-1. Inicie la consola del cliente de Adobe Campaign (desde la página de descarga anterior o inicie directamente en el servidor para una instalación de Windows), establezca la URL de conexión del servidor en https://console.campaign.net y conéctese con el inicio de sesión **internal**.
+1. Inicie la consola del cliente de Adobe Campaign (desde la página de descarga anterior o se inicie directamente en el servidor para una instalación de Windows), establezca la URL de conexión del servidor en https://console.campaign.net y conéctese utilizando el **internal** inicio de sesión.
 
    Consulte [esta página](../../installation/using/creating-an-instance-and-logging-on.md) y [esta sección](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
@@ -225,14 +225,14 @@ Siga estos pasos:
 
    Una vez creada la base de datos, cierre la sesión.
 
-1. Vuelva a iniciar sesión en la consola del cliente utilizando el inicio de sesión **admin** sin contraseña e inicie el asistente de implementación ( menú **[!UICONTROL Tools > Advanced]** ) para finalizar la configuración de la instancia.
+1. Inicie sesión de nuevo en la consola del cliente mediante el **admin** inicie sesión sin contraseña e inicie el asistente de implementación ( **[!UICONTROL Tools > Advanced]** ) para finalizar la configuración de la instancia.
 
    Para obtener más información, consulte [Implementación de una instancia](../../installation/using/deploying-an-instance.md).
 
    Los parámetros principales que se deben configurar son los siguientes:
 
    * Envío de correo electrónico: direcciones de remitente y respuesta y el buzón de error para el correo rechazado.
-   * Seguimiento: Rellene la URL externa utilizada para la redirección y la URL interna, haga clic en **Registro en los servidores de seguimiento** y, a continuación, valide la misma en la instancia **demo** del servidor de seguimiento.
+   * Seguimiento: Rellene la URL externa utilizada para la redirección y la URL interna, haga clic en **Registro en los servidores de seguimiento** y, a continuación, valídelo en la variable **demostración** instancia del servidor de seguimiento.
 
       Para obtener más información, consulte [Configuración de seguimiento](../../installation/using/deploying-an-instance.md#tracking-configuration).
 
@@ -240,7 +240,7 @@ Siga estos pasos:
 
       Como el servidor de Adobe Campaign se utiliza tanto como servidor de aplicaciones como de redirección, la URL interna utilizada para recopilar registros de seguimiento y transferir URL es una conexión interna directa a Tomcat (https://localhost:8080).
 
-   * Gestión de devoluciones: Introduzca los parámetros para gestionar el correo rechazado (no tenga en cuenta la sección **Unprocessed bounce mails** ).
+   * Gestión de devoluciones: Introduzca los parámetros para gestionar el correo rechazado (no tome el **Correos devueltos sin procesar** en la cuenta).
    * Acceso desde: Proporcione las dos direcciones URL para informes, formularios web y páginas espejo.
 
       ![](assets/d_ncs_install_web_url.png)

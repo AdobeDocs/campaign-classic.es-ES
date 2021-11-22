@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
 source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3729'
 ht-degree: 100%
 
@@ -434,6 +434,7 @@ Una tarea puede ser: **[!UICONTROL Scheduled]**, **[!UICONTROL In progress]**, *
 >
 >* El estado de la tarea se actualiza automáticamente.
 >* Incluso si el periodo de validez ha terminado, las tareas que no se hayan cerrado aparecen en la lista de tareas en curso. Una advertencia notifica a los operadores de que la tarea está atrasada.
+
 >
 
 

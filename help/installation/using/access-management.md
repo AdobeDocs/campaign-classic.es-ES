@@ -43,9 +43,9 @@ Evite agregar demasiados operadores en el grupo de administración (o con derech
 
 Adobe Campaign proporciona tres privilegios de alto nivel mediante [derechos asignados](../../platform/using/access-management.md#named-rights):
 
-* **ADMINISTRACIÓN**  (administrador): proporciona acceso a todo y permite hacer todo, evitando todas las comprobaciones de derechos con nombre, por lo que incluye los derechos asignados de EJECUCIÓN DE PROGRAMAS (createProcess) y SQL
+* **ADMINISTRACIÓN** (administrador): proporciona acceso a todo y permite hacer todo, evitando todas las comprobaciones de derechos con nombre, por lo que incluye los derechos asignados de EJECUCIÓN DE PROGRAMAS (createProcess) y SQL
 
-* **EJECUCIÓN DE PROGRAMAS**  (createProcess): permite ejecutar programas externos (en el servidor)
+* **EJECUCIÓN DEL PROGRAMA** (createProcess): permite ejecutar programas externos (en el servidor)
 
 * **SQL**: permite ejecutar secuencias de comandos SQL en la base de datos (para que pueda omitir el modelo de seguridad). Nota: si necesita realizar cálculos complejos (filtrado, por ejemplo), puede pedir al administrador de la base de datos que cree una función SQL y que los añada a la lista de permitidos . Obtenga más información en [esta página](../../installation/using/scripting-coding-guidelines.md).
 

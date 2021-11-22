@@ -19,25 +19,25 @@ ht-degree: 70%
 
 ## Contexto
 
-Como valioso cliente de Adobe Campaign Classic, estamos comprometidos a proporcionarle la mejor experiencia y el mejor valor. A lo largo de los años, nos hemos dado cuenta del valor y la fiabilidad de alojar a nuestros clientes en la nube.  Como parte de nuestra [Iniciativa Gold Standard](../../rn/using/gold-standard.md), estamos trasladando a todos nuestros clientes a Adobe Managed Services (Nube pública en AWS) para proporcionar servicios mejores y más fiables.
+Como valioso cliente de Adobe Campaign Classic, estamos comprometidos a proporcionarle la mejor experiencia y el mejor valor. A lo largo de los años, nos hemos dado cuenta del valor y la fiabilidad de alojar a nuestros clientes en la nube.  Como parte de nuestra [Iniciativa Gold Standard](../../rn/using/gold-standard.md), trasladamos a todos nuestros clientes a Adobe Managed Services (Nube pública en AWS) para ofrecer servicios mejores y más fiables.
 
 Este programa tiene tres objetivos principales:
 
 * Hacer frente a las vulnerabilidades de seguridad identificadas trasladando la infraestructura a un entorno seguro y moderno (AWS).
-* Elimine los procesos de escalado potencialmente engorrosos, proporcione acceso a nuestros [MTA mejorados](../../delivery/using//sending-with-enhanced-mta.md) y mejore todos los niveles de servicio de mantenimiento.
+* Elimine los procesos de escalado potencialmente engorrosos, proporcione acceso a nuestra [MTA mejorados](../../delivery/using//sending-with-enhanced-mta.md) y mejorar todos los niveles de servicio de mantenimiento.
 * Prepare su instancia para el futuro de Adobe Campaign Classic, incluidas actualizaciones más automatizadas y regulares que no requieran tantos recursos ni tanto tiempo.
 
 ### Glosario
 
-* **Actualización de compilación** : cuando el software de Adobe Campaign Classic se actualiza al último número de compilación segura, pero permanece en el mismo nivel de compilación principal/menor. Por ejemplo: Campaign v7 20.2.3 compilación 9182 a Campaign v7 21.2.5 compilación 9188. [Más información](../../platform/using/faq-build-upgrade.md).
-* **MID/RT** : Servidores de ejecución de mensajes alojados en Adobe Cloud (MID para campañas por lotes y RT para mensajes unitarios en tiempo real)
-* **Actualización a Gold Standard** : este programa proporciona una mayor seguridad, soporte, mantenimiento y estabilidad. También facilita las futuras actualizaciones y proporciona acceso a nuevas funciones en Campaign.  [Más información](../../rn/using/gs-overview.md).
-* **AWS** : Servicios web de Amazon (Amazon Public Cloud)
-* **SFTP** : Protocolo seguro de transferencia de archivos. [Más información](../../platform/using/sftp-server-usage.md).
+* **Generar actualización** - Cuando el software de Adobe Campaign Classic se actualiza al último número de compilación segura, pero se mantiene en el mismo nivel de compilación principal/menor. Por ejemplo: Campaign v7 20.2.3 compilación 9182 a Campaign v7 21.2.5 compilación 9188. [Más información](../../platform/using/faq-build-upgrade.md).
+* **MID/RT** - Servidores de ejecución de mensajes alojados en Adobe Cloud (MID para campañas por lotes y RT para mensajes unitarios en tiempo real)
+* **Actualización a Gold Standard** - este programa proporciona una mayor seguridad, un mejor apoyo, un mayor mantenimiento y estabilidad. También facilita las futuras actualizaciones y proporciona acceso a nuevas funciones en Campaign.  [Más información](../../rn/using/gs-overview.md).
+* **AWS** - Amazon Web Service (Amazon Public Cloud)
+* **SFTP** - Protocolo seguro de transferencia de archivos. [Más información](../../platform/using/sftp-server-usage.md).
 
 
 >[!NOTE]
->La migración de Campaign Classic v7 a la nube pública afecta a los clientes que solo utilizan **Adobe Managed Services**.
+>La migración de Campaign Classic v7 a la nube pública afecta a los clientes que utilizan **Adobe Managed Services** solo.
 
 
 ## Ventajas
@@ -80,13 +80,13 @@ La migración a Adobe Managed Services (nube pública) se producirá en 2020/202
 
 Para comenzar como es debido, las cuentas que requieran esta migración recibirán un mensaje de Adobe por correo electrónico con una cronología y acceso a la documentación. Esta notificación le indica que se ha programado la migración de su cuenta.
 
-Se puede iniciar una migración [abriendo un nuevo ticket de asistencia al cliente](https://experienceleague.adobe.com/?support-solution=Campaign#support). Utilice la línea de asunto “Migrar a AWS”.
+Una migración se puede iniciar mediante [apertura de un nuevo ticket de asistencia al Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Campaign#support). Utilice la línea de asunto “Migrar a AWS”.
 
 ### ¿Es obligatoria esta migración?
 
 Esta migración a la nube es **el primer paso para la certificación [Gold Standard](../../rn/using/gs-overview.md)** de las instancias de Adobe Campaign. Esta migración es obligatoria si está alojado en un centro de datos que no es de la nube pública (AWS).
 
-La nube de Adobe Managed Services está alojada en Amazon Web Services (AWS), un entorno moderno, seguro y optimizado. [Obtenga más información sobre AWS](https://aws.amazon.com/application-hosting/benefits/).
+La nube de Adobe Managed Services está alojada en Amazon Web Service (AWS), un entorno moderno, seguro y optimizado. [Más información sobre AWS](https://aws.amazon.com/application-hosting/benefits/).
 
 Adobe planea eliminar el antiguo centro de datos, las instancias de Adobe Campaign que se ejecuten allí deben transferirse al nuevo centro de datos de referencia, AWS.
 
@@ -97,7 +97,7 @@ Además, esta migración es ahora un **requisito previo para cualquier actualiza
 Adobe se ha comprometido a proteger sus datos y prepararle para el futuro de Adobe Campaign. Necesitamos su colaboración para lograr el éxito juntos.
 
 
-**Hemos organizado un** equipo de representantes del Servicio de atención al cliente, gestores de éxito de clientes, responsables de productos, ingenieros, especialistas en TechOps y consultores de productos para ayudar y garantizar que la experiencia sea fluida y fluida. Nos comprometemos a garantizar que dispone de la información de contacto y del proyecto pertinente.
+**Hemos organizado un equipo** de representantes del Servicio de atención al cliente, responsables de éxito de clientes, gerentes de productos, ingenieros, especialistas en TechOps y consultores de productos dedicados para ayudar y garantizar que la experiencia sea fluida y fluida. Nos comprometemos a garantizar que dispone de la información de contacto y del proyecto pertinente.
 
 Hemos invertido un gran esfuerzo en desarrollar tecnologías que nos ayudarán a llevar a cabo esta migración de forma rápida, fluida y segura.
 
@@ -107,7 +107,7 @@ Hemos invertido un gran esfuerzo en desarrollar tecnologías que nos ayudarán a
 * Cambio de IP para integraciones de datos.
 * Aumento de la capacidad de entrega de nuevas IP de envío. Sin embargo, el plan es hacer que esta operación sea transparente para el negocio, a diferencia de la mejora inicial que se realiza durante el lanzamiento.
 
-Obtenga más información en Migración de Campaign a [Preguntas frecuentes sobre la nube pública](dc-migration-faq.md).
+Obtenga más información sobre la migración de Campaign a [Preguntas frecuentes sobre la nube pública](dc-migration-faq.md).
 
 
 ## El camino hacia la certificación Gold Standard
@@ -147,7 +147,7 @@ En general, esto significa que el cliente debe comprobar las posibles restriccio
 
 **Servidores de campaña**
 
-Los servidores de Campaign existentes (contenedores en realidad) se moverán a la nube pública (AWS) con un enfoque de &quot;alza y desplazamiento&quot;. Es decir, no se necesitará una nueva instalación del servidor, pero todo el servidor se transferirá al nuevo centro de datos. Es decir, no se necesitará una nueva instalación del servidor, pero todo el servidor se transferirá al nuevo centro de datos.
+Los servidores de Campaign existentes (contenedores en realidad) se moverán a la nube pública (AWS) con un enfoque de &quot;alza y cambio&quot;. Es decir, no se necesitará una nueva instalación del servidor, pero todo el servidor se transferirá al nuevo centro de datos. Es decir, no se necesitará una nueva instalación del servidor, pero todo el servidor se transferirá al nuevo centro de datos.
 
 **Nombres de servidor**
 

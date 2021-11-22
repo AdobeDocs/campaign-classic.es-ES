@@ -35,7 +35,7 @@ Para ello, siga los siguientes pasos:
 
 1. Cree una copia de las bases de datos en todas las instancias del entorno de origen.
 1. Restaure estas copias en todas las instancias del entorno de destino,
-1. Ejecute el script de cauterización **nms:frozenInstance.js** en el entorno de destino antes de iniciarlo.
+1. Ejecute el **nms:frozenInstance.js** secuencia de comandos de cauterización en el entorno de destino antes de iniciarla.
 
    Este proceso no afecta a los servidores ni a su configuración.
 
@@ -61,14 +61,15 @@ Para que este proceso funcione, los entornos de origen y de destino deben tener 
 
 ### Procedimiento de transferencia {#transfer-procedure}
 
-Esta sección le ayudará a comprender los pasos necesarios para transferir un entorno de origen a un entorno de destino mediante un caso práctico: nuestro objetivo aquí es restaurar un entorno de producción (**prod** instancia) a un entorno de desarrollo (**dev** instancia) para que funcione en un contexto lo más cercano posible a la plataforma &quot;en directo&quot;.
+Esta sección le ayudará a comprender los pasos necesarios para transferir un entorno de origen a un entorno de destino mediante un caso práctico: nuestro objetivo aquí es restaurar un entorno de producción (**prod** a un entorno de desarrollo (**dev** ) para trabajar en un contexto lo más cercano posible a la plataforma en directo.
 
 Los siguientes pasos deben realizarse con bueno cuidado: es posible que algunos procesos estén en curso cuando se copien las bases de datos del entorno de origen. La cauterización (paso 3 a continuación) evita que los mensajes se envíen dos veces y mantiene la coherencia de los datos.
 
 >[!IMPORTANT]
 >
 >* El siguiente procedimiento es válido en lenguaje PostgreSQL. Si el lenguaje SQL es diferente (Oracle, por ejemplo), las consultas SQL deben adaptarse.
->* Los siguientes comandos se aplican en el contexto de una instancia **prod** y una instancia **dev** en PostgreSQL.
+>* Los siguientes comandos se aplican dentro del contexto de un **prod** instancia y **dev** en PostgreSQL.
+
 >
 
 
@@ -94,8 +95,8 @@ Esta exportación permite mantener la configuración de desarrollo y actualizar 
 
 Para ello, realice una exportación de paquetes para los dos elementos siguientes:
 
-* Exporte la tabla **xtk:option** a un archivo &#39;options_dev.xml&#39;, sin los registros con los siguientes nombres internos: &#39;WdbcTimeZone&#39;, &#39;NmsServer_LastPostUpgrade&#39; y &#39;NmsBroadcast_RegexRules&#39;.
-* En un archivo extaccount_dev.xml, exporte la tabla **nms:extAccount** para todos los registros cuyo ID no sea 0 (@id &lt;> 0).
+* Exportar el **xtk:option** en un archivo &quot;options_dev.xml&quot;, sin los registros con los siguientes nombres internos: &#39;WdbcTimeZone&#39;, &#39;NmsServer_LastPostUpgrade&#39; y &#39;NmsBroadcast_RegexRules&#39;.
+* En un archivo extaccount_dev.xml, exporte la variable **nms:extAccount** para todos los registros cuyo ID no es 0 (@id &lt;> 0).
 
 Compruebe que el número de opciones/cuentas exportadas sea igual al número de líneas que se exportan en cada archivo.
 
@@ -137,14 +138,14 @@ nlserver pdump
 
 >[!NOTE]
 >
->En Windows, el proceso **webmdl** puede seguir activo sin afectar a otras operaciones.
+>En Windows, la variable **webmdl** puede seguir activo sin afectar a otras operaciones.
 
 También puede comprobar que no hay procesos del sistema en ejecución.
 
 Para ello, utilice el proceso siguiente:
 
-* En Windows: abra el **Task manager** y compruebe que no haya procesos **nlserver.exe**.
-* En Linux: ejecute los **ps aux | grep nlserver** y compruebe que no hay procesos **nlserver**.
+* En Windows: abra el **Administrador de tareas** y compruebe que no hay **nlserver.exe** procesos.
+* En Linux: ejecute el **ps aux | grep nlserver** y compruebe que no hay **nlserver** procesos.
 
 ### Paso 4: Restauración de las bases de datos en el entorno de destino (dev) {#step-4---restore-the-databases-in-the-target-environment--dev-}
 
@@ -191,9 +192,9 @@ En el entorno de destino, reinicie los procesos de Adobe Campaign para todos los
 
 >[!NOTE]
 >
->Antes de reiniciar Adobe Campaign en el entorno **dev**, puede aplicar un procedimiento de seguridad adicional: inicie solo el módulo **web**.
+>Antes de reiniciar Adobe Campaign en el **dev** entorno, puede aplicar un procedimiento de seguridad adicional: inicie el **web** solo módulo.
 >  
->Para ello, edite el archivo de configuración de su instancia (**config-dev.xml**) y, a continuación, agregue el carácter &quot;_&quot; antes de las opciones autoStart=&quot;true&quot; para cada módulo (mta, stat, etc.).
+>Para ello, edite el archivo de configuración de la instancia (**config-dev.xml**), luego agregue el carácter &quot;_&quot; antes de las opciones autoStart=&quot;true&quot; para cada módulo (mta, stat, etc.).
 
 Ejecute el siguiente comando para iniciar el proceso web:
 
@@ -222,11 +223,11 @@ Para importar la configuración desde la base de datos de entorno de destino (de
 1. Abra la consola de administración de la base de datos y depure las cuentas externas (tabla nms:extAccount) cuyo ID no sea 0 (@id &lt;> 0).
 1. En la consola de Adobe Campaign, importe el paquete options_dev.xml creado anteriormente mediante la funcionalidad del paquete de importación.
 
-   Compruebe que las opciones se hayan actualizado en el nodo **[!UICONTROL Administration > Platform > Options]**.
+   Compruebe que las opciones se hayan actualizado en la sección **[!UICONTROL Administration > Platform > Options]** nodo .
 
 1. En la consola de Adobe Campaign, importe extaccount_dev.xml creado anteriormente mediante la funcionalidad del paquete de importación
 
-   Compruebe que las bases de datos externas se hayan importado en **[!UICONTROL Administration > Platform > External accounts]** .
+   Compruebe que las bases de datos externas se hayan importado en la variable **[!UICONTROL Administration > Platform > External accounts]** .
 
 ### Paso 9: Reiniciar todos los procesos y cambiar usuarios (dev) {#step-9---restart-all-processes-and-change-users--dev-}
 

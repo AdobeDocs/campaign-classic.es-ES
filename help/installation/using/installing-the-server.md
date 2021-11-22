@@ -23,7 +23,7 @@ Para una plataforma de Windows de 32 bits, instale Adobe Campaign de 32 bits. Pa
 
 Los pasos de instalación del servidor Adobe Campaign son los siguientes:
 
-1. Ejecute el archivo **setup.exe**.
+1. Ejecutar el archivo **setup.exe**.
 
    ![](assets/s_ncs_install_installer_01.png)
 
@@ -38,7 +38,7 @@ Los pasos de instalación del servidor Adobe Campaign son los siguientes:
    * **[!UICONTROL Installation of a client]** : Instalación de los componentes necesarios para el cliente de Adobe Campaign.
    * **[!UICONTROL Custom installation]** : El usuario elige los elementos que desea instalar.
 
-   Seleccione **Instalación de un servidor de aplicaciones** y siga los diferentes pasos como se muestra a continuación:
+   Select **Instalación de un servidor de aplicaciones** y siga los diferentes pasos como se muestra a continuación:
 
    ![](assets/s_ncs_install_installer_02.png)
 
@@ -80,7 +80,7 @@ No task
 
 ## Primer inicio del servidor {#first-start-up-of-the-server}
 
-Una vez finalizada la prueba de instalación, abra un símbolo del sistema a través del menú **[!UICONTROL Start > Programs > Adobe Campaign]** e introduzca el siguiente comando:
+Una vez finalizada la prueba de instalación, abra un símbolo del sistema a través de la **[!UICONTROL Start > Programs > Adobe Campaign]** e introduzca el siguiente comando:
 
 ```
 nlserver web
@@ -102,7 +102,7 @@ Se muestra la siguiente información:
 15:30:12 >   Web server stop (pid=664, tid=4188)...
 ```
 
-Pulse **Ctrl+C** para detener el proceso e introduzca el siguiente comando:
+Press **Ctrl + C** para detener el proceso, introduzca el siguiente comando:
 
 ```
 nlserver start web
@@ -137,7 +137,7 @@ Se muestra la siguiente información:
 
 ## Contraseña del identificador interno {#password-for-the-internal-identifier}
 
-El servidor de Adobe Campaign define un inicio de sesión técnico llamado **internal** que tiene todos los derechos en todas las instancias. Justo después de la instalación, el inicio de sesión no tiene contraseña. Es obligatorio definir una.
+El servidor de Adobe Campaign define un inicio de sesión técnico denominado **internal** que tiene todos los derechos en todas las instancias. Justo después de la instalación, el inicio de sesión no tiene contraseña. Es obligatorio definir una.
 
 Obtenga más información en [esta sección](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
@@ -157,7 +157,7 @@ net stop nlserver6
 
 ## Instalación de LibreOffice {#installing-libreoffice}
 
-Descargue LibreOffice, por ejemplo de [https://www.libreoffice.org/download/libreoffice-fresh/](https://www.libreoffice.org/download/libreoffice-fresh/) y siga los pasos de instalación habituales.
+Descargar LibreOffice, por ejemplo desde [https://www.libreoffice.org/download/libreoffice-fresh/](https://www.libreoffice.org/download/libreoffice-fresh/) y siga los pasos de instalación habituales.
 
 Agregue la siguiente variable de entorno:
 

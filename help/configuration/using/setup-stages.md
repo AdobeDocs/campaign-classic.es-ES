@@ -27,10 +27,10 @@ Existen dos tipos de etiquetas:
 Siga los siguientes pasos para configurar estas etiquetas:
 
 1. Identifique las páginas que desee rastrear y determine su tipo (WEB o TRANSACCIÓN).
-1. Determine qué información adicional desea recopilar y amplíe el esquema **nms:webTrackingLog** con la descripción de esta información. De forma predeterminada, este esquema puede almacenar las cantidades de transacción y el número de elementos por transacción.
+1. Determine qué información adicional desea recopilar y amplíe el **nms:webTrackingLog** esquema con la descripción de esta información. De forma predeterminada, este esquema puede almacenar las cantidades de transacción y el número de elementos por transacción.
 1. Creación de las etiquetas de seguimiento web. Hay dos formas de hacerlo:
 
-   * Inserte las direcciones URL correspondientes a estas páginas en la plataforma de Adobe Campaign y, a continuación, genere y extraiga las etiquetas de seguimiento web asociadas (desde el nodo **[!UICONTROL Campaign execution>Resources>Web tracking tags]** de la consola del cliente).
+   * Inserte las direcciones URL correspondientes a estas páginas en la plataforma de Adobe Campaign y, a continuación, genere y extraiga las etiquetas de seguimiento web asociadas (desde la **[!UICONTROL Campaign execution>Resources>Web tracking tags]** de la consola del cliente).
    * Cree las etiquetas de seguimiento web usted mismo en el modo &quot;Creación sobre la marcha&quot;: las direcciones URL correspondientes a estas páginas se insertarán automáticamente en la plataforma de Adobe Campaign.
 
 1. Agregue estas etiquetas de forma estática o dinámica en las páginas que desee rastrear.

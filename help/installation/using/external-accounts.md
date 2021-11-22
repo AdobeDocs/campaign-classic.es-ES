@@ -9,7 +9,7 @@ exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1636'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -25,7 +25,7 @@ Los procesos técnicos utilizan las cuentas externas como flujos de trabajo téc
 
 Para crear una nueva cuenta externa, siga los pasos a continuación. La configuración detallada depende del tipo de cuenta externa.
 
-1. En Campaña **[!UICONTROL Explorer]**, seleccione **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
+1. Desde campaña **[!UICONTROL Explorer]**, seleccione **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
 
    ![](assets/ext_account_1.png)
 
@@ -33,13 +33,13 @@ Para crear una nueva cuenta externa, siga los pasos a continuación. La configur
 
    ![](assets/ext_account_2.png)
 
-1. Introduzca un **[!UICONTROL Label]** y un **[!UICONTROL Internal Name]**.
+1. Escriba un **[!UICONTROL Label]** y **[!UICONTROL Internal Name]**.
 1. Seleccione la cuenta externa **[!UICONTROL Type]** que desee crear.
 1. Configure el acceso a la cuenta especificando las credenciales según el tipo de cuenta externa elegida.
 
    La información necesaria suele ser proporcionada por el proveedor del servidor al que está conectándose.
 
-1. Marque la opción **[!UICONTROL Enabled]** para activar la conexión.
+1. Marque la **[!UICONTROL Enabled]** para activar la conexión.
 1. Haga clic en **[!UICONTROL Save]**.
 
 La cuenta externa se crea y se agrega a la lista de cuentas externas.
@@ -170,25 +170,25 @@ La cuenta externa SFTP permite configurar y probar el acceso a un servidor fuera
 
 ### Base de datos externa (FDA) {#external-database-external-account}
 
-Utilice la cuenta externa de tipo **External database** para conectarse a una base de datos externa. Obtenga más información sobre la opción Acceso de Datos Federados (FDA) en [esta sección](../../installation/using/about-fda.md).
+Utilice la variable **Base de datos externa** escriba cuenta externa para conectarse a una base de datos externa. Obtenga más información sobre la opción Acceso de datos federado (FDA) en [esta sección](../../installation/using/about-fda.md).
 
-Las bases de datos externas compatibles con Campaign se enumeran en la [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md)
+Las bases de datos externas compatibles con Campaign se enumeran en la lista [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md)
 
 ![](assets/ext_account_11.png)
 
 La configuración de cuentas externas depende del motor de la base de datos. Obtenga más información en las siguientes secciones:
 
 * Configuración del acceso a [Vertica](../../installation/using/configure-fda-vertica.md)
-* Configuración del acceso al [Snowflake](../../installation/using/configure-fda-snowflake.md)
+* Configuración del acceso a [Snowflake](../../installation/using/configure-fda-snowflake.md)
 * Configuración del acceso a [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
-* Configuración del acceso al [Azure synapse](../../installation/using/configure-fda-synapse.md)
-* Configuración del acceso al [Hadoop](../../installation/using/configure-fda-hadoop.md)
-* Configuración del acceso al [Oracle](../../installation/using/configure-fda-oracle.md)
-* Configuración del acceso al [Netezza](../../installation/using/configure-fda-netezza.md)
-* Configuración del acceso al [SAP HANA](../../installation/using/configure-fda-sap-hana.md)
-* Configuración del acceso al [Snowflake](../../installation/using/configure-fda-snowflake.md)
-* Configuración del acceso a [Sybase IQ](../../installation/using/configure-fda-sybase.md)
-* Configuración del acceso al [Teradata](../../installation/using/configure-fda-teradata.md)
+* Configuración del acceso a [azure synapse](../../installation/using/configure-fda-synapse.md)
+* Configuración del acceso a [Hadoop](../../installation/using/configure-fda-hadoop.md)
+* Configuración del acceso a [Oracle](../../installation/using/configure-fda-oracle.md)
+* Configuración del acceso a [Netezza](../../installation/using/configure-fda-netezza.md)
+* Configuración del acceso a [SAP HANA](../../installation/using/configure-fda-sap-hana.md)
+* Configuración del acceso a [Snowflake](../../installation/using/configure-fda-snowflake.md)
+* Configuración del acceso a [sybase IQ](../../installation/using/configure-fda-sybase.md)
+* Configuración del acceso a [Teradata](../../installation/using/configure-fda-teradata.md)
 
 ### Facebook connect {#facebook-connect-external-account}
 
@@ -244,7 +244,7 @@ Para conectarse a la consola de Adobe Campaign mediante un Adobe ID, debe config
 
 * **[!UICONTROL IMS organization ID]**
 
-   ID de la organización IMS Para encontrar su ID de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html?lang=es) (**Dónde puedo encontrar mi ID de organización de IMS?**).
+   ID de la organización IMS Para encontrar su ID de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html?lang=es) (**¿Dónde puedo encontrar mi ID de organización de IMS?**).
 
 * **[!UICONTROL Association mask]**
 
@@ -294,11 +294,11 @@ Para obtener más información, consulte [esta sección](../../integrations/usin
 
 >[!NOTE]
 >
-> **[!UICONTROL On-premise]** Los tipos de  **[!UICONTROL Office 365]** implementación y ya no se utilizan. [Más información](../../rn/using/deprecated-features.md).
+> **[!UICONTROL On-premise]** y **[!UICONTROL Office 365]** los tipos de implementación ya no se utilizan. [Más información](../../rn/using/deprecated-features.md).
 
 La cuenta externa **[!UICONTROL Microsoft Dynamics CRM]** permite importar y exportar datos de Microsoft Dynamics en Adobe Campaign.
 
-Obtenga más información sobre Campaign - Conector de Microsoft Dynamics CRM en esta [página](../../platform/using/crm-ms-dynamics.md).
+Obtenga más información sobre Campaign: Conector Microsoft Dynamics CRM en esta [página](../../platform/using/crm-ms-dynamics.md).
 
 Con el tipo de implementación **[!UICONTROL Web API]** y la autenticación **[!UICONTROL Password credentials]**, debe proporcionar los siguientes detalles:
 
@@ -312,7 +312,7 @@ Con el tipo de implementación **[!UICONTROL Web API]** y la autenticación **[!
 
    URL del servidor Microsoft CRM.
 
-   Para encontrar su Microsoft CRM **[!UICONTROL Server URL]**, acceda a su cuenta de Microsoft Dynamics CRM, haga clic en **Dynamics 365** y seleccione la aplicación. A continuación, puede encontrar su **[!UICONTROL Server URL]** en la barra de direcciones de su navegador, p. ej. `https://myserver.crm.dynamics.com/`.
+   Para encontrar su Microsoft CRM **[!UICONTROL Server URL]**, acceda a su cuenta de Microsoft Dynamics CRM y haga clic en **Dynamics 365** y seleccione su aplicación. Luego puede encontrar su **[!UICONTROL Server URL]** en la barra de direcciones del navegador, por ejemplo `https://myserver.crm.dynamics.com/`.
 
 * **[!UICONTROL Client identifier]**
 
@@ -320,7 +320,7 @@ Con el tipo de implementación **[!UICONTROL Web API]** y la autenticación **[!
 
 * **[!UICONTROL CRM version]**
 
-   Seleccione **[!UICONTROL Dynamics CRM 365]** versión de CRM.
+   Choose **[!UICONTROL Dynamics CRM 365]** Versión de CRM.
 
 Con el tipo de implementación **[!UICONTROL Web API]** y la autenticación **[!UICONTROL Certificate]**, debe proporcionar los siguientes detalles:
 
@@ -330,7 +330,7 @@ Con el tipo de implementación **[!UICONTROL Web API]** y la autenticación **[!
 
    URL del servidor Microsoft CRM.
 
-   Para encontrar su Microsoft CRM **[!UICONTROL Server URL]**, acceda a su cuenta de Microsoft Dynamics CRM, haga clic en **Dynamics 365** y seleccione la aplicación. A continuación, puede encontrar su **[!UICONTROL Server URL]** en la barra de direcciones de su navegador, p. ej. `https://myserver.crm.dynamics.com/`.
+   Para encontrar su Microsoft CRM **[!UICONTROL Server URL]**, acceda a su cuenta de Microsoft Dynamics CRM y haga clic en **Dynamics 365** y seleccione su aplicación. Luego puede encontrar su **[!UICONTROL Server URL]** en la barra de direcciones del navegador, por ejemplo `https://myserver.crm.dynamics.com/`.
 
 * **[!UICONTROL Private Key (Base64 encoded)]**
 
@@ -420,11 +420,11 @@ Para saber dónde encontrar el ID de clave de acceso y la clave de acceso secret
 
 ### Almacenamiento de Azure Blob {#azure-blob-external-account}
 
-La cuenta externa **Azure Blob storage** se puede utilizar para importar o exportar datos a Adobe Campaign mediante una actividad de flujo de trabajo **[!UICONTROL Transfer file]**. Para obtener más información, consulte [esta sección](../../workflow/using/file-transfer.md).
+La variable **Almacenamiento de Azure Blob** la cuenta externa se puede utilizar para importar o exportar datos a Adobe Campaign mediante un **[!UICONTROL Transfer file]** actividad de flujo de trabajo. Para obtener más información, consulte [esta sección](../../workflow/using/file-transfer.md).
 
 ![](assets/ext_account_23.png)
 
-Para configurar el **[!UICONTROL Azure external account]** para que funcione con Adobe Campaign, debe proporcionar los siguientes detalles:
+Para configurar la variable **[!UICONTROL Azure external account]** para trabajar con Adobe Campaign, debe proporcionar los siguientes detalles:
 
 * **[!UICONTROL Server]**
 

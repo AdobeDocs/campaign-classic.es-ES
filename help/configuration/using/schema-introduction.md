@@ -13,13 +13,13 @@ ht-degree: 27%
 
 ---
 
-# Referencia de esquema {#schema-reference}
+# Schema reference {#schema-reference}
 
 ![](../../assets/v7-only.svg)
 
 Al editar un esquema, hay disponible un sistema de aprobación basado en el esquema de origen (xtk:srcSchema). También se pueden detectar algunos errores al actualizar la base de datos utilizando la &quot;Actualización de estructura de la base de datos...&quot; asistente.
 
-De forma predeterminada, en los esquemas de Adobe Campaign, todos los atributos de tipo booleano son &quot;false&quot;. Para activarlos, debe especificar el atributo en el esquema y establecer su valor en &quot;true&quot;.
+By default, in Adobe Campaign schemas, all boolean type attributes are &quot;false&quot;. To activate them, you need to specify the attribute in the schema and set its value to &quot;true&quot;.
 
 Lista de referencia:
 

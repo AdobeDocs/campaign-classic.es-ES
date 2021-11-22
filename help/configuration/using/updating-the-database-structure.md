@@ -25,7 +25,7 @@ Los módulos de la base de datos se rellenan y activan automáticamente.
 
 ![](assets/d_ncs_integration_schema_update_select.png)
 
-Las opciones **[!UICONTROL Add stored procedures]** y **[!UICONTROL Import initialization data]** se utilizan para iniciar los scripts SQL iniciales y los paquetes de datos ejecutados cuando se crea la base de datos.
+La variable **[!UICONTROL Add stored procedures]** y **[!UICONTROL Import initialization data]** se utilizan para iniciar las secuencias de comandos SQL iniciales y los paquetes de datos ejecutados cuando se crea la base de datos.
 
 Puede importar un conjunto de datos desde un paquete de datos externo. Para ello, seleccione **[!UICONTROL Import a package]** e introduzca el archivo XML del paquete.
 

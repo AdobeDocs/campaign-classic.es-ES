@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ![](../../assets/v7-only.svg)
 
-Esta sección detalla la instalación y configuración de un servidor intermediario, así como la implementación de una instancia que permite a terceros enviar mensajes en modo **mid-sourcing**.
+Esta sección detalla la instalación y configuración de un servidor intermediario, así como la implementación de una instancia que permite a terceros enviar mensajes en **intermediario** en el menú contextual.
 
 La arquitectura &quot;intermediaria&quot; se presenta en [Implementación intermediaria](../../installation/using/mid-sourcing-deployment.md).
 
@@ -25,7 +25,7 @@ La instalación de un servidor intermediario sigue el mismo proceso que la insta
 
 >[!CAUTION]
 >
->Una vez configurado el servidor intermediario y que los [flujos de trabajo de sincronización](../../workflow/using/about-technical-workflows.md) se hayan ejecutado por primera vez, asegúrese de no actualizar el nombre interno de las cuentas externas intermediarias.
+>Una vez configurado el servidor de mid-sourcing y [flujos de trabajo de sincronización](../../workflow/using/about-technical-workflows.md) se han ejecutado por primera vez, asegúrese de no actualizar el nombre interno de las cuentas externas de mid-sourcing.
 
 ## Pasos para instalar y configurar una instancia {#steps-for-installing-and-configuring-an-instance}
 
@@ -43,7 +43,7 @@ El procedimiento de instalación es idéntico al de la instancia independiente. 
 
 Sin embargo, debe aplicar lo siguiente:
 
-* En el paso **5**, debe deshabilitar los módulos **mta** (envío) y **inMail** (correos rechazados). Sin embargo, el módulo **wfserver** (flujo de trabajo) debe permanecer activado.
+* En el paso **5**, Debe desactivar el **mta** (entrega) y **inMail** módulos (correos electrónicos rechazados). La variable **wfserver** (flujo de trabajo), sin embargo, debe permanecer activado.
 
    ```
    <?xml version='1.0'?>
@@ -63,8 +63,8 @@ Sin embargo, debe aplicar lo siguiente:
 
    Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
-* Los pasos **6**, **9** y **10** no son necesarios.
-* Durante los pasos **12** y **13**, debe indicar el puerto 8080 en la dirección URL de conexión (ya que la consola se comunica con Tomcat directamente, no a través del servidor web). La dirección URL se convierte en [http://console.campaign.net:8080](http://console.campaign.net). Durante el paso **13**, seleccione el paquete **[!UICONTROL Issue towards Mid-sourcing]**, así como los que desea instalar.
+* Pasos **6**, **9** y **10** no son necesarios.
+* Durante los pasos **12** y **13**, debe indicar el puerto 8080 en la dirección URL de conexión (ya que la consola se comunica con Tomcat directamente, no a través del servidor web). La dirección URL se convierte en [http://console.campaign.net:8080](http://console.campaign.net). Durante el paso **13**, seleccione **[!UICONTROL Issue towards Mid-sourcing]** , así como los que se van a instalar.
 
    ![](assets/s_ncs_install_midsourcing02.png)
 
@@ -74,11 +74,11 @@ Sin embargo, debe aplicar lo siguiente:
 
 ### Instalación y configuración del servidor intermediario {#installing-and-configuring-the-mid-sourcing-server}
 
-Desde la consola del cliente, busque el **Email routing using mid-sourcing** mid-sourcing account (en la carpeta **/Administration/External accounts/**). Rellene las configuraciones **URL del servidor**, **cuenta**, **contraseña** y **URL de página espejo** con la información proporcionada por el proveedor de servidor que aloja el servidor de mid-sourcing. Pruebe la conexión.
+Desde la consola del cliente, busque el **Enrutamiento de correo electrónico mediante intermediario** cuenta intermediaria (en la **/Administration/External accounts/** carpeta). Rellene el **URL del servidor**, **account**, **password** y **URL de página espejo** con la información proporcionada por el proveedor de servidor que aloja el servidor intermediario. Pruebe la conexión.
 
 >[!NOTE]
 >
->La opción **mid-sourcingEmitter** crea dos flujos de trabajo **Mid-sourcing**. Se trata de un proceso que se ejecuta de forma predeterminada cada 1 hora y 20 minutos y que recopila información de entrega en el servidor intermediario.
+>La variable **mid-sourcingEmitter** la opción crea dos **Mid-sourcing** flujos de trabajo. Se trata de un proceso que se ejecuta de forma predeterminada cada 1 hora y 20 minutos y que recopila información de entrega en el servidor intermediario.
 
 ## Implementación de un servidor intermediario {#deploying-a-mid-sourcing-server}
 
@@ -88,15 +88,15 @@ Desde la consola del cliente, busque el **Email routing using mid-sourcing** mid
    >
    >Si instala el servidor de mid-sourcing y desea instalar módulos adicionales de Adobe Campaign, recomendamos utilizar el módulo Delivery y no el módulo Campaign.
 
-   Siga el mismo procedimiento que para la implementación estándar, seleccionando solo la opción **[!UICONTROL Mid-sourcing platform]** .
+   Siga el mismo procedimiento que para la implementación estándar, seleccionando solo la variable **[!UICONTROL Mid-sourcing platform]** .
 
    ![](assets/s_ncs_install_midsourcing01.png)
 
 1. Configuración para recibir en modo intermediario
 
-   Establezca la contraseña de la cuenta de envío: En la carpeta **/Mid-sourcing/Access Management/Operators/**, la instancia remota utiliza el operador **mid** para los envíos en modo intermediario. Debe establecer una contraseña para este operador y proporcionarla al administrador de la instancia de envío.
+   Establezca la contraseña de la cuenta de envío: En el **/Mid-sourcing/Access Management/Operators/** carpeta, **mid** La instancia remota utiliza el operador para los envíos en modo intermediario. Debe establecer una contraseña para este operador y proporcionarla al administrador de la instancia de envío.
 
-   La opción **Mid-sourcing platform** crea las carpetas predeterminadas para almacenar los envíos enviados y el operador predeterminado que realiza los envíos.
+   La variable **Mid-sourcing platform** crea las carpetas predeterminadas para almacenar los envíos enviados y el operador predeterminado que realiza los envíos.
 
 ## Multiplexación del servidor intermediario {#multiplexing-the-mid-sourcing-server}
 
@@ -106,8 +106,8 @@ Desde la consola del cliente, busque el **Email routing using mid-sourcing** mid
 
 Es posible que varias instancias de envío compartan una instancia de mid-sourcing. Cada una de estas instancias debe estar asociada a un operador en la base de datos intermediaria. Para crear una segunda cuenta en el servidor de mid-sourcing:
 
-1. Cree una carpeta en el nodo **[!UICONTROL Mid-sourcing > Deliveries]** que se asociará con la cuenta de mid-sourcing predeterminada (por ejemplo: prod).
-1. Cree una carpeta en el nodo **[!UICONTROL Mid-sourcing > Deliveries]** con el mismo nombre que la cuenta (por ejemplo: accept_test).
+1. Cree una carpeta en la **[!UICONTROL Mid-sourcing > Deliveries]** nodo que se asociará con la cuenta de mid-sourcing predeterminada (por ejemplo: prod).
+1. Cree una carpeta en la **[!UICONTROL Mid-sourcing > Deliveries]** nodo con el mismo nombre que la cuenta (por ejemplo: accept_test).
 
    ![](assets/mid_recette_account.png)
 
@@ -115,15 +115,15 @@ Es posible que varias instancias de envío compartan una instancia de mid-sourci
 
    ![](assets/mid_recette_user_create.png)
 
-1. En la pestaña **[!UICONTROL Access rights]**, otorgue a este operador los derechos del grupo **Mid-sourcing deliveries**. Este derecho de acceso está disponible en **[!UICONTROL Mid-sourcing > Access Management > Operator groups]**.
+1. En el **[!UICONTROL Access rights]** , asigne a este operador los derechos de **Suministros intermedios** grupo. Este derecho de acceso está disponible en **[!UICONTROL Mid-sourcing > Access Management > Operator groups]**.
 
    ![](assets/mid_recette_user_rights.png)
 
-1. Seleccione la opción **[!UICONTROL Restrict to data in the sub-folders of]** y seleccione la carpeta de envíos para restringir este operador a la carpeta de envíos intermediarios.
+1. Seleccione el **[!UICONTROL Restrict to data in the sub-folders of]** y seleccione la carpeta deliveries para restringir este operador a la carpeta mid-sourcing deliveries .
 
    ![](assets/mid_recette_user_restrictions.png)
 
-1. Reinicie el módulo web con el siguiente comando: **nlserver reinicie web**.
+1. Reinicie el módulo web con el siguiente comando: **nlserver restart web**.
 
 Debe cambiar la configuración del servidor intermediario en el archivo serverConf.xml. La línea siguiente debe agregarse a la sección &quot;Administración de afinidades con direcciones IP&quot;, en la línea existente:
 
@@ -141,14 +141,14 @@ El atributo &#39;@name&#39; debe respetar las siguientes reglas:
 
 &#39;affinity_group&#39; hace referencia a la subafinidad declarada en la asignación de destino utilizada en cada una de las entregas. La última parte que incluye el se ignora si no hay subafinidad. Los caracteres autorizados son `[a-z]``[A-Z]``[0-9]`.
 
-Debe detener y, a continuación, reiniciar el servidor para que se tenga en cuenta la modificación.
+Debe detener y luego reiniciar el servidor para que se tenga en cuenta la modificación.
 
 ## Configuración del seguimiento en un servidor intermediario {#configuring-tracking-on-a-mid-sourcing-server}
 
 **Configuración del servidor intermediario**
 
 1. Vaya a &quot;operadores&quot; y seleccione el operador **[!UICONTROL mid]**.
-1. En la pestaña **[!UICONTROL Frontal servers]**, introduzca los parámetros de conexión del servidor de seguimiento.
+1. En el **[!UICONTROL Frontal servers]** , introduzca los parámetros de conexión del servidor de seguimiento.
 
    Para crear una instancia de seguimiento, introduzca la URL del servidor de seguimiento, la contraseña de la cuenta interna del servidor de seguimiento y el nombre de la instancia, su contraseña y las máscaras DNS asociadas a ella.
 
@@ -164,19 +164,19 @@ Debe detener y, a continuación, reiniciar el servidor para que se tenga en cuen
 **Configuración de la plataforma del cliente**
 
 1. Vaya a la cuenta de enrutamiento intermediario externa.
-1. En la pestaña **[!UICONTROL Mid-Sourcing]**, especifique los parámetros de conexión del servidor de mid-sourcing.
+1. En el **[!UICONTROL Mid-Sourcing]** , especifique los parámetros de conexión del servidor intermediario.
 
    ![](assets/s_ncs_install_midsourcing_tracking06.png)
 
 1. Confirme la configuración haciendo clic en **[!UICONTROL Test the connection]**.
 1. Declare la instancia de seguimiento a la que se hace referencia en el servidor intermediario:
 
-   Haga clic en el enlace **[!UICONTROL Use this platform as a proxy to access the tracking servers]**,
+   Haga clic en el vínculo **[!UICONTROL Use this platform as a proxy to access the tracking servers]**,
 
    Especifique el nombre de la instancia de seguimiento y, a continuación, confirme la conexión con el servidor de seguimiento.
 
    ![](assets/s_ncs_install_midsourcing_tracking05.png)
 
-Si varios servidores intermediarios van a administrar el envío de mensajes, seleccione la opción **[!UICONTROL Routing with alternating mid-sourcing accounts]** y especifique los diferentes servidores.
+Si varios servidores intermediarios van a administrar la entrega de mensajes, seleccione la opción **[!UICONTROL Routing with alternating mid-sourcing accounts]** y especifique los diferentes servidores.
 
 ![](assets/s_ncs_install_midsourcing_tracking04.png)

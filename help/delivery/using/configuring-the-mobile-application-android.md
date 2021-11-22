@@ -10,7 +10,7 @@ internal: n
 snippet: y
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 100%
 
@@ -171,7 +171,7 @@ A continuación se muestran los nombres de carga útil de FCM para personalizar 
 
 | Tipo de mensaje | Elemento de mensaje configurable (nombre de carga útil de FCM) | Opciones configurables (nombre de carga útil de FCM) |
 |:-:|:-:|:-:|
-| mensaje de datos | N/A | dryRun |
+| mensaje de datos | N/D | dryRun |
 | mensaje de notificación | title, body, android_channel_id, icon, sound, tag, color, click_action <br> | dryRun |
 
 <br>

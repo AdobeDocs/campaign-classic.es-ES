@@ -39,9 +39,9 @@ _operation (cadena), avanzado (booleano), aplicableIf (cadena), autoIncrement (b
 
 ## Uso y contexto de uso {#use-and-context-of-use}
 
-`<attribute>` Los elementos deben declararse en un  `<element>` elemento.
+`<attribute>` Los elementos deben declararse en una `<element>` elemento.
 
-La secuencia en la que se definen los elementos `<attribute>` en un `<srcschema>` no afecta a la secuencia de creación de campos en la base de datos. La secuencia de creación será alfabética.
+Secuencia en la que `<attribute>` los elementos se definen en una `<srcschema>` no afecta a la secuencia de creación de campos de la base de datos. La secuencia de creación será alfabética.
 
 ## Descripción del atributo {#attribute-description}
 
@@ -58,9 +58,9 @@ La secuencia en la que se definen los elementos `<attribute>` en un `<srcschema>
    * &quot;eliminar&quot;: eliminación. Esto significa que Adobe Campaign recuperará y eliminará los elementos.
 
 * **avanzado (booleano)**: cuando esta opción está activada (@advanced=&quot;true&quot;), permite ocultar el atributo en la lista de campos disponibles accesibles para configurar una lista en un formulario.
-* **applyIf (cadena)**: este atributo permite hacer que los campos sean opcionales. El elemento `<attribute>` se tendrá en cuenta al actualizar la base de datos cuando se cumpla la restricción. &quot;applyIf&quot; recibe una expresión XTK.
+* **applyIf (cadena)**: este atributo permite hacer que los campos sean opcionales. La variable `<attribute>` se tiene en cuenta al actualizar la base de datos cuando se cumple la restricción. &quot;applyIf&quot; recibe una expresión XTK.
 * **autoIncrement (booleano)**: si esta opción está activada, el campo se convierte en contador. Esto le permite incrementar un valor (principalmente ID). (uso externo)
-* **perteneceTo (cadena)**: toma el nombre y el área de nombres de la tabla que comparte el campo y rellena el esquema donde se declara el atributo. (usado solo en un `<schema>`).
+* **delegateTo (cadena)**: toma el nombre y el área de nombres de la tabla que comparte el campo y rellena el esquema donde se declara el atributo. (se usa solo en una `<schema>`).
 * **dataPolicy (cadena)**: permite especificar restricciones de aprobación en valores permitidos en el campo SQL o XML. Los valores de este atributo son:
 
    * &quot;ninguno&quot;: sin valor
@@ -72,9 +72,9 @@ La secuencia en la que se definen los elementos `<attribute>` en un `<srcschema>
    * &quot;identificador&quot;: nombre del identificador
    * &quot;resIdentifier&quot;: nombre de archivo
 
-* **dbEnum (cadena)**: recibe el nombre interno de una enumeración &quot;cerrada&quot;. Los valores de enumeración deben definirse en `<srcschema>`.
+* **dbEnum (cadena)**: recibe el nombre interno de una enumeración &quot;cerrada&quot;. Los valores de enumeración deben definirse en la variable `<srcschema>`.
 * **defOnDuplicate (booleano)**: si este atributo está activado, cuando se duplica un registro, el valor predeterminado (definido en @default) se vuelve a aplicar automáticamente al registro.
-* **predeterminado (cadena)**: permite definir el valor del campo predeterminado (llamada a una función, valor predeterminado). Este atributo recibe una expresión XTK.
+* **default (cadena)**: permite definir el valor del campo predeterminado (llamada a una función, valor predeterminado). Este atributo recibe una expresión XTK.
 * **desc (cadena)**: permite insertar una descripción del atributo. Esta descripción se muestra en la barra de estado de la interfaz.
 * **editar (cadena)**: este atributo especifica el tipo de entrada que se utilizará en el formulario vinculado al esquema.
 * **enum (cadena)**: recibe el nombre de la enumeración vinculada al campo. La enumeración puede insertarse en el mismo esquema o en un esquema remoto.
@@ -98,7 +98,7 @@ La secuencia en la que se definen los elementos `<attribute>` en un `<srcschema>
 * **label (cadena)**: etiqueta vinculada al campo, principalmente destinada al usuario en la interfaz de . Permite evitar restricciones de nombres.
 * **length (string)**: max. número de caracteres para un valor del campo SQL de tipo &quot;cadena&quot;. Si no se especifica el atributo &quot;@length&quot;, Adobe Campaign crea automáticamente un campo para 255 caracteres.
 * **localizable (booleano)**: si está activado, este atributo indica a la herramienta de recopilación que recupere el valor del atributo &quot;@label&quot; para la traducción (uso interno).
-* **nombre (MNTOKEN)**: nombre del atributo que coincidirá con el nombre del campo de la tabla. El valor del atributo &quot;@name&quot; debe ser corto, preferiblemente en inglés, y cumplir con las restricciones de nomenclatura XML.
+* **name (MNTOKEN)**: nombre del atributo que coincidirá con el nombre del campo de la tabla. El valor del atributo &quot;@name&quot; debe ser corto, preferiblemente en inglés, y cumplir con las restricciones de nomenclatura XML.
 
    Cuando se escribe el esquema en la base de datos, Adobe Campaign agrega automáticamente los prefijos al nombre del campo:
 
@@ -116,12 +116,12 @@ La secuencia en la que se definen los elementos `<attribute>` en un `<srcschema>
    * &quot;never&quot;: nunca presente
    * &quot;predeterminado (o nada)&quot;: el valor se exporta excepto si es el valor predeterminado o si no es un campo interno que no sea compatible con otras instancias.
 
-* **ref (cadena)**: este atributo define una referencia a un  `<attribute>` elemento compartido por varios esquemas (factorización de definición). La definición no se copia en el esquema actual.
+* **ref (cadena)**: este atributo define una referencia a un `<attribute>` elemento compartido por varios esquemas (factorización de definición). La definición no se copia en el esquema actual.
 * **obligatorio (booleano)**: si este atributo está activado (@required=&quot;true&quot;), el campo se resalta en la interfaz. La etiqueta del campo aparece en rojo en los formularios.
 * **sql (booleano)**: si este atributo está activado (@sql=&quot;true&quot;), fuerza el almacenamiento del atributo SQL, incluso cuando el elemento que contiene el atributo tiene la propiedad xml=&quot;true&quot;.
 * **sqlDefault (cadena)**: este atributo permite definir el valor predeterminado que se tiene en cuenta para actualizar la base de datos si el atributo @notNull está activado. Si este atributo se agrega después de la creación del atributo, el comportamiento del esquema no cambiará ni siquiera para los nuevos registros. Para cambiar el esquema y actualizar el valor de los registros nuevos, debe eliminar y volver a crear el atributo.
 * **sqlname (cadena)**: del campo durante la creación de la tabla. Si no se especifica @sqlname, el valor del atributo &quot;@name&quot; se utiliza de forma predeterminada. Cuando se escribe el esquema en la base de datos, los prefijos se añaden automáticamente según el tipo de campo.
-* **plantilla (cadena)**: este atributo define una referencia a un  `<attribute>` elemento compartido por varios esquemas. La definición se copia automáticamente en el esquema actual.
+* **plantilla (cadena)**: este atributo define una referencia a un `<attribute>` elemento compartido por varios esquemas. La definición se copia automáticamente en el esquema actual.
 * **translateDefault (cadena)**: si se encuentra un atributo &quot;@default&quot;, &quot;@translateDefault&quot; le permitirá redefinir una expresión que coincida con la definida en @default, que la herramienta de traducción (uso interno) recopilará.
 * **translateExpr (cadena)**: si hay un atributo &quot;@expr&quot; presente, el atributo &quot;@translateExpr&quot; le permite redefinir una expresión que coincida con la definida en @expr, que la herramienta de traducción (uso interno) recopilará.
 * **tipo (MNTOKEN)**: tipo de campo.

@@ -45,7 +45,7 @@ Este elemento permite definir un índice vinculado a una tabla.
 
 Es posible definir varios índices. Un índice puede hacer referencia a uno o varios campos de la tabla. La declaración de índice suele seguir la definición del elemento de esquema principal.
 
-El orden de los `<keyfield>` elementos definidos en un `<dbindex>` es muy importante. El primer `<keyfield>` debe ser el criterio de indexación en el que se basan principalmente las consultas.
+El orden de las variables `<keyfield>` elementos definidos en un `<dbindex>` es muy importante. La primera `<keyfield>` debe ser el criterio de indexación en el que se basan principalmente las consultas.
 
 El nombre del índice en la base de datos se calcula concatenando el nombre de la tabla y el nombre del índice. Por ejemplo: Nombre de tabla &quot;Ejemplo&quot;, Área de nombres &quot;Cus&quot;, nombre de índice &quot;MyIndex&quot;-> nombre del campo de índice durante la consulta de creación de índice: &quot;CusSample_myIndex&quot;.
 
@@ -65,12 +65,12 @@ El nombre del índice en la base de datos se calcula concatenando el nombre de l
 
 * **applyIf (cadena)**: condición para tener en cuenta el índice: recibe una expresión XTK.
 * **label (cadena)**: etiqueta de índice.
-* **nombre (MNTOKEN)**: nombre de índice único.
+* **name (MNTOKEN)**: nombre de índice único.
 * **único (booleano)**: si esta opción está activada (@unique=&quot;true&quot;), el atributo garantiza la exclusividad del índice en todos sus campos.
 
 ## Ejemplos {#examples-3}
 
-Creación de un índice en el campo &quot;id&quot;. (el atributo &quot;@unique&quot; en el elemento `<dbindex>` déclencheur que agregan la palabra clave SQL &quot;ÚNICA&quot; cuando el índice se crea en la base de datos (consulta)).
+Creación de un índice en el campo &quot;id&quot;. (el atributo &quot;@unique&quot; de la variable `<dbindex>` déclencheur de elemento añadir la palabra clave SQL &quot;ÚNICA&quot; cuando el índice se crea en la base de datos (consulta).
 
 ```
 <element label="Sample" name="Sample">

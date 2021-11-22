@@ -54,12 +54,12 @@ La &quot;@library&quot; es necesaria para declarar un nuevo método (no nativo):
 
 ## Descripción del atributo {#attribute-description-10}
 
-* **acceso (cadena)**: este atributo define el control de acceso para el uso del método . Si falta este atributo, la identificación es obligatoria. Los valores disponibles son: &#39;anonymous&#39;, &#39;admin&#39; y &#39;sql&#39;.
+* **access (cadena)**: este atributo define el control de acceso para el uso del método . Si falta este atributo, la identificación es obligatoria. Los valores disponibles son: &#39;anonymous&#39;, &#39;admin&#39; y &#39;sql&#39;.
 * **const (booleano)**: si está activado, este atributo significa que el método declarado alterará la entidad
 * **label (cadena)**: etiqueta del método .
-* **biblioteca (cadena)**: este método no es nativo de la aplicación. Este atributo toma el valor de la biblioteca de métodos donde se encuentra la definición del método (nms:mylibrary.js).
-* **nombre (MNTOKEN)**: nombre de método único.
-* **estático (booleano)**: si este atributo está activado, el método se considera autónomo, se deben especificar todos los parámetros del método cuando se llame a él.
+* **library (string)**: este método no es nativo de la aplicación. Este atributo toma el valor de la biblioteca de métodos donde se encuentra la definición del método (nms:mylibrary.js).
+* **name (MNTOKEN)**: nombre de método único.
+* **static (booleano)**: si este atributo está activado, el método se considera autónomo, se deben especificar todos los parámetros del método cuando se llame a él.
 
 ## Ejemplos {#examples-7}
 

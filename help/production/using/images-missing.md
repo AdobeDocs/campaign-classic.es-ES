@@ -23,11 +23,11 @@ Para los clientes alojados, no hay ningún impacto. Para las instalaciones in si
 
 **Usuarios de Apache:**
 
-Los usuarios de Apache no se verán afectados si utilizan el **apache_neolane.conf** proporcionado.
+Los usuarios de Apache no se verán afectados si utilizan la variable proporcionada **apache_neolane.conf**.
 
 **Usuarios de IIS:**
 
 Para los usuarios de IIS (en Windows), aparecerán varios iconos en la consola tras la actualización de la compilación. Se requieren pasos adicionales de actualización de IIS:
 
-1. Después de la actualización de la compilación, haga doble clic en **iis_neolane_setup.vbs**, ubicado en el directorio de instalación de Campaign. La ruta predeterminada es C:\Program Files (x86)\Adobe\Adobe Campaign v7\conf
+1. Después de la actualización de la compilación, haga doble clic en **iis_neolane_setup.vbs** ubicado en el directorio de instalación de Campaign. La ruta predeterminada es C:\Program Files (x86)\Adobe\Adobe Campaign v7\conf
 1. Reinicie el sitio IIS que se actualizó en el paso anterior.

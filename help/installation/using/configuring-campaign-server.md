@@ -21,9 +21,9 @@ En este capítulo se detallan las configuraciones del lado del servidor que se p
 
 ## Restricciones
 
-Estos procedimientos están restringidos a **implementaciones locales**/**híbridas** y requieren permisos de administración.
+Estos procedimientos se limitan a **local**/**híbrido** y requieren permisos de administración.
 
-Para implementaciones **alojadas**, la configuración del lado del servidor solo se puede configurar mediante Adobe. Sin embargo, algunas configuraciones se pueden configurar dentro de [Panel de control de Campaign de campaña](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es), como administración de listas de permitidos IP o permisos de URL. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=es).
+Para **alojado** implementaciones, la configuración del lado del servidor solo se puede configurar mediante Adobe. Sin embargo, algunos ajustes se pueden configurar en  [Panel de control de Campaign de campaña](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es), como administración de listas de permitidos IP o permisos de URL. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=es).
 
 Para obtener más información, consulte estas secciones:
 
@@ -33,25 +33,25 @@ Para obtener más información, consulte estas secciones:
 
 ## Archivos de configuración
 
-Los archivos de configuración del Campaign Classic se almacenan en la carpeta **conf** de la carpeta de instalación de Adobe Campaign. La configuración se distribuye en dos archivos:
+Los archivos de configuración del Campaign Classic se almacenan en la variable **conf** carpeta de la carpeta de instalación de Adobe Campaign. La configuración se distribuye en dos archivos:
 
-* **serverConf.xml**: configuración general para todas las instancias. Este archivo combina los parámetros técnicos del servidor Adobe Campaign: todas las instancias las comparten. A continuación se detalla la descripción de algunos de estos parámetros. Los diferentes nodos y parámetros y enumerados en esta [sección](../../installation/using/the-server-configuration-file.md).
-* **config-`<instance>`.xml**  (donde  **** instance es el nombre de la instancia): configuración específica de la instancia. Si comparte el servidor entre varias instancias, introduzca los parámetros específicos de cada instancia en su archivo correspondiente.
+* **serverConf.xml**: configuración general para todas las instancias. Este archivo combina los parámetros técnicos del servidor Adobe Campaign: todas las instancias las comparten. A continuación se detalla la descripción de algunos de estos parámetros. Los diferentes nodos y parámetros enumerados en esta [sección](../../installation/using/the-server-configuration-file.md).
+* **config-`<instance>`.xml** (donde **instancia** es el nombre de la instancia): configuración específica de la instancia. Si comparte el servidor entre varias instancias, introduzca los parámetros específicos de cada instancia en su archivo correspondiente.
 
 ## Ámbito de configuración
 
 Configure o adapte el servidor de Campaign según sus necesidades y configuración. Puede hacer lo siguiente:
 
-* Asegurar el [identificador interno](#internal-identifier)
+* Proteja el [Identificador interno](#internal-identifier)
 * Habilitar [Procesos de campaña](#enabling-processes)
 * Configurar [Permisos de URL](url-permissions.md)
 * Definir [Zonas de seguridad](security-zones.md)
-* Configurar [configuración de Tomcat](configure-tomcat.md)
-* Personalizar [Parámetros de envío](configure-delivery-settings.md)
-* Definir [seguridad de página dinámica y relés](#dynamic-page-security-and-relays)
+* Configurar [Configuración de Tomcat](configure-tomcat.md)
+* Personalizar [Parámetros de entrega](configure-delivery-settings.md)
+* Definir [Seguridad y relés de página dinámicos](#dynamic-page-security-and-relays)
 * Restringir la lista de [Comandos externos permitidos](#restricting-authorized-external-commands)
-* Configurar [Seguimiento redundante](#redundant-tracking)
-* Administrar [Afinidades de alta disponibilidad y flujo de trabajo](#high-availability-workflows-and-affinities)
+* Configuración [Seguimiento redundante](#redundant-tracking)
+* Administrar [Alta disponibilidad y afinidades de flujo de trabajo](#high-availability-workflows-and-affinities)
 * Configurar la administración de archivos: [Más información](file-res-management.md)
    * Limitar el formato de los archivos de carga
    * Habilitar el acceso a los recursos públicos
@@ -61,7 +61,7 @@ Configure o adapte el servidor de Campaign según sus necesidades y configuraci�
 
 ## Identificador interno {#internal-identifier}
 
-El identificador **internal** es un inicio de sesión técnico que se utilizará con fines de instalación, administración y mantenimiento. Este inicio de sesión no está asociado a una instancia.
+La variable **internal** identificador es un inicio de sesión técnico que se utiliza con fines de instalación, administración y mantenimiento. Este inicio de sesión no está asociado a una instancia.
 
 Los operadores conectados mediante este inicio de sesión tendrán todos los derechos en todas las instancias. Este inicio de sesión no tendrá contraseña en el caso de una nueva instalación. Debe definir manualmente esta contraseña.
 
@@ -85,15 +85,15 @@ Confirmation: XXXX
 
 ## Habilitar procesos {#enabling-processes}
 
-Los procesos de Adobe Campaign en el servidor están habilitados (y deshabilitados) a través de los archivos **config-default.xml** y **`config-<instance>.xml`** .
+Los procesos de Adobe Campaign en el servidor están habilitados (y deshabilitados) mediante la variable **config-default.xml** y **`config-<instance>.xml`** archivos.
 
-Para aplicar los cambios a estos archivos, si se inicia el servicio de Adobe Campaign, debe ejecutar el comando **nlserver config -reload**.
+Para aplicar los cambios a estos archivos, si se inicia el servicio de Adobe Campaign, debe ejecutar el **nlserver config -reload** comando.
 
 Existen dos tipos de procesos: instancia múltiple y instancia única.
 
-* **varias instancias**: se inicia un solo proceso para todas las instancias. Este es el caso de los procesos **web**, **syslogd** y **trackinglogd**.
+* **varias instancias**: se inicia un solo proceso para todas las instancias. Este es el caso de **web**, **syslogd** y **trackinglogd** procesos.
 
-   La habilitación se puede configurar desde el archivo **config-default.xml**.
+   La habilitación se puede configurar desde el **config-default.xml** archivo.
 
    Declaración de un servidor de Adobe Campaign para acceder a las consolas de cliente y para la redirección (seguimiento):
 
@@ -104,9 +104,9 @@ Existen dos tipos de procesos: instancia múltiple y instancia única.
    <trackinglogd autoStart="true"/>
    ```
 
-   En este ejemplo, el archivo se edita mediante un comando **vi** en Linux. Se puede editar con cualquier editor **.txt** o **.xml**.
+   En este ejemplo, el archivo se edita mediante un **vi** en Linux. Se puede editar con cualquier **.txt** o **.xml** editor.
 
-* **instancia** mono: se inicia un proceso para cada instancia (módulos:  **mta**,  **wfserver**,  **inMail**,  **** smand  **stat**).
+* **mono-instancia**: se inicia un proceso para cada instancia (módulos: **mta**, **wfserver**, **inMail**, **sms** y **stat**).
 
    La habilitación se puede configurar utilizando el archivo de configuración de la instancia:
 
@@ -125,26 +125,26 @@ Existen dos tipos de procesos: instancia múltiple y instancia única.
 
 **Almacenamiento de datos de Campaign**
 
-Puede configurar el directorio de almacenamiento (directorio **var**) de datos de Adobe Campaign (registros, descargas, redirecciones, etc.). Para ello, utilice la variable del sistema **XTK_VAR_DIR**:
+Puede configurar el directorio de almacenamiento (**var** ) de datos de Adobe Campaign (registros, descargas, redirecciones, etc.). Para ello, utilice el **XTK_VAR_DIR** variable del sistema:
 
-* En Windows, indique el siguiente valor en la variable de sistema **XTK_VAR_DIR**
+* En Windows, indique el siguiente valor en la variable **XTK_VAR_DIR** variable del sistema
 
    ```
    D:\log\AdobeCampaign
    ```
 
-* En Linux, vaya al archivo **customer.sh** e indique: **exportar XTK_VAR_DIR=/app/log/AdobeCampaign**.
+* En Linux, vaya a la **customer.sh** e indique: **exportar XTK_VAR_DIR=/app/log/Adobe Campaign**.
 
-   Para obtener más información, consulte [Personalize parameters](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
+   Para obtener más información, consulte [Personalizar parámetros](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
 
 
 ## Seguridad y relés de página dinámicos {#dynamic-page-security-and-relays}
 
-De forma predeterminada, todas las páginas dinámicas están relacionadas automáticamente con el servidor **local** Tomcat del equipo cuyo módulo web se ha iniciado. Esta configuración se introduce en la sección **`<url>`** de la configuración de la retransmisión de consulta para el archivo **ServerConf.xml**.
+De forma predeterminada, todas las páginas dinámicas están relacionadas automáticamente con la variable **local** Servidor Tomcat del equipo cuyo módulo web se ha iniciado. Esta configuración se introduce en la variable **`<url>`** de la configuración de retransmisión de consulta para la **ServerConf.xml** archivo.
 
-Puede retransmitir la ejecución de la página dinámica en un servidor **remoto**; si el módulo web no está activado en el equipo. Para ello, debe reemplazar el **localhost** con el nombre del equipo remoto para JSP y JSSP, aplicaciones web, informes y cadenas.
+Puede retransmitir la ejecución de la página dinámica en un **remote** server; si el módulo web no está activado en el equipo. Para ello, debe reemplazar la variable **localhost** con el nombre del equipo remoto para JSP y JSSP, aplicaciones web, informes y cadenas.
 
-Para obtener más información sobre los distintos parámetros disponibles, consulte el archivo de configuración **serverConf.xml**.
+Para obtener más información sobre los distintos parámetros disponibles, consulte la **serverConf.xml** archivo de configuración.
 
 Para las páginas JSP, la configuración predeterminada es:
 
@@ -166,7 +166,7 @@ Los JSSP utilizados para el canal de aplicaciones móviles son los siguientes:
 
 **Ejemplo:**
 
-Es posible evitar las conexiones del equipo cliente desde el exterior. Para ello, simplemente limite la ejecución de **soaprouter.jsp** y autorice la ejecución de páginas espejo, vínculos virales, formularios web y recursos públicos.
+Es posible evitar las conexiones del equipo cliente desde el exterior. Para ello, simplemente restrinja la ejecución de **soaprouter.jsp** y solo autorice la ejecución de páginas espejo, enlaces virales, formularios web y recursos públicos.
 
 Los parámetros son los siguientes:
 
@@ -184,22 +184,22 @@ Los parámetros son los siguientes:
 <url IPMask=""               deny="true" hostMask="" relayHost="false" relayPath="false" targetUrl="http://localhost:8080" timeout="" urlPath="*.jssp"/>
 ```
 
-En este ejemplo, el valor **`<IP_addresses>`** coincide con la lista de direcciones IP (separadas por comas) autorizadas para utilizar el módulo de transmisión para esta máscara.
+En este ejemplo, la variable **`<IP_addresses>`** coincide con la lista de direcciones IP (separadas por comas) autorizadas para usar el módulo relay para esta máscara.
 
 >[!NOTE]
 >
->Los valores se adaptarán según su configuración y sus limitaciones de red, especialmente si se han desarrollado configuraciones específicas para su instalación.
+>Los valores se adaptarán según su configuración y las restricciones de red, especialmente si se han desarrollado configuraciones específicas para su instalación.
 
 ### Administrar encabezados HTTP {#managing-http-headers}
 
 De forma predeterminada, todos los encabezados HTTP no se retransmiten. Puede añadir encabezados específicos en las respuestas enviadas por relé. Para ello, haga lo siguiente:
 
-1. Vaya al archivo **serverConf.xml**.
-1. En el nodo **`<relay>`**, vaya a la lista de encabezados HTTP reenviados.
-1. Agregue un elemento **`<responseheader>`** con los siguientes atributos:
+1. Vaya a la **serverConf.xml** archivo.
+1. En el **`<relay>`** , vaya a la lista de encabezados HTTP reenviados.
+1. Agregue un **`<responseheader>`** con los siguientes atributos:
 
-   * **nombre**: nombre de encabezado
-   * **valor**: nombre del valor.
+   * **name**: nombre de encabezado
+   * **value**: nombre del valor.
 
    Por ejemplo:
 
@@ -230,9 +230,9 @@ sh
 >
 >Esta lista no es exhaustiva.
 
-En el nodo **exec** del archivo de configuración del servidor, debe hacer referencia al archivo creado anteriormente en el atributo **blacklistFile**.
+En el **exec** del archivo de configuración del servidor, debe hacer referencia al archivo creado anteriormente en la variable **blacklistFile** atributo.
 
-**Solo** para Linux: en el archivo de configuración del servidor, se recomienda especificar un usuario dedicado a ejecutar comandos externos para mejorar la configuración de seguridad. Este usuario se establece en el nodo **exec** del archivo de configuración. Todos los parámetros disponibles en **serverConf.xml** se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
+**Solo para Linux**: en el archivo de configuración del servidor, se recomienda especificar un usuario dedicado a ejecutar comandos externos para mejorar la configuración de seguridad. Este usuario se configura en la variable **exec** del archivo de configuración. Todos los parámetros disponibles en la **serverConf.xml** aparecen en esta lista [sección](../../installation/using/the-server-configuration-file.md).
 
 >[!NOTE]
 >
@@ -261,7 +261,7 @@ Cuando se utilizan varios servidores para la redirección, deben poder comunicar
 >
 >Cuando se utiliza la arquitectura estándar o empresarial, se debe autorizar al servidor de aplicaciones principal para que cargue información de seguimiento en cada equipo.
 
-Las direcciones URL de los servidores redundantes deben especificarse en la configuración de redirección, a través del archivo **serverConf.xml**.
+Las direcciones URL de los servidores redundantes deben especificarse en la configuración de redirección, a través del **serverConf.xml** archivo.
 
 **Ejemplo:**
 
@@ -270,7 +270,7 @@ Las direcciones URL de los servidores redundantes deben especificarse en la conf
 <spareserver enabledIf="$(hostname)!='front_srv2'" id="2" url="http://front_srv2:8080" />
 ```
 
-La propiedad **enableIf** es opcional (vacía de forma predeterminada) y le permite habilitar la conexión solo si el resultado es true. Esto permite obtener una configuración idéntica en todos los servidores de redirección.
+La variable **enableIf** es opcional (vacío de forma predeterminada) y le permite activar la conexión solo si el resultado es true. Esto permite obtener una configuración idéntica en todos los servidores de redirección.
 
 Para obtener el nombre de host del equipo, ejecute el siguiente comando: **hostname -s**.
 
@@ -280,13 +280,13 @@ Para obtener el nombre de host del equipo, ejecute el siguiente comando: **hostn
 
 Puede configurar varios servidores de flujo de trabajo (wfserver) y distribuirlos en dos o más equipos. Si elige este tipo de arquitectura, configure el modo de conexión de los equilibradores de carga según el acceso de Adobe Campaign.
 
-Para acceder desde la web, seleccione el modo **equilibrador de carga** para limitar los tiempos de conexión.
+Para acceder desde la web, seleccione la opción **equilibrador de carga** para limitar los tiempos de conexión.
 
-Si accede a través de la consola de Adobe Campaign, elija el modo **hash** o **ip adhesiva**. Esto permite mantener la conexión entre el cliente enriquecido y el servidor e impedir que se interrumpa una sesión de usuario durante una operación de importación o exportación, por ejemplo.
+Si accede a través de la consola de Adobe Campaign, elija **hash** o **ip adhesiva** en el menú contextual. Esto permite mantener la conexión entre el cliente enriquecido y el servidor e impedir que se interrumpa una sesión de usuario durante una operación de importación o exportación, por ejemplo.
 
 Puede optar por forzar la ejecución de un flujo de trabajo o una actividad de flujo de trabajo en un equipo concreto. Para ello, debe definir una o más afinidades para el flujo de trabajo o la actividad correspondientes.
 
-1. Cree las afinidades del flujo de trabajo o la actividad introduciéndolas en el campo **[!UICONTROL Affinity]** .
+1. Cree las afinidades del flujo de trabajo o la actividad introduciéndolas en la variable **[!UICONTROL Affinity]** campo .
 
    Puede elegir cualquier nombre de afinidad, pero asegúrese de no utilizar espacios ni signos de puntuación. Si utiliza servidores diferentes, especifique nombres diferentes.
 
@@ -296,8 +296,8 @@ Puede optar por forzar la ejecución de un flujo de trabajo o una actividad de f
 
    La lista desplegable contiene afinidades que antes se usaban. Se completa con el tiempo con los diferentes valores introducidos.
 
-1. Abra el archivo **nl6/conf/config-`<instance>.xml`**.
-1. Modifique la línea que coincida con el módulo **[!UICONTROL wfserver]** de la siguiente manera:
+1. Abra el **nl6/conf/config-`<instance>.xml`** archivo.
+1. Modifique la línea que coincida con el **[!UICONTROL wfserver]** como se indica a continuación:
 
    ```
    <wfserver autoStart="true" affinity="XXX,"/>
@@ -323,9 +323,9 @@ De forma predeterminada, los diferentes procesos de Adobe Campaign se reinician 
 
 Sin embargo, puede cambiar esta configuración.
 
-Para ello, vaya al archivo **serverConf.xml**, ubicado en el repositorio **conf** de la instalación.
+Para ello, vaya a la **serverConf.xml** archivo, ubicado en la variable **conf** repositorio de la instalación.
 
-Cada proceso configurado en este archivo tiene un atributo **processRestartTime**. Puede modificar el valor de este atributo para adaptar el tiempo de reinicio de cada proceso según sus necesidades.
+Cada proceso configurado en este archivo tiene un **processRestartTime** atributo. Puede modificar el valor de este atributo para adaptar el tiempo de reinicio de cada proceso según sus necesidades.
 
 >[!IMPORTANT]
 >

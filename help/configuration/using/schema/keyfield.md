@@ -41,7 +41,7 @@ Este elemento define los campos que se van a integrar en un índice o una clave.
 ## Descripción del atributo {#attribute-description-9}
 
 * **xlink (MNTOKEN)**: permite hacer referencia automáticamente a claves externas definidas en la unión para una tabla de relación (vínculo N-N).
-* **xpath (MNTOKEN)**: definición de un índice o una clave en un  `<attribute>`  elemento. Este atributo recibe una Xpath que define la ruta al atributo schema que define la clave o el índice.
+* **xpath (MNTOKEN)**: definición de un índice o una clave en una `<attribute>`  elemento. Este atributo recibe una Xpath que define la ruta al atributo schema que define la clave o el índice.
 
 ## Ejemplos {#examples-}
 

@@ -29,7 +29,7 @@ Las características de un esquema que hace referencia a una tabla existente son
 
 ## El atributo view {#the-view-attribute}
 
-Los esquemas de origen aceptan el atributo **view** para el elemento raíz **srcSchema**. Debe utilizarse cuando Adobe Campaign se manipula en tablas personalizadas. El atributo **view=&quot;true&quot;** indica al asistente de actualización de la estructura de la base de datos que ignore este esquema. Por lo tanto, se prohíbe a la aplicación sincronizar la tabla, sus columnas y sus índices con el esquema correspondiente.
+Los esquemas de origen aceptan la variable **ver** para la variable **srcSchema** elemento raíz. Debe utilizarse cuando Adobe Campaign se manipula en tablas personalizadas. La variable **view=&quot;true&quot;** indica al asistente de actualización de la estructura de la base de datos que ignore este esquema. Por lo tanto, se prohíbe a la aplicación sincronizar la tabla, sus columnas y sus índices con el esquema correspondiente.
 
 Cuando este atributo se establece en **true**, el esquema solo se utiliza para generar consultas SQL para acceder a los datos de esta tabla.
 
@@ -37,8 +37,8 @@ Cuando este atributo se establece en **true**, el esquema solo se utiliza para g
 
 Cuando el asistente de actualización de tablas crea tablas, los nombres de las tablas y las columnas se generan automáticamente en función de los nombres de los esquemas y atributos respectivos. Sin embargo, es posible forzar los nombres SQL que se van a utilizar introduciendo los siguientes atributos:
 
-* **** sqltabledentro del elemento principal del esquema, para especificar la tabla,
-* **** nombreSQL en cada atributo para especificar las columnas.
+* **sqltable** dentro del elemento principal del esquema, para especificar la tabla,
+* **sqlname** dentro de cada atributo, para especificar las columnas.
 
 **Ejemplo**:
 
@@ -77,7 +77,7 @@ En un esquema, un índice se define de la siguiente manera:
 
 Por eso es importante declarar los índices existentes de la tabla personalizada en el esquema coincidente.
 
-Se declara implícitamente un índice para cada declaración de clave y vínculo del esquema de origen. La declaración de índice se puede evitar especificando el atributo **noDbIndex=&quot;true&quot;**:
+Se declara implícitamente un índice para cada declaración de clave y vínculo del esquema de origen. La declaración de índice se puede evitar especificando la variable **noDbIndex=&quot;true&quot;** atributo:
 
 **Ejemplo**:
 

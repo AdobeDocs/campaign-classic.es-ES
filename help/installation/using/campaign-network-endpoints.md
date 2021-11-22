@@ -21,7 +21,7 @@ Estos son los diferentes extremos utilizados en el Campaign Classic.
 
 | Contexto | URL |
 |--- |--- |
-| Puntos finales del explorador | `https://*.experiencecloud.adobe.com` (Proveedor de SSO)<br>`https://*.campaign.adobe.com`  (instancia de Campaign)<br>`https://adobeid-na1.services.adobe.com`  (inicio de sesión en el Adobe) |
+| Puntos finales del explorador | `https://*.experiencecloud.adobe.com` (proveedor SSO)<br>`https://*.campaign.adobe.com` (Instancia de Campaign)<br>`https://adobeid-na1.services.adobe.com` (inicio de sesión en el Adobe) |
 | Informes de capacidad de entrega | `https://deliverablity.neolane.net` |
 | Renderización de la bandeja de entrada (Litmus) | `https://deliverability-app.neolane.net/deliverability` |
 | URL de personalización, páginas espejo, seguimiento, archivo (asistente de implementación) | Compruebe las direcciones URL configuradas por usted. |

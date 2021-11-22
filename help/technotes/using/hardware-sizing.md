@@ -2,7 +2,8 @@
 product: campaign
 title: Recomendaciones de tamaño de hardware para Campaign Classic v7
 description: Recomendaciones de tamaño de hardware para Campaign Classic v7
-source-git-commit: 0deb18bb0376fc5e94d063145280426ff54db786
+exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
+source-git-commit: ee296e0ce25570d1fe62238e505f978df17c1f24
 workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 1%
@@ -17,9 +18,9 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Este artículo se proporciona únicamente como guía de ejemplo general. Debe ponerse en contacto con el administrador de éxito de los clientes de Adobe Campaign para medir el tamaño exacto de la implementación antes de iniciar el proyecto de Campaign. **No** adquiera ni implemente ninguna infraestructura o hardware hasta que esto se haga.
+>Este artículo se proporciona únicamente como guía de ejemplo general. Debe ponerse en contacto con el administrador de éxito de los clientes de Adobe Campaign para medir el tamaño exacto de la implementación antes de iniciar el proyecto de Campaign. **No** adquiera o implemente cualquier infraestructura o hardware hasta que esto se haga.
 
-Este documento proporciona recomendaciones generales para la implementación de Adobe Campaign Classic v7 en su centro de datos local o entorno de nube virtualizado. Este tipo de implementación, denominada **hybrid** o **mid-sourcing**, coloca la instancia de marketing de Campaign y la base de datos de marketing bajo su control operativo, mientras utiliza los servicios de mensajería de Adobe Cloud para enviar correos electrónicos, SMS o mensajes SMPP, y recopilar datos de seguimiento de aperturas, devoluciones y clics de correos electrónicos.
+Este documento proporciona recomendaciones generales para la implementación de Adobe Campaign Classic v7 en su centro de datos local o entorno de nube virtualizado. Este tipo de implementación, denominado **híbrido** o **intermediario**, coloca la instancia de marketing de Campaign y la base de datos de marketing bajo su control operativo, mientras utiliza los servicios de mensajería de Adobe Cloud para enviar correos electrónicos, mensajes SMS o SMPP y recopilar datos de seguimiento de aperturas, devoluciones y clics por correo electrónico.
 
 La instancia de marketing es la parte de la arquitectura de Adobe Campaign que impulsa toda la actividad de marketing y almacena todos los datos de destinatario y los datos de análisis devueltos por las campañas. La instancia de marketing es un conjunto de servidores locales que ejecutan servicios de Adobe Campaign y una base de datos relacional.
 
@@ -27,16 +28,16 @@ La instancia de marketing es la parte de la arquitectura de Adobe Campaign que i
 >
 >La información de este documento no se aplica si utiliza una instancia de Adobe Campaign totalmente alojada (implementada en Cloud Services de Adobe).
 
-La compatibilidad del software se detalla en la [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
+La compatibilidad del software se detalla en la sección [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
 
 
 ### Situaciones
 
 Se proporcionan diagramas de implementación y recomendaciones de tamaño de hardware para tres escenarios representativos:
 
-1. [Tamaño moderado](#scenario-1) : 5 millones de destinatarios activos en el sistema
-1. [Tamaño grande](#scenario-2) : 20 millones de destinatarios activos en el sistema
-1. [Enterprise](#scenario-3) : 50 millones de destinatarios activos, con mensajería transaccional
+1. [Tamaño moderado](#scenario-1) - 5 millones de destinatarios activos en el sistema
+1. [Tamaño grande](#scenario-2) - 20 millones de destinatarios activos en el sistema
+1. [Empresa](#scenario-3) - 50 millones de destinatarios activos, con mensajería transaccional
 
 ### Suposiciones
 
@@ -204,7 +205,7 @@ Las recomendaciones de hardware para el servidor de la base de datos son las sig
 
 **CPU de 8 núcleos de 3 Ghz+, RAM de 96 GB, RAID 1 o 10, SSD de 1,5 TB mínimo**
 
-El cálculo de la memoria supone el almacenamiento en caché completo de aproximadamente 12.500.000 destinatarios para un lanzamiento de campaña grande, además del espacio de búfer RDBMS para ejecutar flujos de trabajo, importar datos de seguimiento y otras actividades simultáneas.
+El cálculo de la memoria supone el almacenamiento en caché completo de aproximadamente 12 500 000 destinatarios para un lanzamiento de campaña grande, además del espacio de búfer RDBMS para ejecutar flujos de trabajo, importar datos de seguimiento y otras actividades simultáneas.
 
 Se estima que el espacio en disco necesario en la base de datos para almacenar todos los datos técnicos de Adobe Campaign (campañas, seguimiento, tablas de trabajo, etc.) es aproximadamente de 700 GB en función de un período de retención de 3 meses. Si decide conservar los datos de seguimiento durante 6 meses, el tamaño de la base de datos aumenta a aproximadamente 1,2 TB y la retención de 12 meses aumenta el tamaño de la base de datos a aproximadamente 2 TB. Los datos de destinatario consumen unos 50 GB para este entorno.
 
@@ -212,31 +213,31 @@ Se estima que el espacio en disco necesario en la base de datos para almacenar t
 
 Las hipótesis formuladas para estos escenarios tienen un impacto significativo en las recomendaciones de hardware y en la arquitectura de implementación. En esta sección se tratan las directrices sobre diferentes supuestos. Póngase en contacto con el equipo de consultoría de Adobe Campaign para obtener recomendaciones específicas que satisfagan sus necesidades.
 
-* **Número de**
-DestinatariosLos destinatarios activos requieren tanto espacio de almacenamiento como espacio de búfer de base de datos, por lo que más destinatarios generalmente requieren más memoria y capacidad de CPU en el servidor de base de datos. Los aumentos de almacenamiento son relativamente pequeños para los propios destinatarios, pero pueden ser significativos para los datos de seguimiento de eventos guardados para las campañas de correo electrónico.
+* **Número de destinatarios**
+Los destinatarios activos requieren tanto espacio de almacenamiento como espacio de búfer de base de datos, por lo que más destinatarios generalmente requieren más memoria y capacidad de CPU en el servidor de base de datos. Los aumentos de almacenamiento son relativamente pequeños para los propios destinatarios, pero pueden ser significativos para los datos de seguimiento de eventos guardados para las campañas de correo electrónico.
 
-* **Tamaño de campaña de correo electrónicoLa frecuencia de los inicios de campaña tiene un impacto en los requisitos de CPU del servidor de la base de datos.**
-Combinadas con el correo directo, las interacciones entrantes y otros flujos de trabajo, las operaciones de segmentación para las campañas de correo electrónico suponen una carga significativa en el servidor de la base de datos.
+* **Tamaño de la campaña de correo electrónico**
+La frecuencia de los lanzamientos de campañas afecta a los requisitos de CPU del servidor de la base de datos. Combinadas con el correo directo, las interacciones entrantes y otros flujos de trabajo, las operaciones de segmentación para las campañas de correo electrónico suponen una carga significativa en el servidor de la base de datos.
 
-* **Frecuencia de correo**
-directoLa frecuencia de los correos directos puede afectar a los requisitos de CPU del servidor de la base de datos. Combinadas con los lanzamientos de campañas y otros flujos de trabajo, las operaciones de segmentación para los correos directos suponen una carga significativa en el servidor de la base de datos.
+* **Frecuencia de correo postal**
+La frecuencia de los correos directos puede afectar a los requisitos de CPU del servidor de la base de datos. Combinadas con los lanzamientos de campañas y otros flujos de trabajo, las operaciones de segmentación para los correos directos suponen una carga significativa en el servidor de la base de datos.
 
-* **Mensaje SMS**
-VolumeAl igual que el tamaño de la campaña de correo electrónico, el volumen de los mensajes SMS no coloca cargas grandes en los servidores de Campaign ubicados in situ; la carga se realiza principalmente en servidores de mensajería de Adobe Cloud en la nube. La segmentación de campañas SMS, como correo electrónico y correo postal, puede colocar una carga significativa en la base de datos de marketing. Por lo tanto, la frecuencia de los lanzamientos de campañas SMS y la complejidad de la segmentación son más relevantes que el volumen de mensajes SMS.
+* **Volumen del mensaje SMS**
+Al igual que el tamaño de la campaña de correo electrónico, el volumen de los mensajes SMS no coloca cargas grandes en los servidores de Campaign ubicados in situ; la carga se realiza principalmente en servidores de mensajería de Adobe Cloud en la nube. La segmentación de campañas SMS, como correo electrónico y correo postal, puede colocar una carga significativa en la base de datos de marketing. Por lo tanto, la frecuencia de los lanzamientos de campañas SMS y la complejidad de la segmentación son más relevantes que el volumen de mensajes SMS.
 
-* **Complejidad del esquema de la base de datosLa cantidad de datos para cada destinatario activo requiere tanto espacio de almacenamiento como espacio de búfer de la base de datos, por lo que más destinatarios generalmente requieren más memoria y CPU en el servidor de la base de datos.**
-Los esquemas complejos también requieren que se unan más tablas para la segmentación, por lo que las operaciones de segmentación pueden ejecutarse mucho más lentamente y requieren más CPU y memoria de base de datos cuando los datos se distribuyen en varias tablas.
+* **Complejidad de esquema de base de datos**
+La cantidad de datos para cada destinatario activo requiere espacio de almacenamiento y espacio de búfer de base de datos, por lo que más destinatarios generalmente requieren más memoria y CPU en el servidor de base de datos. Los esquemas complejos también requieren que se unan más tablas para la segmentación, por lo que las operaciones de segmentación pueden ejecutarse mucho más lentamente y requieren más CPU y memoria de base de datos cuando los datos se distribuyen en varias tablas.
 
    La memoria del servidor de la base de datos se calcula asegurándose de que el grupo de búfer de la base de datos sea lo suficientemente grande como para contener todos los datos del destinatario, además de tablas temporales para ejecutar flujos de trabajo, además de un margen para otras operaciones de la base de datos.
 
-* **Las reglas de**
-uso de interacción saliente para la interacción en modo por lotes se evalúan en flujos de trabajo que pasan toda la complejidad del cálculo a la base de datos. El principal factor de esfuerzo en la base de datos es el número total de ofertas aptas calculadas durante una llamada al motor (tamaño del objetivo X número promedio de ofertas por destinatario antes de mantener las N mejores ofertas). La velocidad de CPU del servidor de la base de datos es el primer factor de rendimiento.
+* **Uso de interacción de salida**
+Las reglas de interacción en modo por lotes se evalúan en flujos de trabajo que pasan toda la complejidad de cálculo a la base de datos. El principal factor de esfuerzo en la base de datos es el número total de ofertas aptas calculadas durante una llamada al motor (tamaño del objetivo X número promedio de ofertas por destinatario antes de mantener las N mejores ofertas). La velocidad de CPU del servidor de la base de datos es el primer factor de rendimiento.
 
-* **Las interacciones entrantes o el**
-uso de la API SOAPLas reglas y ofertas de interacción entrante se evalúan en la base de datos de marketing, lo que requiere recursos importantes del servidor de la base de datos, especialmente la CPU. El uso intensivo de las interacciones entrantes o las API SOAP requiere servidores web independientes para separar la carga de trabajo de la ejecución de flujos de trabajo de Campaign.
+* **Interacciones entrantes o Uso de API SOAP**
+Las reglas y ofertas de interacción entrante se evalúan en la base de datos de marketing, lo que requiere recursos de servidor de base de datos significativos, especialmente CPU. El uso intensivo de las interacciones entrantes o las API SOAP requiere servidores web independientes para separar la carga de trabajo de la ejecución de flujos de trabajo de Campaign.
 
-* **Seguimiento del**
-período de retención de datosPara aumentar la retención de datos de seguimiento más allá de 90 días se requiere más almacenamiento de la base de datos y se puede ralentizar el sistema, ya que la inserción de nuevos datos de seguimiento se introduce en tablas grandes. Los datos de seguimiento no son útiles para la segmentación de campañas después de 90 días, por lo que se recomienda un periodo de retención más corto.
+* **Seguimiento del período de retención de datos**
+El aumento de la retención de datos de seguimiento más allá de 90 días requiere más almacenamiento de la base de datos y puede ralentizar el sistema porque la inserción de nuevos datos de seguimiento se introduce en tablas grandes. Los datos de seguimiento no son útiles para la segmentación de campañas después de 90 días, por lo que se recomienda un periodo de retención más corto.
 
    Los datos de seguimiento se deben mover a Adobe Analytics u otro sistema de análisis si necesita realizar un análisis a largo plazo de la experiencia de marketing de destinatario.
 
@@ -244,14 +245,14 @@ período de retención de datosPara aumentar la retención de datos de seguimien
 
 Todos los servidores de Campaign son buenos candidatos para la virtualización. Hay que abordar varias cuestiones para garantizar una disponibilidad y un rendimiento adecuados.
 
-* **Los servidores**
-en clúster de configuración de conmutación por error, por ejemplo, los servidores de aplicaciones redundantes bajo un proxy de carga equilibrada, deben implementarse en hardware independiente para garantizar que ambas VM no se apaguen si se produce una falla en el hardware.
+* **Configuración de errores**
+Los servidores en clúster, por ejemplo, los servidores de aplicaciones redundantes bajo un proxy de carga equilibrada, deben implementarse en hardware separado para garantizar que ambas VM no se apaguen si se produce una falla de hardware.
 
-* **Configuración**
-de E/SCualquier configuración RAID recomendada debe mantenerse para la seguridad de la base de datos, para garantizar que la pérdida de un dispositivo de almacenamiento no cause pérdida de datos.
+* **Configuración de E/S**
+Cualquier configuración RAID recomendada debe mantenerse para la seguridad de la base de datos, a fin de garantizar que la pérdida de un dispositivo de almacenamiento no cause la pérdida de datos.
 
 * **Rendimiento de E/S**
-Se debe respetar la clasificación IOPS recomendada para el almacenamiento de la base de datos. Es posible que los servicios de nube como Amazon EC2 no proporcionen el rendimiento requerido y que deban evaluarse cuidadosamente. Por ejemplo, los volúmenes SSD aprovisionados por Amazon EC2 están actualmente clasificados en 20.000 IOPS cada uno. Obtenga más información en la [documentación de Amazon](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html), por lo que una configuración RAID de 4 volúmenes se clasificaría en 80.000 IOPS, lo que puede no ser suficiente.
+Se debe respetar la clasificación IOPS recomendada para el almacenamiento de la base de datos. Es posible que los servicios de nube como Amazon EC2 no proporcionen el rendimiento requerido y que deban evaluarse cuidadosamente. Por ejemplo, los volúmenes SSD aprovisionados por Amazon EC2 están actualmente clasificados en 20.000 IOPS cada uno. Obtenga más información en [Documentación de Amazon](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html), por lo que una configuración RAID de 4 volúmenes se clasificaría en 80.000 IOPS, lo que puede no ser suficiente.
 
 Adobe recomienda pruebas de rendimiento para cualquier implementación virtualizada de Adobe Campaign antes de poner el sistema en producción.
 

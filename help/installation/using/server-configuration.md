@@ -40,16 +40,16 @@ De forma predeterminada, todas las páginas dinámicas se retransmiten automáti
 
 De forma predeterminada, hemos forzado la capacidad de mostrar los recursos del usuario final mediante http (httpAllowed=&quot;true&quot;). Como estas páginas pueden mostrar algunas PII (como contenido de correo electrónico, direcciones), canjear vales y ofertas, debe forzar el uso de HTTPS en estas rutas.
 
-Si utiliza nombres de host diferentes (uno público y otro para operadores), también puede evitar que los operadores reenvíen algunos recursos necesarios sobre el nombre DNS público.
+Si utiliza nombres de host diferentes (uno público y otro para operadores), también puede evitar que los operadores retransmitan algunos recursos necesarios sobre el nombre DNS público.
 
 ## Protección de conexión saliente
 
-La lista predeterminada de direcciones URL a las que pueden llamar los códigos JavaScript (flujos de trabajo, etc.) es limitada. Para permitir una nueva dirección URL, el administrador debe hacer referencia a ella en el archivo [serverConf.xml](../../installation/using/the-server-configuration-file.md).
+La lista predeterminada de direcciones URL a las que pueden llamar los códigos JavaScript (flujos de trabajo, etc.) es limitada. Para permitir una nueva dirección URL, el administrador debe hacer referencia a ella en la [archivo serverConf.xml](../../installation/using/the-server-configuration-file.md).
 
 Existen tres modos de protección de conexión:
 
 * **Bloqueo** : todas las direcciones URL que no pertenecen a la lista de permitidos están bloqueadas, con un mensaje de error. Es el modo predeterminado después de una posactualización.
-* **Permisivo** : se permiten todas las direcciones URL que no pertenecen a la lista de permitidos.
+* **Permiso** : se permiten todas las direcciones URL que no pertenecen a la lista de permitidos.
 * **Advertencia** : se permiten todas las direcciones URL que no están en la lista de permitidos, pero el intérprete JS emite una advertencia para que el administrador pueda recopilarlas. Este modo añade mensajes de advertencia JST-310027.
 
 ```
@@ -66,7 +66,7 @@ Los clientes existentes procedentes de una migración pueden utilizar el modo de
 
 ## Restricción de comandos (lado del servidor)
 
-Varios comandos se incluyen en la lista negra y no se pueden ejecutar mediante la función execCommand. Un usuario de Unix dedicado proporciona una seguridad adicional para ejecutar comandos externos. En el caso de instalaciones alojadas, esta restricción se aplica automáticamente. Para las instalaciones locales, puede configurar manualmente esta restricción siguiendo las instrucciones de [esta página](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands). Además, las actividades de flujo de trabajo **[!UICONTROL Script]** y **[!UICONTROL External task]** no están disponibles (instancias recién instaladas).
+Varios comandos se incluyen en la lista negra y no se pueden ejecutar mediante la función execCommand. Un usuario de Unix dedicado proporciona una seguridad adicional para ejecutar comandos externos. En el caso de instalaciones alojadas, esta restricción se aplica automáticamente. Para las instalaciones in situ, puede configurar manualmente esta restricción siguiendo las instrucciones de [esta página](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands). Además, **[!UICONTROL Script]** y **[!UICONTROL External task]** las actividades de flujo de trabajo no están disponibles (instancias recién instaladas).
 
 ## Otras configuraciones
 
@@ -79,10 +79,10 @@ Puede agregar encabezados HTTP adicionales para todas las páginas (para obtener
    >
    >Adobe Campaign se puede desglosar añadiendo ciertos encabezados.
 
-Adobe Campaign permite establecer una contraseña sin formato en el elemento `<dbcnx .../>` . No utilice esta función.
+Adobe Campaign le permite establecer una contraseña sin formato en la variable `<dbcnx .../>` elemento. No utilice esta función.
 
-De forma predeterminada, Adobe Campaign no vincula una sesión a una IP específica, pero puede activarla para evitar que se robe la sesión. Para ello, en el archivo [serverConf.xml](../../installation/using/the-server-configuration-file.md), establezca el atributo checkIPConsistent en **true** en el nodo `<authentication>`.
+De forma predeterminada, Adobe Campaign no vincula una sesión a una IP específica, pero puede activarla para evitar que se robe la sesión. Para ello, en el [archivo serverConf.xml](../../installation/using/the-server-configuration-file.md), establezca el atributo checkIPConsistent en **true** en el `<authentication>` nodo .
 
-De forma predeterminada, el MTA de Adobe Campaign no utiliza una conexión segura para enviar contenido al servidor SMTP. Debe activar esta función (puede reducir la velocidad de envío). Para ello, establezca **enableTLS** en **true** en el nodo `<smtp ...>`.
+De forma predeterminada, el MTA de Adobe Campaign no utiliza una conexión segura para enviar contenido al servidor SMTP. Debe activar esta función (puede reducir la velocidad de envío). Para ello, establezca **enableTLS** a **true** en el `<smtp ...>` nodo .
 
 Puede reducir la duración de una sesión en el nodo de autenticación (atributo sessionTimeOutSec).

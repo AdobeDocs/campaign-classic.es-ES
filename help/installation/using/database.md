@@ -21,13 +21,13 @@ El servidor de la base de datos puede ejecutarse en cualquier sistema operativo 
 
 El sistema operativo del servidor de la base de datos no es importante siempre que esté disponible la conectividad con los diferentes componentes de Adobe Campaign.
 
-Compruebe también la sección [Database access ayers](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers).
+Compruebe también la [Capas de acceso a bases de datos](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers) para obtener más información.
 
 ## Microsoft SQL Server {#microsoft-sql-server}
 
 El cliente nativo debe estar instalado en los servidores de aplicaciones de Adobe Campaign.
 
-Puede buscar el cliente nativo en el servidor a través del panel de configuración del controlador ODBC, en **Cliente nativo de SQL Server 11.0**.
+Puede buscar el cliente nativo en el servidor mediante el panel de configuración del controlador ODBC, en **Cliente nativo de SQL Server 11.0**.
 
 El siguiente archivo DLL de acceso debe estar presente: **sqlncli11.dll**.
 
@@ -43,11 +43,11 @@ Las DLL de acceso se encuentran en el sitio web de Microsoft.
 >
 >No se admiten nombres de columna con caracteres multibyte.
 
-Los parámetros **NLS_NCHAR_CHARACTERSET** y **NLS_CHARACTERSET** deben configurarse correctamente para que la base de datos funcione en Unicode o ANSI.
+La variable **NLS_NCHAR_CHARACTERSET** y **NLS_CHARACTERSET** Los parámetros de deben configurarse correctamente para que la base de datos funcione en Unicode o ANSI.
 
 Adobe Campaign utiliza la codificación de Oracle predeterminada. El uso de otras codificaciones puede dar déclencheur a problemas de compatibilidad: en este caso, póngase en contacto con el servicio de asistencia técnica.
 
-Para obtener información sobre la codificación, utilice el siguiente comando **sqlplus**:
+Para obtener más información sobre la codificación, utilice lo siguiente **sqlplus** comando:
 
 ```
 SELECT * FROM nls_database_parameters ;
@@ -66,7 +66,7 @@ SELECT * FROM nls_database_parameters ;
   NLS_CHARACTERSET WE8MSWIN1252
 ```
 
-Para iniciar sesión en **sqlplus**, utilice el perfil de usuario del Oracle:
+Para iniciar sesión en **sqlplus**, utilice el perfil de usuario de Oracle:
 
 ```
 su - oracle 
@@ -74,7 +74,7 @@ sqlplus
 [login] [password]
 ```
 
-También puede consultar [Cliente de Oracle en Linux](../../installation/using/installing-packages-with-linux.md#oracle-client-in-linux).
+También puede consultar [Cliente de oracle en Linux](../../installation/using/installing-packages-with-linux.md#oracle-client-in-linux).
 
 ## PostgresSQL {#postgressql}
 

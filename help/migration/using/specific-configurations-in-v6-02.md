@@ -17,7 +17,7 @@ ht-degree: 3%
 
 ![](../../assets/v7-only.svg)
 
-La siguiente sección detalla la configuración adicional necesaria para migrar desde la versión 6.02. También debe configurar los ajustes detallados en la sección [Configuraciones generales](../../migration/using/general-configurations.md).
+La siguiente sección detalla la configuración adicional necesaria para migrar desde la versión 6.02. También debe configurar los ajustes detallados en la [Configuraciones generales](../../migration/using/general-configurations.md) para obtener más información.
 
 ## Aplicaciones web {#web-applications}
 
@@ -37,13 +37,13 @@ Si no ha utilizado estas aplicaciones web, ejecute el siguiente script de limpie
 Nlserver javascript -instance:[instance_name] -file [installation_path]/datakit/xtk/fra/js/removeOldWebApp.js
 ```
 
-Si ha modificado estas aplicaciones web y desea seguir usándolas en v7, debe activar la opción **allowSQLInjection** en las diferentes zonas de seguridad y volver a iniciar la actualización posterior. Consulte la sección [SQLData](../../migration/using/general-configurations.md#sqldata) para obtener más información.
+Si ha modificado estas aplicaciones web y desea seguir usándolas en la versión 7, debe activar la variable **allowSQLInjection** en las diferentes zonas de seguridad y vuelva a iniciar la posactualización. Consulte la [SQLData](../../migration/using/general-configurations.md#sqldata) para obtener más información.
 
 ## Facilidad de uso: Página de inicio y navegación {#user-friendliness--home-page-and-navigation}
 
 >[!IMPORTANT]
 >
->Si desea seguir utilizando aplicaciones web de tipo de descripción general v6.02, debe activar la opción **allowSQLInjection** en las diferentes zonas de seguridad antes de la actualización posterior. Consulte [Aplicaciones web](#web-applications).
+>Si desea seguir utilizando aplicaciones web de tipo de descripción general v6.02, debe activar la variable **allowSQLInjection** en las diferentes zonas de seguridad antes de la actualización posterior. Consulte [Aplicaciones web](#web-applications).
 
 Después de una migración desde la versión 6.02, la página de inicio de Adobe Campaign v6.02 ya no se muestra, pero sigue siendo accesible y compatible con Adobe Campaign v7.
 
@@ -51,9 +51,9 @@ Para seguir utilizando la página de inicio v6.02, debe instalar un paquete de &
 
 Para ello, importe el paquete de compatibilidad:
 
-Haga clic en **[!UICONTROL Tools > Advanced > Import package]** y seleccione el paquete **campaignMigration.xml** en **`\nl\datakit\nms\[Your language]\package\optional`**.
+Haga clic en **[!UICONTROL Tools > Advanced > Import package]** y seleccione **campaignMigration.xml** en el **`\nl\datakit\nms\[Your language]\package\optional`**.
 
-Para permitir el acceso a las interfaces de tipo aplicación web v6.02, la opción de configuración del servidor **sessionTokenOnly** debe activarse en el archivo **serverConf.xml**:
+Para permitir el acceso a las interfaces de tipo aplicación web v6.02, la variable **sessionTokenOnly** la opción de configuración del servidor debe activarse en la **serverConf.xml** archivo:
 
 ```
 sessionTokenOnly="true"
@@ -65,7 +65,7 @@ Una vez instalado el paquete, la página de inicio de Adobe Campaign v7 se susti
 
 ![](assets/dashboards.png)
 
-Todos los vínculos de esta página de inicio se vinculan a pantallas v7 excepto a las listas (**[!UICONTROL operation list]**, **[!UICONTROL delivery tracking in operations]**, etc.) que se vinculan a la descripción general de la versión 6.02 (aplicaciones web).
+Todos los vínculos de esta página de inicio se vinculan a las pantallas de v7, excepto las listas (**[!UICONTROL operation list]**, **[!UICONTROL delivery tracking in operations]**, etc.) que se vinculan a la descripción general de la versión 6.02 (aplicaciones web).
 
 ![](assets/dashboards2.png)
 

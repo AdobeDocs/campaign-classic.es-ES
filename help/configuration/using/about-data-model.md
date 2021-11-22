@@ -37,13 +37,13 @@ El modelo de datos también incluye una parte dedicada a almacenar todas las act
 
 Otra parte del modelo de datos permite almacenar temporalmente todos los registros asociados con la ejecución de las campañas.
 
-Los registros de envío son todos los mensajes enviados a los destinatarios o dispositivos en todos los canales. La tabla principal Delivery logs (**NmsBroadLog**) contiene los registros de envío de todos los destinatarios.
-La tabla principal Tracking logs (**NmsTrackingLog**) almacena los registros de seguimiento para todos los destinatarios. Los registros de seguimiento hacen referencia a reacciones de los destinatarios, como aperturas de correo electrónico y clics. Cada reacción corresponde a un registro de seguimiento.
+Los registros de envío son todos los mensajes enviados a los destinatarios o dispositivos en todos los canales. La tabla de registros de envío principal (**NmsBroadLog**) contiene los registros de envío de todos los destinatarios.
+La tabla de registros de seguimiento principal (**NmsTrackingLog**) almacena los registros de seguimiento de todos los destinatarios. Los registros de seguimiento hacen referencia a reacciones de los destinatarios, como aperturas de correo electrónico y clics. Cada reacción corresponde a un registro de seguimiento.
 Los registros de envío y los registros de seguimiento se eliminan después de un periodo determinado, que se especifica en Adobe Campaign y se puede modificar. Por lo tanto, es muy recomendable exportar los registros de forma regular.
 
 ### Tablas técnicas {#technical-tables}
 
-Finalmente, parte del modelo de datos consta de datos técnicos utilizados para el proceso aplicativo, incluidos operadores y derechos de usuario (**NmsGroup**), carpetas (**XtkFolder**).
+Por último, parte del modelo de datos consta de datos técnicos utilizados para el proceso aplicativo, incluidos los operadores y los derechos de usuario (**NmsGroup**), carpetas (**XtkFolder**).
 
 ## Uso de la tabla de destinatarios integrada {#default-recipient-table}
 
@@ -51,7 +51,7 @@ La tabla de destinatarios integrada en Adobe Campaign proporciona un buen punto 
 
 Las ventajas de utilizar la tabla de destinatarios integrada son las siguientes:
 
-* Uso de funcionalidades integradas como suscripciones, listas de semilla, etc.
+* Uso de funcionalidades integradas como suscripciones, listas de fuentes y mucho más.
 * Proporcionar una base de datos de marketing con un modelo de datos centrado en el destinatario.
 * Implementación más rápida.
 * Fácil mantenimiento por parte del personal de soporte y los socios.
@@ -83,25 +83,25 @@ Para obtener más información sobre la configuración de esquemas de extensión
 
 ## Uso de una lista de destinatarios personalizada {#custom-recipient-table}
 
-Al diseñar el modelo de datos de Adobe Campaign, puede utilizar la [tabla de destinatarios predeterminada](#default-recipient-table) o decidir crear una tabla de destinatarios personalizada](../../configuration/using/about-custom-recipient-table.md) para almacenar sus perfiles de marketing.[
+Al diseñar el modelo de datos de Adobe Campaign, puede usar la variable [tabla de destinatarios predeterminada](#default-recipient-table)o decida crear un [tabla de destinatarios personalizada](../../configuration/using/about-custom-recipient-table.md) para almacenar los perfiles de marketing.
 
 De hecho, si el modelo de datos no se ajusta a la estructura centrada en los destinatarios, puede configurar otras tablas como dimensiones de segmentación dentro de Adobe Campaign. Por ejemplo, esto puede ser relevante cuando necesita dirigirse a hogares, cuentas (como teléfonos móviles) y empresas/sitios en lugar de simplemente a destinatarios.
 
 >[!NOTE]
 >
->En este caso, deberá crear una nueva [asignación de destino](../../configuration/using/target-mapping.md).
+>En este caso, deberá crear una [asignación de destino](../../configuration/using/target-mapping.md).
 
 Todos los principios y pasos necesarios al utilizar una tabla de destinatarios personalizada se detallan en [esta sección](../../configuration/using/about-custom-recipient-table.md).
 
 Las ventajas de utilizar una tabla de destinatarios personalizada son las siguientes:
 
-* **Modelo de datos flexible** : la tabla de destinatarios predeterminada no es útil si no necesita la mayoría de los campos de la tabla de destinatarios o si el modelo de datos no está centrado en el destinatario.
+* **Modelo de datos flexible** - La tabla de destinatarios predeterminada no es útil si no necesita la mayoría de los campos de la tabla de destinatarios o si el modelo de datos no está centrado en el destinatario.
 
-* **Escalabilidad** : los volúmenes grandes requieren una tabla optimizada con pocos campos para un diseño eficiente. La tabla de destinatarios predeterminada tendría demasiados campos inútiles, lo que podría afectar al rendimiento y falta de eficiencia.
+* **Escalabilidad** - Los volúmenes grandes requieren una tabla optimizada con pocos campos para un diseño eficiente. La tabla de destinatarios predeterminada tendría demasiados campos inútiles, lo que podría afectar al rendimiento y falta de eficiencia.
 
-* **Ubicación de los datos** : si los datos residen en una base de datos de marketing existente externa, puede requerir demasiado esfuerzo para usar la tabla de destinatarios predeterminada. La creación de una nueva basada en una estructura existente es más sencilla.
+* **Ubicación de los datos** - Si los datos residen en una base de datos de marketing existente externa, puede requerir demasiado esfuerzo para usar la tabla de destinatarios predeterminada. La creación de una nueva basada en una estructura existente es más sencilla.
 
-* **Migración sencilla** : no se requiere mantenimiento para comprobar que todas las extensiones son válidas después de la actualización.
+* **Migración sencilla** - No es necesario realizar ningún mantenimiento para comprobar que todas las extensiones siguen siendo válidas tras la actualización.
 
 >[!IMPORTANT]
 >
@@ -111,13 +111,13 @@ Las ventajas de utilizar una tabla de destinatarios personalizada son las siguie
 
 Obtenga más información sobre el modelo de datos de Campaign en estas secciones:
 
-* **Descripción de las tablas**  principales: para obtener más información sobre la descripción del modelo de datos del Campaign Classic predeterminado, consulte  [esta sección](../../configuration/using/data-model-description.md).
+* **Descripción de las tablas principales** : Para obtener más información sobre la descripción del modelo de datos del Campaign Classic predeterminado, consulte [esta sección](../../configuration/using/data-model-description.md).
 
-* **Descripción completa de cada tabla** : para acceder a la descripción completa de cada tabla, vaya a  **[!UICONTROL Admin > Configuration > Data schemas]**, seleccione un recurso de la lista y haga clic en la  **[!UICONTROL Documentation]** pestaña .
+* **Descripción completa de cada tabla** - Para acceder a la descripción completa de cada tabla, vaya a **[!UICONTROL Admin > Configuration > Data schemas]**, seleccione un recurso de la lista y haga clic en el botón **[!UICONTROL Documentation]** pestaña .
 
    ![](assets/data-model_documentation-tab.png)
 
 
-* **Esquemas de campaña** : la estructura física y lógica de los datos que se llevan en la aplicación se describe en XML. Obedece a una gramática específica de Adobe Campaign, denominada esquema. Para obtener más información sobre los esquemas de Adobe Campaign, lea [esta sección](../../configuration/using/about-schema-reference.md).
+* **Esquemas de campaña** - La estructura física y lógica de los datos que se llevan en la aplicación se describe en XML. Obedece a una gramática específica de Adobe Campaign, denominada esquema. Para obtener más información sobre los esquemas de Adobe Campaign, consulte [esta sección](../../configuration/using/about-schema-reference.md).
 
-* **Prácticas recomendadas del modelo de datos** : en  [esta sección](../../configuration/using/data-model-best-practices.md#data-model-architecture), conozca la arquitectura del modelo de datos de Campaign y las prácticas recomendadas relacionadas.
+* **Prácticas recomendadas del modelo de datos** - Conozca la arquitectura del modelo de datos de Campaign y las prácticas recomendadas relacionadas en [esta sección](../../configuration/using/data-model-best-practices.md#data-model-architecture).

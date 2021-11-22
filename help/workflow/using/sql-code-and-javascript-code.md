@@ -36,7 +36,7 @@ Una actividad de **[!UICONTROL SQL code]** ejecuta una secuencia de comandos SQL
 Las actividades **[!UICONTROL JavaScript code]** y **[!UICONTROL Advanced JavaScript code]** ejecutan una secuencia de comandos JavaScript en el contexto de un flujo de trabajo. Para obtener más información sobre secuencias de comandos, consulte estas secciones:
 
 * [Plantillas y scripts de JavaScript](javascript-scripts-and-templates.md)
-* [Ejemplos de código JavaScript en flujos de trabajo](javascript-in-workflows.md)
+* [Examples of JavaScript code in workflows](javascript-in-workflows.md)
 
 ### Retraso de ejecución {#exec-delay}
 

@@ -17,10 +17,10 @@ ht-degree: 79%
 
 ![](../../assets/v7-only.svg)
 
-Utilice la opción **Federated Data Access** (FDA) de Campaign para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Hadoop.
+Uso de Campaign **Acceso de datos federado** (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Hadoop.
 
-1. Configurar [base de datos de Hadoop](#configuring-hadoop)
-1. Configurar el Hadoop [cuenta externa](#hadoop-external) en Campaign
+1. Configurar [base de datos de hadoop](#configuring-hadoop)
+1. Configuración del Hadoop [cuenta externa](#hadoop-external) en Campaign
 
 ## Configuración de Hadoop 3.0 {#configuring-hadoop}
 
@@ -84,7 +84,7 @@ El conector también admite las siguientes opciones de Hive:
 
 ## Configuración de Hadoop 2.1 {#configure-access-hadoop-2}
 
-Si necesita conectarse a Hadoop 2.1, siga los pasos que se describen a continuación para [Windows](#for-windows) o [Linux](#for-linux).
+Si necesita conectarse a Hadoop 2.1, siga los pasos descritos a continuación para [Windows](#for-windows) o [Linux](#for-linux).
 
 ### Hadoop 2.1 para Windows {#for-windows}
 

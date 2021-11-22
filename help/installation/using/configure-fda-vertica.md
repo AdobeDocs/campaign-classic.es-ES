@@ -17,10 +17,10 @@ ht-degree: 19%
 
 ![](../../assets/v7-only.svg)
 
-Utilice la opción **Federated Data Access** (FDA) de Campaign para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a [!DNL Vertica].
+Uso de Campaign **Acceso de datos federado** (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a [!DNL Vertica].
 
-1. Configure [!DNL Vertica] en [CentOS](#vertica-centos), [Windows](#vertica-windows) o [Debian](#vertica-debian)
-1. Configurar la [!DNL Vertica] [cuenta externa](#vertica-external) en Campaign
+1. Configurar [!DNL Vertica] en [CentOS](#vertica-centos), [Windows](#vertica-windows) o [Debian](#vertica-debian)
+1. Configure las variables [!DNL Vertica] [cuenta externa](#vertica-external) en Campaign
 
 
 >[!NOTE]
@@ -33,7 +33,7 @@ Utilice la opción **Federated Data Access** (FDA) de Campaign para procesar la 
 
 Para configurar [!DNL Vertica] en CentOS, siga los pasos a continuación:
 
-1. Descargue los controladores ODBC para [!DNL Vertica]. [Haga clic ](https://www.vertica.com/download/vertica/client-drivers/) aquí y descargue las últimas RPM de Linux.
+1. Descargue los controladores ODBC para [!DNL Vertica]. [Haga clic aquí](https://www.vertica.com/download/vertica/client-drivers/) y descargue las últimas RPM de Linux.
 
 1. A continuación, debe instalar unixODBC con el siguiente comando:
 
@@ -42,7 +42,7 @@ Para configurar [!DNL Vertica] en CentOS, siga los pasos a continuación:
    yum install unixODBC.x86_64
    ```
 
-1. Si ha instalado anteriormente el servidor [!DNL Vertica], ya se instalará un controlador ODBC. En este caso, actualice la unidad de la siguiente manera:
+1. Si ha instalado anteriormente la variable [!DNL Vertica] Servidor, ya se instalará un controlador ODBC. En este caso, actualice la unidad de la siguiente manera:
 
    ```
    #Switch to root
@@ -81,7 +81,7 @@ Para configurar [!DNL Vertica] en CentOS, siga los pasos a continuación:
    rm vertica-client-x.x.x-x.x86_64.rpm
    ```
 
-1. En Adobe Campaign, puede configurar la cuenta externa [!DNL Vertica] . Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#vertica-external).
+1. En Adobe Campaign, puede configurar la [!DNL Vertica] cuenta externa. Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#vertica-external).
 
 ## Vertica en Windows {#vertica-windows}
 
@@ -89,7 +89,7 @@ Para configurar [!DNL Vertica] en CentOS, siga los pasos a continuación:
 
 1. Configure el controlador ODBC en Windows. Para obtener más información, consulte [esta página](https://www.vertica.com/docs/9.2.x/HTML/Content/Authoring/ConnectingToVertica/ClientODBC/SettingUpADSN.htm)
 
-1. En Adobe Campaign, puede configurar la cuenta externa [!DNL Vertica] . Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#vertical-external).
+1. En Adobe Campaign, puede configurar la [!DNL Vertica] cuenta externa. Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#vertical-external).
 
 ## Vertica en Debian {#vertica-debian}
 
@@ -101,7 +101,7 @@ Para configurar [!DNL Vertica] en CentOS, siga los pasos a continuación:
    apt-get install unixODBC
    ```
 
-1. Si ha instalado anteriormente el servidor [!DNL Vertica], ya se instalará un controlador ODBC. En este caso, actualice la unidad de la siguiente manera:
+1. Si ha instalado anteriormente la variable [!DNL Vertica] Servidor, ya se instalará un controlador ODBC. En este caso, actualice la unidad de la siguiente manera:
 
    ```
    #Switch to root
@@ -143,13 +143,13 @@ Para configurar [!DNL Vertica] en CentOS, siga los pasos a continuación:
    Port = 5433
    ```
 
-1. En Adobe Campaign, puede configurar la cuenta externa [!DNL Vertica] . Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#vertica-external).
+1. En Adobe Campaign, puede configurar la [!DNL Vertica] cuenta externa. Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#vertica-external).
 
 ## Cuenta externa vertical {#vertica-external}
 
-Debe crear una cuenta externa [!DNL Vertica] para conectar la instancia de Campaign a la base de datos externa [!DNL Vertica].
+Debe crear un [!DNL Vertica] cuenta externa para conectar la instancia de Campaign con el [!DNL Vertica] base de datos externa.
 
-1. En Campaña **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
+1. Desde campaña **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
 
 1. Haga clic en **[!UICONTROL New]**.
 

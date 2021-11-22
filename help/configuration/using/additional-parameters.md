@@ -22,9 +22,9 @@ ht-degree: 1%
 La plataforma de Adobe Campaign ofrece dos parámetros de seguimiento web de tipo TRANSACCIÓN como estándar:
 
 * **importe**: representa la cantidad de una transacción,
-* **artículo**: representa el número de elementos de una transacción.
+* **article**: representa el número de elementos de una transacción.
 
-Estos parámetros se definen en el esquema **nms:webTrackingLog** y son algunos de los indicadores que se ven en los informes.
+Estos parámetros se definen en la variable **nms:webTrackingLog** y son algunos de los indicadores que se ven en los informes.
 
 Para definir parámetros adicionales, debe ampliar este esquema.
 
@@ -52,11 +52,11 @@ En la configuración del servidor, puede definir el número máximo de caractere
 >
 >Aumentar el número máximo de caracteres que se deben tener en cuenta puede afectar al rendimiento del seguimiento web de su plataforma.
 
-Para ello, modifique el atributo **webTrackingParamSize** del elemento **`<trackinglogd>`** en el archivo **serverConf.xml**. Este archivo se guarda en el subdirectorio **conf** del directorio de instalación de Adobe Campaign.
+Para ello, modifique la **webTrackingParamSize** del **`<trackinglogd>`** en el **serverConf.xml** archivo. Este archivo se guarda en la variable **conf** subdirectorio del directorio de instalación de Adobe Campaign.
 
 **Ejemplo**:
 
-El valor predeterminado es de 64 caracteres. Este valor permite tener en cuenta los parámetros estándar **amount** y **article** (&quot;amount=xxxxxxxx&amp;article=xxxxxxxxx&quot;).
+El valor predeterminado es de 64 caracteres. Este valor permite tener en cuenta las variables **importe** y **article** (&quot;amount=xxxxxxx&amp;article=xxxxxxxx&quot;) parámetros estándar.
 
 Teniendo en cuenta ambos parámetros (tamaño del nombre + tamaño del valor) indicados en el ejemplo del esquema de extensión anterior, puede modificar la configuración para tener en cuenta 100 caracteres (&quot;amount=xxxxxxxx&amp;article=xxxxxxxxxxxx&amp;mode=xxxxxxxxxxx&amp;code=xxxx&quot;).
 
@@ -76,7 +76,7 @@ Cuando se haya modificado la configuración, debe:
    >
    >A partir de 20.1, se recomienda utilizar el siguiente comando en su lugar (para Linux): **systemctl stop nlserver**
 
-* En Linux, elimine los segmentos de memoria compartida mediante el comando **ipcrm**,
+* En Linux, elimine los segmentos de memoria compartida usando la variable **ipcrm** comando,
 * Reinicie el servidor de Adobe Campaign: **net start nlserver6** en Windows, **/etc/init.d/nlserver6 start** en Linux,
 
    >[!NOTE]
@@ -111,4 +111,4 @@ adobe@selma:~$ systemctl start apache2
 
 >[!NOTE]
 >
->Para Linux, si aumenta el tamaño de los parámetros **webTrackingParamSize** o **maxSharedLogs**, es posible que tenga que aumentar el tamaño de la memoria compartida (SHM).
+>Para Linux, si aumenta el tamaño de la variable **webTrackingParamSize** o **maxSharedLogs** , es posible que tenga que aumentar el tamaño de la memoria compartida (SHM).

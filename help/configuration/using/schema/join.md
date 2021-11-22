@@ -41,13 +41,13 @@ Permite definir los campos que crean un vínculo entre tablas SQL.
 
 ## Uso y contexto de uso {#use-and-context-of-use-5}
 
-Un elemento `<join>` solo se puede usar si el elemento principal `<element>` es de tipo &quot;vínculo&quot;. Esto significa que el elemento principal debe tener declarado el atributo &quot;@type=link&quot;.
+A `<join>`  solo se puede usar si el elemento principal  `<element>`  es de tipo &quot;vínculo&quot;. Esto significa que el elemento principal debe tener declarado el atributo &quot;@type=link&quot;.
 
-No es necesario especificar el nombre y el área de nombres de la tabla remota en el elemento `<join>` . Deben especificarse en el `<element>` principal.
+No es necesario especificar el nombre y el área de nombres de la tabla remota en la variable `<join>`  elemento. Deben especificarse en el elemento principal  `<element>`.
 
 Por convención, los vínculos se definen al final del esquema.
 
-Si el elemento `<join>` no se especifica cuando se define el elemento de tipo vínculo, el vínculo se coloca automáticamente en las claves principales de ambas tablas.
+Si la variable `<join>` no se especifica cuando se define el elemento de tipo vínculo, el vínculo se coloca automáticamente en las claves principales de ambas tablas.
 
 ## Descripción del atributo {#attribute-description-7}
 

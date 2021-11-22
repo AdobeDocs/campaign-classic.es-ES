@@ -43,7 +43,7 @@ Ninguno
 
 ## Descripción {#description-14}
 
-El `<srcschema>` es el elemento raíz de un esquema. Es el punto de entrada para la definición del esquema.
+La variable `<srcschema>` es el elemento raíz de un esquema. Es el punto de entrada para la definición del esquema.
 
 ## Uso y contexto de uso {#use-and-context-of-use-9}
 
@@ -69,10 +69,10 @@ La presentación del esquema está disponible en [Acerca de la referencia de esq
    * &quot;binaryFile&quot;: asignación de archivos binarios
 
 * **modifiedBy-id (long)**: coincide con el identificador del operador que ha cambiado el esquema.
-* **nombre (cadena)**: nombre de esquema único.
+* **name (cadena)**: nombre de esquema único.
 * **namespace (cadena)**: área de nombres del esquema (predeterminado: nms, xtk, nl). Al crear un nuevo esquema para un proyecto, se recomienda utilizar un área de nombres dedicada.
 * **useRecycleBin (booleano)**: activa la función papelera en la aplicación. Los registros eliminados se colocarán en la papelera antes de la eliminación final. Esta función solo está disponible en el modo &quot;Envío&quot;.
-* **vista (booleano)**: si está activado (@view=&quot;true&quot;), el esquema se utilizará como vista. El asistente de actualización de la estructura de la base de datos no tendrá en cuenta el esquema. Esta opción se utiliza principalmente para hacer referencia a tablas externas.
+* **view (booleano)**: si está activado (@view=&quot;true&quot;), el esquema se utilizará como vista. El asistente de actualización de la estructura de la base de datos no tendrá en cuenta el esquema. Esta opción se utiliza principalmente para hacer referencia a tablas externas.
 * **xtkschema (cadena)**: nombre del esquema que define la gramática del esquema (xtk:srcSchema de forma predeterminada).
 
 ## Ejemplos {#examples-11}

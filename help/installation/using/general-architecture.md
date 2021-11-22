@@ -41,14 +41,14 @@ Adobe Campaign se basa en una arquitectura orientada a servicios (SOA) y consta 
 
 >[!CAUTION]
 >
->Si no se indica explícitamente lo contrario, la instalación, las actualizaciones y el mantenimiento de todos los componentes de una plataforma de Adobe Campaign son responsabilidad de los administradores del equipo que los alojen. Esto incluye implementar los requisitos previos para las aplicaciones de Adobe Campaign, así como cumplir con la [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md) de Campaign entre componentes.
+>Si no se indica explícitamente lo contrario, la instalación, las actualizaciones y el mantenimiento de todos los componentes de una plataforma de Adobe Campaign son responsabilidad de los administradores del equipo que los alojen. Esto incluye la implementación de los requisitos previos para las aplicaciones de Adobe Campaign, así como el cumplimiento de Campaign [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md) entre componentes.
 
 ## Capa de presentación {#presentation-layer}
 
 Se puede acceder a la aplicación de diferentes maneras, según las necesidades de los usuarios: Cliente enriquecido, cliente ligero o integración de API.
 
-* **Cliente** enriquecido: La interfaz de usuario principal de la aplicación es un cliente enriquecido, es decir, una aplicación nativa (Windows) que se comunica con el servidor de aplicaciones de Adobe Campaign únicamente con protocolos de Internet estándar (SOAP, HTTP, etc.). Esta consola proporciona una buena facilidad de uso para la productividad, utiliza muy poco ancho de banda (mediante el uso de una caché local) y está diseñada para una implementación sencilla. Esta consola se puede implementar desde un explorador de Internet, se puede actualizar automáticamente y no requiere ninguna configuración de red específica porque solo genera tráfico HTTP(S).
-* **Cliente** ligero: Se puede acceder a ciertas partes de la aplicación a través de un explorador web simple mediante una interfaz de usuario HTML, que incluye el módulo de informes, las etapas de aprobación de la entrega, las funcionalidades del módulo Distributed Marketing (central/local), la supervisión de instancias, etc. Este modo permite incluir funcionalidades de Adobe Campaign en una intranet o extranet.
+* **Cliente enriquecido**: La interfaz de usuario principal de la aplicación es un cliente enriquecido, es decir, una aplicación nativa (Windows) que se comunica con el servidor de aplicaciones de Adobe Campaign únicamente con protocolos de Internet estándar (SOAP, HTTP, etc.). Esta consola proporciona una buena facilidad de uso para la productividad, utiliza muy poco ancho de banda (mediante el uso de una caché local) y está diseñada para una implementación sencilla. Esta consola se puede implementar desde un explorador de Internet, se puede actualizar automáticamente y no requiere ninguna configuración de red específica porque solo genera tráfico HTTP(S).
+* **Cliente ligero**: Se puede acceder a ciertas partes de la aplicación a través de un explorador web simple mediante una interfaz de usuario de HTML, que incluye el módulo de informes, las etapas de aprobación de la entrega, las funcionalidades del módulo Distributed Marketing (central/local), la supervisión de instancias, etc. Este modo permite incluir funcionalidades de Adobe Campaign en una intranet o extranet.
 * **Integración mediante las API**: En algunos casos, se puede llamar al sistema desde una aplicación externa mediante las API de servicios web expuestas mediante el protocolo SOAP.
 
 ## Capa de aplicación lógica {#logical-application-layer}
@@ -59,11 +59,11 @@ Adobe Campaign se basa en un conjunto de procesos del lado del servidor que func
 
 Los procesos principales son:
 
-**Servidor de aplicaciones**  (nlserver web)
+**Servidor de aplicaciones** (nlserver web)
 
 Este proceso expone toda la gama de funcionalidades de Adobe Campaign a través de las API de servicios web (SOAP - HTTP + XML). Además, puede generar dinámicamente las páginas web utilizadas para el acceso basado en HTML (informes, formularios web, etc.). Para conseguirlo, este proceso incluye un servidor JSP Apache Tomcat. Este es el proceso al que se conecta la consola.
 
-**Motor de flujo de trabajo**  (nlserver wfserver)
+**Motor de flujo de trabajo** (nlserver wfserver)
 
 Ejecuta los procesos de flujo de trabajo definidos en la aplicación.
 
@@ -73,13 +73,13 @@ También gestiona los flujos de trabajo técnicos que se ejecutan periódicament
 * Limpieza: Limpieza de bases de datos. Se utiliza para purgar registros antiguos y evitar que la base de datos crezca exponencialmente.
 * Facturación: Envío automático de un informe de actividad para la plataforma (tamaño de la base de datos, número de acciones de marketing, número de perfiles activos, etc.).
 
-**Servidor de entrega**  (nlserver mta)
+**Servidor de entrega** (nlserver mta)
 
 Adobe Campaign tiene una funcionalidad nativa de difusión por correo electrónico. Este proceso funciona como un agente de transferencia de correo SMTP (MTA). Realiza la personalización &quot;uno a uno&quot; de los mensajes y gestiona su envío físico. Funciona utilizando trabajos de envío y gestiona los reintentos automáticos. Además, cuando el seguimiento está habilitado, reemplaza automáticamente las direcciones URL para que apunten al servidor de redirección.
 
 Este proceso puede gestionar la personalización y el envío automático a un enrutador de terceros para SMS, fax y correo postal.
 
-**Servidor de redirección**  (nlserver webmdl)
+**Servidor de redirección** (nlserver webmdl)
 
 Para el correo electrónico, Adobe Campaign administra automáticamente el rastreo de clics y aperturas (el seguimiento transaccional a nivel de sitio web es otra posibilidad). Para conseguirlo, las direcciones URL incorporadas en los mensajes de correo electrónico se reescriben para que apunten a este módulo, que registra el paso del usuario de Internet antes de redirigirlos a la dirección URL requerida.
 
@@ -87,33 +87,33 @@ Para garantizar la mayor disponibilidad, este proceso es totalmente independient
 
 También hay disponibles otros procesos técnicos:
 
-**Administración de correos electrónicos rechazados**  (nlserver inMail)
+**Administración de correos electrónicos rechazados** (nlserver inMail)
 
 Este proceso permite recoger automáticamente el correo electrónico de los buzones configurados para recibir mensajes devueltos en caso de error de envío. A continuación, estos mensajes se someten a un procesamiento basado en reglas para determinar los motivos de la no entrega (destinatario desconocido, cuota excedida, etc.) y para actualizar el estado de entrega en la base de datos.
 
 Todas estas operaciones son totalmente automáticas y están preconfiguradas.
 
-**Estado de envío de SMS**  (nlserver sms)
+**Estado de envío de SMS** (nlserver sms)
 
 Este proceso sondea el enrutador SMS para recopilar el estado del progreso y actualizar la base de datos.
 
-**Escribiendo mensajes de registro**  (nlserver syslogd)
+**Escritura de mensajes de registro** (nlserver syslogd)
 
 Este proceso técnico captura los mensajes de registro y los rastros generados por los otros procesos y los escribe en el disco duro. Esto proporciona amplia información disponible para el diagnóstico en caso de problemas.
 
-**Escritura de registros de seguimiento**  (nlserver trackinglogd)
+**Escritura de registros de seguimiento** (nlserver trackinglogd)
 
 Este proceso guarda en disco los registros de seguimiento generados por el proceso de redirección.
 
-**Escritura de eventos entrantes**  (nlserver interactiond)
+**Escritura de eventos entrantes** (nlserver interactiond)
 
 Este proceso garantiza la grabación en el disco de eventos entrantes, dentro del marco de la interacción.
 
-**Supervisión de módulos**  (nlserver watchdog)
+**Supervisión de módulos** (nlserver watchdog)
 
 Este proceso técnico actúa como un proceso principal que engendra a los demás. También los supervisa y los reinicia automáticamente en caso de incidentes, manteniendo así el máximo tiempo de actividad del sistema.
 
-**Servidor de estadísticas**  (nlserver stat)
+**Servidor de estadísticas** (nlserver stat)
 
 Este proceso mantiene estadísticas sobre el número de conexiones, los mensajes enviados para cada servidor de correo al que se envían los mensajes, así como sus limitaciones (el mayor número de conexiones simultáneas, mensajes por hora/ y/o conexión). También le permite federar varias instancias o equipos si comparten las mismas direcciones IP públicas.
 

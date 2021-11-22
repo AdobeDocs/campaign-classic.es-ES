@@ -21,11 +21,11 @@ Los archivos de registro están organizados de la siguiente manera:
 
 ![](assets/d_ncs_directory.png)
 
-Cada módulo **nlserver** genera un archivo de registro guardado en el siguiente directorio: **`<installation directory>`/var/`<instance>`/log/`<module>`.log**.
+Cada **nlserver** genera un archivo de registro guardado en el siguiente directorio: **`<installation directory>`/var/`<instance>`/log/`<module>`.log**.
 
-El módulo **nlserver syslogd** guarda los registros en el disco. Este módulo es similar al demonio **syslog** de Unix, pero se ha adaptado para la compatibilidad entre Unix y Windows. Los demás módulos Adobe Campaign no guardan sus registros en el disco; delegan esta tarea al módulo **syslogd** enviándole paquetes UDP.
+La variable **nlserver syslogd** guarda los registros en el disco. Este módulo es similar a Unix **syslog daemon**, pero se ha adaptado para la compatibilidad entre Unix y Windows. Los demás módulos Adobe Campaign no guardan sus registros en el disco; delegan esta tarea a la **syslogd** enviando paquetes UDP.
 
-De forma predeterminada, la plataforma Adobe Campaign tiene instalado el módulo **syslogd**, pero es posible utilizar otro **syslog daemon**. Este módulo crea los archivos de registro en el directorio **log**.
+De forma predeterminada, la plataforma Adobe Campaign tiene la variable **syslogd** módulo instalado en él, pero es posible utilizar otro **syslog daemon**. Este módulo crea los archivos de registro en la variable **log** directorio.
 
 Los registros de módulos de varias instancias se almacenan en el siguiente directorio: **`<installation directory>`/var/default/log/**. Todas las instancias comparten el mismo archivo de registro (p. ej. **web.log**).
 
@@ -37,7 +37,7 @@ Los archivos de registro de varias instancias se enumeran en la siguiente tabla:
 |---|---|
 | web.log | Registros de módulos web (consola de cliente, informes, API SOAP, etc.) |
 | webmdl.log | Registros del módulo de redirección |
-| watchdog.log | Registros del módulo de monitorización del proceso de Adobe Campaign |
+| watchdog.log | Registros del módulo de monitorización de procesos de Adobe Campaign |
 | trackinglogd.log | Registros de seguimiento |
 
 Los archivos de registro de instancia única se enumeran en la siguiente tabla:
@@ -53,14 +53,14 @@ Los archivos de registro de instancia única se enumeran en la siguiente tabla:
 
 >[!IMPORTANT]
 >
->El directorio **redir** solo existe en los servidores de redirección. El subdirectorio **url** contiene las coincidencias de las direcciones URL que se van a redirigir y el subdirectorio **log** contiene los registros de seguimiento. Para generar registros de seguimiento, el módulo **trackinglogd** debe estar ejecutándose.
+>La variable **redir** solo existe en los servidores de redirección. La variable **url** El subdirectorio contiene las coincidencias de las direcciones URL que se van a redirigir y el subdirectorio **log** contiene los registros de seguimiento. Para generar registros de seguimiento, la variable **trackinglogd** debe estar ejecutándose.
 
-Para optimizar el rendimiento y el almacenamiento, el archivo logins.log se divide en varios archivos, uno cada día (logins.yy-mm-dd.log) con un máximo de 365 archivos retenidos. El número de días se puede cambiar en serverConf.xml, en syslogd (**maxNumberOfLoginsFiles** opción). Consulte la documentación del [archivo de configuración del servidor](../../installation/using/the-server-configuration-file.md#syslogd).
+Para optimizar el rendimiento y el almacenamiento, el archivo logins.log se divide en varios archivos, uno cada día (logins.yy-mm-dd.log) con un máximo de 365 archivos retenidos. El número de días se puede cambiar en serverConf.xml, en syslogd (**maxNumberOfLoginsFiles** ). Consulte la documentación de [archivo de configuración del servidor](../../installation/using/the-server-configuration-file.md#syslogd).
 
 De forma predeterminada, los registros están limitados a dos archivos de 10 MB por módulo y por instancia. El segundo archivo se llama: **`<modulename>`_2.log**. Por lo tanto, el tamaño de los registros está limitado a 2*10 MB por módulo y por instancia.
 
-Sin embargo, puede mantener archivos más grandes. Para habilitarlo, cambie el valor de la configuración **maxFileSizeMb=&quot;10&quot;** en el nodo **syslogd** del archivo **conf/serverConf.xml**. Este valor representa el tamaño máximo en MB de un archivo de registro.
+Sin embargo, puede mantener archivos más grandes. Para habilitar esto, cambie el valor de la variable **maxFileSizeMb=&quot;10&quot;** en la **syslogd** nodo de la variable **conf/serverConf.xml** archivo. Este valor representa el tamaño máximo en MB de un archivo de registro.
 
-Si desea mantener más niveles de detalle en los registros, puede iniciar los módulos de Adobe Campaign con el parámetro **-verbose**:
+Si desea mantener más niveles de detalle en los registros, puede iniciar los módulos de Adobe Campaign con la variable **-verbose** parámetro:
 
-**nlserver start  `<MODULE>`@`<INSTANCE>` -verbose**
+**inicio de nlserver `<MODULE>`@`<INSTANCE>` -verbose**

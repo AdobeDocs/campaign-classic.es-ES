@@ -6,7 +6,7 @@ exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 source-git-commit: 0c97efef21bfd3b8671847c3e1c27bb76cf167e4
 workflow-type: tm+mt
 source-wordcount: '1137'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 18%
 
 La infraestructura y la configuración deben actualizarse regularmente con las últimas versiones y correcciones de productos. Estas correcciones son necesarias para garantizar la continuidad del servicio y la seguridad. Además, se necesitarán actualizaciones para alinearse con los cambios de terceros.
 
-Como **cliente alojado o de Managed Services**, el Adobe le informará de las actualizaciones de la compilación a intervalos regulares. Se le pedirá que actualice según las recomendaciones para garantizar el cumplimiento.
+Como **Cliente alojado o Managed Services**, Adobe le informará de las actualizaciones de la compilación a intervalos regulares. Se le pedirá que actualice según las recomendaciones para garantizar el cumplimiento.
 
-Como **cliente On-Premise o híbrido**, debe actualizar su implementación a intervalos regulares en línea con las últimas versiones publicadas.
+Como **Cliente On-Premise o Híbrido**, debe actualizar la implementación a intervalos regulares en línea con las últimas versiones publicadas.
 
 Por motivos de seguridad, debe actualizar a una de las versiones que se indican a continuación. Además de los pasos de actualización estándar, se deben realizar algunas tareas manuales para asegurarse de que el entorno sea seguro y esté listo para los próximos cambios de sistemas de Adobe o de terceros.
 
@@ -41,7 +41,7 @@ Si su entorno se encuentra en una compilación menor que las enumeradas a contin
 * Versión 19.2.4 de Campaign. [Más información](../../rn/using/release--19-2.md)
 * Versión 19.1.8 de Campaign. [Más información](../../rn/using/release--19-1.md)
 
-Aprenda a comprobar su versión [en esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+Descubra cómo comprobar su versión [en esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 **¿Cómo realizar la actualización?**
 
@@ -59,7 +59,7 @@ Debe actualizar a una de las compilaciones más recientes que se enumeran arriba
 
 ## Actualización de la consola del cliente del Campaign Classic  {#acc-cc-updates}
 
-Las **ahora disponibles** versiones de la consola que se muestran a continuación deben instalarse para resolver una regresión identificada recientemente. Esta regresión impedía el uso de algunos componentes de la consola del cliente, como el selector de fechas y la administración de imágenes en los envíos. **La** actualización de la consola es obligatoria.
+La variable **ahora disponible** las siguientes versiones de la consola deben instalarse para resolver una regresión identificada recientemente. Esta regresión impedía el uso de algunos componentes de la consola del cliente, como el selector de fechas y la administración de imágenes en los envíos. **Actualización de la consola** es obligatorio.
 
 * Última compilación de Gold Standard 11 9032@10c2709. [Más información](../../rn/using/gold-standard.md)
 * Versión 20.1.4 de Campaign. [Más información](../../rn/using/release--20-1.md)
@@ -68,13 +68,13 @@ Las **ahora disponibles** versiones de la consola que se muestran a continuació
 
 ## Actualización del sistema Identity Management de Adobe (IMS)
 
-El servicio de identidad de Adobe (IMS) dejará de admitir versiones antiguas de Internet Explorer a partir del **30 de junio de 2021**. [Más información](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html).
+El servicio de identidad de Adobe (IMS) dejará de admitir versiones anteriores de Internet Explorer desde **30 de junio de 2021**. [Más información](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html).
 
 Se requiere una actualización de la consola del cliente de Campaign para garantizar la compatibilidad con Adobe IMS.
 
 **¿Se ha visto afectado?**
 
-Si se está conectando a Campaign [a través de un Adobe ID](../../integrations/using/about-adobe-id.md), a través del servicio Identity Management de Adobe (IMS), la actualización a una de las nuevas versiones que se enumeran a continuación es obligatoria:
+Si se está conectando a Campaign [a través de una Adobe ID](../../integrations/using/about-adobe-id.md), a través del servicio de Identity Management de Adobe (IMS), la actualización a una de las nuevas versiones que se enumeran a continuación es obligatoria:
 
 * Gold Standard 11. [Más información](../../rn/using/gold-standard.md)
 * Versión 21.1.1 de Campaign. [Más información](../../rn/using/latest-release.md)
@@ -83,9 +83,9 @@ Si se está conectando a Campaign [a través de un Adobe ID](../../integrations/
 * Versión 19.2.4 de Campaign. [Más información](../../rn/using/release--19-2.md)
 * Versión 19.1.8 de Campaign. [Más información](../../rn/using/release--19-1.md)
 
-Estas versiones incluyen un nuevo protocolo de conexión: la actualización es obligatoria tanto para el servidor de Campaign como para la consola del cliente para poder conectarse a Campaign después del **30 de junio de 2021**.
+Estas versiones incluyen un nuevo protocolo de conexión: la actualización es obligatoria para que el servidor de Campaign y la consola del cliente puedan conectarse a Campaign después de **30 de junio de 2021**.
 
-Aprenda a comprobar su versión [en esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+Descubra cómo comprobar su versión [en esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 **¿Cómo realizar la actualización?**
 
@@ -101,11 +101,11 @@ Una vez actualizadas todas las instancias, la consola de cliente también debe a
 
 ## Integración con Déclencheur de Experience Cloud {#acc-triggers-updates}
 
-El servicio de autenticación oAuth heredado ha llegado al final de su vida útil. La autenticación de integración de déclencheur, basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización, se ha trasladado a Adobe I/O. El modo de autenticación oAuth heredado con Campaign [se ha retirado](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=es) el **septiembre de 2021**. Los entornos alojados se benefician de una extensión hasta **23 de febrero de 2022**. Como cliente local o híbrido, póngase en contacto con el servicio de atención al cliente de Adobe para ampliar la asistencia hasta febrero de 2022. Debe proporcionar [el AppID de la aplicación OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) a Adobe.
+El servicio de autenticación oAuth heredado ha llegado al final de su vida útil. La autenticación de integración de déclencheur, basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización, se ha trasladado a Adobe I/O. Modo de autenticación oAuth heredado con Campaign [ha sido retirado](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=es) en **Septiembre de 2021**. Los entornos alojados se benefician de una extensión hasta el **23 de febrero de 2022**. Como cliente on-premise o híbrido, póngase en contacto con el Servicio de atención al cliente de Adobe para ampliar la asistencia hasta febrero de 2022. Debe proporcionar [el AppID de la aplicación OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) a Adobe.
 
 **¿Se ha visto afectado?**
 
-Si las instancias se ejecutan en una versión **anterior a Campaign 19.1.8, 20.2.4, Gold Standard 11**, está utilizando una versión anterior de la integración de Déclencheur mediante autenticación oAuth: **debe actualizar a una versión más reciente y pasar a Adobe I/O**.
+Si las instancias se ejecutan en un **Versión anterior a Campaign 19.1.8, 20.2.4, Gold Standard 11**, utilizará una versión anterior de la integración de Déclencheur mediante autenticación oAuth: **debe actualizar a una versión más reciente y pasar a Adobe I/O**.
 
 La actualización a una de las nuevas versiones que se enumeran a continuación es obligatoria:
 
@@ -114,11 +114,11 @@ La actualización a una de las nuevas versiones que se enumeran a continuación 
 * Versión 20.2.5 de Campaign. [Más información](../../rn/using/release--20-2.md)
 * Versión 19.1.8 de Campaign. [Más información](../../rn/using/release--19-1.md)
 
-Aprenda a comprobar su versión [en esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+Descubra cómo comprobar su versión [en esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 **¿Cómo realizar la actualización?**
 
-Una vez que las instancias se actualizan a una versión más reciente, todos los clientes deben seguir el procedimiento [para pasar al nuevo modo de autenticación](../../integrations/using/configuring-adobe-io.md). Esto requiere que genere el nuevo token de Adobe I/O y lo utilice en la implementación.  
+Una vez que las instancias se actualizan a una versión más reciente, todos los clientes deben seguir la [paso del procedimiento al nuevo modo de autenticación](../../integrations/using/configuring-adobe-io.md). Esto requiere que genere el nuevo token de Adobe I/O y lo utilice en la implementación.  
 
 Además, en el caso de entornos híbridos, los clientes deben asegurarse de que la canalización esté configurada en una instancia intermediaria. [Más información](../../integrations/using/configuring-pipeline.md).
 
@@ -128,13 +128,13 @@ Además, en el caso de entornos híbridos, los clientes deben asegurarse de que 
 
 ### API de proveedor de APNS basada en HTTP/2
 
-Desde el **31 de marzo de 2021**, el servicio de notificaciones push de Apple (APNS) ya no es compatible con el protocolo binario heredado. [Más información](https://developer.apple.com/news/?id=c88acm2b).
+Since **31 de marzo de 2021**, el servicio de notificaciones push de Apple (APNS) ya no admite el protocolo binario heredado. [Más información](https://developer.apple.com/news/?id=c88acm2b).
 
 **¿Estás afectado?**
 
-Si las instancias se ejecutan en una versión **anterior a Campaign 21.1,** y envía notificaciones push con el protocolo binario heredado de Apple, debe actualizar a la API del proveedor de APNS basada en HTTP/2.
+Si las instancias se ejecutan en un **versión anterior a Campaign 21.1,** y si envía notificaciones push con el protocolo binario de Apple heredado, debe actualizar a la API de proveedor de APNS basada en HTTP/2.
 
-Aprenda a comprobar su versión [en esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+Descubra cómo comprobar su versión [en esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 **¿Cómo realizar la actualización?**
 
@@ -144,9 +144,9 @@ Como cliente local/híbrido, debe actualizar la configuración. [Aprenda a migra
 
 ### Actualizaciones de certificados raíz de APNS
 
-El 29 de marzo de 2021, una actualización de la infraestructura del servicio de notificaciones push de Apple (APNS) afectó al canal iOS de Adobe Campaign Classic. Un cambio en la configuración del sistema operativo es **obligatorio** para evitar la interrupción del canal push de iOS.
+El 29 de marzo de 2021, una actualización de la infraestructura del servicio de notificaciones push de Apple (APNS) afectó al canal iOS de Adobe Campaign Classic. Un cambio en la configuración de SO es **mandatory** para evitar la interrupción del canal push de iOS.
 
-Obtenga más información sobre los cambios de APNS [en esta página](https://developer.apple.com/news/?id=7gx0a2lp).
+Más información sobre los cambios de APNS [en esta página](https://developer.apple.com/news/?id=7gx0a2lp).
 
 **¿Se ha visto afectado?**
 

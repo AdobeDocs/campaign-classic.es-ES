@@ -65,7 +65,7 @@ Dado que el equipo no es un servidor de seguimiento, no tenga en cuenta la integ
 En los ejemplos siguientes, los parámetros de la instancia son:
 
 * Nombre de la instancia: **demostración**
-* Máscara DNS: **console.campaign.net*** (solo para conexiones de consola de cliente e informes)
+* Máscara DNS: **console.campaign.net*** (solo para conexiones de consola del cliente y para informes)
 * Idioma: Inglés
 * Base de datos: **campaña:demo@dbsrv**
 
@@ -77,14 +77,14 @@ Los pasos son los siguientes:
 
 1. Instale el servidor de Adobe Campaign.
 
-   Para obtener más información sobre esto, consulte [Requisitos previos para la instalación de Campaign en Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md) (Linux) y [Requisitos previos para la instalación de Campaign en Windows](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) (Windows).
+   Para obtener más información, consulte [Requisitos previos para la instalación de Campaign en Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md) (Linux) y [Requisitos previos para la instalación de Campaign en Windows](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) (Windows).
 
 1. Siga el procedimiento de integración del servidor web (IIS, Apache) descrito en las siguientes secciones:
 
    * Para Linux: [Integración en un servidor web para Linux](../../installation/using/integration-into-a-web-server-for-linux.md)
    * Para Windows: [Integración en un servidor web para Windows](../../installation/using/integration-into-a-web-server-for-windows.md)
 
-1. Cree la instancia **demo**. Hay dos formas de hacerlo:
+1. Cree la variable **demostración** instancia. Hay dos formas de hacerlo:
 
    * Cree la instancia a través de la consola:
 
@@ -103,9 +103,9 @@ Los pasos son los siguientes:
       Para obtener más información, consulte [Creación de una instancia](../../installation/using/command-lines.md#creating-an-instance).
    El nombre de la instancia es el mismo que el del servidor de aplicaciones.
 
-   La conexión al servidor con el módulo **nlserver web** (páginas espejo, baja) se realiza a partir de la dirección URL del equilibrador de carga (tracking.campaign.net).
+   La conexión al servidor con la variable **nlserver web** (páginas espejo, baja) se realizará a partir de la dirección URL del equilibrador de carga (tracking.campaign.net).
 
-1. Cambie **internal** por el mismo que el servidor de aplicaciones.
+1. Cambie el **internal** al mismo que el servidor de aplicaciones.
 
    Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
@@ -115,11 +115,11 @@ Los pasos son los siguientes:
    nlserver config -setdblogin:PostgreSQL:campaign:demo@dbsrv -instance:demo
    ```
 
-1. En los archivos **config-default.xml** y **config-demo.xml**, habilite los módulos **web**, **trackinglogd** y **mta**.
+1. En el **config-default.xml** y **config-demo.xml** archivos, habilite **web**, **trackinglogd** y **mta** módulos.
 
    Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
-1. Edite el archivo **serverConf.xml** y rellene:
+1. Edite el **serverConf.xml** y rellene:
 
    * la configuración DNS del módulo MTA:
 
@@ -129,9 +129,9 @@ Los pasos son los siguientes:
 
       >[!NOTE]
       >
-      >El parámetro **nameServers** solo se usa en Windows.
+      >La variable **nameServers** solo se usa en Windows.
 
-      Para obtener más información, consulte [Configuración de envío](configure-delivery-settings.md).
+      Para obtener más información, consulte [Configuración de entrega](configure-delivery-settings.md).
 
    * los servidores de seguimiento redundantes en los parámetros de redirección:
 
@@ -162,7 +162,7 @@ Los pasos son los siguientes:
    * Para Windows: [Inicio del servidor web y prueba de la configuración](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
 
 1. Inicie el servidor de Adobe Campaign.
-1. En la consola de Adobe Campaign, conéctese utilizando el inicio de sesión **admin** sin contraseña e inicie el asistente de implementación.
+1. En la consola de Adobe Campaign, conéctese utilizando la **admin** inicie sesión sin contraseña e inicie el asistente de implementación.
 
    Para obtener más información, consulte [Implementación de una instancia](../../installation/using/deploying-an-instance.md).
 
@@ -176,4 +176,4 @@ Los pasos son los siguientes:
 
    >[!NOTE]
    >
-   >Utilizamos la instancia existente de los dos servidores de seguimiento creados anteriormente y usamos el inicio de sesión **internal**.
+   >Utilizamos la instancia existente de los dos servidores de seguimiento creados anteriormente y usamos la variable **internal** inicio de sesión.

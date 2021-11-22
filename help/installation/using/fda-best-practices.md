@@ -19,7 +19,7 @@ ht-degree: 40%
 
 ## Optimización de la personalización de correo electrónico con datos externos {#optimizing-email-personalization-with-external-data}
 
-Puede preprocesar la personalización de mensajes en un flujo de trabajo dedicado. Para ello, utilice la opción **[!UICONTROL Prepare the personalization data with a workflow]**, disponible en la pestaña **[!UICONTROL Analysis]** de las propiedades de envío.
+Puede preprocesar la personalización de mensajes en un flujo de trabajo dedicado. Para ello, utilice el **[!UICONTROL Prepare the personalization data with a workflow]** , disponible en la **[!UICONTROL Analysis]** de las propiedades de entrega.
 
 Durante el análisis de envío, esta opción crea y ejecuta automáticamente un flujo de trabajo que almacena todos los datos vinculados al objetivo en una tabla temporal, incluidos los datos de tablas vinculadas en una base de datos externa.
 
@@ -29,13 +29,13 @@ Esta opción mejora significativamente el rendimiento al ejecutar el paso de per
 
 En varias actividades de flujo de trabajo de Adobe Campaign, puede utilizar los datos almacenados en una base de datos externa.
 
-* **Filter on external data** : la actividad  [](../../workflow/using/targeting-data.md#selecting-data) Queryactivity permite añadir datos externos y utilizarlos en las configuraciones de filtro definidas. Para obtener más información, consulte [esta página](../../workflow/using/targeting-data.md#selecting-data).
+* **Filtro en datos externos** - El [Consulta](../../workflow/using/targeting-data.md#selecting-data) actividad le permite agregar datos externos y utilizarlos en las configuraciones de filtro definidas. Para obtener más información, consulte [esta página](../../workflow/using/targeting-data.md#selecting-data).
 
-* **Crear subconjuntos** : la  [](../../workflow/using/split.md) actividad Dividir permite crear subconjuntos. Puede utilizar datos externos para definir los criterios de filtrado que deben utilizarse. Para obtener más información, consulte [esta página](../../workflow/using/split.md).
+* **Crear subconjuntos** - El [Split](../../workflow/using/split.md) actividad le permite crear subconjuntos. Puede utilizar datos externos para definir los criterios de filtrado que deben utilizarse. Para obtener más información, consulte [esta página](../../workflow/using/split.md).
 
-* **Cargar base de datos externa** : puede utilizar los datos externos en la actividad  [Carga de datos](../../workflow/using/data-loading--rdbms-.md)  (RDBMS) . Obtenga más información en [esta página](../../workflow/using/data-loading--rdbms-.md).
+* **Cargar base de datos externa** - Puede utilizar los datos externos en la variable [Carga de datos](../../workflow/using/data-loading--rdbms-.md) (RDBMS). Obtenga más información en [esta página](../../workflow/using/data-loading--rdbms-.md).
 
-* **Adición de información y vínculos** : la actividad  [](../../workflow/using/enrichment.md) Enrichment permite agregar datos adicionales a la tabla de trabajo del flujo de trabajo y vínculos a una tabla externa. En este contexto, puede utilizar datos de una base de datos externa. Obtenga más información en [esta página](../../workflow/using/enrichment.md).
+* **Adición de información y vínculos** - El [Enriquecimiento](../../workflow/using/enrichment.md) activity permite añadir datos adicionales a la tabla de trabajo del flujo de trabajo y enlaces a una tabla externa. En este contexto, puede utilizar datos de una base de datos externa. Obtenga más información en [esta página](../../workflow/using/enrichment.md).
 
 ## Limitaciones de FDA {#limitations}
 

@@ -19,7 +19,7 @@ ht-degree: 2%
 
 ## Mantenimiento de aplicaciones {#application-maintenance}
 
-Adobe Campaign proporciona un flujo de trabajo integrado que le permite programar determinadas tareas de mantenimiento de la base de datos: el flujo de trabajo **database cleanup workflow**. Este flujo de trabajo lleva a cabo las siguientes tareas:
+Adobe Campaign proporciona un flujo de trabajo integrado que le permite programar determinadas tareas de mantenimiento de la base de datos: el **flujo de trabajo de limpieza de la base de datos**. Este flujo de trabajo lleva a cabo las siguientes tareas:
 
 * eliminación de registros caducados,
 * eliminación de registros huérfanos y reinicio del estado de los objetos caducados,
@@ -67,18 +67,18 @@ Hay varias estrategias disponibles:
    <td> Desfragmentación en línea<br /> </td> 
    <td> La mayoría de los motores de base de datos proporcionan métodos de desfragmentación.<br /> </td> 
    <td> Utilice simplemente el método de desfragmentación de la base de datos. Estos métodos generalmente se ocupan de los problemas de integridad bloqueando los datos durante la desfragmentación.<br /> </td> 
-   <td> Dependiendo de la base de datos, estos métodos de desfragmentación se pueden proporcionar como opción de RDBMS (Oracle) y no siempre son la forma más eficiente de lidiar con tablas más grandes.<br /> </td> 
+   <td> Dependiendo de la base de datos, estos métodos de desfragmentación pueden proporcionarse como una opción de RDBMS (Oracle) y no siempre son la forma más eficiente de lidiar con tablas más grandes.<br /> </td> 
   </tr> 
   <tr> 
    <td> Volcar y restaurar<br /> </td> 
-   <td> Volcar la tabla a un archivo, eliminar la tabla de la base de datos y restaurar desde el volcado.<br /> </td> 
-   <td> Esta es la forma más sencilla de desfragmentar una tabla. También la única solución cuando la base de datos está casi llena.<br /> </td> 
+   <td> Volque la tabla a un archivo, elimine la tabla de la base de datos y restaure el volcado.<br /> </td> 
+   <td> Esta es la forma más sencilla de desfragmentar una tabla. También es la única solución cuando la base de datos está casi llena.<br /> </td> 
    <td> Como la tabla se elimina y se vuelve a crear, la aplicación no se puede dejar en línea, ni siquiera en modo de solo lectura (la tabla no está disponible durante la fase de restauración).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Duplicar, cambiar el nombre y soltar<br /> </td> 
-   <td> Esto crea una copia de una tabla y sus índices, luego reemplaza el existente y cambia el nombre de la copia para que ocupe su lugar.<br /> </td> 
-   <td> Este método es más rápido que el primer método, ya que genera menos IO (sin copia como archivo y leer desde este archivo).<br /> </td> 
+   <td> Duplicar, cambiar nombre y soltar<br /> </td> 
+   <td> Esto crea una copia de una tabla y sus índices, luego reemplaza la existente y cambia el nombre de la copia para que ocupe su lugar.<br /> </td> 
+   <td> Este método es más rápido que el primer método, ya que genera menos IO (sin copia como archivo y lectura desde este archivo).<br /> </td> 
    <td> Requiere el doble de espacio.<br /> Se deben detener todos los procesos activos que escriben en la tabla durante el proceso. Sin embargo, los procesos de lectura no se verán afectados, ya que la tabla se intercambiará en el último momento una vez que se vuelva a crear. <br /> </td> 
   </tr> 
  </tbody> 

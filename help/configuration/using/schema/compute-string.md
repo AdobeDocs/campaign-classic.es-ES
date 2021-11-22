@@ -35,11 +35,11 @@ Ninguno
 
 ## Descripción {#description-1}
 
-El elemento `<compute-string>` permite generar una cadena basada en una expresión XTK para mostrar una etiqueta &quot;creada&quot; en la interfaz basada en varios valores.
+La variable `<compute-string>` element permite generar una cadena basada en una expresión XTK para mostrar una etiqueta &quot;creada&quot; en la interfaz basada en varios valores.
 
 ## Uso y contexto de uso {#use-and-context-of-use-1}
 
-Cuando no se define `<compute-string>` , se introduce un elemento `<compute-string>` de forma predeterminada con los valores de la clave principal en el esquema.
+Cuando no `<compute-string>` se define, `<compute-string>` se introduce de forma predeterminada con los valores de la clave principal en el esquema .
 
 ## Descripción del atributo {#attribute-description-1}
 

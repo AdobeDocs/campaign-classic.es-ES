@@ -17,7 +17,7 @@ ht-degree: 62%
 
 ![](../../assets/v7-only.svg)
 
-Como parte de la [Iniciativa Gold Standard](../../rn/using/gold-standard.md), Adobe elimina el centro de datos heredado. Las instancias de Campaign Classic deben transferirse a Public Cloud Amazon Web Services (AWS). [Obtenga más información sobre esta iniciativa](dc-migration.md).
+Como parte del [Iniciativa Gold Standard](../../rn/using/gold-standard.md), el Adobe de elimina el centro de datos heredado. Las instancias de Campaign Classic deben transferirse a la nube pública de Amazon Web Service (AWS). [Obtenga más información sobre esta iniciativa](dc-migration.md).
 
 A continuación se muestra un conjunto de preguntas comunes sobre este proyecto, el impacto en los entornos de Campaign y otros recursos útiles.
 
@@ -47,11 +47,11 @@ A continuación se enumeran los efectos globales en la base de datos e infraestr
 
    Como primer paso, vamos a mantener la misma compilación de Campaign Classic con la migración.
 
-   En un paso adicional, procederemos a actualizar a la última versión de Campaign Classic GA. Para obtener más información, consulte las [Preguntas frecuentes sobre la actualización de compilación](../../platform/using/faq-build-upgrade.md) y las [notas de la versión de Campaign Gold Standard](../../rn/using/gold-standard.md).
+   En un paso adicional, procederemos a actualizar a la última versión de Campaign Classic GA. Para obtener más información, consulte [Preguntas frecuentes sobre la actualización de versiones](../../platform/using/faq-build-upgrade.md) y [Notas de la versión de Campaign Gold Standard](../../rn/using/gold-standard.md).
 
 * **¿Cuál es el plan para abordar cualquier problema posterior a la migración?**
 
-   Se realizarán pruebas exhaustivas antes de que se migraran los sistemas de producción. Sin embargo, en caso de problemas, [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support) seguirá siendo el principal punto de contacto. Adobe ha creado un equipo de expertos para proporcionar asistencia avanzada, en caso de que fuera necesario.
+   Se realizarán pruebas exhaustivas antes de que se migraran los sistemas de producción. Sin embargo, en caso de problemas, [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support) seguirá siendo el principal punto de contacto. Adobe ha creado un equipo de expertos para proporcionar asistencia avanzada, en caso de que fuera necesario.
 
 ## Impacto de la capacidad de entrega
 
@@ -63,7 +63,7 @@ A continuación, se detalla el impacto global en las direcciones IP, la lista de
 
    La dirección IP de los servidores de Adobe cambiará. Por lo tanto, es posible que los clientes tengan que agregar esas nuevas direcciones IP en la lista de permitidos de su sistema.
 
-   [Haga clic ](#config) aquí para obtener más información sobre la IP de la lista de permitidos.
+   [Haga clic aquí](#config) para obtener más información sobre la IP en la lista de permitidos.
 
 * **¿Cómo gestionaremos el puerto agregado a la lista de permitidos para el acceso SFTP/FTP?**
 
@@ -73,7 +73,7 @@ A continuación, se detalla el impacto global en las direcciones IP, la lista de
 
    La dirección IP de los servidores de Adobe cambiará. Por lo tanto, es posible que los clientes tengan que agregar esas nuevas direcciones IP a la lista de permitidos de su sistema.
 
-   [Haga clic ](#config) aquí para obtener más información sobre la IP de la lista de permitidos.
+   [Haga clic aquí](#config) para obtener más información sobre la IP en la lista de permitidos.
 
 * **¿Cómo se gestionará la delegación de subdominios?**
 
@@ -87,7 +87,7 @@ A continuación, se detalla el impacto global en las direcciones IP, la lista de
 
 * **¿Habrá un cambio en el subdominio de Neolane.net a campaign.adobe.com?**
 
-   Tanto `neolane.net` como `campaign.adobe.com` estarán disponibles después de la migración. Para hacerlo simple: redireccionaremos neolane.net a nuevas instancias en la nube pública (AWS), por lo que no se requieren cambios por parte del cliente.
+   Ambas `neolane.net` y `campaign.adobe.com` estará en su lugar después de la migración. Para hacerlo simple: redireccionaremos neolane.net a nuevas instancias en la nube pública (AWS), por lo que no se requieren cambios por parte del cliente.
 
 * **¿Cuál es el plan para la preparación de las IP?**
 
@@ -121,7 +121,7 @@ La migración a la nube pública incluirá nuevas direcciones IP para los servid
 
 Veamos los dos casos:
 
-* Tráfico entrante: Toda la actividad de red que se inicia desde sus sistemas o desde cualquier otro tercero en los servidores de Adobe Campaign. La configuración será gestionada por Adobe y, a continuación, se copiará de la nube heredada a la nube pública durante la migración. A continuación, la conectividad para el tráfico entrante se conservará tal cual después de la migración y no se espera ninguna acción por parte del cliente
+* Tráfico entrante: Toda la actividad de red que se inicia desde sus sistemas o desde cualquier otro tercero en los servidores de Adobe Campaign. La configuración será gestionada por Adobe y, a continuación, se copiará de la nube heredada a la nube pública durante la migración. A continuación, la conectividad para el tráfico entrante se mantendrá tal cual después de la migración y no se espera ninguna acción por parte del cliente
 
 * Tráfico saliente: Toda la actividad de red que inician los servidores de Adobe Campaign en su sistema de información o en cualquier otro tercero (por ejemplo: proveedor de SMS). En función de las políticas de seguridad implementadas en su organización, el cambio de IP puede requerir la operación de lista de permitidos de su sistema de información o de cualquier otro tercero
 
@@ -133,7 +133,7 @@ A continuación se enumeran los efectos globales en la configuración, conectivi
 
    Sí. Las integraciones de terceros, los proveedores de SMS por ejemplo, deben agregar nuevas direcciones IP de servidores de aplicaciones de Adobe Campaign a la lista de permitidos.
 
-* **¿Afectará la migración a la conectividad con Adobe Analytics mediante el conector Genesis? ¿Qué sucede si se añaden direcciones IP de campaña a la lista de permitidos de Adobe Analytics?**
+* **¿Afectará la migración a la conectividad con Adobe Analytics mediante el conector Genesis? ¿Qué sucede si se añaden direcciones IP de campaña a la lista de permitidos en el lado de Adobe Analytics?**
 
    Las direcciones IP de los servidores de aplicaciones de Adobe Campaign cambiarán. Este paso será gestionado por el Servicio de atención al cliente de Adobe después de la migración.
 
@@ -155,7 +155,7 @@ A continuación se enumeran los efectos globales en la configuración, conectivi
 
    La dirección IP de los servidores de Adobe cambiará. Por lo tanto, es posible que los clientes tengan que agregar esas nuevas direcciones IP a la lista de permitidos de su sistema.
 
-   [Haga clic ](#config) aquí para obtener más información sobre la IP en la lista de permitidos.
+   [Haga clic aquí](#config) para obtener más información sobre la IP en la lista de permitidos.
 
 * **¿Nos aseguraremos de que todos los parámetros de configuración de la memoria JavaScript se establezcan correctamente después de la migración?**
 
@@ -163,13 +163,13 @@ A continuación se enumeran los efectos globales en la configuración, conectivi
 
 * **¿Existe algún riesgo para el acceso a determinadas extensiones de archivo?**
 
-   Es posible que el cliente desee permitir que los archivos de fuente y los archivos de la reunión de Outlook se carguen en la carpeta de recursos públicos. Esta configuración se realiza en el archivo `config-<instance>.xml` actual. Esto se copiará junto a los archivos de configuración.
+   Es posible que el cliente desee permitir que los archivos de fuente y los archivos de la reunión de Outlook se carguen en la carpeta de recursos públicos. Esta configuración se realiza en la versión actual `config-<instance>.xml` archivo. Esto se copiará junto a los archivos de configuración.
 
 * **¿Cambiará la zona horaria en el nuevo servidor? ¿Podrá el cliente mantener su huso horario actual?**
 
    Puede cambiar según la nueva ubicación de los servidores. Sin embargo, el cliente podrá conservar su huso horario actual.
 
-   [Haga clic ](../../workflow/using/managing-time-zones.md) aquí para obtener más información sobre la administración de huso horario en Adobe Campaign Classic v7.
+   [Haga clic aquí](../../workflow/using/managing-time-zones.md) para obtener más información sobre la administración de huso horario en Adobe Campaign Classic v7.
 
 
 ## Seguridad y permisos
@@ -178,7 +178,7 @@ A continuación se enumeran los efectos globales en la configuración, conectivi
 
 Con esta migración a la nube pública (AWS), los entornos de los clientes se mantendrán actualizados con todos los requisitos de seguridad necesarios. Esto incluye:
 
-* Revisiones periódicas de seguridad y sistema operativo más recientes
+* Revisiones periódicas de seguridad y SO más recientes
 * Aislamiento de la infraestructura por cliente
 * Revisiones de seguridad y auditoría administradas para admitir la infraestructura de nube, como equilibradores de carga, reglas de seguridad de red y cifrado de almacenamiento.
 

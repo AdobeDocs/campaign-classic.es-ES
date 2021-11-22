@@ -24,14 +24,14 @@ Esta es una lista de módulos afectados por problemas frecuentes:
   <tr> 
    <th> Módulo </th> 
    <th> Ámbito de ejecución </th> 
-   <th> Solución de problemas </th> 
+   <th> Resolución de problemas </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> exportar </td> 
    <td> Ejecución de un proceso de exportación<br /> </td> 
-   <td> El operador que programó esta exportación debe volver a iniciarla. delta o reinicio completo.<br /> </td> 
+   <td> El operador que programó esta exportación debe volver a iniciarla. delta o relanzamiento completo.<br /> </td> 
   </tr> 
   <tr> 
    <td> importar </td> 
@@ -46,12 +46,12 @@ Esta es una lista de módulos afectados por problemas frecuentes:
   <tr> 
    <td> mta </td> 
    <td> Entrega correos electrónicos<br /> </td> 
-   <td> Compruebe este módulo si ya no se están enviando correos.<br /> </td> 
+   <td> Compruebe este módulo si ya no se están enviando correos electrónicos.<br /> </td> 
   </tr> 
   <tr> 
    <td> stat </td> 
-   <td> Mantiene las estadísticas de conexión MTA<br /> </td> 
-   <td> Compruebe este módulo si ya no se están enviando correos.<br /> </td> 
+   <td> Mantiene las estadísticas de conexión de MTA<br /> </td> 
+   <td> Compruebe este módulo si ya no se están enviando correos electrónicos.<br /> </td> 
   </tr> 
   <tr> 
    <td> syslogd </td> 
@@ -65,8 +65,8 @@ Esta es una lista de módulos afectados por problemas frecuentes:
   </tr> 
   <tr> 
    <td> trackinglogd </td> 
-   <td> Seguimiento de la escritura de registros y del servidor de depuración<br /> </td> 
-   <td> Compruebe este módulo si los registros de seguimiento ya no se reenvían y no hay rastros de registros en los archivos del servidor. Consulte <a href="../../production/using/tracking-logs-issues.md" target="_blank">Problemas de registros de seguimiento</a>.<br /> </td> 
+   <td> Seguimiento de la escritura y depuración de registros en el servidor<br /> </td> 
+   <td> Compruebe este módulo si los registros de seguimiento ya no se reenvían y no hay rastros de registros en los archivos del servidor. Consulte <a href="../../production/using/tracking-logs-issues.md" target="_blank">Problemas de registro de seguimiento</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> watchdog </td> 
@@ -76,12 +76,12 @@ Esta es una lista de módulos afectados por problemas frecuentes:
   <tr> 
    <td> web </td> 
    <td> Servidor de aplicaciones (HTTP y SOAP)<br /> </td> 
-   <td> Compruebe este módulo si la consola y las conexiones web no funcionan y cree un déclencheur de error de tipo <strong>xtk:session</strong><br /> </td> 
+   <td> Compruebe este módulo si la consola y las conexiones web no funcionan y déclencheur un <strong>xtk:session</strong> error de tipo<br /> </td> 
   </tr> 
   <tr> 
    <td> wfserver </td> 
-   <td> Controla la ejecución de la instancia de flujo de trabajo.<br /> </td> 
-   <td> Si encuentra algún problema, reinicie este módulo. Si es necesario, aplique el procedimiento para aumentar la precisión de los registros detallados en la sección <a href="../../production/using/log-precision.md" target="_blank">Log accuracy</a>.<br /> </td> 
+   <td> Controla la ejecución de instancias de flujo de trabajo.<br /> </td> 
+   <td> Si encuentra algún problema, reinicie este módulo. Si es necesario, aplique el procedimiento para aumentar la precisión de los registros detallados en la <a href="../../production/using/log-precision.md" target="_blank">Precisión de registro</a> para obtener más información.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

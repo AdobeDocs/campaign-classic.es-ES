@@ -29,7 +29,7 @@ La siguiente lista contiene solo las tablas más sujetas a fragmentación. Los i
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Nombre de tabla  </strong><br /> </th> 
+   <th> <strong>Nombre de tabla </strong><br /> </th> 
    <th> <strong>Tamaño</strong><br /> </th> 
    <th> <strong>Tipo principal de actividad</strong><br /> </th> 
    <th> <strong>Comentarios</strong><br /> </th> 
@@ -92,7 +92,7 @@ La siguiente lista contiene solo las tablas más sujetas a fragmentación. Los i
   </tr> 
   <tr> 
    <td> NmsBroadLog<br /> </td> 
-   <td> Mayor<br /> </td> 
+   <td> Más grande<br /> </td> 
    <td> Inserciones, actualizaciones, eliminaciones<br /> </td> 
    <td> Esta es la tabla más grande del sistema. Hay un registro por mensaje enviado y estos registros se insertan, se actualizan para realizar un seguimiento del estado de entrega y se eliminan cuando se depura el historial. <br /> </td> 
   </tr> 
@@ -121,7 +121,7 @@ La siguiente lista contiene solo las tablas más sujetas a fragmentación. Los i
    <td> Solo cuando la instancia 5.10 (o posterior) se utiliza como instancia de mid-sourcing. Esta es una de las tablas más grandes de la base de datos. Hay un registro por mensaje enviado y estos registros se insertan, se actualizan para realizar un seguimiento del estado de entrega y se eliminan cuando se depura el historial. Cuando se utiliza intermediario, la recomendación es limitar el historial (normalmente menos de dos meses), por lo que esta tabla sigue siendo razonable en términos de tamaño (menos de 30 Go para 60 millones de filas, datos+índice), pero es muy importante reconstruirla de vez en cuando. <br /> </td> 
   </tr> 
   <tr> 
-   <td> NmsBroadLogRcp (cuando se utiliza la tabla NmsRecipient) <br /> </td> 
+   <td> NmsBroadLogRcp (cuando se utiliza la tabla NmsRecipient ) <br /> </td> 
    <td> Grande<br /> </td> 
    <td> Inserciones, actualizaciones, eliminaciones<br /> </td> 
    <td> Esta es la tabla más grande del sistema. Hay un registro por mensaje enviado y estos registros se insertan, se actualizan para realizar un seguimiento del estado de entrega y se eliminan cuando se depura el historial. Tenga en cuenta que en la versión 5.10, esta tabla es más pequeña que el equivalente de 4.05 (NmsBroadLog), ya que el texto del mensaje SMTP se factoriza en la tabla NmsBroadLogMsg de la versión 5.10. Sin embargo, sigue siendo esencial volver a indexar esta tabla con regularidad (para empezar, cada dos semanas) y reconstruirla completamente de vez en cuando (una vez al mes o cuando el rendimiento se vea afectado). <br /> </td> 
@@ -133,7 +133,7 @@ La siguiente lista contiene solo las tablas más sujetas a fragmentación. Los i
    <td> Igual que NmsBroadLogRcp pero con una tabla de destinatarios externa. Adapte AAAA y Xxx con los valores de la asignación de envíos. <br /> </td> 
   </tr> 
   <tr> 
-   <td> NmsTrackingLogRcp (cuando se utiliza la tabla NmsRecipient) <br /> </td> 
+   <td> NmsTrackingLogRcp (cuando se utiliza la tabla NmsRecipient ) <br /> </td> 
    <td> Grande<br /> </td> 
    <td> Inserciones, eliminaciones<br /> </td> 
    <td> Los registros de seguimiento se insertan y eliminan cuando se depura el historial, pero no se actualizan. El volumen depende de la duración de la retención de datos. <br /> </td> 
@@ -145,7 +145,7 @@ La siguiente lista contiene solo las tablas más sujetas a fragmentación. Los i
    <td> Igual que NmsTrackingLogRcp pero con una tabla de destinatarios externa. Adapte AAAA y Xxx con los valores utilizados en la asignación de envíos. <br /> </td> 
   </tr> 
   <tr> 
-   <td> NmsBroadLogRtEvent (instancia de ejecución del centro de mensajes)<br /> </td> 
+   <td> NmsBroadLogRtEvent (instancia de ejecución del Centro de mensajes)<br /> </td> 
    <td> Grande<br /> </td> 
    <td> Inserciones, actualizaciones, eliminaciones<br /> </td> 
    <td> Similar a las otras tablas de broadlog, pero con NmsRtEvent en lugar de NmsRecipient.<br /> </td> 
@@ -154,7 +154,7 @@ La siguiente lista contiene solo las tablas más sujetas a fragmentación. Los i
    <td> NmsTrackingLogRtEvent( instancia de ejecución del centro de mensajes)<br /> </td> 
    <td> Grande<br /> </td> 
    <td> Inserciones, eliminaciones<br /> </td> 
-   <td> Similar a las otras tablas trackingLog, pero con la tabla NmsRtEvent en lugar de NmsRecipient.<br /> </td> 
+   <td> Similar a las otras tablas trackingLog , pero con la tabla NmsRtEvent en lugar de NmsRecipient.<br /> </td> 
   </tr> 
   <tr> 
    <td> NmsRtEvent (instancia de ejecución del centro de mensajes)<br /> </td> 
@@ -166,7 +166,7 @@ La siguiente lista contiene solo las tablas más sujetas a fragmentación. Los i
    <td> NmsEventHisto (instancia de control del centro de mensajes)<br /> </td> 
    <td> Grande<br /> </td> 
    <td> Inserciones, actualizaciones, eliminaciones<br /> </td> 
-   <td> Similar a NmsRtEvent. Esta tabla archiva todos los eventos de todas las instancias de ejecución. No se utiliza en ningún proceso en tiempo real, solo en los informes.<br /> </td> 
+   <td> Similar a NmsRtEvent. Esta tabla archiva todos los eventos de todas las instancias de ejecución. Solo se utiliza en informes sin proceso en tiempo real.<br /> </td> 
   </tr> 
   <tr> 
    <td> NmsMobileApp<br /> </td> 
@@ -203,4 +203,4 @@ La siguiente lista contiene solo las tablas más sujetas a fragmentación. Los i
 
 ## Tablas del cliente {#customer-tables}
 
-Además de la lista anterior, las tablas que contienen creados por clientes (que no existen en el modelo de datos de Adobe Campaign) durante la configuración de la plataforma también pueden estar sujetas a fragmentación, especialmente si se actualizan con frecuencia durante los procedimientos de carga de datos o sincronización. Estas tablas pueden formar parte del modelo de datos predeterminado de Adobe Campaign (por ejemplo, **NmsRecipient**). En este caso, es responsabilidad del administrador de la plataforma Adobe Campaign realizar una auditoría de su modelo de base de datos específico para encontrar estas tablas personalizadas. Estas tablas no se mencionan explícitamente en nuestros procedimientos de mantenimiento.
+Además de la lista anterior, las tablas que contienen creados por clientes (que no existen en el modelo de datos de Adobe Campaign) durante la configuración de la plataforma también pueden estar sujetas a fragmentación, especialmente si se actualizan con frecuencia durante los procedimientos de carga de datos o sincronización. Estas tablas pueden formar parte del modelo de datos predeterminado de Adobe Campaign (por ejemplo **NmsRecipient**). En este caso, es responsabilidad del administrador de la plataforma Adobe Campaign realizar una auditoría de su modelo de base de datos específico para encontrar estas tablas personalizadas. Estas tablas no se mencionan explícitamente en nuestros procedimientos de mantenimiento.

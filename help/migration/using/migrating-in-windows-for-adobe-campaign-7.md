@@ -21,8 +21,8 @@ ht-degree: 1%
 
 Para Windows, los pasos de migración son los siguientes:
 
-1. Detener servicios: consulte [Service stop](#service-stop).
-1. Haga una copia de seguridad de la base de datos: consulte [Copia de seguridad de la base de datos y la instalación actual](#back-up-the-database-and-the-current-installation).
+1. Detener servicios: consulte [Interrupción del servicio](#service-stop).
+1. Haga una copia de seguridad de la base de datos: consulte [Haga una copia de seguridad de la base de datos y la instalación actual](#back-up-the-database-and-the-current-installation).
 1. Migrar la plataforma: consulte [Implementación de Adobe Campaign v7](#deploying-adobe-campaign-v7).
 1. Migrar el servidor de redirección (IIS): consulte [Migración del servidor de redirección (IIS)](#migrating-the-redirection-server--iis-).
 1. Reiniciar servicio: consulte [Reinicio de los servicios](#re-starting-the-services).
@@ -32,13 +32,13 @@ Para Windows, los pasos de migración son los siguientes:
 
 En primer lugar, detenga todos los procesos con acceso a la base de datos en todos los equipos correspondientes.
 
-1. Todos los servidores que utilicen el módulo de redirección (**webmdl** servicio) deben detenerse. Para IIS, ejecute el siguiente comando:
+1. Todos los servidores que utilizan el módulo de redirección (**webmdl** servicio) debe detenerse. Para IIS, ejecute el siguiente comando:
 
    ```
    iisreset /stop
    ```
 
-1. El módulo **mta** y sus módulos secundarios (**mtachild**) deben detenerse utilizando los siguientes comandos:
+1. La variable **mta** y sus módulos secundarios (**mtachild**) debe detenerse mediante los siguientes comandos:
 
    ```
    nlserver stop mta@<instance name>
@@ -90,7 +90,7 @@ El procedimiento depende de la versión anterior de Adobe Campaign.
 ### Migración desde Adobe Campaign v5.11 {#migrating-from-adobe-campaign-v5-11}
 
 1. Haga una copia de seguridad de la base de datos de Adobe Campaign.
-1. Realice una copia de seguridad del directorio **Neolane v5** utilizando el siguiente comando:
+1. Haga una copia de seguridad de **Neolane v5** utilizando el siguiente comando:
 
    ```
    ren "Neolane v5" "Neolane v5.back"
@@ -98,7 +98,7 @@ El procedimiento depende de la versión anterior de Adobe Campaign.
 
    >[!IMPORTANT]
    >
-   >Como medida de precaución, le recomendamos que comprima la carpeta **Neolane v5.back** y la guarde en otra ubicación segura que no sea el servidor.
+   >Como precaución, le recomendamos que comprima el **Neolane v5.back** y guárdelo en cualquier otra ubicación segura que no sea el servidor.
 
 1. En la consola de administración de servicios de windows, deshabilite el inicio automático del servicio del servidor de aplicaciones 5.11. También puede utilizar el siguiente comando:
 
@@ -106,7 +106,7 @@ El procedimiento depende de la versión anterior de Adobe Campaign.
    sc config nlserver5 start= disabled
    ```
 
-1. Edite el **config-`<instance name>`.xml** (en el **Neolane v5. back** folder) para evitar las **mta**, **wfserver**, **stat**, etc. de inicio automático. Por ejemplo, reemplace **autoStart** por **_autoStart**.
+1. Edite el **config-`<instance name>`.xml** (en el **Neolane v5. back** ) para evitar que **mta**, **wfserver**, **stat**, etc. de inicio automático. Por ejemplo, reemplace **autoStart** con **_autoStart**.
 
    ```
    <?xml version='1.0'?>
@@ -130,7 +130,7 @@ El procedimiento depende de la versión anterior de Adobe Campaign.
 ### Migración desde Adobe Campaign v6.02 {#migrating-from-adobe-campaign-v6-02}
 
 1. Haga una copia de seguridad de la base de datos de Adobe Campaign.
-1. Realice una copia de seguridad del directorio **Neolane v6** utilizando el siguiente comando:
+1. Haga una copia de seguridad de **Neolane v6** utilizando el siguiente comando:
 
    ```
    ren "Neolane v6" "Neolane v6.back"
@@ -138,7 +138,7 @@ El procedimiento depende de la versión anterior de Adobe Campaign.
 
    >[!IMPORTANT]
    >
-   >Como medida de precaución, le recomendamos que comprima la carpeta **Neolane v6.back** y la guarde en otra ubicación segura que no sea el servidor.
+   >Como precaución, le recomendamos que comprima el **Neolane v6.back** y guárdelo en cualquier otra ubicación segura que no sea el servidor.
 
 1. En el administrador de servicios de Windows, desactive el inicio automático del servidor de aplicaciones 6.02. También puede utilizar el siguiente comando:
 
@@ -146,7 +146,7 @@ El procedimiento depende de la versión anterior de Adobe Campaign.
    sc config nlserver6 start= disabled
    ```
 
-1. Edite el **config-`<instance name>`.xml** (en el **Neolane v6. back** folder) para evitar las **mta**, **wfserver**, **stat**, etc. de inicio automático. Por ejemplo, reemplace **autoStart** por **_autoStart**.
+1. Edite el **config-`<instance name>`.xml** (en el **Neolane v6. back** ) para evitar que **mta**, **wfserver**, **stat**, etc. de inicio automático. Por ejemplo, reemplace **autoStart** con **_autoStart**.
 
    ```
    <?xml version='1.0'?>
@@ -170,7 +170,7 @@ El procedimiento depende de la versión anterior de Adobe Campaign.
 ### Migración desde Adobe Campaign v6.1 {#migrating-from-adobe-campaign-v6-1}
 
 1. Haga una copia de seguridad de la base de datos de Adobe Campaign.
-1. Realice una copia de seguridad del directorio **Adobe Campaign v6** utilizando el siguiente comando:
+1. Haga una copia de seguridad de **Adobe Campaign v6** utilizando el siguiente comando:
 
    ```
    ren "Adobe Campaign v6" "Adobe Campaign v6.back"
@@ -178,7 +178,7 @@ El procedimiento depende de la versión anterior de Adobe Campaign.
 
    >[!IMPORTANT]
    >
-   >Como medida de precaución, le recomendamos que comprima la carpeta **Adobe Campaign v6.back** y la guarde en otra ubicación segura que no sea el servidor.
+   >Como precaución, le recomendamos que comprima el **Adobe Campaign v6.back** y guárdelo en cualquier otra ubicación segura que no sea el servidor.
 
 1. En la consola de administración de servicios de windows, deshabilite el inicio automático del servicio del servidor de aplicaciones 6.11. También puede utilizar el siguiente comando:
 
@@ -195,15 +195,15 @@ La implementación de Adobe Campaign consta de dos etapas:
 
 Para implementar Adobe Campaign, siga los siguientes pasos:
 
-1. Instale la versión más reciente de Adobe Campaign v7 ejecutando el archivo de instalación **setup.exe**. Para obtener más información sobre la instalación del servidor Adobe Campaign en Windows, consulte [esta sección](../../installation/using/installing-the-server.md).
+1. Instale la versión 7 de Adobe Campaign más reciente ejecutando el **setup.exe** archivo de instalación. Para obtener más información sobre la instalación del servidor Adobe Campaign en Windows, consulte [esta sección](../../installation/using/installing-the-server.md).
 
    ![](assets/migration_wizard_1_7.png)
 
    >[!NOTE]
    >
-   >Adobe Campaign v7 se instala de forma predeterminada en el directorio **C:\Program Files\Adobe\Adobe Campaign v7**.
+   >Adobe Campaign v7 se instala de forma predeterminada en la **C:\Program Files\Adobe\Adobe Campaign v7** directorio.
 
-1. Para que el programa de instalación de la consola del cliente esté disponible, copie el archivo **setup-client-7.0.XXXX.exe** en el directorio de instalación de Adobe Campaign: **C:\Program Files\Adobe\Adobe Campaign v7\datakit\nl\eng\jsp**.
+1. Para que el programa de instalación de la consola del cliente esté disponible, copie el **setup-client-7.0.XXXX.exe** en el directorio de instalación de Adobe Campaign: **C:\Program Files\Adobe\Adobe Campaign v7\datakit\nl\eng\jsp**.
 
    >[!NOTE]
    >
@@ -218,9 +218,9 @@ Para implementar Adobe Campaign, siga los siguientes pasos:
 
    >[!NOTE]
    >
-   >Estos comandos le permiten crear el sistema de archivos interno de Adobe Campaign v7: Directorio **conf** (con los archivos **config-default.xml** y **serverConf.xml**), **var**, etc.
+   >Estos comandos le permiten crear el sistema de archivos interno de Adobe Campaign v7: **conf** (con el **config-default.xml** y **serverConf.xml** archivos), **var** directorio, etc.
 
-1. Copie y pegue (sobrescriba) los archivos de configuración y subcarpetas de cada instancia a través del archivo de copia de seguridad **Neolane v5.back**, **Neolane v6.back** o **Adobe Campaign v6.back** (según la versión desde la que esté migrando, consulte [esta sección](#back-up-the-database-and-the-current-installation)).
+1. Copie y pegue (sobrescriba) los archivos de configuración y las subcarpetas de cada instancia a través de la **Neolane v5.back**, **Neolane v6.back** o **Adobe Campaign v6.back** archivo de copia de seguridad (según la versión desde la que esté migrando - consulte [esta sección](#back-up-the-database-and-the-current-installation)).
 1. Según la versión desde la que esté migrando, ejecute los siguientes comandos:
 
    ```
@@ -243,9 +243,9 @@ Para implementar Adobe Campaign, siga los siguientes pasos:
 
    >[!IMPORTANT]
    >
-   >Para el primer comando anterior, no copie el archivo **config-default.xml**.
+   >Para el primer comando anterior, no copie el **config-default.xml** archivo.
 
-1. En los archivos **serverConf.xml** y **config-default.xml** de Adobe Campaign v7, aplique las configuraciones específicas que tenía en la versión anterior de Adobe Campaign. Para el archivo **serverConf.xml**, utilice el archivo **Neolane v5/conf/serverConf.xml.diff**, **Neolane v6/conf/serverConf.xml.diff** o **Adobe Campaign v6/conf/serverConf.xml.diff**.
+1. En el **serverConf.xml** y **config-default.xml** archivos de Adobe Campaign v7, aplique las configuraciones específicas que tenía en la versión anterior de Adobe Campaign. Para la variable **serverConf.xml** utilice el **Neolane v5/conf/serverConf.xml.diff**, **Neolane v6/conf/serverConf.xml.diff** o **Adobe Campaign v6/conf/serverConf.xml.diff** archivo.
 
    >[!NOTE]
    >
@@ -269,13 +269,13 @@ Para implementar Adobe Campaign, siga los siguientes pasos:
 
 ## Migración del servidor de redirección (IIS) {#migrating-the-redirection-server--iis-}
 
-En este momento, el servidor IIS debe detenerse. Consulte [Service stop](#service-stop).
+En este momento, el servidor IIS debe detenerse. Consulte [Interrupción del servicio](#service-stop).
 
-1. Abra la consola **Administrador de servicios de información de Internet (IIS)**.
+1. Abra el **Administrador de Servicios de Internet Information Server (IIS)** consola.
 1. Cambie los enlaces (puertos de escucha) del sitio utilizado para la versión anterior de Adobe Campaign:
 
    * Haga clic con el botón derecho en el sitio utilizado para la versión anterior de Adobe Campaign y seleccione **[!UICONTROL Edit bindings]**.
-   * Para cada tipo de puerto de escucha (**[!UICONTROL http]** o **[!UICONTROL https]**), seleccione la línea adecuada y haga clic en **[!UICONTROL Edit]**.
+   * Para cada tipo de puerto de escucha (**[!UICONTROL http]** y/o **[!UICONTROL https]**), seleccione la línea adecuada y haga clic en **[!UICONTROL Edit]**.
    * Introduzca un puerto diferente. De forma predeterminada, el puerto de escucha es 80 para http y 443 para https. Compruebe que el nuevo puerto esté disponible.
 
       ![](assets/_migration_iis_3_611.png)
@@ -286,21 +286,21 @@ En este momento, el servidor IIS debe detenerse. Consulte [Service stop](#servic
 
 1. Cree un nuevo sitio web para Adobe Campaign v7:
 
-   * Haga clic con el botón derecho en la carpeta **[!UICONTROL Sites]** y seleccione **[!UICONTROL Add Web Site...]**.
+   * Haga clic con el botón derecho en el **[!UICONTROL Sites]** carpeta y seleccione **[!UICONTROL Add Web Site...]**.
 
       ![](assets/_migration_iis_4.png)
 
    * Introduzca el nombre del sitio, **Adobe Campaign v7** por ejemplo.
-   * No se utiliza la ruta de acceso al directorio básico del sitio web, pero se debe introducir el campo **[!UICONTROL Physical access path]**. Introduzca la ruta de acceso predeterminada de IIS: **C:\inetpub\wwwroot**.
-   * Haga clic en el botón **[!UICONTROL Connect as...]** as y asegúrese de que la opción **[!UICONTROL Application user]** está seleccionada.
-   * Puede dejar los valores predeterminados en los campos **[!UICONTROL IP address]** y **[!UICONTROL Port]**. Si desea utilizar otros valores, asegúrese de que la dirección IP o el puerto estén disponibles.
+   * No se utiliza la ruta de acceso al directorio básico del sitio web, pero sí la variable **[!UICONTROL Physical access path]** se debe introducir. Introduzca la ruta de acceso predeterminada de IIS: **C:\inetpub\wwwroot**.
+   * Haga clic en el **[!UICONTROL Connect as...]** como botón y asegúrese de que la variable **[!UICONTROL Application user]** está seleccionada.
+   * Puede dejar los valores predeterminados en la variable **[!UICONTROL IP address]** y **[!UICONTROL Port]** campos. Si desea utilizar otros valores, asegúrese de que la dirección IP o el puerto estén disponibles.
    * Marque la casilla **[!UICONTROL Start Web site immediately]**.
 
       ![](assets/_migration_iis_5_7.png)
 
-1. Ejecute el script **iis_neolane_setup.vbs** para configurar automáticamente los recursos utilizados por el servidor de Adobe Campaign en el directorio virtual creado anteriormente.
+1. Ejecute el **iis_neolane_setup.vbs** para configurar automáticamente los recursos utilizados por el servidor de Adobe Campaign en el directorio virtual creado anteriormente.
 
-   * Este archivo se encuentra en el directorio **`[Adobe Campaign v7]`\conf**, donde **`[Adobe Campaign v7]`** es la ruta de acceso al directorio de instalación de Adobe Campaign. El comando para ejecutar la secuencia de comandos es el siguiente (para administradores):
+   * Este archivo se encuentra en la variable **`[Adobe Campaign v7]`\conf** directorio, donde **`[Adobe Campaign v7]`** es la ruta de acceso al directorio de instalación de Adobe Campaign. El comando para ejecutar la secuencia de comandos es el siguiente (para administradores):
 
       ```
       cd C:\Program Files (x86)\Adobe Campaign\Adobe Campaign v7\conf
@@ -319,7 +319,7 @@ En este momento, el servidor IIS debe detenerse. Consulte [Service stop](#servic
 
       ![](assets/s_ncs_install_iis7_parameters_step7_7.png)
 
-   * En la pestaña **[!UICONTROL Content view]**, asegúrese de que la configuración del sitio web esté correctamente configurada con los recursos de Adobe Campaign:
+   * En el **[!UICONTROL Content view]** , asegúrese de que la configuración del sitio web esté correctamente configurada con los recursos de Adobe Campaign:
 
       ![](assets/s_ncs_install_iis7_parameters_step6_7.png)
 
@@ -341,7 +341,7 @@ Inicie los servicios de IIS y Adobe Campaign en cada uno de los servidores sigui
 1. Servidor intermediario.
 1. Servidor de marketing.
 
-Antes de continuar con el siguiente paso, ejecute una prueba completa de la nueva instalación, asegúrese de que no haya regresiones y de que todo funcione siguiendo todas las recomendaciones de la sección [Configuraciones generales](../../migration/using/general-configurations.md).
+Antes de continuar con el siguiente paso, ejecute una prueba completa de la nueva instalación, asegúrese de que no haya regresiones y de que todo funcione siguiendo todas las recomendaciones de la [Configuraciones generales](../../migration/using/general-configurations.md) para obtener más información.
 
 ## Eliminación y limpieza de la versión anterior de Adobe Campaign {#deleting-and-cleansing-adobe-campaign-previous-version}
 
@@ -354,13 +354,13 @@ Antes de eliminar y limpiar la instalación de Adobe Campaign v5, debe aplicar l
 * Haga que los equipos funcionales ejecuten una comprobación completa de la nueva instalación.
 * Solo desinstale Adobe Campaign v5 cuando esté seguro de que no es necesario realizar ninguna reversión.
 
-1. En IIS, elimine el sitio web **Neolane v5** y, a continuación, el grupo de aplicaciones **Neolane v5**.
-1. Cambie el nombre de la carpeta **Neolane v5.back** como **Neolane v5**.
+1. En IIS, elimine el **Neolane v5** sitio web, luego la variable **Neolane v5** grupo de aplicaciones.
+1. Cambiar el nombre de **Neolane v5.back** carpeta como **Neolane v5**.
 1. Desinstale Adobe Campaign v5 mediante el asistente Agregar/quitar componentes .
 
    ![](assets/migration_wizard_2.png)
 
-1. Elimine el servicio **nlserver5** Windows mediante el siguiente comando:
+1. Elimine el **nlserver5** Servicio de Windows con el siguiente comando:
 
    ```
    sc delete nlserver5
@@ -375,8 +375,8 @@ Antes de eliminar y limpiar la instalación de Adobe Campaign v6.02, debe aplica
 * Haga que los equipos funcionales ejecuten una comprobación completa de la nueva instalación.
 * Solo desinstale Adobe Campaign v6.02 cuando esté seguro de que no es necesario realizar ninguna reversión.
 
-1. En IIS, elimine el sitio web **Neolane v6** y, a continuación, el grupo de aplicaciones **Neolane v6**.
-1. Cambie el nombre de la carpeta **Neolane v6.back** como **Neolane v6**.
+1. En IIS, elimine el **Neolane v6** sitio web, luego la variable **Neolane v6** grupo de aplicaciones.
+1. Cambiar el nombre de **Neolane v6.back** carpeta como **Neolane v6**.
 1. Desinstale Adobe Campaign v6.02 con el asistente Agregar/quitar componentes .
 
    ![](assets/migration_wizard_2.png)
@@ -390,8 +390,8 @@ Antes de eliminar y limpiar la instalación de Adobe Campaign v6, debe aplicar l
 * Haga que los equipos funcionales ejecuten una comprobación completa de la nueva instalación.
 * Solo desinstale Adobe Campaign v6 cuando esté seguro de que no es necesario realizar ninguna reversión.
 
-1. En IIS, elimine el sitio web **Adobe Campaign v6** y, a continuación, el grupo de aplicaciones **Adobe Campaign v6**.
-1. Cambie el nombre de la carpeta **Adobe Campaign v6.back** como **Adobe Campaign v6**.
+1. En IIS, elimine el **Adobe Campaign v6** sitio web, luego la variable **Adobe Campaign v6** grupo de aplicaciones.
+1. Cambiar el nombre de **Adobe Campaign v6.back** carpeta como **Adobe Campaign v6**.
 1. Desinstale Adobe Campaign v6 mediante el asistente Agregar/quitar componentes .
 
    ![](assets/migration_wizard_2.png)

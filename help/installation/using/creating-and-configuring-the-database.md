@@ -28,7 +28,7 @@ Los pasos de configuración se detallan a continuación.
 >
 >Los nombres de bases de datos, usuarios y esquemas no deben comenzar con un número ni incluir caracteres especiales.
 >
->Solo el identificador **internal** puede realizar estas operaciones. Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#internal-identifier).
+>Solo el **internal** puede realizar estas operaciones. Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 ## Caso 1: Creación/reciclado de una base de datos {#case-1--creating-recycling-a-database}
 
@@ -36,11 +36,11 @@ A continuación se presentan los pasos para crear una base de datos o reciclar u
 
 Se trata de los siguientes pasos:
 
-* [Paso 1: Selección del motor](#step-1---selecting-the-database-engine) de base de datos,
+* [Paso 1: Selección del motor de la base de datos](#step-1---selecting-the-database-engine),
 * [Paso 2: Conexión al servidor](#step-2---connecting-to-the-server),
 * [Paso 3: Conexión y características de la base de datos](#step-3---connection-and-characteristics-of-the-database),
 * [Paso 4: Paquetes para instalar](#step-4---packages-to-install),
-* [Paso 5: Pasos](#step-5---creation-steps) de creación,
+* [Paso 5: Pasos de creación](#step-5---creation-steps),
 * [Paso 6: Creación de la base de datos](#step-6---creating-the-database).
 
 ### Paso 1: Selección del motor de la base de datos {#step-1---selecting-the-database-engine}
@@ -49,7 +49,7 @@ Seleccione el motor de base de datos entre los de la lista desplegable.
 
 ![](assets/s_ncs_install_db_select_engine.png)
 
-Las bases de datos compatibles se enumeran en la [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md) de Campaign.
+Las bases de datos compatibles se enumeran en Campaign [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
 
 Identifique el servidor y elija el tipo de operación que desea realizar. En este caso, **[!UICONTROL Create or recycle a database]**.
 
@@ -57,9 +57,9 @@ Identifique el servidor y elija el tipo de operación que desea realizar. En est
 
 Según el motor de base de datos seleccionado, la información de identificación del servidor puede variar.
 
-* Para un motor **Oracle**, rellene el **nombre TNS** definido para el servidor de aplicaciones.
-* Para un motor **PostgreSQL** o **DB2**, debe especificar el nombre DNS (o la dirección IP) definido en el servidor de aplicaciones para acceder al servidor de bases de datos.
-* Para un motor **Microsoft SQL Server**, debe definir: el nombre DNS (o dirección IP) definido en el servidor de aplicaciones para acceder al servidor de base de datos: **DNS** o **DNS`\<instance>`** (modo de instancia),
+* Para un **Oracle** motor, rellene la variable **Nombre de TNS** definida para el servidor de aplicaciones.
+* Para un **PostgreSQL** o **DB2** , debe especificar el nombre DNS (o dirección IP) definido en el servidor de aplicaciones para acceder al servidor de base de datos.
+* Para un **Microsoft SQL Server** , debe definir: el nombre DNS (o dirección IP) definido en el servidor de aplicaciones para acceder al servidor de base de datos: **DNS** o **DNS`\<instance>`** (modo de instancia),
 
    >[!CAUTION]
    >
@@ -69,15 +69,15 @@ Según el motor de base de datos seleccionado, la información de identificació
 
 ### Paso 2: Conexión al servidor {#step-2---connecting-to-the-server}
 
-En la ventana **[!UICONTROL Server access]**, defina el acceso al servidor de la base de datos.
+En el **[!UICONTROL Server access]** , defina el acceso al servidor de la base de datos.
 
 ![](assets/s_ncs_install_db_oracle_creation02.png)
 
-Para ello, introduzca el nombre y la contraseña de una **Administration system account** que tenga permiso para acceder a las bases de datos, es decir:
+Para ello, introduzca el nombre y la contraseña de un **Cuenta del sistema de administración** que tengan permiso para acceder a las bases de datos, es decir:
 
-* **** para una base de datos de Oracle,
-* **** para una base de datos de Microsoft SQL Server,
-* **** postgress para una base de datos PostgreSQL,
+* **sistema** para una base de datos de Oracle,
+* **sa** para una base de datos de Microsoft SQL Server,
+* **postgres** para una base de datos PostgreSQL,
 * **db2inst1** para una base de datos DB2.
 
 ### Paso 3: Conexión y características de la base de datos {#step-3---connection-and-characteristics-of-the-database}
@@ -97,17 +97,17 @@ Debe definir la siguiente configuración:
 * Introduzca la contraseña de la cuenta vinculada a esta base de datos.
 * Indique si la base de datos debe estar o no en Unicode.
 
-   La opción **[!UICONTROL Unicode database]** permite almacenar todos los tipos de caracteres en Unicode independientemente del idioma.
+   La variable **[!UICONTROL Unicode database]** permite almacenar todos los tipos de caracteres en Unicode independientemente del idioma.
 
    >[!NOTE]
    >
-   >Con una base de datos de Oracle, la opción **[!UICONTROL Unicode storage]** permite utilizar los campos de tipo **NCLOB** y **NVARCHAR**.
+   >Con una base de datos de Oracle, la variable **[!UICONTROL Unicode storage]** permite utilizar **NCLOB** y **NVARCHAR** campos de tipo .
    > 
    >Si no selecciona esta opción, el conjunto de caracteres (charset) de la base de datos de Oracle debe habilitar el almacenamiento de datos en todos los idiomas (se recomienda AL32UTF8).
 
 * Elija una zona horaria para la base de datos y especifique si desea que esté en UTC (si está disponible).
 
-   Para obtener más información, consulte [Administración de huso horario](../../installation/using/time-zone-management.md).
+   Para obtener más información, consulte [Administración de husos horarios](../../installation/using/time-zone-management.md).
 
 ### Paso 4: Paquetes para instalar {#step-4---packages-to-install}
 
@@ -119,21 +119,21 @@ Consulte el contrato de licencia para comprobar qué soluciones y opciones tiene
 
 ### Paso 5: Pasos de creación {#step-5---creation-steps}
 
-La ventana **[!UICONTROL Creation steps]** permite mostrar y editar la secuencia de comandos SQL utilizada para crear las tablas.
+La variable **[!UICONTROL Creation steps]** permite mostrar y editar la secuencia de comandos SQL utilizada para crear las tablas.
 
 ![](assets/s_ncs_install_db_oracle_creation04.png)
 
-* Para un Oracle, Microsoft SQL Server o la base de datos PostgreSQL, el administrador también puede definir los **parámetros de almacenamiento** que se utilizarán al crear objetos de base de datos.
+* Para un Oracle, Microsoft SQL Server o la base de datos PostgreSQL, el administrador también puede definir la variable **parámetros de almacenamiento** que se utilizará al crear objetos de base de datos.
 
-   Estos parámetros reciben los nombres exactos del tablespace (advertencia: con distinción de mayúsculas y minúsculas). Se almacenan respectivamente en el nodo **[!UICONTROL Administration > Platform > Options]** en las siguientes opciones (consulte [esta sección](../../installation/using/configuring-campaign-options.md#database)):
+   Estos parámetros reciben los nombres exactos del tablespace (advertencia: con distinción de mayúsculas y minúsculas). Se almacenan respectivamente en la variable **[!UICONTROL Administration > Platform > Options]** en las siguientes opciones (consulte [esta sección](../../installation/using/configuring-campaign-options.md#database)):
 
    * **WdbcOptions_TableSpaceUser**: tablas de usuario basadas en un esquema
    * **WdbcOptions_TableSpaceIndex**: índice de tablas de usuario basadas en un esquema
    * **WdbcOptions_TableSpaceWork**: tablas de trabajo sin esquema
    * **WdbcOptions_TableSpaceWorkIndex**: índice de tablas de trabajo sin esquema
 
-* Para una base de datos de Oracle, el usuario de Adobe Campaign debe tener acceso a las bibliotecas de Oracle, normalmente como miembro del grupo **install**.
-* La opción **[!UICONTROL Set or change the administrator password]** permite introducir la contraseña vinculada al operador de Adobe Campaign con derechos de administrador.
+* Para una base de datos de Oracle, el usuario de Adobe Campaign debe tener acceso a las bibliotecas de Oracle, normalmente como miembro del **instalación** grupo.
+* La variable **[!UICONTROL Set or change the administrator password]** permite introducir la contraseña vinculada al operador de Adobe Campaign con derechos de administrador.
 
    Se recomienda definir una contraseña de administrador de cuentas de Adobe Campaign por motivos de seguridad.
 
@@ -147,7 +147,7 @@ Una vez creada la base de datos, puede volver a conectarse para finalizar la con
 
 Ahora debe iniciar el asistente de implementación para finalizar la configuración de la instancia. Consulte [Asistente de implementación](../../installation/using/deploying-an-instance.md#deployment-wizard).
 
-La configuración de conexión de la base de datos vinculada a la instancia se almacena en el archivo **`/conf/config-<instance>.xml`** que se encuentra en el directorio de instalación de Adobe Campaign.
+La configuración de conexión de la base de datos vinculada a la instancia se almacena en el archivo **`/conf/config-<instance>.xml`** se encuentra en el directorio de instalación de Adobe Campaign.
 
 Ejemplo de una configuración de Microsoft SQL Server en la base de datos base61 vinculada a la cuenta &quot;campaña&quot; con su contraseña cifrada:
 
@@ -163,10 +163,10 @@ Por ejemplo, para una base de datos de Oracle, los derechos mínimos requeridos 
 
 Para utilizar una base de datos existente, los pasos de configuración son los siguientes:
 
-* [Paso 1: Selección del motor](#step-1---choosing-the-database-engine) de base de datos,
-* [Paso 2: Configuración](#step-2---database-connection-settings) de conexión a la base de datos
+* [Paso 1: Selección del motor de base de datos](#step-1---choosing-the-database-engine),
+* [Paso 2: Configuración de conexión a la base de datos](#step-2---database-connection-settings),
 * [Paso 3: Paquetes para instalar](#step-3---packages-to-install),
-* [Paso 4: Pasos](#step-4---creation-steps) de creación,
+* [Paso 4: Pasos de creación](#step-4---creation-steps),
 * [Paso 5: Creación de la base de datos](#step-5---creating-the-database).
 
 ### Paso 1: Selección del motor de base de datos {#step-1---choosing-the-database-engine}
@@ -181,9 +181,9 @@ Identifique el servidor y elija el tipo de operación que desea realizar. En est
 
 Según el motor de base de datos seleccionado, la información de identificación del servidor puede variar.
 
-* Para un motor **Oracle**, rellene el **nombre TNS** definido para el servidor de aplicaciones.
-* Para un motor **PostgreSQL** o **DB2**, debe especificar el nombre DNS (o la dirección IP) definido en el servidor de aplicaciones para acceder al servidor de bases de datos.
-* Para un motor **Microsoft SQL Server**, debe definir:
+* Para un **Oracle** motor, rellene la variable **Nombre de TNS** definida para el servidor de aplicaciones.
+* Para un **PostgreSQL** o **DB2** , debe especificar el nombre DNS (o dirección IP) definido en el servidor de aplicaciones para acceder al servidor de base de datos.
+* Para un **Microsoft SQL Server** , debe definir:
 
    1. el nombre DNS (o dirección IP) definido en el servidor de aplicaciones para acceder al servidor de bases de datos,
    1. el método de seguridad utilizado para acceder a Microsoft SQL Server: **[!UICONTROL SQL Server authentication]** o **[!UICONTROL Windows NT authentication]**.
@@ -192,7 +192,7 @@ Según el motor de base de datos seleccionado, la información de identificació
 
 ### Paso 2: Configuración de conexión a la base de datos {#step-2---database-connection-settings}
 
-En la ventana **[!UICONTROL Database]**, defina la configuración de conexión de la base de datos.
+En el **[!UICONTROL Database]** , defina la configuración de conexión de la base de datos.
 
 ![](assets/s_ncs_install_db_oracle_exists_02.png)
 
@@ -218,13 +218,13 @@ Consulte el acuerdo de licencia para comprobar qué soluciones y opciones tiene 
 
 ### Paso 4: Pasos de creación {#step-4---creation-steps}
 
-La ventana **[!UICONTROL Creation steps]** permite mostrar y editar la secuencia de comandos SQL utilizada para crear las tablas.
+La variable **[!UICONTROL Creation steps]** permite mostrar y editar la secuencia de comandos SQL utilizada para crear las tablas.
 
 ![](assets/s_ncs_install_db_oracle_creation04.png)
 
-* Para las bases de datos de Oracle, Microsoft SQL Server o PostgreSQL, el administrador puede definir los **parámetros de almacenamiento** que se utilizarán al crear objetos de base de datos.
-* Para una base de datos de Oracle, el usuario de Adobe Campaign debe tener acceso a las bibliotecas de Oracle, normalmente como miembro del grupo **install**.
-* La opción **[!UICONTROL Set or change the administrator password]** permite introducir la contraseña vinculada al operador de Adobe Campaign con derechos de administrador.
+* Para las bases de datos de Oracle, Microsoft SQL Server o PostgreSQL, el administrador puede definir la variable **parámetros de almacenamiento** que se utilizará al crear objetos de base de datos.
+* Para una base de datos de Oracle, el usuario de Adobe Campaign debe tener acceso a las bibliotecas de Oracle, normalmente como miembro del **instalación** grupo.
+* La variable **[!UICONTROL Set or change the administrator password]** permite introducir la contraseña vinculada al operador de Adobe Campaign con derechos de administrador.
 
    Se recomienda definir una contraseña de administrador de cuentas de Adobe Campaign por motivos de seguridad.
 
@@ -238,7 +238,7 @@ Una vez completada la creación de la base de datos, puede volver a conectarse p
 
 Ahora debe iniciar el asistente de implementación para finalizar la configuración de la instancia. Consulte [Asistente de implementación](../../installation/using/deploying-an-instance.md#deployment-wizard).
 
-La configuración de conexión de la base de datos vinculada a la instancia se almacena en el archivo **`/conf/config-<instance>.xml`** que se encuentra en el directorio de instalación de Adobe Campaign.
+La configuración de conexión de la base de datos vinculada a la instancia se almacena en el archivo **`/conf/config-<instance>.xml`** se encuentra en el directorio de instalación de Adobe Campaign.
 
 Ejemplo de una configuración de Microsoft SQL Server en la base de datos base61 vinculada a la cuenta &quot;campaña&quot; con su contraseña cifrada:
 

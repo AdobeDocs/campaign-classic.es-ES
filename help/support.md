@@ -123,7 +123,7 @@ Puede monitorizar los subdominios y sus certificados. Obtenga más información 
 ### Configuración de instancias
 
 Obtenga información sobre cómo administrar la configuración de las instancias de Campaign Classic en el Panel de control. Obtenga más información en estas páginas:
-* [Añadir direcciones IP en la lista de ](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=es) permitidos para acceder a las instancias de Campaign
+* [Añadir direcciones IP en la lista de permitidos](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=es) para acceder a las instancias de Campaign
 * [Administrar permisos de URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=es)
 * [Detalles de instancias de acceso](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=es)
 * [Administrar claves GPG para el cifrado de datos](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=es)
@@ -132,7 +132,7 @@ Obtenga información sobre cómo administrar la configuración de las instancias
 
 <img src="platform/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-El nuevo sistema de tickets se ha iniciado a través de [Adobe Admin Console](https://adminconsole.adobe.com/overview). Este nuevo sistema requiere nuevas cuentas individuales para cada usuario con los permisos correctos. Si no puede iniciar sesión con su Adobe ID, solicite acceso a través de Experience League y el equipo de Atención al cliente lo ayudará lo antes posible. [Más información](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html)
+El nuevo sistema de venta de billetes se ha puesto en marcha a través de [Adobe Admin Console](https://adminconsole.adobe.com/overview). Este nuevo sistema requiere nuevas cuentas individuales para cada usuario con los permisos correctos. Si no puede iniciar sesión con su Adobe ID, solicite acceso a través de Experience League y el equipo de Atención al cliente lo ayudará lo antes posible. [Más información](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html)
 
 ### ¡Consulte a los expertos!
 

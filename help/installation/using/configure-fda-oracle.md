@@ -17,10 +17,10 @@ ht-degree: 74%
 
 ![](../../assets/v7-only.svg)
 
-Utilice la opción [Federated Data Access](../../installation/using/about-fda.md) (FDA) de Campaign para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Oracle.
+Uso de Campaign [Acceso de datos federado](../../installation/using/about-fda.md) (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Oracle.
 
-1. Configurar el Oracle en [Linux](#oracle-linux) o [Windows](#azure-windows)
-1. Configurar el Oracle [cuenta externa](#oracle-external) en Campaign
+1. Configurar Oracle en [Linux](#oracle-linux) o [Windows](#azure-windows)
+1. Configuración del Oracle [cuenta externa](#oracle-external) en Campaign
 
 ## Oracle en Linux {#oracle-linux}
 
@@ -78,9 +78,9 @@ La conexión a una base de datos externa de Oracle en FDA requiere ciertas confi
 
 ## Cuenta externa de Oracle {#oracle-external}
 
-La cuenta externa [!DNL Oracle] permite conectar la instancia de Campaign a la base de datos externa de Oracle.
+La variable [!DNL Oracle] cuenta externa permite conectar la instancia de Campaign a la base de datos externa de Oracle.
 
-1. En Campaña **[!UICONTROL Explorer]**, seleccione **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
+1. Desde campaña **[!UICONTROL Explorer]**, seleccione **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
 
 1. Elija **[!UICONTROL New]**.
 

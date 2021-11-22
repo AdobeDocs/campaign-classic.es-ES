@@ -17,16 +17,17 @@ ht-degree: 11%
 
 ![](../../assets/v7-only.svg)
 
-Una **traza de pila** representa una traza contenida en un archivo de tipo **core**. Este archivo se genera en caso de error del equipo. Puede identificar el origen del error.
+A **seguimiento de pila** representa un seguimiento contenido en un **core** escriba . Este archivo se genera en caso de error del equipo. Puede identificar el origen del error.
 
 >[!NOTE]
 >
->* Un archivo **core** se denomina **core.`<num>`**.
->* **gdb - El GNU** Debuggerer debe estar instalado en la máquina.
+>* A **core** nombre del archivo **principal.`<num>`**.
+>* **gdb: el depurador GNU** debe estar instalado en el equipo.
+
 >
 
 
-El soporte técnico de Adobe Campaign puede solicitarle este **seguimiento de pila**. Para obtenerlo, introduzca los siguientes comandos en Linux:
+El servicio de asistencia técnica de Adobe Campaign puede solicitarle esta **seguimiento de pila**. Para obtenerlo, introduzca los siguientes comandos en Linux:
 
 ```
 su - neolane
@@ -55,7 +56,7 @@ gdb nlserver <coreFile>
 
 El servicio de asistencia técnica de Adobe Campaign puede solicitarle que ejecute este comando utilizando un ejecutable específico (que nosotros proporcionaremos).
 
-En este caso, simplemente ejecute el siguiente comando reemplazando **nlserver** por el ejecutable proporcionado por Adobe Campaign:
+En este caso, simplemente ejecute el siguiente comando reemplazando **nlserver** con el ejecutable proporcionado por Adobe Campaign:
 
 ```
 gdb nlserver <coreFile>

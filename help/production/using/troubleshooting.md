@@ -21,10 +21,10 @@ Esta sección contiene procedimientos de solución de problemas relacionados con
 
 ## Problemas comunes y generales {#common-and-general-issues}
 
-* Esta [página](../../production/using/modules-and-frequent-issues.md) presenta los problemas más frecuentes que se han encontrado con los módulos enumerados.
+* Esta [página](../../production/using/modules-and-frequent-issues.md) presenta los problemas más frecuentes encontrados para los módulos enumerados.
 * Esta [página](../../production/using/workflow-execution.md) enumera los procedimientos comunes de solución de problemas que debe seguir cuando tenga problemas con la ejecución del flujo de trabajo.
 * Esta [página](../../production/using/lost-password.md) detalla cómo cambiar o recuperar una contraseña perdida.
-* Esta [página](../../production/using/console-update.md) detalla cómo reactivar la solicitud de actualización de la consola si desactivó la opción correspondiente.
+* Esta [página](../../production/using/console-update.md) detalla cómo reactivar la solicitud de actualización de la consola si ha desactivado la opción correspondiente.
 
 ## Solución de problemas de entrega {#delivery-troubleshooting}
 
@@ -32,7 +32,7 @@ Se pueden realizar acciones específicas al tener problemas con las entregas:
 * [Problemas de entregas](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [Problemas de visualización de imágenes](../../production/using/image-display-issues.md)
 * [Falta la imagen](../../production/using/images-missing.md)
-* [Problemas con archivos temporales](../../production/using/temporary-files.md)  (*solo modelos de alojamiento locales*)
+* [Problemas con archivos temporales](../../production/using/temporary-files.md) (*solo modelos de alojamiento locales*)
 
 **Temas relacionados**:
 

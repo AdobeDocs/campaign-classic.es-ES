@@ -17,7 +17,7 @@ ht-degree: 16%
 
 ![](../../assets/v7-only.svg)
 
-Si ciertos trabajos **jsp** no se ejecutan correctamente, debe obligarlos a volver a compilar.
+Si **jsp** los trabajos no se ejecutan correctamente, debe obligarlos a volver a compilar.
 
 Para ello, introduzca los siguientes comandos:
 
@@ -28,4 +28,4 @@ rm -r work/
 nlserver start web
 ```
 
-Los trabajos **jsp** se regeneran la próxima vez que se conecte.
+La variable **jsp** los trabajos se regeneran la próxima vez que se conecte.

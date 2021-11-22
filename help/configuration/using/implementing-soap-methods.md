@@ -89,8 +89,8 @@ La firma de la función debe incluir un argumento para cada parámetro &quot;in&
 
 Casos específicos:
 
-* **métodos** no estáticos: la función debe incluir primero un argumento adicional, que coincida con la entidad XML transferida en forma de objeto de tipo &quot;xml&quot; (E4X).
-* **métodos** de tipo &quot;clave solamente&quot;: la función debe incluir primero un argumento adicional, que coincida con la clave pasada en forma de cadenas de caracteres.
+* **métodos no estáticos**: la función debe incluir primero un argumento adicional, que coincida con la entidad XML transferida en forma de objeto de tipo &quot;xml&quot; (E4X).
+* **Métodos de tipo &quot;clave solamente&quot;**: la función debe incluir primero un argumento adicional, que coincida con la clave pasada en forma de cadenas de caracteres.
 
 **3. Valores devueltos**
 

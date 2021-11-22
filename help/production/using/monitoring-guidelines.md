@@ -19,7 +19,7 @@ ht-degree: 27%
 
 ## Panel de monitorización de instancias {#instance-monitoring-dashboard}
 
-La pestaña **[!UICONTROL Monitoring]**, a la que se puede acceder desde la página de inicio del Campaign Classic, es el principal punto de entrada para ayudarle a supervisar la instancia.
+La variable **[!UICONTROL Monitoring]** , a la que se puede acceder desde la página de inicio del Campaign Classic, es el principal punto de entrada para ayudarle a supervisar la instancia.
 
 Proporciona un tablero de lo que está ocurriendo en la instancia: su estado (versión de compilación, paquetes instalados, etc.), indicadores del sistema, registros, flujos de trabajo que se están ejecutando actualmente, estado de los últimos envíos enviados, etc.
 
@@ -96,14 +96,14 @@ Los informes SMTP muestran las estadísticas de entrega y los errores SMTP por d
 
 **Prácticas recomendadas**
 
-[Las prácticas recomendadas para el envío y el ](../../delivery/using/delivery-best-practices.md) diseño de entregas pueden ayudarle a mejorar su rendimiento.
+[Prácticas recomendadas para el envío y el diseño](../../delivery/using/delivery-best-practices.md) pueden ayudarle a mejorar su rendimiento.
 
-**Solución de problemas de**
-entregaSe pueden realizar acciones específicas al encontrar problemas con los envíos:
+**Solución de problemas de envío**
+Se pueden realizar acciones específicas al encontrar problemas con las entregas:
 * [Problemas de entregas](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [Problemas de visualización de imágenes](../../production/using/image-display-issues.md)
 * [Problemas de rendimiento de envíos](../../delivery/using/delivery-performances.md)
-* [Problemas con archivos temporales](../../production/using/temporary-files.md) : solo modelos  *de alojamiento locales*
+* [Problemas con archivos temporales](../../production/using/temporary-files.md) - *solo modelos de alojamiento locales*
 
 ### Supervisión de la base de datos {#monitoring-database}
 

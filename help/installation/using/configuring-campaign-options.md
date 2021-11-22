@@ -17,12 +17,12 @@ ht-degree: 3%
 
 ![](../../assets/v7-only.svg)
 
-El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar las opciones de Adobe Campaign. Algunos de ellos están integrados al instalar Campaign, mientras que otros se pueden agregar manualmente cuando sea necesario. Las opciones disponibles varían según los paquetes instalados con la instancia.
+La variable **[!UICONTROL Administration / Platform / Options]** permite configurar las opciones de Adobe Campaign. Algunos de ellos están integrados al instalar Campaign, mientras que otros se pueden agregar manualmente cuando sea necesario. Las opciones disponibles varían según los paquetes instalados con la instancia.
 
 
 >[!CAUTION]
 >
->* Las opciones que no aparecen en esta página son solo internas y **no se deben modificar**.
+>* Las opciones que no aparecen en esta página son internas solamente y **no debe modificarse**.
 >
 >* La modificación o actualización de las opciones de Adobe Campaign solo pueden realizarla usuarios expertos.
 
@@ -43,7 +43,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Deliverability_LastBroadLogMsgSent</span> <br /> </td> 
-   <td> Fecha del último broadLogMsg enviado a la instancia de envío.<br /> </td> 
+   <td> Fecha del último broadLogMsg enviado a la instancia de entrega.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">DmRendering_cuid</span> <br /> </td> 
@@ -66,7 +66,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBilling_MainActionThreshold</span> <br /> </td> 
-   <td> Número mínimo de destinatarios para que un envío se considere como el principal en el informe de facturación.<br /> </td> 
+   <td> Número mínimo de destinatarios para que una entrega se considere como el principal en el informe de facturación.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_DefaultProvider</span> <br /> </td> 
@@ -82,11 +82,11 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MidAnalyzeBatchSize</span> <br /> </td> 
-   <td> Agrupación del tamaño de las piezas de envío al analizar los envíos intermediarios.<br /> </td> 
+   <td> Agrupación del tamaño de las piezas de envío al analizar las entregas intermedias.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MsgValidityDuration</span> <br /> </td> 
-   <td> Período de entrega predeterminado para una entrega (en segundos).<br /> </td> 
+   <td> Periodo de entrega predeterminado para una entrega (en segundos).<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_RegexRules</span> <br /> </td> 
@@ -106,7 +106,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_FromAddressMask</span> <br /> </td> 
-   <td> Permite definir la sintaxis de la dirección From utilizada al enviar un mensaje.<br /> </td> 
+   <td> Permite definir la sintaxis de la dirección De utilizada al enviar un mensaje.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_ImageServerTimeout</span> <br /> </td> 
@@ -114,7 +114,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
  <tr> 
    <td> <span class="uicontrol">NmsDelivery_MaxDownloadedImageSize</span> <br /> </td> 
-   <td> Permite definir el tamaño máximo (en bytes) permitido para una imagen descargada de una URL personalizada y adjunta a un correo electrónico. El valor predeterminado es 100 000 bytes. Al enviar una prueba y descargar las imágenes para procesar el correo electrónico, si el tamaño de una imagen supera este valor o si hay un problema de descarga, se mostrará un error en los registros de envío y el envío de la prueba dará error.<br /> </td> 
+   <td> Permite definir el tamaño máximo (en bytes) permitido para una imagen descargada de una URL personalizada y adjunta a un correo electrónico. El valor predeterminado es 100 000 bytes. Al enviar una prueba y descargar las imágenes para procesar el correo electrónico, si el tamaño de una imagen supera este valor o si hay un problema de descarga, se mostrará un error en los registros de envío y la entrega de la prueba fallará.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_MaxRecomenddedAttachments</span> <br /> </td> 
@@ -134,19 +134,19 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDeliveryWizard_ShowDeliveryWeight</span> <br /> </td> 
-   <td> Mostrar el peso del mensaje en el asistente de envío.<br /> </td> 
+   <td> Muestre el peso del mensaje en el asistente de envíos.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_DefaultErrorAddr</span> <br /> </td> 
-   <td> Dirección de correo electrónico predeterminada "error" a nivel de instancia utilizada para la entrega de correo electrónico si la deja vacía el usuario.<br /> </td> 
+   <td> Dirección de correo electrónico predeterminada "error" a nivel de instancia utilizada para la entrega de correo electrónico si el usuario lo deja vacío.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_DefaultFromAddr</span> <br /> </td> 
-   <td> Dirección de correo electrónico predeterminada "de" a nivel de instancia utilizada para la entrega de correo electrónico si el usuario la deja vacía.<br /> </td> 
+   <td> La dirección de correo electrónico predeterminada "de" a nivel de instancia se utiliza para la entrega de correo electrónico si el usuario la deja vacía.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_DefaultReplyToAddr</span> <br /> </td> 
-   <td> Dirección de correo electrónico 'respuesta' predeterminada a nivel de instancia utilizada para la entrega de correo electrónico si el usuario la deja vacía.<br /> </td> 
+   <td> La dirección de correo electrónico predeterminada "responder" a nivel de instancia se utiliza para la entrega de correo electrónico si el usuario la deja vacía.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ExpOrganization</span> <br /> </td> 
@@ -154,7 +154,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_FromName</span> <br /> </td> 
-   <td> Etiqueta de correo electrónico predeterminada "de" a nivel de instancia utilizada para la entrega de correo electrónico si el usuario la deja vacía.<br /> </td> 
+   <td> Etiqueta de correo electrónico predeterminada "de" a nivel de instancia utilizada para la entrega de correo electrónico si el usuario lo deja vacío.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ReplyToName</span> <br /> </td> 
@@ -162,7 +162,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_RetryCount</span> <br /> </td> 
-   <td> Período entre dos reintentos de un mensaje de correo electrónico (en segundos).<br /> </td> 
+   <td> Periodo entre dos reintentos de un mensaje de correo electrónico (en segundos).<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_RetryPeriod</span> <br /> </td> 
@@ -178,7 +178,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsLine_AESKey</span> <br /> </td> 
-   <td> Clave AES utilizada en el servlet 'lineImage' para codificar las URL (canal LINE).<br /> </td> 
+   <td> Clave AES utilizada en el servlet "lineImage" para codificar las URL (canal LINE).<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsNPAI_EmailMaxError</span> <br /> </td> 
@@ -186,7 +186,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsNPAI_EmailSignificantErrorDelay</span> <br /> </td> 
-   <td> En el canal "correo electrónico" (usar como predeterminado) : Tiempo mínimo que se ha invertido desde el error SOFT al que se hace referencia anteriormente, antes de tener en cuenta un nuevo error SOFT.<br /> </td> 
+   <td> En el canal "correo electrónico" (usar como predeterminado) : Período mínimo que se debe invertir desde el error SOFT al que se hace referencia anteriormente, antes de tener en cuenta un nuevo error SOFT.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsNPAI_MobileMaxError</span> <br /> </td> 
@@ -194,7 +194,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsNPAI_MobileSignificantErrorDelay</span> <br /> </td> 
-   <td> En el canal "móvil" : Tiempo mínimo que se ha invertido desde el error SOFT al que se hace referencia anteriormente, antes de tener en cuenta un nuevo error SOFT.<br /> </td> 
+   <td> En el canal "móvil" : Período mínimo que se debe invertir desde el error SOFT al que se hace referencia anteriormente, antes de tener en cuenta un nuevo error SOFT.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMidSourcing_LogsPeriodHour</span> <br /> </td>
@@ -206,11 +206,11 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMTA_Alert_Delay</span> <br /> </td> 
-   <td> Retraso personalizado (en minutos) después del cual un envío se considera "retrasado", el valor predeterminado es de 30 minutos.<br /> </td> 
+   <td> Retraso personalizado (en minutos) después del cual una entrega se considera "retrasado", el valor predeterminado es de 30 minutos.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
-   <td><p>Esta opción la utiliza el flujo de trabajo técnico <span class="uicontrol"><a href="../../workflow/using/about-technical-workflows.md">operationMgt</a></span> al contar el número de envíos en ejecución.</p>Permite definir el número de días por encima de los cuales los envíos con estado incoherente se excluirán del recuento de envíos en ejecución.</p><p>De forma predeterminada, el valor se establece en "7", lo que significa que se excluirán los envíos incoherentes de más de 7 días.</p></td> 
+   <td><p>Esta opción la utiliza el <span class="uicontrol"><a href="../../workflow/using/about-technical-workflows.md">operationMgt</a></span> flujo de trabajo técnico al contar el número de envíos en ejecución.</p>Permite definir el número de días por encima de los cuales los envíos con estado incoherente se excluirán del recuento de envíos en ejecución.</p><p>De forma predeterminada, el valor se establece en "7", lo que significa que se excluirán los envíos incoherentes de más de 7 días.</p></td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine1</span> <br /> </td> 
@@ -246,11 +246,11 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsSMS_RetryPeriod</span> <br /> </td> 
-   <td> Período durante el cual se realizarán los reintentos de mensajes SMS.<br /> </td> 
+   <td> Período durante el cual se realizan los reintentos de mensajes SMS.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsUserAgentStats_LastConsolidated</span> <br /> </td> 
-   <td> Última fecha de consolidación para las estadísticas <span class="uicontrol">NmsUserAgent</span>.<br /> </td> 
+   <td> Fecha de la última consolidación <span class="uicontrol">NmsUserAgent</span> estadísticas.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsWebSegments_LastStates</span> <br /> </td> 
@@ -266,7 +266,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Restrict_EditXML</span> </td> 
-   <td> Añada esta opción con el valor "0" para desactivar la edición del código XML de las entregas (haga clic con el botón derecho en / <span class="uicontrol">Editar código XML</span> o con el método abreviado <span class="uicontrol">CTRL + F4</span>).<br /> </td> 
+   <td> Añada esta opción con el valor "0" para desactivar la edición del código XML de las entregas (haga clic con el botón derecho / <span class="uicontrol">Editar código fuente XML</span> o <span class="uicontrol">CTRL + F4</span> acceso directo).<br /> </td> 
   </tr>  
  </tbody> 
 </table>
@@ -297,7 +297,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_DefaultIgnoredImage</span> <br /> </td> 
-   <td> Lista de máscaras de URL para las imágenes omitidas durante la carga.<br /> </td> 
+   <td> Lista de máscaras URL para las imágenes omitidas durante la carga.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_ImagePublishing</span> </td> 
@@ -309,15 +309,15 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsServer_LogoPath</span> <br /> </td> 
-   <td> Espacio para mostrar los logotipos.<br /> </td> 
+   <td> Espacio para mostrar logotipos.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NcmPublishingDir</span> <br /> </td> 
-   <td> Carpeta raíz para publicaciones.<br /> Para obtener más información sobre la generación de contenido HTML y de texto, consulte  <a href="../../delivery/using/using-a-content-template.md">esta sección</a>.<br /> </td> 
+   <td> Carpeta raíz para publicaciones.<br /> Para obtener más información sobre la generación de contenido de texto y HTML, consulte <a href="../../delivery/using/using-a-content-template.md">esta sección</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkImageUrl</span> <br /> </td> 
-   <td> Permite definir el servidor en el que se almacenan las imágenes utilizadas en los envíos para permitir que el navegador las obtenga.<br /> Para versiones de compilación  &lt;&gt;<br /> Para versiones de compilación &gt; 5098, utilizamos en su lugar la URL pública de la entrega o la URL de la opción  <span class="uicontrol">XtkFileRes_Public_</span> URL.<br /> </td> 
+   <td> Permite definir el servidor en el que se almacenan las imágenes utilizadas en los envíos para permitir que el navegador las obtenga.<br /> Para versiones de compilación &lt;= 5098, utilizamos la dirección URL de las imágenes cargadas en la instancia.<br /> Para versiones de compilación &gt; 5098, se utiliza en su lugar la URL pública del envío o la <span class="uicontrol">XtkFileRes_Public_URL</span> URL de la opción.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_MediaInstance</span> <br /> </td> 
@@ -333,7 +333,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MsgWebValidityDuration</span> <br /> </td> 
-   <td> Duración de validez predeterminada para los recursos en línea de un envío (en segundos).<br /> </td> 
+   <td> Duración de validez predeterminada para los recursos en línea de una entrega (en segundos).<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkFileRes_Public_URL</span> <br /> </td> 
@@ -358,27 +358,27 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_Duration</span> <br /> </td> 
-   <td> Período de validez predeterminado de una campaña (en segundos).<br /> </td> 
+   <td> Periodo de validez predeterminado de una campaña (en segundos).<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_LimitConcurrency</span> <br /> </td> 
-   <td> Número máximo de trabajos de entrega/flujo de trabajo/hipótesis/simulación que se pueden procesar a la vez, iniciados por el flujo de trabajo de operationMgt.<br /> </td> 
+   <td> Número máximo de trabajos de entrega/flujo de trabajo/hipótesis/simulación que se pueden procesar a la vez, iniciados por el flujo de trabajo operationMgt.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_OperationMgtDebug</span> <br /> </td> 
-   <td> Permite monitorizar la ejecución del flujo de trabajo técnico <a href="../../workflow/using/about-technical-workflows.md">operationMgt</a>. Cuando se activa (valor "1"), la información de ejecución se registra en los registros de auditoría del flujo de trabajo.<br /> </td> 
+   <td> Permite monitorizar el <a href="../../workflow/using/about-technical-workflows.md">operationMgt</a> ejecución técnica del flujo de trabajo. Cuando se activa (valor "1"), la información de ejecución se registra en los registros de auditoría del flujo de trabajo.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_TimeRange</span> <br /> </td> 
-   <td> Período de tiempo para condiciones de objetivo y extracción en modo programado.<br /> </td> 
+   <td> Período de tiempo para las condiciones de objetivo y extracción en modo programado.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Workflow_AnalysisThreshold</span> <br /> </td> 
-   <td> Número de registros afectados después de los cuales se recomiendan automáticamente las estadísticas de tabla.<br /> </td> 
+   <td> Número de registros afectados tras los cuales se recomiendan automáticamente las estadísticas de tabla.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkReport_Logo</span> <br /> </td> 
-   <td> Logotipo que se mostrará en la esquina superior derecha de los informes exportados.<br /> </td> 
+   <td> El logotipo se mostrará en la esquina superior derecha de los informes exportados.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsServer_PausedWorkflowPeriod</span> <br /> </td> 
@@ -431,11 +431,11 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Disable_JSFileSandboxing</span> <br /> </td> 
-   <td> Si se selecciona 1, esta opción deshabilitará el entorno limitado del archivo en Javascript.<br /> </td> 
+   <td> Si se selecciona 1, esta opción desactiva la creación de espacios aislados en Javascript.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_SaveOptions_AllowNonAdmin</span> <br /> </td> 
-   <td> Si se establece en 'true', el operador no administrador autorizado actualizará los valores de xtkOption a través del asistente de implementación.<br /> </td> 
+   <td> Si se establece en "true", el operador no administrador autorizado actualizará los valores de xtkOption mediante el asistente de implementación.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Unsafe_DecryptString</span> <br /> </td> 
@@ -462,8 +462,8 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
    <td> <span class="uicontrol">MC_EnrichmentCustomJs</span> <br /> </td> 
    <td> Biblioteca JavaScript que se personalizará para enriquecer eventos. Debe contener la implementación de estas dos funciones:<br /> 
     <ul> 
-     <li> <p> <span class="uicontrol">enrichRtEvents(aiEventId);</span> : enriquece y guarda eventos en la base de datos (donde  <span class="uicontrol"></span> aiEventId corresponde a la tabla de eventos en tiempo real procesados).</p> </li> 
-     <li> <p> <span class="uicontrol">enrichBatchEvents(aiEventId);</span> : enriquece y guarda eventos en la base de datos (donde  <span class="uicontrol"></span> aiEventId corresponde a la tabla de ID de eventos por lotes procesados).</p> </li> 
+     <li> <p> <span class="uicontrol">enrichRtEvents(aiEventId);</span> : enriquece y guarda eventos en la base de datos (donde <span class="uicontrol">aiEventId</span> corresponde a la tabla de eventos en tiempo real procesados).</p> </li> 
+     <li> <p> <span class="uicontrol">enrichBatchEvents(aiEventId);</span> : enriquece y guarda eventos en la base de datos (donde <span class="uicontrol">aiEventId</span> corresponde a la tabla de ID de eventos por lotes procesados).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -474,13 +474,13 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
    <td> <span class="uicontrol">MC_RoutingCustomJs</span> <br /> </td> 
    <td> Biblioteca JavaScript que se personalizará para los eventos de enrutamiento. Debe contener la implementación de estas dos funciones:<br /> 
     <ul> 
-     <li> <p> <span class="uicontrol">patchRtEvent(iEventId);</span> : devuelve el nombre interno del mensaje transaccional seleccionado para procesar el evento en tiempo real (donde  <span class="uicontrol"></span> iEventId corresponde al ID del evento en tiempo real procesado).</p> </li> 
-     <li> <p> <span class="uicontrol">shiftBatchEvent(iEventId);</span> : devuelve el nombre interno del mensaje transaccional seleccionado para procesar el evento por lotes (donde  <span class="uicontrol"></span> iEventId corresponde al ID del evento por lotes procesado).</p> </li> 
+     <li> <p> <span class="uicontrol">patchRtEvent(iEventId);</span> : devuelve el nombre interno del mensaje transaccional seleccionado para procesar el evento en tiempo real (donde <span class="uicontrol">iEventId</span> corresponde al ID del evento en tiempo real procesado).</p> </li> 
+     <li> <p> <span class="uicontrol">patchBatchEvent(iEventId);</span> : devuelve el nombre interno del mensaje transaccional seleccionado para procesar el evento por lotes (donde <span class="uicontrol">iEventId</span> corresponde al ID del evento por lotes procesado).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgDeliveryTimeAlert</span> <br /> </td> 
-   <td> Umbral de alerta del tiempo de envío promedio de los eventos en tiempo real.<br /> </td> 
+   <td> Umbral de alerta de tiempo de envío promedio de los eventos en tiempo real.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgDeliveryTimeWarning</span> <br /> </td> 
@@ -516,11 +516,11 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventErrorWarning</span> <br /> </td> 
-   <td> Umbral de advertencia para procesar errores de eventos en tiempo real.<br /> </td> 
+   <td> Umbral de advertencia para el procesamiento de errores de eventos en tiempo real.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventMaxQueueAlert</span> <br /> </td> 
-   <td> Umbral de alerta para el número máximo de eventos en tiempo real en cola.<br /> </td> 
+   <td> Umbral de alerta para el número máximo de eventos en cola en tiempo real.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventMaxQueueWarning</span> <br /> </td> 
@@ -556,7 +556,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_LastRtEventStat</span> <br /> </td> 
-   <td> Actualice el puntero del estado de RtEvent (última fecha hasta el momento en que se recuperaron los datos).<br /> </td> 
+   <td> Actualizar el puntero del estado de RtEvent (fecha anterior hasta el momento en que se recuperaron los datos).<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsLine_MessageCenterURL</span> <br /> </td> 
@@ -641,19 +641,19 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr>  
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceUser</span> <br /> </td> 
-   <td> Nombre del tablespace que va a contener los datos de las tablas ootb de Adobe Campaign.<br />Consulte  <a href="../../installation/using/creating-and-configuring-the-database.md">Creación y configuración de la base de datos</a>.</td> 
+   <td> Nombre del tablespace que va a contener los datos de las tablas ootb de Adobe Campaign.<br />Consulte <a href="../../installation/using/creating-and-configuring-the-database.md">Creación y configuración de la base de datos</a>.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceIndex</span> <br /> </td> 
-   <td> Nombre del tablespace destinado a contener los índices de las tablas ootb de Adobe Campaign.<br />Consulte  <a href="../../installation/using/creating-and-configuring-the-database.md">Creación y configuración de la base de datos</a>.</td> 
+   <td> Nombre del tablespace destinado a contener los índices de las tablas ootb de Adobe Campaign.<br />Consulte <a href="../../installation/using/creating-and-configuring-the-database.md">Creación y configuración de la base de datos</a>.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWork</span> <br /> </td> 
-   <td> Nombre del tablespace que va a contener los datos de las tablas de trabajo de Adobe Campaign.<br />Consulte  <a href="../../installation/using/creating-and-configuring-the-database.md">Creación y configuración de la base de datos</a>.</td> 
+   <td> Nombre del tablespace que va a contener los datos de las tablas de trabajo de Adobe Campaign.<br />Consulte <a href="../../installation/using/creating-and-configuring-the-database.md">Creación y configuración de la base de datos</a>.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWorkIndex</span> <br /> </td> 
-   <td> Nombre del tablespace destinado a contener los índices de las tablas de trabajo de Adobe Campaign.<br />Consulte  <a href="../../installation/using/creating-and-configuring-the-database.md">Creación y configuración de la base de datos</a>.</td> 
+   <td> Nombre del tablespace destinado a contener los índices de las tablas de trabajo de Adobe Campaign.<br />Consulte <a href="../../installation/using/creating-and-configuring-the-database.md">Creación y configuración de la base de datos</a>.</td> 
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
@@ -695,21 +695,21 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
    <td> <span class="uicontrol">NlMigration_KeepFolderStructure</span> <br /> </td> 
    <td> Durante la migración, la estructura de árbol se reorganiza automáticamente según los nuevos estándares de versión.<br /> Esta opción le permite desactivar la migración automática del árbol de navegación. Si lo utiliza, después de la migración deberá eliminar las carpetas obsoletas, agregar las nuevas carpetas y ejecutar todas las comprobaciones necesarias.<br /> 
     <ul> 
-     <li> <p> <span class="uicontrol">Tipo de datos: </span> entero</p> </li> 
+     <li> <p> <span class="uicontrol">Tipo de datos:</span> Número entero</p> </li> 
      <li> <p> <span class="uicontrol">Valor (texto)</span> : 1 </p> </li> 
     </ul> Esta opción solo debe utilizarse si el árbol de navegación integrado ha sufrido demasiados cambios.<br /> Para obtener más información, consulte <a href="../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure">esta sección</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsLastErrorStatCoalesce</span> <br /> </td> 
-   <td> Última fecha de procesamiento de la limpieza de tabla <span class="uicontrol">NmsEmailErrorStat</span>.<br /> </td> 
+   <td> Fecha de último procesamiento de la variable <span class="uicontrol">NmsEmailErrorStat</span> limpieza de tabla.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">PostUpgradeLastError</span> <br /> </td> 
-   <td> Información sobre el error que se produjo en la actualización posterior, siguiendo la sintaxis siguiente:<br /> <strong>{Número de compilación}:{mode: pre/post/...}:{El 'lessThan'/'greaterOrEquelThan' donde se produjo el error + sub-step}</strong> </td> 
+   <td> Información sobre el error que se produjo en la actualización posterior, siguiendo la sintaxis siguiente:<br /> <strong>{Número de compilación}:{modo: pre/post/...}:{El 'lessThan'/'greaterOrEquelThan' donde se produjo el error + sub-paso}</strong> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkCleanup_NoStats</span> <br /> </td> 
-   <td> Introduzca el valor "1" para que la actualización de las estadísticas no se realice a través del flujo de trabajo de limpieza.<br /> </td> 
+   <td> Introduzca el valor "1" para que la actualización de las estadísticas no se realice mediante el flujo de trabajo de limpieza.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -730,14 +730,14 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">nmsPipeline_config</span> <br /> </td> 
-   <td> Permite configurar Déclencheur de Experience Cloud. El tipo de datos es "texto largo" y debe tener el formato JSON. Consulte <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Uso de Déclencheur de Experience Cloud con Adobe Campaign Classic</a>.<br /> </td> 
+   <td> Permite configurar Déclencheur de Experience Cloud. El tipo de datos es "texto largo" y debe tener el formato JSON. Consulte <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Cómo usar los Déclencheur de Experience Cloud con Adobe Campaign Classic</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</span> <br /> </td> 
    <td> Esta opción se utiliza al importar datos de un sistema de terceros a través de un conector CRM. La activación de la opción  solo permite recopilar objetos modificados desde la última importación. Esta opción debe crearse manualmente y rellenarse de la siguiente manera: 
     <ul> 
-     <li> <p> <span class="uicontrol">Nombre</span>  interno: LASTIMPORT_&lt;&gt;_&lt;&gt;</p> </li> 
-     <li> <p> <span class="uicontrol">Valor (campo)</span> : fecha de la última importación, con el formato aaaa/MM/dd :mm:hss . </p> </li> 
+     <li> <p> <span class="uicontrol">Nombre interno</span> : LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</p> </li> 
+     <li> <p> <span class="uicontrol">Valor (campo)</span> : fecha de la última importación, con aaaa/MM/dd hh:mm:formato ss. </p> </li> 
     </ul><br /> </td> 
   </tr> 
   <tr> 
@@ -758,11 +758,11 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcCapabilities_Teradata</span> <br /> </td> 
-   <td> Opciones del conector de teradata.<br /> </td> 
+   <td> Opciones del conector del teradata.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcCapabilities_Hive</span> <br /> </td> 
-   <td> Opciones de conector de Hive.<br /> </td> 
+   <td> Opciones del conector de Hive.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -795,11 +795,11 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsInteraction_UseDaemon</span> <br /> </td> 
-   <td> Habilite/deshabilite la escritura asíncrona de propuestas ("0" para deshabilitar, "1" para habilitar).<br /> </td> 
+   <td> Habilite o deshabilite la escritura asíncrona de propuestas ("0" para deshabilitar, "1" para habilitar).<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsModule_CouponsEnabled</span> <br /> </td> 
-   <td> Permite habilitar los cupones.<br /> </td> 
+   <td> Permite activar cupones.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -853,7 +853,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_Available</span> <br /> </td> 
-   <td> Opción que le permite activar el seguimiento.<br /> </td> 
+   <td> Opción que permite activar el seguimiento.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_ClickFormula</span> <br /> </td> 
@@ -869,7 +869,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_LastConsolidated</span> <br /> </td> 
-   <td> La última vez que se consolidó la información de seguimiento con nuevos datos.<br /> </td> 
+   <td> La última vez que la información de seguimiento se consolida con nuevos datos.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_OpenFormula</span> <br /> </td> 
@@ -901,7 +901,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_WebFormula</span> <br /> </td> 
-   <td> Script utilizado para calcular las etiquetas de seguimiento web.<br /> </td> 
+   <td> Secuencia de comandos utilizada para calcular las etiquetas de seguimiento web.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_WebTrackingDelivery</span> <br /> </td> 
@@ -930,7 +930,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Privacy_Request_ConfirmDeletePendingDelay</span> <br /> </td> 
-   <td> El retraso entre la solicitud espera para eliminar la confirmación y la solicitud se cancela.<br /> </td> 
+   <td> El retraso entre la solicitud espera a que se elimine la confirmación y la solicitud se cancela.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Privacy_Request_MaxErrorAllowed</span> <br /> </td> 
@@ -959,7 +959,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_AppLogin</span> <br /> </td> 
-   <td> Inicio de sesión en la aplicación para ponerse en contacto con el servidor para realizar varias búsquedas.<br /> </td> 
+   <td> Inicio de sesión en la aplicación para ponerse en contacto con el servidor en varias búsquedas.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_AppPassword</span> <br /> </td> 
@@ -975,7 +975,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_DNSearch</span> <br /> </td> 
-   <td> Habilitar la búsqueda DN en el directorio.<br /> </td> 
+   <td> Habilite la búsqueda DN en el directorio.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_DNSearchBase</span> <br /> </td> 
@@ -991,7 +991,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_Facility</span> <br /> </td> 
-   <td> Tipo de autenticación utilizado para ponerse en contacto con el servidor LDAP (plain, md5, lds, ntlm, dpa).<br /> </td> 
+   <td> Tipo de autenticación utilizado para comunicarse con el servidor LDAP (plain, md5, lds, ntlm, dpa).<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_Rights</span> <br /> </td> 
@@ -1007,7 +1007,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_RightsFilter</span> <br /> </td> 
-   <td> Busque el filtro de autorizaciones de usuario.<br /> </td> 
+   <td> Filtro de búsqueda de autorizaciones de usuario.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_RightsMask</span> <br /> </td> 
@@ -1040,19 +1040,19 @@ El nodo **[!UICONTROL Administration / Platform / Options]** permite configurar 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkWebForm_Instance</span> <br /> </td> 
-   <td> Instancia que se utilizará para la invalidación de formularios web en el modo "otros servidores".<br /> </td> 
+   <td> Instancia que se utilizará para la invalidación de formularios web en modo "otros servidores".<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkWebForm_Password</span> <br /> </td> 
-   <td> Contraseña de la instancia que se utilizará para la invalidación de formularios web en el modo "otros servidores".<br /> </td> 
+   <td> Contraseña de la instancia que se va a utilizar para la invalidación de formularios web en el modo "otros servidores".<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkWebForm_ServersMode</span> <br /> </td> 
-   <td> Opción que permite especificar el modo de invalidación de los formularios web: local de forma predeterminada, utiliza servidores de seguimiento si la opción es 'tracking' y utiliza una lista personalizada con la opción 'other server(s)'.<br /> </td> 
+   <td> Opción que permite especificar el modo de invalidación de los formularios web: local de forma predeterminada, utiliza servidores de seguimiento si la opción es "seguimiento" y utiliza una lista personalizada con la opción "otros servidores".<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkWebForm_ServersURLs</span> <br /> </td> 
-   <td> Lista de direcciones personalizadas con los servidores a los que se debe contactar para la invalidación de formularios web (modo "otros servidores").<br /> </td> 
+   <td> Lista de direcciones personalizadas de los servidores a los que se debe contactar para la invalidación de formularios web (modo "otros servidores").<br /> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -94,7 +94,7 @@ Por ejemplo, en la actividad de consulta, los pasos para crear una conexión per
 
 Puede proteger el acceso a una base de datos externa al configurar una cuenta externa de FDA.
 
-Para ello, añada “**:ssl**” después de la dirección del servidor y dirección del puerto utilizado. Por ejemplo: **192.168.0.52:4501:ssl**.
+Para ello, añada “**:ssl**” después de la dirección del servidor y dirección del puerto utilizado. Por ejemplo: **192 168 0 52:4501:ssl**.
 
 A continuación, los datos se envían mediante el protocolo SSL seguro.
 

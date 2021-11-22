@@ -4,7 +4,8 @@ title: Nota técnica
 description: Nota técnica
 hide: true
 hidefromtoc: true
-source-git-commit: 53ac193211a1d98c45e97bf01ab0ad843b8f8f02
+exl-id: e7d4331b-7149-4768-8e46-2e2911319074
+source-git-commit: ed9e76495efb0cb49e248a7d38417642c5094a11
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 36%
@@ -23,7 +24,7 @@ Tenga en cuenta que los vínculos de baja pueden dar error como los demás. La f
 
 **¿Se ha visto afectado?**
 
-Para mejorar la seguridad, el mecanismo de firma para el seguimiento de vínculos en correos electrónicos se ha introducido en [Campaign Gold Standard 8](../../rn/using/gold-standard.md#gs8) - Abril de 2020 - y está habilitado de forma predeterminada para todos los clientes a partir de la versión 19.1.4 (9032@3a9dc9c) y Campaign 20.2.
+Para mejorar la seguridad, se ha introducido el mecanismo de firma para el seguimiento de vínculos en correos electrónicos en [Campaign Gold Standard 8](../../rn/using/gold-standard.md#gs8) - Abril de 2020 - y está habilitado de forma predeterminada para todos los clientes que comienzan la versión 19.1.4 (9032@3a9dc9c) y Campaign 20.2.
 
 Si su entorno se ejecuta en una de las versiones enumeradas a continuación, puede verse afectado:
 
@@ -35,17 +36,17 @@ Si su entorno se ejecuta en una de las versiones enumeradas a continuación, pue
 * Versiones de Campaign 19.2.2 (compilación 9080) a 19.2.3 (compilación 9081). [Más información](../../rn/using/release--19-2.md)
 * Versiones de Campaign 19.1.5 (compilación 9033) a 19.1.7 (compilación 9036). [Más información](../../rn/using/release--19-1.md)
 
-Aprenda a comprobar su versión [en esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+Descubra cómo comprobar su versión [en esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 **¿Cómo realizar la actualización?**
 
 Como **cliente alojado**, Adobe trabajará con usted para actualizar su configuración en breve.
 
-Como **cliente local/híbrido**, debe actualizar su configuración.
+Como **cliente local/híbrido**, debe actualizar la configuración.
 
 Siga el paso siguiente:
 
-1. En el [archivo de configuración del servidor](../../installation/using/the-server-configuration-file.md) (serverConf.xml), cambie **signEmailLinks** a **false**.
+1. En el [archivo de configuración del servidor](../../installation/using/the-server-configuration-file.md) (serverConf.xml), cambiar **signEmailLinks** a **false**.
 1. Reinicie el servicio **nlserver**.
 1. En el servidor de seguimiento, reinicie el servidor web (apache2 en Debian, httpd en CentOS/RedHat, IIS en Windows).
 
@@ -55,7 +56,7 @@ Siga el paso siguiente:
 
 >[!NOTE]
 >
->El archivo **config-`<instance>`.xml** anula la configuración de **serverConf.xml**. Si el **signEmailLinks** está presente en el **config-`<instance>`.xml** (donde **instance** es el nombre de su instancia), también debe convertirse en **false**.
+>La variable **config-`<instance>`.xml** anula los valores de **serverConf.xml** configuración. Si la variable **signEmailLinks** está presente en la variable  **config-`<instance>`.xml** (donde **instancia** es el nombre de su instancia), también debe convertirse en **false**.
 
 **¿Cuáles son las consecuencias?**
 
@@ -65,4 +66,4 @@ Una vez completada la actualización, todos los vínculos funcionarán según lo
 
 >[!NOTE]
 >
->En caso de que tenga preguntas acerca de estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html?lang=es/enterprise/using/support-for-experience-cloud.ug.html).
+>En caso de que tenga preguntas acerca de estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).

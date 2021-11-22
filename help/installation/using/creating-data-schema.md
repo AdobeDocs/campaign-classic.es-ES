@@ -23,11 +23,11 @@ Para crear un esquema en una base de datos externa:
 
    ![](assets/wf_new_schema_fda.png)
 
-1. Introduzca un **[!UICONTROL Namespace]** y **[!UICONTROL Name]** para el esquema y seleccione el **[!UICONTROL External account]** que habilitará la conexión a la base de datos. Esto permite acceder a la lista de tablas disponibles en la base externa.
+1. Escriba un **[!UICONTROL Namespace]** y  **[!UICONTROL Name]** para el esquema y seleccione el **[!UICONTROL External account]** que habilitará la conexión a la base de datos. Esto permite acceder a la lista de tablas disponibles en la base externa.
 
    ![](assets/wf_new_schema_select_table_fda.png)
 
-1. En el campo **[!UICONTROL Table name]**, seleccione la tabla que contiene los datos que se van a recopilar.
+1. En el **[!UICONTROL Table name]** , seleccione la tabla que contiene los datos que se van a recopilar.
 
    Con Snowflake, puede seleccionar aquí sus vistas si al usuario de la base de datos se le han otorgado los privilegios correctos. Tenga en cuenta que al utilizar las vistas, Adobe Campaign no podrá generar automáticamente el esquema XML, por lo que deberá crearlo usted mismo. Para obtener más información sobre las vistas, consulte [documentación del Snowflake](https://docs.snowflake.com/en/user-guide/views-introduction.html).
 

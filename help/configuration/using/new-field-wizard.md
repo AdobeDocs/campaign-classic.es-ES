@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ![](../../assets/v7-only.svg)
 
-Un asistente accesible mediante **[!UICONTROL Tools > Advanced > Add new fields]** permite agregar uno o más campos a una tabla de la base de datos.
+Un asistente al que se puede acceder mediante **[!UICONTROL Tools > Advanced > Add new fields]** permite añadir uno o varios campos a una tabla de la base de datos.
 
 Al validar el asistente, se actualiza el esquema de extensión de la tabla que se va a ampliar y se inicia la secuencia de comandos SQL para modificar la estructura física de la base de datos.
 
@@ -35,7 +35,7 @@ Las pantallas del asistente contienen los siguientes pasos:
 
    ![](assets/d_ncs_integration_schema_addfield2.png)
 
-1. Para confirmar los cambios, haga clic en el botón **[!UICONTROL Finish]**.
+1. Para confirmar los cambios, haga clic en el botón **[!UICONTROL Finish]** botón.
 
 En este ejemplo, se crea automáticamente un archivo de extensión llamado &quot;cus:recipient&quot; y se ejecuta la secuencia de comandos SQL correspondiente:
 
@@ -49,4 +49,4 @@ En este ejemplo, se crea automáticamente un archivo de extensión llamado &quot
 
 >[!NOTE]
 >
->De forma predeterminada, los campos añadidos se declaran con la propiedad **user** (con el valor &quot;true&quot;). Esto permite mostrar y editar el campo en el formulario de entrada del esquema extendido mediante un control de tipo &quot;treeEdit&quot; (consulte Formulario de entrada).
+>De forma predeterminada, los campos añadidos se declaran con la propiedad **usuario** (con el valor &quot;true&quot;). Esto permite mostrar y editar el campo en el formulario de entrada del esquema extendido mediante un control de tipo &quot;treeEdit&quot; (consulte Formulario de entrada).

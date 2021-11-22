@@ -17,11 +17,11 @@ ht-degree: 83%
 
 ![](../../assets/v7-only.svg)
 
-Utilice la opción [Federated Data Access](../../installation/using/about-fda.md) (FDA) de Campaign para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso al Teradata.
+Uso de Campaign [Acceso de datos federado](../../installation/using/about-fda.md) (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso al Teradata.
 
-1. Instale y configure [controladores de Teradata](#teradata-config)
-1. Configuración de la [cuenta externa](#teradata-external) del Teradata en Campaign
-1. Configure [configuración adicional](#teradata-additional-configurations) para el Teradata y el servidor de Campaign
+1. Instalación y configuración [controladores de teradata](#teradata-config)
+1. Configuración del Teradata [cuenta externa](#teradata-external) en Campaign
+1. Configuración [configuración adicional](#teradata-additional-configurations) para el Teradata y el servidor de Campaign
 
 ## Configuración del teradata {#teradata-config}
 
@@ -74,7 +74,7 @@ Debe instalar controladores para que el Teradata tenga implementada la conexión
 
 La cuenta externa Teradata permite conectar la instancia de Campaign a la base de datos externa Teradata.
 
-1. En Campaña **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+1. Desde campaña **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
 1. Haga clic en **[!UICONTROL New]** y seleccione **[!UICONTROL External database]** como **[!UICONTROL Type]**.
 
@@ -82,7 +82,7 @@ La cuenta externa Teradata permite conectar la instancia de Campaign a la base d
 
 1. Para configurar la cuenta externa **[!UICONTROL Teradata]**, debe especificar:
 
-   * **[!UICONTROL Type]**: Elija el  **[!UICONTROL Teradata]** tipo .
+   * **[!UICONTROL Type]**: Elija la **[!UICONTROL Teradata]** tipo .
 
    * **[!UICONTROL Server]**: URL o nombre del servidor Teradata
 
@@ -110,9 +110,9 @@ Cuando se configura esta opción, cada vez que un usuario de Campaign realiza un
 
 Para configurar la banda de Consulta, siga los pasos a continuación:
 
-1. Utilice la **[!UICONTROL Default]** para introducir una banda de consulta predeterminada que se utilizará si un usuario no tiene ninguna banda de consulta asociada. Si este campo se deja vacío, los usuarios sin banda de consulta no podrán utilizar Teradata.
+1. Utilice la variable  **[!UICONTROL Default]** para introducir una banda de consulta predeterminada que se utilizará si un usuario no tiene ninguna banda de consulta asociada. Si este campo se deja vacío, los usuarios sin banda de consulta no podrán utilizar Teradata.
 
-1. Utilice el campo **[!UICONTROL Users]** para especificar una banda de consulta para cada usuario. Puede agregar todos los pares clave/valor que necesite, por ejemplo, priority=1;workload=high. Si el usuario no tiene ninguna banda de consulta asignada, se aplica el campo **[!UICONTROL Default]**.
+1. Utilice la variable **[!UICONTROL Users]** para especificar una banda de consulta para cada usuario. Puede agregar todos los pares clave/valor que necesite, por ejemplo, priority=1;workload=high. Si el usuario no tiene ninguna banda de consulta asignada, se aplica el campo **[!UICONTROL Default]**.
 
 1. Marque la casilla **[!UICONTROL Active]** para activar esta función.
 
@@ -124,7 +124,7 @@ Error de ODBC **ODB-240000: [no se encontró el nombre del origen de datos de Mi
 
 * A partir de Campaign 18.10, puede añadir ODBCDriverName=&quot;Teradata Database ODBC Driver 16.10&quot; en las opciones de la cuenta externa. El número de versión puede cambiar, y se puede encontrar el nombre exacto ejecutando odbcad32.exe y accediendo a la pestaña Controladores.
 
-* Si utiliza una versión anterior de Campaign, deberá copiar la sección de Teradata de odbcinst.ini creada por la instalación del controlador en una nueva sección denominada Teradata. Regedit se puede utilizar en este caso. Si la base está en latin1, tendrá que agregar **APICharSize=1** en las opciones.
+* Si utiliza una versión anterior de Campaign, deberá copiar la sección de Teradata de odbcinst.ini creada por la instalación del controlador en una nueva sección denominada Teradata. Regedit se puede utilizar en este caso. Si la base está en latin1, tendrá que añadir **APICharSize=1** en las opciones de .
 
 ## Configuraciones adicionales {#teradata-additional-configurations}
 

@@ -35,11 +35,11 @@ Ninguno
 
 ## Descripción {#description-13}
 
-Este elemento define un grupo de `<parameter>` elementos.
+Este elemento define un grupo de `<parameter>`  elementos.
 
 ## Uso y contexto de uso {#use-and-context-of-use-8}
 
-Este elemento es obligatorio, incluso para un solo elemento `<param>` secundario del elemento `<method>` .
+Este elemento es obligatorio, incluso para un solo `<param>` elemento secundario del `<method>`  elemento.
 
 ## Descripción del atributo {#attribute-description-13}
 

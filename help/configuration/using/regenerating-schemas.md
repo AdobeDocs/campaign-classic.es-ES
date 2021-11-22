@@ -20,10 +20,10 @@ ht-degree: 7%
 Al modificar un esquema y guardar las modificaciones, el esquema ampliado se genera automáticamente. Sin embargo, es posible que tenga que volver a generar los esquemas manualmente para aplicar las modificaciones. Para ello, haga lo siguiente:
 
 1. Seleccione los esquemas que debe regenerar.
-1. Haga clic con el botón derecho y seleccione **[!UICONTROL Actions > Regenerate selected schemas...]** .
+1. Haga clic con el botón derecho y elija **[!UICONTROL Actions > Regenerate selected schemas...]** .
 1. Haga clic en **[!UICONTROL OK]** para confirmar e iniciar el proceso.
 
-A continuación, puede comprobar la estructura del esquema generado en las pestañas Preview y Documentation . Para obtener más información, consulte la sección [Principios](../../configuration/using/data-schemas.md#principles) .
+A continuación, puede comprobar la estructura del esquema generado en las pestañas Preview y Documentation . Para obtener más información, consulte [Principios](../../configuration/using/data-schemas.md#principles) para obtener más información.
 
 >[!NOTE]
 >

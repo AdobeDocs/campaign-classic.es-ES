@@ -52,9 +52,9 @@ Cuando desarrolle en Adobe Campaign (flujos de trabajo, JavaScript, JSSP, etc.),
 
 * **Secuencia de comandos**: intente evitar las instrucciones SQL, utilice funciones parametrizadas en lugar de concatenación de cadenas, evite la inyección de SQL añadiendo las funciones SQL que desea utilizar a la lista de permitidos.
 
-* **Proteja el modelo** de datos: usar derechos asignados para limitar las acciones de operadores, agregar filtros de sistema (sysFilter)
+* **Asegurar el modelo de datos**: usar derechos asignados para limitar las acciones de operadores, agregar filtros de sistema (sysFilter)
 
-* **Añadir captchas en aplicaciones** web: obtenga información sobre cómo añadir captchas en las páginas de aterrizaje y de suscripción públicas.
+* **Añadir captchas en aplicaciones web**: obtenga información sobre cómo añadir captchas en las páginas de aterrizaje y de suscripción públicas.
 
 [Más información](../../installation/using/scripting-coding-guidelines.md)
 
@@ -78,15 +78,15 @@ También es imprescindible que siga la seguridad del motor de la base de datos.
 
 La configuración debe realizarse en todos los servidores. Los archivos de configuración son del tipo **serverConf.xml** y **`config-<instance>.xml`**. Estos son los elementos clave que deben verificarse:
 
-* **Zonas** de seguridad: Configure las zonas de seguridad para que tengan en cuenta directamente las direcciones IP de los clientes de un proxy.
+* **Zonas de seguridad**: Configure las zonas de seguridad para que tengan en cuenta directamente las direcciones IP de los clientes de un proxy.
 
-* **Protección** de carga de archivos: limitar los tipos de archivos que se pueden cargar en el servidor de Adobe Campaign mediante un nuevo atributo uploadAllowList . Se puede utilizar en el archivo de configuración del servidor.
+* **Protección de carga de archivos**: limitar los tipos de archivos que se pueden cargar en el servidor de Adobe Campaign mediante un nuevo atributo uploadAllowList . Se puede utilizar en el archivo de configuración del servidor.
 
 * **Transmisión**: ajuste la configuración de relé desactivando las reglas de transmisión para los módulos o aplicaciones no utilizados.
 
-* **Protección de conexión** saliente y restricción de  **comandos**  (lado del servidor)
+* **Protección de conexión saliente** y **Restricción de comando** (lado del servidor)
 
-* También puede agregar encabezados HTTP adicionales, activar checkIPConsistent, enableTLS, sessionTimeOutSec, etc. Consulte la [documentación de configuración del servidor de Campaign](../../installation/using/configuring-campaign-server.md) y la [Descripción del archivo de configuración del servidor](../../installation/using/the-server-configuration-file.md) para obtener más información.
+* También puede agregar encabezados HTTP adicionales, activar checkIPConsistent, enableTLS, sessionTimeOutSec, etc. Consulte la [Documentación de configuración del servidor de Campaign](../../installation/using/configuring-campaign-server.md) y [Descripción del archivo de configuración del servidor](../../installation/using/the-server-configuration-file.md) para obtener más información.
 
 [Más información](../../installation/using/server-configuration.md)
 

@@ -9,7 +9,7 @@ exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## Filtros del sistema {#system-filters}
 
-Puede filtrar el acceso al esquema para usuarios específicos, según sus permisos. Los filtros de sistema permiten administrar los permisos de lectura y escritura de las entidades detalladas en los esquemas mediante parámetros **readAccess** y **writeAccess**.
+Puede filtrar el acceso al esquema para usuarios específicos, según sus permisos. Los filtros de sistema permiten administrar los permisos de lectura y escritura de las entidades detalladas en los esquemas mediante **readAccess** y **writeAccess** parámetros.
 
 >[!NOTE]
 >
@@ -27,11 +27,11 @@ Puede filtrar el acceso al esquema para usuarios específicos, según sus permis
 
 * **readAccess**: proporciona acceso de solo lectura a los datos del esquema.
 
-   **Advertencia** : Todas las tablas vinculadas deben configurarse con la misma restricción. Esta configuración puede afectar al rendimiento.
+   **Advertencia** - Todas las tablas vinculadas deben configurarse con la misma restricción. Esta configuración puede afectar al rendimiento.
 
 * **writeAccess**: proporciona acceso de escritura a los datos del esquema.
 
-Estos filtros se introducen en el nivel principal **element** de los esquemas y, como se muestra en los ejemplos siguientes, se pueden formar para restringir el acceso.
+Estos filtros se introducen en la variable principal **element** de los esquemas y, como se muestra en los ejemplos siguientes, se pueden formar para restringir el acceso.
 
 * Restringir permisos de ESCRITURA
 
@@ -45,7 +45,7 @@ Estos filtros se introducen en el nivel principal **element** de los esquemas y,
 
 * Restringir permisos de lectura y escritura:
 
-   En este caso, el filtro se utiliza para no permitir permisos de lectura y escritura en el esquema para todos los operadores. Solo la cuenta **internal**, representada por la expresión &quot;$(loginId)!=0&quot;, tiene estos permisos.
+   En este caso, el filtro se utiliza para no permitir permisos de lectura y escritura en el esquema para todos los operadores. Solo el **internal** cuenta, representada por la expresión &quot;$(loginId)!=0&quot;, tiene estos permisos.
 
    ```
    <sysFilter name="readAccess"> 
@@ -57,7 +57,7 @@ Estos filtros se introducen en el nivel principal **element** de los esquemas y,
    </sysFilter>
    ```
 
-   Los posibles valores de atributo **expr** utilizados para definir la condición son TRUE o FALSE.
+   Posible **expr** los valores de atributo utilizados para definir la condición son TRUE o FALSE.
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ De forma predeterminada, los esquemas integrados solo son accesibles con permiso
 
 >[!IMPORTANT]
 >
->Los permisos de lectura y escritura para el esquema **xtk:sessionInfo** solo son accesibles desde la cuenta interna de una instancia de Adobe Campaign.
+>Permisos READ y WRITE para la variable **xtk:sessionInfo** solo es accesible desde la cuenta interna de una instancia de Adobe Campaign.
 
 ## Modificación de los filtros del sistema de los esquemas integrados {#modifying-system-filters-of-built-in-schemas}
 
@@ -111,5 +111,5 @@ Puede seguir modificando los filtros del sistema de los esquemas predeterminados
 >Sin embargo, Adobe recomienda no modificar los parámetros predeterminados para garantizar una seguridad óptima.
 
 1. Cree una extensión para el esquema correspondiente o abra una extensión existente.
-1. Agregue un elemento secundario **`<sysfilter name="<filter name>" _operation="delete"/>`** en el elemento principal para eliminar la aplicación del filtro en el mismo esquema de origen.
-1. Si lo desea, puede agregar un nuevo filtro, como se detalla en [Filtros del sistema](#system-filters).
+1. Agregar un elemento secundario **`<sysfilter name="<filter name>" _operation="delete"/>`** en el elemento principal para eliminar la aplicación del filtro debajo del mismo en el esquema de origen.
+1. Si lo desea, puede agregar un nuevo filtro, tal como se detalla en [Filtros del sistema](#system-filters).

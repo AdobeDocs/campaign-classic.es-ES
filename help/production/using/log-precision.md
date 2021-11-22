@@ -27,7 +27,7 @@ Requiere relanzar los procesos con un mayor nivel de registros.
 
 Adobe Campaign puede operar con dos niveles de registro:
 
-1. El modo **Verbose** es el primer nivel después del nivel estándar. El siguiente comando lo activa:
+1. La variable **Verbose** es el primer nivel después del nivel estándar. El siguiente comando lo activa:
 
    ```
    nlserver restart <MODULE_NAME> -verbose 
@@ -39,7 +39,7 @@ Adobe Campaign puede operar con dos niveles de registro:
    nlserver restart <MODULE_NAME> -noconsole
    ```
 
-1. El modo **TraceFilter**, que permite guardar el número bueno de registros. Se activa mediante el siguiente comando:
+1. La variable **TraceFilter** , que permite guardar el número bueno de registros. Se activa mediante el siguiente comando:
 
    ```
    nlserver stop <MODULE_NAME>; nlserver <MODULE_NAME> -verbose -tracefilter:*
@@ -47,9 +47,9 @@ Adobe Campaign puede operar con dos niveles de registro:
 
    >[!NOTE]
    >
-   >Si utiliza **tracefilter:***, se activan todos los tipos de registro: ncm, rdr, nms, jst, temporización, wdbc, ldap, soap, xtk, xtkquery, sesión, xtkwriter, red, pop3, inmail\
-   >Los tipos de registro más útiles son: **wdbc** (muestra todas las consultas SQL), **soap** (muestra todas las llamadas SOAP), **ldap** (muestra todas las consultas LDAP después de la autenticación), **xtkquery** (muestra la lista de todas las consultas).\
-   >Puede utilizarlos individualmente (**tracefilter:soap,wdbc** por ejemplo). También puede activarlos todos y elegir excluir algunos otros: **-tracefilter:*,!soap**
+   >Si usa **tracefilter:***, todos los tipos de registro están activados: ncm, rdr, nms, jst, temporización, wdbc, ldap, soap, xtk, xtkquery, sesión, xtkwriter, red, pop3, inmail\
+   Los tipos de registro más útiles son: **wdbc** (muestra todas las consultas SQL), **soap** (muestra todas las llamadas SOAP), **ldap** (muestra todas las consultas LDAP después de la autenticación), **xtkquery** (muestra la lista de todos los querydef).\
+   Puede utilizarlos de forma individual (**tracefilter:soap,wdbc** por ejemplo). También puede activarlos todos y elegir excluir algunos otros: **-tracefilter:*,!soap**
 
    Compruebe que el error se haya producido realmente y, a continuación, reinicie el proceso de la forma normal:
 
@@ -58,8 +58,7 @@ Adobe Campaign puede operar con dos niveles de registro:
    ```
 
 >[!IMPORTANT]
->
->Los registros de estos comandos se almacenan en el archivo de registro del módulo.
+Los registros de estos comandos se almacenan en el archivo de registro del módulo.
 
 Este es un ejemplo específico del módulo web. Los demás módulos funcionan como se ha indicado anteriormente.
 
@@ -69,7 +68,7 @@ Antes de enviar este comando, compruebe que no se vea afectado ningún trabajo e
 nlserver pdump -who
 ```
 
-A continuación, cierre y reinicie el módulo en modo **TraceFilter**:
+A continuación, cierre y reinicie el módulo en **TraceFilter** modo:
 
 ```
 nlserver stop web; LD_PRELOAD=libjsig.so nlserver web -tomcat -verbose -tracefilter:* -tracefile:web_debug@default
@@ -82,13 +81,11 @@ nlserver stop mta@<INSTANCE_NAME>; nlserver mta -instance:<INSTANCE_NAME> -trace
 ```
 
 >[!NOTE]
->
->El modo **Tracefile** permite guardar los registros. En los ejemplos anteriores, los registros se guardan en los archivos **var/`<instance-name>`/mta_debug.log** y **var/default/web_debug.log**.
+La variable **Archivo de seguimiento** permite guardar los registros. En los ejemplos anteriores, los registros se guardan en la variable **var/`<instance-name>`/mta_debug.log** y **var/default/web_debug.log** archivos.
 
 >[!IMPORTANT]
->
->En Windows, no agregue la opción LD_PRELOAD . El siguiente comando es suficiente:\
->nlserver web -tomcat -verbose -tracefilter:*
+En Windows, no agregue la opción LD_PRELOAD . El siguiente comando es suficiente:\
+nlserver web -tomcat -verbose -tracefilter:*
 
 Compruebe que el problema vuelva a ocurrir y, a continuación, reinicie el módulo:
 

@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ![](../../assets/v7-only.svg)
 
-Los informes basados en un esquema específico para los destinatarios predeterminados de Adobe Campaign (nm:recipient o esquema vinculado) deben redesarrollarse para tener en cuenta los datos de la tabla personalizada y sus tablas vinculadas a través de la asignación de destino (consulte la sección [Target mapping](../../configuration/using/target-mapping.md) ).
+Los informes basados en un esquema específico para los destinatarios predeterminados de Adobe Campaign (nm:recipient o esquema vinculado) deben redesarrollarse para tener en cuenta los datos de la tabla personalizada y sus tablas vinculadas a través de la asignación de destino (consulte la [Asignación de destino](../../configuration/using/target-mapping.md) ).
 
 Para crear nuevos informes, consulte [esta sección](../../reporting/using/about-reports-creation-in-campaign.md).
 
