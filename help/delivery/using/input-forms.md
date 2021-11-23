@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: cf4e316e9c9bce467e2bd2bd04097f55b3dbb9c7
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 100%
+source-wordcount: '826'
+ht-degree: 99%
 
 ---
 
@@ -25,9 +25,9 @@ Los formularios se describen en [esta sección](../../configuration/using/identi
 
 El documento XML de un formulario de entrada debe contener el elemento raíz **`<form>`** con los atributos **name** y **namespace** para rellenar, respectivamente, el nombre del formulario y su área de nombres.
 
-```
+```xml
 <form name="form_name" namespace="name_space">
-...
+…
 </form>
 ```
 
@@ -39,7 +39,7 @@ Para mostrar la estructura de un formulario de entrada, se describe una interfaz
 
 Este es el formulario de entrada correspondiente:
 
-```
+```xml
 <form name="book" namespace="cus" type="contentForm">
   <input xpath="@name"/>
   <input xpath="@date"/>
@@ -89,7 +89,7 @@ Este control muestra una lista de columnas editable con una barra de herramienta
 
 ![](assets/d_ncs_content_form4.png)
 
-```
+```xml
 <input xpath="chapter" type="list">
   <input xpath="@name"/>
   <input xpath="@number"/>
@@ -108,7 +108,7 @@ De forma predeterminada, los botones de la barra de herramientas se alinean vert
 
 ![](assets/d_ncs_content_form5.png)
 
-```
+```xml
 <input nolabel="true" toolbarCaption="List of chapters" type="list" xpath="chapter">
   <input xpath="@name"/>
   <input xpath="@number"/>
@@ -133,7 +133,7 @@ La edición de formularios dentro de listas se utiliza en los siguientes casos:
 
 ![](assets/d_ncs_content_form7.png)
 
-```
+```xml
 <input nolabel="true" toolbarCaption="List of chapters" type="list" xpath="chapter" zoom="true" zoomOnAdd="true">
   <input xpath="@name"/>
   <input xpath="@number"/>
@@ -160,7 +160,7 @@ Esta lista presenta la edición de los elementos de colección en forma de pesta
 
 ![](assets/d_ncs_content_form6.png)
 
-```
+```xml
 <container toolbarCaption="List of chapters" type="notebooklist" xpath="chapter" xpath-label="@name">
   <container colcount="2">
     <input xpath="@name"/>
@@ -197,3 +197,5 @@ La zona de edición permite introducir el contenido XML del formulario de entrad
 La pestaña **[!UICONTROL Preview]** le permite ver el formulario de entrada:
 
 ![](assets/d_ncs_content_form13.png)
+
+Más información sobre [edición de formularios](../../configuration/using/editing-forms.md) y [estructura de formulario](../../configuration/using/form-structure.md).

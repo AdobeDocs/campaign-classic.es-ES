@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
-source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
+source-git-commit: d750e13d3770d3b36b5f4376233d4da458730ed7
 workflow-type: tm+mt
-source-wordcount: '2410'
-ht-degree: 100%
+source-wordcount: '2420'
+ht-degree: 99%
 
 ---
 
@@ -76,6 +76,10 @@ En **[!UICONTROL Administration]** > **[!UICONTROL Access Management]** > **[!UI
 Antes de crear solicitudes de privacidad, debe definir el área de nombres que utilizará. Esta es la clave que se utiliza para identificar el sujeto de datos en la base de datos de Adobe Campaign.
 
 Hay tres áreas de nombres predeterminadas disponibles: correo electrónico, teléfono y teléfono móvil. Si necesita un área de nombres diferente (por ejemplo, un campo personalizado de destinatario), puede crear una nueva desde **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]**.
+
+>[!NOTE]
+>
+>Para obtener un rendimiento óptimo, se recomienda utilizar áreas de nombres predeterminadas.
 
 ## Creación de una solicitud de privacidad {#create-privacy-request-ui}
 
