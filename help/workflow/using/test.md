@@ -9,7 +9,7 @@ exl-id: 6f246d56-01c8-43f5-b12b-c40d258b93c8
 source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Una condición es una expresión JavaScript que debe evaluarse como “verdadera
 
 ![](assets/edit_test.png)
 
-Para obtener más información sobre todas las funciones adicionales de JavaScript y los métodos SOAP del servidor aplicativo accesible mediante JavaScript de flujo de trabajo, consulte la [Documentación de JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/index.html).
+Para obtener más información sobre todas las funciones adicionales de JavaScript y los métodos SOAP del servidor aplicativo accesible mediante JavaScript de flujo de trabajo, consulte la [Documentación de JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es).
 
 También puede insertar variables directamente desde este editor. Para obtener más información sobre cómo trabajar con variables, consulte [esta sección](javascript-scripts-and-templates.md#variables).
 

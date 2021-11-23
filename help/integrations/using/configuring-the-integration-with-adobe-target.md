@@ -9,7 +9,7 @@ exl-id: ae8c680f-52a6-4d00-91cd-44d1c3807546
 source-git-commit: af40fe822c69979a478604595790d4deefd6d5b0
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -29,12 +29,12 @@ Esta integración requiere:
 
 Para configurar esta integración en Adobe Campaign, siga los pasos a continuación:
 
-1. Instale el **[!UICONTROL Integration with the Adobe Experience Cloud]** paquete integrado. [Más información](../../platform/using/working-with-data-packages.md#importing-packages)
+1. Instale el paquete integrado **[!UICONTROL Integration with the Adobe Experience Cloud]**. [Más información](../../platform/using/working-with-data-packages.md#importing-packages)
 
-   Este paquete le permite acceder a los recursos compartidos a través de Digital Asset Manager.
+   Esto le permite acceder a los recursos compartidos a través del Digital Asset Manager.
 
 1. Permita la conexión mediante IMS (servicio de conexión con Adobe ID) para utilizar imágenes compartidas mediante Adobe Experience Cloud en sus correos electrónicos. [Más información](../../integrations/using/about-adobe-id.md)
-1. Vaya a **[!UICONTROL Administration > Platform > Options]** para configurar las opciones del servidor y la organización (inquilino) de Adobe Target:
+1. Navegue a **[!UICONTROL Administration > Platform > Options]** para configurar las opciones del servidor y la organización (inquilino) de Adobe Target:
 
    ![](assets/tar_options.png)
 

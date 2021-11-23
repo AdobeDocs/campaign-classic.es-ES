@@ -167,7 +167,7 @@ ht-degree: 99%
       + [Acerca del canal de correo directo](delivery/using/about-direct-mail-channel.md)
       + [Creación de una entrega de correo directo](delivery/using/creating-a-direct-mail-delivery.md)
       + [Definición del contenido de correo postal](delivery/using/defining-the-direct-mail-content.md)
-      + [Validar](delivery/using/validating.md)
+      + [Validación](delivery/using/validating.md)
    + Uso de plantillas de entrega {#using-delivery-templates}
       + [Acerca de las plantillas](delivery/using/about-templates.md)
       + [Creación de una plantilla de entregas](delivery/using/creating-a-delivery-template.md)
@@ -373,11 +373,11 @@ ht-degree: 99%
       + [Configuración del acceso a  [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
       + [Inserción de un recurso compartido](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
-      + [Trabajar con [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
+      + [Uso de  [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [Configuración de la integración](integrations/using/configuring-the-integration.md)
       + [Creación de una newsletter de  [!DNL Experience Manager] ](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
-      + [Trabajar con [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
+      + [Uso de  [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
       + [Configuración de la integración con  [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [Inserción de una imagen dinámica](integrations/using/inserting-a-dynamic-image.md)
    + Conector de ACS {#acs-connector}
@@ -387,14 +387,14 @@ ht-degree: 99%
       + [Sincronización de aplicaciones web](integrations/using/synchronizing-web-applications.md)
       + [Resolución de problemas con  [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
    + Activadores de Adobe Experience Cloud {#experience-triggers}
-      + [Trabajar con [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
+      + [Uso de  [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [Configuración de canalización](integrations/using/configuring-pipeline.md)
       + [Configuración de Adobe I/O para  [!DNL Experience Cloud Triggers]](integrations/using/configuring-adobe-io.md)
       + [Configuración de eventos para la implementación personalizada](integrations/using/events.md)
       + [Supervisión de canalización](integrations/using/pipeline-monitoring.md)
       + [Solución de problemas de canalización](integrations/using/pipeline-troubleshooting.md)
    + Fuentes y destinos de Adobe Experience Platform {#aep-sources-destinations}
-      + [Trabajar con fuentes y destinos](integrations/using/get-started-sources-destinations.md)
+      + [Trabajo con fuentes y destinos](integrations/using/get-started-sources-destinations.md)
       + [Ingesta de audiencias de Adobe Experience Platform en Campaign](integrations/using/ingest-aep-data.md)
       + [Exportación de datos de Campaign a Adobe Experience Platform](integrations/using/export-campaign-data.md)
 + Automatización con flujos de trabajo {#automating-with-workflows}

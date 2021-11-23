@@ -8,11 +8,11 @@ exl-id: e9756046-fc67-4afd-b7a9-c8d73614f02e
 source-git-commit: af40fe822c69979a478604595790d4deefd6d5b0
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Trabajar con Campaign y el Experience Manager{#about-adobe-experience-manager}
+# Uso de Campaign y Experience Manager{#about-adobe-experience-manager}
 
 ![](../../assets/common.svg)
 

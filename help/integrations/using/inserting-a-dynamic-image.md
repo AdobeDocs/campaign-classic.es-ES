@@ -9,15 +9,15 @@ exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
 source-git-commit: b6e24c63ece12f25b7dafe3fede9e38b3aab2427
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
-# Insertar contenido dinámico de Target {#inserting-a-dynamic-image}
+# Adición de contenido dinámico de Target {#inserting-a-dynamic-image}
 
 ![](../../assets/common.svg)
 
-En esta página, aprenda a integrar una oferta dinámica de Adobe Target en un correo electrónico en Adobe Campaign.
+En esta página, se muestra cómo integrar una oferta dinámica de Adobe Target en un correo electrónico en Adobe Campaign.
 
 El objetivo es crear una entrega con un bloque de imagen que cambie dinámicamente según el país del destinatario: los datos se envían con cada solicitud de mbox y dependen de la dirección IP del destinatario.
 
@@ -31,13 +31,13 @@ En este mensaje, las imágenes pueden variar dinámicamente según las siguiente
 
 Para ello, siga los siguientes pasos:
 
-1. [Inserción de la oferta dinámica en un mensaje de correo electrónico](../../integrations/using/inserting-a-dynamic-image.md#inserting-dynamic-offer)
-1. [Crear ofertas de redireccionamiento](../../integrations/using/inserting-a-dynamic-image.md#create-redirect-offers)
-1. [Crear audiencias](../../integrations/using/inserting-a-dynamic-image.md#audiences-target)
-1. [Crear una actividad de segmentación de experiencias](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
+1. [Inserción de la oferta dinámica en un correo electrónico](../../integrations/using/inserting-a-dynamic-image.md#inserting-dynamic-offer)
+1. [Creación de ofertas de redireccionamiento](../../integrations/using/inserting-a-dynamic-image.md#create-redirect-offers)
+1. [Creación de audiencias](../../integrations/using/inserting-a-dynamic-image.md#audiences-target)
+1. [Creación de una actividad de segmentación de experiencias ](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
 1. [Vista previa y envío del correo electrónico](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
 
-## Inserción de la oferta dinámica en un mensaje de correo electrónico {#inserting-dynamic-offer}
+## Inserción de la oferta dinámica en un correo electrónico {#inserting-dynamic-offer}
 
 En Adobe Campaign, cuando haya terminado de definir el destino y el contenido de su correo electrónico, puede insertar una imagen dinámica desde Target.
 
@@ -53,7 +53,7 @@ En Adobe Campaign, hay dos formas de insertar una imagen dinámica desde Target 
 
    ![](assets/target_12.png)
 
-### Defina los parámetros de la imagen {#defining-image-parameters}
+### Definición de los parámetros de la imagen {#defining-image-parameters}
 
 * La URL de **[!UICONTROL Default image]**: Esta es la imagen que se muestra cuando no se cumple ninguna de las condiciones. También puede seleccionar una imagen de su biblioteca de activos.
 * **[!UICONTROL Target location]**: Introduzca un nombre para la ubicación de su oferta dinámica. Debe seleccionar esta ubicación en la actividad de Target.
@@ -64,7 +64,7 @@ Si utiliza permisos de empresa en la configuración de Adobe Target, añada la p
 
 ![](assets/target_13.png)
 
-## Crear ofertas de redireccionamiento {#create-redirect-offers}
+## Creación de ofertas de redireccionamiento {#create-redirect-offers}
 
 En Target puede crear distintas versiones de la oferta. Según cada experiencia de usuario, se puede crear una oferta de redireccionamiento y puede especificar la imagen que desee mostrar.
 
@@ -82,7 +82,7 @@ En este caso, necesitamos dos ofertas de redirección, la tercera (la predetermi
 
 1. Siga el mismo procedimiento para la oferta de redirección restante. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=es).
 
-## Crear audiencias {#audiences-target}
+## Creación de audiencias {#audiences-target}
 
 En Target, debe crear las dos audiencias en las que se clasifican las personas que visitan la oferta para enviarles los diferentes contenidos. Para cada audiencia, añada una regla para definir quién puede ver la oferta.
 
@@ -98,7 +98,7 @@ En Target, debe crear las dos audiencias en las que se clasifican las personas q
 
 1. Siga el mismo procedimiento para las audiencias restantes.
 
-## Crear una actividad de segmentación de experiencias {#creating-targeting-activity}
+## Creación de una actividad de segmentación de experiencias  {#creating-targeting-activity}
 
 En Target, es necesario crear una actividad de segmentación de experiencias, definir las diferentes experiencias y asociarlas a las ofertas correspondientes.
 
@@ -138,7 +138,7 @@ Añada un contenido para cada audiencia:
 
 1. Siga el mismo procedimiento para la segunda experiencia.
 
-### Defina la actividad {#defining-activity}
+### Definición de la actividad {#defining-activity}
 
 La ventana de **[!UICONTROL Target]** resume la actividad. Si es necesario, puede añadir otras experiencias.
 

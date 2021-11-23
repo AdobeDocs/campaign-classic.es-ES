@@ -1,18 +1,18 @@
 ---
 product: campaign
-title: Configuración de la integración con Adobe Experience Manager
-description: Descubra más información sobre cómo configurar la integración de Campaign y AEM
+title: Configuración de la integración de Adobe Experience Manager
+description: Descubra más información acerca de cómo configurar la integración de Campaign y AEM
 audience: integrations
 content-type: reference
 exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f
 source-git-commit: 6c23dadb5b6523e17e242de43a908ca86ed7cc23
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Configuración de la integración AEM Campaign{#configuring-the-integration}
+# Configuración de la integración de AEM y Campaign{#configuring-the-integration}
 
 ![](../../assets/common.svg)
 

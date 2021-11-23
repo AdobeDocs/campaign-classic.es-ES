@@ -9,7 +9,7 @@ exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
 source-wordcount: '1651'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -106,7 +106,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
    </tr>
    <tr>
    <td>Documentación de las API Campaign: archivo jsapi.chm</td>
-   <td>A partir de la versión 19.1 de Campaign, las API de Campaign Classic están disponibles en una página dedicada. Si utilizó el archivo jsapi.chm heredado, debería consultar la <a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html">nueva versión en línea</a>.</td>
+   <td>A partir de la versión 19.1 de Campaign, las API de Campaign Classic están disponibles en una página dedicada. Si utilizó el archivo jsapi.chm heredado, debería consultar la <a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es">nueva versión en línea</a>.</td>
   </tr> 
   <tr> 
    <td>Organización de campañas  - Marketing predictivo</td>

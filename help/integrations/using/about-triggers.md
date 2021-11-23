@@ -8,11 +8,11 @@ exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
 source-git-commit: af40fe822c69979a478604595790d4deefd6d5b0
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Trabajar con Déclencheur de Campaign y de Experience Cloud{#about-adobe-experience-triggers}
+# Uso de activadores de Campaign y de Experience Cloud{#about-adobe-experience-triggers}
 
 ![](../../assets/common.svg)
 

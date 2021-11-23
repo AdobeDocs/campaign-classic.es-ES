@@ -9,7 +9,7 @@ exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
 source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
 source-wordcount: '2368'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -367,7 +367,7 @@ Puede añadir un campo de carga a una página. Esta funcionalidad puede ser úti
 
 Para insertar un campo de carga en una página de formulario, en la barra de herramientas del editor de páginas, seleccione el menú **[!UICONTROL Advanced controls > File...]**.
 
-De forma predeterminada, los archivos cargados se almacenan en archivos de recursos a los que se puede acceder mediante el menú **[!UICONTROL Resources > Online > Public resources]**. Se puede utilizar una secuencia de comandos para cambiar este comportamiento. Esta secuencia de comandos puede utilizar las funciones definidas en [Campaign JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/index.html), incluidas las que afectan a la manipulación de archivos.
+De forma predeterminada, los archivos cargados se almacenan en archivos de recursos a los que se puede acceder mediante el menú **[!UICONTROL Resources > Online > Public resources]**. Se puede utilizar una secuencia de comandos para cambiar este comportamiento. Esta secuencia de comandos puede utilizar las funciones definidas en [Campaign JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es), incluidas las que afectan a la manipulación de archivos.
 
 Se puede almacenar el vínculo a estos archivos en una variable local o en un campo de base de datos. Por ejemplo, se puede ampliar el esquema del destinatario para añadir un vínculo a recursos basados en archivos.
 

@@ -6,7 +6,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 97%
 |---|---|
 | [Notas de la versión](rn/using/latest-release.md) | [Lista de mensajes de error](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=es) |
 | [Videotutoriales](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es) | [Modelo de datos de Campaign](configuration/using/about-data-model.md) |
-| [Matriz de compatibilidad](rn/using/compatibility-matrix.md) | [JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html) |
+| [Matriz de compatibilidad](rn/using/compatibility-matrix.md) | [JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=es) |
 | Actualización de [[!DNL Gold Standard] ](rn/using/gs-overview.md) | [Guía de seguimiento](https://helpx.adobe.com/es/campaign/kb/acc-tracking.html) |
 | [Funciones obsoletas](rn/using/deprecated-features.md) | [Lista de comprobación de seguridad y privacidad](https://helpx.adobe.com/es/campaign/kb/acc-security.html) |
 | [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es) | [Directrices de monitorización](production/using/monitoring-guidelines.md) |

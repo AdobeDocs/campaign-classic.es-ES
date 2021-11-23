@@ -9,7 +9,7 @@ exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
 source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
 source-wordcount: '1031'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Están disponibles los siguientes tipos de campo:
 
    >[!NOTE]
    >
-   >En el lado del servidor, la secuencia de comandos puede utilizar las funciones definidas en [Campaign JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/index.html).
+   >En el lado del servidor, la secuencia de comandos puede utilizar las funciones definidas en [Campaign JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es).
 
 ## Inserción de contenido HTML {#inserting-html-content}
 
