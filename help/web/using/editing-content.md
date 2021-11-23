@@ -137,7 +137,6 @@ Los bloques y campos de personalización solo se pueden insertar en bloques de t
 >* Nueva ventana (_blank)
 >* Ventana actual (_self)
 >* Comportamiento predeterminado del navegador
-
 >
 
 

@@ -80,15 +80,14 @@ A continuación se muestra una lista de los comandos de administración habitual
    >* En caso de emergencia, utilice el **-inmediato** para forzar una parada inmediata del proceso (equivalente al comando Unix) **kill -9**).
    >* Utilice la variable **-noconsole** para asegurarse de que el módulo iniciado no mostrará nada en la consola. Sus registros se escribirán en el disco a través del **syslogd** módulo.
    >* Utilice la variable **-verbose** para mostrar información adicional sobre las acciones de proceso.
-
-      >
-      >   Ejemplo:
-      >
-      >   **nlserver restart web-verbose**
-      >
-      >   **nlserver start mta@myinstance -verbose**
-      >
-      >   Esta opción agrega registros adicionales. Se recomienda volver a iniciar los procesos sin el **-verbose** una vez que haya encontrado la información deseada, para evitar sobrecargar los registros.
+   >
+   >   Ejemplo:
+   >
+   >   **nlserver restart web-verbose**
+   >
+   >   **nlserver start mta@myinstance -verbose**
+   >
+   >   Esta opción agrega registros adicionales. Se recomienda volver a iniciar los procesos sin el **-verbose** una vez que haya encontrado la información deseada, para evitar sobrecargar los registros.
 
 
 * Inicie todos los procesos de Adobe Campaign (equivalente a iniciar la variable **nlserver6** servicio):
