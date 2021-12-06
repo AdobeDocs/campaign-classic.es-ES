@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2468'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -337,7 +337,7 @@ Cuando se activa la aprobación, un vínculo especial permite aprobar el presupu
 
 ![](assets/s_user_cost_mgmt_sample_19.png)
 
-A continuación, puede hacer clic en el vínculo para conceder o rechazar la aprobación, o utilizar el vínculo del correo electrónico de notificación si se ha activado la notificación para esta campaña.
+Puede hacer clic en el vínculo para conceder o rechazar la aprobación, o utilizar el vínculo del mensaje de correo electrónico de notificación si se ha activado la notificación para esta campaña.
 
 Cuando el presupuesto se ha aprobado y ha concluido la entrega, los costes se cargan automáticamente mediante un flujo de trabajo técnico especial.
 
