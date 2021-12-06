@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Además de la sección de la [Guía de prácticas recomendadas de entrega de Ado
 
 ## ¿Cómo puedo implementar la aprobación de contenido?  {#how-can-i-implement-content-approval-}
 
-Campaign permite configurar los procesos de aprobación para las etapas principales de la campaña de marketing en modo de colaboración. Para cada campaña, puede aprobar el objetivo de envío, los contenidos y los costes. Los operadores de Adobe Campaign responsables de la aprobación pueden recibir notificaciones por correo electrónico y aceptar o rechazar la aprobación desde la consola o a través de una conexión web.
+Campaign permite configurar los procesos de aprobación para las etapas principales de la campaña de marketing en modo de colaboración. Para cada campaña, puede aprobar el objetivo de envío, los contenidos y los costes. Los operadores de Adobe Campaign responsables de la aprobación pueden recibir notificaciones por correo electrónico y aceptar o rechazar la aprobación a través de la consola o de una conexión web.
 
 [Haga clic aquí para obtener más información](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries) y descubrir pasos para implementar la aprobación de su contenido de entrega en Campaign.
 
