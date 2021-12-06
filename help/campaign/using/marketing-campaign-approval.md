@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2434'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -379,4 +379,4 @@ En la fecha de la solicitud de extracción, se crea el archivo de extracción y 
 
 Puede ver el contenido del archivo extraído (haciendo clic en su nombre), aprobarlo o, si es necesario, cambiar el formato y volver a iniciar la extracción con los vínculos del panel.
 
-Una vez aprobado el archivo, puede enviar el correo electrónico de notificación al enrutador. Para obtener más información, consulte [Iniciar una entrega sin conexión](../../campaign/using/marketing-campaign-deliveries.md#starting-an-offline-delivery).
+Una vez aprobado el archivo, puede enviar el correo electrónico de notificación al enrutador. Para obtener más información, consulte [Inicio de una entrega sin conexión](../../campaign/using/marketing-campaign-deliveries.md#starting-an-offline-delivery).
