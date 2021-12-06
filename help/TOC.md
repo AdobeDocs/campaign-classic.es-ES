@@ -790,8 +790,8 @@ ht-degree: 99%
       + [Regeneración de esquemas](configuration/using/regenerating-schemas.md)
       + [Ejemplos de la edición de esquemas](configuration/using/examples-of-schemas-edition.md)
    + Formularios de entrada {#input-forms}
-      + [Identificación de un formulario](configuration/using/identifying-a-form.md)
-      + [Editar formularios](configuration/using/editing-forms.md)
+      + [Identificación de formularios](configuration/using/identifying-a-form.md)
+      + [Edición de formularios](configuration/using/editing-forms.md)
       + [Estructura del formulario](configuration/using/form-structure.md)
    + API {#api}
       + [Acerca de los servicios web](configuration/using/about-web-services.md)
