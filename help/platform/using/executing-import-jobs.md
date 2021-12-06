@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2955'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -207,7 +207,7 @@ Las siguientes opciones están disponibles para cada campo de la tabla relaciona
 
 Se debe completar por lo menos una clave de conciliación para administrar la deduplicación.
 
-Una clave de reconciliación es un conjunto de campos utilizados para identificar un registro. Por ejemplo, para importar destinatarios, la clave de reconciliación puede ser el número de cuenta, el campo &quot;correo electrónico&quot; o los campos &quot;apellidos, nombre, empresa&quot;, etc.
+Una clave de reconciliación es un conjunto de campos utilizados para identificar un registro. Por ejemplo, para importar destinatarios, la clave de la reconciliación puede ser el número de cuenta, el campo “correo electrónico” o los campos “apellidos, nombre, compañía”, etc.
 
 En este caso, para averiguar si una línea de un archivo coincide con un destinatario existente en la base de datos, el motor de importación compara los valores del archivo con los de la base de datos para todos los campos de la clave. Cuando los campos son específicos de un registro, se puede realizar una comparación aproximada entre los datos de origen y destino, garantizando la integridad de los datos tras la importación. Se puede rellenar una segunda clave de reconciliación para la misma tabla; se utiliza para las líneas cuya primera clave está vacía.
 
