@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: filtering-data
 exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Siga estos pasos:
    ![](assets/s_ncs_user_filter_parameters.png)
 
 1. Haga clic en **[!UICONTROL Save]** para añadir un filtro a los filtros predefinidos para este tipo de lista.
-1. Ahora puede utilizar este filtro en la variable **[!UICONTROL Subscriptions]** del perfil de destinatario; puede acceder al filtro &quot;Formato de correo electrónico desconocido&quot; haciendo clic en el botón **[!UICONTROL Filters]** botón.
+1. Ahora puede utilizar este filtro en la pestaña **[!UICONTROL Subscriptions]** del perfil de destinatario; puede acceder al filtro “Formato del correo electrónico desconocido” haciendo clic en el botón **[!UICONTROL Filters]**.
 
    ![](assets/s_ncs_user_filter_on_events.png)
 
