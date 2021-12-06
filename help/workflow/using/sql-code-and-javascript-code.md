@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: action-activities
 exl-id: 729a2010-c2d8-481b-8c9e-780b9e5f97ef
 source-git-commit: 8e6ebec9af0b7865616cf3904c8d400094567bdb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -33,10 +33,10 @@ Una actividad de **[!UICONTROL SQL code]** ejecuta una secuencia de comandos SQL
 
 ## Código JavaScript y código JavaScript avanzado {#javascript-code}
 
-Las actividades **[!UICONTROL JavaScript code]** y **[!UICONTROL Advanced JavaScript code]** ejecutan una secuencia de comandos JavaScript en el contexto de un flujo de trabajo. Para obtener más información sobre secuencias de comandos, consulte estas secciones:
+Las actividades **[!UICONTROL JavaScript code]** y **[!UICONTROL Advanced JavaScript code]** ejecutan un script JavaScript en el contexto de un flujo de trabajo. Para obtener más información sobre los scripts, consulte estas secciones:
 
 * [Plantillas y scripts de JavaScript](javascript-scripts-and-templates.md)
-* [Examples of JavaScript code in workflows](javascript-in-workflows.md)
+* [Ejemplos de código JavaScript en flujos de trabajo](javascript-in-workflows.md)
 
 ### Retraso de ejecución {#exec-delay}
 
