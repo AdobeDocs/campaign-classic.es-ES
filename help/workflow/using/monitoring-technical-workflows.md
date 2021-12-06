@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: use-cases
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ La configuración de flujos de trabajo en carpetas con nombre por repetición y 
 
 La automatización de la monitorización reduce los costes de los recursos y garantiza que las tareas se planifiquen con la frecuencia adecuada.
 
-Puede crear un flujo de trabajo de monitorización para enviar un correo electrónico cada vez que se produce un error en ciertas tareas o cuando una tabla crítica se vuelve demasiado grande.
+Puede crear un flujo de trabajo de monitorización para enviar un mensaje de correo electrónico cada vez que se produce un error o una tabla esencial se vuelve demasiado grande.
 
 Puede crear una vista para que se puedan monitorizar todos los flujos de trabajo de un área funcional o de todo un sistema.
 
