@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1902'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Para crear una plantilla de servicio y definir su contenido, aplique los siguien
 
    ![](assets/s_ncs_user_supplier_node_create_template.png)
 
-1. Cree las categorías de coste para cada tipo de proceso (envío por correo postal, correo electrónico, etc.). o tarea). Para ello, haga clic en la pestaña **[!UICONTROL Cost categories]** y luego en el botón **[!UICONTROL Add]** e introduzca los parámetros de cada categoría de coste.
+1. Cree las categorías de coste para cada tipo de proceso (entrega por correo directo, por correo electrónico, etc. o tarea). Para ello, haga clic en la pestaña **[!UICONTROL Cost categories]** y luego en el botón **[!UICONTROL Add]** e introduzca los parámetros de cada categoría de coste.
 
    ![](assets/s_ncs_user_supplier_node_03.png)
 
@@ -161,7 +161,7 @@ Para ello, haga clic en la pestaña **[!UICONTROL Processes]** para configurar l
 
 Los servicios están asociados a campañas a través de entregas o tareas. Los proveedores de servicios están vinculados a plantillas de entrega para ofrecer sus servicios en las entregas creados mediante esta plantilla.
 
-Cuando se selecciona un servicio, las categorías de coste correspondientes al tipo de envío (correo postal, correo electrónico, etc.) se indican automáticamente en la tabla central junto con las opciones de procesamiento que se han definido.
+Cuando se selecciona un servicio, las categorías de coste correspondientes al tipo de entrega (correo electrónico, correo directo, etc.) se indican automáticamente en la tabla central junto con las opciones de procesamiento definidas.
 
 >[!NOTE]
 >
