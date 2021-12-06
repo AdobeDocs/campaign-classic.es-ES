@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: content-management
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
 source-git-commit: cf4e316e9c9bce467e2bd2bd04097f55b3dbb9c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '826'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -198,4 +198,4 @@ La pestaña **[!UICONTROL Preview]** le permite ver el formulario de entrada:
 
 ![](assets/d_ncs_content_form13.png)
 
-Más información sobre [edición de formularios](../../configuration/using/editing-forms.md) y [estructura de formulario](../../configuration/using/form-structure.md).
+Más información acerca de la [edición de formularios](../../configuration/using/editing-forms.md) y la [estructura de los formularios](../../configuration/using/form-structure.md).
