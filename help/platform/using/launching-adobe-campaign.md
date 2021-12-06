@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
 source-git-commit: 8491b3a5d1333f4445f90a8a051cd1f5149691bc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '529'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ El menú **[!UICONTROL Help > About...]** le permite acceder a la siguiente info
 
 Cuando contacte con el equipo de atención al cliente de Adobe, debe proporcionar el número de versión y el número de compilación de la consola del cliente de Adobe Campaign y del servidor de aplicaciones.
 
-Si está ejecutando la versión de [ [!DNL Gold Standard] Campaign ](../../rn/using/gold-standard.md) también debe compartir los caracteres SHA/1 que se muestran en la casilla **[!UICONTROL About]**. Por ejemplo, para la variable **Gold Standard 12** versión, este número de compilación puede mostrarse: &quot;versión 9032@554dbcd&quot;.
+Si está ejecutando la versión de [ [!DNL Gold Standard] Campaign ](../../rn/using/gold-standard.md) también debe compartir los caracteres SHA/1 que se muestran en la casilla **[!UICONTROL About]**. Por ejemplo, para la versión **Gold Standard 12**, puede mostrarse este número de compilación: “build 9032@554dbcd”.
 
 ![](assets/about-acc-gs.png)
 
