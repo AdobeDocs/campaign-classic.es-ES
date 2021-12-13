@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: configuration
 exl-id: 5c11bd0f-2df7-4c7f-b682-955fedf8e664
 source-git-commit: b5334de18eca8fc1147ae0c42fe23a6932bf71d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '876'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 83%
 
 ![](../../assets/v7-only.svg)
 
-Con las aplicaciones web, el módulo Marketing social de Campaign permite mostrar contenido personalizado en las aplicaciones de Facebook, lo que facilita la adquisición de clientes potenciales con estos medios sociales. Para obtener más ejemplos de aplicaciones web de tipo Facebook, consulte [esta página](../../social/using/examples-of-facebook-apps.md).
+Gracias a las aplicaciones web, el módulo de marketing social de Campaign le permite mostrar contenido personalizado en las aplicaciones de Facebook, lo que facilita la adquisición de clientes potenciales mediante este medio social. Para obtener más ejemplos de aplicaciones web de tipo Facebook, consulte [esta página](../../social/using/examples-of-facebook-apps.md).
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Con las aplicaciones web, el módulo Marketing social de Campaign permite mostra
 
 ![](assets/social_webapp_fb_000.png)
 
-Los pasos de configuración son:
+Los pasos de configuración son los siguientes:
 
 1. Cree una o varias aplicaciones de Facebook. [Más información](../../social/using/publishing-on-facebook-walls.md#creating-a-facebook-application)
 1. Introduzca los vínculos **[!UICONTROL terms of service]** y **[!UICONTROL Privacy policy]** que se mostrarán en la pantalla de solicitud de los permisos de Facebook. [Más información](#entering-the-terms-of-service-and-privacy-policy-links)
@@ -39,7 +39,7 @@ Para cada aplicación de Facebook, es necesario crear una cuenta externa de tipo
 
 Este paso requiere acceso a la consola de Adobe Campaign y a la cuenta de administrador de Facebook:
 
-* Activado **Facebook**: seleccione la aplicación creada anteriormente ( [https://developers.facebook.com/apps](https://developers.facebook.com/apps)) y seleccione el **[!UICONTROL Settings]** > **[!UICONTROL Basic]** pestaña .
+* En **Facebook**: seleccione la aplicación creada anteriormente ([https://developers.facebook.com/apps](https://developers.facebook.com/apps)) y seleccione la pestaña **[!UICONTROL Settings]** > **[!UICONTROL Basic]**.
 
    ![](assets/social_webapp_fb_008.png)
 
@@ -47,11 +47,11 @@ Este paso requiere acceso a la consola de Adobe Campaign y a la cuenta de admini
    >
    >Si no aparece la sección **[!UICONTROL Facebook Web Games]**, haga clic en el botón **[!UICONTROL Add Platform]**, en la parte inferior de la página, y seleccione **[!UICONTROL Facebook Web Games]**.
 
-* Activado **Adobe Campaign**: buscar **[!UICONTROL Administration > Platform > External accounts]** y haga clic en **[!UICONTROL New]**.
+* En **Adobe Campaign**: navegue a **[!UICONTROL Administration > Platform > External accounts]** y haga clic en **[!UICONTROL New]**.
 
    ![](assets/social_webapp_fb_005.png)
 
-1. Introduzca una etiqueta y un nombre interno y seleccione el **[!UICONTROL Facebook Connect]** tipo .
+1. Introduzca una etiqueta y un nombre interno y seleccione el tipo **[!UICONTROL Facebook Connect]**.
 
    ![](assets/social_webapp_fb_006.png)
 
@@ -92,7 +92,7 @@ Este paso requiere acceso a la consola de Adobe Campaign y a la cuenta de admini
 
    ![](assets/social_webapp_fb_013.png)
 
-## Introduzca los vínculos de condiciones de servicio y política de privacidad {#entering-the-terms-of-service-and-privacy-policy-links}
+## Introducción de los vínculos de condiciones de servicio y política de privacidad {#entering-the-terms-of-service-and-privacy-policy-links}
 
 Recomendamos que añada los vínculos **[!UICONTROL Terms of service]** y **[!UICONTROL Privacy policy]** que se deban mostrar en la pantalla de solicitud de permisos de Facebook.
 
@@ -139,7 +139,7 @@ La aplicación de Facebook de Adobe Campaign permite mostrar contenido personali
 
    ![](assets/social_webapp_004.png)
 
-## Configuración de pestañas de Facebook {#configuring-facebook-tabs}
+## Configuración de las pestañas de Facebook {#configuring-facebook-tabs}
 
 Puede configurar las aplicaciones de Facebook para que se muestren como pestañas en la página de Facebook. Para ello, siga los siguientes pasos:
 
@@ -155,7 +155,7 @@ Puede configurar las aplicaciones de Facebook para que se muestren como pestaña
 
    ![](assets/social_webapp_fb_001.png)
 
-1. En el campo **[!UICONTROL Secure Page Tab URL]**, introduzca la URL pública de la aplicación web, a la que se puede acceder desde la pestaña **[!UICONTROL Dashboard]** de la aplicación web. Para obtener más información sobre la creación de aplicaciones web de tipo Facebook, consulte [esta sección](#creating-a-facebook-type-web-application).
+1. En el campo **[!UICONTROL Secure Page Tab URL]**, introduzca la URL pública de la aplicación web, a la que se puede acceder desde la pestaña **[!UICONTROL Dashboard]** de la aplicación web. Para obtener más información sobre la creación de una aplicación web de tipo Facebook, consulte [esta sección](#creating-a-facebook-type-web-application).
 
    ![](assets/social_webapp_fb_002.png)
 
