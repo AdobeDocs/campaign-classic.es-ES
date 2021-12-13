@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: configuration
 exl-id: 2d2a6e32-587d-4a7b-ba1c-d9140da53f64
 source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '706'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -32,13 +32,13 @@ Comience creando una o varias cuentas de Twitter a las que desee enviar los twee
 
 Para crear una cuenta de Twitter, vaya a [https://twitter.com](https://twitter.com){target=&quot;_blank&quot;}.
 
-## Crear una cuenta de prueba en Twitter {#creating-a-test-account-on-twitter}
+## Creación de una cuenta de prueba en Twitter {#creating-a-test-account-on-twitter}
 
-Crear una cuenta privada de Twitter que se pueda usar para enviar [pruebas de tweet](../../social/using/publishing-on-twitter.md#sending-the-proof). Para crear una cuenta privada de Twitter, siga los pasos a continuación:
+Cree una cuenta privada de Twitter que se pueda usar para enviar [pruebas de tuit](../../social/using/publishing-on-twitter.md#sending-the-proof). Para crear una cuenta privada de Twitter, siga los pasos a continuación:
 
 1. Cree una nueva cuenta de Twitter.
-1. Acceso a la cuenta  **[!UICONTROL Settings]**.
-1. Vaya a **[!UICONTROL Privacy & Safety]** y **[!UICONTROL Audience and Tagging]** y compruebe el **[!UICONTROL Protect your Tweets]** . Los tweets y demás información de la cuenta solo son visibles para las personas que le siguen.
+1. Acceda a la **[!UICONTROL Settings]** de la cuenta.
+1. Vaya a **[!UICONTROL Privacy & Safety]** y **[!UICONTROL Audience and Tagging]** y marque la opción **[!UICONTROL Protect your Tweets]**. Los tuits y demás información de la cuenta solo son visibles para las personas que le siguen.
 
 ![](assets/social_twitter_test_page.png)
 
@@ -47,7 +47,7 @@ Crear una cuenta privada de Twitter que se pueda usar para enviar [pruebas de tw
 Para que Adobe Campaign pueda enviar tweets a sus cuentas de Twitter, debe crear una aplicación de Twitter por cuenta de Twitter. Para ello, siga los siguientes pasos:
 
 1. Inicie sesión en su cuenta de Twitter.
-1. Escriba la siguiente dirección en el explorador de Internet: [https://developer.twitter.com/en/apps](https://developer.twitter.com/en/apps).
+1. Escriba la siguiente dirección en su explorador de internet: [https://developer.twitter.com/en/apps](https://developer.twitter.com/en/apps).
 1. Luego, haga clic en el botón **[!UICONTROL Create an App]** de la derecha.
 
    ![](assets/social_create_twitter_app_001.png)
@@ -64,13 +64,13 @@ Para cada aplicación de , debe crear un servicio de tipo **[!UICONTROL Twitter]
 
 Este paso requiere acceso simultáneo a la consola de Adobe Campaign y a un explorador de Internet que haya iniciado sesión en su cuenta de Twitter:
 
-* en **Twitter**: from [esta página](https://developer.twitter.com/en/portal/projects-and-apps), seleccione la aplicación creada anteriormente y edite la **Permisos de la aplicación**.
+* en **Twitter**: en [esta página](https://developer.twitter.com/en/portal/projects-and-apps), seleccione la aplicación creada anteriormente y edite los **Permisos de la aplicación**.
 
    ![](assets/social_twitter_service_002.png)
 
-   Edite el **Teclas y tokens** para acceder a los detalles de la aplicación.
+   Edite la pestaña **Teclas y tokens** para acceder a los detalles de la aplicación.
 
-* en **Adobe Campaign**: vaya a la **[!UICONTROL Profiles and targets]** , haga clic en la pestaña **[!UICONTROL Services and Subscriptions]** y haga clic en el botón **[!UICONTROL Create]** botón.
+* en **Adobe Campaign**: vaya a la pestaña **[!UICONTROL Profiles and targets]**, haga clic en el vínculo **[!UICONTROL Services and Subscriptions]** y en el botón **[!UICONTROL Create]**.
 
    ![](assets/social_twitter_service_007.png)
 
@@ -97,15 +97,15 @@ Este paso requiere acceso simultáneo a la consola de Adobe Campaign y a un expl
     
       ![](assets/social_twitter_service_010.png)-->
 
-1. En el **[!UICONTROL Visitor folder]** , seleccione la carpeta en la que se deben crear los seguidores. Para obtener más información, consulte [esta sección](../../social/using/publishing-on-twitter.md#operating-principle). De forma predeterminada, los seguidores se guardan en la **[!UICONTROL Visitors]** carpeta.
+1. En el campo **[!UICONTROL Visitor folder]**, seleccione la carpeta en la que se van a crear los seguidores. Para obtener más información, consulte [esta sección](../../social/using/publishing-on-twitter.md#operating-principle). De forma predeterminada, los seguidores se guardan en la carpeta **[!UICONTROL Visitors]**.
 
    ![](assets/social_twitter_service_010_b.png)
 
-1. En Twitter, copie el contenido del **[!UICONTROL Consumer Key (API Key)]** y **[!UICONTROL Consumer Secret (API Secret)]** y péguelos en el **[!UICONTROL Consumer key]** y **[!UICONTROL Consumer secret]** campos de la consola del cliente de Campaign.
+1. En Twitter, copie el contenido de los campos **[!UICONTROL Consumer Key (API Key)]** y **[!UICONTROL Consumer Secret (API Secret)]** y péguelo en los campos **[!UICONTROL Consumer key]** y **[!UICONTROL Consumer secret]** de la consola del cliente de Campaign.
 
    ![](assets/social_twitter_service_012.png)
 
-1. En Twitter, copie el contenido del **[!UICONTROL Access Token]** y **[!UICONTROL Access Token Secret]** y péguelos en el **[!UICONTROL Access token]** y **[!UICONTROL Access token secret]** campos de la consola del cliente de Campaign.
+1. En Twitter, copie el contenido de los campos **[!UICONTROL Access Token]** y **[!UICONTROL Access Token Secret]** y péguelo en los campos **[!UICONTROL Access token]** y **[!UICONTROL Access token secret]** de la consola del cliente de Campaign.
 
    ![](assets/social_twitter_service_013.png)
 
@@ -115,17 +115,17 @@ Este paso requiere acceso simultáneo a la consola de Adobe Campaign y a un expl
 
 >[!NOTE]
 >
->Debe crear una **[!UICONTROL Twitter]** por aplicación de Twitter.
+>Debe crear un servicio de tipo **[!UICONTROL Twitter]** por aplicación de Twitter.
 
 El flujo de trabajo **[!UICONTROL Twitter account Synchronization]** sincroniza las cuentas de Twitter en Adobe Campaign. Para obtener más información, consulte [esta página](../../social/using/publishing-on-facebook-walls.md#synchronizing-facebook-pages).
 
-## Sincronizar cuentas de Twitter {#synchronizing-twitter-accounts}
+## Sincronización de cuentas de Twitter {#synchronizing-twitter-accounts}
 
 >[!IMPORTANT]
 >
 >Para que el flujo de trabajo recupere la lista de suscriptores de Twitter, se debe marcar la casilla **[!UICONTROL Twitter account synchronization]** en la sección de edición del servicio asociado a la cuenta. Para obtener más información, consulte [esta sección](#delegating-write-access-to-adobe-campaign).
 
-El flujo de trabajo **[!UICONTROL Twitter account synchronization]**, al que se accede mediante el nodo **[!UICONTROL Administration > Production > Technical workflows > Managing social networks]**, permite sincronizar cuentas de Twitter configuradas anteriormente con Adobe Campaign. De forma predeterminada, este flujo de trabajo se activa todos los jueves a las 7:30 a.m.
+El flujo de trabajo **[!UICONTROL Twitter account synchronization]**, al que se accede mediante el nodo **[!UICONTROL Administration > Production > Technical workflows > Managing social networks]**, permite sincronizar cuentas de Twitter configuradas anteriormente con Adobe Campaign. De forma predeterminada, este flujo de trabajo se activa todos los jueves a las 7:30 a. m.
 
 >[!NOTE]
 >
