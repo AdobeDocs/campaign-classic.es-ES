@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: 263e5ffe-9302-4823-a814-fdc955e3f90a
 source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -23,6 +23,6 @@ Social Marketing permite realizar envíos a las distintas páginas de Facebook y
 >
 >Adobe Campaign le pide que cumpla con los términos de servicio comunicados por Facebook y Twitter en relación con la entrega de mensajes.
 >
->Antes de enviar publicaciones, debe cumplir los pasos de configuración descritos en [esta sección](../../social/using/starting-workflows.md).
+>Antes de enviar publicaciones, debe cumplir con los pasos de configuración descritos en [esta sección](../../social/using/starting-workflows.md).
 
 Esta sección detalla los elementos específicos de una entrega de Facebook y Twitter. Todos los elementos que son idénticos a las entregas por correo electrónico se detallan en [esta sección](../../delivery/using/about-email-channel.md).
