@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: 84d6cb2e-c7f9-43d7-a98c-22613d456193
 source-git-commit: b5334de18eca8fc1147ae0c42fe23a6932bf71d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1138'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Cree una nueva entrega con la plantilla de envíos **[!UICONTROL Publish to a br
 
 ![](assets/social_facebook_delivery_001.png)
 
-## Seleccione el objetivo principal {#selecting-the-main-target}
+## Selección del objetivo principal {#selecting-the-main-target}
 
 Debe seleccionar las páginas en las que desea publicar la publicación.
 
@@ -52,7 +52,7 @@ Debe seleccionar las páginas en las que desea publicar la publicación.
 
    ![](assets/social_facebook_delivery_013.png)
 
-## Seleccione el objetivo de la prueba {#selecting-the-proof-target}
+## Selección del destino de la prueba {#selecting-the-proof-target}
 
 La pestaña **[!UICONTROL Target of the proofs]** le permite definir la página de Facebook que desea utilizar para probar los envíos antes de enviarlos. Recomendamos crear una página privada de Facebook dedicada a este fin. Para obtener más información sobre la creación de una página privada de Facebook, consulte [esta página](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page). Para seleccionar el objetivo de prueba, aplique los mismos pasos que para el objetivo principal. [Más información](#selecting-the-main-target)
 
@@ -79,7 +79,7 @@ Sin embargo, también es posible utilizar los filtros de audiencia utilizados po
 >
 >Facebook puede cambiar la lista de filtros de audiencia así como sus valores.
 
-## Definir el contenido del mensaje {#defining-message-content}
+## Definición del contenido del mensaje {#defining-message-content}
 
 Seleccione el tipo de publicación mediante el menú desplegable **[!UICONTROL Content type]**.
 
@@ -160,7 +160,7 @@ Introduzca los distintos campos:
 
 ![](assets/social_facebook_delivery_youtube.png)
 
-### Publicar un álbum de fotos {#publishing-a-photo-album}
+### Publicación de un álbum de fotos {#publishing-a-photo-album}
 
 Este tipo de contenido le permite publicar un álbum de fotos. Puede agregar un nombre y una descripción para el álbum, así como un rótulo para cada foto. A continuación se detallan las simetrías entre los campos de la pantalla de edición de envíos y la publicación final en Facebook:
 
@@ -202,13 +202,13 @@ La configuración de seguimiento es la misma que para una entrega de correo elec
 >
 >En la plantilla de entrega de **[!UICONTROL Publish to a brand page]**, el seguimiento está habilitado de forma predeterminada.
 
-## Enviar la prueba {#sending-the-proof}
+## Envío de la prueba {#sending-the-proof}
 
 Se recomienda encarecidamente enviar una prueba de la publicación antes de la entrega final para ver la representación exacta de la publicación en una página de prueba privada de Facebook. Para obtener más información sobre la creación de una página de prueba privada de Facebook, consulte [esta página](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page). Los pasos para seleccionar la prueba de destino se detallan en [esta sección](#selecting-the-proof-target).
 
 La entrega de la prueba es idéntico a los envíos por correo electrónico. Consulte [esta sección](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
-## Envíe el mensaje {#sending-the-message}
+## Envío del mensaje {#sending-the-message}
 
 1. Una vez aprobado el contenido, haga clic en el botón **[!UICONTROL Send]**.
 1. Seleccione **[!UICONTROL Deliver as soon as possible]** y haga clic en el botón **[!UICONTROL Analyze]**.
