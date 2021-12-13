@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: e030c029-d1ee-4749-94e3-6bdfc8d89a34
 source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '923'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Cree una nueva entrega basada en la plantilla de envíos de **[!UICONTROL Tweet 
 
 ![](assets/social_twitter_delivery_001.png)
 
-### Seleccione el objetivo principal {#selecting-the-main-target}
+### Selección del objetivo principal {#selecting-the-main-target}
 
 Seleccione las cuentas a las que desee enviar tuits.
 
@@ -54,9 +54,9 @@ Seleccione las cuentas a las que desee enviar tuits.
 
    ![](assets/social_twitter_delivery_011.png)
 
-### Seleccione el objetivo de la prueba {#selecting-the-target-of-the-proof}
+### Selección del destinatario de la prueba {#selecting-the-target-of-the-proof}
 
-La pestaña **[!UICONTROL Target of the proofs]** le permite definir la cuenta de Twitter que se utiliza para las entregas de prueba antes de la entrega final. Por lo tanto, recomendamos crear una cuenta privada de Twitter dedicada a la entrega de pruebas. Para obtener más información sobre cómo crear una cuenta privada de Twitter, consulte [esta sección](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). Los pasos para seleccionar el objetivo de prueba son los mismos que para seleccionar el objetivo principal. Consulte [esta sección](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter).
+La pestaña **[!UICONTROL Target of the proofs]** le permite definir la cuenta de Twitter que se utiliza para las entregas de prueba antes de la entrega final. Por lo tanto, recomendamos crear una cuenta privada de Twitter dedicada al envío de pruebas. Para obtener más información sobre cómo crear una cuenta privada de Twitter, consulte [esta sección](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). Los pasos para seleccionar el destinatario de prueba son los mismos que para seleccionar el destinatario principal. Consulte [esta sección](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter).
 
 ![](assets/social_twitter_delivery_004.png)
 
@@ -70,7 +70,7 @@ Escriba el contenido del tuit en la pestaña **[!UICONTROL Content]**.
 
 ![](assets/social_twitter_delivery_005.png)
 
-### Vista previa del mensaje {#viewing-the-preview}
+### Previsualización del mensaje {#viewing-the-preview}
 
 La pestaña **[!UICONTROL Preview]** permite controlar la renderización del tweet.
 
@@ -99,13 +99,13 @@ La configuración de seguimiento es la misma que para una entrega de correo elec
 >
 >No podemos distinguir entre robots que analizan tuits y usuarios que hacen clic.
 
-### Enviar la prueba {#sending-the-proof}
+### Envío de la prueba {#sending-the-proof}
 
-Le recomendamos encarecidamente que envíe una prueba de su publicación antes de la entrega final para obtener una representación exacta de la publicación en una página privada de prueba de Twitter. Para obtener más información sobre la creación de una cuenta privada de Twitter, consulte [esta sección](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). Los pasos para seleccionar el objetivo de prueba se detallan en [esta sección](#selecting-the-target-of-the-proof).
+Le recomendamos encarecidamente que envíe una prueba de su publicación antes de la entrega final para obtener la representación exacta de la publicación en una página privada de prueba de Twitter. Para obtener más información sobre la creación de una cuenta de Twitter, consulte [esta sección](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). Los pasos para seleccionar el destinatario de prueba se detallan en [esta sección](#selecting-the-target-of-the-proof).
 
 La entrega de la prueba es idéntico a los envíos por correo electrónico. Consulte [esta sección](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
-### Envíe el mensaje {#sending-the-message}
+### Envío del mensaje {#sending-the-message}
 
 1. Una vez aprobado el contenido, haga clic en el botón **[!UICONTROL Send]**.
 1. Seleccione **[!UICONTROL Deliver as soon as possible]** y haga clic en el botón **[!UICONTROL Analyze]**.
@@ -125,7 +125,7 @@ La entrega de la prueba es idéntico a los envíos por correo electrónico. Cons
 
 ### Principio de funcionamiento {#operating-principle}
 
-La variable **[!UICONTROL Synchronize Twitter accounts]** flujo de trabajo (consulte [Más información](../../social/using/configuring-publishing-on-twitter.md#synchronizing-twitter-accounts)) recupera la lista de suscriptores de Twitter para que pueda enviarles mensajes directos. Los seguidores recuperados se almacenan en una tabla específica: la tabla de visitantes. Para mostrar la lista de seguidores de Twitter, vaya al nodo **[!UICONTROL Profiles and Targets > Visitors]**.
+El flujo de trabajo **[!UICONTROL Synchronize Twitter accounts]** (consulte [Más información](../../social/using/configuring-publishing-on-twitter.md#synchronizing-twitter-accounts)) recupera la lista de suscriptores de Twitter para que pueda enviarles mensajes directos. Los seguidores recuperados se almacenan en una tabla específica: la tabla de visitantes. Para mostrar la lista de seguidores de Twitter, vaya al nodo **[!UICONTROL Profiles and Targets > Visitors]**.
 
 ![](assets/social_twitter_visitors_001.png)
 
@@ -154,11 +154,11 @@ Las siguientes limitaciones son restricciones inherentes a Twitter.
 
 ### Creación de la entrega {#creating-the-delivery-}
 
-Cree una nueva entrega basada en la plantilla de envíos de **[!UICONTROL Tweet (Direct Message)]**.
+Creación de una nueva entrega basada en la plantilla de envíos de **[!UICONTROL Tweet (Direct Message)]**.
 
 ![](assets/social_twitter_delivery_010.png)
 
-### Seleccione el objetivo principal {#selecting-the-main-target-1}
+### Selección del objetivo principal {#selecting-the-main-target-1}
 
 Seleccione los seguidores a los que desee enviar el mensaje directo.
 
@@ -184,7 +184,7 @@ Seleccione los seguidores a los que desee enviar el mensaje directo.
 
       ![](assets/social_twitter_delivery_018.png)
 
-### Seleccione el objetivo de la prueba {#selecting-the-target-of-the-proof-1}
+### Selección del destinatario de la prueba {#selecting-the-target-of-the-proof-1}
 
 La pestaña **[!UICONTROL Target of the proofs]** le permite seleccionar el seguidor que recibe la prueba del mensaje directo. El proceso de selección es el mismo que para el objetivo principal. Consulte [Selección del objetivo principal](#selecting-the-main-target)
 
@@ -194,7 +194,7 @@ La pestaña **[!UICONTROL Target of the proofs]** le permite seleccionar el segu
 >
 >Si desea enviar todas las pruebas de los mensajes directos al mismo seguidor de Twitter, puede guardar el objetivo de prueba en la plantilla de entrega de **[!UICONTROL Tweet (Direct Message)]**, a la que se accede mediante el nodo **[!UICONTROL Resources > Templates > Delivery templates]**. El objetivo de la prueba se especifica de forma predeterminada para cada nueva entrega.
 
-### Definir el contenido del mensaje {#defining-message-content-}
+### Definición del contenido del mensaje {#defining-message-content-}
 
 Introduzca el contenido del tweet en la pestaña **[!UICONTROL Content]**.
 
