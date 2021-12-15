@@ -1,116 +1,116 @@
 ---
 product: campaign
-title: Editar formularios
-description: Editar formularios
+title: Edición de formularios
+description: Edición de formularios
 audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 49a98ec82b1d62f3af19260888da8eb24e460938
+source-git-commit: 42717f3ef3bcda4108dad6a4c0ece752ada579a2
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1647'
 ht-degree: 2%
 
 ---
 
 
-# Editar formularios{#editing-forms}
+# Edición de formularios{#editing-forms}
 
 ![](../../assets/common.svg)
 
 ## Información general
 
-Los especialistas en marketing y los operadores utilizan formularios de entrada para crear, modificar y previsualizar registros. Forms muestra una representación visual de la información.
+Marketers and operators use input forms to create, modify, and preview records. Forms show a visual representation of information.
 
-Puede crear y modificar formularios de entrada:
+You can create and modify input forms:
 
-* Puede modificar los formularios de entrada de fábrica que se envían de forma predeterminada. Los formularios de entrada de fábrica se basan en los esquemas de datos de fábrica.
-* Puede crear formularios de entrada personalizados, basados en esquemas de datos definidos.
+* You can modify the factory input forms that are delivered by default. The factory input forms are based on the factory data schemas.
+* You can create custom input forms, based on data schemas that you define.
 
-Forms son entidades de `xtk:form` tipo . Puede ver la estructura del formulario de entrada en el `xtk:form` esquema. Para ver este esquema, elija **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]** del menú . Más información sobre [estructura de formulario](form-structure.md).
+`xtk:form` `xtk:form` **[!UICONTROL Administration]****[!UICONTROL Configuration]****[!UICONTROL Data schemas]** [](form-structure.md)
 
-Para acceder a los formularios de entrada, seleccione **[!UICONTROL Administration]> [!UICONTROL Configuration] >[!UICONTROL Input forms]** del menú:
+**[!UICONTROL Administration][!UICONTROL Configuration][!UICONTROL Input forms]**
 
 ![](assets/d_ncs_integration_form_arbo.png)
 
-Para diseñar formularios, edite el contenido XML en el editor XML:
+To design forms, edit the XML content in the XML editor:
 
 ![](assets/d_ncs_integration_form_edit.png)
 
 [Más información](form-structure.md#formatting).
 
-Para obtener una vista previa de un formulario, haga clic en el botón **[!UICONTROL Preview]** pestaña:
+**[!UICONTROL Preview]**
 
 ![](assets/d_ncs_integration_form_preview.png)
 
-## Tipos de formulario
+## Form types
 
-Puede crear diferentes tipos de formularios de entrada. El tipo de formulario determina cómo navegan los usuarios en el formulario:
+You can create different types of input forms. The form type determines how users navigate the form:
 
-* Pantalla de la consola
+* Console screen
 
-   Este es el tipo de formulario predeterminado. El formulario consta de una sola página.
+   This is the default form type. The form comprises a single page.
 
    ![](assets/console_screen_form.png)
 
 * Administración de contenido
 
-   Utilice este tipo de formulario para la gestión de contenido. Consulte esta [caso de uso](../../delivery/using/use-case--creating-content-management.md).
+   Use this form type for content management. [](../../delivery/using/use-case--creating-content-management.md)
 
    ![](../../delivery/using/assets/d_ncs_content_form13.png)
 
-* Asistente
+* Wizard
 
-   Este formulario consta de varias pantallas flotantes que se ordenan en secuencias específicas. Los usuarios navegan de una pantalla a otra. [Más información](form-structure.md#wizards).
+   This form comprises multiple floating screens that are ordered in a specific sequences. Users navigate from one screen to the next. [Más información](form-structure.md#wizards).
 
 * Iconbox
 
-   Este formulario consta de varias páginas. Para desplazarse por el formulario, los usuarios seleccionan iconos a la izquierda del formulario.
+   This form comprises multiple pages. To navigate the form, users select icons at the left of the form.
 
    ![](assets/iconbox_form_preview.png)
 
-* Portátil
+* Notebook
 
-   Este formulario consta de varias páginas. Para desplazarse por el formulario, los usuarios seleccionan fichas en la parte superior del formulario.
+   This form comprises multiple pages. To navigate the form, users select tabs at the top of the form.
 
    ![](assets/notebook_form_preview.png)
 
-* Panel vertical
+* Vertical pane
 
-   Este formulario muestra un árbol de navegación.
+   This form shows a navigation tree.
 
-* Panel horizontal
+* Horizontal pane
 
-   Este formulario muestra una lista de elementos.
+   This form shows a list of items.
 
 ## Contenedores
 
-En los formularios, puede utilizar contenedores para varios fines:
+In forms, you can use containers for various purposes:
 
-* Organización del contenido en los formularios
-* Definición del acceso a los campos de entrada
-* Anidar formularios dentro de otros formularios
+* Organize content within forms
+* Define access to input fields
+* Nest forms within other forms
 
 [Más información](form-structure.md#containers).
 
-### Organizar contenido
+### Organize content
 
-Utilice contenedores para organizar el contenido dentro de los formularios:
+Use containers to organize content within forms:
 
-* Los campos se pueden agrupar en secciones.
-* Puede agregar páginas a formularios de varias páginas.
+* You can group fields into sections.
+* You can add pages to multipage forms.
 
-Para insertar un contenedor, utilice la variable `<container>` elemento. [Más información](form-structure.md#containers).
+`<container>` [Más información](form-structure.md#containers).
 
-#### Campos de grupo
+#### Group fields
 
-Utilice contenedores para agrupar los campos de entrada en secciones organizadas.
+Use containers to group input fields into organized sections.
 
-Para insertar una sección en un formulario, utilice este elemento: `<container type="frame">`. De forma opcional, para agregar un título de sección, utilice la variable `label` atributo.
+`<container type="frame">` `label`
 
-Sintaxis: `<container type="frame" label="`*section_title*`"> […] </container>`
+`<container type="frame" label="`**`"> […] </container>`
 
-En este ejemplo, un contenedor define la variable **Creación** , que incluye el **[!UICONTROL Created by]** y **[!UICONTROL Name]** campos de entrada:
+******[!UICONTROL Created by]****[!UICONTROL Name]**
 
 ```xml
 <form _cs="Coupons (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Coupons"
@@ -126,11 +126,11 @@ En este ejemplo, un contenedor define la variable **Creación** , que incluye el
 
 ![](assets/console_screen_form.png)
 
-#### Agregar páginas a formularios de varias páginas
+#### Add pages to multipage forms
 
-Para los formularios de varias páginas, utilice un contenedor para crear una página de formulario.
+For multipage forms, use a container to create a form page.
 
-Este ejemplo muestra los contenedores para la variable **General** y **Detalles** páginas de un formulario:
+********
 
 ```xml
 <container img="ncm:book.png" label="General">
@@ -141,23 +141,23 @@ Este ejemplo muestra los contenedores para la variable **General** y **Detalles*
 </container>
 ```
 
-### Definición del acceso a los campos
+### Define access to fields
 
-Utilice contenedores para definir qué es visible y para definir el acceso a los campos. Puede activar o desactivar grupos de campos.
+Use containers to define what is visible and to define access to fields. You can turn on or off groups of fields.
 
-### Anidar formularios
+### Nest forms
 
-Utilice contenedores para anidar formularios dentro de otros formularios. [Más información](#add-pages-to-multipage-forms).
+Use containers to nest forms within other forms. [Más información](#add-pages-to-multipage-forms).
 
-## Referencias a imágenes
+## References to images
 
-Para buscar imágenes, elija **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Images]** del menú .
+**[!UICONTROL Administration]****[!UICONTROL Configuration]****[!UICONTROL Images]**
 
-Para asociar una imagen a un elemento del formulario, por ejemplo, un icono, puede agregar una referencia a una imagen. Utilice la variable `img` , por ejemplo, en la `<container>` elemento.
+To associate an image with an element in the form, for example, an icon, you can add a reference to an image. `img``<container>`
 
 Sintaxis: `img="`*`namespace`*`:`*`filename`*`.`*`extension`*`"`
 
-Este ejemplo muestra referencias a la variable `book.png` y `detail.png` imágenes de `ncm` namespace:
+`book.png``detail.png``ncm`
 
 ```xml
 <container img="ncm:book.png" label="General">
@@ -168,24 +168,24 @@ Este ejemplo muestra referencias a la variable `book.png` y `detail.png` imágen
 </container>
 ```
 
-Estas imágenes se utilizan para los iconos en los que los usuarios hacen clic para desplazarse por un formulario de varias páginas:
+These images are used for icons that users click to navigate a multipage form:
 
 ![](assets/nested_forms_preview.png)
 
-## Crear un formulario simple {#create-simple-form}
+## Create a simple form {#create-simple-form}
 
-Para crear un formulario, siga estos pasos:
+To create a form, follow these steps:
 
-1. En el menú , elija **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]**.
-1. Haga clic en el **[!UICONTROL New]** en la parte superior derecha de la lista.
+1. **[!UICONTROL Administration]****[!UICONTROL Configuration]****[!UICONTROL Input forms]**
+1. **[!UICONTROL New]**
 
    ![](assets/input-form-create-1.png)
 
-1. Especifique las propiedades del formulario:
+1. Specify the form properties:
 
-   * Especifique el nombre del formulario y el área de nombres.
+   * Specify the form name and the namespace.
 
-      El nombre del formulario y el espacio de nombres pueden coincidir con el esquema de datos relacionado.  Este ejemplo muestra un formulario para la variable `cus:order` esquema de datos:
+      The form name and the namespace can match the related data schema.  `cus:order`
 
       ```xml
       <form entitySchema="xtk:form" img="xtk:form.png" label="Order" name="order" namespace="cus" type="iconbox" xtkschema="xtk:form">
@@ -193,7 +193,7 @@ Para crear un formulario, siga estos pasos:
       </form>
       ```
 
-      También puede especificar explícitamente el esquema de datos en la variable `entity-schema` atributo.
+      `entity-schema`
 
       ```xml
       <form entity-schema="cus:stockLine" entitySchema="xtk:form" img="xtk:form.png" label="Stock order" name="stockOrder" namespace="cus" xtkschema="xtk:form">
@@ -201,59 +201,59 @@ Para crear un formulario, siga estos pasos:
       </form>
       ```
 
-   * Especifique la etiqueta que se mostrará en el formulario.
-   * De forma opcional, especifique el tipo de formulario. Si no especifica ningún tipo de formulario, se utilizará de forma predeterminada el tipo de pantalla de la consola.
+   * Specify the label to be displayed on the form.
+   * Optionally, specify the form type. If you do not specify a form type, the console screen type is used by default.
 
       ![](assets/input-form-create-2.png)
 
-      Si está diseñando un formulario de varias páginas, puede omitir el tipo de formulario en la variable `<form>` y especifique el tipo en un contenedor.
+      `<form>`
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-1. Inserte los elementos de formulario.
+1. Insert the form elements.
 
-   Por ejemplo, para insertar un campo de entrada, utilice el `<input>` elemento. Configure las variables `xpath` a la referencia de campo como expresión XPath. [Más información](schema-structure.md#referencing-with-xpath).
+   `<input>` `xpath` [Más información](schema-structure.md#referencing-with-xpath).
 
-   Este ejemplo muestra los campos de entrada basados en la variable `nms:recipient` esquema.
+   `nms:recipient`
 
    ```xml
    <input xpath="@firstName"/>
    <input xpath="@lastName"/>
    ```
 
-1. Si el formulario se basa en un tipo de esquema específico, puede buscar los campos de este esquema:
+1. If the form is based on a specific schema type, you can look up the fields for this schema:
 
    1. Haga clic en **[!UICONTROL Insert]** > **[!UICONTROL Document fields]**.
 
       ![](assets/input-form-create-4.png)
 
-   1. Seleccione el campo y haga clic en **[!UICONTROL OK]**.
+   1. **[!UICONTROL OK]**
 
       ![](assets/input-form-create-5.png)
 
-1. De forma opcional, especifique el editor de campos.
+1. Optionally, specify the field editor.
 
-   Se asocia un editor de campos predeterminado a cada tipo de datos:
-   * Para un campo de tipo fecha, el formulario muestra un calendario de entrada.
-   * Para un campo de tipo enumeration, el formulario muestra una lista de selección.
+   A default field editor is associated with each data type:
+   * For a date-type field, the form shows an input calendar.
+   * For an enumeration-type field, the form shows a selection list.
 
-   Puede utilizar estos tipos de editor de campos:
+   You can use these field editor types:
 
-   | Editor de campos | Atributo de formulario |
+   | Field editor | Form attribute |
    | --- | --- |
-   | Botón de radio | `type="radiobutton"` |
-   | Casilla de verificación | `type="checkbox"` |
-   | Editar árbol | `type="tree"` |
+   | Radio button | `type="radiobutton"` |
+   | Checkbox | `type="checkbox"` |
+   | Edit tree | `type="tree"` |
 
-   Más información sobre [controles de lista de memoria](form-structure.md#memory-list-controls).
+   [](form-structure.md#memory-list-controls)
 
-1. Opcionalmente, defina el acceso a los campos:
+1. Optionally, define access to the fields:
 
    | Elemento | Atributo | Descripción |
    | --- | --- | --- |
-   | `<input>` | `read-only:"true"` | Proporciona acceso de solo lectura a un campo |
-   | `<container>` | `type="visibleGroup" visibleIf="`*edit-expr*`"` | Muestra condicionalmente un grupo de campos |
-   | `<container>` | `type="enabledGroup" enabledIf="`*edit-expr*`"` | Habilita condicionalmente un grupo de campos |
+   | `<input>` | `read-only:"true"` | Provides read-only access to a field |
+   | `<container>` | `type="visibleGroup" visibleIf="`**`"` | Conditionally displays a group of fields |
+   | `<container>` | `type="enabledGroup" enabledIf="`**`"` | Conditionally enables a group of fields |
 
    Ejemplo:
 
@@ -266,7 +266,7 @@ Para crear un formulario, siga estos pasos:
    </container>
    ```
 
-1. Opcionalmente, puede utilizar contenedores para agrupar campos en secciones.
+1. Optionally, use containers to group fields into sections.
 
    ```xml
    <container type="frame" label="Name">
@@ -281,28 +281,28 @@ Para crear un formulario, siga estos pasos:
 
    ![](assets/input-form-create-3.png)
 
-## Crear un formulario de varias páginas {#create-multipage-form}
+## Create a multipage form {#create-multipage-form}
 
-Puede crear formularios de varias páginas. También puede anidar formularios dentro de otros formularios.
+You can create multipage forms. You can also nest forms within other forms.
 
-### Cree un `iconbox` formulario
+### `iconbox`
 
-Utilice la variable `iconbox` tipo de formulario para mostrar los iconos a la izquierda del formulario, que llevan a los usuarios a diferentes páginas del formulario.
+`iconbox`
 
 ![](assets/iconbox_form_preview.png)
 
-Cambio del tipo de un formulario existente a `iconbox`, siga estos pasos:
+`iconbox`
 
-1. Cambie el `type` del `<form>` elemento a `iconbox`:
+1. `type``<form>``iconbox`
 
    ```xml
    <form […] type="iconbox">
    ```
 
-1. Defina un contenedor para cada página de formulario:
+1. Set a container for each form page:
 
-   1. Agregue un `<container>` como elemento secundario del `<form>` elemento.
-   1. Para definir una etiqueta y una imagen para el icono, utilice la variable `label` y `img` atributos.
+   1. `<container>``<form>`
+   1. `label``img`
 
       ```xml
       <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="iconbox" xtkschema="xtk:form">
@@ -320,26 +320,26 @@ Cambio del tipo de un formulario existente a `iconbox`, siga estos pasos:
           </container>
       </form>
       ```
-   También puede quitar el `type="frame"` del atributo existente `<container>` elementos.
+   `type="frame"``<container>`
 
-### Cree un `notebook` formulario
+### Create a notebook form
 
-Utilice la variable `notebook` tipo de formulario para mostrar fichas en la parte superior del formulario, que llevan a los usuarios a diferentes páginas.
+`notebook`
 
 ![](assets/notebook_form_preview.png)
 
-Cambio del tipo de un formulario existente a `notebook`, siga estos pasos:
+`notebook`
 
-1. Cambie el `type` del `<form>` elemento a `notebook`:
+1. `type``<form>``notebook`
 
    ```xml
    <form […] type="notebook">
    ```
 
-1. Agregue un contenedor para cada página de formulario:
+1. Add a container for each form page:
 
-   1. Agregue un `<container>` como elemento secundario del `<form>` elemento.
-   1. Para definir la etiqueta y la imagen del icono, utilice la variable `label` y `img` atributos.
+   1. `<container>``<form>`
+   1. `label``img`
 
    ```xml
      <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="notebook" xtkschema="xtk:form">
@@ -358,25 +358,25 @@ Cambio del tipo de un formulario existente a `notebook`, siga estos pasos:
      </form>
    ```
 
-   También puede quitar el `type="frame"` del atributo existente `<container>` elementos.
+   `type="frame"``<container>`
 
-### Anidar formularios {#nest-forms}
+### Nest forms {#nest-forms}
 
-Puede anidar formularios dentro de otros formularios. Por ejemplo, puede anidar formularios de bloc de notas en formularios de iconbox.
+You can nest forms within other forms. For example, you can nest notebook forms within iconbox forms.
 
-Nivel de anidación controla la navegación. Los usuarios pueden explorar en profundidad los subformularios.
+The level of nesting controls navigation. Users can drill down to subforms.
 
-Para anidar un formulario dentro de otro formulario, inserte un `<container>` y establezca la variable `type` al tipo de formulario. Para el formulario de nivel superior, puede definir el tipo de formulario en un contenedor exterior o en la variable `<form>` elemento.
+`<container>``type` `<form>`
 
 ### Ejemplo
 
-Este ejemplo muestra un formulario complejo:
+This example shows a complex form:
 
-* El formulario de nivel superior es un formulario de iconbox. Este formulario consta de dos contenedores etiquetados **General** y **Detalles**.
+* The top-level form is an iconbox form. ********
 
-   Como resultado, el formulario exterior muestra la variable **General** y **Detalles** páginas en el nivel superior. Para acceder a estas páginas, los usuarios hacen clic en los iconos de la izquierda del formulario.
+   ******** To access these pages, users click the icons at the left of the form.
 
-* El subformulario es un formulario de bloc de notas anidado dentro de la variable **General** contenedor. El subformulario consta de dos contenedores etiquetados **Nombre** y **Contacto**.
+* **** ********
 
 ```xml
 <form _cs="Profile (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Profile" name="profile" namespace="nms" xtkschema="xtk:form">
@@ -399,53 +399,53 @@ Este ejemplo muestra un formulario complejo:
 </form>
 ```
 
-Como resultado, la variable **General** La página del formulario exterior muestra la variable **Nombre** y **Contacto** pestañas.
+************
 
 ![](assets/nested_forms_preview.png)
 
-## Modificación de un formulario de entrada de fábrica {#modify-factory-form}
+## Modify a factory input form {#modify-factory-form}
 
-Para modificar un formulario de fábrica, siga estos pasos:
+To modify a factory form, follow these steps:
 
-1. Opcionalmente, amplíe el esquema de datos relacionado:
+1. Optionally, extend the related data schema:
 
-   1. En el menú , elija **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
-   1. Seleccione un esquema de datos y amplíelo. Por ejemplo, puede añadir campos. [Más información](extending-a-schema.md).
+   1. **[!UICONTROL Administration]****[!UICONTROL Configuration]****[!UICONTROL Data schemas]**
+   1. Select a data schema and extend it. For example, you can add fields. [Más información](extending-a-schema.md).
 
       >[!CAUTION]
-      > No modifique los datos originales en un espacio de nombres de fábrica, sino que, en su lugar, los amplíe en un espacio de nombres personalizado. El motivo es que, durante las actualizaciones de software, se sobrescriben todos los datos de los espacios de nombres de fábrica. Por ejemplo, los datos de la sección `xtk`, `ncm`y `nms` se sobrescriben las áreas de nombres de fábrica. Los datos de las áreas de nombres personalizadas no se modifican.
+      > Do not modify the original data in a factory namespace, but, instead, extend it in a custom namespace. The reason is that, during software upgrades, all data in the factory namespaces are overwritten. `xtk``ncm``nms` The data in your custom namespaces is not modified.
 
-1. Modifique el formulario de entrada de fábrica:
+1. Modify the factory input form:
 
-   1. En el menú , elija **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]**.
-   1. Seleccione un formulario de entrada y edítelo.
+   1. **[!UICONTROL Administration]****[!UICONTROL Configuration]****[!UICONTROL Input forms]**
+   1. Select an input form and modify it.
 
-   Puede ampliar los esquemas de datos de fábrica, pero no puede ampliar los formularios de entrada de fábrica. Se recomienda modificar los formularios de entrada de fábrica directamente sin necesidad de volver a crearlos. Durante las actualizaciones de software, las modificaciones en los formularios de entrada de fábrica se combinan con las actualizaciones. Si la combinación automática falla, puede resolver los conflictos. [Más información](../../production/using/upgrading.md#resolving-conflicts).
+   You can extend factory data schemas, but you cannot extend factory input forms. We recommend that you modify factory input forms directly without recreating them. During software upgrades, your modifications in the factory input forms are merged with the upgrades. If the automatic merge fails, you can resolve the conflicts. [Más información](../../production/using/upgrading.md#resolving-conflicts).
 
-   Por ejemplo, si amplía un esquema de fábrica con un campo adicional, puede agregar este campo al formulario de fábrica relacionado.
+   For example, if you extend a factory schema with an additional field, you can add this field to the related factory form.
 
-## Validación de formularios {#validate-forms}
+## Validate forms {#validate-forms}
 
-Puede incluir controles de validación en los formularios.
+You can include validation controls in forms.
 
-### Concesión de acceso de solo lectura a campos
+### Grant read-only access to fields
 
-Para conceder acceso de solo lectura a un campo, utilice la variable `readOnly="true"` atributo. Por ejemplo, es posible que desee mostrar la clave principal de un registro, pero con acceso de solo lectura. [Más información](form-structure.md#non-editable-fields).
+`readOnly="true"` For example, you might want to show the primary key of a record, but with read-only access. [Más información](form-structure.md#non-editable-fields).
 
-En este ejemplo, la clave principal (`iRecipientId`) de `nms:recipient` schema se muestra en acceso de solo lectura:
+`iRecipientId``nms:recipient`
 
 ```xml
 <value xpath="@iRecipientId" readOnly="true"/>
 ```
 
-### Comprobar campos obligatorios
+### Check mandatory fields
 
-Puede comprobar la información obligatoria:
+You can check mandatory information:
 
-* Utilice la variable `required="true"` para los campos obligatorios.
-* Utilice la variable `<leave>` para comprobar estos campos y mostrar mensajes de error.
+* `required="true"`
+* `<leave>`
 
-En este ejemplo, la dirección de correo electrónico es obligatoria y se muestra un mensaje de error si el usuario no ha proporcionado esta información:
+In this example, the email address is required, and an error message is displayed if the user has not provided this information:
 
 ```xml
 <input xpath="@email" required="true"/>
@@ -456,13 +456,13 @@ En este ejemplo, la dirección de correo electrónico es obligatoria y se muestr
 </leave>
 ```
 
-Más información sobre [campos de expresión](form-structure.md#expression-field) y [contexto del formulario](form-structure.md#context-of-forms).
+[](form-structure.md#expression-field)[](form-structure.md#context-of-forms)
 
-### Validar valores
+### Validate values
 
-Puede utilizar llamadas SOAP de JavaScript para validar los datos de formulario desde la consola. Utilice estas llamadas para una validación compleja, por ejemplo, para comparar un valor con una lista de valores autorizados. [Más información](form-structure.md#soap-methods).
+You can use JavaScript SOAP calls to validate form data from the Console. Use these calls for complex validation, for example, to check a value against a list of authorized values. [Más información](form-structure.md#soap-methods).
 
-1. Cree una función de validación en un archivo JS.
+1. Create a validation function in a JS file.
 
    Ejemplo:
 
@@ -478,13 +478,13 @@ Puede utilizar llamadas SOAP de JavaScript para validar los datos de formulario 
    }
    ```
 
-   En este ejemplo, la función tiene el nombre `checkValue`. Esta función se utiliza para comprobar la variable `recipient` el tipo de datos de `nms` espacio de nombres. El valor que se está comprobando se registra. Si el valor no es válido, se registra un mensaje de error. Si el valor es válido, se devuelve el valor 1.
+   `checkValue` `recipient``nms` The value that is being checked is logged. If the value is not valid, then an error message is logged. If the value is valid, then the value 1 is returned.
 
-   Puede utilizar el valor devuelto para modificar el formulario.
+   You can use the returned value to modify the form.
 
-1. En el formulario, agregue la variable `<soapCall>` al `<leave>` elemento.
+1. `<soapCall>``<leave>`
 
-   En este ejemplo, se utiliza una llamada SOAP para validar la variable `@valueToCheck` cadena:
+   `@valueToCheck`
 
    ```xml
    <form name="recipient" (…)>
@@ -497,16 +497,16 @@ Puede utilizar llamadas SOAP de JavaScript para validar los datos de formulario 
    </form>
    ```
 
-   En este ejemplo, la variable `checkValue` y `nms:recipient` se utilizan:
+   `checkValue``nms:recipient`
 
-   * El servicio es el área de nombres y el tipo de datos.
-   * El método es el nombre de función. El nombre distingue entre mayúsculas y minúsculas.
+   * The service is the namespace and the data type.
+   * The method is the function name. The name is case-sensitive.
 
-   La llamada se realiza sincrónicamente.
+   The call is performed synchronously.
 
-   Se muestran todas las excepciones. Si usa la variable `<leave>` , los usuarios no podrán guardar el formulario hasta que se valide la información introducida.
+   All exceptions are displayed. `<leave>`
 
-Este ejemplo muestra cómo se pueden realizar llamadas de servicio desde formularios:
+This example shows how you can make service calls from within forms:
 
 ```xml
 <enter>
@@ -517,4 +517,4 @@ Este ejemplo muestra cómo se pueden realizar llamadas de servicio desde formula
 </enter>
 ```
 
-En este ejemplo, la entrada es un ID, que es una clave principal. Cuando los usuarios rellenan el formulario para este ID, se realiza una llamada SOAP con este ID como parámetro de entrada. El resultado es un booleano que se escribe en este campo: `/tmp/@count`. Puede utilizar este booleano dentro del formulario. Más información sobre [contexto del formulario](form-structure.md#context-of-forms).
+In this example, the input is an ID, which is a primary key. When users fill the form for this ID, a SOAP call is made with this ID as the input parameter. `/tmp/@count` You can use this boolean inside the form. [](form-structure.md#context-of-forms)
