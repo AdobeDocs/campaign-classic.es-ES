@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: e712298a07ecfe345c0b53a4f07f6bc4c19106f7
+source-git-commit: 0d132f56e7888ad810e309b97b9337ec56fe1ee0
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1143'
 ht-degree: 2%
 
 ---
@@ -413,7 +413,6 @@ Para modificar un formulario de fábrica, siga estos pasos:
    1. En el menú , elija **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
    1. Seleccione un esquema de datos y amplíelo. Por ejemplo, puede añadir campos. [Más información](extending-a-schema.md).
 
-      >[!CAUTION]
-      > No modifique los datos originales en un espacio de nombres de fábrica, sino que, en su lugar, los amplíe en un espacio de nombres personalizado. El motivo es que, durante las actualizaciones de software, se sobrescriben todos los datos de los espacios de nombres de fábrica. Por ejemplo, los datos de la sección `xtk`, `ncm`y `nms` se sobrescriben las áreas de nombres de fábrica. Los datos de las áreas de nombres personalizadas no se modifican.
+
 
 
