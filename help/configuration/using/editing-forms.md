@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: dcfa6d1e5623792c852d164d636ebe19a7aaa614
+source-git-commit: b06e7b3d2dcb172e6a10c383b5f9800960e7a074
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '976'
 ht-degree: 2%
 
 ---
@@ -361,23 +361,9 @@ Cambio del tipo de un formulario existente a `notebook`, siga estos pasos:
 
    También puede quitar el `type="frame"` del atributo existente `<container>` elementos.
 
-## Anidar formularios {#nest-forms}
+### Anidar formularios {#nest-forms}
 
 Puede anidar formularios dentro de otros formularios. Por ejemplo, puede anidar formularios de bloc de notas en formularios de iconbox.
 
 Nivel de anidación controla la navegación. Los usuarios pueden explorar en profundidad los subformularios.
-
-Para anidar un formulario dentro de otro formulario, inserte un `<container>` y establezca la variable `type` al tipo de formulario. Para el formulario de nivel superior, puede definir el tipo de formulario en un contenedor exterior o en la variable `<form>` elemento.
-
-### Ejemplo
-
-Este ejemplo muestra un formulario complejo:
-
-* El formulario de nivel superior es un formulario de iconbox. Este formulario consta de dos contenedores etiquetados **General** y **Detalles**.
-
-   Como resultado, el formulario exterior muestra la variable **General** y **Detalles** páginas en el nivel superior. Para acceder a estas páginas, los usuarios hacen clic en los iconos de la izquierda del formulario.
-
-* El subformulario es un formulario de bloc de notas anidado dentro de la variable **General** contenedor. El subformulario consta de dos contenedores etiquetados **Nombre** y **Contacto**.
-
-
 
