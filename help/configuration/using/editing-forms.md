@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 1ab984d12c9beb0ba3378bbfb49d1d7d07e870f6
+source-git-commit: e712298a07ecfe345c0b53a4f07f6bc4c19106f7
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1196'
 ht-degree: 2%
 
 ---
@@ -416,11 +416,4 @@ Para modificar un formulario de fábrica, siga estos pasos:
       >[!CAUTION]
       > No modifique los datos originales en un espacio de nombres de fábrica, sino que, en su lugar, los amplíe en un espacio de nombres personalizado. El motivo es que, durante las actualizaciones de software, se sobrescriben todos los datos de los espacios de nombres de fábrica. Por ejemplo, los datos de la sección `xtk`, `ncm`y `nms` se sobrescriben las áreas de nombres de fábrica. Los datos de las áreas de nombres personalizadas no se modifican.
 
-1. Modifique el formulario de entrada de fábrica:
 
-   1. En el menú , elija **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]**.
-   1. Seleccione un formulario de entrada y edítelo.
-
-   Puede ampliar los esquemas de datos de fábrica, pero no puede ampliar los formularios de entrada de fábrica. Se recomienda modificar los formularios de entrada de fábrica directamente sin necesidad de volver a crearlos. Durante las actualizaciones de software, las modificaciones en los formularios de entrada de fábrica se combinan con las actualizaciones. Si la combinación automática falla, puede resolver los conflictos. [Más información](../../production/using/upgrading.md#resolving-conflicts).
-
-   Por ejemplo, si amplía un esquema de fábrica con un campo adicional, puede agregar este campo al formulario de fábrica relacionado.
