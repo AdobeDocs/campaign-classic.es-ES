@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: f4b9ac3300094a527b5ec1b932d204f0e8e5ee86
+source-git-commit: 0dfce3b514fefef490847d669846e515b714d222
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 4%
+source-wordcount: '1105'
+ht-degree: 2%
 
 ---
 
@@ -169,5 +169,237 @@ Este ejemplo muestra referencias a la variable `book.png` y `detail.png` imágen
 ```
 
 Estas imágenes se utilizan para los iconos en los que los usuarios hacen clic para desplazarse por un formulario de varias páginas:
+
+![](assets/nested_forms_preview.png)
+
+
+## Crear un formulario simple {#create-simple-form}
+
+Para crear un formulario, siga estos pasos:
+
+1. En el menú , elija **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]**.
+1. Haga clic en el **[!UICONTROL New]** en la parte superior derecha de la lista.
+
+   ![](assets/input-form-create-1.png)
+
+1. Especifique las propiedades del formulario:
+
+   * Especifique el nombre del formulario y el área de nombres.
+
+      El nombre del formulario y el espacio de nombres pueden coincidir con el esquema de datos relacionado.  Este ejemplo muestra un formulario para la variable `cus:order` esquema de datos:
+
+      ```xml
+      <form entitySchema="xtk:form" img="xtk:form.png" label="Order" name="order" namespace="cus" type="iconbox" xtkschema="xtk:form">
+        […]
+      </form>
+      ```
+
+      También puede especificar explícitamente el esquema de datos en la variable `entity-schema` atributo.
+
+      ```xml
+      <form entity-schema="cus:stockLine" entitySchema="xtk:form" img="xtk:form.png" label="Stock order" name="stockOrder" namespace="cus" xtkschema="xtk:form">
+        […]
+      </form>
+      ```
+
+   * Especifique la etiqueta que se mostrará en el formulario.
+   * De forma opcional, especifique el tipo de formulario. Si no especifica ningún tipo de formulario, se utilizará de forma predeterminada el tipo de pantalla de la consola.
+
+      ![](assets/input-form-create-2.png)
+
+      Si está diseñando un formulario de varias páginas, puede omitir el tipo de formulario en la variable `<form>` y especifique el tipo en un contenedor.
+
+1. Haga clic en **[!UICONTROL Save]**.
+
+1. Inserte los elementos de formulario.
+
+   Por ejemplo, para insertar un campo de entrada, utilice el `<input>` elemento. Configure las variables `xpath` a la referencia de campo como expresión XPath. [Más información](schema-structure.md#referencing-with-xpath).
+
+   Este ejemplo muestra los campos de entrada basados en la variable `nms:recipient` esquema.
+
+   ```xml
+   <input xpath="@firstName"/>
+   <input xpath="@lastName"/>
+   ```
+
+1. Si el formulario se basa en un tipo de esquema específico, puede buscar los campos de este esquema:
+
+   1. Haga clic en **[!UICONTROL Insert]** > **[!UICONTROL Document fields]**.
+
+      ![](assets/input-form-create-4.png)
+
+   1. Seleccione el campo y haga clic en **[!UICONTROL OK]**.
+
+      ![](assets/input-form-create-5.png)
+
+1. De forma opcional, especifique el editor de campos.
+
+   Se asocia un editor de campos predeterminado a cada tipo de datos:
+   * Para un campo de tipo fecha, el formulario muestra un calendario de entrada.
+   * Para un campo de tipo enumeration, el formulario muestra una lista de selección.
+
+   Puede utilizar estos tipos de editor de campos:
+
+   | Editor de campos | Atributo de formulario |
+   | --- | --- |
+   | Botón de radio | `type="radiobutton"` |
+   | Casilla de verificación | `type="checkbox"` |
+   | Editar árbol | `type="tree"` |
+
+   Más información sobre [controles de lista de memoria](form-structure.md#memory-list-controls).
+
+1. Opcionalmente, defina el acceso a los campos:
+
+   | Elemento | Atributo | Descripción |
+   | --- | --- | --- |
+   | `<input>` | `read-only:"true"` | Proporciona acceso de solo lectura a un campo |
+   | `<container>` | `type="visibleGroup" visibleIf="`*edit-expr*`"` | Muestra condicionalmente un grupo de campos |
+   | `<container>` | `type="enabledGroup" enabledIf="`*edit-expr*`"` | Habilita condicionalmente un grupo de campos |
+
+   Ejemplo:
+
+   ```xml
+   <container type="enabledGroup" enabledIf="@gender=1">
+     […]
+   </container>
+   <container type="enabledGroup" enabledIf="@gender=2">
+     […]
+   </container>
+   ```
+
+1. Opcionalmente, puede utilizar contenedores para agrupar campos en secciones.
+
+   ```xml
+   <container type="frame" label="Name">
+      <input xpath="@firstName"/>
+      <input xpath="@lastName"/>
+   </container>
+   <container type="frame" label="Contact details">
+      <input xpath="@email"/>
+      <input xpath="@phone"/>
+   </container>
+   ```
+
+   ![](assets/input-form-create-3.png)
+
+## Crear un formulario de varias páginas {#create-multipage-form}
+
+Puede crear formularios de varias páginas. También puede anidar formularios dentro de otros formularios.
+
+### Cree un `iconbox` formulario
+
+Utilice la variable `iconbox` tipo de formulario para mostrar los iconos a la izquierda del formulario, que llevan a los usuarios a diferentes páginas del formulario.
+
+![](assets/iconbox_form_preview.png)
+
+Cambio del tipo de un formulario existente a `iconbox`, siga estos pasos:
+
+1. Cambie el `type` del `<form>` elemento a `iconbox`:
+
+   ```xml
+   <form […] type="iconbox">
+   ```
+
+1. Defina un contenedor para cada página de formulario:
+
+   1. Agregue un `<container>` como elemento secundario del `<form>` elemento.
+   1. Para definir una etiqueta y una imagen para el icono, utilice la variable `label` y `img` atributos.
+
+      ```xml
+      <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="iconbox" xtkschema="xtk:form">
+          <container img="xtk:properties.png" label="General">
+              <input xpath="@label"/>
+              <input xpath="@name"/>
+              […]
+          </container>
+          <container img="nms:msgfolder.png" label="Details">
+              <input xpath="@address"/>
+              […]
+          </container>
+          <container img="nms:supplier.png" label="Services">
+              […]
+          </container>
+      </form>
+      ```
+   También puede quitar el `type="frame"` del atributo existente `<container>` elementos.
+
+### Crear un formulario de bloc de notas
+
+Utilice la variable `notebook` tipo de formulario para mostrar fichas en la parte superior del formulario, que llevan a los usuarios a diferentes páginas.
+
+![](assets/notebook_form_preview.png)
+
+Cambio del tipo de un formulario existente a `notebook`, siga estos pasos:
+
+1. Cambie el `type` del `<form>` elemento a `notebook`:
+
+   ```xml
+   <form […] type="notebook">
+   ```
+
+1. Agregue un contenedor para cada página de formulario:
+
+   1. Agregue un `<container>` como elemento secundario del `<form>` elemento.
+   1. Para definir la etiqueta y la imagen del icono, utilice la variable `label` y `img` atributos.
+
+   ```xml
+     <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="notebook" xtkschema="xtk:form">
+         <container label="General">
+             <input xpath="@label"/>
+             <input xpath="@name"/>
+             […]
+         </container>
+         <container label="Details">
+             <input xpath="@address"/>
+             […]
+         </container>
+         <container label="Services">
+             […]
+         </container>
+     </form>
+   ```
+
+   También puede quitar el `type="frame"` del atributo existente `<container>` elementos.
+
+### Anidar formularios {#nest-forms}
+
+Puede anidar formularios dentro de otros formularios. Por ejemplo, puede anidar formularios de bloc de notas en formularios de iconbox.
+
+Nivel de anidación controla la navegación. Los usuarios pueden explorar en profundidad los subformularios.
+
+Para anidar un formulario dentro de otro formulario, inserte un `<container>` y establezca la variable `type` al tipo de formulario. Para el formulario de nivel superior, puede definir el tipo de formulario en un contenedor exterior o en la variable `<form>` elemento.
+
+### Ejemplo
+
+Este ejemplo muestra un formulario complejo:
+
+* El formulario de nivel superior es un formulario de iconbox. Este formulario consta de dos contenedores etiquetados **General** y **Detalles**.
+
+   Como resultado, el formulario exterior muestra la variable **General** y **Detalles** páginas en el nivel superior. Para acceder a estas páginas, los usuarios hacen clic en los iconos de la izquierda del formulario.
+
+* El subformulario es un formulario de bloc de notas anidado dentro de la variable **General** contenedor. El subformulario consta de dos contenedores etiquetados **Nombre** y **Contacto**.
+
+```xml
+<form _cs="Profile (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Profile" name="profile" namespace="nms" xtkschema="xtk:form">
+  <container type="iconbox">
+    <container img="ncm:general.png" label="General">
+      <container type="notebook">
+        <container label="Name">
+          <input xpath="@firstName"/>
+          <input xpath="@lastName"/>
+        </container>
+        <container label="Contact">
+          <input xpath="@email"/>
+        </container>
+      </container>
+    </container>
+    <container img="ncm:detail.png" label="Details">
+      <input xpath="@birthDate"/>
+    </container>
+  </container>
+</form>
+```
+
+Como resultado, la variable **General** La página del formulario exterior muestra la variable **Nombre** y **Contacto** pestañas.
 
 ![](assets/nested_forms_preview.png)
