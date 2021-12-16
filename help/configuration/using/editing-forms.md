@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: b06e7b3d2dcb172e6a10c383b5f9800960e7a074
+source-git-commit: d8cd7910798f62cbab8aa0d7cfcc31010ed02297
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 2%
+source-wordcount: '945'
+ht-degree: 3%
 
 ---
 
@@ -360,10 +360,3 @@ Cambio del tipo de un formulario existente a `notebook`, siga estos pasos:
    ```
 
    También puede quitar el `type="frame"` del atributo existente `<container>` elementos.
-
-### Anidar formularios {#nest-forms}
-
-Puede anidar formularios dentro de otros formularios. Por ejemplo, puede anidar formularios de bloc de notas en formularios de iconbox.
-
-Nivel de anidación controla la navegación. Los usuarios pueden explorar en profundidad los subformularios.
-
