@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 0dfce3b514fefef490847d669846e515b714d222
+source-git-commit: 1ab984d12c9beb0ba3378bbfb49d1d7d07e870f6
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1286'
 ht-degree: 2%
 
 ---
@@ -403,3 +403,24 @@ Este ejemplo muestra un formulario complejo:
 Como resultado, la variable **General** La página del formulario exterior muestra la variable **Nombre** y **Contacto** pestañas.
 
 ![](assets/nested_forms_preview.png)
+
+## Modificación de un formulario de entrada de fábrica {#modify-factory-form}
+
+Para modificar un formulario de fábrica, siga estos pasos:
+
+1. Opcionalmente, amplíe el esquema de datos relacionado:
+
+   1. En el menú , elija **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
+   1. Seleccione un esquema de datos y amplíelo. Por ejemplo, puede añadir campos. [Más información](extending-a-schema.md).
+
+      >[!CAUTION]
+      > No modifique los datos originales en un espacio de nombres de fábrica, sino que, en su lugar, los amplíe en un espacio de nombres personalizado. El motivo es que, durante las actualizaciones de software, se sobrescriben todos los datos de los espacios de nombres de fábrica. Por ejemplo, los datos de la sección `xtk`, `ncm`y `nms` se sobrescriben las áreas de nombres de fábrica. Los datos de las áreas de nombres personalizadas no se modifican.
+
+1. Modifique el formulario de entrada de fábrica:
+
+   1. En el menú , elija **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]**.
+   1. Seleccione un formulario de entrada y edítelo.
+
+   Puede ampliar los esquemas de datos de fábrica, pero no puede ampliar los formularios de entrada de fábrica. Se recomienda modificar los formularios de entrada de fábrica directamente sin necesidad de volver a crearlos. Durante las actualizaciones de software, las modificaciones en los formularios de entrada de fábrica se combinan con las actualizaciones. Si la combinación automática falla, puede resolver los conflictos. [Más información](../../production/using/upgrading.md#resolving-conflicts).
+
+   Por ejemplo, si amplía un esquema de fábrica con un campo adicional, puede agregar este campo al formulario de fábrica relacionado.
