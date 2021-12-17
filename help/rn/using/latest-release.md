@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: ebd5b04c30c54142433056904a5d80f5a8744ded
+source-git-commit: 5261021bde11bc9450a429f26aa493ca2398dbc7
 workflow-type: tm+mt
-source-wordcount: '2459'
-ht-degree: 100%
+source-wordcount: '2531'
+ht-degree: 97%
 
 ---
 
@@ -28,10 +28,11 @@ _8 de octubre de 2021_
 
 **Parches**
 
+* Se ha mejorado la corrección del flujo de trabajo de facturación disponible en la versión 9342, que requería un reinicio manual del flujo de trabajo para que se aplicara la corrección. Ahora la posactualización reinicia automáticamente el flujo de trabajo.
+
 * Se ha corregido un problema que podía impedir el funcionamiento de Offer Decisioning adecuado al usar el módulo **Interacción** con la opción [Power Booster](../../installation/using/power-booster-and-power-cluster.md). (NEO-39263)
 
 * Se ha corregido un error “La ipaffinity xxx no se encuentra en el servidor mid xxx” que podría producirse al realizar envíos si se usaba más de una afinidad IP en una instancia de intermediario múltiple. (NEO-37514)
-
 
 ## ![](assets/do-not-localize/orange_2.png) Versión 21.1.4, compilación 9342 {#release-21-1-4-build-9342}
 
@@ -49,9 +50,9 @@ _7 de septiembre de 2021_
 
 **Otros cambios**
 
+* Se ha corregido una regresión introducida en 21.1.3 con la nueva protección del flujo de trabajo de facturación. El flujo de trabajo de facturación se ejecutó en instancias incorrectas y se bloqueó al intentar enviar el informe de facturación que no se generó. Debe reiniciar manualmente el flujo de trabajo para que se aplique la corrección.
 * Los conectores de Microsoft CRM anteriormente obsoletos (implementaciones Office 365 y On-premise) se han eliminado de la interfaz. [Más información](../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft)
 * Después de la migración a Tomcat 8, el script de configuración de IIS se ha actualizado para solucionar los problemas de integración de IIS. (NEO-31019)
-* Se ha agregado una protección para permitir que el [flujo de trabajo técnico de facturación](../../production/using/monitoring-processes.md#billing-report) se ejecute en la instancia de marketing.
 * La identificación de la fuente de datos se ha mejorado en las pestañas de datos y esquema de la ventana **Ver población** de las transiciones de flujo de trabajo.
 * Los índices de base de datos que faltaban se agregaron a los siguientes esquemas para evitar problemas de actualización de la base de datos: xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
 
@@ -193,6 +194,7 @@ Obtenga más información en la página [Funciones obsoletas y eliminadas](../..
 
 **Otros cambios**
 
+* Se ha agregado una protección para permitir que el [flujo de trabajo técnico de facturación](../../production/using/monitoring-processes.md#billing-report) se ejecute en la instancia de marketing.
 * El tercero de openssl para Windows se ha actualizado a la versión 1.1.1h.
 * En la descripción del paquete Debian, nlserver se ha cambiado a servidor de Adobe Campaign Classic.
 
