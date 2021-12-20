@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: f2cb3323bc5df3aae16a4ae4cf80c30bf53b006e
+source-git-commit: 8789571c9cf9ca857777fe5c03c355200c466789
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1744'
 ht-degree: 97%
 
 ---
@@ -62,7 +62,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
    <td><p>A partir de la versión 21.1 de Campaign, el informe de monitorización de la capacidad de envío técnico queda obsoleto.</p>
    <p>Si es necesario, puede recibir este informe a diario por correo electrónico hasta la fecha de eliminación de la función. Para solicitarlo, abra un <a href="https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">caso de asistencia</a> específico y concrete el nombre de la instancia y las direcciones de correo electrónico a las que se deba enviar el informe.</p> 
    <p>Adobe recomienda que se involucre con el equipo de entrega para definir las mejores herramientas para monitorizar el rendimiento del envío de instancias.</p>
-  <p><em>Fecha de eliminación del destinatario: finales de 2021</em></p>
+  <p><em>Fecha de eliminación del objetivo: Principios de 2022</em></p>
   </td>
  </tr>
   <tr>
@@ -70,7 +70,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
   <td><p> A partir de la versión 20.3 de Campaign, la autenticación de integración de los activadores basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización se ha cambiado y se ha movido a Adobe I/O. <p>
   <p>Si utiliza la integración de los activadores, debe adaptar la implementación en consecuencia. <a href="../../integrations/using/configuring-adobe-io.md">Más información</a></p> 
   <p>Para obtener más información sobre la depreciación de la autenticación OAuth, consulte esta <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">página</a>.</p> 
-  <p><em>Fecha de eliminación objetivo: noviembre de 2021</em></p>
+  <p><em>Fecha de eliminación del objetivo: 20 de octubre de 2021. Los entornos alojados se benefician de una extensión hasta el 23 de febrero de 2022. </em></p>
   </td>
   </tr>
  </tbody> 
@@ -179,7 +179,7 @@ A partir de la versión 21.1.3, el soporte para Debian 8 queda obsoleto.
 
 A partir de la versión 19.1, Adobe Campaign deja de ser compatible con los siguientes sistemas operativos.
 
-* CentOS 6 [Más información](https://wiki.centos.org/Download)
+* CentOS 6. [Más información](https://wiki.centos.org/Download)
 * Debian 7. [Más información](https://wiki.debian.org/DebianReleases)
 * RHEL 6.x. [Más información](https://access.redhat.com/support/policy/updates/errata)
 * Windows Server 2008. [Más información](https://support.microsoft.com/es-es/lifecycle/search/1163)
