@@ -5,7 +5,7 @@ description: Nota técnica
 hide: true
 hidefromtoc: true
 exl-id: e7d4331b-7149-4768-8e46-2e2911319074
-source-git-commit: ed9e76495efb0cb49e248a7d38417642c5094a11
+source-git-commit: 70240d5f62fd3d7b755389b5ad8c4b499c94657d
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 36%
@@ -30,11 +30,12 @@ Si su entorno se ejecuta en una de las versiones enumeradas a continuación, pue
 
 * Gold Standard 8 a 11. [Más información](../../rn/using/gold-standard.md#gs-8)
 * Versiones de Campaign 21.1.1 (compilación 9277) a 21.1.2 (compilación 9282). [Más información](../../rn/using/latest-release.md)
-* Versiones de Campaign 20.3.1 (compilación 9228) a 20.3.3 (compilación 9234). [Más información](../../rn/using/release--20-3.md)
-* Versiones de Campaign 20.2.1 (versión 9178) a 20.2.4 (versión 9187). [Más información](../../rn/using/release--20-2.md)
-* Versiones de Campaign 20.1.1 (compilación 9122) a 21.1.3 (compilación 9124). [Más información](../../rn/using/release--20-1.md)
-* Versiones de Campaign 19.2.2 (compilación 9080) a 19.2.3 (compilación 9081). [Más información](../../rn/using/release--19-2.md)
-* Versiones de Campaign 19.1.5 (compilación 9033) a 19.1.7 (compilación 9036). [Más información](../../rn/using/release--19-1.md)
+* Versiones de Campaign 20.3.1 (compilación 9228) a 20.3.3 (compilación 9234). [Más información](../../rn/using/release--2020.md#release-20-3)
+* Versiones de Campaign 20.2.1 (versión 9178) a 20.2.4 (versión 9187). [Más información](../../rn/using/release--2020.md#release-20-2)
+* Versiones de Campaign 20.1.1 (compilación 9122) a 21.1.3 (compilación 9124). [Más información](../../rn/using/release--2020.md#release-20-1)
+* Versiones de Campaign 19.2.2 (compilación 9080) a 19.2.3 (compilación 9081). [Más información](../../rn/using/release--2019.md#release-19-2)
+* Versiones de Campaign 19.1.5 (compilación 9033) a 19.1.7 (compilación 9036). [Más información](../../rn/using/release--2019.md#release-19-1)
+
 
 Descubra cómo comprobar su versión [en esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 

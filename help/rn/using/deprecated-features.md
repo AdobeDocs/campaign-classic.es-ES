@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: f7c4603e389b19c057ee72bb50ed30d03b60f4bc
-workflow-type: ht
-source-wordcount: '1700'
-ht-degree: 100%
+source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
+workflow-type: tm+mt
+source-wordcount: '1737'
+ht-degree: 98%
 
 ---
 
@@ -85,6 +85,12 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
   <tr> 
    <td><strong>Área: función</strong></td>
    <td><strong>Sustitución</strong></td> 
+  </tr>
+ <tr>  
+   <td>Conectores CRM actividades<br></td>
+   <td><p> Las actividades de acción Microsoft CRM, Salesforce y Oracle CRM On Demand ya no están disponibles.</p>
+   <p>Para configurar la sincronización de datos entre Adobe Campaign y un sistema CRM, puede utilizar la actividad Conector de CRM .</p>
+   <p><a href="../../workflow/using/crm-connector.md">Más información</a></p>
   </tr>
   <tr>  
    <td>Creación de informes<br></td>
