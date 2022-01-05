@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b174b8283d77a1b5eb535c0c46ba4a428bd66eef
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 100%
+source-wordcount: '1697'
+ht-degree: 98%
 
 ---
 
@@ -24,6 +24,10 @@ Para enviar a un teléfono móvil, necesita:
    Tenga en cuenta que los conectores heredados ya no se utilizan. Las funcionalidades van a seguir estando disponibles, pero no se van a mejorar ni admitir. Obtenga más información [en esta página](../../rn/using/deprecated-features.md).
 
 1. Una plantilla de envíos en la que se haga referencia a esta cuenta externa.
+
+>[!NOTE]
+>
+> Para las entregas SMS, la tipología debe utilizar una afinidad SMS específica creada en **one** contenedor de servidor de aplicaciones dedicado. [Más información](../../installation/using/configure-delivery-settings.md#managing-outbound-smtp-traffic-with-affinities)
 
 ## Creación de una cuenta externa SMPP {#creating-an-smpp-external-account}
 

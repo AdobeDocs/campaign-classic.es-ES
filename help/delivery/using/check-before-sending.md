@@ -5,10 +5,10 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b174b8283d77a1b5eb535c0c46ba4a428bd66eef
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 100%
+source-wordcount: '882'
+ht-degree: 97%
 
 ---
 
@@ -95,6 +95,8 @@ Puede:
 * En la [tipología](../../campaign-opt/using/about-campaign-typologies.md) que elija, utilice el campo **[!UICONTROL Managing affinities with IP addresses]** para vincular envíos al servidor de envío (MTA) que administra dicha afinidad. [Más información](../../campaign-opt/using/applying-rules.md#control-outgoing-smtp-traffic).
 
 * Una vez enviado el correo electrónico, compruebe el encabezado para ver desde qué dirección IP se entregó el envío. El administrador de correo electrónico debe ayudarle a obtener la información del encabezado.
+
+* Para los envíos SMS, asegúrese de que el canal SMS tenga una afinidad específica limitada a **one** contenedor de servidor de aplicaciones. [Más información](../../installation/using/configure-delivery-settings.md#managing-outbound-smtp-traffic-with-affinities)
 
 >[!NOTE]
 >

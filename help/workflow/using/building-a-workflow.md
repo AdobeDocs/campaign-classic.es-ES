@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 638b259462d3e01d744567e56d67a120359dc34a
 workflow-type: tm+mt
-source-wordcount: '1624'
-ht-degree: 100%
+source-wordcount: '1625'
+ht-degree: 99%
 
 ---
 
@@ -96,7 +96,10 @@ Puede cambiar la visualización y el diseño del gráfico mediante los siguiente
 
    ![](assets/s_user_segmentation_toolbar.png)
 
-   En esta [sección](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow) se describen los iconos relacionados con el seguimiento y el inicio de un flujo de trabajo de objetivos avanzado.
+   Los iconos relacionados con el progreso y la visualización de registros se describen en estas secciones:
+
+   * [Visualización del progreso](../../workflow/using/monitoring-workflow-execution.md#displaying-progress)
+   * [Visualización de registros](../../workflow/using/monitoring-workflow-execution.md#displaying-logs)
 
 * **Alineación de objetos**
 
