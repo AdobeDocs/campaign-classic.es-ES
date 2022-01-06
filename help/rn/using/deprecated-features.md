@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 8789571c9cf9ca857777fe5c03c355200c466789
+source-git-commit: 0a7cdd53640bb3d96ff9bc2de4aa4c1849e32c83
 workflow-type: tm+mt
-source-wordcount: '1744'
-ht-degree: 97%
+source-wordcount: '1707'
+ht-degree: 99%
 
 ---
 
@@ -84,14 +84,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
  <tbody>
   <tr> 
    <td><strong>Área: función</strong></td>
-   <td><strong>Sustitución</strong></td> 
-  </tr>
- <tr>  
-   <td>Conectores CRM actividades<br></td>
-   <td><p> Las actividades de acción Microsoft CRM, Salesforce y Oracle CRM On Demand ya no están disponibles.</p>
-   <p>Para configurar la sincronización de datos entre Adobe Campaign y un sistema CRM, puede utilizar la actividad Conector de CRM .</p>
-   <p><a href="../../workflow/using/crm-connector.md">Más información</a></p>
-  </tr>
+   <td><strong>Sustitución</strong></td>
   <tr>  
    <td>Creación de informes<br></td>
    <td><p>Tras el fin de la vida útil del Flash Player de Adobe, el informe Medición y el motor de renderización Gráfico ya no están disponibles. <a href="../../reporting/using/creating-a-new-report.md">Más información</a></p>

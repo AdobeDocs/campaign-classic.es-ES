@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: cbafd70f5b5e964256edad0ce2965f3ed4650500
+source-git-commit: 0a7cdd53640bb3d96ff9bc2de4aa4c1849e32c83
 workflow-type: tm+mt
-source-wordcount: '2556'
-ht-degree: 91%
+source-wordcount: '2580'
+ht-degree: 97%
 
 ---
 
@@ -181,18 +181,18 @@ Obtenga más información en la [Matriz de compatibilidad de Campaign](../../rn/
 
 **Funciones obsoletas**
 
-* Los controladores ODBC ahora se instalan directamente con terceros de Adobe Campaign. Ya no es necesario realizar pasos manuales para instalar los controladores.
-* Google Big Query ya está disponible para implementaciones alojadas.
+* A partir de la versión 21.1 de Campaign, el Conector de datos de Adobe Analytics queda obsoleto. Si utiliza este conector, debe adaptar la implementación en consecuencia con el nuevo Conector de Adobe Analytics.
+Para obtener más información, consulte la [documentación detallada](../../technotes/using/aa-connector-migration.md).
+* La compatibilidad con Debian 8 ya está obsoleta.
+* Después de la desaprobación de Oracle CRM en 20.3, la cuenta externa relacionada se ha eliminado de la interfaz.
 
-[Más información](../../installation/using/configure-fda.md)
+Obtenga más información en la página [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md).
 
 **Mejoras**
 
-* Se han aplicado correcciones críticas con respecto a la API web del conector de Microsoft Dynamics:
-   * Se ha corregido un problema que podría provocar que la importación de datos desde Microsoft CRM falle o no funcione si la condición de filtro contenía campos de búsqueda.
-   * Se ha corregido un problema durante una importación desencadenada por un flujo de trabajo que provocaba que los valores nulos de los campos de tipo cadena se guardaran como Null en lugar de valores vacíos.
-   * Se ha corregido un problema que provocaba el siguiente error en la importación o exportación de datos mediante llamadas a la API web: &quot;URI no válido: El esquema de URI es demasiado largo&quot;.
-   * Se ha corregido un problema durante una importación desde Microsoft Dynamics 365 que impedía importar los datos de los campos de búsqueda.
+* Se han añadido comprobaciones adicionales al guardar un flujo de trabajo para asegurarse de que los nombres de las actividades sean únicos y de que las transiciones siempre irán seguidas de una actividad.
+* El flujo de trabajo técnico **Facturación (billing)** incluye ahora las tareas realizadas originalmente por el flujo de trabajo **Número de perfiles de facturación activos** (billingActiveContactCount), que se ha eliminado. El informe de correo electrónico que envía cada mes el flujo de trabajo ahora proporciona información sobre la cantidad de perfiles activos en la instancia. [Más información](../../workflow/using/about-technical-workflows.md).
+* Se ha añadido un nuevo atributo **_keyOnMData** para poder utilizar una clave para operaciones en datos de memo.
 
 **Otros cambios**
 
