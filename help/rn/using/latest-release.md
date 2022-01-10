@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: e4dfdd32c07753ee9e202ab4e4bf815485e47d8b
+source-git-commit: 630a62c5e5c9782c5c55fdebd651493a2d68fc54
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 17%
+source-wordcount: '1056'
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,7 @@ Se han realizado varias mejoras de seguridad en las cuentas de FDA:
 * Los controladores ODBC ahora se instalan directamente con terceros de Adobe Campaign. Ya no es necesario realizar pasos manuales para instalar estos controladores.
 * Al configurar la cuenta externa de FDA, ahora puede iniciar sesión en la cuenta de Snowflake mediante la autenticación de par de claves para mejorar la seguridad de la autenticación. [Más información](../../installation/using/configure-fda-snowflake.md)
 * Al configurar la cuenta externa de FDA, ahora puede iniciar sesión en la cuenta de Azure synapse Analytics con la identidad administrada asignada al sistema. [Más información](../../installation/using/configure-fda-synapse.md#azure-external)
-
+* Todas las referencias a la biblioteca log4j se han eliminado de Campaign para garantizar una seguridad óptima.
 
 **Mejoras**
 
@@ -55,6 +55,7 @@ Se han realizado varias mejoras de seguridad en las cuentas de FDA:
 * Se ha añadido una nueva opción en el **Gestión de errores** propiedades de las actividades de flujo de trabajo: La variable **Anular por error** detendrá automáticamente el flujo de trabajo. No podrá reiniciarlo posteriormente (NEO-29661). [Más información](../../workflow/using/advanced-parameters.md#in-case-of-errors)
 * Ahora se utiliza una secuencia dedicada para generar las claves principales de la tabla nmsGroup , que se utiliza para crear grupos estadísticos de destinatarios. Anteriormente, se utilizaba la secuencia xtknownId. (NEO-30832)
 * Se ha agregado compatibilidad con operaciones de actualización por lotes mediante la actividad Conector de CRM .
+* Rendimiento mejorado para el tiempo de procesamiento de la mensajería transaccional. (NEO-40370)
 
 **Parches**
 
