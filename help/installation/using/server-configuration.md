@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
-source-git-commit: 4661a65c83f3b9b7da9ea902f387155c5933e59f
+source-git-commit: e55fff99fd5dec8da998310dc7026c1a506abadc
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '624'
 ht-degree: 12%
 
 ---
@@ -66,7 +66,7 @@ Los clientes existentes procedentes de una migración pueden utilizar el modo de
 
 ## Restricción de comandos (lado del servidor)
 
-Varios comandos se incluyen en la lista negra y no se pueden ejecutar mediante la función execCommand. Un usuario de Unix dedicado proporciona una seguridad adicional para ejecutar comandos externos. En el caso de instalaciones alojadas, esta restricción se aplica automáticamente. Para las instalaciones in situ, puede configurar manualmente esta restricción siguiendo las instrucciones de [esta página](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands). Además, **[!UICONTROL Script]** y **[!UICONTROL External task]** las actividades de flujo de trabajo no están disponibles (instancias recién instaladas).
+Se incluyen varios comandos en la  de lista de bloqueados y no se pueden ejecutar utilizando la función execCommand. Un usuario de Unix dedicado proporciona una seguridad adicional para ejecutar comandos externos. En el caso de instalaciones alojadas, esta restricción se aplica automáticamente. Para las instalaciones in situ, puede configurar manualmente esta restricción siguiendo las instrucciones de [esta página](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands). Además, **[!UICONTROL Script]** y **[!UICONTROL External task]** las actividades de flujo de trabajo no están disponibles (instancias recién instaladas).
 
 ## Otras configuraciones
 

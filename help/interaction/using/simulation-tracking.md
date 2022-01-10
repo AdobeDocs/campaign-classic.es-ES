@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 exl-id: 490ebbea-9bdc-453e-8a02-c02b095e55e9
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d835da6c7b55d9bf70b6b5dc58880718e12211d5
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Seguimiento de la simulación{#simulation-tracking}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 Una vez finalizada la simulación, se puede analizar su resultado mediante la pestaña **[!UICONTROL Results]** añadida a la ventana de simulación y el informe **[!UICONTROL Breakdown of offers by rank]** disponible en el panel de control.
 

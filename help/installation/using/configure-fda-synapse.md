@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 9265d389da53e51889c2b7a8cd330c1866a030d9
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 79%
+source-wordcount: '731'
+ht-degree: 76%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 79%
 
 ![](../../assets/v7-only.svg)
 
-Uso de Campaign [Acceso de datos federado](../../installation/using/about-fda.md) (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Microsoft Azure synapse Analytics.
+Uso de Campaign [Acceso de datos federado](../../installation/using/about-fda.md) (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a **Microsoft Azure synapse Analytics**.
 
 1. Configurar Azure synapse en [CentOS](#azure-centos), [Windows](#azure-windows) o [Debian](#azure-debian)
 1. Configuración del Azure synapse [cuenta externa](#azure-external) en Campaign
@@ -191,7 +191,6 @@ Para configurar Azure Synapse en Debian:
    >
    >Para permitir la comunicación desde Azure Synapse Analytics, es posible que tenga que añadir su IP pública a la lista de permitidos. Para ello, consulte la [documentación de Azure](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
-
 ## Cuenta externa de azure synapse {#azure-external}
 
 La cuenta externa [!DNL Azure Synapse] permite conectar la instancia de Campaign a la base de datos externa Azure Synapse.
@@ -206,14 +205,34 @@ Para crear [!DNL Azure Synapse] cuenta externa siga los pasos a continuación:
 
    ![](assets/azure_1.png)
 
-1. Configure la cuenta externa [!DNL Azure Synapse]. Debe especificar:
+1. En **[!UICONTROL Configuration]**, seleccione **[!UICONTROL Azure Synapse Analytics]** de la variable **[!UICONTROL Type]** lista desplegable.
 
-   * **[!UICONTROL Type]**: Azure Synapse Analytics
+   ![](assets/azure_2.png)
 
-   * **[!UICONTROL Server]**: URL del servidor Azure Synapse
+1. Configure las variables [!DNL Azure Synapse] cuenta externa:
 
-   * **[!UICONTROL Account]**: Nombre del usuario
+   * Para la autenticación estándar, debe especificar:
 
-   * **[!UICONTROL Password]**: Contraseña de la cuenta de usuario
+      * **[!UICONTROL Server]**: URL del servidor Azure Synapse
 
-   * **[!UICONTROL Database]**: Nombre de la base de datos
+      * **[!UICONTROL Account]**: Nombre del usuario
+
+      * **[!UICONTROL Password]**: Contraseña de la cuenta de usuario
+
+      * **[!UICONTROL Database]**: Nombre de la base de datos
+
+      ![](assets/azure_3.png)
+
+   * Para la autenticación de identidad administrada asignada por el sistema, debe especificar:
+
+      * **[!UICONTROL Server]**: URL del servidor Azure Synapse
+
+      * **[!UICONTROL Database]**: Nombre de la base de datos
+
+      * **[!UICONTROL Options]**: Añada la siguiente sintaxis `Authentication=ActiveDirectoryMsi`
+
+      ![](assets/azure_4.png)
+
+
+
+1. Haga clic en **[!UICONTROL Save]**.

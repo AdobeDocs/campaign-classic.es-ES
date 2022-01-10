@@ -6,9 +6,9 @@ audience: migration
 content-type: reference
 topic-tags: rollback
 exl-id: 5120a7c4-3760-48d9-94da-d587d333e8d8
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Después de una migración, en caso de problemas, es posible que tenga que volve
 
 El procedimiento de reversión depende de la versión inicial de Campaign.
 
-## Restauración de la versión 6.1
+## Restaurar a Campaign v6.1
 
 Este es el procedimiento para restaurar una versión 6.1 desde una versión 7.
 
@@ -32,7 +32,7 @@ Este es el procedimiento para restaurar una versión 6.1 desde una versión 7.
 1. Vuelva a iniciar IIS.
 1. Reinicie el servicio Adobe Campaign v6.1.
 
-## Restauración a Campaign v6.02
+## Restaurar a Campaign v6.02
 
 Este es el procedimiento para restaurar una versión 6.02 desde una versión 7.
 
@@ -43,7 +43,7 @@ Este es el procedimiento para restaurar una versión 6.02 desde una versión 7.
 1. Vuelva a iniciar IIS.
 1. Reinicie el servicio Adobe Campaign v6.02.
 
-## Restauración a Campaign v5.11
+## Restaurar a Campaign v5.11
 
 Este es el procedimiento para restaurar una versión 5.11 desde una versión 7.
 

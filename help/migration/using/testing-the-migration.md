@@ -6,14 +6,14 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
-source-git-commit: 9ba2199eabf91381e87661f30c9af8aa0ce4cc26
+source-git-commit: 59a2bc62b4c03ef0702cb57bd9dc808e7d0b444b
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '755'
 ht-degree: 1%
 
 ---
 
-# Prueba de la migración{#testing-the-migration}
+# Pruebas de migración{#testing-the-migration}
 
 ![](../../assets/v7-only.svg)
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Según la configuración, hay varias formas de realizar pruebas de migración.
 
-Debe tener un entorno de prueba/desarrollo para realizar pruebas de migración. Los entornos de desarrollo están sujetos a licencia: compruebe su contrato de licencia o póngase en contacto con el servicio de ventas de Adobe Campaign.
+Debe tener un entorno de prueba/desarrollo para realizar pruebas de migración. Los entornos de Adobe Campaign están sujetos a una licencia: compruebe su contrato de licencia o póngase en contacto con su representante de Adobe.
 
 1. Detenga todos los avances en curso y transfiérselos al entorno de producción.
 1. Haga una copia de seguridad de la base de datos del entorno de desarrollo.
@@ -39,18 +39,12 @@ Debe tener un entorno de prueba/desarrollo para realizar pruebas de migración. 
 
 1. Asegúrese de que las copias de seguridad sean correctas al intentar restaurarlas. Asegúrese de tener acceso a la base de datos, las tablas, los datos, etc.
 1. Pruebe el procedimiento de migración en el entorno de desarrollo.
-
-   Los procedimientos completos se detallan en la [Requisitos previos para la migración a Adobe Campaign 7](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md) para obtener más información.
-
 1. Si la migración del entorno de desarrollo se realiza correctamente, puede migrar el entorno de producción.
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >Debido a los cambios realizados en la estructura de datos, no es posible importar y exportar paquetes de datos entre una plataforma v5 y una plataforma v7.
 
->[!NOTE]
->
->El comando Adobe Campaign update (**postupgrade**) le permite sincronizar recursos y actualizar esquemas y la base de datos. Esta operación solo se puede realizar una vez y solo en el servidor de aplicaciones. Después de sincronizar los recursos, la variable **postupgrade** permite detectar si la sincronización genera errores o advertencias.
 
 ## Herramientas de migración {#migration-tools}
 
@@ -70,9 +64,11 @@ Varias opciones permiten medir el impacto de una migración e identificar los po
 
 >[!NOTE]
 >
->Debe usar la variable **-instancia:`<instanceame>`** . No se recomienda usar la variable **-allinstances** .
+>* Debe usar la variable **-instancia:`<instanceame>`** . No se recomienda usar la variable **-allinstances** .
+>* El comando Adobe Campaign update (**postupgrade**) le permite sincronizar recursos y actualizar esquemas y la base de datos. Esta operación solo se puede realizar una vez y solo en el servidor de aplicaciones. Después de sincronizar los recursos, la variable **postupgrade** permite detectar si la sincronización genera errores o advertencias.
 
-### Opciones -showCustomEntities y -showDeletedEntities {#showcustomentities-and--showdeletedentities-options}
+
+### Objetos no estándar o que faltan
 
 * La variable **-showCustomEntities** muestra la lista de todos los objetos no estándar:
 
@@ -110,7 +106,7 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
 
 >[!NOTE]
 >
->Ignore todas las advertencias y errores que tengan el código JST-310040.
+>Puede ignorar todas las advertencias y errores con el código JST-310040.
 
 Se buscan las expresiones siguientes (con distinción de mayúsculas y minúsculas):
 
@@ -158,7 +154,7 @@ Se buscan las expresiones siguientes (con distinción de mayúsculas y minúscul
    <td> SQLDATA<br /> </td> 
    <td> PU-0006<br /> </td> 
    <td> Error<br /> </td> 
-   <td> Este tipo de error provoca un error de migración. Consulte <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. Si obtiene registros de errores de aplicaciones web de tipo "descripción general" (migración de la versión 6.02), consulte <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Configuración de Campaign</a>.<br /> </td> 
+   <td> Este tipo de error provoca un error de migración. Consulte <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. Si obtiene registros de errores de aplicaciones web de tipo "descripción general" (migración de la versión 6.02), consulte <a href="../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11" target="_blank">Configuración de Campaign</a>.<br /> </td> 
   </tr>
   <tr> 
    <td> crmDeploymentType="onpremise"<br /> </td> 
@@ -167,6 +163,12 @@ Se buscan las expresiones siguientes (con distinción de mayúsculas y minúscul
    <td> Este tipo de implementación ya no es compatible. El tipo de implementación del conector Microsoft CRM local y de Office 365 ya no se utiliza. 
    </br>Si está utilizando uno de estos tipos de implementación obsoletos en una cuenta externa, esta cuenta externa debe eliminarse y luego debe ejecutar el <b>postupgrade</b> comando. 
    </br>Para cambiar a la implementación de API web, consulte <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">Aplicaciones web</a>.<br /> </td>
+  </tr> 
+  <tr> 
+   <td> CRM v1(mscrmWorkflow/sfdcWorkflow)<br /> </td> 
+   <td> PU-0008<br /> </td> 
+   <td> Error<br /> </td> 
+   <td> Las actividades de acción Microsoft CRM, Salesforce y Oracle CRM On Demand ya no están disponibles. Para configurar la sincronización de datos entre Adobe Campaign y un sistema CRM, debe utilizar la variable <a href="../../workflow/using/crm-connector.md" target="_blank">Conector CRM</a> actividad de segmentación.<br /> </td>
   </tr> 
  </tbody> 
 </table>

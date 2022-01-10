@@ -6,48 +6,26 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '322'
 ht-degree: 2%
 
 ---
 
-# Antes de iniciar la migración{#before-starting-migration}
+# Requisitos previos{#before-starting-migration}
 
 ![](../../assets/v7-only.svg)
 
+En esta página se detallan los pasos específicos que debe seguir antes de iniciar el proceso de migración. También debe hacer referencia a [esta página](about-migration.md) para obtener más información.
+
 >[!NOTE]
 >
->En este documento, los comandos vinculados a la base de datos se dan como ejemplo. Estas pueden variar según su configuración. Póngase en contacto con el administrador de la base de datos.
+>En este documento, los comandos se proporcionan como ejemplos. Pueden variar según la configuración.
 
-## Advertencias {#warnings}
-
-* El proceso de migración solo deben realizarlo usuarios expertos. Debe contar con la asistencia de al menos un experto en bases de datos, un administrador del sistema y un desarrollador de aplicaciones de Adobe Campaign.
-* Antes de iniciar la migración, compruebe que los sistemas y los componentes del sistema que utiliza son compatibles con la versión 7. Consulte la [matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
-* Si utiliza Adobe Campaign Cloud Messaging (intermediario), póngase en contacto con el Adobe antes de iniciar el procedimiento de migración completo.
-* Antes de iniciar un proceso de migración, **must** haga una copia de seguridad de sus datos.
-* El proceso de migración puede tardar varios días en completarse.
-* Adobe Campaign v7 es más estricto que las versiones 5.11 y 6.02 en términos de configuración. Esto sirve principalmente para evitar problemas como la corrupción de datos y para preservar la integridad de los datos en la base de datos. Por consiguiente, es posible que algunas de las funciones ofrecidas en las versiones 5.11 y 6.02 ya no funcionen en la versión 7 y, por tanto, deban adaptarse después de la migración. Antes de poner en producción cualquier cosa, le sugerimos que pruebe sistemáticamente todas las configuraciones, especialmente los flujos de trabajo necesarios para utilizar Adobe Campaign.
-
-### Versión instalada {#installed-version}
-
-Antes de migrar, debe instalar la última versión de la versión actual que está utilizando.
-
-Compruebe la versión en el servidor. Para ello, vaya a la **[!UICONTROL Help> About]** en la consola del cliente mediante el **nlserver pdump** comando.
-
-### Copia de seguridad de datos {#data-backup}
-
-Antes de iniciar un proceso de migración, **must** haga una copia de seguridad de sus datos.
-
-### Entorno {#environment}
-
-* No es posible cambiar el tipo de motor de la base de datos (DBMS). Por ejemplo, no se puede cambiar de un motor PostgreSQL a un motor de Oracle. Sin embargo, puede cambiar de un motor de Oracle 8 a un motor de Oracle 10.
-* No es posible pasar de una base de datos no Unicode a una base de datos Unicode.
-
-### Recomendación {#recommendation}
-
-Como el procedimiento de migración es delicado, recomendamos que lea este documento a fondo antes de iniciar el procedimiento.
+1. Compruebe su versión de Adobe Campaign: antes de migrar, instale la última versión de la versión actual que está utilizando.
+1. Haga una copia de seguridad de los datos.
+1. Compruebe el entorno: no puede cambiar el sistema motor de base de datos (DBMS). Por ejemplo, no se puede cambiar de un motor PostgreSQL a un motor de Oracle. Sin embargo, puede cambiar a la última versión del motor de la base de datos. Tenga en cuenta que no es posible pasar de una base de datos no Unicode a una base de datos Unicode.
 
 ## Pasos de migración {#migration-steps}
 
@@ -75,6 +53,6 @@ En la versión 7, **internal** y **admin** la conexión del operador debe estar 
 nlserver config -internalpassword
 ```
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >La variable **internal** la contraseña debe ser idéntica para todos los servidores de seguimiento. Para obtener más información, consulte [Identificador interno](../../installation/using/configuring-campaign-server.md#internal-identifier) y [Permisos](../../platform/using/access-management.md) secciones.

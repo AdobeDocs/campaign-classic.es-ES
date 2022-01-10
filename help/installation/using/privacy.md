@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '892'
 ht-degree: 18%
 
 ---
@@ -59,7 +59,7 @@ Para mejorar la seguridad, se ha introducido un mecanismo de firma para el segui
 
 Además, desde Campaign 20.2 y el [!DNL Gold Standard] versión, puede utilizar una mejora para deshabilitar las direcciones URL generadas en compilaciones anteriores. Esta función está deshabilitada de forma predeterminada. Puede ponerse en contacto con [Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para activar esta función.
 
-Si se está ejecutando [!DNL Gold Standard] 19.1.4, es posible que tenga problemas con las entregas de notificaciones push mediante vínculos de seguimiento o con las entregas que utilizan etiquetas de anclaje. Si es así, se recomienda desactivar la firma de URL.
+Si se ejecuta en la versión 19.1.4, es posible que se produzcan problemas con los envíos de notificaciones push mediante vínculos de seguimiento o con los envíos que utilizan etiquetas de anclaje. Si es así, se recomienda desactivar la firma de URL.
 
 Tanto si ejecuta Campaign en sus instalaciones como en una arquitectura híbrida, debe ponerse en contacto con [Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para que la firma URL esté deshabilitada.
 

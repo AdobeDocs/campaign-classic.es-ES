@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
 source-wordcount: '2614'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -37,13 +37,13 @@ Además, la cuarentena reduce el coste de entrega de los SMS mediante la exclusi
 
 La **cuarentena** solo se aplica a una dirección, no al propio perfil. Esto significa que, si dos perfiles tienen la misma dirección de correo electrónico, ambos se ven afectados si la dirección está en cuarentena.
 
-Del mismo modo, un perfil cuya dirección de correo electrónico se haya puesto en cuarentena puede actualizar su perfil e introducir una nueva dirección, y luego puede volver a recibir entregas.
+Del mismo modo, un perfil cuya dirección de correo electrónico se haya puesto en cuarentena puede actualizar su perfil e introducir una nueva dirección, y luego puede volver a recibir acciones de envío.
 
 Al estar en la **lista de bloqueados**, no obstante, el perfil ya no se tendrá en cuenta para los envíos, por ejemplo, tras una cancelación de la suscripción (exclusión).
 
 >[!NOTE]
 >
->Cuando un usuario responde a un mensaje SMS con una palabra clave como &quot;STOP&quot; para impedir la exclusión de entregas SMS, su perfil no se añade a la lista de bloqueados en el proceso de exclusión de correo electrónico. El número de teléfono del perfil se envía a cuarentena, de modo que el usuario pueda seguir recibiendo mensajes de correo electrónico.
+>Cuando un usuario responde a un mensaje SMS con una palabra clave como &quot;STOP&quot; para impedir la exclusión de envíos SMS, su perfil no se añade a la  de lista de bloqueados como en el proceso de exclusión de correo electrónico. El número de teléfono del perfil se envía a cuarentena, de modo que el usuario pueda seguir recibiendo mensajes de correo electrónico.
 
 ## Identificación de direcciones en cuarentena {#identifying-quarantined-addresses}
 
@@ -70,7 +70,7 @@ La siguiente información está disponible para cada dirección:
 >El aumento del número de cuarentenas es un efecto normal, relacionado con el “desgaste” de la base de datos. Por ejemplo, si se considera que la duración de una dirección de correo electrónico es de tres años y la lista de distribución aumenta en un 50 % cada año, el aumento de la cuarentena se puede calcular de la siguiente manera:
 >
 >Fin de año 1: (1*0,33)/(1+0,5) = 22 %.
->Fin de año 2: ((1,22*0,33)+0,33)/(1,5+0,75) = 32,5 %.
+Fin de año 2: ((1,22*0,33)+0,33)/(1,5+0,75) = 32,5 %.
 
 ### Identificación de direcciones en cuarentena en informes de envío {#identifying-quarantined-addresses-in-delivery-reports}
 
@@ -113,7 +113,7 @@ Las direcciones se eliminan automáticamente de la lista de cuarentena en los si
 A continuación, su estado cambia a **[!UICONTROL Valid]**.
 
 >[!IMPORTANT]
->Los destinatarios con una dirección en un estado **[!UICONTROL Quarantine]** o **[!UICONTROL On denylist]** nunca se eliminarán, aunque reciban un correo electrónico.
+Los destinatarios con una dirección en un estado **[!UICONTROL Quarantine]** o **[!UICONTROL On denylist]** nunca se eliminarán, aunque reciban un correo electrónico.
 
 Puede modificar el número de errores y el periodo entre dos errores. Para ello, cambie la configuración correspondiente en el asistente de implementación (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**). Para obtener más información sobre el asistente de implementación, consulte [esta sección](../../installation/using/deploying-an-instance.md).
 
@@ -253,11 +253,11 @@ El flujo de trabajo **[!UICONTROL mobileAppOptOutMgt]** se ejecuta cada 6 horas 
 Durante el análisis de la entrega, todos los dispositivos excluidos del destino se añaden automáticamente a la tabla **excludeLogAppSubRcp**.
 
 >[!NOTE]
->Para los clientes que utilicen el conector Baidu, los distintos tipos de errores son:
->* Problema de conexión al principio del envío: tipo de error **[!UICONTROL Undefined]**, motivo del error **[!UICONTROL Unreachable]**, con reintento.
->* Se ha perdido la conexión durante un envío: error de software, motivo del error **[!UICONTROL Refused]**, con reintento.
->* Error sincrónico devuelto por Baidu durante el envío: error de hardware, motivo del error **[!UICONTROL Refused]**, sin reintento.
->Adobe Campaign se pone en contacto con el servidor Baidu cada 10 minutos para recuperar el estado del mensaje enviado y actualiza los broadlogs. Si se declara un mensaje como enviado, el estado del mensaje en los broadlogs se establece en **[!UICONTROL Received]**. Si Baidu declara un error, el estado se establece en **[!UICONTROL Failed]**.
+Para los clientes que utilicen el conector Baidu, los distintos tipos de errores son:
+* Problema de conexión al principio del envío: tipo de error **[!UICONTROL Undefined]**, motivo del error **[!UICONTROL Unreachable]**, con reintento.
+* Se ha perdido la conexión durante un envío: error de software, motivo del error **[!UICONTROL Refused]**, con reintento.
+* Error sincrónico devuelto por Baidu durante el envío: error de hardware, motivo del error **[!UICONTROL Refused]**, sin reintento.
+Adobe Campaign se pone en contacto con el servidor Baidu cada 10 minutos para recuperar el estado del mensaje enviado y actualiza los broadlogs. Si se declara un mensaje como enviado, el estado del mensaje en los broadlogs se establece en **[!UICONTROL Received]**. Si Baidu declara un error, el estado se establece en **[!UICONTROL Failed]**.
 
 **Para Android V2**
 
@@ -475,7 +475,7 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
 El mecanismo de cuarentena para mensajes SMS es el mismo a nivel global que el proceso general. Consulte [Acerca de las cuarentenas](#about-quarantines). Las particularidades para los SMS se enumeran a continuación.
 
 >[!NOTE]
->La tabla **[!UICONTROL Delivery log qualification]** no se aplica al conector **Extended generic SMPP**.
+La tabla **[!UICONTROL Delivery log qualification]** no se aplica al conector **Extended generic SMPP**.
 
 <table> 
  <tbody> 
@@ -533,8 +533,8 @@ El conector SMPP recupera los datos del mensaje de SR (informe de estado) que se
 Antes de que se clasifique un nuevo tipo de error, el motivo del error se establece siempre como **Rechazado** de forma predeterminada.
 
 >[!NOTE]
->Los tipos de errores y los motivos del error son los mismos que para los correos electrónicos. Consulte [Tipos y motivos de errores de entrega](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
->Solicite a su proveedor una lista de estados y códigos de error para establecer tipos y motivos de error adecuados para los errores en la tabla de clasificación de registros de entregas.
+Los tipos de errores y los motivos del error son los mismos que para los correos electrónicos. Consulte [Tipos y motivos de errores de entrega](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+Solicite a su proveedor una lista de estados y códigos de error para establecer tipos y motivos de error adecuados para los errores en la tabla de clasificación de registros de entregas.
 
 Ejemplo de mensaje generado:
 

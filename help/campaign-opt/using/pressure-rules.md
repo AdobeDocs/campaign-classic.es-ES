@@ -6,10 +6,10 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
-source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
+source-git-commit: 52aa7b268d5eb83354c3a4d8687ced95300538e2
 workflow-type: tm+mt
-source-wordcount: '3253'
-ht-degree: 100%
+source-wordcount: '3285'
+ht-degree: 98%
 
 ---
 
@@ -64,6 +64,8 @@ Para crear y configurar una regla de tipología de **[!UICONTROL Pressure]**, si
    >[!NOTE]
    >
    >Las entregas programadas solo se tienen en cuenta si la opción **[!UICONTROL Take the deliveries into account in the provisional calendar]** está seleccionada. Para obtener más información, consulte [Configuración del periodo](#setting-the-period).
+   >
+   >Esta opción no está disponible en Campaign v8.
 
 1. Defina el método para calcular el número más alto de mensajes.
 
@@ -149,28 +151,29 @@ El tipo de agrupación permite ampliar el campo **[!UICONTROL Period considered]
 
 Por ejemplo, una regla de presión que define un umbral de 2 mensajes por semana, con una agrupación para cada mes de calendario, impide que se envíen más de 2 mensajes en de la misma semana Y dentro de un mismo mes del calendario. Advertencia: si el periodo se superpone en dos meses, el umbral de cálculo tiene en cuenta las entregas de estos dos meses del calendario y, por tanto, evita realizar nuevos envíos durante el segundo mes.
 
->[!NOTE]
->
->De forma predeterminada, solo se tienen en cuenta las entregas que ya se han enviado al calcular el umbral. Marque la opción **[!UICONTROL Take the deliveries into account in the provisional calendar]** si también desea tener en cuenta las entregas programadas durante el periodo en cuestión. En este caso, el periodo se duplica para permitir la integración de entregas futuras y pasadas.\
->Para restringir las entregas que se tienen en cuenta a un periodo de dos semanas, puede:
->
->* Introducir **15d** en el campo **[!UICONTROL Concerned period]**: se tiene en cuenta en el cálculo las entregas realizadas hasta dos semanas antes de la fecha de entrega a la que se aplica la norma.
->
->  o
->
->* Escriba **7d** en el campo **[!UICONTROL Period considered]** Y marque **[!UICONTROL Take the deliveries into account in the provisional calendar]**\
->: En el cálculo se tienen en cuenta las entregas realizadas hasta 7 días antes de la fecha de entrega y programados hasta 7 días después de la fecha de entrega en los que se aplica la regla.
->
->La fecha de inicio depende de cómo se haya configurado la base de datos.
+Tenga en cuenta que, de forma predeterminada, solo se tienen en cuenta las entregas que ya se han enviado al calcular el umbral. En Campaign Classic v7, marque la **[!UICONTROL Take the deliveries into account in the provisional calendar]** si también desea tener en cuenta las entregas programadas durante el periodo en cuestión. En este caso, el periodo se duplica para permitir la integración de entregas futuras y pasadas.
+
+Para restringir las entregas que se tienen en cuenta a un periodo de dos semanas, puede:
+
+1. Introducir **15d** en el campo **[!UICONTROL Concerned period]**: se tiene en cuenta en el cálculo las entregas realizadas hasta dos semanas antes de la fecha de entrega a la que se aplica la norma.
+
+o
+
+1. Escriba **7d** en el campo **[!UICONTROL Period considered]** Y marque **[!UICONTROL Take the deliveries into account in the provisional calendar]** : En el cálculo se tienen en cuenta las entregas realizadas hasta 7 días antes de la fecha de entrega y programados hasta 7 días después de la fecha de entrega en los que se aplica la regla.
+
+   >[!AVAILABILITY]
+   >Este método no está disponible en Campaign v8.
+
+La fecha de inicio depende de cómo se haya configurado la base de datos.
 
 Por ejemplo, si aplica una regla de presión de 15 días sin agrupar a una entrega con fecha del 11/12, las entregas se tendrán en cuenta entre el 27/11 y el 12/12. Si la regla de presión tiene en cuenta las entregas del calendario provisional, se tienen en cuenta todas las entregas programadas entre el 27/11 y el 27/12. Por último, si configura un grupo por mes del calendario en la regla, el umbral de cálculo tiene en cuenta todas las entregas de noviembre y diciembre (del 1/11 al 31/12).
 
->[!CAUTION]
->
->**Casos frecuentes**
->Para asegurarse de que no se tienen en cuenta las entregas de la semana en curso, así como para no arriesgarse a tener en cuenta también los de la semana anterior para el umbral de cálculo, especifique **[!UICONTROL Period considered]** en “0” y seleccione “Grouping per calendar week” en **[!UICONTROL Period type]**.
-> 
->Cuando un periodo es superior a 0 (1, por ejemplo), el umbral de cálculo puede tener en cuenta las entregas del día anterior. Por lo tanto, si el día anterior corresponde a la semana anterior del calendario y el tipo de periodo seleccionado es “Agrupación por semana del calendario”, la semana anterior se tiene en cuenta para el umbral del cálculo.
+
+**Casos frecuentes**
+
+Para asegurarse de que no se tienen en cuenta las entregas de la semana en curso, así como para no arriesgarse a tener en cuenta también los de la semana anterior para el umbral de cálculo, especifique **[!UICONTROL Period considered]** en “0” y seleccione “Grouping per calendar week” en **[!UICONTROL Period type]**.
+
+Cuando un periodo es superior a 0 (1, por ejemplo), el umbral de cálculo puede tener en cuenta las entregas del día anterior. Por lo tanto, si el día anterior corresponde a la semana anterior del calendario y el tipo de periodo seleccionado es “Agrupación por semana del calendario”, la semana anterior se tiene en cuenta para el umbral del cálculo.
 
 **Ejemplo:**
 
@@ -333,6 +336,9 @@ Primero, configure la regla de presión.
    ![](assets/campaign_opt_pressure_example_1.png)
 
    En el cálculo se tienen en cuenta las entregas realizadas hasta 7 días antes de la fecha de envío y programados hasta 7 días después de la fecha de envío. Para obtener más información, consulte [Configuración del periodo](#setting-the-period).
+
+   >[!AVAILABILITY]
+   >Los envíos programados no se pueden tener en cuenta en Campaign v8.
 
 1. En la pestaña **[!UICONTROL Typologies]**, relacione la regla con una tipología de campaña.
 1. Guarde los cambios.

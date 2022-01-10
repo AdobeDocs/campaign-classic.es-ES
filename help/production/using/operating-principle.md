@@ -6,9 +6,9 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1c032ef9-af11-4947-90c6-76cb9434ae85
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 30f2451849dec0f640915e81c36d0a9c5f466d6c
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,6 @@ Los módulos disponibles se detallan en la siguiente tabla:
 | facturación | Envío del informe de actividad del sistema a billing@neolane.net |
 | cleanup | Limpieza de la base de datos: elimina los datos obsoletos de la base de datos y ejecuta una actualización de las estadísticas utilizadas por el optimizador del motor de base de datos. |
 | config | Modificación de la configuración del servidor |
-| copybase | Copia de una base de datos |
 | exportar | Exportación a la línea de comandos: permite enviar a la línea de comandos un modelo de exportación creado en la consola del cliente de Adobe Campaign |
 | fileconvert | Conversión de un archivo de tamaño definido |
 | importar | Importación a la línea de comandos: permite enviar a la línea de comandos un modelo de importación creado en la consola del cliente de Adobe Campaign. |

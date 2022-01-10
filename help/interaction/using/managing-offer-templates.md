@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: e4a6cc22-05bd-4b8a-984d-d0706fc210e1
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d835da6c7b55d9bf70b6b5dc58880718e12211d5
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Administración de las plantillas de oferta{#managing-offer-templates}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 Las plantillas de oferta se envían preestablecidas en Adobe Campaign. Puede utilizarlas después de crear sus ofertas, duplicar o adaptar la configuración a sus necesidades. También puede crear sus propias plantillas. Las ofertas de plantilla se almacenan en la carpeta **Recursos** > **Plantillas** > **Plantillas de oferta**.
 

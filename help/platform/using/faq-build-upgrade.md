@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
-source-wordcount: '2024'
-ht-degree: 100%
+source-wordcount: '2023'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign se actualiza periódicamente. Si conoce nuestras [Notas de la ver
 
 Es fundamental que nuestros clientes usen la versión más reciente de Adobe Campaign. Esto permite a Adobe ayudarle de manera mucho más eficiente en caso de que se produzcan problemas: identificar, reproducir y corregir un problema en una compilación antigua suele llevar más tiempo, sin mencionar que algunos problemas pueden haberse corregido ya en una versión reciente.
 
-[!DNL Gold Standard] es la versión de soporte a largo plazo de Campaign Classic. Como usuario de [!DNL Gold Standard], se beneficia automáticamente de la actualización de [!DNL Gold Standard] con la última versión estable sin tener que realizar ninguna acción. Los clientes on-premise e híbridos también pueden beneficiarse de las versiones de [!DNL Gold Standard]. Si migra desde una compilación antigua, le recomendamos que la actualice primero a esta versión. [Más información](../../rn/using/gs-overview.md).
+Como usuario alojado, se beneficia automáticamente de la actualización anual de Campaign con la última versión estable sin ninguna acción. Los clientes locales e híbridos también pueden beneficiarse de esta versión. Si migra desde una compilación antigua, le recomendamos que la actualice primero a esta versión. [Más información](../../rn/using/rn-overview.md).
 
 ## ¿Qué es una actualización de compilación?
 
@@ -209,4 +209,4 @@ que todo el contenido se muestra y está presente.
 * [Realización de una actualización de versión](../../production/using/build-upgrade.md)
 * [Notas de la versión de Campaign Classic](../../rn/using/rn-overview.md)
 * [Opciones de ayuda y asistencia de Campaign Classic](../../support.md)
-* [Programa de [!DNL Gold Standard]](../../rn/using/gs-overview.md)
+* [Programa de actualización anual](../../rn/using/rn-overview.md#yearly-upgrade)

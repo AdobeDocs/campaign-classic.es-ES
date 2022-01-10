@@ -6,10 +6,10 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
-source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 100%
+source-wordcount: '384'
+ht-degree: 88%
 
 ---
 
@@ -43,7 +43,7 @@ Los derechos asignados al gestor de ofertas permiten realizar las siguientes tar
 
    >[!NOTE]
    >
-   >El gestor de ofertas solo puede aprobar una oferta en dos casos determinados. El primero es si se especifica a alguien en particular como revisor y el segundo si el operador a cargo de la creación de plantillas (con derecho a asignar revisores) lo especificó como revisor en la plantilla de oferta en la que se basa la oferta.
+   >El gestor de ofertas solo puede aprobar una oferta en dos casos determinados. El primero es si se especifica a alguien en particular como revisor y el segundo si el operador a cargo de la creación de plantillas (con derecho a asignar revisores) las especifica como revisor en la plantilla de oferta en la que se basa la oferta.
 
 ## Gestor de envíos {#delivery-manager}
 

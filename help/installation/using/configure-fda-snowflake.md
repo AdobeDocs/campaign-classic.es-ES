@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6cecc81135afd067712e51ec9c1ad3239170702e
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 72%
+source-wordcount: '411'
+ht-degree: 47%
 
 ---
 
@@ -19,9 +19,8 @@ ht-degree: 72%
 
 Uso de Campaign **Acceso de datos federado** (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a [!DNL Snowflake].
 
-1. Configurar [!DNL Snowflake] en [CentOS](#snowflake-centos), [Windows](#snowflake-windows) o [Debian](#snowflake-debian)
+1. Configurar [!DNL Snowflake] en [Linux](#snowflake-linux).
 1. Configure las variables [!DNL Snowflake] [cuenta externa](#snowflake-external) en Campaign
-
 
 >[!NOTE]
 >
@@ -29,47 +28,43 @@ Uso de Campaign **Acceso de datos federado** (FDA) para procesar la información
 
 ![](assets/snowflake_3.png)
 
-## Snowflake en CentOS {#snowflake-centos}
+## Snowflake en Linux {#snowflake-linux}
 
-Para configurar [!DNL Snowflake] en CentOS, siga los pasos a continuación:
+Para configurar [!DNL Snowflake] en Linux, siga los pasos a continuación:
 
-1. Descargue los controladores ODBC para [!DNL Snowflake]. [Haga clic aquí](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/snowflake-odbc-2.20.2.x86_64.rpm) para iniciar la descarga.
-1. A continuación, debe instalar los controladores ODBC en CentOs con el siguiente comando:
+1. Antes de la instalación de ODBC, compruebe que los siguientes paquetes estén instalados en su distribución Linux:
 
-   ```
-   rpm -Uvh unixodbc
-   rpm -Uvh snowflake-odbc-2.20.2.x86_64.rpm
-   ```
+   * Para Red Hat/CentOS:
 
-1. Después de descargar e instalar los controladores ODBC, debe reiniciar Campaign Classic. Para ello, ejecute el siguiente comando:
+      ```
+      yum update
+      yum upgrade
+      yum install -y grep sed tar wget perl curl
+      ```
 
-   ```
-   /etc/init.d/nlserver6 stop
-   /etc/init.d/nlserver6 start
-   ```
+   * Para Debian:
 
-1. En Campaign, puede configurar la [!DNL Snowflake] cuenta externa. Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#snowflake-external).
+      ```
+      apt-get update
+      apt-get upgrade
+      apt-get install -y grep sed tar wget perl curl
+      ```
 
-## Snowflake en Windows {#snowflake-windows}
-
-1. Descargue [el controlador ODBC para Windows](https://docs.snowflake.net/manuals/user-guide/odbc-download.html). Tenga en cuenta que necesita privilegios de administrador para instalar el controlador. Para obtener más información, consulte [esta página](https://docs.snowflake.net/manuals/user-guide/admin-user-management.html)
-
-1. Configure el controlador ODBC. Para obtener más información, consulte [esta página](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)
-
-1. En Campaign, puede configurar la [!DNL Snowflake] cuenta externa. Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#snowflake-external).
-
-## Snowflake en Debian {#snowflake-debian}
-
-1. Descargue los controladores ODBC para [!DNL Snowflake]. [Haga clic aquí](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html) para iniciar la descarga.
-
-1. Luego debe instalar los controladores ODBC en Debian con el siguiente comando:
+1. Antes de ejecutar el script, puede tener acceso a más información con la variable `--help` opción:
 
    ```
-   apt-get install unixodbc
-   apt-get install snowflake-odbc-x.xx.x.x86_64.deb
+   cd /usr/local/neolane/nl6/bin/fda-setup-scripts/
+   ./snowflake_odbc-setup.sh --help
    ```
 
-1. Después de descargar e instalar los controladores ODBC, debe reiniciar Campaign Classic. Para ello, ejecute el siguiente comando:
+1. Acceda al directorio donde se encuentra el script y ejecute el siguiente script como usuario raíz:
+
+   ```
+   cd /usr/local/neolane/nl6/bin/fda-setup-scripts
+   ./snowflake_odbc-setup.sh
+   ```
+
+1. Después de instalar los controladores ODBC, debe reiniciar el Campaign Classic. Para ello, ejecute el siguiente comando:
 
    ```
    systemctl stop nlserver.service
@@ -88,23 +83,36 @@ Debe crear un [!DNL Snowflake] cuenta externa para conectar la instancia de Camp
 
 1. Seleccione **[!UICONTROL External database]** como **[!UICONTROL Type]** de su cuenta externa.
 
-1. Configure la cuenta externa **[!UICONTROL Snowflake]**. Debe especificar:
+1. En **[!UICONTROL Configuration]**, seleccione [!DNL Snowflake] de la variable **[!UICONTROL Type]** lista desplegable.
 
-   * **[!UICONTROL Type]**: [!DNL Snowflake]
+   ![](assets/snowflake_5.png)
 
-   * **[!UICONTROL Server]**: URL del servidor [!DNL Snowflake]
+1. Agregue la **[!UICONTROL Server]** URL y **[!UICONTROL Database]**.
 
-   * **[!UICONTROL Account]**: Nombre del usuario
+1. Configure las variables **[!UICONTROL Snowflake]** autenticación de cuenta externa:
 
-   * **[!UICONTROL Password]**: Contraseña de la cuenta de usuario
+   * Para la autenticación de cuenta/contraseña, debe especificar:
 
-   * **[!UICONTROL Database]**: Nombre de la base de datos
+      * **[!UICONTROL Account]**: Nombre del usuario
 
-   ![](assets/snowflake.png)
+      * **[!UICONTROL Password]**: Contraseña de la cuenta de usuario.
+
+      ![](assets/snowflake.png)
+
+   * Para la autenticación de par de claves, haga clic en la **[!UICONTROL Keypair Auth]** para usar su **[!UICONTROL Private key]** para autenticar y copiar y pegar su **[!UICONTROL Private key]**.
+
+      ![](assets/snowflake_4.png)
+
 
 1. Haga clic en la pestaña **[!UICONTROL Parameters]** y luego en el botón **[!UICONTROL Deploy functions]** para crear funciones.
 
+   >[!NOTE]
+   >
+   >Para que todas las funciones estén disponibles, debe crear las funciones SQL de Adobe Campaign en la base de datos remota. Para obtener más información, consulte esta [página](../../configuration/using/adding-additional-sql-functions.md).
+
    ![](assets/snowflake_2.png)
+
+1. Haga clic en **[!UICONTROL Save]** cuando la configuración haya finalizado.
 
 El conector admite las siguientes opciones:
 

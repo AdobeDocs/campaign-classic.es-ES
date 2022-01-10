@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 6%
@@ -83,7 +83,7 @@ Para obtener más información sobre la configuración de esquemas de extensión
 
 ## Uso de una lista de destinatarios personalizada {#custom-recipient-table}
 
-Al diseñar el modelo de datos de Adobe Campaign, puede usar la variable [tabla de destinatarios predeterminada](#default-recipient-table)o decida crear un [tabla de destinatarios personalizada](../../configuration/using/about-custom-recipient-table.md) para almacenar los perfiles de marketing.
+Al diseñar el modelo de datos de Adobe Campaign, puede usar la variable [tabla de destinatarios integrada](#default-recipient-table)o decida crear un [tabla de destinatarios personalizada](../../configuration/using/about-custom-recipient-table.md) para almacenar los perfiles de marketing.
 
 De hecho, si el modelo de datos no se ajusta a la estructura centrada en los destinatarios, puede configurar otras tablas como dimensiones de segmentación dentro de Adobe Campaign. Por ejemplo, esto puede ser relevante cuando necesita dirigirse a hogares, cuentas (como teléfonos móviles) y empresas/sitios en lugar de simplemente a destinatarios.
 
@@ -95,11 +95,11 @@ Todos los principios y pasos necesarios al utilizar una tabla de destinatarios p
 
 Las ventajas de utilizar una tabla de destinatarios personalizada son las siguientes:
 
-* **Modelo de datos flexible** - La tabla de destinatarios predeterminada no es útil si no necesita la mayoría de los campos de la tabla de destinatarios o si el modelo de datos no está centrado en el destinatario.
+* **Modelo de datos flexible** : la tabla de destinatarios integrada no es útil si no necesita la mayoría de los campos de la tabla de destinatarios o si el modelo de datos no está centrado en el destinatario.
 
-* **Escalabilidad** - Los volúmenes grandes requieren una tabla optimizada con pocos campos para un diseño eficiente. La tabla de destinatarios predeterminada tendría demasiados campos inútiles, lo que podría afectar al rendimiento y falta de eficiencia.
+* **Escalabilidad** - Los volúmenes grandes requieren una tabla optimizada con pocos campos para un diseño eficiente. La tabla de destinatarios integrada tendría demasiados campos inútiles, lo que podría afectar al rendimiento y falta de eficiencia.
 
-* **Ubicación de los datos** - Si los datos residen en una base de datos de marketing existente externa, puede requerir demasiado esfuerzo para usar la tabla de destinatarios predeterminada. La creación de una nueva basada en una estructura existente es más sencilla.
+* **Ubicación de los datos** - Si los datos residen en una base de datos de marketing existente externa, puede requerir demasiado esfuerzo para usar la tabla de destinatarios integrada. La creación de una nueva basada en una estructura existente es más sencilla.
 
 * **Migración sencilla** - No es necesario realizar ningún mantenimiento para comprobar que todas las extensiones siguen siendo válidas tras la actualización.
 

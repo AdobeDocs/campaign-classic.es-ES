@@ -6,10 +6,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 100%
+source-wordcount: '909'
+ht-degree: 85%
 
 ---
 
@@ -35,17 +35,17 @@ Desde la sección central de la página principal, puede utilizar vínculos para
 
 ### Acceso a la consola y a la web {#console-and-web-access}
 
-La plataforma de Adobe Campaign es accesible a través de una consola o a través de un explorador de Internet.
+La plataforma de Adobe Campaign es accesible a través de una consola o a través de un explorador de Internet. Consulte los exploradores compatibles en la [matriz de compatibilidad](../../rn/using/compatibility-matrix.md#Browsers).
 
-El acceso web proporciona una interfaz similar a la consola pero con un conjunto reducido de funcionalidades.
+La interfaz de acceso web es similar a la interfaz de la consola. Desde un explorador, puede utilizar las mismas funciones de navegación y visualización que en la consola, pero solo puede realizar un conjunto reducido de acciones en las campañas. Por ejemplo, puede ver y cancelar campañas, pero no puede modificarlas. Para un operador determinado, una campaña se mostrará con las siguientes opciones en la consola:
 
-Por ejemplo, para un operador determinado, una campaña se mostrará con las siguientes opciones en la consola:
+![Desde el panel de una campaña, el operador puede ver y cancelar una campaña, pero también modificarla y agregarle envíos, documentos y tareas.](assets/operation_from_console.png)
 
-![](assets/operation_from_console.png)
+Mientras que con el acceso web, las opciones permiten principalmente la visualización:
 
-Mientras que con el acceso web, las opciones permiten principalmente la visualización de:
+![Desde un explorador, el mismo operador solo puede ver y cancelar la campaña.](assets/operation_from_web.png)
 
-![](assets/operation_from_web.png)
+Más información sobre [uso de la interfaz web](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
 
 ### Idiomas {#languages}
 

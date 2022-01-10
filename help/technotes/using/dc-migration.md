@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
-source-git-commit: 1a9e0f8bf374e10af938d15dcebe943819ae327b
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
-source-wordcount: '1572'
-ht-degree: 70%
+source-wordcount: '1557'
+ht-degree: 66%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 70%
 
 ## Contexto
 
-Como valioso cliente de Adobe Campaign Classic, estamos comprometidos a proporcionarle la mejor experiencia y el mejor valor. A lo largo de los años, nos hemos dado cuenta del valor y la fiabilidad de alojar a nuestros clientes en la nube.  Como parte de nuestra [Iniciativa Gold Standard](../../rn/using/gold-standard.md), trasladamos a todos nuestros clientes a Adobe Managed Services (Nube pública en AWS) para ofrecer servicios mejores y más fiables.
+Como valioso cliente de Adobe Campaign Classic, estamos comprometidos a proporcionarle la mejor experiencia y el mejor valor. A lo largo de los años, nos hemos dado cuenta del valor y la fiabilidad de alojar a nuestros clientes en la nube.  Como parte de nuestra [Iniciativa de actualización anual](../../rn/using/rn-overview.md#yearly-upgrade), trasladamos a todos nuestros clientes a Adobe Managed Services (Nube pública en AWS) para ofrecer servicios mejores y más fiables.
 
 Este programa tiene tres objetivos principales:
 
@@ -31,7 +31,7 @@ Este programa tiene tres objetivos principales:
 
 * **Generar actualización** - Cuando el software de Adobe Campaign Classic se actualiza al último número de compilación segura, pero se mantiene en el mismo nivel de compilación principal/menor. Por ejemplo: Campaign v7 20.2.3 compilación 9182 a Campaign v7 21.2.5 compilación 9188. [Más información](../../platform/using/faq-build-upgrade.md).
 * **MID/RT** - Servidores de ejecución de mensajes alojados en Adobe Cloud (MID para campañas por lotes y RT para mensajes unitarios en tiempo real)
-* **Actualización a Gold Standard** - este programa proporciona una mayor seguridad, un mejor apoyo, un mayor mantenimiento y estabilidad. También facilita las futuras actualizaciones y proporciona acceso a nuevas funciones en Campaign.  [Más información](../../rn/using/gs-overview.md).
+* **Programa de actualización anual** - este programa proporciona una mayor seguridad, un mejor apoyo, un mayor mantenimiento y estabilidad. También facilita las futuras actualizaciones y proporciona acceso a nuevas funciones en Campaign.  [Más información](../../rn/using/rn-overview.md#yearly-upgrade).
 * **AWS** - Amazon Web Service (Amazon Public Cloud)
 * **SFTP** - Protocolo seguro de transferencia de archivos. [Más información](../../platform/using/sftp-server-usage.md).
 
@@ -59,7 +59,7 @@ Este programa tiene tres objetivos principales:
 
 * Capacidad de correo electrónico mejorada
 * Bases de datos más grandes
-* Versión de campaña probada: Gold Standard
+* Versión de campaña probada
 
 **Brinde una solución sólida y fiable a los clientes de Adobe Campaign Classic**
 
@@ -67,10 +67,10 @@ Este programa tiene tres objetivos principales:
 1. Mayor capacidad de envío de correo electrónico. Las instancias alojadas en el nuevo centro de datos tendrán la posibilidad de beneficiarse de una infraestructura especializada para la entrega por correo electrónico. Esto podría dar como resultado una mayor velocidad de envío de correo electrónico o permitir el uso de menos direcciones IP de envío.
 1. Mejor adaptación de hardware. Aumentar los recursos de hardware se puede hacer mucho más rápido. Técnicamente, se tardaría en torno a 1 hora en lugar de varios días.
 
-**Gold Standard facilita futuras actualizaciones**
+**Las actualizaciones anuales facilitan las futuras actualizaciones**
 
 1. Cuanto más tiempo pasa su organización esperando que se produzca la actualización, más compleja se vuelve la misma y aumenta el potencial de sufrir vulnerabilidades (especialmente al pasar de una versión anterior).
-1. Con la actualización Gold Standard, su instancia se modernizará y estará lista para recibir actualizaciones de forma más automática y regular, con menos intervención manual y menos recursos.
+1. Con la actualización anual de Campaign (fue la iniciativa Gold Standard), su instancia se modernizará y estará lista para recibir actualizaciones más automatizadas y regulares con menos intervención manual y menos recursos.
 
 ![](assets/GSMigrations.png)
 
@@ -84,7 +84,7 @@ Una migración se puede iniciar mediante [apertura de un nuevo ticket de asisten
 
 ### ¿Es obligatoria esta migración?
 
-Esta migración a la nube es **el primer paso para la certificación [Gold Standard](../../rn/using/gs-overview.md)** de las instancias de Adobe Campaign. Esta migración es obligatoria si está alojado en un centro de datos que no es de la nube pública (AWS).
+Esta migración a la nube es **primer paso para [programa anual de actualización](../../rn/using/rn-overview.md#yearly-upgrade)** de sus instancias de Adobe Campaign. Esta migración es obligatoria si está alojado en un centro de datos que no es de la nube pública (AWS).
 
 La nube de Adobe Managed Services está alojada en Amazon Web Service (AWS), un entorno moderno, seguro y optimizado. [Más información sobre AWS](https://aws.amazon.com/application-hosting/benefits/).
 
@@ -109,12 +109,6 @@ Hemos invertido un gran esfuerzo en desarrollar tecnologías que nos ayudarán a
 
 Obtenga más información sobre la migración de Campaign a [Preguntas frecuentes sobre la nube pública](dc-migration-faq.md).
 
-
-## El camino hacia la certificación Gold Standard
-
-Le ayudaremos en los pasos de validación necesarios entre cada objetivo.
-
-![](assets/GS-milestones.png)
 
 ## Ruta de migración a la nube pública
 
@@ -215,5 +209,5 @@ Normalmente, el dominio utilizado para enviar correo electrónico (empieza a la 
 ## Asistencia y otros vínculos útiles{#support}
 
 * [Preguntas frecuentes sobre la migración a Adobe Managed Services (Nube pública)](dc-migration-faq.md)
-* [Actualización a Gold Standard](../../rn/using/gs-overview.md)
+* [Actualizaciones anuales de Campaign](../../rn/using/rn-overview.md)
 * [Preguntas frecuentes sobre la actualización de versiones](../../platform/using/faq-build-upgrade.md)

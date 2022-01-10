@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d835da6c7b55d9bf70b6b5dc58880718e12211d5
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Aprobación y activación de una oferta{#approving-and-activating-an-offer}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 Una vez finalizado el contenido de la oferta, es necesario aprobarla para que se duplique en el entorno en vivo y se distribuya. La aprobación se refiere al contenido de la oferta y sus requisitos.
 

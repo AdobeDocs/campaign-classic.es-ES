@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 7a1b8a1cd3ad434dac5c324056113d7ec15ddd8a
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 100%
+source-wordcount: '501'
+ht-degree: 98%
 
 ---
 
@@ -73,8 +73,9 @@ Este campo permite seleccionar la zona horaria de la actividad. Para más inform
 
 Este campo permite definir la acción que debe llevarse a cabo cuando la actividad presenta errores. Hay dos opciones posibles:
 
-* **[!UICONTROL Stop the process]**: el flujo de trabajo se detiene automáticamente. Su estado cambia a **[!UICONTROL Failed]**. Una vez resuelto el problema, reinicie el flujo de trabajo.
+* **[!UICONTROL Suspend the process]**: el flujo de trabajo se detiene automáticamente. Su estado cambia a **[!UICONTROL Failed]**. Una vez resuelto el problema, reinicie el flujo de trabajo.
 * **[!UICONTROL Ignore]**: esta tarea y todas las tareas siguientes (en la misma rama) no se ejecutan. Esto puede resultar útil para tareas recurrentes. Si la rama tiene un planificador en una posición anterior, este se ejecuta con normalidad en la siguiente fecha de ejecución.
+* **[!UICONTROL Abort on error]**: el flujo de trabajo se detiene automáticamente y no se puede reiniciar. Su estado cambia a **[!UICONTROL Failed]**.
 
 ## Secuencia de comandos de inicialización {#initialization-script}
 

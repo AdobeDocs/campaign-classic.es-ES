@@ -6,9 +6,9 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-source-git-commit: eef2a12738ce299686857720c3dc8456ffdd0c80
+source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
 workflow-type: tm+mt
-source-wordcount: '2664'
+source-wordcount: '2625'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,12 @@ ht-degree: 0%
 
 ![](../../assets/v7-only.svg)
 
-Esta sección detalla la configuración que se realizará en Adobe Campaign v7 si va a migrar desde una versión 5.11 o 6.02.
+Esta sección detalla la configuración que se debe realizar en Adobe Campaign v7 al migrar desde una versión 5.11 o una versión 6.02.
 
 Además:
 
-* Si migra desde la versión 5.11, también debe completar la configuración detallada en la [Configuraciones específicas en la versión 5.11](../../migration/using/specific-configurations-in-v5-11.md) para obtener más información.
-* Si migra desde la versión 6.02, también debe completar la configuración detallada en la [Configuraciones específicas en la versión 6.02](../../migration/using/specific-configurations-in-v6-02.md) para obtener más información.
+* Si migra desde la versión 5.11, también debe completar la configuración detallada en [esta sección](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11).
+* Si migra desde la versión 6.02, también debe completar la configuración detallada en [esta sección](../../migration/using/configuring-your-platform.md#specific-configurations-in-v6-02).
 
 ## Zonas horarias {#time-zones}
 
@@ -662,12 +662,3 @@ sessionTokenOnly="false"
 ### Aplicaciones web anónimas {#anonymous-web-applications}
 
 Si tiene algún problema, vuelva a publicar la aplicación web.
-
-## Red-Hat {#red-hat}
-
-Si los esquemas predeterminados se han eliminado en las versiones 6.02 o 5.11, es posible que ya no pueda editar los esquemas después de la actualización. Si esto sucede, ejecute el comando:
-
-```
-su - neolane
-nlserver config -postupgrade -instance:<instance name> -force
-```

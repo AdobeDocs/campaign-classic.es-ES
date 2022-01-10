@@ -6,10 +6,10 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 100%
+source-wordcount: '839'
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ Para añadir una restricción, selecciónela en la lista desplegable. Hay dos ti
 
 Si este campo se utiliza en una lista, los valores de la enumeración pueden recuperarse automáticamente en la tabla de valores con el vínculo **[!UICONTROL Initialize the list of values from the database]** situado sobre la lista de valores.
 
-Por ejemplo, puede crear una lista desplegable para que el usuario seleccione su lengua materna. El campo archivado correspondiente se puede asociar a la enumeración **idioma** que contiene una lista de idiomas:
+Por ejemplo, puede crear una lista desplegable para que el usuario seleccione su idioma nativo. El campo archivado correspondiente se puede asociar a la enumeración **idioma** que contiene una lista de idiomas:
 
 ![](assets/s_ncs_admin_survey_database_values_2b.png)
 

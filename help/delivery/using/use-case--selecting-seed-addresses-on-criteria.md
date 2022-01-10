@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
 source-wordcount: '838'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ En este ejemplo de uso, al sitio **My online library** le gustaría personalizar
 
 Junto con el departamento de compras, el usuario a cargo de las entregas ha creado un boletín informativo para suscriptores que hayan comprado novelas policiales.
 
-Para compartir el resultado final de su colaboración con ellos, el administrador de envíos decide añadir a sus compañeros del departamento de compras a la entrega como direcciones semilla. El uso de una condición dinámica permite ahorrar tiempo al configurar y actualizar las direcciones.
+Para compartir el resultado final de su colaboración con ellos, el administrador de envíos decide añadir a sus compañeros del departamento de compras al envío como direcciones semilla. El uso de una condición dinámica permite ahorrar tiempo al configurar y actualizar las direcciones.
 
 Para utilizar la condición dinámica, se debe contar con:
 

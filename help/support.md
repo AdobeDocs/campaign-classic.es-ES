@@ -4,10 +4,10 @@ title: 'Opciones de ayuda y asistencia para el Campaign Classic '
 description: ¿Necesita asistencia para el Campaign Classic? ¡Está en el lugar correcto!
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 84%
+source-wordcount: '793'
+ht-degree: 82%
 
 ---
 
@@ -99,7 +99,7 @@ El Panel de control de Campaign de Campaign le ayuda a aumentar la eficacia de s
 >
 >Todos los usuarios administradores pueden acceder al Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 >
->Tenga en cuenta que la instancia debe alojarse en AWS y actualizarse con la última versión de [Gold Standard](rn/using/gs-overview.md) o la [última versión de GA (21.1.4)](rn/using/latest-release.md). Aprenda a comprobar su versión en [esta sección](platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es).
+>Tenga en cuenta que la instancia debe estar alojada en AWS y actualizarse con la [Compilación GA](rn/using/rn-overview.md). Aprenda a comprobar su versión en [esta sección](platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es).
 
 ### ¿Cómo acceder al Panel de control?
 

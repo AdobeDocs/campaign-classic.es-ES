@@ -5,10 +5,10 @@ description: Configuración de la integración
 audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 100%
+source-wordcount: '693'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 La versión de Adobe Campaign Classic no admite la canalización.
 
 1. Compruebe si el [!DNL pipelined] elemento está presente en el archivo de configuración. Si no, significa que no es compatible.
-1. Actualice a Campaign 20.3 o [!DNL Gold Standard] 11.
+1. Actualización a Campaign 20.3 / [!DNL Gold Standard] 11 o posterior.
 
 **La canalización produce el error &#39;&#39; aurait dû commencer par `[` ou `{` (iRc=16384)&quot;**
 

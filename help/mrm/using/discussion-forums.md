@@ -6,10 +6,10 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
 source-wordcount: '728'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -75,7 +75,7 @@ Puede enviar un mensaje al foro de un operador si, por ejemplo, el mensaje no es
 Para acceder al foro de un operador:
 
 * Si tiene los derechos necesarios para acceder al nodo del explorador **[!UICONTROL Administration > Access management > Operators]**, abra el panel del operador deseado y haga clic en el vínculo **[!UICONTROL Forum]** situado en la esquina superior derecha.
-* Si no es así, busque el nombre del operador en Adobe Campaign (en un mensaje publicado en el foro por este operador, correspondiente a una tarea asignada a él) y haga clic en él para acceder a su panel. También puede pedir al administrador que cree una vista de la carpeta del operador.
+* Si no es así, busque el nombre del operador en Adobe Campaign (a través de un mensaje publicado en el foro por este operador, una tarea asignada a ellos) y haga clic en él para acceder a su panel. También puede pedir al administrador que cree una vista de la carpeta del operador.
 
 ## Suscripción a un foro {#subscribing-to-a-forum}
 

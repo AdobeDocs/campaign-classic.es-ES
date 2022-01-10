@@ -6,24 +6,22 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '667'
 ht-degree: 2%
 
 ---
 
 # Usar una tabla de destinatarios personalizada{#about-custom-recipient-table}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
-Esta sección detalla los principios para utilizar una tabla de destinatarios no estándar.
+Esta sección detalla los principios para utilizar una tabla de destinatarios personalizada (o externa).
 
-De forma predeterminada, Adobe Campaign ofrece una tabla de destinatarios estándar a la que se vinculan funciones y procesos integrados. La tabla de destinatarios estándar tiene una serie de campos predefinidos y tablas que se pueden ampliar fácilmente con una tabla de extensiones.
+De forma predeterminada, Adobe Campaign ofrece una tabla de destinatarios integrada a la que se vinculan funciones y procesos integrados. La tabla de destinatarios integrada tiene una serie de campos predefinidos y tablas que se pueden ampliar fácilmente con una tabla de extensiones.
 
 Si este método de extensión ofrece una buena flexibilidad para ampliar una tabla, no permite reducir el número de campos o vínculos que contiene. El uso de una tabla no estándar, o &quot;tabla de destinatarios externa&quot;, permite una buena flexibilidad, pero requiere ciertas precauciones al implementarla.
-
-## Precisiones {#precisions}
 
 Esta funcionalidad permite a Adobe Campaign procesar datos desde una base de datos externa: estos datos se utilizan como un conjunto de perfiles para las entregas. La implementación de este proceso implica varias precisiones que pueden ser relevantes según las necesidades del cliente. Por ejemplo:
 
@@ -31,14 +29,14 @@ Esta funcionalidad permite a Adobe Campaign procesar datos desde una base de dat
 * No hay cambios en los procesos que funcionan en la base de datos existente.
 * Uso de una base de datos de perfiles con una estructura no estándar: posibilidad de enviar a perfiles guardados en varias tablas con varias estructuras, utilizando una sola instancia.
 * No se requiere ningún cambio ni mantenimiento al actualizar la base de datos de Adobe Campaign.
-* La tabla de destinatarios estándar no es útil si no necesita la mayoría de los campos de tabla o si la plantilla de base de datos no está centrada en los destinatarios.
-* Para ser eficaz, se necesita una tabla con pocos campos si tiene un número significativo de perfiles. La tabla de destinatarios estándar tiene demasiados campos para este caso específico.
+* La tabla de destinatarios integrada no es útil si no necesita la mayoría de los campos de tabla o si la plantilla de base de datos no está centrada en los destinatarios.
+* Para ser eficaz, se necesita una tabla con pocos campos si tiene un número significativo de perfiles. La tabla de destinatarios integrada tiene demasiados campos para este caso específico.
 
-En esta sección se describen los puntos clave que le permiten asignar tablas existentes en Adobe Campaign y la configuración que se debe aplicar para ejecutar entregas en función de cualquier tabla. Por último, se describe cómo proporcionar a los usuarios interfaces de consulta tan prácticas como las disponibles con la tabla de destinatarios estándar. Para entender el material presentado en esta sección, se requiere un buen conocimiento de los principios de diseño de pantalla y esquema.
+En esta sección se describen los puntos clave que le permiten asignar tablas existentes en Adobe Campaign y la configuración que se debe aplicar para ejecutar entregas en función de cualquier tabla. Por último, describe cómo proporcionar a los usuarios interfaces de consulta tan prácticas como las disponibles con la tabla de destinatarios integrada. Para entender el material presentado en esta sección, se requiere un buen conocimiento de los principios de diseño de pantalla y esquema.
 
 ## Recommendations y limitaciones {#recommendations-and-limitations}
 
-El uso de una tabla de destinatarios externa tiene las siguientes limitaciones:
+El uso de una tabla de destinatarios personalizada tiene las siguientes limitaciones:
 
 * Adobe Campaign no admite varios esquemas de destinatarios, conocidos como esquemas de segmentación, vinculados a los mismos esquemas de broadlog o trackinglog. De lo contrario, esto puede provocar anomalías en la reconciliación de datos posteriormente.
 
