@@ -9,7 +9,7 @@ exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 0a7cdd53640bb3d96ff9bc2de4aa4c1849e32c83
 workflow-type: tm+mt
 source-wordcount: '1707'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
   <td>Conector de datos de Adobe Analytics<br></td>
    <td><p>A partir de la versión 21.1.3 de Campaign, el conector de datos de Adobe Analytics queda obsoleto.</p>
    <p>Si utiliza este conector, debe adaptar la implementación en consecuencia. <a href="../../platform/using/adobe-analytics-connector.md">Más información</a></p>
-  <p><em>Fecha de eliminación del objetivo: 17 de agosto de 2022</em></p>
+  <p><em>Fecha de eliminación objetivo: 17 de agosto de 2022</em></p>
   </td>
  </tr>
     <tr>
@@ -62,7 +62,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
    <td><p>A partir de la versión 21.1 de Campaign, el informe de monitorización de la capacidad de envío técnico queda obsoleto.</p>
    <p>Si es necesario, puede recibir este informe a diario por correo electrónico hasta la fecha de eliminación de la función. Para solicitarlo, abra un <a href="https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">caso de asistencia</a> específico y concrete el nombre de la instancia y las direcciones de correo electrónico a las que se deba enviar el informe.</p> 
    <p>Adobe recomienda que se involucre con el equipo de entrega para definir las mejores herramientas para monitorizar el rendimiento del envío de instancias.</p>
-  <p><em>Fecha de eliminación del objetivo: Principios de 2022</em></p>
+  <p><em>Fecha de eliminación objetivo: principios de 2022</em></p>
   </td>
  </tr>
   <tr>
@@ -70,7 +70,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
   <td><p> A partir de la versión 20.3 de Campaign, la autenticación de integración de los activadores basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización se ha cambiado y se ha movido a Adobe I/O. <p>
   <p>Si utiliza la integración de los activadores, debe adaptar la implementación en consecuencia. <a href="../../integrations/using/configuring-adobe-io.md">Más información</a></p> 
   <p>Para obtener más información sobre la depreciación de la autenticación OAuth, consulte esta <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">página</a>.</p> 
-  <p><em>Fecha de eliminación del objetivo: 20 de octubre de 2021. Los entornos alojados se benefician de una extensión hasta el 23 de febrero de 2022. </em></p>
+  <p><em>Fecha de eliminación objetivo: 20 de octubre de 2021. Los entornos alojados se benefician de una extensión hasta el 23 de febrero de 2022. </em></p>
   </td>
   </tr>
  </tbody> 

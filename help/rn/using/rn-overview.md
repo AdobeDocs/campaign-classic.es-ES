@@ -9,7 +9,7 @@ exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 source-git-commit: 87067a0cca1a4a7f8ea1137ece6d513d58fcdb42
 workflow-type: tm+mt
 source-wordcount: '913'
-ht-degree: 81%
+ht-degree: 87%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 81%
 
 Cada nueva compilación viene con un estado que se materializa con un color.
 
-![](assets/do-not-localize/green3.png) **Disponibilidad general** (GA): validada en producción y recomendada por Adobe.
+![](assets/do-not-localize/green3.png) **Disponibilidad general** (GA): Validada en producción y recomendada por Adobe.
 
 ![](assets/do-not-localize/limited3.png) **Disponibilidad limitada** (LA): solo implementación a petición.
 
@@ -41,9 +41,9 @@ Como cliente alojado, se beneficia automáticamente de la actualización con la 
 
 ## Recomendaciones{#recommendations}
 
-Para garantizar una configuración estable, le recomendamos que instale **la misma compilación estable** en todos los servidores que se ejecutan en la misma configuración de cliente.
+Para garantizar una configuración estable, le recomendamos que instale **la misma versión estable** en todos los servidores que se ejecuten en la misma configuración de cliente.
 
-Además, la consola del cliente debe estar en la misma compilación que la instancia del servidor.
+Además, la consola de cliente debe contar con la misma versión que la instancia de servidor.
 
 Para mantener la implementación actualizada, asegúrese de leer las páginas [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md) y [Matriz de compatibilidades](../../rn/using/compatibility-matrix.md) con cada nueva versión.
 

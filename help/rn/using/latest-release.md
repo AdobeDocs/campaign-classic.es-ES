@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Última versión
-description: Últimas notas de la versión 7.0 de Campaign Classic
+description: Notas de la versión más reciente de Campaign Classic v7
 feature: Overview
 role: User
 level: Beginner
@@ -9,7 +9,7 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 630a62c5e5c9782c5c55fdebd651493a2d68fc54
 workflow-type: tm+mt
 source-wordcount: '1056'
-ht-degree: 16%
+ht-degree: 30%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 16%
 
 ![](../../assets/v7-only.svg)
 
-Esta página enumera las nuevas funcionalidades, mejoras y correcciones que se incluyen con la **última versión de Campaign Classic v7**. Cada nueva compilación viene con un estado que se materializa con un color. Obtenga más información sobre los estados de compilación de Campaign Classic v7 en [esta página](rn-overview.md).
+Esta página lista las nuevas funcionalidades, mejoras y correcciones que se proporcionan con la **última versión de Campaign Classic v7**. Cada nueva compilación viene con un estado que se materializa con un color. Obtenga más información sobre los estados de compilación de Campaign Classic v7 en [esta página](rn-overview.md).
 
 ## ![](assets/do-not-localize/green_2.png) Versión 7.2.1, compilación 9346 {#release-7-2-1}
 
@@ -39,7 +39,7 @@ Se han realizado varias mejoras de seguridad en las cuentas de FDA:
    Se han aplicado correcciones críticas con respecto a la API web del conector de Microsoft Dynamics:
 
    * Se ha corregido un problema durante una importación desencadenada por un flujo de trabajo que provocaba que los valores nulos de los campos de tipo cadena se guardaran como Null en lugar de valores vacíos.
-   * Se ha corregido un problema que provocaba el siguiente error en la importación o exportación de datos mediante llamadas a la API web: &quot;URI no válido: El esquema de URI es demasiado largo&quot;.
+   * Se ha corregido un problema que provocaba el siguiente error en la importación o exportación de datos mediante llamadas a la API web: “URI no válido: El esquema de URI es demasiado largo”.
    * Se han corregido varios problemas al importar, desde Microsoft Dynamics 365, datos que contenían campos de búsqueda.
 
 * Conector de FDA de Google BigQuery
@@ -49,7 +49,7 @@ Se han realizado varias mejoras de seguridad en las cuentas de FDA:
 
 **Otros cambios**
 
-* Tras su desaprobación, las actividades de acción Microsoft CRM, Salesforce, Oracle CRM On Demand se han eliminado de la interfaz. Para configurar la sincronización de datos entre Adobe Campaign y un sistema CRM, puede utilizar la actividad Conector de CRM . [Más información](../../workflow/using/crm-connector.md)
+* Tras su desaprobación, las actividades de acción Microsoft CRM, Salesforce, Oracle CRM On Demand se han eliminado de la interfaz. Para configurar la sincronización de datos entre Adobe Campaign y un sistema CRM, puede utilizar la actividad del conector de CRM. [Más información](../../workflow/using/crm-connector.md)
 * La variable **[!UICONTROL Encrypted identifier]** se ha añadido al esquema del visitante (nms:visitor). Este campo se calcula y se utiliza para aplicaciones web. Esto se aplica cuando el canal de línea está configurado en la instancia de mid-sourcing.
 * Ahora, las fuentes de datos CRM se pueden usar con la variable **Cambiar fuente de datos** actividad.
 * Se ha añadido una nueva opción en el **Gestión de errores** propiedades de las actividades de flujo de trabajo: La variable **Anular por error** detendrá automáticamente el flujo de trabajo. No podrá reiniciarlo posteriormente (NEO-29661). [Más información](../../workflow/using/advanced-parameters.md#in-case-of-errors)

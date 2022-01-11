@@ -6,7 +6,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 92%
 
 * **[¡El lanzamiento de enero está activo!](rn/using/latest-release.md)**<br/> Descubra nuevas funcionalidades, mejoras y correcciones en las notas de la versión
 
-* **[Preguntas frecuentes sobre la protección de la privacidad de correo de Apple](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=es)** y **[nota técnica](technotes/using/apple-mail-app-privacy-protection.md)**<br/> Encuentre sugerencias en respuesta al anuncio de Apple sobre iOS 15
+* **[Preguntas frecuentes sobre la protección de privacidad del correo de Apple](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=es)** y **[nota técnica](technotes/using/apple-mail-app-privacy-protection.md)**<br/> Encuentre instrucciones en respuesta al anuncio de Apple sobre iOS 15
 
 * **[¿Se conecta a través de IMS/ID de Adobe? Actualice a las últimas compilaciones](technotes/using/ims-updates.md)**<br/> Si utiliza IMS para conectarse a Campaign, debe actualizar para poder seguir conectándose después del** 30 de junio de 2021.**
 
