@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 0a7cdd53640bb3d96ff9bc2de4aa4c1849e32c83
+source-git-commit: 966da123b30278817ca465ac5dfe1f733c4d6c5c
 workflow-type: tm+mt
 source-wordcount: '1707'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -70,7 +70,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
   <td><p> A partir de la versión 20.3 de Campaign, la autenticación de integración de los activadores basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización se ha cambiado y se ha movido a Adobe I/O. <p>
   <p>Si utiliza la integración de los activadores, debe adaptar la implementación en consecuencia. <a href="../../integrations/using/configuring-adobe-io.md">Más información</a></p> 
   <p>Para obtener más información sobre la depreciación de la autenticación OAuth, consulte esta <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">página</a>.</p> 
-  <p><em>Fecha de eliminación objetivo: 20 de octubre de 2021. Los entornos alojados se benefician de una extensión hasta el 23 de febrero de 2022. </em></p>
+  <p><em>Fecha de eliminación objetivo: 20 de octubre de 2021. Los entornos alojados se benefician de una extensión hasta el 25 de mayo de 2022. </em></p>
   </td>
   </tr>
  </tbody> 
