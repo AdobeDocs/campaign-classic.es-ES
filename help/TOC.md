@@ -7,9 +7,9 @@ user-guide-description: Con Adobe Campaign, puede utilizar datos de clientes enr
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2556'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -818,7 +818,7 @@ ht-degree: 98%
       + [Recopilación de todas las visitas](configuration/using/collecting-all-visits.md)
       + [Seguimiento anónimo](configuration/using/anonymous-tracking.md)
 + Guía de migración {#migrating-to-a-new-version}
-   + [Migración a Adobe Campaign v7](migration/using/about-migration.md)
+   + [Introducción a Adobe Campaign v7](migration/using/about-migration.md)
    + Procedimiento de migración {#migration-procedure}
       + [Requisitos previos](migration/using/before-starting-migration.md)
       + [Acerca de las pruebas de migración](migration/using/testing-the-migration.md)
