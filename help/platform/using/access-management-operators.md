@@ -7,9 +7,9 @@ role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1149'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ El enlace **[!UICONTROL Edit the access parameters...]** permite acceder a las s
 
    >[!NOTE]
    >
-   >Incluso si su cuenta está deshabilitada, el operador puede recibir alertas o notificaciones de Campaign. Para detener el envío de notificaciones de Campaign a este operador, Adobe recomienda eliminar la dirección de correo electrónico de su perfil.
+   >Aunque su cuenta esté deshabilitada, el operador puede recibir alertas o notificaciones de Campaign. Para dejar de enviar notificaciones de Campaign a este operador, Adobe recomienda eliminar la dirección de correo electrónico de su perfil.
 
 * La opción **[!UICONTROL Forbid access from the rich client]** permite restringir el uso de Adobe Campaign al [acceso Web](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) o a través de API: el acceso a la consola del cliente de Adobe Campaign ya no está disponible.
 * Es posible vincular una zona de seguridad al operador. Para obtener más información, consulte [esta página](../../installation/using/security-zones.md).
