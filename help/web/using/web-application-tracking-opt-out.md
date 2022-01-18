@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: web-applications
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '670'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Las API de cliente disponibles para personalizar el banner son:
 
    bannerDomElt {DOMElement}: el elemento DOM raíz del banner de la cookie que debe eliminarse.
 
-* **NL.ClientWebTracking.hasUserPrefs()**: Devuelve el valor verdadero si el usuario ha elegido sus preferencias de seguimiento web.
+* **NL.ClientWebTracking.hasUserPrefs()**: devuelve el valor verdadero si el usuario ha elegido sus preferencias de seguimiento web.
 * **NL.ClientWebTracking.getUserPrefs()**: Devuelve el valor de cookie de exclusión que define las preferencias del usuario.
 
 Si tiene que escribir una JSSP, las API de servidor están disponibles:
