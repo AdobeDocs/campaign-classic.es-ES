@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
 source-git-commit: 71a5433db3ce2af5a25e5f861bd6f1dfb9aa8934
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2425'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -281,7 +281,7 @@ A continuación, invoque la API de privacidad:
 
    * Puede utilizar **queryDef** en el esquema **nms:gdprRequest** para comprobar el estado de la solicitud de acceso.
    * Puede utilizar **queryDef** en el esquema **nms:gdprRequestData** para obtener el resultado de la solicitud de acceso.
-   * Para poder descargar el archivo XML desde **&quot;$(serverUrl)&#39;/nms/gdpr.jssp?id=&#39;@id&quot;**, debe iniciar sesión y acceder a ella desde una IP incluida en la lista de permitidos. Para ello, cree una aplicación web que le permita acceder al archivo generado por JSSP.
+   * Para poder descargar el archivo XML desde **&quot;$(serverUrl)&#39;/nms/gdpr.jssp?id=&#39;@id&quot;**, debe iniciar sesión y acceder desde una IP incluida en la lista de permitidos. Para ello, cree una aplicación web que le permita acceder al archivo generado por JSSP.
 
 ### Invocación de la API desde un JS {#invoking-api-from-js}
 
