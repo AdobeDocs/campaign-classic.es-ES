@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 source-git-commit: babb585438a6e467afad74391035059f7b12a6ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2540'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 ## Versión 7.1 (21.1)
 
 >[!CAUTION]
->Utilice la variable **[!UICONTROL Help > About...]** para comprobar su Adobe Campaign [versión y número de compilación](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Sin embargo, tenga en cuenta que para todas las compilaciones entre 9277 y 9343 enumeradas en esta página, el número de versión muestra 7.0 en lugar de 7.1.
+>Utilice el menú **[!UICONTROL Help > About...]** para comprobar su versión de Adobe Campaign [ y número de compilación](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Sin embargo, tenga en cuenta que para todas las compilaciones entre 9277 y 9343 enumeradas en esta página, el número de versión muestra 7.0 en lugar de 7.1.
 
 ### ![](assets/do-not-localize/limited_2.png) Versión 21.1.4, compilación 9343 {#release-21-1-4-build-9343}
 
@@ -145,7 +145,7 @@ _5 de junio de 2021_
 <table> 
 <thead>
 <tr> 
-<th> <strong>Conector de FDA de Google BigQuery</strong><br /> </th> 
+<th> <strong>Conector de FDA de Google, BigQuery</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
