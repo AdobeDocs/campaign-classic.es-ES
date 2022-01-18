@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 630a62c5e5c9782c5c55fdebd651493a2d68fc54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1056'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
@@ -27,14 +27,14 @@ _10 de enero de 2022_
 
 Se han realizado varias mejoras de seguridad en las cuentas de FDA:
 
-* Los controladores ODBC ahora se instalan directamente con terceros de Adobe Campaign. Ya no es necesario realizar pasos manuales para instalar estos controladores.
+* Los controladores ODBC ahora se instalan directamente con terceros de Adobe Campaign. Ya no es necesario realizar pasos manuales para instalar los controladores.
 * Al configurar la cuenta externa de FDA, ahora puede iniciar sesión en la cuenta de Snowflake mediante la autenticación de par de claves para mejorar la seguridad de la autenticación. [Más información](../../installation/using/configure-fda-snowflake.md)
-* Al configurar la cuenta externa de FDA, ahora puede iniciar sesión en la cuenta de Azure synapse Analytics con la identidad administrada asignada al sistema. [Más información](../../installation/using/configure-fda-synapse.md#azure-external)
+* Al configurar la cuenta externa de FDA, ahora puede iniciar sesión en la cuenta de Azure Synapse Analytics con la identidad administrada asignada al sistema. [Más información](../../installation/using/configure-fda-synapse.md#azure-external)
 * Todas las referencias a la biblioteca log4j se han eliminado de Campaign para garantizar una seguridad óptima.
 
 **Mejoras**
 
-* Conector de Microsoft Dynamics CRM 365
+* Conector CRM 365 de Microsoft Dynamics
 
    Se han aplicado correcciones críticas con respecto a la API web del conector de Microsoft Dynamics:
 
@@ -44,45 +44,45 @@ Se han realizado varias mejoras de seguridad en las cuentas de FDA:
 
 * Conector de FDA de Google BigQuery
 
-   * El conector FDA BigQuery de Google ya está disponible para implementaciones alojadas. [Más información](../../installation/using/configure-fda-google-big-query.md)
-   * Se ha agregado compatibilidad para habilitar conexiones a un servidor proxy para el conector FDA Google BigQuery. Las opciones de proxy requeridas se pueden configurar mediante el campo Opciones de la configuración de cuenta externa. [Más información](../../installation/using/configure-fda-google-big-query.md#google-external)
+   * El conector FDA de Google, BigQuery, ya está disponible para implementaciones alojadas. [Más información](../../installation/using/configure-fda-google-big-query.md)
+   * Se ha agregado compatibilidad para habilitar conexiones a un servidor proxy para el conector FDA de Google, BigQuery. Las opciones de proxy requeridas se pueden configurar mediante el campo Opciones de la configuración de cuenta externa. [Más información](../../installation/using/configure-fda-google-big-query.md#google-external)
 
 **Otros cambios**
 
-* Tras su desaprobación, las actividades de acción Microsoft CRM, Salesforce, Oracle CRM On Demand se han eliminado de la interfaz. Para configurar la sincronización de datos entre Adobe Campaign y un sistema CRM, puede utilizar la actividad del conector de CRM. [Más información](../../workflow/using/crm-connector.md)
-* La variable **[!UICONTROL Encrypted identifier]** se ha añadido al esquema del visitante (nms:visitor). Este campo se calcula y se utiliza para aplicaciones web. Esto se aplica cuando el canal de línea está configurado en la instancia de mid-sourcing.
-* Ahora, las fuentes de datos CRM se pueden usar con la variable **Cambiar fuente de datos** actividad.
-* Se ha añadido una nueva opción en el **Gestión de errores** propiedades de las actividades de flujo de trabajo: La variable **Anular por error** detendrá automáticamente el flujo de trabajo. No podrá reiniciarlo posteriormente (NEO-29661). [Más información](../../workflow/using/advanced-parameters.md#in-case-of-errors)
-* Ahora se utiliza una secuencia dedicada para generar las claves principales de la tabla nmsGroup , que se utiliza para crear grupos estadísticos de destinatarios. Anteriormente, se utilizaba la secuencia xtknownId. (NEO-30832)
-* Se ha agregado compatibilidad con operaciones de actualización por lotes mediante la actividad Conector de CRM .
+* Tras su desuso, las actividades de acción Microsoft CRM, Salesforce, Oracle CRM bajo demanda se han eliminado de la interfaz. Para configurar la sincronización de datos entre Adobe Campaign y un sistema CRM, puede utilizar la actividad del conector de CRM. [Más información](../../workflow/using/crm-connector.md)
+* El campo **[!UICONTROL Encrypted identifier]** se ha añadido al esquema del visitante (nms:visitante). Este campo se calcula y se utiliza para aplicaciones web. Esto se aplica cuando el canal de línea está configurado en la instancia intermediaria.
+* Ahora, las fuentes de datos CRM se pueden usar con la actividad **Cambiar fuente de datos**.
+* Se ha añadido una nueva opción en las propiedades de la **Gestión de errores** de las actividades de flujo de trabajo: la opción **Anular por error** detendrá automáticamente el flujo de trabajo. No podrá reiniciarlo posteriormente (NEO-29661). [Más información](../../workflow/using/advanced-parameters.md#in-case-of-errors)
+* Ahora se utiliza una secuencia dedicada para generar las claves principales de la tabla nmsGroup, que se utiliza para crear grupos estadísticos de destinatarios. Anteriormente, se utilizaba la secuencia xtknewId. (NEO-30832)
+* Se ha agregado compatibilidad con operaciones de actualización por lotes mediante la actividad conector de CRM.
 * Rendimiento mejorado para el tiempo de procesamiento de la mensajería transaccional. (NEO-40370)
 
 **Parches**
 
-* Se ha corregido un problema al crear una entrega que provocaba un error en la variable **Imágenes** de la pestaña **Seguimiento e imágenes** ventana. Esto ocurría al usar una configuración de proxy automática. (NEO-33260)
+* Se ha corregido un problema al crear una entrega que provocaba un error en la pestaña **Imágenes** de la ventana **Seguimiento e imágenes**. Esto ocurría al usar una configuración de proxy automática. (NEO-33260)
 * Se ha corregido un problema que podía impedir que se cargara un archivo en un servidor Debian 10 (HTTPS) en modo sincrónico.
 * Se ha corregido un problema que podía impedir los registros de la tabla de estadísticas de envíos (`nmsDeliveryLogStats`) para que no se purgue de la instancia de intermediario durante la limpieza de la base de datos después de que se hayan eliminado los envíos relacionados. (NEO-31034)
 * Se ha corregido un problema que impedía enviar notificaciones de aplicaciones móviles en iOS al usar autenticación basada en token (NEO-38640).
-* Se ha corregido un problema que podía mostrar mensajes de error de secuencia de comandos al intentar crear y configurar informes (NEO-38393).
-* Se ha corregido un problema que podría provocar que el flujo de trabajo de seguimiento falle en el Oracle debido a que los altos volúmenes de indicadores de envío se actualizan simultáneamente (NEO-39653).
-* Se ha corregido un problema que podía impedir que se enviara un envío debido a un error que se producía al ejecutar una tipología de control (NEO-39833).
-* Se ha corregido un problema en las páginas de aterrizaje que podía impedir que los caracteres especiales se mostraran correctamente en las páginas HTML de las respuestas de encuestas en línea (NEO-39438).
-* Se ha corregido un problema que podía impedir que la consola del Campaign Classic funcionara al hacer clic con el botón derecho en cualquiera de las carpetas desde la pestaña Explorer (NEO-38884).
-* Se ha corregido un error al usar una plantilla de envío creada anteriormente y vinculada a una cuenta de Web Analytics en un nuevo envío en el que faltaba la configuración de Web Analytics. (NEO-28666)
+* Se ha corregido un problema que podía mostrar mensajes de error de scripts al intentar crear y configurar informes (NEO-38393).
+* Se ha corregido un problema que podría provocar que el flujo de trabajo de seguimiento falle en Oracle debido a que los altos volúmenes de indicadores de entrega se actualizan simultáneamente (NEO-39653).
+* Se ha corregido un problema que podía impedir que se enviara una entrega debido a un error que se producía al ejecutar una tipología de control (NEO-39833).
+* Se ha corregido un problema en las páginas de destino que podía impedir que los caracteres especiales se mostraran correctamente en las páginas HTML de las respuestas de encuestas en línea (NEO-39438).
+* Se ha corregido un problema que podía impedir que la consola de Campaign Classic funcionara al hacer clic con el botón derecho en cualquiera de las carpetas desde la pestaña Explorer (NEO-38884).
+* Se ha corregido un error al usar una plantilla de envíos creada anteriormente y vinculada a una cuenta de Web Analytics en una nueva entrega en la que faltaba la configuración de Web Analytics. (NEO-28666)
 * Se ha corregido un problema que podía impedir que previsualizara los envíos móviles adjuntos a un flujo de trabajo.
 * Se ha corregido un error que impedía que se redirigieran las direcciones URL de seguimiento personalizadas cuando el mecanismo de firma de URL para el seguimiento de vínculos estaba habilitado.
 * Se ha corregido un problema que podría provocar errores después de la actualización debido a un problema con la administración de índices.
 * Se ha corregido un error que se producía al usar tipos de datos de campo de búsqueda con Microsoft Dynamics CRM en **Importar** o **Exportar** actividades de flujo de trabajo.
-* Se ha corregido un problema que podía impedir que iniciara sesión en la consola debido a un problema de configuración de proxy. (NEO-38388)
+* Se ha corregido un problema que podía impedir que los usuarios iniciaran sesión en la consola debido a un problema de configuración de proxy. (NEO-38388)
 * Se ha corregido un problema de regresión que impedía que la funcionalidad **Purgar carpeta** funcionara correctamente. (NEO-37459)
 * Se ha corregido un problema que provocaba un error de solicitud incorrecto al usar campos de datos xml con la cuenta de Microsoft Dynamics CRM si el xml al que se hace referencia contenía comillas dobles.
-* Se ha corregido un problema que provocaba que los problemas de tiempo de espera de red se registraran incorrectamente como problemas de interrupción de secuencia de comandos en lugar de errores de red. Este problema ocurría en el caso de solicitudes HTTP incluidas en actividades JavaScript. (NEO-38079)
+* Se ha corregido un problema que provocaba que los problemas de tiempo de espera de red se registraran incorrectamente como problemas de interrupción de scripts en lugar de errores de red. Este problema ocurría en el caso de solicitudes HTTP incluidas en actividades JavaScript. (NEO-38079)
 * Se ha corregido un problema que devolvía resultados incorrectos al ejecutar las funciones Amazon Redshift HoursDiff y MinutesDiff al intentar extraer el componente de tiempo.(NEO-31673)
-* Se ha corregido un problema que impedía que la variable **Clics activos** informe de carga para entregas desde la compilación 9182. (NEO-28900)
-* Se ha corregido un error que reemplazaba el símbolo &amp; en una dirección URL con la referencia de entidad de carácter (`&amp;`) que impiden a los usuarios acceder a la URL vinculada a un código QR. (NEO-28621)
+* Se ha corregido un problema que impedía que el informe de **Clics activos** cargara para entregas desde la versión 9182. (NEO-28900)
+* Se ha corregido un error que reemplazaba el símbolo &amp; en una dirección URL con la referencia de entidad de carácter (`&amp;`) que impedía a los usuarios acceder a la URL vinculada a un código QR. (NEO-28621)
 * Se ha corregido un problema que creaba una nueva cuenta externa cada vez que un usuario creaba un nuevo flujo de trabajo de campaña y una actividad de entrega vinculada a una cuenta de Web Analytics. Esto se debía a la falta de un ID en el objeto de entrega webAnalyticsAccount. (NEO-39691)
 * Se ha corregido un problema que podía impedir que la actividad de flujo de trabajo **Leer lista** funcionara cuando la lista se identificaba en la base de datos con un ID negativo. (NEO-39607)
-* Se ha corregido un problema con que podría provocar que la variable **Mid-sourcing (delivery logs)** para que el flujo de trabajo falle. (NEO-39662)
+* Se ha corregido un problema que podría provocar que el flujo de trabajo **Intermediario (registros de envío)** falle. (NEO-39662)
 * Se ha corregido un problema que podía impedir que previsualizara los envíos de correo electrónico adjuntos a un flujo de trabajo. (NEO-37840)
 * Se ha corregido un problema que podía hacer que el flujo de trabajo de limpieza de la base de datos eliminara tablas válidas que contenían valores de lista. (NEO-34911)
 * Se ha corregido un problema que podía provocar que el flujo de trabajo de facturación se bloqueara en las instancias de marketing.
