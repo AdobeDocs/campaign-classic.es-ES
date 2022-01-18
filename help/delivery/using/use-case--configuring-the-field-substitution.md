@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Esta sustitución le permite ahorrar tiempo al crear la entrega: en lugar de añ
 
 ## Contexto {#context}
 
-En este ejemplo de uso, **My online library** quiere enviar un descuento a sus clientes en función de su género literario favorito.
+En este ejemplo de uso, **Mi biblioteca en línea** quiere enviar un descuento a sus clientes en función de su género literario favorito.
 
-El administrador de envíos ha integrado un campo personalizado vinculado con el género favorito en su correo electrónico. El objetivo es utilizar algunas direcciones semilla: estas tienen el campo de personalización en su tabla, pero no se guarda ningún valor en él.
+El administrador de la entrega ha integrado un campo personalizado vinculado con el género favorito en su correo electrónico. El objetivo es utilizar algunas direcciones semilla: estas tienen el campo de personalización en su tabla, pero no se guarda ningún valor en él.
 
 Para utilizar la sustitución de campos aleatoria debe tener:
 
