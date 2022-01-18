@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2614'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,13 +37,13 @@ Además, la cuarentena reduce el coste de entrega de los SMS mediante la exclusi
 
 La **cuarentena** solo se aplica a una dirección, no al propio perfil. Esto significa que, si dos perfiles tienen la misma dirección de correo electrónico, ambos se ven afectados si la dirección está en cuarentena.
 
-Del mismo modo, un perfil cuya dirección de correo electrónico se haya puesto en cuarentena puede actualizar su perfil e introducir una nueva dirección, y luego puede volver a recibir acciones de envío.
+Del mismo modo, un perfil cuya dirección de correo electrónico se haya puesto en cuarentena puede actualizar su perfil e introducir una nueva dirección, y luego puede volver a recibir entregas.
 
-Al estar en la **lista de bloqueados**, no obstante, el perfil ya no se tendrá en cuenta para los envíos, por ejemplo, tras una cancelación de la suscripción (exclusión).
+Al incluir en la **lista de bloqueados**, no obstante, el perfil ya no se tendrá en cuenta para los envíos, por ejemplo, tras una baja (exclusión).
 
 >[!NOTE]
 >
->Cuando un usuario responde a un mensaje SMS con una palabra clave como &quot;STOP&quot; para impedir la exclusión de envíos SMS, su perfil no se añade a la  de lista de bloqueados como en el proceso de exclusión de correo electrónico. El número de teléfono del perfil se envía a cuarentena, de modo que el usuario pueda seguir recibiendo mensajes de correo electrónico.
+>Cuando un usuario responde a un mensaje SMS con una palabra clave como &quot;DETENER&quot; para impedir la exclusión de entregas SMS, su perfil no se añade a la lista de bloqueados en el proceso de exclusión de correo electrónico. El número de teléfono del perfil se envía a cuarentena, de modo que el usuario pueda seguir recibiendo mensajes de correo electrónico.
 
 ## Identificación de direcciones en cuarentena {#identifying-quarantined-addresses}
 
@@ -412,7 +412,7 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
     <tr> 
    <td> Autenticación: el cliente no tiene autorización para recuperar los token de acceso mediante este método o no está autorizado para ninguno de los ámbitos solicitados.<br /> </td> 
    <td> Fallo<br /> </td> 
-   <td> authorized_client </td> 
+   <td> unauthorized_client </td> 
    <td> Ignorado</td>
    <td> Rechazado<br /> </td> 
    <td> No<br /> </td> 
@@ -452,7 +452,7 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
     <tr> 
    <td> Autenticación: audiencia de ámbito de OAuth o token de ID no válida proporcionada<br /> </td> 
    <td> Fallo<br /> </td> 
-   <td> authorized_client</td> 
+   <td> unauthorized_client</td> 
    <td> Ignorado</td> 
    <td> Rechazado<br /> </td> 
    <td> No<br /> </td> 
