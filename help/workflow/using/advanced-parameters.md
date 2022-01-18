@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: advanced-management
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
 source-git-commit: 7a1b8a1cd3ad434dac5c324056113d7ec15ddd8a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
