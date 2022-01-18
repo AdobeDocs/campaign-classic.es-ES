@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
 source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '909'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -39,13 +39,13 @@ La plataforma de Adobe Campaign es accesible a través de una consola o a travé
 
 La interfaz de acceso web es similar a la interfaz de la consola. Desde un explorador, puede utilizar las mismas funciones de navegación y visualización que en la consola, pero solo puede realizar un conjunto reducido de acciones en las campañas. Por ejemplo, puede ver y cancelar campañas, pero no puede modificarlas. Para un operador determinado, una campaña se mostrará con las siguientes opciones en la consola:
 
-![Desde el panel de una campaña, el operador puede ver y cancelar una campaña, pero también modificarla y agregarle envíos, documentos y tareas.](assets/operation_from_console.png)
+![Desde el tablero de una campaña, el operador puede ver y cancelar una campaña, pero también modificarla y agregarle envíos, documentos y tareas.](assets/operation_from_console.png)
 
-Mientras que con el acceso web, las opciones permiten principalmente la visualización:
+Mientras que con el acceso web, las opciones permiten principalmente la visualización de:
 
 ![Desde un explorador, el mismo operador solo puede ver y cancelar la campaña.](assets/operation_from_web.png)
 
-Más información sobre [uso de la interfaz web](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
+Más información sobre el [uso de la interfaz web](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
 
 ### Idiomas {#languages}
 
