@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '720'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -190,7 +190,7 @@ A continuación se enumeran los sistemas de gestión de relaciones con el client
 
 A continuación se enumeran las bases de datos externas compatibles con el [módulo de acceso de datos federado](../../installation/using/about-fda.md) de Adobe Campaign. La compatibilidad depende de su [modelo hosting](../../installation/using/hosting-models.md).
 
-**Managed Services** (alojado), **Híbrido** y **On-Premise** los entornos pueden conectar Campaign con los siguientes sistemas de bases de datos externas:
+Los entornos **Managed Services** (alojados), **Híbrido** y **On-Premise** pueden conectar Campaign con los siguientes sistemas de bases de datos externas:
 
 <table>
 <tbody>
@@ -225,12 +225,12 @@ A continuación se enumeran las bases de datos externas compatibles con el [mód
 <p>9.5.x</p>
 <p>9.4.x</p>
 </td>
-<td>v7.0 19.1.4 mínimo</td>
+<td>V7.0 19.1.4 mínimo</td>
 </tr>
 </tbody>
 </table>
 
-Además, **Híbrido** y **On-Premise** los entornos también pueden conectar Campaign con:
+Además, los entornos **Híbrido** y **On-Premise** también pueden conectar Campaign con:
 
 <table>
 <tbody>
@@ -240,12 +240,12 @@ Además, **Híbrido** y **On-Premise** los entornos también pueden conectar Cam
 <tr>
 <td>Vertica</td>
 <td> </td>
-<td>v7.0 19.1.4 mínimo</td>
+<td>V7.0 19.1.4 mínimo</td>
 </tr>
 <tr>
 <td>Microsoft Azure Synapse Analytics</td>
 <td> </td>
-<td>v7.0 19.1.4 mínimo</td>
+<td>V7.0 19.1.4 mínimo</td>
 </tr>
 <tr>
 <td>Oracle</td>
@@ -255,7 +255,7 @@ Además, **Híbrido** y **On-Premise** los entornos también pueden conectar Cam
 <p>12c</p>
 <p>11g </p>
 </td>
-<td>v7.0 como mínimo</td>
+<td>V7.0 mínimo</td>
 </tr>
 <tr><td>SQL Server</td>
 <td>
@@ -265,13 +265,13 @@ Además, **Híbrido** y **On-Premise** los entornos también pueden conectar Cam
 <p>2014</p>
 <p>2012 SP1 y SP2</p>
 </td>
-<td>v7.0 como mínimo</td>
+<td>V7.0 mínimo</td>
 </tr>
 <tr><td>MySQL</td>
 <td>
 <p>5,7</p>
 </td>
-<td>v7.0 como mínimo</td>
+<td>V7.0 mínimo</td>
 </tr>
 <tr>
 <td>Teradata</td>
@@ -281,14 +281,14 @@ Además, **Híbrido** y **On-Premise** los entornos también pueden conectar Cam
 <p>15,10</p>
 <p>15,0</p>
 </td>
-<td>v7.0 como mínimo</td>
+<td>V7.0 mínimo</td>
 </tr>
 <tr>
 <td>Netezza</td>
 <td>
 <p>7,2</p>
 </td>
-<td>v7.0 como mínimo</td>
+<td>V7.0 mínimo</td>
 </tr>
 <tr>
 <td>Sybase</td>
@@ -296,14 +296,14 @@ Además, **Híbrido** y **On-Premise** los entornos también pueden conectar Cam
 <p>IQ 16</p>
 <p>ASE 15.7</p>
 </td>
-<td>v7.0 como mínimo</td>
+<td>V7.0 mínimo</td>
 </tr>
 <tr>
 <td>SAP HANA</td>
 <td>
 <p>versión 1 SPS 12</p>
 </td>
-<td>v7.0 como mínimo</td>
+<td>V7.0 mínimo</td>
 </tr>
 <tr><td>Hadoop a través de HiveSQL</td>
 <td>
@@ -311,7 +311,7 @@ Además, **Híbrido** y **On-Premise** los entornos también pueden conectar Cam
 <p>HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)</p>
 <p>Cloudera CDH6.x</p>
 </td>
-<td>v7.0 como mínimo</td>
+<td>V7.0 mínimo</td>
 </tr>
 </tbody>
 </table>
