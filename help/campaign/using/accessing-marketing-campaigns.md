@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: about-marketing-campaigns
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
 source-git-commit: 89c007775d4df7c6d50951283efe764c3c424d91
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1271'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -167,7 +167,7 @@ Además de desplazarse por las campañas y verlas, puede realizar estos tipos de
 * Monitorización de la actividad en una instancia
 * Participar en los procesos de validación, por ejemplo, aprobar o rechazar un contenido de entrega
 * Realizar otras acciones rápidas como, por ejemplo, pausar un flujo de trabajo
-* Acceder a todas las funciones de informes
+* Acceder a todas las funciones de creación de informes
 * Participar en debates en foros
 
 Esta tabla resume las acciones que se pueden realizar en las campañas desde un explorador:
@@ -177,15 +177,15 @@ Esta tabla resume las acciones que se pueden realizar en las campañas desde un 
 | Lista de campañas, envíos, ofertas, etc. | Eliminar un elemento de lista |
 | Campaña | Cancelar una campaña |
 | Entrega | Aprobar el contenido de entrega y el destino<br/>Enviar el contenido de la entrega<br/>Confirmar una entrega<br/>Pausar y detener un envío |
-| aplicación web | Crear una aplicación web<br/>Editar el contenido y las propiedades de la aplicación<br/>Guarde el contenido de la aplicación como una plantilla<br/>Publicar la aplicación |
+| Aplicación web | Crear una aplicación web<br/>Editar el contenido y las propiedades de la aplicación<br/>Guardar el contenido de la aplicación como una plantilla<br/>Publicar la aplicación |
 | Oferta | Aprobar el contenido de la oferta y los requisitos<br/>Desactivación de una oferta en línea |
 | Tarea | Finalizar una tarea<br/>Cancelar una tarea |
 | Recursos de marketing | Aprobar un recurso<br/>Bloqueo y desbloqueo de un recurso |
 | Paquete de campañas | Enviar un paquete para su aprobación<br/>Aprobar o rechazar un paquete<br/>Cancelar un paquete |
-| Orden de la campaña | Crear una solicitud<br/>Aceptar o rechazar una solicitud <!-- Je n'ai pas pu créer de campaign order pour vérifier cela. Peut-on accéder à ces fonctionnalités depuis l'accès web ? --> |
+| Pedido de la campaña | Crear un pedido<br/>Aceptar o rechazar un pedido <!-- Je n'ai pas pu créer de campaign order pour vérifier cela. Peut-on accéder à ces fonctionnalités depuis l'accès web ? --> |
 | Stock | Eliminar una línea de stock |
 | Simulación de oferta | Inicio y parada de una simulación |
-| Flujo de trabajo de objetivos | Iniciar, pausar y detener un flujo de trabajo |
+| Flujo de trabajo de direccionamiento | Iniciar, pausar y detener un flujo de trabajo |
 | Informe | Guardar los datos actuales en el historial de informes |
 | Foro | Agregar una conversación<br/>Responder a un mensaje en una conversación<br/>Siga la conversación y cancele la suscripción |
 
