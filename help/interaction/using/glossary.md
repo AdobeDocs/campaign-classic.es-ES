@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: interaction-overview
 exl-id: 9e199b7c-9307-4797-bf86-7940388555bc
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1094'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ A continuación, se presenta la definición de los principales elementos de inte
 * **Unitary mode**: se procesa un solo contacto cada vez. Este modo se utiliza generalmente para interacciones entrantes y mensajes transaccionales.
 * **Identification mode**: hace referencia al estado de un contacto.
 
-   * **[!UICONTROL explicit]** : el contacto se identifica siguiendo su inicio de sesión en la interfaz del canal.
+   * **[!UICONTROL explicit]**: el contacto se identifica después de su inicio de sesión en la interfaz del canal.
    * **[!UICONTROL implicit]** : el contacto se ha identificado mediante una cookie (permanente o por sesión). Puede procesarse como contacto anónimo o identificado.
    * **[!UICONTROL anonymous]** : el contacto no se puede identificar.
 
