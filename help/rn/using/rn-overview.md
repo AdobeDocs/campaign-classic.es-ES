@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 source-git-commit: 87067a0cca1a4a7f8ea1137ece6d513d58fcdb42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '913'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -35,9 +35,9 @@ Cada nueva compilación viene con un estado que se materializa con un color.
 
 Adobe Campaign se actualiza periódicamente. Esta frecuencia regular de actualizaciones tiene como objetivo ofrecerle lo más novedoso y lo mejor, mantener el entorno seguro y mejorar su experiencia con nuestro producto.
 
-Esta es la razón por la que creemos que es crítico que usted **ejecutar la versión estable más reciente** de Adobe Campaign. También le asegurará una mejor experiencia de asistencia, ya que la identificación, reproducción y corrección de un problema en una compilación reciente suele ser mucho más rápida. Además, muchos problemas que puede encontrar ya se han corregido en las compilaciones más recientes.
+Esta es la razón por la que creemos que es esencial que **ejecute la versión más reciente** de Adobe Campaign. También le asegurará una mejor experiencia de asistencia, ya que la identificación, reproducción y corrección de un problema en una compilación reciente suele ser mucho más rápida. Además, muchos problemas que puede encontrar ya se han corregido en las compilaciones más recientes.
 
-Como cliente alojado, se beneficia automáticamente de la actualización con la última versión estable sin ninguna acción. Obtenga más información en la [Sección Actualización anual](#yearly-upgrade). Si migra desde una versión anterior, Adobe recomienda que primero actualice a esta versión.
+Como usuario alojado, se beneficia automáticamente de la actualización con la última versión estable sin tener que realizar ninguna acción. Conozca más en la [parte actualización anual](#yearly-upgrade). Si migra desde una versión antigua, Adobe le recomienda que la actualice primero a esta versión.
 
 ## Recomendaciones{#recommendations}
 
@@ -59,13 +59,13 @@ Adobe y Adobe Campaign se han comprometido a proporcionarle la mejor experiencia
 
 Adobe Campaign Classic, en concreto, utiliza una amplia gama de tecnologías para ofrecer valor. Esta combinación de tecnologías requiere que actualice las instancias de Campaign Classic de forma regular para garantizar que las versiones más actualizadas se utilicen para ofrecer seguridad, estabilidad y rendimiento superiores.
 
-Como usuario alojado, se beneficiará automáticamente de la actualización con la última versión estable sin ninguna acción. Obtenga más información en las preguntas frecuentes a continuación.
+Como usuario alojado, se beneficiará automáticamente de la actualización con la última versión sin tener que realizar ninguna acción. Obtenga más información en las preguntas frecuentes a continuación.
 
 ### ¿Por qué necesita mi organización esta actualización?
 
 Como cliente alojado, si se ha detectado que su cuenta debe actualizar una o más de las tecnologías relacionadas con Campaign Classic, así como actualizar la versión y/o la compilación actual, Adobe le notificará directamente.
 
-Como cliente local o híbrido que ejecuta una versión anterior, Adobe le anima a pasar a la última versión estable.
+Como cliente on-premise o híbrido que se ejecuta en una versión anterior, Adobe le recomienda pasar a la versión más reciente.
 
 Esto garantiza que su cuenta está segura frente a vulnerabilidades y que puede aprovechar la tecnología de rendimiento actualizada. Esta actualización también posicionará su cuenta para recibir actualizaciones más sencillas y regulares que requerirán menos trabajo manual y menos intervención.
 
