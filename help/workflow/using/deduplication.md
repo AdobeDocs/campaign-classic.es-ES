@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: targeting-activities
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
 source-git-commit: def4f7fb46c838e9fe620820cf387dd3e2b8a55b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1089'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ La actividad **[!UICONTROL Deduplication]** puede mantener una fila entera como 
 -----|----------|------------|-------|--------------|------
 | 03/02/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
 
-El registro principal seleccionado llevará adelante los datos sin combinar los datos de campo con otros datos relevantes en las filas duplicadas.
+El registro principal seleccionado reenviará los datos sin combinar los datos de campo con otros datos relevantes en las filas duplicadas.
 
 Complemento:
 
