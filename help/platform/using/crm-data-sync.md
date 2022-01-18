@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
 source-git-commit: 648b6c0982e15716b11bdbc5954ce88491582e7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1536'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -174,7 +174,7 @@ Para una exportación, aplique la configuración siguiente en la actividad **[!U
 
    ![](assets/crm_export_config_2.png)
 
-1. En el **[!UICONTROL Mapping]** , haga clic en **[!UICONTROL New]** para especificar los campos que se exportan y su asignación en CRM.
+1. En la sección **[!UICONTROL Mapping]**, haga clic en **[!UICONTROL New]** para especificar los campos que se exportan y su asignación en CRM.
 
    ![](assets/crm_export_config.png)
 
