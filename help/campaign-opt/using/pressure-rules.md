@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: campaign-optimization
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 source-git-commit: 52aa7b268d5eb83354c3a4d8687ced95300538e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3285'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -63,9 +63,9 @@ Para crear y configurar una regla de tipología de **[!UICONTROL Pressure]**, si
 
    >[!NOTE]
    >
-   >Las entregas programadas solo se tienen en cuenta si la opción **[!UICONTROL Take the deliveries into account in the provisional calendar]** está seleccionada. Para obtener más información, consulte [Configuración del periodo](#setting-the-period).
+   >Las entregas programadas solo se tienen en cuenta si la opción **[!UICONTROL Take the deliveries into account in the provisional calendar]** está seleccionada. Para obtener más información, consulte [Configuración del período](#setting-the-period).
    >
-   >Esta opción no está disponible en Campaign v8.
+   >Esta opción no está disponible para Campaign v8.
 
 1. Defina el método para calcular el número más alto de mensajes.
 
@@ -151,7 +151,7 @@ El tipo de agrupación permite ampliar el campo **[!UICONTROL Period considered]
 
 Por ejemplo, una regla de presión que define un umbral de 2 mensajes por semana, con una agrupación para cada mes de calendario, impide que se envíen más de 2 mensajes en de la misma semana Y dentro de un mismo mes del calendario. Advertencia: si el periodo se superpone en dos meses, el umbral de cálculo tiene en cuenta las entregas de estos dos meses del calendario y, por tanto, evita realizar nuevos envíos durante el segundo mes.
 
-Tenga en cuenta que, de forma predeterminada, solo se tienen en cuenta las entregas que ya se han enviado al calcular el umbral. En Campaign Classic v7, marque la **[!UICONTROL Take the deliveries into account in the provisional calendar]** si también desea tener en cuenta las entregas programadas durante el periodo en cuestión. En este caso, el periodo se duplica para permitir la integración de entregas futuras y pasadas.
+De forma predeterminada, solo se tienen en cuenta los envíos que ya se han entregado al calcular el umbral. En Campaign Classic v7, marque la opción **[!UICONTROL Take the deliveries into account in the provisional calendar]** si también desea tener en cuenta las entregas programadas durante el período en cuestión. En este caso, el periodo se duplica para permitir la integración de entregas futuras y pasadas.
 
 Para restringir las entregas que se tienen en cuenta a un periodo de dos semanas, puede:
 
@@ -159,10 +159,10 @@ Para restringir las entregas que se tienen en cuenta a un periodo de dos semanas
 
 o
 
-1. Escriba **7d** en el campo **[!UICONTROL Period considered]** Y marque **[!UICONTROL Take the deliveries into account in the provisional calendar]** : En el cálculo se tienen en cuenta las entregas realizadas hasta 7 días antes de la fecha de entrega y programados hasta 7 días después de la fecha de entrega en los que se aplica la regla.
+1. Escriba **7d** en el campo **[!UICONTROL Period considered]** Y marque **[!UICONTROL Take the deliveries into account in the provisional calendar]** en el cálculo se tienen en cuenta las entregas realizadas hasta siete días antes de la fecha de entrega y programadas hasta siete días después de la fecha de entrega en los que se aplica la regla.
 
    >[!AVAILABILITY]
-   >Este método no está disponible en Campaign v8.
+   >Este método no está disponible para Campaign v8.
 
 La fecha de inicio depende de cómo se haya configurado la base de datos.
 
