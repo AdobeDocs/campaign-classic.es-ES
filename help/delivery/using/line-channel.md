@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 035297523c25061f28751c28df86d562f40f45ea
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 100%
+source-wordcount: '1157'
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ Los pasos para utilizar el canal [!DNL LINE] son los siguientes:
 
 ## Configuración del canal LINE {#setting-up-line-channel}
 
-Antes de crear una cuenta de [!DNL LINE] y una cuenta externa, primero debe instalar el paquete de LINE en su instancia. Para obtener más información, consulte la sección [LINE](../../installation/using/installing-campaign-standard-packages.md#line-package) en la guía de instalación.
+Antes de crear una cuenta de [!DNL LINE] y una cuenta externa, primero debe instalar el paquete de LINE en su instancia. Para obtener más información, consulte [esta sección](../../installation/using/installing-campaign-standard-packages.md#line-package).
 
 Primero debe crear una cuenta de [!DNL LINE] para poder vincularla a Adobe Campaign. A continuación, puede enviar mensajes a través de [!DNL LINE] a los usuarios que hayan añadido su cuenta de [!DNL LINE] en su aplicación móvil. Solamente el administrador funcional de la plataforma puede administrar las cuentas externas y la cuenta de [!DNL LINE].
 
