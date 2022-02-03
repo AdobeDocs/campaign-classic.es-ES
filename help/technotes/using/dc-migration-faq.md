@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
-source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
+source-git-commit: 60fc0fd2a10f05abb77843ef0cb69e44f35a9648
 workflow-type: tm+mt
-source-wordcount: '2243'
-ht-degree: 62%
+source-wordcount: '2216'
+ht-degree: 63%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 62%
 
 ![](../../assets/v7-only.svg)
 
-Como parte del [Iniciativa Gold Standard](../../rn/using/gold-standard.md), el Adobe de elimina el centro de datos heredado. Las instancias de Campaign Classic deben transferirse a la nube pública de Amazon Web Service (AWS). [Obtenga más información sobre esta iniciativa](dc-migration.md).
+El Adobe de elimina el centro de datos heredado: Las instancias de Campaign Classic deben transferirse a la nube pública de Amazon Web Service (AWS). [Obtenga más información sobre esta iniciativa](dc-migration.md).
 
 A continuación se muestra un conjunto de preguntas comunes sobre este proyecto, el impacto en los entornos de Campaign y otros recursos útiles.
 
@@ -47,7 +47,7 @@ A continuación se enumeran los efectos globales en la base de datos e infraestr
 
    Como primer paso, vamos a mantener la misma compilación de Campaign Classic con la migración.
 
-   En un paso adicional, procederemos a actualizar a la última versión de Campaign Classic GA. Para obtener más información, consulte [Preguntas frecuentes sobre la actualización de versiones](../../platform/using/faq-build-upgrade.md) y [Notas de la versión de Campaign Gold Standard](../../rn/using/gold-standard.md).
+   En un paso adicional, procederemos a actualizar a la última versión de Campaign Classic GA. Para obtener más información, consulte [esta página](../../rn/using/rn-overview.md).
 
 * **¿Cuál es el plan para abordar cualquier problema posterior a la migración?**
 
@@ -63,7 +63,7 @@ A continuación, se detalla el impacto global en las direcciones IP, la lista de
 
    La dirección IP de los servidores de Adobe cambiará. Por lo tanto, es posible que los clientes tengan que agregar esas nuevas direcciones IP en la lista de permitidos de su sistema.
 
-   [Haga clic aquí](#config) para obtener más información sobre la IP en la lista de permitidos.
+   [Más información](#config) acerca de la IP en la lista de permitidos.
 
 * **¿Cómo gestionaremos el puerto agregado a la lista de permitidos para el acceso SFTP/FTP?**
 
@@ -73,7 +73,7 @@ A continuación, se detalla el impacto global en las direcciones IP, la lista de
 
    La dirección IP de los servidores de Adobe cambiará. Por lo tanto, es posible que los clientes tengan que agregar esas nuevas direcciones IP a la lista de permitidos de su sistema.
 
-   [Haga clic aquí](#config) para obtener más información sobre la IP en la lista de permitidos.
+   [Más información](#config) acerca de la IP en la lista de permitidos.
 
 * **¿Cómo se gestionará la delegación de subdominios?**
 
@@ -155,7 +155,7 @@ A continuación se enumeran los efectos globales en la configuración, conectivi
 
    La dirección IP de los servidores de Adobe cambiará. Por lo tanto, es posible que los clientes tengan que agregar esas nuevas direcciones IP a la lista de permitidos de su sistema.
 
-   [Haga clic aquí](#config) para obtener más información sobre la IP en la lista de permitidos.
+   [Más información](#config) acerca de la IP en la lista de permitidos.
 
 * **¿Nos aseguraremos de que todos los parámetros de configuración de la memoria JavaScript se establezcan correctamente después de la migración?**
 
@@ -169,7 +169,7 @@ A continuación se enumeran los efectos globales en la configuración, conectivi
 
    Puede cambiar según la nueva ubicación de los servidores. Sin embargo, el cliente podrá conservar su huso horario actual.
 
-   [Haga clic aquí](../../workflow/using/managing-time-zones.md) para obtener más información sobre la administración de huso horario en Adobe Campaign Classic v7.
+   [Más información](../../workflow/using/managing-time-zones.md) acerca de la administración de huso horario en Adobe Campaign Classic v7.
 
 
 ## Seguridad y permisos
