@@ -8,9 +8,9 @@ role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 source-git-commit: 9ee95f6d60500b18e242c6d648488615f47a4459
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '646'
+ht-degree: 100%
 
 ---
 
@@ -143,7 +143,7 @@ El perfil de producto ya está configurado. A continuación, debe crear el proye
 
 1. Utilice la clave privada generada en el paso 6.
 
-   Si ya ha configurado Déclencheur con estas credenciales, la clave privada debe ser la misma para esta configuración del conector.
+   Si ya ha configurado activadores con estas credenciales, la clave privada debe ser la misma para esta configuración del conector.
 
 1. Codifique la clave privada mediante el siguiente comando: `base64 ./private.key > private.key.base64`. Esto guardará el contenido de base64 en un nuevo archivo `private.key.base64`.
 
