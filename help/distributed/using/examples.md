@@ -1,29 +1,27 @@
 ---
 product: campaign
-title: Ejemplos
-description: Ejemplos
-audience: campaign
-content-type: reference
-topic-tags: distributed-marketing
+title: Ejemplos de Distributed Marketing
+description: Ejemplos de Distributed Marketing
+feature: Distributed Marketing
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 100%
+source-wordcount: '1293'
+ht-degree: 96%
 
 ---
 
-# Ejemplos{#examples}
+# Ejemplos de Distributed Marketing{#distributed-marketing-samples}
 
 ![](../../assets/v7-only.svg)
 
-## Creación de una campaña local (por formulario) {#creating-a-local-campaign--by-form-}
+## Crear una campaña local (por formulario) {#creating-a-local-campaign--by-form-}
 
 La interfaz web tipo **Por formulario** implica utilizar una **aplicación web**. Según su configuración, esta aplicación web puede contener cualquier tipo de elemento personalizado definido. Por ejemplo, puede sugerir vínculos para evaluar el objetivo, el presupuesto, el contenido, etc. mediante API dedicadas.
 
 >[!NOTE]
 >
->Las API se detallan en un documento dedicado, cuyo acceso depende de su contrato. Consulte la [API](../../configuration/using/about-web-services.md).
+>Las API se detallan en un documento dedicado. [Más información](../../configuration/using/about-web-services.md).
 >
 >La aplicación web utilizada en este ejemplo no es una aplicación web incluida con Adobe Campaign. Para utilizar un formulario en una campaña, debe crear la aplicación web correspondiente.
 
@@ -73,7 +71,7 @@ En este ejemplo se utilizan las siguientes API:
    var res = nms.localOrder.EvaluateContent(ctx.localOrder, ctx.@deliveryId, "html", resSeed.@id);
    ```
 
-## Creación de una campaña de colaboración (por aprobación de destino) {#creating-a-collaborative-campaign--by-target-approval-}
+## Crear una campaña de colaboración (por aprobación de destino) {#creating-a-collaborative-campaign--by-target-approval-}
 
 ### Introducción {#introduction}
 
@@ -118,7 +116,7 @@ Una vez aprobadas las comprobaciones, la campaña puede iniciarse automáticamen
 
 ### Lado de la entidad central {#central-entity-side}
 
-#### Creación de una actividad de distribución de datos {#creating-a-data-distribution-activity}
+#### Crear una actividad de distribución de datos {#creating-a-data-distribution-activity}
 
 1. Para configurar una campaña de colaboración (por aprobación de objetivo) debe crear primero una **[!UICONTROL Data distribution activity]**. Haga clic en el **[!UICONTROL New]** icono del **[!UICONTROL Resources > Campaign management > Data distribution]** nodo.
 
@@ -142,7 +140,7 @@ Una vez aprobadas las comprobaciones, la campaña puede iniciarse automáticamen
 
 1. Guarde la nueva distribución de datos.
 
-#### Creación de una campaña de colaboración {#creating-a-collaborative-campaign}
+#### Creación de una campaña colaborativa {#creating-a-collaborative-campaign}
 
 1. Desde el nodo **[!UICONTROL Campaign management > Campaign]**, cree un nuevo **[!UICONTROL collaborative campaign (by target approval)]**.
 1. En la pestaña **[!UICONTROL Targeting and workflows]**, cree un flujo de trabajo para la campaña. Debe contener una actividad **Split** en la que **[!UICONTROL Record count limitation]** se define mediante la actividad **[!UICONTROL Data distribution]**.
@@ -159,7 +157,7 @@ Una vez aprobadas las comprobaciones, la campaña puede iniciarse automáticamen
 
 1. Guarde el registro.
 
-#### Publicación de la campaña {#publishing-the-campaign}
+#### Publique la campaña {#publishing-the-campaign}
 
 Ahora puede añadir un **paquete de campaña** desde la pestaña **[!UICONTROL Campaigns]**.
 
@@ -178,7 +176,7 @@ Ahora puede añadir un **paquete de campaña** desde la pestaña **[!UICONTROL C
 
    ![](assets/mkg_dist_use_case_target_valid2.png)
 
-## Creación de una campaña de colaboración (por formulario) {#creating-a-collaborative-campaign--by-form-}
+## Crear una campaña de colaboración (por formulario) {#creating-a-collaborative-campaign--by-form-}
 
 ### Introducción {#introduction-1}
 

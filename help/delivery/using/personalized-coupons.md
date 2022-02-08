@@ -1,15 +1,13 @@
 ---
 product: campaign
 title: Cupones personalizados
-description: Cupones personalizados
-audience: delivery
-content-type: reference
-topic-tags: personalizing-deliveries
+description: Aprenda a crear e insertar cupones personalizados
+feature: Personalization
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-source-git-commit: 0deb18bb0376fc5e94d063145280426ff54db786
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 100%
+source-wordcount: '885'
+ht-degree: 94%
 
 ---
 
@@ -54,7 +52,7 @@ Antes de iniciar los pasos siguientes, asegúrese de saber el tipo de cupón que
    1. Introduzca un código único para el cupón individual cuando lo solicite la ventana emergente.
    1. Haga clic en **[!UICONTROL Save]** para generar el cupón.
 
-   Para obtener más información sobre la pestaña Coupons, consulte [Configuración de cupones individuales](#configuring-individual-coupons).
+   Para obtener más información sobre la ficha Cupones, consulte [Configuración de cupones individuales](#configuring-individual-coupons).
 
    >[!NOTE]
    >
@@ -136,7 +134,7 @@ En el siguiente ejemplo, la entrega se crea desde la página principal. Para obt
 
 >[!NOTE]
 >
->Para obtener instrucciones sobre la administración de cupones insuficientes para una entrega, consulte [Administración de cupones insuficientes](#managing-insufficient-coupons).
+>Para obtener instrucciones sobre cómo administrar cupones insuficientes para una entrega, consulte [Administrar cupones insuficientes](#managing-insufficient-coupons)
 
 Para confirmar que la entrega se realizó correctamente:
 
@@ -153,7 +151,7 @@ Para confirmar que la entrega se realizó correctamente:
 >
 >Aprenda a utilizar una tabla de destinatarios personalizada [en esta página](../../configuration/using/about-custom-recipient-table.md).
 
-## Administración de cupones insuficientes {#managing-insufficient-coupons}
+## Administrar cupones insuficientes {#managing-insufficient-coupons}
 
 El análisis de envío se detiene si hay menos cupones que mensajes. En tal caso, puede importar más cupones o restringir la cantidad de mensajes. Siga las instrucciones que se indican a continuación si desea limitar la cantidad de mensajes.
 

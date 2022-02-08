@@ -2,14 +2,12 @@
 product: campaign
 title: '"Ejemplo de uso: selección de direcciones semilla según ciertos criterios"'
 description: '"Ejemplo de uso: selección de direcciones semilla según ciertos criterios"'
-audience: delivery
-content-type: reference
-topic-tags: using-seed-addresses
+feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: ht
-source-wordcount: '838'
-ht-degree: 100%
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+workflow-type: tm+mt
+source-wordcount: '837'
+ht-degree: 91%
 
 ---
 
@@ -32,7 +30,7 @@ Para utilizar la condición dinámica, se debe contar con:
 
 ## Paso 1: Creación de una entrega {#step-1---creating-a-delivery}
 
-Los pasos para crear una entrega se detallan en la sección [Creación de una entrega por correo electrónico](creating-an-email-delivery.md).
+Los pasos para crear una entrega se detallan en la sección [Creación de una entrega de correo electrónico](creating-an-email-delivery.md) para obtener más información.
 
 En este ejemplo, el administrador de envíos ha creado el boletín informativo y ha seleccionado los destinatarios.
 
@@ -44,7 +42,7 @@ Para crear un valor común como el de nuestro ejemplo (departamento de compras),
 
 ### Ampliación del esquema de datos {#extending-the-data-schema}
 
-Para obtener más información sobre las extensiones de esquema, consulte la [Guía de configuración](../../configuration/using/data-schemas.md).
+Para obtener más información sobre las extensiones de esquema, consulte [esta sección](../../configuration/using/data-schemas.md).
 
 1. En el nodo **[!UICONTROL Administration > Configuration > Data schemas]**, haga clic en el icono **[!UICONTROL New]**.
 1. En la ventana **[!UICONTROL Creation of a data schema]**, seleccione la opción **[!UICONTROL Extension of a schema]** haciendo clic en **[!UICONTROL Next]**. 
@@ -95,7 +93,7 @@ Para obtener más información sobre las extensiones de esquema, consulte la [Gu
 
    Una vez finalizada la actualización, puede cerrar el asistente.
 
-1. Desconéctese y vuelva a conectarse a Adobe Campaign. Los cambios realizados en el esquema de datos de las direcciones semilla deberían haber surtido efecto. Para que puedan ser visibles desde la pantalla de las direcciones semilla, debe actualizar el **[!UICONTROL Input form]** asociado. Consulte la sección [Actualización del formulario de entrada](#updating-the-input-form).
+1. Desconéctese y vuelva a conectarse a Adobe Campaign. Los cambios realizados en el esquema de datos de las direcciones semilla deberían haber surtido efecto. Para que puedan ser visibles desde la pantalla de las direcciones semilla, debe actualizar el **[!UICONTROL Input form]** asociado. Consulte la [Actualizar el formulario de entrada](#updating-the-input-form) para obtener más información.
 
 #### Ampliación del esquema de datos desde una tabla vinculada {#extending-the-data-schema-from-a-linked-table}
 
@@ -131,9 +129,9 @@ Indican lo siguiente:
 
 El usuario puede seguir el **paso 5** de la sección y actualizar el **[!UICONTROL Input form]**.
 
-Consulte la sección [Actualización del formulario de entrada](#updating-the-input-form).
+Consulte la [Actualizar el formulario de entrada](#updating-the-input-form) para obtener más información.
 
-#### Actualización del formulario de entrada {#updating-the-input-form}
+#### Actualizar el formulario de entrada {#updating-the-input-form}
 
 1. En el nodo **[!UICONTROL Administration > Configuration > Input forms]**, busque el formulario de entrada de direcciones semilla.
 

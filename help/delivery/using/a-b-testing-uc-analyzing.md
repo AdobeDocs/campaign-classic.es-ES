@@ -1,12 +1,9 @@
 ---
 product: campaign
 title: Análisis del resultado
-description: Obtenga información sobre cómo realizar pruebas A/B mediante un caso de uso dedicado.
-audience: delivery
-content-type: reference
-topic-tags: a-b-testing
+description: Obtenga información sobre cómo realizar pruebas A/B mediante un caso de uso dedicado
 exl-id: e6f39180-d161-4226-810a-10bb1c3682ca
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 100%

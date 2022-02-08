@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: Simulaciones en Campaign
-description: Simulaciones en Campaign
-audience: campaign
-content-type: reference
-topic-tags: campaign-optimization
+description: Introducción a las simulaciones de Campaign
 exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
-source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 100%
+source-wordcount: '1245'
+ht-degree: 98%
 
 ---
 
@@ -129,7 +126,7 @@ Una vez finalizada la ejecución, abra la simulación y haga clic en la pestaña
 
    Para ver un ejemplo de creación de tablas de análisis, consulte el final de [Exploración de resultados](#exploring-results).
 
-### Consulta de resultados {#viewing-results}
+### Ver resultados {#viewing-results}
 
 #### Auditoría {#audit}
 
@@ -137,7 +134,7 @@ La pestaña **[!UICONTROL Audit]** permite monitorizar la ejecución de la simul
 
 ![](assets/simu_campaign_opti_11.png)
 
-#### Exploración de resultados {#exploring-results}
+#### Explorar resultados {#exploring-results}
 
 La subpestaña **[!UICONTROL Exploration of the exclusions]** permite analizar los datos resultantes de una simulación.
 
@@ -167,7 +164,7 @@ Para acceder a los informes, haga clic en el vínculo **[!UICONTROL Reports]** d
 
 También puede editar informes mediante el vínculo **[!UICONTROL Reports]** al que se puede acceder desde el panel de simulación.
 
-### Comparación de simulaciones {#comparing-simulations-}
+### Comparar simulaciones {#comparing-simulations-}
 
 Cada vez que se ejecuta una simulación, el resultado reemplaza los resultados anteriores: no puede mostrar y comparar los resultados de una ejecución a otra.
 

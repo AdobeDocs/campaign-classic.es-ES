@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: Creación de una entrega de correo postal
-description: Creación de una entrega de correo postal
-audience: delivery
-content-type: reference
-topic-tags: sending-direct-mail
+title: Creación de una entrega de correo directo
+description: Aprenda a crear una entrega de correo postal
 exl-id: 964cc600-19b8-449e-bac6-dc9da2b5ea12
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 100%
+source-wordcount: '87'
+ht-degree: 90%
 
 ---
 
-# Creación de una entrega de correo postal{#creating-a-direct-mail-delivery}
+# Creación de una entrega de correo directo{#creating-a-direct-mail-delivery}
 
 ![](../../assets/common.svg)
 

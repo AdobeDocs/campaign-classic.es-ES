@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: Configuración y entrega de la entrega
-description: Configuración y entrega de la entrega
-audience: delivery
-content-type: reference
-topic-tags: about-deliveries-and-channels
+title: Configuración y envío de la entrega
+description: Obtenga información sobre cómo configurar y realizar la entrega
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 100%
+source-wordcount: '1526'
+ht-degree: 95%
 
 ---
 
-# Configuración y entrega de la entrega {#configuring-and-sending-the-delivery}
+# Configuración y envío de la entrega {#configuring-and-sending-the-delivery}
 
 ![](../../assets/common.svg)
 
@@ -35,7 +32,7 @@ Antes de realizar el envío, se pueden definir los parámetros de envío en las 
    >
    >Cuando se duplica la entrega, se restablece el parámetro.
 
-* **[!UICONTROL Send using multiple waves]**: Para obtener más información, consulte [Envío mediante varias olas](#sending-using-multiple-waves).
+* **[!UICONTROL Send using multiple waves]**: Para obtener más información, consulte [Enviar con varias olas](#sending-using-multiple-waves).
 
 * **[!UICONTROL Test SMTP delivery]**: Esta opción permite probar la realización de un envío a través de SMTP. La entrega se procesa hasta la conexión con el servidor SMTP, pero no se envía.
 
@@ -45,11 +42,11 @@ Antes de realizar el envío, se pueden definir los parámetros de envío en las 
 
 * **[!UICONTROL Email BCC]**: Esta opción permite almacenar correos electrónicos en un sistema externo como CCO simplemente añadiendo una dirección de correo electrónico CCO al objetivo del mensaje. Para obtener más información, consulte [esta sección](sending-messages.md#archiving-emails).
 
-## Confirmación del envío {#confirming-delivery}
+## Confirme la entrega {#confirming-delivery}
 
 Una vez configurada la entrega y lista para enviarla, asegúrese de haber ejecutado el análisis de entrega.
 
-Para ello, haga clic en **[!UICONTROL Send]**, seleccione la acción que desee y haga clic en **[!UICONTROL Analyze]**. Para obtener más información sobre esto, consulte [Inicio del análisis](steps-validating-the-delivery.md#analyzing-the-delivery).
+Para ello, haga clic en **[!UICONTROL Send]**, seleccione la acción que desee y haga clic en **[!UICONTROL Analyze]**. Para obtener más información, consulte [Inicie el análisis](steps-validating-the-delivery.md#analyzing-the-delivery).
 
 ![](assets/s_ncs_user_email_del_send.png)
 
@@ -63,7 +60,7 @@ Después de enviar mensajes, puede monitorizar y realizar un seguimiento de las 
 * [Comprensión de los errores de entrega](understanding-delivery-failures.md)
 * [Acerca del seguimiento de mensajes](about-message-tracking.md)
 
-## Programación de los envíos de entregas {#scheduling-the-delivery-sending}
+## Programación de la entrega de envíos {#scheduling-the-delivery-sending}
 
 Puede retrasar la entrega de mensajes para programar su fecha o administrar la presión de ventas y evitar solicitar en exceso a una población.
 
@@ -105,7 +102,7 @@ Por ejemplo, si se programa una entrega para que se ejecute automáticamente a l
 
 ![](assets/s_ncs_user_email_del_plan_calendar_timezone.png)
 
-## Envío mediante múltiples olas {#sending-using-multiple-waves}
+## Enviar con varias olas {#sending-using-multiple-waves}
 
 Para equilibrar la carga, se pueden dividir los envíos en varios lotes. Configure el número de lotes y su proporción con respecto a todo la entrega.
 
@@ -167,7 +164,7 @@ Los siguientes dos ejemplos son los casos más comunes para usar varias olas.
 
    ![](assets/s_ncs_user_wizard_waves_call_center.png)
 
-## Configuración de los reintentos {#configuring-retries}
+## Configuración de reintentos {#configuring-retries}
 
 Para los mensajes que no se hayan enviado temporalmente debido a un error **leve** o **ignorado**, se realiza un reintento automático. Los tipos y motivos del error de entrega se presentan en esta [sección](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
@@ -179,9 +176,9 @@ En el caso de instalaciones on-premise e instalaciones hospedadas/híbridas que 
 
 ![](assets/s_ncs_user_wizard_retry_param.png)
 
-De manera predeterminada, se programan cinco reintentos para el primer día de la entrega con un intervalo mínimo de una hora distribuidos durante las 24 horas del día. Después de ello, se programa un reintento por día hasta la fecha límite de envío, que se define en la pestaña **[!UICONTROL Validity]** (consulte [Definir periodo de validez](#defining-validity-period)).
+De manera predeterminada, se programan cinco reintentos para el primer día de la entrega con un intervalo mínimo de una hora distribuidos durante las 24 horas del día. Después de ello, se programa un reintento por día hasta la fecha límite de entrega, que se define en la variable **[!UICONTROL Validity]** pestaña . Consulte [Definir el periodo de validez](#defining-validity-period).
 
-## Definición del periodo de validez {#defining-validity-period}
+## Definir el periodo de validez {#defining-validity-period}
 
 Una vez iniciada la entrega, se pueden enviar los mensajes (y los reintentos) hasta la fecha límite de entrega. Esto se indica en las propiedades de envío a través de la pestaña **[!UICONTROL Validity]**.
 

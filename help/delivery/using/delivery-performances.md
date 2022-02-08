@@ -2,11 +2,9 @@
 product: campaign
 title: Prácticas recomendadas sobre el rendimiento de las entregas
 description: Obtenga más información sobre el rendimiento de las entregas y las prácticas recomendadas.
-audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
+feature: Deliverability
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 100%

@@ -2,14 +2,12 @@
 product: campaign
 title: Comprensión de los errores de entrega
 description: Aprenda a comprender los errores de entrega
-audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
+feature: Monitoring
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: ht
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+workflow-type: tm+mt
 source-wordcount: '2614'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -192,7 +190,7 @@ Si un mensaje falla debido a un error **leve** o **ignorado** temporal, los rein
 
 En las instalaciones on-premise y las instalaciones hospedadas/híbridas que utilizan el servidor de correo de Campaign heredado, para modificar la duración de un envío, vaya a los parámetros avanzados del envío o la plantilla de envío y especifique la duración deseada en el campo correspondiente. Consulte [Definición del periodo de validez](steps-sending-the-delivery.md#defining-validity-period).
 
-La configuración predeterminada permite cinco intentos en intervalos de una hora, seguidos de un reintento diario durante cuatro días. El número de reintentos se puede cambiar a nivel global (póngase en contacto con el administrador técnico de Adobe) o para cada envío o plantilla de envíos (consulte [Configuración de reintentos](steps-sending-the-delivery.md#configuring-retries)).
+La configuración predeterminada permite cinco intentos en intervalos de una hora, seguidos de un reintento diario durante cuatro días. El número de reintentos se puede cambiar globalmente (póngase en contacto con el administrador técnico del Adobe) o para cada envío o plantilla de envío. Consulte [Configuración de reintentos](steps-sending-the-delivery.md#configuring-retries).
 
 ## Errores sincrónicos y asíncronos {#synchronous-and-asynchronous-errors}
 

@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: Administración de informes
-description: Administración de informes
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
+title: Administrar informes
+description: Administrar informes
 exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3
-source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
+source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 4%
 
 ---
 
-# Administración de informes{#managing-reports}
+# Administrar informes{#managing-reports}
 
 ![](../../assets/common.svg)
 

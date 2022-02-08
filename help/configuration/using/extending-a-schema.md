@@ -2,14 +2,12 @@
 product: campaign
 title: Ampliación de un esquema
 description: Obtenga información sobre cómo ampliar un esquema
-audience: configuration
-content-type: reference
-topic-tags: editing-schemas
+feature: Schema Extension
 exl-id: 6e3e666d-6ab3-4346-93ca-fb0155a4660d
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 10%
+source-wordcount: '327'
+ht-degree: 9%
 
 ---
 
@@ -63,5 +61,5 @@ Existen dos métodos para ampliar un esquema existente:
 
 >[!IMPORTANT]
 >
->Para que se tengan en cuenta las modificaciones, es necesario volver a generar los esquemas. Para obtener más información, consulte [Regeneración de esquemas](../../configuration/using/regenerating-schemas.md) para obtener más información.\
->Si las modificaciones afectan a la estructura de la base de datos, debe ejecutar una actualización. Para obtener más información, consulte la sección [Actualización de la estructura de la base de datos](../../configuration/using/updating-the-database-structure.md).
+>Para que se tengan en cuenta las modificaciones, es necesario volver a generar los esquemas. Para obtener más información, consulte [esta página](../../configuration/using/regenerating-schemas.md).\
+>Si las modificaciones afectan a la estructura de la base de datos, debe ejecutar una actualización. Para obtener más información, consulte [esta página](../../configuration/using/updating-the-database-structure.md).

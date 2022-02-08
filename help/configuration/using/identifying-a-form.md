@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: Identificación de un formulario
-description: Identificación de un formulario
-audience: configuration
-content-type: reference
-topic-tags: input-forms
+title: Identificación de formularios
+description: Identificación de formularios
 exl-id: 0d22b0bc-8fbc-4269-af9e-cee27e29bb27
-source-git-commit: cf4e316e9c9bce467e2bd2bd04097f55b3dbb9c7
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# Identificación de un formulario{#identifying-a-form}
+# Identificación de formularios{#identifying-a-form}
 
 ![](../../assets/common.svg)
 

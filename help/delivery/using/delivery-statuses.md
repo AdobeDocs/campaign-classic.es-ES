@@ -1,15 +1,13 @@
 ---
 product: campaign
-title: Estados de entrega
-description: Obtenga más información sobre los estados disponibles en su panel de entregas.
-audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
+title: Estados de la entrega
+description: Obtenga más información sobre los estados disponibles en su panel de entregas
+feature: Monitoring
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: ht
-source-wordcount: '630'
-ht-degree: 100%
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 99%
 
 ---
 
@@ -31,7 +29,7 @@ Para obtener más información sobre los diferentes errores de entrega que puede
 
 * [Tablero de entregas](delivery-dashboard.md)
 * [Solución de problemas de entrega](delivery-troubleshooting.md)
-* [Acerca de la capacidad de entrega](about-deliverability.md)
+* [Introducción a la capacidad de entrega](about-deliverability.md)
 
 ## Lista de estados de entrega {#list-delivery-statuses}
 

@@ -2,14 +2,12 @@
 product: campaign
 title: Direcciones semilla
 description: Direcciones semilla
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
+feature: Seed Address
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
-source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 4%
+source-wordcount: '322'
+ht-degree: 9%
 
 ---
 
@@ -44,7 +42,7 @@ Definición del esquema ampliado de la tabla de destinatarios:
 
 Siga estos pasos:
 
-1. Cree una extensión de **nms:seedMember** esquema. Para obtener más información, consulte [Ampliación de un esquema](../../configuration/using/extending-a-schema.md).
+1. Cree una extensión de **nms:seedMember** esquema. Para obtener más información, consulte [esta sección](../../configuration/using/extending-a-schema.md).
 1. En esta nueva extensión, agregue un nuevo elemento en la raíz de **[!UICONTROL seedMember]** con los siguientes parámetros:
 
    ```
@@ -82,7 +80,7 @@ Siga estos pasos:
    >    * En el **nms:seedMember** extensión, el campo que contiene la dirección de correo electrónico debe tener **name=&quot;email&quot;** como atributo. El nombre SQL debe ser diferente de &#39;sEmail&#39; que ya se utiliza para el esquema de destinatario. Este atributo debe declararse inmediatamente en la variable **`<element name="custom_cus_person" />`** elemento.
 
 
-1. Modifique el **[!UICONTROL seedMember]** de forma consecuente para definir una nueva pestaña &quot;Internal recipient&quot; en la **[!UICONTROL Seed addresses]** ventana. Para obtener más información, consulte [Estructura del formulario](../../configuration/using/form-structure.md).
+1. Modifique el **[!UICONTROL seedMember]** de forma consecuente para definir una nueva pestaña &quot;Internal recipient&quot; en la **[!UICONTROL Seed addresses]** ventana. Para obtener más información, consulte [esta página](../../configuration/using/form-structure.md).
 
    ```
    <container colcount="2" label="Internal recipient" name="internal"

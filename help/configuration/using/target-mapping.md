@@ -2,14 +2,11 @@
 product: campaign
 title: Asignación de destino
 description: Obtenga información sobre cómo crear una asignación de destino
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
 exl-id: 38333669-5598-4811-a121-b677c1413f56
-source-git-commit: 468a986d7cfb8a4c51229cf81b6656ca2d101f40
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 3%
+source-wordcount: '490'
+ht-degree: 2%
 
 ---
 
@@ -124,7 +121,3 @@ Existen dos formas de utilizar el nuevo esquema como destinatario de una entrega
 * Seleccione la asignación directamente durante la selección de destino al crear una entrega, como se muestra a continuación:
 
 ![](assets/mapping_selection_ciblage.png)
-
-**Tema relacionado**
-
-* [Responder rápidamente a las solicitudes de los clientes para acceder a sus datos](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Quicklyrespondtocustomerrequeststoaccesstheirdata)

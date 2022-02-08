@@ -2,18 +2,15 @@
 product: campaign
 title: Parámetros de seguimiento web adicionales
 description: Obtenga más información sobre los parámetros del seguimiento web
-audience: configuration
-content-type: reference
-topic-tags: setting-up-web-tracking
 exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 1%
+source-wordcount: '352'
+ht-degree: 0%
 
 ---
 
-# Parámetros adicionales{#additional-parameters}
+# Parámetros de seguimiento web adicionales{#additional-parameters}
 
 ![](../../assets/v7-only.svg)
 

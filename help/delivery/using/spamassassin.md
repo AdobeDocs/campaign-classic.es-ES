@@ -2,22 +2,17 @@
 product: campaign
 title: SpamAssassin
 description: Obtenga información sobre cómo configurar la detección de correo no deseado con SpamAssassin
-audience: delivery
-content-type: reference
-topic-tags: deliverability-management
 exl-id: 8be6836d-f7dc-4199-b2b2-b6a9cac9d162
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # SpamAssassin{#spamassassin}
 
 ![](../../assets/common.svg)
-
-## Acerca de SpamAssassin {#about-spamassassin}
 
 Adobe Campaign se puede configurar para que funcione con [SpamAssassin](https://spamassassin.apache.org), un servicio de terceros que se utiliza para el filtrado masivo de correo no deseado. Esto le permite puntuar correos electrónicos para determinar si un mensaje corre el riesgo de que las herramientas de filtrado de correo no deseado utilizadas durante la recepción lo consideren como no deseado.
 
@@ -35,7 +30,7 @@ SpamAssassin aprovecha diversas técnicas de detección de correo no deseado par
 >
 >Las reglas que rigen si un elemento es correo no deseado o no se administran mediante SpamAssassin y un administrador con privilegios puede editarlas.
 
-## Uso de SpamAssassin {#using-spamassassin}
+## Uso de SpamAssassin en Campaign {#using-spamassassin}
 
 Una vez que haya creado su envío de correo electrónico y haya definido su contenido, siga los pasos a continuación para evaluar los riesgos.
 

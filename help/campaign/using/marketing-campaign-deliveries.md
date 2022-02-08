@@ -2,12 +2,12 @@
 product: campaign
 title: Entregas de campañas de marketing
 description: Más información sobre las entregas de campañas de marketing
-audience: campaign
+feature: Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: d3f5c56078ddac7597925191fd347bdcab61714d
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
 source-wordcount: '1487'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Cuando se crean a partir de una campaña, las entregas se vincularán a esta cam
 
 ![](assets/do-not-localize/how-to-video.png)[ Descubra esta función en vídeo](#create-email-video)
 
-## Creación de envíos {#creating-deliveries}
+## Creación de entregas {#creating-deliveries}
 
 Para crear una entrega vinculada a una campaña, haga clic en el vínculo **[!UICONTROL Add a delivery]** en el tablero de la campaña.
 
@@ -29,11 +29,11 @@ Para crear una entrega vinculada a una campaña, haga clic en el vínculo **[!UI
 
 Las configuraciones sugeridas se adecúan a los diferentes tipos de envío: correo postal, correo electrónico, canales móviles. [Más información](../../delivery/using/steps-about-delivery-creation-steps.md).
 
-## Inicio de entregas {#starting-a-delivery}
+## Inicio de envíos {#starting-a-delivery}
 
 Una vez que se hayan realizado todas las aprobaciones, la entrega está listo para ser iniciado. El procedimiento de envío depende del tipo de envío. Para las entregas por correo electrónico o por canal móvil, consulte [Inicio de una entrega en línea](#starting-an-online-delivery) y para las entregas por correo directo, consulte [Inicio de una entrega sin conexión](#starting-an-offline-delivery).
 
-### Inicio de una entrega en línea {#starting-an-online-delivery}
+### Iniciar una entrega en línea {#starting-an-online-delivery}
 
 Una vez concedidas todas las solicitudes de aprobación, el estado de entrega cambia a **[!UICONTROL Pending confirmation]** y el operador puede iniciarlo. Si corresponde, el operador de Adobe Campaign (o grupo de operadores) designado como revisor para iniciar la entrega recibe una notificación avisando de que una entrega está listo para iniciarse.
 
@@ -63,7 +63,7 @@ Una vez concedidas todas las aprobaciones, el estado de entrega cambia a **[!UIC
 
 Una vez ejecutado correctamente el flujo de trabajo de extracción, debe aprobar el archivo de extracción (siempre que se haya seleccionado la aprobación del archivo de extracción en la configuración de envío).
 
-Para obtener más información sobre esto, consulte [Aprobación de un archivo de extracción](../../campaign/using/marketing-campaign-approval.md#approving-an-extraction-file).
+Para obtener más información, consulte [Aprobar un archivo de extracción](../../campaign/using/marketing-campaign-approval.md#approving-an-extraction-file).
 
 **Paso 2: Aprobación del mensaje al proveedor de servicios**
 
@@ -114,7 +114,7 @@ La extracción de archivos inicia dos operaciones: cálculo de presupuesto y cá
 >
 >Para obtener más información sobre los cálculos de costos y la gestión de existencias, véase [Proveedores, saldos y presupuestos](../../campaign/using/providers--stocks-and-budgets.md).
 
-## Gestión de documentos asociados {#managing-associated-documents}
+## Administración de documentos asociados {#managing-associated-documents}
 
 Puede asociar varios documentos a una campaña: informe, foto, página web, diagrama, etc. Estos documentos pueden tener cualquier formato (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc.). Aprenda a vincular documentos con una campaña [en esta sección](../../campaign/using/marketing-campaign-assets.md).
 
@@ -126,7 +126,7 @@ En una campaña también puede hacer referencia a otros elementos, tales como cu
 
 >[!NOTE]
 >
->Si está utilizando MRM, también puede administrar una biblioteca de recursos de marketing disponibles para varios participantes para trabajar en colaboración. [Gestión de los recursos de marketing](../../mrm/using/managing-marketing-resources.md).
+>Si está utilizando MRM, también puede administrar una biblioteca de recursos de marketing disponibles para varios participantes para trabajar en colaboración. Consulte [Administrar recursos de marketing](../../mrm/using/managing-marketing-resources.md).
 
 ### Adición de documentos {#adding-documents}
 
@@ -155,7 +155,7 @@ En el panel, los documentos asociados a la campaña se agrupan en la sección **
 
 También pueden editarse y modificarse desde esta vista.
 
-### Asociación y estructuración de recursos vinculados a través de una descripción del envío {#associating-and-structuring-resources-linked-via-a-delivery-outline}
+### Asociación y estructuración de recursos vinculados a través de una descripción de la entrega {#associating-and-structuring-resources-linked-via-a-delivery-outline}
 
 >[!NOTE]
 >

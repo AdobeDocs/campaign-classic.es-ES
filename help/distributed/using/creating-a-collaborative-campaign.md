@@ -1,25 +1,23 @@
 ---
 product: campaign
-title: Creación de una campaña de colaboración
-description: Creación de una campaña de colaboración
-audience: campaign
-content-type: reference
-topic-tags: distributed-marketing
+title: Creación de una campaña colaborativa
+description: Aprenda a crear una campaña de colaboración
+feature: Distributed Marketing
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 100%
+source-wordcount: '915'
+ht-degree: 98%
 
 ---
 
-# Creación de una campaña de colaboración{#creating-a-collaborative-campaign-intro}
+# Creación de una campaña colaborativa{#creating-a-collaborative-campaign-intro}
 
 ![](../../assets/v7-only.svg)
 
 La entidad central crea campañas de colaboración a partir de plantillas de campañas de **Distributed Marketing.** Consulte [esta página](about-distributed-marketing.md#collaborative-campaign).
 
-## Creación de una campaña de colaboración {#creating-a-collaborative-campaign}
+## Creación de una campaña colaborativa {#creating-a-collaborative-campaign}
 
 Para configurar una campaña de colaboración, haga clic en el nodo **[!UICONTROL Campaign management > Campaigns]** y luego en el icono **[!UICONTROL New]**.
 
@@ -173,6 +171,6 @@ Una vez que una entidad local ha finalizado su registro, se notifica a las entid
 
 Para obtener más información, consulte la sección [Proceso de aprobación](creating-a-local-campaign.md#approval-process).
 
-## Aprobación de una solicitud {#approving-an-order}
+## Aprobar una solicitud {#approving-an-order}
 
 El proceso de aprobación de una solicitud de paquete de campaña de colaboración es el mismo que al hacerlo para una campaña local. Consulte [esta sección](creating-a-local-campaign.md#approving-an-order).

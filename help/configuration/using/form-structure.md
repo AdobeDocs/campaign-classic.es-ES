@@ -2,11 +2,8 @@
 product: campaign
 title: Estructura del formulario
 description: Estructura del formulario
-audience: configuration
-content-type: reference
-topic-tags: input-forms
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
-source-git-commit: 898353f80a93052cd25088098c9570c2b44ceac4
+source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
 workflow-type: tm+mt
 source-wordcount: '2385'
 ht-degree: 4%

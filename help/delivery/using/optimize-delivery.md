@@ -1,14 +1,13 @@
 ---
 product: campaign
 title: Optimización del envío de mensajes
-audience: delivery
-content-type: reference
-topic-tags: deliveries-best-practices
+description: Aprenda a optimizar la entrega de mensajes
+feature: Deliverability
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 100%
+source-wordcount: '736'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +33,7 @@ Varios factores pueden afectar directamente al rendimiento del servidor y ralent
 
 * Como cliente elegible, puede impulsar las [funciones del Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es) para monitorizar su plataforma mediante funciones de [monitorización del rendimiento](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es).
 
-## Comprobación de la configuración de red {#network-config}
+## Comprobar configuración de red {#network-config}
 
 Para optimizar el envío al administrar correos electrónicos en grandes volúmenes y evitar que se confunda con spam, asegúrese de tener una configuración de red legítima que no intente ocultar la identidad del servidor.
 

@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: Seguimiento de una campaña
-description: Seguimiento de una campaña
-audience: campaign
-content-type: reference
-topic-tags: distributed-marketing
+description: Obtenga información sobre cómo rastrear una campaña con Campaign Distributed Marketing
 exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 100%
+source-wordcount: '416'
+ht-degree: 96%
 
 ---
 
@@ -24,7 +21,7 @@ Esto les permite:
 * [Filtración de paquetes](#filter-packages),
 * [Editar paquetes](#edit-packages),
 * [Cancelar un paquete](#cancel-a-package),
-* [Reinicio de un paquete](#reinitializing-a-package).
+* [Reinicializar un paquete](#reinitializing-a-package).
 
 ## Filtrado de paquetes {#filter-packages}
 
@@ -86,7 +83,7 @@ Para las **campañas de colaboración**, cancelar un paquete activa varias accio
 
 La entidad central puede seguir accediendo y reiniciando los paquetes cancelados (consulte a continuación) si es necesario. Solo se ofrecen a las entidades locales una vez aprobadas e iniciadas. A continuación, se muestra el proceso de reinicio de paquetes.
 
-## Reinicio de un paquete {#reinitializing-a-package}
+## Reinicializar un paquete {#reinitializing-a-package}
 
 Los paquetes de campañas que ya se han publicado se pueden reiniciar, modificar y ponerlo a disposición de entidades locales.
 

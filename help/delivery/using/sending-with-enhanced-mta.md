@@ -1,12 +1,9 @@
 ---
 product: campaign
 title: Envío con el servidor de envío mejorado en Adobe Campaign Classic
-description: Obtenga información acerca del ámbito y las características específicas del envío de correos electrónicos con el servidor de correo mejorado de Adobe Campaign.
-audience: delivery
-content-type: reference
-topic-tags: sending-emails
+description: Obtenga información acerca del ámbito y las características específicas del envío de correos electrónicos con el servidor de correo mejorado de Adobe Campaign
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '1921'
 ht-degree: 100%

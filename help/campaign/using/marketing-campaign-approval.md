@@ -2,9 +2,8 @@
 product: campaign
 title: Aprobación de campañas de marketing
 description: Descubra cómo administrar las aprobaciones de campañas de marketing
-audience: campaign
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
-source-git-commit: d3f5c56078ddac7597925191fd347bdcab61714d
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
 source-wordcount: '2434'
 ht-degree: 100%

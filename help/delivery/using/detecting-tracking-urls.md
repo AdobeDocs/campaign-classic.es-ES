@@ -2,11 +2,8 @@
 product: campaign
 title: Detección de direcciones URL de seguimiento
 description: Obtenga más información acerca del patrón recomendado para rastrear direcciones URL
-audience: delivery
-content-type: reference
-topic-tags: tracking-messages
 exl-id: 7611d6a1-6c55-4ba3-b905-58426c944991
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%

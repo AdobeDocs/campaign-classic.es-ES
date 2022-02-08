@@ -1,15 +1,12 @@
 ---
 product: campaign
-title: Elementos y atributos
-description: Elementos y atributos
-audience: configuration
-content-type: reference
-topic-tags: schema-reference
+title: Elementos y atributos de esquema
+description: elemento clave
 exl-id: 3d0ef574-27a3-40f2-91a0-70e9583d9980
-source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 

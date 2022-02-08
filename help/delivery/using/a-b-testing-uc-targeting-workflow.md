@@ -2,11 +2,8 @@
 product: campaign
 title: Creación de un flujo de trabajo de segmentación
 description: Obtenga información sobre cómo realizar pruebas A/B mediante un caso de uso dedicado.
-audience: delivery
-content-type: reference
-topic-tags: a-b-testing
 exl-id: aa21fa33-aef9-484a-b454-0cd5a6868a98
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 100%

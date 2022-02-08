@@ -2,11 +2,8 @@
 product: campaign
 title: Esquema de una tabla existente
 description: Esquema de una tabla existente
-audience: configuration
-content-type: reference
-topic-tags: editing-schemas
 exl-id: 964f1027-627c-4f12-91b5-f258e9ba458b
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 12%

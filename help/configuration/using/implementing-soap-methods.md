@@ -2,14 +2,11 @@
 product: campaign
 title: Implementación de métodos SOAP
 description: Implementación de métodos SOAP
-audience: configuration
-content-type: reference
-topic-tags: api
 exl-id: 441a0e5c-fa7f-46c8-a65a-5cca4c846d43
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -23,7 +20,7 @@ Es posible crear métodos SOAP en JavaScript. Esta función simplemente habilita
 
 Estos métodos SOAP se comportan del mismo modo que los definidos de forma nativa en la aplicación. Se admiten los mismos atributos: estático, solo clave y const.
 
-## Definición de una biblioteca de métodos {#defining-a-method-library}
+## Definir una biblioteca de métodos {#defining-a-method-library}
 
 La creación de una biblioteca de métodos consta de dos etapas:
 

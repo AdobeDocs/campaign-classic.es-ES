@@ -1,15 +1,13 @@
 ---
 product: campaign
 title: Reglas de filtrado
-description: Reglas de filtrado
-audience: campaign
-content-type: reference
-topic-tags: campaign-optimization
+description: Aprenda a utilizar las reglas de filtrado
+feature: Typology Rules
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
-source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 100%
+source-wordcount: '507'
+ht-degree: 96%
 
 ---
 
@@ -47,7 +45,7 @@ Cuando se utiliza esta regla en una entrega, se excluye automáticamente a los s
 
 ![](assets/campaign_opt_create_filter_05.png)
 
-## Condicionamiento de una regla de filtrado {#conditioning-a-filtering-rule}
+## Condición de una regla de filtrado {#conditioning-a-filtering-rule}
 
 Puede restringir el campo de aplicación de la regla de filtrado en función de la entrega relacionado o la descripción de la entrega.
 

@@ -2,12 +2,9 @@
 product: campaign
 title: Integración del SDK de Campaign
 description: Descubra cómo integrar el SDK de Campaign en su aplicación móvil
-audience: delivery
-content-type: reference
-topic-tags: sending-push-notifications
-version: Classic v7
+feature: Mobile SDK Integration, Push
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: c58daacb76f90478e218fe97008f3e263d8c76a1
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 100%

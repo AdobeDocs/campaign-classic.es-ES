@@ -1,15 +1,12 @@
 ---
 product: campaign
-title: Configuración de parámetros de correo electrónico en Adobe Campaign Classic
-description: Obtenga información sobre las opciones y la configuración específicas del envío por correo electrónico.
-audience: delivery
-content-type: reference
-topic-tags: sending-emails
+title: Parámetro de correo electrónico
+description: Obtenga información sobre las opciones y la configuración específicas del envío por correo electrónico
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 100%
+source-wordcount: '900'
+ht-degree: 99%
 
 ---
 

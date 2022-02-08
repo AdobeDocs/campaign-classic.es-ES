@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: Configuración de las opciones de seguimiento de URL
-description: Configuración de las opciones de seguimiento de URL
-audience: delivery
-content-type: reference
-topic-tags: tracking-messages
+description: Obtenga información sobre cómo configurar las opciones de seguimiento de URL
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 100%
+source-wordcount: '167'
+ht-degree: 94%
 
 ---
 

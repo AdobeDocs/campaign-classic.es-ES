@@ -1,19 +1,16 @@
 ---
 product: campaign
 title: Envío de correos electrónicos en móviles japoneses con Adobe Campaign Classic
-description: Aprenda a configurar, diseñar y enviar correos electrónicos que se leerán en un móvil japonés.
-audience: delivery
-content-type: reference
-topic-tags: sending-emails
+description: Aprenda a configurar, diseñar y enviar correos electrónicos que se leerán en un móvil japonés
 exl-id: 44634227-2340-49c4-b330-740c739ea551
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '759'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
-# Envío de correos electrónicos en móviles japoneses {#sending-emails-on-japanese-mobiles}
+# Enviar correos electrónicos en móviles japoneses {#sending-emails-on-japanese-mobiles}
 
 ![](../../assets/common.svg)
 
@@ -50,7 +47,7 @@ Por lo tanto, debe:
 >* Para obtener más información sobre Softbank, consulte [esta página](https://www.support.softbankmobile.co.jp/partner/home_tech3/index.cfm)
 
 
-## Prueba del contenido de correo electrónico {#testing-the-email-content}
+## Comprobación del contenido del correo electrónico {#testing-the-email-content}
 
 ### Previsualización del mensaje {#previewing-the-message}
 
@@ -66,7 +63,7 @@ En la pestaña **[!UICONTROL Preview]** de la ventana de edición de contenido, 
 
    ![](assets/deco-mail_06.png)
 
-### Ejecución de las reglas de tipología {#running-typology-rule}
+### Ejecutar regla de tipología {#running-typology-rule}
 
 Además del diagnóstico de la previsualización, se realiza una segunda comprobación al enviar una prueba o una entrega: una regla de tipología específica, **[!UICONTROL Deco-mail check]**, se inicia durante el análisis.
 
@@ -76,7 +73,7 @@ Además del diagnóstico de la previsualización, se realiza una segunda comprob
 
 Esta regla de tipología le permite asegurarse de que la entrega respeta las [limitaciones de formato](#limitations-and-recommendations) definidas por los operadores japoneses, especialmente en relación con el tamaño total del correo electrónico, el tamaño de las secciones HTML y de texto, el número de imágenes de los mensajes y las etiquetas del contenido HTML.
 
-### Envío de pruebas {#sending-proofs}
+### Envíe pruebas {#sending-proofs}
 
 Puede realizar pruebas para probar su entrega. Cuando envíe la prueba, si utiliza direcciones de sustitución, introduzca direcciones que correspondan al formato de correo electrónico del perfil utilizado.
 
@@ -91,7 +88,7 @@ Para enviar un correo electrónico a los destinatarios con formatos de correo el
 * Crear dos entregas: uno solo para los destinatarios japoneses y otro para otros destinatarios. Consulte [esta sección](#designing-a-specific-delivery-for-japanese-formats).
 * Crear una única entrega, y Adobe Campaign detecta automáticamente el formato que debe utilizar. Consulte [esta sección](#designing-a-delivery-for-all-formats).
 
-### Diseño de una entrega específica para formatos japoneses {#designing-a-specific-delivery-for-japanese-formats}
+### Diseño de un envío específico para formatos japoneses {#designing-a-specific-delivery-for-japanese-formats}
 
 Puede crear un flujo de trabajo que contenga dos entregas: uno para su lectura en un dispositivo móvil japonés y otro para los destinatarios con un formato de correo electrónico estándar.
 
@@ -101,7 +98,7 @@ Para ello, utilice la actividad **[!UICONTROL Split]** de su flujo de trabajo y 
 
 ![](assets/deco-mail_07.png)
 
-### Diseño de una entrega para todos los formatos {#designing-a-delivery-for-all-formats}
+### Diseñar una entrega para todos los formatos {#designing-a-delivery-for-all-formats}
 
 Cuando Adobe Campaign administra de forma dinámica los formatos según el dominio (perfiles con formatos de correo electrónico definidos como **[!UICONTROL Unknown]**, **[!UICONTROL HTML]** o **[!UICONTROL Text]** ), puede realizar el mismo envío a todos los destinatarios.
 

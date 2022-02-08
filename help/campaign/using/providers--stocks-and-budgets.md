@@ -2,12 +2,10 @@
 product: campaign
 title: Proveedores, stock y presupuestos
 description: Proveedores, stock y presupuestos
-audience: campaign
-content-type: reference
-topic-tags: orchestrate-campaigns
+feature: Budget Management
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
-workflow-type: ht
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
+workflow-type: tm+mt
 source-wordcount: '1902'
 ht-degree: 100%
 

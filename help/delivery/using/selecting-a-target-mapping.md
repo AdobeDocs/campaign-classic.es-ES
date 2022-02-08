@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: Selección de una asignación de destino
-description: Selección de una asignación de destino
-audience: delivery
-content-type: reference
-topic-tags: using-delivery-templates
+description: Obtenga información sobre cómo asignar objetivos
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -35,4 +32,4 @@ Estos mapeos son los siguientes:
 
 >[!NOTE]
 >
->También puede crear nuevos destinos de mapeo. Esta operación está reservada para usuarios expertos. Para obtener más información, consulte la [Guía de configuración](../../configuration/using/target-mapping.md).
+>También puede crear nuevos destinos de mapeo. Esta operación está reservada para usuarios expertos. Para obtener más información, consulte [esta sección](../../configuration/using/target-mapping.md).
