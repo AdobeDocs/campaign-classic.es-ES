@@ -3,11 +3,9 @@ product: campaign
 title: Entregas de campañas de marketing
 description: Más información sobre las entregas de campañas de marketing
 audience: campaign
-content-type: reference
-topic-tags: orchestrate-campaigns
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
-workflow-type: ht
+source-git-commit: d3f5c56078ddac7597925191fd347bdcab61714d
+workflow-type: tm+mt
 source-wordcount: '1487'
 ht-degree: 100%
 

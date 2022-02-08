@@ -6,8 +6,8 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
-workflow-type: ht
+source-git-commit: e88ed7a5710f9ec8713d9e7151d2fd4904097990
+workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 100%
 
@@ -108,7 +108,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <tr>
 <td>Libre Office</td>
 <td>
-<p>6 (y versiones anteriores si están incrustadas en el sistema)</p>
+<p>7 (y versiones anteriores si están incrustadas en el sistema)</p>
 </td>
 </tr>
 <tr>

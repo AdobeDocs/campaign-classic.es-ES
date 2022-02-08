@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 87067a0cca1a4a7f8ea1137ece6d513d58fcdb42
-workflow-type: ht
-source-wordcount: '913'
-ht-degree: 100%
+source-git-commit: 9d8eae6b9c31d98d5e7e14b61f3abcf46311304d
+workflow-type: tm+mt
+source-wordcount: '917'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Cada nueva compilación viene con un estado que se materializa con un color.
 
-![](assets/do-not-localize/green3.png) **Disponibilidad general** (GA): Validada en producción y recomendada por Adobe.
+![](assets/do-not-localize/green3.png) **Disponibilidad general** (GA) : última compilación estable, validada en producción y recomendada por Adobe.
 
 ![](assets/do-not-localize/limited3.png) **Disponibilidad limitada** (LA): solo implementación a petición.
 
@@ -41,7 +41,7 @@ Como usuario alojado, se beneficia automáticamente de la actualización con la 
 
 ## Recomendaciones{#recommendations}
 
-Para garantizar una configuración estable, le recomendamos que instale **la misma versión estable** en todos los servidores que se ejecuten en la misma configuración de cliente.
+Para garantizar una configuración estable, le recomendamos que instale **la misma compilación** en todos los servidores que se ejecutan en la misma configuración de cliente.
 
 Además, la consola de cliente debe contar con la misma versión que la instancia de servidor.
 
@@ -51,7 +51,7 @@ Para mantener la implementación actualizada, asegúrese de leer las páginas [F
 
 Como cliente alojado (servicio administrado o híbrido), debe ponerse en contacto con el equipo del Servicio de atención al cliente para que se actualice su entorno.
 
-Como usuario On-Premise, puede realizar la actualización. Para ello, debe [descargar la última versión estable](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) y actualizar todos sus entornos. Obtenga más información sobre el [proceso de actualización](../../production/using/build-upgrade.md) y consulte las [preguntas frecuentes sobre la actualización de la compilación](../../platform/using/faq-build-upgrade.md).
+Como usuario On-Premise, puede realizar la actualización. Para ello, debe [descargar la última versión estable (GA)](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) y actualice todos sus entornos. Obtenga más información sobre el [proceso de actualización](../../production/using/build-upgrade.md) y consulte las [preguntas frecuentes sobre la actualización de la compilación](../../platform/using/faq-build-upgrade.md).
 
 ## Actualización anual {#yearly-upgrade}
 
@@ -59,13 +59,13 @@ Adobe y Adobe Campaign se han comprometido a proporcionarle la mejor experiencia
 
 Adobe Campaign Classic, en concreto, utiliza una amplia gama de tecnologías para ofrecer valor. Esta combinación de tecnologías requiere que actualice las instancias de Campaign Classic de forma regular para garantizar que las versiones más actualizadas se utilicen para ofrecer seguridad, estabilidad y rendimiento superiores.
 
-Como usuario alojado, se beneficiará automáticamente de la actualización con la última versión sin tener que realizar ninguna acción. Obtenga más información en las preguntas frecuentes a continuación.
+Como usuario de , se beneficiará automáticamente de la actualización de  con la última versión de GA   sin tener que realizar ninguna acción. Obtenga más información en las preguntas frecuentes a continuación.
 
 ### ¿Por qué necesita mi organización esta actualización?
 
 Como cliente alojado, si se ha detectado que su cuenta debe actualizar una o más de las tecnologías relacionadas con Campaign Classic, así como actualizar la versión y/o la compilación actual, Adobe le notificará directamente.
 
-Como cliente on-premise o híbrido que se ejecuta en una versión anterior, Adobe le recomienda pasar a la versión más reciente.
+Como cliente local o híbrido que ejecuta una versión anterior, Adobe le anima a pasar a la última versión estable (GA).
 
 Esto garantiza que su cuenta está segura frente a vulnerabilidades y que puede aprovechar la tecnología de rendimiento actualizada. Esta actualización también posicionará su cuenta para recibir actualizaciones más sencillas y regulares que requerirán menos trabajo manual y menos intervención.
 
