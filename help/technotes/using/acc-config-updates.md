@@ -3,10 +3,10 @@ product: campaign
 title: 'Nota técnica: Actualizaciones de configuración de Adobe Campaign'
 description: Actualizaciones de configuración de Adobe Campaign
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
+source-git-commit: 0f31ee570ba6e763f48902e91c5d823ac297fc24
 workflow-type: tm+mt
 source-wordcount: '1137'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
@@ -101,7 +101,7 @@ Una vez actualizadas todas las instancias, la consola de cliente también debe a
 
 ## Integración con Déclencheur de Experience Cloud {#acc-triggers-updates}
 
-El servicio de autenticación oAuth heredado ha llegado al final de su vida útil. La autenticación de integración de déclencheur, basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización, se ha trasladado a Adobe I/O. Modo de autenticación oAuth heredado con Campaign [ha sido retirado](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=es) en **Septiembre de 2021**. Los entornos alojados se benefician de una extensión hasta el **23 de febrero de 2022**. Como cliente on-premise o híbrido, póngase en contacto con el Servicio de atención al cliente de Adobe para ampliar la asistencia hasta febrero de 2022. Debe proporcionar [el AppID de la aplicación OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) a Adobe.
+El servicio de autenticación oAuth heredado ha llegado al final de su vida útil. La autenticación de integración de déclencheur, basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización, se ha trasladado a Adobe I/O. Modo de autenticación oAuth heredado con Campaign [ha sido retirado](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=es) en **Septiembre de 2021**. Los entornos alojados se benefician de una extensión hasta  **23 de febrero de 2022**. Como cliente local o híbrido, póngase en contacto con el servicio de atención al cliente de Adobe para ampliar la asistencia hasta febrero de 2022. Debe proporcionar [el AppID de la aplicación OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) a Adobe.
 
 **¿Se ha visto afectado?**
 
