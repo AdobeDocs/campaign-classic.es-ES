@@ -2,14 +2,11 @@
 product: campaign
 title: Propiedades del informe
 description: Más información sobre la configuración de las propiedades del informe
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
 exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
-source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -52,7 +49,7 @@ Las opciones posibles son:
 * **[!UICONTROL Access control]**: esta opción permite a los operadores de Adobe Campaign acceder una vez que han iniciado sesión.
 * **[!UICONTROL Specific account]**: esta opción permite ejecutar el informe con los derechos del operador seleccionado en el campo **[!UICONTROL Operator]**.
 
-## Administración de la localización de informes {#managing-report-localization}
+## Traducción del informe {#report-localization}
 
 Puede configurar los idiomas a los que desea traducir el informe. Para ello, haga clic en la pestaña **[!UICONTROL Localization]**.
 
@@ -66,7 +63,7 @@ El idioma de edición es el idioma en el que se escribe. Cuando se añade un idi
 >
 >Para obtener más información sobre la localización de páginas web en Campaign, consulte [esta sección](../../web/using/translating-a-web-form.md).
 
-## Personalización del procesamiento HTML {#personalizing-html-rendering}
+## Personalización de la renderización del HTML {#personalizing-html-rendering}
 
 En la pestaña **[!UICONTROL Rendering]**, se puede personalizar el modo de visualización de datos de la página. Puede seleccionar:
 

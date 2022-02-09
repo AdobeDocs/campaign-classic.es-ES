@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
-source-git-commit: 1e2c20befebf2343cb0f781aa7f2bd1ed6b3f383
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '2540'
-ht-degree: 100%
+source-wordcount: '2543'
+ht-degree: 99%
 
 ---
 
@@ -215,7 +215,7 @@ Obtenga más información en la página [Funciones obsoletas y eliminadas](../..
 * Se ha corregido un problema que se producía al usar aplicaciones web, que provocaba que las etiquetas de seguimiento generaran claves principales incorrectas en el esquema **nms:trackingURL**. (NEO-27931)
 * La compatibilidad con ODBC 3.x se ha mejorado para garantizar la precisión de los mensajes de error.
 * Se ha corregido un problema que podía provocar bloqueos de la consola cuando se utilizaban plantillas de contenido personalizadas en las entregas de correo electrónico. (NEO-31547)
-* Se ha corregido un problema que impedía que Tomcat enviara respuestas válidas debido a una conexión lenta o a un tamaño de respuesta grande.
+* Se ha corregido un problema que impedía que Tomcat enviara respuestas válidas debido a una conexión lenta o a un tamaño de respuesta grande. (NEO-30858)
 * Se ha corregido un problema que se podía producir al leer un UUID desde una base de datos PostgreSQL.
 * Se ha corregido un problema que podía provocar problemas de rendimiento al buscar datos de propuestas vinculados a ofertas. (NEO-27554)
 * Se ha corregido un problema que provocaba que el proceso web no respondiera cuando el servicio IMS se activaba, pero no respondía.
@@ -277,7 +277,7 @@ Si desea participar en esta versión beta privada, rellene este [formulario](htt
 * Se ha corregido un problema que provocaba que algunos caracteres del código fuente se alteraran al volver a abrir una aplicación web previamente creada y guardada. (NEO-27597)
 * Se ha corregido un problema que se podía producir al actualizar a una compilación, incluido el nuevo mecanismo de firma para el seguimiento de vínculos (desde la compilación 19.1.4 y la Campaign 20.2): cuando se asocian varias plantillas a un evento, la actualización puede hacer que se seleccione una plantilla incorrecta al enviar el mensaje transaccional. (NEO-28326)
 * Se ha corregido un problema que provocaba que el servidor de correo dejara de responder y no pudiera procesar envíos a menos que se reiniciara. (NEO-27455)
-* Se ha corregido un problema en la base de datos MSSQL relacionado con la administración de marcas de tiempo durante las operaciones de carga masiva de una columna de tipo datetime.
+* Se ha corregido un problema en la base de datos MSSQL relacionado con la administración de zona horaria durante operaciones de carga masiva para una columna de tipo datetime. (NEO-27375)
 * Se ha corregido un problema de consulta del flujo de trabajo al usar las funciones xtk de Redshift. Los SubDays, SubSeconds, SubMinutes y SubHours ahora aceptan ambos tipos de marcas de tiempo de Redshift (NEO-24962).
 * Se ha corregido un problema que mostraba un mensaje de error de secuencia de comandos al intentar la previsualización de un informe con acceso anónimo. (NEO-27081)
 * Se ha corregido un problema que podía reducir el uso de memoria en el servidor al realizar el análisis del envío.

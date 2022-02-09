@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: Creación de un gráfico
-description: Creación de un gráfico
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
+description: Aprenda a diseñar un gráfico
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
-source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 100%
+source-wordcount: '525'
+ht-degree: 98%
 
 ---
 
@@ -127,7 +124,7 @@ En [esta sección](../../web/using/static-elements-in-a-web-form.md#inserting-ht
 
 ![](assets/s_ncs_advuser_report_wizard_017.png)
 
-## Cálculo de estadísticas {#calculating-statistics}
+## Estadísticas de cómputo {#calculating-statistics}
 
 Los gráficos permiten mostrar las estadísticas de los datos recopilados.
 

@@ -2,14 +2,11 @@
 product: campaign
 title: Diseño de elementos
 description: Diseño de elementos
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
 exl-id: 79d5c901-905b-4a0e-adb9-91fd6acb186f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 100%
+source-wordcount: '415'
+ht-degree: 92%
 
 ---
 
@@ -17,13 +14,13 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Además de los diversos gráficos detallados aquí: [Tipos de gráficos y variantes](../../reporting/using/creating-a-chart.md#chart-types-and-variants), puede adaptar la visualización y agregar elementos a las páginas de informes.
+Además de los diversos gráficos detallados [here](../../reporting/using/creating-a-chart.md#chart-types-and-variants), puede adaptar la visualización y añadir elementos a las páginas del informe.
 
 Puede utilizar contenedores: estos permiten vincular varios elementos de una página y configurar su diseño en columnas o celdas. En [esta sección](../../web/using/defining-web-forms-layout.md#creating-containers) se describe cómo utilizarlos.
 
 Puede configurar el diseño del informe en la raíz del árbol y recargarlo para cada contenedor. Las páginas se ordenan en columnas. Los contenedores también se ordenan en columnas. Solo los elementos estáticos y gráficos se ordenan en celdas.
 
-## Definición de las opciones de cada página {#defining-the-options-for-each-page}
+## Defina las opciones de cada página {#defining-the-options-for-each-page}
 
 Puede utilizar las opciones en cada página del informe.
 

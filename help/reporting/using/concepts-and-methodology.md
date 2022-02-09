@@ -1,15 +1,12 @@
 ---
 product: campaign
-title: Conceptos y metodología
-description: Conceptos y metodología
-audience: reporting
-content-type: reference
-topic-tags: designing-reports-with-cubes
+title: Prácticas recomendadas para cubos
+description: Prácticas recomendadas para cubos
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 100%
+source-wordcount: '1493'
+ht-degree: 96%
 
 ---
 
@@ -35,7 +32,7 @@ Puede crear bandejas manualmente o enlazarlas a una enumeración existente.
 
 Adobe Campaign también ofrece un asistente para el agrupamiento automático: los valores se pueden desglosar en “n” grupos o agrupar según los valores más frecuentes de la base de datos.
 
-### Definición de cada grupo {#defining-each-bin}
+### Definir cada grupo {#defining-each-bin}
 
 Para crear cada grupo individualmente, seleccione la opción **[!UICONTROL Define each bin]** y utilice la tabla para crear los distintos grupos.
 
@@ -68,7 +65,7 @@ Para crear este tipo de agrupamiento de valores, siga los pasos siguientes:
 
    Siempre que se actualizan los valores de la lista desglosada, los grupos coincidentes se adaptan automáticamente.
 
-### Creación de rangos de valores {#creating-value-ranges}
+### Crear rangos de valores {#creating-value-ranges}
 
 Puede agrupar los valores en rangos basados en un intervalo deseado.
 
@@ -78,7 +75,7 @@ Para definir intervalos manualmente, haga clic en el botón **[!UICONTROL Add]**
 
 A continuación, especifique los límites inferior y superior y haga clic en **[!UICONTROL Ok]** para confirmar.
 
-### Generación automática de grupos {#generating-bins-automatically}
+### Generar grupos automáticamente {#generating-bins-automatically}
 
 También es posible generar grupos automáticamente. Para ello, haga clic en el vínculo **[!UICONTROL Generate bins...]**.
 
@@ -122,7 +119,7 @@ La enumeración **[!UICONTROL Domains]** se utiliza para generar informes integr
 
 Puede crear otras enumeraciones reservadas para agrupamiento y utilizarlas en otros cubos: todos los valores de alias se reagrupan en las bandejas especificadas en la primera pestaña de enumeración.
 
-## Cálculo y uso de acumulados {#calculating-and-using-aggregates}
+## Calcular y utilizar agregados {#calculating-and-using-aggregates}
 
 Los volúmenes de datos más grandes se pueden calcular en acumulados.
 
@@ -158,7 +155,7 @@ Para crear un nuevo acumulado, siga los siguientes pasos:
 
       ![](assets/s_advuser_cube_agregate_05.png)
 
-## Definición de medidas {#defining-measures}
+## Defina las medidas {#defining-measures}
 
 Los tipos de medidas se definen en la pestaña **[!UICONTROL Measures]** del cubo. Puede calcular sumas, promedios, desviaciones, etc.
 
@@ -182,13 +179,13 @@ Para definir una nueva medida, siga los siguientes pasos:
 
 1. Introduzca la etiqueta de la medida y añada una descripción; luego, haga clic en **[!UICONTROL Finish]** para crearla.
 
-## Visualización de medidas {#displaying-measures}
+## Mostrar medidas {#displaying-measures}
 
 Se puede configurar la visualización de las medidas en la tabla según sus necesidades:
 
 * la secuencia de visualización de las medidas (consulte [Secuencia de visualización](#display-sequence)),
-* la información que se desea mostrar u ocultar en el informe (consulte [Configuración de la visualización](#configuring-the-display)),
-* qué medidas mostrar: porcentaje, total, número de decimales, etc. (consulte [Modificación del tipo de medida mostrada](#changing-the-type-of-measure-displayed)).
+* la información que se desea mostrar u ocultar en el informe (consulte [Configuración de la visualización](#configuring-the-display))
+* qué medidas mostrar: porcentaje, total, número de decimales, etc. (consulte [Cambiar el tipo de medida mostrada](#changing-the-type-of-measure-displayed)).
 
 ### Secuencia de visualización {#display-sequence}
 
@@ -212,13 +209,13 @@ Las opciones de color permiten resaltar valores importantes para facilitar la le
 
 ![](assets/s_advuser_cube_in_report_config_06.png)
 
-### Modificación del tipo de medida mostrada {#changing-the-type-of-measure-displayed}
+### Cambiar el tipo de medida mostrada {#changing-the-type-of-measure-displayed}
 
 En cada medida, se puede definir la unidad y el formato que se va a aplicar.
 
 ![](assets/s_advuser_cube_in_report_config_07.png)
 
-## Uso compartido de informes {#sharing-a-report}
+## Compartir el informe {#sharing-a-report}
 
 Una vez configurado el informe, puede guardarlo y compartirlo con otros operadores.
 

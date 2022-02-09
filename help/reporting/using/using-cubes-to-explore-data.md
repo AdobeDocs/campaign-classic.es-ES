@@ -2,14 +2,11 @@
 product: campaign
 title: Uso de cubos para explorar datos
 description: Uso de cubos para explorar datos
-audience: reporting
-content-type: reference
-topic-tags: designing-reports-with-cubes
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
 source-wordcount: '956'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -19,15 +16,15 @@ ht-degree: 100%
 
 Marketing Analytics facilita la creación de informes y la identificación y selección de datos de la base de datos mediante cubos. Esta actividad permite:
 
-* Crear informes basados en cubos. El proceso se detalla aquí: [Exploración de los datos de un informe](#exploring-the-data-in-a-report).
-* Recopilar los datos de la base de datos y agruparlos en listas, por ejemplo, para identificar y crear destinatarios y envíos. Para más información, consulte [Creación de un grupo de destinatarios](#building-a-target-population).
-* Insertar una tabla dinámica en un informe y hacer referencia a un cubo existente en él. Para más información, consulte [Inserción de una tabla dinámica en un informe](#inserting-a-pivot-table-into-a-report).
+* Crear informes basados en cubos. El proceso se detalla aquí: [Explorar los datos de un informe](#exploring-the-data-in-a-report).
+* Recopilar los datos de la base de datos y agruparlos en listas, por ejemplo, para identificar y crear destinatarios y envíos. Para obtener más información, consulte [Creación de una población objetivo](#building-a-target-population).
+* Insertar una tabla dinámica en un informe y hacer referencia a un cubo existente en él. Para obtener más información, consulte [Insertar una tabla dinámica en un informe](#inserting-a-pivot-table-into-a-report).
 
 >[!NOTE]
 >
 >Se requiere Marketing Analytics para crear o modificar los cubos. Para más información, consulte [Sobre cubos](../../reporting/using/about-cubes.md).
 
-## Exploración de los datos de un informe {#exploring-the-data-in-a-report}
+## Explorar los datos de un informe {#exploring-the-data-in-a-report}
 
 ### Paso 1: Creación de un informe basado en un cubo {#step-1---creating-a-report-based-on-a-cube}
 
@@ -54,7 +51,7 @@ Los botones **[!UICONTROL Add]** en cada eje permiten añadir dimensiones.
 
    Los parámetros dependen del tipo de datos de la dimensión seleccionada.
 
-   Por ejemplo, en el caso de las fechas, puede haber disponibles varios niveles. Para más información, consulte [Muestra de medidas](../../reporting/using/concepts-and-methodology.md#displaying-measures).
+   Por ejemplo, en el caso de las fechas, puede haber disponibles varios niveles. Para obtener más información, consulte [Mostrar medidas](../../reporting/using/concepts-and-methodology.md#displaying-measures).
 
    En este caso se ofrecen las siguientes opciones:
 
@@ -96,7 +93,7 @@ De forma predeterminada, solo se muestra una medida. Para añadir o configurar m
 
    ![](assets/s_advuser_cube_in_report_config_02.png)
 
-   A continuación puede elegir si desea mostrar o no las etiquetas de medida. Para más información, consulte [Configuración de la visualización](../../reporting/using/concepts-and-methodology.md#configuring-the-display).
+   A continuación puede elegir si desea mostrar o no las etiquetas de medida. Para obtener más información, consulte [Configuración de la visualización](../../reporting/using/concepts-and-methodology.md#configuring-the-display).
 
 1. Es posible crear nuevas medidas utilizando las existentes. Para ello, haga clic en **[!UICONTROL Create a measure]** y configúrelo.
 
@@ -156,7 +153,7 @@ Para agrupar una población en una lista, siga los siguientes pasos:
 
    ![](assets/s_advuser_cube_in_report_config_02g.png)
 
-## Inserción de una tabla dinámica en un informe {#inserting-a-pivot-table-into-a-report}
+## Insertar una tabla dinámica en un informe {#inserting-a-pivot-table-into-a-report}
 
 Para crear una tabla y explorar los datos de un cubo, siga los siguientes pasos:
 

@@ -2,14 +2,11 @@
 product: campaign
 title: Acciones sobre los informes
 description: Acciones sobre los informes
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 100%
+source-wordcount: '544'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +22,7 @@ Por ejemplo, la barra de herramientas permite exportar, imprimir, archivar o mos
 
 ![](assets/s_ncs_advuser_report_wizard_04.png)
 
-## Exportación de un informe {#exporting-a-report}
+## Exportar un informe {#exporting-a-report}
 
 Seleccione el formato en el que desee exportar el informe desde la lista desplegable. (.xls, .pdf, .ods).
 
@@ -56,7 +53,7 @@ Para informes de tipo **[!UICONTROL List with group]** que se van a exportar a E
 * Los informes no deben utilizar un formato específico definido al nivel de celda. Es preferible utilizar **[!UICONTROL Form rendering]** para definir el formato de las celdas de la tabla. Se puede acceder a **[!UICONTROL Form rendering]** a través de **[!UICONTROL Administration > Configuration > Form rendering]**.
 * No se recomienda insertar contenido HTML.
 * Si un informe contiene varios elementos de tipo tabla, gráfico, etc., se exportan uno debajo del otro.
-* Se puede forzar el retorno de carro en las celdas: esta configuración se conserva en Excel. Para obtener más información, consulte [Definición del formato de celdas](../../reporting/using/creating-a-table.md#defining-cell-format).
+* Se puede forzar el retorno de carro en las celdas: esta configuración se conserva en Excel. Para obtener más información, consulte [esta sección](../../reporting/using/creating-a-table.md#defining-cell-format).
 
 ### Aplazamiento de la exportación {#postpone-the-export}
 
@@ -84,7 +81,7 @@ Para obtener más información sobre el archivo **serverConf.xml**, consulte [es
 
 Para obtener más información sobre el servicio **nlserver**, consulte [esta sección](../../production/using/administration.md).
 
-## Impresión de informes {#printing-a-report}
+## Imprimir un informe {#printing-a-report}
 
 Se puede imprimir el informe. Para ello, haga clic en el icono de impresora: esto abre el cuadro de diálogo correspondiente.
 
@@ -92,7 +89,7 @@ Para obtener un mejor resultado, edite las opciones de impresión de Internet Ex
 
 ![](assets/s_ncs_advuser_report_print_options.png)
 
-## Creación de archivos de informes {#creating-report-archives}
+## Crear archivos de informes {#creating-report-archives}
 
 El archivado de un informe permite crear una vista del informe en varios periodos, por ejemplo para mostrar las estadísticas de un periodo determinado.
 

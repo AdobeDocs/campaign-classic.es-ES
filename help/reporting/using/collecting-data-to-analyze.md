@@ -2,14 +2,11 @@
 product: campaign
 title: Recopilación de datos para analizar
 description: Recopilación de datos para analizar
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
 exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
 source-wordcount: '503'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -41,7 +38,7 @@ El ejemplo siguiente permite recopilar el número de destinatarios de cada país
 
 ![](assets/reporting_query_from_schema.png)
 
-## Uso de una lista importada {#using-an-imported-list}
+## Usar una lista importada {#using-an-imported-list}
 
 Para crear un informe, puede utilizar datos de una lista de datos importados.
 
@@ -75,7 +72,7 @@ La opción **[!UICONTROL Filter with the folder]** permite especificar una carpe
 
 ![](assets/reporting_control_folder.png)
 
-### Limitación de la cantidad de datos recopilados {#limiting-the-amount-of-data-collected}
+### Limitar la cantidad de datos recopilados {#limiting-the-amount-of-data-collected}
 
 Configure el número de registros que desea que extraiga la consulta a través de las opciones de limitación de resultados:
 

@@ -2,14 +2,11 @@
 product: campaign
 title: Creación de indicadores
 description: Creación de indicadores
-audience: reporting
-content-type: reference
-topic-tags: designing-reports-with-cubes
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 100%
+source-wordcount: '715'
+ht-degree: 93%
 
 ---
 
@@ -21,16 +18,16 @@ Para que un sea cubo funcional, se deben identificar las dimensiones y las medid
 
 Para crear un cubo, siga los pasos siguientes:
 
-1. Seleccione la tabla de trabajo. Consulte [Selección de la tabla de trabajo](#selecting-the-work-table).
-1. Defina las dimensiones. Consulte [Definición de dimensiones](#defining-dimensions).
-1. Defina las medidas. Consulte [Generación de indicadores](#building-indicators).
-1. Cree acumulados (opcional). Consulte [Cálculo y uso de agregados](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).
+1. Seleccione la tabla de trabajo. Consulte [Seleccionar la tabla de trabajo](#selecting-the-work-table).
+1. Defina las dimensiones. Consulte [Definir dimensiones](#defining-dimensions).
+1. Defina las medidas. Consulte [Indicadores de compilación](#building-indicators).
+1. Cree acumulados (opcional). Consulte [Calcular y utilizar agregados](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).
 
 Este ejemplo muestra la forma de crear rápidamente un cubo simple en un informe para exportar sus medidas.
 
 Los pasos de implementación se detallan a continuación. Hay disponibles opciones y descripciones exhaustivas en las demás secciones de este capítulo.
 
-## Selección de la tabla de trabajo {#selecting-the-work-table}
+## Seleccione la tabla de trabajo {#selecting-the-work-table}
 
 Para crear una nueva plantilla, haga clic en el botón **[!UICONTROL New]** situado sobre la lista de cubos.
 
@@ -46,7 +43,7 @@ Haga clic en el vínculo **[!UICONTROL Filter the source data...]** para aplicar
 
 ![](assets/s_advuser_cube_wz_03.png)
 
-## Definición de dimensiones {#defining-dimensions}
+## Defina las dimensiones {#defining-dimensions}
 
 Las dimensiones coinciden con los ejes de análisis definidos para cada cubo en función del esquema de hechos relacionado. Estas son las dimensiones exploradas en el análisis, como el tiempo (año, mes, fecha, etc.), la clasificación de productos o contratos (familia, referencia, etc.), segmento de población (por ciudad, grupo de edad, estado, etc.).
 
@@ -92,7 +89,7 @@ Haga clic en el botón **[!UICONTROL Add]** para crear una nueva dimensión y lu
 
    Para obtener más información, consulte [Administración dinámica de grupos](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins).
 
-## Indicadores de creación {#building-indicators}
+## Indicadores de compilación {#building-indicators}
 
 Una vez definidas las dimensiones, se debe especificar un modo de cálculo para que los valores se muestren en las celdas. Para ello, cree los indicadores coincidentes en la pestaña **[!UICONTROL Measures]**: cree tantas medidas como columnas que se deben mostrar en el informe que usa el cubo.
 
@@ -131,7 +128,7 @@ Para ello:
 
    ![](assets/s_advuser_cube_wz_15.png)
 
-1. Puede cambiar los ejes de la dimensión, eliminarlos, agregar nuevas medidas, etc. Las operaciones posibles se detallan aquí: [Uso de cubos para explorar datos](../../reporting/using/using-cubes-to-explore-data.md).
+1. Puede cambiar los ejes de la dimensión, eliminarlos, agregar nuevas medidas, etc. Las operaciones posibles se detallan en [esta página](../../reporting/using/using-cubes-to-explore-data.md).
 
    Para ello, utilice los iconos adecuados.
 

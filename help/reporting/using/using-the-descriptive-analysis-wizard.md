@@ -2,14 +2,11 @@
 product: campaign
 title: Uso del asistente de análisis descriptivo
 description: Uso del asistente de análisis descriptivo
-audience: reporting
-content-type: reference
-topic-tags: analyzing-populations
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -19,7 +16,7 @@ ht-degree: 100%
 
 Para crear un informe de análisis descriptivo, utilice el asistente dedicado. La configuración depende de los datos que se analicen y de la renderización deseada.
 
-## Análisis de los datos de la base de datos {#analyzing-data-in-the-database}
+## Analizar datos en la base de datos {#analyzing-data-in-the-database}
 
 El asistente de análisis descriptivo se puede iniciar mediante el menú **[!UICONTROL Tools > Descriptive analysis]**: en este caso, el análisis corresponde a los destinatarios de forma predeterminada (**nms:recipient**). Se aplica a todos los datos de la base de datos de Adobe Campaign.
 
@@ -35,7 +32,7 @@ Si desea generar estadísticas sobre una parte de los datos, puede definir un fi
 
 El análisis solo corresponde a los destinatarios de la base de datos mayores a 16 años y que viven en Londres.
 
-## Análisis de un conjunto de datos {#analyzing-a-set-of-data}
+## Analizar un conjunto de datos {#analyzing-a-set-of-data}
 
 Puede utilizar el asistente de análisis descriptivo a través de un contexto diferente: una lista, una transición de flujo de trabajo, uno o varios envíos, una selección de destinatarios, etc.
 
@@ -51,19 +48,19 @@ Abra el asistente de análisis descriptivo seleccionando elementos y haciendo cl
 
    Para ver un ejemplo del análisis descriptivo de los destinatarios, consulte [Análisis de datos cualitativos](../../reporting/using/use-cases.md#qualitative-data-analysis).
 
-* En el contexto de un **flujo de trabajo**, coloque el cursor sobre una transición que señale a la tabla de destinatarios, haga clic con el botón derecho y seleccione **[!UICONTROL Analyze target]**. Para obtener más información, consulte el ejemplo en [Análisis de un destino de transición en un flujo de trabajo](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow).
+* En el contexto de un **flujo de trabajo**, coloque el cursor sobre una transición que señale a la tabla de destinatarios, haga clic con el botón derecho y seleccione **[!UICONTROL Analyze target]**. Para obtener más información, consulte el ejemplo en [Análisis de un objetivo de transición en un flujo de trabajo](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow).
 * Para las **listas**, seleccione una o varias listas y aplique el mismo proceso que para los destinatarios.
 * En el contexto de una **entrega**, seleccione los envíos cuyo destinatario desee analizar, haga clic con el botón derecho y seleccione **[!UICONTROL Actions > Explore the target]**, como se muestra a continuación:
 
    ![](assets/reporting_descriptive_from_deliveries.png)
 
-   A continuación, se proporcionan ejemplos de análisis descriptivos de los envíos: [Análisis de una población](../../reporting/using/use-cases.md#analyzing-a-population) y: [Análisis de los registros de seguimiento de destinatarios](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs).
+   A continuación se proporcionan ejemplos de análisis descriptivos de las entregas: [Analizar una población](../../reporting/using/use-cases.md#analyzing-a-population) y aquí: [Analizar los registros de seguimiento de destinatarios](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs).
 
 ## Configuración de la plantilla de distribución cualitativa {#configuring-the-qualitative-distribution-template}
 
 La plantilla de **[!UICONTROL Qualitative distribution]** permite crear estadísticas sobre todos los tipos de datos (por ejemplo: nombre de la empresa, dominio de correo electrónico).
 
-Las opciones de configuración disponibles para un informe creado mediante la plantilla de distribución **[!UICONTROL Qualitative distribution]** se detallan en [Visualización de datos en la tabla](#displaying-data-in-the-table). Un ejemplo completo se detalla en [Análisis de una población](../../reporting/using/use-cases.md#analyzing-a-population).
+Opciones de configuración disponibles para un informe creado mediante la variable **[!UICONTROL Qualitative distribution]** la plantilla se detalla en [Visualización de datos en la tabla](#displaying-data-in-the-table). Un ejemplo completo se detalla en [Analizar una población](../../reporting/using/use-cases.md#analyzing-a-population).
 
 Cuando utiliza el asistente de análisis descriptivo para analizar los datos, las opciones disponibles dependen de la configuración elegida. A continuación se detallan dichas acciones.
 
@@ -234,4 +231,4 @@ Las siguientes operaciones son posibles:
 
    ![](assets/reporting_descriptive_view_report.png)
 
-   Para realizar cambios en el informe, consulte [Procesamiento de un informe](../../reporting/using/processing-a-report.md).
+   Para realizar cambios en el informe, consulte [Procesamiento de informes](../../reporting/using/processing-a-report.md).

@@ -2,13 +2,10 @@
 product: campaign
 title: Informes sobre entregas
 description: Informes sobre entregas
-audience: reporting
-content-type: reference
-topic-tags: accessing-built-in-reports
 exl-id: dcbf280c-3040-4218-a453-1497662fef2e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '211'
 ht-degree: 100%
 
 ---
@@ -27,7 +24,6 @@ Están disponibles los siguientes tipos de informe:
 
 Puede acceder a los informes desde la página principal de la consola del cliente, el panel de informes o la lista de envíos. El modo de visualización de un informe depende de su contexto. La lista de informes principales está disponible en la página principal y le permite acceder rápidamente a los datos de envío. La lista se puede modificar para adaptarla a las necesidades. Consulte [esta sección](../../reporting/using/about-reports-creation-in-campaign.md) para obtener más información.
 
-## Uso de los informes {#using-reports}
 
 Hay disponible un campo de búsqueda a través del panel de informes para acceder rápidamente a uno de los informes de la lista.
 

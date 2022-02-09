@@ -2,14 +2,11 @@
 product: campaign
 title: Definición de contenido condicional
 description: Definición de contenido condicional
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
 exl-id: efee50f7-d917-4c71-add2-116c4b8f7013
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -19,11 +16,11 @@ ht-degree: 100%
 
 Se puede condicionar la visualización de elementos o páginas específicas del informe.
 
-Para que los elementos específicos sean condicionales, adapte su configuración de visibilidad. Para obtener más información, consulte [Condicionamiento de la visualización de elementos](#conditioning-item-display).
+Para que los elementos específicos sean condicionales, adapte su configuración de visibilidad. Para obtener más información, consulte [Visualización del elemento de condición](#conditioning-item-display).
 
-Para que la visualización de una o más páginas sea condicional, utilice una actividad de tipo **[!UICONTROL Test]**. Para obtener más información, consulte [Determinación de la visualización de la página](#conditioning-page-display).
+Para que la visualización de una o más páginas sea condicional, utilice una actividad de tipo **[!UICONTROL Test]**. Para obtener más información, consulte [Visualización de la página Condición](#conditioning-page-display).
 
-## Condiciones de visualización de elementos {#conditioning-item-display}
+## Visualización del elemento de condición {#conditioning-item-display}
 
 Para que la visualización de parte de un informe sea condicional, debe definir sus condiciones de visibilidad: si no se cumplen, los elementos no se muestran.
 
@@ -35,7 +32,7 @@ En el ejemplo siguiente, la condición de visualización depende del idioma:
 
 ![](assets/reporting_display_condition.png)
 
-## Condiciones de visualización de la página {#conditioning-page-display}
+## Visualización de la página Condición {#conditioning-page-display}
 
 En el gráfico de un informe, la actividad **[!UICONTROL Test]** permite cambiar la secuencia de las páginas en función de una o varias condiciones.
 

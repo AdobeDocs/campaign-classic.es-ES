@@ -2,14 +2,11 @@
 product: campaign
 title: Creación de una tabla
 description: Creación de una tabla
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
 source-wordcount: '2495'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -21,13 +18,13 @@ Puede añadir una tabla a un informe para visualizar los datos. Puede ser una ta
 
 ![](assets/s_advuser_report_page_activity_05.png)
 
-## Creación de una lista con grupo {#creating-a-list-with-group}
+## Crear una lista con grupo {#creating-a-list-with-group}
 
 Una tabla de tipo **[!UICONTROL List with group]** permite agrupar datos en la tabla y generar estadísticas sobre ella. Por ejemplo, puede crear totales y subtotales de los datos. Cada grupo tiene su propio encabezado, detalle y pie de página.
 
 >[!CAUTION]
 >
->La actividad **[!UICONTROL Page]** que contiene la tabla debe ir precedida por una actividad **[!UICONTROL Query]** o **[!UICONTROL Script]** para recopilar los datos que desee analizar en el informe. Para obtener más información sobre estas actividades, consulte [Recopilación de datos para analizar](../../reporting/using/collecting-data-to-analyze.md) y [Actividad de secuencia de comandos](../../reporting/using/advanced-functionalities.md#script-activity).
+>La actividad **[!UICONTROL Page]** que contiene la tabla debe ir precedida por una actividad **[!UICONTROL Query]** o **[!UICONTROL Script]** para recopilar los datos que desee analizar en el informe. Para obtener más información sobre estas actividades, consulte [Recopilar datos para analizar](../../reporting/using/collecting-data-to-analyze.md) y [Actividad de secuencia de comandos](../../reporting/using/advanced-functionalities.md#script-activity).
 
 ### Principio de funcionamiento {#operating-principle}
 
@@ -45,7 +42,7 @@ Aquí se proporciona un ejemplo completo de implementación: [Caso de uso: Cree 
 
 Tenga en cuenta los siguientes pasos para crear una tabla de tipo “Lista con grupo”:
 
-1. Vaya al gráfico del informe y coloque una actividad **[!UICONTROL Query]**. Consulte [Recopilación de datos para analizar](../../reporting/using/collecting-data-to-analyze.md).
+1. Vaya al gráfico del informe y coloque una actividad **[!UICONTROL Query]**. Consulte [Recopilar datos para analizar](../../reporting/using/collecting-data-to-analyze.md).
 1. Rellene la tabla de origen y seleccione los campos de la tabla que corresponden a las estadísticas.
 1. Coloque una actividad **[!UICONTROL Page]** en el gráfico. Para obtener más información, consulte [Elementos estáticos](../../reporting/using/creating-a-new-report.md#static-elements).
 1. Inserte una tabla de texto **[!UICONTROL List with group]** en la página.
@@ -54,9 +51,9 @@ Tenga en cuenta los siguientes pasos para crear una tabla de tipo “Lista con g
    Este paso es obligatorio si desea recuperar los campos de la tabla de origen posteriormente e insertarlos en las celdas de la tabla.
 
 1. Creación de una tabla y su contenido.
-1. Visualice el informe terminado en la pestaña **[!UICONTROL Preview]**. Luego puede publicar el informe y exportarlo a un formato diferente en caso necesario. Para obtener más información, consulte [Exportación de un informe](../../reporting/using/actions-on-reports.md#exporting-a-report).
+1. Visualice el informe terminado en la pestaña **[!UICONTROL Preview]**. Luego puede publicar el informe y exportarlo a un formato diferente en caso necesario. Para obtener más información, consulte [Exportar un informe](../../reporting/using/actions-on-reports.md#exporting-a-report).
 
-### Adición de líneas y columnas {#adding-lines-and-columns}
+### Agregar líneas y columnas {#adding-lines-and-columns}
 
 De forma predeterminada, una tabla de texto **[!UICONTROL List with group]** incluye un encabezado, una línea de detalle y una línea de pie de página.
 
@@ -94,7 +91,7 @@ El ancho de las columnas se puede modificar mediante el elemento **[!UICONTROL C
 
 ![](assets/s_advuser_ergo_listgroup_007.png)
 
-### Definición del contenido de la celda {#defining-cell-content}
+### Definir el contenido de la celda {#defining-cell-content}
 
 Para editar una celda de la tabla y definir su contenido y formato, vaya a la celda y utilice el menú del botón derecho.
 
@@ -118,7 +115,7 @@ Utilice la entrada de menú **[!UICONTROL Expression]** para seleccionar los val
 
    ![](assets/s_advuser_ergo_listgroup_008.png)
 
-### Definición del formato de la celda {#defining-cell-format}
+### Definir formato de celda {#defining-cell-format}
 
 ![](assets/s_advuser_ergo_listgroup_017.png)
 
@@ -126,7 +123,7 @@ Para definir el formato de celda, el menú **[!UICONTROL Cell format...]** permi
 
 Estas opciones permiten personalizar la renderización final del informe y facilitar la lectura de la información.
 
-Utilice el campo **[!UICONTROL Carriage return]** para exportar datos a Excel: seleccione el valor **[!UICONTROL Yes]** para forzar el retorno de carro. Este valor se mantiene al exportar. Para obtener más información, consulte [Exportación de un informe](../../reporting/using/actions-on-reports.md#exporting-a-report).
+Utilice el campo **[!UICONTROL Carriage return]** para exportar datos a Excel: seleccione el valor **[!UICONTROL Yes]** para forzar el retorno de carro. Este valor se mantiene al exportar. Para obtener más información, consulte [Exportar un informe](../../reporting/using/actions-on-reports.md#exporting-a-report).
 
 La ventana **[!UICONTROL Cell format]** permite acceder a la siguiente pestaña:
 
@@ -460,7 +457,7 @@ Si hace clic en el vínculo de uno de estos entregas, se muestra el gráfico con
 
 ![](assets/s_advuser_report_listgroup_022.png)
 
-## Creación de un desglose o tabla dinámica {#creating-a-breakdown-or-pivot-table}
+## Crear un desglose o tabla dinámica {#creating-a-breakdown-or-pivot-table}
 
 Este tipo de tabla le permite mostrar estadísticas calculadas en los datos de la base de datos.
 

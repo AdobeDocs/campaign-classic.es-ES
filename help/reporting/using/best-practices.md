@@ -2,14 +2,12 @@
 product: campaign
 title: Prácticas recomendadas para la creación de informes
 description: Prácticas recomendadas para la creación de informes de Campaign
-audience: reporting
-content-type: reference
-topic-tags: reporting-in-adobe-campaign
+feature: Reporting
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 100%
+source-wordcount: '841'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +15,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-## Análisis de las necesidades{#analyzing-needs}
+## Analizar sus necesidades{#analyzing-needs}
 
 La utilización de una herramienta de sistema de informes depende del volumen de datos a manipular, de su complejidad y del tipo de sistema de informes que se deben configurar.
 
@@ -62,7 +60,7 @@ Para optimizar la creación, el uso y la duración de un informe, debe revisar l
 
    Los problemas relacionados con los volúmenes de datos y las actualizaciones se deben observar cuidadosamente para evitar problemas en la visualización de informes, especialmente en términos de tiempo. Por lo tanto, se recomienda crear acumulados para precalcular algunos datos fuera del informe. Las tablas que contienen los “logs” de envío y seguimiento pueden incluir millones de registros: esto significa que es necesario acumular los datos a través de un flujo de trabajo para utilizarlo en un informe.
 
-## Optimización de la creación de informes{#optimizing-report-creation}
+## Optimizar el diseño de informes{#optimizing-report-creation}
 
 ### Volumen de datos {#data-volume}
 

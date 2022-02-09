@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: Ejemplos de uso
-description: Ejemplos de uso
-audience: reporting
-content-type: reference
-topic-tags: analyzing-populations
+title: Casos de uso
+description: Casos de uso de informes
 exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 100%
+source-wordcount: '1317'
+ht-degree: 99%
 
 ---
 
-# Ejemplos de uso{#use-cases}
+# Casos de uso{#use-cases}
 
 ![](../../assets/common.svg)
 

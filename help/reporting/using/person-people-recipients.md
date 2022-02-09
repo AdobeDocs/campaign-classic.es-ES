@@ -1,15 +1,12 @@
 ---
 product: campaign
-title: Informes sobre entregas
-description: Informes sobre entregas
-audience: reporting
-content-type: reference
-topic-tags: accessing-built-in-reports
+title: Persona, personas y destinatarios
+description: Persona, personas y destinatarios
 exl-id: 69b810f3-aa8b-4ab5-95c1-831257d7fcb9
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 100%
+source-wordcount: '703'
+ht-degree: 98%
 
 ---
 
