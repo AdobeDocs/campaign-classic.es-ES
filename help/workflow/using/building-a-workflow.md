@@ -2,14 +2,12 @@
 product: campaign
 title: Creación de un flujo de trabajo
 description: Descubra cómo generar un flujo de trabajo
-audience: workflow
-content-type: reference
-topic-tags: -general-operation
+feature: Workflows
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
-source-git-commit: 638b259462d3e01d744567e56d67a120359dc34a
-workflow-type: ht
-source-wordcount: '1625'
-ht-degree: 100%
+source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
+workflow-type: tm+mt
+source-wordcount: '1623'
+ht-degree: 95%
 
 ---
 
@@ -27,7 +25,7 @@ Esta sección detalla los principios fundamentales y las prácticas recomendadas
 * Acceso y creación de flujos de trabajo técnicos, consulte [Flujos de trabajo técnicos](#technical-workflows)
 * Uso de plantillas para crear flujos de trabajo, consulte [Plantillas de flujo de trabajo](#workflow-templates)
 
-## Creación de un flujo de trabajo nuevo {#creating-a-new-workflow}
+## Creación de un nuevo flujo de trabajo {#creating-a-new-workflow}
 
 Desde **[!UICONTROL Explorer]** acceda a una carpeta de flujo de trabajo. De forma predeterminada, puede utilizar **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]**.
 
@@ -45,7 +43,7 @@ Introduzca una etiqueta y haga clic en **[!UICONTROL Save]**.
 >
 >Cuando modifique el nombre interno de una actividad de flujo de trabajo o el propio flujo de trabajo, asegúrese de guardar el flujo de trabajo antes de cerrarlo para que el nuevo nombre interno se aplique correctamente.
 
-## Adición y vinculación de actividades {#adding-and-linking-activities}
+## Agregar y vincular actividades {#adding-and-linking-activities}
 
 A continuación debe definir las distintas actividades y vincularlas todas en el diagrama. En esta fase de la configuración, podemos ver la etiqueta del diagrama y el estado del flujo de trabajo (edición en curso). La sección inferior de la ventana se utiliza para editar solo el diagrama. Contiene una barra de herramientas, una paleta de actividades (a la izquierda) y el diagrama (a la derecha).
 
@@ -109,9 +107,9 @@ Puede cambiar la visualización y el diseño del gráfico mediante los siguiente
 
 * **Gestión de imágenes**
 
-   Puede personalizar la imagen de fondo del diagrama, así como las relacionadas con las distintas actividades. Consulte [Administración de imágenes de actividad](managing-activity-images.md).
+   Puede personalizar la imagen de fondo del diagrama, así como las relacionadas con las distintas actividades. Consulte [Cambiar imágenes de actividad](managing-activity-images.md).
 
-## Configuración de actividades {#configuring-activities}
+## Configurar actividades {#configuring-activities}
 
 Haga doble clic en una actividad para configurarla o haga clic con el botón derecho y seleccione **[!UICONTROL Open...]**
 
@@ -147,9 +145,9 @@ Dentro del marco de una campaña, los flujos de trabajo de objetivos se almacena
 
 Los pasos para crear un flujo de trabajo de segmentación se describen en las siguientes secciones:
 
-1. **Identificar** datos en la base de datos. Consulte [Creación de consultas](targeting-data.md#creating-queries)
-1. **Preparar** datos para satisfacer las necesidades de envío. Consulte [Enriquecimiento y modificación de datos](targeting-data.md#enriching-and-modifying-data)
-1. **Usar** datos para realizar actualizaciones o dentro de un envío. Consulte [Actualización de la base de datos](how-to-use-workflow-data.md#updating-the-database)
+1. **Identificar** datos de la base de datos: consulte [Crear consultas](targeting-data.md#creating-queries)
+1. **Preparación** datos para satisfacer las necesidades de entrega (consulte [Enriquecimiento y modificación de datos](targeting-data.md#enriching-and-modifying-data)
+1. **Uso** datos para realizar actualizaciones o dentro de un envío: consulte [Actualizar la base de datos](how-to-use-workflow-data.md#updating-the-database)
 
 Los resultados de todos los enriquecimientos y todas las gestiones realizadas durante el establecimiento de objetivos se almacenan y están accesibles en los campos personalizados, en particular para utilizarlos al crear mensajes personalizados. Para obtener más información, consulte [Datos de destinatarios](data-life-cycle.md#target-data).
 
@@ -239,7 +237,7 @@ La función duplicar no está directamente disponible en la vista de una campañ
 
 Sin embargo, puede crear una vista para mostrar todos los flujos de trabajo de la instancia. En esta vista, puede duplicar flujos de trabajo mediante **Duplicate to**.
 
-**Primero, creemos una vista:**
+**Crear una vista**
 
 1. En **Explorer**, vaya a la carpeta en la que debe crear la vista.
 1. Haga clic con el botón derecho y vaya a **Add a new folder** > **Process** y seleccione **Workflows**.
