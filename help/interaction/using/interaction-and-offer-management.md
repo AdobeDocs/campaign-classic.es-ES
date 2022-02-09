@@ -1,15 +1,13 @@
 ---
 product: campaign
 title: Interacción y gestión de ofertas
-description: Envíe las mejores ofertas a sus contactos en función de las reglas de elegibilidad.
-audience: interaction
-content-type: reference
-topic-tags: interaction-overview
+description: Aprenda a enviar las mejores ofertas a sus contactos en función de las reglas de elegibilidad
+feature: Interaction, Offers
 exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 100%
+source-wordcount: '289'
+ht-degree: 95%
 
 ---
 

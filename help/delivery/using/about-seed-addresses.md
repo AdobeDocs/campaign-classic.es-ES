@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: Sobre las direcciones semilla
-description: Sobre las direcciones semilla
-audience: delivery
-content-type: reference
-topic-tags: using-seed-addresses
+title: Acerca de las direcciones semilla
+description: Introducción a las direcciones semilla
+feature: Seed Address
 exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
-source-git-commit: 1113afb573bad958ec7cc2cf008f71c8e751e8f9
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 100%
+source-wordcount: '379'
+ht-degree: 98%
 
 ---
 
-# Sobre las direcciones semilla{#about-seed-addresses}
+# Acerca de las direcciones semilla{#about-seed-addresses}
 
 ![](../../assets/common.svg)
 

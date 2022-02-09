@@ -2,18 +2,16 @@
 product: campaign
 title: Consulta de información de entrega
 description: Obtenga información sobre cómo consultar la información de entrega.
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Query Editor
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 100%
 
 ---
 
-# Consulta de información de entrega {#querying-delivery-information}
+# Información de entrega de la consulta {#querying-delivery-information}
 
 ![](../../assets/common.svg)
 

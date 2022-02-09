@@ -2,11 +2,8 @@
 product: campaign
 title: Envío de alertas personalizadas a operadores
 description: Descubra más información sobre cómo enviar alertas personalizadas a operadores
-audience: workflow
-content-type: reference
-topic-tags: use-cases
 exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%

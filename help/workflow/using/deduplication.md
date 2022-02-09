@@ -2,12 +2,10 @@
 product: campaign
 title: Deduplicación
 description: Descubra más información sobre la actividad del flujo de trabajo Deduplicación
-audience: workflow
-content-type: reference
-topic-tags: targeting-activities
+feature: Workflows, Data Management
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
-source-git-commit: def4f7fb46c838e9fe620820cf387dd3e2b8a55b
-workflow-type: ht
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 100%
 
@@ -66,6 +64,7 @@ Para configurar una anulación de duplicación, introduzca su etiqueta, el méto
    >[!NOTE]
    >
    >Si utiliza datos externos como entrada, por ejemplo, de un archivo externo, asegúrese de seleccionar la opción **[!UICONTROL Temporary schema]**.
+
    >
    >En el siguiente paso, la opción **[!UICONTROL Other]** permite seleccionar los criterios que se van a utilizar:
 

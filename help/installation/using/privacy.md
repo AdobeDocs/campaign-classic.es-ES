@@ -1,12 +1,10 @@
 ---
 product: campaign
 title: Privacidad
-description: Obtenga más información sobre las prácticas recomendadas a seguir con respecto a la privacidad.
-audience: installation
-content-type: reference
-topic-tags: prerequisites-and-recommendations-
+description: Obtenga más información sobre las prácticas recomendadas a seguir con respecto a la privacidad
+feature: URL Personalization, Privacy
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 18%

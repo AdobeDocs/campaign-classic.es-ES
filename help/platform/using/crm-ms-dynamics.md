@@ -1,15 +1,13 @@
 ---
 product: campaign
 title: Campaign - Conector CRM de Microsoft Dynamics
-description: Conexión de Campaign y Microsoft Dynamics
-audience: platform
-content-type: reference
-topic-tags: connectors
+description: Obtenga información sobre cómo conectar Campaign y Microsoft Dynamics
+feature: Microsoft CRM Integration
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
-source-git-commit: 2cdcd45fc142eb9ae9e32c17a67beb4eaf2d2953
-workflow-type: ht
-source-wordcount: '1104'
-ht-degree: 100%
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+workflow-type: tm+mt
+source-wordcount: '1107'
+ht-degree: 99%
 
 ---
 

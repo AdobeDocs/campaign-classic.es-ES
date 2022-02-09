@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: Automatización mediante flujos de trabajo
-description: Automatización mediante flujos de trabajo
-audience: delivery
-content-type: reference
-topic-tags: content-management
+description: Obtenga información sobre cómo automatizar la gestión de contenido mediante flujos de trabajo
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 100%
+source-wordcount: '1190'
+ht-degree: 99%
 
 ---
 

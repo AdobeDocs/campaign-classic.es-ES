@@ -1,14 +1,13 @@
 ---
 product: campaign
 title: Comprobación antes de enviar
-audience: delivery
-content-type: reference
-topic-tags: deliveries-best-practices
+description: Una vez que el mensaje esté listo, realice todas las comprobaciones necesarias antes de enviar
+feature: Deliverability
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
-source-git-commit: b174b8283d77a1b5eb535c0c46ba4a428bd66eef
-workflow-type: ht
-source-wordcount: '882'
-ht-degree: 100%
+source-git-commit: 808f459a0b77b1787fc017c031247ab268b5aafa
+workflow-type: tm+mt
+source-wordcount: '892'
+ht-degree: 98%
 
 ---
 

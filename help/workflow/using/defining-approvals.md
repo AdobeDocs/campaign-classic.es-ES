@@ -2,14 +2,12 @@
 product: campaign
 title: Definición de aprobaciones
 description: Las aprobaciones permiten a los operadores tomar las decisiones que rigen los flujos de trabajo o confirmar su ejecución continuada
-audience: workflow
-content-type: reference
-topic-tags: -general-operation
+feature: Approvals
 exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 3af4f259b80b3e03c81ee278b470ef6ffe3fe4d0
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 100%
+source-wordcount: '841'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +27,7 @@ En las operaciones, todas las etapas que requieren aprobación se basan en el mi
 
 ![](assets/validation-1-in-op.png)
 
-En esta [sección](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries) se pueden encontrar ejemplos de aprobación.
+Se pueden encontrar ejemplos de aprobación en [esta sección](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
 
 Un operador puede responder de una de estas dos maneras: validar mediante la página web vinculada en el mensaje de correo electrónico o a través de la consola.
 
@@ -37,7 +35,7 @@ Un operador puede responder de una de estas dos maneras: validar mediante la pá
 >
 >Una vez guardada la respuesta, no se puede modificar.
 
-## Envío de correos electrónicos {#sending-emails}
+## Aprobaciones por correo electrónico {#sending-emails}
 
 Es posible recibir un mensaje de aprobación que contenga un vínculo a una página web a través de la cual se puede responder. Para que el operador de destino reciba un correo electrónico de aprobación, se debe haber rellenado la dirección de correo electrónico del operador. Si no es así, el operador debe utilizar la consola para responder
 
@@ -47,7 +45,7 @@ Los correos electrónicos de aprobación se envían de forma continua. La planti
 
 Las entregas creados mediante esta plantilla se almacenan en la carpeta **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]**.
 
-## Aprobación mediante la consola {#approval-via-the-console}
+## Aprobaciones a través de la consola {#approval-via-the-console}
 
 En las operaciones, los elementos que se vayan a aprobar se muestran en el tablero de campañas.
 
