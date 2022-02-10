@@ -1,15 +1,13 @@
 ---
 product: campaign
 title: Sincronización de perfiles
-description: Sincronización de perfiles
-audience: integrations
-content-type: reference
-topic-tags: acs-connector
+description: Obtenga información sobre cómo sincronizar perfiles con el conector ACS
+feature: ACS Connector
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
-source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
+source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 100%
+source-wordcount: '1201'
+ht-degree: 89%
 
 ---
 
@@ -19,11 +17,11 @@ ht-degree: 100%
 
 El conector ACS duplica los datos de Campaign v7 a Campaign Standard. Los datos recibidos de Campaign v7 se pueden utilizar en Campaign Standard para crear envíos. Puede ver cómo se sincronizan los perfiles realizando las operaciones enumeradas a continuación.
 
-* **Add new recipients**: Cree un destinatario nuevo en Campaign v7 y confirme que el perfil correspondiente se haya duplicado en Campaign Standard. Consulte [Creación de un destinatario nuevo](#creating-a-new-recipient).
-* **Update recipients**: Edite un destinatario nuevo en Campaign v7 y vea el perfil correspondiente en Campaign Standard para confirmar que la actualización se haya duplicado. Consulte [Edición de un destinatario](#editing-a-recipient).
+* **Add new recipients**: Cree un destinatario nuevo en Campaign v7 y confirme que el perfil correspondiente se haya duplicado en Campaign Standard. Consulte [Crear un destinatario nuevo](#creating-a-new-recipient).
+* **Update recipients**: Edite un destinatario nuevo en Campaign v7 y vea el perfil correspondiente en Campaign Standard para confirmar que la actualización se haya duplicado. Consulte [Editar un destinatario](#editing-a-recipient).
 * **Build a workflow in Campaign Standard**: Cree un flujo de trabajo en Campaign Standard que incluya una consulta con una audiencia o perfiles duplicados de Campaign v7. Consulte [Creación de un flujo de trabajo](#creating-a-workflow).
 * **Create a delivery in Campaign Standard**: Siga el flujo de trabajo hasta la finalización para realizar una entrega. Consulte [Creación de una entrega](#creating-a-delivery).
-* **Verify the unsubscription link**: Utilice una aplicación web de Campaign v7 para asegurarse de que la selección del destinatario de darse de baja de un servicio se envíe a la base de datos de Campaign v7. La opción de dejar de recibir el servicio se duplica en Campaign Standard. Consulte [Modificación del vínculo de baja de suscripción](#changing-the-unsubscription-link).
+* **Verify the unsubscription link**: Utilice una aplicación web de Campaign v7 para asegurarse de que la selección del destinatario de darse de baja de un servicio se envíe a la base de datos de Campaign v7. La opción de dejar de recibir el servicio se duplica en Campaign Standard. Consulte [Cambiar el vínculo de baja](#changing-the-unsubscription-link).
 
 ## Requisitos previos {#prerequisites}
 
@@ -33,7 +31,7 @@ Las secciones siguientes describen cómo el conector ACS ayuda a añadir y edita
 * Derechos de usuario para ejecutar flujos de trabajo en Campaign v7 y en Campaign Standard.
 * Derechos de usuario para crear y ejecutar una entrega en Campaign Standard.
 
-## Modificación del vínculo de baja {#changing-the-unsubscription-link}
+## Cambiar el vínculo de baja {#changing-the-unsubscription-link}
 
 Cuando un destinatario hace clic en el vínculo de baja de suscripción en un mensaje de correo electrónico enviado por Campaign Standard, se actualiza el perfil correspondiente en Campaign Standard. Para asegurarse de que un perfil duplicado incluya la opción para el usuario de darse baja de un servicio, la información debe enviarse a Campaign v7 en lugar de a Campaign Standard. Para ejecutar el cambio, el servicio de baja está vinculado con una aplicación web de Campaign v7 en lugar de Campaign Standard.
 
@@ -41,9 +39,9 @@ Cuando un destinatario hace clic en el vínculo de baja de suscripción en un me
 >
 >Solicite al consultor que configure la aplicación web para el servicio de baja antes de iniciar los pasos siguientes.
 
-## Creación de un destinatario nuevo {#creating-a-new-recipient}
+## Crear un destinatario nuevo {#creating-a-new-recipient}
 
-1. Cree un destinatario nuevo en Campaign v7 para la duplicación en Campaign Standard. Introduzca la mayor cantidad de información posible, incluidos el apellido, el nombre, la dirección de correo electrónico y la dirección postal del destinatario. No obstante, no seleccione **[!UICONTROL Salutation]**, ya que este se añade en la siguiente sección, [Edición de un destinatario](#editing-a-recipient). Para obtener más información, consulte [Adición de destinatarios](../../platform/using/adding-profiles.md).
+1. Cree un destinatario nuevo en Campaign v7 para la duplicación en Campaign Standard. Introduzca la mayor cantidad de información posible, incluidos el apellido, el nombre, la dirección de correo electrónico y la dirección postal del destinatario. Sin embargo, no elija un **[!UICONTROL Salutation]** ya que se añade en la siguiente sección, [Editar un destinatario](#editing-a-recipient). Para obtener más información, consulte [Añadir destinatarios](../../platform/using/adding-profiles.md).
 
    ![](assets/acs_connect_profile_sync_01.png)
 
@@ -53,11 +51,11 @@ Cuando un destinatario hace clic en el vínculo de baja de suscripción en un me
 
    De forma predeterminada, la duplicación periódica del conector ACS se produce una vez cada 15 minutos. Para obtener más información, consulte [Duplicación de datos](../../integrations/using/acs-connector-principles-and-data-cycle.md#data-replication).
 
-## Edición de un destinatario {#editing-a-recipient}
+## Edición de un destinatario  {#editing-a-recipient}
 
 Los pasos siguientes para cambiar un único punto de datos proporcionan un ejemplo sencillo de cómo Campaign v7 se convierte en la base de datos primaria para Campaign Standard cuando se utiliza la duplicación de datos. Modificar o eliminar los datos duplicados en Campaign v7 tiene el mismo efecto en los datos correspondientes de Campaign Standard.
 
-1. Elija el destinatario recién creado en [Creación de un nuevo destinatario](#creating-a-new-recipient) y edite el nombre del destinatario. Por ejemplo, seleccione un **[!UICONTROL Salutation]** para el destinatario (por ejemplo, Sr. o Sra.). Para obtener más información, consulte [Edición de un perfil](../../platform/using/editing-a-profile.md).
+1. Elija el destinatario recién creado de [Crear un destinatario nuevo](#creating-a-new-recipient) y edite el nombre del destinatario. Por ejemplo, seleccione un **[!UICONTROL Salutation]** para el destinatario (por ejemplo, Sr. o Sra.). Para obtener más información, consulte [Editar un perfil](../../platform/using/editing-a-profile.md).
 
    ![](assets/acs_connect_profile_sync_03.png)
 
@@ -87,13 +85,13 @@ Para obtener más información e instrucciones completas sobre los flujos de tra
    * Arrastre **[!UICONTROL Profiles]** al espacio de trabajo. Utilice el menú desplegable de campos para elegir **[!UICONTROL Is external resource]** y buscar perfiles duplicados desde Campaign v7.
    * Arrastre otros parámetros de consulta para segmentar más los perfiles duplicados.
 
-## Creación de envíos {#creating-a-delivery}
+## Creación de una entrega {#creating-a-delivery}
 
 >[!NOTE]
 >
->Las instrucciones para crear la entrega continúan el flujo de trabajo iniciado con [Creating a workflow](#creating-a-workflow).
+>Las instrucciones para crear la entrega continúan el flujo de trabajo iniciado con [Creación de un flujo de trabajo](#creating-a-workflow).
 
-Los profesionales del marketing digital pueden aprovechar la aplicación web de Campaign v7 para asegurarse de que la decisión de un destinatario de darse de baja de la suscripción a un servicio se envía a la base de datos Campaign v7. Después de que el destinatario haga clic en el vínculo de baja de suscripción, la opción para detener la recepción del servicio se duplica de Campaign v7 a Campaign Standard. Para obtener más información, consulte [Cambio del vínculo de cancelación de suscripción](#changing-the-unsubscription-link).
+Los profesionales del marketing digital pueden aprovechar la aplicación web de Campaign v7 para asegurarse de que la decisión de un destinatario de darse de baja de la suscripción a un servicio se envía a la base de datos Campaign v7. Después de que el destinatario haga clic en el vínculo de baja de suscripción, la opción para detener la recepción del servicio se duplica de Campaign v7 a Campaign Standard. Para obtener más información, consulte [Cambiar el vínculo de baja](#changing-the-unsubscription-link).
 
 Siga los pasos a continuación para añadir una entrega de correo electrónico a un flujo de trabajo existente con el servicio de baja de suscripción creado en Campaign v7. Para obtener más información e instrucciones completas sobre los flujos de trabajo de Campaign Standard, consulte este [documento](../../workflow/using/about-workflows.md).
 
@@ -158,9 +156,9 @@ Siga los pasos a continuación para añadir una entrega de correo electrónico a
 
    ![](assets/acs_connect_profile_sync_19.png)
 
-## Verificación del servicio de baja {#verifying-the-unsubscription-service}
+## Verificación del servicio de baja de suscripción {#verifying-the-unsubscription-service}
 
-Siga las instrucciones de [Creación de un flujo de trabajo](#creating-a-workflow) y de [Creación de una entrega](#creating-a-delivery) antes de pasar a los pasos que se describen a continuación.
+Siga las instrucciones indicadas en [Creación de un flujo de trabajo](#creating-a-workflow) y [Creación de una entrega](#creating-a-delivery) antes de pasar a los pasos siguientes.
 
 1. El destinatario hace clic en el vínculo de baja en el correo electrónico enviado.
 

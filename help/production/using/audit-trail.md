@@ -1,14 +1,12 @@
 ---
 product: campaign
 title: Pista de auditoría
-description: Pista de auditoría
-audience: production
-content-type: reference
-topic-tags: production-procedures
+description: Obtenga información sobre cómo monitorizar la instancia con la pista de auditoría de Campaign
+feature: Audit Trail, Monitoring
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '461'
 ht-degree: 3%
 
 ---

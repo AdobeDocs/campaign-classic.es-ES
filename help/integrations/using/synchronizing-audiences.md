@@ -1,15 +1,13 @@
 ---
 product: campaign
 title: Sincronización de audiencias
-description: Sincronización de audiencias
-audience: integrations
-content-type: reference
-topic-tags: acs-connector
+description: Obtenga información sobre cómo sincronizar audiencias con el conector ACS
+feature: ACS Connector
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 100%
+source-wordcount: '1135'
+ht-degree: 99%
 
 ---
 
