@@ -6,9 +6,9 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
-workflow-type: ht
-source-wordcount: '518'
+source-git-commit: 1a4fd75a90667e57149772497a7b1bd14b251db3
+workflow-type: tm+mt
+source-wordcount: '504'
 ht-degree: 100%
 
 ---
@@ -43,9 +43,8 @@ Para comprender mejor qué debe hacer cada flujo de trabajo técnico, consulte e
 
 En el caso de **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
 
-1. Compruebe que el flujo de trabajo **[!UICONTROL Database Cleanup]** se ejecuta y finaliza correctamente todos los días. Para obtener más información, consulte [esta página](delivery.md).
+1. Compruebe que el flujo de trabajo **[!UICONTROL Database Cleanup]** se ejecuta y finaliza correctamente todos los días. Para obtener más información, consulte esta [página](../../production/using/database-cleanup-workflow.md)..
 1. Observe el historial para verificar que el tiempo transcurrido es relativamente constante en el tiempo y no interfiere con otros flujos de trabajo.
-1. Para obtener más información, consulte esta [página](../../production/using/database-cleanup-workflow.md).
 
 En el caso de **[!UICONTROL Tracking workflow (‘tracking’)]**:
 
@@ -53,7 +52,7 @@ Compruebe que el flujo de trabajo de seguimiento se ejecute como está planifica
 
 En el caso de **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]**:
 
-1. Compruebe que el flujo de trabajo **[!UICONTROL Deliverability update]** se ejecuta y finaliza correctamente todos los días. Para obtener más información, consulte [esta página](delivery.md).
+1. Compruebe que el flujo de trabajo **[!UICONTROL Deliverability update]** se ejecuta y finaliza correctamente todos los días.
 1. Compruebe en el historial que las reglas se actualizan periódicamente.
 
 En el caso de **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**:

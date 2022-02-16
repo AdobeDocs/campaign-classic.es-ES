@@ -3,10 +3,10 @@ product: campaign
 title: Envío con el servidor de envío mejorado en Adobe Campaign Classic
 description: Obtenga información acerca del ámbito y las características específicas del envío de correos electrónicos con el servidor de correo mejorado de Adobe Campaign
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 8ac6cddad04d1142b84a735ab8083e732c17714b
 workflow-type: tm+mt
-source-wordcount: '1921'
-ht-degree: 100%
+source-wordcount: '1946'
+ht-degree: 98%
 
 ---
 
@@ -135,6 +135,10 @@ Para obtener más información sobre la calificación de correo rechazado, consu
 El gráfico de rendimiento del envío de Campaign ya no mostrará el rendimiento a los destinatarios del correo electrónico. Muestra la velocidad de rendimiento del reenvío de sus mensajes desde Campaign hasta el servidor de correo mejorado.
 
 Para obtener más información sobre el rendimiento del envío, consulte [esta sección](../../reporting/using/global-reports.md#delivery-throughput).
+
+>[!NOTE]
+>
+>Con la variable [Servicio de comentarios de correo electrónico](#email-feedback-service) (EFS) (actualmente disponible como beta), el gráfico de rendimiento Entrega de campaña sigue mostrando el rendimiento a sus destinatarios de correo electrónico.
 
 ### Período de validez
 

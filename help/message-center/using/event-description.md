@@ -6,10 +6,10 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: c30d64e6930cb97f4a3c15acd97654d57d1bbf85
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 100%
+source-wordcount: '761'
+ht-degree: 98%
 
 ---
 
@@ -34,6 +34,8 @@ La ruta WSDL para acceder a ambos métodos es:
 
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent** para acceder al esquema de tipo en tiempo real.
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent** para acceder al esquema de tipo por lote.
+
+Para obtener más información sobre la generación de un archivo WSDL, consulte [esta sección](../../configuration/using/web-service-calls.md#web-service-description--wsdl).
 
 Ambos métodos contienen un elemento **`<urn:sessiontoken>`** para iniciar sesión en el módulo de mensajes transaccionales. Se recomienda utilizar un método de identificación a través de direcciones IP de confianza. Para recuperar el símbolo de sesión, realice una llamada SOAP de inicio de sesión y obtenga el autentificador seguido de un cierre de sesión. Utilice el mismo símbolo para varias llamadas de RT. Los ejemplos incluidos en esta sección utilizan el método de símbolo de sesión, que es el recomendado.
 
