@@ -4,9 +4,9 @@ title: Creación de indicadores
 description: Creación de indicadores
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '715'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,10 +18,10 @@ Para que un sea cubo funcional, se deben identificar las dimensiones y las medid
 
 Para crear un cubo, siga los pasos siguientes:
 
-1. Seleccione la tabla de trabajo. Consulte [Seleccionar la tabla de trabajo](#selecting-the-work-table).
-1. Defina las dimensiones. Consulte [Definir dimensiones](#defining-dimensions).
-1. Defina las medidas. Consulte [Indicadores de compilación](#building-indicators).
-1. Cree acumulados (opcional). Consulte [Calcular y utilizar agregados](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).
+1. Seleccione la tabla de trabajo. Consulte [Selección de la tabla de trabajo](#selecting-the-work-table).
+1. Defina las dimensiones. Consulte [Definición de dimensiones](#defining-dimensions).
+1. Defina las medidas. Consulte [Generación de indicadores](#building-indicators).
+1. Cree acumulados (opcional). Consulte [Cálculo y uso de acumulados](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).
 
 Este ejemplo muestra la forma de crear rápidamente un cubo simple en un informe para exportar sus medidas.
 
@@ -89,7 +89,7 @@ Haga clic en el botón **[!UICONTROL Add]** para crear una nueva dimensión y lu
 
    Para obtener más información, consulte [Administración dinámica de grupos](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins).
 
-## Indicadores de compilación {#building-indicators}
+## Genere los indicadores {#building-indicators}
 
 Una vez definidas las dimensiones, se debe especificar un modo de cálculo para que los valores se muestren en las celdas. Para ello, cree los indicadores coincidentes en la pestaña **[!UICONTROL Measures]**: cree tantas medidas como columnas que se deben mostrar en el informe que usa el cubo.
 
@@ -102,7 +102,7 @@ Para ello, siga los siguientes pasos:
 
    ![](assets/s_advuser_cube_wz_11.png)
 
-   El vínculo **[!UICONTROL Filter the measure data...]** permite seleccionar solo mujeres. Para obtener más información sobre la definición de medidas y las opciones disponibles, consulte [Definir medidas](../../reporting/using/concepts-and-methodology.md#defining-measures).
+   El vínculo **[!UICONTROL Filter the measure data...]** permite seleccionar solo mujeres. Para obtener más información sobre la definición de medidas y las opciones disponibles, consulte [Definición de medidas](../../reporting/using/concepts-and-methodology.md#defining-measures).
 
    ![](assets/s_advuser_cube_wz_12.png)
 
