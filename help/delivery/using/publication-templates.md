@@ -4,9 +4,9 @@ title: Plantillas de publicación
 description: Plantillas de publicación
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '824'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ La clave de identificación de una hoja de estilo es una cadena formada por el �
 >
 >En la práctica, se recomienda utilizar la misma clave para el esquema, el formulario y la plantilla de publicación.
 
-## Creación y configuración de la plantilla {#creating-and-configuring-the-template}
+## Creación y configuración de plantillas {#creating-and-configuring-the-template}
 
 Las plantillas de publicación se almacenan de forma predeterminada en el nodo **[!UICONTROL Administration > Configuration > Publication templates]**. Para crear una nueva plantilla, haga clic en el botón **[!UICONTROL New]** situado sobre la lista de plantillas.
 
@@ -94,7 +94,7 @@ Esta pestaña permite seleccionar un escenario para iniciar una entrega directam
 
 >[!NOTE]
 >
->Para ver un ejemplo de creación de envíos basado en un contenido, consulte [Entregar una instancia de contenido](using-a-content-template.md#delivering-a-content-instance).
+>Para ver un ejemplo de creación de entregas basado en un contenido, consulte [Creación de una instancia de contenido](using-a-content-template.md#delivering-a-content-instance).
 
 ### Acumulador {#aggregator}
 
