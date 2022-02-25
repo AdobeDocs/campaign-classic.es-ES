@@ -1,11 +1,11 @@
 ---
 product: campaign
 title: Canales de comunicación
-description: Cree envíos para enviar mensajes personalizados en diferentes canales
+description: Cree entregas para enviar mensajes personalizados en diferentes canales
 feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1204'
 ht-degree: 100%
 
