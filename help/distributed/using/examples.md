@@ -1,21 +1,21 @@
 ---
 product: campaign
-title: Ejemplos de Distributed Marketing
-description: Ejemplos de Distributed Marketing
+title: Ejemplos de marketing distribuido
+description: Ejemplos de marketing distribuido
 feature: Distributed Marketing
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1293'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Ejemplos de Distributed Marketing{#distributed-marketing-samples}
+# Ejemplos de marketing distribuido{#distributed-marketing-samples}
 
 ![](../../assets/v7-only.svg)
 
-## Crear una campaña local (por formulario) {#creating-a-local-campaign--by-form-}
+## Creación de una campaña local (por formulario) {#creating-a-local-campaign--by-form-}
 
 La interfaz web tipo **Por formulario** implica utilizar una **aplicación web**. Según su configuración, esta aplicación web puede contener cualquier tipo de elemento personalizado definido. Por ejemplo, puede sugerir vínculos para evaluar el objetivo, el presupuesto, el contenido, etc. mediante API dedicadas.
 
@@ -71,7 +71,7 @@ En este ejemplo se utilizan las siguientes API:
    var res = nms.localOrder.EvaluateContent(ctx.localOrder, ctx.@deliveryId, "html", resSeed.@id);
    ```
 
-## Crear una campaña de colaboración (por aprobación de destino) {#creating-a-collaborative-campaign--by-target-approval-}
+## Creación de una campaña de colaboración (por aprobación de destino) {#creating-a-collaborative-campaign--by-target-approval-}
 
 ### Introducción {#introduction}
 
@@ -116,7 +116,7 @@ Una vez aprobadas las comprobaciones, la campaña puede iniciarse automáticamen
 
 ### Lado de la entidad central {#central-entity-side}
 
-#### Crear una actividad de distribución de datos {#creating-a-data-distribution-activity}
+#### Creación de una actividad de distribución de datos {#creating-a-data-distribution-activity}
 
 1. Para configurar una campaña de colaboración (por aprobación de objetivo) debe crear primero una **[!UICONTROL Data distribution activity]**. Haga clic en el **[!UICONTROL New]** icono del **[!UICONTROL Resources > Campaign management > Data distribution]** nodo.
 
@@ -157,7 +157,7 @@ Una vez aprobadas las comprobaciones, la campaña puede iniciarse automáticamen
 
 1. Guarde el registro.
 
-#### Publique la campaña {#publishing-the-campaign}
+#### Publicación de la campaña {#publishing-the-campaign}
 
 Ahora puede añadir un **paquete de campaña** desde la pestaña **[!UICONTROL Campaigns]**.
 
@@ -176,7 +176,7 @@ Ahora puede añadir un **paquete de campaña** desde la pestaña **[!UICONTROL C
 
    ![](assets/mkg_dist_use_case_target_valid2.png)
 
-## Crear una campaña de colaboración (por formulario) {#creating-a-collaborative-campaign--by-form-}
+## Creación de una campaña de colaboración (por formulario) {#creating-a-collaborative-campaign--by-form-}
 
 ### Introducción {#introduction-1}
 
