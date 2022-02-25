@@ -4,9 +4,9 @@ title: Creación de un nuevo informe
 description: Obtenga información sobre los pasos clave para crear un nuevo informe
 exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '923'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Para crear un informe, según su naturaleza y contexto, debe identificar los ele
 
 1. Añada una o más actividades **[!UICONTROL Query]** para recopilar datos que sean útiles para crear el informe. Los datos se pueden recopilar directamente mediante una consulta en un esquema de la base de datos o mediante una lista importada o un Cubo existente.
 
-   Para obtener más información, consulte [Recopilar datos para analizar](../../reporting/using/collecting-data-to-analyze.md).
+   Para obtener más información, consulte [Recopilación de datos para analizar](../../reporting/using/collecting-data-to-analyze.md).
 
    Estos datos se visualizan (o no) en el informe en función de la configuración de la página.
 
@@ -86,9 +86,9 @@ Sin embargo, puede incluir varias ramas. Solo se ejecuta una de ellas:
 
 ![](assets/reporting_graph_sample_ok.png)
 
-## Crear una página {#creating-a-page}
+## Creación de una página {#creating-a-page}
 
-El contenido se configura mediante las actividades incluidas en el gráfico. Para obtener más información, consulte [Modelizar gráfico](#modelizing-the-chart).
+El contenido se configura mediante las actividades incluidas en el gráfico. Para obtener más información, consulte [Modelización del gráfico](#modelizing-the-chart).
 
 Para configurar una actividad, haga doble clic en su icono.
 
@@ -106,7 +106,7 @@ También puede hacer clic con el botón derecho en el nodo en el que desee añad
 
 >[!CAUTION]
 >
->Si el informe está pensado para su exportación en formato Excel, no se recomienda utilizar un formato HTML complejo. Para obtener más información, consulte [Exportar un informe](../../reporting/using/actions-on-reports.md#exporting-a-report).
+>Si el informe está pensado para su exportación en formato Excel, no se recomienda utilizar un formato HTML complejo. Para obtener más información, consulte [Exportación de un informe](../../reporting/using/actions-on-reports.md#exporting-a-report).
 
 Una **[!UICONTROL Page]** puede incluir los siguientes elementos:
 
