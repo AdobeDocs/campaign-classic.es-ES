@@ -1,11 +1,11 @@
 ---
 product: campaign
 title: Introducción a la monitorización de entregas
-description: Obtenga más información sobre las funciones de monitorización de entregas de Campaign Classic
+description: Obtenga más información acerca de las funciones de monitorización de entregas de Campaign Classic
 feature: Monitoring
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
 ht-degree: 100%
 
