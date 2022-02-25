@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: '"Caso de uso: visualización del informe de respuestas en una encuesta en línea"'
-description: '"Caso de uso: visualización del informe de respuestas en una encuesta en línea"'
+title: '“Caso de uso: visualización del informe de respuestas en una encuesta en línea”'
+description: '“Caso de uso: visualización del informe de respuestas en una encuesta en línea”'
 feature: Reporting, Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
 ht-degree: 100%
 
