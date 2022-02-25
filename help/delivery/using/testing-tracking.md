@@ -4,9 +4,9 @@ title: Prueba del seguimiento de mensajes
 description: Obtenga información sobre cómo probar el seguimiento de mensajes
 exl-id: 16ad36b7-c13e-4b77-86ca-41c9ef174172
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
