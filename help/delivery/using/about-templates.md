@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: Acerca de las plantillas
-description: Introducción a las plantillas de entregas
+description: Introducción a las plantillas de entrega
 feature: Delivery Templates
 exl-id: d943898c-06fe-451d-aa28-8a95665f4112
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '276'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -33,4 +33,4 @@ Hay dos tipos de plantillas:
 
 >[!NOTE]
 >
->Las plantillas disponibles dependen de los derechos de acceso, de la configuración de la instancia y del contexto. Por ejemplo, al crear un servicio informativo, puede vincular una plantilla de envío a los mensajes de confirmación: así solo puede acceder a las plantillas cuyo destino de mapeo sea la asignación de suscripción. Para obtener más información, consulte [Selección de una asignación de destino](selecting-a-target-mapping.md) y [Servicios y suscripciones](about-services-and-subscriptions.md).
+>Las plantillas disponibles dependen de los derechos de acceso, de la configuración de la instancia y del contexto. Por ejemplo, al crear un servicio informativo, puede vincular una plantilla de envío a los mensajes de confirmación: así solo puede acceder a las plantillas cuyo destino de mapeo sea la asignación de suscripción. Para obtener más información sobre esto, consulte [Selección de una asignación de destino](selecting-a-target-mapping.md) y [Servicios y suscripciones](about-services-and-subscriptions.md).
