@@ -1,16 +1,16 @@
 ---
 product: campaign
-title: Aplicar reglas de tipología
+title: Aplicación de reglas de tipología
 description: Aprenda a aplicar reglas de tipología
 exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
 source-git-commit: 808f459a0b77b1787fc017c031247ab268b5aafa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '983'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Aplicar reglas de tipología{#applying-rules}
+# Aplicación de reglas de tipología{#applying-rules}
 
 ![](../../assets/common.svg)
 
@@ -37,7 +37,7 @@ Para aplicar las reglas de tipología creadas, debe asociarlas a una tipología 
    >
    >La tipología se puede definir en la plantilla de envíos para que se aplique automáticamente a todas las entregas creadas con esta plantilla.
 
-## Definir condiciones de aplicación {#defining-application-conditions}
+## Definición de condiciones de aplicación {#defining-application-conditions}
 
 Puede restringir el campo de aplicación de una regla según sus necesidades (excepto para reglas de control).
 
@@ -53,7 +53,7 @@ A continuación, utilice el editor de consultas para definir las condiciones de 
 >
 >En el caso de las reglas de filtrado, puede seleccionar la condición de aplicación de los criterios de filtrado: pueden depender de la entrega o de la descripción de la entrega. Para obtener más información, consulte [Condicionamiento de una regla de filtrado](filtering-rules.md#conditioning-a-filtering-rule).
 
-## Ajustar frecuencia de cálculo {#adjusting-calculation-frequency}
+## Ajuste de frecuencia de cálculo {#adjusting-calculation-frequency}
 
 La mediación se vuelve a ejecutar automáticamente cada noche a través del flujo de trabajo de limpieza de la base de datos. Sin embargo, los valores se pueden guardar más allá de este periodo.
 
