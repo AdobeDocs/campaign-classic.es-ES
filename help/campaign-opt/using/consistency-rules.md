@@ -4,9 +4,9 @@ title: Reglas de coherencia
 description: Reglas de coherencia
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 93%
 
 Adobe Campaign garantiza comunicaciones coherentes gracias a un conjunto de reglas contenidas en tipologías de campaña. Su objetivo es controlar las entregas que se realizan a los destinatarios como, por ejemplo, volumen, tipo, relevancia, etc.
 
-Las reglas de **capacidad**, por ejemplo, pueden evitar la sobrecarga en la plataforma correspondiente de envío de mensajes. Por ejemplo, las ofertas especiales que contienen un vínculo de descarga no se deben enviar a demasiadas personas a la vez para evitar la saturación del servidor; las campañas telefónicas no deben superar la capacidad de procesamiento de los centros de llamadas, etc. Para obtener más información, consulte [Capacidad de control](#controlling-capacity).
+Las reglas de **capacidad**, por ejemplo, pueden evitar la sobrecarga en la plataforma correspondiente de envío de mensajes. Por ejemplo, las ofertas especiales que contienen un vínculo de descarga no se deben enviar a demasiadas personas a la vez para evitar la saturación del servidor; las campañas telefónicas no deben superar la capacidad de procesamiento de los centros de llamadas, etc. Para obtener más información sobre esto, consulte [Control de la capacidad](#controlling-capacity).
 
-## Capacidad de control {#controlling-capacity}
+## Control de la capacidad {#controlling-capacity}
 
 Antes de enviar mensajes, debe asegurarse de que su organización tiene la capacidad de procesar la entrega (infraestructura física), las respuestas que puede generar la entrega (mensajes entrantes) y el número de llamadas que se realizan para ponerse en contacto con los suscriptores (capacidad de procesamiento del centro de llamadas), por ejemplo.
 
@@ -54,7 +54,7 @@ Para diseñar una regla de capacidad nueva, siga los pasos a continuación:
 
 ## Definición de la carga máxima {#defining-the-maximum-load}
 
-Para definir la carga máxima, debe definir las líneas de disponibilidad. Para ello, hay dos opciones disponibles: puede crear manualmente una o más líneas de disponibilidad (consulte [Adición de líneas de disponibilidad una por una](#adding-availability-lines-one-by-one)) o crear intervalos de disponibilidad. La frecuencia de estos periodos se puede automatizar (consulte [Adición de un conjunto de líneas de disponibilidad](#add-a-set-of-availability-lines)).
+Para definir la carga máxima, debe definir las líneas de disponibilidad. Para ello, hay dos opciones disponibles: puede crear manualmente una o más líneas de disponibilidad (consulte [Adición de líneas de disponibilidad o una por una](#adding-availability-lines-one-by-one)) o crear intervalos de disponibilidad. La frecuencia de estos períodos se puede automatizar (consulte [Adición de un conjunto de líneas de disponibilidad](#add-a-set-of-availability-lines)).
 
 ### Adición de líneas de disponibilidad una por una {#adding-availability-lines-one-by-one}
 
