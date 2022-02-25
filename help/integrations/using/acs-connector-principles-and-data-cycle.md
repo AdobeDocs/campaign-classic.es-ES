@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: Introducción a ACS Connector
+title: Introducción al conector ACS
 description: Principios y ciclo de datos del conector ACS
 feature: ACS Connector
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
 source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1985'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Introducción a ACS Connector{#acs-connector-gs}
+# Introducción al conector ACS{#acs-connector-gs}
 
 ![](../../assets/v7-only.svg)
 
@@ -33,10 +33,10 @@ Este documento presenta las funcionalidades del conector ACS. Las secciones sigu
 
 * [Process](#process): Información general sobre el conector ACS y cómo se administra la duplicación de datos.
 * [Implementation](#implementation): Información general sobre cómo empezar a utilizar el conector ACS, así como instrucciones para duplicar datos básicos y avanzados.
-* [Sincronizar perfiles](../../integrations/using/synchronizing-profiles.md): Instrucciones sobre cómo duplicar perfiles y cómo crear envíos con ellos.
-* [Sincronizar audiencias](../../integrations/using/synchronizing-audiences.md): Instrucciones sobre cómo dirigirse a una lista de destinatarios en Campaign v7 y luego duplicar la lista en Campaign Standard como audiencia.
-* [Sincronizar aplicaciones web](../../integrations/using/synchronizing-web-applications.md): Instrucciones sobre cómo vincular aplicaciones web de Campaign v7 a Campaign Standard.
-* [Troubleshooting the ACS Connector](../../integrations/using/troubleshooting-the-acs-connector.md): Revise las respuestas a problemas comunes.
+* [Sincronización de perfiles](../../integrations/using/synchronizing-profiles.md): instrucciones sobre cómo duplicar perfiles y cómo crear entregas con ellos.
+* [Sincronización de audiencias](../../integrations/using/synchronizing-audiences.md): instrucciones sobre cómo dirigirse a una lista de destinatarios en Campaign v7 y luego duplicar la lista en Campaign Standard como audiencia.
+* [Sincronización de aplicaciones web](../../integrations/using/synchronizing-web-applications.md): instrucciones sobre cómo vincular las aplicaciones web de Campaign v7 a Campaign Standard.
+* [Solución de problemas del conector ACS](../../integrations/using/troubleshooting-the-acs-connector.md): revise las respuestas a problemas comunes.
 
 >[!NOTE]
 >
@@ -97,8 +97,8 @@ Se puede acceder fácilmente a los perfiles duplicados para las entregas, pero t
 * **Perfiles creados en Campaign Standard**: ACS Connector replica los datos de los destinatarios en una dirección, desde Campaign v7 hasta Campaign Standard. Por lo tanto, los perfiles que se crean en Campaign Standard no se duplican en Campaign v7.
 * **Datos básicos del destinatario para Campaign Standard**: ACS Connector replica los datos del destinatario que son adecuados para Campaign Standard. Incluye nombres de destinatarios, direcciones, direcciones de correo electrónico, números de teléfono móvil, números de teléfono fijo y otros datos de contacto relevantes. Si los campos de destinatario adicionales y tablas de objetivos personalizadas disponibles en Campaign v7 son esenciales para el flujo de trabajo, póngase en contacto con su consultor de Adobe.
 * **Importing quarantined profiles**: Las listas de perfiles que no desean que se pongan en contacto con ellos se pueden importar en Campaign v7 o Campaign Standard como perfiles en cuarentena. El estado de los perfiles se incluye en la sincronización de cuarentena entre las aplicaciones y no se utilizan en las entregas.
-* **Unsubscribe to a service in Campaign Standard**: La opción de dar de baja la suscripción a una entrega no se sincroniza de Campaign Standard a Campaign v7. Sin embargo, se puede configurar una entrega de Campaign Standard para dirigir su vínculo de baja de suscripción a Campaign v7. El perfil de un destinatario que hace clic en el vínculo de baja de suscripción se actualiza en Campaign v7 y los datos se duplican en Campaign Standard. Consulte [Cambiar el vínculo de baja](../../integrations/using/synchronizing-profiles.md#changing-the-unsubscription-link).
-* Solo los “broadlogs” de correo electrónico y los “logs” de seguimiento se duplican desde Campaign Standard a Campaign v7.
+* **Unsubscribe to a service in Campaign Standard**: La opción de dar de baja la suscripción a una entrega no se sincroniza de Campaign Standard a Campaign v7. Sin embargo, se puede configurar una entrega de Campaign Standard para dirigir su vínculo de baja de suscripción a Campaign v7. El perfil de un destinatario que hace clic en el vínculo de baja de suscripción se actualiza en Campaign v7 y los datos se duplican en Campaign Standard. Consulte [Modificación del vínculo de baja](../../integrations/using/synchronizing-profiles.md#changing-the-unsubscription-link).
+* Solo los broadlogs de correo electrónico y los registros de seguimiento se duplican de Campaign Standard a Campaign v7.
 
 ### Facturación {#billing}
 
