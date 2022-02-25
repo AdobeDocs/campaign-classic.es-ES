@@ -5,9 +5,9 @@ description: Aprenda a crear y utilizar direcciones semilla
 feature: Seed Address
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '413'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 89%
 
 Las direcciones semilla no se administran a través de perfiles y destinatarios estándar, sino en un nodo dedicado de la jerarquía de Adobe Campaign **[!UICONTROL Resources > Campaign management > Seed addresses]**.
 
-Se pueden crear subcarpetas para organizar las direcciones semilla. Para ello, haga clic con el botón derecho en el nodo **[!UICONTROL Seed addresses]** y seleccione **[!UICONTROL Create a new 'Seed addresses' folder]**. Asigne un nombre a la subcarpeta y pulse **[!UICONTROL Enter]** para validar. Ahora puede crear o copiar las direcciones semilla en esta subcarpeta. Para obtener más información, consulte [Definir direcciones](#defining-addresses).
+Se pueden crear subcarpetas para organizar las direcciones semilla. Para ello, haga clic con el botón derecho en el nodo **[!UICONTROL Seed addresses]** y seleccione **[!UICONTROL Create a new 'Seed addresses' folder]**. Asigne un nombre a la subcarpeta y pulse **[!UICONTROL Enter]** para validar. Ahora puede crear o copiar las direcciones semilla en esta subcarpeta. Para obtener más información sobre esto, consulte [Definición de direcciones](#defining-addresses).
 
-Adobe Campaign también permite crear plantillas de las direcciones semilla que se importan a las entregas o campañas, adaptándolas a las necesidades específicas de las entregas o campañas correspondientes. Consulte [Crear plantillas de dirección semilla](#creating-seed-address-templates).
+Adobe Campaign también permite crear plantillas de las direcciones semilla que se importan a las entregas o campañas, adaptándolas a las necesidades específicas de las entregas o campañas correspondientes. Consulte [Creación de plantillas de direcciones semilla](#creating-seed-address-templates).
 
-## Definir direcciones {#defining-addresses}
+## Definición de direcciones {#defining-addresses}
 
 Para crear direcciones semilla, avance con los siguientes pasos:
 
@@ -58,4 +58,4 @@ Para definir una carpeta de tipo “plantilla”, siga el siguiente proceso:
 
    ![](assets/s_ncs_user_seedlist_folder_is_model.png)
 
-   Ahora, las direcciones almacenadas en esta carpeta pueden utilizarse como plantillas de direcciones. Puede importarlas en envíos o campañas y adaptarlas según las necesidades específicas de los envíos o campañas correspondientes (consulte [Añadir direcciones semilla](adding-seed-addresses.md)).
+   Ahora, las direcciones almacenadas en esta carpeta pueden utilizarse como plantillas de direcciones. Pueden importarse en entregas o campañas y adaptarse a las necesidades específicas de las entregas o campañas correspondientes (consulte [Adición de direcciones semilla](adding-seed-addresses.md)).
