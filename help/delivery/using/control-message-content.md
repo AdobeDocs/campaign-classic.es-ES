@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: Acerca de la capacidad de envío en Adobe Campaign Classic
-description: Obtenga más información sobre la administración de la capacidad de envío en Adobe Campaign
+title: Acerca de la capacidad de entrega en Adobe Campaign Classic
+description: Obtenga más información acerca de la administración de la capacidad de entrega en Adobe Campaign
 feature: Deliverability
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '760'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Control del contenido del mensaje{#control-message-content}
+# Control del contenido de los mensajes{#control-message-content}
 
 ![](../../assets/common.svg)
 
@@ -29,7 +29,7 @@ Para obtener sugerencias adicionales para optimizar la capacidad de entrega al d
 
 >[!NOTE]
 >
->Para obtener más información sobre la edición de contenido de correo electrónico, consulte [Definición del contenido del correo electrónico](defining-the-email-content.md) y [Creación de contenido personalizado](design-and-personalize.md).
+>Para obtener más información sobre la edición del contenido del correo electrónico, consulte [Definición del contenido del correo electrónico](defining-the-email-content.md) y [Creación de contenido personalizado](design-and-personalize.md).
 
 ## Dirección del remitente {#sender-address}
 
@@ -37,7 +37,7 @@ Algunos ISP verifican la validez de la dirección del remitente (**[!UICONTROL F
 
 Debe asegurarse de proporcionar una dirección correcta en el nivel de instancia (menú **[!UICONTROL Tools > Advanced > Deployment wizard...]**) o en los escenarios más utilizados.
 
-Para obtener más información, consulte [esta página](defining-the-email-content.md).
+Para obtener más información sobre esto, consulte [esta página](defining-the-email-content.md).
 
 ## Personalización {#personalization}
 
