@@ -4,7 +4,7 @@ title: Introducción al seguimiento
 description: Obtenga más información sobre las directrices generales para el seguimiento en Adobe Campaign Classic
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '685'
 ht-degree: 100%
 
