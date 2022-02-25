@@ -4,9 +4,9 @@ title: Creación de una entrega a partir de una plantilla
 description: Obtenga información sobre cómo crear una entrega a partir de una plantilla
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 83%
 
 ![](../../assets/common.svg)
 
-## Vinculación de la plantilla a una entrega {#linking-the-template-to-a-delivery}
+## Vinculación de una plantilla a una entrega {#linking-the-template-to-a-delivery}
 
 Para crear una entrega basada en una plantilla existente, seleccione la plantilla de la lista de plantillas de entrega disponibles.
 
@@ -42,4 +42,4 @@ Esta acción genera una entrega en la carpeta adjunta a la plantilla. El nombre 
 
 >[!NOTE]
 >
->Para obtener más información sobre la configuración de una entrega, consulte [Definición del contenido del correo electrónico](defining-the-email-content.md).
+>Para obtener más información acerca de la configuración de una entrega, consulte [Definición del contenido del correo electrónico](defining-the-email-content.md).
