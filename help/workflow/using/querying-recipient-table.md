@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo consultar la tabla de destinatario
 feature: Query Editor
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '392'
 ht-degree: 100%
 
