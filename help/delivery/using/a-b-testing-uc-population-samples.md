@@ -4,7 +4,7 @@ title: Configuración de muestras de población
 description: Obtenga información sobre cómo realizar pruebas A/B mediante un caso de uso dedicado
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
 ht-degree: 100%
 
