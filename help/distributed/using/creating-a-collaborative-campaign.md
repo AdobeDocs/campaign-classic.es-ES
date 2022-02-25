@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: Creación de una campaña colaborativa
-description: Aprenda a crear una campaña de colaboración
+description: Aprenda a crear una campaña colaborativa
 feature: Distributed Marketing
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '915'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -171,6 +171,6 @@ Una vez que una entidad local ha finalizado su registro, se notifica a las entid
 
 Para obtener más información, consulte la sección [Proceso de aprobación](creating-a-local-campaign.md#approval-process).
 
-## Aprobar una solicitud {#approving-an-order}
+## Aprobación de una solicitud {#approving-an-order}
 
 El proceso de aprobación de una solicitud de paquete de campaña de colaboración es el mismo que al hacerlo para una campaña local. Consulte [esta sección](creating-a-local-campaign.md#approving-an-order).
