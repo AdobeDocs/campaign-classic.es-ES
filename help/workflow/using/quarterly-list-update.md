@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: targeting-activities
 exl-id: 0d3e7046-313a-42a6-9155-3365e8d60bac
 source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Como estas campañas se inician al comienzo de cada temporada para ofrecer activ
 ![](assets/incremental_query_example.png)
 
 1. Añade una consulta incremental así como una actividad de actualización de lista en un nuevo flujo de trabajo.
-1. Configure las variables **[!UICONTROL Incremental query]** de la actividad tal como se especifica en [Crear una consulta](query.md#creating-a-query).
+1. Configure la pestaña **[!UICONTROL Incremental query]** de la actividad según se especifica en [Creación de una consulta](query.md#creating-a-query).
 1. Seleccione la pestaña **[!UICONTROL Scheduling & History]** y luego especifique un historial de 270 días. Un destinatario que ya ha sido identificado ya no será objetivo durante un periodo de 270 días o aproximadamente 9 meses.
 
    A continuación, haga clic en el botón **[!UICONTROL Change...]** .
