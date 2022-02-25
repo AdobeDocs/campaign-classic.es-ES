@@ -4,7 +4,7 @@ title: Solución de problemas de seguimiento
 description: Esta sección proporciona preguntas comunes relacionadas con el seguimiento de la configuración y la implementación en Adobe Campaign Classic
 exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
 ht-degree: 100%
 
