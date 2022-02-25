@@ -5,9 +5,9 @@ description: Descubra más información sobre los datos de objetivos en un flujo
 feature: Query Editor, Data Management
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1924'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 ## Creación de consultas {#creating-queries}
 
-### Seleccionar datos {#selecting-data}
+### Selección de datos {#selecting-data}
 
 Una actividad **[!UICONTROL Query]** permite seleccionar datos básicos para crear la población objetivo. Para obtener más información, consulte [Creación de una consulta](query.md#creating-a-query).
 
@@ -25,7 +25,7 @@ También puede utilizar las siguientes actividades para consultar y acotar los d
 
 Se pueden recopilar datos adicionales que reenviar y procesar a lo largo del ciclo de vida del flujo de trabajo. Para obtener más información sobre esto, consulte [Añadir datos](query.md#adding-data) y [Editar datos adicionales](#editing-additional-data).
 
-### Editar datos adicionales {#editing-additional-data}
+### Edición de datos adicionales {#editing-additional-data}
 
 Una vez añadidos los datos adicionales, se pueden editar o utilizar para acotar el objetivo establecido en la actividad de consulta.
 
@@ -51,13 +51,13 @@ Las colecciones se muestran en la subpestaña **[!UICONTROL Collections]**. Pued
 
 ![](assets/query_add_columns_collection.png)
 
-### Restringir el objetivo utilizando datos adicionales {#refining-the-target-using-additional-data}
+### Acotamiento del objetivo mediante el uso de datos adicionales {#refining-the-target-using-additional-data}
 
 Los datos adicionales recopilados pueden permitirle acotar el filtrado de datos de la base de datos. Para ello, haga clic en el enlace **[!UICONTROL Refine the target using additional data...]**: esto permite volver a filtrar los datos añadidos.
 
 ![](assets/wf_add_data_use_additional_data.png)
 
-### Homogeneizar datos {#homogenizing-data}
+### Homogeneización de datos {#homogenizing-data}
 
 En las actividades de tipo **[!UICONTROL Union]** o **[!UICONTROL Intersection]**, puede elegir mantener solamente los datos adicionales compartidos para mantener la homogeneidad de los datos. En este caso, la tabla de trabajo temporal de salida de esta actividad solo contiene los datos adicionales encontrados en todos los conjuntos entrantes.
 
@@ -79,7 +79,7 @@ Para obtener más información, consulte [Creación de subconjuntos mediante la 
 
 ## Datos de segmentos {#segmenting-data}
 
-### Combinación de varios objetivos (Unión) {#combining-several-targets--union-}
+### Combinación de varios objetivos (unión) {#combining-several-targets--union-}
 
 La actividad de unión permite combinar el resultado de varias actividades dentro de una transición. Los conjuntos no tienen que ser necesariamente homogéneos.
 
@@ -117,7 +117,7 @@ Estas son las opciones de reconciliación de datos disponibles:
 
    ![](assets/join_limit_nb_priority.png)
 
-### Extraer datos conjuntos (intersección) {#extracting-joint-data--intersection-}
+### Extracción de datos conjuntos (intersección) {#extracting-joint-data--intersection-}
 
 ![](assets/traitements.png)
 
@@ -127,7 +127,7 @@ Además, es posible mantener únicamente una selección de columnas o solo las c
 
 Esta actividad de intersección se detalla en la sección [Intersección](intersection.md).
 
-### Excluir una población (Exclusión) {#excluding-a-population--exclusion-}
+### Exclusión de una población (exclusión) {#excluding-a-population--exclusion-}
 
 La actividad de exclusión permite excluir los elementos de un objetivo desde una población objetivo diferente. La dimensión objetivo de salida de esta actividad es la del conjunto principal.
 
@@ -137,7 +137,7 @@ La reconciliación de datos se lleva a cabo mediante un identificador, un eje de
 
 ![](assets/exclusion_edit_add_rule_01.png)
 
-### Crear subconjuntos con la actividad Split {#creating-subsets-using-the-split-activity}
+### Creación de subconjuntos con la actividad División {#creating-subsets-using-the-split-activity}
 
 La actividad **[!UICONTROL Split]** es una actividad estándar que permite crear tantos conjuntos como sea necesario mediante una o varias dimensiones de filtro, así como una transición de salida por subgrupo o una transición única.
 
@@ -213,7 +213,7 @@ Por ejemplo, puede colocar una sola actividad de entrega y personalizar el conte
 
 También se pueden crear subconjuntos mediante la actividad **[!UICONTROL Cells]**. Para obtener más información, consulte la sección [Celdas](cells.md).
 
-### Usar datos segmentados {#using-targeted-data}
+### Uso de datos segmentados {#using-targeted-data}
 
 Una vez identificados y preparados los datos, se pueden utilizar en los siguientes contextos:
 
