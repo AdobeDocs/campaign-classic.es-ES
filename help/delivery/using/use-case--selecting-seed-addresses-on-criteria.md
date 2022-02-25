@@ -5,13 +5,13 @@ description: '"Ejemplo de uso: selección de direcciones semilla según ciertos 
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '837'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# Caso de uso: Selección de direcciones semilla según ciertos criterios{#use-case-selecting-seed-addresses-on-criteria}
+# Caso de uso: selección de direcciones semilla según ciertos criterios{#use-case-selecting-seed-addresses-on-criteria}
 
 ![](../../assets/common.svg)
 
@@ -30,9 +30,9 @@ Para utilizar la condición dinámica, se debe contar con:
 
 ## Paso 1: Creación de una entrega {#step-1---creating-a-delivery}
 
-Los pasos para crear una entrega se detallan en la sección [Creación de una entrega de correo electrónico](creating-an-email-delivery.md) para obtener más información.
+Los pasos para crear una entrega se detallan en la sección [Creación de una entrega por correo electrónico](creating-an-email-delivery.md).
 
-En este ejemplo, el administrador de envíos ha creado el boletín informativo y ha seleccionado los destinatarios.
+En este ejemplo, el administrador de entregas ha creado el boletín informativo y ha seleccionado los destinatarios.
 
 ![](assets/dlv_seeds_usecase_01.png)
 
@@ -93,7 +93,7 @@ Para obtener más información sobre las extensiones de esquema, consulte [esta 
 
    Una vez finalizada la actualización, puede cerrar el asistente.
 
-1. Desconéctese y vuelva a conectarse a Adobe Campaign. Los cambios realizados en el esquema de datos de las direcciones semilla deberían haber surtido efecto. Para que puedan ser visibles desde la pantalla de las direcciones semilla, debe actualizar el **[!UICONTROL Input form]** asociado. Consulte la [Actualizar el formulario de entrada](#updating-the-input-form) para obtener más información.
+1. Desconéctese y vuelva a conectarse a Adobe Campaign. Los cambios realizados en el esquema de datos de las direcciones semilla deberían haber surtido efecto. Para que puedan ser visibles desde la pantalla de las direcciones semilla, debe actualizar el **[!UICONTROL Input form]** asociado. Consulte la sección [Actualización del formulario de entrada](#updating-the-input-form).
 
 #### Ampliación del esquema de datos desde una tabla vinculada {#extending-the-data-schema-from-a-linked-table}
 
@@ -129,9 +129,9 @@ Indican lo siguiente:
 
 El usuario puede seguir el **paso 5** de la sección y actualizar el **[!UICONTROL Input form]**.
 
-Consulte la [Actualizar el formulario de entrada](#updating-the-input-form) para obtener más información.
+Consulte la sección [Actualización del formulario de entrada](#updating-the-input-form).
 
-#### Actualizar el formulario de entrada {#updating-the-input-form}
+#### Actualización del formulario de entrada {#updating-the-input-form}
 
 1. En el nodo **[!UICONTROL Administration > Configuration > Input forms]**, busque el formulario de entrada de direcciones semilla.
 
