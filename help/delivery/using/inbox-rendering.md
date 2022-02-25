@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo capturar las renderizaciones de co
 feature: Inbox Rendering, Monitoring, Email Rendering
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '813'
 ht-degree: 100%
 
