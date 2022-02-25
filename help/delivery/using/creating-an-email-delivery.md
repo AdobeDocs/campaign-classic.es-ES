@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: Creación de una entrega de correo electrónico
-description: Obtenga información sobre cómo crear una entrega por correo electrónico
+description: Obtenga información sobre cómo crear una entrega de correo electrónico
 exl-id: 7f44e732-4257-4d2a-800c-bde847e20f52
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '98'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
