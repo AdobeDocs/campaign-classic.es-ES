@@ -1,11 +1,11 @@
 ---
 product: campaign
 title: Tablero de entregas
-description: Obtenga más información acerca de cómo utilizar el panel de entregas para monitorizar las entregas
+description: Obtenga más información acerca de cómo utilizar el tablero de entregas para monitorizar las entregas
 feature: Monitoring
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1174'
 ht-degree: 100%
 
