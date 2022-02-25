@@ -4,7 +4,7 @@ title: Acceso a la lista de entregas
 description: Obtenga información sobre cómo acceder a la lista de entregas creadas
 exl-id: 6c0fd76f-3d79-4b69-b911-f8d99dd18c4b
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
 ht-degree: 100%
 
