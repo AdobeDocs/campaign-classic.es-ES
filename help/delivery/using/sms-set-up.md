@@ -4,9 +4,9 @@ title: Configuración del canal SMS de Campaign
 description: Obtenga información sobre cómo configurar el canal SMS en Campaign
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1696'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
