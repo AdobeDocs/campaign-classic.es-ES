@@ -4,7 +4,7 @@ title: Solución de problemas de envíos de entregas
 description: Obtenga más información sobre el rendimiento de las entregas y cómo solucionar problemas relacionados con la monitorización de entregas
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
 ht-degree: 100%
 
