@@ -3,7 +3,7 @@ product: campaign
 title: Inserción de un código de barras en un correo electrónico
 description: Inserción de un código de barras en un correo electrónico
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '513'
 ht-degree: 100%
 
