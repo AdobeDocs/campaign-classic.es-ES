@@ -5,9 +5,9 @@ description: Más información sobre las entregas de campañas de marketing
 feature: Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1487'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,11 +29,11 @@ Para crear una entrega vinculada a una campaña, haga clic en el vínculo **[!UI
 
 Las configuraciones sugeridas se adecúan a los diferentes tipos de envío: correo postal, correo electrónico, canales móviles. [Más información](../../delivery/using/steps-about-delivery-creation-steps.md).
 
-## Inicio de envíos {#starting-a-delivery}
+## Inicio de una entrega {#starting-a-delivery}
 
 Una vez que se hayan realizado todas las aprobaciones, la entrega está listo para ser iniciado. El procedimiento de envío depende del tipo de envío. Para las entregas por correo electrónico o por canal móvil, consulte [Inicio de una entrega en línea](#starting-an-online-delivery) y para las entregas por correo directo, consulte [Inicio de una entrega sin conexión](#starting-an-offline-delivery).
 
-### Iniciar una entrega en línea {#starting-an-online-delivery}
+### Inicio de una entrega en línea {#starting-an-online-delivery}
 
 Una vez concedidas todas las solicitudes de aprobación, el estado de entrega cambia a **[!UICONTROL Pending confirmation]** y el operador puede iniciarlo. Si corresponde, el operador de Adobe Campaign (o grupo de operadores) designado como revisor para iniciar la entrega recibe una notificación avisando de que una entrega está listo para iniciarse.
 
@@ -63,7 +63,7 @@ Una vez concedidas todas las aprobaciones, el estado de entrega cambia a **[!UIC
 
 Una vez ejecutado correctamente el flujo de trabajo de extracción, debe aprobar el archivo de extracción (siempre que se haya seleccionado la aprobación del archivo de extracción en la configuración de envío).
 
-Para obtener más información, consulte [Aprobar un archivo de extracción](../../campaign/using/marketing-campaign-approval.md#approving-an-extraction-file).
+Para obtener más información sobre esto, consulte [Aprobación de un archivo de extracción](../../campaign/using/marketing-campaign-approval.md#approving-an-extraction-file).
 
 **Paso 2: Aprobación del mensaje al proveedor de servicios**
 
@@ -126,7 +126,7 @@ En una campaña también puede hacer referencia a otros elementos, tales como cu
 
 >[!NOTE]
 >
->Si está utilizando MRM, también puede administrar una biblioteca de recursos de marketing disponibles para varios participantes para trabajar en colaboración. Consulte [Administrar recursos de marketing](../../mrm/using/managing-marketing-resources.md).
+>Si está utilizando MRM, también puede administrar una biblioteca de recursos de marketing disponibles para varios participantes para trabajar en colaboración. Consulte [Administración de recursos de marketing](../../mrm/using/managing-marketing-resources.md).
 
 ### Adición de documentos {#adding-documents}
 
