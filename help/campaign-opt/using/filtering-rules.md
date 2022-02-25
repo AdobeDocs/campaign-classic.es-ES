@@ -5,9 +5,9 @@ description: Aprenda a utilizar las reglas de filtrado
 feature: Typology Rules
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '507'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Cuando se utiliza esta regla en una entrega, se excluye automáticamente a los s
 
 ![](assets/campaign_opt_create_filter_05.png)
 
-## Condición de una regla de filtrado {#conditioning-a-filtering-rule}
+## Condicionamiento de una regla de filtrado {#conditioning-a-filtering-rule}
 
 Puede restringir el campo de aplicación de la regla de filtrado en función de la entrega relacionado o la descripción de la entrega.
 
