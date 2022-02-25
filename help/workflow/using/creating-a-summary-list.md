@@ -5,7 +5,7 @@ description: Creación de la lista de resumen
 feature: Workflows
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '974'
 ht-degree: 100%
 
