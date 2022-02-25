@@ -4,9 +4,9 @@ title: Configuración de las opciones de seguimiento de URL
 description: Obtenga información sobre cómo configurar las opciones de seguimiento de URL
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Es posible acceder a los ajustes avanzados de seguimiento de mensajes mediante e
 
 >[!NOTE]
 >
->La administración de imágenes en correos electrónicos también se configura en esta ventana. Consulte [Añadir imágenes](defining-the-email-content.md#adding-images).
+>La administración de imágenes en correos electrónicos también se configura en esta ventana. Consulte [Adición de imágenes](defining-the-email-content.md#adding-images).
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 
