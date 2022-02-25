@@ -1,16 +1,16 @@
 ---
 product: campaign
-title: Crear e identificar la entrega
-description: Crear e identificar la entrega
+title: Creación e identificación de la entrega
+description: Creación e identificación de la entrega
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Crear e identificar la entrega {#create-and-identify-the-delivery}
+# Creación e identificación de la entrega {#create-and-identify-the-delivery}
 
 ![](../../assets/common.svg)
 
