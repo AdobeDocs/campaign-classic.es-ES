@@ -5,9 +5,9 @@ description: Aprenda a utilizar los campos de personalización
 feature: Personalization
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '884'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
