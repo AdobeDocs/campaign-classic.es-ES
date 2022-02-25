@@ -5,7 +5,7 @@ description: Obtenga información sobre los pasos para crear un formulario “re
 feature: Surveys
 exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '618'
 ht-degree: 100%
 
