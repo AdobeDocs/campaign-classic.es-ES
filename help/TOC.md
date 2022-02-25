@@ -7,9 +7,9 @@ user-guide-description: Con Adobe Campaign, puede utilizar datos de clientes enr
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2555'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -506,7 +506,7 @@ ht-degree: 99%
       + [Ejemplos de código JavaScript en flujos de trabajo](workflow/using/javascript-in-workflows.md)
       + [Acceso a una base de datos externa](workflow/using/accessing-an-external-database--fda-.md)
       + [Administración de permisos](workflow/using/managing-rights.md)
-      + [Cambiar imágenes de actividad](workflow/using/managing-activity-images.md)
+      + [Cambio de imágenes de actividad](workflow/using/managing-activity-images.md)
       + [Administración de husos horarios](workflow/using/managing-time-zones.md)
       + [Flujos de trabajo técnicos](workflow/using/about-technical-workflows.md)
 + Administración de ofertas {#managing-offers}
