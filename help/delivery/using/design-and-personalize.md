@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: Creación de contenido personalizado
-description: Aprenda a crear contenido personalizado en envíos de Adobe Campaign
+description: Aprenda a crear contenido personalizado en entregas de Adobe Campaign
 feature: Email Design, Personalization
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1288'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
