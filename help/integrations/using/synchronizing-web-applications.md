@@ -5,9 +5,9 @@ description: Obtenga información sobre cómo sincronizar aplicaciones web con e
 feature: ACS Connector
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
 source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '801'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Si tiene muchos servicios y aplicaciones web en Campaign v7, puede elegir no rec
 
 Para lograr esto, es necesario lo siguiente:
 
-* Los destinatarios almacenados en la base de datos de Campaign v7 y sincronizarlos con Campaign Standard. Consulte la [Sincronizar perfiles](../../integrations/using/synchronizing-profiles.md) para obtener más información.
+* Los destinatarios almacenados en la base de datos de Campaign v7 y sincronizarlos con Campaign Standard. Consulte la sección [Sincronización de perfiles](../../integrations/using/synchronizing-profiles.md).
 * Un servicio y una aplicación web creados y publicados en Campaign v7.
 * La aplicación web debe contener una actividad **[!UICONTROL Pre-loading]** mediante el método de identificación de **[!UICONTROL Adobe Campaign encryption]**.
 
@@ -56,7 +56,7 @@ En Campaign v7 se han creado los siguientes objetos:
 
    ![](assets/acs_connect_lp_6.png)
 
-## Duplique los datos {#replicating-the-data}
+## Replicación de los datos {#replicating-the-data}
 
 Para poder duplicar los datos necesarios entre Campaign v7 y Campaign Standard, hay disponibles varias plantillas de flujo de trabajo de duplicación. El flujo de trabajo de **[!UICONTROL Profiles replication]** duplica automáticamente todos los destinatarios de Campaign v7 a Campaign Standard. Consulte [Flujos de trabajo técnicos y de duplicación](../../integrations/using/acs-connector-principles-and-data-cycle.md#technical-and-replication-workflows). El flujo de trabajo **[!UICONTROL Landing pages replication]** permite la duplicación de las aplicaciones web que deseamos utilizar en Campaign Standard.
 
@@ -80,7 +80,7 @@ Para comprobar que los datos se hayan duplicado correctamente, siga estos pasos 
 
    ![](assets/acs_connect_lp_10.png)
 
-## Diseñar y enviar el correo electrónico {#designing-and-sending-the-email}
+## Diseño y envío del correo electrónico {#designing-and-sending-the-email}
 
 En esta parte, se muestra cómo incluir en un correo electrónico de Campaign Standard un vínculo a la página de destino duplicada desde una aplicación web de Campaign v7.
 
