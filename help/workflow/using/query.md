@@ -5,9 +5,9 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 feature: Query Editor
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
 source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1629'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 ![](../../assets/common.svg)
 
-## Cree una consulta {#creating-a-query}
+## Creación de una consulta {#creating-a-query}
 
 Una consulta le permite seleccionar un objetivo según los criterios. Puede asociar un código de segmento al resultado de la consulta e insertar datos adicionales en él.
 Para obtener más información sobre las muestras de consultas, consulte [esta sección](querying-recipient-table.md).
@@ -26,7 +26,7 @@ Para obtener más información sobre las muestras de consultas, consulte [esta s
 
 ![](assets/s_user_segmentation_wizard_9.png)
 
-Para obtener más información sobre el uso y la administración de datos adicionales, consulte [Añadir datos](#adding-data).
+Para obtener más información sobre cómo utilizar y administrar datos adicionales, consulte [Adición de datos](#adding-data).
 
 El enlace **[!UICONTROL Edit query...]** permite definir el tipo de objetivo, las restricciones y los criterios de selección para la población de la siguiente forma:
 
@@ -60,7 +60,7 @@ El enlace **[!UICONTROL Edit query...]** permite definir el tipo de objetivo, la
 
    ![](assets/s_user_segmentation_query_advanced.png)
 
-## Añadir datos {#adding-data}
+## Adición de datos {#adding-data}
 
 Las columnas adicionales permiten recopilar información adicional sobre la población de destino, por ejemplo, números de contrato, suscripciones a boletines o código fuente. Estos datos se pueden almacenar en la base de datos de Adobe Campaign o en una base de datos externa.
 
@@ -73,7 +73,7 @@ Para empezar, seleccione el tipo de datos que desea añadir:
 ![](assets/wf_add_data_1st_option.png)
 
 * Seleccione la opción **[!UICONTROL Data linked to the filtering dimension]** para seleccionar los datos de la base de datos de Adobe Campaign.
-* Seleccione la opción **[!UICONTROL External data]** para añadir datos desde una base de datos externa. Esta opción solo está disponible si ha comprado la opción **Federated Data Access.** Para obtener más información, consulte [Acceso a una base de datos externa (FDA)](accessing-an-external-database--fda-.md).
+* Seleccione la opción **[!UICONTROL External data]** para añadir datos desde una base de datos externa. Esta opción solo está disponible si ha comprado la opción **Acceso de datos federado**. Para obtener más información, consulte [Acceso a una base de datos externa (FDA)](accessing-an-external-database--fda-.md).
 * Seleccione la opción **[!UICONTROL An offer proposition]** para añadir un conjunto de columnas que le permitan almacenar la mejor propuesta generada por el motor de oferta. Esta opción solo está disponible si ha comprado el módulo **Interaction**.
 
 Si no hay un módulo opcional instalado en la plataforma, este paso no se muestra. Se le dirigirá al siguiente paso.
@@ -90,10 +90,10 @@ Para agregar datos de la base de datos de Adobe Campaign:
 
    Puede añadir:
 
-   * Campo calculado basado en los datos tomados desde la población de destino o un agregado (número de compras pendientes en el último mes, cantidad promedio de un recibo, etc.). Para ver un ejemplo, vaya a [Seleccionar datos](targeting-data.md#selecting-data).
+   * Campo calculado basado en los datos tomados desde la población de destino o un agregado (número de compras pendientes en el último mes, cantidad promedio de un recibo, etc.). Por ejemplo, vaya a [Selección de datos](targeting-data.md#selecting-data).
    * Un campo nuevo, creado con el botón **[!UICONTROL Add]** a la derecha de la lista de columnas de salida.
 
-      También puede añadir una colección de información, por ejemplo una lista de contratos, los últimos 5 envíos, etc. Las colecciones coinciden con los campos que pueden tener múltiples valores para el mismo perfil (relación 1-N). Para obtener más información, consulte [Editar datos adicionales](targeting-data.md#editing-additional-data).
+      También puede añadir una colección de información, por ejemplo, una lista de contratos, las últimas cinco entregas, etc. Las colecciones coinciden con los campos que pueden tener múltiples valores para el mismo perfil (relación 1-N). Para obtener más información, consulte [Edición de datos adicionales](targeting-data.md#editing-additional-data).
 
 Para añadir una colección de información enlazada a una población de destino:
 
