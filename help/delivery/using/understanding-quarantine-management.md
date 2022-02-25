@@ -7,7 +7,7 @@ exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 source-git-commit: afe4329fd230f30e48bfbf5ac2073ca95a6fd04e
 workflow-type: tm+mt
 source-wordcount: '2837'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -21,9 +21,9 @@ Adobe Campaign administra una lista de direcciones en cuarentena. Los destinatar
 >
 >Esta sección se aplica a los canales en línea: correo electrónico, SMS, notificación inmediata.
 
-## Optimización del envío mediante la administración de cuarentena {#optimizing-your-delivery-through-quarantines}
+## Optimización de la entrega mediante la administración de cuarentena {#optimizing-your-delivery-through-quarantines}
 
-Los perfiles cuyas direcciones de correo electrónico o número de teléfono están en cuarentena se excluyen automáticamente durante la preparación del mensaje (consulte [Identificar direcciones en cuarentena para una entrega](#identifying-quarantined-addresses-for-a-delivery)). Esto acelera las entregas, ya que la tasa de error afecta significativamente a la velocidad de entrega.
+Los perfiles cuyas direcciones de correo electrónico o número de teléfono están en cuarentena se excluyen automáticamente durante la preparación del mensaje (consulte [Identificación de direcciones en cuarentena para una entrega](#identifying-quarantined-addresses-for-a-delivery)). Esto acelera las entregas, ya que la tasa de error afecta significativamente a la velocidad de entrega.
 
 Algunos proveedores de acceso a Internet consideran automáticamente los correos electrónicos como no deseados si la tasa de direcciones no válidas es demasiado alta. Por lo tanto, la cuarentena le permite evitar ser incluido en la lista de bloqueados de bloqueados por estos proveedores.
 
@@ -47,15 +47,15 @@ La cuarentena y la lista de bloqueados no se aplican al mismo objeto:
 >
 >La cuarentena incluye un **[!UICONTROL Denylisted]** , que se aplica cuando los destinatarios informan del mensaje como correo no deseado o responden a un mensaje SMS con una palabra clave como &quot;STOP&quot;. En ese caso, la dirección o el número de teléfono implicados del perfil se envían a cuarentena con el **[!UICONTROL Denylisted]** estado. Para obtener más información sobre la administración de mensajes STOP SMS, consulte [esta sección](../../delivery/using/sms-send.md#processing-inbound-messages).
 
-## Identificar direcciones en cuarentena {#identifying-quarantined-addresses}
+## Identificación de direcciones en cuarentena {#identifying-quarantined-addresses}
 
 Las direcciones en cuarentena pueden enumerarse para una entrega específica o para toda la plataforma.
 
-### Identificar direcciones en cuarentena para una entrega {#identifying-quarantined-addresses-for-a-delivery}
+### Identificación de direcciones en cuarentena para una entrega {#identifying-quarantined-addresses-for-a-delivery}
 
 Las direcciones en cuarentena de una entrega específica se enumeran durante la fase de preparación de la entrega, en los registros de envío del tablero de entregas (consulte [Registro e historial de entregas](delivery-dashboard.md#delivery-logs-and-history)).
 
-### Identificar direcciones en cuarentena para toda la plataforma {#identifying-quarantined-addresses-for-the-entire-platform}
+### Identificación de direcciones en cuarentena para toda la plataforma {#identifying-quarantined-addresses-for-the-entire-platform}
 
 Los administradores pueden enumerar las direcciones en cuarentena para toda la plataforma desde el nodo **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**.
 
@@ -74,7 +74,7 @@ La siguiente información está disponible para cada dirección:
 >Fin de año 1: (1*0,33)/(1+0,5) = 22 %.
 Fin de año 2: ((1,22*0,33)+0,33)/(1,5+0,75) = 32,5 %.
 
-### Identificar direcciones en cuarentena en informes de envío {#identifying-quarantined-addresses-in-delivery-reports}
+### Identificación de direcciones en cuarentena en informes de envío {#identifying-quarantined-addresses-in-delivery-reports}
 
 Los siguientes informes proporcionan información acerca de las direcciones en cuarentena:
 
@@ -88,13 +88,13 @@ Los siguientes informes proporcionan información acerca de las direcciones en c
 
 Puede consultar esta información para todos los envíos de la plataforma (**[!UICONTROL Home page > Reports]**) para un envío específico. También se pueden crear informes personalizados y seleccionar la información que desea mostrar.
 
-### Identificar direcciones en cuarentena para un destinatario {#identifying-quarantined-addresses-for-a-recipient}
+### Identificación de direcciones en cuarentena para un destinatario {#identifying-quarantined-addresses-for-a-recipient}
 
 Se puede buscar el estado del correo electrónico de cualquier destinatario. Para ello, seleccione el perfil de destinatario y haga clic en la pestaña **[!UICONTROL Deliveries]**. Para todas las entregas a ese destinatario, se puede averiguar si la dirección falló, si se puso en cuarentena durante el análisis, etc. Por cada carpeta, puede mostrar solo los destinatarios cuya dirección de correo electrónico está en cuarentena. Para ello, utilice el filtro de aplicación **[!UICONTROL Quarantined email address]**.
 
 ![](assets/tech_quarant_recipients_filter.png)
 
-### Quitar una dirección en cuarentena {#removing-a-quarantined-address}
+### Eliminación de una dirección en cuarentena {#removing-a-quarantined-address}
 
 Si es necesario, puede eliminar manualmente una dirección de la lista de cuarentena. Además, las direcciones que coinciden con condiciones específicas se eliminan automáticamente de la lista de cuarentena mediante la función [Database cleanup](../../production/using/database-cleanup-workflow.md) flujo de trabajo.
 
