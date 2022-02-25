@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: Bloques de personalización
-description: Aprenda a utilizar bloques personalizados
+description: Aprenda a utilizar bloques de personalización
 feature: Personalization
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '861'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -15,19 +15,19 @@ ht-degree: 91%
 
 ![](../../assets/common.svg)
 
-Los bloques personalizados son dinámicos, personalizados y contienen un procesamiento específico que puede insertar en las entregas. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un vínculo a una página espejo. Consulte [Insertar bloques personalizados](#inserting-personalization-blocks).
+Los bloques personalizados son dinámicos, personalizados y contienen un procesamiento específico que puede insertar en las entregas. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un vínculo a una página espejo. Consulte [Inserción de bloques de personalización](#inserting-personalization-blocks).
 
 ![](assets/do-not-localize/how-to-video.png)[ Descubra esta función en vídeo](#personalization-blocks-video)
 
 Se puede acceder a los bloques personalizados mediante el nodo **[!UICONTROL Resources > Campaign Management > Personalization blocks]** del explorador de Adobe Campaign. Hay varios bloques disponibles de forma predeterminada (consulte [Bloques de personalización predeterminados](#out-of-the-box-personalization-blocks)).
 
-Tiene la posibilidad de definir nuevos bloques que le permitan optimizar la personalización de las entregas. Para obtener más información, consulte [Definir bloques personalizados personalizados personalizados](#defining-custom-personalization-blocks).
+Tiene la posibilidad de definir nuevos bloques que le permitan optimizar la personalización de las entregas. Para obtener más información sobre esto, consulte [Definición de bloques de personalización propios](#defining-custom-personalization-blocks).
 
 >[!NOTE]
 >
 >Los bloques personalizados también están disponibles desde **[!UICONTROL Digital Content Editor (DCE)]** Para obtener más información, consulte [esta página](../../web/using/editing-content.md#inserting-a-personalization-block).
 
-## Insertar bloques personalizados {#inserting-personalization-blocks}
+## Inserción de bloques de personalización {#inserting-personalization-blocks}
 
 Para insertar un bloque de personalización en un mensaje, siga los pasos a continuación:
 
@@ -36,7 +36,7 @@ Para insertar un bloque de personalización en un mensaje, siga los pasos a cont
 
    ![](assets/s_ncs_user_personalized_block01.png)
 
-1. La variable **[!UICONTROL Other...]** proporciona acceso a todos los bloques de personalización predeterminados y personalizados (consulte [Bloques personalizados preestablecidos](#out-of-the-box-personalization-blocks) y [Definir bloques personalizados personalizados personalizados](#defining-custom-personalization-blocks)).
+1. El menú **[!UICONTROL Other...]** proporciona acceso a todos los bloques de personalización predeterminados y propios (consulte [Bloques de personalización predeterminados](#out-of-the-box-personalization-blocks) y [Definición de bloques de personalización propios](#defining-custom-personalization-blocks)).
 
    ![](assets/s_ncs_user_personalized_block02.png)
 
@@ -68,7 +68,7 @@ Para ello, es necesario insertar los siguientes bloques personalizados:
 
 >[!NOTE]
 >
->Para obtener más información sobre la generación de páginas espejo, consulte [Generar la página espejo](sending-messages.md#generating-the-mirror-page).
+>Para obtener más información sobre la generación de páginas espejo, consulte [Generación de la página espejo](sending-messages.md#generating-the-mirror-page).
 
 1. Cree una nueva entrega o abra una entrega de tipo correo electrónico ya existente.
 1. En el asistente de envíos, haga clic en **[!UICONTROL Subject]** para editar el asunto del mensaje y escriba un asunto.
@@ -100,9 +100,9 @@ De forma predeterminada, hay disponibles una lista de bloques personalizados que
 
    >[!NOTE]
    >
-   >Para obtener más información sobre la generación de páginas espejo, consulte [Generar la página espejo](sending-messages.md#generating-the-mirror-page).
+   >Para obtener más información sobre la generación de páginas espejo, consulte [Generación de la página espejo](sending-messages.md#generating-the-mirror-page).
 
-* **[!UICONTROL Link to mirror page]**: inserta un vínculo a la página espejo: &quot;Si no puede ver este mensaje correctamente, haga clic aquí&quot;.
+* **[!UICONTROL Link to mirror page]**: inserta un vínculo a la página espejo: “Si no puede ver este mensaje correctamente, haga clic aquí”.
 * **[!UICONTROL Unsubscription link]**: inserta un vínculo que permite cancelar la suscripción a todas las entregas (lista de bloqueados).
 * **[!UICONTROL Formatting function for proper nouns]**: genera la función JavaScript **[!UICONTROL toSmartCase]**, que cambia la primera letra de cada palabra a mayúscula.
 * **[!UICONTROL Registration page URL]**: inserta una URL de suscripción (consulte [Acerca de los servicios y las suscripciones](about-services-and-subscriptions.md)).
@@ -118,7 +118,7 @@ De forma predeterminada, hay disponibles una lista de bloques personalizados que
 * **[!UICONTROL Style of content emails]** y **[!UICONTROL Notification style]**: genera un código que dé formato a un correo electrónico con estilos HTML predefinidos. Estos bloques deben insertarse en el código fuente de la entrega, en la sección **[!UICONTROL ...]**, entre las etiquetas **`<style>...</style>`**.
 * **[!UICONTROL Offer acceptance URL in unitary mode]**: inserta una URL que permite establecer una oferta de interacción como **[!UICONTROL Accepted]** (consulte [esta sección](../../interaction/using/offer-analysis-report.md)).
 
-## Definir bloques personalizados personalizados personalizados {#defining-custom-personalization-blocks}
+## Definición de bloques de personalización propios {#defining-custom-personalization-blocks}
 
 Se pueden definir nuevos campos personalizados para que se inserten desde el icono de campo personalizado en el menú **[!UICONTROL Include...]**. Estos campos se definen en bloques personalizados.
 
