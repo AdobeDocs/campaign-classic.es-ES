@@ -4,7 +4,7 @@ title: Formato
 description: Formato
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1447'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Los atributos y elementos del contenido se representan como objetos JavaScript y
 **Ejemplo**:
 
 * **content.@name**: recupera el valor del atributo “name” del elemento principal.
-* **contenido.@`['name']`**: idéntico al **content.@name** sintaxis
+* **content.@`['name']`**: idéntico al **content.@name** sintaxis
 * **content.chapter.length**: devuelve el número de elementos en el elemento de colección `<chapter`.
 * **content.chapter`[0]`.@name**: recupera el nombre del primer elemento `<chapter>`.
 * **chapter.name()**: devuelve el nombre del elemento `<chapter>`.
