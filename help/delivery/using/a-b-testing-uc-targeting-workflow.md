@@ -4,7 +4,7 @@ title: Creación de un flujo de trabajo de segmentación
 description: Obtenga información sobre cómo realizar pruebas A/B mediante un caso de uso dedicado.
 exl-id: aa21fa33-aef9-484a-b454-0cd5a6868a98
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '133'
 ht-degree: 100%
 
