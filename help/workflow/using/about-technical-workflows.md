@@ -5,7 +5,7 @@ description: Obtenga más información sobre los flujos de trabajo técnicos dis
 feature: Workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1714'
 ht-degree: 100%
 
