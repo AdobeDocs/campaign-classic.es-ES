@@ -5,9 +5,9 @@ description: Reglas de presión
 feature: Fatigue Management, Typology Rules
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3285'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Para crear y configurar una regla de tipología de **[!UICONTROL Pressure]**, si
 
 1. La pestaña **[!UICONTROL Typologies]** permite ver las tipologías de campaña que aplican esta regla o relaciona la regla con una o más tipologías existentes. Para obtener más información, consulte [Aplicación de tipologías](about-campaign-typologies.md#applying-typologies).
 
-## Definir umbrales y pesos {#defining-thresholds-and-weights}
+## Definición de umbrales y pesos {#defining-thresholds-and-weights}
 
 ### Número máximo de mensajes {#maximum-number-of-messages}
 
@@ -139,7 +139,7 @@ En el ejemplo siguiente, queremos vincular el peso de los boletines de noticias 
 
 1. Aplique esta regla a los mensajes con el siguiente asunto: boletines informativos, ofertas especiales, etc. El peso de estos envíos y, por lo tanto, su nivel de prioridad depende de la puntuación de tendencia de cada destinatario.
 
-## Configurar el periodo {#setting-the-period}
+## Configuración del período {#setting-the-period}
 
 Las reglas de presión se definen en los períodos de desplazamiento de **n** días.
 
@@ -287,7 +287,7 @@ Durante el análisis de la entrega, los destinatarios de la entrega se excluyen 
 
    ![](assets/campaign_opt_pressure_sample_1_10.png)
 
-### Calcular el peso de la entrega en función del comportamiento {#calculating-the-delivery-weight-based-on-behavior}
+### Cálculo del peso de la entrega según el comportamiento {#calculating-the-delivery-weight-based-on-behavior}
 
 Puede definir reglas de presión basadas en el comportamiento del destinatario: por lo tanto, el peso de una entrega se puede adaptar a criterios que varían de un destinatario a otro. Por ejemplo: puede decidir enviar un mensaje dependiendo de si un destinatario visitó su sitio de Internet, hizo clic en una sección específica del último boletín, se suscribió a un servicio de información o incluso en función de las respuestas a un estudio, un juego en línea, etc.
 
@@ -313,7 +313,7 @@ Aplique los siguientes pasos de configuración:
 1. Haga clic en **[!UICONTROL Finish]** para guardar esta regla.
 1. Vincule la regla a una tipología de campaña y haga referencia a esta tipología en una entrega para aprobarla.
 
-### Enviar solo los mensajes de mayor peso {#sending-only-the-highest-weighted-messages}
+### Envío de solo los mensajes de mayor peso {#sending-only-the-highest-weighted-messages}
 
 Supongamos que desea enviar 2 mensajes como máximo en la misma semana, con un límite de 2 mensajes al día, a cada uno de los destinatarios y solo desea que se envíen los mensajes que tengan un mayor peso.
 
@@ -321,19 +321,19 @@ Para ello, debe programar varios envíos con diferentes pesos para el mismo dest
 
 Primero, configure la regla de presión.
 
-1. Cree una regla de presión. Para obtener más información, consulte [Crear una regla de presión](#creating-a-pressure-rule).
+1. Cree una regla de presión. Para más información, consulte [Creación de una regla de presión](#creating-a-pressure-rule).
 1. En la pestaña **[!UICONTROL General]** , seleccione la opción **[!UICONTROL Re-apply the rule at the start of personalization]** . 
 
    ![](assets/campaign_opt_pressure_example_5.png)
 
-   Esta opción anula el valor definido en el campo **[!UICONTROL Frequency]** y aplica automáticamente la regla durante la fase de personalización. Para obtener más información, consulte [Ajustar frecuencia de cálculo](applying-rules.md#adjusting-calculation-frequency).
+   Esta opción anula el valor definido en el campo **[!UICONTROL Frequency]** y aplica automáticamente la regla durante la fase de personalización. Para obtener más información, consulte [Ajuste de la frecuencia de cálculo](applying-rules.md#adjusting-calculation-frequency).
 
 1. En la pestaña **[!UICONTROL Pressure]**, seleccione **[!UICONTROL 7d]** como **[!UICONTROL Period considered]** y **[!UICONTROL Grouping per day]** como **[!UICONTROL Period type]**.
 1. Seleccione la opción **[!UICONTROL Take the deliveries into account in the provisional calendar]** para incluir los envíos programados.
 
    ![](assets/campaign_opt_pressure_example_1.png)
 
-   En el cálculo se tienen en cuenta las entregas realizadas hasta 7 días antes de la fecha de envío y programados hasta 7 días después de la fecha de envío. Para obtener más información, consulte [Configurar el periodo](#setting-the-period).
+   En el cálculo se tienen en cuenta las entregas realizadas hasta siete días antes de la fecha de envío y programadas hasta siete días después de la fecha de envío. Para obtener más información, consulte [Configuración del período](#setting-the-period).
 
    >[!AVAILABILITY]
    >Los envíos programados no se pueden tener en cuenta en Campaign v8.
