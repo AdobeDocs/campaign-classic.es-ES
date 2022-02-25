@@ -5,9 +5,9 @@ description: Obtenga información sobre cómo generar documentos PDF personaliza
 feature: Personalization
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Se admiten las siguientes extensiones: “.docx”, “.doc” y “.odt”.
 
 Para personalizar los documentos, se encuentran disponibles las mismas funcionalidades de JavaScript que para la personalización del correo electrónico.
 
-Debe activar la opción **[!UICONTROL "The content of the file is personalized and converted to PDF during the delivery of each message"]**. Esta opción está accesible al adjuntar el archivo al correo electrónico de envío. Para obtener más información sobre cómo adjuntar un archivo calculado, consulte la [Adjuntar archivos](attaching-files.md) para obtener más información.
+Debe activar la opción **[!UICONTROL "The content of the file is personalized and converted to PDF during the delivery of each message"]**. Esta opción está accesible al adjuntar el archivo al correo electrónico de entrega. Para obtener más información sobre cómo adjuntar un archivo calculado, consulte la sección [Archivos adjuntos](attaching-files.md).
 
 Ejemplo de personalización de encabezado de factura:
 
@@ -31,7 +31,7 @@ Ejemplo de personalización de encabezado de factura:
 
 Para generar tablas dinámicas o incluir imágenes a través de una URL, se debe seguir un proceso específico.
 
-## Generar tablas dinámicas {#generating-dynamic-tables}
+## Generación de tablas dinámicas {#generating-dynamic-tables}
 
 El procedimiento para generar tablas dinámicas es el siguiente:
 
@@ -45,13 +45,13 @@ El procedimiento para generar tablas dinámicas es el siguiente:
 
    ![](assets/s_ncs_pdf_table.png)
 
-## Insertar imágenes externas {#inserting-external-images}
+## Inserción de imágenes externas {#inserting-external-images}
 
 La inserción de imágenes externas resulta útil si, por ejemplo, se desea personalizar un documento con una imagen cuya URL se introduce en un campo del destinatario.
 
 Para ello, se debe configurar un bloque personalizado y, a continuación, incluir una llamada al bloque personalizado en el adjunto.
 
-**Ejemplo: inserte un logotipo personalizado según el país del destinatario**
+**Ejemplo: inserción de un logotipo personalizado según el país del destinatario**
 
 **Paso 1: Creación del adjunto:**
 
