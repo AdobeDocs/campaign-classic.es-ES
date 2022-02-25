@@ -4,7 +4,7 @@ title: Actualización de la calificación de devoluciones después de una interr
 description: Obtenga información sobre cómo actualizar la calificación de devoluciones después de una interrupción del ISP
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
 ht-degree: 100%
 
