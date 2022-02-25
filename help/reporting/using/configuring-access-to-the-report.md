@@ -4,9 +4,9 @@ title: Configuración del acceso al informe
 description: Configuración del acceso al informe
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '754'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
