@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: Selección de una asignación de destino
-description: Obtenga información sobre cómo asignar objetivos
+description: Obtenga información sobre cómo asignar destinos
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '180'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
