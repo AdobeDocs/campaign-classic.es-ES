@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: Persona, personas y destinatarios
-description: Persona, personas y destinatarios
+title: Individuo, personas y destinatarios
+description: Individuo, personas y destinatarios
 exl-id: 69b810f3-aa8b-4ab5-95c1-831257d7fcb9
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '703'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
