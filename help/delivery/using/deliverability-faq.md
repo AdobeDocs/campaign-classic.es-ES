@@ -5,7 +5,7 @@ description: ¿Cuáles son los puntos clave que hay que comprobar al administrar
 feature: Deliverability
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '657'
 ht-degree: 100%
 
