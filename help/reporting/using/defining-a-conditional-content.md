@@ -4,9 +4,9 @@ title: Definición de contenido condicional
 description: Definición de contenido condicional
 exl-id: efee50f7-d917-4c71-add2-116c4b8f7013
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '245'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 90%
 
 Se puede condicionar la visualización de elementos o páginas específicas del informe.
 
-Para que los elementos específicos sean condicionales, adapte su configuración de visibilidad. Para obtener más información, consulte [Visualización del elemento de condición](#conditioning-item-display).
+Para que los elementos específicos sean condicionales, adapte su configuración de visibilidad. Para obtener más información sobre esto, consulte [Visualización del elemento de condición](#conditioning-item-display).
 
-Para que la visualización de una o más páginas sea condicional, utilice una actividad de tipo **[!UICONTROL Test]**. Para obtener más información, consulte [Visualización de la página Condición](#conditioning-page-display).
+Para que la visualización de una o más páginas sea condicional, utilice una actividad de tipo **[!UICONTROL Test]**. Para obtener más información sobre esto, consulte [Visualización de la página de condición](#conditioning-page-display).
 
 ## Visualización del elemento de condición {#conditioning-item-display}
 
@@ -32,7 +32,7 @@ En el ejemplo siguiente, la condición de visualización depende del idioma:
 
 ![](assets/reporting_display_condition.png)
 
-## Visualización de la página Condición {#conditioning-page-display}
+## Visualización de la página de condición {#conditioning-page-display}
 
 En el gráfico de un informe, la actividad **[!UICONTROL Test]** permite cambiar la secuencia de las páginas en función de una o varias condiciones.
 
