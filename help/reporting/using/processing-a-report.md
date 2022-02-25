@@ -4,9 +4,9 @@ title: Uso de un informe de análisis
 description: Uso de un informe de análisis
 exl-id: d133efec-33e1-4711-a90f-e40385059386
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '816'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Si tiene los derechos adecuados, puede guardar un informe de análisis creado a 
 
 Para guardar el informe, haga clic en **[!UICONTROL Save]** y defina una etiqueta para el informe.
 
-Seleccione **[!UICONTROL Also save data]** si desea crear un historial de su informe y ver los valores del informe en el momento de guardarlo. Para obtener más información, consulte [Archivar informes de análisis](#archiving-analysis-reports).
+Seleccione **[!UICONTROL Also save data]** si desea crear un historial de su informe y ver los valores del informe en el momento de guardarlo. Para obtener más información sobre esto, consulte [Archivado de informes de análisis](#archiving-analysis-reports).
 
 La opción **[!UICONTROL Share this report]** permite que otros operadores accedan al informe.
 
@@ -30,7 +30,7 @@ Una vez guardado, este informe puede volver a utilizarse para generar otros info
 
 ![](assets/s_ncs_user_report_wizard_08a.png)
 
-Para realizar cambios en este informe, edite el nodo del árbol de Adobe Campaign **[!UICONTROL Administration > Configuration > Adobe Campaign tree reports]** (o la primera carpeta de tipo “Informes” para la cual el operador tenga los derechos de edición). Para obtener más información, consulte [Configuración del diseño de un informe de análisis descriptivo](#configuring-the-layout-of-a-descriptive-analysis-report).
+Para realizar cambios en este informe, edite el nodo del árbol de Adobe Campaign **[!UICONTROL Administration > Configuration > Adobe Campaign tree reports]** (o la primera carpeta de tipo “Informes” para la cual el operador tenga los derechos de edición). Para obtener más información sobre esto, consulte [Configuración del diseño de un informe de análisis descriptivo](#configuring-the-layout-of-a-descriptive-analysis-report).
 
 ## Configuración adicional del informe de análisis {#analysis-report-additional-settings}
 
@@ -114,7 +114,7 @@ Estas son las opciones disponibles:
 
    ![](assets/s_ncs_advuser_report_wizard_3d.png)
 
-## Exportar un informe de análisis {#exporting-an-analysis-report}
+## Exportación de un informe de análisis {#exporting-an-analysis-report}
 
 Para exportar los datos de un informe de análisis, haga clic en la lista desplegable y seleccione el formato de salida deseado.
 
@@ -122,7 +122,7 @@ Para exportar los datos de un informe de análisis, haga clic en la lista desple
 
 Para obtener más información, consulte [esta página](../../reporting/using/actions-on-reports.md).
 
-## Reutilizar informes y análisis existentes {#re-using-existing-reports-and-analyses}
+## Reutilización de informes y análisis existentes {#re-using-existing-reports-and-analyses}
 
 Puede crear informes de análisis descriptivos sobre los datos utilizando los informes existentes ya almacenados en Adobe Campaign. Este modo es posible tras guardar los análisis o cuando se hubieran creado y configurado informes a través del asistente de análisis descriptivo.
 
@@ -135,7 +135,7 @@ Para crear informes de análisis descriptivo, el asistente de análisis descript
 
    ![](assets/s_ncs_user_report_wizard_01.png)
 
-## Archivar informes de análisis {#archiving-analysis-reports}
+## Archivado de informes de análisis {#archiving-analysis-reports}
 
 Cuando crea un análisis descriptivo basado en un análisis existente, puede crear archivos para almacenar datos y comparar los resultados de los informes.
 
