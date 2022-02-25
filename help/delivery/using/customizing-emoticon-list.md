@@ -4,7 +4,7 @@ title: Personalización de la lista de emoticonos
 description: Obtenga información sobre cómo personalizar la lista de emoticonos al utilizar Adobe Campaign Classic
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '443'
 ht-degree: 100%
 
