@@ -5,13 +5,13 @@ description: '"Ejemplo de uso: Configuración de la sustitución de campos"'
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Caso de uso: Configuración de la sustitución de campos{#use-case-configuring-the-field-substitution}
+# Caso de uso: configuración de la sustitución de campos{#use-case-configuring-the-field-substitution}
 
 ![](../../assets/common.svg)
 
@@ -32,9 +32,9 @@ Para utilizar la sustitución de campos aleatoria debe tener:
 
 ## Creación de una entrega {#step-1---creating-a-delivery}
 
-Los pasos para crear una entrega se detallan en la sección [Creación de una entrega de correo electrónico](creating-an-email-delivery.md) para obtener más información.
+Los pasos para crear una entrega se detallan en la sección [Creación de una entrega por correo electrónico](creating-an-email-delivery.md).
 
-En este ejemplo, el administrador de envíos ha creado el boletín informativo.
+En este ejemplo, el administrador de entregas ha creado la newsletter.
 
 ![](assets/dlv_seeds_usecase_24.png)
 
@@ -51,7 +51,7 @@ En este ejemplo, el esquema de datos de las direcciones semilla toma un valor cr
 
 Esta enumeración permite al usuario especificar el género literario favorito de sus clientes.
 
-Para que esta modificación del esquema de datos pueda verse en el **formulario de entrada** de las direcciones semilla, debe actualizarlo. Consulte la [Actualizar el formulario de entrada](use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form) para obtener más información.
+Para que esta modificación del esquema de datos pueda verse en el **formulario de entrada** de las direcciones semilla, debe actualizarlo. Consulte la sección [Actualización del formulario de entrada](use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form).
 
 ## Configuración de personalización {#configuring-personalization}
 
@@ -61,7 +61,7 @@ Para que esta modificación del esquema de datos pueda verse en el **formulario 
 
    ![](assets/dlv_seeds_usecase_25.png)
 
-1. Configure la lista de envío y las direcciones semilla. Consulte [Identificar poblaciones objetivo](steps-defining-the-target-population.md).
+1. Configure la lista de envío y las direcciones semilla. Consulte [Identificación de poblaciones objetivo](steps-defining-the-target-population.md).
 
    En este ejemplo, el usuario selecciona a los usuarios cuyo **género literario favorito** sea ciencia ficción como población objetivo principal.
 
@@ -73,7 +73,7 @@ Para que esta modificación del esquema de datos pueda verse en el **formulario 
 
    >[!NOTE]
    >
-   >Para obtener más información sobre **[!UICONTROL Edit the dynamic condition...]** vínculo, consulte [Caso de uso: seleccionar direcciones semilla según ciertos criterios](use-case--selecting-seed-addresses-on-criteria.md).
+   >Para obtener más información sobre el vínculo **[!UICONTROL Edit the dynamic condition...]**, consulte [Caso de uso: selección de direcciones semilla según ciertos criterios](use-case--selecting-seed-addresses-on-criteria.md).
 
 1. Haga clic en la pestaña **[!UICONTROL Preview]** y seleccione una dirección semilla para probar la personalización.
 
