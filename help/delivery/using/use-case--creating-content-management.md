@@ -1,29 +1,29 @@
 ---
 product: campaign
-title: '"Caso de uso: crear administración de contenido"'
-description: '"Caso de uso: crear administración de contenido"'
+title: '“Caso de uso: creación de administración de contenido”'
+description: '“Caso de uso: creación de administración de contenido”'
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1173'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# Caso de uso: crear administración de contenido{#use-case-creating-content-management}
+# Caso de uso: creación de administración de contenido{#use-case-creating-content-management}
 
 ![](../../assets/common.svg)
 
-Para crear la gestión de contenido en Adobe Campaign, siga los siguientes pasos:
+Para crear la administración de contenido en Adobe Campaign, siga los siguientes pasos:
 
-* [Paso 1: Analizar el contenido a producir](#step-1---analyzing-the-content-to-be-produced),
+* [Paso 1: Análisis del contenido que producirá](#step-1---analyzing-the-content-to-be-produced),
 * [Paso 2: Creación del esquema de datos](#step-2---creating-the-data-schema),
 * [Paso 3: Creación del formulario de entrada](#step-3---creating-the-input-form),
 * [Paso 4: Creación de la plantilla de construcción](#step-4---creating-the-construction-template),
 * [Paso 5: Creación de la plantilla de publicación](#step-5---creating-the-publication-template),
 * [Paso 6: Creación de contenidos](#step-6---creating-contents).
 
-## Paso 1: Analizar el contenido a producir {#step-1---analyzing-the-content-to-be-produced}
+## Paso 1: Análisis del contenido que producirá {#step-1---analyzing-the-content-to-be-produced}
 
 Antes de comenzar, se debe realizar un análisis preciso del contenido que se va a producir: identifique los elementos que se van a mostrar, estudie las restricciones vinculadas a ellos, defina un tipo para cada elemento, etc. Asimismo, se deben diferenciar los elementos estáticos y los variables.
 
@@ -323,7 +323,7 @@ Para utilizar una plantilla JavaScript en Adobe Campaign, siga los siguientes pa
    </html>
    ```
 
-   Llamar a una función al comienzo de una plantilla permite configurar una llamada a los datos de personalización tomados de la base de datos de Adobe Campaign (en este caso: recipient.firstName y recipient.lastName), de manera que se pueda interpretar cuando se utilice en una entrega. Para obtener más información, consulte [Incluir una plantilla JavaScript](formatting.md#including-a-javascript-template).
+   Llamar a una función al comienzo de una plantilla permite configurar una llamada a los datos de personalización tomados de la base de datos de Adobe Campaign (en este caso: recipient.firstName y recipient.lastName), de manera que se pueda interpretar cuando se utilice en una entrega. Para más información, consulte [Inclusión de una plantilla de JavaScript](formatting.md#including-a-javascript-template).
 
    En este ejemplo, la función contiene el siguiente código:
 
