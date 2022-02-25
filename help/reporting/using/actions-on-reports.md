@@ -4,9 +4,9 @@ title: Acciones sobre los informes
 description: Acciones sobre los informes
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '544'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Por ejemplo, la barra de herramientas permite exportar, imprimir, archivar o mos
 
 ![](assets/s_ncs_advuser_report_wizard_04.png)
 
-## Exportar un informe {#exporting-a-report}
+## Exportación de un informe {#exporting-a-report}
 
 Seleccione el formato en el que desee exportar el informe desde la lista desplegable. (.xls, .pdf, .ods).
 
@@ -81,7 +81,7 @@ Para obtener más información sobre el archivo **serverConf.xml**, consulte [es
 
 Para obtener más información sobre el servicio **nlserver**, consulte [esta sección](../../production/using/administration.md).
 
-## Imprimir un informe {#printing-a-report}
+## Impresión de un informe {#printing-a-report}
 
 Se puede imprimir el informe. Para ello, haga clic en el icono de impresora: esto abre el cuadro de diálogo correspondiente.
 
@@ -89,7 +89,7 @@ Para obtener un mejor resultado, edite las opciones de impresión de Internet Ex
 
 ![](assets/s_ncs_advuser_report_print_options.png)
 
-## Crear archivos de informes {#creating-report-archives}
+## Creación de archivos de informes {#creating-report-archives}
 
 El archivado de un informe permite crear una vista del informe en varios periodos, por ejemplo para mostrar las estadísticas de un periodo determinado.
 
