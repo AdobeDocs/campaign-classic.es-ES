@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: flow-control-activities
 exl-id: 0d2d04e7-cb86-4456-b7cf-513c71210355
 source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '116'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,4 +31,4 @@ Puede insertar varios saltos de punto iniciales y finales en el mismo flujo de t
 
 ![](assets/s_user_segmentation_jump_in.png)
 
-Para mejorar la legibilidad del diagrama, puede cambiar la imagen asociada a los saltos para mostrar el número relacionado. Consulte [Cambiar imágenes de actividad](managing-activity-images.md).
+Para mejorar la legibilidad del diagrama, puede cambiar la imagen asociada a los saltos para mostrar el número relacionado. Consulte [Cambio de imágenes de actividad](managing-activity-images.md).
