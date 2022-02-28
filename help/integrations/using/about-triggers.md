@@ -5,10 +5,10 @@ description: Introducción a la implementación de los activadores de Adobe Expe
 audience: integrations
 content-type: reference
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
-source-git-commit: af40fe822c69979a478604595790d4deefd6d5b0
+source-git-commit: 0a59b0dbdbe70cf8993ce7153b8f3c049c1f1108
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Esta capacidad no está disponible de forma predeterminada como parte del producto. La implementación requiere la participación de Adobe Consulting. Póngase en contacto con el representante de su Adobe para obtener más información
+>Esta capacidad no está disponible de forma predeterminada como parte del producto. Para esta implementación, primero debe abrir un ticket con Soporte de Adobe. A continuación, podrá seguir los pasos detallados en esta [página](../../integrations/using/configuring-pipeline.md#prerequisites).
 
 [!DNL Triggers] ejecutar acciones de marketing en un corto intervalo de tiempo tras la acción de un usuario. El tiempo de respuesta típico es inferior a una hora.
 

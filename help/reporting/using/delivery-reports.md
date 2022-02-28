@@ -4,10 +4,10 @@ title: Informes de entrega
 description: Informes de entrega
 feature: Reporting
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: ht
-source-wordcount: '1443'
-ht-degree: 100%
+source-git-commit: 64d97c7879320296a5f8efc5bb5bc2bea8663c08
+workflow-type: tm+mt
+source-wordcount: '1451'
+ht-degree: 98%
 
 ---
 
@@ -63,7 +63,7 @@ Este informe combina los indicadores clave para realizar un seguimiento del comp
 >
 >Los porcentajes relacionados se calculan según el número de mensajes reenviados correctamente.
 
-* **[!UICONTROL Distinct opens for the population reached]** : Estimación del número de destinatarios objetivo que han abierto un mensaje al menos una vez. Se tienen en cuenta los clics en los vínculos de baja de suscripción y en las páginas espejo.
+* **[!UICONTROL Distinct opens for the population reached]** : Estimación del número de destinatarios objetivo que han abierto un mensaje al menos una vez. Se tienen en cuenta los clics en direcciones URL rastreadas, ya que es necesario abrir los correos electrónicos para hacer clic en un vínculo.
 * **[!UICONTROL Sum of opens for the population reached]** : Estimación del número total de aperturas de los destinatarios objetivo.
 * **[!UICONTROL Clicks on opt-out link]** : Número de clics en el vínculo de baja de suscripción.
 * **[!UICONTROL Clicks on the mirror page link]** : Número de clics en el vínculo de página espejo. Para que se tenga en cuenta un vínculo, este debe definirse como tal en el asistente de envíos (direcciones URL rastreadas). Consulte [esta página](../../delivery/using/about-delivery-monitoring.md).
