@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 8278228a6610e99f9400343bc967e16f2759dfbe
+source-git-commit: 830d91dc5f6663a24d9fb8c2afeb03cdb93d4eec
 workflow-type: tm+mt
 source-wordcount: '1257'
 ht-degree: 83%
@@ -37,7 +37,7 @@ _1 de marzo de 2022_
 * Se ha corregido un problema que provocaba un error al actualizar el flujo de trabajo de la capacidad de envío cuando se tenían más de 1000 registros al mismo tiempo. (NEO-40276)
 * Se ha corregido un problema que impedía que los indicadores de entrega de proporción de clics y proporción de aperturas se actualizaran automáticamente. (NEO-43253)
 
-## ![](assets/do-not-localize/green_2.png) Versión 7.2.1, compilación 9346 {#release-7-2-1}
+## ![](assets/do-not-localize/limited_2.png) Versión 7.2.1, compilación 9346 {#release-7-2-1}
 
 _10 de enero de 2022_
 
