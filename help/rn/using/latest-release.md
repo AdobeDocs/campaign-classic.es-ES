@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: fc49c0ec80c8741b01ea150c3bc7362b73357607
-workflow-type: ht
-source-wordcount: '1035'
-ht-degree: 100%
+source-git-commit: 8278228a6610e99f9400343bc967e16f2759dfbe
+workflow-type: tm+mt
+source-wordcount: '1257'
+ht-degree: 83%
 
 ---
 
@@ -18,6 +18,24 @@ ht-degree: 100%
 ![](../../assets/v7-only.svg)
 
 Esta página lista las nuevas funcionalidades, mejoras y correcciones que se proporcionan con la **última versión de Campaign Classic v7**. Cada nueva compilación viene con un estado que se materializa con un color. Obtenga más información sobre los estados de compilación de Campaign Classic v7 en [esta página](rn-overview.md).
+
+## ![](assets/do-not-localize/green_2.png) Versión 7.2.2, compilación 4349 {#release-7-2-2}
+
+_1 de marzo de 2022_
+
+**Parches**
+
+* Se ha corregido un problema que se producía al configurar la variable **Web Analytics** cuenta externa, lo que provocaba que el estado de la integración siempre mostrase &quot;Integración correcta&quot; incluso cuando se produjeran errores. (NEO-36672)
+* Se han corregido varios errores posteriores a la actualización relacionados con el mecanismo de ID de secuencia al tener ID negativos. (NEO-43205, NEO-42846, NEO-42845)
+* Se ha corregido un problema que se producía al usar la variable **Web Analytics** cuenta externa con envíos recurrentes y continuos, lo que provocaba que se perdieran parcialmente los datos de la cuenta externa. (NEO-38548)
+* Se ha corregido un problema que ralentizaba la actualización posterior al actualizar la tabla NmsActiveContact . (NEO-43206)
+* Se ha corregido un problema de error posterior a la actualización que se producía si las carpetas integradas se habían movido de la **Administración** a cualquier otra ubicación. (NEO-42875)
+* Se ha corregido un problema que se producía al usar un **Actualización de datos** actividad de flujo de trabajo que podría evitar que el esquema del destinatario se actualice con los datos del destinatario de una base de datos externa de Google Cloud. (NEO-42343)
+* Se ha corregido un problema durante la posactualización relacionado con el conector de Adobe Analytics. (NEO-43318, NEO-38136)
+* Se ha corregido un problema de CUID sobrescrito por &#39;VALUE_TO_CHANGE&#39; durante la posactualización. (NEO-43267)
+* Se ha corregido un problema que provocaba errores al sincronizar las instancias de mid-sourcing y marketing en una configuración multimedia. (NEO-10432)
+* Se ha corregido un problema que provocaba un error al actualizar el flujo de trabajo de la capacidad de envío cuando se tenían más de 1000 registros al mismo tiempo. (NEO-40276)
+* Se ha corregido un problema que impedía que los indicadores de entrega de proporción de clics y proporción de aperturas se actualizaran automáticamente. (NEO-43253)
 
 ## ![](assets/do-not-localize/green_2.png) Versión 7.2.1, compilación 9346 {#release-7-2-1}
 
