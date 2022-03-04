@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: Uso de plantillas de envío
-audience: delivery
+title: Uso de plantillas de envíos
+description: Uso de plantillas de envío
 feature: Delivery Templates
 exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
-source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: ht
-source-wordcount: '577'
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
+source-wordcount: '580'
 ht-degree: 100%
 
 ---

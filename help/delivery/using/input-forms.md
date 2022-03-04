@@ -2,9 +2,10 @@
 product: campaign
 title: Formularios de entrada
 description: Aprenda a utilizar formularios de entrada en Campaign
+feature: Data Management
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 100%
 

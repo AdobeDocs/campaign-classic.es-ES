@@ -2,10 +2,8 @@
 product: campaign
 title: Flujos de trabajo Integración con las soluciones de Adobe Experience Cloud
 description: Descubra más información sobre los Flujos de trabajo Integración con las soluciones de Adobe Experience Cloud
-audience: workflow
-content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%

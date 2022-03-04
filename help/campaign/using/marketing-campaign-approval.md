@@ -2,10 +2,10 @@
 product: campaign
 title: Configuración y administración del proceso de aprobación
 description: Descubra cómo administrar las aprobaciones de campañas de marketing
-feature: Approvals
+feature: Approvals, Campaigns
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
-source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
-workflow-type: ht
+source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+workflow-type: tm+mt
 source-wordcount: '2438'
 ht-degree: 100%
 

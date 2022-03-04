@@ -2,9 +2,10 @@
 product: campaign
 title: Cambio de imágenes de actividad
 description: Aprenda a cambiar la imagen de la actividad
+feature: Workflows
 exl-id: cafdbc10-9c10-4d42-a485-c9880df8d371
-source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
-workflow-type: ht
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 100%
 

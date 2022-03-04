@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: Creación de una página de destino
-description: Creación de una página de destino
-audience: web
-content-type: reference
-topic-tags: editing-html-content
+title: Creación de una página de aterrizaje
+description: Creación de una página de aterrizaje
+feature: Landing Pages
 exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 100%
 
 ---
 
-# Creación de una página de destino{#creating-a-landing-page}
+# Creación de una página de aterrizaje{#creating-a-landing-page}
 
 ![](../../assets/common.svg)
 

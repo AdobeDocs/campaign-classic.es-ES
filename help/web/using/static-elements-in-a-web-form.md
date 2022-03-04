@@ -2,11 +2,9 @@
 product: campaign
 title: Elementos estáticos de un formulario web
 description: Elementos estáticos de un formulario web
-audience: web
-content-type: reference
-topic-tags: web-forms
+feature: Web Forms
 exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
-source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
+source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 100%

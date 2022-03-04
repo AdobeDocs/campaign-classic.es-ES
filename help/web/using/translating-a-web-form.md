@@ -2,11 +2,9 @@
 product: campaign
 title: Traducción de un formulario web
 description: Traducción de un formulario web
-audience: web
-content-type: reference
-topic-tags: web-forms
+feature: Web Forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 100%

@@ -2,11 +2,9 @@
 product: campaign
 title: Bifurcación (Fork)
 description: Descubra más información sobre la actividad del flujo de trabajo Bifurcación (fork)
-audience: workflow
-content-type: reference
-topic-tags: flow-control-activities
+feature: Workflows
 exl-id: 7a38653b-c15d-4ed8-85dc-f7214409f42b
-source-git-commit: 1113afb573bad958ec7cc2cf008f71c8e751e8f9
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%

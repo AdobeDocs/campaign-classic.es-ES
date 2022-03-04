@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: 'Ejemplo de uso: creación de un envío por correo electrónico'
-description: Ejemplo de uso de una creación de un envío por correo electrónico
-audience: web
-content-type: reference
-topic-tags: editing-html-content
+title: 'Caso de uso: creación de una entrega por correo electrónico'
+description: 'Caso de uso: creación de una entrega por correo electrónico'
+feature: Web Apps, Web Forms, Landing Pages
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
 workflow-type: tm+mt
 source-wordcount: '734'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# Ejemplo de uso: creación de una entrega por correo electrónico{#use-case-creating-an-email-delivery}
+# Caso de uso: Creación de una entrega por correo electrónico{#use-case-creating-an-email-delivery}
 
 ![](../../assets/common.svg)
 

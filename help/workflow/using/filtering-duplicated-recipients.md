@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: Filtrado de destinatarios duplicados
+title: Filtro de destinatarios duplicados
 description: Obtenga información sobre cómo filtrar destinatarios duplicados
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Workflows
 exl-id: 7cbabbae-375f-4336-9afa-6356f37a79d0
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 100%
 
 ---
 
-# Filtrado de destinatarios duplicados {#filtering-duplicated-recipients}
+# Filtro de destinatarios duplicados {#filtering-duplicated-recipients}
 
 ![](../../assets/common.svg)
 

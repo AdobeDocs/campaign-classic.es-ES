@@ -2,11 +2,9 @@
 product: campaign
 title: Servicios de suscripción
 description: Descubra más información sobre la actividad del flujo de trabajo Servicios de suscripción
-audience: workflow
-content-type: reference
-topic-tags: targeting-activities
+feature: Workflows, Targeting Activity, Subscription Services Activity
 exl-id: 1b526d1c-4a33-45a1-98f4-dcb803c8d228
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%

@@ -2,9 +2,10 @@
 product: campaign
 title: Envío de un informe a una lista
 description: Descubra más información sobre cómo enviar un informe a una lista con un flujo de trabajo
+feature: Workflows
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 100%
 

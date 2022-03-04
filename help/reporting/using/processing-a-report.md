@@ -2,9 +2,10 @@
 product: campaign
 title: Uso de un informe de análisis
 description: Uso de un informe de análisis
+feature: Reporting
 exl-id: d133efec-33e1-4711-a90f-e40385059386
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: ht
+source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 100%
 

@@ -2,9 +2,10 @@
 product: campaign
 title: Definición del contenido del correo directo
 description: Aprenda a definir el contenido de correo directo
+feature: Direct Mail
 exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 100%
 

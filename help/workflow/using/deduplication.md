@@ -2,10 +2,10 @@
 product: campaign
 title: Deduplicación
 description: Descubra más información sobre la actividad del flujo de trabajo Deduplicación
-feature: Workflows, Data Management
+feature: Workflows, Targeting Activity
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 100%
 

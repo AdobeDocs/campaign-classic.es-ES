@@ -1,26 +1,16 @@
 ---
-title: Uso de la funcionalidad Combinar de la actividad de anulación de duplicación
+title: Utilice la funcionalidad Combinar de la actividad de deduplicación
 description: Aprenda a utilizar la funcionalidad Combinar de la actividad de anulación de duplicación
-page-status-flag: never-activated
-uuid: 8887574e-447b-48a5-afc6-95783ffa7fb3
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
-audience: workflow
-content-type: reference
-topic-tags: use-cases
-discoiquuid: 4113c3fe-a279-4fe1-be89-ea43c96edc34
-index: y
-internal: n
-snippet: y
+feature: Workflows, Data Management
 exl-id: a6b10585-7bf9-4fef-b886-db081b6d3acc
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# Uso de la funcionalidad Combinar de la actividad de anulación de duplicación {#deduplication-merge}
+# Utilice la funcionalidad Combinar de la actividad de deduplicación {#deduplication-merge}
 
 ![](../../assets/common.svg)
 

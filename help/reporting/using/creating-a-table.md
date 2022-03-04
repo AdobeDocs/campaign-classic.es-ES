@@ -2,9 +2,10 @@
 product: campaign
 title: Creación de una tabla
 description: Creación de una tabla
+feature: Reporting
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: ht
+source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+workflow-type: tm+mt
 source-wordcount: '2495'
 ht-degree: 100%
 
