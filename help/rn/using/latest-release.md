@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 2f22f1a3cbf0dccb6872718ea4e0bd20b257c169
+source-git-commit: e4cd327d1495987e7d32bd1b903c8fe5de2813f2
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1273'
 ht-degree: 83%
 
 ---
@@ -48,6 +48,10 @@ Se han realizado varias mejoras de seguridad en las cuentas de FDA:
 * Al configurar la cuenta externa de FDA, ahora puede iniciar sesión en la cuenta de Snowflake mediante la autenticación de par de claves para mejorar la seguridad de la autenticación. [Más información](../../installation/using/configure-fda-snowflake.md)
 * Al configurar la cuenta externa de FDA, ahora puede iniciar sesión en la cuenta de Azure Synapse Analytics con la identidad administrada asignada al sistema. [Más información](../../installation/using/configure-fda-synapse.md#azure-external)
 * Todas las referencias a la biblioteca log4j se han eliminado de Campaign para garantizar una seguridad óptima.
+
+**Actualizaciones de compatibilidad**
+
+Adobe Campaign ahora es compatible con Windows Server 2019. Consulte la [Matriz de compatibilidad de Campaign](../../rn/using/compatibility-matrix.md#OperatingSystems).
 
 **Mejoras**
 
