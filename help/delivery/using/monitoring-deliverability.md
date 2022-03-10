@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: Monitorización de la capacidad de entrega en Adobe Campaign Classic
-description: Obtenga información sobre las herramientas y las directrices sobre la monitorización de capacidad de envío en Adobe Campaign Classic.
+description: Obtenga información acerca de las herramientas y las directrices sobre la monitorización de la capacidad de entrega en Adobe Campaign Classic.
 feature: Deliverability
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '533'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
