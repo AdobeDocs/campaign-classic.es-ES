@@ -1,20 +1,20 @@
 ---
 product: campaign
-title: Añadir un campo calculado de tipo de lista desglosada
-description: Aprenda cómo añadir un Campo calculado de tipo de enumeración.
+title: Adición de un campo calculado de tipo Lista desglosada
+description: Aprenda cómo añadir un campo calculado de tipo Lista desglosada
 audience: workflow
 content-type: reference
 topic-tags: use-cases
 feature: Workflows, Data Management
 exl-id: 3f606d3a-0af5-4315-bb08-1b21a71f1721
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Añadir un campo calculado de tipo de lista desglosada {#adding-an-enumeration-type-calculated-field}
+# Adición de un campo calculado de tipo Lista desglosada {#adding-an-enumeration-type-calculated-field}
 
 ![](../../assets/common.svg)
 
