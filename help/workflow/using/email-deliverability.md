@@ -4,7 +4,7 @@ title: Capacidad de entrega de correos electrónicos
 description: Descubra más información sobre el paquete Capacidad de entrega por correo electrónico
 feature: Workflows, Deliverability
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '101'
 ht-degree: 100%
 
