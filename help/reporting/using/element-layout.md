@@ -5,7 +5,7 @@ description: Diseño de elementos
 feature: Reporting
 exl-id: 79d5c901-905b-4a0e-adb9-91fd6acb186f
 source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
 ht-degree: 100%
 
