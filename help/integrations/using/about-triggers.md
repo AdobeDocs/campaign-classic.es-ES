@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
 source-git-commit: 0a59b0dbdbe70cf8993ce7153b8f3c049c1f1108
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 88%
 
 >[!CAUTION]
 >
->Esta capacidad no está disponible de forma predeterminada como parte del producto. Para esta implementación, primero debe abrir un ticket con Soporte de Adobe. A continuación, podrá seguir los pasos detallados en esta [página](../../integrations/using/configuring-pipeline.md#prerequisites).
+>Esta capacidad no está disponible de forma predeterminada como parte del producto. Para esta implementación, primero debe abrir un ticket con el Soporte de Adobe. A continuación, podrá seguir los pasos detallados en esta [página](../../integrations/using/configuring-pipeline.md#prerequisites).
 
 [!DNL Triggers] ejecutar acciones de marketing en un corto intervalo de tiempo tras la acción de un usuario. El tiempo de respuesta típico es inferior a una hora.
 
