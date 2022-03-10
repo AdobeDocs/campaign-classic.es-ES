@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo configurar las opciones de seguimi
 feature: Monitoring, Email Design
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
 ht-degree: 100%
 
