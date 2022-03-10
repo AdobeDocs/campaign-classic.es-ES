@@ -1,16 +1,16 @@
 ---
-title: Utilice la funcionalidad Combinar de la actividad de deduplicación
+title: Uso de la funcionalidad Combinar de la actividad de anulación de duplicación
 description: Aprenda a utilizar la funcionalidad Combinar de la actividad de anulación de duplicación
 feature: Workflows, Data Management
 exl-id: a6b10585-7bf9-4fef-b886-db081b6d3acc
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '550'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Utilice la funcionalidad Combinar de la actividad de deduplicación {#deduplication-merge}
+# Uso de la funcionalidad Combinar de la actividad de anulación de duplicación {#deduplication-merge}
 
 ![](../../assets/common.svg)
 
