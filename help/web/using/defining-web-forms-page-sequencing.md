@@ -5,9 +5,9 @@ description: Definición de la secuenciación de la página de formularios web
 feature: Web Forms
 exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '702'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
