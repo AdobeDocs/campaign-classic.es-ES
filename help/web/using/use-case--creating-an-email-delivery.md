@@ -5,13 +5,13 @@ description: 'Caso de uso: creación de una entrega por correo electrónico'
 feature: Web Apps, Web Forms, Landing Pages
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '734'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Caso de uso: Creación de una entrega por correo electrónico{#use-case-creating-an-email-delivery}
+# Caso de uso: creación de una entrega por correo electrónico{#use-case-creating-an-email-delivery}
 
 ![](../../assets/common.svg)
 
