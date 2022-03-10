@@ -31,7 +31,7 @@ Se ha aclarado la sección Cuarentena frente a la inclusión en la lista de bloq
 
 Se han actualizado las secciones sobre cómo enviar una dirección a cuarentena y cómo eliminar direcciones de la lista de cuarentena. [Más información](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-Se ha añadido una práctica recomendada de flujo de trabajo para recomendar que no se realicen varias solicitudes de detención en el mismo flujo de trabajo. [Más información](../../workflow/using/workflow-best-practices.md)
+Se ha añadido una práctica recomendada de flujo de trabajo para aconsejar que no se realicen varias solicitudes de detención en el mismo flujo de trabajo. [Más información](../../workflow/using/workflow-best-practices.md)
 
 Se ha añadido información sobre cómo detener una entrega recurrente desde que se ejecuta dentro de una campaña. [Más información](../../workflow/using/recurring-delivery.md)
 
