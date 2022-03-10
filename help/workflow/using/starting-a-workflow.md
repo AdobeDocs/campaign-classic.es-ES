@@ -5,9 +5,9 @@ description: Obtenga información sobre cómo iniciar un flujo de trabajo y desc
 feature: Workflows
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
 source-git-commit: 9126e2cc088ef0e5761cc20bd19980d323f3a3ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '797'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Los botones de la barra de herramientas se encuentran en esta [sección](../../c
 
    >[!IMPORTANT]
    >
-   >La detención de un flujo de trabajo es un proceso asíncrono: La solicitud se registra y el servidor de flujo de trabajo o los servidores cancelan las operaciones en curso. Por lo tanto, la detención de una instancia de flujo de trabajo puede llevar tiempo, especialmente si el flujo de trabajo se ejecuta en varios servidores, cada uno de los cuales debe asumir el control para cancelar las tareas en curso. Para evitar cualquier problema, espere a que se complete la operación de parada y no realice varias solicitudes de parada en el mismo flujo de trabajo.
+   >La detención de un flujo de trabajo es un proceso asíncrono: la solicitud se registra y, después, el servidor o los servidores de flujo de trabajo cancelan las operaciones en curso. Por lo tanto, la detención de una instancia de flujo de trabajo puede llevar tiempo, especialmente si el flujo de trabajo se ejecuta en varios servidores, cada uno de los cuales debe asumir el control para cancelar las tareas en curso. Para evitar cualquier problema, espere a que se complete la operación de detención y no realice varias solicitudes en el mismo flujo de trabajo.
 
 * **[!UICONTROL Restart]**
 
