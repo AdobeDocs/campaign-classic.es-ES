@@ -5,9 +5,9 @@ description: Aprenda a configurar, diseñar y enviar correos electrónicos que s
 feature: Email, Email Design
 exl-id: 44634227-2340-49c4-b330-740c739ea551
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
