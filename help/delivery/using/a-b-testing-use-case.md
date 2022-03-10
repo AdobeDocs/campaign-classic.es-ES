@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: Caso de uso de prueba AB
+title: Caso de uso de pruebas AB
 description: Obtenga información sobre cómo realizar pruebas A/B mediante un caso de uso dedicado
 feature: A/B Testing
 exl-id: 4eb139a0-5342-4084-9f6d-d736e05bf1c6
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '246'
 ht-degree: 100%
 
