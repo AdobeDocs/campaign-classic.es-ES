@@ -5,7 +5,7 @@ description: Aprenda a definir el contenido de correo directo
 feature: Direct Mail
 exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
 ht-degree: 100%
 
