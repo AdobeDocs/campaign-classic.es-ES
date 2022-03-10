@@ -5,7 +5,7 @@ description: Descubra cómo configurar su aplicación móvil para Android
 feature: Push
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '963'
 ht-degree: 100%
 
@@ -166,7 +166,7 @@ A continuación se muestran los nombres de carga útil de FCM para personalizar 
 
 | Tipo de mensaje | Elemento de mensaje configurable (nombre de carga útil de FCM) | Opciones configurables (nombre de carga útil de FCM) |
 |:-:|:-:|:-:|
-| mensaje de datos | N/D | dryRun |
+| mensaje de datos | N/A | dryRun |
 | mensaje de notificación | title, body, android_channel_id, icon, sound, tag, color, click_action <br> | dryRun |
 
 <br>
