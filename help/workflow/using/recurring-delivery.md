@@ -4,10 +4,10 @@ title: Entrega recurrente
 description: Descubra más información sobre la actividad del flujo de trabajo Entrega recurrente
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 6f0479cfe6c6801eb44fcc7a35bdac1241ec3be6
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 100%
+source-wordcount: '271'
+ht-degree: 81%
 
 ---
 
@@ -39,9 +39,12 @@ Un **envío recurrente** creará una nueva instancia de envío cada vez que se e
 
 ![Entrega recurrente](assets/delivery_recurring.jpg)
 
+Si desea detener la ejecución de un envío recurrente, debe cancelar completamente la campaña o detener el flujo de trabajo que la ejecuta. Al detener la entrega desde el panel de Campaign, solo se detendrá la ocurrencia de la entrega: las siguientes instancias de la entrega recurrente se seguirán creando en cada ejecución del flujo de trabajo.
+
 >[!NOTE]
 >
->No es posible enviar una prueba desde una actividad del tipo **[!UICONTROL Recurring delivery]**.\
+>No es posible enviar una prueba desde una actividad del tipo **[!UICONTROL Recurring delivery]**.
+> 
 >Para crear directamente una entrega a través de un flujo de trabajo de campaña, utilice las actividades específicas del canal que están preconfiguradas (por ejemplo **[!UICONTROL Email delivery]**).
 
 ## Videotutorial (#recurring-delivery-video)

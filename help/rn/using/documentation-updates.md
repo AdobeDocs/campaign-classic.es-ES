@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 9126e2cc088ef0e5761cc20bd19980d323f3a3ea
+source-git-commit: deb658fee9a668fd98aebfd1852252114ffb6edc
 workflow-type: tm+mt
-source-wordcount: '4887'
+source-wordcount: '4903'
 ht-degree: 99%
 
 ---
@@ -32,6 +32,8 @@ Se ha aclarado la sección Cuarentena frente a la inclusión en la lista de bloq
 Se han actualizado las secciones sobre cómo enviar una dirección a cuarentena y cómo eliminar direcciones de la lista de cuarentena. [Más información](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
 Se ha añadido una práctica recomendada de flujo de trabajo para recomendar que no se realicen varias solicitudes de detención en el mismo flujo de trabajo. [Más información](../../workflow/using/workflow-best-practices.md)
+
+Se ha añadido información sobre cómo detener una entrega recurrente desde que se ejecuta dentro de una campaña. [Más información](../../workflow/using/recurring-delivery.md)
 
 ### Enero de 2022 {#january-2022}
 
