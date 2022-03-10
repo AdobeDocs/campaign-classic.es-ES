@@ -5,7 +5,7 @@ description: Uso de una plantilla de contenido
 feature: Templates
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
 ht-degree: 100%
 
