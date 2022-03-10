@@ -5,7 +5,7 @@ description: Obtenga más información acerca de las funciones avanzadas al trab
 feature: Reporting
 exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
 source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '628'
 ht-degree: 100%
 
