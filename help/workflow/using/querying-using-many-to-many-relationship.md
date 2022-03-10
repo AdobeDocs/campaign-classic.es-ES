@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: Realización de consultas con una relación “varios a varios”
-description: Aprenda a hacer consultas mediante una relación de varios a varios
+title: Consultas con una relación “varios a varios”
+description: Aprenda a hacer consultas mediante una relación “varios a varios”
 feature: Query Editor
 exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
 ht-degree: 100%
 
