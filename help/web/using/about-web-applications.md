@@ -5,7 +5,7 @@ description: Cree y comparta aplicaciones web, páginas de destino y encuestas d
 feature: Landing Pages, Web Apps
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '689'
 ht-degree: 100%
 
