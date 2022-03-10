@@ -5,7 +5,7 @@ description: Descubra cómo publicar, rastrear y utilizar datos recopilados en u
 feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
 source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
 ht-degree: 100%
 
