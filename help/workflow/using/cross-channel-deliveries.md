@@ -4,9 +4,9 @@ title: Entregas multicanal
 description: Descubra más información sobre las entregas multicanal
 feature: Workflows, Channels Activity
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
-source-git-commit: e454cc29038b4eab9fad1dcb46813fc8e1a83db1
-workflow-type: ht
-source-wordcount: '292'
+source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
+workflow-type: tm+mt
+source-wordcount: '287'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,6 @@ Los varios canales disponibles son los siguientes:
 * [Correo directo](../../delivery/using/about-direct-mail-channel.md)
 * [Móvil](../../delivery/using/sms-channel.md)
 * [Twitter](../../social/using/publishing-on-twitter.md) (solo Campaign Classic v7)
-* [Facebook](../../social/using/publishing-on-facebook.md) (solo Campaign Classic v7)
 * [iOS](../../delivery/using/create-notifications-ios.md)
 * [Android](../../delivery/using/create-notifications-android.md)
 
