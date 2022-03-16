@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 9d8eae6b9c31d98d5e7e14b61f3abcf46311304d
-workflow-type: ht
-source-wordcount: '917'
-ht-degree: 100%
+source-git-commit: 329cf80ff021322e57a63cf86f4b4e206f6385d1
+workflow-type: tm+mt
+source-wordcount: '924'
+ht-degree: 97%
 
 ---
 
@@ -43,7 +43,7 @@ Como usuario alojado, se beneficia automáticamente de la actualización con la 
 
 Para garantizar una configuración estable, le recomendamos que instale **la misma compilación estable** en todos los servidores que se ejecuten en la misma configuración de cliente.
 
-Además, la consola de cliente debe contar con la misma versión que la instancia de servidor.
+Además, salvo que se indique lo contrario en las Notas de la versión, la consola del cliente debe estar activada **la misma compilación** como instancia de servidor.
 
 Para mantener la implementación actualizada, asegúrese de leer las páginas [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md) y [Matriz de compatibilidades](../../rn/using/compatibility-matrix.md) con cada nueva versión.
 
