@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Conector de Adobe Analytics
-description: Más información acerca del conector Adobe Analytics aprovisionamiento
+title: Aprovisionamiento de conectores Adobe Analytics
+description: Más información sobre el aprovisionamiento de conectores Adobe Analytics
 feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: 9ee95f6d60500b18e242c6d648488615f47a4459
-workflow-type: ht
-source-wordcount: '646'
-ht-degree: 100%
+source-git-commit: 36b10a49fe92853f98beeb9e7d2fea3f59b10b6f
+workflow-type: tm+mt
+source-wordcount: '647'
+ht-degree: 98%
 
 ---
 
@@ -158,5 +158,4 @@ El perfil de producto ya está configurado. A continuación, debe crear el proye
    ```
    nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
    ```
-
 Ahora puede empezar a utilizar el conector de Analytics y realizar un seguimiento de los comportamientos de los clientes.
