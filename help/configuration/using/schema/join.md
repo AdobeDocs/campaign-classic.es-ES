@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: Elementos y atributos de esquema
+title: 'Elementos y atributos de esquema: elemento de unión'
 description: elemento de unión
 exl-id: a7ca0300-d250-429c-8ae1-2ae7dee82cf5
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '213'
 ht-degree: 1%
 
 ---

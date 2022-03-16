@@ -1,14 +1,14 @@
 ---
 product: campaign
-title: Elementos y atributos
+title: 'Elementos y atributos: elemento de atributo'
 description: Elementos y atributos
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1555'
 ht-degree: 0%
 
 ---
