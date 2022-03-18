@@ -4,10 +4,10 @@ title: Configuración y envío de la entrega
 description: Obtenga información sobre cómo configurar y realizar la entrega
 feature: Channel Configuration
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
-source-wordcount: '1526'
-ht-degree: 100%
+source-git-commit: dfee069240c590846f7dda3134c07ad3ec514a26
+workflow-type: tm+mt
+source-wordcount: '1556'
+ht-degree: 94%
 
 ---
 
@@ -33,13 +33,16 @@ Antes de realizar el envío, se pueden definir los parámetros de envío en las 
    >
    >Cuando se duplica la entrega, se restablece el parámetro.
 
-* **[!UICONTROL Send using multiple waves]**: para obtener más información sobre esto, consulte [Envío mediante varias olas](#sending-using-multiple-waves).
+* **[!UICONTROL Send using multiple waves]**: Utilice esta opción para enviar los mensajes en olas, en lugar de a toda la audiencia. Configure el número de lotes y su proporción. [Más información](#sending-using-multiple-waves).
 
-* **[!UICONTROL Test SMTP delivery]**: Esta opción permite probar la realización de un envío a través de SMTP. La entrega se procesa hasta la conexión con el servidor SMTP, pero no se envía.
+* **[!UICONTROL Test SMTP delivery]**: Utilice esta opción para probar el envío a través de SMTP. La entrega se procesa hasta la conexión con el servidor SMTP, pero no se envía: para cada destinatario de la entrega, Campaign se conecta al servidor del proveedor SMTP, ejecuta el comando SMTP RCPT TO y cierra la conexión antes del comando SMTP DATA.
 
    >[!NOTE]
    >
-   >No se recomienda utilizar esta opción al instalar usando un intermediario para no llamar al servidor de correo. Para obtener más información sobre la configuración de un servidor SMTP, consulte [esta sección](../../installation/using/configure-delivery-settings.md).
+   >* Esta opción no se recomienda en intermediarios.
+   >
+   >* Obtenga más información sobre la configuración del servidor SMTP en [esta sección](../../installation/using/configure-delivery-settings.md).
+
 
 * **[!UICONTROL Email BCC]**: Esta opción permite almacenar correos electrónicos en un sistema externo como CCO simplemente añadiendo una dirección de correo electrónico CCO al objetivo del mensaje. Para obtener más información, consulte [esta sección](sending-messages.md#archiving-emails).
 

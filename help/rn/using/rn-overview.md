@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 329cf80ff021322e57a63cf86f4b4e206f6385d1
+source-git-commit: dfee069240c590846f7dda3134c07ad3ec514a26
 workflow-type: tm+mt
 source-wordcount: '924'
 ht-degree: 97%
@@ -31,7 +31,7 @@ Cada nueva compilación viene con un estado que se materializa con un color.
 
 ![](assets/do-not-localize/red3.png) **Obsoleto**: sin implementación. No se ha corregido ningún error. Se deben actualizar las implementaciones existentes.
 
-## Ciclo de lanzamiento
+## Ciclo de lanzamiento{#rn-cycle}
 
 Adobe Campaign se actualiza periódicamente. Esta frecuencia regular de actualizaciones tiene como objetivo ofrecerle lo más novedoso y lo mejor, mantener el entorno seguro y mejorar su experiencia con nuestro producto.
 
