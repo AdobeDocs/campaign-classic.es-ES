@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: dfee069240c590846f7dda3134c07ad3ec514a26
+source-git-commit: 4fe661cf6a0fef8126fd24a68b1021760a5d0bfd
 workflow-type: tm+mt
-source-wordcount: '4938'
-ht-degree: 99%
+source-wordcount: '4932'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ Consulte las [Notas de la versión de Adobe Campaign Classic](../../rn/using/lat
 
 Se ha añadido una descripción detallada para la variable **[!UICONTROL Test SMTP delivery]** . [Más información](../../delivery/using/steps-sending-the-delivery.md#delivery-additiona-parameters)
 
-La sección Información general de las notas de la versión se ha actualizado para aclarar las directrices de actualización de la consola de campaña. [Más información](../../rn/using/rn-overview.md)
+La página Introducción a las actualizaciones se ha actualizado para aclarar las directrices de actualización de la Consola de campaña. [Más información](../../rn/using/rn-overview.md)
 
 Ya está disponible la nueva versión 7.2.2 de Campaign. [Más información](../../rn/using/latest-release.md)
 
@@ -124,7 +124,7 @@ Se ha añadido una nota sobre la integración entre Campaign y AEM Assets que se
 
 ### Junio de 2021 {#june-2021}
 
-La sección **Mensajería transaccional** se ha reorganizado y aclarado con una nueva sección de introducción, que incluye un [esquema mejorado](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle) para una mejor comprensión del proceso. [Más información](../../message-center/using/about-transactional-messaging.md)
+La variable **Mensajería transaccional** se ha reorganizado y aclarado con una nueva sección Introducción que incluye una [esquema mejorado](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle) para una mejor comprensión del proceso. [Más información](../../message-center/using/about-transactional-messaging.md)
 
 **Actualizaciones de la documentación incluidas en la versión 21.1.3**
 
@@ -156,7 +156,7 @@ Se ha creado una nueva nota técnica para aprender a actualizar la calificación
 
 ### Marzo de 2021 {#march-2021}
 
-Se ha reorganizado y mejorado la sección [Introducción a SMS](../../delivery/using/sms-channel.md). Ahora puede aprender a [configurar el canal SMS](../../delivery/using/sms-set-up.md), [crear un SMS](../../delivery/using/sms-create.md), [enviar y rastrear SMS](../../delivery/using/sms-send.md) en secciones dedicadas.
+Se ha reorganizado y mejorado la sección [Introducción a SMS](../../delivery/using/sms-channel.md). Ahora puede aprender a [configuración del canal SMS](../../delivery/using/sms-set-up.md), [crear un SMS](../../delivery/using/sms-create.md), [enviar y rastrear SMS](../../delivery/using/sms-send.md) en secciones dedicadas.
 
 La página Opciones de ayuda y asistencia de Campaign Standard se ha integrado en la documentación principal. [Más información](../../support.md)
 
@@ -285,7 +285,7 @@ Las páginas de documentación se han actualizado para reflejar la actualizació
 
 Se han añadido detalles en la descripción del cuadro “Acerca de” en la sección “Obtención de la versión de Adobe Campaign”. [Más información](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
 
-Se han añadido directrices para realizar una actualización de la versión en la sección “Actualización de Adobe Campaign Classic”. Más información [Leer más](../../production/using/build-upgrade.md)
+Se han añadido directrices para realizar una actualización de la versión en la sección “Actualización de Adobe Campaign Classic”. [Más información](../../production/using/build-upgrade.md)
 
 Las preguntas más frecuentes sobre la actualización de la versión de Campaign se han añadido a las preguntas frecuentes sobre Campaign. Más información [Leer más](../../platform/using/faq-build-upgrade.md)
 
@@ -344,7 +344,7 @@ Se ha hecho referencia a nuevos casos de uso en la lista de [casos de uso del fl
 * Llamada a una variable de instancia en una consulta
 * Aplicación de un porcentaje dividido a una población
 
-La sección de la actividad **[!UICONTROL AND-join]** se ha enriquecido con información adicional sobre su uso, así como con una nota sobre el uso de variables. [Más información](../../workflow/using/and-join.md)
+La variable **[!UICONTROL AND-join]** la sección actividad se ha enriquecido con información adicional sobre su uso y una nota sobre el uso de variables. [Más información](../../workflow/using/and-join.md)
 
 ### Julio de 2020 {#july-2020}
 
@@ -612,7 +612,7 @@ Pista de auditoría: [Más información](../../production/using/audit-trail.md)
 
 Se ha creado una nueva pregunta frecuente sobre la actualización de la compilación. [Más información](https://helpx.adobe.com/es/campaign/kb/build-upgrade-faq.html)
 
-Se ha actualizado la [matriz de compatibilidad](compatibility-matrix.md). Se ha actualizado la lista de sistemas de base de datos admitidos, así como las versiones de Android/iOS y los SDK relacionados. Se ha archivado la matriz de compatibilidad 19.0.
+Se ha actualizado la [matriz de compatibilidad](compatibility-matrix.md). Se ha actualizado la lista de sistemas de bases de datos compatibles, las versiones de Android/iOS y los SDK relacionados. Se ha archivado la matriz de compatibilidad 19.0.
 
 Se ha actualizado la página “Funciones obsoletas y eliminadas en Campaign Classic”. [Más información](deprecated-features.md)
 
@@ -626,7 +626,7 @@ Se han actualizado las guías de introducción a la [seguridad](https://helpx.ad
 
 La descripción de la opción de flujo de trabajo previo al proceso se ha actualizado para reflejar los cambios del producto. [Más información](../../workflow/using/data-loading--file-.md)
 
-Se ha actualizado la nota técnica Marketing Cloud Triggers. [Más información](../../integrations/using/about-triggers.md)
+Se ha actualizado la nota técnica Déclencheur del Experience Cloud. [Más información](../../integrations/using/about-triggers.md)
 
 Se ha actualizado la lista de mensajes de error. [Más información](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
 
@@ -681,7 +681,7 @@ Se agregó información sobre la Banda de consultas para la cuenta externa de Te
 
 ### Enero de 2019{#release-doc-16-01-2019}
 
-Se ha actualizado la nota técnica Marketing Cloud Triggers. [Más información](../../integrations/using/about-triggers.md)
+Se ha actualizado la nota técnica Déclencheur del Experience Cloud. [Más información](../../integrations/using/about-triggers.md)
 
 Se agregó una nota en la sección de aprobación de ofertas para especificar que la mención “Contenido aprobado” indica que se ha logrado el proceso de aprobación de contenido, independientemente de si todas las ofertas se han habilitado/aprobado o no. [Más información](../../interaction/using/offer-catalog-overview.md)
 
