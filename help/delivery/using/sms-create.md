@@ -5,13 +5,13 @@ description: Obtenga información sobre cómo crear SMS con Campaign
 feature: SMS
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
 source-git-commit: 29e56d6bf2817eeb863cbe33f99233a8241f2bf5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
 ht-degree: 100%
 
 ---
 
-# Creación de un envío SMS {#creating-a-sms-delivery}
+# Creación de una entrega de SMS {#creating-a-sms-delivery}
 
 ![](../../assets/common.svg)
 
