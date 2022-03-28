@@ -2,11 +2,10 @@
 product: campaign
 title: Componentes web de Campaign y versión 100 en los navegadores Chrome Firefox y Edge
 description: Componentes web de Campaign y versión 100 en los navegadores Chrome, Firefox y Edge
-hide: true
-hidefromtoc: true
-source-git-commit: 8b790141342f85769aa6c9663c2e9a34b504e2c5
+exl-id: 2016279a-7b02-4399-b2ed-9a15456de816
+source-git-commit: b8329e24f07ec8b3dd89f655b47699f130266008
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -31,7 +30,7 @@ Adobe recomienda probar las aplicaciones web de Campaign, incluidos los formular
 
 Esta recomendación se aplica a todas las aplicaciones web, especialmente si ha incluido código JavaScript.
 
-Debe comprobar ambos con todos los exploradores, móvil y escritorio.
+Debe comprobarlo con todos los navegadores, móviles y de escritorio.
 
 ## ¿Cómo realizar pruebas?{#version-100-test}
 
