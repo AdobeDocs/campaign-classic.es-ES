@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 0cebe1ed2cd045559393c1914258593d608e50a0
+source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '721'
 ht-degree: 99%
 
 ---
@@ -141,7 +141,6 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <p>12.x</p>
 <p>11.x</p>
 <p>10.x</p>
-<p>9.6.x</p>
 <p><strong>Nota:</strong> También puede utilizar Amazon RDS para PostgreSQL con las versiones especificadas anteriormente.</p>
 </td>
 </tr>
@@ -222,9 +221,6 @@ Los entornos **Managed Services** (alojados), **Híbrido** y **On-Premise** pued
 <p>12.x</p>
 <p>11.x</p>
 <p>10.x</p>
-<p>9.6.x</p>
-<p>9.5.x</p>
-<p>9.4.x</p>
 </td>
 <td>V7.0 19.1.4 mínimo</td>
 </tr>

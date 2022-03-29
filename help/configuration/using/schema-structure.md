@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1562'
 ht-degree: 12%
 
 ---
@@ -175,12 +175,10 @@ En la tabla siguiente se enumeran las asignaciones para los tipos de datos gener
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>Adobe Campaign</strong><br /> </td> 
    <td> <strong>PosgreSQL</strong><br /> </td> 
    <td> <strong>Oracle</strong><br /> </td> 
-   <td> <strong>Teradata</strong><br /> </td> 
-   <td> <strong>DB2</strong><br /> </td> 
    <td> <strong>MS SQL</strong><br /> </td> 
+   <td> <strong>Adobe Campaign</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> Cadena<br /> </td> 
@@ -247,11 +245,11 @@ En la tabla siguiente se enumeran las asignaciones para los tipos de datos gener
    <td> DATETIME<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tiempo<br /> </td> 
-   <td> TIEMPO<br /> </td> 
+   <td> Fecha<br /> </td> 
+   <td> FECHA<br /> </td> 
    <td> FLOTE<br /> </td> 
-   <td> TIEMPO<br /> </td> 
-   <td> TIEMPO<br /> </td> 
+   <td> FECHA<br /> </td> 
+   <td> FECHA<br /> </td> 
    <td> FLOTE<br /> </td> 
   </tr> 
   <tr> 
@@ -486,7 +484,6 @@ Los elementos se designan por su nombre y los atributos se designan por el nombr
 >
 >* **location/@city** no sea válido; utilice **`[location/@city]`**
 >* **`[@email]`** y **@email** son equivalentes
-
 >
 
 

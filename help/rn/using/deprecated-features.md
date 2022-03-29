@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 966da123b30278817ca465ac5dfe1f733c4d6c5c
+source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
 workflow-type: tm+mt
-source-wordcount: '1707'
-ht-degree: 100%
+source-wordcount: '1730'
+ht-degree: 98%
 
 ---
 
@@ -215,7 +215,7 @@ Campaign Classic no es compatible con los siguientes servidores de acceso de dat
 
 * DB2 UDB 9.5, 9.7. La versión más reciente de DB2 es compatible mediante el acceso de datos federado (FDA). [Más información](https://www-01.ibm.com/support/docview.wss?uid=swg21168270)
 * Oracle 9i, 10G R2. Las versiones más recientes de Oracle son compatibles mediante el acceso de datos federado (FDA). [Más información](https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)
-* PostgreSQL 8.3, 8.4, 9.0, 9.1, 9.2. Las versiones más recientes de PostgreSQL son compatibles con el acceso de datos federados (FDA). [Más información](https://www.postgresql.org/support/versioning)
+* Las versiones de PostgreSQL hasta 9.6 llegaron al final de su vida útil. Las versiones más recientes de PostgreSQL son compatibles mediante el acceso de datos federado (FDA). [Más información](https://www.postgresql.org/support/versioning)
 * MSSQL 2000, 2005, 2008 R2. Las versiones más recientes de SQL Server son compatibles mediante el acceso de datos federado (FDA). [Más información](https://support.microsoft.com/es-es/lifecycle/search/1044)
 * MySQL 5.1. Las versiones más recientes de MySQL son compatibles mediante acceso de datos federado (FDA). [Más información](https://es.wikipedia.org/wiki/InfiniDB)
 * InfiniDB llegó al fin de su vida útil. [Más información](https://www.mysql.com/support)
@@ -234,6 +234,8 @@ A partir de la versión de primavera (19.1), Adobe Campaign deja de ser compatib
 * SQL Server 2005
 * MySQL 5.1
 * DB2 UDB 9.7
+
+Las versiones de PostgreSQL hasta 9.6 llegaron al final de su vida útil. Por lo tanto, Adobe Campaign no los admite.
 
 ### Conectores SMS {#sms-eol}
 
