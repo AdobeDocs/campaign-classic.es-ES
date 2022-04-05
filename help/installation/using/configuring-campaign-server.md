@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 294309239bc476669e9e017c27bd1b51a0bdaf8c
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 3%
@@ -23,7 +23,7 @@ En este capítulo se detallan las configuraciones del lado del servidor que se p
 
 Estos procedimientos se limitan a **local**/**híbrido** y requieren permisos de administración.
 
-Para **alojado** implementaciones, la configuración del lado del servidor solo se puede configurar mediante Adobe. Sin embargo, algunos ajustes se pueden configurar en  [Panel de control de Campaign de campaña](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es), como administración de listas de permitidos IP o permisos de URL. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=es).
+Para **alojado** implementaciones, la configuración del lado del servidor solo se puede configurar mediante Adobe. Sin embargo, algunos ajustes se pueden configurar en [Panel de control de Campaign de campaña](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es), como administración de listas de permitidos IP o permisos de URL. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=es).
 
 Para obtener más información, consulte estas secciones:
 
@@ -159,7 +159,7 @@ Adobe Campaign utiliza las siguientes páginas JSP:
 * /nl/jsp/**logon.jsp**: Acceso basado en la web a los informes y a la implementación de la consola del cliente,
 * /nl/jsp/**s.jsp** : Uso del marketing viral (patrocinio y redes sociales).
 
-Los JSSP utilizados para el canal de aplicaciones móviles son los siguientes:
+Los JSSP utilizados para el canal de aplicaciones de Mobile son los siguientes:
 
 * nms/mobile/1/registerIOS.jssp
 * nms/mobile/1/registerAndroid.jssp

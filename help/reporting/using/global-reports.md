@@ -4,10 +4,10 @@ title: Informes globales
 description: Informes globales
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: ht
-source-wordcount: '2183'
-ht-degree: 100%
+source-git-commit: 294309239bc476669e9e017c27bd1b51a0bdaf8c
+workflow-type: tm+mt
+source-wordcount: '2295'
+ht-degree: 98%
 
 ---
 
@@ -48,6 +48,14 @@ Este informe contiene información sobre el rendimiento de entrega de toda la pl
 ![](assets/s_ncs_user_report_toolbar.png)
 
 Se pueden configurar los valores que se muestran cambiando la escala temporal: vista de 1 hora, de 3 horas, de 24 horas, etc. Haga clic en **[!UICONTROL Refresh]** para confirmar la selección.
+
+>[!NOTE]
+>
+>Si la instancia está alojada en AWS, también puede controlar el número de envíos realizados por hora mediante el Campaign Classic [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=es). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es).
+>
+>Todos los usuarios administradores pueden acceder al Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
+>
+>Tenga en cuenta que la instancia debe actualizarse con la última compilación de [Gold Standard](../../rn/using/gold-standard.md) o [de GA (21.1.3)](../../rn/using/latest-release.md). Aprenda a comprobar su versión en [esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 ## Actividades del usuario {#user-activities}
 
