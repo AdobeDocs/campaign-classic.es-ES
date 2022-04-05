@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '968'
 ht-degree: 6%
 
 ---
@@ -96,7 +96,7 @@ Los usuarios deben descargar e instalar la consola siguiendo los pasos a continu
 
 1. Abra un explorador web y descargue la consola desde la siguiente dirección:
 
-   [`https://<your adobe campaign server>:<port number>/nl/jsp/logon.jsp`](https://myserver.adobe.com/nl/jsp/logon.jsp).
+   `https://<your adobe campaign server>:<port number>/nl/jsp/logon.jsp`.
 
 1. En la ventana de identificación, introduzca su nombre de usuario y contraseña.
 

@@ -4,9 +4,9 @@ title: Prácticas recomendadas del modelo de datos
 description: Aprenda a trabajar con el modelo de datos del Campaign Classic
 feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '4007'
+source-wordcount: '3988'
 ht-degree: 1%
 
 ---
@@ -104,7 +104,7 @@ En la tabla siguiente se describen estos identificadores y su finalidad.
 
 | Identifier | Descripción | Prácticas recomendadas |
 |--- |--- |--- |
-| Id | <ul><li>El id es la clave principal física de una tabla de Adobe Campaign. Para tablas predeterminadas, es un número generado de 32 bits a partir de una secuencia</li><li>Este identificador suele ser único para una instancia de Adobe Campaign específica. </li><li>Un id generado automáticamente puede ser visible en una definición de esquema. Busque la variable *autopk=&quot;true&quot;* atributo.</li></ul> | <ul><li>Los identificadores generados automáticamente no deben utilizarse como referencia en un flujo de trabajo o en una definición de paquete.</li><li>No se debe suponer que el id siempre será un número creciente.</li><li>El id de una tabla predeterminada es un número de 32 bits y este tipo no debe cambiarse. Este número se toma de una &quot;secuencia&quot; cubierta en la sección con el mismo nombre.</li></ul> |
+| ID | <ul><li>El id es la clave principal física de una tabla de Adobe Campaign. Para tablas predeterminadas, es un número generado de 32 bits a partir de una secuencia</li><li>Este identificador suele ser único para una instancia de Adobe Campaign específica. </li><li>Un id generado automáticamente puede ser visible en una definición de esquema. Busque la variable *autopk=&quot;true&quot;* atributo.</li></ul> | <ul><li>Los identificadores generados automáticamente no deben utilizarse como referencia en un flujo de trabajo o en una definición de paquete.</li><li>No se debe suponer que el id siempre será un número creciente.</li><li>El id de una tabla predeterminada es un número de 32 bits y este tipo no debe cambiarse. Este número se toma de una &quot;secuencia&quot; cubierta en la sección con el mismo nombre.</li></ul> |
 | Nombre (o nombre interno) | <ul><li>Esta información es un identificador único de un registro de una tabla. Este valor se puede actualizar manualmente, normalmente con un nombre generado.</li><li>Este identificador mantiene su valor cuando se implementa en una instancia diferente de Adobe Campaign y no debe estar vacío.</li></ul> | <ul><li>Cambie el nombre del registro generado por Adobe Campaign si el objeto está diseñado para implementarse de un entorno a otro.</li><li>Cuando un objeto tiene un atributo de espacio de nombres (*esquema* por ejemplo), este área de nombres común se utilizará en todos los objetos personalizados creados. Algunas áreas de nombres reservadas no deben usarse: *nms*, *xtk*, *nl*, *ncl*, *crm*, *xxl*.</li><li>Cuando un objeto no tiene ningún espacio de nombres (*flujo de trabajo* o *entrega* por ejemplo), esta noción de área de nombres se agregaría como prefijo de un objeto de nombre interno: *namespaceMyObjectName*.</li><li>No utilice caracteres especiales como espacio &quot;&quot;, semicolumna &quot;:&quot; o guión &quot;-&quot;. Todos estos caracteres se sustituirían por un guión bajo &quot;_&quot; (carácter permitido). Por ejemplo, &quot;abc-def&quot; y &quot;abc:def&quot; se almacenarían como &quot;abc_def&quot; y se sobrescribirían entre sí.</li></ul> |
 | Etiqueta | <ul><li>La etiqueta es el identificador comercial de un objeto o registro en Adobe Campaign.</li><li>Este objeto permite espacios y caracteres especiales.</li><li>No garantiza la exclusividad de un registro.</li></ul> | <ul><li>Se recomienda determinar una estructura para las etiquetas de objeto.</li><li>Esta es la solución más fácil de usar para identificar un registro u objeto para un usuario de Adobe Campaign.</li></ul> |
 
@@ -148,9 +148,7 @@ Cuando se crea una tabla personalizada en Adobe Campaign con una clave principal
 
 De forma predeterminada, una secuencia personalizada tendrá valores que oscilarán entre +1000 y +2,1BB. Técnicamente, es posible obtener una gama completa de 4BB habilitando identificadores negativos. Debe usarse con cuidado y se perderá un id al pasar de números negativos a positivos: Adobe Campaign suele ignorar el registro 0 en las consultas SQL generadas.
 
-**Temas relacionados:**
-* Para obtener más información, consulte **Generación automática de secuencias** función, consulte [este documento](https://helpx.adobe.com/es/campaign/kb/sequence_auto_generation.html).
-* Para obtener más información sobre el agotamiento de las secuencias, consulte [este vídeo](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
+Para obtener más información sobre el agotamiento de las secuencias, consulte [este vídeo](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
 
 ## Índices {#indexes}
 
@@ -327,5 +325,3 @@ En este ejemplo:
 * La variable *Product* y *Tienda* las tablas son más pequeñas: menos de 10.000.
 * La etiqueta y la referencia del producto se han colocado en la variable *Product* tabla.
 * La variable *Artículo de transacción* solo tiene un vínculo a la *Product* , que es numérico.
-
-<!--For more detailed best practices on how to optimize the database design for larger volumes, see [Campaign Classic Data model Best practices](https://helpx.adobe.com/campaign/kb/acc-data-model-best-practices.html).-->

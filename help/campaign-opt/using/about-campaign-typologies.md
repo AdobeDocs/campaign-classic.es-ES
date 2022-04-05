@@ -4,9 +4,9 @@ title: Acerca de las tipologías de campaña
 description: Acerca de las tipologías de campaña
 feature: Typology Rules
 exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
-source-wordcount: '483'
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+workflow-type: tm+mt
+source-wordcount: '468'
 ht-degree: 100%
 
 ---
@@ -79,8 +79,6 @@ En este vídeo se explica cómo implementar la administración de fatiga en Adob
 Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
 
 **Tema relacionado**
-
-* [Aplicar reglas comerciales automáticas a las entregas en cualquier canal](https://helpx.adobe.com/es/campaign/kb/simplifying-campaign-management-acc.html#Applyautomaticbusinessrulestodeliveriesonanychannel)
 
 * [Introducción a la administración de tipologías y fatiga](pressure-rules.md)
 

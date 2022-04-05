@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '587'
 ht-degree: 5%
 
 ---
@@ -41,7 +41,7 @@ Para crear una nueva instancia, siga los pasos a continuación:
 
 1. Especifique una conexión con el servidor de aplicaciones de Adobe Campaign a través de una URL. Utilice un DNS o un alias del equipo o su dirección IP.
 
-   Por ejemplo, puede usar la variable [`https://<machine>.<domain>.com`](https://myserver.adobe.com) escriba URL.
+   Por ejemplo, puede usar la variable `https://<machine>.<domain>.com` escriba URL.
 
    >[!CAUTION]
    >
@@ -61,7 +61,7 @@ Para crear una nueva instancia, siga los pasos a continuación:
 
    Puede definir una lista de valores separados por comas.
 
-   El ? Los caracteres y * pueden utilizarse como comodines para reemplazar uno o varios caracteres (DNS, puerto, etc.). Por ejemplo, la variable **demostración*** funcionará con &quot;https://demo&quot;, como sucederá con &quot;https://demo:8080&quot; e incluso con &quot;https://demo2&quot;.
+   La ? y &#42; los caracteres pueden utilizarse como comodines para reemplazar uno o varios caracteres (DNS, puerto, etc.). Por ejemplo, la variable **demostración&#42;** funcionará con &quot;https://demo&quot;, como sucederá con &quot;https://demo:8080&quot; e incluso con &quot;https://demo2&quot;.
 
    Los nombres utilizados deben definirse en el DNS. También puede informar de la correspondencia entre un nombre DNS y una dirección IP en la variable **c:/windows/system32/drivers/etc/hosts** en Windows y en la **/etc/hosts** en Linux. Por lo tanto, debe modificar la configuración de conexión para utilizar este nombre DNS para conectarse a la instancia elegida.
 

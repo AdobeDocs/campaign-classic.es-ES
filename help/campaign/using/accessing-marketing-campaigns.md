@@ -4,9 +4,9 @@ title: Acceso a campañas de marketing
 description: Acceso a campañas de marketing
 feature: Campaigns, Cross Channel Orchestration
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: ht
-source-wordcount: '1271'
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+workflow-type: tm+mt
+source-wordcount: '1247'
 ht-degree: 100%
 
 ---
@@ -149,7 +149,7 @@ Las campañas se crean mediante plantillas de campaña. Puede configurar plantil
 
 >[!NOTE]
 >
->Para acceder a las configuraciones de campaña y realizar cambios, en la pestaña **[!UICONTROL Advanced campaign parameters...]**, haga clic en el vínculo **[!UICONTROL Edit]**. Para obtener más información sobre la configuración de parámetros en el nivel de campaña para que los envíos hereden valores automáticamente, consulte [nuestra nota técnica](https://helpx.adobe.com/es/campaign/kb/simplifying-campaign-management-acc.html#Setparametersatthecampaignlevelsodeliveriesinheritvaluesautomatically).
+>Para acceder a las configuraciones de campaña y realizar cambios, en la pestaña **[!UICONTROL Advanced campaign parameters...]**, haga clic en el vínculo **[!UICONTROL Edit]**.
 
 ## Uso de la interfaz web {#using-the-web-interface-}
 

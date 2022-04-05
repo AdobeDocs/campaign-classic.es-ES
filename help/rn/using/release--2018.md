@@ -3,9 +3,9 @@ product: campaign
 title: Versiones de Campaign Classic 2018
 description: Más información sobre las actualizaciones de Campaign Classic 2018
 exl-id: f70fceba-4bbf-4f33-8746-e4405a1cdae6
-source-git-commit: 96f2ae67a5b47b80533e759713cf5b36baa8cf36
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '5414'
+source-wordcount: '5385'
 ht-degree: 97%
 
 ---
@@ -122,7 +122,7 @@ ht-degree: 97%
      <li> <p>Seguimiento de notificaciones silenciosas en iOS </p> </li> 
      <li> <p>Implementación de comentarios en las llamadas de registro en iOS</p> </li> 
      <li> <p>Mejorar la velocidad de preparación de la distribución de iOS</p> </li> 
-    </ul> <p>Como parte de la pérdida de compatibilidad de GCM con Google, el conector Android V2 ahora solo permite conexiones al servidor FCM.</p><p>Para obtener más información, consulte la <a href="../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md">documentación detallada</a>. La actualización manual para FCM se detalla en este <a href="https://helpx.adobe.com/es/campaign/kb/migrate-to-fcm.html">artículo</a>. </p> </td> 
+    </ul> <p>Como parte de la pérdida de compatibilidad de GCM con Google, el conector Android V2 ahora solo permite conexiones al servidor FCM.</p><p>Para obtener más información, consulte la <a href="../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md">documentación detallada</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Actividad de gestión de datos SQL<br /> </td> 
@@ -466,7 +466,7 @@ Para los clientes existentes, las API de archivo ya no pueden acceder a la carpe
 **Mejoras**
 
 * **Canal LINE: mejoras en la arquitectura**: Al igual que sucede con los demás canales de Adobe Campaign, el canal LINE ahora se admite en todos los tipos de implementación: alojada, híbrido y locales.
-* **Generación automática de secuencias**: El mecanismo de generación de ID se ha mejorado para aumentar la duración de las instancias de Campaign con grandes cantidades de objetos. Para obtener más información, consulte esta [nota técnica](https://helpx.adobe.com/es/campaign/kb/sequence_auto_generation.html).
+* **Generación automática de secuencias**: El mecanismo de generación de ID se ha mejorado para aumentar la duración de las instancias de Campaign con grandes cantidades de objetos.
 
 **Otros cambios**
 

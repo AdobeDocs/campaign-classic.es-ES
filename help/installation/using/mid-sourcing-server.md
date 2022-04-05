@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '995'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ Sin embargo, debe aplicar lo siguiente:
    Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
 * Pasos **6**, **9** y **10** no son necesarios.
-* Durante los pasos **12** y **13**, debe indicar el puerto 8080 en la dirección URL de conexión (ya que la consola se comunica con Tomcat directamente, no a través del servidor web). La dirección URL se convierte en [http://console.campaign.net:8080](http://console.campaign.net). Durante el paso **13**, seleccione **[!UICONTROL Issue towards Mid-sourcing]** , así como los que se van a instalar.
+* Durante los pasos **12** y **13**, debe indicar el puerto 8080 en la dirección URL de conexión (ya que la consola se comunica con Tomcat directamente, no a través del servidor web). La dirección URL se convierte en `http://console.campaign.net:8080`. Durante el paso **13**, seleccione **[!UICONTROL Issue towards Mid-sourcing]** , así como los que se van a instalar.
 
    ![](assets/s_ncs_install_midsourcing02.png)
 

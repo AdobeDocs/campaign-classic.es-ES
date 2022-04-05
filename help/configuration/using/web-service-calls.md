@@ -4,9 +4,9 @@ title: Llamadas al servicio web
 description: Llamadas al servicio web
 feature: API
 exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '922'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ Con:
 
 El archivo WSDL se genera a partir de la dirección URL:
 
-[https://localhost/nl/jsp/schemawsdl.jsp?schema=xtk:queryDef](https://my_serveur/nl/jsp/schemawsdl.jsp?schema=xtk:queryDef)
+`https://localhost/nl/jsp/schemawsdl.jsp?schema=xtk:queryDef`
 
 Una descripción de WSDL comienza definiendo los tipos utilizados para formar mensajes, asociados en &quot;puertos&quot;, conectados a un protocolo mediante &quot;enlaces&quot; que forman servicios Web.
 

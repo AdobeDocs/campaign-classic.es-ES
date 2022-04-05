@@ -4,9 +4,9 @@ title: API orientadas a datos
 description: API orientadas a datos
 feature: API
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1857'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,6 @@ Los documentos XML se almacenan en campos de tipo MEMO de la base de datos.
 Debe estar familiarizado con el modelo de datos de Adobe Campaign para poder abordar los campos de la base de datos en las secuencias de comandos.
 
 Para ver una presentación del modelo de datos, consulte la [Descripción del modelo de datos de Adobe Campaign](../../configuration/using/data-model-description.md).
-
-Para generar su estructura, consulte este artículo: [Cómo generar un modelo de datos o un diccionario de datos](https://helpx.adobe.com/campaign/kb/generate-data-model.html).
 
 ## Consulta y Escritor {#query-and-writer}
 

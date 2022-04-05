@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: 6b7ec6b39a79e9b1e6e2bba3d5193765094cf4fd
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '7969'
+source-wordcount: '7961'
 ht-degree: 8%
 
 ---
@@ -530,7 +530,7 @@ Para obtener más información, consulte esta [sección](../../installation/usin
    <td> 4<br /> </td> 
   </tr> 
   <tr> 
-   <td> timeout<br /> </td> 
+   <td> tiempo de espera<br /> </td> 
    <td> Tiempo de espera en milisegundos para una consulta DNS.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 5000<br /> </td> 
@@ -613,7 +613,7 @@ Estos son los diferentes parámetros de la variable **htmlToPdf** nodo . Esta es
    <td> 'phantomjs' <br /> </td> 
   </tr> 
   <tr> 
-   <td> timeout<br /> </td> 
+   <td> tiempo de espera<br /> </td> 
    <td> Tiempo de espera para una conversión: tiempo máximo de conversión en segundos. Más allá de este umbral, el proceso de conversión se detiene y se genera un error.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 120<br /> </td> 
@@ -708,7 +708,7 @@ Estos son los diferentes parámetros de la variable **ims** nodo . Esta es la co
 
 Estos son los diferentes parámetros de la variable **javaScript** nodo . Esta es la configuración del intérprete de JavaScript.
 
-Para obtener más información, consulte [Documentación de informes](../../reporting/using/actions-on-reports.md#memory-allocation) y [nota técnica](https://helpx.adobe.com/campaign/kb/out-of-memory-error-in-js-code-activity-in-workflows.html).
+Para obtener más información, consulte [Documentación de informes](../../reporting/using/actions-on-reports.md#memory-allocation).
 
 <table> 
  <thead> 
@@ -1028,11 +1028,11 @@ Si un registro cumple **dnsSuffix** pero no **urlRegEx**, se examina el siguient
 
 Por ejemplo, para autorizar el acceso a todas las direcciones URL del dominio business.com, podemos definir dos registros:
 
-dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;http://.*&quot;
+dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;http://.&#42;&quot;
 
 y
 
-dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
+dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 Esta es la configuración predeterminada:
 
@@ -2423,7 +2423,7 @@ Estos son los diferentes parámetros de la variable **sms** nodo . Esta es la co
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
-   <td> timeout<br /> </td> 
+   <td> tiempo de espera<br /> </td> 
    <td> Tiempo de espera de comunicación con la puerta de enlace SMS.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 300<br /> </td> 
@@ -3082,7 +3082,7 @@ Para obtener más información, consulte esta [sección](../../installation/usin
    <td> true<br /> </td> 
   </tr> 
   <tr> 
-   <td> timeout<br /> </td> 
+   <td> tiempo de espera<br /> </td> 
    <td> Espere un tiempo antes de eliminar la dirección URL prohibida.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> "60"<br /> </td> 
@@ -3153,7 +3153,7 @@ Para obtener más información, consulte [Seguridad y relés de página dinámic
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> timeout<br /> </td> 
+   <td> tiempo de espera<br /> </td> 
    <td> Tiempo máximo de ejecución (en segundos) de la solicitud que se está retransmitiendo.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> <br /> </td> 
