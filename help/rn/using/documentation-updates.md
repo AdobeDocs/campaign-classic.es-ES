@@ -32,7 +32,7 @@ Consulte las [Notas de la versión de Adobe Campaign Classic](../../rn/using/lat
 
 * Ya está disponible la nueva compilación de Campaign v7.2.2. [Más información](../../rn/using/latest-release.md)
 * Se ha añadido información de solución de problemas relacionada con el conector ACS. [Más información](../../integrations/using/troubleshooting-the-acs-connector.md)
-* Las versiones anteriores de PostgreSQL que han llegado al final de su vida útil se han agregado al [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md#dbe-eol) página.
+* Las versiones heredadas de PostgreSQL que han llegado al final de su vida útil se añadieron a la página [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md#dbe-eol).
 
 ### Febrero de 2022 {#february-2022}
 
