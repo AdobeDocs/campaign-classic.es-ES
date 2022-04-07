@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: acs-connector
 exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
 source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '870'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -113,10 +113,10 @@ Según su implementación, puede enfrentarse a varios problemas comunes.
 
    Los recursos sincronizados desde Campaign v7 se encuentran en modo de solo lectura en Campaign Standard para garantizar la coherencia de los datos. Si necesita editar uno de estos elementos, puede hacerlo en Campaign v7 y luego duplicar el cambio en Campaign Standard.
 
-* **Los errores se producen en la variable [ACS] Flujo de trabajo de replicación del registro de envío de perfil. ¿Qué debo hacer?**
+* **Los errores se producen en el flujo de trabajo de replicación del registro de entrega de perfil [ACS]. ¿Qué debo hacer?**
 
-   En caso de que se utilicen instancias tanto de Campaign Classic como de Campaign Standard para enviar correos electrónicos con direcciones URL rastreadas, puede ocurrir un problema con los identificadores de etiqueta de URL duplicados durante la sincronización. En este caso, la variable **[ACS] Duplicación del registro de envío de perfil** El flujo de trabajo (newRcpDeliveryLogReplication) sigue fallando y aparece el siguiente error:
+   En caso de que se utilicen instancias tanto de Campaign Classic como de Campaign Standard para enviar correos electrónicos con direcciones URL rastreadas, puede ocurrir un problema con los identificadores de etiqueta de URL duplicados durante la sincronización. En este caso, el flujo de trabajo de replicación del registro de entrega de perfil **[ACS]** (newRcpDeliveryLogReplication) sigue fallando y aparece el siguiente error:
 
    ```PGS-220000 PostgreSQL error: ERROR: duplicate key value violates unique constraint "nmstrackingurl_tagid" DETAIL: Key (stagid) = (1c7bdec2) already exists.```
 
-   Para resolver el problema y evitar que vuelva a ocurrir, actualice la variable **Actualización de las direcciones URL de seguimiento** actividad (writerTrackingUrls) en el flujo de trabajo y añada el prefijo &quot;ACS&quot; a la expresión de origen @tagId.
+   Para resolver el problema y evitar que vuelva a ocurrir, actualice la actividad **Actualizar las direcciones URL de seguimiento** (writerTrackingUrls) en el flujo de trabajo y añada el prefijo “ACS” a la expresión de origen @tagId.
