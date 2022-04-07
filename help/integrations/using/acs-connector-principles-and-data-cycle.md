@@ -5,9 +5,9 @@ description: Principios y ciclo de datos del conector ACS
 feature: ACS Connector
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
 source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2038'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -150,7 +150,7 @@ Los siguientes flujos de trabajo de duplicación están disponibles como plantil
 
    >[!NOTE]
    >
-   > En caso de que se utilicen instancias tanto de Campaign Classic como de Campaign Standard para enviar correos electrónicos con direcciones URL rastreadas, puede ocurrir un problema con los identificadores de etiqueta de URL duplicados durante la sincronización. Para evitar que esto ocurra, actualice la variable **Actualización de las direcciones URL de seguimiento** actividad (writerTrackingUrls) en el flujo de trabajo y añada el prefijo &quot;ACS&quot; a la expresión de origen @tagId.
+   > En caso de que se utilicen instancias tanto de Campaign Classic como de Campaign Standard para enviar correos electrónicos con direcciones URL rastreadas, puede ocurrir un problema con los identificadores de etiqueta de URL duplicados durante la sincronización. Para evitar que esto ocurra, actualice la actividad **Actualizar las direcciones URL de seguimiento** (writerTrackingUrls) en el flujo de trabajo y añada el prefijo “ACS” a la expresión de origen @tagId.
 
 * **[!UICONTROL `[ACS] New delivery log replication`]** (newRcpDeliveryLogReplication): este flujo de trabajo incremental duplica las ID de entrega, los “broadlogs” de correo electrónico y los “logs” de seguimiento de correo electrónico desde Campaign Standard hasta Campaign v7. Solo tiene en cuenta las entregas de cuentas realizados desde Campaign Standard hacia los perfiles que forman parte de una tabla específica (para definir, que no sea nms:recipients) de Campaign v7.
 
