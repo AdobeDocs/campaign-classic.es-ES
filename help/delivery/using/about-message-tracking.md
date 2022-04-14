@@ -4,10 +4,10 @@ title: Introducción al seguimiento
 description: Obtenga más información sobre las directrices generales para el seguimiento en Adobe Campaign Classic
 feature: Monitoring, Email
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
-source-wordcount: '685'
-ht-degree: 100%
+source-git-commit: 29fae1305a6d2b8debbc2aa705c047eaf3730457
+workflow-type: tm+mt
+source-wordcount: '684'
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Gracias a sus funciones de seguimiento, Adobe Campaign le permite realizar un seguimiento adicional de los mensajes enviados y comprobar el comportamiento de los destinatarios: aperturas de mensajes, clics en vínculos, bajas, etc.
+Gracias a sus funcionalidades de seguimiento, Adobe Campaign permite rastrear los mensajes enviados y comprobar el comportamiento de los destinatarios: abrir, hacer clic en vínculos, cancelar suscripción, etc.
 
 Esta información se recupera en la pestaña **[!UICONTROL Tracking]** del perfil de cada destinatario de la entrega. Esta pestaña presenta todos los vínculos de URL rastreados y seleccionados por el destinatario seleccionado de la lista. Esta es la acumulación de todas las direcciones URL rastreadas en las entregas que aún están presentes en la pantalla de envío. La lista se puede configurar y normalmente contiene: la dirección URL donde se hizo clic, la fecha y la hora del clic y el documento en el que se encontró la URL. Para obtener más información, consulte [esta sección](../../platform/using/editing-a-profile.md#tracking-tab).
 
