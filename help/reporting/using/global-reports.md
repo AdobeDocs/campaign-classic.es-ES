@@ -5,9 +5,9 @@ description: Informes globales
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
 source-git-commit: 294309239bc476669e9e017c27bd1b51a0bdaf8c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2295'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Se pueden configurar los valores que se muestran cambiando la escala temporal: v
 
 >[!NOTE]
 >
->Si la instancia está alojada en AWS, también puede controlar el número de envíos realizados por hora mediante el Campaign Classic [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=es). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es).
+>Si la instancia está alojada en AWS, también puede monitorizar el número de entregas enviadas por hora mediante el [Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=es) de Campaign Classic. Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es).
 >
 >Todos los usuarios administradores pueden acceder al Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 >
