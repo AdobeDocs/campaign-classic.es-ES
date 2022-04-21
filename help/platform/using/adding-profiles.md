@@ -6,7 +6,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: befa8948-ef2e-4f4d-a002-3f26d8516a0d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Adición de perfiles{#adding-profiles}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 En la mayoría de los casos, los perfiles [se importan a Campaign a través de un flujo de trabajo](../../platform/using/import-export-workflows.md). Sin embargo, puede añadir uno o varios perfiles directamente desde la interfaz, haciendo clic en el botón **[!UICONTROL Create]** . A continuación, se añadirán a la base de datos.
 

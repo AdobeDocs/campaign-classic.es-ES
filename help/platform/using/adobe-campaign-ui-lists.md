@@ -4,8 +4,8 @@ title: Administración y personalización de listas
 description: Aprenda a examinar y configurar listas
 feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
+workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Administración y personalización de listas{#manage-and-customize-lists}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Puede acceder a las listas de registros de la base de datos de Campaign mediante el Explorador. Puede filtrar estas listas, ejecutar búsquedas, añadir información, filtrar y ordenar datos.
 

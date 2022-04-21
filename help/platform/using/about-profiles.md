@@ -6,7 +6,7 @@ feature: Profiles, Audiences
 role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
-source-git-commit: ed43a632a962747c9402ff8d5f0ce442c2cc6490
+source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Introducción a los perfiles{#about-profiles}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Los perfiles están centralizados en la base de datos de Adobe Campaign. Existen muchos mecanismos para adquirir perfiles y crear esta base de datos: recopilación en línea a través de formularios web, importación manual o automática de archivos de texto, replicación con bases de datos de fabricantes, u otros sistemas de información. Con Adobe Campaign, puede incorporar el historial de marketing, la información de compra, las preferencias, los datos CRM y cualquier dato PI relevante en una vista consolidada para analizar y actuar en consecuencia.
 
