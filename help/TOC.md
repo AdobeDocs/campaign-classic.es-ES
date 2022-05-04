@@ -7,9 +7,9 @@ user-guide-description: Con Adobe Campaign, puede utilizar datos de clientes enr
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 490ba0102f54e2d82e0bff1aa72b67ac118bf7a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2570'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 99%
       + [Administración de la privacidad](platform/using/privacy-management.md)
       + Solicitudes de privacidad {#privacy-requests}
          + [Acerca de las solicitudes de privacidad](platform/using/privacy-requests.md)
-         + [Crear y administrar solicitudes de privacidad](platform/using/privacy-requests-ui.md)
+         + [Creación y administración de solicitudes de privacidad](platform/using/privacy-requests-ui.md)
          + [Proceso de solicitud de privacidad automática](platform/using/privacy-requests-api.md)
          + [Exclusión para la venta de información personal](platform/using/privacy-requests-ccpa.md)
    + Administración de perfiles {#profile-management}
