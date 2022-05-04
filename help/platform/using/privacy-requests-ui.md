@@ -1,24 +1,25 @@
 ---
 product: campaign
-title: Crear solicitudes de privacidad
+title: Creación de solicitudes de privacidad
 description: Obtenga información sobre cómo crear y administrar solicitudes de privacidad
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-source-git-commit: a8044037e889f59d4288a0746001e84d319f6bcf
-workflow-type: tm+mt
+exl-id: 73b90d79-88b6-4aaf-8103-4564de5e06be
+source-git-commit: 42b420d7dae7d38e9f4df442146d3b484c25e831
+workflow-type: ht
 source-wordcount: '771'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Crear y administrar solicitudes de privacidad {#privacy-request-ui}
+# Creación y administración de solicitudes de privacidad {#privacy-request-ui}
 
 ![](../../assets/v7-only.svg)
 
-En esta sección se describe cómo crear solicitudes de Acceso y Eliminación, así como cómo las procesa Adobe Campaign.
+Esta sección describe cómo se pueden crear solicitudes de Acceso y Eliminación, y también cómo las procesa Adobe Campaign.
 
-## Crear una solicitud de privacidad {#create-privacy-request-ui}
+## Creación de una solicitud de privacidad {#create-privacy-request-ui}
 
 La interfaz de **Adobe Campaign** le permite crear sus solicitudes de privacidad y rastrear su evolución. Para crear una nueva solicitud de privacidad, siga estas instrucciones:
 
