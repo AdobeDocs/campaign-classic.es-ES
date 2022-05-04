@@ -4,9 +4,9 @@ product: campaign
 title: Documentación del producto de Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: 29fae1305a6d2b8debbc2aa705c047eaf3730457
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 81%
 
 * **[Programa de versiones de 2022](technotes/using/dc-migration.md)**<br/> Actualice su entorno y mejore la seguridad, la infraestructura y el rendimiento
 
-* **[La versión de marzo está activa.](rn/using/latest-release.md)**<br/> Descubra las nuevas funciones, mejoras y correcciones en las Notas de la versión
+* **[¡Ya está aquí la versión de marzo!](rn/using/latest-release.md)**<br/> Descubra nuevas funcionalidades, mejoras y correcciones en las notas de la versión
 
 * **[Preguntas frecuentes sobre la protección de privacidad del correo de Apple](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=es)** y **[nota técnica](technotes/using/apple-mail-app-privacy-protection.md)**<br/> Encuentre instrucciones en respuesta al anuncio de Apple sobre iOS 15
 
@@ -26,7 +26,7 @@ ht-degree: 81%
 
 * **[Proteja sus instancias de Campaign](technotes/using/acc-config-updates.md)**<br/> Actualice a las últimas compilaciones para proteger su plataforma de Campaign.
 
-* **[Actualice la integración con Adobe Experience Cloud Triggers](integrations/using/configuring-adobe-io.md)**<br/> El servicio de autenticación oAuth heredado ha llegado al final de su vida útil: debe migrar a Adobe I/O
+* **[Actualice la integración de activadores de Adobe Experience Cloud](integrations/using/configuring-adobe-io.md)**<br/> El servicio de autenticación oAuth heredado ha llegado al final de su vida útil: debe migrar a Adobe I/O
 
 [Más actualizaciones](rn/using/documentation-updates.md)
 
@@ -84,5 +84,5 @@ ht-degree: 81%
 | [Videotutoriales](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es) | [Modelo de datos de Campaign](configuration/using/about-data-model.md) |
 | [Matriz de compatibilidad](rn/using/compatibility-matrix.md) | [JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=es) |
 | [Introducción a las actualizaciones](rn/using/rn-overview.md) | [Guía de seguimiento](delivery/using/about-message-tracking.md) |
-| [Funciones obsoletas](rn/using/deprecated-features.md) | [Lista de comprobación de seguridad y privacidad](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/get-started-security-privacy.html) |
+| [Funciones obsoletas](rn/using/deprecated-features.md) | [Lista de comprobación de seguridad y privacidad](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/get-started-security-privacy.html?lang=es) |
 | [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es) | [Directrices de monitorización](production/using/monitoring-guidelines.md) |
