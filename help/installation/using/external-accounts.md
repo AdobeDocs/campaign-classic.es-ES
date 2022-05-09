@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
+source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
 workflow-type: tm+mt
-source-wordcount: '1635'
-ht-degree: 73%
+source-wordcount: '1627'
+ht-degree: 74%
 
 ---
 
@@ -243,7 +243,7 @@ Para conectarse a la consola de Adobe Campaign mediante un Adobe ID, debe config
 
 * **[!UICONTROL IMS organization ID]**
 
-   ID de la organización IMS Para encontrar su ID de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html?lang=es) (**¿Dónde puedo encontrar mi ID de organización de IMS?**).
+   ID de la organización Para encontrar su ID de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es){_blank}.
 
 * **[!UICONTROL Association mask]**
 

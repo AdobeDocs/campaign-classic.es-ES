@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
 workflow-type: tm+mt
-source-wordcount: '7961'
-ht-degree: 8%
+source-wordcount: '7957'
+ht-degree: 10%
 
 ---
 
@@ -3282,7 +3282,7 @@ Para obtener más información, consulte esta [sección](../../installation/usin
  <tbody> 
   <tr> 
    <td> IMSOrgId<br /> </td> 
-   <td> Identificador de organización del sistema Identity Management (IMS): identificador de organización único dentro de Adobe Experience Cloud, utilizado en particular para el servicio VisitorID y el SSO de IMS. <br /> </td> 
+   <td> ID de organización: identificador de organización único dentro de Adobe Experience Cloud, utilizado en particular para el servicio VisitorID y el SSO de IMS. <br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 

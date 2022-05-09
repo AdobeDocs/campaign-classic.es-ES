@@ -6,10 +6,10 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 100%
+source-wordcount: '146'
+ht-degree: 50%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Para poder continuar, hay que verificar que el IMS está activado en el sistema. Consulte la sección sobre [IMS](../../integrations/using/about-adobe-id.md).
+>Como usuario de la versión 7, para poder continuar, asegúrese de que Adobe Identity Management System (IMS) esté habilitado en su sistema. [Más información](../../integrations/using/about-adobe-id.md).
 
-Una vez habilitado el IMS, se puede solicitar a Campaign la integración entre el servicio principal Personas y Audience Manager. Para ello, envíe un email a [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) con la siguiente información:
+Una vez habilitado el IMS para su organización, puede solicitar la integración del servicio principal Personas/Audience Manager con Campaign. Para ello, envíe un email a [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) con la siguiente información:
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>Tipo de solicitud:</strong><br /> </td> 
+   <td> <strong>Tipo de solicitud</strong><br /> </td> 
    <td> Configuración de la integración AAM/servicio principal Personas de Campaign </td> 
   </tr> 
   <tr> 
@@ -34,16 +34,16 @@ Una vez habilitado el IMS, se puede solicitar a Campaign la integración entre e
    <td> Nombre de su organización </td> 
   </tr> 
   <tr> 
-   <td> <strong>ID de la organización IMS</strong><br /> </td> 
-   <td> Su ID de la organización IMS. <br> Puede encontrar la ID de la organización IMS en Experience Cloud, en el menú Administration. También se proporciona al conectarse por primera vez a Adobe Experience Cloud. </td> 
+   <td> <strong>ID de organización</strong><br /> </td> 
+   <td> Su ID de organización. <br> Para encontrar su ID de organización, consulte <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es">esta página</a></td> 
   </tr> 
   <tr> 
-   <td> <strong>Entorno:</strong><br /> </td> 
+   <td> <strong>Entorno</strong><br /> </td> 
    <td> Ejemplo: Producción </td> 
   </tr> 
   <tr> 
    <td> <strong>AAM o servicio Personas</strong><br /> </td> 
-   <td> Ejemplo: Adobe Audience Manager. Asegúrese de mencionar al equipo de aprovisionamiento si posee o no una licencia de Audience Manager.</td> 
+   <td> Ejemplo: Adobe Audience Manager. Asegúrese de mencionar si posee o no una licencia de Audience Manager.</td> 
   </tr> 
   <tr> 
    <td> <strong>ID declarada o ID de visitante</strong><br /> </td> 

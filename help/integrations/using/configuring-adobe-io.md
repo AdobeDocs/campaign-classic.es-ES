@@ -8,10 +8,10 @@ index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
-source-git-commit: 966da123b30278817ca465ac5dfe1f733c4d6c5c
-workflow-type: ht
-source-wordcount: '701'
-ht-degree: 100%
+source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
+workflow-type: tm+mt
+source-wordcount: '693'
+ht-degree: 88%
 
 ---
 
@@ -32,12 +32,12 @@ Esta integración solo se aplica a partir de **las versiones de Campaign Classic
 
 Antes de iniciar esta implementación, compruebe lo siguiente:
 
-* **Un identificador de organización** válido: el identificador de organización de Identity Management System (IMS) es el identificador único de Adobe Experience Cloud que se utiliza, por ejemplo, para el servicio VisitorID y el inicio de sesión único (SSO) de IMS. [Obtenga más información](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=es)
-* un **acceso para desarrolladores** para su organización. El administrador del sistema de la organización IMS debe seguir el procedimiento **Adición de desarrolladores a un único perfil de producto** detallado [en esta página](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html) para proporcionar acceso de desarrollador al perfil `Analytics - {tenantID}` del producto de Adobe Analytics asociado a activadores.
+* un **Identificador de organización**: el ID de organización es el identificador único de Adobe Experience Cloud que se utiliza, por ejemplo, para el servicio VisitorID y el inicio de sesión único (SSO) de IMS. [Más información](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es)
+* un **acceso para desarrolladores** para su organización. El administrador del sistema de la organización debe seguir la **Agregar desarrolladores a un único perfil de producto** procedimiento detallado [en esta página](https://helpx.adobe.com/enterprise/using/manage-developers.html) para proporcionar acceso de desarrollador a la variable `Analytics - {tenantID}` Perfil de producto del producto de Adobe Analytics asociado a Déclencheur.
 
 ## Paso 1: Crear/actualizar proyecto de Adobe I/O {#creating-adobe-io-project}
 
-1. Acceda a [!DNL Adobe I/O] e inicie sesión con el acceso de desarrollador de la organización IMS.
+1. Acceso [!DNL Adobe I/O] e inicie sesión con el acceso de desarrollador de su organización.
 
    >[!NOTE]
    >

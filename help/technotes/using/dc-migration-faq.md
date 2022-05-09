@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
-source-git-commit: 60fc0fd2a10f05abb77843ef0cb69e44f35a9648
+source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
 workflow-type: tm+mt
-source-wordcount: '2216'
-ht-degree: 63%
+source-wordcount: '2215'
+ht-degree: 62%
 
 ---
 
@@ -143,9 +143,9 @@ A continuación se enumeran los efectos globales en la configuración, conectivi
 
    Habrá direcciones IP en la lista de permitidos que serán necesarias en la solución externa, ya que la IP de los servidores de aplicaciones cambiará. Se proporcionará esta información. Otras partes de la integración están basadas en IMS y deben funcionar tal cual.
 
-* **¿Qué sucede con los clientes que no están conectados a la integración de ID de organización para IMS?**
+* **¿Qué sucede con los clientes que no están conectados al ID de organización para la integración de IMS?**
 
-   A los clientes que no tengan IMS se les proporcionará uno. Se adjuntará un identificador de organización de IMS a su instancia.
+   A los clientes que no tengan IMS se les proporcionará uno: se adjuntará un ID de organización a su instancia.
 
 * **¿La migración afecta a las configuraciones de varias marcas?**
 

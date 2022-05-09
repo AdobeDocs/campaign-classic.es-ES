@@ -5,10 +5,10 @@ description: Descubra más información sobre cómo configurar la canalización
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: b8f74c290106d57630c5d486c04b8424132e3297
+source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 100%
+source-wordcount: '907'
+ht-degree: 98%
 
 ---
 
@@ -31,11 +31,11 @@ Antes de iniciar esta configuración, compruebe que está utilizando lo siguient
    * 20.3.1
 * Versión Adobe Analytics Standard
 
-También necesitará esto:
+También necesita:
 
 * Autenticación de proyectos de Adobe I/O
-* un ID de la organización de IMS válido, el identificador del cliente de Experience Cloud con Adobe Analytics añadido
-* acceso de desarrollador a la organización de IMS
+* un ID de organización válido: para encontrar el ID de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es){_blank}
+* un acceso para desarrolladores para su organización
 * configuración de activadores en Adobe Analytics
 
 ## Archivos de autenticación y configuración {#authentication-configuration}

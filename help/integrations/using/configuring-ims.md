@@ -6,10 +6,10 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 100%
+ht-degree: 75%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 100%
 
 Para utilizar la integración con IMS:
 
-* Debe tener una organización de Adobe Experience Cloud e ID de IMS (siempre que se conecte por primera vez a Adobe Experience Cloud).
-* Debe añadir usuarios en Experience Cloud. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=es).
+* Debe tener un nombre e ID de organización de Adobe Experience Cloud. Para encontrar su ID de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es){_blank}.
+* Debe añadir usuarios en Experience Cloud. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html){_blank}.
 
 >[!NOTE]
 >
->Asegúrese de que los usuarios estén vinculados a los grupos de Adobe Experience Cloud que se sincronizan con Adobe Campaign. Consulte [Configuración de la cuenta externa](#configuring-the-external-account).
+>Asegúrese de que los usuarios estén vinculados a los grupos de Adobe Experience Cloud que se sincronizan con Adobe Campaign. [Más información](#configuring-the-external-account).
 
 ## Actualización de la consola {#updating-the-console}
 
@@ -38,7 +38,7 @@ Para utilizar esta funcionalidad, es imprescindible instalar la versión más re
 
 ## Instalación del paquete {#installing-the-package}
 
-Debe instalar el **[!UICONTROL Integration with the Adobe Experience Cloud]** paquete. La instalación de un paquete de integración se realiza de la misma forma que la de un paquete estándar, la cual se detalla en [esta página](../../installation/using/installing-campaign-standard-packages.md).
+Debe instalar el complemento **[!UICONTROL Integration with the Adobe Experience Cloud]** paquete. La instalación de un paquete de integración se realiza de la misma forma que la de un paquete estándar, la cual se detalla en [esta página](../../installation/using/installing-campaign-standard-packages.md).
 
 ![](assets/ims_6.png)
 
@@ -58,8 +58,8 @@ Introduzca la siguiente información:
 
    La dirección **[!UICONTROL Callback server]** debe especificarse en **https**. Este campo corresponde a la dirección URL de acceso de la instancia de Adobe Campaign.
 
-* ID de la organización IMS: esta información está disponible en Experience Cloud (en **[!UICONTROL Administration > Experience Cloud Details]**) y se proporciona al conectarse por primera vez a Adobe Experience Cloud.
-* Máscara de asociación: este campo permite definir la sintaxis que permite sincronizar los nombres de configuración en Enterprise Dashboard con los grupos de Adobe Campaign. Si se utiliza la sintaxis “Campaign - tenant_id - (.*)”, el grupo de seguridad creado en Adobe Campaign se vincula al nombre de la configuración “Campaign - tenant_id - internal_name” en Enterprise Dashboard.
+* ID de organización: para encontrar su ID de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){_blank}.
+* Máscara de asociación: este campo permite definir la sintaxis que permite sincronizar los nombres de configuración en Enterprise Dashboard con los grupos de Adobe Campaign. Si utiliza la sintaxis &quot;Campaign - tenant_id - (.&#42;)&quot;, el grupo de seguridad creado en Adobe Campaign se vinculará al nombre de configuración &quot;Campaign - tenant_id - internal_name&quot; en Enterprise Dashboard.
 
    >[!CAUTION]
    >

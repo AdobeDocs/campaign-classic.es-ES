@@ -5,10 +5,10 @@ description: 'Solución de problemas de canalización '
 audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
-source-git-commit: 36b10a49fe92853f98beeb9e7d2fea3f59b10b6f
+source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 100%
+source-wordcount: '705'
+ht-degree: 92%
 
 ---
 
@@ -32,9 +32,9 @@ Establezca la configuración JSON en la opción **NmsPipeline_Config**. Consulte
 
 La configuración del identificador de organización no es válida.
 
-1. Compruebe que IMSOrgId esté establecido en serverConf.xml.
-1. Busque un IMSOrgId vacío en el archivo de configuración de instancia que pueda anular el valor predeterminado. Si es así, elimínelo.
-1. Compruebe que IMSOrgId coincida con el cliente de Experience Cloud.
+1. Compruebe que el ID de organización (ImsOrgId) esté establecido en serverConf.xml.
+1. Compruebe si un ID de organización vacío en el archivo de configuración de instancia puede anular el predeterminado. Si es así, elimínelo.
+1. Compruebe que el ID de organización sea correcto. Para encontrar su ID de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es){_blank}
 
 **La canalización produce el error &quot;clave no válida&quot;**
 
