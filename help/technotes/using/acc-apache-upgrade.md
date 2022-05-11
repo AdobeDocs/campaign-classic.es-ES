@@ -5,7 +5,7 @@ description: 'Adobe Campaign: actualización de seguridad de la versión de Apac
 hide: true
 hidefromtoc: true
 exl-id: 3d2f5d1d-4b31-4cc6-b6fb-13589856e00c
-source-git-commit: 209e3ffc5b11a776a8d16ab210097e5ee4e48b0d
+source-git-commit: ef34decdb33cdfd095c437abd5d1eb029f8a0648
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 3%
@@ -21,7 +21,7 @@ Adobe Campaign funciona con herramientas de terceros, y la compatibilidad se act
 
 Adobe Campaign incluye Apache Tomcat que actúa como punto de entrada en el servidor de aplicaciones a través de HTTP y está integrado con el servidor web Apache. La Apache Software Foundation ha lanzado Apache HTTP Server 2.4.53. Esta versión aborda vulnerabilidades que pueden permitir que un atacante remoto tome el control de un sistema afectado. Obtenga más información en [Anuncio de Apache 2.4.53](https://downloads.apache.org/httpd/Announcement2.4.html){target=&quot;_blank&quot;}.
 
-El equipo de Adobe Campaign dirigirá la actividad de actualización de seguridad de la versión de Apache de **31 de mayo de 2022** para mitigar esta vulnerabilidad de Apache y hacer que su entorno de instancia sea más seguro. Esta actualización se aplica a todos los clientes de Managed Services de Campaign Classic v7, Campaign v8 y Campaign Standards que ejecutan una versión vulnerable de Apache HTTP Server. Si se ve afectado, Adobe ya se ha puesto en contacto con usted para informarle sobre esta actualización.
+El equipo de Adobe Campaign dirigirá la actividad de actualización de seguridad de la versión de Apache de **15 de junio de 2022** para mitigar esta vulnerabilidad de Apache y hacer que su entorno de instancia sea más seguro. Esta actualización se aplica a todos los clientes de Managed Services de Campaign Classic v7, Campaign v8 y Campaign Standards que ejecutan una versión vulnerable de Apache HTTP Server. Si se ve afectado, Adobe ya se ha puesto en contacto con usted para informarle sobre esta actualización.
 
 Se espera que esta actualización se ejecute automáticamente fuera del horario laboral normal para que pueda seguir utilizando el servicio de Campaign sin interrupciones.
 
