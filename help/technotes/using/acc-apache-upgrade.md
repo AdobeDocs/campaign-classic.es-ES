@@ -4,20 +4,29 @@ title: Nota técnica - Adobe Campaign - Actualización de seguridad de la versi�
 description: 'Adobe Campaign: actualización de seguridad de la versión de Apache'
 hide: true
 hidefromtoc: true
-source-git-commit: 41aa16e3ac6f150b9a048a22729b4cc4b9ccc10a
+exl-id: 3d2f5d1d-4b31-4cc6-b6fb-13589856e00c
+source-git-commit: 854278e3e2013293888ea194c12ec1a75e70d981
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '475'
 ht-degree: 3%
 
 ---
 
 # Adobe Campaign: actualización de seguridad de la versión de Apache {#apache-update}
 
-Campaign Classic trabaja con herramientas de terceros, y la compatibilidad se actualiza de forma regular para implementar únicamente versiones compatibles y beneficiarse de las últimas correcciones y mejoras.
+>[!NOTE]
+>Este artículo se aplica a:
+> * Campaign Classic v7 clientes de Managed Services
+> * Clientes de Campaign v8
+> * clientes Campaign Standards
+
+
+
+Adobe Campaign funciona con herramientas de terceros, y la compatibilidad se actualiza de forma regular para implementar únicamente versiones compatibles y beneficiarse de las últimas correcciones y mejoras.
 
 Adobe Campaign incluye Apache Tomcat que actúa como punto de entrada en el servidor de aplicaciones a través de HTTP y está integrado con el servidor web Apache. La Apache Software Foundation ha lanzado Apache HTTP Server 2.4.53. Esta versión aborda vulnerabilidades que pueden permitir que un atacante remoto tome el control de un sistema afectado. Obtenga más información en [Anuncio de Apache 2.4.53](https://downloads.apache.org/httpd/Announcement2.4.html){target=&quot;_blank&quot;}.
 
-El equipo de Adobe Campaign dirigirá la actividad de actualización de seguridad de la versión de Apache de **31 de mayo de 2022** para mitigar esta vulnerabilidad de Apache y hacer que su entorno de instancia sea más seguro. Esta actualización se aplica a todos los clientes de Managed Services que ejecutan una versión vulnerable de Apache HTTP Server. Si se ve afectado, Adobe ya se ha puesto en contacto con usted para informarle sobre esta actualización.
+El equipo de Adobe Campaign dirigirá la actividad de actualización de seguridad de la versión de Apache de **31 de mayo de 2022** para mitigar esta vulnerabilidad de Apache y hacer que su entorno de instancia sea más seguro. Esta actualización se aplica a todos los clientes de Managed Services de Campaign Classic v7, Campaign v8 y Campaign Standards que ejecutan una versión vulnerable de Apache HTTP Server. Si se ve afectado, Adobe ya se ha puesto en contacto con usted para informarle sobre esta actualización.
 
 Se espera que esta actualización se ejecute automáticamente fuera del horario laboral normal para que pueda seguir utilizando el servicio de Campaign sin interrupciones.
 
@@ -42,11 +51,9 @@ Nuestros equipos actualizarán primero las instancias que no sean de producción
 
    El tiempo de inactividad esperado es inferior a 10 minutos.
 
-
 * **¿Hay alguna acción que el cliente necesite para esta actualización de seguridad?**
 
    No se requiere ninguna acción, ya que la actualización de seguridad se ejecutará automáticamente.
-
 
 * **¿Qué validaciones deben ejecutar los clientes?**
 
