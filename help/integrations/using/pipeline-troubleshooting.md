@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
 source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '705'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ Establezca la configuración JSON en la opción **NmsPipeline_Config**. Consulte
 
 **La canalización produce el error &quot;el sujeto debe ser una organización o cliente válido&quot;**
 
-La configuración del identificador de organización no es válida.
+La configuración del ID de organización no es válida.
 
-1. Compruebe que el ID de organización (ImsOrgId) esté establecido en serverConf.xml.
+1. Compruebe que el ID de la organización (ImsOrgId) esté establecido en serverConf.xml.
 1. Compruebe si un ID de organización vacío en el archivo de configuración de instancia puede anular el predeterminado. Si es así, elimínelo.
 1. Compruebe que el ID de organización sea correcto. Para encontrar su ID de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es){_blank}
 
@@ -51,7 +51,7 @@ El parámetro @authPrivateKey del archivo de configuración de instancia es inco
 La clave privada tiene un formato no válido.
 
 1. Ejecute los pasos para el cifrado de claves en esta página.
-1. Compruebe que la clave esté encriptada en la misma instancia.
+1. Compruebe que la clave esté cifrada en la misma instancia.
 1. Compruebe que authPrivateKey del archivo de configuración coincida con la clave generada. <br>Asegúrese de utilizar OpenSSL para generar el par de claves. PuttyGen, por ejemplo, no genera el formato adecuado.
 
 **La canalización produce el error “ya no se permite obtener el token de acceso”**
@@ -93,7 +93,7 @@ Cuando algunos eventos no están vinculados a un cliente:
 
 Cuando la marca de tiempo de Analytics es mucho más antigua que la fecha de creación del evento en Campaign.
 
-Generalmente, un activador puede tardar entre 15 y 90 minutos en iniciar una campaña de marketing. Esto varía según la implementación de la recopilación de datos, la carga en la canalización, la configuración personalizada del activador definido y el flujo de trabajo en Adobe Campaign.
+Generalmente, un activador puede tardar entre 15 y 90 minutos en iniciar una campaña de marketing. Esto varía según la implementación de la colección de datos, la carga en la canalización, la configuración personalizada del activador definido y el flujo de trabajo en Adobe Campaign.
 
 1. Compruebe si el proceso [!DNL pipelined] se ejecutado.
 1. Busque errores en pipelined.log que puedan causar reintentos. Corrija los errores, si corresponde.
