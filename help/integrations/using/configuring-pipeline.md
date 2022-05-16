@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '907'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Antes de iniciar esta configuración, compruebe que está utilizando lo siguient
    * 20.3.1
 * Versión Adobe Analytics Standard
 
-También necesita:
+También necesitará esto:
 
 * Autenticación de proyectos de Adobe I/O
 * un ID de organización válido: para encontrar el ID de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es){_blank}
