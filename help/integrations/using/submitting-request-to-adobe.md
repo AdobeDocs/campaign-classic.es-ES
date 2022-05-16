@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
 source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '146'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 50%
 >
 >Como usuario de la versión 7, para poder continuar, asegúrese de que Adobe Identity Management System (IMS) esté habilitado en su sistema. [Más información](../../integrations/using/about-adobe-id.md).
 
-Una vez habilitado el IMS para su organización, puede solicitar la integración del servicio principal Personas/Audience Manager con Campaign. Para ello, envíe un email a [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) con la siguiente información:
+Una vez habilitado el IMS para su organización, se puede solicitar a Campaign el aprovisionamiento entre el servicio principal Personas y Audience Manager. Para ello, envíe un email a [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) con la siguiente información:
 
 <table> 
  <tbody> 
@@ -34,8 +34,8 @@ Una vez habilitado el IMS para su organización, puede solicitar la integración
    <td> Nombre de su organización </td> 
   </tr> 
   <tr> 
-   <td> <strong>ID de organización</strong><br /> </td> 
-   <td> Su ID de organización. <br> Para encontrar su ID de organización, consulte <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es">esta página</a></td> 
+   <td> <strong>ID de la organización</strong><br /> </td> 
+   <td> Su ID de la organización <br> Para encontrar su ID de organización, consulte <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es">esta página</a></td> 
   </tr> 
   <tr> 
    <td> <strong>Entorno</strong><br /> </td> 
