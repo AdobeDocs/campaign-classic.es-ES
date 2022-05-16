@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 source-git-commit: bb806da3d865e0d05e7823b2609227ea8effd875
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -95,7 +95,7 @@ El perfil de producto ya está configurado. A continuación, debe crear el proye
 
 ## Creación de un proyecto de Adobe I/O {#create-adobe-io}
 
-1. Acceda al Adobe I/O e inicie sesión como **Administrador del sistema** de su organización.
+1. Acceda a Adobe I/O e inicie sesión como el **Administrador del sistema** de la organización.
 
    Para obtener más información acerca de las funciones de administrador, consulte esta [página](https://helpx.adobe.com/es/enterprise/using/admin-roles.html).
 
