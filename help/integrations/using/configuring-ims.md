@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
 source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '345'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 75%
 Para utilizar la integración con IMS:
 
 * Debe tener un nombre e ID de organización de Adobe Experience Cloud. Para encontrar su ID de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es){_blank}.
-* Debe añadir usuarios en Experience Cloud. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html){_blank}.
+* Debe añadir usuarios en Experience Cloud. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=es){_blank}.
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Para utilizar esta funcionalidad, es imprescindible instalar la versión más re
 
 ## Instalación del paquete {#installing-the-package}
 
-Debe instalar el complemento **[!UICONTROL Integration with the Adobe Experience Cloud]** paquete. La instalación de un paquete de integración se realiza de la misma forma que la de un paquete estándar, la cual se detalla en [esta página](../../installation/using/installing-campaign-standard-packages.md).
+Debe instalar el paquete integrado **[!UICONTROL Integration with the Adobe Experience Cloud]**. La instalación de un paquete de integración se realiza de la misma forma que la de un paquete estándar, la cual se detalla en [esta página](../../installation/using/installing-campaign-standard-packages.md).
 
 ![](assets/ims_6.png)
 
@@ -58,8 +58,8 @@ Introduzca la siguiente información:
 
    La dirección **[!UICONTROL Callback server]** debe especificarse en **https**. Este campo corresponde a la dirección URL de acceso de la instancia de Adobe Campaign.
 
-* ID de organización: para encontrar su ID de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){_blank}.
-* Máscara de asociación: este campo permite definir la sintaxis que permite sincronizar los nombres de configuración en Enterprise Dashboard con los grupos de Adobe Campaign. Si utiliza la sintaxis &quot;Campaign - tenant_id - (.&#42;)&quot;, el grupo de seguridad creado en Adobe Campaign se vinculará al nombre de configuración &quot;Campaign - tenant_id - internal_name&quot; en Enterprise Dashboard.
+* ID de organización: para encontrar su ID de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es){_blank}.
+* Máscara de asociación: este campo permite definir la sintaxis que permite sincronizar los nombres de configuración en Enterprise Dashboard con los grupos de Adobe Campaign. Si se utiliza la sintaxis “Campaign - tenant_id - (.&#42;)”, el grupo de seguridad creado en Adobe Campaign se vincula al nombre de la configuración “Campaign - tenant_id - internal_name” en Enterprise Dashboard.
 
    >[!CAUTION]
    >
