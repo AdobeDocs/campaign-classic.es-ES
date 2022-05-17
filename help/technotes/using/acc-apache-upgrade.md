@@ -5,7 +5,7 @@ description: 'Adobe Campaign: actualización de seguridad de la versión de Apac
 hide: true
 hidefromtoc: true
 exl-id: 3d2f5d1d-4b31-4cc6-b6fb-13589856e00c
-source-git-commit: e0f4cc33ea715d013596afa12894cc8e5023154b
+source-git-commit: a3eae4e253f66f5a651ffe0458f60b1f8bdf2258
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 # Adobe Campaign: actualización de seguridad de la versión de Apache {#apache-update}
 
 >[!CAUTION]
->Este artículo se aplica a: Campaign Classic v7 clientes de Managed Services, clientes de Campaign v8 y clientes Campaign Standards.
+>Este artículo se aplica a: **Campaign Classic v7 Managed Services** clientes, **Campaign v8** clientes y **Campaign Standard** clientes.
 
 Adobe Campaign funciona con herramientas de terceros, y la compatibilidad se actualiza de forma regular para implementar únicamente versiones compatibles y beneficiarse de las últimas correcciones y mejoras.
 
@@ -25,7 +25,7 @@ El equipo de Adobe Campaign dirigirá la actividad de actualización de segurida
 
 Se espera que esta actualización se ejecute automáticamente fuera del horario laboral normal para que pueda seguir utilizando el servicio de Campaign sin interrupciones.
 
-Nuestros equipos actualizarán primero las instancias que no sean de producción antes de actualizar las instancias de producción. Como este es un proceso de actualización automática propiedad de Adobe, no es necesario que realice ninguna acción por su parte. Sin embargo, si experimenta algún problema, póngase en contacto con [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support).
+Las instancias que no sean de producción se actualizarán primero por Adobe y, a continuación, las instancias de producción se actualizarán. Como este es un proceso de actualización automática propiedad de Adobe, no es necesario que realice ninguna acción por su parte. Sin embargo, si experimenta algún problema, póngase en contacto con [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support).
 
 
 >[!NOTE]
