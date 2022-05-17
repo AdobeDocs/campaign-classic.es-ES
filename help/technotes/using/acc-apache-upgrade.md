@@ -5,10 +5,10 @@ description: 'Adobe Campaign: actualización de seguridad de la versión de Apac
 hide: true
 hidefromtoc: true
 exl-id: 3d2f5d1d-4b31-4cc6-b6fb-13589856e00c
-source-git-commit: ef34decdb33cdfd095c437abd5d1eb029f8a0648
+source-git-commit: 7ee1cc501342aa59d1752259bf7228ea47a8cccb
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 3%
+source-wordcount: '541'
+ht-degree: 2%
 
 ---
 
@@ -37,7 +37,6 @@ Nuestros equipos actualizarán primero las instancias que no sean de producción
 
    La versión actual de Apache es vulnerable y puede suponer una amenaza para la seguridad. Es importante que las instancias de Campaign se actualicen a la última versión aplicable de Apache para abordar el riesgo de seguridad.
 
-
 * **¿A qué clientes se dirigen las actualizaciones de seguridad?**
 
    Todos los clientes que utilizan entornos de Campaign implementados en versiones anteriores de Apache se actualizan a la última versión aplicable de Apache.
@@ -49,6 +48,10 @@ Nuestros equipos actualizarán primero las instancias que no sean de producción
 * **¿Hay alguna acción que el cliente necesite para esta actualización de seguridad?**
 
    No se requiere ninguna acción, ya que la actualización de seguridad se ejecutará automáticamente.
+
+* **¿Cuál es el impacto en la ejecución de campañas/flujos de trabajo durante la ventana de mantenimiento?**
+
+   Durante la ventana de mantenimiento, el flujo de trabajo y los servicios de correo se detendrán y las actividades programadas no se ejecutarán. Cualquier actividad en curso o proceso en ejecución se detendrá durante el tiempo de inactividad hasta que el servidor se reinicie. Una vez finalizada la actividad y reiniciado el servidor, se reanudarán todos los servicios.
 
 * **¿Qué validaciones deben ejecutar los clientes?**
 
