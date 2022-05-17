@@ -5,7 +5,7 @@ description: 'Adobe Campaign: actualización de seguridad de la versión de Apac
 hide: true
 hidefromtoc: true
 exl-id: 3d2f5d1d-4b31-4cc6-b6fb-13589856e00c
-source-git-commit: 7ee1cc501342aa59d1752259bf7228ea47a8cccb
+source-git-commit: e0f4cc33ea715d013596afa12894cc8e5023154b
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 2%
@@ -55,7 +55,7 @@ Nuestros equipos actualizarán primero las instancias que no sean de producción
 
 * **¿Qué validaciones deben ejecutar los clientes?**
 
-   No es necesario realizar pruebas específicas para esta actualización de seguridad. En caso de que se observe algún problema, póngase en contacto con [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support)
+   No es necesario realizar pruebas específicas para esta actualización de seguridad. En caso de que se observe algún problema, póngase en contacto con [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support).
 
 
 * **¿Puedo solicitar un cambio en la fecha y la hora en la ranura de actualización de seguridad programada?**
