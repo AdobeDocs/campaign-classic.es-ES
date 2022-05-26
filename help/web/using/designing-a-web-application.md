@@ -5,9 +5,9 @@ description: Diseño de una aplicación web
 feature: Web Apps
 exl-id: dcdf6afc-321e-4027-a350-fff6bbf22e71
 source-git-commit: 0ad183ae68faf41ac0b14bb37639a4b1da9d8776
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Las aplicaciones web se crean y se administran según el mismo principio que los
 
 >[!CAUTION]
 >
->Utilice la subpestaña **[!UICONTROL Preview]** para comprobar los errores durante el diseño de la aplicación web. Tenga en cuenta que la prueba de perfil utilizada para obtener una vista previa de la aplicación web debe estar en una carpeta con **[!UICONTROL Access rights]** para el **[!UICONTROL Web application agent]** operador. </br>Hasta que se publique la aplicación web, los cambios no estarán expuestos a los usuarios finales.
+>Utilice la subpestaña **[!UICONTROL Preview]** para comprobar los errores durante el diseño de la aplicación web. Tenga en cuenta que la prueba de perfil utilizada para previsualizar la aplicación web debe estar en una carpeta con **[!UICONTROL Access rights]** para el operador **[!UICONTROL Web application agent]**. </br>Hasta que se publique la aplicación web, los cambios no estarán expuestos a los usuarios finales.
 
 ## Inserción de gráficos en una aplicación web {#inserting-charts-in-a-web-application}
 
