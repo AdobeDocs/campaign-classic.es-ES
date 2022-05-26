@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 5ce8e765866d84781b1000511e9aea4636ebd91d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '733'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -222,12 +222,12 @@ Los entornos **Managed Services** (alojados), **Híbrido** y **On-Premise** pued
 <p>11.x</p>
 <p>10.x</p>
 </td>
-<td>V7.0 19.1.4 mínimo</td>
+<td>Versión 7.0 19.1.4 como mínimo</td>
 </tr>
 </tbody>
 </table>
 
-Además, **Híbrido** y **On-Premise** también pueden conectar Campaign con los siguientes sistemas de base de datos externos. Estos sistemas son **no compatible** con Campaign **Managed Services** entornos (alojados).
+Los entornos **Híbrido** y **On-Premise** pueden conectar a Campaign con los siguientes sistemas de bases de datos externos: Estos sistemas no **son compatibles** con los entornos (hospedados) de **Managed Services** de Campaign.
 
 <table>
 <tbody>
