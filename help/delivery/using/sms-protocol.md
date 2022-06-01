@@ -4,8 +4,8 @@ title: Configuración y protocolo del conector SMS
 description: Obtenga más información sobre el conector de SMS y cómo configurarlo
 feature: SMS
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: ht
+source-git-commit: 2c145829517a6961d502cc3e7b904547f8c71602
+workflow-type: tm+mt
 source-wordcount: '8460'
 ht-degree: 100%
 
@@ -410,7 +410,7 @@ El conector SMPP extendido de Adobe Campaign Classic puede controlar el número 
 
 Para Adobe Campaign Classic, puede haber un número diferente de conexiones de receptor y transmisor:
 
-* **Conexiones del transmisor = Número de conexiones secundarias MTA * número de procesos secundarios MTA * número de MTA (si se establece la respuesta automática) + Número de conexiones secundarias MTA**
+* **</br>Conexiones del transmisor = Número de conexiones secundarias MTA * número de procesos secundarios MTA * número de MTA (si se establece la respuesta automática) + Número de conexiones secundarias MTA**
 
 Como se ha sugerido anteriormente, el proceso SMS de Adobe Campaign Classic abre más conexiones de transmisores si la respuesta automática está activada. Estas conexiones adicionales se utilizan para enviar las respuestas automáticas.
 
@@ -857,7 +857,7 @@ Verifique que `BIND_* PDUs` se envíen correctamente. Lo más importante que hay
 
 Compruebe que no hay demasiadas `BIND_* PDU`. Si hay demasiados, podría indicar que la conexión es inestable. Consulte la sección [Problemas con conexiones inestables](sms-protocol.md#issues-unstable-connection) para obtener más información.
 
-#### ENQUIRE_LINK {#enquire-link-pdus}
+#### INQUIRE_LINK {#enquire-link-pdus}
 
 Compruebe que las `ENQUIRE_LINK PDU` se intercambian regularmente cuando la conexión está inactiva.
 
