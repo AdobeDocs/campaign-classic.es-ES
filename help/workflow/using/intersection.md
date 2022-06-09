@@ -4,14 +4,20 @@ title: Intersección
 description: Intersección
 feature: Workflows, Targeting Activity
 exl-id: f426bf02-9899-49eb-b699-728d51b57c64
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
-source-wordcount: '398'
-ht-degree: 100%
+source-git-commit: eb7a8cd2c9ff476a830dcc6e8e7c29ccd72c24f0
+workflow-type: tm+mt
+source-wordcount: '451'
+ht-degree: 96%
 
 ---
 
 # Intersección{#intersection}
+
+>[!CONTEXTUALHELP]
+>id="ac_workflow_intersection"
+>title="Intersección Actividad de "
+>abstract="Una actividad de tipo Intersection crea un objetivo a partir de la intersección de los objetivos recibidos. Una intersección permite extraer solamente la población común a todos los resultados de actividad entrante. El objetivo se crea con todos los resultados recibidos: por lo tanto todas las actividades anteriores deben finalizar antes de ejecutar la intersección."
+
 
 ![](../../assets/common.svg)
 
