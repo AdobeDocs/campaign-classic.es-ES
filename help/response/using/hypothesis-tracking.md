@@ -6,16 +6,16 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d36e1881726af6238c4e0caecb7b299b594691f2
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # Seguimiento de hipótesis{#hypothesis-tracking}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 El resultado de los cálculos de hipótesis está disponible en varios niveles de la plataforma Adobe Campaign: los indicadores calculados por hipótesis y las reacciones de las poblaciones objetivo se pueden ver a través de la hipótesis real, así como en los informes de hipótesis disponibles a través de campañas y envíos.
 
@@ -49,7 +49,7 @@ Estos indicadores proporcionan la siguiente información:
 * **Total margin of control group**: margen total de cada grupo de control.
 * **Average margin per contact**: media del margen total por contacto.
 * **Average margin of control groups**: media de los márgenes totales por grupo de control.
-* **Additional revenue**: (media de ingresos de los contactos-Media de ingresos por grupo de control)*Número de contactos
+* **Ingresos adicionales**: (Media de ingresos de los contactos-Media de ingresos por grupo de control)&#42;Número de contactos
 * **Additional margin**: (Media de ingresos de los contactos-Media de ingresos por grupo de control)/Número de contactos
 * **Average cost per contact**: coste calculado de la entrega/número de contactos.
 * **ROI**: coste calculado de la entrega/margen total por contacto
