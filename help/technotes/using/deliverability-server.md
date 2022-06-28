@@ -4,7 +4,7 @@ title: Migrar al nuevo servidor de entrega
 description: Obtenga información sobre cómo implementar el servidor de entrega de Campaign
 hide: true
 hidefromtoc: true
-source-git-commit: a2590a6d8df1e73d77bbdef7b8cf3b2d6efe207f
+source-git-commit: cd2fa2450f6e8389e9c47c412da8943a5c8bb7f3
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 32%
@@ -30,7 +30,7 @@ Este nuevo servidor garantiza una alta disponibilidad (99.9) &#x200B; y proporci
 
 ## ¿Se ha visto afectado?{#acc-deliverability-impacts}
 
-Si está utilizando el servidor de capacidad de envío de Adobe Campaign existente y el entorno se ha implementado en una versión inferior a Campaign 21.1.1, se verá afectado. Debe actualizar a Campaign 21.1 (o más).
+Si utiliza el antiguo servidor de capacidad de envío de Adobe Campaign y el entorno se ha implementado en una versión inferior a Campaign 21.1.1, se verá afectado. Debe actualizar a Campaign 21.1 (o más).
 
 Descubra cómo comprobar su versión [en esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
