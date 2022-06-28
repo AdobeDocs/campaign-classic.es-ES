@@ -4,10 +4,10 @@ title: Migrar al nuevo servidor de entrega
 description: Obtenga información sobre cómo implementar el servidor de entrega de Campaign
 hide: true
 hidefromtoc: true
-source-git-commit: cd2fa2450f6e8389e9c47c412da8943a5c8bb7f3
+source-git-commit: 65ab862ec568647dd06c1f7b7b83e5b921353cc7
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 32%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -73,7 +73,7 @@ Como parte de la nueva integración del servidor de capacidad de envío, Campaig
    >Debe guardar el archivo config.zip cuando aparezca el mensaje de descarga, ya que no podrá volver a descargarlo.
 
 1. Haga clic en **[!UICONTROL Next]**.
-1. Elija cualquier **[!UICONTROL Product profile]** existente o cree uno nuevo si es necesario. No se requiere permiso para este **[!UICONTROL Product profile]**. Para obtener más información, consulte [!DNL Analytics] **[!UICONTROL Product Profiles]**, consulte [este oage](https://helpx.adobe.com/es/enterprise/using/manage-developers.html).
+1. Elija cualquier **[!UICONTROL Product profile]** existente o cree uno nuevo si es necesario. No se requiere permiso para este **[!UICONTROL Product profile]**. Para obtener más información, consulte [!DNL Analytics] **[!UICONTROL Product Profiles]**, consulte [esta página](https://helpx.adobe.com/es/enterprise/using/manage-developers.html).
 
    A continuación, haga clic en **[!UICONTROL Save configured API]**.
 
