@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1520'
 ht-degree: 12%
 
 ---
@@ -175,33 +175,27 @@ En la tabla siguiente se enumeran las asignaciones para los tipos de datos gener
 <table> 
  <tbody> 
   <tr> 
+   <td> <strong>Adobe Campaign</strong><br /> </td> 
    <td> <strong>PosgreSQL</strong><br /> </td> 
    <td> <strong>Oracle</strong><br /> </td> 
    <td> <strong>MS SQL</strong><br /> </td> 
-   <td> <strong>Adobe Campaign</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> Cadena<br /> </td> 
    <td> VARCHAR(255)<br /> </td> 
    <td> VARCHAR2 (NVARCHAR2 si Unicode)<br /> </td> 
-   <td> VARCHAR (EL CARÁCTER VARCHAR ESTABLECE UNICODE si Unicode)<br /> </td> 
-   <td> VARCHAR<br /> </td> 
    <td> VARCHAR (NVARCHAR si Unicode)<br /> </td> 
   </tr> 
   <tr> 
    <td> Booleano<br /> </td> 
    <td> SMALLINT<br /> </td> 
    <td> NÚMERO(3)<br /> </td> 
-   <td> NUMÉRICA(3)<br /> </td> 
-   <td> SMALLINT<br /> </td> 
    <td> TINYINT<br /> </td> 
   </tr> 
   <tr> 
    <td> Byte<br /> </td> 
    <td> SMALLINT<br /> </td> 
    <td> NÚMERO(3)<br /> </td> 
-   <td> NUMÉRICA(3)<br /> </td> 
-   <td> SMALLINT<br /> </td> 
    <td> TINYINT<br /> </td> 
   </tr> 
   <tr> 
@@ -209,63 +203,47 @@ En la tabla siguiente se enumeran las asignaciones para los tipos de datos gener
    <td> SMALLINT<br /> </td> 
    <td> NÚMERO(5)<br /> </td> 
    <td> SMALLINT<br /> </td> 
-   <td> SMALLINT<br /> </td> 
-   <td> SMALLINT<br /> </td> 
   </tr> 
   <tr> 
    <td> Duplicada<br /> </td> 
    <td> PRECISIÓN DOBLE<br /> </td> 
    <td> FLOTE<br /> </td> 
    <td> FLOTE<br /> </td> 
-   <td> DOBLE<br /> </td> 
-   <td> FLOTE<br /> </td> 
   </tr> 
   <tr> 
    <td> Largo<br /> </td> 
    <td> ENTERO<br /> </td> 
    <td> NUMBER(10)<br /> </td> 
-   <td> ENTERO<br /> </td> 
-   <td> ENTERO<br /> </td> 
    <td> INT<br /> </td> 
   </tr> 
   <tr> 
    <td> Int64<br /> </td> 
    <td> BIGINT<br /> </td> 
    <td> NÚMERO(20)<br /> </td> 
-   <td> NUMÉRICA(20)<br /> </td> 
-   <td> BIGINT<br /> </td> 
    <td> BIGINT<br /> </td> 
   </tr> 
   <tr> 
    <td> Fecha<br /> </td> 
    <td> FECHA<br /> </td> 
-   <td> FECHA<br /> </td> 
-   <td> MARCA DE TIEMPO<br /> </td> 
    <td> FECHA<br /> </td> 
    <td> DATETIME<br /> </td> 
   </tr> 
   <tr> 
-   <td> Fecha<br /> </td> 
+   <td> Hora<br /> </td> 
    <td> FECHA<br /> </td> 
    <td> FLOTE<br /> </td> 
-   <td> FECHA<br /> </td> 
-   <td> FECHA<br /> </td> 
    <td> FLOTE<br /> </td> 
   </tr> 
   <tr> 
    <td> Datetime<br /> </td> 
    <td> TIMESTAMPZ<br /> </td> 
    <td> FECHA<br /> </td> 
-   <td> MARCA DE TIEMPO<br /> </td> 
-   <td> MARCA DE TIEMPO<br /> </td> 
    <td> MS SQL &lt; 2008: DATETIME<br /> MS SQL &gt;= 2012: DATETIMEOFFSET<br /> </td> 
   </tr> 
   <tr> 
    <td> Datetimenotz<br /> </td> 
    <td> TIMESTAMPZ<br /> </td> 
    <td> FECHA<br /> </td> 
-   <td> MARCA DE TIEMPO<br /> </td> 
-   <td> MARCA DE TIEMPO<br /> </td> 
    <td> MS SQL &lt; 2008: DATETIME<br /> MS SQL &gt;= 2012: DATETIME2<br /> </td> 
   </tr> 
   <tr> 
@@ -273,23 +251,17 @@ En la tabla siguiente se enumeran las asignaciones para los tipos de datos gener
    <td> PRECISIÓN DOBLE<br /> </td> 
    <td> FLOTE<br /> </td> 
    <td> FLOTE<br /> </td> 
-   <td> DOBLE<br /> </td> 
-   <td> FLOTE<br /> </td> 
   </tr> 
   <tr> 
    <td> Nota<br /> </td> 
    <td> TEXTO<br /> </td> 
    <td> CLOB (NCLOB si Unicode)<br /> </td> 
-   <td> CLOB (CLOB CHARACTER SET UNICODE if Unicode)<br /> </td> 
-   <td> CLOB(6M)<br /> </td> 
    <td> TEXT (NTEXT si Unicode)<br /> </td> 
   </tr> 
   <tr> 
    <td> Blob<br /> </td> 
    <td> BLOB<br /> </td> 
    <td> BLOB<br /> </td> 
-   <td> BLOB<br /> </td> 
-   <td> BLOB(4M)<br /> </td> 
    <td> IMAGEN<br /> </td> 
   </tr> 
  </tbody> 

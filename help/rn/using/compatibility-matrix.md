@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 5ce8e765866d84781b1000511e9aea4636ebd91d
-workflow-type: ht
-source-wordcount: '733'
-ht-degree: 100%
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
+workflow-type: tm+mt
+source-wordcount: '749'
+ht-degree: 98%
 
 ---
 
@@ -48,6 +48,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <tr>
 <td>Debian</td>
 <td>
+<p>11 (64 bits)</p>
 <p>10 (64 bits)</p>
 <p>9 (64 bits)</p>
 </td>
@@ -266,9 +267,13 @@ Los entornos **Híbrido** y **On-Premise** pueden conectar a Campaign con los si
 </tr>
 <tr><td>MySQL</td>
 <td>
+<p>8</p>
 <p>5,7</p>
 </td>
-<td>V7.0 mínimo</td>
+<td>
+<p>Versión 7.3 como mínimo</p>
+<p>V7.0 mínimo</p>
+</td>
 </tr>
 <tr>
 <td>Teradata</td>
@@ -336,8 +341,9 @@ Se **requieren** los siguientes sistemas operativos y exploradores para utilizar
 <tr>
 <td>Microsoft Windows</td>
 <td>
-<p>8</p>
+<p>11 (a partir de Campaign v7.3)</p>
 <p>10 (recomendado para instancias en japonés)</p>
+<p>8</p>
 </td>
 </tr>
 </tbody>
@@ -368,21 +374,21 @@ Puede utilizar Campaign para [enviar notificaciones push](../../delivery/using/a
 <tr>
 <td>Android</td>
 <td>
-<p>7.x, 8.x, 9.0</p>
-<p>con la versión 1.0.27 del SDK móvil.</p>
+<p>12 (a partir de Campaign v7.3), 9.0, 8.x, 7.x</p>
+<p>con la versión 1.1.1 del SDK móvil</p>
 </td>
 </tr>
 <tr>
 <td>iOS</td>
 <td>
-<p>iOS 9 - 14</p>
-<p>con la versión 1.0.26 del SDK móvil, compatible con las versiones de 32 y 64 bits.</p>
+<p>iOS 9 - 15</p>
+<p>con la versión 1.0.26 del SDK móvil, compatible con las versiones de 32 y 64 bits. iOS 15 es compatible a partir de la versión 7.3 de Campaign</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-## Navegadores{#Browsers}
+## Exploradores{#Browsers}
 
 Los siguientes exploradores son compatibles con Campaign for [Web Access](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
 

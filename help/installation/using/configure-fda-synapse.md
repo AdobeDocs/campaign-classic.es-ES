@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
-source-git-commit: 9265d389da53e51889c2b7a8cd330c1866a030d9
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 76%
+source-wordcount: '772'
+ht-degree: 73%
 
 ---
 
@@ -236,3 +236,9 @@ Para crear [!DNL Azure Synapse] cuenta externa siga los pasos a continuación:
 
 
 1. Haga clic en **[!UICONTROL Save]**.
+
+El conector admite las siguientes opciones:
+
+| Opción | Descripción |
+|---|---|
+| Autenticación | Tipo de autenticación admitida por el conector. Valor actual admitido: ActiveDirectoryMSI. </br>Para obtener más información, consulte [Documentación SQL](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (Ejemplo de cadenas de conexión n°8). |

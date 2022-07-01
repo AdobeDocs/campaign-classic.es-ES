@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 83%
+source-wordcount: '1798'
+ht-degree: 76%
 
 ---
 
@@ -95,6 +95,27 @@ La cuenta externa Teradata permite conectar la instancia de Campaign a la base d
    * **[!UICONTROL Options]**: Opciones que pasan por Teradata. Utilice el siguiente formato: &#39;parameter=value&#39;. Utilice una semicolumna como separador entre valores.
 
    * **[!UICONTROL Timezone]**: Zona horaria definida en Teradata. [Más información](#timezone)
+
+El conector admite las siguientes opciones:
+
+| Opción | Descripción |
+|---|---|
+| TD_MAX_SESSIONS | Especifica el número máximo de sesiones de inicio de sesión que puede adquirir el transportador paralelo de Teradata para un trabajo de operador. <br>[Para obtener más información, consulte esta página](https://documentation.sas.com/doc/en/pgmsascdc/9.4_3.5/ds2ref/p1naft0um1kn3vn1ubgkrjdf7c3a.html). |
+| TimeZoneName | Nombre de la zona horaria del servidor. |
+| Conjunto de caracteres | Se utiliza para configurar el conjunto de caracteres de Teradata. <br>[Para obtener más información, consulte esta página](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/Configuration-of-odbc.ini-in-UNIX/Linux-and-Apple-OS-X/Teradata-DSN-Options#rub1478609534082__table_N102D3_N102B6_N102B3_N10001). |
+| IANAAppCodePage | Página de código de aplicación ODBC. <br>[Para obtener más información, consulte esta página](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/ODBC-Driver-for-Teradata-Application-Development/International-Character-Set-Support/Application-Code-Page) |
+
+### Agregar cuentas externas ODBC adicionales {#add-external}
+
+>[!NOTE]
+>
+> Esta opción no está disponible para compilaciones anteriores a la versión 7.3.1.
+
+El controlador de Teradata proporciona su propia biblioteca ODBC, pero es posible que esta biblioteca no sea compatible con otras cuentas externas ODBC.
+
+Si desea configurar otra cuenta externa que también utilice ODBC, por ejemplo Snowflake, deberá agregar un conjunto de opciones ODBCLib a la ruta de la biblioteca ODBC predeterminada (`/usr/lib/x86_64-linux-gnu/libodbc.so` en Debian y `/usr/lib64/libodbc.so` en RHEL/CentOS).
+
+![](assets/ext_account_24.png)
 
 ### Banda de consultas
 

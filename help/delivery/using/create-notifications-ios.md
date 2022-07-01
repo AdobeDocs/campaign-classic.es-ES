@@ -4,10 +4,10 @@ title: Creación de una notificación push para dispositivos iOS
 description: Aprenda a crear notificaciones push para iOS
 feature: Push
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
-source-wordcount: '783'
-ht-degree: 100%
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
+workflow-type: tm+mt
+source-wordcount: '965'
+ht-degree: 58%
 
 ---
 
@@ -43,7 +43,7 @@ Para crear una notificación push para dispositivos iOS, siga los pasos a contin
 
    ![](assets/nmac_delivery_ios_3.png)
 
-1. Seleccione el tipo de notificación: **[!UICONTROL Alert]**, **[!UICONTROL Badge]**, **[!UICONTROL Alert and badge]** o **[!UICONTROL Silent Push]**.
+1. Elija su **[!UICONTROL Notification type]** entre **[!UICONTROL General notification (Alert, Sound, Badge)]** o **[!UICONTROL Silent notification]**.
 
    ![](assets/nmac_delivery_ios_4.png)
 
@@ -51,32 +51,67 @@ Para crear una notificación push para dispositivos iOS, siga los pasos a contin
    >
    >El modo **Push silenciosa** permite enviar una notificación “silenciosa” a una aplicación móvil. No se avisa al usuario de la llegada de la notificación. Esta se transfiere directamente a la aplicación.
 
-1. En el campo **[!UICONTROL Title]**, introduzca la etiqueta del título que desea que aparezca en la notificación. Solo aparece en la lista de notificaciones disponibles en el centro de notificaciones. Este campo permite definir el valor del parámetro **title** de la carga útil de notificación de iOS.
+1. En el **[!UICONTROL Title]** , introduzca la etiqueta del título que desea que aparezca en la lista de notificaciones disponibles en el centro de notificaciones.
 
-1. Si utiliza el conector HTTP/2, puede añadir un subtítulo (valor del parámetro **subtitle** de la carga útil de notificación de iOS). Consulte [esta sección](configuring-the-mobile-application.md).
+   Este campo permite definir el valor del parámetro **title** de la carga útil de notificación de iOS.
 
-1. A continuación, introduzca el **[!UICONTROL Message]** y el **[!UICONTROL Value of the badge]** en función del tipo de notificación elegido.
+1. Puede añadir un **[!UICONTROL Subtitle]**, valor del parámetro subtitle de la carga útil de notificación de iOS. Consulte [esta sección](configuring-the-mobile-application.md).
+
+1. Introduzca el contenido del mensaje en la sección **[!UICONTROL Message content]** del asistente. El uso de los campos de personalización se presenta en la sección [Acerca de la personalización](about-personalization.md).
 
    ![](assets/nmac_delivery_ios_5.png)
 
-   >[!NOTE]
-   >
-   >Las notificaciones de tipo **[!UICONTROL Badge]** y **[!UICONTROL Alert and badge]** permiten modificar el valor del distintivo (el número situado encima del logotipo de la aplicación móvil). Para actualizar el distintivo, sencillamente debe introducir 0 como valor. Si el campo está vacío, el valor de la insignia no cambia.
-
 1. Haga clic en el icono **[!UICONTROL Insert emoticon]** para insertar emoticonos en la notificación push. Para personalizar la lista de emoticonos, consulte [esta sección](customizing-emoticon-list.md)
 
-1. **[!UICONTROL Action button]** le permite definir una etiqueta para el botón de acción que aparece en las notificaciones de alerta (campo **action_loc_key** de la carga útil). Si la aplicación de iOS administra cadenas localizables (**Localizable.strings**), introduzca la clave correspondiente en este campo. Si la aplicación no administra texto localizable, introduzca la etiqueta que desea ver en el botón de acción. Para obtener más información sobre cadenas localizables, consulte la [documentación de Apple](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1).
-1. En el campo **[!UICONTROL Play a sound]**, seleccione el sonido que el terminal móvil debe reproducir cuando reciba la notificación.
+1. En el **[!UICONTROL Sound and Badge]** , puede editar las siguientes opciones:
 
+   * **[!UICONTROL Clean Badge]**: active estas opciones para actualizar el valor del distintivo.
+
+   * **[!UICONTROL Value]**: configure un número que se utilizará para mostrar directamente en el icono de la aplicación la cantidad de información nueva no leída.
+
+   * **[!UICONTROL Critical alert mode]**: habilite esta opción para añadir sonido a la notificación, incluso si el teléfono del usuario está activado o si el iPhone está silenciado.
+
+   * **[!UICONTROL Name]**: seleccione el sonido que el terminal móvil debe reproducir cuando reciba la notificación.
+
+   * **[!UICONTROL Volume]**: volumen de su sonido de 0 a 100.
    >[!NOTE]
    >
    >Los sonidos deben incluirse en la aplicación y definirse cuando se cree el servicio. Consulte [esta sección](configuring-the-mobile-application.md#configuring-external-account-ios).
 
-1. En el campo **[!UICONTROL Application variables]**, introduzca el valor de cada variable. Las variables de aplicación permiten definir el comportamiento de las notificaciones: por ejemplo, se puede configurar una pantalla específica de la aplicación que aparece cuando el usuario activa la notificación.
+   ![](assets/nmac_delivery_ios_6.png)
 
-   >[!NOTE]
-   >
-   >Las variables de aplicación se deben definir en el código de la aplicación móvil e introducirse durante la creación del servicio. Para obtener más información, consulte [esta sección](configuring-the-mobile-application.md).
+1. En el **[!UICONTROL Application variables]** , la pestaña **[!UICONTROL Application variables]** se añaden automáticamente. Permiten definir el comportamiento de las notificaciones, por ejemplo, puede configurar una pantalla específica de la aplicación para que se muestre cuando el usuario active la notificación.
+
+   Para obtener más información, consulte [esta sección](configuring-the-mobile-application.md).
+
+1. En el **[!UICONTROL Advanced]** , puede editar las siguientes opciones generales:
+
+   * **[!UICONTROL Mutable content]**: active esta opción para permitir que la aplicación móvil descargue contenido multimedia.
+
+   * **[!UICONTROL Thread-id]**: identificador utilizado para agrupar las notificaciones relacionadas.
+
+   * **[!UICONTROL Category]**: nombre de su ID de categoría que mostrará botones de acción. Estas notificaciones proporcionan al usuario una forma más rápida de realizar distintas tareas en respuesta a una notificación sin necesidad de abrir ni navegar por la aplicación.
+
+   ![](assets/nmac_delivery_ios_7.png)
+
+1. Para las notificaciones con distinción de tiempo, puede especificar las siguientes opciones:
+
+   * **[!UICONTROL Target content ID]**: identificador utilizado para identificar la ventana de aplicación que se reenvía cuando se abre la notificación.
+
+   * **[!UICONTROL Launch image]**: nombre del archivo de imagen de lanzamiento que se va a mostrar. Si el usuario decide iniciar la aplicación, se mostrará la imagen seleccionada en lugar de la pantalla de inicio de la aplicación.
+
+   * **[!UICONTROL Interruption level]**:
+
+      * **[!UICONTROL Active]**: De forma predeterminada, el sistema presenta la notificación inmediatamente, ilumina la pantalla y puede reproducir un sonido. Las notificaciones no rompen los modos de Enfoque.
+
+      * **[!UICONTROL Passive]**: El sistema agrega la notificación a la lista de notificaciones sin iluminar la pantalla ni reproducir un sonido. Las notificaciones no rompen los modos de Enfoque.
+
+      * **[!UICONTROL Time sensitive]**: El sistema presenta la notificación inmediatamente, enciende la pantalla, puede reproducir un sonido y atravesar los modos de Enfoque. Este nivel no requiere un permiso especial de Apple.
+
+      * **[!UICONTROL Critical]**: El sistema presenta la notificación inmediatamente, enciende la pantalla y evita el interruptor silencioso o los modos de enfoque. Tenga en cuenta que este nivel requiere un permiso especial de Apple.
+   * **[!UICONTROL Relevance score]**: establezca una puntuación de relevancia de 0 a 100. El sistema utiliza esto para ordenar las notificaciones en el resumen de notificaciones.
+
+   ![](assets/nmac_delivery_ios_8.png)
 
 1. Una vez configurada la notificación, haga clic en la pestaña **[!UICONTROL Preview]** para previsualizar la notificación.
 
@@ -88,14 +123,13 @@ Para crear una notificación push para dispositivos iOS, siga los pasos a contin
    >
    >La previsualización utiliza el aspecto y la presentación de iOS 10.
 
-Para enviar una prueba y realizar la entrega final, utilice el mismo proceso que en las entregas por correo electrónico.
+Para enviar una prueba y realizar la entrega final, utilice el mismo proceso que en las entregas por correo electrónico. [Más información](steps-validating-the-delivery.md)
 
 Después de enviar mensajes, puede monitorizar y realizar un seguimiento de las entregas. Para obtener más información, consulte estas secciones:
 
 * [Cuarentenas de notificaciones push](understanding-quarantine-management.md#push-notification-quarantines)
 * [Seguimiento de una entrega](about-delivery-monitoring.md)
 * [Comprensión de los errores de entrega](understanding-delivery-failures.md)
-
 
 ## Creación de una notificación enriquecida de iOS {#creating-ios-delivery}
 
@@ -118,7 +152,6 @@ Debe crear un nuevo envío y vincularlo a la aplicación móvil creada.
 1. En la ventana **[!UICONTROL Target type]**, seleccione **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]** y haga clic en **[!UICONTROL Next]**.
 
 1. En la lista desplegable **[!UICONTROL Service]**, seleccione el servicio creado anteriormente, luego la aplicación a la que desee dirigirse y haga clic en **[!UICONTROL Finish]**.
-Las **[!UICONTROL Application variables]** se añaden automáticamente en función de lo que se añadió durante los pasos de configuración.
 
    ![](assets/nmac_ios_6.png)
 
@@ -126,10 +159,22 @@ Las **[!UICONTROL Application variables]** se añaden automáticamente en funci�
 
    ![](assets/nmac_ios_7.png)
 
-1. Marque la casilla **[!UICONTROL Mutable content]** en la ventana de notificación de edición para permitir que la aplicación móvil descargue contenido de medios.
+1. En el **[!UICONTROL Application variables]** , la pestaña **[!UICONTROL Application variables]** se añaden automáticamente en función de lo que se añadió durante los pasos de configuración.
+
+   >[!NOTE]
+   >
+   >Las variables de aplicación se deben definir en el código de la aplicación móvil e introducirse durante la creación del servicio. Para obtener más información, consulte [esta sección](configuring-the-mobile-application.md).
+
+   ![](assets/nmac_ios_10.png)
+
+1. En el **[!UICONTROL Advanced]** , marque **[!UICONTROL Mutable content]** para permitir que la aplicación móvil descargue contenido multimedia.
 
 1. Haga clic en **[!UICONTROL Save]** y realice la entrega.
 
 La imagen y la página web deben aparecer en la notificación push cuando se reciban en los dispositivos móviles iOS de los suscriptores.
 
 ![](assets/nmac_ios_8.png)
+
+
+
+

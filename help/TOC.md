@@ -6,9 +6,9 @@ title: Guía de Campaign Classic v7
 user-guide-description: Con Adobe Campaign, puede utilizar datos de clientes enriquecidos para crear, coordinar y ofrecer campañas dinámicas que los clientes realmente deseen mediante correo electrónico, canales móviles, sin conexión y mucho más.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: a2590a6d8df1e73d77bbdef7b8cf3b2d6efe207f
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '2576'
+source-wordcount: '2585'
 ht-degree: 99%
 
 ---
@@ -677,6 +677,8 @@ ht-degree: 99%
             + [Configuración de Sybase IQ](installation/using/configure-fda-sybase.md)
             + [Configuración de Teradata](installation/using/configure-fda-teradata.md)
             + [Configuración de SAP HANA](installation/using/configure-fda-sap-hana.md)
+            + [Configuración de Microsoft SQL Server](installation/using/configure-fda-sql.md)
+            + [Configurar PostgreSQL](installation/using/configure-fda-postgresql.md)
          + [Derechos de acceso remoto](installation/using/remote-database-access-rights.md)
          + [Conexión a la base de datos](installation/using/connecting-to-database.md)
          + [Creación del esquema de datos](installation/using/creating-data-schema.md)
@@ -688,6 +690,7 @@ ht-degree: 99%
       + [Creación de nuevas instancias](installation/using/creating-new-instances.md)
       + [Lista de opciones de Campaign](installation/using/configuring-campaign-options.md)
       + [Desinstalación de Campaign](installation/using/uninstalling-campaign.md)
+      + [Instalar nuevas fuentes](installation/using/install-fonts.md)
 + Guía de monitorización {#monitoring-campaign-classic}
    + Introducción {#introduction}
       + [Prefacio](production/using/foreword.md)

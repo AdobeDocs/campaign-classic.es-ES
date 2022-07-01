@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: ebaad59f-0607-4090-92d0-e457fbf9a348
-source-git-commit: 5d2ec0836fe5f106e0c56e5abbe7bab9332d7e18
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '779'
 ht-degree: 9%
 
 ---
@@ -193,11 +193,11 @@ Debe crear un [!DNL Google BigQuery] cuenta externa para conectar la instancia d
 
 El conector admite las siguientes opciones:
 
-| Opción | Valor | Descripción |
-|:-:|:-:|:-:|
-| ProxyType | string | Tipo de proxy utilizado para conectarse a BigQuery mediante conectores ODBC y SDK. </br>Actualmente se admiten HTTP (predeterminado), http_no_tunel, socks4 y socks5. |
-| ProxyHost | string | Nombre de host o dirección IP desde donde se puede acceder al proxy. |
-| ProxyPort | number | Número de puerto en el que se ejecuta el proxy, por ejemplo, 8080 |
-| ProxyUid | string | Nombre de usuario utilizado para el proxy autenticado |
-| ProxyPwd | string | Contraseña de ProxyUid |
-| bqpath | string | Tenga en cuenta que esto solo es aplicable a la herramienta de carga masiva (Cloud SDK). </br> Para evitar usar la variable PATH o si el directorio google-cloud-sdk tiene que moverse a otra ubicación, puede especificar con esta opción la ruta exacta al directorio de bin del sdk en la nube en el servidor. |
+| Opción | Descripción |
+|:-:|:-:|
+| ProxyType | Tipo de proxy utilizado para conectarse a BigQuery mediante conectores ODBC y SDK. </br>Actualmente se admiten HTTP (predeterminado), http_no_tunel, socks4 y socks5. |
+| ProxyHost | Nombre de host o dirección IP desde donde se puede acceder al proxy. |
+| ProxyPort | Número de puerto en el que se ejecuta el proxy, por ejemplo, 8080 |
+| ProxyUid | Nombre de usuario utilizado para el proxy autenticado |
+| ProxyPwd | Contraseña de ProxyUid |
+| bqpath | Tenga en cuenta que esto solo es aplicable a la herramienta de carga masiva (Cloud SDK). </br> Para evitar usar la variable PATH o si el directorio google-cloud-sdk tiene que moverse a otra ubicación, puede especificar con esta opción la ruta exacta al directorio de bin del sdk en la nube en el servidor. |

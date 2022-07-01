@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
-source-git-commit: 6cecc81135afd067712e51ec9c1ad3239170702e
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 47%
+source-wordcount: '512'
+ht-degree: 38%
 
 ---
 
@@ -123,3 +123,6 @@ El conector admite las siguientes opciones:
 | TimeZoneName | De forma predeterminada, vacío, lo que significa que se utiliza la zona horaria del sistema del servidor de aplicaciones de Campaign Classic. La opción se puede utilizar para forzar el parámetro de sesión TIMEZONE. <br>[Para obtener más información, consulte esta página](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
 | WeekStart | Parámetro de sesión WEEK_START. De forma predeterminada, se establece en 0. <br>[Para obtener más información, consulte esta página](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
 | UseCachedResult | Parámetro de sesión USE_CACHED_RESULTS. De forma predeterminada, se establece en TRUE. Esta opción se puede utilizar para deshabilitar los resultados en caché de Snowflake. <br>Para obtener más información, consulte [esta página](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
+| bulkThreads | Número de subprocesos que se utilizan para el cargador masivo de Snowflake, más subprocesos significan un mejor rendimiento para cargas masivas más grandes. De forma predeterminada, se establece en 1. El número puede ajustarse, dependiendo del recuento de subprocesos del equipo. |
+| chunkSize | Determina el tamaño del archivo del fragmento del cargador masivo. De forma predeterminada, se establece en 128 MB. Se puede modificar para obtener un rendimiento más óptimo, cuando se utiliza con subprocesos masivos. Los subprocesos más activos concurrentes significan un mejor rendimiento. <br>Para obtener más información, consulte [documentación del Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html). |
+| StageName | Nombre de la fase interna preaprovisionada. Se utilizará en la carga masiva en lugar de crear una nueva fase temporal. |
