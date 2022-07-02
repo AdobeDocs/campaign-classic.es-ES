@@ -4,9 +4,9 @@ title: Acciones sobre los informes
 description: Acciones sobre los informes
 feature: Reporting
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
-source-wordcount: '544'
+source-git-commit: 4ff86349d6b8966273585bf2a1ea0d785a7e87cb
+workflow-type: tm+mt
+source-wordcount: '543'
 ht-degree: 100%
 
 ---
@@ -86,7 +86,7 @@ Para obtener más información sobre el servicio **nlserver**, consulte [esta se
 
 Se puede imprimir el informe. Para ello, haga clic en el icono de impresora: esto abre el cuadro de diálogo correspondiente.
 
-Para obtener un mejor resultado, edite las opciones de impresión de Internet Explorer y seleccione **[!UICONTROL Print background colors and images]**.
+Para obtener un mejor resultado, edite las opciones de impresión de Explorer y seleccione **[!UICONTROL Print background colors and images]**.
 
 ![](assets/s_ncs_advuser_report_print_options.png)
 
