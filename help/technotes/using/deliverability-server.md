@@ -5,10 +5,10 @@ description: Obtenga información sobre cómo implementar el servidor de entrega
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: a007e4d5dd73f01657f1642be6f0b1a92f39e9bf
+source-git-commit: 2e4d699aef0bea4f12d1bd2d715493c4a94a74dd
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 30%
+source-wordcount: '927'
+ht-degree: 29%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 30%
 
 A partir de la versión 21.1 de Campaign Classic v7, Adobe Campaign propone un nuevo servidor de capacidad de envío que ofrece alta disponibilidad y aborda los problemas de cumplimiento de normas de seguridad. Ahora, el Campaign Classic sincroniza las reglas de envío, los broadlogs y las direcciones de supresión desde y hacia el nuevo servidor de capacidad de envío.
 
-Como cliente Campaign Classic, debe implementar el nuevo servidor de entrega
+Como cliente Campaign Classic, debe implementar el nuevo servidor de envío.
 
 >[!NOTE]
 >
@@ -27,7 +27,6 @@ Como cliente Campaign Classic, debe implementar el nuevo servidor de entrega
 El Adobe está retirando los centros de datos más antiguos por motivos de seguridad. Los clientes de Adobe Campaign Classic deben migrar al nuevo servicio de entrega, alojado en el servicio web de Amazon (AWS).
 
 Este nuevo servidor garantiza una alta disponibilidad (99.9) &#x200B; y proporciona extremos seguros y autenticados para permitir que los servidores de campaña recuperen los datos necesarios: en lugar de conectarse a la base de datos para cada solicitud, el nuevo servidor de capacidad de envío almacena en caché los datos para atender las solicitudes siempre que sea posible. Este mecanismo mejora el tiempo de respuesta. &#x200B;
-
 
 ## ¿Se ha visto afectado?{#acc-deliverability-impacts}
 
@@ -43,6 +42,9 @@ Como **cliente local/híbrido**, debe actualizar a una de las versiones más rec
 
 ## Pasos de implementación (clientes híbridos y locales) {#implementation-steps}
 
+Como parte de la nueva integración del servidor de capacidad de envío, Campaign debe comunicarse con Adobe Shared Services mediante una autenticación basada en Identity Management Service (IMS). La forma preferida es utilizar el Token de puerta de enlace basado en Adobe Developer (también denominado Token de cuenta técnica o JWT de Adobe IO).
+
+
 >[!WARNING]
 >
 >Estos pasos solo deben realizarlos implementaciones híbridas y locales.
@@ -51,11 +53,18 @@ Como **cliente local/híbrido**, debe actualizar a una de las versiones más rec
 
 ### Requisitos previos{#prerequisites}
 
-Como parte de la nueva integración del servidor de capacidad de envío, Campaign debe comunicarse con Adobe Shared Services mediante una autenticación basada en Identity Management Service (IMS). La forma preferida es usar el Token de puerta de enlace basado en Adobe Developer (también llamado Token de cuenta técnica o Adobe IO JWT).
+Antes de iniciar la implementación, compruebe la configuración de la instancia.
+
+1. Abra la consola del cliente de Campaign e inicie sesión en Adobe Campaign as a Administrator.
+1. Vaya a **Administración > Plataforma > Opciones**.
+1. Marque la `DmRendering_cuid` se rellena.
+
+   * Si se completa la opción, puede iniciar la implementación.
+   * Si no se rellena ningún valor, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para obtener su CUID.
+
+      Esta opción debe rellenarse en todas las instancias de Campaign (MKT, MID, RT, EXEC) con el mismo valor.
 
 ### Paso 1: Crear/actualizar el proyecto de Adobe Developer {#adobe-io-project}
-
-
 
 1. Acceso [Consola de Adobe Developer](https://developer.adobe.com/console/home) e inicie sesión con el acceso de desarrollador de su organización.
 
@@ -126,15 +135,7 @@ Para ello:
 
 1. Debe detener y luego reiniciar el servidor para que se tenga en cuenta la modificación. También puede ejecutar un `config -reload` comando.
 
-### Paso 3: Compruebe la configuración
-
-Una vez que haya terminado la configuración, puede comprobar la configuración de la instancia. Siga estos pasos:
-
-1. Abra la consola del cliente e inicie sesión en Adobe Campaign como administrador.
-1. Vaya a **Administración > Plataforma > Opciones**.
-1. Marque la `DmRendering_cuid` se rellena. Debe rellenarse en todas las instancias de Campaign (MKT, MID, RT, EXEC). Si no se rellena ningún valor, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para obtener su CUID.
-
-### Paso 4: Habilitar el nuevo servidor de entrega
+### Paso 3: Habilitar el nuevo servidor de entrega
 
 Ahora puede habilitar el nuevo servidor de capacidad de envío. Para realizar esto:
 
@@ -142,7 +143,7 @@ Ahora puede habilitar el nuevo servidor de capacidad de envío. Para realizar es
 1. Vaya a **Administración > Plataforma > Opciones**.
 1. Acceda a la `NewDeliverabilityServer_FeatureFlag` y establezca el valor en `1`. Esta configuración debe realizarse en todas las instancias de Campaign (MKT, MID, RT, EXEC).
 
-### Paso 5: Validar la configuración
+### Paso 4: Validar la configuración
 
 Para comprobar que la integración se ha realizado correctamente, siga los pasos a continuación:
 
