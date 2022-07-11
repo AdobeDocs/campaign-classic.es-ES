@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: additional-configurations
 hidefromtoc: true
 exl-id: 47f50bf5-4d5b-4c07-af71-de4390177cf5
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: 6740b5eed33612bd7a3b217a8f53b07518f879fb
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 1%
@@ -64,7 +64,7 @@ Adobe Campaign administra este proceso con una coincidencia entre un tipo de err
 >
 >Para obtener más información sobre los tipos y motivos de errores de entrega, consulte esta [sección](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
-## Instancia de entrega
+## Instancia de entrega {#deliveratbility-env}
 
 Una actualización diaria de las reglas MX y las reglas de devoluciones se administra mediante un flujo de trabajo específico en la instancia de cliente que está conectada al propietario de la instancia de entrega de estas reglas.
 

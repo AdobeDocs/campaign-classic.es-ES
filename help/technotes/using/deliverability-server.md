@@ -5,10 +5,10 @@ description: Obtenga información sobre cómo implementar el servidor de entrega
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 2c70b5a4434b9fb22490eb3c1705f4e5c803643e
+source-git-commit: 6740b5eed33612bd7a3b217a8f53b07518f879fb
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 29%
+source-wordcount: '1067'
+ht-degree: 24%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 29%
 
 A partir de la versión 21.1 de Campaign Classic v7, Adobe Campaign propone un nuevo servidor de capacidad de envío que ofrece alta disponibilidad y aborda los problemas de cumplimiento de normas de seguridad. Ahora, el Campaign Classic sincroniza las reglas de envío, los broadlogs y las direcciones de supresión desde y hacia el nuevo servidor de capacidad de envío.
 
-Como cliente Campaign Classic, debe implementar el nuevo servidor de envío.
+Como cliente Campaign Classic, debe implementar el nuevo servidor de entrega **antes del 31 de agosto de 2022**.
 
 >[!NOTE]
 >
->En caso de que tenga preguntas acerca de estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Para cualquier pregunta sobre estos cambios, consulte la [Preguntas frecuentes](#faq)o póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ## ¿Qué ha cambiado?{#acc-deliverability-changes}
 
@@ -30,7 +30,7 @@ Este nuevo servidor garantiza una alta disponibilidad (99.9) &#x200B; y proporci
 
 ## ¿Se ha visto afectado?{#acc-deliverability-impacts}
 
-Si utiliza el antiguo servidor de capacidad de envío de Adobe Campaign y el entorno se ha implementado en una versión inferior a Campaign 21.1.1, se verá afectado. Debe actualizar a Campaign 21.1 (o más).
+Si el entorno se ha implementado en una compilación inferior a [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2), se verá afectado. Debe actualizar a Campaign v7.2.1 (o más).
 
 Descubra cómo comprobar su versión [en esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
@@ -150,5 +150,22 @@ Para comprobar que la integración se ha realizado correctamente, siga los pasos
 1. Vaya a **Administración > Producción > Flujos de trabajo técnicos**.
 1. Reinicie el **Actualización de la capacidad de entrega** Flujo de trabajo (deliverabilityUpdate). Esto debe realizarse en todas las instancias de Campaign (MKT, MID, RT, EXEC).
 1. Registros de comprobación: el flujo de trabajo se debe ejecutar sin errores.
+
+
+## Preguntas frecuentes {#faq}
+
+### ¿Qué sucede si no actualizo mi entorno?
+
+Las instancias de Campaign que no se actualicen antes del 31 de agosto ya no podrán conectarse con el servidor de entrega de Campaign. Como consecuencia, la variable **Actualización de la capacidad de entrega** El flujo de trabajo (deliverabilityUpdate) fallará. Este flujo de trabajo gestiona la actualización diaria de las reglas MX y las reglas de entrada.
+
+Si no actualiza su entorno, la configuración de correo electrónico dejará de sincronizarse (reglas de administración MX, reglas de correo electrónico entrante, reglas de administración de dominio y reglas de calificación de rechazos). Esto podría afectar a lo largo del tiempo a la capacidad de envío. Si se realiza un cambio significativo en estas reglas, estos deberán aplicarse manualmente a partir de este punto.
+
+Para instancias de MKT, solo [Lista global de supresión](../../campaign-opt/using/filtering-rules.md#default-deliverability-exclusion-rules) se ve afectado.
+
+### No puedo actualizar ahora. ¿Cuál es la guía?
+
+Si no puede actualizar su instancia antes del 31 de agosto, debe deshabilitar temporalmente la variable **Actualización de la capacidad de entrega** (deliverabilityUpdate) del flujo de trabajo hasta que se complete la actualización para que no intente sincronizarse con el antiguo servidor de entrega.
+
+
 
 Para obtener más información, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
