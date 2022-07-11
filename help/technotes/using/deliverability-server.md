@@ -5,9 +5,9 @@ description: Obtenga información sobre cómo implementar el servidor de entrega
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 2e4d699aef0bea4f12d1bd2d715493c4a94a74dd
+source-git-commit: 2c70b5a4434b9fb22490eb3c1705f4e5c803643e
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '909'
 ht-degree: 29%
 
 ---
@@ -40,7 +40,7 @@ Como **cliente alojado**, Adobe trabajará con usted para actualizar las instanc
 
 Como **cliente local/híbrido**, debe actualizar a una de las versiones más recientes para beneficiarse del nuevo servidor de envío. Una vez que se actualicen todas las instancias, podrá [implementar la nueva integración](#implementation-steps) para almacenar en Adobe el servidor de capacidad de envío y garantizar una transición sin problemas.
 
-## Pasos de implementación (clientes híbridos y locales) {#implementation-steps}
+## Pasos de implementación {#implementation-steps}
 
 Como parte de la nueva integración del servidor de capacidad de envío, Campaign debe comunicarse con Adobe Shared Services mediante una autenticación basada en Identity Management Service (IMS). La forma preferida es utilizar el Token de puerta de enlace basado en Adobe Developer (también denominado Token de cuenta técnica o JWT de Adobe IO).
 
@@ -48,8 +48,6 @@ Como parte de la nueva integración del servidor de capacidad de envío, Campaig
 >[!WARNING]
 >
 >Estos pasos solo deben realizarlos implementaciones híbridas y locales.
->
->Para implementaciones alojadas, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ### Requisitos previos{#prerequisites}
 
