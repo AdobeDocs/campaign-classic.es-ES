@@ -4,10 +4,11 @@ title: Migrar al nuevo servidor de entrega
 description: Obtenga información sobre cómo implementar el servidor de entrega de Campaign
 hide: true
 hidefromtoc: true
-source-git-commit: 65ab862ec568647dd06c1f7b7b83e5b921353cc7
+exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
+source-git-commit: a007e4d5dd73f01657f1642be6f0b1a92f39e9bf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '923'
+ht-degree: 30%
 
 ---
 
@@ -19,7 +20,7 @@ Como cliente Campaign Classic, debe implementar el nuevo servidor de entrega
 
 >[!NOTE]
 >
->Para cualquier pregunta sobre estos cambios, lea la [Preguntas frecuentes](#faq-aa). Para obtener más información, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>En caso de que tenga preguntas acerca de estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ## ¿Qué ha cambiado?{#acc-deliverability-changes}
 
@@ -36,14 +37,13 @@ Descubra cómo comprobar su versión [en esta sección](../../platform/using/lau
 
 ## ¿Cómo realizar la actualización?{#acc-deliverability-update}
 
-Como cliente alojado, el Adobe trabajará con usted para actualizar sus instancias a la versión más reciente.
+Como **cliente alojado**, Adobe trabajará con usted para actualizar las instancias a la versión más reciente y crear el proyecto en la consola de Adobe Developer.
 
-Como cliente local/híbrido, debe actualizar a una de las versiones más recientes para beneficiarse del nuevo servidor de capacidad de envío .
-Una vez que se actualicen todas las instancias, podrá [implementar la nueva integración](#implementation-steps) para almacenar en Adobe el servidor de capacidad de envío y garantizar una transición sin problemas.
+Como **cliente local/híbrido**, debe actualizar a una de las versiones más recientes para beneficiarse del nuevo servidor de envío. Una vez que se actualicen todas las instancias, podrá [implementar la nueva integración](#implementation-steps) para almacenar en Adobe el servidor de capacidad de envío y garantizar una transición sin problemas.
 
 ## Pasos de implementación (clientes híbridos y locales) {#implementation-steps}
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Estos pasos solo deben realizarlos implementaciones híbridas y locales.
 >
@@ -55,29 +55,45 @@ Como parte de la nueva integración del servidor de capacidad de envío, Campaig
 
 ### Paso 1: Crear/actualizar el proyecto de Adobe Developer {#adobe-io-project}
 
+
+
 1. Acceso [Consola de Adobe Developer](https://developer.adobe.com/console/home) e inicie sesión con el acceso de desarrollador de su organización.
 
    >[!NOTE]
    >
    > Asegúrese de haber iniciado sesión en el portal correcto de la organización.
 
-1. Seleccione **[!UICONTROL + Add to Project]** y elija **[!UICONTROL API]**.
-1. En la ventana **[!UICONTROL Add an API]** seleccione **[!UICONTROL Adobe Campaign]**.
-1. Elija **[!UICONTROL Service Account (JWT)]** como el tipo de autenticación.
-1. Si el ID del cliente está vacío, seleccione **[!UICONTROL Generate a key pair]** para crear un par de claves pública y privada.
+1. Seleccione **[!UICONTROL Create new project]**.
+   ![](assets/New-Project.png)
 
-   Las claves se descargan automáticamente con una fecha de caducidad predeterminada de 365 días. Una vez caducado, deberá crear un nuevo par de claves y actualizar la integración en el archivo de configuración. Con la Opción 2, puede elegir crear y cargar manualmente su **[!UICONTROL Public key]** con una fecha de caducidad más larga.
 
    >[!CAUTION]
    >
-   >Debe guardar el archivo config.zip cuando aparezca el mensaje de descarga, ya que no podrá volver a descargarlo.
+   >Si ya está utilizando la funcionalidad de autenticación JWT de IO de Adobe para otra integración, como el conector de Analytics o los Déclencheur de Adobe, debe actualizar el proyecto añadiendo **API de Campaign** a ese proyecto.
+1. Elija **[!UICONTROL Add API]**.
+   ![](assets/Add-API.png)
+1. En la ventana **[!UICONTROL Add an API]** seleccione **[!UICONTROL Adobe Campaign]**.
+   ![](assets/AC-API.png)
+<!--1. Choose **[!UICONTROL Service Account (JWT)]** as the authentication type.-->
+1. Si el ID del cliente está vacío, seleccione **[!UICONTROL Generate a key pair]** para crear un par de claves pública y privada.
+   ![](assets/Generate-a-key-pair.png)
+
+   Las claves se descargan automáticamente con una fecha de caducidad predeterminada de 365 días. Una vez caducado, deberá crear un nuevo par de claves y actualizar la integración en el archivo de configuración. Con la Opción 2, puede elegir crear y cargar manualmente su **[!UICONTROL Public key]** con una fecha de caducidad más larga.
+   ![](assets/New-key-pair.png)
+
+   >[!CAUTION]
+   >
+   >Debe guardar la variable `config.zip` cuando aparezca el mensaje de descarga, ya que no podrá descargarlo de nuevo.
 
 1. Haga clic en **[!UICONTROL Next]**.
-1. Elija cualquier **[!UICONTROL Product profile]** existente o cree uno nuevo si es necesario. No se requiere permiso para este **[!UICONTROL Product profile]**. Para obtener más información, consulte [!DNL Analytics] **[!UICONTROL Product Profiles]**, consulte [esta página](https://helpx.adobe.com/es/enterprise/using/manage-developers.html).
+1. Elija cualquier **[!UICONTROL Product profile]** existente o cree uno nuevo si es necesario. No se requiere permiso para este **[!UICONTROL Product profile]**. Para obtener más información, consulte **[!UICONTROL Product Profiles]**, consulte [esta página](https://helpx.adobe.com/es/enterprise/using/manage-developers.html).
+   ![](assets/Product-Profile-API.png)
 
    A continuación, haga clic en **[!UICONTROL Save configured API]**.
 
-1. En el proyecto, seleccione **[!UICONTROL Adobe Campaign]** y copie la siguiente información en **[!UICONTROL Service Account (JWT)]**:
+1. En el proyecto, seleccione **[!UICONTROL Adobe Campaign]** y copie la siguiente información en **[!UICONTROL Service Account (JWT)]**
+
+   ![](assets/Config-API.png)
 
    * **[!UICONTROL Client ID]**
    * **[!UICONTROL Client Secret]**
@@ -116,7 +132,7 @@ Una vez que haya terminado la configuración, puede comprobar la configuración 
 
 1. Abra la consola del cliente e inicie sesión en Adobe Campaign como administrador.
 1. Vaya a **Administración > Plataforma > Opciones**.
-1. Marque la `DmRendering_cuid` se rellena. Debe rellenarse en todas las instancias de Campaign (MKT, MID, RT, EXEC). Si no se rellena, debe rellenar el valor. Si no se rellena ningún valor, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para obtener su CUID.
+1. Marque la `DmRendering_cuid` se rellena. Debe rellenarse en todas las instancias de Campaign (MKT, MID, RT, EXEC). Si no se rellena ningún valor, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para obtener su CUID.
 
 ### Paso 4: Habilitar el nuevo servidor de entrega
 
@@ -125,7 +141,6 @@ Ahora puede habilitar el nuevo servidor de capacidad de envío. Para realizar es
 1. Abra la consola del cliente e inicie sesión en Adobe Campaign como administrador.
 1. Vaya a **Administración > Plataforma > Opciones**.
 1. Acceda a la `NewDeliverabilityServer_FeatureFlag` y establezca el valor en `1`. Esta configuración debe realizarse en todas las instancias de Campaign (MKT, MID, RT, EXEC).
-
 
 ### Paso 5: Validar la configuración
 
@@ -136,13 +151,5 @@ Para comprobar que la integración se ha realizado correctamente, siga los pasos
 1. Vaya a **Administración > Producción > Flujos de trabajo técnicos**.
 1. Reinicie el **Actualización de la capacidad de entrega** Flujo de trabajo (deliverabilityUpdate). Esto debe realizarse en todas las instancias de Campaign (MKT, MID, RT, EXEC).
 1. Registros de comprobación: el flujo de trabajo se debe ejecutar sin errores.
-
-## Preguntas frecuentes{#faq-aa}
-
-P: A:
-
-P: A:
-
-
 
 Para obtener más información, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
