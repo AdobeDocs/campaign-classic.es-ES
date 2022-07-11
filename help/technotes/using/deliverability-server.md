@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo implementar el servidor de entrega
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 6740b5eed33612bd7a3b217a8f53b07518f879fb
+source-git-commit: 4ad6f1e3a3d23383d17f947430c32fecefb3a8e1
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 24%
@@ -77,6 +77,7 @@ Antes de iniciar la implementación, compruebe la configuración de la instancia
    >[!CAUTION]
    >
    >Si ya está utilizando la funcionalidad de autenticación JWT de IO de Adobe para otra integración, como el conector de Analytics o los Déclencheur de Adobe, debe actualizar el proyecto añadiendo **API de Campaign** a ese proyecto.
+
 1. Elija **[!UICONTROL Add API]**.
    ![](assets/Add-API.png)
 1. En la ventana **[!UICONTROL Add an API]** seleccione **[!UICONTROL Adobe Campaign]**.
