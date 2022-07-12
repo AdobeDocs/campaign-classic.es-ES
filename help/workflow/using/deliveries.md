@@ -3,8 +3,8 @@ product: campaign
 title: Entregas
 description: Descubra más información sobre los flujos de trabajo Entregas
 feature: Workflows
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 25e8acdc449c7002e467db17e7c70e3dc017dded
+workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Los flujos de trabajo detallados a continuación se instalan con el módulo **En
    <td> Este flujo de trabajo estandariza los valores de enumeración. Se activa cada día a la 3 de la mañana de forma predeterminada.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Update for deliverability</span> <br /> </td> 
+   <td> <span class="uicontrol">Refresh for deliverability</span> <br /> </td> 
    <td> <span class="uicontrol">deliverabilityUpdate</span> <br /> </td> 
    <td> Este flujo de trabajo le permite crear la lista de reglas de los atributos del correo rechazado, así como la lista de dominios y los MX de la plataforma. Este flujo de trabajo solo funciona si el puerto HTTPS está abierto. Estas listas no se actualizan a menos que se instale el módulo Deliverability.<br /> </td> 
   </tr> 
