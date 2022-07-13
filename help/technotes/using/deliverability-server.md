@@ -5,9 +5,9 @@ description: Obtenga información sobre cómo implementar el servidor de entrega
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: bec525c52cb30dfae9530265bc3fdc2395879539
+source-git-commit: dfa28fc10bcfddcf35e8ddfa0af1fba718400350
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1105'
 ht-degree: 23%
 
 ---
@@ -30,15 +30,13 @@ Este nuevo servidor garantiza una alta disponibilidad (99.9) &#x200B; y proporci
 
 ## ¿Se ha visto afectado?{#acc-deliverability-impacts}
 
-Si el entorno se ha implementado en una compilación inferior a [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2), se verá afectado. Debe actualizar a Campaign v7.2.1 (o más).
-
-Descubra cómo comprobar su versión [en esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+Todos los clientes deben actualizar a [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) e implemente su entorno para beneficiarse del nuevo servidor de capacidad de envío.
 
 ## ¿Cómo realizar la actualización?{#acc-deliverability-update}
 
 Como **cliente alojado**, Adobe trabajará con usted para actualizar las instancias a la versión más reciente y crear el proyecto en la consola de Adobe Developer.
 
-Como **cliente local/híbrido**, debe actualizar a una de las versiones más recientes para beneficiarse del nuevo servidor de envío. Una vez que se actualicen todas las instancias, podrá [implementar la nueva integración](#implementation-steps) para almacenar en Adobe el servidor de capacidad de envío y garantizar una transición sin problemas.
+Como **cliente local/híbrido**, debe actualizar a [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) para beneficiarse del nuevo servidor de capacidad de envío. Una vez actualizadas todas las instancias, debe [implementar la nueva integración](#implementation-steps) para almacenar en Adobe el servidor de capacidad de envío y garantizar una transición sin problemas.
 
 ## Pasos de implementación {#implementation-steps}
 
@@ -47,7 +45,7 @@ Como parte de la nueva integración del servidor de capacidad de envío, Campaig
 
 >[!WARNING]
 >
->Estos pasos solo deben realizarlos implementaciones híbridas y locales.
+>Estos pasos solo deben llevarse a cabo para implementaciones híbridas y locales.
 
 ### Requisitos previos{#prerequisites}
 
