@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
+source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 98%
+source-wordcount: '768'
+ht-degree: 96%
 
 ---
 
@@ -364,6 +364,24 @@ Se **requieren** los siguientes sistemas operativos y exploradores para utilizar
 </tbody>
 </table>
 
+### Tiempo de ejecución de Microsoft WebView2
+
+<table>
+<tbody>
+<tr>
+<td>
+<p>Tiempo de ejecución de Microsoft Edge WebView2
+</p>
+</td>
+<td>
+<p>Última versión</p>
+</td>
+<td>
+<p><a href="http://www.adobe.com/go/acc-ms-webview2-runtime-download">Descargar del sitio web de Microsoft Developer</a></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## SDK móvil{#MobileSDK}
 
