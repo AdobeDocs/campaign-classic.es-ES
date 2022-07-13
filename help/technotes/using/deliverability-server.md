@@ -5,16 +5,16 @@ description: Obtenga información sobre cómo implementar el servidor de entrega
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: dfa28fc10bcfddcf35e8ddfa0af1fba718400350
+source-git-commit: 5d6ff45605980e5fe21933c5d8fb6c48e02f1628
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1121'
 ht-degree: 23%
 
 ---
 
 # Servidor de entrega de Campaign {#acc-deliverability}
 
-Inicio [Versión 7.2.1](../../rn/using/latest-release.md#release-7-2-2), Adobe Campaign propone un nuevo servidor de capacidad de envío que ofrece alta disponibilidad y aborda los problemas de cumplimiento de la seguridad. Ahora, el Campaign Classic sincroniza las reglas de envío, los broadlogs y las direcciones de supresión desde y hacia el nuevo servidor de capacidad de envío.
+Inicio [Versión 7.2.1](../../rn/using/latest-release.md#release-7-2-2), Adobe Campaign se basa en un nuevo servidor de capacidad de envío que ofrece alta disponibilidad y aborda los problemas de cumplimiento de la seguridad. Ahora, el Campaign Classic sincroniza las reglas de envío, los broadlogs y las direcciones de supresión desde y hacia el nuevo servidor de capacidad de envío. El antiguo servidor de capacidad de envío se cancelará el 31 de agosto de 2022.
 
 Como cliente Campaign Classic, debe implementar el nuevo servidor de entrega **antes del 31 de agosto de 2022**.
 
@@ -30,13 +30,13 @@ Este nuevo servidor garantiza una alta disponibilidad (99.9) &#x200B; y proporci
 
 ## ¿Se ha visto afectado?{#acc-deliverability-impacts}
 
-Todos los clientes deben actualizar a [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) e implemente su entorno para beneficiarse del nuevo servidor de capacidad de envío.
+Todos los clientes se ven afectados y deben actualizar a [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) (o más) e implemente su entorno para beneficiarse del nuevo servidor de capacidad de envío.
 
 ## ¿Cómo realizar la actualización?{#acc-deliverability-update}
 
 Como **cliente alojado**, Adobe trabajará con usted para actualizar las instancias a la versión más reciente y crear el proyecto en la consola de Adobe Developer.
 
-Como **cliente local/híbrido**, debe actualizar a [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) para beneficiarse del nuevo servidor de capacidad de envío. Una vez actualizadas todas las instancias, debe [implementar la nueva integración](#implementation-steps) para almacenar en Adobe el servidor de capacidad de envío y garantizar una transición sin problemas.
+Como **cliente local/híbrido**, debe actualizar a [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) (o más) para beneficiarse del nuevo servidor de capacidad de envío. Una vez actualizadas todas las instancias, debe [implementar la nueva integración](#implementation-steps) para almacenar en Adobe el servidor de capacidad de envío y garantizar una transición sin problemas.
 
 ## Pasos de implementación {#implementation-steps}
 
