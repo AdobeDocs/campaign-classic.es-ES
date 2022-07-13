@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+source-git-commit: 0f63636e9cc22ac97e634a4f11dc585cb39b05c0
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 6%
@@ -36,7 +36,7 @@ Consulte los detalles a continuación para comprender qué es lo que se requiere
 
 ## Adobe Implementaciones alojadas {#hosted-customers}
 
-Anuncio a un cliente alojado, tiene dos opciones para instalar o actualizar sus consolas de cliente:
+Como cliente alojado, tiene dos opciones para instalar o actualizar sus consolas de cliente:
 
 1. Adobe puede implementarse directamente. Una vez actualizada la consola, se pedirá a los usuarios que descarguen la última versión de la consola del cliente en una ventana emergente.
 
