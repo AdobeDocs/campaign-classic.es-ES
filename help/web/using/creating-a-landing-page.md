@@ -5,9 +5,9 @@ description: Creación de una página de aterrizaje
 feature: Landing Pages
 exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
 source-git-commit: 4ff86349d6b8966273585bf2a1ea0d785a7e87cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Realice estos pasos para cada página insertada en la aplicación web.
 
 >[!CAUTION]
 >
->**El DCE ejecuta el código JavaScript para la página HTML cargada.** Errores de JavaScript en la plantilla HTML que pueden aparecer en la interfaz de Adobe Campaign. Estos errores no están relacionados con el editor. Para comprobar que no hay errores en los archivos importados, se recomienda probarlos en un explorador web antes de importar los archivos al DCE.
+>**El DCE ejecuta el código JavaScript para la página HTML cargada.** Errores de JavaScript en la plantilla HTML que pueden aparecer en la interfaz de Adobe Campaign. Estos errores no están relacionados con el editor. Para comprobar que no haya errores en los archivos importados, se recomienda probarlos en un explorador antes de importar los archivos al DCE.
 
 ## Paso 2: Configuración del contenido {#step-2---configuring-the-content}
 
