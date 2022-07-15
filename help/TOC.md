@@ -9,7 +9,7 @@ type: Documentation
 source-git-commit: 8221afc3b73e1ddce4143394a1d77eab3995d892
 workflow-type: tm+mt
 source-wordcount: '2585'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -677,7 +677,7 @@ ht-degree: 99%
             + [Configuración de Sybase IQ](installation/using/configure-fda-sybase.md)
             + [Configuración de Teradata](installation/using/configure-fda-teradata.md)
             + [Configuración de SAP HANA](installation/using/configure-fda-sap-hana.md)
-            + [Configuración de Microsoft SQL Server](installation/using/configure-fda-sql.md)
+            + [Configurar Microsoft SQL Server](installation/using/configure-fda-sql.md)
             + [Configurar PostgreSQL](installation/using/configure-fda-postgresql.md)
          + [Derechos de acceso remoto](installation/using/remote-database-access-rights.md)
          + [Conexión a la base de datos](installation/using/connecting-to-database.md)

@@ -8,8 +8,8 @@ level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1958'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ _1 de julio de 2022_
 
 **Actualizaciones de compatibilidad**
 
-* El SDK de Adobe Campaign ahora es compatible con Android 12 y iOS 15 para notificaciones push.
+* El SDK de Adobe Campaign ahora es compatible con Android 12 y iOS 15 para las notificaciones push.
 * Adobe Campaign ahora es compatible con MySQL 8.
 * Adobe Campaign ahora es compatible con Windows 11.
 * Adobe Campaign ahora es compatible con Debian 11.
@@ -57,20 +57,20 @@ Consulte la [Matriz de compatibilidades de Campaign](../../rn/using/compatibilit
 * Se han corregido varios problemas al utilizar una actividad de flujo de trabajo de enriquecimiento con datos externos. (NEO-38069)
 * El conector FDA de SAP Hana se ha actualizado para funcionar con la última versión de la base de datos SAP Hana (2.x).
 * El conector FDA del Teradata se ha actualizado para funcionar con la última versión del Teradata (17).
-* En la versión 20.2, la compatibilidad de la autenticación basada en tokens para los envíos de iOS se introdujo para los nuevos envíos y las plantillas de envío. En la versión 7.2, se añadió un parche a la categoría para aplicar el soporte de autenticación basado en tokens a un máximo de 10 000 envíos y plantillas de envío creados anteriormente. En la versión 7.3, se ha mejorado el parche y se ha eliminado el límite.
+* En la versión 20.2, la compatibilidad de la autenticación basada en tokens para las entregas de iOS se introdujo para las nuevas entregas y las plantillas de entrega. En la versión 7.2, se añadió un parche a la categoría para aplicar el soporte de autenticación basado en tokens a un máximo de 10 000 entregas y plantillas de entregas creadas anteriormente. En la versión 7.3, se ha mejorado el parche y se ha eliminado el límite.
 
 **Parches**
 
 * Se ha corregido un error de la versión anterior que impedía a los usuarios cambiar el tamaño de la página de inicio de sesión de IMS.
 * Se ha corregido un error que se producía al instalar el paquete del gestor de contenido en una instancia existente.
-* Se ha corregido un problema en la variable **Campañas** en el que se mostraba continuamente un mensaje &quot;operación en curso&quot;.
+* Se ha corregido un problema en el menú **Campañas** en el que se mostraba continuamente un mensaje &quot;operación en curso&quot;.
 * Con Adobe Analytics habilitado, se ha corregido un problema que eliminaba BID (ID de Broadlog) y CID (ID de campaña) de la URL al enviar un correo electrónico con una URL sin guardar la entrega.
-* Se ha corregido un problema que se producía al cargar una imagen en la carpeta de recursos públicos de una instancia con una configuración específica del Centro de mensajes. Aparecerá el siguiente mensaje de error: &quot;No se pueden cargar las imágenes en los servidores de seguimiento&quot;.
+* Se ha corregido un problema que se producía al cargar una imagen en la carpeta de recursos públicos de una instancia con una configuración específica del Centro de mensajes. Aparecerá el siguiente mensaje de error: “No se pueden cargar las imágenes en los servidores de seguimiento”.
 * Se ha corregido un problema que hacía que el sistema se bloqueara al regenerar la configuración en caso de archivos de configuración incorrectos.
-* Se ha corregido un problema que podría provocar que los indicadores de envío no se actualicen correctamente. (NEO-44827)
+* Se ha corregido un problema que podría provocar que los indicadores de entrega no se actualicen correctamente. (NEO-44827)
 * Se ha corregido un problema que podría provocar un error posterior a la actualización al utilizar consultas complejas. (NEO-43648)
-* Se ha corregido un problema que podía impedir que funcionara la vista previa de webApps. (NEO-43242)
-* Se ha corregido un problema que podría provocar que la preparación de la entrega falle al utilizar un archivo de asignación de destino externo en un flujo de trabajo con una actividad de carga de datos (archivo) . (NEO-43691)
+* Se ha corregido un problema que podía impedir que funcionara la previsualización de webApps. (NEO-43242)
+* Se ha corregido un problema que podría provocar que la preparación de la entrega falle al utilizar un archivo de asignación de destino externo en un flujo de trabajo con una actividad de carga de datos (archivo). (NEO-43691)
 * Se ha corregido un problema que podía provocar bloqueos y requerir un reinicio completo de la instancia. (NEO-44645)
 * Se ha corregido un problema que podía impedir que el mapa de calor del flujo de trabajo cargara ningún resultado. (NEO-43360)
 * Se ha corregido un problema que podría provocar problemas de conexión al utilizar el conector externo de FDA. (NEO-42722)
@@ -79,11 +79,11 @@ Consulte la [Matriz de compatibilidades de Campaign](../../rn/using/compatibilit
 * Se ha corregido un problema que podía bloquear la consola del cliente debido a un carácter no válido en un bloque personalizado. (NEO-45761)
 * Se ha corregido un problema que podría provocar problemas de conexión al crear una cuenta externa para Snowflake como base de datos externa. (NEO-45744)
 * Se ha corregido un problema que podría provocar la visualización de información de tabla protegida por un atributo visibleIf. (NEO-37865)
-* Se ha corregido un problema que podía mostrar el mensaje de error &quot;$ is not defined&quot; durante la fase de análisis de envío. (NEO-32940)
-* Se ha corregido un problema que provocaba que los envíos se asociaran con un eventType incorrecto. (NEO-45743)
+* Se ha corregido un problema que podía mostrar el mensaje de error &quot;$ is not defined&quot; durante la fase de análisis de entrega. (NEO-32940)
+* Se ha corregido un problema que provocaba que las entregas se asociaran con un eventType incorrecto. (NEO-45743)
 * Se ha corregido un problema que podría provocar bloqueos debido a volcados de núcleo intermitentes (NEO-30549)
 * Se ha corregido un problema que podía provocar bloqueos al utilizar código de HTML erróneo en una entrega. (NEO-40385)
-* Se ha corregido un problema que podía impedir que los usuarios no administradores accedieran al **Análisis** en las propiedades de entrega. (NEO-34025)
+* Se ha corregido un problema que podía impedir que los usuarios no administradores accedieran a la pestaña **Análisis** en las propiedades de entrega. (NEO-34025)
 
 ## ![](assets/do-not-localize/green_2.png) Versión 7.2.2, compilación 9349 {#release-7-2-2}
 
@@ -91,7 +91,7 @@ _1 de marzo de 2022_
 
 >[!NOTE]
 >
-> Esta compilación es compatible con la consola de cliente v7.2.1.
+> Esta compilación es compatible con la consola de cliente versión 7.2.1.
 
 **Parches**
 

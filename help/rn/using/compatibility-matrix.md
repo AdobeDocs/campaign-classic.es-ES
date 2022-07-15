@@ -9,7 +9,7 @@ exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -268,7 +268,7 @@ Los entornos **Híbrido** y **On-Premise** pueden conectar a Campaign con los si
 <tr><td>MySQL</td>
 <td>
 <p>8</p>
-<p>5,7</p>
+<p>5.7</p>
 </td>
 <td>
 <p>Versión 7.3 como mínimo</p>
@@ -341,7 +341,7 @@ Se **requieren** los siguientes sistemas operativos y exploradores para utilizar
 <tr>
 <td>Microsoft Windows</td>
 <td>
-<p>11 (a partir de Campaign v7.3)</p>
+<p>11 (a partir de la versión 7.3 de Campaign)</p>
 <p>10 (recomendado para instancias en japonés)</p>
 <p>8</p>
 </td>
@@ -392,7 +392,7 @@ Puede utilizar Campaign para [enviar notificaciones push](../../delivery/using/a
 <tr>
 <td>Android</td>
 <td>
-<p>12 (a partir de Campaign v7.3), 9.0, 8.x, 7.x</p>
+<p>12 (a partir de la versión 7.3 de Campaign), 9.0, 8.x, 7.x</p>
 <p>con la versión 1.1.1 del SDK móvil</p>
 </td>
 </tr>
