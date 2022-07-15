@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: Introducción al modelo de datos de Campaign Classic
-description: Obtenga información sobre cómo ampliar el modelo de datos de Campaign, editar esquemas, utilizar API y mucho más
+description: Aprenda a ampliar el modelo de datos de Campaign, editar esquemas, utilizar API y mucho más
 feature: Data Model
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
 source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
 workflow-type: tm+mt
-source-wordcount: '980'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

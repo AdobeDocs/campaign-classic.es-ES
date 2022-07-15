@@ -6,8 +6,8 @@ feature: Monitoring
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
 source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 26%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ Encontrará información detallada [aquí](../../production/using/monitoring-pro
 <table>
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">Supervisión de la instancia</a></p></td>
 <td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#monitoring-workflows">Monitorización de flujos de trabajo</a></p></td>
-<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">Supervise los envíos</a></p></td>
+<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">Monitorización de las entregas</a></p></td>
 <td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">Supervisión de la base de datos</a></p></td></tr>
 </table>
 

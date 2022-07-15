@@ -5,9 +5,9 @@ description: Analice el éxito de sus campañas en informes integrados o persona
 feature: Reporting
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: ht
-source-wordcount: '334'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
