@@ -4,10 +4,10 @@ title: Configuración y envío de la entrega
 description: Obtenga información sobre cómo configurar y realizar la entrega
 feature: Channel Configuration
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: dfee069240c590846f7dda3134c07ad3ec514a26
-workflow-type: ht
-source-wordcount: '1556'
-ht-degree: 100%
+source-git-commit: d59e9f55275bac303a5ed1450bb28ef7fa0f84cd
+workflow-type: tm+mt
+source-wordcount: '1502'
+ht-degree: 88%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
->[!NOTE]
->
->Solo el propietario de la entrega puede iniciar una entrega. Para que otro operador (o grupo de operadores) pueda iniciar una entrega, debe añadirlos como revisores en el campo **[!UICONTROL Delivery start:]**. Para obtener más información, consulte [esta sección](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
+## Permisos{#delivery-permissions}
+
+Solo el propietario de la entrega puede iniciar una entrega. Para que otros operadores (o grupo de operadores) puedan iniciar una entrega, agréguelos como revisores en la variable **[!UICONTROL Delivery start:]** campo . [Más información](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
 
 ## Parámetros adicionales de entrega {#delivery-additiona-parameters}
 
@@ -25,32 +25,32 @@ Antes de realizar el envío, se pueden definir los parámetros de envío en las 
 
 ![](assets/s_ncs_user_wizard_delivery.png)
 
-* **[!UICONTROL Delivery priority]**: Esta opción permite influir en el orden de envío de los envíos indicando su nivel de prioridad (normal, alto o bajo). Esto permite priorizar el orden de ciertos envíos más urgentes por encima de otros.
+* **[!UICONTROL Delivery priority]**: utilice esta opción para cambiar el orden de envío de los envíos definiendo su nivel de prioridad: normal, alto o bajo.
 
-* **[!UICONTROL Message batch quantity]**: Esta opción permite definir el número de mensajes agrupados dentro del mismo paquete de envío XML. Si el parámetro se establece en 0, los mensajes se agrupan automáticamente. El tamaño del paquete se define mediante el cálculo `<delivery size>/1024`, con un mínimo de 8 y un máximo de 256 mensajes por paquete.
+* **[!UICONTROL Message batch quantity]**: utilice esta opción para definir el número de mensajes agrupados dentro del mismo paquete de envío XML. Si el parámetro se establece en 0, los mensajes se agrupan automáticamente. El tamaño del paquete se define mediante el cálculo `<delivery size>/1024`, con un mínimo de 8 y un máximo de 256 mensajes por paquete.
 
    >[!IMPORTANT]
    >
-   >Cuando se duplica la entrega, se restablece el parámetro.
+   >Cuando se crea la entrega duplicando uno existente, este parámetro se restablece.
 
-* **[!UICONTROL Send using multiple waves]**: utilice esta opción para enviar los mensajes en olas, en lugar de a toda la audiencia. Configure el número de lotes y su proporción. [Más información](#sending-using-multiple-waves).
+* **[!UICONTROL Send using multiple waves]**: utilice esta opción para enviar los mensajes por lotes en lugar de a toda la audiencia a la vez. [Más información](#sending-using-multiple-waves).
 
 * **[!UICONTROL Test SMTP delivery]**: utilice esta opción para probar el envío a través de SMTP. La entrega se procesa hasta la conexión con el servidor SMTP, pero no se envía: para cada destinatario de la entrega, Campaign se conecta al servidor del proveedor SMTP, ejecuta el comando SMTP RCPT TO y cierra la conexión antes del comando SMTP DATA.
 
    >[!NOTE]
    >
-   >* Esta opción no se recomienda en intermediarios.
+   >* Esta opción no debe configurarse en intermediario.
    >
    >* Obtenga más información acerca de la configuración del servidor SMTP en [esta sección](../../installation/using/configure-delivery-settings.md).
 
 
-* **[!UICONTROL Email BCC]**: Esta opción permite almacenar correos electrónicos en un sistema externo como CCO simplemente añadiendo una dirección de correo electrónico CCO al objetivo del mensaje. Para obtener más información, consulte [esta sección](sending-messages.md#archiving-emails).
+* **[!UICONTROL Email BCC]**: utilice esta opción para almacenar correos electrónicos en un sistema externo a través de CCO simplemente añadiendo una dirección de correo electrónico CCO al destino del mensaje. [Más información](sending-messages.md#archiving-emails).
 
 ## Confirmación de la entrega {#confirming-delivery}
 
-Una vez configurada la entrega y lista para enviarla, asegúrese de haber ejecutado el análisis de entrega.
+Cuando la entrega esté configurado y listo para enviarse, ejecute el análisis de entrega.
 
-Para ello, haga clic en **[!UICONTROL Send]**, seleccione la acción que desee y haga clic en **[!UICONTROL Analyze]**. Para obtener más información sobre esto, consulte [Inicio del análisis](steps-validating-the-delivery.md#analyzing-the-delivery).
+Para ello, haga clic en **[!UICONTROL Send]**, seleccione la acción que desee y haga clic en **[!UICONTROL Analyze]**. [Más información](steps-validating-the-delivery.md#analyzing-the-delivery).
 
 ![](assets/s_ncs_user_email_del_send.png)
 
@@ -66,7 +66,7 @@ Después de enviar mensajes, puede monitorizar y realizar un seguimiento de las 
 
 ## Programación de los envíos de entregas {#scheduling-the-delivery-sending}
 
-Puede retrasar la entrega de mensajes para programar su fecha o administrar la presión de ventas y evitar solicitar en exceso a una población.
+Puede retrasar el envío del mensaje programando la entrega.
 
 1. Haga clic en el botón **[!UICONTROL Send]** y seleccione la opción **[!UICONTROL Postpone delivery]**.
 
@@ -78,7 +78,7 @@ Puede retrasar la entrega de mensajes para programar su fecha o administrar la p
 
 >[!IMPORTANT]
 >
->Una vez iniciado el análisis, la fecha de contacto definida queda fijada. Si se modifica esta fecha, es necesario reiniciar el análisis para que se tengan en cuenta las modificaciones.
+>Una vez iniciado el análisis, la fecha de contacto definida queda fijada. Si modifica esta fecha, debe reiniciar el análisis para que se tengan en cuenta las modificaciones.
 
 ![](assets/s_ncs_user_email_del_start_delayed.png)
 
