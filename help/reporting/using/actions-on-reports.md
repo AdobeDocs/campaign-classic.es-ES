@@ -5,7 +5,7 @@ description: Acciones sobre los informes
 feature: Reporting
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
 source-git-commit: 4ff86349d6b8966273585bf2a1ea0d785a7e87cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '543'
 ht-degree: 100%
 
