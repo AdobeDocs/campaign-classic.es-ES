@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo implementar el servidor de entrega
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 6f6c329808e78a56a61997aba83c55520030afc7
+source-git-commit: 64813905b360be1f2df7883f018e42bd154c2f9c
 workflow-type: tm+mt
 source-wordcount: '1116'
 ht-degree: 22%
@@ -58,7 +58,7 @@ Antes de iniciar la implementación, compruebe la configuración de la instancia
    * Si se completa la opción, puede iniciar la implementación.
    * Si no se rellena ningún valor, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} para obtener su CUID.
 
-      Esta opción debe rellenarse en todas las instancias de Campaign (MKT, MID, RT, EXEC) con el mismo valor. Como cliente híbrido, póngase en contacto con el Adobe para que la opción se establezca en las instancias MID, RT y EXEC.
+   Esta opción debe rellenarse en todas las instancias de Campaign (MKT, MID, RT, EXEC) con el valor correcto. Como cliente híbrido, póngase en contacto con el Adobe para que la opción se establezca en las instancias MID, RT y EXEC.
 
 ### Paso 1: Crear/actualizar el proyecto de Adobe Developer {#adobe-io-project}
 
