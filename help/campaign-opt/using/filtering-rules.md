@@ -4,8 +4,8 @@ title: Reglas de filtrado
 description: Aprenda a utilizar las reglas de filtrado
 feature: Typology Rules
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
-source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Reglas de filtrado{#filtering-rules}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Las reglas de filtrado permiten definir los mensajes que deben excluirse según los criterios definidos en una consulta. Estas reglas están vinculadas a una dimensión objetivo.
 

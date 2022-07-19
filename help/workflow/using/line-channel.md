@@ -3,8 +3,8 @@ product: campaign
 title: Canal LINE
 description: Canal LINE
 feature: Workflows
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Canal LINE{#line-channel}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Los flujos de trabajo detallados a continuación se instalan con el módulo **canal LINE** de forma predeterminada. Para obtener más información sobre este módulo, consulte esta [sección](../../delivery/using/line-channel.md).
 

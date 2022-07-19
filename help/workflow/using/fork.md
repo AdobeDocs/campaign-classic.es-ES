@@ -4,8 +4,8 @@ title: Bifurcación (Fork)
 description: Descubra más información sobre la actividad del flujo de trabajo Bifurcación (fork)
 feature: Workflows
 exl-id: 7a38653b-c15d-4ed8-85dc-f7214409f42b
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Bifurcación{#fork}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Puede utilizar la actividad **[!UICONTROL Fork]** para crear varias transiciones salientes y ejecutar varias actividades de forma independiente dentro del mismo flujo de trabajo.
 

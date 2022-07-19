@@ -3,8 +3,8 @@ product: campaign
 title: Acerca del gestor de respuestas
 description: Acerca del gestor de respuestas
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
-source-git-commit: d36e1881726af6238c4e0caecb7b299b594691f2
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Introducción al Gestor de respuestas de Campaign{#about-response-manager}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Adobe Campaign ofrece una aplicación de gestión de respuestas que le permite medir el éxito y la rentabilidad de las campañas de marketing u ofrecer propuestas para todos los canales de comunicación: correo electrónico, móvil, correo directo, etc.
 

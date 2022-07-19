@@ -4,8 +4,8 @@ title: Acceso a campañas de marketing
 description: Acceso a campañas de marketing
 feature: Campaigns, Cross Channel Orchestration
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Acceso a campañas de marketing{#accessing-marketing-campaigns}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Adobe Campaign le permite crear, configurar, ejecutar y analizar las campañas de marketing. Todas las campañas de marketing se pueden administrar desde un centro de control unificado.
 

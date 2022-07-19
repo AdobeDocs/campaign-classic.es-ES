@@ -4,8 +4,8 @@ title: Gestión de datos SQL
 description: Descubra más información sobre la actividad del flujo de trabajo Gestión de datos SQL
 feature: Workflows
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Administración de datos SQL{#sql-data-management}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 La actividad de **SQL Data Management** permite escribir sus propios scripts SQL para crear y rellenar tablas de trabajo.
 

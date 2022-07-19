@@ -4,8 +4,8 @@ title: Actualización de lista trimestral con una consulta incremental
 description: En este caso de uso,, se utiliza una consulta incremental para actualizar automáticamente una lista de destinatarios.
 feature: Workflows
 exl-id: 0d3e7046-313a-42a6-9155-3365e8d60bac
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Actualización de lista trimestral con una consulta incremental {#quarterly-list-update}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 En el siguiente ejemplo, se utiliza una [consulta incremental](incremental-query.md) para actualizar automáticamente una lista de destinatarios. Estos destinatarios están dirigidos como parte de campañas de marketing de temporada.
 

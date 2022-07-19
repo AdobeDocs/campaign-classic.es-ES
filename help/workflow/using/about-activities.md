@@ -4,8 +4,8 @@ title: Acerca de las actividades de flujo de trabajo
 description: Acerca de las actividades
 feature: Workflows, Data Management
 exl-id: 900dd30e-d4fb-452a-af3f-ae00758b0077
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Actividades de flujo de trabajo{#wf-activities}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Esta sección describe todas las actividades disponibles. Según el nodo o el contexto en el que se haya creado o editado el flujo de trabajo, las actividades disponibles pueden variar. Por ejemplo, los flujos de trabajo creados en una campaña tienen actividades de envío específicas del canal.
 

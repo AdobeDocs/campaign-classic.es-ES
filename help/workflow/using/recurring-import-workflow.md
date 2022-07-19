@@ -4,8 +4,8 @@ title: Configuración de una importación recurrente
 description: Obtenga información sobre cómo configurar una plantilla de flujo de trabajo para importaciones recurrentes.
 feature: Workflows, Data Management
 exl-id: e6e140cb-8de0-4ab9-bddc-95abe04124c6
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Configuración de un flujo de trabajo de importación recurrente {#setting-up-a-recurring-import}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 El uso de una plantilla de flujo de trabajo es una práctica recomendada si necesita importar con regularidad archivos con la misma estructura.
 

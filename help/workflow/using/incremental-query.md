@@ -4,8 +4,8 @@ title: Consulta incremental
 description: Descubra más información sobre la actividad del flujo de trabajo Consulta incremental
 feature: Workflows, Targeting Activity
 exl-id: abc08232-1a92-41e8-90f1-02e0a673539b
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Consulta incremental{#incremental-query}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Una consulta incremental le permite seleccionar periódicamente un objetivo basado en un criterio, al mismo tiempo que excluye las personas que ya fueron destinadas por este criterio.
 

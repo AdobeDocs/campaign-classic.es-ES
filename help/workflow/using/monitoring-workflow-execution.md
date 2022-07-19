@@ -4,8 +4,8 @@ title: Monitorización de la ejecución del flujo de trabajo
 description: Monitorización de la ejecución del flujo de trabajo
 feature: Workflows
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '2016'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Monitorización de la ejecución del flujo de trabajo {#monitoring-workflow-execution}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Esta sección presenta información sobre cómo monitorizar la ejecución de los flujos de trabajo.
 

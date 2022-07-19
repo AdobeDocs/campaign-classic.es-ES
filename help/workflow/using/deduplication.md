@@ -4,8 +4,8 @@ title: Deduplicación
 description: Descubra más información sobre la actividad del flujo de trabajo Deduplicación
 feature: Workflows, Targeting Activity
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Anulación de duplicación{#deduplication}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 La deduplicación elimina los duplicados de los resultados de las actividades entrantes. La deduplicación se puede realizar en la dirección de correo electrónico, el número de teléfono u otro campo.
 

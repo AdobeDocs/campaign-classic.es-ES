@@ -4,8 +4,8 @@ title: Envío de un informe a una lista
 description: Descubra más información sobre cómo enviar un informe a una lista con un flujo de trabajo
 feature: Workflows
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Envío de un informe a una lista{#sending-a-report-to-a-list}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Este caso de uso detalla cómo generar un informe mensual preestablecido de **[!UICONTROL Tracking indicators]** en formato PDF y cómo enviarlo a una lista de destinatarios.
 

@@ -4,8 +4,8 @@ title: Proveedores, stock y presupuestos
 description: Proveedores, stock y presupuestos
 feature: Budget Management, Campaigns
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '1902'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Proveedores, stock y presupuestos{#providers-stocks-and-budgets}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Adobe Campaign permite definir proveedores de servicios que participan en los trabajos realizados dentro de las campañas. La información sobre los proveedores de servicios y las estructuras de coste relacionadas la define el administrador de Adobe Campaign desde la vista principal. Se hace referencia al proveedor de servicios desde la entrega, y las estructuras de coste permiten el cálculo de los costes asociados con esta entrega, así como la gestión de stock correspondiente.
 

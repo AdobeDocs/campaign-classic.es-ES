@@ -3,8 +3,8 @@ product: campaign
 title: Flujos de trabajo Integración con las soluciones de Adobe Experience Cloud
 description: Descubra más información sobre los Flujos de trabajo Integración con las soluciones de Adobe Experience Cloud
 topic-tags: technical-workflows
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Integraciones con las soluciones de Adobe Experience Cloud{#integrations-with-adobe-experience-cloud-solutions}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Los flujos de trabajo detallados a continuación se instalan con el módulo **Integración con Adobe Experience Cloud** de forma predeterminada. Para obtener más información sobre este módulo, consulte esta [sección](../../integrations/using/configuring-ims.md#installing-the-package).
 

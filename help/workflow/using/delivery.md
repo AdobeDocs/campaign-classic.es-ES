@@ -4,8 +4,8 @@ title: Entrega
 description: Descubra más información sobre la actividad del flujo de trabajo de tipo Entrega
 feature: Workflows, Channels Activity
 exl-id: 72fbdd1d-a105-4e9f-9e17-2e9d62d2bb80
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Entrega{#delivery}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Una actividad de tipo **Entrega** permite crear una acción de entrega. Se puede construir utilizando elementos de entrada.
 

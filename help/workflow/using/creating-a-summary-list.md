@@ -4,16 +4,16 @@ title: Creación de una lista de resumen
 description: Creación de una lista de resumen
 feature: Workflows, Data Management
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '974'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Creación de una lista de resumen{#creating-a-summary-list}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Este caso de uso detalla la creación de un flujo de trabajo que, después de recopilar archivos y luego de varios enriquecimientos, permite crear una lista de resumen. El ejemplo se basa en una lista de contactos que realizaron compras en una tienda.
 
@@ -61,7 +61,7 @@ Estos datos se incluyen en un archivo de texto “Compras.txt”.
 
    Para obtener más información sobre esta actividad, consulte [Carga de datos desde un archivo](../../platform/using/import-export-workflows.md#loading-data-from-a-file).
 
-1. Configure la actividad **Recolección de archivos** para recopilar archivos de texto (*.txt) del directorio seleccionado.
+1. Configure las variables **Agrupamiento de archivos** actividad para recopilar texto (&#42;.txt) escriba archivos del directorio seleccionado.
 
    ![](assets/uc2_enrich_collecteur.png)
 

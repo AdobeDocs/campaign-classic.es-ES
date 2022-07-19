@@ -4,8 +4,8 @@ title: Entrega continua
 description: Entrega continua
 feature: Workflows, Channels Activity
 exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Entrega continua{#continuous-delivery}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Una acción del tipo **Entrega continua** permite agregar nuevos destinatarios a una entrega existente. Este tipo de envío evita tener que crear una nueva cada vez: este modo suele ser más eficaz, en particular para alertas de bajo volumen o notificaciones enviadas cuando es necesario.
 

@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
-source-git-commit: d36e1881726af6238c4e0caecb7b299b594691f2
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 97%
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 # Seguimiento de hipótesis{#hypothesis-tracking}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 El resultado de los cálculos de hipótesis está disponible en varios niveles de la plataforma Adobe Campaign: los indicadores calculados por hipótesis y las reacciones de las poblaciones objetivo se pueden ver a través de la hipótesis real, así como en los informes de hipótesis disponibles a través de campañas y envíos.
 

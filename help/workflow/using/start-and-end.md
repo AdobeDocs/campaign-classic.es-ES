@@ -4,8 +4,8 @@ title: Inicio y final (Start y End)
 description: Descubra más información sobre las actividades de flujo de trabajo de Inicio y final (Start y End)
 feature: Workflows
 exl-id: 56dfbaf3-93de-4ade-b4ad-9b54d239c7a5
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Inicio y final{#start-and-end}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Las actividades **[!UICONTROL Start]** y **[!UICONTROL End]** permiten marcar de forma gráfica el inicio y el final de un flujo de trabajo. Estas actividades no tienen impacto funcional y, por tanto, son opcionales.
 

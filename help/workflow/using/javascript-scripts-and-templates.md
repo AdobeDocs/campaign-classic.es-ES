@@ -4,8 +4,8 @@ title: Plantillas y secuencias de comandos de JavaScript
 description: Plantillas y secuencias de comandos de JavaScript
 feature: Workflows
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Plantillas y secuencias de comandos de JavaScript{#javascript-scripts-and-templates}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Las secuencias de comandos permiten calcular valores, intercambiar datos entre las diversas tareas del proceso y ejecutar operaciones específicas utilizando llamadas SOAP.
 

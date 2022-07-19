@@ -4,8 +4,8 @@ title: Consulta de la tabla de destinatarios
 description: Obtenga información sobre cómo consultar la tabla de destinatarios.
 feature: Query Editor
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Consulta de la tabla de destinatarios {#querying-recipient-table}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 En este ejemplo, se desea recuperar los nombres y correos electrónicos de los destinatarios cuyo dominio de correo electrónico es “orange.co.uk” y que no viven en Londres.
 

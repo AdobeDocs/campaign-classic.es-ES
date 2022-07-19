@@ -4,8 +4,8 @@ title: Coordinación de actualizaciones de datos
 description: Coordinación de actualizaciones de datos
 feature: Workflows, Data Management
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Coordinación de actualizaciones de datos{#coordinating-data-updates}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Este caso de uso detalla la creación de un flujo de trabajo que permite administrar las actualizaciones integradas simultáneas cuando se utilizan varias ejecuciones de un flujo de trabajo.
 

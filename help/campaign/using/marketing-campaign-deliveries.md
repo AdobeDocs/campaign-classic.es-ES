@@ -4,8 +4,8 @@ title: Entregas de campañas de marketing
 description: Más información sobre las entregas de campañas de marketing
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '1487'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Entregas de campañas de marketing {#marketing-campaign-deliveries}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Las entregas se pueden crear a través del tablero de la campaña, un flujo de trabajo de la campaña o directamente a través de la descripción general de las entregas.
 

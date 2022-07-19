@@ -4,8 +4,8 @@ title: Descarga web
 description: Descubra más información sobre la actividad del flujo de trabajo Descarga web
 feature: Workflows
 exl-id: b6005eae-5fbc-4e22-ab3a-c9b7ed6506f6
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Descarga web{#web-download}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 La actividad **Web download** inicia la descarga de un archivo en una dirección URL explícita, una cuenta externa o una instancia de Adobe Campaign. Se utiliza el protocolo HTTP. Puede ser una descarga GET o POST.
 

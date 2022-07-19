@@ -6,8 +6,8 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 1a115ca9-2532-4bd3-be77-814e43250c51
-source-git-commit: d36e1881726af6238c4e0caecb7b299b594691f2
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Configuración del Gestor de respuestas de Campaign{#configuration}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Esta sección está destinada a las personas responsables de configurar la gestión de respuestas. Supone una cierta cantidad de conocimiento sobre la ampliación de esquemas, la definición de flujos de trabajo y la programación SQL.
 

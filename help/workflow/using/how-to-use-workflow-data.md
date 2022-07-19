@@ -4,8 +4,8 @@ title: Cómo utilizar los datos de flujo de trabajo
 description: Descubra cómo utilizar los datos de flujo de trabajo
 feature: Workflows, Data Management
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Cómo utilizar los datos de flujo de trabajo{#how-to-use-workflow-data}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## Actualización de la base de datos {#updating-the-database}
 

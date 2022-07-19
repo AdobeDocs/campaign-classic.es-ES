@@ -4,8 +4,8 @@ title: Definición de aprobaciones
 description: Las aprobaciones permiten a los operadores tomar las decisiones que rigen los flujos de trabajo o confirmar su ejecución continuada
 feature: Approvals
 exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
-source-git-commit: 3af4f259b80b3e03c81ee278b470ef6ffe3fe4d0
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Definición de aprobaciones {#defining-approvals}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Las aprobaciones permiten a los operadores tomar las decisiones que rigen los flujos de trabajo o confirmar su ejecución continuada.
 

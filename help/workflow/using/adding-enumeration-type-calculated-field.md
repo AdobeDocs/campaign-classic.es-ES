@@ -7,8 +7,8 @@ content-type: reference
 topic-tags: use-cases
 feature: Workflows, Data Management
 exl-id: 3f606d3a-0af5-4315-bb08-1b21a71f1721
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # Adición de un campo calculado de tipo Lista desglosada {#adding-an-enumeration-type-calculated-field}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Aquí se desea crear una consulta con un campo calculado de tipo **[!UICONTROL Enumerations]**. Este campo genera una columna adicional en la ventana de vista previa de datos. Esta columna especifica los valores numéricos devueltos como resultado de cada destinatario (0, 1 y 2). Se asigna un sexo a cada valor de la nueva columna: “Hombre” para “1”, “Mujer” para “2” o “No indicado” si el valor es igual a “0”.
 

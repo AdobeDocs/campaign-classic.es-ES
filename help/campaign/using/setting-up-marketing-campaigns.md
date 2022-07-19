@@ -4,8 +4,8 @@ title: Creación de campañas de marketing
 description: Obtenga información sobre cómo crear y ejecutar campañas de marketing
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
-source-git-commit: f95b75adf8f46d8301d800451ea0e62629690a8f
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Introducción a las campañas de marketing{#setting-up-marketing-campaigns}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Las campañas incluyen acciones (envíos) y procesos (importación o extracción de archivos), así como recursos (documentos de marketing, descripciones de envíos). Todos ellos se utilizan en las campañas de marketing. Las campañas son parte de un programa y los programas se incluyen en un plan de campaña.
 

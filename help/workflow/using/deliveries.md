@@ -3,7 +3,7 @@ product: campaign
 title: Entregas
 description: Descubra más información sobre los flujos de trabajo Entregas
 feature: Workflows
-source-git-commit: 25e8acdc449c7002e467db17e7c70e3dc017dded
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 100%
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Entregas{#deliveries}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Los flujos de trabajo detallados a continuación se instalan con el módulo **Envíos** de forma predeterminada.
 

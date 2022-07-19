@@ -4,8 +4,8 @@ title: Creación de un flujo de trabajo
 description: Descubra cómo generar un flujo de trabajo
 feature: Workflows
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
-source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Creación de un flujo de trabajo {#building-a-workflow}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Esta sección detalla los principios fundamentales y las prácticas recomendadas para crear un flujo de trabajo en Campaign.
 

@@ -4,16 +4,16 @@ title: Agrupamiento de archivos
 description: Descubra más información sobre la actividad del flujo de trabajo Recolector de ficheros
 feature: Workflows, Data Management
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # Recolector de ficheros{#file-collector}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 El **Recolector de ficheros** supervisa la llegada de uno o más archivos de un directorio y activa su transición para cada archivo recibido. Para cada evento, una variable **[!UICONTROL filename]** contiene el nombre completo del archivo recibido. Los archivos recopilados se mueven a otro directorio para fines de archivo y para asegurarse de que se cuentan solo una vez.
 
@@ -35,7 +35,7 @@ La primera pestaña de la actividad **[!UICONTROL File collector]** permite sele
 
    * **[!UICONTROL Filter]**
 
-      Solo se tienen en cuenta los archivos que coinciden con este filtro. Los demás archivos del directorio se omiten. Si el filtro está vacío, se tendrán en cuenta todos los archivos del directorio. Ejemplos de filtros: ***.zip**, **import-*.txt**.
+      Solo se tienen en cuenta los archivos que coinciden con este filtro. Los demás archivos del directorio se omiten. Si el filtro está vacío, se tendrán en cuenta todos los archivos del directorio. Ejemplos de filtros: **&#42;.zip**, **import-&#42;.txt**.
 
    * **[!UICONTROL Stop as soon as a file has been processed]**
 

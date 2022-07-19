@@ -4,8 +4,8 @@ title: Espera
 description: Descubra más información sobre la actividad del flujo de trabajo Espera
 feature: Workflows
 exl-id: 4872f756-14d7-4e37-a9cf-b929c77e34ca
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Espera{#wait}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Una actividad **Wait** activa su transición después de un retraso de tiempo de entre unos segundos y varios meses. Una tarea de espera no bloquea la ejecución de otras tareas; el flujo de trabajo puede ejecutar tareas en paralelo mientras esta tarea está pendiente.
 

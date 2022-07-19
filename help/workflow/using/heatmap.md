@@ -4,8 +4,8 @@ title: Mapa de calor del flujo de trabajo de Campaign
 description: Monitorice los flujos de trabajo con el mapa de calor del flujo de trabajo
 feature: Workflows, Heatmap
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Mapa de calor del flujo de trabajo {#workflow-heatmap}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 El mapa de calor del flujo de trabajo de Campaign consiste en una representación gráfica con códigos de color de todos los flujos de trabajo que se están ejecutando actualmente. Solo está disponible para **Administradores de Campaign**.
 

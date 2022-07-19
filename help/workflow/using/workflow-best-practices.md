@@ -4,8 +4,8 @@ title: Prácticas recomendadas del flujo de trabajo
 description: Descubra las prácticas recomendadas del flujo de trabajo Campaña
 feature: Workflows
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
-source-git-commit: 9126e2cc088ef0e5761cc20bd19980d323f3a3ea
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '1687'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Prácticas recomendadas con flujos de trabajo{#workflow-best-practices}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## Ejecución y rendimiento {#execution-and-performance}
 

@@ -4,8 +4,8 @@ title: Restricción de tiempo
 description: Descubra más información sobre la actividad del flujo de trabajo de la restricción de tiempo
 feature: Workflows
 exl-id: 1dc5de05-4d36-4393-8113-d1f97bb7f732
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Restricción de tiempo{#time-constraint}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 La **restricción de tiempo** permite posponer la ejecución de una tarea o dejarla.
 

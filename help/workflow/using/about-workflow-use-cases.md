@@ -4,8 +4,8 @@ title: Acerca de los casos de uso de flujos de trabajo
 description: Obtenga más información sobre los casos de uso que puede realizar con los flujos de trabajo de Campaign Classic.
 feature: Workflows, Data Management
 exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Casos de uso del flujo de trabajo {#about-workflow-use-cases}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 En esta sección, encontrará varios casos de uso que aprovechan las capacidades de los Flujos de trabajo de Campaign.
 

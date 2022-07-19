@@ -4,8 +4,8 @@ title: Supervisión de flujos de trabajo
 description: Descubra cómo supervisar flujos de trabajo de campañas
 feature: Workflows
 exl-id: ca6d4bf4-7b3a-4d36-9fc3-0b83531d0132
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Caso de uso: Supervisión de flujos de trabajo{#supervising-workflows}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Este caso de uso detalla la creación de un flujo de trabajo que permite monitorizar el estado de un conjunto de flujos de trabajo que están “en pausa”, “detenidos” o “con errores”.
 

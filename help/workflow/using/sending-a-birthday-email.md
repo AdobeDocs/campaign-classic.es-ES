@@ -4,8 +4,8 @@ title: Envío de un correo electrónico de cumpleaños
 description: Descubra más información sobre cómo enviar un correo electrónico de cumpleaños con un flujo de trabajo
 feature: Workflows
 exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Envío de un correo electrónico de cumpleaños{#sending-a-birthday-email}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## Introducción {#introduction}
 

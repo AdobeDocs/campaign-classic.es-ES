@@ -4,8 +4,8 @@ title: Flujo de trabajo de entrega por canales cruzados
 description: Descubra más información sobre los flujos de trabajo de entrega por canales cruzados
 feature: Workflows, Channels Activity
 exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
-source-git-commit: e454cc29038b4eab9fad1dcb46813fc8e1a83db1
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Flujo de trabajo de entrega por canales cruzados{#cross-channel-delivery-workflow}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Este caso de uso presenta un ejemplo que implica un flujo de trabajo de envío por canales cruzados. En [esta sección](cross-channel-deliveries.md) se presenta el concepto general de envíos por canales cruzados.
 

@@ -4,8 +4,8 @@ title: Cambio de imágenes de actividad
 description: Aprenda a cambiar la imagen de la actividad
 feature: Workflows
 exl-id: cafdbc10-9c10-4d42-a485-c9880df8d371
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Cambio de imágenes de actividad{#change-activity-images}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Las imágenes utilizadas en los diagramas de los distintos flujos de trabajo pueden modificarse. Sin embargo, deben cumplir ciertas limitaciones. Estas son las etapas de implementación:
 

@@ -4,8 +4,8 @@ title: Servicios de suscripción
 description: Descubra más información sobre la actividad del flujo de trabajo Servicios de suscripción
 feature: Workflows, Targeting Activity, Subscription Services Activity
 exl-id: 1b526d1c-4a33-45a1-98f4-dcb803c8d228
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Servicios de suscripción{#subscription-services}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Una actividad del tipo de **Subscription services** permite crear o eliminar una suscripción a un servicio de información para la población especificada en la transición.
 

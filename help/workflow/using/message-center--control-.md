@@ -3,8 +3,8 @@ product: campaign
 title: Centro de mensajes (Control)
 description: Centro de mensajes (Control)
 feature: Workflows
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Centro de mensajes (Control){#message-center-control}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 El flujo de trabajo detallado a continuación está programado para ejecutarse cada hora. Se instala con el módulo **Centro de mensajes (Control)** de forma predeterminada.
 

@@ -4,8 +4,8 @@ title: Monitorización de flujos de trabajo técnicos
 description: Monitorización de flujos de trabajo técnicos
 feature: Workflows
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
-source-git-commit: 25e8acdc449c7002e467db17e7c70e3dc017dded
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Monitorización de flujos de trabajo técnicos {#monitoring-technical-workflows}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Es necesario supervisar los flujos de trabajo técnicos, y deben tomarse medidas cuando se producen errores.
 

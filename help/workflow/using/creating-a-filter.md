@@ -4,8 +4,8 @@ title: Creación de un filtro
 description: Aprenda a crear un filtro al realizar consultas
 feature: Workflows
 exl-id: 297ea1e1-39ef-4b99-aaaa-9e88611fb1bf
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Creación de un filtro {#creating-a-filter}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Los filtros disponibles en Adobe Campaign se definen mediante condiciones de filtrado que se crean con el mismo modo de funcionamiento que las consultas.
 

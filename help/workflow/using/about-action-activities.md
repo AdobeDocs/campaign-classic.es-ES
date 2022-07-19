@@ -4,8 +4,8 @@ title: Acerca de las actividades de acción
 description: Acerca de las actividades de acción
 feature: Workflows, Data Management
 exl-id: 8758601b-c4bd-4179-8816-305d1a68d499
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Actividades de acción en flujos de trabajo{#about-action-activities}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 * **Delivery**: permite configurar una acción de envío. Consulte la sección [Entrega](delivery.md).
 * **Delivery control**: permite iniciar, pausar o detener una entrega. Consulte la sección [Control de envío](delivery-control.md).

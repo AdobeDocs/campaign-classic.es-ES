@@ -4,8 +4,8 @@ title: Carga de contenido de entrega
 description: Carga de contenido de entrega
 feature: Workflows
 exl-id: a52baffd-402b-4b33-ab72-ac954e4dee85
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Carga de contenido de entrega{#loading-delivery-content}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Si el contenido de la entrega está disponible en un archivo HTML ubicado en los servidores Amazon S3, FTP o SFTP, se puede cargar fácilmente este contenido en las entregas de Adobe Campaign.
 
