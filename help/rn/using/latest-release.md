@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
+source-git-commit: 8d6f5a3596c2c919e597e0b6ce3d711276c8df12
 workflow-type: tm+mt
-source-wordcount: '1958'
+source-wordcount: '1965'
 ht-degree: 98%
 
 ---
@@ -61,12 +61,12 @@ Consulte la [Matriz de compatibilidades de Campaign](../../rn/using/compatibilit
 
 **Parches**
 
-* Se ha corregido un error de la versión anterior que impedía a los usuarios cambiar el tamaño de la página de inicio de sesión de IMS.
-* Se ha corregido un error que se producía al instalar el paquete del gestor de contenido en una instancia existente.
-* Se ha corregido un problema en el menú **Campañas** en el que se mostraba continuamente un mensaje &quot;operación en curso&quot;.
-* Con Adobe Analytics habilitado, se ha corregido un problema que eliminaba BID (ID de Broadlog) y CID (ID de campaña) de la URL al enviar un correo electrónico con una URL sin guardar la entrega.
-* Se ha corregido un problema que se producía al cargar una imagen en la carpeta de recursos públicos de una instancia con una configuración específica del Centro de mensajes. Aparecerá el siguiente mensaje de error: “No se pueden cargar las imágenes en los servidores de seguimiento”.
-* Se ha corregido un problema que hacía que el sistema se bloqueara al regenerar la configuración en caso de archivos de configuración incorrectos.
+* Se ha corregido un error de la versión anterior que impedía a los usuarios cambiar el tamaño de la página de inicio de sesión de IMS. (NEO-30085)
+* Se ha corregido un error que se producía al instalar el paquete del gestor de contenido en una instancia existente. (NEO-32349)
+* Se ha corregido un problema en el menú **Campañas** en el que se mostraba continuamente un mensaje &quot;operación en curso&quot;. (NEO-44904)
+* Con Adobe Analytics habilitado, se ha corregido un problema que eliminaba BID (ID de Broadlog) y CID (ID de campaña) de la URL al enviar un correo electrónico con una URL sin guardar la entrega. (NEO-38678)
+* Se ha corregido un problema que se producía al cargar una imagen en la carpeta de recursos públicos de una instancia con una configuración específica del Centro de mensajes. Aparecerá el siguiente mensaje de error: “No se pueden cargar las imágenes en los servidores de seguimiento”. (NEO-38546, NEO-45572)
+* Se ha corregido un problema que hacía que el sistema se bloqueara al regenerar la configuración en caso de archivos de configuración incorrectos. (NEO-38752)
 * Se ha corregido un problema que podría provocar que los indicadores de entrega no se actualicen correctamente. (NEO-44827)
 * Se ha corregido un problema que podría provocar un error posterior a la actualización al utilizar consultas complejas. (NEO-43648)
 * Se ha corregido un problema que podía impedir que funcionara la previsualización de webApps. (NEO-43242)
