@@ -3,14 +3,14 @@ product: campaign
 title: Actualización del nuevo servidor de capacidad de envío
 description: Obtenga información sobre cómo actualizar al nuevo servidor de entrega de Campaign
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: de3a2bf1ab6851184c75bc302ff0c42db186e7f0
+source-git-commit: a45e18e460c11f474dc1b5663b9f4a3277fac12c
 workflow-type: tm+mt
 source-wordcount: '1122'
 ht-degree: 22%
 
 ---
 
-# Actualización al nuevo servidor de entrega {#acc-deliverability}
+# Actualización del nuevo servidor de capacidad de envío {#acc-deliverability}
 
 Inicio [Versión 7.2.1](../../rn/using/latest-release.md#release-7-2-2), Adobe Campaign se basa en un nuevo servidor de capacidad de envío que ofrece alta disponibilidad y aborda los problemas de cumplimiento de la seguridad. Ahora, el Campaign Classic sincroniza las reglas de envío, los broadlogs y las direcciones de supresión desde y hacia el nuevo servidor de capacidad de envío. El antiguo servidor de capacidad de envío se cancelará el 31 de agosto de 2022.
 
