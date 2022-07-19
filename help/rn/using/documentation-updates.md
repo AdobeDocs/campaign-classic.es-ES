@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 001d5494e4b77e03c610c7c8b2cb38161d65c711
+source-git-commit: 378788764e244dcad12018d6d703048707d4c3e6
 workflow-type: tm+mt
-source-wordcount: '4906'
+source-wordcount: '4931'
 ht-degree: 99%
 
 ---
@@ -25,17 +25,28 @@ Consulte las [Notas de la versión de Adobe Campaign Classic](../../rn/using/lat
 
 ### Julio de 2022 {#july-2022}
 
-* Las funciones y mejoras de la versión del 22 de julio se han detallado en la documentación.
+La transición al nuevo servidor de capacidad de envío se detalla en una nueva nota técnica. [Más información](../../technotes/using/deliverability-server.md)
+
+**Actualizaciones de la documentación incluidas en la versión 7.3.1**
+
+Se ha actualizado la matriz de compatibilidad. [Más información](compatibility-matrix.md)
+
+Se ha actualizado la sección Notas de la versión. [Más información](rn-overview.md)
+
+Notificaciones con distinción de tiempo con iOS 15. [Más información](../../delivery/using/create-notifications-ios.md)
+
 
 ### Marzo de 2022 {#mar-2022}
 
-* Se ha añadido una descripción detallada para la opción **[!UICONTROL Test SMTP delivery]**. [Más información](../../delivery/using/steps-sending-the-delivery.md#delivery-additiona-parameters)
+Se ha añadido una descripción detallada para la opción **[!UICONTROL Test SMTP delivery]**. [Más información](../../delivery/using/steps-sending-the-delivery.md#delivery-additiona-parameters)
 
-* La página Introducción a las actualizaciones se ha actualizado para aclarar las directrices de actualización de la consola de Campaign. [Más información](../../rn/using/rn-overview.md)
+La página Introducción a las actualizaciones se ha actualizado para aclarar las directrices de actualización de la consola de Campaign. [Más información](../../rn/using/rn-overview.md)
 
-* Ya está disponible la nueva compilación de Campaign v7.2.2. [Más información](../../rn/using/latest-release.md)
-* Se ha añadido información de solución de problemas relacionada con el conector ACS. [Más información](../../integrations/using/troubleshooting-the-acs-connector.md)
-* Las versiones heredadas de PostgreSQL que han llegado al final de su vida útil se añadieron a la página [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md#dbe-eol).
+Ya está disponible la nueva compilación de Campaign v7.2.2. [Más información](../../rn/using/latest-release.md)
+
+Se ha añadido información de solución de problemas relacionada con el conector ACS. [Más información](../../integrations/using/troubleshooting-the-acs-connector.md)
+
+Las versiones heredadas de PostgreSQL que han llegado al final de su vida útil se añadieron a la página [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md#dbe-eol).
 
 ### Febrero de 2022 {#february-2022}
 

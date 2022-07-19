@@ -3,9 +3,9 @@ product: campaign
 title: Puntos finales de red de Campaign
 description: Puntos finales de red de Campaign
 exl-id: 027ed2b6-365f-434f-9a18-2140512168e9
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 378788764e244dcad12018d6d703048707d4c3e6
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '48'
 ht-degree: 22%
 
 ---
@@ -16,9 +16,8 @@ ht-degree: 22%
 
 Estos son los diferentes extremos utilizados en el Campaign Classic.
 
-| Contexto | URL |
+| Contexto | Dirección URL |
 |--- |--- |
 | Puntos finales del explorador | `https://*.experiencecloud.adobe.com` (proveedor SSO)<br>`https://*.campaign.adobe.com` (Instancia de Campaign)<br>`https://adobeid-na1.services.adobe.com` (inicio de sesión en el Adobe) |
-| Informes de capacidad de entrega | `https://deliverablity.neolane.net` |
 | Renderización de la bandeja de entrada (Litmus) | `https://deliverability-app.neolane.net/deliverability` |
 | URL de personalización, páginas espejo, seguimiento, archivo (asistente de implementación) | Compruebe las direcciones URL configuradas por usted. |
