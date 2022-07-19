@@ -70,7 +70,7 @@ Consulte la [Matriz de compatibilidades de Campaign](../../rn/using/compatibilit
 * Se ha corregido un problema que podría provocar que los indicadores de entrega no se actualicen correctamente. (NEO-44827)
 * Se ha corregido un problema que podría provocar un error posterior a la actualización al utilizar consultas complejas. (NEO-43648)
 * Se ha corregido un problema que podía impedir que funcionara la previsualización de webApps. (NEO-43242)
-* Se ha corregido un problema que podría provocar que la preparación de la entrega falle al utilizar un archivo de asignación de destino externo en un flujo de trabajo con una actividad de carga de datos (archivo). (NEO-43691)
+* Se ha corregido un problema que podría provocar que la preparación de la entrega falle al utilizar un archivo de asignación de destinatario externo en un flujo de trabajo con una actividad de carga de datos (archivo). (NEO-43691)
 * Se ha corregido un problema que podía provocar bloqueos y requerir un reinicio completo de la instancia. (NEO-44645)
 * Se ha corregido un problema que podía impedir que el mapa de calor del flujo de trabajo cargara ningún resultado. (NEO-43360)
 * Se ha corregido un problema que podría provocar problemas de conexión al utilizar el conector externo de FDA. (NEO-42722)

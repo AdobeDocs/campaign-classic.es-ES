@@ -5,7 +5,7 @@ description: Aprenda a crear notificaciones push para iOS
 feature: Push
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
 source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 100%
 
@@ -96,7 +96,7 @@ Para crear una notificación push para dispositivos iOS, siga los pasos a contin
 
 1. Para las notificaciones con distinción de tiempo, puede especificar las siguientes opciones:
 
-   * **[!UICONTROL Target content ID]**: identificador utilizado para identificar la ventana de aplicación que se reenvía cuando se abre la notificación.
+   * **[!UICONTROL Target content ID]**: identificador utilizado para destinar la ventana de aplicación que se reenvía cuando se abre la notificación.
 
    * **[!UICONTROL Launch image]**: nombre del archivo de imagen de lanzamiento que se va a mostrar. Si el usuario decide iniciar la aplicación, se mostrará la imagen seleccionada en lugar de la pantalla de inicio de la aplicación.
 
@@ -151,7 +151,7 @@ Debe crear un nuevo envío y vincularlo a la aplicación móvil creada.
 
 1. En la ventana **[!UICONTROL Target type]**, seleccione **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]** y haga clic en **[!UICONTROL Next]**.
 
-1. En la lista desplegable **[!UICONTROL Service]**, seleccione el servicio creado anteriormente, luego la aplicación a la que desee dirigirse y haga clic en **[!UICONTROL Finish]**.
+1. En la lista desplegable **[!UICONTROL Service]**, seleccione el servicio creado anteriormente, luego la aplicación a la que desee destinarlo y haga clic en **[!UICONTROL Finish]**.
 
    ![](assets/nmac_ios_6.png)
 
