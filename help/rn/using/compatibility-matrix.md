@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -223,7 +223,7 @@ Los entornos **Managed Services** (alojados), **Híbrido** y **On-Premise** pued
 <p>11.x</p>
 <p>10.x</p>
 </td>
-<td>Versión 7.0 19.1.4 como mínimo</td>
+<td>V7.0 19.1.4 mínimo</td>
 </tr>
 </tbody>
 </table>
@@ -377,7 +377,7 @@ Se **requieren** los siguientes sistemas operativos y exploradores para utilizar
 <p>Última versión</p>
 </td>
 <td>
-<p><a href="http://www.adobe.com/go/acc-ms-webview2-runtime-download">Descargar del sitio web de Microsoft Developer</a></p>
+<p><a href="http://www.adobe.com/go/acc-ms-webview2-runtime-download_es">Descargar del sitio web de Microsoft Developer</a></p>
 </td>
 </tr>
 </tbody>
