@@ -5,7 +5,7 @@ description: Descubra cómo generar un flujo de trabajo
 feature: Workflows
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1623'
 ht-degree: 100%
 
