@@ -5,9 +5,9 @@ description: Obtenga información sobre cómo configurar y realizar la entrega
 feature: Channel Configuration
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 source-git-commit: d59e9f55275bac303a5ed1450bb28ef7fa0f84cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1502'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 88%
 
 ## Permisos{#delivery-permissions}
 
-Solo el propietario de la entrega puede iniciar una entrega. Para que otros operadores (o grupo de operadores) puedan iniciar una entrega, agréguelos como revisores en la variable **[!UICONTROL Delivery start:]** campo . [Más información](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
+Solo el propietario de la entrega puede comenzar una entrega. Para que otros operadores (o grupo de operadores) puedan iniciar una entrega, agréguelos como revisores en el campo **[!UICONTROL Delivery start:]**. [Más información](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
 
 ## Parámetros adicionales de entrega {#delivery-additiona-parameters}
 
@@ -25,30 +25,30 @@ Antes de realizar el envío, se pueden definir los parámetros de envío en las 
 
 ![](assets/s_ncs_user_wizard_delivery.png)
 
-* **[!UICONTROL Delivery priority]**: utilice esta opción para cambiar el orden de envío de los envíos definiendo su nivel de prioridad: normal, alto o bajo.
+* **[!UICONTROL Delivery priority]**: utilice esta opción para cambiar el orden de envío de los pedidos indicando su nivel de prioridad, normal, alto o bajo.
 
-* **[!UICONTROL Message batch quantity]**: utilice esta opción para definir el número de mensajes agrupados dentro del mismo paquete de envío XML. Si el parámetro se establece en 0, los mensajes se agrupan automáticamente. El tamaño del paquete se define mediante el cálculo `<delivery size>/1024`, con un mínimo de 8 y un máximo de 256 mensajes por paquete.
+* **[!UICONTROL Message batch quantity]**: utilice esta opción para definir el número de mensajes agrupados dentro del mismo paquete de entrega XML. Si el parámetro se establece en 0, los mensajes se agrupan automáticamente. El tamaño del paquete se define mediante el cálculo `<delivery size>/1024`, con un mínimo de 8 y un máximo de 256 mensajes por paquete.
 
    >[!IMPORTANT]
    >
-   >Cuando se crea la entrega duplicando uno existente, este parámetro se restablece.
+   >Cuando se crea la entrega duplicando una existente, este parámetro se restablece.
 
-* **[!UICONTROL Send using multiple waves]**: utilice esta opción para enviar los mensajes por lotes en lugar de a toda la audiencia a la vez. [Más información](#sending-using-multiple-waves).
+* **[!UICONTROL Send using multiple waves]**: utilice esta opción para enviar los mensajes en lotes, en lugar de a toda la audiencia a la vez. [Más información](#sending-using-multiple-waves).
 
-* **[!UICONTROL Test SMTP delivery]**: utilice esta opción para probar el envío a través de SMTP. La entrega se procesa hasta la conexión con el servidor SMTP, pero no se envía: para cada destinatario de la entrega, Campaign se conecta al servidor del proveedor SMTP, ejecuta el comando SMTP RCPT TO y cierra la conexión antes del comando SMTP DATA.
+* **[!UICONTROL Test SMTP delivery]**: utilice esta opción para probar el envío a través de SMTP. La entrega se procesa hasta la conexión con el servidor SMTP, pero no se envía. Para cada destinatario de la entrega, Campaign se conecta al servidor del proveedor SMTP, ejecuta el comando RCPT TO del servidor de correo saliente (SMTP) y cierra la conexión antes del comando DATA del SMTP.
 
    >[!NOTE]
    >
    >* Esta opción no debe configurarse en intermediario.
    >
-   >* Obtenga más información acerca de la configuración del servidor SMTP en [esta sección](../../installation/using/configure-delivery-settings.md).
+   >* Obtenga más información acerca de la configuración del servidor de SMTP en [esta sección](../../installation/using/configure-delivery-settings.md).
 
 
-* **[!UICONTROL Email BCC]**: utilice esta opción para almacenar correos electrónicos en un sistema externo a través de CCO simplemente añadiendo una dirección de correo electrónico CCO al destino del mensaje. [Más información](sending-messages.md#archiving-emails).
+* **[!UICONTROL Email BCC]**: utilice esta opción para almacenar correos electrónicos en un sistema externo como CCO simplemente añadiendo una dirección de correo electrónico a copia oculta (CCO) al destinatario del mensaje. [Más información](sending-messages.md#archiving-emails).
 
 ## Confirmación de la entrega {#confirming-delivery}
 
-Cuando la entrega esté configurado y listo para enviarse, ejecute el análisis de entrega.
+Cuando la entrega esté configurada y lista para enviarse, ejecute el análisis de entrega.
 
 Para ello, haga clic en **[!UICONTROL Send]**, seleccione la acción que desee y haga clic en **[!UICONTROL Analyze]**. [Más información](steps-validating-the-delivery.md#analyzing-the-delivery).
 
@@ -78,7 +78,7 @@ Puede retrasar el envío del mensaje programando la entrega.
 
 >[!IMPORTANT]
 >
->Una vez iniciado el análisis, la fecha de contacto definida queda fijada. Si modifica esta fecha, debe reiniciar el análisis para que se tengan en cuenta las modificaciones.
+>Una vez iniciado el análisis, la fecha de contacto definida queda fijada. Si se modifica esta fecha, es necesario reiniciar el análisis para que se tengan en cuenta las modificaciones.
 
 ![](assets/s_ncs_user_email_del_start_delayed.png)
 
@@ -98,7 +98,7 @@ Permite retrasar la entrega a una fecha posterior o guardar la entrega en el cal
 
 * La opción **[!UICONTROL Schedule delivery (automatic execution on planned date)]** permite especificar la fecha de envío.
 
-   Haga clic en **[!UICONTROL Send]** y seleccione **[!UICONTROL Postpone delivery]** luego inicie el análisis y confirme la entrega. Cuando el análisis finalice, el destino de entrega está listo y los mensajes se envían automáticamente en la fecha especificada.
+   Haga clic en **[!UICONTROL Send]** y seleccione **[!UICONTROL Postpone delivery]** luego inicie el análisis y confirme la entrega. Cuando el análisis finalice, el destinatario de entrega está listo y los mensajes se envían automáticamente en la fecha especificada.
 
 Las fechas y horas se expresan en el huso horario del operador actual. La lista desplegable **[!UICONTROL Time zone]** situada debajo del campo “fecha de contacto” permite convertir automáticamente la fecha y la hora introducidas al huso horario seleccionado.
 
