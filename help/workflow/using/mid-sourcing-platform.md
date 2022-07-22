@@ -4,7 +4,7 @@ title: Mid-sourcing platform
 description: Mid-sourcing platform
 feature: Workflows
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '52'
 ht-degree: 100%
 
