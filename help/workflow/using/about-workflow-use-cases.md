@@ -5,7 +5,7 @@ description: Obtenga más información sobre los casos de uso que puede realizar
 feature: Workflows, Data Management
 exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
 ht-degree: 100%
 
@@ -67,4 +67,4 @@ Le ayudarán a descubrir los diferentes contextos en los que se pueden utilizar 
 * [Creación de filtros](creating-a-filter.md)
 * [Filtrado de destinatarios duplicados](filtering-duplicated-recipients.md)
 * [Llamada a una variable de instancia en una consulta](javascript-scripts-and-templates.md#calling-an-instance-variable-in-a-query)
-* [Aplicación de un porcentaje dividido a una población](javascript-scripts-and-templates.md#example)
+* [Aplicación de un porcentaje de división a una población](javascript-scripts-and-templates.md#example)
