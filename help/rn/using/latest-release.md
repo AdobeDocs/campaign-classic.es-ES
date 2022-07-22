@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Última versión
+title: Último lanzamiento
 description: Notas de la versión más reciente de Campaign Classic v7
 feature: Overview
 role: User
@@ -9,7 +9,7 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 0d0c97213cf8b95bbadd06f4c5666213b6c6c8f1
 workflow-type: tm+mt
 source-wordcount: '1987'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -51,7 +51,7 @@ Consulte la [Matriz de compatibilidades de Campaign](../../rn/using/compatibilit
 
 **Mejoras**
 
-* Tras el fin de vida útil de Internet Explorer 11, el motor de renderización del HTML para Adobe Services en la consola ahora utiliza Edge Chromium. Además, ahora se requiere la instalación del tiempo de ejecución de Microsoft Edge Webview 2 para cualquier instalación de la consola del cliente (Desde la versión de compilación de Campaign Classic 7.3). [Más información](../../installation/using/installing-the-client-console.md)
+* Tras el fin de vida útil de Internet Explorer 11, el motor de renderización del HTML para Adobe Services en la consola ahora utiliza Edge Chromium. Además, ahora se requiere la instalación del tiempo de ejecución de Microsoft Edge Webview 2 para cualquier instalación de la consola del cliente (desde la versión de Campaign Classic 7.3). [Más información](../../installation/using/installing-the-client-console.md)
 * Se ha mejorado la administración de conexiones de base de datos en Adobe Campaign para optimizar la estabilidad.
 * La autenticación OAuth 2.0 de Microsoft Exchange Online para POP3 ahora es compatible con Campaign. [Más información](../../installation/using/external-accounts.md#bounce-mails-external-account)
 * Se han corregido varios problemas al utilizar una actividad de flujo de trabajo de enriquecimiento con datos externos. (NEO-38069)
@@ -158,7 +158,7 @@ Adobe Campaign ahora es compatible con Windows Server 2019. Consulte la [Matriz 
 * Se ha corregido un problema que podía mostrar mensajes de error de scripts al intentar crear y configurar informes (NEO-38393).
 * Se ha corregido un problema que podría provocar que el flujo de trabajo de seguimiento falle en Oracle debido a que los altos volúmenes de indicadores de entrega se actualizan simultáneamente (NEO-39653).
 * Se ha corregido un problema que podía impedir que se enviara una entrega debido a un error que se producía al ejecutar una tipología de control (NEO-39833).
-* Se ha corregido un problema en las páginas de destino que podía impedir que los caracteres especiales se mostraran correctamente en las páginas HTML de las respuestas de encuestas en línea (NEO-39438).
+* Se ha corregido un problema en las páginas de aterrizaje que podía impedir que los caracteres especiales se mostraran correctamente en las páginas HTML de las respuestas de encuestas en línea (NEO-39438).
 * Se ha corregido un problema que podía impedir que la consola de Campaign Classic funcionara al hacer clic con el botón derecho en cualquiera de las carpetas desde la pestaña Explorer (NEO-38884).
 * Se ha corregido un error al usar una plantilla de envíos creada anteriormente y vinculada a una cuenta de Web Analytics en una nueva entrega en la que faltaba la configuración de Web Analytics. (NEO-28666)
 * Se ha corregido un problema que podía impedir que previsualizara los envíos móviles adjuntos a un flujo de trabajo.

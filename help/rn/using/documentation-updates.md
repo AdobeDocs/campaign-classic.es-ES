@@ -58,7 +58,7 @@ Se han actualizado las secciones sobre cómo enviar una dirección a cuarentena 
 
 Se ha añadido una práctica recomendada de flujo de trabajo para aconsejar que no se realicen varias solicitudes de detención en el mismo flujo de trabajo. [Más información](../../workflow/using/workflow-best-practices.md)
 
-Se ha añadido información sobre cómo detener una entrega para que no se ejecute en una campaña. [Más información](../../workflow/using/recurring-delivery.md)
+Se ha añadido información sobre cómo detener una entrega recurrente para que no se ejecute en una campaña. [Más información](../../workflow/using/recurring-delivery.md)
 
 ### Enero de 2022 {#january-2022}
 
@@ -355,7 +355,7 @@ Se ha hecho referencia a nuevos casos de uso en la lista de [casos de uso del fl
 * Automatización de la creación, edición y publicación de contenido
 * Configuración de un proceso de aprobación de destinatarios antes de enviar un envío
 * Llamada a una variable de instancia en una consulta
-* Aplicación de un porcentaje dividido a una población
+* Aplicación de un porcentaje de división a una población
 
 La sección de la actividad **[!UICONTROL AND-join]** se ha enriquecido con información adicional sobre su uso, así como con una nota sobre el uso de variables. [Más información](../../workflow/using/and-join.md)
 
@@ -463,7 +463,7 @@ Se ha actualizado las Directrices de gestión de acceso con más información so
 
 Ya está disponible una nueva sección en la que se describen las prácticas recomendadas y las recomendaciones clave al diseñar el modelo de datos de Adobe Campaign. [Más información](../../configuration/using/data-model-best-practices.md)
 
-Hay disponible una nueva sección sobre las configuraciones técnicas de correo electrónico. [Más información](../../installation/using/email-deliverability.md)
+Hay disponible una nueva sección sobre las configuraciones de correo electrónico técnicas. [Más información](../../installation/using/email-deliverability.md)
 
 El documento de preguntas frecuentes sobre la capacidad de envío se ha actualizado con más detalles sobre el mensaje de error “cuotas satisfechas”. [Más información](https://helpx.adobe.com/es/campaign/kb/acc-deliverability-faq.html#FAQ)
 
@@ -539,7 +539,7 @@ La opción &quot;WdbcOptions_TempDbName&quot; se ha agregado a la lista de opcio
 
 La página matriz de la FDA se ha movido [aquí](../../installation/using/remote-database-access-rights.md).
 
-La página matriz de derechos de acceso se ha movido [aquí](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf?lang=en).
+La página matriz de derechos de acceso se ha movido [aquí](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf?lang=es).
 
 Se ha movido la sección que describe cómo definir contenido interactivo con AMP. [Más información](../../delivery/using/defining-interactive-content.md)
 
@@ -647,7 +647,7 @@ Se ha agregado más información sobre los métodos de autenticación SOAP para 
 
 Se han actualizado los pasos de configuración de Apache. [Más información](../../installation/using/integration-into-a-web-server-for-linux.md)
 
-Se ha agregado una nueva página que incluye la lista de puntos finales de Campaign Classic. [Más información](../../installation/using/campaign-network-endpoints.md)
+Se ha agregado una nueva página que incluye la lista de extremos de Campaign Classic. [Más información](../../installation/using/campaign-network-endpoints.md)
 
 Se ha actualizado el artículo Prácticas recomendadas del paquete de datos. [Más información](../../configuration/using/data-model-best-practices.md)
 
