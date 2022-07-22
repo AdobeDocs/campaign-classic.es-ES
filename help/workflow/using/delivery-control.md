@@ -5,8 +5,8 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 feature: Workflows
 exl-id: c7cface2-0837-4e6a-91dc-b8353010a7a4
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
-source-wordcount: '164'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
