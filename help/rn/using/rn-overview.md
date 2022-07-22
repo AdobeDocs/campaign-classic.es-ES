@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 source-git-commit: d59e9f55275bac303a5ed1450bb28ef7fa0f84cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 90%
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaign Classic publica periódicamente actualizaciones de productos que aportan nuevas funciones, corrección de errores y mejora el rendimiento, la seguridad y la facilidad de uso. Estas actualizaciones se publican como compilaciones de producto. Encontrará información detallada sobre cada nueva compilación en la [Notas de la versión](latest-release.md).
+Adobe Campaign Classic publica periódicamente actualizaciones de productos que aportan nuevas funciones y corrección de errores, además mejoran el rendimiento, la seguridad y la facilidad de uso. Estas actualizaciones se publican como versiones del producto. Encontrará información detallada sobre cada nueva versión en las [Notas de la versión](latest-release.md).
 
 ## Estados de las versiones{#rn-statuses}
 
-Cada nueva compilación viene con un estado que se identifica con un color en la variable [Notas de la versión](latest-release.md).
+Cada nueva versión viene con un estado que se identifica con un color en las [Notas de la versión](latest-release.md).
 
 ![](assets/do-not-localize/green3.png) **Disponibilidad general** (GA): última compilación estable, validada en producción y recomendada por Adobe.
 
@@ -45,7 +45,7 @@ Como usuario alojado, se beneficia automáticamente de la actualización con la 
 
 Para garantizar una configuración estable, Adobe le recomienda que instale **la misma compilación** en todos los servidores que se ejecuten en la misma configuración de cliente.
 
-Además, salvo que se mencione lo contrario en la sección [Notas de la versión](latest-release.md), la consola del cliente debe estar activada **la misma compilación** como instancia de servidor.
+Además, salvo que se indique lo contrario en las [Notas de la versión](latest-release.md), la consola del cliente debe tener **la misma versión** como instancia de servidor.
 
 Para mantener la implementación actualizada, asegúrese de leer las páginas [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md) y [Matriz de compatibilidades](../../rn/using/compatibility-matrix.md) con cada nueva versión.
 
@@ -53,9 +53,9 @@ Para mantener la implementación actualizada, asegúrese de leer las páginas [F
 
 Como cliente alojado (servicio administrado o híbrido), póngase en contacto con el equipo del Servicio de atención al cliente para que se actualice su entorno.
 
-Como usuario On-Premise, puede realizar usted la actualización. Para ello, [descargue la última compilación estable (GA)](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) y actualice todos sus entornos.
+Como usuario On-Premise, puede realizar usted la actualización. Para ello, [descargue la última versión estable (GA)](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) y actualice todos sus entornos.
 
-Obtenga más información sobre [proceso de actualización](../../production/using/build-upgrade.md)y en la [preguntas frecuentes sobre la actualización de versiones](../../platform/using/faq-build-upgrade.md).
+Obtenga más información sobre el [proceso de actualización](../../production/using/build-upgrade.md) y consulte las [preguntas frecuentes sobre la actualización de la versión](../../platform/using/faq-build-upgrade.md).
 
 ## Actualización anual {#yearly-upgrade}
 
@@ -122,13 +122,13 @@ Un equipo de representantes del Servicio de atención al cliente, gerentes de pr
   </td>
 
 <td>
-      <img alt="Actualización de compilación" src="assets/do-not-localize/upgrades.png" />
+      <img alt="Generar actualización" src="assets/do-not-localize/upgrades.png" />
     <div>
     <strong>Actualizaciones más sencillas</strong>
     </a>
     </div>
     <ul>
-    <li>El esfuerzo y la complejidad de actualizar la instancia de Campaign Classic aumentan entre dos versiones (v6 —&gt; v7).</li>
+    <li>El esfuerzo y la complejidad de actualizar la instancia de Campaign Classic aumentan entre las dos versiones (la 6 y la 7).</li>
     <li>Cuanto más espere su organización, más compleja será la actualización (y mayores serán las vulnerabilidades a las que estará expuesta).</li>
     <li>Las actualizaciones regulares reducen el tiempo de inactividad para la actualización y el riesgo de regresión.</li>
     </ul>
