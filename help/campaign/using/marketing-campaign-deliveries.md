@@ -5,8 +5,8 @@ description: Más información sobre las entregas de campañas de marketing
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
-source-wordcount: '1487'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
