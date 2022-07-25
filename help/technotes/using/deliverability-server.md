@@ -3,10 +3,10 @@ product: campaign
 title: Actualización del nuevo servidor de capacidad de envío
 description: Obtenga información sobre cómo actualizar al nuevo servidor de entrega de Campaign
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: a45e18e460c11f474dc1b5663b9f4a3277fac12c
+source-git-commit: 8b8935b181b615c0a243799b14d01f778b84b715
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 22%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -58,13 +58,13 @@ Antes de iniciar la implementación, compruebe la configuración de la instancia
 
    Esta opción debe rellenarse en todas las instancias de Campaign (MKT, MID, RT, EXEC) con el valor correcto. Como cliente híbrido, póngase en contacto con el Adobe para que la opción se establezca en las instancias MID, RT y EXEC.
 
+>[!CAUTION]
+>
+>Como cliente local, si hay un cortafuegos implementado en su lado, debe agregar esta dirección URL `https://deliverability-service.adobe.io` a su lista de permitidos. [Más información](../../installation/using/url-permissions.md).
+
 ### Paso 1: Crear/actualizar el proyecto de Adobe Developer {#adobe-io-project}
 
-1. Acceso [Consola de Adobe Developer](https://developer.adobe.com/console/home) e inicie sesión con el acceso de desarrollador de su organización.
-
-   >[!NOTE]
-   >
-   > Asegúrese de haber iniciado sesión en el portal correcto de la organización.
+1. Acceso [Consola de Adobe Developer](https://developer.adobe.com/console/home) e inicie sesión con el acceso de desarrollador de su organización. Asegúrese de haber iniciado sesión en el portal correcto de la organización.
 
 1. Seleccione **[!UICONTROL Create new project]**.
    ![](assets/New-Project.png)
