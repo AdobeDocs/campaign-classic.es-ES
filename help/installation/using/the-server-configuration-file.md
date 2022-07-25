@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
+source-git-commit: acbb2144906841a6da59314b84b3faf5863cf9d6
 workflow-type: tm+mt
 source-wordcount: '7957'
 ht-degree: 10%
@@ -1046,8 +1046,6 @@ Esta es la configuración predeterminada:
 <url dnsSuffix="api.twitter.com"                         urlRegEx="https://api.twitter.com/1.1.*"              />
 <url dnsSuffix="adobeid-na1.services.adobe.com"          urlRegEx="https://.*"                                    />
 <url dnsSuffix="adobeid-na1-stg1.services.adobe.com"     urlRegEx="https://.*"                                    />
-<url dnsSuffix="deliverability.neolane.net"              urlRegEx="https://deliverability.neolane.net/jssp/dm/renderingSeed.jssp" />
-<url dnsSuffix="deliverability.neolane.net"              urlRegEx="https://deliverability.neolane.net/nl/jsp/soaprouter.jsp" />
 <url dnsSuffix="localhost"                               urlRegEx="http://localhost:8080/nms/jsp/.*"              />
 <url dnsSuffix="localhost"                               urlRegEx="http://localhost:8080/nl/jsp/.*"               />
 <url dnsSuffix="localhost"                               urlRegEx="http://localhost:8080/xtk/jsp/.*"              />
@@ -3141,7 +3139,7 @@ Para obtener más información, consulte [Seguridad y relés de página dinámic
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> status<br /> </td> 
+   <td> estado<br /> </td> 
    <td> Estado de sincronización de un recurso público (enumeración). Los valores posibles son 'normal' (ejecución normal), 'blacklist' (url agregada a lista de bloqueados en caso de error 404) y 'spare' (carga de archivos en el servidor de reserva si existe).<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> normal<br /> </td> 
