@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
-workflow-type: ht
-source-wordcount: '768'
+source-git-commit: fad7770e26bf06d13f7e2bcf136cc5386a394f50
+workflow-type: tm+mt
+source-wordcount: '763'
 ht-degree: 100%
 
 ---
@@ -344,21 +344,6 @@ Se **requieren** los siguientes sistemas operativos y exploradores para utilizar
 <p>11 (a partir de la versión 7.3 de Campaign)</p>
 <p>10 (recomendado para instancias en japonés)</p>
 <p>8</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### Navegador
-
-<table>
-<tbody>
-<tr>
-<td>
-<p>Microsoft Internet Explorer</p>
-</td>
-<td>
-<p>11</p>
 </td>
 </tr>
 </tbody>
