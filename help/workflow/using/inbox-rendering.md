@@ -4,9 +4,9 @@ title: Flujo de trabajo técnico de renderización de la bandeja de entrada
 description: En esta sección se describe el flujo de trabajo técnico instalado con el paquete de renderización de la bandeja de entrada
 feature: Workflows, Inbox Rendering
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '75'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
