@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: response-manager
 exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '455'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Estos indicadores proporcionan la siguiente información:
 * **Total margin of control group**: margen total de cada grupo de control.
 * **Average margin per contact**: media del margen total por contacto.
 * **Average margin of control groups**: media de los márgenes totales por grupo de control.
-* **Ingresos adicionales**: (Media de ingresos de los contactos-Media de ingresos por grupo de control)&#42;Número de contactos
+* **Ingresos adicionales**: (promedio de ingresos de los contactos promedio de ingresos por grupo de control)&#42;Número de contactos
 * **Additional margin**: (Media de ingresos de los contactos-Media de ingresos por grupo de control)/Número de contactos
 * **Average cost per contact**: coste calculado de la entrega/número de contactos.
 * **ROI**: coste calculado de la entrega/margen total por contacto
