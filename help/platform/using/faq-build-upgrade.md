@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
-workflow-type: ht
-source-wordcount: '2023'
-ht-degree: 100%
+source-git-commit: 56ff1f02e614a91200a8f2ca106dcc76e82f122d
+workflow-type: tm+mt
+source-wordcount: '2031'
+ht-degree: 98%
 
 ---
 
@@ -96,7 +96,7 @@ El proceso de actualización de la compilación requiere los siguientes recursos
 
 ## ¿Cómo puedo prepararme para la actualización de la compilación?
 
-En sus sistemas de desarrollo y ensayo, exporte cualquier trabajo que sea crítico y que deba preservarse. Para obtener más información, [vea este vídeo](https://helpx.adobe.com/es/campaign/classic/how-to/generate-packages-in-acv6.html).
+En sus sistemas de desarrollo y ensayo, exporte cualquier trabajo que sea crítico y que deba preservarse. Para obtener más información, [vea este vídeo](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).
 
 Actualice su conocimiento en cuanto a los flujos de trabajo y las entregas de ruta críticos desarrollados en los libros de ejecución (o por su equipo de consultoría o socio) mediante la revisión de la documentación proporcionada a su equipo al final de la implementación.
 
@@ -104,7 +104,7 @@ Identifique los tiempos de bajo volumen o bajo tráfico que sean ideales para la
 
 Revise nuestra [lista de comprobación de actualización de compilaciones ](#check-list) a continuación, así como sus planes de prueba, y asegúrese de que los recursos que pueden realizar estas pruebas estén disponibles entre 24 y 48 horas tras la finalización de una actualización.
 
-Para obtener más información, [consulte este documento](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html).
+Para obtener más información, [consulte este documento](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html).
 
 ## ¿Se pueden realizar actualizaciones de la compilación por la noche o durante las horas fuera de servicio?
 
@@ -128,7 +128,7 @@ No. Durante la actualización de la compilación, el flujo de trabajo y los serv
 
 ## ¿Seguirán funcionando los vínculos de seguimiento durante la actualización?
 
-Los vínculos de seguimiento funcionarán durante la actualización. No se pueden enviar nuevos correos electrónicos durante la actualización, pero los vínculos de seguimiento incluidos en los mensajes de correo electrónico ya enviados estarán operativos.
+El seguimiento de vínculos en correos electrónicos que ya se han enviado no funcionará durante la actualización porque se detienen todos los servidores. Volverán a estar operativos una vez finalizada la actualización y se reinicien los servidores.
 
 ## ¿Debo estar disponible durante el proceso de actualización de la compilación?
 
