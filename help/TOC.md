@@ -7,9 +7,9 @@ user-guide-description: Con Adobe Campaign, puede utilizar datos de clientes enr
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: a45e18e460c11f474dc1b5663b9f4a3277fac12c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2582'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -837,7 +837,7 @@ ht-degree: 99%
    + [Recomendaciones de tamaño de hardware](technotes/using/hardware-sizing.md)
    + Actualizaciones y compatibilidad{#technote-migration}
       + [Notas técnicas](technotes/using/technote.md)
-      + [Nuevo servidor de capacidad de envío](technotes/using/deliverability-server.md)
+      + [Nuevo servidor de capacidad de entrega](technotes/using/deliverability-server.md)
       + [Actualización de seguridad de Apache](technotes/using/acc-apache-upgrade.md)
       + [Actualizaciones de configuración de Campaign](technotes/using/acc-config-updates.md)
       + [Actualizaciones de IMS](technotes/using/ims-updates.md)
