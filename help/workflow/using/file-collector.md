@@ -5,9 +5,9 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 feature: Workflows, Data Management
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ La primera pestaña de la actividad **[!UICONTROL File collector]** permite sele
 
    * **[!UICONTROL Filter]**
 
-      Solo se tienen en cuenta los archivos que coinciden con este filtro. Los demás archivos del directorio se omiten. Si el filtro está vacío, se tendrán en cuenta todos los archivos del directorio. Ejemplos de filtros: **&#42;.zip**, **import-&#42;.txt**.
+      Solo se tienen en cuenta los archivos que coinciden con este filtro. Los demás archivos del directorio se omiten. Si el filtro está vacío, se tendrán en cuenta todos los archivos del directorio. Ejemplos de filtros: **&#42;zip**, **import-&#42;.txt**.
 
    * **[!UICONTROL Stop as soon as a file has been processed]**
 
