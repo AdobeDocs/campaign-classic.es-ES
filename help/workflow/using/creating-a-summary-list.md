@@ -5,9 +5,9 @@ description: Creación de una lista de resumen
 feature: Workflows, Data Management
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '974'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,11 +61,11 @@ Estos datos se incluyen en un archivo de texto “Compras.txt”.
 
    Para obtener más información sobre esta actividad, consulte [Carga de datos desde un archivo](../../platform/using/import-export-workflows.md#loading-data-from-a-file).
 
-1. Configure las variables **Agrupamiento de archivos** actividad para recopilar texto (&#42;.txt) escriba archivos del directorio seleccionado.
+1. Configure la actividad **Recolector de ficheros** para recopilar archivos de texto (*.txt) &#42; del directorio seleccionado.
 
    ![](assets/uc2_enrich_collecteur.png)
 
-   La actividad **Recolección de archivos** permite administrar la ausencia de un archivo en el directorio de origen. Para ello, marque la opción **[!UICONTROL Process file nonexistence]**. En este flujo de trabajo se ha agregado una actividad de **Espera** para probar otra recopilación de archivos si no se encuentra en el directorio en el momento de la recopilación.
+   La actividad **Recolector de ficheros** permite administrar la ausencia de un archivo en el directorio fuente. Para ello, marque la opción **[!UICONTROL Process file nonexistence]**. En este flujo de trabajo se ha agregado una actividad de **Espera** para probar otra recopilación de archivos si no se encuentra en el directorio en el momento de la recopilación.
 
 1. Configure la actividad **Data loading (file)** con un archivo de muestra con el mismo formato que los datos que se desean importar.
 
