@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
 source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '923'
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Adobe Campaign tiene funcionalidades de segmentación y direccionamiento potente
 
 La funcionalidad avanzada de Gestión de datos amplía las características de procesamiento de datos. Simplifica y optimiza el proceso de segmentación incluyendo información que no se encuentra en la base de datos. Esta funcionalidad se detalla en [esta página](../../workflow/using/targeting-data.md#data-management).
 
-### Organización de campañas en canales múltiples {#cross-channel-campaign-orchestration}
+### Orquestación de campañas en canales múltiples {#cross-channel-campaign-orchestration}
 
 Adobe Campaign le permite diseñar y organizar campañas dirigidas y personalizadas en varios canales: correo electrónico, correo directo, SMS, notificaciones push. Una sola interfaz proporciona todas las funcionalidades necesarias para programar, organizar, configurar, personalizar, automatizar, ejecutar y medir todas las campañas y comunicaciones. Para obtener más información sobre la programación y la ejecución de campañas, consulte [esta página](../../campaign/using/setting-up-marketing-campaigns.md).
 
