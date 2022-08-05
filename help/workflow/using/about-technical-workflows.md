@@ -4,10 +4,10 @@ title: Flujos de trabajo técnicos
 description: Obtenga más información sobre los flujos de trabajo técnicos disponibles con los paquetes de Campaign Classic.
 feature: Workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
-source-wordcount: '1714'
-ht-degree: 100%
+source-git-commit: 5bfd755ae8278a221e0f0e6f4121bfb072ebda12
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -76,6 +76,6 @@ Para obtener más información sobre la supervisión de flujos de trabajo técni
 | **Sincronización de páginas de Facebook** (syncFacebook) | Redes sociales (Marketing social) - Solo Campaign v7 | Este flujo de trabajo sincroniza las páginas de Facebook con Adobe Campaign todos los días a las 7 a. m. |
 | **Sincronización de páginas de Twitter** (syncTwitter) | Redes sociales (Marketing social) - Solo Campaign v7 | Este flujo de trabajo importa los seguidores de Twitter en Adobe Campaign todos los días a las 7 a. m. |
 | **Notificación de tareas** (taskMgt) | Recursos de Marketing (MRM) - Solo Campaign v7 | Este flujo de trabajo le permite enviar mensajes de notificación sobre las tareas de las campañas de marketing. |
-| **Seguimiento** (seguimiento) | Entrega | Este flujo de trabajo realiza la recuperación y la consolidación de la información de seguimiento. También garantiza que se recalculen las estadísticas de seguimiento y envío, especialmente las utilizadas por los flujos de trabajo de archivado del Centro de mensajes. De forma predeterminada, se activa una vez cada hora. |
+| **Seguimiento** (seguimiento)) | Entrega | Este flujo de trabajo realiza la recuperación y la consolidación de la información de seguimiento. También garantiza que se recalculen las estadísticas de seguimiento y envío, especialmente las utilizadas por los flujos de trabajo de archivado del Centro de mensajes. De forma predeterminada, se activa una vez cada hora. |
 | **Actualizar estado del evento** (updateEventsStatus) | Ejecución de mensaje transaccional (Centro de mensajes - Ejecución) | Este flujo de trabajo permite asignar un estado a un evento. Los estados de eventos son los siguientes:<ul><li>Pendiente: el evento está en cola. Aún no se le ha asociado ninguna plantilla de mensaje.</li><li>Envío pendiente: el evento está en cola, se le ha asociado una plantilla de mensaje y el envío lo está procesando en ese momento.</li><li>Enviado: este estado se copia desde los registros de envío. Significa que el envío se realizó.</li><li>Envío ignorado: este estado se copia desde los registros de envío. Significa que el envío se ha ignorado.</li><li>Error de envío: este estado se copia desde los registros de envío. Significa que el envío ha fallado.</li><li>Evento no cubierto: el evento no se ha podido asociar con una plantilla de mensaje. El evento no se vuelve a procesar.</li></ul> |
-| **Actualización para la entrega** (deliverabilityUpdate) | Entrega | Una vez instalado el paquete de monitorización de la capacidad de entrega (capacidad de entrega por correo electrónico), este flujo de trabajo se ejecuta todas las noches y gestiona las reglas de calificación de correos electrónicos de devolución, así como la lista de dominios y MX. Esto requiere que el puerto HTTPS se abra en la plataforma. |
+| **Actualización para la entrega** (deliverabilityUpdate) | Entrega | Este flujo de trabajo se ejecuta todas las noches y gestiona las reglas de cualificación de los correos electrónicos rechazados, así como la lista de dominios y los MX. Esto requiere que el puerto HTTPS se abra en la plataforma. |
