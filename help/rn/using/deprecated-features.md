@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 45c5ef3315e4208184e9c0ab5f20678646fe2d0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1624'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
   </tr>
 <tr>
  <td>N/A</td>
- <td>N/D</td>
+ <td>N/A</td>
 </tr>
  </tbody> 
 </table>
@@ -68,14 +68,14 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
  </tr>
     <tr>
   <td>Informe de monitorización de la capacidad de envío técnico<br></td>
-   <td><p>El informe de monitorización de la capacidad de envío técnica ya no está disponible. Ya no se utiliza en la versión 21.1.3 de Campaign.</p>
+   <td><p>El informe de monitorización de la capacidad de entrega técnica ya no está disponible. Ya no se utiliza en la versión 21.1.3 de Campaign.</p>
    <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
   </td>
  </tr>
   <tr>
   <td>Autenticación OAuth (OAuth y JWT)<br></td>
-  <td><p> La autenticación de integración de déclencheur basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización ahora se ha cambiado y movido a Adobe I/O. Este modo de autenticación había quedado obsoleto con la versión 20.3 de Campaign.<p>
-  <p>Si utilizaba la integración de Déclencheur, aprenda a adaptar la implementación <a href="../../integrations/using/configuring-adobe-io.md">en esta página</a>.</p> 
+  <td><p> La autenticación de la integración de los activadores, basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización, ahora se ha cambiado y se ha movido a Adobe I/O. Este modo de autenticación había quedado obsoleto con la versión 20.3 de Campaign.<p>
+  <p>Si utilizaba la integración de activadores, aprenda a adaptar la implementación <a href="../../integrations/using/configuring-adobe-io.md">en esta página</a>.</p> 
   <p>Para obtener más información sobre la depreciación de la autenticación OAuth, consulte esta <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">página</a>.</p> 
   <!--p><em>Target removal date: October 20, 2021. Hosted environments benefit from an extension until May 25, 2022. </em></p-->
   </td>
@@ -159,9 +159,9 @@ La consola del cliente de Adobe Campaign Classic ya no se puede ejecutar en los 
 ### Sistemas operativos {#o-s-eol}
 
 
-* A partir de la versión 2.1, Adobe Campaign deja de ser compatible con CentOs 8.x (64 bits). CentOS Linux 8 llegó al fin de su vida útil (EOL) el 31 de diciembre de 2021. [Más información](https://www.centos.org/centos-linux-eol/).
+* A partir de la versión 22.1, Adobe Campaign deja de ser compatible con CentOs 8 (64 bits). CentOS Linux 8 llegó al fin de su vida útil el 31 de diciembre de 2021. [Más información](https://www.centos.org/centos-linux-eol/).
 
-   Si utilizaba este sistema operativo, adapte la implementación en consecuencia. CentOS 7.x (64 bits) y RHEL 8.x/7.x (64 bits) siguen siendo compatibles.
+   Si utilizaba este sistema operativo, adapte la implementación en consecuencia. CentOS 7 (64 bits) y RHEL 8 y 7 (64 bits) siguen siendo compatibles.
 
 * A partir de la versión 21.1.3, Adobe Campaign deja de ser compatible con Debian 8.
 
@@ -234,7 +234,7 @@ Las versiones de PostgreSQL hasta 9.6 llegaron al final de su vida útil. Por lo
 
 ### Conectores SMS {#sms-eol}
 
-A partir de la versión 20.2, los conectores SMS heredados quedan obsoletos. Adobe Campaign no es compatible con:
+A partir de la versión 20.2, los conectores SMS heredados quedan obsoletos. Adobe Campaign no es compatible con lo siguiente:
 
 * SMPP genérico (SMPP versión 3.4 compatible con modo binario)
 * Sybase365 (SAP SMS 365)
