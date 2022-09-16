@@ -3,10 +3,10 @@ product: campaign
 title: Actualización del nuevo servidor de capacidad de envío
 description: Obtenga información sobre cómo actualizar al nuevo servidor de entrega de Campaign
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 38f5cb9fdeb9deceab812c6ebc158e2ab37e3155
+source-git-commit: 7385617d69c823850083a94b561d02c9152803e1
 workflow-type: tm+mt
-source-wordcount: '1235'
-ht-degree: 22%
+source-wordcount: '1317'
+ht-degree: 20%
 
 ---
 
@@ -40,7 +40,6 @@ Como **cliente local/híbrido**, debe actualizar a [Campaign v7.2.2](../../rn/us
 
 Como parte de la nueva integración del servidor de capacidad de envío, Campaign debe comunicarse con Adobe Shared Services mediante una autenticación basada en Identity Management Service (IMS). La forma preferida es utilizar el Token de puerta de enlace basado en Adobe Developer (también denominado Token de cuenta técnica o JWT de Adobe IO).
 
-
 >[!WARNING]
 >
 >Estos pasos solo deben llevarse a cabo para implementaciones híbridas y locales.
@@ -64,6 +63,11 @@ Como cliente local, también debe comprobar que una campaña **[!UICONTROL Produ
 1. Acceda a la **Producto y servicios** sección y marque **Adobe Campaign** aparece en la lista.
 Si no puede ver **Adobe Campaign** póngase en contacto [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} para agregarlo.
 1. Haga clic en **Adobe Campaign** y seleccione su organización.
+
+   >[!CAUTION]
+   >
+   >Si tiene más de una organización, asegúrese de seleccionar la correcta. Más información sobre las organizaciones [en esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
+
 1. Compruebe que **[!UICONTROL Product profile]** existe. Si no es así, créelo. No se requiere permiso para este **[!UICONTROL Product profile]**.
 
 
@@ -76,9 +80,12 @@ Si no puede ver **Adobe Campaign** póngase en contacto [Servicio de atención a
 
 1. Acceso [Consola de Adobe Developer](https://developer.adobe.com/console/home) e inicie sesión con el acceso de desarrollador de su organización. Asegúrese de haber iniciado sesión en el portal correcto de la organización.
 
+   >[!CAUTION]
+   >
+   >Si tiene más de una organización, asegúrese de seleccionar la correcta. Más información sobre las organizaciones [en esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
+
 1. Seleccione **[!UICONTROL Create new project]**.
    ![](assets/New-Project.png)
-
 
    >[!CAUTION]
    >
@@ -151,12 +158,14 @@ Ahora puede habilitar el nuevo servidor de capacidad de envío. Para realizar es
 
 Para comprobar que la integración se ha realizado correctamente, siga los pasos a continuación:
 
-
 1. Abra la consola del cliente e inicie sesión en Adobe Campaign.
 1. Vaya a **Administración > Producción > Flujos de trabajo técnicos**.
 1. Reinicie el **Actualización para la capacidad de entrega** Flujo de trabajo (deliverabilityUpdate). Esto debe realizarse en todas las instancias de Campaign (MKT, MID, RT, EXEC). Como cliente híbrido, póngase en contacto con el Adobe para que el flujo de trabajo se reinicie en las instancias MID, RT y EXEC.
 1. Registros de comprobación: el flujo de trabajo se debe ejecutar sin errores.
 
+>[!CAUTION]
+>
+>Después de la actualización, la variable **Actualizar la red semilla para la renderización de la bandeja de entrada (updateRenderingSeeds)** el flujo de trabajo debe detenerse, ya que ya no se aplicará y fallará.
 
 ## Preguntas frecuentes {#faq}
 
@@ -173,4 +182,3 @@ Las instancias de Campaign que no se actualicen antes del 31 de agosto ya no pod
 Si no actualiza su entorno, la configuración de correo electrónico dejará de sincronizarse (reglas de administración MX, reglas de correo electrónico entrante, reglas de administración de dominio y reglas de calificación de rechazos). Esto podría afectar a lo largo del tiempo a la capacidad de envío. Si se realiza un cambio significativo en estas reglas, estos deberán aplicarse manualmente a partir de este punto.
 
 Para instancias de MKT, solo [Lista global de supresión](../../campaign-opt/using/filtering-rules.md#default-deliverability-exclusion-rules) se ve afectado.
-
