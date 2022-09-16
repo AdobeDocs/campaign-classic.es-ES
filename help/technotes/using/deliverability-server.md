@@ -3,7 +3,7 @@ product: campaign
 title: Actualización del nuevo servidor de capacidad de envío
 description: Obtenga información sobre cómo actualizar al nuevo servidor de entrega de Campaign
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 9583763eb1d4403b32a1b77a9542f476c314d167
+source-git-commit: 50ef144950ca9e79b1b3acdf587ffc13e0beeec4
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 20%
@@ -62,7 +62,8 @@ Como cliente local, también debe comprobar que una campaña **[!UICONTROL Produ
 1. Como administrador, conéctese a [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}.
 1. Acceda a la **Producto y servicios** sección y marque **Adobe Campaign** aparece en la lista.
 Si no puede ver **Adobe Campaign** póngase en contacto [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} para agregarlo.
-1. Haga clic en **Adobe Campaign** y seleccione su organización. **Precaución**: Si tiene más de una organización, asegúrese de seleccionar la correcta. Más información sobre las organizaciones [en esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
+1. Haga clic en **Adobe Campaign** y seleccione su organización.
+   **Precaución**: Si tiene más de una organización, asegúrese de seleccionar la correcta. Más información sobre las organizaciones [en esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
 
 1. Compruebe que **[!UICONTROL Product profile]** existe. Si no es así, créelo. No se requiere permiso para este **[!UICONTROL Product profile]**.
 
