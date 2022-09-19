@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: fad7770e26bf06d13f7e2bcf136cc5386a394f50
-workflow-type: ht
-source-wordcount: '763'
-ht-degree: 100%
+source-git-commit: ae235d39c4a78e0a2507f6baaebbdc9986dbf995
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -199,21 +199,15 @@ Los entornos **Managed Services** (alojados), **Híbrido** y **On-Premise** pued
 <td><strong>Versión de la base de datos</strong></td>
 <td><strong>Versión de la campaña</strong></td>
 <tr>
-<tr>
-<td>Snowflake</td>
-<td> </td>
-<td>7.2.1 mínimo</td>
+<td>Amazon Redshift</td>
+<td><p> </p>
+<td>v7.0 19.1.4 mínimo</td>
+</td>
 </tr>
 <tr>
 <td>Google BigQuery</td>
 <td> </td>
 <td>7.2.1 mínimo</td>
-</tr>
-<tr>
-<td>Amazon Redshift</td>
-<td><p> </p>
-<td>v7.0 19.1.4 mínimo</td>
-</td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
@@ -223,6 +217,16 @@ Los entornos **Managed Services** (alojados), **Híbrido** y **On-Premise** pued
 <p>11.x</p>
 <p>10.x</p>
 </td>
+<td>V7.0 19.1.4 mínimo</td>
+</tr>
+<tr>
+<td>Snowflake</td>
+<td> </td>
+<td>7.2.1 mínimo</td>
+</tr>
+<tr>
+<td>verticas analytics</td>
+<td> </td>
 <td>V7.0 19.1.4 mínimo</td>
 </tr>
 </tbody>
@@ -236,14 +240,26 @@ Los entornos **Híbrido** y **On-Premise** pueden conectar a Campaign con los si
 <td><strong>Versión de la base de datos</strong></td>
 <td><strong>Versión de la campaña</strong></td>
 <tr>
-<td>Vertica</td>
-<td> </td>
-<td>V7.0 19.1.4 mínimo</td>
-</tr>
-<tr>
 <td>Microsoft Azure Synapse Analytics</td>
 <td> </td>
 <td>V7.0 19.1.4 mínimo</td>
+</tr>
+<tr><td>MySQL</td>
+<td>
+<p>8</p>
+<p>5.7</p>
+</td>
+<td>
+<p>Versión 7.3 como mínimo</p>
+<p>V7.0 mínimo</p>
+</td>
+</tr>
+<tr>
+<td>Netezza</td>
+<td>
+<p>7,2</p>
+</td>
+<td>V7.0 mínimo</td>
 </tr>
 <tr>
 <td>Oracle</td>
@@ -252,6 +268,13 @@ Los entornos **Híbrido** y **On-Premise** pueden conectar a Campaign con los si
 <p>18c</p>
 <p>12c</p>
 <p>11g </p>
+</td>
+<td>V7.0 mínimo</td>
+</tr>
+<tr>
+<td>SAP HANA</td>
+<td>
+<p>versión 1 SPS 12</p>
 </td>
 <td>V7.0 mínimo</td>
 </tr>
@@ -265,33 +288,6 @@ Los entornos **Híbrido** y **On-Premise** pueden conectar a Campaign con los si
 </td>
 <td>V7.0 mínimo</td>
 </tr>
-<tr><td>MySQL</td>
-<td>
-<p>8</p>
-<p>5.7</p>
-</td>
-<td>
-<p>Versión 7.3 como mínimo</p>
-<p>V7.0 mínimo</p>
-</td>
-</tr>
-<tr>
-<td>Teradata</td>
-<td>
-<p>16,20</p>
-<p>16</p>
-<p>15,10</p>
-<p>15,0</p>
-</td>
-<td>V7.0 mínimo</td>
-</tr>
-<tr>
-<td>Netezza</td>
-<td>
-<p>7,2</p>
-</td>
-<td>V7.0 mínimo</td>
-</tr>
 <tr>
 <td>Sybase</td>
 <td>
@@ -301,9 +297,12 @@ Los entornos **Híbrido** y **On-Premise** pueden conectar a Campaign con los si
 <td>V7.0 mínimo</td>
 </tr>
 <tr>
-<td>SAP HANA</td>
+<td>Teradata</td>
 <td>
-<p>versión 1 SPS 12</p>
+<p>16,20</p>
+<p>16</p>
+<p>15,10</p>
+<p>15,0</p>
 </td>
 <td>V7.0 mínimo</td>
 </tr>
@@ -330,6 +329,15 @@ Se **requieren** los siguientes sistemas operativos y exploradores para utilizar
 
 <table>
 <tbody>
+</tr>
+<tr>
+<td>Microsoft Windows</td>
+<td>
+<p>11 (a partir de la versión 7.3)</p>
+<p>10 (recomendado para instancias en japonés)</p>
+<p>8</p>
+</td>
+</tr>
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
@@ -337,15 +345,6 @@ Se **requieren** los siguientes sistemas operativos y exploradores para utilizar
 <p>2016</p>
 <p>2012</p>
 </td>
-</tr>
-<tr>
-<td>Microsoft Windows</td>
-<td>
-<p>11 (a partir de la versión 7.3 de Campaign)</p>
-<p>10 (recomendado para instancias en japonés)</p>
-<p>8</p>
-</td>
-</tr>
 </tbody>
 </table>
 
