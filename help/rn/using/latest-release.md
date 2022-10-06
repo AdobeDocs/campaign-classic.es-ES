@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 52e9925932e9b802a92f317b0950a1e933499b56
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2008'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Consulte la [Matriz de compatibilidades de Campaign](../../rn/using/compatibilit
 
 **Mejoras**
 
-* Tras el fin de vida útil de Microsoft Internet Explorer 11, el motor de renderización del HTML para Adobe Services (página de inicio de sesión) en la consola del cliente ahora utiliza Edge Chromium. Tenga en cuenta que Microsoft Internet Explorer 11 sigue siendo el motor de renderización del HTML para los tableros en la consola del cliente.  Además, ahora se requiere la instalación del tiempo de ejecución de Microsoft Edge Webview 2 para cualquier instalación de la consola del cliente (desde la versión de Campaign Classic 7.3). [Más información](../../installation/using/installing-the-client-console.md)
+* Tras el fin de vida útil de Microsoft Internet Explorer 11, el motor de renderización del HTML para Adobe Services (página de inicio de sesión) en la consola de cliente ahora utiliza Edge Chromium. Tenga en cuenta que Microsoft Internet Explorer 11 sigue siendo el motor de renderización del HTML para los paneles de la consola del cliente.  Además, ahora se requiere la instalación del tiempo de ejecución de Microsoft Edge Webview 2 para cualquier instalación de la consola del cliente (desde la versión de Campaign Classic 7.3). [Más información](../../installation/using/installing-the-client-console.md)
 * Se ha mejorado la administración de conexiones de base de datos en Adobe Campaign para optimizar la estabilidad.
 * La autenticación OAuth 2.0 de Microsoft Exchange Online para POP3 ahora es compatible con Campaign. [Más información](../../installation/using/external-accounts.md#bounce-mails-external-account)
 * Se han corregido varios problemas al utilizar una actividad de flujo de trabajo de enriquecimiento con datos externos. (NEO-38069)
