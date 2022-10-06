@@ -7,9 +7,9 @@ user-guide-description: Con Adobe Campaign, puede utilizar datos de clientes enr
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: f580b9b2508c279e03bd2698854aaf3de501200b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2583'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 99%
          + [Exclusión para la venta de información personal](platform/using/privacy-requests-ccpa.md)
    + Administración de perfiles {#profile-management}
       + [Acerca de los perfiles](platform/using/about-profiles.md)
-      + [Edición de un perfil](platform/using/editing-a-profile.md)
+      + [Editar un perfil](platform/using/editing-a-profile.md)
       + [Adición de perfiles](platform/using/adding-profiles.md)
       + [Administración de perfiles](platform/using/managing-profiles.md)
       + [Actualización de datos](platform/using/updating-data.md)
@@ -190,7 +190,7 @@ ht-degree: 99%
       + [Configuración de las pruebas A/B](delivery/using/configuring-a-b-testing.md)
       + Caso de uso {#use-case}
          + [Acerca de este caso de uso](delivery/using/a-b-testing-use-case.md)
-         + [Creación de un flujo de trabajo de direccionamiento](delivery/using/a-b-testing-uc-targeting-workflow.md)
+         + [Acerca de las actividades de segmentación](delivery/using/a-b-testing-uc-targeting-workflow.md)
          + [Configuración de muestras de población](delivery/using/a-b-testing-uc-population-samples.md)
          + [Creación de plantillas de envíos](delivery/using/a-b-testing-uc-delivery-templates.md)
          + [Configuración de entregas](delivery/using/a-b-testing-uc-configuring-deliveries.md)
@@ -327,11 +327,11 @@ ht-degree: 99%
       + [Traducción de una aplicación web](web/using/translating-a-web-application.md)
       + [Seguimiento de visitas en una aplicación web](web/using/tracking-a-web-application.md)
       + [Exclusión del seguimiento de aplicaciones web](web/using/web-application-tracking-opt-out.md)
-   + Edición de contenido HTML {#editing-html-content}
+   + Editar contenido HTML {#editing-html-content}
       + [Introducción al editor HTML](web/using/about-campaign-html-editor.md)
       + [Administración de plantillas](web/using/template-management.md)
       + [Interfaz del editor de contenido](web/using/content-editor-interface.md)
-      + [Edición de contenido](web/using/editing-content.md)
+      + [Editar contenido](web/using/editing-content.md)
       + [Recomendaciones para la edición de contenido](web/using/content-editing-best-practices.md)
       + [Creación de una página de aterrizaje](web/using/creating-a-landing-page.md)
       + [Caso de uso: Creación de una entrega por correo electrónico](web/using/use-case--creating-an-email-delivery.md)
@@ -408,8 +408,8 @@ ht-degree: 99%
       + [Ciclo de vida de datos](workflow/using/data-life-cycle.md)
       + [Definición de aprobaciones](workflow/using/defining-approvals.md)
       + [Arquitectura](workflow/using/architecture.md)
-   + Actividades de direccionamiento {#targeting-activities}
-      + [Acerca de las actividades de direccionamiento](workflow/using/about-targeting-activities.md)
+   + Actividades de segmentación {#targeting-activities}
+      + [Acerca de las actividades de segmentación](workflow/using/about-targeting-activities.md)
       + [Consulta](workflow/using/query.md)
       + [Consulta incremental](workflow/using/incremental-query.md)
       + [Lista de lectura](workflow/using/read-list.md)
@@ -421,7 +421,7 @@ ht-degree: 99%
       + [Ofertas por celda](workflow/using/offers-by-cell.md)
       + [Descripción del envío](workflow/using/delivery-outline.md)
       + [Enriquecimiento](workflow/using/enrichment.md)
-      + [Edición del esquema](workflow/using/edit-schema.md)
+      + [Editar esquema](workflow/using/edit-schema.md)
       + [Motor de oferta](workflow/using/offer-engine.md)
       + [Anulación de duplicación](workflow/using/deduplication.md)
       + [Cambio de dimensión](workflow/using/change-dimension.md)
@@ -678,14 +678,14 @@ ht-degree: 99%
             + [Configuración de Snowflake](installation/using/configure-fda-snowflake.md)
             + [Configuración de Sybase IQ](installation/using/configure-fda-sybase.md)
             + [Configuración de Teradata](installation/using/configure-fda-teradata.md)
-            + [Configuración de Verticas analytics](installation/using/configure-fda-vertica.md)
+            + [Configuración de Vertica Analytics](installation/using/configure-fda-vertica.md)
          + [Derechos de acceso remoto](installation/using/remote-database-access-rights.md)
          + [Conexión a la base de datos](installation/using/connecting-to-database.md)
          + [Creación del esquema de datos](installation/using/creating-data-schema.md)
          + [Definición de la asignación de datos](installation/using/defining-data-mapping.md)
    + Apéndices {#appendices}
       + [Archivo de configuración del servidor](installation/using/the-server-configuration-file.md)
-      + [Puntos finales de red de Campaign](installation/using/campaign-network-endpoints.md)
+      + [Extremos de red de Campaign](installation/using/campaign-network-endpoints.md)
       + [Líneas de comandos](installation/using/command-lines.md)
       + [Creación de nuevas instancias](installation/using/creating-new-instances.md)
       + [Lista de opciones de Campaign](installation/using/configuring-campaign-options.md)
@@ -789,7 +789,7 @@ ht-degree: 99%
       + [Ejemplos de la edición de esquemas](configuration/using/examples-of-schemas-edition.md)
    + Formularios de entrada {#input-forms}
       + [Identificación de formularios](configuration/using/identifying-a-form.md)
-      + [Edición de formularios](configuration/using/editing-forms.md)
+      + [Editar formularios](configuration/using/editing-forms.md)
       + [Estructura del formulario](configuration/using/form-structure.md)
    + API {#api}
       + [Acerca de los servicios web](configuration/using/about-web-services.md)
@@ -801,7 +801,7 @@ ht-degree: 99%
       + [Adición de funciones SQL adicionales](configuration/using/adding-additional-sql-functions.md)
    + Jerarquía de navegación {#navigation-hierarchy}
       + [Configuración de la jerarquía del explorador](configuration/using/configuration.md)
-      + [Edición de la jerarquía del explorador](configuration/using/edition.md)
+      + [Editar la jerarquía del explorador](configuration/using/edition.md)
    + Uso de una tabla de destinatarios personalizada {#use-a-custom-recipient-table}
       + [Acerca de la tabla de destinatarios personalizada](configuration/using/about-custom-recipient-table.md)
       + [Características del esquema](configuration/using/schema-characteristics.md)
