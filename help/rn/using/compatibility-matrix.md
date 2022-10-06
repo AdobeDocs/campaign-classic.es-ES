@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: ae235d39c4a78e0a2507f6baaebbdc9986dbf995
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '763'
+ht-degree: 100%
 
 ---
 
@@ -225,7 +225,7 @@ Los entornos **Managed Services** (alojados), **Híbrido** y **On-Premise** pued
 <td>7.2.1 mínimo</td>
 </tr>
 <tr>
-<td>verticas analytics</td>
+<td>Vertica Analytics</td>
 <td> </td>
 <td>V7.0 19.1.4 mínimo</td>
 </tr>
