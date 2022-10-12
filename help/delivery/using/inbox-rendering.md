@@ -4,10 +4,10 @@ title: Procesamiento de la bandeja de entrada  en Campaign
 description: Obtenga información sobre cómo capturar las renderizaciones de correo electrónico y ponerlas a disposición en un informe dedicado
 feature: Inbox Rendering, Monitoring, Email Rendering
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
-source-wordcount: '813'
-ht-degree: 100%
+source-git-commit: 048189f49623cf00f4c3f1f34ff4b795d80391ef
+workflow-type: tm+mt
+source-wordcount: '821'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,9 @@ ht-degree: 100%
 Antes de pulsar el botón **Send**, asegúrese de que su mensaje se mostrará a los destinatarios de una forma óptima en una gran variedad de clientes, correos Web y dispositivos web.
 
 Para permitir esto, Adobe Campaign aprovecha la solución de prueba de correo electrónico basada en Web [Litmus](https://litmus.com/email-testing) para detectar las irregularidades y señalarlas en un informe dedicado. Esto le permite obtener una previsualización del mensaje enviado en los diferentes contextos en los que se puede recibir y comprobar la compatibilidad en las aplicaciones y los escritorios principales.
+
+>[!CAUTION]
+>La renderización de la bandeja de entrada no es compatible con [envíos recurrentes](communication-channels.md#recurring-delivery).
 
 Litmus es una aplicación de validación y previsualización de correo electrónico con numerosas funciones. Permite a los creadores de contenido de correo electrónico obtener una previsualización del contenido de sus mensajes en más de 70 procesadores de correo electrónico, como la bandeja de entrada de Gmail o el cliente de correo de Apple.
 
