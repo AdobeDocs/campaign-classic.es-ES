@@ -2,8 +2,9 @@
 product: campaign
 title: Versiones de Campaign Classic 2018
 description: Más información sobre las actualizaciones de Campaign Classic 2018
+hidefromtoc: true
 exl-id: f70fceba-4bbf-4f33-8746-e4405a1cdae6
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+source-git-commit: c929557ee9f5467f9c3b8eb1ed25fae5399820ba
 workflow-type: tm+mt
 source-wordcount: '5385'
 ht-degree: 97%
