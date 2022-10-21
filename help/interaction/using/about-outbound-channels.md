@@ -3,8 +3,8 @@ product: campaign
 title: Acerca de los canales de salida
 description: Acerca de los canales de salida
 exl-id: 6e32dadc-097f-4380-b931-88468f3cb3b1
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+source-git-commit: d42389add06db74c54cb3a21813e9a832a2a288a
+workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 100%
 
@@ -20,6 +20,6 @@ Las ofertas se pueden presentar en varios espacios utilizando canales entrantes 
 
 Para que el motor de oferta pueda seleccionar una oferta, debe haber sido aprobada y estar disponible en un entorno en directo. Para obtener más información, consulte [Aprobación y activación de una oferta](../../interaction/using/approving-and-activating-an-offer.md).
 
-La presentación de ofertas mediante un canal de comunicación saliente se realiza mediante campañas directas de correo postal, correo electrónico o SMS, etc., por lo general en modo por lotes (consulte [Glosario](../../interaction/using/glossary.md)). También puede utilizar el modo unitario, especialmente con el Centro de mensajes (para obtener más información, consulte la guía del [Centro de mensajes](../../message-center/using/about-transactional-messaging.md)).
+La presentación de ofertas mediante un canal de comunicación saliente se realiza mediante campañas directas de correo postal, correo electrónico o SMS, etc., por lo general en modo por lotes (consulte [Glosario](../../interaction/using/i-glossary.md)). También puede utilizar el modo unitario, especialmente con el Centro de mensajes (para obtener más información, consulte la guía del [Centro de mensajes](../../message-center/using/about-transactional-messaging.md)).
 
 Hay varias opciones disponibles para presentar una oferta. Por ejemplo, a través de una entrega, una campaña, descripciones de la entrega o incluso a través de actividades de flujo de trabajo.
