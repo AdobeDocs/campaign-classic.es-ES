@@ -6,10 +6,10 @@ role: User, Data Architect
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: d42389add06db74c54cb3a21813e9a832a2a288a
+source-git-commit: ecd82fe432d44f14b48b162224dd88bb0f6e6f64
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 6%
+source-wordcount: '560'
+ht-degree: 16%
 
 ---
 
@@ -41,6 +41,43 @@ Una actividad es un elemento de paleta que se añade a un flujo de trabajo para 
 Más información sobre [Actividades de flujo de trabajo](../../workflow/using/about-activities.md).
 +++
 
++++**Conector de ACS**
+
+El conector ACS (Prime offer) vincula Adobe Campaign v7 y Adobe Campaign Standard. Se trata de una función integrada en Campaign v7 que duplica automáticamente los datos en Campaign Standard, lo que une lo mejor de ambas aplicaciones. Campaign v7 cuenta con herramientas avanzadas para administrar la base de datos principal de marketing. La duplicación de datos de Campign v7 permite a Campaign Standard aprovechar los datos enriquecidos en un entorno fácil de usar.
+
+Más información sobre [Conector ACS](../../integrations/using/acs-connector-principles-and-data-cycle.md).
++++
+
++++**Perfil activo**
+
+Los perfiles se consideran activos si se han segmentado o si se ha comunicado con ellos en los últimos 12 meses. Según el contrato, cada una de las instancias de Campaign se aprovisiona con un número específico de perfiles activos que se contabilizan a efectos de facturación.
+
+Más información sobre [Perfiles activos](about-profiles.md#active-profiles).
++++
+
+
++++**Actividad del flujo de trabajo de aprobación**
+
+*Contexto: Marketing distribuido de campañas*
+
+La actividad Local Approval es una actividad de flujo de trabajo que se utiliza para configurar un proceso de aprobación de envíos antes de que se envíen los mensajes.
+
+Obtenga más información sobre [Actividad de aprobación local](../../workflow/using/local-approval.md).
++++
+
++++**Audiencia**
+
+Una audiencia es el conjunto resultante de perfiles que cumplen los criterios de una definición de filtro, según reglas y atributos.
+
+Más información sobre [Audiencias](../../campaign/using/marketing-campaign-target.md).
++++
+
++++**Pista de auditoría**
+
+La pista de auditoría captura, en tiempo real, una lista completa de las acciones y eventos que se producen dentro de la instancia de Adobe Campaign. Incluye una forma de autoservicio de acceder a un historial de datos para responder preguntas como: qué ha pasado con sus flujos de trabajo y quién los actualizó por última vez o qué han hecho los usuarios en la instancia.
+
+Más información sobre [Pista de auditoría](../../production/using/audit-trail.md).
++++
 
 ## E - H {#sec-2}
 
