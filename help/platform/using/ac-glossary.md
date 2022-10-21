@@ -6,16 +6,16 @@ role: User, Data Architect
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ecd82fe432d44f14b48b162224dd88bb0f6e6f64
+source-git-commit: d898a43b7a3f826a63a754f9fcb76953a696f3fb
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '572'
 ht-degree: 16%
 
 ---
 
 # Glosario de Adobe Campaign{#ac-glossary}
 
-A continuación se muestra la definición de los términos y conceptos clave de Adobe Campaign
+A continuación se muestra la definición de los términos y conceptos clave en Adobe Campaign, con vínculos a la documentación relacionada. Haga clic en un término para mostrar su definición.
 
 ## A - D{#sec-1}
 
@@ -28,7 +28,7 @@ Más información sobre [Pruebas A/B](../../delivery/using/get-started-a-b-testi
 
 +++**Gestión de acceso**
 
-La administración de acceso permite a los administradores asignar acceso y permisos a los usuarios de Adobe Campaign. Los permisos incluyen la capacidad de ver o usar funciones de Adobe Campaign, como ejecutar flujos de trabajo, definir esquemas y administrar audiencias
+La administración de acceso permite a los administradores asignar acceso y permisos a los usuarios de Adobe Campaign. Los permisos incluyen la capacidad de ver o usar funciones de Adobe Campaign, como ejecutar flujos de trabajo, definir esquemas y administrar audiencias.
 
 Más información sobre [Gestión de acceso](access-management.md).
 +++
