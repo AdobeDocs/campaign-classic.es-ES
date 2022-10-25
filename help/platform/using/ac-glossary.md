@@ -6,9 +6,9 @@ role: User, Data Architect
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 8aa45f4e9d41b7dc4faf89dad988703b63cea77c
+source-git-commit: cd26bf082d891e55bce489256dd9d43a1e3f243c
 workflow-type: tm+mt
-source-wordcount: '6454'
+source-wordcount: '6453'
 ht-degree: 12%
 
 ---
@@ -51,7 +51,7 @@ Más información sobre [Actividades de flujo de trabajo](../../workflow/using/a
 
 Los perfiles se consideran activos si se han segmentado o si se ha comunicado con ellos en los últimos 12 meses. Según el contrato, cada una de las instancias de Campaign se aprovisiona con un número específico de perfiles activos que se contabilizan a efectos de facturación.
 
-Más información sobre [Perfiles activos](about-profiles.md#active-profiles).
+Más información sobre [Perfiles activos](../../platform/using/about-profiles.md#active-profiles).
 +++
 
 +++**Actividad del flujo de trabajo de aprobación**
@@ -759,7 +759,7 @@ Más información sobre [Planes](../../campaign/using/setting-up-marketing-campa
 
 Los filtros predefinidos son consultas que se han guardado para su reutilización. El uso de filtros predefinidos aumenta la productividad (ya que solo se crean una vez), ayuda a crear coherencia (ya que todos los especialistas en marketing pueden utilizarlos) y reduce las habilidades necesarias para el especialista en marketing, ya que pueden utilizar código o lógica que es posible que no puedan crear ellos mismos.
 
-Más información sobre [Filtros predefinidos](../../platforrm/using/creating-filters.md).
+Más información sobre [Filtros predefinidos](../../configuration/using/creating-filters.md).
 +++
 
 <!--
@@ -775,14 +775,14 @@ Learn more about [Predictive Engagement Scoring](../../platforrm/using/creating-
 
 La clave principal es el identificador único de cada registro de una tabla de la base de datos. Una tabla debe tener al menos una clave. Como regla, las claves se declaran después del elemento principal del esquema y los índices. Las claves principales no pueden estar compuestas (incluyen varios campos).
 
-Más información sobre [Clave principal](../../configuration/using/key.md).
+Más información sobre [Clave principal](../../configuration/using/schema/key.md).
 +++
 
 +++**Perfil**
 
 Un perfil es un registro de información que representa a un cliente final, a un cliente potencial o a un posible cliente. Cada perfil corresponde a un registro de la tabla nmsRecipient o a una tabla externa que contiene el ID de cookie, el ID de cliente, el identificador móvil u otra información relacionada con un canal determinado.
 
-Más información sobre [Perfiles](../../platforrm/using/about-profiles.md).
+Más información sobre [Perfiles](../../platform/using/about-profiles.md).
 +++
 
 +++**Programa**
@@ -900,7 +900,7 @@ Más información sobre [Datos de Target](../../workflow/using/data-life-cycle.m
 
 Es la asignación de canales de envío a un tipo de datos específico. Adobe Campaign no envía a direcciones de correo electrónico ni números de teléfono en sí, sino a tipos de datos. Los mapas de destino (a veces llamados mapas de envío) definen cómo los distintos canales de envío vinculan los campos de datos de un esquema. Define cómo envía Campaign a ese tipo de datos utilizando un campo o expresión específicos.
 
-Más información sobre [Datos de Target](../../workflow/using/define-the-right-audience.md#target-mappings).
+Más información sobre [Datos de Target](../../delivery/using/define-the-right-audience.md#target-mappings).
 +++
 
 +++**Actividades de segmentación**
@@ -1000,7 +1000,7 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 
 Las reglas de tipología son reglas comerciales que se implementan como parte de la fase de análisis de la entrega. Las reglas de tipología son comprobaciones del contenido de la entrega (Reglas de control) o del objetivo de la entrega (Reglas de filtrado) u otra lógica (Reglas de presión) que hacen cumplir los requisitos comerciales. Las reglas son elementos granulares que se pueden incluir en una o más tipologías.
 
-Más información sobre [Tipologías](../../campaign/using/about-campaign-typologies.md#typology-rules).
+Más información sobre [Tipologías](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
 +++
 
 +++**Tipología**
@@ -1009,7 +1009,7 @@ Más información sobre [Tipologías](../../campaign/using/about-campaign-typolo
 
 Una tipología es una agrupación de reglas de tipología que se aplican a la fase de análisis de una entrega. Una tipología de campaña puede contener varias reglas de tipología, pero una entrega solo puede hacer referencia a una tipología.
 
-Más información sobre [Tipologías](../../campaign/using/about-campaign-typologies.md#typologies).
+Más información sobre [Tipologías](../../campaign-opt/using/about-campaign-typologies.md#typologies).
 +++
 
 ## U - Z {#sec-6}
@@ -1018,7 +1018,7 @@ Más información sobre [Tipologías](../../campaign/using/about-campaign-typolo
 
 *Contexto: Interacción de campaña, mensajería transaccional*
 
-En el modo unitario son, el motor de oferta procesa un solo contacto durante la ejecución. Este modo se utiliza generalmente para interacciones entrantes y mensajes transaccionales.
+En el modo unitario, el motor de oferta procesa un solo contacto durante la ejecución. Este modo se utiliza generalmente para interacciones entrantes y mensajes transaccionales.
 
 Más información sobre [Modo unitario](../../interaction/using/about-inbound-channels.md).
 +++
