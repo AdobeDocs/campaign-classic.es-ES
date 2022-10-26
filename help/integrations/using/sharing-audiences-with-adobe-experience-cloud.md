@@ -31,7 +31,7 @@ Con Adobe Campaign, puede compartir audiencias y segmentos con las soluciones y 
 
    * Exportación de listas en la forma de audiencias compartidas de Adobe Experience Cloud. Estas audiencias pueden utilizarse con las diferentes soluciones de Adobe Experience Cloud que utiliza. Las audiencias se pueden exportar después de la segmentación en un flujo de trabajo con la actividad específica **[!UICONTROL Update shared audience]**.
 
-Esta integración es compatible con dos tipos de Adobe ID Experience Cloud:
+Esta integración es compatible con dos tipos de ID de Adobe Experience Cloud:
 
 * **ID de visitante**: este tipo de identificador concilia los visitantes de Adobe Experience Cloud con los destinatarios de Adobe Campaign.
 * **ID declarada**: este tipo de identificador concilia todo tipo de datos con los elementos de la base de datos de Adobe Campaign. Se representa en Adobe Campaign como una clave de reconciliación predefinida.
