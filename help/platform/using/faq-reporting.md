@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: b29340a0-954d-41e4-b0a3-9d356e4dc753
-source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 100%
@@ -43,7 +43,7 @@ Puede ampliar las capacidades de análisis y exploración de base de datos al mi
 
 Una vez que se han creado y configurado, los cubos se utilizan en las casillas de consulta de los informes y en las aplicaciones web. Se pueden utilizar y manipular dentro de las tablas dinámicas.
 
-Descubra cómo [explorar sus datos](../../reporting/using/using-cubes-to-explore-data.md) con cubos.
+Descubra cómo [explorar sus datos](../../reporting/using/ac-cubes.md) con cubos.
 
 ## ¿Se puede crear un informe a partir de respuestas a una encuesta en línea? {#can-i-create-a-report-from-answers-to-an-online-survey-}
 

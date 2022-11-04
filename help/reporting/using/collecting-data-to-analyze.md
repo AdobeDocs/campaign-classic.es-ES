@@ -4,8 +4,8 @@ title: Recopilación de datos para analizar
 description: Recopilación de datos para analizar
 feature: Reporting
 exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ Se puede seleccionar un cubo para definir la consulta.
 
 ![](assets/reporting_query_from_cube.png)
 
-Los cubos permiten ampliar la capacidad de análisis y exploración de la base de datos al mismo tiempo que facilitan la configuración de los informes y las tablas para los usuarios finales: simplemente seleccione un cubo ya existente y completamente configurado y utilice sus cálculos, medidas y estadísticas. Para obtener más información sobre la creación de cubos, consulte [esta sección](../../reporting/using/about-cubes.md).
+Los cubos permiten ampliar la capacidad de análisis y exploración de la base de datos al mismo tiempo que facilitan la configuración de los informes y las tablas para los usuarios finales: simplemente seleccione un cubo ya existente y completamente configurado y utilice sus cálculos, medidas y estadísticas. Para obtener más información sobre la creación de cubos, consulte [esta sección](../../reporting/using/ac-cubes.md).
 
 Haga clic en el vínculo **[!UICONTROL Edit query...]** y seleccione los indicadores que desee visualizar o utilizar en el informe.
 

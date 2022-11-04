@@ -3,10 +3,10 @@ product: campaign
 title: Instalación de paquetes integrados de Campaign Classic
 description: Obtenga información sobre cómo instalar los paquetes integrados de Campaign
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
 workflow-type: tm+mt
 source-wordcount: '1254'
-ht-degree: 14%
+ht-degree: 22%
 
 ---
 
@@ -124,7 +124,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
    <td> Todo<br /> </td> 
   </tr> 
    <tr> 
-   <td> Canal telefónico<br /> </td> 
+   <td> Canal de teléfono<br /> </td> 
    <td> Envía envíos utilizando el canal telefónico con Adobe Campaign. Se utiliza para el centro de llamadas. Opcional. <a href="../../delivery/using/communication-channels.md">Más información</a> <br /> </td> 
    <td> Todo<br /> </td> 
   </tr> 
@@ -145,7 +145,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Marketing Analytics<br /> </td> 
-   <td> Permite analizar y medir datos, calcular estadísticas, simplificar y optimizar la creación y el cálculo de informes. Además, puede crear informes y grupos de destinatarios. Opcional. <a href="../../reporting/using/about-cubes.md">Más información</a><br /> </td> 
+   <td> Permite analizar y medir datos, calcular estadísticas, simplificar y optimizar la creación y el cálculo de informes. Además, puede crear informes y grupos de destinatarios. Opcional. <a href="../../reporting/using/ac-cubes.md">Más información</a><br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -221,7 +221,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   <tr> 
    <td> Mid-sourcing platform<br /> </td> 
    <td> Esta configuración es una solución intermedia óptima entre una configuración alojada (ASP) y la internalización. Los componentes de ejecución orientados al exterior se llevan a cabo en un servidor "intermediario" alojado en Adobe Campaign. Opcional. <a href="../../installation/using/mid-sourcing-server.md">Más información</a> <br /> </td> 
-   <td> Mid-sourcing </td> 
+   <td> Intermediario </td> 
   </tr> 
   <tr> 
    <td> Compatibilidad con AMP<br /> </td> 

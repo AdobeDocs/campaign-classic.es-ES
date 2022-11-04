@@ -4,8 +4,8 @@ title: Creación de una tabla
 description: Creación de una tabla
 feature: Reporting
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+workflow-type: tm+mt
 source-wordcount: '2495'
 ht-degree: 100%
 
@@ -464,4 +464,4 @@ Este tipo de tabla le permite mostrar estadísticas calculadas en los datos de l
 
 El asistente de análisis descriptivo utiliza una configuración similar a estos tipos de informes. Para obtener más información, consulte [esta página](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-quantitative-distribution-template).
 
-Para obtener más información sobre la creación de una tabla dinámica, consulte [esta sección](../../reporting/using/using-cubes-to-explore-data.md).
+Para obtener más información sobre la creación de una tabla dinámica, consulte [esta sección](../../reporting/using/ac-cubes.md).

@@ -3,9 +3,11 @@ product: campaign
 title: Uso de cubos para explorar datos
 description: Uso de cubos para explorar datos
 feature: Reporting
+hide: true
+hidefromtoc: true
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 100%
 
@@ -23,7 +25,7 @@ Marketing Analytics facilita la creación de informes y la identificación y sel
 
 >[!NOTE]
 >
->Se requiere Marketing Analytics para crear o modificar los cubos. Para más información, consulte [Sobre cubos](../../reporting/using/about-cubes.md).
+>Se requiere Marketing Analytics para crear o modificar los cubos. Para más información, consulte [Sobre cubos](../../reporting/using/ac-cubes.md).
 
 ## Exploración de los datos de un informe {#exploring-the-data-in-a-report}
 

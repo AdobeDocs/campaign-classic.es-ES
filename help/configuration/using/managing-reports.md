@@ -3,7 +3,7 @@ product: campaign
 title: Administrar informes
 description: Administrar informes
 exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 4%
@@ -18,7 +18,7 @@ Los informes basados en un esquema específico para los destinatarios predetermi
 
 Para crear nuevos informes, consulte [esta sección](../../reporting/using/about-reports-creation-in-campaign.md).
 
-En algunos casos, también debe colocar nuevos cubos específicos de estas tablas. Los cubos se detallan en [esta sección](../../reporting/using/about-cubes.md).
+En algunos casos, también debe colocar nuevos cubos específicos de estas tablas. Los cubos se detallan en [esta sección](../../reporting/using/ac-cubes.md).
 
 Los siguientes informes se refieren a:
 

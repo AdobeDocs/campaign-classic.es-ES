@@ -4,7 +4,7 @@ title: Acerca de las herramientas del sistema de informes de Adobe Campaign
 description: Analice el éxito de sus campañas en informes integrados o personalizados.
 feature: Reporting
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
@@ -39,7 +39,7 @@ Adobe Campaign proporciona varias herramientas de sistema de informes:
 
 1. **Analysis reports**: Marketing Analytics permite la exploración intuitiva de datos.
 
-   Para obtener más información, consulte [esta sección](../../reporting/using/about-cubes.md).
+   Para obtener más información, consulte [esta sección](../../reporting/using/ac-cubes.md).
 
 >[!CAUTION]
 >

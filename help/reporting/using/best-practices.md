@@ -4,8 +4,8 @@ title: Prácticas recomendadas para la creación de informes
 description: Prácticas recomendadas para la creación de informes de Campaign
 feature: Reporting
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: ht
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 100%
 
@@ -29,13 +29,13 @@ Para optimizar la creación, el uso y la duración de un informe, debe revisar l
 
    Por ejemplo, puede:
 
-   * Explore los datos de la base de datos y defina las medidas. Obtenga más información [en esta sección](../../reporting/using/about-cubes.md)
+   * Explore los datos de la base de datos y defina las medidas. Obtenga más información [en esta sección](../../reporting/using/ac-cubes.md)
    * Añada indicadores a un informe existente. Obtenga más información [en esta sección](../../reporting/using/about-reports-creation-in-campaign.md)
    * Vista de los datos en la base de datos. Obtenga más información [en esta sección](../../reporting/using/about-descriptive-analysis.md)
    * Creación de un nuevo informe de envío. Obtenga más información [en esta sección](../../reporting/using/about-reports-creation-in-campaign.md)),
    * Exportar datos de la base de datos de Adobe Campaign (a través de un flujo de trabajo, consulte [esta sección](../../workflow/using/about-workflows.md)).
    * Cree una tabla dinámica. Obtenga más información [en esta sección](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)
-   * Explorar datos agregados. Obtenga más información [en esta sección](../../reporting/using/about-cubes.md)
+   * Explorar datos agregados. Obtenga más información [en esta sección](../../reporting/using/ac-cubes.md)
    * Utilice un asistente para analizar los datos. Obtenga más información [en esta sección](../../reporting/using/about-descriptive-analysis.md)
    * Analice grandes volúmenes de datos. Obtenga más información [en esta sección](../../reporting/using/about-reports-creation-in-campaign.md)
 

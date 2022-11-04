@@ -3,9 +3,11 @@ product: campaign
 title: Prácticas recomendadas para cubos
 description: Prácticas recomendadas para cubos
 feature: Reporting
+hide: true
+hidefromtoc: true
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 100%
 
@@ -127,8 +129,6 @@ Los volúmenes de datos más grandes se pueden calcular en acumulados.
 Los acumulados son útiles para manipular grandes volúmenes de datos. Se actualizan automáticamente según la configuración definida en la casilla de flujo de trabajo dedicado para integrar los datos recopilados recientemente en los indicadores.
 
 Los acumulados se definen en la pestaña correspondiente de cada cubo.
-
-![](assets/s_advuser_cube_agregate_01.png)
 
 >[!NOTE]
 >

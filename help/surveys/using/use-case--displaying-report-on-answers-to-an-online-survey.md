@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: '"Ejemplo de uso: Visualización del informe de las respuestas a una encuesta online"'
-description: '"Ejemplo de uso: Visualización del informe de las respuestas a una encuesta online"'
+title: "Ejemplo de uso: Visualización del informe de las respuestas a una encuesta online"
+description: "Ejemplo de uso: Visualización del informe de las respuestas a una encuesta online"
 feature: Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ Para recopilar las respuestas a la encuesta, realice los pasos siguientes:
 
 ## Paso 2: Creación del cubo, sus medidas y sus indicadores {#step-2---creating-the-cube--its-measures-and-its-indicators}
 
-Después, puede crear el cubo y configurar sus medidas: se utilizan para crear los indicadores que se van a mostrar en el informe. Para obtener más información sobre la creación y configuración de los cubos, consulte [Acerca de cubos](../../reporting/using/about-cubes.md).
+Después, puede crear el cubo y configurar sus medidas: se utilizan para crear los indicadores que se van a mostrar en el informe. Para obtener más información sobre la creación y configuración de los cubos, consulte [Acerca de cubos](../../reporting/using/ac-cubes.md).
 
 En este ejemplo, el cubo se basa en los datos de la lista suministrados por el flujo de trabajo creado anteriormente.
 

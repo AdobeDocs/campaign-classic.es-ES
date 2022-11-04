@@ -4,9 +4,9 @@ title: Actualización del agregado
 description: Descubra más información acerca de la actividad del flujo de trabajo Actualización de agregado
 feature: Workflows
 exl-id: d2b26af0-30a1-4852-acd5-996795f198a1
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
-source-wordcount: '97'
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+workflow-type: tm+mt
+source-wordcount: '123'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,12 @@ ht-degree: 100%
 
 Los agregados se especifican en el nivel de cubo para fines de creación de informes. Una pestaña **[!UICONTROL Workflow]** está disponible al configurar un acumulado.
 
-Para obtener más información sobre los cubos y el uso de los acumulados en Adobe Campaign, consulte la [sección](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).
+Los acumulados son útiles para manipular grandes volúmenes de datos. Se actualizan automáticamente según la configuración definida en la casilla de flujo de trabajo dedicado para integrar los datos recopilados recientemente en los indicadores.
+
+Los acumulados se definen en la pestaña correspondiente de cada cubo.
+
+![](assets/s_advuser_cube_agregate_01.png)
+
 
 La actividad **[!UICONTROL Update aggregate]** permite seleccionar el modo de actualización para aplicar: completo o parcial.
 
