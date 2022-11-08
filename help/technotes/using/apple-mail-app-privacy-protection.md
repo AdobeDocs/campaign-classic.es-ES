@@ -3,10 +3,10 @@ product: campaign
 title: Protección de privacidad de correo en la aplicación de correo de Apple
 description: Descubra cómo sus campañas podrían verse afectadas por la función de protección de privacidad de correo de Apple
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
-source-git-commit: 1a9e0f8bf374e10af938d15dcebe943819ae327b
+source-git-commit: 43d9eac2ed161465ca00ee4f511e4c020b4c44a2
 workflow-type: tm+mt
-source-wordcount: '2100'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ En 2021, Apple introdujo nuevas funciones de protección de privacidad para su a
 
 ## ¿Cómo se ven afectadas mis campañas?
 
-Adobe Campaign ofrece la capacidad de usar píxeles de seguimiento para rastrear las aperturas de correo electrónico. Puede utilizar esta capacidad no solo para objetivos y campañas, sino también para métricas. Por ejemplo, puede utilizar las tasas de apertura de correo electrónico para medir la eficacia de la campaña y la participación del usuario. En resumen, la segmentación, el direccionamiento y las métricas pueden verse afectadas en sus campañas. [Más información](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html#in-addition-to-measuring-opens%2C-what-else-is-impacted%3F){target=&quot;_blank&quot;}.
+Adobe Campaign ofrece la capacidad de usar píxeles de seguimiento para rastrear las aperturas de correo electrónico. Puede utilizar esta capacidad no solo para objetivos y campañas, sino también para métricas. Por ejemplo, puede utilizar las tasas de apertura de correo electrónico para medir la eficacia de la campaña y la participación del usuario. En resumen, la segmentación, el direccionamiento y las métricas pueden verse afectadas en sus campañas.
 
 ## ¿Qué acciones debo realizar?
 
@@ -450,7 +450,3 @@ Estos ejemplos muestran cómo se pueden utilizar flujos de trabajo para desglosa
    Este tipo de flujo de trabajo resulta útil si almacena destinatarios en una tabla que no sea la lista de distribución predeterminada.
 
    ![](assets/export-tracking-data-wkf-2.png)
-
-## Vínculos útiles
-
-[Preguntas frecuentes sobre la protección de la privacidad de correo de Apple](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html){target=&quot;_blank&quot;}

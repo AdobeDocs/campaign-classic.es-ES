@@ -3,10 +3,10 @@ keywords: Campaign Classic, inicio, temas populares
 product: campaign
 title: Documentación del producto de Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+source-git-commit: 43d9eac2ed161465ca00ee4f511e4c020b4c44a2
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,8 +19,6 @@ ht-degree: 100%
 * **[Programa de versiones de 2022](technotes/using/dc-migration.md)**<br/> Actualice su entorno y mejore la seguridad, la infraestructura y el rendimiento
 
 * **[Ya está aquí la versión de julio.](rn/using/latest-release.md)**<br/> Descubra nuevas funcionalidades, mejoras y correcciones en las notas de la versión
-
-* **[Preguntas frecuentes sobre la protección de privacidad del correo de Apple](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=es)** y **[nota técnica](technotes/using/apple-mail-app-privacy-protection.md)**<br/> Encuentre instrucciones en respuesta al anuncio de Apple sobre iOS 15
 
 * **[Quite los mensajes devueltos no válidos incorrectos](delivery/using/update-bounce-qualification.md)**<br/> Aprenda a actualizar los mensajes devueltos no válidos incorrectos tras la interrupción de Apple.
 
