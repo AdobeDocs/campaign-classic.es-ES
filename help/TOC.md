@@ -8,8 +8,8 @@ sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: e91024df3ee2ed761035806f62ddc679c52039d9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2570'
+ht-degree: 100%
 
 ---
 
@@ -116,15 +116,15 @@ ht-degree: 0%
    + [Opciones de ayuda y asistencia](support.md)
 + Creación y envío de mensajes {#sending-messages}
    + [Introducción a los mensajes](delivery/using/communication-channels.md)
-   + Pasos clave al crear una entrega {#key-steps-when-creating-a-delivery}
-      + [Introducción a las entregas](delivery/using/steps-about-delivery-creation-steps.md)
-      + [Creación e identificación de una entrega](delivery/using/steps-create-and-identify-the-delivery.md)
+   + Pasos clave al crear un envío {#key-steps-when-creating-a-delivery}
+      + [Introducción a las envíos](delivery/using/steps-about-delivery-creation-steps.md)
+      + [Crear e identificar un envío](delivery/using/steps-create-and-identify-the-delivery.md)
       + [Definición de la audiencia](delivery/using/steps-defining-the-target-population.md)
-      + [Validación de la entrega](delivery/using/steps-validating-the-delivery.md)
+      + [Validación de la envíos](delivery/using/steps-validating-the-delivery.md)
       + [Envío de la entrega](delivery/using/steps-sending-the-delivery.md)
-      + Prácticas recomendadas relacionadas con las entregas {#delivery-bestpractices}
+      + Prácticas recomendadas relacionadas con los envíos {#delivery-bestpractices}
          + [Conozca las prácticas recomendadas](delivery/using/delivery-best-practices.md)
-         + [Optimización de las entregas](delivery/using/optimize-delivery.md)
+         + [Optimización de las envíos](delivery/using/optimize-delivery.md)
          + [Uso de plantillas](delivery/using/use-templates.md)
          + [Creación de contenido personalizado](delivery/using/design-and-personalize.md)
          + [Definición de la audiencia correcta](delivery/using/define-the-right-audience.md)
@@ -132,7 +132,7 @@ ht-degree: 0%
          + [Seguimiento y monitorización](delivery/using/track-and-monitor.md)
    + Envío de correos electrónicos {#sending-emails}
       + [Acerca del canal de correo electrónico](delivery/using/about-email-channel.md)
-      + [Creación de una entrega de correo electrónico](delivery/using/creating-an-email-delivery.md)
+      + [Crear un envío de correo electrónico](delivery/using/creating-an-email-delivery.md)
       + [Definición del contenido del correo electrónico](delivery/using/defining-the-email-content.md)
       + [Definición del contenido interactivo](delivery/using/defining-interactive-content.md)
       + Envío de la entrega de correo electrónico {#sending-an-email}
@@ -163,15 +163,15 @@ ht-degree: 0%
       + [Solución de problemas](delivery/using/troubleshooting.md)
    + Envío de correo directo {#sending-direct-mail}
       + [Acerca del canal de correo directo](delivery/using/about-direct-mail-channel.md)
-      + [Creación de una entrega de correo directo](delivery/using/creating-a-direct-mail-delivery.md)
+      + [Crear un envío de correo directo](delivery/using/creating-a-direct-mail-delivery.md)
       + [Definición del contenido de correo postal](delivery/using/defining-the-direct-mail-content.md)
       + [Validación](delivery/using/validating.md)
-   + Uso de plantillas de entrega {#using-delivery-templates}
+   + Uso de plantillas de envíos {#using-delivery-templates}
       + [Acerca de las plantillas](delivery/using/about-templates.md)
-      + [Creación de una plantilla de entregas](delivery/using/creating-a-delivery-template.md)
+      + [Crear una plantilla de envíos](delivery/using/creating-a-delivery-template.md)
       + [Selección de una asignación de destino](delivery/using/selecting-a-target-mapping.md)
-      + [Creación de una entrega a partir de una plantilla](delivery/using/creating-a-delivery-from-a-template.md)
-   + Personalización de entregas {#personalizing-deliveries}
+      + [Crear un envío a partir de una plantilla](delivery/using/creating-a-delivery-from-a-template.md)
+   + Personalizar los envíos {#personalizing-deliveries}
       + [Acerca de la personalización](delivery/using/about-personalization.md)
       + [Campos de personalización](delivery/using/personalization-fields.md)
       + [Bloques de personalización](delivery/using/personalization-blocks.md)
@@ -191,12 +191,12 @@ ht-degree: 0%
       + [Configuración de las pruebas A/B](delivery/using/configuring-a-b-testing.md)
       + Caso de uso {#use-case}
          + [Acerca de este caso de uso](delivery/using/a-b-testing-use-case.md)
-         + [Acerca de las actividades de segmentación](delivery/using/a-b-testing-uc-targeting-workflow.md)
+         + [Crear un flujo de trabajo de segmentación](delivery/using/a-b-testing-uc-targeting-workflow.md)
          + [Configuración de muestras de población](delivery/using/a-b-testing-uc-population-samples.md)
          + [Creación de plantillas de envíos](delivery/using/a-b-testing-uc-delivery-templates.md)
-         + [Configuración de entregas](delivery/using/a-b-testing-uc-configuring-deliveries.md)
+         + [Configuración de envíos](delivery/using/a-b-testing-uc-configuring-deliveries.md)
          + [Creación de script](delivery/using/a-b-testing-uc-script.md)
-         + [Definición de la entrega final](delivery/using/a-b-testing-uc-final-delivery.md)
+         + [Definición del envío final](delivery/using/a-b-testing-uc-final-delivery.md)
          + [Inicio del flujo de trabajo](delivery/using/a-b-testing-uc-start-workflow.md)
          + [Análisis del resultado](delivery/using/a-b-testing-uc-analyzing.md)
    + Servicios y suscripciones {#subscriptions-and-referrals}
@@ -206,11 +206,11 @@ ht-degree: 0%
    + Monitorización de envíos {#monitoring-deliveries}
       + [Introducción a la monitorización de envíos](delivery/using/about-delivery-monitoring.md)
       + [Acceso a la lista de envíos](delivery/using/list-of-deliveries.md)
-      + [Tablero de entregas](delivery/using/delivery-dashboard.md)
-      + [Prácticas recomendadas sobre el rendimiento de las entregas](delivery/using/delivery-performances.md)
-      + [Solución de problemas de entrega](delivery/using/delivery-troubleshooting.md)
-      + [Estados de entrega](delivery/using/delivery-statuses.md)
-      + [Comprensión de los errores de entrega](delivery/using/understanding-delivery-failures.md)
+      + [Tablero de envíos](delivery/using/delivery-dashboard.md)
+      + [Prácticas recomendadas sobre el rendimiento de los envíos](delivery/using/delivery-performances.md)
+      + [Solución de problemas de envío](delivery/using/delivery-troubleshooting.md)
+      + [Estados de los envíos](delivery/using/delivery-statuses.md)
+      + [Comprender los errores de envío](delivery/using/understanding-delivery-failures.md)
       + [Comprensión de la administración de cuarentenas](delivery/using/understanding-quarantine-management.md)
    + Seguimiento de mensajes {#tracking-messages}
       + [Acerca del seguimiento de mensajes](delivery/using/about-message-tracking.md)
@@ -248,7 +248,7 @@ ht-degree: 0%
    + Organización de campañas {#orchestrate-campaigns}
       + [Introducción a las campañas de marketing](campaign/using/setting-up-marketing-campaigns.md)
       + [Creación y configuración de plantillas](campaign/using/marketing-campaign-templates.md)
-      + [Adición de entregas](campaign/using/marketing-campaign-deliveries.md)
+      + [Agregar envíos](campaign/using/marketing-campaign-deliveries.md)
       + [Selección de la audiencia](campaign/using/marketing-campaign-target.md)
       + [Administración de documentos y recursos](campaign/using/marketing-campaign-assets.md)
       + [Configuración y administración de aprobaciones](campaign/using/marketing-campaign-approval.md)
@@ -289,8 +289,8 @@ ht-degree: 0%
    + Acceso a informes integrados {#accessing-built-in-reports}
       + [Acerca de los informes integrados](reporting/using/about-campaign-built-in-reports.md)
       + [Lista de informes](reporting/using/list-of-reports.md)
-   + Informes sobre entregas{#reports-on-deliveries}
-      + [Acerca de los informes sobre las entregas](reporting/using/reports-on-deliveries.md)
+   + Informes sobre envíos{#reports-on-deliveries}
+      + [Acerca de los informes sobre los envíos](reporting/using/reports-on-deliveries.md)
       + [Informes globales](reporting/using/global-reports.md)
       + [Informes de envío](reporting/using/delivery-reports.md)
       + [Informes acumulados](reporting/using/cumulative-reports.md)
@@ -331,7 +331,7 @@ ht-degree: 0%
       + [Editar contenido](web/using/editing-content.md)
       + [Recomendaciones para la edición de contenido](web/using/content-editing-best-practices.md)
       + [Creación de una página de aterrizaje](web/using/creating-a-landing-page.md)
-      + [Caso de uso: Creación de una entrega por correo electrónico](web/using/use-case--creating-an-email-delivery.md)
+      + [Caso práctico: Crear un envío de correo electrónico](web/using/use-case--creating-an-email-delivery.md)
    + Formularios web {#web-forms}
       + [Introducción a los formularios web](web/using/about-web-forms.md)
       + [Uso de una plantilla de formulario web](web/using/using-a-web-form-template.md)
@@ -406,7 +406,7 @@ ht-degree: 0%
       + [Definición de aprobaciones](workflow/using/defining-approvals.md)
       + [Arquitectura](workflow/using/architecture.md)
    + Actividades de segmentación {#targeting-activities}
-      + [Acerca de las actividades de segmentación](workflow/using/about-targeting-activities.md)
+      + [Crear un flujo de trabajo de segmentación](workflow/using/about-targeting-activities.md)
       + [Consulta](workflow/using/query.md)
       + [Consulta incremental](workflow/using/incremental-query.md)
       + [Lista de lectura](workflow/using/read-list.md)
@@ -444,11 +444,11 @@ ht-degree: 0%
       + [Tarea](workflow/using/task.md)
    + Actividades de acción {#action-activities}
       + [Acerca de las actividades de acción](workflow/using/about-action-activities.md)
-      + [Entrega](workflow/using/delivery.md)
-      + [Control de entregas](workflow/using/delivery-control.md)
-      + [Entrega continua](workflow/using/continuous-delivery.md)
-      + [Entrega recurrente](workflow/using/recurring-delivery.md)
-      + [Entregas en canales múltiples](workflow/using/cross-channel-deliveries.md)
+      + [Envío](workflow/using/delivery.md)
+      + [Control de envíos](workflow/using/delivery-control.md)
+      + [Envío continuo](workflow/using/continuous-delivery.md)
+      + [Envío recurrente](workflow/using/recurring-delivery.md)
+      + [Envíos en canales múltiples](workflow/using/cross-channel-deliveries.md)
       + [Aprobación local](workflow/using/local-approval.md)
       + [Carga de datos (RDBMS)](workflow/using/data-loading--rdbms-.md)
       + [Carga (SOAP)](workflow/using/loading--soap-.md)
@@ -468,11 +468,11 @@ ht-degree: 0%
       + [SMS entrantes](workflow/using/inbound-sms.md)
    + Casos de uso {#use-cases}
       + [Acerca de los casos de uso de flujos de trabajo](workflow/using/about-workflow-use-cases.md)
-      + Entregas {#deliveries}
+      + Envíos {#deliveries}
          + [Uso de la actividad de aprobación local](workflow/using/using-the-local-approval-activity.md)
          + [Envío de un correo electrónico de cumpleaños](workflow/using/sending-a-birthday-email.md)
-         + [Carga de contenido de entrega](workflow/using/loading-delivery-content.md)
-         + [Flujo de trabajo de entrega en canales múltiples](workflow/using/cross-channel-delivery-workflow.md)
+         + [Carga de contenido de envíos](workflow/using/loading-delivery-content.md)
+         + [Flujo de trabajo de envíos en canales múltiples](workflow/using/cross-channel-delivery-workflow.md)
          + [Enriquecimiento de correo electrónico con campos de datos personalizados](workflow/using/email-enrichment-with-custom-date-fields.md)
       + Monitorización {#monitoring}
          + [Envío de un informe a una lista](workflow/using/sending-a-report-to-a-list.md)
@@ -489,7 +489,7 @@ ht-degree: 0%
          + [Actualización de lista trimestral con una consulta incremental](workflow/using/quarterly-list-update.md)
       + Consulta y filtro {#designing-queries}
          + [Consulta de la tabla de destinatarios](workflow/using/querying-recipient-table.md)
-         + [Información de entrega de la consulta](workflow/using/querying-delivery-information.md)
+         + [Consulta de la información de envío](workflow/using/querying-delivery-information.md)
          + [Realización de computación agregada](workflow/using/performing-aggregate-computing.md)
          + [Realización de consultas mediante la administración de agrupación](workflow/using/querying-using-grouping-management.md)
          + [Realización de consultas con una relación de varios a varios](workflow/using/querying-using-many-to-many-relationship.md)
@@ -529,7 +529,7 @@ ht-degree: 0%
       + [Creación de categorías de oferta](interaction/using/creating-offer-categories.md)
       + [Recomendación de una categoría](interaction/using/recommending-a-category.md)
       + [Creación de una oferta](interaction/using/creating-an-offer.md)
-      + [Aprobación y activación de una oferta](interaction/using/approving-and-activating-an-offer.md)
+      + [Aprobar y activar una oferta](interaction/using/approving-and-activating-an-offer.md)
       + [Administración de plantillas de oferta](interaction/using/managing-offer-templates.md)
       + [Administración de presentación de ofertas](interaction/using/managing-offer-presentation.md)
    + Simulación de ofertas{#simulating-offers}
@@ -575,7 +575,7 @@ ht-degree: 0%
    + Procesamiento de eventos transaccionales {#processing}
       + [Descripción del evento](message-center/using/event-description.md)
       + [Procesamiento de eventos](message-center/using/about-event-processing.md)
-      + [Ejecución de entrega](message-center/using/delivery-execution.md)
+      + [Ejecución de envíos](message-center/using/delivery-execution.md)
    + Informes {#reports}
       + [Acceso a los informes de mensajería transaccional](message-center/using/about-transactional-messaging-reports.md)
       + [Historial de eventos del Centro de mensajería](message-center/using/history-of-message-center-events.md)
@@ -644,7 +644,7 @@ ht-degree: 0%
       + [Definición de permisos de URL](installation/using/url-permissions.md)
       + [Archivos y recursos](installation/using/file-res-management.md)
       + [Configuración de Tomcat](installation/using/configure-tomcat.md)
-      + [Configuración de la entrega](installation/using/configure-delivery-settings.md)
+      + [Configuración del envío](installation/using/configure-delivery-settings.md)
       + [Configuraciones técnicas de correo electrónico](installation/using/email-deliverability.md)
       + [Uso de servidores MX con Campaign](installation/using/using-mx-servers.md)
       + [Configuración del CCO del correo electrónico](installation/using/email-archiving.md)
@@ -726,7 +726,7 @@ ht-degree: 0%
          + [Ejecución del flujo de trabajo](production/using/workflow-execution.md)
          + [Contraseña perdida](production/using/lost-password.md)
          + [Actualización de la consola](production/using/console-update.md)
-      + Solución de problemas de entrega {#delivery-troubleshooting-toc}
+      + Solución de problemas de envío {#delivery-troubleshooting-toc}
          + [Problemas de rendimiento y producción](production/using/performance-and-throughput-issues.md)
          + [Problemas de visualización de imágenes](production/using/image-display-issues.md)
          + [Falta de imágenes](production/using/images-missing.md)
