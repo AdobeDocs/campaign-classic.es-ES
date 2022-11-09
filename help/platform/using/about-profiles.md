@@ -7,9 +7,9 @@ role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 source-git-commit: d42389add06db74c54cb3a21813e9a832a2a288a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '842'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,19 +17,19 @@ ht-degree: 99%
 
 ![](../../assets/v7-only.svg)
 
-Los perfiles están centralizados en la base de datos de Adobe Campaign. Existen muchos mecanismos para adquirir perfiles y crear esta base de datos: recopilación en línea a través de formularios web, importación manual o automática de archivos de texto, replicación con bases de datos de fabricantes, u otros sistemas de información. Con Adobe Campaign, puede incorporar el historial de marketing, la información de compra, las preferencias, los datos CRM y cualquier dato PI relevante en una vista consolidada para analizar y actuar en consecuencia.
+Los perfiles están centralizados en la base de datos de Adobe Campaign. Existen muchos mecanismos para adquirir perfiles y crear esta base de datos: recopilación en línea mediante formularios web, importación manual o automática de archivos de texto, replicación con bases de datos de fabricantes, u otros sistemas de información. Con Adobe Campaign, puede incorporar el historial de marketing, la información de compra, las preferencias, los datos CRM y cualquier dato PI relevante en una vista consolidada para analizar y actuar en consecuencia.
 
 Un “**perfil**” es un registro de información (por ejemplo, un registro de la tabla nmsRecipient o una tabla externa que contiene un ID de cookie, ID de cliente, ID móvil u otra información relacionada con un canal determinado) que representa a un cliente final, a un cliente potencial o a un posible cliente.
 
-En Adobe Campaign, los destinatarios son los perfiles seleccionados por defecto para enviarles contenido (correos electrónicos, SMS, etc.). Los datos de destinatario almacenados en la base de datos permiten filtrar el destinatario que recibirá cualquier entrega dada y añadir datos de personalización en el contenido de la entrega. Existen otros tipos de perfiles en la base de datos. Están diseñados para usos diferentes. Por ejemplo, se crean perfiles semilla para probar el contenido antes de enviarlo al público objetivo final.
+En Adobe Campaign, los destinatarios son los perfiles predeterminados a los que se dirigen los envíos (correos electrónicos, SMS, etc.). Los datos de destinatario almacenados en la base de datos permiten filtrar el destinatario que recibirá cualquier envío dado y añadir datos de personalización en el contenido de los envíos. Existen otros tipos de perfiles en la base de datos. Están diseñados para usos diferentes. Por ejemplo se crean perfiles semilla para probar los envíos antes de enviarlos al público objetivo final.
 
 ![](assets/do-not-localize/how-to-video.png) [Comprensión del concepto de perfiles en vídeo](#create-profiles-video)
 
 ## Tipos de perfil {#profile-types}
 
-Adobe Campaign permite administrar perfiles en todo el ciclo de vida: creación, importación, definición de público objetivo, seguimiento de acciones, actualizaciones, etc.
+Adobe Campaign permite administrar perfiles en todo el ciclo de vida: creación, importación, segmentación, seguimiento de acciones, actualizaciones, etc.
 
-Cada perfil coincide con una entrada en la base de datos. Contienen toda la información necesaria para la definición de público objetivo, el cumplimiento y el seguimiento de personas.
+Cada perfil coincide con una entrada en la base de datos. Contienen toda la información necesaria para la segmentación, el cumplimiento y el seguimiento de personas.
 
 Los perfiles se pueden identificar en función del espacio de almacenamiento. Esto significa que un perfil puede coincidir con un destinatario, un visitante, un operador, un suscriptor, un cliente potencial, etc.
 
@@ -43,7 +43,7 @@ Los métodos principales para crear perfiles de destinatario son los siguientes:
 
 * Entrada directa en las pantallas de la interfaz gráfica.
 * Importación de listas de destinatarios.
-* Captura en línea mediante formularios web.
+* recopilación en línea mediante formularios web.
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ Los perfiles activos son los perfiles que se toman en cuenta con fines de factur
 
 La facturación solo abarca los perfiles que están **activos**. Un perfil se considera activo si este se ha identificado o comunicado en los últimos 12 meses a través de cualquier canal.
 
-Un perfil al que se destinan varias entregas se cuenta solo una vez.
+Un perfil al que se destinan varios envíos se cuenta solo una vez.
 
 >[!NOTE]
 >
