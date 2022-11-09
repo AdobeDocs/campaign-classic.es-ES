@@ -4,7 +4,7 @@ title: Privacidad
 description: Obtenga más información sobre las prácticas recomendadas a seguir con respecto a la privacidad
 feature: URL Personalization, Privacy
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: fcbaacccaf3f1771570e42e7a83847ed3fd998ef
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 18%
@@ -77,7 +77,7 @@ Para deshabilitar las direcciones URL que se han generado en versiones anteriore
 
 Para habilitar la firma de URL, siga estos pasos en todos los servidores de Campaign al mismo tiempo:
 
-1. En el archivo de configuración del servidor (serverConf.xml), cambie **signEmailLinks** a **false**.
+1. En el archivo de configuración del servidor (serverConf.xml), cambie **signEmailLinks** a **true**.
 1. Reinicie el servicio **nlserver**.
 1. En el servidor de seguimiento, reinicie el servidor web (apache2 en Debian, httpd en CentOS/RedHat, IIS en Windows).
 
