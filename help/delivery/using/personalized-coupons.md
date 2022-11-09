@@ -5,7 +5,7 @@ description: Aprenda a crear e insertar cupones personalizados
 feature: Personalization
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
 source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '885'
 ht-degree: 100%
 
