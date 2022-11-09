@@ -5,9 +5,9 @@ description: Obtenga información sobre cómo capturar las renderizaciones de co
 feature: Inbox Rendering, Monitoring, Email Rendering
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
 source-git-commit: 048189f49623cf00f4c3f1f34ff4b795d80391ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Los clientes móviles, de mensajería y de correo web disponibles para **Renderi
 
 >[!NOTE]
 >
->No es necesario renderizar la bandeja de entrada para probar la personalización en las entregas. La personalización puede comprobarse con las herramientas de Adobe Campaign como **[!UICONTROL Preview]** y [Proofs](steps-validating-the-delivery.md#sending-a-proof).
+>No es necesario renderizar la bandeja de entrada para probar la personalización en los envíos. La personalización puede comprobarse con las herramientas de Adobe Campaign como **[!UICONTROL Preview]** y [Pruebas](steps-validating-the-delivery.md#sending-a-proof).
 
 ## Activación del procesamiento de la bandeja de entrada {#activating-inbox-rendering}
 
@@ -77,7 +77,7 @@ En Adobe Campaign, el crédito corresponde al número de representaciones dispon
 >
 >El número de tokens de Litmus disponibles depende de la licencia adquirida en Campaign. Compruebe el acuerdo de licencia.
 
-Cada vez que se utiliza la función **[!UICONTROL Inbox rendering]** en una entrega, cada renderización generada reduce en uno los tokens disponibles.
+Cada vez que se utiliza la función **[!UICONTROL Inbox rendering]** en un envío, cada renderización generada reduce en uno los tokens disponibles.
 
 >[!IMPORTANT]
 >
@@ -98,9 +98,9 @@ Normalmente, la función de renderización de la bandeja de entrada se utiliza p
 
 Una vez que haya creado su envío de correo electrónico y definido su contenido, así como la población de destino, siga los pasos a continuación.
 
-Para obtener más información sobre la creación, el diseño y la segmentación de los servicios de información, consulte [esta sección](about-email-channel.md).
+Para obtener más información sobre la creación, el diseño y la segmentación un envío, consulte [esta sección](about-email-channel.md).
 
-1. En la barra superior de la entrega, haga clic en el botón **[!UICONTROL Inbox rendering]**.
+1. En la barra superior del envío, haga clic en el botón **[!UICONTROL Inbox rendering]**.
 1. Seleccione **[!UICONTROL Analyze]** para iniciar el proceso de captura.
 
    ![](assets/s_tn_inbox_rendering_button.png)
@@ -119,7 +119,7 @@ Para obtener más información sobre la creación, el diseño y la segmentación
 
 ## Informe de procesamiento de la bandeja de entrada {#inbox-rendering-report}
 
-Este informe muestra las renderizaciones de la bandeja de entrada tal y como aparecen al destinatario. Las renderizaciones pueden variar en función del modo en que el destinatario abra la entrega de correo electrónico: en un navegador, en un dispositivo móvil o a través de una aplicación de correo electrónico.
+Este informe muestra las renderizaciones de la bandeja de entrada tal y como aparecen al destinatario. Las renderizaciones pueden variar en función del modo en que el destinatario abra el envío de correo electrónico: en un navegador, en un dispositivo móvil o a través de una aplicación de correo electrónico.
 
 **[!UICONTROL General summary]** presenta el número de mensajes recibidos, no deseados (correo no deseado), no recibidos o cuya recepción está pendiente en formato lista y a través de una representación gráfica codificada por colores.
 
