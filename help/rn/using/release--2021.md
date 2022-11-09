@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
 source-git-commit: a06623611ff3f8d9dfb5d498e01686e12a924923
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2545'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ _8 de octubre de 2021_
 
 * Se ha mejorado la corrección del flujo de trabajo de facturación disponible en la versión 9342, que requería un reinicio manual del flujo de trabajo para que se aplicara la corrección. Ahora la posactualización reinicia automáticamente el flujo de trabajo.
 
-* Se ha corregido un problema que podía impedir el funcionamiento de Offer Decisioning adecuado al usar el módulo **Interacción** con la opción [Power Booster](../../installation/using/power-booster-and-power-cluster.md). (NEO-39263)
+* Se ha corregido un problema que podía impedir el funcionamiento de la gestión de ofertas adecuado al usar el módulo **Interacción** con la opción [Power Booster](../../installation/using/power-booster-and-power-cluster.md). (NEO-39263)
 
 * Se ha corregido un error “La ipaffinity xxx no se encuentra en el servidor mid xxx” que podría producirse al realizar envíos si se usaba más de una afinidad IP en una instancia de intermediario múltiple. (NEO-37514)
 
@@ -131,7 +131,7 @@ _5 de junio de 2021_
 <table> 
 <thead>
 <tr> 
-<th> <strong>Conector FDA de verticas analytics</strong><br/> </th> 
+<th> <strong>Conector FDA de Vertica Analytics</strong><br/> </th> 
 </tr> 
 </thead> 
 <tbody> 
@@ -170,7 +170,7 @@ _5 de junio de 2021_
 
 Ahora se admiten los siguientes sistemas con Campaign:
 * Conector de FDA de Google BigQuery
-* Conector FDA de verticas analytics
+* Conector FDA de Vertica Analytics
 * PostgreSQL 13
 
 Obtenga más información en la [Matriz de compatibilidad de Campaign](../../rn/using/compatibility-matrix.md).
@@ -199,11 +199,11 @@ Obtenga más información en la página [Funciones obsoletas y eliminadas](../..
 **Parches**
 
 * Se ha corregido un problema que se producía al editar el tiempo de espera para cerrar la sesión de los usuarios después de una cantidad específica de tiempo en el que estos permanecían conectados incluso después de la hora establecida.
-* Se ha corregido un problema por el cual las entregas se mostraban como de solo lectura, pero se podían editar en las propiedades de las entregas.
+* Se ha corregido un problema por el cual los envíos se mostraban como de solo lectura, pero se podían editar en las propiedades de los envíos.
 * Se ha corregido un error que provocaba que la barra de herramientas de edición desapareciera al diseñar una aplicación web.
 * Se ha corregido un error que mostraba la versión de texto de un correo electrónico con encabezados de Adobe Campaign Classic al añadir un vínculo a un correo electrónico. (NEO-29211
-* Al utilizar FDA con conexión HTTP, el flujo de trabajo **Intermediario (registros de entrega)** (defaultMidSourcingLog) se quedaba en el periodo de tiempo establecido por la opción **NmsMidSourcing_LogsPeriodHour**. Esto evitaría que los registros se actualizaran con los datos que se produjeron después de este periodo de tiempo establecido. (NEO-30833)
-* Se ha corregido un problema que se producía después de ejecutar el flujo de trabajo de sincronización del centro de mensajes. Cada vez que una carpeta de objetos de entrega se movía a una carpeta personalizada, el flujo de trabajo devolvía las entregas a la carpeta genérica **Historial de mensajes transaccionales**. (NEO-27445)
+* Al utilizar FDA con conexión HTTP, el flujo de trabajo **Intermediario (logs de entrega)** (defaultMidSourcingLog) se quedaba en el periodo de tiempo establecido por la opción **NmsMidSourcing_LogsPeriodHour**. Esto evitaría que los registros se actualizaran con los datos que se produjeron después de este periodo de tiempo establecido. (NEO-30833)
+* Se ha corregido un problema que se producía después de ejecutar el flujo de trabajo de sincronización del centro de mensajes. Cada vez que una carpeta de objetos de envío se movía a una carpeta personalizada el flujo de trabajo devolvía los envíos a la carpeta genérica **Historial de mensajes transaccionales**. (NEO-27445)
 * Se ha corregido un problema que mostraba un mensaje de error al intentar mostrar los informes **Estadísticas de difusión**, **Indicadores de seguimiento** y **Estadísticas de las actividades de compartición**.
 * La actividad del flujo de trabajo **Oracle bajo demanda** se ha eliminado de la interfaz después de que el conector CRM de Oracle quedase obsoleto.
 * Se ha corregido un problema que detenía la ejecución de flujos de trabajo de procesamiento después del reinicio diario del módulo del servidor de flujo de trabajo (wfserver). (NEO-30047)
@@ -214,12 +214,12 @@ Obtenga más información en la página [Funciones obsoletas y eliminadas](../..
 * Se ha corregido un problema que se producía al utilizar el conector FDA de Teradata: todas las tablas temporales se creaban en un solo nodo del clúster, lo que podría terminar consumiendo todo el espacio de la cola y hacer que Teradata se bloqueara. Las tablas temporales ahora se generan en muchos nodos. (NEO-28230)
 * Se ha corregido un problema que se producía al usar aplicaciones web, que provocaba que las etiquetas de seguimiento generaran claves principales incorrectas en el esquema **nms:trackingURL**. (NEO-27931)
 * La compatibilidad con ODBC 3.x se ha mejorado para garantizar la precisión de los mensajes de error.
-* Se ha corregido un problema que podía provocar bloqueos de la consola cuando se utilizaban plantillas de contenido personalizadas en las entregas de correo electrónico. (NEO-31547)
+* Se ha corregido un problema que podía provocar bloqueos de la consola cuando se utilizaban plantillas de contenido personalizadas en los envíos de correo electrónico. (NEO-31547)
 * Se ha corregido un problema que impedía que Tomcat enviara respuestas válidas debido a una conexión lenta o a un tamaño de respuesta grande. (NEO-30858)
 * Se ha corregido un problema que se podía producir al leer un UUID desde una base de datos PostgreSQL.
 * Se ha corregido un problema que podía provocar problemas de rendimiento al buscar datos de propuestas vinculados a ofertas. (NEO-27554)
 * Se ha corregido un problema que provocaba que el proceso web no respondiera cuando el servicio IMS se activaba, pero no respondía.
-* Se ha corregido un problema que impedía enviar una entrega con un grupo de pruebas debido a un mecanismo de unión específico que no permitía la personalización de la entrega. (NEO-14391)
+* Se ha corregido un problema que impedía realizar un envío con un grupo de pruebas debido a un mecanismo de unión específico que no permitía la personalización de los envíos. (NEO-14391)
 * Se ha corregido un problema que hacía que no se enviara una alerta con la actividad de alerta si una consulta y una actividad de enriquecimiento se dirigían a la tabla de entrega. (NEO-25157)
 
 ### ![](assets/do-not-localize/red_2.png) Versión 21.1.2, compilación 9282 {#release-21-1-2-build-9282}
@@ -284,7 +284,7 @@ Si desea participar en esta versión beta privada, rellene este [formulario](htt
 * Se ha corregido un problema que podía impedir que la instancia funcionara al intentar ejecutar consultas complejas específicas.
 * Se ha corregido un problema que podía impedir que se ejecutara el flujo de trabajo técnico **Sincronización de páginas de Twitter**. (NEO-28634)
 * Se ha corregido un problema que podía mostrar un mensaje de error relacionado con la función decryptPassword al intentar publicar en Twitter mediante la plantilla de envíos de **tuits (Twitter)**. (NEO-28216)
-* Se ha corregido un problema que se producía al utilizar una actividad **JavaScript** para realizar una petición HTTP en un flujo de trabajo. Después de definir el número de puerto en el nombre del host, la llamada generaría el siguiente error (NEO-29146):
+* Se ha corregido un problema que se producía al utilizar una actividad **JavaScript** para realizar una solicitud HTTP en un flujo de trabajo. Después de definir el número de puerto en el nombre del host, la llamada generaría el siguiente error (NEO-29146):
 
 ```
 IOB-090020 Error in SSL library: 'IOB-090013 error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed (code 336134278)'
