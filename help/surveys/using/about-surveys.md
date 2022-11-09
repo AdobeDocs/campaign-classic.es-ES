@@ -4,8 +4,8 @@ title: Introducción a las encuestas
 description: Introducción a las encuestas de Campaign
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
+workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Introducción a las encuestas{#about-surveys}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 Adobe Campaign incluye un módulo gráfico para definir y publicar aplicaciones web. Se utiliza para crear páginas, como un formulario de edición en una extranet, o formularios de notificación, incluidos datos de la base de datos con tablas, gráficos, formularios de entrada, etc. Utilice esta capacidad para diseñar y publicar páginas web en las que los usuarios puedan buscar o introducir información.
 

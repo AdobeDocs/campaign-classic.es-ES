@@ -4,7 +4,7 @@ title: "Ejemplo de uso: Visualización del informe de las respuestas a una encue
 description: "Ejemplo de uso: Visualización del informe de las respuestas a una encuesta online"
 feature: Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 100%
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Caso de uso: visualización del informe con las respuestas a una encuesta en línea{#use-case-displaying-report-on-answers-to-an-online-survey}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 Las respuestas a las encuestas de Adobe Campaign se pueden recopilar y analizar mediante informes dedicados.
 

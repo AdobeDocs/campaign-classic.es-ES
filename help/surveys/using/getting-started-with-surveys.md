@@ -4,8 +4,8 @@ title: Pasos clave para crear una encuesta
 description: Creación de la primera encuesta con Campaign
 feature: Surveys
 exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
+workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Pasos clave para crear una encuesta{#getting-started-with-surveys}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 A continuación se muestra una breve descripción general de los pasos principales para crear una encuesta sencilla mediante la siguiente plantilla integrada:
 
