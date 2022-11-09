@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: general-operation
 exl-id: b13ecfc9-1723-42b2-ab30-d5637cc3d0dd
 source-git-commit: c929557ee9f5467f9c3b8eb1ed25fae5399820ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '338'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Una oferta solo se implementa en los espacios de oferta seleccionados durante el
 
 ## Tipos de interacción y métodos de contacto {#interaction-types-and-contact-methods}
 
-Existen dos tipos de interacciones posibles: interacciones entrantes (iniciadas por un contacto) e interacciones salientes (iniciadas por el diseñador de ofertas).
+Existen dos posibles tipos de interacciones: interacciones entrantes (iniciadas por un contacto) e interacciones salientes (iniciadas por el diseñador de la oferta).
 
 Estos dos tipos de interacciones se pueden llevar a cabo tanto en modo unitario (la oferta se determina para un único contacto) o en modo agrupado (la oferta se determina para un conjunto de contactos). Por lo general, las interacciones entrantes se realizan en modo unitario y las interacciones salientes se llevan a cabo en modo agrupado. Sin embargo, puede haber ciertas excepciones, por ejemplo, para los mensajes de transacción cuya interacción saliente se realiza en modo unitario (consulte [esta sección](../../message-center/using/about-transactional-messaging.md)).
 
