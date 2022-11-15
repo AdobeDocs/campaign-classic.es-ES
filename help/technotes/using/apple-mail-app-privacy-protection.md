@@ -3,10 +3,10 @@ product: campaign
 title: Protección de privacidad de correo en la aplicación de correo de Apple
 description: Descubra cómo sus campañas podrían verse afectadas por la función de protección de privacidad de correo de Apple
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
-source-git-commit: 43d9eac2ed161465ca00ee4f511e4c020b4c44a2
+source-git-commit: 83fe7eb4f857306ac1c8bb3a93a9393b76ae1e3c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2056'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## ¿Qué ha cambiado?
 
-En 2021, Apple introdujo nuevas funciones de protección de privacidad para su aplicación de correo nativa. Esta aplicación ahora incluye la función de protección de privacidad de correo de Apple. Básicamente, los remitentes ya no pueden usar píxeles de seguimiento para recopilar información sobre los destinatarios que han elegido activar la función de protección de privacidad de correo de Apple. [Más información](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=es){target=&quot;_blank&quot;}.
+En 2021, Apple introdujo nuevas funciones de protección de privacidad para su aplicación de correo nativa. Esta aplicación ahora incluye la función de protección de privacidad de correo de Apple. Básicamente, los remitentes ya no pueden usar píxeles de seguimiento para recopilar información sobre los destinatarios que han elegido activar la función de protección de privacidad de correo de Apple.
 
 ## ¿Cómo se ven afectadas mis campañas?
 
