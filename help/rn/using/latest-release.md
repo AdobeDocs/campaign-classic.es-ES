@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: ca2f50a501c63cc8b2d4de5d9a41b655a6b6d6cf
+source-git-commit: 95c4a83037bcd2e22a03ac80d1ec4a7896a94ce3
 workflow-type: tm+mt
-source-wordcount: '2713'
+source-wordcount: '2709'
 ht-degree: 75%
 
 ---
@@ -43,8 +43,8 @@ Obtenga más información en la página [Funciones obsoletas y eliminadas](depre
 
 **Otros cambios**
 
-* Se han mejorado los registros web: ahora, las advertencias de logonEscalation solo se muestran para los usuarios con privilegios de administrador. (NEO-47167)
-* Para evitar errores, la variable **Recopilación de datos para el flujo de trabajo del servicio de mapa de calor** (collectDataHeatMapService) ahora se detiene de forma predeterminada. (NEO-33959)
+* Se han mejorado los registros web: `logonEscalation` ahora solo se muestran advertencias para usuarios con privilegios de administrador. (NEO-47167)
+* Para evitar errores, la variable **Recopilación de datos para el servicio de mapa de calor** El flujo de trabajo (collectDataHeatMapService) ahora se detiene de forma predeterminada. (NEO-33959)
 * Se implementaron varias mejoras para optimizar el uso de la CPU para el panel de campañas. (NEO-46417)
 * Para evitar bloqueos, se ha eliminado el método loadLibraryDebug JS. (NEO-46968)
 * Las referencias restantes a la biblioteca log4j se han eliminado de la instalación de Campaign en Windows. (NEO-44851)
@@ -56,11 +56,11 @@ Obtenga más información en la página [Funciones obsoletas y eliminadas](depre
 * Se ha corregido un problema al restablecer la aprobación de contenido en una entrega de correo electrónico, que impedía volver a aprobarlo. (NEO-44259)
 * Se ha corregido un problema que podía impedir que se mostrara la variable **Aprobación de entrega** para mostrar. (NEO-47547)
 * Se ha corregido un problema de rendimiento en la pestaña HTML de una entrega que se podía producir para el código de HTML grande. (NEO-47440)
-* Se ha corregido un problema que afectaba a las actualizaciones de estado del registro de envío en la instancia MID, cuando la opción FeatureFlag_GZIP_Compression estaba activada. (NEO-49183)
+* Se ha corregido un problema que afectaba a las actualizaciones de estado del registro de envío en la instancia de MID, cuando la variable `FeatureFlag_GZIP_Compression` estaba activada. (NEO-49183)
 * Se ha corregido un problema que impedía enviar notificaciones de aplicaciones móviles de iOS desde una instancia de ejecución al usar autenticación basada en token. (NEO-45961)
 * Se ha corregido un problema con la variable **Actualización para la capacidad de entrega** flujo de trabajo (deliverabilityUpdate) que se atascó cuando tenía demasiados broadlogs para sincronizar. (NEO-48287)
-* Se ha corregido un problema del tipo de eventos que bloqueaba el flujo de trabajo de sincronización del centro de mensajes (mcSynch).
-* Se ha corregido un problema que podría provocar un error al añadir la variable **Destinatarios que han abierto** indicador (estimatedRecipientOpen) en los datos adicionales de un **Consulta** actividad de flujo de trabajo. (NEO-46665)
+* Se ha corregido un problema con el tipo de eventos que bloqueaba la variable **Sincronización del centro de mensajes** Flujo de trabajo (mcSynch).
+* Se ha corregido un problema que podría provocar un error al añadir la variable **Destinatarios que han abierto**  Indicador (estimatedRecipientOpen) en los datos adicionales de un **Consulta** actividad de flujo de trabajo. (NEO-46665)
 * Se ha corregido un problema con la variable **Facturación** flujo de trabajo que falla al tener paquetes de Control y ejecución del centro de mensajes instalados en la misma instancia. (NEO-47674)
 * Se ha corregido un problema con la variable **Facturación** flujo de trabajo que fallaba al tener tablas con la clave principal definida como una cadena en lugar de como un número entero. (NEO-46254)
 * Se ha corregido un problema con los filtros de mapa de calor cuando el nombre del flujo de trabajo era demasiado largo. (NEO-46301)
