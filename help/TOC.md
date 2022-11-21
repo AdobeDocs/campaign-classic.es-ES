@@ -6,10 +6,10 @@ title: Guía de Campaign Classic v7
 user-guide-description: Con Adobe Campaign, puede utilizar datos de clientes enriquecidos para crear, coordinar y ofrecer campañas dinámicas que los clientes realmente deseen mediante correo electrónico, canales móviles, sin conexión y mucho más.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 83fe7eb4f857306ac1c8bb3a93a9393b76ae1e3c
+source-git-commit: 8ea5a42e0539ea23c1d9940e3f38f2c90fdcc223
 workflow-type: tm+mt
-source-wordcount: '2557'
-ht-degree: 100%
+source-wordcount: '2556'
+ht-degree: 99%
 
 ---
 
@@ -836,7 +836,7 @@ ht-degree: 100%
       + [Notas técnicas](technotes/using/technote.md)
       + [Nuevo servidor de capacidad de entrega](technotes/using/deliverability-server.md)
       + [Actualización de seguridad de Apache](technotes/using/acc-apache-upgrade.md)
-      + [Actualizaciones de configuración de Campaign](technotes/using/acc-config-updates.md)
+      + [Actualizaciones del sistema de 2023](technotes/using/tech-stack-upgrade.md)
       + [Actualizaciones de IMS](technotes/using/ims-updates.md)
       + [Finalización del servicio de soporte para TLS 1.0 y 1.1](technotes/using/eol-tls-support.md)
    + Correos electrónicos y notificaciones push{#technotes-email}
