@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Acerca del marketing social
-description: Aprenda a utilizar Campaign para interactuar con los clientes a través de Facebook y Twitter
+description: Aprenda a utilizar Campaign para interactuar con los clientes a través de Twitter
 audience: social
 content-type: reference
 topic-tags: introduction
 exl-id: c8fd5f75-9386-42dd-bfb6-8086a86aa324
-source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
+source-git-commit: c4a545ee3cffa16e72a7ba1ca3010fffd43e61c2
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 79%
+source-wordcount: '90'
+ht-degree: 6%
 
 ---
 
@@ -17,14 +17,10 @@ ht-degree: 79%
 
 ![](../../assets/v7-only.svg)
 
-La aplicación **Managing social networks** (Social Marketing) diseñada para administrar las redes sociales permite interactuar con los clientes y posibles clientes a través de Facebook y Twitter.
+La variable **Administración de redes sociales** La aplicación (Marketing social) diseñada para administrar redes sociales permite interactuar con clientes y posibles clientes a través de Twitter.
 
-**Acquiring new contacts**
+Conozca los pasos clave para integrar Campaign y Twitter en [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html)
 
-Adobe Campaign Social Marketing facilita la adquisición de nuevos contactos mediante Facebook: póngase en contacto con los usuarios y pídale que compartan su información de perfil. Si lo aceptan, Adobe Campaign recupera automáticamente los datos, lo que le permite llevar a cabo campañas de objetivo y, cuando sea posible, implementar estrategias multicanal.
+Como cliente local o híbrido, la cuenta externa de Twitter debe configurarse y habilitarse. Para las configuraciones híbridas, la variable **Mid-sourcing** también debe configurarse con una conexión activa a la plataforma de mid-sourcing.
 
->[!IMPORTANT]
->
->Facebook y Twitter realizan cambios frecuentes en sus pantallas y procesos. Este documento se actualizará en consecuencia.
->
->Adobe Campaign solicita que cumpla los términos de servicio de Facebook y Twitter.
+![](assets/tw-external-account.png)

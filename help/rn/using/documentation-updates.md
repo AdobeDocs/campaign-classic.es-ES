@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 7f41e3209450421262acf8a753bddd3eae1fe35f
+source-git-commit: 5792ad762befb97888ad32406d3bcb7f97df3fa7
 workflow-type: tm+mt
-source-wordcount: '5004'
+source-wordcount: '4994'
 ht-degree: 98%
 
 ---
@@ -57,7 +57,7 @@ La página Introducción a las actualizaciones se ha actualizado para aclarar la
 
 Ya está disponible la nueva compilación de Campaign v7.2.2. [Más información](../../rn/using/latest-release.md)
 
-Se ha añadido información de solución de problemas relacionada con el conector ACS. [Más información](../../integrations/using/troubleshooting-the-acs-connector.md)
+<!--Added troubleshooting information related to the ACS connector. [Read more](../../integrations/using/troubleshooting-the-acs-connector.md)-->
 
 Las versiones heredadas de PostgreSQL que han llegado al final de su vida útil se añadieron a la página [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md#dbe-eol).
 

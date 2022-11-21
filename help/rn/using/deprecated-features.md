@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 45c5ef3315e4208184e9c0ab5f20678646fe2d0b
-workflow-type: ht
-source-wordcount: '1624'
-ht-degree: 100%
+source-git-commit: 0ecf9c69cc4b444feda1e42701a3a27f2b2e7eeb
+workflow-type: tm+mt
+source-wordcount: '1684'
+ht-degree: 97%
 
 ---
 
@@ -41,11 +41,20 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
  <tbody> 
    <tr>
    <td><strong>Función</strong></td>
-   <td><strong>Sustitución</strong></td>
+   <td><strong>Detalles</strong></td>
   </tr>
 <tr>
- <td>N/A</td>
- <td>N/A</td>
+ <td>Marketing social con Facebook</td>
+ <td>El marketing social con Facebook ya no se utiliza. Puede usar la integración de Twitter para publicar en medios sociales o trabajar con Adobe para crear un canal personalizado.
+ <p></p>
+  <p>Fecha de eliminación del destinatario: finales de 2023</p>
+  </td>
+</tr>
+<tr>
+ <td>Conector ACS</td>
+ <td>Conector ACS (Oferta principal) ya no se utiliza. Puede utilizar las capacidades de exportación e importación de Campaign para extraer e insertar datos en ambos productos.<p></p>
+  <p>Fecha de eliminación del destinatario: finales de 2023</p>
+  </td>
 </tr>
  </tbody> 
 </table>

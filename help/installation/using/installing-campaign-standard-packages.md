@@ -3,9 +3,9 @@ product: campaign
 title: Instalación de paquetes integrados de Campaign Classic
 description: Obtenga información sobre cómo instalar los paquetes integrados de Campaign
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 978da934b483a54509ad806f375d9b2bb0577dac
 workflow-type: tm+mt
-source-wordcount: '1254'
+source-wordcount: '1253'
 ht-degree: 22%
 
 ---
@@ -229,8 +229,8 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
    <td> Todo </td> 
   </tr> 
   <tr> 
-   <td> Conector ACS<br /> </td> 
-   <td> Bridges Adobe Campaign v7 y Adobe Campaign Standard. Se trata de una función integrada en Campaign v7 que duplica automáticamente los datos en Campaign Standard, lo que une lo mejor de ambas aplicaciones. Opcional. <a href="../../integrations/using/acs-connector-principles-and-data-cycle.md">Más información</a> <br /> </td> 
+   <td> Conector ACS (obsoleto)<br /> </td> 
+   <td> Bridges Adobe Campaign v7 y Adobe Campaign Standard. Se trata de una función integrada en Campaign v7 que duplica automáticamente los datos en Campaign Standard, lo que une lo mejor de ambas aplicaciones. Opcional.<br /> </td> 
    <td> Marketing </td> 
   </tr> 
  </tbody> 

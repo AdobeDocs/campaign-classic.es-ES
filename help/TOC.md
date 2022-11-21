@@ -6,9 +6,9 @@ title: Guía de Campaign Classic v7
 user-guide-description: Con Adobe Campaign, puede utilizar datos de clientes enriquecidos para crear, coordinar y ofrecer campañas dinámicas que los clientes realmente deseen mediante correo electrónico, canales móviles, sin conexión y mucho más.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 0dd0b6f1aa69a6848a75e6299bd751de0bfddeb9
+source-git-commit: 5792ad762befb97888ad32406d3bcb7f97df3fa7
 workflow-type: tm+mt
-source-wordcount: '2553'
+source-wordcount: '2524'
 ht-degree: 99%
 
 ---
@@ -584,16 +584,6 @@ ht-degree: 99%
    + [Caso de uso](message-center/using/transactional-email-with-attachments.md)
 + Integración con medios sociales {#integrating-with-social-media}
    + [Acerca del marketing social](social/using/about-social-marketing.md)
-   + Configuración {#configuration}
-      + [Inicio de flujos de trabajo](social/using/starting-workflows.md)
-      + [Creación de una aplicación de Facebook](social/using/creating-a-facebook-application.md)
-      + [Configuración de publicaciones en Twitter](social/using/configuring-publishing-on-twitter.md)
-   + Publicación en Twitter {#publishing-on-facebook-twitter}
-      + [Introducción a Twitter](social/using/overview.md)
-      + [Publicación en Twitter](social/using/publishing-on-twitter.md)
-   + Adquisición de contactos de Facebook {#annexes}
-      + [Ejemplos de aplicaciones de Facebook](social/using/examples-of-facebook-apps.md)
-      + [Seguimiento](social/using/tracking.md)
 + Guía de instalación y configuración {#installing-campaign-classic}
    + Principios de arquitectura {#architecture-and-hosting-models}
       + [Arquitectura general](installation/using/general-architecture.md)

@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: f94d7e2cddd75d50cb21973a62ec223f2344edf1
+source-git-commit: ca2f50a501c63cc8b2d4de5d9a41b655a6b6d6cf
 workflow-type: tm+mt
-source-wordcount: '2654'
-ht-degree: 77%
+source-wordcount: '2713'
+ht-degree: 75%
 
 ---
 
@@ -27,22 +27,19 @@ _21 de noviembre de 2022_
 
 * Tras el fin de vida útil de Microsoft Internet Explorer 11, el motor de renderización del HTML para los paneles de la consola del cliente ahora utiliza Edge Chromium. (NEO-20741)
 
-<!--
-**Deprecated features**
-
-* Social Marketing with Facebook is now deprecated. You can still use Twitter integration to post on social media, or work with Adobe to create a custom channel.
-
-* ACS Connector (prime offering) is now deprecated. You can use Campaign export/import capabilities to extract and inject data in both products.
-
-Learn more in the [Deprecated and removed features page](deprecated-features.md).
-
--->
-
 **Mejoras**
 
 * El conector BigQuery de Google ahora es totalmente compatible con los campos booleanos. (NEO-49181)
 * Ahora puede configurar la duración de validez de las cookies IMS en la variable `Configuration for the redirection service` del archivo serverConf.xml. Esto se aplica a las siguientes cookies: `uuid230`, `nllastdelid` y `AMCV_` (NEO-42541)
 * La IP ahora se puede ocultar en la solicitud &quot;/r/test&quot; configurando `showSourceIP` como false en el nodo de redirección del archivo serverConf.xml. [Más información](../../installation/using/the-server-configuration-file.md#redirection-redirection)(NEO-46656)
+
+**Funciones obsoletas**
+
+* El marketing social con Facebook ya no se utiliza. Puede usar la integración de Twitter para publicar en medios sociales o trabajar con Adobe para crear un canal personalizado.
+
+* El conector ACS (oferta Prime) ya no se utiliza. Puede utilizar las capacidades de exportación e importación de Campaign para extraer e insertar datos en ambos productos.
+
+Obtenga más información en la página [Funciones obsoletas y eliminadas](deprecated-features.md).
 
 **Otros cambios**
 
