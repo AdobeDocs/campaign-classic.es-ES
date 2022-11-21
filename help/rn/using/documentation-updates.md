@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: ae235d39c4a78e0a2507f6baaebbdc9986dbf995
-workflow-type: ht
-source-wordcount: '4932'
-ht-degree: 100%
+source-git-commit: 7f41e3209450421262acf8a753bddd3eae1fe35f
+workflow-type: tm+mt
+source-wordcount: '5004'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,19 @@ Esta página enumera todas las nuevas funciones y actualizaciones de la document
 Consulte las [Notas de la versión de Adobe Campaign Classic](../../rn/using/latest-release.md) para ver las actualizaciones relacionadas con la versión.
 
 ## 2022
+
+### Noviembre de 2022 {#nov-2022}
+
+Se ha actualizado la sección Notas de la versión con las mejoras y parches de la versión 7.3.2. [Más información](latest-release.md)
+
+Se ha actualizado la matriz de compatibilidad con la compatibilidad con Teradata 17. [Más información](compatibility-matrix.md)
+
+La sección Administración de archivos y recursos se ha actualizado con información adicional sobre la variable **uploadWhiteList** atributo. [Más información](../../installation/using/file-res-management.md)
+
+La documentación sobre las zonas de seguridad se ha actualizado con información adicional sobre el **allowDebug** atributo. [Más información](../../installation/using/security-zones.md#recommendations)
+
+Se ha actualizado la guía de migración. Se han eliminado las referencias a versiones de Adobe Campaign no compatibles. [Más información](../../migration/using/about-migration.md)
+
 
 ### Julio de 2022 {#july-2022}
 
@@ -485,7 +498,7 @@ Las guías de [instalación](../../installation/using/general-architecture.md), 
 
 La guía de instalación se ha actualizado y sincronizado con la última versión de la matriz de compatibilidad. Se han añadido nuevos sistemas admitidos. Se han eliminado las ocurrencias a sistemas obsoletos y no admitidos. [Más información](../../installation/using/general-architecture.md)
 
-La matriz de compatibilidad se ha actualizado con los conectores Hadoop 3.0 y Snowflake FDA. [Más información](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)
+La matriz de compatibilidad se ha actualizado con los conectores Hadoop 3.0 y Snowflake FDA. [Más información](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
 Se ha añadido una práctica recomendada sobre la afinidad de IP a la guía de instalación. [Más información](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
@@ -503,7 +516,7 @@ El nuevo parámetro para la configuración de informes de direcciones URL se ha 
 
 La página **matriz de funciones On-Premise y alojadas de Campaign Classic** se ha actualizado con los nuevos conectores de FDA. [Más información](../../installation/using/capability-matrix.md).
 
-Se ha actualizado la página **matriz de funciones de Campaign Classic**. [Más información](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html)
+Se ha actualizado la página **matriz de funciones de Campaign Classic**. [Más información](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
 El nuevo flujo de trabajo **[!UICONTROL Cleanup of Nmsaddress]** se ha documentado [aquí](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress).
 
@@ -555,7 +568,7 @@ Mensajería SMS segura (TLS): [Más información](https://helpx.adobe.com/es/cam
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
-Ya está disponible la documentación de MTA mejorada de Adobe Campaign. [Más información](https://helpx.adobe.com/es/campaign/kb/acc-campaign-enhanced-mta.html)
+Ya está disponible la documentación de MTA mejorada de Adobe Campaign. [Más información](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
 
 Se ha añadido una nueva sección sobre cómo solucionar problemas de un flujo de trabajo que permanece en el estado &quot;Iniciar lo antes posible&quot; dentro de una campaña. [Más información](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 
@@ -617,7 +630,7 @@ Se han actualizado las prácticas recomendadas para mejorar el rendimiento de lo
 
 **Nuevas funciones incluidas en la versión 19.1**
 
-Panel de control: [Más información](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es)
+Panel de control: [Más información](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 Pista de auditoría: [Más información](../../production/using/audit-trail.md)
 
@@ -641,7 +654,7 @@ La descripción de la opción de flujo de trabajo previo al proceso se ha actual
 
 Se ha actualizado la nota técnica Activadores de Experience Cloud. [Más información](../../integrations/using/about-triggers.md)
 
-Se ha actualizado la lista de mensajes de error. [Más información](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=es)
+Se ha actualizado la lista de mensajes de error. [Más información](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
 
 Se ha agregado más información sobre los métodos de autenticación SOAP para la mensajería transaccional. [Más información](../../message-center/using/event-description.md)
 
@@ -680,7 +693,7 @@ Se agregó información sobre el informe Facturación.
 Se ha actualizado la documentación sobre la integración de audiencias compartidas.
 [Más información](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 
-Se ha actualizado la siguiente nota técnica: [Protocolo y configuración del conector SMS](https://helpx.adobe.com/es/campaign/kb/sms-connector-protocol-and-settings.html).
+Se ha actualizado la siguiente nota técnica: [Protocolo y configuración del conector SMS](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 
 Se ha actualizado la sección Flujos de trabajo técnicos. [Más información](../../workflow/using/about-technical-workflows.md)
 

@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: acbb2144906841a6da59314b84b3faf5863cf9d6
+source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
 workflow-type: tm+mt
-source-wordcount: '7957'
-ht-degree: 10%
+source-wordcount: '7979'
+ht-degree: 20%
 
 ---
 
@@ -513,7 +513,7 @@ Para obtener más información, consulte esta [sección](../../installation/usin
  <tbody> 
   <tr> 
    <td> localDomain<br /> </td> 
-   <td> Nombre del dominio: nombre de dominio predeterminado. Utilizado por el comando SMTP HELO. De forma predeterminada, utiliza los parámetros de red de la primera interfaz de red declarada en Windows; o analiza el file/etc/resolv.conf en Linux (dominio o entrada de búsqueda). <br /> </td> 
+   <td> Nombre del dominio: nombre de dominio predeterminado. Utilizado por el comando SMTP HELO. De forma predeterminada, utiliza los parámetros de red de la primera interfaz de red declarada en Windows; o analiza el archivo/etc/resolv.conf en Linux (dominio o entrada de búsqueda). <br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1170,7 +1170,7 @@ Para obtener más información, consulte [Activación del archivado de correo el
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al principio. Los módulos de baja prioridad se inician primero y último se detienen. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen por última vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -1331,7 +1331,7 @@ Estos son los diferentes parámetros de la variable **inMail** nodo . Esta es la
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al principio. Los módulos de baja prioridad se inician primero y último se detienen. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen por última vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -1439,7 +1439,7 @@ Para obtener más información, consulte [Interacción: búfer de datos](../../i
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al principio. Los módulos de baja prioridad se inician primero y último se detienen. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen por última vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -1588,7 +1588,7 @@ Estos son los diferentes parámetros de la variable **mta** nodo . Esta es la co
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al principio. Los módulos de baja prioridad se inician primero y último se detienen. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen por última vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -1736,7 +1736,7 @@ Para obtener más información, consulte esta [sección](../../installation/usin
  <tbody> 
   <tr> 
    <td> dataBasePoolPeriodSec<br /> </td> 
-   <td> Frecuencia de sondeo de la base de datos de los trabajos que se van a enviar. Este valor indica la frecuencia de sondeo de la base de datos (en segundos). Para obtener la lista de trabajos en espera de envío, el MTA sondea la base de datos de forma regular. Cuando no hay ningún trabajo en espera, el periodo de sondeo se define mediante este valor. De lo contrario, si se ha transferido un trabajo a un servidor secundario, la duración de las encuestas se reduce automáticamente a un segundo para que se pueda volver a procesar un nuevo trabajo lo antes posible, es decir, en cuanto vuelva a haber un servidor secundario disponible. Esto no significa que la consulta de la base de datos se realice cada segundo hasta que el servidor secundario vuelva a estar disponible. De hecho, el acceso a la base de datos solo se realiza cuando al menos un servidor secundario está disponible.<br /> </td> 
+   <td> Frecuencia de sondeo de base de datos de los trabajos que se van a enviar. Este valor indica la frecuencia de sondeo de la base de datos (en segundos). Para obtener la lista de trabajos pendientes de envío, el MTA sondea la base de datos periódicamente. Cuando no hay ningún trabajo en espera, el período de sondeo se define por este valor. De lo contrario, si un trabajo se ha transferido a un servidor secundario, la duración de este sondeo se reduce automáticamente a un segundo para que un nuevo trabajo pueda procesarse de nuevo lo antes posible. Es decir, tan pronto como un servidor secundario esté disponible de nuevo. Esto no significa que la consulta de la base de datos se realice cada segundo hasta que un servidor secundario esté disponible de nuevo. De hecho, el acceso a una base de datos solo se ejecuta cuando hay al menos un servidor secundario disponible.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 30<br /> </td> 
   </tr> 
@@ -1754,7 +1754,7 @@ Para obtener más información, consulte esta [sección](../../installation/usin
   </tr> 
   <tr> 
    <td> maxSpareServers<br /> </td> 
-   <td> Número máximo de servidores secundarios. Representa el número máximo de servidores en ejecución. Se recomienda limitar este número a un nivel óptimo compatible con los recursos de memoria del servidor. Esto se puede comprobar durante una entrega. La memoria utilizada no debe superar un tercio de la memoria física disponible de lo contrario se utilizará el intercambio. Consulte <a href="../../installation/using/configuring-campaign-server.md#mta-child-processes" target="_blank">Procesos secundarios de MTA</a>.<br /> </td> 
+   <td> Número máximo de servidores secundarios. Representa el número máximo de servidores en ejecución. Se recomienda limitar este número a un nivel óptimo compatible con los recursos de memoria del servidor. Esto puede comprobarse durante un envío. La memoria utilizada no debe exceder un tercio de la memoria física disponible; de lo contrario, se utilizará el intercambio. Consulte <a href="../../installation/using/configuring-campaign-server.md#mta-child-processes" target="_blank">Procesos secundarios de MTA</a>.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 2<br /> </td> 
   </tr> 
@@ -1833,7 +1833,7 @@ Para obtener más información, consulte [Optimización del envío de correo ele
   </tr> 
   <tr> 
    <td> soapConnectorTimeoutSec<br /> </td> 
-   <td> Tiempo de espera (en segundos) después del cual se abandona una conexión SOAP para un conector de envío.<br /> </td> 
+   <td> Tiempo de espera (en segundos) tras el cual se abandona la conexión SOAP para un conector de envío.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -1866,7 +1866,7 @@ En el **mta > child > smtp** configure los siguientes parámetros. Esta es la co
  <tbody> 
   <tr> 
    <td> enableTLS<br /> </td> 
-   <td> Activa la entrega de correos electrónicos en modo seguro (STARTTLS/SMTPS) cuando el servidor remoto los admite.<br /> </td> 
+   <td> Activa el envío de mensajes de correo electrónico en modo seguro (STARTTLS/SMTPS) cuando el servidor remoto lo admite.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1884,7 +1884,7 @@ En el **mta > child > smtp** configure los siguientes parámetros. Esta es la co
   </tr> 
   <tr> 
    <td> maxSessionsPerChild<br /> </td> 
-   <td> Número máximo de sesiones SMTP por servidor secundario. Para enviar un mensaje, el MTA inicializa una conexión SMTP con el MTA de destinatario. El número máximo de sesiones SMTP simultáneas y activas para un servidor secundario determinado está limitado por este valor. Si multiplica este valor por maxSpareServers, obtendrá el número máximo de mensajes que un servidor secundario determinado puede procesar simultáneamente.<br /> </td> 
+   <td> Número máximo de sesiones SMTP por servidor secundario. Para entregar un mensaje, el MTA inicializa una conexión SMTP con el MTA del destinatario. El número máximo de sesiones SMTP activas y simultáneas para un servidor secundario está limitado por este valor. Si se multiplica este valor por maxSpareServers, se obtiene el número máximo de mensajes que un servidor secundario determinado puede procesar simultáneamente.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 1000<br /> </td> 
   </tr> 
@@ -2157,7 +2157,7 @@ Estos son los diferentes parámetros de la variable **canalización** nodo . Est
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al principio. Los módulos de baja prioridad se inician primero y último se detienen. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen por última vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2410,7 +2410,7 @@ Estos son los diferentes parámetros de la variable **sms** nodo . Esta es la co
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al principio. Los módulos de baja prioridad se inician primero y último se detienen. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen por última vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2510,7 +2510,7 @@ Estos son los diferentes parámetros de la variable **stat** nodo . Esta es la c
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al principio. Los módulos de baja prioridad se inician primero y último se detienen. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen por última vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2581,7 +2581,7 @@ Estos son los diferentes parámetros de la variable **syslogd** nodo . Esta es l
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al principio. Los módulos de baja prioridad se inician primero y último se detienen. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen por última vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2694,7 +2694,7 @@ Estos son los diferentes parámetros de la variable **seguimiento** nodo . Esta 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al principio. Los módulos de baja prioridad se inician primero y último se detienen. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen por última vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2795,7 +2795,7 @@ Estos son los diferentes parámetros de la variable **trackinglogd** nodo . Esta
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al principio. Los módulos de baja prioridad se inician primero y último se detienen. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen por última vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2904,7 +2904,7 @@ Para obtener más información, consulte esta [sección](configuring-campaign-se
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al principio. Los módulos de baja prioridad se inician primero y último se detienen. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen por última vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -3139,7 +3139,7 @@ Para obtener más información, consulte [Seguridad y relés de página dinámic
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> estado<br /> </td> 
+   <td> status<br /> </td> 
    <td> Estado de sincronización de un recurso público (enumeración). Los valores posibles son 'normal' (ejecución normal), 'blacklist' (url agregada a lista de bloqueados en caso de error 404) y 'spare' (carga de archivos en el servidor de reserva si existe).<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> normal<br /> </td> 
@@ -3321,6 +3321,12 @@ Para obtener más información, consulte esta [sección](../../installation/usin
    <td> 100<br /> </td> 
   </tr> 
   <tr> 
+   <td> showSourceIP<br /> </td> 
+   <td> Cuando se establece en false, el valor de sourceIP en la respuesta devuelta por r/test es una cadena vacía. <br /> </td> 
+   <td> Booleano<br /> </td> 
+   <td> true<br /> </td> 
+  </tr> 
+  <tr> 
    <td> startRedirect<br /> </td> 
    <td> Inicie el servicio de redirección.<br /> </td> 
    <td> Booleano<br /> </td> 
@@ -3477,7 +3483,7 @@ Para obtener más información, consulte [Flujos de trabajo y afinidades de alta
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al principio. Los módulos de baja prioridad se inician primero y último se detienen. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen por última vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 

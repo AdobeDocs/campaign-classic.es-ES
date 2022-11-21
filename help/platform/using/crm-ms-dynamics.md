@@ -4,10 +4,10 @@ title: 'Campaign: Conector CRM de Microsoft Dynamics'
 description: Obtenga información sobre cómo conectar Campaign y Microsoft Dynamics
 feature: Microsoft CRM Integration
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
-source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
-workflow-type: ht
-source-wordcount: '1107'
-ht-degree: 100%
+source-git-commit: 1a2e6a0bc754a1236f64b35e99c1be08f1066f75
+workflow-type: tm+mt
+source-wordcount: '1111'
+ht-degree: 99%
 
 ---
 
@@ -216,3 +216,4 @@ Para Microsoft Dynamics 365, los tipos de atributos admitidos o no admitidos se 
 | Acerca de | No |
 | PartyList | No |
 | ManagedProperty | No |
+| Conjunto de opciones de selección múltiple | No |

@@ -6,10 +6,10 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
-source-git-commit: 59a2bc62b4c03ef0702cb57bd9dc808e7d0b444b
+source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 1%
+source-wordcount: '706'
+ht-degree: 4%
 
 ---
 
@@ -123,39 +123,33 @@ Se buscan las expresiones siguientes (con distinción de mayúsculas y minúscul
   <tr> 
    <td> .@<br /> </td> 
    <td> PU-0001<br /> </td> 
-   <td> Aviso<br /> </td> 
-   <td> Este tipo de sintaxis ya no se admite en la personalización de envíos. Consulte <a href="../../migration/using/general-configurations.md#javascript" target="_blank">JavaScript</a>. De lo contrario, compruebe que el tipo de valor es correcto.<br /> </td> 
+   <td> Advertencia<br /> </td> 
+   <td> Este tipo de sintaxis ya no se admite en la personalización de envíos. <br /> </td> 
   </tr> 
   <tr> 
    <td> common.js<br /> </td> 
    <td> PU-0002<br /> </td> 
-   <td> Aviso<br /> </td> 
+   <td> Advertencia<br /> </td> 
    <td> Esta biblioteca no debe utilizarse.<br /> </td> 
   </tr> 
   <tr> 
    <td> logon(<br /> </td> 
    <td> PU-0003<br /> </td> 
-   <td> Aviso<br /> </td> 
-   <td> Este método de conexión ya no debe utilizarse. Consulte <a href="../../migration/using/general-configurations.md#identified-web-applications" target="_blank">Aplicaciones web identificadas</a>.<br /> </td> 
+   <td> Advertencia<br /> </td> 
+   <td> Este método de conexión ya no debe utilizarse.<br /> </td> 
   </tr> 
   <tr> 
    <td> new SoapMethodCall(<br /> </td> 
    <td> PU-0004<br /> </td> 
-   <td> Aviso<br /> </td> 
+   <td> Advertencia<br /> </td> 
    <td> Esta función solo se admite cuando se utiliza en código JavaScript ejecutado desde una zona de seguridad incluida en <strong>sessionTokenOnly</strong> en el menú contextual.<br /> </td> 
   </tr> 
   <tr> 
    <td> sql=<br /> </td> 
    <td> PU-0005<br /> </td> 
    <td> Error<br /> </td> 
-   <td> Este tipo de error provoca un error de migración. Consulte <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>.<br /> </td> 
+   <td> Este tipo de error provoca un error de migración.<br /> </td> 
   </tr> 
-  <tr> 
-   <td> SQLDATA<br /> </td> 
-   <td> PU-0006<br /> </td> 
-   <td> Error<br /> </td> 
-   <td> Este tipo de error provoca un error de migración. Consulte <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. Si obtiene registros de errores de aplicaciones web de tipo "descripción general" (migración de la versión 6.02), consulte <a href="../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11" target="_blank">Configuración de Campaign</a>.<br /> </td> 
-  </tr>
   <tr> 
    <td> crmDeploymentType="onpremise"<br /> </td> 
    <td> PU-0007<br /> </td> 
@@ -168,7 +162,7 @@ Se buscan las expresiones siguientes (con distinción de mayúsculas y minúscul
    <td> CRM v1(mscrmWorkflow/sfdcWorkflow)<br /> </td> 
    <td> PU-0008<br /> </td> 
    <td> Error<br /> </td> 
-   <td> Las actividades de acción Microsoft CRM, Salesforce y Oracle CRM On Demand ya no están disponibles. Para configurar la sincronización de datos entre Adobe Campaign y un sistema CRM, debe utilizar la variable <a href="../../workflow/using/crm-connector.md" target="_blank">Conector CRM</a> actividad de segmentación.<br /> </td>
+   <td> Las actividades de acción Microsoft CRM, Salesforce y Oracle CRM bajo demanda ya no están disponibles. Para configurar la sincronización de datos entre Adobe Campaign y un sistema CRM, debe utilizar la variable <a href="../../workflow/using/crm-connector.md" target="_blank">Conector CRM</a> actividad de segmentación.<br /> </td>
   </tr> 
  </tbody> 
 </table>

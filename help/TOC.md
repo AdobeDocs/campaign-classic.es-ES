@@ -6,9 +6,9 @@ title: Guía de Campaign Classic v7
 user-guide-description: Con Adobe Campaign, puede utilizar datos de clientes enriquecidos para crear, coordinar y ofrecer campañas dinámicas que los clientes realmente deseen mediante correo electrónico, canales móviles, sin conexión y mucho más.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 8ea5a42e0539ea23c1d9940e3f38f2c90fdcc223
+source-git-commit: 0dd0b6f1aa69a6848a75e6299bd751de0bfddeb9
 workflow-type: tm+mt
-source-wordcount: '2556'
+source-wordcount: '2553'
 ht-degree: 99%
 
 ---
@@ -828,7 +828,6 @@ ht-degree: 99%
    + Inicie la migración {#migrating-to-adobe-campaign-7}
       + [Migración de una plataforma Microsoft Windows](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
       + [Migración de una plataforma Linux](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
-      + [Configurar su plataforma](migration/using/general-configurations.md)
    + [Procedimiento de reversión](migration/using/about-rollback.md)
 + Notas técnicas {#technotes}
    + [Recomendaciones de tamaño de hardware](technotes/using/hardware-sizing.md)

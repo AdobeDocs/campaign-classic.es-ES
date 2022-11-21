@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
-source-git-commit: 4fd69aa28c2e9325f4738ec571a6632c42ec26b8
+source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
 workflow-type: tm+mt
-source-wordcount: '1460'
+source-wordcount: '1464'
 ht-degree: 2%
 
 ---
@@ -236,13 +236,25 @@ Una vez definidas las zonas y la variable **[!UICONTROL Security zone]** está c
 
 * Establezca allowDebug en true solo en las IP utilizadas por los usuarios/administradores de marketing que necesiten crear estudios, webApps e informes (de hecho, previsualizarlos). Este indicador permite que estas IP obtengan reglas de transmisión mostradas y las depuren.
 
+   * Cuando allowDebug se establece en false, el resultado es:
+
+      ```
+      <redir status='OK' date='...' sourceIP='...'/>
+      ```
+
+   * Cuando allowDebug se establece en true, el resultado es:
+
+      ```
+      <redir status='OK' date='...' build='...' OR version='...' sha1='...' instance='...' sourceIP='...' host='...' localHost='...'/>
+      ```
+
 * Nunca establezca allowEmptyPassword, allowUserPassword, allowSQLInjection como verdadero. Estos atributos solo están aquí para permitir una migración sin problemas desde las versiones 5 y 6.0:
 
    * **allowEmptyPassword** permite que los operadores tengan una contraseña vacía. Si este es el caso, notifique a todos los operadores para que les pidan que establezcan una contraseña con una fecha límite. Una vez que haya pasado esta fecha límite, cambie este atributo a false.
 
    * **allowUserPassword** permite a los operadores enviar sus credenciales como parámetros (por lo que apache/IIS/proxy los registrará). Esta función se utilizaba en el pasado para simplificar el uso de la API. Puede consultar la guía (o la especificación) si algunas aplicaciones de terceros utilizan esto. Si es así, debe notificarles que deben cambiar la forma en que utilizan nuestra API y, lo antes posible, eliminar esta función.
 
-   * **allowSQLInjection** permite al usuario realizar inyecciones SQL utilizando una sintaxis antigua. Lleve a cabo lo antes posible las correcciones descritas en [esta página](../../migration/using/general-configurations.md) para poder establecer este atributo en false. Puede utilizar /nl/jsp/ping.jsp?zones=true para comprobar la configuración de su zona de seguridad. Esta página muestra el estado activo de las medidas de seguridad (calculadas con estos indicadores de seguridad) para la IP actual.
+   * **allowSQLInjection** permite al usuario realizar inyecciones SQL utilizando una sintaxis antigua. Este atributo debe establecerse en false. Puede utilizar /nl/jsp/ping.jsp?zones=true para comprobar la configuración de su zona de seguridad. Esta página muestra el estado activo de las medidas de seguridad (calculadas con estos indicadores de seguridad) para la IP actual.
 
 * HttpOnly cookie/useSecurityToken: consulte **sessionTokenOnly** indicador.
 

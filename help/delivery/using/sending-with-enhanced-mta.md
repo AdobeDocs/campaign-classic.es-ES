@@ -4,10 +4,10 @@ title: Envío con el servidor de envío mejorado en Adobe Campaign Classic
 description: Obtenga información acerca del ámbito y las características específicas del envío de correos electrónicos con el MTA mejorado de Adobe Campaign
 feature: Email
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
-source-wordcount: '1946'
-ht-degree: 100%
+source-git-commit: 2d5166c355ee090639dcc52866252bae6beb81f6
+workflow-type: tm+mt
+source-wordcount: '1999'
+ht-degree: 93%
 
 ---
 
@@ -37,9 +37,9 @@ La implementación del servidor de correo mejorado puede afectar a algunas de la
 
 **¿Qué es el servidor de correo mejorado (MTA)?**
 
-Ahora puede actualizar Adobe Campaign para que utilice un nuevo servidor de correo (MTA) que ejecuta un MTA de correo electrónico comercial de SparkPost denominado **Momentum**.
+Adobe Campaign ahora se puede actualizar para utilizar un nuevo MTA (Agente de transferencia de correo) que ejecute el MTA de correo electrónico comercial de SparkPost llamado **Momentum**.
 
-Momentum representa una tecnología de MTA innovadora y de alto rendimiento que incluye gestión de devoluciones más inteligente y capacidad de optimización de envíos automatizados, lo que ayuda a los remitentes a lograr y mantener tasas de envío de bandeja de entrada óptimas. <!--More than 37% of the world’s business email is sent using SparkPost’s MTA technology.-->
+Momentum representa una tecnología de MTA innovadora y de alto rendimiento que incluye gestión de devoluciones más inteligente y capacidad de optimización de envíos automatizados, lo que ayuda a los remitentes a lograr y mantener tasas de envío de bandeja de entrada óptimas. <!--More than 37% of the world's business email is sent using SparkPost's MTA technology.-->
 
 **¿Cuáles son los beneficios?**
 
@@ -59,7 +59,7 @@ No, there is no extra fee associated with the upgrade process to enable the use 
 
 * If you are new to Adobe Campaign Classic, you are already using the Enhanced MTA.
 
-* For Adobe Campaign Classic existing customers, we’ve implemented a phased rollout that covers all hosted or partially hosted (hybrid) instances. If you’re not already using it, we’ll be contacting you in the near future with the dates and details for upgrading your Adobe Campaign Classic instances to the Enhanced MTA.
+* For Adobe Campaign Classic existing customers, we've implemented a phased rollout that covers all hosted or partially hosted (hybrid) instances. If you're not already using it, we'll be contacting you in the near future with the dates and details for upgrading your Adobe Campaign Classic instances to the Enhanced MTA.
 -->
 
 ### Actualización al servidor de correo mejorado
@@ -117,7 +117,7 @@ Para obtener más información sobre las tipologías, consulte [esta sección](.
 
 ### Nuevas reglas MX
 
-Ya no se utilizan las reglas de rendimiento del envío de administración MX. El servidor de correo mejorado utiliza sus propias reglas MX que le permiten personalizar el rendimiento por dominio en función de su propia reputación histórica de correo electrónico y de los comentarios en tiempo real procedentes de los dominios a los que envía correos electrónicos.
+Ya no se utilizan las reglas de rendimiento del envío de administración MX. El MTA mejorado tiene sus propias reglas MX que le permiten personalizar el rendimiento por dominio en función de su propia reputación histórica de correo electrónico y de los comentarios en tiempo real procedentes de los dominios a los que envía correos electrónicos.
 
 Para saber más sobre la configuración MX, consulte [esta sección](../../installation/using/email-deliverability.md#mx-configuration).
 
@@ -140,6 +140,12 @@ Para obtener más información sobre el rendimiento del envío, consulte [esta s
 >[!NOTE]
 >
 >Con la capacidad [Servicio de comentarios de correo electrónico](#email-feedback-service) (EFS) (actualmente disponible como Beta), el gráfico Rendimiento de entrega de Campaign sigue mostrando el rendimiento a sus destinatarios de correo electrónico.
+
+### Reintentos
+
+Campaign ya no utiliza la configuración de reintentos de la entrega. Los reintentos de devoluciones en blanco y el periodo entre ellos están determinados por el MTA mejorado en función del tipo y la gravedad de las respuestas de devoluciones procedentes del dominio de correo electrónico del mensaje.
+
+Para obtener más información sobre los reintentos, consulte [esta sección](steps-sending-the-delivery.md#configuring-retries).
 
 ### Período de validez
 
@@ -182,7 +188,7 @@ Con el servicio de comentarios de correo electrónico (SCCE), se informa del est
 >
 >El servicio de comentarios de correo electrónico está disponible actualmente como una funcionalidad beta.
 >
->Si está interesado en participar en este programa beta, rellene [este formulario](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) y le responderemos.
+>Si está interesado en participar en este programa beta, rellene [este formulario](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) y te regresaremos.
 
 Una vez que se ha iniciado el envío, no se produce ningún cambio en el porcentaje de **[!UICONTROL Success]** cuando el mensaje se transmite correctamente de Campaign al servidor de correo mejorado.
 

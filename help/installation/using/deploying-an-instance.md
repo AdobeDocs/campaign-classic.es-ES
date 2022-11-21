@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 11e175c737d9c6cbb9432ec7835f35ee0e00a5c0
 workflow-type: tm+mt
-source-wordcount: '3048'
-ht-degree: 3%
+source-wordcount: '3140'
+ht-degree: 4%
 
 ---
 
@@ -72,16 +72,16 @@ El siguiente paso permite definir la información que se debe mostrar en los enc
 
 Estos parámetros se pueden sobrecargar en plantillas de envío e individualmente para cada envío (si los usuarios tienen los derechos requeridos).
 
-### Parámetros de los correos electrónicos enviados {#parameters-for-delivered-emails}
+### Parámetros para correos electrónicos enviados {#parameters-for-delivered-emails}
 
 ![](assets/s_ncs_install_deployment_wiz_04.png)
 
 Indique los siguientes parámetros:
 
-* **[!UICONTROL Sender name]** : Nombre del remitente,
-* **[!UICONTROL Sender address]** : La dirección del remitente,
-* **[!UICONTROL Reply address text]** : El nombre, que se puede personalizar, que se utilizará cuando el destinatario haga clic en el **[!UICONTROL Reply]** en el software cliente de correo electrónico,
-* **[!UICONTROL Reply address]** : La dirección de correo electrónico que se utiliza cuando el destinatario hace clic en el **[!UICONTROL Reply]** en el software cliente de correo electrónico,
+* **[!UICONTROL Sender name]** : Nombre del remitente
+* **[!UICONTROL Sender address]** : Dirección del remitente
+* **[!UICONTROL Reply address text]** : El nombre, que se puede personalizar, que se utilizará cuando el destinatario haga clic en el **[!UICONTROL Reply]** en el software cliente de correo electrónico
+* **[!UICONTROL Reply address]** : La dirección de correo electrónico que se utiliza cuando el destinatario hace clic en el **[!UICONTROL Reply]** en el software cliente de correo electrónico
 * **[!UICONTROL Error address]** : Dirección de correo electrónico de los mensajes con errores. Esta es la dirección técnica que se utiliza para gestionar el correo rechazado, incluidos los correos electrónicos recibidos por el servidor de Adobe Campaign debido a que no existen direcciones de destino.
 
 Además de esto, puede especificar la variable **máscaras** autorizado para la dirección del remitente y la dirección de error. Si es necesario, estas máscaras se pueden separar mediante comas. Esta configuración es opcional. Cuando se introducen campos, Adobe Campaign comprueba en el momento de la entrega (durante el análisis, si la dirección no incluye ninguna variable) que las direcciones son válidas. Este modo operativo garantiza que no se utilicen direcciones que puedan dar déclencheur a problemas de entrega. Las direcciones de envío deben configurarse en el servidor de envío.
@@ -106,14 +106,22 @@ Esta ventana permite definir, para todas las campañas de correo electrónico, l
 
 Estas son las opciones disponibles:
 
-* **[!UICONTROL Delivery duration of messages]** : Más allá de este tiempo, la entrega se detiene (de forma predeterminada, 5 días),
-* **[!UICONTROL Online resources validity duration]** : Tiempo durante el cual se conserva la información del perfil de destinatario para generar páginas espejo,
-* **[!UICONTROL Exclude recipients who no longer wish to be contacted]** : Cuando se selecciona esta opción, no se contacta con los destinatarios de lista de bloqueados,
+* **[!UICONTROL Delivery duration of messages]** : Más allá de este tiempo, la entrega se detiene (de forma predeterminada, 5 días).
+* **[!UICONTROL Online resources validity duration]** : Hora a la que se guarda la información del perfil de destinatario para generar páginas espejo.
+* **[!UICONTROL Exclude recipients who no longer wish to be contacted]** : Cuando se selecciona esta opción, no se contacta con los destinatarios de la  en lista de bloqueados opción.
 * **[!UICONTROL Automatically ignore doubles]** : Cuando se selecciona esta opción, el envío no se realiza para duplicar direcciones.
+
+>[!NOTE]
+>
+>Para instalaciones alojadas o híbridas, si ha actualizado a la variable [MTA mejorado](../../delivery/using/sending-with-enhanced-mta.md), el **[!UICONTROL Delivery duration of the messages]** solo se utilizará si se configura como **3,5 días o menos**. Si define un valor superior a 3,5 días, no se tendrá en cuenta.
 
 ### Parámetros de reintento {#retry-parameters}
 
 La información sobre las recuperaciones se proporciona en la **Periodos de recuperación** y **Número de recuperaciones** campos: cuando no se puede acceder a un destinatario, por ejemplo, si la bandeja de entrada está llena, el programa intentará ponerse en contacto con ellos 5 veces, con un intervalo de una hora entre cada intento (durante el tiempo de entrega máximo). Estos valores se pueden cambiar para adaptarlos a sus necesidades.
+
+>[!NOTE]
+>
+>Para instalaciones alojadas o híbridas, si ha actualizado a la variable [MTA mejorado](../../delivery/using/sending-with-enhanced-mta.md), ya no se utilizan los parámetros de reintento de Campaign. Los reintentos de devoluciones en blanco y el periodo entre ellos están determinados por el MTA mejorado en función del tipo y la gravedad de las respuestas de devoluciones procedentes del dominio de correo electrónico del mensaje.
 
 ### Parámetros de cuarentena {#quarantine-parameters}
 
@@ -147,7 +155,7 @@ Una vez especificada la configuración POP, haga clic en **Prueba** para asegura
 
 ### Correos devueltos sin procesar {#unprocessed-bounce-mails}
 
-Adobe Campaign gestiona automáticamente las devoluciones aplicando las reglas enumeradas en la **Administración > Gestión de campañas > Administración de no entregables > Clasificación del registro de entregas** nodo . Para obtener más información, consulte [Gestión de correos rechazados](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
+Adobe Campaign gestiona automáticamente las devoluciones aplicando las reglas enumeradas en la **Administration > Campaign Management > Non deliverables Management > Delivery log qualification** nodo . Para obtener más información, consulte [Gestión de correos rechazados](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
 
 Las devoluciones sin procesar no se muestran en la interfaz de Adobe Campaign. Se eliminan automáticamente a menos que se transfieran a un buzón de terceros mediante los campos siguientes:
 
@@ -270,7 +278,7 @@ El siguiente paso permite definir la configuración predeterminada para los env�
 
 ![](assets/s_ncs_install_deployment_wiz_12.png)
 
-### Cuenta predeterminada para envío de SMS {#default-account-for-sms-delivery}
+### Cuenta predeterminada para el envío de SMS {#default-account-for-sms-delivery}
 
 Introduzca la siguiente información:
 
