@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: 77fee343-09d1-4d60-be43-efe02953a70c
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6eaf7490f1be913986af2924017d014d2ba54559
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Ofertas en un canal saliente{#offers-on-an-outbound-channel}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 ## Envío de ofertas por correo electrónico {#email-offer-delivery}
 
