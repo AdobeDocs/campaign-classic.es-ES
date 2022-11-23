@@ -1,10 +1,10 @@
 ---
 product: campaign
-title: Privacidad
-description: Obtenga más información sobre las prácticas recomendadas a seguir con respecto a la privacidad
+title: Personalización y privacidad
+description: Conozca las prácticas recomendadas de seguridad para la privacidad y la personalización
 feature: URL Personalization, Privacy
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: 0e57ffba9b8c7fd05843c3353d2c0d64cbc83b8b
+source-git-commit: f97199e634205742b74a08932a40db2fca138cc3
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 13%
