@@ -5,7 +5,7 @@ description: Descubra más información sobre las entregas multicanal
 feature: Workflows, Channels Activity
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
 source-git-commit: 31a475c98b09bbeca6a16c6fd98698af10016033
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
 

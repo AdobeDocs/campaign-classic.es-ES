@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
+source-git-commit: fee8337e09b2596ae834289213363cf1b58339be
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '766'
 ht-degree: 100%
 
 ---
@@ -138,6 +138,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <tr>
 <td>PostgreSQL</td>
 <td>
+<p>14.x</p>
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
@@ -212,6 +213,7 @@ Los entornos **Managed Services** (alojados), **Híbrido** y **On-Premise** pued
 <tr>
 <td>PostgreSQL</td>
 <td>
+<p>14.x</p>
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
