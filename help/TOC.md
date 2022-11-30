@@ -9,7 +9,7 @@ type: Documentation
 source-git-commit: 5792ad762befb97888ad32406d3bcb7f97df3fa7
 workflow-type: tm+mt
 source-wordcount: '2524'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -825,7 +825,7 @@ ht-degree: 99%
       + [Notas técnicas](technotes/using/technote.md)
       + [Nuevo servidor de capacidad de entrega](technotes/using/deliverability-server.md)
       + [Actualización de seguridad de Apache](technotes/using/acc-apache-upgrade.md)
-      + [Actualizaciones del sistema de 2023](technotes/using/tech-stack-upgrade.md)
+      + [Actualizaciones del sistema 2023](technotes/using/tech-stack-upgrade.md)
       + [Actualizaciones de IMS](technotes/using/ims-updates.md)
       + [Finalización del servicio de soporte para TLS 1.0 y 1.1](technotes/using/eol-tls-support.md)
    + Correos electrónicos y notificaciones push{#technotes-email}

@@ -9,7 +9,7 @@ exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 0ecf9c69cc4b444feda1e42701a3a27f2b2e7eeb
 workflow-type: tm+mt
 source-wordcount: '1684'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
 </tr>
 <tr>
  <td>Conector ACS</td>
- <td>Conector ACS (Oferta principal) ya no se utiliza. Puede utilizar las capacidades de exportación e importación de Campaign para extraer e insertar datos en ambos productos.<p></p>
+ <td>El conector ACS (oferta Prime) ya no se utiliza. Puede utilizar las funcionalidades de exportación e importación de Campaign para extraer e insertar datos en ambos productos.<p></p>
   <p>Fecha de eliminación del destinatario: finales de 2023</p>
   </td>
 </tr>
