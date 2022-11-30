@@ -5,7 +5,7 @@ description: Actualización del sistema de Adobe Campaign
 hide: true
 hidefromtoc: true
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
-source-git-commit: b8bbdb4a0d595ec2bc884e041d1e56b81da8aa3d
+source-git-commit: 7948f6423b80788adf26a53afcd380953c8b8463
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 8%
@@ -55,7 +55,7 @@ Si está ejecutando Campaign en un sistema operativo Debian, para beneficiarse d
 
 **¿Se ha visto afectado?**
 
-Si el sistema de bases de datos para Campaign es PostgreSQL, para beneficiarse de las últimas innovaciones y actualizaciones de seguridad de PostgreSQL, debe actualizar a **PostgreSQL 14**. Tenga en cuenta que PostreSQL 11 llegará al fin de su vida útil el 30 de noviembre de 2022.
+Si el sistema de bases de datos para Campaign es PostgreSQL, para beneficiarse de las últimas innovaciones y actualizaciones de seguridad de PostgreSQL, debe actualizar a **PostgreSQL 14**. Tenga en cuenta que PostreSQL 11 llegará al fin de su vida útil el 9 de noviembre de 2023.
 
 **¿Cómo realizar la actualización?**
 
