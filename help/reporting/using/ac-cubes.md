@@ -3,10 +3,11 @@ product: campaign
 title: Introducción a los cubos
 description: Introducción a los cubos
 feature: Reporting
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
-workflow-type: tm+mt
+exl-id: 71d24f03-d41d-49bc-b9a5-8237902f7d6a
+source-git-commit: c1be67d32c39d20f7794b6019a6e03c9ec29df94
+workflow-type: ht
 source-wordcount: '345'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -44,4 +45,4 @@ Utilice el módulo Campaign Marketing Analytics para lo siguiente:
 1. Crear una consulta con datos calculados y acumulados en un cubo.
 1. Identificar poblaciones y hacerles referencia en listas.
 
-Aprenda a crear y utilizar cubos en [Documentación de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html){target=&quot;_blank&quot;}.
+Aprenda a crear y utilizar cubos en la [Documentación de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html?lang=es){target=&quot;_blank&quot;}.
