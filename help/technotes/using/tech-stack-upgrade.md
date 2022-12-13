@@ -2,10 +2,8 @@
 product: campaign
 title: 'Nota técnica: Actualizaciones del sistema de Adobe Campaign'
 description: Actualización del sistema de Adobe Campaign
-hide: true
-hidefromtoc: true
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
-source-git-commit: bffad77458ab0b4d40490a52c64c99a0fe882d22
+source-git-commit: d04b672fe2049d83ba17d3d855e1b609e81cf8c9
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 9%
