@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: f37f6c080bc6fb70cbd3f853db4ad8685ae8ebf8
-workflow-type: ht
-source-wordcount: '2737'
-ht-degree: 100%
+source-git-commit: 1c0aeecd72a35fc6e2e72f4b042df2ff39e5cb6f
+workflow-type: tm+mt
+source-wordcount: '2771'
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,8 @@ _21 de noviembre de 2022_
 
 **Actualizaciones de compatibilidad**
 
-* Adobe Campaign ahora es compatible con PostgreSQL 14.
+* Adobe Campaign ahora es compatible con PostgreSQL 14. Para obtener más información, consulte esta [nota técnica](../../technotes/using/tech-stack-upgrade.md).
+
 * Tras el fin de la vida útil de Microsoft Internet Explorer 11, el motor de renderización de HTML para los paneles de la consola del cliente utiliza ahora Microsoft Edge Chromium. (NEO-20741)
 
 Consulte la [Matriz de compatibilidades de Campaign](../../rn/using/compatibility-matrix.md#RDBMSservers).
@@ -108,7 +109,7 @@ _1 de julio de 2022_
 * El SDK de Adobe Campaign ahora es compatible con Android 12 y iOS 15 para las notificaciones push.
 * Adobe Campaign ahora es compatible con MySQL 8.
 * Adobe Campaign ahora es compatible con Windows 11.
-* Adobe Campaign ahora es compatible con Debian 11.
+* Adobe Campaign ahora es compatible con Debian 11. Para obtener más información, consulte esta [nota técnica](../../technotes/using/tech-stack-upgrade.md).
 
 Consulte la [Matriz de compatibilidades de Campaign](../../rn/using/compatibility-matrix.md#OperatingSystems).
 
@@ -241,3 +242,4 @@ Adobe Campaign ahora es compatible con Windows Server 2019. Consulte la [Matriz 
 * Se ha corregido un problema que podía impedir que previsualizara los envíos de correo electrónico adjuntos a un flujo de trabajo. (NEO-37840)
 * Se ha corregido un problema que podía hacer que el flujo de trabajo de limpieza de la base de datos eliminara tablas válidas que contenían valores de lista. (NEO-34911)
 * Se ha corregido un problema que podía provocar que el flujo de trabajo de facturación se bloqueara en las instancias de marketing.
+* Se ha corregido un problema que podría provocar que la entrega se envíe a un número de destinatarios mayor que el esperado. (NEO-45108)
